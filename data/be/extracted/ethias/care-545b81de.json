@@ -1,0 +1,297 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "be",
+  "insurer_slug": "ethias",
+  "insurer_name": "Ethias",
+  "product_name": "Care+",
+  "branch": "sante",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": "particuliers",
+  "reference": "1252-437/1",
+  "edition_date": "01/26",
+  "product_family": "Care+",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.ethias.be/content/dam/B2C/general/pdf/infofiche/fi-care-fr.pdf",
+  "source_pdf": "care-soins-de-sante-545b81de.pdf",
+  "source_sha256": "98847befc8de33bf41c59ae81127a4c9686105ac88850d2b68fb2de64e360d4f",
+  "source_pages": 2,
+  "fetched_at": "2026-07-05",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "L'assurance Care+ d'Ethias est une assurance complémentaire de frais médicaux à caractère indemnitaire. Elle a pour objectif de rembourser les frais de soins médicaux ambulatoires et de soins dentaires (sans hospitalisation) qui, après déduction des interventions légales ou éventuellement extralégales, restent à charge de l'assuré. Le remboursement se fait à hauteur de 80 % des frais restant à charge de l'assuré, dans certaines limites.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Remboursement des frais médicaux ambulatoires (80 %)",
+      "description": "Le remboursement à hauteur de 80 % des frais médicaux ambulatoires (y compris les soins oculaires et dentaires) qui, après déduction des interventions légales ou éventuellement extralégales, restent à charge de l'assuré. Ces soins doivent être de nature curative et/ou diagnostique, médicalement nécessaires, dispensés par des prestataires de soins reconnus et suffisamment éprouvés sur le plan thérapeutique.",
+      "is_optional": false,
+      "territorial_scope": "En Belgique. Dans les pays limitrophes. Dans tout autre pays lorsque l'assuré se trouve à l'étranger et que son état médical nécessite des soins médicaux urgents et imprévus.",
+      "limits": "80% des frais restant à charge de l'assuré jusqu'à 3.000 euros par année civile",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Soins de nature curative et/ou diagnostique",
+        "Médicalement nécessaires",
+        "Dispensés par des prestataires de soins reconnus",
+        "Suffisamment éprouvés sur le plan thérapeutique"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Soins ambulatoires",
+      "description": "Traitements médicaux et paramédicaux, médecine alternative, médicaments et dispositifs médicaux prescrits.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Soins oculaires",
+      "description": "Verres et montures de lunettes, lentilles de contact et chirurgie oculaire réfractive.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [
+        "Monture de lunettes : 60 % des frais et max. 200 euros",
+        "Chirurgie oculaire réfractive : max. 750 euros par œil"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Soins dentaires",
+      "description": "Soins dentaires préventifs et curatifs, soins parodontaux, soins dentaires spécialisés (orthodontie avec intervention légale et prothèses dentaires) et soins dentaires après un accident.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [
+        "Prothèses dentaires : 60% des frais"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Soins psychologiques",
+      "description": "Soins psychologiques dispensés par un prestataire de soins reconnu.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [
+        "Soins psychologiques sans intervention légale : max. 500 euros"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Dispensés par un prestataire de soins reconnu"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Prévention",
+      "description": "Vaccins et un budget de prévention pour des conseils, produits, services et traitements visant à améliorer l'état de santé ou à prévenir des maladies.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [
+        "Budget de prévention : max. 100 euros"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Maladie ou affection préexistante",
+      "description": "Une maladie ou une affection qui était déjà présente avant la date de début du contrat (exception : en cas de continuation individuelle d'une police collective de soins ambulatoires chez Ethias).",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Traitements en cours",
+      "description": "Des traitements en cours.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Ivresse, intoxication alcoolique ou influence de drogues",
+      "description": "Des maladies et des accidents dont l'assuré a été victime en état d'ivresse, d'intoxication alcoolique ou sous l'influence de drogues, narcotiques, médicaments ou stupéfiants utilisés sans prescription médicale.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Alcoolisme, toxicomanie ou usage abusif de médicaments",
+      "description": "Des maladies et des accidents dont l'assuré a été victime en conséquence de son alcoolisme, sa toxicomanie ou son usage abusif de médicaments.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Traitements esthétiques ou cures de rajeunissement",
+      "description": "Des traitements esthétiques ou de cures de rajeunissement.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Stérilisation ou traitement",
+      "description": "Une stérilisation ou à un traitement.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Vaccins de voyage",
+      "description": "Des vaccins de voyage.",
+      "applies_to": "all",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": null,
+    "per_coverage": null,
+    "page": null
+  },
+  "waiting_periods": [
+    {
+      "coverage": "Général",
+      "duration": "3 mois",
+      "description": "Délai d'attente général : 3 mois.",
+      "page": 1
+    },
+    {
+      "coverage": "Lunettes et lentilles",
+      "duration": "6 mois",
+      "description": "Délai d'attente spécifique : 6 mois pour lunettes et lentilles.",
+      "page": 1
+    },
+    {
+      "coverage": "Chirurgie oculaire réfractive, soins dentaires spécialisés et appareils auditifs",
+      "duration": "12 mois",
+      "description": "Délai d'attente spécifique : 12 mois pour chirugie oculaire réfractive, soins dentaires spécialisés et appareils auditifs.",
+      "page": 1
+    }
+  ],
+  "obligations": [
+    {
+      "name": "Communication d'informations exactes et complètes",
+      "description": "Lors de la conclusion du contrat vous devez nous communiquer toutes les informations, données exactes et complètes sur le risque à assurer. La proposition d'assurance doit être complétée pour chaque personne à assurer.",
+      "timing": "Lors de la conclusion du contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Communication des modifications du risque",
+      "description": "Si des modifications surviennent en cours de contrat au risque pour lequel vous êtes assuré (entre autres votre domicile), vous êtes tenu de nous les communiquer.",
+      "timing": "En cours de contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Transmission de la demande d'intervention",
+      "description": "L'assuré doit, aussi rapidement que possible, transmettre sa demande d'intervention à Ethias.",
+      "timing": "En cas de sinistre / demande d'intervention",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Transmission des pièces justificatives",
+      "description": "Ethias pourra réclamer à l'assuré toute pièce qu'elle jugera nécessaire.",
+      "timing": "En cas de sinistre / demande d'intervention",
+      "sanction": null,
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclaration",
+      "description": "L'assuré doit, aussi rapidement que possible, transmettre sa demande d'intervention à Ethias. Ethias pourra réclamer à l'assuré toute pièce qu'elle jugera nécessaire.",
+      "deadline": "Aussi rapidement que possible",
+      "page": 2
+    },
+    {
+      "step": "Transmission des justificatifs de frais",
+      "description": "Ethias met à disposition de l'assuré différents outils permettant de déclarer une demande d'intervention, transmettre des justificatifs de frais, consulter son dossier tels que l'Espace client (service en ligne permettant aux assurés de consulter leurs couvertures, de suivre leur dossier et sinistres, en toute confidentialité et quand ils le veulent) et AssurPharma (système électronique facilitant le remboursement des frais pharmaceutiques en permettant la transmission des BVAC par voie électronique).",
+      "deadline": null,
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat est conclu à vie. L'assurance prend cours à la date indiquée dans les conditions particulières du contrat.",
+    "tacit_renewal": null,
+    "notice_period": "Au moins deux mois avant la date d'échéance qui est fixée au 1er janvier",
+    "methods": [
+      "Envoi recommandé",
+      "Exploit d'huissier",
+      "Remise de la lettre de résiliation contre récépissé"
+    ],
+    "special_rights": [
+      "Le preneur d'assurance peut renoncer à la continuation du contrat, par lettre recommandée, au moins deux mois avant la date d'échéance qui est fixée au 1er janvier.",
+      "Le preneur d'assurance peut résilier le contrat d'assurance par envoi recommandé, par exploit d'huissier ou par la remise de la lettre de résiliation contre récépissé. Le contrat peut être résilié au plus tard deux mois avant la date d'échéance annuelle du contrat."
+    ],
+    "page": 2
+  },
+  "prescription_period": {
+    "description": null,
+    "page": null
+  },
+  "premium": {
+    "notes": [
+      "La prime est annuelle, payable anticipativement sur présentation de l'avis d'échéance et exigible au jour de l'échéance."
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Période de renouvellement - Lunettes",
+      "description": "Lunettes : 1x tous les 3 ans sauf en cas de changement de dioptrie.",
+      "page": 1
+    },
+    {
+      "name": "Période de renouvellement - Appareils auditifs",
+      "description": "Appareils auditifs : 1x tous les 5 ans (sauf pour les enfants).",
+      "page": 1
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "L’assurance Care+ est une assurance complémentaire de frais médicaux à caractère indemnitaire, qui a pour objectif de rembourser les frais",
+      "context": "Nature du produit",
+      "page": 1
+    },
+    {
+      "quote": "Le remboursement à hauteur de 80 % des frais médicaux",
+      "context": "Couverture principale",
+      "page": 1
+    },
+    {
+      "quote": "Global : 80% des frais restant à charge de l’assuré",
+      "context": "Limite d'intervention globale",
+      "page": 1
+    },
+    {
+      "quote": "Une maladie ou une affection qui était déjà présente",
+      "context": "Exclusion principale",
+      "page": 1
+    },
+    {
+      "quote": "Le contrat est conclu à vie.",
+      "context": "Durée du contrat",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "Le document est une fiche d'information (IPID) et n'est pas exhaustif : il indique lui-même que « les informations qui y sont reprises ne sont pas exhaustives » et renvoie aux conditions contractuelles et générales pour le détail complet.",
+    "Aucune définition contractuelle (glossaire) n'est fournie dans ce document.",
+    "Aucun délai de prescription n'est mentionné dans le document.",
+    "Les appareils auditifs sont mentionnés dans les délais d'attente et périodes de renouvellement mais ne figurent pas explicitement dans la liste des garanties assurées de la page 1."
+  ]
+}

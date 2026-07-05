@@ -1,0 +1,336 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "be",
+  "insurer_slug": "amma",
+  "insurer_name": "AMMA Assurances",
+  "branch": "auto",
+  "document_type": "ipid",
+  "language": "fr",
+  "source_url": "https://www.amma.be/documents/278?lang=fr",
+  "product_name": "Assurance Auto",
+  "reference": "04-AU-IPID-0226-FR",
+  "edition_date": "0226",
+  "target_audience": null,
+  "branch_code": null,
+  "product_family": "Assurance Auto",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_pages": 2,
+  "source_pdf": "amma-auto-fe53e7e9.pdf",
+  "source_sha256": "bb41c9e008b1fe193a00b2eb63a407d2daf016b4604474df34866e1c7f94d7f7",
+  "fetched_at": "2026-07-05",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d'information sur le produit d'assurance (IPID) relatif à l'Assurance Auto d'AMMA Assurances. Le produit comprend l'assurance obligatoire de la responsabilité civile Auto, qui couvre les dommages causés à un véhicule ou à une personne dont l'assuré est tenu responsable, ainsi qu'une assistance de base gratuite en combinaison avec la RC. Il est possible de souscrire des garanties facultatives : Mini Omnium, Maxi Omnium, Protection juridique, Protection du conducteur (dommages corporels) et Assistance Formule étendue. Une garantie gratuite couvre également les biens professionnels (para)médicaux ou vétérinaires.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Responsabilité civile (RC) - Couverture obligatoire",
+      "description": "La RC couvre les dommages physiques ou matériels causés aux tiers par le véhicule assuré. L'assurance obligatoire de la responsabilité civile Auto couvre les dommages causés à un véhicule ou à une personne dont l'assuré en question est tenu responsable. Les personnes assurées sont : le preneur d'assurance, le propriétaire du véhicule, tout conducteur et toute personne transportée.",
+      "is_optional": false,
+      "territorial_scope": "Les pays mentionnés sur la carte internationale d'assurance automobile, qui est délivrée au moment de la signature du contrat.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Assistance (Formule de base) - Couverture gratuite en combinaison avec la couverture RC",
+      "description": "Assurance assistance (formule de base) en cas d'accident en Belgique, au Luxembourg et à 50 km au-delà des frontières. Amma organise le remorquage du véhicule endommagé et le retour à la maison en toute sécurité du conducteur et des passagers.",
+      "is_optional": false,
+      "territorial_scope": "Belgique, Luxembourg et à 50 km au-delà des frontières.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "En combinaison avec la couverture RC."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Mini Omnium",
+      "description": "Mini Omnium, qui comprend les garanties suivantes : incendie, vol, bris de glace, forces de la nature et contact avec les animaux.",
+      "is_optional": true,
+      "territorial_scope": "Tous les pays où l'assurance responsabilité civile obligatoire de votre véhicule s'applique.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Maxi Omnium",
+      "description": "Maxi Omnium, qui comprend la garantie Mini Omnium + les dommages matériels propres.",
+      "is_optional": true,
+      "territorial_scope": "Tous les pays où l'assurance responsabilité civile obligatoire de votre véhicule s'applique.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Franchise pour les dommages matériels : 2,5 % de la valeur assurée du véhicule, avec un maximum de 750 EUR.",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Protection juridique",
+      "description": "Protection juridique (garantie facultative).",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Protection du conducteur (Dommages corporels)",
+      "description": "Protection du conducteur (Dommages corporels) - garantie facultative. Assurance « Dommages corporels » du conducteur.",
+      "is_optional": true,
+      "territorial_scope": "Tous les pays où l'assurance responsabilité civile obligatoire de votre véhicule s'applique.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Assistance Formule étendue",
+      "description": "Assistance Formule étendue : véhicule et occupants d'un véhicule en cas de panne, véhicule de remplacement après l'accident (5 jours ou 10 jours), assistance aux personnes en cas de maladie ou blessure lors d'un déplacement. Il est également possible de souscrire une assurance assistance (formule étendue) en combinaison avec l'assurance RC.",
+      "is_optional": true,
+      "territorial_scope": "Maxi Assistance : dans le monde entier, sauf dans les pays exclus dans les conditions générales.",
+      "limits": null,
+      "sub_limits": [
+        "Véhicule de remplacement après l'accident (5 jours ou 10 jours)."
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Garantie gratuite pour vos biens professionnels",
+      "description": "AMMA intervient à hauteur de 2.500 EUR (ce montant sera porté à 3.500 EUR si vous souscrivez à une mini ou maxi omnium) en cas d'endommagement, de destruction ou de perte des instruments (para)médicaux ou vétérinaires se trouvant dans votre voiture et nécessaires à l'exercice de votre profession en cas de vol avec effraction ou à la suite d'un accident.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "2.500 EUR (porté à 3.500 EUR si souscription à une mini ou maxi omnium)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "En cas de vol avec effraction ou à la suite d'un accident.",
+        "Instruments (para)médicaux ou vétérinaires se trouvant dans votre voiture et nécessaires à l'exercice de votre profession."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Accidents Corporels du conducteur",
+      "description": "Il est possible de souscrire une assurance Accidents Corporels du conducteur en combinaison avec l'assurance RC.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "En combinaison avec l'assurance RC."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Voiture de remplacement du conducteur après un accident",
+      "description": "Il est possible de souscrire une assurance Voiture de remplacement du conducteur après un accident en combinaison avec l'assurance RC.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "En combinaison avec l'assurance RC."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Véhicule de remplacement (carrossier agréé)",
+      "description": "Même si vous n'avez pas souscrit à l'une de nos formules d'assistance, vous avez droit à un véhicule de remplacement pendant la période de réparation si vous faites réparer votre véhicule par un carrossier agréé par l'AMMA (sous réserve de disponibilité chez le réparateur).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Faire réparer votre véhicule par un carrossier agréé par l'AMMA.",
+        "Sous réserve de disponibilité chez le réparateur."
+      ],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Dommages causés intentionnellement (RC)",
+      "description": "En matière de responsabilité civile : les dommages causés intentionnellement.",
+      "applies_to": "Responsabilité civile (RC) - Couverture obligatoire",
+      "page": 1
+    },
+    {
+      "name": "Ivresse ou conduite sous influence (RC)",
+      "description": "En matière de responsabilité civile : les dommages en cas d'ivresse ou de conduite sous influence.",
+      "applies_to": "Responsabilité civile (RC) - Couverture obligatoire",
+      "page": 1
+    },
+    {
+      "name": "Sinistres hors zone géographique (Assistance Formule de base)",
+      "description": "Concernant la garantie Assistance (Formule de base) : les sinistres survenus en dehors de la Belgique, du Luxembourg et dans un rayon de 50 km autour des frontières belges.",
+      "applies_to": "Assistance (Formule de base) - Couverture gratuite en combinaison avec la couverture RC",
+      "page": 1
+    },
+    {
+      "name": "Frais de carburant et de restaurant (Assistance Formule de base)",
+      "description": "Concernant la garantie Assistance (Formule de base) : les frais de carburant et de restaurant.",
+      "applies_to": "Assistance (Formule de base) - Couverture gratuite en combinaison avec la couverture RC",
+      "page": 1
+    },
+    {
+      "name": "Épreuves motorisées (Assistance Formule étendue)",
+      "description": "Concernant la garantie Assistance (Formule étendue) : les incidents ou accidents survenus au cours d'épreuves motorisées (courses, compétitions, rallyes, raids).",
+      "applies_to": "Assistance Formule étendue",
+      "page": 1
+    },
+    {
+      "name": "Frais de carburant et de restaurant (Assistance Formule étendue)",
+      "description": "Concernant la garantie Assistance (Formule étendue) : les frais de carburant et de restaurant.",
+      "applies_to": "Assistance Formule étendue",
+      "page": 1
+    },
+    {
+      "name": "Affections ou lésions bénignes (Assistance Formule étendue)",
+      "description": "Concernant la garantie Assistance (Formule étendue) : les affections ou lésions bénignes n'empêchant pas l'assuré de poursuivre son déplacement.",
+      "applies_to": "Assistance Formule étendue",
+      "page": 1
+    },
+    {
+      "name": "Vol commis par ou avec la complicité de l'assuré (Dommages matériels)",
+      "description": "Concernant la garantie Dommages matériels : vol commis par ou avec la complicité de l'assuré.",
+      "applies_to": "Maxi Omnium",
+      "page": 1
+    },
+    {
+      "name": "Usure ou vice propre (Dommages matériels)",
+      "description": "Concernant la garantie Dommages matériels : les dommages dus à l'usure ou au vice propre.",
+      "applies_to": "Maxi Omnium",
+      "page": 1
+    },
+    {
+      "name": "État d'ivresse (Dommages matériels)",
+      "description": "Concernant la garantie Dommages matériels : les sinistres survenus dont la cause est l'état d'ivresse.",
+      "applies_to": "Maxi Omnium",
+      "page": 1
+    },
+    {
+      "name": "Dommage inférieur à 500 EUR (Protection Juridique)",
+      "description": "Concernant la garantie Protection Juridique : les frais et honoraires lorsque le montant du dommage à récupérer est inférieur à 500 EUR.",
+      "applies_to": "Protection juridique",
+      "page": 1
+    },
+    {
+      "name": "Amendes et transactions pénales (Protection Juridique)",
+      "description": "Concernant la garantie Protection Juridique : les amendes et transactions pénales.",
+      "applies_to": "Protection juridique",
+      "page": 1
+    },
+    {
+      "name": "Véhicule en location ou réquisitionné (Protection Conducteur)",
+      "description": "Concernant la garantie Protection Conducteur : les sinistres survenus alors que le véhicule assuré est donné en location ou est réquisitionné.",
+      "applies_to": "Protection du conducteur (Dommages corporels)",
+      "page": 1
+    },
+    {
+      "name": "État d'ivresse (Protection Conducteur)",
+      "description": "Concernant la garantie Protection Conducteur : les sinistres survenus dont la cause est l'état d'ivresse.",
+      "applies_to": "Protection du conducteur (Dommages corporels)",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": "Franchise pour les dommages matériels : 2,5 % de la valeur assurée du véhicule, avec un maximum de 750 EUR. Franchise pour bris de glace chez un réparateur non-agréé : 125 EUR.",
+    "per_coverage": "Dommages matériels : 2,5 % de la valeur assurée du véhicule, avec un maximum de 750 EUR. Bris de glace chez un réparateur non-agréé : 125 EUR.",
+    "page": 1
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "description": "Lors de la conclusion du contrat : communiquer avec précision toutes les circonstances connues que je dois raisonnablement considérer comme des données pouvant influencer l'évaluation du risque par AMMA.",
+      "timing": "Lors de la conclusion du contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "Pendant la durée de l'accord : indiquer les nouvelles circonstances ou les changements de circonstances qui sont de nature à affecter les circonstances et l'évaluation du dommage par AMMA.",
+      "timing": "Pendant la durée de l'accord",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "En cours de contrat : indiquer les circonstances nouvelles ou les changements de circonstances de nature à entraîner une augmentation significative et permanente du risque de survenance de l'événement assuré.",
+      "timing": "En cours de contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "En cas de sinistre : fournir à AMMA toutes les informations utiles et répondre aux questions afin de pouvoir déterminer les circonstances et l'étendue du sinistre ; prendre également toutes les mesures raisonnables pour prévenir et limiter les conséquences du sinistre.",
+      "timing": "En cas de sinistre",
+      "sanction": null,
+      "page": 2
+    }
+  ],
+  "claims_procedure": [],
+  "duration_and_cancellation": {
+    "duration": "La date de début et la durée de l'assurance sont mentionnées dans les conditions particulières du contrat. Par défaut, le contrat dure un an et est renouvelé tacitement d'année en année.",
+    "tacit_renewal": "Renouvelé tacitement d'année en année.",
+    "methods": [
+      "La résiliation du contrat doit se faire par envoi recommandé, par exploit d'huissier ou par remise d'une lettre de résiliation avec accusé de réception."
+    ],
+    "special_rights": null,
+    "page": 2,
+    "notice_period": "Vous pouvez résilier le contrat d'assurance au plus tard deux mois avant la date d'échéance annuelle du contrat. Après une période de couverture d'un an, vous pouvez résilier le contrat à tout moment moyennant un préavis de deux mois."
+  },
+  "prescription_period": null,
+  "premium": {
+    "description": "Vous avez l'obligation de payer la prime dès réception de l'invitation à payer. La prime doit être payée chaque année avant l'échéance annuelle fixée au contrat. Lorsqu'un échelonnement est possible (semestriel, trimestriel, mensuel), ce dernier peut générer des frais supplémentaires.",
+    "page": 2
+  },
+  "special_conditions": [],
+  "key_quotes": [
+    {
+      "page": 1,
+      "quote": "L’assurance obligatoire de la responsabilité civile Auto couvre les dommages causés à un véhicule ou à une personne dont l’assuré en question est tenu responsable."
+    },
+    {
+      "page": 1,
+      "quote": "Couverture obligatoire : la RC couvre les dommages physiques ou matériels causés aux tiers par le véhicule assuré ;"
+    },
+    {
+      "page": 1,
+      "quote": "Franchise pour les dommages matériels : 2,5 % de la valeur assurée du véhicule, avec un maximum de 750 EUR."
+    },
+    {
+      "page": 1,
+      "quote": "les dommages causés intentionnellement ;"
+    },
+    {
+      "page": 2,
+      "quote": "Par défaut, le contrat dure un an et est renouvelé tacitement d’année en année."
+    },
+    {
+      "page": 2,
+      "quote": "Vous pouvez résilier le contrat d’assurance au plus tard deux mois avant la date d’échéance annuelle du contrat."
+    }
+  ],
+  "gaps": [
+    "Le document est un IPID (fiche d'information produit) non exhaustif : il renvoie aux conditions générales et particulières pour le détail complet des garanties, limites et exclusions.",
+    "Aucune section 'Définitions' n'est présente dans le document.",
+    "Aucune procédure de sinistre détaillée (étapes/délais) n'est fournie.",
+    "Aucun délai de prescription n'est mentionné.",
+    "Aucun délai d'attente (waiting period) n'est mentionné.",
+    "Les montants de couverture (plafonds) de la RC, de la Protection juridique et de la Protection du conducteur ne sont pas chiffrés dans le document.",
+    "La liste des pays exclus pour la Maxi Assistance renvoie aux conditions générales et n'est pas détaillée ici."
+  ]
+}

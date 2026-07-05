@@ -1,0 +1,267 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "be",
+  "insurer_slug": "dkv",
+  "insurer_name": "DKV Belgium",
+  "branch": "sante",
+  "document_type": "ipid",
+  "language": "fr",
+  "source_url": "https://biblio.dkv.be/pdfbib.ashx?lang=fr&id=31124",
+  "product_name": "DKV MEDI PACK",
+  "reference": "31 124_FR_11_202507",
+  "edition_date": "202507",
+  "target_audience": "Toute personne physique ayant son domicile et sa résidence fixe et habituelle en Belgique, n’ayant pas atteint l’âge de 70 ans à la conclusion du contrat d’assurance et bénéficiant des avantages de la sécurité sociale belge.",
+  "branch_code": null,
+  "product_family": "DKV MEDI PACK",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_pages": 2,
+  "source_pdf": "dkv-medi-pack-1d335076.pdf",
+  "source_sha256": "c22f26a8da650cee2fabfd067c9a30590130a28883b8daffac09fd5be3cd00d7",
+  "fetched_at": "2026-07-05",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "DKV MEDI PACK est une assurance individuelle soins de santé à caractère indemnitaire, complémentaire à l’intervention de l’assurance maladie légale belge. Elle couvre les soins ambulatoires (remboursement à 80%) et l’hospitalisation en chambre double ou commune (remboursement à 100%), avec libre choix du prestataire de soins, de l’hôpital et du médecin. Elle inclut également l’assistance dans l’Union européenne et le rapatriement en cas d’hospitalisation urgente imprévue, ainsi que des services comme Medi-Card® et AssurPharma.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Libre choix du prestataire de soins, de l’hôpital et du médecin",
+      "description": "Libre choix du prestataire de soins, de l’hôpital et du médecin.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Soins ambulatoires",
+      "description": "Remboursement à 80% des frais médicaux ambulatoires 365 jours/an, même en cas de non-intervention de l’assurance maladie légale belge : Frais de prestations médicales (visites, consultations) ; Frais de prestations paramédicales (kinésithérapie, physiothérapie, soins infirmiers) ; Médecines alternatives (homéopathie, ostéopathie, acupuncture, chiropraxie) ; Frais pharmaceutiques ; Frais d’adjuvants médicaux (verres de lunettes, appareils auditifs, etc) ; Prothèses médicales et membres artificiels.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Remboursement à 80% des frais médicaux ambulatoires 365 jours/an",
+      "sub_limits": [
+        "Frais de perruque avec un maximum de € 1.250"
+      ],
+      "deductible": "Une franchise annuelle dont le montant est déterminé dans les Conditions Particulières d’Assurance est applicable pour les frais médicaux ambulatoires",
+      "conditions": [
+        "En cas de traitement ambulatoire dans un pays membre de l’Union européenne, remboursement uniquement si intervention de l’assurance maladie légale belge",
+        "Remboursement des traitements psychothérapeutiques si dispensés par un psychiatre",
+        "Remboursement des frais de procréation médicalement assistée sous réserve d'une autorisation préalable et d'un remboursement par l'assurance obligatoire soins de santé et indemnités"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Hospitalisation",
+      "description": "Remboursement à 100% en cas d’hospitalisation en chambre double ou commune des : Frais d’hospitalisation (salle de plâtres incluse) en cas de maladie, d’accident ou d’accouchement ; Frais de séjour ; Frais de prestations médicales ; Frais de prestations paramédicales (kinésithérapie, physiothérapie, soins infirmiers) ; Frais pharmaceutiques ; Frais d’adjuvants médicaux ; Prothèses médicales et membres artificiels ; Frais de transport en Belgique en cas d’hospitalisation : en ambulance vers et depuis l'hôpital, ainsi que le transfert vers un autre hôpital. Par hélicoptère du lieu de l’accident à l’hôpital.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Remboursement à 100% en cas d’hospitalisation en chambre double ou commune",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Remboursement des frais couverts à 50% de la totalité de la facture d’hospitalisation si l’assurance maladie légale n’intervient sur aucun des postes de la facture d’hospitalisation"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Frais de transport en Belgique en cas d’hospitalisation",
+      "description": "Frais de transport en Belgique en cas d’hospitalisation : en ambulance vers et depuis l'hôpital, ainsi que le transfert vers un autre hôpital. Par hélicoptère du lieu de l’accident à l’hôpital.",
+      "is_optional": false,
+      "territorial_scope": "Belgique",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Assistance dans l’Union Européenne et rapatriement",
+      "description": "Assistance dans l’Union Européenne et rapatriement en cas d’hospitalisation urgente imprévue et non-planifiée.",
+      "is_optional": false,
+      "territorial_scope": "Union Européenne",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "en cas d’hospitalisation urgente imprévue et non-planifiée"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Services - Méthode de paiement Medi-Card®",
+      "description": "Méthode de paiement Medi-Card® : le paiement direct de la facture d'hospitalisation à l'hôpital.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Services - AssurPharma",
+      "description": "AssurPharma : Envoi automatisé des attestations par le pharmacien reconnu à DKV.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Affections/symptômes préexistants",
+      "description": "Affections/symptômes préexistants à la conclusion du contrat d'assurance, excepté continuation individuelle d’une assurance collective soins de santé de DKV similaire.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Produits et compléments alimentaires, vitamines et minéraux, produits d’hygiène et cosmétiques",
+      "description": "Produits et compléments alimentaires, vitamines et minéraux, produits d’hygiène et cosmétiques.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Vaccination, contraception, stérilisation",
+      "description": "Vaccination, contraception, stérilisation.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Interventions esthétiques",
+      "description": "Interventions esthétiques.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Utilisation de drogues",
+      "description": "Utilisation de drogues.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Tous les traitements dentaires",
+      "description": "Tous les traitements dentaires.",
+      "applies_to": "all",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": "Une franchise annuelle dont le montant est déterminé dans les Conditions Particulières d’Assurance est applicable pour les frais médicaux ambulatoires",
+    "per_coverage": "Frais médicaux ambulatoires : franchise annuelle dont le montant est déterminé dans les Conditions Particulières d’Assurance",
+    "page": 1
+  },
+  "waiting_periods": [
+    {
+      "name": "Délais d'attente",
+      "description": "La couverture débute à l'expiration des délais d'attente et après paiement de la première prime convenue.",
+      "duration": null,
+      "page": 2
+    }
+  ],
+  "obligations": [
+    {
+      "description": "Remplir un questionnaire administratif et médical, excepté en cas de continuation individuelle d’une assurance collective soins de santé de DKV similaire.",
+      "timing": null,
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "Aviser l’assureur en cas de changement de domicile et/ou de résidence fixe et habituelle, de statut de sécurité sociale ou d’un séjour à l’étranger supérieur à 90 jours consécutifs ou d’un séjour temporaire de plus de 6 mois dans les États membres de l'Union européenne (à l'exclusion des territoires d'outre-mer) des étudiants, âgés de 18 à 25 ans inclus, lorsqu’ils sont effectués dans le cadre (de la continuation) de leurs études.",
+      "timing": null,
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "Le remboursement de certaines prestations est soumis à autorisation préalable de l’assureur : les traitements paramédicaux autre que les soins infirmiers, kinésithérapie, physiothérapie ; les adjuvants médicaux ; les plans de traitement pour les soins dentaires et prothétiques ; la chirurgie plastique reconstructive. Ne sont subordonnés à aucune autorisation préalable : les verres de lunettes, les lentilles de contact, les appareils auditifs, les bandages pour hernies, les bas à varices, les semelles orthopédiques, les coquilles plâtrées, le lombostat, les attèles et les béquilles.",
+      "timing": "autorisation préalable",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "Prescription par un médecin des adjuvants médicaux, médicaments, pansements et matériel médical.",
+      "timing": null,
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "Chaque sinistre doit être déclaré par écrit à l'assureur dans le délai imparti, de préférence à l'aide des outils digitaux de déclaration (My DKV ou DKV App), sinon par courrier (électronique).",
+      "timing": "dans le délai imparti",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "L’assuré entreprend toutes les démarches pour obtenir une intervention de sa mutualité.",
+      "timing": null,
+      "sanction": null,
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Chaque sinistre doit être déclaré par écrit à l'assureur dans le délai imparti, de préférence à l'aide des outils digitaux de déclaration (My DKV ou DKV App), sinon par courrier (électronique).",
+      "deadline": "dans le délai imparti",
+      "page": 2
+    },
+    {
+      "step": "L’assuré entreprend toutes les démarches pour obtenir une intervention de sa mutualité.",
+      "deadline": null,
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Durée du contrat : à vie, non résiliable par l’assureur sauf exceptions prévues par la loi. Le contrat d’assurance commence après l'émission de la police. La couverture débute à l'expiration des délais d'attente et après paiement de la première prime convenue.",
+    "tacit_renewal": null,
+    "methods": [
+      "La notification de résiliation du contrat à l’assureur doit se faire par lettre recommandée, par exploit d’huissier ou par la remise d’une lettre de résiliation avec accusé de réception."
+    ],
+    "special_rights": [
+      "L’assureur peut résilier le contrat d'assurance pour non-paiement de la prime."
+    ],
+    "page": 2,
+    "notice_period": "Vous pouvez résilier votre contrat d'assurance à chaque date d’échéance annuelle en le notifiant à l’assureur au plus tard trois mois avant cette date."
+  },
+  "prescription_period": null,
+  "premium": {
+    "description": "L’assureur vous envoie une invitation à payer votre prime annuelle. Moyennant la prise en compte de frais de fractionnement, vous avez possibilité de demander le paiement semestriel, trimestriel ou mensuel (via domiciliation SEPA uniquement) de votre prime.",
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "description": "Couverture dans les pays membres de l’Union européenne (excepté les pays et les territoires d’outre-mer). Pour une hospitalisation planifiée dans un pays membre de l’Union européenne si accord préalable de la mutualité.",
+      "page": 2
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Assurance individuelle soins de santé à caractère indemnitaire complémentaire à l’intervention de l’assurance maladie légale belge."
+    },
+    {
+      "quote": "Soins ambulatoires : Remboursement à 80% des frais médicaux ambulatoires 365 jours/an, même en cas de non-intervention de l’assurance maladie légale belge"
+    },
+    {
+      "quote": "Frais de perruque avec un maximum de € 1.250"
+    },
+    {
+      "quote": "Affections/symptômes préexistants à la conclusion du contrat d'assurance, excepté continuation individuelle d’une assurance collective soins de santé de DKV similaire"
+    },
+    {
+      "quote": "Durée du contrat : à vie, non résiliable par l’assureur sauf exceptions prévues par la loi."
+    },
+    {
+      "quote": "Vous pouvez résilier votre contrat d'assurance à chaque date d’échéance annuelle en le notifiant à l’assureur au plus tard trois mois avant cette date."
+    }
+  ],
+  "gaps": [
+    "Le document est un IPID (fiche d'information produit) de 2 pages : il ne contient pas de section Définitions ni de délai de prescription, d'où les champs vides correspondants.",
+    "Le montant de la franchise annuelle sur les frais médicaux ambulatoires n'est pas indiqué : renvoyé aux Conditions Particulières d’Assurance.",
+    "La durée exacte des délais d'attente n'est pas précisée dans le document."
+  ]
+}

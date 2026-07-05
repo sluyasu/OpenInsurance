@@ -1,0 +1,28 @@
+# Downloaded PDFs are large binaries — regenerable from sources/ via `make download`.
+# The manifest (provenance: url, checksum, date) IS committed; the PDFs are not.
+data/**/pdfs/
+
+# Secrets
+.env
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+
+# Playwright
+.playwright/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Node (only if a static site is added later)
+node_modules/
+
+# Obsidian per-user workspace state
+.obsidian/

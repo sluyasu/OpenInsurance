@@ -1,0 +1,566 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "be",
+  "insurer_slug": "kbc",
+  "insurer_name": "KBC Bank & Verzekering",
+  "branch": "sante",
+  "document_type": "conditions_generales",
+  "language": "fr",
+  "source_url": "https://multimediafiles.kbcgroup.eu/ng/published/KBC/PDF/VERZEKERINGEN/hospitalisatievzk/kbc-assurance-hospitalisation-conditions-generales.pdf",
+  "product_name": "Assurance Hospitalisation",
+  "reference": null,
+  "edition_date": null,
+  "target_audience": null,
+  "branch_code": null,
+  "product_family": "Assurance Hospitalisation",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_pages": 15,
+  "source_pdf": "assurance-hospitalisation-1dee37fe.pdf",
+  "source_sha256": "4b785e0dc07c276652c6133be2af82105231168532880675be30df77ef67a6ea",
+  "fetched_at": "2026-07-05",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "L'assurance hospitalisation de KBC prévoit une intervention dans les frais médicaux qui ne sont pas pris en charge par la mutuelle en cas d'hospitalisation pour cause de maladie, accident, accouchement ou complication de grossesse. Elle indemnise également les soins ambulatoires pendant la période pré- et post-hospitalisation (deux mois avant et six mois après) et dans le cas de certaines maladies graves. La couverture s'applique dans le monde entier, à vie, avec une franchise choisie par le preneur d'assurance et mentionnée dans les conditions particulières.",
+  "definitions": [
+    {
+      "term": "Vous",
+      "definition": "le preneur d'assurance, la personne qui signe le contrat d'assurance avec l'assureur.",
+      "page": 1
+    },
+    {
+      "term": "Assuré",
+      "definition": "la personne sur la tête de laquelle l'assurance est souscrite. L'assuré est mentionné dans les conditions particulières.",
+      "page": 1
+    },
+    {
+      "term": "Hospitalisation",
+      "definition": "un séjour médicalement nécessaire d'au moins une nuit dans un hôpital ou un séjour dans un hôpital de jour. Le séjour dans un hôpital de jour est considéré comme une hospitalisation à condition que les prestations médicales soient remboursées de manière forfaitaire par l'INAMI sur la base de la convention nationale entre les hôpitaux et les mutuelles.",
+      "page": 1
+    },
+    {
+      "term": "Hôpital",
+      "definition": "un établissement reconnu comme tel par la loi. Dans cette assurance, les institutions suivantes ne sont pas considérées comme des hôpitaux : les institutions médico-pédagogiques, les établissements de soins psychiatriques, les initiatives d'habitation protégée, les initiatives pour les soins palliatifs, les institutions exclusivement réservées aux personnes âgées, convalescentes ou aux enfants et les institutions, départements et lits de maisons de repos et de soins.",
+      "page": 1
+    },
+    {
+      "term": "Maladie",
+      "definition": "une altération de la santé s'accompagnant de symptômes objectifs et due à une cause autre qu'un accident.",
+      "page": 2
+    },
+    {
+      "term": "Maladie infectieuse",
+      "definition": "une maladie qui est la conséquence d'une infection causée par des micro-organismes (bactéries, virus, parasites, champignons et levures).",
+      "page": 2
+    },
+    {
+      "term": "Affections psychiques et/ou psychiatriques",
+      "definition": "affection évoquée dans l'édition la plus récente du Diagnostic and Statistical Manual of Mental Disorders (DSM).",
+      "page": 2
+    },
+    {
+      "term": "Accident",
+      "definition": "un événement soudain qui entraîne des lésions corporelles constatables objectivement et dont la cause ou une des causes est étrangère à l'organisme de la victime.",
+      "page": 2
+    },
+    {
+      "term": "Soins médicaux ambulatoires",
+      "definition": "des soins médicaux qui sont prodigués à un moment où l'assuré n'est pas hospitalisé.",
+      "page": 2
+    },
+    {
+      "term": "Frais de morgue",
+      "definition": "les frais de conservation d'un défunt à la morgue de l'hôpital.",
+      "page": 2
+    },
+    {
+      "term": "Accouchement à domicile",
+      "definition": "un accouchement qui se déroule en dehors de l'hôpital sous le contrôle d'un médecin ou d'une accoucheuse (ou d'un accoucheur) compétent et agréé.",
+      "page": 2
+    },
+    {
+      "term": "Accouchement ambulatoire",
+      "definition": "un accouchement qui se déroule à l'hôpital et pour lequel la mère de l'enfant quitte l'hôpital dans les 8 heures qui suivent l'accouchement. Dans le présent contrat, l'accouchement ambulatoire est assimilé à un accouchement à domicile.",
+      "page": 2
+    },
+    {
+      "term": "Année d'assurance",
+      "definition": "la période de douze mois qui commence à l'échéance annuelle principale du contrat d'assurance.",
+      "page": 2
+    },
+    {
+      "term": "Intervention légale",
+      "definition": "toute intervention prévue par la législation belge par l'assurance obligatoire contre la maladie et l'invalidité et par l'assurance obligatoire pour les accidents du travail ou les maladies professionnelles.",
+      "page": 3
+    },
+    {
+      "term": "Franchise",
+      "definition": "le montant des frais assurés qui reste toujours à la charge de l'assuré. Ce montant est appliqué par affilié et par année d'assurance.",
+      "page": 3
+    },
+    {
+      "term": "Affection préexistante",
+      "definition": "une maladie ou infirmité qui s'est déjà manifestée avant la date de l'affiliation de l'assuré, de même qu'un accident survenu avant cette date.",
+      "page": 3
+    },
+    {
+      "term": "Spécialité pharmaceutique",
+      "definition": "médicament produit par une entreprise pharmaceutique.",
+      "page": 3
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Garantie hospitalisation",
+      "description": "L'assureur prévoit une intervention dans les frais exposés pendant une hospitalisation de l'assuré à la suite d'une maladie, d'un accident, d'un accouchement ou de complications de grossesse, pour les prestations médicalement nécessaires suivantes : les consultations, examens, traitements, spécialités pharmaceutiques et homéopathiques (celles-ci doivent figurer dans la nomenclature des prestations médicales en matière d'assurance obligatoire contre la maladie et l'invalidité) ; le séjour de l'assuré dans un hôpital ; les prothèses ou appareils orthopédiques sur prescription médicale, à condition qu'ils aient un lien direct avec la cause de l'hospitalisation ; les implants dentaires et prothèses dentaires (à condition qu'ils aient un lien direct avec la cause de l'hospitalisation et donnent droit à une intervention légale) ; les frais pour le transport médical adapté de l'assuré et/ou de son donneur vers ou depuis l'hôpital (prouvés par facture) ; les examens et traitements des nouveau-nés effectués pendant la durée de l'hospitalisation de la mère ; les soins palliatifs prodigués dans une unité hospitalière de soins palliatifs agréée par l'INAMI ; les frais de morgue imputés sur la facture de l'hôpital. Seuls les frais qui ont un lien direct avec les raisons de l'hospitalisation donnent droit à une intervention.",
+      "is_optional": false,
+      "territorial_scope": "monde entier",
+      "limits": null,
+      "sub_limits": [
+        "L'indemnité pour les frais de transport est limitée à 1.250 euros pour un assuré et son donneur et par année d'assurance.",
+        "En cas d'hospitalisation à cause d'une affection psychique ou psychiatrique, les frais sont remboursés pendant une période d'hospitalisation de deux années au maximum, interrompue ou non, à compter du premier jour donnant droit au remboursement."
+      ],
+      "deductible": "Le montant de la franchise dépend du choix du preneur d'assurance et est mentionné dans les conditions particulières.",
+      "conditions": [
+        "Les prestations doivent être médicalement nécessaires.",
+        "Seuls les frais qui ont un lien direct avec les raisons de l'hospitalisation donnent droit à une intervention.",
+        "Seuls les frais assurés qui sont facturés par un hôpital ou par le service central d'encaissement d'un hôpital entrent en ligne de compte pour le remboursement dans le cadre de la garantie hospitalisation."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Frais d'accompagnement d'un enfant assuré mineur hospitalisé",
+      "description": "L'assureur prévoit une intervention dans les frais exposés lorsque, en cas d'hospitalisation d'un enfant assuré mineur d'âge, un des parents ou le tuteur passe la nuit dans la même chambre.",
+      "is_optional": false,
+      "territorial_scope": "monde entier",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Hospitalisation d'un enfant assuré mineur d'âge.",
+        "Un des parents ou le tuteur passe la nuit dans la même chambre."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Intervention du donneur (garantie hospitalisation)",
+      "description": "L'assureur prévoit une intervention dans les frais pour l'intervention d'un donneur si cette intervention est médicalement nécessaire pour le traitement de l'assuré. Le donneur doit être soit le partenaire, soit un parent ou un allié de l'assuré. L'assureur rembourse les frais d'hospitalisation du donneur à condition que celui-ci se fasse hospitaliser volontairement et consciemment en vue d'effectuer un don.",
+      "is_optional": false,
+      "territorial_scope": "monde entier",
+      "limits": null,
+      "sub_limits": [
+        "L'indemnité pour les frais de transport est limitée à 1.250 euros pour un assuré et son donneur et par année d'assurance."
+      ],
+      "deductible": null,
+      "conditions": [
+        "L'intervention doit être médicalement nécessaire pour le traitement de l'assuré.",
+        "Le donneur doit être soit le partenaire, soit un parent ou un allié de l'assuré.",
+        "Le donneur doit se faire hospitaliser volontairement et consciemment en vue d'effectuer un don."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Traitements esthétiques ou plastiques consécutifs à un accident ou une maladie assurés",
+      "description": "L'assureur prévoit une intervention dans les frais assurés pour les traitements esthétiques ou plastiques qui sont la conséquence directe d'un accident assuré ou d'une maladie assurée et qui font partie de : la chirurgie esthétique ou plastique reconstructrice ; ou la chirurgie esthétique ou plastique non reconstructrice ayant un caractère fonctionnel, pour autant que l'INAMI ait approuvé ce traitement. Les suppléments d'honoraires ne sont, dans ce cas, pas remboursés. Les autres traitements esthétiques et plastiques ne sont pas indemnisés.",
+      "is_optional": false,
+      "territorial_scope": "monde entier",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Le traitement doit être la conséquence directe d'un accident assuré ou d'une maladie assurée.",
+        "Pour la chirurgie non reconstructrice à caractère fonctionnel, l'INAMI doit avoir approuvé ce traitement.",
+        "Les suppléments d'honoraires ne sont pas remboursés dans ce cas."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Garantie pré- et post-hospitalisation",
+      "description": "Cette garantie a uniquement trait à la période de deux mois qui précède le début d'une hospitalisation assurée et à la période de six mois qui suit la fin de cette hospitalisation. L'assureur prévoit une intervention dans les frais exposés pendant cette période pour les prestations médicalement nécessaires suivantes : les consultations, examens et traitements prescrits par un médecin, à condition qu'ils donnent droit à une intervention légale ; les spécialités pharmaceutiques et homéopathiques, s'ils sont achetés sur prescription médicale chez un pharmacien et s'ils figurent dans la nomenclature des prestations de santé ; les prothèses ou appareils orthopédiques sur prescription médicale (les frais pour l'entretien, la réparation et le remplacement ne sont pas remboursés ; pour les enfants, l'assureur rembourse les prothèses ou appareils ultérieurs justifiés par la croissance, jusqu'à l'âge de 21 ans) ; la location et les frais de livraison de matériel médical sur prescription médicale. Cette garantie prévoit également un remboursement des frais cités exposés par le donneur si son intervention est médicalement nécessaire pour le traitement de l'assuré. Seuls les frais qui ont un lien direct avec les raisons de l'hospitalisation donnent droit à une intervention.",
+      "is_optional": false,
+      "territorial_scope": "monde entier",
+      "limits": "période de deux mois qui précède le début d'une hospitalisation assurée et période de six mois qui suit la fin de cette hospitalisation",
+      "sub_limits": [
+        "Pour les enfants, l'assureur rembourse les prothèses ou appareils orthopédiques ultérieurs dans la mesure où leur placement est justifié par la croissance de l'enfant, et ce, jusqu'à l'âge de 21 ans."
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les prestations doivent être médicalement nécessaires pour l'assuré.",
+        "Les consultations, examens et traitements doivent être prescrits par un médecin et donner droit à une intervention légale.",
+        "Les spécialités pharmaceutiques et homéopathiques doivent être achetées sur prescription médicale chez un pharmacien et figurer dans la nomenclature.",
+        "Les frais pour l'entretien, la réparation et le remplacement des prothèses ne sont pas remboursés.",
+        "Seuls les frais qui ont un lien direct avec les raisons de l'hospitalisation donnent droit à une intervention."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Garantie maladies graves",
+      "description": "Cette garantie est applicable si l'assuré souffre d'une des maladies suivantes : anthrax, brucellose, cancer, choléra, démence, diabète, dialyse rénale, diphtérie, dystrophie musculaire progressive, encéphalite, fièvre paratyphoïde, hépatite virale, leucémie, maladie de Creutzfeldt-Jacob, maladie de Crohn, maladie de Hodgkin, maladie de Parkinson, maladie de Pompe, malaria, méningite cérébro-spinale, mucoviscidose, poliomyélite, scarlatine, sclérose en plaques, sclérose latérale amyotrophique, SIDA, tétanos, tuberculose, typhus, typhus exanthématique, variole. Dans ce cas, l'assureur prévoit une intervention pour les prestations médicalement nécessaires suivantes à condition qu'elles aient un lien direct avec la maladie grave : les consultations, examens et traitements prescrits par un médecin, à condition qu'ils donnent droit à une intervention légale ; les spécialités pharmaceutiques et homéopathiques (achetés sur prescription médicale chez un pharmacien et figurant dans la nomenclature) ; la location et les frais de livraison de matériel médical sur prescription médicale.",
+      "is_optional": false,
+      "territorial_scope": "monde entier",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "La franchise ne s'applique pas pour la garantie frais médicaux ambulatoires en cas de maladie grave.",
+      "conditions": [
+        "L'assuré doit souffrir d'une des maladies graves énumérées.",
+        "Les prestations doivent être médicalement nécessaires et avoir un lien direct avec la maladie grave.",
+        "Les consultations, examens et traitements doivent être prescrits par un médecin et donner droit à une intervention légale.",
+        "Les spécialités pharmaceutiques et homéopathiques doivent être achetées sur prescription médicale chez un pharmacien et figurer dans la nomenclature."
+      ],
+      "page": 5
+    },
+    {
+      "name": "Thérapies alternatives",
+      "description": "L'assureur prévoit une intervention dans les frais pour des thérapies alternatives telles que l'acuponcture, la chiropraxie, l'ostéopathie et les consultations chez un homéopathe, conformément aux conditions d'une des garanties précitées aux points 2a, 2b et 2c et pour autant que ces thérapies soient pratiquées par des personnes autorisées par la loi à exercer la médecine.",
+      "is_optional": false,
+      "territorial_scope": "monde entier",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Conformément aux conditions d'une des garanties précitées aux points 2a, 2b et 2c.",
+        "Les thérapies doivent être pratiquées par des personnes autorisées par la loi à exercer la médecine."
+      ],
+      "page": 6
+    },
+    {
+      "name": "Accouchements à domicile ou ambulatoires",
+      "description": "En cas d'accouchement à domicile ou d'accouchement ambulatoire, l'assureur rembourse un montant forfaitaire de 625 euros dans lequel l'indemnité pour les frais exposés pour les soins médicaux ambulatoires avant et après l'accouchement est comprise.",
+      "is_optional": false,
+      "territorial_scope": "monde entier",
+      "limits": "montant forfaitaire de 625 euros",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Accouchement à domicile ou accouchement ambulatoire.",
+        "L'indemnité pour les frais exposés pour les soins médicaux ambulatoires avant et après l'accouchement est comprise dans le forfait."
+      ],
+      "page": 6
+    },
+    {
+      "name": "Couverture en cas de terrorisme",
+      "description": "Cette garantie couvre les dommages causés par le terrorisme, conformément à la législation relative à l'assurance contre les dommages causés par le terrorisme. L'assureur est à cet effet membre de l'ASBL TRIP. Conformément à la loi, l'exécution de tous les engagements de toutes les entreprises d'assurances membres de l'ASBL TRIP peut être limitée dans le cas où le montant total à payer de tous les engagements de toutes les entreprises d'assurances ensemble dépasserait, au cours d'une même année civile, le montant fixé par la loi. S'il s'avère que la limitation du montant à payer est d'application, cela se fera par le biais de l'application d'un pourcentage fixé conformément à la législation. L'assuré ou le bénéficiaire peut prétendre au paiement auprès de l'assureur dès que ce pourcentage a été fixé.",
+      "is_optional": false,
+      "territorial_scope": "monde entier",
+      "limits": "l'exécution des engagements peut être limitée si le montant total à payer dépasse, au cours d'une même année civile, le montant fixé par la loi",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Conformément à la législation relative à l'assurance contre les dommages causés par le terrorisme.",
+        "L'assureur est membre de l'ASBL TRIP."
+      ],
+      "page": 7
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Thérapie occupationnelle, cures, internement, vaccination obligatoire",
+      "description": "Ne sont pas assurés : une thérapie occupationnelle, les traitements par cure, l'internement, la vaccination obligatoire.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Traitements expérimentaux ou non éprouvés",
+      "description": "Ne sont pas assurés : tous les traitements expérimentaux ou non éprouvés.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Traitements de rééducation sans lien direct",
+      "description": "Ne sont pas assurés : les traitements de rééducation qui ne sont pas la conséquence directe d'une maladie assurée, d'un accident assuré ou d'une intervention chirurgicale pour laquelle la couverture était acquise.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Prothèses complémentaires (sport, hobbies)",
+      "description": "Ne sont pas assurés : les prothèses utilisées comme prothèse complémentaire par exemple pour la pratique d'un sport ou de hobbies.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Conséquences ou complications d'une affection préexistante",
+      "description": "Ne sont pas assurés les frais médicaux qui résultent des conséquences ou complications d'une affection préexistante pour autant que le diagnostic ait été posé avant la date de l'affiliation ou dans les deux ans qui suivent la date de l'affiliation de l'assuré. Par conséquences et complications, l'assureur entend également une poussée aiguë d'une maladie contagieuse, inflammatoire ou chronique.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Accouchement avec conception antérieure à l'effet de la garantie",
+      "description": "Ne sont pas assurés les frais médicaux qui résultent d'un accouchement lorsque la conception a eu lieu avant la date d'effet de la garantie d'assurance.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Plaintes subjectives sans anomalies objectivement constatables",
+      "description": "Ne sont pas assurés les frais médicaux qui résultent de toutes les affections pour lesquelles l'assuré présente des plaintes subjectives qui ne peuvent pas être expliquées par des anomalies objectivement constatables.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Contraception, stérilisation et leurs suites",
+      "description": "Ne sont pas assurés les frais médicaux qui résultent d'un traitement contraceptif, d'une stérilisation ainsi que des conséquences et des complications apparaissant dans une période de deux mois après ces interventions ou traitements.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Lésions volontaires et actes de violence de l'assuré",
+      "description": "Ne sont pas assurés les frais médicaux qui résultent des lésions apportées ou recherchées volontairement par l'assuré (les cas de légitime défense ou les tentatives de sauvetage de personnes, d'animaux ou de biens ne font pas partie de cette rubrique) ; les actes de violence commis par l'assuré sur des personnes ou la détérioration malveillante ou le détournement de biens.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Consommation abusive d'alcool ou de stupéfiants (maladie)",
+      "description": "Ne sont pas assurés les frais médicaux qui résultent d'une maladie découlant de la consommation abusive de boissons alcoolisées ou de stupéfiants, de substances hallucinogènes ou autres produits psycholeptiques ou psychoanaleptiques, sauf si l'assuré démontre que la consommation de ces substances était justifiée d'un point de vue médical.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Accident sous influence d'alcool ou de stupéfiants",
+      "description": "Ne sont pas assurés les frais médicaux qui résultent d'un accident survenu alors que l'assuré était en état d'ivresse ou d'intoxication alcoolique ou sous l'influence de stupéfiants, de substances hallucinogènes ou d'autres drogues, sauf si l'assuré fournit la preuve qu'il n'y a aucun lien causal entre l'accident et ces circonstances.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Émeutes, troubles, actes de violence collectifs",
+      "description": "Ne sont pas assurés les frais médicaux qui résultent d'émeutes, troubles, actes de violence collectifs de nature politique, idéologique ou sociale, accompagnés ou non de rébellion à l'égard des autorités publiques ou de tout autre pouvoir investi, pour autant que l'affilié y ait pris part volontairement et activement.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Fait de guerre",
+      "description": "Ne sont pas assurés les frais médicaux qui résultent d'un fait de guerre (cette exclusion ne s'applique pas en cas de conflit survenant pendant le séjour de l'assuré à l'étranger, si l'assuré n'a pas pris part activement aux hostilités).",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Réactions nucléaires, radioactivité et radiations ionisantes",
+      "description": "Ne sont pas assurés les frais médicaux qui résultent de réactions nucléaires, de la radioactivité et de radiations ionisantes, à l'exception des traitements médicaux par rayons.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Dommages causés par armes ou instruments à explosion nucléaire (y compris terrorisme)",
+      "description": "Ne sont pas assurés les frais médicaux qui résultent de dommages, y compris ceux qui résultent d'actes terroristes, causés par des armes ou des instruments destinés à exploser à la suite d'une modification de structure du noyau de l'atome.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Accident lors d'une activité sportive dans le cadre du contrat de travail",
+      "description": "Ne sont pas assurés les frais médicaux qui résultent d'un accident survenu pendant une activité sportive pratiquée dans le cadre du contrat de travail.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Autres traitements esthétiques et plastiques",
+      "description": "Les autres traitements esthétiques et plastiques ne sont pas indemnisés (hors chirurgie reconstructrice ou non reconstructrice à caractère fonctionnel approuvée par l'INAMI consécutive à un accident ou une maladie assurés).",
+      "applies_to": "Traitements esthétiques ou plastiques consécutifs à un accident ou une maladie assurés",
+      "page": 4
+    },
+    {
+      "name": "Soins à l'étranger pour un affilié se trouvant en Belgique",
+      "description": "L'assureur n'accorde aucune garantie si l'affilié se trouve en Belgique et qu'il se rend à l'étranger en vue de se faire soigner, sauf si un accord de remboursement préalable a été conclu entre l'affilié et l'INAMI.",
+      "applies_to": "all",
+      "page": 10
+    }
+  ],
+  "deductibles": {
+    "standard": "Le montant de la franchise dépend du choix du preneur d'assurance et est mentionné dans les conditions particulières.",
+    "variable": "Le montant de la franchise est appliqué par affilié et par année d'assurance. Pour une hospitalisation qui s'étend sur deux années d'assurance, la franchise n'est appliquée qu'à une seule reprise. La franchise ne s'applique pas pour la garantie frais médicaux ambulatoires en cas de maladie grave.",
+    "per_coverage": "La franchise ne s'applique pas pour la garantie frais médicaux ambulatoires en cas de maladie grave.",
+    "page": 7
+  },
+  "waiting_periods": [
+    {
+      "name": "Affection préexistante (diagnostic dans les deux ans suivant l'affiliation)",
+      "description": "Ne sont pas assurés les frais médicaux qui résultent des conséquences ou complications d'une affection préexistante pour autant que le diagnostic ait été posé avant la date de l'affiliation ou dans les deux ans qui suivent la date de l'affiliation de l'assuré.",
+      "page": 8
+    },
+    {
+      "name": "Affection préexistante communiquée (couverture à partir de la troisième année)",
+      "description": "Si la maladie, l'infirmité ou l'accident préexistant(e) est explicitement mentionné(e) dans le questionnaire médical complété, ses conséquences ou complications sont assurées à partir de la troisième année qui suit l'affiliation de l'assuré, sauf stipulation contraire dans les conditions particulières ou dans un avenant.",
+      "page": 9
+    },
+    {
+      "name": "Affiliation des nouveau-nés",
+      "description": "Les nouveau-nés peuvent s'affilier sans examen médical à condition que l'un des deux parents et les autres enfants de la famille soient assurés, à la date de la naissance, depuis au moins neuf mois chez l'assureur et que l'assurance pour le nouveau-né soit souscrite dans les 60 jours qui suivent la date de sa naissance.",
+      "page": 7
+    }
+  ],
+  "obligations": [
+    {
+      "name": "Communication des modifications du nombre d'assurés",
+      "description": "Vous devez communiquer par écrit toute modification du nombre d'assurés.",
+      "timing": null,
+      "sanction": null,
+      "page": 3
+    },
+    {
+      "name": "Déclaration du sinistre",
+      "description": "Tout sinistre doit être déclaré par écrit dans les quinze jours qui suivent sa survenance. La déclaration contient toutes les informations nécessaires. Tout justificatif médical ultérieur et tout autre document essentiel concernant le sinistre doivent être transmis aussi rapidement que possible à l'assureur.",
+      "timing": "dans les quinze jours qui suivent la survenance du sinistre",
+      "sanction": "Si le délai de déclaration est dépassé et que cela entraîne un préjudice pour l'assureur, ce dernier peut réduire ses prestations jusqu'à concurrence du préjudice qu'il a subi. La garantie peut être refusée si le délai de déclaration n'est pas respecté dans une intention frauduleuse. Toutefois, l'assureur accorde la garantie complète s'il est démontré que la déclaration tardive est due à un cas de force majeure ou que la déclaration a été faite aussi rapidement que cela pouvait raisonnablement se faire.",
+      "page": 10
+    },
+    {
+      "name": "Fourniture d'une facture originale détaillée",
+      "description": "Le remboursement relatif à la garantie hospitalisation s'effectue exclusivement sur la base d'une facture originale détaillée.",
+      "timing": null,
+      "sanction": null,
+      "page": 10
+    },
+    {
+      "name": "Obligation de communication à la conclusion du contrat",
+      "description": "Vous-même et les assurés êtes obligés, lors de la conclusion du contrat d'assurance, de communiquer toutes les données qui peuvent avoir une influence sur l'évaluation du risque par l'assureur.",
+      "timing": "lors de la conclusion du contrat d'assurance",
+      "sanction": "Si vous ou l'assuré ne communiquez pas sciemment certaines données ou communiquez sciemment des données erronées, l'assureur peut annuler le contrat et conserver les primes échues jusqu'au moment où il a eu connaissance de l'omission volontaire de certaines données ou de la communication volontaire de données erronées. En cas de fraude ou de tentative de fraude dans le chef du preneur d'assurance ou de l'assuré pendant l'exécution du contrat, l'assureur peut refuser d'accorder la garantie.",
+      "page": 13
+    },
+    {
+      "name": "Notification du changement de domicile ou de résidence",
+      "description": "En cas de changement de domicile ou de résidence réelle, vous êtes tenu d'en avertir l'assureur par écrit. Tant que cette notification n'a pas eu lieu, l'assureur considère la dernière résidence ou le dernier domicile connu comme étant le domicile élu.",
+      "timing": null,
+      "sanction": "Tant que la notification n'a pas eu lieu, l'assureur considère la dernière résidence ou le dernier domicile connu comme étant le domicile élu.",
+      "page": 14
+    },
+    {
+      "name": "Se soumettre au contrôle médical",
+      "description": "L'assureur peut à tout moment faire examiner l'exactitude de la déclaration par un médecin qu'il désigne.",
+      "timing": "à tout moment",
+      "sanction": null,
+      "page": 10
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclarer le sinistre par écrit avec toutes les informations nécessaires ; transmettre aussi rapidement que possible tout justificatif médical ultérieur et tout autre document essentiel.",
+      "deadline": "dans les quinze jours qui suivent la survenance du sinistre"
+    },
+    {
+      "step": "Fournir une facture originale détaillée (le remboursement relatif à la garantie hospitalisation s'effectue exclusivement sur cette base).",
+      "deadline": null
+    },
+    {
+      "step": "L'assureur effectue le remboursement (à vous ou à vos ayants droit). Le délai débute après que l'assuré a envoyé toutes les preuves à l'assureur ; en cas de contestation, le délai débute au moment où la contestation prend fin.",
+      "deadline": "dans les trente jours"
+    },
+    {
+      "step": "Contrôle médical : l'assureur peut à tout moment faire examiner l'exactitude de la déclaration par un médecin qu'il désigne.",
+      "deadline": null
+    },
+    {
+      "step": "Contestations sur les aspects médicaux : le litige est tranché par deux médecins, l'un désigné par l'assuré et l'autre par l'assureur. En cas de désaccord, ils désignent un troisième médecin ; à défaut d'accord sur sa désignation, c'est le tribunal compétent qui s'en charge. Chaque partie supporte les frais et honoraires de son médecin ; les frais du troisième médecin sont supportés pour moitié par chacune des parties.",
+      "deadline": null
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "L'assurance entre en vigueur à la date indiquée dans le contrat, après signature du contrat et paiement de la première prime. Cette assurance prévoit une couverture à vie.",
+    "tacit_renewal": null,
+    "methods": [
+      "Résiliation par lettre recommandée (la date de la poste fait foi). En cas de police présignée, vous avez le droit de résilier la police dans un délai de 14 jours suivant la réception par l'assureur de la police présignée ; votre résiliation prend immédiatement effet à compter de la notification. L'assureur peut également résilier dans un délai de 14 jours suivant la réception de la police présignée ; la résiliation par l'assureur prend effet huit jours après sa notification."
+    ],
+    "special_rights": [
+      "Si une annonce de modification de tarif devait être faite moins de quatre mois avant l'échéance annuelle, vous avez le droit de résilier ce contrat dans les trois mois qui suivent cette annonce. Si la prime n'est pas payée, la police peut être résiliée par l'assureur conformément à la procédure prévue dans ce contrat et dans la loi. Le contrat prend fin de plein droit : en cas de décès du preneur d'assurance (s'il y a d'autres assurés, l'assurance peut être poursuivie à leur demande) ; dès que l'assuré n'a plus sa résidence habituelle en Belgique ; dès que l'assuré n'est plus affilié à la Sécurité sociale belge. L'assurance se termine à zéro heure. Le membre de la famille assuré qui quitte ce contrat a le droit, dans les limites légales, de poursuivre ce contrat à titre individuel, à condition que le preneur d'assurance communique par écrit ou par e-mail le moment du départ ainsi que la nouvelle adresse du membre de la famille."
+    ],
+    "page": 12,
+    "notice_period": "Vous pouvez résilier le contrat d'assurance chaque année, soit à la date de l'entrée en vigueur du contrat, soit à l'échéance annuelle de la prime. La résiliation doit se faire au moyen d'une lettre recommandée envoyée au moins un mois avant la date d'entrée en vigueur ou l'échéance annuelle. La date de la poste fait foi."
+  },
+  "prescription_period": null,
+  "premium": {
+    "description": "La prime, taxe et frais compris, est due et exigible à l'échéance. Si la prime n'est pas payée dans les trente jours qui suivent l'échéance, l'assureur avertit le preneur par lettre recommandée (valant mise en demeure) précisant l'échéance et les conséquences du non-paiement. À défaut de suite dans les quinze jours qui suivent l'envoi de la lettre recommandée, les garanties sont suspendues à partir du premier jour qui suit cette période ; la garantie s'applique à nouveau à partir du jour qui suit le versement complet, à zéro heure. En cas de non-paiement, la police est résiliée avec effet à partir du seizième jour qui suit le début de la suspension si l'assureur s'est réservé la faculté de résilier dans la mise en demeure ; à défaut, la résiliation ne pourra intervenir que moyennant nouvelle sommation par lettre recommandée, la résiliation devenant effective à l'issue d'un délai de 15 jours à compter du lendemain de la remise à la poste de ladite lettre. L'assureur peut adapter la prime, la franchise et/ou les prestations à l'indice des prix à la consommation ou à un indice médical spécifique (calculé par le SPF Economie et publié au Moniteur Belge : 'l'indice applicable à la garantie chambre particulière' ou 'l'indice chambre à deux lits ou chambre commune'). L'assureur statue sur l'adaptation au 31 décembre de chaque année au plus tard ; l'adaptation est appliquée à la première échéance annuelle de la prime à compter du 1er janvier de l'année calendrier qui suit. L'autorité de contrôle peut contraindre l'assureur à ajuster les primes et les conditions si le tarif applicable s'avère déficitaire ou menace de le devenir.",
+    "page": 11
+  },
+  "special_conditions": [
+    {
+      "name": "Assurés",
+      "description": "Les assurés sont mentionnés dans les conditions particulières de ce contrat d'assurance. L'assureur peut faire dépendre l'acceptation de nouveaux assurés du résultat positif d'un examen médical du candidat assuré en question. L'assuré ne peut être qu'une personne physique qui a son domicile habituel en Belgique et qui est affiliée à la Sécurité sociale belge. Les personnes qui résident plus de six mois consécutifs à l'étranger sont considérées dans ce contrat comme des personnes dont le domicile habituel est situé à l'étranger.",
+      "page": 3
+    },
+    {
+      "name": "Calcul du remboursement",
+      "description": "Seuls les frais assurés qui sont facturés par un hôpital ou par le service central d'encaissement d'un hôpital entrent en ligne de compte pour le remboursement dans le cadre de la garantie hospitalisation.",
+      "page": 6
+    },
+    {
+      "name": "Indemnité sur la base de la quote-part personnelle",
+      "description": "L'intervention légale prévue pour la prestation en question est déduite des frais assurés. Le solde constitue la quote-part personnelle dans les frais assurés. Si, pour quelque raison que ce soit, l'assuré ne reçoit pas cette intervention légale, ou s'il n'y a pas droit, l'assureur tient compte d'une intervention fictive égale à l'intervention prévue par la loi.",
+      "page": 6
+    },
+    {
+      "name": "Limitation du remboursement en cas d'hospitalisation dans un hôpital qui dépasse le critère (hôpitaux chers)",
+      "description": "En cas d'hospitalisation dans l'un des quelques hôpitaux chers dont les suppléments applicables excèdent le critère, 50% de la quote-part personnelle restent à charge de l'assuré qui a choisi une chambre particulière avec suppléments pour le patient. Cette règle ne s'applique pas si l'assuré doit séjourner, pour des raisons médicales, dans une chambre particulière alors qu'il avait opté pour une chambre à deux lits ou commune. Le critère tient compte des suppléments maximums d'honoraires et des suppléments maximums pour occupation de chambre que les hôpitaux belges sont autorisés à réclamer en cas d'hospitalisation en chambre particulière ; il a été déposé auprès d'un notaire. La liste des établissements se trouve sur www.kbc.be sous le terme de recherche \"hôpitaux chers\".",
+      "page": 6
+    },
+    {
+      "name": "Libre choix de l'assuré",
+      "description": "L'assuré peut choisir librement l'hôpital, le type de chambre et le médecin, pour autant que ce dernier soit autorisé par la loi à exercer la médecine. En cas de choix d'un hôpital repris dans la liste des hôpitaux chers, l'intervention est limitée pour une chambre particulière.",
+      "page": 7
+    },
+    {
+      "name": "Etendue territoriale",
+      "description": "La police s'applique dans le monde entier. Lorsque les soins médicaux sont prodigués dans un autre État membre de l'Union européenne ou dans un État avec lequel la Belgique a signé une convention à ce sujet, l'intervention légale est calculée en vertu de cette convention. Pour les autres pays, les dispositions de l'article 'calcul du remboursement' continuent de s'appliquer. Lorsque les soins médicaux ne sont pas prodigués dans un État membre de l'Union européenne ou lorsque la Belgique n'a signé aucune convention à ce sujet avec le pays concerné, l'assureur intervient pour la moitié des frais assurés à payer à titre personnel, avec un maximum de 6 250 euros par hospitalisation.",
+      "page": 9
+    },
+    {
+      "name": "Subrogation",
+      "description": "En cas de sinistre pour lequel une autre personne peut être désignée responsable, l'assureur est subrogé jusqu'à concurrence de ses dépenses dans les droits du preneur d'assurance, de l'assuré ou du bénéficiaire. Sauf en cas de malveillance, ce droit de subrogation ne s'exerce pas contre le preneur d'assurance, l'assuré, le conjoint et les parents et alliés en ligne directe ou jusqu'au deuxième degré de l'assuré, ni contre ses invités, les membres de sa famille qui habitent chez lui et son personnel de maison. Un recours est toutefois possible contre les personnes citées dans la mesure où leur responsabilité est effectivement couverte par une assurance.",
+      "page": 11
+    },
+    {
+      "name": "Fiscalité",
+      "description": "Tous les impôts, taxes et redevances applicables actuellement et à l'avenir au présent contrat et à tous les montants dus pour l'un ou l'autre motif en raison du présent contrat, sont à votre charge.",
+      "page": 14
+    },
+    {
+      "name": "Plaintes",
+      "description": "Toute plainte sera en premier lieu adressée à votre intermédiaire. Si vous ne parvenez pas à un accord, vous pouvez vous adresser au Service gestion des plaintes KBC, Brusselsesteenweg 100, 3000 Leuven, plaintes@kbc.be, tél. 0800620 48 (gratuit) ou 078 15 20 45 (payant), fax 016 86 30 38. Si aucune solution ne peut être dégagée, vous pourrez vous adresser à l'Ombudsman des assurances, square de Meeûs 35 à 1000 Bruxelles, info@ombudsman.as. Vous conservez dans tous les cas le droit d'intenter une action en justice.",
+      "page": 14
+    },
+    {
+      "name": "Droit applicable et juridiction compétente",
+      "description": "La présente police est régie par le droit belge. Tout litige entre parties au sujet du présent contrat relève de la compétence des tribunaux belges.",
+      "page": 14
+    },
+    {
+      "name": "Protection des données à caractère personnel",
+      "description": "Les informations sur le traitement des données à caractère personnel se trouvent dans la déclaration en matière de respect de la vie privée de l'assureur, publiée sur www.kbc.be/privacy (version papier disponible auprès de l'intermédiaire). Si vous communiquez à l'assureur des données à caractère personnel d'autres personnes, vous devez informer ces personnes au préalable et, si nécessaire, leur demander leur autorisation.",
+      "page": 14
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "La présente assurance prévoit, aux conditions décrites ci-après, une intervention dans les frais médicaux qui ne sont pas pris en charge par la mutuelle en cas d'hospitalisation pour cause de maladie, accident, accouchement ou complication de grossesse.",
+      "page": 1
+    },
+    {
+      "quote": "Cette garantie a uniquement trait à la période de deux mois qui précède le début d'une hospitalisation assurée et à la période de six mois qui suit la fin de cette hospitalisation.",
+      "page": 4
+    },
+    {
+      "quote": "En cas d'accouchement à domicile ou d'accouchement ambulatoire, l'assureur rembourse un montant forfaitaire de 625 euros dans lequel l'indemnité pour les frais exposés pour les soins médicaux ambulatoires avant et après l'accouchement est comprise.",
+      "page": 6
+    },
+    {
+      "quote": "L'indemnité pour les frais de transport est limitée à 1.250 euros pour un assuré et son donneur et par année d'assurance.",
+      "page": 7
+    },
+    {
+      "quote": "La police s'applique dans le monde entier.",
+      "page": 9
+    },
+    {
+      "quote": "Tout sinistre doit être déclaré par écrit dans les quinze jours qui suivent sa survenance.",
+      "page": 10
+    },
+    {
+      "quote": "Cette assurance prévoit une couverture à vie.",
+      "page": 12
+    }
+  ],
+  "gaps": [
+    "Le délai/la période de prescription (prescription_period) n'est pas explicitement énoncé dans le document.",
+    "Le montant exact de la franchise n'est pas indiqué : il dépend du choix du preneur d'assurance et est mentionné dans les conditions particulières, non fournies ici.",
+    "La date d'édition/version du document (edition_date) n'apparaît pas dans le texte fourni.",
+    "Le renouvellement tacite (tacit_renewal) n'est pas explicitement décrit ; le document indique une couverture à vie avec faculté de résiliation annuelle."
+  ]
+}

@@ -1,0 +1,91 @@
+# Belgium — country manifest. The branch taxonomy is DATA (this is what keeps the
+# project country-agnostic): branch slugs declared here are the allowed `branch`
+# values for products. Aliases feed discover.py's branch inference.
+country: be
+name: Belgium
+regulator: FSMA                 # Autorité des services et marchés financiers
+industry_body: Assuralia
+official_languages: [fr, nl, de]
+branch_scheme: "be-named + life-numbered (branche 21/23)"
+
+branches:
+  auto:
+    label: "Auto"
+    aliases: ["assurance auto", "véhicules automoteurs", "automoteur", "voiture", "autoverzekering", "car"]
+    mandatory: true             # RC auto is legally required
+    code: null
+  habitation:
+    label: "Habitation"
+    aliases: ["incendie", "logement", "home", "woning", "brand", "habitation"]
+    mandatory: conditional      # required for tenants (Wallonia/Brussels) and by mortgage lenders
+    code: null
+  vie-privee:
+    label: "Vie privée"
+    aliases: ["rc familiale", "familiale", "responsabilité civile vie privée", "gezinspolis", "family"]
+    mandatory: false
+    code: null
+  rc-professionnelle:
+    label: "RC professionnelle"
+    aliases: ["responsabilité professionnelle", "rc pro", "professional liability"]
+    mandatory: conditional
+    code: null
+  protection-juridique:
+    label: "Protection juridique"
+    aliases: ["protection juridique", "aide juridique", "legal protection", "rechtsbijstand"]
+    mandatory: false
+    code: null
+  sante:
+    label: "Santé"
+    aliases: ["hospitalisation", "soins de santé", "gezondheid", "health"]
+    mandatory: false
+    code: null
+  accidents:
+    label: "Accidents"
+    aliases: ["accidents personnels", "individuelle accidents", "ongevallen"]
+    mandatory: false
+    code: null
+  voyage:
+    label: "Voyage"
+    aliases: ["assistance voyage", "bagages", "annulation", "reis", "travel"]
+    mandatory: false
+    code: null
+  velo:
+    label: "Vélo"
+    aliases: ["bicyclette", "fiets", "bike"]
+    mandatory: false
+    code: null
+  chasse:
+    label: "Chasse"
+    aliases: ["hunting", "jacht"]
+    mandatory: false
+    code: null
+  navigation:
+    label: "Navigation"
+    aliases: ["plaisance", "bateau", "boot", "boat"]
+    mandatory: false
+    code: null
+  associations:
+    label: "Associations"
+    aliases: ["clubs", "asbl", "vereniging"]
+    mandatory: false
+    code: null
+  accidents-travail:
+    label: "Accidents du travail"
+    aliases: ["loi accidents du travail", "arbeidsongevallen"]
+    mandatory: true             # mandatory for employers
+    code: null
+  pension:
+    label: "Pension (Branche 21)"
+    aliases: ["épargne pension", "pensioensparen", "retirement"]
+    mandatory: false
+    code: "21"
+  epargne:
+    label: "Épargne / Placement (Branche 21/23)"
+    aliases: ["placement", "tak 21", "tak 23", "unit-linked", "savings"]
+    mandatory: false
+    code: "21/23"
+  autres:
+    label: "Autres"
+    aliases: ["divers", "other"]
+    mandatory: false
+    code: null

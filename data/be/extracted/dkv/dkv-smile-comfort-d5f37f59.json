@@ -1,0 +1,722 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "be",
+  "insurer_slug": "dkv",
+  "insurer_name": "DKV Belgium",
+  "branch": "sante",
+  "document_type": "conditions_generales",
+  "language": "fr",
+  "source_url": "https://biblio.dkv.be/pdfbib.ashx?lang=fr&id=12002",
+  "product_name": "DKV Smile Comfort",
+  "reference": "12 002_FR_3_202407",
+  "edition_date": "07/2024",
+  "target_audience": null,
+  "branch_code": "82C",
+  "product_family": "DKV Smile Comfort",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_pages": 17,
+  "source_pdf": "dkv-smile-comfort-d5f37f59.pdf",
+  "source_sha256": "bfbf7f8684036bc225c3cd0a17f5d61cfdc1c90ff8f5a8960b8d940879a1cd35",
+  "fetched_at": "2026-07-05",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "DKV Smile Comfort est une assurance individuelle soins dentaires à caractère indemnitaire de droit belge, en complément de toute intervention légale/statutaire ou autre. Elle couvre les soins dentaires de base (soins préventifs, consultations, examen radiologique, soins curatifs, accidents dentaires) et les soins dentaires spécialisés (orthodontie, soins prothétiques, parodontologie, petite chirurgie buccale). L'assurance n'est valable qu'en Belgique et intervient dans les frais réels encourus restant à charge de l'assuré après déduction de toutes les interventions légales/statutaires ou autres. Le contrat est conclu à vie.",
+  "definitions": [
+    {
+      "term": "Abutment",
+      "definition": "Liaison entre un implant dentaire et une prothèse dentaire fixe ou amovible. Selon la technique utilisée, il peut être placé seul sur l'implant dentaire ou faire partie de l'implant dentaire ou de la prothèse dentaire.",
+      "page": 15
+    },
+    {
+      "term": "Accident",
+      "definition": "Événement soudain survenant indépendamment de la volonté de l'assuré et causant des lésions corporelles à l'assuré, dont la cause ou l'une des causes se situe en dehors de son organisme.",
+      "page": 15
+    },
+    {
+      "term": "Acte intentionnel",
+      "definition": "L'acte intentionnel est l'acte volontaire et délibéré commis dans l'intention de causer un dommage.",
+      "page": 15
+    },
+    {
+      "term": "Acte téméraire",
+      "definition": "Un acte téméraire est un acte risqué et imprudent qui est commis intentionnellement ou de manière imprudente.",
+      "page": 15
+    },
+    {
+      "term": "Année d'assurance",
+      "definition": "La période de 12 mois à compter de la date d'échéance annuelle du contrat d'assurance.",
+      "page": 15
+    },
+    {
+      "term": "Assureur",
+      "definition": "DKV Belgium S.A., ayant son siège social au 25 rue de Loxum à 1000 Bruxelles (Belgique), compagnie d'assurances agréée sous le numéro 739, sous le contrôle de la Banque Nationale de Belgique, ayant son siège social au 14 bd de Berlaimont à 1000 Bruxelles (Belgique), inscrite à la Banque carrefour des entreprises à Bruxelles sous le numéro 0414858607.",
+      "page": 15
+    },
+    {
+      "term": "Assuré",
+      "definition": "La personne physique sur qui repose le risque et qui est bénéficiaire du contrat d'assurance.",
+      "page": 15
+    },
+    {
+      "term": "Autorités de contrôle",
+      "definition": "Il existe deux autorités de contrôle, chacune ayant des compétences spécifiques : FSMA : Autorité des Services et Marchés Financiers, 12-14 rue du Congrès à 1000 Bruxelles (Tél. 02 220 52 11 - Fax 02 220 52 78 - www.fsma.be) ; Banque Nationale de Belgique, 14 bd de Berlaimont à 1000 Bruxelles (Tél. 02 221 21 11 - Fax 02 221 31 00 - www.nbb.be).",
+      "page": 15
+    },
+    {
+      "term": "Bridge",
+      "definition": "Prothèse dentaire fixe d'une seule pièce, constituée de deux ou plusieurs piliers entre lesquels se trouvent un ou plusieurs éléments intermédiaires, qui est ancrée aux dents naturelles adjacentes existantes ou à des implants destinés à remplacer une ou plusieurs dents manquantes.",
+      "page": 15
+    },
+    {
+      "term": "Cas d'assurance ou cas de sinistre",
+      "definition": "L'objet de la garantie d'assurance, tel que stipulé dans le contrat d'assurance.",
+      "page": 15
+    },
+    {
+      "term": "Contrat d'assurance",
+      "definition": "Le contrat d'assurance est formé par la police. La police se compose des Conditions Générales et Particulières d'Assurance et de leurs avenants.",
+      "page": 15
+    },
+    {
+      "term": "Couronne",
+      "definition": "Prothèse dentaire permanente d'une seule pièce qui remplace toute la surface coronaire d'une dent endommagée, fracturée ou déformée ou qui est ancrée à un implant dentaire au moyen d'un abutment en vue de la restauration définitive de la forme et de la fonction d'origine.",
+      "page": 15
+    },
+    {
+      "term": "Date d'échéance annuelle",
+      "definition": "Date d'échéance annuelle de la prime ou date d'échéance principale telle que définie dans la police.",
+      "page": 15
+    },
+    {
+      "term": "Dentiste",
+      "definition": "La personne physique qui simultanément : possède l'une des compétences suivantes dans les limites des prérogatives conférées par les diplômes et titres professionnels licites : titulaire du titre professionnel spécifique de dentiste généraliste ; titulaire du titre professionnel spécifique de spécialiste dentaire en orthodontie ; titulaire du titre professionnel spécifique de spécialiste dentaire en parodontologie ; médecin spécialiste en stomatologie et en chirurgie orale, maxillo-faciale et faciale ; médecin titulaire d'un diplôme de dentiste ou d'une licence en dentisterie ; est enregistré auprès d'une Commission Médicale Provinciale ; possède un numéro d'agrément INAMI et est autorisé à certifier les prestations visées aux articles 2, 5, 6 ou 14l de la nomenclature des prestations médicales.",
+      "page": 15
+    },
+    {
+      "term": "Fedris (Agence fédérale des risques professionnels)",
+      "definition": "Fedris est une institution publique de sécurité sociale qui veille au respect des droits des victimes d'accidents du travail et de maladies professionnelles.",
+      "page": 15
+    },
+    {
+      "term": "Implant dentaire",
+      "definition": "Élément prothétique intégré dans l'os de la mâchoire et destiné à remplacer artificiellement une ou plusieurs racines d'une dent naturelle manquante afin de fixer une prothèse dentaire fixe ou amovible.",
+      "page": 15
+    },
+    {
+      "term": "Inlay/onlay",
+      "definition": "Restauration indirecte d'une partie d'une dent naturelle par la cimentation d'un matériau dentaire préfabriqué en laboratoire en vue de restaurer sa forme et sa fonction d'origine. C'est une technique à mi-chemin entre la restauration via une obturation normale (plombage) et une couronne. L'onlay est similaire à l'inlay, mais légèrement plus grand.",
+      "page": 15
+    },
+    {
+      "term": "Intervention légale/statutaire ou autre",
+      "definition": "Toute intervention ou remboursement (partiel) de frais réels encourus en application de : l'assurance obligatoire soins de santé et indemnités, telle qu'elle est organisée par la loi du 14 juillet 1994 et ses arrêtés royaux d'exécution et par l'arrêté royal du 30 juin 1964 ; les législations relatives aux accidents du travail (loi du 10 avril 1971 et ses arrêtés royaux d'exécution) et aux maladies professionnelles (loi du 3 juin 1970 et ses arrêtés royaux d'exécution) ; la loi sur le maximum à facturer (loi du 03 juin 2002) ; loi relative à la création du statut de solidarité nationale, à l'octroi d'une pension de dédommagement et au remboursement des soins médicaux à la suite d'acte de terrorisme (loi du 18 juillet 2017) ; les règlements européens 1408/71, 574/72 et 883/04 ou par une convention multilatérale ou bilatérale de sécurité sociale conclue par la Belgique ou, à défaut, un montant égal au remboursement prévu par la législation belge ; l'assurance complémentaire des mutualités (loi du 06 aout 1990 sur mutualités et aux unions nationales de mutualités) comprenant tous les services et prestations des mutualités ; le service \"soins urgents à l'étranger\" des mutualités ; une disposition de droit commun.",
+      "page": 15
+    },
+    {
+      "term": "Lieu de résidence",
+      "definition": "Lieu auquel la personne physique est inscrite au registre de la population.",
+      "page": 16
+    },
+    {
+      "term": "Maladie",
+      "definition": "Toute altération de l'état de santé non causée par un accident, dont la cause et les symptômes sont médicalement objectivables et qui, en tant que tels, permettent un diagnostic et nécessitent une thérapie ou un traitement.",
+      "page": 16
+    },
+    {
+      "term": "Nomenclature",
+      "definition": "La nomenclature et la pseudo-nomenclature des prestations médicales est une liste codée des prestations médicales qui sont totalement ou partiellement remboursées par l'assurance obligatoire soins de santé et indemnités (assurance maladie légale). La liste et les modifications sont publiées au Moniteur belge. Les présentes Conditions Générales d'Assurance font toujours référence à la nomenclature en vigueur au moment de la prestation médicale.",
+      "page": 16
+    },
+    {
+      "term": "Plan d'assurance",
+      "definition": "La garantie d'assurance.",
+      "page": 16
+    },
+    {
+      "term": "Plan d'assurance similaire",
+      "definition": "Un plan d'assurance similaire offre au moins des garanties similaires en termes de remboursement des frais.",
+      "page": 16
+    },
+    {
+      "term": "Plan de traitement",
+      "definition": "Le plan de traitement est établi par un dentiste agréé avant le début du traitement dentaire désigné et comprend une description précise et détaillée (entre autres : les dents à traiter, les matériaux utilisés, les techniques employées, le calendrier établi, etc.) du traitement complet et l'ordre dans lequel le traitement décrit sera effectué.",
+      "page": 16
+    },
+    {
+      "term": "Politique d'honoraires discriminatoire ou excessive",
+      "definition": "L'assureur considère qu'un dentiste poursuit une politique d'honoraires discriminatoire si les honoraires facturés par ce dentiste varient selon que son patient a (ou n'a pas) souscrit une assurance soins dentaires et/ou selon l'assureur auprès duquel cette assurance a été souscrite. L'assureur détermine si un dentiste applique une politique d'honoraires excessive en comparant les honoraires facturés par ce dentiste aux assurés (de l'assureur) avec : le tarif conventionné (en vigueur au moment de la dispensation) pour les prestations remboursables ; le tarif Fedris prévu par l'Arrêté royal du 25.07.2014 établissant les conditions d'indemnisation des prothèses dentaires nécessitées à la suite des lésions subies lors d'un accident du travail. Ce tarif est indexé annuellement.",
+      "page": 16
+    },
+    {
+      "term": "Preneur d'assurance",
+      "definition": "La personne physique, ayant son lieu de résidence et sa résidence principale en Belgique, qui souscrit le contrat d'assurance et qui est redevable du paiement de la prime.",
+      "page": 16
+    },
+    {
+      "term": "Prestation ambulatoire",
+      "definition": "Prestation qui n'est pas dispensée lors d'une hospitalisation (hospitalisation avec nuitée ou de jour) et pour laquelle l'hôpital ne peut pas facturer une journée d'hospitalisation ou un forfait spécifique pour l'admission en hôpital de jour.",
+      "page": 16
+    },
+    {
+      "term": "Prestation remboursable",
+      "definition": "Prestation pour laquelle il existe un droit à une intervention de l'assurance obligatoire soins de santé et indemnités (assurance-maladie légale).",
+      "page": 16
+    },
+    {
+      "term": "Prime",
+      "definition": "Le montant y compris toutes les taxes d'assurance, les impôts, les contributions légales et les charges dus en contrepartie des obligations de l'assureur en exécution du contrat d'assurance.",
+      "page": 16
+    },
+    {
+      "term": "Proposition d'assurance",
+      "definition": "La proposition d'assurance est le formulaire émis par l'assureur, rempli par le preneur d'assurance, dont le but est d'informer l'assureur de la nature de la transaction, des faits et des circonstances, qui lui permettront d'évaluer le risque. Elle vise à la conclusion du contrat d'assurance.",
+      "page": 16
+    },
+    {
+      "term": "Prothèse dentaire",
+      "definition": "Un dispositif médical sur mesure qui remplace artificiellement une partie ou l'entièreté d'une ou plusieurs dents naturelles manquantes. Il peut s'agir d'une prothèse dentaire amovible que l'assuré peut retirer lui-même de la bouche (p. ex. une prothèse dentaire en résine synthétique ou une prothèse dentaire squelettique) ou d'une prothèse dentaire fixe que l'assuré ne peut pas retirer lui-même de la bouche (p. ex. une couronne ou un bridge, inlay et onlay).",
+      "page": 16
+    },
+    {
+      "term": "Résidence principale",
+      "definition": "Le lieu où les personnes physiques résident de manière habituelle (pendant la majeure partie de l'année) sur base de la situation factuelle.",
+      "page": 16
+    },
+    {
+      "term": "Scientifiquement et thérapeutiquement éprouvé",
+      "definition": "Un traitement dentaire est scientifiquement et thérapeutiquement éprouvé quand il répond à l'état de l'art et aux normes reconnues de la pratique médicale. Un tel traitement n'est ni expérimental ni en phase de recherche. Elle est évaluée sur la base de la médecine factuelle (EBM, 'evidence-based medicine'). La médecine factuelle est l'utilisation explicite, judicieuse et consciencieuse des meilleures preuves disponibles lors du choix du traitement d'un patient. Tout cela étant donné l'état de la science (médicale) à cette époque.",
+      "page": 16
+    },
+    {
+      "term": "Prestation technique urgente",
+      "definition": "La prestation technique urgente est celle dont l'état du patient nécessite qu'elle soit dispensée en urgence (traitement dentaire dans les 24 heures suivant la demande du patient) et ne puisse être différée.",
+      "page": 16
+    },
+    {
+      "term": "Soins dentaires esthétiques",
+      "definition": "Traitement dentaire de nature cosmétique, dont le seul but est de corriger les imperfections et d'embellir les dents (entre autres : application de facettes, blanchiment des dents). Le traitement ne vise pas à diagnostiquer et/ou à guérir les maladies, les dysfonctionnements et les lésions des dents, des gencives et des mâchoires.",
+      "page": 16
+    },
+    {
+      "term": "Supplément d'honoraires",
+      "definition": "Supplément facturé en plus du tarif conventionné. Le supplément est exprimé en pourcentage. Un supplément de 100 % signifie un doublement du tarif officiel.",
+      "page": 16
+    },
+    {
+      "term": "Tarif conventionné",
+      "definition": "Taux officiel des honoraires d'un dentiste tel que convenu dans l'Accord National Dento-Mutualiste. C'est également sur cette base qu'est calculée l'intervention de l'assurance obligatoire soins de santé et indemnités.",
+      "page": 16
+    },
+    {
+      "term": "Tarif maximum",
+      "definition": "Les tarifs maximaux sont des montants maximaux convenus dans l'Accord National Dento-Mutualiste. Ils peuvent être facturés en plus des honoraires d'un dentiste pour certaines prestations, réalisées avec des matériaux ou instruments spécifiques qui augmentent la qualité et la durabilité du traitement ou dans des situations spécifiques, après consentement éclairé du patient conformément à l'article 8 de la loi du 22 août 2002 relative aux droits des patients. En cas d'application des tarifs maximaux, le dentiste attestera en outre un pseudo-code en plus du code de nomenclature. Le pseudo-code représente le supplément maximal qui peut être facturé. Les tarifs maximaux ne s'appliquent pas aux jeunes de moins de 18 ans ni aux bénéficiaires avec régime préférentiel.",
+      "page": 16
+    },
+    {
+      "term": "Ticket modérateur légal",
+      "definition": "La différence entre le tarif conventionné et l'intervention de l'assurance obligatoire soins de santé et indemnités.",
+      "page": 17
+    },
+    {
+      "term": "Traitement dentaire",
+      "definition": "Les prestations : inclues soit dans l'arrêté royal du 1er juin 1934 règlementant l'exercice de la dentisterie, soit dans l'arrêté royal du 9 novembre 1951 complétant l'arrêté royal du 1er juin 1934 règlementant l'exercice de la dentisterie ; visant au diagnostic et/ou au traitement des maladies, dysfonctionnements et lésions des dents, des gencives et des mâchoires.",
+      "page": 17
+    },
+    {
+      "term": "Transplantation dentaire",
+      "definition": "Le déplacement de la propre dent d'une personne à un autre endroit de la mâchoire.",
+      "page": 17
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Soins dentaires préventifs",
+      "description": "Par dérogation à l'article 2.2.2, l'assureur intervient dans les soins dentaires préventifs visés par les prestations dentaires suivantes (liste exhaustive) : l'examen clinique des dents et des tissus mous afin de dépister des anomalies (l'examen buccal) ; le dépistage parodontal pour détecter les problèmes de gencives ; le détartrage et le nettoyage prophylactique ; le scellement des sillons et cavités dentaires au moyen d'un matériau d'obturation ; tels que décrits dans la nomenclature au Chapitre III, Section 2, article 5, paragraphes 1 et 2 - rubriques \"Traitements préventifs\" et \"Parodontologie\". Pour chacune de ces prestations remboursables, le montant restant à la charge de l'assuré après déduction de toutes les interventions légales/statutaires ou autres est remboursé à 100%. Ce remboursement est maintenu pour les examens buccaux pour lesquels il n'existe pas de droit à une intervention de l'assurance obligatoire soins de santé et indemnités (personnes âgées de 67 ans et plus).",
+      "is_optional": false,
+      "territorial_scope": "Belgique",
+      "limits": "100%",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Prestations remboursables telles que décrites dans la nomenclature au Chapitre III, Section 2, article 5, paragraphes 1 et 2 - rubriques \"Traitements préventifs\" et \"Parodontologie\"",
+        "Remboursement du montant restant à charge après déduction de toutes les interventions légales/statutaires ou autres",
+        "Remboursement des examens buccaux maintenu pour les personnes âgées de 67 ans et plus sans droit à l'intervention de l'assurance obligatoire"
+      ],
+      "page": 4
+    },
+    {
+      "name": "Consultations",
+      "description": "Les consultations comprennent les prestations dentaires suivantes (liste exhaustive) : la consultation au cabinet d'un dentiste généraliste ou au domicile de la personne malade suite à la demande d'un médecin ; la consultation urgente au cabinet d'un dentiste la nuit, le samedi, le dimanche ou les jours fériés lors d'un service de garde organisée ; tels que décrits dans la nomenclature au chapitre II, article 2 B. rubrique \"Consultations au cabinet\" et au Chapitre III, Section 2, article 5, paragraphes 1 et 2 - rubrique \"Consultations\". Pour chacune de ces prestations remboursables, le montant restant à charge de l'assuré après déduction de toutes les interventions légales/statutaires ou autres est remboursé à 70 %. Les consultations réalisées dans le cadre d'un traitement orthodontique, qui font l'objet d'une facturation séparée de la prestation, sont couvertes conformément à l'article 2.4.1. Les consultations réalisées dans le cadre d'un traitement parodontal, qui font l'objet d'une facturation séparée de la prestation, sont couvertes conformément à l'article 2.4.3.",
+      "is_optional": false,
+      "territorial_scope": "Belgique",
+      "limits": "70 %",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Prestations remboursables telles que décrites dans la nomenclature",
+        "Remboursement du montant restant à charge après déduction de toutes les interventions légales/statutaires ou autres"
+      ],
+      "page": 4
+    },
+    {
+      "name": "Examen radiologique",
+      "description": "L'examen radiologique comprend les prestations dentaires suivantes (liste exhaustive) : radiographie intrabuccale d'une ou de plusieurs dents ; radiographie panoramique de la mâchoire supérieure et/ou inférieure ; capture d'images 3D (Conebeam CT dentaire) de la mâchoire supérieure en cas de fente labiale, à la mâchoire ou au palais ; tels que décrits dans la nomenclature au Chapitre III, Section 2, article 5, paragraphes 1 et 2 - rubrique \"Radiographies\" et §4 \"Supplément d'honoraires pour prestations urgentes\". Pour chacune de ces prestations remboursables, le montant restant à la charge de l'assuré, après déduction de toutes les interventions légales/statutaires ou autres, est remboursé à 70 %. Sont incluses, les prestations énumérées dans la nomenclature en tant que tarif maximum. Les images du crâne facial de profil (les téléradiographies crâniofaciales), réalisées dans le cadre d'un traitement orthodontique et qui font l'objet d'une facturation séparée, sont couvertes conformément à l'article 2.4.1.",
+      "is_optional": false,
+      "territorial_scope": "Belgique",
+      "limits": "70 %",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Prestations remboursables telles que décrites dans la nomenclature",
+        "Remboursement du montant restant à charge après déduction de toutes les interventions légales/statutaires ou autres",
+        "Prestations énumérées dans la nomenclature en tant que tarif maximum incluses"
+      ],
+      "page": 5
+    },
+    {
+      "name": "Soins dentaires curatifs",
+      "description": "Les soins dentaires curatifs comprennent les prestations dentaires suivantes (liste exhaustive) : les soins conservateurs ; les extractions de dents ou de résidus de racines dentaires ; les prestations techniques urgentes ; tels que décrits dans la nomenclature au Chapitre III, article 5, §1 et §2 - rubriques \"Soins conservateurs\", \"Extractions\" et \"Soins besoins particuliers\". Pour chacune de ces prestations remboursables, le montant restant à la charge de l'assuré, après déduction de toutes les interventions légales/statutaires ou autres, est remboursé à 70 %. Sont incluses, les prestations énumérées dans la nomenclature en tant que tarif maximum. Ce remboursement est maintenu pour les extractions de dents ou de résidus de racines dentaires pour lesquelles il n'existe pas de droit à une intervention de l'assurance obligatoire soins de santé et indemnités (personnes âgées de 18 à 53 ans).",
+      "is_optional": false,
+      "territorial_scope": "Belgique",
+      "limits": "70 %",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Prestations remboursables telles que décrites dans la nomenclature",
+        "Remboursement du montant restant à charge après déduction de toutes les interventions légales/statutaires ou autres",
+        "Remboursement des extractions maintenu pour les personnes âgées de 18 à 53 ans sans droit à l'intervention de l'assurance obligatoire"
+      ],
+      "page": 5
+    },
+    {
+      "name": "Accidents dentaires",
+      "description": "Le cas d'assurance au titre de la garantie « accidents » est constitué de l'ensemble des prestations dentaires qui simultanément sont : encourues à la suite d'un accident n'ayant pas encore fait l'objet d'une intervention de l'assureur ; approuvées par l'assureur au terme de la procédure décrite ; dispensées en Belgique, avec pour objectif de restaurer les dents dans leur état antérieur à l'accident ; effectuées endéans les 12 mois qui suivent l'accident. L'accident doit donner lieu à des lésions traumatiques médicalement objectivables, diagnostiquées par un dentiste ou un médecin (urgentiste) autorisé à exercer. Pour chaque prestation du traitement dentaire approuvé, le montant qui reste à charge de l'assuré, après déduction de toutes les interventions légales/statutaires ou autres, est remboursé à 100 %. Le paiement du remboursement convenu a lieu à la fin du traitement convenu et préalablement approuvé par le(s) dentiste(s) traitant(s) en Belgique.",
+      "is_optional": false,
+      "territorial_scope": "Belgique",
+      "limits": "100 %, plafonné à € 10.000 par cas d'assurance",
+      "sub_limits": [
+        "L'intervention de l'assureur au titre de la garantie « accident » est plafonnée à € 10.000 par cas d'assurance"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Un processus d'autorisation au préalable doit être respecté avant de commencer le traitement",
+        "Prestations encourues à la suite d'un accident n'ayant pas encore fait l'objet d'une intervention de l'assureur",
+        "Prestations dispensées en Belgique, avec pour objectif de restaurer les dents dans leur état antérieur à l'accident",
+        "Prestations effectuées endéans les 12 mois qui suivent l'accident",
+        "Lésions traumatiques médicalement objectivables diagnostiquées par un dentiste ou un médecin (urgentiste) autorisé à exercer",
+        "Déclaration de l'accident par écrit endéans les 48 heures ou dès que raisonnablement possible via le formulaire de déclaration d'accident",
+        "Soumission préalable et approbation par l'assureur des documents requis (formulaire de déclaration, certificat médical/rapport, plan de traitement avec devis, radiographies avant/après, photographies en couleur)"
+      ],
+      "page": 5
+    },
+    {
+      "name": "Orthodontie (Soins Dentaires Spécialisés)",
+      "description": "L'orthodontie pour les jeunes jusqu'à 21 ans inclus comprend toutes les prestations dentaires pour le diagnostic et le traitement orthodontique classique ou régulier d'un défaut de position de dents et/ou de mâchoires, telles que décrites au chapitre III, section 2, article 5, §1 et §2 - rubriques \"Consultations\", \"Radiographies\" et §3 \"Autres prestations\" : Orthodontie\" de la nomenclature. Le remboursement nécessite qu'un plan de traitement détaillé avec devis précis des couts soit préalablement soumis et approuvé par écrit par l'assureur. Le droit aux prestations est subordonné à l'approbation préalable du traitement par le médecin-conseil de l'assurance obligatoire soins de santé et indemnités et à l'indemnisation par cette assurance obligatoire (« la mutuelle »). Pour chaque prestation préalablement approuvée, le montant restant à charge de l'assuré, après déduction de toutes les interventions légales/statutaires ou autres, est remboursé à 70%.",
+      "is_optional": false,
+      "territorial_scope": "Belgique",
+      "limits": "70%, limitée à un seul plan de traitement de maximum € 1.500 par assuré sur toute la durée du contrat d'assurance",
+      "sub_limits": [
+        "L'intervention de l'assureur au titre de la garantie « orthodontie » est limitée à un seul plan de traitement de maximum € 1.500 par assuré sur toute la durée du contrat d'assurance",
+        "Soumise au plafond annuel croissant commun des soins dentaires spécialisés (€ 250 la 1e année, € 500 la 2e année, € 1.000 la 3e année, € 2.000 à partir de la 4e année)"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Pour les jeunes jusqu'à 21 ans inclus",
+        "Un processus d'autorisation au préalable doit être respecté avant de commencer le traitement",
+        "Plan de traitement détaillé avec devis précis des couts préalablement soumis et approuvé par écrit par l'assureur",
+        "Approbation préalable du traitement par le médecin-conseil de l'assurance obligatoire soins de santé et indemnités et indemnisation par cette assurance obligatoire"
+      ],
+      "page": 7
+    },
+    {
+      "name": "Soins dentaires prothétiques (Soins Dentaires Spécialisés)",
+      "description": "On entend par soins dentaires prothétiques : les prestations de soins dentaires qui permettent la réhabilitation fonctionnelle du processus de mastication et qui consistent à remplacer par une prothèse dentaire provisoire ou définitive les dents manquantes ou endommagées. Le remboursement nécessite qu'un plan de traitement détaillé avec devis précis des couts soit préalablement soumis et approuvé par écrit par l'assureur. Pour chaque prestation préalablement approuvée, le montant restant à charge de l'assuré, après déduction de toutes les interventions légales/statutaires ou autres, est remboursé à 70%.",
+      "is_optional": false,
+      "territorial_scope": "Belgique",
+      "limits": "70%",
+      "sub_limits": [
+        "Soumise au plafond annuel croissant commun des soins dentaires spécialisés (€ 250 la 1e année, € 500 la 2e année, € 1.000 la 3e année, € 2.000 à partir de la 4e année)"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Un processus d'autorisation au préalable doit être respecté avant de commencer le traitement",
+        "Plan de traitement détaillé avec devis précis des couts préalablement soumis et approuvé par écrit par l'assureur"
+      ],
+      "page": 7
+    },
+    {
+      "name": "Parodontologie (Soins Dentaires Spécialisés)",
+      "description": "Ce plan d'assurance couvre toutes les prestations dentaires pour le diagnostic et le traitement des maladies des gencives et/ou des autres tissus de soutien des dents : le traitement parodontal conservateur/initial, l'élimination des tissus enflammés (chirurgie parodontale résectrice), la restauration des tissus perdus (chirurgie parodontale régénératrice). Par traitement parodontal conservateur/initial, on entend (liste exhaustive) : consultation au cabinet d'un dentiste généraliste ou d'un dentiste spécialiste en parodontologie ; examen buccal parodontal ; élimination du tartre sous les gencives ; tels que décrits au Chapitre III, Section 2, article 5, paragraphes 1 et 2 - rubriques \"Consultations\" et \"Parodontologie\" de la nomenclature. Le remboursement nécessite qu'un plan de traitement détaillé avec devis précis des couts soit préalablement soumis et approuvé par écrit par l'assureur. Pour chaque prestation préalablement approuvée, le montant restant à charge de l'assuré, après déduction de toutes les interventions légales/statutaires ou autres, est remboursé à 70%.",
+      "is_optional": false,
+      "territorial_scope": "Belgique",
+      "limits": "70%",
+      "sub_limits": [
+        "Soumise au plafond annuel croissant commun des soins dentaires spécialisés (€ 250 la 1e année, € 500 la 2e année, € 1.000 la 3e année, € 2.000 à partir de la 4e année)"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Ce plan d'assurance couvre les frais encourus pour les traitements parodontaux jusqu'à l'âge de 65 ans",
+        "Un processus d'autorisation au préalable doit être respecté avant de commencer le traitement",
+        "Plan de traitement détaillé avec devis précis des couts préalablement soumis et approuvé par écrit par l'assureur"
+      ],
+      "page": 7
+    },
+    {
+      "name": "Petite chirurgie buccale (Soins Dentaires Spécialisés)",
+      "description": "Ce plan d'assurance couvre les prestations suivantes (liste exhaustive) : l'extraction dentaire complexe dans laquelle tout ou partie de l'os autour d'une dent infectée est enlevé pour permettre une extraction (alvéolectomie) étendue sur une zone d'au moins 6 dents ; le traitement chirurgical par curetage de tissus dentaires affectés en raison d'une inflammation, d'une infection ou d'une ostéite radiculaire ; la résection chirurgicale des gencives infectées (gingivectomie) étendue sur une zone d'au moins 6 dents sur une mâchoire ; l'ablation chirurgicale d'une tumeur bénigne intrabuccale ; l'excision chirurgicale d'un frein (frénectomie) ; l'incision intrabuccale d'abcès d'origine dentaire ; l'extraction d'une dent incluse ou retenue ; la fabrication et mise en place d'une gouttière de surocclusion ; tels que décrits au Chapitre 5 Prestations techniques médicales spéciales, Section 5 Chirurgie, article 14l Stomatologie, suivis d'un signe \"+\" de la nomenclature. Le remboursement nécessite qu'un plan de traitement détaillé avec devis précis des couts soit préalablement soumis et approuvé par écrit par l'assureur. Pour chaque prestation préalablement approuvée, le montant restant à charge de l'assuré, après déduction de toutes les interventions légales/statutaires ou autres, est remboursé à 70%.",
+      "is_optional": false,
+      "territorial_scope": "Belgique",
+      "limits": "70%",
+      "sub_limits": [
+        "Soumise au plafond annuel croissant commun des soins dentaires spécialisés (€ 250 la 1e année, € 500 la 2e année, € 1.000 la 3e année, € 2.000 à partir de la 4e année)"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Un processus d'autorisation au préalable doit être respecté avant de commencer le traitement",
+        "Plan de traitement détaillé avec devis précis des couts préalablement soumis et approuvé par écrit par l'assureur"
+      ],
+      "page": 7
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Accident survenu avant le début du plan d'assurance",
+      "description": "les couts des traitements dentaires qui découlent d'un accident survenu avant la date de début du plan d'assurance.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Maladie/affection préexistante",
+      "description": "les couts des traitements dentaires qui découlent d'une maladie ou une affection qui existait déjà avant la date de début du plan d'assurance ou dont les symptômes s'étaient déjà manifestés avant la date de début du plan d'assurance.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Guerre, émeutes, violences politiques/idéologiques/sociales",
+      "description": "les couts des traitements dentaires qui découlent d'une maladie ou un accident survenant de la participation active de l'assuré à une guerre civile ou autre, à des émeutes, des actes de violence à caractère politique, idéologique ou social.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Participation volontaire à un délit",
+      "description": "les couts des traitements dentaires qui découlent de la participation volontaire de l'assuré à un délit, sauf s'il prouve qu'il s'agissait d'un acte de légitime défense.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Acte intentionnel ou téméraire de l'assuré",
+      "description": "les couts des traitements dentaires qui découlent d'un acte intentionnel ou d'un acte téméraire de l'assuré, à moins qu'il ne prouve qu'il s'agisse d'un acte de légitime défense de personnes ou de biens.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Sports nécessitant une protection faciale/buccale/dentaire et sport professionnel/rémunéré",
+      "description": "les couts des traitements dentaires qui découlent d'une lésion subie lors de la pratique de sports pour lesquels il est d'usage ou obligatoire de porter une protection faciale, buccale ou dentaire ou à la suite d'une pratique sportive professionnelle ou rémunérée, y compris l'entrainement.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Terrorisme nucléaire",
+      "description": "les couts des traitements dentaires qui découlent d'un acte de terrorisme commis à l'aide d'armes ou d'engins destinés à exploser par une modification de structure du noyau atomique.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Alcoolisme, toxicomanie, dopage, abus de médicaments, ivresse/intoxication",
+      "description": "les couts des traitements dentaires qui découlent de l'alcoolisme, la toxicomanie, la consommation de produits dopants, la consommation excessive de médicaments (sauf prescription médicale), l'utilisation de médicaments non conformes aux indications de la notice d'usage pour le patient ; l'état d'ivresse, d'intoxication punissable ou un autre état analogue résultant de produits autres que les boissons alcoolisées, à condition qu'il soit démontré qu'il existe un rapport de causalité entre ces états et le traitement.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Bijoux dentaires/buccaux et piercings buccaux",
+      "description": "les couts des traitements dentaires qui découlent de la pose et le port de bijoux dentaires ou buccaux et de piercings buccaux.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Médicaments et produits en vente libre",
+      "description": "les médicaments et tout autre type de produits librement disponibles sur le marché.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Frais non facturables selon la loi belge",
+      "description": "les frais qui, conformément à la loi et aux règlements belges, ne peuvent pas être facturés.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Soins dentaires esthétiques",
+      "description": "les soins dentaires esthétiques.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Dents naturelles absentes ou déjà remplacées lors de la souscription",
+      "description": "tout traitement dentaire de dents naturelles absentes ou remplacées par une prothèse dentaire amovible ou fixe lors de la souscription du contrat d'assurance, à l'exception des dents de lait, des dents (de sagesse) extraites dans le cadre d'un traitement orthodontique.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Orthodontie précoce chez les moins de 9 ans",
+      "description": "l'orthodontie précoce chez les enfants de moins de 9 ans.",
+      "applies_to": "Orthodontie (Soins Dentaires Spécialisés)",
+      "page": 8
+    },
+    {
+      "name": "Traitements prothétiques des dents de sagesse et implants dentaires",
+      "description": "les traitements prothétiques des dents de sagesse, y compris les implants dentaires.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Transplantations dentaires",
+      "description": "les transplantations dentaires.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Orthopédie chirurgicale de la mâchoire",
+      "description": "l'orthopédie chirurgicale de la mâchoire, c.-à-d. les ostéotomies pour corriger une position/croissance anormale de la mâchoire inférieure et/ou supérieure.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Chirurgie parodontale esthétique",
+      "description": "la chirurgie parodontale esthétique comme la réparation des gencives perdues où la racine de la dent devient visible au moyen d'une greffe de gencive (traitement des récessions gingivales), l'extension de la couronne anatomique de la dent pour une restauration ultérieure au moyen d'une couronne (extension clinique de la couronne), la correction de la forme des gencives en vue d'un travail de couronnement et de bridge.",
+      "applies_to": "Parodontologie (Soins Dentaires Spécialisés)",
+      "page": 8
+    },
+    {
+      "name": "Dents déjà manquantes ou munies d'une prothèse à la conclusion du contrat (prothétique)",
+      "description": "Les dents qui sont déjà manquantes, remplacées par ou munies d'une prothèse dentaire amovible ou fixe au moment de la conclusion du contrat d'assurance sont exclues de la couverture d'assurance et n'entrent pas en considération pour le placement d'une prothèse dentaire provisoire ou définitive.",
+      "applies_to": "Soins dentaires prothétiques (Soins Dentaires Spécialisés)",
+      "page": 6
+    },
+    {
+      "name": "Politique d'honoraires discriminatoire ou excessive du dentiste",
+      "description": "S'il est établi qu'un dentiste poursuit une politique d'honoraires discriminatoire dans le contexte des garanties « accidents » (article 2.3.5) ou « soins dentaires spécialisés » (article 2.4), ou qu'il poursuit une politique d'honoraires excessive, l'assureur se réserve le droit de ne pas intervenir à la suite des prestations fournies par ce dentiste, aussi longtemps que ladite politique est appliquée. Dans le cas des garanties « accidents » ou « soins dentaires spécialisés », la notification aura lieu lors du processus d'autorisation au préalable, c-à-d avant le début du traitement dentaire.",
+      "applies_to": "Accidents dentaires; Soins Dentaires Spécialisés (Orthodontie, Soins dentaires prothétiques, Parodontologie, Petite chirurgie buccale)",
+      "page": 3
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": null,
+    "per_coverage": "Aucune franchise n'est prévue. L'assureur intervient dans les frais réels encourus (tickets modérateurs légaux et suppléments d'honoraires) qui restent à charge de l'assuré après toute intervention légale/statutaire ou autre, selon un pourcentage par garantie (100% pour soins préventifs et accidents dentaires ; 70% pour consultations, examen radiologique, soins curatifs et soins dentaires spécialisés). L'intervention de l'assureur ne peut jamais dépasser les frais réels encourus.",
+    "page": 4
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "description": "Exécuter le contrat d'assurance de bonne foi et prendre toutes les mesures raisonnables pour prévenir et limiter les conséquences d'un cas d'assurance.",
+      "timing": null,
+      "sanction": "Si le manquement entraine un préjudice pour l'assureur, l'assureur peut réduire ses prestations d'assurance dans la mesure du préjudice subi ou refuser d'intervenir intégralement si le manquement a été commis avec une intention frauduleuse.",
+      "page": 9
+    },
+    {
+      "description": "Avant de demander une indemnisation à l'assureur, d'abord faire valoir les demandes d'indemnisation dans le cadre de toutes les interventions légales/statutaires ou autres.",
+      "timing": "Avant de demander une indemnisation à l'assureur",
+      "sanction": "Réduction des prestations dans la mesure du préjudice subi, voire refus intégral en cas d'intention frauduleuse.",
+      "page": 9
+    },
+    {
+      "description": "Déclarer chaque cas d'assurance à l'assureur, de préférence via le portail client digital ou l'application sur smartphone, le cas échéant en utilisant les formulaires de déclaration spécifiques et conformément aux consignes et délais décrits. La copie digitale doit être de bonne qualité (lisible) et conforme à l'original. Si les pièces justificatives ont été rédigées dans une langue autre que le français, le néerlandais ou l'anglais, l'assureur peut en demander la traduction dans la langue du contrat, aux frais de l'assuré.",
+      "timing": null,
+      "sanction": "Réduction des prestations dans la mesure du préjudice subi, voire refus intégral en cas d'intention frauduleuse.",
+      "page": 9
+    },
+    {
+      "description": "Signaler l'existence de tout autre accord couvrant un risque similaire ou identique, totalement ou partiellement. Le preneur d'assurance et/ou l'assuré ne peuvent renoncer à aucun droit de recours sans l'accord écrit préalable de l'assureur.",
+      "timing": null,
+      "sanction": "Si la substitution de l'assureur ne peut avoir aucun effet du fait des actions du preneur/assuré, l'assureur peut demander le remboursement de l'indemnité versée dans la mesure du préjudice subi.",
+      "page": 9
+    },
+    {
+      "description": "Déclarer l'accident (garantie accidents dentaires) par écrit à l'assureur via le formulaire de déclaration d'accident prévu à cet effet.",
+      "timing": "Endéans les 48 heures, ou dès que cela est raisonnablement possible après l'accident",
+      "sanction": null,
+      "page": 5
+    },
+    {
+      "description": "Rapporter méticuleusement toutes les circonstances connues et pertinentes qui déterminent l'évaluation du risque à assurer, jusqu'à la conclusion du contrat d'assurance.",
+      "timing": "Jusqu'à la conclusion du contrat d'assurance",
+      "sanction": "Toute omission intentionnelle ou communication incorrecte induisant l'assureur en erreur rend le contrat nul et non avenu, sans préjudice des primes déjà versées.",
+      "page": 10
+    },
+    {
+      "description": "Aviser l'assureur dans les 30 jours de la date à laquelle les conditions pour maintenir le contrat ne sont plus réunies (notamment : changement de lieu de résidence/résidence principale ; séjour à l'étranger de plus de 90 jours consécutifs ; séjour temporaire de plus de 6 mois dans l'UE pour étudiants de moins de 26 ans ; changement de statut de sécurité sociale faisant que l'assuré n'est plus assujetti à la sécurité sociale belge).",
+      "timing": "Dans les 30 jours",
+      "sanction": "L'assureur peut résilier le contrat avec effet rétroactif au jour de la nouvelle situation si les conditions de maintien ne sont plus remplies.",
+      "page": 13
+    },
+    {
+      "description": "Faire toutes les déclarations et communications à l'assureur par écrit (en format papier ou digital), à moins que le contrat ne prévoie d'autres modalités de notification, et aviser l'assureur dans les meilleurs délais de l'existence de tout autre accord couvrant un risque similaire ou identique.",
+      "timing": null,
+      "sanction": "Réduction des prestations dans la mesure du préjudice subi, voire refus intégral en cas d'intention frauduleuse.",
+      "page": 13
+    },
+    {
+      "description": "Le preneur d'assurance informe l'assureur, dans un délai de 30 jours, du moment où un assuré quitte le contrat d'assurance et de son nouveau lieu de résidence et résidence principale (droit à la continuation).",
+      "timing": "Dans un délai de 30 jours",
+      "sanction": null,
+      "page": 13
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Prendre toutes les mesures raisonnables pour prévenir et limiter les conséquences du cas d'assurance et exécuter le contrat de bonne foi.",
+      "deadline": null,
+      "page": 9
+    },
+    {
+      "step": "Faire d'abord valoir les demandes d'indemnisation dans le cadre de toutes les interventions légales/statutaires ou autres avant de demander une indemnisation à l'assureur.",
+      "deadline": null,
+      "page": 9
+    },
+    {
+      "step": "Déclarer chaque cas d'assurance à l'assureur, de préférence via le portail client digital ou l'application smartphone, avec les formulaires de déclaration spécifiques prévus et les pièces justificatives (rapports/certificats médicaux, facture ou note d'honoraires).",
+      "deadline": "Conformément aux consignes et délais décrits ; délai de prescription de 3 ans à compter de la date de traitement de la prestation",
+      "page": 9
+    },
+    {
+      "step": "Pour la garantie accidents dentaires : déclarer l'accident via le formulaire de déclaration d'accident, puis soumettre pour approbation préalable écrite : le formulaire de déclaration d'accident, un certificat médical/rapport, un plan de traitement détaillé avec devis précis des couts, des radiographies datées d'avant et après l'accident, des photographies en couleur de la situation dentaire juste après l'accident.",
+      "deadline": "Déclaration endéans les 48 heures ou dès que raisonnablement possible ; traitement effectué endéans les 12 mois suivant l'accident",
+      "page": 5
+    },
+    {
+      "step": "Pour les soins dentaires spécialisés (orthodontie, prothétiques, parodontologie, petite chirurgie buccale) : soumettre préalablement un plan de traitement détaillé avec devis précis des couts pour approbation écrite par l'assureur et son médecin-conseil.",
+      "deadline": "Préalablement au début du traitement (processus d'autorisation au préalable)",
+      "page": 7
+    },
+    {
+      "step": "Collaboration à la détermination du droit aux prestations : le preneur et l'assuré donnent leur accord pour que l'assureur obtienne les informations nécessaires ; l'assureur peut subordonner le droit aux prestations à la présentation de preuves et/ou documents médicaux supplémentaires et faire examiner l'exactitude des déclarations par un médecin-conseil.",
+      "deadline": null,
+      "page": 9
+    },
+    {
+      "step": "Versement de l'indemnité sur le numéro de compte indiqué par le preneur d'assurance lors de la déclaration du sinistre, en euros.",
+      "deadline": null,
+      "page": 10
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Conformément à la législation belge applicable, le contrat d'assurance est conclu à vie, sans préjudice des dispositions légales ou énoncées à l'article 4.3 et du droit de résiliation du preneur d'assurance.",
+    "tacit_renewal": null,
+    "methods": [
+      "Résiliation par le preneur d'assurance par écrit (par lettre recommandée, par exploit d'huissier, ou par remise d'une lettre contre récépissé). Résiliation par l'assureur par lettre recommandée en cas de fraude/tentative de fraude ou de non-paiement des primes. Fin automatique du contrat en cas de déménagement à l'étranger (transfert du lieu de résidence ou de la résidence principale à l'étranger)."
+    ],
+    "special_rights": [
+      "Le preneur d'assurance peut résilier endéans les 3 mois qui suivent la notification d'une adaptation de la prime et/ou des conditions imposée par les autorités de contrôle : (2) si notifiée au moins 4 mois avant l'échéance annuelle, la résiliation prend effet à la date d'échéance annuelle ; (3) si notifiée moins de 4 mois avant l'échéance annuelle, la résiliation prend effet après un mois à compter du lendemain de la notification/du récépissé ou du dépôt à la Poste. Le preneur ne peut pas invoquer l'adaptation/indexation annuelle de la prime pour résilier. Droit de rétractation : tant le preneur que l'assureur peuvent se rétracter du contrat conclu à distance sans pénalité ni justification, par écrit, endéans les 14 jours (adresses : 25 rue de Loxum à 1000 Bruxelles ou contract-fr@dkv.be) ; la rétractation par le preneur prend effet immédiatement, celle de l'assureur 8 jours après notification. Droit à la continuation individuelle à la sortie du contrat (article 4.4) : offre de continuation dans les 30 jours, à accepter dans les 60 jours, sans nouvel examen médical."
+    ],
+    "page": 11,
+    "notice_period": "Résiliation par le preneur d'assurance à la fin de chaque année d'assurance moyennant un préavis de trois mois ; la résiliation prend effet à la date d'échéance annuelle du contrat."
+  },
+  "prescription_period": {
+    "description": "Le délai de prescription pour soumettre des frais d'un cas d'assurance est de 3 ans à compter de la date de traitement de la prestation. Le délai de prescription pour la réclamation de toute prestation indument payée par l'assureur est de 10 ans à compter de la date du paiement indu."
+  },
+  "premium": {
+    "description": "Le preneur d'assurance est redevable de la totalité de la prime annuelle (pour tous les assurés) à la date d'échéance annuelle. La prime annuelle est calculée selon le lieu de résidence du preneur d'assurance, l'âge d'entrée de chaque assuré (année en cours moins année de naissance) et l'état de santé de chaque assuré. Le tableau de primes est disponible dans les Conditions Particulières d'Assurance. La prime annuelle est payable annuellement et à l'avance, au plus tard à la date d'échéance selon la périodicité convenue (mensuelle, trimestrielle, semestrielle ou annuelle) stipulée dans la police. La prime n'est pas exonérée après la survenance d'un cas d'assurance ni pendant celui-ci. La prime est adaptée à la date d'échéance annuelle selon la catégorie d'âge atteinte, et au changement de lieu de résidence. La prime et/ou les prestations peuvent être indexées (indice des prix à la consommation ou indices médicaux spécifiques). En cas de non-paiement : mise en demeure par lettre recommandée, arriérés à régler dans les 15 jours, suspension automatique de la garantie à défaut, puis résiliation de plein droit si non payé dans un second délai de 15 jours. Indemnité forfaitaire due en cas de non-paiement : € 20 si le montant restant dû est inférieur ou égal à € 150 ; € 30 si compris entre € 150,01 et € 500 ; € 65 si supérieur à € 500.",
+    "page": 11
+  },
+  "special_conditions": [
+    {
+      "name": "Plafond annuel croissant des soins dentaires spécialisés",
+      "description": "L'intervention maximale en additionnant tous les traitements dentaires énumérés aux articles 2.4.1 à 2.4.4 (soins dentaires spécialisés) est limitée, par année d'assurance, à un capital assuré croissant annuellement : € 250 pendant la première année d'assurance ; € 500 pendant la deuxième année ; € 1.000 pendant la troisième année ; € 2.000 à partir de la quatrième année. Quelle que soit la hauteur des interventions, elles seront réduites à concurrence du capital annuel disponible pour les payer.",
+      "page": 6
+    },
+    {
+      "name": "Assurabilité",
+      "description": "Est assurable toute personne physique qui simultanément : n'a pas atteint l'âge de 70 ans au moment de la souscription du plan d'assurance ; a son lieu de résidence et sa résidence principale en Belgique (ne séjourne pas plus de 90 jours consécutifs à l'étranger) ; est assujettie à la sécurité sociale belge et en bénéficie. Les nouveau-nés d'un assuré peuvent être assurés dès la naissance, sans examen médical du risque, si la demande d'affiliation est effectuée par écrit endéans les 60 jours suivant la naissance. Le séjour temporaire dans les États membres de l'UE (hors territoires d'outre-mer) des étudiants de moins de 26 ans est couvert, pour une durée maximale de 6 mois, pour autant que l'assuré continue à être soumis à la sécurité sociale belge.",
+      "page": 3
+    },
+    {
+      "name": "Territorialité",
+      "description": "Le plan d'assurance n'est valable qu'en Belgique. Les soins dentaires doivent être dispensés en Belgique par un dentiste agréé. L'assuré est libre de choisir son ou ses dentiste(s) en Belgique pour l'exécution du traitement dentaire.",
+      "page": 3
+    },
+    {
+      "name": "Critères de remboursement généraux",
+      "description": "Sauf mention contraire explicite, sont uniquement remboursés les soins dentaires qui simultanément : ont un caractère ambulatoire, diagnostique et/ou curatif ; sont scientifiquement et thérapeutiquement éprouvés ; sont médicalement nécessaires et dont les frais sont médicalement nécessaires ; sont dispensés en Belgique par un dentiste agréé ; sont encourus pendant la durée du plan d'assurance. La garantie comprend les cas d'assurance résultant d'une maladie ou d'un accident. Le cas d'assurance commence avec le début du traitement dentaire et se termine lorsque le traitement n'est plus médicalement nécessaire.",
+      "page": 3
+    },
+    {
+      "name": "Charge de la preuve des exclusions",
+      "description": "L'assureur supporte la charge de la preuve pour toutes les exclusions et limitations du plan d'assurance.",
+      "page": 9
+    },
+    {
+      "name": "Indemnité forfaitaire pour montants restant dus par le preneur/assuré",
+      "description": "En cas de paiement incomplet ou de non-paiement des montants dus par le preneur d'assurance ou l'assuré (montant dépassant le capital annuel assuré, frais non couverts, frais refusés) pour lesquels l'assureur met en demeure par lettre recommandée, une indemnité forfaitaire est due : € 20 si le montant restant dû est inférieur ou égal à € 150 ; € 30 si compris entre € 150,01 et € 500 ; € 65 si supérieur à € 500. Ces montants peuvent être indexés par arrêté royal. L'indemnité ne s'applique qu'après l'envoi d'une mise en demeure (premier rappel) et l'écoulement d'un délai d'au moins quatorze jours calendrier. Une indemnité forfaitaire réciproque est due par l'assureur s'il ne verse pas les frais couverts, après mise en demeure par lettre recommandée du preneur/assuré.",
+      "page": 9
+    },
+    {
+      "name": "Règlement des divergences d'opinion (expertise médicale à l'amiable)",
+      "description": "Tout litige concernant le droit aux prestations doit être signalé à l'assureur par écrit dans un délai de 30 jours suivant la décision de l'assureur. L'assuré a le droit de soumettre les litiges de nature médicale à une expertise médicale à l'amiable : chaque partie désigne un médecin-expert ; en cas de désaccord, un troisième médecin-expert est désigné ; les trois prennent la décision à la majorité, à défaut l'avis du troisième est déterminant. Si une partie ne désigne pas son médecin-expert endéans les 14 jours, ou en cas de désaccord sur le choix du troisième, celui-ci est désigné par le président du Tribunal de première instance. Chaque partie supporte les frais de son médecin-expert ; la partie perdante supporte les frais du troisième médecin-expert.",
+      "page": 10
+    },
+    {
+      "name": "Conclusion du contrat à distance",
+      "description": "Sauf convention contraire expresse, la conclusion du contrat d'assurance ne peut avoir lieu qu'à distance, via le portail de souscription numérique. Le contrat est conclu au moment de l'émission de la police. La couverture n'entre en vigueur qu'après le paiement de la première prime annuelle complète ou de la prime partielle convenue dans le délai imparti, et jamais avant la date de début du contrat stipulée dans la police.",
+      "page": 11
+    },
+    {
+      "name": "Adaptation de la prime et/ou des conditions",
+      "description": "La prime de chaque assuré est adaptée à la date d'échéance annuelle sur base de la catégorie d'âge alors atteinte, et à partir du premier jour du mois qui suit le changement du lieu de résidence. La prime et/ou les prestations peuvent être adaptées à la date d'échéance annuelle jusqu'à concurrence maximum de l'indice des prix à la consommation ou des indices médicaux spécifiques. Outre l'indexation annuelle, la prime et/ou les conditions ne peuvent être adaptées que par l'intervention des autorités de contrôle si le plan d'assurance est ou risque d'être déficitaire ; cette adaptation peut être invoquée par le preneur pour résilier le contrat (article 4.3.1 (2) et (3)).",
+      "page": 12
+    },
+    {
+      "name": "Protection de la vie privée",
+      "description": "L'assureur traite les données personnelles et médicales du preneur et de l'assuré uniquement dans le cadre des prestations d'assurance, conformément à la loi belge du 30 juillet 2018 relative à la protection des personnes physiques à l'égard du traitement des données à caractère personnel et au règlement 2016/679 (RGPD). Plus d'informations sur www.dkv.be/privacy.",
+      "page": 13
+    },
+    {
+      "name": "Droit applicable et juridiction",
+      "description": "Le droit belge s'applique au contrat d'assurance. Tous les litiges relatifs à la conclusion, la validité, l'exécution, l'interprétation ou la dissolution du contrat relèvent de la compétence exclusive des cours et tribunaux belges.",
+      "page": 14
+    },
+    {
+      "name": "Gestion des plaintes",
+      "description": "Toute plainte relative au contrat ou à la gestion d'un sinistre peut être adressée à DKV Belgium S.A. – Quality Control, 25 rue de Loxum, 1000 Bruxelles (qualitycontrol@dkv.be). Sans préjudice d'une procédure judiciaire, le preneur peut s'adresser à l'ombudsman de l'assurance, square de Meeûs 35, 1000 Bruxelles (www.ombudsman.as, +32 (0) 2 547 58 71, info@ombudsman.as).",
+      "page": 14
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Assurance individuelle soins dentaires à caractère indemnitaire, conformément à la législation belge applicable, en complément de toute intervention légale/statutaire ou autre.",
+      "page": 3
+    },
+    {
+      "quote": "Le plan d'assurance n'est valable qu'en Belgique.",
+      "page": 3
+    },
+    {
+      "quote": "Pour chaque prestation du traitement dentaire approuvé, le montant qui reste à charge de l'assuré, après déduction de toutes les interventions légales/statutaires ou autres, est remboursé à 100 %. L'intervention de l'assureur au titre de la garantie « accident » est plafonnée à € 10.000 par cas d'assurance.",
+      "page": 5
+    },
+    {
+      "quote": "L'intervention de l'assureur au titre de la garantie « orthodontie » est limitée à un seul plan de traitement de maximum € 1.500 par assuré sur toute la durée du contrat d'assurance.",
+      "page": 7
+    },
+    {
+      "quote": "Sont exclus de la couverture d'assurance du plan d'assurance DKV Smile Comfort :",
+      "page": 8
+    },
+    {
+      "quote": "Le délai de prescription pour soumettre des frais d'un cas d'assurance est de 3 ans à compter de la date de traitement de la prestation.",
+      "page": 9
+    },
+    {
+      "quote": "Conformément à la législation belge applicable, le contrat d'assurance est conclu à vie, sans préjudice des dispositions légales ou énoncées à l'article 4.3. et du droit de résiliation du preneur d'assurance.",
+      "page": 11
+    }
+  ],
+  "gaps": [
+    "Aucune période de carence (délai d'attente) n'est mentionnée dans le document ; le tableau waiting_periods est donc vide.",
+    "Le tableau de primes chiffré n'est pas dans les Conditions Générales : il figure dans les Conditions Particulières d'Assurance (non fourni ici).",
+    "Les surprimes, exclusions individuelles et conditions particulières éventuelles sont déterminées lors de l'émission de la police et décrites dans les Conditions Particulières d'Assurance (non fournies)."
+  ]
+}

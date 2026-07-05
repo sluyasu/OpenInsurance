@@ -1,0 +1,950 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "be",
+  "insurer_slug": "ag",
+  "insurer_name": "AG Insurance",
+  "branch": "vie-privee",
+  "document_type": "conditions_generales",
+  "language": "fr",
+  "source_url": "https://ag.be/particuliers/dam/transversal/retail/documents/product-documents/fr/family/20027F.pdf",
+  "product_name": "Assurance de Responsabilité Top Familiale",
+  "reference": "0079-2002720F-01012025",
+  "edition_date": "01/01/2025",
+  "target_audience": "particuliers",
+  "branch_code": null,
+  "source_pages": 34,
+  "source_pdf": "top-familiale-rc-vie-privee-variante-bnppf-8f668e67.pdf",
+  "source_sha256": "be72f0be3da5ab92336da25d093b592e87fc85d1a76dabb983294f4f455471ab",
+  "fetched_at": "2026-07-05",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "L'assurance de responsabilité « Top Familiale » d'AG Insurance couvre la responsabilité civile extracontractuelle des assurés dans le cadre de leur vie privée (dommages corporels et matériels causés à des tiers). Elle comprend une garantie de base 'Responsabilité Civile Vie Privée' et deux garanties optionnelles moyennant surprime : 'Protection Juridique Vie Privée' (gérée par Providis) et 'Pack Familiale+' (extensions de couverture). Le contrat est régi par la loi belge du 4 avril 2014 relative aux assurances et l'arrêté royal du 12 janvier 1984.",
+  "definitions": [
+    {
+      "term": "Animaux",
+      "definition": "Animaux dont la détention par des particuliers n'est pas interdite par les annexes I, II et III de la Convention de Washington du 3 mars 1973.",
+      "page": 5
+    },
+    {
+      "term": "Cohousers",
+      "definition": "Personnes majeures qui choisissent de partager ensemble une unité d'habitation et d'y établir leur résidence principale, comme les colocataires. Le preneur d'assurance est également considéré comme un cohouser. Le nombre maximal autorisé de personnes habitant dans une unité d'habitation est fixé à 10. Les enfants des cohousers comptent également comme personnes vivant dans l'unité d'habitation. Relèvent notamment de la définition : le preneur qui partage une maison unifamiliale avec son enfant et deux amis (= 3 cohousers et 4 personnes qui occupent l'unité d'habitation). Ne relèvent pas de la définition : les étudiants qui cohabitent mais dont la résidence principale se trouve toujours chez leurs parents.",
+      "page": 5
+    },
+    {
+      "term": "Crime / crime correctionnalisé",
+      "definition": "Un crime est une infraction que les lois punissent d'une peine criminelle. Un crime correctionnalisé est une infraction initialement punie d'une peine criminelle par le droit pénal, mais modifiée par la loi, au cours de l'enquête pénale ou par le tribunal en un délit, de sorte qu'il n'est plus jugé par la Cour d'Assises mais par le tribunal correctionnel.",
+      "page": 5
+    },
+    {
+      "term": "Délit",
+      "definition": "Infraction que les lois punissent d'une peine correctionnelle.",
+      "page": 5
+    },
+    {
+      "term": "Dommages corporels",
+      "definition": "Atteinte à l'intégrité physique ou psychique d'une personne physique.",
+      "page": 5
+    },
+    {
+      "term": "Dommages matériels",
+      "definition": "Dommages ou perte d'objets ou d'animaux.",
+      "page": 5
+    },
+    {
+      "term": "Nous",
+      "definition": "AG Insurance (en abrégé AG) SA - Bd E. Jacqmain 53, 1000 Bruxelles - RPM Bruxelles TVA BE 0404.494.849 – Entreprise d'assurance belge agréée sous code 0079, sous le contrôle de la Banque nationale de Belgique, Bd de Berlaimont 14, 1000 Bruxelles. Dans le cadre de l'assurance Protection Juridique, la gestion des dossiers « Protection Juridique » est confiée à notre service spécialisé et distinct appelé « Providis ».",
+      "page": 6
+    },
+    {
+      "term": "Preneur d'assurance",
+      "definition": "Personne physique qui a souscrit le contrat d'assurance.",
+      "page": 6
+    },
+    {
+      "term": "Terrorisme",
+      "definition": "Action organisée dans la clandestinité à des fins idéologiques, politiques, ethniques ou religieuses, exécutée individuellement ou en groupe et attentant à des personnes ou détruisant partiellement ou totalement la valeur économique d'un bien matériel ou immatériel, soit en vue d'impressionner le public, de créer un climat d'insécurité ou de faire pression sur les autorités, soit en vue d'entraver la circulation et le fonctionnement normal d'un service ou d'une entreprise.",
+      "page": 6
+    },
+    {
+      "term": "Travaux de finition",
+      "definition": "Tous les travaux à un bâtiment, sauf : les travaux qui sont susceptibles de mettre en péril la stabilité du bâtiment ou des bâtiments avoisinants ; les travaux de démolition, de construction, de fermeture, de couverture ou d'obturation (comme maçonner, poser la couverture du toit, rejointoyer, placer les fenêtres et les portes extérieures).",
+      "page": 6
+    },
+    {
+      "term": "Unité d'habitation",
+      "definition": "Habitation unifamiliale ou appartement portant le même numéro de maison et de boîte, composé(e) de plusieurs espaces de vie pouvant être utilisés par tous les cohousers (par exemple cuisine, salon, salle de bain) et comprenant maximum 5 chambres à coucher. Relève de la définition : un appartement de trois chambres avec une cuisine et un salon communs. Ne relèvent pas de la définition : une habitation kangourou avec deux entrées séparées portant les numéros 20A et 20B ; les unités d'habitations séparées qui n'ont qu'un jardin, un abri à vélos et un local technique en commun.",
+      "page": 6
+    },
+    {
+      "term": "Les assurés (= vous) - assurés principaux",
+      "definition": "1. le preneur d'assurance pour autant qu'il ait sa résidence principale en Belgique ; 2. les personnes qui habitent avec le preneur d'assurance et font partie de son foyer (personnes qui participent et sont intégrées à la vie de famille du preneur) ou en tant que cohousers dans une unité d'habitation de maximum 5 chambres et 10 personnes. Ces personnes conservent la qualité d'assuré lorsqu'elles résident temporairement ailleurs. Les personnes aux points 1 et 2.a conservent leur qualité d'assuré pendant 12 mois lorsqu'elles quittent définitivement la résidence principale et pendant 60 jours à partir du déménagement à l'étranger. Les cohousers du point 2.b conservent la qualité d'assuré pendant 1 mois lorsqu'ils quittent définitivement la résidence principale.",
+      "page": 7
+    },
+    {
+      "term": "Les assurés complémentaires",
+      "definition": "1. les personnes entretenues par un assuré principal ; 2. les personnes dépendantes et enfants de tiers sous la garde non professionnelle d'un assuré principal ou d'une personne entretenue ; 3. les personnes assumant, en dehors de toute activité professionnelle et à la demande d'un assuré principal, gratuitement ou non, la garde des enfants/personnes dépendantes du foyer, des personnes entretenues, ou des animaux couverts ; 4. les invités logeant chez l'assuré pendant la durée du séjour (hors personnes occupant contre paiement) ; 5. le personnel domestique, aides familiales et autres personnes agissant au service privé d'un assuré ; 6. les tiers aidant gratuitement un assuré principal lors d'un déménagement en Belgique ou lors de travaux de finition dans la résidence principale actuelle ou future.",
+      "page": 7
+    },
+    {
+      "term": "Tiers (Partie 1 - RC Vie Privée)",
+      "definition": "Toutes les personnes autres que les assurés principaux. Cependant, les assurés principaux deviennent également des tiers : a. lorsqu'ils quittent définitivement la résidence principale du preneur d'assurance ; b. lorsqu'ils ont personnellement subi des dommages corporels occasionnés par un assuré complémentaire.",
+      "page": 7
+    },
+    {
+      "term": "Les assurés (Partie 2 - Protection Juridique)",
+      "definition": "1. le preneur d'assurance pour autant qu'il ait sa résidence principale en Belgique ; 2. les personnes qui habitent avec le preneur et font partie de son foyer ou en tant que cohousers (max 5 chambres et 10 personnes) ; 3. les enfants du preneur et/ou de son partenaire cohabitant qui ne vivent plus sous le même toit mais qui sont toujours entretenus par eux, jusqu'à ce qu'ils atteignent l'âge de 25 ans.",
+      "page": 15
+    },
+    {
+      "term": "Tiers (Partie 2 - Protection Juridique)",
+      "definition": "Toute personne autre qu'un assuré.",
+      "page": 15
+    },
+    {
+      "term": "Sinistre (Protection Juridique)",
+      "definition": "Un sinistre est une situation dans laquelle vous nous demandez de vous fournir de l'assistance juridique pour une action que vous souhaitez engager en tant que demandeur ou pour votre défense en tant que défendeur dans une action intentée contre vous.",
+      "page": 16
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Responsabilité civile extracontractuelle (garantie de base)",
+      "description": "Nous couvrons votre responsabilité extracontractuelle si vous avez causé un dommage à un tiers dans le cadre de votre vie privée et que votre responsabilité est engagée sur la base des articles 1382 à 1386 bis de l'ancien Code civil (faits avant le 1er janvier 2025), des articles 6.5, 6.6, 6.11 à 6.14, 6.16 et 6.17 du Code civil (faits à partir du 1er janvier 2025), de la combinaison des articles 3.50 et 3.101 du Code civil (troubles anormaux de voisinage), ou de dispositions similaires en droit étranger. La prévention des troubles anormaux de voisinage (art. 3.102 du Code civil) n'est pas couverte.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "32.247.785,02 euros (indexés) pour les dommages corporels ; 9.287.362,09 euros (indexés) pour les dommages matériels, par sinistre",
+      "sub_limits": [],
+      "deductible": "Une franchise d'un montant de 319,76 euros (indexés) par sinistre est d'application pour les dommages matériels. L'indice de base est l'indice des prix à la consommation de septembre 2024 (= 308,65 - base 1981 = 100).",
+      "conditions": [
+        "Les transactions avec le Ministère Public, les amendes judiciaires, transactionnelles ou administratives ainsi que les frais de poursuites répressives ne sont pas à notre charge."
+      ],
+      "page": 8
+    },
+    {
+      "name": "Frais de sauvetage, intérêts et frais",
+      "description": "Nous vous assurons pour : a. les frais de sauvetage découlant des mesures demandées par nous pour prévenir ou atténuer les conséquences du sinistre, ainsi que des mesures urgentes et raisonnables prises d'initiative en cas de danger imminent ; b. les intérêts afférents à l'indemnité due en principal, les frais afférents aux actions civiles ainsi que les honoraires et frais des avocats et experts exposés par nous ou avec notre accord. Nous ne vous assurons pas pour les frais de sauvetage découlant de mesures tendant à prévenir un sinistre assuré en l'absence de danger imminent ou lorsque tout danger imminent est écarté.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 8
+    },
+    {
+      "name": "Biens immeubles et contenu",
+      "description": "Nous vous assurons pour les dommages causés par : a. les bâtiments et leur contenu dont vous êtes propriétaire ou locataire pour votre usage personnel (sauf bâtiments de stockage/vente de marchandises) - sont assimilés à des bâtiments les caravanes résidentielles, chalets habitables, cours intérieures, entrées d'immeuble, clôtures, trottoirs, antennes, hampes de drapeau et panneaux solaires ; b. une partie limitée à 3 pièces d'un bien situé en Belgique utilisée pour une profession libérale ou activité commerciale sans stockage/vente ; c. une partie d'un bien dont un assuré est propriétaire louée/mise à disposition d'un tiers (max 3 appartements, avec ou sans garage) ; d. un ascenseur domestique, monte-charges privatif ou équipement PMR ; e. les terrains (bâtis ou non). Sont exclus les dommages matériels causés par le feu, l'incendie, l'explosion ou la fumée prenant naissance dans un bâtiment assuré.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [
+        "Partie professionnelle : limitée à 3 pièces",
+        "Parties louées à tiers : total n'excédant pas 3 appartements"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 9
+    },
+    {
+      "name": "Séjours temporaires",
+      "description": "Nous vous assurons pour les dommages causés : a. au bâtiment et contenu d'une résidence de vacances appartenant à un tiers pendant un séjour temporaire (tentes, caravanes résidentielles, chalets habitables, mobiles homes, logements insolites, cabines de bateau de croisière ou train conduit par un tiers professionnel) ; b. au bâtiment appartenant à un tiers occupé à l'occasion d'une fête à caractère privé et à son contenu (y compris véhicules automoteurs loués conduits par un tiers) - restent exclus les dommages couverts par l'assurance obligatoire véhicules, aux bateaux/engins maritimes (hors péniches à quai), aux avions ; c. à la chambre d'hôtel ou logement avec service hôtelier minimum ; d. à la chambre en cas d'hospitalisation ou séjour en institution de soins ou repos ; e. aux biens immeubles appartenant à des tiers occupés occasionnellement à usage de logement pour moins de 3 mois consécutifs et non ou insuffisamment assurés par le tiers.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [
+        "Occupation occasionnelle de biens de tiers : période inférieure à 3 mois consécutifs"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 9
+    },
+    {
+      "name": "Animaux",
+      "description": "Nous vous assurons pour les dommages causés par les animaux dont vous avez la garde en dehors de toute activité professionnelle. Les dommages causés par les chiens de garde utilisés pour la garde de bâtiments à usage professionnel sont couverts. Sont également couverts les dommages causés aux animaux (y compris chevaux et harnachement) appartenant à des tiers dont vous avez la garde. Cas particulier des chevaux : couverture pour chevaux de selle, chevaux de trait, poneys et attelages dont vous êtes propriétaire, détenteur ou gardien. La garantie est étendue à la responsabilité personnelle des préposés et couvre la participation à des épreuves équestres et leur préparation, le transport à titre gracieux dans les attelages, et les dommages causés par les objets transportés ou leur chute.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [
+        "Chevaux de selle : garantie limitée à deux chevaux de selle si vous en êtes propriétaire ; au-delà, déclaration obligatoire du nombre total dans les conditions particulières, à défaut règle proportionnelle"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les poneys et petits chevaux ne dépassant pas 1,48 m au garrot et les chevaux de trait ne sont pas considérés comme chevaux de selle et sont couverts quel que soit leur nombre.",
+        "Nous ne couvrons pas les dommages causés aux objets et marchandises transportés."
+      ],
+      "page": 10
+    },
+    {
+      "name": "Déplacements et moyens de locomotion",
+      "description": "Nous vous assurons pour les dommages causés au cours de vos déplacements privés ou professionnels en tant que piéton ou avec : a. tous les véhicules terrestres non équipés d'un moteur (vélo, trottinette, rollers, skateboard, fauteuil roulant...) ; b. les vélos à assistance électrique ; c. les véhicules automoteurs exemptés en Belgique de l'obligation d'assurance RC Auto (vitesse max 6 km/h et masse max 100 kg ; ou vitesse >6 mais ≤25 km/h et masse max 25 kg ; ou fauteuils roulants automoteurs pour handicapés) ; d. certains véhicules non exemptés (chaise roulante électrique PMR ; véhicule vitesse >6 mais ≤25 km/h et masse >25 kg ; monoroue, segway, trottinette électrique et hoverboard dont la vitesse max ≤ 45 Km/h) - les cyclomoteurs des classes A et B restent exclus ; e. un bateau ou engin maritime (bateaux à voile >300 kg ou engins à moteur >8 kW uniquement s'ils appartiennent à un tiers, en tant que passager ou utilisation occasionnelle max 48h). Sont aussi assurés les dommages corporels en conduisant un véhicule confié occasionnellement lorsque le tiers est exclu du contrat auto, et les dommages en cas de conduite par un assuré sans l'âge requis (joyriding).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [
+        "Bateaux à voile >300 kg / engins maritimes à moteur >8 kW : uniquement s'ils appartiennent à un tiers ; utilisation occasionnelle limitée à 48 heures max"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Ne sont pas assurés les dommages causés par des véhicules automoteurs ou équipés d'un moteur autres que ceux cités au point 1, ni par des véhicules aériens.",
+        "Droit de recours en cas de responsabilité au titre de l'assurance obligatoire RC véhicules automoteurs : recours intégral jusqu'à 11.000 euros de dépenses nettes, augmenté de la moitié au-delà, sans excéder 31.000 euros ; recours intégral en cas de sinistre intentionnel (16 ans min) ; recours en cas de faute lourde (18 ans min - ivresse) ; recours en cas de suspension pour non-paiement de prime ; recours en cas de conduite sans permis ou déchu du droit de conduire."
+      ],
+      "page": 10
+    },
+    {
+      "name": "Activités sportives et loisirs",
+      "description": "Nous vous assurons pour les dommages causés : a. par l'utilisation à des fins exclusivement sportives ou récréatives d'aéromodèles (y compris drones de masse max au décollage < 150 kg) pour autant qu'ils ne volent pas dans un rayon de 3 km autour des aéroports/aérodromes civils et militaires ni au-dessus des complexes industriels, prisons, terminaux LNG, centrales nucléaires ou rassemblement public en plein air ; b. par les enfants assurés à l'occasion de services, même rémunérés ; c. par les activités dans le cadre de mouvements culturels, sportifs, de jeunesse ou assimilés ; d. par les activités en qualité de volontaire au sein d'une association de fait ou personne morale sans but lucratif ; e. en qualité d'organisateur d'un événement à caractère privé (sauf organisation d'une partie de chasse) ; f. par les outils motorisés utilisés à des fins privées sur un terrain privé ou son environnement immédiat ; g. lors de la participation à une partie de chasse en qualité de traqueur/rabatteur uniquement (y compris responsabilité des chiens ; exclus les dommages par armes).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 12
+    },
+    {
+      "name": "Garde rémunérée d'enfants",
+      "description": "Par dérogation à l'article 2, nous couvrons votre responsabilité contractuelle et extra-contractuelle lorsque vous assurez la garde, contre rémunération, de maximum 5 enfants (équivalent temps plein) de tiers. Nous vous assurons tant pour les dommages causés par les enfants gardés que pour ceux causés aux enfants gardés.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [
+        "Maximum 5 enfants (équivalent temps plein) de tiers"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 12
+    },
+    {
+      "name": "Travail associatif - services de citoyen à citoyen et économie de partage",
+      "description": "Nous vous assurons pour les dommages extracontractuels causés à des tiers pendant l'exercice d'une activité en qualité de travailleur associatif ou pendant l'exécution de services dans le cadre soit d'un service de citoyen à citoyen soit de l'économie de partage. Ces services rémunérés sont considérés comme relatifs à la vie privée s'ils remplissent les conditions de la loi du 18 juillet 2018 (déclaration dans le service en ligne « Activités complémentaires », plafond de revenus indexé, activités rendues uniquement par et à des particuliers).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Les services de travailleur associatif ou de citoyen à citoyen doivent être déclarés dans le service en ligne « Activités complémentaires » ; les services de l'économie collaborative uniquement via une plateforme électronique agréée ou organisée par une autorité publique.",
+        "Les revenus perçus ne peuvent pas dépasser les montants repris par la loi (plafond indexé annuellement).",
+        "Les activités et services sont uniquement rendus par et à des particuliers n'agissant pas dans le cadre de leur activité professionnelle."
+      ],
+      "page": 12
+    },
+    {
+      "name": "Assistance bénévole de tiers",
+      "description": "Nous vous assurons pour les dommages subis par un tiers qui aurait participé, dans le cadre de votre vie privée et en cas de danger imminent, à votre sauvetage à titre gratuit et non professionnel et/ou à celui de vos biens assurés. Cette garantie s'applique même si votre responsabilité envers le tiers préjudicié n'est pas engagée. Nous intervenons dans la mesure où la personne lésée ne peut obtenir de compensation à charge d'un autre organisme public ou privé.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 12
+    },
+    {
+      "name": "Protection Juridique Vie Privée - Recours civil (art. 18)",
+      "description": "Si un tiers identifié vous a causé un dommage corporel ou matériel totalement indépendant de l'exécution d'un contrat, nous intervenons pour obtenir une indemnisation de ce tiers ou de son assureur sur la base des articles 1382 à 1386bis de l'ancien Code civil, des articles 6.5, 6.6, 6.11 à 6.14, 6.16 et 6.17 du Code civil, de l'article 3.101 du Code civil (troubles anormaux de voisinage), de l'article 29 bis de la Loi du 21 novembre 1989 (usagers faibles), de la loi du 30 juillet 1979 (prévention incendies/explosions) ou dispositions similaires en droit étranger. Nous n'intervenons pas pour une action fondée sur l'article 3.102 du Code civil.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "jusqu'à 90.000 euros",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Nous n'intervenons pas si nous prouvons que le sinistre est la conséquence d'une des fautes lourdes suivantes : état d'ivresse, intoxication alcoolique punissable, ou état analogue résultant de l'utilisation d'autres produits.",
+        "Si le tiers identifié est insolvable, nous n'engageons pas de procédure mais intervenons selon l'article 22 (clause d'insolvabilité)."
+      ],
+      "page": 17
+    },
+    {
+      "name": "Protection Juridique - Dommages à la suite d'une erreur médicale ou d'un accident médical (art. 19)",
+      "description": "Nous intervenons si vous souhaitez, à la suite d'une erreur médicale ou d'un accident médical causé par un médecin, un établissement de soins de santé ou une profession paramédicale, obtenir réparation des dommages corporels subis par un assuré, ou des dommages à la suite du décès d'un assuré ou d'un parent/allié jusqu'au 4ème degré. Nous intervenons également dans la procédure auprès du Fonds des Accidents médicaux.",
+      "is_optional": true,
+      "territorial_scope": "Pour les opérations esthétiques, l'intervention est limitée à celles réalisées dans l'Union européenne, la principauté d'Andorre, la Grande-Bretagne, l'Irlande, les îles britanniques, l'Islande, le Liechtenstein, Monaco, la Norvège, Saint-Marin, la Cité du Vatican et la Suisse.",
+      "limits": "jusqu'à 90.000 euros",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 17
+    },
+    {
+      "name": "Protection Juridique - Dommages par un cocontractant ou son auxiliaire (art. 20)",
+      "description": "Nous prenons en charge si, lors de l'exécution d'un contrat dans le cadre de votre vie privée en Belgique, votre cocontractant ou son auxiliaire vous cause des dommages et que vous voulez réclamer une indemnisation sur une base extracontractuelle pour un dommage matériel d'au moins 500 euros causé à vos biens qui ne font pas l'objet du contrat. Pour les litiges contractuels avec une plateforme agréée dans le cadre de l'économie de partage, la limite est de 2.500 euros par sinistre, sans jamais dépasser le montant contesté.",
+      "is_optional": true,
+      "territorial_scope": "Belgique",
+      "limits": "jusqu'à 30.000 euros",
+      "sub_limits": [
+        "Litiges contractuels avec une plateforme agréée (économie de partage) : 2.500 euros par sinistre, jamais plus que le montant contesté"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Dommage matériel d'au moins 500 euros causé à vos biens qui ne font pas l'objet du contrat.",
+        "Si le tiers identifié est insolvable, nous n'engageons pas de procédure mais intervenons selon l'article 22."
+      ],
+      "page": 18
+    },
+    {
+      "name": "Protection Juridique - Avance de fonds sur indemnités (franchise inclue) (art. 21)",
+      "description": "En cas de sinistre couvert, nous avançons à votre demande le montant incontesté de l'indemnité accordée, y compris l'éventuelle franchise à charge du tiers responsable identifié, à condition que la responsabilité du tiers soit établie et l'intervention de son assureur RC confirmée. En l'absence d'intervention d'un assureur RC, l'avance est faite à condition de disposer d'un accord avec le tiers sur sa responsabilité et le montant. À la suite du paiement, nous sommes subrogés dans vos droits. En cas de pluralité d'assurés dépassant le montant, l'avance est payée par préférence au preneur, puis conjoint/partenaire cohabitant, puis enfants, puis autres assurés au prorata.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "jusqu'à concurrence de 20.000 euros",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "La responsabilité du tiers identifié doit être établie et l'intervention de son assureur RC confirmée (ou, à défaut, un accord avec le tiers sur sa responsabilité et le montant de l'indemnité).",
+        "Vous devez nous rembourser si nous ne parvenons pas à récupérer les fonds avancés ou s'ils ont été avancés indûment."
+      ],
+      "page": 18
+    },
+    {
+      "name": "Protection Juridique - Clause d'insolvabilité (art. 22)",
+      "description": "Nous n'intervenons pas pour engager une action contre un éventuel tiers responsable s'il ressort des renseignements collectés via un huissier de justice qu'il est insolvable, mais nous payons l'indemnité à la charge de ce tiers par sinistre couvert. Notre intervention pour une procédure devant la Commission pour l'aide financière aux victimes d'actes intentionnels de violence reste acquise.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "jusqu'à concurrence de 15.000 euros par sinistre",
+      "sub_limits": [
+        "Litige contractuel avec une plateforme agréée (économie de partage) : 2.500 euros par sinistre"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 18
+    },
+    {
+      "name": "Protection Juridique - Litige avec l'assureur accident du travail (art. 23)",
+      "description": "Nous intervenons si vous avez un litige avec votre assureur accident du travail à la suite d'un accident sur le chemin du travail.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "jusqu'à concurrence de 90.000 euros",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 18
+    },
+    {
+      "name": "Protection Juridique - Litige contractuel avec votre assureur RC Vie Privée & Défense civile en cas de conflit d'intérêts (art. 24)",
+      "description": "Nous intervenons pour défendre vos intérêts dans tout litige avec votre assureur RC Vie Privée qui résulte de l'interprétation ou de l'application des conditions générales du contrat RC Vie Privée, y compris votre défense civile lorsqu'un tiers intente une action civile extracontractuelle à votre encontre et qu'il existe un conflit d'intérêts avec votre assureur RC Vie Privée.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "jusqu'à 90.000 euros",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 19
+    },
+    {
+      "name": "Protection Juridique - Contestation d'une Sanction Administrative Communale (amende SAC/médiation SAC) (art. 25)",
+      "description": "Nous intervenons en cas de contestation en Belgique d'une sanction administrative communale (SAC) ou dans le cas d'une médiation SAC où vous êtes impliqué dans le cadre de votre vie privée, sauf si l'amende est inférieure à 250 euros ou s'il s'agit d'une violation urbanistique.",
+      "is_optional": true,
+      "territorial_scope": "Belgique",
+      "limits": "à concurrence de 15.000 euros",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Sauf si l'amende est inférieure à 250 euros ou s'il s'agit d'une violation urbanistique."
+      ],
+      "page": 19
+    },
+    {
+      "name": "Protection Juridique - Première audition (Salduz) (art. 26)",
+      "description": "En cas d'enquête pénale à votre encontre dans le cadre de votre vie privée, nous prévoyons, dans la limite des 90.000 euros de la garantie défense pénale (art. 27), un montant pour les frais et honoraires de l'avocat pour la consultation préalable et l'assistance lors de la première audition, mais uniquement s'il s'agit d'une infraction routière ou d'une infraction non intentionnelle punie d'une peine privative de liberté. Nous n'intervenons pas si l'enquête pénale vous accuse d'un crime ou d'un crime correctionnalisé.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "maximum 1.000 euros par assuré (fait partie du montant maximum de l'art. 27)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Uniquement s'il s'agit d'une infraction routière ou d'une infraction non intentionnelle punie d'une peine privative de liberté.",
+        "S'il s'agit d'un délit pour lequel la couverture défense pénale n'est acquise qu'en cas d'acquittement, mise hors de cause ou prescription, la couverture de la première audition ne s'applique qu'une fois cette issue obtenue."
+      ],
+      "page": 19
+    },
+    {
+      "name": "Protection Juridique - Défense pénale (art. 27)",
+      "description": "Nous intervenons pour votre défense pénale lorsque vous êtes poursuivi et devez comparaître devant une juridiction pénale d'instruction ou de jugement pour des infractions routières ou des délits non intentionnels dans le cadre de votre vie privée. Pour des délits ne relevant pas de ces infractions, la couverture n'est acquise que si vous êtes définitivement acquitté, mis hors de cause ou en cas de prescription. Pour un assuré mineur de moins de 16 ans, la défense pénale est aussi assurée lorsqu'il est poursuivi pour un fait qualifié infraction (et la défense du civilement responsable). Nous intervenons aussi pour la médiation pénale, la demande de révision de la déchéance du droit de conduire, et la demande de grâce ou de réhabilitation.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "jusqu'à concurrence de 90.000 euros",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Nous n'intervenons pas si l'assuré est poursuivi pour un crime ou un crime correctionnalisé, ni en ce qui concerne les modalités de la sanction prononcée (commission de probation, tribunal de l'application des peines)."
+      ],
+      "page": 19
+    },
+    {
+      "name": "Protection Juridique - Caution pour la mise en liberté provisoire (art. 28)",
+      "description": "Si, à la suite d'un sinistre survenu à l'étranger et couvert par cette garantie, vous êtes détenu et qu'un cautionnement est exigé pour votre mise en liberté, nous donnons notre caution personnelle le plus promptement possible ou versons le cautionnement. Si vous avez versé le cautionnement, nous substituons notre caution personnelle ou vous remboursons. Dès la libération du cautionnement, vous devez remplir toutes les formalités pour que nous en obtenions le remboursement.",
+      "is_optional": true,
+      "territorial_scope": "étranger",
+      "limits": "notre intervention ne peut dépasser le montant de 45.000 euros par sinistre",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Vous êtes tenu de nous rembourser à la première demande lorsque le cautionnement versé est confisqué ou utilisé pour le paiement d'une amende, transaction pénale ou frais de justice."
+      ],
+      "page": 20
+    },
+    {
+      "name": "Protection Juridique - Frais de recherche d'enfants disparus (art. 29)",
+      "description": "En cas de disparition d'un assuré de moins de 16 ans signalée aux services de Police, nous prenons en charge les frais exposés par les assurés dans le cadre des recherches, les honoraires d'un médecin/thérapeute pour l'accompagnement médical et psychologique (si un tiers responsable est impliqué), et les frais et honoraires d'un avocat pour l'assistance juridique pendant l'enquête. La garantie n'est pas d'application si un assuré ou un membre de la famille de l'enfant est impliqué dans la disparition. Intervention après épuisement de la mutuelle et de tout autre organisme.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "maximum 30.000 euros (fait partie du montant maximum de l'art. 18, dans la limite des 90.000 euros)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Disparition d'un assuré de moins de 16 ans signalée aux services de Police.",
+        "La garantie n'est pas d'application si un assuré ou un membre de la famille de l'enfant disparu est impliqué dans la disparition.",
+        "Notre intervention s'effectue après épuisement de l'intervention de la mutuelle et/ou de tout autre organisme privé ou public."
+      ],
+      "page": 20
+    },
+    {
+      "name": "Protection Juridique - Coûts et honoraires pris en charge (art. 30)",
+      "description": "Dans le cadre d'un sinistre couvert, nous prenons en charge le paiement des frais et honoraires relatifs aux expertises et enquêtes, à l'intervention d'un avocat, à une procédure en justice (y compris l'indemnité de procédure), à l'introduction d'un recours en grâce ou d'une demande de réhabilitation, ainsi que les frais de déplacement (chemin de fer ou avion de ligne) et de séjour (chambre d'hôtel + petit déjeuner) lorsque vous êtes tenu de comparaître personnellement devant un tribunal étranger ou cité comme témoin. Ne sont pas pris en charge : les frais engagés avant demande d'intervention (sauf urgence justifiée), les amendes, décimes additionnels et transactions avec le ministère public.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Pour les frais/honoraires ne concernant pas exclusivement un assuré, prise en charge au prorata (nombre de personnes assurées, nombre d'infractions, ou montant réclamé).",
+        "En cas de montant anormalement élevé, vous vous engagez à solliciter que l'autorité compétente statue à nos frais, à défaut de quoi nous pouvons limiter notre intervention."
+      ],
+      "page": 20
+    },
+    {
+      "name": "Pack Familiale+ - Franchise anglaise (art. 38.A.1)",
+      "description": "La franchise reprise à l'article 3 n'est pas d'application si le montant total de l'indemnité dû au bénéficiaire pour les dommages matériels est plus élevé que cette franchise.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 26
+    },
+    {
+      "name": "Pack Familiale+ - Dommages causés aux objets confiés (art. 38.A.2)",
+      "description": "Nous assurons votre responsabilité en votre qualité de gardien, emprunteur ou utilisateur pour les dommages causés aux biens meubles appartenant à des tiers. Nous vous assurons également pour les dommages causés aux bateaux ou engins maritimes ; les dommages aux bateaux à voile >300 kg ou engins maritimes à moteur >8 kW ne sont couverts qu'à concurrence de 50.000 euros, pour autant qu'ils appartiennent à un tiers et uniquement en tant que passager ou utilisation occasionnelle max 48 heures. Ne sont pas couverts : les véhicules automoteurs autres que ceux de l'art. 6.1, les véhicules aériens, les billets de banque/monnaie/lingots/timbres/chèques/effets de commerce/obligations/actions/mandats postaux. Pas de couverture en cas de vol pour meubles anciens, objets d'art/collection, bijoux, bateaux et engins maritimes, ni en cas de disparition ou perte inexpliquée.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [
+        "Bateaux à voile >300 kg ou engins maritimes à moteur >8 kW : à concurrence de 50.000 euros"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 26
+    },
+    {
+      "name": "Pack Familiale+ - Dommages causés par les objets confiés (art. 38.A.3)",
+      "description": "Nous vous assurons lorsque votre responsabilité est mise en cause pour les dommages causés par un de vos biens meubles que vous avez mis à disposition d'un tiers dans le cadre de votre vie privée. Ne sont pas couverts les dommages causés par les biens de l'article 6.3 ni par les bateaux à voile >300 kg et engins maritimes à moteur >8 kW.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 26
+    },
+    {
+      "name": "Pack Familiale+ - Dommages entre cohousers (art. 38.A.4)",
+      "description": "Nous assurons la responsabilité civile extracontractuelle des cohousers (art. 1.A.2.b) lorsqu'ils causent des dommages corporels ou matériels à un autre cohouser. Ne sont pas assurés : les dommages entre partenaires et entre (grands)-parents et (petits)-enfants de la même unité d'habitation ; les dommages aux biens utilisés en commun par tous les cohousers ; les dommages à l'unité d'habitation partagée et à d'autres habitations appartenant à l'un des cohousers.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "Pour les dommages matériels entre cohousers, nous intervenons jusqu'à un maximum de 7.500 euros par sinistre",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 26
+    },
+    {
+      "name": "Pack Familiale+ - Extensions de la garantie Protection Juridique Vie Privée (art. 38.B)",
+      "description": "Si la garantie Protection Juridique Vie Privée est souscrite : a. les limites d'intervention mentionnées à l'article 31 sont doublées ; b. nous exerçons le recours civil pour les dommages causés par un tiers à des objets mobiliers appartenant à l'assuré et dont ce tiers est détenteur, emprunteur ou utilisateur dans le cadre de sa vie privée. Ne sont pas assurés les dommages aux biens de l'article 6.3, aux valeurs (billets de banque, lingots, timbres-poste, chèques, effets de commerce, obligations, actions, mandats postaux), au contenu d'une résidence de vacances ou salle de fête. Pas de couverture en cas de vol, disparition ou perte pour meubles anciens, objets d'art/collection et bijoux.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "Les limites d'intervention de l'article 31 sont doublées",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 27
+    },
+    {
+      "name": "Pack Familiale+ - Extensions dans le contrat Providis Protection Juridique Globale (art. 38.C)",
+      "description": "Si le preneur du contrat RC Vie Privée ou une personne vivant à son foyer et intégrée à sa vie de famille a souscrit un contrat Providis Protection Juridique Globale, les limites d'intervention de la partie « Famille & Habitation » de ce contrat sont augmentées : dans la formule Classic, les limites du chapitre I.4 sont doublées ; dans la formule Excellence, les limites du chapitre I.4 correspondent à 2,5 fois celles de la formule Classic sans Pack Familiale+.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 27
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Faute lourde (assuré ≥ 18 ans)",
+      "description": "La responsabilité civile personnelle de l'assuré qui a atteint l'âge de 18 ans pour les sinistres causés en raison d'une des fautes lourdes suivantes : ivresse ou état analogue résultant de l'utilisation de produits autres que des boissons alcoolisées, actes de violence commis sur les personnes.",
+      "applies_to": "Responsabilité civile extracontractuelle (garantie de base)",
+      "page": 13
+    },
+    {
+      "name": "Sinistres intentionnels et actes de terrorisme (assuré ≥ 16 ans)",
+      "description": "La responsabilité civile personnelle de l'assuré qui a atteint l'âge de 16 ans pour les sinistres intentionnels et pour les actes de terrorisme. En cas d'intervention obligatoire envers une partie lésée, nous avons un droit de recours contre le mineur assuré ≥ 16 ans et, si votre responsabilité est engagée en tant que titulaire de l'autorité, un droit de recours contre l'auteur du sinistre. Le recours contre l'auteur est limité à 10.000 euros (sauf application de l'article 6.4).",
+      "applies_to": "Responsabilité civile extracontractuelle (garantie de base)",
+      "page": 13
+    },
+    {
+      "name": "Biens sous garde",
+      "description": "Les dommages causés aux biens mobiliers et immobiliers dont vous avez la garde, à l'exception des dommages visés aux articles 4.B (séjours temporaires), 5.A et 5.B (animaux), et 6.2.b (joyriding).",
+      "applies_to": "Responsabilité civile extracontractuelle (garantie de base)",
+      "page": 13
+    },
+    {
+      "name": "Risques nucléaires / rayonnements ionisants",
+      "description": "Les dommages ou l'aggravation des dommages causés par la modification de la structure du noyau de l'atome, par tout produit nucléaire ou radioactif ou par toute autre source de rayonnements ionisants.",
+      "applies_to": "Responsabilité civile extracontractuelle (garantie de base)",
+      "page": 13
+    },
+    {
+      "name": "Responsabilité soumise à une assurance légalement obligatoire",
+      "description": "Les dommages découlant de la responsabilité civile soumise à une assurance légalement obligatoire, à l'exception des dommages visés aux articles 6.1.b, c et d ; 6.2.a et 6.2.b (joyriding) ; 7.a (drones) ; causés en qualité de volontaire (loi du 3 juillet 2005) ; ou causés à l'occasion d'un travail associatif, de services de citoyen à citoyen ou de l'économie collaborative (loi du 18 juillet 2018 et lois de remplacement).",
+      "applies_to": "Responsabilité civile extracontractuelle (garantie de base)",
+      "page": 13
+    },
+    {
+      "name": "Pollution graduelle et prévention des troubles anormaux de voisinage",
+      "description": "Les dommages découlant de la pollution graduelle (sur base de la combinaison des articles 3.50 et 3.101 du Code civil). Nous ne couvrons pas non plus la prévention des troubles anormaux de voisinage telle que prévue à l'article 3.102 du Code civil.",
+      "applies_to": "Responsabilité civile extracontractuelle (garantie de base)",
+      "page": 13
+    },
+    {
+      "name": "Mesures urgentes du lésé, indemnité complémentaire et frais d'ordre/interdiction du juge",
+      "description": "Nous ne vous assurons pas pour : les mesures urgentes prises par une personne lésée pour prévenir un dommage imminent ou l'aggravation d'un dommage (art. 6.28 du Code civil) ; l'indemnité complémentaire qu'accorderait un juge lorsque vous avez intentionnellement et dans le but de réaliser un profit violé un droit de la personnalité ou porté atteinte à l'honneur ou la réputation (art. 6.31 §3 du Code civil) ; les frais consécutifs à un ordre ou une interdiction prononcé(e) par un juge en cas de violation avérée ou de menace grave de violation d'une règle légale imposant un comportement déterminé (art. 6.40 du Code civil).",
+      "applies_to": "Responsabilité civile extracontractuelle (garantie de base)",
+      "page": 13
+    },
+    {
+      "name": "Dommages par feu/incendie provenant d'un bâtiment assuré",
+      "description": "Les dommages matériels causés par le feu, l'incendie, l'explosion ou la fumée consécutive à un feu ou à un incendie prenant naissance dans ou communiqué par un bâtiment assuré par le présent contrat pour lesquels votre responsabilité est engagée sur base des articles 1382-1386bis de l'ancien Code civil ou 6.5, 6.6, 6.11 à 6.14, 6.16 et 6.17 du Code civil.",
+      "applies_to": "Biens immeubles et contenu",
+      "page": 9
+    },
+    {
+      "name": "Séjours temporaires - dommages exclus",
+      "description": "Restent exclus, les dommages : couverts par l'assurance obligatoire des véhicules automoteurs ; causés à des bateaux et engins maritimes (à l'exclusion des péniches à quai) ; causés à des avions.",
+      "applies_to": "Séjours temporaires",
+      "page": 9
+    },
+    {
+      "name": "Objets et marchandises transportés (chevaux/attelages)",
+      "description": "Nous ne couvrons pas les dommages causés aux objets et marchandises transportés.",
+      "applies_to": "Animaux",
+      "page": 10
+    },
+    {
+      "name": "Cyclomoteurs classes A et B",
+      "description": "Les cyclomoteurs des classes A et B restent exclus.",
+      "applies_to": "Déplacements et moyens de locomotion",
+      "page": 10
+    },
+    {
+      "name": "Autres véhicules à moteur et véhicules aériens",
+      "description": "Nous n'assurons pas les dommages causés par des véhicules automoteurs ou équipés d'un moteur autres que ceux cités au point 1, ni par des véhicules aériens (engins aériens motorisés ou propulsés destinés au transport des personnes ou des biens par la voie aérienne).",
+      "applies_to": "Déplacements et moyens de locomotion",
+      "page": 11
+    },
+    {
+      "name": "Actes notoirement téméraires (bateaux/engins maritimes)",
+      "description": "Il ne peut s'agir de dommages survenus à l'occasion de paris, de défis ou d'actes notoirement téméraires sauf si l'assuré a accompli ces actes pour la sauvegarde de personnes, biens ou intérêts. Est considéré comme un acte notoirement téméraire un acte volontaire ou une négligence exposant sans raison valable son auteur à un danger dont il aurait dû avoir conscience.",
+      "applies_to": "Déplacements et moyens de locomotion",
+      "page": 11
+    },
+    {
+      "name": "Dommages par armes (partie de chasse)",
+      "description": "Sont exclus tous les dommages occasionnés par des armes, à feu ou autres (lors de la participation à une partie de chasse en qualité de traqueur/rabatteur).",
+      "applies_to": "Activités sportives et loisirs",
+      "page": 12
+    },
+    {
+      "name": "Protection Juridique - Faute lourde (ivresse/intoxication) - recours civil",
+      "description": "Nous n'intervenons pas si nous prouvons que le sinistre est la conséquence d'une des fautes lourdes suivantes : vous vous trouvez en état d'ivresse, d'intoxication alcoolique punissable, ou dans un état analogue résultant de l'utilisation d'autres produits.",
+      "applies_to": "Protection Juridique Vie Privée - Recours civil (art. 18)",
+      "page": 17
+    },
+    {
+      "name": "Protection Juridique - Crime ou crime correctionnalisé (première audition)",
+      "description": "Nous n'intervenons pas si cette enquête pénale vous accuse d'un crime ou d'un crime correctionnalisé.",
+      "applies_to": "Protection Juridique - Première audition (Salduz) (art. 26)",
+      "page": 19
+    },
+    {
+      "name": "Protection Juridique - Crime/crime correctionnalisé et modalités de sanction (défense pénale)",
+      "description": "Nous n'intervenons pas si l'assuré est poursuivi pour un crime ou un crime correctionnalisé ; ni en ce qui concerne les modalités de la sanction prononcée, par exemple pour les affaires en cours devant la commission de probation ou le tribunal de l'application des peines.",
+      "applies_to": "Protection Juridique - Défense pénale (art. 27)",
+      "page": 20
+    },
+    {
+      "name": "Protection Juridique - Frais et honoraires non pris en charge",
+      "description": "Nous ne prenons pas en charge : les frais et honoraires engagés par l'assuré avant qu'il n'ait demandé notre intervention, sauf urgence justifiée ; les amendes, décimes additionnels, transactions avec le ministère public.",
+      "applies_to": "Protection Juridique - Coûts et honoraires pris en charge (art. 30)",
+      "page": 20
+    },
+    {
+      "name": "Protection Juridique - Déchéance : grèves, violence collective, terrorisme",
+      "description": "Nous n'intervenons pas si nous prouvons que le sinistre est la conséquence de grèves ou d'actes de violence d'inspiration collective (politique, sociale ou idéologique) ou d'actes de terrorisme, accompagnés ou non de rébellion contre l'autorité, auxquels vous avez participé.",
+      "applies_to": "Protection Juridique Vie Privée",
+      "page": 23
+    },
+    {
+      "name": "Protection Juridique - Déchéance : rixe, agression, attentat (provocateur/instigateur)",
+      "description": "Nous n'intervenons pas si nous prouvons que le sinistre est la conséquence d'une rixe, d'une agression ou d'un attentat, en ce compris les actes de terrorisme, dont vous êtes provocateur ou instigateur.",
+      "applies_to": "Protection Juridique Vie Privée",
+      "page": 23
+    },
+    {
+      "name": "Protection Juridique - Guerre",
+      "description": "Nous n'intervenons pas lorsque le sinistre est la conséquence de guerre, de guerre civile ou de faits de même nature.",
+      "applies_to": "Protection Juridique Vie Privée",
+      "page": 23
+    },
+    {
+      "name": "Protection Juridique - Sinistre intentionnel",
+      "description": "Nous n'intervenons pas pour votre action en dommages et intérêts lorsque vous causez intentionnellement le sinistre.",
+      "applies_to": "Protection Juridique Vie Privée",
+      "page": 23
+    },
+    {
+      "name": "Protection Juridique - Action entre assurés",
+      "description": "Nous n'intervenons pas lorsqu'un assuré souhaite intenter une action contre un autre assuré.",
+      "applies_to": "Protection Juridique Vie Privée",
+      "page": 23
+    },
+    {
+      "name": "Protection Juridique - Engin aérien",
+      "description": "Nous n'intervenons pas pour le sinistre en tant que propriétaire ou conducteur d'un engin aérien. Restent couverts les sinistres liés à l'utilisation à des fins exclusivement sportives ou récréatives d'aéromodèles (y compris drones dont la masse maximale au décollage est 150 kg) ne volant pas dans un rayon de 3 km autour des aéroports/aérodromes ni au-dessus des complexes industriels, prisons, terminaux LNG, centrales nucléaires ou rassemblement public en plein air.",
+      "applies_to": "Protection Juridique Vie Privée",
+      "page": 23
+    },
+    {
+      "name": "Protection Juridique - Engin maritime à moteur >8 kW",
+      "description": "Nous n'intervenons pas pour le sinistre en tant que propriétaire ou conducteur d'un engin maritime à moteur (en ce compris un bateau motorisé) d'une puissance de plus de 8 kW, sauf en tant que conducteur autorisé d'un engin appartenant à un tiers que l'assuré utilise occasionnellement, pour 48 heures maximum.",
+      "applies_to": "Protection Juridique Vie Privée",
+      "page": 23
+    },
+    {
+      "name": "Protection Juridique - Véhicule automoteur soumis à assurance obligatoire",
+      "description": "Nous n'intervenons pas pour le sinistre en tant que propriétaire ou conducteur d'un véhicule automoteur soumis à l'assurance obligatoire RC véhicules automoteurs, sauf s'il s'agit d'un véhicule exempté (vitesse max 6 km/h et masse max 100 kg ; ou vitesse >6 mais ≤25 km/h et masse max 25 kg ; ou fauteuil roulant automoteur pour handicapé), d'un véhicule non exempté (chaise roulante électrique PMR ; véhicule vitesse >6 mais ≤25 km/h et masse >25 kg ; monowheel/segway/trottinette électrique/hoverboard vitesse ≤45 Km/h - cyclomoteurs classes A et B exclus), ou d'un cas de joyriding par un assuré mineur.",
+      "applies_to": "Protection Juridique Vie Privée",
+      "page": 23
+    },
+    {
+      "name": "Protection Juridique - Animaux professionnels ou interdits",
+      "description": "Nous n'intervenons pas pour votre action en dommages et intérêts concernant les animaux détenus dans le cadre d'une activité professionnelle ou les animaux dont la détention par des particuliers est interdite par les annexes I, II et III de la Convention de Washington du 3 mars 1973.",
+      "applies_to": "Protection Juridique Vie Privée",
+      "page": 24
+    },
+    {
+      "name": "Protection Juridique - Chevaux de selle non déclarés",
+      "description": "Nous n'intervenons pas pour votre action en dommages et intérêts concernant les chevaux de selle, si vous êtes le propriétaire de plus de chevaux que ceux qui sont assurés dans votre garantie Responsabilité Civile Vie Privée.",
+      "applies_to": "Protection Juridique Vie Privée",
+      "page": 24
+    },
+    {
+      "name": "Protection Juridique - Chasse",
+      "description": "Nous n'intervenons pas pour votre action en dommages et intérêts en qualité de chasseur, garde-chasse, organisateur ou directeur de partie de chasse.",
+      "applies_to": "Protection Juridique Vie Privée",
+      "page": 24
+    },
+    {
+      "name": "Protection Juridique - Troubles de voisinage (bruit, odeur, poussière...)",
+      "description": "Nous n'intervenons pas lorsque le sinistre est la conséquence directe ou indirecte d'une gêne due au bruit, à une odeur, à de la poussière, à des ondes, aux rayonnements, à une perte de vue, d'air ou de lumière.",
+      "applies_to": "Protection Juridique Vie Privée",
+      "page": 24
+    },
+    {
+      "name": "Protection Juridique - Opérations financières et infractions financières",
+      "description": "Nous n'intervenons pas lorsque le sinistre est la conséquence directe ou indirecte d'opérations financières, d'un abus de confiance, d'une escroquerie ou d'une fraude, d'un faux en écriture, d'une calomnie ou d'une diffamation. En cas de litiges contractuels avec une plateforme agréée couverts dans le cadre de l'article 20, nous intervenons toutefois pour le dommage résultant directement ou indirectement de transactions financières effectuées via cette plateforme.",
+      "applies_to": "Protection Juridique Vie Privée",
+      "page": 24
+    },
+    {
+      "name": "Protection Juridique - Donations, successions, testaments, servitudes, droits intellectuels",
+      "description": "Nous n'intervenons pas pour le sinistre relatif aux donations, successions, testaments, servitudes qui ne sont pas établies par la loi, ou aux droits intellectuels.",
+      "applies_to": "Protection Juridique Vie Privée",
+      "page": 24
+    },
+    {
+      "name": "Protection Juridique - Immeubles non occupés à titre principal/secondaire/vacances",
+      "description": "Nous n'intervenons pas pour votre action en dommages et intérêts pour les dommages occasionnés aux immeubles que les assurés n'occupent pas à titre de résidence principale, de seconde résidence à usage privé ou de résidence de vacances. La couverture reste toutefois acquise pour la partie professionnelle (max 3 pièces) et la partie louée (max 3 appartements) d'un bâtiment assuré situé en Belgique.",
+      "applies_to": "Protection Juridique Vie Privée",
+      "page": 24
+    },
+    {
+      "name": "Protection Juridique - Risques nucléaires / rayonnements ionisants",
+      "description": "Nous n'intervenons pas pour le sinistre relatif aux dommages ou à l'aggravation des dommages causés par la modification de la structure du noyau de l'atome, par tout produit nucléaire ou radioactif ou par toute autre source de rayonnements ionisants.",
+      "applies_to": "Protection Juridique Vie Privée",
+      "page": 24
+    },
+    {
+      "name": "Protection Juridique - Réclamation inférieure à la franchise",
+      "description": "Nous n'intervenons pas lorsque votre action en dommages et intérêts ne dépasse pas la franchise de 319,76 euros liée à l'évolution de l'indice des prix à la consommation (indice de base 308,65 - septembre 2024 - base 1981 = 100). Cette exclusion ne s'applique pas en cas de recours civil pour des lésions corporelles ou un décès, de recours civil suite à une erreur médicale et de recours civil suite à la disparition d'un assuré de moins de 16 ans.",
+      "applies_to": "Protection Juridique Vie Privée",
+      "page": 24
+    },
+    {
+      "name": "Protection Juridique - Mesures urgentes, indemnité complémentaire, ordre/interdiction",
+      "description": "Nous ne vous assurons pas pour votre réclamation : des mesures urgentes pour prévenir un dommage imminent ou l'aggravation d'un dommage (art. 6.28 Code civil) ; d'une indemnité complémentaire alors qu'un tiers a intentionnellement et dans le but de réaliser un profit violé votre droit de la personnalité ou porté atteinte à votre honneur ou réputation (art. 6.31 §3 Code civil) ; d'un ordre ou une interdiction en cas de violation avérée ou de menace grave de violation d'une règle légale imposant un comportement déterminé (art. 6.40 Code civil).",
+      "applies_to": "Protection Juridique Vie Privée",
+      "page": 24
+    },
+    {
+      "name": "Protection Juridique - Connaissance préalable du sinistre",
+      "description": "Si nous pouvons prouver que vous aviez connaissance ou auriez raisonnablement pu avoir connaissance des événements, faits ou actions donnant lieu à la demande de protection juridique lorsque vous avez souscrit ou modifié la présente garantie, nous ne sommes tenus à aucune intervention.",
+      "applies_to": "Protection Juridique Vie Privée",
+      "page": 16
+    },
+    {
+      "name": "Pack Familiale+ - Exclusions maintenues (articles 11 et 36)",
+      "description": "Les exclusions mentionnées dans les articles 11 et 36 restent d'application sauf si l'article 38 prévoit expressément une couverture.",
+      "applies_to": "all",
+      "page": 26
+    }
+  ],
+  "deductibles": {
+    "standard": "Une franchise d'un montant de 319,76 euros (indexés) par sinistre est d'application pour les dommages matériels. L'indice de base est l'indice des prix à la consommation de septembre 2024 (= 308,65 - base 1981 = 100).",
+    "variable": "Formule d'indexation en Protection Juridique : 319,76 euros x indice du mois qui précède le sinistre / indice 308,65. En Pack Familiale+, franchise anglaise : la franchise de l'article 3 n'est pas d'application si le montant total de l'indemnité dû pour les dommages matériels est plus élevé que cette franchise.",
+    "per_coverage": "La franchise de 319,76 euros s'applique aux dommages matériels de la garantie RC de base. Elle ne s'applique pas au recours civil pour lésions corporelles/décès, recours suite à erreur médicale, ni recours suite à disparition d'un assuré de moins de 16 ans.",
+    "page": 8
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "description": "En cas d'accident, vous devez vous abstenir de toute reconnaissance de responsabilité, de toute transaction, de toute estimation du dommage, de tout paiement ou promesse d'indemnité. L'aveu de la matérialité d'un fait ou la prise en charge des premiers secours pécuniaires et soins médicaux immédiats ne sont pas considérés comme une reconnaissance de responsabilité.",
+      "timing": "En cas d'accident",
+      "sanction": null,
+      "page": 14
+    },
+    {
+      "description": "Nous transmettre, sans retard, toutes les pièces justificatives des dommages et tous les documents relatifs au sinistre. Les citations, assignations et tous les actes judiciaires ou extrajudiciaires doivent être transmis dès leur remise ou signification.",
+      "timing": "Sans retard / dès remise ou signification",
+      "sanction": null,
+      "page": 14
+    },
+    {
+      "description": "Comparaître aux audiences, vous soumettre aux mesures d'instruction ordonnées par le tribunal et accomplir les actes de procédure que nous vous demanderions.",
+      "timing": null,
+      "sanction": null,
+      "page": 14
+    },
+    {
+      "description": "Conformément au principe indemnitaire, les frais récupérés à charge des tiers ainsi que les frais de procédure doivent nous être remboursés.",
+      "timing": null,
+      "sanction": null,
+      "page": 14
+    },
+    {
+      "description": "Protection Juridique - Prévention et transmission : nous transmettre dans les plus brefs délais tous les documents et correspondances et nous fournir tous les renseignements utiles pour faciliter la gestion du dossier et nous tenir au courant de l'état d'avancement de l'affaire.",
+      "timing": "Dans les plus brefs délais",
+      "sanction": "En cas de non-respect, réduction des prestations à concurrence du préjudice subi ; déchéance de garantie si le non-respect résulte d'une intention frauduleuse.",
+      "page": 25
+    },
+    {
+      "description": "Protection Juridique - Les citations, assignations et généralement tous les actes judiciaires doivent nous être transmis dans les 48 heures de leur remise ou signification.",
+      "timing": "Dans les 48 heures de leur remise ou signification",
+      "sanction": "En cas de non-respect, réduction des prestations à concurrence du préjudice subi ; déchéance de garantie si le non-respect résulte d'une intention frauduleuse.",
+      "page": 25
+    },
+    {
+      "description": "Protection Juridique - La déclaration : si vous souhaitez faire appel à la garantie Protection Juridique, vous devez nous faire une déclaration de façon exacte, complète et circonstanciée et ce dans les plus brefs délais.",
+      "timing": "Dans les plus brefs délais",
+      "sanction": "En cas de non-respect, réduction des prestations à concurrence du préjudice subi ; déchéance de garantie si le non-respect résulte d'une intention frauduleuse.",
+      "page": 25
+    },
+    {
+      "description": "Protection Juridique - Indemnités de procédure : conformément au principe indemnitaire, les frais récupérés à charge de tiers et l'indemnité de procédure doivent nous être remboursés.",
+      "timing": null,
+      "sanction": null,
+      "page": 25
+    },
+    {
+      "description": "Description du risque - À la souscription, le preneur d'assurance doit nous déclarer exactement toutes les circonstances connues qu'il doit raisonnablement considérer comme constituant des éléments d'appréciation du risque. En cours de contrat, obligation de déclarer les circonstances nouvelles entraînant une aggravation sensible et durable du risque.",
+      "timing": "À la souscription et en cours de contrat",
+      "sanction": "Omission/inexactitude intentionnelle : nullité du contrat, primes échues dues. Omission/inexactitude non intentionnelle : modification ou résiliation du contrat, prestation réduite en cas de sinistre selon le rapport prime payée / prime due. Intention frauduleuse : refus de garantie.",
+      "page": 28
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "En cas d'accident, vous abstenir de toute reconnaissance de responsabilité, transaction, estimation, paiement ou promesse d'indemnité.",
+      "deadline": null,
+      "page": 14
+    },
+    {
+      "step": "Nous transmettre toutes les pièces justificatives des dommages et documents relatifs au sinistre ; transmettre les citations, assignations et actes judiciaires ou extrajudiciaires.",
+      "deadline": "Sans retard / dès leur remise ou signification",
+      "page": 14
+    },
+    {
+      "step": "Comparaître aux audiences, vous soumettre aux mesures d'instruction et accomplir les actes de procédure demandés.",
+      "deadline": null,
+      "page": 14
+    },
+    {
+      "step": "Protection Juridique - Faire une déclaration de sinistre de façon exacte, complète et circonstanciée si vous souhaitez faire appel à la garantie Protection Juridique.",
+      "deadline": "Dans les plus brefs délais",
+      "page": 25
+    },
+    {
+      "step": "Protection Juridique - Transmettre les citations, assignations et tous les actes judiciaires.",
+      "deadline": "Dans les 48 heures de leur remise ou signification",
+      "page": 25
+    },
+    {
+      "step": "Adresser une plainte par écrit à AG SA - Service de Gestion des Plaintes, Boulevard Emile Jacqmain 53, 1000 Bruxelles ; en cas de désaccord, saisir l'Ombudsman des Assurances, Square de Meeûs 35, 1000 Bruxelles.",
+      "deadline": null,
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat prend effet à la date fixée aux conditions particulières. La durée du contrat est fixée aux conditions particulières et ne peut excéder un an.",
+    "tacit_renewal": "À la fin de la période d'assurance, le contrat est reconduit tacitement pour des périodes consécutives d'un an, sauf si le preneur d'assurance le résilie au moins deux mois avant son échéance ou si nous le résilions au moins trois mois avant son échéance.",
+    "methods": [
+      "La résiliation se fait par envoi recommandé, exploit d'huissier, ou remise de la lettre de résiliation contre récépissé. La résiliation pour défaut de paiement de la prime ne peut se faire que par lettre recommandée à la poste ou exploit d'huissier. Sauf délais différents prévus, la résiliation n'a d'effet qu'à l'expiration d'un délai d'un mois à compter du lendemain de la signification, du récépissé ou du dépôt de l'envoi recommandé."
+    ],
+    "special_rights": [
+      "Résiliation après sinistre (par le preneur ou par nous, au plus tard un mois après le paiement ou le refus de paiement de l'indemnité, effet trois mois après). Résiliation en cas de modification du tarif (art. 43) ou des conditions d'assurance (art. 44). Résiliation pour non-paiement de la prime (art. 42). Résiliation en cas d'omission/inexactitude ou d'aggravation du risque (art. 41). Résiliation en cas de faillite (art. 46) ou de décès (art. 47) du preneur. Police combinée : la cause de résiliation relative à une prestation n'affecte pas le contrat dans son ensemble ; si nous résilions une garantie, le preneur peut résilier le contrat en entier."
+    ],
+    "page": 28,
+    "notice_period": "Le preneur : au moins deux mois avant l'échéance. Nous : au moins trois mois avant l'échéance. Résiliation infra-annuelle possible par le preneur à tout moment après un an de contrat (effet à l'expiration d'un délai de deux mois). Avant prise d'effet (si plus d'un an sépare conclusion et prise d'effet) : notification au plus tard trois mois avant la prise d'effet."
+  },
+  "prescription_period": {
+    "description": "Le délai de prescription est de trois ans pour toute action découlant du contrat d'assurance (articles 88 et 89 de la loi du 4 avril 2014 relative aux assurances). La prescription contre les mineurs, interdits et autres incapables ne court pas jusqu'au jour de la majorité ou de la levée de l'incapacité."
+  },
+  "premium": {
+    "description": "Le preneur d'assurance doit payer le montant de la prime mentionnée sur la demande de paiement, comprenant les taxes, cotisations et frais. La prime est annuelle et payable anticipativement, après réception de la demande de paiement. Si tout ou partie du contrat prend fin en cours d'année, le prorata de prime afférent à la période postérieure est remboursé. La garantie Protection Juridique Vie Privée et le Pack Familiale+ sont acquis moyennant une surprime pour autant qu'ils soient mentionnés dans les conditions particulières. En cas de non-paiement : premier rappel, puis deuxième rappel 20 jours après avec indemnité forfaitaire de 7,00 euros, puis mise en demeure par recommandé ou exploit d'huissier avec frais fixes de 13,00 euros ; à défaut de paiement dans les 15 jours, suspension des garanties puis résiliation.",
+    "page": 30
+  },
+  "special_conditions": [
+    {
+      "name": "Recours en matière de véhicules automoteurs (art. 6.4)",
+      "description": "Lorsque nous sommes tenus envers les personnes lésées en vertu de la loi relative à l'assurance obligatoire RC véhicules automoteurs, nous avons un droit de recours sur les dépenses nettes : recours intégral jusqu'à 11.000 euros de dépenses nettes, augmenté de la moitié des sommes dépassant 11.000 euros sans excéder 31.000 euros ; recours intégral en cas de sinistre intentionnel (16 ans min) ; recours pour faute lourde (18 ans min, conduite en état d'ivresse) ; recours en cas de suspension pour non-paiement de la prime ; recours en cas de conduite sans permis ou par une personne déchue du droit de conduire.",
+      "page": 11
+    },
+    {
+      "name": "Recours en cas de sinistre intentionnel ou terrorisme (art. 11.2)",
+      "description": "En cas de sinistre causé intentionnellement ou d'acte de terrorisme, nous avons un droit de recours contre le mineur assuré ≥ 16 ans, ou contre l'auteur du sinistre lorsque votre responsabilité en tant que titulaire de l'autorité sur le mineur est engagée. Dans ces deux cas, nous limitons notre recours contre l'auteur à 10.000 euros sauf en cas d'application de l'article 6.4.",
+      "page": 13
+    },
+    {
+      "name": "Objet de la garantie Protection Juridique (art. 15)",
+      "description": "L'objectif de la garantie est de fournir des services (conseils, mise en demeure, rédaction d'une demande en dommages et intérêts...) et de prendre en charge les honoraires et frais (experts, avocats, frais de justice...) afin de vous permettre de faire valoir vos droits, comme défendeur ou demandeur. Nous nous efforçons de résoudre le litige à l'amiable et n'acceptons aucune proposition sans vous l'avoir soumise. Si une procédure doit être engagée, nous vous informons que vous pouvez consulter un avocat de votre choix. La gestion des dossiers est confiée à Providis.",
+      "page": 15
+    },
+    {
+      "name": "Champ d'application territorial et temporel de la Protection Juridique (art. 16)",
+      "description": "Nous intervenons pour les sinistres survenus dans le cadre de la vie privée en dehors de toute activité professionnelle, y compris le chemin du travail, la garde/accueil rémunéré d'enfants de tiers, le travail bénévole même faiblement rémunéré, les services rémunérés exécutés par les enfants assurés pendant leurs vacances scolaires ou loisirs. Sauf disposition contraire, nous accordons nos prestations dans le monde entier.",
+      "page": 16
+    },
+    {
+      "name": "Origine du sinistre par prestation (art. 17)",
+      "description": "L'origine du sinistre se situe : Recours civil (art. 18), erreur médicale (art. 19), cocontractant (art. 20), avance de fonds (art. 21), clause d'insolvabilité (art. 22), litige RC & conflit RC (art. 24) : date du fait dommageable ; Litige assureur accident du travail (art. 23) : date de l'accident sur le chemin du travail ; Contestation amende SAC (art. 25) : date de l'infraction ; Première audition (art. 26) : date de l'infraction pénale ; Défense pénale (art. 27) et caution (art. 28) : date de l'infraction pénale ; Frais de recherche d'enfants disparus (art. 29) : date de la disparition. Sont considérés comme un seul et même sinistre : les réclamations fondées sur un seul et même fait, ou les réclamations basées sur plusieurs faits liés entre eux.",
+      "page": 16
+    },
+    {
+      "name": "Montants assurés Protection Juridique - tableau (art. 31)",
+      "description": "La limite d'intervention est fixée à 90.000 euros par sinistre sauf indication contraire : Recours civil (art. 18) 90.000 € ; Erreur médicale (art. 19) 90.000 € ; Cocontractant (art. 20) 30.000 € ; Avance de fonds (art. 21) 20.000 € ; Clause d'insolvabilité (art. 22) 15.000 € ; Litige assureur accidents du travail (art. 23) 90.000 € ; Litiges contractuels avec l'assureur RC & défense civile conflit RC (art. 24) 90.000 € ; Contestation amende SAC/médiation SAC (art. 25) 15.000 € ; Première audition (art. 26) 1.000 € par assuré (fait partie du montant de l'art. 27) ; Défense pénale (art. 27) 90.000 € ; Caution (art. 28) 45.000 € ; Frais de recherche d'enfants disparus (art. 29) 30.000 € (fait partie du montant de l'art. 18).",
+      "page": 21
+    },
+    {
+      "name": "Demandes connexes (art. 32)",
+      "description": "Si plus de cinq contrats d'assurance différents souscrits auprès de nous font l'objet d'une déclaration de sinistre dans la même matière assurée, notre plafond maximal total pour les frais externes, honoraires et indemnités pour l'ensemble de ces dossiers est limité à 1.000.000 euros, réparti selon une clé de répartition (nombre de dossiers et plafond de garantie initial). Le nouveau plafond obtenu ne peut être plus élevé que celui prévu initialement.",
+      "page": 22
+    },
+    {
+      "name": "Le libre choix (art. 33)",
+      "description": "En cas de procédure judiciaire, administrative ou arbitrale, ou en cas de conflit d'intérêts, vous avez la liberté de choisir un avocat ou toute personne ayant les qualifications requises. En cas de procédure à l'étranger, vous supportez les frais supplémentaires résultant du choix d'un avocat n'appartenant pas au barreau du pays compétent. Hormis abus, vous pouvez changer d'avocat en cours de procédure sans frais pour lui. Vous pouvez choisir librement un expert ; nous prenons en charge un seul expert sauf obligation d'en prendre un autre pour des raisons indépendantes de votre volonté.",
+      "page": 22
+    },
+    {
+      "name": "La clause d'objectivité (art. 34)",
+      "description": "En cas de divergence d'opinion entre vous et nous sur l'attitude à adopter, vous pouvez demander un avis motivé à l'avocat qui s'occupe de l'affaire ou à un avocat de votre choix. Si cet avocat confirme votre thèse, nous prenons en charge les frais et honoraires quelle que soit l'issue. Si cet avocat confirme notre thèse, nous cessons notre intervention après avoir remboursé la moitié des frais et honoraires de la consultation ; si vous obtenez ensuite un meilleur résultat à vos frais, nous intervenons et prenons en charge les frais et honoraires.",
+      "page": 22
+    },
+    {
+      "name": "Décès d'un assuré dans un dossier en cours (art. 35)",
+      "description": "Si un assuré bénéficiant de nos prestations décède, celles-ci sont acquises à son conjoint non séparé de corps ou de fait ; à défaut, à ses enfants nés ou à naître ; à défaut, aux ascendants.",
+      "page": 23
+    },
+    {
+      "name": "Nos obligations - défense (art. 13)",
+      "description": "À partir du moment où notre garantie est due et pour autant qu'il y soit fait appel, nous vous défendons dans les limites de la garantie. En ce qui concerne les intérêts civils, et dans la mesure où nos intérêts et les vôtres coïncident, nous avons le droit de contester à votre place la réclamation de la personne lésée et pouvons l'indemniser. Notre intervention n'implique aucune reconnaissance de responsabilité et ne peut vous causer préjudice.",
+      "page": 14
+    },
+    {
+      "name": "Terrorisme (art. 49)",
+      "description": "L'entreprise d'assurance couvre les dommages causés par le terrorisme et est membre de l'ASBL TRIP. Conformément à la loi du 3 mai 2024, l'exécution des engagements de l'ensemble des assureurs membres est, en cas d'acte de terrorisme reconnu par arrêté royal, limitée à 1,7 milliard d'euros par année civile (montant adapté annuellement, indice de base novembre 2022). Si le total des indemnités excède ce montant, une règle proportionnelle est appliquée. L'acte de terrorisme est reconnu par arrêté royal après avis de l'OCAM et du parquet fédéral ; le Comité de règlement des sinistres fixe le pourcentage d'indemnisation.",
+      "page": 34
+    },
+    {
+      "name": "Modification du tarif (art. 43)",
+      "description": "Si nous modifions le tarif, nous pouvons appliquer les modifications dès l'échéance annuelle suivante après en avoir informé le preneur au moins quatre mois avant l'échéance ; le preneur peut alors résilier jusqu'à deux mois avant l'échéance. Si l'information est donnée moins de quatre mois avant l'échéance et que le preneur n'est pas d'accord, il peut résilier dans les trois mois suivant la réception de la notification.",
+      "page": 31
+    },
+    {
+      "name": "Modification des conditions d'assurance (art. 44)",
+      "description": "Si nous modifions les conditions d'assurance, nous pouvons appliquer les modifications dès l'échéance annuelle suivante après en avoir informé le preneur au moins quatre mois avant l'échéance ; le preneur peut résilier jusqu'à deux mois avant l'échéance. Si l'information est donnée moins de quatre mois avant l'échéance et que le preneur n'est pas d'accord, il peut, dans les trois mois, soit résilier le contrat, soit demander le maintien du contrat aux conditions actuelles jusqu'à la prochaine échéance.",
+      "page": 31
+    },
+    {
+      "name": "Paiement à des mineurs, interdits ou incapables (art. 45)",
+      "description": "Si nous devons faire un paiement à un mineur, un interdit ou un autre incapable, nous versons les sommes sur un compte ouvert à son nom, frappé d'indisponibilité jusqu'à la majorité ou la levée de l'incapacité, sans préjudice du droit de jouissance légale. Les sommes peuvent être libérées sur autorisation spéciale du juge de paix.",
+      "page": 31
+    },
+    {
+      "name": "Faillite du preneur d'assurance (art. 46)",
+      "description": "En cas de faillite du preneur, l'assurance subsiste au profit de la masse des créanciers qui devient débitrice des primes à échoir. Tant le curateur (dans les trois mois de la déclaration de faillite) que nous (au plus tôt trois mois après la déclaration de faillite) avons le droit de résilier le contrat.",
+      "page": 31
+    },
+    {
+      "name": "Décès du preneur d'assurance (art. 47)",
+      "description": "Si le preneur décède, les droits et obligations sont transmis aux nouveaux titulaires de l'intérêt assuré. Les nouveaux titulaires peuvent résilier par lettre recommandée dans les trois mois et quarante jours du décès ; nous pouvons résilier dans les trois mois à compter du jour où nous avons eu connaissance du décès.",
+      "page": 31
+    },
+    {
+      "name": "Aggravation et diminution du risque (art. 41)",
+      "description": "En cas d'aggravation sensible et durable du risque, obligation de déclaration ; nous pouvons proposer une modification du contrat avec effet rétroactif au jour de l'aggravation ou résilier. En cas de diminution sensible et durable du risque, nous accordons une diminution de la prime à due concurrence ; à défaut d'accord sur la nouvelle prime dans le mois, le preneur peut résilier.",
+      "page": 29
+    },
+    {
+      "name": "Adresses de correspondance (art. 40)",
+      "description": "Les communications qui nous sont destinées doivent être adressées à notre siège social ou à un de nos sièges régionaux en Belgique. Celles qui vous sont destinées sont valablement faites à l'adresse indiquée aux conditions particulières ou à toute autre adresse communiquée. Si plusieurs preneurs, toute communication à l'adresse choisie est valable à l'égard de tous.",
+      "page": 28
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Nous couvrons votre responsabilité extracontractuelle si vous avez causé un dommage à un tiers dans le cadre de votre vie privée et que votre responsabilité est engagée sur la base :"
+    },
+    {
+      "quote": "Une franchise d'un montant de 319,76 euros (indexés) par sinistre est d'application pour les dommages matériels."
+    },
+    {
+      "quote": "la responsabilité civile personnelle de l'assuré qui a atteint l'âge de 16 ans :"
+    },
+    {
+      "quote": "les dommages ou l'aggravation des dommages causés par la modification de la structure du noyau de l'atome, par tout produit nucléaire ou radioactif ou par toute autre source de rayonnements ionisants."
+    },
+    {
+      "quote": "La limite de l'intervention est fixée à 90.000 euros par sinistre sauf indication contraire, comme indiqué dans le tableau ci-"
+    },
+    {
+      "quote": "Le délai de prescription est de trois ans pour toute action découlant du contrat d'assurance (articles 88 et 89 de la loi du 4 avril 2014 relative aux assurances)."
+    }
+  ],
+  "gaps": [
+    "Le document est une conditions générales : le montant de la prime, les surprimes des garanties optionnelles et les données personnelles figurent dans les conditions particulières (non fournies).",
+    "Aucun délai d'attente (waiting period) n'est stipulé dans le document."
+  ],
+  "superseded": null
+}

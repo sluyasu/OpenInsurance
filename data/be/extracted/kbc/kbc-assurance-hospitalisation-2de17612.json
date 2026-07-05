@@ -1,0 +1,270 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "be",
+  "insurer_slug": "kbc",
+  "insurer_name": "KBC Bank & Verzekering",
+  "branch": "sante",
+  "document_type": "ipid",
+  "language": "fr",
+  "source_url": "https://multimediafiles.kbcgroup.eu/ng/published/KBC/PDF/VERZEKERINGEN/HOSPITALISATIEVZK/kbc-assurance-hospitalisation-document-information.pdf",
+  "product_name": "KBC-Assurance hospitalisation",
+  "reference": null,
+  "edition_date": null,
+  "target_audience": "personnes physiques ayant leur résidence habituelle en Belgique et affiliées à la sécurité sociale belge",
+  "branch_code": "0014",
+  "product_family": "KBC-Assurance hospitalisation",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_pages": 2,
+  "source_pdf": "assurance-hospitalisation-2de17612.pdf",
+  "source_sha256": "7929b92a74071138521cb4d846df308addcf5ed883d26c0ecabff260bc0fc77d",
+  "fetched_at": "2026-07-05",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "L'assurance hospitalisation KBC est une assurance maladie complémentaire par laquelle l'assureur garantit la couverture des soins et traitements médicaux requis en cas de maladie, grossesse, accouchement ou accident. Elle peut être souscrite par des personnes physiques ayant leur résidence habituelle en Belgique et affiliées à la sécurité sociale belge. Elle couvre les frais d'hospitalisation, les frais pré et post-hospitalisation ainsi que les frais liés aux maladies graves, avec une option pour le type de chambre. La souscription peut être soumise à une acceptation médicale.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Garantie hospitalisation",
+      "description": "Lors de l'admission dans un hôpital légalement reconnu, les frais suivants sont notamment remboursés: consultations, examens, traitements et spécialités pharmaceutiques; séjour de l'assuré en hôpital; prothèses et appareils orthopédiques; transport médical adapté; rooming-in pour un parent d'un enfant hospitalisé; frais de séjour du donneur; examens et traitements du nouveau-né; accouchement à domicile : forfait 625 euro.",
+      "is_optional": false,
+      "territorial_scope": "Dans le monde entier",
+      "limits": "Accouchement à domicile : forfait 625 euro. Transport médical adapté de ou vers l'hôpital en cas d'hospitalisation : remboursement limité à 1.250 euros.",
+      "sub_limits": [
+        "Accouchement à domicile : forfait 625 euro",
+        "Transport médical adapté de ou vers l'hôpital en cas d'hospitalisation : remboursement limité à 1.250 euros"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Admission dans un hôpital légalement reconnu"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Garantie pré et post-hospitalisation",
+      "description": "Frais médicaux ambulatoires encourus pendant une période de 2 mois avant et 6 mois après l'hospitalisation (consultations, examens, traitements, produits pharmaceutiques, prothèses, frais de location et de livraison de matériel médical).",
+      "is_optional": false,
+      "territorial_scope": "Dans le monde entier",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Frais encourus pendant une période de 2 mois avant et 6 mois après l'hospitalisation"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Garantie maladies graves",
+      "description": "Frais médicaux ambulatoires directement liés aux maladies graves mentionnées dans les conditions générales (consultations, examens, traitements, produits pharmaceutiques, prothèses, frais de location et de livraison de matériel médical).",
+      "is_optional": false,
+      "territorial_scope": "Dans le monde entier",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Maladies graves mentionnées dans les conditions générales"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Option garantie chambre à deux lits ou commune",
+      "description": "Les frais réels sont remboursés en cas d'hospitalisation en chambre à deux lits ou commune. Si l'assuré opte pour une chambre particulière lors de son admission, une indemnité forfaitaire est versée par journée d'hospitalisation, avec un maximum correspondant à la facture réelle.",
+      "is_optional": true,
+      "territorial_scope": "Dans le monde entier",
+      "limits": "Indemnité forfaitaire par journée d'hospitalisation avec un maximum correspondant à la facture réelle. En cas d'hospitalisation en chambre particulière dans l'un des hôpitaux chers repris dans les conditions particulières, le remboursement est limité à 50% des frais assurés.",
+      "sub_limits": [
+        "En cas d'hospitalisation en chambre particulière dans l'un des hôpitaux chers repris dans les conditions particulières, le remboursement est limité à 50% des frais assurés"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Hospitalisation en chambre à deux lits ou commune pour le remboursement des frais réels"
+      ],
+      "page": 2
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Interventions exclusivement esthétiques",
+      "description": "Interventions exclusivement esthétiques.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Implants et prothèses dentaires sans intervention de l'assurance maladie obligatoire",
+      "description": "Implants dentaires et prothèses dentaires sans intervention de l'assurance maladie obligatoire.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Traitements expérimentaux",
+      "description": "Traitements expérimentaux.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Prothèses non médicalement nécessaires (sport, hobby)",
+      "description": "Prothèses qui ne sont pas médicalement nécessaires à l'usage quotidien, mais destinées à la pratique d'un sport, hobby.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Maladie préexistante non renseignée ou accident avant l'affiliation",
+      "description": "Conséquences ou complications d'une maladie préexistante non renseignée ou d'un accident survenu avant l'affiliation.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Accouchement en cas de grossesse antérieure en cours au moment de l'affiliation",
+      "description": "Accouchement en cas de grossesse antérieure en cours au moment de l'affiliation à l'assurance.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Traitement contraceptif",
+      "description": "Traitement contraceptif.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Maladie résultant d'une consommation excessive d'alcool ou de drogue",
+      "description": "Maladie résultant d'une consommation excessive d'alcool ou de drogue.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Accident en état d'ivresse ou sous l'influence de stupéfiants",
+      "description": "Accident en état d'ivresse ou sous l'influence de stupéfiants.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Accidents survenus pendant la pratique d'un sport dans le cadre d'un contrat de travail",
+      "description": "Accidents survenus pendant la pratique d'un sport dans le cadre d'un contrat de travail.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Frais sans intervention légale (pré/post-hospitalisation et maladies graves)",
+      "description": "Frais sans intervention légale dans la garantie pré et post-hospitalisation et la garantie pour maladies graves.",
+      "applies_to": "Garantie pré et post-hospitalisation; Garantie maladies graves",
+      "page": 1
+    },
+    {
+      "name": "Limitation du transport médical adapté",
+      "description": "Transport médical adapté de ou vers l'hôpital en cas d'hospitalisation : remboursement limité à 1.250 euros.",
+      "applies_to": "Garantie hospitalisation",
+      "page": 1
+    },
+    {
+      "name": "Délai d'attente pour maladie/infirmité/accident renseigné au questionnaire médical",
+      "description": "Les conséquences et complications d'une maladie existante, d'une infirmité ou d'un accident mentionné explicitement dans le questionnaire médical sont assurées à partir de la troisième année suivant l'affiliation.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Limitation en chambre particulière dans les hôpitaux chers",
+      "description": "En cas d'hospitalisation en chambre particulière dans l'un des hôpitaux chers repris dans les conditions particulières, le remboursement est limité à 50% des frais assurés. La liste des hôpitaux chers peut être mise à jour sur la base du critère défini dans les conditions générales. La liste actuelle peut être consultée sur le site web www.kbc.be sous le terme de recherche 'hôpitaux chers' ou peut être demandée à votre intermédiaire.",
+      "applies_to": "Option garantie chambre à deux lits ou commune",
+      "page": 2
+    },
+    {
+      "name": "Limitation hors Union européenne sans convention",
+      "description": "Si les soins médicaux ne sont pas dispensés dans un État membre de l'Union européenne et si la Belgique n'a pas signé de convention avec le pays concerné, l'intervention s'élève à 50% des frais assurés avec un maximum de 6.250 euros par hospitalisation.",
+      "applies_to": "all",
+      "page": 2
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": null,
+    "per_coverage": null,
+    "page": null
+  },
+  "waiting_periods": [
+    {
+      "description": "Les conséquences et complications d'une maladie existante, d'une infirmité ou d'un accident mentionné explicitement dans le questionnaire médical sont assurées à partir de la troisième année suivant l'affiliation.",
+      "page": 1
+    }
+  ],
+  "obligations": [
+    {
+      "description": "Lors de la souscription du contrat, vous êtes tenu de fournir des informations honnêtes, exactes et complètes sur votre état de santé.",
+      "timing": "Lors de la souscription du contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "En cas de sinistre, vous êtes tenu de le déclarer dans les meilleurs délais (de préférence dans les 15 jours) et d'envoyer tous les documents médicaux relatifs à la déclaration dès réception.",
+      "timing": "En cas de sinistre, de préférence dans les 15 jours",
+      "sanction": null,
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclarer le sinistre dans les meilleurs délais (de préférence dans les 15 jours).",
+      "deadline": "De préférence dans les 15 jours",
+      "page": 2
+    },
+    {
+      "step": "Envoyer tous les documents médicaux relatifs à la déclaration dès réception.",
+      "deadline": "Dès réception",
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat d'assurance est valable à vie. La date d'entrée en vigueur de l'assurance est indiquée dans les conditions particulières.",
+    "tacit_renewal": null,
+    "methods": [
+      "Par envoi recommandé, exploit d'huissier ou remise de la lettre de résiliation avec accusé de réception."
+    ],
+    "special_rights": [
+      "La compagnie d'assurance peut résilier le contrat d'assurance pour non-paiement de la prime. Vente à distance : si la police se réalise par le biais d'un processus de vente à distance (par exemple par téléphone), vous avez le droit de la résilier dans les 14 jours civils. Cette résiliation est gratuite et ne doit pas être motivée. Nous disposons, nous aussi, de ce même droit de résiliation. Le délai de 14 jours commence à courir à partir de la souscription du contrat ou du jour où vous avez reçu les conditions de police, si vous les recevez ultérieurement. Votre résiliation prend effet le jour de l'envoi de l'e-mail ou de la date de la poste. Notre résiliation prend effet 8 jours après sa notification. En cas de résiliation, nous vous remboursons intégralement la prime versée, au plus tard dans les 30 jours civils suivant le moment où nous avons reçu ou envoyé la résiliation."
+    ],
+    "page": 2,
+    "notice_period": "Il est possible de résilier le contrat d'assurance un mois au minimum avant la date d'échéance annuelle."
+  },
+  "prescription_period": null,
+  "premium": {
+    "description": "Vous êtes tenu d'acquitter la prime chaque année dès réception de l'invitation à payer. Un paiement étalé de la prime est possible sous certaines conditions et peut entraîner des frais supplémentaires. La commission pour l'intermédiaire est comprise dans la prime.",
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "description": "Cette assurance peut être souscrite par des personnes physiques si l'assuré a sa résidence habituelle en Belgique et est affilié à la sécurité sociale belge. La souscription peut être soumise à une acceptation médicale.",
+      "page": 1
+    },
+    {
+      "description": "Où suis-je couvert(e)? Dans le monde entier. Si les soins médicaux ne sont pas dispensés dans un État membre de l'Union européenne et si la Belgique n'a pas signé de convention avec le pays concerné, l'intervention s'élève à 50% des frais assurés avec un maximum de 6.250 euros par hospitalisation.",
+      "page": 2
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "L'assurance hospitalisation KBC est une assurance maladie complémentaire par laquelle l'assureur garantit la couverture des soins et traitements médicaux requis en cas de maladie, grossesse, accouchement ou accident."
+    },
+    {
+      "quote": "Garantie pré et post-hospitalisation : frais médicaux ambulatoires encourus pendant une période de 2 mois avant et 6 mois après l'hospitalisation (consultations, examens, traitements, produits pharmaceutiques, prothèses, frais de location et de livraison de matériel médical)."
+    },
+    {
+      "quote": "Les conséquences et complications d'une maladie existante, d'une infirmité ou d'un accident mentionné explicitement dans le questionnaire médical sont assurées à partir de la troisième année suivant l'affiliation."
+    },
+    {
+      "quote": "En cas d'hospitalisation en chambre particulière dans l'un des hôpitaux chers repris dans les conditions particulières, le remboursement est limité à 50% des frais assurés."
+    },
+    {
+      "quote": "Si les soins médicaux ne sont pas dispensés dans un État membre de l'Union européenne et si la Belgique n'a pas signé de convention avec le pays concerné, l'intervention s'élève à 50% des frais assurés avec un maximum de 6.250 euros par hospitalisation."
+    },
+    {
+      "quote": "Le contrat d'assurance est valable à vie."
+    }
+  ],
+  "gaps": [
+    "Aucune date d'édition (edition_date) n'est imprimée sur le document.",
+    "Aucun délai de prescription (prescription_period) n'est mentionné dans le document.",
+    "Le document est un IPID synthétique et renvoie aux conditions générales et particulières pour la liste complète des maladies graves, le critère de définition des hôpitaux chers et l'information précontractuelle détaillée.",
+    "Page 2 : la mention 'Conditions générales Police habitation pour le propriétaire 25/29' apparaît au milieu de la clause de vente à distance et semble être un artefact de gabarit sans rapport avec l'assurance hospitalisation."
+  ]
+}

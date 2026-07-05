@@ -1,0 +1,324 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "be",
+  "insurer_slug": "dkv",
+  "insurer_name": "DKV Belgium",
+  "branch": "sante",
+  "document_type": "ipid",
+  "language": "fr",
+  "source_url": "https://biblio.dkv.be/pdfbib.ashx?lang=fr&id=32216",
+  "product_name": "DKV SMILE Premium",
+  "reference": "32 216_FR_2_202212",
+  "edition_date": "202212",
+  "target_audience": "Toute personne physique n'ayant pas atteint l'âge de 70 ans à la conclusion du contrat d'assurance, ayant son lieu de résidence et sa résidence principale en Belgique, étant assujetti à la sécurité sociale belge et en bénéficiant.",
+  "branch_code": null,
+  "product_family": "DKV SMILE",
+  "variant": "Premium",
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_pages": 2,
+  "source_pdf": "dkv-smile-premium-6d367852.pdf",
+  "source_sha256": "0294a6720a93711fb114837242ea676e3a38330995d8410c0f9fa2a27588ba1a",
+  "fetched_at": "2026-07-05",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "DKV SMILE Premium est une assurance individuelle soins dentaires à caractère indemnitaire, complémentaire à l'intervention de l'assurance maladie légale/statutaire belge. Elle rembourse, avec libre choix du dentiste, les soins dentaires de base (préventifs à 100%, curatifs à 80%, sans limite annuelle) et les soins dentaires spécialisés (à 80%, avec des plafonds annuels progressifs et un maximum orthodontie de €2.000). Elle prévoit aussi une couverture accidents à 100% plafonnée à €10.000. Le contrat est à vie, non résiliable par l'assureur sauf exceptions légales, et couvre en Belgique.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Libre choix du dentiste",
+      "description": "Libre choix du dentiste.",
+      "is_optional": false,
+      "territorial_scope": "Belgique",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Soins dentaires de base",
+      "description": "Remboursement des frais dentaires 365 jours/an (ticket modérateur et suppléments d'honoraires) restant à la charge de l'assuré après déduction de toutes prestations ou interventions légales ou autres. À 100% sans stage : soins dentaires préventifs (p. ex. examen buccal, détartrage, scellement des sillons et cavités dentaires). À 80% sans stage : consultations, radiographies et soins dentaires curatifs (p. ex. plombages/obturations, traitements de racines/canaux, extractions de dents).",
+      "is_optional": false,
+      "territorial_scope": "Belgique",
+      "limits": "Sans limite annuelle maximale",
+      "sub_limits": [
+        "Soins dentaires préventifs : à 100% sans stage",
+        "Consultations, radiographies et soins dentaires curatifs : à 80% sans stage"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Remboursement 365 jours/an",
+        "Ticket modérateur et suppléments d'honoraires restant à la charge de l'assuré après déduction de toutes prestations ou interventions légales ou autres"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Soins dentaires spécialisés",
+      "description": "Remboursement des frais dentaires 365 jours/an (ticket modérateur et suppléments d'honoraires éventuels) restant à la charge de l'assuré après déduction de toutes prestations ou interventions légales ou autres. À 80% : soins dentaires prothétiques ; parodontologie et petite chirurgie buccale ; orthodontie (max. €2.000 sur toute la durée du contrat).",
+      "is_optional": false,
+      "territorial_scope": "Belgique",
+      "limits": "Jusqu'à un capital annuel de maximum : La 1e année d'assurance : max. € 250 ; La 2e année d'assurance : max. € 500 ; La 3e année d'assurance : max. € 1.500 ; À partir de la 4e année d'assurance : € 4.000",
+      "sub_limits": [
+        "Soins dentaires prothétiques : à 80%",
+        "Parodontologie et petite chirurgie buccale : à 80%",
+        "Orthodontie : à 80%, max. €2.000 sur toute la durée du contrat",
+        "1e année d'assurance : max. € 250",
+        "2e année d'assurance : max. € 500",
+        "3e année d'assurance : max. € 1.500",
+        "À partir de la 4e année d'assurance : € 4.000"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Remboursement 365 jours/an",
+        "Ticket modérateur et suppléments d'honoraires éventuels restant à la charge de l'assuré après déduction de toutes prestations ou interventions légales ou autres",
+        "Demander l'autorisation de DKV préalablement à tout traitement pour tous les soins dentaires spécialisés"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Accidents",
+      "description": "Remboursement des soins dentaires de base et/ou spécialisés (y compris soins dentaires prothétiques) remboursés à 100%, plafonnés à un capital dédié de maximum € 10.000 sans stage.",
+      "is_optional": false,
+      "territorial_scope": "Belgique",
+      "limits": "Plafonnés à un capital dédié de maximum € 10.000 sans stage",
+      "sub_limits": [
+        "Remboursement à 100%",
+        "Capital dédié de maximum € 10.000"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Sans stage",
+        "Signaler tout accident à DKV au moyen du formulaire de déclaration d'accident désigné au plus tard dans les 48 heures, ou dès que raisonnablement possible après l'accident",
+        "Demander l'autorisation de DKV préalablement à tout traitement pour tout accident"
+      ],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "État préexistant",
+      "description": "Accident, maladie, affection, dents manquantes ou dents remplacées par ou munies d'une prothèse dentaire (état préexistant) au moment de la conclusion du contrat d'assurance.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Orthodontie hors âge",
+      "description": "Orthodontie précoce chez les enfants de moins de 9 ans ou orthodontie classique après 21 ans, sauf en cas d'accident.",
+      "applies_to": "Soins dentaires spécialisés",
+      "page": 1
+    },
+    {
+      "name": "Traitements parodontaux après 65 ans",
+      "description": "Traitements parodontaux après 65 ans, sauf en cas d'accident.",
+      "applies_to": "Soins dentaires spécialisés",
+      "page": 1
+    },
+    {
+      "name": "Transplantations dentaires",
+      "description": "Transplantations dentaires.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Orthopédie chirurgicale de la mâchoire",
+      "description": "Orthopédie chirurgicale de la mâchoire (les ostéotomies pour corriger une position/croissance anormale de la mâchoire).",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Soins esthétiques",
+      "description": "Soins esthétiques.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Médicaments",
+      "description": "Médicaments.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "État d'ébriété ou intoxication",
+      "description": "Les traitements dentaires résultant entre autres : état d'ébriété, intoxication punissable ou état analogue résultant de produits autres qu'alcoolisés.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Alcoolisme, toxicomanie, usage non conforme de médicaments",
+      "description": "Les traitements dentaires résultant entre autres : alcoolisme, toxicomanie, l'usage non conforme de médicaments.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Lésion liée au sport",
+      "description": "Les traitements dentaires résultant entre autres : lésion subie lors de la pratique de sports pour lesquels il est d'usage ou obligatoire de porter une protection faciale, buccale ou dentaire ou à la suite d'une pratique sportive professionnelle ou rémunérée, y compris l'entrainement.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Bijoux dentaires et piercings buccaux",
+      "description": "Les traitements dentaires résultant entre autres : pose et port de bijoux dentaires ou buccaux et de piercings buccaux.",
+      "applies_to": "all",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": null,
+    "per_coverage": null,
+    "page": null
+  },
+  "waiting_periods": [
+    {
+      "coverage": "Soins dentaires de base",
+      "period": "Sans stage",
+      "page": 1
+    },
+    {
+      "coverage": "Accidents",
+      "period": "Sans stage",
+      "page": 1
+    },
+    {
+      "coverage": "Garantie d'assurance",
+      "period": "La garantie d'assurance débute après l'émission de la police, après expiration des stages et après paiement de la prime convenue.",
+      "page": 2
+    }
+  ],
+  "obligations": [
+    {
+      "description": "Remplir et signer correctement une proposition d'assurance, qui consiste en un questionnaire administratif et médical.",
+      "timing": null,
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "Déclarer chaque cas d'assurance à DKV par écrit, de préférence via le portail client digital ou l'application sur smartphone mis à disposition par DKV, le cas échéant en utilisant le(s) formulaire(s) de déclaration prévu(s) à cet effet et conformément aux directives et modalités décrites.",
+      "timing": null,
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "Signaler tout accident à DKV au moyen du formulaire de déclaration d'accident désigné.",
+      "timing": "Au plus tard dans les 48 heures, ou dès que raisonnablement possible après l'accident.",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "Demander l'autorisation de DKV préalablement à tout traitement pour : tout accident ; tous les soins dentaires spécialisés.",
+      "timing": "Préalablement à tout traitement",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "Exécuter le contrat d'assurance de bonne foi et prendre toutes les mesures raisonnables pour éviter et limiter les conséquences d'un cas d'assurance.",
+      "timing": null,
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "Signaler à DKV l'existence de tout autre accord pouvant donner lieu à un remboursement total ou partiel des frais réels encourus.",
+      "timing": null,
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "Entreprendre toutes les démarches pour obtenir une intervention au titre de tous les éventuelles interventions ou prestations légales, préalablement à toute demande d'indemnisation à DKV.",
+      "timing": "Préalablement à toute demande d'indemnisation à DKV",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "Aviser la DKV lorsque les conditions pour le maintien du contrat d'assurance ne sont plus remplies. En particulier : tout changement de lieu de résidence ou de résidence principale - tout séjour à l'étranger de plus de 90 jours consécutifs ou d'un séjour temporaire de plus de 6 mois dans les États membres de l'Union européenne (à l'exclusion des territoires d'outre-mer) des étudiants de moins de 26 ans, lorsqu'ils sont effectués en continuité de leurs études et rentrent dans des programmes unilatéraux ou multilatéraux ou dans le cadre d'une convention entre deux ou plusieurs établissements d'enseignement supérieur - tout changement de statut de sécurité sociale ayant pour conséquence que l'assuré n'est plus assujetti à la sécurité sociale belge et ne peut plus en bénéficier.",
+      "timing": "Dans les 30 jours à compter du moment où les conditions pour le maintien du contrat d'assurance ne sont plus remplies.",
+      "sanction": null,
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclarer chaque cas d'assurance à DKV par écrit, de préférence via le portail client digital ou l'application sur smartphone mis à disposition par DKV, le cas échéant en utilisant le(s) formulaire(s) de déclaration prévu(s) à cet effet.",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Signaler tout accident à DKV au moyen du formulaire de déclaration d'accident désigné.",
+      "deadline": "Au plus tard dans les 48 heures, ou dès que raisonnablement possible après l'accident.",
+      "page": 2
+    },
+    {
+      "step": "Demander l'autorisation de DKV préalablement à tout traitement pour tout accident et pour tous les soins dentaires spécialisés.",
+      "deadline": "Préalablement à tout traitement",
+      "page": 2
+    },
+    {
+      "step": "Entreprendre toutes les démarches pour obtenir une intervention au titre de toutes les éventuelles interventions ou prestations légales, préalablement à toute demande d'indemnisation à DKV.",
+      "deadline": "Préalablement à toute demande d'indemnisation à DKV",
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Durée du contrat : à vie, non résiliable par l'assureur sauf exceptions prévues par la loi.",
+    "tacit_renewal": null,
+    "methods": [
+      "La notification de résiliation du contrat à l'assureur doit se faire par lettre recommandée, par exploit d'huissier ou par la remise d'une lettre de résiliation avec accusé de réception."
+    ],
+    "special_rights": [
+      "L'assureur peut résilier le contrat d'assurance en cas de non-paiement de la prime."
+    ],
+    "page": 2,
+    "notice_period": "Vous pouvez résilier votre contrat d'assurance à chaque date échéance annuelle en le notifiant à l'assureur au plus tard trois mois avant cette date."
+  },
+  "prescription_period": null,
+  "premium": {
+    "description": "L'assureur vous envoie une invitation à payer votre prime annuelle. Moyennant la prise en compte de frais de fractionnement, vous avec possibilité de demander le paiement semestriel, trimestriel ou mensuel (via domiciliation SEPA uniquement) de votre prime.",
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Restriction Accidents",
+      "description": "Accidents : l'indemnisation est limitée à € 10.000 par cas d'assurance.",
+      "page": 1
+    },
+    {
+      "name": "Restriction Orthodontie",
+      "description": "Orthodontie : l'indemnisation est limitée à un seul plan de traitement par assuré. La compensation ne peut excéder le capital annuel encore disponible dans l'année d'assurance au cours de laquelle le traitement a eu lieu. Seuls les traitements approuvés par le médecin-conseil de la mutualité sont éligibles pour remboursement.",
+      "page": 1
+    },
+    {
+      "name": "Conditions de souscription",
+      "description": "Cette assurance peut être souscrite par toute personne physique ayant son lieu de résidence et sa résidence principale en Belgique. Cette assurance s'adresse à toute personne physique n'ayant pas atteint l'âge de 70 ans à la conclusion du contrat d'assurance, ayant son lieu de résidence et sa résidence principale en Belgique, étant assujetti à la sécurité sociale belge et en bénéficiant.",
+      "page": 1
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Assurance individuelle soins dentaires à caractère indemnitaire complémentaire à l’intervention de l’assurance maladie légale/statutaire belge."
+    },
+    {
+      "quote": "Accidents : remboursement des soins dentaires de base et/ou spécialisés (y compris soins dentaires prothétiques) remboursés à 100%, plafonnés à un capital dédié de maximum € 10.000 sans stage"
+    },
+    {
+      "quote": "Accidents : l’indemnisation est limitée à  \n€ 10.000 par cas d’assurance."
+    },
+    {
+      "quote": "Orthodontie : max. €2.000 sur toute la durée \ndu contrat"
+    },
+    {
+      "quote": "Accident, maladie, affection, dents manquantes ou \ndents remplacées par ou munies d’une prothèse \ndentaire (état préexistant) au moment de la \nconclusion du contrat d'assurance"
+    },
+    {
+      "quote": "Durée du contrat : à vie, non résiliable par l’assureur sauf exceptions prévues par la loi."
+    },
+    {
+      "quote": "Vous pouvez résilier votre contrat d'assurance à chaque date échéance annuelle en le notifiant à l’assureur au plus tard \ntrois mois avant cette date."
+    }
+  ],
+  "gaps": [
+    "Le document ne contient pas de section 'Définitions' ; aucun terme n'est formellement défini (document IPID).",
+    "Le délai de prescription (prescription_period) n'est pas mentionné dans ce document.",
+    "Le mécanisme de reconduction tacite (tacit_renewal) n'est pas explicité ; le contrat est indiqué comme étant à vie."
+  ]
+}

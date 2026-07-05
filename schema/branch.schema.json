@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openinsurance-wiki/schema/branch.schema.json",
+  "title": "Branch page frontmatter (hand-authored)",
+  "description": "YAML frontmatter contract for wiki/<cc>/branches/<Branch>.md — a conceptual overview of a line of insurance.",
+  "type": "object",
+  "required": ["type", "domain", "country", "branch", "status"],
+  "properties": {
+    "type": { "const": "branch" },
+    "domain": { "const": "insurance" },
+    "country": { "type": "string" },
+    "branch": { "type": "string", "description": "Branch slug from _country.yml." },
+    "branch_code": { "type": ["string", "null"] },
+    "lang": { "type": "string" },
+    "langs": { "type": "array", "items": { "type": "string" } },
+    "mandatory": { "type": ["boolean", "string"] },
+    "regulator": { "type": ["string", "null"] },
+    "legal_refs": { "type": "array", "items": { "type": "string" } },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "aliases": { "type": "array", "items": { "type": "string" } },
+    "source": { "type": ["string", "null"] },
+    "date": { "type": "string" },
+    "freshness": { "type": "string" },
+    "status": { "type": "string", "enum": ["stub", "draft", "ready"] },
+    "generated": { "const": false }
+  }
+}

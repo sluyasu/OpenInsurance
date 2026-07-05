@@ -1,0 +1,269 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "be",
+  "insurer_slug": "ethias",
+  "insurer_name": "Ethias",
+  "branch": "sante",
+  "document_type": "ipid",
+  "language": "fr",
+  "source_url": "https://www.ethias.be/content/dam/B2C/general/pdf/infofiche/fi-hospi-quality-plus-fr.pdf",
+  "product_name": "Hospi Quality+",
+  "reference": "1252-432/1",
+  "edition_date": "03/25",
+  "target_audience": null,
+  "branch_code": "196",
+  "product_family": "Hospi Quality",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_pages": 2,
+  "source_pdf": "hospi-quality-edb72114.pdf",
+  "source_sha256": "fcdde2a08f536123a2564fded4494b5a11503ac665de84d201925a80a4d93734",
+  "fetched_at": "2026-07-05",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Hospi Quality+ est une assurance soins de santé complémentaire (assurance hospitalisation) d'Ethias. En cas de maladie, de grossesse, d'accouchement ou d'accident, l'assureur garantit des prestations relatives à un traitement médical nécessaire à la préservation et/ou au rétablissement de la santé. Elle couvre notamment les frais d'hospitalisation (jusqu'au triple de l'intervention légale de la mutuelle), les soins ambulatoires péri-hospitaliers, un ensemble de maladies graves, ainsi que certains médicaments et médecines non conventionnelles. L'assurance est valable dans le monde entier et le contrat est conclu à vie.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Frais d'hospitalisation donnant lieu à intervention légale de la mutuelle (frais de séjour, chambre à 1 lit, prestations médicales et médicaments)",
+      "description": "En cas d'hospitalisation à la suite d'un accident, d'une maladie, d'une grossesse ou d'un accouchement dans un hôpital reconnu ou dans une institution de soins palliatifs reconnue, pour autant qu'ils donnent lieu à une intervention légale de votre mutuelle : les frais de séjour, y compris les suppléments pour chambre à 1 lit ; les coûts des prestations médicales et paramédicales, les honoraires et suppléments d'honoraires ; les médicaments, les frais de produits pharmaceutiques, bandages, matériel médical et autres adjuvants médicaux.",
+      "is_optional": false,
+      "territorial_scope": "L'assurance est valable dans le monde entier.",
+      "limits": "jusqu'à concurrence du triple du montant de l'intervention légale de votre mutuelle",
+      "sub_limits": [],
+      "deductible": "Une franchise de € 351,07 est appliquée si vous choisissez une chambre individuelle dans un hôpital non certifié par Ethias.",
+      "conditions": [
+        "hospitalisation dans un hôpital reconnu ou dans une institution de soins palliatifs reconnue",
+        "pour autant qu'ils donnent lieu à une intervention légale de votre mutuelle"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Frais de séjour d'un parent (rooming-in)",
+      "description": "Les frais de séjour d'un parent dans la chambre d'un enfant âgé de moins de 18 ans (rooming-in), qu'ils donnent lieu ou non à une intervention légale de votre mutuelle.",
+      "is_optional": false,
+      "territorial_scope": "L'assurance est valable dans le monde entier.",
+      "limits": "jusqu'à concurrence de € 35,11 maximum par nuit",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "enfant âgé de moins de 18 ans",
+        "en cas d'hospitalisation"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Frais de séjour du donneur en cas de transplantation",
+      "description": "Les frais de séjour du donneur en cas de transplantation d'un organe ou d'un tissu en votre faveur, qu'ils donnent lieu ou non à une intervention légale de votre mutuelle.",
+      "is_optional": false,
+      "territorial_scope": "L'assurance est valable dans le monde entier.",
+      "limits": "jusqu'à concurrence de € 1.755,34 maximum par assuré et par an",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "transplantation d'un organe ou d'un tissu en votre faveur"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Soins ambulatoires péri-hospitaliers (avant et après hospitalisation)",
+      "description": "Les frais médicaux relatifs aux soins ambulatoires encourus pendant une période de 60 jours avant et de 180 jours après l'hospitalisation, en relation directe avec l'hospitalisation.",
+      "is_optional": false,
+      "territorial_scope": "L'assurance est valable dans le monde entier.",
+      "limits": "jusqu'à concurrence du triple de l'intervention légale de votre mutuelle",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "soins encourus pendant une période de 60 jours avant et de 180 jours après l'hospitalisation",
+        "en relation directe avec l'hospitalisation"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Maladies graves - frais de médecine ambulatoire",
+      "description": "En cas de survenance d'une des 33 maladies graves assurées (e.a. cancer, diabète, maladie d'Alzheimer, sclérose en plaques) : remboursement des frais de médecine ambulatoire nécessaires et en lien avec le traitement de la maladie grave, sans qu'une hospitalisation ne soit requise.",
+      "is_optional": false,
+      "territorial_scope": "L'assurance est valable dans le monde entier.",
+      "limits": "jusqu'à concurrence du triple de l'intervention légale de votre mutuelle",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "survenance d'une des 33 maladies graves assurées",
+        "frais nécessaires et en lien avec le traitement de la maladie grave",
+        "sans qu'une hospitalisation ne soit requise"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Maladies graves - aides à domicile non médicales et produits esthétiques après hospitalisation",
+      "description": "En cas de survenance d'une des 33 maladies graves assurées, à la suite d'une hospitalisation : remboursement d'une gamme de services d'aides à domicile non médicales ou de produits esthétiques qui peuvent contribuer à l'amélioration de votre état de santé.",
+      "is_optional": false,
+      "territorial_scope": "L'assurance est valable dans le monde entier.",
+      "limits": "jusqu'à concurrence de € 500,00 (non indexé) maximum par assuré et par an",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "survenance d'une des 33 maladies graves assurées",
+        "à la suite d'une hospitalisation"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Médicaments non remboursables et médecines non conventionnelles",
+      "description": "Remboursement des médicaments non remboursables, des traitements homéopathiques, de l'ostéopathie et de l'acupuncture.",
+      "is_optional": false,
+      "territorial_scope": "L'assurance est valable dans le monde entier.",
+      "limits": "jusqu'à concurrence de € 2.925,56 par assuré et par an",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Traitements esthétiques ou cures de rajeunissement",
+      "description": "Les prestations résultant de traitements esthétiques ou cures de rajeunissement.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Maladies ou accidents en état d'ivresse, d'intoxication ou sous l'influence de drogues/médicaments sans prescription",
+      "description": "Les prestations résultant de maladies ou accidents survenus à l'assuré en état d'ivresse, d'intoxication alcoolique ou sous l'influence de drogues, narcotiques, médicaments ou stupéfiants utilisés sans prescription médicale.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Maladies ou accidents consécutifs à l'alcoolisme, la toxicomanie ou l'usage abusif de médicaments",
+      "description": "Les prestations résultant de maladies ou accidents survenus à l'assuré consécutifs à l'alcoolisme, la toxicomanie ou l'usage abusif de médicaments.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Stérilisation et traitements contraceptifs",
+      "description": "Les prestations résultant de la stérilisation, de traitements contraceptifs.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Sport aérien, sport avec véhicule à moteur, ou sport pratiqué en professionnel",
+      "description": "Les prestations résultant de la pratique d'un sport aérien ou entraînant l'usage d'un véhicule à moteur, de même que la pratique, en tant que professionnel(le), d'un sport quelconque.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Hospitalisation de jour (one day clinic) - suppléments non remboursés",
+      "description": "En cas d'hospitalisation de jour (one day clinic), les suppléments d'honoraires et de frais de séjour en chambre à 1 lit ne sont pas remboursés.",
+      "applies_to": "all",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": "Une franchise de € 351,07 est appliquée si vous choisissez une chambre individuelle dans un hôpital non certifié par Ethias. La liste des hôpitaux certifiés est actualisée au 1er janvier de chaque année et disponible sur ethias.be.",
+    "per_coverage": null,
+    "page": 1
+  },
+  "waiting_periods": [
+    {
+      "name": "Délai d'attente général",
+      "description": "Le délai d'attente général est de trois mois. Il est toutefois supprimé pour : les accidents ; une série de maladies infectieuses aiguës (e.a. rubéole, rougeole, varicelle, Covid-19, …) ; le conjoint ou le cohabitant légal, pour autant que l'affiliation ait lieu dans le mois qui suit le mariage ou la déclaration de cohabitation légale ; le nouveau-né lors de l'accouchement d'une personne déjà assurée, pour autant que l'affiliation ait lieu dans les deux mois qui suivent la date de la naissance ; si l'assuré avait déjà avant l'affiliation une assurance avec des garanties similaires pendant au moins trois mois sans interruption.",
+      "duration": "trois mois",
+      "page": 1
+    },
+    {
+      "name": "Délai d'attente - grossesse et accouchement",
+      "description": "Pour les frais liés à une grossesse ou à un accouchement, nous intervenons à la condition que la grossesse ait débuté après la date de prise d'effet de la garantie et après expiration du délai d'attente précité.",
+      "duration": "trois mois (délai d'attente général) ; la grossesse doit avoir débuté après la date de prise d'effet de la garantie",
+      "page": 1
+    }
+  ],
+  "obligations": [
+    {
+      "name": "Déclaration exacte du risque à la conclusion et questionnaire médical",
+      "description": "Lors de la conclusion du contrat vous devez nous communiquer toutes les informations, données exactes et complètes sur le risque à assurer. La proposition d'assurance doit être accompagnée pour chaque personne à assurer par un questionnaire médical dûment complété afin que nous puissions apprécier le risque à assurer et éventuellement formuler des restrictions au droit à des prestations liées à une maladie, blessure ou handicap.",
+      "timing": "Lors de la conclusion du contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Déclaration des modifications du risque en cours de contrat",
+      "description": "Si des modifications surviennent en cours de contrat au risque pour lequel vous êtes assuré (entre autres les modifications dans la composition familiale susceptibles de modifier la prime telle qu'une naissance, un mariage, un décès), vous êtes tenu de nous les communiquer.",
+      "timing": "En cours de contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Déclaration de l'hospitalisation et transmission des justificatifs originaux",
+      "description": "La déclaration de l'hospitalisation doit être effectuée aussi rapidement que possible et vous devez nous communiquer tous les justificatifs originaux (facture de l'hôpital, attestations des remboursements de la mutuelle, reçus délivrés par la pharmacie, …). Une copie ne suffit pas.",
+      "timing": "Aussi rapidement que possible",
+      "sanction": null,
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclarer l'hospitalisation aussi rapidement que possible et communiquer tous les justificatifs originaux (facture de l'hôpital, attestations des remboursements de la mutuelle, reçus délivrés par la pharmacie, …). Une copie ne suffit pas.",
+      "deadline": "aussi rapidement que possible"
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "L'assurance Hospi Quality+ prend cours à la date indiquée dans les conditions particulières du contrat. Le contrat est conclu à vie.",
+    "tacit_renewal": null,
+    "methods": [
+      "La résiliation du contrat doit se faire par envoi recommandé, par exploit d'huissier ou par la remise d'une lettre de résiliation avec accusé de réception."
+    ],
+    "special_rights": null,
+    "page": 2,
+    "notice_period": "Vous pouvez résilier votre contrat d'assurance au plus tard deux mois avant la date d'échéance annuelle du contrat."
+  },
+  "prescription_period": null,
+  "premium": {
+    "description": "Vous avez l'obligation de payer annuellement la prime avant la date d'échéance et vous recevez pour cela une invitation à payer. Une prime fractionnée est possible moyennant certaines conditions et des coûts supplémentaires éventuels.",
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Indexation des montants et franchises",
+      "description": "Sauf mention contraire, les montants assurés et franchises communiqués dans ce document sont indexés (indice des prix à la consommation de mars 2023).",
+      "page": 1
+    },
+    {
+      "name": "Hôpitaux certifiés",
+      "description": "Une franchise de € 351,07 est appliquée si vous choisissez une chambre individuelle dans un hôpital non certifié par Ethias. La liste des hôpitaux certifiés est actualisée au 1er janvier de chaque année et disponible sur ethias.be.",
+      "page": 1
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "L'assurance Hospi Quality+ est une assurance soins de santé complémentaire par laquelle l'assureur garantit, en cas de maladie, de grossesse, d'accouchement ou d'accident, des prestations relatives à un traitement médical nécessaire à la préservation et/ou au rétablissement de la santé."
+    },
+    {
+      "quote": "Les frais médicaux relatifs aux soins ambulatoires encourus pendant une période de 60 jours avant et de 180 jours après l'hospitalisation, en relation directe avec l'hospitalisation, jusqu'à concurrence du triple de l'intervention légale de votre mutuelle."
+    },
+    {
+      "quote": "Remboursement des médicaments non remboursables, des traitements homéopathiques, de l'ostéopathie et de l'acupuncture jusqu'à concurrence de € 2.925,56 par assuré et par an."
+    },
+    {
+      "quote": "Le délai d'attente général est de trois mois."
+    },
+    {
+      "quote": "Une franchise de € 351,07 est appliquée si vous choisissez une chambre individuelle dans un hôpital non certifié par Ethias."
+    },
+    {
+      "quote": "Le contrat est conclu à vie."
+    },
+    {
+      "quote": "Vous pouvez résilier votre contrat d'assurance au plus tard deux mois avant la date d'échéance annuelle du contrat."
+    }
+  ],
+  "gaps": [
+    "Le document est une fiche IPID (2 pages) qui n'est pas exhaustive : il renvoie aux conditions précontractuelles et contractuelles pour les informations complètes.",
+    "Aucune section de définitions n'est présente dans le document ; definitions[] est donc vide.",
+    "La liste complète des 33 maladies graves assurées n'est pas fournie (seuls quelques exemples sont cités : cancer, diabète, maladie d'Alzheimer, sclérose en plaques).",
+    "Aucun délai de prescription (prescription_period) n'est mentionné dans le document.",
+    "target_audience non précisé dans le document."
+  ]
+}

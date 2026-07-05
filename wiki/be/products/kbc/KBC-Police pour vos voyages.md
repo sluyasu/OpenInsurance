@@ -1,0 +1,331 @@
+---
+type: product
+domain: insurance
+country: be
+insurer: '[[KBC Bank & Verzekering]]'
+insurer_slug: kbc
+branch: voyage
+product_name: KBC-Police pour vos voyages
+document_type: conditions_generales
+target_audience: null
+reference: F0003 0001 0100 1412
+edition_date: null
+lang: fr
+tags:
+- insurance/be/voyage
+- product
+- insurer/kbc
+aliases:
+- KBC-Police pour vos voyages
+source_url: https://multimediafiles.kbcgroup.eu/ng/PUBLISHED/KBC/PDF/VERZEKERINGEN/Conditions-generales-Police-pour-vos-voyages.pdf
+source_pages: 19
+fetched_at: '2026-07-05'
+extraction_model: claude-code-subagent:scale
+prompt_version: '1.1'
+product_family: police-pour-vos-voyages
+variant: null
+edition_status: null
+superseded: null
+extends: null
+freshness: '2026-07-05'
+status: ready
+generated: true
+---
+
+<!-- GENERATED - do not edit. Fix data/<cc>/extracted/ and run `make build`. -->
+
+## Résumé
+
+La KBC-Police pour vos voyages est une police de voyage qui regroupe plusieurs assurances : assurance assistance personnes, assurance annulation, assurance bagages, assurance accidents en voyage avec protection supplémentaire, et assurance litiges dans le cadre de voyages. Les assurances effectivement souscrites sont énumérées dans les conditions particulières. Une formule VIP double les montants assurés et limites d'indemnisation (sauf la franchise), et une option Voyages d'affaires étend le champ d'application aux voyages professionnels.
+
+- Assureur : [[KBC Bank & Verzekering]] · Branche : [[Voyage]] · Type : Conditions générales
+
+## Définitions
+
+| Terme | Définition | Page |
+|---|---|---|
+| Vous | Les personnes nominativement désignées dans les conditions particulières sous l'intitulé Personnes assurées, à condition qu'elles soient domiciliées et qu'elles aient leur résidence principale en Belgique. Les enfants du preneur d'assurance (personne physique) nés après la souscription de la police sont assurés jusqu'à l'âge de cinq ans, y compris en l'absence de mention dans les conditions particulières. Les enfants adoptés sont automatiquement couverts jusqu'au cinquième anniversaire de leur adoption. | p. 1 |
+| Nous | KBC Assurances, SA ayant son siège social Professor Roger Van Overstraetenplein 2, 3000 Leuven, Belgique, TVA BE 0403.552.563, RPM Leuven. | p. 1 |
+| Voyages d'affaires | Les voyages effectués dans le cadre de l'exercice d'une activité ou d'une profession. Cette option ne peut être souscrite que pour les personnes assurées ayant leur activité habituelle en Belgique. | p. 1 |
+| Bagages | Les biens qui vous accompagnent lors du voyage. Les véhicules automoteurs, caravanes, remorques et bateaux, en ce compris leurs accessoires, ne sont pas considérés comme des bagages. | p. 3 |
+| Voyage (assurance annulation) | Tout déplacement en Belgique ou à l'étranger à l'occasion de quoi une nuitée au moins a été réservée ou dont vous pouvez démontrer, au moyen d'un titre de transport aller et retour, qu'il s'agit d'un séjour de deux jours consécutifs au moins. | p. 6 |
+| Voyage (assurance bagages / accidents / litiges) | Tout déplacement en Belgique ou à l'étranger à l'occasion de quoi une nuitée au moins a été réservée ou dont vous pouvez démontrer, au moyen d'un titre de transport aller et retour, qu'il s'agit d'un séjour de deux jours consécutifs au moins. Les voyages de plus de quatre mois ne sont pas assurés. | p. 9 |
+| Accident | Un événement soudain qui entraîne une lésion corporelle constatable objectivement ou la mort et dont une des causes au moins est étrangère à l'organisme de la victime. Sont considérés comme des accidents, entre autres : l'empoisonnement, les réactions allergiques à des piqûres d'insectes ou autres ; les conséquences d'un effort subit, comme les entorses, les luxations, les foulures et les déchirures musculaires, qui se manifestent immédiatement ; la noyade, l'étouffement. Par extension, l'hypothermie et l'insolation sont également considérés comme des événements assurés. | p. 11 |
+| Usagers faibles de la route | Les piétons, les cyclistes et les passagers des véhicules automoteurs. | p. 11 |
+| Contrat de voyage | Un contrat conclu avec un tour-opérateur, un transporteur, une agence de voyages ou un quelconque autre intermédiaire qui se charge du transport, du séjour ou d'autres services touristiques. Nous considérons également comme des contrats de voyage les excursions touristiques réservées sur place et les accords pris avec des guides locaux. | p. 13 |
+| Contrat de location | Vous concluez un contrat de location si vous louez une résidence de vacances ou une chambre dans un hôtel ou une pension, si vous réservez un emplacement dans un camping ou une place de stationnement pour votre voiture. De même, si vous louez un vélo, une voiture, un jet-ski, un bateau ou un autre bien en vue de l'utiliser pendant votre voyage, vous concluez un contrat de location. | p. 13 |
+| Contrat de dépôt | Il y a contrat de dépôt si la personne à qui vous avez confié un objet est tenue de le surveiller et de répondre de sa perte et de sa détérioration. Il est fréquent que l'on confie, en voyage, des biens à des tiers, comme des objets de valeur que l'on dépose dans le coffre de l'hôtel ou des bagages que l'on confie au transporteur. | p. 13 |
+| Louage d'ouvrage | Le terme juridique qui désigne les contrats conclus avec des personnes qui accomplissent un travail pour vous. Il peut s'agir d'un garagiste, d'un réparateur de vélos, de la personne chargée de remorquer votre véhicule ou du réparateur de votre équipement sportif. | p. 13 |
+| Defendo | Votre garantie d'impartialité : équipe de collaborateurs spécialisés qui n'intervient que dans cette seule branche (protection juridique) et qui traite votre dossier de protection juridique de manière impartiale. | p. 13 |
+
+## Garanties
+
+### Formule VIP - p. 1
+Dans la formule VIP de cette police, nous multiplions par deux les montants assurés et les limites d'indemnisation renseignés dans les conditions générales pour toutes les assurances que vous avez souscrites. La franchise, elle, n'est pas doublée. Si vous avez opté pour cette formule, les conditions particulières en font mention.
+- Optionnelle : oui · Limite : Doublement des montants assurés et limites d'indemnisation ; la franchise n'est pas doublée
+  - Condition : Doit être mentionnée dans les conditions particulières
+
+### Option Voyages d'affaires - p. 1
+L'Assurance assistance personnes s'applique aussi bien aux voyages privés qu'aux voyages d'affaires. Pour autant que vous ayez souscrit l'option Voyages d'affaires, le champ d'application des autres assurances souscrites s'étend aux voyages d'affaires (voyages effectués dans le cadre de l'exercice d'une activité ou d'une profession).
+- Optionnelle : oui
+  - Condition : Ne peut être souscrite que pour les personnes assurées ayant leur activité habituelle en Belgique
+  - Condition : Doit être mentionnée dans les conditions particulières
+
+### Assistance en Belgique - Rapatriement d'une personne malade, blessée ou décédée et des personnes qui voyagent avec elle - p. 2
+Nous nous occupons du transport et de l'accompagnement de la personne malade ou blessée vers son domicile en Belgique ou vers un hôpital, si cette solution est indiquée. En cas de décès, nous faisons rapatrier la dépouille mortelle jusqu'au domicile ou au cimetière en Belgique. Nous prenons également en charge le rapatriement des co-voyageurs éventuels vers leur domicile, pour autant qu'il s'agisse d'assurés et qu'ils ne puissent réintégrer leur domicile de la manière initialement prévue. Nous nous chargeons également de l'accompagnement personnel si ces assurés ne peuvent voyager seuls en raison de leur âge ou de leur handicap.
+- Optionnelle : non · Portée : Belgique (voyages en Belgique, ou éloigné de 10 kilomètres de votre domicile)
+  - Condition : L'assistance intervient pour les voyages en Belgique et à l'étranger, et lors d'autres déplacements pour autant que vous soyez éloigné de 10 kilomètres de votre domicile
+  - Condition : En cas de séjour long à l'étranger, l'assurance intervient pendant les 4 premiers mois du séjour
+
+### Assistance en Belgique - Recherches et sauvetage - p. 2
+Nous prenons en charge les frais de recherche, si vous êtes égaré ou avez disparu ; et le coût de l'opération de sauvetage, si la situation entraîne pour vous un danger immédiat.
+- Optionnelle : non · Portée : Belgique · Limite : jusqu'à 5 000 EUR
+
+### Assistance à l'étranger - Paiement des frais médicaux, des frais de recherche et de sauvetage - p. 2
+Si vous tombez malade ou êtes blessé à l'étranger, nous payons les frais de vos soins médicaux, les frais d'hospitalisation et les frais de transport nécessaires pour vous faire soigner. Nous payons également les frais de recherche et de sauvetage.
+- Optionnelle : non · Portée : Étranger · Limite : jusqu'à concurrence de 500 000 EUR par personne · Franchise : Votre quote-part s'élève à 100 EUR
+  - Sous-limite : 5 000 EUR pour les frais de recherche si vous vous êtes égaré ou avez disparu
+  - Sous-limite : 1 250 EUR pour la poursuite du traitement en Belgique ; ces frais sont couverts jusqu'à 1 an après le retour
+  - Sous-limite : 250 EUR pour les frais de petite chirurgie dentaire et pour les frais de prothèses et/ou d'appareils orthopédiques
+
+### Assistance à l'étranger - Rapatriement pour raisons médicales - p. 2
+Nous nous occupons de votre rapatriement vers la Belgique si votre état de santé l'exige. Le moment, la manière et la destination sont exclusivement déterminés en fonction de votre état de santé et en concertation avec les médecins traitants.
+- Optionnelle : non · Portée : Étranger
+
+### Assistance à l'étranger - Rapatriement des passagers après un accident ou une panne - p. 2
+Si vous êtes passager à bord du véhicule d'un tiers non assuré, nous prenons en charge votre rapatriement vers la Belgique si vous êtes incapable de faire le trajet à bord de ce véhicule parce que : le véhicule est immobilisé à cause d'un accident (ou d'une panne) et ne peut être réparé dans les cinq jours ouvrables ; le véhicule est volé ; le conducteur du véhicule ne peut conduire à la suite d'un accident ou d'une maladie et ni vous, ni aucun autre passager, ne pouvez le remplacer. Nous remboursons les frais de séjour supplémentaires, si vous attendez la réparation.
+- Optionnelle : non · Portée : Étranger · Limite : Frais de séjour supplémentaires payés jusqu'à concurrence de 75 EUR par jour et par personne, avec un maximum de 7 jours
+
+### Assistance à l'étranger - Rapatriement de la dépouille mortelle - p. 3
+En cas de décès à l'étranger, nous nous chargeons du rapatriement de la dépouille mortelle vers le cimetière ou le domicile en Belgique. Nous prenons également en charge les frais du traitement 'post-mortem' et du cercueil. Si les funérailles ont lieu à l'étranger, nous payons les frais funéraires jusqu'à concurrence du montant dont nous aurions dû nous acquitter en cas de rapatriement de la dépouille mortelle.
+- Optionnelle : non · Portée : Étranger · Limite : Frais du traitement 'post-mortem' et du cercueil jusqu'à 1 500 EUR
+
+### Assistance à l'étranger - Rapatriement des autres assurés - p. 3
+Les assurés qui, en raison de l'hospitalisation ou du rapatriement d'un autre assuré, ne peuvent pas réintégrer leur domicile de la manière initialement prévue, sont également rapatriés par nos soins. Nous nous chargeons également de l'accompagnement personnel si ces assurés ne peuvent voyager seuls en raison de leur âge ou de leur handicap.
+- Optionnelle : non · Portée : Étranger
+
+### Assistance à l'étranger - Voyage de membres de la famille - p. 3
+Si aucun membre de la famille majeur n'est présent sur place lors de votre hospitalisation à la suite d'une maladie ou d'un accident, nous organisons le voyage aller et retour d'un membre de la famille (ou d'une autre personne désignée) au départ de la Belgique, ou des parents, si la personne hospitalisée est mineure. La même assistance est accordée à un proche parent en cas de décès d'un assuré.
+- Optionnelle : non · Portée : Étranger · Limite : Frais de séjour de cette personne remboursés jusqu'à 75 EUR par jour pendant 7 jours au maximum
+
+### Assistance à l'étranger - Retour anticipé - p. 3
+Nous nous chargeons du voyage de retour de tous les assurés vers la Belgique ou du voyage aller et retour d'un assuré, si le retour au domicile est nécessaire parce que : une personne qui habite au foyer du preneur d'assurance ou un parent au premier degré est décédé, est en danger de mort ou a été inopinément hospitalisé pour plus de 5 jours (cette durée n'est pas exigée en cas d'hospitalisation d'un enfant mineur) ; un parent jusqu'au second degré est décédé ou en danger de mort ; votre habitation ou un bâtiment d'exploitation vous appartenant a été sérieusement endommagé.
+- Optionnelle : non · Portée : Étranger
+
+### Assistance à l'étranger - Séjour prolongé - p. 3
+Nous prenons en charge les frais de séjour supplémentaires si : vous devez interrompre votre voyage pendant 48 heures au moins en raison des conditions atmosphériques, d'une grève ou d'un autre cas de force majeure ; vous devez rester sur place plus longtemps que prévu en raison d'une maladie, d'un accident, d'une mise en quarantaine ou de la fermeture de l'espace aérien.
+- Optionnelle : non · Portée : Étranger · Limite : jusqu'à concurrence de 75 EUR par personne et par jour, avec un maximum de 7 jours
+  - Condition : L'indemnité de séjour prolongé ne peut pas être cumulée avec l'indemnité pour frais de séjour supplémentaires accordée en vertu d'une des autres situations décrites
+
+### Assistance à l'étranger - Bagages et animaux - p. 3
+Si nous devons vous rapatrier, vos bagages, de même que les chiens et chats qui vous accompagnaient à l'étranger, sont également ramenés à votre domicile. Les chiens et chats qui ne pourront réintégrer le domicile en votre compagnie, seront rapatriés par nos soins. Les éventuels frais vétérinaires ou frais de quarantaine imposés par la compagnie aérienne ne sont pas remboursés.
+- Optionnelle : non · Portée : Étranger · Limite : Pour le rapatriement des chiens et chats qui ne peuvent réintégrer le domicile en votre compagnie, l'intervention est limitée à 1 000 EUR
+
+### Assistance à l'étranger - Aide urgente - p. 3
+Nous nous chargeons d'envoyer ou de mettre à disposition : les médicaments dont vous avez besoin si ceux-ci ne peuvent pas être achetés sur place ; les lunettes et autres prothèses ou appareils orthopédiques indispensables en remplacement de ceux qui ont été endommagés ou perdus en voyage ; une valise contenant des vêtements et des objets personnels, en remplacement des bagages perdus ou volés (cette valise doit nous être apportée par une personne désignée par vos soins) ; les titres de transport en cas de perte ou de vol des documents originaux ; un montant en cas de perte ou de vol d'argent ou de cartes de crédit (nous nous chargeons aussi des formalités nécessaires auprès de votre organisme financier). Nous remboursons en outre les frais administratifs liés au remplacement des documents d'identification perdus (passeport, carte d'identité, permis de conduire ou visa). Enfin, nous nous chargeons de transmettre des messages urgents à des membres de la famille ou à d'autres personnes.
+- Optionnelle : non · Portée : Étranger · Limite : Un montant de 1 000 EUR au maximum en cas de perte ou de vol d'argent ou de cartes de crédit ; nous pouvons également mettre un montant plus élevé (jusqu'à 10 000 EUR) à votre disposition, à condition d'avoir nous-mêmes reçu l'argent au préalable
+  - Condition : Nous ne prenons en charge que les frais d'envoi et de mise à votre disposition de l'aide sollicitée ; les autres frais (achat de médicaments, lunettes, bagages, titres de transport, etc.) restent à votre charge et doivent être remboursés dans le mois, sur simple demande ; il en va de même pour la somme d'argent avancée
+  - Condition : Vous devez remplir sur place les formalités nécessaires auprès de la police, de l'ambassade ou de toute autre instance compétente pour le remplacement des documents d'identification
+
+### Assistance - Frais de communication - p. 4
+Nous prenons à notre charge le coût des communications que vous passez à l'étranger à notre demande ou qui vous est facturé lorsque nous vous téléphonons à l'étranger.
+- Optionnelle : non · Portée : Étranger
+
+### Assurance annulation - Frais d'annulation et de retour anticipé - p. 6
+Cette assurance garantit le paiement des frais que vous ne pouvez pas vous faire rembourser s'il vous faut annuler votre voyage ou rentrer prématurément de voyage à la suite d'un des événements assurés, pour autant que cet événement se produise pendant la durée de l'assurance. Nous payons votre quote-part dans les frais d'annulation ou de report, compte tenu des modalités et des conditions de votre contrat de voyage. Si vous partez seul, sans vos compagnons de voyage, nous prenons en charge les frais de report jusqu'à concurrence maximum des frais d'annulation dont vous auriez été contractuellement redevable si vous n'étiez pas parti. Si vous louez une voiture pour remplacer votre propre véhicule rendu indisponible par un événement assuré, nous prenons en charge les frais de location jusqu'à concurrence du montant des frais d'annulation que cette location permet d'éviter. En cas de retour anticipé, les jours perdus sont remboursés au prorata du montant total du voyage.
+- Optionnelle : oui · Portée : L'assurance s'applique aux voyages réservés/effectués dans le monde entier · Limite : Notre intervention se limite à 12 500 EUR par voyage pour l'ensemble des personnes assurées · Franchise : Si vous faites appel à notre garantie Plus, votre quote-part dans les frais assurés s'élève à 25%
+  - Sous-limite : Les frais portés en compte par l'intermédiaire de voyages sont remboursés jusqu'à concurrence de 10% du montant du voyage
+  - Condition : Si le voyage a été réservé avant la date de début de l'assurance, le départ doit se situer au plus tôt 1 mois après la date de début de cette assurance (sauf reprise d'une assurance annulation souscrite auprès d'une autre compagnie d'assurances)
+  - Condition : Les frais indirects, les frais de documentation, le coût des visas, des péages, du carburant et autres, ne sont pas remboursés
+
+### Assurance annulation - Événement assuré : Raisons de santé - p. 6
+Justifient l'annulation ou le retour prématuré : vous tombez malade, vous avez un accident ou vous décédez (la maladie ou l'accident doit être suffisamment grave et raisonnablement constituer un obstacle à vos vacances) ; complications durant la grossesse ou naissance prématurée (l'accouchement prévu au cours des trois mois précédant le voyage constitue une raison valable, pour autant que vous n'ayez pas été informée de votre grossesse au moment de la réservation) ; vous êtes convoqué pour une transplantation d'organe ou de moelle osseuse ; décès ou hospitalisation inopinée de vous-même ou d'un membre de la famille jusqu'au deuxième degré, d'un associé indispensable à l'entreprise ou de votre propre remplaçant, de la personne qui s'occupe pendant votre voyage de vos enfants mineurs ou d'autres personnes dépendantes habitant à votre foyer, ou d'un membre de la famille au sein de laquelle vous aviez prévu de résider pendant le voyage.
+- Optionnelle : oui · Portée : Monde entier
+  - Condition : Un événement survenu à une personne assurée vaut aussi pour les autres personnes assurées
+
+### Assurance annulation - Événement assuré : Autres cas d'urgence - p. 6
+Le home-jacking survenu 7 jours ou moins avant la date prévue du départ ; le kidnapping ou la disparition de l'un de «Vous» ou d'un membre de votre famille jusqu'au deuxième degré ; le vol avec effraction dans votre habitation ou votre entreprise, commis 7 jours ou moins avant la date prévue du départ ; la destruction ou la grave détérioration de votre habitation ou de vos bâtiments d'exploitation ; la résiliation du contrat de bail de votre habitation ou de votre entreprise dans les trois mois qui précèdent la date prévue du départ ; le vol, la détérioration ou la panne du véhicule avec lequel vous comptiez partir en voyage, à condition que le fait se produise dans les 7 jours précédant le départ et qu'il ne soit pas possible de procéder à temps aux réparations.
+- Optionnelle : oui · Portée : Monde entier
+
+### Assurance annulation - Événement assuré : Etudes et travail - p. 6
+Vous devez présenter une épreuve de repêchage pendant votre voyage ou dans les 30 jours qui le suivent ; vous êtes licencié pour raisons économiques ou perdez involontairement votre emploi salarié ; votre présence au travail est obligatoire, dans la mesure où vous avez signé un nouveau contrat de travail d'une durée de 3 mois au moins ; vous déménagez pour des raisons professionnelles. Ces événements ne peuvent pas être invoqués par les proches qui restent au domicile.
+- Optionnelle : oui · Portée : Monde entier
+  - Condition : Ces événements ne peuvent pas être invoqués par les proches qui restent au domicile
+
+### Assurance annulation - Événement assuré : Pouvoirs publics et formalités liées au voyage - p. 6
+Vous êtes convoqué à siéger comme membre d'un jury ou à comparaître personnellement devant un tribunal dans le cadre de procédures qui n'avaient pas été introduites au moment de la réservation ; vous êtes convoqué pour régler l'adoption officielle d'un enfant ; des raisons médicales, inconnues de vous au moment de la réservation, vous interdisent de recevoir les vaccins obligatoires ; le visa, dont vous aviez fait la demande à temps, vous est refusé (ce qui n'était encore jamais arrivé) ; vos documents d'identité, visas ou titres de transport sont volés dans les 72 heures précédant le départ ; l'accès au pays de destination vous est refusé, alors que vous êtes en possession de tous les documents requis ; le ministère des Affaires étrangères déconseille cette destination après que vous ayez réservé le voyage.
+- Optionnelle : oui · Portée : Monde entier
+
+### Assurance annulation - Événement assuré : Départ manqué du vol, du bateau ou du train - p. 6
+Arrivée tardive sur les lieux de l'embarquement à la suite d'un accident ou d'une panne du véhicule à bord duquel vous vous trouviez, à condition que vous puissiez produire l'attestation ou la facture de l'entreprise de remorquage ou du garagiste ; arrivée tardive sur les lieux de l'embarquement pour cause d'embouteillages provoqués par un incident sur la route, à condition que vous ayez prévu une marge de sécurité (arrivée 1 h 30 au moins avant l'heure prévue sur les lieux de l'embarquement) ; retard imprévu de 48 heures au moins du transport réservé.
+- Optionnelle : oui · Portée : Monde entier
+
+### Assurance annulation - Notre garantie Plus - p. 6
+Il est impossible de prévoir toutes les situations justifiant une annulation. C'est la raison pour laquelle nous vous garantissons d'accepter tout événement non décrit ici, constituant pour vous un cas de force majeure. Cette situation indépendante de votre volonté doit vous mettre dans l'impossibilité de participer au voyage prévu et pouvoir être vérifiée.
+- Optionnelle : oui · Portée : Monde entier · Franchise : Si vous faites appel à notre garantie Plus, votre quote-part dans les frais assurés s'élève à 25%
+
+### Assurance annulation - Voyage prévu en compagnie d'une personne non assurée - p. 6
+Vous pouvez également faire appel à cette assurance si vous prévoyiez d'accompagner en voyage une personne non assurée et que cette personne est confrontée à l'un des événements assurés, ce qui vous oblige à partir seul.
+- Optionnelle : oui · Portée : Monde entier
+  - Condition : Vous ne pouvez pas avoir prévu d'accompagner plus de deux adultes et leurs enfants mineurs non assurés
+  - Condition : Vous devez pouvoir démontrer que vous comptiez voyager ensemble
+
+### Assurance bagages - p. 9
+Nous couvrons les bagages que vous emportez en voyage, les équipements sportifs, les véhicules et embarcations non motorisés de même que les montures, que vous louez ou êtes autorisé à utiliser gratuitement en voyage. Sont assurés les événements suivants lorsqu'ils se produisent en voyage : vol avec violence ou menaces ou vol dans le véhicule, sur le lieu de votre séjour ou sur votre personne (nous intervenons aussi si vous pouvez démontrer le vol à l'aide d'autres traces, ou des déclarations faites à la police par les témoins) ; détérioration ou destruction par un événement soudain et inattendu de vous, comme une collision ; biens non livrés ou livrés endommagés par la compagnie de transport. Nous remboursons les biens volés ou irréparables en valeur à neuf. Si l'objet peut être réparé, nous remboursons les frais de réparation, limités au remboursement en valeur à neuf.
+- Optionnelle : oui · Portée : Belgique ou à l'étranger · Limite : jusqu'à 1 500 EUR par personne assurée · Franchise : Par sinistre, une franchise de 100 EUR est déduite du montant de l'indemnité ; la franchise ne s'applique pas dans le contexte d'une aide apportée à des personnes en danger, ni pour le remboursement des frais de remplacement des cartes de paiement et de crédit, abonnements de ski, visas, passeports et autres documents de voyage
+  - Sous-limite : Équipements sportifs : nous déduisons la vétusté
+  - Sous-limite : Appareils mobiles (smartphone, GPS, tablette, ordinateur) : nous avons le droit de ne pas rembourser mais d'offrir le même appareil ; si l'appareil n'est plus sur le marché, dépréciation forfaitaire de 10% l'an
+  - Sous-limite : Objets loués : remboursés sur la base du régime de responsabilité en vigueur
+  - Sous-limite : Argent ou autres valeurs au porteur : remboursement de la valeur en espèces exprimée en euros (devises étrangères : cours du change à la date du sinistre)
+  - Sous-limite : Intervention supplémentaire : si 4 heures après votre arrivée à destination à l'étranger vos bagages ne sont toujours pas en votre possession, remboursement de l'achat urgent de vêtements et d'articles de toilette jusqu'à 250 EUR par personne assurée
+  - Condition : Les véhicules automoteurs, caravanes, remorques et bateaux, ainsi que leurs accessoires, ne sont pas assurés
+  - Condition : Les voyages de plus de quatre mois ne sont pas assurés
+  - Condition : Dans le cas de biens loués, l'événement doit survenir pendant la période durant laquelle les biens vous sont confiés et où vous en êtes responsable
+  - Condition : L'ensemble des dommages imputables à un même fait ou à une succession de faits ayant la même origine est considéré comme un seul et même sinistre
+
+### Assurance accidents en voyage - Indemnisation en cas de lésions permanentes (invalidité permanente) - p. 11
+En cas d'invalidité permanente, nous versons une indemnité calculée sur la base des degrés d'invalidité renseignés dans le Barème officiel belge des invalidités. Vous percevrez 5 000 EUR par tranche entamée de 5 degrés (ainsi 50 000 EUR pour un degré d'invalidité de 50% et 55 000 EUR pour un degré d'invalidité de 51%). L'invalidité inférieure à 6% n'est pas indemnisée. L'invalidité permanente d'au moins 67% est assimilée à une invalidité totale ; l'indemnité est dans ce cas de 100 000 EUR. Le degré d'invalidité est fixé à la stabilisation des lésions, mais au plus tard trois ans après la date de l'accident. Nous ne déduisons une invalidité préexistante que si elle se rapporte à la même partie du corps ou à la même fonction corporelle que celle affectée par l'accident assuré.
+- Optionnelle : oui · Portée : Belgique ou à l'étranger · Limite : 5 000 EUR par tranche entamée de 5 degrés ; 100 000 EUR pour une invalidité permanente d'au moins 67% (assimilée à une invalidité totale) · Franchise : L'invalidité inférieure à 6% n'est pas indemnisée
+  - Condition : Si vous êtes âgé de 75 ans ou plus le jour de l'accident, l'indemnité est diminuée de moitié
+  - Condition : Les voyages de plus de quatre mois ne sont pas assurés
+
+### Assurance accidents en voyage - Indemnité en cas de décès - p. 11
+En cas de décès dans les trois ans qui suivent l'accident, nous payons une indemnité de 10 000 EUR au partenaire cohabitant ou, en l'absence de partenaire cohabitant, à l'ensemble des héritiers légaux. Nous payons aussi les frais funéraires réels jusqu'à 10 000 EUR à la personne qui les a réellement exposés. L'indemnité accordée en cas de décès ne peut pas être cumulée avec l'indemnité pour invalidité permanente.
+- Optionnelle : oui · Portée : Belgique ou à l'étranger · Limite : Indemnité de décès de 10 000 EUR ; frais funéraires réels jusqu'à 10 000 EUR
+  - Condition : Le décès doit survenir dans les trois ans qui suivent l'accident
+  - Condition : Si vous êtes âgé de 75 ans ou plus le jour de l'accident, l'indemnité est diminuée de moitié
+  - Condition : L'indemnité de décès ne peut pas être cumulée avec l'indemnité pour invalidité permanente
+
+### Assurance accidents en voyage - Protection supplémentaire à l'étranger (usager faible de la route / conducteur) - p. 11
+Nous accordons une protection supplémentaire si vous êtes, à l'étranger, victime en votre qualité d'usager faible de la route (piétons, cyclistes, passagers des véhicules automoteurs) d'un accident de la circulation dans lequel un véhicule automoteur est impliqué. Nous complétons alors, en cas de lésions permanentes ou de décès, l'indemnité accordée en vertu de la législation du pays, jusqu'à concurrence du montant en usage en Belgique, déterminé sur la base des tableaux indicatifs également utilisés par les tribunaux belges (aide de tiers, incapacité personnelle, ménagère et économique permanente, préjudice esthétique, perte de revenus occasionnée par le décès). En dehors des situations où vous êtes usager faible de la route, vous avez également droit à cette protection en cas d'accident dans lequel vous êtes impliqué en votre qualité de conducteur du véhicule automoteur, sans pour autant que votre responsabilité soit engagée.
+- Optionnelle : oui · Portée : À l'étranger · Limite : La protection supplémentaire est accordée jusqu'à 250 000 EUR par personne assurée
+
+### Assurance litiges - Litiges avec des organisateurs de voyages, des bailleurs, des réparateurs ou autres prestataires de services - p. 13
+Notre protection juridique défend vos droits et vos intérêts, à condition que le litige découle de l'un des contrats visés (contrats de voyage, contrats de location, contrats de dépôt, louage d'ouvrage) et que l'enjeu s'élève à 250 EUR au moins. Pour le louage d'ouvrage, les litiges sont assurés pour autant que l'ouvrage à exécuter n'ait pas été prévu et qu'il porte sur un objet, un véhicule ou une embarcation qui vous accompagne dans votre voyage ou à bord duquel vous accomplissez le voyage.
+- Optionnelle : oui · Portée : Les contrats doivent avoir été conclus dans un pays de l'Union européenne ou de l'Europe géographique ; en dehors, intervention uniquement lorsque la partie adverse peut être citée à comparaître devant un tribunal belge · Limite : Frais assurés jusqu'à 50 000 euros par sinistre, pour l'ensemble des assurés (les frais de gestion propres ne font pas partie de ce décompte)
+  - Sous-limite : Services d'interprétation, jusqu'à 2 500 EUR
+  - Sous-limite : Frais de voyage et de séjour indispensables : frais de séjour pendant 7 jours au plus, jusqu'à concurrence de 75 EUR par personne et par jour
+  - Sous-limite : Avance de la caution requise pour votre libération : jusqu'à 35 000 EUR par sinistre et pour l'ensemble des assurés (à rembourser dans l'année ; si la caution est levée, à rembourser dans les 30 jours)
+  - Condition : L'enjeu doit s'élever à 250 EUR au moins
+  - Condition : Nous ne payons ni amendes, ni arrangements amiables, ni dommages et intérêts
+  - Condition : Les voyages de plus de quatre mois ne sont pas assurés
+
+### Assurance litiges - Problèmes avec la police ou les autorités à l'étranger - p. 14
+Nous couvrons les poursuites pénales (si vous êtes détenu ou soupçonné d'un délit à l'étranger, nous faisons en sorte que vous disposiez d'une assistance juridique, mandatons un avocat, avertissons l'ambassade, louons les services d'un interprète, et avançons la caution si une libération sous caution est possible) et les aspects administratifs (problèmes avec les autorités étrangères au sujet des documents de voyage obligatoires : papiers d'identité, visa, permis de conduire). Si une législation étrangère vous accuse officiellement d'un délit qui, en Belgique, serait considéré comme intentionnel (vandalisme, bagarre...), nous mettrons fin à notre intervention, mais vous rembourserons les honoraires et frais assurés si vous êtes finalement définitivement acquitté. Nous n'intervenons pas pour les délits considérés par la loi belge comme des crimes en principe passibles de la Cour d'assises.
+- Optionnelle : oui · Portée : Les problèmes avec la police et les autorités sont couverts partout dans le monde
+
+### Assurance litiges - Assistance par téléphone - p. 16
+Vous êtes en voyage à l'étranger ; un des événements évoqués se produit et vous ne savez que faire ou souhaitez connaître vos droits. KBC-Assistance est à votre disposition 24 heures sur 24, au numéro de téléphone 0032 16 24 24 24.
+- Optionnelle : oui · Portée : Étranger
+
+## Exclusions
+
+| Exclusion | Description | S'applique à | Page |
+|---|---|---|---|
+| Voyages débutés avant la souscription / assistance non demandée au moment de l'événement | Nous n'intervenons pas pour les voyages qui ont débuté avant la souscription de l'assurance ; lorsque l'assistance n'a pas été demandée au moment même de l'événement ou n'a pas été octroyée par nous ou avec notre accord. | Assurance assistance personnes | p. 4 |
+| Complications de grossesse et frais d'accouchement | Nous n'intervenons pas en cas de complications de la grossesse après le sixième mois, pas plus que pour les frais d'accouchement. | Assurance assistance personnes | p. 4 |
+| Maladie existante sans suivi du traitement / traitements planifiés à l'étranger | Nous n'intervenons pas pour les complications ou aggravations d'une maladie existante, si vous n'avez pas suivi le traitement prescrit ; ni pour les complications de traitements médicaux planifiés à l'étranger. | Assurance assistance personnes | p. 4 |
+| Actes intentionnels (assistance) | Nous n'intervenons pas pour les événements imputables à des actes intentionnels. L'exclusion n'est toutefois pas appliquée lorsque l'assuré est âgé de moins de 16 ans et lorsque la victime ou l'ayant-droit n'est pas lui-même l'auteur ou le coauteur de l'acte intentionnel. | Assurance assistance personnes | p. 4 |
+| Activités de plein air extrêmes, navigation aérienne, sport rémunéré, courses de vitesse (assistance) | Nous n'intervenons pas pour les cas et événements résultant : de la participation à des activités de plein air extrêmes (activités de plein air dont le caractère extrême ou le degré de difficulté les rend potentiellement mortelles) ; de l'utilisation d'appareils de navigation aérienne, autrement que comme passager ; de la pratique rémunérée ou lucrative d'un sport, entraînements compris ; de votre participation à des courses de vitesse ou d'adresse avec des voitures ou des embarcations motorisées (les circuits purement touristiques et les circuits d'orientation ne tombent pas sous cette exclusion). | Assurance assistance personnes | p. 4 |
+| Guerre, émeutes, nucléaire, tremblements de terre (assistance) | Nous n'intervenons pas pour les cas et événements résultant : des faits de guerre et des émeutes ; des réactions nucléaires, de la radioactivité et des radiations ionisantes ; des conséquences directes en Belgique de tremblements de terre et d'éruptions volcaniques. | Assurance assistance personnes | p. 4 |
+| Limitation aux frais supplémentaires imprévisibles (assistance) | Nos prestations financières se limitent toujours aux frais supplémentaires imprévisibles, c.-à-d. aux frais que vous n'auriez pas eu à débourser si l'événement pour lequel l'assistance a été sollicitée ne s'était pas produit. | Assurance assistance personnes | p. 4 |
+| Force majeure dans l'exécution de l'assistance | Nous ne pouvons être tenus pour responsables des retards, lacunes ou empêchements dans l'exécution des missions d'assistance, lorsque leur déroulement normal est perturbé par des faits de guerre, grève, émeute, terrorisme, sabotage, radioactivité, radiations ionisantes, catastrophes naturelles ou autres situations extrêmes rendant l'assistance pratiquement impossible, comme par exemple dans des régions inaccessibles. | Assurance assistance personnes | p. 5 |
+| Événements prévisibles connus au moment de la réservation (annulation) | Nous n'intervenons pas pour les événements dont vous aviez connaissance au moment de la réservation du voyage ou de la souscription de la présente assurance, et qui étaient à ce point prévisibles que l'annulation ne peut pas être considérée comme une surprise. | Assurance annulation | p. 7 |
+| Conditions atmosphériques sur le lieu de destination (annulation) | Nous n'intervenons pas pour les conditions atmosphériques sur le lieu de votre destination, à moins qu'elles ne constituent un cas de force majeure dans la mesure où elles ont gravement endommagé les infrastructures sur place. | Assurance annulation | p. 7 |
+| Aggravation d'une maladie existante connue (annulation) | Nous n'intervenons pas pour les complications ou l'aggravation d'une maladie existante, pouvant être considérées comme une évolution normale de l'affection et dont vous aviez connaissance au moment où le voyage a été réservé. | Assurance annulation | p. 8 |
+| Maladie nerveuse, dépression, maladie mentale (annulation) | Nous n'intervenons pas pour une maladie nerveuse, une dépression ou toute autre maladie mentale, à moins que la personne n'ait de ce fait été admise dans une institution ou hospitalisée. | Assurance annulation | p. 8 |
+| Épidémies (annulation) | Nous n'intervenons pas pour les épidémies. | Assurance annulation | p. 8 |
+| Faits intentionnels, insolvabilité, alcool/médicaments/stupéfiants (annulation) | Nous n'intervenons pas pour les événements imputables à des faits intentionnellement commis par vous ou à votre insolvabilité ; à une consommation abusive de boissons alcoolisées, de médicaments ou de stupéfiants, non prescrits par un médecin. | Assurance annulation | p. 8 |
+| Conflits du travail, attentats, guerre, émeutes, terrorisme, nucléaire (annulation) | Nous n'intervenons pas pour les événements imputables à des conflits du travail ou à des attentats, à la guerre (civile) ou à des faits de même nature, à des émeutes ou à des actes de terrorisme ; à des réactions nucléaires, à la radioactivité ou à des radiations ionisantes. | Assurance annulation | p. 8 |
+| Voyages débutés avant la souscription (bagages) | La présente assurance ne couvre pas les voyages qui ont débuté avant la souscription de l'assurance. | Assurance bagages | p. 10 |
+| Oubli, escroquerie, abus de confiance, disparition non attribuable à un vol (bagages) | La présente assurance ne couvre pas les dommages dus à un oubli, une escroquerie ou un abus de confiance et, d'une manière générale, la disparition de biens qui ne peut être attribuée à un vol. | Assurance bagages | p. 10 |
+| Dommages dus à l'utilisation, au nettoyage, au traitement ou à la réparation (bagages) | La présente assurance ne couvre pas les dommages au bien même, dus au seul fait de son utilisation ; ni les dommages au bien du fait de son nettoyage, de son traitement ou de sa réparation. | Assurance bagages | p. 10 |
+| Dommages couverts par garantie ou contrat d'entretien (bagages) | La présente assurance ne couvre pas les dommages couverts par la garantie ou par un contrat d'entretien. | Assurance bagages | p. 10 |
+| Corrosion, vétusté, altération, décoloration, pollution, dommages graduels (bagages) | La présente assurance ne couvre pas les dommages résultant de la corrosion, de la vétusté, de l'altération, de la décoloration ou de la pollution et les autres dommages apparaissant graduellement, s'ils résultent de l'exposition à des facteurs progressifs. | Assurance bagages | p. 10 |
+| Rayures, écaillements, coups ou taches (bagages) | La présente assurance ne couvre pas les dommages consistant en des rayures, écaillements, coups ou taches, sauf si la fonction du bien est perdue du fait de cette détérioration. | Assurance bagages | p. 10 |
+| Panne, erreur de construction, vices propres (bagages) | La présente assurance ne couvre pas les dommages consistant en une panne, une erreur de construction ou autres vices propres. | Assurance bagages | p. 10 |
+| Grève ou action d'un bagagiste antérieure à la souscription (bagages) | La présente assurance ne couvre pas les dommages résultant d'une grève ou d'une autre action menée par un bagagiste, si celle-ci a débuté avant la souscription de l'assurance. | Assurance bagages | p. 10 |
+| Dommages indirects (bagages) | La présente assurance ne couvre pas les dommages indirects, tels que la perte de bénéfice et de jouissance, la perte de rendement et la dépréciation après réparation ou dus au fait qu'un ensemble, une série ou une collection n'est plus complet. | Assurance bagages | p. 10 |
+| Dommages intentionnels, navigation aérienne, sport rémunéré, conflits/guerre/terrorisme, nucléaire (bagages) | La présente assurance ne couvre pas les dommages : intentionnellement commis par vous ; dus à l'utilisation d'appareils de navigation aérienne, autrement que comme passager ; résultant de la pratique rémunérée ou lucrative d'un sport, entraînements compris ; dus à des conflits du travail ou à des attentats, à la guerre (civile) ou à des faits de même nature, à des émeutes ou à des actes de terrorisme ; imputables aux réactions nucléaires, à la radioactivité ou aux radiations ionisantes. | Assurance bagages | p. 10 |
+| Voyages débutés avant la souscription (accidents) | Vous ne pouvez pas faire appel à cette assurance pour les voyages qui ont débuté avant la souscription de l'assurance. | Assurance accidents en voyage | p. 12 |
+| Aggravations imputables à affections préexistantes (accidents) | Vous ne pouvez pas faire appel à cette assurance pour les aggravations ou complications des conséquences d'un accident imputables aux affections suivantes : lésions dégénératives du système locomoteur, diabète ou affections du système vasculaire ; cette exclusion n'est pas appliquée si la victime apporte la preuve que l'affection n'avait pas encore été diagnostiquée. | Assurance accidents en voyage | p. 12 |
+| Activités de plein air extrêmes, courses, sport rémunéré (accidents) | Vous ne pouvez pas faire appel à cette assurance pour les accidents survenus : durant la participation à des activités de plein air extrêmes (activités de plein air dont le caractère extrême ou le degré de difficulté les rend potentiellement mortelles) ; alors que l'assuré participe à des courses de vitesse, de régularité ou d'adresse avec des voitures ou des embarcations motorisées ou à des entraînements à cet effet (les circuits purement touristiques et les circuits d'orientation ne tombent pas sous cette exclusion) ; pendant la pratique rémunérée ou lucrative d'un sport, entraînements compris. | Assurance accidents en voyage | p. 12 |
+| Navigation aérienne autrement que comme passager (accidents) | Vous ne pouvez pas faire appel à cette assurance pour les accidents occasionnés par l'utilisation d'appareils de navigation aérienne, autrement que comme passager. | Assurance accidents en voyage | p. 12 |
+| Suicide et tentative de suicide (accidents) | Vous ne pouvez pas faire appel à cette assurance pour le suicide et les conséquences d'une tentative de suicide ; l'euthanasie légalement pratiquée à la suite d'un accident assuré est considérée comme une mort naturelle. | Assurance accidents en voyage | p. 12 |
+| Accidents intentionnels ou faute lourde (accidents) | Vous ne pouvez pas faire appel à cette assurance pour les accidents causés intentionnellement par la victime ou un ayant-droit et les accidents résultant d'une faute lourde dans leur chef. Sont considérés comme des accidents résultant d'une faute lourde : les accidents survenus lorsque vous aviez qualité de conducteur d'un véhicule ou d'une embarcation et que vous étiez en état d'intoxication alcoolique supérieure à 1,5 pour mille (0,65 mg/l), en état d'ivresse ou dans un état similaire résultant de la consommation de produits autres que des boissons alcoolisées ; les accidents survenus au cours d'actes de violence commis sur des personnes. L'exclusion n'est toutefois pas appliquée lorsque l'assuré est âgé de moins de 16 ans et lorsque la victime ou l'ayant-droit n'est pas lui-même l'auteur ou le coauteur de l'acte. | Assurance accidents en voyage | p. 12 |
+| Guerre (accidents) | Vous ne pouvez pas faire appel à cette assurance pour les accidents en rapport avec la guerre (civile) ou des faits de même nature ; cette exclusion ne s'applique pas aux accidents survenus à l'étranger pendant les quatorze jours qui suivent le début des hostilités, si la Belgique n'y est pas impliquée et si l'assuré est surpris par leur survenance. | Assurance accidents en voyage | p. 12 |
+| Nucléaire et tremblements de terre (accidents) | Vous ne pouvez pas faire appel à cette assurance pour les accidents dus : à des réactions nucléaires, à la radioactivité, à des radiations ionisantes (à l'exception des radiations nécessaires à la suite d'un accident assuré) ; aux conséquences directes en Belgique de tremblements de terre et d'éruptions volcaniques. | Assurance accidents en voyage | p. 12 |
+| Voyages débutés avant la souscription (litiges) | Nous n'accordons pas notre protection juridique pour les voyages qui ont débuté avant la souscription de l'assurance. | Assurance litiges dans le cadre de voyages | p. 15 |
+| Litige entre personnes assurées (litiges) | Nous n'accordons pas notre protection juridique en cas de litige entre personnes assurées elles-mêmes. | Assurance litiges dans le cadre de voyages | p. 15 |
+| Litiges liés à la vie professionnelle, véhicules/biens immeubles possédés, navigation aérienne/ferroviaire, timesharing, voyages médicaux (litiges) | Nous n'accordons pas notre protection juridique pour les litiges se rapportant : à votre vie professionnelle en général (sauf si vous avez souscrit l'option Voyages d'affaires, auquel cas nous accordons la couverture pour les litiges précités survenus dans le cadre de voyages d'affaires) ; aux véhicules automoteurs, embarcations et biens immeubles dont vous êtes propriétaire ou détenteur régulier ; à la conduite d'appareils de navigation aérienne et de véhicules ferroviaires ; au temps partagé ("timesharing") ; aux voyages médicaux et traitements médicaux prévus à l'étranger, pas plus qu'aux complications et traitements ultérieurs en Belgique. | Assurance litiges dans le cadre de voyages | p. 15 |
+| Législation douanière, contrefaçon, œuvres d'art volées, import/export (litiges) | Nous n'accordons pas notre protection juridique pour la législation douanière, la contrefaçon, le commerce d'oeuvres d'art et d'antiquités volées, les dispositions en matière d'importation et d'exportation. | Assurance litiges dans le cadre de voyages | p. 15 |
+| Faits intentionnels, insolvabilité, conflits/guerre/terrorisme, nucléaire (litiges) | Nous n'accordons pas notre protection juridique pour les événements se rapportant : à des faits intentionnellement commis par vous ; à votre insolvabilité ; à des conflits du travail ou à des attentats, à la guerre (civile), à des faits de même nature ou à des émeutes ; à des réactions nucléaires, à la radioactivité ou à des radiations ionisantes, sauf si vous y avez été exposé par suite d'un traitement médical. | Assurance litiges dans le cadre de voyages | p. 15 |
+| Délits passibles de la Cour d'assises (litiges pénaux) | Nous n'intervenons pas pour les délits considérés par la loi belge comme des crimes en principe passibles de la Cour d'assises. En outre, si une législation étrangère vous accuse officiellement d'un délit qui, en Belgique, serait considéré comme intentionnel (vandalisme, bagarre...), nous mettrons fin à notre intervention (avec remboursement des honoraires et frais assurés en cas d'acquittement définitif). | Assurance litiges dans le cadre de voyages | p. 14 |
+| Exclusion bombe nucléaire et radioactivité en matière de terrorisme | Les dommages (en ce compris ceux qui sont la conséquence d'actes terroristes) causés par des armes ou des engins destinés à exploser à la suite d'une modification de la structure du noyau atomique ('bombe nucléaire') sont exclus. En outre, dans les situations où la couverture contre le terrorisme n'est pas obligatoire, les dommages dus à la radioactivité ou aux radiations ionisantes sont exclus. | all | p. 18 |
+
+## Franchises
+
+- Standard : Assurance bagages : franchise de 100 EUR par sinistre. Assurance assistance à l'étranger : quote-part de 100 EUR sur les frais médicaux/recherche/sauvetage.
+- Variable : Assurance annulation garantie Plus : quote-part de 25% dans les frais assurés. Assurance accidents : invalidité inférieure à 6% non indemnisée.
+- Par garantie : Bagages : franchise 100 EUR par sinistre (ne s'applique pas dans le contexte d'une aide apportée à des personnes en danger, ni pour le remplacement des cartes de paiement/crédit, abonnements de ski, visas, passeports et autres documents de voyage). Assistance étranger frais médicaux : quote-part 100 EUR. Annulation garantie Plus : quote-part 25%.
+
+## Délais d'attente
+
+- Si le voyage a été réservé avant la date de début de l'assurance annulation, le départ doit se situer au plus tôt 1 mois après la date de début de cette assurance (sauf en cas de reprise d'une assurance annulation souscrite auprès d'une autre compagnie d'assurances). p. 6
+
+## Obligations de l'assuré
+
+- Prendre toutes les mesures raisonnables visant à prévenir et à limiter les conséquences du sinistre (assurance annulation). p. 8
+- Avertir aussi rapidement qu'il est raisonnablement possible votre agent de voyages, votre organisateur de voyage ou la personne avec qui vous avez conclu le contrat de voyage de la survenance de l'événement assuré (assurance annulation). (aussi rapidement qu'il est raisonnablement possible · Le non-respect de cette obligation nous autorise à diminuer partiellement ou totalement les prestations assurées à concurrence du préjudice que votre négligence nous aura fait subir.) p. 8
+- Prendre contact, 48 heures au plus après en avoir pris connaissance, avec votre agent de voyages, votre organisateur de voyage ou la personne avec qui vous avez conclu le contrat de voyage, si un événement assuré survient (annulation). En cas de retard, l'indemnité sera calculée comme si vous aviez procédé à l'annulation dans les délais. (48 heures au plus après en avoir pris connaissance) p. 8
+- Assurance bagages - Mesures de prévention : ne pas laisser à vue dans les véhicules d'objets tentants pour des voleurs (appareils mobiles, lecteurs DVD portables, appareils de photo). Prendre contact avec Card Stop (tél. +32 78 170 170) pour faire bloquer votre carte bancaire volée ou perdue. p. 10
+- Assurance bagages - Déclaration de vol à la police : si vous êtes victime d'un vol, vous êtes tenu de le déclarer immédiatement à la police ; si les faits se sont produits à l'étranger, vous devez également les déclarer à la police dès votre retour en Belgique. (immédiatement (à l'étranger, également dès votre retour en Belgique) · Si la déclaration est tardive, nous ne vous en tiendrons pas rigueur pour autant que vous l'ayez faite aussi rapidement que raisonnablement possible. En l'absence de déclaration, nous n'intervenons pas, sauf si vous pouvez apporter la preuve que vous vous trouviez dans l'impossibilité de faire la déclaration.) p. 10
+- Assurance bagages - Détérioration ou perte par l'entreprise de transport : en cas de détérioration ou de perte de vos bagages par une entreprise de transport, soumettez-vous à toutes les formalités prévues dans le contrat de transport que l'entreprise vous demande d'accomplir. p. 10
+- Dispositions communes - À faire en cas de sinistre : déclarer le sinistre dans les 10 jours ; fournir tous les renseignements demandés à propos du sinistre et apporter toute la collaboration nécessaire, pour que les prestations assurées puissent être rapidement accordées et que nous conservions tous nos droits afin de pouvoir procéder au recouvrement de nos débours auprès de la personne responsable. (dans les 10 jours) p. 17
+- Intervention de la mutuelle : nous intervenons uniquement après épuisement des prestations d'assistance et de remboursement des frais médicaux consenties par la mutuelle ; vous devez remplir toutes les formalités permettant de faire appel aux prestations de la mutuelle et nous communiquer le nom de votre mutuelle. Nous ne remboursons pas la partie des frais donnant lieu à intervention de la mutualité ou d'un autre organisme, que vous perceviez ou non effectivement ce montant. p. 4
+
+## Procédure de sinistre
+
+1. En cas de problème en voyage, faire appel à KBC-Assistance, disponible 24 heures sur 24 au numéro (+32) 16 24 24 24. p. 1
+2. Assurance annulation - Prendre contact avec votre agent de voyages, votre organisateur de voyage ou la personne avec qui vous avez conclu le contrat de voyage lorsqu'un événement assuré survient. (délai : 48 heures au plus après en avoir pris connaissance) p. 8
+3. Assurance annulation - Déclaration de sinistre à la compagnie : tout événement pour lequel l'assurance est sollicitée doit être déclaré. La déclaration doit contenir toutes les données utiles sur les circonstances du sinistre ainsi que sur la nature et l'importance du préjudice, et être étayée le cas échéant par un certificat médical. (délai : dans les 10 jours) p. 8
+4. Assurance bagages - Déclarer immédiatement le vol à la police (et à l'étranger, également dès le retour en Belgique). Contacter Card Stop (+32 78 170 170) pour bloquer une carte bancaire volée ou perdue. (délai : immédiatement) p. 10
+5. Dispositions communes - Déclarer le sinistre et fournir tous les renseignements demandés, apporter toute la collaboration nécessaire. (délai : dans les 10 jours) p. 17
+
+## Durée & résiliation
+
+- Durée : L'assurance prend effet à la date précisée dans les conditions particulières, pour autant que la police ait été signée et la première prime acquittée. À moins qu'une des parties ne s'y oppose, l'assurance est reconduite tacitement à l'échéance pour des périodes successives d'un an. L'assurance prend effet et prend fin à zéro heure. (Voir l'article 85 de la Loi relative aux assurances.)
+- Reconduction tacite : oui
+- Préavis : Vous pouvez résilier la police pour son échéance annuelle au moins deux mois avant cette date. De notre côté, nous pouvons le faire jusqu'à trois mois avant l'échéance. À partir de la deuxième année d'assurance, le consommateur peut résilier à tout moment le contrat, avec effet à l'expiration d'un délai de 2 mois à compter du lendemain de la présentation de l'envoi recommandé, de la signification ou de la date de l'accusé de réception.
+- Modalité : La résiliation est effectuée au moyen d'un envoi recommandé, par exploit d'huissier ou par remise de la lettre de résiliation contre accusé de réception. La résiliation prend effet à l'expiration d'un délai d'un mois à compter du lendemain du dépôt de l'envoi recommandé, de la signification ou de la date de l'accusé de réception. En cas de résiliation après un sinistre, le délai est porté à 3 mois.
+- Droit spécial : L'assurance peut être résiliée anticipativement après un sinistre, mais au plus tard un mois après l'exécution de la prestation assurée ou notre refus d'intervenir. Autres possibilités de résiliation prévues par la loi : décès (art. 100), faillite (art. 87), modification du risque (art. 81), modification de la législation alourdissant considérablement les prestations. L'assurance prend fin de plein droit aussitôt que le preneur d'assurance n'a plus sa résidence habituelle ou son siège social en Belgique. Vente à distance (site web ou téléphone) : droit de résilier dans les 14 jours civils, gratuitement et sans motivation ; notre résiliation prend effet 8 jours après notification, avec remboursement intégral de la prime dans les 30 jours civils. Augmentation de tarif : droit de résilier dans les 30 jours suivant la notification (ou dans les trois mois si notification moins de quatre mois avant l'échéance).
+
+## Prescription
+
+Le délai de prescription légal est de trois ans. Trois ans après la survenance du sinistre, vous ne pourrez plus faire appel à cette assurance. Le délai commence à courir le jour de l'événement ouvrant le droit aux prestations assurées. Si vous n'avez connaissance de l'événement que plus tard, le délai ne commence à courir qu'à cette date, étant entendu qu'il prendra de toute façon fin cinq ans après l'événement.
+
+## Conditions particulières
+
+- Dans la formule VIP, les montants assurés et les limites d'indemnisation renseignés dans les conditions générales sont multipliés par deux pour toutes les assurances souscrites. La franchise n'est pas doublée. Mentionnée dans les conditions particulières le cas échéant. p. 1
+- L'Assurance assistance personnes s'applique aux voyages privés et d'affaires. L'option étend le champ d'application des autres assurances souscrites aux voyages d'affaires. Ne peut être souscrite que pour les personnes assurées ayant leur activité habituelle en Belgique. Mentionnée dans les conditions particulières. p. 1
+- Votre dossier de protection juridique est traité par Defendo (équipe spécialisée) : traitement confidentiel du dossier ; en cas de conflit d'intérêts avec nous, avertissement et libre choix de l'avocat à nos frais ; droit de consulter un avocat de votre choix en cas de désaccord sur les probabilités de succès ou la ligne de conduite ; libre choix de l'avocat ou de l'expert en cas de procédure judiciaire. p. 13
+- Vous avez le libre choix de l'avocat et de l'expert chaque fois qu'une procédure judiciaire ou administrative s'impose, et chaque fois que surgit un conflit d'intérêts avec nous. Si vous retirez le dossier d'un avocat désigné pour le confier à un autre, nous payons les honoraires du second pour autant que vous ayez prouvé au préalable des motifs fondés de changement. p. 16
+- En cas de désaccord sur la ligne de conduite, vous avez le droit de consulter un avocat de votre choix. Si l'avocat confirme votre thèse, nous accordons la couverture et remboursons les honoraires et frais de la consultation. Si l'avocat confirme notre point de vue, nous remboursons la moitié des honoraires et frais de la consultation. Si, contre l'avis de cet avocat, vous entamez à vos frais une procédure et obtenez un résultat meilleur que celui prévu, nous accordons à nouveau la couverture et remboursons tous les honoraires et frais assurés, y compris ceux de la consultation. p. 15
+- Vous avez le droit de vous faire assister, à vos frais, par le médecin de votre choix. En cas de décès, nous pouvons exiger une autopsie ou réclamer au médecin du défunt une déclaration sur la cause du décès. En cas de divergence entre médecins, un troisième médecin est désigné d'un commun accord et statue (honoraires supportés par moitié) ; les parties peuvent aussi laisser la désignation et/ou le règlement du litige à l'appréciation du tribunal compétent. p. 12
+- Nous nous subrogeons dans les droits et actions de l'assuré ou du bénéficiaire pour récupérer auprès du tiers responsable les indemnités et frais déboursés, sans que ce droit de recours puisse vous porter préjudice. Vous-même, les membres de votre ménage et les autres assurés n'êtes pas considérés comme tiers ; aucun remboursement ne vous sera réclamé sauf en cas de malveillance ou lorsque les dommages peuvent être reportés sur une assurance de responsabilité. p. 19
+- Si la couverture est accordée en cas de terrorisme, les dommages causés par le terrorisme sont couverts conformément à la loi du 3 mai 2024 relative à l'indemnisation des victimes d'un acte de terrorisme. Nous sommes membres de l'ASBL TRIP. L'exécution des engagements de tous les assureurs membres est limitée à un plafond absolu par année civile ; la loi fixe aussi un plafond relatif provisoire par acte de terrorisme. Le Comité de règlement des sinistres fixe les pourcentages d'indemnisation en cas de dépassement potentiel des plafonds. p. 18
+- Sauf stipulation contraire, le transport des personnes ayant droit aux prestations d'assistance s'effectue en avion en classe économique ou en train en première classe. Si nous nous sommes occupés de votre transport, vous devez nous céder les titres de transport non utilisés. p. 4
+- La présente police est régie par le droit belge et en particulier par la loi du 4 avril 2014 relative aux assurances. p. 19
+
+## Lacunes d'extraction
+
+- {'description': 'Aucune date d\'édition explicite ("édition MM/AAAA") n\'apparaît dans le texte fourni. Les codes de référence en pied de page (F0003 ...) contiennent des suffixes numériques (1412, 2005, 2510) qui pourraient correspondre à des mois/années d\'édition des sections, mais cela n\'est pas explicitement indiqué comme date d\'édition ; edition_date laissé null.', 'page': None}
+- {'description': "Les montants assurés, franchises et limites définitifs dépendent des conditions particulières (assurances effectivement souscrites, formule VIP, option Voyages d'affaires), non incluses dans ce document de conditions générales.", 'page': 1}
+- {'description': "Le pied de page des dernières sections mentionne 'CBC-Police pour vos voyages' (pages 17-19) alors que le reste du document mentionne 'KBC-Police pour vos voyages' ; il s'agit vraisemblablement de la même police diffusée sous les marques KBC et CBC. Le nom de produit retenu est 'KBC-Police pour vos voyages'.", 'page': 17}
+- {'description': "La section 'Quand le litige doit-il survenir pour être assuré?' (page 15) et le paragraphe sur le délai de prescription (page 15) apparaissent dans un ordre de mise en page fragmenté dans le texte extrait (le texte des articles 5, 6 et 7 est entrelacé), mais le contenu a été rattaché aux bons intitulés.", 'page': 15}
+
+## Source & fidélité
+
+- Source : [https://multimediafiles.kbcgroup.eu/ng/PUBLISHED/KBC/PDF/VERZEKERINGEN/Conditions-generales-Police-pour-vos-voyages.pdf](https://multimediafiles.kbcgroup.eu/ng/PUBLISHED/KBC/PDF/VERZEKERINGEN/Conditions-generales-Police-pour-vos-voyages.pdf) - téléchargé le 2026-07-05 - 19 pages
+- Extraction : claude-code-subagent:scale · prompt v1.1
+- ⚠️ Ceci n'est pas le document officiel de l'assureur et peut contenir des erreurs d'extraction. Information, non un conseil - vérifiez toujours par rapport au document source.

@@ -1,0 +1,234 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "be",
+  "insurer_slug": "touring",
+  "insurer_name": "Touring",
+  "branch": "voyage",
+  "document_type": "ipid",
+  "language": "fr",
+  "source_url": "https://www.touring.be/fr/remote-documents/ReferenceDocument-205/FICHE_IPID.0079-8426300F-01042026.pdf",
+  "product_name": "Touring No Stop",
+  "reference": "0079-8426332F-01042026",
+  "edition_date": "01042026",
+  "target_audience": null,
+  "branch_code": "0079",
+  "product_family": "Touring No Stop",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_pages": 2,
+  "source_pdf": "assurance-annulation-voyage-no-stop-relax-ca82a089.pdf",
+  "source_sha256": "e7b82557ad532b748dcaf260bc8b1f9ec0334ba53efcbeb93299904270abde09",
+  "fetched_at": "2026-07-05",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Touring No Stop est un contrat d'assurance annuel qui permet à l'assuré d'obtenir une indemnité lorsqu'il ne peut pas participer à un voyage qu'il a acheté. Cette assurance annulation couvre la partie qui n'est pas remboursée à l'assuré ou les frais supplémentaires qu'il doit faire pour modifier son voyage avant le départ. Elle couvre l'ensemble des voyages prévus dans l'année et existe en formule Individuelle ou en formule Famille, avec le choix entre No Stop Relax et No Stop Full. Les couvertures Compensation de voyage et Bagages sont incluses d'office dans la garantie de base.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Annulation et Compensation de voyage",
+      "description": "Le remboursement des frais contractuellement dus par l'assuré en cas de modification ou d'annulation du contrat de voyage en raison d'un événement assuré, et la compensation en cas d'interruption du voyage avant le terme prévu en raison d'un événement assuré. Les événements assurés sont entre autres : décès, maladie, accident corporel grave de l'assuré ou d'un membre de sa famille jusqu'au troisième degré ; achat imprévu d'un(e) maison/appartement ou d'un véhicule (voiture ou moto) ; grossesse d'une assurée ; dommages matériels importants au domicile subis par l'assuré ; licenciement de l'assuré, autre que pour faute grave ou pour raisons impérieuses ; conclusion par l'assuré d'un contrat de travail d'une durée minimum de 3 mois ; examen de passage ou de deuxième session d'un étudiant assuré ; suppression par l'employeur des congés d'un assuré déjà accordés ; vol ou immobilisation totale du véhicule privé de l'assuré ; annulation par le compagnon de voyage, obligeant l'assuré à entamer seul le voyage assuré ; manque de neige dans le domaine skiable sur lequel l'assuré a réservé son logement ; refus de délivrance de visa ; vol du visa ou passeport nécessaire au voyage ; déménagement pour raisons professionnelles.",
+      "is_optional": false,
+      "territorial_scope": "Dans le monde entier.",
+      "limits": "No Stop Relax : Les montants assurables sont au maximum de 1.500 EUR par personne assurée et plafonnés à 12.500 EUR par voyage. No Stop Full : Les montants assurables sont au maximum de 2.500 EUR par personne assurée et plafonnés à 12.500 EUR par voyage.",
+      "sub_limits": [
+        {
+          "name": "No Stop Relax - plafond par personne",
+          "value": "1.500 EUR par personne assurée"
+        },
+        {
+          "name": "No Stop Relax - plafond par voyage",
+          "value": "12.500 EUR par voyage"
+        },
+        {
+          "name": "No Stop Full - plafond par personne",
+          "value": "2.500 EUR par personne assurée"
+        },
+        {
+          "name": "No Stop Full - plafond par voyage",
+          "value": "12.500 EUR par voyage"
+        }
+      ],
+      "deductible": "No Stop Relax : Une franchise de 50 EUR par assuré.",
+      "conditions": [
+        "Le contrat doit prendre effet au minimum 30 jours avant la date de départ. Néanmoins, si le voyage est réservé moins de 30 jours avant le départ, cette assurance annulation doit alors être souscrite dans les 24 heures qui suivent cette réservation."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Bagages",
+      "description": "Le vol, la destruction ou la perte des bagages de l'assuré pendant l'acheminement par une société de transport aérien.",
+      "is_optional": false,
+      "territorial_scope": "Dans le monde entier, à l'exception du domicile de l'assuré.",
+      "limits": "Le montant assurable est au maximum de 1.500 EUR par assuré.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Intervention en cas de retard, annulation, déclassement ou refus d'embarquement d'un vol (Fly Zen)",
+      "description": "L'avance de l'indemnité due à l'assuré par la compagnie aérienne en cas de retard, annulation, déclassement ou refus d'embarquement d'un vol. Cette couverture n'intervient qu'avec la formule Touring No Stop Full.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Événement connu lors de la souscription",
+      "description": "Tout événement connu lors de la souscription du contrat.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Sinistre hors période d'assurance",
+      "description": "Tout sinistre survenu en dehors de la période d'assurance.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Voyages réservés de particulier à particulier",
+      "description": "Les voyages ou vacances réservés directement de particulier à particulier.",
+      "applies_to": "Annulation et Compensation de voyage",
+      "page": 1
+    },
+    {
+      "name": "Voyages professionnels",
+      "description": "Les voyages professionnels.",
+      "applies_to": "Annulation et Compensation de voyage",
+      "page": 1
+    },
+    {
+      "name": "Pièces de monnaie, billets de banque, chèques",
+      "description": "Les pièces de monnaie, billets de banque, chèques.",
+      "applies_to": "Bagages",
+      "page": 1
+    },
+    {
+      "name": "Ordinateurs, logiciels et accessoires",
+      "description": "Les ordinateurs, logiciels et accessoires.",
+      "applies_to": "Bagages",
+      "page": 1
+    },
+    {
+      "name": "Circonstances extraordinaires (Fly Zen)",
+      "description": "Le cas où des circonstances extraordinaires ont eu lieu qui n'auraient pas pu être évitées même si toutes les mesures raisonnables avaient été prises.",
+      "applies_to": "Intervention en cas de retard, annulation, déclassement ou refus d'embarquement d'un vol (Fly Zen)",
+      "page": 1
+    },
+    {
+      "name": "Frais engagés sans accord préalable de Touring",
+      "description": "Les frais engagés par un assuré sans accord préalable de Touring. (Restriction à la couverture commune à toutes les garanties de Touring No Stop Relax / Full.)",
+      "applies_to": "all",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": "No Stop Relax : Une franchise de 50 EUR par assuré (garanties Annulation et Compensation de voyage).",
+    "variable": null,
+    "per_coverage": "Annulation et Compensation de voyage - No Stop Relax : franchise de 50 EUR par assuré.",
+    "page": 1
+  },
+  "waiting_periods": [
+    {
+      "description": "Le contrat prend effet à la date fixée aux conditions particulières du contrat, à condition que la première prime ait été payée et sous réserve des délais d'attente spécifiques prévus par les conditions générales.",
+      "page": 2
+    }
+  ],
+  "obligations": [
+    {
+      "description": "Lors de la conclusion du contrat, vous devez nous informer de manière complète et exacte sur le risque à assurer.",
+      "timing": "Lors de la conclusion du contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "En cas de modification apportée en cours de contrat (ex : changement de composition de famille), vous devez nous le déclarer.",
+      "timing": "En cours de contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "Vous devez prendre toutes les précautions d'usage pour éviter la survenance d'un sinistre.",
+      "timing": null,
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "Vous devez déclarer un sinistre et ses circonstances dès que possible. Vous devez également prendre toutes les mesures raisonnables pour limiter les conséquences du sinistre.",
+      "timing": "Dès que possible",
+      "sanction": null,
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclarer un sinistre et ses circonstances dès que possible et prendre toutes les mesures raisonnables pour limiter les conséquences du sinistre.",
+      "deadline": "Dès que possible",
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat dure un an.",
+    "tacit_renewal": "Le contrat est prolongé automatiquement chaque année, sauf si vous ou nous résilions le contrat.",
+    "methods": [
+      "La résiliation du contrat doit se faire par envoi recommandé, par exploit d'huissier ou par la remise d'une lettre de résiliation avec accusé de réception."
+    ],
+    "special_rights": null,
+    "effect": "Le contrat prend effet à la date fixée aux conditions particulières du contrat, à condition que la première prime ait été payée et sous réserve des délais d'attente spécifiques prévus par les conditions générales.",
+    "page": 2,
+    "notice_period": "Vous pouvez résilier votre contrat d'assurance au plus tard deux mois avant la date d'échéance annuelle du contrat."
+  },
+  "prescription_period": null,
+  "premium": {
+    "description": "Vous avez l'obligation de payer annuellement la prime et vous recevez pour cela une invitation à payer. Une prime fractionnée est possible moyennant certaines conditions.",
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "description": "Cette assurance couvre l'ensemble des voyages prévus dans l'année et existe en formule Individuelle ou en formule Famille.",
+      "page": 1
+    },
+    {
+      "description": "Vous avez le choix entre la formule No Stop Relax et No Stop Full. Les couvertures Compensation de voyage et Bagages sont incluses d'office dans la garantie de base.",
+      "page": 1
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Touring No Stop est un contrat d’assurance annuel qui permet à l’assuré d’obtenir une indemnité lorsqu’il ne peut pas participer à un voyage qu’il a acheté."
+    },
+    {
+      "quote": "Cette assurance couvre l’ensemble des voyages prévus dans l’année et existe en formule Individuelle ou en formule Famille."
+    },
+    {
+      "quote": "Le remboursement des frais contractuellement dus par l’assuré en cas de modification ou d’annulation du contrat de voyage en raison d’un événement assuré."
+    },
+    {
+      "quote": "Le vol, la destruction ou la perte des bagages de l’assuré pendant l’acheminement par une société de transport aérien."
+    },
+    {
+      "quote": "Tout événement connu lors de la souscription du contrat."
+    },
+    {
+      "quote": "No Stop Relax : Les montants assurables sont au maximum de 1.500 EUR par personne assurée et plafonnés à 12.500 EUR par voyage."
+    },
+    {
+      "quote": "Le contrat dure un an et est prolongé automatiquement chaque année, sauf si vous ou nous résilions le contrat."
+    }
+  ],
+  "gaps": [
+    "Le document est une fiche IPID (aperçu) et n'est pas exhaustif ; l'étendue exacte des garanties et les limites d'intervention sont précisées dans les conditions générales du contrat, non fournies ici.",
+    "Aucune section 'Définitions' n'est présente dans le document ; definitions[] est donc vide.",
+    "Le délai de prescription n'est pas mentionné dans le document.",
+    "Les délais d'attente sont mentionnés comme 'délais d'attente spécifiques prévus par les conditions générales' sans détail ni durée dans ce document.",
+    "L'assureur mentionné dans le document est AG Insurance SA (code 0079), qui commercialise le produit Touring No Stop ; les métadonnées fournies indiquent insurer_name Touring.",
+    "La couverture Fly Zen n'affiche pas de plafond ni de portée territoriale chiffrés dans le document."
+  ]
+}

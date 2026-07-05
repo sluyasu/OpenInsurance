@@ -1,0 +1,214 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "be",
+  "insurer_slug": "ethias",
+  "insurer_name": "Ethias",
+  "branch": "voyage",
+  "document_type": "ipid",
+  "language": "fr",
+  "source_url": "https://www.ethias.be/content/dam/B2C/general/pdf/infofiche/fi-assistance-family-fr.pdf",
+  "product_name": "Assurance Assistance Family (annuelle)",
+  "reference": "1275-013/1",
+  "edition_date": "09/24",
+  "target_audience": null,
+  "branch_code": null,
+  "product_family": "Assistance Family",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_pages": 2,
+  "source_pdf": "assurance-assistance-family-93d04a90.pdf",
+  "source_sha256": "6f36d5972c4ff2bc4fd444a8921da24de7d946823f1af839491508fb38a7e799",
+  "fetched_at": "2026-07-05",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "L'Assurance Assistance Family (annuelle) d'Ethias est un contrat d'assurance assistance par lequel l'assureur s'engage à fournir des services et à prendre en charge des frais (d'hospitalisation, de rapatriement, …) afin de porter aide, appui ou secours dans le cadre d'un voyage en Belgique et à l'étranger, ainsi qu'aux membres du ménage vivant sous le même toit. Le contrat couvre l'assistance aux personnes (rapatriement, retour anticipé, remboursement des frais médicaux liés à une hospitalisation à l'étranger jusqu'à € 500 000). En option, la garantie Home Emergency couvre les interventions d'urgence nécessaires à la sécurisation de l'habitation lors de situations urgentes.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Assistance aux personnes - Rapatriement",
+      "description": "Rapatriement en cas d'accident ou de maladie.",
+      "is_optional": false,
+      "territorial_scope": "La garantie sort ses effets en Belgique en dehors de votre domicile, et dans le monde entier à l'exclusion des pays en état de guerre ou de troubles civils, ainsi que dans ceux où la libre circulation des personnes n'est pas autorisée.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Pas de franchise.",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Assistance aux personnes - Retour anticipé",
+      "description": "Retour anticipé en cas d'hospitalisation ou de décès d'un membre de la famille en Belgique ou en cas de survenance d'un sinistre grave au domicile (tempête, incendie, etc.).",
+      "is_optional": false,
+      "territorial_scope": "La garantie sort ses effets en Belgique en dehors de votre domicile, et dans le monde entier à l'exclusion des pays en état de guerre ou de troubles civils, ainsi que dans ceux où la libre circulation des personnes n'est pas autorisée.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Pas de franchise.",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Assistance aux personnes - Frais médicaux liés à une hospitalisation à l'étranger",
+      "description": "Remboursement jusqu'à € 500 000 des frais médicaux liés à une hospitalisation en cas de maladie ou d'accident survenu à l'étranger.",
+      "is_optional": false,
+      "territorial_scope": "La garantie sort ses effets en Belgique en dehors de votre domicile, et dans le monde entier à l'exclusion des pays en état de guerre ou de troubles civils, ainsi que dans ceux où la libre circulation des personnes n'est pas autorisée.",
+      "limits": "jusqu'à € 500 000",
+      "sub_limits": [
+        {
+          "name": "Frais médicaux ambulatoires (médecin à l'étranger)",
+          "limit": "jusqu'à € 1 250"
+        }
+      ],
+      "deductible": "Pas de franchise.",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Home Emergency (en option)",
+      "description": "Les interventions d'urgence nécessaires à la sécurisation de votre habitation (=adresse de l'assuré) suite à un évènement soudain dans les domaines suivants : plomberie sanitaire, installation électrique, chauffage/chauffe-eau ; canalisations et citernes souterraines ; portes et fenêtres, prévention, toiture, dégâts des eaux, incendie, gardiennage et nids de guêpes. Les frais de déplacement sont sans limite maximale.",
+      "is_optional": true,
+      "territorial_scope": "habitation (=adresse de l'assuré)",
+      "limits": "le plafond d'indemnisation est de € 350 maximum",
+      "sub_limits": [
+        {
+          "name": "Frais de déplacement",
+          "limit": "sans limite maximale"
+        }
+      ],
+      "deductible": "Pas de franchise.",
+      "conditions": [
+        "Home Emergency : délai de carence de 15 jours pour la couverture."
+      ],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Interventions non demandées ou non organisées par l'assureur",
+      "description": "Toutes demandes d'intervention ne nous ayant pas été demandées en cours de voyage ou pas organisées par nous ou sans notre accord.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Faits antérieurs à la prise d'effet du contrat",
+      "description": "Toutes demandes d'intervention pour des faits antérieurs à la prise d'effet du contrat.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Participation à une compétition motorisée",
+      "description": "Toutes demandes d'intervention pour des prestations résultant de la participation de l'assuré en tant que concurrent à toute épreuve de compétition motorisée (course, rallye).",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Frais médicaux exposés en Belgique",
+      "description": "Toutes demandes d'intervention pour des frais médicaux exposés en Belgique.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Séjour à l'étranger au-delà de 90 jours",
+      "description": "Toutes demandes d'intervention survenant au-delà des 90 jours en cas de séjour à l'étranger.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "État d'ivresse ou d'intoxication",
+      "description": "Toutes demandes d'intervention technique ou médicale, alors que l'assuré se trouve en état d'ivresse, d'intoxication alcoolique ou dans un état analogue résultant de l'utilisation de produits autres que des boissons alcoolisées.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Maladies existantes",
+      "description": "Toutes demandes d'intervention liés à des maladies existantes.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Remplacement de pièces défectueuses (Home Emergency)",
+      "description": "Le remplacement de pièces défectueuses dans le cadre de l'Home Emergency.",
+      "applies_to": "Home Emergency (en option)",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": "Pas de franchise.",
+    "variable": null,
+    "per_coverage": null,
+    "page": 1
+  },
+  "waiting_periods": [
+    {
+      "coverage": "Home Emergency (en option)",
+      "period": "délai de carence de 15 jours pour la couverture",
+      "page": 1
+    }
+  ],
+  "obligations": [
+    {
+      "description": "Lors de la conclusion du contrat, vous devez communiquer une information précise et complète sur le risque à assurer chez nous.",
+      "timing": "Lors de la conclusion du contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "Si des modifications surviennent, en cours de contrat, au risque pour lequel vous êtes assuré (entre autres les changements/ajouts/suppression du numéro de plaque, le changement de domicile, …) vous êtes tenu de nous les communiquer.",
+      "timing": "en cours de contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "Vous devez déclarer tout sinistre le plus rapidement possible et convenir avec nous de toutes les mesures qui peuvent engendrer des coûts.",
+      "timing": "le plus rapidement possible",
+      "sanction": null,
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Vous devez déclarer tout sinistre le plus rapidement possible et convenir avec nous de toutes les mesures qui peuvent engendrer des coûts.",
+      "deadline": "le plus rapidement possible",
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "L'Assurance Assistance Family (annuelle) prend cours à la date indiquée dans les conditions particulières du contrat pour autant que la première prime ait été payée. Sauf pour les contrats de type « court terme » dont la durée de moins d'un an est indiquée dans le contrat, le contrat est conclu pour une durée d'un an.",
+    "tacit_renewal": "A la fin de la période d'assurance, le contrat se renouvelle tacitement d'année en année.",
+    "methods": [
+      "La notification de la résiliation doit se faire par envoi recommandé, par exploit d'huissier ou par la remise d'une lettre de résiliation avec accusé de réception."
+    ],
+    "special_rights": null,
+    "page": 2,
+    "notice_period": "Vous pouvez résilier votre contrat d'assurance au plus tard deux mois avant la date de son échéance annuelle. Dès qu'une période de couverture de douze mois s'est écoulée, vous pouvez également résilier votre contrat à tout moment. Dans ce cas, la résiliation prendra effet deux mois après sa notification."
+  },
+  "prescription_period": null,
+  "premium": {
+    "description": "Vous avez l'obligation de payer la prime avant la date d'échéance et vous recevez pour cela une invitation à payer.",
+    "page": 2
+  },
+  "special_conditions": [],
+  "key_quotes": [
+    {
+      "quote": "L’Assurance Assistance Family (annuelle) est un contrat par lequel nous nous engageons à fournir des services et à prendre en charge des frais"
+    },
+    {
+      "quote": "remboursement jusqu’à € 500 000 des frais"
+    },
+    {
+      "quote": "Home Emergency : délai de carence de 15 jours pour"
+    },
+    {
+      "quote": "La garantie sort ses effets en Belgique en dehors de votre domicile, et dans le monde entier à l’exclusion des pays en état de"
+    },
+    {
+      "quote": "Vous pouvez résilier votre contrat d’assurance au plus tard deux mois avant la date de son échéance annuelle."
+    }
+  ],
+  "gaps": [
+    "Le document est une fiche IPID (aperçu) et ne contient aucune section de définitions formelles ; definitions[] est donc vide.",
+    "Aucun délai de prescription n'est mentionné dans le document.",
+    "Le plafond d'indemnisation Home Emergency est indiqué à deux endroits avec des montants différents : € 350 maximum en page 1 (section couvertures) - le montant de € 350 est retenu comme plafond d'indemnisation."
+  ]
+}

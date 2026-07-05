@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openinsurance-wiki/schema/insurer.schema.json",
+  "title": "Insurer source config (sources/<cc>/<slug>.yml)",
+  "description": "Where an insurer's PUBLIC product documents live, so discover.py/download.py can fetch them. Only public general-conditions / IPID / product sheets.",
+  "type": "object",
+  "required": ["insurer", "languages"],
+  "additionalProperties": false,
+  "properties": {
+    "insurer": {
+      "type": "object",
+      "required": ["slug", "name", "website"],
+      "additionalProperties": false,
+      "properties": {
+        "slug": { "type": "string" },
+        "name": { "type": "string" },
+        "website": { "type": "string" },
+        "segment": { "type": "string", "enum": ["particuliers", "professionnels", "both"] },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+    "languages": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "listing_pages": {
+      "type": "array",
+      "description": "Pages that link to PDFs, for discover.py to crawl.",
+      "items": {
+        "type": "object",
+        "required": ["url"],
+        "additionalProperties": false,
+        "properties": {
+          "url": { "type": "string" },
+          "branch": { "type": ["string", "null"], "description": "Branch hint for links found here." },
+          "lang": { "type": ["string", "null"] },
+          "render": { "type": ["string", "null"], "enum": ["httpx", "playwright", null], "description": "Force a fetch strategy; default auto (httpx, playwright fallback)." }
+        }
+      }
+    },
+    "pdfs": {
+      "type": "array",
+      "description": "Direct PDF URLs (bypass discovery). Populated by hand or by discover.py.",
+      "items": {
+        "type": "object",
+        "required": ["url", "branch"],
+        "additionalProperties": false,
+        "properties": {
+          "url": { "type": "string" },
+          "branch": { "type": "string" },
+          "document_type": { "type": "string", "enum": ["conditions_generales", "ipid", "conditions_particulieres", "product_sheet", "other"] },
+          "lang": { "type": ["string", "null"] },
+          "product_name": { "type": ["string", "null"], "description": "Optional known product name." }
+        }
+      }
+    },
+    "selectors": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "description": "Optional CSS selectors for discover.py.",
+      "properties": {
+        "pdf_link": { "type": ["string", "null"] },
+        "accept_cookies": { "type": ["string", "null"] }
+      }
+    }
+  }
+}

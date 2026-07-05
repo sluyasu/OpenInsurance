@@ -1,0 +1,1564 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "be",
+  "insurer_slug": "belfius",
+  "insurer_name": "Belfius Insurance",
+  "branch": "auto",
+  "document_type": "conditions_generales",
+  "language": "fr",
+  "source_url": "https://www.belfius.be/common/FR/multimedia/MMDownloadableFile/GeneralConditions/belfius_car.pdf",
+  "product_name": "Belfius Car",
+  "reference": "0037-2-10-5739-092024",
+  "edition_date": "092024",
+  "target_audience": null,
+  "branch_code": null,
+  "source_pages": 48,
+  "source_pdf": "belfius-car-f023855a.pdf",
+  "source_sha256": "d1538e8510d131c8322cf5a1e29c3de9e131b0f7b89e4bd28c59a3be3f443f13",
+  "fetched_at": "2026-07-05",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Belfius Car est une assurance auto belge dont le contrat est régi par la loi belge et notamment les lois du 4 avril 2014 relative aux assurances et du 21 novembre 1989 relative à l'assurance obligatoire de la responsabilité en matière de véhicules automoteurs. Le contrat comprend l'assurance obligatoire de la Responsabilité Civile automoteur, ainsi que des garanties facultatives à souscrire expressément aux Conditions Particulières : la Protection Juridique (formules Comfort et Prestige), l'assurance du Conducteur, l'assurance du Véhicule (Omnium : Incendie, Vol, Bris de vitres, Forces de la nature et périls connexes, Dégâts matériels si perte totale, Dégâts matériels) et l'assurance Assistance (formules Mobilité Start, Go et Go+). Il inclut aussi des garanties complémentaires (véhicule de remplacement temporaire, remorquage, cautionnement), le système bonus-malus, l'assistance après accident, l'extension 'BOB', la garantie de mobilité et la couverture terrorisme.",
+  "definitions": [
+    {
+      "term": "Nous, l'assureur",
+      "definition": "l'entreprise d'assurances avec laquelle le contrat est conclu ; Belfius Insurance SA, Place Charles Rogier 11 à 1210 Bruxelles, entreprise d'assurances de droit belge agréée sous le numéro 0037.",
+      "page": 5
+    },
+    {
+      "term": "Vous, le preneur d'assurance",
+      "definition": "la personne qui conclut le contrat avec l'assureur.",
+      "page": 5
+    },
+    {
+      "term": "L'assuré",
+      "definition": "toute personne dont la responsabilité est couverte par le contrat.",
+      "page": 5
+    },
+    {
+      "term": "La personne lésée",
+      "definition": "la personne qui a subi un dommage donnant lieu à l'application du contrat ainsi que ses ayants droit.",
+      "page": 5
+    },
+    {
+      "term": "Un véhicule automoteur",
+      "definition": "véhicule destiné à circuler sur le sol et qui peut être actionné par une force mécanique sans être lié à une voie ferrée, indépendamment du type de force motrice et de la vitesse maximale.",
+      "page": 5
+    },
+    {
+      "term": "La remorque",
+      "definition": "tout véhicule équipé pour et destiné à être tiré par un autre véhicule.",
+      "page": 5
+    },
+    {
+      "term": "Le véhicule automoteur désigné",
+      "definition": "a) le véhicule automoteur décrit dans le contrat; tout ce qui lui est attelé est considéré comme en faisant partie; b) la remorque non attelée décrite au contrat.",
+      "page": 5
+    },
+    {
+      "term": "Le véhicule automoteur assuré",
+      "definition": "a) le véhicule automoteur désigné; b) conformément aux conditions et limites mentionnées dans le contrat: le véhicule automoteur de remplacement temporaire; le véhicule automoteur désigné dont la propriété a été transférée et le véhicule automoteur qui remplace ce véhicule automoteur. Tout ce qui est attelé aux véhicules automoteurs précités est considéré comme en faisant partie.",
+      "page": 5
+    },
+    {
+      "term": "Le sinistre",
+      "definition": "tout fait ayant causé un dommage et pouvant donner lieu à l'application du contrat.",
+      "page": 5
+    },
+    {
+      "term": "Le certificat d'assurance",
+      "definition": "le document que l'assureur délivre au preneur d'assurance comme preuve de l'assurance, conformément à la législation en vigueur.",
+      "page": 5
+    },
+    {
+      "term": "Vous, l'assuré (Protection Juridique)",
+      "definition": "en tant que preneur d'assurance; en tant que propriétaire, détenteur ou conducteur autorisé du véhicule assuré, à l'exclusion de toutes personnes auxquelles ce véhicule est confié pour des travaux ou pour la vente; en tant que personne vivant au sein du foyer d'un assuré précité, si vous subissez un dommage à la suite du décès ou de lésions corporelles d'un assuré mentionné en regard des deux premiers points.",
+      "page": 24
+    },
+    {
+      "term": "Vous, l'assuré (Conducteur)",
+      "definition": "en tant que conducteur autorisé du véhicule désigné, à l'exclusion des garagistes ou des personnes, y compris leurs préposés, pratiquant la vente, la réparation, le dépannage ou le contrôle technique de véhicules automoteurs, lorsque le véhicule leur est confié en raison de leurs fonctions.",
+      "page": 29
+    },
+    {
+      "term": "Sinistre (Conducteur)",
+      "definition": "tout événement soudain lié à l'usage du véhicule assuré, dont la cause ou l'une des causes est étrangère à l'organisme de l'assuré et qui entraîne une lésion corporelle ou le décès. Cette notion s'interprète selon la jurisprudence belge en matière d'accidents du travail.",
+      "page": 29
+    },
+    {
+      "term": "Vous, l'assuré (Omnium)",
+      "definition": "a) en tant que preneur d'assurance; b) en tant que propriétaire, détenteur ou conducteur autorisé du véhicule assuré, à l'exclusion du garagiste et de toute personne pratiquant la vente, la réparation, le dépannage ou le contrôle technique lorsque le véhicule lui est confié en raison de ses fonctions.",
+      "page": 31
+    },
+    {
+      "term": "Centrale d'assistance",
+      "definition": "le prestataire chargé par nous d'effectuer les services d'assistance.",
+      "page": 31
+    },
+    {
+      "term": "Véhicule désigné",
+      "definition": "le véhicule automoteur désigné dans les Conditions Particulières.",
+      "page": 31
+    },
+    {
+      "term": "Options",
+      "definition": "tout équipement additionnel du véhicule désigné repris sur la facture du véhicule neuf.",
+      "page": 31
+    },
+    {
+      "term": "Accessoires",
+      "definition": "tout équipement additionnel dont est pourvu le véhicule désigné, ne constituant pas une option, disponible séparément et qui peut être installé ou activé à tout moment sur le véhicule. Peuvent entre autres être des accessoires : les pneus hiver du véhicule avec leurs propres jantes; les sièges-auto pour enfant attachés dans le véhicule; le coffre de toit monté sur le véhicule; le porte-vélos sur attelage attaché au véhicule; le porte-bagages attaché au véhicule; le lettrage appliqué sur le véhicule; l'emballage de voiture appliqué sur le véhicule.",
+      "page": 31
+    },
+    {
+      "term": "Sinistre (Omnium)",
+      "definition": "tout fait ayant causé un dommage et pouvant donner lieu à l'application de la présente assurance.",
+      "page": 31
+    },
+    {
+      "term": "Prix catalogue",
+      "definition": "le prix catalogue d'un véhicule est le prix de vente officiel hors taxes de ce véhicule, en ce compris tout équipement monté d'origine par le constructeur ou par l'importateur. Ce prix de vente officiel est établi par le constructeur ou l'importateur officiel en vue de la vente en Belgique à la date de la première mise en circulation, telle qu'indiquée sur le certificat d'immatriculation.",
+      "page": 31
+    },
+    {
+      "term": "Valeur réelle",
+      "definition": "la valeur du véhicule immédiatement avant le sinistre, fixée par expertise. Cette valeur tient entre autres compte de l'âge du véhicule, son kilométrage et des dommages antérieurs au sinistre.",
+      "page": 31
+    },
+    {
+      "term": "T.M.C.",
+      "definition": "la taxe de mise en circulation.",
+      "page": 31
+    },
+    {
+      "term": "Force de la nature",
+      "definition": "éboulement de rochers, chute de pierres, glissement de terrain, avalanche, pression de la neige, tempête dont le vent a été enregistré à plus de 80 km/h, ouragan, grêle, raz-de-marée, grande marée, inondation, tremblement de terre et éruption volcanique, chute de météorites.",
+      "page": 31
+    },
+    {
+      "term": "Collision en chaîne",
+      "definition": "Une collision de plusieurs véhicules circulant dans le même sens et sur la même voie.",
+      "page": 31
+    },
+    {
+      "term": "Vous, les assurés (Assistance)",
+      "definition": "a) Le conducteur autorisé du véhicule assuré, à l'exclusion des garagistes ou des personnes, y compris leurs préposés, pratiquant la vente, la réparation, le dépannage ou le contrôle technique de véhicules automoteurs, lorsque le véhicule leur est confié en raison de leurs fonctions; b) D'autres personnes domiciliées en Belgique qui voyagent avec ou sans participation aux frais; elles ne sont assurées que pour les prestations prévues à la garantie 'Assistance'. Les auto-stoppeurs sont exclus.",
+      "page": 39
+    },
+    {
+      "term": "Véhicule assuré (Assistance)",
+      "definition": "le véhicule automoteur dont la masse maximale autorisée (MMA) n'excède pas 3,5 tonnes, immatriculé en Belgique et désigné dans les Conditions Particulières, ainsi que la caravane ou la remorque tractée par ce véhicule pour autant que sa masse maximale autorisée n'excède pas 3,5 tonnes et que sa longueur - chargement compris - n'excède pas 6 mètres. Par extension : le véhicule automoteur de remplacement temporaire appartenant à un tiers (assuré tout au plus pour trente jours à compter du jour où le véhicule désigné est hors d'usage) et le véhicule automoteur de remplacement définitif conformément à l'article 10 §3.",
+      "page": 39
+    },
+    {
+      "term": "Bagages",
+      "definition": "les effets personnels emportés par l'assuré lors de son déplacement ou transportés à bord du véhicule assuré.",
+      "page": 39
+    },
+    {
+      "term": "Domicile",
+      "definition": "le lieu où les assurés sont inscrits à titre principal sur les registres de la population.",
+      "page": 39
+    },
+    {
+      "term": "Rapatriement",
+      "definition": "le retour au domicile, sauf mention contraire.",
+      "page": 39
+    },
+    {
+      "term": "Immobilisation du véhicule",
+      "definition": "une immobilisation effective ou une défectuosité du véhicule assuré qui rendrait la poursuite du déplacement dangereuse au regard des prescriptions du code de la route.",
+      "page": 39
+    },
+    {
+      "term": "Accident (Assistance)",
+      "definition": "un événement soudain et extérieur, indépendant de la volonté de l'assuré, causant: pour un véhicule, l'immobilisation sur le lieu de l'événement; pour une personne, une lésion corporelle constatée et diagnostiquée par un médecin.",
+      "page": 39
+    },
+    {
+      "term": "Maladie",
+      "definition": "une altération de l'état de santé, due à une cause autre qu'un accident, constatée et diagnostiquée par un médecin.",
+      "page": 39
+    },
+    {
+      "term": "Garage",
+      "definition": "une entreprise commerciale agréée et en possession des autorisations légales pour effectuer le gardiennage, les entretiens et les réparations de véhicules.",
+      "page": 39
+    },
+    {
+      "term": "Sinistre (Assistance)",
+      "definition": "tout événement à caractère aléatoire de nature à engager la présente assurance.",
+      "page": 39
+    },
+    {
+      "term": "Terrorisme",
+      "definition": "une action organisée dans la clandestinité à des fins idéologiques, politiques, ethniques ou religieuses, exécutée individuellement ou en groupe et attentant à des personnes ou détruisant partiellement ou totalement la valeur économique d'un bien matériel ou immatériel, soit en vue d'impressionner le public, de créer un climat d'insécurité ou de faire pression sur les autorités, soit en vue d'entraver la circulation ou le fonctionnement normal d'un service ou d'une entreprise.",
+      "page": 39
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Responsabilité Civile automoteur (assurance obligatoire)",
+      "description": "Par le présent contrat, l'assureur couvre, conformément à la loi du 21 novembre 1989 précitée ou le cas échéant à la législation étrangère applicable et conformément aux dispositions contractuelles, la responsabilité civile encourue par les assurés à la suite d'un sinistre causé par le véhicule automoteur assuré.",
+      "is_optional": false,
+      "territorial_scope": "La garantie est accordée pour un sinistre survenu dans tout pays pour lequel la garantie est accordée selon le certificat d'assurance. Cette garantie est accordée pour les sinistres survenus sur la voie publique ou sur les terrains publics ou privés.",
+      "limits": "Il n'y a aucune limite d'indemnisation pour les dommages résultant des lésions corporelles. La limite d'indemnisation pour les dommages matériels s'élève à 100 millions d'euros par sinistre (indexé conformément à l'article 3 de la loi du 21 novembre 1989).",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Personnes assurées : preneur d'assurance; propriétaire, détenteur, conducteur du véhicule automoteur désigné et toute personne transportée; propriétaire, détenteur, conducteur et personne transportée du véhicule automoteur assuré visé aux articles 10 et 11; personne civilement responsable des personnes précitées.",
+        "Lorsque le sinistre est survenu hors du territoire belge, la couverture est celle prévue par la législation sur l'assurance automobile obligatoire de l'État sur le territoire duquel le sinistre a eu lieu, sans priver l'assuré de la couverture plus étendue de la loi belge."
+      ],
+      "page": 14
+    },
+    {
+      "name": "Indemnisation des usagers faibles",
+      "description": "Conformément à l'article 29bis de la loi du 21 novembre 1989 précitée, l'assureur est obligé d'indemniser tous les dommages décrits à cet article.",
+      "is_optional": false,
+      "territorial_scope": "Applicable pour le véhicule automoteur dès que le droit belge est d'application, à l'exclusion des accidents survenus dans un pays qui n'est pas mentionné sur le certificat d'assurance. Applicable pour les accidents survenus sur la voie publique ou sur les terrains ouverts au public ou à un certain nombre de personnes ayant le droit de les fréquenter.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 16
+    },
+    {
+      "name": "Indemnisation des victimes innocentes",
+      "description": "Conformément à l'article 29ter de la loi du 21 novembre 1989 précitée, l'assureur est obligé d'indemniser tous les dommages décrits à cet article.",
+      "is_optional": false,
+      "territorial_scope": "N'est applicable qu'aux accidents survenus sur le territoire Belge, sur la voie publique ou sur les terrains ouverts au public ou à un certain nombre de personnes ayant le droit de les fréquenter.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 16
+    },
+    {
+      "name": "Véhicule automoteur utilisé temporairement en remplacement (garantie complémentaire)",
+      "description": "La couverture s'étend à l'usage d'un véhicule automoteur appartenant à un tiers autre que le véhicule automoteur désigné, sans qu'une déclaration à l'assureur soit exigée. La couverture est valable pour le véhicule qui remplace le véhicule désigné et destiné au même usage lorsque le véhicule désigné est définitivement ou temporairement hors usage pour cause d'entretien, aménagements, réparations, contrôle technique ou perte totale technique.",
+      "is_optional": false,
+      "territorial_scope": "Accordée conformément à l'article 39 (RC).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Lorsque le véhicule automoteur désigné a deux ou trois roues, la couverture ne peut en aucun cas porter sur un véhicule automoteur de quatre roues ou plus.",
+        "La couverture prend effet au moment où le véhicule désigné ne peut plus être utilisé et prend fin lorsque le véhicule de remplacement est restitué. La couverture ne peut jamais dépasser trente jours."
+      ],
+      "page": 17
+    },
+    {
+      "name": "Remorquage d'un véhicule automoteur (garantie complémentaire)",
+      "description": "Lorsque le véhicule automoteur assuré remorque, à titre occasionnel, un véhicule automoteur quelconque pour le dépanner, la garantie responsabilité civile de celui qui a fourni la chaîne, le filin, la corde, la barre fixe ou tous accessoires utilisés pour le remorquage est couverte, y compris pour les dommages occasionnés au véhicule remorqué. Sont également couverts les dommages occasionnés par le véhicule tractant au véhicule remorqué lors d'un dépannage occasionnel, et les dommages occasionnés par le véhicule tracté au véhicule tractant lorsqu'un autre véhicule dépanne le véhicule assuré.",
+      "is_optional": false,
+      "territorial_scope": "Accordée conformément à l'article 39 (RC).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 17
+    },
+    {
+      "name": "Nettoyage et remise en état des garnitures intérieures (garantie complémentaire)",
+      "description": "L'assureur rembourse les frais réellement exposés par l'assuré pour le nettoyage et la remise en état des garnitures intérieures du véhicule automoteur assuré lorsque ces frais résultent du transport non rémunéré de personnes blessées à la suite d'un accident de la circulation.",
+      "is_optional": false,
+      "territorial_scope": "Accordée conformément à l'article 39 (RC).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 18
+    },
+    {
+      "name": "Cautionnement (garantie complémentaire)",
+      "description": "Lorsqu'à la suite d'un sinistre survenu dans un des pays repris sur le certificat d'assurance, autre que la Belgique, une autorité étrangère exige qu'une somme soit déposée pour lever la saisie du véhicule automoteur désigné ou pour la mise en liberté sous caution de l'assuré, l'assureur avance le cautionnement exigé ou se porte personnellement caution.",
+      "is_optional": false,
+      "territorial_scope": "Pays repris sur le certificat d'assurance autre que la Belgique.",
+      "limits": "montant maximum de 62.000,00 EUR pour le véhicule automoteur désigné et pour l'ensemble des assurés, majoré des frais de constitution et de récupération du cautionnement qui sont à charge de l'assureur.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 18
+    },
+    {
+      "name": "Assistance après accident",
+      "description": "L'assistance après accident fournit divers services à l'assuré impliqué dans un accident de la circulation à la suite duquel le véhicule désigné n'est plus en état de rouler : transmission par téléphone de messages urgents; transport des passagers du lieu de l'accident au domicile de l'un d'entre eux en Belgique; remorquage du véhicule endommagé du lieu de l'accident au garage désigné par l'assuré en Belgique (MMA inférieure ou égale à 3,5 tonnes). Pour bénéficier de la garantie, l'assuré doit téléphoner à la centrale d'assistance.",
+      "is_optional": false,
+      "territorial_scope": "en Belgique ou dans un rayon de 30 km au-delà des frontières belges.",
+      "limits": "Notre intervention se limite à 200,00 EUR lorsque la prestation n'a pas été organisée par la centrale d'assistance ou a été fournie sans son autorisation (sauf impossibilité de contacter la centrale : prise en charge par ambulance, remorquage sur ordre de la police F.A.S.T./SIABIS+, intervention sur pièces justificatives). Si l'assuré circule avec un véhicule de remplacement (article 56), remboursement des frais de remorquage jusqu'à 200,00 EUR.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Cette garantie ne vaut pas dans les cas où nous disposons d'un droit de recours sur la base des articles 44 à 48 inclus."
+      ],
+      "page": 20
+    },
+    {
+      "name": "Extension de garantie 'BOB'",
+      "description": "L'extension de garantie 'BOB' est accordée au véhicule désigné valablement assuré en Responsabilité Civile (RC). Nous indemnisons les dégâts matériels occasionnés au véhicule désigné lorsque celui-ci est conduit par un tiers personnellement tenu responsable, en tout ou en partie, des dommages audit véhicule. Par 'tiers', on entend toute personne autre que le propriétaire, le détenteur et les conducteurs renseignés au contrat ainsi que les personnes vivant au foyer de l'un d'eux. Un expert détermine l'étendue des dommages. En cas de perte totale : indemnisation de la valeur réelle diminuée de la valeur après sinistre; en cas de dommages partiels : coût des réparations, TVA non récupérable remboursée sur facture.",
+      "is_optional": false,
+      "territorial_scope": "Dans un des pays couverts par le certificat d'assurance.",
+      "limits": "Notre intervention se limite toutefois à 30.000,00 EUR par sinistre.",
+      "sub_limits": [
+        {
+          "name": "Indemnisation des lésions corporelles de BOB - Décès",
+          "limit": "37.500,00 EUR"
+        },
+        {
+          "name": "Indemnisation des lésions corporelles de BOB - Incapacité permanente partielle",
+          "limit": "37.500,00 EUR"
+        },
+        {
+          "name": "Indemnisation des lésions corporelles de BOB - Incapacité permanente totale",
+          "limit": "150.000,00 EUR"
+        },
+        {
+          "name": "Indemnisation des lésions corporelles de BOB - Par jour d'hospitalisation",
+          "limit": "75,00 EUR"
+        },
+        {
+          "name": "Indemnisation des lésions corporelles de BOB - Frais de traitements médicaux",
+          "limit": "7.500,00 EUR"
+        },
+        {
+          "name": "Indemnisation des lésions corporelles de BOB - Préjudice vestimentaire",
+          "limit": "1.500,00 EUR"
+        }
+      ],
+      "deductible": null,
+      "conditions": [
+        "l'assuré fait appel à 'BOB', c'est-à-dire qu'il demande à un tiers de conduire exceptionnellement son véhicule, gratuitement et à titre de service d'ami, lorsqu'il ne se sent pas en mesure de conduire (notamment en cas d'intoxication punissable par la loi suite à la consommation d'alcool ou de substances analogues);",
+        "l'accident survient sur le trajet visant à transporter en toute sécurité l'assuré et son entourage comme passagers du véhicule désigné, utilisé lors d'activités de loisir;",
+        "le conducteur doit disposer d'un permis de conduire valable au moment de l'accident, ne pas être sous le coup d'une déchéance ni dans un état d'intoxication punissable;",
+        "les dommages résultent d'un accident de la circulation involontaire survenu dans un des pays couverts par le certificat d'assurance;",
+        "l'accident doit être constaté sur place immédiatement, soit par la police, soit par un tiers impliqué attestant de l'identité du conducteur BOB dans un constat européen;",
+        "le montant en principal des dommages au véhicule doit être supérieur à 500,00 EUR hors TVA."
+      ],
+      "page": 20
+    },
+    {
+      "name": "Garantie de mobilité (Garantie 58+ Assuré à vie)",
+      "description": "Si le conducteur principal du véhicule a une assurance auto auprès de Belfius Insurance depuis au moins 5 ans et qu'il n'a pas provoqué d'accident en tort pendant cette période, il bénéficiera à partir de son 58e anniversaire de la garantie que nous ne résilierons jamais son assurance Responsabilité Civile, excepté en cas de circonstances aggravantes telles que prévues à l'article 46, en cas de délit de fuite ou encore, si le conducteur principal perd son aptitude à la conduite.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 21
+    },
+    {
+      "name": "Terrorisme",
+      "description": "Nous couvrons les dommages causés par le terrorisme selon les modalités et dans les limites prévues par la loi du 3 mai 2024 et ses arrêtés d'exécution. À cet effet, nous sommes membres de l'ASBL TRIP. L'exécution de tous les engagements de l'ensemble des entreprises d'assurances membres de cette ASBL est limitée à 1,7 milliard d'euros par année civile pour les dommages causés par tous les événements reconnus comme relevant du terrorisme (montant adapté annuellement à l'indice des prix à la consommation, indice de base novembre 2022). Si le total des indemnités excède ce montant, une règle proportionnelle est appliquée.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "limitée à 1,7 milliard d'euros par année civile pour l'ensemble des entreprises membres de l'ASBL TRIP.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 21
+    },
+    {
+      "name": "Protection Juridique - Prestations assurées (objet)",
+      "description": "L'assurance Protection Juridique consiste dans la prise en charge, selon les modalités de la formule choisie (Comfort ou Prestige), sans que vous ne deviez en avancer le montant : des frais et honoraires de l'avocat, de l'expert et de l'huissier; des frais de procédure extrajudiciaire ou devant les juridictions belges et étrangères mis à votre charge; des frais d'une seule procédure d'exécution en vertu d'un titre exécutoire; des frais d'un recours en grâce ou d'une demande de réhabilitation. Sont également pris en charge sur pièces justificatives : frais de transport et de séjour pour comparution comme prévenu devant une juridiction étrangère; droits de douane en cas d'impossibilité de réimporter le véhicule après perte totale; frais de transport pour rapatrier le véhicule (500 EUR); frais de transport et séjour pour expertise médicale amiable à l'étranger.",
+      "is_optional": true,
+      "territorial_scope": "L'assurance est valable dans l'ensemble des pays nommément repris sur le certificat d'assurance et non expressément biffés. La garantie Insolvabilité de Tiers est limitée aux pays de l'Union Européenne ainsi qu'à la Suisse et la Norvège.",
+      "limits": "Remboursement des frais de transport pour rapatriement du véhicule à concurrence de 500 EUR.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "N'est accordée que si mention en est faite expressément dans les conditions particulières.",
+        "Lorsque l'assuré est assujetti à la TVA, celle-ci ne sera prise en charge que dans la mesure où elle n'est pas récupérable."
+      ],
+      "page": 24
+    },
+    {
+      "name": "Protection Juridique Comfort - Recours civil",
+      "description": "Nous défendons vos droits afin que vous obteniez, à l'amiable ou en justice, réparation des dommages que vous avez subis et qui sont occasionnés par un tiers dont la responsabilité extracontractuelle peut être invoquée. Intervention pour le dommage strictement moral subi à la suite du décès d'un assuré ou d'un parent/allié en ligne directe jusqu'au quatrième degré. Est également couverte l'action en réparation fondée sur la responsabilité objective en faveur des usagers faibles (article 29bis de la Loi du 21 novembre 1989).",
+      "is_optional": true,
+      "territorial_scope": "Pays nommément repris sur le certificat d'assurance et non expressément biffés.",
+      "limits": "Notre intervention est acquise jusqu'à 30.000 EUR par sinistre.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "La garantie ne comprend pas la demande de réparation du dommage sur base de la responsabilité extracontractuelle lorsque la demande peut aussi être invoquée sur base de la responsabilité contractuelle."
+      ],
+      "page": 26
+    },
+    {
+      "name": "Protection Juridique Comfort - Défense pénale",
+      "description": "Nous assurons votre défense pénale lorsque vous êtes poursuivi en justice pour infraction à tout type de règlementation relative à la circulation routière. La garantie est acquise à compter de la convocation à comparaître en qualité de prévenu ou de cité directement devant le tribunal du fond.",
+      "is_optional": true,
+      "territorial_scope": "Pays nommément repris sur le certificat d'assurance et non expressément biffés.",
+      "limits": "Notre intervention est acquise jusqu'à 30.000 EUR par sinistre.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Ne s'applique pas s'il s'agit de délits intentionnels commis par vous, sauf acquittement par une décision judiciaire coulée en force de chose jugée.",
+        "Ne s'applique pas aux crimes, même correctionnalisés."
+      ],
+      "page": 26
+    },
+    {
+      "name": "Protection Juridique Comfort - Insolvabilité de tiers",
+      "description": "Lorsqu'à la suite d'un sinistre couvert par la garantie Recours Civil, le responsable des dommages causés lors d'un accident de la circulation est identifié et que son insolvabilité est constatée après l'exercice de toute voie de recours, nous vous garantissons le paiement des indemnités qui vous sont accordées par le tribunal. Notre garantie est étendue à l'introduction de votre dossier auprès du Fonds d'aide aux victimes d'actes intentionnels de violence.",
+      "is_optional": true,
+      "territorial_scope": "Pays de l'Union Européenne ainsi que la Suisse et la Norvège.",
+      "limits": "notre intervention est limitée à 7.500 EUR par sinistre et n'est acquise qu'au-delà d'un seuil de 250 EUR.",
+      "sub_limits": [],
+      "deductible": "seuil de 250 EUR",
+      "conditions": [
+        "N'est acquise qu'après épuisement de toutes les procédures faisant l'objet de la garantie Recours civil, et après toute intervention d'organismes publics ou privés, et pour autant que le tiers soit nommément identifié et responsable d'un acte non-intentionnel."
+      ],
+      "page": 26
+    },
+    {
+      "name": "Protection Juridique Comfort - Litiges contractuels",
+      "description": "Nous garantissons votre recours, sur base de la responsabilité contractuelle, dans les cas suivants : garantie légale en cas de non-conformité lors de l'achat d'un bien de consommation ou garantie commerciale (véhicule acheté à l'état neuf et assuré depuis lors par ce contrat); dommages lors d'un accident résultant d'un vice de construction; dommages causés au véhicule lors du plein de carburant par un professionnel du secteur automobile ou lors du plein d'un carburant de mauvaise qualité; dommages dont le bailleur du garage peut être rendu responsable; réparation non conforme au rapport d'expertise; dommages consécutifs à un entretien, réparation ou nettoyage par un professionnel du secteur automobile.",
+      "is_optional": true,
+      "territorial_scope": "Pays nommément repris sur le certificat d'assurance et non expressément biffés.",
+      "limits": "notre intervention est limitée à 7.500 EUR par sinistre et n'est acquise qu'au-delà d'un seuil de 250 EUR.",
+      "sub_limits": [],
+      "deductible": "seuil de 250 EUR",
+      "conditions": [],
+      "page": 26
+    },
+    {
+      "name": "Protection Juridique Comfort - Avance sur indemnité",
+      "description": "Nous avançons le montant des dommages au véhicule assuré, si ce montant a été établi par expertise et n'a pas été contesté, à condition qu'il s'agisse d'un accident de la circulation entre le véhicule assuré et un véhicule automoteur de tiers; que le conducteur du tiers soit identifié et entièrement responsable; que le véhicule du tiers soit valablement assuré en RC et immatriculé dans une liste de pays; que l'assuré soit propriétaire du véhicule assuré. Nous récupérons cette somme auprès du responsable.",
+      "is_optional": true,
+      "territorial_scope": "Véhicule du tiers immatriculé en Belgique, Allemagne, Autriche, Danemark, Espagne, Finlande, France, Grand-Duché de Luxembourg, Grande-Bretagne, Grèce, Irlande, Italie, Norvège, Pays-Bas, Portugal, Suède ou Suisse.",
+      "limits": "La garantie Avance sur Indemnité est limitée à 15.000 EUR par sinistre.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "L'assuré doit rembourser l'avance dans les 15 jours qui suivent une indemnisation directe effectuée par le tiers, son assureur ou tout autre organisme."
+      ],
+      "page": 26
+    },
+    {
+      "name": "Protection Juridique Prestige - Défense civile",
+      "description": "Nous garantissons votre défense civile lorsque votre responsabilité extracontractuelle est engagée à la suite de dommages causés à un tiers. La garantie s'applique uniquement si les intérêts de l'assuré sont en contradiction avec ceux de son assureur en responsabilité, par exemple lorsque nous sommes, en qualité d'assureur RC, en situation d'exercer un recours (articles 44 à 49). Nous vous assistons notamment pour contester la relation causale entre l'état d'ivresse et les dommages.",
+      "is_optional": true,
+      "territorial_scope": "Pays nommément repris sur le certificat d'assurance et non expressément biffés.",
+      "limits": "Notre intervention est acquise jusqu'à 75.000 EUR par sinistre.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "La formule Prestige comprend l'assurance Protection Juridique Comfort et en étend le contenu."
+      ],
+      "page": 27
+    },
+    {
+      "name": "Protection Juridique Prestige - Recours civil étendu (accidents du travail)",
+      "description": "Est également couverte l'action en réparation de l'assuré fondée sur la loi sur les accidents du travail pour tout litige résultant d'un déplacement effectué avec le véhicule assuré, pour autant qu'un litige survienne à propos de l'application de cette loi.",
+      "is_optional": true,
+      "territorial_scope": "Pays nommément repris sur le certificat d'assurance et non expressément biffés.",
+      "limits": "Intervention globale Prestige jusqu'à 75.000 EUR par sinistre.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 27
+    },
+    {
+      "name": "Protection Juridique Prestige - Litiges contractuels « étendus »",
+      "description": "Nous assurons la défense de vos intérêts lors de toute contestation relevant de contrats relatifs au véhicule assuré dont vous êtes propriétaire. Les litiges qui découlent de l'interprétation ou de l'application d'autres contrats d'assurance ou de la présente police Belfius Car sont couverts à l'exception de la présente assurance Protection Juridique.",
+      "is_optional": true,
+      "territorial_scope": "Pays nommément repris sur le certificat d'assurance et non expressément biffés.",
+      "limits": "notre intervention est limitée à 15.000 EUR par sinistre et n'est acquise qu'au-delà d'un seuil de 250 EUR.",
+      "sub_limits": [],
+      "deductible": "seuil de 250 EUR",
+      "conditions": [],
+      "page": 28
+    },
+    {
+      "name": "Protection Juridique Prestige - Assistance administrative",
+      "description": "Nous défendons vos intérêts en cas de litige en matière d'immatriculation, de taxe de circulation ou de taxe de mise en circulation du véhicule assuré dont vous êtes propriétaire. Nous défendons également vos intérêts en cas de litige en matière de retrait, de limitation ou de restitution du permis de conduire.",
+      "is_optional": true,
+      "territorial_scope": "Pays nommément repris sur le certificat d'assurance et non expressément biffés.",
+      "limits": "notre intervention est limitée à 15.000 EUR par sinistre et n'est acquise qu'au-delà d'un seuil de 250 EUR.",
+      "sub_limits": [],
+      "deductible": "seuil de 250 EUR",
+      "conditions": [],
+      "page": 28
+    },
+    {
+      "name": "Protection Juridique Prestige - Cautionnement pénal",
+      "description": "Si, dans le cadre d'un litige couvert par la garantie Défense Pénale, les autorités d'un pays étranger exigent une caution pénale, nous la verserons immédiatement en vue d'obtenir la libération de l'assuré en détention préventive ou de le maintenir en liberté.",
+      "is_optional": true,
+      "territorial_scope": "Pays étranger.",
+      "limits": "limitée à 15.000 EUR par sinistre. Le montant peut toutefois être majoré jusqu'à 50.000 EUR sur production d'une garantie bancaire.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Vous devez remplir toutes les formalités pour la récupération; si la caution est confisquée ou affectée au paiement d'une amende ou transaction pénale, vous êtes tenu de nous dédommager."
+      ],
+      "page": 28
+    },
+    {
+      "name": "Assurance du Conducteur",
+      "description": "Nous garantissons aux bénéficiaires les indemnités correspondant aux préjudices définis (frais de traitements médicaux, chirurgicaux, pharmaceutiques, rééducation et prothèses; préjudice vestimentaire; préjudice économique et moral de l'incapacité temporaire et permanente; préjudice esthétique; aide d'une tierce personne; en cas de décès : frais funéraires, préjudice vestimentaire, préjudice économique et moral des ayants droit) lorsque l'assuré est victime d'un sinistre. L'indemnisation s'effectue selon les règles du droit commun.",
+      "is_optional": true,
+      "territorial_scope": "L'assurance est valable dans l'ensemble des pays nommément repris sur le certificat d'assurance et non expressément biffés.",
+      "limits": "jusqu'à concurrence de 500.000 EUR maximum par sinistre, avec un maximum de 500 EUR par sinistre pour l'indemnisation du préjudice vestimentaire.",
+      "sub_limits": [
+        {
+          "name": "Préjudice vestimentaire",
+          "limit": "500 EUR par sinistre"
+        }
+      ],
+      "deductible": null,
+      "conditions": [
+        "N'est accordée que si mention en est faite expressément dans les Conditions Particulières.",
+        "Pour le véhicule de remplacement temporaire (article 56) ou définitif (article 10), la garantie est acquise pour autant que ce véhicule soit affecté au même usage et comporte au minimum 4 roues. Les quads sont toujours exclus.",
+        "Bénéficiaires : l'assuré et ses ayants droit, à l'exclusion de tous les subrogés."
+      ],
+      "page": 29
+    },
+    {
+      "name": "Omnium - Garantie Incendie",
+      "description": "Nous couvrons le véhicule assuré contre l'incendie, les dégâts par le feu, l'explosion, les jets de flamme, la foudre, le court-circuit même sans flamme dans l'installation électrique et les dommages consécutifs aux travaux d'extinction à la suite d'un incendie, en quelque lieu que l'événement se produise et quelle qu'en soit la cause.",
+      "is_optional": true,
+      "territorial_scope": "L'assurance est valable dans le monde entier.",
+      "limits": "jusqu'à concurrence de la valeur assurée.",
+      "sub_limits": [],
+      "deductible": "L'indemnité est diminuée de la franchise stipulée dans les Conditions Particulières.",
+      "conditions": [
+        "N'est accordée que si mention en est faite expressément dans les Conditions Particulières."
+      ],
+      "page": 35
+    },
+    {
+      "name": "Omnium - Garantie Vol",
+      "description": "Nous couvrons le vol du véhicule assuré ou d'éléments du véhicule, ainsi que les dommages causés au véhicule en vue de l'accomplissement du vol. La garantie vaut également en cas de vol avec violence ou de menace. Étendue : dommages causés au véhicule volé retrouvé; dommages à l'intérieur en cas d'effraction; frais de reprogrammation/remplacement des serrures en cas de vol de clés/télécommandes; frais d'immatriculation d'une nouvelle plaque en cas de vol de la plaque officielle. Véhicule de remplacement (catégorie B max) pendant 21 jours maximum.",
+      "is_optional": true,
+      "territorial_scope": "L'assurance est valable dans le monde entier.",
+      "limits": "jusqu'à concurrence de la valeur assurée.",
+      "sub_limits": [
+        {
+          "name": "Véhicule de remplacement en cas de vol",
+          "limit": "location d'une voiture de tourisme de la même catégorie (au plus catégorie B de type citadine) pendant 21 jours maximum"
+        }
+      ],
+      "deductible": "L'indemnité est diminuée de la franchise stipulée dans les Conditions Particulières.",
+      "conditions": [
+        "Si les Conditions Particulières le stipulent, le vol est couvert pour autant que le véhicule soit équipé d'un système après-vol certifié INCERT de type 'TT' (Track & Trace) ou reconnu par le constructeur. Ces mesures ne sont plus obligatoires dès que le véhicule a 5 ans.",
+        "En cas de sinistre, remise des clés, documents de bord, volet du certificat d'immatriculation, original du certificat de montage ou certificat numéroté du système antivol.",
+        "Dès que l'indemnité est payée, nous devenons propriétaires du véhicule; si le véhicule volé est retrouvé après paiement, l'assuré peut le récupérer contre restitution de l'indemnité."
+      ],
+      "page": 36
+    },
+    {
+      "name": "Omnium - Garantie Bris de vitres",
+      "description": "Nous couvrons le véhicule assuré contre le bris de vitres, c'est-à-dire le bris du pare-brise, des vitres latérales, de la lunette arrière et de la partie transparente du toit (ouvrant ou non), que ces vitres soient en verre ou en matière synthétique. Sont assimilés au bris de vitres, les éclats et les fissures. La garantie est étendue aux dommages causés par le bris de vitres au véhicule même.",
+      "is_optional": true,
+      "territorial_scope": "L'assurance est valable dans le monde entier.",
+      "limits": "jusqu'à concurrence de la valeur assurée.",
+      "sub_limits": [],
+      "deductible": "L'indemnité est diminuée de la franchise stipulée dans les Conditions Particulières.",
+      "conditions": [
+        "Le remplacement/réparation est justifié par une facture détaillée acquittée par le fournisseur. Sur le territoire belge, sous réserve d'un devis préalable et éventuellement d'une expertise. Système du 'tiers payant' si confié à Autoglass Clinic SA ou Carglass SA."
+      ],
+      "page": 37
+    },
+    {
+      "name": "Omnium - Garantie Forces de la nature et périls connexes",
+      "description": "Nous couvrons le véhicule assuré contre les dégâts résultant d'une force de la nature exceptionnelle qui constitue pour l'assuré un cas de force majeure. Étendue aux dommages suivants : collision avec un animal et dommages consécutifs; nuage de suie ou restes de peinture/sablage soudains (frais de nettoyage); collision en chaîne impliquant au moins quatre véhicules identifiés; objets ou animaux transportés suite à une collision avec un autre véhicule identifié; dommages causés directement par la remorque attelée; chute d'engins aériens; transport du véhicule par train, bateau ou remorquage; dommages causés par une fouine, un autre animal de la même famille ou un rongeur aux câbles électriques, durites et matériaux de capitonnage du compartiment moteur.",
+      "is_optional": true,
+      "territorial_scope": "L'assurance est valable dans le monde entier.",
+      "limits": "jusqu'à concurrence de la valeur assurée.",
+      "sub_limits": [],
+      "deductible": "L'indemnité est diminuée de la franchise stipulée dans les Conditions Particulières.",
+      "conditions": [],
+      "page": 37
+    },
+    {
+      "name": "Omnium - Garantie Dégâts matériels si perte totale",
+      "description": "Nous couvrons les dommages causant la perte totale du véhicule assuré, sauf si ces dommages sont expressément exclus. Nous garantissons en outre le remboursement des frais effectivement exposés pour les effets vestimentaires de l'assuré et des personnes l'accompagnant, lorsque le dommage résulte du transport bénévole d'une personne blessée à la suite d'un accident de la circulation.",
+      "is_optional": true,
+      "territorial_scope": "L'assurance est valable dans le monde entier.",
+      "limits": "jusqu'à concurrence de la valeur assurée.",
+      "sub_limits": [],
+      "deductible": "Il n'y a pas de franchise d'application dans le cadre de la garantie Dégâts Matériels si perte totale.",
+      "conditions": [
+        "Toute déclaration de sinistre en Dégâts Matériels si perte totale doit être appuyée par l'avis d'un expert.",
+        "En cas de sinistre BOB (articles 67 à 74), si le véhicule est valablement assuré en Dégâts Matériels si perte totale, nous réglons le sinistre sans franchise."
+      ],
+      "page": 37
+    },
+    {
+      "name": "Omnium - Garantie Dégâts matériels",
+      "description": "Nous couvrons tous les dommages matériels au véhicule assuré, sauf si ces dégâts sont expressément exclus. Nous garantissons en outre le remboursement des frais effectivement exposés pour le nettoyage ou la remise en état des garnitures intérieures du véhicule désigné, ainsi que des effets vestimentaires de l'assuré et des personnes l'accompagnant, lorsque le dommage résulte du transport bénévole d'une personne blessée à la suite d'un accident de la circulation.",
+      "is_optional": true,
+      "territorial_scope": "L'assurance est valable dans le monde entier.",
+      "limits": "jusqu'à concurrence de la valeur assurée.",
+      "sub_limits": [],
+      "deductible": "La garantie Dégâts Matériels est assortie d'une franchise dont le type et le montant sont stipulés aux conditions particulières. La franchise est applicable que le véhicule soit réparable ou déclaré en perte totale.",
+      "conditions": [
+        "En cas de sinistre BOB (articles 67 à 74), si le véhicule est valablement assuré en Dégâts Matériels, nous réglons le sinistre sans franchise."
+      ],
+      "page": 38
+    },
+    {
+      "name": "Omnium - Remboursement des frais supplémentaires (frais annexes)",
+      "description": "En cas de sinistre, nous payons également les frais suivants : frais d'extinction d'incendie; frais de remorquage et de signalisation; frais de déblaiement de la route; frais de garage provisoire jusqu'à l'expertise; frais de démontage nécessaires à l'évaluation; frais dus à la station d'inspection pour le contrôle technique obligatoire après réparation; frais d'immatriculation pour une autre plaque (non personnalisée) et de duplication; droits de douane pour le véhicule abandonné avec notre accord. Rapatriement du véhicule : remorquage à l'étranger vers un garage proche; rapatriement si le véhicule ne peut être réparé sur place; rapatriement des passagers.",
+      "is_optional": true,
+      "territorial_scope": "L'assurance est valable dans le monde entier.",
+      "limits": "jusqu'à concurrence de maximum 2.000 EUR, hors TVA, pour les frais annexes.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Si le véhicule a plus de cinq ans et que les frais de rapatriement sont supérieurs à la valeur vénale ou à la valeur de l'épave en cas de perte totale, vous devrez rembourser la différence dans les trente jours."
+      ],
+      "page": 38
+    },
+    {
+      "name": "Assistance - Assistance Omnium après sinistre",
+      "description": "Si le véhicule désigné n'est plus en état de rouler à la suite d'un sinistre faisant intervenir l'une des garanties Omnium assurées, l'assuré doit faire appel à la centrale d'assistance. Celle-ci comprend le dépannage sur place et, si nécessaire, le remorquage du véhicule endommagé vers le garage désigné par l'assuré en Belgique (MMA inférieure ou égale à 3,5 tonnes, longueur chargement compris n'excédant pas 6 mètres), la signalisation routière si nécessaire, et le transport des passagers au domicile de l'un d'entre eux en Belgique.",
+      "is_optional": true,
+      "territorial_scope": "en Belgique ou dans un rayon de 30 km au-delà des frontières belges.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 32
+    },
+    {
+      "name": "Assistance - Mobilité Start (sinistre en Belgique) : dépannage, remorquage et transport",
+      "description": "En cas d'immobilisation du véhicule en Belgique (vol, panne, accident, tentative de vol ou vandalisme), nous organisons et prenons en charge l'envoi d'un dépanneur sur place et, si nécessaire, le remorquage du véhicule vers le garage de votre choix en Belgique, ainsi que la signalisation routière. Transfert du véhicule réparé au domicile avec frais de gardiennage; transport des assurés, bagages et animaux de compagnie; transport des blessés vers l'hôpital; transport de la dépouille des assurés décédés vers le funérarium en Belgique.",
+      "is_optional": true,
+      "territorial_scope": "En Belgique (Belgique et un rayon de 30 km au-delà de la frontière belge).",
+      "limits": "Frais de gardiennage jusqu'à maximum cinq jours si vous récupérez vous-même le véhicule. Aucuns autres frais funéraires que le transport de la dépouille.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "N'est accordée que si mention en est faite expressément dans les Conditions Particulières.",
+        "Si vous ne faites pas appel à la centrale d'assistance, nous refuserons notre garantie (sauf impossibilité de contacter la centrale : ambulance, remorquage par les forces de l'ordre, pas de choix du dépanneur)."
+      ],
+      "page": 41
+    },
+    {
+      "name": "Assistance - Mobilité Start : Couverture du véhicule de location",
+      "description": "Si vous louez un véhicule auprès d'une société de location reconnue, nous intervenons en cas de dommages matériels ou de vol de ce véhicule durant la période de location. Nous remboursons le montant de la franchise prévue dans votre contrat de location après intervention de la garantie complémentaire 'diminution de franchise'.",
+      "is_optional": true,
+      "territorial_scope": "Belgique et à l'étranger.",
+      "limits": "Notre intervention se limite à 4.000 EUR par année d'assurance. La couverture est valable pour une durée de location de 31 jours maximum.",
+      "sub_limits": [],
+      "deductible": "L'indemnité est diminuée d'une franchise de 50 EUR par sinistre.",
+      "conditions": [
+        "Exclusions propres : actes frauduleux; acte téméraire mettant votre vie en danger; dommages à l'intérieur; polluants; usure normale/insectes/vermine; conducteur autre que celui repris au contrat de location; conduite en violation des termes du contrat; amendes et sanctions administratives."
+      ],
+      "page": 42
+    },
+    {
+      "name": "Assistance - Mobilité Start : Ouverture du véhicule / perte de clés",
+      "description": "En cas d'oubli des clés à l'intérieur du véhicule, nous vous aidons à ouvrir les portes après présentation d'une pièce d'identité. En cas de perte des clés avec double au domicile : trajet aller-retour en taxi (max 150 EUR). En cas de perte sans double : information sur les démarches auprès du constructeur, remorquage vers un endroit sécurisé sur demande.",
+      "is_optional": true,
+      "territorial_scope": "En Belgique.",
+      "limits": "Trajet aller et retour en taxi à concurrence de maximum 150 EUR. Frais de gardiennage pendant 24 heures maximum.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Dans tous les cas, le remorquage est exclu si le véhicule assuré est équipé d'un système antivol."
+      ],
+      "page": 42
+    },
+    {
+      "name": "Assistance - Mobilité Start : Chauffeur de remplacement (Belgique)",
+      "description": "Nous envoyons un chauffeur de remplacement si, au cours d'un déplacement en Belgique, le conducteur du véhicule assuré décède ou ne peut plus conduire en raison d'une maladie ou d'un accident et qu'aucun autre assuré ne peut le remplacer. Nous prenons en charge le salaire et les frais de voyage du chauffeur qui ramène le véhicule à votre domicile, ainsi que la remorque/caravane, les bagages, les animaux de compagnie et les autres passagers assurés.",
+      "is_optional": true,
+      "territorial_scope": "En Belgique.",
+      "limits": "Les autres frais du voyage de retour (carburant, péages, restaurants…) restent à votre charge.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Non tenu si le véhicule n'est pas en état de fonctionnement, présente des défauts graves, n'est pas muni d'un certificat de visite valable, est en infraction au code de la route ou à l'obligation d'assurance RC."
+      ],
+      "page": 43
+    },
+    {
+      "name": "Assistance - Mobilité Start (sinistre à l'étranger) : dépannage, remorquage et rapatriement",
+      "description": "En cas d'immobilisation du véhicule à l'étranger, nous organisons et prenons en charge l'envoi d'un dépanneur, le remorquage vers le garage le plus proche et la signalisation. Si le véhicule ne peut être réparé sur place dans les trois jours : rapatriement du véhicule ou remboursement des frais de récupération (transports publics + gardiennage jusqu'à cinq jours + une nuitée max 125 EUR) ou abandon du véhicule. Pour les personnes : véhicule de remplacement/budget de mobilité, logement, poursuite du voyage ou retour au domicile selon les cas.",
+      "is_optional": true,
+      "territorial_scope": "À l'étranger (pays autres que la Belgique mentionnés sur le certificat d'assurance et non barrés).",
+      "limits": "Si la prestation n'est pas organisée par la centrale : remboursement à concurrence de maximum 325 EUR. Frais de logement d'une nuitée à concurrence de maximum 125 EUR petit-déjeuner compris. Poursuite du voyage à concurrence de maximum 450 EUR. Réparation sur place : maximum 1.000 EUR pour l'ensemble des prestations. Véhicule de remplacement/budget de mobilité pour sept jours consécutifs au maximum en cas de vol/perte totale sans retour immédiat.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Si le véhicule a plus de cinq ans et que les frais de rapatriement sont supérieurs à la valeur vénale ou à la valeur de l'épave, remboursement de la différence dans les trente jours."
+      ],
+      "page": 43
+    },
+    {
+      "name": "Assistance - Mobilité Start (étranger) : Prise en charge des assurés blessés",
+      "description": "Pour les assurés blessés à l'étranger à la suite d'un accident de la circulation avec le véhicule assuré, nous organisons et prenons en charge leur transport ou rapatriement vers leur domicile, l'hôpital le plus proche ou l'hôpital le mieux équipé. Le rapatriement se fait sous surveillance médicale si l'état de santé le requiert (avion sanitaire, avion classe économique, ambulance ou tout autre moyen approprié).",
+      "is_optional": true,
+      "territorial_scope": "À l'étranger.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "La décision du rapatriement, du mode de transport et de l'hôpital appartient exclusivement à notre service médical."
+      ],
+      "page": 44
+    },
+    {
+      "name": "Assistance - Mobilité Start (étranger) : Prise en charge des assurés décédés",
+      "description": "Si les héritiers d'un assuré décédé à l'étranger à la suite d'un accident de la circulation avec le véhicule assuré souhaitent le rapatriement, nous prenons en charge le transport de la dépouille jusqu'au lieu désigné en Belgique (frais de douane inclus), les frais de traitement post-mortem et de mise en bière (cercueil compris). En cas d'enterrement/crémation sur place : frais de traitement post-mortem, mise en bière, cercueil, urne, transport local et inhumation/incinération.",
+      "is_optional": true,
+      "territorial_scope": "À l'étranger.",
+      "limits": "à concurrence de maximum 750 EUR par défunt assuré. Les frais de cérémonie funéraire, d'inhumation/incinération (en cas de rapatriement) et de rapatriement de l'urne (en cas de crémation sur place) restent à charge de la famille.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 44
+    },
+    {
+      "name": "Assistance - Mobilité Start (étranger) : Rapatriement des bagages et animaux de compagnie",
+      "description": "Lorsque nous procédons à votre rapatriement à la suite du vol ou de l'immobilisation de votre véhicule, nous organisons et prenons en charge les frais de transport pour ramener vos bagages à votre domicile, et le rapatriement des animaux de compagnie (chiens et chats) qui vous accompagnent.",
+      "is_optional": true,
+      "territorial_scope": "À l'étranger.",
+      "limits": "frais de transport des bagages à concurrence de maximum 150 EUR par assuré. Frais de mise en quarantaine et/ou de médecine vétérinaire à charge de l'assuré.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 44
+    },
+    {
+      "name": "Assistance - Mobilité Start (étranger) : Couverture du véhicule de location",
+      "description": "Si vous louez un véhicule auprès d'une société de location reconnue à l'étranger, nous intervenons en cas de dommages matériels ou de vol de ce véhicule durant la période de location, remboursant le montant de la franchise du contrat de location après intervention de la garantie 'diminution de franchise'.",
+      "is_optional": true,
+      "territorial_scope": "À l'étranger.",
+      "limits": "Notre intervention se limite à 4.000 EUR par année d'assurance. Durée de location de 31 jours maximum.",
+      "sub_limits": [],
+      "deductible": "franchise de 50 EUR par sinistre.",
+      "conditions": [
+        "Mêmes exclusions que la couverture véhicule de location en Belgique (article 10)."
+      ],
+      "page": 44
+    },
+    {
+      "name": "Assistance - Mobilité Start (étranger) : Ouverture du véhicule / perte de clés",
+      "description": "En cas d'oubli des clés à l'intérieur du véhicule, aide à l'ouverture après présentation d'une pièce d'identité. En cas de perte avec double au domicile : envoi des clés de rechange remises au siège de la centrale d'assistance en Belgique. En cas de perte sans double : information sur les démarches auprès du constructeur, remorquage vers un endroit sécurisé sur demande (frais de gardiennage à charge de l'assuré).",
+      "is_optional": true,
+      "territorial_scope": "À l'étranger.",
+      "limits": "Frais de gardiennage pendant 24 heures maximum.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Dans tous les cas, le remorquage est exclu si le véhicule assuré est équipé d'un système antivol."
+      ],
+      "page": 45
+    },
+    {
+      "name": "Assistance - Mobilité Start (étranger) : Chauffeur de remplacement",
+      "description": "Nous envoyons un chauffeur de remplacement si, au cours d'un séjour à l'étranger, le conducteur décède ou ne peut plus conduire en raison d'une maladie ou d'un accident et qu'aucun autre assuré ne peut le remplacer. Prise en charge du salaire et des frais de voyage du chauffeur ramenant le véhicule au domicile, ainsi que remorque/caravane, bagages, animaux et passagers. Frais de logement d'une nuitée max 125 EUR.",
+      "is_optional": true,
+      "territorial_scope": "À l'étranger.",
+      "limits": "frais de logement d'une nuitée à concurrence de maximum 125 EUR par chambre, petit-déjeuner compris. Autres frais de retour à charge de l'assuré.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Non tenu si le véhicule n'est pas en état de fonctionnement, présente des défauts graves, n'est pas muni d'un certificat de visite valable, ou est en infraction au code de la route ou à l'obligation d'assurance RC."
+      ],
+      "page": 45
+    },
+    {
+      "name": "Assistance - Mobilité Start (étranger) : Envoi de pièces détachées",
+      "description": "Si le véhicule assuré est immobilisé à l'étranger, nous vous envoyons les pièces détachées nécessaires à son bon fonctionnement, lorsqu'elles sont introuvables sur place et disponibles en Belgique. Nous avançons le prix des pièces que vous rembourserez dans les trente jours suivant la fin du voyage.",
+      "is_optional": true,
+      "territorial_scope": "À l'étranger.",
+      "limits": "Notre intervention reste limitée à la valeur vénale de votre véhicule.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 45
+    },
+    {
+      "name": "Assistance - Formule Mobilité Go (extension)",
+      "description": "Les prestations prévues dans la formule 'Mobilité Start' sont couvertes et étendues en cas de sinistre en Belgique : si le véhicule est volé ou immobilisé et non réparable dans la journée, nous mettons à disposition soit un véhicule de remplacement pendant la durée de l'immobilisation et pour sept jours consécutifs au maximum, soit un budget de mobilité.",
+      "is_optional": true,
+      "territorial_scope": "En Belgique.",
+      "limits": "véhicule de remplacement pour sept jours consécutifs au maximum.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Cette prestation n'est pas valable en cas d'immobilisation de la remorque ou de la caravane."
+      ],
+      "page": 45
+    },
+    {
+      "name": "Assistance - Formule Mobilité Go+ (extension)",
+      "description": "Les prestations prévues dans la formule 'Mobilité Start' sont couvertes et étendues. En cas de sinistre en Belgique : véhicule de remplacement de catégorie D pendant quinze jours consécutifs au maximum ou budget de mobilité. À l'étranger : frais de logement à concurrence de maximum 175 EUR par nuit et par chambre; véhicule de remplacement de catégorie D; réparation sur place jusqu'à 1.400 EUR pour l'ensemble des prestations; véhicule de remplacement catégorie D pour quinze jours consécutifs maximum en cas de vol/perte totale. Couverture du véhicule de location étendue à 7.000 EUR par année d'assurance. Véhicule de remplacement en Belgique dans l'attente du rapatriement. Pick up and Delivery en cas d'accident non immobilisant.",
+      "is_optional": true,
+      "territorial_scope": "En Belgique et à l'étranger.",
+      "limits": "Belgique : véhicule catégorie D pour quinze jours consécutifs au maximum. Étranger : logement max 175 EUR par nuit et par chambre; réparation sur place max 1.400 EUR; véhicule catégorie D pour quinze jours consécutifs au maximum en cas de vol/perte totale. Couverture véhicule de location étendue à maximum 7.000 EUR par année d'assurance. Pick up and Delivery : au plus une fois par année d'assurance.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Les prestations ne sont pas valables en cas d'immobilisation ou de vol de la remorque ou de la caravane seule."
+      ],
+      "page": 46
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Personnes exclues (RC) - responsable du dommage",
+      "description": "Sont exclues du droit à l'indemnisation : la personne responsable du dommage sauf s'il s'agit d'une responsabilité du fait d'autrui.",
+      "applies_to": "Responsabilité Civile automoteur (assurance obligatoire)",
+      "page": 14
+    },
+    {
+      "name": "Personnes exclues (RC) - personne exonérée",
+      "description": "Sont exclues du droit à l'indemnisation : la personne exonérée de la responsabilité en vertu d'une disposition légale ou réglementaire et dans les limites de celle-ci.",
+      "applies_to": "Responsabilité Civile automoteur (assurance obligatoire)",
+      "page": 14
+    },
+    {
+      "name": "Dommages exclus (RC) - véhicule automoteur assuré",
+      "description": "Sont exclus les dommages au véhicule automoteur assuré.",
+      "applies_to": "Responsabilité Civile automoteur (assurance obligatoire)",
+      "page": 15
+    },
+    {
+      "name": "Dommages exclus (RC) - biens transportés à titre professionnel",
+      "description": "Sont exclus les dommages aux biens transportés à titre professionnel et onéreux par le véhicule automoteur assuré à l'exception des vêtements et bagages appartenant aux personnes transportées.",
+      "applies_to": "Responsabilité Civile automoteur (assurance obligatoire)",
+      "page": 15
+    },
+    {
+      "name": "Dommages exclus (RC) - dommages occasionnés par les biens transportés",
+      "description": "Sont exclus les dommages qui, ne résultant pas de l'usage du véhicule automoteur assuré, sont causés par le seul fait des biens transportés ou par les manipulations nécessitées par ce transport.",
+      "applies_to": "Responsabilité Civile automoteur (assurance obligatoire)",
+      "page": 15
+    },
+    {
+      "name": "Dommages exclus (RC) - concours autorisés",
+      "description": "Sont exclus les dommages qui découlent de la participation du véhicule automoteur assuré à des courses ou concours de vitesse, de régularité ou d'adresse autorisés par les autorités.",
+      "applies_to": "Responsabilité Civile automoteur (assurance obligatoire)",
+      "page": 15
+    },
+    {
+      "name": "Dommages exclus (RC) - énergie nucléaire",
+      "description": "Sont exclus les dommages à indemniser conformément à la législation relative à la responsabilité civile dans le domaine de l'énergie nucléaire.",
+      "applies_to": "Responsabilité Civile automoteur (assurance obligatoire)",
+      "page": 15
+    },
+    {
+      "name": "Dommages exclus (RC) - vol du véhicule automoteur assuré",
+      "description": "Sont exclus les dommages occasionnés par des personnes qui se sont rendues maîtres du véhicule automoteur assuré par vol, violence ou par suite de recel.",
+      "applies_to": "Responsabilité Civile automoteur (assurance obligatoire)",
+      "page": 15
+    },
+    {
+      "name": "Dommages exclus (indemnisation victimes) - concours autorisés",
+      "description": "Le dommage qui découle de la participation du véhicule automoteur assuré à des courses ou des concours de vitesse, de régularité ou d'adresse soumise à une autorisation spéciale des autorités est exclu.",
+      "applies_to": "Indemnisation des usagers faibles",
+      "page": 16
+    },
+    {
+      "name": "Dommages exclus (indemnisation victimes) - énergie nucléaire",
+      "description": "Le dommage à indemniser conformément à la réglementation relative à la responsabilité civile en matière d'énergie nucléaire est exclu.",
+      "applies_to": "Indemnisation des usagers faibles",
+      "page": 16
+    },
+    {
+      "name": "Dommages exclus (indemnisation victimes) - vol du véhicule automoteur assuré",
+      "description": "Le dommage résultant de l'implication du véhicule automoteur assuré dont des personnes se sont rendues maîtres par vol, violence ou par suite de recel est exclu.",
+      "applies_to": "Indemnisation des usagers faibles",
+      "page": 16
+    },
+    {
+      "name": "Exclusions garanties complémentaires (renvoi)",
+      "description": "Pour ces garanties complémentaires, les exclusions visées dans les articles 42 et 43 sont applicables.",
+      "applies_to": "Véhicule automoteur utilisé temporairement en remplacement (garantie complémentaire)",
+      "page": 18
+    },
+    {
+      "name": "Extension 'BOB' - recours applicable",
+      "description": "L'extension de garantie 'BOB' n'intervient pas lorsqu'un recours prévu aux articles 44 à 48 inclus est d'application.",
+      "applies_to": "Extension de garantie 'BOB'",
+      "page": 21
+    },
+    {
+      "name": "Extension 'BOB' - dommages exclus de l'Omnium",
+      "description": "L'extension 'BOB' n'intervient pas pour les dommages au véhicule lorsque les dommages sont exclus de l'assurance Omnium.",
+      "applies_to": "Extension de garantie 'BOB'",
+      "page": 21
+    },
+    {
+      "name": "Extension 'BOB' - véhicule assuré en Dégâts Matériels ailleurs",
+      "description": "L'extension 'BOB' n'intervient pas pour les dommages au véhicule lorsque le véhicule désigné est assuré en Dégâts Matériels auprès d'une autre compagnie.",
+      "applies_to": "Extension de garantie 'BOB'",
+      "page": 21
+    },
+    {
+      "name": "Extension 'BOB' - lésions corporelles exclues du Conducteur",
+      "description": "L'extension 'BOB' n'intervient pas pour les lésions corporelles de BOB, lorsque celles-ci sont exclues de l'assurance Conducteur.",
+      "applies_to": "Extension de garantie 'BOB'",
+      "page": 21
+    },
+    {
+      "name": "Protection Juridique - peines et amendes",
+      "description": "Ne sont pas remboursés les peines, amendes, décimes additionnels et transactions avec le Ministère Public, frais d'alcootest, de prise de sang et de test antidrogue.",
+      "applies_to": "Protection Juridique - Prestations assurées (objet)",
+      "page": 24
+    },
+    {
+      "name": "Protection Juridique - frais avant déclaration",
+      "description": "Ne sont pas remboursés les frais et honoraires payés par l'assuré avant la déclaration de sinistre ou avant qu'il ait reçu notre accord, à moins que ces frais et honoraires ne soient justifiés.",
+      "applies_to": "Protection Juridique - Prestations assurées (objet)",
+      "page": 24
+    },
+    {
+      "name": "Protection Juridique - frais avocat pendant phase pénale (Recours civil)",
+      "description": "Ne sont pas remboursés les frais et honoraires de l'avocat exposés dans le cadre de la garantie Recours civil, avant et pendant la phase d'information du dossier par le parquet ou d'instruction par un juge d'instruction jusqu'à ce que l'enquête pénale soit définitivement clôturée.",
+      "applies_to": "Protection Juridique - Prestations assurées (objet)",
+      "page": 24
+    },
+    {
+      "name": "Protection Juridique - juridictions internationales",
+      "description": "Ne sont pas remboursées les procédures devant les Cours de justice internationales ou supranationales.",
+      "applies_to": "Protection Juridique - Prestations assurées (objet)",
+      "page": 24
+    },
+    {
+      "name": "Protection Juridique - Cour de Cassation (seuil)",
+      "description": "Ne sont pas remboursées les procédures devant la Cour de Cassation, si l'ampleur du litige, pour autant qu'elle puisse être exprimée en espèces, est inférieure à 2.500 EUR.",
+      "applies_to": "Protection Juridique - Prestations assurées (objet)",
+      "page": 24
+    },
+    {
+      "name": "Protection Juridique Comfort - vol/violence/recel/conducteur non autorisé",
+      "description": "Sont exclus de l'assurance les personnes qui se seraient rendues maîtres du véhicule assuré par vol, violence ou recel et le conducteur non-autorisé au moment du sinistre.",
+      "applies_to": "Protection Juridique Comfort - Recours civil",
+      "page": 27
+    },
+    {
+      "name": "Protection Juridique Comfort - conducteur ne satisfaisant pas aux conditions",
+      "description": "Sont exclus les sinistres qui surviennent lorsque le conducteur du véhicule ne satisfait pas aux conditions prescrites par les lois et règlements pour pouvoir conduire ce véhicule.",
+      "applies_to": "Protection Juridique Comfort - Recours civil",
+      "page": 27
+    },
+    {
+      "name": "Protection Juridique Comfort - compétitions",
+      "description": "Sont exclus les sinistres qui surviennent pendant la participation à ou la préparation de compétitions de véhicules automoteurs; les trajets de liaison ainsi que de simples rallyes touristiques ou récréatifs sont toutefois assurés.",
+      "applies_to": "Protection Juridique Comfort - Recours civil",
+      "page": 27
+    },
+    {
+      "name": "Protection Juridique Comfort - émeutes/violence collective/grèves",
+      "description": "Sont exclus les sinistres résultant de la participation de l'assuré à des émeutes, attentats, actes de violence collective, grèves ou lock-out.",
+      "applies_to": "Protection Juridique Comfort - Recours civil",
+      "page": 27
+    },
+    {
+      "name": "Protection Juridique Comfort - radioactivité",
+      "description": "Sont exclus les dommages causés directement ou indirectement par une modification du noyau de l'atome, la radioactivité ou la production de radiations ionisantes; sont toutefois assurés les litiges relatifs aux radiations médicalement requises.",
+      "applies_to": "Protection Juridique Comfort - Recours civil",
+      "page": 27
+    },
+    {
+      "name": "Protection Juridique Comfort - chargement transport rémunéré",
+      "description": "Sont exclus les dommages au chargement en cas de transport rémunéré de choses.",
+      "applies_to": "Protection Juridique Comfort - Recours civil",
+      "page": 27
+    },
+    {
+      "name": "Protection Juridique Comfort - station de contrôle technique",
+      "description": "Sont exclus les dommages au véhicule assuré lors d'un passage à une station de contrôle technique.",
+      "applies_to": "Protection Juridique Comfort - Recours civil",
+      "page": 27
+    },
+    {
+      "name": "Protection Juridique Comfort - douanes et accises",
+      "description": "Sont exclues les infractions à la réglementation en matière de douanes et accises.",
+      "applies_to": "Protection Juridique Comfort - Recours civil",
+      "page": 27
+    },
+    {
+      "name": "Protection Juridique Comfort - réquisition",
+      "description": "Sont exclus les sinistres survenus ou infractions à la circulation commises durant la réquisition par l'autorité à l'exception des dommages encourus par le propriétaire du véhicule désigné.",
+      "applies_to": "Protection Juridique Comfort - Recours civil",
+      "page": 27
+    },
+    {
+      "name": "Protection Juridique Comfort - litiges permis de conduire",
+      "description": "Sont exclus les litiges en matière de retrait, de limitation ou de restitution du permis de conduire.",
+      "applies_to": "Protection Juridique Comfort - Recours civil",
+      "page": 27
+    },
+    {
+      "name": "Protection Juridique Comfort - infractions durant déchéance/non-assurance",
+      "description": "Sont exclus les litiges relatifs aux infractions commises par vous qui conduisez un véhicule pendant une période de déchéance du permis de conduire ou de non-assurance.",
+      "applies_to": "Protection Juridique Comfort - Recours civil",
+      "page": 27
+    },
+    {
+      "name": "Protection Juridique Comfort - stationnement (seuil)",
+      "description": "Sont exclus les litiges relatifs au stationnement lorsque le montant initial réclamé n'excède pas 100 EUR.",
+      "applies_to": "Protection Juridique Comfort - Recours civil",
+      "page": 27
+    },
+    {
+      "name": "Protection Juridique Comfort - agression dans la circulation",
+      "description": "Sont exclus les cas d'agression dans la circulation lorsque vous y avez pris part activement ou vous êtes comporté de manière telle à générer cette agression.",
+      "applies_to": "Protection Juridique Comfort - Recours civil",
+      "page": 27
+    },
+    {
+      "name": "Protection Juridique Prestige - report des exclusions Comfort",
+      "description": "Les exclusions relatives à la formule Protection Juridique Comfort s'appliquent également à la formule Protection Juridique Prestige à moins qu'elles ne soient explicitement couvertes dans cette dernière formule.",
+      "applies_to": "Protection Juridique Prestige - Défense civile",
+      "page": 28
+    },
+    {
+      "name": "Conducteur - courses/concours",
+      "description": "L'assurance Conducteur n'est pas acquise lorsque le sinistre survient pendant la participation à une course ou à un concours de vitesse, de régularité ou d'adresse, même autorisés.",
+      "applies_to": "Assurance du Conducteur",
+      "page": 30
+    },
+    {
+      "name": "Conducteur - conditions de conduite non satisfaites",
+      "description": "L'assurance Conducteur n'est pas acquise lorsqu'au moment du sinistre, le véhicule désigné est conduit par une personne ne satisfaisant pas aux conditions prescrites par la loi et les règlements belges (âge minimum, permis, déchéance).",
+      "applies_to": "Assurance du Conducteur",
+      "page": 30
+    },
+    {
+      "name": "Conducteur - contrôle technique",
+      "description": "L'assurance Conducteur n'est pas acquise lorsque le véhicule désigné soumis au contrôle technique n'est pas ou n'est plus muni d'un certificat de visite valable (sauf trajets autorisés), pour autant que nous établissions un lien de causalité entre l'état du véhicule et le sinistre.",
+      "applies_to": "Assurance du Conducteur",
+      "page": 30
+    },
+    {
+      "name": "Conducteur - sinistre intentionnel",
+      "description": "L'assurance Conducteur n'est pas acquise lorsque le sinistre a été causé intentionnellement par vous.",
+      "applies_to": "Assurance du Conducteur",
+      "page": 30
+    },
+    {
+      "name": "Conducteur - intoxication alcoolique/ivresse",
+      "description": "L'assurance Conducteur n'est pas acquise lorsque le sinistre survient alors que vous vous trouvez en état d'intoxication alcoolique de plus de 0,8 gramme par litre de sang (0,35 milligramme par litre d'air alvéolaire expiré), en état d'ivresse ou dans un état analogue résultant de l'utilisation de produits autres que des boissons alcoolisées, pour autant que nous établissions un lien de causalité entre l'état du conducteur et le sinistre.",
+      "applies_to": "Assurance du Conducteur",
+      "page": 30
+    },
+    {
+      "name": "Conducteur - radioactivité",
+      "description": "L'assurance Conducteur n'est pas acquise lorsque le sinistre survient directement ou indirectement par suite d'un phénomène de modification du noyau atomique ou de radioactivité.",
+      "applies_to": "Assurance du Conducteur",
+      "page": 30
+    },
+    {
+      "name": "Conducteur - guerre",
+      "description": "L'assurance Conducteur n'est pas acquise lorsque le sinistre est causé par la guerre ou par des faits de même nature ou par une guerre civile.",
+      "applies_to": "Assurance du Conducteur",
+      "page": 30
+    },
+    {
+      "name": "Omnium (générale) - sinistre intentionnel",
+      "description": "Ne sont pas assurés les sinistres causés intentionnellement par vous ainsi que l'aggravation du dommage couvert qui vous est imputable.",
+      "applies_to": "Omnium - Garantie Dégâts matériels",
+      "page": 35
+    },
+    {
+      "name": "Omnium (générale) - radioactivité",
+      "description": "Ne sont pas assurés les sinistres survenant directement ou indirectement par suite d'un phénomène de modification du noyau atomique ou de radioactivité.",
+      "applies_to": "Omnium - Garantie Dégâts matériels",
+      "page": 35
+    },
+    {
+      "name": "Omnium (générale) - guerre/troubles civils",
+      "description": "Ne sont pas assurés les sinistres survenant à l'occasion d'une guerre ou de troubles civils lorsque vous participez à ces événements.",
+      "applies_to": "Omnium - Garantie Dégâts matériels",
+      "page": 35
+    },
+    {
+      "name": "Omnium (générale) - contrat suspendu pour non-paiement",
+      "description": "Ne sont pas assurés les sinistres survenus alors que le contrat est suspendu pour non-paiement de prime dans les conditions légalement prévues.",
+      "applies_to": "Omnium - Garantie Dégâts matériels",
+      "page": 35
+    },
+    {
+      "name": "Omnium (générale) - risque modifié sans respect des conditions",
+      "description": "Ne sont pas assurés les sinistres survenus alors que le risque a été modifié sans respecter les conditions prévues aux articles 5 et 6 de l'assurance obligatoire RC automoteur.",
+      "applies_to": "Omnium - Garantie Dégâts matériels",
+      "page": 35
+    },
+    {
+      "name": "Omnium (générale) - objets transportés et accessoires non fixés",
+      "description": "Ne sont pas assurés les dommages aux objets transportés ainsi qu'aux accessoires audiovisuels, de communication ou de navigation non fixés de manière définitive au véhicule.",
+      "applies_to": "Omnium - Garantie Dégâts matériels",
+      "page": 35
+    },
+    {
+      "name": "Omnium (générale) - roussissement",
+      "description": "Ne sont pas assurés les dommages au revêtement intérieur par roussissement (incendie sans embrasement).",
+      "applies_to": "Omnium - Garantie Dégâts matériels",
+      "page": 35
+    },
+    {
+      "name": "Omnium (générale) - dépréciation",
+      "description": "Ne sont pas assurés la dépréciation du véhicule assuré.",
+      "applies_to": "Omnium - Garantie Dégâts matériels",
+      "page": 35
+    },
+    {
+      "name": "Omnium (générale) - objets ou animaux transportés",
+      "description": "Ne sont pas assurés les dommages causés par des objets ou des animaux transportés, ainsi que par leur chargement ou déchargement, sauf en Bris de vitres et ce qui est stipulé dans les garanties Incendie, Forces de la nature et Périls connexes et Dégâts Matériels.",
+      "applies_to": "Omnium - Garantie Dégâts matériels",
+      "page": 35
+    },
+    {
+      "name": "Omnium - dommages antérieurs",
+      "description": "Les dommages antérieurs non-réparés ne sont pas indemnisés.",
+      "applies_to": "Omnium - Garantie Dégâts matériels",
+      "page": 35
+    },
+    {
+      "name": "Incendie - matières inflammables/explosibles",
+      "description": "Sont exclus de la garantie Incendie les dommages causés par un chargement de matières ou d'objets facilement inflammables ou explosibles, sauf s'il s'agit de la réserve de carburant destinée à l'usage du véhicule assuré ou de bonbonnes de gaz ou d'autres récipients contenant des produits à usage domestique.",
+      "applies_to": "Omnium - Garantie Incendie",
+      "page": 35
+    },
+    {
+      "name": "Incendie - dommages causés par des voleurs",
+      "description": "Sont exclus de la garantie Incendie les dommages causés par des voleurs.",
+      "applies_to": "Omnium - Garantie Incendie",
+      "page": 36
+    },
+    {
+      "name": "Vol - véhicule inoccupé non sécurisé",
+      "description": "Nous excluons de la garantie Vol les dommages survenant alors que le véhicule se trouve inoccupé et que : les portières ou le coffre ne sont pas verrouillés; les vitres, capotes ou toit ouvrant ne sont pas fermés; les clés, commandes à distance ou autre système de commande d'ouverture ont été abandonnés sur ou dans le véhicule; le système antivol requis n'est pas installé ou branché (sauf si le véhicule se trouvait dans un garage individuel verrouillé).",
+      "applies_to": "Omnium - Garantie Vol",
+      "page": 36
+    },
+    {
+      "name": "Vol - auteurs proches/préposés/dépositaires",
+      "description": "Nous excluons de la garantie Vol les sinistres dont les auteurs ou complices sont soit des personnes qui vivent au foyer du preneur d'assurance ou de l'assuré, soit des préposés, soit encore des personnes auxquelles le véhicule a été confié, les dépositaires ou leur personnel.",
+      "applies_to": "Omnium - Garantie Vol",
+      "page": 37
+    },
+    {
+      "name": "Bris de vitres - perte totale",
+      "description": "Nous excluons de la garantie Bris de vitre les dommages causés au véhicule en cas de perte totale.",
+      "applies_to": "Omnium - Garantie Bris de vitres",
+      "page": 37
+    },
+    {
+      "name": "Bris de vitres - doubles vitrages et vitres blindées",
+      "description": "Nous excluons de la garantie Bris de vitre les dommages aux doubles vitrages et vitres blindées.",
+      "applies_to": "Omnium - Garantie Bris de vitres",
+      "page": 37
+    },
+    {
+      "name": "Bris de vitres - renvoi exclusions Dégâts Matériels 7 à 11",
+      "description": "Les exclusions mentionnées sous la rubrique Dégâts Matériels et numérotées de 7 à 11 sont d'application dans le cadre de la garantie Bris de vitres.",
+      "applies_to": "Omnium - Garantie Bris de vitres",
+      "page": 37
+    },
+    {
+      "name": "Forces de la nature - renvoi exclusions Dégâts Matériels 6 à 10",
+      "description": "Les exclusions mentionnées sous la rubrique Dégâts Matériels et numérotées de 6 à 10 sont d'application dans le cadre de la garantie Forces de la nature et périls connexes.",
+      "applies_to": "Omnium - Garantie Forces de la nature et périls connexes",
+      "page": 37
+    },
+    {
+      "name": "Dégâts matériels si perte totale - dommages partiels",
+      "description": "Nous excluons de la garantie Dégâts Matériels si perte totale les dommages partiels.",
+      "applies_to": "Omnium - Garantie Dégâts matériels si perte totale",
+      "page": 38
+    },
+    {
+      "name": "Dégâts matériels si perte totale - renvoi exclusions article 40",
+      "description": "Nous excluons de la garantie Dégâts Matériels si perte totale les exclusions mentionnées à l'article 40 sous la rubrique Dégâts Matériels.",
+      "applies_to": "Omnium - Garantie Dégâts matériels si perte totale",
+      "page": 38
+    },
+    {
+      "name": "Dégâts matériels - autre garantie",
+      "description": "Sont exclus de la garantie Dégâts Matériels les dégâts relevant d'une autre garantie.",
+      "applies_to": "Omnium - Garantie Dégâts matériels",
+      "page": 38
+    },
+    {
+      "name": "Dégâts matériels - usage normal",
+      "description": "Sont exclus de la garantie Dégâts Matériels les dégâts causés par un usage normal et habituel du véhicule.",
+      "applies_to": "Omnium - Garantie Dégâts matériels",
+      "page": 38
+    },
+    {
+      "name": "Dégâts matériels - usure/rupture mécanique/vice",
+      "description": "Sont exclus de la garantie Dégâts Matériels les dommages résultant de l'usure, d'une rupture mécanique, d'un vice de construction ou de matière ou encore d'un mauvais entretien manifeste ou d'un usage du véhicule désigné non conforme aux prescriptions du constructeur.",
+      "applies_to": "Omnium - Garantie Dégâts matériels",
+      "page": 38
+    },
+    {
+      "name": "Dégâts matériels - pneumatiques",
+      "description": "Sont exclus de la garantie Dégâts Matériels les dégâts aux pneumatiques, sauf s'ils se produisent conjointement à d'autres dommages couverts.",
+      "applies_to": "Omnium - Garantie Dégâts matériels",
+      "page": 38
+    },
+    {
+      "name": "Dégâts matériels - surcharge",
+      "description": "Sont exclus de la garantie Dégâts Matériels les dégâts résultant de la surcharge du véhicule assuré ou de sa remorque.",
+      "applies_to": "Omnium - Garantie Dégâts matériels",
+      "page": 38
+    },
+    {
+      "name": "Dégâts matériels - véhicule en location",
+      "description": "Sont exclus de la garantie Dégâts Matériels les dégâts survenant lorsque le véhicule assuré est donné en location.",
+      "applies_to": "Omnium - Garantie Dégâts matériels",
+      "page": 38
+    },
+    {
+      "name": "Dégâts matériels - courses/concours",
+      "description": "Sont exclus de la garantie Dégâts Matériels les dégâts survenant lors de la préparation ou de la participation à des courses ou concours de vitesse, de régularité ou d'adresse. Toutefois, restent assurés les dégâts causés à l'occasion de rallyes à but exclusivement touristique.",
+      "applies_to": "Omnium - Garantie Dégâts matériels",
+      "page": 38
+    },
+    {
+      "name": "Dégâts matériels - contrôle technique",
+      "description": "Sont exclus de la garantie Dégâts Matériels les dégâts survenant alors que le véhicule assuré soumis au contrôle technique n'est pas ou n'est plus muni d'un certificat de visite valable (sauf trajets autorisés), pour autant que nous établissions un lien de causalité entre l'état du véhicule et le sinistre.",
+      "applies_to": "Omnium - Garantie Dégâts matériels",
+      "page": 38
+    },
+    {
+      "name": "Dégâts matériels - conditions de conduite non satisfaites",
+      "description": "Sont exclus de la garantie Dégâts Matériels les dégâts survenant alors qu'au moment du sinistre, le véhicule assuré est conduit par une personne ne satisfaisant pas aux conditions prescrites par la loi et les règlements belges (âge minimum, permis, déchéance).",
+      "applies_to": "Omnium - Garantie Dégâts matériels",
+      "page": 38
+    },
+    {
+      "name": "Dégâts matériels - intoxication alcoolique/ivresse",
+      "description": "Sont exclus de la garantie Dégâts Matériels les dégâts survenant alors que le conducteur se trouve en état d'intoxication alcoolique de plus de 0,8 gramme par litre de sang (0,35 milligramme par litre d'air alvéolaire expiré), en état d'ivresse ou dans un état analogue résultant de l'utilisation de produits autres que des boissons alcoolisées, pour autant que nous établissions un lien de causalité entre l'état du conducteur et le sinistre.",
+      "applies_to": "Omnium - Garantie Dégâts matériels",
+      "page": 38
+    },
+    {
+      "name": "Dégâts matériels - objets ou animaux transportés",
+      "description": "Sont exclus de la garantie Dégâts Matériels les dégâts causés par des objets ou des animaux transportés, hormis ceux qui résultent d'une collision avec un objet identifié.",
+      "applies_to": "Omnium - Garantie Dégâts matériels",
+      "page": 38
+    },
+    {
+      "name": "Assistance - sinistres préexistants",
+      "description": "Ne sont pas assurés les sinistres existant avant ou au moment de la prise d'effet de la garantie concernée.",
+      "applies_to": "Assistance - Mobilité Start (sinistre en Belgique) : dépannage, remorquage et transport",
+      "page": 47
+    },
+    {
+      "name": "Assistance - circonstance connue faisant présumer le sinistre",
+      "description": "Ne sont pas assurés les sinistres résultant d'une circonstance connue ou présente lors de la prise d'effet de la garantie concernée ou lors du départ de votre domicile, pouvant raisonnablement faire présumer le sinistre.",
+      "applies_to": "Assistance - Mobilité Start (sinistre en Belgique) : dépannage, remorquage et transport",
+      "page": 47
+    },
+    {
+      "name": "Assistance - fait intentionnel",
+      "description": "Ne sont pas assurés les sinistres suite à un fait intentionnel de votre part, de même que l'aggravation intentionnelle de votre part d'un sinistre couvert.",
+      "applies_to": "Assistance - Mobilité Start (sinistre en Belgique) : dépannage, remorquage et transport",
+      "page": 47
+    },
+    {
+      "name": "Assistance - ivresse/intoxication",
+      "description": "Ne sont pas assurés les sinistres consécutifs à votre état d'ivresse ou d'intoxication alcoolique ou encore à un état analogue résultant de l'utilisation de drogues, hallucinogènes ou médicaments non prescrits. Toutefois, la couverture reste acquise si nous ne pouvons établir de lien causal entre votre état et le sinistre.",
+      "applies_to": "Assistance - Mobilité Start (sinistre en Belgique) : dépannage, remorquage et transport",
+      "page": 47
+    },
+    {
+      "name": "Assistance - suicide",
+      "description": "Ne sont pas assurés les sinistres consécutifs au suicide ou à la tentative de suicide d'un assuré.",
+      "applies_to": "Assistance - Mobilité Start (sinistre en Belgique) : dépannage, remorquage et transport",
+      "page": 47
+    },
+    {
+      "name": "Assistance - acte téméraire/pari/défi",
+      "description": "Ne sont pas assurés les sinistres consécutifs à un acte manifestement téméraire ou périlleux de votre part, ou encore votre participation à un pari ou défi.",
+      "applies_to": "Assistance - Mobilité Start (sinistre en Belgique) : dépannage, remorquage et transport",
+      "page": 47
+    },
+    {
+      "name": "Assistance - immobilisation chez un garagiste",
+      "description": "Ne sont pas assurés l'immobilisation du véhicule chez un garagiste, entre autres pour cause d'entretien ou de réparation.",
+      "applies_to": "Assistance - Mobilité Start (sinistre en Belgique) : dépannage, remorquage et transport",
+      "page": 47
+    },
+    {
+      "name": "Assistance - frais de diagnostic et démontage",
+      "description": "Ne sont pas assurés les frais de diagnostic du garagiste et de démontage du véhicule immobilisé.",
+      "applies_to": "Assistance - Mobilité Start (sinistre en Belgique) : dépannage, remorquage et transport",
+      "page": 47
+    },
+    {
+      "name": "Assistance - frais d'entretien/réparation/pièces",
+      "description": "Ne sont pas assurés les frais d'entretien et de réparation du véhicule, de même que le prix des pièces de rechange.",
+      "applies_to": "Assistance - Mobilité Start (sinistre en Belgique) : dépannage, remorquage et transport",
+      "page": 47
+    },
+    {
+      "name": "Assistance - carburant et lubrifiant",
+      "description": "Ne sont pas assurés les frais de carburant et de lubrifiant.",
+      "applies_to": "Assistance - Mobilité Start (sinistre en Belgique) : dépannage, remorquage et transport",
+      "page": 47
+    },
+    {
+      "name": "Assistance - frais de péage",
+      "description": "Ne sont pas assurés les frais de péage.",
+      "applies_to": "Assistance - Mobilité Start (sinistre en Belgique) : dépannage, remorquage et transport",
+      "page": 47
+    },
+    {
+      "name": "Assistance - droits de douane",
+      "description": "Ne sont pas assurés les droits de douane.",
+      "applies_to": "Assistance - Mobilité Start (sinistre en Belgique) : dépannage, remorquage et transport",
+      "page": 47
+    },
+    {
+      "name": "Assistance - voie non-accessible",
+      "description": "Ne sont pas assurés l'immobilisation du véhicule sur une voie non-accessible au véhicule de dépannage ou de remorquage.",
+      "applies_to": "Assistance - Mobilité Start (sinistre en Belgique) : dépannage, remorquage et transport",
+      "page": 47
+    },
+    {
+      "name": "Assistance - usages non autorisés du véhicule",
+      "description": "Ne sont pas assurés les sinistres survenus lorsque : le véhicule désigné est utilisé sans le consentement du propriétaire ou du détenteur habituel; le véhicule assuré est utilisé comme machine-outil; le véhicule désigné est donné en location; le véhicule désigné est conduit par un garagiste ou une personne pratiquant la vente, la réparation, le dépannage ou le contrôle technique (cette exclusion vaut également pour les préposés).",
+      "applies_to": "Assistance - Mobilité Start (sinistre en Belgique) : dépannage, remorquage et transport",
+      "page": 47
+    },
+    {
+      "name": "Assistance - panne récurrente (deux interventions/12 mois)",
+      "description": "Ne sont pas assurés la panne qui a déjà nécessité deux interventions de la centrale d'assistance au cours des douze mois écoulés. Si vous avez besoin d'une intervention supplémentaire, les frais sont à votre charge.",
+      "applies_to": "Assistance - Mobilité Start (sinistre en Belgique) : dépannage, remorquage et transport",
+      "page": 47
+    },
+    {
+      "name": "Assistance - contrôle technique",
+      "description": "Ne sont pas assurés les sinistres lorsque le véhicule désigné soumis au Contrôle Technique n'est pas ou plus muni d'un certificat de visite valable (sauf trajets autorisés). Toutefois, la couverture reste acquise si nous ne pouvons établir de lien causal entre l'état du véhicule et le sinistre.",
+      "applies_to": "Assistance - Mobilité Start (sinistre en Belgique) : dépannage, remorquage et transport",
+      "page": 47
+    },
+    {
+      "name": "Assistance - conditions de conduite non satisfaites",
+      "description": "Ne sont pas assurés les sinistres dont vous êtes victime lorsque, au moment de l'accident, vous ne satisfaites pas aux conditions prescrites par la loi et les règlements belges pour pouvoir conduire le véhicule.",
+      "applies_to": "Assistance - Mobilité Start (sinistre en Belgique) : dépannage, remorquage et transport",
+      "page": 47
+    },
+    {
+      "name": "Assistance - pratique lucrative d'un sport",
+      "description": "Ne sont pas assurés les sinistres survenus dans le cadre de la pratique lucrative d'un sport, c'est-à-dire lorsque vous participez, à titre professionnel ou sous contrat avec rémunération, à une compétition ou à un entraînement, quel que soit le sport.",
+      "applies_to": "Assistance - Mobilité Start (sinistre en Belgique) : dépannage, remorquage et transport",
+      "page": 47
+    },
+    {
+      "name": "Assistance - épreuves motorisées",
+      "description": "Ne sont pas assurés les sinistres survenus au cours d'épreuves motorisées (courses, essais, compétitions, rallyes, raids…) lorsque vous y participez en qualité de concurrent (pilote ou copilote).",
+      "applies_to": "Assistance - Mobilité Start (sinistre en Belgique) : dépannage, remorquage et transport",
+      "page": 47
+    },
+    {
+      "name": "Assistance - bagarre/agression",
+      "description": "Ne sont pas assurés les sinistres résultant d'une bagarre ou d'une agression, sauf si vous n'y avez pas pris part activement ou ne vous êtes pas comporté de manière telle à générer cette agression.",
+      "applies_to": "Assistance - Mobilité Start (sinistre en Belgique) : dépannage, remorquage et transport",
+      "page": 47
+    },
+    {
+      "name": "Assistance - guerre/violence collective",
+      "description": "Ne sont pas assurés les sinistres dus à un fait de guerre, une guerre civile, une émeute, une grève, une insurrection ou tout acte de violence collective. Cette exclusion ne s'applique pas aux sinistres survenus à l'étranger pendant les quinze jours suivant le début des hostilités, pour autant que vous ayez été surpris et n'y ayez pas pris part.",
+      "applies_to": "Assistance - Mobilité Start (sinistre en Belgique) : dépannage, remorquage et transport",
+      "page": 48
+    },
+    {
+      "name": "Assistance - nucléaire/terrorisme",
+      "description": "Ne sont pas assurés les sinistres résultant d'une réaction nucléaire, de la radioactivité, de radiations ionisantes ou d'un acte de terrorisme.",
+      "applies_to": "Assistance - Mobilité Start (sinistre en Belgique) : dépannage, remorquage et transport",
+      "page": 48
+    },
+    {
+      "name": "Assistance - force de la nature exceptionnelle",
+      "description": "Ne sont pas assurés les sinistres résultant d'une force de la nature exceptionnelle, c'est-à-dire ayant un grand impact sur la société, mettant la vie de personnes en danger et pouvant provoquer d'énormes dégâts.",
+      "applies_to": "Assistance - Mobilité Start (sinistre en Belgique) : dépannage, remorquage et transport",
+      "page": 48
+    },
+    {
+      "name": "Assistance - exclusions territoriales (sanctions et pays à risque)",
+      "description": "La centrale d'assistance ne prend en charge aucune prestation si cela peut l'exposer à une sanction internationale (ONU, UE, USA). Sont exclus les pays sous interdiction de voyage, les pays en état de guerre civile ou étrangère, et les pays et régions à haut risque suivants : Iran, Biélorussie, Crimée, Fédération de Russie et les régions ukrainiennes annexées par la Fédération de Russie.",
+      "applies_to": "Assistance - Mobilité Start (sinistre à l'étranger) : dépannage, remorquage et rapatriement",
+      "page": 40
+    }
+  ],
+  "deductibles": {
+    "standard": "En Omnium, l'indemnité est diminuée de la franchise stipulée dans les Conditions Particulières (article 15). Il n'y a pas de franchise d'application en Dégâts Matériels si perte totale. La garantie Dégâts Matériels est assortie d'une franchise dont le type et le montant sont stipulés aux conditions particulières (applicable que le véhicule soit réparable ou en perte totale).",
+    "variable": "En Protection Juridique, les garanties Insolvabilité de Tiers, Litiges contractuels et (Prestige) Assistance administrative ne sont acquises qu'au-delà d'un seuil de 250 EUR. En Assistance, la couverture du véhicule de location est diminuée d'une franchise de 50 EUR par sinistre.",
+    "per_coverage": "En RC, le preneur paie à l'assureur le montant des franchises applicables en vertu du contrat, l'imputation s'effectuant avant application d'un recours éventuel (article 49). La règle proportionnelle Omnium est appliquée après déduction de la franchise éventuelle (article 3).",
+    "page": 35
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "description": "Le preneur d'assurance a l'obligation de déclarer précisément, lors de la conclusion du contrat, toutes les circonstances qui lui sont connues et qu'il doit raisonnablement considérer comme constituant pour l'assureur des éléments d'appréciation du risque.",
+      "timing": "lors de la conclusion du contrat",
+      "sanction": "En cas d'omission ou d'inexactitude intentionnelles induisant l'assureur en erreur : nullité du contrat (les primes échues jusqu'à la connaissance restent dues) et droit de recours (articles 45, 2°, 55 et 63). En cas d'omission/inexactitude non intentionnelles : modification ou résiliation du contrat et droit de recours (articles 45, 3° et 63).",
+      "page": 5
+    },
+    {
+      "description": "Le preneur d'assurance est obligé de déclarer à l'assureur : le transfert de propriété du véhicule; les caractéristiques du véhicule de remplacement; l'immatriculation dans un autre pays; la mise en circulation pendant la suspension; chaque changement d'adresse; les données visées aux articles 6, 7 et 8 (aggravation/diminution du risque).",
+      "timing": "en cours de contrat",
+      "sanction": null,
+      "page": 6
+    },
+    {
+      "description": "En cours de contrat, le preneur d'assurance a l'obligation de déclarer les circonstances nouvelles ou les modifications de circonstances qui sont de nature à entraîner une aggravation sensible et durable du risque de survenance de l'événement assuré.",
+      "timing": "en cours de contrat, dès connaissance de l'aggravation",
+      "sanction": "Modification ou résiliation du contrat; droit de recours de l'assureur (articles 45, 2° et 63 en cas d'intention; articles 45, 3° et 63 sinon).",
+      "page": 6
+    },
+    {
+      "description": "Tout sinistre doit être déclaré par écrit immédiatement et au plus tard dans les huit jours de sa survenance, à l'assureur ou à toute autre personne désignée. La déclaration doit indiquer les causes, circonstances et conséquences probables, le nom et domicile des témoins et personnes lésées. L'assuré transmet toutes citations et actes judiciaires ou extrajudiciaires dans les 48 heures de leur remise. Cette obligation incombe à tous les assurés.",
+      "timing": "immédiatement et au plus tard dans les huit jours de la survenance (actes judiciaires : 48 heures)",
+      "sanction": "L'assureur ne peut invoquer le non-respect du délai si la déclaration a été effectuée aussi rapidement que cela pouvait raisonnablement se faire. Droit de recours si l'assuré a omis d'accomplir un acte spécifique dans le délai contractuel (article 46, 4°).",
+      "page": 13
+    },
+    {
+      "description": "Toute reconnaissance de responsabilité, transaction, fixation de dommage, promesse d'indemnisation ou paiement faits par l'assuré, sans autorisation écrite de l'assureur, lui sont inopposables. La reconnaissance de faits ou la prise en charge des premiers secours pécuniaires et des soins médicaux immédiats ne peuvent constituer une cause de refus de couverture.",
+      "timing": "en cas de sinistre",
+      "sanction": "inopposabilité à l'assureur",
+      "page": 13
+    },
+    {
+      "description": "En Omnium, l'assuré est tenu de : déclarer tout sinistre dans les huit jours de la connaissance de sa survenance; renseigner les circonstances, causes et conséquences et l'identité des témoins; transmettre immédiatement tous renseignements et documents utiles; prendre toutes les mesures raisonnables pour prévenir et atténuer les conséquences; en cas de vol, tentative de vol, vandalisme ou malveillance, déposer plainte auprès des autorités judiciaires ou de police pour en faire dresser un procès-verbal.",
+      "timing": "dans les huit jours de la connaissance de la survenance",
+      "sanction": "Si l'assuré ne respecte pas ses obligations et que nous subissons un préjudice, nous pouvons réduire partiellement ou totalement notre prestation ou récupérer l'indemnité/frais jusqu'à concurrence du préjudice subi; refus de couverture en cas d'intention frauduleuse (charge de la preuve à l'assureur).",
+      "page": 32
+    },
+    {
+      "description": "En Assistance, en cas de sinistre, vous devez immédiatement contacter la centrale d'assistance (24h/24 et 7j/7), vous conformer à ses instructions, renseigner les circonstances et causes, transmettre les justificatifs originaux, prendre les mesures raisonnables, récupérer vos frais médicaux auprès de la mutualité, céder les titres de transport non utilisés, et transmettre le procès-verbal en cas de perte, vol ou vandalisme.",
+      "timing": "immédiatement / dans les plus brefs délais",
+      "sanction": "Réduction partielle ou totale de la prestation ou récupération de l'indemnité/frais jusqu'à concurrence du préjudice subi; refus de garantie en cas d'intention frauduleuse (charge de la preuve à l'assureur).",
+      "page": 40
+    },
+    {
+      "description": "En Protection Juridique, l'assuré doit informer le prestataire d'assistance juridique de toutes les initiatives; transmettre immédiatement les actes judiciaires et extrajudiciaires; comparaître aux audiences; accomplir les actes de procédure; s'abstenir de toute reconnaissance de responsabilité, transaction, paiement ou promesse.",
+      "timing": "en cas de sinistre",
+      "sanction": "Si l'assuré ne respecte pas ses obligations et qu'il en résulte un préjudice pour nous, nous avons le droit de prétendre à une réduction de notre prestation à concurrence du préjudice subi.",
+      "page": 25
+    },
+    {
+      "description": "En cas de vol (Omnium), en cas de sinistre, vous vous engagez à transmettre les clés, commandes à distance ou système de commande d'ouverture; les documents de bord (certificat d'immatriculation et de conformité); le volet du certificat d'immatriculation; l'original du certificat de montage ou certificat numéroté du système antivol/après-vol. Si ces éléments ont aussi été dérobés, remettre une attestation de déclaration de vol. Si le véhicule volé est retrouvé, en avertir immédiatement.",
+      "timing": "en cas de sinistre vol",
+      "sanction": null,
+      "page": 36
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Appeler immédiatement la centrale d'assistance (+32 (0)2 286 70 00) en cas de véhicule non roulant, vol (Omnium), dégâts couverts ou panne (Assistance). Rassembler les documents : carte internationale d'assurance automobile, constat d'accident rempli et signé par les 2 parties (papier ou app Crashform d'Assuralia), devis de réparation, et en cas de vol le procès-verbal de la police; prendre un maximum de photos des dégâts.",
+      "deadline": "immédiatement"
+    },
+    {
+      "step": "Déclarer le sinistre en ligne (app Belfius Mobile ou Belfius Direct Net) ou par téléphone au +32 (0)2 286 70 00 (du lundi au vendredi, de 8h à 17h). Tout sinistre doit être déclaré par écrit immédiatement et au plus tard dans les huit jours de sa survenance.",
+      "deadline": "immédiatement, au plus tard dans les huit jours de la survenance"
+    },
+    {
+      "step": "Fournir sans retard à l'assureur tous les renseignements et documents utiles; transmettre toutes citations et actes judiciaires ou extrajudiciaires dans les 48 heures de leur remise ou signification.",
+      "deadline": "sans retard; actes judiciaires dans les 48 heures"
+    },
+    {
+      "step": "Évaluation des dommages (Omnium) : l'assureur désigne un expert (à ses frais), sauf accord sur le devis de réparation de l'assuré. L'expert transmet son rapport dans les deux jours ouvrables à compter du lendemain de l'expertise. Si l'assureur ne réagit pas dans les cinq jours ouvrables suivant la réception de la déclaration, l'assuré peut faire procéder à la réparation. En cas de désaccord, expertise contradictoire par deux experts, éventuellement un tiers expert.",
+      "deadline": "rapport dans les deux jours ouvrables; réaction de l'assureur dans les cinq jours ouvrables"
+    },
+    {
+      "step": "Indemnisation (Omnium) : dans les dix jours à compter de l'accord sur l'évaluation des dommages ou de la réception de la facture; en cas de vol du véhicule, dans les vingt-et-un jours à compter de la réception de la déclaration. En cas de retard, intérêts sur l'indemnité due au triple du taux d'intérêt légal.",
+      "deadline": "dix jours (vingt-et-un jours en cas de vol)"
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "La durée du contrat ne peut excéder un an. Les contrats d'une durée inférieure à un an ne sont pas reconduits tacitement, sauf convention contraire.",
+    "tacit_renewal": "Sauf si vous vous y opposez au moins deux mois avant l'arrivée du terme du contrat ou si nous nous y opposons au moins trois mois avant cette date, le contrat est reconduit tacitement pour des périodes successives d'un an.",
+    "methods": [
+      "La résiliation se fait par exploit d'huissier de justice, par envoi recommandé ou par remise de la lettre de résiliation contre récépissé. La résiliation pour défaut de paiement de la prime ne peut se faire par remise de la lettre de résiliation contre récépissé."
+    ],
+    "special_rights": [
+      "Facultés de résiliation pour le preneur : modification des conditions/prime/franchise; après sinistre (au plus tard un mois après paiement, prise d'effet trois mois); changement d'assureur (cession); cessation des activités de l'assureur (faillite, réorganisation judiciaire, retrait d'agrément); diminution du risque; réquisition par les autorités; remplacement de véhicule ou remise en vigueur; police combinée. Facultés pour l'assureur : avant prise d'effet; à la fin de chaque période; défaut de paiement de la prime; après sinistre; omission/inexactitude/aggravation du risque; exigences techniques du véhicule; nouvelles dispositions légales; réquisition; faillite; décès; remplacement de véhicule. Crédit de prime : la portion afférente à la période postérieure à la prise d'effet est remboursée dans un délai de trente jours. En cas de vente à distance, droit de rétractation de quatorze jours sans pénalité ni motivation par lettre recommandée."
+    ],
+    "page": 10,
+    "notice_period": "Résiliation à la fin de chaque période d'assurance : par le preneur au plus tard deux mois avant l'échéance (prise d'effet à l'échéance); par l'assureur au plus tard trois mois avant l'échéance. Après la première période, un preneur consommateur peut résilier à tout moment avec prise d'effet à l'expiration d'un délai de deux mois. La résiliation ordinaire prend effet à l'expiration d'un délai d'un mois à compter du lendemain de la signification/dépôt/récépissé (sauf mention contraire aux articles 27 et 30)."
+  },
+  "prescription_period": null,
+  "premium": {
+    "mechanics": "La prime, majorée des taxes et contributions, est payable au plus tard à la date d'échéance de la prime, sur demande de l'assureur. En cas de défaut de paiement à l'échéance, l'assureur peut suspendre la couverture ou résilier le contrat après mise en demeure (par exploit d'huissier ou envoi recommandé); la suspension prend effet à l'expiration du délai de la mise en demeure (au moins quinze jours). Un système de personnalisation a posteriori (bonus-malus) s'applique aux voitures de tourisme et d'affaires ou à usage mixte et aux véhicules de transport de choses dont la M.M.A. n'excède pas 3,5 T : échelle allant de Malus 10 (250 %) à Super-bonus 5 (50 %), entrée au degré Starter (100 %). Descente inconditionnelle d'un degré par période d'assurance observée sans sinistre; montée de cinq degrés par sinistre. En cas de non-paiement d'une dette certaine, liquide et exigible : premier rappel gratuit puis intérêts de retard et indemnité forfaitaire (20 EUR jusqu'à 150 EUR; 30 EUR + 10 % au-delà de 150 EUR jusqu'à 500 EUR; 65 EUR + 5 % au-delà de 500 EUR, plafonnée à 2.000 EUR).",
+    "page": 11
+  },
+  "special_conditions": [
+    {
+      "description": "Système de personnalisation a posteriori (bonus-malus) : échelle de Malus 10 (250 % de prime) à Super-bonus 5 (50 %), entrée au degré Starter (100 %). L'expérience du conducteur principal est valorisée sur base de l'ancienneté du permis B (une descente d'un degré par année complète), corrigée d'une montée de cinq degrés par sinistre en tort. Après 4 années consécutives sans sinistre déclaré, un degré resté en zone malus est ramené au degré Starter. Les degrés Malus 10 ou Super-bonus 5 ne sont jamais dépassés. Rectification rétroactive de trois ans maximum.",
+      "page": 18
+    },
+    {
+      "description": "Valeur à assurer (Omnium) : prix catalogue, prix d'achat lors de la première mise en circulation ou prix d'achat à la facture, exprimés hors TVA. Accessoires acquis après la conclusion du contrat assurés gratuitement au premier risque à concurrence de 1.250 EUR hors TVA; système antivol acquis comme accessoire assuré gratuitement. En cas de sous-assurance, règle proportionnelle (non appliquée pour un véhicule d'occasion assuré à son prix catalogue).",
+      "page": 31
+    },
+    {
+      "description": "Formules d'indemnisation en cas de perte totale (Omnium) : valeur fonctionnelle (diminution de 1,25 % par mois du 1er au 36e mois, puis 0,75 % par mois du 37e au 60e mois), valeur agréée (6, 12, 24 ou 36 mois selon l'option) ou valeur réelle. Après le 60e mois, valeur réelle majorée d'un pourcentage contractuel (5 % pour agréée-6 mois, 10 % pour agréée-12 mois, 20 % pour agréée-24 et 36 mois), le tout limité à la valeur assurée. TVA non récupérable et TMC (après amortissement légal, loi du 25 mai 1993) remboursées.",
+      "page": 33
+    },
+    {
+      "description": "Réparations urgentes (Omnium, dommages partiels) : l'assuré peut y procéder sans en informer l'assureur préalablement si le montant hors TVA ne dépasse pas 1.000 EUR; dans le cas contraire, l'accord de l'assureur est obligatoire.",
+      "page": 34
+    },
+    {
+      "description": "Clause d'objectivité (Protection Juridique) : le prestataire d'assistance juridique peut refuser ou interrompre son intervention (thèse insoutenable, proposition transactionnelle équitable, recours sans chances sérieuses). L'assuré peut produire une consultation écrite d'un avocat de son choix; si l'avocat confirme la thèse du prestataire, l'assureur supporte 50 % (Comfort) ou 100 % (Prestige) des frais de la consultation.",
+      "page": 25
+    },
+    {
+      "description": "Budget de mobilité (Assistance) : au lieu d'un véhicule de remplacement, l'assuré peut opter pour un budget de mobilité (transport public, taxi, car sharing, mobilité douce) octroyé par sinistre à concurrence de maximum 85 EUR par jour, dans la limite du nombre de jours de mise à disposition d'un véhicule de remplacement. Le budget non consommé n'est pas récupérable.",
+      "page": 41
+    },
+    {
+      "description": "Responsabilité des auxiliaires (article 80) : les dispositions légales relatives à la responsabilité extracontractuelle (Livre 6 du Code civil) ne s'appliquent pas dans la relation contractuelle entre l'assureur et le preneur; la réparation des dommages causés par l'inexécution d'une obligation contractuelle est exclusivement régie par les règles du droit du contrat d'assurance.",
+      "page": 22
+    },
+    {
+      "description": "Les Conditions Particulières complètent les Conditions Générales et les remplacent dans la mesure où elles leur seraient contraires (article 76).",
+      "page": 21
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Par le présent contrat, l'assureur couvre, conformément à la loi du 21 novembre 1989 précitée ou le cas échéant à la législation étrangère applicable et conformément aux dispositions contractuelles, la responsabilité civile encourue par les assurés à la suite d'un sinistre causé par le véhicule automoteur assuré."
+    },
+    {
+      "quote": "Il n'y a aucune limite d'indemnisation pour les dommages résultant des lésions corporelles."
+    },
+    {
+      "quote": "La limite d'indemnisation pour les dommages matériels s'élève à 100 millions d'euros par sinistre."
+    },
+    {
+      "quote": "Sont exclus les dommages au véhicule automoteur assuré."
+    },
+    {
+      "quote": "Sont exclus les dommages occasionnés par des personnes qui se sont rendues maîtres du véhicule automoteur assuré par vol, violence ou par suite de recel."
+    },
+    {
+      "quote": "La durée du contrat ne peut excéder un an."
+    },
+    {
+      "quote": "Nous couvrons le véhicule assuré contre l'incendie, les dégâts par le feu, l'explosion, les jets de flamme, la foudre, le court-circuit même sans flamme dans l'installation électrique et les dommages consécutifs aux travaux d'extinction à la suite d'un incendie, en quelque lieu que l'événement se produise et quelle qu'en soit la cause."
+    },
+    {
+      "quote": "Nous couvrons le vol du véhicule assuré ou d'éléments du véhicule, ainsi que les dommages causés au véhicule en vue de l'accomplissement du vol."
+    },
+    {
+      "quote": "sur la base des indemnités généralement allouées par les cours et tribunaux belges pour des cas semblables et ce, jusqu'à concurrence de 500.000 EUR maximum par sinistre, avec un maximum de 500 EUR par sinistre pour l'indemnisation du préjudice vestimentaire."
+    },
+    {
+      "quote": "Tout sinistre doit être déclaré par écrit immédiatement et au plus tard dans les huit jours de sa survenance, à l'assureur ou à toute autre personne désignée à cette fin dans le contrat."
+    }
+  ],
+  "gaps": [
+    "Le document ne mentionne aucun délai de prescription (prescription_period) : ce champ est laissé null.",
+    "Aucun délai de carence (waiting_periods) n'est stipulé dans le document : le tableau est vide.",
+    "Les montants de franchise Omnium (RC et Dégâts Matériels) ne sont pas chiffrés dans les Conditions Générales : ils renvoient aux Conditions Particulières (non fournies).",
+    "La page 26 porte dans son en-tête la référence '032024 - F032024' (et non '092024 - F012025' comme les autres pages), potentielle incohérence d'édition mineure dans le document source.",
+    "Les taux de prime du système bonus-malus, l'échelle des degrés et les seuils sont reproduits verbatim mais leur mise en page tabulaire d'origine (colonnes Degré/Niveau de prime) a été aplatie dans le texte source."
+  ],
+  "superseded": null
+}

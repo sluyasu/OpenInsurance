@@ -1,0 +1,219 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openinsurance-wiki/schema/product.schema.json",
+  "title": "Insurance Product (extracted)",
+  "description": "Rich, source-cited structured representation of one insurance product document (general conditions / IPID / product sheet). Designed to preserve the MAXIMUM of the source PDF's substance. The `branch` value must be one of the slugs declared in the country's sources/<cc>/_country.yml (it is intentionally NOT a fixed global enum, so the schema is country-agnostic). Every substantive block carries a `page` citation into the source PDF.",
+  "type": "object",
+  "required": ["schema_version", "country", "insurer_slug", "product_name", "branch", "document_type", "language", "source_url"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": { "type": "string", "description": "Schema version, e.g. '1.0'." },
+    "prompt_version": { "type": "string", "description": "Version of the extraction prompt used (from extraction-agent/). Part of the extraction cache key." },
+
+    "country": { "type": "string", "description": "ISO 3166-1 alpha-2, lowercase (e.g. 'be')." },
+    "insurer_slug": { "type": "string", "description": "Insurer slug matching sources/<cc>/<slug>.yml." },
+    "insurer_name": { "type": "string", "description": "Canonical insurer name (e.g. 'AXA Belgium')." },
+    "product_name": { "type": "string", "description": "Commercial product name exactly as in the document." },
+    "branch": { "type": "string", "description": "Branch slug declared in the country's _country.yml (e.g. 'auto')." },
+    "branch_code": { "type": ["string", "null"], "description": "Optional regulatory code (e.g. life '21'/'23'), if the country uses one." },
+
+    "document_type": { "type": "string", "enum": ["conditions_generales", "ipid", "conditions_particulieres", "conditions_tarifaires", "product_sheet", "other"] },
+    "language": { "type": "string", "enum": ["fr", "nl", "de", "en"] },
+    "target_audience": { "type": ["string", "null"], "enum": ["particuliers", "independants", "entreprises", "secteur_public", null] },
+    "reference": { "type": ["string", "null"], "description": "Insurer's internal document reference." },
+    "edition_date": { "type": ["string", "null"], "description": "Edition/version date of the document (YYYY-MM-DD or as printed). CRITICAL for version tracking: the same product is re-issued over time, and an old edition may describe a product no longer sold. Always capture it if the document shows one." },
+    "product_family": { "type": ["string", "null"], "description": "Normalized product line, stripped of edition date and distribution variant (e.g. 'Confort Auto', 'Top Habitation'). Used to group editions/variants/documents of the same product." },
+    "variant": { "type": ["string", "null"], "description": "Distribution channel or formula variant if the doc is one of several parallel versions of the same product (e.g. 'BNPPF', 'courtier', 'Flex Premium')." },
+    "is_extension": { "type": ["boolean", "null"], "description": "true if this document is an OPTION / EXTENSION / rider of a base product rather than a standalone product." },
+    "extends": { "type": ["string", "null"], "description": "If is_extension, the name of the base product this extends/complements (as printed)." },
+    "superseded": { "type": ["boolean", "null"], "description": "Set at build time if a newer edition of the same product+document_type exists. Do not set during extraction." },
+
+    "source_url": { "type": "string", "description": "URL of the public source PDF. CRITICAL: the citation anchor." },
+    "source_pdf": { "type": ["string", "null"], "description": "Local filename of the source PDF." },
+    "source_sha256": { "type": ["string", "null"], "description": "Checksum of the source PDF (from manifest.json)." },
+    "source_pages": { "type": ["integer", "null"], "description": "Total page count of the source PDF." },
+    "fetched_at": { "type": ["string", "null"], "description": "Date the PDF was downloaded (YYYY-MM-DD)." },
+    "extraction_model": { "type": ["string", "null"], "description": "Provider/model that produced this extraction (e.g. 'anthropic:claude-sonnet-5')." },
+
+    "summary": { "type": ["string", "null"], "description": "Neutral 2-4 sentence factual summary of what the product is. No advice." },
+
+    "definitions": {
+      "type": "array",
+      "description": "Contractual definitions (glossary) as stated in the document.",
+      "items": {
+        "type": "object",
+        "required": ["term", "definition"],
+        "additionalProperties": false,
+        "properties": {
+          "term": { "type": "string" },
+          "definition": { "type": "string" },
+          "page": { "type": ["integer", "null"] }
+        }
+      }
+    },
+
+    "coverages": {
+      "type": "array",
+      "description": "Every guarantee/coverage the document describes. Preserve full descriptions and all limits/conditions.",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "additionalProperties": false,
+        "properties": {
+          "name": { "type": "string" },
+          "description": { "type": ["string", "null"], "description": "What it protects against, in the document's own terms." },
+          "is_optional": { "type": ["boolean", "null"], "description": "true if an optional add-on, false if included by default." },
+          "territorial_scope": { "type": ["string", "null"] },
+          "limits": { "type": ["string", "null"], "description": "Max insured amount / limit of indemnity, verbatim." },
+          "sub_limits": { "type": "array", "items": { "type": "string" }, "description": "Per-item / per-event sub-limits." },
+          "deductible": { "type": ["string", "null"], "description": "Franchise for this specific coverage." },
+          "conditions": { "type": "array", "items": { "type": "string" }, "description": "Requirements/conditions attached to this coverage." },
+          "page": { "type": ["integer", "null"] }
+        }
+      }
+    },
+
+    "exclusions": {
+      "type": "array",
+      "description": "Everything NOT covered. Capture all of them; they are the most-omitted and most-important part.",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "additionalProperties": false,
+        "properties": {
+          "name": { "type": "string" },
+          "description": { "type": ["string", "null"] },
+          "applies_to": { "type": ["string", "null"], "description": "Coverage this exclusion applies to, or 'all'." },
+          "page": { "type": ["integer", "null"] }
+        }
+      }
+    },
+
+    "deductibles": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "description": "General franchise information.",
+      "properties": {
+        "standard": { "type": ["string", "null"] },
+        "variable": { "type": ["string", "null"], "description": "Variable/indexed franchise formula if any." },
+        "per_coverage": { "type": ["object", "string", "null"], "additionalProperties": { "type": "string" } },
+        "page": { "type": ["integer", "null"] }
+      }
+    },
+
+    "waiting_periods": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [],
+        "additionalProperties": true,
+        "properties": {
+          "coverage": { "type": ["string", "null"] },
+          "duration": { "type": ["string", "null"] },
+          "description": { "type": "string" },
+          "page": { "type": ["integer", "null"] }
+        }
+      }
+    },
+
+    "obligations": {
+      "type": "array",
+      "description": "Duties of the insured (déclarations, prévention, en cas de sinistre).",
+      "items": {
+        "type": "object",
+        "required": [],
+        "additionalProperties": true,
+        "properties": {
+          "name": { "type": ["string", "null"] },
+          "description": { "type": "string" },
+          "timing": { "type": ["string", "null"], "description": "When it applies (at subscription / during / on claim)." },
+          "sanction": { "type": ["string", "null"], "description": "Consequence of non-compliance, if stated." },
+          "page": { "type": ["integer", "null"] }
+        }
+      }
+    },
+
+    "claims_procedure": {
+      "type": "array",
+      "description": "How to declare and handle a claim (steps, deadlines).",
+      "items": {
+        "type": "object",
+        "required": [],
+        "additionalProperties": true,
+        "properties": {
+          "step": { "type": ["string", "null"] },
+          "description": { "type": "string" },
+          "deadline": { "type": ["string", "null"] },
+          "page": { "type": ["integer", "null"] }
+        }
+      }
+    },
+
+    "duration_and_cancellation": {
+      "type": ["object", "null"],
+      "additionalProperties": true,
+      "properties": {
+        "duration": { "type": ["string", "null"] },
+        "tacit_renewal": { "type": ["boolean", "null"] },
+        "notice_period": { "type": ["string", "null"] },
+        "methods": { "type": ["array", "string", "null"], "items": { "type": "string" } },
+        "special_rights": { "type": ["array", "string", "null"], "items": { "type": "string" }, "description": "e.g. cancel after a claim / after a premium increase." },
+        "page": { "type": ["integer", "null"] }
+      }
+    },
+
+    "prescription_period": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "properties": {
+        "description": { "type": ["string", "null"] },
+        "page": { "type": ["integer", "null"] }
+      }
+    },
+
+    "premium": {
+      "type": ["object", "null"],
+      "additionalProperties": true,
+      "description": "Premium mechanics if described (indexation, payment terms). Not a price quote.",
+      "properties": {
+        "notes": { "type": "array", "items": { "type": "string" } },
+        "indexation": { "type": ["string", "null"] },
+        "page": { "type": ["integer", "null"] }
+      }
+    },
+
+    "special_conditions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [],
+        "additionalProperties": true,
+        "properties": {
+          "name": { "type": ["string", "null"] },
+          "description": { "type": "string" },
+          "page": { "type": ["integer", "null"] }
+        }
+      }
+    },
+
+    "key_quotes": {
+      "type": "array",
+      "description": "Verbatim quotes worth preserving exactly (checked by verify_grounding.py). Accepts either objects {quote, page} or bare strings; extract.py normalizes strings to objects.",
+      "items": {
+        "type": ["object", "string"],
+        "additionalProperties": true,
+        "properties": {
+          "quote": { "type": "string" },
+          "context": { "type": ["string", "null"] },
+          "page": { "type": ["integer", "null"] }
+        }
+      }
+    },
+
+    "gaps": {
+      "type": "array",
+      "description": "Explicit notes about what could NOT be extracted (scanned pages, ambiguous sections, missing info). Honesty over false completeness.",
+      "items": { "type": "string" }
+    }
+  }
+}

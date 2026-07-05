@@ -1,0 +1,23 @@
+# Pipeline dependencies (free stack - no paid dependency to scrape/download).
+# Extraction calls an LLM via a provider adapter; install only the SDK you use.
+
+# Scraping & download (free)
+httpx>=0.27
+playwright>=1.44          # JS-heavy listing pages fallback; run `playwright install chromium`
+selectolax>=0.3           # fast HTML parsing for discovery
+
+# PDF text extraction (ground truth for the hybrid extractor)
+pymupdf>=1.24             # primary text extraction (import fitz)
+pdfplumber>=0.11          # fallback / table-aware extraction
+
+# Data / validation
+pyyaml>=6.0
+jsonschema>=4.20
+
+# LLM provider SDKs - install ONLY the one matching your LLM_PROVIDER.
+# They are intentionally left commented so `pip install -r requirements.txt`
+# stays lightweight; uncomment your provider (or `pip install` it directly).
+#   anthropic:  pip install "anthropic>=0.40"
+#   gemini:     pip install "google-genai>=0.3"
+#   openai:     pip install "openai>=1.40"
+#   local:      no SDK needed - the Ollama adapter uses httpx

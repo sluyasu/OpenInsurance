@@ -1,0 +1,373 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "be",
+  "insurer_slug": "axa",
+  "insurer_name": "AXA Belgium",
+  "branch": "velo",
+  "document_type": "ipid",
+  "language": "fr",
+  "source_url": "https://cdn.website.axa.be/fr-be/-/media/axa-documents/library-public/ipid/8/2/7/9/4/Confort%20V%C3%A9lo+%20-%20Fiches%20IPID.pdf",
+  "product_name": "Confort Vélo+",
+  "reference": "4186538",
+  "edition_date": "10.2024",
+  "target_audience": null,
+  "branch_code": null,
+  "product_family": "Confort Vélo+",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_pages": 2,
+  "source_pdf": "confort-velo-f1c51375.pdf",
+  "source_sha256": "cc7c4353106f37a4fd9c70037444b30526198fac2c813b789d3082459cbe8ed2",
+  "fetched_at": "2026-07-05",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Confort Vélo+ est une assurance multirisque d'AXA Belgium qui couvre les dégâts matériels, le vol et l'assistance à/de vos vélos (VTT, vélo de course, autre type de vélo, y compris versions électriques) ou Engins de Déplacement Motorisés (EDM : trottinette électrique, monowheel, hoverboard, segway, skateboard électrique ou voiturette électrique). Elle se souscrit selon une formule Mono (un vélo/EDM désigné) ou Multi (jusqu'à 5 vélos/EDM de la famille), avec une couverture optionnelle Sécurité du Cycliste (personne seule ou famille). Elle ne comprend pas d'assurance de la responsabilité civile pour les dommages causés à des tiers.",
+  "definitions": [
+    {
+      "term": "Engins de Déplacement Motorisés (EDM)",
+      "definition": "trottinette électrique, monowheel, hoverboard, segway, skateboard électrique ou voiturette électrique",
+      "page": 1
+    },
+    {
+      "term": "Formule Mono",
+      "definition": "Le vélo ou EDM désigné",
+      "page": 1
+    },
+    {
+      "term": "Formule Multi",
+      "definition": "Les vélos ou EDM désignés de la famille (jusqu'à max. 5)",
+      "page": 1
+    },
+    {
+      "term": "Formule « Personne seule » (Sécurité du cycliste)",
+      "definition": "assuré",
+      "page": 1
+    },
+    {
+      "term": "Formule « Famille » (Sécurité du cycliste)",
+      "definition": "preneur + conjoint et enfants cohabitants + enfants mineurs non-cohabitants + enfants étudiants célibataires < 26 ans",
+      "page": 1
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Dégâts matériels",
+      "description": "Couvre les dégâts matériels causés par accident, transport du vélo/EDM, vandalisme ou malveillance. Les accessoires ajoutés postérieurement et l'équipement du cycliste sont couverts jusqu'à maximum 250 € (TVAC) pour ces 2 postes cumulés.",
+      "is_optional": false,
+      "territorial_scope": "Belgique + monde entier pour séjours de max 2 mois consécutifs",
+      "limits": null,
+      "sub_limits": [
+        "Accessoires ajoutés postérieurement et équipement du cycliste couverts jusqu'à maximum 250 € (TVAC) pour ces 2 postes cumulés"
+      ],
+      "deductible": "Franchise Dégâts Matériels : 80 € (tous vélos + EDM) ou 10% de la valeur d'achat à neuf (VTT et vélo de course)",
+      "conditions": [
+        "En cas de sinistre, déduction de 1% de la valeur d'achat à neuf du vélo/EDM à partir du 13ème mois ; à partir du 60ème mois, indemnisation en valeur réelle"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Vol",
+      "description": "Couvre le vol dans une habitation/un local/un véhicule fermé à clé, le vol à l'extérieur (avec cadenas attaché à un point d'attache fixe) et le bike-jacking (agression physique). Les accessoires ajoutés postérieurement sont couverts jusqu'à max. 250 € TVAC.",
+      "is_optional": false,
+      "territorial_scope": "Belgique + monde entier pour séjours de max 2 mois consécutifs",
+      "limits": null,
+      "sub_limits": [
+        "Accessoires ajoutés postérieurement couverts jusqu'à max. 250 € TVAC"
+      ],
+      "deductible": "Franchise Vol : 80 € (tous vélos + EDM) ou 10% de la valeur d'achat à neuf (VTT et vélo de course)",
+      "conditions": [
+        "Vol dans une habitation/un local/un véhicule fermé à clé",
+        "Vol à l'extérieur avec cadenas attaché à un point d'attache fixe",
+        "En cas de sinistre, déduction de 1% de la valeur d'achat à neuf du vélo/EDM à partir du 13ème mois ; à partir du 60ème mois, indemnisation en valeur réelle"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance",
+      "description": "Assistance suite à un accident de roulage, panne, pneu crevé, vandalisme, vol, perte de clé du cadenas et/ou cadenas bloqué. Comprend le dépannage sur place ; si le dépannage sur place n'est pas possible, transport chez le réparateur ou jusqu'au lieu de départ/arrivée (aussi pour les membres de la famille accompagnants + vélos/EDM) ; vélo de remplacement (taille adulte).",
+      "is_optional": false,
+      "territorial_scope": "Belgique + dans un rayon de 30 km hors de nos frontières",
+      "limits": "Max. 2 interventions par an",
+      "sub_limits": [
+        "Dépannage sur place",
+        "Si le dépannage sur place n'est pas possible, transport chez le réparateur ou jusqu'au lieu de départ/arrivée (aussi pour les membres de la famille accompagnants + vélos/EDM)",
+        "Vélo de remplacement (taille adulte)"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Max. 2 interventions par an"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Sécurité du cycliste",
+      "description": "Option couvrant les accidents lors de l'utilisation de tout vélo/EDM assurable en Confort Vélo+. Disponible en formule « Personne seule » (assuré) ou formule « Famille » (preneur + conjoint et enfants cohabitants + enfants mineurs non-cohabitants + enfants étudiants célibataires < 26 ans). Frais médicaux : 2.500 € par assuré victime ; Incapacité permanente : 100.000 € (seuil 10%) par assuré victime ; Décès : 5.000 € (pers. seule) – 50.000 € (famille) par assuré victime.",
+      "is_optional": true,
+      "territorial_scope": "Belgique + monde entier pour séjours de max 2 mois consécutifs",
+      "limits": null,
+      "sub_limits": [
+        "Frais médicaux : 2.500 € par assuré victime",
+        "Incapacité permanente : 100.000 € (seuil 10%) par assuré victime",
+        "Décès : 5.000 € (pers. seule) – 50.000 € (famille) par assuré victime"
+      ],
+      "deductible": "Franchise Sécurité du cycliste : 80 € en Frais Médicaux",
+      "conditions": [
+        "formule « Personne seule » (assuré) ou formule « Famille » (preneur + conjoint et enfants cohabitants + enfants mineurs non-cohabitants + enfants étudiants célibataires < 26 ans)",
+        "Accidents lors de l'utilisation de tout vélo/EDM assurable en Confort Vélo+"
+      ],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Transport rémunéré de personnes / biens",
+      "description": "Transport rémunéré de personnes / biens (taxi, livreur…)",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Pratique sportive à titre professionnel",
+      "description": "Pratique sportive à titre professionnel",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Effets personnels / objets transportés",
+      "description": "Effets personnels / objets transportés",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Compétition avec récompense pécuniaire",
+      "description": "Compétition avec récompense pécuniaire",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dépréciation / privation de jouissance temporaire",
+      "description": "Dépréciation / privation de jouissance temporaire pendant la période de réparation ou de remplacement",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Fait intentionnel ou faute lourde",
+      "description": "Fait intentionnel ou faute lourde (ivresse ou état analogue, pari ou défi, non-conformité du vélo/EDM suite à modification technique)",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Suicide ou tentative de suicide",
+      "description": "Suicide ou tentative de suicide",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Participation à des actes collectifs de violence",
+      "description": "Participation à des actes collectifs de violence, émeutes, mouvements populaires",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Guerre",
+      "description": "Guerre",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Vol nocturne en zone urbaine sans stationnement sécurisé",
+      "description": "Pendant le stationnement dans une commune de la Région de Bruxelles-Capitale (codes postaux entre 1000 et 1210) ou à Anvers (codes postaux 2000, 2040, 2100, 2140, 2170, 2180, 2600, 2610, 2660) survenu entre 22h et 6h, si le vélo ne se trouve pas dans une habitation, dans un box à vélos fermé à clé ou dans un local entièrement clos, couvert et fermé à clé",
+      "applies_to": "Vol",
+      "page": 1
+    },
+    {
+      "name": "Vol par/avec complicité d'un membre du foyer ou préposé",
+      "description": "Vol par/avec complicité d'un membre du foyer ou préposé",
+      "applies_to": "Vol",
+      "page": 1
+    },
+    {
+      "name": "Non présentation de l'antivol agréé, des clés ou de sa facture",
+      "description": "En cas de non présentation de l'antivol agréé ou des clés ou de sa facture",
+      "applies_to": "Vol",
+      "page": 1
+    },
+    {
+      "name": "Vol à l'extérieur des accessoires amovibles « électroniques »",
+      "description": "Vol à l'extérieur des accessoires amovibles « électroniques » (sauf batterie)",
+      "applies_to": "Vol",
+      "page": 1
+    },
+    {
+      "name": "Absence de facture et de photo (Vol)",
+      "description": "Pas de couverture en l'absence de facture et de photo du vélo/EDM assuré",
+      "applies_to": "Vol",
+      "page": 1
+    },
+    {
+      "name": "Usure, vice de construction ou défaut d'entretien",
+      "description": "Dégâts consécutifs à une usure, un vice de construction, de montage ou de matériaux, un défaut manifeste d'entretien",
+      "applies_to": "Dégâts matériels",
+      "page": 1
+    },
+    {
+      "name": "Dégâts aux seuls pneus ou accessoires amovibles « électroniques »",
+      "description": "Dégâts causés seulement aux pneus ou aux accessoires amovibles « électroniques »",
+      "applies_to": "Dégâts matériels",
+      "page": 1
+    },
+    {
+      "name": "Absence de facture et de photo (Dégâts matériels)",
+      "description": "Pas de couverture en l'absence de facture et de photo du vélo/EDM assuré",
+      "applies_to": "Dégâts matériels",
+      "page": 1
+    },
+    {
+      "name": "Balades organisées",
+      "description": "Balades organisées",
+      "applies_to": "Assistance",
+      "page": 1
+    },
+    {
+      "name": "Transport de groupe extrascolaire",
+      "description": "Transport de groupe extrascolaire",
+      "applies_to": "Assistance",
+      "page": 1
+    },
+    {
+      "name": "Immobilisation suite à une amende ou confiscation",
+      "description": "Immobilisation suite à une amende ou confiscation par les autorités",
+      "applies_to": "Assistance",
+      "page": 1
+    },
+    {
+      "name": "Maladie non consécutive à l'accident",
+      "description": "Maladie qui ne résulte pas de l'accident",
+      "applies_to": "Sécurité du cycliste",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": "Franchise Dégâts Matériels et Vol : 80 € (tous vélos + EDM) ou 10% de la valeur d'achat à neuf (VTT et vélo de course). Franchise Sécurité du cycliste : 80 € en Frais Médicaux.",
+    "variable": "10% de la valeur d'achat à neuf pour les VTT et vélos de course (Dégâts Matériels et Vol)",
+    "per_coverage": "Dégâts Matériels et Vol : 80 € (tous vélos + EDM) ou 10% de la valeur d'achat à neuf (VTT et vélo de course) ; Sécurité du cycliste : 80 € en Frais Médicaux",
+    "page": 2
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "description": "Déclarer exactement toutes les circonstances qui vous sont connues et que vous devez raisonnablement considérer comme constituant pour nous des éléments d'appréciation du risque",
+      "timing": "A la conclusion du contrat",
+      "sanction": null
+    },
+    {
+      "description": "Fournir les photos et factures du/des vélo(s)/EDM à assurer",
+      "timing": "A la conclusion du contrat",
+      "sanction": null
+    },
+    {
+      "description": "Déclarer toute modification de nature à entraîner une aggravation sensible et durable du risque de survenance de l'événement assuré (par exemple remplacement du vélo, ajout d'un nouveau vélo,…)",
+      "timing": "En cours de contrat",
+      "sanction": null
+    },
+    {
+      "description": "Prendre toutes mesures raisonnables pour prévenir et atténuer les conséquences du sinistre",
+      "timing": "En cas de sinistre",
+      "sanction": null
+    },
+    {
+      "description": "Déclarer le sinistre dès que possible, nous fournir sans retard tous renseignements utiles et répondre aux demandes qui vous sont faites pour déterminer les circonstances et fixer l'étendue de l'accident ou du sinistre (facture, devis de réparation,…)",
+      "timing": "En cas de sinistre",
+      "sanction": null
+    },
+    {
+      "description": "En cas de vol déposer plainte à la police et nous transmettre copie du procès-verbal, copie de la facture d'achat, l'antivol endommagé ou les clés du verrouillage et la preuve d'achat du système d'antivol",
+      "timing": "En cas de sinistre (vol)",
+      "sanction": null
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Prendre toutes mesures raisonnables pour prévenir et atténuer les conséquences du sinistre",
+      "deadline": null
+    },
+    {
+      "step": "Déclarer le sinistre et fournir tous renseignements utiles (facture, devis de réparation,…)",
+      "deadline": "dès que possible / sans retard"
+    },
+    {
+      "step": "En cas de vol : déposer plainte à la police et transmettre copie du procès-verbal, copie de la facture d'achat, l'antivol endommagé ou les clés du verrouillage et la preuve d'achat du système d'antivol",
+      "deadline": null
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Sauf dérogation, le contrat se souscrit pour un an. La durée, l'échéance annuelle et la date de prise d'effet de l'assurance sont indiquées dans les conditions particulières.",
+    "tacit_renewal": "Reconductible tacitement d'année en année, sauf si l'une des parties résilie le contrat",
+    "methods": [
+      "Par envoi recommandé, par exploit d'huissier ou remise de la lettre de résiliation contre récépissé"
+    ],
+    "special_rights": [
+      "A tout moment après l'expiration d'un délai d'1 an à compter de la prise d'effet du contrat d'assurance si vous êtes une personne physique et que le contrat d'assurance ne concerne pas, ou pas principalement, votre activité professionnelle"
+    ],
+    "notice_period": "Au moins 2 mois avant la date d'échéance annuelle du contrat"
+  },
+  "prescription_period": null,
+  "premium": {
+    "description": "Vous avez l'obligation de payer annuellement la prime et vous recevez pour cela une invitation à payer",
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "description": "Critères d'acceptation : Preneur et assurés résidant et domicilié en Belgique",
+      "page": 1
+    },
+    {
+      "description": "Critères d'acceptation : Prix d'achat neuf entre 500 € et 6.000 € (TVAC)",
+      "page": 1
+    },
+    {
+      "description": "Critères d'acceptation : Si vélo électrique ou EDM : Vitesse autonome max. 25 km/h – Vitesse non-autonome max. 45 km/h",
+      "page": 1
+    },
+    {
+      "description": "Critères d'acceptation : Vélo/EDM de max 1 an au moment de la souscription",
+      "page": 1
+    },
+    {
+      "description": "Indemnisation : En cas de sinistre, déduction de 1% de la valeur d'achat à neuf du vélo/EDM à partir du 13ème mois ; à partir du 60ème mois, indemnisation en valeur réelle",
+      "page": 1
+    },
+    {
+      "description": "Sous-assurance : si vous avez déclaré une valeur assurée inférieure à la valeur que vous auriez dû renseigner pour votre vélo/EDM, ou en cas de fausse déclaration sur le type, le matériau ou l'usage du vélo/EDM, une règle proportionnelle peut être appliquée",
+      "page": 2
+    },
+    {
+      "description": "Cette assurance ne comprend pas d'assurance de votre responsabilité civile pour les dommages causés à des tiers (couverte par l'assurance RC Familiale ou une autre assurance RC)",
+      "page": 1
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Confort Vélo+ est une assurance multirisque qui couvre les dégâts matériels, le vol et l’assistance à/de vos vélos (VTT, vélo de course, autre type de vélo, y compris versions électriques) ou Engins de Déplacement Motorisés (EDM, c’est-à-dire : trottinette électrique, monowheel, hoverboard, segway, skateboard électrique ou voiturette électrique)."
+    },
+    {
+      "quote": "En cas de sinistre, nous déduisons 1% de la valeur d’achat à neuf du vélo/EDM à partir du 13ème mois ; à partir de 60ème mois, nous indemnisons en valeur réelle."
+    },
+    {
+      "quote": "Franchise Dégâts Matériels et Vol : 80 € (tous vélos + EDM) ou 10% de la valeur d’achat à neuf (VTT et vélo de course)."
+    },
+    {
+      "quote": "Sauf dérogation, le contrat se souscrit pour un an et est reconductible tacitement d’année en année, sauf si l’une des parties résilie le contrat."
+    },
+    {
+      "quote": "Elle ne comprend pas d’assurance de votre responsabilité civile pour les dommages causés à des tiers (couverte par l’assurance RC Familiale ou une autre assurance RC)."
+    }
+  ],
+  "gaps": [
+    "Le document est une fiche IPID (aperçu) et indique lui-même que la liste des exclusions n'est pas exhaustive : « La liste ci-dessous n'est pas exhaustive. Consultez les conditions générales et/ou particulières pour plus de détails. »",
+    "Le délai de prescription (prescription_period) n'est pas mentionné dans le document.",
+    "Aucun délai d'attente (waiting_periods) n'est mentionné dans le document.",
+    "Les sanctions précises attachées aux obligations de l'assuré ne sont pas détaillées dans la fiche IPID."
+  ]
+}

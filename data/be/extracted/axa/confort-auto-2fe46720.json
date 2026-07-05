@@ -1,0 +1,581 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "be",
+  "insurer_slug": "axa",
+  "insurer_name": "AXA Belgium",
+  "branch": "auto",
+  "document_type": "ipid",
+  "language": "fr",
+  "source_url": "https://cdn.website.axa.be/fr-be/-/media/axa-documents/library-public/ipid/3/8/c/d/a/Confort%20Auto%20-%20Fiches%20IPID.pdf?rev=61403fbd02284a4fa311dd16b0714750",
+  "product_name": "Confort Auto",
+  "reference": "4186107 – 11.2025",
+  "edition_date": "11.2025",
+  "target_audience": null,
+  "branch_code": null,
+  "source_pages": 3,
+  "source_pdf": "confort-auto-2fe46720.pdf",
+  "source_sha256": "0f5008241955706053991774c04e968fd6f28c51b2e9e427edf2d17d8281d8d5",
+  "fetched_at": "2026-07-05",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Confort Auto est une assurance multirisque pour les voitures, mobilhomes, camionnettes, motocyclettes, cyclomoteurs, speed pedelecs, voiturettes, cycles motorisés et autres véhicules (engins de chantier, engins agricoles, plaques commerciales, ...). Elle comprend la garantie Responsabilité Civile obligatoire (RC AUTO) couvrant les dommages causés aux tiers à l'occasion de l'usage du véhicule assuré dans la circulation. Elle propose en outre des garanties optionnelles : Véhicule de remplacement, Protection du Véhicule, Protection des Personnes, Protection Juridique et Assistance.",
+  "definitions": [
+    {
+      "term": "cycles motorisés",
+      "definition": "tout véhicule dont la vitesse autonome maximale n'excède pas les 6 km/h mais dont la masse maximale est supérieure à 100 kg ou dont la vitesse autonome maximale n'excède pas 25 km/h mais dont la masse maximale est supérieure à 25 kg. Ne sont pas visés les véhicules qui sont destinés également à d'autres finalités que le simple déplacement",
+      "page": 1
+    },
+    {
+      "term": "autres véhicules",
+      "definition": "engins de chantier, engins agricoles, plaques commerciales, ... (ci-après \"autres véhicules\")",
+      "page": 1
+    },
+    {
+      "term": "Franchise",
+      "definition": "montant restant à votre charge. Les franchises sont reprises en conditions générales et/ou particulières de votre contrat.",
+      "page": 2
+    },
+    {
+      "term": "Sous-assurance",
+      "definition": "si vous avez déclaré une valeur assurée inférieure à la valeur que vous auriez dû renseigner pour votre véhicule, une règle proportionnelle sera appliquée.",
+      "page": 2
+    },
+    {
+      "term": "Recours",
+      "definition": "nous avons, dans certains cas (par exemple, en cas de conduite en état d'ivresse), le droit d'exiger le remboursement total ou partiel des indemnités payées. L'ensemble des cas sont repris dans les conditions générales et/ou particulières.",
+      "page": 2
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Responsabilité Civile (RC AUTO) - garantie obligatoire",
+      "description": "La Responsabilité Civile (RC) couvrant les dommages causés aux tiers à l'occasion de l'usage dans la circulation du véhicule assuré : dommages corporels ; dommages matériels ; dommages occasionnés aux vêtements et bagages personnels des passagers du véhicule assuré. Conformément à la législation, nous couvrons également les dommages causés aux usagers faibles et aux victimes innocentes.",
+      "is_optional": false,
+      "territorial_scope": "Pays repris sur le certificat d'assurance délivré à la souscription et à chaque renouvellement. L'intervention en RC en faveur des victimes innocentes est limitée aux sinistres survenus en Belgique.",
+      "limits": "en RC : limité au plafond prévu par la législation",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "1ère Assistance (extension comprise dans la prime de la garantie RC)",
+      "description": "La 1ère Assistance (sauf pour les «autres véhicules») en cas d'accident de la circulation (dépannage, poursuite du trajet, ...).",
+      "is_optional": false,
+      "territorial_scope": "Pays repris sur le certificat d'assurance délivré à la souscription et à chaque renouvellement.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "sauf pour les «autres véhicules»"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance réparation (extension comprise dans la prime de la garantie RC)",
+      "description": "L'assistance réparation (uniquement pour les voitures et camionnettes) : en cas d'accident en droit ou en complément de la garantie « Dégâts matériels », paiement des réparations directement au garage si vous choisissez de faire réparer votre véhicule dans un de nos garages conventionnés.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "uniquement pour les voitures et camionnettes"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Euro+ (extension comprise dans la prime de la garantie RC)",
+      "description": "Euro+ (sauf pour les «autres véhicules») : indemnisation du dommage corporel, subi suite à un accident en droit en Europe de l'Ouest, identique à celle qui serait perçue en Belgique.",
+      "is_optional": false,
+      "territorial_scope": "dans le cadre de la garantie EURO +, vous êtes couverts dans les pays de l'Europe de l'Ouest.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "sauf pour les «autres véhicules»"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Garantie BOB (extension comprise dans la prime de la garantie RC)",
+      "description": "Garantie BOB (uniquement pour les voitures, camionnettes et mobilhomes) : couverture des dommages corporels du BOB et des dommages matériels au véhicule causés par un BOB en cas de sinistre en tort. Si le preneur d'assurance est une personne morale, cette extension n'est applicable que si le contrat d'assurance mentionne les coordonnées du conducteur principal.",
+      "is_optional": false,
+      "territorial_scope": "dans le cadre de la garantie BOB, vous êtes couvert(e) en Belgique et jusqu'à 30 km au-delà de ses frontières.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "uniquement pour les voitures, camionnettes et mobilhomes",
+        "Si le preneur d'assurance est une personne morale, cette extension n'est applicable que si le contrat d'assurance mentionne les coordonnées du conducteur principal."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Protection du Véhicule - OMNIUM",
+      "description": "Protection du Véhicule (formule OMNIUM, 1 des 3 formules en fonction de l'âge et du type de véhicule) : couvre Incendie, Bris de vitres, Heurts d'animaux, Forces de la nature, Vol et tentative de vol, et Dégâts Matériels. Comprend les extensions suivantes : Frais d'extinction, Frais de garage provisoire, Frais de réparation provisoire, Frais de nettoyage, Frais comptés par la DIV, Frais de contrôle technique. Selon la formule souscrite et le type de véhicule, le véhicule est assuré en valeur catalogue, en valeur facture ou en valeur facture du véhicule neuf, avec une indemnisation en valeur réelle ou valeur agréée.",
+      "is_optional": true,
+      "territorial_scope": "Pays repris sur le certificat d'assurance délivré à la souscription et à chaque renouvellement.",
+      "limits": "Nos plafonds d'intervention financière dépendent des formules souscrites et sont précisés dans les conditions générales et/ou particulières de votre contrat.",
+      "sub_limits": [
+        "Incendie",
+        "Bris de vitres",
+        "Heurts d'animaux",
+        "Forces de la nature",
+        "Vol et tentative de vol",
+        "Dégâts Matériels",
+        "Extensions : Frais d'extinction, Frais de garage provisoire, Frais de réparation provisoire, Frais de nettoyage, Frais comptés par la DIV, Frais de contrôle technique"
+      ],
+      "deductible": "Franchise : montant restant à votre charge. Les franchises sont reprises en conditions générales et/ou particulières de votre contrat.",
+      "conditions": [
+        "formule en fonction de l'âge et du type de véhicule"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Protection du Véhicule - MINI-OMNIUM",
+      "description": "Protection du Véhicule (formule MINI-OMNIUM, 1 des 3 formules en fonction de l'âge et du type de véhicule) : couvre Incendie, Bris de vitres, Heurts d'animaux, Forces de la nature, Vol et tentative de vol. Ne couvre pas les Dégâts Matériels. Comprend les extensions suivantes : Frais d'extinction, Frais de garage provisoire, Frais de réparation provisoire, Frais de nettoyage, Frais comptés par la DIV, Frais de contrôle technique. Selon la formule souscrite et le type de véhicule, le véhicule est assuré en valeur catalogue, en valeur facture ou en valeur facture du véhicule neuf, avec une indemnisation en valeur réelle ou valeur agréée.",
+      "is_optional": true,
+      "territorial_scope": "Pays repris sur le certificat d'assurance délivré à la souscription et à chaque renouvellement.",
+      "limits": "Nos plafonds d'intervention financière dépendent des formules souscrites et sont précisés dans les conditions générales et/ou particulières de votre contrat.",
+      "sub_limits": [
+        "Incendie",
+        "Bris de vitres",
+        "Heurts d'animaux",
+        "Forces de la nature",
+        "Vol et tentative de vol",
+        "Extensions : Frais d'extinction, Frais de garage provisoire, Frais de réparation provisoire, Frais de nettoyage, Frais comptés par la DIV, Frais de contrôle technique"
+      ],
+      "deductible": "Franchise : montant restant à votre charge. Les franchises sont reprises en conditions générales et/ou particulières de votre contrat.",
+      "conditions": [
+        "formule en fonction de l'âge et du type de véhicule",
+        "ne couvre pas Dégâts Matériels"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Protection du Véhicule - Nature Protect",
+      "description": "Protection du Véhicule (formule Nature Protect, pour les voitures, camionnettes et mobilhomes) : couvre uniquement les Forces de la nature. Ne couvre pas Incendie, Bris de vitres, Heurts d'animaux, Vol et tentative de vol, ni Dégâts Matériels. Pas d'application de l'assurance en valeur catalogue / valeur facture / valeur facture du véhicule neuf pour Nature Protect.",
+      "is_optional": true,
+      "territorial_scope": "Pays repris sur le certificat d'assurance délivré à la souscription et à chaque renouvellement.",
+      "limits": "Nos plafonds d'intervention financière dépendent des formules souscrites et sont précisés dans les conditions générales et/ou particulières de votre contrat.",
+      "sub_limits": [
+        "Forces de la nature"
+      ],
+      "deductible": "Franchise : montant restant à votre charge. Les franchises sont reprises en conditions générales et/ou particulières de votre contrat.",
+      "conditions": [
+        "pour les voitures, camionnettes et mobilhomes",
+        "pas d'application de la valeur catalogue/facture pour Nature Protect"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Omnium XL (extension en Protection du Véhicule, en option)",
+      "description": "Omnium XL (uniquement pour les voitures, camionnettes et mobilhomes) : couverture des dommages aux parties vitrées des rétroviseurs et feux sans franchise, couverture pour la perte des clés, couverture pour les frais de vétérinaire de votre chien ou chat blessé durant le transport lors d'un sinistre couvert, indemnité pour couvrir les pertes indirectes suite à une perte totale.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [
+        "dommages aux parties vitrées des rétroviseurs et feux sans franchise",
+        "perte des clés",
+        "frais de vétérinaire de votre chien ou chat blessé durant le transport lors d'un sinistre couvert",
+        "indemnité pour couvrir les pertes indirectes suite à une perte totale"
+      ],
+      "deductible": "sans franchise (pour les dommages aux parties vitrées des rétroviseurs et feux)",
+      "conditions": [
+        "uniquement pour les voitures, camionnettes et mobilhomes"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Omnium XL Pro (extension en Protection du Véhicule, en option)",
+      "description": "Omnium XL Pro (uniquement pour les voitures et camionnettes à usage professionnel) : couverture des dommages aux parties vitrées des rétroviseurs et feux sans franchise, couverture pour la perte des clés, couverture pour les frais de vétérinaire de votre chien ou chat blessé durant le transport lors d'un sinistre couvert, indemnité pour couvrir les pertes indirectes suite à un sinistre couvert (que le véhicule soit réparable ou en perte totale).",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [
+        "dommages aux parties vitrées des rétroviseurs et feux sans franchise",
+        "perte des clés",
+        "frais de vétérinaire de votre chien ou chat blessé durant le transport lors d'un sinistre couvert",
+        "indemnité pour couvrir les pertes indirectes suite à un sinistre couvert (que le véhicule soit réparable ou en perte totale)"
+      ],
+      "deductible": "sans franchise (pour les dommages aux parties vitrées des rétroviseurs et feux)",
+      "conditions": [
+        "uniquement pour les voitures et camionnettes à usage professionnel"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Véhicule de remplacement",
+      "description": "Véhicule de remplacement (uniquement pour les voitures, camionnettes, mobihomes et motocyclettes) si le véhicule est immobilisé suite à un accident ou en cas de vol (option obligatoire pour les motocyclettes ou avec les garanties Protection du véhicule et Assistance véhicule).",
+      "is_optional": true,
+      "territorial_scope": "Pour la garantie Véhicule de remplacement, vous êtes couvert(e) en Belgique et jusqu'à 30 km au-delà de ses frontières.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "uniquement pour les voitures, camionnettes, mobihomes et motocyclettes",
+        "option obligatoire pour les motocyclettes ou avec les garanties Protection du véhicule et Assistance véhicule"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Protection des Personnes - formule forfaitaire",
+      "description": "Protection des Personnes (sauf pour les \"autres véhicules\") : indemnisation des lésions corporelles du conducteur (Sécurité du conducteur), formule forfaitaire (pour les voitures, camionnettes, mobilhomes, cyclomoteurs, speed pedelecs, voiturettes et cycles motorisés).",
+      "is_optional": true,
+      "territorial_scope": "Pour les garanties Assistance Personnes et Protection des Personnes, vous êtes couvert(e) dans le monde entier pour autant que vous ayez votre résidence habituelle en Belgique.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "sauf pour les \"autres véhicules\"",
+        "formule forfaitaire pour les voitures, camionnettes, mobilhomes, cyclomoteurs, speed pedelecs, voiturettes et cycles motorisés"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Protection des Personnes - formule indemnitaire",
+      "description": "Protection des Personnes (sauf pour les \"autres véhicules\") : indemnisation des lésions corporelles du conducteur (Sécurité du conducteur), formule indemnitaire (pour les voitures, camionnettes, mobilhomes et motocyclettes).",
+      "is_optional": true,
+      "territorial_scope": "Pour les garanties Assistance Personnes et Protection des Personnes, vous êtes couvert(e) dans le monde entier pour autant que vous ayez votre résidence habituelle en Belgique.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "sauf pour les \"autres véhicules\"",
+        "formule indemnitaire pour les voitures, camionnettes, mobilhomes et motocyclettes"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Protection juridique",
+      "description": "Protection juridique : défense amiable et en justice de vos intérêts suivant formules au choix : soit une protection complète en « tout risque sauf » (full) soit une formule de base où les garanties couvertes sont énumérés (fix).",
+      "is_optional": true,
+      "territorial_scope": "Pour la garantie Protection Juridique, les pays dans lesquels vous êtes couvert(e) dépendent de la formule souscrite.",
+      "limits": null,
+      "sub_limits": [
+        "formule « tout risque sauf » (full)",
+        "formule de base (fix)"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Assistance - Omni-Assistance",
+      "description": "Assistance (sauf pour les \"autres véhicules\"), en complément à la 1ère Assistance. Omni-Assistance (pour les voitures, camionnettes, mobilhomes et motocyclettes) : Assistance du véhicule en cas de panne ou d'accident du véhicule assuré, Assistance Personnes et Assistance Habitation.",
+      "is_optional": true,
+      "territorial_scope": "Pour la garantie Assistance véhicule, vous êtes couvert(e) dans les pays repris sur le certificat d'assurance. Pour la garantie Assistance Personnes, vous êtes couvert(e) dans le monde entier pour autant que vous ayez votre résidence habituelle en Belgique.",
+      "limits": null,
+      "sub_limits": [
+        "Assistance du véhicule en cas de panne ou d'accident",
+        "Assistance Personnes",
+        "Assistance Habitation"
+      ],
+      "deductible": null,
+      "conditions": [
+        "sauf pour les \"autres véhicules\"",
+        "pour les voitures, camionnettes, mobilhomes et motocyclettes"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Assistance - Assistance Véhicule",
+      "description": "Assistance (sauf pour les \"autres véhicules\"), en complément à la 1ère Assistance. Assistance Véhicule (pour les voitures, camionnettes, mobilhomes, motocyclettes, cyclomoteurs, speed pedelecs, voiturettes et cycles motorisés) : Assistance en cas de panne ou d'accident du véhicule assuré.",
+      "is_optional": true,
+      "territorial_scope": "Pour la garantie Assistance véhicule, vous êtes couvert(e) dans les pays repris sur le certificat d'assurance délivré à la souscription et à chaque renouvellement.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "sauf pour les \"autres véhicules\"",
+        "pour les voitures, camionnettes, mobilhomes, motocyclettes, cyclomoteurs, speed pedelecs, voiturettes et cycles motorisés"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Car Travel (extension en Assistance, en option)",
+      "description": "Car Travel : véhicule de remplacement de catégorie B à l'étranger pendant 15 jours max, rapatriement des assurés si le véhicule n'est pas réparé/retrouvé à la fin du séjour, véhicule de remplacement au retour en Belgique pendant 7 jours max (15 jours max si vous choisissez un garage conventionné pour les réparations).",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "véhicule de remplacement de catégorie B à l'étranger pendant 15 jours max ; véhicule de remplacement au retour en Belgique pendant 7 jours max (15 jours max si vous choisissez un garage conventionné pour les réparations)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Car Travel XL (extension en Assistance, en option)",
+      "description": "Car Travel XL (sauf pour les motocyclettes) : option identique à Car Travel sauf qu'à l'étranger, véhicule de remplacement de même catégorie que le véhicule assuré (max catégorie E) ou une camionnette si le véhicule assuré est une camionnette.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "à l'étranger, véhicule de remplacement de même catégorie que le véhicule assuré (max catégorie E) ou une camionnette si le véhicule assuré est une camionnette",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "sauf pour les motocyclettes"
+      ],
+      "page": 2
+    },
+    {
+      "name": "People travel (extension en Assistance, en option)",
+      "description": "People travel (uniquement dans la formule Omni-Assistance) : plafond d'intervention dans les frais médicaux plus élevé, indemnité prévue (y compris pour les activités déjà réservées) en cas d'interruption du voyage suite à une maladie ou un accident.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [
+        "plafond d'intervention dans les frais médicaux plus élevé",
+        "indemnité prévue (y compris pour les activités déjà réservées) en cas d'interruption du voyage suite à une maladie ou un accident"
+      ],
+      "deductible": null,
+      "conditions": [
+        "uniquement dans la formule Omni-Assistance"
+      ],
+      "page": 2
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Responsabilité du voleur ou du receleur",
+      "description": "en RC : Responsabilité du voleur ou du receleur",
+      "applies_to": "Responsabilité Civile (RC AUTO) - garantie obligatoire",
+      "page": 1
+    },
+    {
+      "name": "Dommages au véhicule assuré",
+      "description": "en RC : Dommages au véhicule assuré",
+      "applies_to": "Responsabilité Civile (RC AUTO) - garantie obligatoire",
+      "page": 1
+    },
+    {
+      "name": "Dommage corporel du conducteur du véhicule assuré",
+      "description": "en RC : Dommage corporel du conducteur du véhicule assuré",
+      "applies_to": "Responsabilité Civile (RC AUTO) - garantie obligatoire",
+      "page": 1
+    },
+    {
+      "name": "Dommages aux biens transportés à titre professionnel et onéreux",
+      "description": "en RC : Dommages aux biens transportés à titre professionnel et onéreux (sauf vêtements et bagages personnels des passagers)",
+      "applies_to": "Responsabilité Civile (RC AUTO) - garantie obligatoire",
+      "page": 1
+    },
+    {
+      "name": "Dommages causés par le seul fait des biens transportés",
+      "description": "en RC : Dommages qui ne résultent pas de l'usage du véhicule mais qui sont causés par le seul fait des biens transportés ou par les manipulations nécessitées par ce transport",
+      "applies_to": "Responsabilité Civile (RC AUTO) - garantie obligatoire",
+      "page": 1
+    },
+    {
+      "name": "Dommages relevant de la RC dans le domaine de l'énergie nucléaire",
+      "description": "en RC : Dommages dont la réparation est organisée par la législation relative à la RC dans le domaine de l'énergie nucléaire",
+      "applies_to": "Responsabilité Civile (RC AUTO) - garantie obligatoire",
+      "page": 1
+    },
+    {
+      "name": "Dommages découlant de courses ou concours de vitesse",
+      "description": "en RC : Dommages découlant de la participation du véhicule assuré à des courses ou concours de vitesse, de régularité ou d'adresse autorisés.",
+      "applies_to": "Responsabilité Civile (RC AUTO) - garantie obligatoire",
+      "page": 1
+    },
+    {
+      "name": "Dégâts Matériels - manque d'entretien et objets transportés",
+      "description": "en Protection du véhicule, en Dégâts Matériels : les dommages résultant d'un manque d'entretien du véhicule, les dommages aux objets transportés ou aux équipements détachés du véhicule.",
+      "applies_to": "Protection du Véhicule - OMNIUM",
+      "page": 1
+    },
+    {
+      "name": "Vol - absence des mesures de prévention",
+      "description": "en Protection du véhicule, en Vol : le dommage résultant de l'absence des mesures de prévention.",
+      "applies_to": "Protection du Véhicule - OMNIUM",
+      "page": 1
+    },
+    {
+      "name": "Protection du véhicule - sinistres survenus sur circuit",
+      "description": "en Protection du véhicule : les sinistres survenus sur circuit.",
+      "applies_to": "Protection du Véhicule - OMNIUM",
+      "page": 1
+    },
+    {
+      "name": "Véhicule de remplacement - panne, erreur de carburant ou de remplissage d'AdBlue",
+      "description": "en Véhicule de remplacement : les cas de panne, d'erreur de carburant ou de remplissage d'AdBlue.",
+      "applies_to": "Véhicule de remplacement",
+      "page": 1
+    },
+    {
+      "name": "Protection juridique - amendes",
+      "description": "en Protection juridique : les amendes faisant suite à une infraction.",
+      "applies_to": "Protection juridique",
+      "page": 1
+    },
+    {
+      "name": "Assistance - prestations non organisées par nous",
+      "description": "en Assistance : les prestations qui n'ont pas été organisées par nous ou faites sans notre accord.",
+      "applies_to": "Assistance - Omni-Assistance",
+      "page": 1
+    },
+    {
+      "name": "Garanties hors RC - acte intentionnel de l'assuré",
+      "description": "Dans les garanties autres que la RC, les dommages résultant d'un acte intentionnel de l'assuré.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Garanties hors RC - faute lourde de l'assuré",
+      "description": "Dans les garanties autres que la RC, les dommages résultant d'une faute lourde de l'assuré (comme l'ivresse ou un pari).",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Garanties hors RC - concours de vitesse ou d'adresse",
+      "description": "Dans les garanties autres que la RC, les dommages résultant d'un concours de vitesse ou d'adresse.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Garanties hors RC - risque nucléaire",
+      "description": "Dans les garanties autres que la RC, les dommages résultant d'un risque nucléaire.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Garanties hors RC - non-conformité au contrôle technique",
+      "description": "Dans les garanties autres que la RC, les dommages résultant de la non-conformité du véhicule à la réglementation sur le contrôle technique.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Garanties hors RC - actes collectifs de violence",
+      "description": "Dans les garanties autres que la RC, les dommages découlant d'actes collectifs de violence.",
+      "applies_to": "all",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": "Franchise : montant restant à votre charge. Les franchises sont reprises en conditions générales et/ou particulières de votre contrat.",
+    "variable": null,
+    "per_coverage": "Les franchises sont reprises en conditions générales et/ou particulières de votre contrat. En Omnium XL / Omnium XL Pro, couverture des dommages aux parties vitrées des rétroviseurs et feux sans franchise.",
+    "page": 2
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "description": "A la conclusion du contrat : déclarer exactement toutes les circonstances qui vous sont connues et que vous devez raisonnablement considérer comme constituant pour nous des éléments d'appréciation du risque.",
+      "timing": "A la conclusion du contrat",
+      "sanction": null,
+      "page": 3
+    },
+    {
+      "description": "En cours de contrat : déclarer tout changement pouvant constituer une modification sensible et durable du risque. Exemples : changement du conducteur principal du véhicule, passage d'un usage privé du véhicule à un usage professionnel, modifications relatives aux caractéristiques du véhicule, …",
+      "timing": "En cours de contrat",
+      "sanction": null,
+      "page": 3
+    },
+    {
+      "description": "En cas de sinistre : prendre toutes mesures raisonnables pour prévenir et atténuer les conséquences du sinistre.",
+      "timing": "En cas de sinistre",
+      "sanction": null,
+      "page": 3
+    },
+    {
+      "description": "En cas de sinistre : déclarer dans les délais précisés dans les conditions générales et en tout cas aussi rapidement que cela peut raisonnablement se faire, le sinistre, ses circonstances exactes, l'étendue du dommage et des lésions, …",
+      "timing": "En cas de sinistre - dans les délais précisés dans les conditions générales et aussi rapidement que raisonnablement possible",
+      "sanction": null,
+      "page": 3
+    },
+    {
+      "description": "En cas de sinistre : en Protection juridique déclarer le sinistre au bureau de règlement des sinistres choisi par AXA pour ce faire. À savoir Legal Village S.A., Rue de la Pépinière 25 à 1000 Bruxelles ou par e-mail à declaration@legalvillage.be.",
+      "timing": "En cas de sinistre (Protection juridique)",
+      "sanction": null,
+      "page": 3
+    },
+    {
+      "description": "En cas de sinistre : collaborer au règlement du sinistre. Exemples : recevoir notre expert, transmettre les actes judiciaires, …",
+      "timing": "En cas de sinistre",
+      "sanction": null,
+      "page": 3
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Prendre toutes mesures raisonnables pour prévenir et atténuer les conséquences du sinistre.",
+      "deadline": null
+    },
+    {
+      "step": "Déclarer le sinistre, ses circonstances exactes, l'étendue du dommage et des lésions.",
+      "deadline": "dans les délais précisés dans les conditions générales et en tout cas aussi rapidement que cela peut raisonnablement se faire"
+    },
+    {
+      "step": "En Protection juridique, déclarer le sinistre au bureau de règlement des sinistres choisi par AXA : Legal Village S.A., Rue de la Pépinière 25 à 1000 Bruxelles ou par e-mail à declaration@legalvillage.be.",
+      "deadline": null
+    },
+    {
+      "step": "Collaborer au règlement du sinistre (recevoir l'expert, transmettre les actes judiciaires, …).",
+      "deadline": null
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "La durée, l'échéance annuelle et la date de prise d'effet de l'assurance sont indiquées dans les conditions particulières. Sauf dérogation, le contrat se souscrit pour un an.",
+    "tacit_renewal": "reconductible tacitement d'année en année sauf si l'une des parties résilie le contrat.",
+    "methods": [
+      "Vous pouvez résilier votre contrat par envoi recommandé, par exploit d'huissier ou remise de la lettre de résiliation contre récépissé."
+    ],
+    "special_rights": [
+      "A tout moment après l'expiration d'un délai d'1 an à compter de la prise d'effet du contrat d'assurance si vous êtes une personne physique et que le contrat d'assurance ne concerne pas, ou pas principalement, votre activité professionnelle."
+    ],
+    "notice_period": "Au moins 2 mois avant la date d'échéance annuelle du contrat. A tout moment après l'expiration d'un délai d'1 an à compter de la prise d'effet du contrat d'assurance si vous êtes une personne physique et que le contrat d'assurance ne concerne pas, ou pas principalement, votre activité professionnelle."
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "Vous avez l'obligation de payer annuellement la prime et vous recevez pour cela une invitation à payer. Sous certaines conditions, vous pouvez opter pour le fractionnement de votre prime moyennant un coût supplémentaire éventuel."
+    ]
+  },
+  "special_conditions": [
+    {
+      "description": "Montant de l'indemnisation : en RC, limité au plafond prévu par la législation ; pour les autres garanties, limité en fonction de la formule choisie.",
+      "page": 2
+    },
+    {
+      "description": "Sous-assurance : si vous avez déclaré une valeur assurée inférieure à la valeur que vous auriez dû renseigner pour votre véhicule, une règle proportionnelle sera appliquée.",
+      "page": 2
+    },
+    {
+      "description": "Recours : nous avons, dans certains cas (par exemple, en cas de conduite en état d'ivresse), le droit d'exiger le remboursement total ou partiel des indemnités payées. L'ensemble des cas sont repris dans les conditions générales et/ou particulières.",
+      "page": 2
+    },
+    {
+      "description": "Selon la formule souscrite et le type de véhicule, le véhicule est assuré en valeur catalogue, en valeur facture ou en valeur facture du véhicule neuf (pas d'application pour Nature Protect), avec une indemnisation en valeur réelle ou valeur agréée.",
+      "page": 2
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Confort Auto est une assurance multirisque pour les voitures, mobilhomes, camionnettes, motocyclettes, cyclomoteurs, speed pedelecs, voiturettes,  cycles motorisés",
+      "page": 1
+    },
+    {
+      "quote": "La Responsabilité Civile (RC) couvrant les dommages causés \naux tiers à l’occasion de l’usage dans la circulation du véhicule \nassuré :",
+      "page": 1
+    },
+    {
+      "quote": "Conformément à la législation, nous couvrons également \nles dommages causés aux usagers faibles et aux victimes \ninnocentes.",
+      "page": 1
+    },
+    {
+      "quote": "Recours  : nous avons, dans certains cas (par exemple, \nen cas de conduite en état d’ivresse), le droit d’exiger le \nremboursement total ou partiel des indemnités payées.",
+      "page": 2
+    },
+    {
+      "quote": "Sauf dérogation, le \ncontrat se souscrit pour un an et est reconductible tacitement d’année en année sauf si l’une des parties résilie le contrat.",
+      "page": 3
+    }
+  ],
+  "gaps": [
+    "Les plafonds d'intervention financière et les montants de franchise ne sont pas chiffrés dans l'IPID : ils dépendent des formules souscrites et sont renvoyés aux conditions générales et/ou particulières du contrat.",
+    "Le délai précis de déclaration de sinistre n'est pas indiqué : renvoyé aux conditions générales.",
+    "Le délai de prescription n'est pas mentionné dans le document.",
+    "La liste des exclusions de l'IPID n'est pas exhaustive (le document indique explicitement 'La liste ci-dessous n'est pas exhaustive') et se termine par '...' pour les garanties autres que la RC.",
+    "Les pays de couverture pour la Protection Juridique dépendent de la formule souscrite et ne sont pas énumérés dans le document."
+  ],
+  "superseded": null
+}

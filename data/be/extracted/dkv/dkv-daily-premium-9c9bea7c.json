@@ -1,0 +1,405 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "be",
+  "insurer_slug": "dkv",
+  "insurer_name": "DKV Belgium",
+  "branch": "sante",
+  "document_type": "ipid",
+  "language": "fr",
+  "source_url": "https://biblio.dkv.be/pdfbib.ashx?lang=fr&id=32229",
+  "product_name": "DKV DAILY Premium",
+  "reference": "32 229_FR_3_202508",
+  "edition_date": "202508",
+  "target_audience": "Toute personne physique n'ayant pas atteint l'âge de 70 ans à la conclusion du contrat, ayant son domicile / lieu de résidence et sa résidence fixe et habituelle / principale en Belgique, étant assujettie à la sécurité sociale belge et en bénéficiant.",
+  "branch_code": "81P",
+  "product_family": "DKV DAILY",
+  "variant": "Premium",
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_pages": 2,
+  "source_pdf": "dkv-daily-premium-9c9bea7c.pdf",
+  "source_sha256": "e5b7c4fa6dd042f95b404d1f6a7ce1a5c9ef13d6b7671478bdda8125d036d4ad",
+  "fetched_at": "2026-07-05",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "DKV DAILY Premium est une assurance individuelle soins de santé ambulatoires sans hospitalisation, à caractère indemnitaire, complémentaire à l'intervention de l'assurance maladie légale belge. Elle rembourse les frais médicaux ambulatoires (y compris les suppléments d'honoraires) provenant de consultations et/ou traitements fournis et/ou prescrits par un prestataire de soins reconnu 365 jours/an, à 80% jusqu'à € 20.000 par année d'assurance sous réserve de sous-limites spécifiques. Elle peut être souscrite par toute personne physique n'ayant pas atteint l'âge de 70 ans à la conclusion du contrat, résidant en Belgique et assujettie à la sécurité sociale belge.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Soins ambulatoires",
+      "description": "Remboursement des frais médicaux ambulatoires, y compris les suppléments d'honoraires, provenant de consultations et/ou de traitements ambulatoires fournis et/ou prescrits par un prestataire de soins de santé reconnu 365 jours/an, restant à la charge de l'assuré après déduction de toute intervention légale/statutaire ou autre. Ce taux de remboursement est maintenu en cas de non-intervention de l'assurance maladie légale belge.",
+      "is_optional": false,
+      "territorial_scope": "Belgique ; dans le cas spécifique des soins ambulatoires urgents à l'étranger, valable dans le monde entier",
+      "limits": "A 80% jusqu'à € 20.000 par année d'assurance sous réserve des sous-limites spécifiques",
+      "sub_limits": [
+        "Vaccins jusqu'à € 100 par an",
+        "Psychothérapie jusqu'à € 500 par an après un stage spécifique de 12 mois",
+        "Conseil en diététique jusqu'à € 100 par an",
+        "Chirurgie oculaire réfractive (p. ex. LASIK) jusqu'à € 1.000 par œil après stage spécifique de 36 mois"
+      ],
+      "deductible": "Une éventuelle franchise annuelle dont le montant est déterminé dans les Conditions Particulières d'Assurance",
+      "conditions": [
+        "Un stage général de 3 mois est applicable",
+        "Remboursement des frais de logopédie et de procréation médicalement assistée sous réserve d'une autorisation préalable et d'un remboursement par l'assurance obligatoire soins de santé et indemnités",
+        "Les soins de santé mentale de première ligne (la psychothérapie) sans intervention de l'assurance maladie légale doivent être dispensés par un psychologue clinicien",
+        "Un délai de renouvèlement de 3 ans s'applique pour les verres correcteurs de lunettes, sauf en cas de changement de dioptrie supérieur à 0,5"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Traitement médical",
+      "description": "Consultations et prestations médicales auprès d'un médecin généraliste et d'un médecin spécialiste (p. ex. cardiologue, pédiatre), imagerie médicale, biologie clinique et autres examens.",
+      "is_optional": false,
+      "territorial_scope": "Belgique ; monde entier pour les soins ambulatoires urgents à l'étranger",
+      "limits": "A 80% jusqu'à € 20.000 par année d'assurance",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Traitement paramédical",
+      "description": "Consultations et prestations paramédicales auprès de kinésithérapeutes, infirmières, sage-femmes, podologues et logopèdes.",
+      "is_optional": false,
+      "territorial_scope": "Belgique ; monde entier pour les soins ambulatoires urgents à l'étranger",
+      "limits": "A 80% jusqu'à € 20.000 par année d'assurance",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Remboursement des frais de logopédie sous réserve d'une autorisation préalable et d'un remboursement par l'assurance obligatoire soins de santé et indemnités"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Medicaments",
+      "description": "Remboursement des médicaments.",
+      "is_optional": false,
+      "territorial_scope": "Belgique ; monde entier pour les soins ambulatoires urgents à l'étranger",
+      "limits": "A 80% jusqu'à € 20.000 par année d'assurance",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Dispositifs médicaux",
+      "description": "Remboursement des dispositifs médicaux (p. ex. verres correcteurs de lunettes ou lentilles de contact, prothèses médicales et membres artificiels, semelles orthopédiques, appareils auditifs, béquilles, etc.).",
+      "is_optional": false,
+      "territorial_scope": "Belgique ; monde entier pour les soins ambulatoires urgents à l'étranger",
+      "limits": "A 80% jusqu'à € 20.000 par année d'assurance",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Un délai de renouvèlement de 3 ans s'applique pour les verres correcteurs de lunettes, sauf en cas de changement de dioptrie supérieur à 0,5"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Traitement préventif",
+      "description": "Remboursement des traitements préventifs comprenant les vaccins, la psychothérapie, le conseil en diététique, les traitements alternatifs et la chirurgie oculaire réfractive.",
+      "is_optional": false,
+      "territorial_scope": "Belgique ; monde entier pour les soins ambulatoires urgents à l'étranger",
+      "limits": "A 80% jusqu'à € 20.000 par année d'assurance",
+      "sub_limits": [
+        "Vaccins jusqu'à € 100 par an",
+        "Psychothérapie jusqu'à € 500 par an après un stage spécifique de 12 mois",
+        "Conseil en diététique jusqu'à € 100 par an",
+        "Chirurgie oculaire réfractive (p. ex. LASIK) jusqu'à € 1.000 par œil après stage spécifique de 36 mois"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Vaccins",
+      "description": "Remboursement des vaccins dans le cadre du traitement préventif.",
+      "is_optional": false,
+      "territorial_scope": "Belgique ; monde entier pour les soins ambulatoires urgents à l'étranger",
+      "limits": "jusqu'à € 100 par an",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Psychothérapie",
+      "description": "Remboursement de la psychothérapie dans le cadre du traitement préventif. Les soins de santé mentale de première ligne (la psychothérapie) sans intervention de l'assurance maladie légale doivent être dispensés par un psychologue clinicien.",
+      "is_optional": false,
+      "territorial_scope": "Belgique ; monde entier pour les soins ambulatoires urgents à l'étranger",
+      "limits": "jusqu'à € 500 par an après un stage spécifique de 12 mois",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "après un stage spécifique de 12 mois",
+        "sans intervention de l'assurance maladie légale doivent être dispensés par un psychologue clinicien"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Conseil en diététique",
+      "description": "Remboursement du conseil en diététique dans le cadre du traitement préventif.",
+      "is_optional": false,
+      "territorial_scope": "Belgique ; monde entier pour les soins ambulatoires urgents à l'étranger",
+      "limits": "jusqu'à € 100 par an",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Traitement alternatif",
+      "description": "Remboursement du traitement alternatif (homéopathie, ostéopathie, acupuncture, chiropractie), y compris les produits pharmaceutiques homéopathiques.",
+      "is_optional": false,
+      "territorial_scope": "Belgique ; monde entier pour les soins ambulatoires urgents à l'étranger",
+      "limits": "A 80% jusqu'à € 20.000 par année d'assurance",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Chirurgie oculaire réfractive",
+      "description": "Remboursement de la chirurgie oculaire réfractive (p. ex. LASIK) dans le cadre du traitement préventif.",
+      "is_optional": false,
+      "territorial_scope": "Belgique ; monde entier pour les soins ambulatoires urgents à l'étranger",
+      "limits": "jusqu'à € 1.000 par œil après stage spécifique de 36 mois",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "après stage spécifique de 36 mois"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Service AssurPharma",
+      "description": "AssurPharma : envoi automatisé à DKV des attestations par un pharmacien reconnu.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Frais encourus pendant le stage",
+      "description": "Tous les frais encourus pendant le stage.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Affections/symptômes préexistants",
+      "description": "Affections/symptômes préexistants à la conclusion du contrat d'assurance.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Soins esthétiques",
+      "description": "Soins esthétiques et frais induits par les soins esthétiques ambulatoires, excepté la chirurgie plastique reconstructive qui a été approuvée préalablement.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Chirurgie oculaire réfractive hors âge",
+      "description": "Chirurgie oculaire réfractive avant 25 ou après 49 ans.",
+      "applies_to": "Chirurgie oculaire réfractive",
+      "page": 1
+    },
+    {
+      "name": "Montures et verres non-correcteurs",
+      "description": "Montures de lunettes, verres non-correcteurs de lunettes (de soleil).",
+      "applies_to": "Dispositifs médicaux",
+      "page": 1
+    },
+    {
+      "name": "Tests génétiques préventifs",
+      "description": "Tests génétiques préventifs.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Produits d'hygiène et compléments",
+      "description": "Produits d'hygiène et cosmétiques, vitamines, minéraux et compléments alimentaires.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Stérilisation et contraception",
+      "description": "Frais autres qu'une consultation qui sont en lien avec une stérilisation, la contraception.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Soins dentaires",
+      "description": "Tous soins dentaires, y compris les prothèses dentaires.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Utilisation incorrecte de dispositifs médicaux",
+      "description": "Tous les frais résultants d'une utilisation incorrecte et/ou inappropriée de dispositifs médicaux, d'une négligence et d'une perte.",
+      "applies_to": "Dispositifs médicaux",
+      "page": 1
+    },
+    {
+      "name": "État d'ébriété ou intoxication",
+      "description": "Coûts résultants entre autres d'un état d'ébriété, intoxication punissable ou état analogue résultant de produits autres qu'alcoolisés.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Alcoolisme, toxicomanie, usage non conforme de médicaments",
+      "description": "Coûts résultants entre autres d'alcoolisme, toxicomanie, l'usage non conforme de médicaments.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Pratique sportive professionnelle ou rémunérée",
+      "description": "Coûts résultants entre autres de la pratique sportive professionnelle ou rémunérée incluant l'entraînement.",
+      "applies_to": "all",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": "Une éventuelle franchise annuelle dont le montant est déterminé dans les Conditions Particulières d'Assurance",
+    "variable": null,
+    "per_coverage": null,
+    "page": 1
+  },
+  "waiting_periods": [
+    {
+      "name": "Stage général",
+      "description": "Un stage général de 3 mois est applicable.",
+      "page": 1
+    },
+    {
+      "name": "Stage psychothérapie",
+      "description": "Psychothérapie remboursée après un stage spécifique de 12 mois.",
+      "page": 1
+    },
+    {
+      "name": "Stage chirurgie oculaire réfractive",
+      "description": "Chirurgie oculaire réfractive remboursée après stage spécifique de 36 mois.",
+      "page": 1
+    }
+  ],
+  "obligations": [
+    {
+      "description": "Remplir et signer correctement une proposition d'assurance, qui consiste en un questionnaire administratif et médical.",
+      "timing": null,
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "Déclarer chaque cas d'assurance à DKV par écrit, de préférence via le portail client digital ou l'application sur smartphone mis à disposition par DKV, en utilisant le(s) formulaire(s) de déclaration prévu(s) à cet effet et conformément aux directives et modalités décrites.",
+      "timing": null,
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "Demander l'autorisation de DKV préalablement à la location ou l'achat de tout dispositif médical, à l'exception des verres de lunettes ou lentilles de contact prescrites, des appareils auditifs entièrement non-implantables, des bandages pour hernies, des bas à varices, des semelles orthopédiques, des coquilles plâtrées, des lumbostats, des attelles et des béquilles.",
+      "timing": "préalablement à la location ou l'achat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "Prendre toutes les mesures raisonnables pour éviter et limiter les conséquences d'un cas d'assurance.",
+      "timing": null,
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "Signaler à DKV l'existence de tout autre accord pouvant donner lieu à un remboursement total ou partiel des frais réels encourus.",
+      "timing": null,
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "Entreprendre toutes les démarches pour obtenir une intervention au titre de toutes les éventuelles interventions ou prestations légales/statutaires, préalablement à toute demande d'indemnisation à DKV.",
+      "timing": "préalablement à toute demande d'indemnisation à DKV",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "Aviser DKV dans les 30 jours à compter du moment où les conditions pour le maintien du contrat d'assurance ne sont plus remplies. En particulier : tout changement de lieu de résidence ou de résidence principale ; tout séjour à l'étranger de plus de 90 jours consécutifs ou d'un séjour temporaire de plus de 6 mois dans les États membres de l'Union européenne (à l'exclusion des territoires d'outre-mer) des étudiants de moins de 26 ans, lorsqu'ils sont effectués en continuité de leurs études et rentrent dans des programmes unilatéraux ou multilatéraux ou dans le cadre d'une convention entre deux ou plusieurs établissements d'enseignement supérieur ; tout changement de statut de sécurité sociale ayant pour conséquence que l'assuré n'est plus assujetti à la sécurité sociale belge et ne peut plus en bénéficier.",
+      "timing": "dans les 30 jours",
+      "sanction": null,
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclarer chaque cas d'assurance à DKV par écrit, de préférence via le portail client digital ou l'application sur smartphone mis à disposition par DKV, en utilisant le(s) formulaire(s) de déclaration prévu(s) à cet effet et conformément aux directives et modalités décrites.",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Entreprendre toutes les démarches pour obtenir une intervention au titre de toutes les éventuelles interventions ou prestations légales/statutaires, préalablement à toute demande d'indemnisation à DKV.",
+      "deadline": "préalablement à toute demande d'indemnisation à DKV",
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Durée du contrat : à vie, non résiliable par l'assureur sauf exceptions prévues par la loi. La couverture commence après l'émission de la police et le paiement de la prime annuelle ou partielle convenue.",
+    "tacit_renewal": null,
+    "methods": [
+      "La notification de résiliation du contrat à l'assureur doit se faire par lettre recommandée, par exploit d'huissier ou par la remise d'une lettre de résiliation avec accusé de réception."
+    ],
+    "special_rights": [
+      "L'assureur peut résilier le contrat d'assurance en cas de non-paiement de la prime."
+    ],
+    "page": 2,
+    "notice_period": "Vous pouvez résilier votre contrat d'assurance à chaque date échéance annuelle en le notifiant à l'assureur au plus tard trois mois avant cette date."
+  },
+  "prescription_period": null,
+  "premium": {
+    "mechanics": "L'assureur vous envoie une invitation à payer votre prime annuelle. Moyennant la prise en compte de frais de fractionnement, vous avez possibilité de demander le paiement semestriel, trimestriel ou mensuel (via domiciliation SEPA uniquement) de votre prime.",
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "description": "Cette assurance peut être souscrite par toute personne physique ayant son domicile et sa résidence fixe et habituelle en Belgique. Cette assurance s'adresse à toute personne n'ayant pas atteint l'âge de 70 ans à la conclusion du contrat d'assurance, ayant son lieu de résidence et sa résidence principale en Belgique, étant assujetti à la sécurité sociale belge et en bénéficiant.",
+      "page": 1
+    },
+    {
+      "description": "Assurance individuelle soins de santé sans hospitalisation à caractère indemnitaire complémentaire à l'intervention de l'assurance maladie légale belge.",
+      "page": 1
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Soins ambulatoires : Remboursement des frais médicaux ambulatoires, y compris les suppléments d'honoraires, provenant de consultations et/ou de traitements ambulatoires fournis et/ou prescrits par un prestataire de soins de santé reconnu 365 jours/an, restant à la charge de l'assuré après déduction de toute intervention légale/statutaire ou autre"
+    },
+    {
+      "quote": "A 80% jusqu'à € 20.000 par année d'assurance sous réserve des sous-limites spécifiques mentionnées ci-dessous"
+    },
+    {
+      "quote": "Assurance individuelle soins de santé sans hospitalisation à caractère indemnitaire complémentaire à l'intervention de l'assurance maladie légale belge."
+    },
+    {
+      "quote": "Affections/symptômes préexistants à la conclusion du contrat d'assurance"
+    },
+    {
+      "quote": "Chirurgie oculaire réfractive avant 25 ou après 49 ans"
+    },
+    {
+      "quote": "Un stage général de 3 mois est applicable"
+    },
+    {
+      "quote": "La garantie d'assurance est valable en Belgique. Dans le cas spécifique des soins ambulatoires urgents à l'étranger, le plan d'assurance est également valable dans le monde entier."
+    },
+    {
+      "quote": "Durée du contrat : à vie, non résiliable par l'assureur sauf exceptions prévues par la loi."
+    }
+  ],
+  "gaps": [
+    "Le document est un IPID (aperçu général) et indique explicitement que les informations ne sont pas exhaustives ; les définitions détaillées, la période de prescription et le détail des franchises ne figurent pas dans ce document (renvoi aux Conditions Particulières/Générales d'Assurance).",
+    "Aucune section 'Définitions' n'est présente dans le document ; definitions[] est vide.",
+    "La période de prescription (prescription_period) n'est pas mentionnée dans le document.",
+    "Le montant de la franchise annuelle n'est pas indiqué : il est déterminé dans les Conditions Particulières d'Assurance.",
+    "Aucune mention de renouvellement tacite (tacit_renewal) : le contrat est à durée à vie."
+  ]
+}

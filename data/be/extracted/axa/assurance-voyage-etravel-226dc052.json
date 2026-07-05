@@ -1,0 +1,495 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "be",
+  "insurer_slug": "axa",
+  "insurer_name": "AXA Belgium",
+  "branch": "voyage",
+  "document_type": "ipid",
+  "language": "fr",
+  "source_url": "https://cdn.website.axa.be/fr-be/-/media/axa-documents/library-public/ipid/c/3/9/6/0/Fiche%20IPID%20Assurance%20Voyage%20eTravel.pdf",
+  "product_name": "Assurance Voyage eTravel",
+  "reference": "4186975 - 10.2025",
+  "edition_date": "10.2025",
+  "target_audience": null,
+  "branch_code": null,
+  "product_family": "Assurance Voyage eTravel",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_pages": 3,
+  "source_pdf": "assurance-voyage-etravel-226dc052.pdf",
+  "source_sha256": "f3596cb709062c759e1317f32c517553e03b6e2987495ed66b9b2efedd97d951",
+  "fetched_at": "2026-07-05",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Le produit Assurance Voyage eTravel est une assurance multirisque à souscrire en ligne, qui comprend en formule temporaire (Horizon - séjour de 45 jours maximum) ou en formule annuelle (Horizon : séjours de 90 jours consécutifs maximum et max. 180 jours au total par an ; Premium : séjours de 180 jours consécutifs maximum) une assistance personnes et les garanties optionnelles suivantes : assurance annulation/interruption de voyage et assurance bagages. En formule annuelle uniquement, l'assurance annulation/interruption de voyage peut être souscrite séparément.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Assistance médicale et personnes en Belgique",
+      "description": "Assistance médicale aux assurés, assistance aux enfants < 18 ans, aide-ménagère ou gardienne pour enfants < 18 ans en cas d'hospitalisation d'un parent (max. 200 € au total), assistance en cas de décès, mise à disposition d'un chauffeur, Doctors online.",
+      "is_optional": false,
+      "territorial_scope": "En Belgique",
+      "limits": "aide-ménagère ou gardienne pour enfants < 18 ans en cas d'hospitalisation d'un parent : max. 200 € au total",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Assistance complémentaire en Belgique (formule Premium)",
+      "description": "De plus en formule Premium : gardienne pour enfants < 18 ans en cas de maladie/blessures de l'enfant (max 10 h. consécutives/jour, 5 jours consécutifs et 10 jours/an), annulation de ticket d'entrée à un évènement (max. 1.000 €/assuré/événement).",
+      "is_optional": false,
+      "territorial_scope": "En Belgique",
+      "limits": "gardienne pour enfants < 18 ans en cas de maladie/blessures : max 10 h. consécutives/jour, 5 jours consécutifs et 10 jours/an ; annulation de ticket d'entrée à un évènement : max. 1.000 €/assuré/événement",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Formule Premium uniquement"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance à l'étranger en cas de maladie, accident ou décès",
+      "description": "Assistance à l'étranger en cas de maladie, accident ayant entraîné un dommage corporel ou le décès : rapatriement de l'assuré victime et des autres assurés s'ils ne peuvent rentrer en Belgique par les moyens initialement prévus ; paiement des frais médicaux à l'étranger ; prolongation du séjour à l'étranger.",
+      "is_optional": false,
+      "territorial_scope": "À l'étranger",
+      "limits": "paiement des frais médicaux à l'étranger jusqu'à 250.000 € (formule Horizon temporaire), 750.000 € (formule Horizon annuelle) ou 1.250.000 € (formule Premium) ; prolongation du séjour à l'étranger jusqu'à 125 € /nuit/chambre avec un plafond de 1.250 € au total",
+      "sub_limits": [
+        "frais médicaux : 250.000 € (formule Horizon temporaire)",
+        "frais médicaux : 750.000 € (formule Horizon annuelle)",
+        "frais médicaux : 1.250.000 € (formule Premium)",
+        "prolongation du séjour : 125 € /nuit/chambre, plafond 1.250 € au total"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Assistance en cas de pandémie déclarée par l'OMS",
+      "description": "En cas de sinistre consécutif à une pandémie d'une maladie infectieuse déclarée par l'OMS (Organisation Mondiale de la Santé), nous couvrons, à concurrence de max. 6.500 €, les frais suivants : frais médicaux, rapatriement, prise en charge des assurés de moins de 18 ans et mise à disposition d'un chauffeur, si les autorités belges ou les autorités du pays dans lequel se rend l'assuré ou les autorités européennes ont strictement déconseillé le voyage le jour du départ.",
+      "is_optional": false,
+      "territorial_scope": "À l'étranger",
+      "limits": "max. 6.500 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "si les autorités belges ou les autorités du pays dans lequel se rend l'assuré ou les autorités européennes ont strictement déconseillé le voyage le jour du départ"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Retour anticipé de l'/des assuré(s) de l'étranger",
+      "description": "Retour anticipé de l'/des assuré(s) de l'étranger.",
+      "is_optional": false,
+      "territorial_scope": "À l'étranger",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Indemnisation suite à une interruption du voyage (formule Horizon annuelle)",
+      "description": "Indemnisation suite à une interruption du voyage en formule Horizon annuelle : max. 1.000 €/assuré/voyage (formule Premium : max. 2.500 €) avec max. 2.000 €/assuré/année d'assurance (formule Premium : max. 5.000 €).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "max. 1.000 €/assuré/voyage (formule Premium : max. 2.500 €) avec max. 2.000 €/assuré/année d'assurance (formule Premium : max. 5.000 €)",
+      "sub_limits": [
+        "formule Horizon annuelle : max. 1.000 €/assuré/voyage, max. 2.000 €/assuré/année d'assurance",
+        "formule Premium : max. 2.500 €/assuré/voyage, max. 5.000 €/assuré/année d'assurance"
+      ],
+      "deductible": null,
+      "conditions": [
+        "formule Horizon annuelle"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Frais de recherche et de sauvetage à l'étranger",
+      "description": "Frais de recherche et de sauvetage à l'étranger jusqu'à 6.250 €/assuré (formule Premium : max. 10.000 €/assuré).",
+      "is_optional": false,
+      "territorial_scope": "À l'étranger",
+      "limits": "jusqu'à 6.250 €/assuré (formule Premium : max. 10.000 €/assuré)",
+      "sub_limits": [
+        "6.250 €/assuré (formule standard)",
+        "10.000 €/assuré (formule Premium)"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Remplacement d'urgence des vêtements, médicaments et produits de toilette (Assistance Personnes)",
+      "description": "Remplacement d'urgence des vêtements, des médicaments et des produits de toilette en cas de non-délivrance ou de retard de délivrance des bagages lors de l'aller du voyage (max. 125 €/assuré).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "max. 125 €/assuré",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "en cas de non-délivrance ou de retard de délivrance des bagages lors de l'aller du voyage"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Mise à disposition d'un chauffeur",
+      "description": "Mise à disposition d'un chauffeur.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Avance de la caution pénale et des honoraires de l'avocat",
+      "description": "Avance de la caution pénale et des honoraires de l'avocat.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Assistance en cas de perte ou vol de documents de voyage",
+      "description": "Assistance en cas de perte ou vol de documents de voyage (max. 65 € pour les frais de taxi pour un aller/retour à l'ambassade), frais de communication à l'étranger afin de nous contacter (max. 100 € avec un seuil d'intervention de 30 €).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "frais de taxi pour un aller/retour à l'ambassade : max. 65 € ; frais de communication à l'étranger : max. 100 € avec un seuil d'intervention de 30 €",
+      "sub_limits": [
+        "frais de taxi aller/retour à l'ambassade : max. 65 €",
+        "frais de communication à l'étranger : max. 100 € avec un seuil d'intervention de 30 €"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Prise en charge des frais vétérinaires du chat/chien",
+      "description": "Prise en charge des frais vétérinaires (max. 65 €) du chat/chien qui accompagne l'assuré en cas de maladie ou accident.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "max. 65 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "du chat/chien qui accompagne l'assuré en cas de maladie ou accident"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Doctors online",
+      "description": "Doctors online.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Rachat de la franchise du véhicule de location (formule Premium)",
+      "description": "Rachat de la franchise du véhicule de location (formule Premium uniquement - max. 2.500 €/sinistre).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "max. 2.500 €/sinistre",
+      "sub_limits": [],
+      "deductible": "Franchise véhicule de location (formule Premium) : 80 € par sinistre",
+      "conditions": [
+        "formule Premium uniquement"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Remboursement des activités prépayées, cours de sport et location de matériel de sport",
+      "description": "Remboursement des activités prépayées (formule Horizon : max. 125 €/assuré/voyage ; formule Premium : max 250 €/assuré/voyage), des cours de sport réservés (formule Horizon : max. 125 €/assuré/voyage ; formule Premium : max 250 €/assuré/voyage) et, en formule Premium, de la location du matériel de sport (max. 20 €/jour/assuré pendant 6 jours max.).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "activités prépayées et cours de sport réservés : formule Horizon max. 125 €/assuré/voyage, formule Premium max 250 €/assuré/voyage ; location de matériel de sport (formule Premium) : max. 20 €/jour/assuré pendant 6 jours max.",
+      "sub_limits": [
+        "activités prépayées : formule Horizon max. 125 €/assuré/voyage ; formule Premium max 250 €/assuré/voyage",
+        "cours de sport réservés : formule Horizon max. 125 €/assuré/voyage ; formule Premium max 250 €/assuré/voyage",
+        "location du matériel de sport (formule Premium) : max. 20 €/jour/assuré pendant 6 jours max."
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Annulation de voyage (option)",
+      "description": "Prise en charge des frais d'annulation, suite à un événement couvert, que vous devez supporter et que vous ne pouvez pas récupérer auprès de l'organisme de voyage à concurrence de 4.000 €/assuré et dans la limite du montant de la valeur du voyage en formule Horizon temporaire (en formules Horizon annuelle et Premium : max.2.500 €/assuré/voyage avec un plafond de 12.500 € par an pour l'ensemble des assurés). En formule annuelle, cette garantie peut être souscrite sans la garantie Assistance Personnes.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "4.000 €/assuré et dans la limite du montant de la valeur du voyage (formule Horizon temporaire) ; max. 2.500 €/assuré/voyage avec un plafond de 12.500 € par an pour l'ensemble des assurés (formules Horizon annuelle et Premium)",
+      "sub_limits": [
+        "formule Horizon temporaire : 4.000 €/assuré et dans la limite du montant de la valeur du voyage",
+        "formules Horizon annuelle et Premium : max. 2.500 €/assuré/voyage avec un plafond de 12.500 € par an pour l'ensemble des assurés"
+      ],
+      "deductible": null,
+      "conditions": [
+        "suite à un événement couvert",
+        "la garantie doit être souscrite dans les 7 jours après la réservation du voyage et au moins 30 jours avant la date de départ",
+        "en formule annuelle, cette garantie peut être souscrite sans la garantie Assistance Personnes"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Interruption de voyage (option)",
+      "description": "Prise en charge des frais d'interruption du voyage suite à un événement couvert calculés au prorata des jours non profités, que vous devez supporter et que vous ne pourrez pas récupérer auprès de l'organisme de voyage à concurrence de 4.000 €/assuré et dans la limite du montant de la valeur du voyage en formule Horizon temporaire (en formules Horizon annuelle et Premium : max. 2.500 €/assuré/voyage avec un plafond de 12.500 € par an pour l'ensemble des assurés).",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "4.000 €/assuré et dans la limite du montant de la valeur du voyage (formule Horizon temporaire) ; max. 2.500 €/assuré/voyage avec un plafond de 12.500 € par an pour l'ensemble des assurés (formules Horizon annuelle et Premium)",
+      "sub_limits": [
+        "formule Horizon temporaire : 4.000 €/assuré et dans la limite du montant de la valeur du voyage",
+        "formules Horizon annuelle et Premium : max. 2.500 €/assuré/voyage avec un plafond de 12.500 € par an pour l'ensemble des assurés"
+      ],
+      "deductible": null,
+      "conditions": [
+        "suite à un événement couvert",
+        "frais calculés au prorata des jours non profités",
+        "la garantie doit être souscrite dans les 7 jours après la réservation du voyage et au moins 30 jours avant la date de départ"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Bagages - Vol, dommages, destruction ou perte (option)",
+      "description": "Vol, dommages, destruction ou perte des bagages. Formule Horizon temporaire : max. 1.500 €/assuré/voyage – Formules Horizon annuelle et Premium : max. 2.500 €/assuré/voyage.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "Formule Horizon temporaire : max. 1.500 €/assuré/voyage ; Formules Horizon annuelle et Premium : max. 2.500 €/assuré/voyage",
+      "sub_limits": [
+        "Formule Horizon temporaire : max. 1.500 €/assuré/voyage",
+        "Formules Horizon annuelle et Premium : max. 2.500 €/assuré/voyage",
+        "objets spéciaux (montres, bijoux, ordinateur portable, …) : limité à 50% de la somme assurée",
+        "autres objets : intervention par objet limitée à 25% max. de la somme assurée"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Bagages - Remplacement des documents d'identité (option)",
+      "description": "Remplacement des documents d'identité (max. 250 €/voyage pour l'ensemble des documents).",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "max. 250 €/voyage pour l'ensemble des documents",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Bagages - Remplacement d'urgence des vêtements, médicaments et produits de toilette (option)",
+      "description": "Remplacement d'urgence des vêtements, des médicaments et des produits de toilette en cas de non-délivrance ou de retard de délivrance des bagages lors de l'aller du voyage (max. 250 €/voyage/assuré).",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "max. 250 €/voyage/assuré",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "en cas de non-délivrance ou de retard de délivrance des bagages lors de l'aller du voyage"
+      ],
+      "page": 2
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Faute lourde de l'assuré",
+      "description": "les dommages consécutifs à une faute lourde de l'assuré.",
+      "applies_to": "Assistance Personnes",
+      "page": 1
+    },
+    {
+      "name": "Sports pratiqués sans accompagnement par un moniteur",
+      "description": "les dommages consécutifs à la pratique des sports suivants sans accompagnement par un moniteur : vol à voile, parachutisme, parapente, deltaplane, ULM.",
+      "applies_to": "Assistance Personnes",
+      "page": 1
+    },
+    {
+      "name": "Sports extrêmes exclus",
+      "description": "les dommages consécutifs à la pratique des sports suivants : wingsuit, base jumping, saut à l'élastique ou benji, saut à ski sur tremplin, skeleton et bobsleigh.",
+      "applies_to": "Assistance Personnes",
+      "page": 1
+    },
+    {
+      "name": "Pandémie avec interdiction de se rendre à destination",
+      "description": "les sinistres survenus à l'étranger en cas de pandémie d'une maladie infectieuse déclarée par l'OMS si les autorités belges ou les autorités du pays dans lequel se rend l'assuré ou les autorités européennes ont interdit de s'y rendre au moment de son départ.",
+      "applies_to": "Assistance Personnes",
+      "page": 1
+    },
+    {
+      "name": "Maladie évitable par vaccination obligatoire non réalisée",
+      "description": "la maladie qui aurait pu être évitée par une vaccination obligatoire que l'assuré n'a pas réalisée avant son départ en voyage. Toutefois, cette exclusion n'est pas d'application dans le cadre de la pandémie Covid-19.",
+      "applies_to": "Assistance Personnes",
+      "page": 1
+    },
+    {
+      "name": "Catastrophe naturelle",
+      "description": "les tremblement de terre, éruption volcanique, raz-de-marée, inondation ou autre catastrophe naturelle.",
+      "applies_to": "Annulation et interruption de voyage",
+      "page": 1
+    },
+    {
+      "name": "Frais déjà remboursés ou pris en charge",
+      "description": "les frais déjà remboursés ou pris en charge par l'organisateur de voyage ou l'organisme de location.",
+      "applies_to": "Annulation et interruption de voyage",
+      "page": 1
+    },
+    {
+      "name": "Séjours en Belgique de moins de 2 nuitées",
+      "description": "les séjours en Belgique de moins de 2 nuitées.",
+      "applies_to": "Annulation et interruption de voyage",
+      "page": 1
+    },
+    {
+      "name": "Annulation/interruption en cas de pandémie avec déconseil ou interdiction",
+      "description": "les annulations et interruptions de voyage en cas de pandémie d'une maladie infectieuse déclarée par l'OMS si les autorités belges ou les autorités du pays dans lequel se rend l'assuré ou les autorités européennes ont déconseillé strictement, voire interdit de s'y rendre au moment de son départ.",
+      "applies_to": "Annulation et interruption de voyage",
+      "page": 1
+    },
+    {
+      "name": "Griffes, coups et déchirures aux valises et sacs de voyage",
+      "description": "les griffes, coups et déchirures survenus au cours du transport aux valises et sacs de voyage.",
+      "applies_to": "Bagages",
+      "page": 1
+    },
+    {
+      "name": "Valeurs, marchandises, espèces, lunettes, verres de contact et objets sans preuve d'achat",
+      "description": "les valeurs, marchandises, espèces, les lunettes et les verres de contact, les objets acquis au cours du voyage et dont l'assuré ne serait pas en possession d'une preuve d'achat.",
+      "applies_to": "Bagages",
+      "page": 1
+    },
+    {
+      "name": "Retards de livraison des bagages du fait des services douaniers",
+      "description": "les retards de livraison des bagages du fait des services douaniers.",
+      "applies_to": "Bagages",
+      "page": 1
+    },
+    {
+      "name": "Faits intentionnels, suicides et tentatives de suicide",
+      "description": "Dans les différentes garanties, sont exclus les faits intentionnels, les suicides et tentatives de suicide, …",
+      "applies_to": "all",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": "Franchise frais médicaux : 80 € par sinistre, sauf pour les soins dentaires urgents. Franchise véhicule de location (formule Premium) : 80 € par sinistre.",
+    "per_coverage": "Frais médicaux : 80 € par sinistre (sauf soins dentaires urgents) ; Véhicule de location (formule Premium) : 80 € par sinistre.",
+    "page": 2
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "description": "A la conclusion du contrat : déclarer exactement toutes les circonstances qui vous sont connues et que vous devez raisonnablement considérer comme constituant pour nous des éléments d'appréciation du risque.",
+      "timing": "A la conclusion du contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "En cours de contrat : déclarer toute modification de nature à entraîner une aggravation sensible et durable du risque de survenance de l'événement assuré.",
+      "timing": "En cours de contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "En cas de sinistre : prendre toutes mesures raisonnables pour prévenir et atténuer les conséquences du sinistre.",
+      "timing": "En cas de sinistre",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "En cas de sinistre : déclarer le sinistre dès que possible, nous fournir sans retard tous renseignements utiles et répondre aux demandes qui vous sont faites pour déterminer les circonstances et fixer l'étendue de l'accident ou du sinistre.",
+      "timing": "En cas de sinistre",
+      "sanction": null,
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "prendre toutes mesures raisonnables pour prévenir et atténuer les conséquences du sinistre",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "déclarer le sinistre dès que possible, nous fournir sans retard tous renseignements utiles et répondre aux demandes qui vous sont faites pour déterminer les circonstances et fixer l'étendue de l'accident ou du sinistre",
+      "deadline": "dès que possible / sans retard",
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Contrat temporaire (formule Horizon temporaire) : La durée, la date de prise d'effet et la date de fin de l'assurance sont indiquées dans les conditions particulières de votre contrat. Le contrat se souscrit pour une durée déterminée et prend fin à l'expiration de cette durée. Contrat annuel (formules Horizon et Premium) : La durée, l'échéance annuelle et la date de prise d'effet de l'assurance sont indiquées dans les conditions particulières. Le contrat se souscrit pour un an.",
+    "tacit_renewal": "Contrat annuel (formules Horizon et Premium) : Le contrat se souscrit pour un an et est reconductible tacitement pour des périodes consécutives d'un an sauf si l'une des parties le résilie. Le contrat temporaire (formule Horizon temporaire) prend fin automatiquement à la date de fin du contrat mentionnée dans les conditions particulières de votre contrat.",
+    "methods": [
+      "Vous pouvez résilier votre contrat par envoi recommandé, par exploit d'huissier ou remise de la lettre de résiliation contre récépissé."
+    ],
+    "special_rights": [
+      "Droit de rétractation : Contrat d'Assurance Voyage eTravel (formules Horizon et Premium) : parce que ce contrat est conclu en ligne, s'il y a 30 jours ou plus entre le jour de la conclusion en ligne de votre contrat et le jour où il prend fin (il s'agit du jour de la fin de votre séjour en cas de contrat d'assurance voyage temporaire), vous pouvez faire valoir votre droit à la rétractation dans les 14 jours calendrier qui suivent la conclusion du contrat, soit, à partir de la date d'envoi de l'e-mail confirmant la souscription, via e-mail : etravel@axa.be ou par envoi recommandé à AXA Belgium, place du Trône 1, 1000 Bruxelles. Vous ne devez pas motiver votre demande et aucune pénalité ne vous sera imposée. S'il y a 29 jours ou moins entre le jour de la conclusion en ligne de votre contrat d'assurance voyage et le jour où il prend fin, vous ne possédez pas de droit de rétractation pour ce contrat."
+    ],
+    "page": 3,
+    "notice_period": "Contrat annuel : Au moins 2 mois avant la date d'échéance annuelle du contrat. A tout moment après l'expiration d'un délai d'1 an à compter de la prise d'effet du contrat d'assurance si vous êtes une personne physique et que le contrat d'assurance ne concerne pas, ou pas principalement, votre activité professionnelle."
+  },
+  "prescription_period": null,
+  "premium": {
+    "description": "Vous avez l'obligation de payer la prime avant son échéance. Formule temporaire : le paiement se réalisera en ligne au moment de la souscription. Formule annuelle : le paiement se réalisera en ligne au moment de la souscription ou dès réception de votre invitation à payer selon l'information qui vous sera donnée à l'écran de paiement.",
+    "page": 3
+  },
+  "special_conditions": [
+    {
+      "description": "Zone de couverture : Pour autant que vous ayez votre résidence habituelle en Belgique, vous choisissez la zone de couverture que vous souhaitez : Monde entier, y compris Etats-Unis/Canada/Caraïbes ; Monde entier, sans Etats-Unis/Canada/Caraïbes ; Europe.",
+      "page": 2
+    },
+    {
+      "description": "Annulation et interruption de voyage : la garantie doit être souscrite dans les 7 jours après la réservation du voyage et au moins 30 jours avant la date de départ.",
+      "page": 2
+    },
+    {
+      "description": "Sports d'hiver : en formule Horizon temporaire, notre intervention n'est acquise en cas de sinistres consécutifs à une activité de sports sur neige ou sur glace que si vous déclarez, à la souscription du contrat, pratiquer cette activité.",
+      "page": 2
+    },
+    {
+      "description": "Bagages : notre intervention pour l'ensemble des objets spéciaux (montres, bijoux, ordinateur portable, …) est limitée à 50% de la somme assurée et pour les autres objets, notre intervention par objet est limitée à 25% max. de la somme assurée.",
+      "page": 2
+    },
+    {
+      "description": "Pas de cumul d'intervention des garanties prévues : en Assistance Personnes et en Annulation et Interruption de voyage en cas d'interruption de voyage ; en Assistance Personnes et en Bagages pour les achats de 1ère nécessité suite au retard, la perte, le vol ou la destruction des bagages.",
+      "page": 2
+    },
+    {
+      "description": "Formules et durées : formule temporaire (Horizon - séjour de 45 jours maximum) ou formule annuelle (Horizon : séjours de 90 jours consécutifs maximum et max. 180 jours au total par an ; Premium : séjours de 180 jours consécutifs maximum).",
+      "page": 1
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Le produit Assurance Voyage eTravel est une assurance multirisque à souscrire en ligne, qui comprend en formule temporaire (Horizon - séjour de 45 jours maximum) ou en formule annuelle (Horizon : séjours de 90 jours consécutifs maximum et max. 180 jours au total par an ; Premium : séjours de 180 jours consécutifs maximum) une assistance personnes et les garanties optionnelles suivantes : assurance annulation/interruption de voyage et assurance bagages."
+    },
+    {
+      "quote": "paiement des frais médicaux à l'étranger jusqu'à 250.000 € (formule Horizon temporaire), 750.000 € (formule Horizon annuelle) ou 1.250.000 € (formule Premium)."
+    },
+    {
+      "quote": "les dommages consécutifs à la pratique des sports suivants : wingsuit, base jumping, saut à l'élastique ou benji, saut à ski sur tremplin, skeleton et bobsleigh"
+    },
+    {
+      "quote": "Franchise frais médicaux : 80 € par sinistre, sauf pour les soins dentaires urgents."
+    },
+    {
+      "quote": "Annulation et interruption de voyage : la garantie doit être souscrite dans les 7 jours après la réservation du voyage et au moins 30 jours avant la date de départ."
+    },
+    {
+      "quote": "Dans les différentes garanties, sont exclus les faits intentionnels, les suicides et tentatives de suicide, …"
+    }
+  ],
+  "gaps": [
+    "Le document est une fiche IPID (aperçu non exhaustif) : il indique lui-même que la liste des couvertures et exclusions n'est pas exhaustive et renvoie aux conditions générales et/ou particulières. Plusieurs sections d'exclusions se terminent par « … » (Assistance Personnes, Annulation et interruption, Bagages), indiquant des exclusions supplémentaires non énumérées dans ce document.",
+    "Aucune section 'Définitions' n'est présente dans le document.",
+    "Aucun délai de prescription (prescription_period) n'est mentionné dans le document.",
+    "Les sanctions liées aux obligations de l'assuré ne sont pas précisées dans le document."
+  ]
+}

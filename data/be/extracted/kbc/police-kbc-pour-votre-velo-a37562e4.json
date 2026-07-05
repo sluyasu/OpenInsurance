@@ -1,0 +1,299 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "be",
+  "insurer_slug": "kbc",
+  "insurer_name": "KBC Bank & Verzekering",
+  "product_name": "Police KBC pour votre Vélo",
+  "branch": "velo",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": "particuliers",
+  "reference": null,
+  "edition_date": null,
+  "product_family": "Police KBC pour votre Vélo",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://multimediafiles.kbcgroup.eu/ng/published/KBC/PDF/VERZEKERINGEN/fiets/kbc-police-pour-votre-velo-informations.pdf",
+  "source_pdf": "police-kbc-pour-votre-velo-a37562e4.pdf",
+  "source_sha256": "4de2e5f527775c286353140fa3a4a0244df032f53182814fb06869ee88512ab8",
+  "source_pages": 2,
+  "fetched_at": "2026-07-05",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "La Police KBC pour votre Vélo est une assurance dommages qui couvre un nouveau vélo (électrique) contre les dommages et le vol. L'assurance dommages intervient dans le monde entier et s'agit d'une assurance 'tous risques'. Elle comprend également une assistance vélo complète (dépannage compris) 24h/24 et 7j/7, en collaboration avec VAB.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Votre vélo",
+      "description": "Tout vélo (comme un vélo de ville, vélo de course, mountainbike, vélo cargo, vélo couché, ...) de moins de 2 ans, selon son prix d'achat. Un vélo électrique peut également être assuré, s'il est équipé d'un moteur auxiliaire autonome permettant de rouler jusqu'à 25 km/h au maximum ou d'une assistance au pédalage permettant de rouler jusqu'à 45 km/h au maximum.",
+      "is_optional": false,
+      "territorial_scope": "Le monde entier",
+      "limits": "Selon son prix d'achat",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Vélo de moins de 2 ans",
+        "Vélo électrique : moteur auxiliaire autonome jusqu'à 25 km/h au maximum ou assistance au pédalage jusqu'à 45 km/h au maximum"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Les accessoires (siège vélo, sacoche ou remorque)",
+      "description": "Les accessoires (siège vélo, sacoche ou remorque) dont la valeur totale n'excède pas 300 EUR sont assurés gratuitement. Les accessoires dont la valeur totale excède 300 EUR sont assurés si leur valeur est incluse dans le montant assuré. Le vol et la dégradation des accessoires ne sont assurés que s'ils vont de pair avec un sinistre assuré au vélo.",
+      "is_optional": false,
+      "territorial_scope": "Le monde entier",
+      "limits": "Valeur totale n'excédant pas 300 EUR assurée gratuitement; au-delà de 300 EUR, assurés si leur valeur est incluse dans le montant assuré",
+      "sub_limits": [
+        "Valeur totale jusqu'à 300 EUR : assurés gratuitement",
+        "Valeur totale excédant 300 EUR : assurés si incluse dans le montant assuré"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le vol et la dégradation des accessoires ne sont assurés que s'ils vont de pair avec un sinistre assuré au vélo"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Dommages au casque",
+      "description": "En cas de sinistre assuré au vélo, nous indemnisons les dommages au casque jusqu'à 125 EUR au maximum.",
+      "is_optional": false,
+      "territorial_scope": "Le monde entier",
+      "limits": "Jusqu'à 125 EUR au maximum",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "En cas de sinistre assuré au vélo"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assurance 'tous risques'",
+      "description": "Cette assurance est une assurance 'tous risques'. Cela signifie que nous indemnisons en principe les dégâts au vélo ou son vol, sauf si ces dommages sont dus à un événement qui n'entre pas en considération pour l'assurance.",
+      "is_optional": false,
+      "territorial_scope": "Le monde entier",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Assistance vélo",
+      "description": "Notre assistance vélo vous vient en aide 24 heures sur 24 et 7 jours sur 7 en cas d'accident, de défaillance technique, de crevaison, de problème de batterie, de vandalisme, de vol ou de tentative de vol. Vous bénéficiez d'une assistance complète pour votre vélo (dépannage compris), en collaboration avec VAB.",
+      "is_optional": false,
+      "territorial_scope": "24 heures sur 24, 7 jours sur 7 dans le Benelux ainsi que jusqu'à 15 km au-delà des frontières belges avec l'Allemagne et la France",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "En cas d'accident, de défaillance technique, de crevaison, de problème de batterie, de vandalisme, de vol ou de tentative de vol"
+      ],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Vétusté ou manque d'entretien du vélo",
+      "description": "Dans l'assurance 'Tous risques' nous n'indemnisons pas les dommages dus à la vétusté ou à un manque d'entretien du vélo.",
+      "applies_to": "Assurance 'tous risques'",
+      "page": 1
+    },
+    {
+      "name": "Dommages sans répercussion sur l'utilisation du vélo",
+      "description": "Dans l'assurance 'Tous risques' nous n'indemnisons pas les dommages qui n'ont aucune répercussion sur l'utilisation du vélo.",
+      "applies_to": "Assurance 'tous risques'",
+      "page": 1
+    },
+    {
+      "name": "Usure normale",
+      "description": "Dans l'assurance 'Tous risques' nous n'indemnisons pas les dommages dus à l'usure normale, comme les éraflures, les petites bosses ou dommages à la peinture.",
+      "applies_to": "Assurance 'tous risques'",
+      "page": 1
+    },
+    {
+      "name": "Garantie ou contrat d'entretien",
+      "description": "Dans l'assurance 'Tous risques' nous n'indemnisons pas les dommages relevant de la garantie ou d'un contrat d'entretien.",
+      "applies_to": "Assurance 'tous risques'",
+      "page": 1
+    },
+    {
+      "name": "Pneus du vélo assuré",
+      "description": "Dans l'assurance 'Tous risques' nous n'indemnisons pas les dommages aux pneus du vélo assuré.",
+      "applies_to": "Assurance 'tous risques'",
+      "page": 1
+    },
+    {
+      "name": "Batterie ou chargeur d'un vélo électrique",
+      "description": "Dans l'assurance 'Tous risques' nous n'indemnisons pas les dommages à la dégradation ou le vol de la batterie ou du chargeur d'un vélo électrique assuré, à moins que le vélo n'ait également subi d'autres dommages assurés.",
+      "applies_to": "Assurance 'tous risques'",
+      "page": 1
+    },
+    {
+      "name": "Participation à des courses",
+      "description": "Dans l'assurance 'Tous risques' nous n'indemnisons pas les dommages qui surviennent pendant la participation à des courses.",
+      "applies_to": "Assurance 'tous risques'",
+      "page": 1
+    },
+    {
+      "name": "Non-respect des mesures de prévention (vol)",
+      "description": "Le vol n'est pas assuré si vous n'avez pas respecté les mesures de prévention imposées.",
+      "applies_to": "Assurance 'tous risques'",
+      "page": 1
+    },
+    {
+      "name": "Panne récurrente résultant d'un manque d'entretien (assistance)",
+      "description": "Nous n'envoyons pas de dépanneur dépanner votre vélo si vous ne pouvez pas poursuivre votre route en raison d'une panne récurrente résultant d'un manque d'entretien.",
+      "applies_to": "Assistance vélo",
+      "page": 1
+    },
+    {
+      "name": "Dommages intentionnels (assistance)",
+      "description": "Nous n'envoyons pas de dépanneur dépanner votre vélo si vous ne pouvez pas poursuivre votre route en raison de dommages que vous avez causés intentionnellement.",
+      "applies_to": "Assistance vélo",
+      "page": 1
+    },
+    {
+      "name": "Prestations non demandées",
+      "description": "Nous ne sommes pas tenus d'intervenir pour des prestations qui n'ont pas été demandées chez nous.",
+      "applies_to": "Assistance vélo",
+      "page": 1
+    },
+    {
+      "name": "Vélos loués ou pris en leasing / usage professionnel",
+      "description": "L'assurance ne s'applique pas aux vélos que vous louez ou prenez en leasing, qui sont donnés en location à titre professionnel ou qui sont utilisés à des fins professionnelles.",
+      "applies_to": "all",
+      "page": 2
+    },
+    {
+      "name": "Transport rémunéré de personnes et/ou de marchandises",
+      "description": "Les vélos utilisés pour le transport rémunéré de personnes et/ou de marchandises ne peuvent pas être assurés.",
+      "applies_to": "all",
+      "page": 2
+    }
+  ],
+  "deductibles": {
+    "standard": "En cas de sinistre, nous appliquons une franchise qui est mentionnée dans les conditions particulières.",
+    "variable": "À partir du 13e mois, nous appliquons un pourcentage d'amortissement de 1% par mois.",
+    "per_coverage": null,
+    "page": 2
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Information honnête à la souscription",
+      "description": "Au moment de la souscription du contrat, vous êtes tenu de nous communiquer une information honnête, précise et complète à propos du risque à assurer.",
+      "timing": "À la souscription",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Signalement des changements de risque",
+      "description": "Si des changements surviennent en cours de contrat au niveau du risque pour lequel vous être assuré, vous devez nous le signaler.",
+      "timing": "En cours de contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Précautions pour éviter un sinistre",
+      "description": "Vous devez prendre toutes les précautions nécessaires pour éviter qu'un sinistre ne se produise.",
+      "timing": "En cours de contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Déclaration du sinistre et limitation des conséquences",
+      "description": "Vous devez déclarer tout sinistre dans les délais prévus dans les conditions générales, et prendre toutes les mesures raisonnables pour en limiter les conséquences.",
+      "timing": "En cas de sinistre",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Mesures de prévention contre le vol",
+      "description": "Pour prévenir le vol, nous imposons des mesures de prévention comme l'utilisation d'un cadenas agréé ART de catégorie 2 ou supérieure ou d'un cadenas 'Sold Secure Bicycle' de type Gold/Silver.",
+      "timing": "En cours de contrat",
+      "sanction": "Le vol n'est pas assuré si vous n'avez pas respecté les mesures de prévention imposées.",
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclaration du sinistre",
+      "description": "Vous devez déclarer tout sinistre dans les délais prévus dans les conditions générales, et prendre toutes les mesures raisonnables pour en limiter les conséquences.",
+      "deadline": "Dans les délais prévus dans les conditions générales",
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat est conclu pour une période d'un an, tacitement reconductible pour des périodes successives d'un an, sauf si une des parties s'y oppose de la manière précisée dans les conditions générales.",
+    "tacit_renewal": true,
+    "notice_period": "Nous pouvons nous opposer à la reconduction jusqu'à trois mois avant l'échéance. Vous pouvez le faire jusqu'à deux mois avant l'échéance.",
+    "methods": [
+      "Envoi recommandé",
+      "Exploit d'huissier",
+      "Remise de la lettre de résiliation contre récépissé"
+    ],
+    "special_rights": [
+      "À partir de la deuxième année d'assurance, les consommateurs peuvent résilier le contrat à tout moment, avec effet à l'expiration d'un délai de deux mois à compter du lendemain de la présentation de l'envoi recommandé, de la signification ou de la date du récépissé."
+    ],
+    "page": 2
+  },
+  "prescription_period": {
+    "description": null,
+    "page": null
+  },
+  "premium": {
+    "notes": [
+      "Vous devez payer la prime une fois par an; une invitation à payer vous sera adressée à cet effet.",
+      "La prime peut être payée d'une manière fractionnée, sous certaines conditions et moyennant éventuellement un surcoût.",
+      "La prime s'entend commission de l'intermédiaire comprise."
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Prise d'effet de la couverture",
+      "description": "L'assurance prend effet à la date renseignée dans les conditions particulières, à condition que la police soit signée et que la première prime ait été acquittée.",
+      "page": 2
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Avec cette assurance dommages, vous pouvez assurer votre nouveau vélo (électrique) contre",
+      "context": "Nature du produit",
+      "page": 1
+    },
+    {
+      "quote": "Cette assurance est une assurance 'tous\nrisques'. Cela signifie que nous\nindemnisons en principe les dégâts au vélo\nou son vol, sauf si ces dommages sont dus\nà un événement qui n'entre pas en\nconsidération pour l'assurance.",
+      "context": "Définition de la couverture tous risques",
+      "page": 1
+    },
+    {
+      "quote": "Le vol n'est pas assuré si vous n'avez pas\nrespecté les mesures de prévention\nimposées.",
+      "context": "Exclusion vol / mesures de prévention",
+      "page": 1
+    },
+    {
+      "quote": "En cas de sinistre, nous appliquons une franchise qui est mentionnée dans les conditions\nparticulières. Et à partir du 13e mois, nous appliquons un pourcentage d'amortissement\nde 1% par mois.",
+      "context": "Franchise et amortissement",
+      "page": 2
+    },
+    {
+      "quote": "L'assurance dommages intervient dans le monde entier. Pour l'assistance, nous\nintervenons 24 heures sur 24, 7 jours sur 7 dans le Benelux ainsi que jusqu'à 15 km\nau-delà des frontières belges avec l'Allemagne et la France.",
+      "context": "Portée territoriale",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "Document IPID (fiche d'information) : par nature non exhaustif. Il indique lui-même que « la liste complète des exclusions figure dans les conditions générales » et que « l'information qu'il contient n'est pas exhaustive ».",
+    "Aucune date d'édition (edition_date) n'est imprimée sur le document.",
+    "Le montant exact de la franchise n'est pas indiqué : il renvoie aux conditions particulières.",
+    "Aucun délai de prescription (prescription_period) n'est mentionné dans le document.",
+    "Aucune section de définitions contractuelles (glossaire) n'est présente dans cette fiche IPID.",
+    "Aucun délai d'attente (waiting_period) n'est mentionné.",
+    "Le délai précis de déclaration de sinistre n'est pas chiffré : il renvoie aux conditions générales."
+  ]
+}

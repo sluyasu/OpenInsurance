@@ -1,0 +1,858 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "be",
+  "insurer_slug": "dkv",
+  "insurer_name": "DKV Belgium",
+  "product_name": "DKV Daily Premium",
+  "branch": "sante",
+  "branch_code": null,
+  "document_type": "conditions_generales",
+  "language": "fr",
+  "target_audience": "particuliers",
+  "reference": "12006_FR_4_202508",
+  "edition_date": "2025-08",
+  "product_family": "DKV Daily Premium",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://biblio.dkv.be/pdfbib.ashx?lang=fr&id=12006",
+  "source_pdf": "dkv-daily-premium-93542f25.pdf",
+  "source_sha256": "c363e0f8f8d260c12c9bb085a1566dfe0414c637d1db0fd3645806e3d03176cb",
+  "source_pages": 18,
+  "fetched_at": "2026-07-05",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "DKV Daily Premium est une assurance individuelle soins de santé ambulatoires, à caractère indemnitaire, conforme à la législation belge, en complément de toute intervention légale/statutaire ou autre. Elle couvre les frais de consultations et/ou traitements ambulatoires (médicaux, paramédicaux, médicaments, dispositifs médicaux, traitements préventifs, alternatifs et chirurgie oculaire réfractive) liés à un accouchement, un accident ou une maladie, à hauteur de 80 % des frais réels restant à charge après interventions légales/statutaires. L'intervention de l'assureur est limitée à € 20.000 par année d'assurance. Le plan est valable pour les cas survenant en Belgique, avec extension mondiale pour les soins ambulatoires urgents à l'étranger.",
+  "definitions": [
+    {
+      "term": "Accident",
+      "definition": "Événement soudain survenant indépendamment de la volonté de l'assuré et causant des lésions corporelles à l'assuré, dont la cause ou l'une des causes se situe en dehors de son organisme.",
+      "page": 14
+    },
+    {
+      "term": "Accouchement",
+      "definition": "L'acte par lequel un enfant est né.",
+      "page": 14
+    },
+    {
+      "term": "Acte intentionnel",
+      "definition": "L'acte intentionnel est l'acte volontaire et délibéré commis dans l'intention de causer un dommage.",
+      "page": 14
+    },
+    {
+      "term": "Acte téméraire",
+      "definition": "Un acte téméraire est un acte risqué et imprudent qui est commis intentionnellement ou de manière imprudente.",
+      "page": 14
+    },
+    {
+      "term": "Année d'assurance",
+      "definition": "La période de 12 mois à compter de la date d'échéance annuelle du contrat d'assurance.",
+      "page": 14
+    },
+    {
+      "term": "Appareil auditif",
+      "definition": "Tout dispositif médical interne et/ou externe destiné à améliorer l'audition d'une personne malentendante.",
+      "page": 14
+    },
+    {
+      "term": "Assureur",
+      "definition": "DKV Belgium S.A., ayant son siège social au 25 rue de Loxum à 1000 Bruxelles (Belgique), compagnie d'assurances agréée sous le numéro 739, sous le contrôle de la Banque Nationale de Belgique, ayant son siège social au 14 bd de Berlaimont à 1000 Bruxelles (Belgique), inscrite à la Banque carrefour des entreprises à Bruxelles sous le numéro 0414858607.",
+      "page": 14
+    },
+    {
+      "term": "Assuré",
+      "definition": "La personne physique sur qui repose le risque et qui est bénéficiaire du contrat d'assurance.",
+      "page": 14
+    },
+    {
+      "term": "Autorités de contrôle",
+      "definition": "Il existe deux autorités de contrôle, chacune ayant des compétences spécifiques : FSMA : Autorité des Services et Marchés Financiers, 12-14 rue du Congrès à 1000 Bruxelles (www.fsma.be) ; Banque Nationale de Belgique, 14 bd de Berlaimont à 1000 Bruxelles (www.nbb.be).",
+      "page": 14
+    },
+    {
+      "term": "Biologie clinique",
+      "definition": "Un laboratoire de biologie clinique est un établissement reconnu par le SPF Santé publique où des techniciens de laboratoire analysent divers échantillons de fluides corporels (p. ex. du sang, de l'urine, des selles ou du mucus, etc.) sur la base de tests de laboratoire. Ces analyses permettent de déterminer le diagnostic, le suivi ou le traitement de l'état de santé de l'assuré ou la prévention d'une maladie.",
+      "page": 14
+    },
+    {
+      "term": "Cas d'assurance ou cas de sinistre",
+      "definition": "L'objet de la garantie d'assurance, tel que stipulé dans le contrat d'assurance.",
+      "page": 14
+    },
+    {
+      "term": "Chirurgie oculaire réfractive",
+      "definition": "La chirurgie réfractive de l'œil est une (sous-)spécialité de l'ophtalmologie qui concerne la chirurgie oculaire élective pour améliorer/modifier l'état de réfraction de l'œil de l'assuré au moyen d'interventions chirurgicales, telles que le traitement au laser ou l'implantation/le remplacement de lentille pour corriger l'amétropie dans le but de réduire ou d'éliminer partiellement ou complètement la dépendance aux aides optiques telles que les lunettes ou les lentilles de contact. Les présentes Conditions Générales d'Assurance font référence aux interventions chirurgicales d'implantation/remplacement de lentilles et de laser les plus courantes, telles que le LASIK, le Femto LASIK, le ReLEx Smile, le RLE, l'ICL, qui sont utilisées pour remédier aux erreurs de réfraction admissibles éligibles suivantes : myopie, hypermétropie, astigmatisme et presbytie (vision floue à une distance de lecture normale).",
+      "page": 14
+    },
+    {
+      "term": "Conseils nutritionnels et diététiques",
+      "definition": "Les conseils nutritionnels et diététiques sont dispensés par un diététicien, qui est un prestataire de soins paramédical reconnu et spécialisé en nutrition et diététique dans de diverses circonstances (p. ex. la grossesse, les enfants, les personnes âgées ou le sport) et en cas de maladie. Il fournit des conseils nutritionnels ou diététiques scientifiquement éprouvés et un accompagnement sur mesure à l'assuré qui a besoin ou souhaite modifier ses habitudes alimentaires pour adopter un mode de vie plus sain. En cas de maladie, une prescription médicale/un renvoi vers un médecin généraliste ou d'un spécialiste est nécessaire. Il est titulaire d'une autorisation, certifié et reconnu par l'INAMI.",
+      "page": 14
+    },
+    {
+      "term": "Contrat d'assurance",
+      "definition": "Le contrat d'assurance est formé par la police. La police se compose des Conditions Générales et Particulières d'Assurance et de leurs avenants.",
+      "page": 14
+    },
+    {
+      "term": "Date d'échéance annuelle",
+      "definition": "Date d'échéance annuelle de la prime ou date d'échéance principale telle que définie dans la police.",
+      "page": 14
+    },
+    {
+      "term": "Dispositif médical",
+      "definition": "Un dispositif médical est un produit de santé qui accomplit son effet médical par des moyens physiques ou mécaniques. Un dispositif médical est donc tout instrument, appareil, équipement, logiciel, implant, réactif, matière ou autre article, utilisé seul ou en combinaison, destiné à un usage médical spécifique, tel que mentionné et décrit au chapitre VI \"Lunettes et autres prothèses de l'oeil, appareils auditifs, bandages, appareils orthopédiques et autres prothèses\" de la nomenclature : article - 27 Bandagistes (bandages, ceintures, lombostats, appareillage après mammectomie, semelles, urinal ambulatoire, appareils pour anus artificiel, canule trachéale, matériel pour mucoviscidose) ; article - 28 Fournisseurs d'implants ; article - 28 Bandagistes (aides à la mobilité) ; article - 29 Orthopédistes (appareils orthopédiques, prothèses et chaussures orthopédiques) ; article - 30 Opticiens ; article - 31 Audiciens.",
+      "page": 14
+    },
+    {
+      "term": "Efficace",
+      "definition": "Partant du principe établi dans l'article 2.2.2 des présentes Conditions Générales d'Assurance que seuls les couts efficaces et nécessaires sont remboursables, l'analyse cout-efficacité étudie la relation entre le cout d'un traitement et son efficacité. Lorsque différents traitements sont possibles, avec le même objectif mais des couts différents pour l'assureur, celui-ci se réserve le droit de limiter son intervention au remboursement du cout du traitement le plus efficace en termes de couts. Dans la même optique, l'assureur se réserve le droit de refuser le remboursement d'un traitement qui est disproportionné en termes de couts par rapport à un gain marginal ou temporaire pour la santé l'assuré.",
+      "page": 14
+    },
+    {
+      "term": "Franchise",
+      "definition": "La partie des frais couverts qui reste à charge de l'assuré et qui vient en déduction de l'intervention de l'assureur.",
+      "page": 15
+    },
+    {
+      "term": "Infirmière",
+      "definition": "Une infirmière est un prestataire de soins paramédicaux reconnu, qui est chargée des activités suivantes : d'observer, d'identifier et d'établir l'état de santé psychologique, physique et social de l'assuré ; de définir ses problèmes de soins infirmiers ; d'assister un médecin dans l'établissement du diagnostic médical et l'exécution du traitement prescrit ; d'informer et de conseiller l'assuré et sa famille ; de fournir une assistance continue, poser ou aider à poser des actes visant à maintenir, améliorer et rétablir l'état de santé de la personne assuré.",
+      "page": 15
+    },
+    {
+      "term": "Institut National d'Assurance Maladie-Invalidité (INAMI)",
+      "definition": "L'Institut National d'Assurance Maladie-Invalidité est un organisme public fédéral de la sécurité sociale belge.",
+      "page": 15
+    },
+    {
+      "term": "Intervention légale/statutaire ou autre",
+      "definition": "Toute intervention ou remboursement (partiel) de frais réels encourus en application de : l'assurance obligatoire soins de santé et indemnités, telle qu'elle est organisée par la loi du 14 juillet 1994 et ses arrêtés royaux d'exécution et par l'arrêté royal du 30 juin 1964 ; les législations relatives aux accidents du travail (loi du 10 avril 1971 et ses arrêtés royaux d'exécution) et aux maladies professionnelles (loi du 3 juin 1970 et ses arrêtés royaux d'exécution) ; la loi sur le maximum à facturer (loi du 03 juin 2002) ; loi relative à la création du statut de solidarité nationale, à l'octroi d'une pension de dédommagement et au remboursement des soins médicaux à la suite d'acte de terrorisme (loi du 18 juillet 2017) ; les règlements européens 1408/71, 574/72 et 883/04 ou par une convention multilatérale ou bilatérale de sécurité sociale conclue par la Belgique ou, à défaut, un montant égal au remboursement prévu par la législation belge ; toute assurance hospitalisation individuelle ou collective (p. ex. contrat collectif conclu par un employeur à titre d'avantage collectif pour l'ensemble ou une partie de son personnel), complémentaire à l'intervention de l'assurance maladie légale belge, qui rembourse les frais ambulatoires réels encourus avant et après une hospitalisation (frais dits \"pré-/post-hospitalisation\") et/ou liés à des maladies dites \"graves\" (p. ex. le cancer, la leucémie, la maladie de Parkinson, la maladie d'Alzheimer, le SIDA, le diabète, la sclérose en plaques, une maladie rénale qui nécessite un traitement de dialyse, etc.) ; l'assurance complémentaire des mutualités (loi du 06 aout 1990 sur mutualités et aux unions nationales de mutualités) comprenant tous les services et prestations des mutualités ; le service \"soins urgents à l'étranger\" des mutualités ; une disposition de droit commun.",
+      "page": 15
+    },
+    {
+      "term": "Lieu de résidence",
+      "definition": "Lieu auquel la personne physique est inscrite au registre de la population.",
+      "page": 15
+    },
+    {
+      "term": "Logopède",
+      "definition": "Un logopède est un prestataire de soins paramédicaux reconnu, qui est spécialisé en logopédie. Il détecte et diagnostique (à l'aide de tests standardisés et d'observations), traite les troubles et les limitations dans le domaine de la voix, de la parole, du langage, de l'audition, de la lecture, de l'écriture, du calcul et de la déglutition, ainsi que dans les domaines de la communication, de l'apprentissage, de l'alimentation et de la boisson.",
+      "page": 15
+    },
+    {
+      "term": "Maladie",
+      "definition": "Toute altération de l'état de santé non causée par un accident, dont la cause et les symptômes sont médicalement objectivables et qui, en tant que tels, permettent un diagnostic et nécessitent une thérapie ou un traitement.",
+      "page": 15
+    },
+    {
+      "term": "Médecin généraliste",
+      "definition": "Le médecin généraliste est un prestataire de soins de santé reconnu qui est généralement le premier point de contact et traite les problèmes de santé dans une perspective globale. Il garde une vue d'ensemble de la situation sanitaire globale de ses patients et coordonne tous les soins nécessaires. Il est souvent appelé \"médecin de famille\".",
+      "page": 15
+    },
+    {
+      "term": "Médecin spécialiste",
+      "definition": "Le médecin spécialiste est un médecin reconnu qui se spécialise dans un domaine particulier de la médecine et est le point de contact pour les problèmes de santé qui nécessitent des soins spécifiques. Dans la plupart des cas, l'assuré sera référé par son médecin généraliste. Il a suivi une formation théorique et pratique spécifique dans une spécialité, et est reconnue comme telle selon les critères applicables et sous le contrôle du comité de reconnaissance compétente pour cette spécialité ; porte un titre professionnel spécial de médecin spécialiste tel que visé dans l'\"Arrêté royal établissant la liste des titres professionnels particuliers réservés aux praticiens de l'art médical, en ce compris l'art dentaire\". La liste exhaustive des spécialités médicales éligibles comprend : anatomie pathologique, anesthésie-réanimation, biologie clinique, cardiologie, chirurgie générale, chirurgie orale et maxillo-faciale (stomatologie), chirurgie orthopédique, chirurgie plastique, reconstructrice et esthétique, dermato-vénéréologie, endocrino-diabétologie, gastro-entérologie, gastro-entérologie oncologique, génétique clinique, gériatrie, gynécologie-obstétrique, hématologie clinique, hématologie et oncologie pédiatrique, infectiologie clinique, médecine aiguë, médecine du travail, médecine d'urgence, médecine interne, médecine nucléaire, médecine physique et réadaptation, microbiologie clinique, néonatologie, néphrologie, neurochirurgie, neurologie, neurologie pédiatrique, oncologie médicale, ophtalmologie, oto-rhino-laryngologie, pédiatrie, pneumologie, pneumologie oncologique, psychiatrie, psychiatrie adulte, psychiatrie infanto-juvénile, radiodiagnostic, radiothérapie-oncologie, réadaptation fonctionnelle et professionnelle des personnes handicapées, rhumatologie, soins intensifs, urologie.",
+      "page": 15
+    },
+    {
+      "term": "Médicament",
+      "definition": "Tout produit pharmaceutique qui est exclusivement délivré dans une pharmacie agréée, prescrit par un prestataire de soins de santé reconnu et qui soit a été autorisé en tant que médicament par le Ministre compétent en matière de santé publique ou par la Commission européenne, soit comme préparation magistrale conformément à l'article 6 de la loi du 25 mars 1964 et de l'arrêté royal du 3 juillet 1969, modifié par les arrêtés ultérieurs.",
+      "page": 15
+    },
+    {
+      "term": "Nomenclature",
+      "definition": "La nomenclature et la pseudo-nomenclature des prestations médicales est une liste codée des prestations médicales qui sont totalement ou partiellement remboursées par l'assurance obligatoire soins de santé et indemnités (assurance maladie légale). La liste et les modifications sont publiées au Moniteur belge. Les présentes Conditions Générales d'Assurance font toujours référence à la nomenclature en vigueur au moment de la prestation médicale.",
+      "page": 15
+    },
+    {
+      "term": "Physiothérapie",
+      "definition": "La physiothérapie (ou kinésithérapie) est dispensée par un physiothérapeute, qui est un prestataire médical reconnu. Il détecte les affections physiques d'un assuré et en recherche la cause, dans le but de contribuer à un diagnostic par un médecin sur la base d'une prescription médicale ou d'instaurer un traitement. L'objectif principal de la physiothérapie est de maintenir et d'améliorer la qualité de mouvement et le fonctionnement du corps de l'assuré sur la base de traitements physiques et exercices de mouvement à des fins médicales (p. ex. exercices avec ou sans assistance physique, massothérapie, thérapie par l'application de stimuli physiques non invasifs tels que le courant électrique, le rayonnement électromagnétique, les ultrasons, les applications de chaleur et de froid, etc.) et la gymnastique prénatale et postnatale.",
+      "page": 16
+    },
+    {
+      "term": "Plan d'assurance",
+      "definition": "La garantie d'assurance.",
+      "page": 16
+    },
+    {
+      "term": "Plan d'assurance similaire",
+      "definition": "Un plan d'assurance similaire offre des garanties similaires, c'est-à-dire rembourse une gamme similaire de frais médicaux liés à des consultations et/ou traitements ambulatoires.",
+      "page": 16
+    },
+    {
+      "term": "Podologue",
+      "definition": "Le podologue est un prestataire de soins paramédicaux reconnu, qui est spécialisé dans l'analyse, le diagnostic et le traitement des problèmes de pieds et de chevilles d'un assuré (affections tant ongulaires, cutanées que mécaniques liées à la fonction du pied et de la cheville). Il détecte les problèmes d'un assuré et en recherche la cause, dans le but de contribuer à l'établissement d'un diagnostic par un médecin ou d'instituer un traitement podologique (p. ex. poser des bandes pour soutenir une articulation, enlever des callosités, corriger des anomalies de l'ongle plaque, soigner une plaie au pied, fabriquer des semelles podologiques, etc.). Selon le type de patient (p. ex. les patients ayant des pieds sans risque, les patients ayant subi un traumatisme ou une intervention chirurgicale au niveau du pied et/ou de la cheville, les patients atteints de diabète ou de rhumatismes, etc.), le podologue effectuera des examens ou des traitements de manière autonome, ou nécessitera la prescription médicale ou la supervision d'un médecin.",
+      "page": 16
+    },
+    {
+      "term": "Politique de facturation discriminatoire",
+      "definition": "L'assureur considère qu'un prestataire de soins reconnu poursuit une politique de facturation discriminatoire si les frais médicaux facturés par ce prestataire de soins reconnu varient selon que son patient a (ou n'a pas) souscrit une assurance soins de santé ambulatoires et/ou selon l'assureur auprès duquel cette assurance a été souscrite.",
+      "page": 16
+    },
+    {
+      "term": "Politique de facturation excessive",
+      "definition": "L'assureur détermine si un prestataire de soins reconnu applique une politique de facturation excessive en comparant les frais médicaux facturés par ce prestataire de soins aux assurés (de l'assureur) avec le tarif conventionné correspondant (en vigueur au moment du traitement) et/ou coût moyen facturé par d'autres prestataires de soins pour des traitements similaires.",
+      "page": 16
+    },
+    {
+      "term": "Preneur d'assurance",
+      "definition": "La personne physique, ayant son lieu de résidence et sa résidence principale en Belgique, qui souscrit le contrat d'assurance et qui est redevable du paiement de la prime.",
+      "page": 16
+    },
+    {
+      "term": "Prestataire de soins reconnu",
+      "definition": "Un prestataire de soins reconnu est une personne physique qui : est titulaire d'un diplôme (para)médical ; est autorisé à exercer la médecine ou de dispenser des soins paramédicaux en Belgique au moyen d'un visa délivré par le SPF Santé publique ou une agence gouvernementale similaire dans le cas particulier de soins de santé ambulatoires urgents à l'étranger ; est inscrit à l'Ordre des médecins (lorsqu'il est autorisé à exercer la médecine) ; est accrédité par l'INAMI et dispose d'un numéro d'agrément de l'INAMI, par lequel il est autorisé à certifier les prestations visées dans la nomenclature des procédures médicales.",
+      "page": 16
+    },
+    {
+      "term": "Prestation ambulatoire",
+      "definition": "Prestation qui n'est pas dispensée lors d'une hospitalisation (hospitalisation avec nuitée ou de jour) et pour laquelle l'hôpital ne peut pas facturer une journée d'hospitalisation ou un forfait spécifique pour l'admission en hôpital de jour.",
+      "page": 16
+    },
+    {
+      "term": "Prestation médicale",
+      "definition": "Dans les présentes Conditions Générales d'Assurance, le terme désigne les prestations médicales que mentionnées et décrites dans les articles suivants de la nomenclature : Chapitre II - Consultations, visites et avis ; Psychothérapies et autres prestations, Article 2 - Consultations et visites ; Chapitre III - Soins Courants, Section 1 Article 3 - Prestations techniques médicales ; Chapitre IV - Accouchements, article 9 ; Chapitre V - Prestations techniques médicales spéciales, Section 2, Article 11 - Prestations spéciales générales ; Chapitre V - Prestations techniques médicales spéciales, Section 3, Article 12 - Anesthésiologie ; Chapitre V - Prestations techniques médicales spéciales, Section 4, Article 13 - Réanimation ; Chapitre V, Section 5 - Chirurgie, Articles 14a à 14l (Chirurgie générale, Neurochirurgie, Chirurgie plastique, Chirurgie abdominale, Chirurgie thoracique, Chirurgie des vaisseaux, Gynécologie-obstétrique, Ophtalmologie, Oto-rhino-laryngologie, Urologie, Orthopédie, Stomatologie) ; Chapitre V, Section 6 - Imagerie médicale, Articles 17-17bis et 17ter-17quater - Radiodiagnostic - Echographies ; Chapitre V, Section 7 - Radiothérapie et radiumthérapie, Article 18 Médecine nucléaire ; Chapitre V, Section 8, Article 20 - Médecine interne ; Chapitre V, Section 9, Article 21 - Dermato-vénéréologie ; Chapitre V, section 10, Article 22 - Physiothérapie ; Chapitre V, Section 11, Article 24 - 24bis - Biologie clinique ; Chapitre V, Section 13, Article 26 - Suppléments d'honoraires pour prestations techniques urgentes effectuées pendant la nuit ou le week-end ou durant un jour férié ; Chapitre VII - Anatomo-pathologie et examens génétiques, Article 32 - Anatomo-pathologie ; Chapitre VIII - Prestations interventionnelles, Article 34.",
+      "page": 16
+    },
+    {
+      "term": "Prestation paramédicale",
+      "definition": "Les prestations paramédicales sont dispensées par des prestataires de soins reconnus qui ne sont pas reconnus comme médecin, mais qui prodiguent des soins et des traitements paramédicaux en étroite collaboration avec ou sous supervision d'un médecin. Les présentes Conditions Générales d'Assurance font référence aux consultations et/ou traitements ambulatoires d'infirmières, sages-femmes, kinésithérapeutes, podologues et logopèdes que mentionnées et décrits dans les articles suivants : Chapitre III - Soins Courants, Section 3 - Article 7 Kinésithérapie ; Chapitre III - Soins Courants, Section 4 - Article 8 Soins infirmiers ; Chapitre IV - Accouchements - Article 9 ; Chapitre X - Article 36 - Logopédie de la nomenclature.",
+      "page": 17
+    },
+    {
+      "term": "Prime",
+      "definition": "Le montant y compris toutes les taxes d'assurance, les impôts, les contributions légales et les charges dus en contrepartie des obligations de l'assureur en exécution du contrat d'assurance.",
+      "page": 17
+    },
+    {
+      "term": "Procréation médicalement assistée",
+      "definition": "La procréation médicalement assistée est définie comme la réalisation (i) soit d'une insémination artificielle, (ii) soit d'une des techniques de fécondation in vitro, c'est-à-dire des techniques impliquant à un moment donné la manipulation d'un ovule et/ou d'un embryon.",
+      "page": 17
+    },
+    {
+      "term": "Proposition d'assurance",
+      "definition": "La proposition d'assurance est le formulaire émis par l'assureur, rempli par le preneur d'assurance, dont le but est d'informer l'assureur de la nature de la transaction, des faits et des circonstances, qui lui permettront d'évaluer le risque. Elle vise à la conclusion du contrat d'assurance.",
+      "page": 17
+    },
+    {
+      "term": "Prothèse",
+      "definition": "Un membre artificiel ou tout autre dispositif médical sur mesure qui remplace artificiellement tout ou partie (de la fonction) d'une partie du corps affectée ou d'un membre manquant ou amputé (entre autres les prothèses de bras, oculaires, de pied, de cheveux, de main, de jambe). Il peut s'agir d'une prothèse amovible que l'assuré peut poser et retirer lui-même ou d'une prothèse fixe qu'il ne peut pas poser et retirer lui-même.",
+      "page": 17
+    },
+    {
+      "term": "Psychiatre",
+      "definition": "Un psychiatre est un prestataire de soins de santé reconnu qui s'est spécialisé en psychiatrie (étude des troubles mentaux, émotionnels et comportementaux). Grâce à sa formation de médecin, le psychiatre peut poser un diagnostic et prescrire des médicaments. Il traite donc souvent des patients présentant des troubles psychiatriques plus complexes ou graves. Ce traitement relève des soins de santé mentale spécialisés.",
+      "page": 17
+    },
+    {
+      "term": "Psychologue clinicien",
+      "definition": "Le psychologue clinicien est un prestataire de soins reconnu qui est compétent dans la connaissance du fonctionnement psychologique et dans l'accompagnement de l'assuré ayant besoin d'une aide psychologique. Il est autorisé à : effectuer des tests ou des examens psychologiques à des fins de diagnostic, d'évaluation, de conseil ou de dépistage ; fournir un soutien thérapeutique au moyen d'entretiens. Pour pouvoir utiliser le titre de psychologue clinicien, le prestataire de soins doit remplir les deux conditions suivantes : être titulaire d'une maîtrise en psychologie ; être inscrit sur la liste des psychologues de la Commission des Psychologues.",
+      "page": 17
+    },
+    {
+      "term": "Résidence principale",
+      "definition": "Le lieu où les personnes physiques résident de manière habituelle (pendant la majeure partie de l'année) sur base de la situation factuelle.",
+      "page": 17
+    },
+    {
+      "term": "Sage-femme",
+      "definition": "Une sage-femme est un prestataire de soins paramédicaux reconnu qui est autorisé à : surveiller, soigner et conseiller une assurée pendant la grossesse, l'accouchement et la période qui suit l'accouchement ; surveiller les grossesses normales, effectuer des accouchements normaux et prodiguer les soins primaires au nouveau-né et à la mère assurée.",
+      "page": 17
+    },
+    {
+      "term": "Scientifiquement et thérapeutiquement éprouvé",
+      "definition": "Un traitement est scientifiquement et thérapeutiquement éprouvé quand il répond à l'état de l'art et aux normes reconnues de la pratique médicale. Un tel traitement n'est ni expérimental ni en phase de recherche. Elle est évaluée sur la base de la médecine factuelle (EBM, 'evidence-based medicine'). La médecine factuelle est l'utilisation explicite, judicieuse et consciencieuse des meilleures preuves disponibles lors du choix du traitement d'un patient. Tout cela étant donné l'état de la science (médicale) à cette époque.",
+      "page": 17
+    },
+    {
+      "term": "Soins de santé ambulatoires urgents à l'étranger",
+      "definition": "Les soins ambulatoires urgents sont des soins médicaux imprévus, non planifiés, urgents lors d'un séjour temporaire à l'étranger qui ne peuvent raisonnablement être reportés jusqu'au retour de l'assuré en Belgique. Il s'agit de prestations médicales, effectuées sur place par un prestataire de soins de santé reconnu, qui sont requis de toute urgence pour soulager une douleur aiguë et sévère ou pour prévenir l'aggravation d'une affection aiguë qui constitue une menace immédiate et grave pour l'état de santé général de l'assuré.",
+      "page": 17
+    },
+    {
+      "term": "Soins esthétiques ambulatoires",
+      "definition": "Traitement ambulatoire de nature cosmétique, dont le seul but est de corriger les imperfections et d'embellir le corps. Le traitement ne vise pas à diagnostiquer et/ou à guérir des maladies, des troubles et des lésions.",
+      "page": 18
+    },
+    {
+      "term": "Supplément d'honoraires",
+      "definition": "Supplément facturé en plus du tarif conventionné. Le supplément est exprimé en pourcentage. Un supplément de 100 % signifie un doublement du tarif officiel.",
+      "page": 18
+    },
+    {
+      "term": "Tarif conventionné",
+      "definition": "Taux officiel des honoraires d'un prestataire de soins tel que convenu dans l'Accord National Médico-Mutualiste. C'est également sur cette base qu'est calculée l'intervention de l'assurance obligatoire soins de santé et indemnités.",
+      "page": 18
+    },
+    {
+      "term": "Ticket modérateur légal",
+      "definition": "La différence entre le tarif conventionné et l'intervention de l'assurance obligatoire soins de santé et indemnités.",
+      "page": 18
+    },
+    {
+      "term": "Vaccin",
+      "definition": "Un vaccin est une préparation d'un ou plusieurs antigènes microbiens qui est utilisée pour induire une immunisation active protectrice et de longue durée. Les vaccins disponibles en Belgique sont répertoriés au chapitre 12.1 du répertoire du Centre Belge d'Information Pharmacothérapeutique (CBIP, www.cbip.be).",
+      "page": 18
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Traitement médical (§2.3.1)",
+      "description": "Couvre les coûts des prestations médicales suivantes : les consultations (p. ex. au cabinet, la visite à domicile, la consultation urgente, la consultation en dehors des heures normales de travail) et les traitements avec le médecin généraliste ; les consultations et traitements auprès d'un médecin spécialiste (p. ex. cardiologie, dermatologie, oncologie, pédiatrie, ophtalmologie) ; l'imagerie médicale (p. ex. radiographies, scans, échographies), la biologie clinique et tous les autres examens médicaux prescrits et dispensés sous le contrôle d'un prestataire de soins reconnu (p. ex. une gastroscopie).",
+      "is_optional": false,
+      "territorial_scope": "Belgique ; monde entier pour les soins de santé ambulatoires urgents à l'étranger",
+      "limits": "80% des frais réels ; inclus dans la limite globale de € 20.000 par année d'assurance",
+      "sub_limits": [],
+      "deductible": "Franchise dont le montant est déterminé dans la police, par assuré et par année d'assurance",
+      "conditions": [
+        "Les consultations et traitements liés aux soins dentaires (p. ex. dentiste, orthodontiste, parodontiste) ne sont pas couverts par ce plan d'assurance"
+      ],
+      "page": 5
+    },
+    {
+      "name": "Traitement paramédical (§2.3.2)",
+      "description": "Comprend les frais des consultations et/ou traitements au cabinet ou au domicile de l'assuré qui sont dispensés par un prestataire de soins autre qu'un médecin généraliste ou un médecin spécialiste. Les professions considérées comme paramédicales (liste exhaustive) : le physiothérapeute (kinésithérapeute) ; l'infirmière diplômée ; la sage-femme ; le podologue ; le logopède.",
+      "is_optional": false,
+      "territorial_scope": "Belgique ; monde entier pour les soins de santé ambulatoires urgents à l'étranger",
+      "limits": "80% des frais réels ; inclus dans la limite globale de € 20.000 par année d'assurance",
+      "sub_limits": [],
+      "deductible": "Franchise dont le montant est déterminé dans la police, par assuré et par année d'assurance",
+      "conditions": [
+        "Les prestations paramédicales doivent toujours être prescrites par un prestataire de soins reconnu",
+        "Le remboursement des frais de logopédie est soumis à l'approbation préalable et au remboursement du traitement par l'assurance obligatoire soins de santé et indemnités"
+      ],
+      "page": 5
+    },
+    {
+      "name": "Médicaments (§2.3.3)",
+      "description": "Comprend les coûts des produits pharmaceutiques allopathiques qui sont mentionnés sur une attestation (e-)BVAC (uniquement applicable en Belgique et pas à l'étranger), qui répondent aux critères énumérés à l'article 2.2.2, sont disponibles auprès d'une pharmacie reconnue et ne sont pas en vente libre.",
+      "is_optional": false,
+      "territorial_scope": "Belgique (attestation (e-)BVAC uniquement applicable en Belgique et pas à l'étranger)",
+      "limits": "80% des frais réels ; inclus dans la limite globale de € 20.000 par année d'assurance",
+      "sub_limits": [],
+      "deductible": "Franchise dont le montant est déterminé dans la police, par assuré et par année d'assurance",
+      "conditions": [
+        "Ces médicaments doivent toujours être prescrits par un prestataire de soins reconnu"
+      ],
+      "page": 5
+    },
+    {
+      "name": "Dispositifs médicaux (§2.3.4)",
+      "description": "Comprend les coûts dûment prouvés des dispositifs médicaux prescrits par un prestataire de soins reconnu : produits de soins de santé qui accomplissent mécaniquement leur effet médical et ne sont pas entièrement implantés à l'intérieur du corps humain, tels que (liste non exhaustive) les appareils auditifs à ancrage osseux partiellement implantables, les membres artificiels, les semelles orthopédiques, les prothèses médicales, les verres correcteurs de lunettes, etc. Les verres correcteurs de lunettes ou lentilles de contact, prothèses et membres artificiels, appareils auditifs, bandages, compresses, semelles orthopédiques, lombostats, béquilles sont inclus. Les frais d'entretien raisonnables et nécessaires, les frais de réparation et les pièces de rechange sont couverts dans la mesure où l'assuré utilise le dispositif médical avec le soin et la diligence requis.",
+      "is_optional": false,
+      "territorial_scope": "Belgique ; monde entier pour les soins de santé ambulatoires urgents à l'étranger",
+      "limits": "80% des frais réels ; inclus dans la limite globale de € 20.000 par année d'assurance",
+      "sub_limits": [
+        "Les verres de lunettes peuvent être remplacés tous les trois ans (trois années civiles complètes doivent s'être écoulées entre deux cas d'assurance similaires), ou plus tôt à condition que la dioptrie ait changé d'au moins 0,5"
+      ],
+      "deductible": "Franchise dont le montant est déterminé dans la police, par assuré et par année d'assurance",
+      "conditions": [
+        "Le droit aux prestations est toujours soumis à l'approbation préalable de l'assureur, à l'exception des verres de lunettes ou lentilles de contact, des appareils auditifs entièrement non-implantables, des bandages pour hernies, des bas à varices, des semelles orthopédiques, des coquilles plâtrées, des lumbostats, des attelles et des béquilles",
+        "Les montures de lunettes et les verres non-correcteurs de lunettes (de soleil) ne sont pas couverts"
+      ],
+      "page": 5
+    },
+    {
+      "name": "Traitement préventif - Biologie clinique (§2.3.5(1))",
+      "description": "Par dérogation à l'article 2.2.2 premier tiret, couvre la biologie clinique prescrite par un prestataire de soins reconnu, qu'elle ait un caractère préventif, diagnostique ou curatif. Dans le cadre de cette garantie, les tests génétiques ne sont pas couverts.",
+      "is_optional": false,
+      "territorial_scope": "Belgique ; monde entier pour les soins de santé ambulatoires urgents à l'étranger",
+      "limits": "80% des frais réels ; inclus dans la limite globale de € 20.000 par année d'assurance",
+      "sub_limits": [],
+      "deductible": "Franchise dont le montant est déterminé dans la police, par assuré et par année d'assurance",
+      "conditions": [
+        "Prescrite par un prestataire de soins reconnu",
+        "Les tests génétiques ne sont pas couverts"
+      ],
+      "page": 6
+    },
+    {
+      "name": "Traitement préventif - Vaccins (§2.3.5(2))",
+      "description": "Tous les vaccins disponibles en Belgique, prescrits par un prestataire de soins reconnu, à condition que les directives relatives à la vaccination du Conseil supérieur de la santé belge soient respectées et que toutes les autres possibilités existantes de remboursement de ces frais aient été préalablement épuisées.",
+      "is_optional": false,
+      "territorial_scope": "Belgique",
+      "limits": "80% jusqu'à € 100 par année d'assurance",
+      "sub_limits": [],
+      "deductible": "Franchise dont le montant est déterminé dans la police, par assuré et par année d'assurance",
+      "conditions": [
+        "Les directives relatives à la vaccination du Conseil supérieur de la santé belge doivent être respectées",
+        "Toutes les autres possibilités existantes de remboursement de ces frais doivent avoir été préalablement épuisées"
+      ],
+      "page": 6
+    },
+    {
+      "name": "Traitement préventif - Soins de santé mentale de première ligne (§2.3.5(3))",
+      "description": "Soins de santé mentale de première ligne pour les consultations qui répondent à toutes les conditions suivantes : la thérapie est dispensée par un psychologue clinicien agréé et certifié en Belgique ; la thérapie est axée sur des problèmes liés à la santé mentale et a un objectif thérapeutique clair (ne sont pas couverts, liste non exhaustive : le coaching de carrière professionnelle) ; la thérapie ne concerne pas le traitement de santé mentale spécialisé de troubles psychiatriques complexes ou plus graves par un psychiatre (couverts par l'article 2.3.1) ; le traitement n'est pas dispensé dans le cadre d'une admission dans un centre de soins ou un hôpital (psychiatrique). Les tickets modérateurs légaux des consultations qui ont eu lieu dans le cadre du système conventionné (convention INAMI) sont également éligibles, quel que soit le titre professionnel ou la certification du prestataire de soins.",
+      "is_optional": false,
+      "territorial_scope": "Belgique",
+      "limits": "80% jusqu'à € 500 par année d'assurance",
+      "sub_limits": [
+        "Une seule séance par jour est remboursable"
+      ],
+      "deductible": "Franchise dont le montant est déterminé dans la police, par assuré et par année d'assurance",
+      "conditions": [
+        "Les frais seront remboursés sans l'accord préalable de l'assureur et sans recommandation par un médecin généraliste, mais à condition que l'assuré soumette le formulaire de déclaration de sinistre dédié de l'assureur",
+        "Stage porté à 12 mois pour cette garantie"
+      ],
+      "page": 6
+    },
+    {
+      "name": "Traitement préventif - Conseils nutritionnels et diététiques (§2.3.5(4))",
+      "description": "Conseils nutritionnels et diététiques pour les consultations fournies par un diététicien agréé et certifié par l'INAMI.",
+      "is_optional": false,
+      "territorial_scope": "Belgique",
+      "limits": "80% jusqu'à € 100 par année d'assurance",
+      "sub_limits": [],
+      "deductible": "Franchise dont le montant est déterminé dans la police, par assuré et par année d'assurance",
+      "conditions": [
+        "Consultations fournies par un diététicien agréé et certifié par l'INAMI",
+        "Les frais seront remboursés sans l'accord préalable de l'assureur ou la recommandation d'un médecin généraliste",
+        "Stage porté à 12 mois pour cette garantie"
+      ],
+      "page": 6
+    },
+    {
+      "name": "Traitement alternatif (§2.3.6)",
+      "description": "Par dérogation à l'article 2.2.2 deuxième tiret, couvre les prestations et les produits pharmaceutiques prescrits par un prestataire de soins reconnu dans les domaines exhaustifs suivants : l'homéopathie ; l'ostéopathie ; la chiropractie ; l'acupuncture. Inclut les traitements d'ostéopathie, de chiropractie, d'acupuncture et d'homéopathie ainsi que les produits pharmaceutiques homéopathiques.",
+      "is_optional": false,
+      "territorial_scope": "Belgique ; monde entier pour les soins de santé ambulatoires urgents à l'étranger",
+      "limits": "80% des frais réels ; inclus dans la limite globale de € 20.000 par année d'assurance",
+      "sub_limits": [],
+      "deductible": "Franchise dont le montant est déterminé dans la police, par assuré et par année d'assurance",
+      "conditions": [
+        "Prescrits par un prestataire de soins reconnu"
+      ],
+      "page": 6
+    },
+    {
+      "name": "Chirurgie oculaire réfractive (§2.3.7)",
+      "description": "Couvre la chirurgie oculaire au laser et la chirurgie des lentilles intraoculaires pour corriger les problèmes de réfraction oculaire d'un assuré âgé de 25 à 49 ans. Comprend les frais de l'intervention chirurgicale (y compris le coût de la lentille artificielle) et tout le suivi dans les 2 ans suivant la chirurgie.",
+      "is_optional": false,
+      "territorial_scope": "Belgique",
+      "limits": "80% jusqu'à € 1.000 par œil",
+      "sub_limits": [
+        "€ 1.000 par œil"
+      ],
+      "deductible": "Franchise dont le montant est déterminé dans la police, par assuré et par année d'assurance",
+      "conditions": [
+        "Assuré âgé de 25 à 49 ans",
+        "Remboursée sans accord préalable de l'assureur ; l'assuré est libre de choisir n'importe quel ophtalmologiste reconnu",
+        "Stage porté à 36 mois pour cette garantie",
+        "Seuls les traitements ambulatoires sont couverts : les interventions chirurgicales effectuées au cours d'une hospitalisation (avec nuitée ou de jour) ne sont pas couvertes"
+      ],
+      "page": 6
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Frais encourus pendant les stages",
+      "description": "Les frais de consultations et/ou de traitements ambulatoires encourus pendant les stages du plan d'assurance.",
+      "applies_to": "all",
+      "page": 7
+    },
+    {
+      "name": "Accident survenu avant le début du plan d'assurance",
+      "description": "Les frais de consultations et/ou de traitements ambulatoires qui découlent d'un accident survenu avant la date de début du plan d'assurance.",
+      "applies_to": "all",
+      "page": 7
+    },
+    {
+      "name": "Affection préexistante",
+      "description": "Les frais de consultations et/ou de traitements ambulatoires qui découlent d'une grossesse, d'une maladie ou d'une affection qui existait déjà avant la date de début du plan d'assurance ou dont les symptômes s'étaient déjà manifestés avant la date de début du plan d'assurance.",
+      "applies_to": "all",
+      "page": 7
+    },
+    {
+      "name": "Guerre, émeutes, actes de violence à caractère politique, idéologique ou social",
+      "description": "Les frais qui découlent d'une maladie ou d'un accident survenant de la participation active de l'assuré à une guerre civile ou autre, à des émeutes, des actes de violence à caractère politique, idéologique ou social.",
+      "applies_to": "all",
+      "page": 7
+    },
+    {
+      "name": "Participation volontaire à un délit",
+      "description": "Les frais qui découlent de la participation volontaire de l'assuré à un délit, sauf en cas de légitime défense.",
+      "applies_to": "all",
+      "page": 7
+    },
+    {
+      "name": "Acte intentionnel ou téméraire",
+      "description": "Les frais qui découlent d'un acte intentionnel ou d'un acte téméraire de l'assuré, sauf en cas de légitime défense de personnes ou de biens.",
+      "applies_to": "all",
+      "page": 7
+    },
+    {
+      "name": "Pratique sportive professionnelle ou rémunérée",
+      "description": "Les frais qui découlent de la pratique sportive professionnelle ou rémunérée, y compris l'entraînement.",
+      "applies_to": "all",
+      "page": 7
+    },
+    {
+      "name": "Terrorisme nucléaire",
+      "description": "Les frais qui découlent d'un acte de terrorisme commis à l'aide d'armes ou d'engins destinés à exploser par une modification de structure du noyau atomique.",
+      "applies_to": "all",
+      "page": 7
+    },
+    {
+      "name": "Alcoolisme, toxicomanie, dopage, ivresse, intoxication",
+      "description": "Les frais qui découlent de l'alcoolisme, la toxicomanie, la consommation de produits dopants, l'utilisation de médicaments non conformes aux indications de la notice d'usage pour le patient et/ou à la prescription médicale, l'état d'ivresse, d'intoxication punissable ou un autre état analogue résultant de produits autres que les boissons alcoolisées, à condition qu'il soit démontré qu'il existe un rapport de causalité entre ces états et le traitement.",
+      "applies_to": "all",
+      "page": 7
+    },
+    {
+      "name": "Troubles non objectivables médicalement",
+      "description": "Les frais qui découlent des troubles dont la cause et les symptômes ne peuvent être objectivés médicalement, ou dont le traitement ou la thérapie ne s'impose pas d'un point de vue purement médical.",
+      "applies_to": "all",
+      "page": 7
+    },
+    {
+      "name": "Stérilisation et contraception",
+      "description": "Les frais de soins de santé autres qu'une consultation qui sont en lien avec une stérilisation, la contraception.",
+      "applies_to": "all",
+      "page": 7
+    },
+    {
+      "name": "Produits en vente libre",
+      "description": "Les produits pharmaceutiques et tout autre type de produit librement disponible dans le commerce en général (entre autres les produits d'hygiène et cosmétiques, les vitamines, les minéraux et les compléments alimentaires).",
+      "applies_to": "all",
+      "page": 7
+    },
+    {
+      "name": "Soins esthétiques ambulatoires",
+      "description": "Les soins esthétiques ambulatoires et les frais de consultations et/ou de traitements ambulatoires découlant des soins esthétiques ambulatoires, à l'exception de la chirurgie plastique reconstructrice pour autant qu'un devis précis des coûts, établi par le prestataire de soins reconnu, soit approuvé au préalable par l'assureur.",
+      "applies_to": "all",
+      "page": 7
+    },
+    {
+      "name": "Soins dentaires",
+      "description": "Les soins dentaires, y compris les prothèses dentaires.",
+      "applies_to": "all",
+      "page": 7
+    },
+    {
+      "name": "Frais non facturables selon la loi belge",
+      "description": "Les frais qui, conformément à la loi et aux règlements belges, ne peuvent pas être facturés.",
+      "applies_to": "all",
+      "page": 7
+    },
+    {
+      "name": "Tests génétiques (dans la garantie biologie clinique préventive)",
+      "description": "Dans le cadre de la garantie Traitement préventif - Biologie clinique, les tests génétiques ne sont pas couverts.",
+      "applies_to": "Traitement préventif - Biologie clinique (§2.3.5(1))",
+      "page": 6
+    },
+    {
+      "name": "Montures de lunettes et verres non-correcteurs",
+      "description": "Les montures de lunettes et les verres non-correcteurs de lunettes (de soleil) ne sont pas couverts.",
+      "applies_to": "Dispositifs médicaux (§2.3.4)",
+      "page": 6
+    },
+    {
+      "name": "Utilisation incorrecte, négligence ou perte du dispositif médical",
+      "description": "Tous les frais résultants d'une utilisation incorrecte et/ou inappropriée par l'assuré et/ou d'une négligence et d'une perte de sa part ne sont pas couverts.",
+      "applies_to": "Dispositifs médicaux (§2.3.4)",
+      "page": 6
+    },
+    {
+      "name": "Accessoires et équipements auxiliaires non médicalement nécessaires",
+      "description": "Les coûts d'accessoires et d'équipements auxiliaires non médicalement nécessaires qui ne peuvent être attribués au fonctionnement et à l'utilisation standard des dispositifs médicaux ne sont pas couverts.",
+      "applies_to": "Dispositifs médicaux (§2.3.4)",
+      "page": 6
+    },
+    {
+      "name": "Chirurgie oculaire réfractive - récidive/régression hors garantie",
+      "description": "Ne sont pas couverts les traitements suite à une récidive ou d'amélioration (dus à la régression naturelle) en dehors de la période de garantie de 2 ans.",
+      "applies_to": "Chirurgie oculaire réfractive (§2.3.7)",
+      "page": 6
+    },
+    {
+      "name": "Chirurgie oculaire réfractive - meilleur contraste/vision nocturne",
+      "description": "Ne sont pas couverts les traitements dont le seul objectif est d'obtenir un meilleur contraste ou une meilleure vision nocturne (p. ex. le traitement au laser guidé par le front d'onde).",
+      "applies_to": "Chirurgie oculaire réfractive (§2.3.7)",
+      "page": 6
+    },
+    {
+      "name": "Chirurgie oculaire réfractive - formes non-laser",
+      "description": "Ne sont pas couvertes les formes de chirurgie oculaire réfractive non-laser (p. ex. la kératoplastie conductive ou la pose des anneaux intracornéens).",
+      "applies_to": "Chirurgie oculaire réfractive (§2.3.7)",
+      "page": 6
+    },
+    {
+      "name": "Interventions au cours d'une hospitalisation",
+      "description": "Comme décrit à l'article 2.2.1, seuls les traitements ambulatoires sont couverts. Les interventions chirurgicales (y compris le coût de la lentille artificielle) effectuées au cours d'une hospitalisation (hospitalisation avec nuitée ou hospitalisation de jour) ne sont pas couvertes.",
+      "applies_to": "all",
+      "page": 7
+    }
+  ],
+  "deductibles": {
+    "standard": "Une franchise, dont le montant est déterminé dans la police, s'applique par cas d'assurance (art. 2.2.1) : par assuré ; par année d'assurance, en tenant compte de la date de la consultation et/ou du traitement ambulatoire dispensé.",
+    "variable": "Si la date de début du plan d'assurance souscrit ne coïncide pas avec la date d'échéance annuelle, la franchise est appliquée au prorata du nombre de mois entre la date de début du plan d'assurance souscrit et la date d'échéance annuelle du contrat d'assurance.",
+    "per_coverage": null,
+    "page": 4
+  },
+  "waiting_periods": [
+    {
+      "coverage": "Général (ensemble du plan)",
+      "duration": "3 (trois) mois",
+      "description": "Un stage général de 3 (trois) mois s'applique à ce plan d'assurance. Un stage prend cours à la date de début du plan d'assurance. Pendant un stage, l'assureur n'est pas redevable de prestation d'assurance.",
+      "page": 3
+    },
+    {
+      "coverage": "Soins de santé mentale de première ligne ; conseils nutritionnels et diététiques (§2.3.5(3) et (4))",
+      "duration": "12 mois",
+      "description": "Pour les soins de santé mentale de première ligne ainsi que pour les conseils nutritionnels et diététiques, le stage est porté à 12 mois.",
+      "page": 4
+    },
+    {
+      "coverage": "Chirurgie oculaire réfractive (§2.3.7)",
+      "duration": "36 mois",
+      "description": "Pour la chirurgie oculaire réfractive, le stage est porté à 36 mois.",
+      "page": 4
+    },
+    {
+      "coverage": "Naissance",
+      "duration": "Aucun stage",
+      "description": "Aucun stage ne s'applique lorsque le plan d'assurance débute à la naissance de l'assuré.",
+      "page": 4
+    }
+  ],
+  "obligations": [
+    {
+      "name": "Prévention et limitation des conséquences",
+      "description": "Prendre toutes les mesures raisonnables pour prévenir et limiter les conséquences d'un cas d'assurance.",
+      "timing": "en cas de sinistre",
+      "sanction": "Si le manquement entraine un préjudice pour l'assureur, l'assureur peut réduire ses prestations dans la mesure du préjudice subi ou refuser d'intervenir intégralement si le manquement a été commis avec une intention frauduleuse.",
+      "page": 7
+    },
+    {
+      "name": "Faire valoir les interventions légales/statutaires en priorité",
+      "description": "Avant de demander une indemnisation à l'assureur, d'abord faire valoir les demandes d'indemnisation dans le cadre de toutes les interventions légales/statutaires.",
+      "timing": "en cas de sinistre",
+      "sanction": "Réduction ou refus des prestations dans la mesure du préjudice subi ; refus intégral en cas d'intention frauduleuse.",
+      "page": 7
+    },
+    {
+      "name": "Déclaration du cas d'assurance",
+      "description": "Déclarer chaque cas d'assurance à l'assureur, de préférence via le portail client digital ou l'application sur smartphone, le cas échéant en utilisant les formulaires de déclaration spécifiques et conformément aux consignes et délais décrits. La copie digitale doit être de bonne qualité (lisible) et conforme à l'original. L'assureur se réserve le droit de demander l'original. Si les pièces justificatives ont été rédigées dans une langue autre que le français, le néerlandais ou l'anglais, l'assureur peut en demander la traduction, aux frais de l'assuré.",
+      "timing": "en cas de sinistre",
+      "sanction": "Réduction ou refus des prestations dans la mesure du préjudice subi ; refus intégral en cas d'intention frauduleuse.",
+      "page": 7
+    },
+    {
+      "name": "Signaler tout autre accord couvrant un risque similaire",
+      "description": "Signaler l'existence de tout autre accord couvrant un risque similaire ou identique, totalement ou partiellement (notamment toute assurance hospitalisation individuelle ou collective complémentaire à l'assurance maladie légale belge remboursant les frais ambulatoires réels avant/après hospitalisation et/ou liés à des maladies dites \"graves\"). Le preneur/assuré ne peut renoncer à aucun droit de recours sans l'accord écrit préalable de l'assureur.",
+      "timing": "en cas de sinistre",
+      "sanction": "Si la substitution de l'assureur ne peut avoir aucun effet du fait des actions du preneur/assuré, l'assureur peut demander le remboursement de l'indemnité versée dans la mesure du préjudice subi.",
+      "page": 7
+    },
+    {
+      "name": "Collaboration à la détermination du droit aux prestations",
+      "description": "Le preneur d'assurance et l'assuré donnent leur accord pour que l'assureur ou la personne mandatée obtienne les informations nécessaires et s'engagent à coopérer à la bonne exécution des mesures requises en matière d'information et d'enquête sur les circonstances et l'étendue du cas d'assurance. L'assureur peut subordonner le droit aux prestations à la présentation de preuves et/ou de documents médicaux supplémentaires et faire examiner l'exactitude ou l'exhaustivité des déclarations par un médecin-conseil désigné.",
+      "timing": "en cas de sinistre",
+      "sanction": "Réduction ou refus des prestations dans la mesure du préjudice subi ; refus intégral en cas d'intention frauduleuse.",
+      "page": 8
+    },
+    {
+      "name": "Déclarations obligatoires en cours de contrat",
+      "description": "Pendant la durée du contrat : faire toutes les déclarations et communications à l'assureur par écrit ; aviser l'assureur dans les meilleurs délais de tout autre accord couvrant un risque similaire ; aviser l'assureur dans les 30 jours de la date à laquelle les conditions pour maintenir le contrat ne sont plus réunies (changement de lieu de résidence ou de résidence principale ; séjour à l'étranger de plus de 90 jours consécutifs ; séjour temporaire de plus de 6 mois dans l'UE des étudiants de moins de 26 ans ; changement de statut de sécurité sociale entraînant que l'assuré n'est plus assujetti à la sécurité sociale belge).",
+      "timing": "pendant la durée du contrat (dans les 30 jours)",
+      "sanction": "L'assureur peut résilier le contrat avec effet rétroactif au jour de la nouvelle situation si les conditions de maintien ne sont plus remplies. Réduction ou refus des prestations dans la mesure du préjudice subi ; refus intégral en cas d'intention frauduleuse.",
+      "page": 12
+    },
+    {
+      "name": "Déclaration exacte du risque à la souscription",
+      "description": "Toutes les circonstances connues et pertinentes qui déterminent l'évaluation du risque à assurer doivent être méticuleusement rapportées par le preneur d'assurance et par l'assuré jusqu'à la conclusion du contrat d'assurance, afin que le médecin-conseil de l'assureur puisse évaluer correctement le risque.",
+      "timing": "à la souscription",
+      "sanction": "Toute omission intentionnelle ou communication incorrecte induisant l'assureur en erreur dans l'appréciation du risque rend le contrat nul et non avenu, sans préjudice des primes déjà versées au moment où l'assureur en a pris connaissance.",
+      "page": 9
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclarer le sinistre",
+      "description": "Déclarer chaque cas d'assurance à l'assureur, de préférence via le portail client digital ou l'application sur smartphone, le cas échéant en utilisant les formulaires de déclaration spécifiques prévus et conformément aux consignes et délais décrits.",
+      "deadline": "Délai de prescription de 3 ans à compter de la date de traitement de la prestation pour soumettre les frais d'un cas d'assurance",
+      "page": 7
+    },
+    {
+      "step": "Détermination du droit aux prestations",
+      "description": "L'assureur (ou la personne mandatée), le preneur d'assurance et l'assuré collaborent pour déterminer le droit aux prestations. L'assureur peut demander des preuves/documents médicaux supplémentaires et faire examiner les déclarations par un médecin-conseil. Seules les informations médicales pertinentes, limitées à la description de l'état de santé initial au moment de la survenance du cas d'assurance, sont transmises au médecin-conseil.",
+      "deadline": null,
+      "page": 8
+    },
+    {
+      "step": "Prestation d'assurance",
+      "description": "L'indemnité est versée sur le numéro de compte indiqué par le preneur d'assurance lors de la déclaration du sinistre et libère complètement l'assureur de toute poursuite pour paiement incorrect. Le paiement s'effectue en euros. Les frais couverts de soins ambulatoires urgents à l'étranger facturés en devise étrangère sont remboursés au taux de change moyen de la devise étrangère à la date de l'indemnisation.",
+      "deadline": null,
+      "page": 8
+    },
+    {
+      "step": "Règlement des divergences d'opinion",
+      "description": "Tout litige concernant le droit aux prestations doit être signalé à l'assureur par écrit dans un délai de 30 jours suivant la décision de l'assureur ou dès que raisonnablement possible. L'assuré peut soumettre les litiges de nature médicale à une expertise médicale à l'amiable : chaque partie désigne un médecin-expert ; en cas de désaccord, un troisième médecin-expert est désigné ; les trois décident à la majorité, à défaut l'avis du troisième est déterminant. Si une partie ne désigne pas son médecin-expert dans les 14 jours, ou en cas de désaccord sur le troisième, celui-ci est désigné par le président du Tribunal de première instance du lieu de résidence. La décision est définitive et contraignante.",
+      "deadline": "30 jours suivant la décision de l'assureur ; 14 jours pour désigner son médecin-expert",
+      "page": 9
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat d'assurance est conclu à vie, sans préjudice des dispositions légales ou énoncées à l'article 4.3 et du droit de résiliation du preneur d'assurance.",
+    "tacit_renewal": null,
+    "notice_period": "Résiliation à chaque date d'échéance annuelle moyennant un préavis de trois mois",
+    "methods": [
+      "Résiliation par le preneur d'assurance par écrit (par lettre recommandée, par exploit d'huissier, ou par remise d'une lettre contre récépissé)",
+      "Résiliation par l'assureur par lettre recommandée en cas de non-paiement des primes (art. 4.2.3 second point)",
+      "Rétractation dans les 14 jours du contrat conclu à distance, sans pénalité et sans justification, par écrit à 25 rue de Loxum à 1000 Bruxelles (papier) ou contract-fr@dkv.be (digital)"
+    ],
+    "special_rights": [
+      "Résiliation à chaque date d'échéance annuelle moyennant un préavis de trois mois ; prend effet à la date d'échéance annuelle",
+      "Résiliation endéans les 3 mois suivant la notification d'une adaptation de la prime et/ou des conditions imposée par les autorités de contrôle faite au moins 4 mois avant l'échéance annuelle ; prend effet à la date d'échéance annuelle",
+      "Résiliation endéans les 3 mois suivant une adaptation imposée par les autorités de contrôle faite moins de 4 mois avant l'échéance annuelle ; prend effet après un mois à compter du lendemain de la notification/récépissé/dépôt à la Poste",
+      "Le preneur ne peut invoquer l'adaptation de la prime (indexation ou catégorie d'âge) pour résilier le contrat",
+      "Rétractation : la rétractation par le preneur prend effet immédiatement au moment de la notification ; celle de l'assureur ne prend effet que 8 jours après sa notification",
+      "Fin automatique du contrat en cas de déménagement du lieu de résidence ou de la résidence principale à l'étranger",
+      "Droit à la continuation individuelle à la sortie du contrat d'assurance (art. 4.4) : l'assureur soumet une offre dans les 30 jours ; l'assuré dispose de 60 jours pour accepter ; poursuite sans nouvel examen médical ; ne s'applique pas si le contrat expire par résiliation du preneur ou de l'assureur (art. 4.3.1 (1) à (4))"
+    ],
+    "page": 10
+  },
+  "prescription_period": {
+    "description": "Le délai de prescription pour soumettre des frais d'un cas d'assurance est de 3 ans à compter de la date de traitement de la prestation. L'assureur se réserve le droit de récupérer toute prestation indument payée ; le délai de prescription pour la réclamation est de 10 ans à compter de la date du paiement indu.",
+    "page": 8
+  },
+  "premium": {
+    "notes": [
+      "Le preneur d'assurance est redevable de la totalité de la prime annuelle (pour tous les assurés) à la date d'échéance annuelle.",
+      "La prime annuelle est calculée selon : le lieu de résidence du preneur d'assurance ; l'âge d'entrée de chaque assuré (année en cours moins année de naissance) ; l'état de santé de chaque assuré.",
+      "Le tableau de primes est disponible dans les Conditions Particulières d'Assurance, dont il fait intégralement partie.",
+      "La prime annuelle est payable annuellement et à l'avance, au plus tard à la date d'échéance, selon la périodicité convenue (mensuelle, trimestrielle, semestrielle ou annuelle).",
+      "Le paiement de la prime n'est pas exonéré après la survenance d'un cas d'assurance ni pendant celui-ci.",
+      "En cas de non-paiement : mise en demeure par lettre recommandée appelant à régler les arriérés endéans les 15 jours ; à défaut, suspension automatique de la garantie ; si non payé endéans un second délai de 15 jours à partir du premier jour de suspension, le contrat est résilié de plein droit. Aucun droit aux prestations pour les cas survenant pendant la suspension.",
+      "Indemnité forfaitaire due en cas de paiement incomplet/non-paiement après mise en demeure : € 20 si le montant restant dû ≤ € 150 ; € 30 si compris entre € 150,01 et € 500 ; € 65 si supérieur à € 500. Ces montants peuvent être indexés par arrêté royal sur la base de l'indice des prix à la consommation.",
+      "La prime de chaque assuré est adaptée à la date d'échéance annuelle sur base de la catégorie d'âge alors atteinte ; et à partir du premier jour du mois qui suit le changement du lieu de résidence du preneur."
+    ],
+    "indexation": "La prime, la franchise et/ou les prestations peuvent être adaptées à la date d'échéance annuelle jusqu'à concurrence maximum de l'un des indices publiés au Moniteur belge : l'indice des prix à la consommation (taux calculé en comparant les indices de juin de l'année civile en cours et précédente) ; ou les indices médicaux spécifiques liés au type de soins ambulatoires couverts, s'il apparait que leur évolution dépasse celle de l'indice des prix à la consommation (adaptation pouvant être appliquée de manière différenciée par catégorie d'âge). Outre l'indexation annuelle, la prime et/ou les conditions ne peuvent être adaptées que par l'intervention des autorités de contrôle si le plan d'assurance est ou risque d'être déficitaire.",
+    "page": 10
+  },
+  "special_conditions": [
+    {
+      "name": "Qui est assurable ?",
+      "description": "Toute personne physique qui simultanément : n'a pas atteint l'âge de 70 ans au moment de la souscription du plan d'assurance ; a son lieu de résidence et sa résidence principale en Belgique (ne séjourne pas pendant plus de 90 jours consécutifs à l'étranger) ; est assujettie à la sécurité sociale belge et en bénéficie. Les nouveau-nés d'un assuré peuvent être assurés dès la naissance, sans examen médical du risque, dans tout plan d'assurance similaire activement commercialisé au moment de la naissance, si la demande d'affiliation est effectuée par écrit endéans les 60 jours suivant le jour de la naissance.",
+      "page": 3
+    },
+    {
+      "name": "Séjour temporaire des étudiants de moins de 26 ans dans l'UE",
+      "description": "Le séjour effectif temporaire dans les États membres de l'Union européenne (à l'exclusion des territoires d'outre-mer) des étudiants de moins de 26 ans est couvert conformément à l'article 2.1, lorsqu'il est effectué en continuité de leurs études et cadre dans des programmes unilatéraux ou multilatéraux ou dans le cadre d'une convention entre deux ou plusieurs établissements d'enseignement supérieur. La durée maximale du séjour est de 6 mois, et l'assuré doit continuer à être soumis et à bénéficier de la couverture de sécurité sociale belge. À la demande de l'assureur, l'assuré (étudiant) fournit un certificat d'inscription indiquant la durée du séjour ainsi qu'une copie de sa carte européenne d'assurance maladie.",
+      "page": 3
+    },
+    {
+      "name": "Critères de remboursement",
+      "description": "Sauf mention contraire explicite dans le plan souscrit, sont uniquement remboursés les frais de consultations et/ou de traitements qui répondent simultanément à : ont un caractère ambulatoire diagnostique, curatif ou palliatif ; sont scientifiquement et thérapeutiquement éprouvés ; sont médicalement nécessaires et efficaces ; sont dispensés et/ou prescrits par un prestataire de soins reconnu ; sont encourus pendant la durée du plan d'assurance. L'assuré est libre de choisir son ou ses prestataires de soins reconnus.",
+      "page": 3
+    },
+    {
+      "name": "Politique de facturation excessive ou discriminatoire",
+      "description": "S'il est établi qu'un prestataire de soins reconnu poursuit une politique de facturation excessive, ou une politique de facturation discriminatoire dans le contexte de la garantie \"Dispositifs médicaux\" de l'article 2.3.4, l'assureur se réserve le droit de ne pas intervenir à la suite des frais médicaux facturés par ce prestataire de soins reconnu, aussi longtemps que ladite politique est appliquée. Ceci sera communiqué par écrit à l'assuré.",
+      "page": 3
+    },
+    {
+      "name": "Base de remboursement à 80 %",
+      "description": "L'assureur intervient, par cas d'assurance, dans les frais réels supportés (tickets modérateurs légaux et suppléments d'honoraires) des consultations et/ou traitements ambulatoires qui restent à la charge de l'assuré après déduction de toutes les interventions légales/statutaires ou autres. L'assureur rembourse à 80 % les frais de santé liés aux consultations et/ou traitements ambulatoires tels qu'énumérés aux articles 2.3.1 à 2.3.7 et dans les limites prévues. Ce taux est maintenu lorsqu'il n'y a pas de droit à une indemnisation par l'assurance obligatoire soins de santé et indemnités. L'intervention ne peut jamais dépasser les frais réels supportés par l'assuré.",
+      "page": 4
+    },
+    {
+      "name": "Plafond annuel global",
+      "description": "L'intervention de l'assureur au titre des prestations énumérées aux articles 2.3.1 à 2.3.7 est limitée à € 20.000 par année d'assurance. Quelle que soit la hauteur des interventions mentionnées, elles seront réduites à concurrence du capital annuel disponible pour les payer.",
+      "page": 4
+    },
+    {
+      "name": "Approbation préalable pour logopédie et procréation médicalement assistée",
+      "description": "Pour les frais de logopédie et de procréation médicalement assistée, le remboursement par l'assureur est soumis à l'approbation préalable et au remboursement du traitement par l'assurance obligatoire soins de santé et indemnités.",
+      "page": 4
+    },
+    {
+      "name": "Récupération des frais restant à charge et indemnité forfaitaire",
+      "description": "Les frais restant à charge du preneur ou de l'assuré (montant dépassant le capital annuel assuré ; frais d'un cas d'assurance non couverts ; frais refusés par l'assureur) seront récupérés. En cas de paiement incomplet ou de non-paiement après mise en demeure par lettre recommandée, une indemnité forfaitaire est due : € 20 si le montant restant dû ≤ € 150 ; € 30 si entre € 150,01 et € 500 ; € 65 si supérieur à € 500. Cette indemnité ne s'applique qu'après un premier rappel et un délai d'au moins quatorze jours calendrier à compter du troisième jour ouvrable suivant l'envoi du rappel (le jour calendrier suivant l'envoi si le rappel est envoyé par voie électronique). Réciproquement, une indemnité forfaitaire est due par l'assureur s'il ne verse pas les frais couverts, après mise en demeure par lettre recommandée.",
+      "page": 8
+    },
+    {
+      "name": "Conclusion du contrat à distance",
+      "description": "Sauf convention contraire expresse, la conclusion du contrat d'assurance ne peut avoir lieu qu'à distance, via le portail de souscription numérique. Le contrat est conclu au moment de l'émission de la police. La couverture n'entre en vigueur qu'après le paiement de la première prime annuelle complète ou de la prime partielle convenue dans le délai imparti, et jamais avant la date de début du contrat stipulée dans la police, pour autant que les stages aient pris fin.",
+      "page": 9
+    },
+    {
+      "name": "Acceptation du risque et conditions particulières",
+      "description": "Conformément à la législation belge, l'assureur peut refuser d'assurer des personnes qui constituent un risque aggravé ou décider de les assurer à des conditions particulières ; si nécessaire, exclure certains risques de la garantie et/ou facturer une surprime pour une maladie ou une affection qui existait avant la conclusion du contrat. Celles-ci sont déterminées lors de l'émission de la police et de ses avenants et décrites dans les Conditions Particulières d'Assurance. La proposition d'assurance n'engage ni le preneur ni l'assureur ; si l'assureur n'a pas notifié d'offre, de demande d'information ou de refus dans les 30 jours suivant la réception de la proposition, il s'engage à conclure le contrat sous peine de dommages et intérêts.",
+      "page": 9
+    },
+    {
+      "name": "Fin du plan d'assurance",
+      "description": "Le plan d'assurance expire : pour tous les assurés à la fin du contrat d'assurance ; pour les assurés concernés par : les conditions d'assurabilité (art. 1.1) ne sont plus remplies ; décès ; sortie du contrat d'assurance (sans préjudice au droit de continuation individuelle, art. 4.4) ; fraude ou tentative de fraude. La garantie d'assurance prend fin en même temps que le plan d'assurance.",
+      "page": 12
+    },
+    {
+      "name": "Protection de la vie privée",
+      "description": "L'assureur traite les données personnelles et médicales uniquement dans le cadre des prestations d'assurance, conformément à la loi belge du 30 juillet 2018 et au règlement 2016/679 (RGPD). Déclaration Vie Privée disponible sur https://www.dkv.be/fr/privacy.",
+      "page": 12
+    },
+    {
+      "name": "Droit applicable et juridiction",
+      "description": "Le droit belge s'applique à ce contrat d'assurance. Tous les litiges relatifs à la conclusion, la validité, l'exécution, l'interprétation ou la dissolution du contrat relèvent de la compétence exclusive des cours et tribunaux belges.",
+      "page": 13
+    },
+    {
+      "name": "Gestion des plaintes",
+      "description": "Toute plainte relative au contrat d'assurance ou la gestion d'un sinistre peut être adressée à DKV Belgium S.A. – Quality Control, 25 rue de Loxum, 1000 Bruxelles (qualitycontrol@dkv.be). Sans préjudice d'une procédure judiciaire, le preneur peut s'adresser à l'ombudsman de l'assurance, square de Meeûs 35, 1000 Bruxelles (www.ombudsman-insurance.be, +32 (0) 2 547 58 71, info@ombudsman-insurance.be).",
+      "page": 13
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Assurance individuelle soins de santé ambulatoires, à caractère indemnitaire, conformément à la législation belge applicable, en complément de toute intervention légale/statutaire ou autre.",
+      "context": "Champ d'application du produit",
+      "page": 3
+    },
+    {
+      "quote": "L'assureur rembourse à 80 % les frais de santé liés aux consultations et/ou traitements ambulatoires tels qu'énumérés aux articles 2.3.1 à 2.3.7 et dans les limites prévues.",
+      "context": "Taux de remboursement",
+      "page": 4
+    },
+    {
+      "quote": "L'intervention de l'assureur au titre des prestations énumérées aux articles 2.3.1 à 2.3.7 est limitée à € 20.000 par année d'assurance.",
+      "context": "Plafond annuel global",
+      "page": 4
+    },
+    {
+      "quote": "Le plan d'assurance est valable pour les cas d'assurance survenant en Belgique. Dans le cas spécifique des soins de santé ambulatoires urgents à l'étranger, le plan d'assurance est valable dans le monde entier.",
+      "context": "Étendue territoriale",
+      "page": 3
+    },
+    {
+      "quote": "Un stage général de 3 (trois) mois s'applique à ce plan d'assurance.",
+      "context": "Stage général",
+      "page": 3
+    },
+    {
+      "quote": "Les consultations et traitements liés aux soins dentaires (p. ex. dentiste, orthodontiste, parodontiste) ne sont pas couverts par ce plan d’assurance, mais peuvent être couverts par les assurances spécifiques soins dentaires de l'assureur ;",
+      "context": "Exclusion soins dentaires dans le traitement médical",
+      "page": 5
+    },
+    {
+      "quote": "L'assureur supporte la charge de la preuve pour toutes les exclusions et limitations du plan d’assurance.",
+      "context": "Charge de la preuve des exclusions",
+      "page": 7
+    },
+    {
+      "quote": "Conformément à la législation belge applicable, le contrat d'assurance est conclu à vie, sans préjudice des dispositions légales ou énoncées à l'article 4.3. et du droit de résiliation du preneur d'assurance.",
+      "context": "Durée du contrat",
+      "page": 10
+    },
+    {
+      "quote": "Le délai de prescription pour soumettre des frais d'un cas d'assurance est de 3 ans à compter de la date de traitement de la prestation.",
+      "context": "Délai de prescription",
+      "page": 8
+    }
+  ],
+  "gaps": [
+    "Le montant de la franchise n'est pas indiqué dans les Conditions Générales : il est déterminé dans la police (Conditions Particulières).",
+    "Le tableau de primes et les montants de primes ne figurent pas dans ce document ; ils sont renvoyés aux Conditions Particulières d'Assurance.",
+    "Le glossaire (pages 14-18) est présenté sur deux colonnes ; les termes définis sur plusieurs pages ont été rattachés à leur page de départ."
+  ]
+}

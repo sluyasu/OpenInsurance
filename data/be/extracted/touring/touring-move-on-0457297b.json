@@ -1,0 +1,396 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "be",
+  "insurer_slug": "touring",
+  "insurer_name": "Touring",
+  "branch": "autres",
+  "document_type": "ipid",
+  "language": "fr",
+  "source_url": "https://www.touring.be/fr/remote-documents/ReferenceDocument-203/FICHE_IPID.0079-8426100F-01042026.pdf",
+  "product_name": "Touring Move On",
+  "reference": "0079-8426132F-01042026",
+  "edition_date": "01042026",
+  "target_audience": null,
+  "branch_code": "0079",
+  "product_family": "Touring Move On",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_pages": 2,
+  "source_pdf": "touring-move-on-assistance-depannage-belgique-europe-0457297b.pdf",
+  "source_sha256": "6fbdb6059e0f22bbc87d25c919ff7aff7e201a6021f4f153f57ac369894404a8",
+  "fetched_at": "2026-07-05",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Touring Move On est une assurance assistance émise par AG Insurance SA qui prévoit le dépannage des véhicules assurés en Belgique et/ou en Europe. La formule Touring Move On Belgique comme la formule Touring Move On Etranger peuvent être souscrites à titre individuel ou pour la famille. Un Pack Assurance Voyage peut être souscrit uniquement en complément de la formule Touring Move On Etranger : il couvre l'assistance aux personnes à l'étranger, dont l'intervention en cas de frais médicaux, et prévoit une intervention en cas de retard, annulation, déclassement ou refus d'embarquement d'un vol (Fly Zen).",
+  "definitions": [
+    {
+      "term": "Véhicules assurés",
+      "definition": "Sont entre autres considérés comme véhicules assurés : voiture, moto, minibus, mobilhome, vélo (électrique), scooter.",
+      "page": 1
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Dépannage sur place ou remorquage (Touring Move On Belgique)",
+      "description": "Le dépannage sur place 24h/7 du véhicule assuré immobilisé à la suite d'un incident (ex : panne, accident, vol, vandalisme) ou le remorquage vers le garage au choix de l'assuré.",
+      "is_optional": false,
+      "territorial_scope": "en Belgique et jusqu'à 100km au-delà des frontières belges",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Retour au domicile après remorquage (Touring Move On Belgique)",
+      "description": "Le retour au domicile des assurés après le remorquage du véhicule assuré.",
+      "is_optional": false,
+      "territorial_scope": "en Belgique et jusqu'à 100km au-delà des frontières belges",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Véhicule de remplacement en Belgique (Touring Move On Belgique)",
+      "description": "La mise à disposition de l'assuré d'un véhicule de remplacement en Belgique pour une durée maximale de 5 jours (Individuel) ou de 8 jours (Famille) par année d'assurance.",
+      "is_optional": false,
+      "territorial_scope": "en Belgique et jusqu'à 100km au-delà des frontières belges",
+      "limits": "5 jours (Individuel) ou 8 jours (Famille) par année d'assurance",
+      "sub_limits": [
+        "5 jours par année d'assurance (formule Individuelle)",
+        "8 jours par année d'assurance (formule Famille)"
+      ],
+      "deductible": null,
+      "conditions": [
+        "La prestation véhicule de remplacement en Belgique n'est acquise que 10 jours après le paiement de la première prime."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Dépannage sur place ou remorquage (Touring Move On Etranger)",
+      "description": "Le dépannage sur place 24h/7 du véhicule assuré immobilisé à la suite d'un incident (ex : panne, accident, vol, vandalisme) ou le remorquage vers le garage le plus proche.",
+      "is_optional": false,
+      "territorial_scope": "les pays de l'Union européenne, ainsi qu'en Albanie, Andorre, Biélorussie, Bosnie Herzégovine, Guernesey, les îles Åland, l'Île de Man, Islande, Jersey, Kosovo, Liechtenstein, Macédoine, Moldavie, Monaco, Monténégro, Norvège, Royaume-Uni, Saint-Marin, Serbie, Suisse, Ukraine et Vatican, à l'exclusion de la Belgique",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Rapatriement du véhicule (Touring Move On Etranger)",
+      "description": "Le rapatriement du véhicule assuré vers la Belgique.",
+      "is_optional": false,
+      "territorial_scope": "les pays de l'Union européenne et pays européens listés, à l'exclusion de la Belgique",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Véhicule de remplacement à l'étranger (Touring Move On Etranger)",
+      "description": "La mise à disposition de l'assuré d'un véhicule de remplacement à l'étranger pour une durée maximale de 15 jours par année d'assurance.",
+      "is_optional": false,
+      "territorial_scope": "à l'étranger",
+      "limits": "15 jours par année d'assurance",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Frais d'hôtel (Touring Move On Etranger)",
+      "description": "La prise en charge des frais d'hôtel dans certains cas d'immobilisation et réparation du véhicule assuré.",
+      "is_optional": false,
+      "territorial_scope": "à l'étranger",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Envoi d'un chauffeur de remplacement (Touring Move On Etranger)",
+      "description": "L'envoi d'un chauffeur de remplacement à la suite d'un accident ou malaise inopiné du conducteur.",
+      "is_optional": false,
+      "territorial_scope": "à l'étranger",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Envoi de pièces de rechange (Touring Move On Etranger)",
+      "description": "L'envoi de pièces de rechange non disponibles à l'étranger.",
+      "is_optional": false,
+      "territorial_scope": "à l'étranger",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Remboursement illimité des frais médicaux et de rapatriement (Pack Assurance Voyage)",
+      "description": "Le remboursement illimité des frais médicaux et de rapatriement en cas d'hospitalisation à l'étranger.",
+      "is_optional": true,
+      "territorial_scope": "dans le monde entier, à l'exception de la Belgique",
+      "limits": "illimité",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Le Pack Assurance Voyage peut être souscrit uniquement en complément de la formule Touring Move On Etranger."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Remboursement des frais médicaux, chirurgicaux et hospitaliers en Belgique (Pack Assurance Voyage)",
+      "description": "Le remboursement limité des frais médicaux, chirurgicaux et hospitaliers en cas d'hospitalisation en Belgique liés à une opération médicale non planifiée ou un accident à l'étranger.",
+      "is_optional": true,
+      "territorial_scope": "en Belgique (lié à un incident médical à l'étranger)",
+      "limits": "un maximum de 6.000 EUR de frais médicaux, chirurgicaux et hospitaliers sont pris en charge par assuré",
+      "sub_limits": [
+        "6.000 EUR par assuré pour intervention en cas de frais médicaux en Belgique liée à un incident médical à l'étranger",
+        "250 EUR par assuré pour les soins dentaires urgents à la suite d'un accident ou d'une crise aiguë"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le Pack Assurance Voyage peut être souscrit uniquement en complément de la formule Touring Move On Etranger."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Remboursement des frais médicaux ambulatoires en Belgique (Pack Assurance Voyage)",
+      "description": "Le remboursement limité des frais médicaux ambulatoires en Belgique suite à une opération médicale ou un accident à l'étranger.",
+      "is_optional": true,
+      "territorial_scope": "en Belgique (suite à une opération médicale ou un accident à l'étranger)",
+      "limits": "limité",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Le Pack Assurance Voyage peut être souscrit uniquement en complément de la formule Touring Move On Etranger."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Retour anticipé en Belgique (Pack Assurance Voyage)",
+      "description": "La prise en charge des frais liés au retour anticipé en Belgique en cas d'hospitalisation ou décès d'un membre de la famille en Belgique ou en cas de sinistre grave au domicile.",
+      "is_optional": true,
+      "territorial_scope": "dans le monde entier, à l'exception de la Belgique",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Le Pack Assurance Voyage peut être souscrit uniquement en complément de la formule Touring Move On Etranger."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Envoi de médicaments, prothèses ou lunettes (Pack Assurance Voyage)",
+      "description": "L'envoi de médicaments, prothèses ou lunettes qui ne sont pas disponibles à l'étranger.",
+      "is_optional": true,
+      "territorial_scope": "dans le monde entier, à l'exception de la Belgique",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Le Pack Assurance Voyage peut être souscrit uniquement en complément de la formule Touring Move On Etranger."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Prestations liées à la pratique du ski (Pack Assurance Voyage)",
+      "description": "Des prestations liées à la pratique du ski comme le remboursement du skipass et des cours de ski, bris et vol de ski.",
+      "is_optional": true,
+      "territorial_scope": "dans le monde entier, à l'exception de la Belgique",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Le Pack Assurance Voyage peut être souscrit uniquement en complément de la formule Touring Move On Etranger."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Fly Zen - avance de compensation vol (Pack Assurance Voyage)",
+      "description": "Intervention en cas de retard, annulation, déclassement ou refus d'embarquement d'un vol (Fly Zen) : avancer la compensation due par la compagnie aérienne à l'assuré en cas de retard, annulation, déclassement ou refus d'embarquement.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Le Pack Assurance Voyage peut être souscrit uniquement en complément de la formule Touring Move On Etranger."
+      ],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Événement connu lors de la souscription ou du départ",
+      "description": "Tout événement connu lors de la souscription du contrat et/ou le départ à l'étranger.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Sinistre hors période d'assurance",
+      "description": "Tout sinistre survenu en dehors de la période d'assurance.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Véhicules de transport rémunéré",
+      "description": "Les véhicules servant au transport rémunéré de personnes ou de marchandises.",
+      "applies_to": "Touring Move On Belgique & Etranger",
+      "page": 1
+    },
+    {
+      "name": "Amendes",
+      "description": "Les amendes de quelque nature que ce soit.",
+      "applies_to": "Touring Move On Belgique & Etranger",
+      "page": 1
+    },
+    {
+      "name": "Accidents lors de la pratique de certains sports",
+      "description": "Dans le cadre de l'Assistance aux personnes : les accidents qui sont survenus lors de la pratique des sports tels que : les sports aériens non encadrés par un instructeur, le benji, la plongée de falaise, le saut à ski.",
+      "applies_to": "Pack Assurance Voyage - Assistance aux personnes",
+      "page": 1
+    },
+    {
+      "name": "Traitements non reconnus par l'I.N.A.M.I.",
+      "description": "Dans le cadre de l'Assistance aux personnes : les traitements non reconnus par l'I.N.A.M.I.",
+      "applies_to": "Pack Assurance Voyage - Assistance aux personnes",
+      "page": 1
+    },
+    {
+      "name": "Circonstances extraordinaires (Fly Zen)",
+      "description": "Dans le cadre de l'Intervention en cas de retard, annulation, déclassement ou refus d'embarquement d'un vol (Fly Zen) : le cas où des circonstances extraordinaires ont eu lieu et qui n'auraient pas pu être évitées même si toutes les mesures raisonnables avaient été prises.",
+      "applies_to": "Pack Assurance Voyage - Fly Zen",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": null,
+    "per_coverage": null,
+    "page": null
+  },
+  "waiting_periods": [
+    {
+      "name": "Délai de carence remorquage étendu et véhicule de remplacement en Belgique",
+      "description": "Les prestations remorquage étendu et véhicule de remplacement en Belgique ne sont acquises que 10 jours après le paiement de la première prime.",
+      "duration": "10 jours après le paiement de la première prime",
+      "applies_to": "Assistance aux véhicules (Belgique)",
+      "page": 1
+    }
+  ],
+  "obligations": [
+    {
+      "description": "Lors de la conclusion du contrat, vous devez nous informer de manière complète et exacte sur le risque à assurer.",
+      "timing": "lors de la conclusion du contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "En cas de modification apportée en cours de contrat (ex : changement de composition de famille), vous devez nous le déclarer.",
+      "timing": "en cours de contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "Vous devez prendre toutes les précautions d'usage pour éviter la survenance d'un sinistre.",
+      "timing": null,
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "Vous devez déclarer un sinistre et ses circonstances dès que possible. Vous devez également prendre toutes les mesures raisonnables pour limiter les conséquences du sinistre.",
+      "timing": "dès que possible en cas de sinistre",
+      "sanction": null,
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclarer un sinistre et ses circonstances dès que possible et prendre toutes les mesures raisonnables pour limiter les conséquences du sinistre.",
+      "deadline": "dès que possible",
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat prend effet à la date fixée aux conditions particulières du contrat, à condition que la première prime ait été payée. Le contrat dure un an et est prolongé automatiquement chaque année, sauf si vous ou nous résilions le contrat.",
+    "tacit_renewal": "Le contrat dure un an et est prolongé automatiquement chaque année, sauf si vous ou nous résilions le contrat.",
+    "methods": [
+      "La résiliation du contrat doit se faire par envoi recommandé, par exploit d'huissier ou par la remise d'une lettre de résiliation avec accusé de réception."
+    ],
+    "special_rights": null,
+    "page": 2,
+    "notice_period": "Vous pouvez résilier votre contrat d'assurance au plus tard deux mois avant la date d'échéance annuelle du contrat."
+  },
+  "prescription_period": null,
+  "premium": {
+    "description": "Vous avez l'obligation de payer annuellement la prime et vous recevez pour cela une invitation à payer. Une prime fractionnée est possible moyennant certaines conditions.",
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "description": "Les frais engagés par un assuré sans accord préalable de Touring ne sont pas couverts (restriction spécifique à toutes les garanties).",
+      "page": 1
+    },
+    {
+      "description": "La couverture est limitée aux déplacements à l'étranger de maximum 3 mois consécutifs (restriction spécifique à toutes les garanties).",
+      "page": 1
+    },
+    {
+      "description": "Les prestations aux véhicules ne sont pas acquises dans les Iles Canaries et à Madère, dans les enclaves espagnoles Ceuta et Melilla sur le territoire africain, en Turquie ainsi que sur le territoire français en dehors de la France Métropolitaine.",
+      "page": 2
+    },
+    {
+      "description": "Le Pack Assurance Voyage peut être souscrit uniquement en complément de la formule Touring Move On Etranger.",
+      "page": 1
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Touring Move On est une assurance assistance qui prévoit le dépannage des véhicules assurés en Belgique et/ou en Europe.",
+      "page": 1
+    },
+    {
+      "quote": "Le dépannage sur place 24h/7 du véhicule assuré immobilisé à la suite d'un \nincident (ex : panne, accident, vol, vandalisme) ou le remorquage vers le \ngarage au choix de l'assuré.",
+      "page": 1
+    },
+    {
+      "quote": "Le remboursement illimité des frais médicaux et de rapatriement en cas \nd'hospitalisation à l'étranger.",
+      "page": 1
+    },
+    {
+      "quote": "Tout événement connu lors de la souscription du contrat et/ou le \ndépart à l'étranger.",
+      "page": 1
+    },
+    {
+      "quote": "Les véhicules servant au transport rémunéré de personnes ou de \nmarchandises.",
+      "page": 1
+    },
+    {
+      "quote": "La couverture est limitée aux déplacements à l'étranger de maximum \n3 mois consécutifs.",
+      "page": 1
+    },
+    {
+      "quote": "Vous pouvez résilier votre contrat d'assurance au plus tard deux mois avant la date d'échéance annuelle du contrat.",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "Le document est une fiche IPID (2 pages) : par nature synthétique et non exhaustive ; l'étendue exacte des garanties et les limites d'intervention sont précisées dans les conditions générales du contrat, non fournies ici.",
+    "Le produit est commercialisé sous la marque Touring Move On mais l'entreprise d'assurance émettrice indiquée dans le document est AG Insurance SA (agréée sous le code 0079).",
+    "Aucun délai de prescription n'est mentionné dans le document.",
+    "Aucune information de franchise générale (deductibles) n'est mentionnée dans le document.",
+    "La référence de bas de page 2 (0079-8426132F-01042026) diffère du code figurant dans le nom de fichier de la source (0079-8426100F-01042026)."
+  ]
+}

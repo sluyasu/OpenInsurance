@@ -1,0 +1,329 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "be",
+  "insurer_slug": "argenta",
+  "insurer_name": "Argenta Assurances",
+  "branch": "autres",
+  "document_type": "ipid",
+  "language": "fr",
+  "source_url": "https://www.argenta.be/content/dam/argenta/documents/assurer/ipid/IPID%20Assurance%20moto.pdf",
+  "product_name": "Assurance moto",
+  "reference": "DW25094",
+  "edition_date": "01/10/2025",
+  "target_audience": null,
+  "branch_code": "02, 08, 10a, 13, 14, 17, 21, 22, 23 et 26",
+  "product_family": "Assurance Véhicule",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_pages": 2,
+  "source_pdf": "assurance-moto-2ee90a58.pdf",
+  "source_sha256": "54d1ec8c0f67ebf5295895e3df5865a06e830408205ec76d1ba059081d065c3d",
+  "fetched_at": "2026-07-05",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Assurance moto d'Argenta Assurances SA pour véhicule automoteur tel qu'une motocyclette ou un vélomoteur. Elle comprend toujours la garantie responsabilité civile légalement obligatoire, avec assistance immédiate après un accident. Des garanties optionnelles peuvent être ajoutées : Protection juridique (de Base ou Safe), et, pour les motos, Assistance dépannage et Assurance voyage, ces deux dernières étant des produits de l'assureur Europ Assistance Belgium.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Responsabilité civile (obligatoire)",
+      "description": "Garantie de base. Dommages matériels et corporels à autrui suite à un accident de la route dont vous êtes responsable ; dommages corporels des usagers faibles suite à un accident de la route impliquant votre véhicule ; assistance immédiate après un accident dans les pays où le certificat d'assurance international est valable.",
+      "is_optional": false,
+      "territorial_scope": "Dans les pays où le certificat d'assurance international est valable",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Assistance immédiate après un accident dans les pays où le certificat d'assurance international est valable"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance immédiate après un accident - en Belgique ou jusqu'à 30 kilomètres en dehors des frontières du pays",
+      "description": "En Belgique ou jusqu'à 30 kilomètres en dehors des frontières du pays : service de remorquage, transport des occupants jusqu'à destination et voiture de remplacement pendant 24 heures ou jusqu'au jour ouvrable suivant. Voiture de remplacement pas d'application pour les vélomoteurs.",
+      "is_optional": false,
+      "territorial_scope": "En Belgique ou jusqu'à 30 kilomètres en dehors des frontières du pays",
+      "limits": "voiture de remplacement pendant 24 heures ou jusqu'au jour ouvrable suivant",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "voiture de remplacement pas d'application pour les vélomoteurs"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance immédiate après un accident - à l'étranger",
+      "description": "À l'étranger : service de remorquage et transport des passagers jusqu'au garage le plus proche.",
+      "is_optional": false,
+      "territorial_scope": "à l'étranger",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Protection juridique de Base",
+      "description": "Recours civil contre les tiers afin d'obtenir indemnisation ; défense pénale en cas d'infractions routières.",
+      "is_optional": true,
+      "territorial_scope": "Tous les pays où le certificat international d'assurance est valable",
+      "limits": "Intervention maximale de 25.000 euros (Base)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Protection juridique Safe",
+      "description": "Comprend toutes les garanties de la Protection juridique de Base ; assistance juridique dans certains litiges contractuels concernant le véhicule assuré.",
+      "is_optional": true,
+      "territorial_scope": "Tous les pays où le certificat international d'assurance est valable",
+      "limits": "Intervention maximale de 40.000 (Safe)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Assistance dépannage (non proposée pour les vélomoteurs)",
+      "description": "Assistance dépannage pour le véhicule assuré, en Belgique et à l'étranger (pays mentionnés sur la carte d'assurance internationale) ; droit à une voiture de remplacement pendant la réparation ; frais d'hôtel + transport/rapatriement du véhicule assuré.",
+      "is_optional": true,
+      "territorial_scope": "Tous les pays où le certificat international d'assurance est valable (en Belgique et à l'étranger, pays mentionnés sur la carte d'assurance internationale)",
+      "limits": "Si le service de remorquage n'est pas organisé par nos soins, nous payons les frais jusqu'à un maximum de 250 euros. Le véhicule de remplacement est de catégorie B au maximum.",
+      "sub_limits": [
+        {
+          "name": "Frais de remorquage non organisé par nos soins",
+          "limit": "maximum de 250 euros",
+          "page": 1
+        },
+        {
+          "name": "Véhicule de remplacement",
+          "limit": "catégorie B au maximum",
+          "page": 1
+        }
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le véhicule doit être immobilisé sur la chaussée ou dans un garage.",
+        "Non proposée pour les vélomoteurs"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assurance voyage (non proposée pour les vélomoteurs)",
+      "description": "Assistance médicale à l'étranger (dans le monde entier) et remboursement de vos frais médicaux ; rapatriement/transport et accompagnement de la personne malade ou blessée ; retour anticipé pour cause d'hospitalisation ou de décès d'un membre de la famille en Belgique.",
+      "is_optional": true,
+      "territorial_scope": "Dans le monde entier (vous trouverez les pays exclus dans les conditions générales)",
+      "limits": "Si l'assuré n'est pas affilié ou n'est pas en règle avec la mutuelle, l'intervention pour l'ensemble des frais médicaux est limitée à un maximum de 1.240 euros.",
+      "sub_limits": [
+        {
+          "name": "Frais médicaux si l'assuré n'est pas affilié ou pas en règle avec la mutuelle",
+          "limit": "maximum de 1.240 euros",
+          "page": 1
+        }
+      ],
+      "deductible": null,
+      "conditions": [
+        "L'assurance rembourse les frais après intervention de la mutuelle et d'une éventuelle assurance hospitalisation",
+        "Non proposée pour les vélomoteurs"
+      ],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Dommages au véhicule assuré",
+      "description": "Dommages au véhicule assuré.",
+      "applies_to": "Responsabilité civile (obligatoire)",
+      "page": 1
+    },
+    {
+      "name": "Lésions corporelles du conducteur",
+      "description": "Lésions corporelles du conducteur.",
+      "applies_to": "Responsabilité civile (obligatoire)",
+      "page": 1
+    },
+    {
+      "name": "Mise en location du véhicule",
+      "description": "De façon générale, l'assurance n'intervient pas en cas de mise en location du véhicule.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dommages causés intentionnellement",
+      "description": "De façon générale, l'assurance n'intervient pas en cas de dommages causés intentionnellement.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Conduite en état d'ivresse ou sous l'influence de stupéfiants",
+      "description": "De façon générale, l'assurance n'intervient pas en cas de conduite en état d'ivresse ou sous l'influence de stupéfiants.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Participation à des compétitions, à des parcours d'essais et à des entraînements",
+      "description": "De façon générale, l'assurance n'intervient pas en cas de participation à des compétitions, à des parcours d'essais et à des entraînements.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dommages inférieurs à 125 euros (Protection juridique)",
+      "description": "Dommages qui s'élèvent à moins de 125 euros.",
+      "applies_to": "Protection juridique de Base & Safe",
+      "page": 1
+    },
+    {
+      "name": "Litiges avec le Ministère Public (Protection juridique)",
+      "description": "Litiges avec le Ministère Public au sujet de peines, amendes et décimes additionnels.",
+      "applies_to": "Protection juridique de Base & Safe",
+      "page": 1
+    },
+    {
+      "name": "Immobilisation du véhicule pour travaux d'entretien (Assistance dépannage)",
+      "description": "Immobilisation du véhicule pour travaux d'entretien.",
+      "applies_to": "Assistance dépannage (non proposée pour les vélomoteurs)",
+      "page": 1
+    },
+    {
+      "name": "Pièces de rechange (Assistance dépannage)",
+      "description": "Pièces de rechange.",
+      "applies_to": "Assistance dépannage (non proposée pour les vélomoteurs)",
+      "page": 1
+    },
+    {
+      "name": "Frais de diagnostic, démontage, réparation et entretien (Assistance dépannage)",
+      "description": "Frais de diagnostic, démontage, réparation et entretien.",
+      "applies_to": "Assistance dépannage (non proposée pour les vélomoteurs)",
+      "page": 1
+    },
+    {
+      "name": "Annulation d'un voyage prévu ou perte de bagages (Assurance voyage)",
+      "description": "L'annulation d'un voyage prévu ou de la perte de bagages.",
+      "applies_to": "Assurance voyage (non proposée pour les vélomoteurs)",
+      "page": 1
+    },
+    {
+      "name": "Séjours à l'étranger de plus de 3 mois consécutifs (Assurance voyage)",
+      "description": "Les séjours à l'étranger de plus de 3 mois consécutifs.",
+      "applies_to": "Assurance voyage (non proposée pour les vélomoteurs)",
+      "page": 1
+    },
+    {
+      "name": "Sports extrêmes (Assurance voyage)",
+      "description": "Les sports extrêmes, sauf lorsqu'ils sont pratiqués ou supervisés par une personne formée professionnellement.",
+      "applies_to": "Assurance voyage (non proposée pour les vélomoteurs)",
+      "page": 1
+    },
+    {
+      "name": "Recours après indemnisation (Responsabilité civile)",
+      "description": "Après indemnisation de la personne lésée, un recours est possible contre le preneur d'assurance ou l'assuré dans certains cas, notamment en cas de conduite en état d'ivresse, sans permis de conduire valide ou participation à des compétitions non autorisées. Vous trouvez un aperçu complet des motifs de recours dans les conditions générales.",
+      "applies_to": "Responsabilité civile (obligatoire)",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": null,
+    "per_coverage": null,
+    "page": null
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "description": "Vous devez nous fournir des informations sincères, précises et complètes sur le risque à assurer lors de la conclusion du contrat.",
+      "timing": "Lors de la conclusion du contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "Si des changements interviennent pendant la durée du contrat (notamment, une modification du conducteur principal, un changement d'adresse, etc.), vous devez les signaler à votre assureur.",
+      "timing": "Pendant la durée du contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "Vous devez prendre toutes les mesures de précaution prévues pour éviter qu'un sinistre se produise.",
+      "timing": null,
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "Vous devez signaler un sinistre et ses circonstances dans le délai prévu dans les conditions générales. Vous devez prendre toutes les mesures raisonnables pour éviter ou limiter les conséquences d'un sinistre.",
+      "timing": "Dans le délai prévu dans les conditions générales",
+      "sanction": null,
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Vous devez signaler un sinistre et ses circonstances dans le délai prévu dans les conditions générales.",
+      "deadline": "Dans le délai prévu dans les conditions générales",
+      "page": 2
+    },
+    {
+      "step": "Vous devez prendre toutes les mesures raisonnables pour éviter ou limiter les conséquences d'un sinistre.",
+      "deadline": null,
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat dure un an. La date de début et la durée de l'assurance sont indiquées dans les conditions particulières du contrat.",
+    "tacit_renewal": "Le contrat est reconductible tacitement.",
+    "methods": [
+      "Vous pouvez résilier par envoi recommandé, par exploit d'huissier ou en remettant la lettre de résiliation contre récépissé."
+    ],
+    "special_rights": null,
+    "page": 2,
+    "notice_period": "Au cours de la première année, vous pouvez résilier le contrat d'assurance au moins deux mois avant l'échéance annuelle. Votre contrat prend alors fin à cette date d'échéance. Par la suite, vous pouvez résilier à tout moment et votre contrat prend fin deux mois après la date de réception de la résiliation."
+  },
+  "prescription_period": null,
+  "premium": {
+    "description": "Vous avez l'obligation de payer annuellement la prime et vous recevez pour cela une invitation à payer. Une prime fractionnée est possible moyennant certaines conditions et des coûts supplémentaires éventuels.",
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "description": "Assistance dépannage et Assurance voyage sont des produits d'assurance de l'assureur Europ Assistance Belgium. Argenta Assurances SA collabore avec Europ Assistance Belgium pour vous offrir ces garanties, les inclure dans la police ou les résilier et percevoir la prime.",
+      "page": 1
+    },
+    {
+      "description": "Assureur des garanties Responsabilité civile, Omnium (partielle), Protection juridique et Conducteur+ : Argenta Assurances SA, entreprise d'assurance de droit belge, Belgiëlei 49-53, 2018 Anvers, TVA BE 0404.456.148, RPM Anvers, division Anvers et agréée par la Banque nationale de Belgique (BNB) sous le numéro 0858 pour les branches 02, 08, 10a, 13, 14, 17, 21, 22, 23 et 26.",
+      "page": 2
+    },
+    {
+      "description": "Assureur des garanties Assistance dépannage et Assurance voyage : Europ Assistance Belgium, TVA BE 0738.431.009, RPM Bruxelles, Cantersteen 47, 1000 Bruxelles, succursale belge d'Europ Assistance SA, assureur de droit français ayant son siège social au 2, rue Pillet-Will à 75009 Paris, France (451 366 405 RCS Paris), agréée sous le code 0888 pour les branches 1,9,13,16 et 18 sous la surveillance de la Banque nationale de Belgique, Boulevard de Berlaimont 14, 1000 Bruxelles.",
+      "page": 2
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Cette assurance comprend toujours la garantie responsabilité civile légalement obligatoire pour le véhicule automoteur assuré tel qu'une motocyclette ou un vélomoteur.",
+      "page": 1
+    },
+    {
+      "quote": "Protection juridique : Intervention maximale de 40.000 (Safe) ou 25.000 euros (Base).",
+      "page": 1
+    },
+    {
+      "quote": "De façon générale, l'assurance n'intervient pas en cas de",
+      "page": 1
+    },
+    {
+      "quote": "Le contrat dure un an et est reconductible tacitement.",
+      "page": 2
+    },
+    {
+      "quote": "Au cours de la première année, vous pouvez résilier le contrat d'assurance au moins deux mois avant l'échéance annuelle.",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "Ce document est un IPID (fiche d'information produit) : il ne fournit qu'un aperçu des couvertures et exclusions principales et renvoie systématiquement aux conditions générales et particulières pour la description complète.",
+    "Aucun délai de prescription (prescription_period) n'est mentionné dans le document.",
+    "La liste complète des motifs de recours en Responsabilité civile n'est pas fournie, le document renvoyant aux conditions générales.",
+    "Les pays exclus de l'Assurance voyage ne sont pas listés, le document renvoyant aux conditions générales.",
+    "Aucune franchise (deductible) générale n'est mentionnée dans le document."
+  ]
+}

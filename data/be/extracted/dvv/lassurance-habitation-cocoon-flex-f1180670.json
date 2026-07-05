@@ -1,0 +1,681 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "be",
+  "insurer_slug": "dvv",
+  "insurer_name": "DVV Assurances",
+  "branch": "habitation",
+  "document_type": "ipid",
+  "language": "fr",
+  "source_url": "https://www.dvv.be/content/dam/dvv-site/verzekeringen/wonen/cocoon-flex/cocoon-flex-document-d-information-sur-le-produit-d-assurance.pdf",
+  "product_name": "L'assurance habitation Cocoon Flex",
+  "reference": "I/0037-1-89-7295- F-102024",
+  "edition_date": "octobre 2024",
+  "target_audience": null,
+  "branch_code": "0037",
+  "source_pages": 3,
+  "source_pdf": "cocoon-flex-habitation-f1180670.pdf",
+  "source_sha256": "fd9c616fa2f8a19b5b96da82b85e8c7f12c504a1f50f22205daae0429aa5e58e",
+  "fetched_at": "2026-07-05",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "L'assurance habitation Cocoon Flex de DVV assurances est une assurance Incendie (contrat habitation) qui a pour but de préserver le bâtiment et/ou le contenu de l'assuré. L'assureur s'engage à payer les dommages matériels causés aux biens assurés dont l'assuré est propriétaire ainsi que les dommages dont l'assuré est responsable en sa qualité de locataire ou occupant. Le contrat propose des garanties de base (incendie, tempête, dégâts des eaux, catastrophes naturelles, responsabilité civile, Home Assistance, etc.) et de nombreuses garanties optionnelles (vol du contenu, protection juridique, options Jardin, Piscine, Média, Business, Travaux, Protection locataire, etc.). Le bâtiment assuré inclut les panneaux solaires et les bornes de recharge.",
+  "definitions": [
+    {
+      "term": "bâtiment",
+      "definition": "en ce compris les panneaux solaires et les bornes de recharge.",
+      "page": 1
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Incendie",
+      "description": "Les garanties de base couvrent les dommages à votre habitation ou à votre contenu causés par l'incendie.",
+      "is_optional": false,
+      "territorial_scope": "À l'adresse du risque situé en Belgique et mentionnée dans les conditions particulières.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "une franchise de 265,42 EUR reste à charge de l'assuré et est déduite de l'indemnité sauf si l'assuré a pris l'option Franchise anglaise.",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Dégagement anormal de fumées et suies",
+      "description": "Les garanties de base couvrent les dommages à votre habitation ou à votre contenu causés par le dégagement anormal de fumées et suies.",
+      "is_optional": false,
+      "territorial_scope": "À l'adresse du risque situé en Belgique et mentionnée dans les conditions particulières.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Roussissement",
+      "description": "Les garanties de base couvrent les dommages à votre habitation ou à votre contenu causés par le roussissement.",
+      "is_optional": false,
+      "territorial_scope": "À l'adresse du risque situé en Belgique et mentionnée dans les conditions particulières.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Explosion et implosion",
+      "description": "Les garanties de base couvrent les dommages à votre habitation ou à votre contenu causés par l'explosion et l'implosion.",
+      "is_optional": false,
+      "territorial_scope": "À l'adresse du risque situé en Belgique et mentionnée dans les conditions particulières.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Décongélation",
+      "description": "Les garanties de base couvrent les dommages à votre habitation ou à votre contenu causés par la décongélation.",
+      "is_optional": false,
+      "territorial_scope": "À l'adresse du risque situé en Belgique et mentionnée dans les conditions particulières.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Heurt par des objets, arbres ou animaux, immeubles appartenant aux tiers",
+      "description": "Les garanties de base couvrent les dommages à votre habitation ou à votre contenu causés par le heurt par des objets, arbres ou animaux, immeubles appartenant aux tiers.",
+      "is_optional": false,
+      "territorial_scope": "À l'adresse du risque situé en Belgique et mentionnée dans les conditions particulières.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Détériorations immobilières causées par un vol, une tentative de vol ou actes de vandalisme",
+      "description": "Les garanties de base couvrent les détériorations immobilières causées par un vol, une tentative de vol ou actes de vandalisme.",
+      "is_optional": false,
+      "territorial_scope": "À l'adresse du risque situé en Belgique et mentionnée dans les conditions particulières.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Surtension du système électrique et dommages causés par la chute de la foudre",
+      "description": "Les garanties de base couvrent les dommages causés par la surtension du système électrique et par la chute de la foudre.",
+      "is_optional": false,
+      "territorial_scope": "À l'adresse du risque situé en Belgique et mentionnée dans les conditions particulières.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Conflits de travail et attentats, terrorisme",
+      "description": "Les garanties de base couvrent les dommages causés par les conflits de travail et attentats, terrorisme.",
+      "is_optional": false,
+      "territorial_scope": "À l'adresse du risque situé en Belgique et mentionnée dans les conditions particulières.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Tempête et grêle, pression de la neige ou de la glace",
+      "description": "Les garanties de base couvrent les dommages causés par la tempête et grêle, pression de la neige ou de la glace.",
+      "is_optional": false,
+      "territorial_scope": "À l'adresse du risque situé en Belgique et mentionnée dans les conditions particulières.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Dégâts des eaux ou dûs au mazout de chauffage",
+      "description": "Les garanties de base couvrent les dégâts des eaux ou dûs au mazout de chauffage.",
+      "is_optional": false,
+      "territorial_scope": "À l'adresse du risque situé en Belgique et mentionnée dans les conditions particulières.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Bris de vitrages",
+      "description": "Les garanties de base couvrent le bris de vitrages.",
+      "is_optional": false,
+      "territorial_scope": "À l'adresse du risque situé en Belgique et mentionnée dans les conditions particulières.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Responsabilité civile du bâtiment et/ou du contenu",
+      "description": "Les garanties de base couvrent la responsabilité civile du bâtiment et/ou du contenu.",
+      "is_optional": false,
+      "territorial_scope": "À l'adresse du risque situé en Belgique et mentionnée dans les conditions particulières. Nous couvrons aussi la responsabilité civile liée aux résidences temporaires, aux salles occupées pour une fête ou réunion familiale, aux logements d'étudiants.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Catastrophes naturelles",
+      "description": "Les garanties de base couvrent les catastrophes naturelles (en ce compris les inondations, les refoulements d'égouts publics, les affaissements du sol et glissements de terrain et les tremblement de terre).",
+      "is_optional": false,
+      "territorial_scope": "À l'adresse du risque situé en Belgique et mentionnée dans les conditions particulières.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Home Assistance 7jours/7",
+      "description": "Les garanties de base couvrent le service Home Assistance 7jours/7.",
+      "is_optional": false,
+      "territorial_scope": "À l'adresse du risque situé en Belgique et mentionnée dans les conditions particulières.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Vol du contenu",
+      "description": "Garantie optionnelle : vol du contenu.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Franchise anglaise",
+      "description": "Garantie optionnelle : franchise anglaise (suppression de la franchise quand le dommage dépasse le montant de celle-ci).",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Pertes indirectes",
+      "description": "Garantie optionnelle : pertes indirectes (majoration forfaitaire de 10% de l'indemnité due).",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "majoration forfaitaire de 10% de l'indemnité due",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Protection juridique",
+      "description": "Garantie optionnelle : protection juridique (défense de l'assuré, recours contre le responsable de votre dommage et intervention en cas d'insolvabilité du tiers responsable).",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Abandon de recours vis-à-vis du locataire",
+      "description": "Garantie optionnelle : abandon de recours vis-à-vis du locataire.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Option Jardin",
+      "description": "Garantie optionnelle : option Jardin (dommages au jardin, contenu de jardin et assainissement du sol en cas de pollution par le mazout).",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Option Piscine",
+      "description": "Garantie optionnelle : option Piscine (dommages à la piscine, remplacement de l'eau après sinistre ou en cas de pollution).",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Option Véhicule stationné",
+      "description": "Garantie optionnelle : option Véhicule stationné.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Option Média",
+      "description": "Garantie optionnelle : option Média (intervention pour tous les autres risques que ceux couverts par les garanties de base et indemnisation en valeur à neuf de vos ordinateurs domestiques et tablettes de plus de 19 pouces).",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Option Business",
+      "description": "Garantie optionnelle : option Business (dommages au contenu professionnel de plus de 5000 EUR (assuré de base) et intervention forfaitaire dans vos pertes d'exploitation).",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "dommages au contenu professionnel de plus de 5000 EUR (assuré de base)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Option Travaux",
+      "description": "Garantie optionnelle : option Travaux (dégâts causés par les travaux et qui sont exclus de la couverture de base (ex. dégâts des eaux causés par des travaux)).",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Option Protection locataire",
+      "description": "Garantie optionnelle : option Protection locataire (intervention dans les litiges locatifs, accident corporel lors d'un déménagement, aide financière et forfait en cas de déménagement anticipé).",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Indemnisation des dommages causés au tiers",
+      "description": "Frais pris en charge en cas de sinistre : indemnisation des dommages causés au tiers.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Frais de recherche de fuite",
+      "description": "Frais pris en charge en cas de sinistre : frais de recherche de fuite suite à un dégât des eaux ou écoulement de mazout.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Frais de sauvetage",
+      "description": "Frais pris en charge en cas de sinistre : frais de sauvetage en vue de limiter ou d'empêcher un sinistre imminent.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Frais d'extinction et de conservation",
+      "description": "Frais pris en charge en cas de sinistre : frais d'extinction et de conservation.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Frais de déblai et de démolition",
+      "description": "Frais pris en charge en cas de sinistre : les frais de déblai et de démolition.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Frais de remise en état des jardins",
+      "description": "Frais pris en charge en cas de sinistre : les frais de remise en état des jardins.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Frais de relogement",
+      "description": "Frais pris en charge en cas de sinistre : les frais de relogement.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Chômage immobilier",
+      "description": "Frais pris en charge en cas de sinistre : le chômage immobilier.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Frais médicaux et funéraires",
+      "description": "Frais pris en charge en cas de sinistre : les frais médicaux et funéraires.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Frais d'expertise",
+      "description": "Frais pris en charge en cas de sinistre : frais d'expertise.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Coûts supplémentaires engendrés par des nouvelles normes de construction",
+      "description": "Frais pris en charge en cas de sinistre : coûts supplémentaires engendrés par des nouvelles normes de construction.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Couverture garage privé à une autre adresse et contenu déplacé temporairement",
+      "description": "Nous couvrons aussi les dommages au garage privé situé à une autre adresse ainsi qu'à votre contenu déplacé temporairement dans un autre bâtiment.",
+      "is_optional": false,
+      "territorial_scope": "Belgique / autre adresse et autre bâtiment tels que décrits.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Couverture en période de déménagement",
+      "description": "En période de déménagement, nous couvrons la future résidence et l'actuelle résidence en même temps et ce jusqu'à 90 jours.",
+      "is_optional": false,
+      "territorial_scope": "Belgique.",
+      "limits": "jusqu'à 90 jours",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Dommages sous garantie d'un fournisseur, fabricant ou réparateur",
+      "description": "les dommages tombant sous la garantie d'un fournisseur, d'un fabricant ou d'un réparateur.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dommages tempête/grêle/neige/glace aux objets à l'extérieur",
+      "description": "les dommages causés par la tempête, grêle, pression de la neige ou de la glace aux objets se trouvant à l'extérieur (excepté meubles de jardin et barbecues), aux jardins (couverts par l'Option Jardin).",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dégâts des eaux causés par des travaux",
+      "description": "les dégâts des eaux causés par des travaux de construction, transformation ou réparation aux bâtiments ou à leur contenu (couverts par l'Option Travaux).",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Action de l'électricité: dommages aux programmes et supports d'information",
+      "description": "action de l'électricité: les dommages aux programmes et supports d'information (couverts par l'Option Média).",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dommages par condensation, infiltration d'eau de pluie ou eaux souterraines",
+      "description": "les dommages par condensation ou par infiltration d'eau de pluie via les murs ou les cheminées ou par les eaux souterraines.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Assainissement du sol",
+      "description": "assainissement du sol (couvert par l'Option Jardin).",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Home Assistance: travaux d'entretien",
+      "description": "en Home Assistance: les travaux d'entretien.",
+      "applies_to": "Home Assistance 7jours/7",
+      "page": 1
+    },
+    {
+      "name": "Vol d'animaux ou vol du contenu hors du bâtiment assuré",
+      "description": "vol d'animaux ou vol du contenu qui se trouve en dehors du bâtiment assuré (excepté meubles de jardins et barbecues) (peut être couvert par l'option jardin combinée à l'option vol).",
+      "applies_to": "Vol du contenu",
+      "page": 1
+    },
+    {
+      "name": "Pertes indirectes pour certaines garanties",
+      "description": "les pertes indirectes pour les garanties d'assurance responsabilité, vol, Home Assistance, Protection juridique, option Protection locataire et Frais d'expertise.",
+      "applies_to": "Pertes indirectes",
+      "page": 1
+    },
+    {
+      "name": "Protection juridique: les amendes",
+      "description": "en protection juridique: les amendes.",
+      "applies_to": "Protection juridique",
+      "page": 1
+    },
+    {
+      "name": "Option Jardin: Piscines, Jacuzzis",
+      "description": "dans l'option Jardin: Piscines, Jacuzzis.",
+      "applies_to": "Option Jardin",
+      "page": 1
+    },
+    {
+      "name": "Option Piscine: dégâts causés par le gel",
+      "description": "dans l'option Piscine: dégâts causés par le gel.",
+      "applies_to": "Option Piscine",
+      "page": 1
+    },
+    {
+      "name": "Option Véhicule stationné: dommages sans dommage au bâtiment",
+      "description": "dans l'option Véhicule stationné les dommages au véhicule lorsque le bâtiment n'a pas subi de dommage suite au même sinistre.",
+      "applies_to": "Option Véhicule stationné",
+      "page": 1
+    },
+    {
+      "name": "Option Business: modification de température non causée par un sinistre couvert",
+      "description": "dans l'option Business: les dégâts causés par une modification de la température si celle-ci n'est pas causée par un sinistre couvert.",
+      "applies_to": "Option Business",
+      "page": 1
+    },
+    {
+      "name": "Option Travaux: travaux effectués soi-même",
+      "description": "dans l'option Travaux: les dommages lorsque vous effectuez les travaux vous-même.",
+      "applies_to": "Option Travaux",
+      "page": 1
+    },
+    {
+      "name": "Option Protection locataire: non-paiement du loyer",
+      "description": "dans l'option Protection locataire: les litiges qui portent sur le non-paiement du loyer.",
+      "applies_to": "Option Protection locataire",
+      "page": 1
+    },
+    {
+      "name": "Usure normale et progressive",
+      "description": "Les dégâts causés par l'usure normale et progressive (dommages ne donnant jamais lieu à indemnisation).",
+      "applies_to": "all",
+      "page": 2
+    },
+    {
+      "name": "Dégâts des eaux par manque de précaution pendant la période de gel",
+      "description": "Les dégâts des eaux dus à un manque manifeste de précaution pendant la période de gel (dommages ne donnant jamais lieu à indemnisation).",
+      "applies_to": "all",
+      "page": 2
+    },
+    {
+      "name": "Dégâts des eaux aux installations de chauffage et citernes non conformes",
+      "description": "Les dégâts des eaux causés aux installations de chauffage et aux citernes d'huiles minérales qui ne satisfont pas aux règlementations qui leurs sont applicables (dommages ne donnant jamais lieu à indemnisation).",
+      "applies_to": "all",
+      "page": 2
+    }
+  ],
+  "deductibles": {
+    "standard": "une franchise de 265,42 EUR reste à charge de l'assuré et est déduite de l'indemnité sauf si l'assuré a pris l'option Franchise anglaise. Elle est indexée et évolue avec l'indice des prix à la consommation. Si vous optez pour une réparation en nature pour le bâtiment, vous ne supportez pas la franchise.",
+    "variable": "Elle est indexée et évolue avec l'indice des prix à la consommation.",
+    "per_coverage": null,
+    "page": 2
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "description": "Déclarer le risque conformément à la réalité lors de la souscription du contrat.",
+      "timing": "lors de la souscription du contrat",
+      "sanction": null,
+      "page": 3
+    },
+    {
+      "description": "Avertir l'assureur en cas de modification de votre bâtiment (et du contenu si vous avez souscrit la garantie vol) en cours de contrat.",
+      "timing": "en cours de contrat",
+      "sanction": null,
+      "page": 3
+    },
+    {
+      "description": "En cas de sinistre, déclarer celui-ci dans les délais indiqués dans les conditions générales et prendre toutes les mesures raisonnables pour prévenir ou atténuer les conséquences d'un sinistre.",
+      "timing": "en cas de sinistre, dans les délais indiqués dans les conditions générales",
+      "sanction": null,
+      "page": 3
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "En cas de sinistre, déclarer celui-ci dans les délais indiqués dans les conditions générales et prendre toutes les mesures raisonnables pour prévenir ou atténuer les conséquences d'un sinistre.",
+      "deadline": "dans les délais indiqués dans les conditions générales"
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat est conclu pour une durée d'un an et reconduit tacitement par périodes successives d'un an. L'assurance prend effet à la date indiquée dans les conditions particulières, après signature de la police d'assurance par les deux parties et paiement de la première prime.",
+    "tacit_renewal": "reconduit tacitement par périodes successives d'un an.",
+    "methods": [
+      "La résiliation du contrat doit se faire par envoi recommandé, par exploit de d'huissier ou par remise d'une lettre de résiliation avec accusé de réception."
+    ],
+    "special_rights": [
+      "Après la première année, vous pouvez résilier le contrat à tout moment moyennant un préavis de deux mois, sans frais ni pénalités."
+    ],
+    "page": 3,
+    "notice_period": "Vous pouvez résilier le contrat d'assurance au plus tard deux mois avant la date d'échéance annuelle du contrat. Après la première année, vous pouvez résilier le contrat à tout moment moyennant un préavis de deux mois, sans frais ni pénalités."
+  },
+  "prescription_period": null,
+  "premium": {
+    "description": "Vous avez l'obligation de payer la prime dès réception de l'invitation à payer. La prime doit être payée chaque année avant l'échéance annuelle fixée au contrat. Lorsqu'un échelonnement est possible (semestriel, trimestriel, mensuel), ce dernier peut générer des frais supplémentaires.",
+    "page": 3
+  },
+  "special_conditions": [
+    {
+      "description": "Nous mettons à votre disposition des systèmes d'évaluation permettant de déterminer les montants à assurer afin d'éviter une sous-assurance. Si vous optez pour une de nos méthodes d'évaluation, vous serez indemnisé pour la totalité de votre dommage, sous réserve des franchises et limites prévues dans les conditions générales.",
+      "page": 2
+    },
+    {
+      "description": "Limites d'intervention: certaines garanties de base et options sont soumises à des limites d'intervention. Vous pouvez trouver celles-ci dans les conditions générales et dans les conditions particulières.",
+      "page": 2
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "L'assurance habitation Cocoon Flex est un contrat d'assurance qui a pour but de préserver le bâtiment* et/ou le contenu de l'assuré.",
+      "page": 1
+    },
+    {
+      "quote": "Dans cette optique, l'assureur s'engage à payer les dommages matériels causés aux biens assurés dont l'assuré est propriétaire ainsi que les dommages dont l'assuré est responsable en sa qualité de locataire ou occupant.",
+      "page": 1
+    },
+    {
+      "quote": "Franchise : une franchise de 265,42 EUR reste à charge de l'assuré et est déduite de l'indemnité sauf si l'assuré a pris l'option Franchise anglaise.",
+      "page": 2
+    },
+    {
+      "quote": "Les dégâts causés par l'usure normale et progressive",
+      "page": 2
+    },
+    {
+      "quote": "Le contrat est conclu pour une durée d'un an et reconduit tacitement par périodes successives d'un an.",
+      "page": 3
+    },
+    {
+      "quote": "Après la première année, vous pouvez résilier le contrat à tout moment moyennant un préavis de deux mois, sans frais ni pénalités.",
+      "page": 3
+    }
+  ],
+  "gaps": [
+    "Document de type IPID (aperçu non exhaustif) : de nombreux montants, limites d'intervention et délais précis renvoient aux conditions générales et conditions particulières et ne sont pas chiffrés dans ce document.",
+    "Le délai exact de déclaration de sinistre n'est pas précisé (renvoi aux conditions générales).",
+    "Le délai de prescription n'est pas mentionné dans le document.",
+    "L'option Média est citée dans la liste des garanties optionnelles (page 1) mais son intitulé complet apparaît, tandis que l'option Média est aussi mentionnée comme couvrant certains risques exclus de la base ; les limites chiffrées ne sont pas fournies.",
+    "Les meubles de jardin et barbecues sont mentionnés comme exceptions à certaines exclusions mais leurs limites ne sont pas chiffrées ici."
+  ],
+  "superseded": null
+}

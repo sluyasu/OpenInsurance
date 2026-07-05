@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openinsurance-wiki/schema/country.schema.json",
+  "title": "Country manifest (sources/<cc>/_country.yml)",
+  "description": "Declares a country's regulator, languages and branch taxonomy. The branch taxonomy is DATA, not code — this is what makes the project country-agnostic. Branch slugs declared here are the allowed values for a product's `branch`.",
+  "type": "object",
+  "required": ["country", "name", "regulator", "official_languages", "branches"],
+  "additionalProperties": false,
+  "properties": {
+    "country": { "type": "string", "description": "ISO 3166-1 alpha-2, lowercase." },
+    "name": { "type": "string" },
+    "regulator": { "type": "string", "description": "Prudential/market regulator (e.g. 'FSMA')." },
+    "industry_body": { "type": ["string", "null"], "description": "Industry association (e.g. 'Assuralia')." },
+    "official_languages": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "branch_scheme": { "type": ["string", "null"], "description": "Free-text label for how branches are classified (e.g. 'be-named+life-numbered')." },
+    "branches": {
+      "type": "object",
+      "description": "Map of branch slug -> metadata. Slugs are the allowed `branch` values for products.",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "object",
+        "required": ["label"],
+        "additionalProperties": false,
+        "properties": {
+          "label": { "type": "string", "description": "Human label (primary language)." },
+          "label_translations": { "type": "object", "additionalProperties": { "type": "string" } },
+          "aliases": { "type": "array", "items": { "type": "string" } },
+          "mandatory": { "description": "true | false | 'conditional' (legally required to hold).", "type": ["boolean", "string"] },
+          "code": { "type": ["string", "null"], "description": "Regulatory code if any (e.g. life '21'/'23')." },
+          "notes": { "type": ["string", "null"] }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,710 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "be",
+  "insurer_slug": "amma",
+  "insurer_name": "AMMA Assurances",
+  "branch": "sante",
+  "document_type": "conditions_generales",
+  "language": "fr",
+  "source_url": "https://www.amma.be/documents/27?lang=fr",
+  "product_name": "AMMA HOSPI-PLAN",
+  "reference": "14-HOSPI-CG-1007-V04-FR",
+  "edition_date": "2007-10",
+  "target_audience": null,
+  "branch_code": null,
+  "product_family": "AMMA Hospi-Plan",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": true,
+  "source_pages": 22,
+  "source_pdf": "amma-hospi-plan-contrats-avant-le-5-juin-2023-66e02dfc.pdf",
+  "source_sha256": "60131231e9ccb664421790a9a23cdd40cbd51b7b51cc23a9f5754a13f5142eb8",
+  "fetched_at": "2026-07-05",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "AMMA HOSPI-PLAN est une assurance hospitalisation belge (branche maladie) proposée par AMMA Assurances a.m. Elle couvre les frais liés à l'hospitalisation suite à un accident, une maladie, une grossesse ou un accouchement, ainsi que les soins pré- et post-hospitalisation, les soins ambulatoires pour maladies graves et les soins palliatifs. Une garantie d'assistance hospitalisation à l'étranger (via EUROP ASSISTANCE BELGIUM) est jointe en annexe. Le contrat est conclu à vie sauf dérogation.",
+  "definitions": [
+    {
+      "term": "Accident",
+      "definition": "un événement soudain portant atteinte à l'intégrité physique de l'assuré et dont la cause ou l'une des causes est extérieure à son organisme.",
+      "page": 4
+    },
+    {
+      "term": "Assuré",
+      "definition": "la personne, indiquée aux conditions particulières, sur qui repose le risque et bénéficiaire du contrat, sauf dérogation prévue dans la police ou autrement.",
+      "page": 4
+    },
+    {
+      "term": "Année d'assurance",
+      "definition": "la période de 12 mois à compter de la date d'échéance annuelle et qui reste inchangée nonobstant tout ajout ou modification quelconque. Si la prise en cours d'un contrat souscrit ne coïncide pas avec la date d'échéance annuelle, la première année d'assurance est composée du nombre de mois s'étalant entre la prise d'effet et la date d'échéance annuelle.",
+      "page": 4
+    },
+    {
+      "term": "Appareil orthopédique",
+      "definition": "un appareil destiné à prévenir ou corriger les difformités du corps.",
+      "page": 4
+    },
+    {
+      "term": "Assureur",
+      "definition": "AMMA Assurances, ayant son siège social à 1000 Bruxelles, Rue de la Régence 52, reconnu sous le numéro 0126.",
+      "page": 4
+    },
+    {
+      "term": "Bénéficiaire",
+      "definition": "la personne à qui les prestations sont dues en vertu du contrat.",
+      "page": 4
+    },
+    {
+      "term": "Délai d'attente",
+      "definition": "la période prenant cours à la date d'effet, pendant laquelle aucun remboursement n'est dû par l'assureur.",
+      "page": 4
+    },
+    {
+      "term": "Etablissement hospitalier",
+      "definition": "un établissement légalement reconnu comme un hôpital, où il est fait usage de moyens diagnostiques et thérapeutiques scientifiquement éprouvés, à l'exception : − des établissements psychiatriques fermés; − des établissements médico-pédagogiques; − des établissements destinés au simple hébergement de personnes âgées, convalescentes ou d'enfants; − des maisons de repos ; − des établissements ou services hospitaliers ayant reçu « l'agréation spéciale comme maisons de repos et de soins » ou délivrant des soins palliatifs.",
+      "page": 4
+    },
+    {
+      "term": "Frais de séjour",
+      "definition": "Ce montant comprend : − le prix de la journée d'entretien ; − le supplément facturé dans les limites autorisées légales, pour le séjour en chambre commune, à deux lits ou en chambre particulière, dans la gamme des chambres proposés par l'hôpital concerné ; − le forfait journalier des médicaments.",
+      "page": 4
+    },
+    {
+      "term": "Frais de soins post-natals",
+      "definition": "les frais facturés par une institution de soins post-natals pour les soins qui sont fournis à domicile par le prestataire de soins habilité à la mère, au nouveau-né et à la famille après un accouchement à domicile ou un accouchement à l'hôpital de courte durée.",
+      "page": 4
+    },
+    {
+      "term": "Franchise",
+      "definition": "la partie des frais remboursables restant à charge de l'assuré par année d'assurance et précisée dans les conditions générales et/ou particulières.",
+      "page": 5
+    },
+    {
+      "term": "Hospitalisation",
+      "definition": "tout séjour dans un établissement hospitalier. Pour donner droit à l'intervention de l'assureur, ce séjour doit : − soit entraîner la facturation d'un jour complet pour observation ou intervention chirurgicale ; − soit entraîner la facturation d'un mini ou maxi forfait ou d'un forfait A, B, C, D (hospitalisation de jour);",
+      "page": 5
+    },
+    {
+      "term": "Institution spécialisée et reconnue pour les traitements palliatifs",
+      "definition": "tout centre d'hébergement destiné au séjour des personnes dont l'état de santé nécessite un traitement palliatif imposant une observation, une surveillance et une continuité.",
+      "page": 5
+    },
+    {
+      "term": "Intervention complémentaire",
+      "definition": "les remboursements perçus en vertu de toute autre assurance à caractère indemnitaire, souscrite dans le même but ou dans le but d'interventions similaires.",
+      "page": 5
+    },
+    {
+      "term": "Intervention légale",
+      "definition": "a) pour les frais exposés en Belgique : tout remboursement prévu par la législation belge applicable au régime des travailleurs salariés, c'est-à-dire : − la législation relative à l'assurance obligatoire contre la maladie ou l'invalidité (A.M.I.) ; − la législation relative aux accidents du travail ; − la législation relative aux maladies professionnelles. b) pour les frais exposés dans un pays étranger : tout remboursement prévu par une convention conclue avec ce pays et relative à la sécurité sociale des travailleurs salariés ou, à défaut, un montant égal au remboursement prévu par la législation belge applicable au régime des travailleurs salariés.",
+      "page": 5
+    },
+    {
+      "term": "Maladie",
+      "definition": "toute altération de la santé de l'assuré qui n'est pas la conséquence d'un accident et qui présente des symptômes objectifs rendant le diagnostic médical indiscutable.",
+      "page": 5
+    },
+    {
+      "term": "Médecin",
+      "definition": "docteur en médecine, membre de l'ordre des médecins de Belgique; à l'étranger, légalement reconnu comme médecin.",
+      "page": 5
+    },
+    {
+      "term": "Médicament",
+      "definition": "Tout produit vendu exclusivement en pharmacie, prescrit par un médecin et enregistré comme tel par le Ministre qui a la santé publique dans ses attributions.",
+      "page": 5
+    },
+    {
+      "term": "Matériel endoscopique et de Viscérosynthèse",
+      "definition": "Tout instrument, appareil, équipement, toute matière ou tout article, utilisé seul ou en association, y compris les accessoires et logiciels intervenant dans le bon fonctionnement de celui-ci, destiné par le fabricant à être utilisé exclusivement chez l'homme et principalement à des fins : - de diagnostic, prévention, contrôle, traitement ou atténuation d'une maladie, d'une blessure ou d'un handicap; - d'étude, de remplacement ou de modification de l'anatomie ou d'un processus physiologique et dont l'action principale voulue sur le corps humain n'est pas obtenue par des moyens pharmacologiques, chimiques ou immunologiques ni métabolisme. Le matériel endoscopique ou de viscérosynthèse pénètre, durant la période voulue, partiellement ou totalement à l'intérieur du corps, soit par une intervention chirurgicale, soit par un orifice naturel du corps, soit à travers la surface du corps.",
+      "page": 6
+    },
+    {
+      "term": "Preneur",
+      "definition": "la personne physique ou morale qui souscrit le contrat.",
+      "page": 6
+    },
+    {
+      "term": "Prothèse",
+      "definition": "un appareil qui remplace, totalement ou partiellement, la fonction d'un organe ou d'un membre.",
+      "page": 6
+    },
+    {
+      "term": "Sinistre",
+      "definition": "tout événement donnant lieu à la garantie du contrat.",
+      "page": 6
+    },
+    {
+      "term": "Soins ambulatoires",
+      "definition": "les soins médicaux prodigués ou ordonnés par un médecin en dehors d'une hospitalisation.",
+      "page": 6
+    },
+    {
+      "term": "Soins palliatifs",
+      "definition": "le traitement de personnes se trouvant en phase terminale d'une ou plusieurs affections irréversibles au pronostic fatal. Ils atténuent les symptômes d'une affection et visent les besoins physiques et psychiques du patient afin de lui garantir une certaine qualité de vie.",
+      "page": 6
+    },
+    {
+      "term": "Traitement",
+      "definition": "l'ensemble de moyens médicaux, thérapeutiques, infirmiers et paramédicaux prescrits par un médecin et utilisés dans le but de guérir, rétablir ou de stabiliser l'état de santé.",
+      "page": 6
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Garantie Hospitalisation",
+      "description": "Lorsqu'un assuré est hospitalisé suite à un accident, une maladie, une grossesse ou un accouchement, la couverture « hospitalisation » garantit le remboursement des frais occasionnés au cours de son hospitalisation, en vue de poser un diagnostic ou de subir un traitement et ayant un lien direct avec les causes de l'hospitalisation. L'assuré dispose du libre choix de l'hôpital. Frais remboursés : a) frais de séjour (y compris l'hospitalisation de jour) ; b) honoraires médicaux ; c) frais d'examens ; d) frais de traitement ; e) frais de médicaments ; f) prothèses et appareils orthopédiques (en rapport direct avec le sinistre et prescrits par un médecin) ; g) traitement homéopathique, acupuncture, chiropraxie et ostéopathie (prescrits par un médecin) ; h) matériel médical tel que matériel endoscopique et de viscérosynthèse ; i) location d'appareils médicaux (appareil aérosol, chaise roulante, matelas anti-escarres ; cautions non remboursées) ; j) achat de matériel médical selon liste exhaustive (thermomètre, attelle, paire de bas à varices, minerve, bandages et fils, herniaire, bandages de pression pour grands brûlés) ; k) frais de séjour du donneur en cas de transplantation d'un organe ou tissu ; l) frais de soins post-natals ; m) test de la mort subite (une seule fois) ; n) extraction des dents de sagesse sous anesthésie générale en établissement hospitalier ; o) séjour d'un parent d'un enfant hospitalisé de moins de 14 ans (max 10 jours) ; p) séjour d'un conjoint ou cohabitant d'un assuré hospitalisé (max 10 jours) ; q) honoraires relatifs à l'examen néonatal (si repris dans la facture d'hospitalisation) ; r) frais de morgue (si mentionnés sur la facture) ; s) transport urgent en ambulance et le cas échéant hélicoptère, et transfert vers un autre établissement. La couverture est étendue aux accouchements à domicile. Pour une maladie nerveuse ou mentale, l'intervention n'est due que pendant maximum 720 jours d'hospitalisation, consécutifs ou non.",
+      "is_optional": false,
+      "territorial_scope": "Belgique et étranger (monde entier selon Art. 22, sous conditions)",
+      "limits": "Remboursement illimité avec un maximum de : a) en cas d'hospitalisation (one-day-clinic inclus) dans un établissement situé sur le territoire de la Région de Bruxelles-Capitale ou à l'étranger : 3 fois le montant de l'intervention légale en chambre particulière ; 2 fois en chambre à deux lits ; 1 fois en chambre commune ; € 100 par jour facturé pour les frais de séjour",
+      "sub_limits": [
+        "b) 3 fois le montant de l'intervention légale pour les prothèses et appareils orthopédiques couverts",
+        "c) € 1.500 pour les frais de transport et de transfert",
+        "d) 50% des frais avec un maximum de € 3.000 par an (en Belgique) et de € 1.500 par an (à l'étranger) pour les traitements, médicaments, prothèses, appareils orthopédiques et matériel médical ne bénéficiant pas d'une intervention légale",
+        "e) € 1.500 par an pour les frais de séjour d'un donneur",
+        "f) 100% des frais de traitement homéopathique, acuponcture, chiropraxie et ostéopathie avec un maximum de € 500 par an",
+        "g) € 100 par jour avec un maximum de 7 jours après l'accouchement pour les soins post-natals",
+        "Maladie nerveuse ou mentale : intervention due pendant maximum 720 jours d'hospitalisation, consécutifs ou non"
+      ],
+      "deductible": "Franchise de € 250 par année d'assurance et par assuré (Art. 9) ; supprimée pour le one-day-clinic et les maladies graves",
+      "conditions": [
+        "Les soins de prothèses, appareils orthopédiques, traitement homéopathique, acupuncture, chiropraxie et ostéopathie doivent être prescrits par un médecin",
+        "Le test de la mort subite est remboursé à concurrence d'une seule fois",
+        "L'extraction des dents de sagesse doit être sous anesthésie générale dans un établissement hospitalier",
+        "Le séjour d'un parent d'enfant hospitalisé de moins de 14 ans est couvert pendant maximum 10 jours",
+        "Le séjour d'un conjoint ou cohabitant d'un assuré hospitalisé est couvert pendant maximum 10 jours",
+        "Le transport urgent est couvert pour autant qu'aucun autre moyen de transport ne puisse être utilisé"
+      ],
+      "page": 7
+    },
+    {
+      "name": "Garantie Pré- & Posthospitalisation",
+      "description": "La garantie « pré- et post Hospitalisation » garantit, en cas d'accident, de maladie, de grossesse ou d'accouchement, le remboursement des frais de soins ambulatoires donnés dans les 60 jours qui précèdent l'hospitalisation ou la date de l'accouchement à domicile et dans les 180 jours qui suivent, ayant un lien direct avec les causes de l'hospitalisation ou de l'accouchement à domicile : a) soins ambulatoires ; b) honoraires médicaux ; c) frais d'examens ; d) frais de traitement ; e) frais de médicaments ; f) prothèses et appareils orthopédiques (prescrits par un médecin) ; g) traitement homéopathique, acuponcture, chiropraxie et ostéopathie (prescrits par un médecin) ; h) location de petits appareils médicaux (appareil aérosol, chaise roulante, matelas anti-escarres ; cautions non remboursées) ; i) achat de matériel médical selon liste exhaustive (attelle, minerve, herniaire, bandages de pression pour grands brûlés) ; j) traitements paramédicaux tels que kinésithérapie, physiothérapie et logopédie (prescrits par un médecin). Ces frais sont ajoutés aux frais exposés en établissement hospitalier ou lors d'un accouchement à domicile, sans nouvelle franchise. Les traitements de kinésithérapie consécutifs à une affection traumatologique ou orthopédique sont couverts pendant les 360 jours qui suivent l'hospitalisation. Les frais de transport et de transfert ne sont pas couverts.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Remboursement illimité tenant compte d'un maximum de : a) 3 fois l'intervention légale pour les prothèses et appareils orthopédiques couverts",
+      "sub_limits": [
+        "b) 50 % des frais avec un maximum de € 3.000 par an pour les prestations, médicaments, prothèses, appareils orthopédiques et matériel médical ne bénéficiant pas d'une intervention légale",
+        "c) 100 % des frais de traitement homéopathique, acuponcture, chiropraxie et ostéopathie avec un maximum de € 500 par an",
+        "Kinésithérapie consécutive à une affection traumatologique ou orthopédique : couverte pendant les 360 jours qui suivent l'hospitalisation"
+      ],
+      "deductible": "Pas de nouvelle franchise (ces frais sont ajoutés aux frais d'hospitalisation) ; franchise globale de € 250 par année d'assurance et par assuré applicable sur l'ensemble des frais d'hospitalisation et de pré & post hospitalisation (Art. 9)",
+      "conditions": [
+        "Soins donnés dans les 60 jours précédant l'hospitalisation/accouchement à domicile et dans les 180 jours suivants",
+        "Lien direct avec les causes de l'hospitalisation ou de l'accouchement à domicile",
+        "Prothèses, appareils orthopédiques et traitements homéopathique/acupuncture/chiropraxie/ostéopathie prescrits par un médecin",
+        "Frais de transport et de transfert non couverts"
+      ],
+      "page": 8
+    },
+    {
+      "name": "Garantie Soins ambulatoires – Maladies graves",
+      "description": "Lorsqu'un assuré est atteint d'une maladie grave, la couverture « soins ambulatoires maladies graves » garantit le remboursement des soins en relation directe avec une maladie grave diagnostiquée : a) soins ambulatoires ; b) honoraires médicaux ; c) frais d'examens ; d) frais de traitement ; e) frais de médicaments ; f) prothèses et appareils orthopédiques (prescrits par un médecin) ; g) traitement homéopathique, acuponcture, chiropraxie et ostéopathie (prescrits par un médecin) ; h) location d'appareils médicaux (appareil aérosol, chaise roulante, matelas anti-escarres ; cautions non remboursées) ; i) achat de matériel médical selon liste exhaustive (attelle, minerve, herniaire, bandages de pression pour grands brûlés) ; j) traitements paramédicaux tels que kinésithérapie, physiothérapie et logopédie (prescrits par un médecin). Le remboursement est illimité dans le temps et n'exige aucune hospitalisation préalable. Les frais de transport et de transfert ne sont pas couverts. Les maladies graves couvertes sont : le cancer, la leucémie, la maladie de Hodgkin, la maladie de Parkinson, la sclérose en plaques, la diphtérie, la poliomyélite, la méningite cérébro-spinale, la variole, le typhus, la fièvre typhoïde ou paratyphoïde, l'encéphalite, le charbon, le tétanos, le choléra, la tuberculose, les affections rénales qui nécessitent une dialyse, la scarlatine, l'hépatite virale, le diabète, le sida, la maladie d'Alzheimer, la mucoviscidose, la dystrophie musculaire progressive, la malaria, la maladie de Crohn et la sclérose latérale amyotrophique. L'assureur se réserve le droit de subordonner le droit aux prestations à la présentation des pièces médicales qui objectivent le diagnostic posé.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Remboursement illimité tenant compte d'un maximum de : a) 3 fois l'intervention légale pour les prothèses et appareils orthopédiques couverts",
+      "sub_limits": [
+        "b) 50 % des frais avec un maximum de € 3.000 par an pour les traitements, médicaments, prothèses, appareils orthopédiques et matériel médical ne bénéficiant pas d'une intervention légale",
+        "c) 100 % des frais de traitement homéopathique, acuponcture, chiropraxie et ostéopathie avec un maximum de € 500 par an"
+      ],
+      "deductible": "Franchise supprimée pour les maladies graves (Art. 9)",
+      "conditions": [
+        "Les soins doivent être en relation directe avec une maladie grave diagnostiquée",
+        "Aucune hospitalisation préalable exigée ; remboursement illimité dans le temps",
+        "L'assureur peut subordonner le droit aux prestations à la présentation des pièces médicales objectivant le diagnostic",
+        "Frais de transport et de transfert non couverts"
+      ],
+      "page": 9
+    },
+    {
+      "name": "Garantie Soins palliatifs",
+      "description": "La couverture « soins palliatifs » garantit le remboursement des frais de soins palliatifs s'ils sont donnés dans un établissement hospitalier, une institution spécialisée et reconnue pour les traitements palliatifs, ainsi qu'à domicile.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Remboursement illimité tenant compte d'un maximum de € 100 par jour",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Soins donnés dans un établissement hospitalier, une institution spécialisée et reconnue pour les traitements palliatifs, ou à domicile"
+      ],
+      "page": 10
+    },
+    {
+      "name": "Assistance à l'assuré – Premiers secours et appel à l'Assistance (annexe)",
+      "description": "Pour les premiers secours d'urgence et/ou de transport primaire, il y a lieu de faire appel aux organismes locaux auxquels EUROP ASSISTANCE ne peut se substituer mais dont les frais - sur production de justificatifs originaux - sont remboursés par personne et par événement. Il y a lieu ensuite et sans délai d'appeler EUROP ASSISTANCE.",
+      "is_optional": false,
+      "territorial_scope": "À l'étranger, lors de séjour professionnel ou privé (à l'exclusion de toute activité technique ou sportive notoirement dangereuse)",
+      "limits": "€ 620 (taxes comprises) par personne et par événement",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie acquise pour tout assuré victime d'une maladie ou d'un accident à l'étranger",
+        "Frais remboursés sur production de justificatifs originaux",
+        "Appeler EUROP ASSISTANCE ensuite et sans délai"
+      ],
+      "page": 20
+    },
+    {
+      "name": "Assistance à l'assuré – Obligation d'assistance, décision et responsabilité (annexe)",
+      "description": "Les obligations d'assistance d'EUROP ASSISTANCE consistent à : a) organiser tous les contacts nécessaires entre son service médical et le médecin traitant de l'assuré sur place et, au besoin, le médecin de l'assuré en Belgique ; b) prendre plusieurs décisions en fonction des impératifs liés à l'intérêt médical de l'assuré et des règlements sanitaires en vigueur (choix entre attente, prolongation de séjour, transport régional ou rapatriement ; fixation de la date du transport ; choix du moyen de transport ; nécessité d'un accompagnement médical ; déplacement éventuel d'un compagnon de voyage assuré) ; c) organiser le transport décidé jusqu'à l'établissement hospitalier le plus susceptible d'apporter les soins adéquats ; en cas de rapatriement, jusqu'à l'établissement hospitalier reconnu le plus proche de la résidence de l'assuré ou, si son état ne nécessite pas d'hospitalisation, jusqu'à sa résidence. La survenance d'affections bénignes ou de blessures légères susceptibles d'être soignées sur place ne donne lieu qu'à la prise en charge des frais médicaux dans les limites contractuelles et à l'organisation du transport jusqu'au lieu où peuvent être prodigués les soins appropriés.",
+      "is_optional": false,
+      "territorial_scope": "À l'étranger",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 20
+    },
+    {
+      "name": "Assistance à l'assuré – Présence au chevet de l'assuré hospitalisé (annexe)",
+      "description": "Lorsqu'un assuré est hospitalisé au cours d'un déplacement qu'il effectue sans être accompagné, EUROP ASSISTANCE organise le déplacement aller-retour d'un membre de sa famille résidant en Belgique pour se rendre à son chevet s'il apparaît dès les premiers contacts médicaux que le transport ou le rapatriement ne peut être assuré endéans les 7 jours à dater de la déclaration de l'événement, délai non requis si l'assuré hospitalisé est un enfant de moins de 18 ans. EUROP ASSISTANCE participe aux frais d'hébergement de ce parent se rendant au chevet de l'assuré.",
+      "is_optional": false,
+      "territorial_scope": "À l'étranger",
+      "limits": "€ 500 (taxes comprises) pour les frais d'hébergement du parent",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "L'assuré doit effectuer le déplacement sans être accompagné",
+        "Le transport ou rapatriement ne peut être assuré endéans les 7 jours à dater de la déclaration de l'événement (délai non requis si l'assuré hospitalisé est un enfant de moins de 18 ans)"
+      ],
+      "page": 21
+    },
+    {
+      "name": "Assistance à l'assuré – Prolongation de séjour à l'étranger (annexe)",
+      "description": "EUROP ASSISTANCE, après en avoir décidé, prend en charge les frais d'hébergement relatifs à une prolongation de séjour au-delà de la date initialement prévue pour le retour en Belgique, par assuré malade ou blessé se trouvant dans l'incapacité d'entreprendre le voyage de retour.",
+      "is_optional": false,
+      "territorial_scope": "À l'étranger",
+      "limits": "€ 500 (taxes comprises) par assuré malade ou blessé",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Décision préalable d'EUROP ASSISTANCE",
+        "Assuré malade ou blessé dans l'incapacité d'entreprendre le voyage de retour"
+      ],
+      "page": 21
+    },
+    {
+      "name": "Assistance à l'assuré – En cas de décès (annexe)",
+      "description": "Lorsqu'au cours d'un déplacement un assuré décède, EUROP ASSISTANCE organise depuis l'hôpital ou la morgue le transport ou le rapatriement en Belgique de la dépouille mortelle jusqu'au lieu d'inhumation ou jusqu'à la résidence du défunt. a) si le décès a lieu à l'étranger, prise en charge (à l'exclusion des frais de cérémonie et d'inhumation) des frais de traitement funéraire et de mise en bière, et des frais de cercueil et autres aménagements spéciaux requis pour un transport. b) si à l'étranger l'assuré est inhumé ou incinéré sur place, prise en charge des frais de traitement funéraire et de mise en bière, des frais de cercueil, des frais de transport sur place de la dépouille, des frais d'inhumation ou d'incinération (à l'exclusion des frais de cérémonie) et des frais de rapatriement de l'urne. En ce cas, l'ensemble des frais à charge d'EUROP ASSISTANCE ne peut excéder ceux qu'elle aurait engagés pour rapatrier la dépouille mortelle en Belgique.",
+      "is_optional": false,
+      "territorial_scope": "À l'étranger",
+      "limits": "Frais de cercueil et autres aménagements spéciaux requis pour un transport : à concurrence de € 620 (taxes comprises) ; frais de cercueil (inhumation/incinération sur place) : à concurrence de € 620 (taxes comprises)",
+      "sub_limits": [
+        "a) Décès à l'étranger : frais de traitement funéraire et de mise en bière ; frais de cercueil et autres aménagements spéciaux requis pour un transport à concurrence de € 620 (taxes comprises)",
+        "b) Inhumation/incinération sur place : frais de traitement funéraire et de mise en bière ; frais de cercueil à concurrence de € 620 (taxes comprises) ; frais de transport sur place de la dépouille ; frais d'inhumation ou d'incinération (hors cérémonie) ; frais de rapatriement de l'urne"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Exclusion des frais de cérémonie et d'inhumation (cas transport/rapatriement)",
+        "L'ensemble des frais ne peut excéder ceux qu'EUROP ASSISTANCE aurait engagés pour rapatrier la dépouille en Belgique"
+      ],
+      "page": 21
+    },
+    {
+      "name": "Assistance à l'assuré – Frais médicaux à l'étranger (annexe)",
+      "description": "a) EUROP ASSISTANCE fait l'avance des frais médicaux, chirurgicaux, pharmaceutiques, d'hospitalisation et d'ambulance correspondant à des soins prodigués à l'étranger et ordonnés par un médecin local. b) Lorsque des frais sont directement payés par EUROP ASSISTANCE, ils ne le sont qu'à titre d'avance, la Compagnie restant l'assureur du risque « frais médicaux à l'étranger ». c) La garantie cesse d'être acquise à partir du moment fixé par EUROP ASSISTANCE pour le rapatriement au cas où l'assuré ou ses proches souhaitent que le rapatriement n'ait pas lieu ou se fasse à une date ultérieure.",
+      "is_optional": false,
+      "territorial_scope": "À l'étranger",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Soins ordonnés par un médecin local",
+        "Les frais payés directement le sont à titre d'avance",
+        "Garantie cessant si l'assuré refuse ou reporte le rapatriement fixé par EUROP ASSISTANCE"
+      ],
+      "page": 21
+    },
+    {
+      "name": "Assistance à l'assuré – Envoi de médicaments à l'étranger (annexe)",
+      "description": "À l'étranger, si un assuré, suite à un événement imprévisible, se trouve dépourvu des médicaments indispensables à la poursuite d'un traitement en cours et qu'il lui est impossible de s'en procurer sur place ou d'en obtenir l'équivalent, EUROP ASSISTANCE - sur ordonnance prescrite par le médecin traitant ou le médecin local - les recherche et les fait parvenir à l'assuré. EUROP ASSISTANCE prend à sa charge les frais d'envoi mais non le prix d'achat dont l'importance peut donner lieu à la demande préalable de garantie.",
+      "is_optional": false,
+      "territorial_scope": "À l'étranger",
+      "limits": "Frais d'envoi pris en charge ; prix d'achat non pris en charge",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Événement imprévisible privant l'assuré de médicaments indispensables à un traitement en cours",
+        "Impossibilité de s'en procurer sur place ou d'en obtenir l'équivalent",
+        "Sur ordonnance prescrite par le médecin traitant ou le médecin local"
+      ],
+      "page": 22
+    },
+    {
+      "name": "Assistance aux membres accompagnant de la famille assurée (annexe)",
+      "description": "Si un événement cité empêche les compagnons de voyage assurés de rejoindre leur résidence en Belgique, EUROP ASSISTANCE organise leur retour du lieu d'immobilisation jusqu'à leur résidence en Belgique. De plus, si les compagnons de voyage ont moins de 18 ans et si aucune autre personne ne peut en assumer la garde, EUROP ASSISTANCE organise leur accompagnement par une hôtesse ou une personne désignée par la famille et habitant en Belgique. Si nécessaire, EUROP ASSISTANCE prend en charge les frais d'hébergement dudit accompagnateur pour 2 nuitées maximum.",
+      "is_optional": false,
+      "territorial_scope": "À l'étranger",
+      "limits": "Frais d'hébergement de l'accompagnateur : 2 nuitées maximum",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Compagnons de voyage assurés empêchés de rejoindre leur résidence en Belgique",
+        "Accompagnement des compagnons de moins de 18 ans si aucune autre personne ne peut en assumer la garde"
+      ],
+      "page": 22
+    },
+    {
+      "name": "Transport des bagages et animaux de compagnie (annexe)",
+      "description": "Lorsqu'un assuré est rapatrié suite à un événement cité, et qu'en raison de circonstances personne ne peut s'occuper du transport des bagages et des animaux de compagnie (chien et chat exclusivement) emportés avec lui, EUROP ASSISTANCE en organise le transport en respectant toutes les contraintes, règlements administratifs et sanitaires, à l'exclusion des objets suivants : engins tels que bateaux, motos et planeurs, animaux, marchandises commerciales, matériel scientifique ou d'exploration, matériaux de construction, mobilier, denrées périssables, carburant hors réservoir fixe, etc. EUROP ASSISTANCE décline toute responsabilité en cas de perte, vol ou dégâts survenus aux objets transportés.",
+      "is_optional": false,
+      "territorial_scope": "À l'étranger",
+      "limits": "€ 190 (taxes comprises)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Animaux de compagnie limités au chien et au chat exclusivement",
+        "Exclusion des engins (bateaux, motos, planeurs), animaux, marchandises commerciales, matériel scientifique ou d'exploration, matériaux de construction, mobilier, denrées périssables, carburant hors réservoir fixe",
+        "EUROP ASSISTANCE décline toute responsabilité en cas de perte, vol ou dégâts"
+      ],
+      "page": 22
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Antériorité (accident/maladie antérieurs à la date d'effet)",
+      "description": "Les sinistres survenant par suite d'un accident qui s'est produit ou d'une maladie dont les symptômes s'étaient manifestés avant la date d'effet du contrat. Toutefois la couverture est acquise si ces cas d'assurance surviennent après une période d'au moins deux ans à compter de la date d'effet du contrat, sauf si l'accident, la maladie ou ses symptômes connus n'ont pas été communiqués à l'assureur lors de la conclusion du contrat. État antérieur : pour les assurés qui étaient couverts par la police collective souscrite par l'intermédiaire de l'AMMA auprès de la compagnie Swiss Life Belgium, il sera tenu compte des dispositions et conditions de couverture prévues par la police Swiss Life Belgium.",
+      "applies_to": "all",
+      "page": 13
+    },
+    {
+      "name": "Soins et traitements esthétiques",
+      "description": "Les soins et traitements esthétiques, à moins qu'ils ne résultent d'une maladie ou d'un accident assuré.",
+      "applies_to": "all",
+      "page": 13
+    },
+    {
+      "name": "Check-up, dépistages préventifs et vaccins",
+      "description": "Les check-up, tests de dépistages préventifs et vaccins.",
+      "applies_to": "all",
+      "page": 13
+    },
+    {
+      "name": "Cures",
+      "description": "Les cures, par exemple thermalisme, thalassothérapie, hygiéno-diététique.",
+      "applies_to": "all",
+      "page": 13
+    },
+    {
+      "name": "Chirurgie réfractive",
+      "description": "La chirurgie réfractive.",
+      "applies_to": "all",
+      "page": 13
+    },
+    {
+      "name": "Contraception, stérilisation, PMA",
+      "description": "La contraception, la stérilisation, l'insémination artificielle et la fécondation in vitro.",
+      "applies_to": "all",
+      "page": 13
+    },
+    {
+      "name": "Impuissance, troubles de l'identité sexuelle, IVG",
+      "description": "Le traitement de l'impuissance, des explorations et des traitements inhérents aux troubles de l'identité sexuelle ainsi que les interruptions volontaires de grossesse.",
+      "applies_to": "all",
+      "page": 13
+    },
+    {
+      "name": "Assistance, garde et entretien de l'assuré",
+      "description": "L'assistance, la garde et l'entretien de l'assuré.",
+      "applies_to": "all",
+      "page": 13
+    },
+    {
+      "name": "Hospitalisation ou maladie grave en cours à l'affiliation",
+      "description": "Une hospitalisation en cours à la date d'effet ou les soins ambulatoires suite à une maladie grave dont le traitement est en cours lors de l'affiliation.",
+      "applies_to": "all",
+      "page": 13
+    },
+    {
+      "name": "Traitements dentaires et chirurgie maxillo-faciale",
+      "description": "Les traitements dentaires, les frais de prothèses dentaires et les soins de chirurgie maxillo-faciale, quelle qu'en soit la nature, à l'exception de ceux qui sont consécutifs à une maladie grave ou à un accident et qui donnent lieu à une intervention légale.",
+      "applies_to": "all",
+      "page": 13
+    },
+    {
+      "name": "Combustibles/produits/déchets nucléaires radioactifs",
+      "description": "Tout fait ou succession de faits de même origine, dès lors que ce fait ou ces faits proviennent ou résultent des propriétés radioactives, toxiques, explosives ou d'autres propriétés dangereuses des combustibles nucléaires, produits ou déchets radioactifs.",
+      "applies_to": "all",
+      "page": 13
+    },
+    {
+      "name": "Radiations ionisantes",
+      "description": "Les suites directes ou indirectes de toute source de radiations ionisantes, à l'exception du risque professionnel si celui-ci est couvert, et de l'irradiation nécessitée par un examen ou un traitement médical.",
+      "applies_to": "all",
+      "page": 13
+    },
+    {
+      "name": "Sport pratiqué à titre professionnel",
+      "description": "Les remboursements des frais résultant de la pratique d'un sport à titre professionnel (y compris les entrainements).",
+      "applies_to": "all",
+      "page": 13
+    },
+    {
+      "name": "Fait intentionnel de l'assuré",
+      "description": "Les remboursements des frais résultant du fait intentionnel de l'assuré.",
+      "applies_to": "all",
+      "page": 13
+    },
+    {
+      "name": "Ivresse, alcoolisme, stupéfiants et drogues",
+      "description": "Les frais qui sont la conséquence de l'ivresse, de l'alcoolisme ou de l'intoxication alcoolique, de l'usage de stupéfiants, hallucinogènes ou autres drogues.",
+      "applies_to": "all",
+      "page": 13
+    },
+    {
+      "name": "Fait de guerre",
+      "description": "Les frais résultant d'un fait de guerre. Cette exclusion n'est pas d'application si l'assuré prouve qu'il n'existe aucun lien de causalité entre ce fait et les frais qui font l'objet de la déclaration de sinistre.",
+      "applies_to": "all",
+      "page": 13
+    },
+    {
+      "name": "Troubles civils ou émeutes",
+      "description": "Les frais survenant à la suite de troubles civils ou d'émeutes, sauf si l'assuré n'y a pas pris une part active ou qu'il se trouvait en état de légitime défense. Cette exclusion n'est pas d'application si l'assuré prouve qu'il n'existe aucun lien de causalité entre ces faits et les frais qui font l'objet de la déclaration de sinistre.",
+      "applies_to": "all",
+      "page": 13
+    },
+    {
+      "name": "Activité technique ou sportive notoirement dangereuse (assistance étranger)",
+      "description": "La garantie d'assistance à l'étranger est acquise lors de séjour professionnel ou privé à l'exclusion de toute activité technique ou sportive notoirement dangereuse.",
+      "applies_to": "Assistance hospitalisation à l'étranger",
+      "page": 20
+    }
+  ],
+  "deductibles": {
+    "standard": "€ 250 par année d'assurance et par assuré, d'application sur l'ensemble des frais d'hospitalisation et de pré & post hospitalisation",
+    "variable": "Franchise supprimée pour le one-day-clinic et les maladies graves. Appliquée une seule fois si plusieurs assurés du même ménage sont hospitalisés par suite d'un accident ou d'un accouchement. En cas d'hospitalisation chevauchant sans interruption sur deux années d'assurance, la franchise forfaitaire n'est appliquée qu'une seule fois sur cette hospitalisation.",
+    "per_coverage": null,
+    "page": 11
+  },
+  "waiting_periods": [
+    {
+      "name": "Stage général",
+      "description": "un stage général de 90 jours prenant cours à la date d'effet du contrat",
+      "duration": "90 jours",
+      "page": 11
+    },
+    {
+      "name": "Stage grossesse et accouchements",
+      "description": "un stage de 10 mois pour les états de grossesse et les accouchements prenant cours à la date d'effet du contrat",
+      "duration": "10 mois",
+      "page": 11
+    },
+    {
+      "name": "Cas de non-application du stage",
+      "description": "Le stage est supprimé pour : a) les accidents ; b) les maladies infectieuses aiguës suivantes : rubéole, rougeole, varicelle, scarlatine, diphtérie, coqueluche, oreillons, poliomyélite, méningite cérébro-spinale, dysenterie, fièvre typhoïde ou paratyphoïde, typhus exanthématique, choléra, variole, malaria, fièvre récurrente, encéphalite, charbon et tétanos ; c) toute maladie d'un nouveau-né à condition que le père ou la mère soit déjà assuré(e) depuis 360 jours au moins avant la date de naissance et que l'extension de la couverture soit demandée dans les 60 jours qui suivent la naissance ; d) la reprise d'un contrat individuel ou collectif existant couvrant des avantages analogues, pour autant que les délais prévus se soient écoulés et sans interruption de couverture ; e) en cas de mariage, pour l'épou(s)x(e) d'une personne assurée depuis au moins 90 jours et pour autant que l'adhésion se fasse dans les 60 jours suivant l'événement ; f) pour la conclusion d'un nouveau contrat suivant l'article 27, à condition que les délais d'attente se soient écoulés et sans interruption de couverture ; g) en cas de poursuite du contrat comme défini dans l'article 25.3, à condition que les délais d'attente se soient écoulés et sans interruption de couverture.",
+      "duration": null,
+      "page": 11
+    }
+  ],
+  "obligations": [
+    {
+      "name": "Avis de sinistre et déclaration",
+      "description": "L'assureur doit être avisé de toute hospitalisation d'un assuré, ainsi que de tout autre événement pouvant faire intervenir la garantie, au moyen de formulaires type fournis par l'assureur. L'assuré doit remplir et envoyer la déclaration dès que possible.",
+      "timing": "au plus tard dans un délai de 30 jours à dater du début d'une hospitalisation ou après la date de l'accouchement à domicile (toute déclaration hors délai prise en considération si faite aussi rapidement que raisonnablement possible)",
+      "sanction": "En cas de préjudice pour l'assureur : réduction des prestations à concurrence du préjudice. L'assureur peut décliner sa garantie si, dans une intention frauduleuse, l'assuré n'a pas exécuté ces obligations.",
+      "page": 14
+    },
+    {
+      "name": "Fournir renseignements et justificatifs",
+      "description": "L'assuré doit fournir sans retard tous renseignements utiles et répondre aux demandes visant à déterminer les circonstances et fixer l'étendue du sinistre. L'assureur peut réclamer des justificatifs complémentaires tels que des protocoles.",
+      "timing": "sans retard",
+      "sanction": null,
+      "page": 14
+    },
+    {
+      "name": "Autorisation médicale",
+      "description": "L'assuré autorise le(s) médecin(s) traitant(s) à communiquer au médecin-conseil de l'assureur tous les renseignements qu'ils possèdent concernant son état de santé. L'assureur a le droit d'exiger que le contrôle médical ait lieu en Belgique.",
+      "timing": null,
+      "sanction": null,
+      "page": 14
+    },
+    {
+      "name": "Introduction des notes de frais originales",
+      "description": "Il y a lieu d'introduire les originaux des notes de frais, comportant le nom de la personne traitée, la nature de la maladie, les dates, le détail des prestations et des frais et honoraires. L'assureur peut subordonner le remboursement à l'introduction des notes acquittées et traduites si en langue étrangère. Le remboursement est fait en euro. En cas d'intervention d'un autre organisme, des duplicata peuvent être introduits accompagnés d'une copie du décompte de l'organisme payeur.",
+      "timing": null,
+      "sanction": null,
+      "page": 14
+    },
+    {
+      "name": "Communication des relevés d'intervention légale",
+      "description": "L'assuré doit faire parvenir à l'assureur tous les relevés donnant le détail de l'intervention légale et de tous autres remboursements complémentaires perçus. L'assureur se réserve le droit de n'intervenir que dans le montant des factures payées, acquittées et comportant les dates du paiement.",
+      "timing": null,
+      "sanction": null,
+      "page": 14
+    },
+    {
+      "name": "Obligations de déclaration du risque (Art. 28)",
+      "description": "Le preneur et l'assuré sont tenus, tant à la conclusion qu'en cours de contrat, à : a) fournir toutes les informations complètes et correctes concernant le risque assuré ; b) déclarer avec précision toutes les circonstances connues dont ils peuvent raisonnablement estimer qu'elles constituent des éléments d'appréciation du risque, telles que les circonstances visées à l'article 13.1.a ; c) déclarer les autres assurances ayant le même objet ; d) déclarer toute modification dans la composition de leur famille.",
+      "timing": "à la conclusion et en cours de contrat",
+      "sanction": "En cas d'omission ou d'inexactitude dans la déclaration, l'assureur pourra, suivant le cas, limiter ou refuser son intervention conformément aux dispositions de la loi sur le contrat d'assurance terrestre.",
+      "page": 18
+    },
+    {
+      "name": "Information sur la composition de la famille assurée (Art. 27)",
+      "description": "Le preneur s'engage à informer l'assureur du moment où un membre de la famille assurée quitte le contrat ainsi que du nouveau lieu de résidence de celui-ci.",
+      "timing": null,
+      "sanction": null,
+      "page": 18
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Aviser l'assureur de toute hospitalisation ou événement pouvant faire intervenir la garantie, au moyen des formulaires type fournis par l'assureur, et envoyer la déclaration remplie.",
+      "deadline": "dès que possible et au plus tard 30 jours à dater du début d'une hospitalisation ou après la date de l'accouchement à domicile",
+      "page": 14
+    },
+    {
+      "step": "Fournir sans retard tous renseignements utiles et répondre aux demandes de l'assureur pour déterminer les circonstances et l'étendue du sinistre ; produire les justificatifs complémentaires (protocoles) sur demande.",
+      "deadline": "sans retard",
+      "page": 14
+    },
+    {
+      "step": "Introduire les originaux des notes de frais (nom du patient, nature de la maladie, dates, détail des prestations et frais/honoraires) ; traduire les notes en langue étrangère si nécessaire ; joindre les relevés de l'intervention légale et des remboursements complémentaires.",
+      "deadline": null,
+      "page": 14
+    },
+    {
+      "step": "Remboursement des frais couverts par l'assureur après réception des pièces justificatives des débours ; l'assureur peut réclamer toute pièce complémentaire jugée nécessaire ; aucun intérêt n'est dû.",
+      "deadline": "dans les 15 jours ouvrables qui suivent la réception des pièces justificatives",
+      "page": 12
+    },
+    {
+      "step": "Sur demande de l'assuré, versement d'une avance destinée à couvrir la provision pour frais de séjour exigée par l'établissement hospitalier, à concurrence de 50% du montant de la provision, déduction faite le cas échéant de la franchise ; avance récupérée lors du décompte ; en cas de trop-perçu, remboursement dans les 15 jours ouvrables d'une mise en demeure (sinon intérêts au taux légal).",
+      "deadline": "remboursement du trop-perçu dans les 15 jours ouvrables à compter d'une mise en demeure",
+      "page": 12
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Sauf dérogation mentionnée dans les conditions particulières, le contrat est conclu à vie. Le contrat prend cours dès qu'il est signé par le preneur et l'assureur ; il produit ses effets à compter de la date mentionnée dans les conditions particulières à condition que la première cotisation ait été payée.",
+    "tacit_renewal": null,
+    "methods": [
+      "Lettre recommandée déposée à la poste, exploit d'huissier, ou remise de la lettre de résiliation contre récépissé."
+    ],
+    "special_rights": [
+      "Résiliation par le preneur (Art. 25.1) : a) au moins 3 mois avant l'échéance principale ; b) par lettre recommandée au moins trois mois avant l'échéance annuelle suivant la notification d'une modification des conditions générales et/ou tarifaires faite quatre mois au moins avant l'échéance (résiliation en vigueur à l'échéance annuelle) ; c) par lettre recommandée endéans les 3 mois suivant la notification d'une modification si celle-ci a lieu moins de quatre mois avant l'échéance (résiliation en vigueur après un mois à compter du lendemain de la signification, du récépissé ou du dépôt à la poste). Résiliation par l'assureur (Art. 25.2) : a) fraude ou tentative de fraude ; b) non-paiement de la cotisation ; c) transfert du domicile hors de la Belgique ; d) suppression de l'assujettissement à la sécurité sociale belge ou perte de bénéfice ; e) non-respect des obligations de l'article 15. Non-paiement (Art. 20) : après 30 jours à partir de l'échéance, lettre recommandée de mise en demeure ; au plus tôt 15 jours après cet envoi, résiliation de plein droit avec effet immédiat ; toute interruption de couverture entraîne de nouveaux délais d'attente. Décès (Art. 25.3) : le contrat expire au décès du preneur ; les assurés peuvent demander la continuation à condition de désigner un nouveau preneur endéans les 60 jours. Fin des prestations (Art. 26) : le paiement des prestations garanties cesse en même temps que le contrat, y compris pour les sinistres en cours."
+    ],
+    "notice_period": "Le preneur peut résilier le contrat à chaque échéance annuelle, au moins 3 mois avant l'échéance annuelle, par lettre recommandée déposée à la poste, par exploit d'huissier ou par remise de la lettre de résiliation contre récépissé."
+  },
+  "prescription_period": {
+    "description": "Le délai de prescription découlant de toute action dérivant du contrat est de trois ans. Le délai court à partir du jour de l'événement qui donne ouverture à l'action. Toutefois, lorsque celui à qui appartient l'action prouve qu'il n'a eu connaissance de cet événement qu'à une date ultérieure, le délai ne commence à courir qu'à cette date, sans pouvoir excéder une période de cinq ans à dater de l'événement, le cas de fraude excepté."
+  },
+  "premium": {
+    "mechanics": "La cotisation est indivisible et quérable, payable par le preneur. Elle est le montant fixé dans le contrat, augmenté des frais de police et d'avenants, de la taxe sur les contrats d'assurance et des impôts et/ou contributions additionnels. Elle peut être adaptée à chaque échéance annuelle à l'évolution de l'indice des prix à la consommation ou d'un indice équivalent ; l'assureur peut aussi l'adapter sur la base d'autres paramètres représentatifs et objectifs approuvés par les autorités compétentes. La cotisation varie automatiquement suivant les tranches d'âge fixées dans le tarif mentionné dans une annexe jointe aux conditions particulières. En cas de non-paiement d'une échéance, l'assureur adresse après 30 jours une lettre recommandée de mise en demeure ; au plus tôt 15 jours après cet envoi, le contrat est résilié de plein droit avec effet immédiat.",
+    "page": 15
+  },
+  "special_conditions": [
+    {
+      "name": "Assurabilité (Art. 5)",
+      "description": "Est assurable toute personne qui : a) n'a pas atteint l'âge de 66 ans lors de la conclusion du contrat ; b) est domiciliée en Belgique et y réside habituellement ; c) est soumise à la sécurité sociale belge et en bénéficie. Il est nécessaire de répondre aux deux dernières conditions pendant toute la durée du contrat.",
+      "page": 10
+    },
+    {
+      "name": "L'adhésion (Art. 6)",
+      "description": "L'adhésion doit être signée, complétée et accompagnée d'un questionnaire médical dûment complété afin que l'assureur puisse apprécier le risque. Cette formalité n'est pas d'application pour les nouveau-nés à condition que le père ou la mère soit déjà assuré(e) depuis 360 jours au moins avant la date de naissance et que l'extension de la couverture soit demandée dans les 60 jours qui suivent la naissance.",
+      "page": 10
+    },
+    {
+      "name": "Critères de remboursement des frais (Art. 7)",
+      "description": "Sont seuls remboursés dans le cadre d'un sinistre les frais qui : a) ont un caractère curatif, diagnostique ou palliatif ; b) sont médicalement nécessaires ; c) sont prestés par des prestataires de soins reconnus ; d) sont éprouvés à suffisance sur le plan thérapeutique ; e) sont exposés pendant la durée du sinistre.",
+      "page": 10
+    },
+    {
+      "name": "Calcul de l'intervention de l'assureur (Art. 10)",
+      "description": "L'intervention est calculée sur la différence entre le coût réel des frais exposés couverts et les interventions légales obligatoires, majorées des interventions complémentaires éventuelles. L'assureur limite son intervention comme indiqué aux conditions ; l'assuré prend en charge la franchise ; l'intervention est alors égale au solde. Si l'assuré ne bénéficie pas des interventions légales pour quelque raison que ce soit, mais est affilié à une mutualité belge en ordre de cotisation ou à un organisme assureur étranger ayant conclu une convention bilatérale avec la Belgique, l'intervention sera égale au remboursement prévu par la législation belge applicable au travailleur salarié.",
+      "page": 12
+    },
+    {
+      "name": "Sanctions (Art. 14)",
+      "description": "Lorsque l'assuré induit l'assureur en erreur dans une intention frauduleuse : a) à la conclusion du contrat, celui-ci est nul ; b) au cours du contrat, l'assureur peut résilier avec effet immédiat et garder les cotisations échues jusqu'au moment où il a eu connaissance de l'omission ou de l'inexactitude intentionnelle, à titre de dommages et intérêts. L'assureur refusera sa garantie en cas de sinistre.",
+      "page": 14
+    },
+    {
+      "name": "Contestation et expertise (Art. 16)",
+      "description": "L'assureur peut à tout moment faire contrôler par un médecin agréé l'exactitude des déclarations. Toute contestation d'ordre médical est soumise contradictoirement à deux médecins experts (un par partie) ; à défaut d'accord, ils choisissent un troisième expert ; les trois statuent en commun, à défaut de majorité l'avis du troisième est prépondérant. Si une partie ne nomme pas son expert ou en cas de désaccord sur le troisième, la désignation est faite par le Président du Tribunal de Première Instance du domicile de l'assuré. Chaque partie supporte les frais de son expert ; ceux du troisième sont partagés par moitié.",
+      "page": 15
+    },
+    {
+      "name": "Convention avec des tiers (Art. 17)",
+      "description": "Les conventions conclues par l'assuré avec des tiers ayant pour objet des droits existant en vertu du contrat ou naissant en son exécution ne sont opposables à l'assureur qu'à partir de la date où celui-ci les a approuvées.",
+      "page": 15
+    },
+    {
+      "name": "Recours contre tiers (Art. 18)",
+      "description": "L'assureur est subrogé dans les droits de l'assuré et/ou du bénéficiaire à l'égard des tiers responsables, à concurrence des frais. L'assuré et/ou le bénéficiaire ne peuvent convenir avec quiconque, sans l'accord écrit de l'assureur, que celui-ci ne pourra exercer son droit de recours contre le tiers responsable.",
+      "page": 15
+    },
+    {
+      "name": "Modification du tarif et/ou des conditions d'assurance (Art. 21)",
+      "description": "L'assureur peut modifier le tarif et/ou les conditions : a) en cas de modification substantielle de la législation (sécurité sociale, loi sur les hôpitaux) ou autre événement ayant une influence significative et durable sur le coût réel des prestations (dossier motivé déposé auprès des autorités) ; b) en cas d'opération d'adaptation générale imposée par les autorités et uniforme pour tous les assureurs ; c) lorsqu'il est prouvé, dossier à l'appui, que la cotisation est insuffisante ; d) en cas d'adaptation tarifaire imposée par l'assureur Assistance. La modification est notifiée au moins quatre mois avant l'échéance ; le preneur peut résilier (Art. 25.1.b) ; si notification moins de quatre mois avant l'échéance, résiliation selon Art. 25.1.c.",
+      "page": 16
+    },
+    {
+      "name": "Etendue territoriale (Art. 22)",
+      "description": "L'étendue territoriale s'étend au monde entier pour autant que l'assuré ait son domicile et sa résidence principale en Belgique, ou qu'il réside en Belgique et bénéficie de prestations remboursées dans le cadre d'une convention bilatérale de sécurité sociale conclue avec la Belgique. Tout assuré résidant plus de 90 jours consécutifs à l'étranger n'est plus considéré comme ayant sa résidence principale en Belgique. En cas d'hospitalisation à l'étranger, le remboursement n'est acquis qu'à condition que l'hospitalisation ait un caractère urgent et imprévisible ou que l'assureur ait donné son accord préalable. Pour toute hospitalisation ou soins ambulatoires planifiés à l'étranger pour un assuré résidant en Belgique, l'assureur intervient pour autant que les prestations soient prises en charge par l'A.M.I.",
+      "page": 17
+    },
+    {
+      "name": "Modifications dans la composition de la famille assurée (Art. 27)",
+      "description": "Sur base de l'information transmise, l'assureur soumet à l'assuré concerné, dans les 30 jours, une offre d'assurance valant également pour les membres de sa famille éventuelle couverts par le contrat. L'assuré dispose de 60 jours pour accepter l'offre ; le droit d'accepter s'éteint à l'expiration de ce délai. Le contrat accepté commence à courir au moment où l'assuré perd le bénéfice de l'assurance précédente, sans nouvelles formalités médicales et suivant le tarif en vigueur.",
+      "page": 18
+    },
+    {
+      "name": "Domiciliation (Art. 30)",
+      "description": "Le domicile des parties est élu de droit : a) celui de l'assureur à son siège social ; b) celui du preneur et de l'assuré à l'adresse indiquée dans le contrat ou à la dernière adresse officiellement connue de l'assureur. Toute communication est valablement faite à ces adresses.",
+      "page": 19
+    },
+    {
+      "name": "Tribunaux compétents (Art. 31)",
+      "description": "Les contestations entre parties, relatives à l'exécution du contrat, relèvent exclusivement de la compétence des tribunaux belges.",
+      "page": 19
+    },
+    {
+      "name": "Protection de la vie privée (Art. 32)",
+      "description": "Les données à caractère personnel sont traitées par AMMA Assurances, en sa qualité de responsable du traitement, conformément au Règlement (UE) 2016/679 (RGPD) et à la législation belge. Les modalités complètes sont décrites dans la Charte Vie Privée disponible à l'adresse www.amma.be/fr/charte-vie-privee.",
+      "page": 19
+    },
+    {
+      "name": "Bases sur lesquelles le contrat est établi (Art. 33)",
+      "description": "La loi applicable au contrat est la loi belge. Le contrat est établi sur base : a) des dispositions légales et réglementaires applicables à l'assurance ; b) des conditions générales et particulières, ainsi que les annexes et avenants ; c) des déclarations des assurés et du preneur. L'assureur sera uniquement lié par les dispositions contractuelles convenues par écrit.",
+      "page": 19
+    },
+    {
+      "name": "Plaintes (Art. 34)",
+      "description": "Toute plainte au sujet du contrat peut être adressée à l'ombudsman de l'assurance, Square de Meeûs 35 à 1000 Bruxelles (tél. 02/547.58.71 – www.ombudsman.as). L'introduction d'une plainte ne porte pas préjudice à la possibilité pour l'assuré d'intenter une action en justice.",
+      "page": 19
+    },
+    {
+      "name": "Assistance hospitalisation à l'étranger – correspondant d'assistance (annexe)",
+      "description": "Pour la garantie d'assistance, l'assureur fait appel à son correspondant EUROP ASSISTANCE BELGIUM s.a., agréé sous le numéro de code 1401 pour la branche 18 (Assistance), situé Boulevard du Triomphe 172 à 1160 Bruxelles, dénommé l'assisteur. La garantie d'assistance est acquise, à l'étranger, lors de séjour professionnel ou privé (à l'exclusion de toute activité technique ou sportive notoirement dangereuse), pour tout assuré victime d'une maladie ou d'un accident.",
+      "page": 20
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Lorsqu'un assuré est hospitalisé suite à un accident, une maladie, une grossesse ou un accouchement, la couverture « hospitalisation » garantit dans les limites fixées dans les conditions générales et/ou particulières, le remboursement des frais suivants, occasionnés au cours de son hospitalisation, en vue de poser un diagnostic ou en vue de subir un traitement et ayant un lien direct avec les causes de l'hospitalisation."
+    },
+    {
+      "quote": "Une franchise de € 250 par année d'assurance et par assuré est d'application sur l'ensemble des frais d'hospitalisation et de pré & post hospitalisation. La franchise est toutefois supprimée pour le one-day-clinic et les maladies graves."
+    },
+    {
+      "quote": "un stage général de 90 jours prenant cours à la date d'effet du contrat"
+    },
+    {
+      "quote": "un stage de 10 mois pour les états de grossesse et les accouchements prenant cours à la date d'effet du contrat."
+    },
+    {
+      "quote": "Le délai de prescription découlant de toute action dérivant du contrat est de trois ans."
+    },
+    {
+      "quote": "Sauf dérogation mentionnée dans les conditions particulières, le contrat est conclu à vie."
+    },
+    {
+      "quote": "Est assurable toute personne qui : a) n'a pas atteint l'âge de 66 ans lors de la conclusion du contrat"
+    }
+  ],
+  "gaps": [
+    "L'edition_date exacte n'est pas explicitement imprimée sous forme de date ; seul le code référence '14-HOSPI-CG-1007-V04-FR' figure en pied de page (le segment '1007' pouvant suggérer octobre 2007 mais non affirmé comme date d'édition dans le texte).",
+    "Le montant de la cotisation et le tarif par tranches d'âge ne figurent pas dans les conditions générales (renvoi à une annexe jointe aux conditions particulières)."
+  ]
+}

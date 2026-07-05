@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openinsurance-wiki/schema/coverage_categories.json",
+  "title": "Coverage categories (controlled vocabulary)",
+  "description": "Maps free-text coverage names/descriptions to a small controlled set of insurance concepts, via keyword patterns (accent-insensitive, fr/nl). Used by the MCP overlap detector to flag CANDIDATE duplicate cover across products, and available as the seed for a future deterministic coverage-normalization pass. Keywords are written lowercase and accent-stripped; matching normalizes text the same way. This is a heuristic, not an authority: a matched category is a candidate for an agent to confirm, not a verdict.",
+  "version": "1.0",
+  "categories": {
+    "responsabilite_civile": {"label": "Responsabilité civile", "keywords": ["responsabilit", "r.c.", "rc familiale", "rc vie privee", "civile extra", "aansprakelijk"]},
+    "assistance": {"label": "Assistance", "keywords": ["assistance", "depannage", "remorquage", "bijstand", "pechverhelping"]},
+    "protection_juridique": {"label": "Protection juridique", "keywords": ["protection juridique", "aide juridique", "defense en justice", "rechtsbijstand"]},
+    "vol": {"label": "Vol / vandalisme", "keywords": ["vol", "cambriolage", "vandalisme", "diefstal"]},
+    "incendie": {"label": "Incendie et périls connexes", "keywords": ["incendie", "explosion", "foudre", "fumee", "brand"]},
+    "degats_eaux": {"label": "Dégâts des eaux", "keywords": ["degat des eaux", "degats des eaux", "degats d'eau", "waterschade"]},
+    "catastrophes_naturelles": {"label": "Catastrophes naturelles", "keywords": ["catastrophe naturelle", "inondation", "tremblement de terre", "glissement de terrain", "natuurramp"]},
+    "tempete_grele": {"label": "Tempête / grêle", "keywords": ["tempete", "grele", "pression de la neige", "storm", "hagel"]},
+    "bris_vitrage": {"label": "Bris de vitrage", "keywords": ["bris de vitr", "vitrage", "glasbreuk"]},
+    "electricite": {"label": "Dommages électriques", "keywords": ["action de l'electricite", "surtension", "electrique", "elektriciteit"]},
+    "bagages": {"label": "Bagages / effets personnels", "keywords": ["bagage", "effets personnels", "reisgoed"]},
+    "annulation_voyage": {"label": "Annulation de voyage", "keywords": ["annulation", "annuleren"]},
+    "degats_vehicule": {"label": "Dégâts au véhicule (omnium)", "keywords": ["omnium", "dommages au vehicule", "degats materiels au vehicule", "collision", "vehicule au repos"]},
+    "conducteur": {"label": "Assurance du conducteur", "keywords": ["assurance du conducteur", "conducteur", "bestuurder"]},
+    "hospitalisation": {"label": "Hospitalisation", "keywords": ["hospitalisation", "hospi", "sejour hospitalier", "ziekenhuis"]},
+    "soins_ambulatoires": {"label": "Soins ambulatoires / dentaires", "keywords": ["ambulatoire", "soins dentaires", "frais medicaux", "tandzorg"]},
+    "accidents_corporels": {"label": "Accidents corporels", "keywords": ["accident corporel", "dommages corporels", "lichamelijk", "invalidite", "deces"]},
+    "relogement": {"label": "Relogement / frais supplémentaires", "keywords": ["relogement", "frais supplementaires", "frais de sauvetage", "herhuisvesting"]},
+    "rc_immeuble": {"label": "RC immeuble / bâtiment", "keywords": ["rc immeuble", "responsabilite du batiment", "trouble de voisinage"]},
+    "animaux": {"label": "Dommages / responsabilité animaux", "keywords": ["animaux", "animal", "dieren"]}
+  }
+}

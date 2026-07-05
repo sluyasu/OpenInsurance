@@ -1,0 +1,542 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "be",
+  "insurer_slug": "vivium",
+  "insurer_name": "Vivium",
+  "branch": "habitation",
+  "document_type": "ipid",
+  "language": "fr",
+  "source_url": "https://www.vivium.be/documents/1091840/1768384/IPID_292_VIV_Brand_Brand_8942F_2025.pdf/1aa9bf32-11bb-9b24-ca2b-99808daa2ca0?t=1741278797551",
+  "product_name": "VIVIUM Habitation",
+  "reference": "8.942F - 01-2025",
+  "edition_date": "01-2025",
+  "target_audience": null,
+  "branch_code": null,
+  "source_pages": 3,
+  "source_pdf": "vivium-habitation-incendie-ipid-292-c13d4fe2.pdf",
+  "source_sha256": "50d62f21f390793512228534f5f50bca211a61c135556cb8de2a3a5747e41fb8",
+  "fetched_at": "2026-07-05",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "VIVIUM Habitation est une assurance habitation multirisque (assurance incendie) qui indemnise le propriétaire, locataire et/ou occupant pour les dommages matériels causés à l'habitation et/ou à son contenu. Elle couvre des risques tels que l'incendie, la foudre, l'explosion, le heurt, les dégâts d'effraction et le vandalisme, les dommages aux appareils électriques, la tempête, la grêle, le bris de vitrages, les dégâts des eaux, les dégâts dus au mazout, la RC bâtiment, le recours des tiers et les catastrophes naturelles. Une assistance habitation 24h/24 et 7j/7 est incluse, ainsi que des garanties optionnelles (Vol et vandalisme du contenu, Pertes indirectes, Protection juridique) et des packs (Jardin, Vol+).",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Assistance habitation",
+      "description": "Nous vous accordons une assistance lors d'un sinistre couvert à votre habitation (24h/24, 7 j/7), p.ex. un hébergement provisoire si le bâtiment est devenu inhabitable.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Incendie, foudre, explosion, implosion, fumée et suie",
+      "description": "Nos garanties de base couvrent des risques tels que l'incendie, l'action directe de la foudre, l'explosion, l'implosion mais également les dommages causés par la fumée et la suie.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Heurt",
+      "description": "Le heurt, par exemple la chute d'un arbre sur votre habitation ou une voiture qui a heurté la façade.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Dégâts d'effraction et vandalisme au bâtiment",
+      "description": "Les dégâts d'effraction et le vandalisme au bâtiment (graffiti compris).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Dommages aux appareils électriques et au contenu du congélateur/réfrigérateur",
+      "description": "Les dommages à vos appareils électriques, par exemple causés par un court-circuit, ainsi que les dommages au contenu de votre congélateur ou réfrigérateur causés par un sinistre couvert.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Tempête, grêle, pression de la neige et de la glace",
+      "description": "La tempête, la grêle, la pression de la neige et de la glace.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Bris de vitrages",
+      "description": "Le bris de vitrages, de panneaux vitrés, de miroirs par exemple, également le remplacement de film anti-effraction.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "En bris de vitres, les dommages aux serres et à leur contenu ne sont pas couverts, sauf si le pack Jardin a été souscrit.",
+        "En cas de condensation des vitrages isolants, la franchise s'applique par vitrage. Les rayures et écaillements ne sont jamais indemnisés, ni les dommages causés aux vitrages, aux miroirs... qui n'ont pas encore été placés."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Dégâts des eaux",
+      "description": "Les dégâts des eaux, par exemple par l'écoulement d'une conduite d'eau ou d'un tuyau d'évacuation ainsi que la perte d'eau.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Dégâts dus au mazout",
+      "description": "Les dégâts dus au mazout (par exemple l'assainissement du sol pollué).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "L'indemnisation maximale pour l'assainissement du sol s'élève à 10.000 € * mais jusque 18.000 € * avec le certificat optitank (Abex 730).",
+      "sub_limits": [
+        {
+          "name": "Assainissement du sol - standard",
+          "limit": "10.000 € *"
+        },
+        {
+          "name": "Assainissement du sol - avec certificat optitank",
+          "limit": "18.000 € * (Abex 730)"
+        }
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "RC (responsabilité civile) bâtiment",
+      "description": "Nous assurons votre responsabilité extracontractuelle pour des dommages causés aux tiers par le bâtiment et le contenu (à l'exception des véhicules automoteurs) (par exemple aussi le défaut d'enlèvement de neige). La RC bâtiment indemnise les dommages corporels et les dommages matériels.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "dommages corporels : 21.722.323 € ** - dommages matériels : 5.737.972 € **",
+      "sub_limits": [
+        {
+          "name": "Dommages corporels",
+          "limit": "21.722.323 € **"
+        },
+        {
+          "name": "Dommages matériels",
+          "limit": "5.737.972 € **"
+        }
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les montants de la garantie \"RC Bâtiment\" et \"Recours des tiers\", ainsi que la franchise, sont liés à l'indice des prix à la consommation. L'indice de base est celui de janvier 2008, soit 207,69 (base 1981 = 100)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Recours des tiers",
+      "description": "Le recours des tiers : nous prenons en charge les dommages que des tiers subiraient à la suite d'un sinistre couvert dont vous êtes responsable.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Les montants de la garantie \"RC Bâtiment\" et \"Recours des tiers\", ainsi que la franchise, sont liés à l'indice des prix à la consommation. L'indice de base est celui de janvier 2008, soit 207,69 (base 1981 = 100)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Conflits du travail et attentats",
+      "description": "Les conflits du travail et les attentats.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Catastrophes naturelles",
+      "description": "Catastrophes naturelles : les inondations, le débordement ou le refoulement d'égouts publics, les précipitations atmosphériques exceptionnelles, le tremblement de terre, le glissement ou affaissement de terrain.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Pour les locataires d'appartements, le montant de la franchise réduit à 150 € (non indexés) s'applique à l'exception de la garantie « Catastrophes naturelles »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Frais après sinistre (sauvetage, déblais, logement, démolition, expert indépendant, conservation, chômage immobilier)",
+      "description": "En plus des garanties de base et après un sinistre couvert, nous indemnisons les frais de sauvetage, de déblais, de logement, de démolition, d'expert indépendant, de conservation ou de chômage immobilier (par exemple la privation de jouissance ou – si le bien est loué – la perte des revenus locatifs ainsi que les frais fixes du bailleur).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [
+        {
+          "name": "Frais d'expertise pour un expert indépendant",
+          "limit": "ne peuvent en aucun cas excéder 24.727,37 € maximum * (Abex 730)"
+        }
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les frais d'expertise pour un expert indépendant dépendent des dommages estimés et ne peuvent en aucun cas excéder 24.727,37 € maximum * (Abex 730)."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Dommages indirects",
+      "description": "Les dommages indirects, comme ceux causés par l'extinction par exemple, ainsi que les dommages matériels causés aux locataires ou occupants lorsque votre responsabilité en tant que propriétaire est mise en cause.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Indemnité en cas de décès",
+      "description": "Nous versons également un montant si vous et votre famille décédez par exemple à la suite d'un incendie.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Intervention maximale de 15.000 € pour l'ensemble des assurés en cas de décès à la suite d'un accident dans le cadre des garanties de base (Abex 730).",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Vol et vandalisme du contenu",
+      "description": "Vol et vandalisme du contenu : vous assure par exemple aussi en cas de vol avec violence ou de menaces envers vous ou les personnes vivant à votre foyer.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "Le vol avec violence ou menaces sur la personne est indemnisé à concurrence de 2.500 € maximum, à concurrence de 5.000 € avec le pack Vol+ (Abex 730, garantie optionnelle).",
+      "sub_limits": [
+        {
+          "name": "Vol avec violence ou menaces sur la personne",
+          "limit": "2.500 € maximum"
+        },
+        {
+          "name": "Vol avec violence ou menaces sur la personne (avec pack Vol+)",
+          "limit": "5.000 € (Abex 730)"
+        }
+      ],
+      "deductible": null,
+      "conditions": [
+        "En cas de souscription des garanties de base."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Pertes indirectes",
+      "description": "Pertes indirectes : augmente votre indemnité contractuelle de 10 %, ce qui permet également de couvrir vos frais indirects, par exemple vos frais de téléphone et de déplacement...",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "augmente votre indemnité contractuelle de 10 %",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "En cas de souscription des garanties de base."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Protection juridique",
+      "description": "Protection juridique : nous défendons vos intérêts via un règlement à l'amiable et si nécessaire nous intervenons notamment dans les frais pour certaines procédures pénales et civiles.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "En cas de souscription des garanties de base."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Pack Jardin",
+      "description": "Pack Jardin : vous indemnise, par exemple, après des dégâts causés par une tempête : pour la reconstruction du jardin endommagé, y compris le nettoyage et les frais connexes ; par exemple, pour les dommages causés au contenu qui se trouve à l'extérieur ainsi qu'aux auvents, stores, clôtures de terrasse.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [
+        {
+          "name": "Reconstruction du jardin endommagé (y compris nettoyage et frais connexes)",
+          "limit": "jusqu'à maximum 15.000 € (Abex 730)"
+        },
+        {
+          "name": "Dommages au contenu à l'extérieur ainsi qu'aux auvents, stores, clôtures de terrasse",
+          "limit": "jusqu'à concurrence de 5.000 € (Abex 730)"
+        }
+      ],
+      "deductible": null,
+      "conditions": [
+        "Ces garanties sont toujours limitées. Pour les dispositions applicables, veuillez consulter soigneusement les conditions générales et les conditions particulières que vous avez souscrites."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Pack Vol+",
+      "description": "Pack Vol+ : double et améliore l'intervention après un vol, par exemple le vol avec violence sur des personnes dans votre voiture.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "Le vol avec violence ou menaces sur la personne est indemnisé à concurrence de 5.000 € avec le pack Vol+ (Abex 730, garantie optionnelle).",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Ces garanties sont toujours limitées. Pour les dispositions applicables, veuillez consulter soigneusement les conditions générales et les conditions particulières que vous avez souscrites."
+      ],
+      "page": 2
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Assistance habitation : caravanes et appareils ménagers/audiovisuels",
+      "description": "Dans le cadre de l'assistance habitation : les dommages causés dans les caravanes et aux appareils ménagers ou audiovisuels.",
+      "applies_to": "Assistance habitation",
+      "page": 1
+    },
+    {
+      "name": "Roussissement et fumée/suie d'un feu ouvert",
+      "description": "Le roussissement (c.-à-d. sans flammes) et les dommages causés par la fumée ou la suie projetée par un feu ouvert ou les objets tombés dans le foyer.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dommages à l'objet ayant causé le heurt",
+      "description": "Les dommages causés à l'objet qui a causé le heurt, par exemple l'arbre tombé sur votre habitation ou le véhicule qui a heurté votre façade.",
+      "applies_to": "Heurt",
+      "page": 1
+    },
+    {
+      "name": "Absence de chauffage durant la période de gel",
+      "description": "Les dommages causés par l'absence de chauffage durant la période de gel (si l'installation n'avait pas été purgée).",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Eaux souterraines ou humidité ascensionnelle",
+      "description": "Les dommages causés par des eaux souterraines ou l'humidité ascensionnelle.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Condensation ou vapeur",
+      "description": "Les dommages causés par la condensation ou la vapeur.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Tempête au contenu d'un carport",
+      "description": "Les dommages causés par la tempête au contenu d'un carport.",
+      "applies_to": "Tempête, grêle, pression de la neige et de la glace",
+      "page": 1
+    },
+    {
+      "name": "Dommages non soudains ou préexistants",
+      "description": "Les dommages qui ne sont pas survenus soudainement ou qui existaient déjà avant le début de la garantie.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dommages intentionnels",
+      "description": "Les dommages causés intentionnellement par l'assuré ou dont il est complice.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Bâtiments délabrés ou destinés à la démolition",
+      "description": "Les dommages causés aux bâtiments délabrés ou destinés à la démolition ou provoqués par ces bâtiments.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Non-respect des mesures de prévention",
+      "description": "Les dommages résultant du non-respect des mesures de prévention requises.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "RC bâtiment et Recours des tiers : inexécution d'obligation contractuelle",
+      "description": "RC (responsabilité civile) bâtiment et Recours des tiers : les dommages résultant de l'inexécution ou de la mauvaise exécution d'une obligation contractuelle.",
+      "applies_to": "RC (responsabilité civile) bâtiment",
+      "page": 1
+    },
+    {
+      "name": "Pollution de l'environnement",
+      "description": "Les dommages résultant de la pollution de l'environnement (sauf ce qui est prévu dans les garanties : les dommages causés par le mazout – dommages causés par l'eau – dommages causés par le bâtiment assuré).",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Guerres",
+      "description": "Les dommages causés par les guerres (les dommages causés par le terrorisme sont régis par la loi).",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Radioactivité",
+      "description": "Les dommages causés par la radioactivité.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Catastrophes naturelles non couvertes par la garantie de base",
+      "description": "Les dommages par des catastrophes naturelles qui ne sont pas couvertes par la garantie de base catastrophes naturelles.",
+      "applies_to": "Catastrophes naturelles",
+      "page": 1
+    },
+    {
+      "name": "Garanties non acquises via le bureau de tarification",
+      "description": "Certaines garanties ne sont pas acquises si le client est assuré via le bureau de tarification.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Rayures et écaillements des vitrages, vitrages non placés",
+      "description": "Les rayures et écaillements ne sont jamais indemnisés, ni les dommages causés aux vitrages, aux miroirs... qui n'ont pas encore été placés.",
+      "applies_to": "Bris de vitrages",
+      "page": 2
+    },
+    {
+      "name": "Serres et leur contenu en bris de vitres",
+      "description": "En bris de vitres, les dommages aux serres et à leur contenu ne sont pas couverts, sauf si le pack Jardin a été souscrit.",
+      "applies_to": "Bris de vitrages",
+      "page": 2
+    },
+    {
+      "name": "Plantations, jardins et pelouses",
+      "description": "Les plantations (en ce compris les jardins et pelouses) ne sont pas assurées dans le contrat de base, sauf si elles forment une clôture.",
+      "applies_to": "all",
+      "page": 2
+    }
+  ],
+  "deductibles": {
+    "standard": "Pour chaque sinistre matériel, une franchise de 215,17 € est à charge de l'assuré (indexée).",
+    "variable": "Pour les locataires d'appartements, le montant de la franchise est réduit à 150 € (non indexés) pour l'ensemble des garanties souscrites, à l'exception de la garantie «Catastrophes naturelles». En cas de condensation des vitrages isolants, la franchise s'applique par vitrage.",
+    "per_coverage": null,
+    "page": 2
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "description": "À la souscription du contrat, vous devez nous communiquer des informations honnêtes, précises et complètes concernant le risque à assurer.",
+      "timing": "À la souscription du contrat",
+      "sanction": null
+    },
+    {
+      "description": "Vous devez signaler à votre assureur toute modification apportée à votre bâtiment et/ou à son contenu pendant la durée du contrat, qui est de nature à entraîner une aggravation sensible et durable du risque (par exemple une extension de votre maison, la transformation d'une chambre en une salle de bain, l'achat d'une œuvre d'art...).",
+      "timing": "Pendant la durée du contrat",
+      "sanction": null
+    },
+    {
+      "description": "Vous devez prendre les mesures nécessaires pour éviter qu'un sinistre se produise.",
+      "timing": null,
+      "sanction": null
+    },
+    {
+      "description": "Vous devez signaler un sinistre et ses circonstances dans le délai prévu dans les conditions générales. Vous devez par ailleurs prendre toutes les mesures raisonnables pour éviter et limiter les conséquences d'un sinistre.",
+      "timing": "Dans le délai prévu dans les conditions générales",
+      "sanction": null
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Vous devez signaler un sinistre et ses circonstances dans le délai prévu dans les conditions générales.",
+      "deadline": "Dans le délai prévu dans les conditions générales"
+    },
+    {
+      "step": "Vous devez prendre toutes les mesures raisonnables pour éviter et limiter les conséquences d'un sinistre.",
+      "deadline": null
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "La date de début et la durée de l'assurance sont indiquées dans les conditions particulières du contrat. Le contrat dure un an et est reconductible tacitement.",
+    "tacit_renewal": "Le contrat dure un an et est reconductible tacitement.",
+    "methods": [
+      "L'annulation du contrat doit se faire par envoi recommandée, par exploit d'huissier ou par la remise d'une lettre de résiliation avec accusé de réception."
+    ],
+    "special_rights": null,
+    "notice_period": "Vous pouvez résilier votre contrat d'assurance au plus tard trois mois avant la date d'échéance annuelle du contrat. Le délai endéans lequel vous pouvez résilier votre contrat passe à deux mois avant la date d'échéance annuelle du contrat uniquement pour ceux portant sur des « risques simples » conformément à la législation en vigueur."
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "Vous avez l'obligation de payer annuellement la prime et vous recevez pour cela une invitation à payer. Une prime fractionnée est possible moyennant certaines conditions et des coûts supplémentaires éventuels."
+    ]
+  },
+  "special_conditions": [
+    {
+      "description": "Où suis-je couvert(e) ? La compagnie accorde la couverture à l'adresse indiquée dans les conditions particulières.",
+      "page": 2
+    },
+    {
+      "description": "En outre, un garage privé situé à une autre adresse en Belgique et le déménagement d'un membre de la famille habitant sous votre toit vers une maison de repos sont également assurés. En cas de déménagement définitif, l'assurance s'applique aux deux habitations pour un maximum de 60 jours à compter de la date du déménagement.",
+      "page": 2
+    },
+    {
+      "description": "Nous assurons votre responsabilité en tant que locataire ou occupant d'une résidence de vacances louée ainsi que le mobilier emporté (pendant maximum 180 jours par année civile) dans le monde entier. Votre responsabilité en qualité de locataire ou d'occupant d'un local loué pour une fête de famille (tente incluse) et du logement d'étudiant des enfants habitant sous votre toit est également assurée. Conformément aux dispositions et aux montants spécifiés dans les conditions générales et particulières.",
+      "page": 2
+    },
+    {
+      "description": "Certains montants sont inférieurs si le client est assuré via le Bureau de Tarification.",
+      "page": 2
+    },
+    {
+      "description": "Les montants de la garantie \"RC Bâtiment\" et \"Recours des tiers\", ainsi que la franchise, sont liés à l'indice des prix à la consommation. L'indice de base est celui de janvier 2008, soit 207,69 (base 1981 = 100).",
+      "page": 2
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "VIVIUM Habitation est une assurance habitation multirisque qui vous indemnise en qualité de propriétaire, locataire et/ou occupant pour les dommages matériels causés à votre habitation et/ou à son contenu par les risques énumérés ci-après."
+    },
+    {
+      "quote": "Nous vous accordons une assistance lors d’un sinistre couvert à votre habitation (24h/24, 7 j/7) p.ex. un hébergement provisoire si le bâtiment est devenu inhabitable."
+    },
+    {
+      "quote": "Pour chaque sinistre matériel, une franchise** de 215,17 € est à charge de l’assuré (indexée)."
+    },
+    {
+      "quote": "les dommages causés par les guerres (les dommages causés par le terrorisme sont régis par la loi) ;"
+    },
+    {
+      "quote": "Vous pouvez résilier votre contrat d’assurance au plus tard trois mois avant la date d’échéance annuelle du contrat."
+    }
+  ],
+  "gaps": [
+    "Le document est un IPID (fiche d'information produit), non exhaustif par nature : il précise lui-même que les informations ne sont pas exhaustives et renvoie aux conditions précontractuelles et contractuelles. Les limites, sous-limites et franchises exactes par garantie ne sont pas toutes détaillées.",
+    "Aucune section 'Définitions' n'est présente dans le document ; le tableau definitions[] est donc vide.",
+    "Le délai de prescription (prescription_period) n'est pas mentionné dans le document.",
+    "Aucune période de carence (waiting_periods) n'est mentionnée dans le document.",
+    "Les délais exacts de déclaration de sinistre renvoient aux conditions générales et ne sont pas chiffrés dans ce document.",
+    "Les sanctions en cas de non-respect des obligations de l'assuré ne sont pas précisées dans le document."
+  ],
+  "superseded": null
+}

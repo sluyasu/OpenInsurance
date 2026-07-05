@@ -1,0 +1,534 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "be",
+  "insurer_slug": "axa",
+  "insurer_name": "AXA Belgium",
+  "branch": "sante",
+  "document_type": "ipid",
+  "language": "fr",
+  "source_url": "https://cdn.website.axa.be/fr-be/-/media/axa-documents/library-public/ipid/6/2/d/6/4/4186101/Confort%20Personnes%20-%20Fiches%20IPID%20-%2020180901.pdf",
+  "product_name": "Confort Personnes",
+  "reference": "4186101 - 09.2018",
+  "edition_date": "09.2018",
+  "target_audience": null,
+  "branch_code": null,
+  "product_family": "Confort Personnes",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_pages": 2,
+  "source_pdf": "confort-personnes-9a72586b.pdf",
+  "source_sha256": "8a18731a78b6bcdfaba7e0f45cb651e46f407e11170d92a607a88205206088ab",
+  "fetched_at": "2026-07-05",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Confort Personnes (produit forfaitaire) est une assurance individuelle accidents qui couvre l'assuré s'il est victime de dommages corporels lors d'un accident dans sa vie privée, selon la formule choisie. Il s'agit d'une couverture en mode forfaitaire, qui garantit le paiement d'une indemnité fixée conformément au contrat pour les accidents entraînant une incapacité permanente personnelle ou le décès (ou une incapacité temporaire, des frais de traitement ou d'hospitalisation selon les options souscrites). Le produit propose une formule « Adultes » (4 formules au choix) et une formule « Enfants » (3 formules au choix).",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Adultes",
+      "description": "Vous-même et éventuellement un 2e adulte désigné. 4 formules au choix.",
+      "is_optional": false,
+      "territorial_scope": "Hormis la Première assistance, qui n'est acquise qu'en Belgique, les garanties sont acquises dans le monde entier.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Enfants",
+      "description": "Votre ou vos enfants désignés. 3 formules au choix.",
+      "is_optional": false,
+      "territorial_scope": "Hormis la Première assistance, qui n'est acquise qu'en Belgique, les garanties sont acquises dans le monde entier.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Invalidité permanente (formule « Adultes »)",
+      "description": "Garantie formule « Adultes » : Invalidité permanente. Montants en EUR selon la formule : formule 1 : 40.000 ; formule 2 : 80.000 ; formule 3 : 20.000 ; formule 4 : 40.000. Montants triplés à partir de 75 % d'invalidité.",
+      "is_optional": false,
+      "territorial_scope": "Hormis la Première assistance, qui n'est acquise qu'en Belgique, les garanties sont acquises dans le monde entier.",
+      "limits": "40.000 / 80.000 / 20.000 / 40.000 EUR selon la formule ; montants triplés à partir de 75 % d'invalidité",
+      "sub_limits": [
+        {
+          "name": "Formule 1",
+          "limit": "40.000",
+          "page": 1
+        },
+        {
+          "name": "Formule 2",
+          "limit": "80.000",
+          "page": 1
+        },
+        {
+          "name": "Formule 3",
+          "limit": "20.000",
+          "page": 1
+        },
+        {
+          "name": "Formule 4",
+          "limit": "40.000",
+          "page": 1
+        },
+        {
+          "name": "Majoration à partir de 75 % d'invalidité",
+          "limit": "montants triplés à partir de 75 % d'invalidité",
+          "page": 1
+        }
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Hospitalisation (formule « Adultes »)",
+      "description": "Garantie formule « Adultes » : Hospitalisation. Montants en EUR selon la formule : formule 1 : 18 ; formule 2 : 36 ; formule 3 : 18 ; formule 4 : 36. Montants doublés à l'étranger.",
+      "is_optional": false,
+      "territorial_scope": "Hormis la Première assistance, qui n'est acquise qu'en Belgique, les garanties sont acquises dans le monde entier.",
+      "limits": "18 / 36 / 18 / 36 EUR selon la formule ; montants doublés à l'étranger",
+      "sub_limits": [
+        {
+          "name": "Formule 1",
+          "limit": "18",
+          "page": 1
+        },
+        {
+          "name": "Formule 2",
+          "limit": "36",
+          "page": 1
+        },
+        {
+          "name": "Formule 3",
+          "limit": "18",
+          "page": 1
+        },
+        {
+          "name": "Formule 4",
+          "limit": "36",
+          "page": 1
+        },
+        {
+          "name": "Majoration à l'étranger",
+          "limit": "montants doublés à l'étranger",
+          "page": 1
+        }
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Sauvetage (formule « Adultes »)",
+      "description": "Garantie formule « Adultes » : Sauvetage. Montant en EUR : 2.500 pour chacune des formules 1, 2, 3 et 4. Montants doublés à l'étranger – montants non indexés.",
+      "is_optional": false,
+      "territorial_scope": "Hormis la Première assistance, qui n'est acquise qu'en Belgique, les garanties sont acquises dans le monde entier.",
+      "limits": "2.500 EUR pour chaque formule ; montants doublés à l'étranger – montants non indexés",
+      "sub_limits": [
+        {
+          "name": "Formule 1",
+          "limit": "2.500",
+          "page": 1
+        },
+        {
+          "name": "Formule 2",
+          "limit": "2.500",
+          "page": 1
+        },
+        {
+          "name": "Formule 3",
+          "limit": "2.500",
+          "page": 1
+        },
+        {
+          "name": "Formule 4",
+          "limit": "2.500",
+          "page": 1
+        },
+        {
+          "name": "Majoration à l'étranger",
+          "limit": "montants doublés à l'étranger – montants non indexés",
+          "page": 1
+        }
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Invalidité permanente (formule « Enfants »)",
+      "description": "Garantie formule « Enfants » : Invalidité permanente. Montants en EUR selon la formule : formule 1 : 50.000 ; formule 2 : 75.000 ; formule 3 : 100.000. Montants triplés à partir de 75 % d'invalidité.",
+      "is_optional": false,
+      "territorial_scope": "Hormis la Première assistance, qui n'est acquise qu'en Belgique, les garanties sont acquises dans le monde entier.",
+      "limits": "50.000 / 75.000 / 100.000 EUR selon la formule ; montants triplés à partir de 75 % d'invalidité",
+      "sub_limits": [
+        {
+          "name": "Formule 1",
+          "limit": "50.000",
+          "page": 1
+        },
+        {
+          "name": "Formule 2",
+          "limit": "75.000",
+          "page": 1
+        },
+        {
+          "name": "Formule 3",
+          "limit": "100.000",
+          "page": 1
+        },
+        {
+          "name": "Majoration à partir de 75 % d'invalidité",
+          "limit": "montants triplés à partir de 75 % d'invalidité",
+          "page": 1
+        }
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Décès (formule « Enfants »)",
+      "description": "Garantie formule « Enfants » : Décès. Montant en EUR : 6.200 pour chacune des formules 1, 2 et 3. Limité à 2.500 EUR pour enfants < 5 ans.",
+      "is_optional": false,
+      "territorial_scope": "Hormis la Première assistance, qui n'est acquise qu'en Belgique, les garanties sont acquises dans le monde entier.",
+      "limits": "6.200 EUR pour chaque formule ; limité à 2.500 EUR pour enfants < 5 ans",
+      "sub_limits": [
+        {
+          "name": "Formule 1",
+          "limit": "6.200",
+          "page": 1
+        },
+        {
+          "name": "Formule 2",
+          "limit": "6.200",
+          "page": 1
+        },
+        {
+          "name": "Formule 3",
+          "limit": "6.200",
+          "page": 1
+        },
+        {
+          "name": "Enfants < 5 ans",
+          "limit": "limité à 2.500 EUR pour enfants < 5 ans",
+          "page": 1
+        }
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Hospitalisation (formule « Enfants »)",
+      "description": "Garantie formule « Enfants » : Hospitalisation. Montants en EUR selon la formule : formule 1 : 10 ; formule 2 : 15 ; formule 3 : 20. Montants doublés à l'étranger.",
+      "is_optional": false,
+      "territorial_scope": "Hormis la Première assistance, qui n'est acquise qu'en Belgique, les garanties sont acquises dans le monde entier.",
+      "limits": "10 / 15 / 20 EUR selon la formule ; montants doublés à l'étranger",
+      "sub_limits": [
+        {
+          "name": "Formule 1",
+          "limit": "10",
+          "page": 1
+        },
+        {
+          "name": "Formule 2",
+          "limit": "15",
+          "page": 1
+        },
+        {
+          "name": "Formule 3",
+          "limit": "20",
+          "page": 1
+        },
+        {
+          "name": "Majoration à l'étranger",
+          "limit": "montants doublés à l'étranger",
+          "page": 1
+        }
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Sauvetage (formule « Enfants »)",
+      "description": "Garantie formule « Enfants » : Sauvetage. Montant en EUR : 2.500 pour chacune des formules 1, 2 et 3. Montants doublés à l'étranger – montants non indexés.",
+      "is_optional": false,
+      "territorial_scope": "Hormis la Première assistance, qui n'est acquise qu'en Belgique, les garanties sont acquises dans le monde entier.",
+      "limits": "2.500 EUR pour chaque formule ; montants doublés à l'étranger – montants non indexés",
+      "sub_limits": [
+        {
+          "name": "Formule 1",
+          "limit": "2.500",
+          "page": 1
+        },
+        {
+          "name": "Formule 2",
+          "limit": "2.500",
+          "page": 1
+        },
+        {
+          "name": "Formule 3",
+          "limit": "2.500",
+          "page": 1
+        },
+        {
+          "name": "Majoration à l'étranger",
+          "limit": "montants doublés à l'étranger – montants non indexés",
+          "page": 1
+        }
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Première assistance",
+      "description": "Garantie d'assistance : la Première assistance n'est acquise qu'en Belgique. Des exclusions spécifiques figurent en conditions générales.",
+      "is_optional": false,
+      "territorial_scope": "acquise uniquement en Belgique",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Affections allergiques",
+      "description": "Affections allergiques",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Hernies viscérales et discales, varices, lumbagos et sciatiques",
+      "description": "Hernies viscérales et discales, varices, lumbagos et sciatiques",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Accidents médicaux",
+      "description": "Accidents médicaux",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Troubles subjectifs ou psychiques sans support organique",
+      "description": "Troubles subjectifs ou psychiques sans support organique",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Maladies",
+      "description": "Maladies",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Pratique de sport à titre professionnel",
+      "description": "Pratique de sport à titre professionnel",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Sports à risque",
+      "description": "Sports suivants : parachutisme, saut à l'élastique, vol à voile et ski avec sauts en tremplin",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Pilotage d'aéronefs",
+      "description": "Pilotage d'aéronefs",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Incapacité de contrôler ses actes",
+      "description": "Incapacité de contrôler ses actes",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Ivresse ou état analogue",
+      "description": "Ivresse ou état analogue",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Pari ou défi",
+      "description": "Pari ou défi",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Manquement aux normes de prudence ou de sécurité",
+      "description": "Manquement aux normes de prudence ou de sécurité, aux lois, règles ou usages propres à l'activité sportive pratiquée",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Participation à une rixe ou à tout autre acte de violence",
+      "description": "Participation à une rixe ou à tout autre acte de violence",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Actes collectifs de violence",
+      "description": "actes collectifs de violence, mouvement populaire, émeute, sabotage, conflit de travail (le terrorisme est couvert)",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Cataclysmes de la nature survenus en Belgique",
+      "description": "Cataclysmes de la nature survenus en Belgique",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Risque nucléaire",
+      "description": "Risque nucléaire",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Fait intentionnel, suicide ou tentative de suicide",
+      "description": "Fait intentionnel, suicide ou tentative de suicide",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Assistance : exclusions spécifiques en conditions générales",
+      "description": "Assistance : exclusions spécifiques en conditions générales",
+      "applies_to": "Première assistance",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": null,
+    "per_coverage": null,
+    "page": 1
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "description": "A la conclusion du contrat : déclarer exactement toutes les circonstances qui vous sont connues et que vous devez raisonnablement considérer comme constituant pour nous des éléments d'appréciation du risque.",
+      "timing": "A la conclusion du contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "En cours de contrat : déclarer toute modification de nature à entraîner une aggravation sensible et durable du risque de survenance de l'événement assuré.",
+      "timing": "En cours de contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "En cas de sinistre : prendre toutes mesures raisonnables pour prévenir et atténuer les conséquences du sinistre.",
+      "timing": "En cas de sinistre",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "En cas de sinistre : déclarer le sinistre dès que possible, nous fournir sans retard tous renseignements utiles et répondre aux demandes qui vous sont faites pour déterminer les circonstances et fixer l'étendue de l'accident ou du sinistre.",
+      "timing": "En cas de sinistre",
+      "sanction": null,
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Prendre toutes mesures raisonnables pour prévenir et atténuer les conséquences du sinistre.",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Déclarer le sinistre.",
+      "deadline": "dès que possible",
+      "page": 2
+    },
+    {
+      "step": "Nous fournir sans retard tous renseignements utiles et répondre aux demandes qui vous sont faites pour déterminer les circonstances et fixer l'étendue de l'accident ou du sinistre.",
+      "deadline": "sans retard",
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat se souscrit pour un an. La durée, l'échéance annuelle et la date de prise d'effet de l'assurance sont indiquées dans les conditions particulières.",
+    "tacit_renewal": "Le contrat est reconductible tacitement.",
+    "methods": [
+      "Par lettre recommandée, par exploit d'huissier ou par la remise d'une lettre de résiliation avec accusé de réception."
+    ],
+    "special_rights": null,
+    "page": 2,
+    "notice_period": "Vous pouvez résilier votre contrat d'assurance au plus tard trois mois avant la date d'échéance annuelle du contrat."
+  },
+  "prescription_period": null,
+  "premium": {
+    "description": "Vous avez l'obligation de payer annuellement la prime et vous recevez pour cela une invitation à payer. Vous pouvez opter pour le fractionnement de votre prime moyennant un coût supplémentaire éventuel.",
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Seuil d'intervention / franchise / limites d'indemnisation",
+      "description": "Seuil d'intervention/franchise/limites d'indemnisation : voir conditions particulières.",
+      "page": 1
+    },
+    {
+      "name": "Déclaration inexacte et fautive",
+      "description": "Déclaration inexacte et fautive à la souscription ou en cours de contrat, ayant influencé l'évaluation du risque : si vous avez choisi une formule donnant droit à une réduction tarifaire qui ne correspond pas à votre situation.",
+      "page": 1
+    },
+    {
+      "name": "Droit de recours contre le tiers responsable",
+      "description": "Droit de recours contre le tiers responsable de l'accident, uniquement pour les frais de traitement.",
+      "page": 1
+    },
+    {
+      "name": "Non cumul des indemnités en hospitalisation",
+      "description": "Non cumul des indemnités en hospitalisation : nous déduisons toute intervention d'une autre assurance ou organisme de sécurité sociale portant sur les mêmes indemnités.",
+      "page": 1
+    },
+    {
+      "name": "Etat antérieur ou maladie préexistante",
+      "description": "Etat antérieur ou maladie préexistante : nous n'indemnisons que les suites que l'accident aurait eues en leur absence.",
+      "page": 1
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Confort Personnes (produit forfaitaire) est une assurance individuelle accidents qui vous couvre si vous êtes victime de dommages",
+      "page": 1
+    },
+    {
+      "quote": "Il s’agit d’une couverture en mode forfaitaire, qui garantit le paiement d’une indemnité fixée conformément au contrat pour les accidents",
+      "page": 1
+    },
+    {
+      "quote": "Hormis la Première assistance, qui n’est acquise qu’en Belgique, les garanties sont acquises dans le monde entier.",
+      "page": 2
+    },
+    {
+      "quote": "Vous pouvez résilier votre contrat d’assurance au plus tard trois mois avant la date d’échéance annuelle du contrat.",
+      "page": 2
+    },
+    {
+      "quote": "actes collectifs de violence, mouvement populaire, émeute, sabotage, conflit de travail (le terrorisme est couvert)",
+      "page": 1
+    }
+  ],
+  "gaps": [
+    "Document de type IPID (fiche d'information) : par nature synthétique et non exhaustif. Le document lui-même précise que « les informations qui y sont reprises ne sont pas exhaustives » et renvoie aux conditions précontractuelles et contractuelles.",
+    "Aucune section « Définitions » n'est présente dans ce document IPID (definitions[] vide).",
+    "Aucune période d'attente (waiting_periods) n'est mentionnée.",
+    "Le seuil d'intervention, la franchise et les limites d'indemnisation ne sont pas chiffrés : le document renvoie aux conditions particulières.",
+    "Le délai de prescription (prescription_period) n'est pas mentionné dans le document.",
+    "Les exclusions spécifiques de la garantie Assistance ne sont pas détaillées : le document renvoie aux conditions générales."
+  ]
+}

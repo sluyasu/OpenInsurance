@@ -1,0 +1,608 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "be",
+  "insurer_slug": "pv",
+  "insurer_name": "P&V Assurances",
+  "branch": "vie-privee",
+  "document_type": "ipid",
+  "language": "fr",
+  "source_url": "https://www.pv.be/documents/2579080/0/IPID_551_PV+Assurance+Familiale_FR010_1274+_042025.pdf/a6b102cb-4f17-dcdc-6361-47308bdd82ad?t=1743093748243",
+  "product_name": "P&V Assurance Familiale",
+  "reference": "010/1274",
+  "edition_date": "04.2025",
+  "target_audience": null,
+  "branch_code": "551",
+  "source_pages": 4,
+  "source_pdf": "pv-assurance-familiale-rc-551-f31b1f0a.pdf",
+  "source_sha256": "7d296bdb39062960590b13be119472cfddb7fd5e39378f794d6677ce5fc9fab5",
+  "fetched_at": "2026-07-05",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "P&V Assurance Familiale est une assurance de responsabilité civile vie privée et, en option, de protection juridique pour les activités de l'assuré et de son foyer dans le cadre de la vie privée. La garantie responsabilité civile protège contre les conséquences financières lorsque la responsabilité extracontractuelle - et dans certains cas contractuelle - de l'assuré est engagée pour des dommages corporels et matériels occasionnés à des tiers. La garantie optionnelle protection juridique aide l'assuré à défendre ses droits, notamment lorsqu'il réclame une indemnisation sur base extracontractuelle. Le contrat dure un an et est reconduit tacitement.",
+  "definitions": [
+    {
+      "term": "Personnes assurées",
+      "definition": "Nous assurons entre autres les personnes suivantes : Vous-même (f/h/x), votre partenaire cohabitant (f/h/x) et les autres personnes vivant habituellement à votre foyer, même lorsqu'elles séjournent temporairement ailleurs ; les personnes qui, pendant la durée du contrat, ont quitté définitivement votre foyer pour vivre dans une maison de repos ou de soins ; vos enfants mineurs et vos enfants fiscalement à votre charge, qui ne vivent pas à votre foyer (y compris les enfants vos membres de famille qui vivent à votre foyer ou qui l'ont définitivement quitté) ; les personnes suivantes que vous accueillez occasionnellement et temporairement dans votre foyer : enfants mineurs gardés par vous ; invités, réfugiés, jeunes au pair, étudiants en programme d'échange hébergés par vous ; aidants bénévoles) ou qui sont à votre service : personnel domestique, aide familiale, babysitter ou petsitter.",
+      "page": 1
+    },
+    {
+      "term": "Engins de déplacement avec moteur non-autonome",
+      "definition": "Des engins dont le moteur ne fournit qu'une assistance au pédalage.",
+      "page": 2
+    },
+    {
+      "term": "Engins de déplacement avec moteur autonome",
+      "definition": "Des engins qui se déplacement uniquement à l'aide d'une force mécanique, pour autant que leur vitesse ne dépasse pas les 25km/h et que ces engins ne pèsent pas plus de 25kg (batterie incluse), ou bien, pour autant qu'ils ne dépassent pas 6km/h, ne pèsent pas plus de 100 kg (batterie incluse), ou bien sont des engins de jardinage (tracteur-tondeuse), ou bien sont des jouets (conçus pour des enfants de moins de 14 ans), ou bien, quel que soit le poids, sont des fauteuils roulants ou des scooters de mobilité électriques avec minimum trois roues qui sont conçus pour des personnes à mobilité réduite.",
+      "page": 2
+    },
+    {
+      "term": "Insolvabilité de tiers",
+      "definition": "Le paiement de l'indemnité qu'un tribunal vous a alloué et qui engage la responsabilité extracontractuelle d'un tiers insolvable et dûment identifié.",
+      "page": 3
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Responsabilité civile extracontractuelle vie privée",
+      "description": "Nous assurons votre responsabilité civile extracontractuelle pour les dommages corporels et matériels occasionnés à des tiers dans le cadre de la vie privée, y compris vos activités de volontaire, dans un mouvement de jeunesse comme travailleur associatif.",
+      "is_optional": false,
+      "territorial_scope": "Lorsque votre résidence principale se situe en Belgique, vous êtes assuré dans le monde entier ; résidence secondaire assurée en Europe géographique.",
+      "limits": "Pour les dommages matériels : à max. 8.617.072 EUR avec une franchise de 323,14 EUR ; pour les dommages corporels : à max. 32.621.773 EUR. Ces montants évoluent selon l'indice des prix à la consommation. L'indice de base est prix à la consommation de décembre 2024.",
+      "sub_limits": [],
+      "deductible": "Franchise de 323,14 EUR pour les dommages matériels ; pas de franchise mentionnée pour les dommages corporels.",
+      "conditions": [
+        "Dans le cadre de la vie privée",
+        "Y compris vos activités de volontaire, dans un mouvement de jeunesse comme travailleur associatif"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Dommages occasionnés par la résidence principale, secondaire, jardins et logement d'étudiant",
+      "description": "Nous couvrons notamment les dommages occasionnés par votre résidence principale en Belgique, votre résidence secondaire en Europe géographique, vos jardins et terrains, le logement d'étudiant de vos enfants.",
+      "is_optional": false,
+      "territorial_scope": "Résidence principale en Belgique ; résidence secondaire en Europe géographique ; jardins et terrains en Belgique et à l'étranger (à l'étranger non attenants à un bâtiment assuré couverts jusqu'à 5 HA).",
+      "limits": null,
+      "sub_limits": [
+        "Jardins et terrains à l'étranger qui ne sont pas attenants à un bâtiment assuré sont couverts jusqu'à 5 HA"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Troubles de voisinage",
+      "description": "Des troubles de voisinage qui sont la conséquence directe d'un événement soudain, involontaire et imprévu (article 3.101 CC).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Conséquence directe d'un événement soudain, involontaire et imprévu (article 3.101 CC)"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Animaux domestiques",
+      "description": "Vos animaux domestiques, dont maximum 10 chevaux de selle.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [
+        "Maximum 10 chevaux de selle"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Engins de déplacement sans moteur",
+      "description": "Vos engins de déplacement sans moteur.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Engins de déplacement avec moteur non-autonome",
+      "description": "Vos engins de déplacement avec moteur non-autonome, c-à-d des engins dont le moteur ne fournit qu'une assistance au pédalage.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Engins de déplacement avec moteur autonome",
+      "description": "Vos engins de déplacement avec moteur autonome, c-à-d des engins qui se déplacement uniquement à l'aide d'une force mécanique, pour autant que leur vitesse ne dépasse pas les 25km/h et que ces engins : ne pèsent pas plus de 25kg (batterie incluse), ou bien, pour autant qu'ils ne dépassent pas 6km/h, ne pèsent pas plus de 100 kg (batterie incluse), ou bien sont des engins de jardinage (tracteur-tondeuse), ou bien sont des jouets (conçus pour des enfants de moins de 14 ans), ou bien, quel que soit le poids, sont des fauteuils roulants ou des scooters de mobilité électriques avec minimum trois roues qui sont conçus pour des personnes à mobilité réduite.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [
+        "Vitesse ne dépassant pas 25km/h",
+        "Poids max 25kg (batterie incluse)",
+        "Ou si vitesse ne dépasse pas 6km/h : poids max 100 kg (batterie incluse)"
+      ],
+      "deductible": null,
+      "conditions": [
+        "La vitesse ne dépasse pas 25km/h",
+        "Respect des conditions de poids/vitesse énumérées"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Fauteuils roulants automoteurs",
+      "description": "Vos fauteuils roulants automoteurs, quel que soit le poids, exclusivement destinés à être utilisés par des personnes souffrant d'un handicap physique.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Exclusivement destinés à être utilisés par des personnes souffrant d'un handicap physique"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Bateaux à voile et bateaux à moteur",
+      "description": "Vos bateaux à voile jusqu'à 300 kg et bateaux à moteur jusqu'à 8 KW en tant que propriétaire, détenteur ou utilisateur régulier. Une utilisation occasionnelle de bateaux à voile et de bateaux à moteur dont vous n'êtes pas le propriétaire ni le détenteur est couverte pendant 15 jours consécutifs, sans limite de poids et de puissance.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [
+        "Bateaux à voile jusqu'à 300 kg",
+        "Bateaux à moteur jusqu'à 8 KW",
+        "Utilisation occasionnelle (non propriétaire ni détenteur) : couverte pendant 15 jours consécutifs, sans limite de poids et de puissance"
+      ],
+      "deductible": null,
+      "conditions": [
+        "En tant que propriétaire, détenteur ou utilisateur régulier"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Aéromodèles et drones",
+      "description": "Vos aéromodèles jusqu'à 12kg au sein d'un club d'aéromodélisme et vos drones jusque 4kg en catégorie open.",
+      "is_optional": false,
+      "territorial_scope": "L'utilisation d'un aéromodèle ou d'un drone est couverte dans l'Espace Economique Européen, ainsi qu'en Suisse et au Royaume-Uni.",
+      "limits": null,
+      "sub_limits": [
+        "Aéromodèles jusqu'à 12kg au sein d'un club d'aéromodélisme",
+        "Drones jusque 4kg en catégorie open"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Aéromodèles utilisés au sein d'un club d'aéromodélisme",
+        "Drones en catégorie open"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Responsabilité civile contractuelle - biens meubles et animaux confiés",
+      "description": "Nous assurons votre responsabilité civile contractuelle pour des dommages causés aux biens meubles et animaux de tiers qui vous sont confiés pendant maximum 90 jours consécutifs.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "A max. 25.000 EUR avec la franchise indexée de 323,14 EUR pour les dommages aux biens meubles et animaux qui vous sont confiés.",
+      "sub_limits": [],
+      "deductible": "Franchise indexée de 323,14 EUR",
+      "conditions": [
+        "Pendant maximum 90 jours consécutifs"
+      ],
+      "page": 3
+    },
+    {
+      "name": "Responsabilité civile contractuelle - prêt à l'usage",
+      "description": "Nous assurons votre responsabilité civile contractuelle pour des dommages causés à des tiers, dans le cadre d'un prêt à l'usage de votre bien meuble ou un animal.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Pour les autres garanties incluses sans surprime : aux mêmes plafonds et franchise que ceux relatifs à la responsabilité extracontractuelle.",
+      "sub_limits": [],
+      "deductible": "Mêmes plafonds et franchise que la responsabilité extracontractuelle",
+      "conditions": [
+        "Dans le cadre d'un prêt à l'usage de votre bien meuble ou un animal"
+      ],
+      "page": 3
+    },
+    {
+      "name": "Responsabilité civile contractuelle - chambre d'établissement de soins ou d'hôtel",
+      "description": "Nous assurons votre responsabilité civile contractuelle pour des dommages causés à la chambre d'un établissement de soins ou d'un hôtel, où vous séjournez temporairement.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Pour les autres garanties incluses sans surprime : aux mêmes plafonds et franchise que ceux relatifs à la responsabilité extracontractuelle.",
+      "sub_limits": [],
+      "deductible": "Mêmes plafonds et franchise que la responsabilité extracontractuelle",
+      "conditions": [
+        "Où vous séjournez temporairement"
+      ],
+      "page": 3
+    },
+    {
+      "name": "Responsabilité civile contractuelle - habitation / immeuble / chapiteau / bateau utilisé temporairement",
+      "description": "Nous assurons votre responsabilité civile contractuelle pour des dommages causés à l'habitation où vous séjournez temporairement lors d'un voyage privé ou professionnel ou à l'immeuble, au chapiteau ou au bateau fixé à quai que vous utilisez temporairement à l'occasion d'une fête dans le cadre de la vie privée, pour des dommages causés par le feu, l'incendie, l'explosion, la fumée, l'eau ou le bris de vitrages. Vous pouvez couvrir les autres dommages moyennant une surprime.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Pour les autres garanties incluses sans surprime : aux mêmes plafonds et franchise que ceux relatifs à la responsabilité extracontractuelle.",
+      "sub_limits": [
+        "Couverture limitée aux dommages causés par le feu, l'incendie, l'explosion, la fumée, l'eau ou le bris de vitrages",
+        "Les autres dommages peuvent être couverts moyennant une surprime"
+      ],
+      "deductible": "Mêmes plafonds et franchise que la responsabilité extracontractuelle",
+      "conditions": [
+        "Séjour temporaire lors d'un voyage privé ou professionnel, ou utilisation temporaire à l'occasion d'une fête dans le cadre de la vie privée"
+      ],
+      "page": 3
+    },
+    {
+      "name": "Responsabilité civile contractuelle - garantie BOB (véhicule d'un tiers conduit en qualité de BOB)",
+      "description": "Nous assurons votre responsabilité civile contractuelle pour des dommages causés au véhicule d'un tiers que vous conduisez occasionnellement en votre qualité de BOB.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "A max. 25.000 EUR avec une franchise de 500 EUR pour les dommages au véhicule d'un tiers en qualité de BOB.",
+      "sub_limits": [],
+      "deductible": "Franchise de 500 EUR",
+      "conditions": [
+        "Véhicule d'un tiers que vous conduisez occasionnellement en votre qualité de BOB"
+      ],
+      "page": 3
+    },
+    {
+      "name": "Protection juridique - Recours civil contre un tiers responsable extracontractuel",
+      "description": "En option, nous assurons votre protection juridique dans le cadre de la vie privée. Nous vous assistons en cas de recours civil contre un tiers responsable extracontractuel pour les dommages corporels ou matériels que vous avez subis.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "A max. 50.000 EUR pour votre défense pénale, recours civil extracontractuel et recours en responsabilité médicale.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Nous intervenons pour autant que l'enjeu du litige soit supérieur à 500 EUR",
+        "Pour les litiges devant la Cour de cassation ou dans le cadre d'un recours en accident du travail, l'enjeu du litige doit être supérieur à 2.500 EUR"
+      ],
+      "page": 3
+    },
+    {
+      "name": "Protection juridique - Défense pénale",
+      "description": "En option, nous vous assistons en cas de défense pénale suite à un sinistre pour lequel vous pouvez invoquer la garantie responsabilité civile mentionnée ci-dessus ou en cas d'infraction au de la route en tant que piéton, cycliste ou cavalier.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "A max. 50.000 EUR pour votre défense pénale, recours civil extracontractuel et recours en responsabilité médicale. A max. 25.000 EUR pour votre caution pénale.",
+      "sub_limits": [
+        "Caution pénale : max. 25.000 EUR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Nous intervenons pour autant que l'enjeu du litige soit supérieur à 500 EUR"
+      ],
+      "page": 3
+    },
+    {
+      "name": "Protection juridique - Insolvabilité de tiers",
+      "description": "En option, nous vous assistons en cas d'insolvabilité de tiers, c.-à-d le paiement de l'indemnité qu'un tribunal vous a alloué et qui engage la responsabilité extracontractuelle d'un tiers insolvable et dûment identifié.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "A max. 15.000 EUR pour les litiges contractuels avec l'assureur responsabilité civile vie privée, l'insolvabilité de tiers et l'avance de fonds.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Tiers insolvable et dûment identifié"
+      ],
+      "page": 3
+    },
+    {
+      "name": "Protection juridique - Recours en responsabilité civile médicale",
+      "description": "En option, nous vous assistons en cas de recours relatif à l'indemnisation de votre dommage corporel que vous avez subi à la suite d'une consultation ou d'une intervention médicale en votre qualité de patient.",
+      "is_optional": true,
+      "territorial_scope": "Dans le cadre de la garantie protection juridique, votre recours en responsabilité civile médicale est valable en Europe.",
+      "limits": "A max. 50.000 EUR pour votre défense pénale, recours civil extracontractuel et recours en responsabilité médicale.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Dommage corporel subi à la suite d'une consultation ou d'une intervention médicale en votre qualité de patient"
+      ],
+      "page": 3
+    },
+    {
+      "name": "Protection juridique - Litige contractuel avec l'assureur RC vie privée",
+      "description": "En option, nous vous assistons en cas de litige relatif à l'interprétation ou à l'application des conditions générales de la garantie responsabilité civile mentionnée ci-dessus.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "A max. 15.000 EUR pour les litiges contractuels avec l'assureur responsabilité civile vie privée, l'insolvabilité de tiers et l'avance de fonds.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Protection juridique - Intervention du Fonds d'aide aux victimes d'actes intentionnels de violence",
+      "description": "En option, nous vous assistons en cas d'intervention du Fonds d'aide aux victimes d'actes intentionnels de violence, lorsqu'en raison de ces actes de violence, vous avez bénéficié de la garantie recours civil de votre protection juridique.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Lorsqu'en raison de ces actes de violence, vous avez bénéficié de la garantie recours civil de votre protection juridique"
+      ],
+      "page": 3
+    },
+    {
+      "name": "Protection juridique - Frais et honoraires d'avocat (loi Salduz, assuré mineur)",
+      "description": "Prise en charge des frais et honoraires d'un avocat, dans le cadre d'une audition d'un assuré mineur (loi Salduz).",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "A max. 500 EUR pour les frais et honoraires d'un avocat, dans le cadre d'une audition d'un assuré mineur (loi Salduz).",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Audition d'un assuré mineur (loi Salduz)"
+      ],
+      "page": 3
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Activités professionnelles",
+      "description": "Vos activités professionnelles.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dommages à vos propres biens ou aux membres du foyer",
+      "description": "Les dommages que vous causez à vos propres biens ou aux membres de votre foyer.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Mauvaise exécution ou inexécution d'une obligation contractuelle",
+      "description": "Les dommages qui découlent de la mauvaise exécution ou de l'inexécution totale ou partielle d'une obligation contractuelle, sauf ce qui est mentionné dans la rubrique « Qu'est-ce qui est assuré ? », et sauf si la faute constitue une violation du devoir général de prudence et le dommage est totalement étranger à l'exécution de l'obligation contractuelle.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Sinistres intentionnels (16 ans ou plus)",
+      "description": "Les sinistres intentionnels si vous avez 16 ans ou plus.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Faute lourde (18 ans ou plus)",
+      "description": "Les sinistres résultant des cas suivants de faute lourde lorsque vous avez 18 ans ou plus : l'état d'ivresse ou un état analogue résultant de l'utilisation de produits autres que des boissons alcoolisées et les actes de violence envers des personnes.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Frais pour prévenir des troubles de voisinage",
+      "description": "Les frais pour prévenir des troubles de voisinage (article 3.102 CC).",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Véhicules aériens",
+      "description": "Les sinistres relatifs à des véhicules aériens.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Non-respect des conditions d'exploitation de vol des aéromodèles et drones",
+      "description": "Les sinistres liés au non-respect des conditions d'exploitation de vol des aéromodèles et des drones. Ces conditions sont mentionnées aux conditions générales.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Immeubles non occupés à titre de résidence principale ou secondaire",
+      "description": "Les sinistres relatifs à des immeubles que vous n'occupez pas à titre de résidence principale ou secondaire, sauf ce qui est mentionné dans la rubrique « Qu'est-ce qui est assuré ? ».",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Guerre, terrorisme ou radioactivité",
+      "description": "La guerre, le terrorisme ou la radioactivité.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dommages causés par des animaux sauvages et du gibier",
+      "description": "Les dommages causés par des animaux sauvages et par le gibier.",
+      "applies_to": "Responsabilité civile extracontractuelle vie privée",
+      "page": 2
+    },
+    {
+      "name": "Dommages causés par un véhicule automoteur soumis à l'obligation d'assurance",
+      "description": "Les dommages causés par un véhicule automoteur soumis à l'obligation d'assurance en Belgique, sauf ce qui est mentionné dans la rubrique « Qu'est-ce qui est assuré ? ».",
+      "applies_to": "Responsabilité civile extracontractuelle vie privée",
+      "page": 2
+    },
+    {
+      "name": "Dommages causés lors d'une activité soumise à une assurance obligatoire",
+      "description": "Les dommages causés lors d'une activité soumise à une assurance obligatoire, telle que la chasse.",
+      "applies_to": "Responsabilité civile extracontractuelle vie privée",
+      "page": 2
+    },
+    {
+      "name": "Dommages matériels aux tiers causés par le feu, l'incendie, l'explosion ou la fumée",
+      "description": "Les dommages matériels aux tiers causés par le feu, l'incendie, l'explosion ou la fumée prenant naissance dans ou communiqué par vos bâtiments.",
+      "applies_to": "Responsabilité civile extracontractuelle vie privée",
+      "page": 2
+    },
+    {
+      "name": "Dommages aux moyens de transport confiés soumis à l'obligation d'assurance",
+      "description": "Les dommages aux moyens de transport qui vous sont confiés et qui sont soumis à l'obligation d'assurance en Belgique.",
+      "applies_to": "Responsabilité civile contractuelle",
+      "page": 2
+    },
+    {
+      "name": "Prêt à l'usage - dommages par véhicule automoteur, bateaux, engins aériens, animaux sauvages ou gibier",
+      "description": "Dans le cadre du prêt à l'usage, les dommages causés par un véhicule automoteur soumis à l'obligation d'assurance en Belgique, sauf ce qui est mentionné dans la rubrique « Qu'est-ce qui est assuré ? », par des bateaux, des engins aériens ou des animaux sauvages ou du gibier.",
+      "applies_to": "Responsabilité civile contractuelle - prêt à l'usage",
+      "page": 2
+    },
+    {
+      "name": "Garantie BOB - conducteur non apte à la conduite",
+      "description": "Dans le cadre de la garantie BOB, des dommages causés lorsque vous n'êtes pas apte à la conduite.",
+      "applies_to": "Responsabilité civile contractuelle - garantie BOB (véhicule d'un tiers conduit en qualité de BOB)",
+      "page": 2
+    },
+    {
+      "name": "Protection juridique - frais avant déclaration de sinistre ou sans concertation préalable",
+      "description": "Les frais et honoraires relatifs à des missions données avant que la déclaration de sinistre ait été faite ou sans concertation préalable avec nous, à moins qu'ils n'apparaissent comme ayant été imposés par une particulière urgence et nécessité.",
+      "applies_to": "Protection juridique - Recours civil contre un tiers responsable extracontractuel",
+      "page": 2
+    },
+    {
+      "name": "Protection juridique - amendes, décimes additionnels, transactions avec le Ministère Public",
+      "description": "Les amendes, les décimes additionnels et les transactions avec le Ministère Public, de même que les sommes en principal et accessoires que vous pourriez être condamné à payer.",
+      "applies_to": "Protection juridique - Recours civil contre un tiers responsable extracontractuel",
+      "page": 2
+    },
+    {
+      "name": "Protection juridique - tribunaux internationaux/supranationaux, Cour Constitutionnelle, crimes",
+      "description": "Les sinistres qui relèvent de la compétence des tribunaux internationaux ou supranationaux ou de la Cour Constitutionnelle, les crimes ou crimes correctionnalisés.",
+      "applies_to": "Protection juridique - Recours civil contre un tiers responsable extracontractuel",
+      "page": 2
+    },
+    {
+      "name": "Protection juridique - recours civil pour dommages immatériels purs",
+      "description": "Votre recours civil pour revendiquer l'indemnisation de dommages immatériels purs, sauf pour le dommage moral.",
+      "applies_to": "Protection juridique - Recours civil contre un tiers responsable extracontractuel",
+      "page": 2
+    },
+    {
+      "name": "Protection juridique - insolvabilité de tiers avec acte intentionnel",
+      "description": "L'insolvabilité de tiers lorsque le tiers responsable a commis un acte intentionnel.",
+      "applies_to": "Protection juridique - Insolvabilité de tiers",
+      "page": 2
+    },
+    {
+      "name": "Protection juridique - dommages corporels comme patient d'une chirurgie esthétique",
+      "description": "Votre demande d'indemnisation pour vos dommages corporels subis en tant que patient d'une chirurgie esthétique.",
+      "applies_to": "Protection juridique - Recours en responsabilité civile médicale",
+      "page": 2
+    },
+    {
+      "name": "Protection juridique - propriétés immobilières autres que la résidence principale ou secondaire",
+      "description": "Les sinistres en relation avec des propriétés immobilières autres que votre (future) résidence principale ou secondaire.",
+      "applies_to": "Protection juridique - Recours civil contre un tiers responsable extracontractuel",
+      "page": 2
+    }
+  ],
+  "deductibles": {
+    "standard": "Franchise de 323,14 EUR pour les dommages matériels en responsabilité civile extracontractuelle (montant indexé, indice de base : prix à la consommation de décembre 2024).",
+    "variable": "Franchise indexée de 323,14 EUR pour les dommages aux biens meubles et animaux confiés (RC contractuelle) ; franchise de 500 EUR pour les dommages au véhicule d'un tiers en qualité de BOB.",
+    "per_coverage": "RC extracontractuelle dommages matériels : franchise 323,14 EUR (pas de franchise pour dommages corporels). RC contractuelle biens/animaux confiés : franchise indexée 323,14 EUR. RC contractuelle BOB : franchise 500 EUR. Autres garanties incluses sans surprime : mêmes plafonds et franchise que la responsabilité extracontractuelle.",
+    "page": 3
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "description": "Au début du contrat : Vous devez nous communiquer des informations honnêtes, précises et complètes concernant le risque à assurer.",
+      "timing": "Au début du contrat",
+      "sanction": null
+    },
+    {
+      "description": "Pendant la durée du contrat : Vous devez nous informer de toutes circonstances qui aggravent ou modifient le risque d'une façon sensible et durable.",
+      "timing": "Pendant la durée du contrat",
+      "sanction": null
+    },
+    {
+      "description": "Pendant la durée du contrat : Vous devez prendre les mesures nécessaires pour éviter qu'un sinistre se produise.",
+      "timing": "Pendant la durée du contrat",
+      "sanction": null
+    },
+    {
+      "description": "En cas de sinistre : Vous devez prendre toutes les mesures raisonnables pour limiter les conséquences du sinistre.",
+      "timing": "En cas de sinistre",
+      "sanction": null
+    },
+    {
+      "description": "En cas de sinistre : Vous vous engagez à nous le déclarer dès que possible, à nous fournir tous les renseignements utiles et à répondre à toutes nos demandes pour déterminer les circonstances et l'étendue du sinistre.",
+      "timing": "En cas de sinistre (dès que possible)",
+      "sanction": null
+    },
+    {
+      "description": "En cas de sinistre : Vous devez vous abstenir de reconnaître votre responsabilité.",
+      "timing": "En cas de sinistre",
+      "sanction": null
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Prendre toutes les mesures raisonnables pour limiter les conséquences du sinistre.",
+      "deadline": null
+    },
+    {
+      "step": "Déclarer le sinistre à l'assureur, fournir tous les renseignements utiles et répondre à toutes les demandes pour déterminer les circonstances et l'étendue du sinistre.",
+      "deadline": "Dès que possible"
+    },
+    {
+      "step": "S'abstenir de reconnaître sa responsabilité.",
+      "deadline": null
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat dure un an. La date de début et la durée de l'assurance sont indiquées dans les conditions particulières du contrat.",
+    "tacit_renewal": "Le contrat est reconduit tacitement.",
+    "methods": [
+      "L'annulation du contrat doit se faire par envoi recommandé, par exploit d'huissier ou par la remise d'une lettre de résiliation avec accusé de réception."
+    ],
+    "special_rights": null,
+    "notice_period": "Vous pouvez résilier votre contrat d'assurance au plus tard deux mois avant la date d'échéance annuelle du contrat."
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "Vous avez l'obligation de payer annuellement la prime et vous recevez pour cela une invitation à payer. Une prime fractionnée est possible moyennant certaines conditions et des coûts supplémentaires éventuels."
+    ]
+  },
+  "special_conditions": [
+    {
+      "description": "Si vous déménagez à l'étranger, la garantie reste encore acquise pendant 60 jours.",
+      "page": 4
+    },
+    {
+      "description": "Les montants d'intervention en responsabilité civile extracontractuelle (8.617.072 EUR pour les dommages matériels et 32.621.773 EUR pour les dommages corporels) et la franchise (323,14 EUR) évoluent selon l'indice des prix à la consommation. L'indice de base est prix à la consommation de décembre 2024.",
+      "page": 3
+    },
+    {
+      "description": "Vous pouvez couvrir les autres dommages (au-delà du feu, incendie, explosion, fumée, eau ou bris de vitrages) causés à une habitation/immeuble/chapiteau/bateau utilisé temporairement moyennant une surprime.",
+      "page": 3
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "P&V Assurance Familiale est une assurance de responsabilité civile et, en option, de protection juridique pour vos activités et celles de votre foyer dans le cadre de la vie privée.",
+      "page": 1
+    },
+    {
+      "quote": "Nous assurons votre responsabilité civile extracontractuelle pour les dommages corporels et matériels occasionnés à des tiers dans le cadre de la vie privée, y compris vos activités de volontaire, dans un mouvement de jeunesse comme travailleur associatif.",
+      "page": 2
+    },
+    {
+      "quote": "Pour les dommages matériels :  à max. 8.617.072 EUR avec une franchise de 323,14 EUR ;",
+      "page": 3
+    },
+    {
+      "quote": "Les sinistres intentionnels si vous avez 16 ans ou plus ;",
+      "page": 1
+    },
+    {
+      "quote": "La guerre, le terrorisme ou la radioactivité.",
+      "page": 1
+    },
+    {
+      "quote": "Le contrat dure un an et est reconduit tacitement.",
+      "page": 4
+    }
+  ],
+  "gaps": [
+    "Le document est un IPID (document d'information sur le produit d'assurance) qui n'est pas exhaustif ; il renvoie aux conditions précontractuelles et contractuelles pour les informations complètes (disclaimer page 1).",
+    "Aucun délai de prescription (prescription_period) n'est mentionné dans le document.",
+    "Aucun délai précis de déclaration de sinistre n'est indiqué ('dès que possible' uniquement) ; aucune sanction en cas de manquement aux obligations n'est stipulée.",
+    "Aucun délai d'attente (waiting period) n'est mentionné.",
+    "La couverture de la responsabilité civile contractuelle apparaît sous deux intitulés de limitation identiques page 3 (« En responsabilité civile contractuelle, nous limitons notre intervention par sinistre »), le second bloc concernant en réalité les plafonds de la protection juridique (défense pénale, caution pénale, litiges contractuels, loi Salduz) tel que reproduit dans le texte source."
+  ],
+  "superseded": null
+}

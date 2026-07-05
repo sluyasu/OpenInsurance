@@ -1,0 +1,370 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "be",
+  "insurer_slug": "kbc",
+  "insurer_name": "KBC Bank & Verzekering",
+  "product_name": "Police KBC pour vos voyages",
+  "branch": "voyage",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": "particuliers",
+  "reference": null,
+  "edition_date": null,
+  "product_family": "Police KBC pour vos voyages",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://multimediafiles.kbcgroup.eu/ng/published/KBC/PDF/VERZEKERINGEN/reisverzekering/kbc-police-pour-vos-voyages-informations.pdf",
+  "source_pdf": "police-kbc-pour-vos-voyages-42492a07.pdf",
+  "source_sha256": "453c5e1909e9f4587fa77c3835f9209fb9978dce30a6f774cc1eff7b42b4d7e0",
+  "source_pages": 3,
+  "fetched_at": "2026-07-05",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "La Police KBC pour vos voyages est une assurance voyage qui couvre, toute l'année durant, les problèmes survenus pendant les vacances ainsi que l'annulation forcée d'un voyage. Elle regroupe plusieurs assurances au choix (Assistance personnes, Annulation, Bagages, Accidents en voyage avec protection supplémentaire, Litiges dans le cadre de voyages) et permet d'assurer librement jusqu'à 10 personnes. Une formule VIP permet de doubler les montants assurés.",
+  "definitions": [
+    {
+      "term": "Voyage",
+      "definition": "Nous entendons par voyage, tout déplacement en Belgique ou à l'étranger à l'occasion de quoi une nuitée au moins a été réservée ou dont vous pouvez démontrer, au moyen d'un titre de transport aller et retour, qu'il s'agit d'un séjour de deux jours consécutifs au moins.",
+      "page": 2
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Assurance Assistance personnes",
+      "description": "Cette assurance couvre principalement les problèmes de santé survenus en voyage : maladie, accident... et les désagréments qu'ils entraînent (hospitalisation, rapatriement, prolongation forcée du séjour, arrivée de membres de la famille, aide urgente...). Nous remboursons les frais médicaux à l'étranger jusqu'à 500 000 euros par personne.",
+      "is_optional": true,
+      "territorial_scope": "Le monde entier",
+      "limits": "Frais médicaux à l'étranger jusqu'à 500 000 euros par personne",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "L'assurance Assistance personnes vous couvre pendant les quatre premiers mois du séjour à l'étranger. Une extension peut être souscrite à titre individuel."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assurance Annulation",
+      "description": "Les événements ci-dessous sont considérés comme des motifs valables d'annulation ou de retour anticipé : Raisons de santé : maladie, accident, décès...; Études et emploi : examen de passage, licenciement...; Obligations citoyennes et formalités de voyage; Départ de l'avion, du bateau ou du train raté. Une limite d'indemnisation de 12 500 euros est appliquée par voyage, pour l'ensemble des personnes assurées et pour l'ensemble des dépenses.",
+      "is_optional": true,
+      "territorial_scope": "Le monde entier",
+      "limits": "Une limite d'indemnisation de 12 500 euros est appliquée par voyage, pour l'ensemble des personnes assurées et pour l'ensemble des dépenses.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "L'assurance Annulation doit être souscrite un mois au moins avant la date du départ.",
+        "Les autres assurances (hors Assistance personnes) n'interviennent pas dans le cas de voyages de plus de quatre mois."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assurance Bagages",
+      "description": "Nous assurons, jusqu'à 1 500 euros par personne assurée, vos bagages ainsi que les objets que vous louez ou que vous pouvez utiliser gratuitement en voyage, dans les cas suivants : Vol avec violence, menace ou effraction dans un véhicule, dans votre résidence ou sur votre personne; Détérioration ou destruction par un événement soudain et inattendu, comme une collision; Non-livraison des bagages, ou livraison des bagages endommagés, par l'entreprise de transport.",
+      "is_optional": true,
+      "territorial_scope": "Le monde entier",
+      "limits": "Jusqu'à 1 500 euros par personne assurée",
+      "sub_limits": [],
+      "deductible": "L'indemnité payée au titre de l'assurance Bagages est diminuée d'une franchise de 100 euros par sinistre.",
+      "conditions": [
+        "Les autres assurances (hors Assistance personnes) n'interviennent pas dans le cas de voyages de plus de quatre mois."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assurance accidents en voyage avec protection supplémentaire",
+      "description": "Si vous êtes victime d'un accident en voyage, nous payons : Une indemnité pour l'invalidité permanente; Une indemnité décès. En cas d'invalidité permanente, l'indemnité est limitée à 100 000 euros. L'indemnité décès est fixée à 10 000 euros. Nous remboursons également les frais de funérailles réellement engagés, jusqu'à 10 000 euros.",
+      "is_optional": true,
+      "territorial_scope": "Le monde entier",
+      "limits": "Invalidité permanente : indemnité limitée à 100 000 euros; indemnité décès fixée à 10 000 euros; frais de funérailles réellement engagés jusqu'à 10 000 euros",
+      "sub_limits": [
+        "Invalidité permanente : indemnité limitée à 100 000 euros",
+        "Indemnité décès : 10 000 euros",
+        "Frais de funérailles réellement engagés : jusqu'à 10 000 euros"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les autres assurances (hors Assistance personnes) n'interviennent pas dans le cas de voyages de plus de quatre mois."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Assurance Litiges dans le cadre de voyages",
+      "description": "Litiges avec des organisateurs de voyages, des bailleurs, des réparateurs ou d'autres prestataires de services; Problèmes avec la police et les autorités à l'étranger. Si vous faites appel à notre protection juridique, nous tenterons dans la mesure du possible d'obtenir un règlement amiable. Nous vous assistons dans la procédure devant le tribunal, mais pas seulement (devant la Commission des litiges voyages également, par exemple). Les frais sont assurés jusqu'à 50 000 euros par sinistre, pour l'ensemble des assurés (ce montant ne comprend pas nos propres frais de gestion).",
+      "is_optional": true,
+      "territorial_scope": "Les litiges avec les organisateurs de voyages, bailleurs, réparateurs et autres prestataires sont assurés pour les contrats conclus dans n'importe quel pays de l'Union européenne et de l'Europe géographique. En dehors de ces pays, nous n'intervenons que si la partie adverse peut être citée à comparaître devant un tribunal belge.",
+      "limits": "Les frais sont assurés jusqu'à 50 000 euros par sinistre, pour l'ensemble des assurés (ce montant ne comprend pas nos propres frais de gestion).",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "L'assurance Litiges dans le cadre de voyages ne peut être souscrite qu'en complément à une autre assurance - elle ne peut en d'autres termes être souscrite seule.",
+        "Les autres assurances (hors Assistance personnes) n'interviennent pas dans le cas de voyages de plus de quatre mois."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Formule VIP",
+      "description": "Si vous souhaitez assurer des montants plus élevés, optez pour la formule VIP, qui multiplie les montants assurés par deux.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "Multiplie les montants assurés par deux",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Complications de grossesse après le sixième mois et factures d'accouchement",
+      "description": "Les complications de grossesse après le sixième mois et les factures d'accouchement.",
+      "applies_to": "Assurance Assistance personnes",
+      "page": 1
+    },
+    {
+      "name": "Complications ou aggravations d'une maladie existante (traitement non suivi)",
+      "description": "Les complications ou aggravations d'une maladie existante, si vous n'avez pas suivi le traitement prescrit.",
+      "applies_to": "Assurance Assistance personnes",
+      "page": 1
+    },
+    {
+      "name": "Pratique rémunérée ou lucrative d'un sport",
+      "description": "La pratique rémunérée ou lucrative d'un sport, et les entraînements correspondants.",
+      "applies_to": "Assurance Assistance personnes",
+      "page": 1
+    },
+    {
+      "name": "Participation à des activités outdoor extrêmes",
+      "description": "La participation à des activités outdoor extrêmes.",
+      "applies_to": "Assurance Assistance personnes",
+      "page": 1
+    },
+    {
+      "name": "Voyages débutés avant la souscription de l'assurance",
+      "description": "Les voyages qui ont débuté avant la souscription de l'assurance.",
+      "applies_to": "Assurance Assistance personnes",
+      "page": 1
+    },
+    {
+      "name": "Événements connus au moment de la réservation ou de la souscription",
+      "description": "Les événements que vous connaissiez lorsque vous avez réservé le voyage ou souscrit cette assurance, avec un degré de certitude tel que l'annulation ne pouvait être considérée comme inattendue.",
+      "applies_to": "Assurance Annulation",
+      "page": 1
+    },
+    {
+      "name": "Complications ou aggravations d'une maladie existante connue (évolution normale)",
+      "description": "Les complications ou aggravations d'une maladie existante qui peuvent être considérées comme une évolution normale de celle-ci et qui étaient connues au moment où le voyage a été réservé.",
+      "applies_to": "Assurance Annulation",
+      "page": 1
+    },
+    {
+      "name": "Dommages au bien dus au seul fait de l'utilisation",
+      "description": "Les dommages au bien proprement dit dus au seul fait que vous l'utilisez.",
+      "applies_to": "Assurance Bagages",
+      "page": 1
+    },
+    {
+      "name": "Dommages par suite d'entretien, traitement ou réparation",
+      "description": "Les dommages au bien par suite de son entretien, son traitement ou sa réparation.",
+      "applies_to": "Assurance Bagages",
+      "page": 1
+    },
+    {
+      "name": "Dommages causés intentionnellement",
+      "description": "Les dommages que vous avez causés intentionnellement.",
+      "applies_to": "Assurance Bagages",
+      "page": 1
+    },
+    {
+      "name": "Pratique rémunérée ou lucrative d'un sport (Bagages)",
+      "description": "La pratique rémunérée ou lucrative d'un sport, et les entraînements correspondants.",
+      "applies_to": "Assurance Bagages",
+      "page": 1
+    },
+    {
+      "name": "Voyages débutés avant la souscription de l'assurance (Bagages)",
+      "description": "Les voyages qui ont débuté avant la souscription de l'assurance.",
+      "applies_to": "Assurance Bagages",
+      "page": 1
+    },
+    {
+      "name": "Accidents pendant des activités outdoor extrêmes",
+      "description": "Les accidents survenus pendant la participation à des activités outdoor extrêmes (base-jump, héliski, plongée en épaves, etc.).",
+      "applies_to": "Assurance accidents en voyage avec protection supplémentaire",
+      "page": 2
+    },
+    {
+      "name": "Pratique rémunérée ou lucrative d'un sport (Accidents)",
+      "description": "La pratique rémunérée ou lucrative d'un sport, et les entraînements correspondants.",
+      "applies_to": "Assurance accidents en voyage avec protection supplémentaire",
+      "page": 2
+    },
+    {
+      "name": "Voyages débutés avant la souscription de l'assurance (Accidents)",
+      "description": "Les voyages qui ont débuté avant la souscription de l'assurance.",
+      "applies_to": "Assurance accidents en voyage avec protection supplémentaire",
+      "page": 2
+    },
+    {
+      "name": "Litiges entre personnes assurées",
+      "description": "Les litiges entre personnes assurées.",
+      "applies_to": "Assurance Litiges dans le cadre de voyages",
+      "page": 2
+    },
+    {
+      "name": "Voyages médicaux et traitements médicaux prévus à l'étranger",
+      "description": "Les voyages médicaux et les traitements médicaux prévus à l'étranger, ainsi que le suivi du traitement ou les complications éventuelles en Belgique.",
+      "applies_to": "Assurance Litiges dans le cadre de voyages",
+      "page": 2
+    },
+    {
+      "name": "Time-sharing",
+      "description": "Le time-sharing.",
+      "applies_to": "Assurance Litiges dans le cadre de voyages",
+      "page": 2
+    },
+    {
+      "name": "Voyages débutés avant la souscription de l'assurance (Litiges)",
+      "description": "Les voyages qui ont débuté avant la souscription de l'assurance.",
+      "applies_to": "Assurance Litiges dans le cadre de voyages",
+      "page": 2
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": null,
+    "per_coverage": {
+      "Assurance Bagages": "L'indemnité payée au titre de l'assurance Bagages est diminuée d'une franchise de 100 euros par sinistre."
+    },
+    "page": 2
+  },
+  "waiting_periods": [
+    {
+      "coverage": "Assurance Annulation",
+      "duration": "Un mois au moins avant la date du départ",
+      "description": "L'assurance Annulation doit être souscrite un mois au moins avant la date du départ.",
+      "page": 2
+    }
+  ],
+  "obligations": [
+    {
+      "name": "Communication d'information à la souscription",
+      "description": "A la souscription du contrat, vous êtes tenu(e) de nous communiquer une information honnête, précise et complète à propos du risque à assurer.",
+      "timing": "A la souscription du contrat",
+      "sanction": null,
+      "page": 3
+    },
+    {
+      "name": "Déclaration de l'aggravation du risque",
+      "description": "Si le risque pour lequel vous êtes assuré(e) vient à changer en cours de contrat, vous êtes tenu(e) de nous en avertir.",
+      "timing": "En cours de contrat",
+      "sanction": null,
+      "page": 3
+    },
+    {
+      "name": "Mesures de précaution",
+      "description": "Il vous incombe d'appliquer toutes les mesures de précaution arrêtées pour éviter les sinistres.",
+      "timing": "En cours de contrat",
+      "sanction": null,
+      "page": 3
+    },
+    {
+      "name": "Déclaration du sinistre et limitation des conséquences",
+      "description": "Tout sinistre doit être déclaré dans les délais prévus dans les conditions générales, et toutes les mesures raisonnables visant à en limiter les conséquences doivent être prises.",
+      "timing": "En cas de sinistre",
+      "sanction": null,
+      "page": 3
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclaration du sinistre",
+      "description": "Tout sinistre doit être déclaré dans les délais prévus dans les conditions générales, et toutes les mesures raisonnables visant à en limiter les conséquences doivent être prises.",
+      "deadline": "Dans les délais prévus dans les conditions générales",
+      "page": 3
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat est conclu pour une période d'un an, tacitement reconductible pour des périodes successives d'un an, sauf si une des parties s'y oppose de la manière précisée dans les conditions générales.",
+    "tacit_renewal": true,
+    "notice_period": "Nous pouvons nous opposer à la reconduction jusqu'à trois mois avant l'échéance. Vous pouvez le faire jusqu'à deux mois avant l'échéance.",
+    "methods": [
+      "Envoi recommandé",
+      "Exploit d'huissier",
+      "Remise de la lettre de résiliation contre récépissé"
+    ],
+    "special_rights": [
+      "À partir de la deuxième année d'assurance, les consommateurs peuvent résilier le contrat à tout moment. Le consommateur peut résilier le contrat d'assurance à tout moment par ces mêmes canaux à partir de la deuxième année d'assurance, avec effet à l'expiration d'un délai de deux mois à compter du lendemain de la présentation de l'envoi recommandé, de la signification ou de la date du récépissé."
+    ],
+    "page": 3
+  },
+  "prescription_period": {
+    "description": null,
+    "page": null
+  },
+  "premium": {
+    "notes": [
+      "Vous avez l'obligation de vous acquitter chaque année de la prime; une invitation à payer vous sera adressée à cet effet.",
+      "La prime peut être acquittée d'une manière fractionnée, sous certaines conditions et moyennant, éventuellement, surcoût.",
+      "La prime s'entend commission de l'intermédiaire comprise."
+    ],
+    "indexation": null,
+    "page": 3
+  },
+  "special_conditions": [
+    {
+      "name": "Nombre de personnes assurées",
+      "description": "Choisissez les assurances qui vous agréent au sein de cette police. Désignez librement les personnes à assurer (maximum 10).",
+      "page": 1
+    },
+    {
+      "name": "Durée de couverture à l'étranger",
+      "description": "L'assurance Assistance personnes vous couvre pendant les quatre premiers mois du séjour à l'étranger. Les autres assurances n'interviennent pas dans le cas de voyages de plus de quatre mois. Une extension peut être souscrite à titre individuel.",
+      "page": 2
+    },
+    {
+      "name": "Prise d'effet de la couverture",
+      "description": "L'assurance prend effet à la date renseignée dans les conditions particulières, à condition que la police soit signée et que la première prime ait été acquittée.",
+      "page": 3
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Cette assurance vous propose, toute l'année durant, une solution en cas de problèmes\nsurvenus pendant vos vacances, de même qu'en cas d'annulation forcée d'un voyage.",
+      "context": "Type d'assurance",
+      "page": 1
+    },
+    {
+      "quote": "Nous remboursons les frais médicaux à\nl'étranger jusqu'à 500 000 euros par\npersonne.",
+      "context": "Assurance Assistance personnes - limite frais médicaux",
+      "page": 1
+    },
+    {
+      "quote": "Une limite d'indemnisation de 12 500 euros\nest appliquée par voyage, pour l'ensemble\ndes personnes assurées et pour l'ensemble\ndes dépenses.",
+      "context": "Assurance Annulation - limite d'indemnisation",
+      "page": 1
+    },
+    {
+      "quote": "L'indemnité payée au titre de l'assurance Bagages est diminuée d'une franchise de 100\neuros par sinistre.",
+      "context": "Franchise Bagages",
+      "page": 2
+    },
+    {
+      "quote": "Nous entendons par voyage, tout déplacement en Belgique ou à l'étranger à l'occasion de\nquoi une nuitée au moins a été réservée ou dont vous pouvez démontrer, au moyen d'un\ntitre de transport aller et retour, qu'il s'agit d'un séjour de deux jours consécutifs au\nmoins.",
+      "context": "Définition du voyage",
+      "page": 2
+    },
+    {
+      "quote": "L'assurance Litiges dans le cadre de voyages ne peut être souscrite qu'en complément à\nune autre assurance - elle ne peut en d'autres termes être souscrite seule.",
+      "context": "Condition de souscription Litiges",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "Le document est un IPID (fiche d'information produit) qui indique lui-même ne pas être exhaustif : « l'information qu'il contient n'est pas exhaustive » ; les montants, définitions et conditions détaillées figurent dans l'information précontractuelle et les conditions générales/particulières non fournies ici.",
+    "Aucune date d'édition (edition_date) n'est imprimée sur le document.",
+    "Aucun délai de prescription n'est mentionné dans le document.",
+    "Le caractère optionnel (is_optional) des garanties est déduit de la mention « Choisissez les assurances qui vous agréent au sein de cette police » ; le document ne précise pas garantie par garantie ce qui est inclus par défaut ou optionnel."
+  ]
+}

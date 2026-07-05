@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openinsurance-wiki/schema/regulation.schema.json",
+  "title": "Regulation page frontmatter (hand-authored)",
+  "description": "YAML frontmatter contract for wiki/<cc>/regulations/<Title>.md — a regulator or a law relevant to insurance.",
+  "type": "object",
+  "required": ["type", "domain", "country", "title", "status"],
+  "properties": {
+    "type": { "const": "regulation" },
+    "domain": { "const": "insurance" },
+    "country": { "type": "string" },
+    "title": { "type": "string" },
+    "regulator": { "type": ["string", "null"] },
+    "scope": { "type": "array", "items": { "type": "string" }, "description": "Branch slugs this touches." },
+    "jurisdiction": { "type": ["string", "null"] },
+    "legal_citation": { "type": ["string", "null"] },
+    "official_url": { "type": ["string", "null"], "description": "Link to the official text (Moniteur/regulator)." },
+    "in_force_since": { "type": ["string", "null"] },
+    "lang": { "type": "string" },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "aliases": { "type": "array", "items": { "type": "string" } },
+    "date": { "type": "string" },
+    "freshness": { "type": "string" },
+    "status": { "type": "string", "enum": ["stub", "draft", "ready"] },
+    "generated": { "const": false }
+  }
+}

@@ -1,0 +1,551 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "be",
+  "insurer_slug": "dkv",
+  "insurer_name": "DKV Belgium",
+  "branch": "sante",
+  "document_type": "ipid",
+  "language": "fr",
+  "source_url": "https://biblio.dkv.be/pdfbib.ashx?lang=fr&id=31175",
+  "product_name": "DKV HOSPI Premium +",
+  "reference": "31 175_FR_4_202508",
+  "edition_date": "202508",
+  "target_audience": "Toute personne physique n'ayant pas atteint l'âge de 70 ans à la conclusion du contrat d'assurance, ayant son lieu de résidence et sa résidence principale en Belgique, étant assujetti à la sécurité sociale belge et en bénéficiant.",
+  "branch_code": "739",
+  "product_family": "DKV HOSPI Premium",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_pages": 3,
+  "source_pdf": "dkv-hospi-premium-83f6c814.pdf",
+  "source_sha256": "477517df064a0a46f2a0499908e9c64d42731aca409f6283d69ffa311244056f",
+  "fetched_at": "2026-07-05",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "DKV HOSPI Premium + est une assurance hospitalisation individuelle à caractère indemnitaire, complémentaire à l'intervention de l'assurance maladie légale/statutaire belge, assortie d'une assurance assistance à l'étranger (DKV ASSISTANCE). Elle rembourse les frais réels supportés (tickets modérateurs et suppléments inclus) en cas de maladie, d'accident ou d'accouchement, avec libre choix de l'hôpital, du type de chambre (à l'exception d'une chambre de luxe ou suite) et du prestataire de soins reconnu. Elle couvre les soins ambulatoires pré (60 jours avant) et post (180 jours après) hospitalisation, ainsi que les soins ambulatoires liés à 33 « Maladies Graves ». Elle peut être souscrite par toute personne physique ayant son lieu de résidence et sa résidence principale en Belgique.",
+  "definitions": [
+    {
+      "term": "Pré et post",
+      "definition": "Frais médicaux des soins ambulatoires, y compris les soins post-natals et les traitements alternatifs (homéopathie, acupuncture, ostéopathie, chiropractie), 60 jours avant et 180 jours après une hospitalisation couverte.",
+      "page": 1
+    },
+    {
+      "term": "\"Maladie Graves\" (MG)",
+      "definition": "Les frais médicaux des soins ambulatoires, y compris les traitements alternatifs (homéopathie, acupuncture, ostéopathie, chiropractie) de 33 maladies (par exemple le cancer, le diabète, la maladie d'Alzheimer, la sclérose en plaques, etc.).",
+      "page": 1
+    },
+    {
+      "term": "Frais de confort non-médicaux",
+      "definition": "Frais de confort non-médicaux (par exemple, téléphone, repas et boissons, réfrigérateur, wifi, etc.) d'une hospitalisation.",
+      "page": 1
+    },
+    {
+      "term": "Frais de soins non-médicaux (MG)",
+      "definition": "Les frais de soins non-médicaux (soins corporels quotidiens, aide-ménagère, garde d'enfants ou d'animaux) pendant la période post-hospitalière d'une hospitalisation couverte avec nuitée pour une « Maladie grave » (MG).",
+      "page": 2
+    },
+    {
+      "term": "Medi-Card®",
+      "definition": "Mode de paiement Medi-Card® : paiement direct de la facture d'hospitalisation à l'hôpital.",
+      "page": 2
+    },
+    {
+      "term": "AssurPharma",
+      "definition": "Envoi automatisé à DKV des attestations par un pharmacien reconnu.",
+      "page": 2
+    },
+    {
+      "term": "DKV ASSISTANCE",
+      "definition": "Garantie « Assistance à l'étranger » DKV ASSISTANCE : assistance à l'étranger y compris rapatriement en cas d'accident/maladie et de décès, remboursement des frais médicaux d'une hospitalisation urgente et non-planifiée à l'étranger, et retour des autres assurés et des enfants mineurs en cas d'hospitalisation d'une personne assurée.",
+      "page": 2
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Libre choix de l'hôpital, du type de chambre et du prestataire de soins",
+      "description": "Libre choix de l'hôpital, du type de chambre à l'exception d'une chambre de luxe ou une suite, et du prestataire de soins reconnu.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Frais d'hospitalisation",
+      "description": "Remboursement des frais réels supportés (tickets modérateurs et suppléments inclus) : frais d'hospitalisation (salle de plâtre et l'extraction dentaire chirurgicale sous anesthésie générale incluses) en cas de maladie, d'accident ou d'accouchement.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Frais réels supportés (tickets modérateurs et suppléments inclus)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Frais de séjour",
+      "description": "Frais de séjour, y compris le logement d'un des parents assurés dans la même chambre que l'enfant hospitalisé.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Frais de traitement médical et paramédical",
+      "description": "Frais de traitement médical et paramédical (kinésithérapeutes, infirmières, sage-femmes, podologues et logopèdes).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Le remboursement des frais de logopédie est soumis à une autorisation préalable et à un remboursement par l'assurance obligatoire soins de santé et indemnités."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Frais de médicaments, pansements et matériel médical",
+      "description": "Frais de médicaments, pansements et matériel médical.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [
+        "Remboursement à 80% des médicaments, pansements et matériel médical en pré-post et \"MG\""
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Frais de dispositifs médicaux, de prothèses et de membres artificiels",
+      "description": "Frais de dispositifs médicaux, de prothèses et de membres artificiels.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Le remboursement de la location ou de l'achat de dispositifs médicaux est soumis à l'approbation préalable de DKV, à l'exception des verres de lunettes ou des lentilles de contact, des appareils auditifs entièrement non-implantables, des bandages pour hernies, des bas à varices, des semelles orthopédiques, des coquilles plâtrées, des lombostats, des attelles et des béquilles."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Frais de transport en Belgique en cas d'hospitalisation",
+      "description": "Frais de transport en Belgique en cas d'hospitalisation : en ambulance ou en hélicoptère vers et depuis l'hôpital, ainsi que le transfert vers un autre hôpital.",
+      "is_optional": false,
+      "territorial_scope": "Belgique",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Frais de confort non-médicaux",
+      "description": "Les frais de confort non-médicaux (par exemple, téléphone, repas et boissons, réfrigérateur, wifi, etc.) d'une hospitalisation.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Plafond de remboursement par personne assurée et par année d'assurance jusqu'à € 250",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Pré et post (soins ambulatoires)",
+      "description": "Pré et post : frais médicaux des soins ambulatoires, y compris les soins post-natals et les traitements alternatifs (homéopathie, acupuncture, ostéopathie, chiropractie), 60 jours avant et 180 jours après une hospitalisation couverte.",
+      "is_optional": false,
+      "territorial_scope": "Belgique (consultations et/ou traitements ambulatoires dans la période pré- et post-hospitalière)",
+      "limits": null,
+      "sub_limits": [
+        "Remboursement à 80% des médicaments, pansements et matériel médical en pré-post",
+        "Remboursement réduit de 50 % pour pré et post si l'assurance maladie légale n'intervient pas",
+        "Soins post-natals après un accouchement (à domicile) jusqu'à € 500"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "\"Maladies Graves\" (MG) - frais médicaux des soins ambulatoires",
+      "description": "« Maladie Graves » (MG) : les frais médicaux des soins ambulatoires, y compris les traitements alternatifs (homéopathie, acupuncture, ostéopathie, chiropractie) de 33 maladies (par exemple le cancer, le diabète, la maladie d'Alzheimer, la sclérose en plaques, etc.).",
+      "is_optional": false,
+      "territorial_scope": "Belgique",
+      "limits": null,
+      "sub_limits": [
+        "Remboursement à 80% des médicaments, pansements et matériel médical en \"MG\"",
+        "Remboursement réduit de 50 % pour \"MG\" si l'assurance maladie légale n'intervient pas"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Frais de soins non-médicaux liés à une \"Maladie grave\" (MG)",
+      "description": "Les frais de soins non-médicaux (soins corporels quotidiens, aide-ménagère, garde d'enfants ou d'animaux) pendant la période post-hospitalière d'une hospitalisation couverte avec nuitée pour une « Maladie grave » (MG).",
+      "is_optional": false,
+      "territorial_scope": "Belgique",
+      "limits": "Plafond de remboursement par personne assurée et par année d'assurance jusqu'à € 500",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Soins dentaires",
+      "description": "Frais encourus pour les traitements dentaires (soins dentaires), à l'exclusion de l'orthodontie.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Plafond de remboursement par personne assurée et par année d'assurance jusqu'à € 750, à l'exclusion de l'orthodontie",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Stage d'attente de 12 mois pour les traitements dentaires, excepté continuation individuelle d'une assurance collective hospitalisation de DKV similaire"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Frais d'une perruque",
+      "description": "Les frais d'une perruque.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "avec un maximum de € 1.250",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Soins post-natals après un accouchement (à domicile)",
+      "description": "Soins post-natals après un accouchement (à domicile).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "jusqu'à € 500",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Logopédie et procréation médicalement assistée",
+      "description": "Remboursement des frais de logopédie et de procréation médicalement assistée.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Sous réserve d'une autorisation préalable et d'un remboursement par l'assurance obligatoire soins de santé et indemnités."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Chirurgie plastique reconstructive",
+      "description": "Chirurgie plastique reconstructive (exception à l'exclusion des traitements esthétiques), qui a été approuvée préalablement.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Approbation préalable de DKV sur base d'un devis précis pour la chirurgie plastique reconstructive."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Garantie \"Frais médicaux\" - Couverture mondiale (hospitalisation non-planifiée à l'étranger)",
+      "description": "Garantie « Frais médicaux » - Couverture mondiale : pour toute hospitalisation non-planifiée et médicalement nécessaire à l'étranger.",
+      "is_optional": false,
+      "territorial_scope": "Mondiale",
+      "limits": "Pour les hospitalisations en dehors de l'Union européenne, DKV rembourse jusqu'à un maximum de € 300.000 par cas d'assurance.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Garantie \"Frais médicaux\" - Couverture dans les États membres de l'UE (hospitalisation planifiée à l'étranger)",
+      "description": "Garantie « Frais médicaux » - Couverture dans les États membres de l'Union européenne (excepté les pays et les territoires d'outre-mer) : pour toute hospitalisation planifiée et médicalement nécessaire et à l'étranger.",
+      "is_optional": false,
+      "territorial_scope": "États membres de l'Union européenne (excepté les pays et les territoires d'outre-mer)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Sous réserve d'un accord préalable avec la mutualité."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Garantie \"Frais médicaux\" - Couverture en Belgique",
+      "description": "Garantie « Frais médicaux » - Couverture en Belgique : pour les consultations et/ou traitements ambulatoires dans la période pré- et post-hospitalière d'une hospitalisation couverte, dans le cadre des « Maladies Graves », de frais de soins non-médicaux dans le cadre des « Maladies Graves ».",
+      "is_optional": false,
+      "territorial_scope": "Belgique",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Garantie \"Assistance à l'étranger\" DKV ASSISTANCE - Couverture mondiale",
+      "description": "Garantie « Assistance à l'étranger » DKV ASSISTANCE - Couverture mondiale : pour toute hospitalisation non-planifiée médicalement nécessaire à l'étranger dans la mesure où la personne assurée ne séjourne pas temporairement à l'étranger pendant plus de 90 jours consécutifs. Cette période est portée à 6 mois en cas de séjour temporaire effectif dans les Etats membres de l'Union européenne (à l'exclusion des pays et les territoires d'outre-mer) d'étudiants de moins de 26 ans lorsqu'il est effectué en continuité de leurs études et rentrent dans des programmes unilatéraux ou multilatéraux ou dans le cadre d'une convention entre deux ou plusieurs établissements d'enseignement supérieur.",
+      "is_optional": false,
+      "territorial_scope": "Mondiale (séjour temporaire à l'étranger ≤ 90 jours consécutifs ; ≤ 6 mois pour les étudiants de moins de 26 ans dans les États membres de l'UE)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "La personne assurée ne doit pas séjourner temporairement à l'étranger pendant plus de 90 jours consécutifs (période portée à 6 mois pour les étudiants de moins de 26 ans dans les États membres de l'UE en continuité de leurs études)."
+      ],
+      "page": 2
+    },
+    {
+      "name": "DKV ASSISTANCE - Rapatriement",
+      "description": "Rapatriement en cas d'accident/maladie et de décès.",
+      "is_optional": false,
+      "territorial_scope": "Étranger",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "DKV ASSISTANCE - Remboursement des frais médicaux d'une hospitalisation urgente à l'étranger",
+      "description": "Remboursement des frais médicaux d'une hospitalisation urgente et non-planifiée à l'étranger.",
+      "is_optional": false,
+      "territorial_scope": "Étranger",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "DKV ASSISTANCE - Retour des autres assurés et des enfants mineurs",
+      "description": "Retour des autres assurés et des enfants mineurs en cas d'hospitalisation d'une personne assurée.",
+      "is_optional": false,
+      "territorial_scope": "Étranger",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Service Medi-Card®",
+      "description": "Mode de paiement Medi-Card® : paiement direct de la facture d'hospitalisation à l'hôpital.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Service AssurPharma",
+      "description": "AssurPharma : envoi automatisé à DKV des attestations par un pharmacien reconnu.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Affections/symptômes préexistants",
+      "description": "Affections/symptômes préexistants à la conclusion du contrat d'assurance, excepté continuation individuelle d'une assurance collective hospitalisation de DKV similaire.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Produits et compléments alimentaires, vitamines et minéraux, produits cosmétiques",
+      "description": "Produits et compléments alimentaires, vitamines et minéraux, produits cosmétiques.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Frais liés à une vaccination, la contraception, une stérilisation",
+      "description": "Frais autres qu'une consultation qui sont en lien avec une vaccination, la contraception, une stérilisation.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Traitements esthétiques",
+      "description": "Traitements esthétiques à l'exception de la chirurgie plastique reconstructive qui a été approuvée préalablement.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Utilisation de drogues",
+      "description": "Utilisation de drogues.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Frais résultant de l'état d'ébriété, intoxication, alcoolisme, toxicomanie, usage non conforme de médicaments",
+      "description": "Frais résultant entre autres de : l'état d'ébriété, intoxication punissable ou état analogue résultant de produits autres qu'alcoolisés, alcoolisme, toxicomanie, l'usage non conforme de médicaments.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Pratique sportive professionnelle ou rémunérée",
+      "description": "La pratique sportive professionnelle ou rémunérée.",
+      "applies_to": "all",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": null,
+    "per_coverage": "Remboursement à 50% des frais d'hospitalisation couverts en Belgique si l'assurance maladie légale n'intervient pas du tout (sur aucun des postes de la facture d'hospitalisation). Remboursement à 80% des médicaments, pansements et matériel médical en pré-post et \"MG\". Remboursement réduit de 50 % pour pré et post et \"MG\" si l'assurance maladie légale n'intervient pas.",
+    "page": 1
+  },
+  "waiting_periods": [
+    {
+      "name": "Stage d'attente pour les traitements dentaires",
+      "description": "Frais encourus pendant les stages d'attente pour les traitements dentaires (12 mois), excepté continuation individuelle d'une assurance collective hospitalisation de DKV similaire.",
+      "duration": "12 mois",
+      "page": 1
+    },
+    {
+      "name": "Stages d'attente (début de la couverture)",
+      "description": "La couverture d'assurance commence après l'émission de la police, après l'expiration des stages d'attente et après le paiement de la première prime convenue.",
+      "duration": null,
+      "page": 3
+    }
+  ],
+  "obligations": [
+    {
+      "name": "Remplir et signer la proposition d'assurance",
+      "description": "Remplir et signer correctement une proposition d'assurance, qui consiste en un questionnaire administratif et médical, excepté continuation individuelle d'une assurance collective hospitalisation de DKV similaire.",
+      "timing": "À la conclusion du contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Aviser DKV en cas de changement des conditions de maintien du contrat",
+      "description": "Aviser DKV dans les 30 jours à compter du moment où les conditions pour le maintien du contrat d'assurance ne sont plus remplies. En particulier : (1) tout changement de lieu de résidence ou de résidence principale, (2) tout séjour à l'étranger de plus de 90 jours consécutifs ou tout séjour temporaire de plus de 6 mois dans les États membres de l'Union européenne (à l'exclusion des pays et les territoires d'outre-mer) des d'étudiants de moins de 26 ans lorsqu'ils sont effectués en continuité de leurs études et rentrent dans des programmes unilatéraux ou multilatéraux ou dans le cadre d'une convention entre deux ou plusieurs établissements d'enseignement supérieur, (3) tout changement de statut en matière de sécurité sociale ayant pour conséquence que la personne assurée n'est plus assujettie à la sécurité sociale belge et ne peut plus en bénéficier.",
+      "timing": "Dans les 30 jours",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Mesures pour éviter et limiter les conséquences d'un cas d'assurance",
+      "description": "Prendre toutes les mesures raisonnables pour éviter et limiter les conséquences d'un cas d'assurance.",
+      "timing": null,
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Obtenir les interventions légales/statutaires préalablement",
+      "description": "Entreprendre toutes les démarches pour obtenir une intervention au titre de toutes les éventuelles interventions ou prestations légales/statutaires possibles, préalablement à toute demande d'indemnisation à DKV.",
+      "timing": "Préalablement à toute demande d'indemnisation à DKV",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Signaler l'existence de tout autre accord de remboursement",
+      "description": "Signaler à DKV l'existence de tout autre accord pouvant donner lieu à un remboursement total ou partiel des frais réels supportés.",
+      "timing": null,
+      "sanction": null,
+      "page": 3
+    },
+    {
+      "name": "Prescription médicale",
+      "description": "Traitements médicaux et paramédicaux, dispositifs médicaux, médicaments, pansements et matériel médical sur prescription médicale d'un médecin.",
+      "timing": null,
+      "sanction": null,
+      "page": 3
+    },
+    {
+      "name": "Approbation préalable de DKV pour certains frais",
+      "description": "Le remboursement des frais ci-dessous est soumis à l'approbation préalable de DKV : location ou achat de dispositifs médicaux, à l'exception des verres de lunettes ou des lentilles de contact, des appareils auditifs entièrement non-implantables, des bandages pour hernies, des bas à varices, des semelles orthopédiques, des coquilles plâtrées, des lombostats, des attelles et des béquilles ; plan de traitement avec devis précis des coûts pour les traitements dentaires ; devis précis pour la chirurgie plastique reconstructive.",
+      "timing": "Préalablement",
+      "sanction": null,
+      "page": 3
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclarer chaque cas d'assurance à DKV conformément aux directives, délais et modalités décrits dans les Conditions Générales d'Assurance.",
+      "deadline": null,
+      "page": 3
+    },
+    {
+      "step": "Pour la garantie « Assistance à l'étranger » DKV ASSISTANCE : déclarer par téléphone au numéro +32 2 230 31 32 dans les 48 heures suivant le début de l'hospitalisation ou à la suite d'un accident de sports d'hiver sur une piste de ski sans hospitalisation, ou dès que raisonnablement possible.",
+      "deadline": "Dans les 48 heures suivant le début de l'hospitalisation, ou dès que raisonnablement possible",
+      "page": 3
+    },
+    {
+      "step": "Pour la garantie « Frais médicaux » : déclarer par écrit et de préférence via le portail client digital (My DKV), l'application sur smartphone (DKV App) fournie par DKV.",
+      "deadline": null,
+      "page": 3
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Durée du contrat : à vie, non résiliable par DKV sous réserve des exceptions prévues par la loi. La couverture d'assurance commence après l'émission de la police, après l'expiration des stages d'attente et après le paiement de la première prime convenue.",
+    "tacit_renewal": null,
+    "methods": [
+      "La notification de résiliation du contrat à l'assureur doit se faire par lettre recommandée, par exploit d'huissier ou par la remise d'une lettre de résiliation avec accusé de réception."
+    ],
+    "special_rights": [
+      "Vous pouvez résilier votre contrat d'assurance à chaque échéance annuelle en le notifiant à DKV au plus tard trois mois avant cette date. DKV peut résilier le contrat d'assurance pour non-paiement de la prime."
+    ],
+    "page": 3,
+    "notice_period": "Au plus tard trois mois avant l'échéance annuelle."
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "DKV vous envoie une invitation à payer votre prime annuelle. Moyennant la prise en compte de frais de fractionnement, vous avez possibilité de demander le paiement semestriel, trimestriel ou mensuel (via domiciliation SEPA uniquement) de votre prime."
+    ]
+  },
+  "special_conditions": [
+    {
+      "name": "Remboursement à 50% en Belgique sans intervention de l'assurance maladie légale",
+      "description": "Remboursement à 50% des frais d'hospitalisation couverts en Belgique si l'assurance maladie légale n'intervient pas du tout (sur aucun des postes de la facture d'hospitalisation).",
+      "page": 1
+    },
+    {
+      "name": "Type d'assurance",
+      "description": "Assurance hospitalisation individuelle à caractère indemnitaire complémentaire à l'intervention de l'assurance maladie légale/statutaire belge et une assurance assistance à l'étranger. Cette assurance peut être souscrite par toute personne physique ayant son lieu de résidence et sa résidence principale en Belgique.",
+      "page": 1
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Assurance hospitalisation individuelle à caractère indemnitaire complémentaire à l'intervention de l'assurance maladie légale/statutaire belge et une assurance assistance à l'étranger."
+    },
+    {
+      "quote": "Remboursement à 50% des frais d’hospitalisation couverts en Belgique si l’assurance maladie légale n’intervient pas du tout (sur aucun des postes de la facture d’hospitalisation)"
+    },
+    {
+      "quote": "Affections/symptômes préexistants à la conclusion du contrat d'assurance, excepté continuation individuelle d’une assurance collective hospitalisation de DKV similaire"
+    },
+    {
+      "quote": "Pour les hospitalisations en dehors de l'Union européenne, DKV rembourse jusqu'à un maximum de € 300.000 par cas d’assurance."
+    },
+    {
+      "quote": "Durée du contrat : à vie, non résiliable par DKV sous réserve des exceptions prévues par la loi."
+    },
+    {
+      "quote": "La pratique sportive professionnelle ou rémunérée"
+    }
+  ],
+  "gaps": [
+    "Le document est un IPID (fiche d'information sur le produit d'assurance) qui indique explicitement ne pas être exhaustif ; les définitions, limites et exclusions complètes figurent dans les Conditions Générales d'Assurance non incluses ici.",
+    "prescription_period : le délai de prescription n'est pas mentionné dans le document.",
+    "Le renouvellement tacite n'est pas explicitement décrit (le contrat est indiqué comme étant « à vie »)."
+  ]
+}

@@ -1,0 +1,1861 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "be",
+  "insurer_slug": "vivium",
+  "insurer_name": "Vivium",
+  "product_name": "VIVIUM Habitation",
+  "branch": "habitation",
+  "branch_code": null,
+  "document_type": "conditions_generales",
+  "language": "fr",
+  "target_audience": null,
+  "reference": "VIV 292/01-2018",
+  "edition_date": "2018-01",
+  "product_family": "VIVIUM Habitation",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "source_url": "https://www.vivium.be/documents/1091840/1198423/Conditions+g%C3%A9n%C3%A9rales+incendie+-+VIVIUM+Habitation+11-2014.pdf/d93229e1-5c38-43ab-834c-98b2277bd844?t=1741254372049",
+  "source_pdf": "vivium-habitation-incendie-1b56c4bc.pdf",
+  "source_sha256": "8d5bb2c416bb4a89c24bb00122fbcd49be113d421839b4e4f42025599963825c",
+  "source_pages": 42,
+  "fetched_at": "2026-07-05",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Conditions générales de l'assurance VIVIUM Habitation (P&V Assurances SCRL), un contrat d'assurance incendie / habitation pour risques simples couvrant le bâtiment et/ou le contenu à usage d'habitation. Le contrat comprend une Assistance Habitation (24h/24), des garanties de base (incendie, foudre, explosion, implosion, fumée et suie, heurt, dégradations immobilières lors d'un vol/vandalisme, action de l'électricité, tempête/grêle/pression de la neige, bris de vitrages, dégâts d'eau, mazout, responsabilité civile bâtiment, recours des tiers, conflits du travail et attentats), la garantie catastrophes naturelles, des garanties optionnelles (Vol et vandalisme du contenu, pertes indirectes, protection juridique) ainsi que des garanties complémentaires et dommages indirects. Divers packs peuvent être souscrits (Pack Habitation Plus, Pack Jardin, Pack Vol Plus). Le contrat s'adresse aux propriétaires, locataires ou occupants.",
+  "definitions": [
+    {
+      "term": "Accès privés",
+      "definition": "Tous les accès au bâtiment désigné pour autant qu'ils n'appartiennent pas à une autorité publique.",
+      "page": 37
+    },
+    {
+      "term": "Animaux domestiques",
+      "definition": "Animaux dits de compagnie dont l'espèce est depuis longtemps apprivoisée et que l'assuré, à des fins privées, garde et soigne à l'intérieur ou près de son foyer pour leur utilité (par exemple petit bétail) ou leur agrément (par exemple chiens, chats, poissons, hamsters, chevaux, poneys,...). Les reptiles, les insectes et les animaux sauvages ne sont pas considérés comme animaux domestiques.",
+      "page": 37
+    },
+    {
+      "term": "Assuré(s)",
+      "definition": "La personne physique ou morale qui bénéficie de la garantie. Il s'agit : du preneur d'assurance; des personnes vivant à son foyer; de leur personnel dans l'exercice de leurs fonctions; des mandataires et associés du preneur d'assurance dans l'exercice de leurs fonctions; des hôtes du preneur d'assurance; de toute autre personne mentionnée comme assurés aux conditions particulières.",
+      "page": 37
+    },
+    {
+      "term": "Attentats",
+      "definition": "Toute forme d'émeute, mouvement populaire ou terrorisme.",
+      "page": 37
+    },
+    {
+      "term": "Bâtiment irrégulièrement occupé",
+      "definition": "Voir «Occupation irrégulière»",
+      "page": 37
+    },
+    {
+      "term": "Bijoux",
+      "definition": "Petits objets façonnés (y compris les montres), servant de parure, entièrement ou partiellement en métal précieux (entre autres: or, argent ou platine) ou contenant soit une ou plusieurs pierres (semi-) précieuses, soit une ou plusieurs perles naturelles ou d'élevage. Toutes les montres ayant une valeur catalogue de plus de 2.000 EUR sont également considérées comme des bijoux.",
+      "page": 37
+    },
+    {
+      "term": "Carport",
+      "definition": "Emplacement de voiture sous toit indépendant, bâti en matériaux dont le poids n'est pas inférieur à 6 kg par m².",
+      "page": 37
+    },
+    {
+      "term": "Caves",
+      "definition": "Dans le cadre de la garantie «Catastrophes naturelles», il faut entendre par «cave» tout local dont le sol est situé à plus de 50 cm sous le niveau de l'entrée principale vers les pièces d'habitation du bâtiment qui le contient, à l'exception des locaux aménagés de façon permanente en pièces d'habitation ou pour l'exercice d'une profession.",
+      "page": 37
+    },
+    {
+      "term": "Code Civil - Article 544",
+      "definition": "La propriété est le droit de jouir et disposer des choses de la manière la plus absolue, pourvu qu'on n'en fasse pas un usage prohibé par les lois ou par les règlements.",
+      "page": 37
+    },
+    {
+      "term": "Code Civil - Article 1121",
+      "definition": "On peut pareillement stipuler au profit d'un tiers, lorsque telle est la condition d'une stipulation que l'on fait pour soi-même ou d'une donation que l'on fait à un autre. Celui qui a fait cette stipulation, ne peut plus la révoquer, si le tiers a déclaré vouloir en profiter.",
+      "page": 37
+    },
+    {
+      "term": "Code Civil - Article 1302",
+      "definition": "Lorsque le corps certain et déterminé qui était l'objet de l'obligation, vient à périr, est mis hors du commerce, ou se perd de manière qu'on en ignore absolument l'existence, l'obligation est éteinte si la chose a péri ou a été perdue sans la faute du débiteur et avant qu'il fût en demeure. Lors même que le débiteur est en demeure, et s'il ne s'est pas chargé des cas fortuits, l'obligation est éteinte dans le cas où la chose fut également périe chez le créancier si elle lui eut été livrée. Le débiteur est tenu de prouver le cas fortuit qu'il allègue. De quelque manière que la chose volée ait péri ou ait été perdue, sa perte ne dispense pas celui qui l'a soustraite, de la restitution du prix.",
+      "page": 37
+    },
+    {
+      "term": "Code Civil - Article 1382",
+      "definition": "Tout fait quelconque de l'homme, qui cause à autrui un dommage, oblige celui par la faute duquel il est arrivé, à le réparer.",
+      "page": 38
+    },
+    {
+      "term": "Code Civil - Article 1383",
+      "definition": "Chacun est responsable du dommage qu'il a causé non seulement par son fait, mais encore par sa négligence ou par son imprudence.",
+      "page": 38
+    },
+    {
+      "term": "Code Civil - Article 1384",
+      "definition": "On est responsable non seulement du dommage que l'on cause par son propre fait, mais encore de celui qui est causé par le fait des personnes dont on doit répondre, ou des choses que l'on a sous sa garde. Le père et la mère sont responsables du dommage causé par leurs enfants mineurs. Les maîtres et les commettants, du dommage causé par leurs domestiques et préposés dans les fonctions auxquelles ils les ont employés. Les instituteurs et les artisans, du dommage causé par leurs élèves et apprentis pendant le temps qu'ils sont sous leur surveillance. La responsabilité ci-dessus a lieu, à moins que les père et mère, instituteurs et artisans, ne prouvent qu'ils n'aient pu empêcher le fait qui donne lieu à cette responsabilité.",
+      "page": 38
+    },
+    {
+      "term": "Code Civil - Article 1385",
+      "definition": "Le propriétaire d'un animal, ou celui qui s'en sert, pendant qu'il est à son usage, est responsable du dommage que l'animal a causé, soit que l'animal fût sous sa garde, soit qu'il fût égaré ou échappé.",
+      "page": 38
+    },
+    {
+      "term": "Code Civil - Article 1386",
+      "definition": "Le propriétaire d'un bâtiment est responsable du dommage causé par sa ruine, lorsqu'elle est arrivée par suite du défaut d'entretien ou par le vice de sa construction.",
+      "page": 38
+    },
+    {
+      "term": "Code Civil - Article 1386bis",
+      "definition": "Lorsqu'une personne se trouvant en état de démence, ou dans un état grave de déséquilibre mental ou de débilité mentale la rendant incapable du contrôle de ses actions, cause un dommage à autrui, le juge peut la condamner à tout ou partie de la réparation à laquelle elle serait astreinte si elle avait le contrôle de ses actes. Le juge statue selon l'équité, tenant compte des circonstances et de la situation des parties.",
+      "page": 38
+    },
+    {
+      "term": "Code Civil - Article 1721",
+      "definition": "Il est dû garantie au preneur pour tous les vices ou défauts de la chose louée qui en empêchent l'usage, quand même le bailleur ne les aurait pas connus lors du bail. S'il résulte de ces vices ou défauts quelque perte pour le preneur, le bailleur est tenu de l'indemniser.",
+      "page": 38
+    },
+    {
+      "term": "Code Civil - Article 1732",
+      "definition": "Il répond des dégradations ou des pertes qui arrivent pendant sa jouissance, à moins qu'il ne prouve qu'elles aient eu lieu sans sa faute.",
+      "page": 38
+    },
+    {
+      "term": "Code Civil - Article 1733",
+      "definition": "Il répond de l'incendie, à moins qu'il ne prouve que celui-ci se soit déclaré sans sa faute.",
+      "page": 38
+    },
+    {
+      "term": "Code Civil - Article 1735",
+      "definition": "Le preneur est tenu des dégradations et des pertes qui arrivent par le fait des personnes de sa maison ou de ses sous-locataires.",
+      "page": 38
+    },
+    {
+      "term": "Collection(s)",
+      "definition": "Réunion d'objets présentant une unité et choisis pour leur beauté, leur rareté, leur caractère curieux ou leur valeur documentaire (= valeur en tant que preuve ou valeur historique). Exemples : timbres, armes, disques, livres anciens et originaux, faïence et porcelaine anciennes, argenterie ancienne, cristaux, tableaux, ...",
+      "page": 38
+    },
+    {
+      "term": "Compagnie",
+      "definition": "P&V Assurances SCRL, Rue Royale, 151, 1210 Bruxelles, entreprise d'assurances agréée sous le numéro de code 0058.",
+      "page": 38
+    },
+    {
+      "term": "Conflits du travail",
+      "definition": "Toute contestation collective sous quelque forme qu'elle se manifeste dans le cadre des relations de travail, en ce compris la grève et le lockout.",
+      "page": 39
+    },
+    {
+      "term": "Débordement ou refoulement des égouts publics",
+      "definition": "Occasionné par des crues, des précipitations atmosphériques, une tempête, une fonte des neiges ou de la glace ou une inondation.",
+      "page": 39
+    },
+    {
+      "term": "Emeute",
+      "definition": "Manifestation violente, même non concertée, d'un groupe de personnes qui révèle une agitation des esprits et se caractérise par du désordre ou des actes illégaux ainsi que par une lutte contre les organismes chargés du maintien de l'ordre public, sans qu'il soit cherché pour autant à renverser les pouvoirs publics établis.",
+      "page": 39
+    },
+    {
+      "term": "Glissement ou affaissement de terrain",
+      "definition": "Mouvement d'une masse importante de terrain qui détruit ou endommage des biens, dû en tout ou en partie à un phénomène naturel autre qu'un tremblement de terre ou une inondation.",
+      "page": 39
+    },
+    {
+      "term": "Graffiti",
+      "definition": "Inscriptions ou dessins tracés sur le bâtiment assuré à l'aide de bombes aérosol, brosses, marqueurs, pointes diamantées, … .",
+      "page": 39
+    },
+    {
+      "term": "Grève",
+      "definition": "Arrêt concerté du travail par un groupe de salariés, employés, fonctionnaires ou indépendants.",
+      "page": 39
+    },
+    {
+      "term": "Heurt",
+      "definition": "Contact violent avec les biens assurés. Dans le cadre du «Pack Jardin», contact violent avec le jardin.",
+      "page": 39
+    },
+    {
+      "term": "Hôte(s)",
+      "definition": "Toute personne que l'assuré accueille gracieusement dans son foyer pour une durée temporaire.",
+      "page": 39
+    },
+    {
+      "term": "Indice Abex",
+      "definition": "Indice du coût de la construction, établi tous les six mois par l'Association Belge des Experts.",
+      "page": 39
+    },
+    {
+      "term": "Indice des prix à la consommation",
+      "definition": "Indice des prix de consommation établi tous les mois par le Ministère des Affaires Economiques.",
+      "page": 39
+    },
+    {
+      "term": "Inondation(s)",
+      "definition": "Tout débordement de cours d'eau, canaux, lacs, étangs ou mers, suite à des précipitations atmosphériques, à une fonte des neiges ou de glace, à une rupture de digues ou à un raz-de-marée, ainsi que les glissements ou affaissements de terrain qui en résultent ; le ruissellement d'eau résultant du manque d'absorption du sol suite à des précipitations atmosphériques. Sont considérés comme un seul et même événement le débordement initial d'un cours d'eau, d'un canal, d'un lac, d'un étang ou d'une mer et tout débordement survenu dans un délai de 168 heures après la décrue, c'est-à-dire le retour de ce cours d'eau, ce canal, ce lac, cet étang ou cette mer dans ses limites habituelles, ainsi que les périls assurés qui en résultent directement.",
+      "page": 39
+    },
+    {
+      "term": "Installation(s) hydraulique(s)",
+      "definition": "L'ensemble des canalisations d'amenée et d'évacuation des eaux ménagères, sanitaires, pluviales ou de chauffage, en ce compris les appareils qui y sont raccordés.",
+      "page": 39
+    },
+    {
+      "term": "Jardin",
+      "definition": "Ensemble des végétaux en pleine terre (pelouse, fleurs, arbustes, arbres, légumes, …)",
+      "page": 39
+    },
+    {
+      "term": "Lock-out",
+      "definition": "Fermeture provisoire décidée par une entreprise afin d'amener son personnel à composer dans un conflit du travail.",
+      "page": 39
+    },
+    {
+      "term": "Loi",
+      "definition": "La loi du 4 avril 2014 relative aux assurances.",
+      "page": 39
+    },
+    {
+      "term": "Meubles de jardin",
+      "definition": "Ensemble des tables, chaises, fauteuils et bancs à l'exclusion des accessoires (tels que : décorations de jardin, coussins, parasols, etc.).",
+      "page": 40
+    },
+    {
+      "term": "Mouvement populaire",
+      "definition": "Manifestation violente, même non concertée, d'un groupe de personnes qui, sans qu'il y ait révolte contre l'ordre établi, révèle cependant une agitation des esprits se caractérisant par du désordre ou des actes illégaux.",
+      "page": 40
+    },
+    {
+      "term": "Objet",
+      "definition": "Chaque élément du contenu, par exemple chaque fauteuil ou divan faisant partie d'un salon, chaque chaise ou table faisant partie d'une salle à manger.",
+      "page": 40
+    },
+    {
+      "term": "Occupation irrégulière (bâtiment irrégulièrement occupé)",
+      "definition": "Occupation d'un bâtiment ne correspondant pas aux critères d'occupation régulière.",
+      "page": 40
+    },
+    {
+      "term": "Occupation régulière (bâtiment régulièrement occupé)",
+      "definition": "Un bâtiment est régulièrement occupé lorsqu'un assuré y réside chaque nuit. Par période de douze mois, une inoccupation de 90 nuits, dont au maximum 60 consécutives, est admise.",
+      "page": 40
+    },
+    {
+      "term": "Pertes d'exploitation",
+      "definition": "Réduction du chiffre d'affaires annuel entraînant une privation de la totalité ou d'une partie des bénéfices, alors que certains frais généraux continuent de courir, occasionnant ainsi un accroissement proportionnel des charges.",
+      "page": 40
+    },
+    {
+      "term": "Pollution",
+      "definition": "Toute altération d'organismes vivants ou de biens inertes par des substances solides, liquides ou gazeuses transmises par l'air, les eaux ou le sol. Dans le cadre de l'article 24 « Responsabilité civile bâtiment », on entend également par pollution le bruit, les odeurs, la température, les vibrations et les radiations.",
+      "page": 40
+    },
+    {
+      "term": "Preneur d'assurance",
+      "definition": "La personne physique ou morale qui conclut le contrat.",
+      "page": 40
+    },
+    {
+      "term": "Pression de la neige et de la glace",
+      "definition": "Pression externe exercée par un amoncellement anormal de neige ou de glace, par la chute, le glissement ou le déplacement d'une masse compacte de neige ou de glace.",
+      "page": 40
+    },
+    {
+      "term": "Responsabilité d'occupant",
+      "definition": "La responsabilité qui incombe aux occupants d'un bâtiment ou d'une partie d'un bâtiment en vertu de l'article 1302 du Code Civil.",
+      "page": 40
+    },
+    {
+      "term": "Responsabilité locative",
+      "definition": "La responsabilité qui incombe au locataire d'un bâtiment ou d'une partie d'un bâtiment en vertu des articles 1732, 1733 et 1735 du Code Civil.",
+      "page": 40
+    },
+    {
+      "term": "Sinistre",
+      "definition": "Tous les dommages, indemnisables selon les conditions générales et particulières, causés à l'occasion d'un même fait dommageable. En matière de Protection Juridique Habitation, forment un seul et même sinistre : l'ensemble des poursuites civiles ou pénales résultant d'un même événement; l'ensemble des recours amiables ou judiciaires résultant d'un même fait dommageable. En cas de tempête, tous les dégâts survenus dans les 48 heures qui suivent le moment où les biens assurés ont subi les premiers dommages constituent un seul et même sinistre.",
+      "page": 40
+    },
+    {
+      "term": "Supports d'information",
+      "definition": "Moyens de transfert des informations. Disques, disquettes, disques durs, CD Roms, bandes ou cassettes magnétiques, etc.",
+      "page": 40
+    },
+    {
+      "term": "Suspension",
+      "definition": "Période pendant laquelle la garantie de la compagnie cesse temporairement de s'appliquer à un ou plusieurs risques.",
+      "page": 40
+    },
+    {
+      "term": "Tempête",
+      "definition": "L'action directe du vent qui atteint une vitesse de pointe d'au moins 80 km/h à la station de l'I.R.M. (institut royal météorologique) la plus proche, ou qui, dans un rayon de 10 km autour du bâtiment assuré, endommage des constructions assurables (aux termes des conditions générales) ou d'autres biens présentant une résistance au vent équivalente. Tous les dégâts de tempête survenus dans les 48 heures qui suivent le moment où les biens assurés ont subi les premiers dommages causés par la tempête constituent un seul et même sinistre.",
+      "page": 41
+    },
+    {
+      "term": "Terrorisme",
+      "definition": "Action ou une menace d'action organisée dans la clandestinité à des fins idéologiques, politiques, ethniques ou religieuses, exécutée individuellement ou en groupe et attentant à des personnes ou détruisant partiellement ou totalement la valeur économique d'un bien matériel ou immatériel, soit en vue d'impressionner le public, de créer un climat d'insécurité ou de faire pression sur les autorités, soit en vue d'entraver la circulation et le fonctionnement normal d'un service ou d'une entreprise.",
+      "page": 41
+    },
+    {
+      "term": "Tiers",
+      "definition": "Toutes les personnes autres que les assurés.",
+      "page": 41
+    },
+    {
+      "term": "Tremblement de terre",
+      "definition": "Tout séisme d'origine naturelle enregistré avec une magnitude minimale de quatre degrés sur l'échelle de Richter ou qui détruit, brise ou endommage des biens assurables contre ce péril dans un rayon de 10 km autour du bâtiment désigné. Ainsi que les inondations, les débordements ou refoulements d'égouts publics, les glissements ou affaissements de terrain qui en résultent. Sont considérés comme un seul et même tremblement de terre le séisme initial et ses répliques survenues dans les 72 heures, ainsi que les périls assurés qui en résultent directement.",
+      "page": 41
+    },
+    {
+      "term": "Valeur agréée",
+      "definition": "La valeur de l'objet à assurer, fixée conventionnellement.",
+      "page": 41
+    },
+    {
+      "term": "Valeur à neuf",
+      "definition": "Le prix que l'on doit payer pour reconstruire le bâtiment à l'état neuf ou pour reconstituer le contenu à l'état neuf.",
+      "page": 41
+    },
+    {
+      "term": "Valeur d'achat",
+      "definition": "Le prix qui doit être payé, le jour du sinistre, pour l'achat d'un bien dans les circonstances normales sur le marché national.",
+      "page": 41
+    },
+    {
+      "term": "Valeur de reconstitution matérielle",
+      "definition": "Le coût nécessaire à la reproduction du bien, frais de recherche et d'étude non compris.",
+      "page": 41
+    },
+    {
+      "term": "Valeur de remplacement",
+      "definition": "Le prix d'achat d'un bien similaire (de même âge et de même état) dans des circonstances normales sur le marché national.",
+      "page": 41
+    },
+    {
+      "term": "Valeur du jour",
+      "definition": "La valeur du bien sur le marché ou à la Bourse, c'est-à-dire le dernier cours officiel du jour qui précède le jour du sinistre.",
+      "page": 41
+    },
+    {
+      "term": "Valeur réelle",
+      "definition": "La valeur à neuf sous déduction de la vétusté.",
+      "page": 41
+    },
+    {
+      "term": "Valeur vénale",
+      "definition": "Le prix qui peut être obtenu d'un bien lors de sa vente par l'assuré dans les circonstances normales sur le marché national.",
+      "page": 41
+    },
+    {
+      "term": "Valeurs",
+      "definition": "Lingots de métaux précieux, pierres précieuses non montées, perles, pièces de monnaie, cartes proton, billets de banque, chèques-repas, chèques-cadeau, éco-chèques, timbres, chèques libellés, reconnaissances de dettes, lettres de change, titres d'actions, obligations et autres papiers de valeur.",
+      "page": 41
+    },
+    {
+      "term": "Vandalisme",
+      "definition": "Dommages consécutifs à un acte commis par une personne et dont il est prouvé à suffisance qu'il a été commis dans le seul but de nuire.",
+      "page": 41
+    },
+    {
+      "term": "Vétusté",
+      "definition": "Réduction de la valeur d'un bien en fonction de son âge, de son usage, de la fréquence et de la qualité de son entretien.",
+      "page": 42
+    },
+    {
+      "term": "Aménagements et embellissements",
+      "definition": "Les installations qui ne peuvent pas être détachées du bâtiment sans être détériorées ou sans détériorer le bâtiment ou une partie de celui-ci, telles que les cuisines équipées, les salles de bains installées, les raccordements, canalisations, compteurs, peintures, papiers peints, boiseries, faux plafonds, revêtements divers de murs, sols ou plafonds, etc. Pour l'assuré propriétaire, ils sont considérés comme faisant partie du bâtiment lorsqu'ils ont été exécutés à ses frais ou acquis d'un locataire ou occupant. Pour l'assuré locataire ou occupant, ils sont considérés comme faisant partie du contenu lorsqu'ils ont été exécutés à ses frais ou acquis d'un précédent locataire ou occupant.",
+      "page": 8
+    },
+    {
+      "term": "Mobilier",
+      "definition": "L'ensemble des biens meubles à usage privé appartenant ou confiés aux assurés, à l'exclusion du matériel et des marchandises.",
+      "page": 8
+    },
+    {
+      "term": "Matériel",
+      "definition": "Le contenu destiné à un usage professionnel, à l'exclusion des marchandises.",
+      "page": 8
+    },
+    {
+      "term": "Marchandises",
+      "definition": "Les stocks, matières premières, produits finis ou en cours de fabrication, emballages, appartenant à l'assuré ou à des tiers.",
+      "page": 8
+    }
+  ],
+  "coverages": [
+    {
+      "name": "VIVIUM Assistance - Envoi de réparateurs sur place",
+      "description": "En cas d'urgence, afin de permettre aux assurés de demeurer dans le bâtiment et de prendre les mesures conservatoires indispensables, VIVIUM Assistance organise le déplacement, dans les meilleurs délais, de réparateurs agréés dans les secteurs d'activité suivants : plomberie, chauffage, serrurerie, électricité, menuiserie, vitrerie, maçonnerie, couverture et nettoyage. Les frais de déplacement et la première heure de main-d'œuvre de ces réparateurs sont également pris en charge. Les assurés peuvent faire appel à VIVIUM Assistance 24h sur 24, 7 jours sur 7, au numéro 02 406 30 00.",
+      "is_optional": false,
+      "territorial_scope": "Bâtiment désigné (adresse indiquée aux conditions particulières)",
+      "limits": "Frais de déplacement et première heure de main-d'œuvre; travaux d'urgence facturés au preneur mais remboursés sur factures s'il s'agit d'un sinistre couvert par l'Assurance Habitation",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Situation décrite à l'article 2 (sinistre ou événement perturbateur sérieux survenant inopinément)",
+        "Lorsque l'assistance est mise en œuvre dans le cadre d'un incident visé à l'article 2.2, les réparations et fournitures demeurent à charge des assurés (sauf frais de déplacement et première heure de main-d'œuvre)"
+      ],
+      "page": 4
+    },
+    {
+      "name": "VIVIUM Assistance - Serrurier (clés volées ou impossibilité d'accès)",
+      "description": "Si les clés de la porte extérieure du bâtiment désigné ont été volées ou si le preneur d'assurance ne peut plus pénétrer dans son habitation (suite par exemple au bris de la clé, à un oubli de clés,…), VIVIUM Assistance organise et prend en charge les frais de déplacement d'un serrurier ainsi que les frais de la main d'œuvre relative au remplacement de serrures. Le prix des serrures reste cependant à charge des assurés.",
+      "is_optional": false,
+      "territorial_scope": "Bâtiment désigné",
+      "limits": "Frais de déplacement du serrurier et main-d'œuvre du remplacement de serrures (prix des serrures à charge des assurés)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "VIVIUM Assistance - Retour d'urgence au bâtiment endommagé",
+      "description": "En cas d'absence ou d'incapacité de l'entourage du preneur d'assurance à prendre les dispositions nécessaires, si la présence immédiate du preneur d'assurance s'avère indispensable, VIVIUM Assistance organise et prend en charge le retour au bâtiment endommagé en train 1ère classe, avion classe économique, ou par tout autre moyen approprié. Dans l'hypothèse où le preneur doit retourner sur son lieu de séjour pour rechercher des passagers ou son véhicule ou poursuivre son séjour, VIVIUM Assistance prend en charge les frais de transport jusqu'au lieu de séjour.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Train 1ère classe, avion classe économique ou tout autre moyen approprié",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Assistance demandée dans le cadre d'un sinistre couvert"
+      ],
+      "page": 4
+    },
+    {
+      "name": "VIVIUM Assistance - Gardiennage",
+      "description": "Si, malgré la mise en œuvre de mesures conservatoires, le bâtiment doit faire l'objet d'une surveillance afin de préserver les biens restés sur place, VIVIUM Assistance organise et prend en charge le gardiennage de celui-ci pendant une période maximale de 48 heures.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Période maximale de 48 heures",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Assistance demandée dans le cadre d'un sinistre couvert"
+      ],
+      "page": 5
+    },
+    {
+      "name": "VIVIUM Assistance - Vêtements et objets de toilette de première nécessité",
+      "description": "Si les vêtements et objets de toilette de première nécessité des assurés ont été détruits, VIVIUM Assistance leur permet de s'en procurer de nouveaux à concurrence de 750 EUR non indexés par sinistre.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "750 EUR non indexés par sinistre",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Assistance demandée dans le cadre d'un sinistre couvert"
+      ],
+      "page": 5
+    },
+    {
+      "name": "VIVIUM Assistance - Hébergement provisoire",
+      "description": "Lorsque le bâtiment est devenu inhabitable, VIVIUM Assistance organise et prend en charge l'hébergement provisoire des assurés (y compris le petit déjeuner), pendant une période maximale de 5 nuits, dans un hôtel de confort équivalent à la norme «deux étoiles». Si besoin est, VIVIUM Assistance organise et prend en charge le premier transport vers l'hôtel.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Période maximale de 5 nuits, hôtel «deux étoiles»",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Assistance demandée dans le cadre d'un sinistre couvert",
+        "Bâtiment devenu inhabitable"
+      ],
+      "page": 5
+    },
+    {
+      "name": "VIVIUM Assistance - Transfert provisoire du contenu et frais de garde-meuble",
+      "description": "S'il devient nécessaire d'entreposer rapidement une partie du contenu afin de le préserver, VIVIUM Assistance organise et prend en charge le transfert de ces biens chez un garde-meuble ainsi que son retour au bâtiment désigné. VIVIUM Assistance prend en charge leur gardiennage pendant une période maximale de 30 jours.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Gardiennage pendant une période maximale de 30 jours",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Assistance demandée dans le cadre d'un sinistre couvert"
+      ],
+      "page": 5
+    },
+    {
+      "name": "VIVIUM Assistance - Déménagement",
+      "description": "Lorsque le bâtiment est devenu inhabitable, VIVIUM Assistance organise et prend en charge le déménagement du contenu jusqu'au nouveau lieu de résidence en Belgique, dans une période maximale de 30 jours suivant le sinistre.",
+      "is_optional": false,
+      "territorial_scope": "Nouveau lieu de résidence en Belgique",
+      "limits": "Période maximale de 30 jours suivant le sinistre",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Assistance demandée dans le cadre d'un sinistre couvert",
+        "Bâtiment devenu inhabitable"
+      ],
+      "page": 5
+    },
+    {
+      "name": "VIVIUM Assistance - Avance de fonds",
+      "description": "Lorsque les assurés sont démunis de moyens financiers immédiats, VIVIUM Assistance peut leur consentir une avance de fonds remboursable dans un délai de 30 jours. En cas de sinistre couvert par l'assurance habitation, cette avance - pour autant qu'elle n'ait pas été remboursée - sera considérée comme un acompte sur l'indemnité due.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Avance remboursable dans un délai de 30 jours",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Assistance demandée dans le cadre d'un sinistre couvert"
+      ],
+      "page": 5
+    },
+    {
+      "name": "VIVIUM Assistance - Prise en charge des enfants de moins de 18 ans et des assurés dépendants",
+      "description": "En cas de nécessité, VIVIUM Assistance organise et prend en charge la garde des enfants de moins de 18 ans et des assurés majeurs dépendants vivant au foyer du preneur d'assurance pendant une période maximale de 7 jours après le sinistre. En cas de nécessité, VIVIUM Assistance organise et prend en charge le voyage aller-retour, en Belgique ou dans un pays limitrophe, des enfants de moins de 18 ans et d'un adulte les accompagnant, auprès de proches susceptibles de les accueillir (en train 1ère classe ou par tout autre moyen approprié). En cas d'indisponibilité de tout accompagnateur, VIVIUM Assistance met à disposition un de ses prestataires.",
+      "is_optional": false,
+      "territorial_scope": "Belgique ou pays limitrophe",
+      "limits": "Période maximale de 7 jours après le sinistre",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Assistance demandée dans le cadre d'un sinistre couvert"
+      ],
+      "page": 5
+    },
+    {
+      "name": "VIVIUM Assistance - Prise en charge des chiens et des chats",
+      "description": "Si les chiens et les chats des assurés ne peuvent plus demeurer dans le bâtiment, VIVIUM Assistance organise et prend en charge leur transport et leur garde en pension animalière pendant une période maximale de 30 jours.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Période maximale de 30 jours",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Assistance demandée dans le cadre d'un sinistre couvert"
+      ],
+      "page": 5
+    },
+    {
+      "name": "VIVIUM Assistance - Transmission des messages urgents",
+      "description": "En cas de nécessité, VIVIUM Assistance se charge de transmettre des messages urgents à des proches du preneur d'assurance.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Assistance demandée dans le cadre d'un sinistre couvert"
+      ],
+      "page": 5
+    },
+    {
+      "name": "VIVIUM Assistance - Assistance psychologique",
+      "description": "En cas d'événements traumatisants dans le bâtiment désigné tels qu'incendie, cambriolage, décès, attentat, agression affectant un assuré, VIVIUM Assistance le met en relation avec un psychologue qui pourra selon les cas organiser un ou plusieurs entretiens individuels ou rencontres de groupe. Cette garantie peut être accordée à concurrence de 5 entretiens et rencontres.",
+      "is_optional": false,
+      "territorial_scope": "Bâtiment désigné",
+      "limits": "À concurrence de 5 entretiens et rencontres",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Assistance demandée dans le cadre d'un sinistre couvert"
+      ],
+      "page": 5
+    },
+    {
+      "name": "L'incendie",
+      "description": "La compagnie indemnise les dommages causés aux biens assurés par l'incendie.",
+      "is_optional": false,
+      "territorial_scope": "Adresse indiquée aux conditions particulières (extensions art. 11)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "215,17 EUR par sinistre dû à une même cause (art. 41.6)",
+      "conditions": [],
+      "page": 10
+    },
+    {
+      "name": "L'action directe de la foudre sur les biens assurés",
+      "description": "La compagnie indemnise les dommages causés aux biens assurés par l'action directe de la foudre sur ceux-ci.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "215,17 EUR par sinistre dû à une même cause (art. 41.6)",
+      "conditions": [],
+      "page": 10
+    },
+    {
+      "name": "L'explosion",
+      "description": "La compagnie indemnise les dommages causés aux biens assurés par l'explosion.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "215,17 EUR par sinistre dû à une même cause (art. 41.6)",
+      "conditions": [],
+      "page": 10
+    },
+    {
+      "name": "L'implosion",
+      "description": "La compagnie indemnise les dommages causés aux biens assurés par l'implosion.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "215,17 EUR par sinistre dû à une même cause (art. 41.6)",
+      "conditions": [],
+      "page": 10
+    },
+    {
+      "name": "La fumée et la suie suite au mauvais fonctionnement d'un appareil ménager ou de chauffage",
+      "description": "La compagnie indemnise les dommages causés aux biens assurés, par la fumée et la suie, suite au mauvais fonctionnement d'un appareil ménager ou de chauffage.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "215,17 EUR par sinistre dû à une même cause (art. 41.6)",
+      "conditions": [],
+      "page": 10
+    },
+    {
+      "name": "Le heurt",
+      "description": "La compagnie indemnise les dommages causés aux biens assurés par le heurt. Ainsi que par la chute d'appareils de navigation aérienne ou d'objets qui en tombent ou qui en sont projetés; si le «Pack Jardin» est couvert, les frais réellement exposés pour la remise en état du jardin endommagé par un heurt, y compris celui causé par un animal (remise en état avec de jeunes plantations de la même espèce). Sont couverts : les dommages causés par le heurt par un véhicule (ou son chargement), un engin de chantier (ou son chargement) ou par un arbre; les dommages causés au bâtiment assuré par le heurt par un animal.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Remise en état du jardin (Pack Jardin) : maximum 15.000 EUR (y compris frais de déblai et frais annexes)",
+      "sub_limits": [
+        "Remise en état du jardin par un heurt (Pack Jardin) : maximum 15.000 EUR (y compris les frais de déblai et les frais annexes)"
+      ],
+      "deductible": "215,17 EUR par sinistre dû à une même cause (art. 41.6)",
+      "conditions": [],
+      "page": 10
+    },
+    {
+      "name": "Les dégradations immobilières à l'occasion d'un vol, d'une tentative de vol ou d'un acte de vandalisme (y compris les graffiti) ainsi que le vol de parties du bâtiment",
+      "description": "La compagnie indemnise les dégradations immobilières causées au bâtiment assuré à l'occasion d'un vol, d'une tentative de vol ou d'un acte de vandalisme (y compris les graffiti) ainsi que le vol de parties de ce bâtiment. Lorsque l'assuré est propriétaire du bâtiment, la garantie est également acquise à ses locataires et occupants; lorsque l'assuré est locataire ou occupant, la garantie est également acquise au propriétaire.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "215,17 EUR par sinistre dû à une même cause (art. 41.6)",
+      "conditions": [
+        "Sauf convention contraire aux conditions particulières, la compagnie n'intervient pas si le bâtiment principal (dans lequel les assurés vivent normalement) est irrégulièrement occupé ou totalement inoccupé"
+      ],
+      "page": 11
+    },
+    {
+      "name": "L'action directe de l'électricité",
+      "description": "La compagnie indemnise les dommages causés aux biens assurés qui sont la conséquence directe d'un court-circuit, d'une surcharge, d'une tension trop élevée ou d'une induction. Ainsi que les dommages aux denrées alimentaires à usage privé, contenues dans un congélateur ou un surgélateur, suite à un changement de température consécutif à un sinistre couvert (avec «Pack Habitation Plus», également si consécutifs à une interruption accidentelle de la fourniture du courant par le fournisseur d'énergie); les frais pour la recherche du défaut dans l'installation électrique à l'origine d'un sinistre couvert, ainsi que les frais en découlant, raisonnablement exposés, pour l'ouverture et la remise en état des parois, planchers, plafonds; l'électrocution des animaux domestiques.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "215,17 EUR par sinistre dû à une même cause (art. 41.6)",
+      "conditions": [],
+      "page": 11
+    },
+    {
+      "name": "La tempête, la grêle, la pression de la neige et de la glace",
+      "description": "La compagnie indemnise les dommages causés aux biens assurés par la tempête, la grêle, la pression de la neige et de la glace. Sont toutefois couverts les dommages aux meubles de jardin et au barbecue. La compagnie prend également en charge les dommages aux biens assurés causés par des objets renversés ou projetés à cette occasion. Avec le «Pack Jardin» : frais de remise en état du jardin (jeunes plantations de la même espèce) jusqu'à 15.000 EUR; couverture des dommages au contenu en plein air; couverture des pare-soleil, tentes solaires, stores, marquises, auvents en toile, enceintes de terrasse et brise-vent; couverture des constructions ouvertes ou pourvues d'une couverture provisoire et de leur contenu; couverture des constructions non scellées ni ancrées et de leur contenu. Avec le «Pack Habitation Plus» : dommages par la tempête aux carports (à l'exclusion de leur contenu).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Meubles de jardin et barbecue : max 1.500 EUR; Pack Jardin - contenu en plein air : max 5.000 EUR; Pack Jardin - ensemble (pare-soleil/stores/etc. + constructions ouvertes ou non ancrées et leur contenu) : max 5.000 EUR; remise en état du jardin (Pack Jardin) : max 15.000 EUR",
+      "sub_limits": [
+        "1.500 EUR pour les dommages aux meubles de jardin et au barbecue",
+        "5.000 EUR dans le cadre du «Pack Jardin» pour les dommages au contenu qui se trouve en plein air",
+        "5.000 EUR dans le cadre du «Pack Jardin» pour l'ensemble des dommages (pare-soleil/tentes solaires/stores/marquises/auvents/enceintes de terrasse/brise-vent + constructions ouvertes ou pourvues d'une couverture provisoire et leur contenu + constructions non scellées ni ancrées et leur contenu)",
+        "Remise en état du jardin (Pack Jardin) : maximum 15.000 EUR (y compris frais de déblai et frais annexes)"
+      ],
+      "deductible": "215,17 EUR par sinistre dû à une même cause (art. 41.6)",
+      "conditions": [],
+      "page": 11
+    },
+    {
+      "name": "Le bris de vitres, glaces, miroirs",
+      "description": "La compagnie indemnise le bris de vitres, glaces, miroirs, faisant partie des biens assurés. Ainsi que : le bris de panneaux transparents ou translucides en matière synthétique/plastique; les dommages causés par la condensation des vitrages isolants (pour autant que la garantie du fournisseur ou fabricant soit épuisée; chaque vitre endommagée est un sinistre distinct); le bris des panneaux solaires et capteurs solaires (pour autant qu'ils soient ancrés au bâtiment); le bris des enseignes; le bris de plaques de cuisson vitrocéramiques ou à induction. Avec le «Pack Habitation Plus» : le bris de vitraux d'art et le bris de sanitaires. Ainsi que, après un sinistre couvert : les frais de renouvellement des inscriptions, peintures, décorations et gravures; les dégâts par les éclats de verre aux biens assurés; les frais de réparation/remplacement des détecteurs de bris de vitrages et feuilles anti-effraction; les frais de clôture et d'obturation provisoire. Lorsque l'assuré est propriétaire, la garantie est également acquise à ses locataires et occupants (et inversement).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Pack Habitation Plus - vitraux d'art : max 5.000 EUR; Pack Jardin - serres à usage privé et leur contenu : max 5.000 EUR",
+      "sub_limits": [
+        "5.000 EUR dans le cadre du «Pack Habitation Plus» pour les vitraux d'art",
+        "5.000 EUR dans le cadre du «Pack Jardin» pour les serres à usage privé et leur contenu"
+      ],
+      "deductible": "215,17 EUR par sinistre dû à une même cause (art. 41.6)",
+      "conditions": [],
+      "page": 12
+    },
+    {
+      "name": "L'eau",
+      "description": "La compagnie indemnise les dommages causés aux biens assurés par l'eau. Ainsi que, en cas de sinistre couvert mais également si aucun dégât apparent : les frais de repérage des fuites; les frais d'ouverture et de remise en état des parois, planchers, plafonds, cours, terrasses et accès privés (et démontage/remontage des biens fixés à demeure) pour réparer les conduites ou tuyaux à l'origine du sinistre; avec «Pack Jardin» les frais d'ouverture et de remise en état du jardin; les frais de réparation ou de remplacement des parties de toitures, conduites, tuyaux, installations ou appareils à l'origine du sinistre. Après un sinistre couvert, la perte d'eau. Avec «Pack Jardin» : frais de dépollution ou de remplacement de l'eau des piscines extérieures fixées à demeure. Les dommages dus au développement de cryptogames (champignons, moisissures), quelle qu'en soit la cause, pour autant que la cause soit postérieure à la prise d'effet de la garantie.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Perte d'eau : maximum 500 EUR (porté à 1.000 EUR avec le «Pack Jardin»; supprimé avec le «Pack Habitation Plus»)",
+      "sub_limits": [
+        "Perte d'eau : maximum 500 EUR",
+        "Perte d'eau avec «Pack Jardin» : maximum 1.000 EUR (si l'eau perdue provient d'une piscine extérieure fixée à demeure, la limite est d'une fois le volume de la piscine)",
+        "Perte d'eau avec «Pack Habitation Plus» : limite de 500 EUR supprimée"
+      ],
+      "deductible": "215,17 EUR par sinistre dû à une même cause (art. 41.6)",
+      "conditions": [
+        "Mesures de prévention (art. 22.4) : installations hydrauliques coupées et vidangées dans la partie non chauffée en période de gel; biens assurés entretenus; parties de toitures/installations/conduites/tuyaux/appareils à l'origine d'un précédent sinistre réparées ou remplacées"
+      ],
+      "page": 13
+    },
+    {
+      "name": "Le mazout",
+      "description": "La compagnie indemnise les dommages causés aux biens assurés par le mazout. Ainsi que, en cas de sinistre couvert mais également si aucun dégât apparent : les frais de repérage des fuites; les frais d'ouverture et de remise en état des parois, planchers, plafonds, cours, terrasses et accès privés (et démontage/remontage des biens fixés à demeure); avec «Pack Jardin» les frais d'ouverture et de remise en état du jardin; les frais de réparation ou de remplacement des parties de conduites, tuyaux, installations ou appareils à l'origine du sinistre; les frais d'assainissement du sol pollué par l'écoulement du mazout (seulement lorsque les normes légales/réglementaires en matière de pollution sont dépassées et après l'intervention éventuelle d'un fonds d'assainissement mazout ou organisme similaire); la perte du mazout écoulé.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Frais d'assainissement du sol : max 6.000 EUR (porté à 10.000 EUR, ou 18.000 EUR avec certificat «Optitank», sous «Pack Habitation Plus»); perte du mazout écoulé : max 500 EUR (supprimée sous «Pack Habitation Plus»)",
+      "sub_limits": [
+        "6.000 EUR pour les frais d'assainissement du sol",
+        "Avec «Pack Habitation Plus» : 10.000 EUR (ou 18.000 EUR si la citerne à l'origine de l'écoulement dispose d'un certificat «Optitank»)",
+        "500 EUR pour la perte du mazout écoulé (supprimée avec «Pack Habitation Plus»)"
+      ],
+      "deductible": "215,17 EUR par sinistre dû à une même cause (art. 41.6)",
+      "conditions": [
+        "Mesures de prévention (art. 23.4) : législation/prescriptions/réglementations sur les réservoirs à mazout respectées; biens assurés entretenus; travaux de réparation ou remplacement nécessaires effectués"
+      ],
+      "page": 14
+    },
+    {
+      "name": "Responsabilité civile bâtiment",
+      "description": "La compagnie garantit la responsabilité civile qui peut incomber aux assurés en vertu des articles 1382 à 1384, 1386 et 1386 bis du Code Civil pour les dommages causés aux tiers, ainsi que sur base de l'article 1721 du Code Civil pour les dommages corporels causés au locataire ou à l'occupant du fait du bâtiment désigné, ses trottoirs et jardins attenants; du contenu assuré, à l'exception des véhicules à moteur; de l'encombrement des trottoirs, entre autres suite au défaut d'enlèvement de la neige, de la glace ou du verglas. La compagnie couvre en outre la responsabilité mise à charge de l'assuré sur base de l'article 544 du Code Civil du fait de troubles de voisinage excessifs (pour autant que les dommages résultent d'un événement soudain, involontaire et imprévu). La compagnie paie également, même au-delà des montants assurés, les intérêts, frais d'actions civiles, avocats et experts dans les limites de la Loi.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Par sinistre : maximum 21.517.116 EUR pour les dommages résultant de lésions corporelles; maximum 1.075.832 EUR pour les dommages aux biens",
+      "sub_limits": [
+        "21.517.116 EUR par sinistre pour les dommages résultant de lésions corporelles",
+        "1.075.832 EUR par sinistre pour les dommages aux biens"
+      ],
+      "deductible": "215,17 EUR (art. 41.6); montants et franchises liés à l'indice des prix à la consommation (art. 38.2)",
+      "conditions": [
+        "Mesure de prévention : tous types d'ascenseurs doivent répondre aux prescriptions légales (contrat d'entretien en vigueur au moment du sinistre, contrôle périodique par organisme agréé)",
+        "Copropriété : montants octroyés une seule fois pour l'ensemble des assurés, non par assuré; les copropriétaires sont considérés comme tiers",
+        "Stipulation au profit des tiers lésés (art. 1121 du Code Civil)"
+      ],
+      "page": 15
+    },
+    {
+      "name": "Recours des tiers",
+      "description": "La compagnie couvre la responsabilité que les tiers et les hôtes mettent à charge de l'assuré sur base des articles 1382 à 1386bis du Code Civil, pour les dégâts aux biens causés par un sinistre couvert se communicant à des biens leur appartenant, même si le preneur n'a pas subi personnellement de dégâts. La compagnie paie également, dans les limites de la Loi, les intérêts et les frais tels que prévus à l'article 24.3. Cette garantie est également applicable dans le cas où le propriétaire prévoit un abandon de recours envers le locataire ou l'occupant et que l'assuré, en sa qualité de locataire ou occupant, a uniquement assuré le contenu et que sa responsabilité est engagée.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Jusqu'à concurrence d'un maximum de 30% des capitaux assurés pour le bâtiment et le contenu avec un minimum de 1.250.000 EUR par sinistre",
+      "sub_limits": [],
+      "deductible": "215,17 EUR (art. 41.6); montants et franchises liés à l'indice des prix à la consommation (art. 38.2)",
+      "conditions": [],
+      "page": 16
+    },
+    {
+      "name": "Conflits du travail et attentats",
+      "description": "La compagnie indemnise les dommages aux biens assurés causés par des personnes prenant part à des conflits du travail ou à des attentats. La compagnie indemnise en outre les conséquences des mesures prises dans ce cas par une autorité légalement constituée pour la sauvegarde et la protection de ces biens. Pour les dommages causés par des actions de terrorisme, la loi du 1er avril 2007 est d'application et la compagnie est membre de l'ASBL TRIP; l'exécution de tous les engagements des membres est limitée à 1 milliard EUR par année civile (indexé). La compagnie peut suspendre la garantie lorsque, par mesure d'ordre général, elle y est autorisée par un arrêté motivé du Ministère des Affaires Economiques (suspension sept jours après notification).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Jusqu'à concurrence d'un maximum de 100% des montants assurés pour le bâtiment et le contenu, avec un maximum de 1.447.697 EUR par sinistre; terrorisme : 1 milliard EUR par année civile pour l'ensemble des membres de l'ASBL TRIP (indexé)",
+      "sub_limits": [],
+      "deductible": "215,17 EUR par sinistre dû à une même cause (art. 41.6)",
+      "conditions": [
+        "En cas de sinistre : le preneur s'engage à effectuer toutes les démarches auprès des autorités compétentes en vue de l'indemnisation et à rétrocéder à la compagnie l'indemnisation versée par les autorités en cas de double emploi"
+      ],
+      "page": 16
+    },
+    {
+      "name": "Les catastrophes naturelles",
+      "description": "La compagnie indemnise les dommages causés aux biens assurés par les catastrophes naturelles, à savoir exclusivement : une inondation; un débordement ou refoulement d'égouts publics; un tremblement de terre; un glissement ou affaissement de terrain; l'infiltration d'eau provenant de précipitations atmosphériques d'une intensité exceptionnelle ne pouvant pas ou de manière insuffisante être recueillies et évacuées par les égouts publics ou toute autre installation d'évacuation d'eau. Avec le «Pack Jardin» : frais de remise en état du jardin endommagé (jeunes plantations de la même espèce) jusqu'à 15.000 EUR.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Remise en état du jardin (Pack Jardin) : maximum 15.000 EUR (y compris frais de déblai et frais annexes); montant total des indemnités limité conformément à l'article 130 §2 et §3 de la Loi",
+      "sub_limits": [
+        "Remise en état du jardin (Pack Jardin) : maximum 15.000 EUR (y compris les frais de déblai et les frais annexes)"
+      ],
+      "deductible": "215,17 EUR par sinistre dû à une même cause (art. 41.6)",
+      "conditions": [
+        "Pour l'ensemble des contrats couvrant des risques simples, le montant total des indemnités dues aux assurés lors de la survenance d'une catastrophe naturelle est limité conformément à l'article 130 §2 et §3 de la Loi; si dépassement, l'indemnité de chaque contrat est réduite à due concurrence"
+      ],
+      "page": 18
+    },
+    {
+      "name": "Vol et vandalisme du contenu (garantie optionnelle)",
+      "description": "La compagnie indemnise la disparition du contenu assuré et les dégâts à celui-ci suite à un vol, une tentative de vol ou un acte de vandalisme, commis dans le bâtiment désigné : par effraction, escalade, usage de fausses clés ou de clés volées; par une personne qui s'est laissé enfermer ou s'est introduite furtivement; avec violences ou menaces sur la personne d'un assuré; par une personne qui a l'autorisation de se trouver dans le bâtiment (larcin); par une personne au service de l'assuré (à condition qu'une plainte ait été déposée). Le vol dans les annexes sans communication intérieure n'est couvert que si l'auteur s'y est introduit par effraction. Cette garantie couvre aussi le vol/vandalisme commis en dehors du bâtiment désigné (déplacement temporaire du contenu max 180 jours/an, vol avec violences ou menaces, et avec «Pack Vol Plus» : dans la voiture ou dans un logement d'étudiant loué en Belgique). Garantie accordée au premier risque (sans règle proportionnelle). En cas de vol ou perte des clés des portes extérieures, prise en charge des frais de déplacement d'un serrurier et de remplacement des serrures. Lorsque seul le contenu est assuré, indemnisation des dommages au bâtiment désigné jusqu'à 10.000 EUR.",
+      "is_optional": true,
+      "territorial_scope": "Bâtiment désigné; hors bâtiment désigné (déplacement temporaire du contenu max 180 jours/an; en Belgique en cas de déménagement 60 jours aux deux adresses)",
+      "limits": "Voir sous-limites (art. 28.7)",
+      "sub_limits": [
+        "1.000 EUR par sinistre pour les valeurs (2.000 EUR avec «Pack Vol Plus»)",
+        "7.500 EUR par objet, collection/paire considérée comme un seul objet (15.000 EUR avec «Pack Vol Plus»)",
+        "15% du montant assuré en contenu avec maximum 7.500 EUR par sinistre pour l'ensemble des bijoux (15.000 EUR par sinistre avec «Pack Vol Plus»)",
+        "2.500 EUR par sinistre en cas de larcin",
+        "4.000 EUR par sinistre en cas de déplacement temporaire du contenu (8.000 EUR avec «Pack Vol Plus»)",
+        "5.000 EUR par sinistre (Pack Jardin) pour les meubles de jardin, barbecue, objets de décoration extérieure et matériel de jardinage en plein air ou dans une construction ouverte ou une annexe sans communication intérieure",
+        "5.000 EUR par sinistre (Pack Vol Plus) en cas de vol dans la voiture",
+        "5.000 EUR par sinistre (Pack Vol Plus) en cas de vol dans un logement d'étudiant",
+        "2.500 EUR par sinistre pour le contenu de l'ensemble des annexes sans communication intérieure (5.000 EUR avec «Pack Vol Plus»)",
+        "2.500 EUR par sinistre en cas de vol avec violences ou menaces hors du bâtiment désigné (5.000 EUR avec «Pack Vol Plus»)",
+        "2.500 EUR par sinistre pour le contenu dans des caves, greniers ou garages fermés à clé si le preneur n'occupe qu'une partie du bâtiment",
+        "10.000 EUR pour les dommages au bâtiment désigné lorsque seul le contenu est assuré"
+      ],
+      "deductible": "215,17 EUR par sinistre dû à une même cause (art. 41.6)",
+      "conditions": [
+        "Mesures de prévention (art. 28.8) : en cas d'absence, verrouiller à clé toutes les portes donnant sur l'extérieur et fermer toutes les fenêtres/portes-fenêtres/ouvertures; exécuter les mesures de prévention mentionnées aux conditions particulières (par ex. système d'alarme)",
+        "Sauf convention contraire, pas d'intervention si le bâtiment principal est irrégulièrement occupé ou totalement inoccupé"
+      ],
+      "page": 20
+    },
+    {
+      "name": "Les pertes indirectes (garantie optionnelle)",
+      "description": "Lors d'un sinistre couvert dans le cadre des «Garanties de base» et de la garantie «Catastrophes naturelles», la compagnie augmente l'indemnisation contractuellement due de 10%. N'entrent pas en ligne de compte pour ce calcul les indemnités payées en vertu des garanties de responsabilité (responsabilité locative, RC bâtiment, recours des tiers), de la garantie de l'article 18 (dégradations immobilières lors d'un vol/vandalisme), de l'Assistance habitation et des frais d'expertise de l'article 34.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "Augmentation de 10% de l'indemnisation contractuellement due",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Sinistre couvert dans le cadre des «Garanties de base» et de la garantie «Catastrophes naturelles»"
+      ],
+      "page": 22
+    },
+    {
+      "name": "La protection juridique (garantie optionnelle)",
+      "description": "La gestion des dossiers «Protection Juridique» est confiée à «Arces». La garantie prend en charge : la défense pénale des assurés suite à un sinistre non intentionnel couvert; le recours contre un tiers responsable de dommages aux bâtiments et contenus assurés; le recours du locataire ou de l'occupant pour les dommages causés au contenu du bien loué; l'avance des fonds et de la franchise; les litiges contractuels avec l'assureur «incendie»; la contre-expertise (désignation d'un contre-expert pour évaluer les dommages); l'insolvabilité du tiers responsable; la caution pénale. La gestion amiable et le libre choix de l'avocat/expert sont garantis, ainsi qu'une clause d'objectivité en cas de divergence d'opinion.",
+      "is_optional": true,
+      "territorial_scope": "Litiges ayant lieu en Belgique",
+      "limits": "Défense pénale, recours contre un tiers responsable, recours du locataire ou de l'occupant : maximum 50.000 EUR (non indexés) par sinistre, sans franchise; insolvabilité du tiers responsable : maximum 15.000 EUR (non indexés) par sinistre après franchise de 415,68 EUR; avance de fonds sur indemnités : maximum 20.000 EUR (non indexés); avance de la franchise du tiers : maximum 215,17 EUR; caution pénale : maximum 15.000 EUR (non indexés)",
+      "sub_limits": [
+        "Défense pénale / recours contre un tiers / recours du locataire ou occupant : 50.000 EUR (non indexés) par sinistre, sans franchise",
+        "Insolvabilité du tiers responsable : 15.000 EUR (non indexés) par sinistre après franchise de 415,68 EUR (indice 200,61 - juillet 2006 - base 100 en 1981)",
+        "Avance de fonds sur indemnités : maximum 20.000 EUR (non indexés)",
+        "Avance de la franchise du tiers responsable : maximum 215,17 EUR (indice 207,69 - janvier 2008 - base 100 en 1981)",
+        "Caution pénale : maximum 15.000 EUR (non indexés)",
+        "Contre-expert : si dommages <= 12.500 EUR max 5% TVAc; 12.500,01-50.000 EUR max 4% TVAc; 50.000,01-124.000 EUR max 3% TVAc; > 124.000 EUR max 2% TVAc"
+      ],
+      "deductible": "Sans franchise pour la défense pénale, le recours contre un tiers et le recours du locataire ou de l'occupant; franchise de 415,68 EUR en cas d'insolvabilité du tiers responsable",
+      "conditions": [
+        "Transmettre les documents à Arces dans les plus brefs délais",
+        "Seuils d'intervention : pas d'intervention si les dommages en principal n'excèdent pas 207,84 EUR (Cour de Cassation : 2.078,40 EUR)"
+      ],
+      "page": 22
+    },
+    {
+      "name": "Frais de sauvetage et autres frais (garantie complémentaire)",
+      "description": "Frais de sauvetage et de conservation (frais exposés pour conserver les biens assurés pendant la durée normale de réparation/reconstruction/reconstitution; frais exposés pour déplacer ou replacer les biens assurés et sauvés; frais découlant des mesures demandées par la compagnie pour prévenir/atténuer les conséquences du sinistre; frais découlant des mesures urgentes et raisonnables prises d'initiative par l'assuré). Frais de déblais et de démolition. Frais de remise en état du jardin avec de jeunes plantations de la même espèce. Frais de logement pendant la période durant laquelle le bâtiment est inhabitable (maximum trois mois). Surcoût résultant des nouvelles normes de construction obligatoires (sous conditions).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Extensions accordées jusqu'à concurrence d'un montant égal à 100% des montants assurés pour le bâtiment et/ou la responsabilité locative ou d'occupant et/ou le contenu; frais de logement : maximum trois mois; frais de sauvetage remboursés dans les limites autorisées par les dispositions légales",
+      "sub_limits": [
+        "Frais de logement : maximum trois mois"
+      ],
+      "deductible": "Aucune franchise n'est déduite pour les Garanties complémentaires et dommages indirects (art. 41.6)",
+      "conditions": [
+        "Conséquence directe d'un sinistre couvert dans le cadre des garanties souscrites (à l'exception de la Protection Juridique et des Pertes indirectes)",
+        "Surcoût normes de construction : l'assuré propriétaire; maison unifamiliale ou appartement; réparation ou reconstruction effective; normes imposées dans les conditions de notification ou du permis"
+      ],
+      "page": 25
+    },
+    {
+      "name": "Chômage immobilier (garantie complémentaire)",
+      "description": "Indemnisation pendant la durée normale des réparations pour : la privation de jouissance immobilière subie par le propriétaire, estimée à la valeur locative des locaux sinistrés; la perte de loyer augmentée des charges fixes subies par le bailleur, si les locaux sinistrés sont donnés en location; la responsabilité de l'assuré pour les dommages précités. L'indemnité pour le chômage immobilier ne peut être cumulée, pour une même période, avec les «Frais de logement».",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Extensions accordées jusqu'à concurrence de 100% des montants assurés pour le bâtiment et/ou la responsabilité locative ou d'occupant et/ou le contenu",
+      "sub_limits": [],
+      "deductible": "Aucune franchise (Garanties complémentaires et dommages indirects)",
+      "conditions": [
+        "Conséquence directe d'un sinistre couvert",
+        "Non cumulable avec les «Frais de logement» pour une même période"
+      ],
+      "page": 25
+    },
+    {
+      "name": "Recours des locataires ou occupants (garantie complémentaire)",
+      "description": "Indemnisation des dégâts matériels en cas de responsabilité encourue par le bailleur à l'égard des locataires en vertu de l'article 1721 alinéa 2 du Code Civil; encourue par le propriétaire à l'égard des occupants.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Extensions accordées jusqu'à concurrence de 100% des montants assurés pour le bâtiment et/ou la responsabilité locative ou d'occupant et/ou le contenu",
+      "sub_limits": [],
+      "deductible": "Aucune franchise (Garanties complémentaires et dommages indirects)",
+      "conditions": [
+        "Conséquence directe d'un sinistre couvert"
+      ],
+      "page": 26
+    },
+    {
+      "name": "Frais d'expertise (garantie complémentaire)",
+      "description": "Frais et honoraires réclamés par un expert professionnel indépendant pour l'estimation du dommage. Si le preneur mandate un expert pour l'assister dans l'évaluation des dégâts, la compagnie intervient dans les coûts selon un barème. Si le preneur mandate un expert en vue de contester le montant de l'indemnité (contestation consignée par écrit), la compagnie avance les coûts, ainsi que ceux du troisième expert éventuellement désigné. Les coûts de l'expert du preneur et du troisième expert seront à charge de la partie à laquelle il n'a pas été donné raison.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Barème : jusqu'à 6.593,96 EUR : 5% avec minimum 164,84 EUR; 6.593,96-49.454,76 EUR : 329,69 EUR + 3,5% de la partie supérieure à 6.593,96 EUR; 49.454,76-247.273,78 EUR : 1.829,81 EUR + 2% de la partie supérieure à 49.454,76 EUR; 247.273,78-494.547,57 EUR : 5.786,20 EUR + 1,5% de la partie supérieure à 247.273,78 EUR; Plus de 494.547,57 EUR : 9.495,31 EUR + 0,75% de la partie supérieure à 494.547,57 EUR avec un maximum de 12.500 EUR. Avec «Pack Habitation Plus» : 494.547,57-1.318.793,55 EUR : 9.495,31 EUR + 0,75% de la partie supérieure à 494.547,57 EUR; Plus de 1.318.793,55 EUR : 15.677,15 EUR + 0,35% de la partie supérieure à 1.318.793,55 EUR avec un maximum de 24.727,37 EUR (montants TVA incluse)",
+      "sub_limits": [
+        "Maximum 12.500 EUR (barème standard)",
+        "Maximum 24.727,37 EUR avec «Pack Habitation Plus»"
+      ],
+      "deductible": "Aucune franchise (Garanties complémentaires et dommages indirects)",
+      "conditions": [
+        "Conséquence directe d'un sinistre couvert",
+        "Les indemnités dues en vertu des garanties de responsabilité, de la responsabilité locative ou d'occupant et de la garantie «Pertes indirectes» n'entrent pas en ligne de compte"
+      ],
+      "page": 26
+    },
+    {
+      "name": "Accident mortel (garantie complémentaire)",
+      "description": "Lorsque le preneur d'assurance, son (sa) partenaire cohabitant(e) ou un de leurs enfants (de 5 ans ou plus) décède suite à un sinistre couvert dans le cadre des «Garanties de base», la compagnie octroie un montant de 15.000 EUR. Ce montant est octroyé une seule fois, quel que soit le nombre de victimes, à condition que le bâtiment ou la responsabilité locative ou d'occupant soit assuré. A défaut de bénéficiaire, ainsi qu'en cas de décès d'un enfant de moins de 5 ans, la compagnie rembourse uniquement les frais funéraires à concurrence de 5.000 EUR à la personne qui les a supportés.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "15.000 EUR (octroyé une seule fois); frais funéraires : 5.000 EUR",
+      "sub_limits": [
+        "15.000 EUR octroyés une seule fois quel que soit le nombre de victimes",
+        "Frais funéraires : 5.000 EUR à défaut de bénéficiaire ou en cas de décès d'un enfant de moins de 5 ans"
+      ],
+      "deductible": "Aucune franchise (Garanties complémentaires et dommages indirects)",
+      "conditions": [
+        "Décès suite à un sinistre couvert dans le cadre des «Garanties de base»",
+        "Non applicable si le contrat est souscrit par ou pour compte d'une association de fait ou d'une société ayant une personnalité juridique (sauf gérant d'une société dont la résidence principale est couverte)"
+      ],
+      "page": 26
+    },
+    {
+      "name": "Dégâts indirects (garantie complémentaire)",
+      "description": "S'ils sont consécutifs à un sinistre couvert ou s'ils résultent d'un sinistre relevant de ce contrat et se produisant en dehors des biens assurés, la compagnie indemnise les dégâts aux biens assurés occasionnés par : les secours ou tout moyen convenable d'extinction, de préservation ou de sauvetage; les démolitions ou destructions ordonnées pour arrêter la progression d'un sinistre; les effondrements; la fumée, la chaleur, la suie ou les vapeurs; les précipitations atmosphériques, le gel ou le vent; la fermentation ou la combustion spontanée.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Extensions accordées jusqu'à concurrence de 100% des montants assurés pour le bâtiment et/ou la responsabilité locative ou d'occupant et/ou le contenu",
+      "sub_limits": [],
+      "deductible": "Aucune franchise (Garanties complémentaires et dommages indirects)",
+      "conditions": [
+        "Consécutifs à un sinistre couvert ou résultant d'un sinistre relevant du contrat se produisant en dehors des biens assurés"
+      ],
+      "page": 27
+    },
+    {
+      "name": "Extension - Garage privé situé à une autre adresse",
+      "description": "Lorsque l'assuré est propriétaire, locataire ou occupant pour son usage privé, d'un garage situé à une autre adresse, la compagnie couvre les dommages à ce garage, la responsabilité locative ou d'occupant de ce garage et les dommages au mobilier assuré s'y trouvant. La garantie prévue à l'article 18 (dégradations immobilières lors d'un vol/vandalisme) n'est pas acquise.",
+      "is_optional": false,
+      "territorial_scope": "Autre adresse (garage privé)",
+      "limits": "Dommages au garage : maximum 8.500 EUR; responsabilité locative ou d'occupant : maximum 8.500 EUR; mobilier assuré s'y trouvant : maximum 2.500 EUR",
+      "sub_limits": [
+        "8.500 EUR pour les dommages au garage",
+        "8.500 EUR pour la responsabilité locative ou d'occupant du garage",
+        "2.500 EUR pour les dommages au mobilier assuré se trouvant dans ce garage"
+      ],
+      "deductible": "215,17 EUR (art. 41.6)",
+      "conditions": [
+        "N'est accordée que si le présent contrat couvre la résidence principale de l'assuré",
+        "La garantie de l'article 18 n'est pas acquise"
+      ],
+      "page": 9
+    },
+    {
+      "name": "Extension - Résidence de vacances ou déplacement temporaire du mobilier",
+      "description": "La compagnie couvre, pendant une période de maximum 180 jours par année calendrier, partout dans le monde, dans le bâtiment où les assurés séjournent effectivement : leur responsabilité locative ou d'occupant d'une résidence de vacances louée temporairement; le mobilier assuré déplacé temporairement (= pas définitivement) et partiellement (= pas entièrement).",
+      "is_optional": false,
+      "territorial_scope": "Partout dans le monde, maximum 180 jours par année calendrier",
+      "limits": "Responsabilité locative ou d'occupant : maximum 840.000 EUR",
+      "sub_limits": [
+        "840.000 EUR pour la responsabilité locative ou d'occupant d'une résidence de vacances louée temporairement"
+      ],
+      "deductible": "215,17 EUR (art. 41.6)",
+      "conditions": [
+        "N'est accordée que si le présent contrat couvre la résidence principale de l'assuré"
+      ],
+      "page": 9
+    },
+    {
+      "name": "Extension - Logement d'étudiant",
+      "description": "La compagnie couvre la responsabilité locative ou d'occupant d'un logement d'étudiant partout dans le monde, en ce compris le contenu appartenant au propriétaire du logement d'étudiant, à condition que l'étudiant vive au foyer du preneur d'assurance; ainsi que le mobilier assuré se trouvant dans le logement d'étudiant.",
+      "is_optional": false,
+      "territorial_scope": "Partout dans le monde",
+      "limits": "Responsabilité locative ou d'occupant : maximum 82.000 EUR (y compris le contenu appartenant au propriétaire du logement d'étudiant)",
+      "sub_limits": [
+        "82.000 EUR pour la responsabilité locative ou d'occupant d'un logement d'étudiant, en ce compris le contenu du propriétaire"
+      ],
+      "deductible": "215,17 EUR (art. 41.6)",
+      "conditions": [
+        "N'est accordée que si le présent contrat couvre la résidence principale de l'assuré",
+        "L'étudiant doit vivre au foyer du preneur d'assurance"
+      ],
+      "page": 9
+    },
+    {
+      "name": "Extension - Locaux occupés à l'occasion d'une fête de famille",
+      "description": "La compagnie couvre, partout dans le monde, la responsabilité locative ou d'occupant d'un bâtiment ou d'une tente, y compris leur contenu, pour autant qu'ils soient utilisés temporairement à l'occasion d'une fête de famille (= fête célébrée avec de la famille). Cette garantie n'est valable que pour les fêtes de famille organisées par le preneur d'assurance ou par une personne vivant à son foyer.",
+      "is_optional": false,
+      "territorial_scope": "Partout dans le monde",
+      "limits": "Maximum 840.000 EUR",
+      "sub_limits": [
+        "840.000 EUR pour la responsabilité locative ou d'occupant d'un bâtiment ou d'une tente y compris leur contenu"
+      ],
+      "deductible": "215,17 EUR (art. 41.6)",
+      "conditions": [
+        "N'est accordée que si le présent contrat couvre la résidence principale de l'assuré",
+        "Fête de famille organisée par le preneur d'assurance ou par une personne vivant à son foyer"
+      ],
+      "page": 9
+    },
+    {
+      "name": "Extension - Centre de soins résidentiels",
+      "description": "La compagnie couvre les dégâts au mobilier assuré, survenus dans la chambre ou l'appartement occupé par l'époux/l'épouse, le (la) cohabitant(e) légal(e) ou les ascendants du preneur d'assurance (et qui cohabitaient précédemment avec lui) dans un centre de soins résidentiels en Belgique.",
+      "is_optional": false,
+      "territorial_scope": "Centre de soins résidentiels en Belgique",
+      "limits": "Maximum 12.500 EUR",
+      "sub_limits": [
+        "12.500 EUR pour les dégâts au mobilier assuré dans un centre de soins résidentiels"
+      ],
+      "deductible": "215,17 EUR (art. 41.6)",
+      "conditions": [
+        "N'est accordée que si le présent contrat couvre la résidence principale de l'assuré"
+      ],
+      "page": 9
+    },
+    {
+      "name": "Extension - En cas de déménagement",
+      "description": "En cas de déménagement en Belgique, la garantie est d'application aux deux adresses pendant 60 jours à partir du déménagement. Après ces 60 jours, la garantie n'est acquise qu'à la nouvelle adresse. En cas de déménagement à l'étranger, la garantie cesse ses effets. Dans le cas où le preneur d'assurance reste propriétaire du bâtiment assuré dans ce contrat, il doit le communiquer à la compagnie.",
+      "is_optional": false,
+      "territorial_scope": "Belgique (deux adresses pendant 60 jours)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "215,17 EUR (art. 41.6)",
+      "conditions": [
+        "En cas de déménagement à l'étranger, la garantie cesse ses effets"
+      ],
+      "page": 9
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Dommages existant avant la prise d'effet",
+      "description": "La compagnie n'indemnise jamais les dommages existant avant la prise d'effet de la garantie concernée.",
+      "applies_to": "all",
+      "page": 7
+    },
+    {
+      "name": "Dommages intentionnels",
+      "description": "La compagnie n'indemnise jamais les dommages causés intentionnellement par un assuré ou dont il est complice.",
+      "applies_to": "all",
+      "page": 7
+    },
+    {
+      "name": "Bâtiments délabrés ou destinés à la démolition",
+      "description": "La compagnie n'indemnise jamais les dommages aux bâtiments délabrés ou destinés à la démolition ainsi que les dommages provoqués par ces bâtiments.",
+      "applies_to": "all",
+      "page": 7
+    },
+    {
+      "name": "Non-respect des mesures de prévention",
+      "description": "La compagnie n'indemnise jamais les dommages se rattachant directement ou indirectement au non-respect des mesures de prévention requises par la compagnie pour autant qu'il existe un lien causal entre les dommages et le non-respect de ces mesures de prévention.",
+      "applies_to": "all",
+      "page": 7
+    },
+    {
+      "name": "Guerre, confiscation, réquisition, ordres d'autorités",
+      "description": "La compagnie n'indemnise jamais les dommages se rattachant directement ou indirectement à la guerre, la guerre civile, la confiscation, la nationalisation, la réquisition ou aux ordres, donnés dans un tel contexte, de quelque gouvernement ou autorité que ce soit.",
+      "applies_to": "all",
+      "page": 7
+    },
+    {
+      "name": "Radioactivité",
+      "description": "La compagnie n'indemnise jamais les dommages se rattachant directement ou indirectement à la radioactivité. Cette exclusion n'est pas d'application pour les dommages causés par un acte de terrorisme.",
+      "applies_to": "all",
+      "page": 7
+    },
+    {
+      "name": "Pollution",
+      "description": "La compagnie n'indemnise jamais les dommages se rattachant directement ou indirectement à la pollution, à l'exception de ce qui est éventuellement couvert dans la garantie «L'eau», «Le mazout» et dans la garantie «Responsabilité civile bâtiment».",
+      "applies_to": "all",
+      "page": 7
+    },
+    {
+      "name": "Catastrophes naturelles (hors garantie spécifique)",
+      "description": "La compagnie n'indemnise jamais les dommages se rattachant directement ou indirectement aux catastrophes naturelles, à l'exception de ce qui est éventuellement couvert dans la garantie «Catastrophes naturelles» ou dans les conditions particulières.",
+      "applies_to": "all",
+      "page": 7
+    },
+    {
+      "name": "Incendie - objets dans/sur un foyer",
+      "description": "Sauf les dommages causés aux objets tombés, jetés ou posés dans ou sur un foyer (= lieu où l'on fait du feu).",
+      "applies_to": "L'incendie",
+      "page": 10
+    },
+    {
+      "name": "Incendie - dommages sans embrasement",
+      "description": "Sauf les dommages survenus sans embrasement (tels que les brûlures, les dommages causés par un excès de chaleur, par l'émanation, la projection ou la chute de combustibles).",
+      "applies_to": "L'incendie",
+      "page": 10
+    },
+    {
+      "name": "Explosion d'explosifs liés à l'activité professionnelle",
+      "description": "Sauf les dommages causés par l'explosion d'explosifs dont la présence dans le bâtiment assuré est inhérente à l'activité professionnelle qui y est exercée.",
+      "applies_to": "L'explosion",
+      "page": 10
+    },
+    {
+      "name": "Fumée et suie - feux ouverts",
+      "description": "Sauf les dommages causés par les feux ouverts.",
+      "applies_to": "La fumée et la suie suite au mauvais fonctionnement d'un appareil ménager ou de chauffage",
+      "page": 10
+    },
+    {
+      "name": "Heurt - bien ayant causé le heurt",
+      "description": "Sauf les dommages au bien (y compris les animaux) qui a causé le heurt.",
+      "applies_to": "Le heurt",
+      "page": 10
+    },
+    {
+      "name": "Heurt - causé par un assuré ou un bien de l'assuré",
+      "description": "Sauf les dommages causés par un assuré, un locataire, un occupant, un hôte ou par un bien dont un assuré, un locataire, un occupant, ou un hôte est propriétaire ou détenteur. Sont cependant couverts : les dommages causés par le heurt par un véhicule (ou son chargement), un engin de chantier (ou son chargement) ou par un arbre; les dommages causés au bâtiment assuré par le heurt par un animal.",
+      "applies_to": "Le heurt",
+      "page": 10
+    },
+    {
+      "name": "Dégradations immobilières lors d'un vol - complicité d'un assuré",
+      "description": "Sauf le vol et/ou les dommages par ou avec la complicité d'un assuré, d'un locataire ou d'un occupant du bâtiment ou par une personne vivant à leur foyer.",
+      "applies_to": "Les dégradations immobilières à l'occasion d'un vol, d'une tentative de vol ou d'un acte de vandalisme (y compris les graffiti) ainsi que le vol de parties du bâtiment",
+      "page": 11
+    },
+    {
+      "name": "Dégradations immobilières lors d'un vol - garage à une autre adresse",
+      "description": "Sauf le vol et/ou les dommages à un garage situé à une autre adresse.",
+      "applies_to": "Les dégradations immobilières à l'occasion d'un vol, d'une tentative de vol ou d'un acte de vandalisme (y compris les graffiti) ainsi que le vol de parties du bâtiment",
+      "page": 11
+    },
+    {
+      "name": "Dégradations immobilières lors d'un vol - bâtiment en travaux",
+      "description": "Sauf le vol et/ou les dommages causés lorsque le bâtiment est en cours de construction, de démolition, de rénovation, de transformation ou de réparation et qu'il existe un lien causal entre d'une part ces travaux et d'autre part les dommages et/ou le vol.",
+      "applies_to": "Les dégradations immobilières à l'occasion d'un vol, d'une tentative de vol ou d'un acte de vandalisme (y compris les graffiti) ainsi que le vol de parties du bâtiment",
+      "page": 11
+    },
+    {
+      "name": "Dégradations immobilières lors d'un vol - sans effraction dans les parties communes",
+      "description": "Sauf le vol et/ou les dommages commis sans effraction dans l'intérieure des parties communes.",
+      "applies_to": "Les dégradations immobilières à l'occasion d'un vol, d'une tentative de vol ou d'un acte de vandalisme (y compris les graffiti) ainsi que le vol de parties du bâtiment",
+      "page": 11
+    },
+    {
+      "name": "Dégradations immobilières lors d'un vol - dommages au contenu",
+      "description": "Sauf le vol et/ou les dommages au contenu.",
+      "applies_to": "Les dégradations immobilières à l'occasion d'un vol, d'une tentative de vol ou d'un acte de vandalisme (y compris les graffiti) ainsi que le vol de parties du bâtiment",
+      "page": 11
+    },
+    {
+      "name": "Dégradations immobilières lors d'un vol - bâtiment irrégulièrement occupé ou inoccupé",
+      "description": "Sauf convention contraire aux conditions particulières, la compagnie n'intervient pas si le bâtiment principal (dans lequel les assurés vivent normalement) est irrégulièrement occupé ou totalement inoccupé.",
+      "applies_to": "Les dégradations immobilières à l'occasion d'un vol, d'une tentative de vol ou d'un acte de vandalisme (y compris les graffiti) ainsi que le vol de parties du bâtiment",
+      "page": 11
+    },
+    {
+      "name": "Tempête - contenu en plein air",
+      "description": "Sauf les dommages au contenu qui se trouve en plein air. Sont toutefois couverts : les dommages aux meubles de jardin et au barbecue. Avec le «Pack Jardin», cette garantie est remplacée par une couverture des dommages au contenu qui se trouve en plein air.",
+      "applies_to": "La tempête, la grêle, la pression de la neige et de la glace",
+      "page": 11
+    },
+    {
+      "name": "Tempête - pare-soleil, stores, marquises, etc.",
+      "description": "Sauf les dommages aux pare-soleil, tentes solaires, stores, marquises, auvents en toile, enceintes de terrasse et brise-vent. Avec le «Pack Jardin», ces dommages sont couverts.",
+      "applies_to": "La tempête, la grêle, la pression de la neige et de la glace",
+      "page": 11
+    },
+    {
+      "name": "Tempête - constructions ouvertes ou couverture provisoire",
+      "description": "Sauf les dommages causés par la tempête aux constructions partiellement ou totalement ouvertes ou pourvues d'une couverture provisoire, ainsi qu'à leur contenu éventuel. Les murs et les clôtures sont cependant couverts. Avec le «Pack Habitation Plus», les dommages causés par la tempête aux carports sont couverts à l'exclusion de leur contenu. Avec le «Pack Jardin», les dommages aux constructions ouvertes ou pourvues d'une couverture provisoire ainsi qu'à leur contenu sont couverts.",
+      "applies_to": "La tempête, la grêle, la pression de la neige et de la glace",
+      "page": 11
+    },
+    {
+      "name": "Tempête - constructions délabrées",
+      "description": "Sauf les dommages aux constructions délabrées, ainsi qu'à leur contenu éventuel.",
+      "applies_to": "La tempête, la grêle, la pression de la neige et de la glace",
+      "page": 11
+    },
+    {
+      "name": "Tempête - bâtiment en travaux",
+      "description": "Sauf les dommages causés au bâtiment en cours de construction, démolition, rénovation, transformation ou réparation, lorsqu'il existe un lien causal entre ces travaux et les dommages. Si le bâtiment demeure habité pendant les travaux de rénovation, transformation ou réparation, la garantie reste acquise.",
+      "applies_to": "La tempête, la grêle, la pression de la neige et de la glace",
+      "page": 11
+    },
+    {
+      "name": "Tempête - vitrages du bâtiment",
+      "description": "Sauf les dommages aux vitrages du bâtiment.",
+      "applies_to": "La tempête, la grêle, la pression de la neige et de la glace",
+      "page": 11
+    },
+    {
+      "name": "Tempête - constructions non scellées ni ancrées",
+      "description": "Sauf les dommages causés par la tempête aux constructions qui ne sont pas, soit scellées, soit ancrées au sol ou à des fondations, ainsi qu'à leur contenu éventuel. Avec le «Pack Jardin», ces dommages sont couverts.",
+      "applies_to": "La tempête, la grêle, la pression de la neige et de la glace",
+      "page": 11
+    },
+    {
+      "name": "Bris de vitrages - rayures ou écaillements",
+      "description": "Sauf les rayures ou les écaillements.",
+      "applies_to": "Le bris de vitres, glaces, miroirs",
+      "page": 12
+    },
+    {
+      "name": "Bris de vitrages - biens non encore posés",
+      "description": "Sauf les dommages aux vitrages, glaces, miroirs ou autres biens visés à l'article 21.1, qui ne sont pas encore posés ou installés.",
+      "applies_to": "Le bris de vitres, glaces, miroirs",
+      "page": 12
+    },
+    {
+      "name": "Bris de vitrages - lors de travaux ou bâtiment en travaux",
+      "description": "Sauf les dommages aux vitrages, glaces, miroirs ou autres biens visés à l'article 21.1, lorsqu'ils font l'objet de travaux (à l'exception du nettoyage sans déplacement), ou lorsque le bâtiment est en cours de construction, démolition, rénovation, transformation ou réparation (et qu'il existe un lien causal entre ces travaux et les dommages).",
+      "applies_to": "Le bris de vitres, glaces, miroirs",
+      "page": 12
+    },
+    {
+      "name": "Bris de vitrages - serres et leur contenu",
+      "description": "Sauf les dommages aux serres et à leur contenu. Avec le «Pack Jardin», cette exclusion est supprimée.",
+      "applies_to": "Le bris de vitres, glaces, miroirs",
+      "page": 12
+    },
+    {
+      "name": "Bris de vitrages - locaux et éléments sanitaires",
+      "description": "Sauf les frais de réparation ou de réaménagement des locaux dans lesquels les sanitaires brisés ont été installés (tels que peinture et carrelage), ainsi que les éléments sanitaires (tels que les robinets et canalisations).",
+      "applies_to": "Le bris de vitres, glaces, miroirs",
+      "page": 13
+    },
+    {
+      "name": "Bris de vitrages - écrans",
+      "description": "Sauf les dommages aux écrans de télévision, d'ordinateur, ainsi qu'aux écrans multimédias. Avec le «Pack Habitation Plus», ces dommages sont couverts pour autant que la taille de ces écrans soit d'au moins 11 pouces.",
+      "applies_to": "Le bris de vitres, glaces, miroirs",
+      "page": 13
+    },
+    {
+      "name": "Eau - chaudières, citernes et boilers à l'origine du sinistre",
+      "description": "Sauf les dommages aux chaudières, citernes et boilers à l'origine du sinistre.",
+      "applies_to": "L'eau",
+      "page": 13
+    },
+    {
+      "name": "Eau - infiltration par fenêtres, portes, murs, etc.",
+      "description": "Sauf les dommages causés par l'infiltration d'eau par les fenêtres, portes, murs, cheminées, soupiraux, terrasses et balcons sauf si ces terrasses et balcons font partie de la toiture.",
+      "applies_to": "L'eau",
+      "page": 13
+    },
+    {
+      "name": "Eau - eaux souterraines",
+      "description": "Sauf les dommages causés par les eaux souterraines.",
+      "applies_to": "L'eau",
+      "page": 13
+    },
+    {
+      "name": "Eau - bâtiment en travaux",
+      "description": "Sauf les dommages causés lorsque le bâtiment est en cours de construction, démolition, rénovation, transformation ou réparation et qu'il existe un lien causal entre ces travaux et les dommages.",
+      "applies_to": "L'eau",
+      "page": 13
+    },
+    {
+      "name": "Eau - récipient non relié à l'installation hydraulique",
+      "description": "Sauf les dommages causés par l'écoulement de l'eau d'un récipient qui n'est pas relié à l'installation hydraulique du bâtiment. Sont bien couverts les dommages causés par l'écoulement de l'eau des aquariums et des matelas d'eau.",
+      "applies_to": "L'eau",
+      "page": 13
+    },
+    {
+      "name": "Eau - condensation",
+      "description": "Sauf les dommages causés par la condensation.",
+      "applies_to": "L'eau",
+      "page": 13
+    },
+    {
+      "name": "Eau - vapeur",
+      "description": "Sauf les dommages causés par l'eau sous forme de vapeur.",
+      "applies_to": "L'eau",
+      "page": 13
+    },
+    {
+      "name": "Eau - forme solide (glace)",
+      "description": "Sauf les dommages causés par l'eau sous forme solide (glace). Toutefois les dommages causés par l'écoulement de l'eau qui en résulte sont couverts pour autant que les mesures de prévention prévues au point 22.4 aient été respectées.",
+      "applies_to": "L'eau",
+      "page": 13
+    },
+    {
+      "name": "Eau - corrosion",
+      "description": "Sauf les dommages causés par la corrosion. Si la corrosion n'était pas visible pour l'assuré, le premier sinistre est cependant couvert.",
+      "applies_to": "L'eau",
+      "page": 13
+    },
+    {
+      "name": "Eau - contenu à l'extérieur sous la pluie",
+      "description": "Sauf les dommages au contenu qui se trouve à l'extérieur sous la pluie.",
+      "applies_to": "L'eau",
+      "page": 13
+    },
+    {
+      "name": "Eau - contenu tombé, jeté ou posé dans l'eau",
+      "description": "Sauf les dommages au contenu tombé, jeté ou posé dans l'eau.",
+      "applies_to": "L'eau",
+      "page": 13
+    },
+    {
+      "name": "Eau - événement relevant des catastrophes naturelles",
+      "description": "Sauf les dommages causés par un événement énuméré à l'article 27.1 dans le cadre de la garantie «Catastrophes naturelles».",
+      "applies_to": "L'eau",
+      "page": 13
+    },
+    {
+      "name": "Mazout - bâtiment en travaux",
+      "description": "Sauf les dommages lorsque le bâtiment est en cours de construction, démolition, rénovation, transformation ou réparation et qu'il existe un lien causal entre ces travaux et les dommages.",
+      "applies_to": "Le mazout",
+      "page": 14
+    },
+    {
+      "name": "Mazout - citernes à l'origine du sinistre",
+      "description": "Sauf les dommages aux citernes à l'origine du sinistre.",
+      "applies_to": "Le mazout",
+      "page": 14
+    },
+    {
+      "name": "RC bâtiment - exercice d'une profession / préposé",
+      "description": "La compagnie n'indemnise pas les dommages causés du fait de l'exercice d'une profession, ou causés par un préposé lorsqu'il agit en cette qualité.",
+      "applies_to": "Responsabilité civile bâtiment",
+      "page": 15
+    },
+    {
+      "name": "RC bâtiment - associés, gérants, syndics, administrateurs, commissaires",
+      "description": "La compagnie n'indemnise pas les dommages encourus par les associés, gérants, syndics, administrateurs ou commissaires du preneur d'assurance.",
+      "applies_to": "Responsabilité civile bâtiment",
+      "page": 15
+    },
+    {
+      "name": "RC bâtiment - animaux et biens loués/utilisés/en garde",
+      "description": "La compagnie n'indemnise pas les dommages causés aux animaux et aux biens loués ou utilisés par l'assuré, ou dont il a la garde.",
+      "applies_to": "Responsabilité civile bâtiment",
+      "page": 15
+    },
+    {
+      "name": "RC bâtiment - amendes et frais de procédure pénale",
+      "description": "La compagnie n'indemnise pas les amendes et les frais de procédure pénale.",
+      "applies_to": "Responsabilité civile bâtiment",
+      "page": 15
+    },
+    {
+      "name": "RC bâtiment - bâtiment en travaux",
+      "description": "La compagnie n'indemnise pas les dommages lorsque le bâtiment est en cours de construction, démolition, rénovation, transformation ou réparation, et qu'il existe un lien causal entre ces travaux et les dommages.",
+      "applies_to": "Responsabilité civile bâtiment",
+      "page": 15
+    },
+    {
+      "name": "RC bâtiment - dégâts par incendie, explosion, fumée, suie, cryptogames ou mazout",
+      "description": "La compagnie n'indemnise pas les dégâts matériels causés par incendie, explosion, fumée, suie, cryptogames (champignons, moisissures) ou mazout (lesquels seront éventuellement indemnisés dans le cadre de la garantie «Recours des tiers»).",
+      "applies_to": "Responsabilité civile bâtiment",
+      "page": 15
+    },
+    {
+      "name": "RC bâtiment - pollution",
+      "description": "La compagnie n'indemnise pas la pollution, sauf si elle est la conséquence d'un événement soudain et imprévisible pour les assurés.",
+      "applies_to": "Responsabilité civile bâtiment",
+      "page": 15
+    },
+    {
+      "name": "RC bâtiment - amiante",
+      "description": "La compagnie n'indemnise pas les dommages liés à l'amiante. Toutefois, la responsabilité civile pouvant incomber aux assurés en vertu des articles 1382 à 1384, 1386 et 1386 bis du Code Civil reste couverte pour les dommages causés aux tiers par le bâtiment désigné (ou la partie de bâtiment désigné) qui leur sert de résidence principale ou de logement dans le cadre de leurs études, pour autant que ce bâtiment ne soit pas en cours de construction, reconstruction ou transformation.",
+      "applies_to": "Responsabilité civile bâtiment",
+      "page": 15
+    },
+    {
+      "name": "Conflits du travail et attentats - armes/engins à modification de structure du noyau atomique",
+      "description": "La compagnie n'indemnise jamais les dommages causés par des armes ou des engins destinés à exploser par une modification de structure du noyau atomique.",
+      "applies_to": "Conflits du travail et attentats",
+      "page": 16
+    },
+    {
+      "name": "Catastrophes naturelles - objets en dehors des bâtiments",
+      "description": "Sauf les dommages aux objets se trouvant en dehors des bâtiments, sauf s'ils y sont fixés à demeure.",
+      "applies_to": "Les catastrophes naturelles",
+      "page": 18
+    },
+    {
+      "name": "Catastrophes naturelles - contenu des caves à moins de 10 cm du sol",
+      "description": "Sauf les dommages causés par une inondation ou par un débordement ou refoulement d'égouts publics au contenu des caves entreposé à moins de 10 cm du sol, à l'exception des installations de chauffage, d'électricité et d'eau qui y sont fixés à demeure. Avec le «Pack Habitation Plus», cette exclusion n'est pas d'application.",
+      "applies_to": "Les catastrophes naturelles",
+      "page": 18
+    },
+    {
+      "name": "Catastrophes naturelles - constructions faciles à déplacer ou démonter",
+      "description": "Sauf les dommages aux constructions faciles à déplacer ou à démonter et à leur contenu éventuel, sauf si ces constructions constituent le logement principal de l'assuré.",
+      "applies_to": "Les catastrophes naturelles",
+      "page": 18
+    },
+    {
+      "name": "Catastrophes naturelles - constructions délabrées ou en démolition",
+      "description": "Sauf les dommages aux constructions délabrées ou en cours de démolition et à leur contenu éventuel, sauf si ces constructions constituent le logement principal de l'assuré.",
+      "applies_to": "Les catastrophes naturelles",
+      "page": 18
+    },
+    {
+      "name": "Catastrophes naturelles - abris de jardins, remises, débarras",
+      "description": "Sauf les dommages aux abris de jardins, remises, débarras et à leur contenu éventuel. Avec le «Pack Jardin», cette exclusion n'est pas d'application.",
+      "applies_to": "Les catastrophes naturelles",
+      "page": 18
+    },
+    {
+      "name": "Catastrophes naturelles - accès",
+      "description": "Sauf les dommages aux accès. Avec le «Pack Jardin», les dommages aux accès privés sont couverts.",
+      "applies_to": "Les catastrophes naturelles",
+      "page": 18
+    },
+    {
+      "name": "Catastrophes naturelles - cours et terrasses",
+      "description": "Sauf les dommages aux cours et aux terrasses. Avec le «Pack Jardin», cette exclusion n'est pas d'application.",
+      "applies_to": "Les catastrophes naturelles",
+      "page": 18
+    },
+    {
+      "name": "Catastrophes naturelles - haies",
+      "description": "Sauf les dommages aux haies. Avec le «Pack Jardin», cette exclusion n'est pas d'application.",
+      "applies_to": "Les catastrophes naturelles",
+      "page": 18
+    },
+    {
+      "name": "Catastrophes naturelles - biens à caractère somptuaire",
+      "description": "Sauf les dommages aux biens à caractère somptuaire (piscines, tennis et golfs). Avec le «Pack Jardin», cette exclusion n'est pas d'application.",
+      "applies_to": "Les catastrophes naturelles",
+      "page": 18
+    },
+    {
+      "name": "Catastrophes naturelles - bâtiments en travaux",
+      "description": "Sauf les dommages aux bâtiments ou parties de bâtiment en cours de construction, de transformation ou de réparation et à leur contenu éventuel sauf s'ils sont habités ou normalement habitables. Avec le «Pack Habitation Plus», cette exclusion n'est pas d'application.",
+      "applies_to": "Les catastrophes naturelles",
+      "page": 18
+    },
+    {
+      "name": "Catastrophes naturelles - biens couverts par lois particulières ou conventions internationales",
+      "description": "Sauf les dommages aux biens dont la réparation des dommages est organisée par des lois particulières ou par des conventions internationales.",
+      "applies_to": "Les catastrophes naturelles",
+      "page": 18
+    },
+    {
+      "name": "Catastrophes naturelles - biens transportés et véhicules",
+      "description": "Sauf les dommages aux biens transportés et aux véhicules terrestres à moteur, aériens, maritimes, lacustres et fluviaux.",
+      "applies_to": "Les catastrophes naturelles",
+      "page": 18
+    },
+    {
+      "name": "Catastrophes naturelles - récoltes, cheptel, sol, cultures, peuplement forestier",
+      "description": "Sauf les dommages aux récoltes non engrangées, au cheptel vivant en dehors du bâtiment, au sol, aux cultures et au peuplement forestier.",
+      "applies_to": "Les catastrophes naturelles",
+      "page": 18
+    },
+    {
+      "name": "Catastrophes naturelles - rayonnements ionisants",
+      "description": "Sauf les dommages causés par toute source de rayonnements ionisants.",
+      "applies_to": "Les catastrophes naturelles",
+      "page": 18
+    },
+    {
+      "name": "Catastrophes naturelles - vol, vandalisme et actes de malveillance",
+      "description": "Sauf les dommages par le vol, le vandalisme, les dégradations immobilières et mobilières commises lors d'un vol ou d'une tentative de vol et les actes de malveillance rendus possibles ou facilités par une catastrophe naturelle.",
+      "applies_to": "Les catastrophes naturelles",
+      "page": 18
+    },
+    {
+      "name": "Catastrophes naturelles - biens en zone à risque construits après classement",
+      "description": "Sauf les dommages causés par une inondation ou un débordement ou refoulement d'égouts publics, au bâtiment, à une partie de bâtiment ou au contenu d'un bâtiment qui a été construit plus de dix-huit mois après la date de publication au Moniteur Belge de l'arrêté royal classant la zone où ce bâtiment est situé comme zone à risque. Cette exclusion est également appliquée aux extensions au sol des biens existant avant la date de classement de la zone à risque. Elle n'est pas applicable aux biens ou parties de biens qui sont reconstruits ou reconstitués après un sinistre et qui correspondent à la valeur de reconstruction ou de reconstitution des biens avant le sinistre.",
+      "applies_to": "Les catastrophes naturelles",
+      "page": 18
+    },
+    {
+      "name": "Vol et vandalisme du contenu - faits commis par un assuré/ascendant/descendant/associé",
+      "description": "La compagnie n'indemnise pas les faits commis, en tant qu'auteur ou complice, par un assuré, par un ascendant ou un descendant du preneur d'assurance ou d'une personne vivant à son foyer, ou par un associé du preneur d'assurance.",
+      "applies_to": "Vol et vandalisme du contenu (garantie optionnelle)",
+      "page": 20
+    },
+    {
+      "name": "Vol et vandalisme du contenu - contenu en plein air ou construction ouverte",
+      "description": "La compagnie n'indemnise pas le vol, la tentative de vol ou le vandalisme du contenu se trouvant en plein air ou dans une construction totalement ou partiellement ouverte. Toutefois, avec le «Pack Jardin», la compagnie indemnise le vol, la tentative de vol ou le vandalisme des meubles de jardin, du barbecue, des objets de décoration extérieure et du matériel de jardinage.",
+      "applies_to": "Vol et vandalisme du contenu (garantie optionnelle)",
+      "page": 20
+    },
+    {
+      "name": "Vol et vandalisme du contenu - bâtiment endommagé ou en travaux",
+      "description": "La compagnie n'indemnise pas le vol, la tentative de vol ou le vandalisme commis dans un bâtiment déjà endommagé, ou dans un bâtiment en cours de construction, de démolition ou de transformation, lorsqu'il existe un lien causal avec les dommages.",
+      "applies_to": "Vol et vandalisme du contenu (garantie optionnelle)",
+      "page": 21
+    },
+    {
+      "name": "Vol et vandalisme du contenu - parties communes, caves/greniers/garages non fermés à clé",
+      "description": "Si le preneur d'assurance occupe partiellement le bâtiment désigné : la compagnie n'indemnise pas le vol, la tentative de vol ou le vandalisme du contenu se trouvant dans les parties communes, ou dans des caves, greniers ou garages qui ne sont pas fermés à clé, ainsi que les dégradations qui l'accompagnent.",
+      "applies_to": "Vol et vandalisme du contenu (garantie optionnelle)",
+      "page": 21
+    },
+    {
+      "name": "Vol et vandalisme du contenu - enseignes",
+      "description": "La compagnie n'indemnise pas le vol, la tentative de vol ou le vandalisme aux enseignes.",
+      "applies_to": "Vol et vandalisme du contenu (garantie optionnelle)",
+      "page": 21
+    },
+    {
+      "name": "Vol et vandalisme du contenu - bâtiment irrégulièrement occupé ou inoccupé",
+      "description": "Sauf convention contraire aux conditions particulières, la compagnie n'intervient pas pour les sinistres survenus à l'adresse du bâtiment désigné si le bâtiment principal (dans lequel les assurés vivent normalement) est irrégulièrement occupé ou totalement inoccupé.",
+      "applies_to": "Vol et vandalisme du contenu (garantie optionnelle)",
+      "page": 21
+    },
+    {
+      "name": "Protection Juridique - montants de condamnation de l'assuré",
+      "description": "La garantie 'Protection Juridique' n'intervient pas pour les montants auxquels l'assuré pourrait être condamné.",
+      "applies_to": "La protection juridique (garantie optionnelle)",
+      "page": 24
+    },
+    {
+      "name": "Protection Juridique - amendes, frais judiciaires pénaux, tests d'alcoolémie",
+      "description": "La garantie 'Protection Juridique' n'intervient pas pour les amendes pénales et administratives, frais judiciaires en matière pénale, transactions et frais de tests d'alcoolémie ou d'analyse sanguine.",
+      "applies_to": "La protection juridique (garantie optionnelle)",
+      "page": 24
+    },
+    {
+      "name": "Protection Juridique - sinistres intentionnels",
+      "description": "La garantie 'Protection Juridique' n'intervient pas pour les litiges découlant de sinistres causés intentionnellement par l'assuré.",
+      "applies_to": "La protection juridique (garantie optionnelle)",
+      "page": 24
+    },
+    {
+      "name": "Protection Juridique - grèves, émeutes, troubles auxquels l'assuré a pris part",
+      "description": "La garantie 'Protection Juridique' n'intervient pas pour les litiges découlant de grèves, émeutes et troubles politiques ou civils auxquels l'assuré a pris part.",
+      "applies_to": "La protection juridique (garantie optionnelle)",
+      "page": 24
+    },
+    {
+      "name": "Protection Juridique - intoxication alcoolique, ivresse, stupéfiants",
+      "description": "La garantie 'Protection Juridique' n'intervient pas pour les litiges découlant de sinistres que l'assuré a causés en état d'intoxication alcoolique, ivresse ou sous l'influence de stupéfiants.",
+      "applies_to": "La protection juridique (garantie optionnelle)",
+      "page": 24
+    },
+    {
+      "name": "Protection Juridique - seuils de dommages en principal",
+      "description": "La garantie 'Protection Juridique' n'intervient pas pour une action en justice si les dommages en principal n'excèdent pas 207,84 EUR ou une procédure devant la Cour de Cassation si les dommages en principal n'excèdent pas 2.078,40 EUR. Ces montants sont liés à l'indice des prix à la consommation (indice 200,61 - juillet 2006 - base 100 en 1981).",
+      "applies_to": "La protection juridique (garantie optionnelle)",
+      "page": 24
+    },
+    {
+      "name": "Protection Juridique - litiges entre assurés d'un même contrat",
+      "description": "La garantie 'Protection Juridique' n'intervient pas pour les litiges mettant en cause des assurés d'un même contrat ou leurs assureurs éventuels.",
+      "applies_to": "La protection juridique (garantie optionnelle)",
+      "page": 24
+    },
+    {
+      "name": "Protection Juridique - sinistres hors de Belgique",
+      "description": "La garantie 'Protection Juridique' n'intervient pas pour les litiges découlant de sinistres qui n'ont pas lieu en Belgique.",
+      "applies_to": "La protection juridique (garantie optionnelle)",
+      "page": 24
+    },
+    {
+      "name": "Protection Juridique - litiges basés sur l'article 544 ou vol/abus de confiance/escroquerie/faux",
+      "description": "La garantie 'Protection Juridique' n'intervient pas pour les litiges basés sur l'article 544 du Code Civil ou découlant d'un vol, d'une tentative de vol, d'une perte ou disparition de biens, d'un abus de confiance, d'une escroquerie ou faux en écriture.",
+      "applies_to": "La protection juridique (garantie optionnelle)",
+      "page": 24
+    },
+    {
+      "name": "Protection Juridique - litiges contractuels",
+      "description": "La garantie 'Protection Juridique' n'intervient pas pour les litiges contractuels (sauf le cas des litiges contractuels contre l'assureur «incendie» prévu à l'article 30.2.V).",
+      "applies_to": "La protection juridique (garantie optionnelle)",
+      "page": 24
+    },
+    {
+      "name": "Assistance Habitation - dommages dans les caravanes",
+      "description": "L'Assistance Habitation n'intervient pas en cas de dommages dans les caravanes.",
+      "applies_to": "VIVIUM Assistance - Envoi de réparateurs sur place",
+      "page": 5
+    },
+    {
+      "name": "Assistance Habitation - dommages aux appareils électroménagers ou audiovisuels",
+      "description": "L'Assistance Habitation n'intervient pas en cas de dommages aux appareils électroménagers ou audiovisuels.",
+      "applies_to": "VIVIUM Assistance - Envoi de réparateurs sur place",
+      "page": 5
+    },
+    {
+      "name": "Biens non assurés - valeurs au-delà du plafond",
+      "description": "Les valeurs sont assurées jusqu'à concurrence d'un maximum de 1.000 EUR (2.000 EUR avec le «Pack Habitation Plus» dans le cadre des garanties de base).",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Contenu exclu - exemplaires uniques et originaux de plans, documents, archives",
+      "description": "Le contenu ne comprend pas les exemplaires uniques et originaux de plans, modèles, documents, archives, bandes magnétiques et autres supports d'information.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Contenu exclu - véhicules à moteur 4 roues ou > 49cc",
+      "description": "Le contenu ne comprend pas les véhicules à moteur ayant 4 roues (ou plus) ou d'une cylindrée supérieure à 49cc (sauf les tracteurs à gazon).",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Contenu exclu - caravanes tractables",
+      "description": "Le contenu ne comprend pas les caravanes tractables.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Contenu exclu - remorques > 750 kg",
+      "description": "Le contenu ne comprend pas les remorques dont la masse maximale autorisée est supérieure à 750 kg.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Contenu exclu - panneaux et capteurs solaires",
+      "description": "Le contenu ne comprend pas les panneaux solaires et les capteurs solaires.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Biens non assurés - végétaux",
+      "description": "Les végétaux (en ce compris les jardins et pelouses) ne sont pas assurés, sauf s'ils forment clôture.",
+      "applies_to": "all",
+      "page": 7
+    }
+  ],
+  "deductibles": {
+    "standard": "Pour chaque sinistre dû à une même cause, une franchise de 215,17 EUR est déduite du montant des dégâts matériels.",
+    "variable": "Le montant de la franchise est déduit avant l'application de la règle de réversibilité et de la règle proportionnelle (art. 41.7 et 41.8). Les franchises sont liées à l'indice des prix à la consommation (indice de base janvier 2008 = 207,69, base 1981=100) (art. 38.2).",
+    "per_coverage": {
+      "Garanties complémentaires et dommages indirects": "Aucune franchise n'est déduite.",
+      "Assistance Habitation": "Aucune franchise n'est déduite.",
+      "Protection Juridique (défense pénale, recours contre un tiers, recours du locataire ou occupant)": "Sans application d'aucune franchise.",
+      "Protection Juridique (insolvabilité du tiers responsable)": "Franchise de 415,68 EUR (indice 200,61 - juillet 2006 - base 100 en 1981).",
+      "Contrats distincts contenu et bâtiment": "La franchise est appliquée dans chaque contrat."
+    },
+    "page": 31
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Déclaration correcte et complète du risque",
+      "description": "Le preneur d'assurance a l'obligation, aussi bien lors de la conclusion du contrat que pendant la durée de celui-ci, de déclarer le risque de façon correcte et complète à la compagnie. Le preneur doit, au cours du contrat, déclarer les éléments qui sont de nature à entraîner une aggravation sensible et durable du risque.",
+      "timing": "À la conclusion et pendant la durée du contrat",
+      "sanction": "Le non-respect de ces obligations peut conduire à une réduction de l'intervention de la compagnie conformément aux stipulations de la Loi.",
+      "page": 34
+    },
+    {
+      "name": "Déclaration du sinistre",
+      "description": "En cas de sinistre, l'assuré doit déclarer le sinistre à la compagnie aussi rapidement que cela peut raisonnablement se faire. La déclaration doit indiquer le lieu, la date, l'heure, la cause, les circonstances et les conséquences probables du sinistre ainsi que toute autre assurance qui couvre le même risque, et mentionner l'identité de l'auteur du sinistre, du préjudicié et d'éventuels témoins.",
+      "timing": "En cas de sinistre, aussi rapidement que raisonnablement possible",
+      "sanction": "Si l'assuré ne respecte pas ces obligations, la compagnie peut réduire l'indemnité à concurrence du préjudice qu'elle a subi. Si le manquement résulte d'une intention frauduleuse, la compagnie peut décliner sa garantie.",
+      "page": 30
+    },
+    {
+      "name": "Déclaration en cas de vol, tentative de vol ou vandalisme et dépôt de plainte",
+      "description": "En cas de vol, de tentative de vol ou de vandalisme, l'assuré doit faire cette déclaration à la compagnie le plus vite possible (au plus tard dans les 48 heures). En outre, il doit immédiatement (et au plus tard dans les 24 heures) déposer plainte auprès de la police. En cas de vol de titres au porteur, chèques, cartes de banque et de crédit, il doit faire immédiatement opposition.",
+      "timing": "En cas de vol/tentative/vandalisme : déclaration au plus tard dans les 48 heures; plainte au plus tard dans les 24 heures",
+      "sanction": "La compagnie n'invoquera pas le non-respect des délais si la déclaration a été faite aussi rapidement que possible.",
+      "page": 30
+    },
+    {
+      "name": "Description et estimation des dommages, préservation des biens",
+      "description": "L'assuré doit faire parvenir à la compagnie, au plus vite après sa déclaration, une description des dommages aux biens assurés, ainsi qu'une estimation du coût de leur réparation. Il doit éviter, dans la mesure du possible, de modifier l'état des biens endommagés. Avant de procéder aux réparations définitives, il doit obtenir l'accord de la compagnie et ne peut pas délaisser les biens assurés. Il doit pouvoir à tout instant prouver les dommages encourus et apporter la preuve de l'absence de créance hypothécaire ou privilégiée (à défaut, fournir une procuration des créanciers inscrits).",
+      "timing": "En cas de sinistre",
+      "sanction": "Réduction de l'indemnité à concurrence du préjudice subi; décline possible en cas d'intention frauduleuse.",
+      "page": 30
+    },
+    {
+      "name": "Transmission des actes judiciaires ou extrajudiciaires",
+      "description": "L'assuré doit transmettre à la compagnie toutes assignations, tous actes judiciaires ou extrajudiciaires, et cela dès qu'ils lui ont été remis ou signifiés.",
+      "timing": "En cas de sinistre / dès remise ou signification",
+      "sanction": "A défaut, la compagnie peut diminuer son intervention dans la mesure où cela lui a porté préjudice.",
+      "page": 30
+    },
+    {
+      "name": "Mesures de prévention - eau",
+      "description": "Les installations hydrauliques doivent être coupées et vidangées dans la partie du bâtiment qui n'est pas chauffée en période de gel. Les biens assurés doivent être entretenus. Les parties de toitures, installations, conduites, tuyaux ou appareils à l'origine d'un précédent sinistre doivent être réparées ou remplacées.",
+      "timing": "Prévention (pendant la durée du contrat)",
+      "sanction": "Le non-respect de ces mesures de prévention ne peut être invoqué à l'égard de l'assuré lorsque le manquement est imputable à un locataire ou à un tiers.",
+      "page": 14
+    },
+    {
+      "name": "Mesures de prévention - mazout",
+      "description": "La législation, les prescriptions et les réglementations en vigueur en matière de réservoirs à mazout doivent être respectées. Les biens assurés doivent être entretenus. Les travaux de réparation ou de remplacement nécessaires des installations doivent être effectués.",
+      "timing": "Prévention (pendant la durée du contrat)",
+      "sanction": "Le non-respect de ces mesures de prévention ne peut être invoqué à l'égard de l'assuré lorsque le manquement est imputable à un locataire ou à un tiers.",
+      "page": 14
+    },
+    {
+      "name": "Mesures de prévention - vol et vandalisme du contenu",
+      "description": "Le preneur d'assurance doit, en cas d'absence, verrouiller à clé toutes les portes donnant sur l'extérieur du bâtiment et fermer toutes les fenêtres, portes-fenêtres et autres ouvertures du bâtiment (par exemple les soupiraux); et exécuter les mesures de prévention mentionnées dans les conditions particulières (par exemple l'installation d'un système d'alarme et l'activation de celui-ci). Ces mesures sont également valables pour toutes les portes donnant sur les parties communes si l'assuré n'occupe qu'une partie du bâtiment, ainsi que pour le bâtiment dans lequel l'assuré séjourne temporairement.",
+      "timing": "Prévention (en cas d'absence)",
+      "sanction": "Non-respect des mesures de prévention requises exclu (art. 8) s'il existe un lien causal.",
+      "page": 21
+    },
+    {
+      "name": "Mesure de prévention - ascenseurs (RC bâtiment)",
+      "description": "Tous types d'ascenseurs doivent répondre aux prescriptions légales en la matière (il doit y avoir un contrat d'entretien en vigueur au moment du sinistre, soumis à un contrôle périodique d'un organisme agréé).",
+      "timing": "Prévention (pendant la durée du contrat)",
+      "sanction": null,
+      "page": 15
+    },
+    {
+      "name": "Interdiction de reconnaissance de responsabilité sans autorisation",
+      "description": "Toute reconnaissance de responsabilité, toute transaction, toute fixation de dommages, toute promesse d'indemnisation ou tout paiement fait par l'assuré sans autorisation écrite de la compagnie lui sont inopposables. L'aveu de la matérialité des faits ou la prise en charge par l'assuré des premiers secours pécuniaires ou des soins médicaux ne peuvent constituer une cause de refus de garantie.",
+      "timing": "En cas de sinistre",
+      "sanction": "Inopposabilité à la compagnie.",
+      "page": 34
+    },
+    {
+      "name": "Obligations de l'assuré en cas de sinistre - Protection Juridique",
+      "description": "Faire parvenir à la compagnie (Arces) au plus vite un exposé complet des faits et lui fournir tous les documents nécessaires; communiquer à la compagnie l'identité d'autres assureurs 'Protection Juridique' éventuels; n'exposer aucun frais ou honoraires sans l'accord préalable de la compagnie.",
+      "timing": "En cas de sinistre (Protection Juridique)",
+      "sanction": null,
+      "page": 24
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclaration du sinistre",
+      "description": "Déclarer le sinistre à la compagnie aussi rapidement que raisonnablement possible, en indiquant lieu, date, heure, cause, circonstances, conséquences probables, autres assurances, et l'identité de l'auteur, du préjudicié et des témoins.",
+      "deadline": "Aussi rapidement que raisonnablement possible (vol/tentative/vandalisme : au plus tard 48 heures; plainte à la police au plus tard 24 heures)",
+      "page": 30
+    },
+    {
+      "step": "Description et estimation des dommages",
+      "description": "Faire parvenir à la compagnie une description des dommages aux biens assurés et une estimation du coût de leur réparation; éviter de modifier l'état des biens endommagés; obtenir l'accord de la compagnie avant réparations définitives.",
+      "deadline": "Au plus vite après la déclaration",
+      "page": 30
+    },
+    {
+      "step": "Fixation des dommages",
+      "description": "Les dommages sont fixés soit de commun accord entre le preneur d'assurance et la compagnie, soit par expertise. En cas de contestation, l'assuré désigne un expert; si aucun accord, les deux experts choisissent un troisième expert; la décision définitive est prise par les trois experts à la majorité de voix.",
+      "deadline": "Clôture de l'expertise dans les 90 jours suivant la désignation d'un expert par l'assuré (ou la déclaration du sinistre)",
+      "page": 30
+    },
+    {
+      "step": "Paiement des frais de premier secours",
+      "description": "La compagnie verse le montant des frais de logement et d'autres frais de premier secours dans les 15 jours qui suivent la date de la notification de la preuve que ces dépenses ont été faites.",
+      "deadline": "15 jours après notification de la preuve des dépenses",
+      "page": 32
+    },
+    {
+      "step": "Paiement de l'indemnité",
+      "description": "La compagnie paie la partie de l'indemnité établie de commun accord dans les 30 jours suivant l'accord. L'indemnité (cas d'expertise, reconstruction, remplacement) doit être payée dans les 30 jours qui suivent la clôture de l'expertise ou la fixation du montant des dommages. En cas de non-respect des délais, la partie non payée entraîne un intérêt égal à deux fois le taux d'intérêt légal.",
+      "deadline": "30 jours (après accord ou clôture de l'expertise / fixation du montant des dommages)",
+      "page": 32
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Les garanties prennent effet à zéro heure à la date mentionnée dans les conditions particulières. La durée du contrat est d'un an.",
+    "tacit_renewal": true,
+    "notice_period": "Le contrat est reconduit tacitement pour des périodes consécutives d'un an, sauf si une des parties le résilie de la manière prescrite par la Loi au moins trois mois avant la fin de la période en cours.",
+    "methods": [
+      "Par exploit d'huissier",
+      "Par lettre recommandée",
+      "Par remise de la lettre de résiliation contre récépissé"
+    ],
+    "special_rights": [
+      "Par le preneur : pour la fin de chaque période d'assurance; lorsqu'un délai de plus d'un an s'écoule entre conclusion et prise d'effet; lorsque la compagnie réduit ou résilie une (ou plusieurs) garantie(s); après chaque déclaration de sinistre mais au plus tard un mois après le paiement ou le refus de paiement de l'indemnité (effet 3 mois après notification); en cas de diminution du risque; en cas de décès du preneur; en cas de modification du tarif (art. 47)",
+      "Par la compagnie : pour la fin de chaque période d'assurance; lorsqu'un délai de plus d'un an s'écoule entre conclusion et prise d'effet; lorsque le preneur n'accepte pas la modification du contrat en cas d'omission ou d'inexactitude non intentionnelles; en cas de non-paiement de la prime (art. 46); en cas de faillite du preneur; en cas de décès du preneur; après chaque déclaration de sinistre mais au plus tard un mois après le paiement ou le refus de paiement de l'indemnité (effet 3 mois après notification)",
+      "En cas de modification du tarif, le preneur averti au moins quatre mois avant l'échéance annuelle peut résilier dans les 30 jours de la notification de l'adaptation; le contrat prend fin à l'échéance annuelle suivante (sauf adaptation générale imposée par les autorités)",
+      "La portion de prime correspondant à la période postérieure à la prise d'effet de la résiliation est remboursée dans les 15 jours"
+    ],
+    "page": 34
+  },
+  "prescription_period": {
+    "description": null,
+    "page": null
+  },
+  "premium": {
+    "notes": [
+      "La prime, taxes et frais compris, est payable par anticipation et exigible à la date d'échéance.",
+      "Si la prime est payée d'une façon fractionnée (mensuelle, trimestrielle, semestrielle), en cas de non-paiement de la prime fractionnée, l'entièreté de la prime due jusqu'à la prochaine échéance annuelle deviendra immédiatement exigible.",
+      "En cas de non-paiement de la prime, la compagnie met le preneur en demeure par lettre recommandée (frais administratifs forfaitaires de deux fois et demi le tarif officiel de la Poste pour un envoi recommandé). A l'expiration d'un délai de quinze jours suivant la signification de la lettre recommandée, la garantie est suspendue ou le contrat résilié.",
+      "Lorsque la compagnie modifie son tarif, elle applique la modification à la première échéance annuelle suivante et avertit le preneur au moins quatre mois avant l'échéance annuelle (art. 47)."
+    ],
+    "indexation": "Les montants assurés, et par conséquent aussi la prime, et les limites d'indemnité sont automatiquement adaptés à l'échéance annuelle selon le rapport existant entre l'indice ABEX en vigueur au moment de cette échéance annuelle et l'indice ABEX indiqué aux conditions particulières (pour les montants assurés et la prime) ou l'indice ABEX 730 (pour les limites d'indemnité). Les montants assurés dans le cadre des garanties «Responsabilité civile bâtiment» et «Recours des tiers», ainsi que les franchises, sont toujours liés à l'indice des prix à la consommation (indice de base janvier 2008 = 207,69, base 1981=100).",
+    "page": 29
+  },
+  "special_conditions": [
+    {
+      "name": "Montants à assurer",
+      "description": "Bâtiment : en qualité de propriétaire, la valeur à neuf du bâtiment; en qualité de locataire ou occupant de l'entièreté, la valeur réelle; en qualité de locataire ou occupant d'une partie, la valeur réelle de la partie louée ou occupée. Contenu : sur base de la valeur à neuf, sauf : valeur réelle (linge, habillement, matériel, contenu confié, contenu appartenant à des tiers); valeur agréée (appareils électriques/électroniques à usage professionnel avec vétusté 0,5%/mois entamé après 2 ans, et à usage privé avec vétusté 5%/année entamée après 6 ans - après 10 ans avec «Pack Habitation Plus»); valeur de remplacement (meubles d'époque, objets d'art ou de collection, bijoux non commercialisés à l'état neuf, objets en métaux précieux, animaux domestiques); valeur vénale (véhicules à moteur, objets retirés de l'usage); valeur du jour (valeurs); valeur de reconstitution matérielle (documents, plans, modèles, supports d'information, programmes informatiques); valeur d'achat (marchandises). La TVA doit être comprise dans les montants dans la mesure où elle n'est pas récupérable, ainsi que les honoraires de l'architecte.",
+      "page": 28
+    },
+    {
+      "name": "Calcul de l'indemnité - biens en valeur à neuf (vétusté)",
+      "description": "Pour les biens assurés en valeur à neuf, la vétusté d'un bien assuré endommagé ou de la partie endommagée n'est déduite que pour la partie qui excède 30% de la valeur à neuf.",
+      "page": 31
+    },
+    {
+      "name": "Modalités d'indemnisation pour les appareils électriques et électroniques",
+      "description": "S'ils sont techniquement réparables, la compagnie prend en charge la facture des réparations. S'ils ne sont pas techniquement réparables, l'indemnisation se fait sur base de la valeur agréée (art. 37B). L'indemnité est en toutes circonstances limitée à la valeur d'un appareil neuf de performances comparables déterminée par un expert de la compagnie, et accordée jusqu'à concurrence d'un maximum de 8.000 EUR pour l'ensemble des appareils électriques à usage professionnel (limite non applicable avec «Pack Habitation Plus»).",
+      "page": 30
+    },
+    {
+      "name": "Réversibilité",
+      "description": "Si lors d'un sinistre, certains montants assurés sont insuffisants et d'autres surestimés, l'excédent de ces derniers sera reporté sur les montants insuffisamment assurés, en proportion des insuffisances et des taux de prime appliqués. La réversibilité n'est accordée que pour des biens appartenant à un même ensemble et se situant en un même lieu. Pour la garantie «Vol et vandalisme du contenu», la réversibilité ne s'applique qu'entre montants assurés pour le contenu.",
+      "page": 31
+    },
+    {
+      "name": "Règle proportionnelle et cas de suppression",
+      "description": "Si les montants assurés s'avèrent insuffisants, le montant de l'indemnité sera réduit en fonction du rapport entre le montant assuré et le montant qui aurait dû l'être. La compagnie n'applique pas la règle proportionnelle notamment : si une méthode reconnue de suppression a été correctement utilisée; si les montants ont été fixés par un délégué ou expert agréé; pour un locataire/occupant d'une partie du bâtiment si le montant assuré est égal à 20 fois le loyer annuel charges comprises; si la compagnie ne peut prouver avoir présenté un système de suppression; si l'insuffisance ne dépasse pas 10% du montant qui aurait dû être assuré; si l'indemnité ne dépasse pas 3.000 EUR; en cas d'assurance en premier risque ou en valeur agréée; aux montants dus en vertu des garanties «Responsabilité civile bâtiment» et «Recours des tiers»; aux frais des «Garanties complémentaires et dommages indirects».",
+      "page": 31
+    },
+    {
+      "name": "Indemnité minimale",
+      "description": "En cas d'assurance en valeur à neuf, si l'assuré reconstruit/reconstitue/remplace : 100% de cette valeur à neuf après déduction de la vétusté (art. 41.3). En cas d'assurance en valeur à neuf, s'il ne reconstruit/reconstitue/remplace pas : 80% de cette valeur à neuf après déduction de la vétusté. En cas d'assurance sur base d'une autre valeur : 100% de cette valeur. L'indemnité totale majorée ne peut dépasser 120% de l'indemnisation initialement prévue ni le coût total de la reconstruction.",
+      "page": 32
+    },
+    {
+      "name": "Recours (subrogation) et abandon de recours",
+      "description": "La compagnie peut récupérer le montant des indemnités payées auprès des personnes responsables du sinistre (subrogation). La compagnie renonce à tout recours contre le preneur (y compris ses descendants, ascendants, conjoint, alliés en ligne directe), les assurés autres que le preneur, les nus-propriétaires et usufruitiers assurés conjointement, les copropriétaires assurés conjointement, les personnes au service du preneur, les régies et fournisseurs (dans la mesure où le preneur a dû abandonner son recours), le bailleur (abandon prévu au bail) et le locataire (abandon prévu aux conditions particulières). L'abandon de recours ne sort pas ses effets en cas de malveillance; dans la mesure où le responsable est couvert par une assurance de responsabilité; pour autant que le responsable puisse lui-même exercer un recours contre tout autre responsable.",
+      "page": 33
+    },
+    {
+      "name": "Transfert de propriété, décès et faillite",
+      "description": "Transfert de propriété : pour les biens immeubles, la garantie prend fin de plein droit trois mois après la date de passation de l'acte authentique (sauf si elle prend fin préalablement); la garantie est également acquise au cessionnaire pour autant qu'il abandonne son recours contre le cédant. Pour les biens meubles, la garantie prend fin de plein droit à la date du transfert de propriété. Décès du preneur : les droits et obligations sont transmis au(x) nouveau(x) titulaire(s) de l'intérêt assuré. Faillite du preneur : le contrat subsiste au profit de la masse des créanciers.",
+      "page": 35
+    },
+    {
+      "name": "Hiérarchie des dispositions du contrat",
+      "description": "Les conditions particulières complètent les conditions générales et les remplacent en cas de contradiction.",
+      "page": 35
+    },
+    {
+      "name": "Législation d'application et juridiction compétente",
+      "description": "Ce contrat est régi par la législation belge. Seules les instances judiciaires belges sont compétentes pour les litiges relatifs à ce contrat.",
+      "page": 35
+    },
+    {
+      "name": "Datassur",
+      "description": "Toute escroquerie ou tentative d'escroquerie envers la compagnie entraîne la résiliation du contrat et fait l'objet de poursuites pénales sur la base de l'article 496 du Code pénal. En outre, l'intéressé est repris dans le fichier du groupe d'intérêt économique Datassur. Le preneur d'assurance donne son consentement à la communication par P&V Assurances SCRL au GIE Datassur des données à caractère personnel pertinentes.",
+      "page": 42
+    },
+    {
+      "name": "Plaintes",
+      "description": "Pour toute plainte relative à ce contrat, le preneur peut s'adresser en première instance au service Gestion des Plaintes de VIVIUM (plainte@vivium.be) puis à l'Ombudsman des Assurances (square de Meeûs 35, 1000 Bruxelles). Pour la garantie 'Protection Juridique', en première instance au service Gestion des Plaintes de Arces (gestiondesplaintes@arces.be) puis à l'Ombudsman des Assurances.",
+      "page": 42
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "La compagnie indemnise les dommages causés aux biens assurés par l'incendie.",
+      "context": "Garantie de base incendie",
+      "page": 10
+    },
+    {
+      "quote": "La compagnie n'indemnise jamais",
+      "context": "Chapeau des exclusions générales de l'article 8",
+      "page": 7
+    },
+    {
+      "quote": "La compagnie indemnise les dommages causés aux biens assurés par les catastrophes naturelles.",
+      "context": "Garantie catastrophes naturelles",
+      "page": 18
+    },
+    {
+      "quote": "La compagnie couvre, jusqu'à concurrence d'un maximum de 30% des capitaux assurés pour le bâtiment et le contenu avec un minimum de 1.250.000 EUR par sinistre, la responsabilité que les tiers et les hôtes mettent à charge de l'assuré sur base des articles 1382 à 1386bis du Code Civil, pour les dégâts aux biens causés par un sinistre couvert se communicant à des biens leur appartenant, même si le preneur d'assurance n'a pas subi personnellement de dégâts.",
+      "context": "Recours des tiers - limite",
+      "page": 16
+    },
+    {
+      "quote": "Pour chaque sinistre dû à une même cause, une franchise de 215,17 EUR est déduite du montant des dégâts matériels.",
+      "context": "Franchise standard",
+      "page": 31
+    },
+    {
+      "quote": "La durée du contrat est d'un an. Celui-ci est reconduit tacitement pour des périodes consécutives d'un an, sauf si une des parties le résilie de la manière prescrite par la Loi au moins trois mois avant la fin de la période en cours.",
+      "context": "Durée et reconduction tacite",
+      "page": 34
+    },
+    {
+      "quote": "La compagnie indemnise la disparition du contenu assuré et les dégâts à celui-ci suite à un vol, une tentative de vol ou un acte de vandalisme, commis dans le bâtiment désigné",
+      "context": "Garantie optionnelle Vol et vandalisme du contenu",
+      "page": 20
+    },
+    {
+      "quote": "Lors d'un sinistre couvert dans le cadre des «Garanties de base» et de la garantie «Catastrophes naturelles», la compagnie augmente l'indemnisation contractuellement due de 10%.",
+      "context": "Garantie optionnelle pertes indirectes",
+      "page": 22
+    }
+  ],
+  "gaps": [
+    "Aucun délai de prescription (prescription_period) n'est explicitement mentionné dans le texte fourni; le contrat renvoie de façon générale à la loi du 4 avril 2014 relative aux assurances sans préciser de délai.",
+    "Le document est un texte de conditions générales; les montants réels assurés, les packs effectivement souscrits (Pack Habitation Plus, Pack Jardin, Pack Vol Plus) et l'indice ABEX de référence ne figurent que dans les conditions particulières, non fournies ici.",
+    "La date d'édition exacte n'est indiquée que sous la forme de la référence VIV 292/01-2018 et 8.753F-01.2018 (janvier 2018); le format jour n'est pas précisé. Le source_url référence par ailleurs une version 11-2014, ce qui suggère une possible divergence de version entre l'URL et le contenu extrait."
+  ],
+  "superseded": null
+}

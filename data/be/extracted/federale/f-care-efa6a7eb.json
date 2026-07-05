@@ -1,0 +1,630 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "be",
+  "insurer_slug": "federale",
+  "insurer_name": "Fédérale Assurance",
+  "branch": "sante",
+  "document_type": "conditions_generales",
+  "language": "fr",
+  "source_url": "https://www.federale.be/docs/default-source/default-document-library/algemeene-voorwaarden/f-care---conditions-g%C3%A9n%C3%A9rales.pdf?sfvrsn=83ec7fd7_16",
+  "product_name": "F-CARE",
+  "reference": "51.30.290  11/20",
+  "edition_date": "11/20",
+  "target_audience": "Personnes liées professionnellement au Preneur d'assurance (assurés principaux) et certains membres de leur famille (assurés secondaires), dans le cadre d'une assurance collective soins de santé liée à l'activité professionnelle",
+  "branch_code": null,
+  "product_family": "F-Care",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_pages": 13,
+  "source_pdf": "f-care-hospitalisation-efa6a7eb.pdf",
+  "source_sha256": "b0413c700557cd337130ec2e0c2c335769d7b4f4de8c4534e42c809204043c29",
+  "fetched_at": "2026-07-05",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "F-Care est un contrat d'assurance collectif soins de santé lié à l'activité professionnelle, composé d'un contrat de base et d'un contrat complémentaire. Il a pour objet de protéger les assurés des conséquences financières d'une hospitalisation et de certains traitements médicaux en dehors d'une hospitalisation. Les assurés ont le libre choix du médecin traitant, de l'hôpital et du type de chambre. Ce document couvre la PARTIE I – GARANTIES DE BASE (hospitalisation et/ou soins ambulatoires en Belgique ou à l'étranger sous certaines conditions), la PARTIE II – GARANTIES COMPLEMENTAIRES (hospitalisation à caractère imprévisible et/ou assistance à l'étranger) étant détaillée dans un contrat complémentaire géré par Europ Assistance.",
+  "definitions": [
+    {
+      "term": "Accident",
+      "definition": "Un événement soudain et fortuit qui occasionne une lésion corporelle à l'assuré et dont la cause ou l'une des causes est extérieure à son organisme.",
+      "page": 3
+    },
+    {
+      "term": "Acte médical nécessaire",
+      "definition": "Tous les actes médicaux et paramédicaux administrés qui sont jugés nécessaires par une autorité médicale. Sont exclus, les actes fondés sur une conviction religieuse ou posés pour raisons personnelles.",
+      "page": 3
+    },
+    {
+      "term": "Année d'assurance",
+      "definition": "La période de 12 mois débutant à l'échéance qui est mentionnée aux conditions particulières.",
+      "page": 3
+    },
+    {
+      "term": "Appareil orthopédique",
+      "definition": "L'appareil destiné à corriger les difformités du corps.",
+      "page": 3
+    },
+    {
+      "term": "Assisteur",
+      "definition": "EUROP ASSISTANCE (Belgium) S.A., TVA BE 0457.247.904 RPM Bruxelles, agréée sous le numéro de code 1401 pour pratiquer les branches 01, 09, 13, 15, 16 et 18 (Assistance) (A.R. du 02.12.96, M.B. du 21.12.96), dont le siège social est établi Boulevard du Triomphe 172 à 1160 Bruxelles.",
+      "page": 3
+    },
+    {
+      "term": "AssurCard",
+      "definition": "La carte (électronique) qui permet le système du tiers payant.",
+      "page": 3
+    },
+    {
+      "term": "Assuré",
+      "definition": "La personne répondant aux critères d'affiliation repris aux conditions particulières, sur la tête de laquelle repose le risque de survenance de l'événement assuré et qui bénéficie des garanties du contrat d'assurance collectif soins de santé lié à l'activité professionnelle.",
+      "page": 3
+    },
+    {
+      "term": "Assuré principal",
+      "definition": "La personne liée professionnellement au Preneur d'assurance au moment de son affiliation à l'assurance collective soins de santé.",
+      "page": 4
+    },
+    {
+      "term": "Assuré(s) secondaire(s)",
+      "definition": "Le(s) membre(s) de la famille d'un assuré principal également affilié(s) à l'assurance collective soins de santé.",
+      "page": 4
+    },
+    {
+      "term": "Contrat d'assurance collectif soins de santé lié à l'activité professionnelle",
+      "definition": "L'assurance soins de santé conclue par un Preneur d'assurance au profit de plusieurs personnes liées professionnellement au Preneur d'assurance au moment de l'affiliation (désignées par le terme « assuré principal »). Le Preneur d'assurance peut étendre la couverture de l'assurance collective soins de santé liée à l'activité professionnelle à certains membres de la famille de l'assuré principal (désignés par le terme « assuré secondaire »).",
+      "page": 4
+    },
+    {
+      "term": "Délai d'attente",
+      "definition": "La période prenant cours à la date d'affiliation de l'assuré et pendant laquelle aucune prestation n'est due par la Société. Le délai d'attente est spécifié aux conditions particulières.",
+      "page": 4
+    },
+    {
+      "term": "Frais de séjour",
+      "definition": "Une partie des frais facturés par un hôpital. Le montant comprend : le prix de la journée d'hospitalisation ; le supplément facturé pour un séjour en chambre particulière normale, à l'exclusion de tous les frais de confort et de luxe ; le forfait journalier pour les médicaments.",
+      "page": 4
+    },
+    {
+      "term": "Frais pour transport d'urgence",
+      "definition": "Les frais de transport d'urgence en ambulance ainsi que le transfert d'un hôpital vers un autre ; en cas d'accident, les frais de transport par hélicoptère médicalisé pour autant qu'aucun autre moyen de transport ne puisse être utilisé.",
+      "page": 4
+    },
+    {
+      "term": "Franchise",
+      "definition": "La partie des frais remboursables qui reste à charge de l'assuré. Le montant de la franchise est spécifié aux conditions particulières. La franchise est appliquée par année d'assurance et par assuré. Toutefois, si plusieurs membres d'une même famille assurés par un même contrat d'assurance sont hospitalisés simultanément suite à un accident, une seule franchise sera d'application pour l'ensemble de la famille. De même, lorsqu'une hospitalisation continue chevauche deux années d'assurance, la franchise n'est déduite qu'une seule fois. La franchise n'est pas d'application pour la garantie complémentaire « Maladies graves ».",
+      "page": 4
+    },
+    {
+      "term": "Hôpital",
+      "definition": "Un établissement légalement agréé et identifié comme un hôpital et dans lequel sont dispensés aux patients enregistrés des consultations médicales spécialisées et/ou des traitements dans le domaine de la santé, de la chirurgie et éventuellement de l'obstétrique. Ne sont pas considérés comme hôpitaux : les hôpitaux ou parties d'hôpitaux agréés spécialement comme maisons de repos et de soins (MRS) ; les établissements psychiatriques fermés ; les établissements médico-pédagogiques ; les établissements destinés aux cures ou à la désintoxication ; les maisons de repos ou autres établissements destinés à l'hébergement des personnes âgées, des convalescents ou des enfants ; les habitations protégées.",
+      "page": 4
+    },
+    {
+      "term": "Hospitalisation",
+      "definition": "Le séjour dans un hôpital, pour autant que cet hôpital ait facturé au moins une nuit d'hospitalisation ou que l'intervention médicale pratiquée ait été effectuée en hôpital chirurgical de jour ou ait donné lieu à une intervention légale sur base d'un forfait pour hôpital de jour (forfait 1 à 7). N'est pas considéré comme une hospitalisation : tout séjour dans un hôpital dont le caractère nécessaire n'est pas médicalement motivé par un traitement (tel qu'un séjour qui a pour but principal la garde, l'entretien ou l'assistance de l'assuré).",
+      "page": 4
+    },
+    {
+      "term": "Hospitalisation ou soins ambulatoires planifiés à l'étranger",
+      "definition": "L'hospitalisation ou les soins ambulatoires à l'étranger que l'assuré a organisés de Belgique et par avance avec l'hôpital ou l'autorité médicale du pays concerné.",
+      "page": 4
+    },
+    {
+      "term": "Intervention légale",
+      "definition": "Le remboursement des frais médicaux et autres frais (frais connexes) prévus par la législation belge applicable aux travailleurs salariés et aux indépendants. Par législation belge applicable aux travailleurs salariés, on entend : la législation relative à l'assurance obligatoire contre la maladie et l'invalidité (A.M.I.) ; la législation relative aux accidents du travail et aux accidents sur le chemin du travail ; la législation relative aux maladies professionnelles. Par législation belge applicable aux indépendants, on entend la législation relative à l'assurance obligatoire contre la maladie et l'invalidité (A.M.I.).",
+      "page": 5
+    },
+    {
+      "term": "Maladie",
+      "definition": "Toute altération d'origine non accidentelle de l'état de santé, présentant des symptômes organiques qui permettent d'établir un diagnostic ainsi qu'un traitement thérapeutique adapté selon les standards médicaux reconnus. Sont notamment visées, les maladies physiques, psychiques, psychiatriques et les maladies dépressives.",
+      "page": 5
+    },
+    {
+      "term": "Matériel médical",
+      "definition": "Par matériel médical, on entend : a) le petit matériel médical acheté auprès d'un organisme agréé en Belgique ou en pharmacie et destiné à dispenser, renforcer ou compléter la médication principale tel que les bandages, les seringues, les bas à varices, etc… à l'exclusion des montures et verres de lunettes, des lentilles de contact et du matériel dentaire ; b) le matériel médical lourd loué auprès d'un organisme agréé en Belgique ou auprès d'une pharmacie et destiné à améliorer l'état physique et la mobilité du patient tel qu'un lit, des béquilles, une chaise roulante, etc...",
+      "page": 5
+    },
+    {
+      "term": "MedExel",
+      "definition": "Le prestataire de service externe mandaté par la Société pour gérer le contrat de base F-CARE et pour traiter les sinistres relatifs à ce contrat. MedExel est un service de Promut, Société Coopérative à Responsabilité Limitée, dont le siège social est établi Boulevard Louis Mettewie 74-76 à 1080 Molenbeek-Saint-Jean - Belgique – www.medexel.be - RPM Bruxelles TVA BE 0440.342.980.",
+      "page": 5
+    },
+    {
+      "term": "Médicament",
+      "definition": "Tout produit vendu exclusivement en pharmacie, prescrit par un médecin, reconnu et enregistré comme tel en Belgique.",
+      "page": 5
+    },
+    {
+      "term": "Preneur d'assurance",
+      "definition": "La personne physique ou morale qui souscrit le contrat d'assurance collectif soins de santé lié à l'activité professionnelle.",
+      "page": 5
+    },
+    {
+      "term": "Prothèse",
+      "definition": "Tout appareillage destiné à réduire le handicap des pertes anatomiques ou fonctionnelles, résultant d'une intervention chirurgicale, d'une lésion neurologique ou traumatique. Un implant est assimilé à une prothèse.",
+      "page": 5
+    },
+    {
+      "term": "Rooming-in",
+      "definition": "La présence d'un des parents dans la même chambre que l'enfant hospitalisé pour autant que l'enfant ait moins de 18 ans, que le parent et l'enfant soient assurés par un même contrat d'assurance et que la présence d'un parent soit considérée comme médicalement nécessaire par un médecin.",
+      "page": 5
+    },
+    {
+      "term": "Sinistre",
+      "definition": "Un événement pouvant donner lieu à une intervention de la Société dans le cadre du contrat d'assurance collectif soins de santé lié à l'activité professionnelle.",
+      "page": 5
+    },
+    {
+      "term": "Société",
+      "definition": "Fédérale Assurance, Association d'Assurances Mutuelles sur la Vie, Rue de l'Etuve 12, 1000 Bruxelles – Belgique, www.federale.be, Entreprise d'assurances agréée sous le n° de code 0346, RPM Bruxelles TVA BE 0408.183.324, Compte financier BIC : BBRUBEBB IBAN : BE64 3100 7685 9452.",
+      "page": 5
+    },
+    {
+      "term": "Soins ambulatoires",
+      "definition": "Les soins médicaux prodigués ou prescrits par un médecin en dehors d'une hospitalisation, et qui sont repris dans la nomenclature des prestations de santé en matière d'Assurance Maladie-Invalidité obligatoire (A.M.I.).",
+      "page": 5
+    },
+    {
+      "term": "Soins palliatifs",
+      "definition": "Le traitement de personnes se trouvant en phase terminale. Ce traitement vise les besoins physiques et psychiques du malade dans le but de lui garantir une certaine qualité de vie.",
+      "page": 5
+    },
+    {
+      "term": "Sport rémunéré",
+      "definition": "Tout exercice d'un sport, même en tant qu'activité secondaire, pour lequel l'affilié reçoit des rémunérations ou indemnités qui sont soumises à des retenues de sécurité sociale.",
+      "page": 5
+    },
+    {
+      "term": "Terrorisme",
+      "definition": "Une action ou une menace d'action organisée dans la clandestinité à des fins idéologiques, politiques, ethniques ou religieuses, exécutée individuellement ou en groupe et attentant à des personnes ou détruisant partiellement ou totalement la valeur économique d'un bien matériel ou immatériel, soit en vue d'impressionner le public, de créer un climat d'insécurité ou de faire pression sur les autorités, soit en vue d'entraver la circulation et le fonctionnement normal d'un service ou d'une entreprise.",
+      "page": 6
+    },
+    {
+      "term": "Traitement",
+      "definition": "L'ensemble des moyens thérapeutiques prescrits par un médecin et employés dans le but de fixer un diagnostic médical, de guérir, de stabiliser l'état de santé ou de lutter contre la douleur.",
+      "page": 6
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Garantie « hospitalisation »",
+      "description": "La garantie principale concerne une hospitalisation en vue de subir un traitement médicalement nécessaire suite à une maladie, un accident, une grossesse ou un accouchement. Sont remboursées les prestations suivantes : les frais de séjour ; les médicaments ; les honoraires médicaux et paramédicaux ; la location ou les frais de prothèses et d'appareils orthopédiques prescrits et préalablement acceptés par le médecin-conseil de la Société ; les dispositifs médicaux invasifs, le matériel de consommation utilisé pour les interventions et les fournitures médicales s'ils font l'objet d'une intervention légale. Sont également remboursées : les frais de transport d'urgence vers l'hôpital ; les frais de soins palliatifs à l'hôpital ; les frais de morgue repris sur la facture de l'hôpital ; les traitements homéopathiques, la chiropraxie, l'ostéopathie et l'acupuncture pour autant que ces prestations soient dispensées par un médecin ou un kinésithérapeute reconnu ; les frais de séjour d'un donneur en cas de transplantation d'un organe ou d'un tissu à l'assuré ; les frais de rooming-in ; le test de la mort subite. La garantie principale est également d'application pour les accouchements à domicile. En extension de la garantie, sont également remboursés les frais liés aux coloscopies et gastroscopies pratiquées en dehors de l'hôpital.",
+      "is_optional": false,
+      "territorial_scope": "Belgique ; à l'étranger aux conditions et limites de l'article 2 (limites identiques à la Belgique dans l'EEE ou en Suisse ; plafond absolu de 250.000 EUR par année d'assurance et par assuré dans les autres pays)",
+      "limits": "Remboursement des frais de prothèses limité à 300% du barème de l'INAMI pour autant qu'il y ait une intervention légale ; s'il n'y a pas d'intervention légale, le remboursement est limité à 50% du coût total, avec un maximum absolu de 10.000 EUR. Le remboursement pour le transport par un hélicoptère médicalisé est limité à 1.000 EUR par événement. Limite globale de 10.000.000 EUR par année d'assurance et par assuré (non indexé).",
+      "sub_limits": [
+        "Prothèses (avec intervention légale) : 300% du barème de l'INAMI",
+        "Prothèses (sans intervention légale) : 50% du coût total, maximum absolu 10.000 EUR",
+        "Transport par hélicoptère médicalisé : 1.000 EUR par événement",
+        "Accouchement à domicile : montant forfaitaire de 650 EUR",
+        "Hospitalisation consécutive à une maladie psychique, psychiatrique ou dépressive : durée maximale de deux années d'hospitalisation, consécutives ou non"
+      ],
+      "deductible": "Franchise par année d'assurance et par assuré, spécifiée aux conditions particulières (le montant du remboursement tient compte de la franchise éventuelle)",
+      "conditions": [
+        "Traitement médicalement nécessaire suite à une maladie, un accident, une grossesse ou un accouchement",
+        "Prothèses et appareils orthopédiques prescrits et préalablement acceptés par le médecin-conseil de la Société",
+        "Dispositifs médicaux invasifs, matériel de consommation et fournitures médicales remboursés uniquement s'ils font l'objet d'une intervention légale",
+        "Traitements homéopathiques, chiropraxie, ostéopathie et acupuncture dispensés par un médecin ou un kinésithérapeute reconnu",
+        "Les frais de transport, autres que le transport d'urgence vers l'hôpital, ne sont pas remboursés"
+      ],
+      "page": 6
+    },
+    {
+      "name": "Garantie « soins ambulatoires pré- et post-hospitalisation »",
+      "description": "Cette garantie complémentaire concerne les soins ambulatoires médicalement nécessaires prodigués dans le mois qui précède l'hospitalisation et dans les trois mois qui suivent la sortie de l'hôpital. La garantie vaut exclusivement si les soins ambulatoires sont en relation directe avec la cause de l'hospitalisation. Sont remboursés : les frais de prestations médicales lors d'une visite ou d'une consultation ainsi que les soins infirmiers ; les traitements paramédicaux tels que kinésithérapie, physiothérapie et logopédie prescrits par un médecin et dispensés par un prestataire reconnu ; les médicaments prescrits pour la période définie ; le matériel médical ; la location et les frais de prothèses et d'appareils orthopédiques prescrits pour la période définie ou leur location, après approbation préalable du médecin-conseil de la Société. Ne sont pas remboursés : les frais d'entretien, de réparation et les pièces de rechange des prothèses et appareils orthopédiques ; les frais de transport, transport urgent inclus.",
+      "is_optional": false,
+      "territorial_scope": "Belgique ; à l'étranger aux conditions et limites de l'article 2",
+      "limits": "Remboursement des frais de prothèses limité à 300% du barème de l'INAMI pour autant qu'il y ait une intervention légale ; s'il n'y a pas d'intervention légale, le remboursement est limité à 50% du coût total, avec un maximum absolu de 10.000 EUR. Limite globale de 10.000.000 EUR par année d'assurance et par assuré (non indexé).",
+      "sub_limits": [
+        "Prothèses (avec intervention légale) : 300% du barème de l'INAMI",
+        "Prothèses (sans intervention légale) : 50% du coût total, maximum absolu 10.000 EUR"
+      ],
+      "deductible": "Franchise par année d'assurance et par assuré, spécifiée aux conditions particulières",
+      "conditions": [
+        "Soins ambulatoires médicalement nécessaires prodigués dans le mois précédant l'hospitalisation et dans les trois mois suivant la sortie de l'hôpital",
+        "Les soins ambulatoires doivent être en relation directe avec la cause de l'hospitalisation",
+        "Traitements paramédicaux prescrits par un médecin et dispensés par un prestataire reconnu",
+        "Prothèses et appareils orthopédiques après approbation préalable du médecin-conseil de la Société"
+      ],
+      "page": 7
+    },
+    {
+      "name": "Garantie « maladies graves »",
+      "description": "Cette garantie complémentaire concerne les soins ambulatoires médicalement nécessaires en relation directe avec une des maladies graves énumérées et dont le diagnostic est dûment établi : cancer, leucémie, SIDA, sclérose latérale amyotrophique, brucellose, méningite cérébro-spinale, choléra, diabète, diphtérie, encéphalite, malaria, charbon, mucoviscidose, sclérose en plaques, affection rénale traitée par dialyse rénale, variole, poliomyélite, dystrophie musculaire progressive, tétanos, tuberculose, typhus, hépatite virale, fièvre typhoïde et paratyphoïde, maladie d'Alzheimer, maladie de Creutzfeldt-Jakob, maladie de Crohn, maladie de Hodgkin, maladie de Parkinson, maladie de Pompe. Sont remboursés : les frais de prestations médicales lors d'une visite ou d'une consultation ainsi que les soins infirmiers ; les traitements paramédicaux tels que kinésithérapie, physiothérapie et logopédie prescrits par un médecin et dispensés par un prestataire reconnu ; les médicaments prescrits ; le matériel médical ; la location ou les frais de prothèses et d'appareils orthopédiques prescrits et préalablement acceptés par le médecin-conseil de la Société. Ne sont pas remboursés : les frais d'entretien, de réparation et les pièces de rechange des prothèses et appareils orthopédiques ; les frais de transport, transport urgent inclus. Ces frais sont remboursés, sur présentation d'un certificat médical, aussi longtemps que la maladie nécessite un traitement. Aucune hospitalisation préalable n'est requise.",
+      "is_optional": false,
+      "territorial_scope": "Belgique ; à l'étranger aux conditions et limites de l'article 2",
+      "limits": "Remboursement des frais de prothèses limité à 300% du barème de l'INAMI pour autant qu'il y ait une intervention légale ; s'il n'y a pas d'intervention légale, le remboursement est limité à 50% du coût total, avec un maximum absolu de 10.000 EUR. Limite globale de 10.000.000 EUR par année d'assurance et par assuré (non indexé).",
+      "sub_limits": [
+        "Prothèses (avec intervention légale) : 300% du barème de l'INAMI",
+        "Prothèses (sans intervention légale) : 50% du coût total, maximum absolu 10.000 EUR"
+      ],
+      "deductible": "La franchise n'est pas d'application pour la garantie complémentaire « Maladies graves »",
+      "conditions": [
+        "Soins ambulatoires médicalement nécessaires en relation directe avec une des maladies graves énumérées, dont le diagnostic est dûment établi",
+        "Remboursement sur présentation d'un certificat médical, aussi longtemps que la maladie nécessite un traitement",
+        "Aucune hospitalisation préalable n'est requise",
+        "Prothèses et appareils orthopédiques prescrits et préalablement acceptés par le médecin-conseil de la Société"
+      ],
+      "page": 7
+    },
+    {
+      "name": "PARTIE II – GARANTIES COMPLEMENTAIRES (hospitalisation à caractère imprévisible et/ou assistance à l'étranger)",
+      "description": "Les conditions d'assurance relatives à une hospitalisation à caractère imprévisible et/ou à une assistance à l'étranger sont détaillées aux conditions générales du contrat complémentaire « F-CARE – GARANTIES ASSUREES PAR EUROP ASSISTANCE » et aux conditions particulières du contrat d'assurance collectif soins de santé lié à l'activité professionnelle. Fédérale Assurance fait appel à un Assisteur pour ces garanties complémentaires.",
+      "is_optional": false,
+      "territorial_scope": "À l'étranger",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Détaillées dans un contrat complémentaire distinct (« F-CARE – GARANTIES ASSUREES PAR EUROP ASSISTANCE ») non repris dans le présent document"
+      ],
+      "page": 13
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Traitements dentaires et orthopédie dento-maxillo-faciale",
+      "description": "Les traitements dentaires, le placement de prothèses dentaires ou de matériel dentaire, la chirurgie dentaire et l'orthopédie dento-maxillo-faciale en ce compris les traitements parodontaux et orthodontiques, sauf si : ces interventions font suite à un accident couvert ; ces interventions sont la conséquence d'une maladie sans rapport avec les pathologies des dents, des gencives et des mâchoires (dans ce cas, les frais ne seront remboursés qu'après approbation préalable du médecin-conseil de la Société et sur présentation d'un rapport médical attestant la nécessité de l'intervention) ; l'intervention concerne l'extraction des dents de sagesse, que cette intervention soit pratiquée à l'hôpital ou non.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Traitements des mandibules ou des maxillaires",
+      "description": "Les traitements des mandibules ou des maxillaires.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Traitements de revalidation non consécutifs à un traitement couvert",
+      "description": "Les traitements de revalidation qui ne sont pas la suite directe et immédiate d'un traitement médical ou d'une intervention chirurgicale, pour laquelle la garantie est acquise.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Traitements expérimentaux ou non scientifiquement prouvés",
+      "description": "Les traitements expérimentaux ou non scientifiquement prouvés.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Traitements à caractère esthétique",
+      "description": "Les traitements à caractère esthétique, y compris la chirurgie plastique, même en cas de gêne fonctionnelle, sauf accord préalable du médecin-conseil de la Société.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Traitements anticonceptionnels",
+      "description": "Les traitements anticonceptionnels (tels que la stérilisation).",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Cures",
+      "description": "Les cures telles que les cures de thermalisme, de thalassothérapie, d'hygiéno-diététique ou de désintoxication.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Vaccination légale",
+      "description": "La vaccination légale.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Reconstruction mammaire",
+      "description": "La reconstruction mammaire, excepté en cas d'amputation suite à un cancer du sein, à une autre maladie grave, ou pour un porteur du gêne du cancer du sein, après accord du médecin-conseil de la Société.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Chirurgie bariatrique (réduction gastrique)",
+      "description": "La chirurgie bariatrique (réduction gastrique), à l'exception des interventions chirurgicales qui bénéficient d'une intervention légale conformément à l'article 14 d) de l'annexe de l'arrêté royal du 14 septembre 1984 établissant la nomenclature des prestations de santé en matière d'assurance obligatoire soins de santé et indemnités, modifié en dernier lieu par l'arrêté royal du 13 juin 2010, M.B. 29 juin 2010.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Fait de guerre",
+      "description": "Les garanties ne sont pas acquises si l'hospitalisation et/ou les soins ambulatoires sont la conséquence d'un fait de guerre, civile ou étrangère.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Émeutes et violence collective",
+      "description": "Les garanties ne sont pas acquises si l'hospitalisation et/ou les soins ambulatoires sont la conséquence d'émeutes, de troubles civils et de tous actes de violence collective d'inspiration politique, idéologique ou sociale, sauf si l'assuré démontre qu'il n'y a pris aucune part active ou qu'il s'agit d'un cas de légitime défense. Toutefois, les garanties sont acquises si l'hospitalisation et/ou les soins ambulatoires sont la conséquence de faits de terrorisme selon les dispositions de la loi du 1er avril 2007 relative à l'assurance contre les dommages causés par le terrorisme.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Usage d'armes ou d'engins nucléaires",
+      "description": "Les garanties ne sont pas acquises si l'hospitalisation et/ou les soins ambulatoires sont la conséquence de l'usage d'armes ou d'engins destinés à exploser suite au changement de structure du noyau atomique.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Tentative de suicide",
+      "description": "Les garanties ne sont pas acquises si l'hospitalisation et/ou les soins ambulatoires sont la conséquence d'une tentative de suicide.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Sinistre intentionnel",
+      "description": "Les garanties ne sont pas acquises si l'hospitalisation et/ou les soins ambulatoires sont la conséquence d'un sinistre causé intentionnellement par l'assuré, excepté en cas de légitime défense ou de sauvetage de personnes ou de marchandises. Le sinistre causé intentionnellement est, dans le sens de cette clause, un acte volontaire qui cause un sinistre raisonnablement prévisible.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Participation volontaire à un crime ou délit",
+      "description": "Les garanties ne sont pas acquises si l'hospitalisation et/ou les soins ambulatoires sont la conséquence d'une participation volontaire à un crime ou à un délit, excepté le cas de légitime défense.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Alcoolisme, toxicomanie, usage abusif de médicaments",
+      "description": "Les garanties ne sont pas acquises si l'hospitalisation et/ou les soins ambulatoires sont la conséquence de l'alcoolisme, de la toxicomanie ou de l'usage abusif de médicaments.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Accident en état d'ivresse ou sous influence de stupéfiants",
+      "description": "Les garanties ne sont pas acquises si l'hospitalisation et/ou les soins ambulatoires sont la conséquence d'un accident survenu à l'assuré lorsqu'il se trouve en état d'ivresse, d'intoxication alcoolique sous l'influence de stupéfiants, hallucinogènes ou autres drogues.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Pratique d'un sport rémunéré",
+      "description": "Les garanties ne sont pas acquises si l'hospitalisation et/ou les soins ambulatoires sont la conséquence, sauf stipulation contraire, de la pratique d'un sport rémunéré.",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Frais de transport non urgents (garantie hospitalisation)",
+      "description": "Les frais de transport, autres que le transport d'urgence vers l'hôpital, ne sont pas remboursés.",
+      "applies_to": "Garantie « hospitalisation »",
+      "page": 6
+    },
+    {
+      "name": "Frais d'entretien, réparation et pièces de rechange des prothèses (soins ambulatoires pré/post-hospitalisation et maladies graves)",
+      "description": "Ne sont pas remboursés : les frais d'entretien, de réparation et les pièces de rechange des prothèses et appareils orthopédiques ; les frais de transport, transport urgent inclus.",
+      "applies_to": "Garantie « soins ambulatoires pré- et post-hospitalisation » et Garantie « maladies graves »",
+      "page": 7
+    }
+  ],
+  "deductibles": {
+    "standard": "Le montant de la franchise est spécifié aux conditions particulières. La franchise est appliquée par année d'assurance et par assuré.",
+    "variable": "Si plusieurs membres d'une même famille assurés par un même contrat d'assurance sont hospitalisés simultanément suite à un accident, une seule franchise sera d'application pour l'ensemble de la famille. Lorsqu'une hospitalisation continue chevauche deux années d'assurance, la franchise n'est déduite qu'une seule fois.",
+    "per_coverage": "La franchise n'est pas d'application pour la garantie complémentaire « Maladies graves ».",
+    "page": 4
+  },
+  "waiting_periods": [
+    {
+      "name": "Délai d'attente",
+      "description": "La période prenant cours à la date d'affiliation de l'assuré et pendant laquelle aucune prestation n'est due par la Société. Le délai d'attente est spécifié aux conditions particulières.",
+      "duration": "Spécifié aux conditions particulières",
+      "page": 4
+    },
+    {
+      "name": "Poursuite individuelle sans délai d'attente",
+      "description": "En cas de poursuite individuelle de l'assurance, l'assuré a le droit de poursuivre individuellement son assurance soins de santé sans formalités médicales et sans délai d'attente.",
+      "duration": null,
+      "page": 11
+    }
+  ],
+  "obligations": [
+    {
+      "name": "Déclarations et communications nécessaires",
+      "description": "Le Preneur d'assurance, l'assuré principal et les assurés secondaires éventuels sont tenus de faire toutes les déclarations et communications nécessaires, par écrit ou par voie électronique, afin de permettre la bonne exécution du contrat d'assurance.",
+      "timing": null,
+      "sanction": "Si le Preneur d'assurance ou l'assuré ne remplissent pas les obligations, la Société a le droit de réduire sa prestation à concurrence du préjudice qu'elle a subi, voire de décliner sa garantie en cas de fraude.",
+      "page": 8
+    },
+    {
+      "name": "Avertir MedExel de toute modification de statut",
+      "description": "Avertir MedExel de toute modification de statut de l'assuré (affiliation, perte de la qualité d'assuré…).",
+      "timing": "Au plus tard dans un délai de trente jours",
+      "sanction": "Si le Preneur d'assurance ou l'assuré ne remplissent pas les obligations, la Société a le droit de réduire sa prestation à concurrence du préjudice qu'elle a subi, voire de décliner sa garantie en cas de fraude.",
+      "page": 8
+    },
+    {
+      "name": "Communiquer les renseignements permettant d'établir le droit aux prestations",
+      "description": "Communiquer à la Société ou à MedExel tous les renseignements lui permettant d'établir le droit aux prestations prévues au contrat d'assurance.",
+      "timing": null,
+      "sanction": "Si le Preneur d'assurance ou l'assuré ne remplissent pas les obligations, la Société a le droit de réduire sa prestation à concurrence du préjudice qu'elle a subi, voire de décliner sa garantie en cas de fraude.",
+      "page": 8
+    },
+    {
+      "name": "Information du Preneur d'assurance sur la prime complémentaire (préfinancement)",
+      "description": "Conformément à la loi du 4 avril 2014 relative aux assurances, le Preneur d'assurance a l'obligation d'informer sans délai l'assuré principal de la possibilité, pour lui-même et pour les assurés secondaires, de payer individuellement une prime complémentaire pour leur permettre, en cas de poursuite de l'assurance à titre individuel, de bénéficier ultérieurement d'un tarif calculé sur base de l'âge atteint au moment du premier paiement de la prime complémentaire.",
+      "timing": "Sans délai",
+      "sanction": null,
+      "page": 9
+    },
+    {
+      "name": "Communication des coordonnées de la Société en cas de perte du bénéfice",
+      "description": "Le Preneur d'assurance a le devoir de communiquer à l'assuré principal les coordonnées de la Société et de l'informer du moment précis de la perte du bénéfice du contrat et du droit de poursuivre individuellement son assurance soins de santé (voir Article 7).",
+      "timing": "Au plus tard dans les trente jours suivant la perte du bénéfice du contrat d'assurance collectif",
+      "sanction": null,
+      "page": 9
+    },
+    {
+      "name": "Non-renonciation au recours contre les tiers (subrogation)",
+      "description": "L'assuré ne peut renoncer totalement ou partiellement au recours en faveur d'un tiers quelconque sans l'accord écrit de la Société. L'assuré est tenu de communiquer à la Société tous les renseignements nécessaires afin que cette dernière puisse exercer son recours.",
+      "timing": null,
+      "sanction": null,
+      "page": 11
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclaration de toute hospitalisation à MedExel",
+      "description": "Toute hospitalisation doit être déclarée sans retard à MedExel. L'assuré ne perd pas le droit aux prestations si la déclaration est faite après ce délai pour autant que la preuve soit apportée que la déclaration a été faite aussi rapidement que cela pouvait raisonnablement se faire.",
+      "deadline": "Sans retard, et au plus tard dans les trois mois de sa survenance",
+      "page": 9
+    },
+    {
+      "step": "Hospitalisation programmée",
+      "description": "Chaque assuré a la possibilité de déclarer une hospitalisation programmée en utilisant son AssurCard. La déclaration peut être faite soit via le site web www.assurcard.be, soit via le kiosque AssurCard de l'hôpital le jour de l'admission, soit en téléphonant, pendant les heures d'ouverture, à MedExel au numéro 02 44 44 900. En cas d'acceptation du système de tiers-payant, le suivi administratif s'opère directement entre MedExel et l'hôpital ; l'hôpital ne demande pas d'acompte et la facture est adressée directement à MedExel. Si le tiers-payant n'a pas été accepté, l'assuré paie la facture à l'hôpital et réclame ensuite son remboursement à MedExel.",
+      "deadline": null,
+      "page": 9
+    },
+    {
+      "step": "Hospitalisation en urgence",
+      "description": "L'assuré déclare l'hospitalisation à MedExel au moyen du document « déclaration en cas de sinistre » qu'il peut se procurer soit via le site web www.medexel.be en utilisant un login personnel, soit en téléphonant à MedExel au numéro 02 44 44 900. L'assuré fait parvenir à MedExel le document dûment complété en y joignant les originaux de toutes les pièces justificatives nécessaires au remboursement des frais exposés.",
+      "deadline": null,
+      "page": 9
+    },
+    {
+      "step": "Soins ambulatoires",
+      "description": "Pour les soins ambulatoires pré- et post-hospitalisation et maladies graves (en dehors de l'hôpital), les frais médicaux encourus sont remboursés par MedExel sur présentation des justificatifs et de l'attestation de la mutuelle.",
+      "deadline": null,
+      "page": 9
+    },
+    {
+      "step": "Remboursement (paiement des prestations)",
+      "description": "Le montant des prestations est payé à l'assuré ou à ses ayants droit ou à toute personne désignée expressément par l'assuré. Le remboursement de la facture d'hospitalisation s'effectuera dans les dix jours ouvrables à partir de la date de réception de celle-ci par MedExel, pour autant qu'elle soit en possession du dossier complet relatif aux frais médicaux de l'assuré et que le sinistre ait été accepté.",
+      "deadline": "Dix jours ouvrables à partir de la réception de la facture par MedExel",
+      "page": 10
+    },
+    {
+      "step": "Contestation d'ordre médical",
+      "description": "Toute contestation d'ordre médical d'une décision prise par la Société devra être formulée par écrit dans les trente jours suivant la signification de ladite décision. La contestation est soumise à deux médecins experts (un désigné par l'assuré, l'autre par la Société) ; en cas de désaccord, ils choisissent un troisième expert dont l'avis sera prépondérant. À défaut de désignation, la désignation est faite par le Président du Tribunal de première instance du domicile de l'assuré.",
+      "deadline": "Trente jours suivant la signification de la décision",
+      "page": 11
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat d'assurance collectif soins de santé lié à l'activité professionnelle entre en vigueur à la date indiquée aux conditions particulières pour autant que la Société ait reçu la première prime à cette date. Si la première prime est reçue à une date postérieure, le contrat entre en vigueur à la date de la réception de la première prime. L'année d'assurance est la période de 12 mois débutant à l'échéance mentionnée aux conditions particulières.",
+    "tacit_renewal": null,
+    "methods": [
+      "Résiliation par lettre recommandée datée et signée avant l'échéance. La Société peut résilier le contrat suite au non-paiement des primes après mise en demeure conformément à l'Article 4."
+    ],
+    "special_rights": [
+      "En cas de modification des conditions d'assurance (article 9), le Preneur d'assurance peut résilier le contrat dans les trois mois de la notification de la modification. En cas de non-paiement des primes, la garantie peut être suspendue après mise en demeure par lettre recommandée ; la suspension prend effet à l'expiration d'un délai de quinze jours à compter du lendemain du dépôt de la lettre recommandée. Le paiement des primes échues met fin à la suspension. Après suspension, la Société peut résilier le contrat si elle s'en est réservée la faculté dans la mise en demeure ; la résiliation prend effet au plus tôt à l'expiration d'un délai de 15 jours à compter du premier jour de la suspension. Fin des prestations (article 6) : les prestations prennent fin immédiatement au terme du contrat, à la date de résiliation, ou lorsque l'assuré ne répond plus aux conditions d'affiliation. Si l'assuré perd sa qualité durant une hospitalisation, les prestations pour cette hospitalisation restent acquises durant une période maximale de 6 mois ininterrompue (hors soins ambulatoires post-hospitalisation). Poursuite individuelle possible (article 7) après au minimum deux années ininterrompues d'affiliation."
+    ],
+    "page": 6,
+    "notice_period": "Le Preneur d'assurance et la Société peuvent résilier le contrat d'assurance via l'envoi d'une lettre recommandée datée et signée avant l'échéance, en tenant compte d'un délai de trois mois de préavis."
+  },
+  "prescription_period": null,
+  "premium": {
+    "description": "Le montant des primes et les modalités de paiement sont définis aux conditions particulières. Le non-paiement des primes peut entraîner la suspension de la garantie à condition que le Preneur d'assurance ait été mis en demeure par lettre recommandée. La suspension de garantie prend effet à l'expiration d'un délai de quinze jours à compter du lendemain du dépôt de la lettre recommandée à la poste. Si la garantie a été suspendue, le paiement des primes échues met fin à cette suspension. Un mécanisme de préfinancement permet à l'assuré de payer individuellement des primes complémentaires afin qu'en cas de poursuite individuelle, la prime soit fixée en tenant compte de l'âge de l'assuré au moment où il a commencé à payer les primes complémentaires (pour autant qu'elles aient été payées année après année sans interruption).",
+    "page": 9
+  },
+  "special_conditions": [
+    {
+      "name": "Étendue territoriale",
+      "description": "Les garanties sont accordées pour un sinistre survenu en Belgique. Elles sont par ailleurs accordées pour un sinistre survenu à l'étranger, aux conditions et limites du titre, lorsque l'assuré ne peut se prévaloir des garanties d'assistance en raison du caractère planifié d'une hospitalisation ou des soins ambulatoires. En cas d'hospitalisation ou de soins ambulatoires planifiés à l'étranger, l'assuré ne pourra bénéficier de l'intervention de la Société qu'à la condition expresse qu'il ait reçu un accord préalable de la part de sa mutualité. Dans l'EEE ou en Suisse, les limites de remboursement sont identiques à celles appliquées en Belgique. Dans un autre pays, les limites sont identiques à celles de la Belgique, avec un plafond absolu de 250.000 EUR par année d'assurance et par assuré.",
+      "page": 6
+    },
+    {
+      "name": "Limite globale d'intervention",
+      "description": "La limite globale de remboursement pour l'ensemble des garanties de base est fixée à 10.000.000 EUR par année d'assurance et par assuré. Ce montant n'est pas indexé.",
+      "page": 6
+    },
+    {
+      "name": "Modalités de remboursement en général",
+      "description": "MedExel rembourse la totalité des frais exposés par l'assuré après déduction des interventions légales et des remboursements auxquels il a pu prétendre (notamment ceux prévus par l'assurance hospitalisation libre et complémentaire de sa mutuelle). Lorsqu'une prestation facturée ne fait pas l'objet d'une intervention légale, MedExel rembourse cette prestation à concurrence de 50% du montant facturé. Lorsque l'assuré ne bénéficie pas des interventions légales pour des raisons liées à sa situation personnelle, il est tenu compte d'une intervention légale fictive correspondant à celle prévue pour un travailleur salarié dans les mêmes circonstances.",
+      "page": 10
+    },
+    {
+      "name": "Accord préalable du médecin-conseil",
+      "description": "Lorsque l'intervention est subordonnée à l'accord préalable du médecin-conseil de la Société : le médecin-conseil apprécie sur base des rapports circonstanciés (description du traitement, durée et prix demandé) la nécessité du traitement proposé et le montant de l'intervention à octroyer ; les rapports doivent parvenir au médecin-conseil au plus tard quinze jours avant la date prévue pour l'hospitalisation. Sans accord préalable du médecin-conseil, il n'y aura aucune intervention, ni dans les frais d'hospitalisation, ni dans les frais de soins ambulatoires.",
+      "page": 10
+    },
+    {
+      "name": "Terrorisme",
+      "description": "L'intervention de la Société dans les sinistres consécutifs au terrorisme est soumise aux modalités de la loi du 1er avril 2007. La Société est membre de l'ASBL TRIP (Terrorism Reinsurance and Insurance Pool). L'exécution de tous les engagements de l'ensemble des entreprises d'assurances membres de l'ASBL est limitée à 1 milliard d'euros par année civile pour les dommages causés par tous les événements reconnus comme relevant du terrorisme, survenus pendant cette année civile. Ce montant est adapté le 1er janvier de chaque année à l'évolution de l'indice des prix à la consommation (indice de base : décembre 2005). Si le total des indemnités excède ce montant, une règle proportionnelle est appliquée.",
+      "page": 10
+    },
+    {
+      "name": "Subrogation de la Société",
+      "description": "La Société qui a accordé ou accordera la garantie est subrogée à concurrence du montant de cette garantie dans les droits et actions de l'assuré contre les tiers responsables de l'accident ou de la maladie, leurs assureurs et/ou tout assureur qui, en vertu de l'article 29 bis de la loi du 21 novembre 1989, est tenu d'intervenir.",
+      "page": 11
+    },
+    {
+      "name": "Fin des prestations",
+      "description": "Les prestations de la Société prennent fin immédiatement : (i) au terme du contrat ; (ii) à la date de résiliation ; (iii) lorsque l'assuré ne répond plus aux conditions d'affiliation. Si l'assuré perd sa qualité durant une hospitalisation, les prestations pour les frais de cette hospitalisation restent acquises durant une période maximale de 6 mois, pour autant que celle-ci soit ininterrompue (hors frais relatifs aux soins ambulatoires post-hospitalisation).",
+      "page": 11
+    },
+    {
+      "name": "Poursuite individuelle de l'assurance",
+      "description": "Si l'assuré principal compte au minimum deux années ininterrompues d'affiliation et que l'assuré perd le bénéfice de l'assurance collective (autrement que pour les raisons de l'article 208, §1er de la loi du 4 avril 2014), l'assuré a le droit de poursuivre individuellement son assurance soins de santé sans formalités médicales et sans délai d'attente. Le contrat individuel est établi sur base des conditions et de la tarification en vigueur pour les contrats individuels au moment de la souscription. Sauf préfinancement, la tarification tient compte de l'âge de l'assuré au moment de la souscription. Les garanties du contrat individuel sont similaires et limitées à celles du contrat collectif. Il est renvoyé aux articles 208 et 209 de la loi du 4 avril 2014.",
+      "page": 11
+    },
+    {
+      "name": "Préfinancement",
+      "description": "MedExel informe le Preneur d'assurance de la possibilité pour l'assuré de payer individuellement des primes complémentaires. Le paiement des primes complémentaires, pour autant qu'elles aient été payées année après année sans interruption, a pour effet qu'en cas de poursuite individuelle, la prime est fixée en tenant compte de l'âge de l'assuré au moment où il a commencé à payer les primes complémentaires.",
+      "page": 12
+    },
+    {
+      "name": "Accouchement à domicile - forfait",
+      "description": "En cas d'accouchement à domicile, MedExel rembourse cette prestation à concurrence d'un montant forfaitaire de 650 EUR.",
+      "page": 10
+    },
+    {
+      "name": "Hospitalisation psychique/psychiatrique/dépressive - limite de durée",
+      "description": "En cas d'hospitalisation consécutive à une maladie psychique, psychiatrique ou à tout type de maladies dépressives, l'intervention est limitée à une durée maximale de deux années d'hospitalisation, consécutives ou non.",
+      "page": 10
+    },
+    {
+      "name": "Protection des données personnelles",
+      "description": "Les données personnelles sont traitées par la Société (responsable du traitement) pour les finalités suivantes : affiliation et exécution du contrat, réalisation des analyses des risques, traitement de plaintes et litiges, calcul des provisions techniques, respect des obligations légales et prudentielles, détection et prévention de la fraude, établissement de pronostics et statistiques, fins de marketing direct. Bases légales : exécution du contrat, respect des obligations légales, intérêts légitimes. Les données peuvent être communiquées aux entreprises du groupe Fédérale Assurance, aux prestataires/sous-traitants et à d'autres parties tierces concernées. L'assuré dispose de droits d'accès, de rectification, d'effacement, de limitation, de portabilité et d'opposition. Contact : Data Protection Officer - Rue de l'Etuve 12 - 1000 Bruxelles ou privacy@federale.be.",
+      "page": 12
+    },
+    {
+      "name": "Plaintes",
+      "description": "Toute plainte relative au contrat d'assurance peut être adressée à Fédérale Assurance, Service Gestion des plaintes, rue de l'Etuve 12, 1000 Bruxelles (tél. : 02 509 01 89 - fax : 02 509 06 03 - gestion.plaintes@federale.be). En cas de réponse non satisfaisante, la plainte peut être adressée à l'Ombudsman des Assurances, square de Meeûs 35, 1000 Bruxelles (fax : 02 547 59 75 - info@ombudsman.as). Ces dispositions sont sans préjudice du droit d'intenter une action en justice.",
+      "page": 13
+    },
+    {
+      "name": "Juridiction – Droit applicable",
+      "description": "Les litiges entre parties portant sur l'exécution ou l'interprétation du contrat d'assurance relèvent de la compétence exclusive des tribunaux belges. Le droit belge est d'application y compris pendant la phase précontractuelle.",
+      "page": 13
+    },
+    {
+      "name": "Domicile – Correspondance",
+      "description": "Toute notification écrite d'une partie à l'autre est supposée être faite à la date de dépôt à la poste et s'effectue valablement à leur dernière adresse communiquée. Le récépissé de la poste fait foi de l'envoi lorsqu'il s'agit d'une lettre recommandée. Il est convenu qu'une lettre recommandée suffit à titre de mise en demeure.",
+      "page": 13
+    },
+    {
+      "name": "Modification du contrat d'assurance et des conditions générales",
+      "description": "En cas de modifications conventionnelles, légales ou réglementaires en matière de sécurité sociale, d'assurance obligatoire sur les accidents du travail, de maladies professionnelles, de la loi sur les hôpitaux ou toute autre modification légale ou réglementaire ayant une influence significative sur le coût ou l'étendue des prestations garanties, la Société se réserve le droit de modifier les conditions d'assurance après en avoir avisé le Preneur d'assurance. Le Preneur d'assurance peut résilier le contrat dans les trois mois de la notification de la modification. Si la Société souhaite modifier les conditions générales pour de justes motifs et dans les limites de la bonne foi, elle propose au Preneur d'assurance, par lettre ordinaire, d'appliquer les conditions générales modifiées à partir d'une date déterminée par elle.",
+      "page": 13
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "F-Care a pour objet de protéger les assurés des conséquences financières d’une hospitalisation et de certains traitements médicaux en dehors d’une hospitalisation, comme défini aux conditions générales et particulières.",
+      "page": 3
+    },
+    {
+      "quote": "La garantie principale concerne une hospitalisation en vue de subir un traitement médicalement nécessaire suite à une maladie, un accident, une grossesse ou un accouchement.",
+      "page": 6
+    },
+    {
+      "quote": "La limite globale de remboursement pour l’ensemble des garanties de base est fixée à 10.000.000 EUR par année d’assurance et par assuré. Ce montant n’est pas indexé.",
+      "page": 6
+    },
+    {
+      "quote": "Le remboursement pour les frais de prothèses est limité à 300% du barème de l’INAMI, pour autant qu’il y ait une intervention légale. S’il n’y a pas d’intervention légale, le remboursement est limité à 50% du coût total, avec un maximum absolu de 10.000 EUR ;",
+      "page": 6
+    },
+    {
+      "quote": "Les garanties ne sont pas acquises pour les traitements suivants :",
+      "page": 8
+    },
+    {
+      "quote": "La franchise n’est pas d’application pour la garantie complémentaire « Maladies graves ».",
+      "page": 4
+    },
+    {
+      "quote": "Le Preneur d’assurance et la Société peuvent résilier le contrat d’assurance via l’envoi d’une lettre recommandée datée et signée avant l’échéance, en tenant compte d’un délai de trois mois de préavis.",
+      "page": 6
+    }
+  ],
+  "gaps": [
+    "Le montant de la franchise, le montant/les modalités des primes, la date d'échéance, les critères et modalités d'affiliation et le délai d'attente sont renvoyés aux conditions particulières (non fournies) et ne peuvent donc être chiffrés depuis ce document.",
+    "La PARTIE II – GARANTIES COMPLEMENTAIRES (hospitalisation à caractère imprévisible et/ou assistance à l'étranger) n'est pas détaillée ici ; elle renvoie aux conditions générales du contrat complémentaire « F-CARE – GARANTIES ASSUREES PAR EUROP ASSISTANCE » (non fourni).",
+    "Aucun délai de prescription (prescription_period) n'est explicitement énoncé dans le texte fourni.",
+    "branch_code (code de branche officiel) non mentionné dans le document."
+  ]
+}
