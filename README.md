@@ -1,15 +1,29 @@
 # openinsurance-wiki
 
-> A self-sufficient, open-source **wiki of every insurance product in a country** - built by scraping public
-> insurer documents and extracting them into rich, source-cited Markdown that any AI agent can read.
+> **A brain for a country's insurance market.** A self-sufficient, open-source, country-agnostic framework that
+> turns a nation's public insurance documents into a rich, interconnected, source-cited knowledge base that any
+> AI agent can read.
 
-Not a chatbot. Not a RAG black box. A **transparent, reproducible knowledge base**: the repo contains the whole
-chain - it finds the insurers' public general-conditions PDFs, downloads them, and turns each one into a faithful
-Markdown page that preserves the maximum of what the PDF actually says, with a citation back to the source.
+Not a chatbot. Not a RAG black box. A **transparent, reproducible knowledge graph**: the repo contains the whole
+chain - it finds insurers' public general-conditions PDFs, downloads them, and turns each one into a faithful
+Markdown page that preserves the maximum of what the PDF actually says, with a citation back to the source - all
+cross-linked into a navigable graph of products, insurers, branches, regulations and concepts.
 
-**Belgium** is the first country. The structure is country-agnostic - adding a country is a documented recipe.
+<p align="center">
+  <img src="assets/knowledge-graph.png" alt="The insurance knowledge graph: products, insurers, branches, regulations and concepts, all interlinked" width="880">
+</p>
+
+Point it at **any country**: the taxonomy is data, not code, and adding a country is a documented recipe. The
+first reference dataset already covers **17 insurers and 162 products across 12 branches** (auto, home, health,
+liability, travel, legal protection, …), each page cited to its source document.
 
 ---
+
+## How it works
+
+<p align="center">
+  <img src="assets/architecture.png" alt="Pipeline: sources → download → extract → build; then 3 tiers of agent access" width="900">
+</p>
 
 ## Why this exists
 

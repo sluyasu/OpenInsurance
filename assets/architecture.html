@@ -1,0 +1,48 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:#0d1117; color:#e6edf3; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif; width:1280px; padding:44px 48px; }
+  h1 { font-size:26px; font-weight:700; margin-bottom:4px; }
+  h1 .accent { color:#818cf8; }
+  .sub { color:#8b949e; font-size:14px; margin-bottom:30px; }
+  .lane-label { font-size:12px; letter-spacing:.12em; text-transform:uppercase; color:#6e7681; margin:26px 0 12px; }
+  .row { display:flex; align-items:stretch; gap:0; }
+  .box { background:#161b22; border:1px solid #30363d; border-radius:12px; padding:14px 16px; flex:1; min-width:0; }
+  .box .t { font-weight:600; font-size:15px; }
+  .box .d { color:#8b949e; font-size:12.5px; margin-top:4px; line-height:1.35; }
+  .box.llm { border-color:#6366f1; background:#1a1d33; }
+  .box.out { border-color:#10b981; }
+  .arrow { display:flex; align-items:center; color:#6366f1; font-size:22px; padding:0 10px; }
+  .free { display:inline-block; font-size:10.5px; color:#3fb950; border:1px solid #238636; border-radius:999px; padding:1px 8px; margin-top:8px; }
+  .key { display:inline-block; font-size:10.5px; color:#d29922; border:1px solid #9e6a03; border-radius:999px; padding:1px 8px; margin-top:8px; }
+  .tiers { display:flex; gap:14px; }
+  .tier { flex:1; background:#161b22; border:1px solid #30363d; border-left:3px solid #6366f1; border-radius:10px; padding:12px 14px; }
+  .tier .t { font-weight:600; font-size:13.5px; }
+  .tier .d { color:#8b949e; font-size:12px; margin-top:3px; line-height:1.35; }
+  .agent { margin-top:14px; text-align:center; background:#1a1d33; border:1px dashed #6366f1; border-radius:10px; padding:11px; font-size:14px; }
+  .foot { margin-top:26px; color:#6e7681; font-size:12px; }
+</style></head><body>
+  <h1>open<span class="accent">insurance</span>-wiki — turning a country's insurance documents into a knowledge base</h1>
+  <div class="sub">Self-sufficient &amp; reproducible: everything below runs from a clone. Not RAG — a real, source-cited wiki.</div>
+
+  <div class="lane-label">Pipeline — scrape → extract → build</div>
+  <div class="row">
+    <div class="box"><div class="t">Sources</div><div class="d">Committed per-insurer YAML: where the public PDFs live.</div></div>
+    <div class="arrow">→</div>
+    <div class="box"><div class="t">Download</div><div class="d">httpx + Playwright fallback. Public general conditions &amp; IPID PDFs.<span class="free">free stack, no key</span></div></div>
+    <div class="arrow">→</div>
+    <div class="box llm"><div class="t">Extract</div><div class="d">PyMuPDF text → LLM with committed, provider-agnostic prompts → structured JSON.<span class="key">your model, your key</span></div></div>
+    <div class="arrow">→</div>
+    <div class="box out"><div class="t">Build</div><div class="d">Rich, page-cited Markdown. Versions/editions &amp; extensions linked.</div></div>
+  </div>
+
+  <div class="lane-label">Plug into any agent — 3 tiers</div>
+  <div class="tiers">
+    <div class="tier"><div class="t">Markdown + manifest</div><div class="d">Any file/git-capable agent reads the wiki; AGENTS.md indexes it.</div></div>
+    <div class="tier"><div class="t">MCP server</div><div class="d">search · compare_products · find_overlap · get_product …</div></div>
+    <div class="tier"><div class="t">Structured data</div><div class="d">data/&lt;country&gt;/ JSON + JSON Schema for machine use.</div></div>
+  </div>
+  <div class="agent">→ any AI agent (Claude, Cursor, an SDK agent, an MCP client) reads a whole national insurance market</div>
+
+  <div class="foot">Country-agnostic: the taxonomy is data, not code. Information only, no advice — every fact traces to its source PDF.</div>
+</body></html>
