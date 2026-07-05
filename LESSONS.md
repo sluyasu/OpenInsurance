@@ -28,3 +28,47 @@ Running notes on things that bit us or that a contributor should know. Append as
   hand-authored page ever shows a machine diff, something wrote to the wrong subtree.
 - `build_wiki.py` is resume-safe (`write_if_changed`): a no-op rebuild must produce zero diff. If it doesn't,
   a nondeterministic ordering crept into the generator (sort everything).
+- A branch used in a source config MUST exist in `sources/<cc>/_country.yml` (slug + label), or product pages
+  link `[[<slug>]]` which doesn't resolve -> validate fails. Add the branch to the taxonomy first.
+- Opening the repo in Obsidian creates `.obsidian/` dirs; keep them gitignored and make any "list countries"
+  logic skip dot/underscore folders, or a stray `.obsidian` gets treated as a country.
+- YAML parses unquoted frontmatter dates into `datetime.date`; `json.dumps(default=str)` when serializing.
+
+## Extraction drift (models vary — normalize, don't fight the schema)
+- Different models emit the same data in different shapes. Keep the schema tolerant and coerce to canonical in a
+  `normalize()` step, run on every extraction (also in the placement path). Cases seen in the wild:
+  list-of-strings instead of list-of-objects (coverages/exclusions/definitions); `key_quotes` under `text`
+  instead of `quote`; `duration_and_cancellation.methods` a string not a list; `prescription_period`/`premium`
+  as bare strings; `deductibles.per_coverage` a string. Also make the renderer defensive (`_dicts()`), so a bad
+  extraction can never crash the build.
+- **Filename collisions:** a product's CG and IPID share the same `product_name` -> keying the output JSON on the
+  name alone makes the IPID overwrite the CG (silent data loss). Key the file on a hash of `source_url`
+  (unique per PDF). Page titles disambiguate separately with a doc-type suffix.
+- **Grounding vs typography:** French PDFs use curly apostrophes (U+2019) and a space before `:` (nbsp). Verbatim
+  quote matching fails unless you NFKC-normalize, map curly->straight quotes, and also compare whitespace-stripped.
+
+## Versions, editions, extensions
+- The same product is re-issued (editions), sold via channels (variants), documented in several files (CG+IPID),
+  and extended by options. Capture `edition_date` + `product_family` + `is_extension`/`extends`; `pipeline/link.py`
+  groups by family and marks current-vs-superseded by date, cross-linking them. Never conflate an old edition with
+  the current one; never delete the old one (existing policies reference it).
+- Research agents should carry `edition_date:` and `superseded: true` hints in the source config; the pipeline
+  threads them through as fallbacks when the PDF doesn't print a date.
+
+## Fetching quirks (per insurer)
+- Not every "PDF" is served as `application/pdf`: NN/AMMA/DKV serve `application/octet-stream` (real `%PDF`).
+  Detect PDFs by **magic bytes** (`content[:5] == b'%PDF-'`), not content-type alone.
+- Cloudflare-fronted sites (e.g. Allianz) return HTTP 403 to `httpx`/`curl` from datacenter IPs -> the free stack
+  can't fetch them; needs a real-browser fetcher (Firecrawl/Playwright). Note the gap, don't fake it.
+- AMMA defaults documents to NL; append `?lang=fr`. Baloise's Fastly WAF 406s datacenter curl but serves fine to
+  a residential/browser fetcher. Query-string cache-busters (`?t=`, `?rev=`) are load-bearing — keep them.
+
+## Scaling many PDFs (the run harness)
+- Extraction is the only paid/LLM step. Drive big batches with a **Workflow fan-out** of subagents (each reads a
+  committed prompt file, writes one JSON), then a placement pass. Everything is **resumable**: a helper regenerates
+  prompts only for not-yet-extracted PDFs; a session token limit just means re-run the leftovers later. Keep the
+  output-file check so an in-flight/finished key is never re-launched (no double spend).
+
+## Before going public
+- Run the `pre-public-repo-audit` skill: scan tracked files AND full git history for secrets/PII, and rewrite the
+  commit-author email to a GitHub noreply address so a personal email isn't published.
