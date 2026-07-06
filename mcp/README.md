@@ -5,22 +5,38 @@ agent query the insurance knowledge base.
 
 ## Install & run
 
+The server is **keyless and read-only**; the dataset is the repo itself. From a clone:
+
 ```bash
-python -m venv .venv && . .venv/bin/activate
+python3 -m venv .venv && . .venv/bin/activate
 pip install -r mcp/requirements.txt
 python mcp/insurance_wiki_mcp.py
 ```
 
+Or install it as a console script (`pip install .` from the repo root, or from anywhere with
+`pip install git+https://github.com/sluyasu/OpenInsurance.git`). When the script does not run
+from inside a clone, point it at one:
+
+```bash
+INSURANCE_WIKI_REPO=/path/to/OpenInsurance insurance-wiki-mcp
+```
+
 ## Register with a client
 
-Add to your MCP client config (e.g. a project `.mcp.json`):
+Claude Code one-liner (from the repo root):
+
+```bash
+claude mcp add insurance-wiki -- "$(pwd)/.venv/bin/python" "$(pwd)/mcp/insurance_wiki_mcp.py"
+```
+
+Or in any MCP client config (e.g. a project `.mcp.json`):
 
 ```json
 {
   "mcpServers": {
     "insurance-wiki": {
-      "command": "/absolute/path/to/openinsurance-wiki/.venv/bin/python",
-      "args": ["/absolute/path/to/openinsurance-wiki/mcp/insurance_wiki_mcp.py"]
+      "command": "/absolute/path/to/OpenInsurance/.venv/bin/python",
+      "args": ["/absolute/path/to/OpenInsurance/mcp/insurance_wiki_mcp.py"]
     }
   }
 }
@@ -34,12 +50,20 @@ Add to your MCP client config (e.g. a project `.mcp.json`):
 | `list_branches(country)` | Branches for a country, with mandatory flag and product counts. |
 | `search(query, country, type, branch, insurer, limit)` | Search pages by title/content, filterable. |
 | `get_page(path)` | Full Markdown of one page. |
-| `get_product(country, insurer_slug, product_name)` | A product's structured data (coverages, exclusions, ...) + source_url. |
-| `compare_products(country, product_names, on)` | Compare products on coverages / exclusions / deductibles. |
-| `find_overlap(country, product_names, on)` | Flag candidate **duplicate cover** when combining 2+ products (e.g. home + family liability). |
+| `get_product(country, insurer_slug, product_name, document_type?, edition?)` | A product's structured data (coverages, exclusions, ...) + source_url. |
+| `compare_products(country, product_names, on, insurer_slugs?)` | Compare products on coverages / exclusions / deductibles. |
+| `find_overlap(country, product_names, on, insurer_slugs?)` | Flag candidate **duplicate cover** when combining 2+ products (e.g. home + family liability). |
 | `get_branch_overview(country, branch)` | The hand-authored branch overview. |
 
-Every product/coverage response carries the `source_url` and a no-advice disclaimer. The server never writes.
+One commercial product usually maps to **several documents** (its general conditions and its IPID share the
+name, and several editions can coexist). Tools that take a product name resolve deterministically - general
+conditions over summaries, non-superseded, newest edition - and every response says which document was chosen
+(`document_type`, `edition_date`, `reference`) with the alternatives listed. Use `document_type=` / `edition=`
+on `get_product` to pick a specific one.
+
+Every product/coverage response carries the `source_url` and a no-advice disclaimer. The server never writes,
+and `get_page` only reads the knowledge folders (`wiki/`, `data/`, `_meta/`, `sources/`, `schema/`, root
+`*.md`) - never dotfiles or code.
 
 ---
 
@@ -95,3 +119,20 @@ civil liability - a real potential duplication for the policyholder to check.
    `_extracted()` / `_read_index()` / `_safe_repo_path()` helpers. Never write.
 3. Return a string (JSON or Markdown). For anything about coverages, prepend `DISCLAIMER` and include `source_url`.
 4. Restart the server; the new tool is exposed automatically. No registration step.
+
+---
+
+## Publishing to the MCP registry (maintainers)
+
+The server is packaged by the root [`pyproject.toml`](../pyproject.toml) (console script
+`insurance-wiki-mcp`, PyPI name `openinsurance-wiki-mcp`). To list it on the
+[official MCP registry](https://registry.modelcontextprotocol.io) (which the public
+directories like PulseMCP ingest automatically):
+
+1. Publish the package to PyPI: `python -m build && twine upload dist/*`.
+2. Install the publisher CLI and generate the manifest: `mcp-publisher init`
+   (namespace `io.github.sluyasu/*`, package `openinsurance-wiki-mcp`, transport stdio,
+   document the `INSURANCE_WIKI_REPO` environment variable).
+3. `mcp-publisher login github` then `mcp-publisher publish`.
+
+See https://github.com/modelcontextprotocol/registry for the current publishing guide.

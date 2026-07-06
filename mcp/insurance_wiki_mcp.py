@@ -11,6 +11,7 @@ Run: python mcp/insurance_wiki_mcp.py   (registered in the repo/.mcp.json)
 from __future__ import annotations
 
 import json
+import os
 import re
 import unicodedata
 from pathlib import Path
@@ -18,7 +19,10 @@ from pathlib import Path
 import yaml
 from mcp.server.fastmcp import FastMCP
 
-REPO = Path(__file__).resolve().parent.parent
+# Default: the server file lives in <repo>/mcp/. When installed as a package
+# (pip/uvx), point INSURANCE_WIKI_REPO at a clone of the repo instead.
+REPO = Path(os.environ.get("INSURANCE_WIKI_REPO")
+            or Path(__file__).resolve().parent.parent).resolve()
 WIKI = REPO / "wiki"
 DATA = REPO / "data"
 SOURCES = REPO / "sources"
@@ -60,13 +64,100 @@ def _extracted(cc: str) -> list[tuple[Path, dict]]:
     return out
 
 
+# Directories the server may read from. Everything else (.env, pipeline code, git
+# internals) stays out of reach even if a prompt-injected client asks for it.
+_READABLE_ROOTS = ("wiki", "data", "_meta", "sources", "schema")
+
+
 def _safe_repo_path(path: str) -> Path | None:
     p = (REPO / path).resolve()
     try:
-        p.relative_to(REPO)
+        rel = p.relative_to(REPO)
     except ValueError:
         return None
+    if any(part.startswith(".") for part in rel.parts):
+        return None
+    if len(rel.parts) == 1:
+        if p.suffix.lower() != ".md":
+            return None
+    elif rel.parts[0] not in _READABLE_ROOTS:
+        return None
     return p if p.is_file() else None
+
+
+# --- document selection ------------------------------------------------------
+# One commercial product usually has several extracted documents (CG + IPID, several
+# editions). Tools that take a product name resolve to ONE document deterministically:
+# general conditions over summaries, non-superseded over superseded, newest edition
+# last - and always say which document was chosen.
+
+_DOC_PREF = {"conditions_generales": 0, "conditions_particulieres": 1,
+             "conditions_tarifaires": 2, "ipid": 3}
+
+
+def _edition_key(ed) -> tuple[int, int, int]:
+    """Sortable (year, month, day) from an edition date as printed in the source PDF
+    (04.2025, 2026-05-12, 12/05/2026, 01042026, 2019, ...). (0,0,0) when unparseable."""
+    if not ed:
+        return (0, 0, 0)
+    s = str(ed).strip()
+    m = re.fullmatch(r"(\d{4})[-./](\d{1,2})[-./](\d{1,2})", s)   # YYYY-MM-DD
+    if m:
+        y, a, b = int(m.group(1)), int(m.group(2)), int(m.group(3))
+        return (y, a, b) if a <= 12 else (y, b, a)
+    m = re.fullmatch(r"(\d{1,2})[-./](\d{1,2})[-./](\d{4})", s)   # DD-MM-YYYY
+    if m:
+        d, mo, y = int(m.group(1)), int(m.group(2)), int(m.group(3))
+        if mo > 12 and d <= 12:
+            d, mo = mo, d
+        return (y, mo, d)
+    m = re.fullmatch(r"(\d{1,2})[-./](\d{4})", s)                 # MM-YYYY
+    if m:
+        return (int(m.group(2)), int(m.group(1)), 0)
+    m = re.fullmatch(r"(\d{4})[-./](\d{1,2})", s)                 # YYYY-MM
+    if m:
+        return (int(m.group(1)), int(m.group(2)), 0)
+    m = re.fullmatch(r"(\d{2})(\d{2})(\d{4})", s)                 # DDMMYYYY
+    if m:
+        return (int(m.group(3)), int(m.group(2)), int(m.group(1)))
+    m = re.fullmatch(r"(\d{1,2})[./](\d{2})", s)                  # MM.YY
+    if m and int(m.group(1)) <= 12:
+        return (2000 + int(m.group(2)), int(m.group(1)), 0)
+    m = re.search(r"\b(19|20)\d{2}\b", s)                         # bare year somewhere
+    if m:
+        return (int(m.group(0)), 0, 0)
+    return (0, 0, 0)
+
+
+def _pick_best(matches: list[dict]) -> tuple[dict, list[dict]]:
+    """(chosen, alternatives) for one product's documents."""
+    ranked = sorted(matches, key=lambda o: (
+        _DOC_PREF.get(o.get("document_type"), 9),
+        1 if o.get("superseded") else 0,
+        tuple(-x for x in _edition_key(o.get("edition_date"))),
+    ))
+    return ranked[0], ranked[1:]
+
+
+def _doc_meta(obj: dict) -> dict:
+    """The identifiers that tell two same-named documents apart."""
+    return {"product_name": obj.get("product_name"), "insurer_slug": obj.get("insurer_slug"),
+            "document_type": obj.get("document_type"), "edition_date": obj.get("edition_date"),
+            "reference": obj.get("reference"), "superseded": obj.get("superseded"),
+            "source_url": obj.get("source_url")}
+
+
+def _resolve_product(allp: list[tuple[Path, dict]], name: str,
+                     insurer: str = "") -> tuple[dict | None, list[dict]]:
+    """Match a product name (case-insensitive substring), optionally within one insurer,
+    and pick the best document. Returns (chosen | None, alternatives)."""
+    w = name.lower().strip()
+    m = [o for _, o in allp
+         if w in (o.get("product_name") or "").lower()
+         and (not insurer or o.get("insurer_slug") == insurer)]
+    if not m:
+        return None, []
+    return _pick_best(m)
 
 
 # --- coverage categorization (for the overlap detector) ---------------------
@@ -175,43 +266,77 @@ def get_page(path: str) -> str:
 
 
 @mcp.tool()
-def get_product(country: str, insurer_slug: str, product_name: str) -> str:
+def get_product(country: str, insurer_slug: str, product_name: str,
+                document_type: str = "", edition: str = "") -> str:
     """Return a product's structured data (coverages, exclusions, deductibles, etc.) as JSON,
-    plus its source_url. `product_name` is matched case-insensitively (substring)."""
+    plus its source_url. `product_name` is matched case-insensitively (substring).
+    Optional filters: document_type (conditions_generales | ipid | conditions_particulieres |
+    conditions_tarifaires) and edition (substring of the edition_date, e.g. '2026').
+    When one product has several documents (e.g. its CG and its IPID share the commercial
+    name), the general conditions with the newest edition are returned and the other
+    documents are listed under `other_documents`."""
     want = product_name.lower().strip()
     matches = []
     for jf, obj in _extracted(country):
         if obj.get("insurer_slug") != insurer_slug:
             continue
-        if want in (obj.get("product_name") or "").lower() or want in jf.stem.lower():
-            matches.append(obj)
+        if want not in (obj.get("product_name") or "").lower() and want not in jf.stem.lower():
+            continue
+        if document_type and obj.get("document_type") != document_type:
+            continue
+        if edition and edition not in str(obj.get("edition_date") or ""):
+            continue
+        matches.append(obj)
     if not matches:
         return f"{DISCLAIMER}\nNo product matching '{product_name}' for insurer '{insurer_slug}' in {country}."
-    if len(matches) > 1:
-        names = [m.get("product_name") for m in matches]
-        return f"Multiple matches, refine product_name: {json.dumps(names, ensure_ascii=False)}"
-    return DISCLAIMER + "\n" + json.dumps(matches[0], ensure_ascii=False, indent=2)
+    names = {(m.get("product_name") or "").lower() for m in matches}
+    if len(names) > 1:
+        return ("Multiple distinct products match; refine product_name or filter by "
+                "document_type/edition:\n"
+                + json.dumps([_doc_meta(m) for m in matches], ensure_ascii=False, indent=2))
+    chosen, others = _pick_best(matches)
+    payload = dict(chosen)
+    if others:
+        payload["other_documents"] = [_doc_meta(o) for o in others]
+        note = (f"[Selected: {chosen.get('document_type')}, edition "
+                f"{chosen.get('edition_date') or 'undated'}. {len(others)} other document(s) "
+                f"for this product under `other_documents`.]")
+        return DISCLAIMER + "\n" + note + "\n" + json.dumps(payload, ensure_ascii=False, indent=2)
+    return DISCLAIMER + "\n" + json.dumps(payload, ensure_ascii=False, indent=2)
 
 
 @mcp.tool()
-def compare_products(country: str, product_names: list[str], on: str = "coverages") -> str:
+def compare_products(country: str, product_names: list[str], on: str = "coverages",
+                     insurer_slugs: list[str] | None = None) -> str:
     """Compare 2+ products side by side on one dimension: coverages | exclusions | deductibles.
-    Each name is matched case-insensitively against extracted product names."""
+    Each name is matched case-insensitively against extracted product names; pass
+    insurer_slugs (same length/order as product_names) to pin each name to one insurer.
+    For each name the best document is selected (general conditions over IPID, newest
+    edition) and identified in the response."""
     if on not in ("coverages", "exclusions", "deductibles"):
         return "on must be one of: coverages | exclusions | deductibles"
-    chosen = []
+    if insurer_slugs and len(insurer_slugs) != len(product_names):
+        return "insurer_slugs must have the same length/order as product_names"
     allp = _extracted(country)
-    for name in product_names:
-        w = name.lower().strip()
-        m = [obj for _, obj in allp if w in (obj.get("product_name") or "").lower()]
-        if m:
-            chosen.append(m[0])
+    chosen, unmatched = [], []
+    for i, name in enumerate(product_names):
+        obj, others = _resolve_product(allp, name, insurer_slugs[i] if insurer_slugs else "")
+        if obj:
+            chosen.append((obj, len(others)))
+        else:
+            unmatched.append(name)
     if len(chosen) < 2:
-        return f"{DISCLAIMER}\nNeed at least 2 matching products; matched {len(chosen)}."
+        return (f"{DISCLAIMER}\nNeed at least 2 matching products; matched {len(chosen)}."
+                + (f" Unmatched: {unmatched}" if unmatched else ""))
     result = {"on": on, "products": []}
-    for obj in chosen:
+    if unmatched:
+        result["unmatched"] = unmatched
+    for obj, n_alt in chosen:
         entry = {"product_name": obj.get("product_name"), "insurer": obj.get("insurer_name"),
-                 "source_url": obj.get("source_url")}
+                 "insurer_slug": obj.get("insurer_slug"),
+                 "document_type": obj.get("document_type"),
+                 "edition_date": obj.get("edition_date"), "reference": obj.get("reference"),
+                 "other_documents_exist": n_alt, "source_url": obj.get("source_url")}
         if on == "deductibles":
             entry["deductibles"] = obj.get("deductibles")
         else:
@@ -221,23 +346,27 @@ def compare_products(country: str, product_names: list[str], on: str = "coverage
 
 
 @mcp.tool()
-def find_overlap(country: str, product_names: list[str], on: str = "coverages") -> str:
+def find_overlap(country: str, product_names: list[str], on: str = "coverages",
+                 insurer_slugs: list[str] | None = None) -> str:
     """Flag CANDIDATE duplicate cover when combining 2+ products (e.g. a home policy + a
     family-liability policy). Each product's coverages (or exclusions) are tagged with a
     controlled category (schema/coverage_categories.json); a candidate overlap is a
     category present in 2+ of the products. Deterministic + heuristic: it surfaces likely
     duplicates for an agent to confirm against the actual descriptions. It does not advise
-    or rank, and can miss overlaps the taxonomy doesn't yet cover."""
+    or rank, and can miss overlaps the taxonomy doesn't yet cover. Pass insurer_slugs
+    (same length/order as product_names) to pin each name to one insurer; the best
+    document per name is selected (general conditions over IPID, newest edition)."""
     from collections import defaultdict
     if on not in ("coverages", "exclusions"):
         return "on must be 'coverages' or 'exclusions'"
+    if insurer_slugs and len(insurer_slugs) != len(product_names):
+        return "insurer_slugs must have the same length/order as product_names"
     allp = _extracted(country)
     chosen = []
-    for name in product_names:
-        w = name.lower().strip()
-        m = [o for _, o in allp if w in (o.get("product_name") or "").lower()]
-        if m:
-            chosen.append(m[0])
+    for i, name in enumerate(product_names):
+        o, _others = _resolve_product(allp, name, insurer_slugs[i] if insurer_slugs else "")
+        if o:
+            chosen.append(o)
     if len(chosen) < 2:
         return f"{DISCLAIMER}\nNeed at least 2 matching products; matched {len(chosen)}."
     labels = {k: v.get("label", k) for k, v in _categories().items()}
@@ -254,7 +383,9 @@ def find_overlap(country: str, product_names: list[str], on: str = "coverages") 
             for c in cats:
                 cat_items[c].append({"product": pname, "item": it.get("name")})
         per_product.append({"product_name": pname, "insurer": o.get("insurer_name"),
-                            "branch": o.get("branch"), "source_url": o.get("source_url"), on: items})
+                            "branch": o.get("branch"), "document_type": o.get("document_type"),
+                            "edition_date": o.get("edition_date"),
+                            "source_url": o.get("source_url"), on: items})
     overlaps = []
     for c, entries in cat_items.items():
         if len({e["product"] for e in entries}) >= 2:
@@ -280,5 +411,10 @@ def get_branch_overview(country: str, branch: str) -> str:
     return f"No branch overview for '{branch}' in {country}."
 
 
-if __name__ == "__main__":
+def main() -> None:
+    """Console entry point (`insurance-wiki-mcp` once installed)."""
     mcp.run()
+
+
+if __name__ == "__main__":
+    main()
