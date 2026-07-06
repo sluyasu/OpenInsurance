@@ -20,8 +20,8 @@ import re
 import sys
 from pathlib import Path
 
-from common import (AGENT, SCHEMA, REPO, load_manifest, extracted_dir, read_json,
-                    write_json, slugify, branch_slugs, prompt_version)
+from common import (AGENT, SCHEMA, REPO, country_dir, load_manifest, extracted_dir,
+                    read_json, write_json, slugify, branch_slugs, prompt_version, today)
 
 # Make the hyphenated extraction-agent/providers package importable.
 sys.path.insert(0, str(AGENT))
@@ -138,6 +138,34 @@ def out_path(cc: str, rec: dict, product_name: str) -> Path:
     return extracted_dir(cc) / rec["insurer_slug"] / f"{base}-{h}.json"
 
 
+def find_existing(cc: str, rec: dict) -> Path | None:
+    """A previous extraction for this source PDF, whatever product name the model chose
+    for the filename: the url-hash suffix is the stable key."""
+    h = hashlib.sha256(rec.get("url", "").encode()).hexdigest()[:8]
+    d = extracted_dir(cc) / rec.get("insurer_slug", "")
+    if not d.is_dir():
+        return None
+    hits = sorted(d.glob(f"*-{h}.json"))
+    return hits[0] if hits else None
+
+
+def record_gap(cc: str, rec: dict, reason: str) -> None:
+    """Persist an extraction gap in data/<cc>/gaps.json (gaps are labeled, not hidden)."""
+    p = country_dir(cc) / "gaps.json"
+    gaps = read_json(p, default={}) or {}
+    gaps[rec.get("url") or rec.get("local_path", "?")] = {
+        "insurer_slug": rec.get("insurer_slug"), "branch": rec.get("branch"),
+        "document_type": rec.get("document_type"), "reason": reason, "recorded_at": today()}
+    write_json(p, dict(sorted(gaps.items())))
+
+
+def clear_gap(cc: str, rec: dict) -> None:
+    p = country_dir(cc) / "gaps.json"
+    gaps = read_json(p, default={}) or {}
+    if gaps.pop(rec.get("url"), None) is not None:
+        write_json(p, dict(sorted(gaps.items())))
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--country", required=True)
@@ -171,10 +199,12 @@ def main() -> int:
             print(f"[extract] missing file {pdf}, skip")
             continue
 
-        # cache check by an existing extraction with same checksum + prompt version
+        # cache check: any existing extraction for this source url (same checksum +
+        # prompt version). Looked up by the url-hash suffix, NOT by product name -
+        # the model's chosen name rarely matches the preliminary one from sources/.
         prelim_name = rec.get("product_name") or Path(rec["local_path"]).stem
-        candidate = out_path(cc, rec, prelim_name)
-        existing = read_json(candidate)
+        candidate = find_existing(cc, rec)
+        existing = read_json(candidate) if candidate else None
         if existing and existing.get("source_sha256") == rec.get("sha256") \
                 and existing.get("prompt_version") == pv:
             n_skip += 1
@@ -183,6 +213,7 @@ def main() -> int:
         raw_text, pages = pdf_text_with_pages(pdf)
         if not raw_text.strip():
             print(f"[extract] no text layer (scanned?) -> {pdf.name}; recording gap, skip")
+            record_gap(cc, rec, "no text layer (scanned PDF?); extraction needs OCR")
             n_fail += 1
             continue
         truncated = len(raw_text) > MAX_TEXT_CHARS
@@ -232,6 +263,9 @@ def main() -> int:
         errors = validate(obj)
         final = out_path(cc, rec, obj["product_name"])
         write_json(final, obj)
+        if candidate and candidate != final:
+            candidate.unlink()  # the model's name drifted; keep one extraction per source PDF
+        clear_gap(cc, rec)
         if errors:
             print(f"[extract]  ⚠ schema warnings ({len(errors)}): " + "; ".join(errors[:4]))
         print(f"[extract]  -> {final.relative_to(REPO)}  "
