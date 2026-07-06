@@ -1,0 +1,25 @@
+site_name: openinsurance-wiki
+site_description: Open, source-cited knowledge base of insurance products (Belgium first, country-agnostic)
+site_url: https://sluyasu.github.io/OpenInsurance/
+repo_url: https://github.com/sluyasu/OpenInsurance
+repo_name: sluyasu/OpenInsurance
+
+# The site is built from a CI-staged copy of wiki/ (see .github/workflows/pages.yml);
+# wiki/ itself is never modified by the site build.
+docs_dir: site-src
+
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: indigo
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.path
+    - search.suggest
+    - content.action.view
+
+plugins:
+  - search
+  - roamlinks

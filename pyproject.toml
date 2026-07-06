@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openinsurance-wiki-mcp"
+version = "0.1.0"
+description = "Read-only MCP server over the openinsurance-wiki knowledge base (search, get_product, compare_products, find_overlap)"
+readme = "mcp/README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "openinsurance-wiki contributors" }]
+keywords = ["insurance", "mcp", "knowledge-base", "open-data", "belgium"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Office/Business :: Financial",
+]
+dependencies = [
+  "mcp[cli]>=1.2",
+  "pyyaml>=6.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/sluyasu/OpenInsurance"
+Repository = "https://github.com/sluyasu/OpenInsurance"
+Issues = "https://github.com/sluyasu/OpenInsurance/issues"
+
+[project.scripts]
+insurance-wiki-mcp = "insurance_wiki_mcp:main"
+
+# The wiki dataset is the repo itself (too large for a wheel). The installed
+# server needs INSURANCE_WIKI_REPO pointing at a clone; run from a clone and
+# no configuration is needed.
+[tool.setuptools]
+package-dir = { "" = "mcp" }
+py-modules = ["insurance_wiki_mcp"]

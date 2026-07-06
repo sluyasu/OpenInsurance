@@ -1,6 +1,15 @@
-# Downloaded PDFs are large binaries — regenerable from sources/ via `make download`.
+# Downloaded PDFs are large binaries - regenerable from sources/ via `make download`.
 # The manifest (provenance: url, checksum, date) IS committed; the PDFs are not.
 data/**/pdfs/
+
+# Static site build (generated in CI from wiki/, never committed)
+site/
+site-src/
+
+# Python packaging
+dist/
+build/
+*.egg-info/
 
 # Secrets
 .env
