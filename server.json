@@ -1,0 +1,31 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.sluyasu/openinsurance-wiki",
+  "description": "Read-only MCP server over an open, source-cited knowledge base of insurance products (Belgium: 17 insurers, 162 products). Search, compare, detect duplicate cover.",
+  "repository": {
+    "url": "https://github.com/sluyasu/OpenInsurance",
+    "source": "github"
+  },
+  "websiteUrl": "https://sluyasu.github.io/OpenInsurance/",
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "openinsurance-wiki-mcp",
+      "version": "0.1.0",
+      "runtimeHint": "uvx",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "INSURANCE_WIKI_REPO",
+          "description": "Path to a local clone of github.com/sluyasu/OpenInsurance (the wiki dataset lives in the repo, not in the package)",
+          "isRequired": true,
+          "isSecret": false,
+          "format": "string"
+        }
+      ]
+    }
+  ]
+}

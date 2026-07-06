@@ -30,6 +30,8 @@ Issues = "https://github.com/sluyasu/OpenInsurance/issues"
 
 [project.scripts]
 insurance-wiki-mcp = "insurance_wiki_mcp:main"
+# Alias matching the PyPI name so `uvx openinsurance-wiki-mcp` works out of the box
+openinsurance-wiki-mcp = "insurance_wiki_mcp:main"
 
 # The wiki dataset is the repo itself (too large for a wheel). The installed
 # server needs INSURANCE_WIKI_REPO pointing at a clone; run from a clone and

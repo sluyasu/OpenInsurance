@@ -136,3 +136,7 @@ directories like PulseMCP ingest automatically):
 3. `mcp-publisher login github` then `mcp-publisher publish`.
 
 See https://github.com/modelcontextprotocol/registry for the current publishing guide.
+
+<!-- Registry ownership marker: the official MCP registry validates that the PyPI
+     package below belongs to this server name. Do not remove. -->
+mcp-name: io.github.sluyasu/openinsurance-wiki
