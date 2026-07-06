@@ -13,9 +13,44 @@ cross-linked into a navigable graph of products, insurers, branches, regulations
   <img src="assets/knowledge-graph.png" alt="The insurance knowledge graph: products, insurers, branches, regulations and concepts, all interlinked" width="880">
 </p>
 
-Point it at **any country**: the taxonomy is data, not code, and adding a country is a documented recipe. The
-first reference dataset already covers **17 insurers and 162 products across 12 branches** (auto, home, health,
-liability, travel, legal protection, …), each page cited to its source document.
+As far as we know, this is the **only open-source, machine-readable, source-cited database of insurance
+products** (the closest equivalents are commercial and closed). Point it at **any country**: the taxonomy is
+data, not code, and adding a country is a documented recipe. The first reference dataset already covers
+**17 insurers and 162 products across 12 branches** in Belgium (auto, home, health, liability, travel, legal
+protection, ...), each page cited to its source document.
+
+---
+
+## Use it in 2 minutes - no API key needed
+
+The dataset **ships in the repo, already built**: 162 product pages, insurer pages, glossary, plus the
+structured JSON behind them. You only need an LLM key to *re-extract from scratch*, never to *use* it.
+
+**1. Browse it.** Open the repo as an [Obsidian](https://obsidian.md) vault (the `[[wikilinks]]` become a
+navigable graph). Note: github.com does not render `[[wikilinks]]` as links, so the vault or the website is
+the comfortable way to read.
+
+**2. Plug it into an agent (MCP).** The MCP server is keyless and read-only:
+
+```bash
+git clone https://github.com/sluyasu/OpenInsurance.git
+cd OpenInsurance
+python3 -m venv .venv && .venv/bin/pip install "mcp[cli]" pyyaml
+```
+
+Then register it with any MCP client, e.g. Claude Code:
+
+```bash
+claude mcp add insurance-wiki -- "$(pwd)/.venv/bin/python" "$(pwd)/mcp/insurance_wiki_mcp.py"
+```
+
+You get `search`, `get_product`, `compare_products`, `find_overlap` (candidate duplicate cover when combining
+two policies), `get_branch_overview`, ... See [`mcp/README.md`](mcp/README.md).
+
+**3. Take the raw data.** `data/be/extracted/` holds one structured JSON per source document, validated
+against [`schema/`](schema/); `data/be/index.json` is the flat index. `AGENTS.md` is a generated manifest
+(note types, counts, per-page `path` / `source_url` / `freshness`) so a file-reading agent can navigate
+without guessing.
 
 ---
 
@@ -27,14 +62,20 @@ liability, travel, legal protection, …), each page cited to its source documen
 
 ## Why this exists
 
-Insurance products are documented in dense PDFs scattered across dozens of insurer websites. There is no neutral,
-machine-readable, navigable map of what actually exists in a national market. This project builds one - as a
-public good, and in a form an AI agent can plug into.
+Insurance products are documented in dense PDFs scattered across dozens of insurer websites. There is no
+neutral, machine-readable, navigable map of what actually exists in a national market. This project builds
+one - as a public good, and in a form an AI agent can plug into.
+
+It also plugs into a market that is standardizing around it: EU regulation 2017/1469 gives every non-life
+product a standardized summary (the **IPID**), EIOPA actively promotes product comparison and switching, and
+the **open insurance** agenda (OPIN, the EU FIDA proposal) pushes for machine-readable access to insurance
+data. This project is the missing *public documents* layer of that picture: what the products actually say,
+in the open.
 
 Three things make it different:
 
-1. **Self-sufficient & reproducible.** Clone it, add your own LLM key, run `make all`. It scrapes, downloads and
-   extracts from scratch. No hidden datasets - every input is committed, every output is regenerable.
+1. **Self-sufficient & reproducible.** Clone it, add your own LLM key, run `make all`. It scrapes, downloads
+   and extracts from scratch. No hidden datasets - every input is committed, every output is regenerable.
 2. **Transparent extraction.** The exact prompt sent to the LLM is a file in this repo
    ([`extraction-agent/`](extraction-agent/)), not buried in code. You can read precisely what the model was
    asked, and run the identical extraction **with your own model** (Claude, Gemini, GPT, or a local model).
@@ -51,38 +92,26 @@ Per country (`wiki/be/`):
 |---|---|---|
 | `products/<insurer>/` | One rich page per insurance product (general conditions / IPID) | **Generated** from the PDFs |
 | `insurers/` | One page per insurer, aggregating its products | **Generated** |
-| `branches/` | Overview of each line of insurance (auto, home, liability…) | **Hand-authored** |
-| `regulations/` | The regulator and key laws (FSMA, mandatory RC auto, cat-nat…) | **Hand-authored** |
-| `glossary/` | Country-specific terms (bonus-malus, franchise, Branche 21/23…) | **Hand-authored** |
+| `branches/` | Overview of each line of insurance (3 of 12 written so far; `make validate` lists the gaps) | **Hand-authored** |
+| `regulations/` | The regulator and key laws (FSMA, mandatory RC auto, cat-nat...) | **Hand-authored** |
+| `glossary/` | Country-specific terms (bonus-malus, franchise, Branche 21/23...) | **Hand-authored** |
 
 Generated and hand-authored pages live in **separate folders** and never collide: you fix a fact by editing the
 extraction data and rebuilding, never by editing a generated page.
 
-Every page is Obsidian-compatible Markdown with YAML frontmatter and `[[wikilinks]]` - open the repo as an
-Obsidian vault to browse the graph, or read it straight on GitHub.
+Every page is Obsidian-compatible Markdown with YAML frontmatter and `[[wikilinks]]`.
 
 ---
 
-## Plug it into any agent - three tiers
+## Reproduce it from scratch
 
-1. **Plain Markdown + manifest** - any file/git-capable agent (Claude Code, Cursor, an SDK agent) reads the
-   `.md` files directly. [`AGENTS.md`](AGENTS.md) is a generated index (note types, per-country counts, a flat
-   table with `path`, `source_url`, `freshness`) so an agent can navigate without guessing.
-2. **MCP server** - [`mcp/insurance_wiki_mcp.py`](mcp/) exposes `list_branches`, `search`, `get_product`,
-   `compare_products`, `find_overlap`, … over the wiki. Point any MCP client at it. This is where analysis lives:
-   compare products/insurers, read exclusions side by side, and detect **duplicate cover** when combining two
-   policies (e.g. home + family liability). See [`mcp/README.md`](mcp/README.md) for how the overlap tool is built
-   and how to add your own.
-3. **Machine-readable data** - `data/<cc>/` holds the structured JSON behind each page, validated against
-   [`schema/`](schema/). Agents that want raw structure skip the Markdown entirely.
-
----
-
-## Quickstart
+This is the only path that needs an LLM key (the extraction step). Scraping and download use a free stack
+(`httpx` + `Playwright`).
 
 ```bash
-git clone <this-repo> && cd openinsurance-wiki
-make setup                      # deps + playwright chromium (free stack, no paid scraping dependency)
+git clone https://github.com/sluyasu/OpenInsurance.git
+cd OpenInsurance
+make setup                      # deps + playwright chromium (no paid scraping dependency)
 cp .env.example .env            # set LLM_PROVIDER + your API key (any provider)
 
 # Reproduce a slice end-to-end:
@@ -95,10 +124,8 @@ make validate COUNTRY=be                  # citation / wikilink / frontmatter ga
 make all COUNTRY=be
 ```
 
-The extraction step is the only one that calls an LLM. Scraping and download use a free stack (`httpx` +
-`Playwright`) and need no API key.
-
----
+Extraction is resumable (skip-existing keyed by source checksum + prompt version), so large runs can stop and
+restart safely.
 
 ## How the pipeline works
 
@@ -118,6 +145,9 @@ wiki/be/…                    (the browsable, agent-readable knowledge base)
 Details: [`CONTRIBUTING.md`](CONTRIBUTING.md) (how to add a country / insurer / product) and
 [`extraction-agent/`](extraction-agent/) (the exact prompts).
 
+Every push runs the CI gates: wiki validation (frontmatter, wikilinks, citations) and build idempotence
+(rebuilding the committed wiki must produce a zero diff).
+
 ---
 
 ## Add a country
@@ -127,15 +157,16 @@ Details: [`CONTRIBUTING.md`](CONTRIBUTING.md) (how to add a country / insurer / 
 3. `wiki/<cc>/` - hand-author branch/regulation/glossary overviews (or start them as stubs).
 4. `make all COUNTRY=<cc>`.
 
-Nothing in the code or schema is Belgium-specific - the taxonomy is data, not structure.
+Nothing in the schema is Belgium-specific - the taxonomy is data, not structure.
 
 ---
 
 ## Licensing & provenance
 
-Dual-licensed: **code** ([pipeline/](pipeline/), [mcp/](mcp/), adapters, schema) under **MIT**; **content**
-(`wiki/`, extracted data, prompts, sources) under **CC-BY-4.0**. See [`LICENSE`](LICENSE) and
-[`LICENSE-CONTENT`](LICENSE-CONTENT).
+Dual-licensed: **code** ([pipeline/](pipeline/), [mcp/](mcp/), adapters, schema) under **MIT**; **original
+content** (`wiki/`, extracted data, prompts, sources) under **CC-BY-4.0**. Short verbatim excerpts quoted from
+insurers' public documents remain the property of their publishers and are **not** relicensed - see
+[`LICENSE`](LICENSE), [`LICENSE-CONTENT`](LICENSE-CONTENT) and [`NOTICE`](NOTICE).
 
 Product pages are a factual extraction from insurers' **publicly published** documents, attributed to each source
 PDF. **They are not the insurers' official documents** and may contain extraction errors - always verify against

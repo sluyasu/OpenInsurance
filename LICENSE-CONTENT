@@ -1,14 +1,16 @@
 Creative Commons Attribution 4.0 International (CC-BY-4.0)
 
-The KNOWLEDGE CONTENT of this repository is licensed under the Creative Commons
-Attribution 4.0 International License. This covers:
+The ORIGINAL KNOWLEDGE CONTENT of this repository is licensed under the
+Creative Commons Attribution 4.0 International License, to the extent this
+project holds rights in it. This covers:
 
-  - wiki/                      (the Markdown knowledge base)
-  - data/**/extracted/        (extracted Markdown + JSON)
+  - the hand-authored wiki pages   (branch/regulation/glossary overviews, MOCs)
+  - the structure, organization and wording of the generated pages
+  - data/**/extracted/             (the structured factual records)
   - data/**/index.json, manifest.json
-  - _meta/                     (conventions, templates, universal glossary)
-  - sources/                   (source configuration maps)
-  - extraction-agent/*.md      (the committed prompts and specs)
+  - _meta/                         (conventions, templates, universal glossary)
+  - sources/                       (source configuration maps)
+  - extraction-agent/*.md          (the committed prompts and specs)
 
 You are free to share and adapt this content for any purpose, even commercially,
 provided you give appropriate credit and link back to this repository.
@@ -16,13 +18,21 @@ provided you give appropriate credit and link back to this repository.
 Full text: https://creativecommons.org/licenses/by/4.0/legalcode
 
 --------------------------------------------------------------------------------
-PROVENANCE & DISCLAIMER (important)
+WHAT THIS LICENSE DOES NOT COVER
 
-The per-product content is a factual, structured EXTRACTION derived from the
-publicly published general-conditions / IPID documents of insurers. Facts (what
-a policy covers or excludes) are not themselves copyrightable; this project
-records and organizes them and ATTRIBUTES each page to its source document via a
-`source_url`.
+Insurers' source documents remain the property of their publishers. The
+extracted pages record FACTS from publicly published general-conditions / IPID
+documents (what a policy covers, excludes, its limits and conditions - facts
+are not themselves copyrightable), and they quote SHORT VERBATIM EXCERPTS
+(`key_quotes`, quoted wordings and limits) for identification and verification,
+each attributed to its source document via `source_url`. Those excerpts are
+reproduced as quotations: they are NOT relicensed under CC-BY-4.0, and this
+project claims no rights over the underlying insurer documents. If you
+redistribute or adapt this dataset, your reuse of the quoted excerpts is your
+own responsibility.
+
+--------------------------------------------------------------------------------
+PROVENANCE & DISCLAIMER
 
 These pages are NOT the insurers' official documents and may contain extraction
 errors. They are for information only and must not be relied upon for coverage
