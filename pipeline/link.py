@@ -27,26 +27,37 @@ def _family_base(obj: dict) -> str:
     else:
         src = obj.get("product_name", "") or ""
         src = re.sub(r"\(.*?\)", " ", src)            # drop parentheticals
-        src = re.split(r"\s[--]\s|,", src)[0]     # drop after " - " / " - " / comma
+        src = re.split(r"\s[-–—]\s|,", src)[0]  # drop after " - " (hyphen/en/em dash) / comma
         src = re.sub(r"\b(19|20)\d\d\b", " ", src)     # drop years
     return slugify(src) or "produit"
 
 
 def _edition_key(ed) -> tuple[int, int]:
-    """(year, month) sortable key from a messy edition date; (0,0) if undated."""
+    """(year, month) sortable key from an edition date as printed in the source PDF
+    (04.2025, 2026-05-12, 12/05/2026, 01042026, 2019, ...); (0, 0) if undated/unparseable."""
     if not ed:
         return (0, 0)
-    s = str(ed)
-    m = re.search(r"(19|20)(\d\d)[-./](\d{1,2})", s)           # YYYY-MM
+    s = str(ed).strip()
+    m = re.fullmatch(r"(\d{4})[-./](\d{1,2})[-./](\d{1,2})", s)   # YYYY-MM-DD
     if m:
-        return (int(m.group(1) + m.group(2)), int(m.group(3)))
-    m = re.search(r"\b(\d{1,2})[-./](19|20)(\d\d)\b", s)        # MM-YYYY
+        y, a, b = int(m.group(1)), int(m.group(2)), int(m.group(3))
+        return (y, a) if a <= 12 else (y, b)
+    m = re.fullmatch(r"(\d{1,2})[-./](\d{1,2})[-./](\d{4})", s)   # DD-MM-YYYY
     if m:
-        return (int(m.group(2) + m.group(3)), int(m.group(1)))
-    m = re.search(r"\b(\d{1,2})[./](\d{2})\b", s)               # MM.YY -> 20YY
+        return (int(m.group(3)), int(m.group(2)))
+    m = re.fullmatch(r"(\d{1,2})[-./](\d{4})", s)                 # MM-YYYY
     if m:
+        return (int(m.group(2)), int(m.group(1)))
+    m = re.fullmatch(r"(\d{4})[-./](\d{1,2})", s)                 # YYYY-MM
+    if m:
+        return (int(m.group(1)), int(m.group(2)))
+    m = re.fullmatch(r"(\d{2})(\d{2})(\d{4})", s)                 # DDMMYYYY
+    if m:
+        return (int(m.group(3)), int(m.group(2)))
+    m = re.fullmatch(r"(\d{1,2})[./](\d{2})", s)                  # MM.YY
+    if m and int(m.group(1)) <= 12:
         return (2000 + int(m.group(2)), int(m.group(1)))
-    m = re.search(r"\b(19|20)\d\d\b", s)                        # bare year
+    m = re.search(r"\b(19|20)\d\d\b", s)                          # bare year somewhere
     if m:
         return (int(m.group(0)), 0)
     return (0, 0)

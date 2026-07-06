@@ -18,7 +18,7 @@ import yaml
 
 from common import insurer_configs, load_country
 
-UA = "openinsurance-wiki/0.1 (+https://github.com/; polite public-document fetcher)"
+UA = "openinsurance-wiki/0.1 (+https://github.com/sluyasu/OpenInsurance; polite public-document fetcher)"
 
 
 def branch_aliases(cc: str) -> dict[str, str]:
@@ -74,13 +74,18 @@ def fetch_html(url: str, render: str | None) -> str:
     except ImportError:
         print("[discover] Playwright not installed (run `make setup`). Skipping JS render.")
         return ""
-    with sync_playwright() as p:
-        browser = p.chromium.launch()
-        page = browser.new_page(user_agent=UA)
-        page.goto(url, wait_until="networkidle", timeout=60000)
-        html = page.content()
-        browser.close()
-        return html
+    try:
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            page = browser.new_page(user_agent=UA)
+            page.goto(url, wait_until="networkidle", timeout=60000)
+            html = page.content()
+            browser.close()
+            return html
+    except Exception as ex:
+        # one broken/slow listing page must not kill the whole discover run
+        print(f"[discover] Playwright failed for {url}: {ex}; skipping this page")
+        return ""
 
 
 def extract_pdf_links(html: str, base_url: str, selector: str | None) -> list[tuple[str, str]]:

@@ -49,9 +49,19 @@ def main() -> int:
     notes = sorted(root.rglob("*.md"))
     incoming: dict[str, int] = {}
     outgoing: dict[str, int] = {}
+    missing_branch_pages: dict[str, int] = {}
+
+    # stray files at the vault root: a wikilink click in Obsidian creates an empty
+    # note at wiki/ root, outside the per-country scan - catch it here
+    for p in sorted(WIKI.glob("*.md")):
+        if p.name != "00 - START HERE.md":
+            errors.append(f"{p.relative_to(REPO)}: unexpected file at wiki/ root")
 
     for md in notes:
         rel = str(md.relative_to(REPO))
+        if md.stat().st_size == 0:
+            errors.append(f"{rel}: empty file")
+            continue
         meta, body = read_note(md)
         if not meta:
             errors.append(f"{rel}: no/invalid frontmatter")
@@ -68,10 +78,17 @@ def main() -> int:
         links = wikilinks(body)
         outgoing[rel] = len(links)
         for link in links:
-            if link in targets or link in branch_labels:
-                incoming[targets.get(link, link)] = incoming.get(targets.get(link, link), 0) + 1
+            if link in targets:
+                incoming[targets[link]] = incoming.get(targets[link], 0) + 1
+            elif link in branch_labels:
+                # a known branch, but nobody wrote its page yet: a labeled gap, not an error
+                missing_branch_pages[link] = missing_branch_pages.get(link, 0) + 1
             else:
                 errors.append(f"{rel}: broken wikilink [[{link}]]")
+
+    for label in sorted(missing_branch_pages):
+        warnings.append(f"branch '{label}': {missing_branch_pages[label]} wikilinks but no "
+                        f"branch page yet (wiki/{cc}/branches/{label}.md)")
 
     # orphans: non-MOC notes with no links either way
     for md in notes:

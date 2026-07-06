@@ -270,19 +270,27 @@ def render_product(obj: dict, country_meta: dict, relation: dict | None = None) 
     return "\n".join(L)
 
 
+def _latest_fetch(products: list[dict]) -> str:
+    """Newest fetched_at across the given products: a data-derived date, stable
+    across rebuilds (today() would break the build-idempotence gate)."""
+    dates = [str(p.get("fetched_at")) for p in products if p.get("fetched_at")]
+    return max(dates) if dates else today()
+
+
 def render_insurer(insurer_name: str, slug: str, cc: str, products: list[dict],
                    country_meta: dict, website: str | None) -> str:
     branches: dict[str, list[dict]] = {}
     for p in products:
         branches.setdefault(p.get("branch", "autres"), []).append(p)
 
+    stamp = _latest_fetch(products)
     meta = {
         "type": "insurer", "domain": "insurance", "country": cc, "insurer_slug": slug,
         "name": insurer_name, "website": website,
         "products_count": len(products),
         "branches_covered": sorted(branches.keys()),
         "tags": [f"insurance/{cc}", "insurer"], "aliases": [insurer_name],
-        "date": today(), "freshness": today(), "status": "ready", "generated": True,
+        "date": stamp, "freshness": stamp, "status": "ready", "generated": True,
     }
     L = [frontmatter(meta), "<!-- GENERATED - do not edit. -->\n", "## Résumé\n"]
     site = f" - [{website}]({website})" if website else ""
@@ -307,7 +315,8 @@ def render_branches_moc(cc: str, products: list[dict], country_meta: dict) -> st
         branches.setdefault(p.get("branch", "autres"), []).append(p)
 
     meta = {"type": "moc", "domain": "insurance", "country": cc,
-            "tags": [f"insurance/{cc}", "moc"], "date": today(), "status": "ready", "generated": True}
+            "tags": [f"insurance/{cc}", "moc"], "date": _latest_fetch(products),
+            "status": "ready", "generated": True}
     L = [frontmatter(meta), "<!-- GENERATED - do not edit. -->\n",
          "## Branches - produits documentés\n",
          "Liste générée des produits par branche. Les fiches conceptuelles de branche sont "

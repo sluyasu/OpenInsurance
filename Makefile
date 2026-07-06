@@ -5,10 +5,10 @@
 # Everything is resumable and idempotent. `make all` reproduces the wiki from a clone.
 
 COUNTRY ?= be
-PY      ?= python
-PIP     ?= pip
+PY      ?= python3
+PIP     ?= $(PY) -m pip
 
-.PHONY: help setup discover download extract ground build index validate all clean-wiki
+.PHONY: help setup discover download extract ground build index validate all
 
 help:
 	@echo "Targets (set COUNTRY=<cc>, optional INSURER=<slug>):"

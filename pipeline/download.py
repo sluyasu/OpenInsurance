@@ -21,7 +21,7 @@ import httpx
 from common import (insurer_configs, pdfs_dir, load_manifest, save_manifest,
                     slugify, today, REPO)
 
-UA = "openinsurance-wiki/0.1 (+https://github.com/; polite public-document fetcher)"
+UA = "openinsurance-wiki/0.1 (+https://github.com/sluyasu/OpenInsurance; polite public-document fetcher)"
 
 
 def sha256_bytes(b: bytes) -> str:
@@ -91,9 +91,13 @@ def main() -> int:
         for e in entries:
             url = e["url"]
             rec = manifest.get(url)
-            if rec and rec.get("local_path") and (REPO / rec["local_path"]).is_file():
-                n_skip += 1
-                continue
+            if rec and rec.get("local_path"):
+                local = REPO / rec["local_path"]
+                # skip only when the local file really matches the recorded checksum;
+                # a corrupted or truncated file gets re-downloaded
+                if local.is_file() and sha256_bytes(local.read_bytes()) == rec.get("sha256"):
+                    n_skip += 1
+                    continue
             try:
                 r = client.get(url)
                 r.raise_for_status()
