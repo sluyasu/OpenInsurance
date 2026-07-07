@@ -77,9 +77,26 @@ def _countries() -> list[str]:
     return sorted(d.name for d in DATA.iterdir() if (d / "index.json").is_file())
 
 
+_COUNTRY_META_CACHE: dict[str, dict] = {}
+
+
 def _country_meta(cc: str) -> dict:
-    p = SOURCES / cc / "_country.yml"
-    return (yaml.safe_load(p.read_text(encoding="utf-8")) or {}) if p.is_file() else {}
+    if cc not in _COUNTRY_META_CACHE:
+        p = SOURCES / cc / "_country.yml"
+        _COUNTRY_META_CACHE[cc] = (yaml.safe_load(p.read_text(encoding="utf-8")) or {}) \
+            if p.is_file() else {}
+    return _COUNTRY_META_CACHE[cc]
+
+
+_RAW_PAGE_CACHE: dict[str, str] = {}
+
+
+def _read_page(p: Path) -> str:
+    """Raw text of a knowledge page, read once per server lifetime."""
+    key = str(p)
+    if key not in _RAW_PAGE_CACHE:
+        _RAW_PAGE_CACHE[key] = p.read_text(encoding="utf-8")
+    return _RAW_PAGE_CACHE[key]
 
 
 # Guidance instead of a silent empty server: an installed (pip/uvx) copy that can't
@@ -123,8 +140,21 @@ def _page_text_norm(path: str) -> str:
     """Accent/case-normalized body of a wiki page, cached, for full-text search."""
     if path not in _PAGE_TEXT_CACHE:
         fp = _safe_repo_path(path)
-        _PAGE_TEXT_CACHE[path] = _norm(fp.read_text(encoding="utf-8")) if fp else ""
+        _PAGE_TEXT_CACHE[path] = _norm(_read_page(fp)) if fp else ""
     return _PAGE_TEXT_CACHE[path]
+
+
+_HAY_CACHE: dict[str, list[str]] = {}
+
+
+def _index_hay(cc: str) -> list[str]:
+    """Normalized title/branch/insurer/type haystack per index row, aligned with
+    _read_index(cc). Normalizing 200 rows per query was the search floor."""
+    if cc not in _HAY_CACHE:
+        _HAY_CACHE[cc] = [
+            _norm(" ".join(str(r.get(k) or "") for k in ("title", "branch", "insurer", "type")))
+            for r in _read_index(cc)]
+    return _HAY_CACHE[cc]
 
 
 # Directories the server may read from. Everything else (.env, pipeline code, git
@@ -342,10 +372,15 @@ _CATS = None
 
 
 def _categories() -> dict:
+    """Controlled vocabulary with keywords pre-normalized once: re-normalizing
+    every keyword on every _categorize call dominated find_overlap's latency."""
     global _CATS
     if _CATS is None:
         p = SCHEMA / "coverage_categories.json"
-        _CATS = json.loads(p.read_text(encoding="utf-8")).get("categories", {}) if p.is_file() else {}
+        raw = json.loads(p.read_text(encoding="utf-8")).get("categories", {}) if p.is_file() else {}
+        _CATS = {key: {"label": meta.get("label", key),
+                       "kw": [_norm(kw) for kw in meta.get("keywords", [])]}
+                 for key, meta in raw.items()}
     return _CATS
 
 
@@ -353,11 +388,28 @@ def _categorize(text: str) -> list[str]:
     """Return the category keys whose keywords appear in the (accent-normalized) text.
     Heuristic candidate tags, not an authority."""
     t = _norm(text)
-    hits = []
-    for key, meta in _categories().items():
-        if any(_norm(kw) in t for kw in meta.get("keywords", [])):
-            hits.append(key)
-    return hits
+    return [key for key, meta in _categories().items() if any(kw in t for kw in meta["kw"])]
+
+
+_DOC_CATS_CACHE: dict[tuple[str, str], tuple[list, list]] = {}
+
+
+def _doc_category_items(o: dict, on: str) -> tuple[list, list]:
+    """Category tags for one document's coverages/exclusions, computed once per
+    document: (items with their category labels, (category, item_name) pairs)."""
+    key = (str(o.get("source_sha256") or o.get("source_url") or id(o)), on)
+    if key not in _DOC_CATS_CACHE:
+        labels = {k: v["label"] for k, v in _categories().items()}
+        items, pairs = [], []
+        for it in (o.get(on) or []):
+            if not isinstance(it, dict):
+                continue
+            cats = _categorize(f"{it.get('name', '')} {it.get('description', '')}")
+            items.append({"name": it.get("name"),
+                          "categories": [labels.get(c, c) for c in cats]})
+            pairs.extend((c, it.get("name")) for c in cats)
+        _DOC_CATS_CACHE[key] = (items, pairs)
+    return _DOC_CATS_CACHE[key]
 
 
 # --- tools ------------------------------------------------------------------
@@ -408,14 +460,13 @@ def search(query: str, country: str = "be", type: str = "", branch: str = "",
         return _NO_DATASET
     terms = [t for t in _norm(query).split() if t]
     results = []
-    for r in _read_index(country):
+    for r, hay in zip(_read_index(country), _index_hay(country)):
         if type and r.get("type") != type:
             continue
         if branch and r.get("branch") != branch:
             continue
         if insurer and (r.get("insurer") or "") != insurer:
             continue
-        hay = _norm(" ".join(str(r.get(k) or "") for k in ("title", "branch", "insurer", "type")))
         score = sum(1 for t in terms if t in hay)
         if score == 0 and terms:
             body = _page_text_norm(r.get("path", ""))
@@ -441,7 +492,7 @@ def get_page(path: str) -> str:
     if not p:
         return f"Not found or outside repo: {path}"
     try:
-        return p.read_text(encoding="utf-8")
+        return _read_page(p)
     except UnicodeDecodeError:
         return f"Not a readable text file: {path}"
 
@@ -585,19 +636,14 @@ def find_overlap(country: str, product_names: list[str], on: str = "coverages",
                 + json.dumps(ambiguous, ensure_ascii=False, indent=2))
     if len(chosen) < 2:
         return f"{DISCLAIMER}\nNeed at least 2 matching products; matched {len(chosen)}."
-    labels = {k: v.get("label", k) for k, v in _categories().items()}
+    labels = {k: v["label"] for k, v in _categories().items()}
     cat_items = defaultdict(list)
     per_product = []
     for o, near in chosen:
         pname = o.get("product_name")
-        items = []
-        for it in (o.get(on) or []):
-            if not isinstance(it, dict):
-                continue
-            cats = _categorize(f"{it.get('name','')} {it.get('description','')}")
-            items.append({"name": it.get("name"), "categories": [labels.get(c, c) for c in cats]})
-            for c in cats:
-                cat_items[c].append({"product": pname, "item": it.get("name")})
+        items, pairs = _doc_category_items(o, on)
+        for c, item_name in pairs:
+            cat_items[c].append({"product": pname, "item": item_name})
         entry = {"product_name": pname, "insurer": o.get("insurer_name"),
                  "branch": o.get("branch"), "document_type": o.get("document_type"),
                  "edition_date": o.get("edition_date"),
@@ -627,7 +673,7 @@ def get_branch_overview(country: str, branch: str) -> str:
     for cand in (label, branch):
         p = WIKI / country / "branches" / f"{cand}.md"
         if p.is_file():
-            return p.read_text(encoding="utf-8")
+            return _read_page(p)
     return f"No branch overview for '{branch}' in {country}."
 
 
