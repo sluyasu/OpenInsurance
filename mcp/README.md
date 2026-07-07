@@ -46,24 +46,87 @@ Or in any MCP client config (e.g. a project `.mcp.json`):
 
 | Tool | Purpose |
 |---|---|
-| `list_countries()` | Countries covered, with counts. |
+| `list_countries()` | Countries covered: products, insurers, branches covered vs taxonomy vs written overviews. |
 | `list_branches(country)` | Branches for a country, with mandatory flag and product counts. |
-| `search(query, country, type, branch, insurer, limit)` | Search pages by title/content, filterable. |
-| `get_page(path)` | Full Markdown of one page. |
-| `get_product(country, insurer_slug, product_name, document_type?, edition?)` | A product's structured data (coverages, exclusions, ...) + source_url. |
+| `search(query, country, type, branch, insurer, limit)` | Search pages by title/content, filterable; announces when results were truncated. |
+| `get_page(path)` | Full text of one knowledge page. |
+| `get_product(country, insurer_slug, product_name, document_type?, edition?)` | A product's full structured data (coverages, exclusions, ...) + source_url. |
+| `get_coverage(country, insurer_slug, product_name, topic, document_type?, edition?)` | **Compact answer to one question**: only the coverages/exclusions relevant to `topic`, with limits, conditions, quotes and pages. |
+| `verify_claim(country, insurer_slug, product_name, claim)` | Verbatim excerpts that share the claim's terms, so the calling agent can fact-check its own draft. Retrieval, not judgment. |
 | `compare_products(country, product_names, on, insurer_slugs?)` | Compare products on coverages / exclusions / deductibles. |
 | `find_overlap(country, product_names, on, insurer_slugs?)` | Flag candidate **duplicate cover** when combining 2+ products (e.g. home + family liability). |
 | `get_branch_overview(country, branch)` | The hand-authored branch overview. |
 
 One commercial product usually maps to **several documents** (its general conditions and its IPID share the
 name, and several editions can coexist). Tools that take a product name resolve deterministically - general
-conditions over summaries, non-superseded, newest edition - and every response says which document was chosen
-(`document_type`, `edition_date`, `reference`) with the alternatives listed. Use `document_type=` / `edition=`
-on `get_product` to pick a specific one.
+conditions over summaries, non-superseded, newest edition, then reference order as the final tie-break - and
+every response says which document was chosen (`document_type`, `edition_date`, `reference`) with the
+alternatives listed. Use `document_type=` / `edition=` on `get_product` / `get_coverage` to pick a specific one.
+
+## What keeps the answering LLM honest
+
+The LLM consuming these tools is the layer that can hallucinate, so the response shape works against that:
+
+- **Grounding contract + citation line.** Every product response starts with a short contract ("state only
+  what's here, never invent dates/articles/figures, cite source_url, no advice or ranking") and a compact
+  CITATION line carrying the real product, insurer, document type, edition date (or "not stated"), reference
+  and source_url. The model copies real values instead of reconstructing them.
+- **Ambiguity is refused, not guessed.** A name matching several distinct products ("Assurance Auto" exists
+  at several insurers) returns the candidates instead of silently picking one. An exact name wins over
+  products that merely contain it, and the response lists the similar products it skipped.
+- **Ties are flagged.** When two documents of the same type carry the same edition date, the response says the
+  choice fell back to reference order and points at the alternative.
+- **Gaps and caps are explicit.** Superseded documents say so in the citation, empty topic matches say "not
+  proof of absence", truncated search results announce the real total.
+- **Self-verification.** A chatbot can (and should) re-check its own draft: extract each factual assertion,
+  call `verify_claim` with it, and drop or soften anything whose evidence does not literally say it. The
+  recommended system-prompt rules for any chatbot built on this server:
+  1. State a fact (date, article, amount, deductible, formula) only if it appears in a tool response;
+     otherwise say "not stated in the document".
+  2. Never pick an insurer for the user: if none is named, ask or list neutrally.
+  3. No advice verbs (recommend, choose, drop, best): information, not advice.
+  4. End with the `source_url` the tools returned.
+
+## Measured latency
+
+Warm server, in-process, median of 50 runs per tool (Apple silicon, Belgium dataset, 162 documents;
+reproduce with `.venv/bin/python tests/bench_tools.py`):
+
+| Tool | median | p95 |
+|---|---|---|
+| `list_countries` | 0.09 ms | 0.10 ms |
+| `list_branches` | 0.04 ms | 0.04 ms |
+| `search` (title hit) | 3.0 ms | 3.2 ms |
+| `search` (full-text body scan) | 3.1 ms | 3.2 ms |
+| `get_page` | 0.04 ms | 0.04 ms |
+| `get_product` | 0.4 ms | 0.4 ms |
+| `get_coverage` | 2.2 ms | 2.3 ms |
+| `verify_claim` | 2.8 ms | 2.9 ms |
+| `compare_products` | 0.9 ms | 0.9 ms |
+| `find_overlap` | 0.9 ms | 0.9 ms |
+| `get_branch_overview` | 0.01 ms | 0.01 ms |
+
+The server reads every file once (index, extractions, page bodies, country metadata, category keywords) and
+serves from memory, so nothing touches the disk per query. The first call after startup pays the cache fill
+(tens of ms). In a real chatbot, the user-perceived time is dominated by the LLM's own inference (seconds),
+not by these tools: keep the server process warm (any MCP client does) and the tool side is imperceptible.
+Full-text search scans the corpus in memory (~3 ms for one country); an inverted index only becomes worth it
+with several countries.
+
+## Security & testing
 
 Every product/coverage response carries the `source_url` and a no-advice disclaimer. The server never writes,
-and `get_page` only reads the knowledge folders (`wiki/`, `data/`, `_meta/`, `sources/`, `schema/`, root
-`*.md`) - never dotfiles or code.
+and `get_page` only reads text files in the knowledge folders (`wiki/`, `data/`, `_meta/`, `sources/`,
+`schema/`, root `*.md`) - never dotfiles, code or git internals, even through path tricks. Without a dataset
+(installed via pip/uvx but no clone configured) the server refuses to start with instructions, instead of
+serving empty results.
+
+The test suite (`tests/`, run in CI) covers the `get_page` confinement, deterministic document selection,
+accent/apostrophe-insensitive matching, ambiguity refusals, honest caps and a smoke test of every tool:
+
+```bash
+.venv/bin/pip install pytest && .venv/bin/python -m pytest tests/ -q
+```
 
 ---
 

@@ -44,8 +44,9 @@ Then register it with any MCP client, e.g. Claude Code:
 claude mcp add insurance-wiki -- "$(pwd)/.venv/bin/python" "$(pwd)/mcp/insurance_wiki_mcp.py"
 ```
 
-You get `search`, `get_product`, `compare_products`, `find_overlap` (candidate duplicate cover when combining
-two policies), `get_branch_overview`, ... See [`mcp/README.md`](mcp/README.md).
+You get `search`, `get_product`, `get_coverage` (only what's relevant to one question, with verbatim quotes),
+`compare_products`, `find_overlap` (candidate duplicate cover when combining two policies), `verify_claim`
+(verbatim evidence for a fact-check), `get_branch_overview`, ... See [`mcp/README.md`](mcp/README.md).
 
 **3. Take the raw data.** `data/be/extracted/` holds one structured JSON per source document, validated
 against [`schema/`](schema/); `data/be/index.json` is the flat index. `AGENTS.md` is a generated manifest
@@ -59,6 +60,49 @@ without guessing.
 <p align="center">
   <img src="assets/architecture.png" alt="Pipeline: sources → download → extract → build; then 3 tiers of agent access" width="900">
 </p>
+
+## Why an MCP server (and not a chatbot, a RAG stack or a REST API)
+
+The goal is that **any** AI agent can answer insurance questions from documents it can cite. That constraint
+picks the architecture.
+
+**Why MCP.** The [Model Context Protocol](https://modelcontextprotocol.io) is the standard socket between AI
+assistants and data: one server, and Claude, ChatGPT, Cursor or your own agent plugs in with three lines of
+config instead of a custom integration. This server is **keyless** (no account, no API key, no quota),
+**read-only**, and needs **zero hosting**: the dataset is the repo itself, so the data travels with a
+`git clone` and works offline. When the wiki is re-extracted, `git pull` is the upgrade path.
+
+**Why not a RAG chatbot.** A chatbot is a single interface; a knowledge base should serve many (a broker's
+comparison tool, a compliance check, a market-mapping agent). RAG adds an embedding index that is a black box:
+you cannot diff it, review it in a PR, or reproduce it, and its retrieval errors are invisible. Here the
+retrieval layer is deterministic matching over reviewed, committed files: the same query returns the same
+documents every time, and every answer carries the source PDF and page numbers. The LLM stays where it
+belongs, on the client side, reasoning over exact excerpts.
+
+**Why not a REST API.** An API means a server running 24/7, uptime, keys, versioning, and one bespoke
+integration per consumer, for a dataset that changes a few times a year. MCP gives the same programmatic
+access at the cost of a local process.
+
+**How it works, in four stages:**
+
+1. **Sources** (`sources/`): committed YAML saying where each insurer's public PDFs live.
+2. **Frozen extraction** (`data/`): each PDF turned once into structured JSON and cited Markdown, by a prompt
+   that is itself committed. Nothing is generated at query time.
+3. **Deterministic MCP server** (`mcp/`): 10 read-only tools over those files. No LLM inside, no network, no
+   state. Same input, same output.
+4. **A reasoning client**: the agent on top (Claude, a broker chatbot, a script) does the semantic work,
+   quoting what the tools return.
+
+The trust boundary is explicit: everything below stage 4 is reproducible and auditable. Hallucination risk is
+confined to the client, and the tool responses are shaped to keep that client honest: a grounding contract and
+a front-loaded citation line in every product response, refusal of ambiguous product names (with the
+candidates listed) instead of silent guessing, and a `verify_claim` tool so an agent can fact-check its own
+draft against the document before answering. See the
+[response discipline notes](mcp/README.md#what-keeps-the-answering-llm-honest) in the server docs.
+
+**How fast.** The server reads every file once and serves from memory: warm latencies run 0.05 to 3 ms per
+tool on this dataset (measured, reproducible: [`mcp/README.md`](mcp/README.md#measured-latency)). In a real
+chatbot the time a user feels is the LLM's own inference, not these tools.
 
 ## Why this exists
 

@@ -91,6 +91,24 @@ Running notes on things that bit us or that a contributor should know. Append as
 - **`get_page` is an arbitrary-file-read risk.** Confining to "inside the repo" is not enough: a prompt-injected
   agent reading scraped web text can ask for `.env` and exfiltrate keys. Whitelist the knowledge folders
   (`wiki/`, `data/`, `_meta/`, `sources/`, `schema/`, root `*.md`) and reject any path component starting with a dot.
+- **Refuse ambiguity, don't guess - but let the exact name win.** Substring matching means "assurance auto"
+  hits 9 documents at 5 insurers: tools must return the candidates, not silently pick one. The counter-trap:
+  a strict distinct-names guard turns "Confort Auto" into a dead end because its add-ons ("Confort Auto -
+  Protection juridique") also match. Rule that works: group name variants of the same product (containment +
+  disjoint document types), refuse when several products remain, resolve when exactly one group matches the
+  query verbatim, and list the skipped siblings in the response.
+- **Ranking needs a total order.** CG > IPID > non-superseded > newest edition still leaves real ties (Yuzzu:
+  two different CG issued the same day). Close the sort key with reference/source_url and FLAG the tie in the
+  response; otherwise the choice is filesystem order and nobody knows.
+- **The discriminating detail hides in `conditions`.** "Off-piste skiing covered only with an instructor"
+  lives in a coverage's conditions list, not its name/description: topic matching and evidence retrieval must
+  flatten the whole item (conditions, limits, sub_limits, deductible), or the best quote is unreachable.
+- **A server installed without its dataset must fail loudly.** Packaged (pip/uvx), the default repo path is
+  site-packages: every tool returns [] and the user concludes the wiki is empty. Fail fast at startup with
+  the clone + INSURANCE_WIKI_REPO instructions, and have discovery tools return the same guidance.
+- **Watch stopwords in claim matching.** "couvre/couvert" appears in virtually every insurance document (and
+  inside "recouvrement"), so a verify-style tool that matches on it finds false evidence for any claim. Drop
+  near-universal domain words from the term set; keep digits (amounts and dates are the point).
 
 ## Before going public
 - Run the `pre-public-repo-audit` skill: scan tracked files AND full git history for secrets/PII, and rewrite the
