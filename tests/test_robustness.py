@@ -43,6 +43,12 @@ def test_unknown_country_is_explained(mcp):
     assert "be" in out
 
 
+def test_unknown_country_in_search_and_branches(mcp):
+    for out in (mcp.search("auto", "xx"), mcp.list_branches("xx")):
+        assert "No data for country 'xx'" in out
+        assert "be" in out
+
+
 def test_corrupt_index_names_the_file(tmp_path):
     (tmp_path / "data" / "be").mkdir(parents=True)
     (tmp_path / "data" / "be" / "index.json").write_text("{not json", encoding="utf-8")

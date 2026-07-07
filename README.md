@@ -95,13 +95,13 @@ access at the cost of a local process.
 
 The trust boundary is explicit: everything below stage 4 is reproducible and auditable. Hallucination risk is
 confined to the client, and the tool responses are shaped to keep that client honest: a grounding contract and
-a front-loaded citation line in every product response, refusal of ambiguous product names (with the
+a front-loaded citation line in every single-product response, refusal of ambiguous product names (with the
 candidates listed) instead of silent guessing, and a `verify_claim` tool so an agent can fact-check its own
 draft against the document before answering. See the
 [response discipline notes](mcp/README.md#what-keeps-the-answering-llm-honest) in the server docs.
 
-**How fast.** The server reads every file once and serves from memory: warm latencies run 0.05 to 3 ms per
-tool on this dataset (measured, reproducible: [`mcp/README.md`](mcp/README.md#measured-latency)). In a real
+**How fast.** The server reads every file once and serves from memory: warm latencies run 0.01 to about 3 ms
+per tool on this dataset (measured, reproducible: [`mcp/README.md`](mcp/README.md#measured-latency)). In a real
 chatbot the time a user feels is the LLM's own inference, not these tools.
 
 ## Why this exists

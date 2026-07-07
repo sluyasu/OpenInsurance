@@ -71,10 +71,16 @@ def _read_index(cc: str) -> list[dict]:
     return _INDEX_CACHE[cc]
 
 
+_COUNTRIES_CACHE: list[str] | None = None
+
+
 def _countries() -> list[str]:
-    if not DATA.is_dir():
-        return []
-    return sorted(d.name for d in DATA.iterdir() if (d / "index.json").is_file())
+    global _COUNTRIES_CACHE
+    if _COUNTRIES_CACHE is None:
+        _COUNTRIES_CACHE = (sorted(d.name for d in DATA.iterdir()
+                                   if (d / "index.json").is_file())
+                            if DATA.is_dir() else [])
+    return _COUNTRIES_CACHE
 
 
 _COUNTRY_META_CACHE: dict[str, dict] = {}
@@ -287,12 +293,18 @@ def _doc_meta(obj: dict) -> dict:
 
 
 def _product_groups(matches: list[dict]) -> list[list[dict]]:
-    """Group matched documents into distinct commercial products. Same normalized
-    name (within one insurer) = same product. A product's CG and IPID often carry
-    name variants ("Mobility Safe 1" vs "Assurance Auto Mobility Safe 1"), so two
-    name groups also merge when one name contains the other AND their document
-    types don't overlap - but never when both have e.g. their own general
-    conditions (AMMA's HOSPI and HOSPI SAFE are different products)."""
+    """Group matched documents into distinct commercial products.
+
+    Same normalized name (within one insurer) = same product. Cross-name grouping
+    then follows, in order of authority:
+    - a shared normalized `product_family` merges (rule 8's field for exactly this);
+    - families stated on both sides but different NEVER merge;
+    - otherwise a containment merge for a product's CG/IPID name variants
+      ("Mobility Safe 1" vs "Assurance Auto Mobility Safe 1"), only when their
+      document types don't overlap AND the attachment is unambiguous on both
+      sides. A name that could attach to several groups stays separate, so the
+      result never depends on file order (AMMA's HOSPI-PLAN and HOSPI SAFE must
+      not swallow the HOSPI IPID by glob order)."""
     groups: list[list[dict]] = []
     for o in matches:
         key = (o.get("insurer_slug"), _norm(o.get("product_name") or ""))
@@ -302,21 +314,49 @@ def _product_groups(matches: list[dict]) -> list[list[dict]]:
                 break
         else:
             groups.append([o])
+
+    def families(g: list[dict]) -> set[str]:
+        return {_norm(d.get("product_family")) for d in g if d.get("product_family")}
+
+    def same_insurer(a: list[dict], b: list[dict]) -> bool:
+        return a[0].get("insurer_slug") == b[0].get("insurer_slug")
+
+    # 1) Authoritative: a shared stated family always merges (transitive).
     merged = True
     while merged:
         merged = False
-        for i, a in enumerate(groups):
-            for b in groups[i + 1:]:
-                na, nb = _norm(a[0].get("product_name") or ""), _norm(b[0].get("product_name") or "")
-                ta = {d.get("document_type") for d in a}
-                tb = {d.get("document_type") for d in b}
-                if (a[0].get("insurer_slug") == b[0].get("insurer_slug")
-                        and (na in nb or nb in na) and not (ta & tb)):
+        for a in groups:
+            for b in groups:
+                if b is not a and same_insurer(a, b) and families(a) & families(b):
                     a.extend(b)
                     groups.remove(b)
                     merged = True
                     break
             if merged:
+                break
+
+    def containable(a: list[dict], b: list[dict]) -> bool:
+        if not same_insurer(a, b):
+            return False
+        if families(a) and families(b):          # both stated and (post step 1) different
+            return False
+        na, nb = _norm(a[0].get("product_name") or ""), _norm(b[0].get("product_name") or "")
+        ta = {d.get("document_type") for d in a}
+        tb = {d.get("document_type") for d in b}
+        return (na in nb or nb in na) and not (ta & tb)
+
+    # 2) Heuristic: containment merges, only when unambiguous on both sides.
+    merged = True
+    while merged:
+        merged = False
+        for a in groups:
+            partners = [b for b in groups if b is not a and containable(a, b)]
+            if len(partners) == 1 and [g for g in groups
+                                       if g is not partners[0]
+                                       and containable(partners[0], g)] == [a]:
+                a.extend(partners[0])
+                groups.remove(partners[0])
+                merged = True
                 break
     return groups
 
@@ -489,6 +529,9 @@ def list_countries() -> str:
 @mcp.tool()
 def list_branches(country: str = "be") -> str:
     """List insurance branches for a country with their labels, mandatory flag and product counts."""
+    if country not in _countries():
+        return _NO_DATASET if not _countries() else (
+            f"No data for country '{country}'. Covered countries: " + ", ".join(_countries()) + ".")
     meta = _country_meta(country)
     idx = _read_index(country)
     prod_counts = {}
@@ -509,8 +552,9 @@ def search(query: str, country: str = "be", type: str = "", branch: str = "",
     (product|branch|insurer|regulation|concept|moc), branch slug, insurer slug.
     Returns matches with path, source_url and freshness; when more than `limit`
     pages match, the response says how many were left out."""
-    if not _countries():
-        return _NO_DATASET
+    if country not in _countries():
+        return _NO_DATASET if not _countries() else (
+            f"No data for country '{country}'. Covered countries: " + ", ".join(_countries()) + ".")
     terms = [t for t in _norm(query).split() if t]
     results = []
     for r, hay in zip(_read_index(country), _index_hay(country)):
@@ -540,7 +584,8 @@ def search(query: str, country: str = "be", type: str = "", branch: str = "",
 @mcp.tool()
 def get_page(path: str) -> str:
     """Return the full text of one knowledge page by its repo-relative path (from
-    search results). Text files in the knowledge folders only (.md, .json, .yml)."""
+    search results). Text files in the knowledge folders only (.md, .json, .yml,
+    .yaml, .txt, .csv)."""
     p = _safe_repo_path(path)
     if not p:
         return f"Not found or outside repo: {path}"
@@ -824,7 +869,7 @@ def find_overlap(country: str, product_names: list[str], on: str = "coverages",
             cat_items[c].append({"product": pname, "item": item_name})
         entry = {"product_name": pname, "insurer": o.get("insurer_name"),
                  "branch": o.get("branch"), "document_type": o.get("document_type"),
-                 "edition_date": o.get("edition_date"),
+                 "edition_date": o.get("edition_date"), "reference": o.get("reference"),
                  "superseded": o.get("superseded"),
                  "source_url": o.get("source_url"), on: items}
         if near:

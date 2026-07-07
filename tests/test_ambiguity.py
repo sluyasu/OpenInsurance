@@ -26,6 +26,33 @@ def test_compare_refuses_within_insurer_ambiguity(mcp):
     assert len(names) >= 2
 
 
+def test_family_attaches_ipid_to_the_right_product(mcp):
+    # AMMA's 2025 "AMMA Hospi" IPID declares product_family "AMMA Hospi", the same
+    # family as the HOSPI SAFE general conditions; HOSPI-PLAN is another family.
+    # The exact query must therefore resolve to the HOSPI SAFE CG, never to the
+    # superseded 2007 HOSPI-PLAN CG (a bug caught in adversarial review: name
+    # containment alone attached the IPID to whichever group came first on disk).
+    out = mcp.get_product("be", "amma", "AMMA Hospi")
+    assert "Multiple distinct products match" not in out
+    citation = out.split("\n")[1]
+    assert "AMMA HOSPI SAFE - SERENITY" in citation
+    assert "superseded=True" not in citation
+    assert "AMMA HOSPI-PLAN" in out.split("[Similar products")[1].split("]")[0]
+
+
+def test_product_grouping_is_order_independent(mcp):
+    docs = [o for _, o in mcp._extracted("be")
+            if o.get("insurer_slug") == "amma" and "hospi" in mcp._norm(o.get("product_name") or "")]
+    assert len(docs) == 3
+
+    def shape(groups):
+        return {frozenset((d.get("product_name"), d.get("document_type")) for d in g)
+                for g in groups}
+
+    assert shape(mcp._product_groups(docs)) == shape(mcp._product_groups(list(reversed(docs))))
+    assert len(mcp._product_groups(docs)) == 2  # (Hospi IPID + HOSPI SAFE CG), HOSPI-PLAN
+
+
 def test_prefix_without_exact_match_is_ambiguous(mcp):
     # AMMA sells HOSPI-PLAN and HOSPI SAFE - SERENITY; no product is named just
     # "HOSPI", so the query must be refused with both candidates listed.

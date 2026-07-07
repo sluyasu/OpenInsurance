@@ -60,17 +60,20 @@ Or in any MCP client config (e.g. a project `.mcp.json`):
 One commercial product usually maps to **several documents** (its general conditions and its IPID share the
 name, and several editions can coexist). Tools that take a product name resolve deterministically - general
 conditions over summaries, non-superseded, newest edition, then reference order as the final tie-break - and
-every response says which document was chosen (`document_type`, `edition_date`, `reference`) with the
-alternatives listed. Use `document_type=` / `edition=` on `get_product` / `get_coverage` to pick a specific one.
+every response identifies the chosen document (`document_type`, `edition_date`, `reference`, `superseded`):
+the single-product tools list the alternatives under `other_documents`, the multi-product tools carry the
+identifiers inside each entry. Use `document_type=` / `edition=` on `get_product` / `get_coverage` to pick a
+specific one.
 
 ## What keeps the answering LLM honest
 
 The LLM consuming these tools is the layer that can hallucinate, so the response shape works against that:
 
-- **Grounding contract + citation line.** Every product response starts with a short contract ("state only
-  what's here, never invent dates/articles/figures, cite source_url, no advice or ranking") and a compact
-  CITATION line carrying the real product, insurer, document type, edition date (or "not stated"), reference
-  and source_url. The model copies real values instead of reconstructing them.
+- **Grounding contract + citation line.** Every response carrying product facts starts with a short contract
+  ("state only what's here, never invent dates/articles/figures, cite source_url, no advice or ranking");
+  single-product responses add a compact CITATION line carrying the real product, insurer, document type,
+  edition date (or "not stated"), reference and source_url. The model copies real values instead of
+  reconstructing them.
 - **Ambiguity is refused, not guessed.** A name matching several distinct products ("Assurance Auto" exists
   at several insurers) returns the candidates instead of silently picking one. An exact name wins over
   products that merely contain it, and the response lists the similar products it skipped.
@@ -107,7 +110,7 @@ reproduce with `.venv/bin/python tests/bench_tools.py`):
 | `get_branch_overview` | 0.01 ms | 0.01 ms |
 
 The server reads every file once (index, extractions, page bodies, country metadata, category keywords) and
-serves from memory, so nothing touches the disk per query. The first call after startup pays the cache fill
+serves from memory, so no file is re-read per query. The first call after startup pays the cache fill
 (tens of ms). In a real chatbot, the user-perceived time is dominated by the LLM's own inference (seconds),
 not by these tools: keep the server process warm (any MCP client does) and the tool side is imperceptible.
 Full-text search scans the corpus in memory (~3 ms for one country); an inverted index only becomes worth it
@@ -162,7 +165,8 @@ strong, deterministic **candidates** with their sources. That keeps the server k
 
 ```
 find_overlap("be", ["Police habitation pour le propriétaire", "La Police familiale"])
-→ candidate_overlaps: Responsabilité civile (both), Protection juridique (both), Incendie, Vol, Relogement, …
+→ candidate_overlaps: Responsabilité civile (both), Dommages / responsabilité animaux,
+  Incendie et périls connexes, Vol / vandalisme, Relogement / frais supplémentaires, …
 ```
 The top hit is the true one: home cover (RC immeuble / locataire) and family cover (RC vie privée) both carry
 civil liability - a real potential duplication for the policyholder to check.
