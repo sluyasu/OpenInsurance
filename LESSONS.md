@@ -69,6 +69,29 @@ Running notes on things that bit us or that a contributor should know. Append as
   prompts only for not-yet-extracted PDFs; a session token limit just means re-run the leftovers later. Keep the
   output-file check so an in-flight/finished key is never re-launched (no double spend).
 
+## MCP server (the consumer-facing layer)
+- **The tool's output shape governs the answering LLM.** A chatbot on top of this MCP hallucinates when the real
+  value isn't salient: bury `edition_date` inside a 75 KB `get_product` JSON and the model reconstructs (invents)
+  it. Front-load a compact `CITATION` line (product, insurer, document_type, edition_date-or-"not stated",
+  reference, source_url) and prepend a short grounding-contract disclaimer ("state only what's here; never add
+  dates/article numbers/figures; cite source_url; no advice/ranking"). Measured on a 11-question set that all
+  failed before: 9 pass / 2 warn / 0 fail after, with the invented dates, an FSMA advice slip and an invented
+  legal article number all fixed. The knowledge base was already correct; the fix was the tool's presentation.
+- **One product = several documents.** A product's CG and IPID share the commercial name, and editions coexist.
+  Tools that take a product name must resolve to ONE document deterministically (general conditions over IPID,
+  newest edition, non-superseded) and echo which one they chose (`document_type`, `edition_date`, `reference`),
+  or the model silently answers from a stale IPID. Add an `insurer_slugs` pin so a generic name ("Assurance
+  Auto") doesn't resolve to an arbitrary insurer.
+- **Match names accent- and case-insensitively.** Reuse the same `_norm()` on both sides so "vehicules
+  automoteurs" finds "Véhicules automoteurs". French product names are full of accents; exact matching dead-ends.
+- **Cache read-only data in memory.** The wiki never changes at runtime, so a long-running server should read
+  each file once. Memoizing the parsed index, extracted products and normalized page bodies took search from
+  ~300 ms to ~1 ms and a full-text miss (whole-corpus body scan) from ~1.2 s to ~5 ms. Tool latency is then
+  imperceptible next to LLM inference.
+- **`get_page` is an arbitrary-file-read risk.** Confining to "inside the repo" is not enough: a prompt-injected
+  agent reading scraped web text can ask for `.env` and exfiltrate keys. Whitelist the knowledge folders
+  (`wiki/`, `data/`, `_meta/`, `sources/`, `schema/`, root `*.md`) and reject any path component starting with a dot.
+
 ## Before going public
 - Run the `pre-public-repo-audit` skill: scan tracked files AND full git history for secrets/PII, and rewrite the
   commit-author email to a GitHub noreply address so a personal email isn't published.
