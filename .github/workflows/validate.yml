@@ -13,9 +13,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - run: python -m pip install pyyaml
+      - run: python -m pip install pyyaml "mcp[cli]" pytest
       - name: Wiki gates (frontmatter, wikilinks, citations)
         run: python pipeline/validate.py --country be
+      - name: MCP server tests (security, document selection, matching, tool smoke)
+        run: python -m pytest tests/ -q
       - name: Build idempotence (rebuilding the committed wiki must be a zero diff)
         run: |
           python pipeline/build_wiki.py --country be
