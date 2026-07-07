@@ -8,7 +8,7 @@ Markdown → browse/query as a wiki or via MCP. Belgium first; country-agnostic.
 Public on GitHub since 2026-07-05: https://github.com/sluyasu/OpenInsurance
 
 ## Status (Belgium)
-- **Scaffold + docs + schema + extraction agent + MCP:** done.
+- **Scaffold + docs + schema + extraction agent + MCP + test suite in CI:** done.
 - **Coverage:** 17 insurers, 162 products, ~3290 coverages, ~5540 exclusions, 12 branches
   (auto, habitation, vie-privee, sante, voyage, protection-juridique, velo, accidents, rc-professionnelle,
   navigation, chasse, autres). Insurers: axa, ethias, kbc, ag, baloise, belfius, dvv, nn, pv, vivium, yuzzu,
@@ -16,13 +16,16 @@ Public on GitHub since 2026-07-05: https://github.com/sluyasu/OpenInsurance
 - **Version method:** live - `edition_date`/`product_family`/`variant`/`is_extension`/`extends` + `pipeline/link.py`
   computes current-vs-superseded and cross-links editions/variants/extensions ("Documents liés" section).
 - **Analysis:** MCP `compare_products` + `find_overlap` (candidate duplicate cover across policies, via the
-  committed `schema/coverage_categories.json` taxonomy). One product name can map to several documents
-  (CG + IPID, several editions): the tools select general conditions first, newest edition, and always say
-  which document they picked. See `mcp/README.md`.
+  committed `schema/coverage_categories.json` taxonomy), plus `get_coverage` (topic-scoped compact answers)
+  and `verify_claim` (verbatim evidence for a fact-check). One product name can map to several documents
+  (CG + IPID, several editions): the tools select general conditions first, newest edition, refuse ambiguous
+  names with the candidates listed, and always say which document they picked. See `mcp/README.md`.
 - **Validation:** 0 errors. Warnings are honest gaps (branches with products but no overview page yet).
   `make build` is idempotent (no-op rebuild = 0 diff).
 
 ### Still open (not blocking)
+- **PyPI lags GitHub:** the published package is 0.1.0; the repo is at 0.2.0 (get_coverage/verify_claim,
+  ambiguity refusals, hardening, tests). Republish `openinsurance-wiki-mcp` + the registry manifest when convenient.
 - **Branch overview pages** for 9 of the 12 branches (Santé, Voyage, Protection juridique, Vélo, Autres,
   Accidents, RC professionnelle, Navigation, Chasse) - `make validate` lists them as warnings.
 - **Edition metadata is sparse** in the current extractions (`product_family`/`edition_status` mostly absent);
