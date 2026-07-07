@@ -36,9 +36,17 @@ mcp = FastMCP("insurance-wiki")
 
 # --- helpers ----------------------------------------------------------------
 
+# The wiki is read-only at runtime, so parsed data is cached in memory. A
+# long-running server reads each file once, not once per query.
+_INDEX_CACHE: dict[str, list[dict]] = {}
+_EXTRACTED_CACHE: dict[str, list] = {}
+
+
 def _read_index(cc: str) -> list[dict]:
-    p = DATA / cc / "index.json"
-    return json.loads(p.read_text(encoding="utf-8")) if p.is_file() else []
+    if cc not in _INDEX_CACHE:
+        p = DATA / cc / "index.json"
+        _INDEX_CACHE[cc] = json.loads(p.read_text(encoding="utf-8")) if p.is_file() else []
+    return _INDEX_CACHE[cc]
 
 
 def _countries() -> list[str]:
@@ -53,15 +61,28 @@ def _country_meta(cc: str) -> dict:
 
 
 def _extracted(cc: str) -> list[tuple[Path, dict]]:
-    out = []
-    base = DATA / cc / "extracted"
-    if base.is_dir():
-        for jf in sorted(base.glob("*/*.json")):
-            try:
-                out.append((jf, json.loads(jf.read_text(encoding="utf-8"))))
-            except Exception:
-                pass
-    return out
+    if cc not in _EXTRACTED_CACHE:
+        out = []
+        base = DATA / cc / "extracted"
+        if base.is_dir():
+            for jf in sorted(base.glob("*/*.json")):
+                try:
+                    out.append((jf, json.loads(jf.read_text(encoding="utf-8"))))
+                except Exception:
+                    pass
+        _EXTRACTED_CACHE[cc] = out
+    return _EXTRACTED_CACHE[cc]
+
+
+_PAGE_TEXT_CACHE: dict[str, str] = {}
+
+
+def _page_text_norm(path: str) -> str:
+    """Accent/case-normalized body of a wiki page, cached, for full-text search."""
+    if path not in _PAGE_TEXT_CACHE:
+        fp = _safe_repo_path(path)
+        _PAGE_TEXT_CACHE[path] = _norm(fp.read_text(encoding="utf-8")) if fp else ""
+    return _PAGE_TEXT_CACHE[path]
 
 
 # Directories the server may read from. Everything else (.env, pipeline code, git
@@ -243,8 +264,8 @@ def search(query: str, country: str = "be", type: str = "", branch: str = "",
         hay = _norm(" ".join(str(r.get(k) or "") for k in ("title", "branch", "insurer", "type")))
         score = sum(1 for t in terms if t in hay)
         if score == 0 and terms:
-            fp = _safe_repo_path(r.get("path", ""))
-            if fp and all(t in _norm(fp.read_text(encoding="utf-8")) for t in terms):
+            body = _page_text_norm(r.get("path", ""))
+            if body and all(t in body for t in terms):
                 score = 1
         if score or not terms:
             results.append((score, r))
