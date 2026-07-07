@@ -28,8 +28,24 @@ DATA = REPO / "data"
 SOURCES = REPO / "sources"
 SCHEMA = REPO / "schema"
 
-DISCLAIMER = ("[Information only, not advice. Not the insurer's official document, may contain "
-              "extraction errors, verify against source_url.]")
+DISCLAIMER = (
+    "[GROUNDING CONTRACT for the answering assistant: use ONLY facts present in this response. "
+    "Quote edition dates, references, limits, deductibles and wording exactly as shown; if a value is "
+    "'not stated', say it is not stated. Do NOT add article numbers, dates, figures, formulas or product "
+    "names that are not present here. Always cite the source_url. Do not advise, recommend or rank insurers. "
+    "This is a factual extraction, not the insurer's official document, and may contain errors "
+    "- verify against source_url.]")
+
+
+def _citation(obj: dict) -> str:
+    """A compact, front-loaded citation line so the answering model quotes the real
+    edition/reference/source instead of reconstructing (and inventing) them."""
+    ed = obj.get("edition_date") or "not stated in document"
+    ref = obj.get("reference") or "not stated"
+    return ("CITATION (state these exactly, do not invent): "
+            f"product={obj.get('product_name')!r} | insurer={obj.get('insurer_name')} "
+            f"({obj.get('insurer_slug')}) | document_type={obj.get('document_type')} "
+            f"| edition_date={ed} | reference={ref} | source_url={obj.get('source_url')}")
 
 mcp = FastMCP("insurance-wiki")
 
@@ -316,13 +332,11 @@ def get_product(country: str, insurer_slug: str, product_name: str,
                 + json.dumps([_doc_meta(m) for m in matches], ensure_ascii=False, indent=2))
     chosen, others = _pick_best(matches)
     payload = dict(chosen)
+    head = DISCLAIMER + "\n" + _citation(chosen)
     if others:
         payload["other_documents"] = [_doc_meta(o) for o in others]
-        note = (f"[Selected: {chosen.get('document_type')}, edition "
-                f"{chosen.get('edition_date') or 'undated'}. {len(others)} other document(s) "
-                f"for this product under `other_documents`.]")
-        return DISCLAIMER + "\n" + note + "\n" + json.dumps(payload, ensure_ascii=False, indent=2)
-    return DISCLAIMER + "\n" + json.dumps(payload, ensure_ascii=False, indent=2)
+        head += (f"\n[{len(others)} other document(s) for this product under `other_documents`.]")
+    return head + "\n" + json.dumps(payload, ensure_ascii=False, indent=2)
 
 
 @mcp.tool()
