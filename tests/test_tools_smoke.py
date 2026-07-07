@@ -34,6 +34,14 @@ def test_search_full_text_fallback(mcp):
     assert rows, "full-text body search found nothing"
 
 
+def test_search_finds_universal_glossary(mcp):
+    rows = parse_payload(mcp.search("deductible", "be", type="concept"))
+    paths = [r["path"] for r in rows]
+    assert any(p.startswith("_meta/universal-glossary/") for p in paths)
+    page = mcp.get_page(next(p for p in paths if p.startswith("_meta/")))
+    assert not page.startswith("Not found")
+
+
 def test_get_page_roundtrip_from_search(mcp):
     rows = parse_payload(mcp.search("familiale", "be", type="product", limit=1))
     page = mcp.get_page(rows[0]["path"])

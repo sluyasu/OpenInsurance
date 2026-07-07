@@ -15,6 +15,35 @@ from common import (WIKI, REPO, read_note, write_if_changed, write_json,
                     country_dir, load_country, today)
 
 
+UNIVERSAL = REPO / "_meta" / "universal-glossary"
+
+
+def universal_rows(cc: str) -> list[dict]:
+    """The universal glossary applies to every country: index it per country so
+    search can discover the concepts (until now they were readable via get_page
+    but findable by nothing)."""
+    rows = []
+    if not UNIVERSAL.is_dir():
+        return rows
+    for md in sorted(UNIVERSAL.glob("*.md")):
+        meta, _ = read_note(md)
+        if not meta:
+            continue
+        rows.append({
+            "country": cc,
+            "type": meta.get("type") or "concept",
+            "title": md.stem,
+            "branch": None,
+            "insurer": None,
+            "status": meta.get("status"),
+            "path": str(md.relative_to(REPO)),
+            "source_url": meta.get("source_url"),
+            "freshness": meta.get("freshness"),
+            "scope": "universal",
+        })
+    return rows
+
+
 def index_country(cc: str) -> list[dict]:
     rows = []
     root = WIKI / cc
@@ -35,6 +64,7 @@ def index_country(cc: str) -> list[dict]:
             "source_url": meta.get("source_url"),
             "freshness": meta.get("freshness"),
         })
+    rows.extend(universal_rows(cc))
     return rows
 
 
