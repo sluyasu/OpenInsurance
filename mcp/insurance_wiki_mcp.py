@@ -154,12 +154,28 @@ def _edition_key(ed) -> tuple[int, int, int]:
     m = re.fullmatch(r"(\d{4})[-./](\d{1,2})", s)                 # YYYY-MM
     if m:
         return (int(m.group(1)), int(m.group(2)), 0)
-    m = re.fullmatch(r"(\d{2})(\d{2})(\d{4})", s)                 # DDMMYYYY
-    if m:
-        return (int(m.group(3)), int(m.group(2)), int(m.group(1)))
+    if re.fullmatch(r"\d{8}", s):                                 # YYYYMMDD / DDMMYYYY
+        if s[:2] in ("19", "20") and int(s[4:6]) <= 12:
+            return (int(s[:4]), int(s[4:6]), int(s[6:8]))
+        if int(s[2:4]) <= 12:
+            return (int(s[4:8]), int(s[2:4]), int(s[:2]))
+        return (0, 0, 0)
+    if re.fullmatch(r"\d{6}", s):                                 # YYYYMM / MMYYYY
+        if s[:2] in ("19", "20") and int(s[4:6]) <= 12:
+            return (int(s[:4]), int(s[4:6]), 0)
+        if int(s[:2]) <= 12 and s[2:4] in ("19", "20"):
+            return (int(s[2:6]), int(s[:2]), 0)
+        return (0, 0, 0)
     m = re.fullmatch(r"(\d{1,2})[./](\d{2})", s)                  # MM.YY
     if m and int(m.group(1)) <= 12:
         return (2000 + int(m.group(2)), int(m.group(1)), 0)
+    if re.fullmatch(r"\d{4}", s) and s[:2] not in ("19", "20") and int(s[:2]) <= 12:
+        return (2000 + int(s[2:4]), int(s[:2]), 0)               # MMYY ("0523")
+    m = re.match(r"(\d{4,8})\b", s)                               # composite refs: "112020-F012025"
+    if m and m.group(1) != s:
+        k = _edition_key(m.group(1))
+        if k != (0, 0, 0):
+            return k
     m = re.search(r"\b(19|20)\d{2}\b", s)                         # bare year somewhere
     if m:
         return (int(m.group(0)), 0, 0)
@@ -200,7 +216,11 @@ def _resolve_product(allp: list[tuple[Path, dict]], name: str,
 # --- coverage categorization (for the overlap detector) ---------------------
 
 def _norm(s: str) -> str:
-    s = unicodedata.normalize("NFKD", s or "")
+    # NFKD strips accents but leaves curly apostrophes and ligatures alone, and
+    # French PDFs are full of both ("L’assurance", "cœur") - fold them by hand.
+    s = (s or "").replace("’", "'").replace("‘", "'")
+    s = s.replace("œ", "oe").replace("Œ", "OE")
+    s = unicodedata.normalize("NFKD", s)
     s = "".join(c for c in s if not unicodedata.combining(c))
     return re.sub(r"\s+", " ", s).lower()
 
