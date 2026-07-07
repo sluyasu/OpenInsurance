@@ -42,10 +42,11 @@ def _citation(obj: dict) -> str:
     edition/reference/source instead of reconstructing (and inventing) them."""
     ed = obj.get("edition_date") or "not stated in document"
     ref = obj.get("reference") or "not stated"
+    sup = " | superseded=True (an older edition; a newer one exists)" if obj.get("superseded") else ""
     return ("CITATION (state these exactly, do not invent): "
             f"product={obj.get('product_name')!r} | insurer={obj.get('insurer_name')} "
             f"({obj.get('insurer_slug')}) | document_type={obj.get('document_type')} "
-            f"| edition_date={ed} | reference={ref} | source_url={obj.get('source_url')}")
+            f"| edition_date={ed} | reference={ref}{sup} | source_url={obj.get('source_url')}")
 
 mcp = FastMCP("insurance-wiki")
 
@@ -183,13 +184,39 @@ def _edition_key(ed) -> tuple[int, int, int]:
 
 
 def _pick_best(matches: list[dict]) -> tuple[dict, list[dict]]:
-    """(chosen, alternatives) for one product's documents."""
+    """(chosen, alternatives) for one product's documents. Reference and source_url
+    close the ranking so ties never fall back to filesystem order."""
     ranked = sorted(matches, key=lambda o: (
         _DOC_PREF.get(o.get("document_type"), 9),
         1 if o.get("superseded") else 0,
         tuple(-x for x in _edition_key(o.get("edition_date"))),
+        str(o.get("reference") or ""),
+        str(o.get("source_url") or ""),
     ))
     return ranked[0], ranked[1:]
+
+
+def _selection_tie(chosen: dict, others: list[dict]) -> dict | None:
+    """A sibling the ranking cannot tell apart on substance (same type, same
+    supersession, same edition): real datasets have them (two general conditions
+    issued the same day for different distribution channels). Callers must say the
+    choice fell back to reference order."""
+    for o in others:
+        if (o.get("document_type") == chosen.get("document_type")
+                and bool(o.get("superseded")) == bool(chosen.get("superseded"))
+                and _edition_key(o.get("edition_date")) == _edition_key(chosen.get("edition_date"))):
+            return o
+    return None
+
+
+def _tie_note(chosen: dict, others: list[dict]) -> str:
+    tie = _selection_tie(chosen, others)
+    if not tie:
+        return ""
+    return (f"\n[NOTE: another {chosen.get('document_type')} with the same edition exists "
+            f"(reference {tie.get('reference')!r}); they may differ in substance and the "
+            "choice between them is by reference order. Check the alternatives or filter "
+            "by document_type/edition.]")
 
 
 def _doc_meta(obj: dict) -> dict:
@@ -200,17 +227,74 @@ def _doc_meta(obj: dict) -> dict:
             "source_url": obj.get("source_url")}
 
 
+def _product_groups(matches: list[dict]) -> list[list[dict]]:
+    """Group matched documents into distinct commercial products. Same normalized
+    name (within one insurer) = same product. A product's CG and IPID often carry
+    name variants ("Mobility Safe 1" vs "Assurance Auto Mobility Safe 1"), so two
+    name groups also merge when one name contains the other AND their document
+    types don't overlap - but never when both have e.g. their own general
+    conditions (AMMA's HOSPI and HOSPI SAFE are different products)."""
+    groups: list[list[dict]] = []
+    for o in matches:
+        key = (o.get("insurer_slug"), _norm(o.get("product_name") or ""))
+        for g in groups:
+            if (g[0].get("insurer_slug"), _norm(g[0].get("product_name") or "")) == key:
+                g.append(o)
+                break
+        else:
+            groups.append([o])
+    merged = True
+    while merged:
+        merged = False
+        for i, a in enumerate(groups):
+            for b in groups[i + 1:]:
+                na, nb = _norm(a[0].get("product_name") or ""), _norm(b[0].get("product_name") or "")
+                ta = {d.get("document_type") for d in a}
+                tb = {d.get("document_type") for d in b}
+                if (a[0].get("insurer_slug") == b[0].get("insurer_slug")
+                        and (na in nb or nb in na) and not (ta & tb)):
+                    a.extend(b)
+                    groups.remove(b)
+                    merged = True
+                    break
+            if merged:
+                break
+    return groups
+
+
+def _exact_or_ambiguous(groups: list[list[dict]], want: str) -> tuple[list[list[dict]], list[str]]:
+    """Disambiguate product groups against the normalized query. An exact name match
+    wins over products that merely contain it ('Confort Auto' must resolve even
+    though 'Confort Auto - Protection juridique' also matches); the near-misses are
+    returned so callers can list them instead of hiding them."""
+    if len(groups) <= 1:
+        return groups, []
+    exact = [g for g in groups if any(_norm(d.get("product_name") or "") == want for d in g)]
+    if len(exact) == 1:
+        near = sorted({_pick_best(g)[0].get("product_name") or ""
+                       for g in groups if g is not exact[0]})
+        return exact, near
+    return groups, []
+
+
 def _resolve_product(allp: list[tuple[Path, dict]], name: str,
-                     insurer: str = "") -> tuple[dict | None, list[dict]]:
+                     insurer: str = "") -> tuple[dict | None, list[dict], list[dict], list[str]]:
     """Match a product name (case- and accent-insensitive substring), optionally within
-    one insurer, and pick the best document. Returns (chosen | None, alternatives)."""
+    one insurer, and pick the best document. Returns (chosen, alternatives, ambiguous,
+    similar): when the name matches several distinct products and none is an exact
+    match, chosen is None and ambiguous lists the best document of each candidate so
+    the caller can ask to refine; similar lists exact-match near-misses."""
     w = _norm(name)
     m = [o for _, o in allp
          if w in _norm(o.get("product_name") or "")
          and (not insurer or o.get("insurer_slug") == insurer)]
     if not m:
-        return None, []
-    return _pick_best(m)
+        return None, [], [], []
+    groups, near = _exact_or_ambiguous(_product_groups(m), w)
+    if len(groups) > 1:
+        return None, [], [_doc_meta(_pick_best(g)[0]) for g in groups], []
+    chosen, others = _pick_best(groups[0])
+    return chosen, others, [], near
 
 
 # --- coverage categorization (for the overlap detector) ---------------------
@@ -345,14 +429,18 @@ def get_product(country: str, insurer_slug: str, product_name: str,
         matches.append(obj)
     if not matches:
         return f"{DISCLAIMER}\nNo product matching '{product_name}' for insurer '{insurer_slug}' in {country}."
-    names = {(m.get("product_name") or "").lower() for m in matches}
-    if len(names) > 1:
-        return ("Multiple distinct products match; refine product_name or filter by "
-                "document_type/edition:\n"
-                + json.dumps([_doc_meta(m) for m in matches], ensure_ascii=False, indent=2))
-    chosen, others = _pick_best(matches)
+    groups, near = _exact_or_ambiguous(_product_groups(matches), want)
+    if len(groups) > 1:
+        return (DISCLAIMER + "\nMultiple distinct products match; refine product_name or "
+                "filter by document_type/edition:\n"
+                + json.dumps([_doc_meta(_pick_best(g)[0]) for g in groups],
+                             ensure_ascii=False, indent=2))
+    chosen, others = _pick_best(groups[0])
     payload = dict(chosen)
-    head = DISCLAIMER + "\n" + _citation(chosen)
+    head = DISCLAIMER + "\n" + _citation(chosen) + _tie_note(chosen, others)
+    if near:
+        head += (f"\n[Similar products at this insurer not returned: {', '.join(near)}"
+                 " - name one exactly to get it.]")
     if others:
         payload["other_documents"] = [_doc_meta(o) for o in others]
         head += (f"\n[{len(others)} other document(s) for this product under `other_documents`.]")
@@ -365,32 +453,48 @@ def compare_products(country: str, product_names: list[str], on: str = "coverage
     """Compare 2+ products side by side on one dimension: coverages | exclusions | deductibles.
     Each name is matched case-insensitively against extracted product names; pass
     insurer_slugs (same length/order as product_names) to pin each name to one insurer.
-    For each name the best document is selected (general conditions over IPID, newest
-    edition) and identified in the response."""
+    A name matching several DISTINCT products is refused with the candidates listed
+    (refine it rather than let the server guess). For each resolved name the best
+    document is selected (general conditions over IPID, newest edition) and identified
+    in the response, including its superseded flag."""
     if on not in ("coverages", "exclusions", "deductibles"):
         return "on must be one of: coverages | exclusions | deductibles"
     if insurer_slugs and len(insurer_slugs) != len(product_names):
         return "insurer_slugs must have the same length/order as product_names"
     allp = _extracted(country)
-    chosen, unmatched = [], []
+    chosen, unmatched, ambiguous = [], [], {}
     for i, name in enumerate(product_names):
-        obj, others = _resolve_product(allp, name, insurer_slugs[i] if insurer_slugs else "")
-        if obj:
-            chosen.append((obj, len(others)))
+        obj, others, amb, near = _resolve_product(allp, name,
+                                                  insurer_slugs[i] if insurer_slugs else "")
+        if amb:
+            ambiguous[name] = amb
+        elif obj:
+            chosen.append((obj, others, near))
         else:
             unmatched.append(name)
+    if ambiguous:
+        return (DISCLAIMER + "\nAmbiguous product name(s): each matches several distinct "
+                "products (candidates below). Use a more specific name or pin each name "
+                "to one insurer with insurer_slugs.\n"
+                + json.dumps(ambiguous, ensure_ascii=False, indent=2))
     if len(chosen) < 2:
         return (f"{DISCLAIMER}\nNeed at least 2 matching products; matched {len(chosen)}."
                 + (f" Unmatched: {unmatched}" if unmatched else ""))
     result = {"on": on, "products": []}
     if unmatched:
         result["unmatched"] = unmatched
-    for obj, n_alt in chosen:
+    for obj, others, near in chosen:
         entry = {"product_name": obj.get("product_name"), "insurer": obj.get("insurer_name"),
                  "insurer_slug": obj.get("insurer_slug"),
                  "document_type": obj.get("document_type"),
                  "edition_date": obj.get("edition_date"), "reference": obj.get("reference"),
-                 "other_documents_exist": n_alt, "source_url": obj.get("source_url")}
+                 "superseded": obj.get("superseded"),
+                 "other_documents_exist": len(others), "source_url": obj.get("source_url")}
+        if _selection_tie(obj, others):
+            entry["selection_note"] = ("another document of the same type and edition "
+                                       "exists; selection fell back to reference order")
+        if near:
+            entry["similar_products_not_compared"] = near
         if on == "deductibles":
             entry["deductibles"] = obj.get("deductibles")
         else:
@@ -416,17 +520,25 @@ def find_overlap(country: str, product_names: list[str], on: str = "coverages",
     if insurer_slugs and len(insurer_slugs) != len(product_names):
         return "insurer_slugs must have the same length/order as product_names"
     allp = _extracted(country)
-    chosen = []
+    chosen, ambiguous = [], {}
     for i, name in enumerate(product_names):
-        o, _others = _resolve_product(allp, name, insurer_slugs[i] if insurer_slugs else "")
-        if o:
-            chosen.append(o)
+        o, _others, amb, near = _resolve_product(allp, name,
+                                                 insurer_slugs[i] if insurer_slugs else "")
+        if amb:
+            ambiguous[name] = amb
+        elif o:
+            chosen.append((o, near))
+    if ambiguous:
+        return (DISCLAIMER + "\nAmbiguous product name(s): each matches several distinct "
+                "products (candidates below). Use a more specific name or pin each name "
+                "to one insurer with insurer_slugs.\n"
+                + json.dumps(ambiguous, ensure_ascii=False, indent=2))
     if len(chosen) < 2:
         return f"{DISCLAIMER}\nNeed at least 2 matching products; matched {len(chosen)}."
     labels = {k: v.get("label", k) for k, v in _categories().items()}
     cat_items = defaultdict(list)
     per_product = []
-    for o in chosen:
+    for o, near in chosen:
         pname = o.get("product_name")
         items = []
         for it in (o.get(on) or []):
@@ -436,10 +548,14 @@ def find_overlap(country: str, product_names: list[str], on: str = "coverages",
             items.append({"name": it.get("name"), "categories": [labels.get(c, c) for c in cats]})
             for c in cats:
                 cat_items[c].append({"product": pname, "item": it.get("name")})
-        per_product.append({"product_name": pname, "insurer": o.get("insurer_name"),
-                            "branch": o.get("branch"), "document_type": o.get("document_type"),
-                            "edition_date": o.get("edition_date"),
-                            "source_url": o.get("source_url"), on: items})
+        entry = {"product_name": pname, "insurer": o.get("insurer_name"),
+                 "branch": o.get("branch"), "document_type": o.get("document_type"),
+                 "edition_date": o.get("edition_date"),
+                 "superseded": o.get("superseded"),
+                 "source_url": o.get("source_url"), on: items}
+        if near:
+            entry["similar_products_not_included"] = near
+        per_product.append(entry)
     overlaps = []
     for c, entries in cat_items.items():
         if len({e["product"] for e in entries}) >= 2:
