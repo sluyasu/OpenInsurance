@@ -13,6 +13,7 @@ from __future__ import annotations
 import json
 import os
 import re
+import sys
 import unicodedata
 from pathlib import Path
 
@@ -62,7 +63,11 @@ _EXTRACTED_CACHE: dict[str, list] = {}
 def _read_index(cc: str) -> list[dict]:
     if cc not in _INDEX_CACHE:
         p = DATA / cc / "index.json"
-        _INDEX_CACHE[cc] = json.loads(p.read_text(encoding="utf-8")) if p.is_file() else []
+        try:
+            _INDEX_CACHE[cc] = json.loads(p.read_text(encoding="utf-8")) if p.is_file() else []
+        except json.JSONDecodeError as e:
+            raise ValueError(f"Corrupt index file {p}: {e}. Rebuild it with "
+                             "`python pipeline/build_index.py --country " + cc + "`.") from e
     return _INDEX_CACHE[cc]
 
 
@@ -74,7 +79,24 @@ def _countries() -> list[str]:
 
 def _country_meta(cc: str) -> dict:
     p = SOURCES / cc / "_country.yml"
-    return yaml.safe_load(p.read_text(encoding="utf-8")) if p.is_file() else {}
+    return (yaml.safe_load(p.read_text(encoding="utf-8")) or {}) if p.is_file() else {}
+
+
+# Guidance instead of a silent empty server: an installed (pip/uvx) copy that can't
+# see a dataset is the most common misconfiguration.
+_NO_DATASET = (f"No dataset found under {REPO}. This server reads the openinsurance-wiki "
+               "repository itself: run it from inside a clone, or set INSURANCE_WIKI_REPO "
+               "to the path of one (git clone https://github.com/sluyasu/OpenInsurance.git).")
+
+
+def _no_data(cc: str) -> str | None:
+    """A message explaining an empty result that is a setup problem, not a data fact."""
+    if _extracted(cc):
+        return None
+    if not _countries():
+        return _NO_DATASET
+    return (f"No extracted data for country '{cc}'. Covered countries: "
+            + ", ".join(_countries()) + ". Use list_countries.")
 
 
 def _extracted(cc: str) -> list[tuple[Path, dict]]:
@@ -85,8 +107,11 @@ def _extracted(cc: str) -> list[tuple[Path, dict]]:
             for jf in sorted(base.glob("*/*.json")):
                 try:
                     out.append((jf, json.loads(jf.read_text(encoding="utf-8"))))
-                except Exception:
-                    pass
+                except Exception as e:
+                    # Serve the rest, but never silently: a skipped file is a
+                    # product that vanished from every tool.
+                    print(f"[insurance-wiki-mcp] skipping unreadable {jf}: {e}",
+                          file=sys.stderr)
         _EXTRACTED_CACHE[cc] = out
     return _EXTRACTED_CACHE[cc]
 
@@ -104,7 +129,9 @@ def _page_text_norm(path: str) -> str:
 
 # Directories the server may read from. Everything else (.env, pipeline code, git
 # internals) stays out of reach even if a prompt-injected client asks for it.
+# Text formats only: data/ also holds downloaded PDFs on a working machine.
 _READABLE_ROOTS = ("wiki", "data", "_meta", "sources", "schema")
+_READABLE_SUFFIXES = (".md", ".json", ".yml", ".yaml", ".txt", ".csv")
 
 
 def _safe_repo_path(path: str) -> Path | None:
@@ -114,6 +141,8 @@ def _safe_repo_path(path: str) -> Path | None:
     except ValueError:
         return None
     if any(part.startswith(".") for part in rel.parts):
+        return None
+    if p.suffix.lower() not in _READABLE_SUFFIXES:
         return None
     if len(rel.parts) == 1:
         if p.suffix.lower() != ".md":
@@ -336,6 +365,8 @@ def _categorize(text: str) -> list[str]:
 @mcp.tool()
 def list_countries() -> str:
     """List countries covered, with page/product/insurer counts."""
+    if not _countries():
+        return _NO_DATASET
     rows = []
     for cc in _countries():
         idx = _read_index(cc)
@@ -371,7 +402,10 @@ def search(query: str, country: str = "be", type: str = "", branch: str = "",
            insurer: str = "", limit: int = 20) -> str:
     """Search wiki pages by title/branch/insurer and page content. Filter by type
     (product|branch|insurer|regulation|concept|moc), branch slug, insurer slug.
-    Returns matches with path, source_url and freshness."""
+    Returns matches with path, source_url and freshness; when more than `limit`
+    pages match, the response says how many were left out."""
+    if not _countries():
+        return _NO_DATASET
     terms = [t for t in _norm(query).split() if t]
     results = []
     for r in _read_index(country):
@@ -393,16 +427,23 @@ def search(query: str, country: str = "be", type: str = "", branch: str = "",
     out = [{"title": r["title"], "type": r["type"], "branch": r.get("branch"),
             "insurer": r.get("insurer"), "path": r["path"], "source_url": r.get("source_url"),
             "freshness": r.get("freshness")} for _, r in results[:limit]]
-    return json.dumps(out, ensure_ascii=False, indent=2)
+    body = json.dumps(out, ensure_ascii=False, indent=2)
+    if len(results) > limit:
+        return f"[{len(results)} pages match; showing the first {limit}. Raise limit for more.]\n" + body
+    return body
 
 
 @mcp.tool()
 def get_page(path: str) -> str:
-    """Return the full Markdown of one wiki page by its repo-relative path (from search results)."""
+    """Return the full text of one knowledge page by its repo-relative path (from
+    search results). Text files in the knowledge folders only (.md, .json, .yml)."""
     p = _safe_repo_path(path)
     if not p:
         return f"Not found or outside repo: {path}"
-    return p.read_text(encoding="utf-8")
+    try:
+        return p.read_text(encoding="utf-8")
+    except UnicodeDecodeError:
+        return f"Not a readable text file: {path}"
 
 
 @mcp.tool()
@@ -415,6 +456,9 @@ def get_product(country: str, insurer_slug: str, product_name: str,
     When one product has several documents (e.g. its CG and its IPID share the commercial
     name), the general conditions with the newest edition are returned and the other
     documents are listed under `other_documents`."""
+    guard = _no_data(country)
+    if guard:
+        return f"{DISCLAIMER}\n{guard}"
     want = _norm(product_name)
     matches = []
     for jf, obj in _extracted(country):
@@ -461,6 +505,9 @@ def compare_products(country: str, product_names: list[str], on: str = "coverage
         return "on must be one of: coverages | exclusions | deductibles"
     if insurer_slugs and len(insurer_slugs) != len(product_names):
         return "insurer_slugs must have the same length/order as product_names"
+    guard = _no_data(country)
+    if guard:
+        return f"{DISCLAIMER}\n{guard}"
     allp = _extracted(country)
     chosen, unmatched, ambiguous = [], [], {}
     for i, name in enumerate(product_names):
@@ -519,6 +566,9 @@ def find_overlap(country: str, product_names: list[str], on: str = "coverages",
         return "on must be 'coverages' or 'exclusions'"
     if insurer_slugs and len(insurer_slugs) != len(product_names):
         return "insurer_slugs must have the same length/order as product_names"
+    guard = _no_data(country)
+    if guard:
+        return f"{DISCLAIMER}\n{guard}"
     allp = _extracted(country)
     chosen, ambiguous = [], {}
     for i, name in enumerate(product_names):
@@ -582,7 +632,11 @@ def get_branch_overview(country: str, branch: str) -> str:
 
 
 def main() -> None:
-    """Console entry point (`insurance-wiki-mcp` once installed)."""
+    """Console entry point (`insurance-wiki-mcp` once installed). Refuses to start
+    without a dataset: a silent empty server reads as "the wiki covers nothing"."""
+    if not _countries():
+        print(f"[insurance-wiki-mcp] {_NO_DATASET}", file=sys.stderr)
+        raise SystemExit(1)
     mcp.run()
 
 
