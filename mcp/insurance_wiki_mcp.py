@@ -149,11 +149,11 @@ def _doc_meta(obj: dict) -> dict:
 
 def _resolve_product(allp: list[tuple[Path, dict]], name: str,
                      insurer: str = "") -> tuple[dict | None, list[dict]]:
-    """Match a product name (case-insensitive substring), optionally within one insurer,
-    and pick the best document. Returns (chosen | None, alternatives)."""
-    w = name.lower().strip()
+    """Match a product name (case- and accent-insensitive substring), optionally within
+    one insurer, and pick the best document. Returns (chosen | None, alternatives)."""
+    w = _norm(name)
     m = [o for _, o in allp
-         if w in (o.get("product_name") or "").lower()
+         if w in _norm(o.get("product_name") or "")
          and (not insurer or o.get("insurer_slug") == insurer)]
     if not m:
         return None, []
@@ -231,8 +231,7 @@ def search(query: str, country: str = "be", type: str = "", branch: str = "",
     """Search wiki pages by title/branch/insurer and page content. Filter by type
     (product|branch|insurer|regulation|concept|moc), branch slug, insurer slug.
     Returns matches with path, source_url and freshness."""
-    q = query.lower().strip()
-    terms = [t for t in q.split() if t]
+    terms = [t for t in _norm(query).split() if t]
     results = []
     for r in _read_index(country):
         if type and r.get("type") != type:
@@ -241,11 +240,11 @@ def search(query: str, country: str = "be", type: str = "", branch: str = "",
             continue
         if insurer and (r.get("insurer") or "") != insurer:
             continue
-        hay = " ".join(str(r.get(k) or "") for k in ("title", "branch", "insurer", "type")).lower()
+        hay = _norm(" ".join(str(r.get(k) or "") for k in ("title", "branch", "insurer", "type")))
         score = sum(1 for t in terms if t in hay)
         if score == 0 and terms:
             fp = _safe_repo_path(r.get("path", ""))
-            if fp and all(t in fp.read_text(encoding="utf-8").lower() for t in terms):
+            if fp and all(t in _norm(fp.read_text(encoding="utf-8")) for t in terms):
                 score = 1
         if score or not terms:
             results.append((score, r))
@@ -275,12 +274,12 @@ def get_product(country: str, insurer_slug: str, product_name: str,
     When one product has several documents (e.g. its CG and its IPID share the commercial
     name), the general conditions with the newest edition are returned and the other
     documents are listed under `other_documents`."""
-    want = product_name.lower().strip()
+    want = _norm(product_name)
     matches = []
     for jf, obj in _extracted(country):
         if obj.get("insurer_slug") != insurer_slug:
             continue
-        if want not in (obj.get("product_name") or "").lower() and want not in jf.stem.lower():
+        if want not in _norm(obj.get("product_name") or "") and want not in _norm(jf.stem):
             continue
         if document_type and obj.get("document_type") != document_type:
             continue
