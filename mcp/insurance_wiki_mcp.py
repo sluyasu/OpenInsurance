@@ -336,6 +336,51 @@ def _exact_or_ambiguous(groups: list[list[dict]], want: str) -> tuple[list[list[
     return groups, []
 
 
+def _resolve_document(country: str, insurer_slug: str, product_name: str,
+                      document_type: str = "", edition: str = ""
+                      ) -> tuple[dict | None, list[dict], list[str], str | None]:
+    """Shared resolution for the product-scoped tools: filter by insurer and the
+    optional document_type/edition, group into distinct products, apply the
+    exact-match rule, pick the best document. Returns (chosen, alternatives,
+    similar, error) where error is a ready-to-return message on failure."""
+    guard = _no_data(country)
+    if guard:
+        return None, [], [], f"{DISCLAIMER}\n{guard}"
+    want = _norm(product_name)
+    matches = []
+    for jf, obj in _extracted(country):
+        if obj.get("insurer_slug") != insurer_slug:
+            continue
+        if want not in _norm(obj.get("product_name") or "") and want not in _norm(jf.stem):
+            continue
+        if document_type and obj.get("document_type") != document_type:
+            continue
+        if edition and edition not in str(obj.get("edition_date") or ""):
+            continue
+        matches.append(obj)
+    if not matches:
+        return None, [], [], (f"{DISCLAIMER}\nNo product matching '{product_name}' "
+                              f"for insurer '{insurer_slug}' in {country}.")
+    groups, near = _exact_or_ambiguous(_product_groups(matches), want)
+    if len(groups) > 1:
+        return None, [], [], (
+            DISCLAIMER + "\nMultiple distinct products match; refine product_name or "
+            "filter by document_type/edition:\n"
+            + json.dumps([_doc_meta(_pick_best(g)[0]) for g in groups],
+                         ensure_ascii=False, indent=2))
+    chosen, others = _pick_best(groups[0])
+    return chosen, others, near, None
+
+
+def _head(chosen: dict, others: list[dict], near: list[str]) -> str:
+    """The grounding header every product-scoped response starts with."""
+    head = DISCLAIMER + "\n" + _citation(chosen) + _tie_note(chosen, others)
+    if near:
+        head += (f"\n[Similar products at this insurer not returned: {', '.join(near)}"
+                 " - name one exactly to get it.]")
+    return head
+
+
 def _resolve_product(allp: list[tuple[Path, dict]], name: str,
                      insurer: str = "") -> tuple[dict | None, list[dict], list[dict], list[str]]:
     """Match a product name (case- and accent-insensitive substring), optionally within
@@ -416,7 +461,10 @@ def _doc_category_items(o: dict, on: str) -> tuple[list, list]:
 
 @mcp.tool()
 def list_countries() -> str:
-    """List countries covered, with page/product/insurer counts."""
+    """List countries covered: product/insurer/regulation counts, how many branches
+    have at least one product (branches_covered), the size of the country's branch
+    taxonomy (branch_taxonomy), and how many hand-written branch overview pages
+    exist (branch_overview_pages)."""
     if not _countries():
         return _NO_DATASET
     rows = []
@@ -426,10 +474,15 @@ def list_countries() -> str:
         counts = {}
         for r in idx:
             counts[r.get("type")] = counts.get(r.get("type"), 0) + 1
+        covered = {r.get("branch") for r in idx if r.get("type") == "product" and r.get("branch")}
         rows.append({"country": cc, "name": meta.get("name", cc),
                      "regulator": meta.get("regulator"),
-                     "branches": counts.get("branch", 0), "products": counts.get("product", 0),
-                     "insurers": counts.get("insurer", 0), "regulations": counts.get("regulation", 0)})
+                     "branches_covered": len(covered),
+                     "branch_taxonomy": len(meta.get("branches", {})),
+                     "branch_overview_pages": counts.get("branch", 0),
+                     "products": counts.get("product", 0),
+                     "insurers": counts.get("insurer", 0),
+                     "regulations": counts.get("regulation", 0)})
     return json.dumps(rows, ensure_ascii=False, indent=2)
 
 
@@ -507,39 +560,164 @@ def get_product(country: str, insurer_slug: str, product_name: str,
     When one product has several documents (e.g. its CG and its IPID share the commercial
     name), the general conditions with the newest edition are returned and the other
     documents are listed under `other_documents`."""
-    guard = _no_data(country)
-    if guard:
-        return f"{DISCLAIMER}\n{guard}"
-    want = _norm(product_name)
-    matches = []
-    for jf, obj in _extracted(country):
-        if obj.get("insurer_slug") != insurer_slug:
-            continue
-        if want not in _norm(obj.get("product_name") or "") and want not in _norm(jf.stem):
-            continue
-        if document_type and obj.get("document_type") != document_type:
-            continue
-        if edition and edition not in str(obj.get("edition_date") or ""):
-            continue
-        matches.append(obj)
-    if not matches:
-        return f"{DISCLAIMER}\nNo product matching '{product_name}' for insurer '{insurer_slug}' in {country}."
-    groups, near = _exact_or_ambiguous(_product_groups(matches), want)
-    if len(groups) > 1:
-        return (DISCLAIMER + "\nMultiple distinct products match; refine product_name or "
-                "filter by document_type/edition:\n"
-                + json.dumps([_doc_meta(_pick_best(g)[0]) for g in groups],
-                             ensure_ascii=False, indent=2))
-    chosen, others = _pick_best(groups[0])
+    chosen, others, near, err = _resolve_document(country, insurer_slug, product_name,
+                                                  document_type, edition)
+    if err:
+        return err
     payload = dict(chosen)
-    head = DISCLAIMER + "\n" + _citation(chosen) + _tie_note(chosen, others)
-    if near:
-        head += (f"\n[Similar products at this insurer not returned: {', '.join(near)}"
-                 " - name one exactly to get it.]")
+    head = _head(chosen, others, near)
     if others:
         payload["other_documents"] = [_doc_meta(o) for o in others]
         head += (f"\n[{len(others)} other document(s) for this product under `other_documents`.]")
     return head + "\n" + json.dumps(payload, ensure_ascii=False, indent=2)
+
+
+_STOPWORDS = {"les", "des", "une", "aux", "est", "sont", "dans", "pour", "avec", "par",
+              "que", "qui", "pas", "sur", "the", "and", "for", "are", "not", "was",
+              "assurance", "assure", "assuree", "police", "contrat", "garantie",
+              # near-universal in insurance wording: zero discriminating power
+              "couvre", "couvert", "couverte", "couverts", "couvertes", "couverture",
+              "cover", "covered", "coverage", "exclusion", "exclu", "exclue"}
+
+
+def _item_text(it: dict) -> str:
+    """One coverage/exclusion flattened to quotable text: the discriminating detail
+    often lives in conditions/limits, not in the name or description."""
+    head = ": ".join(str(it.get(k)) for k in ("name", "description") if it.get(k))
+    tail = []
+    for k in ("limits", "deductible", "territorial_scope"):
+        if it.get(k):
+            tail.append(f"{k}: {it.get(k)}")
+    conds = it.get("conditions")
+    if conds:
+        tail.append("conditions: " + ("; ".join(str(c) for c in conds)
+                                      if isinstance(conds, list) else str(conds)))
+    if it.get("sub_limits"):
+        tail.append("sub_limits: " + json.dumps(it.get("sub_limits"), ensure_ascii=False))
+    return head + ((" | " + " | ".join(tail)) if tail else "")
+
+
+def _claim_terms(text: str) -> list[str]:
+    """Content words of a claim/topic: normalized tokens, stopwords and generic
+    insurance words dropped, digits kept (amounts and dates are the point)."""
+    tokens = re.findall(r"[a-z0-9]+(?:[.,]\d+)?", _norm(text))
+    return [t for t in tokens if (len(t) >= 3 or t.isdigit()) and t not in _STOPWORDS]
+
+
+def _match_score(text_norm: str, terms: list[str]) -> int:
+    return sum(1 for t in terms if t in text_norm)
+
+
+_MAX_MATCHED_ITEMS = 12
+
+
+@mcp.tool()
+def get_coverage(country: str, insurer_slug: str, product_name: str, topic: str,
+                 document_type: str = "", edition: str = "") -> str:
+    """Compact, question-oriented view of ONE product: only the coverages and
+    exclusions relevant to `topic` (e.g. 'vol', 'degats des eaux', 'ski hors-piste'),
+    with their limits, deductibles, verbatim quotes and page numbers. Prefer this
+    over get_product when answering a specific guarantee question: everything needed
+    to quote is in the response and nothing else. Matching is accent- and
+    case-insensitive over coverage/exclusion names and descriptions. An empty match
+    list means the topic was not found in THIS document; that is not proof the
+    product has no such cover - say so and point to the source_url."""
+    chosen, others, near, err = _resolve_document(country, insurer_slug, product_name,
+                                                  document_type, edition)
+    if err:
+        return err
+    terms = _claim_terms(topic) or [t for t in _norm(topic).split() if t]
+    if not terms:
+        return f"{DISCLAIMER}\nEmpty topic; give a coverage question or keyword."
+
+    def matched(items):
+        scored = []
+        for it in (items or []):
+            if not isinstance(it, dict):
+                continue
+            s = _match_score(_norm(_item_text(it)), terms)
+            if s:
+                scored.append((s, it))
+        scored.sort(key=lambda x: (-x[0], str(x[1].get("name"))))
+        return [it for _, it in scored]
+
+    cov = matched(chosen.get("coverages"))
+    exc = matched(chosen.get("exclusions"))
+    quotes = [q for q in (chosen.get("key_quotes") or []) if isinstance(q, dict)
+              and _match_score(_norm(q.get("quote") or ""), terms)]
+    result = {"topic": topic,
+              "matched_coverages": cov[:_MAX_MATCHED_ITEMS],
+              "matched_exclusions": exc[:_MAX_MATCHED_ITEMS],
+              "related_quotes": quotes[:_MAX_MATCHED_ITEMS],
+              "source_url": chosen.get("source_url")}
+    for name, full in (("matched_coverages", cov), ("matched_exclusions", exc),
+                       ("related_quotes", quotes)):
+        if len(full) > _MAX_MATCHED_ITEMS:
+            result[f"{name}_omitted"] = len(full) - _MAX_MATCHED_ITEMS
+    ded = chosen.get("deductibles")
+    if ded and _match_score(_norm(json.dumps(ded, ensure_ascii=False)), terms):
+        result["deductibles"] = ded
+    if not (cov or exc or quotes):
+        result["note"] = ("no coverage, exclusion or quote in this document matches "
+                          "the topic; not proof of absence - check the source document "
+                          "or get_product for the full extraction")
+    return _head(chosen, others, near) + "\n" + json.dumps(result, ensure_ascii=False, indent=2)
+
+
+@mcp.tool()
+def verify_claim(country: str, insurer_slug: str, product_name: str, claim: str) -> str:
+    """Verbatim evidence check for ONE factual claim about a product ('le ski
+    hors-piste est couvert avec un moniteur', 'franchise de 250 EUR en vol').
+    Returns the document excerpts (coverages, exclusions, quotes, definitions,
+    deductibles, summary) sharing the claim's terms, each with its page when
+    stated. The tool does NOT judge: compare the claim against the excerpts. If a
+    number, date, article or condition the claim relies on appears in no excerpt,
+    treat it as NOT SUPPORTED by this document and say so. Use it as a self-check
+    before asserting product facts to a user."""
+    chosen, others, near, err = _resolve_document(country, insurer_slug, product_name)
+    if err:
+        return err
+    terms = _claim_terms(claim)
+    if not terms:
+        return f"{DISCLAIMER}\nEmpty claim; state the fact to check."
+    evidence = []
+
+    def add(source, text, page=None):
+        s = _match_score(_norm(text), terms)
+        if s:
+            e = {"source_field": source, "text": text}
+            if page is not None:
+                e["page"] = page
+            evidence.append((s, e))
+
+    for it in (chosen.get("coverages") or []):
+        if isinstance(it, dict):
+            add("coverages", _item_text(it), it.get("page"))
+    for it in (chosen.get("exclusions") or []):
+        if isinstance(it, dict):
+            add("exclusions", _item_text(it), it.get("page"))
+    for q in (chosen.get("key_quotes") or []):
+        if isinstance(q, dict):
+            add("key_quotes", q.get("quote") or "", q.get("page"))
+    for d in (chosen.get("definitions") or []):
+        if isinstance(d, dict):
+            add("definitions", f"{d.get('term', '')}: {d.get('definition', '')}",
+                d.get("page"))
+    ded = chosen.get("deductibles")
+    if ded:
+        add("deductibles", json.dumps(ded, ensure_ascii=False))
+    if chosen.get("summary"):
+        add("summary", str(chosen.get("summary")))
+    evidence.sort(key=lambda x: -x[0])
+    top = [e for _, e in evidence[:_MAX_MATCHED_ITEMS]]
+    result = {"claim": claim, "terms_matched_on": terms, "evidence": top,
+              "evidence_total": len(evidence), "source_url": chosen.get("source_url"),
+              "note": ("this tool retrieves, it does not judge: the claim is supported "
+                       "only if the evidence above literally says so. No evidence = "
+                       "not supported by this document.")}
+    if len(evidence) > _MAX_MATCHED_ITEMS:
+        result["evidence_omitted"] = len(evidence) - _MAX_MATCHED_ITEMS
+    return _head(chosen, others, near) + "\n" + json.dumps(result, ensure_ascii=False, indent=2)
 
 
 @mcp.tool()
