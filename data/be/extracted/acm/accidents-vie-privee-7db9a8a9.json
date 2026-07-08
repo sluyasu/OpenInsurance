@@ -1,0 +1,264 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "be",
+  "insurer_slug": "acm",
+  "insurer_name": "ACM Belgium",
+  "branch": "accidents",
+  "document_type": "ipid",
+  "language": "fr",
+  "source_url": "https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/vie-prive/1.0/20241001_IPID_AVP_FR.pdf",
+  "product_name": "Accidents Vie Privée",
+  "reference": "16.60.29",
+  "edition_date": "10/2024",
+  "target_audience": null,
+  "branch_code": null,
+  "product_family": "Accidents Vie Privée",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_pages": 2,
+  "source_pdf": "accidents-vie-privee-avp-7db9a8a9.pdf",
+  "source_sha256": "9b379bdc42382b26cb6436715e1101cb6f4e85c5d46b1e54fdb50b398c3c7d64",
+  "fetched_at": "2026-07-08",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d'information sur le produit d'assurance (IPID) de l'assurance Accidents Vie Privée d'ACM Belgium SA. Elle offre une protection pour les dommages corporels causés par un accident de la vie privée et garantit une indemnité forfaitaire en cas d'invalidité permanente d'au moins 5 % ou d'incapacité temporaire de travail à partir du 31ième jour, selon quatre formules (Solo, Duo, Mono, Famille). La couverture peut être étendue à la garantie optionnelle décès et inclut une garantie assistance, même à l'étranger.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Invalidité permanente",
+      "description": "Entre 5% et 66% : versement du capital de référence de 100.000 euros multiplié par le taux d'invalidité. Supérieure à 66% : versement du capital maximal de 100.000 euros.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Capital de référence de 100.000 euros ; capital maximal de 100.000 euros",
+      "sub_limits": [
+        "Entre 5% et 66% : capital de référence de 100.000 euros multiplié par le taux d'invalidité",
+        "Supérieure à 66% : capital maximal de 100.000 euros"
+      ],
+      "deductible": "Seuil d'intervention : invalidité permanente d'au moins 5 %",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Incapacité temporaire de travail",
+      "description": "Versement d'une indemnité forfaitaire journalière à partir du 31ième jour, pendant une durée maximale de 60 jours.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Indemnité forfaitaire journalière à partir du 31ième jour, pendant une durée maximale de 60 jours",
+      "sub_limits": [
+        "À partir du 31ième jour",
+        "Durée maximale de 60 jours"
+      ],
+      "deductible": "Délai de carence : 31 jours",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Forfait frais divers",
+      "description": "Versement d'un capital en cas d'incapacité temporaire de travail d'au moins 31 jours ou en cas d'hospitalisation de plus de 2 jours (hors hospitalisation de jour, à domicile ou ambulatoire).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [
+        "Incapacité temporaire de travail d'au moins 31 jours",
+        "Ou hospitalisation de plus de 2 jours (hors hospitalisation de jour, à domicile ou ambulatoire)"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Assistance (même à l'étranger)",
+      "description": "Notamment aide-ménagère, garde d'enfants, garde d'animaux et support psychologique. Également après un accident à l'étranger : frais de recherche, transport local urgent sur place (vers un médecin ou un hôpital), rapatriement ou transport.",
+      "is_optional": false,
+      "territorial_scope": "Même à l'étranger",
+      "limits": null,
+      "sub_limits": [
+        "Aide-ménagère",
+        "Garde d'enfants",
+        "Garde d'animaux",
+        "Support psychologique",
+        "À l'étranger : frais de recherche, transport local urgent sur place, rapatriement ou transport"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Décès",
+      "description": "Versement d'un capital de référence de 37.500 euros en cas de décès suite à un accident couvert.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "Capital de référence de 37.500 euros",
+      "sub_limits": [
+        "Capital de référence de 37.500 euros"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Maladies",
+      "description": "Les maladies.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Accidents dans le cadre des activités professionnelles",
+      "description": "Les accidents dans le cadre des activités professionnelles.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Accidents antérieurs à la souscription",
+      "description": "Les accidents dont la date de survenance est antérieure à la souscription du contrat.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Fait intentionnel de l'assuré ou du bénéficiaire",
+      "description": "Les conséquences des accidents résultant du fait intentionnel de l'assuré ou du bénéficiaire.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Paris, duels, défis, actes téméraires, grèves, émeutes, rixes, actes criminels",
+      "description": "Les conséquences des accidents résultant de la participation de l'assuré à des paris, duels, défis ou actes téméraires, à des grèves, émeutes, rixes ou actes de violence, à des actes criminels ou illégaux.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Guerre ou faits de même nature",
+      "description": "Les conséquences des accidents résultant de la guerre ou des faits de même nature.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Sport professionnel en compétition ou à l'entraînement",
+      "description": "Les accidents résultant de la pratique d'un sport professionnel en compétition ou à l'entraînement.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Véhicule soumis à l'assurance automobile obligatoire",
+      "description": "Les accidents résultant de l'utilisation en tant que conducteur ou passager d'un véhicule soumis à l'assurance automobile obligatoire.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Taux d'invalidité sur organe, membre ou fonction déjà diminué",
+      "description": "Lorsqu'un accident affecte un organe, un membre ou une fonction déjà diminué, le taux d'invalidité pris en compte sera déterminé par différence entre le taux d'invalidité fixé avant et après l'accident.",
+      "applies_to": "Invalidité permanente",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": null,
+    "per_coverage": "Incapacité temporaire de travail : indemnité à partir du 31ième jour. Invalidité permanente : seuil d'au moins 5 %.",
+    "page": 1
+  },
+  "waiting_periods": [
+    {
+      "description": "Incapacité temporaire de travail : indemnité forfaitaire journalière versée à partir du 31ième jour, pendant une durée maximale de 60 jours.",
+      "page": 1
+    },
+    {
+      "description": "Forfait frais divers : versement en cas d'incapacité temporaire de travail d'au moins 31 jours ou d'hospitalisation de plus de 2 jours.",
+      "page": 1
+    }
+  ],
+  "obligations": [
+    {
+      "description": "Transmettre les informations correctes, précises et complètes ; fournir tout document justificatif demandé par l'assureur ; régler la prime d'assurance (ou fraction de prime) indiquée au contrat.",
+      "timing": "À la souscription du contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "Toute modification du risque (p.ex. changement de résidence) doit être notifiée à l'assureur.",
+      "timing": "En cours de contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "Déclarer l'accident au plus tard dans les 8 jours ; joindre un certificat médical constatant les conséquences et séquelles de l'accident ; transmettre tous les renseignements et documents utiles ; recourir immédiatement à tous les soins nécessaires et se conformer aux prescriptions du médecin ; s'engager à recevoir le médecin délégué par la compagnie et faciliter ses constatations.",
+      "timing": "En cas de sinistre",
+      "sanction": null,
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclarer l'accident.",
+      "deadline": "Au plus tard dans les 8 jours",
+      "page": 2
+    },
+    {
+      "step": "Joindre un certificat médical constatant les conséquences et séquelles de l'accident et transmettre tous les renseignements et documents utiles.",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Recourir immédiatement à tous les soins nécessaires, se conformer aux prescriptions du médecin et s'engager à recevoir le médecin délégué par la compagnie.",
+      "deadline": null,
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat prend effet à la date indiquée aux conditions particulières pour autant que la première prime ait été payée. Le contrat est conclu pour une durée d'un an.",
+    "tacit_renewal": true,
+    "methods": [
+      "Envoi recommandé, exploit d'huissier ou remise de la lettre de résiliation contre récépissé."
+    ],
+    "special_rights": [
+      "Après l'expiration d'un délai d'un an à compter de la prise d'effet, le preneur peut résilier le contrat à tout moment dans les mêmes formes précitées, sans frais ni pénalités. Pour chaque assuré, les garanties prennent fin sans aucune formalité en cas de décès (couvert ou non) ou après paiement du capital lui revenant au titre d'invalidité permanente de plus de 66% suite à un accident."
+    ],
+    "page": 2,
+    "notice_period": "Résiliation à l'échéance annuelle moyennant un préavis de 2 mois."
+  },
+  "prescription_period": null,
+  "premium": {
+    "description": "Vous avez l'obligation de payer annuellement la prime et vous recevez pour cela une invitation à payer. Un paiement fractionné de la prime peut être accordé. Les paiements peuvent être effectués par domiciliation ou virement.",
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Formules",
+      "description": "L'assurance s'adapte à votre situation personnelle et propose quatre formules : Solo, Duo, Mono et Famille.",
+      "page": 1
+    },
+    {
+      "name": "Plafond d'indemnisation",
+      "description": "Le plafond d'indemnisation est fixé à 139.200 € par assuré correspondant au cumul de l'ensemble des préjudices subis et à 500.000 € par événement garanti pour l'ensemble des assurés.",
+      "page": 1
+    },
+    {
+      "name": "Nature du document",
+      "description": "Ce document d'information n'est pas personnalisé en fonction de vos besoins spécifiques et les informations qui y sont reprises ne sont pas exhaustives. La liste complète des exclusions figure dans les conditions générales.",
+      "page": 1
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "L’assurance Accidents Vie Privée est une assurance qui offre une protection pour vos dommages corporels causés par un accident de la vie privée."
+    },
+    {
+      "quote": "Versement d'un capital de référence de 37.500 euros en cas de décès suite à un accident couvert"
+    },
+    {
+      "quote": "Le plafond d’indemnisation est fixé à 139.200 € par assuré"
+    },
+    {
+      "quote": "Les accidents dans le cadre des activités professionnelles"
+    }
+  ],
+  "gaps": [
+    "Document IPID synthétique : la liste complète des exclusions et les conditions détaillées figurent dans les conditions générales, non reprises ici.",
+    "Les capitaux et indemnités indiqués (100.000 euros, 37.500 euros, plafonds 139.200 € et 500.000 €) sont des valeurs de référence ; les montants applicables au preneur figurent aux conditions particulières.",
+    "branch_code non indiqué dans le document."
+  ]
+}

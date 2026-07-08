@@ -1,0 +1,255 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "be",
+  "insurer_slug": "ergo",
+  "insurer_name": "ERGO Insurance SA/NV",
+  "branch": "accidents",
+  "document_type": "ipid",
+  "language": "fr",
+  "source_url": "https://www.ergo.be/priips/ergo-00612_ipid-fr.pdf",
+  "product_name": "inSure Accident",
+  "reference": "ERGO-00612/12.2019",
+  "edition_date": "Décembre 2019",
+  "target_audience": null,
+  "branch_code": "1",
+  "product_family": "inSure Accident",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_pages": 2,
+  "source_pdf": "insure-accident-a5b5ddbe.pdf",
+  "source_sha256": "8afc022ee64f7414cd366a530836a975dacf501fd56b931bcb5e670ed1c0cf1e",
+  "fetched_at": "2026-07-08",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "L’assurance accidents inSure Accident est un contrat d’assurance qui verse, au cours de la période assurée, les indemnités forfaitaires convenues en cas d’accident corporel de l’assuré survenant pendant l’exercice de sa profession ou dans le cadre de sa vie privée, et entraînant une invalidité physiologique. Les garanties couvrent l’invalidité permanente, l’indemnité par journée d’hospitalisation, les frais de sauvetage et, via l’option Familiale Plus, le conjoint et le nouveau-né avec une couverture décès complémentaire. L’assurance est valable dans le monde entier.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Invalidité permanente",
+      "description": "Invalidité permanente.",
+      "is_optional": false,
+      "territorial_scope": "Cette assurance est valable dans le monde entier.",
+      "limits": "max. 480.000 EUR",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Indemnité par journée d’hospitalisation",
+      "description": "Indemnité par journée d’hospitalisation.",
+      "is_optional": false,
+      "territorial_scope": "Cette assurance est valable dans le monde entier.",
+      "limits": "max. 36 EUR dans le pays / 72 EUR à l’étranger",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Frais de sauvetage",
+      "description": "Frais de sauvetage: opérations de recherche et de sauvetage ; transport vers l’hôpital le plus proche et transport à votre domicile si ces frais sont nécessaires suite à l’accident ; transfert de la dépouille mortelle.",
+      "is_optional": false,
+      "territorial_scope": "Cette assurance est valable dans le monde entier.",
+      "limits": "max. 2.500 EUR dans le pays / max 5.000 EUR à l’étranger",
+      "sub_limits": [
+        "Opérations de recherche et de sauvetage",
+        "Transport vers l’hôpital le plus proche et transport à votre domicile si ces frais sont nécessaires suite à l’accident",
+        "Transfert de la dépouille mortelle"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Familiale Plus",
+      "description": "Familiale Plus : couverture temporaire du conjoint et du nouveau-né contre les risques susmentionnés et couverture décès complémentaire. Pour plus d’informations à ce sujet, consultez les conditions particulières.",
+      "is_optional": false,
+      "territorial_scope": "Cette assurance est valable dans le monde entier.",
+      "limits": "couverture décès complémentaire de max. 5.000 EUR",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Accidents intentionnels",
+      "description": "Les accidents qui sont causés intentionnellement par l‘assuré ou par un bénéficiaire.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Alcool, stupéfiants ou substances similaires",
+      "description": "Les accidents qui se produisent sous l‘influence de l‘alcool, de stupéfiants ou de substances similaires.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Suicide ou tentative de suicide",
+      "description": "Les accidents qui résultent du suicide ou d‘une tentative de suicide de l‘assuré.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Actes téméraires, paris ou défis",
+      "description": "Les accidents qui résultent d‘actes téméraires, de paris ou de défis de l‘assuré.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Course ou compétition",
+      "description": "Les accidents qui se produisent lors de la participation de l‘assuré à une course ou à une compétition similaire.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Crimes, délits, rixes ou attaques",
+      "description": "Les accidents qui résultent de crimes, de délits, de rixes ou d‘attaques.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Sport dangereux",
+      "description": "Les accidents qui résultent de la pratique d‘un sport dangereux (parachutisme, saut à l‘élastique, vol à voile,…).",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Énergie nucléaire",
+      "description": "Les accidents qui sont causés directement ou indirectement par l‘énergie nucléaire.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Accidents antérieurs à la date d’effet",
+      "description": "Les accidents qui se sont produits avant la date d‘effet de la police.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Fait de guerre",
+      "description": "Les accidents dont l‘assuré est victime suite à un fait de guerre (y compris de guerre civile).",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Montants couverts limités aux conditions particulières",
+      "description": "Les montants couverts sont mentionnés par accident dans les conditions particulières.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "États, risques et maladies préexistants non communiqués",
+      "description": "Les états, risques et maladies préexistants qui ne nous ont pas été communiqués ne sont pas couverts.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Âge inférieur à 15 ans ou supérieur à 75 ans",
+      "description": "Les personnes de moins de 15 ans ou de plus de 75 ans ne sont pas couvertes (excepté le conjoint et les enfants nés dans le cadre de la garantie Familiale Plus).",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Sportifs professionnels",
+      "description": "Les personnes qui pratiquent un sport à titre professionnel ne sont pas assurables, sauf stipulation contraire expresse dans les conditions particulières.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Malades mentaux et dépendance permanente",
+      "description": "Les malades mentaux et les personnes en situation de dépendance permanente ne sont pas assurables.",
+      "applies_to": "all",
+      "page": 1
+    }
+  ],
+  "deductibles": null,
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "description": "Communiquer toutes les informations demandées de façon complète et sincère lors de l‘émission du contrat.",
+      "timing": "lors de l‘émission du contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "Communiquer pendant toute la durée du contrat, toute modification qui interviendrait et serait susceptible d‘influencer les risques assurés.",
+      "timing": "pendant toute la durée du contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "Prendre les mesures nécessaires pour éviter la survenance ou l‘aggravation d‘un sinistre.",
+      "timing": null,
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "Transmettre à temps le document ‘déclaration d‘accident’ dûment complété à l‘assureur en cas d‘accident.",
+      "timing": "en cas d‘accident",
+      "sanction": null,
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Transmettre à temps le document ‘déclaration d‘accident’ dûment complété à l‘assureur en cas d‘accident.",
+      "deadline": "à temps",
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat est conclu pour une durée d‘un an.",
+    "tacit_renewal": true,
+    "methods": [
+      "par lettre recommandée, par exploit d‘huissier ou en remettant la lettre de résiliation contre accusé de réception"
+    ],
+    "special_rights": [
+      "La garantie d‘assurance prend fin de plein droit à la première échéance qui suit le 75e anniversaire de l‘assuré."
+    ],
+    "notice_period": "au plus tard 3 mois avant l‘échéance annuelle du contrat"
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "Vous devez payer la prime annuellement, après réception d‘une invitation à payer et avant l‘échéance annuelle. Un paiement de prime fractionné (mensuel, trimestriel, semestriel) est possible, mais peut entraîner des frais supplémentaires."
+    ]
+  },
+  "special_conditions": [
+    {
+      "name": "Cette assurance est valable dans le monde entier."
+    },
+    {
+      "name": "Les couvertures prennent effet à la date mentionnée dans les conditions particulières et au plus tôt au moment de la réception de la première prime, après signature de la police par les deux parties."
+    },
+    {
+      "name": "Cette liste n‘est pas complète. La liste exhaustive des risques exclus est reprise dans les conditions générales."
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Assurance accidents inSure Accident"
+    },
+    {
+      "quote": "Les accidents suivants sont notamment exclus de"
+    },
+    {
+      "quote": "Cette assurance est valable dans le monde entier."
+    },
+    {
+      "quote": "Le contrat peut être résilié par les deux parties."
+    },
+    {
+      "quote": "max. 480.000 EUR"
+    }
+  ],
+  "gaps": [
+    "Document de type IPID (fiche d’information standardisée) : les montants et couvertures sont plafonnés/renvoyés aux conditions particulières et générales ; la liste des exclusions n’est pas exhaustive (« La liste exhaustive des risques exclus est reprise dans les conditions générales »).",
+    "target_audience non normalisé dans le document (pas de rubrique de public cible), laissé null.",
+    "Aucune franchise/déductible chiffrée n’est mentionnée dans le document ; deductibles laissé null."
+  ]
+}

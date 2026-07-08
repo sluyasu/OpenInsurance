@@ -1,0 +1,186 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "be",
+  "insurer_slug": "ergo",
+  "insurer_name": "ERGO Insurance SA/NV",
+  "branch": "epargne",
+  "document_type": "product_sheet",
+  "language": "fr",
+  "source_url": "https://www.ergo.be/priips/cdcafr_v1dd140414.pdf",
+  "product_name": "CDCA",
+  "reference": null,
+  "edition_date": "14/04/2014",
+  "target_audience": null,
+  "branch_code": "21",
+  "product_family": "CDCA",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_pages": 4,
+  "source_pdf": "cdca-c5a64d42.pdf",
+  "source_sha256": "238cce9778c585f83b818d80f1ad13d23bd7e20d4cf0aaf21d7a95836504b0ba",
+  "fetched_at": "2026-07-08",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "La CDCA est une assurance vie de la branche 21 avec rendement garanti et une participation bénéficiaire. Au terme du contrat, si l’assuré est en vie, le(s) bénéficiaire(s) perçoivent le capital épargne contractuel augmenté de la participation bénéficiaire ; en cas de décès de l’assuré, ils perçoivent le remboursement des primes nettes versées jusqu’au décès. Des garanties complémentaires contre les risques d’invalidité et d’accident (ACRI, ACRA, ACRA Plus) peuvent être ajoutées.",
+  "definitions": [
+    {
+      "term": "Rachat/Reprise",
+      "definition": "Par rachat du contrat (limité au capital prévoyance), on entend la résiliation de l’assurance par le preneur d’assurance.",
+      "page": 4
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Garantie principale - capital en cas de vie",
+      "description": "Au terme du contrat, si l’assuré est en vie, le(s) bénéficiaire(s) perçoi(ven)t le capital épargne contractuel augmenté de la participation bénéficiaire.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Garantie principale - capital en cas de décès",
+      "description": "En cas de décès de l’assuré le(s) bénéficiaire(s) perçoi(ven)t le remboursement des primes nettes qui ont été versées jusqu’au moment du décès.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Assurance contre le risque d’invalidité (ACRI)",
+      "description": "Assurance contre le risque d’invalidité (ACRI): remboursement de prime suite à une maladie ou un accident.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Assurance contre le risque d’accident (ACRA)",
+      "description": "Assurance contre le risque d’accident (ACRA): capital complémentaire si décès ou 100% invalidité physiologique permanente des suites d’un accident.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Assurance contre le risque d’accident Plus (ACRA Plus)",
+      "description": "Assurance contre le risque d’accident Plus (ACRA Plus): capital complémentaire si décès et/ou invalidité physiologique permanente des suites d’un accident.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    }
+  ],
+  "exclusions": [],
+  "deductibles": null,
+  "waiting_periods": [],
+  "obligations": [],
+  "claims_procedure": [],
+  "duration_and_cancellation": {
+    "duration": "Aucune restriction. Généralement, l’échéance est fixée à 65 ans de façon à se constituer un capital complémentaire pour la pension.",
+    "tacit_renewal": null,
+    "methods": null,
+    "special_rights": [
+      "Par rachat du contrat (limité au capital prévoyance), on entend la résiliation de l’assurance par le preneur d’assurance. Indemnité de rachat: voir rubrique frais."
+    ],
+    "notice_period": null
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "Prime annuelle, semestrielle, trimestrielle et mensuelle. Les primes sont taxe et frais inclus. Prime minimale de € 35/mois, € 100/trimestre, € 175/semestre et € 300/an."
+    ]
+  },
+  "special_conditions": [
+    {
+      "name": "Taux d’intérêt garanti de 1,75% garanti sur toutes les primes de la garantie principale, pour laquelle ERGO Insurance garantit un taux sur la garantie principale jusqu’à la date de fin du contrat."
+    },
+    {
+      "name": "Pour l’augmentation de la prime, c’est le taux d’intérêt garanti au moment de l’augmentation qui est applicable"
+    },
+    {
+      "name": "Participation bénéficiaire classique: attribution annuelle (voir conditions générales)"
+    },
+    {
+      "name": "Les pourcentages de PB sont d’application sur la valeur de rachat théorique  à l’échéance principale de l’année d’attribution de la PB. Les pourcentages sont valables pour des valeurs de rachats théoriques égales ou supérieures à € 15.000."
+    },
+    {
+      "name": "Les rendements du passé ne constituent pas une garantie pour le futur"
+    },
+    {
+      "name": "Frais forfaitaires: € 0,75/ par paiement."
+    },
+    {
+      "name": "Frais de police: € 2,5 à l’émission de la police."
+    },
+    {
+      "name": "Chargement de fractionnement: Aucun si € 60 par mois, € 180 par trimestre, € 360 par semestre ou € 720 par an. Primes annuelles 0%, semestrielles 1,5%, trimestrielles  3,0%, mensuelles 4,4%."
+    },
+    {
+      "name": "Le pourcentage de frais sur la réserve s’élève à 0,86% pour une durée de 40 ans (début du contrat à 25 ans) et 1,46% pour une durée de 20 ans (début du contrat à 45 ans)."
+    },
+    {
+      "name": "L’indemnité de rachat est égale au minimum entre 5% de la valeur de rachat théorique et 1% de cette valeur de rachat théorique multipliée par la durée exprimée en années restant à courir jusqu’au terme, avec toutefois un minimum de € 75."
+    },
+    {
+      "name": "En cas de diminution de primes une indemnité de € 75 est portée en compte au moment de la réduction."
+    },
+    {
+      "name": "Assurance  individuelle avec régime fiscal “classique” (art. 145/1, 2° CIR 92) : Réduction  d’impôt sur les primes pension de 30% ; taxe sur les primes: 2% ; Capital  pension  imposable  à  10%   (taxe  anticipative  à 60 ans)."
+    },
+    {
+      "name": "Assurance  individuelle sans réduction d'impôt : Pas de réduction  d’impôt sur les primes pension ; taxe sur les primes: 2% ; Capital  pension  non imposable."
+    },
+    {
+      "name": "Pension complémentaire  libre des indépendants (PCLI) : Primes déductibles des revenus professionnels (maximum: 8,17% ou  9,40% des revenus  Professionnels avec un maximum) ; Taxe sur les primes : 0%."
+    },
+    {
+      "name": "Régime fiscal INAMI : Taxe sur les primes : 0%."
+    },
+    {
+      "name": "Engagement individuel de pension (EIP) : Primes déductibles par la société (maximum: limite de 80%) ; Taxe sur les primes: 4,4% (9,25% en matière d’incapacité de travail)."
+    },
+    {
+      "name": "Au terme la participation bénéficiaire est exonérée de taxe."
+    },
+    {
+      "name": "Garanties principales: Fiche d’information annuelle sur l’évolution de la valeur de rachat ainsi que sur la participation aux bénéfices."
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Ce produit s’adresse aux clients attachant plus d’importance au capital versé en cas de vie"
+    },
+    {
+      "quote": "Taux d’intérêt garanti de 1,75% garanti sur toutes les primes de la garantie principale,"
+    },
+    {
+      "quote": "En cas de décès de l’assuré  le(s) bénéficiaire(s) perçoi(ven)t le remboursement des"
+    },
+    {
+      "quote": "L’indemnité de rachat est égale au minimum entre 5% de la valeur de rachat théorique et"
+    }
+  ],
+  "gaps": [
+    "Document de type fiche d’information financière (product sheet, branche 21) : pas de section Exclusions, ni de procédure de sinistre, ni de délai de prescription, ni d’obligations détaillées de l’assuré - non applicables / absents du document.",
+    "La rubrique « Public cible » est un texte libre décrivant le profil visé ; aucune catégorie d’audience normalisée n’est indiquée, target_audience laissé null.",
+    "Les tableaux « Rendement du passé » (taux d’intérêt et PB par année 2007-2013) ne sont pas transcrits ligne par ligne dans cette structure ; seules les notes de bas de tableau sont reprises."
+  ]
+}

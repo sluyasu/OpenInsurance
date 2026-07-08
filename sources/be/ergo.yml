@@ -1,0 +1,56 @@
+insurer:
+  slug: ergo
+  name: ERGO Insurance SA/NV
+  website: https://www.ergo.be
+  segment: particuliers
+  notes: ERGO Insurance SA (Munich Re / ERGO Group), mostly a branche 21/23 life-savings and
+    pension book (largely legacy / run-off) plus one non-life accident product (inSure
+    Accident). The eight PDFs are the essential product-information documents (KID-equivalent,
+    mapped to product_sheet) except inSure Accident which is an explicit IPID. Filename
+    tokens (111107, dd120305, v1dd140414, ...) are internal version codes predating the
+    PRIIPs KID era and were not interpreted as edition dates. Full branche-23 KID set lives
+    on the clever-soft PRIIPs portal; only the live product-page documents are enumerated here.
+languages:
+- fr
+- nl
+pdfs:
+- url: https://www.ergo.be/priips/free%20%20111107%20fr.pdf
+  branch: epargne
+  document_type: product_sheet
+  lang: fr
+  product_name: Free
+- url: https://www.ergo.be/priips/program%20dd120305%20fr.pdf
+  branch: epargne
+  document_type: product_sheet
+  lang: fr
+  product_name: Program
+- url: https://www.ergo.be/priips/management%20120102%20fr.pdf
+  branch: epargne
+  document_type: product_sheet
+  lang: fr
+  product_name: Management
+- url: https://www.ergo.be/priips/t50fr_v1dd140414.pdf
+  branch: autres
+  document_type: product_sheet
+  lang: fr
+  product_name: T50
+- url: https://www.ergo.be/priips/ergo-00612_ipid-fr.pdf
+  branch: accidents
+  document_type: ipid
+  lang: fr
+  product_name: inSure Accident
+- url: https://www.ergo.be/priips/cdcafr_v1dd140414.pdf
+  branch: epargne
+  document_type: product_sheet
+  lang: fr
+  product_name: CDCA
+- url: https://www.ergo.be/priips/elfr_v1dd140414.pdf
+  branch: epargne
+  document_type: product_sheet
+  lang: fr
+  product_name: EL
+- url: https://www.ergo.be/priips/terme_fixefr_010210.pdf
+  branch: epargne
+  document_type: product_sheet
+  lang: fr
+  product_name: Terme Fixe
