@@ -1,0 +1,198 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "be",
+  "insurer_slug": "cardif",
+  "insurer_name": "BNP Paribas Cardif",
+  "branch": "autres",
+  "branch_code": "21",
+  "document_type": "product_sheet",
+  "language": "fr",
+  "source_url": "https://bnpparibascardif.be/documents/36051/36444/202406_Fiche+client_HYPO_IU_FR.pdf",
+  "source_pages": 2,
+  "product_name": "Hypo Protect",
+  "product_family": "Hypo Protect",
+  "variant": null,
+  "reference": null,
+  "edition_date": "06/2024",
+  "target_audience": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_pdf": "hypo-protect-fiche-client-261432e8.pdf",
+  "source_sha256": "5d3be591609dd81f75f354abfb42c0be91979af83c59136e11b8eede95495184",
+  "fetched_at": "2026-07-08",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Hypo Protect est une assurance décès (branche 21) de BNP Paribas Cardif destinée à assurer un crédit hypothécaire ou à protéger la famille contre les conséquences financières d'un décès. La garantie principale « Décès » verse au bénéficiaire le solde restant dû ou un capital fixe (minimum 10.000€) en cas de décès de l'assuré par accident ou maladie. Des garanties complémentaires facultatives peuvent être souscrites (décès accidentel, incapacité de travail, perte d'emploi involontaire). Deux formules existent : « Classic » (1 personne assurée) et « 2win » (2 personnes assurées, sans garantie complémentaire possible).",
+  "definitions": [
+    {
+      "term": "Formule 'Classic'",
+      "definition": "1 personne assurée.",
+      "page": 1
+    },
+    {
+      "term": "Formule '2win'",
+      "definition": "2 personnes assurées (pas de garantie complémentaire possible).",
+      "page": 1
+    },
+    {
+      "term": "Type d'assurance",
+      "definition": "Assurance vie – assurance décès (branche 21).",
+      "page": 1
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Garantie « Décès »",
+      "description": "En cas de décès de l'assuré suite à un accident ou une maladie, BNP Paribas Cardif verse au bénéficiaire le solde restant dû ou un capital fixe (minimum 10.000€).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "le solde restant dû ou un capital fixe (minimum 10.000€)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Disponible en formule 'Classic' (1 personne assurée) ou '2win' (2 personnes assurées, pas de garantie complémentaire possible).",
+        "Fin de la garantie : maximum 80 ans (sauf pour 'Capital constant' et 'Light home' : maximum 75 ans)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Garantie complémentaire « Décès accidentel »",
+      "description": "En cas de décès accidentel de l'assuré, l'assureur intervient pour le capital choisi lors de la souscription du contrat (maximum 200.000€). Ce montant sera payé en plus du montant assuré de la garantie 'Décès'.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "le capital choisi lors de la souscription du contrat (maximum 200.000€)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Payé en plus du montant assuré de la garantie 'Décès'.",
+        "Fin de la garantie : maximum 60 ans."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Garantie complémentaire « Incapacité de travail »",
+      "description": "En cas d'incapacité de travail temporaire de l'assuré, l'assureur intervient pour le montant assuré lors de la souscription du contrat (maximum 2.000€/mois, pendant 36 mois).",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "le montant assuré lors de la souscription du contrat (maximum 2.000€/mois, pendant 36 mois)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Fin de la garantie : pension ou maximum 60 ans."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Garantie complémentaire « Perte d'emploi involontaire »",
+      "description": "En cas de perte d'emploi involontaire de l'assuré, l'assureur intervient pour le montant assuré lors de la souscription du contrat (maximum 2.000€/mois). La période d'intervention dépend du choix à la souscription (3 mois ou 6 mois par sinistre). Vous pouvez également bénéficier de cette garantie en tant qu'indépendant si vous êtes déclaré en faillite.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "le montant assuré lors de la souscription du contrat (maximum 2.000€/mois)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "La période d'intervention dépend du choix à la souscription : 3 mois ou 6 mois par sinistre.",
+        "Bénéfice possible en tant qu'indépendant si l'assuré est déclaré en faillite.",
+        "Fin de la garantie : l'âge de la pension."
+      ],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Suicide lors de la première année (Décès)",
+      "description": "Exclusion principale : un suicide lors de la première année de la police.",
+      "applies_to": "Garantie « Décès »",
+      "page": 1
+    },
+    {
+      "name": "Catastrophe naturelle (Décès accidentel)",
+      "description": "Exclusion principale : décès suite à une catastrophe naturelle.",
+      "applies_to": "Garantie complémentaire « Décès accidentel »",
+      "page": 1
+    },
+    {
+      "name": "Acte volontaire de l'assuré (Incapacité de travail)",
+      "description": "Exclusion principale : incapacité de travail à la suite d'un acte volontaire de l'assuré.",
+      "applies_to": "Garantie complémentaire « Incapacité de travail »",
+      "page": 1
+    },
+    {
+      "name": "Burn-out (Incapacité de travail)",
+      "description": "Exclusion principale : burn-out.",
+      "applies_to": "Garantie complémentaire « Incapacité de travail »",
+      "page": 1
+    },
+    {
+      "name": "Licenciement pour faute grave (Perte d'emploi involontaire)",
+      "description": "Exclusion principale : licenciement pour faute grave.",
+      "applies_to": "Garantie complémentaire « Perte d'emploi involontaire »",
+      "page": 1
+    }
+  ],
+  "deductibles": null,
+  "waiting_periods": [],
+  "obligations": [],
+  "claims_procedure": [],
+  "duration_and_cancellation": {
+    "duration": "Fin des garanties : Garantie « Décès » maximum 80 ans (sauf pour 'Capital constant' et 'Light home' : maximum 75 ans) ; Garantie « Décès accidentel » maximum 60 ans ; Garantie « Perte d'emploi involontaire » l'âge de la pension ; Garantie « Incapacité de travail » pension ou maximum 60 ans.",
+    "tacit_renewal": null,
+    "methods": [],
+    "special_rights": [
+      "Rachat : une valeur de rachat n'est calculée que si le contrat prévoyait à la base un paiement de primes sur une période inférieure à la moitié de la durée de couverture de la police ; le calcul de la valeur de rachat est fait à la date de réception de la demande de rachat."
+    ],
+    "page": 2,
+    "notice_period": null
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "Tarif personnalisé (fumeur / non-fumeur ; tarif garanti pendant les trois premières années du contrat ou pendant toute la durée du contrat). Périodicité du paiement : prime unique, primes annuelles, ou fractionnement mensuel(*), trimestriel(*) ou semestriel — (*) uniquement via domiciliation. Durée de paiement : pour le solde restant dû, la durée des paiements de primes peut être choisie librement ; pour le capital constant, durant toute la durée du contrat. La prime englobe une prime pure pour garantir le risque de décès et des frais de fonctionnement de BNP Paribas Cardif, en ce compris des frais de marketing et de distribution. Frais de fractionnement en cas d'étalement du paiement : mensuel + 4 % ; trimestriel + 3 % ; semestriel + 2 %. En cas de rachat, des frais de remboursement sont appliqués conformément à la loi."
+    ]
+  },
+  "special_conditions": [
+    {
+      "name": "Public cible : Hypo Protect peut être souscrit pour assurer un crédit hypothécaire ou pour la protection de la famille contre les conséquences financières d'un décès ; le client est dans tous les cas considéré comme un client de détail au sens de la loi relative aux assurances. (pages 1-2)"
+    },
+    {
+      "name": "Rachat : pour les polices Hypo Protect, il n'y aura un calcul de la valeur de rachat que si le contrat prévoyait à la base un paiement de primes sur une période inférieure à la moitié de la durée de couverture ; le calcul se fait à la date de réception de la demande de rachat. (page 2)"
+    },
+    {
+      "name": "Fiscalité : avantage fiscal possible sous certaines conditions dans le cadre d'une habitation unique, de l'épargne-pension ou de l'épargne à long terme. La déduction fiscale des primes versées (même une seule fois) entraîne la taxation du capital assuré ; si les primes ne sont pas déduites fiscalement, la prestation est exonérée d'impôt (abstraction faite des droits de succession éventuels). Le traitement fiscal dépend de la situation individuelle et peut être sujet à des modifications. (page 2)"
+    },
+    {
+      "name": "Hypo Protect ne donne pas droit à un partage de bénéfices et est soumis au droit belge. (page 2)"
+    },
+    {
+      "name": "Informations : la décision de souscrire est idéalement prise sur la base d'une analyse complète de tous les documents contractuels ou précontractuels ; les conditions générales (étendue des garanties et exclusions contractuelles) sont consultables via www.bnpparibascardif.be ou chez l'intermédiaire d'assurances. (page 2)"
+    },
+    {
+      "name": "Plaintes : via www.bnpparibascardif.be, gestiondesplaintes@cardif.be ou BNP Paribas Cardif – Gestion des plaintes, Rue Montagne du Parc 8 Boîte 2 à 1000 Bruxelles ; à défaut de solution, l'Ombudsman des Assurances (www.ombudsman-insurance.be). (page 2)"
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "En cas de décès de l’assuré suite à un accident ou une maladie, BNP Paribas Cardif verse au bénéficiaire le solde restant dû ou un capital fixe (minimum 10.000€)."
+    },
+    {
+      "quote": "Exclusion principale : un suicide lors de la première année de la police"
+    },
+    {
+      "quote": "En cas de décès accidentel de l’assuré, l’assureur intervient pour le capital choisi lors de la souscription du contrat"
+    },
+    {
+      "quote": "En cas d’incapacité de travail temporaire de l’assuré, l’assureur intervient pour le montant assuré lors de la souscription du contrat (maximum 2.000€/mois, pendant 36 mois)."
+    },
+    {
+      "quote": "En cas de perte d’emploi involontaire de l’assuré, l’assureur intervient pour le montant assuré lors de la souscription du contrat (maximum 2.000€/mois)."
+    }
+  ],
+  "gaps": [
+    "Document de type fiche produit (fiche info financière) : il synthétise les garanties, exclusions principales, durée, prime, fiscalité et rachat mais renvoie aux conditions générales pour l'étendue complète des garanties et des exclusions contractuelles.",
+    "Seules les « exclusions principales » sont listées par garantie ; la liste complète des exclusions figure dans les conditions générales, non fournies ici.",
+    "Aucune franchise/déductible, aucun délai d'attente, aucune procédure de sinistre ni délai de prescription ne sont détaillés dans la fiche (deductibles laissé null ; obligations, claims_procedure et waiting_periods vides).",
+    "Les formules 'Capital constant' et 'Light home' sont citées pour la durée des garanties mais ne sont pas définies dans la fiche.",
+    "target_audience laissé null : la fiche mentionne un public cible (crédit hypothécaire, protection de la famille, client de détail) mais aucune valeur d'énumération correspondante n'est fournie dans les instructions."
+  ]
+}

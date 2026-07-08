@@ -16,7 +16,7 @@ generated: true
 
 Liste générée des produits par branche. Les fiches conceptuelles de branche sont rédigées à la main dans ce dossier.
 
-### [[Auto]] (45)
+### [[Auto]] (50)
 - [[ACM INSURANCE ASSURANCE AUTO]] - [[ACM Belgium]]
 - [[ACM INSURANCE ASSURANCE AUTO]] - [[ACM Belgium]]
 - [[ACM Insurance Assurance Auto (IPID)]] - [[ACM Belgium]]
@@ -43,6 +43,11 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [[Assurance auto (IPID)]] - [[Argenta Assurances]]
 - [[Assurance Auto Mobility Safe 1 (IPID)]] - [[Baloise Belgium]]
 - [[Mobility Safe 1]] - [[Baloise Belgium]]
+- [[Assurance Véhicules Automoteurs - Vélomoteurs]] - [[Belfius Direct Assurances]]
+- [[Assurance au Kilomètre (Fiche)]] - [[Belfius Direct Assurances]]
+- [[Assurance au Kilomètre]] - [[Belfius Direct Assurances]]
+- [[Assurance au Kilomètre - Moto (Fiche)]] - [[Belfius Direct Assurances]]
+- [[Assurance au kilomètre Moto]] - [[Belfius Direct Assurances]]
 - [[Belfius Car]] - [[Belfius Insurance]]
 - [[Belfius Car (IPID)]] - [[Belfius Insurance]]
 - [[Protection Juridique Véhicules All Risk (CP)]] - [[D.A.S.]]
@@ -63,7 +68,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [[Assurance Auto]] - [[Yuzzu]]
 - [[Assurance Auto]] - [[Yuzzu]]
 
-### [[Habitation]] (32)
+### [[Habitation]] (38)
 - [[Home Serenity (IPID)]] - [[ACM Belgium]]
 - [[Home Serenity]] - [[ACM Belgium]]
 - [[Home Serenity]] - [[ACM Belgium]]
@@ -79,6 +84,12 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [[Assurance Résidence+]] - [[Argenta Assurances]]
 - [[Habitation Select]] - [[Baloise Belgium]]
 - [[Habitation Select (IPID)]] - [[Baloise Belgium]]
+- [[Assurance Habitation (Fiche)]] - [[Belfius Direct Assurances]]
+- [[Assurance Locataire (Fiche)]] - [[Belfius Direct Assurances]]
+- [[Assurance Locataire]] - [[Belfius Direct Assurances]]
+- [[Assurance Locataire Homie]] - [[Belfius Direct Assurances]]
+- [[Assurance Locataire Homie - Standard (Fiche)]] - [[Belfius Direct Assurances]]
+- [[Assurances Habitation]] - [[Belfius Direct Assurances]]
 - [[Belfius Home - Assurance Incendie]] - [[Belfius Insurance]]
 - [[L’assurance habitation Belfius Home (IPID)]] - [[Belfius Insurance]]
 - [[Cocoon Flex]] - [[DVV Assurances]]
@@ -97,7 +108,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [[Assurance Habitation (IPID)]] - [[Yuzzu]]
 - [[Assurance Habitation]] - [[Yuzzu]]
 
-### [[Vie privée]] (28)
+### [[Vie privée]] (30)
 - [[Family Serenity (IPID)]] - [[ACM Belgium]]
 - [[Family Serenity]] - [[ACM Belgium]]
 - [[Assurance de Responsabilité Top Familiale]] - [[AG Insurance]]
@@ -110,6 +121,8 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [[Protection familiale]] - [[Argenta Assurances]]
 - [[Assurance Famille Select (IPID)]] - [[Baloise Belgium]]
 - [[Famille Select]] - [[Baloise Belgium]]
+- [[Assurance Familiale (Fiche)]] - [[Belfius Direct Assurances]]
+- [[Assurance Familiale]] - [[Belfius Direct Assurances]]
 - [[Belfius Family]] - [[Belfius Insurance]]
 - [[L'assurance familiale Belfius Family (IPID)]] - [[Belfius Insurance]]
 - [[Protection Juridique DAS Connect (CP)]] - [[D.A.S.]]
@@ -154,12 +167,14 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [[Assurance Aide Juridique]] - [[Ethias]]
 - [[Assurance Aide Juridique (IPID)]] - [[Ethias]]
 
-### [[Santé]] (34)
+### [[Santé]] (36)
 - [[AMMA HOSPI SAFE - SERENITY]] - [[AMMA Assurances]]
 - [[AMMA HOSPI-PLAN]] - [[AMMA Assurances]]
 - [[AMMA Hospi (IPID)]] - [[AMMA Assurances]]
 - [[Confort Personnes]] - [[AXA Belgium]]
 - [[Confort Personnes (IPID)]] - [[AXA Belgium]]
+- [[Assurance Hospitalisation]] - [[Belfius Direct Assurances]]
+- [[Assurance hospitalisation (Fiche)]] - [[Belfius Direct Assurances]]
 - [[DKV DAILY Comfort (Exit Group) (IPID)]] - [[DKV Belgium]]
 - [[DKV DAILY Essential (IPID)]] - [[DKV Belgium]]
 - [[DKV DAILY Premium (IPID)]] - [[DKV Belgium]]
@@ -199,8 +214,12 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [[Assurance Sports]] - [[Ethias]]
 - [[Assurance Sports (IPID)]] - [[Ethias]]
 
-### [[Voyage]] (17)
+### [[Voyage]] (21)
 - [[Assurance Voyage eTravel (IPID)]] - [[AXA Belgium]]
+- [[ASSISTANCE VOYAGE]] - [[Belfius Direct Assurances]]
+- [[ASSURANCE ASSISTANCE]] - [[Belfius Direct Assurances]]
+- [[Assistance Voyage (Fiche)]] - [[Belfius Direct Assurances]]
+- [[Assurance Assistance (Fiche)]] - [[Belfius Direct Assurances]]
 - [[Assistance Voyage (IPID)]] - [[Ethias]]
 - [[Assistance temporaire]] - [[Ethias]]
 - [[Assurance Assistance Family (Annuelle)]] - [[Ethias]]
@@ -218,11 +237,13 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [[Touring Travel (IPID)]] - [[Touring]]
 - [[Touring Travel]] - [[Touring]]
 
-### [[Vélo]] (8)
+### [[Vélo]] (10)
 - [[ACM INSURANCE ASSURANCE VÉLO]] - [[ACM Belgium]]
 - [[ACM Insurance Assurance Vélo (IPID)]] - [[ACM Belgium]]
 - [[Confort Vélo+ (IPID)]] - [[AXA Belgium]]
 - [[Confort vélo+]] - [[AXA Belgium]]
+- [[Assurance Vélo]] - [[Belfius Direct Assurances]]
+- [[Assurance Vélo (Fiche)]] - [[Belfius Direct Assurances]]
 - [[Assurance Bike & More (IPID)]] - [[Ethias]]
 - [[Assurance Bike & More]] - [[Ethias]]
 - [[Police KBC pour votre Vélo (IPID)]] - [[KBC Bank & Verzekering]]
@@ -270,13 +291,27 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [[Program (Fiche)]] - [[ERGO Insurance SA/NV]]
 - [[Terme Fixe (Fiche)]] - [[ERGO Insurance SA/NV]]
 
+### [[Obsèques]] (2)
+- [[Assurance Funérailles (Fiche)]] - [[Belfius Direct Assurances]]
+- [[Assurance Funérailles]] - [[Belfius Direct Assurances]]
+
+### [[Animaux]] (2)
+- [[Assurance Animaux de compagnie (Fiche)]] - [[Belfius Direct Assurances]]
+- [[Assurance Animaux de compagnie]] - [[Belfius Direct Assurances]]
+
 ### [[Cyber]] (2)
 - [[CyberClear by Hiscox (CP)]] - [[Hiscox SA]]
 - [[CyberClear by Hiscox (IPID)]] - [[Hiscox SA]]
 
-### [[Autres]] (8)
+### [[Autres]] (14)
 - [[Revenu Garanti]] - [[AMMA Assurances]]
 - [[Assurance moto (IPID)]] - [[Argenta Assurances]]
+- [[Hypo Protect (Fiche)]] - [[BNP Paribas Cardif]]
+- [[Hypo Protect Classic - Hypo Protect 2Win]] - [[BNP Paribas Cardif]]
+- [[Hypo Protect Classic - Hypo Protect 2Win Luxembourg]] - [[BNP Paribas Cardif]]
+- [[Short Term Protect - Luxembourg]] - [[BNP Paribas Cardif]]
+- [[Short Term Protect Business]] - [[BNP Paribas Cardif]]
+- [[Short Term Protect Classic - Short Term Protect 2win]] - [[BNP Paribas Cardif]]
 - [[Protection Juridique]] - [[D.A.S.]]
 - [[PLAN DE SECURITE T50 (Fiche)]] - [[ERGO Insurance SA/NV]]
 - [[Dispositions Légales]] - [[Hiscox SA]]

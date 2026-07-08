@@ -1,0 +1,302 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "be",
+  "insurer_slug": "belfius-direct",
+  "insurer_name": "Belfius Direct Assurances",
+  "branch": "animaux",
+  "document_type": "product_sheet",
+  "language": "fr",
+  "source_url": "https://www.belfiusdirect.be/media/3yvpecvj/fiche_info_assurance_animaux_de_compagnie.pdf",
+  "product_name": "Assurance Animaux de compagnie",
+  "reference": null,
+  "edition_date": "06/2026",
+  "target_audience": null,
+  "branch_code": null,
+  "product_family": "Assurance Animaux de compagnie",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_pages": 2,
+  "source_pdf": "assurance-animaux-de-compagnie-6ad00013.pdf",
+  "source_sha256": "891b432f30850ce63a78a9f347466a52c672c2fb9493714461839d809a9cc5a9",
+  "fetched_at": "2026-07-08",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d'information sur le produit d'assurance (IPID) de l'Assurance Animaux de compagnie de Belfius Direct Assurances. Lorsque votre animal de compagnie tombe malade ou se blesse, cette assurance permet de couvrir les frais de traitement, remboursés à hauteur de 80% avec un plafond d'intervention par sinistre (1.000 euros pour les chats, 1.500 euros pour les chiens). La garantie de base couvre aussi le vol ou l'errance, les frais publicitaires en cas de vol/fugue et la garde en chenil (jusqu'à 750 euros). Des garanties optionnelles existent: augmentation du plafond, Budget de Prévention et Voyage.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Frais de traitement (garantie de base)",
+      "description": "Vous êtes assuré pour les frais de traitement que vous ne pouviez pas prévoir, lorsque votre animal de compagnie tombe malade ou est impliqué dans un accident. Vous êtes remboursés à hauteur de 80% des frais de traitement.",
+      "is_optional": false,
+      "territorial_scope": "Vous êtes couvert partout en Belgique pour les frais de traitement liés à votre animal de compagnie (également à l'étranger lors de déplacements de moins de trois mois avec l'option Voyage).",
+      "limits": "Taux de remboursement de 80%; plafond d'intervention par sinistre de 1.000 euros pour les chats et 1.500 euros pour les chiens.",
+      "sub_limits": [
+        "1.000 euros pour les chats",
+        "1.500 euros pour les chiens"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Vol ou errance, frais publicitaires et garde en chenil (garantie de base)",
+      "description": "Vous êtes assuré pour les frais liés au vol ou à l'errance de votre animal, aux frais publicitaires en cas de vol ou fugue, et à la garde dans un chenil de votre animal si vous êtes hospitalisé plus de quatre jours.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "jusqu'à 750 euros",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garde en chenil: si vous êtes hospitalisé plus de quatre jours."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Garantie optionnelle: Augmentation du plafond d'intervention",
+      "description": "Augmentation du plafond d'intervention pour les frais de traitement imprévus: jusqu'à 2.000 euros par sinistre (les chats) ou 2.500 euros par sinistre (les chiens), ou plafond d'intervention illimité. Le taux de remboursement reste de 80%.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "Jusqu'à 2.000 euros par sinistre (chats) ou 2.500 euros par sinistre (chiens), ou plafond d'intervention illimité; taux de remboursement de 80%.",
+      "sub_limits": [
+        "2.000 euros par sinistre (les chats)",
+        "2.500 euros par sinistre (les chiens)",
+        "Plafond d'intervention illimité"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Ces garanties sont accordées si elles sont mentionnées dans les Conditions Particulières."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Garantie optionnelle: Budget de Prévention",
+      "description": "Remboursement de soins préventifs (vaccination, vermifuge, antiparasitaire, coupe de griffes/ongles, détartrage) auprès d'un vétérinaire.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "jusqu'à 75 euros par an",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Ces garanties sont accordées si elles sont mentionnées dans les Conditions Particulières."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Garantie optionnelle: Voyage",
+      "description": "Une couverture temporaire des frais vétérinaires imprévus à l'étranger et un remboursement en cas d'annulation de voyage suite à l'état de santé de votre animal.",
+      "is_optional": true,
+      "territorial_scope": "à l'étranger lors de déplacements de moins de trois mois, si le traitement ne peut attendre votre retour en Belgique",
+      "limits": "remboursement jusqu'à 2.000 euros en cas d'annulation de voyage",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Ces garanties sont accordées si elles sont mentionnées dans les Conditions Particulières."
+      ],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "État préexistant",
+      "description": "Les frais en rapport avec une affection liée à un état préexistant.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Maladie dans les trois premiers mois",
+      "description": "Une maladie survenue dans les trois premiers mois qui suivent la date d'entrée en vigueur de l'assurance.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Castrations et stérilisations non nécessaires",
+      "description": "Les castrations et stérilisations qui ne sont pas nécessaires sur le plan médical.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Grossesse, insémination, accouchement",
+      "description": "Une grossesse, une insémination et un accouchement.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Transplantation d'organes",
+      "description": "Une transplantation d'organes.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Problèmes comportementaux",
+      "description": "Des problèmes comportementaux et un accompagnement éducationnel.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Visites à domicile",
+      "description": "Les visites à domicile du vétérinaire, à moins que le déplacement de l'animal de compagnie ne soit trop risqué sur le plan médical.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Nourriture diététique",
+      "description": "La nourriture diététique, sauf pendant une période de quatre semaines à la suite d'un sinistre couvert.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Vaccination, vermifugation, parasites externes",
+      "description": "La vaccination, la vermifugation et le traitement de parasites externes (sauf si vous avez souscrit la garantie optionnelle budget de prévention).",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dommage intentionnel",
+      "description": "Un dommage causé intentionnellement par vous ou un membre de votre ménage.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Euthanasie",
+      "description": "L'euthanasie, sauf en cas de souffrance insupportable.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Inhumation, crémation, traitement après décès",
+      "description": "L'inhumation, la crémation ou tout autre traitement après le décès.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Rapatriement",
+      "description": "Le rapatriement de votre animal de compagnie mort ou vif.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Médecine parallèle et hydrothérapie",
+      "description": "La médecine parallèle et l'hydrothérapie.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dysplasie",
+      "description": "La dysplasie de la hanche, de l'épaule ou du coude.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Frais de dentisterie",
+      "description": "Les frais de dentisterie, sauf à la suite d'un accident (sauf le détartrage si vous avez souscrit la garantie optionnelle budget de prévention).",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Autres soins préventifs",
+      "description": "Tous autres soins préventifs non mentionnés dans l'option 'budget de prévention'.",
+      "applies_to": "Garantie optionnelle: Budget de Prévention",
+      "page": 2
+    },
+    {
+      "name": "Voyage - réservation tardive",
+      "description": "Les frais en rapport avec l'annulation d'un voyage réservé moins de 30 jours avant la date de départ.",
+      "applies_to": "Garantie optionnelle: Voyage",
+      "page": 2
+    },
+    {
+      "name": "Voyage - traitements non urgents",
+      "description": "Les traitements non urgents et vitaux pour la santé de l'animal.",
+      "applies_to": "Garantie optionnelle: Voyage",
+      "page": 2
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": null,
+    "per_coverage": "Pour la couverture 'frais de traitement', le taux de remboursement est de 80% avec un plafond d'intervention maximum renseigné dans les Conditions Particulières. La garantie 'augmentation du plafond d'intervention' s'applique uniquement sur les frais de traitement imprévus avec un taux de remboursement de 80%.",
+    "page": 2
+  },
+  "waiting_periods": [
+    {
+      "description": "Une maladie survenue dans les trois premiers mois qui suivent la date d'entrée en vigueur de l'assurance n'est pas couverte.",
+      "duration": "trois premiers mois",
+      "page": 1
+    }
+  ],
+  "obligations": [
+    {
+      "description": "Déclarer le risque conformément à la réalité à la souscription du contrat.",
+      "timing": "à la souscription",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "Prendre toutes les dispositions nécessaires afin d'éviter la survenance d'un sinistre, notamment les mesures de prévention indiquées aux Conditions Générales et Particulières.",
+      "timing": null,
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "En cas de sinistre, déclarer celui-ci dans les délais indiqués dans les Conditions Générales et limiter le sinistre.",
+      "timing": "dans les délais indiqués dans les Conditions Générales",
+      "sanction": null,
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "En cas de sinistre, le déclarer et limiter le sinistre.",
+      "deadline": "dans les délais indiqués dans les Conditions Générales",
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat est conclu pour une durée d'un an.",
+    "tacit_renewal": true,
+    "methods": [
+      "Par envoi recommandé, par exploit d'huissier ou par remise d'une lettre de résiliation avec accusé de réception."
+    ],
+    "special_rights": [
+      "L'assurance prend effet à la date indiquée dans les Conditions Particulières, à condition que la première prime soit payée."
+    ],
+    "page": 2,
+    "notice_period": "Vous pouvez résilier le contrat d'assurance à tout moment moyennant un préavis d'un mois, sans frais ni pénalités."
+  },
+  "prescription_period": null,
+  "premium": {
+    "description": "La prime est payée mensuellement par domiciliation bancaire. Le fractionnement de la prime ne génère aucun frais.",
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "description": "Les garanties optionnelles ne sont accordées que si elles sont mentionnées dans les Conditions Particulières.",
+      "page": 1
+    },
+    {
+      "description": "Budget de Prévention: remboursement de soins préventifs (vaccination, vermifuge, antiparasitaire, coupe de griffes/ongles, détartrage) jusqu'à 75 euros par an.",
+      "page": 1
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Votre animal de compagnie tombe malade ou se blesse? Dans ce cas, cette assurance permet de couvrir les frais de traitement."
+    },
+    {
+      "quote": "Vous êtes remboursés à hauteur de 80% des frais de \ntraitement."
+    },
+    {
+      "quote": "Vous êtes couvert partout en Belgique pour les frais de traitement liés à votre animal de compagnie."
+    },
+    {
+      "quote": "La prime est payée mensuellement par domiciliation bancaire. Le fractionnement de la prime ne génère aucun frais."
+    }
+  ],
+  "gaps": [
+    "Document d'information sur le produit d'assurance (IPID): il ne contient pas de définitions ni une liste exhaustive des exclusions et renvoie aux conditions précontractuelles et contractuelles.",
+    "Aucune franchise n'est prévue; l'intervention est régie par un taux de remboursement de 80% et un plafond d'intervention renseigné dans les Conditions Particulières.",
+    "Aucune référence/code de version n'est imprimée; seule la date d'édition 06/2026 figure en pied de page."
+  ]
+}

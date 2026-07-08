@@ -1,0 +1,276 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "be",
+  "insurer_slug": "belfius-direct",
+  "insurer_name": "Belfius Direct Assurances",
+  "branch": "velo",
+  "document_type": "product_sheet",
+  "language": "fr",
+  "source_url": "https://www.belfiusdirect.be/media/zb0dinpc/fiche-info-velo.pdf",
+  "product_name": "Assurance Vélo",
+  "reference": null,
+  "edition_date": "12/2025",
+  "target_audience": null,
+  "branch_code": null,
+  "product_family": "Assurance Vélo",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_pages": 3,
+  "source_pdf": "assurance-velo-d7045c18.pdf",
+  "source_sha256": "4749c9652150003d3f2e6400b280b582405401829568ba85730107f813cc61be",
+  "fetched_at": "2026-07-08",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d'information sur le produit d'assurance (IPID) de l'Assurance Vélo de Belfius Direct Assurances. L'assurance vélo est un contrat par lequel l'assureur s'engage à offrir une indemnisation en cas de vol ou de dommages matériels au véhicule assuré, ainsi que certaines prestations d'assistance lorsqu'un problème survient. Le véhicule assuré peut être tout type de vélo (de ville, de course, VTT, gravel, fat-bike, cargo...), électrique ou non (assistance au pédalage jusque max. 25 km/h).",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Vol",
+      "description": "Assurance Vélo couvre le vol du vélo ainsi que les dommages constatés après avoir retrouvé le vélo. Le vélo et les accessoires repris dans la valeur assurée sont couverts.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties Vol et Dégâts Matériels sont valables dans le monde entier.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Vélo de ville: Franchise Vol 0€. Vélo de course et VTT: Franchise Vol 500€ (si le vélo volé est retrouvé, la franchise est limitée à 125€ pour les réparations éventuelles).",
+      "conditions": [
+        "Un cadenas certifié ART2 (ou plus) ou Sold Secure Gold/Silver/Diamond permettant d'accrocher le vélo à un point fixe est obligatoire.",
+        "Est aussi accepté un cadenas des marques Abus, Axa, Kryptonite et Trelock si l'indice de sécurité propre à la marque est de minimum 13/15 pour Abus, 11/15 pour Axa, 9/10 pour Kryptonite et 5/6 pour Trelock.",
+        "La facture d'achat sera requise à la souscription.",
+        "Vous devez déposer plainte dans les 24h auprès de la police."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Dégâts Matériels",
+      "description": "Couvre les dommages à la suite d'un accident (chute, collision…), les dommages occasionnés pendant le transport du vélo (y compris lors de son chargement ou de son déchargement), le vandalisme et la tentative de vol, l'incendie et les forces de la nature.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties Vol et Dégâts Matériels sont valables dans le monde entier.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Vélo de ville: Franchise Dégâts Matériels 50€. Vélo de course et VTT: Franchise Dégâts Matériels 125€.",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Assistance",
+      "description": "Couvre le dépannage (problème mécanique, problème de batterie, pneu crevé…), le remorquage si impossibilité de réparer sur place, le retour au domicile, au lieu de résidence temporaire ou le transport jusqu'à la destination du conducteur (aussi en cas de vol), le transport chez un réparateur de vélo, et l'assistance psychologique à la suite d'un traumatisme causé par un accident avec le vélo.",
+      "is_optional": false,
+      "territorial_scope": "La garantie Assistance est valable dans toute l'Europe géographique.",
+      "limits": "L'assistance est limitée à 3 interventions par année d'assurance. Assistance psychologique: max. 5 séances d'une heure.",
+      "sub_limits": [
+        "Assistance psychologique: max. 5 séances d'une heure"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Casque, accessoires et cadenas assurés gratuitement",
+      "description": "Le casque du cycliste et les accessoires acquis après la souscription du contrat sont assurés gratuitement jusque 250€. Le cadenas requis par la compagnie est également assuré gratuitement.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "jusque 250€",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Vélos hors critères de prix ou professionnels",
+      "description": "Les vélos dont le prix d'achat est supérieur à 6.000€ TVAC (accessoires inclus) ou achetés à titre professionnel.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Vélos achetés depuis plus de 6 mois",
+      "description": "Les vélos achetés plus de 6 mois avant la date de l'offre d'assurance.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Responsabilité civile du conducteur",
+      "description": "La responsabilité civile du conducteur n'est pas couverte.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dommages corporels du conducteur",
+      "description": "Les dommages corporels du conducteur ne sont pas couverts.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Sinistres intentionnels",
+      "description": "Les sinistres intentionnels.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Transport rémunéré",
+      "description": "Les sinistres lorsque le vélo est utilisé pour le transport rémunéré de personnes ou de choses.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Vélo donné en location",
+      "description": "Les sinistres lorsque le vélo est donné en location.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Objets transportés",
+      "description": "Les dommages aux objets transportés ou leur vol.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Casque seul",
+      "description": "Le casque sauf si un autre dommage couvert a été causé simultanément.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Vol sans surveillance et sans cadenas",
+      "description": "Le vol du vélo laissé sans surveillance et sans cadenas.",
+      "applies_to": "Vol",
+      "page": 1
+    },
+    {
+      "name": "Vol de pièces seules",
+      "description": "Le vol de pièces du vélo seules (batterie, roues…).",
+      "applies_to": "Vol",
+      "page": 1
+    },
+    {
+      "name": "Vol d'accessoires seuls",
+      "description": "Le vol d'accessoires seuls (GPS, panier…).",
+      "applies_to": "Vol",
+      "page": 1
+    },
+    {
+      "name": "Dommages superficiels",
+      "description": "Les dommages superficiels, comme des griffes, si aucun autre dommage couvert n'a été causé simultanément.",
+      "applies_to": "Dégâts Matériels",
+      "page": 1
+    },
+    {
+      "name": "Pneus et batterie",
+      "description": "Les dommages aux pneus et à la batterie si aucun autre dommage couvert n'a été causé simultanément.",
+      "applies_to": "Dégâts Matériels",
+      "page": 1
+    },
+    {
+      "name": "Usure ou mauvais entretien",
+      "description": "Les dommages résultant de l'usure du vélo ou d'un mauvais entretien.",
+      "applies_to": "Dégâts Matériels",
+      "page": 1
+    },
+    {
+      "name": "Dépannage proche du domicile",
+      "description": "Le dépannage à moins d'un kilomètre du domicile.",
+      "applies_to": "Assistance",
+      "page": 1
+    },
+    {
+      "name": "Compétition",
+      "description": "L'assistance lors de la participation à une compétition.",
+      "applies_to": "Assistance",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": "Une franchise en Vol et Dégâts Matériels est déduite de l'indemnité en cas de sinistre; le montant dépend du type de vélo.",
+    "per_coverage": "Vélo de ville: Franchise Vol 0€, Franchise Dégâts Matériels 50€. Vélo de course et VTT: Franchise Vol 500€ (limitée à 125€ pour les réparations si le vélo volé est retrouvé), Franchise Dégâts Matériels 125€.",
+    "page": 2
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "description": "Déclarer le risque conformément à la réalité lors de la souscription du contrat.",
+      "timing": "lors de la souscription",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "En cours de contrat, avertir l'assureur de toute modification concernant l'usage du véhicule, les caractéristiques du véhicule ou le preneur d'assurance.",
+      "timing": "en cours de contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "description": "En cas de sinistre, déclarer celui-ci dans les délais indiqués dans les Conditions Générales et remettre tous les documents et informations sur le sinistre; prendre toutes les dispositions nécessaires afin de prévenir et d'atténuer les conséquences.",
+      "timing": "dans les délais indiqués dans les Conditions Générales",
+      "sanction": null,
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "En cas de vol, déposer plainte auprès de la police.",
+      "deadline": "dans les 24h",
+      "page": 2
+    },
+    {
+      "step": "En cas de sinistre, le déclarer dans les délais indiqués dans les Conditions Générales et remettre tous les documents et informations sur le sinistre.",
+      "deadline": null,
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat est conclu pour une durée d'un an.",
+    "tacit_renewal": true,
+    "methods": [
+      "Par envoi recommandé, par exploit d'huissier ou par remise de la lettre de résiliation contre récépissé."
+    ],
+    "special_rights": [
+      "L'assurance prend effet à la date indiquée dans les Conditions Particulières, après signature de la police par les deux parties, le paiement de la première prime et la réception de la facture d'achat du vélo et des accessoires assurés (cadenas requis inclus)."
+    ],
+    "page": 3,
+    "notice_period": "La première année, résiliation au plus tard deux mois avant la date d'échéance annuelle du contrat. Après la première année, résiliation à tout moment moyennant un préavis d'un mois, sans frais ni pénalités."
+  },
+  "prescription_period": null,
+  "premium": {
+    "description": "Vous avez l'obligation de payer la prime dès réception de l'invitation à payer. La prime doit être payée chaque année avant l'échéance annuelle fixée au contrat. Un échelonnement mensuel est possible et ne génère aucuns frais supplémentaires.",
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "description": "Indemnisation: pour tout sinistre en Vol ou Dégâts Matériels, l'assureur paie la réparation du vélo ou, en cas de perte totale, la valeur établie par le système d'indemnisation mentionné dans le contrat.",
+      "page": 2
+    },
+    {
+      "description": "Vol: un cadenas certifié ART2 (ou plus) ou Sold Secure Gold/Silver/Diamond permettant d'accrocher le vélo à un point fixe est obligatoire; marques acceptées avec indice minimum Abus 13/15, Axa 11/15, Kryptonite 9/10, Trelock 5/6; la facture d'achat est requise à la souscription; dépôt de plainte dans les 24h.",
+      "page": 2
+    },
+    {
+      "description": "Assistance limitée à 3 interventions par année d'assurance.",
+      "page": 2
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "L’assurance vélo est un contrat d’assurance par lequel l’assureur s’engage à offrir une indemnisation en cas de vol ou de dommages matériels au \nvéhicule assuré, ainsi que certaines prestations d’assistance lorsqu’un problème survient."
+    },
+    {
+      "quote": "Le casque du cycliste et les accessoires acquis après \nla souscription du contrat sont assurés gratuitement \njusque 250€. Le cadenas requis par la compagnie est \négalement assuré gratuitement."
+    },
+    {
+      "quote": "Les garanties Vol et Dégâts Matériels sont valables dans le monde entier."
+    },
+    {
+      "quote": "La garantie Assistance est valable dans toute l’Europe géographique"
+    },
+    {
+      "quote": "L’assistance est limitée à 3 interventions par année\nd’assurance"
+    }
+  ],
+  "gaps": [
+    "Document d'information sur le produit d'assurance (IPID): il ne contient pas de définitions ni une liste exhaustive des exclusions et renvoie aux conditions précontractuelles et contractuelles.",
+    "Aucune référence/code de version n'est imprimée; seule la date d'édition 12/2025 figure en pied de page."
+  ]
+}

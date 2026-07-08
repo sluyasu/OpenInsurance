@@ -1,0 +1,373 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "be",
+  "insurer_slug": "cardif",
+  "insurer_name": "BNP Paribas Cardif",
+  "branch": "autres",
+  "branch_code": "21-22",
+  "document_type": "conditions_generales",
+  "language": "fr",
+  "source_url": "https://bnpparibascardif.be/documents/36051/427355/Short+Term+Protect+Luxembourg.pdf/4cbb82d8-0e72-f90c-cb18-dcc8d4798ffe?version=1.1&t=1703113400716&download=true",
+  "source_pages": 6,
+  "product_name": "Short Term Protect - Luxembourg",
+  "product_family": "Short Term Protect",
+  "variant": "Luxembourg",
+  "reference": "stp_2023/03_lux",
+  "edition_date": "2023/03",
+  "target_audience": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_pdf": "short-term-protect-luxembourg-f09318cb.pdf",
+  "source_sha256": "fe37cb539cbc22452093af3b6d2e2b4d190d55e9890a643228fdc85a3c7ec842",
+  "fetched_at": "2026-07-08",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Short Term Protect - Luxembourg est une assurance vie souscrite par une personne physique ayant sa résidence habituelle au Luxembourg. Elle garantit l'assuré en cas de décès par maladie ou accident (garantie principale « Décès ») et, en option, en cas d'incapacité totale de travail (garantie facultative). Deux formules existent : « Classic » (une seule personne, preneur et assuré) et « 2WIN » (deux personnes, uniquement la garantie « Décès »). Le capital décès est dégressif et limité à 100 000 euros maximum (ou 25 000 euro au-delà de 65 ans) ; l'indemnité mensuelle d'incapacité de travail est limitée à 1 000 euros/mois.",
+  "definitions": [
+    {
+      "term": "Contrat « Short Term Protect : Classic »",
+      "definition": "Contrat qui protège une seule personne, considérée à la fois comme preneur d'assurance et comme assuré. Celle-ci souscrit toujours la garantie principale « Décès » et peut aussi opter pour la garantie facultative « Incapacité totale de travail ».",
+      "page": 2
+    },
+    {
+      "term": "Contrat « Short Term Protect : 2WIN »",
+      "definition": "Contrat qui protège deux personnes : le preneur d'assurance (qui est également assuré) et un autre assuré. Tous deux sont uniquement inscrits pour la garantie principale « Décès ».",
+      "page": 2
+    },
+    {
+      "term": "Accident",
+      "definition": "Un événement soudain et involontaire, provoqué par une action extérieure et qui cause une lésion physique à l'assuré. Ne sont pas considérés comme accident : une hémorragie cérébrale ; une maladie aiguë ou chronique ; un infarctus ou une rupture d'anévrisme ; une crise d'épilepsie ou une attaque cérébrale.",
+      "page": 2
+    },
+    {
+      "term": "Incapacité totale de travail",
+      "definition": "L'incapacité physique complète pour l'assuré de poursuivre ou de reprendre son travail ou autre activité rémunérée, en raison d'une maladie, d'une affection, d'une intervention chirurgicale ou d'un accident. Cette incapacité physique doit être constatée par un médecin. L'assuré est reconnu comme étant en incapacité de travail uniquement s'il exerçait encore réellement, au premier jour de son incapacité de travail, une activité professionnelle (à temps plein ou à temps partiel) pour laquelle il recevait une rémunération régulière.",
+      "page": 2
+    },
+    {
+      "term": "Preneur d'assurance",
+      "definition": "La personne qui conclut ce contrat avec l'assureur. Il s'agit toujours d'une personne physique ayant sa résidence habituelle au Luxembourg au moment de la souscription.",
+      "page": 2
+    },
+    {
+      "term": "Assuré",
+      "definition": "La personne qui est assurée contre le décès et, le cas échéant, contre l'incapacité totale de travail. Au moment de la conclusion du contrat, cette personne physique doit avoir entre 18 et 70 ans, doit répondre à toutes les conditions de souscription mentionnées sur le certificat d'adhésion et doit avoir sa résidence habituelle au Luxembourg. Exception spécifique à la garantie « Incapacité totale de travail » : l'assuré a maximum 60 ans au moment de la souscription.",
+      "page": 2
+    },
+    {
+      "term": "Assureur",
+      "definition": "Cardif Assurance Vie S.A., société de droit français, ayant son siège social au Boulevard Haussman 1 à 75009 Paris (France) et sa succursale belge à Rue Montagne du Parc 8 Boîte 2, 1000 Bruxelles ; agréée en Belgique par la Banque Nationale de Belgique sous le numéro 979 pour les assurances vie (branche 21-22) et active au Luxembourg dans le cadre de la libre prestation de services ; immatriculée au registre des personnes morales de Bruxelles sous le numéro BE 0435.018.274.",
+      "page": 2
+    },
+    {
+      "term": "Bénéficiaire",
+      "definition": "La personne qui reçoit une indemnité. Pour la garantie « Incapacité totale de travail » : l'assuré. Pour la garantie « Décès » : la (les) personne(s) en faveur de laquelle (desquelles) sont stipulées les prestations d'assurance ; le bénéficiaire est mentionné dans le certificat d'assurance.",
+      "page": 2
+    },
+    {
+      "term": "Délai de stage",
+      "definition": "La période pendant laquelle la garantie court, mais sans que les sinistres qui se produisent pendant cette période soient déjà couverts. Cette période est unique et prend cours à la date d'entrée en vigueur mentionnée sur le certificat d'assurance. Il n'y a pas de délai de stage applicable pour la garantie « Décès » ; pour la garantie « Incapacité totale de travail », le délai de stage dure un mois.",
+      "page": 2
+    },
+    {
+      "term": "Délai de carence",
+      "definition": "La période qui suit la survenance d'un sinistre couvert par l'assurance, pendant laquelle l'assuré n'a pas encore droit à une indemnisation. Il n'y a pas de délai de carence applicable pour la garantie « Décès » ; pour la garantie « Incapacité totale de travail », le délai de carence dure deux mois et commence le premier jour d'incapacité de travail constatée par le médecin.",
+      "page": 2
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Garantie principale « Décès »",
+      "description": "L'assuré décède pendant la durée de l'assurance ? L'assureur paie alors au bénéficiaire le capital assuré au moment du décès. Ce montant se trouve sur le certificat d'assurance et est calculé selon les paramètres suivants : capital assuré, taux dégressif annuel réel et durée du contrat d'assurance. Le capital assuré diminue pendant la période d'assurance et peut être utilisé pour garantir le remboursement d'un crédit à la consommation, mais pas d'un crédit hypothécaire.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Le capital assuré s'élève à 100 000 euros maximum (ou 25 000 euro si l'assuré est plus âgé que 65 ans), y compris les autres contrats Short Term (Payment) Protection et Short Term Protect que l'assuré a auprès du même assureur.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Dans le cas de la couverture du remboursement d'un crédit à la consommation, le capital décès se limite au capital emprunté par le preneur d'assurance et, le cas échéant, par le deuxième assuré.",
+        "Le capital peut être utilisé pour garantir le remboursement d'un crédit à la consommation, mais pas d'un crédit hypothécaire.",
+        "La garantie prend fin au plus tard le jour du 75e anniversaire de l'assuré.",
+        "Il n'y a pas de délai de stage ni de délai de carence pour cette garantie."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Garantie facultative « Incapacité totale de travail »",
+      "description": "L'assuré est en incapacité totale de travail pendant la durée de son assurance, mais après le délai de stage ? L'assureur paie alors au bénéficiaire le montant mensuel assuré (maximum 1 000 euros/mois) repris sur le certificat d'assurance, et ce, pour chaque mois complet d'incapacité de travail. Ce paiement commence après le délai de carence et s'arrête à la fin de l'incapacité de travail ; les paiements cessent, dans tous les cas, à la date d'échéance finale du certificat d'assurance. Si l'assuré est à nouveau en incapacité de travail après une reprise du travail de moins de trois mois à cause de la même maladie ou du même accident, le paiement reprend immédiatement, sans application du délai de carence.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "montant mensuel assuré (maximum 1 000 euros/mois) repris sur le certificat d'assurance, pour chaque mois complet d'incapacité de travail",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "L'assuré a maximum 60 ans au moment de la souscription.",
+        "Délai de stage d'un mois et délai de carence de deux mois.",
+        "Ne peut pas être souscrite si la durée de la garantie principale « Décès » dépasse 10 ans.",
+        "Soumise aux mêmes conditions que la garantie principale, sauf mention contraire.",
+        "Prend fin au plus tard le jour du 65e anniversaire de l'assuré, à la fin du mois du départ à la retraite, ou le jour où l'assuré cesse son activité professionnelle (sauf pour raison médicale).",
+        "L'assuré doit exercer réellement, au premier jour de l'incapacité, une activité professionnelle rémunérée régulièrement."
+      ],
+      "page": 3
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Sinistre intentionnel",
+      "description": "La personne qui cause un sinistre intentionnellement, n'a droit à aucune indemnisation.",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Déclaration de bonne santé non affirmative",
+      "description": "Au moment de la signature du contrat, l'assuré ne pouvait pas répondre affirmativement à une des déclarations de bonne santé reprises sur le certificat d'assurance.",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Suicide dans l'année suivant l'entrée en vigueur ou la réactivation",
+      "description": "Le sinistre résulte du suicide de l'assuré commis au cours de l'année qui suit la date d'entrée en vigueur ou la réactivation du contrat.",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Condamnation à la peine capitale",
+      "description": "Le sinistre résulte d'une condamnation à la peine capitale.",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Risques nucléaires, radioactifs et toxiques",
+      "description": "Le sinistre résulte de la suite directe ou indirecte de tout évènement ou suite d'évènements avec des propriétés radioactives, toxiques, explosives ou conséquence d'autres propriétés dangereuses, de matières fissiles, produits ou déchets radioactifs, de même que les sinistres résultant directement ou indirectement de toute source de rayonnement ionisant.",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Guerre, sabotage, rixes et délits",
+      "description": "Le sinistre résulte d'un acte de guerre (civile ou non), de sabotage ou d'une participation à des rixes et des délits (sauf en cas de légitime défense ou d'assistante à personne en danger).",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Explosion atomique et radiation",
+      "description": "Le sinistre résulte d'une explosion atomique (en général) et de la radiation.",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Compétitions de véhicules à moteur ou d'engins volants",
+      "description": "Le sinistre résulte de la préparation ou de la participation à des compétitions de véhicules à moteur ou d'engins volants.",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Intoxication alcoolique et substances prohibées",
+      "description": "Le sinistre résulte d'intoxication alcoolique aiguë ou chronique (conformément au taux réglementaire au jour du sinistre), de l'usage des substances prohibées légalement (sauf si prescrites pour des raisons médicales).",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Résidence dans un pays ou région déconseillé(e)",
+      "description": "L'assureur n'intervient pas si, au moment du sinistre, l'assuré a sa résidence habituelle dans un pays ou région déconseillée par le Ministère belge des Affaires étrangères et que le sinistre a lieu dans ce pays ou cette région.",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Tentative de suicide (Incapacité totale de travail)",
+      "description": "Le droit à l'indemnisation est exclu si l'incapacité totale de travail résulte d'une tentative de suicide.",
+      "applies_to": "Garantie facultative « Incapacité totale de travail »",
+      "page": 5
+    },
+    {
+      "name": "Burn-out (Incapacité totale de travail)",
+      "description": "Le droit à l'indemnisation est exclu si l'incapacité totale de travail résulte d'un burn-out.",
+      "applies_to": "Garantie facultative « Incapacité totale de travail »",
+      "page": 5
+    },
+    {
+      "name": "Maladie, accident ou infirmité antérieurs (Incapacité totale de travail)",
+      "description": "Le droit à l'indemnisation est exclu si l'incapacité totale de travail résulte de suite ou de conséquences d'une maladie, d'un accident ou d'une infirmité survenus avant la date de signature du certificat d'assurance.",
+      "applies_to": "Garantie facultative « Incapacité totale de travail »",
+      "page": 5
+    },
+    {
+      "name": "Trouble psychique (DSM) (Incapacité totale de travail)",
+      "description": "Le droit à l'indemnisation est exclu si l'incapacité totale de travail résulte d'un trouble psychique décrit dans la dernière version du « Diagnostic and Statical Manual of Mental Disorders ».",
+      "applies_to": "Garantie facultative « Incapacité totale de travail »",
+      "page": 5
+    },
+    {
+      "name": "VIH / SIDA (Incapacité totale de travail)",
+      "description": "Le droit à l'indemnisation est exclu si l'incapacité totale de travail résulte d'une contamination par le VIH et de ses conséquences, en particulier le SIDA.",
+      "applies_to": "Garantie facultative « Incapacité totale de travail »",
+      "page": 5
+    },
+    {
+      "name": "Affection de la colonne vertébrale (Incapacité totale de travail)",
+      "description": "Le droit à l'indemnisation est exclu si l'incapacité totale de travail résulte d'une affection de la colonne vertébrale (sauf à la suite d'un accident).",
+      "applies_to": "Garantie facultative « Incapacité totale de travail »",
+      "page": 5
+    },
+    {
+      "name": "Opération ou traitement cosmétique ou esthétique (Incapacité totale de travail)",
+      "description": "Le droit à l'indemnisation est exclu si l'incapacité totale de travail résulte d'une opération ou d'un traitement cosmétique ou esthétique (sauf si c'était médicalement nécessaire après une mutilation due à un accident).",
+      "applies_to": "Garantie facultative « Incapacité totale de travail »",
+      "page": 5
+    },
+    {
+      "name": "Cyclomoteur de plus de 49 cc (Incapacité totale de travail)",
+      "description": "Le droit à l'indemnisation est exclu si l'incapacité totale de travail résulte de l'usage d'un cyclomoteur ayant une cylindrée de plus de 49 cc.",
+      "applies_to": "Garantie facultative « Incapacité totale de travail »",
+      "page": 5
+    },
+    {
+      "name": "Sports et compétitions (Incapacité totale de travail)",
+      "description": "Le droit à l'indemnisation est exclu si l'incapacité totale de travail résulte de la pratique, en tant qu'amateur ou professionnel, de tout sport dans le cadre d'une compétition, de sports de montagne, de sports motorisés, de sports de combat, du polo à cheval, du skeleton, de la spéléologie, du saut en parachute, du parapente, du saut à l'élastique, de l'escalade, du bobsleigh, du saut à ski, du snowboard, du ski, du saut d'obstacles, de l'équitation, du cyclisme, de la plongée sous-marine ou de la plongée avec un masque à oxygène autonome.",
+      "applies_to": "Garantie facultative « Incapacité totale de travail »",
+      "page": 5
+    },
+    {
+      "name": "Activités professionnelles à risque (Incapacité totale de travail)",
+      "description": "Le droit à l'indemnisation est exclu si l'incapacité totale de travail résulte du fait de descendre dans des mines, des puits ou des carrières avec des galeries, de travailler sur des installations à haute tension, de manipuler des engins explosifs ou des produits corrosifs, de travailler sur un chantier, d'effectuer des travaux de démolition, de travailler à plus de quatre mètres de hauteur (s'il s'agit d'une activité inhérente à la profession de l'assuré), sous le sol ou sous l'eau.",
+      "applies_to": "Garantie facultative « Incapacité totale de travail »",
+      "page": 5
+    },
+    {
+      "name": "Incapacité survenue pendant un travail intérimaire (Incapacité totale de travail)",
+      "description": "L'incapacité de travail survient pendant un travail intérimaire ? Elle n'est alors, de toute façon, pas couverte.",
+      "applies_to": "Garantie facultative « Incapacité totale de travail »",
+      "page": 5
+    }
+  ],
+  "deductibles": null,
+  "waiting_periods": [
+    {
+      "name": "Délai de stage",
+      "duration": "un mois",
+      "applies_to": "Garantie facultative « Incapacité totale de travail »",
+      "page": 2
+    },
+    {
+      "name": "Délai de carence",
+      "duration": "deux mois, à compter du premier jour d'incapacité de travail constatée par le médecin",
+      "applies_to": "Garantie facultative « Incapacité totale de travail »",
+      "page": 2
+    }
+  ],
+  "obligations": [
+    {
+      "description": "Signaler tout sinistre à l'assureur.",
+      "timing": "dans les trente jours qui suivent sa survenance",
+      "sanction": "En cas de force majeure et si les intérêts de l'assureur ne subissent aucun préjudice du fait de la déclaration tardive, l'assureur est obligé de traiter le sinistre.",
+      "page": 4
+    },
+    {
+      "description": "Fournir à l'assureur tous renseignements utiles et répondre aux demandes qui lui sont faites pour déterminer les circonstances et fixer l'étendue du sinistre.",
+      "timing": null,
+      "sanction": "Réduction de la prestation à concurrence du préjudice subi par l'assureur ; l'assureur peut décliner sa garantie uniquement si l'obligation n'a pas été respectée dans une intention frauduleuse.",
+      "page": 4
+    },
+    {
+      "description": "Le preneur d'assurance qui change d'adresse doit en informer lui-même l'assureur.",
+      "timing": null,
+      "sanction": null,
+      "page": 5
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Tout sinistre doit être signalé à l'assureur.",
+      "deadline": "dans les trente jours qui suivent sa survenance",
+      "page": 4
+    },
+    {
+      "step": "L'assureur envoie un formulaire de déclaration de sinistre au bénéficiaire ou à son ayant droit.",
+      "deadline": null,
+      "page": 4
+    },
+    {
+      "step": "Le bénéficiaire ou l'ayant droit remplit dûment le formulaire en suivant les instructions et le renvoie daté et signé à l'assureur.",
+      "deadline": null,
+      "page": 4
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "L'assurance prend effet à la date mentionnée sur le certificat d'assurance et, au plus tôt, le jour où le preneur d'assurance paie la première prime à l'assureur. Le contrat et les prestations prennent fin au terme de la durée de la couverture fixée sur le certificat d'assurance ; pour la garantie « Décès », au plus tard le jour du 75e anniversaire de l'assuré ; pour la garantie « Incapacité totale de travail », au plus tard le jour du 65e anniversaire de l'assuré, à la fin du mois du départ à la retraite, ou le jour où l'assuré cesse son activité professionnelle (sauf raison médicale).",
+    "tacit_renewal": null,
+    "methods": [
+      "Remettre une lettre de résiliation et demander un accusé de réception.",
+      "Demander à un huissier de le signifier par un exploit d'huissier.",
+      "Envoyer une lettre recommandée."
+    ],
+    "special_rights": [
+      "Le preneur d'assurance peut résilier son contrat dans un délai de trente jours après l'entrée en vigueur du contrat, par lettre recommandée envoyée à l'assureur.",
+      "Si le contrat a été conclu en couverture d'un crédit, le preneur d'assurance peut le résilier par lettre recommandée dans un délai de trente jours lié au crédit non accordé, à la renonciation au contrat de crédit pendant le délai de rétractation, ou à la résiliation d'un contrat de crédit à durée indéterminée.",
+      "L'assureur peut résilier dans un délai de trente jours après avoir reçu le certificat d'assurance ; la résiliation prend effet le huitième jour après sa notification et l'assureur rembourse l'intégralité de la prime.",
+      "Le contrat est incontestable à partir d'un an après la date de souscription.",
+      "Le preneur d'assurance a le droit de cesser à tout moment le paiement des primes pour sa garantie « Incapacité totale de travail » ; sa garantie principale reste valable tant qu'il continue à payer les primes y afférentes."
+    ],
+    "page": 3,
+    "notice_period": "La résiliation prend effet au plus tôt un mois et un jour après la date de l'accusé de réception, après la notification par l'huissier, ou après la remise de la lettre recommandée, selon le mode de résiliation choisi."
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "Le preneur d'assurance paie les primes comme stipulé sur le certificat d'assurance. Le paiement peut se faire par prime unique ou périodique et le montant de la prime est précisé pour chaque garantie ; le paiement d'une prime n'est pas obligatoire. Les frais supplémentaires (même futurs), comme les taxes et les cotisations, sont à la charge du preneur d'assurance et payés en même temps que les primes. En cas de non-paiement à l'échéance, l'assureur envoie une lettre recommandée et peut facturer des frais de 10 € indexés selon l'article 8.a ; à défaut de paiement, l'assureur met fin au contrat dans un délai de trente jours suivant l'envoi de la lettre recommandée. Le preneur d'assurance a le droit de cesser à tout moment le paiement des primes pour sa garantie « Incapacité totale de travail »."
+    ]
+  },
+  "special_conditions": [
+    {
+      "name": "Rachat : le preneur d'assurance peut demander le rachat, sauf s'il paie l'assurance avec des primes périodiques constantes payables pendant une période dépassant la moitié de la durée du contrat. L'indemnité de rachat s'élève à 5 % de la valeur de rachat théorique et diminue de 1 % au jour de l'échéance annuelle pendant les cinq dernières années du contrat ; l'indemnité de rachat minimale est de 75 euros, indexés selon l'indice santé des prix à la consommation (base 1988 = 100). (page 4)"
+    },
+    {
+      "name": "Rachat et garantie « Incapacité totale de travail » : cette garantie a une valeur de rachat distincte, calculée de la même manière que celle de la garantie « Décès » ; le rachat de la garantie principale « Décès » entraîne automatiquement le rachat de la garantie « Incapacité totale de travail ». (page 4)"
+    },
+    {
+      "name": "Réduction : possible sauf primes périodiques constantes payables pendant une période dépassant la moitié de la durée du contrat. Double indemnisation : 75 euros au moment de la réduction (indexés) et un supplément de 5 pour mille à chaque échéance de la prime initialement prévue, calculé sur la différence entre la prime initiale et la prime adaptée. La réduction de la garantie « Décès » entraîne automatiquement la réduction de la garantie « Incapacité totale de travail ». (page 4)"
+    },
+    {
+      "name": "Réactivation : après un rachat, si le preneur reverse la valeur de rachat dans les trois mois ; après une réduction, dans les trois ans. Dans les deux cas, l'assureur effectue une analyse du risque dont les frais sont à la charge du preneur d'assurance. (page 4)"
+    },
+    {
+      "name": "Décès à la suite d'un risque exclu : l'assureur verse la valeur de rachat théorique (limitée au capital assuré) calculée au jour du décès ; le bénéficiaire désigné reçoit le montant, sauf si le décès résulte du fait intentionnel de l'assuré. (page 5)"
+    },
+    {
+      "name": "Modification technique du contrat : l'assureur peut facturer des frais de 25 euros indexés selon l'article 8.a. (page 6)"
+    },
+    {
+      "name": "Litiges : seuls les tribunaux luxembourgeois sont compétents pour régler un litige né de l'application du contrat. (page 6)"
+    },
+    {
+      "name": "Le contrat n'octroie au preneur d'assurance aucun droit à un acompte ou à une participation bénéficiaire. (page 6)"
+    },
+    {
+      "name": "Législation et fiscalité : le contrat est soumis aux dispositions légales et réglementaires luxembourgeoises régissant les assurances vie ; la fiscalité dépend du pays de résidence du preneur d'assurance, du bénéficiaire et, pour les droits de succession, du défunt et/ou du bénéficiaire. (page 6)"
+    },
+    {
+      "name": "Données personnelles : l'assureur traite les informations et données personnelles à titre nominatif pour gérer le dossier ; plus d'informations auprès de la Commission nationale pour la protection des données (www.cnpd.lu). (page 6)"
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Short Term Protect vise à garantir l’assuré, selon la formule de garantie et le montant assuré choisis en cas de :"
+    },
+    {
+      "quote": "L’incapacité physique complète pour l’assuré de poursuivre ou de reprendre son travail ou autre activité rémunérée, en raison d’une maladie, d’une affection, d’une intervention chirurgicale ou d’un accident."
+    },
+    {
+      "quote": "L’assureur paie alors au bénéficiaire le montant mensuel assuré (maximum 1 000 euros/mois) repris sur le certificat d’assurance, et ce, pour chaque mois complet d’incapacité de travail."
+    },
+    {
+      "quote": "Le délai de carence dure deux mois et commence le premier jour d’incapacité de travail constatée par le médecin."
+    },
+    {
+      "quote": "LA PERSONNE QUI CAUSE UN SINISTRE INTENTIONNELLEMENT, N’A DROIT À AUCUNE INDEMNISATION."
+    }
+  ],
+  "gaps": [
+    "Aucune franchise/déductible classique n'est prévue ; le champ deductibles est laissé null. Le produit prévoit toutefois un délai de stage et un délai de carence pour la garantie « Incapacité totale de travail » (repris dans waiting_periods).",
+    "Aucun délai de prescription n'est mentionné dans le document.",
+    "Les montants exacts de prime et le capital assuré figurent sur le certificat d'assurance, non fourni ici."
+  ]
+}

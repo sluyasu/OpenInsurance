@@ -1,0 +1,655 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "be",
+  "insurer_slug": "belfius-direct",
+  "insurer_name": "Belfius Direct Assurances",
+  "branch": "velo",
+  "document_type": "conditions_generales",
+  "language": "fr",
+  "source_url": "https://www.belfiusdirect.be/media/fntocylk/cg-velo.pdf",
+  "product_name": "Assurance Vélo",
+  "reference": "BDBI_08122025",
+  "edition_date": "08122025",
+  "target_audience": null,
+  "branch_code": null,
+  "product_family": "Assurance Vélo",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_pages": 24,
+  "source_pdf": "assurance-velo-c2e9960e.pdf",
+  "source_sha256": "1dba6c9a78338d182c034222c71bd42c605199cbd606ea47ee01e4cf2804dc2f",
+  "fetched_at": "2026-07-08",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Assurance Vélo de Belfius Direct Assurances est un contrat de droit belge qui couvre, dans les limites décrites, tous les risques auxquels le vélo assuré est exposé: le vol, les dommages matériels et le besoin d'assistance qui en résulte. Elle assure le vélo désigné aux Conditions Particulières, acheté à titre privé. Le casque du cycliste, le cadenas requis et les accessoires acquis après la conclusion sont assurés gratuitement jusqu'à 250 EUR TVA incluse. Une garantie Assistance (dépannage, remorquage, transport, assistance psychologique) complète la couverture.",
+  "definitions": [
+    {
+      "term": "Nous, l'assureur",
+      "definition": "l'entreprise d'assurances avec laquelle le contrat est conclu; Belfius Direct Assurances est un nom commercial de Belfius Insurance SA, Place Charles Rogier 11 à 1210 Bruxelles, entreprise d'assurances de droit belge agréée par la BNB sous le numéro 0037.",
+      "page": 5
+    },
+    {
+      "term": "Vous, le preneur d'assurance",
+      "definition": "la personne qui conclut le contrat avec l'assureur.",
+      "page": 5
+    },
+    {
+      "term": "Assuré",
+      "definition": "Vous, en tant que preneur d'assurance; le propriétaire du véhicule assuré; le détenteur et le conducteur autorisés du véhicule assuré, à l'exclusion de toutes les personnes pratiquant des travaux d'entretien ou de réparation, le dépannage ou la vente, lorsque le véhicule leur est confié en raison de leur fonction.",
+      "page": 5
+    },
+    {
+      "term": "Ménage",
+      "definition": "toutes les personnes vivant à votre foyer. Toute personne résidant temporairement ailleurs pour des raisons de travail, d'études ou de santé, est considérée comme vivant à votre foyer. Vos enfants et ceux de votre partenaire cohabitant qui ne vivent pas sous votre toit sont également considérés comme faisant partie de votre ménage jusqu'à leur majorité, et par la suite, tant qu'ils donnent droit à des allocations familiales.",
+      "page": 5
+    },
+    {
+      "term": "Centrale d'assistance",
+      "definition": "le prestataire chargé par nous d'effectuer les services d'assistance au vélo et aux personnes.",
+      "page": 5
+    },
+    {
+      "term": "Vélo",
+      "definition": "tout véhicule à deux roues ou plus, propulsé à l'aide de pédales ou de manivelles par un ou plusieurs de ses occupants. Le vélo n'est pas pourvu d'un moteur ou est équipé d'un moteur auxiliaire offrant une assistance au pédalage jusque 25 km/h.",
+      "page": 5
+    },
+    {
+      "term": "Vélo de course",
+      "definition": "vélo léger destiné à rouler sur des routes asphaltées et présentant des caractéristiques aérodynamiques optimisées permettant de faire de la vitesse.",
+      "page": 5
+    },
+    {
+      "term": "Vélo tout terrain (VTT)",
+      "definition": "vélo destiné à rouler principalement sur terrain accidenté, en dehors des routes. Sont assimilés au VTT, le mountain bike, le vélo de cyclo-cross, de gravel et tout autre vélo de randonnée sportive.",
+      "page": 5
+    },
+    {
+      "term": "Vélo de ville",
+      "definition": "tout vélo, à l'exclusion des vélos de course et des VTT, destiné à rouler principalement sur la route. Les vélos cargos, vélos couchés, vélos pliables, tandems et tricycles sont inclus dans cette catégorie.",
+      "page": 5
+    },
+    {
+      "term": "Accessoires",
+      "definition": "le cadenas et l'ensemble des objets spécifiques complétant l'équipement du vélo, comme le porte-bagages, le porte-bébé, les sacoches et paniers, les compteurs, GPS et autres systèmes de navigation ou encore la remorque de vélo. Ainsi, le smartphone, la caméra embarquée, le casque et la tenue vestimentaire du cycliste ne sont notamment pas considérés comme des accessoires.",
+      "page": 5
+    },
+    {
+      "term": "Facture d'achat",
+      "definition": "la facture d'achat doit être établie au nom du preneur d'assurance ou de l'un des membres de son ménage. Il peut s'agir d'une facture d'achat à l'état neuf ou d'une facture d'achat pour un vélo acquis d'occasion, pour autant que la facture soit délivrée par un vendeur professionnel. La facture doit reprendre au minimum la marque et le modèle pour l'identification certaine du vélo assuré.",
+      "page": 5
+    },
+    {
+      "term": "Sinistre",
+      "definition": "tout fait ayant causé un dommage et pouvant donner lieu à l'application du contrat.",
+      "page": 6
+    },
+    {
+      "term": "Compétition",
+      "definition": "course de vitesse, concours de régularité ou d'adresse, amateur ou professionnel, donnant lieu à l'établissement d'un classement, qu'il y ait ou non paiement d'un droit d'inscription et attribution d'une récompense.",
+      "page": 6
+    },
+    {
+      "term": "Vandalisme",
+      "definition": "détérioration intentionnelle du vélo et/ou de ses accessoires, accomplie par une personne autre qu'un des assurés. La tentative de vol est assimilée au vandalisme.",
+      "page": 6
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Cadre général (Tous risques)",
+      "description": "L'assurance couvre, dans les limites décrites ci-après, tous les risques auxquels le véhicule assuré est exposé, à savoir le vol, les dommages matériels et le besoin d'assistance qui en résulte. Nous assurons le vélo désigné dans les Conditions Particulières, acheté à titre privé et dont les caractéristiques correspondent à un des types de vélos définis.",
+      "is_optional": false,
+      "territorial_scope": "L'assurance est valable dans le monde entier.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "L'indemnité est diminuée de la franchise stipulée dans les Conditions Particulières.",
+      "conditions": [
+        "Le vélo doit être désigné dans les Conditions Particulières, acheté à titre privé et correspondre à un des types de vélos définis (vélo de course, VTT, vélo de ville).",
+        "Le montant à assurer est le prix d'achat du vélo, augmenté de la valeur des accessoires et de la TVA non récupérable, compte tenu des remises et ristournes.",
+        "En cas de sous-assurance, la règle proportionnelle est appliquée après déduction de la franchise éventuelle."
+      ],
+      "page": 7
+    },
+    {
+      "name": "Cadenas, casque et accessoires assurés gratuitement",
+      "description": "Le casque du cycliste et les accessoires acquis après la conclusion de la présente assurance sont assurés gratuitement jusqu'à concurrence de 250 EUR TVA incluse, sans application de la règle proportionnelle. Le cadenas répondant aux exigences du point 6.2 est également assuré gratuitement. Ces éléments sont assurés dans les limites des garanties du contrat.",
+      "is_optional": false,
+      "territorial_scope": "L'assurance est valable dans le monde entier.",
+      "limits": "jusqu'à concurrence de 250 EUR TVA incluse",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Concerne le casque et les accessoires acquis après la conclusion de l'assurance.",
+        "Le cadenas doit répondre aux exigences mentionnées au point 6.2."
+      ],
+      "page": 8
+    },
+    {
+      "name": "Vol",
+      "description": "Nous couvrons le vol du vélo assuré. Dans le cas où le vélo volé est retrouvé, la garantie est étendue à l'ensemble des dommages au vélo survenus à l'occasion du vol.",
+      "is_optional": false,
+      "territorial_scope": "L'assurance est valable dans le monde entier.",
+      "limits": "L'indemnité est fondée sur la valeur du vélo au moment du sinistre (valeur assurée diminuée d'une dépréciation de 1,50% par mois à partir du 25e mois, jamais inférieure à 20% de la valeur assurée).",
+      "sub_limits": [],
+      "deductible": "L'indemnité est diminuée de la franchise stipulée dans les Conditions Particulières.",
+      "conditions": [
+        "Utilisation obligatoire d'un cadenas certifié ART de catégorie 2 (ou supérieure) ou Sold Secure Silver, Gold ou Diamond; un antivol de cadre doit être associé à un câble ou une chaîne en acier de minimum 5,5 mm de diamètre.",
+        "Un cadenas non certifié des marques Abus (13/15), Axa (11/15), Kryptonite (9/10) ou Trelock (5/6) est également accepté; tout cadenas non certifié d'une autre marque est refusé.",
+        "Lorsqu'il est laissé sans surveillance, le vélo doit être accroché à un point d'attache fixe au moyen du cadenas requis.",
+        "En cas de vol, déposer plainte auprès des autorités judiciaires ou de police dans les 24h après la constatation des faits.",
+        "Si le vélo volé est retrouvé, en avertir immédiatement l'assureur."
+      ],
+      "page": 11
+    },
+    {
+      "name": "Dégâts Matériels",
+      "description": "Tous les dommages matériels au vélo assuré sont couverts, sauf s'ils sont expressément exclus. Sont notamment couverts les dommages causés par une chute, une collision, un choc, un basculement, un contact accidentel, le transport du vélo (y compris son chargement ou déchargement), un acte de vandalisme, un incendie et les forces de la nature.",
+      "is_optional": false,
+      "territorial_scope": "L'assurance est valable dans le monde entier.",
+      "limits": "L'indemnité correspond aux frais de réparation (dommages partiels) ou à la valeur du vélo au moment du sinistre sous déduction de la valeur résiduelle (perte totale).",
+      "sub_limits": [
+        "L'assuré est autorisé à procéder à toute réparation d'un montant total de 250 EUR maximum sans accord préalable, remboursée sur facture détaillée."
+      ],
+      "deductible": "L'indemnité est diminuée de la franchise stipulée dans les Conditions Particulières.",
+      "conditions": [],
+      "page": 13
+    },
+    {
+      "name": "Assistance en cas d'immobilisation du vélo",
+      "description": "L'assistance intervient lorsque le vélo assuré est immobilisé à la suite d'une panne, d'un accident ou d'un acte de vandalisme, vous empêchant de poursuivre votre route ou entraînant des conditions de circulation dangereuses. La panne vise un problème mécanique, un problème de batterie, un éclairage défectueux, un pneu crevé, un cadenas bloqué ou la perte des clés du cadenas. L'assistance comprend le dépannage sur place (pièces de rechange à charge de l'assuré) et, si la réparation est impossible, le transport du cycliste, du vélo, des bagages et du passager vers le domicile, la destination du jour ou un réparateur.",
+      "is_optional": false,
+      "territorial_scope": "toute l'Europe géographique",
+      "limits": "L'assistance est limitée à trois interventions maximum par année d'assurance.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "L'Europe géographique comprend: Albanie, Allemagne, Andorre, Autriche, Belgique, Biélorussie, Bosnie-Herzégovine, Bulgarie, Chypre, Croatie, Danemark, Espagne, Estonie, Finlande, France, Gibraltar, Grèce, Hongrie, Irlande, Islande, Italie, Lettonie, Liechtenstein, Lituanie, Luxembourg, Macédoine du Nord, Malte, Moldavie, Monaco, Monténégro, Norvège, Pays-Bas, Pologne, Portugal, Roumanie, Royaume-Uni, Russie (partie européenne), Saint-Marin, Serbie, Slovaquie, Slovénie, Suède, Suisse, Tchéquie, Turquie (partie européenne), Ukraine et Vatican.",
+        "L'assistance n'est fournie que si le vélo se trouve à un endroit librement accessible par le dépanneur.",
+        "Contacter immédiatement la centrale d'assistance (24h/24 et 7j/7)."
+      ],
+      "page": 14
+    },
+    {
+      "name": "Assistance en cas de vol du vélo",
+      "description": "Nous organisons votre transport vers un endroit proche de là où le vélo a été volé parmi votre domicile, votre lieu de séjour (temporaire) ou votre destination du jour.",
+      "is_optional": false,
+      "territorial_scope": "toute l'Europe géographique",
+      "limits": "L'assistance est limitée à trois interventions maximum par année d'assurance.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Cette garantie n'est octroyée que si vous avez respecté toutes les mesures de précaution nécessaires pour limiter le risque de vol (garantie Vol).",
+        "Le procès-verbal de plainte déposée dans les 24h peut être réclamé comme preuve du vol."
+      ],
+      "page": 14
+    },
+    {
+      "name": "Assistance aux accompagnants",
+      "description": "Si, au moment de l'intervention, vous êtes accompagné d'un ou de plusieurs enfants mineurs dont vous avez la responsabilité, nous organisons et prenons en charge leur retour avec vous. Cette extension est également offerte lorsque vous êtes accompagné d'une seule autre personne à vélo.",
+      "is_optional": false,
+      "territorial_scope": "toute l'Europe géographique",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 15
+    },
+    {
+      "name": "Assistance psychologique",
+      "description": "En cas de traumatisme suite à un accident, un vol avec violence ou un acte de vandalisme, nous prenons en charge les honoraires pour l'assistance psychologique prescrite par un médecin.",
+      "is_optional": false,
+      "territorial_scope": "toute l'Europe géographique",
+      "limits": "Notre intervention se limite à cinq séances d'une heure maximum chez un psychologue ou psychothérapeute agréé en Belgique.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "L'assistance psychologique doit avoir été prescrite par un médecin."
+      ],
+      "page": 15
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Vélo non homologué",
+      "description": "Les sinistres si le vélo n'est pas homologué pour circuler sur la voie publique (même si le sinistre survient lorsque le vélo circule sur une voie ou un terrain privé).",
+      "applies_to": "all",
+      "page": 11
+    },
+    {
+      "name": "Vélo ne répondant pas à la définition",
+      "description": "Les sinistres si le vélo assuré ne répond pas à la définition de vélo des présentes conditions.",
+      "applies_to": "all",
+      "page": 11
+    },
+    {
+      "name": "Transport rémunéré",
+      "description": "Les sinistres survenus lorsque le vélo est utilisé pour le transport rémunéré de personnes et/ou de choses (taxi, visites touristiques, service de livraison, de coursier…).",
+      "applies_to": "all",
+      "page": 11
+    },
+    {
+      "name": "Location, leasing ou réquisition",
+      "description": "Les sinistres survenus lorsque le vélo est donné en location ou en leasing ou lorsque le vélo est réquisitionné par quelque autorité que ce soit.",
+      "applies_to": "all",
+      "page": 11
+    },
+    {
+      "name": "Mise à disposition de la clientèle",
+      "description": "Les sinistres survenus lorsque le vélo est mis à disposition de la clientèle dans le cadre d'une activité professionnelle.",
+      "applies_to": "all",
+      "page": 11
+    },
+    {
+      "name": "Sinistres intentionnels",
+      "description": "Les sinistres intentionnels causés par l'assuré ou un membre de son ménage, de même que l'aggravation intentionnelle par l'assuré ou un membre de son ménage d'un dommage couvert.",
+      "applies_to": "all",
+      "page": 11
+    },
+    {
+      "name": "Facteurs progressifs",
+      "description": "Les dommages résultant de l'exposition à des facteurs progressifs (lumière, pluie, vent…) ayant pour effet l'altération des matériaux telle que la rouille, la décoloration ou la perte de brillance.",
+      "applies_to": "all",
+      "page": 11
+    },
+    {
+      "name": "Biens transportés",
+      "description": "Les dommages aux biens transportés ou leur vol.",
+      "applies_to": "all",
+      "page": 11
+    },
+    {
+      "name": "Cascades et figures de style",
+      "description": "Les sinistres survenus à l'occasion d'une cascade ou d'une figure de style, comme le wheeling, ou de dérapages volontaires.",
+      "applies_to": "all",
+      "page": 11
+    },
+    {
+      "name": "Rixe, agression, émeute, violence collective",
+      "description": "Les sinistres survenus à la suite d'une rixe ou d'une agression, d'une émeute, d'une insurrection ou de tout acte de violence collective, lorsque l'assuré a participé à un tel évènement.",
+      "applies_to": "all",
+      "page": 11
+    },
+    {
+      "name": "Guerre et guerre civile",
+      "description": "Les sinistres résultant d'un fait de guerre ou d'une guerre civile. Cette exclusion ne s'applique pas aux sinistres survenus à l'étranger durant les quinze jours suivant le début des hostilités, pour autant que l'assuré ait été surpris par la survenance de tels événements et qu'il n'y ait pas pris part.",
+      "applies_to": "all",
+      "page": 11
+    },
+    {
+      "name": "Risque nucléaire",
+      "description": "Les sinistres causés directement ou indirectement par une réaction nucléaire, la radioactivité ou des radiations ionisantes. En cas de terrorisme, les sinistres causés par des armes nucléaires restent exclus.",
+      "applies_to": "all",
+      "page": 11
+    },
+    {
+      "name": "Vol de roues ou pièces amovibles",
+      "description": "Le vol d'une ou de plusieurs roues, de même que le vol d'autres pièces amovibles faisant partie intégrante du vélo.",
+      "applies_to": "Vol",
+      "page": 12
+    },
+    {
+      "name": "Vol de la batterie ou du chargeur",
+      "description": "Le vol de la batterie, de même que le vol du chargeur de celle-ci.",
+      "applies_to": "Vol",
+      "page": 12
+    },
+    {
+      "name": "Vol d'accessoires",
+      "description": "Le vol d'accessoires.",
+      "applies_to": "Vol",
+      "page": 12
+    },
+    {
+      "name": "Vol du casque",
+      "description": "Le vol du casque. Ces éléments sont toutefois assurés en cas de vol complet du vélo, à l'exception du casque dont le vol n'est jamais couvert.",
+      "applies_to": "Vol",
+      "page": 12
+    },
+    {
+      "name": "Mesures de prévention non respectées",
+      "description": "Le vol n'est pas couvert lorsque les mesures de prévention contre le vol n'ont pas été respectées.",
+      "applies_to": "Vol",
+      "page": 12
+    },
+    {
+      "name": "Absence de plainte dans les 24h",
+      "description": "Le vol n'est pas couvert lorsque l'assuré n'a pas déposé plainte auprès des autorités judiciaires ou de police compétentes dans les 24h après la constatation des faits afin d'en dresser un procès-verbal.",
+      "applies_to": "Vol",
+      "page": 12
+    },
+    {
+      "name": "Clés laissées accessibles",
+      "description": "Le vol n'est pas couvert lorsque les clés du cadenas et/ou du lieu dans lequel se trouve le vélo ont été laissées de manière visible à un endroit accessible à tous ou à un certain nombre de personnes.",
+      "applies_to": "Vol",
+      "page": 12
+    },
+    {
+      "name": "Vol par un proche ou dépositaire",
+      "description": "N'est pas assuré le vol dont les auteurs ou complices sont l'assuré ou un membre de son ménage, une personne au service de l'assuré, ou la personne à laquelle le vélo a été confié, le dépositaire ou leur personnel.",
+      "applies_to": "Vol",
+      "page": 13
+    },
+    {
+      "name": "Dommages relevant d'une autre garantie",
+      "description": "Les dommages relevant d'une autre garantie.",
+      "applies_to": "Dégâts Matériels",
+      "page": 13
+    },
+    {
+      "name": "Usure et défaut d'entretien",
+      "description": "Les dommages aux pièces du vélo par suite d'usure, d'un manque évident d'entretien ou encore d'un usage non conforme aux prescriptions du constructeur.",
+      "applies_to": "Dégâts Matériels",
+      "page": 13
+    },
+    {
+      "name": "Vice de fabrication ou de matériau",
+      "description": "Les dommages aux pièces du vélo affectées d'un vice de fabrication ou de matériau, sauf si ces dommages ont été aggravés à la suite d'un événement assuré.",
+      "applies_to": "Dégâts Matériels",
+      "page": 13
+    },
+    {
+      "name": "Dommages purement esthétiques",
+      "description": "Les dommages de nature purement esthétique tels que rayures, éraflures et écaillures, sauf s'ils ont été occasionnés conjointement à d'autres dommages couverts.",
+      "applies_to": "Dégâts Matériels",
+      "page": 13
+    },
+    {
+      "name": "Pneus, batterie et accessoires",
+      "description": "Les dommages aux pneus (chambres à air comprises), à la batterie (chargeur compris) et aux accessoires, sauf s'ils ont été occasionnés conjointement à d'autres dommages couverts.",
+      "applies_to": "Dégâts Matériels",
+      "page": 13
+    },
+    {
+      "name": "Dommages au casque",
+      "description": "Les dommages au casque, sauf s'ils ont été occasionnés conjointement à d'autres dommages couverts.",
+      "applies_to": "Dégâts Matériels",
+      "page": 13
+    },
+    {
+      "name": "Objets ou animaux transportés, surcharge",
+      "description": "Les dommages occasionnés ou aggravés par des objets ou des animaux transportés, par leur chargement ou déchargement, ainsi que par la surcharge du vélo.",
+      "applies_to": "Dégâts Matériels",
+      "page": 13
+    },
+    {
+      "name": "Pratique lucrative d'un sport ou compétition",
+      "description": "Les dommages survenus dans le cadre de la pratique lucrative d'un sport ou lors de la participation à une compétition.",
+      "applies_to": "Dégâts Matériels",
+      "page": 13
+    },
+    {
+      "name": "Conducteur non conforme aux conditions légales",
+      "description": "Les sinistres survenus lorsque le conducteur du vélo ne satisfait pas aux conditions prescrites par la loi et les règlements belges pour pouvoir conduire ce vélo.",
+      "applies_to": "Dégâts Matériels",
+      "page": 13
+    },
+    {
+      "name": "Ivresse, drogues, médicaments",
+      "description": "Les sinistres survenant alors que le conducteur du vélo est en état d'ivresse ou d'intoxication alcoolique ou dans un état analogue résultant de l'utilisation de drogues, médicaments ou hallucinogènes le privant du contrôle de ses actes, à condition d'un lien causal entre le sinistre et cet état.",
+      "applies_to": "Dégâts Matériels",
+      "page": 13
+    },
+    {
+      "name": "Dommages indirects",
+      "description": "Les dommages indirects, tels que la perte de valeur ou de jouissance du vélo, la dépréciation après réparation ou tout autre dommage de nature immatérielle.",
+      "applies_to": "Dégâts Matériels",
+      "page": 13
+    },
+    {
+      "name": "Assistance - sinistre à moins d'un kilomètre",
+      "description": "Les sinistres à moins d'un kilomètre de votre domicile.",
+      "applies_to": "Assistance en cas d'immobilisation du vélo",
+      "page": 15
+    },
+    {
+      "name": "Assistance - fait intentionnel",
+      "description": "Les sinistres suite à un fait intentionnel de votre part.",
+      "applies_to": "Assistance en cas d'immobilisation du vélo",
+      "page": 15
+    },
+    {
+      "name": "Assistance - transport rémunéré",
+      "description": "Les sinistres survenus lorsque le vélo est utilisé pour le transport rémunéré de personnes et/ou de choses (taxi, visites touristiques, service de livraison, de coursier…).",
+      "applies_to": "Assistance en cas d'immobilisation du vélo",
+      "page": 15
+    },
+    {
+      "name": "Assistance - location, leasing, réquisition",
+      "description": "Les sinistres survenus lorsque le vélo est donné en location ou en leasing ou lorsque le vélo est réquisitionné par quelque autorité que ce soit.",
+      "applies_to": "Assistance en cas d'immobilisation du vélo",
+      "page": 15
+    },
+    {
+      "name": "Assistance - mise à disposition de la clientèle",
+      "description": "Les sinistres survenus lorsque le vélo est mis à disposition de la clientèle dans le cadre d'une activité professionnelle.",
+      "applies_to": "Assistance en cas d'immobilisation du vélo",
+      "page": 15
+    },
+    {
+      "name": "Assistance - sport lucratif ou compétition",
+      "description": "Les sinistres survenus dans le cadre de la pratique lucrative d'un sport ou lors de la participation à une compétition.",
+      "applies_to": "Assistance en cas d'immobilisation du vélo",
+      "page": 16
+    },
+    {
+      "name": "Assistance - circuit organisé",
+      "description": "Les sinistres lorsque vous participez à un circuit organisé pour lequel une assistance est prévue; si celle-ci n'est pas en mesure de résoudre le problème, vous pouvez faire appel à la présente Assistance.",
+      "applies_to": "Assistance en cas d'immobilisation du vélo",
+      "page": 16
+    },
+    {
+      "name": "Assistance - circonstance connue au départ",
+      "description": "Les sinistres résultant d'une circonstance connue de vous au moment du départ de votre domicile, pouvant raisonnablement faire présumer le sinistre.",
+      "applies_to": "Assistance en cas d'immobilisation du vélo",
+      "page": 16
+    },
+    {
+      "name": "Assistance - ivresse, drogues, médicaments",
+      "description": "Les sinistres survenus alors que le conducteur du vélo est en état d'ivresse ou dans un état analogue résultant de l'utilisation de drogues, médicaments ou hallucinogènes le privant du contrôle de ses actes (constatation par un médecin ou les services de police).",
+      "applies_to": "Assistance en cas d'immobilisation du vélo",
+      "page": 16
+    },
+    {
+      "name": "Assistance - guerre, rixe, émeute",
+      "description": "Les sinistres résultant d'un fait de guerre ou d'une guerre civile, de même que les sinistres résultant de votre participation à une rixe, une émeute, une insurrection ou tout acte de violence collective.",
+      "applies_to": "Assistance en cas d'immobilisation du vélo",
+      "page": 16
+    },
+    {
+      "name": "Assistance - risque nucléaire et immobilisation chez un réparateur",
+      "description": "Les sinistres causés directement ou indirectement par une réaction nucléaire, la radioactivité ou des radiations ionisantes (en cas de terrorisme, les armes nucléaires restent exclues). Aucune intervention lorsque le vélo est immobilisé auprès d'un vendeur ou d'un réparateur de vélos pour un entretien ou une réparation.",
+      "applies_to": "Assistance en cas d'immobilisation du vélo",
+      "page": 16
+    }
+  ],
+  "deductibles": {
+    "standard": "L'indemnité est diminuée de la franchise stipulée dans les Conditions Particulières.",
+    "variable": null,
+    "per_coverage": "En cas de sous-assurance, la règle proportionnelle est appliquée après déduction de la franchise éventuelle.",
+    "page": 10
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "description": "Nous déclarer tout sinistre dans les huit jours de la connaissance de sa survenance, ce délai ne prenant effet qu'au moment où l'assuré peut raisonnablement en faire la déclaration.",
+      "timing": "dans les huit jours de la connaissance de sa survenance",
+      "sanction": "En cas de préjudice pour l'assureur, réduction partielle ou totale de la prestation ou récupération de l'indemnité et des frais jusqu'à concurrence du préjudice subi; refus de couverture en cas d'intention frauduleuse.",
+      "page": 8
+    },
+    {
+      "description": "Nous renseigner de manière aussi précise que possible les circonstances, les causes et les conséquences du sinistre, ainsi que l'identité des éventuels témoins.",
+      "timing": null,
+      "sanction": null,
+      "page": 8
+    },
+    {
+      "description": "Nous transmettre immédiatement tous les renseignements utiles et documents requis afin de faciliter la bonne gestion du dossier et fixer l'étendue du sinistre.",
+      "timing": "immédiatement",
+      "sanction": null,
+      "page": 8
+    },
+    {
+      "description": "Prendre toutes les mesures raisonnables afin de prévenir et d'atténuer les conséquences du sinistre.",
+      "timing": null,
+      "sanction": null,
+      "page": 8
+    },
+    {
+      "description": "En cas de vol, déposer plainte auprès des autorités judiciaires ou de police compétentes dans les 24h après la constatation des faits pour en dresser un procès-verbal.",
+      "timing": "dans les 24h après la constatation des faits",
+      "sanction": null,
+      "page": 9
+    },
+    {
+      "description": "Avant toute mise en réparation, communiquer un devis estimatif des dommages afin que l'assureur décide de la suite.",
+      "timing": "avant toute mise en réparation",
+      "sanction": null,
+      "page": 9
+    },
+    {
+      "description": "Garder le cadenas en parfait état de fonctionnement et en acquérir un nouveau le cas échéant.",
+      "timing": null,
+      "sanction": null,
+      "page": 12
+    },
+    {
+      "description": "Si le vélo volé est retrouvé, en avertir immédiatement l'assureur.",
+      "timing": "immédiatement",
+      "sanction": null,
+      "page": 12
+    },
+    {
+      "description": "Déclarer précisément à la conclusion toutes les circonstances constituant des éléments d'appréciation du risque, et en cours de contrat les circonstances nouvelles entraînant une aggravation sensible et durable du risque.",
+      "timing": null,
+      "sanction": "Réduction proportionnelle de la prestation ou nullité du contrat selon le caractère intentionnel ou non de l'omission/inexactitude.",
+      "page": 17
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "En cas de besoin d'aide urgente (batterie déchargée, problème mécanique, cadenas bloqué, pneu crevé, accident, vol), appeler immédiatement la centrale d'assistance au +32 (0)2 244 22 54.",
+      "deadline": "immédiatement",
+      "page": 2
+    },
+    {
+      "step": "Déclarer le sinistre via l'Espace Client sur belfiusdirect.be, par téléphone au +32 (0)2 244 23 23 ou par e-mail à sinistres@belfiusdirect.be.",
+      "deadline": "dans les huit jours de la connaissance de sa survenance",
+      "page": 2
+    },
+    {
+      "step": "En cas de vol, déposer plainte auprès de la police pour faire dresser un procès-verbal et transmettre ensuite une copie du procès-verbal d'audition.",
+      "deadline": "dans les 24h après la constatation des faits",
+      "page": 2
+    },
+    {
+      "step": "Rassembler et transmettre la liste des dégâts, la date et les circonstances du sinistre, le devis de réparation, le procès-verbal de police en cas de vol, et un maximum de photos des dégâts.",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Avant toute mise en réparation, communiquer un devis estimatif des dommages; l'assureur peut accepter l'estimation ou désigner un expert.",
+      "deadline": "avant toute mise en réparation",
+      "page": 9
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat est conclu pour une durée d'un an.",
+    "tacit_renewal": true,
+    "methods": [
+      "Par exploit d'huissier, par envoi recommandé ou par remise de la lettre de résiliation contre récépissé."
+    ],
+    "special_rights": [
+      "Le preneur peut résilier à chaque échéance annuelle, à tout moment après la première année, à la date d'effet si plus d'un an sépare la conclusion de la prise d'effet, après une augmentation de la prime, après une modification des conditions d'assurance, après une diminution du risque, ou après un sinistre.",
+      "L'assureur peut résilier à chaque échéance annuelle, à la date d'effet (si plus d'un an), en cas de défaut de paiement de la prime, en cas d'omission/inexactitude non-intentionnelles ou d'aggravation du risque, ou après un sinistre.",
+      "Déménagement à l'étranger: le contrat est résolu de plein droit à la date du déplacement de la résidence principale à l'étranger.",
+      "Cession entre vifs du vélo assuré: le contrat prend fin de plein droit dès que le vélo n'est plus en possession du preneur.",
+      "Décès du preneur: le contrat est transféré aux héritiers légaux ou ayants droit (à l'exclusion de l'État), qui peuvent résilier dans les trois mois et quarante jours du décès.",
+      "Faillite: le contrat subsiste au profit de la masse des créanciers; le curateur peut résilier dans les trois mois, l'assureur au plus tôt trois mois après la déclaration de faillite.",
+      "Vente à distance: droit de rétractation dans un délai de quatorze jours, par lettre recommandée ou e-mail."
+    ],
+    "page": 18,
+    "notice_period": "Sauf mention contraire, la résiliation n'a d'effet qu'à l'expiration d'un délai d'un mois; la résiliation après sinistre prend effet à l'expiration d'un délai de trois mois."
+  },
+  "prescription_period": null,
+  "premium": {
+    "description": "La prime, majorée des taxes et cotisations, est payable par anticipation à l'échéance, sur simple demande de l'assureur. En cas de défaut de paiement à l'échéance, l'assureur peut suspendre les garanties ou résilier le contrat après mise en demeure par exploit d'huissier ou lettre recommandée (délai d'au moins quinze jours). En cas de modification du tarif, le contrat est adapté à l'échéance annuelle suivante, avec faculté de résiliation dans les trois mois de la réception de l'avis.",
+    "page": 18
+  },
+  "special_conditions": [
+    {
+      "description": "Valeur à assurer: le prix d'achat du vélo augmenté de la valeur des accessoires et de la TVA non récupérable, compte tenu des remises et ristournes; le montant d'une reprise d'un vélo usagé n'est pas pris en compte. Une copie de la facture d'achat du vélo et des accessoires doit être présentée.",
+      "page": 8
+    },
+    {
+      "description": "Sous-assurance et règle proportionnelle: si la valeur assurée est insuffisante, l'assuré est son propre assureur pour la différence et l'indemnité est réduite proportionnellement, après déduction de la franchise éventuelle.",
+      "page": 8
+    },
+    {
+      "description": "Évaluation des dommages: en cas de désaccord, expertise contradictoire par deux experts, puis tiers expert; chaque partie supporte les frais de son expert et la moitié de ceux du tiers expert.",
+      "page": 9
+    },
+    {
+      "description": "Perte totale: lorsqu'il n'est techniquement plus possible de réparer, lorsque les frais de réparation dépassent la valeur du vélo au moment du sinistre, ou lorsque le vélo volé n'est pas retrouvé quinze jours après réception de la déclaration de vol.",
+      "page": 9
+    },
+    {
+      "description": "Indemnité en cas de perte totale: valeur du vélo au moment du sinistre = valeur assurée diminuée d'un pourcentage de 1,50% par mois écoulé à partir du 25e mois suivant la date d'achat, jamais inférieure à 20% de la valeur assurée; dépréciation appliquée aussi aux accessoires et au casque.",
+      "page": 10
+    },
+    {
+      "description": "Délai d'indemnisation: dans les dix jours à compter de l'accord sur l'évaluation (ou de la réception de la facture requise); en cas de vol, dans les vingt-et-un jours à compter de la réception de la déclaration; à défaut, intérêts au triple du taux d'intérêt légal.",
+      "page": 10
+    },
+    {
+      "description": "Vélo retrouvé après paiement de l'indemnité: l'assureur en devient propriétaire, mais l'assuré peut le récupérer contre restitution de l'indemnité, les frais de réparation éventuels étant alors couverts si le vélo n'est pas en perte totale.",
+      "page": 12
+    },
+    {
+      "description": "Assistance limitée à trois interventions maximum par année d'assurance; toute intervention supplémentaire est à charge de l'assuré.",
+      "page": 15
+    },
+    {
+      "description": "Circonstances exceptionnelles: aucun retard ou empêchement des services d'assistance ne peut être imputé à l'assureur en cas de force majeure (guerres, émeutes, terrorisme, inondations, etc.).",
+      "page": 15
+    },
+    {
+      "description": "Terrorisme: dommages couverts selon la loi du 3 mai 2024; l'assureur est membre de l'ASBL TRIP; l'engagement de l'ensemble des membres est limité à 1,7 milliard d'euros par année civile, avec règle proportionnelle en cas de dépassement.",
+      "page": 21
+    },
+    {
+      "description": "Intérêts de retard et indemnité forfaitaire en cas de non-paiement d'une dette: jusqu'à 150 EUR: 20 EUR; de plus de 150 EUR à 500 EUR: 30 EUR majorés de 10% au-delà de 150 EUR; plus de 500 EUR: 65 EUR majorés de 5% au-delà de 500 EUR, l'indemnité forfaitaire étant limitée à 2.000 EUR.",
+      "page": 24
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "L’assurance couvre, dans les limites décrites ci-après, tous les risques auxquels le véhicule assuré est exposé, à savoir le vol, les dommages matériels et le besoin d’assistance qui en résulte."
+    },
+    {
+      "quote": "L’assurance est valable dans le monde entier."
+    },
+    {
+      "quote": "Le casque du cycliste et les accessoires acquis après la conclusion de la présente assurance sont assurés gratuitement jusqu’à concurrence de 250 EUR TVA incluse, sans application de la règle proportionnelle stipulée au point 4."
+    },
+    {
+      "quote": "Nous couvrons le vol du vélo assuré."
+    },
+    {
+      "quote": "Tous les dommages matériels au vélo assuré sont couverts, sauf si ces dommages sont expressément exclus."
+    },
+    {
+      "quote": "La valeur du vélo au moment du sinistre n’est toutefois jamais inférieure à 20% de la valeur assurée."
+    },
+    {
+      "quote": "L’assistance est limitée à trois interventions maximum par année d’assurance."
+    }
+  ],
+  "gaps": [
+    "Le montant de la franchise n'est pas indiqué dans les Conditions Générales; il est stipulé dans les Conditions Particulières (point 5.6), non fournies ici.",
+    "Le vélo assuré, la valeur assurée et le montant de la prime sont fixés dans les Conditions Particulières, absentes du document.",
+    "Aucun délai de prescription chiffré n'est mentionné; le contrat renvoie à la loi belge du 4 avril 2014 relative aux assurances.",
+    "La référence/version est le code BDBI_08122025 (footer BDBI_08122025 – F08122025); interprété comme édition du 08/12/2025."
+  ]
+}
