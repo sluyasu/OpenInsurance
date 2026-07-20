@@ -1,0 +1,160 @@
+insurer:
+  slug: allianz
+  name: Allianz Benelux SA
+  website: https://www.allianz.be
+  segment: particuliers
+  notes: Allianz Benelux SA (BE 0403.258.197), large generalist. Public PDFs live on the CDN tree
+    /content/dam/onemarketing/benelu/allianz-be/downloads/fr/ but are served behind Cloudflare that
+    blocks automated fetchers (httpx, browser user-agent, headless Playwright all 403). These docs
+    are fetched manually into data/be/pdfs/allianz/<branch>/ and registered via the sidecar
+    register_manual.py; the URLs below are the provenance source_url. Representative set (~27 docs),
+    not exhaustive.
+languages:
+- fr
+- nl
+pdfs:
+- url: https://www.allianz.be/content/dam/onemarketing/benelu/allianz-be/downloads/fr/non-vie/vehicules/conditions-generales/carplan-ad1129fr-022023.pdf
+  branch: auto
+  document_type: conditions_generales
+  lang: fr
+  product_name: Car Plan
+  edition_date: 2023-02
+- url: https://www.allianz.be/content/dam/onemarketing/benelu/allianz-be/downloads/fr/non-vie/vehicules/fiche-ipid/ipid-fiche-car-plan-2022.pdf
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: Car Plan
+  edition_date: '2022'
+- url: https://www.allianz.be/content/dam/onemarketing/benelu/allianz-be/downloads/fr/non-vie/vehicules/conditions-generales/car-plan-assistance-plus-conditions-generales-ad1123.pdf
+  branch: auto
+  document_type: conditions_generales
+  lang: fr
+  product_name: Car Plan Assistance Plus
+- url: https://www.allianz.be/content/dam/onemarketing/benelu/allianz-be/downloads/fr/non-vie/vehicules/conditions-generales/assurance-conducteur-conditions-generales.pdf
+  branch: auto
+  document_type: conditions_generales
+  lang: fr
+  product_name: Assurance Conducteur
+- url: https://www.allianz.be/content/dam/onemarketing/benelu/allianz-be/downloads/fr/non-vie/vehicules/conditions-generales/protection-juridique-auto-conditions-generales.pdf
+  branch: protection-juridique
+  document_type: conditions_generales
+  lang: fr
+  product_name: Protection Juridique Auto
+- url: https://www.allianz.be/content/dam/onemarketing/benelu/allianz-be/downloads/fr/non-vie/accident-corporel/conditions-generales/traffic-plan-conditions-generales.pdf
+  branch: accidents
+  document_type: conditions_generales
+  lang: fr
+  product_name: Traffic Plan
+- url: https://www.allianz.be/content/dam/onemarketing/benelu/allianz-be/downloads/fr/non-vie/accident-corporel/conditions-generales/accidents-corporels-vie-privee-conditions-generales.pdf
+  branch: accidents
+  document_type: conditions_generales
+  lang: fr
+  product_name: Accidents corporels vie privée
+- url: https://www.allianz.be/content/dam/onemarketing/benelu/allianz-be/downloads/fr/non-vie/accident-corporel/conditions-generales/conditions-generales-assistance-24h-24-assurance-accident-independant.pdf
+  branch: accidents
+  document_type: conditions_generales
+  lang: fr
+  product_name: Assistance 24h/24 accident indépendant
+- url: https://www.allianz.be/content/dam/onemarketing/benelu/allianz-be/downloads/fr/non-vie/accidents-du-travail/fiche-ipid/ipid-assurance-accidents-collectives-independants-24.pdf
+  branch: accidents-travail
+  document_type: ipid
+  lang: fr
+  product_name: Accidents collectives indépendants 24h/24
+- url: https://www.allianz.be/content/dam/onemarketing/benelu/allianz-be/downloads/fr/non-vie/incendie/conditions-generales/newhomeplanconditionsgeneralesfr.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: New Home Plan
+- url: https://www.allianz.be/content/dam/onemarketing/benelu/allianz-be/downloads/fr/non-vie/incendie/conditions-generales/biz-plan-solutions-ad1039fr-1007.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: BIZ Plan BIZ Solution
+  edition_date: 2007-10
+- url: https://www.allianz.be/content/dam/onemarketing/benelu/allianz-be/downloads/fr/non-vie/incendie/conditions-generales/degats-materiels-et-pertes-exploitation-ad1056fr-092012-conditions-generales.pdf
+  branch: autres
+  document_type: conditions_generales
+  lang: fr
+  product_name: Dégâts matériels et pertes d'exploitation
+  edition_date: 2012-09
+- url: https://www.allianz.be/content/dam/onemarketing/benelu/allianz-be/downloads/fr/non-vie/responsabilite/conditions-generales/family-plan-ad1085-fr.pdf
+  branch: vie-privee
+  document_type: conditions_generales
+  lang: fr
+  product_name: Family Plan (RC familiale)
+- url: https://www.allianz.be/content/dam/onemarketing/benelu/allianz-be/downloads/fr/non-vie/responsabilite/fiche-ipid/ipid-family-plan-fiche-client.pdf
+  branch: vie-privee
+  document_type: ipid
+  lang: fr
+  product_name: Family Plan (RC familiale)
+- url: https://www.allianz.be/content/dam/onemarketing/benelu/allianz-be/downloads/fr/non-vie/responsabilite/conditions-generales/liability-plan-rc-entreprise-ad-1005-01-2011.pdf
+  branch: rc-professionnelle
+  document_type: conditions_generales
+  lang: fr
+  product_name: Liability Plan (RC entreprise)
+  edition_date: 2011-01
+- url: https://www.allianz.be/content/dam/onemarketing/benelu/allianz-be/downloads/fr/non-vie/responsabilite/fiche-ipid/ipid-rc-professionnel.pdf
+  branch: rc-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: RC professionnelle
+- url: https://www.allianz.be/content/dam/onemarketing/benelu/allianz-be/downloads/fr/non-vie/tous-risques-chantier-risques-techniques/conditions-generales/conditions-generales-restart.pdf
+  branch: autres
+  document_type: conditions_generales
+  lang: fr
+  product_name: Restart (tous risques chantier)
+- url: https://www.allianz.be/content/dam/onemarketing/benelu/allianz-be/downloads/fr/non-vie/tous-risques-chantier-risques-techniques/conditions-generales/conditions-generales-tous-risques-chantier.pdf
+  branch: autres
+  document_type: conditions_generales
+  lang: fr
+  product_name: Tous Risques Chantier
+- url: https://www.allianz.be/content/dam/onemarketing/benelu/allianz-be/downloads/fr/non-vie/tous-risques-chantier-risques-techniques/conditions-generales/conditions-generales-bris-de-machine-fixe.pdf
+  branch: autres
+  document_type: conditions_generales
+  lang: fr
+  product_name: Bris de machine
+- url: https://www.allianz.be/content/dam/onemarketing/benelu/allianz-be/downloads/fr/non-vie/transport-marine/fiche-ipid/ipid-transport-tcp.pdf
+  branch: autres
+  document_type: ipid
+  lang: fr
+  product_name: Transport (TCP)
+- url: https://www.allianz.be/content/dam/onemarketing/benelu/allianz-be/downloads/fr/employee-benefits/hospit-all/conditions-generales/conditions-generales-hospit-all.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: Hospit-All
+- url: https://www.allianz.be/content/dam/onemarketing/benelu/allianz-be/downloads/fr/employee-benefits/allianz-medical-plan/fiche/ipid-comfort-at-hospital.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: Comfort@hospital
+- url: https://www.allianz.be/content/dam/onemarketing/benelu/allianz-be/downloads/fr/pension/autre/conditions-generales/plan-for-life-conditions-generales.pdf
+  branch: pension
+  document_type: conditions_generales
+  lang: fr
+  product_name: Plan for Life
+- url: https://www.allianz.be/content/dam/onemarketing/benelu/allianz-be/downloads/fr/pension/plan-for-life-plus/conditions-generales/plan-for-life-plus-conditions-generales-fr.pdf
+  branch: pension
+  document_type: conditions_generales
+  lang: fr
+  product_name: Plan for Life +
+- url: https://www.allianz.be/content/dam/onemarketing/benelu/allianz-be/downloads/fr/pension/assurance-chiffre-daffaires-avec-deces/conditions-generales/conditions-generales-assurance-chiffre-dafaires-avec-deces-v-972.pdf
+  branch: pension
+  document_type: conditions_generales
+  lang: fr
+  product_name: Assurance chiffre d'affaires avec décès
+- url: https://www.allianz.be/content/dam/onemarketing/benelu/allianz-be/downloads/fr/investissement/allianz-activeinvest/conditions-generales/conditions-generales-allianz-active-invest.pdf
+  branch: epargne
+  document_type: conditions_generales
+  lang: fr
+  product_name: Allianz ActiveInvest
+- url: https://www.allianz.be/content/dam/onemarketing/benelu/allianz-be/downloads/fr/investissement/allianz-activeinvest/document-dinformations-cles/allianz-activeinvest-kid-fr.pdf
+  branch: epargne
+  document_type: product_sheet
+  lang: fr
+  product_name: Allianz ActiveInvest
+- url: https://www.allianz.be/content/dam/onemarketing/benelu/allianz-be/downloads/fr/investissement/allianz-opportunity3a-new-generation/document-dinformations-cles/allianz-opportunity3a-new-generation-kid-fr.pdf
+  branch: epargne
+  document_type: product_sheet
+  lang: fr
+  product_name: Allianz Opportunity3A New Generation
