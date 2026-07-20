@@ -1,21 +1,30 @@
 """Smoke test of every tool against the committed dataset: parseable output,
 disclaimer where facts are served, honest messages on gaps."""
 
-from conftest import parse_payload
+import pytest
+
+from conftest import (branch_without_overview, country_branches, index_rows,
+                      parse_payload)
 
 
 def test_list_countries(mcp):
     rows = parse_payload(mcp.list_countries())
     be = next(r for r in rows if r["country"] == "be")
-    assert be["products"] == 162
-    assert be["insurers"] == 17
+    idx = index_rows("be")
+    assert be["products"] == sum(1 for r in idx if r.get("type") == "product")
+    assert be["insurers"] == sum(1 for r in idx if r.get("type") == "insurer")
+    assert be["products"] > 0 and be["insurers"] > 0
 
 
 def test_list_branches(mcp):
     rows = parse_payload(mcp.list_branches("be"))
-    assert len(rows) == 16  # full taxonomy from sources/be/_country.yml
-    assert sum(1 for r in rows if r["products"]) == 12  # branches with products
-    assert sum(r["products"] for r in rows) == 162
+    idx = index_rows("be")
+    n_products = sum(1 for r in idx if r.get("type") == "product")
+    with_products = {r["branch"] for r in idx
+                     if r.get("type") == "product" and r.get("branch")}
+    assert len(rows) == len(country_branches("be"))  # one row per taxonomy branch
+    assert sum(1 for r in rows if r["products"]) == len(with_products)
+    assert sum(r["products"] for r in rows) == n_products
 
 
 def test_search_title_hit(mcp):
@@ -93,5 +102,8 @@ def test_get_branch_overview(mcp):
 
 
 def test_get_branch_overview_gap_is_honest(mcp):
-    out = mcp.get_branch_overview("be", "chasse")
+    slug = branch_without_overview("be")
+    if slug is None:
+        pytest.skip("every taxonomy branch now has an overview page")
+    out = mcp.get_branch_overview("be", slug)
     assert "No branch overview" in out

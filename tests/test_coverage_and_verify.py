@@ -2,7 +2,7 @@
 evidence retrieval). Both exist to keep the answering LLM inside the document:
 small relevant payloads instead of a 75 KB JSON to paraphrase."""
 
-from conftest import parse_payload
+from conftest import country_branches, index_rows, parse_payload
 
 
 def test_get_coverage_returns_only_relevant_items(mcp):
@@ -63,6 +63,10 @@ def test_verify_claim_keeps_amounts(mcp):
 def test_list_countries_honest_branch_counts(mcp):
     rows = parse_payload(mcp.list_countries())
     be = next(r for r in rows if r["country"] == "be")
-    assert be["branches_covered"] == 12
-    assert be["branch_taxonomy"] == 16
-    assert be["branch_overview_pages"] >= 3
+    idx = index_rows("be")
+    covered = {r["branch"] for r in idx
+               if r.get("type") == "product" and r.get("branch")}
+    assert be["branches_covered"] == len(covered)
+    assert be["branch_taxonomy"] == len(country_branches("be"))
+    assert be["branch_overview_pages"] == sum(1 for r in idx if r.get("type") == "branch")
+    assert be["branch_overview_pages"] >= 3  # some overview pages exist
