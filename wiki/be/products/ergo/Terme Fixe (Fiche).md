@@ -38,7 +38,7 @@ generated: true
 
 La Terme Fixe est une assurance vie de la branche 21 avec rendement garanti et une participation bénéficiaire. Le capital épargne contractuel ainsi que la participation bénéficiaire sont payables au terme prévu au contrat, que l’assuré soit en vie ou décédé. Des garanties complémentaires contre les risques d’invalidité et d’accident (ACRI, ACRA, ACRA Plus) peuvent être ajoutées.
 
-- Assureur : [[ERGO Insurance SA/NV]] · Branche : [[Épargne / Placement (Branche 21/23)]] · Type : Fiche produit · Édition : 01/02/2010
+- Assureur : [ERGO Insurance SA/NV](../../insurers/ERGO%20Insurance%20SA-NV.md) · Branche : Épargne / Placement (Branche 21/23) · Type : Fiche produit · Édition : 01/02/2010
 
 ## Définitions
 

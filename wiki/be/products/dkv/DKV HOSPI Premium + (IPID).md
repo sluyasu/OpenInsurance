@@ -40,7 +40,7 @@ generated: true
 
 DKV HOSPI Premium + est une assurance hospitalisation individuelle à caractère indemnitaire, complémentaire à l'intervention de l'assurance maladie légale/statutaire belge, assortie d'une assurance assistance à l'étranger (DKV ASSISTANCE). Elle rembourse les frais réels supportés (tickets modérateurs et suppléments inclus) en cas de maladie, d'accident ou d'accouchement, avec libre choix de l'hôpital, du type de chambre (à l'exception d'une chambre de luxe ou suite) et du prestataire de soins reconnu. Elle couvre les soins ambulatoires pré (60 jours avant) et post (180 jours après) hospitalisation, ainsi que les soins ambulatoires liés à 33 « Maladies Graves ». Elle peut être souscrite par toute personne physique ayant son lieu de résidence et sa résidence principale en Belgique.
 
-- Assureur : [[DKV Belgium]] · Branche : [[Santé]] · Type : IPID / Fiche d'information · Édition : 202508
+- Assureur : [DKV Belgium](../../insurers/DKV%20Belgium.md) · Branche : [Santé](../../branches/Sant%C3%A9.md) · Type : IPID / Fiche d'information · Édition : 202508
 
 ## Définitions
 
@@ -230,7 +230,7 @@ AssurPharma : envoi automatisé à DKV des attestations par un pharmacien reconn
 
 ## Documents liés
 
-- [[DKV Hospi Premium +]] - Conditions générales, éd. 08/2025
+- [DKV Hospi Premium +](DKV%20Hospi%20Premium%20%2B.md) - Conditions générales, éd. 08/2025
 
 ## Source & fidélité
 

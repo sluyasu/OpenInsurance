@@ -38,7 +38,7 @@ generated: true
 
 L'assurance hospitalisation de KBC prévoit une intervention dans les frais médicaux qui ne sont pas pris en charge par la mutuelle en cas d'hospitalisation pour cause de maladie, accident, accouchement ou complication de grossesse. Elle indemnise également les soins ambulatoires pendant la période pré- et post-hospitalisation (deux mois avant et six mois après) et dans le cas de certaines maladies graves. La couverture s'applique dans le monde entier, à vie, avec une franchise choisie par le preneur d'assurance et mentionnée dans les conditions particulières.
 
-- Assureur : [[KBC Bank & Verzekering]] · Branche : [[Santé]] · Type : Conditions générales
+- Assureur : [KBC Bank & Verzekering](../../insurers/KBC%20Bank%20%26%20Verzekering.md) · Branche : [Santé](../../branches/Sant%C3%A9.md) · Type : Conditions générales
 
 ## Définitions
 

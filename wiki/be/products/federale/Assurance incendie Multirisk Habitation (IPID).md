@@ -38,7 +38,7 @@ generated: true
 
 L'assurance Multirisk Habitation de Fédérale Assurance protège le propriétaire ou le locataire en cas de sinistre à son habitation ou bureau et à son contenu. Elle couvre également la responsabilité civile de l'assuré à l'égard d'autres personnes suite à un sinistre couvert. Le contrat comprend des garanties de base (incendie, tempête, dégâts des eaux, catastrophes naturelles, etc.), des garanties optionnelles (vol, perte d'exploitation, protection juridique, pertes indirectes) et des garanties complémentaires ainsi que Fédérale Assistance.
 
-- Assureur : [[Fédérale Assurance]] · Branche : [[Habitation]] · Type : IPID / Fiche d'information · Édition : 04/25
+- Assureur : [Fédérale Assurance](../../insurers/F%C3%A9d%C3%A9rale%20Assurance.md) · Branche : [Habitation](../../branches/Habitation.md) · Type : IPID / Fiche d'information · Édition : 04/25
 
 ## Garanties
 
@@ -176,7 +176,7 @@ Intervention en cas de dommages (par ex. surveillance du bâtiment) et en cas d'
 
 ## Documents liés
 
-- [[Assurance Incendie Multirisk Habitation]] - Conditions générales, éd. 04/25
+- [Assurance Incendie Multirisk Habitation](Assurance%20Incendie%20Multirisk%20Habitation.md) - Conditions générales, éd. 04/25
 
 ## Source & fidélité
 

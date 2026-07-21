@@ -38,7 +38,7 @@ generated: true
 
 SelfLife Protection & Pension est un contrat d’assurance vie de la branche 21 à versements planifiés, destiné à financer une pension complémentaire dans le cadre d’un Engagement Individuel de Pension pour dirigeants d’entreprise indépendants (EIP) ou d’une Pension Libre Complémentaire pour Indépendants (PLCI). L’assurance principale est constituée d’une garantie épargne (pension de retraite complémentaire) et/ou d’une garantie décès. Des assurances complémentaires peuvent également être souscrites : capital accident, exonération des primes, rente-revenus et rente-frais professionnels en cas d’incapacité de travail, et rente en cas de maladies redoutées.
 
-- Assureur : [[Athora Belgium]] · Branche : [[Pension (Branche 21)]] · Type : Conditions générales · Édition : 01/2026
+- Assureur : [Athora Belgium](../../insurers/Athora%20Belgium.md) · Branche : [Pension (Branche 21)](../../branches/Pension%20%28Branche%2021%29.md) · Type : Conditions générales · Édition : 01/2026
 
 ## Définitions
 

@@ -39,7 +39,7 @@ generated: true
 
 Assurance Protection Juridique D.A.S. couvrant un bien immobilier à usage privé ou mixte (au maximum trois unités d'habitation, ou deux unités d'habitation avec au maximum une unité d'établissement) situé en Belgique. L'assureur accompagne l'assuré pour trouver une solution au litige et prend à sa charge honoraires et frais d'avocats, frais d'expertise et frais de justice, en privilégiant d'abord une solution à l'amiable. La couverture est proposée en trois formules : Formule 1 (couverture de base), Formule 2 (couverture globale) et Formule 3 (couverture globale avec garantie location).
 
-- Assureur : [[D.A.S.]] · Branche : [[Protection juridique]] · Type : Conditions particulières · Édition : 01/2025
+- Assureur : [D.A.S.](../../insurers/D.A.S..md) · Branche : [Protection juridique](../../branches/Protection%20juridique.md) · Type : Conditions particulières · Édition : 01/2025
 
 ## Définitions
 

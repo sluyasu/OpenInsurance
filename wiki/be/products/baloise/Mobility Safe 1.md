@@ -38,7 +38,7 @@ generated: true
 
 Mobility Safe 1 sont les Conditions Générales de la police Véhicules automoteurs de Baloise Belgium (voitures de tourisme, minibus, camping-cars, camionnettes max. 3,5 t, deux-roues et similaires). La police combinée regroupe six parties: l'assurance RC Véhicules automoteurs obligatoire, l'assurance Omnium Safe 1 (dommages et vol du véhicule), les Services (Baloise Assistance, réseaux de réparateurs Premium Plus / Service Plus), l'assurance Conducteur (dommages corporels du conducteur), l'assurance Transport de biens par la route pour compte propre, et l'assurance Bris de machines Safe 1 (appareil monté sur le véhicule). Les Conditions Particulières précisent les assurances et garanties souscrites, le véhicule désigné et les valeurs assurées.
 
-- Assureur : [[Baloise Belgium]] · Branche : [[Auto]] · Type : Conditions générales · Édition : 01-02-2024
+- Assureur : [Baloise Belgium](../../insurers/Baloise%20Belgium.md) · Branche : [Auto](../../branches/Auto.md) · Type : Conditions générales · Édition : 01-02-2024
 
 ## Définitions
 

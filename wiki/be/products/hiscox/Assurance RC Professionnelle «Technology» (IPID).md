@@ -38,7 +38,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) résumant les principales garanties et exclusions de l’assurance Responsabilité Civile Professionnelle « Technology » de Hiscox SA (entreprise d’assurances agréée sous le n° de code 3099, siège à Luxembourg, agissant en Belgique via sa succursale). Le produit permet de protéger les professionnels des technologies de l’information contre les conséquences des erreurs, fautes ou omissions commises dans le cadre de leur activité professionnelle. Il couvre les conséquences pécuniaires de la responsabilité civile (montants convenus à l’amiable ou visés par une décision judiciaire exécutoire, frais de défense) pour des risques tels que manquements contractuels, fautes professionnelles, divulgation d’informations confidentielles, atteinte à la vie privée, violation de propriété intellectuelle, événement cyber et biens confiés, avec des extensions et une Protection Juridique en option. Ce résumé n’est pas exhaustif : l’information complète figure dans la documentation contractuelle et précontractuelle.
 
-- Assureur : [[Hiscox SA]] · Branche : [[RC professionnelle]] · Type : IPID / Fiche d'information · Édition : 2024
+- Assureur : [Hiscox SA](../../insurers/Hiscox%20SA.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : IPID / Fiche d'information · Édition : 2024
 
 ## Garanties
 
@@ -195,7 +195,7 @@ Protection Juridique (en option), comprenant : la défense pénale ; la demande 
 
 ## Documents liés
 
-- [[Responsabilité Civile professionnelle Technology (CP)]] - Conditions particulières, éd. 2024-01
+- [Responsabilité Civile professionnelle Technology (CP)](Responsabilit%C3%A9%20Civile%20professionnelle%20Technology%20%28CP%29.md) - Conditions particulières, éd. 2024-01
 
 ## Source & fidélité
 

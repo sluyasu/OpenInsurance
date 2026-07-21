@@ -38,7 +38,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de l'assurance Locataire Homie - Standard de Belfius Direct Assurances, une assurance Incendie. Elle couvre la responsabilité locative et les dommages causés aux biens assurés dont le preneur est propriétaire, avec de nombreux périls (incendie, explosion, dégâts des eaux et huiles minérales, bris de vitres, action de l'électricité, effraction/vandalisme, conflits du travail et attentats, RC Bâtiment, hospitalisation brûlures) et une assistance habitation 24 h/24.
 
-- Assureur : [[Belfius Direct Assurances]] · Branche : [[Habitation]] · Type : Fiche produit · Édition : 08/2024
+- Assureur : [Belfius Direct Assurances](../../insurers/Belfius%20Direct%20Assurances.md) · Branche : [Habitation](../../branches/Habitation.md) · Type : Fiche produit · Édition : 08/2024
 
 ## Garanties
 
@@ -153,7 +153,7 @@ Vous êtes indemnisé pour les frais liés: aux travaux d'extinction (y compris 
 
 ## Documents liés
 
-- [[Assurance Locataire Homie]] - Conditions générales, éd. 01/07/2023
+- [Assurance Locataire Homie](Assurance%20Locataire%20Homie.md) - Conditions générales, éd. 01/07/2023
 
 ## Source & fidélité
 

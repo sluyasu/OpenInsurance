@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales F5010 (édition 01/2025) de l'assurance Protection Juridique de la D.A.S. En cas de conflit que l'assuré ne peut résoudre par lui-même, la D.A.S. garantit la mise en œuvre des moyens nécessaires à la recherche d'une solution amiable, judiciaire, extra-judiciaire ou administrative. Le document décrit les prestations prises en charge (frais d'avocat, d'huissier, d'expert, de procédure, de déplacement), les sommes assurées et le minimum litigieux, la date de survenance, la validité dans le temps, le paiement des primes, la gestion des sinistres, les exclusions générales et les droits entre assurés. Les montants d'intervention et le minimum litigieux sont précisés aux conditions spéciales/particulières, non dans ces conditions générales.
 
-- Assureur : [[D.A.S.]] · Branche : [[Autres]] · Type : Conditions générales · Édition : 01/2025
+- Assureur : [D.A.S.](../../insurers/D.A.S..md) · Branche : [Autres](../../branches/Autres.md) · Type : Conditions générales · Édition : 01/2025
 
 ## Définitions
 

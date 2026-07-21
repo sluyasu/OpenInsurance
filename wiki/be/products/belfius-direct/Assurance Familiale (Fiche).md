@@ -38,7 +38,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de l'Assurance Familiale de Belfius Direct Assurances, une assurance responsabilité civile vie privée. Elle couvre la responsabilité civile du preneur et des membres de son ménage pour les dommages causés à des tiers dans le cadre de la vie privée, avec une garantie Protection Juridique optionnelle (défense pénale, recours civil, insolvabilité, caution pénale). L'assurance est valable dans le monde entier.
 
-- Assureur : [[Belfius Direct Assurances]] · Branche : [[Vie privée]] · Type : Fiche produit · Édition : 01/2026
+- Assureur : [Belfius Direct Assurances](../../insurers/Belfius%20Direct%20Assurances.md) · Branche : [Vie privée](../../branches/Vie%20priv%C3%A9e.md) · Type : Fiche produit · Édition : 01/2026
 
 ## Garanties
 
@@ -127,7 +127,7 @@ au recours civil, avec un seuil d'intervention de 500 euros, pour les dommages q
 
 ## Documents liés
 
-- [[Assurance Familiale]] - Conditions générales, éd. 01/07/2023
+- [Assurance Familiale](Assurance%20Familiale.md) - Conditions générales, éd. 01/07/2023
 
 ## Source & fidélité
 

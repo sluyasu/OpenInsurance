@@ -38,7 +38,7 @@ generated: true
 
 L'assurance de responsabilité « Top Familiale » d'AG Insurance couvre la responsabilité civile extracontractuelle des assurés dans le cadre de leur vie privée (dommages corporels et matériels causés à des tiers). Elle comprend une garantie de base 'Responsabilité Civile Vie Privée' et deux garanties optionnelles moyennant surprime : 'Protection Juridique Vie Privée' (gérée par Providis) et 'Pack Familiale+' (extensions de couverture). Le contrat est régi par la loi belge du 4 avril 2014 relative aux assurances et l'arrêté royal du 12 janvier 1984.
 
-- Assureur : [[AG Insurance]] · Branche : [[Vie privée]] · Type : Conditions générales · Édition : 01/01/2025
+- Assureur : [AG Insurance](../../insurers/AG%20Insurance.md) · Branche : [Vie privée](../../branches/Vie%20priv%C3%A9e.md) · Type : Conditions générales · Édition : 01/01/2025
 
 ## Définitions
 
@@ -325,7 +325,7 @@ Le délai de prescription est de trois ans pour toute action découlant du contr
 ## Documents liés
 
 - Édition courante de ce produit.
-- [[Assurance de Responsabilité Top Familiale]] - Conditions générales, éd. 01/01/2025
+- [Assurance de Responsabilité Top Familiale](Assurance%20de%20Responsabilit%C3%A9%20Top%20Familiale.md) - Conditions générales, éd. 01/01/2025
 
 ## Source & fidélité
 

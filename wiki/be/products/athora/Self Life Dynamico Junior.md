@@ -38,7 +38,7 @@ generated: true
 
 Self Life Dynamico Junior est un contrat d’assurance vie à versements planifiés (branche épargne) souscrit entre le preneur d’assurance et Athora Belgium. Il constitue une épargne (réserve du contrat) qui bénéficie d’un taux d’intérêt garanti et d’une participation bénéficiaire annuelle. En cas de décès de l’assuré avant le terme, la compagnie verse au(x) bénéficiaire(s) la prestation décès mentionnée aux conditions particulières, ce qui met fin au contrat. Des garanties complémentaires (capital accident, exonération des primes, Junior Assistance) peuvent être souscrites.
 
-- Assureur : [[Athora Belgium]] · Branche : [[Épargne / Placement (Branche 21/23)]] · Type : Conditions générales · Édition : 01/2026
+- Assureur : [Athora Belgium](../../insurers/Athora%20Belgium.md) · Branche : Épargne / Placement (Branche 21/23) · Type : Conditions générales · Édition : 01/2026
 
 ## Définitions
 
@@ -173,7 +173,7 @@ La compagnie couvre les dommages causés par le terrorisme et est membre à cett
 ## Documents liés
 
 - Édition courante de ce produit.
-- [[Self Life Dynamico Junior]] - Conditions générales, éd. 01/2026
+- [Self Life Dynamico Junior](Self%20Life%20Dynamico%20Junior%20%282%29.md) - Conditions générales, éd. 01/2026
 
 ## Source & fidélité
 

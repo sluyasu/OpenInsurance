@@ -38,7 +38,7 @@ generated: true
 
 L'assurance habitation d'AMMA Assurances est une assurance incendie complète pour le bâtiment et/ou son contenu. Les garanties de base comprennent les dommages en cas d'incendie, de tempête, de catastrophe naturelle, de dégâts des eaux et de bris de glace, ainsi que la responsabilité civile du bâtiment assurée de manière standard. L'assurance peut être étendue avec la garantie contre le vol, la perte d'exploitation et les pertes indirectes. Ce document est un IPID qui résume les conditions générales et particulières et n'est pas contraignant.
 
-- Assureur : [[AMMA Assurances]] · Branche : [[Habitation]] · Type : IPID / Fiche d'information · Édition : 2025
+- Assureur : [AMMA Assurances](../../insurers/AMMA%20Assurances.md) · Branche : [Habitation](../../branches/Habitation.md) · Type : IPID / Fiche d'information · Édition : 2025
 
 ## Garanties
 

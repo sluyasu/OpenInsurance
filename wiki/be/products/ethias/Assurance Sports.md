@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales de l'assurance Sports d'Ethias, valable dans le monde entier, couvrant la pratique individuelle ou en groupe d'un ou plusieurs sports désignés aux conditions particulières et/ou spéciales. Le contrat comprend deux divisions : la responsabilité civile de l'assuré pour les dommages causés à des tiers (Division A) et les accidents corporels de l'assuré avec garanties frais de traitement, décès, invalidité permanente et incapacité temporaire (Division B). Les activités assurées incluent notamment compétitions, championnats, matches, entraînements, déplacements collectifs et jeux ou fêtes organisés par un club ou une association sportive.
 
-- Assureur : [[Ethias]] · Branche : [[Accidents]] · Type : Conditions générales · Édition : 03/25
+- Assureur : [Ethias](../../insurers/Ethias.md) · Branche : [Accidents](../../branches/Accidents.md) · Type : Conditions générales · Édition : 03/25
 
 ## Définitions
 
@@ -197,7 +197,7 @@ Dans la mesure où la couverture de l'incapacité temporaire est prévue dans le
 
 ## Documents liés
 
-- [[Assurance Sports (IPID)]] - IPID / Fiche d'information, éd. 03/25
+- [Assurance Sports (IPID)](Assurance%20Sports%20%28IPID%29.md) - IPID / Fiche d'information, éd. 03/25
 
 ## Source & fidélité
 

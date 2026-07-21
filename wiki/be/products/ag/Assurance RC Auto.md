@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales de l'assurance RC Auto d'AG Insurance, assurance légalement obligatoire de la responsabilité civile en matière de véhicules automoteurs (loi du 21 novembre 1989). Le contrat couvre la responsabilité civile encourue par les assurés à la suite d'un sinistre causé par le véhicule automoteur assuré, avec les extensions AG (Assistance Immédiate, réseau de réparateurs agréés, contrat de confiance) et des garanties complémentaires (véhicule de remplacement temporaire, remorquage, nettoyage des garnitures, cautionnement). Des extensions optionnelles RC Max et RC Max XL indemnisent les dommages corporels du conducteur, même en tort, jusqu'à 250.000 EUR. Le document décrit aussi le système de bonus-malus Turbo Bonus.
 
-- Assureur : [[AG Insurance]] · Branche : [[Auto]] · Type : Conditions générales · Édition : 18/11/2023
+- Assureur : [AG Insurance](../../insurers/AG%20Insurance.md) · Branche : [Auto](../../branches/Auto.md) · Type : Conditions générales · Édition : 18/11/2023
 
 ## Définitions
 

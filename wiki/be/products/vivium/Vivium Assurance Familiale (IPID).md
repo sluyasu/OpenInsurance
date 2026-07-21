@@ -38,7 +38,7 @@ generated: true
 
 Vivium Assurance Familiale est une assurance de responsabilité civile et, en option, de protection juridique pour les activités de l'assuré et de son foyer dans le cadre de la vie privée. La garantie responsabilité civile protège contre les conséquences financières lorsque la responsabilité extracontractuelle - et dans certains cas contractuelle - de l'assuré est engagée en cas de dommages occasionnés à des tiers. La garantie optionnelle protection juridique aide à défendre les droits de l'assuré, notamment lorsqu'il réclame une indemnisation sur base extracontractuelle.
 
-- Assureur : [[Vivium]] · Branche : [[Vie privée]] · Type : IPID / Fiche d'information · Édition : 2025-04
+- Assureur : [Vivium](../../insurers/Vivium.md) · Branche : [Vie privée](../../branches/Vie%20priv%C3%A9e.md) · Type : IPID / Fiche d'information · Édition : 2025-04
 
 ## Définitions
 

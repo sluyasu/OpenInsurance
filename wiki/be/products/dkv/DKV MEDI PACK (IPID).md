@@ -40,7 +40,7 @@ generated: true
 
 DKV MEDI PACK est une assurance individuelle soins de santé à caractère indemnitaire, complémentaire à l’intervention de l’assurance maladie légale belge. Elle couvre les soins ambulatoires (remboursement à 80%) et l’hospitalisation en chambre double ou commune (remboursement à 100%), avec libre choix du prestataire de soins, de l’hôpital et du médecin. Elle inclut également l’assistance dans l’Union européenne et le rapatriement en cas d’hospitalisation urgente imprévue, ainsi que des services comme Medi-Card® et AssurPharma.
 
-- Assureur : [[DKV Belgium]] · Branche : [[Santé]] · Type : IPID / Fiche d'information · Édition : 202507
+- Assureur : [DKV Belgium](../../insurers/DKV%20Belgium.md) · Branche : [Santé](../../branches/Sant%C3%A9.md) · Type : IPID / Fiche d'information · Édition : 202507
 
 ## Garanties
 

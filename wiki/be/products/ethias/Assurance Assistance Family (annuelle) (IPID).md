@@ -38,7 +38,7 @@ generated: true
 
 L'Assurance Assistance Family (annuelle) d'Ethias est un contrat d'assurance assistance par lequel l'assureur s'engage à fournir des services et à prendre en charge des frais (d'hospitalisation, de rapatriement, …) afin de porter aide, appui ou secours dans le cadre d'un voyage en Belgique et à l'étranger, ainsi qu'aux membres du ménage vivant sous le même toit. Le contrat couvre l'assistance aux personnes (rapatriement, retour anticipé, remboursement des frais médicaux liés à une hospitalisation à l'étranger jusqu'à € 500 000). En option, la garantie Home Emergency couvre les interventions d'urgence nécessaires à la sécurisation de l'habitation lors de situations urgentes.
 
-- Assureur : [[Ethias]] · Branche : [[Voyage]] · Type : IPID / Fiche d'information · Édition : 09/24
+- Assureur : [Ethias](../../insurers/Ethias.md) · Branche : [Voyage](../../branches/Voyage.md) · Type : IPID / Fiche d'information · Édition : 09/24
 
 ## Garanties
 
@@ -107,7 +107,7 @@ Les interventions d'urgence nécessaires à la sécurisation de votre habitation
 
 ## Documents liés
 
-- [[Assurance Assistance Family (Annuelle)]] - Conditions générales, éd. 03/25
+- [Assurance Assistance Family (Annuelle)](Assurance%20Assistance%20Family%20%28Annuelle%29.md) - Conditions générales, éd. 03/25
 
 ## Source & fidélité
 

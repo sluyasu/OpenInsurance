@@ -38,7 +38,7 @@ generated: true
 
 L'Assurance Résidence+ d'Argenta Assurances est une police combinée « incendie & familiale » comprenant une assurance incendie/habitation (immeuble, responsabilité locative et contenu) déclinée en modules Base et Confort, et une Protection familiale (Responsabilité civile vie privée + Protection juridique) à laquelle s'ajoutent automatiquement une garantie de base Assistance vélo et une garantie optionnelle Assurance voyage assurées par Europ Assistance Belgium. Les garanties de base incendie couvrent l'incendie, les dégâts des eaux, la tempête/grêle/pression de neige et de glace, les catastrophes naturelles, le bris de vitre, la responsabilité civile immeuble et l'assistance en cas de sinistre ; le module Confort ajoute des garanties optionnelles (vol, perte indirecte, nouvelles normes de construction, protection juridique). Le contrat est de droit belge, d'une durée d'un an à reconduction tacite.
 
-- Assureur : [[Argenta Assurances]] · Branche : [[Habitation]] · Type : Conditions générales · Édition : 20-04-2026
+- Assureur : [Argenta Assurances](../../insurers/Argenta%20Assurances.md) · Branche : [Habitation](../../branches/Habitation.md) · Type : Conditions générales · Édition : 20-04-2026
 
 ## Définitions
 

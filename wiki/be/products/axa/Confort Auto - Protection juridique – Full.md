@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales de la garantie Protection juridique – Full du produit Confort Auto d'AXA Belgium, dont la souscription doit être indiquée aux conditions particulières. La garantie a pour objet la prévention et l'information juridique, ainsi que la défense amiable et/ou judiciaire des intérêts juridiques de l'assuré liés au véhicule désigné et à la circulation. Les sinistres sont gérés par Legal Village S.A. selon le principe du « tout sauf » : tout est couvert sauf les limitations et exceptions expressément prévues. L'intervention est plafonnée à 125.000 EUR par sinistre (majorée de 10 % en cas de médiation), avec des sous-plafonds spécifiques pour certaines prestations.
 
-- Assureur : [[AXA Belgium]] · Branche : [[Protection juridique]] · Type : Conditions générales · Édition : 2024-10-14
+- Assureur : [AXA Belgium](../../insurers/AXA%20Belgium.md) · Branche : [Protection juridique](../../branches/Protection%20juridique.md) · Type : Conditions générales · Édition : 2024-10-14
 
 ## Définitions
 

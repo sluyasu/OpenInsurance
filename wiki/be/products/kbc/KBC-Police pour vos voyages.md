@@ -38,7 +38,7 @@ generated: true
 
 La KBC-Police pour vos voyages est une police de voyage qui regroupe plusieurs assurances : assurance assistance personnes, assurance annulation, assurance bagages, assurance accidents en voyage avec protection supplémentaire, et assurance litiges dans le cadre de voyages. Les assurances effectivement souscrites sont énumérées dans les conditions particulières. Une formule VIP double les montants assurés et limites d'indemnisation (sauf la franchise), et une option Voyages d'affaires étend le champ d'application aux voyages professionnels.
 
-- Assureur : [[KBC Bank & Verzekering]] · Branche : [[Voyage]] · Type : Conditions générales
+- Assureur : [KBC Bank & Verzekering](../../insurers/KBC%20Bank%20%26%20Verzekering.md) · Branche : [Voyage](../../branches/Voyage.md) · Type : Conditions générales
 
 ## Définitions
 

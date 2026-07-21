@@ -38,7 +38,7 @@ generated: true
 
 Conditions Tarifaires d'Assurance du plan DKV Medi Pack, une assurance maladie belge de DKV Belgium formulée en exécution des Conditions Générales d'Assurance. Le plan couvre le traitement ambulatoire (remboursé à 80 %) et l'hospitalisation en chambre à deux ou plusieurs lits ou en hospitalisation de jour (remboursée à 100 %) suite à une maladie, un accouchement ou un accident, ainsi que les traitements dentaires lors d'une hospitalisation et la procréation médicalement assistée. Le document précise les critères d'indemnisation, la franchise, l'assurabilité, la territorialité, la fin de garantie et le service Medi-Card®.
 
-- Assureur : [[DKV Belgium]] · Branche : [[Santé]] · Type : conditions_tarifaires · Édition : 08/2025
+- Assureur : [DKV Belgium](../../insurers/DKV%20Belgium.md) · Branche : [Santé](../../branches/Sant%C3%A9.md) · Type : conditions_tarifaires · Édition : 08/2025
 
 ## Définitions
 

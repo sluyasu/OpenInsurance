@@ -38,7 +38,7 @@ generated: true
 
 Touring Move On est une assurance assistance émise par AG Insurance SA qui prévoit le dépannage des véhicules assurés en Belgique et/ou en Europe. La formule Touring Move On Belgique comme la formule Touring Move On Etranger peuvent être souscrites à titre individuel ou pour la famille. Un Pack Assurance Voyage peut être souscrit uniquement en complément de la formule Touring Move On Etranger : il couvre l'assistance aux personnes à l'étranger, dont l'intervention en cas de frais médicaux, et prévoit une intervention en cas de retard, annulation, déclassement ou refus d'embarquement d'un vol (Fly Zen).
 
-- Assureur : [[Touring]] · Branche : [[Autres]] · Type : IPID / Fiche d'information · Édition : 01042026
+- Assureur : [Touring](../../insurers/Touring.md) · Branche : [Autres](../../branches/Autres.md) · Type : IPID / Fiche d'information · Édition : 01042026
 
 ## Définitions
 
@@ -175,7 +175,7 @@ Intervention en cas de retard, annulation, déclassement ou refus d'embarquement
 
 ## Documents liés
 
-- [[Touring Move On]] - Conditions générales, éd. 01/04/2026
+- [Touring Move On](Touring%20Move%20On.md) - Conditions générales, éd. 01/04/2026
 
 ## Source & fidélité
 

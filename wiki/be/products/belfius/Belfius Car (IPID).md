@@ -38,7 +38,7 @@ generated: true
 
 Belfius Car est un contrat d'assurance par lequel l'assureur couvre la responsabilité civile de l'assuré lors d'un accident de la circulation et indemnise les tiers pour tous les dommages causés par le véhicule assuré. Cette assurance de la Responsabilité Civile automoteur est obligatoire en Belgique. Elle peut être complétée par des garanties optionnelles couvrant les dommages corporels du conducteur, les dommages au véhicule assuré, la protection juridique ou l'assistance au véhicule. Le véhicule assuré peut être une voiture, un minibus ou une camionnette dont la masse maximale autorisée ne dépasse pas 3,5 tonnes, ou encore un mobilhome.
 
-- Assureur : [[Belfius Insurance]] · Branche : [[Auto]] · Type : IPID / Fiche d'information · Édition : septembre 2024
+- Assureur : [Belfius Insurance](../../insurers/Belfius%20Insurance.md) · Branche : [Auto](../../branches/Auto.md) · Type : IPID / Fiche d'information · Édition : septembre 2024
 
 ## Garanties
 
@@ -145,7 +145,7 @@ Garantie optionnelle (choix entre 3 formules). Belfius Car prévoit le dépannag
 
 ## Documents liés
 
-- [[Belfius Car]] - Conditions générales, éd. 092024
+- [Belfius Car](Belfius%20Car.md) - Conditions générales, éd. 092024
 
 ## Source & fidélité
 

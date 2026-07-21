@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales de l'Assurance Auto souscrite via Yuzzu S.A. (souscripteur mandaté non-vie) pour le compte de l'Assureur AXA Belgium, couvrant les véhicules automoteurs. Le contrat se compose de plusieurs Titres : la Responsabilité Civile obligatoire et ses extensions (Titre I), les dommages au véhicule en formules Mini Omnium, Omnium Essentium et Full Omnium (Titre II), les lésions corporelles du conducteur en formule Tout Conducteur (Titre III), la Protection Juridique Circulation gérée par Legal Village (Titre IV), les services d'assistance en option et inclus (Titres V et VII), les dispositions administratives (Titre VI) et le mécanisme d'évolution annuelle de la prime (Titre VIII). Les Conditions Minimales légales (annexe de l'arrêté royal du 5 février 2019) sont reproduites et priment en cas de divergence.
 
-- Assureur : [[Yuzzu]] · Branche : [[Auto]] · Type : Conditions générales · Édition : 2026-05-12
+- Assureur : [Yuzzu](../../insurers/Yuzzu.md) · Branche : [Auto](../../branches/Auto.md) · Type : Conditions générales · Édition : 2026-05-12
 
 ## Définitions
 
@@ -599,8 +599,8 @@ Toute action dérivant du contrat (Titre III - Lésions corporelles du conducteu
 ## Documents liés
 
 - Édition courante de ce produit.
-- [[Assurance Auto (IPID)]] - IPID / Fiche d'information, éd. 12/05/2026
-- [[Assurance Auto]] - Conditions générales, éd. 2026-05-12
+- [Assurance Auto (IPID)](Assurance%20Auto%20%28IPID%29.md) - IPID / Fiche d'information, éd. 12/05/2026
+- [Assurance Auto](Assurance%20Auto%20%282%29.md) - Conditions générales, éd. 2026-05-12
 
 ## Source & fidélité
 

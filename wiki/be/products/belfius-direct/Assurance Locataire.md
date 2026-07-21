@@ -38,7 +38,7 @@ generated: true
 
 Conditions Générales de l'Assurance Locataire de Belfius Direct Assurances. Le contrat couvre la responsabilité locative du preneur pour les dommages matériels au bien loué dont il est responsable en tant que locataire ou occupant, avec possibilité d'assurer également le contenu. L'assurance principale Habitation comprend des garanties de base (incendie, explosion, dégâts des eaux, mazout, bris de vitrages, responsabilité civile bâtiment et contenu, catastrophes naturelles, assistance habitation, etc.) et des garanties optionnelles (Vol et Protection Juridique). Le contrat inclut une assurance complémentaire Responsabilité Civile Familiale et Protection Juridique Familiale.
 
-- Assureur : [[Belfius Direct Assurances]] · Branche : [[Habitation]] · Type : Conditions générales · Édition : 15/06/2025
+- Assureur : [Belfius Direct Assurances](../../insurers/Belfius%20Direct%20Assurances.md) · Branche : [Habitation](../../branches/Habitation.md) · Type : Conditions générales · Édition : 15/06/2025
 
 ## Définitions
 
@@ -415,7 +415,7 @@ Assure la défense pénale, le recours civil de l'assuré, l'insolvabilité des 
 
 ## Documents liés
 
-- [[Assurance Locataire (Fiche)]] - Fiche produit, éd. 06/2025
+- [Assurance Locataire (Fiche)](Assurance%20Locataire%20%28Fiche%29.md) - Fiche produit, éd. 06/2025
 
 ## Source & fidélité
 

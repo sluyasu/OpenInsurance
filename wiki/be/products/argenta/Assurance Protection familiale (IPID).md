@@ -38,7 +38,7 @@ generated: true
 
 Assurance familiale (Protection familiale) d'Argenta Assurances SA qui couvre la responsabilité civile des assurés lorsqu'ils causent des dommages à des tiers dans le cadre de leur vie privée, en dehors de tout contexte contractuel. Elle comprend une garantie de base Protection juridique (recours civil, défense pénale, insolvabilité du tiers, recherche d'enfants mineurs disparus) et une garantie de base Assistance vélo. Une garantie optionnelle Assurance voyage peut être ajoutée. L'Assistance vélo et l'Assurance voyage sont des produits de l'assureur Europ Assistance Belgium, Argenta Assurances SA agissant comme distributeur mandaté.
 
-- Assureur : [[Argenta Assurances]] · Branche : [[Vie privée]] · Type : IPID / Fiche d'information · Édition : 20/04/2026
+- Assureur : [Argenta Assurances](../../insurers/Argenta%20Assurances.md) · Branche : [Vie privée](../../branches/Vie%20priv%C3%A9e.md) · Type : IPID / Fiche d'information · Édition : 20/04/2026
 
 ## Garanties
 

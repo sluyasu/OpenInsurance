@@ -38,7 +38,7 @@ generated: true
 
 Confort Personnes (produit forfaitaire) est une assurance individuelle accidents qui couvre l'assuré s'il est victime de dommages corporels lors d'un accident dans sa vie privée, selon la formule choisie. Il s'agit d'une couverture en mode forfaitaire, qui garantit le paiement d'une indemnité fixée conformément au contrat pour les accidents entraînant une incapacité permanente personnelle ou le décès (ou une incapacité temporaire, des frais de traitement ou d'hospitalisation selon les options souscrites). Le produit propose une formule « Adultes » (4 formules au choix) et une formule « Enfants » (3 formules au choix).
 
-- Assureur : [[AXA Belgium]] · Branche : [[Santé]] · Type : IPID / Fiche d'information · Édition : 09.2018
+- Assureur : [AXA Belgium](../../insurers/AXA%20Belgium.md) · Branche : [Santé](../../branches/Sant%C3%A9.md) · Type : IPID / Fiche d'information · Édition : 09.2018
 
 ## Garanties
 
@@ -175,7 +175,7 @@ Garantie d'assistance : la Première assistance n'est acquise qu'en Belgique. De
 
 ## Documents liés
 
-- [[Confort Personnes]] - Conditions générales, éd. 06.2022
+- [Confort Personnes](Confort%20Personnes.md) - Conditions générales, éd. 06.2022
 
 ## Source & fidélité
 

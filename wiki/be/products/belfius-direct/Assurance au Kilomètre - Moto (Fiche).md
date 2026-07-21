@@ -38,7 +38,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de l'Assurance au Kilomètre - Moto de Belfius Direct Assurances. Il s'agit d'un contrat d'assurance multirisque couvrant la responsabilité civile de l'assuré en cas d'accident de la circulation, obligatoire en Belgique pour les conducteurs de moto. La garantie de base peut être complétée par des garanties optionnelles: Assurance Conducteur, Petite Omnium/Full Omnium, Protection Juridique et véhicule de remplacement.
 
-- Assureur : [[Belfius Direct Assurances]] · Branche : [[Auto]] · Type : Fiche produit · Édition : 10/2024
+- Assureur : [Belfius Direct Assurances](../../insurers/Belfius%20Direct%20Assurances.md) · Branche : [Auto](../../branches/Auto.md) · Type : Fiche produit · Édition : 10/2024
 
 ## Garanties
 
@@ -120,7 +120,7 @@ Si le véhicule assuré est volé ou immobilisé à la suite d'un accident, d'un
 
 ## Documents liés
 
-- [[Assurance au kilomètre Moto]] - Conditions générales
+- [Assurance au kilomètre Moto](Assurance%20au%20kilom%C3%A8tre%20Moto.md) - Conditions générales
 
 ## Source & fidélité
 

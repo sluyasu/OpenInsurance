@@ -41,7 +41,7 @@ generated: true
 
 Conditions générales régissant les dispositions propres aux assurances complémentaires souscrites en complément d’un contrat d’assurance principal (Engagement Individuel de Pension / Pension Libre Complémentaire pour Indépendants). Les conditions générales de l’assurance principale s’appliquent dans la mesure où les clauses propres aux assurances complémentaires n’y dérogent pas ; ces assurances n’ont d’effet que si elles sont indiquées aux conditions particulières du contrat d’assurance principal. Les garanties couvertes sont : le capital accident (décès et invalidité totale et permanente), l’exonération du paiement des primes, la rente-revenus et la rente-frais professionnels en cas d’incapacité de travail, et la rente en cas de maladies redoutées.
 
-- Assureur : [[Athora Belgium]] · Branche : [[Pension (Branche 21)]] · Type : Conditions générales · Édition : 03/2021
+- Assureur : [Athora Belgium](../../insurers/Athora%20Belgium.md) · Branche : [Pension (Branche 21)](../../branches/Pension%20%28Branche%2021%29.md) · Type : Conditions générales · Édition : 03/2021
 
 ## Définitions
 

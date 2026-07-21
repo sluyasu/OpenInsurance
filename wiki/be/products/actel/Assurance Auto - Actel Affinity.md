@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales de l’assurance auto ACTEL AFFINITY (marque de P&V Assurances scrl). Le contrat se compose de garanties séparées: le Titre I (responsabilité civile obligatoire), le Titre II (protection juridique, en trois formules: Base, Standard et All In) et le Titre III (dégâts au véhicule), complétés par les assistances Car Relax (Titre IV) et Travel Relax (Titre V). La garantie RC couvre les dommages corporels de façon illimitée et les dommages matériels jusqu’à 100 millions d’EUR par sinistre. Chaque garantie n’est acquise que si elle est mentionnée aux conditions particulières.
 
-- Assureur : [[Actel]] · Branche : [[Auto]] · Type : Conditions générales · Édition : 04.2013
+- Assureur : [Actel](../../insurers/Actel.md) · Branche : [Auto](../../branches/Auto.md) · Type : Conditions générales · Édition : 04.2013
 
 ## Définitions
 
@@ -244,7 +244,7 @@ Garantie complémentaire (acquise si le véhicule bénéficie de Car Relax et si
 
 ## Documents liés
 
-- [[Assurance Auto - Actel Direct]] - Conditions générales, éd. 04.2013
+- [Assurance Auto - Actel Direct](Assurance%20Auto%20-%20Actel%20Direct.md) - Conditions générales, éd. 04.2013
 
 ## Source & fidélité
 

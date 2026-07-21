@@ -38,7 +38,7 @@ generated: true
 
 La KBC-Police vacances est une police voyage regroupant plusieurs assurances : assistance personnes, annulation, bagages, accidents en voyage avec protection supplémentaire et litiges dans le cadre de voyages. Les assurances effectivement souscrites sont énumérées dans les conditions particulières. Les couvertures peuvent être souscrites pour l'Europe géographique ou le monde entier ; une formule VIP double les montants assurés (sauf l'Assurance annulation) et une option Voyages d'affaires étend le champ d'application aux voyages professionnels.
 
-- Assureur : [[KBC Bank & Verzekering]] · Branche : [[Voyage]] · Type : Conditions générales
+- Assureur : [KBC Bank & Verzekering](../../insurers/KBC%20Bank%20%26%20Verzekering.md) · Branche : [Voyage](../../branches/Voyage.md) · Type : Conditions générales
 
 ## Définitions
 

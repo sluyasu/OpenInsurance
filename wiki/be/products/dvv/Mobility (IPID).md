@@ -38,7 +38,7 @@ generated: true
 
 Mobility est un contrat d'assurance Véhicules Automoteurs de DVV assurances (marque de Belins SA) par lequel l'assureur couvre la responsabilité civile de l'assuré lors d'un accident de la circulation et indemnise les tiers pour les dommages causés par le véhicule assuré. Cette assurance RC automoteur est obligatoire en Belgique. Elle peut être complétée par des garanties optionnelles couvrant les dommages corporels du conducteur, les dommages au véhicule assuré, la protection juridique ou l'assistance au véhicule. Le véhicule assuré peut être une voiture, un minibus ou une camionnette dont la masse maximale autorisée ne dépasse pas 3,5 tonnes, ou encore un mobilhome.
 
-- Assureur : [[DVV Assurances]] · Branche : [[Auto]] · Type : IPID / Fiche d'information · Édition : octobre 2024
+- Assureur : [DVV Assurances](../../insurers/DVV%20Assurances.md) · Branche : [Auto](../../branches/Auto.md) · Type : IPID / Fiche d'information · Édition : octobre 2024
 
 ## Garanties
 
@@ -154,7 +154,7 @@ Garantie optionnelle (en combinaison avec l'assistance au véhicule). Mobility p
 
 ## Documents liés
 
-- [[Mobility]] - Conditions générales, éd. 032024 - F012025
+- [Mobility](Mobility.md) - Conditions générales, éd. 032024 - F012025
 
 ## Source & fidélité
 

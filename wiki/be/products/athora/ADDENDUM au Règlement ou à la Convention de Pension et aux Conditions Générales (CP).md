@@ -40,7 +40,7 @@ generated: true
 
 Addendum commun d'Athora Belgium qui fait partie intégrante du règlement ou de la convention de pension et des conditions générales des contrats d'assurance-vie de pension complémentaire, apportant les modifications résultant des dispositions légales à partir du 1er janvier 2016 ou à la date d'effet mentionnée dans l'article concerné. Il s'applique à l'engagement collectif de pension (travailleurs salariés ou dirigeants d'entreprise), à l'engagement individuel de pension (EIP) et à la Pension Libre Complémentaire pour Indépendants (PLCI). La garantie principale est la pension complémentaire de retraite et la prestation en cas de décès de l'assuré avant le terme du contrat. L'addendum règle notamment l'âge de la pension, la fin de l'affiliation et l'affectation des réserves acquises, l'avance et la mise en gage, le blanchiment de capitaux, les sanctions internationales, la protection des données personnelles et la gestion des plaintes.
 
-- Assureur : [[Athora Belgium]] · Branche : [[Pension (Branche 21)]] · Type : Conditions particulières
+- Assureur : [Athora Belgium](../../insurers/Athora%20Belgium.md) · Branche : [Pension (Branche 21)](../../branches/Pension%20%28Branche%2021%29.md) · Type : Conditions particulières
 
 ## Définitions
 

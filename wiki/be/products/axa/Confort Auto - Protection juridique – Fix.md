@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales de la garantie Protection juridique – Fix du produit Confort Auto d'AXA Belgium, gérée par Legal Village. Le contrat couvre la prévention et l'information juridique ainsi que la défense amiable et/ou judiciaire des intérêts juridiques de l'assuré liés au véhicule désigné (recours civil extra-contractuel, défense pénale, défense civile extra-contractuelle, contentieux contractuel assurances et véhicule, insolvabilité, assistance Salduz). La garantie n'est acquise que si les conditions particulières indiquent qu'elle a été souscrite.
 
-- Assureur : [[AXA Belgium]] · Branche : [[Protection juridique]] · Type : Conditions générales · Édition : 10.2024
+- Assureur : [AXA Belgium](../../insurers/AXA%20Belgium.md) · Branche : [Protection juridique](../../branches/Protection%20juridique.md) · Type : Conditions générales · Édition : 10.2024
 
 ## Définitions
 

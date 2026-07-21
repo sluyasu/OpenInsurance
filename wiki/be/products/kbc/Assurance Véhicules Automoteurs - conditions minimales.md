@@ -38,7 +38,7 @@ generated: true
 
 Conditions minimales du contrat d'assurance obligatoire de la responsabilité civile en matière de véhicules automoteurs, conforme à la loi du 21 novembre 1989. L'assureur couvre la responsabilité civile encourue par les assurés à la suite d'un sinistre causé par le véhicule automoteur assuré, sans limite d'indemnisation pour les dommages corporels et à concurrence de 100 millions d'euros par sinistre pour les dommages matériels. Le contrat prévoit également l'indemnisation des usagers faibles (art. 29bis) et des victimes innocentes (art. 29ter), ainsi que des garanties complémentaires (véhicule de remplacement temporaire, remorquage, nettoyage des garnitures, cautionnement). Le document régit aussi les obligations de déclaration, le droit de recours de l'assureur, la durée, la résiliation et la procédure en cas de sinistre.
 
-- Assureur : [[KBC Bank & Verzekering]] · Branche : [[Auto]] · Type : Conditions générales
+- Assureur : [KBC Bank & Verzekering](../../insurers/KBC%20Bank%20%26%20Verzekering.md) · Branche : [Auto](../../branches/Auto.md) · Type : Conditions générales
 
 ## Définitions
 

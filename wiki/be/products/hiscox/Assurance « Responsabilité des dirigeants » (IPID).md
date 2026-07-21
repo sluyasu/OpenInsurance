@@ -38,7 +38,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) résumant les principales garanties et exclusions de l'assurance « Responsabilité des dirigeants » (D&O) de Hiscox SA, dans le cadre de la gamme « Assurances Professionnelles by Hiscox » (succursale belge, agréée sous le n° de code 3099). Souscrite au nom d'une personne morale, cette assurance couvre la responsabilité civile des mandataires sociaux, administrateurs, gérants ou dirigeants de la société (Les Dirigeants). Ce résumé standardisé n'est pas exhaustif et ne prend pas en compte les besoins et demandes spécifiques ; l'information complète figure dans la documentation contractuelle et précontractuelle.
 
-- Assureur : [[Hiscox SA]] · Branche : [[RC professionnelle]] · Type : IPID / Fiche d'information · Édition : 2024
+- Assureur : [Hiscox SA](../../insurers/Hiscox%20SA.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : IPID / Fiche d'information · Édition : 2024
 
 ## Garanties
 
@@ -161,7 +161,7 @@ Les frais de sauvetage.
 
 ## Documents liés
 
-- [[Responsabilité des dirigeants (CP)]] - Conditions particulières, éd. 2024-06
+- [Responsabilité des dirigeants (CP)](Responsabilit%C3%A9%20des%20dirigeants%20%28CP%29.md) - Conditions particulières, éd. 2024-06
 
 ## Source & fidélité
 

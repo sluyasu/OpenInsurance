@@ -38,7 +38,7 @@ generated: true
 
 L'assurance familiale Belfius Family est une assurance Responsabilité civile vie privée (RC familiale) de Belfius Insurance SA. Elle couvre la responsabilité civile extra-contractuelle de l'assuré pour les dommages causés à des tiers dans le cadre de sa vie privée. La garantie de base Familiale peut être complétée par des garanties optionnelles (Responsabilité civile étendue et Protection juridique en formules Base ou Prestige). Les dommages corporels et matériels sont couverts jusqu'à 35.715.427,32 EUR chacun (montants indexés).
 
-- Assureur : [[Belfius Insurance]] · Branche : [[Vie privée]] · Type : IPID / Fiche d'information · Édition : 2026-06
+- Assureur : [Belfius Insurance](../../insurers/Belfius%20Insurance.md) · Branche : [Vie privée](../../branches/Vie%20priv%C3%A9e.md) · Type : IPID / Fiche d'information · Édition : 2026-06
 
 ## Garanties
 
@@ -162,7 +162,7 @@ Garantie optionnelle, formule Prestige : jusqu'à 75.000 EUR. Comprend Base + le
 
 ## Documents liés
 
-- [[Belfius Family]] - Conditions générales, éd. 062020
+- [Belfius Family](Belfius%20Family.md) - Conditions générales, éd. 062020
 
 ## Source & fidélité
 

@@ -40,7 +40,7 @@ generated: true
 
 DKV Daily Comfort (Exit Group) est une assurance individuelle soins de santé ambulatoires, à caractère indemnitaire, conforme à la législation belge, en complément de toute intervention légale/statutaire ou autre. Elle couvre les frais de consultations et/ou traitements ambulatoires (traitement médical, paramédical, médicaments, dispositifs médicaux et traitement préventif) suite à un accouchement, un accident ou une maladie. L'assureur rembourse 70 % des frais réels restant à charge de l'assuré après déduction des interventions légales, dans la limite de € 3.000 par année d'assurance. Le plan est valable pour les cas d'assurance survenant en Belgique, et dans le monde entier pour les soins de santé ambulatoires urgents à l'étranger.
 
-- Assureur : [[DKV Belgium]] · Branche : [[Santé]] · Type : Conditions générales · Édition : 08/2025
+- Assureur : [DKV Belgium](../../insurers/DKV%20Belgium.md) · Branche : [Santé](../../branches/Sant%C3%A9.md) · Type : Conditions générales · Édition : 08/2025
 
 ## Définitions
 
@@ -231,7 +231,7 @@ Le délai de prescription pour soumettre des frais d'un cas d'assurance est de 3
 
 ## Documents liés
 
-- [[DKV DAILY Comfort (Exit Group) (IPID)]] - IPID / Fiche d'information, éd. 202508
+- [DKV DAILY Comfort (Exit Group) (IPID)](DKV%20DAILY%20Comfort%20%28Exit%20Group%29%20%28IPID%29.md) - IPID / Fiche d'information, éd. 202508
 
 ## Source & fidélité
 

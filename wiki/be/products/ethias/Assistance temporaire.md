@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales du contrat Ethias « Assistance temporaire », une assurance voyage/assistance temporaire conclue pour une durée ne pouvant excéder une année. Le contrat couvre les assurés désignés aux conditions particulières lors de leurs déplacements, à l'étranger (assistance médicale, rapatriement, frais médicaux, décès, retour anticipé, avances de fonds, etc.) et en Belgique (transport du malade/blessé, décès). Les prestations d'assistance sont organisées par IMA BENELUX pour le compte d'Ethias SA via le service Ethias Assistance. L'étendue géographique se répartit entre le Groupe 1 (Europe et Maghreb) et le Groupe 2 (autres pays).
 
-- Assureur : [[Ethias]] · Branche : [[Voyage]] · Type : Conditions générales · Édition : 03/25
+- Assureur : [Ethias](../../insurers/Ethias.md) · Branche : [Voyage](../../branches/Voyage.md) · Type : Conditions générales · Édition : 03/25
 
 ## Définitions
 

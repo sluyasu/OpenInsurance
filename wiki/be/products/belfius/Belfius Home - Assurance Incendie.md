@@ -38,7 +38,7 @@ generated: true
 
 Belfius Home est une assurance habitation (incendie) belge de Belfius Insurance SA couvrant les dommages matériels au bâtiment et au contenu (privé et professionnel) à l'adresse indiquée aux conditions particulières. Elle comprend des garanties de base (incendie, explosion, tempête/grêle, dégâts des eaux, dégâts de mazout, bris de vitrages, responsabilité civile bâtiment et contenu, catastrophes naturelles, Home Assistance, etc.) et de nombreuses garanties optionnelles (Vol, Protection Juridique, Options Jardin, Piscine, Véhicule stationné, Media, Business, Travaux, Protection locataire). Le contrat prévoit des indemnités complémentaires, une franchise de base, la règle proportionnelle, une procédure de sinistre et des dispositions de durée et de résiliation.
 
-- Assureur : [[Belfius Insurance]] · Branche : [[Habitation]] · Type : Conditions générales
+- Assureur : [Belfius Insurance](../../insurers/Belfius%20Insurance.md) · Branche : [Habitation](../../branches/Habitation.md) · Type : Conditions générales
 
 ## Définitions
 

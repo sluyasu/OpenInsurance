@@ -38,7 +38,7 @@ generated: true
 
 Confort Habitation Flex est une assurance multirisque pour les immeubles d'habitation (maisons, appartements, immeubles comprenant maximum 3 logements et habitats légers) utilisés comme habitation et à titre accessoire comme bureau ou pour l'exercice d'une profession libérale, à l'exclusion des pharmacies. Elle couvre pour le propriétaire les dégâts matériels au bâtiment et/ou au contenu et, pour le locataire/occupant ou les colocataires, les dégâts matériels au contenu et/ou la responsabilité locative, à condition qu'ils soient causés par un péril couvert. Une assistance Habitation (Info Line et 1e assistance en cas de sinistre) est prévue d'office.
 
-- Assureur : [[AXA Belgium]] · Branche : [[Habitation]] · Type : IPID / Fiche d'information · Édition : 2024-10-01
+- Assureur : [AXA Belgium](../../insurers/AXA%20Belgium.md) · Branche : [Habitation](../../branches/Habitation.md) · Type : IPID / Fiche d'information · Édition : 2024-10-01
 
 ## Garanties
 
@@ -255,7 +255,7 @@ Une assistance Habitation (Info Line et 1e assistance en cas de sinistre) est pr
 
 ## Documents liés
 
-- [[Confort Habitation Flex]] - Conditions générales, éd. 2024-10-01
+- [Confort Habitation Flex](Confort%20Habitation%20Flex.md) - Conditions générales, éd. 2024-10-01
 
 ## Source & fidélité
 

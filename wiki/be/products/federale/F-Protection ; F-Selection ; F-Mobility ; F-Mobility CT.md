@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales d'assurance assistance voyage et véhicule de FEDERALE Assurance (distributeur), le risque étant porté par Europ Assistance Belgium. Le contrat propose quatre formules : F-Protection (assistance personnes & véhicule), F-Selection (assistance personnes & véhicule + véhicule de remplacement), F-Mobility (assistance véhicule + véhicule de remplacement) et F-Mobility CT (assistance véhicule utilitaire + véhicule de remplacement). Il couvre l'assistance au véhicule et aux passagers assurés (dépannage, remorquage, rapatriement du véhicule, véhicule de remplacement, assistance en cas de vol, caravane/remorque, bateau de plaisance), l'assistance aux personnes (transport/rapatriement médical, frais médicaux, frais de séjour, décès, vacances à la montagne, bagages) et des services complémentaires. La garantie « Assistance aux Personnes » (F-Protection/F-Selection) s'applique dans le monde entier hors du Domicile, tandis que la garantie « Assistance au véhicule » s'applique en Belgique, au Luxembourg et dans une liste de pays européens et limitrophes désignés.
 
-- Assureur : [[Fédérale Assurance]] · Branche : [[Voyage]] · Type : Conditions générales · Édition : 04/25
+- Assureur : [Fédérale Assurance](../../insurers/F%C3%A9d%C3%A9rale%20Assurance.md) · Branche : [Voyage](../../branches/Voyage.md) · Type : Conditions générales · Édition : 04/25
 
 ## Définitions
 

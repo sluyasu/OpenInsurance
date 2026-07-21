@@ -38,7 +38,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de l'assurance vélo ACM Insurance Assurance Vélo (ACM Belgium). Le produit protège contre les dégâts matériels et le vol et couvre l'assistance du vélo de ville, vélo électrique (autonome jusqu'à 25 km/h et jusqu'à 45 km/h avec assistance au pédalage), vélo de course, vélo tout-terrain ou engin de déplacement motorisé, ainsi que les accessoires repris dans la valeur assurée. La couverture peut être complétée par la garantie optionnelle Conducteur & Passagers.
 
-- Assureur : [[ACM Belgium]] · Branche : [[Vélo]] · Type : IPID / Fiche d'information · Édition : 04/25
+- Assureur : [ACM Belgium](../../insurers/ACM%20Belgium.md) · Branche : [Vélo](../../branches/V%C3%A9lo.md) · Type : IPID / Fiche d'information · Édition : 04/25
 
 ## Garanties
 
@@ -113,7 +113,7 @@ En cas de dommage corporel de l'assuré : le dommage économique/moral en cas d'
 
 ## Documents liés
 
-- [[ACM INSURANCE ASSURANCE VÉLO]] - Conditions générales, éd. 04/2025
+- [ACM INSURANCE ASSURANCE VÉLO](ACM%20INSURANCE%20ASSURANCE%20V%C3%89LO.md) - Conditions générales, éd. 04/2025
 
 ## Source & fidélité
 

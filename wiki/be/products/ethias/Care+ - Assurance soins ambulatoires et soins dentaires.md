@@ -40,7 +40,7 @@ generated: true
 
 Care+ est une assurance soins ambulatoires et soins dentaires d'Ethias qui garantit le remboursement des frais médicaux ambulatoires (soins médicaux et paramédicaux, médecine alternative, médicaments, soins oculaires, soins dentaires, appareils auditifs, soins psychologiques, prévention) restant à la charge de l'assuré après déduction des interventions légales ou extra-légales. L'intervention est en principe de 80 % des frais restant à charge, avec une intervention maximale de 3 000,00 € par assuré et par année civile. Le contrat est valable à vie et comporte des délais d'attente et des exclusions déterminées.
 
-- Assureur : [[Ethias]] · Branche : [[Santé]] · Type : Conditions générales · Édition : 01/26
+- Assureur : [Ethias](../../insurers/Ethias.md) · Branche : [Santé](../../branches/Sant%C3%A9.md) · Type : Conditions générales · Édition : 01/26
 
 ## Définitions
 
@@ -293,7 +293,7 @@ Le délai pour transmettre les frais médicaux est de trois ans, à compter de l
 
 ## Documents liés
 
-- [[Care+ (IPID)]] - IPID / Fiche d'information, éd. 01/26
+- [Care+ (IPID)](Care%2B%20%28IPID%29.md) - IPID / Fiche d'information, éd. 01/26
 
 ## Source & fidélité
 

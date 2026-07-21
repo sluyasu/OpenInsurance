@@ -38,7 +38,7 @@ generated: true
 
 Assurance incendie/habitation « Assurance Résidence » d'Argenta Assurances (Aras), valable à partir du 01-10-2024 (réf. DW24044), proposée en modules Base et Confort. Elle couvre l'immeuble, la responsabilité locative et le contenu contre l'incendie, les dégâts des eaux, la tempête/grêle/pression de la neige et de la glace, les catastrophes naturelles, le bris de vitre, la responsabilité civile immeuble et inclut une assistance 24h/24 et 7j/7 comme garantie de base. Le module Confort ajoute des garanties et extensions optionnelles (vol, perte indirecte, nouvelles normes de construction) et une garantie optionnelle Protection juridique est assurable dans les deux modules. La police est régie par le droit belge.
 
-- Assureur : [[Argenta Assurances]] · Branche : [[Habitation]] · Type : Conditions générales · Édition : 2024-10-01
+- Assureur : [Argenta Assurances](../../insurers/Argenta%20Assurances.md) · Branche : [Habitation](../../branches/Habitation.md) · Type : Conditions générales · Édition : 2024-10-01
 
 ## Définitions
 
@@ -342,7 +342,7 @@ Le délai de prescription de toute action judiciaire résultant d'un contrat d'a
 
 ## Documents liés
 
-- [[Assurance Résidence (IPID)]] - IPID / Fiche d'information, éd. 01/07/2025
+- [Assurance Résidence (IPID)](Assurance%20R%C3%A9sidence%20%28IPID%29.md) - IPID / Fiche d'information, éd. 01/07/2025
 
 ## Source & fidélité
 

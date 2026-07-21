@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales de l'assurance Auto d'AMMA ASSURANCES (mutuelle destinée au corps médical et paramédical). Le contrat couvre la garantie R.C. auto obligatoire, avec des garanties optionnelles : Incendie, Vol, formules Mini et Maxi (dégâts matériels, bris de vitres, forces de la nature, contact animaux), assurance Conducteur, Assistance en Justice et Recours (protection juridique), et plusieurs formules d'Assistance (formule de base, véhicule de remplacement après accident, formule Maxi assistance voyage). Le risque assistance est assuré par Europ Assistance (Belgium) S.A. Des extensions spécifiques (assistance véhicule, biens professionnels jusqu'à € 2.500, transport de patients) sont accordées sans supplément de cotisation à la souscription de la R.C.
 
-- Assureur : [[AMMA Assurances]] · Branche : [[Auto]] · Type : Conditions générales · Édition : 0622
+- Assureur : [AMMA Assurances](../../insurers/AMMA%20Assurances.md) · Branche : [Auto](../../branches/Auto.md) · Type : Conditions générales · Édition : 0622
 
 ## Définitions
 

@@ -38,7 +38,7 @@ generated: true
 
 L'assurance Protection Juridique DAS Classic (police F5040, édition 01/2025) est un produit de protection juridique couvrant les litiges pouvant survenir dans la vie privée du preneur d'assurance et de son foyer. L'assureur accompagne l'assuré en cas de litige pour chercher une solution, défendre ses droits à l'amiable ou, selon les garanties prévues, engager une procédure, et prend en charge dans les limites du contrat les frais liés au litige (honoraires et frais d'avocat, frais d'expertise, frais de justice). Certaines garanties sont couvertes en phase amiable et en procédure, d'autres uniquement en phase amiable, et le contrat inclut plusieurs extensions de garantie. Ces conditions spéciales sont intégralement régies par les conditions générales F5010.
 
-- Assureur : [[D.A.S.]] · Branche : [[Protection juridique]] · Type : Conditions particulières · Édition : 01/2025
+- Assureur : [D.A.S.](../../insurers/D.A.S..md) · Branche : [Protection juridique](../../branches/Protection%20juridique.md) · Type : Conditions particulières · Édition : 01/2025
 
 ## Définitions
 

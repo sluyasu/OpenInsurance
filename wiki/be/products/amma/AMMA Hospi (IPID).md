@@ -38,7 +38,7 @@ generated: true
 
 AMMA Hospi est une assurance hospitalisation. Lorsqu'un assuré est hospitalisé suite à un accident, une maladie, une grossesse ou un accouchement, la couverture « hospitalisation » garantit, dans les limites fixées dans les conditions générales et/ou particulières, le remboursement des frais ayant un lien direct avec cette hospitalisation. Le produit couvre l'hospitalisation, les traitements pré- et post-hospitalisation, les soins ambulatoires liés à 30 maladies graves et les soins palliatifs. Il existe un Pack de couvertures standards et un Pack de couvertures étendues qui augmente certaines limites et délais.
 
-- Assureur : [[AMMA Assurances]] · Branche : [[Santé]] · Type : IPID / Fiche d'information · Édition : 2025
+- Assureur : [AMMA Assurances](../../insurers/AMMA%20Assurances.md) · Branche : [Santé](../../branches/Sant%C3%A9.md) · Type : IPID / Fiche d'information · Édition : 2025
 
 ## Garanties
 
@@ -119,7 +119,7 @@ Les soins palliatifs prodigués à l'hôpital, dans un établissement spécialis
 
 ## Documents liés
 
-- [[AMMA HOSPI SAFE - SERENITY]] - Conditions générales, éd. 0523
+- [AMMA HOSPI SAFE - SERENITY](AMMA%20HOSPI%20SAFE%20-%20SERENITY.md) - Conditions générales, éd. 0523
 
 ## Source & fidélité
 

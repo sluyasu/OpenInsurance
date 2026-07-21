@@ -38,7 +38,7 @@ generated: true
 
 Conditions Spéciales n°DO2406 de l'assurance Responsabilité des dirigeants (D&O) de Hiscox SA, entreprise d'assurance agréée au Grand-Duché de Luxembourg exerçant en Belgique via sa succursale belge (BNB n°3099). La garantie couvre les personnes assurées (dirigeants de droit et de fait, présents ou passés, du preneur d'assurance et de ses filiales) contre les conséquences pécuniaires des réclamations formulées à leur encontre pendant la période d'assurance, dans la limite du plafond de garantie et des juridictions couvertes. Elle comprend des garanties principales (frais de défense, dommages intérêts) et plusieurs garanties additionnelles (assistance psychologique, réhabilitation, faute liée à l'emploi, frais de représentation, pollution, caution, déplacement, sanctions pécuniaires, extradition, gel d'actifs, évènement cyber), assorties d'une liste d'exclusions.
 
-- Assureur : [[Hiscox SA]] · Branche : [[RC professionnelle]] · Type : Conditions particulières · Édition : 2024-06
+- Assureur : [Hiscox SA](../../insurers/Hiscox%20SA.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : Conditions particulières · Édition : 2024-06
 
 ## Définitions
 
@@ -195,7 +195,7 @@ Couverture, dans la limite du plafond de garantie, des réclamations faites à l
 
 ## Documents liés
 
-- [[Assurance « Responsabilité des dirigeants » (IPID)]] - IPID / Fiche d'information, éd. 2024
+- [Assurance « Responsabilité des dirigeants » (IPID)](Assurance%20%C2%AB%20Responsabilit%C3%A9%20des%20dirigeants%20%C2%BB%20%28IPID%29.md) - IPID / Fiche d'information, éd. 2024
 
 ## Source & fidélité
 

@@ -38,7 +38,7 @@ generated: true
 
 Touring No Stop est un contrat d'assurance annuel qui permet à l'assuré d'obtenir une indemnité lorsqu'il ne peut pas participer à un voyage qu'il a acheté. Cette assurance annulation couvre la partie qui n'est pas remboursée à l'assuré ou les frais supplémentaires qu'il doit faire pour modifier son voyage avant le départ. Elle couvre l'ensemble des voyages prévus dans l'année et existe en formule Individuelle ou en formule Famille, avec le choix entre No Stop Relax et No Stop Full. Les couvertures Compensation de voyage et Bagages sont incluses d'office dans la garantie de base.
 
-- Assureur : [[Touring]] · Branche : [[Voyage]] · Type : IPID / Fiche d'information · Édition : 01042026
+- Assureur : [Touring](../../insurers/Touring.md) · Branche : [Voyage](../../branches/Voyage.md) · Type : IPID / Fiche d'information · Édition : 01042026
 
 ## Garanties
 
@@ -115,7 +115,7 @@ L'avance de l'indemnité due à l'assuré par la compagnie aérienne en cas de r
 
 ## Documents liés
 
-- [[Touring No Stop]] - Conditions générales, éd. 2026-04-01
+- [Touring No Stop](Touring%20No%20Stop.md) - Conditions générales, éd. 2026-04-01
 
 ## Source & fidélité
 

@@ -38,7 +38,7 @@ generated: true
 
 Profilife est un contrat d’assurance vie de la Branche 23 à versements planifiés, lié à la performance d’un ou plusieurs fonds d’investissement, souscrit entre le preneur d’assurance et la compagnie. Le risque financier est entièrement supporté par le preneur d’assurance et le contrat ne donne lieu à aucune participation aux bénéfices. Il prévoit une prestation en cas de décès au moins égale à l’épargne constituée, la disponibilité de l’épargne (transferts, retraits) et des garanties complémentaires optionnelles (capital accident, exonération des primes en cas d’invalidité, rente d’invalidité).
 
-- Assureur : [[Athora Belgium]] · Branche : [[Épargne / Placement (Branche 21/23)]] · Type : Conditions générales · Édition : 01/2026
+- Assureur : [Athora Belgium](../../insurers/Athora%20Belgium.md) · Branche : Épargne / Placement (Branche 21/23) · Type : Conditions générales · Édition : 01/2026
 
 ## Définitions
 
@@ -169,7 +169,7 @@ La compagnie couvre les dommages causés par le terrorisme et est membre à cett
 
 ## Documents liés
 
-- [[Profilife (Fiche)]] - Fiche produit, éd. 1 janvier 2026
+- [Profilife (Fiche)](Profilife%20%28Fiche%29.md) - Fiche produit, éd. 1 janvier 2026
 
 ## Source & fidélité
 

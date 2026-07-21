@@ -114,14 +114,18 @@ def compute_relations(products: list[dict]) -> dict[str, dict]:
                 newest = next(o for o, k in dated if k == maxk)
                 for o, k in dated:
                     if k < maxk:
-                        superseded_by[id(o)] = titles[id(newest)]
+                        superseded_by[id(o)] = {"title": titles[id(newest)],
+                                                "source_url": newest.get("source_url")}
                     else:
                         current_flag[id(o)] = True
 
         for o in group:
             others = [x for x in group if x is not o]
+            # source_url travels with every relation: it is the key the renderer resolves
+            # to a real page path, since titles are not unique across insurers.
             related = [{
                 "title": titles[id(x)],
+                "source_url": x.get("source_url"),
                 "document_type": x.get("document_type"),
                 "edition_date": x.get("edition_date"),
             } for x in others]
@@ -129,7 +133,8 @@ def compute_relations(products: list[dict]) -> dict[str, dict]:
             parent = None
             if o.get("is_extension") and o.get("extends"):
                 parent = o.get("extends")
-            extensions = [titles[id(x)] for x in others
+            extensions = [{"title": titles[id(x)], "source_url": x.get("source_url")}
+                          for x in others
                           if x.get("is_extension") and x.get("extends")
                           and _family_base(x) == key[2]] if not o.get("is_extension") else []
             status = None

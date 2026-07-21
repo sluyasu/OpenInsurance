@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales de l'assurance R.C. Chasse d'AMMA ASSURANCES a.m. (droit belge). Le contrat comporte une première garantie « Responsabilité civile chasse » (couvrant, selon ce qui est repris aux conditions particulières, le chasseur-tireur, le garde-chasse – rabatteur et le directeur-organisateur de parties de chasse ou de battues) et une deuxième garantie distincte « Assistance en justice et recours » (défense pénale, recours civil, insolvabilité du tiers responsable, caution pénale). Il fixe les montants assurés, une franchise de 250,00 EUR par fait dommageable pour les dégâts matériels, la territorialité, les exclusions, la procédure de sinistre et les dispositions communes (durée, cotisation, résiliation, subrogation, prescription).
 
-- Assureur : [[AMMA Assurances]] · Branche : [[Chasse]] · Type : Conditions générales · Édition : 07/2020
+- Assureur : [AMMA Assurances](../../insurers/AMMA%20Assurances.md) · Branche : [Chasse](../../branches/Chasse.md) · Type : Conditions générales · Édition : 07/2020
 
 ## Définitions
 

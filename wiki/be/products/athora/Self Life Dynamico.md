@@ -38,7 +38,7 @@ generated: true
 
 Self Life Dynamico est un contrat d’assurance vie à versements planifiés souscrit entre le preneur d’assurance et la compagnie Athora Belgium. L’épargne constituée par la capitalisation des versements nets bénéficie d’un taux d’intérêt garanti fixé aux conditions particulières et d’une participation bénéficiaire annuelle. Le contrat prévoit une prestation en cas de décès de l’assuré avant le terme (au moins égale à l’épargne constituée) et le versement de l’épargne constituée en cas de vie au terme. Cette édition prévoit la possibilité de deux assurés (prestation décès au décès du deuxième assuré) et de deux preneurs d’assurance ; des garanties complémentaires (capital accident, exonération des primes en cas d’incapacité de travail, rente d’invalidité) peuvent être souscrites.
 
-- Assureur : [[Athora Belgium]] · Branche : [[Épargne / Placement (Branche 21/23)]] · Type : Conditions générales · Édition : 01/2026
+- Assureur : [Athora Belgium](../../insurers/Athora%20Belgium.md) · Branche : Épargne / Placement (Branche 21/23) · Type : Conditions générales · Édition : 01/2026
 
 ## Définitions
 
@@ -182,8 +182,8 @@ La compagnie couvre les dommages causés par le terrorisme ; elle est membre à 
 ## Documents liés
 
 - Édition courante de ce produit.
-- [[Self Life Dynamico]] - Conditions générales, éd. 07/2020
-- [[Self Life Dynamico]] - Conditions générales, éd. 07/2020
+- [Self Life Dynamico](Self%20Life%20Dynamico%20%282%29.md) - Conditions générales, éd. 07/2020
+- [Self Life Dynamico](Self%20Life%20Dynamico%20%283%29.md) - Conditions générales, éd. 07/2020
 
 ## Source & fidélité
 

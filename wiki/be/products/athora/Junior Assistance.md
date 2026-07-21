@@ -38,7 +38,7 @@ generated: true
 
 Junior Assistance est la garantie d’assistance accordée au preneur d’assurance d’un contrat d’épargne JUNIOR souscrit auprès d’Athora Belgium, dont toutes les prestations sont assumées par EUROP ASSISTANCE (BELGIUM) SA. Elle couvre l’enfant assuré de moins de 22 ans en études et ses parents domiciliés en Belgique, et fournit des prestations d’assistance liées principalement à l’hospitalisation de l’enfant (organisation d’hospitalisation, retour ou rapatriement, visite, garde d’enfants, frais d’enseignant, service infos), en Belgique et/ou à l’étranger selon les sigles B, B/E et E.
 
-- Assureur : [[Athora Belgium]] · Branche : [[Épargne / Placement (Branche 21/23)]] · Type : Conditions générales · Édition : 06/2020
+- Assureur : [Athora Belgium](../../insurers/Athora%20Belgium.md) · Branche : Épargne / Placement (Branche 21/23) · Type : Conditions générales · Édition : 06/2020
 
 ## Définitions
 

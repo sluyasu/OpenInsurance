@@ -38,7 +38,7 @@ generated: true
 
 Top Omnium / Top Occasium est une assurance dommages non obligatoire d'AG Insurance couvrant le véhicule désigné, en complément de l'assurance obligatoire de responsabilité civile automobile. Elle propose des garanties Incendie, Vol, Bris de vitrage, Forces de la nature et heurt avec un animal (regroupées dans la Multirisques, dite «petite omnium»), ainsi que la garantie Dégâts matériels (formant avec la Multirisques la «grande omnium» ou Omnium). L'indemnisation se fait sur base d'une valeur assurée (valeur catalogue ou valeur facture) amortie selon la formule choisie (Classic, Excellence ou Standard), et le contrat inclut des extensions communes, des exclusions communes et des dispositions propres au terrorisme.
 
-- Assureur : [[AG Insurance]] · Branche : [[Auto]] · Type : Conditions générales · Édition : 18/11/2023
+- Assureur : [AG Insurance](../../insurers/AG%20Insurance.md) · Branche : [Auto](../../branches/Auto.md) · Type : Conditions générales · Édition : 18/11/2023
 
 ## Définitions
 

@@ -38,7 +38,7 @@ generated: true
 
 Les Conditions Générales Famille Select de Baloise Belgium sont un contrat d'assurance de responsabilité civile vie privée (assurance non obligatoire) régi par la Loi du 4 avril 2014 relative aux assurances. La Partie 1 couvre la responsabilité civile extracontractuelle du preneur d'assurance et de son entourage pour les dommages corporels et matériels causés à des tiers dans le cadre de la vie privée (animaux, bâtiments, déplacements, loisirs, drones, volontariat, etc.), conformément à l'Arrêté Royal du 12 janvier 1984. La Partie 2 est une assurance Baloise Assistance pour vélos, souscrite auprès d'Europ Assistance Belgium, qui fournit une aide immédiate (dépannage, transport, vélo de remplacement, etc.) lorsqu'un vélo assuré ne peut plus rouler à la suite d'un sinistre.
 
-- Assureur : [[Baloise Belgium]] · Branche : [[Vie privée]] · Type : Conditions générales · Édition : 01022025
+- Assureur : [Baloise Belgium](../../insurers/Baloise%20Belgium.md) · Branche : [Vie privée](../../branches/Vie%20priv%C3%A9e.md) · Type : Conditions générales · Édition : 01022025
 
 ## Définitions
 

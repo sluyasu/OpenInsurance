@@ -38,7 +38,7 @@ generated: true
 
 La Police KBC pour votre Vélo est une assurance dommages qui couvre un nouveau vélo (électrique) contre les dommages et le vol. L'assurance dommages intervient dans le monde entier et s'agit d'une assurance 'tous risques'. Elle comprend également une assistance vélo complète (dépannage compris) 24h/24 et 7j/7, en collaboration avec VAB.
 
-- Assureur : [[KBC Bank & Verzekering]] · Branche : [[Vélo]] · Type : IPID / Fiche d'information
+- Assureur : [KBC Bank & Verzekering](../../insurers/KBC%20Bank%20%26%20Verzekering.md) · Branche : [Vélo](../../branches/V%C3%A9lo.md) · Type : IPID / Fiche d'information
 
 ## Garanties
 

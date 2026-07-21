@@ -38,7 +38,7 @@ generated: true
 
 Conditions Spéciales n° PITECH202401 de l’assurance Responsabilité Civile professionnelle « Technology » de Hiscox SA, spécialement conçues pour les métiers de l’informatique et du numérique. La police garantit, franchise déduite et dans la limite du plafond de garantie (fixé aux Conditions Particulières) ou de chaque sous-limite applicable, les conséquences pécuniaires de la responsabilité civile encourue dans le cadre de l’exécution des obligations contractuelles ou quasi-contractuelles au bénéfice d’un client, lorsqu’elle donne lieu à une réclamation d’un tiers pour dommages corporels, matériels ou immatériels, consécutifs ou non-consécutifs. Le document comprend un glossaire (Rubrique I), la description de la garantie RC Professionnelle et de ses risques couverts (Rubrique II), trois garanties additionnelles optionnelles (Rubrique III) et 47 exclusions de garantie (Rubrique IV).
 
-- Assureur : [[Hiscox SA]] · Branche : [[RC professionnelle]] · Type : Conditions particulières · Édition : 2024-01
+- Assureur : [Hiscox SA](../../insurers/Hiscox%20SA.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : Conditions particulières · Édition : 2024-01
 
 ## Définitions
 
@@ -234,7 +234,7 @@ Si au cours de la période d’assurance, vous risquez de subir une réclamation
 
 ## Documents liés
 
-- [[Assurance RC Professionnelle «Technology» (IPID)]] - IPID / Fiche d'information, éd. 2024
+- [Assurance RC Professionnelle «Technology» (IPID)](Assurance%20RC%20Professionnelle%20%C2%ABTechnology%C2%BB%20%28IPID%29.md) - IPID / Fiche d'information, éd. 2024
 
 ## Source & fidélité
 

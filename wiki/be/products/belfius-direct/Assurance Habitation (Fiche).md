@@ -38,7 +38,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de l'Assurance Habitation (assurance Incendie) de Belfius Direct Assurances. Cette assurance couvre les dommages causés à l'habitation (bâtiment et mobilier) dont l'assuré est le propriétaire, le locataire ou l'occupant. Le document donne un aperçu des garanties de base, des garanties optionnelles (vol, pertes indirectes, protection juridique), des principales exclusions, de la franchise, de la territorialité, des obligations et des modalités de paiement et de résiliation.
 
-- Assureur : [[Belfius Direct Assurances]] · Branche : [[Habitation]] · Type : Fiche produit · Édition : 10/2024
+- Assureur : [Belfius Direct Assurances](../../insurers/Belfius%20Direct%20Assurances.md) · Branche : [Habitation](../../branches/Habitation.md) · Type : Fiche produit · Édition : 10/2024
 
 ## Garanties
 

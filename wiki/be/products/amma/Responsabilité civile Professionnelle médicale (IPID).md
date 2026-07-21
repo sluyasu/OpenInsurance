@@ -38,7 +38,7 @@ generated: true
 
 Assurance responsabilité civile professionnelle médicale (RCP) d'AMMA Assurances destinée aux prestataires de soins. Elle garantit la responsabilité civile contractuelle et extracontractuelle de l'assuré pour tous dommages corporels ou matériels causés à des tiers et résultant de l'exercice normal et légal de son art, dans le cadre de son activité professionnelle. La garantie est accordée sur la base du fait générateur, par sinistre et par année d'assurance, à concurrence des sommes prévues aux conditions particulières. Des extensions gratuites, des extensions facultatives moyennant surprime et des garanties supplémentaires facultatives sont prévues.
 
-- Assureur : [[AMMA Assurances]] · Branche : [[RC professionnelle]] · Type : IPID / Fiche d'information · Édition : 0925
+- Assureur : [AMMA Assurances](../../insurers/AMMA%20Assurances.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : IPID / Fiche d'information · Édition : 0925
 
 ## Garanties
 

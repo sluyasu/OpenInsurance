@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales de l'assurance Incendie (habitation) d'AMMA Assurances, destinée principalement aux membres du Corps Médical et Paramédical. Le contrat garantit, dans les limites du contrat, l'indemnisation des dommages matériels causés aux biens assurés (bâtiment et contenu) pour des risques simples à usage d'habitation, de bureau, de profession libérale ou de garage privé. Il couvre un large éventail de garanties de base (incendie et périls connexes, électricité, tempête, dégâts des eaux, dégâts dûs au mazout, catastrophes naturelles, R.C. Bâtiment, assistance en justice, assistance après sinistre, etc.) ainsi que des garanties facultatives (pertes indirectes, vol, perte d'exploitation) et complémentaires. La référence du document est 05-IN-CG-PDF-0506-V03-FR.
 
-- Assureur : [[AMMA Assurances]] · Branche : [[Habitation]] · Type : Conditions générales · Édition : 2006-05
+- Assureur : [AMMA Assurances](../../insurers/AMMA%20Assurances.md) · Branche : [Habitation](../../branches/Habitation.md) · Type : Conditions générales · Édition : 2006-05
 
 ## Définitions
 

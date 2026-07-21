@@ -38,7 +38,7 @@ generated: true
 
 Safe Horizon 5 by Athora est un contrat d'assurance portant sur une opération de capitalisation (branche 26) à versements libres, souscrit entre le preneur et Athora Belgium, qui permet au preneur de se constituer un capital. Chaque versement net est capitalisé au taux d'intérêt garanti (taux d'intérêt technique) en vigueur lors de sa réception, pendant une période de garantie, potentiellement augmenté d'une participation bénéficiaire non garantie. La compagnie garantit le paiement de l'épargne constituée au terme du contrat, mentionné dans les conditions particulières. Le contrat ne permet pas au preneur de bénéficier d'un avantage fiscal sur les versements.
 
-- Assureur : [[Athora Belgium]] · Branche : [[Épargne / Placement (Branche 21/23)]] · Type : Conditions générales · Édition : 09/2024
+- Assureur : [Athora Belgium](../../insurers/Athora%20Belgium.md) · Branche : Épargne / Placement (Branche 21/23) · Type : Conditions générales · Édition : 09/2024
 
 ## Définitions
 
@@ -151,7 +151,7 @@ Après rachat total et paiement de la valeur de rachat, le preneur peut remettre
 
 ## Documents liés
 
-- [[Safe Horizon 3 by Athora]] - Conditions générales, éd. 09/2024
+- [Safe Horizon 3 by Athora](Safe%20Horizon%203%20by%20Athora.md) - Conditions générales, éd. 09/2024
 
 ## Source & fidélité
 

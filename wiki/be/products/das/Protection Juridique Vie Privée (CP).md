@@ -41,7 +41,7 @@ generated: true
 
 Ces conditions spéciales F5001 (édition 01/2025) décrivent la Protection Juridique Vie Privée de D.A.S. pour les particuliers agissant dans le cadre de leur vie privée et professionnelle. Le produit couvre notamment le recours civil et les relations de voisinage, la défense pénale (y compris assistance Salduz), la défense disciplinaire, la défense civile, les contrats d'assurances, le concours de responsabilités contractuelle et extracontractuelle et l'accident ou faute médicale, avec des extensions comme le Service Box, l'insolvabilité des tiers, la caution pénale, l'avance de fonds sur indemnités, l'avance de la franchise des polices RC, l'état des lieux préalable, les frais de recherche et le cyber risk. L'assureur prend à sa charge les coûts occasionnés (honoraires et frais d'avocats, frais d'expertise, frais de justice) et tente d'abord une solution amiable avant, si nécessaire, la procédure judiciaire.
 
-- Assureur : [[D.A.S.]] · Branche : [[Vie privée]] · Type : Conditions particulières · Édition : 01/2025
+- Assureur : [D.A.S.](../../insurers/D.A.S..md) · Branche : [Vie privée](../../branches/Vie%20priv%C3%A9e.md) · Type : Conditions particulières · Édition : 01/2025
 
 ## Définitions
 

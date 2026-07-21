@@ -41,7 +41,7 @@ generated: true
 
 DKV DAILY Premium est une assurance individuelle soins de santé ambulatoires sans hospitalisation, à caractère indemnitaire, complémentaire à l'intervention de l'assurance maladie légale belge. Elle rembourse les frais médicaux ambulatoires (y compris les suppléments d'honoraires) provenant de consultations et/ou traitements fournis et/ou prescrits par un prestataire de soins reconnu 365 jours/an, à 80% jusqu'à € 20.000 par année d'assurance sous réserve de sous-limites spécifiques. Elle peut être souscrite par toute personne physique n'ayant pas atteint l'âge de 70 ans à la conclusion du contrat, résidant en Belgique et assujettie à la sécurité sociale belge.
 
-- Assureur : [[DKV Belgium]] · Branche : [[Santé]] · Type : IPID / Fiche d'information · Édition : 202508
+- Assureur : [DKV Belgium](../../insurers/DKV%20Belgium.md) · Branche : [Santé](../../branches/Sant%C3%A9.md) · Type : IPID / Fiche d'information · Édition : 202508
 
 ## Garanties
 

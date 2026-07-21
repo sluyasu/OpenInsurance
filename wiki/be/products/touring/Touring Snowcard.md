@@ -38,7 +38,7 @@ generated: true
 
 Touring Snowcard est un contrat d'assurance temporaire par lequel l'assureur (AG Insurance, avec Touring comme assisteur) s'engage à intervenir quand l'assuré, à la suite de certains événements, a besoin d'assistance lors d'un séjour de ski à l'étranger. La garantie de base est l'Assistance aux personnes à l'étranger (rapatriement, frais médicaux, retour anticipé, frais de recherche et sauvetage, bris et vol de skis, manque de neige, etc.). Le produit peut être complété par trois Packs souscrits séparément : Pack Assistance Dépannage Véhicule, Pack Assurance Annulation, et Pack Assurance Compensation de voyage & Bagages. Les personnes et Packs assurés sont indiqués dans les conditions particulières.
 
-- Assureur : [[Touring]] · Branche : [[Voyage]] · Type : Conditions générales · Édition : 01/04/2026
+- Assureur : [Touring](../../insurers/Touring.md) · Branche : [Voyage](../../branches/Voyage.md) · Type : Conditions générales · Édition : 01/04/2026
 
 ## Définitions
 

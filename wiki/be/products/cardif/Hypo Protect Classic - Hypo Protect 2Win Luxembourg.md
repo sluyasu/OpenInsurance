@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales luxembourgeoises de l'assurance Hypo Protect Classic (assurance décès temporaire conclue sur une tête) et Hypo Protect 2Win (assurance décès temporaire conclue sur deux têtes), destinée notamment à garantir le remboursement d'un prêt en cas de décès de l'emprunteur. En cas de décès de l'assuré avant le terme du contrat, l'assureur (Cardif Assurance Vie SA) paie au bénéficiaire le montant mentionné dans les conditions particulières. La couverture requiert que le preneur d'assurance et l'assuré aient leur domicile au Grand-Duché de Luxembourg.
 
-- Assureur : [[BNP Paribas Cardif]] · Branche : [[Autres]] · Type : Conditions générales · Édition : 2023/03
+- Assureur : [BNP Paribas Cardif](../../insurers/BNP%20Paribas%20Cardif.md) · Branche : [Autres](../../branches/Autres.md) · Type : Conditions générales · Édition : 2023/03
 
 ## Définitions
 
@@ -119,8 +119,8 @@ Toute action dérivant du présent contrat est prescrite après un délai de tro
 
 ## Documents liés
 
-- [[Hypo Protect (Fiche)]] - Fiche produit, éd. 06/2024
-- [[Hypo Protect Classic - Hypo Protect 2Win]] - Conditions générales, éd. 2024/06
+- [Hypo Protect (Fiche)](Hypo%20Protect%20%28Fiche%29.md) - Fiche produit, éd. 06/2024
+- [Hypo Protect Classic - Hypo Protect 2Win](Hypo%20Protect%20Classic%20-%20Hypo%20Protect%202Win.md) - Conditions générales, éd. 2024/06
 
 ## Source & fidélité
 

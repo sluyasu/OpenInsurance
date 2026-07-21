@@ -38,7 +38,7 @@ generated: true
 
 Conditions Générales de l'assurance Accidents Vie Privée d'ACM Belgium SA (millésime 10/2024). Le contrat garantit le paiement d'une indemnité forfaitaire en cas d'accident de la vie privée entraînant une invalidité permanente d'au moins 5 %, une incapacité temporaire totale de travail de 31 jours ou plus, ou le décès par accident (garantie décès en option), selon la formule choisie (solo, duo, mono ou famille). Il comprend également un forfait frais divers et une garantie assistance annexée (assurée par AWP P&C S.A.), en Belgique et à l'étranger.
 
-- Assureur : [[ACM Belgium]] · Branche : [[Accidents]] · Type : Conditions générales · Édition : 10/2024
+- Assureur : [ACM Belgium](../../insurers/ACM%20Belgium.md) · Branche : [Accidents](../../branches/Accidents.md) · Type : Conditions générales · Édition : 10/2024
 
 ## Définitions
 
@@ -292,7 +292,7 @@ Le délai de prescription de toute action dérivant du contrat est de trois ans 
 
 ## Documents liés
 
-- [[Accidents Vie Privée (IPID)]] - IPID / Fiche d'information, éd. 10/2024
+- [Accidents Vie Privée (IPID)](Accidents%20Vie%20Priv%C3%A9e%20%28IPID%29.md) - IPID / Fiche d'information, éd. 10/2024
 
 ## Source & fidélité
 

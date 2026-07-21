@@ -38,7 +38,7 @@ generated: true
 
 DKV Daily Premium est une assurance individuelle soins de santé ambulatoires, à caractère indemnitaire, conforme à la législation belge, en complément de toute intervention légale/statutaire ou autre. Elle couvre les frais de consultations et/ou traitements ambulatoires (médicaux, paramédicaux, médicaments, dispositifs médicaux, traitements préventifs, alternatifs et chirurgie oculaire réfractive) liés à un accouchement, un accident ou une maladie, à hauteur de 80 % des frais réels restant à charge après interventions légales/statutaires. L'intervention de l'assureur est limitée à € 20.000 par année d'assurance. Le plan est valable pour les cas survenant en Belgique, avec extension mondiale pour les soins ambulatoires urgents à l'étranger.
 
-- Assureur : [[DKV Belgium]] · Branche : [[Santé]] · Type : Conditions générales · Édition : 2025-08
+- Assureur : [DKV Belgium](../../insurers/DKV%20Belgium.md) · Branche : [Santé](../../branches/Sant%C3%A9.md) · Type : Conditions générales · Édition : 2025-08
 
 ## Définitions
 

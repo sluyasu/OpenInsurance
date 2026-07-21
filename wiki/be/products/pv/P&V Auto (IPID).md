@@ -38,7 +38,7 @@ generated: true
 
 P&V Auto est une assurance véhicule automoteur couvrant les risques liés à la détention et l'usage d'une voiture, minibus ou camionnette. Seule la garantie Responsabilité civile est légalement obligatoire. L'assuré peut renforcer sa protection en souscrivant différentes options liées à lui-même, à son véhicule ou à sa mobilité (Protection juridique, Protection du conducteur, Dommages au véhicule, Assistance).
 
-- Assureur : [[P&V Assurances]] · Branche : [[Auto]] · Type : IPID / Fiche d'information · Édition : 01.2025
+- Assureur : [P&V Assurances](../../insurers/P%26V%20Assurances.md) · Branche : [Auto](../../branches/Auto.md) · Type : IPID / Fiche d'information · Édition : 01.2025
 
 ## Définitions
 
@@ -145,7 +145,7 @@ Dans le cadre de l'assistance aux personnes, nous organisons et prenons en charg
 
 ## Documents liés
 
-- [[P&V Auto]] - Conditions générales, éd. 11.2019
+- [P&V Auto](P%26V%20Auto.md) - Conditions générales, éd. 11.2019
 
 ## Source & fidélité
 

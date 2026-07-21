@@ -38,7 +38,7 @@ generated: true
 
 Touring Travel est un contrat d'assurance voyage annuel par lequel l'assureur (AG Insurance) s'engage à intervenir quand l'assuré, à la suite de certains événements, a besoin d'assistance lors d'un séjour à l'étranger. Le produit peut être souscrit à titre individuel (formule Solo) ou pour la famille (formule Family). Il couvre l'assistance aux personnes à l'étranger et le préjudice subi lors d'un retard, annulation, déclassement ou refus d'embarquement d'un vol (Fly Zen), et peut être complété par quatre Packs optionnels : Assistance Dépannage Véhicule, Assurance Annulation, Assurance Compensation de voyage et Assurance Bagages. L'assisteur est Touring SA, agissant pour le compte d'AG Insurance.
 
-- Assureur : [[Touring]] · Branche : [[Voyage]] · Type : Conditions générales · Édition : 2026-04-01
+- Assureur : [Touring](../../insurers/Touring.md) · Branche : [Voyage](../../branches/Voyage.md) · Type : Conditions générales · Édition : 2026-04-01
 
 ## Définitions
 
@@ -532,7 +532,7 @@ La législation belge s'applique au présent contrat et en particulier la loi du
 
 ## Documents liés
 
-- [[Touring Travel (IPID)]] - IPID / Fiche d'information, éd. 01042026
+- [Touring Travel (IPID)](Touring%20Travel%20%28IPID%29.md) - IPID / Fiche d'information, éd. 01042026
 
 ## Source & fidélité
 

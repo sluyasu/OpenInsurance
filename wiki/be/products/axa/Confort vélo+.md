@@ -38,7 +38,7 @@ generated: true
 
 Confort vélo+ est une assurance et assistance d'AXA Belgium (avec Inter Partner Assistance pour l'assistance) couvrant les vélos et engins de déplacement motorisés. Les garanties de base (Protection du véhicule) couvrent le vol, les dégâts matériels et l'assistance vélo. Une garantie optionnelle « Sécurité du cycliste » couvre les lésions corporelles du cycliste (incapacité permanente, décès, frais de traitement). Le contrat existe en formule « Mono » (un vélo) ou « Multi » (jusqu'à 5 vélos du foyer).
 
-- Assureur : [[AXA Belgium]] · Branche : [[Vélo]] · Type : Conditions générales · Édition : 12.2023
+- Assureur : [AXA Belgium](../../insurers/AXA%20Belgium.md) · Branche : [Vélo](../../branches/V%C3%A9lo.md) · Type : Conditions générales · Édition : 12.2023
 
 ## Définitions
 
@@ -224,7 +224,7 @@ Sur production des justificatifs, nous remboursons les frais de traitement expos
 
 ## Documents liés
 
-- [[Confort Vélo+ (IPID)]] - IPID / Fiche d'information, éd. 10.2024
+- [Confort Vélo+ (IPID)](Confort%20V%C3%A9lo%2B%20%28IPID%29.md) - IPID / Fiche d'information, éd. 10.2024
 
 ## Source & fidélité
 

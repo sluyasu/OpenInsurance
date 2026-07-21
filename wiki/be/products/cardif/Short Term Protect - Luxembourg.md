@@ -38,7 +38,7 @@ generated: true
 
 Short Term Protect - Luxembourg est une assurance vie souscrite par une personne physique ayant sa résidence habituelle au Luxembourg. Elle garantit l'assuré en cas de décès par maladie ou accident (garantie principale « Décès ») et, en option, en cas d'incapacité totale de travail (garantie facultative). Deux formules existent : « Classic » (une seule personne, preneur et assuré) et « 2WIN » (deux personnes, uniquement la garantie « Décès »). Le capital décès est dégressif et limité à 100 000 euros maximum (ou 25 000 euro au-delà de 65 ans) ; l'indemnité mensuelle d'incapacité de travail est limitée à 1 000 euros/mois.
 
-- Assureur : [[BNP Paribas Cardif]] · Branche : [[Autres]] · Type : Conditions générales · Édition : 2023/03
+- Assureur : [BNP Paribas Cardif](../../insurers/BNP%20Paribas%20Cardif.md) · Branche : [Autres](../../branches/Autres.md) · Type : Conditions générales · Édition : 2023/03
 
 ## Définitions
 
@@ -156,8 +156,8 @@ L'assuré est en incapacité totale de travail pendant la durée de son assuranc
 
 ## Documents liés
 
-- [[Short Term Protect Business]] - Conditions générales, éd. 2023/03
-- [[Short Term Protect Classic - Short Term Protect 2win]] - Conditions générales, éd. 2023/03
+- [Short Term Protect Business](Short%20Term%20Protect%20Business.md) - Conditions générales, éd. 2023/03
+- [Short Term Protect Classic - Short Term Protect 2win](Short%20Term%20Protect%20Classic%20-%20Short%20Term%20Protect%202win.md) - Conditions générales, éd. 2023/03
 
 ## Source & fidélité
 

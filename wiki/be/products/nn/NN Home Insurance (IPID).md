@@ -38,7 +38,7 @@ generated: true
 
 NN Home Insurance est une assurance incendie (habitation) de NN Non-life, entreprise d'assurances de droit néerlandais autorisée à assurer les risques en Belgique sous le numéro de code 2925. La police peut comprendre les assurances relatives au bâtiment, à la responsabilité locative, au contenu (éventuellement avec vol), l'option jardin et la protection juridique. Elle s'applique à des logements en propriété ou en location situés en Belgique et utilisés à des fins de résidence privée, pour les preneurs d'assurance inscrits dans une commune belge. Les couvertures de base incluent notamment l'incendie, les dégâts électriques, le bris de vitres, la tempête ou grêle, les catastrophes naturelles et la responsabilité civile habitation, avec des garanties en option (vol, assistance juridique, jardin).
 
-- Assureur : [[NN Insurance Belgium]] · Branche : [[Habitation]] · Type : IPID / Fiche d'information
+- Assureur : [NN Insurance Belgium](../../insurers/NN%20Insurance%20Belgium.md) · Branche : [Habitation](../../branches/Habitation.md) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -229,7 +229,7 @@ Si le contenu de la résidence principale est assuré, le contenu transféré te
 
 ## Documents liés
 
-- [[NN Home Insurance]] - Conditions générales, éd. Juillet 2023
+- [NN Home Insurance](NN%20Home%20Insurance.md) - Conditions générales, éd. Juillet 2023
 
 ## Source & fidélité
 

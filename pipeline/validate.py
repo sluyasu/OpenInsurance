@@ -9,7 +9,10 @@ Usage: python pipeline/validate.py --country be
 from __future__ import annotations
 
 import argparse
+import re
 import sys
+from pathlib import Path
+from urllib.parse import unquote
 
 from common import WIKI, REPO, read_note, wikilinks, load_country
 
@@ -31,9 +34,53 @@ def resolution_targets() -> dict[str, str]:
     return targets
 
 
+MDLINK_RE = re.compile(r"\[[^\]]*\]\(([^)]+\.md)\)")
+
+
+def mdlinks(md: Path, body: str) -> list[tuple[str, Path | None]]:
+    """Relative markdown links to other notes: (raw target, resolved path or None).
+
+    Generated pages link by path rather than by [[name]], so link health has to be
+    checked here too. Unlike a wikilink, a path link can be verified outright: either
+    the file is there or the published site 404s."""
+    out = []
+    for m in MDLINK_RE.finditer(body):
+        raw = m.group(1)
+        if "://" in raw:
+            continue
+        target = (md.parent / unquote(raw)).resolve()
+        out.append((raw, target if target.is_file() else None))
+    return out
+
+
+def ambiguous_names(cc: str) -> dict[str, list[str]]:
+    """Names claimed by more than one published page, i.e. every name a basename-only
+    resolver has to guess at.
+
+    This models the PUBLISH surface, not the vault: Obsidian shows a disambiguation
+    prompt, but the site's roamlinks plugin and resolution_targets() both silently take
+    the first match, so a bare [[Assurance Auto]] on an Argenta page can land on Yuzzu's
+    product. Silent wrong routing is worse than a broken link, because nothing looks
+    wrong. It matters more as countries are added: 'Assurance Auto' will exist in BE, CH
+    and FR at once, so the same bug starts routing across borders."""
+    claims: dict[str, list[str]] = {}
+    for md in sorted((WIKI / cc).rglob("*.md")):
+        meta, _ = read_note(md)
+        rel = str(md.relative_to(REPO))
+        # a page whose stem is repeated in its own aliases claims the name once, not
+        # twice: counting per name would report every such page as self-ambiguous
+        for n in {md.stem} | {str(a).strip() for a in (meta.get("aliases") or [])}:
+            paths = claims.setdefault(n.strip(), [])
+            if rel not in paths:
+                paths.append(rel)
+    return {n: paths for n, paths in claims.items() if len(paths) > 1}
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--country", required=True)
+    ap.add_argument("--strict-links", action="store_true",
+                    help="treat ambiguous link targets as errors (CI gate once they reach 0)")
     args = ap.parse_args()
     cc = args.country
 
@@ -50,6 +97,7 @@ def main() -> int:
     incoming: dict[str, int] = {}
     outgoing: dict[str, int] = {}
     missing_branch_pages: dict[str, int] = {}
+    ambiguous_link_counts: dict[str, int] = {}
 
     # stray files at the vault root: a wikilink click in Obsidian creates an empty
     # note at wiki/ root, outside the per-country scan - catch it here
@@ -75,9 +123,18 @@ def main() -> int:
             if meta.get("status") != "stub" and "p. " not in body and "pages" not in body:
                 warnings.append(f"{rel}: product page has no page citations")
 
+        path_links = mdlinks(md, body)
+        for raw, target in path_links:
+            if target is None:
+                errors.append(f"{rel}: broken link ({raw}) - no such file")
+            else:
+                tgt = str(target.relative_to(REPO))
+                incoming[tgt] = incoming.get(tgt, 0) + 1
+
         links = wikilinks(body)
-        outgoing[rel] = len(links)
+        outgoing[rel] = len(links) + len(path_links)
         for link in links:
+            ambiguous_link_counts[link] = ambiguous_link_counts.get(link, 0) + 1
             if link in targets:
                 incoming[targets[link]] = incoming.get(targets[link], 0) + 1
             elif link in branch_labels:
@@ -89,6 +146,22 @@ def main() -> int:
     for label in sorted(missing_branch_pages):
         warnings.append(f"branch '{label}': {missing_branch_pages[label]} wikilinks but no "
                         f"branch page yet (wiki/{cc}/branches/{label}.md)")
+
+    # publish surface: bare links whose target name is claimed by several pages
+    ambiguous = ambiguous_names(cc)
+    if ambiguous:
+        bare = {n: c for n, c in ambiguous_link_counts.items() if n in ambiguous}
+        bucket = errors if args.strict_links else warnings
+        for n in sorted(bare, key=lambda x: -bare[x]):
+            bucket.append(f"ambiguous link target [[{n}]]: {bare[n]} bare link(s), "
+                          f"{len(ambiguous[n])} pages claim the name "
+                          f"({', '.join(Path(p).parent.name for p in ambiguous[n])}) - "
+                          f"a basename resolver picks one silently")
+        unlinked = sorted(set(ambiguous) - set(bare))
+        if unlinked:
+            warnings.append(f"{len(unlinked)} duplicate page name(s) with no bare link yet "
+                            f"(harmless today, a trap for the next hand-authored link): "
+                            f"{', '.join(unlinked[:5])}{' ...' if len(unlinked) > 5 else ''}")
 
     # orphans: non-MOC notes with no links either way
     for md in notes:

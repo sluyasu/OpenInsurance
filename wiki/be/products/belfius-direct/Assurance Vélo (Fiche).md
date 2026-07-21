@@ -38,7 +38,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de l'Assurance Vélo de Belfius Direct Assurances. L'assurance vélo est un contrat par lequel l'assureur s'engage à offrir une indemnisation en cas de vol ou de dommages matériels au véhicule assuré, ainsi que certaines prestations d'assistance lorsqu'un problème survient. Le véhicule assuré peut être tout type de vélo (de ville, de course, VTT, gravel, fat-bike, cargo...), électrique ou non (assistance au pédalage jusque max. 25 km/h).
 
-- Assureur : [[Belfius Direct Assurances]] · Branche : [[Vélo]] · Type : Fiche produit · Édition : 12/2025
+- Assureur : [Belfius Direct Assurances](../../insurers/Belfius%20Direct%20Assurances.md) · Branche : [Vélo](../../branches/V%C3%A9lo.md) · Type : Fiche produit · Édition : 12/2025
 
 ## Garanties
 
@@ -122,7 +122,7 @@ Le casque du cycliste et les accessoires acquis après la souscription du contra
 
 ## Documents liés
 
-- [[Assurance Vélo]] - Conditions générales, éd. 08122025
+- [Assurance Vélo](Assurance%20V%C3%A9lo.md) - Conditions générales, éd. 08122025
 
 ## Source & fidélité
 

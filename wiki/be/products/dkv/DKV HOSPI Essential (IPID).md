@@ -40,7 +40,7 @@ generated: true
 
 DKV HOSPI Essential est une assurance hospitalisation individuelle à caractère indemnitaire, complémentaire à l'intervention de l'assurance maladie légale/statutaire belge, assortie d'une assurance assistance à l'étranger. Elle rembourse les frais réels supportés (tickets modérateurs et suppléments inclus) liés à une hospitalisation en cas de maladie, d'accident ou d'accouchement, avec libre choix de l'hôpital et du prestataire de soins reconnu. Elle couvre également les soins ambulatoires pré- et post-hospitaliers, une liste de 33 "Maladies Graves" et une assistance à l'étranger (DKV ASSISTANCE). Elle peut être souscrite par toute personne physique résidant en Belgique n'ayant pas atteint 70 ans à la conclusion du contrat.
 
-- Assureur : [[DKV Belgium]] · Branche : [[Santé]] · Type : IPID / Fiche d'information · Édition : 202508
+- Assureur : [DKV Belgium](../../insurers/DKV%20Belgium.md) · Branche : [Santé](../../branches/Sant%C3%A9.md) · Type : IPID / Fiche d'information · Édition : 202508
 
 ## Définitions
 
@@ -212,7 +212,7 @@ AssurPharma : envoi automatisé à DKV des attestations par un pharmacien reconn
 
 ## Documents liés
 
-- [[DKV Hospi Essential]] - Conditions générales, éd. 2025-08-01
+- [DKV Hospi Essential](DKV%20Hospi%20Essential.md) - Conditions générales, éd. 2025-08-01
 
 ## Source & fidélité
 

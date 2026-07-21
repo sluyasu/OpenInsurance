@@ -38,7 +38,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) pour l'Assurance Auto (TCAR08) proposée par Yuzzu S.A., souscripteur mandaté pour le compte d'AXA Belgium S.A. L'assurance véhicules automoteurs couvre les dommages corporels et matériels causés aux tiers et aux passagers, et comprend au minimum la garantie responsabilité civile obligatoire. Elle peut être complétée par des garanties couvrant le véhicule lui-même (mini omnium, omnium essentium, full omnium) ou des services liés à l'usage du véhicule (assistance, protection juridique, assurance du conducteur, garanties BOB et Yuzzu Europe).
 
-- Assureur : [[Yuzzu]] · Branche : [[Auto]] · Type : IPID / Fiche d'information · Édition : 12/05/2026
+- Assureur : [Yuzzu](../../insurers/Yuzzu.md) · Branche : [Auto](../../branches/Auto.md) · Type : IPID / Fiche d'information · Édition : 12/05/2026
 
 ## Garanties
 
@@ -142,8 +142,8 @@ Chacune des options suivantes peut être souscrite indépendamment les unes des 
 
 ## Documents liés
 
-- [[Assurance Auto]] - Conditions générales, éd. 2026-05-12
-- [[Assurance Auto]] - Conditions générales, éd. 2026-05-12
+- [Assurance Auto](Assurance%20Auto.md) - Conditions générales, éd. 2026-05-12
+- [Assurance Auto](Assurance%20Auto%20%282%29.md) - Conditions générales, éd. 2026-05-12
 
 ## Source & fidélité
 

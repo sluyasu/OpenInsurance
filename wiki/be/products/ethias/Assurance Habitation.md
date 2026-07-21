@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales de la police « Assurance Habitation » d'Ethias, couvrant un bâtiment servant d'habitation et/ou son contenu. Le contrat garantit l'indemnisation des dégâts matériels causés accidentellement aux biens assurés par un événement relevant d'une garantie couverte, ainsi que la responsabilité pouvant incomber à l'assuré à la suite d'un sinistre couvert. Il comprend de nombreuses garanties de base (incendie, dégât des eaux, tempête/grêle, catastrophes naturelles, foudre, bris de vitrages, responsabilité civile des biens, terrorisme, assistance, etc.), des garanties optionnelles (vol et vandalisme, pertes indirectes, protection juridique) et des extensions de garantie. Une assistance 24h/24 est offerte en cas de sinistre couvert survenu en Belgique.
 
-- Assureur : [[Ethias]] · Branche : [[Habitation]] · Type : Conditions générales · Édition : 03/25
+- Assureur : [Ethias](../../insurers/Ethias.md) · Branche : [Habitation](../../branches/Habitation.md) · Type : Conditions générales · Édition : 03/25
 
 ## Définitions
 

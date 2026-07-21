@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales de l'assurance Short Term Protect Classic (protège une seule personne) et Short Term Protect 2win (protège deux personnes), un contrat pouvant garantir le remboursement d'un crédit à la consommation ou une protection générale (pas un crédit hypothécaire). La garantie principale est le décès par maladie ou accident ; les garanties facultatives sont l'incapacité totale de travail et la perte d'emploi involontaire. Les assureurs sont Cardif Assurance Vie S.A. (décès, incapacité totale de travail) et Cardif Assurances Risque Divers S.A. (perte d'emploi involontaire).
 
-- Assureur : [[BNP Paribas Cardif]] · Branche : [[Autres]] · Type : Conditions générales · Édition : 2023/03
+- Assureur : [BNP Paribas Cardif](../../insurers/BNP%20Paribas%20Cardif.md) · Branche : [Autres](../../branches/Autres.md) · Type : Conditions générales · Édition : 2023/03
 
 ## Définitions
 
@@ -161,8 +161,8 @@ L'assuré est licencié de manière involontaire ? L'assureur paie alors au bén
 
 ## Documents liés
 
-- [[Short Term Protect Business]] - Conditions générales, éd. 2023/03
-- [[Short Term Protect - Luxembourg]] - Conditions générales, éd. 2023/03
+- [Short Term Protect Business](Short%20Term%20Protect%20Business.md) - Conditions générales, éd. 2023/03
+- [Short Term Protect - Luxembourg](Short%20Term%20Protect%20-%20Luxembourg.md) - Conditions générales, éd. 2023/03
 
 ## Source & fidélité
 

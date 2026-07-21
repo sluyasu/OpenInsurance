@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales de l'assurance incendie Multirisk Habitation de Fédérale Assurance, destinée à assurer un risque simple destiné à l'habitation (et éventuellement à l'exercice d'une activité professionnelle). Elle couvre le bâtiment et/ou le contenu contre des périls de base (incendie, explosion, foudre, heurt, électricité, tempête, catastrophes naturelles, eau, mazout, bris de vitrages, effraction/vandalisme, conflits du travail/attentats/terrorisme), la responsabilité civile immeuble, des extensions de garanties et des garanties complémentaires de responsabilité. Le contrat comprend une assistance FEDERALE Assistance 24h/24 et 7j/7 et des garanties optionnelles (Vol du contenu, Perte d'exploitation, Protection juridique).
 
-- Assureur : [[Fédérale Assurance]] · Branche : [[Habitation]] · Type : Conditions générales · Édition : 04/25
+- Assureur : [Fédérale Assurance](../../insurers/F%C3%A9d%C3%A9rale%20Assurance.md) · Branche : [Habitation](../../branches/Habitation.md) · Type : Conditions générales · Édition : 04/25
 
 ## Définitions
 
@@ -477,7 +477,7 @@ Nous intervenons pour : 1) la défense d'un assuré dans toute procédure pénal
 
 ## Documents liés
 
-- [[Assurance incendie Multirisk Habitation (IPID)]] - IPID / Fiche d'information, éd. 04/25
+- [Assurance incendie Multirisk Habitation (IPID)](Assurance%20incendie%20Multirisk%20Habitation%20%28IPID%29.md) - IPID / Fiche d'information, éd. 04/25
 
 ## Source & fidélité
 

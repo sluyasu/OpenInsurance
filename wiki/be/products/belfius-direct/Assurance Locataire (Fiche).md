@@ -38,7 +38,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de l'Assurance Locataire de Belfius Direct Assurances, relevant de l'assurance Incendie. Le produit couvre la responsabilité civile locative du locataire ou colocataire pour les dommages au bien loué par son occupation, avec possibilité d'assurer le contenu et la responsabilité civile extracontractuelle vie privée. Il comprend une assurance principale Habitation (garanties de base plus options Vol et Protection juridique) et des assurances complémentaires Responsabilité civile Familiale et Protection juridique Familiale. Ce document donne un aperçu non exhaustif des principales couvertures et exclusions.
 
-- Assureur : [[Belfius Direct Assurances]] · Branche : [[Habitation]] · Type : Fiche produit · Édition : 06/2025
+- Assureur : [Belfius Direct Assurances](../../insurers/Belfius%20Direct%20Assurances.md) · Branche : [Habitation](../../branches/Habitation.md) · Type : Fiche produit · Édition : 06/2025
 
 ## Garanties
 
@@ -188,7 +188,7 @@ Incluse dans l'assurance complémentaire responsabilité civile familiale. Compr
 
 ## Documents liés
 
-- [[Assurance Locataire]] - Conditions générales, éd. 15/06/2025
+- [Assurance Locataire](Assurance%20Locataire.md) - Conditions générales, éd. 15/06/2025
 
 ## Source & fidélité
 

@@ -38,7 +38,7 @@ generated: true
 
 L’Assurance F-Protection est une assurance assistance proposée par Europ Assistance qui offre une assistance dépannage ou rapatriement en cas de problème avec le véhicule et intervient aussi en cas de maladie ou d’accident. Elle couvre l’assistance au véhicule et aux passagers assurés, l’assistance aux personnes ainsi que des services complémentaires à l’étranger. Cette assurance protège toute l’année.
 
-- Assureur : [[Fédérale Assurance]] · Branche : [[Voyage]] · Type : IPID / Fiche d'information · Édition : 06/24
+- Assureur : [Fédérale Assurance](../../insurers/F%C3%A9d%C3%A9rale%20Assurance.md) · Branche : [Voyage](../../branches/Voyage.md) · Type : IPID / Fiche d'information · Édition : 06/24
 
 ## Garanties
 

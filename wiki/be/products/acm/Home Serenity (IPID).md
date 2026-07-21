@@ -38,7 +38,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de Home Serenity, l’assurance habitation d’ACM Belgium. Home Serenity couvre les dommages matériels causés au bâtiment assuré et/ou à son contenu ; si l’assuré est locataire ou occupant, la responsabilité locative et/ou le contenu. La couverture peut être étendue à des garanties optionnelles : Vol et vandalisme, Tous Risques, Rééquipement à neuf du mobilier, Dépannage électroménager et audiovisuel, Pertes Indirectes, RC Vie Privée (Familiale) et Protection Juridique. Ce document n’est pas personnalisé et les informations qui y sont reprises ne sont pas exhaustives.
 
-- Assureur : [[ACM Belgium]] · Branche : [[Habitation]] · Type : IPID / Fiche d'information · Édition : 10/2024
+- Assureur : [ACM Belgium](../../insurers/ACM%20Belgium.md) · Branche : [Habitation](../../branches/Habitation.md) · Type : IPID / Fiche d'information · Édition : 10/2024
 
 ## Définitions
 
@@ -187,8 +187,8 @@ Garantie optionnelle.
 
 ## Documents liés
 
-- [[Home Serenity]] - Conditions générales, éd. 10/2024
-- [[Home Serenity]] - Conditions générales, éd. 10/2024
+- [Home Serenity](Home%20Serenity.md) - Conditions générales, éd. 10/2024
+- [Home Serenity](Home%20Serenity%20%282%29.md) - Conditions générales, éd. 10/2024
 
 ## Source & fidélité
 

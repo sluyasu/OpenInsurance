@@ -38,7 +38,7 @@ generated: true
 
 Assistance Voyage est un contrat d'assurance assistance de Belfius Direct Assurances couvrant, en Belgique et à l'étranger, l'assistance aux personnes (transport et rapatriement en cas de maladie, accident ou décès, frais médicaux à l'étranger, assistance vélo, assistance psychologique, etc.) et, en garantie optionnelle, l'assistance au véhicule Start et Plus (dépannage, remorquage, véhicule de remplacement, rapatriement). Les garanties à l'étranger s'appliquent pendant les 90 premiers jours du voyage. Les prestations sont organisées par une centrale d'assistance joignable 24/24 et 7/7.
 
-- Assureur : [[Belfius Direct Assurances]] · Branche : [[Voyage]] · Type : Conditions générales · Édition : 15/03/2025
+- Assureur : [Belfius Direct Assurances](../../insurers/Belfius%20Direct%20Assurances.md) · Branche : [Voyage](../../branches/Voyage.md) · Type : Conditions générales · Édition : 15/03/2025
 
 ## Définitions
 
@@ -388,7 +388,7 @@ Toute action dérivant de ce contrat est prescrite après trois ans à dater de 
 
 ## Documents liés
 
-- [[Assistance Voyage (Fiche)]] - Fiche produit, éd. 03/2025
+- [Assistance Voyage (Fiche)](Assistance%20Voyage%20%28Fiche%29.md) - Fiche produit, éd. 03/2025
 
 ## Source & fidélité
 

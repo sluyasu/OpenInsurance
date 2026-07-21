@@ -38,7 +38,7 @@ generated: true
 
 Conditions Générales de l'assurance Habitation (incendie et périls connexes) de Belfius Direct Assurances, couvrant le bâtiment et/ou le contenu dont l'assuré est propriétaire, locataire ou occupant à l'adresse indiquée dans les Conditions Particulières. Les garanties de base comprennent l'incendie et périls connexes, la tempête et grêle, les dégâts des eaux, le bris de vitres, la RC Bâtiment, les catastrophes naturelles et l'assistance habitation. Des garanties facultatives (Vol, Pertes indirectes, Protection juridique) et des garanties complémentaires (dommages consécutifs au sinistre, hospitalisation brûlures, nouvelles normes de construction) peuvent s'y ajouter.
 
-- Assureur : [[Belfius Direct Assurances]] · Branche : [[Habitation]] · Type : Conditions générales
+- Assureur : [Belfius Direct Assurances](../../insurers/Belfius%20Direct%20Assurances.md) · Branche : [Habitation](../../branches/Habitation.md) · Type : Conditions générales
 
 ## Définitions
 

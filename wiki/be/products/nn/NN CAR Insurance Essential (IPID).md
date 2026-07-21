@@ -42,7 +42,7 @@ generated: true
 
 NN CAR Insurance Essential est une assurance auto complète pour voiture, minibus ou camionnette, distribuée par NN Non-life (compagnie d'assurances de droit néerlandais inscrite en Belgique sous le numéro de code 2925). La couverture de base comprend la Responsabilité Civile obligatoire, un service en cas de sinistre avec assistance 24h/24 7j/7, un réseau de réparateurs agréés et un véhicule de remplacement. Des assurances optionnelles sont disponibles (Mini-Omnium, Omnium, Protection juridique, Conducteur +, Assistance en Belgique et à l'étranger, Autopartage), applicables uniquement si souscrites et indiquées dans les Conditions Particulières.
 
-- Assureur : [[NN Insurance Belgium]] · Branche : [[Auto]] · Type : IPID / Fiche d'information · Édition : 12/2025
+- Assureur : [NN Insurance Belgium](../../insurers/NN%20Insurance%20Belgium.md) · Branche : [Auto](../../branches/Auto.md) · Type : IPID / Fiche d'information · Édition : 12/2025
 
 ## Garanties
 
@@ -159,7 +159,7 @@ Fournit une protection contre les dommages en cas de location occasionnelle de v
 
 ## Documents liés
 
-- [[NN Car Insurance Essential]] - Conditions générales, éd. 2025-12-01
+- [NN Car Insurance Essential](NN%20Car%20Insurance%20Essential.md) - Conditions générales, éd. 2025-12-01
 
 ## Source & fidélité
 

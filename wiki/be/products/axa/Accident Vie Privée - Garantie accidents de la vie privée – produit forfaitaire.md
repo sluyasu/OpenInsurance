@@ -39,7 +39,7 @@ generated: true
 
 Contrat d'assurance forfaitaire couvrant les accidents de la vie privée. La garantie de base verse une indemnisation proportionnelle au capital fixé en conditions particulières en cas d'incapacité permanente égale ou supérieure au seuil d'intervention convenu. Des garanties optionnelles permettent le remboursement des frais de traitement consécutifs à l'accident et une indemnisation en cas de décès consécutif à l'accident. Le contrat est proposé en deux formules : « single » (le preneur seul) et « famille » (le foyer).
 
-- Assureur : [[AXA Belgium]] · Branche : [[Accidents]] · Type : Conditions générales · Édition : 12.2023
+- Assureur : [AXA Belgium](../../insurers/AXA%20Belgium.md) · Branche : [Accidents](../../branches/Accidents.md) · Type : Conditions générales · Édition : 12.2023
 
 ## Définitions
 

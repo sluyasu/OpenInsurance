@@ -38,7 +38,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de l'Assurance au Kilomètre de Belfius Direct Assurances, un contrat d'assurance multirisque véhicules automoteurs. La garantie de base couvre la responsabilité civile de l'assuré en cas d'accident de la circulation (dommages causés à des tiers), obligatoire en Belgique, et inclut l'Assistance 24h/24 et la garantie BOB. Elle peut être complétée par des garanties optionnelles: Assurance Conducteur, Petite Omnium ou Full Omnium, Protection Juridique et Véhicule de remplacement ou budget mobilité. Le produit sert à assurer une voiture privée d'un poids maximal autorisé de 3,5 tonnes.
 
-- Assureur : [[Belfius Direct Assurances]] · Branche : [[Auto]] · Type : Fiche produit · Édition : 06/2026
+- Assureur : [Belfius Direct Assurances](../../insurers/Belfius%20Direct%20Assurances.md) · Branche : [Auto](../../branches/Auto.md) · Type : Fiche produit · Édition : 06/2026
 
 ## Garanties
 
@@ -142,7 +142,7 @@ Si le véhicule assuré est volé ou immobilisé à la suite d'un accident, d'un
 
 ## Documents liés
 
-- [[Assurance au Kilomètre]] - Conditions générales, éd. 15062026
+- [Assurance au Kilomètre](Assurance%20au%20Kilom%C3%A8tre.md) - Conditions générales, éd. 15062026
 
 ## Source & fidélité
 

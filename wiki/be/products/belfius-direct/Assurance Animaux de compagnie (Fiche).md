@@ -38,7 +38,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de l'Assurance Animaux de compagnie de Belfius Direct Assurances. Lorsque votre animal de compagnie tombe malade ou se blesse, cette assurance permet de couvrir les frais de traitement, remboursés à hauteur de 80% avec un plafond d'intervention par sinistre (1.000 euros pour les chats, 1.500 euros pour les chiens). La garantie de base couvre aussi le vol ou l'errance, les frais publicitaires en cas de vol/fugue et la garde en chenil (jusqu'à 750 euros). Des garanties optionnelles existent: augmentation du plafond, Budget de Prévention et Voyage.
 
-- Assureur : [[Belfius Direct Assurances]] · Branche : [[Animaux]] · Type : Fiche produit · Édition : 06/2026
+- Assureur : [Belfius Direct Assurances](../../insurers/Belfius%20Direct%20Assurances.md) · Branche : [Animaux](../../branches/Animaux.md) · Type : Fiche produit · Édition : 06/2026
 
 ## Garanties
 
@@ -134,7 +134,7 @@ Une couverture temporaire des frais vétérinaires imprévus à l'étranger et u
 
 ## Documents liés
 
-- [[Assurance Animaux de compagnie]] - Conditions générales, éd. 15062026
+- [Assurance Animaux de compagnie](Assurance%20Animaux%20de%20compagnie.md) - Conditions générales, éd. 15062026
 
 ## Source & fidélité
 

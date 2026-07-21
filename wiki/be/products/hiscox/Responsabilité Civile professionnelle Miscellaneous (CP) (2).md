@@ -38,7 +38,7 @@ generated: true
 
 Conditions Spéciales de l'assurance Responsabilité Civile professionnelle Miscellaneous de Hiscox (n° PIMISC202401), spécialement conçues pour les métiers de conseil et service. La garantie couvre, franchise déduite et dans la limite du plafond de garantie ou de chaque sous-limite applicable, les conséquences pécuniaires de la responsabilité civile encourue dans le cadre de l'exécution des obligations contractuelles ou quasi-contractuelles au bénéfice d'un client, pour des dommages corporels, matériels ou immatériels, consécutifs ou non. Le document comprend un glossaire, la description de la garantie RC Professionnelle et ses volets (A à L), des garanties additionnelles et une liste d'exclusions. Les montants (plafond, sous-limites, franchise) sont fixés aux Conditions Particulières.
 
-- Assureur : [[Hiscox SA]] · Branche : [[RC professionnelle]] · Type : Conditions particulières · Édition : 2024-01
+- Assureur : [Hiscox SA](../../insurers/Hiscox%20SA.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : Conditions particulières · Édition : 2024-01
 
 ## Définitions
 
@@ -231,7 +231,7 @@ Si au cours de la période d'assurance vous risquez de subir une réclamation en
 
 ## Documents liés
 
-- [[Assurance RC Professionnelle « Miscellaneous » (IPID)]] - IPID / Fiche d'information, éd. 2024
+- [Assurance RC Professionnelle « Miscellaneous » (IPID)](Assurance%20RC%20Professionnelle%20%C2%AB%20Miscellaneous%20%C2%BB%20%28IPID%29.md) - IPID / Fiche d'information, éd. 2024
 
 ## Source & fidélité
 

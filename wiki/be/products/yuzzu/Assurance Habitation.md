@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales de l'Assurance Habitation de Yuzzu (souscripteur mandaté non-vie agissant pour le compte de l'assureur AXA Belgium S.A.). Le contrat couvre le bâtiment (principal et annexes) et/ou le contenu contre les périls incendie et périls connexes, action de l'électricité, foudre, heurt, dégradations immobilières, attentat et conflit du travail, terrorisme, tempête/grêle/pression neige-glace, eau et combustibles liquides, bris de glaces, catastrophes naturelles, R.C. bâtiment/contenu, rupture de contrat, ainsi que les frais liés aux sinistres. Il comprend d'office un volet Protection juridique Habitation (géré par Legal Village) et propose en option la garantie Vol du contenu, l'Abandon de recours et la R.C. Vie Privée (Familiale) avec sa Protection juridique. Une assistance 7/7-24/24 (AXA Assistance) est incluse.
 
-- Assureur : [[Yuzzu]] · Branche : [[Habitation]] · Type : Conditions générales · Édition : 2026-05-12
+- Assureur : [Yuzzu](../../insurers/Yuzzu.md) · Branche : [Habitation](../../branches/Habitation.md) · Type : Conditions générales · Édition : 2026-05-12
 
 ## Définitions
 
@@ -352,7 +352,7 @@ Le délai de prescription de toute action qui découle d'un contrat d'assurance 
 
 ## Documents liés
 
-- [[Assurance Habitation (IPID)]] - IPID / Fiche d'information, éd. 12/05/2026
+- [Assurance Habitation (IPID)](Assurance%20Habitation%20%28IPID%29.md) - IPID / Fiche d'information, éd. 12/05/2026
 
 ## Source & fidélité
 

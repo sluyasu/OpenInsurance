@@ -38,7 +38,7 @@ generated: true
 
 L'Assurance Habitation proposée par Yuzzu S.A. pour le compte d'AXA Belgium est une assurance multirisque pour les bâtiments (y compris leurs annexes, dépendances et garages, même situés à une autre adresse) : maisons unifamiliales, appartements et immeubles comprenant au maximum 4 logements et/ou 4 niveaux, ainsi que les habitations comportant une partie à destination de bureau ou à l'exercice d'une profession libérale. Elle couvre le propriétaire en cas de dégâts matériels au bâtiment et/ou au contenu, ou le locataire en cas de dégâts matériels au contenu et/ou sa responsabilité locative. Elle peut être complétée par les options Vol, Abandon de recours et une garantie RC Vie privée (Familiale).
 
-- Assureur : [[Yuzzu]] · Branche : [[Habitation]] · Type : IPID / Fiche d'information · Édition : 12/05/2026
+- Assureur : [Yuzzu](../../insurers/Yuzzu.md) · Branche : [Habitation](../../branches/Habitation.md) · Type : IPID / Fiche d'information · Édition : 12/05/2026
 
 ## Garanties
 
@@ -174,7 +174,7 @@ Garantie RC Vie privée (Familiale) : Responsabilité civile extracontractuelle 
 
 ## Documents liés
 
-- [[Assurance Habitation]] - Conditions générales, éd. 2026-05-12
+- [Assurance Habitation](Assurance%20Habitation.md) - Conditions générales, éd. 2026-05-12
 
 ## Source & fidélité
 

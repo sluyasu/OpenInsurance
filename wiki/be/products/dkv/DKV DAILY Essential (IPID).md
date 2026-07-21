@@ -41,7 +41,7 @@ generated: true
 
 DKV DAILY Essential est une assurance individuelle soins de santé ambulatoires sans hospitalisation, à caractère indemnitaire, complémentaire à l'intervention de l'assurance maladie légale belge. Elle rembourse à 70% jusqu'à 1.500 € par année d'assurance les frais médicaux ambulatoires (traitement médical, traitement paramédical, médicaments, verres correcteurs), 365 jours par an, après déduction de toute intervention légale/statutaire ou autre. Le contrat est conclu à vie et n'est pas résiliable par l'assureur sauf exceptions prévues par la loi.
 
-- Assureur : [[DKV Belgium]] · Branche : [[Santé]] · Type : IPID / Fiche d'information · Édition : 202508
+- Assureur : [DKV Belgium](../../insurers/DKV%20Belgium.md) · Branche : [Santé](../../branches/Sant%C3%A9.md) · Type : IPID / Fiche d'information · Édition : 202508
 
 ## Garanties
 
@@ -120,7 +120,7 @@ Envoi automatisé à DKV des attestations par un pharmacien reconnu.
 
 ## Documents liés
 
-- [[DKV Daily Essential]] - Conditions générales, éd. 08/2025
+- [DKV Daily Essential](DKV%20Daily%20Essential.md) - Conditions générales, éd. 08/2025
 
 ## Source & fidélité
 

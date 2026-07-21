@@ -39,7 +39,7 @@ generated: true
 
 L'assurance hospitalisation KBC est une assurance maladie complémentaire par laquelle l'assureur garantit la couverture des soins et traitements médicaux requis en cas de maladie, grossesse, accouchement ou accident. Elle peut être souscrite par des personnes physiques ayant leur résidence habituelle en Belgique et affiliées à la sécurité sociale belge. Elle couvre les frais d'hospitalisation, les frais pré et post-hospitalisation ainsi que les frais liés aux maladies graves, avec une option pour le type de chambre. La souscription peut être soumise à une acceptation médicale.
 
-- Assureur : [[KBC Bank & Verzekering]] · Branche : [[Santé]] · Type : IPID / Fiche d'information
+- Assureur : [KBC Bank & Verzekering](../../insurers/KBC%20Bank%20%26%20Verzekering.md) · Branche : [Santé](../../branches/Sant%C3%A9.md) · Type : IPID / Fiche d'information
 
 ## Garanties
 

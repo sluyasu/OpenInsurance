@@ -38,7 +38,7 @@ generated: true
 
 VIVIUM Habitation est une assurance habitation multirisque (assurance incendie) qui indemnise le propriétaire, locataire et/ou occupant pour les dommages matériels causés à l'habitation et/ou à son contenu. Elle couvre des risques tels que l'incendie, la foudre, l'explosion, le heurt, les dégâts d'effraction et le vandalisme, les dommages aux appareils électriques, la tempête, la grêle, le bris de vitrages, les dégâts des eaux, les dégâts dus au mazout, la RC bâtiment, le recours des tiers et les catastrophes naturelles. Une assistance habitation 24h/24 et 7j/7 est incluse, ainsi que des garanties optionnelles (Vol et vandalisme du contenu, Pertes indirectes, Protection juridique) et des packs (Jardin, Vol+).
 
-- Assureur : [[Vivium]] · Branche : [[Habitation]] · Type : IPID / Fiche d'information · Édition : 01-2025
+- Assureur : [Vivium](../../insurers/Vivium.md) · Branche : [Habitation](../../branches/Habitation.md) · Type : IPID / Fiche d'information · Édition : 01-2025
 
 ## Garanties
 
@@ -218,7 +218,7 @@ Pack Vol+ : double et améliore l'intervention après un vol, par exemple le vol
 
 ## Documents liés
 
-- [[VIVIUM Habitation]] - Conditions générales, éd. 2018-01
+- [VIVIUM Habitation](VIVIUM%20Habitation.md) - Conditions générales, éd. 2018-01
 
 ## Source & fidélité
 

@@ -38,7 +38,7 @@ generated: true
 
 DKV Daily Essential est une assurance individuelle soins de santé ambulatoires à caractère indemnitaire, conforme à la législation belge, qui intervient en complément de toute intervention légale/statutaire ou autre. Elle couvre à 70 % les frais réels (tickets modérateurs légaux et suppléments d'honoraires) restant à charge de l'assuré pour les consultations et/ou traitements ambulatoires liés à un accouchement, un accident ou une maladie. Les frais couverts englobent le traitement médical, le traitement paramédical, les médicaments allopathiques et certains dispositifs médicaux (verres correcteurs de lunettes). L'intervention est plafonnée à € 1.500 par année d'assurance et une franchise fixée dans la police s'applique par cas d'assurance.
 
-- Assureur : [[DKV Belgium]] · Branche : [[Santé]] · Type : Conditions générales · Édition : 08/2025
+- Assureur : [DKV Belgium](../../insurers/DKV%20Belgium.md) · Branche : [Santé](../../branches/Sant%C3%A9.md) · Type : Conditions générales · Édition : 08/2025
 
 ## Définitions
 
@@ -209,7 +209,7 @@ Le délai de prescription pour soumettre des frais d'un cas d'assurance est de 3
 
 ## Documents liés
 
-- [[DKV DAILY Essential (IPID)]] - IPID / Fiche d'information, éd. 202508
+- [DKV DAILY Essential (IPID)](DKV%20DAILY%20Essential%20%28IPID%29.md) - IPID / Fiche d'information, éd. 202508
 
 ## Source & fidélité
 

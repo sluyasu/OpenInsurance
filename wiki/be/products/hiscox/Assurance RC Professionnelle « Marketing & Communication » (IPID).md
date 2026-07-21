@@ -38,7 +38,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) résumant les principales garanties et exclusions de l'assurance Responsabilité Civile Professionnelle « Marketing & Communication » de Hiscox SA (entreprise d'assurances agréée sous le n° de code 3099, dont le siège social est au Luxembourg et qui agit en Belgique via sa succursale belge). Le produit protège les professionnels de la communication, du marketing, de la création graphique, de la publicité et de l'organisation d'événements contre les conséquences des erreurs, fautes ou omissions qu'ils pourraient commettre dans le cadre de leur activité professionnelle. Ce document présente un résumé non exhaustif ; l'information complète figure dans la documentation contractuelle et précontractuelle.
 
-- Assureur : [[Hiscox SA]] · Branche : [[RC professionnelle]] · Type : IPID / Fiche d'information · Édition : 2024
+- Assureur : [Hiscox SA](../../insurers/Hiscox%20SA.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : IPID / Fiche d'information · Édition : 2024
 
 ## Garanties
 
@@ -208,7 +208,7 @@ Protection Juridique (en option), comprenant : Défense pénale ; Demande civile
 
 ## Documents liés
 
-- [[Responsabilité Civile professionnelle Marketing & Communication (CP)]] - Conditions particulières, éd. 2024-01
+- [Responsabilité Civile professionnelle Marketing & Communication (CP)](Responsabilit%C3%A9%20Civile%20professionnelle%20Marketing%20%26%20Communication%20%28CP%29.md) - Conditions particulières, éd. 2024-01
 
 ## Source & fidélité
 

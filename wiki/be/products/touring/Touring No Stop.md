@@ -38,7 +38,7 @@ generated: true
 
 Touring No Stop est un contrat d'assurance voyage annuel qui permet à l'assuré d'obtenir une indemnité lorsqu'il ne peut pas participer à un voyage acheté. La garantie de base comprend d'office l'assurance Annulation, la Compensation de voyage et l'assurance Bagages. Le produit se décline en deux formules (No Stop Relax et No Stop Full) souscriptibles à titre individuel ou pour la famille ; la formule Full ajoute notamment la garantie Fly zen (retard, annulation, déclassement ou refus d'embarquement d'un vol) et supprime la franchise. L'assureur est AG Insurance, Touring agissant comme assisteur et gestionnaire des sinistres.
 
-- Assureur : [[Touring]] · Branche : [[Voyage]] · Type : Conditions générales · Édition : 2026-04-01
+- Assureur : [Touring](../../insurers/Touring.md) · Branche : [Voyage](../../branches/Voyage.md) · Type : Conditions générales · Édition : 2026-04-01
 
 ## Définitions
 
@@ -285,7 +285,7 @@ La législation belge s'applique au présent contrat et en particulier la loi du
 
 ## Documents liés
 
-- [[Touring No Stop (IPID)]] - IPID / Fiche d'information, éd. 01042026
+- [Touring No Stop (IPID)](Touring%20No%20Stop%20%28IPID%29.md) - IPID / Fiche d'information, éd. 01042026
 
 ## Source & fidélité
 

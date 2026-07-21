@@ -38,7 +38,7 @@ generated: true
 
 Le Flexinvest Management est une formule d’épargne, un compte-assurance de la branche 21 avec des retraits programmés par le client, lié à un contrat d’assurance-vie avec un taux d’intérêt technique garanti et une participation bénéficiaire. À l’échéance, le capital de la police est versé; en cas de décès de l’assuré, le capital est versé au(x) bénéficiaire(s) sans frais. Le client peut programmer des retraits mensuels et effectuer, en plus, des retraits gratuits dont le pourcentage dépend de la durée choisie.
 
-- Assureur : [[ERGO Insurance SA/NV]] · Branche : [[Épargne / Placement (Branche 21/23)]] · Type : Fiche produit · Édition : 02/01/2012
+- Assureur : [ERGO Insurance SA/NV](../../insurers/ERGO%20Insurance%20SA-NV.md) · Branche : Épargne / Placement (Branche 21/23) · Type : Fiche produit · Édition : 02/01/2012
 
 ## Définitions
 

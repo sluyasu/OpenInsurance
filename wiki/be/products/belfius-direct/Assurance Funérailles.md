@@ -38,7 +38,7 @@ generated: true
 
 L'Assurance Funérailles de Belfius Direct Assurances est un contrat d'assurance décès (assurance-vie) qui, moyennant le versement de primes, garantit le paiement d'un capital assuré au(x) bénéficiaire(s) désigné(s) en cas de décès de l'assuré. Les enfants de l'assuré sont automatiquement assurés à concurrence du capital assuré, sans excéder € 2.500 par enfant. Le contrat comporte des périodes d'attente pour le décès par mort naturelle ou maladie, mais couvre 100% du capital dès le premier jour en cas de décès par accident. Il inclut également une couverture « Assistance » (garde d'enfants et d'animaux, aide-ménagère, assistance psychologique, rapatriement en cas de décès à l'étranger, retour anticipé, Care Manager et service d'information).
 
-- Assureur : [[Belfius Direct Assurances]] · Branche : [[Obsèques]] · Type : Conditions générales
+- Assureur : [Belfius Direct Assurances](../../insurers/Belfius%20Direct%20Assurances.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : Conditions générales
 
 ## Définitions
 
@@ -199,7 +199,7 @@ Si le preneur d'assurance s'est vu offrir la possibilité d'opter pour l'indexat
 
 ## Documents liés
 
-- [[Assurance Funérailles (Fiche)]] - Fiche produit, éd. 15/01/2024
+- [Assurance Funérailles (Fiche)](Assurance%20Fun%C3%A9railles%20%28Fiche%29.md) - Fiche produit, éd. 15/01/2024
 
 ## Source & fidélité
 

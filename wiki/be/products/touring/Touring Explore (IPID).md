@@ -38,7 +38,7 @@ generated: true
 
 Touring Explore est un contrat d'assurance temporaire (assurance assistance) par lequel l'assureur AG Insurance intervient au bénéfice de l'assuré lorsque celui-ci, à la suite de certains évènements, a besoin d'assistance lors d'un séjour à l'étranger, notamment en cas de frais médicaux. La garantie de base couvre l'assistance aux personnes à l'étranger. Des Packs optionnels sont disponibles : Assistance Dépannage Véhicule, Assurance Annulation et Assurance Compensation de voyage & Bagages.
 
-- Assureur : [[Touring]] · Branche : [[Voyage]] · Type : IPID / Fiche d'information · Édition : 01042026
+- Assureur : [Touring](../../insurers/Touring.md) · Branche : [Voyage](../../branches/Voyage.md) · Type : IPID / Fiche d'information · Édition : 01042026
 
 ## Garanties
 
@@ -165,7 +165,7 @@ Bagages : le remboursement des objets assurés notamment en cas de vol, destruct
 
 ## Documents liés
 
-- [[Touring Explore]] - Conditions générales, éd. 01/04/2026
+- [Touring Explore](Touring%20Explore.md) - Conditions générales, éd. 01/04/2026
 
 ## Source & fidélité
 

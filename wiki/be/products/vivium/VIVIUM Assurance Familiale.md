@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales de l'assurance familiale VIVIUM (marque de P&V Assurances SC). Le contrat couvre en partie I la responsabilité civile extracontractuelle des assurés pour les dommages causés à des tiers dans le cadre de la vie privée, et en partie II (facultative, si mentionnée aux conditions particulières) la protection juridique vie privée (défense pénale, recours civil, insolvabilité de tiers, avance de fonds, etc.). Les parties III à V couvrent les dispositions administratives, le lexique et les dispositions légales.
 
-- Assureur : [[Vivium]] · Branche : [[Vie privée]] · Type : Conditions générales · Édition : 04-2025
+- Assureur : [Vivium](../../insurers/Vivium.md) · Branche : [Vie privée](../../branches/Vie%20priv%C3%A9e.md) · Type : Conditions générales · Édition : 04-2025
 
 ## Définitions
 

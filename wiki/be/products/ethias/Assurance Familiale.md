@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales de l'assurance « Assurance Familiale » d'Ethias, couvrant la responsabilité civile extra-contractuelle des assurés dans le cadre de leur vie privée (Titre I), avec une garantie optionnelle de protection juridique liée à la responsabilité civile (Titre II). La couverture RC est valable dans le monde entier et s'applique aux dommages corporels (jusqu'à 30 952 562,01 euros par sinistre, sans franchise) et matériels (jusqu'à 8 946 102,41 euros par sinistre, après franchise de 309,53 euros). Le document précise le champ des assurés et tiers, de nombreuses extensions (enfants, personnel domestique, animaux, immeubles, déplacements, séjours, loisirs, garantie Bob), les exclusions, les obligations en cas de sinistre et les dispositions administratives (durée, prime, résiliation).
 
-- Assureur : [[Ethias]] · Branche : [[Vie privée]] · Type : Conditions générales · Édition : 2025-03
+- Assureur : [Ethias](../../insurers/Ethias.md) · Branche : [Vie privée](../../branches/Vie%20priv%C3%A9e.md) · Type : Conditions générales · Édition : 2025-03
 
 ## Définitions
 

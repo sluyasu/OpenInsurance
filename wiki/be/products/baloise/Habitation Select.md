@@ -38,7 +38,7 @@ generated: true
 
 Habitation Select de Baloise est une police combinée d'assurance habitation de droit belge (Loi du 4 avril 2014 relative aux assurances) couvrant le bâtiment et/ou le mobilier à l'adresse assurée. Elle regroupe des assurances de choses, de responsabilité et de personnes. Elle comprend des assurances de base (Incendie et autres assurances, Dégâts des eaux et dommages causés par le mazout, Tempête/grêle/pression de la neige et de la glace, Catastrophes naturelles, Bris de vitrage, Responsabilité Civile Immeuble, Tous Risques Ordinateur, Échange/garde d'habitation, Location de chambres) et des assurances optionnelles (Vol et vandalisme, Surround Package, Vol Bicyclette, Leisure Pack, Tous Risques Objets De Valeur), ainsi que le service Baloise Assistance fourni par Europ Assistance Belgium. Les conditions relatives à la durée, la résiliation et la prescription figurent dans les Conditions Générales Dispositions Administratives, non reprises dans ce document.
 
-- Assureur : [[Baloise Belgium]] · Branche : [[Habitation]] · Type : Conditions générales · Édition : 01062026
+- Assureur : [Baloise Belgium](../../insurers/Baloise%20Belgium.md) · Branche : [Habitation](../../branches/Habitation.md) · Type : Conditions générales · Édition : 01062026
 
 ## Définitions
 
@@ -462,7 +462,7 @@ Service d'assistance fourni par Europ Assistance Belgium (Baloise agissant comme
 
 ## Documents liés
 
-- [[Habitation Select (IPID)]] - IPID / Fiche d'information, éd. 06.26
+- [Habitation Select (IPID)](Habitation%20Select%20%28IPID%29.md) - IPID / Fiche d'information, éd. 06.26
 
 ## Source & fidélité
 

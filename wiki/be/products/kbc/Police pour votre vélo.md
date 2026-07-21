@@ -38,7 +38,7 @@ generated: true
 
 Assurance vélo 'Tous risques' de KBC Assurances couvrant le vélo (à deux ou trois roues, y compris électrique jusqu'à 45 km/h) contre la dégradation et le vol, avec une couverture tous risques. Elle inclut aussi une assistance vélo complète avec dépannage, fournie en collaboration avec VAB. Le contrat comprend des conditions générales et des conditions particulières.
 
-- Assureur : [[KBC Bank & Verzekering]] · Branche : [[Vélo]] · Type : Conditions générales
+- Assureur : [KBC Bank & Verzekering](../../insurers/KBC%20Bank%20%26%20Verzekering.md) · Branche : [Vélo](../../branches/V%C3%A9lo.md) · Type : Conditions générales
 
 ## Définitions
 

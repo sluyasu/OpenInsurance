@@ -38,7 +38,7 @@ generated: true
 
 Fortune by Athora est un contrat d’assurance-vie de la Branche 23 à versements libres, lié à la performance d’un ou plusieurs fonds d’investissement. Le risque financier est entièrement supporté par le preneur d’assurance et le contrat ne donne lieu à aucun versement de participations aux bénéfices. Il prévoit une prestation en cas de décès de l’assuré (au moins égale à l’épargne constituée) et le versement de l’épargne constituée en cas de vie au terme. Il propose trois options financières (Investissement Progressif, Stop Loss Dynamique et Réinvestissement Automatique) visant à gérer partiellement le risque financier.
 
-- Assureur : [[Athora Belgium]] · Branche : [[Épargne / Placement (Branche 21/23)]] · Type : Conditions générales · Édition : 02/2022
+- Assureur : [Athora Belgium](../../insurers/Athora%20Belgium.md) · Branche : Épargne / Placement (Branche 21/23) · Type : Conditions générales · Édition : 02/2022
 
 ## Définitions
 
@@ -179,7 +179,7 @@ L’option Réinvestissement Automatique est une option complémentaire de l’o
 
 ## Documents liés
 
-- [[Fortune by Athora (Fiche)]] - Fiche produit, éd. 1 janvier 2026
+- [Fortune by Athora (Fiche)](Fortune%20by%20Athora%20%28Fiche%29.md) - Fiche produit, éd. 1 janvier 2026
 
 ## Source & fidélité
 

@@ -38,7 +38,7 @@ generated: true
 
 Confort Vélo+ est une assurance multirisque d'AXA Belgium qui couvre les dégâts matériels, le vol et l'assistance à/de vos vélos (VTT, vélo de course, autre type de vélo, y compris versions électriques) ou Engins de Déplacement Motorisés (EDM : trottinette électrique, monowheel, hoverboard, segway, skateboard électrique ou voiturette électrique). Elle se souscrit selon une formule Mono (un vélo/EDM désigné) ou Multi (jusqu'à 5 vélos/EDM de la famille), avec une couverture optionnelle Sécurité du Cycliste (personne seule ou famille). Elle ne comprend pas d'assurance de la responsabilité civile pour les dommages causés à des tiers.
 
-- Assureur : [[AXA Belgium]] · Branche : [[Vélo]] · Type : IPID / Fiche d'information · Édition : 10.2024
+- Assureur : [AXA Belgium](../../insurers/AXA%20Belgium.md) · Branche : [Vélo](../../branches/V%C3%A9lo.md) · Type : IPID / Fiche d'information · Édition : 10.2024
 
 ## Définitions
 
@@ -157,7 +157,7 @@ Option couvrant les accidents lors de l'utilisation de tout vélo/EDM assurable 
 
 ## Documents liés
 
-- [[Confort vélo+]] - Conditions générales, éd. 12.2023
+- [Confort vélo+](Confort%20v%C3%A9lo%2B.md) - Conditions générales, éd. 12.2023
 
 ## Source & fidélité
 

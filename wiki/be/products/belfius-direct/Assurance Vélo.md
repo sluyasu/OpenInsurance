@@ -38,7 +38,7 @@ generated: true
 
 Assurance Vélo de Belfius Direct Assurances est un contrat de droit belge qui couvre, dans les limites décrites, tous les risques auxquels le vélo assuré est exposé: le vol, les dommages matériels et le besoin d'assistance qui en résulte. Elle assure le vélo désigné aux Conditions Particulières, acheté à titre privé. Le casque du cycliste, le cadenas requis et les accessoires acquis après la conclusion sont assurés gratuitement jusqu'à 250 EUR TVA incluse. Une garantie Assistance (dépannage, remorquage, transport, assistance psychologique) complète la couverture.
 
-- Assureur : [[Belfius Direct Assurances]] · Branche : [[Vélo]] · Type : Conditions générales · Édition : 08122025
+- Assureur : [Belfius Direct Assurances](../../insurers/Belfius%20Direct%20Assurances.md) · Branche : [Vélo](../../branches/V%C3%A9lo.md) · Type : Conditions générales · Édition : 08122025
 
 ## Définitions
 
@@ -219,7 +219,7 @@ En cas de traumatisme suite à un accident, un vol avec violence ou un acte de v
 
 ## Documents liés
 
-- [[Assurance Vélo (Fiche)]] - Fiche produit, éd. 12/2025
+- [Assurance Vélo (Fiche)](Assurance%20V%C3%A9lo%20%28Fiche%29.md) - Fiche produit, éd. 12/2025
 
 ## Source & fidélité
 

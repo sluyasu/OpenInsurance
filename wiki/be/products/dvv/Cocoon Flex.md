@@ -38,7 +38,7 @@ generated: true
 
 Cocoon Flex est l'assurance habitation (assurance incendie) de DVV Assurances (marque et nom commercial de Belins SA). Le contrat indemnise les dommages matériels à caractère accidentel au bâtiment et au contenu (privé et professionnel) dont l'assuré est propriétaire ou responsable en qualité de locataire ou d'occupant, via des garanties de base (incendie, fumée/suie, roussissement, explosion/implosion, décongélation, heurt, détériorations immobilières par vol/vandalisme, électricité/foudre, conflits du travail et attentats, terrorisme, tempête/grêle/pression de la neige, dégâts des eaux, mazout de chauffage, bris de vitrages, responsabilité civile bâtiment et contenu, catastrophes naturelles, Home Assistance) et de nombreuses garanties optionnelles (Vol, Franchise anglaise, Pertes indirectes, Protection Juridique, Abandon de recours, Options Jardin, Piscine, Véhicule stationné, Media, Business, Travaux, Protection locataire). Le contrat prévoit aussi des garanties consécutives, des indemnités complémentaires et des extensions de garantie. Il est régi par le droit belge et notamment la Loi du 4 avril 2014 relative aux assurances.
 
-- Assureur : [[DVV Assurances]] · Branche : [[Habitation]] · Type : Conditions générales
+- Assureur : [DVV Assurances](../../insurers/DVV%20Assurances.md) · Branche : [Habitation](../../branches/Habitation.md) · Type : Conditions générales
 
 ## Définitions
 

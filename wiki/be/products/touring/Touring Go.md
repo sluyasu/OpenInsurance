@@ -38,7 +38,7 @@ generated: true
 
 Touring Go est une assurance d'assistance dépannage aux véhicules assurés en Belgique et/ou en Europe, souscrite auprès d'AG Insurance (code 0079), avec Touring SA comme assisteur. Elle existe en deux formules (Touring Go Belgique et Touring Go Étranger) complétées par des Packs (Dépannage pneus, remorquage étendu et retour à domicile, voiture de remplacement). Un Pack Assurance Voyage, disponible en formule Individuelle ou Famille, peut être souscrit uniquement en complément de la formule Touring Go Étranger et couvre l'assistance aux personnes à l'étranger ainsi qu'une garantie Fly Zen (retard, annulation, déclassement ou refus d'embarquement d'un vol).
 
-- Assureur : [[Touring]] · Branche : [[Autres]] · Type : Conditions générales · Édition : 01/04/2026
+- Assureur : [Touring](../../insurers/Touring.md) · Branche : [Autres](../../branches/Autres.md) · Type : Conditions générales · Édition : 01/04/2026
 
 ## Définitions
 

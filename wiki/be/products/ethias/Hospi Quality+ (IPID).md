@@ -38,7 +38,7 @@ generated: true
 
 Hospi Quality+ est une assurance soins de santé complémentaire (assurance hospitalisation) d'Ethias. En cas de maladie, de grossesse, d'accouchement ou d'accident, l'assureur garantit des prestations relatives à un traitement médical nécessaire à la préservation et/ou au rétablissement de la santé. Elle couvre notamment les frais d'hospitalisation (jusqu'au triple de l'intervention légale de la mutuelle), les soins ambulatoires péri-hospitaliers, un ensemble de maladies graves, ainsi que certains médicaments et médecines non conventionnelles. L'assurance est valable dans le monde entier et le contrat est conclu à vie.
 
-- Assureur : [[Ethias]] · Branche : [[Santé]] · Type : IPID / Fiche d'information · Édition : 03/25
+- Assureur : [Ethias](../../insurers/Ethias.md) · Branche : [Santé](../../branches/Sant%C3%A9.md) · Type : IPID / Fiche d'information · Édition : 03/25
 
 ## Garanties
 
@@ -133,7 +133,7 @@ Remboursement des médicaments non remboursables, des traitements homéopathique
 
 ## Documents liés
 
-- [[Hospi Quality]] - Conditions générales, éd. 03/25
+- [Hospi Quality](Hospi%20Quality.md) - Conditions générales, éd. 03/25
 
 ## Source & fidélité
 

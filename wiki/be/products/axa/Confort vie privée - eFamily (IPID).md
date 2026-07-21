@@ -38,7 +38,7 @@ generated: true
 
 Confort vie privée - eFamily est une assurance de responsabilité civile extracontractuelle à souscrire en ligne qui couvre le preneur et sa famille pour les dommages matériels ou corporels causés aux tiers dans le cadre de la vie privée. Elle comporte d'office une assistance vélos et engins de déplacement motorisés et peut être complétée par une garantie optionnelle de protection juridique vie privée et une garantie optionnelle premium. Elle se compose de trois formules selon la situation : famille, solo ou duo. Elle peut également être souscrite en option de l'assurance Incendie en ligne (Confort Habitation Flex Start - eHome).
 
-- Assureur : [[AXA Belgium]] · Branche : [[Vie privée]] · Type : IPID / Fiche d'information · Édition : 10.2024
+- Assureur : [AXA Belgium](../../insurers/AXA%20Belgium.md) · Branche : [Vie privée](../../branches/Vie%20priv%C3%A9e.md) · Type : IPID / Fiche d'information · Édition : 10.2024
 
 ## Garanties
 

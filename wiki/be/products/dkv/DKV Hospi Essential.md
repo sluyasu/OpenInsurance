@@ -38,7 +38,7 @@ generated: true
 
 DKV Hospi Essential est une assurance hospitalisation individuelle à caractère indemnitaire de droit belge, en complément de toute intervention légale, statutaire ou autre. C'est une police d'assurance combinée qui réunit deux garanties dans un seul contrat : la garantie "Frais médicaux" (branche 2 Maladie) qui couvre les frais médicaux et autres frais liés à une hospitalisation, les traitements ambulatoires en période pré- et post-hospitalière et dans le cadre de 33 "Maladies graves", et la garantie "Assistance à l'étranger" DKV ASSISTANCE (branche 18 Assistance) qui prévoit des prestations d'assistance à la suite d'une hospitalisation non-planifiée à l'étranger ou d'un accident de sports d'hiver sur piste de ski. Les deux garanties ont la même durée et ne peuvent pas être résiliées partiellement.
 
-- Assureur : [[DKV Belgium]] · Branche : [[Santé]] · Type : Conditions générales · Édition : 2025-08-01
+- Assureur : [DKV Belgium](../../insurers/DKV%20Belgium.md) · Branche : [Santé](../../branches/Sant%C3%A9.md) · Type : Conditions générales · Édition : 2025-08-01
 
 ## Définitions
 
@@ -345,7 +345,7 @@ Le délai de prescription pour soumettre des frais d'un cas d'assurance est de 3
 
 ## Documents liés
 
-- [[DKV HOSPI Essential (IPID)]] - IPID / Fiche d'information, éd. 202508
+- [DKV HOSPI Essential (IPID)](DKV%20HOSPI%20Essential%20%28IPID%29.md) - IPID / Fiche d'information, éd. 202508
 
 ## Source & fidélité
 

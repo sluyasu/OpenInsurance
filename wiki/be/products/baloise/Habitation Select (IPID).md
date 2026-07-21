@@ -38,7 +38,7 @@ generated: true
 
 Habitation Select est une assurance incendie (habitation) de Baloise Belgium qui assure les dommages matériels au bâtiment assuré ou au mobilier assuré. Si l'assuré est locataire ou occupe le bâtiment, elle couvre sa responsabilité locative ou d'occupant pour ces dommages. Le bâtiment assuré peut être une habitation, un bureau ou un bâtiment pour une profession libérale (à l'exception d'une pharmacie). Les dommages doivent être causés par un risque mentionné dans les assurances de base ou les assurances optionnelles et qui ne sont pas expressément exclus.
 
-- Assureur : [[Baloise Belgium]] · Branche : [[Habitation]] · Type : IPID / Fiche d'information · Édition : 06.26
+- Assureur : [Baloise Belgium](../../insurers/Baloise%20Belgium.md) · Branche : [Habitation](../../branches/Habitation.md) · Type : IPID / Fiche d'information · Édition : 06.26
 
 ## Garanties
 
@@ -232,7 +232,7 @@ Frais supplémentaires pour votre logement de remplacement temporaire pendant la
 
 ## Documents liés
 
-- [[Habitation Select]] - Conditions générales, éd. 01062026
+- [Habitation Select](Habitation%20Select.md) - Conditions générales, éd. 01062026
 
 ## Source & fidélité
 

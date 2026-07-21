@@ -38,7 +38,7 @@ generated: true
 
 NN Home Insurance est une assurance habitation de droit belge (NN Non-life) couvrant le bâtiment et/ou le contenu contre les dommages matériels (incendie, tempête, dégâts des eaux, catastrophes naturelles, etc.). Elle inclut une responsabilité civile habitation et des couvertures supplémentaires (frais de démolition, chômage immobilier, assistance d'urgence, logement temporaire). Des couvertures optionnelles sont disponibles : assurance Jardin, assurance Vol et assurance Assistance juridique habitation. Le contrat est annuel, tacitement reconductible, et soumis à la Loi du 4 avril 2014 relative aux assurances.
 
-- Assureur : [[NN Insurance Belgium]] · Branche : [[Habitation]] · Type : Conditions générales · Édition : Juillet 2023
+- Assureur : [NN Insurance Belgium](../../insurers/NN%20Insurance%20Belgium.md) · Branche : [Habitation](../../branches/Habitation.md) · Type : Conditions générales · Édition : Juillet 2023
 
 ## Définitions
 
@@ -560,7 +560,7 @@ Vous pouvez faire appel à cette assurance dans les situations suivantes : 1) un
 
 ## Documents liés
 
-- [[NN Home Insurance (IPID)]] - IPID / Fiche d'information
+- [NN Home Insurance (IPID)](NN%20Home%20Insurance%20%28IPID%29.md) - IPID / Fiche d'information
 
 ## Source & fidélité
 

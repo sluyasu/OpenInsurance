@@ -38,7 +38,7 @@ generated: true
 
 Conditions Spéciales de l'assurance Responsabilité Civile professionnelle « Marketing & Communication » de Hiscox SA (réf. PIMAC202401), spécialement conçues pour les métiers de la publicité, du conseil en marketing, des relations presse et de la communication. Sous réserve des exclusions, l'assureur garantit, franchise déduite et dans la limite du plafond de garantie ou de chaque sous-limite applicable, les conséquences pécuniaires de la responsabilité civile que l'assuré peut encourir dans l'exécution de ses obligations contractuelles ou quasi-contractuelles au bénéfice d'un client, lorsqu'un tiers introduit une réclamation au titre de dommages corporels, matériels ou immatériels, consécutifs ou non-consécutifs. Le document comprend un glossaire (Rubrique I), la description de la garantie RC Professionnelle avec ses volets A à L (Rubrique II), des garanties additionnelles (Rubrique III) et une liste de 54 exclusions de garantie (Rubrique IV).
 
-- Assureur : [[Hiscox SA]] · Branche : [[RC professionnelle]] · Type : Conditions particulières · Édition : 2024-01
+- Assureur : [Hiscox SA](../../insurers/Hiscox%20SA.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : Conditions particulières · Édition : 2024-01
 
 ## Définitions
 
@@ -236,7 +236,7 @@ Si au cours de la période d'assurance, vous risquez de subir une réclamation, 
 
 ## Documents liés
 
-- [[Assurance RC Professionnelle « Marketing & Communication » (IPID)]] - IPID / Fiche d'information, éd. 2024
+- [Assurance RC Professionnelle « Marketing & Communication » (IPID)](Assurance%20RC%20Professionnelle%20%C2%AB%20Marketing%20%26%20Communication%20%C2%BB%20%28IPID%29.md) - IPID / Fiche d'information, éd. 2024
 
 ## Source & fidélité
 

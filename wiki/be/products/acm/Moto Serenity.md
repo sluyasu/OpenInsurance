@@ -38,7 +38,7 @@ generated: true
 
 Moto Serenity est un contrat d’assurance moto de droit belge d’ACM Belgium SA. Il comprend la garantie obligatoire Responsabilité Civile, des garanties Dommages optionnelles (Vol, Incendie, Bris de vitres, Forces de la nature, Heurts d’animaux, Dégâts matériels, Équipements du motard, Contenu privé, Indemnisation étendue, Valeur minimale), une garantie Protection Juridique, une garantie Protection du conducteur et une convention d’assistance (Mini ou Maxi) au véhicule, aux personnes et Home Assistance. Les garanties Dommages, Protection Juridique et Protection du conducteur ne sont acquises que si mention en est faite expressément aux Conditions Particulières.
 
-- Assureur : [[ACM Belgium]] · Branche : [[Auto]] · Type : Conditions générales · Édition : 10/2024
+- Assureur : [ACM Belgium](../../insurers/ACM%20Belgium.md) · Branche : [Auto](../../branches/Auto.md) · Type : Conditions générales · Édition : 10/2024
 
 ## Définitions
 
@@ -525,7 +525,7 @@ Contrat : « Le délai court à partir du jour de l’événement qui donne ouve
 
 ## Documents liés
 
-- [[Moto Serenity (IPID)]] - IPID / Fiche d'information, éd. 10/2024
+- [Moto Serenity (IPID)](Moto%20Serenity%20%28IPID%29.md) - IPID / Fiche d'information, éd. 10/2024
 
 ## Source & fidélité
 

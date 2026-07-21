@@ -38,7 +38,7 @@ generated: true
 
 Short Term Protect Business est une assurance vie (branche 21-22) souscrite par une personne morale ayant son siège social en Belgique, qui garantit un seul assuré en cas de décès par maladie ou accident. Le contrat peut être souscrit pour garantir le remboursement d'un crédit à la consommation ou pour se protéger d'une manière générale. Le capital décès est dégressif et limité à 100 000 euros maximum (ou 25 000 euro si l'assuré a plus de 65 ans). Le contrat ne comporte que la garantie principale « Décès ».
 
-- Assureur : [[BNP Paribas Cardif]] · Branche : [[Autres]] · Type : Conditions générales · Édition : 2023/03
+- Assureur : [BNP Paribas Cardif](../../insurers/BNP%20Paribas%20Cardif.md) · Branche : [Autres](../../branches/Autres.md) · Type : Conditions générales · Édition : 2023/03
 
 ## Définitions
 
@@ -124,8 +124,8 @@ L'assuré décède pendant la durée de l'assurance ? L'assureur paie alors au b
 
 ## Documents liés
 
-- [[Short Term Protect Classic - Short Term Protect 2win]] - Conditions générales, éd. 2023/03
-- [[Short Term Protect - Luxembourg]] - Conditions générales, éd. 2023/03
+- [Short Term Protect Classic - Short Term Protect 2win](Short%20Term%20Protect%20Classic%20-%20Short%20Term%20Protect%202win.md) - Conditions générales, éd. 2023/03
+- [Short Term Protect - Luxembourg](Short%20Term%20Protect%20-%20Luxembourg.md) - Conditions générales, éd. 2023/03
 
 ## Source & fidélité
 

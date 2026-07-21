@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales de l'assurance familiale P&V (P&V Assurance Familiale, réf. PV 551/04-2025). Le contrat couvre la responsabilité civile extracontractuelle des assurés pour les dommages causés à des tiers dans le cadre de la vie privée (partie I), et propose en option une garantie Protection juridique Vie privée (partie II) qui prend en charge la défense pénale et le recours civil de l'assuré. Les montants assurés en responsabilité civile s'élèvent à 32.621.773 EUR en dommages corporels et 8.617.072 EUR en dommages matériels par sinistre. Le document comprend également les dispositions administratives (prime, sinistres, contrat), un lexique et les dispositions légales.
 
-- Assureur : [[P&V Assurances]] · Branche : [[Vie privée]] · Type : Conditions générales · Édition : 04-2025
+- Assureur : [P&V Assurances](../../insurers/P%26V%20Assurances.md) · Branche : [Vie privée](../../branches/Vie%20priv%C3%A9e.md) · Type : Conditions générales · Édition : 04-2025
 
 ## Définitions
 
@@ -332,7 +332,7 @@ Conformément à l'article 88 de la loi du 4 avril 2014 relative aux Assurances,
 
 ## Documents liés
 
-- [[P&V Assurance Familiale (IPID)]] - IPID / Fiche d'information, éd. 04.2025
+- [P&V Assurance Familiale (IPID)](P%26V%20Assurance%20Familiale%20%28IPID%29.md) - IPID / Fiche d'information, éd. 04.2025
 
 ## Source & fidélité
 

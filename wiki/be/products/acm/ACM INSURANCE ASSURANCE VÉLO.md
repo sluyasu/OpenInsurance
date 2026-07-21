@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales de l'assurance vélo ACM Insurance Assurance Vélo (ACM Belgium). Le contrat couvre les vélos de ville, vélos électriques (autonomes jusqu'à 25 km/h et jusqu'à 45 km/h avec assistance au pédalage), vélos de course, vélos tout-terrain, speed pedelecs et engins de déplacement motorisés, ainsi que leurs accessoires repris dans la valeur assurée, contre les dégâts matériels, le vol et via une garantie d'assistance. La garantie optionnelle Conducteur & passagers indemnise les dommages corporels ou le décès des assurés.
 
-- Assureur : [[ACM Belgium]] · Branche : [[Vélo]] · Type : Conditions générales · Édition : 04/2025
+- Assureur : [ACM Belgium](../../insurers/ACM%20Belgium.md) · Branche : [Vélo](../../branches/V%C3%A9lo.md) · Type : Conditions générales · Édition : 04/2025
 
 ## Définitions
 
@@ -217,7 +217,7 @@ Le délai de prescription pour toute action découlant du contrat est de trois a
 
 ## Documents liés
 
-- [[ACM Insurance Assurance Vélo (IPID)]] - IPID / Fiche d'information, éd. 04/25
+- [ACM Insurance Assurance Vélo (IPID)](ACM%20Insurance%20Assurance%20V%C3%A9lo%20%28IPID%29.md) - IPID / Fiche d'information, éd. 04/25
 
 ## Source & fidélité
 

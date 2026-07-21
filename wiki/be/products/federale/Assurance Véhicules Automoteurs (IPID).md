@@ -38,7 +38,7 @@ generated: true
 
 Document d'information (IPID) relatif à l'Assurance Véhicules Automoteurs de Fédérale Assurance (Belgique). L'assurance couvre la responsabilité civile obligatoire pour les dommages causés à des tiers suite à l'usage du véhicule assuré et offre une assistance auto. Elle propose également des garanties optionnelles : couverture des dommages au véhicule (risques accessoires), assurance du conducteur en cas de lésions corporelles, et protection juridique.
 
-- Assureur : [[Fédérale Assurance]] · Branche : [[Auto]] · Type : IPID / Fiche d'information · Édition : 04/25
+- Assureur : [Fédérale Assurance](../../insurers/F%C3%A9d%C3%A9rale%20Assurance.md) · Branche : [Auto](../../branches/Auto.md) · Type : IPID / Fiche d'information · Édition : 04/25
 
 ## Définitions
 

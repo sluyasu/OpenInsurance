@@ -38,7 +38,7 @@ generated: true
 
 L'assurance Responsabilité civile Familiale de Fédérale Assurance couvre la responsabilité civile pour les dommages matériels et corporels que le preneur, son conjoint cohabitant ou toute personne vivant à son foyer (ainsi que d'autres assurés visés dans les conditions générales) causent à des tiers dans le cadre de la vie privée. L'assurance inclut aussi une assurance protection juridique vie privée. Des garanties optionnelles permettent de compléter la couverture de base.
 
-- Assureur : [[Fédérale Assurance]] · Branche : [[Vie privée]] · Type : IPID / Fiche d'information · Édition : 04/25
+- Assureur : [Fédérale Assurance](../../insurers/F%C3%A9d%C3%A9rale%20Assurance.md) · Branche : [Vie privée](../../branches/Vie%20priv%C3%A9e.md) · Type : IPID / Fiche d'information · Édition : 04/25
 
 ## Garanties
 

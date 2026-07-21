@@ -38,7 +38,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) relatif à l'Assurance Auto d'AMMA Assurances. Le produit comprend l'assurance obligatoire de la responsabilité civile Auto, qui couvre les dommages causés à un véhicule ou à une personne dont l'assuré est tenu responsable, ainsi qu'une assistance de base gratuite en combinaison avec la RC. Il est possible de souscrire des garanties facultatives : Mini Omnium, Maxi Omnium, Protection juridique, Protection du conducteur (dommages corporels) et Assistance Formule étendue. Une garantie gratuite couvre également les biens professionnels (para)médicaux ou vétérinaires.
 
-- Assureur : [[AMMA Assurances]] · Branche : [[Auto]] · Type : IPID / Fiche d'information · Édition : 0226
+- Assureur : [AMMA Assurances](../../insurers/AMMA%20Assurances.md) · Branche : [Auto](../../branches/Auto.md) · Type : IPID / Fiche d'information · Édition : 0226
 
 ## Garanties
 

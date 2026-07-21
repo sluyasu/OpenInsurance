@@ -38,7 +38,7 @@ generated: true
 
 L'assurance Care+ d'Ethias est une assurance complémentaire de frais médicaux à caractère indemnitaire. Elle a pour objectif de rembourser les frais de soins médicaux ambulatoires et de soins dentaires (sans hospitalisation) qui, après déduction des interventions légales ou éventuellement extralégales, restent à charge de l'assuré. Le remboursement se fait à hauteur de 80 % des frais restant à charge de l'assuré, dans certaines limites.
 
-- Assureur : [[Ethias]] · Branche : [[Santé]] · Type : IPID / Fiche d'information · Édition : 01/26
+- Assureur : [Ethias](../../insurers/Ethias.md) · Branche : [Santé](../../branches/Sant%C3%A9.md) · Type : IPID / Fiche d'information · Édition : 01/26
 
 ## Garanties
 
@@ -134,7 +134,7 @@ Vaccins et un budget de prévention pour des conseils, produits, services et tra
 
 ## Documents liés
 
-- [[Care+ - Assurance soins ambulatoires et soins dentaires]] - Conditions générales, éd. 01/26
+- [Care+ - Assurance soins ambulatoires et soins dentaires](Care%2B%20-%20Assurance%20soins%20ambulatoires%20et%20soins%20dentaires.md) - Conditions générales, éd. 01/26
 
 ## Source & fidélité
 

@@ -38,7 +38,7 @@ generated: true
 
 Extension « Bob » de l'assurance responsabilité civile auto Actel, valable durant la période pendant laquelle la garantie RC de la voiture de tourisme ou de la camionnette à usage privé désignée aux conditions particulières est acquise. Elle couvre deux situations : les dommages causés par un assuré qui conduit bénévolement, à titre de service d'ami, le véhicule d'un tiers dont le conducteur habituel est sous l'influence de l'alcool ou de produits psychotropes, et les dommages causés par un tiers qui remplace bénévolement l'assuré au volant du véhicule assuré. Les dégâts matériels au véhicule sont indemnisés en valeur réelle, avec un maximum de 25.000 euros et une franchise de 500 euros, pour des accidents survenant en Belgique ou au Grand-Duché de Luxembourg.
 
-- Assureur : [[Actel]] · Branche : [[Auto]] · Type : Conditions générales
+- Assureur : [Actel](../../insurers/Actel.md) · Branche : [Auto](../../branches/Auto.md) · Type : Conditions générales
 
 ## Définitions
 
@@ -88,7 +88,7 @@ Cas où le véhicule assuré est conduit par un tiers. La compagnie indemnise le
 ## Documents liés
 
 - Extension / option du produit : **Actel Auto (assurance responsabilité civile)**
-- [[ACTEL Auto]] - Conditions générales, éd. 06-2016
+- [ACTEL Auto](ACTEL%20Auto.md) - Conditions générales, éd. 06-2016
 
 ## Source & fidélité
 

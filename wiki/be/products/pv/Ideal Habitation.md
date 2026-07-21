@@ -38,7 +38,7 @@ generated: true
 
 Ideal Habitation est l'assurance habitation (incendie et risques divers) de P&V Assurances pour risques simples, couvrant le bâtiment et/ou le contenu en qualité de propriétaire, locataire ou occupant. Elle comprend une Assistance Habitation 24h/24, des garanties de base (incendie, foudre, explosion, implosion, fumée/suie, heurt, dégradations immobilières lors d'un vol/vandalisme, action de l'électricité, tempête/grêle/neige, bris de vitres, eau, mazout, responsabilité civile bâtiment, recours des tiers, conflits du travail et attentats), la garantie catastrophes naturelles, des garanties optionnelles (vol et vandalisme du contenu, pertes indirectes, protection juridique) ainsi que des garanties complémentaires et dommages indirects. Divers packs optionnels (Pack Jardin, Pack Vol Plus) et un régime spécifique « conditions générales du bureau de tarification » modulent les couvertures et les montants.
 
-- Assureur : [[P&V Assurances]] · Branche : [[Habitation]] · Type : Conditions générales · Édition : 04-2023
+- Assureur : [P&V Assurances](../../insurers/P%26V%20Assurances.md) · Branche : [Habitation](../../branches/Habitation.md) · Type : Conditions générales · Édition : 04-2023
 
 ## Définitions
 

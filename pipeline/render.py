@@ -7,6 +7,9 @@ fills exhaustively.
 
 from __future__ import annotations
 
+import posixpath
+from urllib.parse import quote
+
 from common import frontmatter, safe_title, slugify, today
 
 DISCLAIMER = (
@@ -46,6 +49,52 @@ def product_title(obj: dict) -> str:
     return safe_title(name + DOC_TYPE_SUFFIX.get(obj.get("document_type", ""), ""))
 
 
+def mdlink(from_page: str, to_page: str, label: str) -> str:
+    """A relative markdown link between two wiki pages, both given as paths relative to
+    `wiki/<cc>/` (posix separators).
+
+    Generated pages must never emit a bare `[[Title]]`. Product names are not unique:
+    'Assurance Auto' is claimed by eight pages in Belgium alone, and a basename resolver
+    (the site's roamlinks plugin, validate's own map) silently picks one, so an Argenta
+    page can link to Yuzzu's product. That is worse than a broken link because nothing
+    looks wrong. It gets worse per country added: the same name will exist in BE, CH and
+    FR at once. A path says exactly which page is meant.
+
+    The path is percent-encoded, so spaces, parentheses and accents survive both Obsidian
+    and MkDocs. Unencoded parentheses would truncate the link at the first ')'."""
+    rel = posixpath.relpath(to_page, posixpath.dirname(from_page))
+    return f"[{label}]({quote(rel)})"
+
+
+def _ref(target: str | None, label: str, self_page: str | None) -> str:
+    """Link to `target` if it exists, otherwise render the label as plain text.
+
+    A missing target means the page was never written (a branch overview nobody wrote
+    yet). Emitting a link anyway would publish a 404; plain text is the honest gap
+    (rule 6). Plain text is also the fallback when routes are absent, which keeps the
+    renderers usable from a test without a full build."""
+    if not target or not self_page:
+        return label
+    return mdlink(self_page, target, label)
+
+
+def _page_ref(source_url: str | None, label: str, routes: dict | None,
+              self_page: str | None) -> str:
+    """Link to another product page, resolved by source_url (unique) not by title."""
+    target = (routes or {}).get("product", {}).get(source_url)
+    return _ref(target, label, self_page)
+
+
+def _insurer_ref(slug: str, label: str, routes: dict | None, self_page: str | None) -> str:
+    target = (routes or {}).get("insurer", {}).get(slug)
+    return _ref(target, label, self_page)
+
+
+def _branch_ref(bslug: str, label: str, routes: dict | None, self_page: str | None) -> str:
+    target = (routes or {}).get("branch", {}).get(bslug)
+    return _ref(target, label, self_page)
+
+
 def branch_label(country_meta: dict, slug: str) -> str:
     return country_meta.get("branches", {}).get(slug, {}).get("label", slug)
 
@@ -73,7 +122,8 @@ def _neutralize_links(o):
     return o
 
 
-def render_product(obj: dict, country_meta: dict, relation: dict | None = None) -> str:
+def render_product(obj: dict, country_meta: dict, relation: dict | None = None,
+                   routes: dict | None = None, self_page: str | None = None) -> str:
     obj = _neutralize_links(obj)
     relation = relation or {}
     cc = obj.get("country", "")
@@ -117,7 +167,8 @@ def render_product(obj: dict, country_meta: dict, relation: dict | None = None) 
 
     L.append("## Résumé\n")
     L.append((obj.get("summary") or "_(pas de résumé)_") + "\n")
-    L.append(f"- Assureur : [[{insurer}]] · Branche : [[{blabel}]] · Type : "
+    L.append(f"- Assureur : {_insurer_ref(slug, insurer, routes, self_page)}"
+             f" · Branche : {_branch_ref(branch, blabel, routes, self_page)} · Type : "
              f"{DOC_TYPE_LABEL.get(obj.get('document_type',''), obj.get('document_type',''))}"
              + (f" · Édition : {obj['edition_date']}" if obj.get("edition_date") else "") + "\n")
 
@@ -247,18 +298,21 @@ def render_product(obj: dict, country_meta: dict, relation: dict | None = None) 
     related = relation.get("related") or []
     if related or relation.get("superseded_by") or relation.get("extends_parent") or relation.get("extensions"):
         L.append("## Documents liés\n")
-        if relation.get("superseded_by"):
-            L.append(f"- ⚠️ Édition remplacée par une version plus récente : [[{relation['superseded_by']}]]")
+        sb = relation.get("superseded_by")
+        if sb:
+            L.append("- ⚠️ Édition remplacée par une version plus récente : "
+                     + _page_ref(sb.get("source_url"), sb.get("title"), routes, self_page))
         elif relation.get("edition_status") == "current":
             L.append("- Édition courante de ce produit.")
         if relation.get("extends_parent"):
             L.append(f"- Extension / option du produit : **{relation['extends_parent']}**")
         for ext in relation.get("extensions") or []:
-            L.append(f"- Extension liée : [[{ext}]]")
+            L.append("- Extension liée : "
+                     + _page_ref(ext.get("source_url"), ext.get("title"), routes, self_page))
         for r in related:
             dt = DOC_TYPE_LABEL.get(r.get("document_type"), r.get("document_type") or "")
             ed = f", éd. {r['edition_date']}" if r.get("edition_date") else ""
-            L.append(f"- [[{r['title']}]] - {dt}{ed}")
+            L.append(f"- {_page_ref(r.get('source_url'), r['title'], routes, self_page)} - {dt}{ed}")
         L.append("")
 
     L.append("## Source & fidélité\n")
@@ -278,7 +332,8 @@ def _latest_fetch(products: list[dict]) -> str:
 
 
 def render_insurer(insurer_name: str, slug: str, cc: str, products: list[dict],
-                   country_meta: dict, website: str | None) -> str:
+                   country_meta: dict, website: str | None,
+                   routes: dict | None = None, self_page: str | None = None) -> str:
     branches: dict[str, list[dict]] = {}
     for p in products:
         branches.setdefault(p.get("branch", "autres"), []).append(p)
@@ -294,22 +349,27 @@ def render_insurer(insurer_name: str, slug: str, cc: str, products: list[dict],
     }
     L = [frontmatter(meta), "<!-- GENERATED - do not edit. -->\n", "## Résumé\n"]
     site = f" - [{website}]({website})" if website else ""
-    L.append(f"[[{insurer_name}]]{site}. {len(products)} document(s) across {len(branches)} branch(es).\n")
+    # the page's own name, not a self-link: [[insurer_name]] here pointed at this file
+    L.append(f"**{insurer_name}**{site}. {len(products)} document(s) across {len(branches)} branch(es).\n")
     L.append("## Produits par branche\n")
     for b in sorted(branches.keys()):
-        L.append(f"### [[{branch_label(country_meta, b)}]]")
+        L.append(f"### {_branch_ref(b, branch_label(country_meta, b), routes, self_page)}")
         for p in sorted(branches[b], key=lambda x: x.get("product_name", "")):
-            title = product_title(p)
             dt = DOC_TYPE_LABEL.get(p.get("document_type", ""), "")
             ed = f" ({p['edition_date']})" if p.get("edition_date") else ""
-            L.append(f"- [[{title}]] - {dt}{ed}")
+            # reference disambiguates two same-named documents in the same list, which
+            # otherwise read as a duplicated entry rather than two distinct contracts
+            ref = f" · réf. {p['reference']}" if p.get("reference") else ""
+            L.append(f"- {_page_ref(p.get('source_url'), product_title(p), routes, self_page)}"
+                     f" - {dt}{ed}{ref}")
         L.append("")
     L.append("## Source\n")
     L.append(f"- Documents extraits des sources publiques listées dans `sources/{cc}/{slug}.yml`.")
     return "\n".join(L)
 
 
-def render_branches_moc(cc: str, products: list[dict], country_meta: dict) -> str:
+def render_branches_moc(cc: str, products: list[dict], country_meta: dict,
+                        routes: dict | None = None, self_page: str | None = None) -> str:
     branches: dict[str, list[dict]] = {}
     for p in products:
         branches.setdefault(p.get("branch", "autres"), []).append(p)
@@ -325,8 +385,10 @@ def render_branches_moc(cc: str, products: list[dict], country_meta: dict) -> st
         prods = branches.get(slug, [])
         label = branch_label(country_meta, slug)
         if prods:
-            L.append(f"### [[{label}]] ({len(prods)})")
+            L.append(f"### {_branch_ref(slug, label, routes, self_page)} ({len(prods)})")
             for p in sorted(prods, key=lambda x: (x.get("insurer_name", ""), x.get("product_name", ""))):
-                L.append(f"- [[{product_title(p)}]] - [[{p.get('insurer_name', p.get('insurer_slug'))}]]")
+                iname = p.get("insurer_name") or p.get("insurer_slug")
+                L.append(f"- {_page_ref(p.get('source_url'), product_title(p), routes, self_page)}"
+                         f" - {_insurer_ref(p.get('insurer_slug'), iname, routes, self_page)}")
             L.append("")
     return "\n".join(L)

@@ -38,7 +38,7 @@ generated: true
 
 Il s'agit d'un document d'information sur le produit d'assurance (IPID) pour l'assurance RC Vie Privée d'AMMA Assurances. Cette assurance garantit la responsabilité civile extracontractuelle que le preneur d'assurance et sa famille peuvent se voir imputer pour les dommages physiques ou matériels causés à des tiers dans le cadre de leur vie privée. Le contrat comprend une garantie RC de base, une garantie facultative d'assistance juridique (avec prime supplémentaire) et des garanties supplémentaires incluses.
 
-- Assureur : [[AMMA Assurances]] · Branche : [[Vie privée]] · Type : IPID / Fiche d'information · Édition : 2025
+- Assureur : [AMMA Assurances](../../insurers/AMMA%20Assurances.md) · Branche : [Vie privée](../../branches/Vie%20priv%C3%A9e.md) · Type : IPID / Fiche d'information · Édition : 2025
 
 ## Garanties
 
@@ -172,7 +172,7 @@ Garantie supplémentaire incluse : Frais de recherche des enfants disparus.
 
 ## Documents liés
 
-- [[RC Vie Privée]] - Conditions générales, éd. 2023-01
+- [RC Vie Privée](RC%20Vie%20Priv%C3%A9e.md) - Conditions générales, éd. 2023-01
 
 ## Source & fidélité
 

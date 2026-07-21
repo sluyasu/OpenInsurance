@@ -38,7 +38,7 @@ generated: true
 
 L'assurance familiale (Assurance Responsabilité civile vie privée) de DVV Assurances couvre la responsabilité civile extra-contractuelle de l'assuré pour les dommages causés à des tiers dans le cadre de sa vie privée. La garantie de base Familiale couvre les dommages corporels jusqu'à 28.935.590,24 EUR et les dommages matériels jusqu'à 5.787.118,05 EUR. Des garanties optionnelles (Responsabilité civile étendue et Protection juridique) peuvent compléter la couverture. Le contrat dure un an et est reconductible tacitement.
 
-- Assureur : [[DVV Assurances]] · Branche : [[Vie privée]] · Type : IPID / Fiche d'information · Édition : octobre 2024
+- Assureur : [DVV Assurances](../../insurers/DVV%20Assurances.md) · Branche : [Vie privée](../../branches/Vie%20priv%C3%A9e.md) · Type : IPID / Fiche d'information · Édition : octobre 2024
 
 ## Garanties
 

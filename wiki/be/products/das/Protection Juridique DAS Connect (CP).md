@@ -38,7 +38,7 @@ generated: true
 
 Protection Juridique DAS Connect est une assurance protection juridique (Conditions spéciales F5041, édition 01/2025) qui couvre les litiges pouvant survenir dans la vie privée du preneur d'assurance et de sa famille. Elle couvre notamment le recours civil et relations de voisinage, la défense civile, pénale et disciplinaire, la faute médicale, les contrats d'assurance et généraux, ainsi que des garanties limitées à la phase amiable (location, droit du travail, droits réels) et diverses extensions (Cyber Risk, Service Box, avances, caution pénale, insolvabilité des tiers, frais de recherche). L'assureur fournit des services et prend en charge, dans les limites du contrat, les frais liés au litige (honoraires et frais d'avocat, frais d'expertise, frais de justice). Ce document renvoie aux conditions générales et spéciales F5010/F5041.
 
-- Assureur : [[D.A.S.]] · Branche : [[Vie privée]] · Type : Conditions particulières · Édition : 01/2025
+- Assureur : [D.A.S.](../../insurers/D.A.S..md) · Branche : [Vie privée](../../branches/Vie%20priv%C3%A9e.md) · Type : Conditions particulières · Édition : 01/2025
 
 ## Définitions
 

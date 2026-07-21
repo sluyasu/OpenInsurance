@@ -38,7 +38,7 @@ generated: true
 
 Ventisei di Generali est un contrat d’assurance de capitalisation de la branche 26 à versements libres, souscrit par une personne physique auprès de Generali Belgium. Chaque versement bénéficie d’un taux d’intérêt garanti (taux d’intérêt technique) pendant une période de garantie renouvelable, complété par une participation bénéficiaire répartie annuellement. L’épargne constituée est disponible au terme sans indemnité et peut faire l’objet de retraits ponctuels ou planifiés, avec des exemptions d’indemnité de rachat et une indemnité de rachat dégressive au-delà des limites fixées.
 
-- Assureur : [[Athora Belgium]] · Branche : [[Épargne / Placement (Branche 21/23)]] · Type : Conditions générales · Édition : 12/2015
+- Assureur : [Athora Belgium](../../insurers/Athora%20Belgium.md) · Branche : Épargne / Placement (Branche 21/23) · Type : Conditions générales · Édition : 12/2015
 
 ## Définitions
 

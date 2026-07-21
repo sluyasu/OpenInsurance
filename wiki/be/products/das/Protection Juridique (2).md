@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales F5010 (édition 10/2025) de l'assurance Protection Juridique de la D.A.S. (société anonyme belge d'assurances de protection juridique, groupe ERGO). En cas de conflit que l'assuré ne peut résoudre par lui-même, la D.A.S. garantit la mise en oeuvre des moyens nécessaires à la recherche d'une solution amiable, judiciaire, extra-judiciaire ou administrative. Le contrat prend en charge notamment les frais et honoraires d'avocat, d'huissier, d'experts et les frais de procédure, jusqu'à concurrence des sommes précisées aux conditions spéciales, et prévoit le libre choix de l'avocat et de l'expert.
 
-- Assureur : [[D.A.S.]] · Branche : [[Protection juridique]] · Type : Conditions générales · Édition : 10/2025
+- Assureur : [D.A.S.](../../insurers/D.A.S..md) · Branche : [Protection juridique](../../branches/Protection%20juridique.md) · Type : Conditions générales · Édition : 10/2025
 
 ## Garanties
 

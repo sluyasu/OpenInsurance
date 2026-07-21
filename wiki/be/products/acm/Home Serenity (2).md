@@ -38,7 +38,7 @@ generated: true
 
 Home Serenity est l’assurance habitation d’ACM Belgium couvrant les dommages matériels causés au logement (bâtiment) et/ou à son contenu situés à l’adresse indiquée aux Conditions Particulières, ainsi que certaines responsabilités civiles. Les garanties de base comprennent l’incendie et périls annexes, les attentats et conflits du travail, la tempête/grêle/pression de la neige, les catastrophes naturelles, l’action de l’électricité, le bris de vitrage, les dégâts des eaux et de mazout de chauffage, les dégradations immobilières, des garanties complémentaires (frais accessoires), la responsabilité civile immeuble, des extensions (véhicule au repos, kots, villégiature et fêtes privées) et une assistance au domicile (Home Assistance et Home Emergency). Des garanties optionnelles peuvent être souscrites : vol et vandalisme du contenu, tous risques, rééquipement à neuf du mobilier, dépannage électroménager et audiovisuel, pertes indirectes, protection juridique habitation, ainsi que la responsabilité civile familiale et la protection juridique familiale.
 
-- Assureur : [[ACM Belgium]] · Branche : [[Habitation]] · Type : Conditions générales · Édition : 10/2024
+- Assureur : [ACM Belgium](../../insurers/ACM%20Belgium.md) · Branche : [Habitation](../../branches/Habitation.md) · Type : Conditions générales · Édition : 10/2024
 
 ## Définitions
 
@@ -331,8 +331,8 @@ Le délai de prescription de toute action dérivant du contrat est de trois ans.
 ## Documents liés
 
 - Édition courante de ce produit.
-- [[Home Serenity (IPID)]] - IPID / Fiche d'information, éd. 10/2024
-- [[Home Serenity]] - Conditions générales, éd. 10/2024
+- [Home Serenity (IPID)](Home%20Serenity%20%28IPID%29.md) - IPID / Fiche d'information, éd. 10/2024
+- [Home Serenity](Home%20Serenity.md) - Conditions générales, éd. 10/2024
 
 ## Source & fidélité
 

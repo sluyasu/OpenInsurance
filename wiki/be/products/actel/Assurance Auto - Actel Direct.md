@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales de l’assurance auto ACTEL DIRECT (marque de P&V Assurances scrl). Le contrat comprend le module obligatoire de responsabilité civile auto (Start) et, selon les garanties souscrites aux conditions particulières, la Protection Juridique Auto, l’Assistance après un accident, l’Assurance-décès du conducteur, l’Actel Infoline, des garanties complémentaires dégâts au véhicule (Mini-Omnium, Maxi-Omnium, Vol), Confort-Juridique, Confort-Conducteur et le programme Confort-Assistance. La garantie RC couvre les dommages corporels de façon illimitée et les dommages matériels jusqu’à 100 millions d’EUR par sinistre.
 
-- Assureur : [[Actel]] · Branche : [[Auto]] · Type : Conditions générales · Édition : 04.2013
+- Assureur : [Actel](../../insurers/Actel.md) · Branche : [Auto](../../branches/Auto.md) · Type : Conditions générales · Édition : 04.2013
 
 ## Définitions
 
@@ -268,7 +268,7 @@ Protection Juridique: 3 ans à compter du jour de l’événement à l’origine
 
 ## Documents liés
 
-- [[Assurance Auto - Actel Affinity]] - Conditions générales, éd. 04.2013
+- [Assurance Auto - Actel Affinity](Assurance%20Auto%20-%20Actel%20Affinity.md) - Conditions générales, éd. 04.2013
 
 ## Source & fidélité
 

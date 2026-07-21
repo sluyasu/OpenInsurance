@@ -38,7 +38,7 @@ generated: true
 
 L'assurance Auto Mobility Safe 1 de Baloise Belgium est une assurance Véhicules automoteurs pour voitures de tourisme et camionnettes. Elle comprend une assurance de base RC Véhicules automoteurs, légalement obligatoire, qui couvre les dommages causés à des tiers lors d'un accident de la circulation avec le véhicule assuré. En complément, le preneur peut souscrire une Protection juridique, une Baloise Assistance étendue Véhicule (et Personnes), une assurance Omnium Safe 1, une assurance Conducteur et/ou une assurance Transport de biens.
 
-- Assureur : [[Baloise Belgium]] · Branche : [[Auto]] · Type : IPID / Fiche d'information · Édition : 02.26
+- Assureur : [Baloise Belgium](../../insurers/Baloise%20Belgium.md) · Branche : [Auto](../../branches/Auto.md) · Type : IPID / Fiche d'information · Édition : 02.26
 
 ## Définitions
 

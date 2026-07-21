@@ -38,7 +38,7 @@ generated: true
 
 Hospi Quality est une assurance hospitalisation d'Ethias. En cas d'hospitalisation à la suite d'une maladie, d'un accident, d'une grossesse ou d'un accouchement, elle prend en charge, dans les limites déterminées, les frais de soins de santé encourus pendant le séjour dans un hôpital reconnu ou un établissement de soins palliatifs reconnu. La couverture s'étend aux soins ambulatoires pré- et post-hospitalisation (30 jours avant, 90 jours après), aux frais ambulatoires liés à certaines maladies graves, à l'accouchement à domicile ou en polyclinique, à l'opération ophtalmologique de la cataracte en dehors de l'hôpital et au terrorisme. L'assurance est valable dans le monde entier et est conclue à vie.
 
-- Assureur : [[Ethias]] · Branche : [[Santé]] · Type : Conditions générales · Édition : 03/25
+- Assureur : [Ethias](../../insurers/Ethias.md) · Branche : [Santé](../../branches/Sant%C3%A9.md) · Type : Conditions générales · Édition : 03/25
 
 ## Définitions
 
@@ -226,7 +226,7 @@ L'assurance couvre les dommages causés par le terrorisme, à l'exclusion des do
 
 ## Documents liés
 
-- [[Hospi Quality+ (IPID)]] - IPID / Fiche d'information, éd. 03/25
+- [Hospi Quality+ (IPID)](Hospi%20Quality%2B%20%28IPID%29.md) - IPID / Fiche d'information, éd. 03/25
 
 ## Source & fidélité
 

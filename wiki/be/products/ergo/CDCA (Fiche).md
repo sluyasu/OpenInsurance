@@ -38,7 +38,7 @@ generated: true
 
 La CDCA est une assurance vie de la branche 21 avec rendement garanti et une participation bénéficiaire. Au terme du contrat, si l’assuré est en vie, le(s) bénéficiaire(s) perçoivent le capital épargne contractuel augmenté de la participation bénéficiaire ; en cas de décès de l’assuré, ils perçoivent le remboursement des primes nettes versées jusqu’au décès. Des garanties complémentaires contre les risques d’invalidité et d’accident (ACRI, ACRA, ACRA Plus) peuvent être ajoutées.
 
-- Assureur : [[ERGO Insurance SA/NV]] · Branche : [[Épargne / Placement (Branche 21/23)]] · Type : Fiche produit · Édition : 14/04/2014
+- Assureur : [ERGO Insurance SA/NV](../../insurers/ERGO%20Insurance%20SA-NV.md) · Branche : Épargne / Placement (Branche 21/23) · Type : Fiche produit · Édition : 14/04/2014
 
 ## Définitions
 

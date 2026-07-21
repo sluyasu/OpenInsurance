@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales de l'Assurance Hospitalisation (assurance ayant pour but le versement d'une somme globale). En cas de séjour dans une institution garantie à la suite d'un accident ou d'une maladie, l'assureur verse par jour l'indemnité journalière prévue aux conditions particulières. La prestation est limitée à un séjour de maximum 730 jours dans un hôpital et de 180 jours dans un sana ou préventorium. La couverture est valable dans le monde entier (sauf sana/préventorium, réservé à la Belgique), et un délai d'attente d'un an s'applique aux affections préexistantes.
 
-- Assureur : [[Belfius Direct Assurances]] · Branche : [[Santé]] · Type : Conditions générales · Édition : 2023-06
+- Assureur : [Belfius Direct Assurances](../../insurers/Belfius%20Direct%20Assurances.md) · Branche : [Santé](../../branches/Sant%C3%A9.md) · Type : Conditions générales · Édition : 2023-06
 
 ## Définitions
 
@@ -152,7 +152,7 @@ Le délai de prescription applicable à toute action judiciaire et/ou à tout co
 
 ## Documents liés
 
-- [[Assurance hospitalisation (Fiche)]] - Fiche produit, éd. 06/2021
+- [Assurance hospitalisation (Fiche)](Assurance%20hospitalisation%20%28Fiche%29.md) - Fiche produit, éd. 06/2021
 
 ## Source & fidélité
 

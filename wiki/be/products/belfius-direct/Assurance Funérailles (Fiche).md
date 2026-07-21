@@ -38,7 +38,7 @@ generated: true
 
 Fiche d'information financière (Branche 21) de l'Assurance Funérailles de Belfius Direct Assurances : une assurance décès conclue pour une durée vie entière. En cas de décès de l'assuré, un capital décès choisi librement (min 2.250€ et max 10.000€) est versé au(x) bénéficiaire(s). Le décès accidentel est couvert dès le premier jour ; le décès par mort naturelle ou maladie est soumis à une période d'attente. Les enfants de l'assuré sont automatiquement couverts (frais d'obsèques réels, max € 2.500 par enfant) et une couverture « Assistance » est incluse.
 
-- Assureur : [[Belfius Direct Assurances]] · Branche : [[Obsèques]] · Type : Fiche produit · Édition : 15/01/2024
+- Assureur : [Belfius Direct Assurances](../../insurers/Belfius%20Direct%20Assurances.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : Fiche produit · Édition : 15/01/2024
 
 ## Garanties
 
@@ -120,7 +120,7 @@ En cas de décès de l'assuré, le conjoint et les enfants de l'assuré domicili
 
 ## Documents liés
 
-- [[Assurance Funérailles]] - Conditions générales
+- [Assurance Funérailles](Assurance%20Fun%C3%A9railles.md) - Conditions générales
 
 ## Source & fidélité
 

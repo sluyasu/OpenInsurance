@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales de la police d'assurance Auto d'Argenta Assurances SA (réf. DW24042, édition 01-10-2024). Le contrat comprend la garantie légale obligatoire Responsabilité civile (RC) automobile ainsi qu'une assistance gratuite incluse, et des garanties facultatives : Omnium (partielle ou complète : incendie, vol, bris de vitre, dégâts matériels), Conducteur+ (indemnisation des dommages corporels du conducteur), et Protection juridique safe. Le document décrit les définitions, la conclusion et la durée du contrat, la déclaration et le règlement des sinistres, les droits de recours de l'assureur, le bonus-malus personnel, les franchises, les exclusions et la prescription.
 
-- Assureur : [[Argenta Assurances]] · Branche : [[Auto]] · Type : Conditions générales · Édition : 01-10-2024
+- Assureur : [Argenta Assurances](../../insurers/Argenta%20Assurances.md) · Branche : [Auto](../../branches/Auto.md) · Type : Conditions générales · Édition : 01-10-2024
 
 ## Définitions
 
@@ -327,9 +327,9 @@ Le délai de prescription de toute action judiciaire résultant d'un contrat d'a
 
 ## Documents liés
 
-- ⚠️ Édition remplacée par une version plus récente : [[Assurance Auto]]
-- [[Assurance Auto]] - Conditions générales, éd. 2024-11-01
-- [[Assurance auto (IPID)]] - IPID / Fiche d'information, éd. 01/10/2025
+- ⚠️ Édition remplacée par une version plus récente : [Assurance Auto](Assurance%20Auto%20%282%29.md)
+- [Assurance Auto](Assurance%20Auto%20%282%29.md) - Conditions générales, éd. 2024-11-01
+- [Assurance auto (IPID)](Assurance%20auto%20%28IPID%29.md) - IPID / Fiche d'information, éd. 01/10/2025
 
 ## Source & fidélité
 

@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales de l'assurance véhicules automoteurs - Vélomoteurs. Le document couvre l'assurance obligatoire de la responsabilité civile en matière de véhicules automoteurs (Titre 1), et deux garanties optionnelles reprises seulement si elles figurent aux conditions particulières: l'assurance Défense en Justice (Titre 2) et l'assurance Conducteur (Titre 3). Le contrat comprend un système de personnalisation a posteriori de la prime (bonus-malus) et une couverture terrorisme.
 
-- Assureur : [[Belfius Direct Assurances]] · Branche : [[Auto]] · Type : Conditions générales
+- Assureur : [Belfius Direct Assurances](../../insurers/Belfius%20Direct%20Assurances.md) · Branche : [Auto](../../branches/Auto.md) · Type : Conditions générales
 
 ## Définitions
 

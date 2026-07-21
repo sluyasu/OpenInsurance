@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales de la police habitation KBC destinée au propriétaire occupant sa résidence principale. Il s'agit d'un ensemble d'assurances pour les habitations à usage privé, articulé autour d'une formule 'tous risques' (assurance de l'habitation, assurance du contenu, jardin, piscine, assainissement du sol) complétée par des garanties complémentaires (responsabilités, assistance, frais supplémentaires). Le document décrit les garanties, les exclusions, les limites d'indemnisation, la procédure en cas de sinistre, les modalités d'indemnisation, la durée/résiliation et un glossaire des notions légales.
 
-- Assureur : [[KBC Bank & Verzekering]] · Branche : [[Habitation]] · Type : Conditions générales
+- Assureur : [KBC Bank & Verzekering](../../insurers/KBC%20Bank%20%26%20Verzekering.md) · Branche : [Habitation](../../branches/Habitation.md) · Type : Conditions générales
 
 ## Définitions
 

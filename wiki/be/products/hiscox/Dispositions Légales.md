@@ -38,7 +38,7 @@ generated: true
 
 Document « Dispositions Légales » de Hiscox SA. Il rassemble les informations légales sur l'entreprise d'assurance : agrément au Grand-Duché de Luxembourg sous le contrôle du Commissariat aux Assurances (CAA), immatriculation au RCS Luxembourg (B217018), et immatriculation de la succursale belge auprès de la Banque Nationale Belge (n° 3099) et de la Banque Carrefour des Entreprises (0683.642.934). Il précise les chaînes de distribution et de conseil, la procédure de plainte (courtier, Hiscox SA, Ombudsman des assurances, Commissariat aux Assurances, Insurance Ombudsman ACA) et le traitement des données à caractère personnel. Ce document ne décrit pas de garanties ni d'exclusions d'assurance.
 
-- Assureur : [[Hiscox SA]] · Branche : [[Autres]] · Type : Conditions générales
+- Assureur : [Hiscox SA](../../insurers/Hiscox%20SA.md) · Branche : [Autres](../../branches/Autres.md) · Type : Conditions générales
 
 ## Conditions particulières
 

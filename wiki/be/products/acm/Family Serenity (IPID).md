@@ -38,7 +38,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de l'assurance RC Familiale Family Serenity (ACM Belgium). Family Serenity est une assurance responsabilité civile extracontractuelle qui offre une couverture lorsqu'un assuré cause des dommages à des tiers dans le cadre de la vie privée. L'assurance prévoit automatiquement une garantie Protection Juridique. La couverture peut être étendue par la garantie optionnelle RC Propriétaire d'équidés.
 
-- Assureur : [[ACM Belgium]] · Branche : [[Vie privée]] · Type : IPID / Fiche d'information · Édition : 10/2024
+- Assureur : [ACM Belgium](../../insurers/ACM%20Belgium.md) · Branche : [Vie privée](../../branches/Vie%20priv%C3%A9e.md) · Type : IPID / Fiche d'information · Édition : 10/2024
 
 ## Garanties
 
@@ -107,7 +107,7 @@ Intervention pour les dommages causés par les équidés dont vous êtes propri�
 
 ## Documents liés
 
-- [[Family Serenity]] - Conditions générales, éd. 10/2024
+- [Family Serenity](Family%20Serenity.md) - Conditions générales, éd. 10/2024
 
 ## Source & fidélité
 

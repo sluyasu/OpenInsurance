@@ -38,7 +38,7 @@ generated: true
 
 L’assurance habitation Belfius Home est un contrat d’assurance qui a pour but de préserver le bâtiment et/ou le contenu de l’assuré. L’assureur s’engage à payer les dommages matériels causés aux biens assurés dont l’assuré est propriétaire ainsi que les dommages dont l’assuré est responsable en sa qualité de locataire ou occupant. Le bâtiment inclut les panneaux solaires et les bornes de recharge. Le contrat comprend des garanties de base (incendie, dégâts des eaux, tempête, catastrophes naturelles, responsabilité civile, Home Assistance, etc.) et de nombreuses garanties optionnelles.
 
-- Assureur : [[Belfius Insurance]] · Branche : [[Habitation]] · Type : IPID / Fiche d'information · Édition : juin 2026
+- Assureur : [Belfius Insurance](../../insurers/Belfius%20Insurance.md) · Branche : [Habitation](../../branches/Habitation.md) · Type : IPID / Fiche d'information · Édition : juin 2026
 
 ## Définitions
 

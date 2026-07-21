@@ -38,7 +38,7 @@ generated: true
 
 P&V Assurance Familiale est une assurance de responsabilité civile vie privée et, en option, de protection juridique pour les activités de l'assuré et de son foyer dans le cadre de la vie privée. La garantie responsabilité civile protège contre les conséquences financières lorsque la responsabilité extracontractuelle - et dans certains cas contractuelle - de l'assuré est engagée pour des dommages corporels et matériels occasionnés à des tiers. La garantie optionnelle protection juridique aide l'assuré à défendre ses droits, notamment lorsqu'il réclame une indemnisation sur base extracontractuelle. Le contrat dure un an et est reconduit tacitement.
 
-- Assureur : [[P&V Assurances]] · Branche : [[Vie privée]] · Type : IPID / Fiche d'information · Édition : 04.2025
+- Assureur : [P&V Assurances](../../insurers/P%26V%20Assurances.md) · Branche : [Vie privée](../../branches/Vie%20priv%C3%A9e.md) · Type : IPID / Fiche d'information · Édition : 04.2025
 
 ## Définitions
 
@@ -250,7 +250,7 @@ Prise en charge des frais et honoraires d'un avocat, dans le cadre d'une auditio
 
 ## Documents liés
 
-- [[P&V Assurance Familiale]] - Conditions générales, éd. 04-2025
+- [P&V Assurance Familiale](P%26V%20Assurance%20Familiale.md) - Conditions générales, éd. 04-2025
 
 ## Source & fidélité
 

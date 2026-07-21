@@ -40,7 +40,7 @@ generated: true
 
 DKV HOSPI Comfort est une assurance hospitalisation individuelle à caractère indemnitaire, complémentaire à l'intervention de l'assurance maladie légale/statutaire belge, assortie d'une assurance assistance à l'étranger. Elle rembourse les frais réels supportés (tickets modérateurs et suppléments inclus) en cas d'hospitalisation pour maladie, accident ou accouchement, avec libre choix de l'hôpital et du type de chambre (hors chambre de luxe ou suite). Elle couvre également les soins ambulatoires pré- et post-hospitaliers ainsi que les soins liés à 33 maladies graves. Elle peut être souscrite par toute personne physique résidant principalement en Belgique n'ayant pas atteint 70 ans à la conclusion du contrat.
 
-- Assureur : [[DKV Belgium]] · Branche : [[Santé]] · Type : IPID / Fiche d'information · Édition : 202603
+- Assureur : [DKV Belgium](../../insurers/DKV%20Belgium.md) · Branche : [Santé](../../branches/Sant%C3%A9.md) · Type : IPID / Fiche d'information · Édition : 202603
 
 ## Définitions
 
@@ -216,7 +216,7 @@ AssurPharma : envoi automatisé à DKV des attestations par un pharmacien reconn
 
 ## Documents liés
 
-- [[DKV Hospi Comfort]] - Conditions générales, éd. 08/2025
+- [DKV Hospi Comfort](DKV%20Hospi%20Comfort.md) - Conditions générales, éd. 08/2025
 
 ## Source & fidélité
 

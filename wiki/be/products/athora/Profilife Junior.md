@@ -38,7 +38,7 @@ generated: true
 
 Profilife Junior est un contrat d’assurance-vie de la Branche 23 à versements planifiés, lié à la performance d’un ou plusieurs fonds d’investissement internes d’Athora Belgium, dont le risque financier est entièrement supporté par le preneur d’assurance. Le contrat est conclu pour une durée indéterminée (sauf dérogation) et permet de constituer une épargne via des versements planifiés d’un minimum de 25 EUR. En cas de décès de l’assuré avant le terme, la compagnie verse aux bénéficiaires la prestation décès mentionnée aux conditions particulières, toujours au moins égale à l’épargne constituée. Des garanties complémentaires (capital accident, exonération des primes en cas d’invalidité, Junior Assistance) peuvent être souscrites; le contrat ne donne lieu à aucune participation aux bénéfices.
 
-- Assureur : [[Athora Belgium]] · Branche : [[Épargne / Placement (Branche 21/23)]] · Type : Conditions générales · Édition : 01/2026
+- Assureur : [Athora Belgium](../../insurers/Athora%20Belgium.md) · Branche : Épargne / Placement (Branche 21/23) · Type : Conditions générales · Édition : 01/2026
 
 ## Définitions
 
@@ -177,7 +177,7 @@ Garantie Junior Assistance que le preneur d’assurance a la possibilité de sou
 
 ## Documents liés
 
-- [[Profilife Junior]] - Conditions générales, éd. 01/2026
+- [Profilife Junior](Profilife%20Junior%20%282%29.md) - Conditions générales, éd. 01/2026
 
 ## Source & fidélité
 

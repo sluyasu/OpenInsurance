@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales de l'Assurance au Kilomètre de Belfius Direct Assurances, une assurance auto belge dont la prime est personnalisée notamment sur l'historique des sinistres. Le contrat regroupe la garantie légale obligatoire de Responsabilité Civile en matière de véhicules automoteurs (Titre 1) et des garanties optionnelles: Omnium (formules Petite et Full: incendie, vol, bris de vitres, forces de la nature, dégâts matériels), Protection Juridique, Véhicule de remplacement ou budget mobilité, et Assurance Conducteur. Il inclut aussi des garanties extra (Joker et 58+ Assuré à vie, Assistance 24h/24, garantie BOB) et la couverture Terrorisme.
 
-- Assureur : [[Belfius Direct Assurances]] · Branche : [[Auto]] · Type : Conditions générales · Édition : 15062026
+- Assureur : [Belfius Direct Assurances](../../insurers/Belfius%20Direct%20Assurances.md) · Branche : [Auto](../../branches/Auto.md) · Type : Conditions générales · Édition : 15062026
 
 ## Définitions
 
@@ -320,7 +320,7 @@ Le contrat est régi par la loi belge, y compris pour le délai de prescription 
 
 ## Documents liés
 
-- [[Assurance au Kilomètre (Fiche)]] - Fiche produit, éd. 06/2026
+- [Assurance au Kilomètre (Fiche)](Assurance%20au%20Kilom%C3%A8tre%20%28Fiche%29.md) - Fiche produit, éd. 06/2026
 
 ## Source & fidélité
 

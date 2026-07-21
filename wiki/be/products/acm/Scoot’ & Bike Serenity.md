@@ -38,7 +38,7 @@ generated: true
 
 Conditions Générales de l’assurance cyclomoteur « Scoot’ & Bike Serenity » d’ACM Belgium (millésime 10/2024, droit belge). Le contrat comprend la garantie obligatoire Responsabilité Civile véhicules automoteurs et des garanties facultatives Dommages (Vol, Incendie, Bris de vitres, Forces de la nature, Heurts d’animaux, Équipements du pilote), une Protection Juridique et une Protection du Conducteur, ainsi que des extensions de garantie et une convention d’assistance (Mini Assistance) gérée par AWP P&C S.A. / Mondial Assistance. Les garanties Dommages, Protection Juridique et Protection du Conducteur ne s’appliquent que si mention en est faite expressément aux Conditions Particulières.
 
-- Assureur : [[ACM Belgium]] · Branche : [[Auto]] · Type : Conditions générales · Édition : 10/2024
+- Assureur : [ACM Belgium](../../insurers/ACM%20Belgium.md) · Branche : [Auto](../../branches/Auto.md) · Type : Conditions générales · Édition : 10/2024
 
 ## Définitions
 
@@ -321,7 +321,7 @@ Le délai de prescription de toute action dérivant du contrat est de trois ans,
 
 ## Documents liés
 
-- [[Scoot' & Bike Serenity (IPID)]] - IPID / Fiche d'information, éd. 10/2024
+- [Scoot' & Bike Serenity (IPID)](Scoot%27%20%26%20Bike%20Serenity%20%28IPID%29.md) - IPID / Fiche d'information, éd. 10/2024
 
 ## Source & fidélité
 

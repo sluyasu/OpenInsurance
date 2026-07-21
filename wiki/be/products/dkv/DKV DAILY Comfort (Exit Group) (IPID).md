@@ -40,7 +40,7 @@ generated: true
 
 Assurance individuelle soins de santé sans hospitalisation à caractère indemnitaire, complémentaire à l'intervention de l'assurance maladie légale belge. Elle rembourse les frais médicaux ambulatoires (traitement médical, paramédical, médicaments, dispositifs médicaux et traitement préventif) à 70 % jusqu'à € 3.000 par année d'assurance, sous réserve de sous-limites spécifiques. Elle peut être souscrite par toute personne physique domiciliée en Belgique, n'ayant pas atteint 70 ans à la conclusion du contrat et assujettie à la sécurité sociale belge.
 
-- Assureur : [[DKV Belgium]] · Branche : [[Santé]] · Type : IPID / Fiche d'information · Édition : 202508
+- Assureur : [DKV Belgium](../../insurers/DKV%20Belgium.md) · Branche : [Santé](../../branches/Sant%C3%A9.md) · Type : IPID / Fiche d'information · Édition : 202508
 
 ## Garanties
 
@@ -143,7 +143,7 @@ AssurPharma : envoi automatisé à DKV des attestations par un pharmacien reconn
 
 ## Documents liés
 
-- [[DKV Daily Comfort (Exit Group)]] - Conditions générales, éd. 08/2025
+- [DKV Daily Comfort (Exit Group)](DKV%20Daily%20Comfort%20%28Exit%20Group%29.md) - Conditions générales, éd. 08/2025
 
 ## Source & fidélité
 

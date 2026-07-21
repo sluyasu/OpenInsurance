@@ -38,7 +38,7 @@ generated: true
 
 Confort Auto est une assurance multirisque pour les voitures, mobilhomes, camionnettes, motocyclettes, cyclomoteurs, speed pedelecs, voiturettes, cycles motorisés et autres véhicules (engins de chantier, engins agricoles, plaques commerciales, ...). Elle comprend la garantie Responsabilité Civile obligatoire (RC AUTO) couvrant les dommages causés aux tiers à l'occasion de l'usage du véhicule assuré dans la circulation. Elle propose en outre des garanties optionnelles : Véhicule de remplacement, Protection du Véhicule, Protection des Personnes, Protection Juridique et Assistance.
 
-- Assureur : [[AXA Belgium]] · Branche : [[Auto]] · Type : IPID / Fiche d'information · Édition : 11.2025
+- Assureur : [AXA Belgium](../../insurers/AXA%20Belgium.md) · Branche : [Auto](../../branches/Auto.md) · Type : IPID / Fiche d'information · Édition : 11.2025
 
 ## Définitions
 
@@ -255,7 +255,7 @@ People travel (uniquement dans la formule Omni-Assistance) : plafond d'intervent
 
 ## Documents liés
 
-- [[Confort Auto]] - Conditions générales, éd. 06.2026
+- [Confort Auto](Confort%20Auto.md) - Conditions générales, éd. 06.2026
 
 ## Source & fidélité
 

@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales de l'assurance auto de FEDERALE Assurance (réf. 21.26.146, édition 04/25) couvrant la responsabilité civile obligatoire en matière de véhicules automoteurs (Garantie I) conformément à la loi du 21 novembre 1989. Le contrat comprend cinq garanties distinctes : Garantie I (RC obligatoire), Garantie II (Omnium / Petite Omnium : dégâts matériels, incendie, vol, bris de vitres, forces de la nature, heurt d'animaux), Garantie III (Protection Juridique), Garantie IV (FEDERALE Assistance Auto assurée par Europ Assistance) et Garantie V (Assurance du Conducteur). Seules sont acquises les garanties mentionnées aux conditions particulières.
 
-- Assureur : [[Fédérale Assurance]] · Branche : [[Auto]] · Type : Conditions générales · Édition : 04/25
+- Assureur : [Fédérale Assurance](../../insurers/F%C3%A9d%C3%A9rale%20Assurance.md) · Branche : [Auto](../../branches/Auto.md) · Type : Conditions générales · Édition : 04/25
 
 ## Définitions
 

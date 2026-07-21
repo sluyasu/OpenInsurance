@@ -38,7 +38,7 @@ generated: true
 
 L'assurance Protection Juridique DAS Comfort (Conditions spéciales F5042 - 01/2025) est un produit de protection juridique famille qui couvre les sinistres pouvant survenir dans la vie privée du preneur d'assurance et des personnes de son foyer. Elle permet à l'assureur d'accompagner l'assuré en cas de litige pour chercher une solution, défendre ses droits à l'amiable ou, si nécessaire et selon les garanties prévues, engager une procédure. L'assureur fournit des services et, dans les limites du contrat, prend en charge les frais liés au litige (honoraires et frais d'avocat, frais d'expertise, frais de justice). Certaines garanties sont couvertes en phase amiable et procédure, d'autres uniquement en phase amiable, et des extensions de garantie complètent la protection.
 
-- Assureur : [[D.A.S.]] · Branche : [[Protection juridique]] · Type : Conditions particulières · Édition : 01/2025
+- Assureur : [D.A.S.](../../insurers/D.A.S..md) · Branche : [Protection juridique](../../branches/Protection%20juridique.md) · Type : Conditions particulières · Édition : 01/2025
 
 ## Définitions
 

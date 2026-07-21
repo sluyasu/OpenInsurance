@@ -38,7 +38,7 @@ generated: true
 
 Confort Personnes est une assurance et assistance « Accidents corporels » d'AXA Belgium couvrant les lésions corporelles subies par les assurés à la suite d'un accident couvert survenu dans la vie privée ou lors des activités professionnelles déclarées. Elle comprend la garantie Accidents (décès, invalidité permanente, incapacité temporaire, frais de traitement, hospitalisation), une garantie Protection juridique (gérée par Legal Village), et une garantie Assistance (Première assistance en Belgique et option Assistance Personnes dans le monde entier).
 
-- Assureur : [[AXA Belgium]] · Branche : [[Santé]] · Type : Conditions générales · Édition : 06.2022
+- Assureur : [AXA Belgium](../../insurers/AXA%20Belgium.md) · Branche : [Santé](../../branches/Sant%C3%A9.md) · Type : Conditions générales · Édition : 06.2022
 
 ## Définitions
 
@@ -381,7 +381,7 @@ Transmission gratuite de messages urgents vers la Belgique en rapport avec les g
 
 ## Documents liés
 
-- [[Confort Personnes (IPID)]] - IPID / Fiche d'information, éd. 09.2018
+- [Confort Personnes (IPID)](Confort%20Personnes%20%28IPID%29.md) - IPID / Fiche d'information, éd. 09.2018
 
 ## Source & fidélité
 

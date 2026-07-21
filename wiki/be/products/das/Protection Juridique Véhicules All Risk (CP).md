@@ -40,7 +40,7 @@ generated: true
 
 Assurance Protection Juridique D.A.S. pour véhicules souscrite selon le principe All Risk (‘Tout ce qui n’est pas exclu est couvert‘), couvrant le(s) véhicule(s) désigné(s) sur l’attestation d’assurance ainsi que le preneur d’assurance, sa famille et d’autres personnes assurées. L’assureur accompagne l’assuré pour trouver une solution au litige et prend en charge les coûts occasionnés (honoraires et frais d’avocats, frais d’expertise, frais de justice), en cherchant d’abord une solution à l’amiable puis, si nécessaire, en prenant en charge les frais de procédure. Le maximum d’intervention est fixé à 125 000 EUR par cas d’assurance et la couverture inclut des extensions (Service Box, insolvabilité des tiers, caution pénale, avance de fonds sur indemnités, avance de la franchise des polices RC, rapatriement du véhicule, expertise achat véhicule d’occasion, Cyber Risk).
 
-- Assureur : [[D.A.S.]] · Branche : [[Auto]] · Type : Conditions particulières · Édition : 01/2025
+- Assureur : [D.A.S.](../../insurers/D.A.S..md) · Branche : [Auto](../../branches/Auto.md) · Type : Conditions particulières · Édition : 01/2025
 
 ## Définitions
 

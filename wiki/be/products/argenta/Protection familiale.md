@@ -38,7 +38,7 @@ generated: true
 
 Assurance Protection familiale (RC vie privée) de droit belge distribuée par Argenta Assurances SA. Elle comprend deux garanties de base incluses automatiquement — la Responsabilité civile extracontractuelle vie privée (assureur Aras) et la Protection juridique (Aras) — ainsi qu'une garantie de base Assistance vélo (assureur Europ Assistance Belgium) et une garantie optionnelle Assurance voyage (Europ Assistance Belgium), proposée à partir du 20 juin 2026 et acquise uniquement si mentionnée aux conditions particulières. La RC indemnise dans le monde entier les dommages causés aux tiers dans le cadre de la vie privée ; la Protection juridique couvre le recours civil, la défense pénale et d'autres prestations juridiques.
 
-- Assureur : [[Argenta Assurances]] · Branche : [[Vie privée]] · Type : Conditions générales · Édition : 20-04-2026
+- Assureur : [Argenta Assurances](../../insurers/Argenta%20Assurances.md) · Branche : [Vie privée](../../branches/Vie%20priv%C3%A9e.md) · Type : Conditions générales · Édition : 20-04-2026
 
 ## Définitions
 

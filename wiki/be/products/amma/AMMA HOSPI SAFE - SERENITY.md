@@ -38,7 +38,7 @@ generated: true
 
 AMMA HOSPI SAFE - SERENITY est une assurance hospitalisation (soins de santé) de droit belge qui protège les assurés des conséquences financières d'une hospitalisation à la suite d'un accident, d'une maladie, d'une grossesse ou d'un accouchement. Elle rembourse les frais d'hospitalisation, les frais pré- et post-hospitalisation, les soins ambulatoires en cas de maladie grave et les soins palliatifs, ainsi qu'une assistance en cas d'hospitalisation à l'étranger. Deux formules sont disponibles : la Formule Safe (chambre double ou commune, Pack de couvertures standards) et la Formule Serenity (chambre particulière, Pack de couvertures étendues). Le contrat est conclu à vie sauf dérogation.
 
-- Assureur : [[AMMA Assurances]] · Branche : [[Santé]] · Type : Conditions générales · Édition : 0523
+- Assureur : [AMMA Assurances](../../insurers/AMMA%20Assurances.md) · Branche : [Santé](../../branches/Sant%C3%A9.md) · Type : Conditions générales · Édition : 0523
 
 ## Définitions
 
@@ -247,7 +247,7 @@ Le délai de prescription découlant de toute action dérivant du contrat est de
 
 ## Documents liés
 
-- [[AMMA Hospi (IPID)]] - IPID / Fiche d'information, éd. 2025
+- [AMMA Hospi (IPID)](AMMA%20Hospi%20%28IPID%29.md) - IPID / Fiche d'information, éd. 2025
 
 ## Source & fidélité
 

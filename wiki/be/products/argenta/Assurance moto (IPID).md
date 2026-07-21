@@ -38,7 +38,7 @@ generated: true
 
 Assurance moto d'Argenta Assurances SA pour véhicule automoteur tel qu'une motocyclette ou un vélomoteur. Elle comprend toujours la garantie responsabilité civile légalement obligatoire, avec assistance immédiate après un accident. Des garanties optionnelles peuvent être ajoutées : Protection juridique (de Base ou Safe), et, pour les motos, Assistance dépannage et Assurance voyage, ces deux dernières étant des produits de l'assureur Europ Assistance Belgium.
 
-- Assureur : [[Argenta Assurances]] · Branche : [[Autres]] · Type : IPID / Fiche d'information · Édition : 01/10/2025
+- Assureur : [Argenta Assurances](../../insurers/Argenta%20Assurances.md) · Branche : [Autres](../../branches/Autres.md) · Type : IPID / Fiche d'information · Édition : 01/10/2025
 
 ## Garanties
 

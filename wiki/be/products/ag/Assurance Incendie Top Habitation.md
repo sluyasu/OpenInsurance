@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales de l'assurance Incendie Top Habitation d'AG Insurance, contrat couvrant les biens à usage d'habitation ou de garage privé répondant à la définition des « risques simples ». Le contrat assure le bâtiment et/ou le contenu contre les dommages matériels causés par des événements couverts (incendie, heurt, vandalisme, action de l'électricité, attentats, tempête, dégâts des eaux, bris de vitrages, catastrophes naturelles), ainsi que la responsabilité civile immeuble. Il comprend des garanties complémentaires (assistance, frais de sauvetage, chômage immobilier, recours des tiers) et des garanties optionnelles (Pack Habitation & Assist+, Vol du contenu, Pack Vol+, Pack Jardin, Pack Piscine, Pack Locataire/Colocataires, véhicules au repos, pertes indirectes 10 %, protection juridique incendie).
 
-- Assureur : [[AG Insurance]] · Branche : [[Habitation]] · Type : Conditions générales · Édition : 21/06/2025
+- Assureur : [AG Insurance](../../insurers/AG%20Insurance.md) · Branche : [Habitation](../../branches/Habitation.md) · Type : Conditions générales · Édition : 21/06/2025
 
 ## Définitions
 
@@ -525,7 +525,7 @@ Le délai de prescription de toute action dérivant du contrat d'assurance est d
 ## Documents liés
 
 - Édition courante de ce produit.
-- [[Assurance Incendie Top Habitation]] - Conditions générales, éd. 21/06/2025
+- [Assurance Incendie Top Habitation](Assurance%20Incendie%20Top%20Habitation%20%282%29.md) - Conditions générales, éd. 21/06/2025
 
 ## Source & fidélité
 

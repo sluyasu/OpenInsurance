@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales de l'assurance Responsabilité Civile Familiale de FEDERALE Assurance (réf. 21.14.027, édition 04/25). Le contrat comprend deux divisions de garantie : la Division I (assurance de la responsabilité civile extra-contractuelle des assurés du fait de la vie privée) et la Division II (assurance protection juridique liée aux sinistres couverts en Division I), auxquelles s'ajoutent des dispositions communes (sommes assurées, étendue territoriale mondiale, déclaration des sinistres, primes, durée et résiliation) et des dispositions diverses (fraude, sanctions, protection des données).
 
-- Assureur : [[Fédérale Assurance]] · Branche : [[Vie privée]] · Type : Conditions générales · Édition : 04/25
+- Assureur : [Fédérale Assurance](../../insurers/F%C3%A9d%C3%A9rale%20Assurance.md) · Branche : [Vie privée](../../branches/Vie%20priv%C3%A9e.md) · Type : Conditions générales · Édition : 04/25
 
 ## Définitions
 

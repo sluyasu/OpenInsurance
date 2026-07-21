@@ -38,7 +38,7 @@ generated: true
 
 L'assurance habitation Cocoon Flex de DVV assurances est une assurance Incendie (contrat habitation) qui a pour but de préserver le bâtiment et/ou le contenu de l'assuré. L'assureur s'engage à payer les dommages matériels causés aux biens assurés dont l'assuré est propriétaire ainsi que les dommages dont l'assuré est responsable en sa qualité de locataire ou occupant. Le contrat propose des garanties de base (incendie, tempête, dégâts des eaux, catastrophes naturelles, responsabilité civile, Home Assistance, etc.) et de nombreuses garanties optionnelles (vol du contenu, protection juridique, options Jardin, Piscine, Média, Business, Travaux, Protection locataire, etc.). Le bâtiment assuré inclut les panneaux solaires et les bornes de recharge.
 
-- Assureur : [[DVV Assurances]] · Branche : [[Habitation]] · Type : IPID / Fiche d'information · Édition : octobre 2024
+- Assureur : [DVV Assurances](../../insurers/DVV%20Assurances.md) · Branche : [Habitation](../../branches/Habitation.md) · Type : IPID / Fiche d'information · Édition : octobre 2024
 
 ## Définitions
 

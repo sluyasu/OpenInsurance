@@ -38,7 +38,7 @@ generated: true
 
 AMMA HOSPI-PLAN est une assurance hospitalisation belge (branche maladie) proposée par AMMA Assurances a.m. Elle couvre les frais liés à l'hospitalisation suite à un accident, une maladie, une grossesse ou un accouchement, ainsi que les soins pré- et post-hospitalisation, les soins ambulatoires pour maladies graves et les soins palliatifs. Une garantie d'assistance hospitalisation à l'étranger (via EUROP ASSISTANCE BELGIUM) est jointe en annexe. Le contrat est conclu à vie sauf dérogation.
 
-- Assureur : [[AMMA Assurances]] · Branche : [[Santé]] · Type : Conditions générales · Édition : 2007-10
+- Assureur : [AMMA Assurances](../../insurers/AMMA%20Assurances.md) · Branche : [Santé](../../branches/Sant%C3%A9.md) · Type : Conditions générales · Édition : 2007-10
 
 ## Définitions
 

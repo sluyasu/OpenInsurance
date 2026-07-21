@@ -38,7 +38,7 @@ generated: true
 
 Daylife Protect est une assurance individuelle « accidents de la vie privée » d'AXA Belgium, à caractère indemnitaire (indemnisation selon le droit commun belge, non forfaitaire). La garantie de base indemnise l'incapacité permanente égale ou supérieure au seuil d'intervention convenu et le décès consécutifs à un accident de la vie privée, à concurrence de 1.000.000 d'euros par accident et par assuré. Le contrat comporte aussi une garantie assistance (Inter Partner Assistance) acquise même sous le seuil, et des garanties optionnelles (frais de traitement jusqu'à 5.000 EUR avec franchise de 80 EUR, indemnité journalière de 20 EUR en incapacité temporaire). Il se souscrit en formule « single » ou « famille ».
 
-- Assureur : [[AXA Belgium]] · Branche : [[Vie privée]] · Type : Conditions générales · Édition : 10.2024
+- Assureur : [AXA Belgium](../../insurers/AXA%20Belgium.md) · Branche : [Vie privée](../../branches/Vie%20priv%C3%A9e.md) · Type : Conditions générales · Édition : 10.2024
 
 ## Définitions
 

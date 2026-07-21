@@ -38,7 +38,7 @@ generated: true
 
 Serenity by Athora est un contrat d’assurance vie à versements libres (branche 21) souscrit entre le preneur d’assurance et Athora Belgium. Chaque versement bénéficie d’un taux d’intérêt garanti pendant une période de garantie, complété par une participation bénéficiaire annuelle. Le contrat prévoit une prestation en cas de décès de l’assuré (au moins égale à l’épargne constituée) ainsi que le versement de l’épargne constituée en cas de vie au terme, avec possibilités de retraits, retraits planifiés et transferts.
 
-- Assureur : [[Athora Belgium]] · Branche : [[Épargne / Placement (Branche 21/23)]] · Type : Conditions générales · Édition : 01/2021
+- Assureur : [Athora Belgium](../../insurers/Athora%20Belgium.md) · Branche : Épargne / Placement (Branche 21/23) · Type : Conditions générales · Édition : 01/2021
 
 ## Définitions
 

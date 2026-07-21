@@ -38,7 +38,7 @@ generated: true
 
 Assurance véhicule automoteur (VIVIUM Auto) couvrant les risques liés à la détention et l'usage d'une voiture, minibus ou camionnette. Seule la garantie Responsabilité civile est légalement obligatoire ; l'assuré peut renforcer sa protection en souscrivant différentes options liées à lui-même, à son véhicule ou à sa mobilité (Protection juridique, Protection du conducteur, Dommages au véhicule, Assistance). Ce document d'information (IPID) donne un aperçu des principales couvertures et exclusions et n'est pas exhaustif.
 
-- Assureur : [[Vivium]] · Branche : [[Auto]] · Type : IPID / Fiche d'information · Édition : 01.2025
+- Assureur : [Vivium](../../insurers/Vivium.md) · Branche : [Auto](../../branches/Auto.md) · Type : IPID / Fiche d'information · Édition : 01.2025
 
 ## Définitions
 
@@ -148,7 +148,7 @@ Dans le cadre de l'assistance aux personnes, nous organisons et prenons en charg
 
 ## Documents liés
 
-- [[VIVIUM AUTO]] - Conditions générales, éd. 02.2016
+- [VIVIUM AUTO](VIVIUM%20AUTO.md) - Conditions générales, éd. 02.2016
 
 ## Source & fidélité
 

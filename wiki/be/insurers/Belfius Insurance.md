@@ -25,21 +25,21 @@ generated: true
 
 ## Résumé
 
-[[Belfius Insurance]] - [https://www.belfius.be](https://www.belfius.be). 6 document(s) across 3 branch(es).
+**Belfius Insurance** - [https://www.belfius.be](https://www.belfius.be). 6 document(s) across 3 branch(es).
 
 ## Produits par branche
 
-### [[Auto]]
-- [[Belfius Car]] - Conditions générales (092024)
-- [[Belfius Car (IPID)]] - IPID / Fiche d'information (septembre 2024)
+### [Auto](../branches/Auto.md)
+- [Belfius Car](../products/belfius/Belfius%20Car.md) - Conditions générales (092024) · réf. 0037-2-10-5739-092024
+- [Belfius Car (IPID)](../products/belfius/Belfius%20Car%20%28IPID%29.md) - IPID / Fiche d'information (septembre 2024) · réf. I/0037-2-10-5739-092024/092024
 
-### [[Habitation]]
-- [[Belfius Home - Assurance Incendie]] - Conditions générales
-- [[L’assurance habitation Belfius Home (IPID)]] - IPID / Fiche d'information (juin 2026)
+### [Habitation](../branches/Habitation.md)
+- [Belfius Home - Assurance Incendie](../products/belfius/Belfius%20Home%20-%20Assurance%20Incendie.md) - Conditions générales · réf. 0037-2-89-7032-062020-F062026
+- [L’assurance habitation Belfius Home (IPID)](../products/belfius/L%E2%80%99assurance%20habitation%20Belfius%20Home%20%28IPID%29.md) - IPID / Fiche d'information (juin 2026) · réf. I/0037-1-89-7295- F-062026
 
-### [[Vie privée]]
-- [[Belfius Family]] - Conditions générales (062020)
-- [[L'assurance familiale Belfius Family (IPID)]] - IPID / Fiche d'information (2026-06)
+### [Vie privée](../branches/Vie%20priv%C3%A9e.md)
+- [Belfius Family](../products/belfius/Belfius%20Family.md) - Conditions générales (062020) · réf. 0037-2-13-7032-062020-F062026
+- [L'assurance familiale Belfius Family (IPID)](../products/belfius/L%27assurance%20familiale%20Belfius%20Family%20%28IPID%29.md) - IPID / Fiche d'information (2026-06) · réf. IPID/0037-2-13-7032- F-062026
 
 ## Source
 

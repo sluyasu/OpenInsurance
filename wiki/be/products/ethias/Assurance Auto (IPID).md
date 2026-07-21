@@ -38,7 +38,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de l'« Assurance Auto » d'Ethias SA, pour véhicules de tourisme et affaires, mixtes et minibus. L'Assurance Auto est une assurance multirisque qui comprend la garantie Responsabilité Civile obligatoire, couvrant les dommages corporels et/ou matériels causés par le véhicule à des tiers et dont l'assuré est responsable. Elle peut être étendue à des garanties facultatives : (Mini) Omnium, Assurance du conducteur, Protection juridique et Mobility Maxi, ainsi qu'à des extensions telles que Mobility, la garantie BOB et la garantie Europe. Le document présente un aperçu non exhaustif des principales couvertures, exclusions, franchises, étendues territoriales et obligations.
 
-- Assureur : [[Ethias]] · Branche : [[Auto]] · Type : IPID / Fiche d'information · Édition : 04/26
+- Assureur : [Ethias](../../insurers/Ethias.md) · Branche : [Auto](../../branches/Auto.md) · Type : IPID / Fiche d'information · Édition : 04/26
 
 ## Garanties
 

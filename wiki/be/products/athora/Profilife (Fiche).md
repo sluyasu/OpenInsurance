@@ -38,7 +38,7 @@ generated: true
 
 Profilife est une assurance-vie de la branche 23 à versements libres périodiques dont le rendement est lié à la performance d'un ou de plusieurs fonds internes d'assurance (options d'investissement). Le produit garantit des prestations en cas de vie ou en cas de décès, correspondant à la contrevaleur en euros des unités du contrat. Il n'y a pas de protection du capital ni de garantie de rendement. Des garanties décès, accident et invalidité optionnelles sont disponibles moyennant le paiement d'une prime de risque.
 
-- Assureur : [[Athora Belgium]] · Branche : [[Épargne / Placement (Branche 21/23)]] · Type : Fiche produit · Édition : 1 janvier 2026
+- Assureur : [Athora Belgium](../../insurers/Athora%20Belgium.md) · Branche : Épargne / Placement (Branche 21/23) · Type : Fiche produit · Édition : 1 janvier 2026
 
 ## Garanties
 
@@ -117,7 +117,7 @@ Moyennant le paiement d'une prime de risque, vous pouvez financer une rente inva
 
 ## Documents liés
 
-- [[Profilife]] - Conditions générales, éd. 01/2026
+- [Profilife](Profilife.md) - Conditions générales, éd. 01/2026
 
 ## Source & fidélité
 

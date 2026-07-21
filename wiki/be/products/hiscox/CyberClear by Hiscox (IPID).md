@@ -38,7 +38,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) résumant les principales garanties et exclusions de l'assurance Cyber « CyberClear by Hiscox » de Hiscox SA (entreprise agréée au Grand-Duché de Luxembourg, exerçant en Belgique via sa succursale belge, BNB 3099). Le produit assure votre entreprise, entre autres, contre les conséquences liées au piratage informatique, la perte de données, le vol de données et les cyber-attaques. Il comprend une garantie Assistance en cas de cyber-attaque, des garanties First Party (dommages subis par vous), des garanties Third Party (dommages causés aux tiers) et des garanties mixtes. Ce résumé n'est pas exhaustif : l'information complète figure dans la documentation contractuelle et précontractuelle.
 
-- Assureur : [[Hiscox SA]] · Branche : [[Cyber]] · Type : IPID / Fiche d'information · Édition : 2025-06
+- Assureur : [Hiscox SA](../../insurers/Hiscox%20SA.md) · Branche : [Cyber](../../branches/Cyber.md) · Type : IPID / Fiche d'information · Édition : 2025-06
 
 ## Garanties
 
@@ -190,7 +190,7 @@ Garantie mixte (dommage subi par vous et par un tiers) couvrant la cyber-fraude.
 
 ## Documents liés
 
-- [[CyberClear by Hiscox (CP)]] - Conditions particulières, éd. 2025-06
+- [CyberClear by Hiscox (CP)](CyberClear%20by%20Hiscox%20%28CP%29.md) - Conditions particulières, éd. 2025-06
 
 ## Source & fidélité
 

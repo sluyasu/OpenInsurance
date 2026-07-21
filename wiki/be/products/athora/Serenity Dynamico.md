@@ -38,7 +38,7 @@ generated: true
 
 Serenity Dynamico est un contrat d’assurance vie à versements libres souscrit entre le preneur d’assurance et la compagnie Athora Belgium, permettant de constituer une épargne. Chaque versement net est capitalisé au taux d’intérêt garanti (taux d’intérêt technique) en vigueur lors de sa réception et peut être majoré d’une participation bénéficiaire. Le contrat garantit le paiement de l’épargne constituée en cas de vie au terme et une prestation décès, toujours au moins égale à l’épargne constituée, en cas de décès de l’assuré avant le terme. Il prévoit des possibilités de retraits, de retraits planifiés et de transferts (contrat Cambio).
 
-- Assureur : [[Athora Belgium]] · Branche : [[Épargne / Placement (Branche 21/23)]] · Type : Conditions générales · Édition : 07/2020
+- Assureur : [Athora Belgium](../../insurers/Athora%20Belgium.md) · Branche : Épargne / Placement (Branche 21/23) · Type : Conditions générales · Édition : 07/2020
 
 ## Définitions
 

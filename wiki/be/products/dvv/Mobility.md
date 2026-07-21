@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales de l'assurance auto Mobility de DVV Assurances (marque et nom commercial de Belins SA), régies par le droit belge. Le contrat regroupe l'assurance obligatoire de la Responsabilité Civile automoteur (conforme à la loi du 21 novembre 1989) et plusieurs garanties souscrivables séparément: Protection Juridique, Omnium (Incendie, Vol, Bris de Vitres, Forces de la nature & Périls Connexes, Dégâts Matériels), Bris de Vitres, Conducteur, et Assistance (au véhicule et aux personnes, formules Mobilité et Mobilité Extra). Le document décrit les définitions, garanties, exclusions, franchises, la procédure de sinistre, la durée, la résiliation et le système bonus-malus.
 
-- Assureur : [[DVV Assurances]] · Branche : [[Auto]] · Type : Conditions générales · Édition : 032024 - F012025
+- Assureur : [DVV Assurances](../../insurers/DVV%20Assurances.md) · Branche : [Auto](../../branches/Auto.md) · Type : Conditions générales · Édition : 032024 - F012025
 
 ## Définitions
 
@@ -506,7 +506,7 @@ Service d'information: communication des adresses et numéros des services médi
 
 ## Documents liés
 
-- [[Mobility (IPID)]] - IPID / Fiche d'information, éd. octobre 2024
+- [Mobility (IPID)](Mobility%20%28IPID%29.md) - IPID / Fiche d'information, éd. octobre 2024
 
 ## Source & fidélité
 

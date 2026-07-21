@@ -38,7 +38,7 @@ generated: true
 
 NN Family Insurance est une assurance de la vie privée (responsabilité civile familiale) de droit belge, complétée par une assurance Assistance juridique optionnelle. L'assurance Familiale couvre la responsabilité civile extracontractuelle de l'assuré et des membres de son foyer pour les dommages matériels et corporels causés à des tiers dans le cadre de la vie privée (enfants mineurs, animaux domestiques, circulation en tant qu'usager faible, terrains et bâtiments, bateaux, aéromodèles). L'assurance Assistance juridique optionnelle prend en charge la défense des intérêts de l'assuré (recours, défense pénale et civile, insolvabilité, caution pénale, frais de voyage). La couverture est valable dans le monde entier et le preneur doit être inscrit dans une commune belge.
 
-- Assureur : [[NN Insurance Belgium]] · Branche : [[Vie privée]] · Type : Conditions générales · Édition : Juillet 2023
+- Assureur : [NN Insurance Belgium](../../insurers/NN%20Insurance%20Belgium.md) · Branche : [Vie privée](../../branches/Vie%20priv%C3%A9e.md) · Type : Conditions générales · Édition : Juillet 2023
 
 ## Définitions
 
@@ -247,7 +247,7 @@ Nous fournissons une assistance juridique pour : votre résidence principale; un
 
 ## Documents liés
 
-- [[NN Family Insurance (IPID)]] - IPID / Fiche d'information
+- [NN Family Insurance (IPID)](NN%20Family%20Insurance%20%28IPID%29.md) - IPID / Fiche d'information
 
 ## Source & fidélité
 

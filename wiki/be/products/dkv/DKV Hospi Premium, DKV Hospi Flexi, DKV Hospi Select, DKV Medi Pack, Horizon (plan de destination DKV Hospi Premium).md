@@ -40,7 +40,7 @@ generated: true
 
 Conditions générales (C.G.A.) d'application pour frais médicaux couvrant les produits DKV Hospi Premium, DKV Hospi Flexi, DKV Hospi Select, DKV Medi Pack et Horizon (plan de destination DKV Hospi Premium). Il s'agit d'un contrat d'assurance maladie à caractère indemnitaire conclu à vie, dont le plan d'assurance couvre les frais médicaux liés à une maladie, un accident ou un accouchement selon les modalités déterminées dans les Conditions Tarifaires et Particulières d'Assurance. Le document fixe les définitions, l'assurabilité, la conclusion, la durée, la fin du contrat et de la garantie, le droit aux prestations, les obligations, la prime et ses adaptations, ainsi que la couverture en cas de terrorisme.
 
-- Assureur : [[DKV Belgium]] · Branche : [[Santé]] · Type : Conditions générales · Édition : 10/2025
+- Assureur : [DKV Belgium](../../insurers/DKV%20Belgium.md) · Branche : [Santé](../../branches/Sant%C3%A9.md) · Type : Conditions générales · Édition : 10/2025
 
 ## Définitions
 

@@ -38,7 +38,7 @@ generated: true
 
 Conditions Générales n° PRO202401 des « Assurances professionnelles by Hiscox » (Hiscox Belgium / Hiscox SA). Le document fixe le cadre commun d'indemnisation et de gestion de la police : modalités et plafonds d'indemnisation, franchise, pluralité de sinistres/assurés/polices, déclaration et gestion des sinistres, administration de la police (déclarations, modification du risque, prime, application de la garantie dans le temps, durée, résiliation, prescription, territoire et juridiction). Les garanties spécifiques, plafonds de garantie, sous-limites et franchises applicables sont fixés dans les Conditions Particulières et les Conditions Spéciales, qui prévalent sur les présentes Conditions Générales.
 
-- Assureur : [[Hiscox SA]] · Branche : [[RC professionnelle]] · Type : Conditions générales · Édition : 2024-01
+- Assureur : [Hiscox SA](../../insurers/Hiscox%20SA.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : Conditions générales · Édition : 2024-01
 
 ## Garanties
 

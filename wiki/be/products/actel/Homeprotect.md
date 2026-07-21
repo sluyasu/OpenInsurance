@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales de la police Homeprotect d'Actel (marque de P&V Assurances), une assurance habitation multirisque. Elle réunit trois volets: l'Assistance Habitation (organisée par P&V Assistance / IMA Benelux, dont l'assuré bénéficie d'office), l'Assurance Habitation (garanties de base incendie et périls connexes, garanties catastrophes naturelles, garanties optionnelles vol/appareils électriques/pertes indirectes et garanties complémentaires) et l'Assurance Familiale (responsabilité civile familiale et protection juridique familiale, cette dernière gérée par ARCES). Le document comprend aussi un lexique et des formulaires de déclaration de sinistre.
 
-- Assureur : [[Actel]] · Branche : [[Habitation]] · Type : Conditions générales · Édition : 01.2017
+- Assureur : [Actel](../../insurers/Actel.md) · Branche : [Habitation](../../branches/Habitation.md) · Type : Conditions générales · Édition : 01.2017
 
 ## Définitions
 

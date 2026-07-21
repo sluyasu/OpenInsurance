@@ -38,7 +38,7 @@ generated: true
 
 L'Assurance Résidence d'Argenta Assurances est une assurance incendie (habitation) qui intervient en cas de dommages à l'habitation en tant que propriétaire ou assure la responsabilité locative en tant que locataire, tout en assurant le contenu de l'habitation. Les garanties de base couvrent notamment l'incendie, les dégâts des eaux, la tempête, les catastrophes naturelles, le bris de vitre et la responsabilité civile. La couverture peut être étendue avec le module optionnel Confort (vol, perte indirecte, normes de construction) et la couverture optionnelle Protection juridique. Le capital assuré est déterminé à l'aide d'une méthode d'évaluation (grille d'évaluation ou loyer).
 
-- Assureur : [[Argenta Assurances]] · Branche : [[Habitation]] · Type : IPID / Fiche d'information · Édition : 01/07/2025
+- Assureur : [Argenta Assurances](../../insurers/Argenta%20Assurances.md) · Branche : [Habitation](../../branches/Habitation.md) · Type : IPID / Fiche d'information · Édition : 01/07/2025
 
 ## Garanties
 
@@ -179,7 +179,7 @@ Litiges contractuels avec l'assureur incendie.
 
 ## Documents liés
 
-- [[Assurance Résidence]] - Conditions générales, éd. 2024-10-01
+- [Assurance Résidence](Assurance%20R%C3%A9sidence.md) - Conditions générales, éd. 2024-10-01
 
 ## Source & fidélité
 

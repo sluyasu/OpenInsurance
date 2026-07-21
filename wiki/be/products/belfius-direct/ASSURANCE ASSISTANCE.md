@@ -38,7 +38,7 @@ generated: true
 
 Assurance Assistance de Belfius Direct Assurances (assurance dont l'assistance est confiée au réassureur Europ Assistance Belgium). La garantie de base couvre l'assistance aux véhicules et aux passagers immobilisés en cas de panne, accident, vandalisme ou vol du véhicule, ainsi que l'assistance vélo. Des garanties optionnelles couvrent l'assistance au véhicule à l'étranger (option étranger), l'assistance aux personnes en cas de maladie, blessure ou décès (option personne) et une assurance bagages (option bagages). Les prestations sont réparties selon les sigles B (Belgique), E (étranger) et B/E (les deux).
 
-- Assureur : [[Belfius Direct Assurances]] · Branche : [[Voyage]] · Type : Conditions générales · Édition : 01/07/2023
+- Assureur : [Belfius Direct Assurances](../../insurers/Belfius%20Direct%20Assurances.md) · Branche : [Voyage](../../branches/Voyage.md) · Type : Conditions générales · Édition : 01/07/2023
 
 ## Définitions
 
@@ -384,7 +384,7 @@ Toute action dérivant de la présente convention est prescrite dans un délai d
 
 ## Documents liés
 
-- [[Assurance Assistance (Fiche)]] - Fiche produit, éd. 07/2023
+- [Assurance Assistance (Fiche)](Assurance%20Assistance%20%28Fiche%29.md) - Fiche produit, éd. 07/2023
 
 ## Source & fidélité
 

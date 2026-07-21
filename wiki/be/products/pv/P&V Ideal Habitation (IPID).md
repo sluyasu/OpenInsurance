@@ -38,7 +38,7 @@ generated: true
 
 Ideal Habitation est une assurance habitation multirisque (assurance incendie) qui indemnise l'assuré en qualité de propriétaire, locataire et/ou occupant pour les dommages matériels causés à son habitation et/ou à son contenu par les risques énumérés dans le document. Les garanties de base couvrent notamment l'incendie, le heurt, les dégâts d'effraction et le vandalisme, les dommages aux appareils électriques, la tempête et la grêle, le bris de vitrages, les dégâts des eaux, les dommages dus au mazout, la RC bâtiment, le recours des tiers et les catastrophes naturelles, avec une assistance habitation 24h/24. Des garanties optionnelles (vol et vandalisme du contenu, pertes indirectes, protection juridique) et des packs (Jardin, Vol+) peuvent être souscrits. L'indemnisation s'applique conformément aux conditions spécifiques et dans les limites d'indemnisation prévues au contrat.
 
-- Assureur : [[P&V Assurances]] · Branche : [[Habitation]] · Type : IPID / Fiche d'information · Édition : 01.2025
+- Assureur : [P&V Assurances](../../insurers/P%26V%20Assurances.md) · Branche : [Habitation](../../branches/Habitation.md) · Type : IPID / Fiche d'information · Édition : 01.2025
 
 ## Garanties
 

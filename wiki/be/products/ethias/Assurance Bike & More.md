@@ -38,7 +38,7 @@ generated: true
 
 L'Assurance Bike & More d'Ethias est une assurance couvrant les vélos et engins de déplacement (motorisés ou non) répondant à des critères de type, de propriété et d'âge (maximum 5 ans). Elle regroupe quatre garanties accordées uniquement si mentionnées aux conditions particulières : Vol, Dégâts matériels, Conducteur et passagers, et Dépannage en Belgique. Les garanties Vol, Dégâts matériels et Conducteur et passagers sont acquises dans le monde entier ; le Dépannage est acquis en Belgique et dans un rayon de 50 km au-delà des frontières.
 
-- Assureur : [[Ethias]] · Branche : [[Vélo]] · Type : Conditions générales · Édition : 03/25
+- Assureur : [Ethias](../../insurers/Ethias.md) · Branche : [Vélo](../../branches/V%C3%A9lo.md) · Type : Conditions générales · Édition : 03/25
 
 ## Définitions
 
@@ -214,7 +214,7 @@ Cette garantie sort ses effets lorsque le véhicule assuré est immobilisé à l
 
 ## Documents liés
 
-- [[Assurance Bike & More (IPID)]] - IPID / Fiche d'information, éd. 03/25
+- [Assurance Bike & More (IPID)](Assurance%20Bike%20%26%20More%20%28IPID%29.md) - IPID / Fiche d'information, éd. 03/25
 
 ## Source & fidélité
 

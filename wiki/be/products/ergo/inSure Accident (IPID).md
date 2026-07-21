@@ -38,7 +38,7 @@ generated: true
 
 L’assurance accidents inSure Accident est un contrat d’assurance qui verse, au cours de la période assurée, les indemnités forfaitaires convenues en cas d’accident corporel de l’assuré survenant pendant l’exercice de sa profession ou dans le cadre de sa vie privée, et entraînant une invalidité physiologique. Les garanties couvrent l’invalidité permanente, l’indemnité par journée d’hospitalisation, les frais de sauvetage et, via l’option Familiale Plus, le conjoint et le nouveau-né avec une couverture décès complémentaire. L’assurance est valable dans le monde entier.
 
-- Assureur : [[ERGO Insurance SA/NV]] · Branche : [[Accidents]] · Type : IPID / Fiche d'information · Édition : Décembre 2019
+- Assureur : [ERGO Insurance SA/NV](../../insurers/ERGO%20Insurance%20SA-NV.md) · Branche : [Accidents](../../branches/Accidents.md) · Type : IPID / Fiche d'information · Édition : Décembre 2019
 
 ## Garanties
 

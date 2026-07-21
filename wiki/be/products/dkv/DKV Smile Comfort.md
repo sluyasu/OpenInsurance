@@ -38,7 +38,7 @@ generated: true
 
 DKV Smile Comfort est une assurance individuelle soins dentaires à caractère indemnitaire de droit belge, en complément de toute intervention légale/statutaire ou autre. Elle couvre les soins dentaires de base (soins préventifs, consultations, examen radiologique, soins curatifs, accidents dentaires) et les soins dentaires spécialisés (orthodontie, soins prothétiques, parodontologie, petite chirurgie buccale). L'assurance n'est valable qu'en Belgique et intervient dans les frais réels encourus restant à charge de l'assuré après déduction de toutes les interventions légales/statutaires ou autres. Le contrat est conclu à vie.
 
-- Assureur : [[DKV Belgium]] · Branche : [[Santé]] · Type : Conditions générales · Édition : 07/2024
+- Assureur : [DKV Belgium](../../insurers/DKV%20Belgium.md) · Branche : [Santé](../../branches/Sant%C3%A9.md) · Type : Conditions générales · Édition : 07/2024
 
 ## Définitions
 

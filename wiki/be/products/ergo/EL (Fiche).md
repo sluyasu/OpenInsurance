@@ -38,7 +38,7 @@ generated: true
 
 La EL est une assurance vie de la branche 21 avec rendement garanti et une participation bénéficiaire. Au terme du contrat, si l’assuré est en vie, le(s) bénéficiaire(s) perçoivent le capital épargne contractuel augmenté de la participation bénéficiaire ; en cas de décès, le capital prévoyance, le boni de risque et la participation bénéficiaire sont versés, le capital prévoyance étant réduit au tiers après un certain âge. Des garanties complémentaires contre les risques d’invalidité et d’accident (ACRI, ACRA, ACRA Plus) peuvent être ajoutées.
 
-- Assureur : [[ERGO Insurance SA/NV]] · Branche : [[Épargne / Placement (Branche 21/23)]] · Type : Fiche produit · Édition : 14/04/2014
+- Assureur : [ERGO Insurance SA/NV](../../insurers/ERGO%20Insurance%20SA-NV.md) · Branche : Épargne / Placement (Branche 21/23) · Type : Fiche produit · Édition : 14/04/2014
 
 ## Définitions
 

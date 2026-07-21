@@ -40,7 +40,7 @@ generated: true
 
 Revenu Garanti est une assurance revenu garanti (incapacité de travail) d'AMMA Assurances. Par ce contrat, Amma Assurances s'engage à payer une rente et à rembourser des cotisations en cas d'invalidité entraînant l'incapacité de travail de l'assuré et résultant soit d'une maladie et un accident, soit d'une maladie seulement, selon ce qui est indiqué dans les conditions particulières. La couverture est valable au cours de la vie professionnelle et de la vie privée de l'assuré. La rente annuelle assurée est allouée en fonction du degré d'invalidité le plus élevé (physiologique ou économique).
 
-- Assureur : [[AMMA Assurances]] · Branche : [[Autres]] · Type : Conditions générales · Édition : 0224
+- Assureur : [AMMA Assurances](../../insurers/AMMA%20Assurances.md) · Branche : [Autres](../../branches/Autres.md) · Type : Conditions générales · Édition : 0224
 
 ## Définitions
 

@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales de l'Assurance Assistance Family (Annuelle) d'Ethias, une assurance assistance 24h/24 organisée par IMA BENELUX pour le compte d'Ethias SA. Elle comporte deux volets : le Titre I « Assistance aux personnes » (transport/rapatriement du malade ou blessé, frais médicaux, sports d'hiver, frais de recherche et de secours, retour anticipé, décès, avances, etc.) à l'étranger et en Belgique en dehors du domicile, et le Titre II « Home Emergency » (dépannage urgent et provisoire de l'habitation en Belgique) accordé uniquement si mentionné aux conditions particulières.
 
-- Assureur : [[Ethias]] · Branche : [[Voyage]] · Type : Conditions générales · Édition : 03/25
+- Assureur : [Ethias](../../insurers/Ethias.md) · Branche : [Voyage](../../branches/Voyage.md) · Type : Conditions générales · Édition : 03/25
 
 ## Définitions
 
@@ -336,7 +336,7 @@ Remboursement de la facture des pompiers que vous avez acquittée.
 
 ## Documents liés
 
-- [[Assurance Assistance Family (annuelle) (IPID)]] - IPID / Fiche d'information, éd. 09/24
+- [Assurance Assistance Family (annuelle) (IPID)](Assurance%20Assistance%20Family%20%28annuelle%29%20%28IPID%29.md) - IPID / Fiche d'information, éd. 09/24
 
 ## Source & fidélité
 

@@ -38,7 +38,7 @@ generated: true
 
 L'assurance Sports d'Ethias couvre les accidents corporels et la responsabilité civile de l'assuré lors de la pratique à titre amateur, individuelle ou en groupe, d'activités sportives définies aux conditions particulières du contrat. Elle prévoit des indemnités en cas de décès, d'invalidité permanente totale, de frais de traitements médicaux et, en formule personnalisée, d'incapacité temporaire, ainsi qu'une couverture des dommages matériels et corporels causés aux tiers. Sauf mention contraire, les montants assurés et franchises sont indexés (indice des prix à la consommation 296,50 du mois de mars 2023).
 
-- Assureur : [[Ethias]] · Branche : [[Accidents]] · Type : IPID / Fiche d'information · Édition : 03/25
+- Assureur : [Ethias](../../insurers/Ethias.md) · Branche : [Accidents](../../branches/Accidents.md) · Type : IPID / Fiche d'information · Édition : 03/25
 
 ## Définitions
 
@@ -130,7 +130,7 @@ Couverture des dommages matériels et corporels causés par l'assuré à des tie
 
 ## Documents liés
 
-- [[Assurance Sports]] - Conditions générales, éd. 03/25
+- [Assurance Sports](Assurance%20Sports.md) - Conditions générales, éd. 03/25
 
 ## Source & fidélité
 

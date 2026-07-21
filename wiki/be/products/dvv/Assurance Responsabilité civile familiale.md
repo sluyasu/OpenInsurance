@@ -38,7 +38,7 @@ generated: true
 
 Assurance Responsabilité civile familiale de DVV (marque et nom commercial de Belins SA) couvrant la Responsabilité civile extra-contractuelle de l'assuré pour les dommages causés à des tiers dans le cadre de leur vie privée. La garantie de base intervient dans le monde entier jusqu'à 28.935.590,24 EUR par sinistre pour les dommages corporels et 5.787.118,05 EUR pour les dommages matériels, avec une franchise de 265,42 EUR par sinistre en dommages matériels. Le contrat comporte une garantie disparition d'enfants et l'aide bénévole de tiers, une option payante Responsabilité civile étendue (4 garanties dont franchise anglaise, objets confiés et BOB), ainsi qu'une garantie Protection juridique (recours civil, insolvabilité des tiers, défense pénale, caution pénale).
 
-- Assureur : [[DVV Assurances]] · Branche : [[Vie privée]] · Type : Conditions générales · Édition : 112020-F012025
+- Assureur : [DVV Assurances](../../insurers/DVV%20Assurances.md) · Branche : [Vie privée](../../branches/Vie%20priv%C3%A9e.md) · Type : Conditions générales · Édition : 112020-F012025
 
 ## Définitions
 

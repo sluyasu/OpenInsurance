@@ -38,7 +38,7 @@ generated: true
 
 Assurance Famille Select est une assurance responsabilité civile vie privée de Baloise Belgium (entreprise d'assurances belge portant le code 0096). Lorsque le preneur d'assurance ou un assuré cause des dommages à un tiers dans le cadre de sa vie privée et en est responsable, l'assureur paie pour ces dommages en suivant les règles des législations belges ou similaires de la responsabilité civile extracontractuelle. Elle comporte des garanties de base (dommages causés par animaux domestiques, bâtiment, déplacements, volontariat, drones, intention malveillante et faute grave, biens empruntés, Assistance Vélo) et une garantie optionnelle de Protection juridique.
 
-- Assureur : [[Baloise Belgium]] · Branche : [[Vie privée]] · Type : IPID / Fiche d'information
+- Assureur : [Baloise Belgium](../../insurers/Baloise%20Belgium.md) · Branche : [Vie privée](../../branches/Vie%20priv%C3%A9e.md) · Type : IPID / Fiche d'information
 
 ## Définitions
 

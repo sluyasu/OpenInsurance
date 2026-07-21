@@ -38,7 +38,7 @@ generated: true
 
 La Police familiale de KBC Assurances est une assurance de la responsabilité civile dans le cadre de la vie privée (assurance familiale / RC vie privée) qui couvre la responsabilité du preneur, de son partenaire cohabitant et des personnes vivant à son foyer pour les dommages occasionnés à des tiers par leur faute, négligence ou imprudence, ainsi que certaines responsabilités sans faute. Le document regroupe l'assurance RC vie privée (montants assurés jusqu'à 40 000 000 euros pour les lésions corporelles et 10 000 000 euros pour les dommages matériels), une assurance protection juridique vie privée (DEFENDO), des options protection juridique (litiges contractuels, autres litiges), ainsi que des couvertures complémentaires facultatives précisées aux conditions particulières: revenu complémentaire, assurance professeur et assurance pour votre chien. Il fixe également les dispositions communes relatives au règlement des sinistres, à la durée, à la résiliation et à la prescription.
 
-- Assureur : [[KBC Bank & Verzekering]] · Branche : [[Vie privée]] · Type : Conditions générales
+- Assureur : [KBC Bank & Verzekering](../../insurers/KBC%20Bank%20%26%20Verzekering.md) · Branche : [Vie privée](../../branches/Vie%20priv%C3%A9e.md) · Type : Conditions générales
 
 ## Définitions
 

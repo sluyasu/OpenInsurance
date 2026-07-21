@@ -38,7 +38,7 @@ generated: true
 
 Assurance tous risques pour la navigation de plaisance d'AXA Belgium. Le contrat couvre la responsabilité civile des assurés en cas de dommages corporels et matériels causés aux tiers par la pratique de la navigation de plaisance et l'usage ou la garde du bateau, la protection du bateau (pertes et avaries, frais d'enlèvement, vol) et, si souscrite, la protection juridique gérée par Legal Village. Le preneur d'assurance doit être domicilié en Belgique et y résider habituellement, et le bateau doit être utilisé à des fins de navigation de plaisance à titre récréatif.
 
-- Assureur : [[AXA Belgium]] · Branche : [[Navigation]] · Type : Conditions générales · Édition : 06.2025
+- Assureur : [AXA Belgium](../../insurers/AXA%20Belgium.md) · Branche : [Navigation](../../branches/Navigation.md) · Type : Conditions générales · Édition : 06.2025
 
 ## Définitions
 

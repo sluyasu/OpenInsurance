@@ -40,7 +40,7 @@ generated: true
 
 F-Care est un contrat d'assurance collectif soins de santé lié à l'activité professionnelle, composé d'un contrat de base et d'un contrat complémentaire. Il a pour objet de protéger les assurés des conséquences financières d'une hospitalisation et de certains traitements médicaux en dehors d'une hospitalisation. Les assurés ont le libre choix du médecin traitant, de l'hôpital et du type de chambre. Ce document couvre la PARTIE I – GARANTIES DE BASE (hospitalisation et/ou soins ambulatoires en Belgique ou à l'étranger sous certaines conditions), la PARTIE II – GARANTIES COMPLEMENTAIRES (hospitalisation à caractère imprévisible et/ou assistance à l'étranger) étant détaillée dans un contrat complémentaire géré par Europ Assistance.
 
-- Assureur : [[Fédérale Assurance]] · Branche : [[Santé]] · Type : Conditions générales · Édition : 11/20
+- Assureur : [Fédérale Assurance](../../insurers/F%C3%A9d%C3%A9rale%20Assurance.md) · Branche : [Santé](../../branches/Sant%C3%A9.md) · Type : Conditions générales · Édition : 11/20
 
 ## Définitions
 
@@ -210,7 +210,7 @@ Les conditions d'assurance relatives à une hospitalisation à caractère impré
 
 ## Documents liés
 
-- [[F-CARE (IPID)]] - IPID / Fiche d'information, éd. 11/20
+- [F-CARE (IPID)](F-CARE%20%28IPID%29.md) - IPID / Fiche d'information, éd. 11/20
 
 ## Source & fidélité
 

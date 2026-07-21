@@ -38,7 +38,7 @@ generated: true
 
 Belfius Car est une assurance auto belge dont le contrat est régi par la loi belge et notamment les lois du 4 avril 2014 relative aux assurances et du 21 novembre 1989 relative à l'assurance obligatoire de la responsabilité en matière de véhicules automoteurs. Le contrat comprend l'assurance obligatoire de la Responsabilité Civile automoteur, ainsi que des garanties facultatives à souscrire expressément aux Conditions Particulières : la Protection Juridique (formules Comfort et Prestige), l'assurance du Conducteur, l'assurance du Véhicule (Omnium : Incendie, Vol, Bris de vitres, Forces de la nature et périls connexes, Dégâts matériels si perte totale, Dégâts matériels) et l'assurance Assistance (formules Mobilité Start, Go et Go+). Il inclut aussi des garanties complémentaires (véhicule de remplacement temporaire, remorquage, cautionnement), le système bonus-malus, l'assistance après accident, l'extension 'BOB', la garantie de mobilité et la couverture terrorisme.
 
-- Assureur : [[Belfius Insurance]] · Branche : [[Auto]] · Type : Conditions générales · Édition : 092024
+- Assureur : [Belfius Insurance](../../insurers/Belfius%20Insurance.md) · Branche : [Auto](../../branches/Auto.md) · Type : Conditions générales · Édition : 092024
 
 ## Définitions
 
@@ -471,7 +471,7 @@ Les prestations prévues dans la formule 'Mobilité Start' sont couvertes et ét
 
 ## Documents liés
 
-- [[Belfius Car (IPID)]] - IPID / Fiche d'information, éd. septembre 2024
+- [Belfius Car (IPID)](Belfius%20Car%20%28IPID%29.md) - IPID / Fiche d'information, éd. septembre 2024
 
 ## Source & fidélité
 

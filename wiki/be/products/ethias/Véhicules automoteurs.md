@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales Ethias pour l'assurance des véhicules automoteurs. Le contrat regroupe la garantie légale Responsabilité civile obligatoire (loi du 21 novembre 1989), l'indemnisation des usagers faibles et des victimes innocentes, des garanties complémentaires, la garantie Europe, l'assurance Protection juridique et Protection juridique Plus, l'assurance du conducteur, l'assurance Mobility Maxi (véhicule de remplacement), et l'assurance du véhicule contre l'incendie, le vol et les dégâts. Les garanties autres que la RC légale ne sont acquises que si elles sont expressément mentionnées dans les conditions particulières.
 
-- Assureur : [[Ethias]] · Branche : [[Auto]] · Type : Conditions générales · Édition : 03/25
+- Assureur : [Ethias](../../insurers/Ethias.md) · Branche : [Auto](../../branches/Auto.md) · Type : Conditions générales · Édition : 03/25
 
 ## Définitions
 

@@ -38,7 +38,7 @@ generated: true
 
 Profilife EIP est un contrat d’assurance vie de la branche 23 constituant un Engagement Individuel de Pension (convention de pension au sens du Titre 4 de la loi du 15 mai 2014 relative aux pensions complémentaires pour dirigeants d’entreprise). Le preneur d’assurance (l’organisateur, une personne morale) le conclut au profit d’un dirigeant d’entreprise indépendant en vue de constituer une pension complémentaire, avec des versements planifiés liés à la performance d’un ou plusieurs fonds d’investissement. Les garanties pouvant être souscrites sont la pension de retraite complémentaire et une prestation en cas de décès égale à l’épargne constituée. Le risque d’investissement est entièrement et à tout moment supporté par l’assuré.
 
-- Assureur : [[Athora Belgium]] · Branche : [[Pension (Branche 21)]] · Type : Conditions générales · Édition : 01/2026
+- Assureur : [Athora Belgium](../../insurers/Athora%20Belgium.md) · Branche : [Pension (Branche 21)](../../branches/Pension%20%28Branche%2021%29.md) · Type : Conditions générales · Édition : 01/2026
 
 ## Définitions
 

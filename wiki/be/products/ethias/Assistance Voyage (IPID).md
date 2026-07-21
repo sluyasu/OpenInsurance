@@ -38,7 +38,7 @@ generated: true
 
 L'Ethias Assistance est un contrat par lequel l'assureur s'engage à fournir des services et à prendre en charge des frais (d'hospitalisation, de rapatriement, …) afin de porter aide, appui ou secours dans le cadre d'un voyage en Belgique et à l'étranger, ainsi qu'aux membres du ménage vivant sous le même toit. Il couvre notamment l'assistance aux personnes (rapatriement, retour anticipé) et le remboursement des frais médicaux liés à une hospitalisation à l'étranger jusqu'à € 75 000. Ce document est la fiche d'information (IPID) de la police temporaire.
 
-- Assureur : [[Ethias]] · Branche : [[Voyage]] · Type : IPID / Fiche d'information · Édition : 03/25
+- Assureur : [Ethias](../../insurers/Ethias.md) · Branche : [Voyage](../../branches/Voyage.md) · Type : IPID / Fiche d'information · Édition : 03/25
 
 ## Garanties
 

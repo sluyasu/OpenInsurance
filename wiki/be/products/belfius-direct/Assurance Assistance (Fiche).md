@@ -38,7 +38,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de l'Assurance Assistance de Belfius Direct Assurances. L'assurance permet d'obtenir une assistance en cas de panne, accident, vandalisme ou vol du véhicule ou du vélo en Belgique et à l'étranger (moyennant l'option «étranger»), ainsi qu'aux passagers immobilisés. Elle peut être complétée par des garanties optionnelles couvrant l'assistance aux personnes (maladie, blessure ou décès) et une assurance bagages. Le document donne un aperçu des principales couvertures et exclusions et n'est pas exhaustif.
 
-- Assureur : [[Belfius Direct Assurances]] · Branche : [[Voyage]] · Type : Fiche produit · Édition : 07/2023
+- Assureur : [Belfius Direct Assurances](../../insurers/Belfius%20Direct%20Assurances.md) · Branche : [Voyage](../../branches/Voyage.md) · Type : Fiche produit · Édition : 07/2023
 
 ## Garanties
 
@@ -194,7 +194,7 @@ Frais de remplacement de papiers d'identité volés.
 
 ## Documents liés
 
-- [[ASSURANCE ASSISTANCE]] - Conditions générales, éd. 01/07/2023
+- [ASSURANCE ASSISTANCE](ASSURANCE%20ASSISTANCE.md) - Conditions générales, éd. 01/07/2023
 
 ## Source & fidélité
 

@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales de la garantie Responsabilité du produit d'assurance automobile Confort Auto d'AXA Belgium, conforme à la loi du 21 novembre 1989. Le contrat couvre la responsabilité civile encourue par les assurés à la suite d'un sinistre causé par le véhicule assuré dans la circulation, avec indemnisation illimitée pour les lésions corporelles et une limite de 161.256.645,72 EUR par sinistre pour les dommages matériels. Il comprend des extensions : la garantie BOB (intervention lorsqu'un conducteur bénévole ramène l'assuré), la garantie EURO+ (complément d'indemnisation selon le droit belge pour un accident en Europe de l'Ouest) et des Services d'Assistance Immédiats (Info Line, Première Assistance, Assistance Réparation).
 
-- Assureur : [[AXA Belgium]] · Branche : [[Auto]] · Type : Conditions générales · Édition : 06.2026
+- Assureur : [AXA Belgium](../../insurers/AXA%20Belgium.md) · Branche : [Auto](../../branches/Auto.md) · Type : Conditions générales · Édition : 06.2026
 
 ## Définitions
 
@@ -229,7 +229,7 @@ Service en complément à la garantie Dégâts Matériels (Accident) de l'assura
 
 ## Documents liés
 
-- [[Confort Auto (IPID)]] - IPID / Fiche d'information, éd. 11.2025
+- [Confort Auto (IPID)](Confort%20Auto%20%28IPID%29.md) - IPID / Fiche d'information, éd. 11.2025
 
 ## Source & fidélité
 

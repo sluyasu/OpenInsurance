@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales de la police habitation KBC destinée au locataire qui occupe l'habitation louée comme résidence principale. La police regroupe plusieurs assurances : l'assurance pour le locataire (responsabilité envers le bailleur), l'assurance du contenu (formule 'tous risques' au-delà de 1 250 euros), l'assurance assainissement du sol, la protection juridique Defendo, des garanties complémentaires (responsabilités, assistance, frais supplémentaires) et les dispositions de règlement des sinistres. Elle est exclusivement destinée aux habitations à usage privé et ne couvre pas les activités commerciales ou professions libérales, ni les chalets, caravanes, habitations flottantes ou garages individuels comme risque principal.
 
-- Assureur : [[KBC Bank & Verzekering]] · Branche : [[Habitation]] · Type : Conditions générales
+- Assureur : [KBC Bank & Verzekering](../../insurers/KBC%20Bank%20%26%20Verzekering.md) · Branche : [Habitation](../../branches/Habitation.md) · Type : Conditions générales
 
 ## Définitions
 

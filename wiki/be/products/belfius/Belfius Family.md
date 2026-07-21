@@ -38,7 +38,7 @@ generated: true
 
 Belfius Family est une assurance Responsabilité civile dans le cadre de la vie privée. Elle couvre la Responsabilité civile extra-contractuelle de l'assuré pour les dommages causés à des tiers dans le cadre de leur vie privée, dans le monde entier. Le contrat comprend un volet RC de base, une option facultative « Responsabilité civile étendue » (4 garanties, dont franchise anglaise, objets confiés et garantie BOB) et une assurance Protection juridique déclinée en deux options souscrites dans les conditions particulières : Base et Prestige.
 
-- Assureur : [[Belfius Insurance]] · Branche : [[Vie privée]] · Type : Conditions générales · Édition : 062020
+- Assureur : [Belfius Insurance](../../insurers/Belfius%20Insurance.md) · Branche : [Vie privée](../../branches/Vie%20priv%C3%A9e.md) · Type : Conditions générales · Édition : 062020
 
 ## Définitions
 
@@ -389,7 +389,7 @@ Les discussions, négociations et règlements amiables que nous avons organisés
 
 ## Documents liés
 
-- [[L'assurance familiale Belfius Family (IPID)]] - IPID / Fiche d'information, éd. 2026-06
+- [L'assurance familiale Belfius Family (IPID)](L%27assurance%20familiale%20Belfius%20Family%20%28IPID%29.md) - IPID / Fiche d'information, éd. 2026-06
 
 ## Source & fidélité
 

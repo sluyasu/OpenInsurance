@@ -38,7 +38,7 @@ generated: true
 
 Assurance Animaux de compagnie de Belfius Direct Assurances couvre le chien ou le chat désigné aux Conditions Particulières. La garantie de base rembourse à 80% les frais vétérinaires liés à un accident ou une maladie (plafond de 1.000€ par sinistre pour les chats et 1.500€ pour les chiens) et inclut les frais de publicité et récompense, le vol ou l'errance et les frais d'accueil (chacun jusqu'à 750€). Des garanties optionnelles permettent d'augmenter le plafond d'intervention (2.000€/2.500€ ou illimité), d'ajouter un Budget de Prévention (jusqu'à 75€/an) et une garantie Voyage (couverture à l'étranger et annulation de voyage jusqu'à 2.000€).
 
-- Assureur : [[Belfius Direct Assurances]] · Branche : [[Animaux]] · Type : Conditions générales · Édition : 15062026
+- Assureur : [Belfius Direct Assurances](../../insurers/Belfius%20Direct%20Assurances.md) · Branche : [Animaux](../../branches/Animaux.md) · Type : Conditions générales · Édition : 15062026
 
 ## Définitions
 
@@ -206,7 +206,7 @@ Le contrat est régi par la loi belge, y compris pour le délai de prescription 
 
 ## Documents liés
 
-- [[Assurance Animaux de compagnie (Fiche)]] - Fiche produit, éd. 06/2026
+- [Assurance Animaux de compagnie (Fiche)](Assurance%20Animaux%20de%20compagnie%20%28Fiche%29.md) - Fiche produit, éd. 06/2026
 
 ## Source & fidélité
 

@@ -38,7 +38,7 @@ generated: true
 
 L'assurance Aide Juridique d'Ethias est un contrat de protection juridique par lequel l'assureur s'engage à fournir des services et à prendre en charge des frais (avocats, huissiers, experts, frais de procédure) afin d'assurer la défense des intérêts de l'assuré dans un cadre amiable et, si nécessaire, dans le cadre d'une procédure judiciaire et/ou extrajudiciaire. Le contrat couvre notamment les recours civils contractuels et extracontractuels, la défense pénale et civile, le droit fiscal, administratif, du travail, des personnes et de la famille, des successions, intellectuel, ainsi que le cautionnement, l'insolvabilité des tiers et les frais de recherche d'enfants disparus, chacun à concurrence de plafonds propres.
 
-- Assureur : [[Ethias]] · Branche : [[Protection juridique]] · Type : IPID / Fiche d'information · Édition : 03/25
+- Assureur : [Ethias](../../insurers/Ethias.md) · Branche : [Protection juridique](../../branches/Protection%20juridique.md) · Type : IPID / Fiche d'information · Édition : 03/25
 
 ## Garanties
 

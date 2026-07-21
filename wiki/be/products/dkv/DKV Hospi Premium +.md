@@ -41,7 +41,7 @@ generated: true
 
 Assurance hospitalisation individuelle à caractère indemnitaire de droit belge, en complément de toute intervention légale, statutaire ou autre. Il s'agit d'une police d'assurance combinée qui réunit deux garanties dans un seul contrat : la garantie "Frais médicaux" (frais médicaux et autres frais liés à une hospitalisation, consultations et/ou traitements ambulatoires pré- et post-hospitaliers et dans le cadre de 33 "Maladies graves") et la garantie "Assistance à l'étranger" DKV ASSISTANCE (prestations d'assistance en cas d'hospitalisation non-planifiée à l'étranger ou d'accident de sports d'hiver sur piste de ski). Le contrat est conclu à vie. Les deux garanties ne peuvent pas être résiliées partiellement.
 
-- Assureur : [[DKV Belgium]] · Branche : [[Santé]] · Type : Conditions générales · Édition : 08/2025
+- Assureur : [DKV Belgium](../../insurers/DKV%20Belgium.md) · Branche : [Santé](../../branches/Sant%C3%A9.md) · Type : Conditions générales · Édition : 08/2025
 
 ## Définitions
 
@@ -442,7 +442,7 @@ Le délai de prescription pour soumettre des frais d'un cas d'assurance est de 3
 
 ## Documents liés
 
-- [[DKV HOSPI Premium + (IPID)]] - IPID / Fiche d'information, éd. 202508
+- [DKV HOSPI Premium + (IPID)](DKV%20HOSPI%20Premium%20%2B%20%28IPID%29.md) - IPID / Fiche d'information, éd. 202508
 
 ## Source & fidélité
 

@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales de l'Assurance Locataire Homie de Belfius Direct Assurances, une assurance incendie destinée aux locataires et occupants. Elle couvre les dommages matériels aux biens assurés et la responsabilité de l'assuré via des garanties de base (Incendie et périls connexes, Tempête et Grêle, Dégâts des eaux, Bris de vitres, RC Bâtiment, Catastrophes naturelles, Assistance habitation) et des garanties facultatives (Vol, Protection juridique, Dommages consécutifs et extensions, Hospitalisation brûlures). Le document intègre également les conditions de l'Assurance RC Familiale et de l'Assurance Protection Juridique associées.
 
-- Assureur : [[Belfius Direct Assurances]] · Branche : [[Habitation]] · Type : Conditions générales · Édition : 01/07/2023
+- Assureur : [Belfius Direct Assurances](../../insurers/Belfius%20Direct%20Assurances.md) · Branche : [Habitation](../../branches/Habitation.md) · Type : Conditions générales · Édition : 01/07/2023
 
 ## Définitions
 
@@ -299,7 +299,7 @@ Sous réserve de dispositions légales particulières, le délai de prescription
 
 ## Documents liés
 
-- [[Assurance Locataire Homie - Standard (Fiche)]] - Fiche produit, éd. 08/2024
+- [Assurance Locataire Homie - Standard (Fiche)](Assurance%20Locataire%20Homie%20-%20Standard%20%28Fiche%29.md) - Fiche produit, éd. 08/2024
 
 ## Source & fidélité
 

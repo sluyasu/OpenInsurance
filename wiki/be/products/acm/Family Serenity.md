@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales de l'assurance responsabilité civile familiale Family Serenity (ACM Belgium). Le contrat garantit la responsabilité civile extracontractuelle de l'assuré pour les dommages causés à des tiers dans le cadre de la vie privée, sur la base des articles 1382 à 1386 bis de l'Ancien Code Civil. Il inclut automatiquement une garantie Protection Juridique Familiale. La couverture peut être étendue par l'option Propriétaire d'équidés.
 
-- Assureur : [[ACM Belgium]] · Branche : [[Vie privée]] · Type : Conditions générales · Édition : 10/2024
+- Assureur : [ACM Belgium](../../insurers/ACM%20Belgium.md) · Branche : [Vie privée](../../branches/Vie%20priv%C3%A9e.md) · Type : Conditions générales · Édition : 10/2024
 
 ## Définitions
 
@@ -209,7 +209,7 @@ Le délai de prescription de toute action dérivant du contrat est de trois ans.
 
 ## Documents liés
 
-- [[Family Serenity (IPID)]] - IPID / Fiche d'information, éd. 10/2024
+- [Family Serenity (IPID)](Family%20Serenity%20%28IPID%29.md) - IPID / Fiche d'information, éd. 10/2024
 
 ## Source & fidélité
 

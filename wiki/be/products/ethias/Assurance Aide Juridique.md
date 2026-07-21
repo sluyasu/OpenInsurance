@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales de l'assurance protection juridique « Assurance Aide Juridique » d'Ethias, conformes à la loi du 22 avril 2019. La garantie couvre les litiges de la vie privée (et, dans un cadre strict, la vie professionnelle) en mettant à disposition de l'assuré les moyens juridiques nécessaires à la défense de ses intérêts, à l'amiable puis, en cas d'échec, par voie judiciaire ou extrajudiciaire. Elle prend en charge les frais et honoraires d'avocats, huissiers, experts, ainsi que les frais de procédure et d'exécution, dans les limites détaillées par matière (recours civil, défense pénale et civile, droit fiscal, administratif, du travail, des personnes et de la famille, successions, intellectuel, pension, cautionnement, insolvabilité des tiers, recherche d'enfants disparus).
 
-- Assureur : [[Ethias]] · Branche : [[Protection juridique]] · Type : Conditions générales · Édition : 03/25
+- Assureur : [Ethias](../../insurers/Ethias.md) · Branche : [Protection juridique](../../branches/Protection%20juridique.md) · Type : Conditions générales · Édition : 03/25
 
 ## Définitions
 

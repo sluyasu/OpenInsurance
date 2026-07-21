@@ -38,7 +38,7 @@ generated: true
 
 Exclusive by Athora est un contrat d’assurance-vie de la « Branche 23 » à versements libres, lié à la performance d’un ou plusieurs fonds d’investissement, avec un versement initial minimum de € 50 000. Le risque financier est entièrement supporté par le preneur d’assurance et le contrat ne donne lieu à aucun versement de participations aux bénéfices. Il prévoit une prestation en cas de décès de l’assuré (au moins égale à l’épargne constituée) et le versement de l’épargne constituée en cas de vie au terme du contrat.
 
-- Assureur : [[Athora Belgium]] · Branche : [[Épargne / Placement (Branche 21/23)]] · Type : Conditions générales · Édition : 02/2022
+- Assureur : [Athora Belgium](../../insurers/Athora%20Belgium.md) · Branche : Épargne / Placement (Branche 21/23) · Type : Conditions générales · Édition : 02/2022
 
 ## Définitions
 

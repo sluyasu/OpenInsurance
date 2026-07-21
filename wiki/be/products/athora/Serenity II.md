@@ -38,7 +38,7 @@ generated: true
 
 Serenity II (Serenity II Prime by Athora ou Serenity II Basic by Athora) est un contrat d’assurance vie individuelle de la branche 21 à versements libres souscrit auprès d’Athora Belgium, permettant au preneur d’assurance de se constituer un capital (sans avantage fiscal sur les versements). Chaque versement est capitalisé au taux d’intérêt garanti en vigueur pendant une période de garantie déterminée, potentiellement majoré d’une participation bénéficiaire non garantie. La compagnie garantit le paiement de l’épargne constituée en cas de vie au terme du contrat ou en cas de décès de l’assuré avant le terme (prestation décès au moins égale à l’épargne constituée). Le contrat prévoit des retraits, des retraits planifiés et des dispositions spécifiques en cas de deux preneurs d’assurance ou deux assurés.
 
-- Assureur : [[Athora Belgium]] · Branche : [[Épargne / Placement (Branche 21/23)]] · Type : Conditions générales · Édition : 01/2021
+- Assureur : [Athora Belgium](../../insurers/Athora%20Belgium.md) · Branche : Épargne / Placement (Branche 21/23) · Type : Conditions générales · Édition : 01/2021
 
 ## Définitions
 

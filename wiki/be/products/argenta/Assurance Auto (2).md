@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales de l'assurance auto d'Argenta Assurances SA (référence DW24112, édition 01-11-2024). La police comprend la garantie obligatoire Responsabilité civile et des garanties facultatives : Omnium (partielle ou complète), Conducteur+ et Protection juridique safe (assureur Argenta Assurances), ainsi que les garanties Assistance dépannage et Assurance voyage (assureur Europ Assistance Belgium). Le document couvre les définitions, l'étendue des garanties, les exclusions, les franchises, le règlement des sinistres, la durée et la résiliation du contrat, le bonus-malus et la prescription.
 
-- Assureur : [[Argenta Assurances]] · Branche : [[Auto]] · Type : Conditions générales · Édition : 2024-11-01
+- Assureur : [Argenta Assurances](../../insurers/Argenta%20Assurances.md) · Branche : [Auto](../../branches/Auto.md) · Type : Conditions générales · Édition : 2024-11-01
 
 ## Définitions
 
@@ -584,8 +584,8 @@ Le délai de prescription de toute action judiciaire résultant d'un contrat d'a
 ## Documents liés
 
 - Édition courante de ce produit.
-- [[Assurance Auto]] - Conditions générales, éd. 01-10-2024
-- [[Assurance auto (IPID)]] - IPID / Fiche d'information, éd. 01/10/2025
+- [Assurance Auto](Assurance%20Auto.md) - Conditions générales, éd. 01-10-2024
+- [Assurance auto (IPID)](Assurance%20auto%20%28IPID%29.md) - IPID / Fiche d'information, éd. 01/10/2025
 
 ## Source & fidélité
 

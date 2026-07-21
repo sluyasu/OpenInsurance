@@ -38,7 +38,7 @@ generated: true
 
 Le PLAN DE SECURITE T50 est une assurance vie (branche 21) avec rendement garanti et une participation bénéficiaire. Au terme du contrat, si l’assuré est en vie, le(s) bénéficiaire(s) perçoi(ven)t le capital épargne contractuel augmenté de la participation bénéficiaire; en cas de décès, un capital prévoyance (égal à la moitié du capital épargne garanti) est versé, puis le capital épargne et la participation bénéficiaire à l’échéance prévue. Le produit propose des garanties complémentaires contre l’invalidité (ACRI) et l’accident (ACRA, ACRA Plus).
 
-- Assureur : [[ERGO Insurance SA/NV]] · Branche : [[Autres]] · Type : Fiche produit · Édition : 14/04/2014
+- Assureur : [ERGO Insurance SA/NV](../../insurers/ERGO%20Insurance%20SA-NV.md) · Branche : [Autres](../../branches/Autres.md) · Type : Fiche produit · Édition : 14/04/2014
 
 ## Définitions
 

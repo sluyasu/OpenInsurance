@@ -38,7 +38,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) résumant les principales garanties et exclusions de l'assurance Responsabilité Civile Professionnelle « Consultancy » de Hiscox SA (entreprise agréée au Grand-Duché de Luxembourg, exerçant en Belgique via sa succursale belge, BNB n°3099). Le produit protège les professionnels du conseil et des services contre les conséquences des erreurs, fautes ou omissions qu'ils pourraient commettre dans le cadre de leur activité professionnelle. Il couvre notamment les conséquences pécuniaires de la responsabilité civile, les frais de défense et les frais de sauvetage, avec des extensions (atteinte à la réputation, remplacement d'un homme clé, remboursement de prestations) et une Protection Juridique en option. Ce résumé standardisé n'est pas exhaustif : l'information complète figure dans la documentation contractuelle et précontractuelle.
 
-- Assureur : [[Hiscox SA]] · Branche : [[RC professionnelle]] · Type : IPID / Fiche d'information · Édition : 2024
+- Assureur : [Hiscox SA](../../insurers/Hiscox%20SA.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : IPID / Fiche d'information · Édition : 2024
 
 ## Garanties
 
@@ -206,7 +206,7 @@ Protection Juridique proposée en option, comprenant : Défense pénale ; Demand
 
 ## Documents liés
 
-- [[Responsabilité Civile professionnelle Miscellaneous (CP)]] - Conditions particulières, éd. 2024-01
+- [Responsabilité Civile professionnelle Miscellaneous (CP)](Responsabilit%C3%A9%20Civile%20professionnelle%20Miscellaneous%20%28CP%29.md) - Conditions particulières, éd. 2024-01
 
 ## Source & fidélité
 

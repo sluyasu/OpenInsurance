@@ -38,7 +38,7 @@ generated: true
 
 Le produit Assurance Voyage eTravel est une assurance multirisque à souscrire en ligne, qui comprend en formule temporaire (Horizon - séjour de 45 jours maximum) ou en formule annuelle (Horizon : séjours de 90 jours consécutifs maximum et max. 180 jours au total par an ; Premium : séjours de 180 jours consécutifs maximum) une assistance personnes et les garanties optionnelles suivantes : assurance annulation/interruption de voyage et assurance bagages. En formule annuelle uniquement, l'assurance annulation/interruption de voyage peut être souscrite séparément.
 
-- Assureur : [[AXA Belgium]] · Branche : [[Voyage]] · Type : IPID / Fiche d'information · Édition : 10.2025
+- Assureur : [AXA Belgium](../../insurers/AXA%20Belgium.md) · Branche : [Voyage](../../branches/Voyage.md) · Type : IPID / Fiche d'information · Édition : 10.2025
 
 ## Garanties
 

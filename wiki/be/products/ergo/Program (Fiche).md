@@ -38,7 +38,7 @@ generated: true
 
 Le Program est une formule d’épargne flexible, un compte-assurance de la branche 21 avec un taux d’intérêt technique non garanti et une participation bénéficiaire. À l’échéance, le capital de la police est versé; en cas de décès de l’assuré, le capital de la police est versé au(x) bénéficiaire(s) désigné(s) sans frais. Le client détermine lui-même le rythme d’épargne et le régime fiscal (épargne-pension, épargne à long terme et/ou épargne-logement).
 
-- Assureur : [[ERGO Insurance SA/NV]] · Branche : [[Épargne / Placement (Branche 21/23)]] · Type : Fiche produit · Édition : 02/01/2012
+- Assureur : [ERGO Insurance SA/NV](../../insurers/ERGO%20Insurance%20SA-NV.md) · Branche : Épargne / Placement (Branche 21/23) · Type : Fiche produit · Édition : 02/01/2012
 
 ## Définitions
 

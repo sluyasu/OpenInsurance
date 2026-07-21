@@ -38,7 +38,7 @@ generated: true
 
 La Police KBC pour vos voyages est une assurance voyage qui couvre, toute l'année durant, les problèmes survenus pendant les vacances ainsi que l'annulation forcée d'un voyage. Elle regroupe plusieurs assurances au choix (Assistance personnes, Annulation, Bagages, Accidents en voyage avec protection supplémentaire, Litiges dans le cadre de voyages) et permet d'assurer librement jusqu'à 10 personnes. Une formule VIP permet de doubler les montants assurés.
 
-- Assureur : [[KBC Bank & Verzekering]] · Branche : [[Voyage]] · Type : IPID / Fiche d'information
+- Assureur : [KBC Bank & Verzekering](../../insurers/KBC%20Bank%20%26%20Verzekering.md) · Branche : [Voyage](../../branches/Voyage.md) · Type : IPID / Fiche d'information
 
 ## Définitions
 

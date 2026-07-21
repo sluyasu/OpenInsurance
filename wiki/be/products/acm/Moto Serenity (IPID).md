@@ -38,7 +38,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de l'assurance Moto Serenity d'ACM Belgium SA, une assurance véhicule automoteurs pour les motos, quads et trikes de plus de 50cc. Elle couvre la responsabilité civile obligatoire et une Mini Assistance incluse dans la prime. La couverture peut être étendue à des garanties optionnelles : Protection Juridique, Protection du Conducteur, Maxi Assistance et les garanties Omnium, Mini Omnium et Full Omnium.
 
-- Assureur : [[ACM Belgium]] · Branche : [[Auto]] · Type : IPID / Fiche d'information · Édition : 10/2024
+- Assureur : [ACM Belgium](../../insurers/ACM%20Belgium.md) · Branche : [Auto](../../branches/Auto.md) · Type : IPID / Fiche d'information · Édition : 10/2024
 
 ## Garanties
 
@@ -138,7 +138,7 @@ Mini Omnium + dégâts matériels.
 
 ## Documents liés
 
-- [[Moto Serenity]] - Conditions générales, éd. 10/2024
+- [Moto Serenity](Moto%20Serenity.md) - Conditions générales, éd. 10/2024
 
 ## Source & fidélité
 

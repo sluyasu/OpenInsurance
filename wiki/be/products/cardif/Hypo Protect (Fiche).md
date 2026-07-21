@@ -38,7 +38,7 @@ generated: true
 
 Hypo Protect est une assurance décès (branche 21) de BNP Paribas Cardif destinée à assurer un crédit hypothécaire ou à protéger la famille contre les conséquences financières d'un décès. La garantie principale « Décès » verse au bénéficiaire le solde restant dû ou un capital fixe (minimum 10.000€) en cas de décès de l'assuré par accident ou maladie. Des garanties complémentaires facultatives peuvent être souscrites (décès accidentel, incapacité de travail, perte d'emploi involontaire). Deux formules existent : « Classic » (1 personne assurée) et « 2win » (2 personnes assurées, sans garantie complémentaire possible).
 
-- Assureur : [[BNP Paribas Cardif]] · Branche : [[Autres]] · Type : Fiche produit · Édition : 06/2024
+- Assureur : [BNP Paribas Cardif](../../insurers/BNP%20Paribas%20Cardif.md) · Branche : [Autres](../../branches/Autres.md) · Type : Fiche produit · Édition : 06/2024
 
 ## Définitions
 
@@ -112,8 +112,8 @@ En cas de perte d'emploi involontaire de l'assuré, l'assureur intervient pour l
 
 ## Documents liés
 
-- [[Hypo Protect Classic - Hypo Protect 2Win]] - Conditions générales, éd. 2024/06
-- [[Hypo Protect Classic - Hypo Protect 2Win Luxembourg]] - Conditions générales, éd. 2023/03
+- [Hypo Protect Classic - Hypo Protect 2Win](Hypo%20Protect%20Classic%20-%20Hypo%20Protect%202Win.md) - Conditions générales, éd. 2024/06
+- [Hypo Protect Classic - Hypo Protect 2Win Luxembourg](Hypo%20Protect%20Classic%20-%20Hypo%20Protect%202Win%20Luxembourg.md) - Conditions générales, éd. 2023/03
 
 ## Source & fidélité
 

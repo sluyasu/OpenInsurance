@@ -38,7 +38,7 @@ generated: true
 
 Conditions générales de l'assurance moto au kilomètre de Belfius Direct Assurances. Le contrat combine l'assurance obligatoire de la responsabilité civile en matière de véhicules automoteurs (Titre 1), l'assurance Omnium en formules Petite Omnium et Full Omnium (Titre 2), la Protection Juridique (Titre 3), le Véhicule de Remplacement (Titre 4) et l'assurance Conducteur (Titre 5). Les garanties Omnium, Protection Juridique, Véhicule de Remplacement et Conducteur ne s'appliquent que si elles sont souscrites et reprises dans les conditions particulières.
 
-- Assureur : [[Belfius Direct Assurances]] · Branche : [[Auto]] · Type : Conditions générales
+- Assureur : [Belfius Direct Assurances](../../insurers/Belfius%20Direct%20Assurances.md) · Branche : [Auto](../../branches/Auto.md) · Type : Conditions générales
 
 ## Définitions
 
@@ -267,7 +267,7 @@ Le contrat est régi par la loi belge, ce qui vaut également pour le délai de 
 
 ## Documents liés
 
-- [[Assurance au Kilomètre - Moto (Fiche)]] - Fiche produit, éd. 10/2024
+- [Assurance au Kilomètre - Moto (Fiche)](Assurance%20au%20Kilom%C3%A8tre%20-%20Moto%20%28Fiche%29.md) - Fiche produit, éd. 10/2024
 
 ## Source & fidélité
 
