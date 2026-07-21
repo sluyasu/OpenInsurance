@@ -196,11 +196,26 @@ The server is packaged by the root [`pyproject.toml`](../pyproject.toml) (consol
 [official MCP registry](https://registry.modelcontextprotocol.io) (which the public
 directories like PulseMCP ingest automatically):
 
-1. Publish the package to PyPI: `python -m build && twine upload dist/*`.
-2. Install the publisher CLI and generate the manifest: `mcp-publisher init`
-   (namespace `io.github.sluyasu/*`, package `openinsurance-wiki-mcp`, transport stdio,
-   document the `INSURANCE_WIKI_REPO` environment variable).
-3. `mcp-publisher login github` then `mcp-publisher publish`.
+**Releasing is a tag.** `.github/workflows/release.yml` builds the package, publishes it
+to PyPI through Trusted Publishing, and republishes `server.json` to the registry, all
+authenticated by the workflow's short-lived GitHub OIDC identity. No token is stored
+anywhere.
+
+```bash
+# bump pyproject.toml + server.json (both `version` fields) to the same number, then:
+git tag -a v0.3.0 -m "0.3.0" && git push origin v0.3.0
+```
+
+The workflow refuses to publish when the tag and the two packaged versions disagree.
+That check exists because 0.2.0 was tagged before later server work landed, so the
+published package described code it did not contain for two weeks.
+
+One-time setup on pypi.org (project > Publishing > add a trusted publisher):
+owner `sluyasu`, repository `OpenInsurance`, workflow `release.yml`, environment `pypi`.
+
+Manual fallback, if the workflow is unavailable: `python -m build && twine upload dist/*`
+(prompts for a token), then `mcp-publisher login github` and `mcp-publisher publish`.
+The saved registry token expires after a few hours, so the login is usually needed again.
 
 See https://github.com/modelcontextprotocol/registry for the current publishing guide.
 

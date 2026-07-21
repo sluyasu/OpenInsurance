@@ -23,7 +23,8 @@ Public on GitHub since 2026-07-05: https://github.com/sluyasu/OpenInsurance
   names with the candidates listed, and always say which document they picked. See `mcp/README.md`.
 - **Validation:** 321 notes, 0 errors, 0 warnings (every populated branch now has an overview page).
   `make build` is idempotent (no-op rebuild = 0 diff).
-- **Distribution:** `openinsurance-wiki-mcp` 0.2.0 on PyPI and on the MCP registry; GitHub Pages live at
+- **Distribution:** `openinsurance-wiki-mcp` 0.3.0 on PyPI and on the MCP registry (releases are
+  tag-driven, see `.github/workflows/release.yml`); GitHub Pages live at
   https://sluyasu.github.io/OpenInsurance/.
 
 ### Still open (not blocking)

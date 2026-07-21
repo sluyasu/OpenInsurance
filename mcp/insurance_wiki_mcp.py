@@ -44,10 +44,20 @@ def _citation(obj: dict) -> str:
     ed = obj.get("edition_date") or "not stated in document"
     ref = obj.get("reference") or "not stated"
     sup = " | superseded=True (an older edition; a newer one exists)" if obj.get("superseded") else ""
+    # The age belongs on the primary path, not only in candidate listings: asking for one
+    # product by name is how an agent meets a 2010 edition, and without this the answer
+    # reads exactly like a current one. It reports age and stops there, because whether
+    # the product is still sold is not in the document.
+    age = _edition_age_years(obj)
+    old = ""
+    if age is not None and age >= OLD_EDITION_YEARS and not obj.get("superseded"):
+        old = (f" | edition_age_years={age} (this edition was {age} years old when "
+               "collected; the insurer was still publishing it, but whether the product "
+               "is still sold is NOT stated in the document - do not assert either way)")
     return ("CITATION (state these exactly, do not invent): "
             f"product={obj.get('product_name')!r} | insurer={obj.get('insurer_name')} "
             f"({obj.get('insurer_slug')}) | document_type={obj.get('document_type')} "
-            f"| edition_date={ed} | reference={ref}{sup} | source_url={obj.get('source_url')}")
+            f"| edition_date={ed} | reference={ref}{sup}{old} | source_url={obj.get('source_url')}")
 
 mcp = FastMCP("insurance-wiki")
 

@@ -5,6 +5,27 @@ small relevant payloads instead of a 75 KB JSON to paraphrase."""
 from conftest import country_branches, index_rows, parse_payload
 
 
+def test_citation_line_carries_the_edition_age(mcp):
+    """The age signal has to be on the primary path. It was added to _doc_meta, which only
+    feeds candidate listings and other_documents, so get_product still returned a 2010
+    edition looking exactly like a current one."""
+    line = next(l for l in mcp.get_product("be", "ergo", "Terme Fixe").splitlines()
+                if l.startswith("CITATION"))
+    assert "edition_age_years=" in line
+    assert "NOT stated in the document" in line
+    recent = next(l for l in mcp.get_product("be", "axa", "Confort Auto").splitlines()
+                  if l.startswith("CITATION"))
+    assert "edition_age_years=" not in recent
+
+
+def test_citation_never_claims_a_product_is_withdrawn(mcp):
+    """Same rule as the wiki page: report the age, never infer the commercial status."""
+    line = next(l for l in mcp.get_product("be", "ergo", "Terme Fixe").splitlines()
+                if l.startswith("CITATION")).lower()
+    for f in ("no longer sold", "discontinued", "withdrawn", "run-off"):
+        assert f not in line
+
+
 def test_get_coverage_returns_only_relevant_items(mcp):
     out = mcp.get_coverage("be", "axa", "Confort Auto", "vol")
     assert out.startswith("[GROUNDING CONTRACT")
