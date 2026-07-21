@@ -17,10 +17,13 @@ wiki/
     ├── regulations/                 # hand-authored: regulator + key laws
     └── glossary/                    # hand-authored: country-specific terms
 
+wiki/
+└── universal-glossary/              # hand-authored: concepts common to all countries
+                                     # (under wiki/ so the published site can reach it)
+
 _meta/
 ├── README.md                        # this file
-├── templates/                       # one template per note type
-└── universal-glossary/              # hand-authored: insurance concepts common to all countries
+└── templates/                       # one template per note type
 ```
 
 Folders prefixed `_` sort first and stay out of the Obsidian graph by convention.
@@ -32,7 +35,7 @@ Folders prefixed `_` sort first and stay out of the Obsidian graph by convention
 | `branch` | `<cc>/branches/` | hand | `Title Case.md` (e.g. `Auto.md`) |
 | `product` | `<cc>/products/<insurer>/` | **generated** | `Product Name.md` (sanitized) |
 | `insurer` | `<cc>/insurers/` | **generated** | `Insurer Name.md` |
-| `concept` | `_meta/universal-glossary/` + `<cc>/glossary/` | hand | `Title Case.md` |
+| `concept` | `wiki/universal-glossary/` + `<cc>/glossary/` | hand | `Title Case.md` |
 | `regulation` | `<cc>/regulations/` | hand | `Title Case.md` |
 | `moc` | folder roots | hand + generated hooks | `00 - <Scope> MOC.md` |
 

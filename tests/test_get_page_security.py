@@ -24,7 +24,7 @@ ALLOWED = [
     "data/be/index.json",
     "sources/be/_country.yml",
     "schema/coverage_categories.json",
-    "_meta/universal-glossary/Deductible.md",
+    "wiki/universal-glossary/Deductible.md",
 ]
 
 

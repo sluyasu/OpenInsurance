@@ -15,7 +15,7 @@ from common import (WIKI, REPO, read_note, write_if_changed, write_json,
                     country_dir, load_country, today)
 
 
-UNIVERSAL = REPO / "_meta" / "universal-glossary"
+UNIVERSAL = WIKI / "universal-glossary"
 
 
 def universal_rows(cc: str) -> list[dict]:
@@ -108,7 +108,7 @@ def render_agents_md(all_rows: list[dict], per_country: dict[str, list[dict]]) -
          "| branch | `wiki/<cc>/branches/` | hand-authored |",
          "| product | `wiki/<cc>/products/<insurer>/` | generated |",
          "| insurer | `wiki/<cc>/insurers/` | generated |",
-         "| concept | `_meta/universal-glossary/`, `wiki/<cc>/glossary/` | hand-authored |",
+         "| concept | `wiki/universal-glossary/`, `wiki/<cc>/glossary/` | hand-authored |",
          "| regulation | `wiki/<cc>/regulations/` | hand-authored |",
          "| moc | folder roots | hand + generated |\n",
          "## Coverage\n",

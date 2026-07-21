@@ -29,7 +29,7 @@ PDFs and extracts them into a rich, source-cited Markdown wiki. Read this before
 
 ## The two layers (do not blur them)
 
-- **Hand-authored** (`branches/`, `regulations/`, `glossary/`, `_meta/universal-glossary/`, all MOCs): curated
+- **Hand-authored** (`branches/`, `regulations/`, `glossary/`, `wiki/universal-glossary/`, all MOCs): curated
   conceptual/regulatory prose. `generated: false`.
 - **Generated** (`products/`, `insurers/`): emitted by the pipeline. `generated: true`. Never hand-edit.
 

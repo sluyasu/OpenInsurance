@@ -22,7 +22,9 @@ REQUIRED = {"type", "status"}
 def resolution_targets() -> dict[str, str]:
     """Map every resolvable name (stem + aliases) -> the note path that owns it."""
     targets = {}
-    roots = [WIKI, REPO / "_meta" / "universal-glossary"]
+    # The universal glossary lives under wiki/ so that it is published and reachable:
+    # while it sat in _meta/ it resolved in the vault but 404'd on the site.
+    roots = [WIKI]
     for root in roots:
         if not root.is_dir():
             continue

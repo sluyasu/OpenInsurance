@@ -17,7 +17,7 @@ navigate it without guessing. Do not edit by hand.
 | branch | `wiki/<cc>/branches/` | hand-authored |
 | product | `wiki/<cc>/products/<insurer>/` | generated |
 | insurer | `wiki/<cc>/insurers/` | generated |
-| concept | `_meta/universal-glossary/`, `wiki/<cc>/glossary/` | hand-authored |
+| concept | `wiki/universal-glossary/`, `wiki/<cc>/glossary/` | hand-authored |
 | regulation | `wiki/<cc>/regulations/` | hand-authored |
 | moc | folder roots | hand + generated |
 

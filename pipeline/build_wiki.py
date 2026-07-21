@@ -11,6 +11,7 @@ Usage: python pipeline/build_wiki.py --country be
 from __future__ import annotations
 
 import argparse
+import re
 import sys
 from pathlib import Path
 
@@ -18,6 +19,30 @@ from common import (WIKI, REPO, extracted_dir, read_json, write_if_changed,
                     insurer_configs, load_country, safe_title)
 import render
 import link
+
+
+MARKER_RE_TMPL = r"(<!-- BEGIN GENERATED: {name} -->)(.*?)(<!-- END GENERATED -->)"
+
+
+def fill_marker(page: Path, name: str, lines: list[str]) -> bool:
+    """Replace the body of a `<!-- BEGIN GENERATED: name -->` block inside a page that is
+    otherwise hand-authored.
+
+    Some hand-authored pages carry one machine-maintained list. The Belgium MOC listed
+    three insurers out of twenty-four because the list was frozen by hand at the time it
+    was written. A marker block keeps the prose hand-owned and the list derived, so it
+    cannot drift again, without turning the whole page into a generated file."""
+    if not page.is_file():
+        return False
+    txt = page.read_text(encoding="utf-8")
+    m = re.search(MARKER_RE_TMPL.format(name=re.escape(name)), txt, re.S)
+    if not m:
+        return False
+    body = "\n" + "\n".join(lines) + "\n"
+    if m.group(2) == body:
+        return False
+    page.write_text(txt[:m.start(2)] + body + txt[m.end(2):], encoding="utf-8")
+    return True
 
 
 def load_products(cc: str) -> list[dict]:
@@ -142,6 +167,21 @@ def main() -> int:
     expected.add(moc)
     if write_if_changed(moc, render.render_branches_moc(cc, products, country_meta,
                                                         routes, route(moc))):
+        written += 1
+
+    # --- generated list inside the hand-authored country MOC ---
+    country_moc = WIKI / cc / f"00 - {country_meta.get('name', cc.upper())} MOC.md"
+    if not country_moc.is_file():
+        matches = sorted((WIKI / cc).glob("00 - * MOC.md"))
+        country_moc = matches[0] if matches else country_moc
+    ins_lines = [
+        f"- {render.mdlink(route(country_moc), route(insurer_page[slug]), name)}"
+        f" ({len(prods)} document{'s' if len(prods) > 1 else ''})"
+        for slug, prods in sorted(by_insurer.items(),
+                                  key=lambda kv: (insurer_names.get(kv[0]) or kv[0]).lower())
+        for name in [insurer_names.get(slug) or prods[0].get("insurer_name") or slug]
+    ]
+    if fill_marker(country_moc, "insurers", ins_lines):
         written += 1
 
     # --- remove stale generated pages (products/ + insurers/ only) ---

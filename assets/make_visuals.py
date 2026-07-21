@@ -20,7 +20,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 REPO = Path(__file__).resolve().parent.parent
-ROOTS = [REPO / "wiki", REPO / "_meta" / "universal-glossary"]
+ROOTS = [REPO / "wiki"]
 WIKILINK = re.compile(r"\[\[([^\]|#]+)(?:[|#][^\]]*)?\]\]")
 
 TYPE_COLOR = {
