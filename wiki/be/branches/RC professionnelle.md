@@ -60,7 +60,7 @@ l'ordre professionnel. Pour les autres activités, elle reste facultative mais c
 
 ## Termes clés
 
-- La [[Responsabilité civile]], la [[Franchise]] par sinistre, la distinction entre base réclamation (claims made)
+- La [Responsabilité civile](../../universal-glossary/Civil%20Liability.md), la [[Franchise]] par sinistre, la distinction entre base réclamation (claims made)
   et base fait dommageable, et la période de postériorité (garantie subséquente).
 
 ## À surveiller

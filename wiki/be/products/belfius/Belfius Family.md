@@ -391,7 +391,7 @@ Les discussions, négociations et règlements amiables que nous avons organisés
 
 ## Documents liés
 
-- [L'assurance familiale Belfius Family (IPID)](L%27assurance%20familiale%20Belfius%20Family%20%28IPID%29.md) - IPID / Fiche d'information, éd. 2026-06
+- [L'assurance familiale Belfius Family - IPID](L%27assurance%20familiale%20Belfius%20Family%20-%20IPID.md) - IPID / Fiche d'information, éd. 2026-06
 
 ## Source & fidélité
 

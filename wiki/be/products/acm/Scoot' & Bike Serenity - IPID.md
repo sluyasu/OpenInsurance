@@ -122,7 +122,7 @@ Couverture supplémentaire : incendie, vol, bris de vitrage, forces de la nature
 
 ## Documents liés
 
-- [Scoot’ & Bike Serenity](Scoot%E2%80%99%20%26%20Bike%20Serenity.md) - Conditions générales, éd. 10/2024
+- [Scoot' & Bike Serenity](Scoot%27%20%26%20Bike%20Serenity.md) - Conditions générales, éd. 10/2024
 
 ## Source & fidélité
 

@@ -28,7 +28,7 @@ generated: true
 ## Produits par branche
 
 ### [Autres](../branches/Autres.md)
-- [Hypo Protect (Fiche)](../products/cardif/Hypo%20Protect%20%28Fiche%29.md) - Fiche produit (06/2024)
+- [Hypo Protect - Fiche](../products/cardif/Hypo%20Protect%20-%20Fiche.md) - Fiche produit (06/2024)
 - [Hypo Protect Classic - Hypo Protect 2Win](../products/cardif/Hypo%20Protect%20Classic%20-%20Hypo%20Protect%202Win.md) - Conditions générales (2024/06) · réf. HYPO2W version B1_2024/06
 - [Hypo Protect Classic - Hypo Protect 2Win Luxembourg](../products/cardif/Hypo%20Protect%20Classic%20-%20Hypo%20Protect%202Win%20Luxembourg.md) - Conditions générales (2023/03) · réf. HYPO_L 2023/03
 - [Short Term Protect - Luxembourg](../products/cardif/Short%20Term%20Protect%20-%20Luxembourg.md) - Conditions générales (2023/03) · réf. stp_2023/03_lux

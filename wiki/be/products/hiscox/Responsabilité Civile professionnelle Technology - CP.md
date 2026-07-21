@@ -236,7 +236,7 @@ Si au cours de la période d’assurance, vous risquez de subir une réclamation
 
 ## Documents liés
 
-- [Assurance RC Professionnelle «Technology» (IPID)](Assurance%20RC%20Professionnelle%20%C2%ABTechnology%C2%BB%20%28IPID%29.md) - IPID / Fiche d'information, éd. 2024
+- [Assurance RC Professionnelle «Technology» - IPID](Assurance%20RC%20Professionnelle%20%C2%ABTechnology%C2%BB%20-%20IPID.md) - IPID / Fiche d'information, éd. 2024
 
 ## Source & fidélité
 

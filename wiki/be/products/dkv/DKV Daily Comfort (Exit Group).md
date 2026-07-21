@@ -234,7 +234,7 @@ Le délai de prescription pour soumettre des frais d'un cas d'assurance est de 3
 
 ## Documents liés
 
-- [DKV DAILY Comfort (Exit Group) (IPID)](DKV%20DAILY%20Comfort%20%28Exit%20Group%29%20%28IPID%29.md) - IPID / Fiche d'information, éd. 202508
+- [DKV DAILY Comfort (Exit Group) - IPID](DKV%20DAILY%20Comfort%20%28Exit%20Group%29%20-%20IPID.md) - IPID / Fiche d'information, éd. 202508
 
 ## Source & fidélité
 

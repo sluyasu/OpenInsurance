@@ -51,7 +51,12 @@ def slugify(text: str) -> str:
 
 
 def safe_title(text: str) -> str:
-    """Filesystem-safe page title (keeps spaces/case, strips path-hostile chars)."""
+    """Filesystem-safe page title (keeps spaces/case, strips path-hostile chars).
+
+    Curly apostrophes fold to straight ones: the same ACM product produced both
+    "Scoot' & Bike Serenity" and "Scoot’ & Bike Serenity", which read as one name and
+    behave as two filenames."""
+    text = text.replace("’", "'").replace("‘", "'")
     text = text.replace("/", "-").replace("\\", "-").replace(":", " -")
     text = re.sub(r'[<>"|?*\x00-\x1f]', "", text)
     text = re.sub(r"\s+", " ", text).strip()

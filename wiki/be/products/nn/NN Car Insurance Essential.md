@@ -559,7 +559,7 @@ Protection juridique : le délai de prescription légal est de trois ans. Ce dé
 
 ## Documents liés
 
-- [NN CAR Insurance Essential (IPID)](NN%20CAR%20Insurance%20Essential%20%28IPID%29.md) - IPID / Fiche d'information, éd. 12/2025
+- [NN CAR Insurance Essential - IPID](NN%20CAR%20Insurance%20Essential%20-%20IPID.md) - IPID / Fiche d'information, éd. 12/2025
 
 ## Source & fidélité
 

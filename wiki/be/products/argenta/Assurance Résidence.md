@@ -344,7 +344,7 @@ Le délai de prescription de toute action judiciaire résultant d'un contrat d'a
 
 ## Documents liés
 
-- [Assurance Résidence (IPID)](Assurance%20R%C3%A9sidence%20%28IPID%29.md) - IPID / Fiche d'information, éd. 01/07/2025
+- [Assurance Résidence - IPID](Assurance%20R%C3%A9sidence%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/07/2025
 
 ## Source & fidélité
 

@@ -444,7 +444,7 @@ Le délai de prescription pour soumettre des frais d'un cas d'assurance est de 3
 
 ## Documents liés
 
-- [DKV HOSPI Premium + (IPID)](DKV%20HOSPI%20Premium%20%2B%20%28IPID%29.md) - IPID / Fiche d'information, éd. 202508
+- [DKV HOSPI Premium + - IPID](DKV%20HOSPI%20Premium%20%2B%20-%20IPID.md) - IPID / Fiche d'information, éd. 202508
 
 ## Source & fidélité
 

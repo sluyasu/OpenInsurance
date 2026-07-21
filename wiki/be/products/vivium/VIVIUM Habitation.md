@@ -569,7 +569,7 @@ En cas de déménagement en Belgique, la garantie est d'application aux deux adr
 
 ## Documents liés
 
-- [VIVIUM Habitation (IPID)](VIVIUM%20Habitation%20%28IPID%29.md) - IPID / Fiche d'information, éd. 01-2025
+- [VIVIUM Habitation - IPID](VIVIUM%20Habitation%20-%20IPID.md) - IPID / Fiche d'information, éd. 01-2025
 
 ## Source & fidélité
 

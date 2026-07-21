@@ -197,7 +197,7 @@ Couverture, dans la limite du plafond de garantie, des réclamations faites à l
 
 ## Documents liés
 
-- [Assurance « Responsabilité des dirigeants » (IPID)](Assurance%20%C2%AB%20Responsabilit%C3%A9%20des%20dirigeants%20%C2%BB%20%28IPID%29.md) - IPID / Fiche d'information, éd. 2024
+- [Assurance « Responsabilité des dirigeants » - IPID](Assurance%20%C2%AB%20Responsabilit%C3%A9%20des%20dirigeants%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information, éd. 2024
 
 ## Source & fidélité
 

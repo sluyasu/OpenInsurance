@@ -39,7 +39,7 @@ Touche l'ensemble des branches, dont [[Auto]], [[Habitation]] et [[Vie privée]]
 
 ## Related
 
-- [[Belgium MOC]] · [[RC Auto Obligatoire (Loi 1989)]]
+- [Belgium MOC](../00%20-%20Belgium%20MOC.md) · [[RC Auto Obligatoire (Loi 1989)]]
 
 ## Sources
 

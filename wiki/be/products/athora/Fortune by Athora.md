@@ -181,7 +181,7 @@ L’option Réinvestissement Automatique est une option complémentaire de l’o
 
 ## Documents liés
 
-- [Fortune by Athora (Fiche)](Fortune%20by%20Athora%20%28Fiche%29.md) - Fiche produit, éd. 1 janvier 2026
+- [Fortune by Athora - Fiche](Fortune%20by%20Athora%20-%20Fiche.md) - Fiche produit, éd. 1 janvier 2026
 
 ## Source & fidélité
 

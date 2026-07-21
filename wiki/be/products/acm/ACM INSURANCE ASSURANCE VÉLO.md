@@ -219,7 +219,7 @@ Le délai de prescription pour toute action découlant du contrat est de trois a
 
 ## Documents liés
 
-- [ACM Insurance Assurance Vélo (IPID)](ACM%20Insurance%20Assurance%20V%C3%A9lo%20%28IPID%29.md) - IPID / Fiche d'information, éd. 04/25
+- [ACM Insurance Assurance Vélo - IPID](ACM%20Insurance%20Assurance%20V%C3%A9lo%20-%20IPID.md) - IPID / Fiche d'information, éd. 04/25
 
 ## Source & fidélité
 

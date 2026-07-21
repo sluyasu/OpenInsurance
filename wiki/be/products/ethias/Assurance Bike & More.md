@@ -216,7 +216,7 @@ Cette garantie sort ses effets lorsque le véhicule assuré est immobilisé à l
 
 ## Documents liés
 
-- [Assurance Bike & More (IPID)](Assurance%20Bike%20%26%20More%20%28IPID%29.md) - IPID / Fiche d'information, éd. 03/25
+- [Assurance Bike & More - IPID](Assurance%20Bike%20%26%20More%20-%20IPID.md) - IPID / Fiche d'information, éd. 03/25
 
 ## Source & fidélité
 

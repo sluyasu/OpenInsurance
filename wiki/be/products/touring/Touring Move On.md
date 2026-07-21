@@ -500,7 +500,7 @@ Le délai de prescription est de trois ans pour toute action découlant du contr
 
 ## Documents liés
 
-- [Touring Move On (IPID)](Touring%20Move%20On%20%28IPID%29.md) - IPID / Fiche d'information, éd. 01042026
+- [Touring Move On - IPID](Touring%20Move%20On%20-%20IPID.md) - IPID / Fiche d'information, éd. 01042026
 
 ## Source & fidélité
 

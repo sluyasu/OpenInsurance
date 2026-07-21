@@ -354,7 +354,7 @@ Le délai de prescription de toute action qui découle d'un contrat d'assurance 
 
 ## Documents liés
 
-- [Assurance Habitation (IPID)](Assurance%20Habitation%20%28IPID%29.md) - IPID / Fiche d'information, éd. 12/05/2026
+- [Assurance Habitation - IPID](Assurance%20Habitation%20-%20IPID.md) - IPID / Fiche d'information, éd. 12/05/2026
 
 ## Source & fidélité
 

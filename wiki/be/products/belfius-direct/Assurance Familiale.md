@@ -171,7 +171,7 @@ Sous réserve de dispositions légales particulières, le délai de prescription
 
 ## Documents liés
 
-- [Assurance Familiale (Fiche)](Assurance%20Familiale%20%28Fiche%29.md) - Fiche produit, éd. 01/2026
+- [Assurance Familiale - Fiche](Assurance%20Familiale%20-%20Fiche.md) - Fiche produit, éd. 01/2026
 
 ## Source & fidélité
 

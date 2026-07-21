@@ -163,7 +163,7 @@ Les frais de sauvetage.
 
 ## Documents liés
 
-- [Responsabilité des dirigeants (CP)](Responsabilit%C3%A9%20des%20dirigeants%20%28CP%29.md) - Conditions particulières, éd. 2024-06
+- [Responsabilité des dirigeants - CP](Responsabilit%C3%A9%20des%20dirigeants%20-%20CP.md) - Conditions particulières, éd. 2024-06
 
 ## Source & fidélité
 

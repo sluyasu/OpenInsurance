@@ -301,7 +301,7 @@ Sous réserve de dispositions légales particulières, le délai de prescription
 
 ## Documents liés
 
-- [Assurance Locataire Homie - Standard (Fiche)](Assurance%20Locataire%20Homie%20-%20Standard%20%28Fiche%29.md) - Fiche produit, éd. 08/2024
+- [Assurance Locataire Homie - Standard - Fiche](Assurance%20Locataire%20Homie%20-%20Standard%20-%20Fiche.md) - Fiche produit, éd. 08/2024
 
 ## Source & fidélité
 

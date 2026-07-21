@@ -199,7 +199,7 @@ Dans la mesure où la couverture de l'incapacité temporaire est prévue dans le
 
 ## Documents liés
 
-- [Assurance Sports (IPID)](Assurance%20Sports%20%28IPID%29.md) - IPID / Fiche d'information, éd. 03/25
+- [Assurance Sports - IPID](Assurance%20Sports%20-%20IPID.md) - IPID / Fiche d'information, éd. 03/25
 
 ## Source & fidélité
 

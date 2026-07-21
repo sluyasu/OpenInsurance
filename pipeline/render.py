@@ -24,7 +24,11 @@ DOC_TYPE_LABEL = {
     "product_sheet": "Fiche produit",
     "other": "Document",
 }
-DOC_TYPE_SUFFIX = {"ipid": " (IPID)", "conditions_particulieres": " (CP)", "product_sheet": " (Fiche)"}
+# No parentheses in generated filenames. MkDocs decodes percent-escapes before the
+# markdown parser sees the link, so a "(IPID)" in a filename reopens a bracket the parser
+# then closes at the wrong place, swallowing the rest of the line into the URL. It only
+# showed up on names that also carry an apostrophe, but the parentheses are the cause.
+DOC_TYPE_SUFFIX = {"ipid": " - IPID", "conditions_particulieres": " - CP", "product_sheet": " - Fiche"}
 
 
 def _pg(p) -> str:

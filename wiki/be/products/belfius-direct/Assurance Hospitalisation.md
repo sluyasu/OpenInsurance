@@ -154,7 +154,7 @@ Le délai de prescription applicable à toute action judiciaire et/ou à tout co
 
 ## Documents liés
 
-- [Assurance hospitalisation (Fiche)](Assurance%20hospitalisation%20%28Fiche%29.md) - Fiche produit, éd. 06/2021
+- [Assurance hospitalisation - Fiche](Assurance%20hospitalisation%20-%20Fiche.md) - Fiche produit, éd. 06/2021
 
 ## Source & fidélité
 

@@ -333,7 +333,7 @@ Le délai de prescription de toute action dérivant du contrat est de trois ans.
 ## Documents liés
 
 - Édition courante de ce produit.
-- [Home Serenity (IPID)](Home%20Serenity%20%28IPID%29.md) - IPID / Fiche d'information, éd. 10/2024
+- [Home Serenity - IPID](Home%20Serenity%20-%20IPID.md) - IPID / Fiche d'information, éd. 10/2024
 - [Home Serenity](Home%20Serenity%20%282%29.md) - Conditions générales, éd. 10/2024
 
 ## Source & fidélité

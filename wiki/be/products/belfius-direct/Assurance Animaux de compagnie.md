@@ -208,7 +208,7 @@ Le contrat est régi par la loi belge, y compris pour le délai de prescription 
 
 ## Documents liés
 
-- [Assurance Animaux de compagnie (Fiche)](Assurance%20Animaux%20de%20compagnie%20%28Fiche%29.md) - Fiche produit, éd. 06/2026
+- [Assurance Animaux de compagnie - Fiche](Assurance%20Animaux%20de%20compagnie%20-%20Fiche.md) - Fiche produit, éd. 06/2026
 
 ## Source & fidélité
 

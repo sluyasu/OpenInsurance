@@ -518,7 +518,7 @@ Le contenu commun, jusqu'à maximum 7.550 EUR et à l'exception des valeurs et a
 
 ## Documents liés
 
-- [Confort Habitation Flex (IPID)](Confort%20Habitation%20Flex%20%28IPID%29.md) - IPID / Fiche d'information, éd. 2024-10-01
+- [Confort Habitation Flex - IPID](Confort%20Habitation%20Flex%20-%20IPID.md) - IPID / Fiche d'information, éd. 2024-10-01
 
 ## Source & fidélité
 

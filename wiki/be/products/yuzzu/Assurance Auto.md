@@ -601,7 +601,7 @@ Toute action dérivant du contrat (Titre III - Lésions corporelles du conducteu
 ## Documents liés
 
 - Édition courante de ce produit.
-- [Assurance Auto (IPID)](Assurance%20Auto%20%28IPID%29.md) - IPID / Fiche d'information, éd. 12/05/2026
+- [Assurance Auto - IPID](Assurance%20Auto%20-%20IPID.md) - IPID / Fiche d'information, éd. 12/05/2026
 - [Assurance Auto](Assurance%20Auto%20%282%29.md) - Conditions générales, éd. 2026-05-12
 
 ## Source & fidélité

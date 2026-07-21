@@ -322,7 +322,7 @@ Le contrat est régi par la loi belge, y compris pour le délai de prescription 
 
 ## Documents liés
 
-- [Assurance au Kilomètre (Fiche)](Assurance%20au%20Kilom%C3%A8tre%20%28Fiche%29.md) - Fiche produit, éd. 06/2026
+- [Assurance au Kilomètre - Fiche](Assurance%20au%20Kilom%C3%A8tre%20-%20Fiche.md) - Fiche produit, éd. 06/2026
 
 ## Source & fidélité
 

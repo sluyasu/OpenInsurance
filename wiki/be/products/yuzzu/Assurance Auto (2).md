@@ -512,7 +512,7 @@ Toute action dérivant du contrat se prescrit par trois ans à dater de l'évén
 ## Documents liés
 
 - Édition courante de ce produit.
-- [Assurance Auto (IPID)](Assurance%20Auto%20%28IPID%29.md) - IPID / Fiche d'information, éd. 12/05/2026
+- [Assurance Auto - IPID](Assurance%20Auto%20-%20IPID.md) - IPID / Fiche d'information, éd. 12/05/2026
 - [Assurance Auto](Assurance%20Auto.md) - Conditions générales, éd. 2026-05-12
 
 ## Source & fidélité

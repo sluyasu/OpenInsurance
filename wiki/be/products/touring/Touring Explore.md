@@ -465,7 +465,7 @@ Le délai de prescription est de trois ans pour toute action découlant du contr
 
 ## Documents liés
 
-- [Touring Explore (IPID)](Touring%20Explore%20%28IPID%29.md) - IPID / Fiche d'information, éd. 01042026
+- [Touring Explore - IPID](Touring%20Explore%20-%20IPID.md) - IPID / Fiche d'information, éd. 01042026
 
 ## Source & fidélité
 

@@ -294,7 +294,7 @@ Le délai pour transmettre les frais médicaux est de trois ans, à compter de l
 
 ## Documents liés
 
-- [Care+ (IPID)](Care%2B%20%28IPID%29.md) - IPID / Fiche d'information, éd. 01/26
+- [Care+ - IPID](Care%2B%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/26
 
 ## Source & fidélité
 

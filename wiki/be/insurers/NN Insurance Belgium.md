@@ -30,15 +30,15 @@ generated: true
 ## Produits par branche
 
 ### [Auto](../branches/Auto.md)
-- [NN CAR Insurance Essential (IPID)](../products/nn/NN%20CAR%20Insurance%20Essential%20%28IPID%29.md) - IPID / Fiche d'information (12/2025) · réf. IPID-NNcaress-fr-12/2025
+- [NN CAR Insurance Essential - IPID](../products/nn/NN%20CAR%20Insurance%20Essential%20-%20IPID.md) - IPID / Fiche d'information (12/2025) · réf. IPID-NNcaress-fr-12/2025
 - [NN Car Insurance Essential](../products/nn/NN%20Car%20Insurance%20Essential.md) - Conditions générales (2025-12-01) · réf. FNNTC Car Ess 122025-01
 
 ### [Habitation](../branches/Habitation.md)
 - [NN Home Insurance](../products/nn/NN%20Home%20Insurance.md) - Conditions générales (Juillet 2023) · réf. FNN Home 072023-01
-- [NN Home Insurance (IPID)](../products/nn/NN%20Home%20Insurance%20%28IPID%29.md) - IPID / Fiche d'information
+- [NN Home Insurance - IPID](../products/nn/NN%20Home%20Insurance%20-%20IPID.md) - IPID / Fiche d'information
 
 ### [Vie privée](../branches/Vie%20priv%C3%A9e.md)
-- [NN Family Insurance (IPID)](../products/nn/NN%20Family%20Insurance%20%28IPID%29.md) - IPID / Fiche d'information
+- [NN Family Insurance - IPID](../products/nn/NN%20Family%20Insurance%20-%20IPID.md) - IPID / Fiche d'information
 - [NN Family Insurance](../products/nn/NN%20Family%20Insurance.md) - Conditions générales (Juillet 2023) · réf. FNN Family 072023-01
 
 ## Source

@@ -59,7 +59,7 @@ personnes qui stationnent régulièrement leur vélo dans l'espace public.
 ## Termes clés
 
 - La [[Franchise]], la valeur assurée (à neuf ou vétusté déduite), la dégressivité de l'indemnisation avec l'âge
-  du vélo, et la [[Responsabilité civile]] du cycliste.
+  du vélo, et la [Responsabilité civile](../../universal-glossary/Civil%20Liability.md) du cycliste.
 
 ## À surveiller
 

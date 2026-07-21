@@ -287,7 +287,7 @@ La législation belge s'applique au présent contrat et en particulier la loi du
 
 ## Documents liés
 
-- [Touring No Stop (IPID)](Touring%20No%20Stop%20%28IPID%29.md) - IPID / Fiche d'information, éd. 01042026
+- [Touring No Stop - IPID](Touring%20No%20Stop%20-%20IPID.md) - IPID / Fiche d'information, éd. 01042026
 
 ## Source & fidélité
 

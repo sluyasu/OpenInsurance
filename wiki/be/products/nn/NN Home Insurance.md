@@ -562,7 +562,7 @@ Vous pouvez faire appel à cette assurance dans les situations suivantes : 1) un
 
 ## Documents liés
 
-- [NN Home Insurance (IPID)](NN%20Home%20Insurance%20%28IPID%29.md) - IPID / Fiche d'information
+- [NN Home Insurance - IPID](NN%20Home%20Insurance%20-%20IPID.md) - IPID / Fiche d'information
 
 ## Source & fidélité
 

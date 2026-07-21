@@ -323,7 +323,7 @@ Le délai de prescription de toute action dérivant du contrat est de trois ans,
 
 ## Documents liés
 
-- [Scoot' & Bike Serenity (IPID)](Scoot%27%20%26%20Bike%20Serenity%20%28IPID%29.md) - IPID / Fiche d'information, éd. 10/2024
+- [Scoot' & Bike Serenity - IPID](Scoot%27%20%26%20Bike%20Serenity%20-%20IPID.md) - IPID / Fiche d'information, éd. 10/2024
 
 ## Source & fidélité
 

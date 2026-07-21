@@ -41,10 +41,10 @@ generated: true
 
 ### [Santé](../branches/Sant%C3%A9.md)
 - [Assurance Hospitalisation](../products/kbc/Assurance%20Hospitalisation.md) - Conditions générales
-- [KBC-Assurance hospitalisation (IPID)](../products/kbc/KBC-Assurance%20hospitalisation%20%28IPID%29.md) - IPID / Fiche d'information
+- [KBC-Assurance hospitalisation - IPID](../products/kbc/KBC-Assurance%20hospitalisation%20-%20IPID.md) - IPID / Fiche d'information
 
 ### [Vélo](../branches/V%C3%A9lo.md)
-- [Police KBC pour votre Vélo (IPID)](../products/kbc/Police%20KBC%20pour%20votre%20V%C3%A9lo%20%28IPID%29.md) - IPID / Fiche d'information
+- [Police KBC pour votre Vélo - IPID](../products/kbc/Police%20KBC%20pour%20votre%20V%C3%A9lo%20-%20IPID.md) - IPID / Fiche d'information
 - [Police pour votre vélo](../products/kbc/Police%20pour%20votre%20v%C3%A9lo.md) - Conditions générales · réf. F0003 0001 0100 2102
 
 ### [Vie privée](../branches/Vie%20priv%C3%A9e.md)
@@ -53,7 +53,7 @@ generated: true
 ### [Voyage](../branches/Voyage.md)
 - [KBC-Police pour vos voyages](../products/kbc/KBC-Police%20pour%20vos%20voyages.md) - Conditions générales · réf. F0003 0001 0100 1412
 - [KBC-Police vacances](../products/kbc/KBC-Police%20vacances.md) - Conditions générales · réf. F0003 0001 0200 1412
-- [Police KBC pour vos voyages (IPID)](../products/kbc/Police%20KBC%20pour%20vos%20voyages%20%28IPID%29.md) - IPID / Fiche d'information
+- [Police KBC pour vos voyages - IPID](../products/kbc/Police%20KBC%20pour%20vos%20voyages%20-%20IPID.md) - IPID / Fiche d'information
 
 ## Source
 

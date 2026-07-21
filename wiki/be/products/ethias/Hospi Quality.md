@@ -227,7 +227,7 @@ L'assurance couvre les dommages causés par le terrorisme, à l'exclusion des do
 
 ## Documents liés
 
-- [Hospi Quality+ (IPID)](Hospi%20Quality%2B%20%28IPID%29.md) - IPID / Fiche d'information, éd. 03/25
+- [Hospi Quality+ - IPID](Hospi%20Quality%2B%20-%20IPID.md) - IPID / Fiche d'information, éd. 03/25
 
 ## Source & fidélité
 

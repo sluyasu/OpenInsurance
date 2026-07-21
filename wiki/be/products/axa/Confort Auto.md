@@ -231,7 +231,7 @@ Service en complément à la garantie Dégâts Matériels (Accident) de l'assura
 
 ## Documents liés
 
-- [Confort Auto (IPID)](Confort%20Auto%20%28IPID%29.md) - IPID / Fiche d'information, éd. 11.2025
+- [Confort Auto - IPID](Confort%20Auto%20-%20IPID.md) - IPID / Fiche d'information, éd. 11.2025
 
 ## Source & fidélité
 

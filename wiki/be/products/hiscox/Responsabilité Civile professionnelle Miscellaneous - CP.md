@@ -233,7 +233,7 @@ Si au cours de la période d'assurance vous risquez de subir une réclamation en
 
 ## Documents liés
 
-- [Assurance RC Professionnelle « Miscellaneous » (IPID)](Assurance%20RC%20Professionnelle%20%C2%AB%20Miscellaneous%20%C2%BB%20%28IPID%29.md) - IPID / Fiche d'information, éd. 2024
+- [Assurance RC Professionnelle « Miscellaneous » - IPID](Assurance%20RC%20Professionnelle%20%C2%AB%20Miscellaneous%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information, éd. 2024
 
 ## Source & fidélité
 

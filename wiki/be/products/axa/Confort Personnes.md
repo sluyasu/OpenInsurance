@@ -383,7 +383,7 @@ Transmission gratuite de messages urgents vers la Belgique en rapport avec les g
 
 ## Documents liés
 
-- [Confort Personnes (IPID)](Confort%20Personnes%20%28IPID%29.md) - IPID / Fiche d'information, éd. 09.2018
+- [Confort Personnes - IPID](Confort%20Personnes%20-%20IPID.md) - IPID / Fiche d'information, éd. 09.2018
 
 ## Source & fidélité
 

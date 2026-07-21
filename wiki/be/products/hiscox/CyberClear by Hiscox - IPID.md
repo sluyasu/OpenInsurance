@@ -192,7 +192,7 @@ Garantie mixte (dommage subi par vous et par un tiers) couvrant la cyber-fraude.
 
 ## Documents liés
 
-- [CyberClear by Hiscox (CP)](CyberClear%20by%20Hiscox%20%28CP%29.md) - Conditions particulières, éd. 2025-06
+- [CyberClear by Hiscox - CP](CyberClear%20by%20Hiscox%20-%20CP.md) - Conditions particulières, éd. 2025-06
 
 ## Source & fidélité
 

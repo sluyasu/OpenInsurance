@@ -464,7 +464,7 @@ Service d'assistance fourni par Europ Assistance Belgium (Baloise agissant comme
 
 ## Documents liés
 
-- [Habitation Select (IPID)](Habitation%20Select%20%28IPID%29.md) - IPID / Fiche d'information, éd. 06.26
+- [Habitation Select - IPID](Habitation%20Select%20-%20IPID.md) - IPID / Fiche d'information, éd. 06.26
 
 ## Source & fidélité
 

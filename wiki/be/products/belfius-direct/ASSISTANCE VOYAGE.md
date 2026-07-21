@@ -390,7 +390,7 @@ Toute action dérivant de ce contrat est prescrite après trois ans à dater de 
 
 ## Documents liés
 
-- [Assistance Voyage (Fiche)](Assistance%20Voyage%20%28Fiche%29.md) - Fiche produit, éd. 03/2025
+- [Assistance Voyage - Fiche](Assistance%20Voyage%20-%20Fiche.md) - Fiche produit, éd. 03/2025
 
 ## Source & fidélité
 

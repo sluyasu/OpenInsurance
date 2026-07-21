@@ -338,7 +338,7 @@ Remboursement de la facture des pompiers que vous avez acquittée.
 
 ## Documents liés
 
-- [Assurance Assistance Family (annuelle) (IPID)](Assurance%20Assistance%20Family%20%28annuelle%29%20%28IPID%29.md) - IPID / Fiche d'information, éd. 09/24
+- [Assurance Assistance Family (annuelle) - IPID](Assurance%20Assistance%20Family%20%28annuelle%29%20-%20IPID.md) - IPID / Fiche d'information, éd. 09/24
 
 ## Source & fidélité
 

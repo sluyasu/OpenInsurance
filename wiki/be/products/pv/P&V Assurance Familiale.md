@@ -334,7 +334,7 @@ Conformément à l'article 88 de la loi du 4 avril 2014 relative aux Assurances,
 
 ## Documents liés
 
-- [P&V Assurance Familiale (IPID)](P%26V%20Assurance%20Familiale%20%28IPID%29.md) - IPID / Fiche d'information, éd. 04.2025
+- [P&V Assurance Familiale - IPID](P%26V%20Assurance%20Familiale%20-%20IPID.md) - IPID / Fiche d'information, éd. 04.2025
 
 ## Source & fidélité
 

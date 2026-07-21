@@ -226,7 +226,7 @@ Sur production des justificatifs, nous remboursons les frais de traitement expos
 
 ## Documents liés
 
-- [Confort Vélo+ (IPID)](Confort%20V%C3%A9lo%2B%20%28IPID%29.md) - IPID / Fiche d'information, éd. 10.2024
+- [Confort Vélo+ - IPID](Confort%20V%C3%A9lo%2B%20-%20IPID.md) - IPID / Fiche d'information, éd. 10.2024
 
 ## Source & fidélité
 

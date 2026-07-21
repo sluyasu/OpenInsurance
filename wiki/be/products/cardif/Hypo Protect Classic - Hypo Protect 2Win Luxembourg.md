@@ -121,7 +121,7 @@ Toute action dérivant du présent contrat est prescrite après un délai de tro
 
 ## Documents liés
 
-- [Hypo Protect (Fiche)](Hypo%20Protect%20%28Fiche%29.md) - Fiche produit, éd. 06/2024
+- [Hypo Protect - Fiche](Hypo%20Protect%20-%20Fiche.md) - Fiche produit, éd. 06/2024
 - [Hypo Protect Classic - Hypo Protect 2Win](Hypo%20Protect%20Classic%20-%20Hypo%20Protect%202Win.md) - Conditions générales, éd. 2024/06
 
 ## Source & fidélité

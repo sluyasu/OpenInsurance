@@ -54,7 +54,7 @@ d'embarcations.
 
 ## Termes clés
 
-- La [[Responsabilité civile]] du propriétaire ou du barreur, la [[Franchise]] applicable à la garantie dommages,
+- La [Responsabilité civile](../../universal-glossary/Civil%20Liability.md) du propriétaire ou du barreur, la [[Franchise]] applicable à la garantie dommages,
   et la zone de navigation assurée.
 
 ## À surveiller

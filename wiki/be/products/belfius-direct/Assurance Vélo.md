@@ -221,7 +221,7 @@ En cas de traumatisme suite à un accident, un vol avec violence ou un acte de v
 
 ## Documents liés
 
-- [Assurance Vélo (Fiche)](Assurance%20V%C3%A9lo%20%28Fiche%29.md) - Fiche produit, éd. 12/2025
+- [Assurance Vélo - Fiche](Assurance%20V%C3%A9lo%20-%20Fiche.md) - Fiche produit, éd. 12/2025
 
 ## Source & fidélité
 

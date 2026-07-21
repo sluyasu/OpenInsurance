@@ -162,7 +162,7 @@ Si vous avez choisi cette couverture et que l'assuré se retrouve involontaireme
 
 ## Documents liés
 
-- [Hypo Protect (Fiche)](Hypo%20Protect%20%28Fiche%29.md) - Fiche produit, éd. 06/2024
+- [Hypo Protect - Fiche](Hypo%20Protect%20-%20Fiche.md) - Fiche produit, éd. 06/2024
 - [Hypo Protect Classic - Hypo Protect 2Win Luxembourg](Hypo%20Protect%20Classic%20-%20Hypo%20Protect%202Win%20Luxembourg.md) - Conditions générales, éd. 2023/03
 
 ## Source & fidélité

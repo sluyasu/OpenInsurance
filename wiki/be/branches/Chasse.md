@@ -22,7 +22,7 @@ generated: false
 
 L'assurance chasse couvre la responsabilité civile du chasseur pour les dommages corporels et matériels qu'il
 cause à des tiers pendant l'exercice de la chasse, notamment du fait de l'usage de l'arme. C'est une assurance
-de [[Responsabilité civile]] spécialisée, distincte de la RC de la [[Vie privée]], qui exclut généralement les
+de [Responsabilité civile](../../universal-glossary/Civil%20Liability.md) spécialisée, distincte de la RC de la [[Vie privée]], qui exclut généralement les
 activités de chasse.
 
 ## Pourquoi c'est important
@@ -55,7 +55,7 @@ pour chasser légalement.
 
 ## Termes clés
 
-- La [[Responsabilité civile]] du chasseur, le permis de chasse (délivré au niveau régional) et l'attestation
+- La [Responsabilité civile](../../universal-glossary/Civil%20Liability.md) du chasseur, le permis de chasse (délivré au niveau régional) et l'attestation
   d'assurance exigée pour l'obtenir.
 
 ## À surveiller

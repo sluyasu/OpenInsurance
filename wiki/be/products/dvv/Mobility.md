@@ -508,7 +508,7 @@ Service d'information: communication des adresses et numéros des services médi
 
 ## Documents liés
 
-- [Mobility (IPID)](Mobility%20%28IPID%29.md) - IPID / Fiche d'information, éd. octobre 2024
+- [Mobility - IPID](Mobility%20-%20IPID.md) - IPID / Fiche d'information, éd. octobre 2024
 
 ## Source & fidélité
 

@@ -116,9 +116,9 @@ Soins dentaires de base et/ou spécialisés (y compris soins dentaires prothéti
 
 ## Documents liés
 
-- [DKV SMILE Comfort (IPID)](DKV%20SMILE%20Comfort%20%28IPID%29.md) - IPID / Fiche d'information, éd. 202212
+- [DKV SMILE Comfort - IPID](DKV%20SMILE%20Comfort%20-%20IPID.md) - IPID / Fiche d'information, éd. 202212
 - [DKV Smile Essential](DKV%20Smile%20Essential.md) - Conditions générales, éd. 07/2024
-- [DKV SMILE Premium (IPID)](DKV%20SMILE%20Premium%20%28IPID%29.md) - IPID / Fiche d'information, éd. 202212
+- [DKV SMILE Premium - IPID](DKV%20SMILE%20Premium%20-%20IPID.md) - IPID / Fiche d'information, éd. 202212
 - [DKV Smile Premium](DKV%20Smile%20Premium.md) - Conditions générales, éd. 2024-07
 
 ## Source & fidélité

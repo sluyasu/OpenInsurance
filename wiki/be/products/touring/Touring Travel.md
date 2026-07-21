@@ -534,7 +534,7 @@ La législation belge s'applique au présent contrat et en particulier la loi du
 
 ## Documents liés
 
-- [Touring Travel (IPID)](Touring%20Travel%20%28IPID%29.md) - IPID / Fiche d'information, éd. 01042026
+- [Touring Travel - IPID](Touring%20Travel%20-%20IPID.md) - IPID / Fiche d'information, éd. 01042026
 
 ## Source & fidélité
 

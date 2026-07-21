@@ -32,6 +32,12 @@ jobs:
           rm -rf site-src/.obsidian
           cp "wiki/00 - START HERE.md" site-src/index.md
       - run: mkdocs build
+      # Blocking: the wiki gates check the markdown sources, which can be perfectly valid
+      # while the rendered site 404s (a link the roamlinks plugin could not resolve, a
+      # path that leaves the published tree). Deploying a site with dead links is worse
+      # than not deploying, because the gates stay green and nobody looks.
+      - name: Check the built site for dead links
+        run: python pipeline/check_site_links.py site
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site

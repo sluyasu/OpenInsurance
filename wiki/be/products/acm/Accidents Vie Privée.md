@@ -294,7 +294,7 @@ Le délai de prescription de toute action dérivant du contrat est de trois ans 
 
 ## Documents liés
 
-- [Accidents Vie Privée (IPID)](Accidents%20Vie%20Priv%C3%A9e%20%28IPID%29.md) - IPID / Fiche d'information, éd. 10/2024
+- [Accidents Vie Privée - IPID](Accidents%20Vie%20Priv%C3%A9e%20-%20IPID.md) - IPID / Fiche d'information, éd. 10/2024
 
 ## Source & fidélité
 

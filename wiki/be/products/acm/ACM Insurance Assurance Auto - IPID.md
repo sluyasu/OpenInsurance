@@ -172,7 +172,7 @@ Mini Omnium Plus + garantie Dégâts matériels.
 
 - Édition courante de ce produit.
 - [ACM INSURANCE ASSURANCE AUTO](ACM%20INSURANCE%20ASSURANCE%20AUTO.md) - Conditions générales, éd. 09/2025
-- [ACM Insurance Assurance Auto (IPID)](ACM%20Insurance%20Assurance%20Auto%20%28IPID%29%20%282%29.md) - IPID / Fiche d'information, éd. 09/2025
+- [ACM Insurance Assurance Auto - IPID](ACM%20Insurance%20Assurance%20Auto%20-%20IPID%20%282%29.md) - IPID / Fiche d'information, éd. 09/2025
 - [ACM INSURANCE ASSURANCE AUTO](ACM%20INSURANCE%20ASSURANCE%20AUTO%20%282%29.md) - Conditions générales, éd. 09/2025
 
 ## Source & fidélité

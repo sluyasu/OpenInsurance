@@ -39,11 +39,11 @@ generated: true
 - [Accident Vie Privée - Garantie accidents de la vie privée – produit forfaitaire](../products/axa/Accident%20Vie%20Priv%C3%A9e%20-%20Garantie%20accidents%20de%20la%20vie%20priv%C3%A9e%20%E2%80%93%20produit%20forfaitaire.md) - Conditions générales (12.2023) · réf. 4185889–20231211
 
 ### [Auto](../branches/Auto.md)
-- [Confort Auto (IPID)](../products/axa/Confort%20Auto%20%28IPID%29.md) - IPID / Fiche d'information (11.2025) · réf. 4186107 – 11.2025
+- [Confort Auto - IPID](../products/axa/Confort%20Auto%20-%20IPID.md) - IPID / Fiche d'information (11.2025) · réf. 4186107 – 11.2025
 - [Confort Auto](../products/axa/Confort%20Auto.md) - Conditions générales (06.2026) · réf. 4185995-20260622
 
 ### [Habitation](../branches/Habitation.md)
-- [Confort Habitation Flex (IPID)](../products/axa/Confort%20Habitation%20Flex%20%28IPID%29.md) - IPID / Fiche d'information (2024-10-01) · réf. 4186065 - 10.2024
+- [Confort Habitation Flex - IPID](../products/axa/Confort%20Habitation%20Flex%20-%20IPID.md) - IPID / Fiche d'information (2024-10-01) · réf. 4186065 - 10.2024
 - [Confort Habitation Flex](../products/axa/Confort%20Habitation%20Flex.md) - Conditions générales (2024-10-01) · réf. 4185784-20241001
 
 ### [Navigation](../branches/Navigation.md)
@@ -55,18 +55,18 @@ generated: true
 
 ### [Santé](../branches/Sant%C3%A9.md)
 - [Confort Personnes](../products/axa/Confort%20Personnes.md) - Conditions générales (06.2022) · réf. 4183781–20220613
-- [Confort Personnes (IPID)](../products/axa/Confort%20Personnes%20%28IPID%29.md) - IPID / Fiche d'information (09.2018) · réf. 4186101 - 09.2018
+- [Confort Personnes - IPID](../products/axa/Confort%20Personnes%20-%20IPID.md) - IPID / Fiche d'information (09.2018) · réf. 4186101 - 09.2018
 
 ### [Vélo](../branches/V%C3%A9lo.md)
-- [Confort Vélo+ (IPID)](../products/axa/Confort%20V%C3%A9lo%2B%20%28IPID%29.md) - IPID / Fiche d'information (10.2024) · réf. 4186538
+- [Confort Vélo+ - IPID](../products/axa/Confort%20V%C3%A9lo%2B%20-%20IPID.md) - IPID / Fiche d'information (10.2024) · réf. 4186538
 - [Confort vélo+](../products/axa/Confort%20v%C3%A9lo%2B.md) - Conditions générales (12.2023) · réf. 4186535-20231211
 
 ### [Vie privée](../branches/Vie%20priv%C3%A9e.md)
-- [Confort vie privée - eFamily (IPID)](../products/axa/Confort%20vie%20priv%C3%A9e%20-%20eFamily%20%28IPID%29.md) - IPID / Fiche d'information (10.2024) · réf. 4187314 - 10.2024
+- [Confort vie privée - eFamily - IPID](../products/axa/Confort%20vie%20priv%C3%A9e%20-%20eFamily%20-%20IPID.md) - IPID / Fiche d'information (10.2024) · réf. 4187314 - 10.2024
 - [Daylife Protect](../products/axa/Daylife%20Protect.md) - Conditions générales (10.2024) · réf. 4800860
 
 ### [Voyage](../branches/Voyage.md)
-- [Assurance Voyage eTravel (IPID)](../products/axa/Assurance%20Voyage%20eTravel%20%28IPID%29.md) - IPID / Fiche d'information (10.2025) · réf. 4186975 - 10.2025
+- [Assurance Voyage eTravel - IPID](../products/axa/Assurance%20Voyage%20eTravel%20-%20IPID.md) - IPID / Fiche d'information (10.2025) · réf. 4186975 - 10.2025
 
 ## Source
 

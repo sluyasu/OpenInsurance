@@ -269,7 +269,7 @@ Le contrat est régi par la loi belge, ce qui vaut également pour le délai de 
 
 ## Documents liés
 
-- [Assurance au Kilomètre - Moto (Fiche)](Assurance%20au%20Kilom%C3%A8tre%20-%20Moto%20%28Fiche%29.md) - Fiche produit, éd. 10/2024
+- [Assurance au Kilomètre - Moto - Fiche](Assurance%20au%20Kilom%C3%A8tre%20-%20Moto%20-%20Fiche.md) - Fiche produit, éd. 10/2024
 
 ## Source & fidélité
 

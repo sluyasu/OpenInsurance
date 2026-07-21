@@ -59,7 +59,7 @@ périmètre plus restreint.
 
 ## Termes clés
 
-- La [[Responsabilité civile]] vis-à-vis des tiers, la [[Franchise]] par sinistre, le délai de carence en perte
+- La [Responsabilité civile](../../universal-glossary/Civil%20Liability.md) vis-à-vis des tiers, la [[Franchise]] par sinistre, le délai de carence en perte
   d'exploitation, et la distinction entre dommages propres (first party) et dommages aux tiers (third party).
 
 ## À surveiller
@@ -81,7 +81,7 @@ Voir [[00 - Branches MOC]] pour la liste générée des produits de cette branch
 
 ## Related
 
-- [[FSMA]] · [[RC professionnelle]] · [[Responsabilité civile]] · [[00 - Branches MOC]]
+- [[FSMA]] · [[RC professionnelle]] · [Responsabilité civile](../../universal-glossary/Civil%20Liability.md) · [[00 - Branches MOC]]
 
 ## Sources
 

@@ -527,7 +527,7 @@ Contrat : « Le délai court à partir du jour de l’événement qui donne ouve
 
 ## Documents liés
 
-- [Moto Serenity (IPID)](Moto%20Serenity%20%28IPID%29.md) - IPID / Fiche d'information, éd. 10/2024
+- [Moto Serenity - IPID](Moto%20Serenity%20-%20IPID.md) - IPID / Fiche d'information, éd. 10/2024
 
 ## Source & fidélité
 

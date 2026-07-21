@@ -80,7 +80,7 @@ Voir [[00 - Branches MOC]] pour la liste générée des produits de cette branch
 
 ## Related
 
-- [[FSMA]] · [[Épargne / Placement (Branche 21/23)]] · [[00 - Branches MOC]]
+- [[FSMA]] · [Épargne et Placement (Branche 21-23)](%C3%89pargne%20et%20Placement%20%28Branche%2021-23%29.md) · [[00 - Branches MOC]]
 
 ## Sources
 

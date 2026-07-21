@@ -212,7 +212,7 @@ Les conditions d'assurance relatives à une hospitalisation à caractère impré
 
 ## Documents liés
 
-- [F-CARE (IPID)](F-CARE%20%28IPID%29.md) - IPID / Fiche d'information, éd. 11/20
+- [F-CARE - IPID](F-CARE%20-%20IPID.md) - IPID / Fiche d'information, éd. 11/20
 
 ## Source & fidélité
 

@@ -210,7 +210,7 @@ Protection Juridique (en option), comprenant : Défense pénale ; Demande civile
 
 ## Documents liés
 
-- [Responsabilité Civile professionnelle Marketing & Communication (CP)](Responsabilit%C3%A9%20Civile%20professionnelle%20Marketing%20%26%20Communication%20%28CP%29.md) - Conditions particulières, éd. 2024-01
+- [Responsabilité Civile professionnelle Marketing & Communication - CP](Responsabilit%C3%A9%20Civile%20professionnelle%20Marketing%20%26%20Communication%20-%20CP.md) - Conditions particulières, éd. 2024-01
 
 ## Source & fidélité
 

@@ -211,7 +211,7 @@ Le délai de prescription pour soumettre des frais d'un cas d'assurance est de 3
 
 ## Documents liés
 
-- [DKV DAILY Essential (IPID)](DKV%20DAILY%20Essential%20%28IPID%29.md) - IPID / Fiche d'information, éd. 202508
+- [DKV DAILY Essential - IPID](DKV%20DAILY%20Essential%20-%20IPID.md) - IPID / Fiche d'information, éd. 202508
 
 ## Source & fidélité
 

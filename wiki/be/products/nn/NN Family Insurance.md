@@ -249,7 +249,7 @@ Nous fournissons une assistance juridique pour : votre résidence principale; un
 
 ## Documents liés
 
-- [NN Family Insurance (IPID)](NN%20Family%20Insurance%20%28IPID%29.md) - IPID / Fiche d'information
+- [NN Family Insurance - IPID](NN%20Family%20Insurance%20-%20IPID.md) - IPID / Fiche d'information
 
 ## Source & fidélité
 

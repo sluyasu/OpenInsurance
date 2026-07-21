@@ -171,7 +171,7 @@ La compagnie couvre les dommages causés par le terrorisme et est membre à cett
 
 ## Documents liés
 
-- [Profilife (Fiche)](Profilife%20%28Fiche%29.md) - Fiche produit, éd. 1 janvier 2026
+- [Profilife - Fiche](Profilife%20-%20Fiche.md) - Fiche produit, éd. 1 janvier 2026
 
 ## Source & fidélité
 

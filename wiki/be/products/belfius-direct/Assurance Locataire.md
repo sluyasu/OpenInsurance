@@ -417,7 +417,7 @@ Assure la défense pénale, le recours civil de l'assuré, l'insolvabilité des 
 
 ## Documents liés
 
-- [Assurance Locataire (Fiche)](Assurance%20Locataire%20%28Fiche%29.md) - Fiche produit, éd. 06/2025
+- [Assurance Locataire - Fiche](Assurance%20Locataire%20-%20Fiche.md) - Fiche produit, éd. 06/2025
 
 ## Source & fidélité
 

@@ -473,7 +473,7 @@ Les prestations prévues dans la formule 'Mobilité Start' sont couvertes et ét
 
 ## Documents liés
 
-- [Belfius Car (IPID)](Belfius%20Car%20%28IPID%29.md) - IPID / Fiche d'information, éd. septembre 2024
+- [Belfius Car - IPID](Belfius%20Car%20-%20IPID.md) - IPID / Fiche d'information, éd. septembre 2024
 
 ## Source & fidélité
 

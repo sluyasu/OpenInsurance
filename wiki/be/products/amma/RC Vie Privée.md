@@ -290,7 +290,7 @@ AMMA Assurances prend en charge : 1. les frais de constitution du dossier ; 2. l
 
 ## Documents liés
 
-- [RC Vie Privée (IPID)](RC%20Vie%20Priv%C3%A9e%20%28IPID%29.md) - IPID / Fiche d'information, éd. 2025
+- [RC Vie Privée - IPID](RC%20Vie%20Priv%C3%A9e%20-%20IPID.md) - IPID / Fiche d'information, éd. 2025
 
 ## Source & fidélité
 

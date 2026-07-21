@@ -27,7 +27,7 @@ Elle vise des objectifs de placement à plus long terme.
 
 ## Related
 
-- [[Branche 21]] · [[Belgium MOC]]
+- [[Branche 21]] · [Belgium MOC](../00%20-%20Belgium%20MOC.md)
 
 ## Sources
 

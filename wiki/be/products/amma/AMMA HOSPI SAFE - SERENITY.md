@@ -249,7 +249,7 @@ Le délai de prescription découlant de toute action dérivant du contrat est de
 
 ## Documents liés
 
-- [AMMA Hospi (IPID)](AMMA%20Hospi%20%28IPID%29.md) - IPID / Fiche d'information, éd. 2025
+- [AMMA Hospi - IPID](AMMA%20Hospi%20-%20IPID.md) - IPID / Fiche d'information, éd. 2025
 
 ## Source & fidélité
 

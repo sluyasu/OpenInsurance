@@ -238,7 +238,7 @@ Si au cours de la période d'assurance, vous risquez de subir une réclamation, 
 
 ## Documents liés
 
-- [Assurance RC Professionnelle « Marketing & Communication » (IPID)](Assurance%20RC%20Professionnelle%20%C2%AB%20Marketing%20%26%20Communication%20%C2%BB%20%28IPID%29.md) - IPID / Fiche d'information, éd. 2024
+- [Assurance RC Professionnelle « Marketing & Communication » - IPID](Assurance%20RC%20Professionnelle%20%C2%AB%20Marketing%20%26%20Communication%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information, éd. 2024
 
 ## Source & fidélité
 

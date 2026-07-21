@@ -290,7 +290,7 @@ Garantie en cas de fraude subie par vous, entendue comme tout acte illicite comm
 
 ## Documents liés
 
-- [CyberClear by Hiscox (IPID)](CyberClear%20by%20Hiscox%20%28IPID%29.md) - IPID / Fiche d'information, éd. 2025-06
+- [CyberClear by Hiscox - IPID](CyberClear%20by%20Hiscox%20-%20IPID.md) - IPID / Fiche d'information, éd. 2025-06
 
 ## Source & fidélité
 

@@ -28,7 +28,7 @@ caractéristiques distinctives.
 
 ## Related
 
-- [[Branche 23]] · [[Belgium MOC]]
+- [[Branche 23]] · [Belgium MOC](../00%20-%20Belgium%20MOC.md)
 
 ## Sources
 

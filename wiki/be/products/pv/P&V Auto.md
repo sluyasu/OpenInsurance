@@ -456,7 +456,7 @@ Conformément à l'article 88 de la loi du 4 avril 2014 relative aux assurances,
 
 ## Documents liés
 
-- [P&V Auto (IPID)](P%26V%20Auto%20%28IPID%29.md) - IPID / Fiche d'information, éd. 01.2025
+- [P&V Auto - IPID](P%26V%20Auto%20-%20IPID.md) - IPID / Fiche d'information, éd. 01.2025
 
 ## Source & fidélité
 

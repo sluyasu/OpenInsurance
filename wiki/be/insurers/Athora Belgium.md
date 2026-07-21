@@ -33,9 +33,9 @@ generated: true
 - [Crescendo di Generali.org](../products/athora/Crescendo%20di%20Generali.org.md) - Conditions générales (12/2015) · réf. 1F639
 - [Exclusive by Athora](../products/athora/Exclusive%20by%20Athora.md) - Conditions générales (02/2022) · réf. 1F802
 - [Fortune by Athora](../products/athora/Fortune%20by%20Athora.md) - Conditions générales (02/2022) · réf. 1F800
-- [Fortune by Athora (Fiche)](../products/athora/Fortune%20by%20Athora%20%28Fiche%29.md) - Fiche produit (1 janvier 2026) · réf. 320110600
+- [Fortune by Athora - Fiche](../products/athora/Fortune%20by%20Athora%20-%20Fiche.md) - Fiche produit (1 janvier 2026) · réf. 320110600
 - [Junior Assistance](../products/athora/Junior%20Assistance.md) - Conditions générales (06/2020) · réf. 1F811
-- [Profilife (Fiche)](../products/athora/Profilife%20%28Fiche%29.md) - Fiche produit (1 janvier 2026) · réf. 310110200
+- [Profilife - Fiche](../products/athora/Profilife%20-%20Fiche.md) - Fiche produit (1 janvier 2026) · réf. 310110200
 - [Profilife](../products/athora/Profilife.md) - Conditions générales (01/2026) · réf. 1F892
 - [Profilife Junior](../products/athora/Profilife%20Junior.md) - Conditions générales (01/2026) · réf. 1F807
 - [Profilife Junior](../products/athora/Profilife%20Junior%20%282%29.md) - Conditions générales (01/2026) · réf. 1F808
@@ -53,7 +53,7 @@ generated: true
 - [Ventisei di Generali](../products/athora/Ventisei%20di%20Generali.md) - Conditions générales (12/2015) · réf. 1F647
 
 ### [Pension (Branche 21)](../branches/Pension%20%28Branche%2021%29.md)
-- [ADDENDUM au Règlement ou à la Convention de Pension et aux Conditions Générales (CP)](../products/athora/ADDENDUM%20au%20R%C3%A8glement%20ou%20%C3%A0%20la%20Convention%20de%20Pension%20et%20aux%20Conditions%20G%C3%A9n%C3%A9rales%20%28CP%29.md) - Conditions particulières
+- [ADDENDUM au Règlement ou à la Convention de Pension et aux Conditions Générales - CP](../products/athora/ADDENDUM%20au%20R%C3%A8glement%20ou%20%C3%A0%20la%20Convention%20de%20Pension%20et%20aux%20Conditions%20G%C3%A9n%C3%A9rales%20-%20CP.md) - Conditions particulières
 - [Assurances Complémentaires — Engagement Individuel de Pension - Pension Libre Complémentaire pour Indépendants](../products/athora/Assurances%20Compl%C3%A9mentaires%20%E2%80%94%20Engagement%20Individuel%20de%20Pension%20-%20Pension%20Libre%20Compl%C3%A9mentaire%20pour%20Ind%C3%A9pendants.md) - Conditions générales (03/2021) · réf. 1F797
 - [Profilife EIP](../products/athora/Profilife%20EIP.md) - Conditions générales (01/2026) · réf. 1F893
 - [SelfLife Protection & Pension](../products/athora/SelfLife%20Protection%20%26%20Pension.md) - Conditions générales (01/2026) · réf. 1F829

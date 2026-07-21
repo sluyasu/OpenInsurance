@@ -331,7 +331,7 @@ Le délai de prescription de toute action judiciaire résultant d'un contrat d'a
 
 - ⚠️ Édition remplacée par une version plus récente : [Assurance Auto](Assurance%20Auto.md)
 - [Assurance Auto](Assurance%20Auto.md) - Conditions générales, éd. 2024-11-01
-- [Assurance auto (IPID)](Assurance%20auto%20%28IPID%29.md) - IPID / Fiche d'information, éd. 01/10/2025
+- [Assurance auto - IPID](Assurance%20auto%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/10/2025
 
 ## Source & fidélité
 

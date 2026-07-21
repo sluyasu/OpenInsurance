@@ -386,7 +386,7 @@ Toute action dérivant de la présente convention est prescrite dans un délai d
 
 ## Documents liés
 
-- [Assurance Assistance (Fiche)](Assurance%20Assistance%20%28Fiche%29.md) - Fiche produit, éd. 07/2023
+- [Assurance Assistance - Fiche](Assurance%20Assistance%20-%20Fiche.md) - Fiche produit, éd. 07/2023
 
 ## Source & fidélité
 

@@ -479,7 +479,7 @@ Nous intervenons pour : 1) la défense d'un assuré dans toute procédure pénal
 
 ## Documents liés
 
-- [Assurance incendie Multirisk Habitation (IPID)](Assurance%20incendie%20Multirisk%20Habitation%20%28IPID%29.md) - IPID / Fiche d'information, éd. 04/25
+- [Assurance incendie Multirisk Habitation - IPID](Assurance%20incendie%20Multirisk%20Habitation%20-%20IPID.md) - IPID / Fiche d'information, éd. 04/25
 
 ## Source & fidélité
 

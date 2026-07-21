@@ -34,89 +34,89 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | country | branch | insurer | title | freshness | source |
 |---|---|---|---|---|---|
 | be | accidents | acm | Accidents Vie Privée | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/vie-prive/1.0/20241001_FR_CG_AVP_ACM_INSURANCE.pdf) |
-| be | accidents | acm | Accidents Vie Privée (IPID) | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/vie-prive/1.0/20241001_IPID_AVP_FR.pdf) |
+| be | accidents | acm | Accidents Vie Privée - IPID | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/vie-prive/1.0/20241001_IPID_AVP_FR.pdf) |
 | be | accidents | actel | Assurance Individuelle Circulation | 2026-07-08 | [pdf](https://www.actel.be/documents/d/actel/conditions-generales-individuelles-fr?download=true) |
 | be | accidents | axa | Accident Vie Privée - Garantie accidents de la vie privée – produit forfaitaire | 2026-07-05 | [pdf](https://cdn.website.axa.be/fr-be/-/media/axa-documents/library-public/cg/0/d/7/9/7/418588902/Accidents%20Vie%20Priv%C3%A9e%20-%20Conditions%20G%C3%A9n%C3%A9rales%20-%2020231211.pdf) |
-| be | accidents | ergo | inSure Accident (IPID) | 2026-07-08 | [pdf](https://www.ergo.be/priips/ergo-00612_ipid-fr.pdf) |
+| be | accidents | ergo | inSure Accident - IPID | 2026-07-08 | [pdf](https://www.ergo.be/priips/ergo-00612_ipid-fr.pdf) |
 | be | accidents | ethias | Assurance Sports | 2026-07-05 | [pdf](https://www.ethias.be/content/dam/B2C/general/pdf/general-conditions/cg-sport-fr.pdf) |
-| be | accidents | ethias | Assurance Sports (IPID) | 2026-07-05 | [pdf](https://www.ethias.be/content/dam/B2C/general/pdf/infofiche/fi-AssuranceSport-fr.pdf) |
+| be | accidents | ethias | Assurance Sports - IPID | 2026-07-05 | [pdf](https://www.ethias.be/content/dam/B2C/general/pdf/infofiche/fi-AssuranceSport-fr.pdf) |
 | be | animaux | belfius-direct | Assurance Animaux de compagnie | 2026-07-08 | [pdf](https://www.belfiusdirect.be/media/yfjf1sqs/cg-animaux_de_compagnie.pdf) |
-| be | animaux | belfius-direct | Assurance Animaux de compagnie (Fiche) | 2026-07-08 | [pdf](https://www.belfiusdirect.be/media/3yvpecvj/fiche_info_assurance_animaux_de_compagnie.pdf) |
+| be | animaux | belfius-direct | Assurance Animaux de compagnie - Fiche | 2026-07-08 | [pdf](https://www.belfiusdirect.be/media/3yvpecvj/fiche_info_assurance_animaux_de_compagnie.pdf) |
 | be | auto | acm | ACM INSURANCE ASSURANCE AUTO | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/auto-pros/1.0/20250925_FR_CG_AUTO_ACM_INSURANCE.pdf) |
 | be | auto | acm | ACM INSURANCE ASSURANCE AUTO (2) | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/auto/1.0/20250925_FR_CG_AUTO_ACM_INSURANCE.pdf) |
-| be | auto | acm | ACM Insurance Assurance Auto (IPID) | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/auto-pros/1.0/20250916_IPID_Auto_FR.pdf) |
-| be | auto | acm | ACM Insurance Assurance Auto (IPID) (2) | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/auto/1.0/20250916_IPID_Auto_FR.pdf) |
+| be | auto | acm | ACM Insurance Assurance Auto - IPID | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/auto-pros/1.0/20250916_IPID_Auto_FR.pdf) |
+| be | auto | acm | ACM Insurance Assurance Auto - IPID (2) | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/auto/1.0/20250916_IPID_Auto_FR.pdf) |
 | be | auto | acm | Moto Serenity | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/moto/1.0/20241001_FR_CG_MOTO_ACM_INSURANCE.pdf) |
-| be | auto | acm | Moto Serenity (IPID) | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/moto/1.0/20241001_IPID_Moto_Serenity_FR.pdf) |
-| be | auto | acm | Scoot' & Bike Serenity (IPID) | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/scoot-bike/1.0/20241001_IPID_Scoot_Bike_Serenity_FR.pdf) |
-| be | auto | acm | Scoot’ & Bike Serenity | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/scoot-bike/1.0/20241001_FR_CG_CYCLOMOTEUR_ACM_INSURANCE.pdf) |
+| be | auto | acm | Moto Serenity - IPID | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/moto/1.0/20241001_IPID_Moto_Serenity_FR.pdf) |
+| be | auto | acm | Scoot' & Bike Serenity | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/scoot-bike/1.0/20241001_FR_CG_CYCLOMOTEUR_ACM_INSURANCE.pdf) |
+| be | auto | acm | Scoot' & Bike Serenity - IPID | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/scoot-bike/1.0/20241001_IPID_Scoot_Bike_Serenity_FR.pdf) |
 | be | auto | actel | ACTEL Auto | 2026-07-08 | [pdf](https://www.actel.be/documents/d/actel/conditions-generales-auto-fr?download=true) |
 | be | auto | actel | Assurance Auto - Actel Affinity | 2026-07-08 | [pdf](https://www.actel.be/documents/d/actel/conditions-generales-auva-fr?download=true) |
 | be | auto | actel | Assurance Auto - Actel Direct | 2026-07-08 | [pdf](https://www.actel.be/documents/d/actel/assurance-auto-actel-conditions-generales-start-mini-omnium-maxi-omnium-vol-confort-conducteur-confort-assistance-confort-juridique-?download=true) |
 | be | auto | actel | Assurance Moto | 2026-07-08 | [pdf](https://www.actel.be/documents/d/actel/conditions-generales-moto-fr?download=true) |
 | be | auto | actel | Couverture « Bob » | 2026-07-08 | [pdf](https://www.actel.be/documents/d/actel/assurance-auto-actel-garantie-bob?download=true) |
-| be | auto | actel | P&V Auto (IPID) | 2026-07-08 | [pdf](https://www.actel.be/documents/d/actel/ipid-auto-fr) |
-| be | auto | actel | P&V Auto (IPID) (2) | 2026-07-08 | [pdf](https://www.actel.be/documents/d/actel/ipid-moto_fr) |
+| be | auto | actel | P&V Auto - IPID | 2026-07-08 | [pdf](https://www.actel.be/documents/d/actel/ipid-auto-fr) |
+| be | auto | actel | P&V Auto - IPID (2) | 2026-07-08 | [pdf](https://www.actel.be/documents/d/actel/ipid-moto_fr) |
 | be | auto | ag | Assurance RC Auto | 2026-07-05 | [pdf](https://ag.be/particuliers/dam/transversal/retail/documents/product-documents/fr/vehicles/20004F.pdf) |
 | be | auto | ag | Top Omnium - Top Occasium | 2026-07-05 | [pdf](https://ag.be/particuliers/dam/transversal/retail/documents/product-documents/fr/vehicles/24286F.pdf) |
-| be | auto | amma | Assurance Auto (IPID) | 2026-07-05 | [pdf](https://www.amma.be/documents/278?lang=fr) |
+| be | auto | amma | Assurance Auto - IPID | 2026-07-05 | [pdf](https://www.amma.be/documents/278?lang=fr) |
 | be | auto | amma | Auto (AMMA Assurances) | 2026-07-05 | [pdf](https://www.amma.be/documents/54?lang=fr) |
 | be | auto | argenta | Assurance Auto | 2026-07-05 | [pdf](https://www.argenta.be/content/dam/argenta/documents/assurer/assurance-auto/conditions-generales-assurance-auto-2024.pdf) |
 | be | auto | argenta | Assurance Auto (2) | 2026-07-05 | [pdf](https://www.argenta.be/content/dam/argenta/documents/assurer/assurance-auto/conditions-generales-assurance-auto-2024-octobre.pdf) |
-| be | auto | argenta | Assurance auto (IPID) | 2026-07-05 | [pdf](https://www.argenta.be/content/dam/argenta/documents/assurer/ipid/IPID%20Assurance%20auto.pdf) |
+| be | auto | argenta | Assurance auto - IPID | 2026-07-05 | [pdf](https://www.argenta.be/content/dam/argenta/documents/assurer/ipid/IPID%20Assurance%20auto.pdf) |
 | be | auto | axa | Confort Auto | 2026-07-05 | [pdf](https://cdn.website.axa.be/fr-be/-/media/axa-documents/library-public/cg/7/5/8/4/f/4185995/Confort%20Auto%20-%20Responsabilite%20-%2020260622.pdf?rev=f2132cc300724e1c8b5e8f140f733c05) |
-| be | auto | axa | Confort Auto (IPID) | 2026-07-05 | [pdf](https://cdn.website.axa.be/fr-be/-/media/axa-documents/library-public/ipid/3/8/c/d/a/Confort%20Auto%20-%20Fiches%20IPID.pdf?rev=61403fbd02284a4fa311dd16b0714750) |
-| be | auto | baloise | Assurance Auto Mobility Safe 1 (IPID) | 2026-07-05 | [pdf](https://www.baloise.be/dam/mybaloise-baloise-be/fr/non-vie-particuliers/Vehicules-automoteurs/IPID/IPID-Auto/B9001.MOT.02.26.Fiche-ipid-Mobility_Safe_1_Voitures-de-tourisme-et-Camionnettes_FR.pdf) |
+| be | auto | axa | Confort Auto - IPID | 2026-07-05 | [pdf](https://cdn.website.axa.be/fr-be/-/media/axa-documents/library-public/ipid/3/8/c/d/a/Confort%20Auto%20-%20Fiches%20IPID.pdf?rev=61403fbd02284a4fa311dd16b0714750) |
+| be | auto | baloise | Assurance Auto Mobility Safe 1 - IPID | 2026-07-05 | [pdf](https://www.baloise.be/dam/mybaloise-baloise-be/fr/non-vie-particuliers/Vehicules-automoteurs/IPID/IPID-Auto/B9001.MOT.02.26.Fiche-ipid-Mobility_Safe_1_Voitures-de-tourisme-et-Camionnettes_FR.pdf) |
 | be | auto | baloise | Mobility Safe 1 | 2026-07-05 | [pdf](https://www.baloise.be/dam/mybaloise-baloise-be/fr/non-vie-particuliers/Vehicules-automoteurs/conditions-generales/B3311.MOT.02.26-CG-Mobility-Safe-1.pdf) |
 | be | auto | belfius | Belfius Car | 2026-07-05 | [pdf](https://www.belfius.be/common/FR/multimedia/MMDownloadableFile/GeneralConditions/belfius_car.pdf) |
-| be | auto | belfius | Belfius Car (IPID) | 2026-07-05 | [pdf](https://www.belfius.be/common/FR/multimedia/MMDownloadableFile/Insurance/Fiches_Produits_BCar/MMDF_FicheProduit_BCar_4W.pdf) |
+| be | auto | belfius | Belfius Car - IPID | 2026-07-05 | [pdf](https://www.belfius.be/common/FR/multimedia/MMDownloadableFile/Insurance/Fiches_Produits_BCar/MMDF_FicheProduit_BCar_4W.pdf) |
 | be | auto | belfius-direct | Assurance Véhicules Automoteurs - Vélomoteurs | 2026-07-08 | [pdf](https://www.belfiusdirect.be/media/cpjdwykj/cg-velomoteur.pdf) |
 | be | auto | belfius-direct | Assurance au Kilomètre | 2026-07-08 | [pdf](https://www.belfiusdirect.be/media/xqwnmm0c/cg-auto-km.pdf) |
-| be | auto | belfius-direct | Assurance au Kilomètre (Fiche) | 2026-07-08 | [pdf](https://www.belfiusdirect.be/media/r2xnhk5p/fiche-info-auto-km.pdf) |
-| be | auto | belfius-direct | Assurance au Kilomètre - Moto (Fiche) | 2026-07-08 | [pdf](https://www.belfiusdirect.be/media/x35gpklm/fiche-info-moto-km.pdf) |
+| be | auto | belfius-direct | Assurance au Kilomètre - Fiche | 2026-07-08 | [pdf](https://www.belfiusdirect.be/media/r2xnhk5p/fiche-info-auto-km.pdf) |
+| be | auto | belfius-direct | Assurance au Kilomètre - Moto - Fiche | 2026-07-08 | [pdf](https://www.belfiusdirect.be/media/x35gpklm/fiche-info-moto-km.pdf) |
 | be | auto | belfius-direct | Assurance au kilomètre Moto | 2026-07-08 | [pdf](https://www.belfiusdirect.be/media/dmsnf0xa/cg-moto.pdf) |
-| be | auto | das | Protection Juridique Véhicules All Risk (CP) | 2026-07-05 | [pdf](https://www-data.das.be/strapi/F5002_Vehicules_All_Risk_Current_terms_11ef6f9453.pdf) |
+| be | auto | das | Protection Juridique Véhicules All Risk - CP | 2026-07-05 | [pdf](https://www-data.das.be/strapi/F5002_Vehicules_All_Risk_Current_terms_11ef6f9453.pdf) |
 | be | auto | dvv | Mobility | 2026-07-05 | [pdf](https://www.dvv.be/content/dam/dvv-site/verzekeringen/auto/autoverzekering/assurance-auto-mobility-conditions-generales.pdf) |
-| be | auto | dvv | Mobility (IPID) | 2026-07-05 | [pdf](https://www.dvv.be/content/dam/dvv-site/verzekeringen/auto/autoverzekering/assurance-auto-mobility-document-d-information.pdf) |
-| be | auto | ethias | Assurance Auto (IPID) | 2026-07-05 | [pdf](https://www.ethias.be/content/dam/B2C/general/pdf/infofiche/fi-auto-fr.pdf) |
+| be | auto | dvv | Mobility - IPID | 2026-07-05 | [pdf](https://www.dvv.be/content/dam/dvv-site/verzekeringen/auto/autoverzekering/assurance-auto-mobility-document-d-information.pdf) |
+| be | auto | ethias | Assurance Auto - IPID | 2026-07-05 | [pdf](https://www.ethias.be/content/dam/B2C/general/pdf/infofiche/fi-auto-fr.pdf) |
 | be | auto | ethias | Véhicules automoteurs | 2026-07-05 | [pdf](https://www.ethias.be/content/dam/B2C/general/pdf/general-conditions/cg_automoteur_fr.pdf) |
-| be | auto | federale | Assurance Véhicules Automoteurs (IPID) | 2026-07-05 | [pdf](https://www.federale.be/docs/default-source/default-document-library/ipid/2126116---(ipid---v%C3%A9hicules-automoteurs).pdf?sfvrsn=215d7fd7_50) |
+| be | auto | federale | Assurance Véhicules Automoteurs - IPID | 2026-07-05 | [pdf](https://www.federale.be/docs/default-source/default-document-library/ipid/2126116---(ipid---v%C3%A9hicules-automoteurs).pdf?sfvrsn=215d7fd7_50) |
 | be | auto | federale | Assurance de la responsabilité civile en matière de véhicules automoteurs | 2026-07-05 | [pdf](https://www.federale.be/docs/default-source/default-document-library/algemeene-voorwaarden/2126146-(auto-fr)-04--25.pdf?sfvrsn=c79c75d7_59) |
 | be | auto | kbc | Assurance Véhicules Automoteurs - conditions minimales | 2026-07-05 | [pdf](https://multimediafiles.kbcgroup.eu/ng/published/KBC/PDF/VERZEKERINGEN/motorrijtuigen/kbc-assurance-vehicules-automoteurs-conditions-minimales.pdf) |
-| be | auto | nn | NN CAR Insurance Essential (IPID) | 2026-07-05 | [pdf](https://www.nn.be/fr/document/94fca19c-187d-4ac5-b1e3-6c8d3ddbd1b7) |
+| be | auto | nn | NN CAR Insurance Essential - IPID | 2026-07-05 | [pdf](https://www.nn.be/fr/document/94fca19c-187d-4ac5-b1e3-6c8d3ddbd1b7) |
 | be | auto | nn | NN Car Insurance Essential | 2026-07-05 | [pdf](https://www.nn.be/fr/document/5eba66c6-1ed3-4056-887e-3ed2da0427ab) |
 | be | auto | pv | P&V Auto | 2026-07-05 | [pdf](https://www.pv.be/documents/2579080/2592937/PV+-+version+novembre+2019+-+version+finale.pdf/b7976c86-d0e7-78e1-a1a9-13241b59a211?t=1622036216217) |
-| be | auto | pv | P&V Auto (IPID) | 2026-07-05 | [pdf](https://www.pv.be/documents/2579080/2593645/IPID_495_PV+Auto_FR010_1294_2025.pdf/e4596018-1e2a-e1a0-15f8-21ed23b739ea?t=1756368857845) |
+| be | auto | pv | P&V Auto - IPID | 2026-07-05 | [pdf](https://www.pv.be/documents/2579080/2593645/IPID_495_PV+Auto_FR010_1294_2025.pdf/e4596018-1e2a-e1a0-15f8-21ed23b739ea?t=1756368857845) |
 | be | auto | vivium | VIVIUM AUTO | 2026-07-05 | [pdf](https://www.vivium.be/documents/1091840/1198411/Conditions+g%C3%A9n%C3%A9rales+VIVIUM+Auto+-+8.813F.pdf/2fa64c94-83ac-4550-a7aa-80fd2349edd0?t=1741254372188) |
-| be | auto | vivium | VIVIUM Auto (IPID) | 2026-07-05 | [pdf](https://www.vivium.be/documents/1091840/0/IPID_495_VIV+Auto_8933F_2025.pdf/de2042a0-8fc0-1c6f-bf9a-2059c1806081?t=1740652956203) |
+| be | auto | vivium | VIVIUM Auto - IPID | 2026-07-05 | [pdf](https://www.vivium.be/documents/1091840/0/IPID_495_VIV+Auto_8933F_2025.pdf/de2042a0-8fc0-1c6f-bf9a-2059c1806081?t=1740652956203) |
 | be | auto | yuzzu | Assurance Auto | 2026-07-05 | [pdf](https://yuzzu-cms.cdn.prismic.io/yuzzu-cms/af2FfqYofJOwG-Js_Yuzzu_Auto-07_CG_20260512.pdf) |
 | be | auto | yuzzu | Assurance Auto (2) | 2026-07-05 | [pdf](https://yuzzu-cms.cdn.prismic.io/yuzzu-cms/af2FkaYofJOwG-Jw_Yuzzu_Auto-08_CG_20260512.pdf) |
-| be | auto | yuzzu | Assurance Auto (IPID) | 2026-07-05 | [pdf](https://yuzzu-cms.cdn.prismic.io/yuzzu-cms/af2AG6YofJOwG-Ie_ipid_Auto_Yuzzu_TCAR08_FR_20260512.pdf) |
+| be | auto | yuzzu | Assurance Auto - IPID | 2026-07-05 | [pdf](https://yuzzu-cms.cdn.prismic.io/yuzzu-cms/af2AG6YofJOwG-Ie_ipid_Auto_Yuzzu_TCAR08_FR_20260512.pdf) |
 | be | autres | amma | Revenu Garanti | 2026-07-05 | [pdf](https://www.amma.be/documents/310?lang=fr) |
-| be | autres | argenta | Assurance moto (IPID) | 2026-07-05 | [pdf](https://www.argenta.be/content/dam/argenta/documents/assurer/ipid/IPID%20Assurance%20moto.pdf) |
-| be | autres | cardif | Hypo Protect (Fiche) | 2026-07-08 | [pdf](https://bnpparibascardif.be/documents/36051/36444/202406_Fiche+client_HYPO_IU_FR.pdf) |
+| be | autres | argenta | Assurance moto - IPID | 2026-07-05 | [pdf](https://www.argenta.be/content/dam/argenta/documents/assurer/ipid/IPID%20Assurance%20moto.pdf) |
+| be | autres | cardif | Hypo Protect - Fiche | 2026-07-08 | [pdf](https://bnpparibascardif.be/documents/36051/36444/202406_Fiche+client_HYPO_IU_FR.pdf) |
 | be | autres | cardif | Hypo Protect Classic - Hypo Protect 2Win | 2026-07-08 | [pdf](https://bnpparibascardif.be/documents/36051/36444/Hypo+Protect+CLASSIC+et+2WIN.pdf/5df2b90a-4cbe-e102-f577-f5760c733a1b?version=1.3&t=1732007179273&download=true) |
 | be | autres | cardif | Hypo Protect Classic - Hypo Protect 2Win Luxembourg | 2026-07-08 | [pdf](https://bnpparibascardif.be/documents/36051/427355/Hypo+Protect+Luxembourg.pdf/a9f52cb5-fafb-fae2-30fd-d7be2ed9519b?version=1.1&t=1703113548436&download=true) |
 | be | autres | cardif | Short Term Protect - Luxembourg | 2026-07-08 | [pdf](https://bnpparibascardif.be/documents/36051/427355/Short+Term+Protect+Luxembourg.pdf/4cbb82d8-0e72-f90c-cb18-dcc8d4798ffe?version=1.1&t=1703113400716&download=true) |
 | be | autres | cardif | Short Term Protect Business | 2026-07-08 | [pdf](https://bnpparibascardif.be/documents/36051/427355/Short+Term+Protect+Business.pdf/c711fc99-68d6-2090-e27d-03b13ffc4f8b?version=1.1&t=1703113515816&download=true) |
 | be | autres | cardif | Short Term Protect Classic - Short Term Protect 2win | 2026-07-08 | [pdf](https://bnpparibascardif.be/documents/36051/427355/Short+Term+Protect+Classic+et+2WIN.pdf/0bebb643-def2-82de-a852-b86656a67600?version=1.1&t=1703114846510&download=true) |
 | be | autres | das | Protection Juridique | 2026-07-05 | [pdf](https://www-data.das.be/strapi/F5010_Conditions_Generales_Current_terms_8f03913976.pdf) |
-| be | autres | ergo | PLAN DE SECURITE T50 (Fiche) | 2026-07-08 | [pdf](https://www.ergo.be/priips/t50fr_v1dd140414.pdf) |
+| be | autres | ergo | PLAN DE SECURITE T50 - Fiche | 2026-07-08 | [pdf](https://www.ergo.be/priips/t50fr_v1dd140414.pdf) |
 | be | autres | hiscox | Dispositions Légales | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2025-09/DISPOSITIONS-L%C3%89GALES-HSA.PDF) |
 | be | autres | touring | Touring Go | 2026-07-05 | [pdf](https://www.touring.be/fr/remote-documents/ReferenceDocument-232/CONDITIONS_GENERALES.0079-8423900F-01042026.pdf) |
 | be | autres | touring | Touring Move On | 2026-07-05 | [pdf](https://www.touring.be/fr/remote-documents/ReferenceDocument-236/CONDITIONS_GENERALES.0079-8423700F-01042026.pdf) |
-| be | autres | touring | Touring Move On (IPID) | 2026-07-05 | [pdf](https://www.touring.be/fr/remote-documents/ReferenceDocument-203/FICHE_IPID.0079-8426100F-01042026.pdf) |
+| be | autres | touring | Touring Move On - IPID | 2026-07-05 | [pdf](https://www.touring.be/fr/remote-documents/ReferenceDocument-203/FICHE_IPID.0079-8426100F-01042026.pdf) |
 | be | chasse | amma | R.C. CHASSE | 2026-07-05 | [pdf](https://www.amma.be/documents/318?lang=fr) |
-| be | cyber | hiscox | CyberClear by Hiscox (CP) | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2025-09/ConSpec_BCR202506.pdf) |
-| be | cyber | hiscox | CyberClear by Hiscox (IPID) | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2025-09/IPID-CyberClear-BEFR-202506.pdf) |
+| be | cyber | hiscox | CyberClear by Hiscox - CP | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2025-09/ConSpec_BCR202506.pdf) |
+| be | cyber | hiscox | CyberClear by Hiscox - IPID | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2025-09/IPID-CyberClear-BEFR-202506.pdf) |
 | be | epargne | athora | Crescendo Dynamico.org | 2026-07-08 | [pdf](https://marketing.be.athora.site/documents_online/public/av-cg-vie/1F637.pdf) |
 | be | epargne | athora | Crescendo di Generali.org | 2026-07-08 | [pdf](https://marketing.be.athora.site/documents_online/public/av-cg-vie/1F639.pdf) |
 | be | epargne | athora | Exclusive by Athora | 2026-07-08 | [pdf](https://marketing.be.athora.site/documents_online/public/av-cg-vie/1F802.pdf) |
 | be | epargne | athora | Fortune by Athora | 2026-07-08 | [pdf](https://marketing.be.athora.site/documents_online/public/av-cg-vie/1F800.pdf) |
-| be | epargne | athora | Fortune by Athora (Fiche) | 2026-07-08 | [pdf](https://marketing.be.athora.site/documents_online/public/pdf/Common/priips/dic-fr-320110600.pdf) |
+| be | epargne | athora | Fortune by Athora - Fiche | 2026-07-08 | [pdf](https://marketing.be.athora.site/documents_online/public/pdf/Common/priips/dic-fr-320110600.pdf) |
 | be | epargne | athora | Junior Assistance | 2026-07-08 | [pdf](https://marketing.be.athora.site/documents_online/public/av-cg-vie/1F811.pdf) |
 | be | epargne | athora | Profilife | 2026-07-08 | [pdf](https://marketing.be.athora.site/documents_online/public/av-cg-vie/1F892.pdf) |
-| be | epargne | athora | Profilife (Fiche) | 2026-07-08 | [pdf](https://marketing.be.athora.site/documents_online/public/pdf/Common/Priips/DIC-FR-310110200.pdf) |
+| be | epargne | athora | Profilife - Fiche | 2026-07-08 | [pdf](https://marketing.be.athora.site/documents_online/public/pdf/Common/Priips/DIC-FR-310110200.pdf) |
 | be | epargne | athora | Profilife Junior | 2026-07-08 | [pdf](https://marketing.be.athora.site/documents_online/public/av-cg-vie/1F807.pdf) |
 | be | epargne | athora | Profilife Junior (2) | 2026-07-08 | [pdf](https://marketing.be.athora.site/documents_online/public/av-cg-vie/1F808.pdf) |
 | be | epargne | athora | Safe Horizon 3 by Athora | 2026-07-08 | [pdf](https://marketing.be.athora.site/documents_online/public/av-cg-vie/1F897_ED0924.pdf) |
@@ -131,174 +131,174 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | be | epargne | athora | Serenity II | 2026-07-08 | [pdf](https://marketing.be.athora.site/documents_online/public/av-cg-vie/1F826.pdf) |
 | be | epargne | athora | Serenity by Athora | 2026-07-08 | [pdf](https://marketing.be.athora.site/documents_online/public/av-cg-vie/1F812.pdf) |
 | be | epargne | athora | Ventisei di Generali | 2026-07-08 | [pdf](https://marketing.be.athora.site/documents_online/public/av-cg-vie/1F647.pdf) |
-| be | epargne | ergo | CDCA (Fiche) | 2026-07-08 | [pdf](https://www.ergo.be/priips/cdcafr_v1dd140414.pdf) |
-| be | epargne | ergo | EL (Fiche) | 2026-07-08 | [pdf](https://www.ergo.be/priips/elfr_v1dd140414.pdf) |
-| be | epargne | ergo | Flexinvest Management (Fiche) | 2026-07-08 | [pdf](https://www.ergo.be/priips/management%20120102%20fr.pdf) |
-| be | epargne | ergo | Free (Fiche) | 2026-07-08 | [pdf](https://www.ergo.be/priips/free%20%20111107%20fr.pdf) |
-| be | epargne | ergo | Program (Fiche) | 2026-07-08 | [pdf](https://www.ergo.be/priips/program%20dd120305%20fr.pdf) |
-| be | epargne | ergo | Terme Fixe (Fiche) | 2026-07-08 | [pdf](https://www.ergo.be/priips/terme_fixefr_010210.pdf) |
+| be | epargne | ergo | CDCA - Fiche | 2026-07-08 | [pdf](https://www.ergo.be/priips/cdcafr_v1dd140414.pdf) |
+| be | epargne | ergo | EL - Fiche | 2026-07-08 | [pdf](https://www.ergo.be/priips/elfr_v1dd140414.pdf) |
+| be | epargne | ergo | Flexinvest Management - Fiche | 2026-07-08 | [pdf](https://www.ergo.be/priips/management%20120102%20fr.pdf) |
+| be | epargne | ergo | Free - Fiche | 2026-07-08 | [pdf](https://www.ergo.be/priips/free%20%20111107%20fr.pdf) |
+| be | epargne | ergo | Program - Fiche | 2026-07-08 | [pdf](https://www.ergo.be/priips/program%20dd120305%20fr.pdf) |
+| be | epargne | ergo | Terme Fixe - Fiche | 2026-07-08 | [pdf](https://www.ergo.be/priips/terme_fixefr_010210.pdf) |
 | be | habitation | acm | Home Serenity | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/logement/1.0/20241001_FR_CG_HABITATION_ACM_INSURANCE.pdf) |
 | be | habitation | acm | Home Serenity (2) | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/logement/1.0/20241001_FR_CG_HABITATION_ACM_INSURANCE_2.pdf) |
-| be | habitation | acm | Home Serenity (IPID) | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/logement/1.0/20241001_IPID_Home_Serenity_FR.pdf) |
+| be | habitation | acm | Home Serenity - IPID | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/logement/1.0/20241001_IPID_Home_Serenity_FR.pdf) |
 | be | habitation | actel | Homeprotect | 2026-07-08 | [pdf](https://www.actel.be/documents/d/actel/assurance-incendie-actel-conditions-generales-assistance-habitation-assurance-habitation-assurance-familiale-?download=true) |
 | be | habitation | ag | Assurance Incendie Top Habitation | 2026-07-05 | [pdf](https://ag.be/particuliers/dam/transversal/retail/documents/product-documents/fr/home/20007F.pdf) |
 | be | habitation | ag | Assurance Incendie Top Habitation (2) | 2026-07-05 | [pdf](https://ag.be/particuliers/dam/transversal/retail/documents/product-documents/fr/home/30007F.pdf) |
 | be | habitation | amma | Assurance Incendie | 2026-07-05 | [pdf](https://www.amma.be/documents/48?lang=fr) |
-| be | habitation | amma | Assurance incendie (IPID) | 2026-07-05 | [pdf](https://www.amma.be/documents/51?lang=fr) |
+| be | habitation | amma | Assurance incendie - IPID | 2026-07-05 | [pdf](https://www.amma.be/documents/51?lang=fr) |
 | be | habitation | argenta | Assurance Résidence | 2026-07-05 | [pdf](https://www.argenta.be/content/dam/argenta/documents/assurer/assurance-incendie/conditions-generales-assurance-residence.pdf) |
-| be | habitation | argenta | Assurance Résidence (IPID) | 2026-07-05 | [pdf](https://www.argenta.be/content/dam/argenta/documents/assurer/ipid/IPID%20Assurance%20incendie.pdf) |
+| be | habitation | argenta | Assurance Résidence - IPID | 2026-07-05 | [pdf](https://www.argenta.be/content/dam/argenta/documents/assurer/ipid/IPID%20Assurance%20incendie.pdf) |
 | be | habitation | argenta | Assurance Résidence+ | 2026-07-05 | [pdf](https://www.argenta.be/content/dam/argenta/documents/assurer/assurance-incendie/conditions-generales-assurance-residence-plus.pdf) |
 | be | habitation | axa | Confort Habitation Flex | 2026-07-05 | [pdf](https://cdn.website.axa.be/fr-be/-/media/axa-documents/library-public/cg/6/3/6/a/7/418578402/Confort%20Habitation%20-%20Flex%20Garanties%20de%20base%20-%20Conditions%20G%C3%A9n%C3%A9rales%20-%2020241001.pdf?rev=78bfc7007dd547f586bb1d1152405489) |
-| be | habitation | axa | Confort Habitation Flex (IPID) | 2026-07-05 | [pdf](https://cdn.website.axa.be/fr-be/-/media/axa-documents/library-public/ipid/6/8/a/6/3/4186065/Confort%20Habitation%20-%20Flex%20-%20Fiches%20IPID%20-%2020241001.pdf?rev=4fc4b33d114f4db9b37347db7a5ab196) |
+| be | habitation | axa | Confort Habitation Flex - IPID | 2026-07-05 | [pdf](https://cdn.website.axa.be/fr-be/-/media/axa-documents/library-public/ipid/6/8/a/6/3/4186065/Confort%20Habitation%20-%20Flex%20-%20Fiches%20IPID%20-%2020241001.pdf?rev=4fc4b33d114f4db9b37347db7a5ab196) |
 | be | habitation | baloise | Habitation Select | 2026-07-05 | [pdf](https://www.baloise.be/dam/jcr:b8f29d19-63c3-4cb0-b5c1-d75fb14f9954/B2053.BRA.06.26-CG-Habitation-Select.pdf) |
-| be | habitation | baloise | Habitation Select (IPID) | 2026-07-05 | [pdf](https://www.baloise.be/dam/jcr:a2adcc84-59ae-4f2a-a891-076077277f20/B1251.BRA.06.26-Fiche-Ipid-Habitation-Select-FR.pdf) |
+| be | habitation | baloise | Habitation Select - IPID | 2026-07-05 | [pdf](https://www.baloise.be/dam/jcr:a2adcc84-59ae-4f2a-a891-076077277f20/B1251.BRA.06.26-Fiche-Ipid-Habitation-Select-FR.pdf) |
 | be | habitation | belfius | Belfius Home - Assurance Incendie | 2026-07-05 | [pdf](https://www.belfius.be/common/FR/multimedia/MMDownloadableFile/GeneralConditions/bhf-home.pdf) |
-| be | habitation | belfius | L’assurance habitation Belfius Home (IPID) | 2026-07-05 | [pdf](https://www.belfius.be/common/FR/multimedia/MMDownloadableFile/Insurance/IPID/IPID_Home.pdf) |
-| be | habitation | belfius-direct | Assurance Habitation (Fiche) | 2026-07-08 | [pdf](https://www.belfiusdirect.be/media/mqvdlasu/fiche-info-habitation.pdf) |
+| be | habitation | belfius | L'assurance habitation Belfius Home - IPID | 2026-07-05 | [pdf](https://www.belfius.be/common/FR/multimedia/MMDownloadableFile/Insurance/IPID/IPID_Home.pdf) |
+| be | habitation | belfius-direct | Assurance Habitation - Fiche | 2026-07-08 | [pdf](https://www.belfiusdirect.be/media/mqvdlasu/fiche-info-habitation.pdf) |
 | be | habitation | belfius-direct | Assurance Locataire | 2026-07-08 | [pdf](https://www.belfiusdirect.be/media/qa3lay1i/cg-locataire.pdf) |
-| be | habitation | belfius-direct | Assurance Locataire (Fiche) | 2026-07-08 | [pdf](https://www.belfiusdirect.be/media/nqdbmtpa/fiche-info-locataire.pdf) |
+| be | habitation | belfius-direct | Assurance Locataire - Fiche | 2026-07-08 | [pdf](https://www.belfiusdirect.be/media/nqdbmtpa/fiche-info-locataire.pdf) |
 | be | habitation | belfius-direct | Assurance Locataire Homie | 2026-07-08 | [pdf](https://www.belfiusdirect.be/media/rwwiug5f/cg-homie.pdf) |
-| be | habitation | belfius-direct | Assurance Locataire Homie - Standard (Fiche) | 2026-07-08 | [pdf](https://www.belfiusdirect.be/media/qb5bp3lf/fiche-info-homie-standard.pdf) |
+| be | habitation | belfius-direct | Assurance Locataire Homie - Standard - Fiche | 2026-07-08 | [pdf](https://www.belfiusdirect.be/media/qb5bp3lf/fiche-info-homie-standard.pdf) |
 | be | habitation | belfius-direct | Assurances Habitation | 2026-07-08 | [pdf](https://www.belfiusdirect.be/media/z5pfhrml/cg-habitation.pdf) |
 | be | habitation | dvv | Cocoon Flex | 2026-07-05 | [pdf](https://www.dvv.be/content/dam/dvv-site/verzekeringen/wonen/cocoon-flex/cocoon-flex-conditions-generales.pdf) |
-| be | habitation | dvv | L'assurance habitation Cocoon Flex (IPID) | 2026-07-05 | [pdf](https://www.dvv.be/content/dam/dvv-site/verzekeringen/wonen/cocoon-flex/cocoon-flex-document-d-information-sur-le-produit-d-assurance.pdf) |
+| be | habitation | dvv | L'assurance habitation Cocoon Flex - IPID | 2026-07-05 | [pdf](https://www.dvv.be/content/dam/dvv-site/verzekeringen/wonen/cocoon-flex/cocoon-flex-document-d-information-sur-le-produit-d-assurance.pdf) |
 | be | habitation | ethias | Assurance Habitation | 2026-07-05 | [pdf](https://www.ethias.be/content/dam/B2C/general/pdf/general-conditions/cg-habitation-fr.pdf) |
 | be | habitation | federale | Assurance Incendie Multirisk Habitation | 2026-07-05 | [pdf](https://www.federale.be/docs/default-source/default-document-library/algemeene-voorwaarden/2120115-(mult-habitation-)-04-25--avril-2025.pdf?sfvrsn=ef9c75d7_79) |
-| be | habitation | federale | Assurance incendie Multirisk Habitation (IPID) | 2026-07-05 | [pdf](https://www.federale.be/docs/default-source/default-document-library/ipid/2120100-(ipid-habitation).pdf?sfvrsn=50597fd7_52) |
+| be | habitation | federale | Assurance incendie Multirisk Habitation - IPID | 2026-07-05 | [pdf](https://www.federale.be/docs/default-source/default-document-library/ipid/2120100-(ipid-habitation).pdf?sfvrsn=50597fd7_52) |
 | be | habitation | kbc | Police habitation pour le locataire | 2026-07-05 | [pdf](https://multimediafiles.kbcgroup.eu/ng/published/KBC/PDF/VERZEKERINGEN/woning/kbc-police-habitation-locataire-residence-principale-conditions-generales.pdf) |
 | be | habitation | kbc | Police habitation pour le propriétaire | 2026-07-05 | [pdf](https://multimediafiles.kbcgroup.eu/ng/published/KBC/PDF/VERZEKERINGEN/woning/kbc-police-habitation-proprietaire-residence-principale-conditions-generales.pdf) |
 | be | habitation | nn | NN Home Insurance | 2026-07-05 | [pdf](https://www.nn.be/fr/document/7d0727b0-8747-4d8f-bd3a-48a01274d932) |
-| be | habitation | nn | NN Home Insurance (IPID) | 2026-07-05 | [pdf](https://www.nn.be/fr/document/a31f55d9-0fcb-46d3-aa56-31b7523a9a40) |
+| be | habitation | nn | NN Home Insurance - IPID | 2026-07-05 | [pdf](https://www.nn.be/fr/document/a31f55d9-0fcb-46d3-aa56-31b7523a9a40) |
 | be | habitation | pv | Ideal Habitation | 2026-07-05 | [pdf](https://www.pv.be/documents/2579080/2593653/PV_292_AV_FR_042023.pdf/2976115a-22b7-a990-8f20-953ecb3f00c1?t=1682155879081) |
-| be | habitation | pv | P&V Ideal Habitation (IPID) | 2026-07-05 | [pdf](https://www.pv.be/documents/2579080/2592925/IPID_292_PV_Brand_Brand_FR010_1282_2025.pdf/2e88715f-57f1-2efc-6ce5-4bc45298e907?t=1738328106229) |
+| be | habitation | pv | P&V Ideal Habitation - IPID | 2026-07-05 | [pdf](https://www.pv.be/documents/2579080/2592925/IPID_292_PV_Brand_Brand_FR010_1282_2025.pdf/2e88715f-57f1-2efc-6ce5-4bc45298e907?t=1738328106229) |
 | be | habitation | vivium | VIVIUM Habitation | 2026-07-05 | [pdf](https://www.vivium.be/documents/1091840/1198423/Conditions+g%C3%A9n%C3%A9rales+incendie+-+VIVIUM+Habitation+11-2014.pdf/d93229e1-5c38-43ab-834c-98b2277bd844?t=1741254372049) |
-| be | habitation | vivium | VIVIUM Habitation (IPID) | 2026-07-05 | [pdf](https://www.vivium.be/documents/1091840/1768384/IPID_292_VIV_Brand_Brand_8942F_2025.pdf/1aa9bf32-11bb-9b24-ca2b-99808daa2ca0?t=1741278797551) |
+| be | habitation | vivium | VIVIUM Habitation - IPID | 2026-07-05 | [pdf](https://www.vivium.be/documents/1091840/1768384/IPID_292_VIV_Brand_Brand_8942F_2025.pdf/1aa9bf32-11bb-9b24-ca2b-99808daa2ca0?t=1741278797551) |
 | be | habitation | yuzzu | Assurance Habitation | 2026-07-05 | [pdf](https://yuzzu-cms.cdn.prismic.io/yuzzu-cms/af2FsaYofJOwG-J5_Yuzzu_Home-05_CG_20260512.pdf) |
-| be | habitation | yuzzu | Assurance Habitation (IPID) | 2026-07-05 | [pdf](https://yuzzu-cms.cdn.prismic.io/yuzzu-cms/af2AVKYofJOwG-Ij_ipid_HF_Yuzzu_FR_20260512.pdf) |
+| be | habitation | yuzzu | Assurance Habitation - IPID | 2026-07-05 | [pdf](https://yuzzu-cms.cdn.prismic.io/yuzzu-cms/af2AVKYofJOwG-Ij_ipid_HF_Yuzzu_FR_20260512.pdf) |
 | be | navigation | axa | Navigation de plaisance - Assurance tous risques | 2026-07-05 | [pdf](https://cdn.website.axa.be/fr-be/-/media/axa-documents/library-public/cg/7/c/1/6/2/418386406201702/Navigation%20de%20Plaisance%20-%20Conditions%20G%C3%A9n%C3%A9rales%20-%2020250625.pdf) |
 | be | obseques | belfius-direct | Assurance Funérailles | 2026-07-08 | [pdf](https://www.belfiusdirect.be/media/nv2pyqdz/cg-fune-railles.pdf) |
-| be | obseques | belfius-direct | Assurance Funérailles (Fiche) | 2026-07-08 | [pdf](https://www.belfiusdirect.be/media/zt4facel/infofiche-uitvaartverzekering_fr.pdf) |
-| be | pension | athora | ADDENDUM au Règlement ou à la Convention de Pension et aux Conditions Générales (CP) | 2026-07-08 | [pdf](https://marketing.be.athora.site/documents_online/public/av-cg-vie/ADDENDUM_CG_Vie_Commun_FR.pdf) |
+| be | obseques | belfius-direct | Assurance Funérailles - Fiche | 2026-07-08 | [pdf](https://www.belfiusdirect.be/media/zt4facel/infofiche-uitvaartverzekering_fr.pdf) |
+| be | pension | athora | ADDENDUM au Règlement ou à la Convention de Pension et aux Conditions Générales - CP | 2026-07-08 | [pdf](https://marketing.be.athora.site/documents_online/public/av-cg-vie/ADDENDUM_CG_Vie_Commun_FR.pdf) |
 | be | pension | athora | Assurances Complémentaires — Engagement Individuel de Pension - Pension Libre Complémentaire pour Indépendants | 2026-07-08 | [pdf](https://marketing.be.athora.site/documents_online/public/av-cg-vie/1F797.pdf) |
 | be | pension | athora | Profilife EIP | 2026-07-08 | [pdf](https://marketing.be.athora.site/documents_online/public/av-cg-vie/1F893.pdf) |
 | be | pension | athora | SelfLife Protection & Pension | 2026-07-08 | [pdf](https://marketing.be.athora.site/documents_online/public/av-cg-vie/1F829.pdf) |
 | be | protection-juridique | axa | Confort Auto - Protection juridique – Fix | 2026-07-05 | [pdf](https://cdn.website.axa.be/fr-be/-/media/axa-documents/library-public/cg/c/6/e/2/4/418601302/Confort%20Auto%20-%20Protection%20juridique%20-%20LAR%20FIX%20-%2020240925.pdf) |
 | be | protection-juridique | axa | Confort Auto - Protection juridique – Full | 2026-07-05 | [pdf](https://cdn.website.axa.be/fr-be/-/media/axa-documents/library-public/cg/a/d/c/d/5/418601602/Confort%20Auto%20-%20Protection%20juridique%20-%20LAR%20FULL%20-%2020241014.pdf) |
-| be | protection-juridique | das | Bien immobilier à usage privé ou mixte (CP) | 2026-07-05 | [pdf](https://www-data.das.be/strapi/F6017_Bien_immobilier_a_usage_prive_ou_mixte_Current_terms_d0015b5e77.pdf) |
+| be | protection-juridique | das | Bien immobilier à usage privé ou mixte - CP | 2026-07-05 | [pdf](https://www-data.das.be/strapi/F6017_Bien_immobilier_a_usage_prive_ou_mixte_Current_terms_d0015b5e77.pdf) |
 | be | protection-juridique | das | Protection Juridique (2) | 2026-07-05 | [pdf](https://www-data.das.be/strapi/F5010_Conditions_generales_valable_10_2025_c5e7397ac0.pdf) |
-| be | protection-juridique | das | Protection Juridique DAS Classic (CP) | 2026-07-05 | [pdf](https://www-data.das.be/strapi/F5040_DAS_Classic_Current_Terms_b3009207a8.pdf) |
-| be | protection-juridique | das | Protection Juridique DAS Comfort (CP) | 2026-07-05 | [pdf](https://www-data.das.be/strapi/F5042_DAS_Comfort_Current_Terms_e0246b42c2.pdf) |
+| be | protection-juridique | das | Protection Juridique DAS Classic - CP | 2026-07-05 | [pdf](https://www-data.das.be/strapi/F5040_DAS_Classic_Current_Terms_b3009207a8.pdf) |
+| be | protection-juridique | das | Protection Juridique DAS Comfort - CP | 2026-07-05 | [pdf](https://www-data.das.be/strapi/F5042_DAS_Comfort_Current_Terms_e0246b42c2.pdf) |
 | be | protection-juridique | ethias | Assurance Aide Juridique | 2026-07-05 | [pdf](https://www.ethias.be/content/dam/B2C/general/pdf/general-conditions/cg-aide-juridique-fr.pdf) |
-| be | protection-juridique | ethias | Assurance Aide Juridique (IPID) | 2026-07-05 | [pdf](https://www.ethias.be/content/dam/B2C/general/pdf/infofiche/fi-aide-juridique-fr.pdf) |
+| be | protection-juridique | ethias | Assurance Aide Juridique - IPID | 2026-07-05 | [pdf](https://www.ethias.be/content/dam/B2C/general/pdf/infofiche/fi-aide-juridique-fr.pdf) |
 | be | rc-professionnelle | amma | R.C. Professionnelle | 2026-07-05 | [pdf](https://www.amma.be/documents/34?lang=fr) |
-| be | rc-professionnelle | amma | Responsabilité civile Professionnelle médicale (IPID) | 2026-07-05 | [pdf](https://www.amma.be/documents/40?lang=fr) |
-| be | rc-professionnelle | hiscox | Assurance RC Professionnelle « Consultancy » (IPID) | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2023-11/PI-IPID-HSA-PRO-MAN-BEFR-2024.pdf) |
-| be | rc-professionnelle | hiscox | Assurance RC Professionnelle « Marketing & Communication » (IPID) | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2023-11/PI-IPID-HSA-PRO-MAC-BEFR-2024.pdf) |
-| be | rc-professionnelle | hiscox | Assurance RC Professionnelle « Miscellaneous » (IPID) | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2023-11/PI-IPID-HSA-PRO-MISCL-BEFR-2024.pdf) |
-| be | rc-professionnelle | hiscox | Assurance RC Professionnelle «Technology» (IPID) | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2023-11/PI-IPID-HSA-PRO-TECHNOLOGY-BEFR-2024.pdf) |
-| be | rc-professionnelle | hiscox | Assurance « Responsabilité des dirigeants » (IPID) | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2024-06/D%26O%20-%20IPID%20HSA%20PRO%20-%20%20BEFR%202024.pdf) |
+| be | rc-professionnelle | amma | Responsabilité civile Professionnelle médicale - IPID | 2026-07-05 | [pdf](https://www.amma.be/documents/40?lang=fr) |
+| be | rc-professionnelle | hiscox | Assurance RC Professionnelle « Consultancy » - IPID | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2023-11/PI-IPID-HSA-PRO-MAN-BEFR-2024.pdf) |
+| be | rc-professionnelle | hiscox | Assurance RC Professionnelle « Marketing & Communication » - IPID | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2023-11/PI-IPID-HSA-PRO-MAC-BEFR-2024.pdf) |
+| be | rc-professionnelle | hiscox | Assurance RC Professionnelle « Miscellaneous » - IPID | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2023-11/PI-IPID-HSA-PRO-MISCL-BEFR-2024.pdf) |
+| be | rc-professionnelle | hiscox | Assurance RC Professionnelle «Technology» - IPID | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2023-11/PI-IPID-HSA-PRO-TECHNOLOGY-BEFR-2024.pdf) |
+| be | rc-professionnelle | hiscox | Assurance « Responsabilité des dirigeants » - IPID | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2024-06/D%26O%20-%20IPID%20HSA%20PRO%20-%20%20BEFR%202024.pdf) |
 | be | rc-professionnelle | hiscox | Assurances professionnelles by Hiscox | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2024-06/Conditions%20G%C3%A9n%C3%A9rales%20-%20n%C2%B0%20PRO202401.pdf) |
-| be | rc-professionnelle | hiscox | Responsabilité Civile Exploitation (CP) | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2023-11/Responsabilit%C3%A9-Civile-Exploitation-Conditionbs-Sp%C3%A9ciales--n%C2%B0-RC202401.pdf) |
-| be | rc-professionnelle | hiscox | Responsabilité Civile Exploitation (IPID) | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2023-11/PI-IPID-HSA-PRO-RESPONSABILITE-CIVIL-EXPLOITATION-BEFR-2024.pdf) |
-| be | rc-professionnelle | hiscox | Responsabilité Civile professionnelle Marketing & Communication (CP) | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2024-01/Con_Spec_MAC202401-FR_v3.pdf) |
-| be | rc-professionnelle | hiscox | Responsabilité Civile professionnelle Miscellaneous (CP) | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2024-01/Con_Spec_MISC202401-FR_v3.pdf) |
-| be | rc-professionnelle | hiscox | Responsabilité Civile professionnelle Miscellaneous (CP) (2) | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2026-04/Con_Spec_MISC202401-FR_v3%20%282%29.pdf) |
-| be | rc-professionnelle | hiscox | Responsabilité Civile professionnelle Technology (CP) | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2023-11/Responsabilit%C3%A9-Civile-professionnelle-Technology-Conditions-Sp%C3%A9ciales-n%C2%B0-PITECH202401.pdf) |
-| be | rc-professionnelle | hiscox | Responsabilité des dirigeants (CP) | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2024-06/Cond_Spec_DO202406-FR_v9.pdf) |
+| be | rc-professionnelle | hiscox | Responsabilité Civile Exploitation - CP | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2023-11/Responsabilit%C3%A9-Civile-Exploitation-Conditionbs-Sp%C3%A9ciales--n%C2%B0-RC202401.pdf) |
+| be | rc-professionnelle | hiscox | Responsabilité Civile Exploitation - IPID | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2023-11/PI-IPID-HSA-PRO-RESPONSABILITE-CIVIL-EXPLOITATION-BEFR-2024.pdf) |
+| be | rc-professionnelle | hiscox | Responsabilité Civile professionnelle Marketing & Communication - CP | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2024-01/Con_Spec_MAC202401-FR_v3.pdf) |
+| be | rc-professionnelle | hiscox | Responsabilité Civile professionnelle Miscellaneous - CP | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2024-01/Con_Spec_MISC202401-FR_v3.pdf) |
+| be | rc-professionnelle | hiscox | Responsabilité Civile professionnelle Miscellaneous - CP (2) | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2026-04/Con_Spec_MISC202401-FR_v3%20%282%29.pdf) |
+| be | rc-professionnelle | hiscox | Responsabilité Civile professionnelle Technology - CP | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2023-11/Responsabilit%C3%A9-Civile-professionnelle-Technology-Conditions-Sp%C3%A9ciales-n%C2%B0-PITECH202401.pdf) |
+| be | rc-professionnelle | hiscox | Responsabilité des dirigeants - CP | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2024-06/Cond_Spec_DO202406-FR_v9.pdf) |
 | be | sante | amma | AMMA HOSPI SAFE - SERENITY | 2026-07-05 | [pdf](https://www.amma.be/documents/365?lang=fr) |
 | be | sante | amma | AMMA HOSPI-PLAN | 2026-07-05 | [pdf](https://www.amma.be/documents/27?lang=fr) |
-| be | sante | amma | AMMA Hospi (IPID) | 2026-07-05 | [pdf](https://www.amma.be/documents/364?lang=fr) |
+| be | sante | amma | AMMA Hospi - IPID | 2026-07-05 | [pdf](https://www.amma.be/documents/364?lang=fr) |
 | be | sante | axa | Confort Personnes | 2026-07-05 | [pdf](https://cdn.website.axa.be/fr-be/-/media/axa-documents/library-public/cg/c/c/9/9/6/4183781-02/Confort%20Personnes%20-%20Conditions%20G%C3%A9n%C3%A9rales%20-%2020220613.pdf) |
-| be | sante | axa | Confort Personnes (IPID) | 2026-07-05 | [pdf](https://cdn.website.axa.be/fr-be/-/media/axa-documents/library-public/ipid/6/2/d/6/4/4186101/Confort%20Personnes%20-%20Fiches%20IPID%20-%2020180901.pdf) |
+| be | sante | axa | Confort Personnes - IPID | 2026-07-05 | [pdf](https://cdn.website.axa.be/fr-be/-/media/axa-documents/library-public/ipid/6/2/d/6/4/4186101/Confort%20Personnes%20-%20Fiches%20IPID%20-%2020180901.pdf) |
 | be | sante | belfius-direct | Assurance Hospitalisation | 2026-07-08 | [pdf](https://www.belfiusdirect.be/media/gb0czjsf/cg-hospitalisation-30062023.pdf) |
-| be | sante | belfius-direct | Assurance hospitalisation (Fiche) | 2026-07-08 | [pdf](https://www.belfiusdirect.be/media/2qzfbizf/fiche-info-hospitalisation.pdf) |
-| be | sante | dkv | DKV DAILY Comfort (Exit Group) (IPID) | 2026-07-05 | [pdf](https://biblio.dkv.be/pdfbib.ashx?lang=fr&id=32228) |
-| be | sante | dkv | DKV DAILY Essential (IPID) | 2026-07-05 | [pdf](https://biblio.dkv.be/pdfbib.ashx?lang=fr&id=32227) |
-| be | sante | dkv | DKV DAILY Premium (IPID) | 2026-07-05 | [pdf](https://biblio.dkv.be/pdfbib.ashx?lang=fr&id=32229) |
+| be | sante | belfius-direct | Assurance hospitalisation - Fiche | 2026-07-08 | [pdf](https://www.belfiusdirect.be/media/2qzfbizf/fiche-info-hospitalisation.pdf) |
+| be | sante | dkv | DKV DAILY Comfort (Exit Group) - IPID | 2026-07-05 | [pdf](https://biblio.dkv.be/pdfbib.ashx?lang=fr&id=32228) |
+| be | sante | dkv | DKV DAILY Essential - IPID | 2026-07-05 | [pdf](https://biblio.dkv.be/pdfbib.ashx?lang=fr&id=32227) |
+| be | sante | dkv | DKV DAILY Premium - IPID | 2026-07-05 | [pdf](https://biblio.dkv.be/pdfbib.ashx?lang=fr&id=32229) |
 | be | sante | dkv | DKV Daily Comfort (Exit Group) | 2026-07-05 | [pdf](https://biblio.dkv.be/pdfbib.ashx?lang=fr&id=12005) |
 | be | sante | dkv | DKV Daily Essential | 2026-07-05 | [pdf](https://biblio.dkv.be/pdfbib.ashx?lang=fr&id=12004) |
 | be | sante | dkv | DKV Daily Premium | 2026-07-05 | [pdf](https://biblio.dkv.be/pdfbib.ashx?lang=fr&id=12006) |
-| be | sante | dkv | DKV HOSPI Comfort (IPID) | 2026-07-05 | [pdf](https://biblio.dkv.be/pdfbib.ashx?lang=fr&id=31174) |
-| be | sante | dkv | DKV HOSPI Essential (IPID) | 2026-07-05 | [pdf](https://biblio.dkv.be/pdfbib.ashx?lang=fr&id=31173) |
-| be | sante | dkv | DKV HOSPI Premium + (IPID) | 2026-07-05 | [pdf](https://biblio.dkv.be/pdfbib.ashx?lang=fr&id=31175) |
+| be | sante | dkv | DKV HOSPI Comfort - IPID | 2026-07-05 | [pdf](https://biblio.dkv.be/pdfbib.ashx?lang=fr&id=31174) |
+| be | sante | dkv | DKV HOSPI Essential - IPID | 2026-07-05 | [pdf](https://biblio.dkv.be/pdfbib.ashx?lang=fr&id=31173) |
+| be | sante | dkv | DKV HOSPI Premium + - IPID | 2026-07-05 | [pdf](https://biblio.dkv.be/pdfbib.ashx?lang=fr&id=31175) |
 | be | sante | dkv | DKV Hospi Comfort | 2026-07-05 | [pdf](https://biblio.dkv.be/pdfbib.ashx?lang=fr&id=11102) |
 | be | sante | dkv | DKV Hospi Essential | 2026-07-05 | [pdf](https://biblio.dkv.be/pdfbib.ashx?lang=fr&id=11101) |
 | be | sante | dkv | DKV Hospi Premium + | 2026-07-05 | [pdf](https://biblio.dkv.be/pdfbib.ashx?lang=fr&id=11103) |
 | be | sante | dkv | DKV Hospi Premium, DKV Hospi Flexi, DKV Hospi Select, DKV Medi Pack, Horizon (plan de destination DKV Hospi Premium) | 2026-07-05 | [pdf](https://biblio.dkv.be/pdfbib.ashx?lang=fr&id=11904) |
-| be | sante | dkv | DKV MEDI PACK (IPID) | 2026-07-05 | [pdf](https://biblio.dkv.be/pdfbib.ashx?lang=fr&id=31124) |
+| be | sante | dkv | DKV MEDI PACK - IPID | 2026-07-05 | [pdf](https://biblio.dkv.be/pdfbib.ashx?lang=fr&id=31124) |
 | be | sante | dkv | DKV Medi Pack | 2026-07-05 | [pdf](https://biblio.dkv.be/pdfbib.ashx?lang=fr&id=22903) |
-| be | sante | dkv | DKV SMILE Comfort (IPID) | 2026-07-05 | [pdf](https://biblio.dkv.be/pdfbib.ashx?lang=fr&id=32217) |
-| be | sante | dkv | DKV SMILE Essential (IPID) | 2026-07-05 | [pdf](https://biblio.dkv.be/pdfbib.ashx?lang=fr&id=32218) |
-| be | sante | dkv | DKV SMILE Premium (IPID) | 2026-07-05 | [pdf](https://biblio.dkv.be/pdfbib.ashx?lang=fr&id=32216) |
+| be | sante | dkv | DKV SMILE Comfort - IPID | 2026-07-05 | [pdf](https://biblio.dkv.be/pdfbib.ashx?lang=fr&id=32217) |
+| be | sante | dkv | DKV SMILE Essential - IPID | 2026-07-05 | [pdf](https://biblio.dkv.be/pdfbib.ashx?lang=fr&id=32218) |
+| be | sante | dkv | DKV SMILE Premium - IPID | 2026-07-05 | [pdf](https://biblio.dkv.be/pdfbib.ashx?lang=fr&id=32216) |
 | be | sante | dkv | DKV Smile Comfort | 2026-07-05 | [pdf](https://biblio.dkv.be/pdfbib.ashx?lang=fr&id=12002) |
 | be | sante | dkv | DKV Smile Essential | 2026-07-05 | [pdf](https://biblio.dkv.be/pdfbib.ashx?lang=fr&id=12001) |
 | be | sante | dkv | DKV Smile Premium | 2026-07-05 | [pdf](https://biblio.dkv.be/pdfbib.ashx?lang=fr&id=12003) |
-| be | sante | ethias | Care+ (IPID) | 2026-07-05 | [pdf](https://www.ethias.be/content/dam/B2C/general/pdf/infofiche/fi-care-fr.pdf) |
 | be | sante | ethias | Care+ - Assurance soins ambulatoires et soins dentaires | 2026-07-05 | [pdf](https://www.ethias.be/content/dam/B2C/general/pdf/general-conditions/cg-ambulatoire-fr.pdf) |
+| be | sante | ethias | Care+ - IPID | 2026-07-05 | [pdf](https://www.ethias.be/content/dam/B2C/general/pdf/infofiche/fi-care-fr.pdf) |
 | be | sante | ethias | Hospi Quality | 2026-07-05 | [pdf](https://www.ethias.be/content/dam/B2C/general/pdf/general-conditions/cg-hospi-quality-fr.pdf) |
-| be | sante | ethias | Hospi Quality+ (IPID) | 2026-07-05 | [pdf](https://www.ethias.be/content/dam/B2C/general/pdf/infofiche/fi-hospi-quality-plus-fr.pdf) |
+| be | sante | ethias | Hospi Quality+ - IPID | 2026-07-05 | [pdf](https://www.ethias.be/content/dam/B2C/general/pdf/infofiche/fi-hospi-quality-plus-fr.pdf) |
 | be | sante | federale | F-CARE | 2026-07-05 | [pdf](https://www.federale.be/docs/default-source/default-document-library/algemeene-voorwaarden/f-care---conditions-g%C3%A9n%C3%A9rales.pdf?sfvrsn=83ec7fd7_16) |
-| be | sante | federale | F-CARE (IPID) | 2026-07-05 | [pdf](https://www.federale.be/docs/default-source/default-document-library/ipid/5130315-(ipid-f-care-fr).pdf?sfvrsn=6b9f7fd7_10) |
+| be | sante | federale | F-CARE - IPID | 2026-07-05 | [pdf](https://www.federale.be/docs/default-source/default-document-library/ipid/5130315-(ipid-f-care-fr).pdf?sfvrsn=6b9f7fd7_10) |
 | be | sante | kbc | Assurance Hospitalisation | 2026-07-05 | [pdf](https://multimediafiles.kbcgroup.eu/ng/published/KBC/PDF/VERZEKERINGEN/hospitalisatievzk/kbc-assurance-hospitalisation-conditions-generales.pdf) |
-| be | sante | kbc | KBC-Assurance hospitalisation (IPID) | 2026-07-05 | [pdf](https://multimediafiles.kbcgroup.eu/ng/published/KBC/PDF/VERZEKERINGEN/HOSPITALISATIEVZK/kbc-assurance-hospitalisation-document-information.pdf) |
+| be | sante | kbc | KBC-Assurance hospitalisation - IPID | 2026-07-05 | [pdf](https://multimediafiles.kbcgroup.eu/ng/published/KBC/PDF/VERZEKERINGEN/HOSPITALISATIEVZK/kbc-assurance-hospitalisation-document-information.pdf) |
 | be | velo | acm | ACM INSURANCE ASSURANCE VÉLO | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/velo/1.0/20250322_FR_CG_VELO_ACM_INSURANCE.pdf) |
-| be | velo | acm | ACM Insurance Assurance Vélo (IPID) | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/velo/1.0/20250820_IPID_Velo_FR.pdf) |
-| be | velo | axa | Confort Vélo+ (IPID) | 2026-07-05 | [pdf](https://cdn.website.axa.be/fr-be/-/media/axa-documents/library-public/ipid/8/2/7/9/4/Confort%20V%C3%A9lo+%20-%20Fiches%20IPID.pdf) |
+| be | velo | acm | ACM Insurance Assurance Vélo - IPID | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/velo/1.0/20250820_IPID_Velo_FR.pdf) |
+| be | velo | axa | Confort Vélo+ - IPID | 2026-07-05 | [pdf](https://cdn.website.axa.be/fr-be/-/media/axa-documents/library-public/ipid/8/2/7/9/4/Confort%20V%C3%A9lo+%20-%20Fiches%20IPID.pdf) |
 | be | velo | axa | Confort vélo+ | 2026-07-05 | [pdf](https://cdn.website.axa.be/fr-be/-/media/axa-documents/library-public/cg/6/4/5/3/6/4186535/Confort%20Velo%20+%20-%2020231211.pdf) |
 | be | velo | belfius-direct | Assurance Vélo | 2026-07-08 | [pdf](https://www.belfiusdirect.be/media/fntocylk/cg-velo.pdf) |
-| be | velo | belfius-direct | Assurance Vélo (Fiche) | 2026-07-08 | [pdf](https://www.belfiusdirect.be/media/zb0dinpc/fiche-info-velo.pdf) |
+| be | velo | belfius-direct | Assurance Vélo - Fiche | 2026-07-08 | [pdf](https://www.belfiusdirect.be/media/zb0dinpc/fiche-info-velo.pdf) |
 | be | velo | ethias | Assurance Bike & More | 2026-07-05 | [pdf](https://www.ethias.be/content/dam/B2C/general/pdf/general-conditions/cg-bikeandmore-fr.pdf) |
-| be | velo | ethias | Assurance Bike & More (IPID) | 2026-07-05 | [pdf](https://www.ethias.be/content/dam/B2C/general/pdf/infofiche/fi-velo-fr.pdf) |
-| be | velo | kbc | Police KBC pour votre Vélo (IPID) | 2026-07-05 | [pdf](https://multimediafiles.kbcgroup.eu/ng/published/KBC/PDF/VERZEKERINGEN/fiets/kbc-police-pour-votre-velo-informations.pdf) |
+| be | velo | ethias | Assurance Bike & More - IPID | 2026-07-05 | [pdf](https://www.ethias.be/content/dam/B2C/general/pdf/infofiche/fi-velo-fr.pdf) |
+| be | velo | kbc | Police KBC pour votre Vélo - IPID | 2026-07-05 | [pdf](https://multimediafiles.kbcgroup.eu/ng/published/KBC/PDF/VERZEKERINGEN/fiets/kbc-police-pour-votre-velo-informations.pdf) |
 | be | velo | kbc | Police pour votre vélo | 2026-07-05 | [pdf](https://multimediafiles.kbcgroup.eu/ng/published/KBC/PDF/VERZEKERINGEN/FIETS/kbc-police-pour-votre-velo-conditions-generales.pdf) |
 | be | vie-privee | acm | Family Serenity | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/famille/1.0/20241001_FR_CG_RC_Familiale_ACM_INSURANCE.pdf) |
-| be | vie-privee | acm | Family Serenity (IPID) | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/famille/1.0/20241001_IPID_Family_Serenity_FR.pdf) |
+| be | vie-privee | acm | Family Serenity - IPID | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/famille/1.0/20241001_IPID_Family_Serenity_FR.pdf) |
 | be | vie-privee | ag | Assurance de Responsabilité Top Familiale | 2026-07-05 | [pdf](https://ag.be/particuliers/dam/transversal/retail/documents/product-documents/fr/family/20027F.pdf) |
 | be | vie-privee | ag | Assurance de Responsabilité Top Familiale (2) | 2026-07-05 | [pdf](https://ag.be/particuliers/dam/transversal/retail/documents/product-documents/fr/family/30027F.pdf) |
 | be | vie-privee | amma | RC Vie Privée | 2026-07-05 | [pdf](https://www.amma.be/documents/42?lang=fr) |
-| be | vie-privee | amma | RC Vie Privée (IPID) | 2026-07-05 | [pdf](https://www.amma.be/documents/265?lang=fr) |
-| be | vie-privee | argenta | Assurance Protection familiale (IPID) | 2026-07-05 | [pdf](https://www.argenta.be/content/dam/argenta/documents/assurer/ipid/IPID%20Assurance%20familiale.pdf) |
+| be | vie-privee | amma | RC Vie Privée - IPID | 2026-07-05 | [pdf](https://www.amma.be/documents/265?lang=fr) |
+| be | vie-privee | argenta | Assurance Protection familiale - IPID | 2026-07-05 | [pdf](https://www.argenta.be/content/dam/argenta/documents/assurer/ipid/IPID%20Assurance%20familiale.pdf) |
 | be | vie-privee | argenta | Protection familiale | 2026-07-05 | [pdf](https://www.argenta.be/content/dam/argenta/documents/assurer/familiale/conditions-generales-assurance-familiale.pdf) |
-| be | vie-privee | axa | Confort vie privée - eFamily (IPID) | 2026-07-05 | [pdf](https://cdn.website.axa.be/fr-be/-/media/axa-documents/library-public/ipid/2/7/9/0/9/Confort%20Vie%20priv%C3%A9e%20-%20eFamily%20.pdf?rev=908a480066ae4c698e76a388cb164016) |
+| be | vie-privee | axa | Confort vie privée - eFamily - IPID | 2026-07-05 | [pdf](https://cdn.website.axa.be/fr-be/-/media/axa-documents/library-public/ipid/2/7/9/0/9/Confort%20Vie%20priv%C3%A9e%20-%20eFamily%20.pdf?rev=908a480066ae4c698e76a388cb164016) |
 | be | vie-privee | axa | Daylife Protect | 2026-07-05 | [pdf](https://cdn.website.axa.be/fr-be/-/media/axa-documents/library-public/cg/c/9/7/f/d/480086002/4800862%20%20%20DAYLIFE%20DE.pdf?rev=a280eda96f6c48fe95950027dbdd63b6) |
-| be | vie-privee | baloise | Assurance Famille Select (IPID) | 2026-07-05 | [pdf](https://www.baloise.be/dam/baloise-be/prive/documents/fr/IPID/B1283.VAR.01.19-Fiche-Ipid_Famille-Select-Fr.pdf) |
+| be | vie-privee | baloise | Assurance Famille Select - IPID | 2026-07-05 | [pdf](https://www.baloise.be/dam/baloise-be/prive/documents/fr/IPID/B1283.VAR.01.19-Fiche-Ipid_Famille-Select-Fr.pdf) |
 | be | vie-privee | baloise | Famille Select | 2026-07-05 | [pdf](https://www.baloise.be/dam/baloise-be/prive/documents/fr/AV/B2026.VAR.CG-Famille-Select.pdf) |
 | be | vie-privee | belfius | Belfius Family | 2026-07-05 | [pdf](https://www.belfius.be/common/FR/multimedia/MMDownloadableFile/GeneralConditions/bhf-family.pdf) |
-| be | vie-privee | belfius | L'assurance familiale Belfius Family (IPID) | 2026-07-05 | [pdf](https://www.belfius.be/common/FR/multimedia/MMDownloadableFile/Insurance/IPID/IPID_Family.pdf) |
+| be | vie-privee | belfius | L'assurance familiale Belfius Family - IPID | 2026-07-05 | [pdf](https://www.belfius.be/common/FR/multimedia/MMDownloadableFile/Insurance/IPID/IPID_Family.pdf) |
 | be | vie-privee | belfius-direct | Assurance Familiale | 2026-07-08 | [pdf](https://www.belfiusdirect.be/media/w3ll53gx/cg-familiale.pdf) |
-| be | vie-privee | belfius-direct | Assurance Familiale (Fiche) | 2026-07-08 | [pdf](https://www.belfiusdirect.be/media/ehwfl3mr/fiche-info-familiale.pdf) |
-| be | vie-privee | das | Protection Juridique DAS Connect (CP) | 2026-07-05 | [pdf](https://www-data.das.be/strapi/F5041_DAS_Connect_Current_Terms_9b5a940388.pdf) |
-| be | vie-privee | das | Protection Juridique Vie Privée (CP) | 2026-07-05 | [pdf](https://www-data.das.be/strapi/F5001_Vie_Privee_Current_terms_b0af8707cd.pdf) |
+| be | vie-privee | belfius-direct | Assurance Familiale - Fiche | 2026-07-08 | [pdf](https://www.belfiusdirect.be/media/ehwfl3mr/fiche-info-familiale.pdf) |
+| be | vie-privee | das | Protection Juridique DAS Connect - CP | 2026-07-05 | [pdf](https://www-data.das.be/strapi/F5041_DAS_Connect_Current_Terms_9b5a940388.pdf) |
+| be | vie-privee | das | Protection Juridique Vie Privée - CP | 2026-07-05 | [pdf](https://www-data.das.be/strapi/F5001_Vie_Privee_Current_terms_b0af8707cd.pdf) |
 | be | vie-privee | dvv | Assurance Responsabilité civile familiale | 2026-07-05 | [pdf](https://www.dvv.be/content/dam/dvv-site/verzekeringen/gezin/ba-familiale-verzekering/assurance-familiale-conditions-generales.pdf) |
-| be | vie-privee | dvv | L'assurance familiale (IPID) | 2026-07-05 | [pdf](https://www.dvv.be/content/dam/dvv-site/verzekeringen/gezin/ba-familiale-verzekering/assurance-familiale-document-d-information-sur-le-produit-d-assurance.pdf) |
+| be | vie-privee | dvv | L'assurance familiale - IPID | 2026-07-05 | [pdf](https://www.dvv.be/content/dam/dvv-site/verzekeringen/gezin/ba-familiale-verzekering/assurance-familiale-document-d-information-sur-le-produit-d-assurance.pdf) |
 | be | vie-privee | ethias | Assurance Familiale | 2026-07-05 | [pdf](https://www.ethias.be/content/dam/B2C/general/pdf/general-conditions/cg-familiale-fr.pdf) |
 | be | vie-privee | federale | Assurance Responsabilité Civile Familiale | 2026-07-05 | [pdf](https://www.federale.be/docs/default-source/default-document-library/algemeene-voorwaarden/2114027-(r-c-familiale)-04--25.pdf?sfvrsn=548e03d7_34) |
-| be | vie-privee | federale | Assurance Responsabilité civile Familiale (IPID) | 2026-07-05 | [pdf](https://www.federale.be/docs/default-source/default-document-library/ipid/2114018-(ipid-rc-familiale).pdf?sfvrsn=118e03d7_30) |
+| be | vie-privee | federale | Assurance Responsabilité civile Familiale - IPID | 2026-07-05 | [pdf](https://www.federale.be/docs/default-source/default-document-library/ipid/2114018-(ipid-rc-familiale).pdf?sfvrsn=118e03d7_30) |
 | be | vie-privee | kbc | La Police familiale | 2026-07-05 | [pdf](https://multimediafiles.kbcgroup.eu/ng/published/KBC/PDF/VERZEKERINGEN/gezinspolis/kbc-la-police-familiale-conditions-generales.pdf) |
 | be | vie-privee | nn | NN Family Insurance | 2026-07-05 | [pdf](https://www.nn.be/fr/document/9d0d54c2-a91b-4af5-885f-8a9ffdb18571) |
-| be | vie-privee | nn | NN Family Insurance (IPID) | 2026-07-05 | [pdf](https://www.nn.be/fr/document/3baaa4db-fe72-411a-9ecd-df65bd1cda07) |
+| be | vie-privee | nn | NN Family Insurance - IPID | 2026-07-05 | [pdf](https://www.nn.be/fr/document/3baaa4db-fe72-411a-9ecd-df65bd1cda07) |
 | be | vie-privee | pv | P&V Assurance Familiale | 2026-07-05 | [pdf](https://www.pv.be/documents/2579080/0/P%26V+Assurance+Familiale_conditions+g%C3%A9n%C3%A9rales_551_04_2025_FR.pdf/b9995dd5-9276-5abc-e35a-1573944e2391?t=1743092622215) |
-| be | vie-privee | pv | P&V Assurance Familiale (IPID) | 2026-07-05 | [pdf](https://www.pv.be/documents/2579080/0/IPID_551_PV+Assurance+Familiale_FR010_1274+_042025.pdf/a6b102cb-4f17-dcdc-6361-47308bdd82ad?t=1743093748243) |
+| be | vie-privee | pv | P&V Assurance Familiale - IPID | 2026-07-05 | [pdf](https://www.pv.be/documents/2579080/0/IPID_551_PV+Assurance+Familiale_FR010_1274+_042025.pdf/a6b102cb-4f17-dcdc-6361-47308bdd82ad?t=1743093748243) |
 | be | vie-privee | vivium | VIVIUM Assurance Familiale | 2026-07-05 | [pdf](https://www.vivium.be/documents/1091840/1198707/VIVIUM+Assurance+Familiale_conditions+g%C3%A9n%C3%A9rales_551_04_2025_FR.pdf/d6eb5dd4-f786-4fb7-3594-416d09c60757?t=1743089133770) |
-| be | vie-privee | vivium | Vivium Assurance Familiale (IPID) | 2026-07-05 | [pdf](https://www.vivium.be/documents/1091840/1783855/IPID_551_VIV+Assurance+Familiale_8913F_042025.pdf/1bc31cb8-6f34-1904-1db0-0d55fe27a5ca?t=1743089596428) |
-| be | voyage | axa | Assurance Voyage eTravel (IPID) | 2026-07-05 | [pdf](https://cdn.website.axa.be/fr-be/-/media/axa-documents/library-public/ipid/c/3/9/6/0/Fiche%20IPID%20Assurance%20Voyage%20eTravel.pdf) |
+| be | vie-privee | vivium | Vivium Assurance Familiale - IPID | 2026-07-05 | [pdf](https://www.vivium.be/documents/1091840/1783855/IPID_551_VIV+Assurance+Familiale_8913F_042025.pdf/1bc31cb8-6f34-1904-1db0-0d55fe27a5ca?t=1743089596428) |
+| be | voyage | axa | Assurance Voyage eTravel - IPID | 2026-07-05 | [pdf](https://cdn.website.axa.be/fr-be/-/media/axa-documents/library-public/ipid/c/3/9/6/0/Fiche%20IPID%20Assurance%20Voyage%20eTravel.pdf) |
 | be | voyage | belfius-direct | ASSISTANCE VOYAGE | 2026-07-08 | [pdf](https://www.belfiusdirect.be/media/goqhjbdg/cg-assistance-voyage.pdf) |
 | be | voyage | belfius-direct | ASSURANCE ASSISTANCE | 2026-07-08 | [pdf](https://www.belfiusdirect.be/media/iwupwa4m/cg-assistance.pdf) |
-| be | voyage | belfius-direct | Assistance Voyage (Fiche) | 2026-07-08 | [pdf](https://www.belfiusdirect.be/media/pbshojdo/fiche-info-assistance-voyage.pdf) |
-| be | voyage | belfius-direct | Assurance Assistance (Fiche) | 2026-07-08 | [pdf](https://www.belfiusdirect.be/media/bmrd0my3/fiche-info-assistance.pdf) |
-| be | voyage | ethias | Assistance Voyage (IPID) | 2026-07-05 | [pdf](https://www.ethias.be/content/dam/B2C/general/pdf/infofiche/fi-assistance-temp-fr.pdf) |
+| be | voyage | belfius-direct | Assistance Voyage - Fiche | 2026-07-08 | [pdf](https://www.belfiusdirect.be/media/pbshojdo/fiche-info-assistance-voyage.pdf) |
+| be | voyage | belfius-direct | Assurance Assistance - Fiche | 2026-07-08 | [pdf](https://www.belfiusdirect.be/media/bmrd0my3/fiche-info-assistance.pdf) |
+| be | voyage | ethias | Assistance Voyage - IPID | 2026-07-05 | [pdf](https://www.ethias.be/content/dam/B2C/general/pdf/infofiche/fi-assistance-temp-fr.pdf) |
 | be | voyage | ethias | Assistance temporaire | 2026-07-05 | [pdf](https://www.ethias.be/content/dam/B2C/general/pdf/general-conditions/cg-assistance-temp-fr.pdf) |
 | be | voyage | ethias | Assurance Assistance Family (Annuelle) | 2026-07-05 | [pdf](https://www.ethias.be/content/dam/B2C/general/pdf/general-conditions/cg-assistance-fr.pdf) |
-| be | voyage | ethias | Assurance Assistance Family (annuelle) (IPID) | 2026-07-05 | [pdf](https://www.ethias.be/content/dam/B2C/general/pdf/infofiche/fi-assistance-family-fr.pdf) |
-| be | voyage | federale | F-Protection (IPID) | 2026-07-05 | [pdf](https://www.federale.be/docs/default-source/default-document-library/ipid/2108046-(ipid---f-protection).pdf?sfvrsn=485c7fd7_43) |
+| be | voyage | ethias | Assurance Assistance Family (annuelle) - IPID | 2026-07-05 | [pdf](https://www.ethias.be/content/dam/B2C/general/pdf/infofiche/fi-assistance-family-fr.pdf) |
+| be | voyage | federale | F-Protection - IPID | 2026-07-05 | [pdf](https://www.federale.be/docs/default-source/default-document-library/ipid/2108046-(ipid---f-protection).pdf?sfvrsn=485c7fd7_43) |
 | be | voyage | federale | F-Protection ; F-Selection ; F-Mobility ; F-Mobility CT | 2026-07-05 | [pdf](https://www.federale.be/docs/default-source/default-document-library/algemeene-voorwaarden/2108050-(f-protection-selection-mobility-mobility-ct)-04--25.pdf?sfvrsn=4db251d7_40) |
 | be | voyage | kbc | KBC-Police pour vos voyages | 2026-07-05 | [pdf](https://multimediafiles.kbcgroup.eu/ng/PUBLISHED/KBC/PDF/VERZEKERINGEN/Conditions-generales-Police-pour-vos-voyages.pdf) |
 | be | voyage | kbc | KBC-Police vacances | 2026-07-05 | [pdf](https://multimediafiles.kbcgroup.eu/ng/published/KBC/PDF/VERZEKERINGEN/vakantiepolis/kbc-police-pour-vos-vacances-conditions-generales.pdf) |
-| be | voyage | kbc | Police KBC pour vos voyages (IPID) | 2026-07-05 | [pdf](https://multimediafiles.kbcgroup.eu/ng/published/KBC/PDF/VERZEKERINGEN/reisverzekering/kbc-police-pour-vos-voyages-informations.pdf) |
+| be | voyage | kbc | Police KBC pour vos voyages - IPID | 2026-07-05 | [pdf](https://multimediafiles.kbcgroup.eu/ng/published/KBC/PDF/VERZEKERINGEN/reisverzekering/kbc-police-pour-vos-voyages-informations.pdf) |
 | be | voyage | touring | Touring Explore | 2026-07-05 | [pdf](https://www.touring.be/fr/remote-documents/ReferenceDocument-225/CONDITIONS_GENERALES.0079-8425800F-01042026.pdf) |
-| be | voyage | touring | Touring Explore (IPID) | 2026-07-05 | [pdf](https://www.touring.be/fr/remote-documents/ReferenceDocument-189/FICHE_IPID.0079-8426600F-01042026.pdf) |
+| be | voyage | touring | Touring Explore - IPID | 2026-07-05 | [pdf](https://www.touring.be/fr/remote-documents/ReferenceDocument-189/FICHE_IPID.0079-8426600F-01042026.pdf) |
 | be | voyage | touring | Touring No Stop | 2026-07-05 | [pdf](https://www.touring.be/fr/remote-documents/ReferenceDocument-240/CONDITIONS_GENERALES.0079-8424800F-01042026.pdf) |
-| be | voyage | touring | Touring No Stop (IPID) | 2026-07-05 | [pdf](https://www.touring.be/fr/remote-documents/ReferenceDocument-205/FICHE_IPID.0079-8426300F-01042026.pdf) |
+| be | voyage | touring | Touring No Stop - IPID | 2026-07-05 | [pdf](https://www.touring.be/fr/remote-documents/ReferenceDocument-205/FICHE_IPID.0079-8426300F-01042026.pdf) |
 | be | voyage | touring | Touring Snowcard | 2026-07-05 | [pdf](https://www.touring.be/fr/remote-documents/ReferenceDocument-249/CONDITIONS_GENERALES.0079-8425900F-01042026.pdf) |
 | be | voyage | touring | Touring Travel | 2026-07-05 | [pdf](https://www.touring.be/fr/remote-documents/ReferenceDocument-252/CONDITIONS_GENERALES.0079-8424700F-01042026.pdf) |
-| be | voyage | touring | Touring Travel (IPID) | 2026-07-05 | [pdf](https://www.touring.be/fr/remote-documents/ReferenceDocument-211/FICHE_IPID.0079-8426400F-01042026.pdf) |
+| be | voyage | touring | Touring Travel - IPID | 2026-07-05 | [pdf](https://www.touring.be/fr/remote-documents/ReferenceDocument-211/FICHE_IPID.0079-8426400F-01042026.pdf) |

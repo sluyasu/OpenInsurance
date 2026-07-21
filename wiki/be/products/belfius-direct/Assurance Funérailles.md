@@ -201,7 +201,7 @@ Si le preneur d'assurance s'est vu offrir la possibilité d'opter pour l'indexat
 
 ## Documents liés
 
-- [Assurance Funérailles (Fiche)](Assurance%20Fun%C3%A9railles%20%28Fiche%29.md) - Fiche produit, éd. 15/01/2024
+- [Assurance Funérailles - Fiche](Assurance%20Fun%C3%A9railles%20-%20Fiche.md) - Fiche produit, éd. 15/01/2024
 
 ## Source & fidélité
 

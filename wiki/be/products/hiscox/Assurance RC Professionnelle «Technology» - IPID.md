@@ -197,7 +197,7 @@ Protection Juridique (en option), comprenant : la défense pénale ; la demande 
 
 ## Documents liés
 
-- [Responsabilité Civile professionnelle Technology (CP)](Responsabilit%C3%A9%20Civile%20professionnelle%20Technology%20%28CP%29.md) - Conditions particulières, éd. 2024-01
+- [Responsabilité Civile professionnelle Technology - CP](Responsabilit%C3%A9%20Civile%20professionnelle%20Technology%20-%20CP.md) - Conditions particulières, éd. 2024-01
 
 ## Source & fidélité
 
