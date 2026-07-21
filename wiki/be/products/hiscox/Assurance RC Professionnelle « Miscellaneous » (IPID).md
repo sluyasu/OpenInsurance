@@ -199,7 +199,7 @@ Protection Juridique proposée en option, comprenant notamment : Défense pénal
 
 ## Documents liés
 
-- [Responsabilité Civile professionnelle Miscellaneous (CP)](Responsabilit%C3%A9%20Civile%20professionnelle%20Miscellaneous%20%28CP%29%20%282%29.md) - Conditions particulières, éd. 2024-01
+- [Responsabilité Civile professionnelle Miscellaneous (CP)](Responsabilit%C3%A9%20Civile%20professionnelle%20Miscellaneous%20%28CP%29.md) - Conditions particulières, éd. 2024-01
 
 ## Source & fidélité
 

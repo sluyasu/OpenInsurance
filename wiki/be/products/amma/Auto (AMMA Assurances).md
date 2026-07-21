@@ -15,8 +15,7 @@ tags:
 - insurance/be/auto
 - product
 - insurer/amma
-aliases:
-- Auto
+aliases: []
 source_url: https://www.amma.be/documents/54?lang=fr
 source_pages: 70
 fetched_at: '2026-07-05'

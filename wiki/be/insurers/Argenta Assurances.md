@@ -31,8 +31,8 @@ generated: true
 ## Produits par branche
 
 ### [Auto](../branches/Auto.md)
-- [Assurance Auto](../products/argenta/Assurance%20Auto.md) - Conditions générales (01-10-2024) · réf. DW24042
-- [Assurance Auto](../products/argenta/Assurance%20Auto%20%282%29.md) - Conditions générales (2024-11-01) · réf. DW24112
+- [Assurance Auto](../products/argenta/Assurance%20Auto%20%282%29.md) - Conditions générales (01-10-2024) · réf. DW24042
+- [Assurance Auto](../products/argenta/Assurance%20Auto.md) - Conditions générales (2024-11-01) · réf. DW24112
 - [Assurance auto (IPID)](../products/argenta/Assurance%20auto%20%28IPID%29.md) - IPID / Fiche d'information (01/10/2025) · réf. DW25093
 
 ### [Autres](../branches/Autres.md)

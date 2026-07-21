@@ -17,7 +17,7 @@ tags:
 - insurer/acm
 aliases:
 - Home Serenity
-source_url: https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/logement/1.0/20241001_FR_CG_HABITATION_ACM_INSURANCE_2.pdf
+source_url: https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/logement/1.0/20241001_FR_CG_HABITATION_ACM_INSURANCE.pdf
 source_pages: 52
 fetched_at: '2026-07-08'
 extraction_model: claude-code-subagent:scale
@@ -299,7 +299,7 @@ En cas de conflit non résolu vous opposant à un tiers, nous garantissons la mi
 
 - Durée : Le contrat d’assurance est conclu pour une durée de 1 an et prend cours à la date indiquée aux Conditions Particulières pour autant que la première prime ait été payée
 - Reconduction tacite : oui
-- Préavis : Le preneur d’assurance peut s’opposer à la reconduction au moins 2 mois avant l’échéance annuelle, l’assureur au moins 3 mois avant l’échéance annuelle. Résiliation par le preneur : pour la fin de chaque période d’assurance, au moins deux mois avant. Résiliation par l’assureur : à chaque échéance annuelle, au moins trois mois avant. Après l’expiration d’un délai d’un an à compter de la prise d’effet, le preneur peut résilier à tout moment sans frais ni pénalités
+- Préavis : Le preneur d’assurance peut s’opposer à la reconduction au moins 2 mois avant l’échéance annuelle, l’assureur au moins 3 mois avant l’échéance annuelle. Résiliation par le preneur : pour la fin de chaque période d’assurance, au moins trois mois avant. Résiliation par l’assureur : à chaque échéance annuelle, au moins trois mois avant. Après l’expiration d’un délai d’un an à compter de la prise d’effet, le preneur peut résilier à tout moment sans frais ni pénalités
 - Modalité : Par exploit d’huissier, par envoi recommandé à la poste, ou par remise de la lettre de résiliation contre récépissé
 - Droit spécial : Résiliation possible : suite à un sinistre (au plus tard un mois après le paiement ou le refus de paiement de l’indemnité) ; en cas de diminution sensible et durable du risque ; en cas de modification du tarif ; en cas de non-paiement de prime ; en cas d’aggravation du risque ; en cas de fraude ou tentative de fraude ; de plein droit (disparition de l’intérêt, cession de bien). Droit de rétractation de 14 jours calendrier en cas de vente à distance. En cas de décès du preneur, le contrat est transféré au nouveau titulaire, qui peut y renoncer dans les trois mois et quarante jours
 
@@ -325,6 +325,7 @@ Le délai de prescription de toute action dérivant du contrat est de trois ans.
 ## Lacunes d'extraction
 
 - Les montants des garanties, sommes assurées, limites d’indemnités et franchises ne sont pas chiffrés dans les Conditions Générales : ils renvoient aux Conditions Particulières propres à chaque police.
+- Le millésime indiqué en page de couverture est « 10/2024 » et la référence en bas de dernière page « (10/2024) », mais l’en-tête courant des pages 2 à 51 indique « 06/2024 ».
 - Le document ne mentionne pas de code de branche propre au produit ; seules les branches d’agrément de l’assureur sont indiquées (1a, 2, 3, 8, 9, 10a, 13, 16 et 17, code 0964).
 
 ## Documents liés
@@ -335,6 +336,6 @@ Le délai de prescription de toute action dérivant du contrat est de trois ans.
 
 ## Source & fidélité
 
-- Source : [https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/logement/1.0/20241001_FR_CG_HABITATION_ACM_INSURANCE_2.pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/logement/1.0/20241001_FR_CG_HABITATION_ACM_INSURANCE_2.pdf) - téléchargé le 2026-07-08 - 52 pages
+- Source : [https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/logement/1.0/20241001_FR_CG_HABITATION_ACM_INSURANCE.pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/logement/1.0/20241001_FR_CG_HABITATION_ACM_INSURANCE.pdf) - téléchargé le 2026-07-08 - 52 pages
 - Extraction : claude-code-subagent:scale · prompt v1.1
 - ⚠️ Ceci n'est pas le document officiel de l'assureur et peut contenir des erreurs d'extraction. Information, non un conseil - vérifiez toujours par rapport au document source.

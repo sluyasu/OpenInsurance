@@ -149,8 +149,8 @@ Assistance médicale à l'étranger (dans le monde entier) en cas de maladie, ac
 
 ## Documents liés
 
-- [Assurance Auto](Assurance%20Auto.md) - Conditions générales, éd. 01-10-2024
-- [Assurance Auto](Assurance%20Auto%20%282%29.md) - Conditions générales, éd. 2024-11-01
+- [Assurance Auto](Assurance%20Auto%20%282%29.md) - Conditions générales, éd. 01-10-2024
+- [Assurance Auto](Assurance%20Auto.md) - Conditions générales, éd. 2024-11-01
 
 ## Source & fidélité
 

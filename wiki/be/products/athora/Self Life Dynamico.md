@@ -182,8 +182,8 @@ La compagnie couvre les dommages causés par le terrorisme ; elle est membre à 
 ## Documents liés
 
 - Édition courante de ce produit.
-- [Self Life Dynamico](Self%20Life%20Dynamico%20%282%29.md) - Conditions générales, éd. 07/2020
 - [Self Life Dynamico](Self%20Life%20Dynamico%20%283%29.md) - Conditions générales, éd. 07/2020
+- [Self Life Dynamico](Self%20Life%20Dynamico%20%282%29.md) - Conditions générales, éd. 07/2020
 
 ## Source & fidélité
 

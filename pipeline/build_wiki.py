@@ -61,11 +61,31 @@ def main() -> int:
     seen: dict[Path, int] = {}
     by_insurer: dict[str, list[dict]] = {}
     product_page: dict[int, Path] = {}      # id(obj) -> path
+    branch_titles = {render.branch_label(country_meta, b)
+                     for b in (country_meta.get("branches") or {})}
+
+    def name_priority(obj: dict) -> tuple:
+        """The current edition claims the bare filename; superseded ones take a suffix.
+        Otherwise the bare name goes to whichever file loaded first, which published
+        Argenta's withdrawn 2024 Assurance Auto at the name readers land on. Sorted by
+        source_url after that, so the assignment is stable across rebuilds."""
+        st = (relations.get(obj.get("source_url")) or {}).get("edition_status")
+        rank = {"current": 0, "superseded": 2}.get(st, 1)
+        return (rank, obj.get("source_url") or "")
+
     for obj in products:
         slug = obj.get("insurer_slug", "unknown")
         obj["insurer_name"] = obj.get("insurer_name") or insurer_names.get(slug, slug)
         by_insurer.setdefault(slug, []).append(obj)
+
+    for obj in sorted(products, key=name_priority):
+        slug = obj.get("insurer_slug", "unknown")
         title = render.product_title(obj)
+        # A product must not take a branch page's filename: AMMA's "Auto" competed with
+        # the Auto branch overview, and a bare [[Auto]] in a hand-authored page could
+        # resolve to either. The displayed label stays the product name.
+        if title in branch_titles:
+            title = f"{title} ({obj['insurer_name']})"
         path = prod_root / slug / f"{title}.md"
         if path in seen:
             seen[path] += 1

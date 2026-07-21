@@ -44,8 +44,8 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | be | animaux | belfius-direct | Assurance Animaux de compagnie (Fiche) | 2026-07-08 | [pdf](https://www.belfiusdirect.be/media/3yvpecvj/fiche_info_assurance_animaux_de_compagnie.pdf) |
 | be | auto | acm | ACM INSURANCE ASSURANCE AUTO | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/auto-pros/1.0/20250925_FR_CG_AUTO_ACM_INSURANCE.pdf) |
 | be | auto | acm | ACM INSURANCE ASSURANCE AUTO (2) | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/auto/1.0/20250925_FR_CG_AUTO_ACM_INSURANCE.pdf) |
-| be | auto | acm | ACM Insurance Assurance Auto (IPID) | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/auto/1.0/20250916_IPID_Auto_FR.pdf) |
-| be | auto | acm | ACM Insurance Assurance Auto (IPID) (2) | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/auto-pros/1.0/20250916_IPID_Auto_FR.pdf) |
+| be | auto | acm | ACM Insurance Assurance Auto (IPID) | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/auto-pros/1.0/20250916_IPID_Auto_FR.pdf) |
+| be | auto | acm | ACM Insurance Assurance Auto (IPID) (2) | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/auto/1.0/20250916_IPID_Auto_FR.pdf) |
 | be | auto | acm | Moto Serenity | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/moto/1.0/20241001_FR_CG_MOTO_ACM_INSURANCE.pdf) |
 | be | auto | acm | Moto Serenity (IPID) | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/moto/1.0/20241001_IPID_Moto_Serenity_FR.pdf) |
 | be | auto | acm | Scoot' & Bike Serenity (IPID) | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/scoot-bike/1.0/20241001_IPID_Scoot_Bike_Serenity_FR.pdf) |
@@ -55,14 +55,14 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | be | auto | actel | Assurance Auto - Actel Direct | 2026-07-08 | [pdf](https://www.actel.be/documents/d/actel/assurance-auto-actel-conditions-generales-start-mini-omnium-maxi-omnium-vol-confort-conducteur-confort-assistance-confort-juridique-?download=true) |
 | be | auto | actel | Assurance Moto | 2026-07-08 | [pdf](https://www.actel.be/documents/d/actel/conditions-generales-moto-fr?download=true) |
 | be | auto | actel | Couverture « Bob » | 2026-07-08 | [pdf](https://www.actel.be/documents/d/actel/assurance-auto-actel-garantie-bob?download=true) |
-| be | auto | actel | P&V Auto (IPID) | 2026-07-08 | [pdf](https://www.actel.be/documents/d/actel/ipid-moto_fr) |
-| be | auto | actel | P&V Auto (IPID) (2) | 2026-07-08 | [pdf](https://www.actel.be/documents/d/actel/ipid-auto-fr) |
+| be | auto | actel | P&V Auto (IPID) | 2026-07-08 | [pdf](https://www.actel.be/documents/d/actel/ipid-auto-fr) |
+| be | auto | actel | P&V Auto (IPID) (2) | 2026-07-08 | [pdf](https://www.actel.be/documents/d/actel/ipid-moto_fr) |
 | be | auto | ag | Assurance RC Auto | 2026-07-05 | [pdf](https://ag.be/particuliers/dam/transversal/retail/documents/product-documents/fr/vehicles/20004F.pdf) |
 | be | auto | ag | Top Omnium - Top Occasium | 2026-07-05 | [pdf](https://ag.be/particuliers/dam/transversal/retail/documents/product-documents/fr/vehicles/24286F.pdf) |
 | be | auto | amma | Assurance Auto (IPID) | 2026-07-05 | [pdf](https://www.amma.be/documents/278?lang=fr) |
-| be | auto | amma | Auto | 2026-07-05 | [pdf](https://www.amma.be/documents/54?lang=fr) |
-| be | auto | argenta | Assurance Auto | 2026-07-05 | [pdf](https://www.argenta.be/content/dam/argenta/documents/assurer/assurance-auto/conditions-generales-assurance-auto-2024-octobre.pdf) |
-| be | auto | argenta | Assurance Auto (2) | 2026-07-05 | [pdf](https://www.argenta.be/content/dam/argenta/documents/assurer/assurance-auto/conditions-generales-assurance-auto-2024.pdf) |
+| be | auto | amma | Auto (AMMA Assurances) | 2026-07-05 | [pdf](https://www.amma.be/documents/54?lang=fr) |
+| be | auto | argenta | Assurance Auto | 2026-07-05 | [pdf](https://www.argenta.be/content/dam/argenta/documents/assurer/assurance-auto/conditions-generales-assurance-auto-2024.pdf) |
+| be | auto | argenta | Assurance Auto (2) | 2026-07-05 | [pdf](https://www.argenta.be/content/dam/argenta/documents/assurer/assurance-auto/conditions-generales-assurance-auto-2024-octobre.pdf) |
 | be | auto | argenta | Assurance auto (IPID) | 2026-07-05 | [pdf](https://www.argenta.be/content/dam/argenta/documents/assurer/ipid/IPID%20Assurance%20auto.pdf) |
 | be | auto | axa | Confort Auto | 2026-07-05 | [pdf](https://cdn.website.axa.be/fr-be/-/media/axa-documents/library-public/cg/7/5/8/4/f/4185995/Confort%20Auto%20-%20Responsabilite%20-%2020260622.pdf?rev=f2132cc300724e1c8b5e8f140f733c05) |
 | be | auto | axa | Confort Auto (IPID) | 2026-07-05 | [pdf](https://cdn.website.axa.be/fr-be/-/media/axa-documents/library-public/ipid/3/8/c/d/a/Confort%20Auto%20-%20Fiches%20IPID.pdf?rev=61403fbd02284a4fa311dd16b0714750) |
@@ -123,8 +123,8 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | be | epargne | athora | Safe Horizon 5 by Athora | 2026-07-08 | [pdf](https://marketing.be.athora.site/documents_online/public/av-cg-vie/1F898_ED0924.pdf) |
 | be | epargne | athora | Self Life | 2026-07-08 | [pdf](https://marketing.be.athora.site/documents_online/public/av-cg-vie/1F648.pdf) |
 | be | epargne | athora | Self Life Dynamico | 2026-07-08 | [pdf](https://marketing.be.athora.site/documents_online/public/av-cg-vie/1F891.pdf) |
-| be | epargne | athora | Self Life Dynamico (2) | 2026-07-08 | [pdf](https://marketing.be.athora.site/documents_online/public/av-cg-vie/1F806.pdf) |
-| be | epargne | athora | Self Life Dynamico (3) | 2026-07-08 | [pdf](https://marketing.be.athora.site/documents_online/public/av-cg-vie/1F758.pdf) |
+| be | epargne | athora | Self Life Dynamico (2) | 2026-07-08 | [pdf](https://marketing.be.athora.site/documents_online/public/av-cg-vie/1F758.pdf) |
+| be | epargne | athora | Self Life Dynamico (3) | 2026-07-08 | [pdf](https://marketing.be.athora.site/documents_online/public/av-cg-vie/1F806.pdf) |
 | be | epargne | athora | Self Life Dynamico Junior | 2026-07-08 | [pdf](https://marketing.be.athora.site/documents_online/public/av-cg-vie/1F804.pdf) |
 | be | epargne | athora | Self Life Dynamico Junior (2) | 2026-07-08 | [pdf](https://marketing.be.athora.site/documents_online/public/av-cg-vie/1F805.pdf) |
 | be | epargne | athora | Serenity Dynamico | 2026-07-08 | [pdf](https://marketing.be.athora.site/documents_online/public/av-cg-vie/1F813.pdf) |
@@ -137,12 +137,12 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | be | epargne | ergo | Free (Fiche) | 2026-07-08 | [pdf](https://www.ergo.be/priips/free%20%20111107%20fr.pdf) |
 | be | epargne | ergo | Program (Fiche) | 2026-07-08 | [pdf](https://www.ergo.be/priips/program%20dd120305%20fr.pdf) |
 | be | epargne | ergo | Terme Fixe (Fiche) | 2026-07-08 | [pdf](https://www.ergo.be/priips/terme_fixefr_010210.pdf) |
-| be | habitation | acm | Home Serenity | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/logement/1.0/20241001_FR_CG_HABITATION_ACM_INSURANCE_2.pdf) |
-| be | habitation | acm | Home Serenity (2) | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/logement/1.0/20241001_FR_CG_HABITATION_ACM_INSURANCE.pdf) |
+| be | habitation | acm | Home Serenity | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/logement/1.0/20241001_FR_CG_HABITATION_ACM_INSURANCE.pdf) |
+| be | habitation | acm | Home Serenity (2) | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/logement/1.0/20241001_FR_CG_HABITATION_ACM_INSURANCE_2.pdf) |
 | be | habitation | acm | Home Serenity (IPID) | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/logement/1.0/20241001_IPID_Home_Serenity_FR.pdf) |
 | be | habitation | actel | Homeprotect | 2026-07-08 | [pdf](https://www.actel.be/documents/d/actel/assurance-incendie-actel-conditions-generales-assistance-habitation-assurance-habitation-assurance-familiale-?download=true) |
-| be | habitation | ag | Assurance Incendie Top Habitation | 2026-07-05 | [pdf](https://ag.be/particuliers/dam/transversal/retail/documents/product-documents/fr/home/30007F.pdf) |
-| be | habitation | ag | Assurance Incendie Top Habitation (2) | 2026-07-05 | [pdf](https://ag.be/particuliers/dam/transversal/retail/documents/product-documents/fr/home/20007F.pdf) |
+| be | habitation | ag | Assurance Incendie Top Habitation | 2026-07-05 | [pdf](https://ag.be/particuliers/dam/transversal/retail/documents/product-documents/fr/home/20007F.pdf) |
+| be | habitation | ag | Assurance Incendie Top Habitation (2) | 2026-07-05 | [pdf](https://ag.be/particuliers/dam/transversal/retail/documents/product-documents/fr/home/30007F.pdf) |
 | be | habitation | amma | Assurance Incendie | 2026-07-05 | [pdf](https://www.amma.be/documents/48?lang=fr) |
 | be | habitation | amma | Assurance incendie (IPID) | 2026-07-05 | [pdf](https://www.amma.be/documents/51?lang=fr) |
 | be | habitation | argenta | Assurance Résidence | 2026-07-05 | [pdf](https://www.argenta.be/content/dam/argenta/documents/assurer/assurance-incendie/conditions-generales-assurance-residence.pdf) |
@@ -201,8 +201,8 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | be | rc-professionnelle | hiscox | Responsabilité Civile Exploitation (CP) | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2023-11/Responsabilit%C3%A9-Civile-Exploitation-Conditionbs-Sp%C3%A9ciales--n%C2%B0-RC202401.pdf) |
 | be | rc-professionnelle | hiscox | Responsabilité Civile Exploitation (IPID) | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2023-11/PI-IPID-HSA-PRO-RESPONSABILITE-CIVIL-EXPLOITATION-BEFR-2024.pdf) |
 | be | rc-professionnelle | hiscox | Responsabilité Civile professionnelle Marketing & Communication (CP) | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2024-01/Con_Spec_MAC202401-FR_v3.pdf) |
-| be | rc-professionnelle | hiscox | Responsabilité Civile professionnelle Miscellaneous (CP) | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2026-04/Con_Spec_MISC202401-FR_v3%20%282%29.pdf) |
-| be | rc-professionnelle | hiscox | Responsabilité Civile professionnelle Miscellaneous (CP) (2) | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2024-01/Con_Spec_MISC202401-FR_v3.pdf) |
+| be | rc-professionnelle | hiscox | Responsabilité Civile professionnelle Miscellaneous (CP) | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2024-01/Con_Spec_MISC202401-FR_v3.pdf) |
+| be | rc-professionnelle | hiscox | Responsabilité Civile professionnelle Miscellaneous (CP) (2) | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2026-04/Con_Spec_MISC202401-FR_v3%20%282%29.pdf) |
 | be | rc-professionnelle | hiscox | Responsabilité Civile professionnelle Technology (CP) | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2023-11/Responsabilit%C3%A9-Civile-professionnelle-Technology-Conditions-Sp%C3%A9ciales-n%C2%B0-PITECH202401.pdf) |
 | be | rc-professionnelle | hiscox | Responsabilité des dirigeants (CP) | 2026-07-08 | [pdf](https://www.hiscox.be/sites/be/files/2024-06/Cond_Spec_DO202406-FR_v9.pdf) |
 | be | sante | amma | AMMA HOSPI SAFE - SERENITY | 2026-07-05 | [pdf](https://www.amma.be/documents/365?lang=fr) |
@@ -253,8 +253,8 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | be | velo | kbc | Police pour votre vélo | 2026-07-05 | [pdf](https://multimediafiles.kbcgroup.eu/ng/published/KBC/PDF/VERZEKERINGEN/FIETS/kbc-police-pour-votre-velo-conditions-generales.pdf) |
 | be | vie-privee | acm | Family Serenity | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/famille/1.0/20241001_FR_CG_RC_Familiale_ACM_INSURANCE.pdf) |
 | be | vie-privee | acm | Family Serenity (IPID) | 2026-07-08 | [pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/famille/1.0/20241001_IPID_Family_Serenity_FR.pdf) |
-| be | vie-privee | ag | Assurance de Responsabilité Top Familiale | 2026-07-05 | [pdf](https://ag.be/particuliers/dam/transversal/retail/documents/product-documents/fr/family/30027F.pdf) |
-| be | vie-privee | ag | Assurance de Responsabilité Top Familiale (2) | 2026-07-05 | [pdf](https://ag.be/particuliers/dam/transversal/retail/documents/product-documents/fr/family/20027F.pdf) |
+| be | vie-privee | ag | Assurance de Responsabilité Top Familiale | 2026-07-05 | [pdf](https://ag.be/particuliers/dam/transversal/retail/documents/product-documents/fr/family/20027F.pdf) |
+| be | vie-privee | ag | Assurance de Responsabilité Top Familiale (2) | 2026-07-05 | [pdf](https://ag.be/particuliers/dam/transversal/retail/documents/product-documents/fr/family/30027F.pdf) |
 | be | vie-privee | amma | RC Vie Privée | 2026-07-05 | [pdf](https://www.amma.be/documents/42?lang=fr) |
 | be | vie-privee | amma | RC Vie Privée (IPID) | 2026-07-05 | [pdf](https://www.amma.be/documents/265?lang=fr) |
 | be | vie-privee | argenta | Assurance Protection familiale (IPID) | 2026-07-05 | [pdf](https://www.argenta.be/content/dam/argenta/documents/assurer/ipid/IPID%20Assurance%20familiale.pdf) |

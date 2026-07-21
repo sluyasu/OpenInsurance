@@ -49,6 +49,6 @@ index:
 	$(PY) pipeline/build_index.py --country $(COUNTRY)
 
 validate:
-	$(PY) pipeline/validate.py --country $(COUNTRY)
+	$(PY) pipeline/validate.py --country $(COUNTRY) --strict-links
 
 all: download extract ground-strict build index validate

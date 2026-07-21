@@ -187,8 +187,8 @@ Garantie optionnelle.
 
 ## Documents liés
 
-- [Home Serenity](Home%20Serenity.md) - Conditions générales, éd. 10/2024
 - [Home Serenity](Home%20Serenity%20%282%29.md) - Conditions générales, éd. 10/2024
+- [Home Serenity](Home%20Serenity.md) - Conditions générales, éd. 10/2024
 
 ## Source & fidélité
 

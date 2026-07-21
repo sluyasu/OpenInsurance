@@ -35,7 +35,7 @@ generated: true
 
 ### [Auto](../branches/Auto.md)
 - [Assurance Auto (IPID)](../products/amma/Assurance%20Auto%20%28IPID%29.md) - IPID / Fiche d'information (0226) · réf. 04-AU-IPID-0226-FR
-- [Auto](../products/amma/Auto.md) - Conditions générales (0622) · réf. 04-AU-CG-PDF-0622-V02-FR
+- [Auto](../products/amma/Auto%20%28AMMA%20Assurances%29.md) - Conditions générales (0622) · réf. 04-AU-CG-PDF-0622-V02-FR
 
 ### [Autres](../branches/Autres.md)
 - [Revenu Garanti](../products/amma/Revenu%20Garanti.md) - Conditions générales (0224) · réf. 06-RG-CG-PDF-0224-V02-FR

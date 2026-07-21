@@ -46,8 +46,8 @@ generated: true
 - [Responsabilité Civile Exploitation (IPID)](../products/hiscox/Responsabilit%C3%A9%20Civile%20Exploitation%20%28IPID%29.md) - IPID / Fiche d'information (2024) · réf. IPID PROFRHSA
 - [Responsabilité Civile Exploitation (CP)](../products/hiscox/Responsabilit%C3%A9%20Civile%20Exploitation%20%28CP%29.md) - Conditions particulières (2024-01) · réf. RC202401
 - [Responsabilité Civile professionnelle Marketing & Communication (CP)](../products/hiscox/Responsabilit%C3%A9%20Civile%20professionnelle%20Marketing%20%26%20Communication%20%28CP%29.md) - Conditions particulières (2024-01) · réf. PIMAC202401
-- [Responsabilité Civile professionnelle Miscellaneous (CP)](../products/hiscox/Responsabilit%C3%A9%20Civile%20professionnelle%20Miscellaneous%20%28CP%29.md) - Conditions particulières (2024-01) · réf. Conditions Spéciales - n° PIMISC202401
-- [Responsabilité Civile professionnelle Miscellaneous (CP)](../products/hiscox/Responsabilit%C3%A9%20Civile%20professionnelle%20Miscellaneous%20%28CP%29%20%282%29.md) - Conditions particulières (2024-01) · réf. PIMISC202401
+- [Responsabilité Civile professionnelle Miscellaneous (CP)](../products/hiscox/Responsabilit%C3%A9%20Civile%20professionnelle%20Miscellaneous%20%28CP%29%20%282%29.md) - Conditions particulières (2024-01) · réf. Conditions Spéciales - n° PIMISC202401
+- [Responsabilité Civile professionnelle Miscellaneous (CP)](../products/hiscox/Responsabilit%C3%A9%20Civile%20professionnelle%20Miscellaneous%20%28CP%29.md) - Conditions particulières (2024-01) · réf. PIMISC202401
 - [Responsabilité Civile professionnelle Technology (CP)](../products/hiscox/Responsabilit%C3%A9%20Civile%20professionnelle%20Technology%20%28CP%29.md) - Conditions particulières (2024-01) · réf. PITECH202401
 - [Responsabilité des dirigeants (CP)](../products/hiscox/Responsabilit%C3%A9%20des%20dirigeants%20%28CP%29.md) - Conditions particulières (2024-06) · réf. Conditions Spéciales n°DO2406
 

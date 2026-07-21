@@ -146,7 +146,14 @@ def render_product(obj: dict, country_meta: dict, relation: dict | None = None,
         "edition_date": obj.get("edition_date"),
         "lang": obj.get("language"),
         "tags": [f"insurance/{cc}/{branch}", "product", f"insurer/{slug}"],
-        "aliases": [obj.get("product_name")] if obj.get("product_name") else [],
+        # A generated page must not claim a name the hand-authored layer owns: AMMA's
+        # product is really called "Auto", but keeping that alias let a bare [[Auto]] in
+        # a glossary page resolve to a product instead of the Auto branch overview.
+        "aliases": ([obj["product_name"]]
+                    if obj.get("product_name")
+                    and obj["product_name"] not in {branch_label(country_meta, b)
+                                                    for b in (country_meta.get("branches") or {})}
+                    else []),
         "source_url": obj.get("source_url"),
         "source_pages": obj.get("source_pages"),
         "fetched_at": obj.get("fetched_at"),

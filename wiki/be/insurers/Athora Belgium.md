@@ -43,8 +43,8 @@ generated: true
 - [Safe Horizon 5 by Athora](../products/athora/Safe%20Horizon%205%20by%20Athora.md) - Conditions générales (09/2024) · réf. 1F898
 - [Self Life](../products/athora/Self%20Life.md) - Conditions générales (07/2020) · réf. 1F648A - 07/2020
 - [Self Life Dynamico](../products/athora/Self%20Life%20Dynamico.md) - Conditions générales (01/2026) · réf. 1F891
-- [Self Life Dynamico](../products/athora/Self%20Life%20Dynamico%20%282%29.md) - Conditions générales (07/2020) · réf. 1F806
-- [Self Life Dynamico](../products/athora/Self%20Life%20Dynamico%20%283%29.md) - Conditions générales (07/2020) · réf. 1F758A - 07/2020
+- [Self Life Dynamico](../products/athora/Self%20Life%20Dynamico%20%283%29.md) - Conditions générales (07/2020) · réf. 1F806
+- [Self Life Dynamico](../products/athora/Self%20Life%20Dynamico%20%282%29.md) - Conditions générales (07/2020) · réf. 1F758A - 07/2020
 - [Self Life Dynamico Junior](../products/athora/Self%20Life%20Dynamico%20Junior.md) - Conditions générales (01/2026) · réf. 1F804
 - [Self Life Dynamico Junior](../products/athora/Self%20Life%20Dynamico%20Junior%20%282%29.md) - Conditions générales (01/2026) · réf. 1F805
 - [Serenity Dynamico](../products/athora/Serenity%20Dynamico.md) - Conditions générales (07/2020) · réf. 1F813
