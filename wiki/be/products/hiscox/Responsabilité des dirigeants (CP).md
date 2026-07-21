@@ -8,6 +8,7 @@ branch: rc-professionnelle
 product_name: Responsabilité des dirigeants
 document_type: conditions_particulieres
 target_audience: entreprises
+target_audience_note: null
 reference: Conditions Spéciales n°DO2406
 edition_date: 2024-06
 lang: fr

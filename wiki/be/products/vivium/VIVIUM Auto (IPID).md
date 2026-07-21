@@ -8,6 +8,7 @@ branch: auto
 product_name: VIVIUM Auto
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: 8.933F - 01.2025
 edition_date: '01.2025'
 lang: fr

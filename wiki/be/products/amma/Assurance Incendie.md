@@ -8,6 +8,7 @@ branch: habitation
 product_name: Assurance Incendie
 document_type: conditions_generales
 target_audience: particuliers
+target_audience_note: null
 reference: 05-IN-CG-PDF-0506-V03-FR
 edition_date: 2006-05
 lang: fr

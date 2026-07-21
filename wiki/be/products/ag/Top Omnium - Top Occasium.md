@@ -8,6 +8,7 @@ branch: auto
 product_name: Top Omnium / Top Occasium
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 0079-2428638F-18112023
 edition_date: 18/11/2023
 lang: fr

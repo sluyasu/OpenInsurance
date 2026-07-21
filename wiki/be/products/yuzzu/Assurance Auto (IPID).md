@@ -8,6 +8,7 @@ branch: auto
 product_name: Assurance Auto
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: TCAR08
 edition_date: 12/05/2026
 lang: fr
@@ -83,9 +84,9 @@ Indemnisation des lésions corporelles ou du décès du conducteur en cas de sin
 ### Assistance - p. 1
 Chacune des options suivantes peut être souscrite indépendamment les unes des autres : Assistance en cas d'accident (véhicule de remplacement) ; Assistance en cas de panne ; Assistance à l'étranger.
 - Optionnelle : oui · Portée : Assistance en cas d'accident et Assistance en cas de panne : En Belgique et 50 km au-delà des frontières. Assistance à l'étranger : Pour les véhicules dans les pays de l'Union Européenne et pour les personnes dans le monde entier à l'exception de la Belgique. · Limite : Les plafonds d'intervention financière dépendent des formules souscrites et sont précisés dans les conditions générales et/ou particulières de votre contrat.
-  - Sous-limite : {'name': "Assistance en cas d'accident (véhicule de remplacement)", 'description': 'Option pouvant être souscrite indépendamment.', 'territorial_scope': 'En Belgique et 50 km au-delà des frontières.'}
-  - Sous-limite : {'name': 'Assistance en cas de panne', 'description': 'Option pouvant être souscrite indépendamment.', 'territorial_scope': 'En Belgique et 50 km au-delà des frontières.'}
-  - Sous-limite : {'name': "Assistance à l'étranger", 'description': 'Option pouvant être souscrite indépendamment.', 'territorial_scope': "Pour les véhicules dans les pays de l'Union Européenne et pour les personnes dans le monde entier à l'exception de la Belgique."}
+  - Sous-limite : Assistance en cas d'accident (véhicule de remplacement): Option pouvant être souscrite indépendamment.
+  - Sous-limite : Assistance en cas de panne: Option pouvant être souscrite indépendamment.
+  - Sous-limite : Assistance à l'étranger: Option pouvant être souscrite indépendamment.
 
 ## Exclusions
 

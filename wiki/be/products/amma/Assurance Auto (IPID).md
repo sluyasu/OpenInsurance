@@ -8,6 +8,7 @@ branch: auto
 product_name: Assurance Auto
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: 04-AU-IPID-0226-FR
 edition_date: '0226'
 lang: fr

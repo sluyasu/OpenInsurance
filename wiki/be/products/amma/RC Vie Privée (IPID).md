@@ -8,6 +8,7 @@ branch: vie-privee
 product_name: RC Vie Privée
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: 2025-ipid-rcvieprivee-fr
 edition_date: '2025'
 lang: fr

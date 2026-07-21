@@ -8,6 +8,7 @@ branch: velo
 product_name: Confort vélo+
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 4186535-20231211
 edition_date: '12.2023'
 lang: fr
@@ -70,7 +71,7 @@ Confort vélo+ est une assurance et assistance d'AXA Belgium (avec Inter Partner
 ### Le vol - p. 5
 Le vol ou les dégâts résultant d'un vol ou d'une tentative de vol : par effraction dans une habitation, dans un box à vélos fermé à clé ou dans un local entièrement clos, couvert et fermé à clé ; ou avec forcement de l'antivol, pour autant que le vélo ait été correctement attaché à un point d'attache fixe par un antivol agréé ; ou par effraction dans un véhicule fermé à clé ou sur un véhicule pour autant que le vélo ait été correctement attaché à la remorque, à la galerie de toit ou au porte-vélo par un antivol agréé, avec forcement de celui-ci ; ou par agression physique du conducteur (bike-jacking). Par vol, nous entendons le fait pour une personne de soustraire frauduleusement une chose qui ne lui appartient pas. Est assimilé au vol, le fait de soustraire frauduleusement la chose d'autrui en vue d'un usage momentané. Nous couvrons également les accessoires acquis postérieurement à la souscription et non pris en compte dans la valeur assurée, indemnisés selon les mêmes règles de dégressivité que le vélo.
 - Optionnelle : non · Portée : En Belgique, ainsi que dans le monde entier pour les voyages et séjours n'excédant pas une durée continue de 2 mois. · Franchise : La franchise précisée dans les conditions particulières est d'application.
-  - Sous-limite : {'name': 'Accessoires acquis postérieurement non pris en compte dans la valeur assurée', 'limit': "jusqu'à concurrence de maximum 250 EUR TVA comprise"}
+  - Sous-limite : Accessoires acquis postérieurement non pris en compte dans la valeur assurée: jusqu'à concurrence de maximum 250 EUR TVA comprise
   - Condition : Le vélo doit avoir été correctement attaché à un point d'attache fixe par un antivol agréé (en cas de forcement de l'antivol).
   - Condition : En cas de vol sur/dans un véhicule, le vélo doit avoir été correctement attaché à la remorque, la galerie de toit ou le porte-vélo par un antivol agréé.
   - Condition : Vous devez pouvoir présenter votre antivol agréé endommagé ou sa facture d'achat datée d'avant le sinistre, ou les clés de cet antivol.
@@ -78,7 +79,7 @@ Le vol ou les dégâts résultant d'un vol ou d'une tentative de vol : par effra
 ### Les dégâts matériels - p. 6
 Les dégâts causés par suite d'un accident, du transport du vélo y compris son chargement et son déchargement, d'un acte de vandalisme ou de malveillance. Nous couvrons également l'équipement porté par le cycliste (casque, lunettes, montre, équipement vestimentaire ou de protection spécifique), sauf en l'absence d'autres dégâts au vélo résultant du même sinistre, ainsi que les accessoires acquis postérieurement à la souscription et non pris en compte dans la valeur assurée. L'équipement du cycliste est indemnisé en valeur réelle, les accessoires sont indemnisés selon les mêmes règles de dégressivité que le vélo.
 - Optionnelle : non · Portée : En Belgique, ainsi que dans le monde entier pour les voyages et séjours n'excédant pas une durée continue de 2 mois. · Franchise : La franchise précisée dans les conditions particulières est d'application.
-  - Sous-limite : {'name': 'Équipement du cycliste et accessoires acquis postérieurement (deux postes cumulés)', 'limit': 'notre intervention est limitée à maximum 250 EUR TVA comprise pour ces deux postes cumulés'}
+  - Sous-limite : Équipement du cycliste et accessoires acquis postérieurement (deux postes cumulés): notre intervention est limitée à maximum 250 EUR TVA comprise pour ces deux postes cumulés
 
 ### L'assistance vélo - p. 6
 Vous pouvez obtenir les prestations d'assistance en téléphonant, 24 heures sur 24, 7j/7j au 02 550 05 55. L'assistance vélo vous est acquise si vous êtes immobilisé de manière inattendue ou inapte à circuler dans des conditions raisonnables de sécurité suite à : un accident de roulage, une panne, un pneu crevé, un cas de vandalisme, un vol ou une tentative de vol, une perte de clé du cadenas et/ou cadenas bloqué (moyennant présentation sur demande d'une preuve d'identité ou d'achat du vélo). Vous veillerez à nous contacter avant toute intervention et à n'engager des frais d'assistance qu'avec notre accord, sauf en cas de force majeure.
@@ -90,12 +91,12 @@ Vous pouvez obtenir les prestations d'assistance en téléphonant, 24 heures sur
 ### Assistance en cas de vol du vélo - p. 7
 Si votre vélo a été volé, nous prenons en charge votre transport jusqu'à votre lieu de départ, lieu d'arrivée ou tout autre lieu de votre choix en Belgique. Si vous êtes accompagné de membres de votre famille, nous les prenons également en charge (maximum 5 personnes). Si l'assistance concerne un vélo de location temporaire, notre intervention sera acquise si vous ne disposez pas d'une assistance dans votre contrat de location, mais elle se limitera alors à vous ramener chez le loueur.
 - Optionnelle : non · Portée : Uniquement en Belgique et dans un rayon de 30 km au-delà de nos frontières.
-  - Sous-limite : {'name': 'Prise en charge des membres de la famille accompagnants', 'limit': 'maximum 5 personnes'}
+  - Sous-limite : Prise en charge des membres de la famille accompagnants: maximum 5 personnes
 
 ### Assistance en cas d'accident, panne, pneu crevé, vandalisme ou tentative de vol du vélo, perte de clé du cadenas et/ou cadenas bloqué - p. 7
 Nous organisons et prenons en charge l'intervention d'un dépanneur sur le lieu même où votre vélo est immobilisé à la suite d'un sinistre ou au premier endroit accessible au véhicule de dépannage proche du lieu de l'immobilisation. Lorsque la remise en circulation de votre vélo est impossible ou que les conditions raisonnables de sécurité pour effectuer le dépannage ne peuvent être garanties sur le lieu de l'immobilisation, nous assurons votre transport et celui de votre vélo chez le réparateur de votre choix ou jusqu'à votre lieu de départ, lieu d'arrivée ou tout autre lieu de votre choix en Belgique, ou les deux si vous n'attendez pas la réparation sur place. Si vous êtes accompagné de membres de votre famille, nous les prenons également en charge (maximum 5 personnes).
 - Optionnelle : non · Portée : Uniquement en Belgique et dans un rayon de 30 km au-delà de nos frontières.
-  - Sous-limite : {'name': 'Prise en charge des membres de la famille accompagnants', 'limit': 'maximum 5 personnes'}
+  - Sous-limite : Prise en charge des membres de la famille accompagnants: maximum 5 personnes
   - Condition : Si l'assistance concerne un vélo de location temporaire, notre intervention sera acquise si vous ne disposez pas d'une assistance dans votre contrat de location, mais elle se limitera alors à vous ramener chez le loueur.
 
 ### Vélo de remplacement - p. 7
@@ -110,8 +111,8 @@ En cas d'accident garanti, nous prenons en compte les conséquences des dommages
 ### Le décès (option Sécurité du cycliste) - p. 14
 Nous intervenons à condition que le décès soit la conséquence exclusive de l'accident. En formule « Personne seule », nous remboursons les frais funéraires à la personne justifiant les avoir réglés. En formule « Famille », nous payons le montant par assuré victime aux héritiers légaux. En aucun cas, les bénéficiaires ne peuvent prétendre à une quelconque indemnité pour les préjudices subis pendant les jours de survie précédant son décès par l'assuré victime d'un accident garanti.
 - Optionnelle : oui · Portée : En Belgique, ainsi que dans le monde entier pour les voyages et séjours n'excédant pas une durée continue de 2 mois.
-  - Sous-limite : {'name': 'Formule « Personne seule » (frais funéraires)', 'limit': 'à concurrence de maximum 5.000 EUR'}
-  - Sous-limite : {'name': 'Formule « Famille » (par assuré victime aux héritiers légaux)', 'limit': 'le montant de 50.000 EUR par assuré victime'}
+  - Sous-limite : Formule « Personne seule » (frais funéraires): à concurrence de maximum 5.000 EUR
+  - Sous-limite : Formule « Famille » (par assuré victime aux héritiers légaux): le montant de 50.000 EUR par assuré victime
   - Condition : Le décès doit être la conséquence exclusive de l'accident.
 
 ### Les frais de traitement (option Sécurité du cycliste) - p. 15

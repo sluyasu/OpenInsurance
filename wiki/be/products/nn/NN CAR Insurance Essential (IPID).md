@@ -7,11 +7,12 @@ insurer_slug: nn
 branch: auto
 product_name: NN CAR Insurance Essential
 document_type: ipid
-target_audience: Personnes physiques et morales à partir de 18 ans ayant leur résidence
-  principale en Belgique. L'assurance auto s'adresse aux particuliers, aux personnes
-  exerçant une profession libérale et aux professionnels, pour autant qu'il ne s'agisse
-  pas d'un transport rémunéré de personnes ou de marchandises ou d'un leasing professionnel
-  ou d'une location professionnelle de véhicules.
+target_audience: null
+target_audience_note: Personnes physiques et morales à partir de 18 ans ayant leur
+  résidence principale en Belgique. L'assurance auto s'adresse aux particuliers, aux
+  personnes exerçant une profession libérale et aux professionnels, pour autant qu'il
+  ne s'agisse pas d'un transport rémunéré de personnes ou de marchandises ou d'un
+  leasing professionnel ou d'une location professionnelle de véhicules.
 reference: IPID-NNcaress-fr-12/2025
 edition_date: 12/2025
 lang: fr

@@ -8,6 +8,7 @@ branch: velo
 product_name: ACM INSURANCE ASSURANCE VÉLO
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 16.53.25
 edition_date: 04/2025
 lang: fr

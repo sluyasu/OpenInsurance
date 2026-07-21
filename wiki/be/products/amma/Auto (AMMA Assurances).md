@@ -7,7 +7,9 @@ insurer_slug: amma
 branch: auto
 product_name: Auto
 document_type: conditions_generales
-target_audience: Membres du corps médical et paramédical (sociétaires d'AMMA ASSURANCES)
+target_audience: null
+target_audience_note: Membres du corps médical et paramédical (sociétaires d'AMMA
+  ASSURANCES)
 reference: 04-AU-CG-PDF-0622-V02-FR
 edition_date: '0622'
 lang: fr
@@ -115,14 +117,14 @@ AMMA ASSURANCES assure le véhicule contre la détérioration ou la destruction 
 ### Garantie Vol - p. 35
 AMMA ASSURANCES assure le vol du véhicule garanti ainsi que sa détérioration du fait d'une infraction, d'un vol ou d'une tentative de vol accompagnés ou non de violence sur la personne, y compris en cas de home- ou car-jacking ; le vol ou la détérioration des options et accessoires garantis, de l'équipement audio ou de l'installation de protection contre le vol, pour autant qu'ils aient eu lieu par effraction ou violence. En cas de vol des clefs et/ou de la commande à distance du système antivol (plainte dans les 24 heures) : frais de remplacement des serrures et de reprogrammation du système antivol.
 - Optionnelle : oui · Limite : Frais du traitement médical suite aux lésions encourues lors d'une tentative de vol ou vol avec violence (home-/car-jacking) : max € 1.500 par personne, après déduction des indemnités du tiers payeur (non cumulable avec l'assurance Conducteur). · Franchise : Franchise éventuelle prévue aux Conditions Particulières.
-  - Sous-limite : {'name': 'Frais de traitement médical (vol avec violence / home- / car-jacking)', 'value': 'max. € 1.500 par personne'}
+  - Sous-limite : Frais de traitement médical (vol avec violence / home- / car-jacking): max. € 1.500 par personne
   - Condition : Uniquement acquise pour autant qu'il en soit expressément fait mention aux Conditions Particulières.
   - Condition : En cas de vol, plainte à déposer immédiatement auprès des autorités et déclaration à AMMA dans les 24 heures.
 
 ### Garantie Mini (Bris de Vitres, Forces de la Nature, Chute d'engins aériens/spatiaux, Contact direct avec des animaux) - p. 36
 En plus des garanties Incendie et Vol, AMMA garantit : Bris de Vitres (remplacement des vitres avant, arrière et latérales, y compris frais de montage, et toit ouvrant vitré/panoramique servant de toit ouvrant) ; Forces de la Nature (éboulement de rochers, chutes de pierres, glissements de terrain, avalanches, pression/chute de masse de neige ou de glace, ouragan, grêle, hautes eaux, inondations, tremblements de terre, tempête, trombes d'eau, raz de marée, incendie de forêt, irruption volcanique) ; chute d'engins aériens ou spatiaux ou parties de ceux-ci ; contact direct avec un ou plusieurs animaux (sauf omission de déclarer la collision dans les 24 heures aux services de police).
 - Optionnelle : oui · Franchise : L'indemnité pour bris de vitrages n'est payée qu'en cas de réparation/remplacement et si non indemnisé par la garantie Dégâts Matériels ; franchise de € 125 si réparation/remplacement hors Carglass ou organisme agréé.
-  - Sous-limite : {'name': 'Bris de Vitres - franchise hors Carglass/organisme agréé', 'value': 'franchise de € 125'}
+  - Sous-limite : Bris de Vitres - franchise hors Carglass/organisme agréé: franchise de € 125
   - Condition : Uniquement acquise pour autant qu'il en soit expressément fait mention aux Conditions Particulières.
 
 ### Garantie Maxi (Dégâts Matériels) - p. 37
@@ -138,19 +140,19 @@ La couverture s'étend à l'indemnisation des biens professionnels appartenant a
 ### Interventions complémentaires (garanties Incendie/Vol/Mini/Maxi) - p. 33
 En cas de sinistre garanti, AMMA paie jusqu'à € 1.000 taxes comprises : frais d'extinction d'incendie, frais normaux de démontage pour le devis estimatif, frais de garage provisoire jusqu'à la clôture de l'expertise. Payent aussi : taxe de mise en circulation (TMC max € 1.000), frais de contrôle technique, frais de renouvellement de plaque (max € 30), réimportation (droits/amendes/frais de transport pour rapatrier le véhicule, total max € 1.500). Inclut un véhicule de remplacement (voir Assistance).
 - Optionnelle : oui · Limite : Frais d'extinction/démontage/garage : total € 1.000 taxes comprises ; TMC : max € 1.000 ; renouvellement de plaque : max € 30 ; réimportation : total € 1.500 taxes comprises.
-  - Sous-limite : {'name': "Frais d'extinction, démontage, garage provisoire", 'value': 'total € 1.000, taxes comprises'}
-  - Sous-limite : {'name': 'Taxe de mise en circulation (TMC)', 'value': 'max. € 1.000'}
-  - Sous-limite : {'name': "Renouvellement de la plaque d'immatriculation", 'value': 'max. € 30'}
-  - Sous-limite : {'name': 'Réimportation (droits et frais de transport)', 'value': 'total € 1.500, taxes comprises'}
+  - Sous-limite : Frais d'extinction, démontage, garage provisoire: total € 1.000, taxes comprises
+  - Sous-limite : Taxe de mise en circulation (TMC): max. € 1.000
+  - Sous-limite : Renouvellement de la plaque d'immatriculation: max. € 30
+  - Sous-limite : Réimportation (droits et frais de transport): total € 1.500, taxes comprises
   - Condition : Toujours acquises dans le cadre des assurances Incendie, Vol, Mini et/ou Maxi.
   - Condition : AMMA n'intervient qu'après épuisement des prestations de l'assureur-assisteur si ces frais sont couverts par ce dernier.
 
 ### Assurance Conducteur - p. 38
 En cas d'accident survenu à l'assuré et dû à l'usage du véhicule assuré, AMMA paie l'indemnité suivant le montant assuré. Indemnités : en cas de décès (frais funéraires sur pièces justificatives, préjudice économique et moral des bénéficiaires) ; en cas de lésions corporelles (préjudice économique et moral de l'incapacité temporaire ou permanente, totale ou partielle) ; frais de traitements médicaux et frais accessoires (traitement médical, hospitalisation, prothèse et orthopédie, médicaments, transport, aide d'une tierce personne, frais esthétiques) supportés avant consolidation et au plus tard 3 ans après l'accident ; vêtements et bagages personnels (max € 1.500, hors bijoux, espèces ou objets précieux).
 - Optionnelle : oui · Portée : Dans les limites géographiques du contrat type d'assurance obligatoire R.C. véhicules automoteurs. · Limite : Le montant assuré s'applique par sinistre : € 600.000 (formule de base) ou € 1.000.000 (formule maxi). Seules les invalidités de 15% ou plus seront intégralement indemnisées. Bagages personnels : max € 1.500.
-  - Sous-limite : {'name': 'Vêtements et bagages personnels', 'value': "jusqu'à € 1.500 (hors bijoux, espèces, objets précieux)"}
-  - Sous-limite : {'name': 'Formule de base', 'value': '€ 600.000 par sinistre'}
-  - Sous-limite : {'name': 'Formule maxi', 'value': '€ 1.000.000 par sinistre'}
+  - Sous-limite : Vêtements et bagages personnels: jusqu'à € 1.500 (hors bijoux, espèces, objets précieux)
+  - Sous-limite : Formule de base: € 600.000 par sinistre
+  - Sous-limite : Formule maxi: € 1.000.000 par sinistre
   - Condition : Uniquement assurée lorsqu'il en est fait expressément mention dans les Conditions Particulières.
   - Condition : Les indemnités sont payées après déduction des prestations versées par les tiers payeurs (mutuelle, accidents du travail, employeurs, CPAS, autres assureurs).
 
@@ -170,13 +172,13 @@ AMMA garantit l'exercice d'un recours contre les responsables d'un sinistre dans
 ### Assistance en Justice et Recours - Insolvabilité des tiers - p. 42
 Lorsque le véhicule assuré est impliqué dans un accident de la circulation causé en Belgique par un tiers identifié et dont l'insolvabilité a été établie, AMMA paiera l'indemnité venant à charge du tiers.
 - Optionnelle : oui · Portée : Belgique. · Limite : Jusqu'à un montant de € 10.000 par sinistre.
-  - Sous-limite : {'name': 'Insolvabilité des tiers', 'value': '€ 10.000 par sinistre'}
+  - Sous-limite : Insolvabilité des tiers: € 10.000 par sinistre
   - Condition : Ne sort pas ses effets en cas d'actes intentionnels sur les personnes ou les biens, ni en cas de vol, de tentative de vol et de vandalisme.
 
 ### Assistance en Justice et Recours - Litiges contractuels - p. 42
 AMMA prend en charge la sauvegarde des intérêts de l'assuré et des personnes habitant habituellement à son foyer en cas de litige (tribunaux belges) relatif à la réparation défectueuse, l'achat, la livraison, la cession, l'entretien et les vices cachés du véhicule et de la remorque désignés, ainsi que les conflits relatifs à la location et aux obligations de garantie. Pour un véhicule de remplacement définitif : intervention uniquement si acheté neuf ou pour un montant égal ou supérieur à € 10.000 (hors TVA).
 - Optionnelle : oui · Portée : Tribunaux belges. · Limite : Jusqu'à € 10.000 par sinistre.
-  - Sous-limite : {'name': 'Litiges contractuels', 'value': '€ 10.000 par sinistre'}
+  - Sous-limite : Litiges contractuels: € 10.000 par sinistre
   - Condition : En cas de cession du véhicule à un tiers, garantie acquise pour les conflits entre l'assuré et l'acquéreur si les litiges se produisent dans les trente jours après la cession.
 
 ### Assistance en Justice et Recours - Réquisition - p. 42
@@ -190,13 +192,13 @@ AMMA assure les litiges administratifs relatifs à l'immatriculation du véhicul
 ### Assistance en Justice et Recours - Avance sur fonds - p. 43
 Lorsqu'il est établi que la responsabilité incombe totalement à un tiers identifié dans un sinistre survenu dans un pays membre de l'UE et que AMMA a reçu confirmation de la prise en charge par l'assureur du tiers, AMMA avance le montant fixé par expertise, à la demande de l'assuré et sur production des pièces justificatives. Se rapporte uniquement aux dégâts matériels subis par le véhicule assuré.
 - Optionnelle : oui · Portée : Pays membre de la Communauté Européenne. · Limite : Limitée à € 10.000 par sinistre.
-  - Sous-limite : {'name': 'Avance sur fonds', 'value': '€ 10.000 par sinistre'}
+  - Sous-limite : Avance sur fonds: € 10.000 par sinistre
   - Condition : Par ce paiement AMMA est subrogée dans les droits et actions de l'assuré ; remboursement de l'avance par l'assuré si non récupérée ou payée indûment.
 
 ### Assistance en Justice et Recours - Frais de déplacement et de séjour - p. 43
 Si l'assuré est obligé de comparaître en personne devant un tribunal étranger (inculpé ou pour réclamer l'indemnité), AMMA paie les frais de déplacement et de séjour nécessaires et non récupérables.
 - Optionnelle : oui · Portée : Tribunal étranger. · Limite : Jusqu'à concurrence d'un montant maximal de € 1.000 par sinistre.
-  - Sous-limite : {'name': 'Frais de déplacement et de séjour', 'value': '€ 1.000 par sinistre'}
+  - Sous-limite : Frais de déplacement et de séjour: € 1.000 par sinistre
 
 ### Assistance en Justice et Recours - Assistance Conducteur (protection juridique) - p. 43
 La garantie reste acquise au souscripteur et aux personnes habitant habituellement à son foyer (ou au conducteur principal si le souscripteur est une personne morale) en tant que conducteur d'un véhicule de la même catégorie que le véhicule désigné, ne leur appartenant pas et conduit de façon occasionnelle.
@@ -209,7 +211,7 @@ AMMA assume la défense pénale et exerce le recours en faveur du souscripteur e
 ### Assistance R.C. Auto (formule de base) - Dépannage-remorquage - p. 48
 En cas de sinistre immobilisant le véhicule assuré, l'assisteur organise et prend en charge l'envoi sur place d'un dépanneur et, si nécessaire, le remorquage vers le garage désigné en Belgique ou le garage agréé par AMMA. Les pièces et frais de réparation restent à charge de l'assuré. Si le remorquage n'a pas été organisé par l'assisteur : prise en charge à concurrence de € 250 TTC si l'assuré était dans l'impossibilité d'appeler (transport par ambulance) ou si le remorquage a été organisé par les forces de l'ordre.
 - Optionnelle : oui · Portée : En Belgique, au Grand-Duché de Luxembourg et dans un rayon de 50 km autour des frontières belges (à l'exception du Royaume Uni). · Limite : Remorquage non organisé par l'assisteur : à concurrence de € 250 T.T.C.
-  - Sous-limite : {'name': "Remorquage non organisé par l'assisteur", 'value': '€ 250 T.T.C.'}
+  - Sous-limite : Remorquage non organisé par l'assisteur: € 250 T.T.C.
   - Condition : Applicable à condition que la garantie RC soit souscrite ; valable en cas d'accident.
 
 ### Assistance R.C. Auto (formule de base) - Transport/rapatriement du véhicule immobilisé plus de 24 heures - p. 48
@@ -223,19 +225,19 @@ Lorsque l'assisteur transporte ou rapatrie le véhicule assuré, il prend en cha
 ### Assistance R.C. Auto (formule de base) - Assistance ouverture du véhicule - p. 48
 En cas de perte des clefs avec double au domicile : l'assisteur organise et prend en charge à concurrence de € 62 TTC les frais du trajet aller-retour en taxi du lieu d'immobilisation jusqu'au domicile ; si la sécurité du véhicule ne peut être garantie, remorquage jusqu'au garage le plus proche et gardiennage pendant 24 heures maximum. Sans double au domicile : l'assisteur informe des démarches à accomplir auprès des constructeurs.
 - Optionnelle : oui · Portée : Belgique, Grand-Duché de Luxembourg et rayon de 50 km autour des frontières belges (hors Royaume Uni). · Limite : Trajet aller-retour en taxi : € 62 TTC ; gardiennage : 24 heures maximum.
-  - Sous-limite : {'name': 'Trajet aller-retour en taxi', 'value': '€ 62 TTC'}
+  - Sous-limite : Trajet aller-retour en taxi: € 62 TTC
   - Condition : L'assisteur n'intervient pas si le véhicule est équipé d'un système antivol rendant son déplacement impossible.
 
 ### Assistance R.C. Auto (formule de base) - Hébergement et transport des assurés dans l'attente des réparations - p. 48
 Lorsque les occupants attendent sur place la fin des réparations et que les travaux ne sont pas terminés dans la journée, l'assisteur participe aux frais de transport et de chambre d'hôtel à concurrence d'un forfait de € 150 T.T.C. par passager assuré, avec un maximum de € 250 T.T.C.
 - Optionnelle : oui · Portée : Belgique, Grand-Duché de Luxembourg et rayon de 50 km autour des frontières belges (hors Royaume Uni). · Limite : Forfait de € 150 T.T.C. par passager assuré, maximum € 250 T.T.C.
-  - Sous-limite : {'name': 'Frais de transport et hôtel', 'value': '€ 150 T.T.C. par passager, max. € 250 T.T.C.'}
+  - Sous-limite : Frais de transport et hôtel: € 150 T.T.C. par passager, max. € 250 T.T.C.
   - Condition : Ne s'applique pas en Belgique si l'assuré bénéficie d'une voiture de remplacement (chapitre IV).
 
 ### Assistance R.C. Auto (formule de base) - Transport/rapatriement des occupants (immobilisation excédant 24 heures) - p. 49
 Si la réparation exige plus de 24 heures : soit retour immédiat au domicile en Belgique (organisé et pris en charge) ; soit continuation du voyage (intervention dans les frais de transport de l'ensemble des occupants assurés à concurrence de € 400 T.T.C.) puis retour au domicile pris en charge à partir du lieu où l'assuré se trouve.
 - Optionnelle : oui · Portée : Belgique, Grand-Duché de Luxembourg et rayon de 50 km autour des frontières belges (hors Royaume Uni). · Limite : Continuation du voyage : frais de transport de l'ensemble des occupants à concurrence de € 400 T.T.C.
-  - Sous-limite : {'name': 'Continuation du voyage', 'value': '€ 400 T.T.C.'}
+  - Sous-limite : Continuation du voyage: € 400 T.T.C.
 
 ### Assistance R.C. Auto (formule de base) - Transport/rapatriement des bagages - p. 49
 Lorsque l'assisteur procède au retour au domicile, il prend en charge les frais de transport des bagages expédiés par l'assuré sous la garantie d'une lettre de transport délivrée par un transitaire professionnel.
@@ -249,7 +251,7 @@ Lorsque l'assisteur procède au retour au domicile, il prend en charge les frais
 ### Assistance R.C. Auto (formule de base) - Assistance psychologique - p. 49
 En cas de choc psychologique grave (accident de la circulation, attentat, agression, car-jacking, home-jacking, incendie grave), l'assisteur organise et prend en charge, après accord du médecin de l'assisteur, les premières séances d'entretien en Belgique avec un psychologue spécialisé agréé (5 séances maximum).
 - Optionnelle : oui · Portée : Belgique, Grand-Duché de Luxembourg et rayon de 50 km autour des frontières belges (hors Royaume Uni). · Limite : 5 séances maximum ; sans appel à l'assisteur, l'intervention financière se limite à € 250 TTC.
-  - Sous-limite : {'name': "Assistance psychologique sans appel à l'assisteur", 'value': '€ 250 TTC'}
+  - Sous-limite : Assistance psychologique sans appel à l'assisteur: € 250 TTC
 
 ### Assistance R.C. Auto (formule de base) - Voiture de remplacement - p. 49
 Si, à la suite d'un accident survenu en Belgique, l'assuré décide de faire réparer le véhicule assuré auprès d'un carrossier agréé en Belgique par AMMA, le carrossier agréé lui fournira en Belgique un véhicule de remplacement pendant la durée des réparations.
@@ -274,7 +276,7 @@ Si l'assuré a souscrit l'option Voiture de remplacement, il peut, après un acc
 ### Assistance Maxi - Visite à l'hospitalisé (B/E) - p. 62
 Lorsque l'assuré est hospitalisé au cours d'un déplacement sans être accompagné et si les médecins ne préconisent pas son transport avant 5 jours, l'assisteur organise et prend en charge le transport aller-retour d'un membre de sa famille ou d'un proche habitant en Belgique. Pour un enfant de moins de 18 ans, la durée minimale de 5 jours n'est pas requise et les deux parents peuvent se rendre à son chevet.
 - Optionnelle : oui · Portée : Belgique et étranger (B/E). · Limite : Frais d'hôtel du visiteur : € 150 T.T.C. la chambre par nuit, pour maximum 10 jours.
-  - Sous-limite : {'name': "Frais d'hôtel du visiteur", 'value': '€ 150 T.T.C. par nuit, max. 10 jours'}
+  - Sous-limite : Frais d'hôtel du visiteur: € 150 T.T.C. par nuit, max. 10 jours
 
 ### Assistance Maxi - Transport/Rapatriement du malade ou du blessé (B/E) - p. 63
 Si le médecin sur place préconise le transport/rapatriement vers le domicile ou le transfert vers un autre établissement, avec accord du service médical de l'assisteur, celui-ci organise et prend en charge le transport de l'assuré au départ de l'établissement où il se trouve.
@@ -284,7 +286,7 @@ Si le médecin sur place préconise le transport/rapatriement vers le domicile o
 ### Assistance Maxi - Retour et accompagnement des enfants (B/E) - p. 63
 Au profit des enfants assurés de moins de 16 ans accompagnant l'assuré lorsqu'il est dans l'impossibilité de les garder pour raisons médicales et si aucun autre assuré ne peut les surveiller : l'assisteur organise et prend en charge leur retour au domicile en les faisant accompagner par une hôtesse ou une personne choisie habitant en Belgique.
 - Optionnelle : oui · Portée : Belgique et étranger (B/E). · Limite : Frais d'hôtel de l'accompagnateur : max € 150 EUR T.T.C.
-  - Sous-limite : {'name': "Frais d'hôtel de l'accompagnateur", 'value': 'max. € 150 EUR T.T.C.'}
+  - Sous-limite : Frais d'hôtel de l'accompagnateur: max. € 150 EUR T.T.C.
 
 ### Assistance Maxi - Retour des autres assurés (B/E) - p. 63
 Si le transport/rapatriement pour raisons médicales empêche les autres assurés de poursuivre leur déplacement par les moyens prévus : soit retour du lieu d'immobilisation au domicile, soit prise en charge de la continuation du voyage à concurrence des frais qu'il aurait consentis pour le retour au domicile.
@@ -298,7 +300,7 @@ L'assisteur envoie un chauffeur en remplacement lorsque le conducteur assuré d�
 ### Assistance Maxi - Assistance en cas de décès - p. 63
 Décès en Belgique (B) : transport de la dépouille depuis l'hôpital/morgue jusqu'au lieu en Belgique désigné par la famille (hors autres frais funéraires) ; retour au domicile des autres assurés. Décès à l'étranger (E) : rapatriement de la dépouille, frais de traitement funéraire et de mise en bière, frais de cercueil et aménagements spéciaux (max € 1.500), frais de transport du cercueil (hors cérémonie/humanisation/incinération). Si inhumation/incinération à l'étranger : prise en charge de frais à concurrence des débours qui auraient été consentis, y compris rapatriement de l'urne et un titre de transport aller-retour pour un proche.
 - Optionnelle : oui · Portée : Belgique et étranger. · Limite : Frais de cercueil et aménagements spéciaux : max € 1.500.
-  - Sous-limite : {'name': 'Frais de cercueil et aménagements spéciaux', 'value': 'max. € 1.500'}
+  - Sous-limite : Frais de cercueil et aménagements spéciaux: max. € 1.500
 
 ### Assistance Maxi - Envoi de médicaments (E) - p. 64
 À l'étranger, si l'assuré ne trouve pas le semblable ou l'équivalent de ses médicaments (indispensables et prescrits), l'assisteur peut les commander en Belgique et les acheminer, en prenant en charge les frais d'envoi. L'assuré doit rembourser le prix d'achat. Soumis à l'accord des médecins de l'assisteur.
@@ -312,7 +314,7 @@ Lorsque l'assisteur procède au retour au domicile : il organise et prend en cha
 ### Assistance Maxi - Maladie ou accident d'un animal de compagnie (E) - p. 64
 En cas de maladie ou d'accident d'un animal de compagnie (chien ou chat exclusivement) accompagnant un assuré à l'étranger, l'assisteur prend en charge les frais de vétérinaire.
 - Optionnelle : oui · Portée : Étranger (E). · Limite : À concurrence de € 70 maximum.
-  - Sous-limite : {'name': 'Frais de vétérinaire', 'value': '€ 70 maximum'}
+  - Sous-limite : Frais de vétérinaire: € 70 maximum
 
 ### Assistance Maxi - Transmission des messages urgents (B/E) - p. 64
 L'assisteur transmet à ses frais les messages urgents de l'assuré, nationaux ou internationaux, à la suite d'un événement grave (maladie, blessures, accident).
@@ -321,13 +323,13 @@ L'assisteur transmet à ses frais les messages urgents de l'assuré, nationaux o
 ### Assistance Maxi - Accident sur les pistes de ski (B/E) - p. 64
 En cas d'accident corporel sur une piste de ski, remboursement des frais pour se rendre du lieu de l'accident vers l'établissement hospitalier le plus proche. Remboursement des frais de recherche facturés par des organismes officiels de secours pour sauvegarder la vie ou l'intégrité physique.
 - Optionnelle : oui · Portée : Belgique et étranger (B/E). · Limite : Frais de recherche : à concurrence de € 5.000.
-  - Sous-limite : {'name': 'Frais de recherche des organismes officiels de secours', 'value': '€ 5.000'}
+  - Sous-limite : Frais de recherche des organismes officiels de secours: € 5.000
   - Condition : L'accident doit être signalé à l'assisteur au plus tard dans les 72 heures ; attestation des services de secours/police requise.
 
 ### Assistance Maxi - Remboursement forfait remonte-pente (E) - p. 64
 Si l'état de l'assuré malade/blessé entraîne une hospitalisation de plus de 24 h et/ou un rapatriement organisé par l'assisteur, le forfait remonte-pente est remboursé au prorata du temps durant lequel il n'a pas pu être utilisé.
 - Optionnelle : oui · Portée : Étranger (E). · Limite : Limité à un maximum de € 125 T.T.C.
-  - Sous-limite : {'name': 'Forfait remonte-pente', 'value': 'max. € 125 T.T.C.'}
+  - Sous-limite : Forfait remonte-pente: max. € 125 T.T.C.
 
 ### Assistance Maxi - Envoi d'un médecin sur place (E) - p. 64
 Suite à un incident médical couvert et si l'équipe médicale de l'assisteur l'estime nécessaire, l'assisteur mandate un médecin ou une équipe médicale qui se rendra auprès de l'assuré pour juger des mesures à prendre.
@@ -336,9 +338,9 @@ Suite à un incident médical couvert et si l'équipe médicale de l'assisteur l
 ### Assistance Maxi - Remboursement des frais médicaux payés à l'étranger (E) - p. 65
 La garantie couvre les frais de soins reçus à l'étranger à la suite d'une maladie ou d'un accident survenu à l'étranger, imprévisible et sans antécédents connus : honoraires médicaux et chirurgicaux, médicaments prescrits, petits soins dentaires urgents (max € 125 par assuré), frais d'hospitalisation, ambulance ordonnée par un médecin pour trajet local, prolongation de séjour à l'hôtel (€ 150 T.T.C. par nuit, 10 jours max). La garantie vient après épuisement des indemnités de la sécurité sociale (INAMI, mutuelles). L'assisteur ne rembourse pas des montants inférieurs à € 38.
 - Optionnelle : oui · Portée : Étranger (E). · Limite : À concurrence de € 500.000 par assuré pour la durée du voyage à l'étranger.
-  - Sous-limite : {'name': 'Petits soins dentaires urgents', 'value': '€ 125 par assuré'}
-  - Sous-limite : {'name': "Prolongation de séjour à l'hôtel", 'value': '€ 150 T.T.C. par nuit, 10 jours maximum'}
-  - Sous-limite : {'name': 'Franchise de remboursement', 'value': 'pas de remboursement des montants inférieurs à € 38'}
+  - Sous-limite : Petits soins dentaires urgents: € 125 par assuré
+  - Sous-limite : Prolongation de séjour à l'hôtel: € 150 T.T.C. par nuit, 10 jours maximum
+  - Sous-limite : Franchise de remboursement: pas de remboursement des montants inférieurs à € 38
   - Condition : En cas d'hospitalisation, aviser l'assisteur le jour même ou au plus tard dans les 48 heures.
 
 ### Assistance Maxi (voyage) - Perte ou vol de documents de voyage et de titres de transport à l'étranger (E) - p. 65
@@ -361,7 +363,7 @@ En cas de décès inopiné d'un membre de la famille, d'un associé indispensabl
 ### Assistance Maxi (voyage) - Mise à disposition d'argent à l'étranger (E) - p. 66
 Si une demande d'assistance pour maladie, accident, panne ou vol est adressée à l'assisteur, l'argent dont l'assuré a besoin peut être rapidement mis à sa disposition à condition que cette somme soit remise à l'assisteur au préalable en Belgique.
 - Optionnelle : oui · Portée : Étranger (E). · Limite : Max. € 2.500.
-  - Sous-limite : {'name': "Mise à disposition d'argent", 'value': 'max. € 2.500'}
+  - Sous-limite : Mise à disposition d'argent: max. € 2.500
 
 ### Assistance Maxi (voyage) - Assistance interprète (E) - p. 66
 Lorsque l'assuré bénéficie d'une assistance à l'étranger, les services ou correspondants de l'assisteur l'aident si la langue parlée pose d'importants problèmes de compréhension.
@@ -370,19 +372,19 @@ Lorsque l'assuré bénéficie d'une assistance à l'étranger, les services ou c
 ### Assistance Maxi (voyage) - Assistance en cas de poursuites judiciaires à l'étranger (E) - p. 66
 Si l'assuré fait l'objet de poursuites judiciaires à l'étranger à la suite d'un accident, l'assisteur avance le montant de la caution pénale exigée par les tribunaux (à concurrence de € 12.500 par assuré poursuivi) et les honoraires d'un avocat librement choisi à l'étranger (à concurrence de € 1.250). Ne couvre pas les suites judiciaires en Belgique.
 - Optionnelle : oui · Portée : Étranger (E). · Limite : Caution pénale : € 12.500 par assuré poursuivi ; honoraires d'avocat : € 1.250.
-  - Sous-limite : {'name': 'Caution pénale', 'value': '€ 12.500 par assuré poursuivi'}
-  - Sous-limite : {'name': "Honoraires d'avocat", 'value': '€ 1.250'}
+  - Sous-limite : Caution pénale: € 12.500 par assuré poursuivi
+  - Sous-limite : Honoraires d'avocat: € 1.250
   - Condition : Délai de 3 mois pour rembourser la caution à compter du jour de l'avance.
 
 ### Assistance Maxi (voyage) - Assistance psychologique (B/E) - p. 66
 En cas de choc psychologique grave (accident de la circulation, attentat, agression, car-jacking, home-jacking, incendie grave), l'assisteur organise et prend en charge, après accord du médecin de l'assisteur, les premières séances d'entretien en Belgique avec un psychologue spécialisé agréé (5 séances maximum) ; si l'assuré est encore à l'étranger, les entretiens se feront par téléphone.
 - Optionnelle : oui · Portée : Belgique et étranger (B/E). · Limite : 5 séances maximum ; sans appel à l'assisteur, l'intervention se limite à € 250 T.T.C.
-  - Sous-limite : {'name': "Assistance psychologique sans appel à l'assisteur", 'value': '€ 250 T.T.C.'}
+  - Sous-limite : Assistance psychologique sans appel à l'assisteur: € 250 T.T.C.
 
 ### Assistance Maxi (véhicule) - Dépannage-Remorquage (B/E) - p. 67
 L'assisteur organise et prend en charge l'envoi sur place d'un dépanneur, le remorquage du véhicule assuré (jusqu'au garage le plus proche du domicile en Belgique ou le garage le plus proche à l'étranger) et l'acheminement des assurés jusqu'au garage (ou au domicile si en Belgique). Si le remorquage n'a pas été organisé par l'assisteur : prise en charge à concurrence de € 250 T.T.C. si l'assuré était dans l'impossibilité d'appeler (ambulance) ou si organisé par les forces de l'ordre.
 - Optionnelle : oui · Portée : Belgique et étranger (B/E) ; pays couverts définis à l'article 2. · Limite : Remorquage non organisé par l'assisteur : € 250 T.T.C.
-  - Sous-limite : {'name': "Remorquage non organisé par l'assisteur", 'value': '€ 250 T.T.C.'}
+  - Sous-limite : Remorquage non organisé par l'assisteur: € 250 T.T.C.
 
 ### Assistance Maxi (véhicule) - Envoi des pièces détachées (B/E) - p. 67
 Les pièces détachées introuvables sur place et nécessaires au fonctionnement du véhicule sont recherchées et envoyées ; l'assisteur avance le prix (à rembourser par l'assuré sur base du prix public en vigueur dans le pays d'achat). Si le prix dépasse € 500 EUR T.T.C., l'assisteur demande une garantie de paiement.
@@ -395,22 +397,22 @@ L'assuré peut bénéficier d'une voiture de remplacement de la même catégorie
 ### Assistance Maxi (véhicule) - Hébergement ou transport des assurés dans l'attente des réparations (B/E) - p. 68
 Lorsque l'assuré attend sur place la fin des réparations et que les travaux ne sont pas terminés dans la journée, l'assisteur participe aux frais de chambre d'hôtel à concurrence de € 150 T.T.C. Ne s'applique pas si l'assuré bénéficie d'un véhicule de remplacement en vertu de l'article 38.
 - Optionnelle : oui · Portée : Belgique et étranger (B/E). · Limite : Frais de chambre d'hôtel : € 150 T.T.C.
-  - Sous-limite : {'name': "Frais de chambre d'hôtel", 'value': '€ 150 T.T.C.'}
+  - Sous-limite : Frais de chambre d'hôtel: € 150 T.T.C.
 
 ### Assistance Maxi (véhicule) - Rapatriement du véhicule immobilisé plus de 3 jours ouvrables à l'étranger (E) - p. 68
 Si le véhicule n'est pas réparable sur place dans un délai de 3 jours ouvrables : soit rapatriement à ses frais jusqu'au garage désigné à proximité du domicile en Belgique ; soit réparation sur place avec titre de transport pour récupérer le véhicule et une nuit d'hôtel (€ 150 T.T.C.) ; soit abandon de l'épave (formalités et gardiennage avant abandon pendant 10 jours maximum).
 - Optionnelle : oui · Portée : Étranger (E). · Limite : Nuit d'hôtel : € 150 T.T.C. ; gardiennage avant abandon : 10 jours maximum.
-  - Sous-limite : {'name': "Nuit d'hôtel", 'value': '€ 150 T.T.C.'}
+  - Sous-limite : Nuit d'hôtel: € 150 T.T.C.
 
 ### Assistance Maxi (véhicule) - Rapatriement des assurés immobilisés plus de 3 jours ouvrables à l'étranger (E) - p. 68
 Si le véhicule est volé à l'étranger ou bénéficie des prestations de l'article 40 : soit retour immédiat au domicile ; soit continuation du voyage (frais de transport de l'ensemble des passagers assurés à concurrence de € 400 T.T.C.) puis retour au domicile ; soit voiture de remplacement (frais de location hors carburant pour maximum 48 heures, sans excéder le coût du transport des passagers).
 - Optionnelle : oui · Portée : Étranger (E). · Limite : Continuation du voyage : € 400 T.T.C. ; voiture de remplacement : maximum 48 heures.
-  - Sous-limite : {'name': 'Continuation du voyage', 'value': '€ 400 T.T.C.'}
+  - Sous-limite : Continuation du voyage: € 400 T.T.C.
 
 ### Assistance Maxi (véhicule) - Assistance en cas de vol du véhicule (B/E) - p. 68
 S'applique si le vol survient au cours d'un déplacement/voyage. Pour les assurés immobilisés : si le véhicule est retrouvé endommagé et l'assuré attend sur place, application de l'article 39 ; si non retrouvé, retour au domicile. Pour le véhicule retrouvé après le vol : titre de transport pour aller le rechercher et une nuit d'hôtel (€ 150 EUR T.T.C.) ou envoi d'un chauffeur de remplacement.
 - Optionnelle : oui · Portée : Belgique et étranger (B/E). · Limite : Nuit d'hôtel : € 150 EUR T.T.C.
-  - Sous-limite : {'name': "Nuit d'hôtel (véhicule retrouvé)", 'value': '€ 150 EUR T.T.C.'}
+  - Sous-limite : Nuit d'hôtel (véhicule retrouvé): € 150 EUR T.T.C.
 
 ### Assistance Maxi (véhicule) - Gardiennage du véhicule (B/E) - p. 68
 Lorsque l'assisteur transporte ou rapatrie le véhicule assuré, il prend en charge les frais de gardiennage à partir du jour de la demande de transport jusqu'au jour de l'enlèvement par le transporteur.
@@ -423,7 +425,7 @@ Lorsque l'assisteur procède au retour de l'assuré au domicile à la suite du v
 ### Assistance Maxi (véhicule) - Assistance à la remorque ou à la caravane (B/E) - p. 69
 Pour la remorque ou caravane assurée tractée par le véhicule assuré : l'assisteur remorque, transporte ou rapatrie la caravane/remorque dans tous les cas où il fait de même pour le véhicule tracteur, et en cas de vol du tracteur ou d'abandon de l'épave à l'étranger. En cas de panne, accident ou vol de la remorque/caravane, elle bénéficie des prestations d'assistance identiques (sauf voiture de remplacement de l'article 38). Si retrouvée en état de marche après un vol : remboursement des frais de carburant et de péage pour aller la rechercher et, si nécessaire, une nuit d'hôtel (€ 150 T.T.C.).
 - Optionnelle : oui · Portée : Belgique et étranger (B/E). · Limite : Nuit d'hôtel : € 150 T.T.C.
-  - Sous-limite : {'name': "Nuit d'hôtel (remorque/caravane retrouvée)", 'value': '€ 150 T.T.C.'}
+  - Sous-limite : Nuit d'hôtel (remorque/caravane retrouvée): € 150 T.T.C.
 
 ### Assistance Maxi (véhicule) - Transmission des messages urgents (B/E) - p. 69
 Suite à un sinistre, l'assisteur transmet à ses frais les messages urgents, nationaux ou internationaux.

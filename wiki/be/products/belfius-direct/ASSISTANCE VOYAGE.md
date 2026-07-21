@@ -8,6 +8,7 @@ branch: voyage
 product_name: ASSISTANCE VOYAGE
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: BDVO_15032025
 edition_date: 15/03/2025
 lang: fr

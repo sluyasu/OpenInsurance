@@ -8,6 +8,7 @@ branch: voyage
 product_name: Touring No Stop
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: 0079-8426332F-01042026
 edition_date: '01042026'
 lang: fr
@@ -46,10 +47,10 @@ Touring No Stop est un contrat d'assurance annuel qui permet à l'assuré d'obte
 ### Annulation et Compensation de voyage - p. 1
 Le remboursement des frais contractuellement dus par l'assuré en cas de modification ou d'annulation du contrat de voyage en raison d'un événement assuré, et la compensation en cas d'interruption du voyage avant le terme prévu en raison d'un événement assuré. Les événements assurés sont entre autres : décès, maladie, accident corporel grave de l'assuré ou d'un membre de sa famille jusqu'au troisième degré ; achat imprévu d'un(e) maison/appartement ou d'un véhicule (voiture ou moto) ; grossesse d'une assurée ; dommages matériels importants au domicile subis par l'assuré ; licenciement de l'assuré, autre que pour faute grave ou pour raisons impérieuses ; conclusion par l'assuré d'un contrat de travail d'une durée minimum de 3 mois ; examen de passage ou de deuxième session d'un étudiant assuré ; suppression par l'employeur des congés d'un assuré déjà accordés ; vol ou immobilisation totale du véhicule privé de l'assuré ; annulation par le compagnon de voyage, obligeant l'assuré à entamer seul le voyage assuré ; manque de neige dans le domaine skiable sur lequel l'assuré a réservé son logement ; refus de délivrance de visa ; vol du visa ou passeport nécessaire au voyage ; déménagement pour raisons professionnelles.
 - Optionnelle : non · Portée : Dans le monde entier. · Limite : No Stop Relax : Les montants assurables sont au maximum de 1.500 EUR par personne assurée et plafonnés à 12.500 EUR par voyage. No Stop Full : Les montants assurables sont au maximum de 2.500 EUR par personne assurée et plafonnés à 12.500 EUR par voyage. · Franchise : No Stop Relax : Une franchise de 50 EUR par assuré.
-  - Sous-limite : {'name': 'No Stop Relax - plafond par personne', 'value': '1.500 EUR par personne assurée'}
-  - Sous-limite : {'name': 'No Stop Relax - plafond par voyage', 'value': '12.500 EUR par voyage'}
-  - Sous-limite : {'name': 'No Stop Full - plafond par personne', 'value': '2.500 EUR par personne assurée'}
-  - Sous-limite : {'name': 'No Stop Full - plafond par voyage', 'value': '12.500 EUR par voyage'}
+  - Sous-limite : No Stop Relax - plafond par personne: 1.500 EUR par personne assurée
+  - Sous-limite : No Stop Relax - plafond par voyage: 12.500 EUR par voyage
+  - Sous-limite : No Stop Full - plafond par personne: 2.500 EUR par personne assurée
+  - Sous-limite : No Stop Full - plafond par voyage: 12.500 EUR par voyage
   - Condition : Le contrat doit prendre effet au minimum 30 jours avant la date de départ. Néanmoins, si le voyage est réservé moins de 30 jours avant le départ, cette assurance annulation doit alors être souscrite dans les 24 heures qui suivent cette réservation.
 
 ### Bagages - p. 1
@@ -96,7 +97,6 @@ L'avance de l'indemnité due à l'assuré par la compagnie aérienne en cas de r
 ## Durée & résiliation
 
 - Durée : Le contrat dure un an.
-- Reconduction tacite : oui
 - Préavis : Vous pouvez résilier votre contrat d'assurance au plus tard deux mois avant la date d'échéance annuelle du contrat.
 - Modalité : La résiliation du contrat doit se faire par envoi recommandé, par exploit d'huissier ou par la remise d'une lettre de résiliation avec accusé de réception.
 

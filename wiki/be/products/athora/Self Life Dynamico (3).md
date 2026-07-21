@@ -8,6 +8,7 @@ branch: epargne
 product_name: Self Life Dynamico
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 1F806
 edition_date: 07/2020
 lang: fr

@@ -8,6 +8,7 @@ branch: habitation
 product_name: Assurance incendie
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: 2025-IPID-incendie-fr
 edition_date: '2025'
 lang: fr
@@ -82,8 +83,8 @@ Vandalisme, y compris les dommages causés aux pierres tombales.
 ### Responsabilité civile du bâtiment - p. 1
 Garantie de base couvrant la responsabilité civile du bâtiment.
 - Optionnelle : non · Limite : € 20.000.000 pour les dommages corporels et € 2.000.000 pour les dommages matériels
-  - Sous-limite : {'name': 'Dommages corporels', 'limit': '€ 20.000.000'}
-  - Sous-limite : {'name': 'Dommages matériels', 'limit': '€ 2.000.000'}
+  - Sous-limite : Dommages corporels: € 20.000.000
+  - Sous-limite : Dommages matériels: € 2.000.000
 
 ### Assistance juridique, recours et insolvabilité du tiers - p. 1
 Garantie de base couvrant l'assistance juridique, le recours et l'insolvabilité du tiers.
@@ -96,11 +97,11 @@ Garantie de base couvrant les catastrophes naturelles, les conflits industriels 
 ### Assistance après sinistre - p. 1
 Assistance après sinistre : Plombier en cas de dégâts des eaux ; Serrurier en cas de perte ou de vol des clés ; Garde d'enfants pour les enfants ; Conservation des biens sauvés + transport ; Nettoyage des locaux.
 - Optionnelle : non
-  - Sous-limite : {'name': 'Plombier en cas de dégâts des eaux', 'limit': None}
-  - Sous-limite : {'name': 'Serrurier en cas de perte ou de vol des clés', 'limit': None}
-  - Sous-limite : {'name': "Garde d'enfants pour les enfants", 'limit': None}
-  - Sous-limite : {'name': 'Conservation des biens sauvés + transport', 'limit': None}
-  - Sous-limite : {'name': 'Nettoyage des locaux', 'limit': None}
+  - Sous-limite : name: Plombier en cas de dégâts des eaux
+  - Sous-limite : name: Serrurier en cas de perte ou de vol des clés
+  - Sous-limite : name: Garde d'enfants pour les enfants
+  - Sous-limite : name: Conservation des biens sauvés + transport
+  - Sous-limite : name: Nettoyage des locaux
 
 ### Frais d'obsèques et frais médicaux - p. 1
 Garantie de base couvrant les frais d'obsèques et les frais médicaux.
@@ -162,6 +163,11 @@ Garantie facultative couvrant les pertes indirectes. Dans ce cas, vous avez droi
 
 - Standard : Une franchise indexée s'applique
 - Variable : Dégivrage / Installations informatiques tous risques / Frais de reconstruction / Serres assurées (y compris leur contenu) : 2 500 € ; Dégâts de brûlure : 1 500 € ; Mobilier de jardin et barbecue non mobile : € 3.000
+- Dégivrage / Installations informatiques tous risques / Frais de reconstruction / Serres assurées (y compris leur contenu) : 2 500 €
+- Dégâts de brûlure : 1 500 €
+- Mobilier de jardin et barbecue non mobile : € 3.000
+- R.C. Bâtiment : € 20.000.000 pour les dommages corporels et € 2.000.000 pour les dommages matériels
+- Défense pénale / recouvrement : € 10.000
 
 ## Obligations de l'assuré
 

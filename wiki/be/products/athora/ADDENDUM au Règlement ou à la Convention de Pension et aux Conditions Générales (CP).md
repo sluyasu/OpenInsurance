@@ -9,6 +9,7 @@ product_name: ADDENDUM au Règlement ou à la Convention de Pension et aux Condi
   Générales
 document_type: conditions_particulieres
 target_audience: null
+target_audience_note: null
 reference: null
 edition_date: null
 lang: fr

@@ -8,6 +8,7 @@ branch: protection-juridique
 product_name: Protection Juridique
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: F5010
 edition_date: 10/2025
 lang: fr

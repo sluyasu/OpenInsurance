@@ -8,6 +8,7 @@ branch: autres
 product_name: Assurance moto
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: DW25094
 edition_date: 01/10/2025
 lang: fr
@@ -68,15 +69,15 @@ Comprend toutes les garanties de la Protection juridique de Base ; assistance ju
 ### Assistance dépannage (non proposée pour les vélomoteurs) - p. 1
 Assistance dépannage pour le véhicule assuré, en Belgique et à l'étranger (pays mentionnés sur la carte d'assurance internationale) ; droit à une voiture de remplacement pendant la réparation ; frais d'hôtel + transport/rapatriement du véhicule assuré.
 - Optionnelle : oui · Portée : Tous les pays où le certificat international d'assurance est valable (en Belgique et à l'étranger, pays mentionnés sur la carte d'assurance internationale) · Limite : Si le service de remorquage n'est pas organisé par nos soins, nous payons les frais jusqu'à un maximum de 250 euros. Le véhicule de remplacement est de catégorie B au maximum.
-  - Sous-limite : {'name': 'Frais de remorquage non organisé par nos soins', 'limit': 'maximum de 250 euros', 'page': 1}
-  - Sous-limite : {'name': 'Véhicule de remplacement', 'limit': 'catégorie B au maximum', 'page': 1}
+  - Sous-limite : Frais de remorquage non organisé par nos soins: maximum de 250 euros
+  - Sous-limite : Véhicule de remplacement: catégorie B au maximum
   - Condition : Le véhicule doit être immobilisé sur la chaussée ou dans un garage.
   - Condition : Non proposée pour les vélomoteurs
 
 ### Assurance voyage (non proposée pour les vélomoteurs) - p. 1
 Assistance médicale à l'étranger (dans le monde entier) et remboursement de vos frais médicaux ; rapatriement/transport et accompagnement de la personne malade ou blessée ; retour anticipé pour cause d'hospitalisation ou de décès d'un membre de la famille en Belgique.
 - Optionnelle : oui · Portée : Dans le monde entier (vous trouverez les pays exclus dans les conditions générales) · Limite : Si l'assuré n'est pas affilié ou n'est pas en règle avec la mutuelle, l'intervention pour l'ensemble des frais médicaux est limitée à un maximum de 1.240 euros.
-  - Sous-limite : {'name': "Frais médicaux si l'assuré n'est pas affilié ou pas en règle avec la mutuelle", 'limit': 'maximum de 1.240 euros', 'page': 1}
+  - Sous-limite : Frais médicaux si l'assuré n'est pas affilié ou pas en règle avec la mutuelle: maximum de 1.240 euros
   - Condition : L'assurance rembourse les frais après intervention de la mutuelle et d'une éventuelle assurance hospitalisation
   - Condition : Non proposée pour les vélomoteurs
 

@@ -8,6 +8,7 @@ branch: epargne
 product_name: Junior Assistance
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 1F811
 edition_date: 06/2020
 lang: fr

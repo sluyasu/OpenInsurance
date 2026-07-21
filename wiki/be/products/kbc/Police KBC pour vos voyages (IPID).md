@@ -8,6 +8,7 @@ branch: voyage
 product_name: Police KBC pour vos voyages
 document_type: ipid
 target_audience: particuliers
+target_audience_note: null
 reference: null
 edition_date: null
 lang: fr

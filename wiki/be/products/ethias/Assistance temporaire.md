@@ -8,6 +8,7 @@ branch: voyage
 product_name: Assistance temporaire
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 1275-304
 edition_date: 03/25
 lang: fr
@@ -62,7 +63,7 @@ En cas de maladie ou de blessure survenant à l'assuré pendant la durée de son
 ### Sports d'hiver - p. 7
 En cas d'accident sur une piste de ski, Ethias Assistance prend en charge : les frais de descente en traîneau et/ou hélicoptère, ainsi que les frais de transfert du lieu de l'accident vers un centre hospitalier ; le remboursement du ski-pass au prorata des jours non utilisés, jusqu'à 125,00 euros TTC, lorsque l'assuré est dans l'incapacité de pratiquer le ski suite à un accident ou une maladie. Le remboursement est effectué sur présentation d'un justificatif médical.
 - Optionnelle : non · Portée : À l'étranger · Limite : Remboursement du ski-pass jusqu'à 125,00 euros TTC
-  - Sous-limite : {'name': 'Remboursement du ski-pass au prorata des jours non utilisés', 'limit': '125,00 euros TTC'}
+  - Sous-limite : Remboursement du ski-pass au prorata des jours non utilisés: 125,00 euros TTC
   - Condition : Accident sur une piste de ski.
   - Condition : Incapacité de pratiquer le ski suite à un accident ou une maladie (pour le remboursement du ski-pass).
   - Condition : Remboursement effectué sur présentation d'un justificatif médical.
@@ -81,8 +82,8 @@ Ethias Assistance organise et prend en charge le rapatriement des animaux domest
 ### Déplacement au chevet de l'assuré d'un membre de la famille resté en Belgique - p. 7
 1. Si les médecins ne préconisent pas le rapatriement de l'assuré malade ou blessé et si l'hospitalisation doit dépasser cinq jours, Ethias Assistance organise à ses frais le déplacement aller-retour d'un membre de la famille ou d'une personne désignée par celle-ci, résidant en Belgique, par chemin de fer (en 1re classe) ou par avion (en classe économique), pour se rendre au chevet de l'assuré. 2. Si le ou les assurés qui accompagnent des enfants de moins de 15 ans, eux-mêmes assurés, se trouvent dans l'impossibilité de s'occuper de ceux-ci par suite d'une maladie ou d'un accident, Ethias Assistance organise à ses frais le déplacement aller-retour, par chemin de fer (1re classe) ou avion (classe économique), d'une personne désignée par la famille et résidant en Belgique. 3. Si un enfant de moins de 18 ans non accompagné de ses parents est hospitalisé suite à une maladie ou un accident, Ethias Assistance organise à ses frais le déplacement aller-retour d'un des parents, par chemin de fer (1re classe) ou avion (classe économique), pour se rendre au chevet de son enfant. Dans chaque cas, les frais de séjour sont pris en charge à concurrence de 500,00 euros TTC (maximum 100,00 euros TTC par nuit).
 - Optionnelle : non · Portée : À l'étranger · Limite : Frais de séjour à concurrence de 500,00 euros TTC (maximum 100,00 euros TTC par nuit)
-  - Sous-limite : {'name': 'Frais de séjour', 'limit': '500,00 euros TTC'}
-  - Sous-limite : {'name': 'Frais de séjour par nuit', 'limit': 'maximum 100,00 euros TTC par nuit'}
+  - Sous-limite : Frais de séjour: 500,00 euros TTC
+  - Sous-limite : Frais de séjour par nuit: maximum 100,00 euros TTC par nuit
   - Condition : Cas 1 : les médecins ne préconisent pas le rapatriement et l'hospitalisation doit dépasser cinq jours.
   - Condition : Cas 2 : impossibilité de s'occuper d'enfants de moins de 15 ans (eux-mêmes assurés) par suite d'une maladie ou d'un accident.
   - Condition : Cas 3 : enfant de moins de 18 ans non accompagné de ses parents, hospitalisé suite à une maladie ou un accident.
@@ -91,7 +92,7 @@ Ethias Assistance organise et prend en charge le rapatriement des animaux domest
 ### En cas de décès - p. 8
 En cas de décès d'un assuré, Ethias Assistance prend en charge : 1. les frais de cercueil, à concurrence de 750,00 euros TTC ; 2. les frais de formalités administratives, de traitement funéraire et de mise en bière ; 3. le rapatriement de la dépouille mortelle jusqu'au domicile ou funérarium en Belgique. Les frais de cérémonie et d'inhumation restent à charge de la famille. Si l'assuré est inhumé ou incinéré sur place, Ethias Assistance prend en charge : 1. les frais de cercueil, à concurrence de 750,00 euros TTC ; 2. les frais de formalités administratives, de traitement funéraire et de mise en bière ; 3. les frais de transport sur place de la dépouille mortelle. Les frais de cérémonie et d'inhumation restent à charge de la famille.
 - Optionnelle : non · Portée : À l'étranger · Limite : Frais de cercueil à concurrence de 750,00 euros TTC · Franchise : Les frais de cérémonie et d'inhumation restent à charge de la famille.
-  - Sous-limite : {'name': 'Frais de cercueil', 'limit': '750,00 euros TTC'}
+  - Sous-limite : Frais de cercueil: 750,00 euros TTC
   - Condition : Décès d'un assuré à l'étranger.
 
 ### Retour anticipé - p. 8
@@ -104,8 +105,8 @@ En cas de décès d'un assuré, Ethias Assistance prend en charge : 1. les frais
 ### Remboursement des frais médicaux, chirurgicaux, pharmaceutiques et d'hospitalisation - p. 9
 1. Remboursement des frais de soins de santé ambulatoires prescrits par un médecin, dans la limite de 1 250,00 euros TTC par assuré et par événement. 2. Remboursement des frais pharmaceutiques en milieu hospitalier, chirurgicaux et d'hospitalisation à concurrence de 75 000,00 euros TTC par assuré et par événement. Le paiement peut se faire par Ethias Assistance soit à titre d'avance, directement aux médecins ou établissements hospitaliers étrangers, soit à l'assuré à son retour en Belgique, sur présentation de toutes les pièces justificatives originales comportant le détail des actes prestés et précisant la nature de la maladie. Dans les deux cas, l'assuré est tenu de présenter son dossier à son organisme de sécurité sociale (mutuelle) ou à tout autre organisme de prévoyance. Seuls les frais médicaux réellement exposés par l'assuré sont supportés par Ethias Assistance.
 - Optionnelle : non · Portée : À l'étranger · Limite : Soins ambulatoires : 1 250,00 euros TTC par assuré et par événement ; frais pharmaceutiques hospitaliers, chirurgicaux et d'hospitalisation : 75 000,00 euros TTC par assuré et par événement
-  - Sous-limite : {'name': 'Frais de soins de santé ambulatoires prescrits par un médecin', 'limit': '1 250,00 euros TTC par assuré et par événement'}
-  - Sous-limite : {'name': "Frais pharmaceutiques en milieu hospitalier, chirurgicaux et d'hospitalisation", 'limit': '75 000,00 euros TTC par assuré et par événement'}
+  - Sous-limite : Frais de soins de santé ambulatoires prescrits par un médecin: 1 250,00 euros TTC par assuré et par événement
+  - Sous-limite : Frais pharmaceutiques en milieu hospitalier, chirurgicaux et d'hospitalisation: 75 000,00 euros TTC par assuré et par événement
   - Condition : Soins ambulatoires prescrits par un médecin.
   - Condition : Présentation des pièces justificatives originales (détail des actes prestés, nature de la maladie) pour un remboursement au retour.
   - Condition : L'assuré est tenu de présenter son dossier à son organisme de sécurité sociale (mutuelle) ou à tout autre organisme de prévoyance.
@@ -120,7 +121,7 @@ Si l'assuré ne peut entreprendre le voyage de retour en Belgique à la date ini
 ### Prolongation du séjour de l'assuré à l'étranger - p. 9
 Si, sur ordonnance médicale, l'assuré ne peut entreprendre le voyage de retour en Belgique à la date initialement prévue, Ethias Assistance prend en charge les frais de prolongation de séjour à l'hôtel (chambre + petit déjeuner), à concurrence de 65,00 euros par jour pendant 8 jours maximum.
 - Optionnelle : non · Portée : À l'étranger · Limite : 65,00 euros par jour pendant 8 jours maximum
-  - Sous-limite : {'name': "Frais de prolongation de séjour à l'hôtel (chambre + petit déjeuner)", 'limit': '65,00 euros par jour pendant 8 jours maximum'}
+  - Sous-limite : Frais de prolongation de séjour à l'hôtel (chambre + petit déjeuner): 65,00 euros par jour pendant 8 jours maximum
   - Condition : Ordonnance médicale empêchant le voyage de retour à la date initialement prévue.
 
 ### Médicaments urgents - p. 9
@@ -143,8 +144,8 @@ Dans les cas prévus aux points I A., E. et F., Ethias Assistance se charge d'or
 ### Avance de la caution pénale et frais d'avocat - p. 9
 Si l'assuré est incarcéré ou menacé de l'être à la suite d'un accident de circulation, Ethias Assistance lui avance le montant de la caution pénale exigée par les autorités, à concurrence de 12 500,00 euros par assuré. Dans ce cas, Ethias Assistance peut également faire l'avance des honoraires d'un avocat à concurrence de 1 250,00 euros par assuré. Ethias Assistance accorde à l'assuré, pour le remboursement de ces sommes, un délai de six mois à dater du jour de l'avance. Si la caution pénale est restituée avant ce délai par les autorités du pays, elle doit naturellement être aussitôt remboursée à Ethias Assistance.
 - Optionnelle : non · Portée : À l'étranger · Limite : Caution pénale : 12 500,00 euros par assuré ; honoraires d'avocat : 1 250,00 euros par assuré
-  - Sous-limite : {'name': 'Avance de la caution pénale', 'limit': '12 500,00 euros par assuré'}
-  - Sous-limite : {'name': "Avance des honoraires d'avocat", 'limit': '1 250,00 euros par assuré'}
+  - Sous-limite : Avance de la caution pénale: 12 500,00 euros par assuré
+  - Sous-limite : Avance des honoraires d'avocat: 1 250,00 euros par assuré
   - Condition : Assuré incarcéré ou menacé de l'être à la suite d'un accident de circulation.
   - Condition : Remboursement des sommes avancées dans un délai de six mois à dater du jour de l'avance.
   - Condition : Si la caution pénale est restituée avant ce délai par les autorités, elle doit être aussitôt remboursée à Ethias Assistance.

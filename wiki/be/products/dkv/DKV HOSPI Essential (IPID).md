@@ -7,9 +7,10 @@ insurer_slug: dkv
 branch: sante
 product_name: DKV HOSPI Essential
 document_type: ipid
-target_audience: Toute personne physique n'ayant pas atteint l'âge de 70 ans à la
-  conclusion du contrat d'assurance, ayant son lieu de résidence et sa résidence principale
-  en Belgique, étant assujetti à la sécurité sociale belge et en bénéficiant.
+target_audience: particuliers
+target_audience_note: Toute personne physique n'ayant pas atteint l'âge de 70 ans
+  à la conclusion du contrat d'assurance, ayant son lieu de résidence et sa résidence
+  principale en Belgique, étant assujetti à la sécurité sociale belge et en bénéficiant.
 reference: 31 173_FR_5_202508
 edition_date: '202508'
 lang: fr
@@ -169,7 +170,6 @@ AssurPharma : envoi automatisé à DKV des attestations par un pharmacien reconn
 ## Franchises
 
 - Standard : Une contribution personnelle (c-à-d une franchise par cas d'assurance), dont le montant est déterminé dans les Conditions Particulières d'Assurance, est appliquée à chaque hospitalisation avec une nuitée en chambre à un lit. Une rechute causant une nouvelle admission est considérée comme une nouvelle hospitalisation.
-- Variable : True
 
 ## Délais d'attente
 

@@ -8,6 +8,7 @@ branch: habitation
 product_name: VIVIUM Habitation
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: VIV 292/01-2018
 edition_date: 2018-01
 lang: fr

@@ -7,7 +7,8 @@ insurer_slug: kbc
 branch: habitation
 product_name: Police habitation pour le propriétaire
 document_type: conditions_generales
-target_audience: propriétaire (résidence principale)
+target_audience: particuliers
+target_audience_note: propriétaire (résidence principale)
 reference: F0003
 edition_date: null
 lang: fr

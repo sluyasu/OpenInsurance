@@ -8,6 +8,7 @@ branch: accidents
 product_name: Assurance Individuelle Circulation
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: INDIV/60/01 - 2.404F - 06.2008
 edition_date: '06.2008'
 lang: fr

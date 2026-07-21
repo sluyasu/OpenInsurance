@@ -8,6 +8,7 @@ branch: auto
 product_name: Assurance RC Auto
 document_type: conditions_generales
 target_audience: particuliers
+target_audience_note: null
 reference: 0079-2000427F-18112023
 edition_date: 18/11/2023
 lang: fr

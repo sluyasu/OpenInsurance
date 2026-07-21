@@ -8,6 +8,7 @@ branch: voyage
 product_name: Assurance Assistance
 document_type: product_sheet
 target_audience: null
+target_audience_note: null
 reference: null
 edition_date: 07/2023
 lang: fr

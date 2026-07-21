@@ -8,6 +8,7 @@ branch: accidents
 product_name: inSure Accident
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: ERGO-00612/12.2019
 edition_date: Décembre 2019
 lang: fr

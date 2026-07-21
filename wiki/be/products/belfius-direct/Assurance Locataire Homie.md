@@ -8,6 +8,7 @@ branch: habitation
 product_name: Assurance Locataire Homie
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: BDHO-01072023-F01012025
 edition_date: 01/07/2023
 lang: fr

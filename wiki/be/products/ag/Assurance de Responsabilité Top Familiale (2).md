@@ -8,6 +8,7 @@ branch: vie-privee
 product_name: Assurance de Responsabilité Top Familiale
 document_type: conditions_generales
 target_audience: particuliers
+target_audience_note: null
 reference: 0079-3002720F-01012025
 edition_date: 01/01/2025
 lang: fr

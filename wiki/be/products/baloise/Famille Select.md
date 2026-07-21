@@ -8,6 +8,7 @@ branch: vie-privee
 product_name: Famille Select
 document_type: conditions_generales
 target_audience: particuliers
+target_audience_note: null
 reference: 0096-2026V0000.18-01022025
 edition_date: '01022025'
 lang: fr

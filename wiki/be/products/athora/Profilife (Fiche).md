@@ -8,6 +8,7 @@ branch: epargne
 product_name: Profilife
 document_type: product_sheet
 target_audience: null
+target_audience_note: null
 reference: '310110200'
 edition_date: 1 janvier 2026
 lang: fr

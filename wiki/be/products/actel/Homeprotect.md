@@ -8,6 +8,7 @@ branch: habitation
 product_name: Homeprotect
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 045/0018 - 01.2017
 edition_date: '01.2017'
 lang: fr

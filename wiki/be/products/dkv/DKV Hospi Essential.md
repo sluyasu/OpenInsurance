@@ -8,6 +8,7 @@ branch: sante
 product_name: DKV Hospi Essential
 document_type: conditions_generales
 target_audience: particuliers
+target_audience_note: null
 reference: 11101_FR_4_202508
 edition_date: '2025-08-01'
 lang: fr

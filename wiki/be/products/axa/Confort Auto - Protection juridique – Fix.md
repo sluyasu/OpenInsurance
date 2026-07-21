@@ -8,6 +8,7 @@ branch: protection-juridique
 product_name: Confort Auto - Protection juridique – Fix
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 4186013–20241014
 edition_date: '10.2024'
 lang: fr

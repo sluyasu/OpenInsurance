@@ -8,6 +8,7 @@ branch: vie-privee
 product_name: VIVIUM Assurance Familiale
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: VIV 551/04-2025
 edition_date: 04-2025
 lang: fr

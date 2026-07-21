@@ -8,6 +8,7 @@ branch: habitation
 product_name: L’assurance habitation Belfius Home
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: I/0037-1-89-7295- F-062026
 edition_date: juin 2026
 lang: fr

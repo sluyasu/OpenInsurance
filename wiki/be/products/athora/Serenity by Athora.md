@@ -8,6 +8,7 @@ branch: epargne
 product_name: Serenity by Athora
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 1F812
 edition_date: 01/2021
 lang: fr

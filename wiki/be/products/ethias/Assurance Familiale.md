@@ -8,6 +8,7 @@ branch: vie-privee
 product_name: Assurance Familiale
 document_type: conditions_generales
 target_audience: particuliers
+target_audience_note: null
 reference: 1252-003 • 03/25
 edition_date: 2025-03
 lang: fr

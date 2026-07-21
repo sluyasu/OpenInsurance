@@ -8,6 +8,7 @@ branch: autres
 product_name: Hypo Protect
 document_type: product_sheet
 target_audience: null
+target_audience_note: null
 reference: null
 edition_date: 06/2024
 lang: fr

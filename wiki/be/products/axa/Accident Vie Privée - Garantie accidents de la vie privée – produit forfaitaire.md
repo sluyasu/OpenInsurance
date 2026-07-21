@@ -9,6 +9,7 @@ product_name: Accident Vie Privée - Garantie accidents de la vie privée – pr
   forfaitaire
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 4185889–20231211
 edition_date: '12.2023'
 lang: fr

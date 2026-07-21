@@ -8,6 +8,7 @@ branch: auto
 product_name: Assurance au kilomètre Moto
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: BDMO_01072023-F23102025
 edition_date: null
 lang: fr

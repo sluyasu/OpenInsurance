@@ -8,6 +8,7 @@ branch: pension
 product_name: Profilife EIP
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 1F893
 edition_date: 01/2026
 lang: fr

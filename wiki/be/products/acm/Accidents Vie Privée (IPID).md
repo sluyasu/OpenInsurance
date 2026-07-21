@@ -8,6 +8,7 @@ branch: accidents
 product_name: Accidents Vie Privée
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: 16.60.29
 edition_date: 10/2024
 lang: fr

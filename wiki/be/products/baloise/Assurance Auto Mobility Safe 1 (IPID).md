@@ -8,6 +8,7 @@ branch: auto
 product_name: Assurance Auto Mobility Safe 1
 document_type: ipid
 target_audience: particuliers
+target_audience_note: null
 reference: B9001.MOT.02.26
 edition_date: '02.26'
 lang: fr

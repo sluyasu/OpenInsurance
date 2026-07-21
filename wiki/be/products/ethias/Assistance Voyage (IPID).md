@@ -8,6 +8,7 @@ branch: voyage
 product_name: Assistance Voyage
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: 1275-304/1
 edition_date: 03/25
 lang: fr

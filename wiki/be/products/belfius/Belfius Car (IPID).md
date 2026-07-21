@@ -8,6 +8,7 @@ branch: auto
 product_name: Belfius Car
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: I/0037-2-10-5739-092024/092024
 edition_date: septembre 2024
 lang: fr
@@ -58,29 +59,29 @@ Garantie de base. Belfius Car couvre entre autres les dégâts au véhicule dés
 ### Protection Juridique - p. 1
 Garantie optionnelle (choix entre 2 formules). Belfius Car couvre entre autres: Recours civil et Défense pénale de l'assuré (prise en charge des frais et honoraires d'avocat, d'expert et d'huissier, des frais de procédure judiciaire et extrajudiciaire); Défense de vos intérêts dans certains litiges contractuels; Indemnisation si le tiers responsable est insolvable.
 - Optionnelle : oui · Portée : Acquise dans l'ensemble des pays nommément repris sur la carte internationale d'assurance automobile et non expressément barrés. · Limite : Recours civil et Défense pénale: jusqu'à 30.000 EUR ou 75.000 EUR selon la formule choisie
-  - Sous-limite : {'name': "Recours civil et Défense pénale de l'assuré (frais et honoraires d'avocat, d'expert et d'huissier, frais de procédure judiciaire et extrajudiciaire)", 'limit': "jusqu'à 30.000 EUR ou 75.000 EUR selon la formule choisie"}
-  - Sous-limite : {'name': 'Indemnisation si le tiers responsable est insolvable', 'limit': "jusqu'à 7.500 EUR ou 15.000 EUR selon la formule choisie"}
+  - Sous-limite : Recours civil et Défense pénale de l'assuré (frais et honoraires d'avocat, d'expert et d'huissier, frais de procédure judiciaire et extrajudiciaire): jusqu'à 30.000 EUR ou 75.000 EUR selon la formule choisie
+  - Sous-limite : Indemnisation si le tiers responsable est insolvable: jusqu'à 7.500 EUR ou 15.000 EUR selon la formule choisie
 
 ### Omnium - p. 1
 Garantie optionnelle (choix entre plusieurs formules). Belfius Car couvre entre autres, selon la formule choisie, les dommages au véhicule assuré découlant: d'un incendie; d'un vol ou d'une tentative de vol; d'un bris de vitre; d'une force de la nature et périls connexes comme le heurt d'animaux ou la collision en chaîne; d'un dégât matériel, tels que ceux à la suite d'accidents lorsque l'assuré est en tort, ou encore ceux dus au vandalisme. La valeur à assurer est calculée sur base de la valeur catalogue du véhicule (options et accessoires inclus) ou de la facture d'achat du véhicule (à l'état neuf ou d'occasion). Les accessoires acquis après la conclusion du contrat d'assurance sont assurés gratuitement au premier risque à concurrence d'un montant de 1.250 EUR hors TVA. Le système antivol acquis comme accessoire du véhicule est assuré gratuitement. En cas de perte totale, la valeur du véhicule au moment du sinistre sous déduction de la valeur de l'épave (amortissement selon le système d'indemnisation choisi: valeur fonctionnelle, valeur agréée). La valeur de l'épave n'est pas déduite si vous en confiez la vente à l'assureur.
 - Optionnelle : oui · Portée : Valable dans le monde entier. · Limite : Accessoires acquis après la conclusion du contrat: assurés gratuitement au premier risque à concurrence d'un montant de 1.250 EUR hors TVA · Franchise : Une franchise fixée contractuellement sera déduite de votre indemnité en Omnium (uniquement pour la garantie Dégâts Matériels), sauf si vous optez pour une formule franchise anglaise, auquel cas l'assureur intervient pour la totalité du dommage dès que celui-ci dépasse le montant de la franchise.
-  - Sous-limite : {'name': "Accessoires acquis après la conclusion du contrat d'assurance (assurés au premier risque)", 'limit': '1.250 EUR hors TVA'}
-  - Sous-limite : {'name': 'Système antivol acquis comme accessoire du véhicule', 'limit': 'assuré gratuitement'}
+  - Sous-limite : Accessoires acquis après la conclusion du contrat d'assurance (assurés au premier risque): 1.250 EUR hors TVA
+  - Sous-limite : Système antivol acquis comme accessoire du véhicule: assuré gratuitement
 
 ### Conducteur - p. 2
 Garantie optionnelle. Belfius Car indemnise, en cas d'accident de la circulation, les lésions corporelles ou le décès du conducteur du véhicule assuré, indépendamment de sa responsabilité. Intervention également pour le préjudice économique et moral suite à une incapacité temporaire ou permanente. L'indemnisation s'opère selon les règles du droit commun.
 - Optionnelle : oui · Portée : Acquise dans l'ensemble des pays nommément repris sur la carte internationale d'assurance automobile et non expressément barrés. · Limite : 500.000 EUR au maximum par sinistre, y inclus une indemnisation du préjudice vestimentaire jusque 500 EUR par sinistre
-  - Sous-limite : {'name': 'Indemnisation maximale par sinistre', 'limit': '500.000 EUR au maximum par sinistre'}
-  - Sous-limite : {'name': 'Indemnisation du préjudice vestimentaire', 'limit': 'jusque 500 EUR par sinistre'}
+  - Sous-limite : Indemnisation maximale par sinistre: 500.000 EUR au maximum par sinistre
+  - Sous-limite : Indemnisation du préjudice vestimentaire: jusque 500 EUR par sinistre
 
 ### Assistance au véhicule - p. 2
 Garantie optionnelle (choix entre 3 formules). Belfius Car prévoit le dépannage et remorquage du véhicule assuré vers le garage et le transport des occupants vers le domicile ou lieu de séjour; la couverture des dégâts matériels ou du vol du véhicule de location (selon la formule choisie); à l'étranger les frais de nuitées supplémentaires pendant la durée des réparations et la mise à disposition d'un véhicule de remplacement de catégorie B pendant max. 7 jours ou budget de mobilité; si extension souscrite, soit un véhicule de remplacement de catégorie B pendant max. 7 jours ou budget de mobilité en Belgique, soit un véhicule de remplacement de catégorie D pendant max. 15 jours ou budget de mobilité en Belgique et à l'étranger.
 - Optionnelle : oui · Portée : Acquise dans l'ensemble des pays nommément repris sur la carte internationale d'assurance automobile et non expressément barrés, à l'exception des territoires exclus (voir Conditions Générales).
-  - Sous-limite : {'name': 'Dégâts matériels ou vol du véhicule de location (selon la formule choisie)', 'limit': "max. 4.000 EUR ou 7.000 EUR /année d'assurance"}
-  - Sous-limite : {'name': "Frais de nuitées supplémentaires à l'étranger pendant la durée des réparations (selon la formule choisie)", 'limit': 'max. 125 EUR ou 175 EUR/chambre/nuit'}
-  - Sous-limite : {'name': "Véhicule de remplacement de catégorie B (à l'étranger) ou budget de mobilité", 'limit': 'max. 7 jours ou budget de mobilité (max. 85 EUR/jour)'}
-  - Sous-limite : {'name': 'Extension - véhicule de remplacement de catégorie B en Belgique ou budget de mobilité', 'limit': 'max. 7 jours ou budget de mobilité (max. 85 EUR/jour)'}
-  - Sous-limite : {'name': "Extension - véhicule de remplacement de catégorie D en Belgique et à l'étranger ou budget de mobilité", 'limit': 'max. 15 jours ou budget de mobilité (max. 85 EUR/jour)'}
+  - Sous-limite : Dégâts matériels ou vol du véhicule de location (selon la formule choisie): max. 4.000 EUR ou 7.000 EUR /année d'assurance
+  - Sous-limite : Frais de nuitées supplémentaires à l'étranger pendant la durée des réparations (selon la formule choisie): max. 125 EUR ou 175 EUR/chambre/nuit
+  - Sous-limite : Véhicule de remplacement de catégorie B (à l'étranger) ou budget de mobilité: max. 7 jours ou budget de mobilité (max. 85 EUR/jour)
+  - Sous-limite : Extension - véhicule de remplacement de catégorie B en Belgique ou budget de mobilité: max. 7 jours ou budget de mobilité (max. 85 EUR/jour)
+  - Sous-limite : Extension - véhicule de remplacement de catégorie D en Belgique et à l'étranger ou budget de mobilité: max. 15 jours ou budget de mobilité (max. 85 EUR/jour)
   - Condition : L'assuré doit se conformer aux conditions exigées par la société de location pour l'utilisation du véhicule de remplacement (notamment l'âge du conducteur).
 
 ## Exclusions

@@ -8,6 +8,7 @@ branch: auto
 product_name: Confort Auto
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: 4186107 – 11.2025
 edition_date: '11.2025'
 lang: fr

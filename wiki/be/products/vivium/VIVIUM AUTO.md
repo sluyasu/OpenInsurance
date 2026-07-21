@@ -8,6 +8,7 @@ branch: auto
 product_name: VIVIUM AUTO
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: VIV 495/02-2016 - 8.813F-02.2016
 edition_date: '02.2016'
 lang: fr
@@ -403,9 +404,9 @@ Conformément à l'article 88 de la loi du 4 avril 2014 relative aux assurances,
 
 ## Lacunes d'extraction
 
-- {'description': "Le document est constitué des seules conditions générales VIVIUM AUTO. De nombreux paramètres (franchises des garanties Dommages au véhicule, capitaux et indemnités journalières de la Protection du conducteur - Formule forfaitaire, montant des frais de traitement, identité du conducteur principal, degré de personnalisation, mode d'indemnisation valeur réelle/agréée/catalogue/facture, garanties souscrites) sont renvoyés aux conditions particulières, non fournies.", 'page': None}
-- {'description': "La page 18 contient un tableau de l'échelle des degrés de personnalisation et les pages 19-20 des tableaux de degrés d'entrée; l'extraction textuelle de ces tableaux est partielle et l'alignement exact degré/niveau de prime peut être imprécis.", 'page': 18}
-- {'description': 'Les pages 59 et 60 (« Vos notes ») ne contiennent pas de texte contractuel extractible.', 'page': 59}
+- Le document est constitué des seules conditions générales VIVIUM AUTO. De nombreux paramètres (franchises des garanties Dommages au véhicule, capitaux et indemnités journalières de la Protection du conducteur - Formule forfaitaire, montant des frais de traitement, identité du conducteur principal, degré de personnalisation, mode d'indemnisation valeur réelle/agréée/catalogue/facture, garanties souscrites) sont renvoyés aux conditions particulières, non fournies.
+- La page 18 contient un tableau de l'échelle des degrés de personnalisation et les pages 19-20 des tableaux de degrés d'entrée; l'extraction textuelle de ces tableaux est partielle et l'alignement exact degré/niveau de prime peut être imprécis. (p. 18)
+- Les pages 59 et 60 (« Vos notes ») ne contiennent pas de texte contractuel extractible. (p. 59)
 
 ## Documents liés
 

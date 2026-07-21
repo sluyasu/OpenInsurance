@@ -8,6 +8,7 @@ branch: epargne
 product_name: Terme Fixe
 document_type: product_sheet
 target_audience: null
+target_audience_note: null
 reference: null
 edition_date: 01/02/2010
 lang: fr

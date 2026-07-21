@@ -7,9 +7,10 @@ insurer_slug: dkv
 branch: sante
 product_name: DKV DAILY Comfort (Exit Group)
 document_type: ipid
-target_audience: Toute personne physique ayant son domicile et sa résidence fixe et
-  habituelle en Belgique, n'ayant pas atteint l'âge de 70 ans à la conclusion du contrat
-  d'assurance, assujettie à la sécurité sociale belge et en bénéficiant.
+target_audience: particuliers
+target_audience_note: Toute personne physique ayant son domicile et sa résidence fixe
+  et habituelle en Belgique, n'ayant pas atteint l'âge de 70 ans à la conclusion du
+  contrat d'assurance, assujettie à la sécurité sociale belge et en bénéficiant.
 reference: 32 228_FR_3_202508
 edition_date: '202508'
 lang: fr

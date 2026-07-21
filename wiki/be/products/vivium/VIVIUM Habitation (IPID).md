@@ -8,6 +8,7 @@ branch: habitation
 product_name: VIVIUM Habitation
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: 8.942F - 01-2025
 edition_date: 01-2025
 lang: fr
@@ -80,14 +81,14 @@ Les dégâts des eaux, par exemple par l'écoulement d'une conduite d'eau ou d'u
 ### Dégâts dus au mazout - p. 1
 Les dégâts dus au mazout (par exemple l'assainissement du sol pollué).
 - Optionnelle : non · Limite : L'indemnisation maximale pour l'assainissement du sol s'élève à 10.000 € * mais jusque 18.000 € * avec le certificat optitank (Abex 730).
-  - Sous-limite : {'name': 'Assainissement du sol - standard', 'limit': '10.000 € *'}
-  - Sous-limite : {'name': 'Assainissement du sol - avec certificat optitank', 'limit': '18.000 € * (Abex 730)'}
+  - Sous-limite : Assainissement du sol - standard: 10.000 € *
+  - Sous-limite : Assainissement du sol - avec certificat optitank: 18.000 € * (Abex 730)
 
 ### RC (responsabilité civile) bâtiment - p. 1
 Nous assurons votre responsabilité extracontractuelle pour des dommages causés aux tiers par le bâtiment et le contenu (à l'exception des véhicules automoteurs) (par exemple aussi le défaut d'enlèvement de neige). La RC bâtiment indemnise les dommages corporels et les dommages matériels.
 - Optionnelle : non · Limite : dommages corporels : 21.722.323 € ** - dommages matériels : 5.737.972 € **
-  - Sous-limite : {'name': 'Dommages corporels', 'limit': '21.722.323 € **'}
-  - Sous-limite : {'name': 'Dommages matériels', 'limit': '5.737.972 € **'}
+  - Sous-limite : Dommages corporels: 21.722.323 € **
+  - Sous-limite : Dommages matériels: 5.737.972 € **
   - Condition : Les montants de la garantie "RC Bâtiment" et "Recours des tiers", ainsi que la franchise, sont liés à l'indice des prix à la consommation. L'indice de base est celui de janvier 2008, soit 207,69 (base 1981 = 100).
 
 ### Recours des tiers - p. 1
@@ -107,7 +108,7 @@ Catastrophes naturelles : les inondations, le débordement ou le refoulement d'�
 ### Frais après sinistre (sauvetage, déblais, logement, démolition, expert indépendant, conservation, chômage immobilier) - p. 2
 En plus des garanties de base et après un sinistre couvert, nous indemnisons les frais de sauvetage, de déblais, de logement, de démolition, d'expert indépendant, de conservation ou de chômage immobilier (par exemple la privation de jouissance ou – si le bien est loué – la perte des revenus locatifs ainsi que les frais fixes du bailleur).
 - Optionnelle : non
-  - Sous-limite : {'name': "Frais d'expertise pour un expert indépendant", 'limit': 'ne peuvent en aucun cas excéder 24.727,37 € maximum * (Abex 730)'}
+  - Sous-limite : Frais d'expertise pour un expert indépendant: ne peuvent en aucun cas excéder 24.727,37 € maximum * (Abex 730)
   - Condition : Les frais d'expertise pour un expert indépendant dépendent des dommages estimés et ne peuvent en aucun cas excéder 24.727,37 € maximum * (Abex 730).
 
 ### Dommages indirects - p. 2
@@ -121,8 +122,8 @@ Nous versons également un montant si vous et votre famille décédez par exempl
 ### Vol et vandalisme du contenu - p. 2
 Vol et vandalisme du contenu : vous assure par exemple aussi en cas de vol avec violence ou de menaces envers vous ou les personnes vivant à votre foyer.
 - Optionnelle : oui · Limite : Le vol avec violence ou menaces sur la personne est indemnisé à concurrence de 2.500 € maximum, à concurrence de 5.000 € avec le pack Vol+ (Abex 730, garantie optionnelle).
-  - Sous-limite : {'name': 'Vol avec violence ou menaces sur la personne', 'limit': '2.500 € maximum'}
-  - Sous-limite : {'name': 'Vol avec violence ou menaces sur la personne (avec pack Vol+)', 'limit': '5.000 € (Abex 730)'}
+  - Sous-limite : Vol avec violence ou menaces sur la personne: 2.500 € maximum
+  - Sous-limite : Vol avec violence ou menaces sur la personne (avec pack Vol+): 5.000 € (Abex 730)
   - Condition : En cas de souscription des garanties de base.
 
 ### Pertes indirectes - p. 2
@@ -138,8 +139,8 @@ Protection juridique : nous défendons vos intérêts via un règlement à l'ami
 ### Pack Jardin - p. 2
 Pack Jardin : vous indemnise, par exemple, après des dégâts causés par une tempête : pour la reconstruction du jardin endommagé, y compris le nettoyage et les frais connexes ; par exemple, pour les dommages causés au contenu qui se trouve à l'extérieur ainsi qu'aux auvents, stores, clôtures de terrasse.
 - Optionnelle : oui
-  - Sous-limite : {'name': 'Reconstruction du jardin endommagé (y compris nettoyage et frais connexes)', 'limit': "jusqu'à maximum 15.000 € (Abex 730)"}
-  - Sous-limite : {'name': "Dommages au contenu à l'extérieur ainsi qu'aux auvents, stores, clôtures de terrasse", 'limit': "jusqu'à concurrence de 5.000 € (Abex 730)"}
+  - Sous-limite : Reconstruction du jardin endommagé (y compris nettoyage et frais connexes): jusqu'à maximum 15.000 € (Abex 730)
+  - Sous-limite : Dommages au contenu à l'extérieur ainsi qu'aux auvents, stores, clôtures de terrasse: jusqu'à concurrence de 5.000 € (Abex 730)
   - Condition : Ces garanties sont toujours limitées. Pour les dispositions applicables, veuillez consulter soigneusement les conditions générales et les conditions particulières que vous avez souscrites.
 
 ### Pack Vol+ - p. 2

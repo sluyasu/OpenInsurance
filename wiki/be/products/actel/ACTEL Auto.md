@@ -8,6 +8,7 @@ branch: auto
 product_name: ACTEL Auto
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 495/06-2016 (045/0050-03.2016)
 edition_date: 06-2016
 lang: fr

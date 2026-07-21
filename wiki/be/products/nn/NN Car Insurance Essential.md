@@ -8,6 +8,7 @@ branch: auto
 product_name: NN Car Insurance Essential
 document_type: conditions_generales
 target_audience: particuliers
+target_audience_note: null
 reference: FNNTC Car Ess 122025-01
 edition_date: '2025-12-01'
 lang: fr

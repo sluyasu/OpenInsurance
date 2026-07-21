@@ -8,6 +8,7 @@ branch: velo
 product_name: Assurance Bike & More
 document_type: conditions_generales
 target_audience: particuliers
+target_audience_note: null
 reference: 1251-051
 edition_date: 03/25
 lang: fr

@@ -8,6 +8,7 @@ branch: habitation
 product_name: Police habitation pour le locataire
 document_type: conditions_generales
 target_audience: particuliers
+target_audience_note: null
 reference: F0003 0001 0100 2004
 edition_date: null
 lang: fr

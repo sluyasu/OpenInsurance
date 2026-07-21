@@ -7,7 +7,8 @@ insurer_slug: das
 branch: protection-juridique
 product_name: Protection Juridique DAS Comfort
 document_type: conditions_particulieres
-target_audience: particulier / vie privée
+target_audience: particuliers
+target_audience_note: particulier / vie privée
 reference: F5042
 edition_date: 01/2025
 lang: fr

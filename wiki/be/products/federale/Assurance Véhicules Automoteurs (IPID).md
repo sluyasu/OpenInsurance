@@ -8,6 +8,7 @@ branch: auto
 product_name: Assurance Véhicules Automoteurs
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: 21.26.116 IPID (CG 21.26.132)
 edition_date: 04/25
 lang: fr

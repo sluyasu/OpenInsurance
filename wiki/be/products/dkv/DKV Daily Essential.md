@@ -8,6 +8,7 @@ branch: sante
 product_name: DKV Daily Essential
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 12004_FR_4_202508
 edition_date: 08/2025
 lang: fr
@@ -114,7 +115,7 @@ Couvre les coûts des produits pharmaceutiques allopathiques mentionnés sur une
 ### Dispositifs médicaux (verres correcteurs de lunettes) - p. 5
 Couvre uniquement les coûts des verres correcteurs de lunettes prescrits par un prestataire de soins reconnu. Les verres de lunettes peuvent être remplacés tous les trois ans (trois années civiles complètes doivent s'être écoulées entre deux cas d'assurance similaires). Le remplacement peut avoir lieu plus tôt à condition que la dioptrie ait changé d'au moins 0,5. Les montures de lunettes, les verres non-correcteurs de lunettes (de soleil) et lentilles de contact ne sont pas couverts.
 - Optionnelle : non · Portée : Belgique ; monde entier pour les soins de santé ambulatoires urgents à l'étranger · Limite : Remboursement à 70 % jusqu'à € 300 par cas d'assurance ; intervention globale (articles 2.3.1 à 2.3.4) limitée à € 1.500 par année d'assurance · Franchise : Franchise déterminée dans la police, par cas d'assurance, par assuré et par année d'assurance
-  - Sous-limite : {'name': 'Verres correcteurs de lunettes', 'limit': "70 % jusqu'à € 300 par cas d'assurance", 'page': 5}
+  - Sous-limite : Verres correcteurs de lunettes: 70 % jusqu'à € 300 par cas d'assurance
   - Condition : Verres prescrits par un prestataire de soins reconnu
   - Condition : Remplacement tous les trois ans (trois années civiles complètes entre deux cas d'assurance similaires), ou plus tôt si la dioptrie a changé d'au moins 0,5
 

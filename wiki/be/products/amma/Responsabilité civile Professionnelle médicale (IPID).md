@@ -7,7 +7,8 @@ insurer_slug: amma
 branch: rc-professionnelle
 product_name: Responsabilité civile Professionnelle médicale
 document_type: ipid
-target_audience: prestataires de soins
+target_audience: null
+target_audience_note: prestataires de soins
 reference: 02-RP-FI-0925-V02-FR
 edition_date: 0925
 lang: fr

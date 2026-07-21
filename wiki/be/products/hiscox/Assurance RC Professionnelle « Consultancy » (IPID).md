@@ -8,6 +8,7 @@ branch: rc-professionnelle
 product_name: Assurance RC Professionnelle « Consultancy »
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: IPID PROFRHSA
 edition_date: '2024'
 lang: fr

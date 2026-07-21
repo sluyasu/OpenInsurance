@@ -7,8 +7,9 @@ insurer_slug: kbc
 branch: sante
 product_name: KBC-Assurance hospitalisation
 document_type: ipid
-target_audience: personnes physiques ayant leur résidence habituelle en Belgique et
-  affiliées à la sécurité sociale belge
+target_audience: particuliers
+target_audience_note: personnes physiques ayant leur résidence habituelle en Belgique
+  et affiliées à la sécurité sociale belge
 reference: null
 edition_date: null
 lang: fr

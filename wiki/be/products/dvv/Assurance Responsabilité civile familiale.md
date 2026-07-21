@@ -8,6 +8,7 @@ branch: vie-privee
 product_name: Assurance Responsabilité civile familiale
 document_type: conditions_generales
 target_audience: particuliers
+target_audience_note: null
 reference: 0037-1-13-7295-112020-F012025
 edition_date: 112020-F012025
 lang: fr

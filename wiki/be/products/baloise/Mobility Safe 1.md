@@ -8,6 +8,7 @@ branch: auto
 product_name: Mobility Safe 1
 document_type: conditions_generales
 target_audience: particuliers
+target_audience_note: null
 reference: 0096-B3311A0000.12-01022024
 edition_date: 01-02-2024
 lang: fr

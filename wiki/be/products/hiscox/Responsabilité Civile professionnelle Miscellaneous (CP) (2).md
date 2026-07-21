@@ -8,6 +8,7 @@ branch: rc-professionnelle
 product_name: Responsabilité Civile professionnelle Miscellaneous
 document_type: conditions_particulieres
 target_audience: null
+target_audience_note: null
 reference: Conditions Spéciales - n° PIMISC202401
 edition_date: 2024-01
 lang: fr

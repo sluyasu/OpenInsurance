@@ -8,6 +8,7 @@ branch: sante
 product_name: DKV Daily Premium
 document_type: conditions_generales
 target_audience: particuliers
+target_audience_note: null
 reference: 12006_FR_4_202508
 edition_date: 2025-08
 lang: fr

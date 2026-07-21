@@ -7,8 +7,9 @@ insurer_slug: das
 branch: auto
 product_name: Protection Juridique Véhicules All Risk
 document_type: conditions_particulieres
-target_audience: Ce produit s’adresse à tous les propriétaires de véhicules à moteur
-  qui tombent sous la loi relative à l’assurance obligatoire de la responsabilité
+target_audience: particuliers
+target_audience_note: Ce produit s’adresse à tous les propriétaires de véhicules à
+  moteur qui tombent sous la loi relative à l’assurance obligatoire de la responsabilité
   en matière de véhicules automoteurs.
 reference: F5002
 edition_date: 01/2025

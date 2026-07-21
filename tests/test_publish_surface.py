@@ -116,6 +116,28 @@ def test_bare_filename_never_belongs_to_a_superseded_edition():
     assert not bad, f"superseded editions holding the bare filename: {bad}"
 
 
+def test_every_extraction_matches_the_committed_schema():
+    """The wiki gates only ever looked at rendered pages, so a schema-invalid extraction
+    passed as long as it rendered. Six of them did."""
+    sys.path.insert(0, str(REPO / "pipeline"))
+    import validate as v
+    assert v.data_layer_errors("be") == []
+
+
+def test_free_text_audience_is_kept_and_never_guessed():
+    """A wording naming several audiences must not be reduced to one of them."""
+    sys.path.insert(0, str(REPO / "pipeline"))
+    import extract
+    assert extract._audience_enum("Personnes physiques et morales") is None
+    assert extract._audience_enum("Professionnels des soins de santé") is None
+    assert extract._audience_enum("Toute personne physique de moins de 70 ans") == "particuliers"
+    assert extract._audience_enum("Personnes physiques de moins de 70 ans") == "particuliers"
+    assert extract._audience_enum("indépendants") == "independants"
+    obj = extract.normalize({"target_audience": "Personnes physiques et morales"})
+    assert obj["target_audience"] is None
+    assert obj["target_audience_note"] == "Personnes physiques et morales"
+
+
 def test_old_editions_carry_an_age_notice():
     """A 2010 edition read exactly like a current one, so "what does ERGO sell?" answered
     with contracts written 15 years ago."""

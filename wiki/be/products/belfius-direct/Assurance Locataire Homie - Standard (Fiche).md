@@ -8,6 +8,7 @@ branch: habitation
 product_name: Assurance Locataire Homie - Standard
 document_type: product_sheet
 target_audience: null
+target_audience_note: null
 reference: null
 edition_date: 08/2024
 lang: fr

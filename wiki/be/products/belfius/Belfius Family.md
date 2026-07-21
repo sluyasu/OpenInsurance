@@ -8,6 +8,7 @@ branch: vie-privee
 product_name: Belfius Family
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 0037-2-13-7032-062020-F062026
 edition_date: '062020'
 lang: fr
@@ -70,7 +71,7 @@ Belfius Family est une assurance Responsabilité civile dans le cadre de la vie 
 ### Responsabilité civile extra-contractuelle (objet de la garantie) - p. 4
 Nous assurons la Responsabilité civile extra-contractuelle de l'assuré et indemnisons les dommages qu'il cause aux tiers dans le cadre de leur vie privée : en vertu des articles 6.5, 6.10, 6.11, 6.12, 6.13, 6.14, 6.16 et 6.17 du Code Civil ou de dispositions analogues de droit étranger ; en vertu de l'article 3.101 §1, §2.1 et §2.2 du Code Civil (troubles de voisinage) ou de dispositions similaires de droit étranger, à condition que les dommages soient la conséquence directe d'un accident. Le volontariat est censé s'exercer dans le cadre de la vie privée. Nous garantissons aussi l'indemnisation des frais de sauvetage, des intérêts afférents à l'indemnité due en principal et les frais d'action civile (en ce compris les frais et honoraires d'avocats et d'experts que nous avons mandatés) pour défendre votre Responsabilité civile.
 - Optionnelle : non · Portée : Le monde entier · Limite : Dommages corporels jusqu'à concurrence de 28.935.590,24 EUR par sinistre ; dommages matériels (dommages immatériels inclus) jusqu'à concurrence de 5.787.118,05 EUR par sinistre. Frais de sauvetage, intérêts et frais de procédure civile pris en charge même au-delà du montant assuré. · Franchise : En cas de dommages matériels, une franchise de 265,42 EUR s'applique par sinistre (montants assurés et franchise liés à l'indice des prix à la consommation, indice de base 109,69 - janvier 2020, base 2013 = 100).
-  - Sous-limite : {'name': 'Frais de sauvetage, intérêts et frais de procédure civile', 'limit': 'Intervention même au-delà du montant assuré'}
+  - Sous-limite : Frais de sauvetage, intérêts et frais de procédure civile: Intervention même au-delà du montant assuré
   - Condition : Les montants assurés et la franchise sont liés à l'indice des prix à la consommation et varient en fonction du rapport entre l'indice des prix du mois antérieur à celui du sinistre et l'indice 109,69 (indice de janvier 2020, base 2013 = 100).
   - Condition : La prime n'est pas indexée automatiquement mais réexaminée annuellement.
 
@@ -87,7 +88,7 @@ Sont exclus les dommages relevant de l'assurance automobile obligatoire (Loi du 
 ### Relation contractuelle - dommages restant assurés (chambre d'hôtel/hôpital, immeubles occupés, chevaux) - p. 5
 Les conséquences de la responsabilité contractuelle et les dommages causés à des biens confiés ou à des animaux placés sous garde sont exclus. Cependant, restent assurés : tous les dommages matériels occasionnés par un assuré permanent à la chambre qu'il occupe et à son contenu lors d'un séjour temporaire ou occasionnel, à des fins privées ou professionnelles, dans un hôtel ou établissement similaire offrant un service hôtelier minimum, ou lors d'un séjour temporaire à l'hôpital ; les dommages matériels occasionnés par incendie, feu, explosion, fumée, eau et bris de vitres aux immeubles, caravanes résidentielles, garages privés ou tentes n'appartenant pas aux assurés permanents mais qu'ils occupent temporairement ou occasionnellement comme résidence de vacances, pour des fêtes de famille ou des voyages privés ou professionnels ; les dommages occasionnés à des chevaux qu'un assuré permanent loue ou emprunte, en ce compris leur attelage.
 - Optionnelle : non · Limite : Dommages aux chevaux loués ou empruntés (attelage compris) : jusqu'à concurrence de 3.616,95 EUR par sinistre.
-  - Sous-limite : {'name': 'Chevaux loués ou empruntés (attelage compris)', 'limit': '3.616,95 EUR par sinistre'}
+  - Sous-limite : Chevaux loués ou empruntés (attelage compris): 3.616,95 EUR par sinistre
 
 ### Immeubles - dommages restant assurés - p. 5
 Les dommages causés par des immeubles ou parties d'immeuble sont exclus. Cependant, restent assurés les dommages occasionnés par : la résidence principale ou secondaire, d'études, de vacances ou la caravane résidentielle de l'assuré permanent non données en location, et par leur mobilier ; l'immeuble dont le preneur et toute personne vivant à son foyer entend faire sa résidence principale (garantie acquise s'il s'y installe endéans les 6 mois qui suivent la date du sinistre) ; les appartements et garages situés dans l'immeuble occupé à titre de résidence principale et donnés en location ou mis gratuitement à disposition ; les terrains et garages à usage personnel jouxtant ou non les bâtiments assurés ; l'immeuble ou partie d'immeuble occupé et dans lequel l'assuré permanent exerce une profession libérale sans commerce ou entreposage de marchandises. Les dommages causés par des travaux de construction, transformation ou démolition ne sont couverts que si ces travaux peuvent s'effectuer sans permis d'urbanisme ou n'ont aucun effet sur la stabilité de l'immeuble assuré ou des immeubles voisins.
@@ -140,16 +141,16 @@ Nous couvrons la responsabilité de l'assuré : pour tous les dommages matériel
 ### Option Responsabilité civile étendue - Dommages causés aux objets confiés - p. 7
 Nous vous assurons pour les dommages matériels causés aux biens meubles (animaux domestiques inclus) appartenant à des tiers et dont vous êtes le gardien, l'emprunteur ou l'utilisateur, même sur base contractuelle.
 - Optionnelle : oui · Limite : Garantie plafonnée à 25.000 EUR par sinistre, avec maintien de la limite spécifique de 3.616,95 EUR prévue pour les chevaux loués ou empruntés.
-  - Sous-limite : {'name': 'Chevaux loués ou empruntés', 'limit': '3.616,95 EUR'}
+  - Sous-limite : Chevaux loués ou empruntés: 3.616,95 EUR
   - Condition : Garantie acquise moyennant une surprime et pour autant qu'elle soit mentionnée dans les conditions particulières
   - Condition : Les montants mentionnés dans cette option ne sont pas indexés
 
 ### Option Responsabilité civile étendue - Dommages causés en tant que BOB - p. 7
 Nous indemnisons les dégâts matériels occasionnés au véhicule automoteur appartenant à un tiers et conduit par un assuré permanent, pour autant que ce dernier soit personnellement reconnu responsable, en tout ou en partie, des dommages à ce véhicule. Les véhicules assurés sont les voitures de tourisme et d'affaires, les voitures à usage mixte, les minibus et les camionnettes dont la MMA n'excède pas 3,5T. L'assuré permanent doit agir en tant que « BOB » (rôle de conducteur assumé exceptionnellement, gratuitement et à titre de service d'ami, lorsque le demandeur ne se sent pas en mesure de conduire, notamment en cas d'intoxication). En cas de perte totale, nous indemnisons la valeur réelle diminuée de la valeur du véhicule après sinistre, la Taxe de Mise en Circulation et les frais d'immatriculation ; en cas de dommages partiels, le coût des réparations (TVA non récupérable incluse). Frais complémentaires remboursés : remorquage vers un réparateur en Belgique, gardiennage (45 jours max en cas de perte totale), chômage prouvé (forfait journalier du tableau indicatif, 21 jours max). En cas de sinistre impliquant un tiers, un montant forfaitaire de 250 EUR est payé au propriétaire pour compenser la hausse éventuelle de sa prime.
 - Optionnelle : oui · Portée : Accident survenu en Belgique et jusqu'à maximum 30 km au-delà de nos frontières. · Limite : Notre intervention est plafonnée à 30.000 EUR par sinistre. · Franchise : Si le véhicule accidenté est assuré en Dégâts Matériels, cette assurance intervient en priorité et nous intervenons en second rang pour le montant de la franchise ou pour l'entièreté des dommages lorsqu'ils sont inférieurs à cette franchise.
-  - Sous-limite : {'name': 'Frais de gardiennage en cas de perte totale', 'limit': '45 jours maximum'}
-  - Sous-limite : {'name': 'Frais de chômage prouvé du véhicule', 'limit': 'Montant forfaitaire journalier du tableau indicatif, durée de 21 jours maximum'}
-  - Sous-limite : {'name': 'Compensation forfaitaire de la hausse de prime du tiers', 'limit': '250 EUR'}
+  - Sous-limite : Frais de gardiennage en cas de perte totale: 45 jours maximum
+  - Sous-limite : Frais de chômage prouvé du véhicule: Montant forfaitaire journalier du tableau indicatif, durée de 21 jours maximum
+  - Sous-limite : Compensation forfaitaire de la hausse de prime du tiers: 250 EUR
   - Condition : L'assuré permanent agit en tant que « BOB » (conducteur exceptionnel à la demande du propriétaire/détenteur/conducteur autorisé, gratuitement et à titre de service d'ami)
   - Condition : L'accident survient sur le trajet visant à transporter en toute sécurité le propriétaire, le détenteur habituel et/ou le conducteur autorisé et leur entourage lors d'activités de loisir
   - Condition : Le conducteur dispose d'un permis de conduire valable et n'est pas sous déchéance du droit de conduire ni en état d'intoxication punissable
@@ -181,7 +182,7 @@ Nous payons à l'assuré qui bénéficie de la garantie Recours civil en matièr
 ### Protection juridique Base - Défense pénale - p. 10
 Nous garantissons la défense pénale de l'assuré poursuivi pour avoir commis une infraction non-intentionnelle, et pour une infraction intentionnelle dans la mesure où l'assuré est définitivement acquitté, mis hors de cause par une décision passée en force de chose jugée ou en cas de prescription. Pour un assuré âgé de moins de 16 ans au moment des faits, la défense devant le tribunal de la jeunesse est couverte même en cas d'infraction intentionnelle. Défense pénale des parents poursuivis pour les infractions commises par leurs enfants mineurs, même intentionnelles. Les sanctions administratives ne relèvent pas de la défense pénale. Assistance dans le cadre d'une enquête pénale (loi « Salduz ») : prise en charge des frais et honoraires d'avocat pour la consultation avant le premier interrogatoire et l'assistance pendant, avec une intervention maximale de 1.000 euros, seulement pour les délits punis d'une peine privative de liberté.
 - Optionnelle : oui · Portée : Le monde entier · Limite : Défense pénale : 30.000 EUR par sinistre.
-  - Sous-limite : {'name': 'Assistance enquête pénale (loi « Salduz »)', 'limit': 'Intervention maximale de 1.000 euros'}
+  - Sous-limite : Assistance enquête pénale (loi « Salduz »): Intervention maximale de 1.000 euros
   - Condition : Infraction non-intentionnelle, ou infraction intentionnelle si acquittement définitif / mise hors de cause / prescription
   - Condition : Pour l'assistance Salduz : délits punis d'une peine privative de liberté
 
@@ -202,7 +203,7 @@ Nous payons à l'assuré qui bénéficie de la garantie Recours civil en matièr
 ### Protection juridique Prestige - Défense pénale - p. 11
 Défense pénale de l'assuré poursuivi pour une infraction non-intentionnelle, et pour une infraction intentionnelle dans la mesure où l'assuré est définitivement acquitté, mis hors de cause ou en cas de prescription. Défense d'un assuré de moins de 16 ans devant le tribunal de la jeunesse même en cas d'infraction intentionnelle ; défense pénale des parents pour les infractions de leurs enfants mineurs même intentionnelles ; les sanctions administratives ne relèvent pas de la défense pénale ; assistance dans le cadre d'une enquête pénale (loi « Salduz ») avec intervention maximale de 1.000 euros pour les délits punis d'une peine privative de liberté.
 - Optionnelle : oui · Portée : Le monde entier · Limite : Défense pénale : 75.000 EUR par sinistre.
-  - Sous-limite : {'name': 'Assistance enquête pénale (loi « Salduz »)', 'limit': 'Intervention maximale de 1.000 euros'}
+  - Sous-limite : Assistance enquête pénale (loi « Salduz »): Intervention maximale de 1.000 euros
   - Condition : Infraction non-intentionnelle, ou infraction intentionnelle si acquittement définitif / mise hors de cause / prescription
   - Condition : Pour l'assistance Salduz : délits punis d'une peine privative de liberté
 
@@ -238,7 +239,7 @@ La garantie couvre les litiges relatifs aux droits et aux prestations auxquels l
 ### Protection juridique Prestige - Droit des contrats (dont litiges en matière de construction) - p. 11
 Nous couvrons les litiges contractuels en matière de construction, relatifs à la bonne exécution de travaux de construction, transformation, amélioration, rénovation, restauration et démolition d'un bien immobilier assuré sur base de la garantie 'Litiges contractuels'. Un litige avec un entrepreneur (ses auxiliaires, sous-entrepreneurs et/ou préposés respectifs) est couvert pour autant qu'ils soient inscrits à la Banque Carrefour des Entreprises et autorisés à effectuer ces travaux. Les litiges liés au contrat d'assurance Protection juridique lui-même et son exécution ne sont pas couverts.
 - Optionnelle : oui · Portée : Tous les pays de l'Union Européenne · Limite : Droit des contrats : 13.000 EUR par sinistre ; Litiges en matière de construction : 7.500 EUR par sinistre.
-  - Sous-limite : {'name': 'Litiges en matière de construction', 'limit': '7.500 EUR'}
+  - Sous-limite : Litiges en matière de construction: 7.500 EUR
   - Condition : Entrepreneur inscrit à la Banque Carrefour des Entreprises et autorisé à effectuer les travaux
   - Condition : Délai d'attente de 3 mois pour le Droit des contrats ; 12 mois pour les litiges en matière de construction
 
@@ -250,7 +251,7 @@ La garantie couvre les litiges relevant du droit des successions, des donations 
 ### Protection juridique Prestige - Droit des personnes et de la famille (dont divorce) - p. 12
 La garantie couvre la première médiation familiale dans les litiges relevant du droit des personnes et de la famille, en ce compris les différends liés à l'entretien, l'éducation, le droit à l'hébergement principal et secondaire ou le droit aux relations personnelles des enfants qui surviendraient pendant la période de garantie. La garantie couvre le premier divorce qui débute durant la période de garantie du contrat et tous les litiges relatifs aux biens ou aux personnes qui en découlent ; la fin d'une cohabitation légale est assimilée à un divorce.
 - Optionnelle : oui · Portée : La Belgique · Limite : Droit des personnes et de la famille : 13.000 EUR par sinistre ; Litiges en matière de divorce : 3.375 EUR par personne assurée.
-  - Sous-limite : {'name': 'Litiges en matière de divorce', 'limit': '3.375 EUR par personne assurée'}
+  - Sous-limite : Litiges en matière de divorce: 3.375 EUR par personne assurée
   - Condition : Délai d'attente de 12 mois pour le Droit des personnes et de la famille, sauf en matière de divorce où le délai est de 24 mois
 
 ### Protection juridique Prestige - Droits intellectuels - p. 12

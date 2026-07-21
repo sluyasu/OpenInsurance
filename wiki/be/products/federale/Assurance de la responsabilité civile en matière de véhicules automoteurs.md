@@ -8,6 +8,7 @@ branch: auto
 product_name: Assurance de la responsabilité civile en matière de véhicules automoteurs
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 21.26.146
 edition_date: 04/25
 lang: fr
@@ -114,7 +115,7 @@ L'Assureur couvre le véhicule assuré aux conditions prévues à la Garantie II
 ### Garantie II - Division A - Dégâts matériels (art. 82) - p. 31
 Sont garantis les dommages au véhicule assuré résultant d'un accident ou de malveillance de tiers. Sont également couverts, sans application de la franchise éventuellement prévue : les dégâts causés par les forces de la nature (éboulement de rochers, chute de pierres, glissement de terrain, avalanche, pression d'une masse de neige, ouragan, tempête, grêle, inondation, tremblement de terre, éruption volcanique, raz de marée) ; les dégâts directement et exclusivement causés par le heurt d'animaux (y compris dégâts au moteur et aux câbles par rongement d'animaux) ; les bris de pare-brise et de glaces latérales et arrières et de la partie vitrée incorporée dans le toit.
 - Optionnelle : oui · Portée : Carte verte (Garantie I) · Franchise : Franchise dont le pourcentage est mentionné dans le contrat, appliquée à la valeur totale déclarée ; forces de la nature, heurt d'animaux et bris de vitres couverts sans application de cette franchise ; franchise de 10 % du montant de la facture si le bris de vitre n'est pas réparé par une firme désignée ; majoration de franchise de 2,5 % de la valeur totale déclarée pour conducteur de moins de 23 ans ou permis de moins d'un an
-  - Sous-limite : {'name': 'Bris de vitres', 'value': "à concurrence du coût de réparation ou du remplacement par des glaces de même nature, effectué par une firme désignée par l'Assureur"}
+  - Sous-limite : Bris de vitres: à concurrence du coût de réparation ou du remplacement par des glaces de même nature, effectué par une firme désignée par l'Assureur
   - Condition : Par accident, on entend un événement soudain, involontaire et imprévisible dans le chef de l'assuré
   - Condition : Par tempête et ouragan on entend des déchaînements de vents atteignant une vitesse de pointe d'au moins 80 km par heure ou endommageant d'autres véhicules dans un rayon de 10 km
 
@@ -125,7 +126,7 @@ Sont garantis, sans franchise, les dommages au véhicule assuré résultant d'un
 ### Garantie II - Division C - Vol (art. 97) - p. 32
 Sont garantis, sans franchise, la perte ou les dommages occasionnés au véhicule par un vol ou une tentative de vol. Les frais pour le remplacement de clefs, de commandes à distance, de systèmes antivols, de cartes à codes ou de serrures en cas de tentative de vol ou de vol ou en cas de vol du véhicule sont également couverts. Une voiture de remplacement sera mise à disposition pendant une période maximale de 30 jours en cas de vol de l'intégralité du véhicule assuré.
 - Optionnelle : oui · Portée : Carte verte (Garantie I) · Franchise : Sans franchise
-  - Sous-limite : {'name': 'Voiture de remplacement en cas de vol', 'value': "période maximale de 30 jours en cas de vol de l'intégralité du véhicule assuré"}
+  - Sous-limite : Voiture de remplacement en cas de vol: période maximale de 30 jours en cas de vol de l'intégralité du véhicule assuré
   - Condition : Pour la couverture vol du véhicule de remplacement, à partir d'une valeur catalogue de 20.000 EUR (hors taxes), l'assuré doit contacter l'Assureur et respecter les normes antivol imposées
 
 ### Garantie II - Division D - Petite Omnium (art. 105) - p. 33
@@ -145,15 +146,15 @@ Pour autant que le véhicule désigné soit temporairement inutilisable, la gara
 ### Garantie II - Extensions de garantie (art. 72) - p. 29
 Quand l'Assureur prend en charge un sinistre, il indemnise en outre, sans application de la règle proportionnelle, sur présentation de la facture acquittée : les frais de sauvetage ; les frais de gardiennage jusqu'à la clôture de l'expertise ; d'une réparation provisoire ou de remorquage du véhicule sinistré jusqu'au réparateur ; d'un devis et de démontage indispensable ; de rapatriement préalablement autorisé du véhicule accidenté à l'étranger ; d'immatriculation et de contrôle technique ; le droit de douane s'il est impossible ou trop onéreux de réimporter le véhicule par suite d'une perte totale.
 - Optionnelle : oui
-  - Sous-limite : {'name': 'Frais de sauvetage', 'value': 'au maximum égal au montant assuré'}
-  - Sous-limite : {'name': 'Frais de gardiennage, réparation provisoire/remorquage, devis/démontage, rapatriement, immatriculation/contrôle technique', 'value': "Jusqu'à concurrence de 1.500 EUR (et à concurrence de 2.000 EUR lorsque la M.M.A. du véhicule désigné excède 3,5 tonnes), hors TVA"}
+  - Sous-limite : Frais de sauvetage: au maximum égal au montant assuré
+  - Sous-limite : Frais de gardiennage, réparation provisoire/remorquage, devis/démontage, rapatriement, immatriculation/contrôle technique: Jusqu'à concurrence de 1.500 EUR (et à concurrence de 2.000 EUR lorsque la M.M.A. du véhicule désigné excède 3,5 tonnes), hors TVA
   - Condition : Les frais d'immatriculation ne sont couverts que dans la mesure où il y a eu perte totale telle que définie à l'article 71.2.1
 
 ### Garantie III - Protection Juridique (art. 108) - p. 34
 L'Assureur prend à sa charge, jusqu'à concurrence de 20.000 EUR par sinistre, les frais de toutes démarches, enquêtes et honoraires résultant : de la défense pénale d'un assuré du chef d'homicide ou blessures involontaires ou d'infraction aux lois et règlements sur la police de la circulation routière ; de l'exercice du recours amiable ou judiciaire d'un assuré contre le responsable du sinistre, son assureur ou le Fonds Commun de Garantie Belge. Prend aussi en charge, dans les mêmes limites, les frais résultant d'une réclamation contractuelle contre le garagiste, l'entreprise de nettoyage automobile ou le responsable d'une station service établis en Belgique dans les cas prévus.
 - Optionnelle : oui · Limite : jusqu'à concurrence de 20.000 EUR par sinistre
-  - Sous-limite : {'name': "Frais de séjour à l'étranger (art. 111)", 'value': 'limités à 50 EUR par jour et par assuré'}
-  - Sous-limite : {'name': "Frais d'expertise en cas de désaccord (art. 73, applicable Garantie II)", 'value': 'jusque 150 EUR'}
+  - Sous-limite : Frais de séjour à l'étranger (art. 111): limités à 50 EUR par jour et par assuré
+  - Sous-limite : Frais d'expertise en cas de désaccord (art. 73, applicable Garantie II): jusque 150 EUR
   - Condition : En cas d'insuffisance du montant assuré, le Preneur d'assurance, la personne cohabitant avec lui et leurs enfants ont la priorité
 
 ### Garantie III - Insolvabilité des tiers (art. 113) - p. 36
@@ -168,8 +169,8 @@ L'assuré a la liberté de choisir un avocat pour défendre, représenter ou ser
 ### Garantie IV - FEDERALE Assistance Auto (art. 117) - p. 37
 Les prestations d'assistance sont assurées et organisées par Europ Assistance Belgium. En cas d'accident, d'incendie, de vol ou tentative de vol et actes de vandalisme, en Belgique et dans un rayon de 50 km au-delà de la frontière belge, immobilisant le véhicule assuré, l'assuré peut téléphoner 24h/24, 7 jours sur 7. La garantie prévoit : le dépannage sur place et le remorquage ; la prise en charge des frais F.A.S.T. ; le transport de l'assuré et passagers ; conseil sur les mesures conservatoires ; transmission des messages ; la mise à disposition d'une voiture de remplacement.
 - Optionnelle : oui · Portée : En Belgique et dans un rayon de 50 km au-delà de la frontière belge
-  - Sous-limite : {'name': 'Voiture de remplacement', 'value': "durée maximale de 5 jours (augmentée des weekends/jours fériés et de l'attente de livraison des pièces limitée à maximum 24h) ; en cas de perte totale ou de vol, également maximum 5 jours ; au maximum un véhicule de catégorie B (cylindrée de 1.300 à 1.400 cm3)"}
-  - Sous-limite : {'name': "Remboursement à défaut d'appel préalable", 'value': 'toujours limité à 200 EUR'}
+  - Sous-limite : Voiture de remplacement: durée maximale de 5 jours (augmentée des weekends/jours fériés et de l'attente de livraison des pièces limitée à maximum 24h) ; en cas de perte totale ou de vol, également maximum 5 jours ; au maximum un véhicule de catégorie B (cylindrée de 1.300 à 1.400 cm3)
+  - Sous-limite : Remboursement à défaut d'appel préalable: toujours limité à 200 EUR
   - Condition : Accordées aux voitures à usage de tourisme et affaires ou usage mixte, immatriculées en Belgique, à l'exception des plaques Transits, Essais et Marchands ainsi que des voitures de location
   - Condition : La garantie voiture de remplacement (point 6) ne s'applique pas aux camionnettes (M.M.A. n'excédant pas 3,5 tonnes)
   - Condition : Le Véhicule doit être remorqué par l'Assisteur (sauf intervention F.A.S.T.)

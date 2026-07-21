@@ -8,6 +8,7 @@ branch: vie-privee
 product_name: Assurance Responsabilité civile Familiale
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: 21.14.018 IPID (CG 21.14.027)
 edition_date: 04/25
 lang: fr

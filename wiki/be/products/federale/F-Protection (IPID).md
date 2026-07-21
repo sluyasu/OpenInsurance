@@ -8,6 +8,7 @@ branch: voyage
 product_name: F-Protection
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: 21.08.046 IPID (CG 21.08.050)
 edition_date: 06/24
 lang: fr

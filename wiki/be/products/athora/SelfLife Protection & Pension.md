@@ -8,6 +8,7 @@ branch: pension
 product_name: SelfLife Protection & Pension
 document_type: conditions_generales
 target_audience: entreprises
+target_audience_note: null
 reference: 1F829
 edition_date: 01/2026
 lang: fr

@@ -8,6 +8,7 @@ branch: habitation
 product_name: Confort Habitation Flex
 document_type: ipid
 target_audience: particuliers
+target_audience_note: null
 reference: 4186065 - 10.2024
 edition_date: '2024-10-01'
 lang: fr

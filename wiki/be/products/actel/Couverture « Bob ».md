@@ -8,6 +8,7 @@ branch: auto
 product_name: Couverture « Bob »
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: ALLC99970004
 edition_date: null
 lang: fr

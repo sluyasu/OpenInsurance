@@ -7,9 +7,10 @@ insurer_slug: dkv
 branch: sante
 product_name: DKV MEDI PACK
 document_type: ipid
-target_audience: Toute personne physique ayant son domicile et sa résidence fixe et
-  habituelle en Belgique, n’ayant pas atteint l’âge de 70 ans à la conclusion du contrat
-  d’assurance et bénéficiant des avantages de la sécurité sociale belge.
+target_audience: particuliers
+target_audience_note: Toute personne physique ayant son domicile et sa résidence fixe
+  et habituelle en Belgique, n’ayant pas atteint l’âge de 70 ans à la conclusion du
+  contrat d’assurance et bénéficiant des avantages de la sécurité sociale belge.
 reference: 31 124_FR_11_202507
 edition_date: '202507'
 lang: fr

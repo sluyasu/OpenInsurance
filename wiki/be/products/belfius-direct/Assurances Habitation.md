@@ -8,6 +8,7 @@ branch: habitation
 product_name: Assurances Habitation
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: BDWO-01072023-F01012025
 edition_date: null
 lang: fr

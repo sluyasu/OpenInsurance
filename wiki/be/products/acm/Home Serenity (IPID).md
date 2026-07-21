@@ -8,6 +8,7 @@ branch: habitation
 product_name: Home Serenity
 document_type: ipid
 target_audience: particuliers
+target_audience_note: null
 reference: I.BE.HAB
 edition_date: 10/2024
 lang: fr

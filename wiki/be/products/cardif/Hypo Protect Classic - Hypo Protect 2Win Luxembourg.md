@@ -8,6 +8,7 @@ branch: autres
 product_name: Hypo Protect Classic - Hypo Protect 2Win Luxembourg
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: HYPO_L 2023/03
 edition_date: 2023/03
 lang: fr

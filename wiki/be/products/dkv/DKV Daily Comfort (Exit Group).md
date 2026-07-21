@@ -7,9 +7,11 @@ insurer_slug: dkv
 branch: sante
 product_name: DKV Daily Comfort (Exit Group)
 document_type: conditions_generales
-target_audience: Toute personne physique qui n'a pas atteint l'âge de 70 ans au moment
-  de la souscription du plan d'assurance, a son lieu de résidence et sa résidence
-  principale en Belgique, et est assujettie à la sécurité sociale belge et en bénéficie.
+target_audience: particuliers
+target_audience_note: Toute personne physique qui n'a pas atteint l'âge de 70 ans
+  au moment de la souscription du plan d'assurance, a son lieu de résidence et sa
+  résidence principale en Belgique, et est assujettie à la sécurité sociale belge
+  et en bénéficie.
 reference: 12005_FR_4_202508 / 81C & 81X
 edition_date: 08/2025
 lang: fr

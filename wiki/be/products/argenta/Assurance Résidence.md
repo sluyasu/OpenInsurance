@@ -8,6 +8,7 @@ branch: habitation
 product_name: Assurance Résidence
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: DW24044
 edition_date: '2024-10-01'
 lang: fr

@@ -8,6 +8,7 @@ branch: vie-privee
 product_name: Assurance Familiale
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: BDFA_01072023-F18122025
 edition_date: 01/07/2023
 lang: fr

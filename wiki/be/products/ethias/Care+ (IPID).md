@@ -8,6 +8,7 @@ branch: sante
 product_name: Care+
 document_type: ipid
 target_audience: particuliers
+target_audience_note: null
 reference: 1252-437/1
 edition_date: 01/26
 lang: fr

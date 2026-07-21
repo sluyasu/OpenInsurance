@@ -8,6 +8,7 @@ branch: habitation
 product_name: P&V Ideal Habitation
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: 010/1282
 edition_date: '01.2025'
 lang: fr

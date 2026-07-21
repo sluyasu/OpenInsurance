@@ -8,6 +8,7 @@ branch: habitation
 product_name: Assurance Locataire
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: BDRNT_15062025
 edition_date: 15/06/2025
 lang: fr

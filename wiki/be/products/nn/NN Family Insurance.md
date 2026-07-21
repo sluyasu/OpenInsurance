@@ -8,6 +8,7 @@ branch: vie-privee
 product_name: NN Family Insurance
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: FNN Family 072023-01
 edition_date: Juillet 2023
 lang: fr

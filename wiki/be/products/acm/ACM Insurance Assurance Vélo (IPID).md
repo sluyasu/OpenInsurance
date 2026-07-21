@@ -8,6 +8,7 @@ branch: velo
 product_name: ACM Insurance Assurance Vélo
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: I.BE.AVL-04/25
 edition_date: 04/25
 lang: fr

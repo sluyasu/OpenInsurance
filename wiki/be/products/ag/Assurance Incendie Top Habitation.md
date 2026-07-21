@@ -8,6 +8,7 @@ branch: habitation
 product_name: Assurance Incendie Top Habitation
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 0079-2000718F-21062025
 edition_date: 21/06/2025
 lang: fr
@@ -142,7 +143,7 @@ Nous assurons les dommages matériels directement causés au bâtiment par vanda
 ### Action de l'électricité - p. 12
 Nous assurons les dommages matériels directement causés par l'action de l'électricité, y compris l'électrocution des animaux assurés, ainsi que la décongélation ou détérioration des denrées alimentaires utilisées dans le cadre de votre vie privée suite à l'arrêt ou au dérangement d'une installation de réfrigération ou de congélation provoqué par l'action de l'électricité ou par une coupure de courant soudaine et imprévisible. Recherche et réparation de la cause du sinistre remboursées (installation électrique/électronique du bâtiment désigné).
 - Optionnelle : non · Limite : 141.834,59 euros (dommages matériels au matériel électronique ou informatique à usage professionnel) · Franchise : franchise indexée toujours d'application pour cette garantie même sous le Pack Habitation & Assist+
-  - Sous-limite : {'name': 'Matériel électronique/informatique à usage professionnel', 'limit': '141.834,59 euros'}
+  - Sous-limite : Matériel électronique/informatique à usage professionnel: 141.834,59 euros
 
 ### Attentats et conflits du travail - p. 12
 Nous assurons les dommages matériels directement causés par des attentats et des conflits du travail. Pour tout bâtiment ou partie ne servant pas d'habitation ou à l'exercice d'une profession libérale (pharmacie exceptée), la garantie est limitée aux dommages dus à un incendie, une explosion ou une implosion. Pour les dommages causés par le terrorisme, application de la loi du 3 mai 2024 (plafonnement annuel via l'asbl TRIP).
@@ -152,19 +153,19 @@ Nous assurons les dommages matériels directement causés par des attentats et d
 ### Tempête - Grêle - Pression de la neige et de la glace - p. 12
 Nous assurons les dommages matériels directement causés par la tempête, la grêle, la pression de la neige et de la glace ou par des objets projetés ou renversés par un de ces évènements, ainsi que, si vous assurez le bâtiment, les frais de remise en état du jardin endommagé.
 - Optionnelle : non · Limite : 704,30 euros (ensemble des dommages au jardin et au mobilier de jardin et de piscine en plein air ou dans une construction totalement ou partiellement ouverte)
-  - Sous-limite : {'name': 'Jardin et mobilier de jardin et de piscine en plein air/construction ouverte', 'limit': '704,30 euros'}
+  - Sous-limite : Jardin et mobilier de jardin et de piscine en plein air/construction ouverte: 704,30 euros
   - Condition : Sauf les dommages : 1. causés par des vents de tempête au bâtiment en cours de construction ou de travaux, tant qu'il est totalement ou partiellement ouvert ; 2. au contenu se trouvant en plein air ou dans une construction totalement ou partiellement ouverte de façon permanente et causés par des vents de tempête (restent assurés : mobilier de jardin et de piscine, biens fixés à demeure au sol, batteries/bornes de recharge) ; 3. aux constructions délabrées et à leur contenu.
 
 ### Dégâts des eaux - p. 13
 Nous assurons les dommages matériels directement causés par l'eau du fait de son état liquide, ainsi que les dommages causés par la mérule (quelle qu'en soit la cause) et tout autre champignon suite à un sinistre couvert (hors moisissure) ; la perte de l'eau écoulée jusqu'à 2.500 m³ si la perte est d'au moins 50 m³ (fuite dans une canalisation du bâtiment) ; les dommages au contenu de l'aquarium ; les dommages causés par un liquide s'écoulant du chauffage par le sol, pompe à chaleur, conditionnement d'air ou capteurs solaires ; les dommages causés par le poids d'une accumulation d'eau de pluie non évacuée.
 - Optionnelle : non · Limite : Perte d'eau écoulée : jusqu'à 2.500 m³ si la perte est d'au moins 50 m³
-  - Sous-limite : {'name': "Perte de l'eau écoulée", 'limit': "jusqu'à 2.500 m³ (si perte d'au moins 50 m³)"}
+  - Sous-limite : Perte de l'eau écoulée: jusqu'à 2.500 m³ (si perte d'au moins 50 m³)
   - Condition : Sauf les dommages : 1. aux installations hydrauliques apparentes et à l'origine de l'écoulement, ou non apparentes ; 2. à la partie extérieure des toitures et revêtements d'étanchéité ; 3. causés par les travaux au bâtiment autres que d'entretien et de réparation ; 4. causés par l'absence de chauffage du 1er novembre au 31 mars sans vidange des installations hydrauliques ; 5. causés par l'écoulement d'un récipient non relié à l'installation hydraulique ; 6. aux biens tombés ou jetés dans l'eau ; 7. causés par précipitations atmosphériques (par ouvertures, infiltration hors toiture, au contenu en plein air) ; 8. infiltration d'eaux souterraines ; 9. inondation ou débordement/refoulement d'égouts publics ; 10. condensation.
 
 ### Dégâts dus au mazout de chauffage - p. 13
 Nous assurons les dommages matériels directement causés par le mazout de chauffage, ainsi que la perte du mazout écoulé et, si le bâtiment est assuré, les frais d'assainissement du sol pollué par du mazout de chauffage (même si les biens assurés n'ont pas été endommagés).
 - Optionnelle : non · Limite : 8.825,26 euros (assainissement du sol pollué par du mazout de chauffage)
-  - Sous-limite : {'name': 'Assainissement du sol pollué par mazout de chauffage', 'limit': '8.825,26 euros'}
+  - Sous-limite : Assainissement du sol pollué par mazout de chauffage: 8.825,26 euros
   - Condition : La pollution doit provenir de la citerne de l'assuré conforme à la réglementation ou de celle d'un tiers identifié, ou survenir lors de leur remplissage. La cause de la pollution doit être postérieure à la prise d'effet de la garantie.
   - Condition : Garantie non accordée si les frais peuvent donner lieu à l'intervention d'un fonds d'assainissement (couverture subsidiaire des frais non pris en charge).
   - Condition : Sauf les dommages : 1. aux citernes et canalisations contenant du mazout (apparentes et à l'origine de l'écoulement, ou non apparentes) ; 2. causés par les travaux au bâtiment autres que d'entretien et de réparation.
@@ -178,20 +179,20 @@ Si le bâtiment est assuré, nous couvrons les frais de recherche des fuites dan
 ### Bris de vitrages - p. 14
 Nous assurons le bris de vitres, ainsi que le bris des biens assimilés (miroirs, coupoles, panneaux ou enseignes en verre/plastique, tables de cuisson vitrocéramique, écrans de téléviseurs et ordinateurs non portables, panneaux solaires, murs rideaux, sanitaires, aquariums, terrariums, verre intégré dans des meubles, vitres de four/poêle/cassette) ; la détérioration des autres biens assurés consécutive à ces bris ; l'opacification des vitres isolantes due à la condensation ; les frais de reconstitution/remplacement des inscriptions, décorations, éléments de sécurité présents sur les vitres et biens assimilés.
 - Optionnelle : non · Limite : 3.545,86 euros (dommages causés à des vitrages d'art) · Franchise : franchise prévue par le contrat (l'opacification de chaque vitre est un sinistre distinct : la franchise s'applique par vitre opacifiée)
-  - Sous-limite : {'name': "Vitrages d'art", 'limit': '3.545,86 euros'}
+  - Sous-limite : Vitrages d'art: 3.545,86 euros
   - Condition : Sauf : 1. dommages causés par les travaux au bâtiment autres que d'entretien et de réparation ; 2. dommages causés par les travaux (nettoyage excepté) aux vitres/châssis/biens assimilés ; 3. dommages aux vitres et biens assimilés non placés ; 4. rayures et écaillements ; 5. dommages aux sanitaires par le gel ; 6. dommages aux objets en verre autres que vitres et biens assimilés.
 
 ### Responsabilité civile immeuble - p. 15
 Nous assurons la responsabilité civile qui peut vous incomber sur base des articles 6.5, 6.6, 6.10 à 6.16 du Code civil et 1721 de l'ancien Code civil (ou dispositions régionales) pour les dommages causés aux tiers par le fait des biens assurés, des jardins et trottoirs (défaut d'enlèvement de neige/glace/verglas), de l'encombrement du trottoir ; ainsi que la RC sur base des articles 3.50 et 3.101 du Code civil pour les dommages matériels causés aux tiers par le fait des biens assurés.
 - Optionnelle : non · Limite : 33.079.445,12 euros (dommages corporels subis par les tiers) ; 9.526.880,64 euros (dommages aux biens de tiers ainsi que chômage commercial et frais/chômage immobilier)
-  - Sous-limite : {'name': 'Dommages corporels aux tiers', 'limit': '33.079.445,12 euros'}
-  - Sous-limite : {'name': 'Dommages aux biens de tiers (+ chômage commercial et frais/chômage immobilier)', 'limit': '9.526.880,64 euros'}
+  - Sous-limite : Dommages corporels aux tiers: 33.079.445,12 euros
+  - Sous-limite : Dommages aux biens de tiers (+ chômage commercial et frais/chômage immobilier): 9.526.880,64 euros
   - Condition : Sauf pour les dommages : 1. assurables par la garantie Le recours des tiers et le recours des locataires et occupants ; 2. causés par le déplacement du sol ou du bâtiment (sauf RC sur base 3.50/3.101) ; 3. causés à des biens détenus ou confiés ; 4. causés par les travaux au bâtiment autres que d'entretien et de réparation ; 5. causés par un préposé/biens liés à une profession/panneaux publicitaires ; 6. causés par pollution (sauf événement soudain et imprévu) ; 7. causés par des ascenseurs/monte-charges sans contrat d'entretien ou dispositifs de sécurité ; 8. causés par des monte-charges de transport de personnes.
 
 ### Catastrophes naturelles – Garantie de la compagnie - p. 16
 Nous assurons les dommages matériels directement causés par une catastrophe naturelle (inondation, tremblement de terre, débordement ou refoulement d'égouts publics, glissement ou affaissement de terrain), ainsi que les dommages causés par un autre péril assuré qui en résulte, ceux résultant de mesures d'autorité, ceux causés par chaleur/fumée/vapeurs corrosives/diffusion d'éléments toxiques, et (si bâtiment assuré) les frais de remise en état du jardin.
 - Optionnelle : non · Limite : 704,30 euros (ensemble des dommages au jardin et au mobilier de jardin et de piscine hors construction)
-  - Sous-limite : {'name': 'Jardin et mobilier de jardin et de piscine hors construction', 'limit': '704,30 euros'}
+  - Sous-limite : Jardin et mobilier de jardin et de piscine hors construction: 704,30 euros
   - Condition : Total des indemnités limité conformément à l'article 130 §2 et §3 de la loi du 4 avril 2014 (réduction à due concurrence si dépassement).
   - Condition : Toute suspension/nullité/expiration/résiliation de la garantie Catastrophes naturelles entraîne de plein droit celle de la garantie Incendie et inversement.
   - Condition : Sauf les dommages causés (voir exclusions Catastrophes naturelles - garantie compagnie).
@@ -207,10 +208,10 @@ Nous assurons les dommages matériels directement causés par une catastrophe na
 ### Assistance Habitation - p. 18
 Garantie complémentaire (tél. 02 664 75 55). En cas de sinistre couvert : mesures d'urgence (délégué sur place, sauvetage et conservation des biens, surveillance de l'habitation prise en charge 48h max, déménagement et entreposage en garde-meubles, réservation d'hôtel et déplacement, garde des enfants de moins de 15 ans et personnes handicapées 48h max, garde des animaux assurés 48h max), avance de fonds, retour en Belgique (rapatriement), renseignements téléphoniques 24/7, envoi d'un serrurier. Les prestations Renseignements et Envoi d'un serrurier sont garanties même sans sinistre couvert.
 - Optionnelle : non · Limite : 17.904,33 euros (avance de fonds pour dépenses urgentes)
-  - Sous-limite : {'name': 'Avance de fonds pour dépenses urgentes', 'limit': '17.904,33 euros'}
-  - Sous-limite : {'name': "Surveillance de l'habitation", 'limit': '48 heures maximum'}
-  - Sous-limite : {'name': 'Garde des enfants (<15 ans) et personnes handicapées', 'limit': '48 heures maximum'}
-  - Sous-limite : {'name': 'Garde des animaux assurés', 'limit': '48 heures maximum'}
+  - Sous-limite : Avance de fonds pour dépenses urgentes: 17.904,33 euros
+  - Sous-limite : Surveillance de l'habitation: 48 heures maximum
+  - Sous-limite : Garde des enfants (<15 ans) et personnes handicapées: 48 heures maximum
+  - Sous-limite : Garde des animaux assurés: 48 heures maximum
   - Condition : Rapatriement par train 1ère classe ou avion classe économique si parcours ferroviaire >5 heures.
   - Condition : L'avance de fonds est imputée sur l'indemnité due ; si impossible, elle devra être remboursée.
 
@@ -222,7 +223,7 @@ Garantie complémentaire. Nous assurons les frais découlant des mesures que nou
 ### Les autres frais - p. 19
 Garantie complémentaire, jusqu'à 100 % des montants assurés pour le bâtiment et le contenu, consécutifs à un sinistre garanti et exposés en personne prudente et raisonnable : frais de conservation des biens sauvés ; frais de déblai et démolition, déblai des objets ayant endommagé les biens, transport et décharge des déblais, décontamination et traitement des déblais ; frais de remise en état du jardin endommagé ; frais d'expertise (expert professionnel désigné par vous et éventuel troisième expert) selon un barème dégressif.
 - Optionnelle : non · Limite : jusqu'à 100 % des montants assurés pour le bâtiment et le contenu
-  - Sous-limite : {'name': "Frais d'expertise - barème", 'limit': "jusqu'à 10.391,70 euros : 5 % (minimum 346,37 euros) ; plus de 10.391,70 jusqu'à 69.277,99 euros : 519,59 euros + 3,5 % sur l'excédent ; plus de 69.277,99 jusqu'à 346.389,87 euros : 2.580,58 euros + 2 % sur l'excédent ; plus de 346.389,87 jusqu'à 692.779,78 euros : 8.122,03 euros + 1,5 % sur l'excédent ; plus de 692.779,78 jusqu'à 2.078.339,31 euros : 13.318,71 euros + 0,75 % sur l'excédent ; au-delà de 2.078.339,31 euros : 23.710,41 euros + 0,35 % sur l'excédent avec un maximum de 34.638,96 euros"}
+  - Sous-limite : Frais d'expertise - barème: jusqu'à 10.391,70 euros : 5 % (minimum 346,37 euros) ; plus de 10.391,70 jusqu'à 69.277,99 euros : 519,59 euros + 3,5 % sur l'excédent ; plus de 69.277,99 jusqu'à 346.389,87 euros : 2.580,58 euros + 2 % sur l'excédent ; plus de 346.389,87 jusqu'à 692.779,78 euros : 8.122,03 euros + 1,5 % sur l'excédent ; plus de 692.779,78 jusqu'à 2.078.339,31 euros : 13.318,71 euros + 0,75 % sur l'excédent ; au-delà de 2.078.339,31 euros : 23.710,41 euros + 0,35 % sur l'excédent avec un maximum de 34.638,96 euros
   - Condition : Les frais et honoraires excédant le barème sont avancés mais restent à charge de la partie à laquelle il n'a pas été donné raison.
 
 ### Le chômage immobilier et les frais de relogement - p. 20
@@ -233,7 +234,7 @@ Garantie complémentaire. Nous assurons votre perte à la suite du chômage immo
 ### Le recours des tiers et le recours des locataires et occupants - p. 21
 Garantie complémentaire. Nous assurons la responsabilité qui peut vous incomber en vertu des articles 6.5, 6.6 et 6.10 à 6.17 du Code civil pour les dommages matériels causés par un sinistre garanti se communiquant à des biens de tiers (y compris vos hôtes) ; et la responsabilité en qualité de bailleur envers vos locataires (article 1721 al. 2 ancien Code civil) pour dommages résultant d'un vice de construction ou défaut d'entretien. En cas d'écoulement/infiltration d'eau couverts, intervention même si les biens assurés n'ont pas été endommagés.
 - Optionnelle : non · Portée : Extension à la résidence de remplacement, résidence de villégiature, logement des enfants étudiants et locaux loués pour fêtes de famille (si résidence principale dans le bâtiment assuré) · Limite : jusqu'à 30 % des montants assurés pour le bâtiment et le contenu, sans pouvoir être inférieure à 9.526.880,64 euros
-  - Sous-limite : {'name': 'Dommages aux biens de tiers (+ chômage commercial et frais/chômage immobilier)', 'limit': '30 % des montants assurés, minimum 9.526.880,64 euros'}
+  - Sous-limite : Dommages aux biens de tiers (+ chômage commercial et frais/chômage immobilier): 30 % des montants assurés, minimum 9.526.880,64 euros
 
 ### Les frais résultant des nouvelles normes de construction obligatoires - p. 21
 Garantie complémentaire. Nous prenons en charge les frais supplémentaires liés à l'application des nouvelles normes de construction obligatoires (normes environnementales et prescriptions imposées par les autorités belges) si le bâtiment est décrit en conditions particulières comme maison unifamiliale, appartement, appartement meublé, château ou immeuble à appartements, et que vous le réparez/reconstruisez après un sinistre couvert.
@@ -251,11 +252,11 @@ Garantie complémentaire. Si dans le cadre d'un sinistre vol du contenu ou de pa
 ### Pack Habitation & Assist+ - p. 22
 Garantie optionnelle. Comprend : suppression de la franchise indexée si dommages > 1.473,98 euros (sauf Action de l'électricité) ; Dégâts ménagers (brûlures, excès de chaleur, contact d'une source de chaleur, émanations sans embrasement) ; Indemnisation des bijoux en valeur à neuf ; Indemnisation des appareils électriques/électroniques à usage privé sur base du prix d'achat (3 ans informatique/multimédia, 7 ans autres) ; Garantie Tous Risques Ordinateurs (3 ans, événement soudain et imprévisible) ; Frais médicaux et funéraires ; Assistance psychologique (02 664 79 19) ; Home Assist (02 664 14 50).
 - Optionnelle : oui · Portée : Tous Risques Ordinateurs : bâtiment désigné, résidence de remplacement, logement d'étudiant, résidence de vacances · Limite : Dégâts ménagers : 3.967,09 euros ; Tous Risques Ordinateurs : 25.908,53 euros par sinistre ; Frais médicaux et funéraires : 38.084,20 euros par sinistre et 8.286,84 euros par victime ; Home Assist : 400 euros par intervention (max 3 par année calendrier), dont 150 euros pour matériaux/pièces · Franchise : franchise indexée supprimée si dommages > 1.473,98 euros, sauf Action de l'électricité
-  - Sous-limite : {'name': 'Dégâts ménagers', 'limit': '3.967,09 euros'}
-  - Sous-limite : {'name': 'Garantie Tous Risques Ordinateurs', 'limit': '25.908,53 euros par sinistre'}
-  - Sous-limite : {'name': 'Frais médicaux et funéraires', 'limit': '38.084,20 euros par sinistre et 8.286,84 euros par victime'}
-  - Sous-limite : {'name': 'Assistance psychologique', 'limit': 'maximum 5 consultations'}
-  - Sous-limite : {'name': 'Home Assist', 'limit': '400 euros par intervention (max 3/année calendrier), dont 150 euros matériaux/pièces'}
+  - Sous-limite : Dégâts ménagers: 3.967,09 euros
+  - Sous-limite : Garantie Tous Risques Ordinateurs: 25.908,53 euros par sinistre
+  - Sous-limite : Frais médicaux et funéraires: 38.084,20 euros par sinistre et 8.286,84 euros par victime
+  - Sous-limite : Assistance psychologique: maximum 5 consultations
+  - Sous-limite : Home Assist: 400 euros par intervention (max 3/année calendrier), dont 150 euros matériaux/pièces
   - Condition : Dégâts ménagers : exclues les brûlures par cigarettes/articles de fumeurs et matières incandescentes en provenance d'un foyer, et détériorations progressives.
   - Condition : Tous Risques Ordinateurs exclusions : perte de données ; hacking/virus ; disparition/perte ; dommages couverts par garantie légale/fabricant/maintenance ; exclusions générales.
   - Condition : Home Assist prestations non assurées : appareils ménagers/chauffage, compteurs publics, appareils d'éclairage/domotique/climatisation/téléphonie, travaux d'entretien, cuisines équipées, canalisations souterraines/fosses septiques.
@@ -264,24 +265,24 @@ Garantie optionnelle. Comprend : suppression de la franchise indexée si dommage
 ### Vol du contenu assuré - p. 24
 Garantie optionnelle. Nous assurons le vol du contenu assuré ainsi que sa détérioration à l'occasion d'un vol/tentative de vol ou par vandalisme/malveillance. Couverture dans les locaux du bâtiment désigné, hors des locaux (avec traces d'effraction), et dans le monde entier en cas de violences ou menaces (sans traces d'effraction). Remplacement des serrures et commandes à distance en cas de vol des clés (sans franchise).
 - Optionnelle : oui · Portée : Dans les locaux du bâtiment désigné ; hors des locaux (avec traces d'effraction) ; dans le monde entier en cas de violences ou menaces · Limite : Dans les locaux : 50 % de la valeur estimée jusqu'à max 112.953,24 euros (si Mini Système) ou 50 % du montant assuré pour le contenu (hors Mini Système) ; bijoux : 2.259,06 euros x nombre de pièces déclarées ou 10 % du montant assuré ; valeurs : 3.545,86 euros ; dans le monde entier avec violences/menaces : max 8.864,66 euros
-  - Sous-limite : {'name': 'Ensemble du contenu (dans les locaux, Mini Système)', 'limit': '50 % de la valeur estimée, max 112.953,24 euros'}
-  - Sous-limite : {'name': 'Ensemble du contenu (dans les locaux, hors Mini Système)', 'limit': '50 % du montant assuré pour le contenu'}
-  - Sous-limite : {'name': 'Ensemble des bijoux', 'limit': '2.259,06 euros x nombre de pièces déclarées, ou 10 % du montant assuré (par objet)'}
-  - Sous-limite : {'name': 'Ensemble des valeurs', 'limit': '3.545,86 euros'}
-  - Sous-limite : {'name': 'Dépendances non contigües', 'limit': '8.864,66 euros par dépendance'}
-  - Sous-limite : {'name': 'Caves, garages, greniers privatifs fermés à serrure à cylindre', 'limit': '8.864,66 euros par local'}
-  - Sous-limite : {'name': 'Locaux communs verrouillés (avec effraction)', 'limit': '3.545,86 euros par local'}
-  - Sous-limite : {'name': 'Hors des locaux - bâtiment tiers (parties privatives)', 'limit': '8.864,66 euros'}
-  - Sous-limite : {'name': 'Hors des locaux - locaux communs verrouillés', 'limit': '3.545,86 euros par local'}
-  - Sous-limite : {'name': 'Motorhome/caravane tractable de location verrouillé', 'limit': '8.864,66 euros'}
-  - Sous-limite : {'name': 'Local verrouillé fêtes de famille', 'limit': '3.545,86 euros par local'}
-  - Sous-limite : {'name': 'Casier verrouillé', 'limit': '1.772,93 euros'}
-  - Sous-limite : {'name': "Logement d'étudiant verrouillé (privatif)", 'limit': '8.864,66 euros par logement'}
-  - Sous-limite : {'name': "Logement d'étudiant - locaux communs verrouillés", 'limit': '3.545,86 euros par local'}
-  - Sous-limite : {'name': 'Garages privés verrouillés (max 3)', 'limit': '3.545,86 euros par local'}
-  - Sous-limite : {'name': 'Citerne de mazout avec bouchon à serrure à cylindre', 'limit': '8.864,66 euros'}
-  - Sous-limite : {'name': 'Monde entier avec violences ou menaces', 'limit': '8.864,66 euros'}
-  - Sous-limite : {'name': 'Remplacement des serrures de coffres forts (vol des clés)', 'limit': '3.545,86 euros, sans franchise'}
+  - Sous-limite : Ensemble du contenu (dans les locaux, Mini Système): 50 % de la valeur estimée, max 112.953,24 euros
+  - Sous-limite : Ensemble du contenu (dans les locaux, hors Mini Système): 50 % du montant assuré pour le contenu
+  - Sous-limite : Ensemble des bijoux: 2.259,06 euros x nombre de pièces déclarées, ou 10 % du montant assuré (par objet)
+  - Sous-limite : Ensemble des valeurs: 3.545,86 euros
+  - Sous-limite : Dépendances non contigües: 8.864,66 euros par dépendance
+  - Sous-limite : Caves, garages, greniers privatifs fermés à serrure à cylindre: 8.864,66 euros par local
+  - Sous-limite : Locaux communs verrouillés (avec effraction): 3.545,86 euros par local
+  - Sous-limite : Hors des locaux - bâtiment tiers (parties privatives): 8.864,66 euros
+  - Sous-limite : Hors des locaux - locaux communs verrouillés: 3.545,86 euros par local
+  - Sous-limite : Motorhome/caravane tractable de location verrouillé: 8.864,66 euros
+  - Sous-limite : Local verrouillé fêtes de famille: 3.545,86 euros par local
+  - Sous-limite : Casier verrouillé: 1.772,93 euros
+  - Sous-limite : Logement d'étudiant verrouillé (privatif): 8.864,66 euros par logement
+  - Sous-limite : Logement d'étudiant - locaux communs verrouillés: 3.545,86 euros par local
+  - Sous-limite : Garages privés verrouillés (max 3): 3.545,86 euros par local
+  - Sous-limite : Citerne de mazout avec bouchon à serrure à cylindre: 8.864,66 euros
+  - Sous-limite : Monde entier avec violences ou menaces: 8.864,66 euros
+  - Sous-limite : Remplacement des serrures de coffres forts (vol des clés): 3.545,86 euros, sans franchise
   - Condition : Le vol commis par une personne autorisée à se trouver dans les locaux est assuré s'il a été commis dans des locaux à usage d'habitation.
   - Condition : Mesures de prévention en cas d'absence : portes extérieures fermées à clé/dispositif électronique, portes-fenêtres/fenêtres/ouvertures fermées correctement (position oscillo-battante non considérée comme correctement fermée).
   - Condition : Sauf les vols et dommages commis : 1. lorsque le bâtiment n'est pas à occupation régulière ; 2. par ou avec la complicité de vos ascendants/descendants/conjoint ; 3. dans la maison de repos/institution de soins ; 4. lorsque les mesures de prévention n'ont pas été respectées (si en relation causale).
@@ -289,36 +290,36 @@ Garantie optionnelle. Nous assurons le vol du contenu assuré ainsi que sa dét�
 ### Pack Vol+ - p. 26
 Garantie optionnelle. Avantages acquis en cas de sinistre couvert par Vol du contenu assuré, Dégradations du bâtiment par des voleurs, ou vol des biens en plein air via Pack Jardin/Piscine. Comprend : suppression de la franchise indexée (si dommages > 1.473,98 euros ou installation électronique C@AG) ; réduction de prime (non-application de la règle proportionnelle de prime si installation INCERT/C@AG) ; doublement des limites d'intervention de la garantie Vol ; indemnisation des bijoux en valeur à neuf ; indemnisation des appareils électriques/électroniques ; frais médicaux et funéraires (homejacking/agression) ; assistance psychologique.
 - Optionnelle : oui · Limite : Garantie Vol accordée jusqu'à 100 % du montant assuré pour le contenu, ou 100 % de la valeur estimée jusqu'à max 225.906,46 euros (Mini Système) ; limites de l'article 25 doublées (sauf valeurs jamais doublées ; limite par objet et pour l'ensemble des bijoux d'au moins 25.908,53 euros) ; Frais médicaux et funéraires : 38.084,20 euros par sinistre et 8.286,84 euros par victime · Franchise : franchise indexée supprimée si dommages > 1.473,98 euros, ou si installation électronique contre l'intrusion certifiée C@AG reliée à centrale de surveillance avec contrat de maintenance
-  - Sous-limite : {'name': 'Garantie Vol du contenu (Mini Système)', 'limit': '100 % de la valeur estimée, max 225.906,46 euros'}
-  - Sous-limite : {'name': 'Bijoux (par objet et ensemble)', 'limit': 'au moins 25.908,53 euros (limites doublées)'}
-  - Sous-limite : {'name': 'Frais médicaux et funéraires', 'limit': '38.084,20 euros par sinistre et 8.286,84 euros par victime'}
-  - Sous-limite : {'name': 'Assistance psychologique', 'limit': 'maximum 5 consultations'}
+  - Sous-limite : Garantie Vol du contenu (Mini Système): 100 % de la valeur estimée, max 225.906,46 euros
+  - Sous-limite : Bijoux (par objet et ensemble): au moins 25.908,53 euros (limites doublées)
+  - Sous-limite : Frais médicaux et funéraires: 38.084,20 euros par sinistre et 8.286,84 euros par victime
+  - Sous-limite : Assistance psychologique: maximum 5 consultations
   - Condition : La limite pour les valeurs n'est jamais doublée.
   - Condition : Si Pack Jardin/Piscine souscrit, limites pour vol des biens en plein air également doublées.
 
 ### Pack Jardin - p. 28
 Garantie optionnelle. Assure les dommages survenant dans le jardin ou la terrasse à usage privé : dommages aux plantations (en pleine terre, en pot, toiture/façade végétale) irrémédiablement endommagées par un péril de base ou par du gibier/bétail/animaux non autorisés (y compris légumes et fruits à maturité) ; dommages au contenu extérieur (tempête/catastrophes naturelles) ; vol du contenu ; assainissement du sol ; dommages causés par les piscines amovibles (extension Dégâts des eaux) ; dommages aux terrains de sport extérieurs et étangs aménagés.
 - Optionnelle : oui · Portée : jardin ou terrasse à usage privé situé à l'adresse de risque mentionnée en conditions particulières · Limite : Dommages aux plantations : max 46.269,32 euros par sinistre, dont max 2.313,47 euros par plante ; Dommages au contenu : max 17.350,99 euros par sinistre ; Vol du contenu : max 17.350,99 euros par sinistre ; Assainissement du sol : 22.063,15 euros (ou 98.496,23 euros si Tous Risques Habitation) ; Équipement technique d'étang : 704,30 euros · Franchise : les dispositions relatives à la franchise contractuelle restent d'application
-  - Sous-limite : {'name': 'Dommages aux plantations', 'limit': '46.269,32 euros par sinistre, dont 2.313,47 euros par plante'}
-  - Sous-limite : {'name': 'Dommages au contenu extérieur', 'limit': '17.350,99 euros par sinistre'}
-  - Sous-limite : {'name': 'Vol du contenu en plein air / dépendance non contiguë', 'limit': '17.350,99 euros par sinistre (et par dépendance)'}
-  - Sous-limite : {'name': 'Assainissement du sol pollué par mazout', 'limit': '22.063,15 euros (ou 98.496,23 euros si Tous Risques Habitation)'}
-  - Sous-limite : {'name': "Équipement technique de l'étang aménagé", 'limit': '704,30 euros'}
-  - Sous-limite : {'name': "Perte de l'eau de l'étang", 'limit': "maximum une fois le volume de l'étang par sinistre"}
+  - Sous-limite : Dommages aux plantations: 46.269,32 euros par sinistre, dont 2.313,47 euros par plante
+  - Sous-limite : Dommages au contenu extérieur: 17.350,99 euros par sinistre
+  - Sous-limite : Vol du contenu en plein air / dépendance non contiguë: 17.350,99 euros par sinistre (et par dépendance)
+  - Sous-limite : Assainissement du sol pollué par mazout: 22.063,15 euros (ou 98.496,23 euros si Tous Risques Habitation)
+  - Sous-limite : Équipement technique de l'étang aménagé: 704,30 euros
+  - Sous-limite : Perte de l'eau de l'étang: maximum une fois le volume de l'étang par sinistre
   - Condition : Exclusions : 1. sinistre Catastrophes naturelles couvert selon le Bureau de Tarification ; 2. dommages causés par l'entretien ou l'aménagement du jardin ; 3. frais de simple entretien ; 4. dommages à une piscine ou à un jacuzzi.
 
 ### Pack Piscine - p. 30
 Garantie optionnelle. Assure les dommages à la piscine, au jacuzzi et à la piscine naturelle à usage privé. Comprend l'assurance dommages matériels (dommages à la piscine, volets/couvertures, revêtement/liner ; pollution et perte de l'eau ; équipements techniques ; contenu/mobilier de piscine ; vol du contenu) et une assurance Accidents (frais médicaux, invalidité permanente, décès) pour les accidents survenus dans et au bord de la piscine durant la vie privée.
 - Optionnelle : oui · Portée : piscine à usage privé située à l'adresse de risque mentionnée en conditions particulières · Limite : Frais de remise à température de l'eau : forfait 46,27 euros par sinistre ; Contenu/mobilier de piscine et vol du contenu : max 17.350,99 euros par sinistre ; Accidents - frais médicaux : max 5.662,85 euros par personne et par sinistre ; Invalidité permanente : montant assuré 50.336,45 euros (capital jusqu'à 113.257,02 euros à 100 %) ; Décès : 5.662,85 euros (enfant <18 ans) ou 56.628,51 euros (adulte) · Franchise : les dispositions relatives à la franchise contractuelle restent d'application (frais médicaux Accidents : franchise contractuelle indexée par victime et par accident)
-  - Sous-limite : {'name': "Frais de remise à température de l'eau", 'limit': 'forfait 46,27 euros par sinistre'}
-  - Sous-limite : {'name': 'Dommages au contenu / mobilier de piscine', 'limit': '17.350,99 euros par sinistre'}
-  - Sous-limite : {'name': 'Vol du contenu (plein air / dépendance non contiguë)', 'limit': '17.350,99 euros par sinistre (et par dépendance)'}
-  - Sous-limite : {'name': 'Accidents - frais médicaux', 'limit': '5.662,85 euros par personne et par accident'}
-  - Sous-limite : {'name': 'Accidents - frais de déplacement médicaux', 'limit': '0,35 euros par km (distance A/R > 5 km)'}
-  - Sous-limite : {'name': 'Accidents - invalidité permanente', 'limit': "montant assuré 50.336,45 euros, formule cumulative (jusqu'à 113.257,02 euros à 100 %)"}
-  - Sous-limite : {'name': 'Accidents - décès enfant (<18 ans)', 'limit': '5.662,85 euros'}
-  - Sous-limite : {'name': 'Accidents - décès adulte', 'limit': '56.628,51 euros'}
-  - Sous-limite : {'name': "Perte de l'eau de la piscine", 'limit': 'maximum une fois le volume de la piscine'}
+  - Sous-limite : Frais de remise à température de l'eau: forfait 46,27 euros par sinistre
+  - Sous-limite : Dommages au contenu / mobilier de piscine: 17.350,99 euros par sinistre
+  - Sous-limite : Vol du contenu (plein air / dépendance non contiguë): 17.350,99 euros par sinistre (et par dépendance)
+  - Sous-limite : Accidents - frais médicaux: 5.662,85 euros par personne et par accident
+  - Sous-limite : Accidents - frais de déplacement médicaux: 0,35 euros par km (distance A/R > 5 km)
+  - Sous-limite : Accidents - invalidité permanente: montant assuré 50.336,45 euros, formule cumulative (jusqu'à 113.257,02 euros à 100 %)
+  - Sous-limite : Accidents - décès enfant (<18 ans): 5.662,85 euros
+  - Sous-limite : Accidents - décès adulte: 56.628,51 euros
+  - Sous-limite : Perte de l'eau de la piscine: maximum une fois le volume de la piscine
   - Condition : Revêtement (liner) : vétusté forfaitaire de 10 % par an déduite à partir de la 4ème année.
   - Condition : Assurance Accidents non acquise si le preneur est propriétaire non-habitant ou si le bâtiment est un immeuble à appartements.
   - Condition : Exclusions dommages matériels : 1. catastrophe naturelle si conditions Bureau de tarification ; 2. dommages dus au gel ; 3. détérioration progressive (usure, rouille, moisissure, pourriture, pollution graduelle, lumière) ; 4. travaux à la piscine autres que d'entretien et réparation ; 5. équipements techniques non maintenus ; 6. mauvais rejointoiement/installation/manque d'entretien/usage non conforme.
@@ -327,16 +328,16 @@ Garantie optionnelle. Assure les dommages à la piscine, au jacuzzi et à la pis
 ### Pack Locataire – Pack Colocataires - p. 34
 Garantie optionnelle couvrant les évènements en relation avec le bien immobilier loué (résidence principale). Comprend : Protection juridique Locataire & Colocataires (gérée par Providis - aide juridique et protection juridique amiable/judiciaire relative au bail) ; Relogement temporaire ; Faillite de l'employeur ; Déménagement anticipé (frais de déménagement, indemnité légale de rupture, avance garantie locative) ; Dégâts locatifs en fin de bail ; Vol entre colocataires (Pack Colocataires uniquement) ; Home Assist.
 - Optionnelle : oui · Portée : bien immobilier loué situé à l'adresse de risque mentionnée en conditions particulières ; litiges sous compétence des autorités judiciaires belges et droit civil belge · Limite : Protection juridique : max 75.000 euros par litige (25.000 euros par partie en cas de litige entre colocataires) ; Relogement temporaire : 150 euros/jour (250 euros avec enfants) Pack Locataire, 100 euros/chambre Pack Colocataires, 10 jours max ; Faillite de l'employeur : loyer mensuel, plafond 3.000 euros/mois, max 3 mois ; Frais de déménagement : max 750 euros ; Indemnité légale de rupture : jusqu'à 3 mois de loyers, plafond 3.000 euros/mois ; Avance garantie locative : 2 fois le loyer, max 3.000 euros/mois ; Dégâts locatifs fin de bail : moitié des coûts, max 3.000 euros, franchise 500 euros ; Vol entre colocataires : max 3.000 euros par sinistre · Franchise : Dégâts locatifs en fin de bail : franchise de 500 euros
-  - Sous-limite : {'name': 'Protection juridique Locataire & Colocataires', 'limit': '75.000 euros par litige (25.000 euros par partie entre colocataires)'}
-  - Sous-limite : {'name': 'Relogement temporaire (Pack Locataire)', 'limit': '150 euros/jour (250 euros avec enfants), 10 jours max'}
-  - Sous-limite : {'name': 'Relogement temporaire (Pack Colocataires)', 'limit': '100 euros/chambre à coucher occupée, 10 jours max'}
-  - Sous-limite : {'name': "Faillite de l'employeur", 'limit': 'loyer mensuel hors charges, plafond 3.000 euros/mois, max 3 mois'}
-  - Sous-limite : {'name': 'Frais de déménagement', 'limit': '750 euros'}
-  - Sous-limite : {'name': 'Indemnité légale de rupture anticipée de bail', 'limit': "jusqu'à 3 mois de loyers, plafond 3.000 euros/mois"}
-  - Sous-limite : {'name': 'Avance garantie locative', 'limit': '2 fois le loyer, max 3.000 euros/mois'}
-  - Sous-limite : {'name': 'Dégâts locatifs en fin de bail', 'limit': 'moitié des coûts, max 3.000 euros, franchise 500 euros'}
-  - Sous-limite : {'name': 'Vol entre colocataires', 'limit': '3.000 euros par sinistre'}
-  - Sous-limite : {'name': 'Home Assist', 'limit': '400 euros par intervention (max 3/année calendrier), dont 150 euros matériaux/pièces'}
+  - Sous-limite : Protection juridique Locataire & Colocataires: 75.000 euros par litige (25.000 euros par partie entre colocataires)
+  - Sous-limite : Relogement temporaire (Pack Locataire): 150 euros/jour (250 euros avec enfants), 10 jours max
+  - Sous-limite : Relogement temporaire (Pack Colocataires): 100 euros/chambre à coucher occupée, 10 jours max
+  - Sous-limite : Faillite de l'employeur: loyer mensuel hors charges, plafond 3.000 euros/mois, max 3 mois
+  - Sous-limite : Frais de déménagement: 750 euros
+  - Sous-limite : Indemnité légale de rupture anticipée de bail: jusqu'à 3 mois de loyers, plafond 3.000 euros/mois
+  - Sous-limite : Avance garantie locative: 2 fois le loyer, max 3.000 euros/mois
+  - Sous-limite : Dégâts locatifs en fin de bail: moitié des coûts, max 3.000 euros, franchise 500 euros
+  - Sous-limite : Vol entre colocataires: 3.000 euros par sinistre
+  - Sous-limite : Home Assist: 400 euros par intervention (max 3/année calendrier), dont 150 euros matériaux/pièces
   - Condition : Protection juridique - délai d'attente : 4 mois à dater de la prise d'effet du pack pour la procédure judiciaire (pas de délai en défense, sauf dégâts locatifs).
   - Condition : Faillite : jugement du tribunal de l'insolvabilité + licenciement au moins 4 mois après la prise d'effet du pack ; déclaration max 12 mois après réception du C4.
   - Condition : Déménagement anticipé : résiliation prenant effet au plus tard 12 mois après l'évènement ; certains évènements exigent au moins 4 mois après la prise d'effet du pack.
@@ -358,15 +359,15 @@ Garantie optionnelle. Le montant de l'indemnité dû en vertu du contrat, y comp
 ### Protection juridique incendie - p. 41
 Garantie optionnelle gérée par Providis (Arrêté royal du 12 octobre 1990). Fournit des services et prend en charge honoraires et frais afin de faire valoir vos droits. Prestations : Recours civil (indemnisation d'un tiers responsable hors contrat, d'un locataire/bailleur, litige avec plateforme digitale séjour ≤120 nuits) ; Avance de fonds sur indemnités ; Litiges contractuels avec votre assureur incendie ; Contre-expertise ; Clause d'insolvabilité ; Intervention première audition (Salduz) ; Défense pénale ; Contestation d'une amende SAC / médiation SAC.
 - Optionnelle : oui · Portée : un sinistre survenu en Belgique · Limite : max 75.000 euros par sinistre ; Recours civil (dommages causés par un tiers) : 75.000 euros ; Avance de fonds : 20.000 euros ; Litige avec assureur incendie : 75.000 euros ; Contre-expertise : 75.000 euros ; Clause d'insolvabilité : 15.000 euros ; Salduz : 1.000 euros par personne ; Défense pénale : 75.000 euros ; Contestation amende SAC : 15.000 euros · Franchise : Pas d'intervention si le montant de l'action en dommages et intérêts ne dépasse pas le montant de la franchise prévu par le contrat
-  - Sous-limite : {'name': 'Dommages causés par un tiers (recours civil)', 'limit': '75.000 euros'}
-  - Sous-limite : {'name': 'Avance de fonds sur indemnité (franchise incluse)', 'limit': '20.000 euros'}
-  - Sous-limite : {'name': 'Litige avec votre assureur incendie', 'limit': '75.000 euros'}
-  - Sous-limite : {'name': 'Contre-expertise', 'limit': '75.000 euros'}
-  - Sous-limite : {'name': "Clause d'insolvabilité", 'limit': '15.000 euros'}
-  - Sous-limite : {'name': 'Intervention première audition (Salduz)', 'limit': '1.000 euros par personne'}
-  - Sous-limite : {'name': 'Défense pénale', 'limit': '75.000 euros'}
-  - Sous-limite : {'name': "Contestation d'une amende SAC / médiation SAC", 'limit': '15.000 euros'}
-  - Sous-limite : {'name': 'Demandes connexes (>5 contrats)', 'limit': '1.000.000 euros au total'}
+  - Sous-limite : Dommages causés par un tiers (recours civil): 75.000 euros
+  - Sous-limite : Avance de fonds sur indemnité (franchise incluse): 20.000 euros
+  - Sous-limite : Litige avec votre assureur incendie: 75.000 euros
+  - Sous-limite : Contre-expertise: 75.000 euros
+  - Sous-limite : Clause d'insolvabilité: 15.000 euros
+  - Sous-limite : Intervention première audition (Salduz): 1.000 euros par personne
+  - Sous-limite : Défense pénale: 75.000 euros
+  - Sous-limite : Contestation d'une amende SAC / médiation SAC: 15.000 euros
+  - Sous-limite : Demandes connexes (>5 contrats): 1.000.000 euros au total
   - Condition : Providis n'est tenue à aucune prestation si vous aviez ou pouviez avoir connaissance des faits au moment de la souscription.
   - Condition : Exclusions du recours civil (voir exclusions).
   - Condition : Contestation amende SAC : sauf si amende < 250 euros ou concerne bruit/odeur/poussière/ondes/radiations/vue/air/lumière/infraction urbanistique.

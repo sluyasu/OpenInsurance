@@ -8,6 +8,7 @@ branch: voyage
 product_name: Assurance Assistance Family (Annuelle)
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 1275-013
 edition_date: 03/25
 lang: fr

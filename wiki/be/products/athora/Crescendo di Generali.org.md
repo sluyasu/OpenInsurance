@@ -8,6 +8,7 @@ branch: epargne
 product_name: Crescendo di Generali.org
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 1F639
 edition_date: 12/2015
 lang: fr

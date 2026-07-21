@@ -78,6 +78,34 @@ def ambiguous_names(cc: str) -> dict[str, list[str]]:
     return {n: paths for n, paths in claims.items() if len(paths) > 1}
 
 
+def data_layer_errors(cc: str) -> list[str]:
+    """Validate the extracted JSON against the committed schema and the country taxonomy.
+
+    The wiki gates checked the rendered pages only, so a schema-invalid extraction passed
+    as long as it rendered. It needs no PDFs, so unlike the grounding check it can run in
+    CI, where it is the only thing standing between a drifted extraction and the dataset
+    other people install from PyPI."""
+    import jsonschema
+    from common import read_json, extracted_dir, load_country
+
+    schema = read_json(REPO / "schema" / "product.schema.json")
+    v = jsonschema.Draft202012Validator(schema)
+    branches = set((load_country(cc).get("branches") or {}).keys())
+    out = []
+    for f in sorted(extracted_dir(cc).glob("*/*.json")):
+        rel = f.relative_to(REPO)
+        try:
+            obj = read_json(f)
+        except Exception as e:                                   # noqa: BLE001
+            out.append(f"{rel}: unreadable ({e})")
+            continue
+        for e in list(v.iter_errors(obj))[:3]:
+            out.append(f"{rel}: {'/'.join(map(str, e.path))}: {e.message[:160]}")
+        if obj.get("branch") not in branches:
+            out.append(f"{rel}: branch '{obj.get('branch')}' is not in the {cc} taxonomy")
+    return out
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--country", required=True)
@@ -148,6 +176,10 @@ def main() -> int:
     for label in sorted(missing_branch_pages):
         warnings.append(f"branch '{label}': {missing_branch_pages[label]} wikilinks but no "
                         f"branch page yet (wiki/{cc}/branches/{label}.md)")
+
+    # data layer: the extractions the pages are rendered from
+    for e in data_layer_errors(cc):
+        errors.append(e)
 
     # publish surface: bare links whose target name is claimed by several pages
     ambiguous = ambiguous_names(cc)

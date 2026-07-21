@@ -7,9 +7,10 @@ insurer_slug: dkv
 branch: sante
 product_name: DKV HOSPI Comfort
 document_type: ipid
-target_audience: Toute personne physique n'ayant pas atteint l'âge de 70 ans à la
-  conclusion du contrat d'assurance, ayant son lieu de résidence et sa résidence principale
-  en Belgique, étant assujetti à la sécurité sociale belge et en bénéficiant.
+target_audience: particuliers
+target_audience_note: Toute personne physique n'ayant pas atteint l'âge de 70 ans
+  à la conclusion du contrat d'assurance, ayant son lieu de résidence et sa résidence
+  principale en Belgique, étant assujetti à la sécurité sociale belge et en bénéficiant.
 reference: 31 174_FR_6_202603
 edition_date: '202603'
 lang: fr
@@ -74,7 +75,7 @@ Frais de traitement médical et paramédical (kinésithérapeutes, infirmières,
 ### Frais de médicaments, pansements et matériel médical - p. 1
 Frais de médicaments, pansements et matériel médical.
 - Optionnelle : non
-  - Sous-limite : {'description': 'Remboursement à 80% des médicaments, pansements et matériel médical en pré-post et "MG"', 'amount': '80%'}
+  - Sous-limite : description: Remboursement à 80% des médicaments, pansements et matériel médical en pré-post et "MG"; amount: 80%
   - Condition : Médicaments, pansements et matériel médical sur prescription médicale d'un médecin.
 
 ### Frais de dispositifs médicaux, de prothèses et de membres artificiels - p. 1
@@ -90,14 +91,14 @@ Frais de transport en Belgique en cas d'hospitalisation : en ambulance ou en hé
 ### Frais pré et post-hospitalisation (soins ambulatoires) - p. 1
 Pré et post : frais médicaux des soins ambulatoires, y compris les soins post-natals, 30 jours avant et 90 jours après une hospitalisation.
 - Optionnelle : non · Portée : Belgique
-  - Sous-limite : {'description': "Remboursement réduit de 50 % pour pré et post si l'assurance maladie légale n'intervient pas", 'amount': '50%'}
-  - Sous-limite : {'description': 'Remboursement à 80% des médicaments, pansements et matériel médical en pré-post', 'amount': '80%'}
+  - Sous-limite : description: Remboursement réduit de 50 % pour pré et post si l'assurance maladie légale n'intervient pas; amount: 50%
+  - Sous-limite : description: Remboursement à 80% des médicaments, pansements et matériel médical en pré-post; amount: 80%
 
 ### "Maladie Graves" (MG) - Frais médicaux des soins ambulatoires - p. 1
 Les frais médicaux des soins ambulatoires, de 33 maladies (par exemple le cancer, le diabète, la maladie d'Alzheimer, la sclérose en plaques, etc.).
 - Optionnelle : non · Portée : Belgique · Limite : Frais médicaux des soins ambulatoires « MG » jusqu'à € 25.000 (par personne assurée et par année d'assurance)
-  - Sous-limite : {'description': 'Remboursement réduit de 50 % pour "MG" si l\'assurance maladie légale n\'intervient pas', 'amount': '50%'}
-  - Sous-limite : {'description': 'Remboursement à 80% des médicaments, pansements et matériel médical en "MG"', 'amount': '80%'}
+  - Sous-limite : description: Remboursement réduit de 50 % pour "MG" si l'assurance maladie légale n'intervient pas; amount: 50%
+  - Sous-limite : description: Remboursement à 80% des médicaments, pansements et matériel médical en "MG"; amount: 80%
 
 ### "Maladie Graves" (MG) - Frais de soins non-médicaux - p. 1
 Les frais de soins non-médicaux (soins corporels quotidiens, aide-ménagère, garde d'enfants ou d'animaux) pendant la période post-hospitalière d'une hospitalisation couverte avec nuitée pour une "Maladie grave" (MG).
@@ -174,7 +175,6 @@ AssurPharma : envoi automatisé à DKV des attestations par un pharmacien reconn
 ## Franchises
 
 - Standard : Une contribution personnelle (c-à-d une franchise par cas d'assurance), dont le montant est déterminé dans les Conditions Particulières d'Assurance, est appliquée à chaque hospitalisation en chambre à un lit. Une rechute causant une nouvelle admission est considérée comme une nouvelle hospitalisation.
-- Variable : True
 - Par garantie : Franchise appliquée à chaque hospitalisation en chambre à un lit.
 
 ## Délais d'attente

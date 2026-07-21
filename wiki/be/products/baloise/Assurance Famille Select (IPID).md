@@ -8,6 +8,7 @@ branch: vie-privee
 product_name: Assurance Famille Select
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: B1283.VAR.02.25
 edition_date: null
 lang: fr

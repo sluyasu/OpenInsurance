@@ -8,6 +8,7 @@ branch: sante
 product_name: Confort Personnes
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 4183781–20220613
 edition_date: '06.2022'
 lang: fr
@@ -67,7 +68,7 @@ Confort Personnes est une assurance et assistance « Accidents corporels » d'AX
 ### Garantie Accidents – Décès - p. 7
 En cas de décès : la somme assurée mentionnée en conditions particulières, si le décès survient dans les trois ans qui suivent l'accident qui en est la cause. Cette somme est le cas échéant diminuée des montants payés au titre d'invalidité permanente. Le paiement se fait au bénéficiaire désigné en conditions particulières ou, à défaut, aux héritiers légaux de l'assuré jusqu'au 4e degré inclus. A défaut de bénéficiaire désigné et d'héritiers légaux, remboursement des frais funéraires effectivement supportés par la personne qui les a exposés.
 - Optionnelle : non · Portée : Monde entier, pour autant que l'assuré ait sa résidence principale en Belgique · Limite : somme assurée mentionnée en conditions particulières; frais funéraires à défaut de bénéficiaire et d'héritiers : jusqu'à concurrence de 2.479 EUR
-  - Sous-limite : {'name': "Frais funéraires à défaut de bénéficiaire désigné et d'héritiers légaux", 'limit': "jusqu'à concurrence de 2.479 EUR"}
+  - Sous-limite : Frais funéraires à défaut de bénéficiaire désigné et d'héritiers légaux: jusqu'à concurrence de 2.479 EUR
   - Condition : le décès doit survenir dans les trois ans qui suivent l'accident qui en est la cause
 
 ### Garantie Accidents – Invalidité permanente - p. 7
@@ -84,7 +85,7 @@ En cas d'incapacité temporaire : pour autant qu'elle soit confirmée par certif
 ### Garantie Accidents – Frais de traitement - p. 7
 En cas de soins médicaux entraînant des frais de traitement : sur production des justificatifs, tous ces frais, après déduction des prestations obtenues de tout tiers-payeur, jusqu'à concurrence de la somme assurée mentionnée en conditions particulières. On entend par frais de traitement les frais médicaux, pharmaceutiques, d'hospitalisation, d'ambulance et de première prothèse rendus nécessaires par un accident garanti. Les frais de traitement relevant de pratiques non-conventionnelles autorisées par la loi du 29 avril 1999, ainsi que les frais de chirurgie esthétique destinés à remédier aux conséquences d'un accident garanti, sont pris en charge à concurrence de 50 %, avec un maximum absolu de 1.240 EUR.
 - Optionnelle : non · Portée : Monde entier, pour autant que l'assuré ait sa résidence principale en Belgique · Limite : jusqu'à concurrence de la somme assurée mentionnée en conditions particulières · Franchise : Une franchise de 24,79 EUR par sinistre reste à votre charge. Elle est toutefois portée à 49,58 EUR en cas d'hospitalisation en chambre particulière.
-  - Sous-limite : {'name': "Pratiques non-conventionnelles (loi du 29 avril 1999) et chirurgie esthétique remédiant aux conséquences d'un accident garanti", 'limit': '50 %, avec un maximum absolu de 1.240 EUR'}
+  - Sous-limite : Pratiques non-conventionnelles (loi du 29 avril 1999) et chirurgie esthétique remédiant aux conséquences d'un accident garanti: 50 %, avec un maximum absolu de 1.240 EUR
   - Condition : sur production des justificatifs
   - Condition : après déduction des prestations obtenues de tout tiers-payeur
 
@@ -178,7 +179,7 @@ Nous prenons en charge les frais de recherche et de sauvetage à concurrence de 
 ### Garantie Assistance Personnes (option) – A l'étranger – Prise en charge des frais médicaux (maladie ou accident) - p. 15
 Nous réglons aux prestataires de soins ou à l'assuré, à concurrence de 50.000 EUR et après épuisement des prestations garanties par des tiers-payeurs : les frais médicaux et d'hospitalisation, y compris les médicaments prescrits; les soins dentaires urgents, à concurrence de 125 EUR par personne; les frais de transport (ambulance, traîneau sanitaire, hélicoptère ordonné par un médecin pour un trajet local). Nous appliquons une franchise de 50 EUR par personne et par sinistre. Nous excluons les frais médicaux engagés en Belgique.
 - Optionnelle : oui · Portée : A l'étranger (frais médicaux engagés en Belgique exclus) · Limite : à concurrence de 50.000 EUR, après épuisement des prestations garanties par des tiers-payeurs · Franchise : franchise de 50 EUR par personne et par sinistre
-  - Sous-limite : {'name': 'Soins dentaires urgents', 'limit': 'à concurrence de 125 EUR par personne'}
+  - Sous-limite : Soins dentaires urgents: à concurrence de 125 EUR par personne
   - Condition : après épuisement des prestations garanties par des tiers-payeurs
 
 ### Garantie Assistance Personnes (option) – A l'étranger – Envoi de médicaments et prothèses indispensables - p. 15

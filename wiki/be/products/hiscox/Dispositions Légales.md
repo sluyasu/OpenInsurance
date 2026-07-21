@@ -8,6 +8,7 @@ branch: autres
 product_name: Dispositions Légales
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: null
 edition_date: null
 lang: fr

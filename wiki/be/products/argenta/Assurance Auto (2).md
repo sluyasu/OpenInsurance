@@ -8,6 +8,7 @@ branch: auto
 product_name: Assurance Auto
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: DW24042
 edition_date: 01-10-2024
 lang: fr

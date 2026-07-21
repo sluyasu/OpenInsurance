@@ -8,6 +8,7 @@ branch: velo
 product_name: Assurance Vélo
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: BDBI_08122025
 edition_date: 08122025
 lang: fr

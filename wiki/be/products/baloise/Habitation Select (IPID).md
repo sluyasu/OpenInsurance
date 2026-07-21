@@ -8,6 +8,7 @@ branch: habitation
 product_name: Habitation Select
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: B1251.BRA.06.26
 edition_date: '06.26'
 lang: fr

@@ -8,6 +8,7 @@ branch: voyage
 product_name: Assurance Voyage eTravel
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: 4186975 - 10.2025
 edition_date: '10.2025'
 lang: fr

@@ -8,6 +8,7 @@ branch: sante
 product_name: DKV Smile Premium
 document_type: conditions_generales
 target_audience: particuliers
+target_audience_note: null
 reference: 12 003_FR_3_202407
 edition_date: 2024-07
 lang: fr

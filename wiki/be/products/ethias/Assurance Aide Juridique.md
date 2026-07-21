@@ -8,6 +8,7 @@ branch: protection-juridique
 product_name: Assurance Aide Juridique
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 1252-076
 edition_date: 03/25
 lang: fr

@@ -8,6 +8,7 @@ branch: autres
 product_name: Touring Move On
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 0079-8423700F-01042026
 edition_date: 01/04/2026
 lang: fr

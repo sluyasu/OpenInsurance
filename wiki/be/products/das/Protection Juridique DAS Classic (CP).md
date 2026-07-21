@@ -7,7 +7,8 @@ insurer_slug: das
 branch: protection-juridique
 product_name: Protection Juridique DAS Classic
 document_type: conditions_particulieres
-target_audience: particuliers (vie privée)
+target_audience: particuliers
+target_audience_note: particuliers (vie privée)
 reference: F5040
 edition_date: 01/2025
 lang: fr

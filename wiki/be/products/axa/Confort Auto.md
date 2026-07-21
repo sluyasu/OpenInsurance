@@ -8,6 +8,7 @@ branch: auto
 product_name: Confort Auto
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 4185995-20260622
 edition_date: '06.2026'
 lang: fr

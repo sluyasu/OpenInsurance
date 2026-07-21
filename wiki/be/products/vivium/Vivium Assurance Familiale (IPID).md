@@ -8,6 +8,7 @@ branch: vie-privee
 product_name: Vivium Assurance Familiale
 document_type: ipid
 target_audience: particuliers
+target_audience_note: null
 reference: 8.913F / 04-2025
 edition_date: 2025-04
 lang: fr

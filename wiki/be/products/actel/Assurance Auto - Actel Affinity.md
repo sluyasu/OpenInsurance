@@ -8,6 +8,7 @@ branch: auto
 product_name: Assurance Auto - Actel Affinity
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: AUVA/01/01 - 2.403F - 04.2013
 edition_date: '04.2013'
 lang: fr

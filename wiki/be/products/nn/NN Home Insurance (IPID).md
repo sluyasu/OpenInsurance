@@ -8,6 +8,7 @@ branch: habitation
 product_name: NN Home Insurance
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: null
 edition_date: null
 lang: fr

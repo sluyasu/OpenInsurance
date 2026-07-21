@@ -7,10 +7,11 @@ insurer_slug: das
 branch: vie-privee
 product_name: Protection Juridique Vie Privée
 document_type: conditions_particulieres
-target_audience: La police Vie Privée s'adresse aux particuliers qui souhaitent bénéficier
-  des garanties essentielles de l'assurance Protection Juridique pour les litiges
-  concernant leur vie privée et leurs activités professionnelles en tant que salarié
-  ou fonctionnaire.
+target_audience: particuliers
+target_audience_note: La police Vie Privée s'adresse aux particuliers qui souhaitent
+  bénéficier des garanties essentielles de l'assurance Protection Juridique pour les
+  litiges concernant leur vie privée et leurs activités professionnelles en tant que
+  salarié ou fonctionnaire.
 reference: F5001
 edition_date: 01/2025
 lang: fr

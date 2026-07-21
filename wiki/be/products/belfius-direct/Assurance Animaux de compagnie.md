@@ -8,6 +8,7 @@ branch: animaux
 product_name: Assurance Animaux de compagnie
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: BDPE_15062026
 edition_date: '15062026'
 lang: fr

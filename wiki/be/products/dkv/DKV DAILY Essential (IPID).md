@@ -7,10 +7,11 @@ insurer_slug: dkv
 branch: sante
 product_name: DKV DAILY Essential
 document_type: ipid
-target_audience: Toute personne physique n'ayant pas atteint l'âge de 70 ans à la
-  conclusion du contrat d'assurance, ayant son domicile et sa résidence fixe et habituelle
-  (lieu de résidence et résidence principale) en Belgique, étant assujettie à la sécurité
-  sociale belge et en bénéficiant.
+target_audience: particuliers
+target_audience_note: Toute personne physique n'ayant pas atteint l'âge de 70 ans
+  à la conclusion du contrat d'assurance, ayant son domicile et sa résidence fixe
+  et habituelle (lieu de résidence et résidence principale) en Belgique, étant assujettie
+  à la sécurité sociale belge et en bénéficiant.
 reference: 32 227_FR_3_202508
 edition_date: '202508'
 lang: fr
@@ -49,10 +50,10 @@ DKV DAILY Essential est une assurance individuelle soins de santé ambulatoires 
 ### Soins ambulatoires - p. 1
 Remboursement des frais médicaux ambulatoires, y compris les suppléments d'honoraires, provenant de consultations et/ou de traitements ambulatoires fournis et/ou prescrits par un prestataire de soins de santé reconnu 365 jours/an, restant à la charge de l'assuré après déduction de toute intervention légale/statutaire ou autre. Remboursement à 70% jusqu'à € 1.500 par année d'assurance. Ce taux de remboursement est maintenu en cas de non-intervention de l'assurance maladie légale belge.
 - Optionnelle : non · Portée : La garantie d'assurance est valable en Belgique. Dans le cas spécifique des soins ambulatoires urgents à l'étranger, le plan d'assurance est également valable dans le monde entier. · Limite : À 70% jusqu'à € 1.500 par année d'assurance · Franchise : Une éventuelle franchise annuelle dont le montant est déterminé dans les Conditions Particulières d'Assurance
-  - Sous-limite : {'name': 'Traitement médical', 'description': "Consultations et prestations médicales auprès d'un médecin généraliste et d'un médecin spécialiste (p. ex. cardiologue, pédiatre), imagerie médicale, biologie clinique et autres examens.", 'limit': "À 70% jusqu'à € 1.500 par année d'assurance"}
-  - Sous-limite : {'name': 'Traitement paramédical', 'description': 'Consultations et prestations paramédicales auprès de kinésithérapeutes, infirmières, sage-femmes, podologues et logopèdes.', 'limit': "À 70% jusqu'à € 1.500 par année d'assurance"}
-  - Sous-limite : {'name': 'Médicaments', 'description': 'Médicaments.', 'limit': "À 70% jusqu'à € 1.500 par année d'assurance"}
-  - Sous-limite : {'name': 'Verres correcteurs de lunettes', 'description': "Verres correcteurs de lunettes jusqu'à € 300, une fois tous les 3 ans.", 'limit': "jusqu'à € 300, une fois tous les 3 ans"}
+  - Sous-limite : Traitement médical: À 70% jusqu'à € 1.500 par année d'assurance
+  - Sous-limite : Traitement paramédical: À 70% jusqu'à € 1.500 par année d'assurance
+  - Sous-limite : Médicaments: À 70% jusqu'à € 1.500 par année d'assurance
+  - Sous-limite : Verres correcteurs de lunettes: jusqu'à € 300, une fois tous les 3 ans
   - Condition : Frais restant à la charge de l'assuré après déduction de toute intervention légale/statutaire ou autre
   - Condition : Remboursement des frais de logopédie et de procréation médicalement assistée sous réserve d'une autorisation préalable et d'un remboursement par l'assurance obligatoire soins de santé et indemnités
   - Condition : Un stage général de 3 mois est applicable

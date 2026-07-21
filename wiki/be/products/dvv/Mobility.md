@@ -8,6 +8,7 @@ branch: auto
 product_name: Mobility
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 0037-1-10-5767-032024
 edition_date: 032024 - F012025
 lang: fr
@@ -126,9 +127,9 @@ L'assistance après accident fournit divers services à l'assuré impliqué dans
 ### Extension de garantie "BOB" - p. 18
 Nous indemnisons les dégâts matériels occasionnés au véhicule désigné lorsque celui-ci est conduit par un tiers personnellement tenu responsable, en tout ou en partie, des dommages audit véhicule, lorsque l'assuré fait appel à "BOB" (demande à un tiers de conduire exceptionnellement son véhicule, gratuitement et à titre de service d'ami, notamment en cas d'état d'intoxication punissable par la loi). Le conducteur BOB est également assuré pour ses lésions corporelles ou son décès suivant l'assurance Conducteur (Décès: 12.500,00 EUR; Invalidité Permanente: 25.000,00 EUR; Frais de traitement: 5.000,00 EUR).
 - Optionnelle : non · Portée : Un des pays couverts par le certificat d'assurance. · Limite : Notre intervention se limite à 30.000,00 EUR par sinistre (dommages au véhicule).
-  - Sous-limite : {'name': 'Conducteur BOB - Décès', 'limit': '12.500,00 EUR'}
-  - Sous-limite : {'name': 'Conducteur BOB - Invalidité Permanente', 'limit': '25.000,00 EUR'}
-  - Sous-limite : {'name': 'Conducteur BOB - Frais de traitement', 'limit': '5.000,00 EUR'}
+  - Sous-limite : Conducteur BOB - Décès: 12.500,00 EUR
+  - Sous-limite : Conducteur BOB - Invalidité Permanente: 25.000,00 EUR
+  - Sous-limite : Conducteur BOB - Frais de traitement: 5.000,00 EUR
   - Condition : L'accident survient sur le trajet visant à transporter en toute sécurité l'assuré et son entourage, utilisé lors d'activités de loisir.
   - Condition : Le conducteur doit disposer d'un permis de conduire valable, ne pas être sous le coup d'une déchéance ni dans un état d'intoxication.
   - Condition : Les dommages résultent d'un accident de la circulation involontaire dans un des pays couverts par le certificat d'assurance.
@@ -161,7 +162,7 @@ Nous couvrons les dommages au véhicule assuré causés par l'incendie, le feu, 
 ### Omnium - Garantie Vol - p. 27
 Nous couvrons le vol du véhicule assuré ou d'éléments du véhicule, ainsi que les dommages causés au véhicule en vue de l'accomplissement du vol. La garantie est étendue: si le véhicule volé est retrouvé, tous les dommages causés à l'occasion du vol; en cas d'effraction, les dommages causés à l'intérieur du véhicule. Couvre aussi le vol de la plaque d'immatriculation (frais d'immatriculation et de duplication) et le vol des clés/télécommandes (frais de reprogrammation ou de remplacement des serrures, plainte déposée dans les 24 heures). En cas de vol, un véhicule de remplacement (catégorie B au plus) est mis à disposition pendant vingt-et-un jours maximum.
 - Optionnelle : oui · Portée : L'assurance est valable dans le monde entier. · Franchise : Franchise stipulée dans les conditions particulières.
-  - Sous-limite : {'name': 'Véhicule de remplacement après vol', 'limit': 'vingt-et-un jours maximum, catégorie B au plus'}
+  - Sous-limite : Véhicule de remplacement après vol: vingt-et-un jours maximum, catégorie B au plus
   - Condition : Si les conditions particulières le stipulent, la garantie Vol sera acquise si le véhicule désigné est équipé d'un système antivol répondant aux exigences fixées.
   - Condition : Dans les trente jours qui suivent la demande d'assurance, la garantie ne sera pas subordonnée à la présence du système antivol, sauf mention contraire.
 
@@ -198,14 +199,14 @@ Si l'assuré décède des suites d'un accident au plus tard dans les trois ans s
 ### Conducteur - Garantie Invalidité Permanente - p. 31
 En cas d'invalidité personnelle permanente, l'indemnité est fixée sur base des taux d'invalidité prévus au "Barème Officiel Belge des Invalidités", indépendamment de la profession exercée. Calcul selon la formule cumulative: pour la part d'invalidité jusqu'à 25%, sur base du montant assuré; part supérieure à 25% et jusqu'à 50%, sur base du triple du montant assuré; part supérieure à 50%, sur base du quadruple du montant assuré. Réduite de moitié pour les assurés de 75 ans ou plus. Frais supplémentaires nécessités par l'invalidité (si taux d'au moins 50%): transformation de l'habitation, adaptation du véhicule, rééducation, enseignement adapté.
 - Optionnelle : oui · Portée : L'assurance est valable dans le monde entier. · Limite : Frais supplémentaires remboursés jusqu'à concurrence de 1.250,00 EUR ou plus, sans excéder 10% du montant assuré en Invalidité Permanente.
-  - Sous-limite : {'name': "Frais supplémentaires (invalidité d'au moins 50%)", 'limit': '1.250,00 EUR ou plus, max 10% du montant assuré en Invalidité Permanente'}
+  - Sous-limite : Frais supplémentaires (invalidité d'au moins 50%): 1.250,00 EUR ou plus, max 10% du montant assuré en Invalidité Permanente
 
 ### Conducteur - Garantie Frais de Traitement - p. 32
 Nous remboursons les frais de traitement médical justifiés jusqu'à concurrence du montant convenu, sans excéder un an après la consolidation des lésions: soins médicaux et paramédicaux, médicaments, hospitalisation, première prothèse, prothèses fonctionnelles existantes (hors lunettes et lentilles de contact). En cas d'hospitalisation, honoraires et coût de la chambre sur base du tarif d'une chambre à deux lits. Frais complémentaires (jusqu'à la moitié du montant assuré): transport médical, rapatriement de la dépouille, transport/rapatriement des occupants, séjour d'un membre de la famille, frais de recherche et de sauvetage, préjudice vestimentaire.
 - Optionnelle : oui · Portée : L'assurance est valable dans le monde entier. · Limite : Montant convenu dans les conditions particulières. Première prothèse dentaire: jusqu'à 10% du montant assuré par dent. Prothèses fonctionnelles existantes: jusqu'à 10% du montant assuré par prothèse. Préjudice vestimentaire: maximum 375,00 EUR.
-  - Sous-limite : {'name': 'Frais complémentaires (art. 13)', 'limit': "jusqu'à la moitié du montant assuré"}
-  - Sous-limite : {'name': 'Préjudice vestimentaire', 'limit': '375,00 EUR'}
-  - Sous-limite : {'name': "Avance sur frais à charge d'un tiers (art. 16)", 'limit': 'double du montant assuré en Frais de Traitement'}
+  - Sous-limite : Frais complémentaires (art. 13): jusqu'à la moitié du montant assuré
+  - Sous-limite : Préjudice vestimentaire: 375,00 EUR
+  - Sous-limite : Avance sur frais à charge d'un tiers (art. 16): double du montant assuré en Frais de Traitement
   - Condition : Les frais sont remboursés après épuisement de l'intervention de la sécurité sociale et de tout autre organisme d'assurance.
 
 ### Conducteur - Pertes Indirectes - p. 32
@@ -215,17 +216,17 @@ En cas d'accident couvert par la garantie Frais de Traitement, le montant de l'i
 ### Assistance au véhicule - Formule Mobilité (Belgique) - p. 38
 En cas de vol ou d'immobilisation du véhicule à la suite d'une panne ou de dommages causés par accident, tentative de vol ou vandalisme en Belgique: envoi d'un dépanneur, remorquage vers le garage de votre choix, frais de signalisation routière; transfert du véhicule réparé à votre domicile (frais de gardiennage); transport des assurés, bagages et animaux (chiens et chats). Véhicule de remplacement pendant la durée de l'immobilisation et pour sept jours consécutifs au maximum, ou budget de mobilité, si le véhicule est volé ou immobilisé et non réparable dans la journée. Inclut l'ouverture du véhicule (clés oubliées/perdues) et le chauffeur de remplacement.
 - Optionnelle : oui · Portée : En Belgique (la Belgique et un rayon de 30 km au-delà des frontières belges). · Limite : Véhicule de remplacement: sept jours consécutifs au maximum. Perte des clés (double au domicile): trajet aller-retour en taxi à concurrence de maximum 150 EUR. Gardiennage après ouverture: 24 heures maximum.
-  - Sous-limite : {'name': 'Véhicule de remplacement (Belgique)', 'limit': 'sept jours consécutifs au maximum'}
-  - Sous-limite : {'name': 'Trajet taxi (perte des clés avec double au domicile)', 'limit': '150 EUR'}
+  - Sous-limite : Véhicule de remplacement (Belgique): sept jours consécutifs au maximum
+  - Sous-limite : Trajet taxi (perte des clés avec double au domicile): 150 EUR
   - Condition : Contacter la centrale d'assistance au moment du sinistre.
 
 ### Assistance au véhicule - Formule Mobilité (étranger) - p. 39
 En cas de vol ou d'immobilisation du véhicule à l'étranger: envoi d'un dépanneur, remorquage vers le garage le plus proche, frais de signalisation. Si le véhicule ne peut être réparé sur place dans les trois jours: rapatriement du véhicule, récupération par vos soins (transports publics + gardiennage + logement d'une nuitée), ou abandon du véhicule. Prestations pour les personnes selon que les réparations peuvent ou non s'effectuer dans les trois jours (véhicule de remplacement, budget de mobilité, frais de logement, poursuite du voyage, retour au domicile). Inclut ouverture du véhicule, chauffeur de remplacement, envoi de pièces détachées.
 - Optionnelle : oui · Portée : À l'étranger (ensemble des pays autres que la Belgique mentionnés sur le certificat d'assurance et dont les sigles ne sont pas barrés, hors territoires exclus). · Limite : Frais non organisés par la centrale: remboursement à concurrence de maximum 325 EUR. Logement d'une nuitée: maximum 125 EUR petit-déjeuner compris. Poursuite du voyage: maximum 450 EUR. Réparation sur place: maximum 1.000 EUR pour l'ensemble des prestations. Véhicule de remplacement (véhicule volé/perte totale): sept jours consécutifs au maximum.
-  - Sous-limite : {'name': 'Frais non organisés par la centrale (étranger)', 'limit': '325 EUR'}
-  - Sous-limite : {'name': 'Frais de logement (nuitée)', 'limit': '125 EUR par nuit et par chambre'}
-  - Sous-limite : {'name': 'Poursuite du voyage', 'limit': '450 EUR'}
-  - Sous-limite : {'name': 'Réparation sur place (ensemble des prestations)', 'limit': '1.000 EUR'}
+  - Sous-limite : Frais non organisés par la centrale (étranger): 325 EUR
+  - Sous-limite : Frais de logement (nuitée): 125 EUR par nuit et par chambre
+  - Sous-limite : Poursuite du voyage: 450 EUR
+  - Sous-limite : Réparation sur place (ensemble des prestations): 1.000 EUR
 
 ### Assistance au véhicule - Couverture du véhicule de location - p. 38
 Si vous louez un véhicule auprès d'une société de location reconnue, nous intervenons en cas de dommages matériels ou de vol de ce véhicule durant la période de location. Nous remboursons le montant de la franchise prévue dans votre contrat de location après intervention de la garantie complémentaire "diminution de franchise" éventuellement souscrite.
@@ -234,9 +235,9 @@ Si vous louez un véhicule auprès d'une société de location reconnue, nous in
 ### Assistance au véhicule - Formule Mobilité Extra - p. 41
 Les prestations de la formule Mobilité sont couvertes et étendues: véhicule de remplacement de catégorie D pendant quinze jours consécutifs au maximum (Belgique); frais de logement à l'étranger à concurrence de maximum 175 EUR par nuit; couverture du véhicule de location étendue à 7.000 EUR par année d'assurance; véhicule de remplacement de catégorie D ou budget de mobilité en Belgique dans l'attente du rapatriement du véhicule; pick-up and delivery en cas d'accident non-immobilisant (au plus une fois par année d'assurance).
 - Optionnelle : oui · Portée : En Belgique et à l'étranger. · Limite : Véhicule de remplacement catégorie D: quinze jours consécutifs au maximum. Frais de logement (étranger): maximum 175 EUR par nuit et par chambre. Réparation sur place (étranger): maximum 1.400 EUR pour l'ensemble des prestations. Couverture véhicule de location: 7.000 EUR par année d'assurance. Pick-up and delivery: au plus une fois par année d'assurance.
-  - Sous-limite : {'name': 'Frais de logement (étranger, Mobilité Extra)', 'limit': '175 EUR par nuit et par chambre'}
-  - Sous-limite : {'name': 'Réparation sur place (étranger, Mobilité Extra)', 'limit': '1.400 EUR'}
-  - Sous-limite : {'name': 'Couverture véhicule de location (Mobilité Extra)', 'limit': "7.000 EUR par année d'assurance"}
+  - Sous-limite : Frais de logement (étranger, Mobilité Extra): 175 EUR par nuit et par chambre
+  - Sous-limite : Réparation sur place (étranger, Mobilité Extra): 1.400 EUR
+  - Sous-limite : Couverture véhicule de location (Mobilité Extra): 7.000 EUR par année d'assurance
 
 ### Assistance aux personnes - Transport ou rapatriement de l'assuré malade ou blessé - p. 43
 Lorsque votre état de santé en déplacement, suite à une maladie ou un accident, nécessite un transport ou un rapatriement, nous organisons et prenons en charge votre transport vers votre domicile, l'hôpital le plus proche ou l'hôpital le mieux équipé, sous surveillance médicale si nécessaire (avion sanitaire, avion classe économique, ambulance ou tout autre moyen approprié), ainsi que le transport d'un assuré pour vous accompagner. Prend aussi en charge le transport ou rapatriement des autres assurés empêchés de poursuivre leur déplacement.
@@ -287,9 +288,9 @@ Si vous êtes victime d'un choc psychologique grave (décès d'un proche, accide
 ### Assistance aux personnes (étranger) - Frais médicaux - p. 45
 Lorsque vous devez payer des frais médicaux à l'étranger, suite à une maladie ou un accident survenu à l'étranger, nous prenons en charge ces frais après intervention de votre mutualité et de toute autre assurance complémentaire, pour autant que le montant de notre intervention soit supérieur à 20 EUR. Frais médicaux: frais médicaux et chirurgicaux, hospitalisation, médicaments prescrits, soins dentaires, kinésithérapie, transport local, ambulance pour trajet local. En cas d'hospitalisation, avance des frais médicaux si nécessaire.
 - Optionnelle : oui · Portée : Uniquement à l'étranger. · Limite : Soins dentaires: maximum 250 EUR par assuré et par sinistre. Kinésithérapie: maximum 125 EUR par assuré et par sinistre. Si non affilié à une mutualité belge ou non en règle: intervention limitée à un montant de 1.250 EUR maximum.
-  - Sous-limite : {'name': 'Frais de soins dentaires', 'limit': '250 EUR par assuré et par sinistre'}
-  - Sous-limite : {'name': 'Frais de kinésithérapie', 'limit': '125 EUR par assuré et par sinistre'}
-  - Sous-limite : {'name': 'Non-affilié à une mutualité', 'limit': '1.250 EUR maximum'}
+  - Sous-limite : Frais de soins dentaires: 250 EUR par assuré et par sinistre
+  - Sous-limite : Frais de kinésithérapie: 125 EUR par assuré et par sinistre
+  - Sous-limite : Non-affilié à une mutualité: 1.250 EUR maximum
   - Condition : Notre intervention n'a lieu que si son montant est supérieur à 20 EUR.
   - Condition : En cas d'hospitalisation, vous devez nous en aviser le jour même ou au plus tard dans les 48 heures.
 
@@ -333,8 +334,8 @@ Si vous avez besoin d'argent rapidement suite à un sinistre couvert, un montant
 ### Assistance aux personnes (étranger) - Poursuites judiciaires - p. 46
 Si vous faites l'objet de poursuites judiciaires à l'étranger à la suite d'un délit non intentionnel, nous vous avançons le montant de la caution pénale exigée et les honoraires d'un avocat de votre choix à l'étranger. Nous n'intervenons pas pour les suites judiciaires en Belgique. Le montant de l'avance doit nous être remboursé dans les trente jours.
 - Optionnelle : oui · Portée : Uniquement à l'étranger. · Limite : Caution pénale: maximum 12.500 EUR par assuré poursuivi. Honoraires d'avocat: maximum 1.250 EUR.
-  - Sous-limite : {'name': 'Caution pénale', 'limit': '12.500 EUR par assuré poursuivi'}
-  - Sous-limite : {'name': "Honoraires d'avocat", 'limit': '1.250 EUR'}
+  - Sous-limite : Caution pénale: 12.500 EUR par assuré poursuivi
+  - Sous-limite : Honoraires d'avocat: 1.250 EUR
 
 ### Assistance aux personnes (étranger) - Frais de télécommunication - p. 46
 Dans le cadre d'une assistance couverte, nous vous remboursons les frais indispensables de télécommunication que vous avez engagés à l'étranger pour nous joindre.

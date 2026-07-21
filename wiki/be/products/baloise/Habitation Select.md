@@ -8,6 +8,7 @@ branch: habitation
 product_name: Habitation Select
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 0096-2053B0000.14-01062026
 edition_date: '01062026'
 lang: fr

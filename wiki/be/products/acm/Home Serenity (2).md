@@ -8,6 +8,7 @@ branch: habitation
 product_name: Home Serenity
 document_type: conditions_generales
 target_audience: particuliers
+target_audience_note: null
 reference: 16 52 24
 edition_date: 10/2024
 lang: fr

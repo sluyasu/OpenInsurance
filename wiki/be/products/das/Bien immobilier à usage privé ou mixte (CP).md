@@ -7,8 +7,10 @@ insurer_slug: das
 branch: protection-juridique
 product_name: Bien immobilier à usage privé ou mixte
 document_type: conditions_particulieres
-target_audience: Les propriétaires qui souhaitent assurer une habitation (avec éventuellement
-  une partie commerciale) qui ne sert pas de résidence principale ou secondaire.
+target_audience: particuliers
+target_audience_note: Les propriétaires qui souhaitent assurer une habitation (avec
+  éventuellement une partie commerciale) qui ne sert pas de résidence principale ou
+  secondaire.
 reference: F6017
 edition_date: 01/2025
 lang: fr

@@ -8,6 +8,7 @@ branch: epargne
 product_name: Crescendo Dynamico.org
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 1F637
 edition_date: 12/2015
 lang: fr

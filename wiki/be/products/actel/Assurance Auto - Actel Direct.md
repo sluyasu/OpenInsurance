@@ -8,6 +8,7 @@ branch: auto
 product_name: Assurance Auto - Actel Direct
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 200401 - 045/0011 - 04.2013
 edition_date: '04.2013'
 lang: fr

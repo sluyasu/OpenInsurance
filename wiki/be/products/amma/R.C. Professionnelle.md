@@ -7,8 +7,9 @@ insurer_slug: amma
 branch: rc-professionnelle
 product_name: R.C. Professionnelle
 document_type: conditions_generales
-target_audience: Professionnels des soins de santé (médecins, vétérinaires et leurs
-  aides), exerçant leur art tel que défini aux conditions particulières
+target_audience: null
+target_audience_note: Professionnels des soins de santé (médecins, vétérinaires et
+  leurs aides), exerçant leur art tel que défini aux conditions particulières
 reference: 02-RP-CG-0817-V01-FR
 edition_date: 08/2017
 lang: fr

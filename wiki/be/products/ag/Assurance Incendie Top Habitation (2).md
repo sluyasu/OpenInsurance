@@ -8,6 +8,7 @@ branch: habitation
 product_name: Assurance Incendie Top Habitation
 document_type: conditions_generales
 target_audience: particuliers
+target_audience_note: null
 reference: 0079-3000718F-21062025
 edition_date: 21/06/2025
 lang: fr

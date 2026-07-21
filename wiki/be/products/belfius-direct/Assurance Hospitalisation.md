@@ -8,6 +8,7 @@ branch: sante
 product_name: Assurance Hospitalisation
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 0435IARD_COHI_01102002
 edition_date: 2023-06
 lang: fr

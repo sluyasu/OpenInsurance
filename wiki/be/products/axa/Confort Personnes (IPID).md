@@ -8,6 +8,7 @@ branch: sante
 product_name: Confort Personnes
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: 4186101 - 09.2018
 edition_date: '09.2018'
 lang: fr
@@ -56,61 +57,61 @@ Votre ou vos enfants désignés. 3 formules au choix.
 ### Invalidité permanente (formule « Adultes ») - p. 1
 Garantie formule « Adultes » : Invalidité permanente. Montants en EUR selon la formule : formule 1 : 40.000 ; formule 2 : 80.000 ; formule 3 : 20.000 ; formule 4 : 40.000. Montants triplés à partir de 75 % d'invalidité.
 - Optionnelle : non · Portée : Hormis la Première assistance, qui n'est acquise qu'en Belgique, les garanties sont acquises dans le monde entier. · Limite : 40.000 / 80.000 / 20.000 / 40.000 EUR selon la formule ; montants triplés à partir de 75 % d'invalidité
-  - Sous-limite : {'name': 'Formule 1', 'limit': '40.000', 'page': 1}
-  - Sous-limite : {'name': 'Formule 2', 'limit': '80.000', 'page': 1}
-  - Sous-limite : {'name': 'Formule 3', 'limit': '20.000', 'page': 1}
-  - Sous-limite : {'name': 'Formule 4', 'limit': '40.000', 'page': 1}
-  - Sous-limite : {'name': "Majoration à partir de 75 % d'invalidité", 'limit': "montants triplés à partir de 75 % d'invalidité", 'page': 1}
+  - Sous-limite : Formule 1: 40.000
+  - Sous-limite : Formule 2: 80.000
+  - Sous-limite : Formule 3: 20.000
+  - Sous-limite : Formule 4: 40.000
+  - Sous-limite : Majoration à partir de 75 % d'invalidité: montants triplés à partir de 75 % d'invalidité
 
 ### Hospitalisation (formule « Adultes ») - p. 1
 Garantie formule « Adultes » : Hospitalisation. Montants en EUR selon la formule : formule 1 : 18 ; formule 2 : 36 ; formule 3 : 18 ; formule 4 : 36. Montants doublés à l'étranger.
 - Optionnelle : non · Portée : Hormis la Première assistance, qui n'est acquise qu'en Belgique, les garanties sont acquises dans le monde entier. · Limite : 18 / 36 / 18 / 36 EUR selon la formule ; montants doublés à l'étranger
-  - Sous-limite : {'name': 'Formule 1', 'limit': '18', 'page': 1}
-  - Sous-limite : {'name': 'Formule 2', 'limit': '36', 'page': 1}
-  - Sous-limite : {'name': 'Formule 3', 'limit': '18', 'page': 1}
-  - Sous-limite : {'name': 'Formule 4', 'limit': '36', 'page': 1}
-  - Sous-limite : {'name': "Majoration à l'étranger", 'limit': "montants doublés à l'étranger", 'page': 1}
+  - Sous-limite : Formule 1: 18
+  - Sous-limite : Formule 2: 36
+  - Sous-limite : Formule 3: 18
+  - Sous-limite : Formule 4: 36
+  - Sous-limite : Majoration à l'étranger: montants doublés à l'étranger
 
 ### Sauvetage (formule « Adultes ») - p. 1
 Garantie formule « Adultes » : Sauvetage. Montant en EUR : 2.500 pour chacune des formules 1, 2, 3 et 4. Montants doublés à l'étranger – montants non indexés.
 - Optionnelle : non · Portée : Hormis la Première assistance, qui n'est acquise qu'en Belgique, les garanties sont acquises dans le monde entier. · Limite : 2.500 EUR pour chaque formule ; montants doublés à l'étranger – montants non indexés
-  - Sous-limite : {'name': 'Formule 1', 'limit': '2.500', 'page': 1}
-  - Sous-limite : {'name': 'Formule 2', 'limit': '2.500', 'page': 1}
-  - Sous-limite : {'name': 'Formule 3', 'limit': '2.500', 'page': 1}
-  - Sous-limite : {'name': 'Formule 4', 'limit': '2.500', 'page': 1}
-  - Sous-limite : {'name': "Majoration à l'étranger", 'limit': "montants doublés à l'étranger – montants non indexés", 'page': 1}
+  - Sous-limite : Formule 1: 2.500
+  - Sous-limite : Formule 2: 2.500
+  - Sous-limite : Formule 3: 2.500
+  - Sous-limite : Formule 4: 2.500
+  - Sous-limite : Majoration à l'étranger: montants doublés à l'étranger – montants non indexés
 
 ### Invalidité permanente (formule « Enfants ») - p. 1
 Garantie formule « Enfants » : Invalidité permanente. Montants en EUR selon la formule : formule 1 : 50.000 ; formule 2 : 75.000 ; formule 3 : 100.000. Montants triplés à partir de 75 % d'invalidité.
 - Optionnelle : non · Portée : Hormis la Première assistance, qui n'est acquise qu'en Belgique, les garanties sont acquises dans le monde entier. · Limite : 50.000 / 75.000 / 100.000 EUR selon la formule ; montants triplés à partir de 75 % d'invalidité
-  - Sous-limite : {'name': 'Formule 1', 'limit': '50.000', 'page': 1}
-  - Sous-limite : {'name': 'Formule 2', 'limit': '75.000', 'page': 1}
-  - Sous-limite : {'name': 'Formule 3', 'limit': '100.000', 'page': 1}
-  - Sous-limite : {'name': "Majoration à partir de 75 % d'invalidité", 'limit': "montants triplés à partir de 75 % d'invalidité", 'page': 1}
+  - Sous-limite : Formule 1: 50.000
+  - Sous-limite : Formule 2: 75.000
+  - Sous-limite : Formule 3: 100.000
+  - Sous-limite : Majoration à partir de 75 % d'invalidité: montants triplés à partir de 75 % d'invalidité
 
 ### Décès (formule « Enfants ») - p. 1
 Garantie formule « Enfants » : Décès. Montant en EUR : 6.200 pour chacune des formules 1, 2 et 3. Limité à 2.500 EUR pour enfants < 5 ans.
 - Optionnelle : non · Portée : Hormis la Première assistance, qui n'est acquise qu'en Belgique, les garanties sont acquises dans le monde entier. · Limite : 6.200 EUR pour chaque formule ; limité à 2.500 EUR pour enfants < 5 ans
-  - Sous-limite : {'name': 'Formule 1', 'limit': '6.200', 'page': 1}
-  - Sous-limite : {'name': 'Formule 2', 'limit': '6.200', 'page': 1}
-  - Sous-limite : {'name': 'Formule 3', 'limit': '6.200', 'page': 1}
-  - Sous-limite : {'name': 'Enfants < 5 ans', 'limit': 'limité à 2.500 EUR pour enfants < 5 ans', 'page': 1}
+  - Sous-limite : Formule 1: 6.200
+  - Sous-limite : Formule 2: 6.200
+  - Sous-limite : Formule 3: 6.200
+  - Sous-limite : Enfants < 5 ans: limité à 2.500 EUR pour enfants < 5 ans
 
 ### Hospitalisation (formule « Enfants ») - p. 1
 Garantie formule « Enfants » : Hospitalisation. Montants en EUR selon la formule : formule 1 : 10 ; formule 2 : 15 ; formule 3 : 20. Montants doublés à l'étranger.
 - Optionnelle : non · Portée : Hormis la Première assistance, qui n'est acquise qu'en Belgique, les garanties sont acquises dans le monde entier. · Limite : 10 / 15 / 20 EUR selon la formule ; montants doublés à l'étranger
-  - Sous-limite : {'name': 'Formule 1', 'limit': '10', 'page': 1}
-  - Sous-limite : {'name': 'Formule 2', 'limit': '15', 'page': 1}
-  - Sous-limite : {'name': 'Formule 3', 'limit': '20', 'page': 1}
-  - Sous-limite : {'name': "Majoration à l'étranger", 'limit': "montants doublés à l'étranger", 'page': 1}
+  - Sous-limite : Formule 1: 10
+  - Sous-limite : Formule 2: 15
+  - Sous-limite : Formule 3: 20
+  - Sous-limite : Majoration à l'étranger: montants doublés à l'étranger
 
 ### Sauvetage (formule « Enfants ») - p. 1
 Garantie formule « Enfants » : Sauvetage. Montant en EUR : 2.500 pour chacune des formules 1, 2 et 3. Montants doublés à l'étranger – montants non indexés.
 - Optionnelle : non · Portée : Hormis la Première assistance, qui n'est acquise qu'en Belgique, les garanties sont acquises dans le monde entier. · Limite : 2.500 EUR pour chaque formule ; montants doublés à l'étranger – montants non indexés
-  - Sous-limite : {'name': 'Formule 1', 'limit': '2.500', 'page': 1}
-  - Sous-limite : {'name': 'Formule 2', 'limit': '2.500', 'page': 1}
-  - Sous-limite : {'name': 'Formule 3', 'limit': '2.500', 'page': 1}
-  - Sous-limite : {'name': "Majoration à l'étranger", 'limit': "montants doublés à l'étranger – montants non indexés", 'page': 1}
+  - Sous-limite : Formule 1: 2.500
+  - Sous-limite : Formule 2: 2.500
+  - Sous-limite : Formule 3: 2.500
+  - Sous-limite : Majoration à l'étranger: montants doublés à l'étranger – montants non indexés
 
 ### Première assistance - p. 1
 Garantie d'assistance : la Première assistance n'est acquise qu'en Belgique. Des exclusions spécifiques figurent en conditions générales.

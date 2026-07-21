@@ -8,6 +8,7 @@ branch: autres
 product_name: Touring Move On
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: 0079-8426132F-01042026
 edition_date: '01042026'
 lang: fr
@@ -155,7 +156,6 @@ Intervention en cas de retard, annulation, déclassement ou refus d'embarquement
 ## Durée & résiliation
 
 - Durée : Le contrat prend effet à la date fixée aux conditions particulières du contrat, à condition que la première prime ait été payée. Le contrat dure un an et est prolongé automatiquement chaque année, sauf si vous ou nous résilions le contrat.
-- Reconduction tacite : oui
 - Préavis : Vous pouvez résilier votre contrat d'assurance au plus tard deux mois avant la date d'échéance annuelle du contrat.
 - Modalité : La résiliation du contrat doit se faire par envoi recommandé, par exploit d'huissier ou par la remise d'une lettre de résiliation avec accusé de réception.
 

@@ -8,6 +8,7 @@ branch: epargne
 product_name: Flexinvest Management
 document_type: product_sheet
 target_audience: particuliers
+target_audience_note: null
 reference: null
 edition_date: 02/01/2012
 lang: fr

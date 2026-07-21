@@ -8,6 +8,7 @@ branch: autres
 product_name: Short Term Protect Classic - Short Term Protect 2win
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: stp_2023/03_fr
 edition_date: 2023/03
 lang: fr

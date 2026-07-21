@@ -8,6 +8,7 @@ branch: sante
 product_name: AMMA HOSPI-PLAN
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 14-HOSPI-CG-1007-V04-FR
 edition_date: 2007-10
 lang: fr

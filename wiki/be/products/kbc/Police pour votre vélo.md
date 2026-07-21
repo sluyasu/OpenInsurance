@@ -8,6 +8,7 @@ branch: velo
 product_name: Police pour votre vélo
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: F0003 0001 0100 2102
 edition_date: null
 lang: fr

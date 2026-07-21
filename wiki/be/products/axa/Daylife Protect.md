@@ -8,6 +8,7 @@ branch: vie-privee
 product_name: Daylife Protect
 document_type: conditions_generales
 target_audience: particuliers
+target_audience_note: null
 reference: '4800860'
 edition_date: '10.2024'
 lang: fr

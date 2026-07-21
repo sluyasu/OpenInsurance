@@ -8,6 +8,7 @@ branch: sante
 product_name: AMMA HOSPI SAFE - SERENITY
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 14-HOSPI-CG-0523-V02-FR
 edition_date: '0523'
 lang: fr

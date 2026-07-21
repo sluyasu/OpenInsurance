@@ -8,6 +8,7 @@ branch: auto
 product_name: Assurance Moto
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: '045/0026 (COND.GEN. réf: AMF 1100.01 en AJMF 1100.01)'
 edition_date: '01.2017'
 lang: fr

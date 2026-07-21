@@ -8,6 +8,7 @@ branch: voyage
 product_name: Touring Explore
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: 0079-8426633F-01042026
 edition_date: '01042026'
 lang: fr

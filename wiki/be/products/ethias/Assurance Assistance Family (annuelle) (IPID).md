@@ -8,6 +8,7 @@ branch: voyage
 product_name: Assurance Assistance Family (annuelle)
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: 1275-013/1
 edition_date: 09/24
 lang: fr
@@ -54,12 +55,12 @@ Retour anticipé en cas d'hospitalisation ou de décès d'un membre de la famill
 ### Assistance aux personnes - Frais médicaux liés à une hospitalisation à l'étranger - p. 1
 Remboursement jusqu'à € 500 000 des frais médicaux liés à une hospitalisation en cas de maladie ou d'accident survenu à l'étranger.
 - Optionnelle : non · Portée : La garantie sort ses effets en Belgique en dehors de votre domicile, et dans le monde entier à l'exclusion des pays en état de guerre ou de troubles civils, ainsi que dans ceux où la libre circulation des personnes n'est pas autorisée. · Limite : jusqu'à € 500 000 · Franchise : Pas de franchise.
-  - Sous-limite : {'name': "Frais médicaux ambulatoires (médecin à l'étranger)", 'limit': "jusqu'à € 1 250"}
+  - Sous-limite : Frais médicaux ambulatoires (médecin à l'étranger): jusqu'à € 1 250
 
 ### Home Emergency (en option) - p. 1
 Les interventions d'urgence nécessaires à la sécurisation de votre habitation (=adresse de l'assuré) suite à un évènement soudain dans les domaines suivants : plomberie sanitaire, installation électrique, chauffage/chauffe-eau ; canalisations et citernes souterraines ; portes et fenêtres, prévention, toiture, dégâts des eaux, incendie, gardiennage et nids de guêpes. Les frais de déplacement sont sans limite maximale.
 - Optionnelle : oui · Portée : habitation (=adresse de l'assuré) · Limite : le plafond d'indemnisation est de € 350 maximum · Franchise : Pas de franchise.
-  - Sous-limite : {'name': 'Frais de déplacement', 'limit': 'sans limite maximale'}
+  - Sous-limite : Frais de déplacement: sans limite maximale
   - Condition : Home Emergency : délai de carence de 15 jours pour la couverture.
 
 ## Exclusions

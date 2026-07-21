@@ -8,6 +8,7 @@ branch: sante
 product_name: Hospi Quality+
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: 1252-432/1
 edition_date: 03/25
 lang: fr

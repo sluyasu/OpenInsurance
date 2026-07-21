@@ -7,7 +7,8 @@ insurer_slug: das
 branch: vie-privee
 product_name: Protection Juridique DAS Connect
 document_type: conditions_particulieres
-target_audience: particulier
+target_audience: particuliers
+target_audience_note: particulier
 reference: F5041
 edition_date: 01/2025
 lang: fr

@@ -8,6 +8,7 @@ branch: sante
 product_name: DKV Medi Pack
 document_type: conditions_tarifaires
 target_audience: null
+target_audience_note: null
 reference: 22903_FR_5_202508
 edition_date: 08/2025
 lang: fr

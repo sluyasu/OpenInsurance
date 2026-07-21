@@ -8,6 +8,7 @@ branch: habitation
 product_name: Assurance Habitation
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: null
 edition_date: 12/05/2026
 lang: fr

@@ -7,9 +7,10 @@ insurer_slug: dkv
 branch: sante
 product_name: DKV Smile Essential
 document_type: conditions_generales
-target_audience: Personne physique n'ayant pas atteint l'âge de 70 ans au moment de
-  la souscription, ayant sa résidence principale en Belgique et assujettie à la sécurité
-  sociale belge
+target_audience: particuliers
+target_audience_note: Personne physique n'ayant pas atteint l'âge de 70 ans au moment
+  de la souscription, ayant sa résidence principale en Belgique et assujettie à la
+  sécurité sociale belge
 reference: 12 001_FR_3_202407 / 82E 01.07.24
 edition_date: 07/2024
 lang: fr
@@ -119,7 +120,7 @@ Les soins dentaires curatifs comprennent les prestations dentaires suivantes (li
 ### Accidents dentaires (garantie « accidents ») - p. 5
 Le cas d'assurance au titre de la garantie « accidents » est constitué de l'ensemble des prestations dentaires qui simultanément sont : encourues à la suite d'un accident n'ayant pas encore fait l'objet d'une intervention de l'assureur ; approuvées par l'assureur au terme de la procédure décrite ; dispensées en Belgique, avec pour objectif de restaurer les dents dans leur état antérieur à l'accident ; effectuées endéans les 12 mois qui suivent l'accident. L'accident doit donner lieu à des lésions traumatiques médicalement objectivables permettant de poser un diagnostic, diagnostiquées par un dentiste ou un médecin (urgentiste) autorisé à exercer. Pour chaque prestation du traitement dentaire approuvé, le montant qui reste à charge de l'assuré, après déduction de toutes les interventions légales/statutaires ou autres, est remboursé à 100 %. Le paiement du remboursement convenu a lieu à la fin du traitement convenu et préalablement approuvé par le(s) dentiste(s) traitant(s) en Belgique.
 - Optionnelle : non · Portée : Belgique · Limite : 100 % du montant restant à charge après déduction des interventions légales/statutaires ou autres, plafonné à € 10.000 par cas d'assurance
-  - Sous-limite : {'name': "Plafond par cas d'assurance", 'limit': "€ 10.000 par cas d'assurance"}
+  - Sous-limite : Plafond par cas d'assurance: € 10.000 par cas d'assurance
   - Condition : Un processus d'autorisation au préalable doit être respecté avant de commencer le traitement
   - Condition : Accident n'ayant pas encore fait l'objet d'une intervention de l'assureur
   - Condition : Prestations dispensées en Belgique avec pour objectif de restaurer les dents dans leur état antérieur à l'accident

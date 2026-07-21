@@ -7,7 +7,8 @@ insurer_slug: ethias
 branch: sante
 product_name: Care+ - Assurance soins ambulatoires et soins dentaires
 document_type: conditions_generales
-target_audience: Personnes physiques de moins de 70 ans au moment de la souscription,
+target_audience: particuliers
+target_audience_note: Personnes physiques de moins de 70 ans au moment de la souscription,
   dont le domicile ou la résidence principale est situé en Belgique et assujetties
   à la sécurité sociale belge
 reference: 1252-437_Soins Ambulatoires Care+
@@ -261,7 +262,6 @@ L'assurance couvre les dommages causés par le terrorisme, à l'exclusion des do
 ## Durée & résiliation
 
 - Durée : La présente assurance est valable à vie, sans préjudice des dispositions mentionnées à l'article 10 et du droit de résiliation du preneur d'assurance. Le contrat est formé dès qu'Ethias a reçu un exemplaire des conditions particulières signé par le preneur d'assurance ; les garanties prennent eﬀet après les délais d'attente, à compter de la date de prise de cours mentionnée dans les conditions particulières, à condition que la première prime ait été payée.
-- Reconduction tacite : oui
 - Préavis : Résiliation à l'échéance annuelle : notiﬁcation au plus tard trois mois avant cette date. Opposition à la continuation : lettre recommandée au moins deux mois avant l'échéance du 1er janvier. Résiliation quand le délai entre la date de constitution du contrat et la date de prise d'eﬀet est supérieur à un an : au moins deux mois avant la date de prise d'eﬀet.
 - Modalité : La résiliation du contrat doit se faire via : envoi recommandé ; exploit d'huissier ; lettre de résiliation contre récépissé.
 - Droit spécial : Ethias peut résilier le contrat : en cas de non-paiement de la prime conformément aux conditions légales et à la lettre de mise en demeure ; si le risque a été dissimulé ou accidentellement communiqué de manière inexacte (dans un délai d'un mois à compter de la connaissance de la dissimulation ou communication erronée, à condition de prouver qu'elle n'aurait assuré ce risque sous aucun prétexte) ; dans un délai de quinze jours si le preneur n'est pas d'accord avec la proposition de modiﬁcation ou n'y réagit pas dans le mois. La résiliation prend effet, sauf disposition contraire, à l'expiration du délai donné dans le courrier de résiliation, qui ne peut être inférieur à un mois. Le décès du preneur d'assurance met automatiquement ﬁn au contrat. En cas de faillite : le contrat demeure au proﬁt des créanciers, le curateur peut résilier dans les 3 mois suivant la déclaration de faillite, Ethias peut résilier au plus tôt 3 mois après la déclaration de faillite. Dès que le preneur transfère son domicile ou sa résidence principale à l'étranger, l'assurance prend ﬁn automatiquement. En cas de résiliation, les interventions d'Ethias cessent à partir de la date de fin du contrat ; Ethias n'intervient que dans les frais de soins prodigués avant la date de fin du contrat, que le traitement en cours soit terminé ou non.

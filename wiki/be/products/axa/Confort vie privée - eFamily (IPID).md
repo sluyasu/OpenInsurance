@@ -8,6 +8,7 @@ branch: vie-privee
 product_name: Confort vie privée - eFamily
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: 4187314 - 10.2024
 edition_date: '10.2024'
 lang: fr

@@ -8,6 +8,7 @@ branch: auto
 product_name: Assurance auto
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: DW25093
 edition_date: 01/10/2025
 lang: fr

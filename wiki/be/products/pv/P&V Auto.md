@@ -8,6 +8,7 @@ branch: auto
 product_name: P&V Auto
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 000058-1000101-20191101
 edition_date: '11.2019'
 lang: fr
@@ -275,10 +276,10 @@ En cas de sinistre couvert : indemnisation des accessoires acquis postérieureme
 ### Assistance au véhicule – Assistance Accident (Titre 5, Chapitre II) - p. 57
 En cas d'accident : dépannage sur place, remorquage vers un garage agréé ou choisi, transport du véhicule immobilisé plus de 24 heures jusqu'au garage proche du domicile, frais de gardiennage (3 jours max en Belgique). À l'étranger : dépannage, remorquage au garage le plus proche, rapatriement du véhicule par camion ou bateau si réparable en Belgique et immobilisé plus de 5 jours, abandon de l'épave, gardiennage (1 mois max), envoi de pièces détachées. Assistance aux occupants (retour au domicile, poursuite du voyage, hébergement, véhicule de remplacement), récupération du véhicule, transport des bagages (30 kg) et animaux de compagnie, assistance judiciaire à l'étranger, chauffeur de remplacement, assistance médicale.
 - Optionnelle : oui · Portée : En Belgique : sans franchise kilométrique ; à l'étranger : pour un sinistre survenu dans un pays validé sur le certificat d'assurance. Déplacement d'une durée inférieure à 3 mois. · Limite : Frais d'hébergement : 70 EUR par nuit et par personne, max 5 nuits. Véhicule de remplacement (type Economy) : max 5 jours en Belgique, 10 jours à l'étranger. Assistance judiciaire à l'étranger : honoraires d'avocat à hauteur de 3 000 EUR. Rapatriement du véhicule à l'étranger : à condition que le coût du transport n'excède pas la valeur réelle du véhicule sous déduction de l'épave. Prise en charge d'un dépannage/remorquage sur justificatifs : 250 EUR en Belgique, 400 EUR à l'étranger. · Franchise : En Belgique : sans franchise kilométrique.
-  - Sous-limite : {'name': "Frais d'hébergement occupants", 'limit': '70 EUR par nuit et par personne, période maximum de 5 nuits', 'page': 58}
-  - Sous-limite : {'name': 'Véhicule de remplacement (Economy)', 'limit': "max 5 jours en Belgique et 10 jours à l'étranger", 'page': 58}
-  - Sous-limite : {'name': "Honoraires d'avocat (assistance judiciaire à l'étranger)", 'limit': 'à hauteur de 3 000 EUR', 'page': 59}
-  - Sous-limite : {'name': 'Transport des bagages', 'limit': 'dans la limite de 30 kg', 'page': 59}
+  - Sous-limite : Frais d'hébergement occupants: 70 EUR par nuit et par personne, période maximum de 5 nuits
+  - Sous-limite : Véhicule de remplacement (Economy): max 5 jours en Belgique et 10 jours à l'étranger
+  - Sous-limite : Honoraires d'avocat (assistance judiciaire à l'étranger): à hauteur de 3 000 EUR
+  - Sous-limite : Transport des bagages: dans la limite de 30 kg
   - Condition : Les garanties des chapitres II, III et IV ne sont acquises que s'il en est fait mention aux conditions particulières.
   - Condition : Sont exclus : véhicules à usage de transport à titre onéreux de personnes, véhicules dont la MMA est supérieure à 3,5 tonnes, cyclomoteurs.
   - Condition : Le bénéficiaire du véhicule de remplacement doit être âgé de 21 ans minimum et titulaire d'un permis valide depuis au moins 1 an.
@@ -286,9 +287,9 @@ En cas d'accident : dépannage sur place, remorquage vers un garage agréé ou c
 ### Assistance au véhicule – Assistance Vol (Titre 5, Chapitre III) - p. 59
 En cas de vol ou tentative de vol : dépannage, remorquage, transport (véhicule immobilisé plus de 24 heures), gardiennage en Belgique ; à l'étranger : dépannage, remorquage au garage le plus proche, rapatriement (immobilisé plus de 5 jours), abandon, gardiennage (1 mois max), envoi de pièces détachées. Assistance aux occupants : retour au domicile, poursuite du voyage, frais d'hébergement, véhicule de remplacement, récupération du véhicule, transport des bagages et animaux de compagnie.
 - Optionnelle : oui · Portée : En Belgique sans franchise kilométrique ; à l'étranger pour un sinistre survenu dans un pays validé sur le certificat d'assurance. Déplacement d'une durée inférieure à 3 mois. · Limite : Frais d'hébergement : 70 EUR par nuit et par personne, max 5 nuits. Véhicule de remplacement (Economy) : max 30 jours (avec rapatriement des occupants possible si vol à l'étranger) ; 10 jours en cas de vol de plaque à l'étranger ; prolongation max 5 jours si le véhicule retrouvé n'est pas immédiatement à disposition. Transport des bagages : 30 kg.
-  - Sous-limite : {'name': "Frais d'hébergement occupants", 'limit': '70 EUR par nuit et par personne, période maximum de 5 nuits', 'page': 61}
-  - Sous-limite : {'name': 'Véhicule de remplacement (Economy)', 'limit': "max 30 jours ; 10 jours en cas de vol de plaque à l'étranger ; prolongation max 5 jours supplémentaires", 'page': 61}
-  - Sous-limite : {'name': 'Transport des bagages', 'limit': 'dans la limite de 30 kg', 'page': 61}
+  - Sous-limite : Frais d'hébergement occupants: 70 EUR par nuit et par personne, période maximum de 5 nuits
+  - Sous-limite : Véhicule de remplacement (Economy): max 30 jours ; 10 jours en cas de vol de plaque à l'étranger ; prolongation max 5 jours supplémentaires
+  - Sous-limite : Transport des bagages: dans la limite de 30 kg
   - Condition : N'est acquise que si mention aux conditions particulières.
   - Condition : Véhicule assuré : sont exclus les véhicules à usage de transport onéreux de personnes, MMA > 3,5 tonnes, cyclomoteurs, véhicules de courtoisie prêtés par les garagistes, véhicules loués.
   - Condition : En cas de tentative de vol, la garantie véhicule de remplacement ne s'applique que si le véhicule a été remorqué par P&V Assistance.
@@ -296,9 +297,9 @@ En cas de vol ou tentative de vol : dépannage, remorquage, transport (véhicule
 ### Assistance au véhicule – Assistance Panne (Titre 5, Chapitre IV) - p. 62
 En cas de panne : dépannage, remorquage, transport (immobilisé plus de 24 heures), gardiennage en Belgique ; à l'étranger : dépannage, remorquage, rapatriement (immobilisé plus de 5 jours), abandon, gardiennage (1 mois max), envoi de pièces détachées. Prestations spécifiques : crevaison, panne de climatisation, panne d'antivol ou d'alarme, oubli de code anti-démarrage, panne ou erreur de carburant, clés du véhicule (perdues, volées, cassées, oubliées, restées dans le véhicule fermé). Assistance aux occupants : retour au domicile, poursuite du voyage, hébergement, véhicule de remplacement, récupération du véhicule, transport des bagages et animaux.
 - Optionnelle : oui · Portée : En Belgique sans franchise kilométrique ; à l'étranger pour un sinistre survenu dans un pays validé sur le certificat d'assurance. Déplacement d'une durée inférieure à 3 mois. · Limite : Frais d'hébergement : 70 EUR par nuit et par personne, max 5 nuits. Véhicule de remplacement (Economy) : max 5 jours en Belgique et 10 jours à l'étranger. Transport des bagages : 30 kg.
-  - Sous-limite : {'name': "Frais d'hébergement occupants", 'limit': '70 EUR par nuit et par personne, période maximum de 5 nuits', 'page': 64}
-  - Sous-limite : {'name': 'Véhicule de remplacement (Economy)', 'limit': "max 5 jours en Belgique et 10 jours à l'étranger", 'page': 64}
-  - Sous-limite : {'name': 'Transport des bagages', 'limit': 'dans la limite de 30 kg', 'page': 64}
+  - Sous-limite : Frais d'hébergement occupants: 70 EUR par nuit et par personne, période maximum de 5 nuits
+  - Sous-limite : Véhicule de remplacement (Economy): max 5 jours en Belgique et 10 jours à l'étranger
+  - Sous-limite : Transport des bagages: dans la limite de 30 kg
   - Condition : N'est acquise que si mention aux conditions particulières.
   - Condition : Véhicule assuré : mêmes exclusions que l'Assistance Vol.
   - Condition : Le véhicule de remplacement ne s'applique que lorsque le véhicule a été remorqué par P&V Assistance.
@@ -306,11 +307,11 @@ En cas de panne : dépannage, remorquage, transport (immobilisé plus de 24 heur
 ### Assistance aux personnes (Titre 5, Partie 3) - p. 65
 En cas de maladie ou d'accident : transport ou rapatriement de l'assuré malade ou blessé, retour des assurés accompagnants, présence d'un proche auprès d'un assuré hospitalisé (plus de 5 jours), frais de prolongation de séjour en hôtel, envoi de médicaments et de lunettes de vue, remboursement des frais médicaux à l'étranger. En cas de décès : rapatriement de la dépouille mortelle, retour des accompagnants. Autres événements : frais de recherche et de secours, retour anticipé en cas de décès d'un proche, perte et vol de bagages, transport des bagages et animaux, avance de fonds, envoi de messages urgents, service d'interprétariat, rapatriement pour transplantation ou greffe d'organe, assistance psychologique. Renseignements et conseils médicaux.
 - Optionnelle : oui · Portée : En Belgique : sans franchise kilométrique ; à l'étranger : dans tous les pays du monde. Déplacement d'une durée inférieure à 3 mois. · Limite : Remboursement des frais médicaux à l'étranger : à concurrence de 50 000 EUR par assuré (avance remboursable si couverts par un autre contrat). Frais de recherche et de secours : à hauteur de 15 000 EUR. Frais d'hôtel : 70 EUR par nuit (max 2 ou 5 nuits selon la prestation). Assistance psychologique : max 5 entretiens/rencontres. · Franchise : En Belgique : sans franchise kilométrique.
-  - Sous-limite : {'name': "Frais médicaux à l'étranger", 'limit': 'à concurrence de 50 000 EUR par assuré', 'page': 67}
-  - Sous-limite : {'name': 'Frais de recherche et de secours', 'limit': 'à hauteur de 15 000 EUR', 'page': 68}
-  - Sous-limite : {'name': "Frais d'hôtel accompagnant / prolongation de séjour", 'limit': "70 EUR par nuit, période maximum de 2 nuits (accompagnant) ou 5 nuits (prolongation / présence d'un proche)", 'page': 67}
-  - Sous-limite : {'name': 'Assistance psychologique', 'limit': 'à concurrence de 5 entretiens et rencontres', 'page': 69}
-  - Sous-limite : {'name': 'Transport des bagages', 'limit': 'dans la limite de 30 kg', 'page': 68}
+  - Sous-limite : Frais médicaux à l'étranger: à concurrence de 50 000 EUR par assuré
+  - Sous-limite : Frais de recherche et de secours: à hauteur de 15 000 EUR
+  - Sous-limite : Frais d'hôtel accompagnant / prolongation de séjour: 70 EUR par nuit, période maximum de 2 nuits (accompagnant) ou 5 nuits (prolongation / présence d'un proche)
+  - Sous-limite : Assistance psychologique: à concurrence de 5 entretiens et rencontres
+  - Sous-limite : Transport des bagages: dans la limite de 30 kg
   - Condition : Ces garanties ne sont acquises que s'il en est fait mention aux conditions particulières.
   - Condition : Les frais de recherche et de secours nécessitent l'accord préalable de P&V Assistance et ne sont pas applicables en cas de pratique de sports de compétition ou de haut niveau.
   - Condition : Les sommes avancées doivent être restituées à la compagnie dans un délai maximum d'1 mois.

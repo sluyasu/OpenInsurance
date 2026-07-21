@@ -8,6 +8,7 @@ branch: vie-privee
 product_name: Assurance Familiale
 document_type: product_sheet
 target_audience: null
+target_audience_note: null
 reference: null
 edition_date: 01/2026
 lang: fr

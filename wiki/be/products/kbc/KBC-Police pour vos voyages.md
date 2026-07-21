@@ -8,6 +8,7 @@ branch: voyage
 product_name: KBC-Police pour vos voyages
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: F0003 0001 0100 1412
 edition_date: null
 lang: fr
@@ -320,10 +321,10 @@ Le délai de prescription légal est de trois ans. Trois ans après la survenanc
 
 ## Lacunes d'extraction
 
-- {'description': 'Aucune date d\'édition explicite ("édition MM/AAAA") n\'apparaît dans le texte fourni. Les codes de référence en pied de page (F0003 ...) contiennent des suffixes numériques (1412, 2005, 2510) qui pourraient correspondre à des mois/années d\'édition des sections, mais cela n\'est pas explicitement indiqué comme date d\'édition ; edition_date laissé null.', 'page': None}
-- {'description': "Les montants assurés, franchises et limites définitifs dépendent des conditions particulières (assurances effectivement souscrites, formule VIP, option Voyages d'affaires), non incluses dans ce document de conditions générales.", 'page': 1}
-- {'description': "Le pied de page des dernières sections mentionne 'CBC-Police pour vos voyages' (pages 17-19) alors que le reste du document mentionne 'KBC-Police pour vos voyages' ; il s'agit vraisemblablement de la même police diffusée sous les marques KBC et CBC. Le nom de produit retenu est 'KBC-Police pour vos voyages'.", 'page': 17}
-- {'description': "La section 'Quand le litige doit-il survenir pour être assuré?' (page 15) et le paragraphe sur le délai de prescription (page 15) apparaissent dans un ordre de mise en page fragmenté dans le texte extrait (le texte des articles 5, 6 et 7 est entrelacé), mais le contenu a été rattaché aux bons intitulés.", 'page': 15}
+- Aucune date d'édition explicite ("édition MM/AAAA") n'apparaît dans le texte fourni. Les codes de référence en pied de page (F0003 ...) contiennent des suffixes numériques (1412, 2005, 2510) qui pourraient correspondre à des mois/années d'édition des sections, mais cela n'est pas explicitement indiqué comme date d'édition ; edition_date laissé null.
+- Les montants assurés, franchises et limites définitifs dépendent des conditions particulières (assurances effectivement souscrites, formule VIP, option Voyages d'affaires), non incluses dans ce document de conditions générales. (p. 1)
+- Le pied de page des dernières sections mentionne 'CBC-Police pour vos voyages' (pages 17-19) alors que le reste du document mentionne 'KBC-Police pour vos voyages' ; il s'agit vraisemblablement de la même police diffusée sous les marques KBC et CBC. Le nom de produit retenu est 'KBC-Police pour vos voyages'. (p. 17)
+- La section 'Quand le litige doit-il survenir pour être assuré?' (page 15) et le paragraphe sur le délai de prescription (page 15) apparaissent dans un ordre de mise en page fragmenté dans le texte extrait (le texte des articles 5, 6 et 7 est entrelacé), mais le contenu a été rattaché aux bons intitulés. (p. 15)
 
 ## Source & fidélité
 

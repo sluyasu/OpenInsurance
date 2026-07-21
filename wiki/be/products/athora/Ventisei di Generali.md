@@ -8,6 +8,7 @@ branch: epargne
 product_name: Ventisei di Generali
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 1F647
 edition_date: 12/2015
 lang: fr

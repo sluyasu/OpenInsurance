@@ -7,10 +7,11 @@ insurer_slug: dkv
 branch: sante
 product_name: DKV DAILY Premium
 document_type: ipid
-target_audience: Toute personne physique n'ayant pas atteint l'âge de 70 ans à la
-  conclusion du contrat, ayant son domicile / lieu de résidence et sa résidence fixe
-  et habituelle / principale en Belgique, étant assujettie à la sécurité sociale belge
-  et en bénéficiant.
+target_audience: particuliers
+target_audience_note: Toute personne physique n'ayant pas atteint l'âge de 70 ans
+  à la conclusion du contrat, ayant son domicile / lieu de résidence et sa résidence
+  fixe et habituelle / principale en Belgique, étant assujettie à la sécurité sociale
+  belge et en bénéficiant.
 reference: 32 229_FR_3_202508
 edition_date: '202508'
 lang: fr

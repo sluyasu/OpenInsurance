@@ -8,6 +8,7 @@ branch: auto
 product_name: Mobility
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: I/0037-1-10-5767-032024/102024B
 edition_date: octobre 2024
 lang: fr

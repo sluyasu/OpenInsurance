@@ -9,6 +9,7 @@ product_name: Assurances Complémentaires — Engagement Individuel de Pension /
   Libre Complémentaire pour Indépendants
 document_type: conditions_generales
 target_audience: entreprises
+target_audience_note: null
 reference: 1F797
 edition_date: 03/2021
 lang: fr

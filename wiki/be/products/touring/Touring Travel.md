@@ -8,6 +8,7 @@ branch: voyage
 product_name: Touring Travel
 document_type: conditions_generales
 target_audience: particuliers
+target_audience_note: null
 reference: 0079-8424700F-01042026
 edition_date: '2026-04-01'
 lang: fr

@@ -8,6 +8,7 @@ branch: auto
 product_name: Moto Serenity
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 16 56 77
 edition_date: 10/2024
 lang: fr

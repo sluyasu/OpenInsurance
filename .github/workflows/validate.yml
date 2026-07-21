@@ -13,7 +13,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - run: python -m pip install pyyaml "mcp[cli]" pytest
+      # jsonschema is required, not optional: validate now checks the extracted JSON
+      # against the committed schema, which is the only gate that runs without the PDFs.
+      - run: python -m pip install pyyaml "mcp[cli]" pytest jsonschema
       - name: Wiki gates (frontmatter, links, citations, publish surface)
         # --strict-links fails the build if a link's target name is claimed by more than
         # one page. A basename resolver picks one silently, so the wrong page is served

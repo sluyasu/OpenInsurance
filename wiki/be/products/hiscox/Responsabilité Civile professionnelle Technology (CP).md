@@ -8,6 +8,7 @@ branch: rc-professionnelle
 product_name: Responsabilité Civile professionnelle Technology
 document_type: conditions_particulieres
 target_audience: entreprises
+target_audience_note: null
 reference: PITECH202401
 edition_date: 2024-01
 lang: fr

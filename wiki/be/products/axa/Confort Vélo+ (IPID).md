@@ -8,6 +8,7 @@ branch: velo
 product_name: Confort Vélo+
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: '4186538'
 edition_date: '10.2024'
 lang: fr

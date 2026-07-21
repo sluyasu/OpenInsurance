@@ -8,6 +8,7 @@ branch: auto
 product_name: Assurance Auto
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: AUTO-07-FR
 edition_date: '2026-05-12'
 lang: fr
@@ -149,7 +150,7 @@ Le véhicule désigné est assuré sans franchise exclusivement contre les dég�
 ### Vol - p. 7
 Disparition par suite de vol, destruction ou dommage partiel à l'occasion d'un vol ou d'une tentative de vol du véhicule désigné ou de ses parties, et des accessoires fixes. Sont également couverts les frais de remplacement des serrures et/ou de changement des codes du système antivol en cas de vol de clé(s) et/ou commande à distance, le coût du remplacement de la plaque volée, et les objets transportés en cas d'effraction.
 - Optionnelle : oui · Portée : Pays mentionnés sur le certificat d'assurance.
-  - Sous-limite : {'name': "Objets transportés en cas d'effraction", 'limit': '125,00 € par sinistre'}
+  - Sous-limite : Objets transportés en cas d'effraction: 125,00 € par sinistre
   - Condition : Le vandalisme à l'occasion d'un vol ou d'une tentative de vol n'est pas couvert.
 
 ### Bris de Glace - p. 7
@@ -211,9 +212,9 @@ La garantie est étendue à l'indemnisation du dommage patrimonial des bénéfic
 ### Protection Juridique Circulation - p. 18
 Garantie couvrant le Recours civil extra-contractuel, la Défense pénale et le recours en qualité d'usager faible. Gérée par la Société Anonyme Legal Village. Legal Village vous aide à faire valoir vos droits à l'amiable ou par une procédure appropriée et prend en charge les frais qui en résultent.
 - Optionnelle : oui · Portée : Tous les pays mentionnés sur le certificat d'assurance. · Limite : 25.000,00 € par sinistre pour les frais de défense des intérêts juridiques. · Franchise : Seuil d'intervention : le montant à récupérer en principal doit excéder 250,00 €.
-  - Sous-limite : {'name': 'Insolvabilité des tiers', 'limit': "premiers 250,00 € à votre charge, plafond d'intervention de 3.000,00 €"}
-  - Sous-limite : {'name': "Avocat hors ressort de la Cour d'appel de son barreau", 'limit': 'maximum 3.125,00 € par sinistre'}
-  - Sous-limite : {'name': 'Expert hors province où il est établi', 'limit': 'maximum 3.125,00 € par sinistre'}
+  - Sous-limite : Insolvabilité des tiers: premiers 250,00 € à votre charge, plafond d'intervention de 3.000,00 €
+  - Sous-limite : Avocat hors ressort de la Cour d'appel de son barreau: maximum 3.125,00 € par sinistre
+  - Sous-limite : Expert hors province où il est établi: maximum 3.125,00 € par sinistre
   - Condition : Suivant votre choix aux Conditions Particulières ; les CP priment en cas de contradiction.
 
 ### Protection Juridique - Recours civil extra-contractuel - p. 20
@@ -248,19 +249,19 @@ Si le véhicule assuré a été volé ou n'est plus en état de circuler et ne p
 ### Assistance Panne en Belgique - p. 26
 Si le véhicule assuré est immobilisé en Belgique ou jusqu'à 50 km au-delà de la frontière suite à une panne, panne sèche, erreur de carburant ou pneu crevé : intervention d'un dépanneur sur place et si nécessaire remorquage vers le garage de votre choix, retour au domicile ou transport des occupants, aide en cas de perte/vol/oubli des clés, et mise à disposition d'un véhicule de remplacement de catégorie A ou B (hors motocyclette et quad) pendant maximum 10 jours.
 - Optionnelle : oui · Portée : Belgique et jusqu'à 50 km au-delà de la frontière. · Limite : Remorquage limité à 500,00 € en cas d'intervention F.A.S.T. suite à une intervention de la police ; frais de trajet aller-retour en taxi pour un double des clés à concurrence de 65,00 € maximum ; véhicule de remplacement max 10 jours ; 3 interventions par an.
-  - Sous-limite : {'name': 'Frais de double des clés en taxi', 'limit': '65,00 € maximum'}
-  - Sous-limite : {'name': 'Remorquage F.A.S.T.', 'limit': '500,00 €'}
+  - Sous-limite : Frais de double des clés en taxi: 65,00 € maximum
+  - Sous-limite : Remorquage F.A.S.T.: 500,00 €
   - Condition : 3 interventions par an ; toute intervention supplémentaire à votre charge.
   - Condition : Véhicule de remplacement restitué avec le plein de carburant.
 
 ### Assistance au véhicule à l'étranger - p. 27
 Si le véhicule assuré est immobilisé à l'étranger suite à un accident, panne, panne sèche, erreur de carburant ou pneu crevé : dépannage sur place et remorquage vers le garage le plus proche, aide en cas de perte/vol/oubli des clés, envoi de pièces de rechange (moteur exclu), mise à disposition d'un véhicule de remplacement, prise en charge du retour ou de la poursuite du trajet et des frais d'hôtel, transport de bagages non accompagnés, frais de garde, et récupération/rapatriement ou abandon du véhicule.
 - Optionnelle : oui · Portée : Pays de l'UE (sauf Estonie, Lettonie, Lituanie et Chypre), Monaco, Saint-Marin, Andorre, Liechtenstein, Cité du Vatican, Suisse, Monténégro, Bosnie-Herzégovine, Islande, Macédoine, Norvège, Serbie ; hors Belgique. Exclus : Iles Canaries, Madère, Ceuta, Melilla, Turquie, territoire français hors France Métropolitaine. · Limite : Véhicule de remplacement max 10 jours consécutifs ; frais de double des clés en taxi 65,00 € max ; hôtel 65,00 €/nuit/chambre, max 650,00 € au total ; retour/poursuite trajet max 500,00 € ; frais de garde 15,00 €/jour pendant max 15 jours ; 3 interventions par an.
-  - Sous-limite : {'name': "Frais d'hôtel (véhicule réparable sous 3 jours)", 'limit': '65,00 € par nuit et par chambre, maximum 650,00 € au total'}
-  - Sous-limite : {'name': 'Frais pour rejoindre la destination / retour au garage', 'limit': 'maximum 500,00 €'}
-  - Sous-limite : {'name': "Nuit d'hôtel en attente de réparation", 'limit': 'maximum 65,00 € par nuit et par chambre'}
-  - Sous-limite : {'name': 'Frais de garde du véhicule', 'limit': 'maximum 15,00 € par jour pendant maximum 15 jours'}
-  - Sous-limite : {'name': 'Frais de double des clés en taxi', 'limit': '65,00 € maximum'}
+  - Sous-limite : Frais d'hôtel (véhicule réparable sous 3 jours): 65,00 € par nuit et par chambre, maximum 650,00 € au total
+  - Sous-limite : Frais pour rejoindre la destination / retour au garage: maximum 500,00 €
+  - Sous-limite : Nuit d'hôtel en attente de réparation: maximum 65,00 € par nuit et par chambre
+  - Sous-limite : Frais de garde du véhicule: maximum 15,00 € par jour pendant maximum 15 jours
+  - Sous-limite : Frais de double des clés en taxi: 65,00 € maximum
   - Condition : En cas de vol, plainte préalable obligatoire, à défaut intervention refusée.
   - Condition : En cas de perte totale, intervention sur base du procès-verbal d'un expert.
   - Condition : Rapatriement du véhicule si sa valeur résiduelle est supérieure aux frais de transport, sinon abandon.
@@ -283,16 +284,16 @@ Pour l'assuré en attente d'une transplantation d'organe dûment mentionné sur 
 ### Assistance aux personnes à l'étranger - Intervention frais médicaux (maladie ou accident) - p. 31
 L'Assureur intervient dans les frais chirurgicaux, d'hospitalisation, médicaux et pharmaceutiques prescrits, le traitement dentaire urgent, les frais de séjour à l'hôtel de l'assuré malade/accidenté et les frais de transport, après épuisement des indemnités de la Sécurité Sociale.
 - Optionnelle : oui · Portée : Etranger. · Limite : maximum 75.000,00 €
-  - Sous-limite : {'name': 'Traitement dentaire urgent', 'limit': '125,00 € maximum par assuré (prothèses non couvertes)'}
-  - Sous-limite : {'name': "Frais de séjour à l'hôtel (malade/accidenté)", 'limit': '65,00 € maximum par assuré et par jour, max 500,00 € par assuré et par événement (hôtel à plus de 100 km du domicile)'}
-  - Sous-limite : {'name': 'Autres frais de transport', 'limit': 'maximum 500,00 €'}
-  - Sous-limite : {'name': 'Assuré non en règle avec sa mutuelle', 'limit': 'frais médicaux/chirurgicaux/pharmaceutiques/hospitalisation limités à 1.250,00 €'}
+  - Sous-limite : Traitement dentaire urgent: 125,00 € maximum par assuré (prothèses non couvertes)
+  - Sous-limite : Frais de séjour à l'hôtel (malade/accidenté): 65,00 € maximum par assuré et par jour, max 500,00 € par assuré et par événement (hôtel à plus de 100 km du domicile)
+  - Sous-limite : Autres frais de transport: maximum 500,00 €
+  - Sous-limite : Assuré non en règle avec sa mutuelle: frais médicaux/chirurgicaux/pharmaceutiques/hospitalisation limités à 1.250,00 €
   - Condition : Intervient après épuisement des indemnités de la Sécurité Sociale.
 
 ### Assistance aux personnes à l'étranger - Frais de soins médicaux en Belgique - p. 32
 En cas d'hospitalisation en Belgique liée à une opération médicale non planifiée ou un accident à l'étranger, intervention dans les frais médicaux, chirurgicaux et hospitaliers en Belgique ; à défaut d'hospitalisation, intervention dans les frais médicaux ambulatoires.
 - Optionnelle : oui · Portée : Belgique (consécutif à un événement à l'étranger). · Limite : 6.000,00 € maximum par personne couverte (hospitalisation, limité à 3 mois après la sortie de l'hôpital à l'étranger) ; 745,00 € pour les frais ambulatoires (massage/kiné/physiothérapie limités à 125,00 €), limité à un an à dater de l'événement.
-  - Sous-limite : {'name': 'Frais ambulatoires', 'limit': '745,00 € (massage/kiné/physiothérapie 125,00 € max)'}
+  - Sous-limite : Frais ambulatoires: 745,00 € (massage/kiné/physiothérapie 125,00 € max)
   - Condition : Patient hospitalisé à l'étranger, dossier médical déjà ouvert et frais déjà payés ; remboursement après intervention de la mutuelle.
 
 ### Assistance aux personnes à l'étranger - Ligne 'info docteur' - p. 32
@@ -325,8 +326,8 @@ En cas de rapatriement de l'assuré, retour de maximum deux petits animaux domes
 ### Assistance aux personnes à l'étranger - Rapatriement funéraire - p. 33
 En cas de décès à l'étranger, rapatriement de la dépouille mortelle vers le lieu en Belgique désigné par la famille, frais d'embaumement et formalités administratives ; retour en Belgique des autres assurés. En cas d'inhumation/incinération sur place, intervention dans certaines prestations.
 - Optionnelle : oui · Portée : Etranger. · Limite : frais de cercueil à concurrence de maximum 745,00 € ; inhumation/incinération sur place : intervention à concurrence de 1.500,00 € maximum.
-  - Sous-limite : {'name': 'Frais de cercueil (rapatriement)', 'limit': 'maximum 745,00 €'}
-  - Sous-limite : {'name': 'Inhumation/incinération sur place', 'limit': '1.500,00 € maximum'}
+  - Sous-limite : Frais de cercueil (rapatriement): maximum 745,00 €
+  - Sous-limite : Inhumation/incinération sur place: 1.500,00 € maximum
   - Condition : Les frais d'inhumation, d'incinération et de cérémonie ne sont pas couverts.
 
 ### Assistance aux personnes à l'étranger - Frais de télécommunication - p. 33
@@ -356,7 +357,7 @@ Un transfert de fonds peut être organisé en cas de vol ou perte du portefeuill
 ### Assistance aux personnes à l'étranger - Caution de mise en liberté - p. 33
 Si à la suite d'un accident de roulage à l'étranger l'assuré fait l'objet de poursuites, avance du montant de la caution pénale exigée par les autorités judiciaires et prise en charge des honoraires d'avocat.
 - Optionnelle : oui · Portée : Etranger. · Limite : caution avancée à concurrence de maximum 12.500,00 € ; honoraires d'avocat à concurrence de maximum 1.250,00 €.
-  - Sous-limite : {'name': "Honoraires d'avocat", 'limit': 'maximum 1.250,00 €'}
+  - Sous-limite : Honoraires d'avocat: maximum 1.250,00 €
 
 ### Assistance aux personnes à l'étranger - Contretemps à l'étranger - p. 34
 Prise en charge des frais de prolongation de séjour à l'hôtel si l'assuré ne peut entreprendre le voyage de retour à la date prévue suite à un cas de force majeure (catastrophe naturelle, conditions atmosphériques).
@@ -370,9 +371,9 @@ Si l'état de l'assuré blessé entraîne une incapacité de skier de plus de 24
 ### Services d'assistance inclus (Titre VII) - Remorquage après accident - p. 43
 Prestations d'assistance offertes en inclusion : lorsque la remise en circulation du véhicule immobilisé suite à un accident en Belgique et jusqu'à 50 km au-delà de la frontière est impossible, organisation et prise en charge du remorquage vers le garage de votre choix en Belgique, transport ou retour au domicile des occupants, et véhicule de remplacement en cas de réparation confiée à un garage agréé via Yuzzu.
 - Optionnelle : non · Portée : Belgique et jusqu'à 50 km au-delà de la frontière. · Limite : En cas de force majeure sans appel au Prestataire, remboursement des débours à concurrence de 200,00 € maximum ; intervention limitée à 500,00 € en cas d'intervention F.A.S.T. ; retour/transport des occupants max 125,00 €.
-  - Sous-limite : {'name': 'Débours en cas de force majeure sans appel au Prestataire', 'limit': '200,00 € maximum'}
-  - Sous-limite : {'name': 'Remorquage F.A.S.T.', 'limit': '500,00 €'}
-  - Sous-limite : {'name': 'Retour ou transport des occupants non blessés', 'limit': 'max. 125,00 €'}
+  - Sous-limite : Débours en cas de force majeure sans appel au Prestataire: 200,00 € maximum
+  - Sous-limite : Remorquage F.A.S.T.: 500,00 €
+  - Sous-limite : Retour ou transport des occupants non blessés: max. 125,00 €
   - Condition : Contacter le Prestataire avant toute intervention et demander l'approbation avant d'engager des frais.
   - Condition : Fournir les justificatifs originaux des dépenses.
   - Condition : Véhicule de remplacement issu d'un garage agréé via Yuzzu, livré avec le plein ; consommation à votre charge.

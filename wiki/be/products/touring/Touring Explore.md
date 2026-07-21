@@ -8,6 +8,7 @@ branch: voyage
 product_name: Touring Explore
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 0079-8425831F-01042026
 edition_date: 01/04/2026
 lang: fr

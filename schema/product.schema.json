@@ -20,6 +20,7 @@
     "document_type": { "type": "string", "enum": ["conditions_generales", "ipid", "conditions_particulieres", "conditions_tarifaires", "product_sheet", "other"] },
     "language": { "type": "string", "enum": ["fr", "nl", "de", "en"] },
     "target_audience": { "type": ["string", "null"], "enum": ["particuliers", "independants", "entreprises", "secteur_public", null] },
+    "target_audience_note": { "type": ["string", "null"], "description": "Audience as worded in the document, kept verbatim when it does not map cleanly onto target_audience (e.g. 'Toute personne physique n'ayant pas atteint l'age de 70 ans'). Never invent: leave target_audience null rather than guess a category." },
     "reference": { "type": ["string", "null"], "description": "Insurer's internal document reference." },
     "edition_date": { "type": ["string", "null"], "description": "Edition/version date of the document (YYYY-MM-DD or as printed). CRITICAL for version tracking: the same product is re-issued over time, and an old edition may describe a product no longer sold. Always capture it if the document shows one." },
     "product_family": { "type": ["string", "null"], "description": "Normalized product line, stripped of edition date and distribution variant (e.g. 'Confort Auto', 'Top Habitation'). Used to group editions/variants/documents of the same product." },

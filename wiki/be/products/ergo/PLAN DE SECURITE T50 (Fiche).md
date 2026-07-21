@@ -8,6 +8,7 @@ branch: autres
 product_name: PLAN DE SECURITE T50
 document_type: product_sheet
 target_audience: particuliers
+target_audience_note: null
 reference: null
 edition_date: 14/04/2014
 lang: fr

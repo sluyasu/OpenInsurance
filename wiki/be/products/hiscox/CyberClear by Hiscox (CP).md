@@ -8,6 +8,7 @@ branch: cyber
 product_name: CyberClear by Hiscox
 document_type: conditions_particulieres
 target_audience: entreprises
+target_audience_note: null
 reference: BCR202506
 edition_date: 2025-06
 lang: fr

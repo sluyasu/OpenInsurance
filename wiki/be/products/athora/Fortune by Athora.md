@@ -8,6 +8,7 @@ branch: epargne
 product_name: Fortune by Athora
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 1F800
 edition_date: 02/2022
 lang: fr

@@ -8,6 +8,7 @@ branch: vie-privee
 product_name: Family Serenity
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: I.BE.RCVP–10/2024
 edition_date: 10/2024
 lang: fr

@@ -8,6 +8,7 @@ branch: vie-privee
 product_name: La Police familiale
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: F0003 0001 0728 2505
 edition_date: null
 lang: fr

@@ -8,6 +8,7 @@ branch: vie-privee
 product_name: Family Serenity
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 16 52 25
 edition_date: 10/2024
 lang: fr

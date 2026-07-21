@@ -8,6 +8,7 @@ branch: habitation
 product_name: Ideal Habitation
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: P&V 292/04-2023
 edition_date: 04-2023
 lang: fr
@@ -196,7 +197,7 @@ La compagnie indemnise les dommages causés aux biens assurés, par la fumée et
 ### Le heurt - p. 10
 La compagnie indemnise les dommages causés aux biens assurés par le heurt, ainsi que par la chute d'appareils de navigation aérienne ou d'objets qui en tombent ou en sont projetés. Si le «Pack Jardin» est couvert, les frais réellement exposés pour la remise en état du jardin endommagé par un heurt (y compris causé par un animal), avec des jeunes plantations de la même espèce, jusqu'à concurrence d'un maximum de 15.000 EUR (frais de déblai et frais annexes inclus). Sont couverts les dommages causés par le heurt par un véhicule (ou son chargement), un engin de chantier (ou son chargement) ou un arbre, ainsi que les dommages causés au bâtiment assuré par le heurt par un animal.
 - Optionnelle : non · Portée : Adresse indiquée aux conditions particulières · Limite : Remise en état du jardin (Pack Jardin) : maximum 15.000 EUR (déblai et frais annexes inclus) · Franchise : 215,17 EUR par sinistre (franchise générale)
-  - Sous-limite : {'name': 'Remise en état du jardin endommagé par un heurt (Pack Jardin)', 'limit': '15.000 EUR maximum'}
+  - Sous-limite : Remise en état du jardin endommagé par un heurt (Pack Jardin): 15.000 EUR maximum
   - Condition : Pack Jardin pour la remise en état du jardin
 
 ### Les dégradations immobilières à l'occasion d'un vol, d'une tentative de vol ou d'un acte de vandalisme (y compris les graffiti) ainsi que le vol de parties du bâtiment - p. 11
@@ -212,40 +213,40 @@ La compagnie indemnise les dommages causés aux biens assurés qui sont la cons�
 ### La tempête, la grêle, la pression de la neige et de la glace - p. 11
 La compagnie indemnise les dommages causés aux biens assurés par la tempête, la grêle, la pression de la neige et de la glace. Si le «Pack Jardin» est couvert, les frais de remise en état du jardin endommagé par une tempête, la grêle ou la pression de la neige et de la glace, avec des jeunes plantations de la même espèce, jusqu'à concurrence d'un maximum de 15.000 EUR (déblai et frais annexes inclus). La compagnie prend également en charge les dommages aux biens assurés causés par des objets renversés ou projetés à cette occasion.
 - Optionnelle : non · Portée : Adresse indiquée aux conditions particulières · Franchise : 215,17 EUR par sinistre (franchise générale)
-  - Sous-limite : {'name': 'Meubles de jardin et barbecue', 'limit': '1.500 EUR maximum'}
-  - Sous-limite : {'name': 'Contenu en plein air (Pack Jardin)', 'limit': '5.000 EUR maximum'}
-  - Sous-limite : {'name': 'Pare-soleil, tentes solaires, stores, marquises, auvents en toile, enceintes de terrasse, brise-vent + constructions ouvertes/couverture provisoire + constructions non scellées ni ancrées (Pack Jardin, ensemble)', 'limit': '5.000 EUR maximum'}
-  - Sous-limite : {'name': 'Remise en état du jardin (Pack Jardin)', 'limit': '15.000 EUR maximum'}
+  - Sous-limite : Meubles de jardin et barbecue: 1.500 EUR maximum
+  - Sous-limite : Contenu en plein air (Pack Jardin): 5.000 EUR maximum
+  - Sous-limite : Pare-soleil, tentes solaires, stores, marquises, auvents en toile, enceintes de terrasse, brise-vent + constructions ouvertes/couverture provisoire + constructions non scellées ni ancrées (Pack Jardin, ensemble): 5.000 EUR maximum
+  - Sous-limite : Remise en état du jardin (Pack Jardin): 15.000 EUR maximum
   - Condition : Pack Jardin pour les extensions jardin et contenu en plein air
 
 ### Le bris de vitres, glaces, miroirs - p. 12
 La compagnie indemnise le bris de vitres, glaces, miroirs faisant partie des biens assurés. Ainsi que : le bris de panneaux transparents/translucides en matière synthétique/plastique; les dommages causés par la condensation des vitrages isolants (garantie fournisseur/fabricant épuisée, chaque vitre = sinistre distinct); le bris des panneaux solaires et capteurs solaires ancrés au bâtiment; le bris des enseignes; le bris de plaques de cuisson vitrocéramiques ou à induction; le bris de vitraux d'art; le bris de sanitaires (ces deux dernières non acquises en régime bureau de tarification). Après un sinistre couvert : frais de renouvellement des inscriptions/peintures/décorations/gravures; dégâts par éclats de verre aux biens assurés; frais de réparation/remplacement des détecteurs de bris de vitrages et feuilles anti-effraction; frais de clôture et d'obturation provisoire. Lorsque l'assuré est propriétaire, la garantie est acquise à ses locataires/occupants; lorsqu'il est locataire/occupant, elle est acquise au propriétaire.
 - Optionnelle : non · Portée : Adresse indiquée aux conditions particulières · Franchise : 215,17 EUR par sinistre (franchise générale)
-  - Sous-limite : {'name': "Vitraux d'art", 'limit': '5.000 EUR maximum'}
-  - Sous-limite : {'name': 'Serres à usage privé et leur contenu (Pack Jardin)', 'limit': '5.000 EUR maximum'}
+  - Sous-limite : Vitraux d'art: 5.000 EUR maximum
+  - Sous-limite : Serres à usage privé et leur contenu (Pack Jardin): 5.000 EUR maximum
   - Condition : Régime bureau de tarification : vitraux d'art et sanitaires non couverts, condition de taille des écrans non applicable
 
 ### L'eau - p. 13
 La compagnie indemnise les dommages causés aux biens assurés par l'eau. Ainsi que, en cas de sinistre couvert (même sans dégât apparent) : les frais de repérage des fuites; les frais d'ouverture et de remise en état des parois, planchers, plafonds, cours, terrasses et accès privés pour réparer les conduites/tuyaux à l'origine du sinistre (avec démontage/remontage des biens fixés à demeure); si Pack Jardin, les frais d'ouverture et de remise en état du jardin; les frais de réparation ou remplacement des parties de toitures, conduites, tuyaux, installations ou appareils à l'origine du sinistre. Après sinistre couvert, la perte d'eau. Si Pack Jardin, les frais de dépollution ou remplacement de l'eau des piscines extérieures fixées à demeure. Les dommages dus au développement de cryptogames (champignons, moisissures), quelle qu'en soit la cause, si la cause est postérieure à la prise d'effet de la garantie.
 - Optionnelle : non · Portée : Adresse indiquée aux conditions particulières · Franchise : 215,17 EUR par sinistre (franchise générale)
-  - Sous-limite : {'name': "Dépollution / remplacement de l'eau des piscines extérieures (Pack Jardin)", 'limit': 'une fois le volume de la piscine'}
-  - Sous-limite : {'name': "Perte d'eau (régime bureau de tarification)", 'limit': '500 EUR maximum'}
+  - Sous-limite : Dépollution / remplacement de l'eau des piscines extérieures (Pack Jardin): une fois le volume de la piscine
+  - Sous-limite : Perte d'eau (régime bureau de tarification): 500 EUR maximum
   - Condition : Mesures de prévention : couper et vidanger les installations hydrauliques dans la partie non chauffée en période de gel; entretenir les biens assurés; réparer/remplacer les parties à l'origine d'un précédent sinistre
 
 ### Le mazout - p. 14
 La compagnie indemnise les dommages causés aux biens assurés par le mazout. Ainsi que, en cas de sinistre couvert (même sans dégât apparent) : les frais de repérage des fuites; les frais d'ouverture et de remise en état des parois, planchers, plafonds, cours, terrasses et accès privés (démontage/remontage des biens fixés à demeure); si Pack Jardin, les frais d'ouverture et de remise en état du jardin; les frais de réparation ou remplacement des conduites, tuyaux, installations ou appareils à l'origine du sinistre; les frais d'assainissement du sol pollué par l'écoulement du mazout (pris en charge uniquement lorsque les normes légales/réglementaires relatives à la pollution sont dépassées); la perte du mazout écoulé.
 - Optionnelle : non · Portée : Adresse indiquée aux conditions particulières · Franchise : 215,17 EUR par sinistre (franchise générale)
-  - Sous-limite : {'name': "Frais d'assainissement du sol", 'limit': '10.000 EUR maximum'}
-  - Sous-limite : {'name': "Frais d'assainissement du sol si citerne avec certificat «Optitank»", 'limit': '18.000 EUR maximum'}
-  - Sous-limite : {'name': "Frais d'assainissement du sol (régime bureau de tarification)", 'limit': '6.000 EUR maximum'}
-  - Sous-limite : {'name': 'Perte du mazout écoulé (régime bureau de tarification)', 'limit': '500 EUR maximum'}
+  - Sous-limite : Frais d'assainissement du sol: 10.000 EUR maximum
+  - Sous-limite : Frais d'assainissement du sol si citerne avec certificat «Optitank»: 18.000 EUR maximum
+  - Sous-limite : Frais d'assainissement du sol (régime bureau de tarification): 6.000 EUR maximum
+  - Sous-limite : Perte du mazout écoulé (régime bureau de tarification): 500 EUR maximum
   - Condition : Mesures de prévention : respect de la législation sur les réservoirs à mazout; entretien des biens assurés; réparation/remplacement nécessaires des installations
 
 ### Responsabilité civile bâtiment - p. 15
 La compagnie garantit la responsabilité civile incombant aux assurés en vertu des articles 1382 à 1384, 1386 et 1386 bis de l'ancien Code Civil pour les dommages causés aux tiers, ainsi qu'en vertu de l'article 1721 de l'ancien Code Civil pour les dommages corporels causés au locataire ou occupant, pour autant que le dommage soit causé par le fait du bâtiment désigné (trottoirs et jardins attenants), du contenu assuré (hors véhicules à moteur), ou de l'encombrement des trottoirs (défaut d'enlèvement de neige, glace ou verglas). Elle couvre en outre la responsabilité pour troubles de voisinage excessifs (article 3.101 du Code Civil) résultant d'un événement soudain, involontaire et imprévu. La compagnie paie également, même au-delà des montants assurés et dans les limites de la Loi, les intérêts afférents à l'indemnité, les frais des actions civiles ainsi que les frais des avocats et experts. Dispositions particulières pour la copropriété et stipulation au profit des tiers lésés (article 1121).
 - Optionnelle : non · Limite : Par sinistre : maximum 21.722.323 EUR pour les lésions corporelles; maximum 5.737.972 EUR pour les dommages aux biens
-  - Sous-limite : {'name': 'Dommages résultant de lésions corporelles', 'limit': '21.722.323 EUR par sinistre'}
-  - Sous-limite : {'name': 'Dommages aux biens', 'limit': '5.737.972 EUR par sinistre'}
+  - Sous-limite : Dommages résultant de lésions corporelles: 21.722.323 EUR par sinistre
+  - Sous-limite : Dommages aux biens: 5.737.972 EUR par sinistre
   - Condition : Garantie troubles de voisinage : dommages résultant d'un événement soudain, involontaire et imprévu
   - Condition : Mesure de prévention : tous types d'ascenseurs doivent répondre aux prescriptions légales, avec contrat d'entretien en vigueur et contrôle périodique d'un organisme agréé
 
@@ -260,24 +261,24 @@ La compagnie indemnise les dommages aux biens assurés causés par des personnes
 ### Les catastrophes naturelles - p. 18
 La compagnie indemnise les dommages causés aux biens assurés par les catastrophes naturelles, à savoir exclusivement : une inondation; un débordement ou refoulement d'égouts publics; un tremblement de terre; un glissement ou affaissement de terrain; l'infiltration d'eau provenant de précipitations atmosphériques d'une intensité exceptionnelle ne pouvant pas ou de manière insuffisante être recueillies et évacuées par les égouts publics ou toute autre installation d'évacuation d'eau. Si le «Pack Jardin» est couvert, les frais de remise en état du jardin endommagé par une catastrophe naturelle, avec des jeunes plantations de la même espèce, jusqu'à concurrence de 15.000 EUR (déblai et frais annexes inclus). Le montant total des indemnités est limité conformément à l'article 130 §2 et §3 de la Loi.
 - Optionnelle : non · Portée : Adresse indiquée aux conditions particulières · Limite : Limite globale conformément à l'article 130 §2 et §3 de la Loi (indemnité réduite à due concurrence si dépassement) · Franchise : 215,17 EUR par sinistre (franchise générale)
-  - Sous-limite : {'name': 'Remise en état du jardin (Pack Jardin)', 'limit': '15.000 EUR maximum'}
+  - Sous-limite : Remise en état du jardin (Pack Jardin): 15.000 EUR maximum
   - Condition : Pack Jardin pour les extensions jardin, abris, accès, cours, terrasses, haies et biens somptuaires
 
 ### Vol et vandalisme du contenu - p. 20
 Garantie accordée au premier risque (sans règle proportionnelle) jusqu'à concurrence des montants assurés pour le contenu, le mobilier, le matériel ou les marchandises. La compagnie indemnise la disparition du contenu assuré et les dégâts à celui-ci suite à un vol, une tentative de vol ou un acte de vandalisme commis dans le bâtiment désigné : par effraction, escalade, usage de fausses clés ou de clés volées; par une personne qui s'est laissé enfermer ou s'est introduite furtivement; avec violences ou menaces sur la personne d'un assuré; par une personne autorisée (larcin); par une personne au service de l'assuré (plainte déposée). Vol dans les annexes sans communication intérieure couvert seulement en cas d'effraction. Lorsque seul le contenu est assuré, dommages au bâtiment indemnisés jusqu'à 10.000 EUR. En cas de vol/perte des clés extérieures, prise en charge des frais de serrurier et remplacement des serrures. Garantie également en dehors du bâtiment désigné : déplacement temporaire du contenu (max 180 jours/année calendrier), vol avec violences/menaces, et - avec Pack Vol Plus - vol dans la voiture ou dans un logement d'étudiant pris en location en Belgique (par effraction).
 - Optionnelle : oui · Portée : Bâtiment désigné; extensions hors bâtiment désigné (déplacement temporaire du contenu max 180 jours/année calendrier; voiture et logement d'étudiant avec Pack Vol Plus) · Limite : Au premier risque jusqu'à concurrence des montants assurés · Franchise : 215,17 EUR par sinistre (franchise générale)
-  - Sous-limite : {'name': 'Dommages au bâtiment lorsque seul le contenu est assuré', 'limit': '10.000 EUR maximum'}
-  - Sous-limite : {'name': 'Valeurs', 'limit': '1.000 EUR par sinistre (2.000 EUR avec Pack Vol Plus)'}
-  - Sous-limite : {'name': 'Par objet', 'limit': '7.500 EUR (15.000 EUR avec Pack Vol Plus)'}
-  - Sous-limite : {'name': 'Ensemble des bijoux', 'limit': '15% du montant assuré en contenu, maximum 7.500 EUR par sinistre (15.000 EUR par sinistre avec Pack Vol Plus)'}
-  - Sous-limite : {'name': 'Larcin', 'limit': '2.500 EUR par sinistre'}
-  - Sous-limite : {'name': 'Déplacement temporaire du contenu', 'limit': '4.000 EUR par sinistre (8.000 EUR avec Pack Vol Plus)'}
-  - Sous-limite : {'name': 'Meubles de jardin, barbecue, objets de décoration extérieure, matériel de jardinage (Pack Jardin)', 'limit': '5.000 EUR par sinistre'}
-  - Sous-limite : {'name': 'Vol dans la voiture (Pack Vol Plus)', 'limit': '5.000 EUR par sinistre'}
-  - Sous-limite : {'name': "Vol dans un logement d'étudiant (Pack Vol Plus)", 'limit': '5.000 EUR par sinistre'}
-  - Sous-limite : {'name': "Contenu de l'ensemble des annexes sans communication intérieure", 'limit': '2.500 EUR par sinistre (10.000 EUR avec Pack Vol Plus)'}
-  - Sous-limite : {'name': 'Vol avec violences ou menaces hors bâtiment désigné', 'limit': '2.500 EUR par sinistre (5.000 EUR avec Pack Vol Plus)'}
-  - Sous-limite : {'name': 'Contenu dans caves, greniers ou garages fermés à clé (occupation partielle)', 'limit': '2.500 EUR par sinistre'}
+  - Sous-limite : Dommages au bâtiment lorsque seul le contenu est assuré: 10.000 EUR maximum
+  - Sous-limite : Valeurs: 1.000 EUR par sinistre (2.000 EUR avec Pack Vol Plus)
+  - Sous-limite : Par objet: 7.500 EUR (15.000 EUR avec Pack Vol Plus)
+  - Sous-limite : Ensemble des bijoux: 15% du montant assuré en contenu, maximum 7.500 EUR par sinistre (15.000 EUR par sinistre avec Pack Vol Plus)
+  - Sous-limite : Larcin: 2.500 EUR par sinistre
+  - Sous-limite : Déplacement temporaire du contenu: 4.000 EUR par sinistre (8.000 EUR avec Pack Vol Plus)
+  - Sous-limite : Meubles de jardin, barbecue, objets de décoration extérieure, matériel de jardinage (Pack Jardin): 5.000 EUR par sinistre
+  - Sous-limite : Vol dans la voiture (Pack Vol Plus): 5.000 EUR par sinistre
+  - Sous-limite : Vol dans un logement d'étudiant (Pack Vol Plus): 5.000 EUR par sinistre
+  - Sous-limite : Contenu de l'ensemble des annexes sans communication intérieure: 2.500 EUR par sinistre (10.000 EUR avec Pack Vol Plus)
+  - Sous-limite : Vol avec violences ou menaces hors bâtiment désigné: 2.500 EUR par sinistre (5.000 EUR avec Pack Vol Plus)
+  - Sous-limite : Contenu dans caves, greniers ou garages fermés à clé (occupation partielle): 2.500 EUR par sinistre
   - Condition : Mesures de prévention : verrouiller à clé toutes portes extérieures et fermer fenêtres/ouvertures en cas d'absence; exécuter les mesures de prévention des conditions particulières (alarme et activation)
   - Condition : Sauf convention contraire, pas d'intervention si le bâtiment principal est irrégulièrement occupé ou totalement inoccupé
 
@@ -301,8 +302,8 @@ La garantie comprend le recours exercé par les locataires et occupants contre l
 ### La protection juridique - Avance des fonds et franchise - p. 22
 Dans le cadre des garanties «Recours contre un tiers responsable» et «recours du locataire ou de l'occupant», lorsque l'incontestable responsabilité du tiers identifié est établie ou que le vice/défaut du bien loué est établi, la compagnie avance ce montant. Cette avance ne se fait qu'à la demande expresse de l'assuré, avec subrogation. Dans le cadre du «Recours contre un tiers responsable», lorsque le tiers identifié n'a pas payé la franchise restée à sa charge selon son contrat d'assurance incendie ou RC, la compagnie avance cette franchise, avec subrogation.
 - Optionnelle : oui · Portée : Belgique · Limite : Avance de fond sur indemnités : maximum 20.000 EUR (non indexés); avance de la franchise du tiers responsable : maximum 215,17 EUR (lié à l'indice, base janvier 2008)
-  - Sous-limite : {'name': 'Avance de fond sur indemnités', 'limit': '20.000 EUR (non indexés) maximum'}
-  - Sous-limite : {'name': 'Avance de la franchise du tiers responsable', 'limit': '215,17 EUR maximum'}
+  - Sous-limite : Avance de fond sur indemnités: 20.000 EUR (non indexés) maximum
+  - Sous-limite : Avance de la franchise du tiers responsable: 215,17 EUR maximum
 
 ### La protection juridique - Litiges contractuels avec l'assureur «incendie» - p. 23
 La garantie 'Protection Juridique' défend les intérêts de l'assuré pour tout litige qui résulte de l'interprétation ou de l'application des autres garanties de ce contrat d'assurance.
@@ -324,7 +325,7 @@ Lorsqu'à la suite d'un sinistre couvert par le présent contrat l'assuré est p
 ### Frais de sauvetage et autres frais - p. 25
 Frais de sauvetage et de conservation : frais exposés pour conserver les biens assurés pendant la durée normale de réparation/reconstruction/reconstitution; pour déplacer ou replacer les biens assurés et sauvés afin de permettre les réparations; découlant des mesures demandées par la compagnie pour prévenir/atténuer les conséquences du sinistre; découlant des mesures urgentes et raisonnables prises d'initiative par l'assuré en cas de danger imminent ou pour prévenir/atténuer les conséquences. Frais de déblais et de démolition. Frais de remise en état du jardin avec des jeunes plantations de la même espèce. Frais de logement pendant la période où le bâtiment est inhabitable (maximum trois mois). Surcoût résultant des nouvelles normes de construction obligatoires (sous conditions). Les frais de sauvetage sont remboursés même sans résultat, dans les limites légales.
 - Optionnelle : non · Limite : Extensions accordées jusqu'à 100% des montants assurés (bâtiment et/ou responsabilité locative ou d'occupant et/ou contenu); frais de logement : maximum trois mois · Franchise : Aucune franchise n'est déduite pour les prestations des Garanties complémentaires et dommages indirects
-  - Sous-limite : {'name': 'Frais de logement', 'limit': 'maximum trois mois'}
+  - Sous-limite : Frais de logement: maximum trois mois
   - Condition : Conséquence directe d'un sinistre couvert dans le cadre des garanties souscrites (hors Protection Juridique et Pertes indirectes)
   - Condition : Surcoût nouvelles normes : assuré propriétaire; maison unifamiliale ou appartement; réparation/reconstruction effective; normes imposées par la notification ou le permis
 
@@ -345,7 +346,7 @@ Frais et honoraires réclamés par un expert professionnel indépendant pour l'e
 ### Accident mortel - p. 26
 Lorsque le preneur d'assurance, son (sa) partenaire cohabitant(e) ou un de leurs enfants (de 5 ans ou plus) décède suite à un sinistre couvert dans le cadre des «Garanties de base», la compagnie octroie un montant de 15.000 EUR (une seule fois, quel que soit le nombre de victimes), à condition que le bâtiment ou la responsabilité locative/d'occupant soit assuré. Bénéficiaire : le preneur, le (la) partenaire cohabitant(e) ou, à défaut, leurs enfants par parts égales. À défaut de bénéficiaire, ou en cas de décès d'un enfant de moins de 5 ans, la compagnie rembourse uniquement les frais funéraires à concurrence de 5.000 EUR. Non applicable si le contrat est souscrit par/pour une association de fait ou société (sauf gérant, partenaire et enfants dont la résidence principale est couverte).
 - Optionnelle : non · Limite : 15.000 EUR (une seule fois); à défaut de bénéficiaire ou décès enfant de moins de 5 ans : frais funéraires à concurrence de 5.000 EUR · Franchise : Aucune franchise (Garanties complémentaires et dommages indirects)
-  - Sous-limite : {'name': 'Frais funéraires (à défaut de bénéficiaire ou décès enfant < 5 ans)', 'limit': '5.000 EUR'}
+  - Sous-limite : Frais funéraires (à défaut de bénéficiaire ou décès enfant < 5 ans): 5.000 EUR
   - Condition : Décès suite à un sinistre couvert dans le cadre des Garanties de base
 
 ### Dégâts indirects - p. 27
@@ -355,15 +356,15 @@ S'ils sont consécutifs à un sinistre couvert ou résultent d'un sinistre relev
 ### Extension territoriale - Garage privé situé à une autre adresse - p. 9
 Lorsque l'assuré est propriétaire, locataire ou occupant pour son usage privé d'un garage situé à une autre adresse, la compagnie couvre les dommages à ce garage, la responsabilité locative ou d'occupant de ce garage, et les dommages au mobilier assuré s'y trouvant. La garantie de l'article 18 (dégradations immobilières lors d'un vol/vandalisme) n'est pas acquise.
 - Optionnelle : non · Portée : Autre adresse (garage privé) · Limite : Dommages au garage : maximum 8.500 EUR; responsabilité locative/d'occupant : maximum 8.500 EUR; mobilier assuré : maximum 2.500 EUR · Franchise : 215,17 EUR par sinistre (franchise générale)
-  - Sous-limite : {'name': 'Dommages au garage', 'limit': '8.500 EUR maximum'}
-  - Sous-limite : {'name': "Responsabilité locative ou d'occupant du garage", 'limit': '8.500 EUR maximum'}
-  - Sous-limite : {'name': 'Mobilier assuré dans le garage', 'limit': '2.500 EUR maximum'}
+  - Sous-limite : Dommages au garage: 8.500 EUR maximum
+  - Sous-limite : Responsabilité locative ou d'occupant du garage: 8.500 EUR maximum
+  - Sous-limite : Mobilier assuré dans le garage: 2.500 EUR maximum
   - Condition : Accordée uniquement si le contrat couvre la résidence principale de l'assuré
 
 ### Extension territoriale - Résidence de vacances ou déplacement temporaire du mobilier - p. 9
 La compagnie couvre, pendant une période de maximum 180 jours par année calendrier, partout dans le monde, dans le bâtiment où les assurés séjournent effectivement : leur responsabilité locative ou d'occupant d'une résidence de vacances louée temporairement; le mobilier assuré déplacé temporairement et partiellement.
 - Optionnelle : non · Portée : Partout dans le monde (maximum 180 jours par année calendrier) · Limite : Responsabilité locative ou d'occupant : maximum 840.000 EUR · Franchise : 215,17 EUR par sinistre (franchise générale)
-  - Sous-limite : {'name': "Responsabilité locative ou d'occupant d'une résidence de vacances", 'limit': '840.000 EUR maximum'}
+  - Sous-limite : Responsabilité locative ou d'occupant d'une résidence de vacances: 840.000 EUR maximum
 
 ### Extension territoriale - En cas de déménagement - p. 9
 En cas de déménagement en Belgique, la garantie est d'application aux deux adresses pendant 60 jours à partir du déménagement; après ces 60 jours, la garantie n'est acquise qu'à la nouvelle adresse. En cas de déménagement à l'étranger, la garantie cesse ses effets. Si le preneur reste propriétaire du bâtiment assuré, il doit le communiquer à la compagnie.
@@ -373,7 +374,7 @@ En cas de déménagement en Belgique, la garantie est d'application aux deux adr
 ### Extension territoriale - Le logement d'étudiant - p. 9
 La compagnie couvre la responsabilité locative ou d'occupant d'un logement d'étudiant partout dans le monde, en ce compris le contenu appartenant au propriétaire du logement, à condition que l'étudiant vive au foyer du preneur; ainsi que le mobilier assuré s'y trouvant.
 - Optionnelle : non · Portée : Partout dans le monde · Limite : Responsabilité locative ou d'occupant : maximum 840.000 EUR · Franchise : 215,17 EUR par sinistre (franchise générale)
-  - Sous-limite : {'name': "Responsabilité locative ou d'occupant du logement d'étudiant (contenu du propriétaire inclus)", 'limit': '840.000 EUR maximum'}
+  - Sous-limite : Responsabilité locative ou d'occupant du logement d'étudiant (contenu du propriétaire inclus): 840.000 EUR maximum
   - Condition : Accordée uniquement si le contrat couvre la résidence principale de l'assuré
   - Condition : L'étudiant doit vivre au foyer du preneur
 

@@ -8,6 +8,7 @@ branch: autres
 product_name: Hypo Protect Classic - Hypo Protect 2Win
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: HYPO2W version B1_2024/06
 edition_date: 2024/06
 lang: fr

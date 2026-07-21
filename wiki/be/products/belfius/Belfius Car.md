@@ -8,6 +8,7 @@ branch: auto
 product_name: Belfius Car
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 0037-2-10-5739-092024
 edition_date: 092024
 lang: fr
@@ -123,12 +124,12 @@ L'assistance après accident fournit divers services à l'assuré impliqué dans
 ### Extension de garantie 'BOB' - p. 20
 L'extension de garantie 'BOB' est accordée au véhicule désigné valablement assuré en Responsabilité Civile (RC). Nous indemnisons les dégâts matériels occasionnés au véhicule désigné lorsque celui-ci est conduit par un tiers personnellement tenu responsable, en tout ou en partie, des dommages audit véhicule. Par 'tiers', on entend toute personne autre que le propriétaire, le détenteur et les conducteurs renseignés au contrat ainsi que les personnes vivant au foyer de l'un d'eux. Un expert détermine l'étendue des dommages. En cas de perte totale : indemnisation de la valeur réelle diminuée de la valeur après sinistre; en cas de dommages partiels : coût des réparations, TVA non récupérable remboursée sur facture.
 - Optionnelle : non · Portée : Dans un des pays couverts par le certificat d'assurance. · Limite : Notre intervention se limite toutefois à 30.000,00 EUR par sinistre.
-  - Sous-limite : {'name': 'Indemnisation des lésions corporelles de BOB - Décès', 'limit': '37.500,00 EUR'}
-  - Sous-limite : {'name': 'Indemnisation des lésions corporelles de BOB - Incapacité permanente partielle', 'limit': '37.500,00 EUR'}
-  - Sous-limite : {'name': 'Indemnisation des lésions corporelles de BOB - Incapacité permanente totale', 'limit': '150.000,00 EUR'}
-  - Sous-limite : {'name': "Indemnisation des lésions corporelles de BOB - Par jour d'hospitalisation", 'limit': '75,00 EUR'}
-  - Sous-limite : {'name': 'Indemnisation des lésions corporelles de BOB - Frais de traitements médicaux', 'limit': '7.500,00 EUR'}
-  - Sous-limite : {'name': 'Indemnisation des lésions corporelles de BOB - Préjudice vestimentaire', 'limit': '1.500,00 EUR'}
+  - Sous-limite : Indemnisation des lésions corporelles de BOB - Décès: 37.500,00 EUR
+  - Sous-limite : Indemnisation des lésions corporelles de BOB - Incapacité permanente partielle: 37.500,00 EUR
+  - Sous-limite : Indemnisation des lésions corporelles de BOB - Incapacité permanente totale: 150.000,00 EUR
+  - Sous-limite : Indemnisation des lésions corporelles de BOB - Par jour d'hospitalisation: 75,00 EUR
+  - Sous-limite : Indemnisation des lésions corporelles de BOB - Frais de traitements médicaux: 7.500,00 EUR
+  - Sous-limite : Indemnisation des lésions corporelles de BOB - Préjudice vestimentaire: 1.500,00 EUR
   - Condition : l'assuré fait appel à 'BOB', c'est-à-dire qu'il demande à un tiers de conduire exceptionnellement son véhicule, gratuitement et à titre de service d'ami, lorsqu'il ne se sent pas en mesure de conduire (notamment en cas d'intoxication punissable par la loi suite à la consommation d'alcool ou de substances analogues);
   - Condition : l'accident survient sur le trajet visant à transporter en toute sécurité l'assuré et son entourage comme passagers du véhicule désigné, utilisé lors d'activités de loisir;
   - Condition : le conducteur doit disposer d'un permis de conduire valable au moment de l'accident, ne pas être sous le coup d'une déchéance ni dans un état d'intoxication punissable;
@@ -200,7 +201,7 @@ Si, dans le cadre d'un litige couvert par la garantie Défense Pénale, les auto
 ### Assurance du Conducteur - p. 29
 Nous garantissons aux bénéficiaires les indemnités correspondant aux préjudices définis (frais de traitements médicaux, chirurgicaux, pharmaceutiques, rééducation et prothèses; préjudice vestimentaire; préjudice économique et moral de l'incapacité temporaire et permanente; préjudice esthétique; aide d'une tierce personne; en cas de décès : frais funéraires, préjudice vestimentaire, préjudice économique et moral des ayants droit) lorsque l'assuré est victime d'un sinistre. L'indemnisation s'effectue selon les règles du droit commun.
 - Optionnelle : oui · Portée : L'assurance est valable dans l'ensemble des pays nommément repris sur le certificat d'assurance et non expressément biffés. · Limite : jusqu'à concurrence de 500.000 EUR maximum par sinistre, avec un maximum de 500 EUR par sinistre pour l'indemnisation du préjudice vestimentaire.
-  - Sous-limite : {'name': 'Préjudice vestimentaire', 'limit': '500 EUR par sinistre'}
+  - Sous-limite : Préjudice vestimentaire: 500 EUR par sinistre
   - Condition : N'est accordée que si mention en est faite expressément dans les Conditions Particulières.
   - Condition : Pour le véhicule de remplacement temporaire (article 56) ou définitif (article 10), la garantie est acquise pour autant que ce véhicule soit affecté au même usage et comporte au minimum 4 roues. Les quads sont toujours exclus.
   - Condition : Bénéficiaires : l'assuré et ses ayants droit, à l'exclusion de tous les subrogés.
@@ -213,7 +214,7 @@ Nous couvrons le véhicule assuré contre l'incendie, les dégâts par le feu, l
 ### Omnium - Garantie Vol - p. 36
 Nous couvrons le vol du véhicule assuré ou d'éléments du véhicule, ainsi que les dommages causés au véhicule en vue de l'accomplissement du vol. La garantie vaut également en cas de vol avec violence ou de menace. Étendue : dommages causés au véhicule volé retrouvé; dommages à l'intérieur en cas d'effraction; frais de reprogrammation/remplacement des serrures en cas de vol de clés/télécommandes; frais d'immatriculation d'une nouvelle plaque en cas de vol de la plaque officielle. Véhicule de remplacement (catégorie B max) pendant 21 jours maximum.
 - Optionnelle : oui · Portée : L'assurance est valable dans le monde entier. · Limite : jusqu'à concurrence de la valeur assurée. · Franchise : L'indemnité est diminuée de la franchise stipulée dans les Conditions Particulières.
-  - Sous-limite : {'name': 'Véhicule de remplacement en cas de vol', 'limit': "location d'une voiture de tourisme de la même catégorie (au plus catégorie B de type citadine) pendant 21 jours maximum"}
+  - Sous-limite : Véhicule de remplacement en cas de vol: location d'une voiture de tourisme de la même catégorie (au plus catégorie B de type citadine) pendant 21 jours maximum
   - Condition : Si les Conditions Particulières le stipulent, le vol est couvert pour autant que le véhicule soit équipé d'un système après-vol certifié INCERT de type 'TT' (Track & Trace) ou reconnu par le constructeur. Ces mesures ne sont plus obligatoires dès que le véhicule a 5 ans.
   - Condition : En cas de sinistre, remise des clés, documents de bord, volet du certificat d'immatriculation, original du certificat de montage ou certificat numéroté du système antivol.
   - Condition : Dès que l'indemnité est payée, nous devenons propriétaires du véhicule; si le véhicule volé est retrouvé après paiement, l'assuré peut le récupérer contre restitution de l'indemnité.

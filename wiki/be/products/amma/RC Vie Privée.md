@@ -8,6 +8,7 @@ branch: vie-privee
 product_name: RC Vie Privée
 document_type: conditions_generales
 target_audience: particuliers
+target_audience_note: null
 reference: 01-RF-CG-PDF-0123-V07-FR
 edition_date: 2023-01
 lang: fr

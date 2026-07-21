@@ -8,6 +8,7 @@ branch: obseques
 product_name: Assurance Funérailles
 document_type: product_sheet
 target_audience: null
+target_audience_note: null
 reference: FIF_L49-15012024
 edition_date: 15/01/2024
 lang: fr

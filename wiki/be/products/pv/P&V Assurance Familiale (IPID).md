@@ -8,6 +8,7 @@ branch: vie-privee
 product_name: P&V Assurance Familiale
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: 010/1274
 edition_date: '04.2025'
 lang: fr

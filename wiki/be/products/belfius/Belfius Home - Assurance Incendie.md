@@ -8,6 +8,7 @@ branch: habitation
 product_name: Belfius Home - Assurance Incendie
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 0037-2-89-7032-062020-F062026
 edition_date: null
 lang: fr
@@ -126,7 +127,7 @@ Les dommages causés par le heurt d'objets, d'arbres ou d'animaux, ainsi que par
 ### Détériorations immobilières causées par vol, tentative de vol ou vandalisme - p. 6
 Les détériorations immobilières causées par un vol, une tentative de vol ou un acte de vandalisme, pour autant que le bâtiment assuré soit occupé. Par extension, couvre les actes de vandalisme portés aux sépultures situées en Belgique dont vous êtes propriétaire jusque 5.000 EUR (sauf cas isolé, accessoires ornementaux, sépultures de plus de 50 ans). Si vous agissez en qualité de locataire ou d'occupant, les dommages seront couverts au nom et pour compte du bailleur ou propriétaire pour autant que l'assurance du bâtiment n'assure pas ce type de dommages.
 - Optionnelle : non · Limite : 5.000 EUR pour les actes de vandalisme aux sépultures en Belgique
-  - Sous-limite : {'item': 'Vandalisme aux sépultures en Belgique', 'limit': '5.000 EUR'}
+  - Sous-limite : Vandalisme aux sépultures en Belgique: 5.000 EUR
   - Condition : Le bâtiment assuré doit être occupé
 
 ### Action de l'électricité, foudre et électrocution des animaux domestiques - p. 6
@@ -145,7 +146,7 @@ Nous couvrons les dommages causés par le terrorisme selon les modalités et dan
 ### Tempête, Grêle, Pression de la neige et de la glace - p. 7
 Couvre les dommages causés par la tempête, la grêle, la pression de la neige et de la glace. A l'exception des dommages aux bâtiments délabrés ou en démolition, aux panneaux publicitaires et enseignes (stores et tentes solaires restent assurés), et à tout objet se trouvant à l'extérieur d'une construction sauf les meubles de jardin et barbecues assurés jusqu'à 2.500 EUR au total. En tempête, pas d'intervention pour les dommages aux constructions non scellées dans un socle en béton, dans un mur ou dans des fondations et à leur contenu.
 - Optionnelle : non
-  - Sous-limite : {'item': "Meubles de jardin et barbecues à l'extérieur d'une construction", 'limit': '2.500 EUR au total'}
+  - Sous-limite : Meubles de jardin et barbecues à l'extérieur d'une construction: 2.500 EUR au total
 
 ### Dégâts des eaux - p. 7
 Couvre les dégâts des eaux, à l'exception d'une liste de dommages (condensation, eaux souterraines, reflux/engorgement des égouts publics et inondation (relevant de Catastrophes naturelles), infiltrations d'eau de pluie via murs/cheminées ou d'eau via portes/fenêtres/ouvertures, récipient non relié à l'installation, appareil à l'origine du sinistre, couche d'étanchéité du toit/terrasses/balcons, travaux de construction, prolifération de moisissures, action de longue durée d'eau de pluie, biens tombés/jetés dans l'eau, manque de précautions pendant les périodes de gel). Restent assurés les dommages causés par appareils ménagers et aquariums. L'assuré a l'obligation de vider toutes les installations hydrauliques et de chauffage à l'extérieur ou dans des locaux non chauffés.
@@ -164,8 +165,8 @@ Nous remboursons le bris ou la fêlure de vitres et matériaux assimilés, à l'
 ### Responsabilité Civile bâtiment et contenu - p. 8
 Nous indemnisons jusqu'à concurrence de 28.935.590,24 EUR les dommages corporels et 3.616.888,93 EUR les dommages matériels et immatériels dans le cadre de la responsabilité civile imputable à l'assuré (articles 6.5, 6.10, 6.11, 6.12, 6.13, 6.14, 6.16 et 1721 du Code civil) pour des dommages à des tiers provoqués par le bâtiment, trottoirs, jardins, piscines et contenu, ou par l'obstruction des trottoirs/omission de dégager glace ou neige, ainsi que la responsabilité pour trouble anormal du voisinage (article 3.101 §1, §2.1 et §2.2). Ne sont pas assurés les dommages aux biens dont l'assuré est locataire/occupant/emprunteur/gardien, causés par une activité professionnelle, par un véhicule à moteur, par des ascenseurs sans contrat d'entretien, par des travaux, assurés par une autre garantie RC, ou causés par la présence d'amiante.
 - Optionnelle : non · Limite : 28.935.590,24 EUR (dommages corporels) ; 3.616.888,93 EUR (dommages matériels et immatériels)
-  - Sous-limite : {'item': 'Dommages corporels', 'limit': '28.935.590,24 EUR'}
-  - Sous-limite : {'item': 'Dommages matériels et immatériels', 'limit': '3.616.888,93 EUR'}
+  - Sous-limite : Dommages corporels: 28.935.590,24 EUR
+  - Sous-limite : Dommages matériels et immatériels: 3.616.888,93 EUR
 
 ### Catastrophes naturelles - p. 9
 Nous indemnisons les dommages matériels aux biens assurés dont l'assuré est propriétaire causés directement par un tremblement de terre, un glissement ou affaissement de terrain, une inondation, le débordement ou le refoulement d'égouts publics, ainsi que les dégâts résultant de mesures prises par une autorité. A l'exception d'objets hors des bâtiments (sauf fixés à demeure), constructions faciles à déplacer/délabrées, bâtiments en construction, biens transportés, et biens couverts par lois particulières. Pas d'intervention pour inondation/refoulement si le bâtiment a été construit plus de dix-huit mois après le classement en zone à risque. Limites de l'article 130 §2 de la Loi du 4 avril 2014. Toute suspension/nullité/expiration/résiliation de cette garantie entraîne celle de la garantie incendie, et réciproquement.
@@ -175,26 +176,26 @@ Nous indemnisons les dommages matériels aux biens assurés dont l'assuré est p
 ### Home Assistance - p. 9
 En l'absence d'un sinistre : intervention lorsqu'un événement soudain et imprévisible nécessite une intervention urgente ou permet de prévenir un sinistre, jusqu'à maximum 310 EUR par intervention dans le bâtiment (dont 40 EUR maximum pour matériaux et pièces de rechange), limité à trois interventions par année calendrier ; le technicien contacte par téléphone dans les deux heures et se déplace au plus tard dans les 24 heures. En présence d'un sinistre : détection de fuite d'eau ou de mazout, dépannage serrurier jusqu'à maximum 260 EUR, mesures conservatoires urgentes (déménagement, entreposage, hébergement provisoire, surveillance du bâtiment pendant 48 heures, rapatriement), garde d'enfants et d'animaux jusqu'à maximum 400 EUR si les assurés sont hospitalisés plus de 24 heures. La franchise ne s'applique pas à cette garantie. Ne sont pas assurés : remplacement des appareils ménagers et de chauffage, problèmes aux compteurs, travaux d'entretien, problèmes aux cuisines équipées, débouchage/réparation/vidange des canalisations souterraines et fosses septiques, problèmes d'usage inadapté ou manque d'entretien, interruption de fourniture d'énergie ou d'eau.
 - Optionnelle : non · Limite : 310 EUR par intervention (dont 40 EUR matériaux) ; 3 interventions par année calendrier · Franchise : La franchise ne s'applique pas à cette garantie
-  - Sous-limite : {'item': 'Par intervention (dont 40 EUR max pour matériaux et pièces)', 'limit': '310 EUR'}
-  - Sous-limite : {'item': 'Dépannage serrurier', 'limit': '260 EUR'}
-  - Sous-limite : {'item': "Garde d'enfants et d'animaux (hospitalisation > 24h)", 'limit': '400 EUR'}
-  - Sous-limite : {'item': 'Surveillance du bâtiment sinistré', 'limit': '48 heures'}
+  - Sous-limite : Par intervention (dont 40 EUR max pour matériaux et pièces): 310 EUR
+  - Sous-limite : Dépannage serrurier: 260 EUR
+  - Sous-limite : Garde d'enfants et d'animaux (hospitalisation > 24h): 400 EUR
+  - Sous-limite : Surveillance du bâtiment sinistré: 48 heures
   - Condition : Notre intervention n'est acquise que moyennant appel préalable au +32 (0)2 286 70 00
   - Condition : Pour les buildings ou bâtiments avec équipements communs, l'assistance ne vaut que pour les parties privatives
 
 ### Vol (option) - p. 10
 Garantie optionnelle assurant le contenu situé à l'adresse indiquée contre le vol et le vandalisme. Nous remboursons aussi les dommages au bâtiment désigné jusqu'à maximum 6.000 EUR pour autant que l'assurance du bâtiment n'assure pas ce type de dommages. Couvre le vol ou la tentative de vol des objets assurés dans le bâtiment désigné, les dégâts matériels qui en découlent et les actes de vandalisme. Extensions au contenu hors du bâtiment (déplacé temporairement avec effraction, logement d'étudiant avec effraction, vol avec violence/menace, meubles de jardin et barbecues). Limite d'indemnisation de maximum 10.000 EUR par objet. Le cumul des indemnités en vol ne peut excéder 50% du montant assuré en contenu. Nous indemnisons les frais de remplacement des serrures et leur ré-encodage digital si clés/télécommande volées.
 - Optionnelle : oui · Portée : Adresse indiquée aux conditions particulières ; extensions hors bâtiment dans les cas prévus · Limite : Maximum 10.000 EUR par objet ; dommages au bâtiment jusqu'à 6.000 EUR ; cumul des indemnités en vol limité à 50% du montant assuré en contenu
-  - Sous-limite : {'item': 'Dommages au bâtiment désigné', 'limit': '6.000 EUR'}
-  - Sous-limite : {'item': "L'ensemble des bijoux", 'limit': '10.000 EUR'}
-  - Sous-limite : {'item': "Contenu déplacé temporairement (vol avec effraction dans l'autre bâtiment)", 'limit': '7.500 EUR'}
-  - Sous-limite : {'item': "Contenu dans le logement d'étudiant", 'limit': '7.500 EUR'}
-  - Sous-limite : {'item': "Contenu de l'ensemble des annexes", 'limit': '7.500 EUR'}
-  - Sous-limite : {'item': 'Vol avec menace ou violence sur votre personne', 'limit': '7.500 EUR'}
-  - Sous-limite : {'item': "L'ensemble des valeurs", 'limit': '2.500 EUR'}
-  - Sous-limite : {'item': "Meubles de jardin et barbecues à l'adresse assurée", 'limit': '2.500 EUR'}
-  - Sous-limite : {'item': "Biens confiés à l'assuré ou biens appartenant aux invités", 'limit': '2.500 EUR'}
-  - Sous-limite : {'item': 'Vol commis par une personne autorisée à se trouver dans le bâtiment', 'limit': '2.500 EUR'}
+  - Sous-limite : Dommages au bâtiment désigné: 6.000 EUR
+  - Sous-limite : L'ensemble des bijoux: 10.000 EUR
+  - Sous-limite : Contenu déplacé temporairement (vol avec effraction dans l'autre bâtiment): 7.500 EUR
+  - Sous-limite : Contenu dans le logement d'étudiant: 7.500 EUR
+  - Sous-limite : Contenu de l'ensemble des annexes: 7.500 EUR
+  - Sous-limite : Vol avec menace ou violence sur votre personne: 7.500 EUR
+  - Sous-limite : L'ensemble des valeurs: 2.500 EUR
+  - Sous-limite : Meubles de jardin et barbecues à l'adresse assurée: 2.500 EUR
+  - Sous-limite : Biens confiés à l'assuré ou biens appartenant aux invités: 2.500 EUR
+  - Sous-limite : Vol commis par une personne autorisée à se trouver dans le bâtiment: 2.500 EUR
   - Condition : Toutes les portes extérieures doivent au moins être équipées d'une serrure
   - Condition : En cas d'absence, les portes doivent être verrouillées ou protégées par un système électronique et toutes les fenêtres et ouvertures fermées
   - Condition : En cas de vol par une personne autorisée, une plainte doit être déposée contre cette personne dans les 24 heures
@@ -211,12 +212,12 @@ En cas de sinistre couvert, le montant de l'indemnité due après déduction de 
 ### Protection Juridique (option) - p. 11
 Nous assurons jusqu'à concurrence de maximum 30.000 EUR au total (défense pénale de l'assuré, recours civil contre les personnes responsables, défense civile de l'assuré), 7.500 EUR pour les litiges contractuels et 7.500 EUR pour l'insolvabilité des personnes responsables. Ces montants ne sont pas indexés. Inclut la défense pénale, l'assistance Salduz (max 1.000 euros), le recours civil (seuil minimal de 250 EUR), la défense civile, la protection juridique contractuelle (délai d'attente de 3 mois), l'insolvabilité, le libre choix de l'avocat/expert, les procédures de divergence d'opinions et de conflit d'intérêts, l'avance de franchise et les règles d'insuffisance des montants assurés.
 - Optionnelle : oui · Limite : 30.000 EUR au total ; 7.500 EUR litiges contractuels ; 7.500 EUR insolvabilité ; assistance Salduz max 1.000 euros (non indexés)
-  - Sous-limite : {'item': 'Défense pénale, recours civil, défense civile (total)', 'limit': '30.000 EUR'}
-  - Sous-limite : {'item': 'Litiges contractuels', 'limit': '7.500 EUR'}
-  - Sous-limite : {'item': 'Insolvabilité des personnes responsables', 'limit': '7.500 EUR'}
-  - Sous-limite : {'item': 'Assistance Salduz (frais et honoraires avocat premier interrogatoire)', 'limit': '1.000 euros'}
-  - Sous-limite : {'item': 'Seuil minimal recours civil', 'limit': '250 EUR'}
-  - Sous-limite : {'item': 'Seuil pour procédures devant la Cour de Cassation', 'limit': '1.250 EUR (non indexés)'}
+  - Sous-limite : Défense pénale, recours civil, défense civile (total): 30.000 EUR
+  - Sous-limite : Litiges contractuels: 7.500 EUR
+  - Sous-limite : Insolvabilité des personnes responsables: 7.500 EUR
+  - Sous-limite : Assistance Salduz (frais et honoraires avocat premier interrogatoire): 1.000 euros
+  - Sous-limite : Seuil minimal recours civil: 250 EUR
+  - Sous-limite : Seuil pour procédures devant la Cour de Cassation: 1.250 EUR (non indexés)
   - Condition : La garantie Protection juridique contractuelle est acquise après un délai d'attente de 3 mois à compter de la souscription
   - Condition : En insolvabilité, le tiers doit être nommément identifié et responsable d'un acte non-intentionnel
 
@@ -231,18 +232,18 @@ Lorsque les dommages sont imputables au locataire ou à l'occupant occasionnel d
 ### Option Jardin - p. 13
 Assure le jardin situé à l'adresse du risque et son contenu, sans application de la règle proportionnelle. Assure les dommages au jardin (plantations et étangs, terrains de tennis et de golf), au contenu de jardin extérieur et au contenu non de jardin à l'extérieur. Dommages au jardin : maximum 5.000 EUR par sinistre (jusqu'à 500 EUR par plante). Dommages au contenu de jardin : maximum 5.000 EUR. Vol des plantations et contenu de jardin : maximum 5.000 EUR (si le vol est assuré). Dommages au contenu non de jardin à l'extérieur (tempête/grêle/neige/glace/catastrophe naturelle) : maximum 2.500 EUR. Assainissement du terrain pollué par mazout : maximum 10.000 EUR. Frais de recherche de fuite et d'ouverture du sol.
 - Optionnelle : oui · Portée : Adresse du risque · Limite : Voir sous-limites
-  - Sous-limite : {'item': "Dommages au jardin (par sinistre, transport et main d'œuvre compris)", 'limit': '5.000 EUR'}
-  - Sous-limite : {'item': 'Par plante', 'limit': '500 EUR'}
-  - Sous-limite : {'item': "Dommages au contenu de jardin à l'extérieur", 'limit': '5.000 EUR'}
-  - Sous-limite : {'item': 'Vol des plantations et contenu de jardin', 'limit': '5.000 EUR'}
-  - Sous-limite : {'item': "Dommages au contenu non de jardin à l'extérieur", 'limit': '2.500 EUR'}
-  - Sous-limite : {'item': 'Assainissement du terrain pollué par mazout', 'limit': '10.000 EUR'}
+  - Sous-limite : Dommages au jardin (par sinistre, transport et main d'œuvre compris): 5.000 EUR
+  - Sous-limite : Par plante: 500 EUR
+  - Sous-limite : Dommages au contenu de jardin à l'extérieur: 5.000 EUR
+  - Sous-limite : Vol des plantations et contenu de jardin: 5.000 EUR
+  - Sous-limite : Dommages au contenu non de jardin à l'extérieur: 2.500 EUR
+  - Sous-limite : Assainissement du terrain pollué par mazout: 10.000 EUR
   - Condition : Pour l'assainissement, la citerne doit être conforme à la réglementation applicable
 
 ### Option Piscine - p. 14
 Assure les piscines intérieures et extérieures situées à l'adresse du risque (jacuzzis extérieurs et piscines naturelles assimilés), jusqu'à concurrence de maximum 15.000 EUR sans application de la règle proportionnelle. Les piscines doivent être creusées dans la parcelle ou fixées à demeure. Couvre les accessoires (liner, volet, abris, collecteurs solaires, systèmes de chauffage, installations techniques, éclairage, robinets, jetstream, matériel, escaliers, tremplins, toboggans). Couvre les dommages à la piscine (sinistre couvert, catastrophe naturelle, gibier/bétail/chevaux), le vol et vandalisme, les dommages consécutifs causés par la piscine (rupture, fissure, fuite, débordement) et le remplacement de l'eau polluée (limité à une fois le contenu par sinistre et par année).
 - Optionnelle : oui · Portée : Adresse du risque · Limite : Maximum 15.000 EUR
-  - Sous-limite : {'item': "Remplacement de l'eau", 'limit': 'une seule fois le contenu de la piscine par sinistre et par année'}
+  - Sous-limite : Remplacement de l'eau: une seule fois le contenu de la piscine par sinistre et par année
   - Condition : Les piscines doivent être creusées dans la parcelle de terrain appartenant à votre habitation ou fixées à demeure au sol
 
 ### Option Véhicule stationné - p. 15
@@ -258,9 +259,9 @@ Assure les dommages matériels aux appareils électroniques ayant une fonction d
 ### Option Business - p. 15
 Assure le contenu professionnel lié à l'activité de profession libérale ou de bureau (matériel, marchandises, valeurs) jusqu'à maximum 15.000 EUR sans règle proportionnelle. Étend les garanties de base au contenu professionnel, couvre en tempête/grêle les panneaux publicitaires et enseignes, le bris de vitrage des enseignes lumineuses, le dégât des eaux par déclenchement accidentel d'installations d'extinction, le vol et vandalisme étendu au contenu professionnel (vol de valeurs jusqu'à 5.000 EUR en cas de menace/violence, faux billets de bonne foi), le contenu déplacé pour exposition/foire dans l'UE (max 5.000 EUR). Couvre aussi les pertes d'exploitation : forfait de 100 EUR par jour d'interruption totale, pendant maximum 30 jours (pas d'intervention si interruption inférieure à une semaine calendrier).
 - Optionnelle : oui · Portée : Adresse indiquée aux conditions particulières ; contenu déplacé dans un pays de l'Union européenne · Limite : Maximum 15.000 EUR
-  - Sous-limite : {'item': 'Vol de valeurs professionnelles avec menaces ou violence', 'limit': '5.000 EUR'}
-  - Sous-limite : {'item': "Contenu professionnel déplacé pour exposition/foire dans l'UE", 'limit': '5.000 EUR'}
-  - Sous-limite : {'item': "Pertes d'exploitation (forfait par jour d'interruption totale)", 'limit': '100 EUR par jour pendant maximum 30 jours'}
+  - Sous-limite : Vol de valeurs professionnelles avec menaces ou violence: 5.000 EUR
+  - Sous-limite : Contenu professionnel déplacé pour exposition/foire dans l'UE: 5.000 EUR
+  - Sous-limite : Pertes d'exploitation (forfait par jour d'interruption totale): 100 EUR par jour pendant maximum 30 jours
   - Condition : Pertes d'exploitation : pas d'intervention si l'interruption est inférieure à une semaine calendrier
 
 ### Option Travaux - p. 16
@@ -273,10 +274,10 @@ Assure lorsque vous effectuez des travaux de construction, transformation ou ré
 ### Option Protection locataire - p. 17
 Assure en qualité de locataire ainsi que les colocataires mentionnés dans le contrat de bail. Couvre les litiges locatifs avec le bailleur (frais de procédure et honoraires d'avocat jusqu'à maximum 7.500 EUR, hors non-paiement des loyers, délai d'attente de 3 mois), l'accident déménagement (frais médicaux des bénévoles blessés jusqu'à maximum 2.500 EUR, franchise ne s'applique pas), l'aide financière en cas de perte d'emploi (forfait de 1.000 EUR, délai d'attente de 3 mois, franchise ne s'applique pas), et un forfait déménagement de 500 EUR en cas de décès/invalidité/divorce/résiliation anticipée du bail (franchise ne s'applique pas).
 - Optionnelle : oui · Limite : Voir sous-limites · Franchise : La franchise ne s'applique pas aux garanties Accident déménagement, Aide financière et Forfait déménagement
-  - Sous-limite : {'item': 'Litiges locatifs (frais de procédure et honoraires avocat)', 'limit': '7.500 EUR'}
-  - Sous-limite : {'item': 'Accident déménagement (frais médicaux bénévoles)', 'limit': '2.500 EUR'}
-  - Sous-limite : {'item': "Aide financière perte d'emploi (forfait)", 'limit': '1.000 EUR'}
-  - Sous-limite : {'item': 'Forfait déménagement', 'limit': '500 EUR'}
+  - Sous-limite : Litiges locatifs (frais de procédure et honoraires avocat): 7.500 EUR
+  - Sous-limite : Accident déménagement (frais médicaux bénévoles): 2.500 EUR
+  - Sous-limite : Aide financière perte d'emploi (forfait): 1.000 EUR
+  - Sous-limite : Forfait déménagement: 500 EUR
   - Condition : Litiges locatifs et aide financière acquis après un délai d'attente de 3 mois
   - Condition : Les litiges portant sur le non-paiement des loyers sont exclus
 
@@ -299,8 +300,8 @@ Nous indemnisons l'ensemble des frais qui découlent des mesures urgentes et rai
 ### Autres frais consécutifs à un sinistre (indemnité complémentaire) - p. 17
 A la suite d'un sinistre couvert, nous payons : les frais d'extinction et de conservation des biens assurés ; les frais de déblai et de démolition nécessaires à la reconstruction ; les frais de remise en état du jardin endommagé suite aux travaux d'extinction/protection/sauvetage ; les frais d'hébergement pendant la durée normale de reconstruction lorsque les locaux à usage privé sont inutilisables ; le chômage immobilier (perte de jouissance ou de loyer) pendant la durée normale de reconstruction ou réparation ; les frais médicaux jusqu'à maximum 3.000 EUR par victime (traitement pendant 365 jours maximum) et les frais de funérailles jusqu'à maximum 4.000 EUR par victime.
 - Optionnelle : non · Limite : Frais médicaux 3.000 EUR par victime ; frais de funérailles 4.000 EUR par victime
-  - Sous-limite : {'item': 'Frais médicaux, pharmaceutiques et de traitement par victime (365 jours max)', 'limit': '3.000 EUR'}
-  - Sous-limite : {'item': 'Frais de funérailles par victime', 'limit': '4.000 EUR'}
+  - Sous-limite : Frais médicaux, pharmaceutiques et de traitement par victime (365 jours max): 3.000 EUR
+  - Sous-limite : Frais de funérailles par victime: 4.000 EUR
   - Condition : Seuls les sinistres à l'adresse indiquée ou dans une résidence temporaire couverte ouvrent le droit à l'indemnité
   - Condition : Les frais médicaux ne sont dus qu'à l'épuisement des garanties d'une mutuelle
 

@@ -8,6 +8,7 @@ branch: voyage
 product_name: Touring Travel
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: 0079-8426432F-01042026
 edition_date: '01042026'
 lang: fr
@@ -50,7 +51,7 @@ Le remboursement illimité des frais médicaux et de rapatriement en cas d'hospi
 ### Frais médicaux, chirurgicaux et hospitaliers en cas d'hospitalisation en Belgique - p. 1
 Le remboursement limité des frais médicaux, chirurgicaux et hospitaliers en cas d'hospitalisation en Belgique liés à une opération médicale non planifiée ou un accident à l'étranger.
 - Optionnelle : non · Limite : limité
-  - Sous-limite : {'name': "Frais médicaux en Belgique liés à un incident médical à l'étranger", 'limit': 'un maximum de 6.000 EUR de frais médicaux, chirurgicaux et hospitaliers sont pris en charge par assuré'}
+  - Sous-limite : Frais médicaux en Belgique liés à un incident médical à l'étranger: un maximum de 6.000 EUR de frais médicaux, chirurgicaux et hospitaliers sont pris en charge par assuré
 
 ### Frais médicaux ambulatoires en Belgique - p. 1
 Le remboursement limité des frais médicaux ambulatoires en Belgique suite à une opération médicale ou un accident à l'étranger.
@@ -79,7 +80,7 @@ L'avance de l'indemnité due à l'assuré par la compagnie aérienne en cas de r
 ### Pack Assistance Dépannage Véhicule - p. 1
 Le dépannage sur place 24h/7 du véhicule assuré qui est immobilisé à la suite d'un incident (ex : panne, accident, vol, vandalisme) ou le remorquage vers le garage le plus proche ; le rapatriement du véhicule assuré vers la Belgique ; la mise à disposition d'un véhicule de remplacement à l'étranger pour une durée maximale de 15 jours par année d'assurance.
 - Optionnelle : oui · Portée : Dans les pays de l'Union européenne, ainsi qu'en Albanie, Andorre, Biélorussie, Bosnie Herzégovine, Guernesey, les îles Åland, l'Île de Man, Islande, Jersey, Kosovo, Liechtenstein, Macédoine, Moldavie, Monaco, Monténégro, Norvège, Royaume-Uni, Saint-Marin, Serbie, Suisse, Ukraine et Vatican, à l'exclusion de la Belgique. Les prestations aux véhicules ne sont pas acquises dans les Îles Canaries et à Madère, dans les enclaves espagnoles Ceuta et Melilla sur le territoire africain, en Turquie ainsi que sur le territoire français en dehors de la France Métropolitaine.
-  - Sous-limite : {'name': "Véhicule de remplacement à l'étranger", 'limit': "limité à maximum 15 jours par année d'assurance"}
+  - Sous-limite : Véhicule de remplacement à l'étranger: limité à maximum 15 jours par année d'assurance
 
 ### Pack Assurance Annulation - p. 1
 Le remboursement des frais contractuellement dus par l'assuré en cas de modification ou d'annulation du contrat de voyage en raison d'un événement assuré.
@@ -129,13 +130,14 @@ Le remboursement des objets assurés en cas de vol, destruction ou perte pendant
 ## Durée & résiliation
 
 - Durée : Le contrat dure un an et est prolongé automatiquement chaque année, sauf si vous ou nous résilions le contrat. Le contrat prend effet à la date fixée aux conditions particulières, à condition que la première prime ait été payée et sous réserve des délais d'attente spécifiques prévus par les conditions générales.
-- Reconduction tacite : oui
 - Préavis : Vous pouvez résilier votre contrat d'assurance au plus tard deux mois avant la date d'échéance annuelle du contrat.
 - Modalité : La résiliation du contrat doit se faire par envoi recommandé, par exploit d'huissier ou par la remise d'une lettre de résiliation avec accusé de réception.
 
 ## Conditions particulières
 
 - Touring Travel peut être souscrit en formule Solo ou en formule Family. p. 1
+- Les frais engagés par un assuré sans accord préalable de Touring. p. 1
+- La couverture est limitée aux déplacements à l'étranger de maximum 3 mois consécutifs. p. 1
 
 ## Lacunes d'extraction
 

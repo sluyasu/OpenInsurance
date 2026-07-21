@@ -7,9 +7,10 @@ insurer_slug: amma
 branch: autres
 product_name: Revenu Garanti
 document_type: conditions_generales
-target_audience: Personnes exerçant une activité médicale ou paramédicale et personnes
-  exerçant une activité professionnelle reconnue par Amma Assurances bénéficiant d'un
-  revenu professionnel
+target_audience: null
+target_audience_note: Personnes exerçant une activité médicale ou paramédicale et
+  personnes exerçant une activité professionnelle reconnue par Amma Assurances bénéficiant
+  d'un revenu professionnel
 reference: 06-RG-CG-PDF-0224-V02-FR
 edition_date: '0224'
 lang: fr

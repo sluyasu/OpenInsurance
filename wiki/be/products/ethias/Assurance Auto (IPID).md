@@ -7,7 +7,8 @@ insurer_slug: ethias
 branch: auto
 product_name: Assurance Auto
 document_type: ipid
-target_audience: Tourisme et affaires - mixtes - minibus
+target_audience: null
+target_audience_note: Tourisme et affaires - mixtes - minibus
 reference: 1251-044/1 • 04/26
 edition_date: 04/26
 lang: fr

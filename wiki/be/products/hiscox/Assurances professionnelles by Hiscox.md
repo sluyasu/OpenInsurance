@@ -8,6 +8,7 @@ branch: rc-professionnelle
 product_name: Assurances professionnelles by Hiscox
 document_type: conditions_generales
 target_audience: entreprises
+target_audience_note: null
 reference: PRO202401
 edition_date: 2024-01
 lang: fr

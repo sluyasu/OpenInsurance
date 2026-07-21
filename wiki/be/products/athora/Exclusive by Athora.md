@@ -8,6 +8,7 @@ branch: epargne
 product_name: Exclusive by Athora
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 1F802
 edition_date: 02/2022
 lang: fr

@@ -8,6 +8,7 @@ branch: habitation
 product_name: Assurance Résidence
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: DW25054
 edition_date: 01/07/2025
 lang: fr

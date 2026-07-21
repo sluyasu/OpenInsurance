@@ -8,6 +8,7 @@ branch: sante
 product_name: DKV Smile Comfort
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 12 002_FR_3_202407
 edition_date: 07/2024
 lang: fr

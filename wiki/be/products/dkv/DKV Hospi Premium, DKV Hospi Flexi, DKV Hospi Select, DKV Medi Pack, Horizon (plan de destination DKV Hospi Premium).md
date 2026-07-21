@@ -9,6 +9,7 @@ product_name: DKV Hospi Premium, DKV Hospi Flexi, DKV Hospi Select, DKV Medi Pac
   Horizon (plan de destination DKV Hospi Premium)
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 11 904_FR_7_202510
 edition_date: 10/2025
 lang: fr

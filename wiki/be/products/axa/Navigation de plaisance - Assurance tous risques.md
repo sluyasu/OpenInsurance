@@ -8,6 +8,7 @@ branch: navigation
 product_name: Navigation de plaisance - Assurance tous risques
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 4183864-06.2025
 edition_date: '06.2025'
 lang: fr

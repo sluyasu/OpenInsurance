@@ -8,6 +8,7 @@ branch: voyage
 product_name: F-Protection ; F-Selection ; F-Mobility ; F-Mobility CT
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 21.08.050
 edition_date: 04/25
 lang: fr

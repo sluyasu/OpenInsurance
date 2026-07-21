@@ -8,6 +8,7 @@ branch: habitation
 product_name: Assurance incendie Multirisk Habitation
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: 21.20.100 IPID (CG 21.20.115)
 edition_date: 04/25
 lang: fr

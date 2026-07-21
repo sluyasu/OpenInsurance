@@ -8,6 +8,7 @@ branch: sante
 product_name: F-CARE
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: 51.30.315
 edition_date: 11/20
 lang: fr

@@ -8,6 +8,7 @@ branch: obseques
 product_name: Assurance Funérailles
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: L49-15012024
 edition_date: null
 lang: fr

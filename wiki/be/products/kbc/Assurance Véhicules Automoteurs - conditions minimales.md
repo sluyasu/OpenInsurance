@@ -8,6 +8,7 @@ branch: auto
 product_name: Assurance Véhicules Automoteurs - conditions minimales
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: null
 edition_date: null
 lang: fr

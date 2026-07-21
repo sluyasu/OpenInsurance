@@ -8,6 +8,7 @@ branch: auto
 product_name: P&V Auto
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: 010/1290 - P08.2018
 edition_date: P08.2018
 lang: fr

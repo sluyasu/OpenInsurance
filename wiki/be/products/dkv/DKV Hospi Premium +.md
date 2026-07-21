@@ -7,8 +7,9 @@ insurer_slug: dkv
 branch: sante
 product_name: DKV Hospi Premium +
 document_type: conditions_generales
-target_audience: Personne physique n'ayant pas atteint l'âge de 70 ans au moment de
-  la souscription, ayant son lieu de résidence et sa résidence principale en Belgique,
+target_audience: particuliers
+target_audience_note: Personne physique n'ayant pas atteint l'âge de 70 ans au moment
+  de la souscription, ayant son lieu de résidence et sa résidence principale en Belgique,
   ne séjournant pas plus de 90 jours consécutifs à l'étranger, et assujettie à la
   sécurité sociale belge et en bénéficiant.
 reference: 11103_FR_4_202508 / 92W & 92Z

@@ -8,6 +8,7 @@ branch: vie-privee
 product_name: L'assurance familiale Belfius Family
 document_type: ipid
 target_audience: particuliers
+target_audience_note: null
 reference: IPID/0037-2-13-7032- F-062026
 edition_date: 2026-06
 lang: fr

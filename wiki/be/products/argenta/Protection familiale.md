@@ -8,6 +8,7 @@ branch: vie-privee
 product_name: Protection familiale
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: DW26014
 edition_date: 20-04-2026
 lang: fr
@@ -101,7 +102,7 @@ En Belgique, cette responsabilité est régie par le Livre 6 du Code civil. Nous
 ### Responsabilité civile – Animaux - p. 8
 Nous vous assurons pour les dommages provoqués par les animaux que vous êtes autorisé à détenir en Belgique en tant que particulier et dont vous pouvez être tenu responsable en tant que propriétaire ou gardien, en dehors de toute activité professionnelle. Sont également couverts les dommages occasionnés par les chiens de garde utilisés pour la surveillance de bâtiments à usage professionnel. Les dommages que vous causez à des chevaux loués ou empruntés et à leur harnachement sont également couverts.
 - Optionnelle : non · Portée : Monde entier · Limite : Pour les chevaux loués ou empruntés et leur harnachement : jusqu'à 2 693 134,72 euros par sinistre (indice des prix à la consommation juin 2021 259,95, base 1981)
-  - Sous-limite : {'name': 'Chevaux loués ou empruntés et harnachement', 'limit': '2 693 134,72 euros par sinistre'}
+  - Sous-limite : Chevaux loués ou empruntés et harnachement: 2 693 134,72 euros par sinistre
   - Condition : Détention autorisée en Belgique en tant que particulier
   - Condition : En dehors de toute activité professionnelle
 
@@ -151,8 +152,8 @@ L'assurance couvre les dommages occasionnés au cours d'une chasse, à l'exclusi
 ### Responsabilité civile – Biens empruntés - p. 10
 Nous indemnisons jusqu'à 2 500 euros par sinistre les dommages aux biens que vous avez empruntés à des tiers pour votre propre usage. Les dommages causés à des biens empruntés et résultant d'une révision, d'une réparation ou d'un entretien et les dommages à tous les autres biens dont vous assumez la garde sont exclus. Nous indemnisons également jusqu'à 2 500 euros par sinistre les dommages aux instruments de musique et/ou dispositifs médicaux que vous avez loués à des tiers pour votre propre usage.
 - Optionnelle : non · Portée : Monde entier · Limite : 2 500 euros par sinistre (non indexés) pour les biens empruntés ; 2 500 euros par sinistre (non indexés) pour les instruments de musique et/ou dispositifs médicaux loués
-  - Sous-limite : {'name': 'Biens empruntés à des tiers', 'limit': '2 500 euros par sinistre (non indexés)'}
-  - Sous-limite : {'name': 'Instruments de musique et/ou dispositifs médicaux loués', 'limit': '2 500 euros par sinistre (non indexés)'}
+  - Sous-limite : Biens empruntés à des tiers: 2 500 euros par sinistre (non indexés)
+  - Sous-limite : Instruments de musique et/ou dispositifs médicaux loués: 2 500 euros par sinistre (non indexés)
   - Condition : Biens empruntés à des tiers pour votre propre usage
   - Condition : Exclusion des dommages résultant d'une révision, réparation ou entretien, et des biens dont vous assumez la garde
 
@@ -169,7 +170,7 @@ Nous vous assurons pour les frais résultant tant des mesures que nous avons dem
 ### Protection juridique – Recours civil - p. 13
 Nous exerçons un recours contre un tiers pour vos dommages extracontractuels dans le cadre de votre vie privée, mais à l'exclusion de tout contexte contractuel (sauf disposition contraire expresse) : survenus lors d'un accident de la route en votre qualité d'usager faible de la route ; subis par vous, y compris les dégâts matériels au logement privé, à son contenu et au jardin attenant, habité par le preneur d'assurance à l'adresse mentionnée dans les Conditions particulières. Ce recours n'est exercé que sur la base du Livre 6 du Code civil, de l'article 3.101 du Code civil (troubles de voisinage) et des articles 29bis et ter de la Loi du 21 novembre 1989. Tous les autres litiges fondés sur un autre fondement juridique (par ex. art. 3.102 C.C.) sont exclus.
 - Optionnelle : non · Portée : Tous les pays de l'Espace économique européen (EEE), la Suisse, le Royaume-Uni et la partie européenne de la Turquie. Pour les pays non européens bordant la Méditerranée : intervention limitée à 6 750 euros par sinistre (non indexés) · Limite : Intervention par sinistre de maximum 40 000 euros, tous assurés confondus (art. 2.2.5)
-  - Sous-limite : {'name': 'Pays non européens bordant la Méditerranée', 'limit': '6 750 euros par sinistre (non indexés)'}
+  - Sous-limite : Pays non européens bordant la Méditerranée: 6 750 euros par sinistre (non indexés)
   - Condition : Litiges relatifs à des sinistres extracontractuels dans le cadre de la vie privée
   - Condition : Sinistres survenant pendant la durée de validité de la police et dont l'origine est postérieure à la date de prise d'effet
 
@@ -225,7 +226,7 @@ Pour autant qu'il s'agisse d'un sinistre assuré, nous n'assurons l'intervention
 ### Protection juridique – Étendue des garanties (frais de défense) - p. 17
 Pour votre défense, dans le cadre d'un sinistre couvert, nous remboursons les frais et honoraires afférents à des expertises ou enquêtes, à l'intervention d'un avocat et à une procédure judiciaire (y compris l'indemnité de procédure si vous y êtes condamné). Nous prenons également en charge les frais de voyage et de séjour raisonnablement engagés lorsque votre comparution personnelle devant un tribunal étranger est requise dans le cadre d'un sinistre garanti, pour un maximum de deux jours avant et deux jours après l'audience, à concurrence d'un maximum absolu de 1 250 euros par sinistre. Notre intervention par sinistre est de maximum 40 000 euros, tous assurés confondus ; nos frais internes de gestion ne sont pas inclus dans ce montant.
 - Optionnelle : non · Portée : EEE, Suisse, Royaume-Uni et partie européenne de la Turquie · Limite : Intervention par sinistre de maximum 40 000 euros, tous assurés confondus (frais internes de gestion non inclus)
-  - Sous-limite : {'name': 'Frais de voyage et de séjour pour comparution devant un tribunal étranger', 'limit': "Maximum absolu de 1 250 euros par sinistre (non indexés), pour maximum deux jours avant et deux jours après l'audience"}
+  - Sous-limite : Frais de voyage et de séjour pour comparution devant un tribunal étranger: Maximum absolu de 1 250 euros par sinistre (non indexés), pour maximum deux jours avant et deux jours après l'audience
   - Condition : Le sinistre résultant d'une seule et même cause est considéré comme le même sinistre, quel que soit le nombre de victimes
 
 ### Assistance vélo – Panne et transport - p. 29
@@ -331,8 +332,8 @@ Nous transmettons, à nos frais, vos messages urgents nationaux ou internationau
 ### Assurance voyage – Accident sur et hors des pistes de ski (E) - p. 43
 En cas d'accident sur les pistes de ski ou en dehors, nous vous remboursons vos frais de transport du lieu de l'accident à la structure de soins la plus proche et les frais de recherche facturés par les services officiels de secours lors de la pratique d'un sport de neige, jusqu'à concurrence de 5.000 euros (avec attestation des services de secours ou de la police locale). Les accidents en dehors des pistes délimitées ne sont couverts que si l'assuré est accompagné d'un moniteur d'une organisation reconnue de ski hors-piste. Ce remboursement des frais de recherche n'est pas cumulable avec la couverture prévue à l'article 4.4.4. Si l'état nécessite une hospitalisation et/ou un rapatriement, le forfait de ski est remboursé au prorata du temps non utilisé, avec un maximum de 200 euros.
 - Optionnelle : oui · Portée : Étranger (E), dans un pays couvert par le contrat · Limite : Frais de recherche : jusqu'à 5.000 euros ; remboursement du forfait de ski : maximum 200 euros
-  - Sous-limite : {'name': 'Frais de recherche des services officiels de secours (sport de neige)', 'limit': "Jusqu'à 5.000 euros"}
-  - Sous-limite : {'name': 'Remboursement au prorata du forfait de ski non utilisé', 'limit': 'Maximum 200 euros'}
+  - Sous-limite : Frais de recherche des services officiels de secours (sport de neige): Jusqu'à 5.000 euros
+  - Sous-limite : Remboursement au prorata du forfait de ski non utilisé: Maximum 200 euros
   - Condition : Hors pistes délimitées : accompagnement par un moniteur d'une organisation reconnue de ski hors-piste
   - Condition : Non cumulable avec la garantie Frais de recherche et de sauvetage (4.4.4)
 
@@ -345,10 +346,10 @@ En cas d'incident médical concernant votre chien ou votre chat, dûment vaccin�
 ### Assurance voyage – Remboursement de frais médicaux encourus à l'étranger (E) - p. 43
 Cette prestation couvre les frais de soins reçus à l'étranger (dans un pays couvert) à la suite d'une maladie ou d'un accident corporel survenu dans ce pays, ayant un caractère imprévisible et sans antécédents connus. Elle vient après épuisement des indemnités de la Sécurité sociale/mutuelles ou toute autre assurance maladie. Si vous n'êtes pas affilié à une mutuelle ou n'êtes pas en règle de cotisation, notre intervention est limitée à 1.240 euros. Sont pris en charge, à concurrence de maximum 1,250,000 euros par personne et par événement : honoraires médicaux et chirurgicaux ; médicaments prescrits ; soins dentaires urgents à concurrence de 125 euros par personne ; frais d'hospitalisation ; ambulance locale ; prolongation de séjour à l'hôtel à concurrence de 500 euros ; séjour prolongé des autres personnes assurées à concurrence de 800 euros ; transport aller-retour des autres personnes assurées à concurrence de 250 euros. Une franchise de 50 euros s'applique sur le montant restant à charge après intervention de la mutuelle/assurance maladie. En cas d'hospitalisation, aviser le jour-même ou dans les 48 heures.
 - Optionnelle : oui · Portée : Étranger (E), dans un pays couvert par le contrat · Limite : Maximum 1,250,000 euros par personne assurée et par événement, après intervention de votre mutuelle ou assurance maladie ; intervention limitée à 1.240 euros si non affilié à une mutuelle ou non en règle de cotisation · Franchise : Franchise de 50 euros sur le montant restant à votre charge après intervention de votre mutuelle (Assurance obligatoire et Assurance complémentaire) ou assurance maladie
-  - Sous-limite : {'name': "Soins dentaires urgents à la suite d'un accident corporel ou d'une crise aiguë (prothèses exclues)", 'limit': '125 euros par personne'}
-  - Sous-limite : {'name': "Frais de prolongation de séjour du patient à l'hôtel ordonnée par un médecin", 'limit': '500 euros'}
-  - Sous-limite : {'name': 'Frais de séjour prolongé des autres personnes assurées supplémentaires', 'limit': "800 euros pour l'ensemble des personnes assurées supplémentaires"}
-  - Sous-limite : {'name': 'Frais de transport aller-retour des autres personnes assurées supplémentaires (domicile-hôpital)', 'limit': '250 euros'}
+  - Sous-limite : Soins dentaires urgents à la suite d'un accident corporel ou d'une crise aiguë (prothèses exclues): 125 euros par personne
+  - Sous-limite : Frais de prolongation de séjour du patient à l'hôtel ordonnée par un médecin: 500 euros
+  - Sous-limite : Frais de séjour prolongé des autres personnes assurées supplémentaires: 800 euros pour l'ensemble des personnes assurées supplémentaires
+  - Sous-limite : Frais de transport aller-retour des autres personnes assurées supplémentaires (domicile-hôpital): 250 euros
   - Condition : Maladie ou accident corporel imprévisible et sans antécédents connus survenu dans le pays couvert
   - Condition : Intervention subsidiaire après épuisement des indemnités de la Sécurité sociale/mutuelle ou autre assurance maladie
   - Condition : En cas d'hospitalisation : aviser le jour-même ou au plus tard dans les 48 heures
@@ -369,8 +370,8 @@ Si vous décédez au cours d'un voyage en Belgique, nous organisons et prenons e
 ### Assurance voyage – Assistance en cas de décès à l'étranger (E) - p. 45
 En cas de décès à l'étranger, nous organisons et prenons en charge le transport de la dépouille mortelle jusqu'au lieu désigné par la famille en Belgique. Nous prenons également en charge : les frais de traitement post-mortem et de cercueil ; le coût du cercueil ou de l'urne jusqu'à 1250 euros ; les frais d'obsèques ou de crémation jusqu'à 1 500 euros ; le transport local de la dépouille ; les frais de rapatriement de l'urne ; un billet aller-retour pour qu'un membre de la famille puisse se rendre sur place. Si ce décès empêche les autres assurés de rentrer comme prévu, nous prenons en charge leur retour. Si la personne décédée conduisait un véhicule, nous envoyons un chauffeur de remplacement (mêmes conditions qu'au point 4.3.6).
 - Optionnelle : oui · Portée : Étranger (E)
-  - Sous-limite : {'name': "Coût du cercueil ou de l'urne", 'limit': "Jusqu'à 1250 euros"}
-  - Sous-limite : {'name': "Frais d'obsèques ou de crémation", 'limit': "Jusqu'à 1 500 euros"}
+  - Sous-limite : Coût du cercueil ou de l'urne: Jusqu'à 1250 euros
+  - Sous-limite : Frais d'obsèques ou de crémation: Jusqu'à 1 500 euros
   - Condition : Décès à l'étranger
 
 ### Assurance voyage – Perte ou vol des documents de voyage et des billets à l'étranger (E) - p. 45
@@ -448,8 +449,8 @@ Si vous avez droit à une prestation garantie pour un événement assuré à l'�
 ### Assurance voyage – Assistance en cas de poursuites à l'étranger (E) - p. 48
 Si vous êtes poursuivi à l'étranger à la suite d'un accident survenu à l'étranger, nous vous avançons le montant de la caution exigée par les autorités à concurrence de 12.500 euros par assuré poursuivi (sur copie certifiée conforme de la décision du gouvernement), et nous vous avançons les honoraires d'un avocat que vous êtes libre de choisir à l'étranger, à concurrence de 1.250 euros. Nous ne participons pas aux conséquences juridiques en Belgique. Vous disposez de trois mois à compter de la date de la caution pour la rembourser ; si le gouvernement vous la rembourse avant, le montant doit nous être transféré immédiatement.
 - Optionnelle : oui · Portée : Étranger (E) · Limite : Caution : à concurrence de 12.500 euros par assuré poursuivi ; honoraires d'avocat : à concurrence de 1.250 euros
-  - Sous-limite : {'name': 'Avance de caution', 'limit': '12.500 euros par assuré poursuivi'}
-  - Sous-limite : {'name': "Avance des honoraires d'avocat", 'limit': '1.250 euros'}
+  - Sous-limite : Avance de caution: 12.500 euros par assuré poursuivi
+  - Sous-limite : Avance des honoraires d'avocat: 1.250 euros
   - Condition : Poursuite à l'étranger à la suite d'un accident survenu à l'étranger
   - Condition : Copie certifiée conforme de la décision du gouvernement pour la caution
   - Condition : Remboursement de la caution dans les trois mois à compter de sa date

@@ -8,6 +8,7 @@ branch: habitation
 product_name: NN Home Insurance
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: FNN Home 072023-01
 edition_date: Juillet 2023
 lang: fr
@@ -149,36 +150,36 @@ Nous assurons le dommage suite à la rupture ou fissures de sanitaires, à l'exc
 ### La tempête ou la grêle - p. 11
 Le dommage matériel causé au bien assuré suite à la tempête ou la grêle. Ne sont pas couverts : dommages par vents < 80 km/h (relevés IRM la plus proche), sauf si dans un rayon de 10 km la tempête provoque des dégâts à d'autres habitations similaires; contenu assuré à l'extérieur (sauf assurance Jardin optionnelle); habitation/contenu si délabrée ou destinée à être démolie; dépendances dont les murs extérieurs sont composés pour plus de 50 % de plaques métalliques/tôle ondulée plastique/bois/verre et autres matériaux légers (sauf pavillons de jardin); habitation non totalement close ou avec couverture temporaire pour cause de travaux (sauf absence de lien de causalité); antennes, panneaux, tentes et bâches fixés à l'habitation (le décrochage causant dommage à l'habitation est néanmoins indemnisé); serres en verre au-delà de 6.088 euros. Les pompes à chaleur et capteurs solaires destinés à chauffer une piscine extérieure sont exclus (sauf assurance Jardin optionnelle). Sont assurés : tentes solaires intégrées et motorisées du toit d'une véranda, pompes à chaleur montées sur le toit et panneaux solaires montés selon les règles de l'art. Tous les dommages survenus dans les 72 heures suivant les premiers dommages sont considérés comme un seul et même sinistre.
 - Optionnelle : non · Limite : serres en verre : au-delà de 6.088 euros (montant indexé) non couvert
-  - Sous-limite : {'name': 'Serres en verre', 'limit': '6.088 euros (montant indexé)'}
+  - Sous-limite : Serres en verre: 6.088 euros (montant indexé)
   - Condition : vents d'une vitesse d'au moins 80 km/h (d'après les relevés de la station de l'IRM la plus proche), sauf dégâts à d'autres habitations similaires dans un rayon de 10 km
 
 ### Le poids de la neige ou de la glace - p. 11
 Nous assurons le dommage matériel causé par le poids de la neige ou de la glace, à l'exception des dommages : à l'habitation/contenu si délabrée ou destinée à être démolie; aux dépendances dont les murs extérieurs sont composés pour plus de 50 % de plaques métalliques/tôle ondulée plastique/verre et autres matériaux légers (sauf pavillons de jardin); aux serres en verre au-delà de 6.088 euros; causés par le gel à la maçonnerie de la façade; causés par le gel aux conduits d'évacuation, gouttières et tuyaux.
 - Optionnelle : non · Limite : serres en verre : au-delà de 6.088 euros (montant indexé) non couvert
-  - Sous-limite : {'name': 'Serres en verre', 'limit': '6.088 euros (montant indexé)'}
+  - Sous-limite : Serres en verre: 6.088 euros (montant indexé)
 
 ### L'infiltration d'eau par le toit, les façades extérieures, les gouttières et les conduites d'évacuation d'eaux de pluie - p. 11
 La compagnie couvre les dommages consécutifs à l'infiltration d'eau par le toit, les façades extérieures, les corniches et les évacuations d'eau de pluie, à l'exception des dommages : aux gouttières et conduites d'évacuation d'eaux de pluie apparentes; au revêtement de toit, à la façade extérieure et à la toiture (y compris charpente et isolation); provoqués par des travaux au toit; par l'absence de gouttières/conduites d'évacuation; par des moisissures (comme la mérule) au-delà de 26.741 euros; par de l'humidité ascensionnelle (eaux de surface ou souterraines) ou infiltration par les murs de la cave; par l'infiltration par la cheminée ou le manteau de la cheminée; par l'infiltration par des fenêtres non ou mal fermées; causé par le gel à la façade si une fuite dans une gouttière ou un drain de pluie n'a pas été réparée immédiatement. Les frais de détection de fuites sur le toit ne sont pas couverts.
 - Optionnelle : non · Limite : moisissures (mérule) : au-delà de 26.741 euros (montant indexé) non couvert
-  - Sous-limite : {'name': 'Moisissures (mérule)', 'limit': '26.741 euros (montant indexé)'}
+  - Sous-limite : Moisissures (mérule): 26.741 euros (montant indexé)
 
 ### La rupture, l'éclatement ou le débordement d'une installation hydraulique - p. 12
 Nous assurons le dommage matériel aux biens assurés occasionnés directement par la rupture, l'éclatement ou le débordement d'une installation hydraulique dans le bâtiment ou les bâtiments voisins, à l'exception des dommages : aux boilers, chaudières, réservoirs ou fosses à l'origine des dommages; par l'eau de condensation d'une installation de conditionnement d'air ou d'une cheminée; par les eaux souterraines ou de surface; causés/subis par des étangs, étangs de natation, piscines extérieures ou installations/contenus liés; lors de travaux au bâtiment (sauf absence de lien de causalité); par le gel (d'une conduite non fermée et vidée en cas de non-occupation entre le 1er décembre et le 1er mars; d'une conduite/appareil/installation à l'extérieur; d'une conduite dans un local non chauffé sauf isolée); par un écoulement d'eau au-delà de 730 euros; par des champignons (mérule) au-delà de 26.741 euros. La réparation ou le remplacement d'une conduite, appareil, radiateur ou installation endommagé(e) par le gel n'est pas indemnisé(e). Propriétaire : la détection d'une fuite, la réparation localisée de la conduite et les coûts d'ouverture/fermeture des murs et sols sont assurés. Locataire assurant sa responsabilité : seuls les dommages dus à rupture/éclatement/débordement d'une installation hydraulique visible sont assurés, y compris réparation localisée.
 - Optionnelle : non · Limite : écoulement d'eau : au-delà de 730 euros (montant indexé); champignons (mérule) : au-delà de 26.741 euros (montant indexé)
-  - Sous-limite : {'name': "Écoulement d'eau", 'limit': '730 euros (montant indexé)'}
-  - Sous-limite : {'name': 'Champignons (mérule)', 'limit': '26.741 euros (montant indexé)'}
+  - Sous-limite : Écoulement d'eau: 730 euros (montant indexé)
+  - Sous-limite : Champignons (mérule): 26.741 euros (montant indexé)
   - Condition : en cas de non-occupation de l'habitation entre le 1er décembre et le 1er mars, la conduite doit être fermée et vidée (obligation du locataire si loué)
 
 ### L'infiltration par des joints en silicone ou joints de carrelage de la baignoire ou de la douche - p. 13
 Le dommage causé par l'infiltration d'eau par des joints en silicone ou joints de carrelage de la baignoire ou de la douche, à l'exception : du remplacement du carrelage et de l'imperméabilisation (plomb, membrane d'étanchéité en polyéthylène, caoutchouc); de l'enlèvement et du remplacement des sanitaires; des dommages causés par des champignons (mérule) au-delà de 26.741 euros.
 - Optionnelle : non · Limite : champignons (mérule) : au-delà de 26.741 euros (montant indexé) non couvert
-  - Sous-limite : {'name': 'Champignons (mérule)', 'limit': '26.741 euros (montant indexé)'}
+  - Sous-limite : Champignons (mérule): 26.741 euros (montant indexé)
 
 ### Les fuites, débordements ou ruptures d'aquariums ou matelas d'eau - p. 13
 Nous assurons les dommages causés par les fuites, débordements ou ruptures d'aquariums ou matelas d'eau dans le bâtiment, à l'exception des dommages : au contenu de l'aquarium (poissons, plantes et pompes) au-delà de 730 euros; par des champignons (mérule) au-delà de 26.741 euros.
 - Optionnelle : non · Limite : contenu de l'aquarium : au-delà de 730 euros; champignons (mérule) : au-delà de 26.741 euros
-  - Sous-limite : {'name': "Contenu de l'aquarium", 'limit': '730 euros (montant indexé)'}
-  - Sous-limite : {'name': 'Champignons (mérule)', 'limit': '26.741 euros (montant indexé)'}
+  - Sous-limite : Contenu de l'aquarium: 730 euros (montant indexé)
+  - Sous-limite : Champignons (mérule): 26.741 euros (montant indexé)
 
 ### La fuite d'une conduite de gaz - p. 13
 Si nous assurons votre habitation ou votre responsabilité locative, nous intervenons dans les frais de détection d'une fuite dans une conduite de gaz. Nous intervenons également dans les coûts encourus pour colmater la fuite provisoirement et en toute sécurité. Si vous êtes propriétaire, nous intervenons également dans la démolition des murs et sols et la réparation localisée des murs et sols avec des matériaux similaires.
@@ -191,12 +192,12 @@ La compagnie couvre les dommages causés aux biens assurés par les fuites, le b
 ### Le mazout (fuite, rupture, éclatement ou débordement de la citerne et des conduites reliées) - p. 13
 Nous couvrons le dommage matériel causé par du mazout ou un carburant liquide similaire aux biens assurés à la suite d'une fuite, rupture, éclatement ou débordement de la citerne et des conduites qui y sont reliées, à l'exception : des frais de réparation/remplacement des citernes et conduites reliées lorsqu'elles sont à l'origine des dommages; des dommages lors de la livraison de mazout; des dommages lors de travaux au sol, à l'installation de chauffage, à la citerne et aux conduites reliées; de la perte de mazout au-delà de 1.827 euros. L'assainissement du sol n'est jamais garanti sauf assurance Jardin optionnelle.
 - Optionnelle : non · Limite : perte de mazout : au-delà de 1.827 euros (montant indexé) non couvert
-  - Sous-limite : {'name': 'Perte de mazout', 'limit': '1.827 euros (montant indexé)'}
+  - Sous-limite : Perte de mazout: 1.827 euros (montant indexé)
 
 ### Les catastrophes naturelles - p. 13
 Nous assurons une inondation, un tremblement de terre, un glissement de terrain – même sans inondation – ou un affaissement de terrain, ou une infiltration d'eau provenant de précipitations atmosphériques d'une intensité exceptionnelle ne pouvant pas ou pas suffisamment être recueillies et évacuées par les égouts publics ou toute autre installation d'évacuation d'eau. Exceptions : objets à l'extérieur de l'habitation (sauf fixés à demeure); constructions faciles à déplacer/démonter, délabrées ou en démolition et leur contenu; biens dont la réparation est organisée par lois particulières ou conventions internationales; sols, cultures et peuplements forestiers; habitations construites/agrandies en zone à risque d'inondation (art. 129 §3 Loi 04/04/2014) et débordement/refoulement d'égouts publics (art. 53 Loi 18/04/2017); propriétaire ayant assuré l'habitation : frais de remise en état du jardin, plantations (jeunes plants de même espèce) et revêtement de sol (gravillons, dolomie, écorce, revêtements non naturels emportés par l'eau) au-delà de 4.761 euros (sauf assurance Jardin optionnelle); fondation du bâtiment et/ou travaux de stabilité pour améliorer la fondation, réparation ou ajustement de la stabilité. L'assureur limite le total des indemnités au montant minimum de l'art. 130 §2 de la Loi du 4 avril 2014; lorsque la limite est atteinte, l'indemnité est proportionnellement réduite (art. 130 §3).
 - Optionnelle : non · Limite : frais de remise en état du jardin/plantations/revêtement de sol : au-delà de 4.761 euros (montant indexé) non couvert (sauf assurance Jardin optionnelle)
-  - Sous-limite : {'name': 'Remise en état jardin, plantations et revêtement de sol (propriétaire)', 'limit': '4.761 euros (montant indexé)'}
+  - Sous-limite : Remise en état jardin, plantations et revêtement de sol (propriétaire): 4.761 euros (montant indexé)
 
 ### Le vol de parties de l'habitation, les dégradations immobilières et le vandalisme de l'habitation - p. 13
 Cette garantie est seulement d'application si vous êtes propriétaire de l'habitation assurée. Ne sont jamais couverts : les dommages à l'habitation non encore occupée ou plus occupée depuis 60 nuits consécutives; les dommages lors de travaux (de construction) sauf si l'habitation reste occupée; les dommages à une habitation qui n'est pas close (toutes portes et fenêtres verrouillées en cas d'absence); les dommages causés par un assuré; les dommages causés par ou avec la complicité d'un membre de votre famille.
@@ -206,14 +207,14 @@ Cette garantie est seulement d'application si vous êtes propriétaire de l'habi
 ### Le bris de vitres et panneaux transparents immeubles par destination - p. 14
 Cette garantie est seulement d'application si vous avez souscrit la garantie bâtiment/responsabilité locative. Sont également couverts : les dommages suite à un bris de verre aux cadres et supports; les dommages provoqués aux biens assurés par la projection de débris de glace; la rupture de plaques vitrocéramiques et à induction faisant partie d'une cuisine intégrée. À l'exception des dommages : provoqués par des travaux; aux serres tunnels en plastique; aux serres en verre au-delà de 6.088 euros. Si propriétaire : dommages causés par la condensation également assurés (sauf ceux couverts par la garantie du fabricant/installateur), avec une franchise individuelle pour chaque panneau. Si responsabilité locative assurée et non responsable : indemnisation des dommages aux vitres et panneaux transparents immeubles par destination, sans recours au propriétaire, moyennant présentation de la facture de réparation.
 - Optionnelle : non · Limite : serres en verre : au-delà de 6.088 euros (montant indexé) non couvert · Franchise : franchise individuelle pour chaque panneau en cas d'indemnisation de dommages dus à la condensation (propriétaire)
-  - Sous-limite : {'name': 'Serres en verre', 'limit': '6.088 euros (montant indexé)'}
+  - Sous-limite : Serres en verre: 6.088 euros (montant indexé)
   - Condition : seulement si vous avez souscrit la garantie bâtiment/responsabilité locative
 
 ### Le bris de vitres aux meubles (armoires, tables, vitres, miroirs, aquariums, écrans TV) - p. 14
 Cette garantie est seulement d'application si le contenu est assuré. Ne sont jamais couverts : dommages provoqués par des travaux; dommages aux lustres, à la vaisselle, aux vases et aux verres optiques; contenu de serres en verre au-delà de 6.088 euros; contenu d'aquariums (y compris la perte d'eau) au-delà de 730 euros; dommages aux tablettes, PC, smartphones, GSM et appareils similaires; rayures aux écrans et postes de télévision.
 - Optionnelle : non · Limite : contenu de serres en verre : au-delà de 6.088 euros; contenu d'aquariums : au-delà de 730 euros
-  - Sous-limite : {'name': 'Contenu de serres en verre', 'limit': '6.088 euros (montant indexé)'}
-  - Sous-limite : {'name': "Contenu d'aquariums (y compris perte d'eau)", 'limit': '730 euros (montant indexé)'}
+  - Sous-limite : Contenu de serres en verre: 6.088 euros (montant indexé)
+  - Sous-limite : Contenu d'aquariums (y compris perte d'eau): 730 euros (montant indexé)
   - Condition : seulement si le contenu est assuré
 
 ### Les attentats et les conflits du travail (y compris mesures de sauvegarde des autorités) - p. 14
@@ -244,8 +245,8 @@ Nous assurons des dommages intentionnels causés à une tombe ou une urne d'un p
 ### Résiliation anticipée du bail par le propriétaire qui s'installe lui-même (locataire) - p. 15
 Vous êtes locataire et votre contrat de location a été résilié anticipativement car le propriétaire s'installera lui-même dans l'habitation. Nous indemnisons : les coûts de déménagement du preneur d'assurance vers une nouvelle habitation à concurrence maximale de 1.360 euros (TVA comprise); votre participation aux frais d'état des lieux de la nouvelle habitation louée, plafonné à 652 euros (TVA comprise). La couverture est acquise pour autant que le préavis ait été notifié au plus tôt 3 mois après le début du contrat et que vous n'ayez eu connaissance du renon à la souscription.
 - Optionnelle : non · Limite : déménagement : 1.360 euros (montant indexé, TVA comprise); état des lieux : 652 euros (montant indexé, TVA comprise)
-  - Sous-limite : {'name': 'Coûts de déménagement', 'limit': '1.360 euros (montant indexé), TVA comprise'}
-  - Sous-limite : {'name': "Frais d'état des lieux", 'limit': '652 euros (montant indexé), TVA comprise'}
+  - Sous-limite : Coûts de déménagement: 1.360 euros (montant indexé), TVA comprise
+  - Sous-limite : Frais d'état des lieux: 652 euros (montant indexé), TVA comprise
   - Condition : préavis notifié au plus tôt 3 mois après le début du contrat d'assurance
   - Condition : vous n'aviez pas connaissance du renon à la souscription du contrat
 
@@ -267,16 +268,16 @@ Propriétaire : si au moment du sinistre l'habitation était louée, nous prenon
 ### Couvertures supplémentaires : mesures de sauvetage et de conservation - p. 16
 Nous indemnisons tous vos frais raisonnables pour limiter les dommages, par exemple : frais de fermeture provisoire pour rendre l'habitation inaccessible ou frais de surveillance (48 heures maximum); bâchage provisoire du toit pour prévenir l'infiltration d'eau de pluie après un incendie; frais d'enlèvement/déménagement/déplacement du contenu (essence, location de véhicule utilitaire, déménageur professionnel); coût de l'entreposage temporaire du contenu (garde-meuble) pendant la réparation, pour une période maximale de 1 an; frais de transport et de déménagement du contenu mis à l'abri; mesures pour limiter les dommages au contenu après un sinistre couvert.
 - Optionnelle : non · Limite : surveillance : 48 heures maximum; entreposage temporaire du contenu : 1 an maximum
-  - Sous-limite : {'name': 'Frais de surveillance', 'limit': '48 heures maximum'}
-  - Sous-limite : {'name': 'Entreposage temporaire du contenu', 'limit': '1 an maximum'}
+  - Sous-limite : Frais de surveillance: 48 heures maximum
+  - Sous-limite : Entreposage temporaire du contenu: 1 an maximum
 
 ### Couvertures supplémentaires : honoraires de votre expert - p. 16
 En cas de sinistre couvert, vous pouvez désigner vous-même un expert pour évaluer les dommages aux biens assurés. Nous remboursons ses honoraires après réception de sa facture, sur base de l'indemnisation maximale suivante (montant des dommages au bâtiment et/ou contenu après déduction de la franchise, TVA incluse, hors couvertures supplémentaires, montant non indexé) : maximum 15.000 euros → 5 % avec un minimum de 250 euros; maximum 75.000 euros → 3 % avec un minimum de 800 euros; maximum 150.000 euros → 2,5 % avec un minimum de 2.500 euros; plus de 150.000 euros → 1,5 % avec un minimum de 5.000 euros et un maximum de 10.000 euros.
 - Optionnelle : non · Limite : maximum 15.000 euros : 5 % (min. 250 euros); maximum 75.000 euros : 3 % (min. 800 euros); maximum 150.000 euros : 2,5 % (min. 2.500 euros); plus de 150.000 euros : 1,5 % (min. 5.000 euros, max. 10.000 euros) — montants non indexés
-  - Sous-limite : {'name': 'Dommages max. 15.000 euros', 'limit': '5 % avec un minimum de 250 euros'}
-  - Sous-limite : {'name': 'Dommages max. 75.000 euros', 'limit': '3 % avec un minimum de 800 euros'}
-  - Sous-limite : {'name': 'Dommages max. 150.000 euros', 'limit': '2,5 % avec un minimum de 2.500 euros'}
-  - Sous-limite : {'name': 'Dommages plus de 150.000 euros', 'limit': '1,5 % avec un minimum de 5.000 euros et un maximum de 10.000 euros'}
+  - Sous-limite : Dommages max. 15.000 euros: 5 % avec un minimum de 250 euros
+  - Sous-limite : Dommages max. 75.000 euros: 3 % avec un minimum de 800 euros
+  - Sous-limite : Dommages max. 150.000 euros: 2,5 % avec un minimum de 2.500 euros
+  - Sous-limite : Dommages plus de 150.000 euros: 1,5 % avec un minimum de 5.000 euros et un maximum de 10.000 euros
 
 ### Couvertures supplémentaires : frais supplémentaires après un sinistre couvert - p. 16
 Propriétaire ayant assuré son habitation et/ou son contenu, ou locataire ayant assuré son contenu : nous indemnisons 5 % de plus que le montant relatif au dommage couvert à l'habitation et/ou au contenu, pour couvrir vos frais tels que communication téléphonique, déplacement et correspondance, avec un maximum de 3.105 euros. Vous ne devez pas justifier ces dépenses. Cette indemnisation n'est pas accordée en cas de : sinistre relatif à l'assurance vol; couvertures de base terrorisme, dommages immobiliers résultant du vol de parties du bâtiment, effraction ou vandalisme; couvertures supplémentaires; frais après réparation d'urgence; allocations et indemnités dans le cadre de la responsabilité et de l'assistance juridique; réparations et travaux exécutés en nature; coûts de déménagements et frais d'état des lieux en cas de résiliation anticipative du bail par le propriétaire.
@@ -285,7 +286,7 @@ Propriétaire ayant assuré son habitation et/ou son contenu, ou locataire ayant
 ### Assistance d'urgence : réparation d'urgence - p. 17
 Si vous avez assuré le bâtiment en tant que propriétaire, vous pouvez nous contacter pour une réparation d'urgence afin de limiter les dommages assurés. Comprend : placement temporaire d'une bâche sur un toit; replacement de quelques ardoises; replacement d'un tuyau de descente de gouttière détaché; colmatage d'une fuite dans l'étanchéité de toiture; pose temporaire d'une pompe pour évacuer l'eau excédentaire (placement de séchoirs si nécessaire); étanchéisation provisoire d'une fenêtre ou porte donnant accès au bâtiment; enlèvement d'un arbre tombé sur le toit (le sciage et l'évacuation ne sont pas inclus). Les travaux exclusivement préventifs ne sont pas indemnisés (entretien d'une canalisation, nettoyage des gouttières, déneigement/dégivrage des toits et gouttières). Locataire ayant assuré sa responsabilité locative : contactez toujours le propriétaire. Si seul le contenu est assuré : contact pour limiter les dommages au contenu (placement d'une pompe). Assurance Vol souscrite : étanchéisation temporaire d'une fenêtre/porte ou placement d'une serrure. En cas de perte/vol des clés ou clé cassée dans la serrure : intervention d'un serrurier à concurrence maximale de 217 euros HTVA, sans franchise (y compris remplacement éventuel d'une serrure par le même type), si propriétaire avec couverture bâtiment et/ou vol, ou locataire avec couverture responsabilité locative et/ou vol.
 - Optionnelle : non · Limite : intervention serrurier : maximum 217 euros HTVA (montant indexé), sans franchise
-  - Sous-limite : {'name': "Intervention d'un serrurier (perte/vol de clés)", 'limit': '217 euros HTVA (montant indexé), sans franchise'}
+  - Sous-limite : Intervention d'un serrurier (perte/vol de clés): 217 euros HTVA (montant indexé), sans franchise
   - Condition : situation d'urgence après un sinistre couvert
 
 ### Assistance d'urgence : logement temporaire si votre logement est inhabitable - p. 17
@@ -302,8 +303,8 @@ Le contenu assuré doit être abrité ailleurs afin de prévenir d'éventuels do
 ### Assistance d'urgence : mesures de sauvetage et de conservation (garde) - p. 18
 Nous veillons : à l'étanchéisation provisoire ou la fermeture de l'habitation touchée (surveillance sur place organisée, pour une durée maximale de 48 heures); à la garde de vos enfants mineurs, d'autres personnes qui résident habituellement chez vous et qui ont besoin d'assistance, et de vos animaux domestiques, pendant 3 jours calendriers au maximum.
 - Optionnelle : non · Limite : surveillance : 48 heures maximum; garde des enfants/personnes/animaux : 3 jours calendriers maximum
-  - Sous-limite : {'name': 'Surveillance sur place', 'limit': '48 heures maximum'}
-  - Sous-limite : {'name': 'Garde des enfants mineurs, personnes et animaux domestiques', 'limit': '3 jours calendriers maximum'}
+  - Sous-limite : Surveillance sur place: 48 heures maximum
+  - Sous-limite : Garde des enfants mineurs, personnes et animaux domestiques: 3 jours calendriers maximum
 
 ### Assistance d'urgence : rapatriement - p. 18
 Vous (preneur d'assurance) devez rentrer de l'étranger suite à un préjudice. Si vous vous déplacez avec votre voiture, nous prenons à notre charge vos frais de transport, moyennant la présentation d'un justificatif des coûts de carburant. Pour les trajets jusqu'à 400 km : billet de train de 1re classe. Pour les trajets de plus de 400 km : billet d'avion en classe économique. Si vous devez retourner sur place pour récupérer votre véhicule, les mêmes conditions s'appliquent.
@@ -335,7 +336,7 @@ Nous assurons pour un montant maximal de 18.875 euros le contenu qui vous appart
 ### Enfants résidant dans une chambre d'étudiant (résidence principale assurée) - p. 18
 Si vous avez assuré l'habitation, nous assurons votre responsabilité locative découlant d'un dommage couvert à la chambre d'étudiant : au maximum à la valeur de reconstruction de votre habitation (propriétaire) et au maximum à la valeur réelle (locataire). Le contenu mis à disposition par le bailleur est compris dans ce montant. Si vous avez assuré votre contenu, votre contenu personnel est assuré pour une valeur maximale de 18.875 euros. Une chambre d'étudiant est un local, studio ou appartement que vous louez, où que ce soit dans le monde, dans lequel votre/vos enfant(s) encore à charge réside(nt) dans le cadre de ses/leurs études. Si les dommages sont couverts par un autre contrat d'assurance, celui-ci est prioritaire.
 - Optionnelle : non · Portée : où que ce soit dans le monde · Limite : responsabilité locative : valeur de reconstruction (propriétaire) / valeur réelle (locataire); contenu personnel : 18.875 euros (montant indexé)
-  - Sous-limite : {'name': 'Contenu personnel', 'limit': '18.875 euros (montant indexé)'}
+  - Sous-limite : Contenu personnel: 18.875 euros (montant indexé)
   - Condition : habitation assurée chez nous comme résidence principale
 
 ### Contenu temporairement ailleurs (résidence principale assurée) - p. 18
@@ -348,8 +349,8 @@ En cas de préjudice assuré selon les couvertures de base, nous assurons le con
 ### Responsabilité civile habitation - p. 19
 Un tiers subit un préjudice causé par l'habitation assurée, son jardin, les terrains attenants vous appartenant, le trottoir encombré ou non dégagé ou le contenu assuré. Vous êtes rendu responsable sur base soit de la responsabilité civile non contractuelle (articles 1382 à 1386bis inclus du Code civil) ou de dispositions similaires en droit étranger; soit d'un trouble anormal de voisinage au sens de l'article 3.101 du Code civil (la prévention des troubles de voisinage – art. 3.102 – n'est pas couverte). Nous indemnisons les dommages matériels et lésions corporelles causés à des tiers dans la mesure où vous êtes responsable et prenons à notre charge le coût de votre défense civile en cas de contestation. Si une indemnité de procédure vous est attribuée, vous devez nous la rétrocéder. Notre intervention se limite à 29.057.662 euros pour les dommages corporels et 5.811.646 euros pour les dommages matériels (indexés selon l'indice des prix à la consommation).
 - Optionnelle : non · Limite : 29.057.662 euros (dommages corporels) et 5.811.646 euros (dommages matériels), indexés selon l'indice des prix à la consommation
-  - Sous-limite : {'name': 'Dommages corporels', 'limit': '29.057.662 euros'}
-  - Sous-limite : {'name': 'Dommages matériels', 'limit': '5.811.646 euros'}
+  - Sous-limite : Dommages corporels: 29.057.662 euros
+  - Sous-limite : Dommages matériels: 5.811.646 euros
 
 ### Responsabilité civile habitation : sauveteurs bénévoles - p. 19
 Nous indemnisons le dommage matériel et corporel subi par les personnes qui essaient de vous sauver ou de sauvegarder vos biens, quelle que soit la personne responsable, à condition qu'il s'agisse d'une action non rétribuée. Nous indemnisons le préjudice non couvert par la mutualité, les autorités ou tout(e) autre instance ou contrat d'assurance. Nous indemnisons l'ensemble des dommages matériels et lésions corporelles pour un montant maximum de 25.000 euros (montant non indexé), à répartir proportionnellement entre les prestataires. Nous n'appliquons aucune franchise dans ce cadre.
@@ -400,16 +401,16 @@ En cas de dommage au jardin et aux haies, nous intervenons à concurrence maxima
 ### Assurance Vol optionnelle - p. 21
 Le contenu volé ou les dommages causés au contenu lors d'une effraction ou d'un vol, à concurrence des indemnisations maximales mentionnées dans votre police ou dans les conditions générales. Même sans assurance Bâtiment (propriétaire), nous indemnisons les dommages occasionnés à votre habitation par l'effraction ou la tentative d'effraction après l'expiration des éventuels autres contrats d'assurance existants. Vous êtes assuré contre le vol par effraction, escalade, à l'aide de fausses clés ou de clés perdues/volées, ou avec violence : du contenu du bâtiment principal en votre présence (sauf vol par une personne admise, indemnisé jusqu'à 3.072 euros); en votre absence (sauf ouvertures non fermées, clés perdues non remplacées, habitation en rénovation/construction/démolition, parties communes d'un immeuble à appartements); du contenu d'une dépendance (au-delà de 3.072 euros non couvert); par agression sur votre personne à l'extérieur (au-delà de 6.088 euros, ou vol sans menace spécifique, non couvert); de votre contenu dans un véhicule si vous y étiez présent (au-delà de 6.088 euros non couvert); dans une chambre d'étudiant que vous louez (au-delà de 18.875 euros non couvert); dans une résidence de vacances louée; de mazout dans une citerne souterraine (au-delà de 1.827 euros ou tuyau non cadenassé, non couvert); dans une habitation temporaire louée dans le monde entier; dans une consigne verrouillée dans une implantation sportive en Belgique (au-delà de 574 euros non couvert); dans un véhicule volé enregistré au nom d'un assuré (au-delà de 574 euros non couvert). Intervention maximale : contenu et bijoux à hauteur du montant mentionné dans la police, valeurs à hauteur de 1.840 euros.
 - Optionnelle : oui · Portée : bâtiment principal, dépendances, extérieur, véhicule, chambre d'étudiant, résidence de vacances, habitation temporaire (monde entier), consigne (Belgique) · Limite : contenu et bijoux : montant mentionné dans la police; valeurs : 1.840 euros (montant indexé)
-  - Sous-limite : {'name': 'Vol par une personne admise (contenu, en votre présence)', 'limit': '3.072 euros (montant indexé)'}
-  - Sous-limite : {'name': "Contenu d'une dépendance", 'limit': '3.072 euros (montant indexé)'}
-  - Sous-limite : {'name': "Agression à l'extérieur de l'habitation", 'limit': '6.088 euros (montant indexé)'}
-  - Sous-limite : {'name': 'Contenu dans un véhicule (assuré présent)', 'limit': '6.088 euros (montant indexé)'}
-  - Sous-limite : {'name': "Contenu dans une chambre d'étudiant louée", 'limit': '18.875 euros (montant indexé)'}
-  - Sous-limite : {'name': "Contenu dans les dépendances d'une résidence de vacances louée", 'limit': '3.105 euros (montant indexé)'}
-  - Sous-limite : {'name': 'Mazout dans une citerne souterraine', 'limit': '1.827 euros (montant indexé)'}
-  - Sous-limite : {'name': 'Contenu dans une habitation temporaire louée (dépendances)', 'limit': '3.105 euros (montant indexé)'}
-  - Sous-limite : {'name': 'Contenu dans un véhicule volé / consigne dans une implantation sportive', 'limit': '574 euros (montant indexé)'}
-  - Sous-limite : {'name': 'Valeurs', 'limit': '1.840 euros (montant indexé)'}
+  - Sous-limite : Vol par une personne admise (contenu, en votre présence): 3.072 euros (montant indexé)
+  - Sous-limite : Contenu d'une dépendance: 3.072 euros (montant indexé)
+  - Sous-limite : Agression à l'extérieur de l'habitation: 6.088 euros (montant indexé)
+  - Sous-limite : Contenu dans un véhicule (assuré présent): 6.088 euros (montant indexé)
+  - Sous-limite : Contenu dans une chambre d'étudiant louée: 18.875 euros (montant indexé)
+  - Sous-limite : Contenu dans les dépendances d'une résidence de vacances louée: 3.105 euros (montant indexé)
+  - Sous-limite : Mazout dans une citerne souterraine: 1.827 euros (montant indexé)
+  - Sous-limite : Contenu dans une habitation temporaire louée (dépendances): 3.105 euros (montant indexé)
+  - Sous-limite : Contenu dans un véhicule volé / consigne dans une implantation sportive: 574 euros (montant indexé)
+  - Sous-limite : Valeurs: 1.840 euros (montant indexé)
   - Condition : assurance optionnelle en complément de l'assurance Contenu
   - Condition : toutes les portes extérieures et portes (de garage) munies d'une serrure à cylindre
   - Condition : vous occupez régulièrement l'habitation (non inoccupée plus de 60 nuits consécutives au moment du sinistre)
@@ -417,8 +418,8 @@ Le contenu volé ou les dommages causés au contenu lors d'une effraction ou d'u
 ### Assurance Assistance juridique optionnelle habitation - p. 27
 Vous pouvez faire appel à cette assurance dans les situations suivantes : 1) un tiers cause des dommages à votre habitation assurée et/ou contenu assuré, dommage causé par un tiers responsable sur base du droit de la responsabilité civile non contractuelle (art. 1382-1386bis Code civil), y compris l'assistance juridique pour les dommages au jardin et aux terrains attenants; en cas de trouble anormal de voisinage (art. 3.101), intervention si le dommage est causé par un événement soudain et imprévu (prévention art. 3.102 non couverte); 2) couverture défense pénale pour les dommages causés par votre habitation ou contenu (poursuite devant un tribunal pénal pour un délit non intentionnel suite à un événement assuré); pour les infractions intentionnelles punissables comme crimes et pour toutes infractions aux lois contre le terrorisme et la criminalité organisée, la garantie n'est pas acquise; pour les autres infractions intentionnelles, intervention en cas d'acquittement définitif; 3) couverture défense civile (demande de dédommagement d'un tiers résultant d'un événement couvert par la RC habitation), avec droit à un avocat de votre choix en cas de conflit d'intérêts; 4) indemnisation en cas d'insolvabilité d'un tiers responsable (non applicable si le préjudice relève d'un système d'indemnisation public : Commission pour l'aide aux victimes d'actes intentionnels de violence, Fonds des accidents médicaux, Fonds commun de garantie automobile, Sécurité sociale). Sont indemnisés : frais et honoraires d'avocats, huissiers de justice et experts; frais de procédure judiciaire ou extrajudiciaire; coût d'une procédure de mise en application; indemnité de procédure éventuellement due (à rétrocéder si attribuée en votre faveur). Intervention maximale par sinistre couvert : 25.000 euros pour tous les frais assurés (hors insolvabilité); 12.500 euros pour l'indemnisation en cas d'insolvabilité (montants non indexés).
 - Optionnelle : oui · Limite : 25.000 euros pour tous les frais assurés (hors insolvabilité); 12.500 euros pour l'insolvabilité — montants non indexés
-  - Sous-limite : {'name': 'Tous les frais assurés (hors insolvabilité)', 'limit': '25.000 euros (non indexé) par sinistre couvert'}
-  - Sous-limite : {'name': "Indemnisation en cas d'insolvabilité", 'limit': '12.500 euros (non indexé) par sinistre couvert'}
+  - Sous-limite : Tous les frais assurés (hors insolvabilité): 25.000 euros (non indexé) par sinistre couvert
+  - Sous-limite : Indemnisation en cas d'insolvabilité: 12.500 euros (non indexé) par sinistre couvert
   - Condition : seuils d'intervention, indemnisations maximales et prime non indexés
 
 ## Exclusions

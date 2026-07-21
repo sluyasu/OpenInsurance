@@ -8,6 +8,7 @@ branch: epargne
 product_name: Profilife
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 1F892
 edition_date: 01/2026
 lang: fr

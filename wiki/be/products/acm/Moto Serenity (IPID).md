@@ -8,6 +8,7 @@ branch: auto
 product_name: Moto Serenity
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: I.BE.A15.2R-10/2024
 edition_date: 10/2024
 lang: fr

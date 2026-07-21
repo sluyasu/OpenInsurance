@@ -8,6 +8,7 @@ branch: auto
 product_name: Assurance au Kilomètre
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: BDKM_15062026
 edition_date: '15062026'
 lang: fr

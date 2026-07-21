@@ -8,6 +8,7 @@ branch: habitation
 product_name: L'assurance habitation Cocoon Flex
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: I/0037-1-89-7295- F-102024
 edition_date: octobre 2024
 lang: fr

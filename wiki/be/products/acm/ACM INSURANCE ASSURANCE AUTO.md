@@ -8,6 +8,7 @@ branch: auto
 product_name: ACM INSURANCE ASSURANCE AUTO
 document_type: conditions_generales
 target_audience: entreprises
+target_audience_note: null
 reference: 16.52.23
 edition_date: 09/2025
 lang: fr

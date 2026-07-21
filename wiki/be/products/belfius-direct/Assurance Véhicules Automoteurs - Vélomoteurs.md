@@ -8,6 +8,7 @@ branch: auto
 product_name: Assurance Véhicules Automoteurs - Vélomoteurs
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 0435-IARD_COBR01042019
 edition_date: null
 lang: fr

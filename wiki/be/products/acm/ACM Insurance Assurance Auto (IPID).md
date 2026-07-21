@@ -8,6 +8,7 @@ branch: auto
 product_name: ACM Insurance Assurance Auto
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: I.BE.A15.4R-09/2025
 edition_date: 09/2025
 lang: fr

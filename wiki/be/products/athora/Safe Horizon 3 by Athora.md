@@ -8,6 +8,7 @@ branch: epargne
 product_name: Safe Horizon 3 by Athora
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 1F897
 edition_date: 09/2024
 lang: fr

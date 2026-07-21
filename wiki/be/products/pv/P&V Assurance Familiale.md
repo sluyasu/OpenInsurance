@@ -8,6 +8,7 @@ branch: vie-privee
 product_name: P&V Assurance Familiale
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: PV 551/04-2025
 edition_date: 04-2025
 lang: fr

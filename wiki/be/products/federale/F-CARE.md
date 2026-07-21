@@ -7,7 +7,8 @@ insurer_slug: federale
 branch: sante
 product_name: F-CARE
 document_type: conditions_generales
-target_audience: Personnes liées professionnellement au Preneur d'assurance (assurés
+target_audience: null
+target_audience_note: Personnes liées professionnellement au Preneur d'assurance (assurés
   principaux) et certains membres de leur famille (assurés secondaires), dans le cadre
   d'une assurance collective soins de santé liée à l'activité professionnelle
 reference: 51.30.290  11/20

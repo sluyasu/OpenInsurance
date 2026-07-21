@@ -8,6 +8,7 @@ branch: habitation
 product_name: Assurance Habitation
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: HF-05-FR
 edition_date: '2026-05-12'
 lang: fr
@@ -97,16 +98,16 @@ Conditions générales de l'Assurance Habitation de Yuzzu (souscripteur mandaté
 ### Le bâtiment (principal et annexes) - p. 5
 S'il est indiqué dans les conditions particulières que le bâtiment est assuré. Est assuré le bâtiment situé à l'adresse du risque assuré. Le bâtiment comprend : le bâtiment en tant que tel et ses annexes (par ex. abris de jardin, carport); les biens fixés à perpétuelle demeure ou à destination immobilière (appareils ménagers encastrés, tapis plain sur mesure); les matériaux de construction non encore intégrés; les panneaux solaires fixés; les bornes de recharge pour voitures électriques fixées ou situées sur la propriété; les entrées, cours intérieures, terrasses, piscines, serres à usage privé, clôtures plantées ou non. Sont aussi assurés même sans demande explicite : le garage ou emplacement de parking à une autre adresse dans un périmètre de max 2km; le logement occasionnel loué durant 4 mois max par an ou occupé à titre gratuit n'importe où dans le monde; le logement d'étudiant loué ou occupé à titre gratuit n'importe où dans le monde; le local loué ou occupé à titre gratuit à l'occasion d'une fête familiale dans un Etat membre de l'UE. Objet de l'assurance : si propriétaire, le bâtiment vous appartenant; si locataire ou occupant à titre gratuit, votre responsabilité légale de locataire ou d'occupant (articles 1732, 1733, 1735 et 1302 du Code Civil).
 - Optionnelle : non · Portée : Adresse du risque assuré; extensions (garage/parking) dans un périmètre de max 2km; logement occasionnel et logement d'étudiant n'importe où dans le monde; fête familiale dans un Etat membre de l'Union européenne · Limite : Le bâtiment ainsi que les frais, pertes et responsabilités mentionnés au point 1.4 jusqu'à un total de 2.450.000,00 € (que vous soyez propriétaire ou locataire/occupant à titre gratuit) · Franchise : 290 EUR par sinistre pour les dommages matériels (point 4.1)
-  - Sous-limite : {'item': 'Montant en capital choisi', 'limit': "Si vous avez choisi d'assurer un montant en capital repris aux conditions particulières, le montant choisi est assuré et fixé selon les critères du point 6.4 (sous réserve de restrictions contractuelles)"}
+  - Sous-limite : Montant en capital choisi: Si vous avez choisi d'assurer un montant en capital repris aux conditions particulières, le montant choisi est assuré et fixé selon les critères du point 6.4 (sous réserve de restrictions contractuelles)
   - Condition : Doit être indiqué dans les conditions particulières que le bâtiment est assuré
 
 ### Le contenu - p. 6
 S'il est indiqué dans vos conditions particulières que le contenu est assuré. Est assuré à l'adresse du risque assuré : le contenu qui appartient à l'assuré ou qui lui a été confié; le contenu qui appartient à vos hôtes. Le contenu comprend : les biens meubles à usage privé; les animaux domestiques; toute installation fixe, aménagement ou agencement du bâtiment qui vous appartient si vous êtes locataire ou occupant à titre gratuit. Est également couvert le contenu déplacé temporairement : la partie transposée dans une autre résidence louée ou occupée à titre gratuit durant plus de 4 mois; la partie déplacée dans un logement d'étudiant n'importe où dans le monde; pour ces 2 points, le contenu reste assuré durant le transport aller et retour (par ex. vos bagages pendant un voyage), couverture non applicable en cas de vol et non valable pour les animaux domestiques.
 - Optionnelle : non · Portée : Adresse du risque assuré; autre résidence et logement d'étudiant n'importe où dans le monde; durant le transport aller et retour · Limite : Le contenu ainsi que les frais, pertes et responsabilités mentionnés au point 1.4 jusqu'à un total de 250.000,00 € · Franchise : 290 EUR par sinistre pour les dommages matériels (point 4.1)
-  - Sous-limite : {'item': 'Limite par objet', 'limit': "Une limite par objet est d'application; la valeur est reprise dans les conditions particulières"}
-  - Sous-limite : {'item': 'Collections', 'limit': "jusqu'à un total de 50.000,00 €"}
-  - Sous-limite : {'item': 'Valeurs', 'limit': "jusqu'à un total de 500,00 €"}
-  - Sous-limite : {'item': 'Montant en capital choisi', 'limit': "Si le montant en capital choisi pour le contenu est inférieur aux limites d'intervention, ce montant constitue sa limite en cas d'intervention"}
+  - Sous-limite : Limite par objet: Une limite par objet est d'application; la valeur est reprise dans les conditions particulières
+  - Sous-limite : Collections: jusqu'à un total de 50.000,00 €
+  - Sous-limite : Valeurs: jusqu'à un total de 500,00 €
+  - Sous-limite : Montant en capital choisi: Si le montant en capital choisi pour le contenu est inférieur aux limites d'intervention, ce montant constitue sa limite en cas d'intervention
   - Condition : Doit être indiqué dans les conditions particulières que le contenu est assuré
 
 ### Incendie et périls connexes - p. 7
@@ -145,8 +146,8 @@ Les biens assurés sont assurés contre les dégâts matériels causés par la t
 ### Eau et combustibles liquides - p. 10
 Les biens assurés sont assurés contre les dégâts matériels causés accidentellement par l'eau et les combustibles liquides : toute dégradation inattendue causée directement par l'eau, la vapeur ou un combustible liquide; la mérule à la suite d'un sinistre couvert pour autant que le sinistre et l'apparition de mérule surviennent en cours de contrat. Sont aussi couverts les frais de recherche d'une fuite à l'installation d'eau par une entreprise spécialisée (même sans dommages apparents). Sont aussi indemnisés lors d'un sinistre couvert les frais de pompage et d'évacuation, les frais d'ouverture et de remise en état des parois/planchers/plafonds/accès/cours/terrasses/pelouses pour la réparation des conduites hydrauliques encastrées (réparation de la conduite prise en charge).
 - Optionnelle : non · Franchise : 290 EUR par sinistre pour les dommages matériels (point 4.1)
-  - Sous-limite : {'item': 'Écoulement de combustibles liquides / assainissement du terrain pollué du bâtiment assuré', 'limit': "jusqu'à max. 17.500,00 €"}
-  - Sous-limite : {'item': 'Réparation des canalisations (sauf gouttières et canalisations de piscines) ayant causé des dégâts chez un tiers', 'limit': "jusqu'à max. 4.500,00 €"}
+  - Sous-limite : Écoulement de combustibles liquides / assainissement du terrain pollué du bâtiment assuré: jusqu'à max. 17.500,00 €
+  - Sous-limite : Réparation des canalisations (sauf gouttières et canalisations de piscines) ayant causé des dégâts chez un tiers: jusqu'à max. 4.500,00 €
 
 ### Bris de glaces et sanitaires - p. 10
 Les biens assurés sont assurés contre les dégâts matériels causés accidentellement par le bris de glace : la fêlure ou le bris (à l'exception des rayures et écaillements); l'opacité par condensation des vitrages isolants (après épuisement de la garantie du fabriquant ou du fournisseur; chaque vitrage opaque constitue un sinistre distinct). Biens assurés : vitraux (vitraux d'art compris), miroirs et matières plastiques transparentes/translucides du bâtiment (panneaux et coupoles, panneaux publicitaires, enseignes lumineuses, serres à usage privé et vérandas inclus); vitres des meubles; écrans (O)LED et LCD fixés ou suspendus au mur; plaques de cuisson (vitrocéramiques et à induction) et vitres des appareils chauffants et de cuisson; miroirs; aquariums; panneaux solaires; installations sanitaires. Sont indemnisés lors d'un sinistre couvert : les dommages causés par des éclats; le renouvellement du matériel de protection et de sécurité, inscriptions, décorations et gravures présentes sur les objets.
@@ -176,13 +177,13 @@ Des frais indirects, pertes et inconvénients liés à un sinistre (par ex. frai
 ### Vol du contenu (garantie optionnelle) - bâtiment habité - p. 14
 Garantie optionnelle. Si indiqué dans les conditions particulières que le vol du contenu est assuré et si le bâtiment est habité. Est assuré le contenu à l'adresse du risque assuré contre le vol ou la tentative de vol pour les faits commis : avec effraction ou escalade; avec usage de fausses clés, clés volées ou perdues; par une personne qui s'est laissée enfermer, s'est introduite clandestinement ou est autorisée à s'y trouver; à l'aide de violence physique ou menaces sur des personnes. Sont aussi couverts : le contenu situé dans le jardin (tables, chaises, bancs, hamacs, chaises longues et coussins, parasols, robots tondeuses et barbecues); le contenu du logement temporaire ou d'étudiant pour effraction; le contenu où qu'il se trouve pour violence/menaces sur l'assuré. Sont aussi assurés les dégâts d'effraction au bâtiment suite à un vol ou tentative, même si le bâtiment n'est pas assuré par le présent contrat. S'applique aussi lorsque les faits ont été rendus possibles ou facilités par une catastrophe naturelle (point 1.3.1.11).
 - Optionnelle : oui · Portée : Adresse du risque assuré; jardin; logement temporaire ou d'étudiant; où qu'il se trouve pour violence/menaces sur l'assuré · Limite : Le contenu est assuré en cas de vol jusqu'à un total de 100.000,00 € (bâtiment habité) · Franchise : 290 EUR par sinistre pour les dommages matériels (point 4.1)
-  - Sous-limite : {'item': 'Montant en capital choisi', 'limit': "le vol du contenu est couvert jusqu'à 50% de ce montant assuré"}
-  - Sous-limite : {'item': 'Contenu situé dans le jardin', 'limit': "jusqu'à concurrence de 6.000,00 € par sinistre"}
-  - Sous-limite : {'item': "Contenu du logement temporaire ou d'étudiant (faits avec effraction)", 'limit': "jusqu'à concurrence de 6.000,00 €"}
-  - Sous-limite : {'item': "Contenu où qu'il se trouve (violence/menaces sur l'assuré)", 'limit': "jusqu'à concurrence de 6.000,00 €"}
-  - Sous-limite : {'item': 'Bijoux', 'limit': "jusqu'à concurrence de 6.000,00 €"}
-  - Sous-limite : {'item': 'Valeurs', 'limit': "jusqu'à concurrence de 500,00 €"}
-  - Sous-limite : {'item': "Contenu des bâtiments sans lien direct avec les pièces d'habitation, du garage/cave/grenier privé d'un immeuble à appartements, ou faits commis par une personne autorisée", 'limit': "l'intervention est limitée à 6.000,00 €"}
+  - Sous-limite : Montant en capital choisi: le vol du contenu est couvert jusqu'à 50% de ce montant assuré
+  - Sous-limite : Contenu situé dans le jardin: jusqu'à concurrence de 6.000,00 € par sinistre
+  - Sous-limite : Contenu du logement temporaire ou d'étudiant (faits avec effraction): jusqu'à concurrence de 6.000,00 €
+  - Sous-limite : Contenu où qu'il se trouve (violence/menaces sur l'assuré): jusqu'à concurrence de 6.000,00 €
+  - Sous-limite : Bijoux: jusqu'à concurrence de 6.000,00 €
+  - Sous-limite : Valeurs: jusqu'à concurrence de 500,00 €
+  - Sous-limite : Contenu des bâtiments sans lien direct avec les pièces d'habitation, du garage/cave/grenier privé d'un immeuble à appartements, ou faits commis par une personne autorisée: l'intervention est limitée à 6.000,00 €
   - Condition : Doit être indiqué dans les conditions particulières
   - Condition : Le bâtiment doit être habité
   - Condition : Constat de police dans les 24h après constatation des faits (point 6.2.2)
@@ -190,9 +191,9 @@ Garantie optionnelle. Si indiqué dans les conditions particulières que le vol 
 ### Vol du contenu (garantie optionnelle) - bâtiment non habité - p. 14
 Garantie optionnelle. Si indiqué dans les conditions particulières que le vol du contenu est assuré et si le bâtiment n'est pas habité. Est assuré le contenu à l'adresse du risque assuré contre le vol ou la tentative de vol pour les faits commis : avec effraction ou escalade; avec usage de fausses clés, clés volées ou perdues; à l'aide de violence physique ou menaces sur des personnes. Sont aussi assurés les dégâts d'effraction au bâtiment suite à un vol ou tentative, jusqu'à concurrence de 2.500,00 €, même si le bâtiment n'est pas assuré par le présent contrat.
 - Optionnelle : oui · Portée : Adresse du risque assuré · Limite : Le contenu est assuré en cas de vol jusqu'à un total de 10.000,00 € (bâtiment non habité) · Franchise : 290 EUR par sinistre pour les dommages matériels (point 4.1)
-  - Sous-limite : {'item': 'Bijoux et valeurs', 'limit': 'ne sont pas assurés pour la période durant laquelle personne ne réside dans le bâtiment'}
-  - Sous-limite : {'item': "Contenu des bâtiments sans lien direct avec les pièces d'habitation, du garage/cave/grenier privé d'un immeuble à appartements", 'limit': "l'intervention est limitée à 2.500,00 €"}
-  - Sous-limite : {'item': "Dégâts d'effraction au bâtiment", 'limit': "jusqu'à concurrence de 2.500,00 €"}
+  - Sous-limite : Bijoux et valeurs: ne sont pas assurés pour la période durant laquelle personne ne réside dans le bâtiment
+  - Sous-limite : Contenu des bâtiments sans lien direct avec les pièces d'habitation, du garage/cave/grenier privé d'un immeuble à appartements: l'intervention est limitée à 2.500,00 €
+  - Sous-limite : Dégâts d'effraction au bâtiment: jusqu'à concurrence de 2.500,00 €
   - Condition : Doit être indiqué dans les conditions particulières
 
 ### Abandon de recours (garantie optionnelle) - p. 15
@@ -204,19 +205,19 @@ Si vous êtes bailleur et s'il est indiqué dans les conditions particulières q
 ### Assistance 7/7J - 24/24H - p. 16
 Assistance assurée par INTER PARTNER ASSISTANCE SA (AXA Assistance), agréée par la BNB sous le n° 0487. Appel au numéro 02 505 66 00, 7/7 jours 24h/24, même sans sinistre. Sans sinistre : informations générales (médecins, cliniques, services d'urgence, professionnels qualifiés) et en cas de perte/vol des clés (déverrouillage et remplacement des serrures). En cas de sinistre : retour anticipé si présence nécessaire à l'étranger; recherche et prise en charge d'un logement de remplacement et frais d'hôtel (point 1.4.1); transfert à l'hôtel; garde des enfants de moins de 14 ans; garde des animaux domestiques; avance de fonds; voiture de remplacement si véhicule hors service suite à un sinistre couvert.
 - Optionnelle : non · Portée : Y compris à l'étranger (retour anticipé en avion classe économique ou train première classe) · Franchise : Aucune franchise n'est appliquée pour l'Assistance (point 4.1)
-  - Sous-limite : {'item': 'Déverrouillage porte et remplacement des serrures (clés perdues ou volées)', 'limit': "maximum 650,00 € par événement et par année d'assurance"}
-  - Sous-limite : {'item': "Transfert à l'hôtel (sans moyen de transport propre)", 'limit': 'max 125,00 €'}
-  - Sous-limite : {'item': 'Garde des enfants de moins de 14 ans domiciliés dans le bâtiment inhabitable', 'limit': 'maximum 500,00 €'}
-  - Sous-limite : {'item': 'Garde des animaux domestiques', 'limit': 'max 65,00 €, quelle que soit la période de résidence'}
-  - Sous-limite : {'item': 'Avance de fonds pour dépenses urgentes', 'limit': "maximum 5.000,00 € (déduite des frais d'indemnisation, à rembourser dans le mois si non déductible)"}
-  - Sous-limite : {'item': 'Voiture de remplacement de catégorie B (véhicule hors service suite à un sinistre couvert)', 'limit': 'maximum cinq jours'}
+  - Sous-limite : Déverrouillage porte et remplacement des serrures (clés perdues ou volées): maximum 650,00 € par événement et par année d'assurance
+  - Sous-limite : Transfert à l'hôtel (sans moyen de transport propre): max 125,00 €
+  - Sous-limite : Garde des enfants de moins de 14 ans domiciliés dans le bâtiment inhabitable: maximum 500,00 €
+  - Sous-limite : Garde des animaux domestiques: max 65,00 €, quelle que soit la période de résidence
+  - Sous-limite : Avance de fonds pour dépenses urgentes: maximum 5.000,00 € (déduite des frais d'indemnisation, à rembourser dans le mois si non déductible)
+  - Sous-limite : Voiture de remplacement de catégorie B (véhicule hors service suite à un sinistre couvert): maximum cinq jours
 
 ### Frais liés au sinistre (point 1.4.1) - p. 16
 Sont indemnisés les frais exposés à bon escient liés à un sinistre couvert et concernant les biens assurés : a. les frais de sauvetage (prévention, arrêt ou atténuation du sinistre, art. 75 loi du 4 avril 2014); b. les frais de démolition et de déblaiement (y compris transport, déchargement, décontamination, traitement des déblais et taxes environnementales; l'assainissement du sol n'est pas couvert); c. les frais de transport, sauvegarde et stockage des biens sauvés durant la reconstruction; d. les frais de fermeture ou de surveillance du bâtiment; e. les frais de remise en état du jardin endommagé; f. les frais de logement à l'hôtel; g. les frais d'expertise; h. les frais funéraires.
 - Optionnelle : non
-  - Sous-limite : {'item': "Frais de logement à l'hôtel ou ailleurs (locaux d'usage privé devenus impropres à l'utilisation)", 'limit': '185,00 € par jour et plafonnés à 4.500,00 € (non cumulable avec le point 1.4.2 Pertes)'}
-  - Sous-limite : {'item': "Frais d'expertise (barème en % de l'indemnité due, hors responsabilités)", 'limit': "minimum 400,00 € et maximum 32.000,00 € : 5% jusqu'à 9.800,00 €; 3,5% entre 9.801,00 € et 62.900,00 €; 2% entre 62.901,00 € et 289.700,00 €; 1,5% entre 289.701,00 € et 579.300,00 €; 0,75% entre 579.301,00 € et 1.786.000,00 €; 0,35% au-delà de 1.786.001,00 €"}
-  - Sous-limite : {'item': "Frais funéraires (décès d'un ou plusieurs assurés suite à un sinistre couvert dans les 12 mois)", 'limit': 'maximum 6.500,00 € par défunt et 25.000,00 € au total (non couvert pour les Catastrophes naturelles)'}
+  - Sous-limite : Frais de logement à l'hôtel ou ailleurs (locaux d'usage privé devenus impropres à l'utilisation): 185,00 € par jour et plafonnés à 4.500,00 € (non cumulable avec le point 1.4.2 Pertes)
+  - Sous-limite : Frais d'expertise (barème en % de l'indemnité due, hors responsabilités): minimum 400,00 € et maximum 32.000,00 € : 5% jusqu'à 9.800,00 €; 3,5% entre 9.801,00 € et 62.900,00 €; 2% entre 62.901,00 € et 289.700,00 €; 1,5% entre 289.701,00 € et 579.300,00 €; 0,75% entre 579.301,00 € et 1.786.000,00 €; 0,35% au-delà de 1.786.001,00 €
+  - Sous-limite : Frais funéraires (décès d'un ou plusieurs assurés suite à un sinistre couvert dans les 12 mois): maximum 6.500,00 € par défunt et 25.000,00 € au total (non couvert pour les Catastrophes naturelles)
 
 ### Pertes (point 1.4.2) - p. 17
 La perte de jouissance ou la perte de loyer du bâtiment ou votre responsabilité à cet égard est indemnisée. Cette perte est estimée sur base du loyer ou de la valeur locative augmenté(e) des charges (à l'exception des frais de consommation) des locaux impropres à l'utilisation, pendant la période normale de reconstruction ou de remplacement.
@@ -229,15 +230,15 @@ Est assurée la responsabilité civile extracontractuelle pour les dommages mat�
 ### R.C. Vie Privée / R.C. Familiale (garantie optionnelle) - p. 19
 Garantie optionnelle couvrant la responsabilité civile de la vie privée. Champ d'application : tous les faits, actes ou négligences à l'exception de ceux découlant d'une activité professionnelle; le travail rémunéré des enfants scolarisés (assurés permanents) durant vacances scolaires ou temps libre; garantie acquise dans le monde entier. 2.2.1 Est assurée la R.C. extracontractuelle imputable à un assuré pour les dommages matériels ou corporels causés à des tiers dans le cadre de la vie privée ou de déplacements professionnels. 2.2.2 Troubles de voisinage (article 3.101 du Code Civil). 2.2.3 Assistance bénévole par des tiers (jusqu'à 205.000,00 €). 2.2.4 Frais de sauvetage.
 - Optionnelle : oui · Portée : Le monde entier · Limite : Pour les points 2.2.1 et 2.2.2, l'intervention est limitée par sinistre à 2.930.000,00 € pour les dommages matériels et à 29.300.000,00 € pour les dommages découlant de lésions corporelles; outre ces montants, sont aussi indemnisés les intérêts et frais d'action civile jusqu'aux montants limites autorisés par la loi · Franchise : 290 EUR par sinistre pour les dommages matériels (garantie Familiale, volet R.C. Vie Privée); aucune franchise pour les dommages découlant de lésions corporelles (point 4.1)
-  - Sous-limite : {'item': 'Assistance bénévole par des tiers (2.2.3)', 'limit': "jusqu'à concurrence de 205.000,00 € pour les dommages corporels et matériels des tiers participant au sauvetage"}
+  - Sous-limite : Assistance bénévole par des tiers (2.2.3): jusqu'à concurrence de 205.000,00 € pour les dommages corporels et matériels des tiers participant au sauvetage
   - Condition : Doit être souscrite et indiquée dans les conditions particulières
 
 ### Protection Juridique Habitation - p. 21
 Volet compris d'office dans le contrat si vous avez souscrit une Assurance Habitation. Les sinistres sont gérés par Legal Village (mandaté par l'assureur). L'assureur intervient pour les sinistres relatifs aux biens à usage privé assurés dans l'Assurance Habitation, aux sentiers et terrains avoisinants : a. l'assuré subit un dommage (réclamer une indemnité au tiers responsable pour les dommages couverts de manière insuffisante par l'Assurance Habitation; le montant réclamé doit dépasser la franchise); b. l'assuré cause un dommage (cité en justice sur base d'une responsabilité couverte par l'Assurance Habitation, intérêts contradictoires à ceux de l'Assureur); c. défense pénale (poursuites devant un tribunal pénal pour toute infraction directement liée à l'usage, la possession ou la propriété du bien assuré). La garantie comprend conseils juridiques, défense amiable et/ou juridique, insolvabilité du tiers responsable, libre choix d'avocat et/ou d'expert, clause d'objectivité.
 - Optionnelle : non · Portée : Le monde entier (point 3.1.7) · Limite : Legal Village intervient jusqu'à concurrence de 25.000,00 € EUR par sinistre ayant la même origine (honoraires et frais d'avocat, expert, huissiers, TVA non récupérable; frais de procédure judiciaire/arbitrale/administrative; frais de voyage et séjour pour comparution à l'étranger; frais d'exécution d'une décision; frais de conciliation ou réparation en cas de condamnation pour délit involontaire) · Franchise : Aucune franchise en Protection juridique, mais un seuil d'intervention fixé à 290 EUR (montant à récupérer en principal doit excéder 290,00 € EUR)
-  - Sous-limite : {'item': 'Insolvabilité du tiers responsable (3.1.3)', 'limit': "jusqu'à concurrence de 6.200,00 € par sinistre (dommages moraux non indemnisés)"}
-  - Sous-limite : {'item': "Avocat intervenant hors du ressort de la Cour d'appel de son barreau (3.1.4)", 'limit': 'limité à un montant maximum de 3.125,00 € par sinistre'}
-  - Sous-limite : {'item': 'Expert intervenant hors de la province où il est établi (3.1.4)', 'limit': 'limité à un montant maximum de 3.125,00 € par sinistre'}
+  - Sous-limite : Insolvabilité du tiers responsable (3.1.3): jusqu'à concurrence de 6.200,00 € par sinistre (dommages moraux non indemnisés)
+  - Sous-limite : Avocat intervenant hors du ressort de la Cour d'appel de son barreau (3.1.4): limité à un montant maximum de 3.125,00 € par sinistre
+  - Sous-limite : Expert intervenant hors de la province où il est établi (3.1.4): limité à un montant maximum de 3.125,00 € par sinistre
   - Condition : Souscription d'une Assurance Habitation
   - Condition : Le montant réclamé doit dépasser le montant de la franchise de l'Assurance Habitation
   - Condition : Seuil d'intervention de 290,00 € EUR
@@ -245,7 +246,7 @@ Volet compris d'office dans le contrat si vous avez souscrit une Assurance Habit
 ### Protection Juridique Vie Privée - p. 26
 Volet acquis pour les personnes ayant la qualité d'assuré permanent dans le contrat R.C. Vie privée (Familiale), pour les sinistres relatifs à la vie privée (point 2.1). Situations : a. l'assuré subit un dommage (réclamer une indemnité au tiers responsable sur base de la R.C. extracontractuelle; troubles de voisinage art. 3.101 du Code Civil dus à un événement soudain et imprévu, pas de couverture pour les actions préventives art. 3.102; assistance en cas d'accident de la route ou d'acte de violence intentionnel); b. l'assuré cause un dommage (cité en justice sur base d'une responsabilité couverte par la garantie Familiale, intérêts contradictoires); c. défense pénale; d. caution (si l'assuré est arrêté à l'étranger ou ses biens confisqués).
 - Optionnelle : oui · Portée : Le monde entier (point 3.1.7) · Limite : Legal Village intervient jusqu'à concurrence de 25.000,00 € EUR par sinistre ayant la même origine (dispositions générales du point 3.1) · Franchise : Aucune franchise en Protection juridique, mais un seuil d'intervention de 290 EUR
-  - Sous-limite : {'item': "Caution (l'assuré arrêté à l'étranger ou biens confisqués)", 'limit': 'une caution de maximum 12.500 € par sinistre (avance remboursable avec intérêts légaux et frais de recouvrement)'}
+  - Sous-limite : Caution (l'assuré arrêté à l'étranger ou biens confisqués): une caution de maximum 12.500 € par sinistre (avance remboursable avec intérêts légaux et frais de recouvrement)
   - Condition : Avoir souscrit la garantie optionnelle Familiale (R.C. Vie Privée)
   - Condition : Le montant réclamé doit dépasser le montant de la franchise de la garantie R.C. Vie Privée / Familiale
 

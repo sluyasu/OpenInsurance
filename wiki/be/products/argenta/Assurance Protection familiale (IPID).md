@@ -8,6 +8,7 @@ branch: vie-privee
 product_name: Assurance Protection familiale
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: DW26015
 edition_date: 20/04/2026
 lang: fr

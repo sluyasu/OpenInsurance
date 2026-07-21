@@ -8,6 +8,7 @@ branch: velo
 product_name: Assurance Vélo
 document_type: product_sheet
 target_audience: null
+target_audience_note: null
 reference: null
 edition_date: 12/2025
 lang: fr

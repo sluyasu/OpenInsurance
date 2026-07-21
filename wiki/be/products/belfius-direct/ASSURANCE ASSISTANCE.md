@@ -8,6 +8,7 @@ branch: voyage
 product_name: ASSURANCE ASSISTANCE
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: BDAS_01072023
 edition_date: 01/07/2023
 lang: fr

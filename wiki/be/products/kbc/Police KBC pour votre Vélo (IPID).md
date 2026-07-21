@@ -8,6 +8,7 @@ branch: velo
 product_name: Police KBC pour votre Vélo
 document_type: ipid
 target_audience: particuliers
+target_audience_note: null
 reference: null
 edition_date: null
 lang: fr

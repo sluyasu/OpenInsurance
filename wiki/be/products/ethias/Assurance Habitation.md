@@ -8,6 +8,7 @@ branch: habitation
 product_name: Assurance Habitation
 document_type: conditions_generales
 target_audience: particuliers
+target_audience_note: null
 reference: 1252-050 • 03/25
 edition_date: 03/25
 lang: fr

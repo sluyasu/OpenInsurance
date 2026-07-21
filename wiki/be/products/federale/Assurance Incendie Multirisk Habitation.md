@@ -8,6 +8,7 @@ branch: habitation
 product_name: Assurance Incendie Multirisk Habitation
 document_type: conditions_generales
 target_audience: null
+target_audience_note: null
 reference: 21.20.115
 edition_date: 04/25
 lang: fr
@@ -111,7 +112,7 @@ Conditions générales de l'assurance incendie Multirisk Habitation de Fédéral
 ### Incendie, explosion et risques assimilés - p. 4
 Nous indemnisons les dommages aux biens assurés causés par : A. Incendie ; B. Explosion et implosion ; C. Chute directe de la foudre ; D. Emission soudaine et anormale de fumée ou de suie dans le bâtiment (sauf les dommages par la fumée ou la suie provenant d'un foyer ouvert) ; E. Brûlures sans flammes (sauf les brûlures causées par des cigarettes et autres produits de tabac ou par les projections d'un foyer ouvert). Sont aussi couverts : les dommages par un changement de température occasionné directement par un des risques susmentionnés ; à condition que le bâtiment soit couvert, les frais de recherche et de réparation de fuites dans une conduite de gaz du bâtiment ainsi que les frais de remise en état du bâtiment et du terrain suite aux recherches et réparations.
 - Optionnelle : non
-  - Sous-limite : {'item': 'Frais de recherche et de réparation de fuites dans une conduite de gaz du bâtiment, y compris remise en état du bâtiment et du terrain', 'limit': '3.500 EUR'}
+  - Sous-limite : Frais de recherche et de réparation de fuites dans une conduite de gaz du bâtiment, y compris remise en état du bâtiment et du terrain: 3.500 EUR
   - Condition : Les frais de réparation de conduites ne sont pas couverts si elles font partie de boilers, chaudières ou citernes.
 
 ### Heurt - p. 4
@@ -135,53 +136,53 @@ Nous indemnisons les dommages aux denrées alimentaires par le changement de tem
 ### Effraction immobilière et vandalisme - p. 5
 Nous indemnisons les dommages au bâtiment assuré, appartenant à l'assuré, par l'effraction ou la tentative d'effraction et par le vandalisme. Nous indemnisons également le vol de parties du bâtiment assuré. Sont aussi couverts : les dommages causés par effraction au bâtiment dans le cadre d'une intervention de secours par les services d'urgence ; si l'assuré est locataire assurant sa responsabilité locative, les dommages par effraction, tentative d'effraction et vandalisme au bâtiment ainsi qu'aux aménagements et embellissements (avec vol de parties du bâtiment sous les mêmes conditions) ; si l'assuré est locataire assurant son contenu, les dommages aux bornes de recharge et batteries domestiques faisant partie du contenu.
 - Optionnelle : non · Limite : Indemnisation limitée à 12.500 EUR par sinistre pour les dommages causés par le placardage sauvage d'affiches et la réalisation des graffitis, des tags, des inscriptions ou des dessins.
-  - Sous-limite : {'item': "Placardage sauvage d'affiches, graffitis, tags, inscriptions ou dessins", 'limit': '12.500 EUR par sinistre'}
+  - Sous-limite : Placardage sauvage d'affiches, graffitis, tags, inscriptions ou dessins: 12.500 EUR par sinistre
   - Condition : En cas d'effraction, vandalisme et vol de parties de bâtiment, une plainte doit être déposée conformément au point « Obligations de l'assuré » (article 28).
 
 ### Conflits du travail, attentats et terrorisme - p. 5
 Nous indemnisons les dommages causés directement aux biens assurés par le terrorisme et par des personnes prenant part à des conflits du travail ou des attentats. Pour tout bien immobilier et son contenu ne servant pas d'habitation ou à l'exercice d'une profession libérale (pharmacies exclues), cette garantie est limitée aux dommages causés par l'incendie, l'explosion ou l'implosion. Sont aussi couverts : les dommages conséquence de mesures prises par une autorité légalement constituée pour la sauvegarde et la protection des biens assurés. Pour le terrorisme, les engagements sont réglés conformément à la loi du 1er avril 2007 (asbl TRIP).
 - Optionnelle : non · Limite : Conflits du travail et attentats : pour les risques simples dont la valeur assurée ne dépasse pas 1.604.366,89 EUR (ABEX 809), jusqu'à concurrence des montants assurés pour le bâtiment et le contenu ; pour les risques simples dont la valeur assurée dépasse 1.604.366,89 EUR (ABEX 809), jusqu'à concurrence de 30% des montants assurés pour le bâtiment et le contenu, sans que la limite minimum ne puisse être inférieure à 1.604.366,89 EUR (ABEX 809). Terrorisme : engagements de l'asbl TRIP à concurrence de 1.579.960.488,30 EUR par année civile (index de base 311,90 décembre 2024).
-  - Sous-limite : {'item': 'Conflits du travail et attentats — valeur assurée > 1.604.366,89 EUR (ABEX 809)', 'limit': '30% des montants assurés bâtiment et contenu, minimum 1.604.366,89 EUR'}
-  - Sous-limite : {'item': 'Terrorisme (ensemble des engagements TRIP par année civile)', 'limit': '1.579.960.488,30 EUR'}
+  - Sous-limite : Conflits du travail et attentats — valeur assurée > 1.604.366,89 EUR (ABEX 809): 30% des montants assurés bâtiment et contenu, minimum 1.604.366,89 EUR
+  - Sous-limite : Terrorisme (ensemble des engagements TRIP par année civile): 1.579.960.488,30 EUR
   - Condition : Nous pouvons suspendre la garantie lorsqu'un arrêté des autorités l'autorise ; la suspension prend cours sept jours après la notification.
   - Condition : Les dommages occasionnés par des armes ou des objets nucléaires restent toujours exclus.
 
 ### Tempête, grêle et pression de la neige ou de la glace - p. 6
 Nous indemnisons les dommages au bâtiment assuré ou aux aménagements assurés fixés à demeure au bâtiment par l'action directe de la tempête, de la grêle et de la pression de la neige ou de la glace. Sont aussi couverts : les dommages par le heurt d'objets projetés ou renversés ; les dommages aux biens dans le bâtiment préalablement endommagé ; les dommages par précipitations atmosphériques pénétrant dans le bâtiment préalablement endommagé ; les dommages aux jardins et plantations ; les dommages aux meubles de jardin, cuisines d'extérieur, barbecues et tondeuses-robots à l'extérieur (si contenu assuré) ; si locataire assurant son contenu, les bornes de recharge et batteries domestiques.
 - Optionnelle : non · Limite : 125.000 EUR par sinistre pour les dommages aux coupoles, toitures en verre ou matières plastiques et panneaux translucides ou transparents faisant partie du bâtiment affecté à un usage professionnel ; 12.500 EUR par sinistre pour les dommages aux tentes solaires, protections solaires, enseignes et totems publicitaires fixés au bâtiment ou au sol.
-  - Sous-limite : {'item': 'Jardins et plantations (action directe de la tempête), frais de déblais et remplacement inclus', 'limit': '2.500 EUR par sinistre'}
-  - Sous-limite : {'item': "Meubles de jardin, cuisines d'extérieur, barbecues et tondeuses-robots à l'extérieur (contenu assuré)", 'limit': '2.500 EUR par sinistre'}
-  - Sous-limite : {'item': 'Coupoles, toitures en verre/plastique, panneaux translucides/transparents du bâtiment à usage professionnel', 'limit': '125.000 EUR par sinistre'}
-  - Sous-limite : {'item': 'Tentes solaires, protections solaires, enseignes et totems publicitaires', 'limit': '12.500 EUR par sinistre'}
+  - Sous-limite : Jardins et plantations (action directe de la tempête), frais de déblais et remplacement inclus: 2.500 EUR par sinistre
+  - Sous-limite : Meubles de jardin, cuisines d'extérieur, barbecues et tondeuses-robots à l'extérieur (contenu assuré): 2.500 EUR par sinistre
+  - Sous-limite : Coupoles, toitures en verre/plastique, panneaux translucides/transparents du bâtiment à usage professionnel: 125.000 EUR par sinistre
+  - Sous-limite : Tentes solaires, protections solaires, enseignes et totems publicitaires: 12.500 EUR par sinistre
 
 ### Catastrophes naturelles - p. 7
 Nous indemnisons les dommages au bâtiment assuré ou aux aménagements assurés fixés à demeure au bâtiment par les catastrophes naturelles. Sont aussi couverts : les dommages causés par un péril assuré résultant directement d'une catastrophe naturelle ; les dommages aux biens dans le bâtiment préalablement endommagé ; les dommages conséquence de mesures prises par les autorités ; les dommages aux jardins et plantations ; les dommages aux meubles de jardin, cuisines d'extérieur, barbecues et tondeuses-robots à l'extérieur (si contenu assuré). L'indemnisation est déterminée conformément à l'article 130 § 2 de la loi du 4 avril 2014.
 - Optionnelle : non · Limite : Le total des indemnisations est déterminé conformément à l'article 130 § 2 de la loi du 4 avril 2014 (réduction proportionnelle de l'intervention individuelle si les limites de cet article sont dépassées).
-  - Sous-limite : {'item': 'Jardins et plantations, frais de déblais et remplacement inclus', 'limit': '2.500 EUR par sinistre'}
-  - Sous-limite : {'item': "Meubles de jardin, cuisines d'extérieur, barbecues et tondeuses-robots à l'extérieur (contenu assuré)", 'limit': '2.500 EUR par sinistre'}
+  - Sous-limite : Jardins et plantations, frais de déblais et remplacement inclus: 2.500 EUR par sinistre
+  - Sous-limite : Meubles de jardin, cuisines d'extérieur, barbecues et tondeuses-robots à l'extérieur (contenu assuré): 2.500 EUR par sinistre
   - Condition : Toute suspension, nullité, expiration ou résiliation de la garantie catastrophes naturelles entraîne de plein droit celle de la garantie afférente au péril incendie, et inversement.
 
 ### Eau - p. 8
 Nous indemnisons les dommages directement causés aux biens assurés par l'infiltration et l'écoulement de l'eau à l'intérieur du bâtiment assuré par suite de rupture, fissure, défaut d'étanchéité ou débordement d'une installation hydraulique. Sont aussi couverts : infiltration d'eau au travers de la toiture du bâtiment assuré ou d'un bâtiment voisin ; pénétration d'eau provenant de précipitations par rupture/fissure/débordement de gouttières et tuyaux d'évacuation ; refoulement d'eau des égouts publics via les installations hydrauliques ; déclenchement intempestif d'une installation automatique d'extinction d'incendie ; écoulement accidentel d'eau des aquariums et matelas d'eau ; perte d'eau de distribution ; frais de recherche de fuite dans une installation hydraulique encastrée ; dommages par la mérule ou tout autre champignon.
 - Optionnelle : non
-  - Sous-limite : {'item': "Perte d'eau de distribution", 'limit': '2.500 EUR par sinistre'}
-  - Sous-limite : {'item': "Frais de recherche de fuite dans une installation hydraulique encastrée (en cas d'écoulement d'eau sans dommages aux biens assurés)", 'limit': '3.500 EUR'}
-  - Sous-limite : {'item': 'Dommages par la mérule ou tout autre champignon, frais de traitement inclus', 'limit': '30.000 EUR par sinistre'}
+  - Sous-limite : Perte d'eau de distribution: 2.500 EUR par sinistre
+  - Sous-limite : Frais de recherche de fuite dans une installation hydraulique encastrée (en cas d'écoulement d'eau sans dommages aux biens assurés): 3.500 EUR
+  - Sous-limite : Dommages par la mérule ou tout autre champignon, frais de traitement inclus: 30.000 EUR par sinistre
   - Condition : Nous ne garantissons pas les dommages causés à une seconde résidence lorsque l'assuré n'a pas fermé le robinet principal en cas d'absence de plus de huit jours consécutifs et lorsqu'il y a une relation causale avec le sinistre, sauf si l'assuré prouve que cette obligation incombe à son locataire ou à un tiers.
   - Condition : Pour la mérule, l'apparition du champignon doit survenir pendant la période de validité du contrat ; les dommages aux bâtiments à usage professionnel abandonnés sont exclus.
 
 ### Mazout de chauffage - p. 8
 Nous indemnisons les dommages causés directement aux biens assurés par l'écoulement de mazout de chauffage par suite de rupture, fissure, défaut d'étanchéité ou débordement de l'installation de chauffage du bâtiment, y compris la citerne qui y est reliée, sauf si cela est dû à de la corrosion visible. Sont aussi couverts : la perte du mazout de chauffage ; les frais de recherche pour détecter les fuites dans une conduite encastrée ; les coûts d'assainissement du sol suite à un sinistre couvert.
 - Optionnelle : non
-  - Sous-limite : {'item': 'Perte du mazout de chauffage', 'limit': '4.000 EUR par sinistre'}
-  - Sous-limite : {'item': "Coûts d'assainissement du sol suite à un sinistre couvert", 'limit': '12.500 EUR par sinistre'}
+  - Sous-limite : Perte du mazout de chauffage: 4.000 EUR par sinistre
+  - Sous-limite : Coûts d'assainissement du sol suite à un sinistre couvert: 12.500 EUR par sinistre
   - Condition : Sauf si l'écoulement est dû à de la corrosion visible.
 
 ### Bris de vitrages - p. 9
 Nous indemnisons le bris ou la fêlure de tout élément en verre faisant partie du bâtiment assuré. Sont aussi couverts, à concurrence des montants respectivement assurés pour le bâtiment et le contenu : coupoles/toitures/panneaux translucides autres que le verre ; enseignes ; lamelles et volets de piscines ; verre des armoires, tables, aquariums, poêles, inserts et appareils électroménagers ; sanitaires (portant atteinte à leur fonctionnement normal, hors carrelages) ; écrans de télévision ; miroirs ; capteurs solaires, panneaux solaires thermiques et photovoltaïques fixés à demeure ; dommages consécutifs à un sinistre couvert ; opacification des vitrages isolants par perte d'étanchéité (si moins de 20 ans).
 - Optionnelle : non · Limite : 4.000 EUR par sinistre pour les dommages à des vitrages d'art ; 125.000 EUR par sinistre pour les dommages aux coupoles, toitures, panneaux translucides ou transparents et constructions en verre ou matières plastiques recouvrant les piscines extérieures, faisant partie du bâtiment affecté à un usage professionnel.
-  - Sous-limite : {'item': "Vitrages d'art", 'limit': '4.000 EUR par sinistre'}
-  - Sous-limite : {'item': 'Coupoles, toitures, panneaux et constructions recouvrant piscines extérieures du bâtiment à usage professionnel', 'limit': '125.000 EUR par sinistre'}
+  - Sous-limite : Vitrages d'art: 4.000 EUR par sinistre
+  - Sous-limite : Coupoles, toitures, panneaux et constructions recouvrant piscines extérieures du bâtiment à usage professionnel: 125.000 EUR par sinistre
   - Condition : L'opacification des vitrages isolants n'est couverte que s'ils n'ont pas plus de 20 ans.
   - Condition : Nous considérons l'opacité de chaque vitre comme un sinistre distinct pour l'application de la franchise.
   - Condition : Si l'assuré est locataire ou occupant, nous garantissons les dommages même si sa responsabilité n'est pas engagée, mais conservons un droit de recours contre le bailleur.
@@ -189,15 +190,15 @@ Nous indemnisons le bris ou la fêlure de tout élément en verre faisant partie
 ### Responsabilité civile Immeuble - p. 10
 Si l'assuré est propriétaire du bâtiment, nous couvrons la responsabilité civile qu'il peut encourir sur base des articles 6.5 à 6.17 du Code civil pour les dommages causés à des tiers par : le bâtiment assuré et le contenu assuré ; les jardins attenants au bâtiment ; les trottoirs jouxtant le bâtiment (encombrement ou défaut d'enlèvement de neige, glace ou verglas). Si l'assuré est locataire, la RC pour les dommages causés à des tiers par le contenu assuré ou par le bâtiment s'il en a la garde et assure sa responsabilité locative. Est aussi couverte la RC de propriétaire bailleur sur base de l'article 1721 du Code civil pour les dommages matériels ou corporels causés au locataire (à l'exception du chômage immobilier/commercial et du trouble de jouissance).
 - Optionnelle : non · Limite : 32.587.453,33 EUR par sinistre pour les dommages résultant de lésions corporelles ; 1.629.372,66 EUR par sinistre pour les dommages matériels (montants liés à l'indice des prix à la consommation, indice de base 311,90 décembre 2024 base 1981).
-  - Sous-limite : {'item': 'Dommages résultant de lésions corporelles', 'limit': '32.587.453,33 EUR par sinistre'}
-  - Sous-limite : {'item': 'Dommages matériels', 'limit': '1.629.372,66 EUR par sinistre'}
+  - Sous-limite : Dommages résultant de lésions corporelles: 32.587.453,33 EUR par sinistre
+  - Sous-limite : Dommages matériels: 1.629.372,66 EUR par sinistre
   - Condition : Si le Preneur d'assurance est une association de copropriétaires, chacun des copropriétaires ayant subi un dommage causé par les parties communes supportera ses propres dommages à concurrence de sa part dans la copropriété.
 
 ### Extensions de garanties — Déplacement temporaire et partiel du contenu - p. 10
 Le contenu assuré déplacé temporairement et partiellement, pour une durée maximale de 90 jours, dans un bâtiment n'appartenant pas à l'assuré, partout dans le monde, est couvert à concurrence du montant assuré pour ce contenu et dans les limites de chaque garantie souscrite. Si déplacé dans un logement d'étudiant (même > 90 jours), le contenu est assuré à concurrence de 9.000 EUR, sans règle proportionnelle. Le contenu déplacé dans la chambre ou l'appartement d'une maison de repos ou institution de soins (même > 90 jours) occupé par le preneur, ses ascendants ou descendants vivant à son foyer est couvert à concurrence de 20.000 EUR.
 - Optionnelle : non · Portée : Partout dans le monde (logement standard) ; maison de repos / institution de soins
-  - Sous-limite : {'item': "Contenu déplacé dans un logement d'étudiant (même > 90 jours)", 'limit': '9.000 EUR, sans règle proportionnelle'}
-  - Sous-limite : {'item': 'Contenu déplacé en maison de repos / institution de soins (même > 90 jours)', 'limit': '20.000 EUR'}
+  - Sous-limite : Contenu déplacé dans un logement d'étudiant (même > 90 jours): 9.000 EUR, sans règle proportionnelle
+  - Sous-limite : Contenu déplacé en maison de repos / institution de soins (même > 90 jours): 20.000 EUR
   - Condition : Déplacement temporaire et partiel pour une durée maximale de 90 jours (sauf logement étudiant / maison de repos).
 
 ### Extensions de garanties — Déménagement - p. 10
@@ -212,84 +213,84 @@ Lorsqu'un péril assuré se produit, même en dehors des biens assurés, nous in
 ### Extensions de garanties — Frais divers et chômage immobilier - p. 11
 Nous indemnisons, à concurrence des montants assurés, les frais engagés à bon escient qui sont la conséquence directe d'un sinistre couvert : a) frais de déblais et de démolition nécessités par la reconstruction et reconstitution, ainsi que frais de mise en décharge ; b) frais de remise en état du jardin, y compris remplacement des plantations par de jeunes plantes ; c) frais de logement à l'hôtel ou ailleurs, lorsque le bâtiment est rendu inhabitable, pendant une durée maximale de un an ; d) frais de protection provisoire du bâtiment en attendant la réparation, ainsi que frais de clôture et d'obturation provisoire.
 - Optionnelle : non · Limite : Frais de logement à l'hôtel : durée maximale de un an ; pour le propriétaire, remboursés seulement dans la mesure où ils dépassent le chômage immobilier dû ; pour le locataire/occupant, seulement pour la partie dépassant le loyer.
-  - Sous-limite : {'item': "Frais de logement à l'hôtel ou ailleurs (bâtiment inhabitable)", 'limit': 'durée maximale de un an'}
+  - Sous-limite : Frais de logement à l'hôtel ou ailleurs (bâtiment inhabitable): durée maximale de un an
   - Condition : Les frais de logement à l'hôtel ne peuvent être cumulés pour une même période avec le chômage immobilier.
 
 ### Extensions de garanties — Frais funéraires et médicaux - p. 11
 En cas de lésions corporelles ou de décès d'un assuré suite à un sinistre couvert par le présent contrat, nous intervenons à concurrence de 4.000 EUR par assuré, avec un total de maximum 40.000 EUR, pour les frais funéraires et/ou médicaux. Notre couverture n'est acquise qu'après intervention de la mutuelle ainsi que de l'éventuel assureur hospitalisation et/ou de soins ambulatoires.
 - Optionnelle : non · Limite : 4.000 EUR par assuré, avec un total de maximum 40.000 EUR
-  - Sous-limite : {'item': 'Frais funéraires et/ou médicaux par assuré', 'limit': '4.000 EUR par assuré'}
-  - Sous-limite : {'item': 'Frais funéraires et/ou médicaux total', 'limit': 'maximum 40.000 EUR'}
+  - Sous-limite : Frais funéraires et/ou médicaux par assuré: 4.000 EUR par assuré
+  - Sous-limite : Frais funéraires et/ou médicaux total: maximum 40.000 EUR
   - Condition : Couverture acquise seulement après intervention de la mutuelle et de l'éventuel assureur hospitalisation/soins ambulatoires.
 
 ### Extensions de garanties — Vêtements et articles de toilette - p. 11
 Si les vêtements et articles de toilette de première nécessité des assurés ont été détruits suite à un sinistre couvert, nous intervenons à concurrence de 250 EUR par assuré, avec un total de maximum 1.000 EUR, afin qu'ils puissent s'en procurer de nouveaux. Nous indemnisons également, sous les mêmes conditions, le chômage immobilier pendant la période normale des réparations (privation de jouissance immobilière du propriétaire occupant, perte de loyer et charges fixes du propriétaire non-occupant, responsabilité de l'assuré locataire ou occupant).
 - Optionnelle : non · Limite : 250 EUR par assuré, avec un total de maximum 1.000 EUR
-  - Sous-limite : {'item': 'Vêtements et articles de toilette par assuré', 'limit': '250 EUR par assuré'}
-  - Sous-limite : {'item': 'Vêtements et articles de toilette total', 'limit': 'maximum 1.000 EUR'}
+  - Sous-limite : Vêtements et articles de toilette par assuré: 250 EUR par assuré
+  - Sous-limite : Vêtements et articles de toilette total: maximum 1.000 EUR
 
 ### Garanties complémentaires de responsabilité — Recours des tiers - p. 11
 La responsabilité que l'assuré encourt en vertu des articles 6.5 à 6.17 du Code civil pour les dommages aux biens causés par un sinistre couvert se communiquant à des biens qui sont la propriété de tiers, y compris les hôtes. Ce recours des tiers comprend également le chômage immobilier et le chômage commercial subis par lesdits tiers.
 - Optionnelle : non · Limite : 3.567.600,24 EUR par sinistre (montant lié à l'indice des prix à la consommation, indice de base 311,90 décembre 2024 base 1981).
-  - Sous-limite : {'item': 'Recours des tiers', 'limit': '3.567.600,24 EUR par sinistre'}
+  - Sous-limite : Recours des tiers: 3.567.600,24 EUR par sinistre
 
 ### Garanties complémentaires de responsabilité — Recours des locataires ou occupants - p. 11
 La responsabilité de l'assuré propriétaire en vertu de l'article 1721 du Code civil pour les dégâts matériels subis par les locataires ou occupants suite à un sinistre couvert. Cette garantie est étendue à la responsabilité de l'assuré pour le chômage commercial subi par les locataires ou occupants suite à un sinistre couvert.
 - Optionnelle : non · Limite : À concurrence des montants assurés pour le bâtiment et le contenu ; chômage commercial limité à 20 % du montant assuré pour le bâtiment et le contenu, sans pouvoir dépasser 36.203,46 EUR par sinistre, sauf stipulation particulière (montant lié à l'indice des prix à la consommation, indice de base 311,90 décembre 2024 base 1981).
-  - Sous-limite : {'item': 'Chômage commercial subi par les locataires ou occupants', 'limit': '20 % du montant assuré bâtiment et contenu, max 36.203,46 EUR par sinistre'}
+  - Sous-limite : Chômage commercial subi par les locataires ou occupants: 20 % du montant assuré bâtiment et contenu, max 36.203,46 EUR par sinistre
 
 ### Garanties complémentaires de responsabilité — Responsabilité locative à une autre adresse - p. 12
 Si le contrat porte sur les biens situés à l'adresse de la résidence principale de l'assuré, nous couvrons la responsabilité locative que l'assuré encourt pour les dommages causés par un péril assuré : lorsqu'il est, partout dans le monde, locataire ou occupant temporaire pour des besoins non-professionnels d'un bâtiment et de son contenu pour une période ne dépassant pas 90 jours ; lorsqu'exclusivement en sa qualité d'étudiant, il est locataire ou occupant en Europe ; lorsqu'il est locataire ou occupant temporaire d'un bâtiment ou chapiteau situé en Europe destiné à une fête de famille ou d'entreprise ; lorsqu'il est locataire ou occupant d'un seul garage privé situé à une autre adresse en Belgique.
 - Optionnelle : non · Portée : Partout dans le monde (temporaire ≤ 90 jours) ; Europe (étudiant, fête de famille/entreprise) ; Belgique (garage privé) · Limite : Maximum 3.567.600,24 EUR (montant lié à l'indice des prix à la consommation, indice de base 311,90 décembre 2024 base 1981).
-  - Sous-limite : {'item': 'Responsabilité locative à une autre adresse', 'limit': 'maximum 3.567.600,24 EUR'}
+  - Sous-limite : Responsabilité locative à une autre adresse: maximum 3.567.600,24 EUR
   - Condition : Le contrat doit porter sur les biens situés à l'adresse de la résidence principale de l'assuré.
 
 ### FEDERALE Assistance — Assistance aux biens (suite à un sinistre couvert) - p. 12
 En cas de sinistre couvert, l'assuré peut faire appel à FEDERALE Assistance (organisée par Europ Assistance Belgium) pour : a) Mesures conservatoires d'urgence (conseil et, si nécessaire, professionnel sur place) ; b) Gardiennage du bâtiment pour une durée maximale de 72h ; c) Sauvegarde du mobilier (déménagement à hauteur des frais réels du mobilier privé et entreposage pour une durée maximale de 30 jours) ; d) Déménagement du contenu assuré jusqu'au nouveau lieu de résidence en Belgique si le bâtiment est inhabitable.
 - Optionnelle : non · Portée : Bâtiment à l'adresse en Belgique reprise dans les conditions particulières · Limite : Aucune franchise n'est appliquée pour les services prestés ; montants toutes taxes comprises et non indexés. · Franchise : Aucune franchise n'est appliquée pour les services prestés.
-  - Sous-limite : {'item': 'Gardiennage du bâtiment', 'limit': 'durée maximale de 72h'}
-  - Sous-limite : {'item': 'Entreposage du mobilier privé', 'limit': 'durée maximale de 30 jours'}
+  - Sous-limite : Gardiennage du bâtiment: durée maximale de 72h
+  - Sous-limite : Entreposage du mobilier privé: durée maximale de 30 jours
   - Condition : Garantie non octroyée pour les locaux destinés exclusivement à usage de bureaux ou lorsque l'assurance est souscrite par une copropriété.
   - Condition : Les prestations doivent être demandées immédiatement et l'Assisteur doit donner son accord préalable.
 
 ### FEDERALE Assistance — Assistance aux personnes (suite à un sinistre couvert) - p. 13
 Suite à un sinistre couvert : a) Hospitalisation urgente (frais de recherche, réservation et transport en ambulance vers l'hôpital le plus proche à concurrence de 1.300 EUR tout compris par personne ; aide familiale pendant l'hospitalisation, maximum 7 jours à raison de 150 EUR maximum par jour) ; b) Assistance psychologique (maximum 5 séances d'1 heure en Belgique) ; c) Organisation d'un logement temporaire (maximum 7 nuits dans un hôtel proche + transfert) ; d) Frais de garderie et transport (transport aller-retour, garde pendant maximum 8 jours à raison de maximum 125 EUR par jour) ; e) Garde d'animaux de compagnie (transport et garde des chiens et chats pour une durée maximale de 15 jours par sinistre) ; f) Rapatriement d'un assuré absent ; g) Recherche d'un logement de remplacement ; h) Avance de fonds (maximum 10.000 EUR).
 - Optionnelle : non · Portée : Belgique (résidence) / étranger (rapatriement) · Franchise : Aucune franchise n'est appliquée pour les services prestés.
-  - Sous-limite : {'item': 'Hospitalisation urgente — transport en ambulance', 'limit': '1.300 EUR tout compris par personne'}
-  - Sous-limite : {'item': 'Aide familiale pendant hospitalisation', 'limit': 'maximum 7 jours à 150 EUR maximum par jour'}
-  - Sous-limite : {'item': 'Assistance psychologique', 'limit': "maximum 5 séances d'1 heure"}
-  - Sous-limite : {'item': "Logement temporaire à l'hôtel", 'limit': 'maximum 7 nuits'}
-  - Sous-limite : {'item': 'Frais de garde des enfants/personnes dépendantes', 'limit': 'maximum 8 jours à maximum 125 EUR tout compris par jour'}
-  - Sous-limite : {'item': "Garde d'animaux de compagnie (chiens et chats)", 'limit': 'durée maximale de 15 jours par sinistre'}
-  - Sous-limite : {'item': 'Avance de fonds', 'limit': 'maximum 10.000 EUR'}
+  - Sous-limite : Hospitalisation urgente — transport en ambulance: 1.300 EUR tout compris par personne
+  - Sous-limite : Aide familiale pendant hospitalisation: maximum 7 jours à 150 EUR maximum par jour
+  - Sous-limite : Assistance psychologique: maximum 5 séances d'1 heure
+  - Sous-limite : Logement temporaire à l'hôtel: maximum 7 nuits
+  - Sous-limite : Frais de garde des enfants/personnes dépendantes: maximum 8 jours à maximum 125 EUR tout compris par jour
+  - Sous-limite : Garde d'animaux de compagnie (chiens et chats): durée maximale de 15 jours par sinistre
+  - Sous-limite : Avance de fonds: maximum 10.000 EUR
   - Condition : Pour l'assistance psychologique, accord du médecin requis ; le psychologue contacte l'assuré dans les 24 heures.
   - Condition : L'avance de fonds est déduite de l'indemnité due ou remboursée dans les 30 jours si non déductible.
 
 ### FEDERALE Assistance — Assistance sans sinistre couvert préalable (serrurier, renseignements, problèmes au bâtiment) - p. 14
 Sans sinistre couvert préalable : A. Intervention d'un serrurier (ouverture de porte et remplacement de serrure à concurrence de maximum 1.000 EUR par intervention) ; B. Renseignements téléphoniques d'urgence (centres hospitaliers, pharmacie/médecin de garde, services publics, corps de métiers de dépannage) ; C. Problèmes au bâtiment (fuite d'eau après compteur, dysfonctionnement de l'installation électrique après compteur, toilette bouchée, chauffage central, boiler central d'eau chaude). Modalités : envoi d'un réparateur dans les 24 heures, maximum 2 interventions par année d'assurance, intervention à concurrence de maximum 300 EUR par intervention (pièces de rechange jusqu'à 40 EUR incluses).
 - Optionnelle : non · Portée : Bâtiment et installations fixes à l'adresse en Belgique reprise dans les conditions particulières · Limite : Serrurier : maximum 1.000 EUR par intervention. Problèmes au bâtiment : maximum 300 EUR par intervention, maximum 2 interventions par année d'assurance, pièces de rechange incluses pour un total de 40 EUR. · Franchise : Aucune franchise n'est appliquée pour les services prestés.
-  - Sous-limite : {'item': "Intervention d'un serrurier", 'limit': 'maximum 1.000 EUR par intervention'}
-  - Sous-limite : {'item': 'Problèmes au bâtiment', 'limit': "maximum 300 EUR par intervention, max 2 interventions par année d'assurance"}
-  - Sous-limite : {'item': "Pièces de rechange incluses dans l'intervention au bâtiment", 'limit': 'total de 40 EUR'}
+  - Sous-limite : Intervention d'un serrurier: maximum 1.000 EUR par intervention
+  - Sous-limite : Problèmes au bâtiment: maximum 300 EUR par intervention, max 2 interventions par année d'assurance
+  - Sous-limite : Pièces de rechange incluses dans l'intervention au bâtiment: total de 40 EUR
   - Condition : L'intervention ne consiste pas à effectuer des réparations définitives ou des travaux d'entretien mais des mesures provisoires.
   - Condition : Voir les exclusions spécifiques au point 2.C.
 
 ### Vol du contenu assuré (garantie optionnelle) - p. 15
 Nous indemnisons la disparition du contenu assuré, ainsi que les dommages matériels à celui-ci, suite à un vol ou une tentative de vol, commis dans le bâtiment situé à l'adresse du risque. Sont aussi couverts : les dommages au bâtiment suite à un vol ou tentative de vol du contenu ; les frais de remplacement/réencodage des serrures, commandes à distance, récepteurs et alarmes (4.000 EUR par sinistre, sans franchise) ; le contenu transporté par l'assuré en cas de vol avec violence ou menaces (9.000 EUR par sinistre ; cartes de banque/crédit limitées à 3.500 EUR) ; le contenu déplacé temporairement partout dans le monde ≤ 90 jours (9.000 EUR par sinistre) ; le contenu déplacé dans un logement d'étudiant (9.000 EUR par sinistre) ; le vol de mazout d'une citerne extérieure par effraction (2.500 EUR par sinistre) ; le contenu à l'intérieur endommagé par vandalisme ; le vol des meubles de jardin, cuisines d'extérieur, barbecues et robots tondeuses à l'extérieur (2.500 EUR par sinistre).
 - Optionnelle : oui · Portée : Bâtiment à l'adresse du risque ; partout dans le monde pour le contenu déplacé temporairement ≤ 90 jours · Limite : Par objet : 17.500 EUR par sinistre ; par série d'objets d'une collection : 17.500 EUR par sinistre ; bijoux : 20% du montant total assuré pour le contenu avec maximum 23.500 EUR par sinistre ; toutes les valeurs : 3.500 EUR par sinistre ; biens dans garages/caves/greniers d'un immeuble à appartements fermés à clé : 3.500 EUR par sinistre ; biens à usage privé d'un tiers confiés à un assuré : 9.000 EUR par sinistre.
-  - Sous-limite : {'item': 'Frais de remplacement/réencodage des serrures, commandes à distance, récepteurs et alarmes (sans franchise)', 'limit': '4.000 EUR par sinistre'}
-  - Sous-limite : {'item': 'Contenu transporté — vol avec violence ou menaces', 'limit': '9.000 EUR par sinistre'}
-  - Sous-limite : {'item': 'Cartes de banque ou de crédit', 'limit': '3.500 EUR par sinistre'}
-  - Sous-limite : {'item': 'Contenu déplacé temporairement partout dans le monde (≤ 90 jours/an)', 'limit': '9.000 EUR par sinistre'}
-  - Sous-limite : {'item': "Contenu déplacé dans un logement d'étudiant", 'limit': '9.000 EUR par sinistre'}
-  - Sous-limite : {'item': "Vol de mazout de chauffage d'une citerne extérieure par effraction", 'limit': '2.500 EUR par sinistre'}
-  - Sous-limite : {'item': "Vol des meubles de jardin, cuisines d'extérieur, barbecues et robots tondeuses à l'extérieur", 'limit': '2.500 EUR par sinistre'}
-  - Sous-limite : {'item': 'Par objet', 'limit': '17.500 EUR par sinistre'}
-  - Sous-limite : {'item': "Par série d'objets d'une collection", 'limit': '17.500 EUR par sinistre'}
-  - Sous-limite : {'item': 'Bijoux', 'limit': '20% du montant total assuré pour le contenu, max 23.500 EUR par sinistre'}
-  - Sous-limite : {'item': 'Toutes les valeurs', 'limit': '3.500 EUR par sinistre'}
-  - Sous-limite : {'item': "Biens dans garages, caves et greniers d'un immeuble à appartements fermés à clé", 'limit': '3.500 EUR par sinistre'}
-  - Sous-limite : {'item': "Biens à usage privé d'un tiers confiés à un assuré", 'limit': '9.000 EUR par sinistre'}
+  - Sous-limite : Frais de remplacement/réencodage des serrures, commandes à distance, récepteurs et alarmes (sans franchise): 4.000 EUR par sinistre
+  - Sous-limite : Contenu transporté — vol avec violence ou menaces: 9.000 EUR par sinistre
+  - Sous-limite : Cartes de banque ou de crédit: 3.500 EUR par sinistre
+  - Sous-limite : Contenu déplacé temporairement partout dans le monde (≤ 90 jours/an): 9.000 EUR par sinistre
+  - Sous-limite : Contenu déplacé dans un logement d'étudiant: 9.000 EUR par sinistre
+  - Sous-limite : Vol de mazout de chauffage d'une citerne extérieure par effraction: 2.500 EUR par sinistre
+  - Sous-limite : Vol des meubles de jardin, cuisines d'extérieur, barbecues et robots tondeuses à l'extérieur: 2.500 EUR par sinistre
+  - Sous-limite : Par objet: 17.500 EUR par sinistre
+  - Sous-limite : Par série d'objets d'une collection: 17.500 EUR par sinistre
+  - Sous-limite : Bijoux: 20% du montant total assuré pour le contenu, max 23.500 EUR par sinistre
+  - Sous-limite : Toutes les valeurs: 3.500 EUR par sinistre
+  - Sous-limite : Biens dans garages, caves et greniers d'un immeuble à appartements fermés à clé: 3.500 EUR par sinistre
+  - Sous-limite : Biens à usage privé d'un tiers confiés à un assuré: 9.000 EUR par sinistre
   - Condition : En cas de vol ou tentative de vol, une plainte doit être déposée conformément à l'article 28 (Obligations de l'assuré).
   - Condition : Lorsqu'un objet volé est retrouvé, l'assuré doit nous en aviser immédiatement ; s'il y a déjà eu indemnité, l'assuré a 30 jours pour choisir entre laisser les biens et conserver l'indemnité ou récupérer les biens et rembourser l'indemnité.
 
@@ -301,11 +302,11 @@ Nous indemnisons la perte d'exploitation dans le cas d'une interruption de l'act
 ### Protection juridique (garantie optionnelle) - p. 17
 Nous intervenons pour : 1) la défense d'un assuré dans toute procédure pénale suite à un sinistre effectivement couvert ; 2) obtenir amiablement ou judiciairement la réparation de tout dommage matériel causé au bâtiment assuré du fait d'un tiers responsable (recours contre le tiers, son assureur ou le Fonds Commun de Garantie Belge, litiges de voisinage, insolvabilité du tiers, frais d'expertise excédant le montant pris en charge par l'assureur incendie avec plafond de 6.250 EUR, etc.) ; 3) actions contre le tiers responsable pour mettre fin à une situation dommageable ; 4) litiges avec l'assureur incendie relatifs à l'interprétation/application des autres garanties ; 5) avance de fonds sur indemnité (à concurrence de 20.000 EUR) et avance de la franchise à charge du tiers responsable (à concurrence de 323,14 EUR). Gestion par FEDELEX. Libre choix de l'avocat et clause d'objectivité.
 - Optionnelle : oui · Portée : Litiges survenus dans le monde entier, pour autant que l'assuré ait sa résidence principale en Belgique · Limite : Intervention limitée à 50.000 EUR par sinistre ; insolvabilité du tiers responsable limitée à 10.000 EUR par sinistre ; avance de fonds sur indemnité à concurrence de 20.000 EUR ; avance de la franchise à charge du tiers à concurrence de 323,14 EUR ; frais d'expertise excédant l'assureur incendie plafonnés à 6.250 EUR.
-  - Sous-limite : {'item': 'Intervention Protection juridique', 'limit': '50.000 EUR par sinistre'}
-  - Sous-limite : {'item': 'Insolvabilité du tiers responsable', 'limit': '10.000 EUR par sinistre'}
-  - Sous-limite : {'item': 'Avance de fonds sur indemnité', 'limit': '20.000 EUR'}
-  - Sous-limite : {'item': 'Avance de la franchise à charge du tiers responsable', 'limit': '323,14 EUR'}
-  - Sous-limite : {'item': "Frais d'expertise excédant le montant pris en charge par l'assureur incendie", 'limit': 'plafond de 6.250 EUR'}
+  - Sous-limite : Intervention Protection juridique: 50.000 EUR par sinistre
+  - Sous-limite : Insolvabilité du tiers responsable: 10.000 EUR par sinistre
+  - Sous-limite : Avance de fonds sur indemnité: 20.000 EUR
+  - Sous-limite : Avance de la franchise à charge du tiers responsable: 323,14 EUR
+  - Sous-limite : Frais d'expertise excédant le montant pris en charge par l'assureur incendie: plafond de 6.250 EUR
   - Condition : Tout sinistre doit être déclaré immédiatement et au plus tard dans les huit jours ouvrables de sa survenance.
   - Condition : Gestion des sinistres par FEDELEX, service interne de FEDERALE Assurance.
 

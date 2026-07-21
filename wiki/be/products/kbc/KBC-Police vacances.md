@@ -8,6 +8,7 @@ branch: voyage
 product_name: KBC-Police vacances
 document_type: conditions_generales
 target_audience: particuliers
+target_audience_note: null
 reference: F0003 0001 0200 1412
 edition_date: null
 lang: fr

@@ -8,6 +8,7 @@ branch: auto
 product_name: Assurance au Kilomètre
 document_type: product_sheet
 target_audience: null
+target_audience_note: null
 reference: null
 edition_date: 06/2026
 lang: fr

@@ -8,6 +8,7 @@ branch: epargne
 product_name: Fortune by Athora
 document_type: product_sheet
 target_audience: null
+target_audience_note: null
 reference: '320110600'
 edition_date: 1 janvier 2026
 lang: fr

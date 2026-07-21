@@ -8,6 +8,7 @@ branch: voyage
 product_name: Assistance Voyage
 document_type: product_sheet
 target_audience: null
+target_audience_note: null
 reference: null
 edition_date: 03/2025
 lang: fr

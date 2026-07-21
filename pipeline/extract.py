@@ -117,7 +117,150 @@ def normalize(obj: dict) -> dict:
         obj["prescription_period"] = {"description": obj["prescription_period"]}
     if isinstance(obj.get("premium"), str):
         obj["premium"] = {"notes": [obj["premium"]]}
+    _coerce_drift(obj)
     return obj
+
+
+def _audience_enum(text: str) -> str | None:
+    """Map a free-text audience to the schema enum, or None when it is not clear-cut.
+
+    Only unambiguous wording is mapped, and a text naming several audiences maps to None
+    rather than to whichever matches first: "Personnes physiques et morales" is not
+    "particuliers", and reducing it to that would silently drop companies from the
+    stated scope. "Professionnels des soins de santé (médecins, vétérinaires)" is
+    likewise left unmapped, since they may practise as independants or as entreprises.
+
+    Nothing is lost by declining: the verbatim wording is kept in target_audience_note.
+    A wrong category is worse than an absent one, because only the wrong one is read as
+    a fact about the product."""
+    t = text.lower()
+    signals = set()
+    if re.search(r"ind[ée]pendant", t) or "profession lib" in t:
+        signals.add("independants")
+    if "secteur public" in t or "service public" in t or "commune" in t:
+        signals.add("secteur_public")
+    if re.search(r"particuliers?\b", t) or re.search(r"personnes?\s+physiques?", t) \
+            or re.search(r"propri[ée]taires?\b", t) or "consommateur" in t:
+        signals.add("particuliers")
+    if re.search(r"entreprises?\b", t) or re.search(r"\bpme\b", t) \
+            or re.search(r"personnes?\s+morales?", t) or re.search(r"soci[ée]t[ée]s?\b", t):
+        signals.add("entreprises")
+    return signals.pop() if len(signals) == 1 else None
+
+
+def _coerce_drift(obj: dict) -> dict:
+    """Shapes that models emit and the schema rejects.
+
+    This ran only in the sidecar harness used for bulk ingestion, so the committed
+    pipeline could not reproduce its own dataset: re-extracting through extract.py
+    produced schema-invalid objects that the sidecar would have fixed. Rule 7 wants one
+    path, so it lives here now."""
+    ta = obj.get("target_audience")
+    if isinstance(ta, str) and ta not in ("particuliers", "independants",
+                                          "entreprises", "secteur_public"):
+        obj["target_audience"] = _audience_enum(ta)
+        obj.setdefault("target_audience_note", ta.strip())
+
+    ded = obj.get("deductibles")
+    if isinstance(ded, dict):
+        desc = ded.pop("description", None)
+        if desc and not ded.get("standard"):
+            ded["standard"] = desc
+        for k in [k for k in ded if k not in ("standard", "variable", "per_coverage", "page")]:
+            ded.pop(k, None)
+        # `variable` holds the wording of a variable franchise; a bare True says only
+        # that one exists, which is not quotable, so it is dropped rather than invented.
+        if isinstance(ded.get("variable"), bool):
+            ded["variable"] = None
+        pc = ded.get("per_coverage")
+        if isinstance(pc, bool):
+            ded["per_coverage"] = None
+        elif isinstance(pc, list):
+            # [{coverage, amount}, ...] -> {coverage: amount}
+            out = {}
+            for it in pc:
+                if isinstance(it, dict):
+                    k = it.get("coverage") or it.get("name") or it.get("garantie")
+                    v = it.get("amount") or it.get("limit") or it.get("value")
+                    if k:
+                        out[str(k)] = _flatten_str(v) if v is not None else ""
+                elif isinstance(it, str):
+                    out[it] = ""
+            ded["per_coverage"] = out or None
+        elif isinstance(pc, dict):
+            ded["per_coverage"] = {k: (v if isinstance(v, str) else json.dumps(v, ensure_ascii=False))
+                                   for k, v in pc.items()}
+    elif isinstance(ded, str):
+        obj["deductibles"] = {"standard": ded}
+
+    # gaps are plain strings in the schema; some models emit {description, page}
+    gaps = obj.get("gaps")
+    if isinstance(gaps, list):
+        flat = []
+        for g in gaps:
+            if isinstance(g, str):
+                flat.append(g)
+            elif isinstance(g, dict):
+                d = g.get("description") or g.get("note") or _flatten_str(g)
+                pg = g.get("page")
+                flat.append(f"{d} (p. {pg})" if pg else str(d))
+            elif g is not None:
+                flat.append(_flatten_str(g))
+        obj["gaps"] = flat
+
+    # `restrictions` is not a schema field, but models occasionally emit one holding real
+    # coverage limitations. Fold it into special_conditions rather than drop extracted
+    # content; the wording is carried over untouched.
+    extra = obj.pop("restrictions", None)
+    if isinstance(extra, list) and extra:
+        sc = obj.get("special_conditions")
+        obj["special_conditions"] = (sc if isinstance(sc, list) else []) + [
+            {k: v for k, v in it.items() if k in ("name", "description", "page", "applies_to")}
+            if isinstance(it, dict) else {"description": _flatten_str(it)}
+            for it in extra]
+
+    dc = obj.get("duration_and_cancellation")
+    if isinstance(dc, dict) and isinstance(dc.get("tacit_renewal"), str):
+        t = dc["tacit_renewal"].lower()
+        dc["tacit_renewal"] = True if any(w in t for w in
+                                          ("tacit", "reconduit", "reconduc", "renouvel", "prorog")) else None
+
+    pp = obj.get("prescription_period")
+    if isinstance(pp, dict):
+        if pp.get("duration") and not pp.get("description"):
+            pp["description"] = pp["duration"]
+        for k in [k for k in pp if k not in ("description", "page")]:
+            pp.pop(k, None)
+
+    # coverages[].sub_limits / conditions are arrays of strings in the schema; some
+    # models emit {name, limit} objects. Flatten to "name: limit".
+    for cov in obj.get("coverages") or []:
+        if not isinstance(cov, dict):
+            continue
+        for key in ("sub_limits", "conditions"):
+            arr = cov.get(key)
+            if arr is None:
+                continue
+            if not isinstance(arr, list):
+                arr = [arr]
+            cov[key] = [_flatten_str(x) for x in arr]
+    return obj
+
+
+def _flatten_str(v):
+    """Coerce a sub_limit / condition item to a plain string, best effort."""
+    if isinstance(v, str):
+        return v
+    if isinstance(v, dict):
+        name = v.get("name") or v.get("label") or v.get("coverage") or v.get("item")
+        val = v.get("limit") or v.get("amount") or v.get("value") or v.get("sub_limit") or v.get("description")
+        if name and val:
+            return f"{name}: {val}"
+        parts = [f"{k}: {x}" for k, x in v.items() if x is not None]
+        return "; ".join(parts) if parts else json.dumps(v, ensure_ascii=False)
+    if isinstance(v, list):
+        return "; ".join(_flatten_str(x) for x in v)
+    return json.dumps(v, ensure_ascii=False)
 
 
 def validate(obj: dict) -> list[str]:

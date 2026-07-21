@@ -8,6 +8,7 @@ branch: sante
 product_name: AMMA Hospi
 document_type: ipid
 target_audience: null
+target_audience_note: null
 reference: 2025-IPID-hospi-fr
 edition_date: '2025'
 lang: fr

@@ -8,6 +8,7 @@ branch: habitation
 product_name: Cocoon Flex
 document_type: conditions_generales
 target_audience: particuliers
+target_audience_note: null
 reference: 0037-1-89/13-7295-112020-F012025
 edition_date: null
 lang: fr
