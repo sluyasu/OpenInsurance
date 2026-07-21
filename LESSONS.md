@@ -21,7 +21,16 @@ Running notes on things that bit us or that a contributor should know. Append as
 - Long conditions PDFs can exceed a model's output budget → the extractor chunks by section and stitches, so a
   single page's content is never split mid-block.
 - Ground everything: `verify_grounding.py` flags any quoted span that isn't in the source text. Treat flags as
-  extraction bugs, not noise.
+  extraction bugs, not noise. But verify the *verifier* before trusting a batch of flags: most of one 20-flag
+  run were false positives caused by the soft hyphens (U+00AD) PyMuPDF emits at wrapped words, not by bad
+  extraction. `nospace()` now folds hyphens on both sides.
+- A quote that really is composed (stitched from separate passages) gets **deleted, not rewritten**. `key_quotes`
+  is a verification artifact and is never rendered, so deleting removes a false grounding signal without
+  touching any published page; hand-editing a quote to "fix" it would invent a citation.
+- **A product name that looks like a scraping artifact may be verbatim.** Two Athora products are genuinely
+  printed as `Crescendo Dynamico.org` and `Crescendo di Generali.org` in their general conditions ("les
+  possibilités offertes par votre contrat Crescendo Dynamico.org", refs 1F637A/1F639A). Cleaning the `.org`
+  would have falsified the data. Check the PDF before "correcting" any extracted string (rules 3 and 4).
 
 ## Wiki / build
 - Generated vs hand-authored folders are disjoint - the generator only writes `products/` and `insurers/`. If a
@@ -54,6 +63,15 @@ Running notes on things that bit us or that a contributor should know. Append as
   the current one; never delete the old one (existing policies reference it).
 - Research agents should carry `edition_date:` and `superseded: true` hints in the source config; the pipeline
   threads them through as fallbacks when the PDF doesn't print a date.
+- **Compare editions only within the same variant.** Supersession partitions on `(document_type, variant)`:
+  comparing across variants by date alone stamped a "replaced by a newer edition" banner on Cardif Hypo Protect
+  Luxembourg, which is sold in parallel with the Belgian edition, not replaced by it. A published supersession
+  banner is a factual claim, so the bar is the same as for any other product fact.
+- A lone document of its type is `edition_status: null`, not `current`. Being the only edition in the dataset is
+  not evidence that the insurer has not published a newer one.
+- `pipeline/link.py` and the MCP server duplicate `_edition_key` on purpose (the server ships standalone on PyPI
+  and cannot import `pipeline/`). `tests/test_pipeline_link.py` asserts they agree, so drift fails the suite
+  instead of quietly making the wiki and the server disagree about which edition is current.
 
 ## Fetching quirks (per insurer)
 - Not every "PDF" is served as `application/pdf`: NN/AMMA/DKV serve `application/octet-stream` (real `%PDF`).
