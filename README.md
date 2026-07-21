@@ -15,7 +15,8 @@ cross-linked into a navigable graph of products, insurers, branches, regulations
 
 As far as we know, this is the **only open-source, machine-readable, source-cited database of insurance
 products** (the closest equivalents are commercial and closed). Point it at **any country**: the taxonomy is
-data, not code, and adding a country is a documented recipe. The first reference dataset already covers
+data, not code, and adding a country is a documented recipe ([`_meta/BOOTSTRAP-COUNTRY.md`](_meta/BOOTSTRAP-COUNTRY.md)).
+The first reference dataset already covers
 **24 insurers and 269 products across 17 branches** in Belgium (auto, home, health, liability, travel, legal
 protection, ...), each page cited to its source document.
 
