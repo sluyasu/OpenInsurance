@@ -26,6 +26,7 @@ navigate it without guessing. Do not edit by hand.
 | country | branch | product | insurer | regulation | concept |
 |---|---|---|---|---|---|
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
+| ch (Switzerland) | 0 | 0 | 0 | 0 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
 

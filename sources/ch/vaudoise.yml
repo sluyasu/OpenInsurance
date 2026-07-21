@@ -1,0 +1,91 @@
+insurer:
+  slug: vaudoise
+  name: Vaudoise Assurances
+  website: https://www.vaudoise.ch/fr
+  segment: particuliers
+  notes: |
+    Romandy-native non-life insurer (Lausanne); French is the source language, not a
+    translation. One central CGA library page lists every document as a direct .pdf href,
+    so plain HTTP is enough and no renderer is needed.
+
+    GOTCHA: the CMS reuses a filename root and appends a hash, so two URLs can share a
+    stem and be different documents. building_cga_012023_f.pdf is "Building" (edition
+    01.01.2023, 46 pages) while building_cga_012023_f1ba6c3d...pdf is "Assurances de
+    construction" (edition 01.01.2022, 35 pages). Verified by downloading both and reading
+    page 1: different sha256, different titles, different editions. Never de-duplicate
+    these by filename; the pipeline keys on a hash of the source URL, which is correct here.
+  fetch_tier: plain          # plain curl returns 200 on the listing page and on every PDF
+listing_pages:
+- url: https://www.vaudoise.ch/fr/a-notre-propos/courtiers/documentations/conditions-generales-assurance
+  lang: fr
+languages:
+- fr
+pdfs:
+- url: https://www.vaudoise.ch/docs/default-source/documents-commerciaux/cga/cga_vm8_20220101_f.pdf
+  branch: vehicules
+  document_type: conditions_generales
+  lang: fr
+  product_name: Assurance véhicules automobiles
+  edition_date: "01.01.2022"
+- url: https://www.vaudoise.ch/docs/default-source/documents-commerciaux/cga/hio_cga_012023_f.pdf
+  branch: menage
+  document_type: conditions_generales
+  lang: fr
+  product_name: Home in One
+  edition_date: "01.2023"
+- url: https://www.vaudoise.ch/docs/default-source/documents-commerciaux/cga/building_cga_012023_f.pdf
+  branch: batiment
+  document_type: conditions_generales
+  lang: fr
+  product_name: Building
+  edition_date: "01.01.2023"
+- url: https://www.vaudoise.ch/docs/default-source/documents-commerciaux/cga/assistance-et-voyage.pdf
+  branch: voyage
+  document_type: conditions_generales
+  lang: fr
+  product_name: Assistance et Voyage
+- url: https://www.vaudoise.ch/docs/default-source/documents-commerciaux/cga/cga_assistance_avenue_20220101_f.pdf
+  branch: vehicules
+  document_type: conditions_generales
+  lang: fr
+  product_name: Assistance Avenue
+  edition_date: "01.01.2022"
+- url: https://www.vaudoise.ch/docs/default-source/documents-commerciaux/cga/orion_pro_cga_fr.pdf
+  branch: protection-juridique
+  document_type: conditions_generales
+  lang: fr
+  product_name: Orion PRO
+- url: https://www.vaudoise.ch/docs/default-source/documents-commerciaux/cga/cga_objet_de_valeur_fr.pdf
+  branch: menage
+  document_type: conditions_generales
+  lang: fr
+  product_name: Objets de valeur en propriété privée
+- url: https://www.vaudoise.ch/docs/default-source/documents-commerciaux/cga/conditions-generales-assurance-technique-tech-in-one.pdf
+  branch: technique
+  document_type: conditions_generales
+  lang: fr
+  product_name: Tech in One
+- url: https://www.vaudoise.ch/docs/default-source/documents-commerciaux/cga/building_cga_012023_f1ba6c3d008af6230abeeff04006a4bf0.pdf
+  branch: technique
+  document_type: conditions_generales
+  lang: fr
+  product_name: Assurances de construction
+  edition_date: "01.01.2022"
+- url: https://www.vaudoise.ch/docs/default-source/documents-commerciaux/cga/ass_inventaire_fr_2024.pdf
+  branch: autres
+  document_type: conditions_generales
+  lang: fr
+  product_name: Business One - Assurance Inventaire
+  edition_date: "2024"
+- url: https://www.vaudoise.ch/docs/default-source/documents-commerciaux/cga/cga_commerce_rce_20220101_f.pdf
+  branch: rc-professionnelle
+  document_type: conditions_generales
+  lang: fr
+  product_name: Business One - Assurance Responsabilité civile entreprise
+  edition_date: "01.01.2022"
+- url: https://www.vaudoise.ch/docs/default-source/documents-commerciaux/cga/informations_clients_oct_2021_f7ff6add008af6230abeeff04006a4bf0.pdf
+  branch: autres
+  document_type: product_sheet
+  lang: fr
+  product_name: Qualification de nos produits d'assurance
+  edition_date: "10.2021"

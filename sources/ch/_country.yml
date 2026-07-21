@@ -1,0 +1,154 @@
+# Switzerland - country manifest. The branch taxonomy is DATA (this is what keeps the
+# project country-agnostic): branch slugs declared here are the allowed `branch` values
+# for products. Aliases feed discover.py's branch inference.
+#
+# TWO SUPERVISORS, split by ACTIVITY and not by legal entity. This is the structural
+# difference from Belgium and it shapes the whole taxonomy:
+#   - OFSP/BAG supervises social health insurance (LAMal/AOS) under LSAMal (RS 832.12).
+#     LSAMal art. 4 al. 2: "Elle publie la liste des assureurs admis."
+#   - FINMA supervises everything under the LCA (RS 961.01), including SUPPLEMENTARY
+#     health. LSA art. 2 al. 2 let. b carves out social health insurance only "dans la
+#     mesure de la surveillance exercée sur cette activité".
+# So one legal entity can be OFSP-supervised for its LAMal book and FINMA-supervised for
+# its LCA book. A census must join both registers rather than pick one.
+#
+# Registers (fetched 2026-07-21):
+#   FINMA  https://www.finma.ch/fr/~/media/finma/dokumente/bewilligungstraeger/xlsx/vu.xlsx?la=fr   190 insurers, no UID
+#   FINMA  https://www.finma.ch/fr/~/media/finma/dokumente/bewilligungstraeger/csv/uid.csv?la=fr    UID, but active-only (170 insurance entities; the 20 missing are run-off)
+#   OFSP   https://www.bag.admin.ch/fr/liste-des-assureurs-maladie                                  LAMal insurers
+# Neither file alone is the census: vu.xlsx is complete but has no join key, uid.csv has
+# the UID but drops run-off entities.
+
+country: ch
+name: Switzerland
+regulator: "FINMA (LCA) + OFSP/BAG (LAMal)"
+industry_body: ASA/SVV
+official_languages: [fr, de, it]
+branch_scheme: "ch-named; LAMal social layer separate from LCA private layer; OS annexe 1 codes A1-A6/B1-B18 where they apply"
+fallback_branch: autres
+
+# `code` refers to the OS (RS 961.011) annexe 1 branch categories used in FINMA's
+# authorisation matrix, where one applies. null means no dedicated code was verified.
+# `mandatory: conditional` means it depends on canton, employment, or asset ownership;
+# the branch page is where that nuance is written out.
+
+branches:
+  maladie-base:
+    label: "Assurance maladie de base (LAMal)"
+    aliases: ["lamal", "assurance de base", "caisse-maladie", "assurance obligatoire des soins", "aos", "grundversicherung", "kvg"]
+    mandatory: true             # LAMal art. 3 al. 1: everyone domiciled in CH, within 3 months
+    code: null
+    # Social regime, OFSP-supervised, insurers must accept every applicant.
+  maladie-complementaire:
+    label: "Assurances complémentaires santé (LCA)"
+    aliases: ["complémentaire", "hospitalisation", "assurance complémentaire", "zusatzversicherung", "vvg"]
+    mandatory: false
+    code: "B2"
+    # LCA regime: health questionnaire, the insurer may refuse. Not the same product as
+    # maladie-base even when sold by the same company under the same brand.
+  accidents-laa:
+    label: "Assurance-accidents obligatoire (LAA)"
+    aliases: ["laa", "suva", "accidents professionnels", "accidents non professionnels", "uvg"]
+    mandatory: conditional      # employees; from 8h/week it also covers non-occupational accidents
+    code: "B1"
+  accidents-complementaire:
+    label: "Assurance-accidents complémentaire (LCA)"
+    aliases: ["complémentaire accidents", "accidents privés", "unfall zusatz"]
+    mandatory: false
+    code: "B1"
+  perte-gain-maladie:
+    label: "Perte de gain maladie"
+    aliases: ["indemnités journalières", "perte de gain", "apg maladie", "ktg", "krankentaggeld"]
+    mandatory: conditional      # optional federally, often imposed by a collective agreement
+    code: "B2"
+  vehicules:
+    label: "Véhicules (RC + casco)"
+    aliases: ["rc auto", "assurance auto", "casco", "moto", "véhicules à moteur", "motorfahrzeug"]
+    mandatory: conditional      # LCR art. 63: liability cover required before a vehicle is used
+    code: "B10/B3"
+    # Wider than Belgium's `auto`: covers motorcycles and fast e-bikes (45 km/h).
+  rc-privee:
+    label: "Responsabilité civile privée"
+    aliases: ["rc privée", "responsabilité civile", "rc ménage", "privathaftpflicht"]
+    mandatory: conditional      # required by most cantons for dog owners, and by most landlords
+    code: "B13"
+    # Absorbs ordinary bicycle liability: the bike vignette was abolished in 2012, so
+    # Belgium's `velo` slug has no Swiss counterpart.
+  menage:
+    label: "Assurance ménage"
+    aliases: ["ménage", "mobilier", "inventaire du ménage", "hausrat"]
+    mandatory: conditional
+    code: "B8/B9"
+    # CONTENTS only. Half of Belgium's `habitation`; the building is a separate regime.
+  batiment:
+    label: "Assurance bâtiment"
+    aliases: ["eca", "assurance immobilière", "établissement cantonal d'assurance", "incendie", "dommages éléments naturels", "gebäudeversicherung"]
+    mandatory: conditional
+    code: "B8"
+    # No Belgian equivalent. 19 cantons run a PUBLIC MONOPOLY (ECA); the 7 "GUSTAVO"
+    # cantons use the private market, where 4 still make it compulsory. A product page
+    # here may therefore have no competitor to compare against, by law.
+  protection-juridique:
+    label: "Protection juridique"
+    aliases: ["protection juridique", "assurance juridique", "rechtsschutz"]
+    mandatory: false
+    code: "B17"
+  rc-professionnelle:
+    label: "RC professionnelle"
+    aliases: ["rc pro", "responsabilité civile professionnelle", "rc entreprise", "betriebshaftpflicht"]
+    mandatory: conditional
+    code: "B13"
+  voyage:
+    label: "Voyage et assistance"
+    aliases: ["assistance", "annulation", "bagages", "eti", "reiseversicherung"]
+    mandatory: false
+    code: "B18"
+  transport:
+    label: "Transport"
+    aliases: ["marchandises transportées", "assurance transport", "transportversicherung"]
+    mandatory: false
+    code: "B7"
+  technique:
+    label: "Assurance technique"
+    aliases: ["bris de machines", "assurance technique", "technische versicherung"]
+    mandatory: false
+    code: "B9"
+    # A standalone ASA branch; in Belgium this would fall into `autres`.
+  navigation:
+    label: "Navigation"
+    aliases: ["bateau", "plaisance", "véhicules lacustres", "schiff"]
+    mandatory: conditional
+    code: "B6/B12"
+  lpp:
+    label: "Prévoyance professionnelle (2e pilier)"
+    aliases: ["lpp", "2e pilier", "caisse de pension", "prévoyance professionnelle", "bvg"]
+    mandatory: conditional      # employees above the entry threshold
+    code: "A1"
+    # Outside FINMA (LSA art. 2 al. 2 let. b). No Belgian equivalent.
+  pilier-3a:
+    label: "Prévoyance individuelle liée (3a)"
+    aliases: ["3a", "pilier 3a", "prévoyance liée", "säule 3a"]
+    mandatory: false
+    code: "A3"
+    # Tax-capped and withdrawal-restricted; legally distinct from 3b.
+  pilier-3b:
+    label: "Prévoyance individuelle libre (3b)"
+    aliases: ["3b", "pilier 3b", "assurance-vie", "prévoyance libre", "säule 3b"]
+    mandatory: false
+    code: "A3"
+  animaux:
+    label: "Animaux"
+    aliases: ["chien", "chat", "animaux de compagnie", "tierversicherung"]
+    mandatory: false
+    code: "B9"
+    # Veterinary costs. A dog owner's liability belongs to rc-privee, not here.
+  cyber:
+    label: "Cyber"
+    aliases: ["cyberassurance", "cyberrisque", "cyberversicherung"]
+    mandatory: false
+    code: null
+  autres:
+    label: "Autres"
+    aliases: ["divers", "assurances spéciales", "sonstige"]
+    mandatory: false
+    code: null

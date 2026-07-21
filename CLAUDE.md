@@ -8,6 +8,14 @@ PDFs and extracts them into a rich, source-cited Markdown wiki. Read this before
 1. **No personalized advice.** This is an information tool. Never recommend, rank, or score insurers/products, and
    never tell a user what to buy. Factual descriptions and neutral side-by-side comparisons only. (Giving
    personalized insurance advice requires a license - e.g. FSMA in Belgium.)
+   **This rule is per jurisdiction, and it is deliberately stricter than any single one of them.** Switzerland,
+   for instance, draws the line elsewhere: OS (RS 961.011) art. 182a al. 3 says "les personnes qui fournissent
+   uniquement des données ou des informations ne sont pas considérées comme des intermédiaires d'assurance", and
+   al. 2 catches ranking and price comparison only for those who "ont un intérêt économique" in a contract being
+   concluded. So in Switzerland the exposure comes from **monetisation**, not from comparing. Keeping the strict
+   rule everywhere is the simple way to be safe in all of them at once; before relaxing it anywhere, check that
+   jurisdiction's own text, and note that monetising the project would change the analysis in Switzerland even
+   if nothing else changed. Per-country detail lives in `_meta/<cc>-market-census.md`.
 2. **Never edit generated pages.** Anything with `generated: true` in its frontmatter (everything under
    `wiki/**/products/` and `wiki/**/insurers/`) is produced by `pipeline/build_wiki.py` from the extraction data.
    To fix a fact, edit the JSON in `data/<cc>/extracted/` (or fix the prompt/re-extract) and rebuild. Editing a
