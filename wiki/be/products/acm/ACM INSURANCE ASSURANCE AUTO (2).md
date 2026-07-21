@@ -24,7 +24,7 @@ extraction_model: claude-code-subagent:scale
 prompt_version: '1.1'
 product_family: acm-insurance-assurance-auto
 variant: null
-edition_status: current
+edition_status: null
 superseded: null
 extends: null
 freshness: '2026-07-08'
@@ -351,7 +351,6 @@ Dépenses imprévues (avance de fonds à l'étranger), transport des biens et du
 
 ## Documents liés
 
-- Édition courante de ce produit.
 - [[ACM INSURANCE ASSURANCE AUTO]] - Conditions générales, éd. 09/2025
 - [[ACM Insurance Assurance Auto (IPID)]] - IPID / Fiche d'information, éd. 09/2025
 - [[ACM Insurance Assurance Auto (IPID)]] - IPID / Fiche d'information, éd. 09/2025

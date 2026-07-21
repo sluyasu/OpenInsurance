@@ -24,7 +24,7 @@ extraction_model: claude-code-subagent:scale
 prompt_version: '1.1'
 product_family: short-term-protect
 variant: Luxembourg
-edition_status: current
+edition_status: null
 superseded: null
 extends: null
 freshness: '2026-07-08'
@@ -156,7 +156,6 @@ L'assuré est en incapacité totale de travail pendant la durée de son assuranc
 
 ## Documents liés
 
-- Édition courante de ce produit.
 - [[Short Term Protect Business]] - Conditions générales, éd. 2023/03
 - [[Short Term Protect Classic - Short Term Protect 2win]] - Conditions générales, éd. 2023/03
 

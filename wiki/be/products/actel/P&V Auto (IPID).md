@@ -24,7 +24,7 @@ extraction_model: claude-code-subagent:scale
 prompt_version: '1.1'
 product_family: pv-auto
 variant: Moto
-edition_status: current
+edition_status: null
 superseded: null
 extends: null
 freshness: '2026-07-08'
@@ -123,7 +123,6 @@ Dans le cadre de l'assistance au véhicule, en cas d'accident, vol, panne ou aut
 
 ## Documents liés
 
-- Édition courante de ce produit.
 - [[P&V Auto (IPID)]] - IPID / Fiche d'information, éd. P11.2018
 
 ## Source & fidélité

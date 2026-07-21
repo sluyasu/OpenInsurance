@@ -32,35 +32,58 @@ def _family_base(obj: dict) -> str:
     return slugify(src) or "produit"
 
 
-def _edition_key(ed) -> tuple[int, int]:
-    """(year, month) sortable key from an edition date as printed in the source PDF
-    (04.2025, 2026-05-12, 12/05/2026, 01042026, 2019, ...); (0, 0) if undated/unparseable."""
+def _edition_key(ed) -> tuple[int, int, int]:
+    """Sortable (year, month, day) from an edition date as printed in the source PDF
+    (04.2025, 2026-05-12, 12/05/2026, 01042026, 2019, ...). (0,0,0) when unparseable.
+
+    Kept byte-identical to the MCP server's parser (mcp/insurance_wiki_mcp.py). The two
+    cannot share a module: the server ships standalone on PyPI and never imports pipeline/.
+    tests/test_pipeline_link.py asserts the two stay in agreement."""
     if not ed:
-        return (0, 0)
+        return (0, 0, 0)
     s = str(ed).strip()
     m = re.fullmatch(r"(\d{4})[-./](\d{1,2})[-./](\d{1,2})", s)   # YYYY-MM-DD
     if m:
         y, a, b = int(m.group(1)), int(m.group(2)), int(m.group(3))
-        return (y, a) if a <= 12 else (y, b)
+        return (y, a, b) if a <= 12 else (y, b, a)
     m = re.fullmatch(r"(\d{1,2})[-./](\d{1,2})[-./](\d{4})", s)   # DD-MM-YYYY
     if m:
-        return (int(m.group(3)), int(m.group(2)))
+        d, mo, y = int(m.group(1)), int(m.group(2)), int(m.group(3))
+        if mo > 12 and d <= 12:
+            d, mo = mo, d
+        return (y, mo, d)
     m = re.fullmatch(r"(\d{1,2})[-./](\d{4})", s)                 # MM-YYYY
     if m:
-        return (int(m.group(2)), int(m.group(1)))
+        return (int(m.group(2)), int(m.group(1)), 0)
     m = re.fullmatch(r"(\d{4})[-./](\d{1,2})", s)                 # YYYY-MM
     if m:
-        return (int(m.group(1)), int(m.group(2)))
-    m = re.fullmatch(r"(\d{2})(\d{2})(\d{4})", s)                 # DDMMYYYY
-    if m:
-        return (int(m.group(3)), int(m.group(2)))
+        return (int(m.group(1)), int(m.group(2)), 0)
+    if re.fullmatch(r"\d{8}", s):                                 # YYYYMMDD / DDMMYYYY
+        if s[:2] in ("19", "20") and int(s[4:6]) <= 12:
+            return (int(s[:4]), int(s[4:6]), int(s[6:8]))
+        if int(s[2:4]) <= 12:
+            return (int(s[4:8]), int(s[2:4]), int(s[:2]))
+        return (0, 0, 0)
+    if re.fullmatch(r"\d{6}", s):                                 # YYYYMM / MMYYYY
+        if s[:2] in ("19", "20") and int(s[4:6]) <= 12:
+            return (int(s[:4]), int(s[4:6]), 0)
+        if int(s[:2]) <= 12 and s[2:4] in ("19", "20"):
+            return (int(s[2:6]), int(s[:2]), 0)
+        return (0, 0, 0)
     m = re.fullmatch(r"(\d{1,2})[./](\d{2})", s)                  # MM.YY
     if m and int(m.group(1)) <= 12:
-        return (2000 + int(m.group(2)), int(m.group(1)))
-    m = re.search(r"\b(19|20)\d\d\b", s)                          # bare year somewhere
+        return (2000 + int(m.group(2)), int(m.group(1)), 0)
+    if re.fullmatch(r"\d{4}", s) and s[:2] not in ("19", "20") and int(s[:2]) <= 12:
+        return (2000 + int(s[2:4]), int(s[:2]), 0)               # MMYY ("0523")
+    m = re.match(r"(\d{4,8})\b", s)                               # composite refs: "112020-F012025"
+    if m and m.group(1) != s:
+        k = _edition_key(m.group(1))
+        if k != (0, 0, 0):
+            return k
+    m = re.search(r"\b(19|20)\d{2}\b", s)                         # bare year somewhere
     if m:
-        return (int(m.group(0)), 0)
-    return (0, 0)
+        return (int(m.group(0)), 0, 0)
+    return (0, 0, 0)
 
 
 def compute_relations(products: list[dict]) -> dict[str, dict]:
@@ -74,16 +97,18 @@ def compute_relations(products: list[dict]) -> dict[str, dict]:
     rel: dict[str, dict] = {}
     for key, group in groups.items():
         titles = {id(o): render.product_title(o) for o in group}
-        # version status among same document_type
-        by_type: dict[str, list[dict]] = defaultdict(list)
+        # Version status among documents of the same type AND the same variant. Variants
+        # (channel/formula, e.g. a Luxembourg edition sold alongside the Belgian one) run
+        # in parallel and never supersede each other - only editions do (rule 8).
+        by_type: dict[tuple, list[dict]] = defaultdict(list)
         for o in group:
-            by_type[o.get("document_type", "")].append(o)
+            by_type[(o.get("document_type", ""), o.get("variant"))].append(o)
 
         superseded_by = {}
         current_flag = {}
         for dt, docs in by_type.items():
             dated = [(o, _edition_key(o.get("edition_date"))) for o in docs]
-            dated = [(o, k) for o, k in dated if k != (0, 0)]
+            dated = [(o, k) for o, k in dated if k != (0, 0, 0)]
             if len(dated) >= 2:
                 maxk = max(k for _, k in dated)
                 newest = next(o for o, k in dated if k == maxk)

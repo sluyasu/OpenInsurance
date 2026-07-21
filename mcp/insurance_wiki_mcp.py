@@ -844,7 +844,7 @@ def find_overlap(country: str, product_names: list[str], on: str = "coverages",
     if guard:
         return f"{DISCLAIMER}\n{guard}"
     allp = _extracted(country)
-    chosen, ambiguous = [], {}
+    chosen, unmatched, ambiguous = [], [], {}
     for i, name in enumerate(product_names):
         o, _others, amb, near = _resolve_product(allp, name,
                                                  insurer_slugs[i] if insurer_slugs else "")
@@ -852,13 +852,16 @@ def find_overlap(country: str, product_names: list[str], on: str = "coverages",
             ambiguous[name] = amb
         elif o:
             chosen.append((o, near))
+        else:
+            unmatched.append(name)
     if ambiguous:
         return (DISCLAIMER + "\nAmbiguous product name(s): each matches several distinct "
                 "products (candidates below). Use a more specific name or pin each name "
                 "to one insurer with insurer_slugs.\n"
                 + json.dumps(ambiguous, ensure_ascii=False, indent=2))
     if len(chosen) < 2:
-        return f"{DISCLAIMER}\nNeed at least 2 matching products; matched {len(chosen)}."
+        return (f"{DISCLAIMER}\nNeed at least 2 matching products; matched {len(chosen)}."
+                + (f" Unmatched: {unmatched}" if unmatched else ""))
     labels = {k: v["label"] for k, v in _categories().items()}
     cat_items = defaultdict(list)
     per_product = []
@@ -881,10 +884,15 @@ def find_overlap(country: str, product_names: list[str], on: str = "coverages",
             overlaps.append({"category": labels.get(c, c),
                              "products": sorted({e["product"] for e in entries}), "items": entries})
     overlaps.sort(key=lambda x: -len(x["products"]))
-    result = {"on": on, "products": per_product, "candidate_overlaps": overlaps,
-              "note": ("candidate_overlaps are heuristic (a shared controlled category); confirm each "
-                       "against the actual coverage descriptions. Absence of a category is not proof of "
-                       "no overlap - the taxonomy is not exhaustive.")}
+    note = ("candidate_overlaps are heuristic (a shared controlled category); confirm each "
+            "against the actual coverage descriptions. Absence of a category is not proof of "
+            "no overlap - the taxonomy is not exhaustive.")
+    if unmatched:
+        note += (" INCOMPLETE: the products listed in 'unmatched' were not found and were not "
+                 "analysed, so overlaps involving them cannot appear here.")
+    result = {"on": on, "products": per_product, "candidate_overlaps": overlaps, "note": note}
+    if unmatched:
+        result["unmatched"] = unmatched
     return DISCLAIMER + "\n" + json.dumps(result, ensure_ascii=False, indent=2)
 
 

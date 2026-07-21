@@ -24,7 +24,7 @@ extraction_model: claude-code-subagent:scale
 prompt_version: '1.1'
 product_family: hypo-protect
 variant: null
-edition_status: current
+edition_status: null
 superseded: null
 extends: null
 freshness: '2026-07-08'
@@ -160,7 +160,6 @@ Si vous avez choisi cette couverture et que l'assuré se retrouve involontaireme
 
 ## Documents liés
 
-- Édition courante de ce produit.
 - [[Hypo Protect (Fiche)]] - Fiche produit, éd. 06/2024
 - [[Hypo Protect Classic - Hypo Protect 2Win Luxembourg]] - Conditions générales, éd. 2023/03
 

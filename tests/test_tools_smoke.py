@@ -96,6 +96,23 @@ def test_find_overlap_worked_example(mcp):
     assert "note" in payload
 
 
+def test_find_overlap_reports_unmatched_products(mcp):
+    """A name that resolves to nothing used to vanish from the result: the caller got a
+    confident overlap analysis over 2 products while believing it covered 3."""
+    out = mcp.find_overlap("be", ["Police habitation pour le propriétaire",
+                                  "La Police familiale", "produit qui n'existe pas"])
+    payload = parse_payload(out)
+    assert payload["unmatched"] == ["produit qui n'existe pas"]
+    assert len(payload["products"]) == 2
+    assert "INCOMPLETE" in payload["note"]
+
+
+def test_find_overlap_too_few_matches_names_the_unmatched(mcp):
+    out = mcp.find_overlap("be", ["La Police familiale", "produit qui n'existe pas"])
+    assert "Need at least 2 matching products" in out
+    assert "produit qui n'existe pas" in out
+
+
 def test_get_branch_overview(mcp):
     out = mcp.get_branch_overview("be", "auto")
     assert "No branch overview" not in out and len(out) > 200

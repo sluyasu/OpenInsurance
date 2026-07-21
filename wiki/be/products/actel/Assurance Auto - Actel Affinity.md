@@ -24,7 +24,7 @@ extraction_model: claude-code-subagent:scale
 prompt_version: '1.1'
 product_family: assurance-auto
 variant: Actel Affinity
-edition_status: current
+edition_status: null
 superseded: null
 extends: null
 freshness: '2026-07-08'
@@ -244,7 +244,6 @@ Garantie complémentaire (acquise si le véhicule bénéficie de Car Relax et si
 
 ## Documents liés
 
-- Édition courante de ce produit.
 - [[Assurance Auto - Actel Direct]] - Conditions générales, éd. 04.2013
 
 ## Source & fidélité

@@ -24,8 +24,8 @@ extraction_model: claude-code-subagent:scale
 prompt_version: '1.1'
 product_family: hypo-protect
 variant: Luxembourg
-edition_status: superseded
-superseded: true
+edition_status: null
+superseded: null
 extends: null
 freshness: '2026-07-08'
 status: ready
@@ -119,7 +119,6 @@ Toute action dérivant du présent contrat est prescrite après un délai de tro
 
 ## Documents liés
 
-- ⚠️ Édition remplacée par une version plus récente : [[Hypo Protect Classic - Hypo Protect 2Win]]
 - [[Hypo Protect (Fiche)]] - Fiche produit, éd. 06/2024
 - [[Hypo Protect Classic - Hypo Protect 2Win]] - Conditions générales, éd. 2024/06
 

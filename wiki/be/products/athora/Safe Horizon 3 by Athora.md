@@ -24,7 +24,7 @@ extraction_model: claude-code-subagent:scale
 prompt_version: '1.1'
 product_family: safe-horizon
 variant: '3'
-edition_status: current
+edition_status: null
 superseded: null
 extends: null
 freshness: '2026-07-08'
@@ -149,7 +149,6 @@ Après rachat total et paiement de la valeur de rachat, le preneur peut remettre
 
 ## Documents liés
 
-- Édition courante de ce produit.
 - [[Safe Horizon 5 by Athora]] - Conditions générales, éd. 09/2024
 
 ## Source & fidélité

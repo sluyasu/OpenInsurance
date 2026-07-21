@@ -26,7 +26,7 @@ extraction_model: claude-code-subagent:scale
 prompt_version: '1.1'
 product_family: dkv-smile
 variant: Essential
-edition_status: current
+edition_status: null
 superseded: null
 extends: null
 freshness: '2026-07-05'
@@ -205,7 +205,6 @@ Le délai de prescription pour soumettre des frais d'un cas d'assurance est de 3
 
 ## Documents liés
 
-- Édition courante de ce produit.
 - [[DKV SMILE Comfort (IPID)]] - IPID / Fiche d'information, éd. 202212
 - [[DKV SMILE Essential (IPID)]] - IPID / Fiche d'information, éd. 202212
 - [[DKV SMILE Premium (IPID)]] - IPID / Fiche d'information, éd. 202212

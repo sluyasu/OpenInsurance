@@ -24,7 +24,7 @@ extraction_model: claude-code-subagent:scale
 prompt_version: '1.1'
 product_family: short-term-protect
 variant: Business
-edition_status: current
+edition_status: null
 superseded: null
 extends: null
 freshness: '2026-07-08'
@@ -124,7 +124,6 @@ L'assuré décède pendant la durée de l'assurance ? L'assureur paie alors au b
 
 ## Documents liés
 
-- Édition courante de ce produit.
 - [[Short Term Protect Classic - Short Term Protect 2win]] - Conditions générales, éd. 2023/03
 - [[Short Term Protect - Luxembourg]] - Conditions générales, éd. 2023/03
 

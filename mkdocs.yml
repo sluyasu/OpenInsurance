@@ -3,6 +3,9 @@ site_description: Open, source-cited knowledge base of insurance products (Belgi
 site_url: https://sluyasu.github.io/OpenInsurance/
 repo_url: https://github.com/sluyasu/OpenInsurance
 repo_name: sluyasu/OpenInsurance
+# The published pages come from wiki/, not the mkdocs default (raw/master/docs/), so the
+# view-source button has to point there or it 404s on every page.
+edit_uri: blob/main/wiki/
 
 # The site is built from a CI-staged copy of wiki/ (see .github/workflows/pages.yml);
 # wiki/ itself is never modified by the site build.

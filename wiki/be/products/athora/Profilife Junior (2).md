@@ -24,7 +24,7 @@ extraction_model: claude-code-subagent:scale
 prompt_version: '1.1'
 product_family: profilife-junior
 variant: Franchise
-edition_status: current
+edition_status: null
 superseded: null
 extends: null
 freshness: '2026-07-08'
@@ -181,7 +181,6 @@ Garantie Junior Assistance que le preneur d’assurance a la possibilité de sou
 
 ## Documents liés
 
-- Édition courante de ce produit.
 - [[Profilife Junior]] - Conditions générales, éd. 01/2026
 
 ## Source & fidélité
