@@ -33,9 +33,11 @@ def norm(s: str) -> str:
 
 
 def nospace(s: str) -> str:
-    """Whitespace-insensitive form: neutralizes French space-before-punctuation and
-    line breaks inside a quote so verbatim matching isn't defeated by layout."""
-    return re.sub(r"\s+", "", norm(s))
+    """Whitespace- and hyphenation-insensitive form: neutralizes French
+    space-before-punctuation, line breaks, and line-break hyphenation inside a quote
+    (including the soft hyphens U+00AD that PyMuPDF emits at wrapped words) so verbatim
+    matching isn't defeated by PDF layout."""
+    return re.sub("[\\s\u00ad\u2010\u2011-]", "", norm(s))
 
 
 def pdf_text(path: Path) -> str:

@@ -8,7 +8,7 @@ COUNTRY ?= be
 PY      ?= python3
 PIP     ?= $(PY) -m pip
 
-.PHONY: help setup discover download extract ground build index validate all
+.PHONY: help setup discover download extract ground ground-strict build index validate all
 
 help:
 	@echo "Targets (set COUNTRY=<cc>, optional INSURER=<slug>):"
@@ -17,10 +17,11 @@ help:
 	@echo "  download   fetch PDFs -> data/<cc>/pdfs/ (resumable, checksummed)"
 	@echo "  extract    PDFs -> rich Markdown + JSON via the committed extraction agent (LLM)"
 	@echo "  ground     verify extracted quotes exist in the source text"
+	@echo "  ground-strict  same, but exit non-zero on any ungrounded quote"
 	@echo "  build      extracted data -> wiki/ pages + MOCs (resume-safe)"
 	@echo "  index      regenerate AGENTS.md + data/<cc>/index.json"
 	@echo "  validate   frontmatter / wikilinks / orphans / citation gates"
-	@echo "  all        download -> extract -> ground -> build -> index -> validate"
+	@echo "  all        download -> extract -> ground-strict -> build -> index -> validate"
 
 setup:
 	$(PIP) install -r requirements.txt
@@ -38,6 +39,9 @@ extract:
 ground:
 	$(PY) pipeline/verify_grounding.py --country $(COUNTRY)
 
+ground-strict:
+	$(PY) pipeline/verify_grounding.py --country $(COUNTRY) --strict
+
 build:
 	$(PY) pipeline/build_wiki.py --country $(COUNTRY)
 
@@ -47,4 +51,4 @@ index:
 validate:
 	$(PY) pipeline/validate.py --country $(COUNTRY)
 
-all: download extract ground build index validate
+all: download extract ground-strict build index validate
