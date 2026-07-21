@@ -25,6 +25,7 @@ prompt_version: '1.1'
 product_family: responsabilite-civile-professionnelle-marketing-communication
 variant: null
 edition_status: null
+edition_age_years: 2
 superseded: null
 extends: null
 freshness: '2026-07-08'

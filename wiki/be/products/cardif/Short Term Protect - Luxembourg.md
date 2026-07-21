@@ -25,6 +25,7 @@ prompt_version: '1.1'
 product_family: short-term-protect
 variant: Luxembourg
 edition_status: null
+edition_age_years: 3
 superseded: null
 extends: null
 freshness: '2026-07-08'

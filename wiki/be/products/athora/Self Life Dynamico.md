@@ -25,6 +25,7 @@ prompt_version: '1.1'
 product_family: self-life-dynamico
 variant: null
 edition_status: current
+edition_age_years: 0
 superseded: null
 extends: null
 freshness: '2026-07-08'

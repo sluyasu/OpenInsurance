@@ -25,6 +25,7 @@ prompt_version: '1.1'
 product_family: dkv-hospi-essential
 variant: 92U & 92X
 edition_status: null
+edition_age_years: 1
 superseded: null
 extends: null
 freshness: '2026-07-05'

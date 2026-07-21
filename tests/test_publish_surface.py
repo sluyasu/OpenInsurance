@@ -116,6 +116,43 @@ def test_bare_filename_never_belongs_to_a_superseded_edition():
     assert not bad, f"superseded editions holding the bare filename: {bad}"
 
 
+def test_old_editions_carry_an_age_notice():
+    """A 2010 edition read exactly like a current one, so "what does ERGO sell?" answered
+    with contracts written 15 years ago."""
+    missing = []
+    for p in WIKI.glob("products/*/*.md"):
+        fm = _frontmatter(p)
+        age = fm.get("edition_age_years")
+        if isinstance(age, int) and age >= render.OLD_EDITION_YEARS \
+                and fm.get("edition_status") != "superseded":
+            if "Édition ancienne" not in p.read_text(encoding="utf-8"):
+                missing.append(p.relative_to(WIKI))
+    assert not missing, f"old editions with no age notice: {missing[:5]}"
+
+
+def test_age_notice_states_age_without_claiming_the_product_is_withdrawn():
+    """The documents do not say whether the product is still sold. The notice must report
+    the age and say the question is open, not assert a run-off."""
+    forbidden = ["produit fermé", "n'est plus commercialisé.", "run-off", "retiré de la vente"]
+    for p in WIKI.glob("products/*/*.md"):
+        txt = p.read_text(encoding="utf-8")
+        if "Édition ancienne" not in txt:
+            continue
+        notice = next(l for l in txt.splitlines() if "Édition ancienne" in l)
+        assert "à vérifier auprès de l'assureur" in notice
+        for f in forbidden:
+            assert f not in notice, f"{p.name}: notice asserts withdrawal ({f!r})"
+
+
+def test_edition_age_is_measured_against_collection_not_today():
+    """Measuring against today() would make every rebuild a diff."""
+    obj = {"edition_date": "2010", "fetched_at": "2026-07-08"}
+    assert render.edition_age_years(obj) == 16
+    assert render.edition_age_years({"edition_date": "2010"}) is None
+    # a document collected before its printed edition date is not negative-aged
+    assert render.edition_age_years({"edition_date": "2026", "fetched_at": "2020-01-01"}) is None
+
+
 @pytest.mark.parametrize("frm,to,expected", [
     ("products/axa/A.md", "insurers/AXA.md", "[l](../../insurers/AXA.md)"),
     ("products/axa/A.md", "products/axa/B.md", "[l](B.md)"),

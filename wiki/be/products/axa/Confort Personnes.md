@@ -25,6 +25,7 @@ prompt_version: '1.1'
 product_family: confort-personnes
 variant: null
 edition_status: null
+edition_age_years: 4
 superseded: null
 extends: null
 freshness: '2026-07-05'

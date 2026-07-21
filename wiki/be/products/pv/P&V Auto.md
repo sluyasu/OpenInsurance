@@ -25,6 +25,7 @@ prompt_version: '1.1'
 product_family: pv-auto
 variant: null
 edition_status: null
+edition_age_years: 7
 superseded: null
 extends: null
 freshness: '2026-07-05'
@@ -39,6 +40,8 @@ generated: true
 Conditions générales P&V Auto (édition novembre 2019) de P&V Assurances SCRL, contrat d'assurance automobile belge conforme à la loi du 21 novembre 1989. Le contrat se divise en 5 volets : Responsabilité civile (garantie légale RC auto obligatoire), Protection juridique (gérée par Arces), Protection du conducteur (droit commun ou formule forfaitaire), Dommages au véhicule (bris de glaces, incendie, forces de la nature et animaux, vol, dégâts matériels) et Assistance (véhicule et personnes, mises en œuvre par IMA Benelux / P&V Assistance). Chaque garantie autre que la RC légale n'est acquise que si mention en est faite aux conditions particulières.
 
 - Assureur : [P&V Assurances](../../insurers/P%26V%20Assurances.md) · Branche : [Auto](../../branches/Auto.md) · Type : Conditions générales · Édition : 11.2019
+
+> ⚠️ **Édition ancienne** : 11.2019, soit 7 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 
 ## Définitions
 

@@ -25,6 +25,7 @@ prompt_version: '1.1'
 product_family: belfius-family
 variant: null
 edition_status: null
+edition_age_years: 6
 superseded: null
 extends: null
 freshness: '2026-07-05'

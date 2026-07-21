@@ -25,6 +25,7 @@ prompt_version: '1.1'
 product_family: crescendo-di-generaliorg
 variant: null
 edition_status: null
+edition_age_years: 11
 superseded: null
 extends: null
 freshness: '2026-07-08'
@@ -39,6 +40,8 @@ generated: true
 Crescendo di Generali.org est un contrat d’assurance de capitalisation de la branche 26 à versements libres, souscrit auprès de Generali Belgium. Chaque versement bénéficie d’un taux d’intérêt garanti (taux d’intérêt technique) pendant une période de garantie, renouvelée par périodes successives, complété par une participation bénéficiaire répartie annuellement. L’épargne constituée est disponible au terme sans indemnité et peut faire l’objet de retraits en cours de contrat, moyennant le cas échéant une indemnité de rachat dégressive.
 
 - Assureur : [Athora Belgium](../../insurers/Athora%20Belgium.md) · Branche : Épargne / Placement (Branche 21/23) · Type : Conditions générales · Édition : 12/2015
+
+> ⚠️ **Édition ancienne** : 12/2015, soit 11 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 
 ## Définitions
 

@@ -25,6 +25,7 @@ prompt_version: '1.1'
 product_family: flexinvest-management
 variant: null
 edition_status: null
+edition_age_years: 14
 superseded: null
 extends: null
 freshness: '2026-07-08'
@@ -39,6 +40,8 @@ generated: true
 Le Flexinvest Management est une formule d’épargne, un compte-assurance de la branche 21 avec des retraits programmés par le client, lié à un contrat d’assurance-vie avec un taux d’intérêt technique garanti et une participation bénéficiaire. À l’échéance, le capital de la police est versé; en cas de décès de l’assuré, le capital est versé au(x) bénéficiaire(s) sans frais. Le client peut programmer des retraits mensuels et effectuer, en plus, des retraits gratuits dont le pourcentage dépend de la durée choisie.
 
 - Assureur : [ERGO Insurance SA/NV](../../insurers/ERGO%20Insurance%20SA-NV.md) · Branche : Épargne / Placement (Branche 21/23) · Type : Fiche produit · Édition : 02/01/2012
+
+> ⚠️ **Édition ancienne** : 02/01/2012, soit 14 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 
 ## Définitions
 

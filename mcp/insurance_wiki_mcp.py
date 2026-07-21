@@ -284,12 +284,35 @@ def _tie_note(chosen: dict, others: list[dict]) -> str:
             "by document_type/edition.]")
 
 
+OLD_EDITION_YEARS = 7   # keep in step with pipeline/render.py
+
+
+def _edition_age_years(obj: dict) -> int | None:
+    """Whole years between the printed edition date and the day the PDF was collected."""
+    ey = _edition_key(obj.get("edition_date"))[0]
+    fy = _edition_key(obj.get("fetched_at"))[0]
+    if not ey or not fy or fy < ey:
+        return None
+    return fy - ey
+
+
 def _doc_meta(obj: dict) -> dict:
     """The identifiers that tell two same-named documents apart."""
-    return {"product_name": obj.get("product_name"), "insurer_slug": obj.get("insurer_slug"),
-            "document_type": obj.get("document_type"), "edition_date": obj.get("edition_date"),
-            "reference": obj.get("reference"), "superseded": obj.get("superseded"),
-            "source_url": obj.get("source_url")}
+    out = {"product_name": obj.get("product_name"), "insurer_slug": obj.get("insurer_slug"),
+           "document_type": obj.get("document_type"), "edition_date": obj.get("edition_date"),
+           "reference": obj.get("reference"), "superseded": obj.get("superseded"),
+           "source_url": obj.get("source_url")}
+    # An agent asking "what does ERGO sell?" was getting 2010 editions back with nothing
+    # to distinguish them from current ones. State the age, not a conclusion: whether the
+    # product is still sold is not in the document.
+    age = _edition_age_years(obj)
+    if age is not None and age >= OLD_EDITION_YEARS:
+        out["edition_age_years"] = age
+        out["edition_age_note"] = (
+            f"this edition was {age} years old when collected; the insurer was still "
+            "publishing it, but whether the product is still sold is not stated in the "
+            "document")
+    return out
 
 
 def _product_groups(matches: list[dict]) -> list[list[dict]]:

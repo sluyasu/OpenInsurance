@@ -26,6 +26,7 @@ prompt_version: '1.1'
 product_family: rc-professionnelle
 variant: null
 edition_status: null
+edition_age_years: 9
 superseded: null
 extends: null
 freshness: '2026-07-05'
@@ -40,6 +41,8 @@ generated: true
 Conditions générales du contrat R.C. Professionnelle d'AMMA Assurances, couvrant la responsabilité civile professionnelle (contractuelle et extracontractuelle) de l'assuré du chef de dommages corporels ou matériels causés à des tiers dans l'exercice normal et légal de son art. Le contrat fonctionne suivant le système du "FAIT GENERATEUR" et assure la postériorité. Il comprend quatre garanties : Responsabilité Civile Professionnelle, Accidents (patients et accompagnants), Assistance en Justice et Recours, et Agression et autres risques professionnels (agression, vandalisme, vol, hold-up, car-jacking, atteinte à la réputation, harcèlement, cyberattaque, syndrome de la deuxième victime, terrorisme). Les garanties Accidents, Assistance en Justice et Agression ne s'appliquent que si la couverture est mentionnée aux conditions particulières.
 
 - Assureur : [AMMA Assurances](../../insurers/AMMA%20Assurances.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : Conditions générales · Édition : 08/2017
+
+> ⚠️ **Édition ancienne** : 08/2017, soit 9 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 
 ## Définitions
 

@@ -27,6 +27,7 @@ prompt_version: '1.1'
 product_family: engagement-individuel-de-pension-pension-libre-complementaire-pour-independants
 variant: Assurances Complémentaires
 edition_status: null
+edition_age_years: 5
 superseded: null
 extends: Assurance principale — Engagement Individuel de Pension pour indépendants
   / Pension Libre Complémentaire pour Indépendants

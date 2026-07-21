@@ -25,6 +25,7 @@ prompt_version: '1.1'
 product_family: pv-auto
 variant: null
 edition_status: null
+edition_age_years: 8
 superseded: null
 extends: null
 freshness: '2026-07-08'
@@ -39,6 +40,8 @@ generated: true
 Document d'information sur le produit d'assurance (IPID) pour P&V Auto, une assurance véhicule automoteur couvrant les risques liés à la détention et l'usage d'une voiture, minibus ou camionnette. Seule la garantie Responsabilité civile est légalement obligatoire; l'assuré peut renforcer sa protection avec des options liées à lui-même, à son véhicule ou à sa mobilité (Protection juridique, Protection du conducteur, Dommages au véhicule, Assistance).
 
 - Assureur : [Actel](../../insurers/Actel.md) · Branche : [Auto](../../branches/Auto.md) · Type : IPID / Fiche d'information · Édition : P11.2018
+
+> ⚠️ **Édition ancienne** : P11.2018, soit 8 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 
 ## Garanties
 

@@ -25,6 +25,7 @@ prompt_version: '1.1'
 product_family: vivium-habitation
 variant: null
 edition_status: null
+edition_age_years: 8
 superseded: null
 extends: null
 freshness: '2026-07-05'
@@ -39,6 +40,8 @@ generated: true
 Conditions générales de l'assurance VIVIUM Habitation (P&V Assurances SCRL), un contrat d'assurance incendie / habitation pour risques simples couvrant le bâtiment et/ou le contenu à usage d'habitation. Le contrat comprend une Assistance Habitation (24h/24), des garanties de base (incendie, foudre, explosion, implosion, fumée et suie, heurt, dégradations immobilières lors d'un vol/vandalisme, action de l'électricité, tempête/grêle/pression de la neige, bris de vitrages, dégâts d'eau, mazout, responsabilité civile bâtiment, recours des tiers, conflits du travail et attentats), la garantie catastrophes naturelles, des garanties optionnelles (Vol et vandalisme du contenu, pertes indirectes, protection juridique) ainsi que des garanties complémentaires et dommages indirects. Divers packs peuvent être souscrits (Pack Habitation Plus, Pack Jardin, Pack Vol Plus). Le contrat s'adresse aux propriétaires, locataires ou occupants.
 
 - Assureur : [Vivium](../../insurers/Vivium.md) · Branche : [Habitation](../../branches/Habitation.md) · Type : Conditions générales · Édition : 2018-01
+
+> ⚠️ **Édition ancienne** : 2018-01, soit 8 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 
 ## Définitions
 

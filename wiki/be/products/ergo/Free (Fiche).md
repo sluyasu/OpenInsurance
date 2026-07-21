@@ -25,6 +25,7 @@ prompt_version: '1.1'
 product_family: free
 variant: null
 edition_status: null
+edition_age_years: 15
 superseded: null
 extends: null
 freshness: '2026-07-08'
@@ -39,6 +40,8 @@ generated: true
 Le Free est un compte d’épargne flexible, un compte-assurance de la Branche 21, lié à une assurance-vie avec un taux d’intérêt technique non garanti et une participation bénéficiaire. À l’échéance, le capital de la police est versé; en cas de décès de l’assuré, le capital de la police est versé au(x) bénéficiaire(s) désigné(s). Une couverture décès complémentaire optionnelle de 130% peut être souscrite. Il n’y a pas de droits d’entrée, de sortie, de frais de gestion ni de frais de dossier.
 
 - Assureur : [ERGO Insurance SA/NV](../../insurers/ERGO%20Insurance%20SA-NV.md) · Branche : Épargne / Placement (Branche 21/23) · Type : Fiche produit · Édition : 07/11/2011
+
+> ⚠️ **Édition ancienne** : 07/11/2011, soit 15 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 
 ## Définitions
 

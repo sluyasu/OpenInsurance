@@ -26,6 +26,7 @@ prompt_version: '1.1'
 product_family: kbc-assurance-hospitalisation
 variant: null
 edition_status: null
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-05'

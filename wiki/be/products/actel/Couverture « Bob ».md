@@ -25,6 +25,7 @@ prompt_version: '1.1'
 product_family: actel-auto
 variant: null
 edition_status: null
+edition_age_years: null
 superseded: null
 extends: Actel Auto (assurance responsabilité civile)
 freshness: '2026-07-08'

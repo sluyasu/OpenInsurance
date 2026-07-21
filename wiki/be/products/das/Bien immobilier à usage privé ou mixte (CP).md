@@ -26,6 +26,7 @@ prompt_version: '1.1'
 product_family: bien-immobilier-a-usage-prive-ou-mixte
 variant: null
 edition_status: null
+edition_age_years: 1
 superseded: null
 extends: null
 freshness: '2026-07-05'

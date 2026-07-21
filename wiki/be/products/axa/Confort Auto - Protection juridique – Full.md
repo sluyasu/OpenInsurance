@@ -25,6 +25,7 @@ prompt_version: '1.1'
 product_family: confort-auto
 variant: Full
 edition_status: null
+edition_age_years: 2
 superseded: null
 extends: Confort Auto
 freshness: '2026-07-05'

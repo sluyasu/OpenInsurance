@@ -25,6 +25,7 @@ prompt_version: '1.1'
 product_family: assurance-auto
 variant: null
 edition_status: superseded
+edition_age_years: 2
 superseded: true
 extends: null
 freshness: '2026-07-05'

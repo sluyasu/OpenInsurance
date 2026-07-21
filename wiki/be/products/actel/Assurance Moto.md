@@ -25,6 +25,7 @@ prompt_version: '1.1'
 product_family: actel-moto
 variant: null
 edition_status: null
+edition_age_years: 9
 superseded: null
 extends: null
 freshness: '2026-07-08'
@@ -39,6 +40,8 @@ generated: true
 Conditions générales de l'assurance Moto Actel (marque de P&V Assurances). Le document réunit trois modules : le module Responsabilité Civile Moto (contrat-type de l'arrêté du 14/12/1992 - loi du 21/11/1989), l'Assistance Moto et la Protection Juridique Moto. Le module RC couvre la responsabilité civile encourue par les assurés à la suite d'un sinistre causé par le véhicule désigné, avec garantie illimitée pour les lésions corporelles et limitée à 100 millions d'EUR par sinistre pour les dommages matériels. L'Assistance Moto organise le remorquage, le rapatriement des passagers et du véhicule et une voiture de remplacement. La Protection Juridique prend en charge le recours civil et la défense pénale et administrative. Seules les garanties mentionnées aux conditions particulières sont d'application.
 
 - Assureur : [Actel](../../insurers/Actel.md) · Branche : [Auto](../../branches/Auto.md) · Type : Conditions générales · Édition : 01.2017
+
+> ⚠️ **Édition ancienne** : 01.2017, soit 9 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 
 ## Définitions
 

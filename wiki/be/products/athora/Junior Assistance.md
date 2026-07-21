@@ -25,6 +25,7 @@ prompt_version: '1.1'
 product_family: junior-assistance
 variant: null
 edition_status: null
+edition_age_years: 6
 superseded: null
 extends: contrat d’épargne JUNIOR
 freshness: '2026-07-08'

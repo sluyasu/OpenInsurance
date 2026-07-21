@@ -26,6 +26,7 @@ prompt_version: '1.1'
 product_family: reglement-ou-convention-de-pension
 variant: null
 edition_status: null
+edition_age_years: null
 superseded: null
 extends: Règlement ou Convention de Pension et Conditions Générales du contrat d'assurance
   vie

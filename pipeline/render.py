@@ -99,6 +99,30 @@ def branch_label(country_meta: dict, slug: str) -> str:
     return country_meta.get("branches", {}).get(slug, {}).get("label", slug)
 
 
+# An edition older than this gets an age notice. Long enough not to cry wolf over a
+# document an insurer simply has not restyled, short enough to catch the 2010-2014 batch.
+OLD_EDITION_YEARS = 7
+
+
+def edition_age_years(obj: dict) -> int | None:
+    """Whole years between the printed edition date and the day the PDF was collected.
+
+    Measured against fetched_at, not today(): a date that moves would make every rebuild
+    a diff and break the idempotence gate.
+
+    This is deliberately an AGE, not a "closed product" flag. The corpus holds ERGO
+    editions from 2010 and Athora contracts written when the carrier was still Generali,
+    and it is tempting to mark them run-off. Nothing in those documents says so. An
+    insurer publishing an old edition may still sell it, or may be serving policyholders
+    whose contracts still run. The age is a fact; "no longer sold" would be a guess."""
+    import link as _link  # local import: render is imported by tools that never build
+    ey = _link._edition_key(obj.get("edition_date"))[0]
+    fy = _link._edition_key(obj.get("fetched_at"))[0]
+    if not ey or not fy or fy < ey:
+        return None
+    return fy - ey
+
+
 def _table(headers: list[str], rows: list[list[str]]) -> str:
     if not rows:
         return ""
@@ -162,6 +186,7 @@ def render_product(obj: dict, country_meta: dict, relation: dict | None = None,
         "product_family": relation.get("family") or obj.get("product_family"),
         "variant": obj.get("variant") or relation.get("variant"),
         "edition_status": relation.get("edition_status"),
+        "edition_age_years": edition_age_years(obj),
         "superseded": (relation.get("edition_status") == "superseded") or bool(obj.get("superseded")) or None,
         "extends": obj.get("extends") if obj.get("is_extension") else None,
         "freshness": obj.get("fetched_at") or today(),
@@ -178,6 +203,20 @@ def render_product(obj: dict, country_meta: dict, relation: dict | None = None,
              f" · Branche : {_branch_ref(branch, blabel, routes, self_page)} · Type : "
              f"{DOC_TYPE_LABEL.get(obj.get('document_type',''), obj.get('document_type',''))}"
              + (f" · Édition : {obj['edition_date']}" if obj.get("edition_date") else "") + "\n")
+
+    # Age notice sits here, above the content, because it changes how everything below
+    # should be read. It states the age and stops there: the corpus holds ERGO editions
+    # from 2010 and Athora contracts from the Generali era, and nothing in those
+    # documents says whether the product is still sold.
+    age = edition_age_years(obj)
+    if age is not None and age >= OLD_EDITION_YEARS and not relation.get("superseded_by"):
+        L.append(f"> ⚠️ **Édition ancienne** : {obj.get('edition_date')}, soit {age} ans à la "
+                 f"date de collecte, et aucune édition plus récente de ce document n'a été "
+                 f"trouvée. Le document était toujours publié par l'assureur au moment de la "
+                 f"collecte. Un document ancien peut décrire un produit qui n'est plus "
+                 f"commercialisé mais dont des contrats sont toujours en cours ; ce point "
+                 f"n'est pas déterminable à partir du document et est à vérifier auprès de "
+                 f"l'assureur.\n")
 
     defs = _dicts(obj.get("definitions"), "term")
     if defs:

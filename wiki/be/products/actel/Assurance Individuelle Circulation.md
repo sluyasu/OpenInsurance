@@ -25,6 +25,7 @@ prompt_version: '1.1'
 product_family: assurance-individuelle-circulation
 variant: ACTEL AFFINITY
 edition_status: null
+edition_age_years: 18
 superseded: null
 extends: null
 freshness: '2026-07-08'
@@ -39,6 +40,8 @@ generated: true
 Conditions générales de l'Assurance Individuelle Circulation d'Actel (marque de P&V Assurances), une assurance individuelle contre les accidents de la circulation. Selon la formule choisie (A à E), la compagnie paie les sommes conventionnellement fixées en cas d'accident garanti survenu au preneur d'assurance et aux membres de son ménage (et/ou aux occupants du véhicule) en qualité de conducteur, occupant ou piéton. Les engagements couvrent le décès, l'invalidité permanente, l'incapacité temporaire et les frais de traitement. L'assurance est valable dans le monde entier pour autant que le preneur soit établi en Belgique.
 
 - Assureur : [Actel](../../insurers/Actel.md) · Branche : [Accidents](../../branches/Accidents.md) · Type : Conditions générales · Édition : 06.2008
+
+> ⚠️ **Édition ancienne** : 06.2008, soit 18 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 
 ## Définitions
 
