@@ -341,7 +341,11 @@ def main() -> int:
     for rec in items:
         pdf = REPO / rec["local_path"]
         if not pdf.is_file():
+            # printed and skipped used to be the whole story, so a document that never
+            # made it into the wiki left no trace anywhere except a line of stdout
             print(f"[extract] missing file {pdf}, skip")
+            record_gap(cc, rec, "source PDF listed in the manifest but missing on disk")
+            n_fail += 1
             continue
 
         # cache check: any existing extraction for this source url (same checksum +
@@ -376,6 +380,7 @@ def main() -> int:
             obj = parse_json_object(out)
         except Exception as ex:
             print(f"[extract] FAIL {pdf.name}: {ex}")
+            record_gap(cc, rec, f"extraction failed ({type(ex).__name__}): {str(ex)[:200]}")
             n_fail += 1
             continue
 

@@ -119,6 +119,10 @@ def main() -> int:
                     "status": "downloaded",
                 }
                 n_new += 1
+                # Persist after each PDF, not at the end: a run interrupted at 150 of 200
+                # used to lose all 150 provenance records while keeping the files on
+                # disk, so the resume logic could not tell downloaded from missing.
+                save_manifest(cc, manifest)
                 print(f"[download] ok  {e['insurer_slug']}/{e['branch']}  {dest.name}  ({len(content)//1024} KB)")
                 time.sleep(args.delay)
             except Exception as ex:

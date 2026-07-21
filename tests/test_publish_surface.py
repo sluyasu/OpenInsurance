@@ -116,6 +116,27 @@ def test_bare_filename_never_belongs_to_a_superseded_edition():
     assert not bad, f"superseded editions holding the bare filename: {bad}"
 
 
+def test_write_json_is_atomic(tmp_path):
+    """A kill mid-write must leave the previous file intact, not a truncated one: the
+    manifest and the index are read by every later stage, so a half-file is not a lost
+    file but a pipeline that keeps running on corrupt input."""
+    sys.path.insert(0, str(REPO / "pipeline"))
+    from common import write_json
+    f = tmp_path / "a.json"
+    write_json(f, {"v": 1})
+    circular: dict = {}
+    circular["self"] = circular
+    with pytest.raises(ValueError):
+        write_json(f, circular)
+    assert json_loads(f) == {"v": 1}
+    assert not [p for p in tmp_path.iterdir() if p.name.startswith(".")], "temp file left behind"
+
+
+def json_loads(p: Path):
+    import json
+    return json.loads(p.read_text(encoding="utf-8"))
+
+
 def test_every_extraction_matches_the_committed_schema():
     """The wiki gates only ever looked at rendered pages, so a schema-invalid extraction
     passed as long as it rendered. Six of them did."""

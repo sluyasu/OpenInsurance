@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 import unicodedata
 from datetime import date
@@ -97,9 +98,23 @@ def read_json(p: Path, default=None):
 
 
 def write_json(p: Path, obj) -> None:
+    """Write JSON atomically: a kill mid-write must not leave a half-file.
+
+    The manifest and the extraction index are read by every later stage, so a truncated
+    one is not a lost file but a corrupted pipeline that keeps running. Writing to a
+    temporary file in the same directory and renaming means a reader sees either the old
+    file or the new one, never a partial one. This matters more once runs are unattended
+    on the VPS, where nobody sees the traceback."""
     p.parent.mkdir(parents=True, exist_ok=True)
     # default=str coerces YAML-parsed date objects (from frontmatter) to ISO strings.
-    p.write_text(json.dumps(obj, ensure_ascii=False, indent=2, default=str) + "\n", encoding="utf-8")
+    text = json.dumps(obj, ensure_ascii=False, indent=2, default=str) + "\n"
+    tmp = p.with_name(f".{p.name}.tmp")
+    try:
+        tmp.write_text(text, encoding="utf-8")
+        os.replace(tmp, p)          # atomic within a filesystem
+    except BaseException:
+        tmp.unlink(missing_ok=True)
+        raise
 
 
 def load_manifest(cc: str) -> dict:

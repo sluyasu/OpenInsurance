@@ -46,13 +46,27 @@ def fill_marker(page: Path, name: str, lines: list[str]) -> bool:
 
 
 def load_products(cc: str) -> list[dict]:
-    out = []
+    """Every extraction, naming the ones that could not be read.
+
+    One unreadable file used to abort the whole build with a JSONDecodeError that did not
+    say which file. Reporting and continuing means 268 good products still publish, and
+    the broken one is named instead of hidden behind a stack trace."""
+    out, broken = [], []
     base = extracted_dir(cc)
     if base.is_dir():
         for p in sorted(base.glob("*/*.json")):
-            obj = read_json(p)
+            try:
+                obj = read_json(p)
+            except Exception as e:                              # noqa: BLE001
+                broken.append(f"{p.relative_to(REPO)}: {e}")
+                continue
             if obj:
                 out.append(obj)
+    for b in broken:
+        print(f"[build] UNREADABLE {b}")
+    if broken:
+        print(f"[build] {len(broken)} unreadable extraction(s) skipped; "
+              f"`make validate` reports them as errors")
     return out
 
 

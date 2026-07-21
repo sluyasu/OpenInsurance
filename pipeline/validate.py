@@ -181,6 +181,17 @@ def main() -> int:
     for e in data_layer_errors(cc):
         errors.append(e)
 
+    # recorded extraction gaps: documents the pipeline could not turn into a page.
+    # Surfaced as warnings so a known gap is visible rather than silently absent (rule 6).
+    from common import read_json as _rj, country_dir as _cd
+    recorded = _rj(_cd(cc) / "gaps.json", default={}) or {}
+    for url, g in sorted(recorded.items())[:10]:
+        reason = g.get("reason") if isinstance(g, dict) else g
+        warnings.append(f"extraction gap: {reason} ({url})")
+    if len(recorded) > 10:
+        warnings.append(f"... and {len(recorded) - 10} further extraction gap(s) in "
+                        f"data/{cc}/gaps.json")
+
     # publish surface: bare links whose target name is claimed by several pages
     ambiguous = ambiguous_names(cc)
     if ambiguous:
