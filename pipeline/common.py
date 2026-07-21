@@ -76,6 +76,28 @@ def branch_slugs(cc: str) -> list[str]:
     return list(load_country(cc).get("branches", {}).keys())
 
 
+def fallback_branch_of(meta: dict) -> str:
+    """The branch a product lands in when none can be determined, from a country manifest.
+
+    Declared per country (`fallback_branch:` in _country.yml) rather than hardcoded to
+    Belgium's 'autres': a taxonomy that is data must not assume one of its own slugs
+    exists everywhere. Falls back to 'autres' when the country declares nothing, and to
+    the first declared branch when the country has no 'autres' at all, so an unmapped
+    product is never filed under a slug outside its own taxonomy."""
+    declared = meta.get("fallback_branch")
+    slugs = list((meta.get("branches") or {}).keys())
+    if declared and declared in slugs:
+        return declared
+    if "autres" in slugs:
+        return "autres"
+    return slugs[0] if slugs else "autres"
+
+
+def fallback_branch(cc: str) -> str:
+    """As fallback_branch_of, by country code."""
+    return fallback_branch_of(load_country(cc))
+
+
 def insurer_configs(cc: str, only: str | None = None) -> list[dict]:
     """All insurer source configs for a country (excludes _country.yml)."""
     out = []

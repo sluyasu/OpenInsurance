@@ -19,7 +19,13 @@ jobs:
           python-version: "3.11"
       - run: python -m pip install httpx pyyaml
       - name: Check source URLs against the manifest
-        run: python pipeline/check_freshness.py --country be | tee freshness-report.md
+        run: |
+          : > freshness-report.md
+          for cc in $(ls sources/); do
+            echo "# ${cc}" >> freshness-report.md
+            python pipeline/check_freshness.py --country "$cc" >> freshness-report.md
+          done
+          cat freshness-report.md
       - name: Open an issue when sources changed or disappeared
         env:
           GH_TOKEN: ${{ github.token }}

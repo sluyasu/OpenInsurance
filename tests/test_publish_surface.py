@@ -116,6 +116,22 @@ def test_bare_filename_never_belongs_to_a_superseded_edition():
     assert not bad, f"superseded editions holding the bare filename: {bad}"
 
 
+def test_fallback_branch_comes_from_the_country_not_from_belgium():
+    """'autres' is a Belgian slug. A country whose taxonomy does not contain it must not
+    have products filed under a branch outside its own taxonomy."""
+    sys.path.insert(0, str(REPO / "pipeline"))
+    from common import fallback_branch, fallback_branch_of
+    assert fallback_branch("be") == "autres"
+    # no 'autres' declared: fall back inside the country's own taxonomy
+    assert fallback_branch_of({"branches": {"sante": {}, "menage": {}}}) == "sante"
+    # an explicit declaration wins
+    assert fallback_branch_of(
+        {"fallback_branch": "menage", "branches": {"sante": {}, "menage": {}}}) == "menage"
+    # a declaration naming a branch that does not exist is ignored, never emitted
+    assert fallback_branch_of(
+        {"fallback_branch": "nope", "branches": {"sante": {}}}) == "sante"
+
+
 def test_write_json_is_atomic(tmp_path):
     """A kill mid-write must leave the previous file intact, not a truncated one: the
     manifest and the index are read by every later stage, so a half-file is not a lost

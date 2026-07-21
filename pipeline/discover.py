@@ -16,7 +16,7 @@ from urllib.parse import urljoin, urlparse
 import httpx
 import yaml
 
-from common import insurer_configs, load_country
+from common import fallback_branch_of, insurer_configs, load_country
 
 UA = "openinsurance-wiki/0.1 (+https://github.com/sluyasu/OpenInsurance; polite public-document fetcher)"
 
@@ -33,12 +33,13 @@ def branch_aliases(cc: str) -> dict[str, str]:
     return out
 
 
-def guess_branch(text: str, aliases: dict[str, str], fallback: str | None) -> str:
+def guess_branch(text: str, aliases: dict[str, str], fallback: str) -> str:
+    """`fallback` comes from the country manifest, never a hardcoded Belgian slug."""
     t = text.lower()
     for kw, slug in aliases.items():
         if kw in t:
             return slug
-    return fallback or "autres"
+    return fallback
 
 
 def guess_doc_type(text: str) -> str:
@@ -117,6 +118,7 @@ def main() -> int:
     args = ap.parse_args()
     cc = args.country
     aliases = branch_aliases(cc)
+    fb = fallback_branch_of(load_country(cc))
 
     total_new = 0
     for cfg in insurer_configs(cc, only=args.insurer):
@@ -135,7 +137,7 @@ def main() -> int:
                 existing.add(url)
                 found.append({
                     "url": url,
-                    "branch": guess_branch(text, aliases, lp.get("branch")),
+                    "branch": guess_branch(text, aliases, lp.get("branch") or fb),
                     "document_type": guess_doc_type(text),
                     "lang": lp.get("lang") or guess_lang(url, langs),
                 })

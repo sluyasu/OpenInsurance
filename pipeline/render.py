@@ -10,7 +10,7 @@ from __future__ import annotations
 import posixpath
 from urllib.parse import quote
 
-from common import frontmatter, safe_title, slugify, today
+from common import fallback_branch_of, frontmatter, safe_title, slugify, today
 
 DISCLAIMER = (
     "⚠️ Ceci n'est pas le document officiel de l'assureur et peut contenir des erreurs "
@@ -157,7 +157,7 @@ def render_product(obj: dict, country_meta: dict, relation: dict | None = None,
     cc = obj.get("country", "")
     slug = obj.get("insurer_slug", "")
     insurer = obj.get("insurer_name") or slug
-    branch = obj.get("branch", "autres")
+    branch = obj.get("branch") or fallback_branch_of(country_meta)
     blabel = branch_label(country_meta, branch)
 
     meta = {
@@ -387,7 +387,7 @@ def render_insurer(insurer_name: str, slug: str, cc: str, products: list[dict],
                    routes: dict | None = None, self_page: str | None = None) -> str:
     branches: dict[str, list[dict]] = {}
     for p in products:
-        branches.setdefault(p.get("branch", "autres"), []).append(p)
+        branches.setdefault(p.get("branch") or fallback_branch_of(country_meta), []).append(p)
 
     stamp = _latest_fetch(products)
     meta = {
@@ -423,7 +423,7 @@ def render_branches_moc(cc: str, products: list[dict], country_meta: dict,
                         routes: dict | None = None, self_page: str | None = None) -> str:
     branches: dict[str, list[dict]] = {}
     for p in products:
-        branches.setdefault(p.get("branch", "autres"), []).append(p)
+        branches.setdefault(p.get("branch") or fallback_branch_of(country_meta), []).append(p)
 
     meta = {"type": "moc", "domain": "insurance", "country": cc,
             "tags": [f"insurance/{cc}", "moc"], "date": _latest_fetch(products),

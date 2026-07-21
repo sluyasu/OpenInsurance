@@ -18,8 +18,8 @@ from pathlib import Path
 
 import httpx
 
-from common import (insurer_configs, pdfs_dir, load_manifest, save_manifest,
-                    slugify, today, REPO)
+from common import (fallback_branch, insurer_configs, pdfs_dir, load_manifest,
+                    save_manifest, slugify, today, REPO)
 
 UA = "openinsurance-wiki/0.1 (+https://github.com/sluyasu/OpenInsurance; polite public-document fetcher)"
 
@@ -50,6 +50,7 @@ def local_path_for(cc: str, insurer: str, branch: str, url: str, product_name: s
 
 def gather_entries(cc: str, only: str | None) -> list[dict]:
     entries = []
+    fb = fallback_branch(cc)
     for cfg in insurer_configs(cc, only=only):
         ins = cfg.get("insurer", {})
         slug = ins.get("slug")
@@ -58,7 +59,7 @@ def gather_entries(cc: str, only: str | None) -> list[dict]:
                 "insurer_slug": slug,
                 "insurer_name": ins.get("name"),
                 "url": pdf["url"],
-                "branch": pdf.get("branch", "autres"),
+                "branch": pdf.get("branch") or fb,
                 "document_type": pdf.get("document_type", "conditions_generales"),
                 "lang": pdf.get("lang"),
                 "product_name": pdf.get("product_name"),
