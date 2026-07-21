@@ -92,21 +92,21 @@ The LLM consuming these tools is the layer that can hallucinate, so the response
 
 ## Measured latency
 
-Warm server, in-process, median of 50 runs per tool (Apple silicon, Belgium dataset, 162 documents;
+Warm server, in-process, median of 50 runs per tool (Apple silicon, Belgium dataset, 269 documents;
 reproduce with `.venv/bin/python tests/bench_tools.py`):
 
 | Tool | median | p95 |
 |---|---|---|
-| `list_countries` | 0.09 ms | 0.10 ms |
-| `list_branches` | 0.04 ms | 0.04 ms |
-| `search` (title hit) | 3.0 ms | 3.2 ms |
-| `search` (full-text body scan) | 3.1 ms | 3.2 ms |
-| `get_page` | 0.04 ms | 0.04 ms |
-| `get_product` | 0.4 ms | 0.4 ms |
-| `get_coverage` | 2.2 ms | 2.3 ms |
-| `verify_claim` | 2.8 ms | 2.9 ms |
-| `compare_products` | 0.9 ms | 0.9 ms |
-| `find_overlap` | 0.9 ms | 0.9 ms |
+| `list_countries` | 0.04 ms | 0.04 ms |
+| `list_branches` | 0.04 ms | 0.05 ms |
+| `search` (title hit) | 3.4 ms | 3.6 ms |
+| `search` (full-text body scan) | 3.6 ms | 3.9 ms |
+| `get_page` | 0.02 ms | 0.03 ms |
+| `get_product` | 0.24 ms | 0.25 ms |
+| `get_coverage` | 1.7 ms | 1.8 ms |
+| `verify_claim` | 2.0 ms | 2.2 ms |
+| `compare_products` | 1.1 ms | 1.2 ms |
+| `find_overlap` | 1.1 ms | 1.1 ms |
 | `get_branch_overview` | 0.01 ms | 0.01 ms |
 
 The server reads every file once (index, extractions, page bodies, country metadata, category keywords) and

@@ -9,24 +9,25 @@
 - [x] Hand-authored layer started: Auto / Habitation / Vie privée + regulations, glossary, MOCs
 - [x] MCP server (list, search, get_product, compare_products, find_overlap)
 
-## Phase 2 - Scale Belgium (done)
-- [x] Source configs for 17 Belgian insurers
-- [x] Full download + extract run: 162 products, 12 branches (resumable)
+## Phase 2 - Scale Belgium (in progress)
+- [x] Source configs for 24 Belgian insurers
+- [x] Full download + extract run: 269 products, 17 branches (resumable)
 - [x] Coverage & freshness dashboard in AGENTS.md
+- [ ] Finish the enumerated market (~630 document rows enumerated, 269 ingested)
 
-## Phase 3 - Distribution (in progress)
+## Phase 3 - Distribution (done)
 - [x] Publish to public GitHub (2026-07-05); licensing/attribution finalized
 - [x] CI: validation + build-idempotence gates on every push
-- [ ] Browsable static site from `wiki/` (MkDocs Material + GitHub Pages)
-- [ ] MCP server listed on the official MCP registry
-- [ ] Monthly source-freshness check (opens an issue when an insurer republishes a PDF)
+- [x] Browsable static site from `wiki/` (MkDocs Material + GitHub Pages)
+- [x] MCP server listed on the official MCP registry (and on PyPI)
+- [x] Monthly source-freshness check (opens an issue when an insurer republishes a PDF)
 
 ## Phase 4 - Content depth
-- [ ] Branch overview pages for the 9 branches that have products but no page yet
-      (`make validate` lists them as warnings)
+- [x] Branch overview pages for every branch that has products
 - [ ] Complete the insurer list in the Belgium MOC
 - [ ] Make the universal glossary reachable from inside the vault
 - [ ] Populate edition metadata (`product_family`, edition status) across extractions
+- [ ] Flag run-off and legacy editions so closed products stop reading as current
 - [ ] Allianz - Cloudflare-blocked on the free httpx stack; needs a browser fetcher
 - [ ] NL-language coverage parity (currently FR only)
 

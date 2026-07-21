@@ -9,10 +9,11 @@ Public on GitHub since 2026-07-05: https://github.com/sluyasu/OpenInsurance
 
 ## Status (Belgium)
 - **Scaffold + docs + schema + extraction agent + MCP + test suite in CI:** done.
-- **Coverage:** 17 insurers, 162 products, ~3290 coverages, ~5540 exclusions, 12 branches
+- **Coverage:** 24 insurers, 269 products, ~4570 coverages, ~7430 exclusions, 17 populated branches
   (auto, habitation, vie-privee, sante, voyage, protection-juridique, velo, accidents, rc-professionnelle,
-  navigation, chasse, autres). Insurers: axa, ethias, kbc, ag, baloise, belfius, dvv, nn, pv, vivium, yuzzu,
-  dkv, das, amma, argenta, federale, touring.
+  navigation, chasse, epargne, pension, obseques, animaux, cyber, autres). Insurers: axa, ethias, kbc, ag,
+  baloise, belfius, belfius-direct, dvv, nn, pv, vivium, yuzzu, dkv, das, amma, argenta, federale, touring,
+  hiscox, acm, actel, ergo, athora, cardif.
 - **Version method:** live - `edition_date`/`product_family`/`variant`/`is_extension`/`extends` + `pipeline/link.py`
   computes current-vs-superseded and cross-links editions/variants/extensions ("Documents liés" section).
 - **Analysis:** MCP `compare_products` + `find_overlap` (candidate duplicate cover across policies, via the
@@ -20,17 +21,16 @@ Public on GitHub since 2026-07-05: https://github.com/sluyasu/OpenInsurance
   and `verify_claim` (verbatim evidence for a fact-check). One product name can map to several documents
   (CG + IPID, several editions): the tools select general conditions first, newest edition, refuse ambiguous
   names with the candidates listed, and always say which document they picked. See `mcp/README.md`.
-- **Validation:** 0 errors. Warnings are honest gaps (branches with products but no overview page yet).
+- **Validation:** 321 notes, 0 errors, 0 warnings (every populated branch now has an overview page).
   `make build` is idempotent (no-op rebuild = 0 diff).
+- **Distribution:** `openinsurance-wiki-mcp` 0.2.0 on PyPI and on the MCP registry; GitHub Pages live at
+  https://sluyasu.github.io/OpenInsurance/.
 
 ### Still open (not blocking)
-- **PyPI lags GitHub:** the published package is 0.1.0; the repo is at 0.2.0 (get_coverage/verify_claim,
-  ambiguity refusals, hardening, tests). Republish `openinsurance-wiki-mcp` + the registry manifest when convenient.
-- **Branch overview pages** for 9 of the 12 branches (Santé, Voyage, Protection juridique, Vélo, Autres,
-  Accidents, RC professionnelle, Navigation, Chasse) - `make validate` lists them as warnings.
+- **Allianz** - Cloudflare-blocked on the free httpx stack; the 28 documents are enumerated in
+  `sources/be/allianz.yml` but no PDF is registered yet, so the entries are inert.
 - **Edition metadata is sparse** in the current extractions (`product_family`/`edition_status` mostly absent);
   linking falls back to name heuristics. Populating it means a re-extraction pass.
-- **Allianz** - Cloudflare-blocked on the free httpx stack; needs a browser fetcher.
 - **NL-language** editions (currently FR only) and a **2nd country** to prove the country-agnostic recipe.
 - **Higher-precision overlap** (option 2): a coverage-normalization pass tagging one category per coverage.
 

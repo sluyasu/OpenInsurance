@@ -1,6 +1,7 @@
 """Shared test setup: import the MCP server module against the committed dataset.
 
-The repo IS the dataset, so the tests run on the real committed wiki/data. Counts
+The repo IS the dataset (269 products / 24 insurers today), so the tests run on the
+real committed wiki/data. Counts
 grow with every ingestion batch, so tests never hardcode dataset sizes: they derive
 the expected numbers from the same committed files the server reads (index_rows,
 country_branches) and assert the server's aggregation matches. No fixtures to build,

@@ -16,14 +16,14 @@ cross-linked into a navigable graph of products, insurers, branches, regulations
 As far as we know, this is the **only open-source, machine-readable, source-cited database of insurance
 products** (the closest equivalents are commercial and closed). Point it at **any country**: the taxonomy is
 data, not code, and adding a country is a documented recipe. The first reference dataset already covers
-**17 insurers and 162 products across 12 branches** in Belgium (auto, home, health, liability, travel, legal
+**24 insurers and 269 products across 17 branches** in Belgium (auto, home, health, liability, travel, legal
 protection, ...), each page cited to its source document.
 
 ---
 
 ## Use it in 2 minutes - no API key needed
 
-The dataset **ships in the repo, already built**: 162 product pages, insurer pages, glossary, plus the
+The dataset **ships in the repo, already built**: 269 product pages, insurer pages, glossary, plus the
 structured JSON behind them. You only need an LLM key to *re-extract from scratch*, never to *use* it.
 
 **1. Browse it.** Open the repo as an [Obsidian](https://obsidian.md) vault (the `[[wikilinks]]` become a
@@ -136,7 +136,7 @@ Per country (`wiki/be/`):
 |---|---|---|
 | `products/<insurer>/` | One rich page per insurance product (general conditions / IPID) | **Generated** from the PDFs |
 | `insurers/` | One page per insurer, aggregating its products | **Generated** |
-| `branches/` | Overview of each line of insurance (3 of 12 written so far; `make validate` lists the gaps) | **Hand-authored** |
+| `branches/` | Overview of each line of insurance (every populated branch has one; `make validate` lists any gap) | **Hand-authored** |
 | `regulations/` | The regulator and key laws (FSMA, mandatory RC auto, cat-nat...) | **Hand-authored** |
 | `glossary/` | Country-specific terms (bonus-malus, franchise, Branche 21/23...) | **Hand-authored** |
 
