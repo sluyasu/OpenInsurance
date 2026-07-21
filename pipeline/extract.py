@@ -142,8 +142,10 @@ def _audience_enum(text: str) -> str | None:
     if re.search(r"particuliers?\b", t) or re.search(r"personnes?\s+physiques?", t) \
             or re.search(r"propri[ée]taires?\b", t) or "consommateur" in t:
         signals.add("particuliers")
+    # `morale` on its own, not `personne morale`: the common wording is "personnes
+    # physiques et morales", where the noun is shared and a stricter pattern misses it.
     if re.search(r"entreprises?\b", t) or re.search(r"\bpme\b", t) \
-            or re.search(r"personnes?\s+morales?", t) or re.search(r"soci[ée]t[ée]s?\b", t):
+            or re.search(r"\bmorales?\b", t) or re.search(r"soci[ée]t[ée]s?\b", t):
         signals.add("entreprises")
     return signals.pop() if len(signals) == 1 else None
 
