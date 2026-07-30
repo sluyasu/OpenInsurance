@@ -24,6 +24,14 @@ Running notes on things that bit us or that a contributor should know. Append as
   extraction bugs, not noise. But verify the *verifier* before trusting a batch of flags: most of one 20-flag
   run were false positives caused by the soft hyphens (U+00AD) PyMuPDF emits at wrapped words, not by bad
   extraction. `nospace()` now folds hyphens on both sides.
+- **Line-break hyphenation defeats verbatim quoting.** PDF text layers split words at wraps (`non-\nrespect`,
+  `cyber-\nattaque`, `vide-\nordures`), so a quote spanning the break is not a substring under any whitespace
+  normalisation. Tell extraction workers to lift quotes as **exact spans copied out of the source
+  programmatically**, never retyped, and to route around hyphenated breaks. The same document often mixes
+  curly (U+2019) and ASCII apostrophes inside one sentence, which retyping silently normalises.
+- A glyph used as a bullet or separator counts. One Thélem quote merged two clauses the source separates with
+  `✓`; dropping the checkmark broke grounding. The fix is to **split it into the clauses it was made of**, each
+  an exact substring, rather than to reinsert decoration into a reader-facing quote.
 - A quote that really is composed (stitched from separate passages) gets **deleted, not rewritten**. `key_quotes`
   is a verification artifact and is never rendered, so deleting removes a false grounding signal without
   touching any published page; hand-editing a quote to "fix" it would invent a citation.
@@ -80,12 +88,47 @@ Running notes on things that bit us or that a contributor should know. Append as
   can't fetch them; needs a real-browser fetcher (Firecrawl/Playwright). Note the gap, don't fake it.
 - AMMA defaults documents to NL; append `?lang=fr`. Baloise's Fastly WAF 406s datacenter curl but serves fine to
   a residential/browser fetcher. Query-string cache-busters (`?t=`, `?rev=`) are load-bearing — keep them.
+- **A `curl` 403 is not proof of a WAF.** Measured on the French market: `gmf.fr`, `maaf.fr`, `allianz.fr` and
+  `abeille-assurances.fr` return **200 to Python's `urllib` and 403 to `curl`** on the same URL, because the
+  filter keys on the client fingerprint rather than the IP. Always retry with a second client before recording
+  a host as unreachable; recording a false `manual` tier costs an insurer's whole library.
+- A CMS may serve the **same document from two `/YYYY/MM/` upload paths**, and the copies are not necessarily
+  identical: Thélem's re-uploads differ by a trailing product-code fragment, so neither a sha256 nor a
+  normalised-text hash de-duplicates them. Compare the rendered text and read both before dropping either.
+
+## France specifics
+- **The public document is the IPID, not the conditions générales.** The DDA requires publishing the two-page
+  product information document; nothing requires publishing the CG. Thélem publishes 45 IPIDs and no CG, so its
+  extractions run ~8 000 characters against ~250 000 for a Belgian CG. That is a publication practice, not a
+  gap in the insurer's compliance, and it should be described as such on any coverage page.
+- **French IPIDs never print their edition date** — it exists only in the source URL filename. The extraction
+  agent is right to leave `edition_date` null under the grounding rules, and `extract.py` / `placement.py` fill
+  it from `rec.get("edition_date")`. So the edition must be recorded in the **source YAML**, or it is lost.
+- **The register lists carriers, ORIAS lists intermediaries, and a consumer brand may be neither.** Direct
+  Assurance, Luko, l'olivier, Leocare, April and Solly Azar are all absent from the ACPR register. The DDA makes
+  each document name its own insurer, so read the carrier from the document. It is not even constant within one
+  brand's library: Direct Assurance's eleven documents are signed by three different AXA entities.
+- The ACPR register (Refassu, redirecting to `regafi.fr`) exposes an **Opendatasoft API that answers
+  anonymously**, despite the portal advertising a free account. `?/api/explore/v2.1/catalog/datasets` gives the
+  entity list, the group list and the R.321-1 branch labels. Legifrance, by contrast, is Cloudflare-gated to
+  `curl` and readable only through a browser-class fetcher; keep it out of unattended runs.
+- A `Produit :` line is a **name, not a product identity**. Thélem's TA 483 and TA 630 share one, ten months
+  apart, and read as two editions of one product; the bodies name their own variants (PROPRIETAIRE NON OCCUPANT
+  against COPROPRIETE) and are parallel. Read the body before modelling a supersession.
+- Where an insurer's site labels and its PDFs disagree, **the document wins** (rule 3). On Thélem this happens
+  on ten documents and the labels are outright swapped on two of them.
 
 ## Scaling many PDFs (the run harness)
 - Extraction is the only paid/LLM step. Drive big batches with a **Workflow fan-out** of subagents (each reads a
   committed prompt file, writes one JSON), then a placement pass. Everything is **resumable**: a helper regenerates
   prompts only for not-yet-extracted PDFs; a session token limit just means re-run the leftovers later. Keep the
   output-file check so an in-flight/finished key is never re-launched (no double spend).
+- **`download.py` refreshes a manifest record only when it actually fetches.** Editing metadata in the source
+  YAML (`superseded`, `edition_date`, `product_name`) does not reach a document already on disk, because the
+  checksum match short-circuits before the record is rewritten. To correct metadata: delete that URL's manifest
+  entry and re-run download. Silent staleness here is worse than a re-fetch.
+- Batch heavy documents **one agent per document**. A 57-to-80-page conditions générales fills a context on its
+  own; pairing it with anything else costs completeness on both. Two-page IPIDs batch three at a time fine.
 
 ## MCP server (the consumer-facing layer)
 - **The tool's output shape governs the answering LLM.** A chatbot on top of this MCP hallucinates when the real
