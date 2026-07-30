@@ -16,7 +16,10 @@ generated: true
 
 Liste générée des produits par branche. Les fiches conceptuelles de branche sont rédigées à la main dans ce dossier.
 
-### [Assurance auto](Assurance%20auto.md) (7)
+### [Assurance auto](Assurance%20auto.md) (10)
+- [Assurance Auto et Auto connectée Direct Assurance - IPID](../products/direct-assurance/Assurance%20Auto%20et%20Auto%20connect%C3%A9e%20Direct%20Assurance%20-%20IPID.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
+- [Contrat Auto](../products/direct-assurance/Contrat%20Auto.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
+- [YouDrive - CP](../products/direct-assurance/YouDrive%20-%20CP.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [Assurance Automobile - IPID](../products/thelem/Assurance%20Automobile%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [Assurance Camping-Car - IPID](../products/thelem/Assurance%20Camping-Car%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [Assurance Caravane - IPID](../products/thelem/Assurance%20Caravane%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
@@ -25,7 +28,9 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Assurance Véhicule de collection - IPID](../products/thelem/Assurance%20V%C3%A9hicule%20de%20collection%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [Assurance Véhicule de plus de 3,5 tonnes - IPID](../products/thelem/Assurance%20V%C3%A9hicule%20de%20plus%20de%203%2C5%20tonnes%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 
-### [Deux-roues, quads et voiturettes](Deux-roues%2C%20quads%20et%20voiturettes.md) (4)
+### [Deux-roues, quads et voiturettes](Deux-roues%2C%20quads%20et%20voiturettes.md) (6)
+- [Assurance Ma Moto – Mon Cyclo](../products/direct-assurance/Assurance%20Ma%20Moto%20%E2%80%93%20Mon%20Cyclo.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
+- [Ma Moto, Mon Cyclo - IPID](../products/direct-assurance/Ma%20Moto%2C%20Mon%20Cyclo%20-%20IPID.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [Assurance Cyclo - IPID](../products/thelem/Assurance%20Cyclo%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [Assurance Moto - IPID](../products/thelem/Assurance%20Moto%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [Assurance Quad - IPID](../products/thelem/Assurance%20Quad%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
@@ -34,7 +39,9 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 ### [EDPM et mobilités douces](EDPM%20et%20mobilit%C3%A9s%20douces.md) (1)
 - [Assurance EDPM - IPID](../products/thelem/Assurance%20EDPM%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 
-### [Multirisque habitation](Multirisque%20habitation.md) (6)
+### [Multirisque habitation](Multirisque%20habitation.md) (8)
+- [Assurance Habitation Direct Assurance - IPID](../products/direct-assurance/Assurance%20Habitation%20Direct%20Assurance%20-%20IPID.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
+- [Contrat Habitation](../products/direct-assurance/Contrat%20Habitation.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [Assurance Dommages aux biens - IPID](../products/thelem/Assurance%20Dommages%20aux%20biens%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [Assurance multirisque habitation - IPID](../products/thelem/Assurance%20multirisque%20habitation%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [Assurance multirisque habitation Propriétaire non occupant - IPID](../products/thelem/Assurance%20multirisque%20habitation%20Propri%C3%A9taire%20non%20occupant%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
@@ -42,7 +49,11 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Assurance multirisque immeuble - IPID](../products/thelem/Assurance%20multirisque%20immeuble%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [Assurance multirisque immeuble - PROPRIETAIRE NON OCCUPANT - IPID](../products/thelem/Assurance%20multirisque%20immeuble%20-%20PROPRIETAIRE%20NON%20OCCUPANT%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 
-### [Complémentaire santé](Compl%C3%A9mentaire%20sant%C3%A9.md) (4)
+### [Complémentaire santé](Compl%C3%A9mentaire%20sant%C3%A9.md) (8)
+- [Direct Assurance Santé](../products/direct-assurance/Direct%20Assurance%20Sant%C3%A9.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
+- [Direct Assurance Santé - Exemples de remboursements](../products/direct-assurance/Direct%20Assurance%20Sant%C3%A9%20-%20Exemples%20de%20remboursements.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
+- [Direct Assurance Santé - contrat responsable - IPID](../products/direct-assurance/Direct%20Assurance%20Sant%C3%A9%20-%20contrat%20responsable%20-%20IPID.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
+- [Direct Assurance Santé - formules Hospi (contrat non responsable) - IPID](../products/direct-assurance/Direct%20Assurance%20Sant%C3%A9%20-%20formules%20Hospi%20%28contrat%20non%20responsable%29%20-%20IPID.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [Assurance Complémentaire Santé – gamme non responsable et solidaire - IPID](../products/thelem/Assurance%20Compl%C3%A9mentaire%20Sant%C3%A9%20%E2%80%93%20gamme%20non%20responsable%20et%20solidaire%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [Assurance Complémentaire Santé – gamme responsable et solidaire - IPID](../products/thelem/Assurance%20Compl%C3%A9mentaire%20Sant%C3%A9%20%E2%80%93%20gamme%20responsable%20et%20solidaire%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [INTÉGRALE 1, INTÉGRALE 2, INTÉGRALE 3, INTÉGRALE 4 – Formules responsables et solidaires](../products/thelem/INT%C3%89GRALE%201%2C%20INT%C3%89GRALE%202%2C%20INT%C3%89GRALE%203%2C%20INT%C3%89GRALE%204%20%E2%80%93%20Formules%20responsables%20et%20solidaires.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)

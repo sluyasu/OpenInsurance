@@ -96,6 +96,22 @@ Running notes on things that bit us or that a contributor should know. Append as
   identical: Thélem's re-uploads differ by a trailing product-code fragment, so neither a sha256 nor a
   normalised-text hash de-duplicates them. Compare the rendered text and read both before dropping either.
 
+## Page names, case, and a build that differs by filesystem
+- **`validate`'s "duplicate page name" warning can mean real data loss, not just a link trap.** On a
+  case-insensitive filesystem (macOS APFS is the default) two product names differing only in case are ONE
+  file, so `build_wiki` writes both and the second silently replaces the first. Measured: Direct Assurance's
+  santé annexe extracted as `DIRECT ASSURANCE SANTÉ` and its notice as `Direct Assurance Santé`; four santé
+  documents produced three pages, and the 61-page annexe overwrote the 47-page notice with no error anywhere.
+  Caught by comparing `data/<cc>/extracted/*/*.json` against `wiki/<cc>/products/*/*.md` — **that count should
+  match, and it is the cheapest check there is.**
+- The same build on Linux (i.e. in CI) produces four files and does not lose anything, so this is also a
+  **reproducibility break**: the published surface depends on the developer's filesystem. Rule 7 says every
+  output is regenerable; a case-colliding name quietly makes that false on half the machines.
+- The fix belongs in the **data**, never in the generated page: give the colliding extraction a distinguishing
+  `product_name` composed from the document's own wording, and say in `gaps` why it was disambiguated. Two
+  parallel variants (a responsable and a non responsable gamme, say) should carry the variant in the name
+  rather than relying on the builder's `(2)` suffix, which reads as a duplicate rather than as a distinction.
+
 ## France specifics
 - **The public document is the IPID, not the conditions générales.** The DDA requires publishing the two-page
   product information document; nothing requires publishing the CG. Thélem publishes 45 IPIDs and no CG, so its
@@ -129,6 +145,13 @@ Running notes on things that bit us or that a contributor should know. Append as
   entry and re-run download. Silent staleness here is worse than a re-fetch.
 - Batch heavy documents **one agent per document**. A 57-to-80-page conditions générales fills a context on its
   own; pairing it with anything else costs completeness on both. Two-page IPIDs batch three at a time fine.
+- **The per-insurer work directory is shared, so parallel workers collide on scratch filenames.** Measured on
+  the Direct Assurance batch: several workers each wrote a `doc.txt`, and one had its file replaced mid-task by
+  a sibling's *different* document. It noticed only because the content changed insurer. Two others wrote
+  `frag_*.json` / `part*.json` / `p*.py` into the same folder. The `raw/<hash>.json` outputs are safe because
+  they are hash-named; nothing else is. Either give each job its own scratch subdirectory in `prep.py`, or tell
+  workers explicitly to keep temp files under a private path. A silently swapped source file is the worst
+  failure mode this harness has: the output still validates and is still grounded, against the wrong document.
 
 ## MCP server (the consumer-facing layer)
 - **The tool's output shape governs the answering LLM.** A chatbot on top of this MCP hallucinates when the real

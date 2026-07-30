@@ -66,6 +66,7 @@ les signale une par une plutôt que de les passer sous silence.
 ## Assureurs documentés
 
 <!-- BEGIN GENERATED: insurers -->
+- [Direct Assurance](insurers/Direct%20Assurance.md) (11 documents)
 - [Thélem assurances](insurers/Th%C3%A9lem%20assurances.md) (45 documents)
 <!-- END GENERATED -->
 

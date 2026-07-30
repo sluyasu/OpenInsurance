@@ -1,0 +1,110 @@
+insurer:
+  slug: direct-assurance
+  name: Direct Assurance
+  website: https://www.direct-assurance.fr
+  segment: particuliers
+  notes: |
+    NOT A CARRIER. Direct Assurance is a brand of Avanssur SA, which the documents describe
+    as "mandataire d'assurance d'AXA France IARD et courtier d'assurance - Orias n° 19006337".
+    Neither Direct Assurance nor Avanssur appears in the ACPR register, which is correct: the
+    register lists risk carriers, ORIAS lists intermediaries. The brand slug is kept per the
+    Belgian `lar` precedent and the carrier is recorded per document.
+
+    THE CARRIER IS NOT CONSTANT across this one library. Three AXA entities sign these eleven
+    documents, all three present in the ACPR register:
+      AXA France IARD               auto, auto connectée, habitation, and the moto IPID
+      AXA Assurances IARD Mutuelle  the moto conditions générales
+      AXA France Vie                santé
+    The moto IPID and its own conditions générales name different entities; both are recorded
+    as found rather than reconciled.
+
+    Santé is a contrat d'assurance de groupe à adhésion facultative between AXA France Vie and
+    the Association Conseil Branche Santé (ACBS), which is why its master document is a notice
+    d'information. Mapped to conditions_generales because that is the role it plays.
+
+    Unlike Thélem, this insurer publishes REAL conditions générales (57, 50 and 80 pages).
+    Three documents exceed extract.MAX_TEXT_CHARS (240 000) and will be truncated with a note
+    in `gaps`. That is the documented behaviour, not a failure.
+  fetch_tier: plain          # listing page 200, PDFs served from directassurance.cdn.prismic.io
+listing_pages:
+- url: https://www.direct-assurance.fr/nos-assurances/conditions-generales-particulieres
+  lang: fr
+languages:
+- fr
+pdfs:
+- url: https://directassurance.cdn.prismic.io/directassurance/aYnw_90YXLCxVnsY_AUTO_02.26_VW_VF.pdf
+  branch: auto
+  document_type: conditions_generales
+  lang: fr
+  # The site links this as "Conditions générales Auto et Auto connectée", but the document
+  # itself is headed "Contrat Auto" and contains zero occurrences of "connectée",
+  # "télématique" or "boîtier". The connected offer lives entirely in its own conditions
+  # particulières (CPYD below), which is an extension of this base contract. Document wins.
+  product_name: "Contrat Auto"
+  edition_date: "2026-02"
+  # carrier named in this document: AXA France IARD
+- url: https://directassurance.cdn.prismic.io/directassurance/afNVWsBOoF08xf0r_CPYD_04.26.pdf
+  branch: auto
+  document_type: conditions_particulieres
+  lang: fr
+  product_name: "Auto connectée"
+  edition_date: "2026-04"
+  # carrier named in this document: AXA France IARD
+- url: https://directassurance.cdn.prismic.io/directassurance/aYnxBN0YXLCxVnsa_fiche-ipid-auto-022026.pdf
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Automobile"
+  edition_date: "2026-02"
+  # carrier named in this document: AXA France IARD
+- url: https://directassurance.cdn.prismic.io/directassurance/abglZ7bci2UF6D7w_HABITATION_MRH_03.26_Vdef.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat Habitation"
+  edition_date: "2026-03"
+  # carrier named in this document: AXA France IARD
+- url: https://directassurance.cdn.prismic.io/directassurance/aHDKPEMqNJQqHyOg_IPID_HABITATION.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Habitation"
+  # carrier named in this document: AXA France IARD
+- url: https://directassurance.cdn.prismic.io/directassurance/aG-PfkMqNJQqHv6Q_CG-Ma-Moto-Mon-Cyclo-981029-0324.pdf
+  branch: moto
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Ma Moto, Mon Cyclo"
+  edition_date: "2024-03"
+  # carrier named in this document: AXA Assurances IARD Mutuelle
+- url: https://directassurance.cdn.prismic.io/directassurance/aG-PekMqNJQqHv6P_DiPAMaMotoMonCyclo-2004493-0924_04.pdf
+  branch: moto
+  document_type: ipid
+  lang: fr
+  product_name: "Ma Moto, Mon Cyclo"
+  edition_date: "2024-09"
+  # carrier named in this document: AXA France IARD
+- url: https://directassurance.cdn.prismic.io/directassurance/aG-PbkMqNJQqHv6O_DirectAssurance-NoticeinformationSante.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Direct Assurance Santé"
+  # carrier named in this document: AXA France Vie
+- url: https://directassurance.cdn.prismic.io/directassurance/aG-PaUMqNJQqHv6L_fiche-ipid-sante-non-responsable.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: "Direct Assurance Santé - formules Hospi"
+  # carrier named in this document: AXA France Vie
+- url: https://directassurance.cdn.prismic.io/directassurance/aG-PZkMqNJQqHv6K_fiche-ipid-sante-responsable.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: "Direct Assurance Santé - gamme responsable"
+  # carrier named in this document: AXA France Vie
+- url: https://directassurance.cdn.prismic.io/directassurance/aVudaXNYClf9ox-__DirectAssurance-Exemplesderemboursements.pdf
+  branch: sante
+  document_type: other
+  lang: fr
+  product_name: "Direct Assurance Santé - exemples de remboursements"
+  # carrier named in this document: AXA France Vie
