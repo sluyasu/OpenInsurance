@@ -1,0 +1,411 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "thelem",
+  "insurer_name": "Thélem assurances",
+  "product_name": "Assurance EDPM",
+  "branch": "edpm",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": "particuliers",
+  "target_audience_note": "Cette faculté est ouverte pour les contrats couvrant les personnes physiques en dehors de leurs activités professionnelles.",
+  "reference": null,
+  "edition_date": "2026-01",
+  "product_family": "Assurance EDPM",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_EDPM-012026.pdf",
+  "source_pdf": "assurance-edpm-8d35cbee.pdf",
+  "source_sha256": "f638b71128c1d686545eca855d241df50c83a639ece792082fc38f0c418be461",
+  "source_pages": 2,
+  "fetched_at": "2026-07-30",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d’information sur le produit d’assurance (IPID) de l’Assurance EDPM de Thélem assurances. L’assurance EDPM a pour objectif de garantir l’assuré contre les conséquences des dommages matériels ou corporels causés par son véhicule à un tiers (responsabilité civile) ; c’est une assurance obligatoire. Le contrat prévoit également les dommages corporels du conducteur et, selon les formules souscrites, il couvre aussi les dommages matériels du véhicule assuré. Sont concernés les engins de déplacement personnels motorisés (trottinettes électriques, monoroues, gyropodes, hoverboards, etc…) dont la vitesse maximum est de 25km/h.",
+  "definitions": [
+    {
+      "term": "EDPM – Engins de déplacement personnels motorisés",
+      "definition": "Les engins de déplacement personnels motorisés (trottinettes électriques, monoroues, gyropodes, hoverboards, etc…) dont la vitesse maximum est de 25km/h.",
+      "page": 1
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Responsabilité civile",
+      "description": "Responsabilité civile : dommages causés aux tiers par le véhicule (plafond illimité pour les dommages corporels / 100 millions € pour les dommages matériels), Préjudice écologique (1.3M€)",
+      "is_optional": false,
+      "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l’UE, Andorre, Monaco, Saint-Marin, Liechtenstein",
+      "limits": "plafond illimité pour les dommages corporels / 100 millions € pour les dommages matériels",
+      "sub_limits": [
+        "Préjudice écologique (1.3M€)"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Pour les séjours de plus de 90 jours, seule la garantie Responsabilité Civile obligatoire est accordée."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Défense Pénale et Recours Suite à Accident",
+      "description": "Défense Pénale et Recours Suite à Accident : défense de l’assuré suite à un accident garanti jusqu’à 16 000 €.",
+      "is_optional": false,
+      "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l’UE, Andorre, Monaco, Saint-Marin, Liechtenstein",
+      "limits": "jusqu’à 16 000 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Casques / Gants / Gilets Airbag",
+      "description": "Casques / Gants / Gilets Airbag : indemnisation en cas d’accident, quelle que soit la formule souscrite",
+      "is_optional": false,
+      "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l’UE, Andorre, Monaco, Saint-Marin, Liechtenstein",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Protection du conducteur",
+      "description": "Protection du conducteur : dommages corporels du conducteur responsable jusqu’à 600 000 € (franchise 10% en invalidité permanente),",
+      "is_optional": false,
+      "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l’UE, Andorre, Monaco, Saint-Marin, Liechtenstein",
+      "limits": "jusqu’à 600 000 €",
+      "sub_limits": [],
+      "deductible": "franchise 10% en invalidité permanente",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Dommages au véhicule – Catastrophes naturelles et technologiques",
+      "description": "Dommages au véhicule : Catastrophes naturelles et technologiques,",
+      "is_optional": true,
+      "territorial_scope": "Pour la garantie Catastrophes naturelles : selon arrêté interministériel constatant l’état de catastrophes naturelles. Pour la garantie Catastrophes technologiques : France métropolitaine.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Dommages au véhicule – Forces de la nature (tempête, ouragan, grêle)",
+      "description": "Dommages au véhicule : Forces de la nature (tempête, ouragan, grêle),",
+      "is_optional": true,
+      "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l’UE, Andorre, Monaco, Saint-Marin, Liechtenstein",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Dommages au véhicule – Vol et tentative de vol",
+      "description": "Dommages au véhicule : Vol et tentative de vol,",
+      "is_optional": true,
+      "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l’UE, Andorre, Monaco, Saint-Marin, Liechtenstein",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Une somme peut rester à la charge de l’assuré (franchise) notamment pour les garanties Vol, Bris de glaces, Dommages subis par l’assuré.",
+      "conditions": [
+        "Le vol de l’EDPM si au moment du vol le véhicule n’est pas relié par un dispositif antivol à un point fixe."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Dommages au véhicule – Incendie",
+      "description": "Dommages au véhicule : Incendie,",
+      "is_optional": true,
+      "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l’UE, Andorre, Monaco, Saint-Marin, Liechtenstein",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Dommages au véhicule – Dommages tous accidents et vandalisme",
+      "description": "Dommages au véhicule : Dommages tous accidents et vandalisme.",
+      "is_optional": true,
+      "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l’UE, Andorre, Monaco, Saint-Marin, Liechtenstein",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Attentats et actes de terrorisme",
+      "description": "Pour la garantie Attentats et actes de terrorisme : territoire national.",
+      "is_optional": null,
+      "territorial_scope": "territoire national",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Véhicules non homologués ou débridés",
+      "description": "Les véhicules non homologués ne respectant pas le décret 2019-1082 du 23 octobre 2019 notamment ceux circulant à plus de 25 km/h ou débridés",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Véhicule modifié pour augmenter la puissance",
+      "description": "Les dommages subis par le véhicule assuré dont les caractéristiques auraient été modifiées dans le but d’augmenter la puissance.",
+      "applies_to": "Dommages au véhicule",
+      "page": 1
+    },
+    {
+      "name": "Fait intentionnel",
+      "description": "Le fait intentionnel : les dommages que l’assuré cause intentionnellement,",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Défaut de permis de conduire",
+      "description": "Le défaut de permis de conduire : lorsqu’au moment du sinistre, le conducteur n’a pas l’âge requis ou ne possède pas de permis de conduire en état de validité,",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Compétition",
+      "description": "La compétition : exclusion des dommages survenus au cours de manifestations, concentrations avec chronométrage, épreuves, courses, ou compétitions ou si le véhicule est utilisé sur circuit non ouvert à la circulation publique,",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Alcool, stupéfiants et délit de fuite",
+      "description": "La conduite sous l’emprise de l’alcool ou de stupéfiants et tout délit de fuite : exclusion des dommages au véhicule, de la défense de l’assuré et des dommages corporels du conducteur responsable.",
+      "applies_to": "Dommages au véhicule, Défense Pénale et Recours Suite à Accident, Protection du conducteur",
+      "page": 1
+    },
+    {
+      "name": "Plusieurs personnes sur l’EDPM",
+      "description": "L’indemnisation des dommages corporels si, au moment du sinistre, plusieurs personnes se trouvent sur l’EDPM.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Vol sans dispositif antivol relié à un point fixe",
+      "description": "Le vol de l’EDPM si au moment du vol le véhicule n’est pas relié par un dispositif antivol à un point fixe.",
+      "applies_to": "Vol et tentative de vol",
+      "page": 1
+    },
+    {
+      "name": "Restriction – Réduction de 75% de l’indemnisation Protection personnelle du conducteur",
+      "description": "Réduction de 75% de l’indemnisation Protection personnelle du conducteur si le conducteur si le conducteur n’est pas un des bénéficiaires définis dans les Dispositions générales.",
+      "applies_to": "Protection du conducteur",
+      "page": 1
+    },
+    {
+      "name": "Restriction – Franchise à la charge de l’assuré",
+      "description": "Une somme peut rester à la charge de l’assuré (franchise) notamment pour les garanties Vol, Bris de glaces, Dommages subis par l’assuré.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Restriction territoriale – séjours de plus de 90 jours",
+      "description": "Pour les séjours de plus de 90 jours, seule la garantie Responsabilité Civile obligatoire est accordée.",
+      "applies_to": "all",
+      "page": 2
+    }
+  ],
+  "deductibles": {
+    "standard": "Une somme peut rester à la charge de l’assuré (franchise) notamment pour les garanties Vol, Bris de glaces, Dommages subis par l’assuré.",
+    "variable": null,
+    "per_coverage": {
+      "Protection du conducteur": "franchise 10% en invalidité permanente"
+    },
+    "page": 1
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Déclaration du risque",
+      "description": "Répondre exactement aux questions posées nous permettant d’apprécier le risque.",
+      "timing": "A la souscription du contrat",
+      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Remise des justificatifs",
+      "description": "Fournir tous les documents justificatifs demandés.",
+      "timing": "A la souscription du contrat",
+      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Déclaration des circonstances nouvelles",
+      "description": "Déclarer toutes les circonstances nouvelles qui modifient les informations fournies lors de la souscription,",
+      "timing": "En cours de contrat",
+      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Paiement des cotisations",
+      "description": "Régler les cotisations à la date convenue.",
+      "timing": "En cours de contrat",
+      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Déclaration de sinistre",
+      "description": "Déclarer tout sinistre dès que vous en avez connaissance et au plus tard dans le délai fixé par le contrat.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Dépôt de plainte en cas de vol",
+      "description": "En cas de vol, déposer plainte auprès des autorités compétentes et fournir l’original de ce dépôt.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclaration du sinistre",
+      "description": "Déclarer tout sinistre dès que vous en avez connaissance et au plus tard dans le délai fixé par le contrat.",
+      "deadline": "dès que vous en avez connaissance et au plus tard dans le délai fixé par le contrat",
+      "page": 2
+    },
+    {
+      "step": "Dépôt de plainte en cas de vol",
+      "description": "En cas de vol, déposer plainte auprès des autorités compétentes et fournir l’original de ce dépôt.",
+      "deadline": null,
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat prend effet à la date et l’heure indiquées aux Conditions Particulières. Le contrat est souscrit jusqu’à la prochaine échéance principale et est renouvelable par tacite reconduction à chaque échéance principale avec les facultés de résiliation prévues. S’il s’agit d’un contrat temporaire, la mention et la date d’expiration sont portées sur les Conditions Particulières.",
+    "tacit_renewal": true,
+    "notice_period": "un préavis de deux mois",
+    "methods": [
+      "par lettre ou tout autre support durable,",
+      "par déclaration faite au siège social ou chez notre représentant,",
+      "par acte extrajudiciaire,",
+      "via la fonctionnalité mise en place sur le site internet."
+    ],
+    "special_rights": [
+      "à l'échéance annuelle en respectant un préavis de deux mois,",
+      "à tout moment, sans frais ni pénalités, suite à l’expiration d’un délai d’un an à compter de la souscription du contrat. Cette faculté est ouverte pour les contrats couvrant les personnes physiques en dehors de leurs activités professionnelles.",
+      "en cas de résiliation suite à modification de votre situation selon les termes des articles L113-16 et R.113-6 du Code des assurances, vous devrez notifier la résiliation par lettre recommandée (papier ou électronique) avec demande d'avis de réception."
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "La cotisation annuelle (ainsi que les frais, taxes et contributions fixées par l’Etat) se paie à la date ou aux dates indiquées sur les Conditions Particulières.",
+      "Un paiement fractionné peut toutefois être accordé au choix (Semestriel, Mensuel).",
+      "Les paiements peuvent être effectués par carte bancaire, chèque ou prélèvement automatique."
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Portée du document",
+      "description": "Ce document d’information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l’information complète sur ce produit dans la documentation précontractuelle et contractuelle.",
+      "page": 1
+    },
+    {
+      "name": "Caractère obligatoire de la garantie",
+      "description": "C’est une assurance obligatoire.",
+      "page": 1
+    },
+    {
+      "name": "Engins couverts",
+      "description": "Les engins de déplacement personnels motorisés (trottinettes électriques, monoroues, gyropodes, hoverboards, etc…) dont la vitesse maximum est de 25km/h.",
+      "page": 1
+    },
+    {
+      "name": "Légende des garanties",
+      "description": "Les garanties précédées d’une coche sont systématiquement prévues au contrat.",
+      "page": 1
+    },
+    {
+      "name": "Séjours de plus de 90 jours",
+      "description": "Pour les séjours de plus de 90 jours, seule la garantie Responsabilité Civile obligatoire est accordée.",
+      "page": 2
+    },
+    {
+      "name": "Confirmation de la résiliation",
+      "description": "Nous vous confirmerons par écrit la réception de la notification.",
+      "page": 2
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "L’assurance EDPM a pour objectif de garantir l’assuré contre les conséquences des dommages matériels ou corporels causés par son véhicule à un tiers (responsabilité civile). C’est une assurance obligatoire.",
+      "context": "Objet du contrat",
+      "page": 1
+    },
+    {
+      "quote": "hoverboards, etc…) dont la vitesse maximum est de 25km/h.",
+      "context": "Engins couverts",
+      "page": 1
+    },
+    {
+      "quote": "Responsabilité civile : dommages causés aux tiers par le véhicule (plafond illimité pour les dommages corporels / 100 millions € pour les dommages matériels), Préjudice écologique (1.3M€)",
+      "context": "Garantie de base et plafonds",
+      "page": 1
+    },
+    {
+      "quote": "Défense Pénale et Recours Suite à Accident : défense de l’assuré suite à un accident garanti jusqu’à 16 000 €.",
+      "context": "Garantie de base et plafond",
+      "page": 1
+    },
+    {
+      "quote": "Protection du conducteur : dommages corporels du conducteur responsable jusqu’à 600 000 € (franchise 10% en invalidité permanente),",
+      "context": "Garantie de base, plafond et franchise",
+      "page": 1
+    },
+    {
+      "quote": "Les véhicules non homologués ne respectant pas le décret 2019-1082 du 23 octobre 2019 notamment ceux circulant à plus de 25 km/h ou débridés",
+      "context": "Ce qui n’est pas assuré",
+      "page": 1
+    },
+    {
+      "quote": "L’indemnisation des dommages corporels si, au moment du sinistre, plusieurs personnes se trouvent sur l’EDPM.",
+      "context": "Exclusion principale",
+      "page": 1
+    },
+    {
+      "quote": "Le vol de l’EDPM si au moment du vol le véhicule n’est pas relié par un dispositif antivol à un point fixe.",
+      "context": "Exclusion principale",
+      "page": 1
+    },
+    {
+      "quote": "Réduction de 75% de l’indemnisation Protection personnelle du conducteur si le conducteur si le conducteur n’est pas un des bénéficiaires définis dans les Dispositions générales.",
+      "context": "Restriction principale (formulation du document, répétition incluse)",
+      "page": 1
+    },
+    {
+      "quote": "Pour les séjours de plus de 90 jours, seule la garantie Responsabilité Civile obligatoire est accordée.",
+      "context": "Restriction territoriale",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "Aucune date d’édition n’est imprimée dans le texte du document ; seul le nom du fichier de la source_url comporte la mention « 012026 », non reprise dans edition_date faute d’être dans le document.",
+    "La garantie « Attentats et actes de terrorisme » n’est mentionnée que dans la rubrique « Où suis-je couvert ? » (page 2) : le document n’en donne ni description, ni plafond, ni caractère optionnel ou systématique.",
+    "Les garanties « Bris de glaces » et « Dommages subis par l’assuré » ne sont citées que dans la rubrique des restrictions relative à la franchise ; elles ne figurent pas dans la liste des garanties et n’ont donc pas été créées comme couvertures.",
+    "Les montants de franchise ne sont pas chiffrés, sauf la franchise de 10% en invalidité permanente de la Protection du conducteur.",
+    "Aucun plafond n’est indiqué pour les garanties Casques / Gants / Gilets Airbag ni pour les garanties optionnelles Dommages au véhicule.",
+    "Le texte de la restriction sur la Protection personnelle du conducteur comporte une répétition dans le PDF source (« si le conducteur si le conducteur ») ; elle a été conservée telle quelle.",
+    "Le délai de déclaration de sinistre n’est pas chiffré : le document renvoie au « délai fixé par le contrat ».",
+    "Le document ne comporte pas de section Définitions ; seule la description des EDPM a été relevée comme définition.",
+    "Aucun délai de carence ni délai de prescription n’est mentionné dans le document.",
+    "S’agissant d’un IPID (2 pages), il ne présente qu’un résumé des principales garanties et exclusions ; la liste complète figure dans les Dispositions Générales, non fournies."
+  ]
+}

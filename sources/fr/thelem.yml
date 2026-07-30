@@ -1,0 +1,303 @@
+insurer:
+  slug: thelem
+  name: Thélem assurances
+  website: https://www.thelem-assurances.fr
+  segment: particuliers
+  notes: |
+    Société d'assurance mutuelle à cotisations variables (Code des assurances), ACPR-
+    supervised, in the register as THELEM ASSURANCES with 14 authorised branches, group
+    THELEM. First-party carrier: every IPID names Thélem itself as the insurer, so none of
+    the French brand/carrier ambiguity applies here.
+
+    The whole public library is one page of direct .pdf hrefs, so plain HTTP is enough and
+    no renderer is needed.
+
+    GOTCHA 1: the site's anchor labels and the PDFs' own `Produit :` lines disagree on ten
+    documents, and on TA 483 / TA 621 they are effectively swapped between 'multirisque
+    immeuble' and 'multirisque habitation PNO'. product_name below follows the DOCUMENT,
+    not the site. Detail in _meta/discovery/fr/thelem.md.
+
+    GOTCHA 2: the CMS serves some files from two /YYYY/MM/ paths. Two of those pairs are
+    neither byte- nor text-identical, differing only by a trailing product-code fragment,
+    so neither hash de-duplicates them. Three re-uploaded URLs are deliberately absent.
+
+    ALL IPID, no conditions générales: Thélem publishes what the DDA requires and no more.
+    Extractions will be thinner than Belgium's CG-based ones by construction, not by fault.
+  fetch_tier: plain          # plain HTTP 200 on the listing page and on every PDF
+listing_pages:
+- url: https://www.thelem-assurances.fr/documents-information-produit/
+  lang: fr
+languages:
+- fr
+pdfs:
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/Ipid-EA-2026.pdf
+  branch: agricole
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Engins agricoles"
+  edition_date: "2026"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_-TERRENIS-01-2026.pdf
+  branch: agricole
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Terrenis"
+  edition_date: "2026"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA-012026.pdf
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Automobile"
+  edition_date: "2026-01"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_580_Camping-cars-012026.pdf
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Camping-Car"
+  edition_date: "2026-01"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_90B_Caravane-juillet-2023.pdf
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Caravane"
+  edition_date: "2023-07"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/Ipid-EC-2026.pdf
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Engins de chantiers"
+  edition_date: "2026"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_Flotte-standard-juillet-2023.pdf
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Flotte Automobile"
+  edition_date: "2023-07"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_13R_collection-juillet-2024.pdf
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Véhicule de collection"
+  edition_date: "2024-07"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_13S_Camions-juillet-2023.pdf
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Véhicule de plus de 3,5 tonnes"
+  edition_date: "2023-07"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_Chasse-332-juillet-2024.pdf
+  branch: chasse
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance chasse"
+  edition_date: "2024-07"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_810_DCBAT_-012025.pdf
+  branch: decennale
+  document_type: ipid
+  lang: fr
+  product_name: "DCBAT / Responsabilité Décennale des entreprises du Bâtiment"
+  edition_date: "2025-01"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_EDPM-012026.pdf
+  branch: edpm
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance EDPM"
+  edition_date: "2026-01"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_488_juin-2025.pdf
+  branch: emprunteur
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Emprunteur"
+  edition_date: "2025-06"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_700-ACCVP-08-2025.pdf
+  branch: gav
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Accidents de la vie privée"
+  edition_date: "2025"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_570-Dommages-aux-biens.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Dommages aux biens"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_601-Occupants-janvier-2026.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Multirisque Habitation"
+  edition_date: "2026-01"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2026/03/IPID_TA_621-PNO-janvier-2026.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance multirisque habitation Propriétaire non occupant"
+  edition_date: "2026-01"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_611-mobilhome-janvier-2026.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance multirisque habitation du mobil home"
+  edition_date: "2026-01"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2026/03/IPID_TA_483-MRI-PNO-juillet-2023.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  # NOT a superseded edition of TA 630. Both carry the Produit line "Assurance multirisque
+  # immeuble", but the documents themselves name the variant: TA 483 is PROPRIETAIRE NON
+  # OCCUPANT, TA 630 is COPROPRIETE. Parallel variants, not editions (rule 8). The
+  # extraction sets product_name and variant from the document, which is why the generic
+  # name below is only a fallback.
+  product_name: "Assurance multirisque immeuble"
+  edition_date: "2023-07"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_630-MRI-aout-2025.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance multirisque immeuble"
+  edition_date: "2025-08"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_Cyclo-012026.pdf
+  branch: moto
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Cyclo"
+  edition_date: "2026-01"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_Moto-012026.pdf
+  branch: moto
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Moto"
+  edition_date: "2026-01"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_Quad-012026.pdf
+  branch: moto
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Quad"
+  edition_date: "2026-01"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_Voiturette-012026.pdf
+  branch: moto
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Voiturette"
+  edition_date: "2026-01"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_201_Garauto-Aout-2025.pdf
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Garauto"
+  edition_date: "2025-08"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPIP_-MRP-PME-PMI-Aout-2025.pdf
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance multirisque professionnelle"
+  edition_date: "2025-08"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_26_BDM-juin-2023.pdf
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "Bris de machine"
+  edition_date: "2023-06"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TP_419-IOC-2026.pdf
+  branch: obseques
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Initiative Obsèques Capital"
+  edition_date: "2026"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TP_IOS-418-2026.pdf
+  branch: obseques
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Initiative Obsèques Services"
+  edition_date: "2026"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TP_396-capital-deces-juillet-2023.pdf
+  branch: prevoyance
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Capital Décès"
+  edition_date: "2023-07"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TP_Protection-famille-572_082025.pdf
+  branch: prevoyance
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Protection famille"
+  edition_date: "2025-08"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TP_PREVAGRI_440_072024.pdf
+  branch: prevoyance
+  document_type: ipid
+  lang: fr
+  product_name: "Prévoyance Agri"
+  edition_date: "2024-07"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TP_prev-pro-ISIS.pdf
+  branch: prevoyance
+  document_type: ipid
+  lang: fr
+  product_name: "Prévoyance Pro"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TP_Prev-madelin_ISIS_v2.pdf
+  branch: prevoyance
+  document_type: ipid
+  lang: fr
+  product_name: "Prévoyance Pro Madelin"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_PJ_PART_012026_VF.pdf
+  branch: protection-juridique
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Protection Juridique du particulier"
+  edition_date: "2026-01"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_PJ-PRO_012026.pdf
+  branch: protection-juridique
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Protection Juridique du professionnel"
+  edition_date: "2026-01"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_PJ-PRO-AGRI_012026.pdf
+  branch: protection-juridique
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Protection Juridique du professionnel agricole"
+  edition_date: "2026-01"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_RC-AssociationDG-477-CS-437-juillet-2023.pdf
+  branch: rc-privee
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance responsabilité civile association"
+  edition_date: "2023-07"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_RCVP-CS-456-juillet-2024.pdf
+  branch: rc-privee
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance responsabilité civile vie privée"
+  edition_date: "2024-07"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_RCPRO.pdf
+  branch: rc-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "Responsabilité Civile Chef d’Entreprise/ Professions libérales"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_710-Evolution-NResp-janvier-2024.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Complémentaire Santé – gamme non responsable et solidaire"
+  edition_date: "2024-01"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_710-Evolution-Resp-janvier-2026.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Complémentaire Santé – gamme responsable et solidaire"
+  edition_date: "2026-01"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/Exemples_remboursements_TA_2026_NON_RESPONSABLE.pdf
+  branch: sante
+  document_type: other
+  lang: fr
+  product_name: "Exemples de remboursements formules NON RESPONSABLES"
+  edition_date: "2026"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/Exemples_remboursements_TA_2026_RESPONSABLE.pdf
+  branch: sante
+  document_type: other
+  lang: fr
+  product_name: "Exemples de remboursements formules RESPONSABLES"
+  edition_date: "2026"
+- url: https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_scolaire-19-septembre-2024.pdf
+  branch: scolaire
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance scolaire et extra-scolaire"
+  edition_date: "2024-09"

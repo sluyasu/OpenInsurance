@@ -1,0 +1,417 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "thelem",
+  "insurer_name": "Thélem assurances",
+  "product_name": "Assurance Dommages aux biens",
+  "branch": "habitation",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "Le document vise les contrats « couvrant les personnes physiques ou morales en dehors de leurs activités professionnelles » (faculté de résiliation via le site internet) et mentionne « vos préposés dans l'exercice de leurs fonctions » ainsi que, « lorsqu'il s'agit de personnes morales, leurs dirigeants sociaux ».",
+  "reference": null,
+  "edition_date": null,
+  "product_family": "Assurance Dommages aux biens",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_570-Dommages-aux-biens.pdf",
+  "source_pdf": "assurance-dommages-aux-biens-d1be8854.pdf",
+  "source_sha256": "bd74d1c57d87a04b86aaed9ad1518a08afdc4bfa752f3eac8fc66daeb9f98884",
+  "source_pages": 2,
+  "fetched_at": "2026-07-30",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "L’Assurance Dommages aux biens de Thélem assurances est un document d’information sur le produit d’assurance rattaché au produit « Assurance multirisque habitation ». Elle a pour objectifs de garantir les biens dans le cadre d’un contrat Tous risques objets ou Tous risques exposition. Sont assurés les objets mentionnés dans les conditions particulières, avec des plafonds de remboursement différents indiqués au contrat : détérioration accidentelle imprévisible ou fortuite (y compris les actes de vandalisme) et vol sous certaines conditions en Tous risques Objet ; réparation du préjudice pécuniaire subi par les objets présentés à une exposition publique ou privée en Tous risques exposition. La garantie s’exerce au lieu ou à l’adresse indiqué aux Conditions Particulières.",
+  "definitions": [
+    {
+      "term": "Tous risques Objet",
+      "definition": "Garantie couvrant la détérioration accidentelle imprévisible ou fortuite (y compris les actes de vandalisme) et le vol (sous certaines conditions).",
+      "page": 1
+    },
+    {
+      "term": "Tous risques exposition",
+      "definition": "Garantie de réparation du préjudice pécuniaire du fait des dommages, avaries et pertes matérielles subis par les objets présentés à une exposition publique ou privée.",
+      "page": 1
+    },
+    {
+      "term": "Garanties précédées d’une coche",
+      "definition": "Les garanties précédées d’une coche sont systématiquement prévues au contrat.",
+      "page": 1
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Les objets mentionnés dans les conditions particulières",
+      "description": "Les objets mentionnés dans les conditions particulières. Les garanties et les services ont des plafonds de remboursement différents, indiqués au contrat.",
+      "is_optional": false,
+      "territorial_scope": "Au lieu ou à l’adresse indiqué aux Conditions Particulières",
+      "limits": "Les garanties et les services ont des plafonds de remboursement différents, indiqués au contrat.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Objets mentionnés dans les conditions particulières"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Tous risques Objet - détérioration accidentelle imprévisible ou fortuite",
+      "description": "Garantie systématiquement prévue : détérioration accidentelle imprévisible ou fortuite (y compris les actes de vandalisme).",
+      "is_optional": false,
+      "territorial_scope": "Au lieu ou à l’adresse indiqué aux Conditions Particulières",
+      "limits": "Les garanties et les services ont des plafonds de remboursement différents, indiqués au contrat.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Les actes de vandalisme commis en cas d’inoccupation ou d’inhabitation des locaux dès lors que ceux-ci sont restés inoccupés ou inhabités pendant une période de 45 jours consécutifs depuis le début de la période d’assurance en cours ne sont pas garantis."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Tous risques Objet - Le vol (sous certaines conditions)",
+      "description": "Garantie systématiquement prévue : Le vol (sous certaines conditions).",
+      "is_optional": false,
+      "territorial_scope": "Au lieu ou à l’adresse indiqué aux Conditions Particulières",
+      "limits": "Les garanties et les services ont des plafonds de remboursement différents, indiqués au contrat.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "sous certaines conditions",
+        "Les vols commis en cas d’inoccupation ou d’inhabitation des locaux dès lors que ceux-ci sont restés inoccupés ou inhabités pendant une période de 45 jours consécutifs depuis le début de la période d’assurance en cours ne sont pas garantis."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Tous risques exposition",
+      "description": "Garantie systématiquement prévue : réparation du préjudice pécuniaire du fait des dommages, avaries et pertes matérielles subis par les objets présentés à une exposition publique ou privée.",
+      "is_optional": false,
+      "territorial_scope": "Au lieu ou à l’adresse indiqué aux Conditions Particulières",
+      "limits": "Les garanties et les services ont des plafonds de remboursement différents, indiqués au contrat.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Objets présentés à une exposition publique ou privée"
+      ],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Dommages immatériels",
+      "description": "Les dommages immatériels,",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Vols commis par la famille, les préposés ou les dirigeants sociaux",
+      "description": "Les vols commis par les membres de votre famille ou avec leur complicité, ou par vos préposés dans l'exercice de leurs fonctions, ou bien lorsqu'il s'agit de personnes morales, leurs dirigeants sociaux.",
+      "applies_to": "Tous risques Objet - Le vol (sous certaines conditions)",
+      "page": 1
+    },
+    {
+      "name": "Dommages intentionnels",
+      "description": "Les pertes ou dommages intentionnellement causés ou provoqués par vous ou avec votre complicité ;",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Guerre civile ou guerre étrangère",
+      "description": "Les pertes ou dommages occasionnés en cas de guerre civile ou guerre étrangère ;",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Participation active à des attentats, actes de terrorisme, émeutes ou mouvements populaires",
+      "description": "Les pertes ou dommages résultant de votre participation active à des attentats, actes de terrorisme, des émeutes ou des mouvements populaires ;",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Cataclysmes naturels",
+      "description": "Les pertes ou dommages occasionnés par les raz de marée, tremblements de terre, éruptions de volcans, avalanches, effondrements, affaissements de terrain ou glissements du sol, chutes de pierres ou autres cataclysmes ;",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Origine nucléaire ou rayonnements ionisants",
+      "description": "Les pertes ou dommages directs ou indirects d’origine nucléaire ou causés par toute source de rayonnements ionisants ;",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Réparations, remise à neuf, procédé de réparation ou de restauration",
+      "description": "Les pertes ou dommages survenant en cours de réparations, de remise à neuf des biens assurés, ou résultant d'un procédé de réparation ou de restauration ;",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Usure, détérioration progressive, défaut d’emballage, vice propre",
+      "description": "Les pertes ou dommages résultant d'usure, de détérioration progressive, d'un défaut d'emballage, de vice propre des biens assurés ;",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Fonctionnement du bien assuré",
+      "description": "Les pertes ou dommages résultant du fonctionnement du bien assuré ;",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Sous-tension ou surtension",
+      "description": "Les pertes ou dommages résultant d’un phénomène de sous ou surtension ;",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Etat hygrométrique, variations de température, éclairages inadaptés",
+      "description": "Les pertes ou dommages causés par l'état hygrométrique de l'atmosphère, par des variations de température, par des éclairages inadaptés ;",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Rongeurs, vers, vermines et parasites",
+      "description": "Les pertes ou dommages causés par des rongeurs, des vers et vermines, et autres parasites ;",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Bien assuré perdu",
+      "description": "Les pertes ou dommages résultant du fait qu'un bien assuré a été perdu (SAUF CAS DE FORCE MAJEURE).",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Vols et actes de vandalisme après 45 jours d’inoccupation",
+      "description": "Les vols et actes de vandalisme - commis en cas d’inoccupation ou d’inhabitation des locaux dès lors que ceux-ci sont restés inoccupés ou inhabités pendant une période de 45 jours consécutifs depuis le début de la période d’assurance en cours - ne sont pas garantis. (Figure sous « LES PRINCIPALES RESTRICTIONS ».)",
+      "applies_to": "Tous risques Objet - Le vol (sous certaines conditions)",
+      "page": 1
+    }
+  ],
+  "deductibles": null,
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Répondre exactement aux questions posées",
+      "description": "Répondre exactement aux questions posées lors de la souscription afin d’apprécier les risques et fixer la cotisation,",
+      "timing": "À la souscription du contrat",
+      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+      "page": 2
+    },
+    {
+      "name": "Déclarer le transfert des biens assurés",
+      "description": "Déclarer dans un délai de 15 jours le transfert total des biens assurés au lieu ou à l’adresse déclaré aux Conditions particulières,",
+      "timing": "À la souscription du contrat",
+      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+      "page": 2
+    },
+    {
+      "name": "Informer de l’existence d’une autre assurance",
+      "description": "Nous informer si les biens couverts par le contrat font l’objet d’une autre assurance et indiquer les sommes assurées.",
+      "timing": "À la souscription du contrat",
+      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+      "page": 2
+    },
+    {
+      "name": "Déclarer les circonstances nouvelles",
+      "description": "Déclarer toutes les circonstances nouvelles qui modifient les informations fournies lors de la souscription,",
+      "timing": "En cours de contrat",
+      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+      "page": 2
+    },
+    {
+      "name": "Régler les cotisations",
+      "description": "Régler les cotisations à la date convenue.",
+      "timing": "En cours de contrat",
+      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+      "page": 2
+    },
+    {
+      "name": "Déclarer le sinistre",
+      "description": "Déclarer tout sinistre dès que l’assuré en a connaissance et au plus tard dans le délai fixé par le contrat,",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+      "page": 2
+    },
+    {
+      "name": "Limiter l’importance du sinistre",
+      "description": "Prendre toutes les mesures de préservation possibles pour limiter l’importance du sinistre,",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+      "page": 2
+    },
+    {
+      "name": "Justifier la nature et l’importance du dommage",
+      "description": "Justifier la nature et l’importance du dommage, au moyen de factures ou certificats de garantie notamment,",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+      "page": 2
+    },
+    {
+      "name": "Recevoir l’expert",
+      "description": "Recevoir notre expert en le laissant procéder aux constats nécessaires.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclaration du sinistre",
+      "description": "Déclarer tout sinistre dès que l’assuré en a connaissance et au plus tard dans le délai fixé par le contrat,",
+      "deadline": "dès que l’assuré en a connaissance et au plus tard dans le délai fixé par le contrat",
+      "page": 2
+    },
+    {
+      "step": "Mesures conservatoires",
+      "description": "Prendre toutes les mesures de préservation possibles pour limiter l’importance du sinistre,",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Justification du dommage",
+      "description": "Justifier la nature et l’importance du dommage, au moyen de factures ou certificats de garantie notamment,",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Expertise",
+      "description": "Recevoir notre expert en le laissant procéder aux constats nécessaires.",
+      "deadline": null,
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat prend effet à la date et l’heure indiquées aux Conditions Particulières. Le contrat est souscrit jusqu’à la prochaine échéance principale et est renouvelable par tacite reconduction à chaque échéance principale avec les facultés de résiliation prévues. S’il s’agit d’un contrat temporaire, la mention et la date d’expiration sont portées sur les Conditions Particulières.",
+    "tacit_renewal": true,
+    "notice_period": "à l'échéance annuelle en respectant un préavis de deux mois",
+    "methods": [
+      "par lettre ou tout autre support durable",
+      "par déclaration faite au siège social ou chez notre représentant",
+      "par acte extrajudiciaire",
+      "lorsque nous vous avons proposé la conclusion de ce contrat par un mode de communication à distance, par le même mode de communication",
+      "pour les contrats couvrant les personnes physiques ou morales en dehors de leurs activités professionnelles : via la fonctionnalité mise à disposition sur le site internet",
+      "En cas de résiliation suite à modification de votre situation selon les termes des articles L113-16 et R.113-6 du Code des assurances, vous devrez notifier la résiliation par lettre recommandée (papier ou électronique) avec demande d'avis de réception."
+    ],
+    "special_rights": [
+      "En cas de contrat conclu à distance, l’assuré dispose d’un délai de rétractation de 14 jours, qui commence à courir à compter de la conclusion du contrat, ou à compter de la réception de l’ensemble de la documentation contractuelle.",
+      "à tout moment, sans frais ni pénalités, suite à l’expiration d’un délai d’un an à compter de la souscription du contrat. Cette faculté est ouverte pour les contrats couvrant les personnes physiques en dehors de leurs activités professionnelles.",
+      "Les cas de résiliation, les délais à respecter sont ceux prévus par la règlementation et précisés dans les Dispositions Générales.",
+      "Nous vous confirmerons par écrit la réception de la notification."
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "La cotisation annuelle (ainsi que les frais, taxes et contributions fixées par l’Etat) se paie à la date ou aux dates indiquées sur les Conditions Particulières.",
+      "Un paiement fractionné peut toutefois être accordé au choix (Semestriel, Mensuel).",
+      "Les paiements peuvent être effectués par carte bancaire, chèque ou prélèvement automatique."
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Plafonds de remboursement",
+      "description": "Les garanties et les services ont des plafonds de remboursement différents, indiqués au contrat.",
+      "page": 1
+    },
+    {
+      "name": "Restriction - inoccupation ou inhabitation des locaux",
+      "description": "Les vols et actes de vandalisme - commis en cas d’inoccupation ou d’inhabitation des locaux dès lors que ceux-ci sont restés inoccupés ou inhabités pendant une période de 45 jours consécutifs depuis le début de la période d’assurance en cours - ne sont pas garantis.",
+      "page": 1
+    },
+    {
+      "name": "Contrat temporaire",
+      "description": "S’il s’agit d’un contrat temporaire, la mention et la date d’expiration sont portées sur les Conditions Particulières.",
+      "page": 2
+    },
+    {
+      "name": "Transfert des biens assurés",
+      "description": "Déclarer dans un délai de 15 jours le transfert total des biens assurés au lieu ou à l’adresse déclaré aux Conditions particulières.",
+      "page": 2
+    },
+    {
+      "name": "Assureur",
+      "description": "Thélem assurances, société d’assurance mutuelle à cotisations variables, numéro SIREN 085 580 488, Siège Social « Le Croc », BP 63130, 45431 Chécy Cedex. Entreprise régie par le Code des assurances et soumise à l’Autorité de Contrôle Prudentiel et de Résolution (ACPR), sise 4 Place de Budapest, CS 92459, 75436 Paris Cedex 09.",
+      "page": 1
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "L’assurance Dommages aux biens a pour objectifs de garantir les biens dans le cadre d’un cadre d’un contrat Tous risques objets ou Tous risques exposition.",
+      "context": "De quel type d’assurance s’agit-il ? (la formulation « d’un cadre d’un » est reprise telle quelle du document)",
+      "page": 1
+    },
+    {
+      "quote": "Les objets mentionnés dans les conditions particulières.",
+      "context": "Qu’est-ce qui est assuré ?",
+      "page": 1
+    },
+    {
+      "quote": "détérioration accidentelle imprévisible ou fortuite (y compris les actes de vandalisme),",
+      "context": "Tous risques Objet",
+      "page": 1
+    },
+    {
+      "quote": "Le vol (sous certaines conditions).",
+      "context": "Tous risques Objet",
+      "page": 1
+    },
+    {
+      "quote": "réparation du préjudice pécuniaire du fait des dommages, avaries et pertes matérielles subis par les objets présentés à une exposition publique ou privée.",
+      "context": "Tous risques exposition",
+      "page": 1
+    },
+    {
+      "quote": "Les dommages immatériels,",
+      "context": "Qu’est-ce qui n’est pas assuré ?",
+      "page": 1
+    },
+    {
+      "quote": "Les vols commis par les membres de votre famille ou avec leur complicité, ou par vos préposés dans l'exercice de leurs fonctions, ou bien lorsqu'il s'agit de personnes morales, leurs dirigeants sociaux.",
+      "context": "Qu’est-ce qui n’est pas assuré ?",
+      "page": 1
+    },
+    {
+      "quote": "Résultant d'usure, de détérioration progressive, d'un défaut d'emballage, de vice propre des biens assurés ;",
+      "context": "Les principales exclusions",
+      "page": 1
+    },
+    {
+      "quote": "Résultant du fait qu'un bien assuré a été perdu (SAUF CAS DE FORCE MAJEURE).",
+      "context": "Les principales exclusions",
+      "page": 1
+    },
+    {
+      "quote": "Les vols et actes de vandalisme - commis en cas d’inoccupation ou d’inhabitation des locaux dès lors que ceux-ci sont restés inoccupés ou inhabités pendant une période de 45 jours consécutifs depuis le début de la période d’assurance en cours - ne sont pas garantis.",
+      "context": "Les principales restrictions",
+      "page": 1
+    },
+    {
+      "quote": "Au lieu ou à l’adresse indiqué aux Conditions Particulières",
+      "context": "Où suis-je couvert ?",
+      "page": 2
+    },
+    {
+      "quote": "Déclarer dans un délai de 15 jours le transfert total des biens assurés au lieu ou à l’adresse déclaré aux Conditions particulières,",
+      "context": "Quelles sont mes obligations ? - À la souscription du contrat",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "Document de type IPID : il présente « un résumé des principales garanties et exclusions du contrat ». Seules « LES PRINCIPALES EXCLUSIONS » et « LES PRINCIPALES RESTRICTIONS » sont listées ; la liste complète figure dans la documentation précontractuelle et contractuelle.",
+    "Incohérence de dénomination dans la source : le titre du document est « Assurance Dommages aux biens » alors que la ligne « Produit : » indique « Assurance multirisque habitation », le contenu décrivant en réalité des contrats Tous risques objets et Tous risques exposition. product_name reprend le titre du document.",
+    "La phrase d’objet du contrat comporte une répétition dans la source (« dans le cadre d’un cadre d’un contrat ») ; elle est citée verbatim.",
+    "Aucune date d’édition ni référence interne n’apparaît dans le texte extrait ; le nom du fichier source (IPID_TA_570-Dommages-aux-biens.pdf) suggère une référence « TA 570 », non confirmée par le texte : edition_date et reference laissés à null.",
+    "target_audience laissé à null : le document mentionne à la fois des personnes physiques et des personnes morales, sans catégorie explicite.",
+    "Aucune franchise n’est mentionnée dans le document (deductibles null).",
+    "Aucun montant ni plafond chiffré n’est donné : « Les garanties et les services ont des plafonds de remboursement différents, indiqués au contrat ».",
+    "Aucun délai de carence n’est mentionné (waiting_periods vide).",
+    "Aucun délai de prescription n’est mentionné dans le document (prescription_period null).",
+    "Les conditions attachées à la garantie Vol ne sont pas détaillées : le document indique seulement « Le vol (sous certaines conditions) ».",
+    "Les cas et délais de résiliation ne sont pas détaillés : « Les cas de résiliation, les délais à respecter sont ceux prévus par la règlementation et précisés dans les Dispositions Générales »."
+  ]
+}

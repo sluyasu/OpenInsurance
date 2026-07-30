@@ -1,0 +1,497 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "thelem",
+  "insurer_name": "Thélem assurances",
+  "product_name": "Assurance Engins agricoles",
+  "branch": "agricole",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "Le document ne nomme pas explicitement sa cible. Il mentionne la garantie « catastrophes technologiques (si l'assurance concerne un particulier) » et réserve deux facultés de résiliation « pour les contrats couvrant les personnes physiques en dehors de leurs activités professionnelles ».",
+  "reference": null,
+  "edition_date": "2026",
+  "product_family": "Assurance Engins agricoles",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.thelem-assurances.fr/wp-content/uploads/2025/12/Ipid-EA-2026.pdf",
+  "source_pdf": "assurance-engins-agricoles-ffc40310.pdf",
+  "source_sha256": "1a3701cf2826064eeed5381fa9667746e39fab2596355205e41fd3f6c0daab65",
+  "source_pages": 2,
+  "fetched_at": "2026-07-30",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "L'assurance Engins agricoles de Thélem assurances a pour objectif de garantir le souscripteur contre les conséquences des dommages matériels ou corporels causés par son véhicule automoteur et les matériels tractés à un tiers (responsabilité civile) ; c'est une assurance obligatoire. Sont assurés les véhicules automoteurs de type engins agricoles ainsi que les remorques et matériels lorsqu'ils sont attelés. Le contrat inclut également la couverture des dommages corporels du conducteur, les dommages aux matériels tractés ainsi que les marchandises et animaux transportés. Selon les formules souscrites, il couvre aussi les dommages matériels au véhicule automoteur (bris de glaces, incendie, vol, tous accidents, bris mécaniques, etc.).",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Responsabilité civile circulation",
+      "description": "Dommages causés aux tiers par le véhicule.",
+      "is_optional": false,
+      "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l'UE, Andorre, Monaco, Saint Marin, St Siège, Suisse, Liechtenstein, Norvège et tous les pays non rayés sur la carte verte.",
+      "limits": "plafond illimité pour les dommages corporels / 100 millions € pour les dommages matériels",
+      "sub_limits": [
+        "plafond illimité pour les dommages corporels",
+        "100 millions € pour les dommages matériels"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Pour les séjours de plus de 90 jours, seule la garantie Responsabilité Civile obligatoire est accordée."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Responsabilité civile travaux",
+      "description": "Dommages causés aux tiers par le véhicule lorsque celui-ci est utilisé en tant qu'outil.",
+      "is_optional": false,
+      "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l'UE, Andorre, Monaco, Saint Marin, St Siège, Suisse, Liechtenstein, Norvège et tous les pays non rayés sur la carte verte.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Atteintes à l'environnement",
+      "description": "RC Atteintes à l'environnement, Préjudice écologique, Responsabilité environnementale.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Défense Pénale et Recours Suite à Accident",
+      "description": "Défense de l'assuré suite à un accident garanti.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "jusqu'à 16 000 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Protection du conducteur",
+      "description": "Dommages corporels du conducteur responsable (y compris lorsque le véhicule a été emprunté).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "jusqu'à 600 000 € sans franchise",
+      "sub_limits": [],
+      "deductible": "sans franchise",
+      "conditions": [
+        "y compris lorsque le véhicule a été emprunté"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Dommages aux matériels et remorques tractés",
+      "description": "Garantie des remorques et matériels tractés.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "à concurrence de 200 000 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Matériels, animaux et marchandises transportés",
+      "description": "Garantie des matériels, animaux et marchandises transportés, y compris lors des opérations de chargement/déchargement.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "à concurrence de 20 000 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "y compris lors des opérations de chargement/déchargement"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Bris de glaces",
+      "description": "Garantie optionnelle au titre des Dommages au véhicule : bris de glaces.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Une somme peut rester à la charge de l'assuré (franchise) notamment pour les garanties Vol, Incendie, Bris de glaces, Dommages subis par l'assuré.",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Catastrophes naturelles",
+      "description": "Garantie optionnelle au titre des Dommages au véhicule : catastrophes naturelles.",
+      "is_optional": true,
+      "territorial_scope": "Pour la garantie Catastrophes naturelles : selon arrêté interministériel constatant l'état de catastrophes naturelles.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Catastrophes technologiques",
+      "description": "Garantie optionnelle au titre des Dommages au véhicule : catastrophes technologiques (si l'assurance concerne un particulier).",
+      "is_optional": true,
+      "territorial_scope": "Pour la garantie Catastrophes technologiques : France métropolitaine.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "si l'assurance concerne un particulier"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Attentats",
+      "description": "Garantie optionnelle au titre des Dommages au véhicule : attentats.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Tempête grêle neige",
+      "description": "Garantie optionnelle au titre des Dommages au véhicule : tempête, grêle, neige.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Incendie et dommages électroniques",
+      "description": "Garantie optionnelle au titre des Dommages au véhicule : incendie et dommages électroniques.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Une somme peut rester à la charge de l'assuré (franchise) notamment pour les garanties Vol, Incendie, Bris de glaces, Dommages subis par l'assuré.",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Vol et tentative de vol",
+      "description": "Garantie optionnelle au titre des Dommages au véhicule : vol et tentative de vol.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Une somme peut rester à la charge de l'assuré (franchise) notamment pour les garanties Vol, Incendie, Bris de glaces, Dommages subis par l'assuré.",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Dommages tous accidents (y compris dommages aux pneus) et vandalisme",
+      "description": "Garantie optionnelle au titre des Dommages au véhicule : dommages tous accidents (y compris dommages aux pneus) et vandalisme.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Indemnisation +",
+      "description": "Véhicule automoteur garanti en valeur d'achat jusqu'à ses 24 mois.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "valeur d'achat jusqu'à ses 24 mois",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Absorption de corps étrangers",
+      "description": "Dommages subis par les engins agricoles résultant de bris causés par la pénétration de corps étrangers.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Bris mécaniques (y compris absorption de corps étrangers)",
+      "description": "Dommages subis par les engins agricoles résultant de bris accidentels.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Les véhicules non homologués",
+      "description": "Ne sont pas assurés les véhicules non homologués.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dommages subis par les remorques dételées",
+      "description": "Ne sont pas assurés les dommages subis les remorques dételées (formulation du document).",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Les exclusions légales",
+      "description": "Le document indique que les exclusions légales s'appliquent, en plus des exclusions listées, sans les énumérer.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Le fait intentionnel",
+      "description": "Le fait intentionnel : les dommages que l'assuré cause intentionnellement.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Conduite sous l'emprise de l'alcool ou de stupéfiants et délit de fuite",
+      "description": "La conduite sous l'emprise de l'alcool ou de stupéfiants et tout délit de fuite : exclusion des dommages au véhicule, de la défense de l'assuré et des dommages corporels du conducteur responsable.",
+      "applies_to": "Dommages au véhicule, Défense Pénale et Recours Suite à Accident, Protection du conducteur",
+      "page": 1
+    },
+    {
+      "name": "Véhicule dont les caractéristiques ont été modifiées",
+      "description": "Les dommages subis par le véhicule assuré dont les caractéristiques auraient été modifiées dans le but d'augmenter sa puissance ou sa destination.",
+      "applies_to": "Dommages au véhicule",
+      "page": 1
+    },
+    {
+      "name": "Dispositifs de sécurité modifiés, neutralisés ou supprimés",
+      "description": "Les dommages subis par le véhicule assuré lorsque les dispositifs de sécurité ont été modifiés, neutralisés ou supprimés.",
+      "applies_to": "Dommages au véhicule",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": "Une somme peut rester à la charge de l'assuré (franchise) notamment pour les garanties Vol, Incendie, Bris de glaces, Dommages subis par l'assuré. Franchise de 30% du montant des dommages si inobservation des mesures de prévention (réparer le véhicule avec des pièces ou accessoires agréés ; réaliser son entretien selon les préconisations du constructeur).",
+    "per_coverage": null,
+    "page": 1
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Répondre exactement aux questions posées",
+      "description": "Répondre exactement aux questions posées, notamment dans le formulaire de déclaration du risque, nous permettant d'apprécier le risque.",
+      "timing": "A la souscription du contrat",
+      "sanction": "Sous peine de nullité du contrat d'assurance ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Fournir les documents justificatifs",
+      "description": "Fournir tous les documents justificatifs demandés.",
+      "timing": "A la souscription du contrat",
+      "sanction": "Sous peine de nullité du contrat d'assurance ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Déclarer les circonstances nouvelles",
+      "description": "Déclarer toutes les circonstances nouvelles qui modifient les informations fournies lors de la souscription.",
+      "timing": "En cours de contrat",
+      "sanction": "Sous peine de nullité du contrat d'assurance ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Régler les cotisations",
+      "description": "Régler les cotisations à la date convenue.",
+      "timing": "En cours de contrat",
+      "sanction": "Sous peine de nullité du contrat d'assurance ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Déclarer le sinistre",
+      "description": "Déclarer tout sinistre dès que vous en avez connaissance et au plus tard dans le délai fixé par le contrat.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de nullité du contrat d'assurance ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Déposer plainte en cas de vol",
+      "description": "En cas de vol, déposer plainte auprès des autorités compétentes et fournir l'original de ce dépôt.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de nullité du contrat d'assurance ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Réparer le véhicule avec des pièces ou accessoires agréés",
+      "description": "Mesure de prévention : réparer le véhicule avec des pièces ou accessoires agréés.",
+      "timing": "Mesure de prévention",
+      "sanction": "Franchise de 30% du montant des dommages si inobservation des mesures de prévention",
+      "page": 1
+    },
+    {
+      "name": "Réaliser l'entretien selon les préconisations du constructeur",
+      "description": "Mesure de prévention : réaliser son entretien selon les préconisations du constructeur.",
+      "timing": "Mesure de prévention",
+      "sanction": "Franchise de 30% du montant des dommages si inobservation des mesures de prévention",
+      "page": 1
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclarer le sinistre",
+      "description": "Déclarer tout sinistre dès que vous en avez connaissance et au plus tard dans le délai fixé par le contrat.",
+      "deadline": "dès que vous en avez connaissance et au plus tard dans le délai fixé par le contrat",
+      "page": 2
+    },
+    {
+      "step": "Déposer plainte en cas de vol",
+      "description": "En cas de vol, déposer plainte auprès des autorités compétentes et fournir l'original de ce dépôt.",
+      "deadline": null,
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat prend effet à la date et l'heure indiquée aux Conditions Particulières. Le contrat est souscrit jusqu'à la prochaine échéance principale. S'il s'agit d'un contrat temporaire, la mention et la date d'expiration sont portées sur les Conditions Particulières.",
+    "tacit_renewal": true,
+    "notice_period": "à l'échéance principale moyennant un préavis de 2 mois",
+    "methods": [
+      "par lettre recommandée",
+      "par une déclaration faite contre récépissé à notre siège ou auprès de notre assureur conseil"
+    ],
+    "special_rights": [
+      "lors de la survenance de certains événements (vente, changement de profession…)",
+      "dans un délai de 20 jours suivant la date d'envoi de l'avis d'échéance",
+      "Les deux dernières facultés de résiliation sont accordées pour les contrats couvrant les personnes physiques en dehors de leurs activités professionnelles."
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "La cotisation annuelle (ainsi que les frais, taxes et contributions fixées par l'Etat) se paie à la date ou aux dates indiquées sur les Conditions Particulières.",
+      "Un paiement fractionné peut toutefois être accordé au choix (Semestriel, Mensuel).",
+      "Les paiements peuvent être effectués par carte bancaire, chèque ou prélèvement automatique."
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Assurance obligatoire",
+      "description": "C'est une assurance obligatoire.",
+      "page": 1
+    },
+    {
+      "name": "Biens assurables",
+      "description": "Les véhicules automoteurs de type engins agricoles ainsi que les remorques et matériels lorsqu'ils sont attelés.",
+      "page": 1
+    },
+    {
+      "name": "Garanties systématiquement prévues",
+      "description": "Les garanties précédées d'une coche sont systématiquement prévues au contrat.",
+      "page": 1
+    },
+    {
+      "name": "Réduction pour non-port de la ceinture de sécurité",
+      "description": "Une réduction de 25% de l'indemnisation des dommages corporels si l'assuré ne porte pas sa ceinture de sécurité au moment de l'accident.",
+      "page": 1
+    },
+    {
+      "name": "Mesures de prévention sanctionnées par une franchise",
+      "description": "Franchise de 30% du montant des dommages si inobservation des mesures de prévention : réparer le véhicule avec des pièces ou accessoires agréés ; réaliser son entretien selon les préconisations du constructeur.",
+      "page": 1
+    },
+    {
+      "name": "Séjours de plus de 90 jours",
+      "description": "Pour les séjours de plus de 90 jours, seule la garantie Responsabilité Civile obligatoire est accordée.",
+      "page": 2
+    },
+    {
+      "name": "Portée du document",
+      "description": "Ce document d'information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l'information complète sur ce produit dans la documentation précontractuelle et contractuelle.",
+      "page": 1
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "L’assurance Engins agricoles a pour objectif de garantir le souscripteur contre les conséquences des dommages matériels ou corporels causés par son véhicule automoteur et les matériels tractés à un tiers (responsabilité civile). C’est une assurance obligatoire.",
+      "context": "De quel type d’assurance s’agit-il ?",
+      "page": 1
+    },
+    {
+      "quote": "Les véhicules automoteurs de type engins agricoles ainsi que les remorques et matériels lorsqu’ils sont attelés.",
+      "context": "Qu’est-ce qui est assuré ?",
+      "page": 1
+    },
+    {
+      "quote": "Responsabilité civile circulation : dommages causés aux tiers par le véhicule – plafond illimité pour les dommages corporels / 100 millions € pour les dommages matériels",
+      "context": "Les garanties systématiquement prévues",
+      "page": 1
+    },
+    {
+      "quote": "Défense Pénale et Recours Suite à Accident : défense de l’assuré suite à un accident garanti jusqu’à 16 000 €",
+      "context": "Les garanties systématiquement prévues",
+      "page": 1
+    },
+    {
+      "quote": "Protection du conducteur :  dommages corporels du conducteur responsable jusqu’à 600 000 € sans franchise (y compris lorsque le véhicule a été emprunté)",
+      "context": "Les dommages corporels",
+      "page": 1
+    },
+    {
+      "quote": "Dommages aux matériels et remorques tractés à concurrence de 200 000 €",
+      "context": "Les garanties des remorques, matériels et marchandises",
+      "page": 1
+    },
+    {
+      "quote": "Matériels, animaux et marchandises transportés à concurrence de 20 000 €, y compris lors des opérations de chargement/déchargement",
+      "context": "Les garanties des remorques, matériels et marchandises",
+      "page": 1
+    },
+    {
+      "quote": "la conduite sous l’emprise de l’alcool ou de stupéfiants et tout délit de fuite : exclusion des dommages au véhicule, de la défense de l’assuré et des dommages corporels du conducteur responsable.",
+      "context": "Les principales exclusions",
+      "page": 1
+    },
+    {
+      "quote": "Franchise de 30% du montant des dommages si inobservation des mesures de prévention",
+      "context": "Les principales restrictions",
+      "page": 1
+    },
+    {
+      "quote": "Une réduction de 25% de l’indemnisation des dommages corporels si l’assuré ne porte pas sa ceinture de sécurité au moment de l’accident,",
+      "context": "Les principales restrictions",
+      "page": 1
+    },
+    {
+      "quote": "Pour les séjours de plus de 90 jours, seule la garantie Responsabilité Civile obligatoire est accordée.",
+      "context": "Où suis-je couvert ?",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "Document IPID de 2 pages : il ne comporte pas de glossaire ni de définitions contractuelles, `definitions` est donc vide.",
+    "Aucune date d'édition n'est imprimée dans le texte du document ; `edition_date` est laissé null (le nom du fichier source mentionne 2026, mais cette information ne figure pas dans le texte du document).",
+    "Aucune référence interne de document n'est imprimée dans le texte ; `reference` est null.",
+    "Le document renvoie aux « exclusions légales » sans les énumérer ; seules les exclusions explicitement listées ont pu être extraites.",
+    "Les montants de franchise ne sont pas chiffrés pour les garanties Vol, Incendie, Bris de glaces et Dommages subis par l'assuré ; seule la franchise de 30% liée à l'inobservation des mesures de prévention est chiffrée.",
+    "Aucun délai de prescription n'est mentionné dans le document ; `prescription_period` est null.",
+    "Aucun délai de carence n'est mentionné dans le document ; `waiting_periods` est vide.",
+    "Aucun délai de rétractation n'est mentionné dans ce document.",
+    "La garantie « Dommages subis par l'assuré » citée dans les restrictions ne figure pas sous ce nom dans la liste des garanties de la page 1.",
+    "La ligne du PDF « Tempête grêle neige) » comporte une parenthèse fermante orpheline ; la garantie a été reprise sous le nom imprimé, sans la parenthèse.",
+    "Le texte de la garantie « Dommages subis les remorques dételées » est reproduit tel qu'imprimé (la préposition « par » manque dans le document source).",
+    "Les garanties sont nommées en page 1 et leurs portées territoriales en page 2 ; le champ `page` des garanties cite la page 1, où la garantie est nommée.",
+    "Le texte extrait du PDF comporte de nombreux sauts de ligne au milieu des phrases (mise en page en colonnes) ; les descriptions ont été recomposées sans modifier les termes employés."
+  ]
+}

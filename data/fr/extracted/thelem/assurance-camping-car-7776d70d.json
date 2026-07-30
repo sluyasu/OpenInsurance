@@ -1,0 +1,508 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "thelem",
+  "insurer_name": "Thélem assurances",
+  "product_name": "Assurance Camping-Car",
+  "branch": "auto",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "Le document ne désigne pas explicitement une clientèle. Il mentionne seulement, au titre de la résiliation à tout moment après un an, que « Cette faculté est ouverte pour les contrats couvrant les personnes physiques en dehors de leurs activités professionnelles ».",
+  "reference": null,
+  "edition_date": "2026-01",
+  "product_family": "Assurance Camping-Car",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_580_Camping-cars-012026.pdf",
+  "source_pdf": "assurance-camping-car-7776d70d.pdf",
+  "source_sha256": "632f769862ef0f077582522f156eb3c8ff601efc14da5f1ff98227707e4853f7",
+  "source_pages": 2,
+  "fetched_at": "2026-07-30",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "L’assurance Camping-car est un contrat d’assurance de véhicule terrestre à moteur portant sur les camping-cars de moins de 3,5 tonnes. Elle garantit systématiquement la responsabilité civile (plafond illimité pour les dommages corporels / 100 millions € pour les dommages matériels, préjudice écologique), la responsabilité civile camping, la Défense Pénale et Recours Suite à Accident jusqu’à 16 000 €, les Dommages au véhicule (bris de glaces, catastrophes naturelles et technologiques, forces de la nature, incendie du camping-car et de son contenu, vol et tentative de vol) et le Contenu du camping-car jusqu’à 3 200 €. Le contrat prévoit en option la Protection du conducteur jusqu’à 600 000 €, les Dommages tous accidents et vandalisme, la Privation de jouissance (jusqu’à 50 € durant 20 jours) et les Frais de dépannage et de remorquage (190 €, et 300 € nuits, week-end, jour férié), ainsi que des prestations d’assistance au véhicule et aux personnes. Le document est un IPID de 2 pages qui, selon ses propres termes, ne présente qu’un résumé des principales garanties et exclusions du contrat.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Responsabilité civile",
+      "description": "Dommages causés aux tiers par le véhicule – plafond illimité pour les dommages corporels / 100 millions € pour les dommages matériels, Préjudice écologique. Garantie relevant du bloc « Les Responsabilités civiles et défense des droits ».",
+      "is_optional": false,
+      "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l’UE, Andorre, Monaco, Saint-Martin, Liechtenstein et tous les pays non rayés sur la carte verte. Pour les séjours de plus de 90 jours, seule la garantie Responsabilité Civile obligatoire est accordée.",
+      "limits": "plafond illimité pour les dommages corporels / 100 millions € pour les dommages matériels",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie systématiquement prévue au contrat (précédée d’une coche)",
+        "C’est une assurance obligatoire"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Responsabilité civile camping",
+      "description": "Dommages causés aux tiers lorsque l’assuré est campeur. Garantie relevant du bloc « Les Responsabilités civiles et défense des droits ».",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie systématiquement prévue au contrat (précédée d’une coche)",
+        "Lorsque l’assuré est campeur"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Défense Pénale et Recours Suite à Accident",
+      "description": "Défense de l’assuré suite à un accident garanti jusqu’à 16 000 €. Garantie relevant du bloc « Les Responsabilités civiles et défense des droits ».",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "jusqu’à 16 000 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie systématiquement prévue au contrat (précédée d’une coche)",
+        "Défense de l’assuré suite à un accident garanti"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Dommages au véhicule",
+      "description": "Garantie systématiquement prévue regroupant : Bris de glaces, Catastrophes naturelles et technologiques, Forces de la nature (tempête, ouragan, grêle), Incendie (camping-car et contenu), Vol et tentative de vol.",
+      "is_optional": false,
+      "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l’UE, Andorre, Monaco, Saint-Martin, Liechtenstein et tous les pays non rayés sur la carte verte.",
+      "limits": null,
+      "sub_limits": [
+        "Bris de glaces",
+        "Catastrophes naturelles et technologiques",
+        "Forces de la nature (tempête, ouragan, grêle)",
+        "Incendie (camping-car et contenu)",
+        "Vol et tentative de vol"
+      ],
+      "deductible": "Une somme peut rester à la charge de l’assuré (franchise) notamment pour les garanties Vol, Incendie, Bris de glaces, Dommages subis par l’assuré.",
+      "conditions": [
+        "Garantie systématiquement prévue au contrat (précédée d’une coche)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Dommages au véhicule – Bris de glaces",
+      "description": "Bris de glaces, garantie listée au sein des Dommages au véhicule systématiquement prévus.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Une somme peut rester à la charge de l’assuré (franchise) notamment pour les garanties Vol, Incendie, Bris de glaces, Dommages subis par l’assuré.",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Dommages au véhicule – Catastrophes naturelles et technologiques",
+      "description": "Catastrophes naturelles et technologiques, garantie listée au sein des Dommages au véhicule systématiquement prévus.",
+      "is_optional": false,
+      "territorial_scope": "Pour la garantie Catastrophes naturelles : selon arrêté interministériel constatant l’état de catastrophes naturelles. Pour la garantie Catastrophes technologiques : France métropolitaine.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Pour la garantie Catastrophes naturelles : selon arrêté interministériel constatant l’état de catastrophes naturelles"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Dommages au véhicule – Forces de la nature (tempête, ouragan, grêle)",
+      "description": "Forces de la nature (tempête, ouragan, grêle), garantie listée au sein des Dommages au véhicule systématiquement prévus.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Dommages au véhicule – Incendie (camping-car et contenu)",
+      "description": "Incendie (camping-car et contenu), garantie listée au sein des Dommages au véhicule systématiquement prévus.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Une somme peut rester à la charge de l’assuré (franchise) notamment pour les garanties Vol, Incendie, Bris de glaces, Dommages subis par l’assuré.",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Dommages au véhicule – Vol et tentative de vol",
+      "description": "Vol et tentative de vol, garantie listée au sein des Dommages au véhicule systématiquement prévus.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Une somme peut rester à la charge de l’assuré (franchise) notamment pour les garanties Vol, Incendie, Bris de glaces, Dommages subis par l’assuré.",
+      "conditions": [
+        "En cas de vol, déposer plainte auprès des autorités compétentes et fournir l’original de ce dépôt"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Contenu",
+      "description": "Garantir le contenu du camping-car jusqu’à 3 200 €.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "jusqu’à 3 200 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie systématiquement prévue au contrat (précédée d’une coche)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Protection du conducteur",
+      "description": "Dommages corporels du conducteur responsable jusqu’à 600 000 € (avec ou sans franchise en invalidité permanente).",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "jusqu’à 600 000 €",
+      "sub_limits": [],
+      "deductible": "avec ou sans franchise en invalidité permanente",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Dommages au véhicule – Dommages tous accidents et vandalisme",
+      "description": "Dommages tous accidents et vandalisme, garantie listée parmi les garanties et services optionnels.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Une somme peut rester à la charge de l’assuré (franchise) notamment pour les garanties Vol, Incendie, Bris de glaces, Dommages subis par l’assuré.",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Privation de jouissance",
+      "description": "Indemnités journalières en cas d’indisponibilité du véhicule assuré jusqu’à 50 € durant 20 jours.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "jusqu’à 50 € durant 20 jours",
+      "sub_limits": [
+        "50 € par jour",
+        "20 jours"
+      ],
+      "deductible": null,
+      "conditions": [
+        "En cas d’indisponibilité du véhicule assuré"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Frais de dépannage et de remorquage",
+      "description": "Prise en charge dans la limite de 190 € (et 300 € nuits, week-end, jour férié) suite à panne, accident, vol.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "dans la limite de 190 € (et 300 € nuits, week-end, jour férié)",
+      "sub_limits": [
+        "190 €",
+        "300 € nuits, week-end, jour férié"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Suite à panne, accident, vol"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Prestations d’assistance au véhicule et aux personnes",
+      "description": "Le contrat prévoit des prestations d’assistance au véhicule et aux personnes (mentionnées dans la présentation du type d’assurance et dans la rubrique « Où suis-je couvert ? »).",
+      "is_optional": null,
+      "territorial_scope": "Pour les prestations d’assistance au véhicule : France métropolitaine, Monaco et tous les pays non rayés sur la carte verte. Pour les prestations d’assistance aux personnes : France métropolitaine, Monaco et autres pays (si séjours de – 90 jours), à l’exception de la Corée du Nord.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Assistance aux personnes : si séjours de – 90 jours"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Attentats et actes de terrorisme",
+      "description": "Garantie mentionnée uniquement dans la rubrique « Où suis-je couvert ? » : « Pour la garantie Attentats et actes de terrorisme : territoire national ». Le document ne précise pas son contenu ni son caractère systématique ou optionnel.",
+      "is_optional": null,
+      "territorial_scope": "territoire national",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Véhicules terrestres de plus de 3,5 tonnes",
+      "description": "Les véhicules terrestres de plus de 3,5 tonnes.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Véhicules non homologués",
+      "description": "Les véhicules non homologués.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Véhicules sans immatriculation française depuis plus de 2 mois",
+      "description": "Ceux sans immatriculation française depuis plus de 2 mois.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Le fait intentionnel",
+      "description": "Exclusion légale : les dommages que l’assuré cause intentionnellement.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Le défaut de permis de conduire",
+      "description": "Exclusion légale : lorsqu’au moment du sinistre, le conducteur n’a pas l’âge requis ou ne possède pas de permis de conduire en état de validité.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "La conduite sous l’emprise de l’alcool ou de stupéfiants et tout délit de fuite",
+      "description": "Exclusion légale : exclusion des dommages au véhicule, de la défense de l’assuré et des dommages corporels du conducteur responsable.",
+      "applies_to": "Dommages au véhicule, Défense Pénale et Recours Suite à Accident, Protection du conducteur",
+      "page": 1
+    },
+    {
+      "name": "Corée du Nord (assistance aux personnes)",
+      "description": "Pour les prestations d’assistance aux personnes : France métropolitaine, Monaco et autres pays (si séjours de – 90 jours), à l’exception de la Corée du Nord.",
+      "applies_to": "Prestations d’assistance au véhicule et aux personnes",
+      "page": 2
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": null,
+    "per_coverage": "Une somme peut rester à la charge de l’assuré (franchise) notamment pour les garanties Vol, Incendie, Bris de glaces, Dommages subis par l’assuré. Pour la Protection du conducteur : avec ou sans franchise en invalidité permanente.",
+    "page": 1
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Répondre exactement aux questions posées",
+      "description": "Répondre exactement aux questions posées afin d’apprécier les risques et fixer la cotisation.",
+      "timing": "A la souscription du contrat",
+      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Fournir les documents justificatifs",
+      "description": "Fournir tous les documents justificatifs demandés.",
+      "timing": "A la souscription du contrat",
+      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Déclarer les circonstances nouvelles",
+      "description": "Déclarer toutes les circonstances nouvelles qui modifient les informations fournies lors de la souscription.",
+      "timing": "En cours de contrat",
+      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Régler les cotisations",
+      "description": "Régler les cotisations à la date convenue.",
+      "timing": "En cours de contrat",
+      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Déclarer le sinistre",
+      "description": "Déclarer tout sinistre dès que vous en avez connaissance et au plus tard dans le délai fixé par le contrat.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Déposer plainte en cas de vol",
+      "description": "En cas de vol, déposer plainte auprès des autorités compétentes et fournir l’original de ce dépôt.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclaration du sinistre",
+      "description": "Déclarer tout sinistre dès que vous en avez connaissance et au plus tard dans le délai fixé par le contrat.",
+      "deadline": "dès que vous en avez connaissance et au plus tard dans le délai fixé par le contrat",
+      "page": 2
+    },
+    {
+      "step": "Dépôt de plainte en cas de vol",
+      "description": "En cas de vol, déposer plainte auprès des autorités compétentes et fournir l’original de ce dépôt.",
+      "deadline": null,
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat prend effet à la date et l’heure indiquées aux Conditions Particulières. Le contrat est souscrit jusqu’à la prochaine échéance principale et est renouvelable par tacite reconduction à chaque échéance principale avec les facultés de résiliation prévues. S’il s’agit d’un contrat temporaire, la mention et la date d’expiration sont portées sur les Conditions Particulières.",
+    "tacit_renewal": true,
+    "notice_period": "préavis de deux mois à l’échéance annuelle",
+    "methods": [
+      "par lettre ou tout autre support durable",
+      "par déclaration faite au siège social ou chez notre représentant",
+      "par acte extrajudiciaire",
+      "via la fonctionnalité mise en place sur le site internet",
+      "En cas de résiliation suite à modification de votre situation selon les termes des articles L113-16 et R.113-6 du Code des assurances, vous devrez notifier la résiliation par lettre recommandée (papier ou électronique) avec demande d'avis de réception"
+    ],
+    "special_rights": [
+      "à l'échéance annuelle en respectant un préavis de deux mois",
+      "à tout moment, sans frais ni pénalités, suite à l’expiration d’un délai d’un an à compter de la souscription du contrat. Cette faculté est ouverte pour les contrats couvrant les personnes physiques en dehors de leurs activités professionnelles"
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "La cotisation annuelle (ainsi que les frais, taxes et contributions fixées par l’Etat) se paie à la date ou aux dates indiquées sur les Conditions Particulières.",
+      "Un paiement fractionné peut toutefois être accordé au choix (Semestriel, Mensuel).",
+      "Les paiements peuvent être effectués par carte bancaire, chèque ou prélèvement automatique.",
+      "Répondre exactement aux questions posées afin d’apprécier les risques et fixer la cotisation.",
+      "Régler les cotisations à la date convenue (obligation de l’assuré en cours de contrat)."
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Véhicules assurés",
+      "description": "Les Camping-cars de moins de 3,5 tonnes.",
+      "page": 1
+    },
+    {
+      "name": "Restriction – réduction de 25 % en cas de non-port de la ceinture de sécurité",
+      "description": "Une réduction de 25% de l’indemnisation des dommages corporels si l’assuré ne porte pas sa ceinture de sécurité au moment de l’accident.",
+      "page": 1
+    },
+    {
+      "name": "Restriction – réduction de 30 % en cas de conduite non autorisée",
+      "description": "Une réduction de 30% de l’indemnisation des dommages corporels subis par le conducteur s’il n’est pas autorisé par le propriétaire ou le locataire à conduire le véhicule assuré.",
+      "page": 1
+    },
+    {
+      "name": "Restriction – franchise",
+      "description": "Une somme peut rester à la charge de l’assuré (franchise) notamment pour les garanties Vol, Incendie, Bris de glaces, Dommages subis par l’assuré.",
+      "page": 1
+    },
+    {
+      "name": "Garanties systématiquement prévues",
+      "description": "Les garanties précédées d’une coche sont systématiquement prévues au contrat.",
+      "page": 1
+    },
+    {
+      "name": "Portée du document",
+      "description": "Ce document d’information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l’information complète sur ce produit dans la documentation précontractuelle et contractuelle.",
+      "page": 1
+    },
+    {
+      "name": "Étendue territoriale (Où suis-je couvert ?)",
+      "description": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l’UE, Andorre, Monaco, Saint-Martin, Liechtenstein et tous les pays non rayés sur la carte verte. Pour les séjours de plus de 90 jours, seule la garantie Responsabilité Civile obligatoire est accordée. Pour la garantie Catastrophes naturelles : selon arrêté interministériel constatant l’état de catastrophes naturelles. Pour la garantie Attentats et actes de terrorisme : territoire national. Pour la garantie Catastrophes technologiques : France métropolitaine. Pour les prestations d’assistance au véhicule : France métropolitaine, Monaco et tous les pays non rayés sur la carte verte. Pour les prestations d’assistance aux personnes : France métropolitaine, Monaco et autres pays (si séjours de – 90 jours), à l’exception de la Corée du Nord.",
+      "page": 2
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "L’assurance Camping-car a pour objectif de garantir l’assuré contre les conséquences des dommages matériels ou corporels causés par son véhicule à un tiers (responsabilité civile). C’est une assurance obligatoire.",
+      "context": "De quel type d’assurance s’agit-il ?",
+      "page": 1
+    },
+    {
+      "quote": "Ce contrat prévoit également les dommages corporels du conducteur (en option) ainsi que des prestations d’assistance au véhicule et aux personnes.",
+      "context": "De quel type d’assurance s’agit-il ?",
+      "page": 1
+    },
+    {
+      "quote": "Les Camping-cars de moins de 3,5 tonnes.",
+      "context": "Qu’est-ce qui est assuré ?",
+      "page": 1
+    },
+    {
+      "quote": "Responsabilité civile : dommages causés aux tiers par le véhicule – plafond illimité pour les dommages corporels / 100 millions € pour les dommages matériels, Préjudice écologique",
+      "context": "Garanties systématiquement prévues",
+      "page": 1
+    },
+    {
+      "quote": "Responsabilité civile camping : dommages causés aux tiers lorsque l’assuré est campeur",
+      "context": "Garanties systématiquement prévues",
+      "page": 1
+    },
+    {
+      "quote": "Défense Pénale et Recours Suite à Accident : défense de l’assuré suite à un accident garanti jusqu’à 16 000 €",
+      "context": "Garanties systématiquement prévues",
+      "page": 1
+    },
+    {
+      "quote": "Contenu : garantir le contenu du camping-car jusqu’à 3 200 €.",
+      "context": "Garanties systématiquement prévues",
+      "page": 1
+    },
+    {
+      "quote": "Privation de jouissance : indemnités journalières en cas d’indisponibilité du véhicule assuré jusqu’à 50 € durant 20 jours",
+      "context": "Garanties et services optionnels",
+      "page": 1
+    },
+    {
+      "quote": "Frais de dépannage et de remorquage : prise en charge dans la limite de 190 € (et 300 € nuits, week-end, jour férié) suite à panne, accident, vol.",
+      "context": "Garanties et services optionnels",
+      "page": 1
+    },
+    {
+      "quote": "La conduite sous l’emprise de l’alcool ou de stupéfiants et tout délit de fuite : exclusion des dommages au véhicule, de la défense de l’assuré et des dommages corporels du conducteur responsable.",
+      "context": "Exclusions légales",
+      "page": 1
+    },
+    {
+      "quote": "Une réduction de 25% de l’indemnisation des dommages corporels si l’assuré ne porte pas sa ceinture de sécurité au moment de l’accident.",
+      "context": "Principales restrictions",
+      "page": 1
+    },
+    {
+      "quote": "Une somme peut rester à la charge de l’assuré (franchise) notamment pour les garanties Vol, Incendie, Bris de glaces, Dommages subis par l’assuré.",
+      "context": "Principales restrictions",
+      "page": 1
+    },
+    {
+      "quote": "Pour les prestations d’assistance aux personnes : France métropolitaine, Monaco et autres pays (si séjours de – 90 jours), à l’exception de la Corée du Nord.",
+      "context": "Où suis-je couvert ?",
+      "page": 2
+    },
+    {
+      "quote": "Sous peine de nullité du contrat d’assurance ou de non garantie, l’assuré doit :",
+      "context": "Quelles sont mes obligations ?",
+      "page": 2
+    },
+    {
+      "quote": "à tout moment, sans frais ni pénalités, suite à l’expiration d’un délai d’un an à compter de la souscription du contrat.",
+      "context": "Comment puis-je résilier le contrat ?",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "Aucune date d’édition n’est imprimée dans le texte du document ; edition_date est donc laissé null. Le nom du fichier source (IPID_TA_580_Camping-cars-012026.pdf) suggère une édition de janvier 2026, non confirmée par le texte.",
+    "Aucune référence interne du document (code produit) n’apparaît dans le texte extrait ; reference est null.",
+    "Le document ne comporte pas de section « Définitions » : definitions est vide (format IPID normalisé, © European Union, 2017).",
+    "Les montants de franchise ne sont pas chiffrés : le document indique seulement qu’une somme peut rester à la charge de l’assuré pour les garanties Vol, Incendie, Bris de glaces, Dommages subis par l’assuré.",
+    "La garantie « Attentats et actes de terrorisme » n’apparaît que dans la rubrique « Où suis-je couvert ? » (territoire national) et n’est listée ni parmi les garanties systématiques ni parmi les options : son caractère optionnel et son contenu ne sont pas précisés.",
+    "Les prestations d’assistance au véhicule et aux personnes sont citées dans l’introduction et dans la rubrique territoriale, mais ne figurent pas comme garantie détaillée dans « Qu’est-ce qui est assuré ? » : leur contenu, leurs plafonds et leur caractère systématique ou optionnel ne sont pas précisés (is_optional laissé null).",
+    "Le titre de la page 1 indique « Assurance Camping-car » alors que la ligne « Produit : » indique « Assurance Camping-Car » ; product_name reprend la ligne « Produit : ».",
+    "Aucun délai de carence (waiting period) n’est mentionné.",
+    "Aucun délai de prescription n’est mentionné ; prescription_period est null.",
+    "La cible de clientèle n’est pas énoncée : target_audience est laissé null (voir target_audience_note).",
+    "Le document indique lui-même n’être qu’un résumé : « Ce document d’information présente un résumé des principales garanties et exclusions du contrat ». La liste exhaustive des garanties, exclusions et franchises figure dans les Dispositions Générales, non fournies ici.",
+    "Les cas de résiliation et les délais à respecter ne sont pas détaillés : le document renvoie à la réglementation et aux Dispositions Générales."
+  ]
+}

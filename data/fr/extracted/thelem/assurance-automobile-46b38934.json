@@ -1,0 +1,536 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "thelem",
+  "insurer_name": "Thélem assurances",
+  "product_name": "Assurance Automobile",
+  "branch": "auto",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": "particuliers",
+  "target_audience_note": "Le document ne nomme pas explicitement sa cible ; la faculté de résiliation à tout moment après un an est « ouverte pour les contrats couvrant les personnes physiques en dehors de leurs activités professionnelles », et le transport public de voyageurs et de marchandises n'est pas assuré.",
+  "reference": null,
+  "edition_date": "2026-01",
+  "product_family": "Assurance Automobile",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA-012026.pdf",
+  "source_pdf": "assurance-automobile-46b38934.pdf",
+  "source_sha256": "ef020b287a6ebba04807dfb9bdf1b12a7a1405303b5b998a4c15ef2a4d2c7564",
+  "source_pages": 2,
+  "fetched_at": "2026-07-30",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "L'assurance Automobile de Thélem assurances a pour objectif de garantir l'assuré contre les conséquences des dommages matériels ou corporels causés par son véhicule à des tiers (responsabilité civile) ; c'est une assurance obligatoire. Sont assurés les véhicules terrestres à moteur 4 roues jusqu'à 3,5 Tonnes nécessitant un permis de conduire et leurs remorques. Le contrat inclut également les dommages corporels du conducteur ainsi que des prestations d'assistance au véhicule et aux personnes. Selon les formules souscrites, il couvre aussi les dommages matériels du véhicule assuré (bris de glaces, incendie, vol, tempête, tous accidents et vandalisme, etc.).",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Responsabilité Civile",
+      "description": "Dommages causés aux tiers par le véhicule ; Préjudice écologique.",
+      "is_optional": false,
+      "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l'UE, Andorre, Monaco, Saint-Marin, Liechtenstein et tous les pays non rayés sur la carte verte.",
+      "limits": "plafond illimité pour les dommages corporels / 100 millions € pour les dommages matériels",
+      "sub_limits": [
+        "plafond illimité pour les dommages corporels",
+        "100 millions € pour les dommages matériels"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Pour les séjours de plus de 90 jours, seule la garantie Responsabilité Civile obligatoire est accordée."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Défense Pénale et Recours Suite à Accident",
+      "description": "Défense de l'assuré suite à un accident garanti.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "jusqu'à 16 000 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Covoiturage",
+      "description": "Dommages causés aux personnes transportées.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Protection du conducteur",
+      "description": "Dommages corporels du conducteur responsable.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "jusqu'à 600 000 € (avec ou sans franchise en invalidité permanente)",
+      "sub_limits": [],
+      "deductible": "avec ou sans franchise en invalidité permanente",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Soutien psychologique et aide aux tâches domestiques",
+      "description": "Garantie systématiquement prévue au titre des dommages corporels : soutien psychologique et aide aux tâches domestiques.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Prise en charge des frais de dépannage et remorquage",
+      "description": "Prise en charge des frais de dépannage et remorquage suite à panne, accident, incendie, vol.",
+      "is_optional": false,
+      "territorial_scope": "Pour les prestations d'assistance au véhicule : France métropolitaine, Monaco et tous les pays non rayés sur la carte verte.",
+      "limits": "dans la limite de 190 € ou 300 € sur autoroute, nuit, week-end et jour férié",
+      "sub_limits": [
+        "190 €",
+        "300 € sur autoroute, nuit, week-end et jour férié"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Assistance sans franchise kilométrique ou 25 km en cas de panne",
+      "description": "Prestation d'assistance : assistance sans franchise kilométrique ou 25 km en cas de panne.",
+      "is_optional": false,
+      "territorial_scope": "Pour les prestations d'assistance au véhicule : France métropolitaine, Monaco et tous les pays non rayés sur la carte verte.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "sans franchise kilométrique ou 25 km en cas de panne",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Prêt d'un véhicule de remplacement",
+      "description": "Prestation d'assistance : prêt d'un véhicule de remplacement.",
+      "is_optional": false,
+      "territorial_scope": "Pour les prestations d'assistance au véhicule : France métropolitaine, Monaco et tous les pays non rayés sur la carte verte.",
+      "limits": "jusqu'à 30 jours si vol",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Remise à la route rapide",
+      "description": "Prestation d'assistance : remise à la route rapide.",
+      "is_optional": false,
+      "territorial_scope": "Pour les prestations d'assistance au véhicule : France métropolitaine, Monaco et tous les pays non rayés sur la carte verte.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Assistance à la personne (même sans véhicule)",
+      "description": "Prestation d'assistance aux personnes, même sans véhicule.",
+      "is_optional": false,
+      "territorial_scope": "Pour les prestations d'assistance aux personnes : France métropolitaine, Monaco et autres pays (si séjour de – 90 jours), à l'exception de la Corée du Nord.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "si séjour de – 90 jours pour les autres pays",
+        "à l'exception de la Corée du Nord"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Bris de glaces",
+      "description": "Garantie optionnelle au titre des Dommages au véhicule : bris de glaces.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Une somme peut rester à la charge de l'assuré (franchise) notamment pour les garanties Vol, Incendie, Bris de glaces, Dommages subis par l'assuré.",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Catastrophes naturelles",
+      "description": "Garantie optionnelle au titre des Dommages au véhicule : catastrophes naturelles.",
+      "is_optional": true,
+      "territorial_scope": "Pour la garantie Catastrophes naturelles : selon arrêté interministériel constatant l'état de catastrophes naturelles.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Catastrophes technologiques",
+      "description": "Garantie optionnelle au titre des Dommages au véhicule : catastrophes technologiques.",
+      "is_optional": true,
+      "territorial_scope": "Pour la garantie Catastrophes technologiques : France métropolitaine.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Attentats",
+      "description": "Garantie optionnelle au titre des Dommages au véhicule : attentats.",
+      "is_optional": true,
+      "territorial_scope": "Pour la garantie Attentats et actes de terrorisme : territoire national.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Tempête, Neige et Grêle",
+      "description": "Garantie optionnelle au titre des Dommages au véhicule : tempête, neige et grêle.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Incendie et Dommages électroniques",
+      "description": "Garantie optionnelle au titre des Dommages au véhicule : incendie et dommages électroniques.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Une somme peut rester à la charge de l'assuré (franchise) notamment pour les garanties Vol, Incendie, Bris de glaces, Dommages subis par l'assuré.",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Vol et Tentative de vol",
+      "description": "Garantie optionnelle au titre des Dommages au véhicule : vol et tentative de vol.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Une somme peut rester à la charge de l'assuré (franchise) notamment pour les garanties Vol, Incendie, Bris de glaces, Dommages subis par l'assuré.",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Dommages tous accidents et vandalisme",
+      "description": "Garantie optionnelle au titre des Dommages au véhicule : dommages tous accidents et vandalisme.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Protection du conducteur+",
+      "description": "Dommages corporels du conducteur responsable.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "jusqu'à 1 200 000 € (avec ou sans franchise)",
+      "sub_limits": [],
+      "deductible": "avec ou sans franchise",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Indemnité+",
+      "description": "Valeur d'achat pendant 36 ou 48 mois.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "valeur d'achat pendant 36 ou 48 mois",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Contenu",
+      "description": "Garantir le contenu du véhicule.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "jusqu'à 5 000 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Autopartage",
+      "description": "Des solutions accordées lors de la mise à disposition du véhicule assuré en Autopartage ou lorsque l'assuré loue un véhicule.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Véhicules non homologués, non immatriculés en France depuis plus de 2 mois, caravanes et remorques de plus de 750 kg non déclarés",
+      "description": "Les véhicules non homologués, ceux sans immatriculation française depuis plus de 2 mois, les caravanes, et les remorques de plus de 750 kg non déclarés sur le contrat.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Transport public de voyageurs et de marchandises",
+      "description": "Le transport public de voyageurs de plus de 9 places (y compris le conducteur) et le transport public de marchandises.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Les exclusions légales",
+      "description": "Le document indique que les exclusions légales s'appliquent, dont celles listées ci-après, sans les énumérer toutes.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Le fait intentionnel",
+      "description": "Le fait intentionnel : les dommages que l'assuré cause intentionnellement.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Le défaut de permis de conduire",
+      "description": "Le défaut de permis de conduire : lorsqu'au moment du sinistre, le conducteur n'a pas l'âge requis ou ne possède pas de permis de conduire en état de validité.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "La compétition automobile",
+      "description": "La compétition automobile : exclusion des dommages survenus au cours de manifestations, concentrations avec chronométrage, épreuves, courses ou compétitions ou si le véhicule est utilisé sur circuit non ouvert à la circulation publique.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Conduite sous l'empire de l'alcool ou de stupéfiants et délit de fuite",
+      "description": "La conduite sous l'empire de l'alcool ou de stupéfiants et tout délit de fuite : exclusion des dommages au véhicule, de la défense de l'assuré et des dommages corporels du conducteur responsable.",
+      "applies_to": "Dommages au véhicule, Défense Pénale et Recours Suite à Accident, Protection du conducteur",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": "Une somme peut rester à la charge de l'assuré (franchise) notamment pour les garanties Vol, Incendie, Bris de glaces, Dommages subis par l'assuré. Application d'une franchise de 2 000 € si l'accident est causé par un conducteur ayant un permis de moins de 3 ans, non désigné au contrat et non assuré à titre personnel.",
+    "per_coverage": null,
+    "page": 1
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Répondre exactement aux questions posées",
+      "description": "Répondre exactement aux questions posées lors de la souscription afin d'apprécier les risques et fixer la cotisation.",
+      "timing": "A la souscription du contrat",
+      "sanction": "Sous peine de nullité du contrat d'assurance ou de non-garantie",
+      "page": 2
+    },
+    {
+      "name": "Fournir les documents justificatifs",
+      "description": "Fournir tous les documents justificatifs demandés.",
+      "timing": "A la souscription du contrat",
+      "sanction": "Sous peine de nullité du contrat d'assurance ou de non-garantie",
+      "page": 2
+    },
+    {
+      "name": "Informer d'une autre assurance",
+      "description": "Nous informer si les biens couverts par le contrat font l'objet d'une autre assurance et indiquer les sommes assurées.",
+      "timing": "A la souscription du contrat",
+      "sanction": "Sous peine de nullité du contrat d'assurance ou de non-garantie",
+      "page": 2
+    },
+    {
+      "name": "Déclarer les circonstances nouvelles",
+      "description": "Déclarer toutes les circonstances nouvelles qui modifient les informations fournies lors de la souscription.",
+      "timing": "En cours de contrat",
+      "sanction": "Sous peine de nullité du contrat d'assurance ou de non-garantie",
+      "page": 2
+    },
+    {
+      "name": "Régler les cotisations",
+      "description": "Régler les cotisations à la date convenue.",
+      "timing": "En cours de contrat",
+      "sanction": "Sous peine de nullité du contrat d'assurance ou de non-garantie",
+      "page": 2
+    },
+    {
+      "name": "Déclarer le sinistre",
+      "description": "Déclarer tout sinistre dès que l'assuré en a connaissance et au plus tard dans le délai fixé par le contrat.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de nullité du contrat d'assurance ou de non-garantie",
+      "page": 2
+    },
+    {
+      "name": "Déposer plainte en cas de vol",
+      "description": "En cas de vol, déposer plainte auprès des autorités compétentes et fournir l'original de ce dépôt.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de nullité du contrat d'assurance ou de non-garantie",
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclarer le sinistre",
+      "description": "Déclarer tout sinistre dès que l'assuré en a connaissance et au plus tard dans le délai fixé par le contrat.",
+      "deadline": "dès que l'assuré en a connaissance et au plus tard dans le délai fixé par le contrat",
+      "page": 2
+    },
+    {
+      "step": "Déposer plainte en cas de vol",
+      "description": "En cas de vol, déposer plainte auprès des autorités compétentes et fournir l'original de ce dépôt.",
+      "deadline": null,
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat prend effet à la date et l'heure indiquées aux Conditions Particulières. Le contrat est souscrit jusqu'à la prochaine échéance principale. S'il s'agit d'un contrat temporaire, la mention et la date d'expiration sont portées sur les Conditions Particulières.",
+    "tacit_renewal": true,
+    "notice_period": "à l'échéance annuelle en respectant un préavis de deux mois",
+    "methods": [
+      "par lettre ou tout autre support durable",
+      "par déclaration faite au siège social ou chez notre représentant",
+      "par acte extrajudiciaire",
+      "via la fonctionnalité mise en place sur le site internet"
+    ],
+    "special_rights": [
+      "En cas de contrat conclu à distance, l'assuré dispose d'un délai de rétractation de 14 jours, qui commence à courir à compter de la conclusion du contrat, ou à compter de la réception de l'ensemble de la documentation contractuelle.",
+      "à tout moment, sans frais ni pénalités, suite à l'expiration d'un délai d'un an à compter de la souscription du contrat. Cette faculté est ouverte pour les contrats couvrant les personnes physiques en dehors de leurs activités professionnelles.",
+      "Les cas de résiliation, les délais à respecter sont ceux prévus par la règlementation et précisés dans les Dispositions Générales.",
+      "En cas de résiliation suite à modification de votre situation selon les termes des articles L113-16 et R.113-6 du Code des assurances, vous devrez notifier la résiliation par lettre recommandée (papier ou électronique) avec demande d'avis de réception.",
+      "Nous vous confirmerons par écrit la réception de la notification."
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "La cotisation annuelle (ainsi que les frais, taxes et contributions fixées par l'Etat) se paie à la date ou aux dates indiquées sur les Conditions Particulières.",
+      "Un paiement fractionné peut toutefois être accordé au choix (Semestriel, Mensuel).",
+      "Les paiements peuvent être effectués par carte bancaire, chèque ou prélèvement automatique."
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Assurance obligatoire",
+      "description": "C'est une assurance obligatoire.",
+      "page": 1
+    },
+    {
+      "name": "Véhicules assurables",
+      "description": "Les véhicules terrestres à moteur 4 roues jusqu'à 3,5 Tonnes nécessitant un permis de conduire et leurs remorques.",
+      "page": 1
+    },
+    {
+      "name": "Garanties systématiquement prévues",
+      "description": "Les garanties précédées d'une coche sont systématiquement prévues au contrat.",
+      "page": 1
+    },
+    {
+      "name": "Franchise conducteur titulaire d'un permis de moins de 3 ans non désigné",
+      "description": "Application d'une franchise de 2 000 € si l'accident est causé par un conducteur ayant un permis de moins de 3 ans, non désigné au contrat et non assuré à titre personnel.",
+      "page": 1
+    },
+    {
+      "name": "Réduction pour non-port de la ceinture de sécurité",
+      "description": "Une réduction de 25% de l'indemnisation des dommages corporels si l'assuré ne porte pas sa ceinture de sécurité au moment de l'accident.",
+      "page": 1
+    },
+    {
+      "name": "Séjours de plus de 90 jours",
+      "description": "Pour les séjours de plus de 90 jours, seule la garantie Responsabilité Civile obligatoire est accordée.",
+      "page": 2
+    },
+    {
+      "name": "Portée du document",
+      "description": "Ce document d'information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l'information complète sur ce produit dans la documentation précontractuelle et contractuelle.",
+      "page": 1
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "L’assurance Automobile a pour objectif de garantir l’assuré contre les conséquences des dommages matériels ou corporels causés par son véhicule à des tiers (responsabilité civile). C’est une assurance obligatoire.",
+      "context": "De quel type d’assurance s’agit-il ?",
+      "page": 1
+    },
+    {
+      "quote": "Les véhicules terrestres à moteur 4 roues jusqu’à 3,5 Tonnes nécessitant un permis de conduire et leurs remorques.",
+      "context": "Qu’est-ce qui est assuré ?",
+      "page": 1
+    },
+    {
+      "quote": "Responsabilité Civile : dommages causés aux tiers par le véhicule - plafond illimité pour les dommages corporels / 100 millions € pour les dommages matériels, Préjudice écologique",
+      "context": "Les garanties systématiquement prévues",
+      "page": 1
+    },
+    {
+      "quote": "Protection du conducteur : dommages corporels du conducteur responsable jusqu’à 600 000 € (avec ou sans franchise en invalidité permanente),",
+      "context": "Les dommages corporels",
+      "page": 1
+    },
+    {
+      "quote": "Prise en charge des frais de dépannage et remorquage (dans la limite de 190 € ou 300 € sur autoroute, nuit, week-end et jour férié) suite à panne, accident, incendie, vol,",
+      "context": "Les prestations d’assistance",
+      "page": 1
+    },
+    {
+      "quote": "Protection du conducteur+ : dommages corporels du conducteur responsable jusqu’à 1 200 000 € (avec ou sans franchise),",
+      "context": "Les garanties et services optionnels",
+      "page": 1
+    },
+    {
+      "quote": "Le transport public de voyageurs de plus de 9 places (y compris le conducteur) et le transport public de marchandises.",
+      "context": "Qu’est-ce qui n’est pas assuré ?",
+      "page": 1
+    },
+    {
+      "quote": "Le défaut de permis de conduire : lorsqu’au moment du sinistre, le conducteur n’a pas l’âge requis ou ne possède pas de permis de conduire en état de validité,",
+      "context": "Les principales exclusions",
+      "page": 1
+    },
+    {
+      "quote": "Application d’une franchise de 2 000 € si l’accident est causé par un conducteur ayant un permis de moins de 3 ans, non désigné au contrat et non assuré à titre personnel,",
+      "context": "Les principales restrictions",
+      "page": 1
+    },
+    {
+      "quote": "Une réduction de 25% de l’indemnisation des dommages corporels si l’assuré ne porte pas sa ceinture de sécurité au moment de l’accident,",
+      "context": "Les principales restrictions",
+      "page": 1
+    },
+    {
+      "quote": "à tout moment, sans frais ni pénalités, suite à l’expiration d’un délai d’un an à compter de la souscription du contrat.",
+      "context": "Comment puis-je résilier mon contrat ?",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "Document IPID de 2 pages : il ne comporte pas de glossaire ni de définitions contractuelles, `definitions` est donc vide.",
+    "Aucune date d'édition n'est imprimée dans le texte du document ; `edition_date` est laissé null (le nom du fichier source mentionne 012026, mais cette information ne figure pas dans le texte du document).",
+    "Aucune référence interne de document n'est imprimée dans le texte ; `reference` est null.",
+    "Le document renvoie aux « exclusions légales » sans les énumérer toutes ; seules les exclusions explicitement listées ont pu être extraites.",
+    "Les montants de franchise ne sont pas chiffrés pour les garanties Vol, Incendie, Bris de glaces et Dommages subis par l'assuré ; seule la franchise de 2 000 € liée au conducteur novice non désigné est chiffrée.",
+    "Aucun délai de prescription n'est mentionné dans le document ; `prescription_period` est null.",
+    "Aucun délai de carence n'est mentionné dans le document ; `waiting_periods` est vide.",
+    "La garantie « Dommages subis par l'assuré » citée dans les restrictions ne figure pas sous ce nom dans la liste des garanties de la page 1.",
+    "La mention « Préjudice écologique » est imprimée à la suite de la garantie Responsabilité Civile sans plafond propre ; elle a été conservée dans la description de cette garantie.",
+    "Les garanties sont nommées en page 1 et leurs portées territoriales en page 2 ; le champ `page` des garanties cite la page 1, où la garantie est nommée.",
+    "Le texte extrait du PDF comporte de nombreux sauts de ligne au milieu des phrases (mise en page en colonnes) ; les descriptions ont été recomposées sans modifier les termes employés."
+  ]
+}
