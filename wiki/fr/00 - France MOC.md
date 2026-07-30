@@ -67,6 +67,7 @@ les signale une par une plutôt que de les passer sous silence.
 
 <!-- BEGIN GENERATED: insurers -->
 - [Direct Assurance](insurers/Direct%20Assurance.md) (11 documents)
+- [Luko](insurers/Luko.md) (14 documents)
 - [Thélem assurances](insurers/Th%C3%A9lem%20assurances.md) (45 documents)
 <!-- END GENERATED -->
 

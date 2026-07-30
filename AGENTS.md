@@ -27,7 +27,7 @@ navigate it without guessing. Do not edit by hand.
 |---|---|---|---|---|---|
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
 | ch (Switzerland) | 0 | 3 | 1 | 0 | 5 |
-| fr (France) | 17 | 56 | 2 | 1 | 5 |
+| fr (France) | 17 | 70 | 3 | 1 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
 
@@ -326,6 +326,14 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | gav | thelem | Assurance Accidents de la vie privée - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_700-ACCVP-08-2025.pdf) |
 | fr | habitation | direct-assurance | Assurance Habitation Direct Assurance - IPID | 2026-07-30 | [pdf](https://directassurance.cdn.prismic.io/directassurance/aHDKPEMqNJQqHyOg_IPID_HABITATION.pdf) |
 | fr | habitation | direct-assurance | Contrat Habitation | 2026-07-30 | [pdf](https://directassurance.cdn.prismic.io/directassurance/abglZ7bci2UF6D7w_HABITATION_MRH_03.26_Vdef.pdf) |
+| fr | habitation | luko | L'assurance multirisque habitation (HCE) | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/t-c/Conditions_generales_HCE_2504.pdf) |
+| fr | habitation | luko | L'assurance multirisque habitation (HMIN) | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/t-c/Conditions_generales_HMIN_2504.pdf) |
+| fr | habitation | luko | L'assurance propriétaire non occupant | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/t-c/Conditions_generales_LCE_2504.pdf) |
+| fr | habitation | luko | L'assurance propriétaire non occupant — LMIN (formule minimum légal) | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/t-c/Conditions_generales_LMIN_2504.pdf) |
+| fr | habitation | luko | Multirisques habitation et assistance — Police - COUVERTURE MINIMUM LÉGAL - IPID | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/legal/IPID_HMIN_2504.pdf) |
+| fr | habitation | luko | Multirisques habitation et assistance — Police - COUVERTURE ÉTENDUE - IPID | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/legal/IPID_HCE_2504.pdf) |
+| fr | habitation | luko | Propriétaire non-occupant — Police - COUVERTURE MINIMUM LÉGAL - IPID | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/legal/IPID_LMIN_2504.pdf) |
+| fr | habitation | luko | Propriétaire non-occupant — Police - COUVERTURE ÉTENDUE - IPID | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/legal/IPID_LCE_2504.pdf) |
 | fr | habitation | thelem | Assurance Dommages aux biens - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_570-Dommages-aux-biens.pdf) |
 | fr | habitation | thelem | Assurance multirisque habitation - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_601-Occupants-janvier-2026.pdf) |
 | fr | habitation | thelem | Assurance multirisque habitation Propriétaire non occupant - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2026/03/IPID_TA_621-PNO-janvier-2026.pdf) |
@@ -363,3 +371,9 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | sante | thelem | INTÉGRALE 1, INTÉGRALE 2, INTÉGRALE 3, INTÉGRALE 4 – Formules responsables et solidaires | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/Exemples_remboursements_TA_2026_RESPONSABLE.pdf) |
 | fr | sante | thelem | PRIMORDIALE 1, PRIMORDIALE 2, PRIMORDIALE 3 – Formules NON responsables et solidaires | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/Exemples_remboursements_TA_2026_NON_RESPONSABLE.pdf) |
 | fr | scolaire | thelem | Assurance scolaire et extra-scolaire - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_scolaire-19-septembre-2024.pdf) |
+| fr | voyage | luko | ASSURANCE MULTI-VOYAGES A L'ANNEE - 507332 - IPID | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/travel/IPID-ANNUAL-507332.pdf) |
+| fr | voyage | luko | Comprehensive Gold Long Trip 507655 | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/travel/dftralong202512/CG_Comprehensive-Gold_Long-trip_507655.pdf) |
+| fr | voyage | luko | Comprehensive Gold Sport Annual 507332 | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/travel/CG-ANNUAL-507332.pdf) |
+| fr | voyage | luko | Comprehensive Gold Sport Long trip 507333 | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/travel/dftralong202512/CG_Comprehensive-Gold-Sport_Long-trip_507333.pdf) |
+| fr | voyage | luko | Medical & Assistance Gold Long trip | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/travel/dftralong202512/CG_Medical-Assistance-Gold_Long-trip_507656.pdf) |
+| fr | voyage | luko | Medical & assistance Gold Sport Long trip 507657 | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/travel/dftralong202512/CG_Medical-Assistance-Gold-Sport_Long-trip_507657.pdf) |

@@ -1,0 +1,419 @@
+insurer:
+  slug: gan
+  name: Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group
+  website: https://www.gan.fr
+  segment: particuliers
+  notes: |
+    GAN ASSURANCES is a real first-party non-life carrier (own agrément, APE 6512Z, RCS Paris 542 063 797) — but it publishes almost nothing that it carries itself. Of the 94 contractual documents found, 84 name GROUPAMA GAN VIE as the risk carrier (« Assureur : Groupama Gan Vie, société anonyme au capital de 1 371 100 605 euros - 340 427 616 RCS Paris - APE : 6511Z - Siège social : 8-10, rue d’Astorg 75008 Paris »), 1 names Vitis Life S.A. (Luxembourg) and only 2 name Gan Assurances itself — and those two are the Gan Santé « tableau de garanties », which carries the Gan Assurances identity block in its mentions légales but no explicit « Assureur : » line. The relationship is printed verbatim in the fee sheets: « Gan Assurances distribue les produits de Groupama Gan Vie ». Seven documents (CCSF benefit tables and three Gan Prévoyance fee sheets) name no carrier at all. The two sibling Gan brands are intermediaries, not carriers: Gan Patrimoine is « Société anonyme d’intermédiation en assurance … RCS Lille 457 504 694 … N° d’immatriculation ORIAS 09 051 780 … Mandataire exclusif de Groupama Gan Vie et de ses filiales »; Gan Prévoyance is a Groupama Gan Vie sales network. Several IPIDs are co-signed: « Compagnies : Groupama Gan Vie … Mutuaide Assistance (filiale spécialisée du groupe Groupama), RCS Bobigny 383 974 086 » — Mutuaide carries the assistance guarantees.
+
+    NOT PUBLISHED: No conditions générales, no notice d’information and no conditions particulières anywhere — zero, on all three Gan hosts. More striking: Gan publishes no contractual document at all for the non-life book it actually underwrites. Only 14 of the 69 /produit/ pages on gan.fr link any PDF, and all 14 are life, retirement, prévoyance, santé, emprunteur or obsèques. The 55 silent product pages include the entire retail non-life line (auto, moto, habitation, remorques/caravanes, vélo, navigation de plaisance, chasse, protection juridique, accidents de la vie), the entire professional and enterprise line (commerce alimentaire and non alimentaire, hôtel, restaurant, traiteur, pharmacie, infirmier, paramédical, expert-comptable, agent immobilier, taxi, artisan, esthétique, bureaux, crèche, intérim, aide à domicile, association, industrie, EHPAD, bris de machine, RC entreprise, RC dirigeant, cyber, événement, flotte auto, marchandises transportées, RC transport, décennale/dommages-ouvrage, GSC) and the entire agricultural line (multirisque agricole, mortalité des animaux, climatique récoltes, tracteurs et machines). Those pages carry a quote form and an agency locator and nothing else. The only non-life IPID-shaped anchor on the site, « Convention Spéciale » on /cyber-securite/, returns HTTP 404. Documents for the non-life book are apparently handed over by the agent at the point of sale, not published.
+
+    TRAP: The single most useful entry point is the open WordPress REST media endpoint on gan.fr — https://www.gan.fr/wp-json/wp/v2/media?per_page=100&media_type=application (X-WP-Total: 149). It saves crawling 350 pages. But do not trust it as complete: /app/uploads/2021/12/3370-77383-122021-WebVdef.pdf is linked from https://www.gan.fr/cyber-securite/ under the anchor « Convention Spéciale » and is not in the media list. It is also a dead link (HTTP 404) — the only genuinely contract-shaped anchor anywhere on gan.fr for a non-life product points at nothing.
+
+    TRAP: PDF hrefs on gan.fr are RELATIVE (/app/uploads/YYYY/MM/…). A grep for 'https?://…\.pdf' finds 10 URLs and misses 34. Resolve against the page URL.
+
+    TRAP: Gan does not publish under one brand. Three Gan-branded hosts each carry their own document set, with heavy product overlap and different filenames for the same contract family: www.gan.fr (agency network, 46 docs), www.ganpatrimoine.fr (31, ASP.NET, /Media/documents/DIC|DIS|Dépliants/), www.ganprevoyance.fr (16, docs served as /<page-slug>/<n-n>/<human-readable-name>.pdf?date=YYYYMMDDHHMMSS). One document lives off-brand on https://www.pia.ggvie.fr/ (the Groupama Gan Vie partner portal).
+
+    TRAP: ganpatrimoine.fr emits the SAME href in two encodings on sibling pages — e.g. .../DIS/DIS_GD_Equilibré_Durable_Gan Patrimoine_2025_02_13.pdf (raw space + raw accent) on the /particulier/ page and .../DIS_GD_Equilibr%C3%A9_Durable_Gan%20Patrimoine_2025_02_13.pdf on the /professionnel/ page. Percent-normalise before de-duplicating or you will double-count ~15 files. That alone takes the ganpatrimoine link count from 65 to 31.
+
+    TRAP: ganprevoyance.fr serves one physical file under several human-readable URLs, one per product page. 13 of the 107 URLs are byte-identical to another (same sha256), e.g. the Gan Prévoyance Protection IPID appears at /securite-famille/2-1/telecharger-le-document.pdf, /securite-professionnel-gan-prevoyance-protection/2-1/telecharger-le-document-d-information.pdf and /arret-travail-invalidite-deces-commercant-gan-prevoyance/2-1/telecharger-le-document-d-information.pdf. The DIC Fonds en Euros appears at 5 URLs. See dropped_duplicates. No text-identical-but-byte-different pair was found on any Gan host.
+
+    TRAP: Basenames repeat across directories on ganprevoyance.fr (telecharger-le-document.pdf, telecharger-le-document-d-information.pdf, document-d-informations-cles-dic-fonds-en-euros.pdf) and on ganpatrimoine.fr (DIC_FONDS_EN_EUROS.pdf served from both /Media/Images/gan-pictures/ and /images/gan-pictures/). Anything that flattens to the basename will overwrite. Listed in case_collisions.
+
+    TRAP: Naming: Groupama/Gan call the DDA IPID a « DIN » in the filename (032023-DIN_Gan-Solutions-Prevoyance.pdf) but the document header reads « Document d’information sur le produit d’assurance » / « Document d’information d’un produit d’assurance ». Conversely one file named DIC PREV_Gan Patrimoine Protection Plus 042022.pdf is an IPID, not a DIC. Classify from the header, never from the filename.
+
+    TRAP: document_type mapping used here: true IPIDs → ipid; PRIIPs « Document d’informations clés » (DIC/KID) and « Document d’informations spécifiques » (DIS, one per delegated-management profile) → product_sheet; « Fiche d’information sur les frais » / « Transparence des frais » → conditions_tarifaires; CCSF « engagement lisibilité » benefit tables → product_sheet. Every record carries printed_doc_type with the exact French header so the distinction is not lost. There is NO conditions_generales anywhere.
+
+    TRAP: Edition dates: PRIIPs DIC/DIS print « Document produit le DD/MM/YYYY » in the body — always prefer that. CCSF tables carry a print-shop stamp « … – 012026 – PAO – GGVie ». Fee sheets and the Gan Patrimoine « Transparence des frais » files print no date at all; for those the only signal is the /app/uploads/YYYY/MM/ path or the ?date=YYYYMMDDHHMMSS query on ganprevoyance.fr, both recorded with edition_source = filename. Five ganpatrimoine « Transparence des frais » files and one DIC_FONDS_EN_EUROS.pdf have no date signal at all.
+
+    TRAP: Real editions vs parallel variants. Editions: the gan.fr Gestion Déléguée DIS set exists twice — /2025/04/DIS_GD_*_Gan_Assurance_2025_02_13.pdf (« Document produit le 13/02/2025 ») and /2026/07/DIS_Gestion_Deleguee_*_GASS-2026-07.pdf (« Document produit le 13/05/2026 »); both are still linked, from different pages, and both cover the same contracts (« Chromatys Evolution », « Chromatys », « Gan Capitalisation Exception »). Variants, NOT editions: DIC-FONDS-EN-EURO-GASS-2026-07.pdf vs DIC-FONDS-EN-EURO-RETRAITE-GASS-2026-07.pdf differ only in « fonds en euros » vs « fonds en euros retraite » (assurance vie vs plan d’épargne retraite). Likewise the identically-titled DIS profiles on gan.fr and on ganpatrimoine.fr are different documents — they name different underlying contracts (Chromatys/Gan Capitalisation vs Gan Patrimoine Evolution/Stratégies).
+
+    TRAP: site_label vs document. The gan.fr page /produit/solution-retraite-des-salaries/ lists the whole 2025 DIS set under labels like « Infos – Profil DYNAMIQUE », but the documents themselves say they apply to the individual savings contracts « Chromatys Evolution », « Chromatys » and « Gan Capitalisation Exception » — not to a collective retirement plan. The site's placement is misleading; the document wins. Similarly ganprevoyance labels several IPIDs simply « Télécharger le document ».
+
+    TRAP: Group overlap with the sibling Groupama enumeration: none of these files sit on groupama.fr, but 84 of 94 name GROUPAMA GAN VIE (RCS Paris 340 427 616) as the carrier, and Mutuaide Assistance (RCS Bobigny 383 974 086) co-signs the prévoyance/santé IPIDs. If the Groupama agent also enumerates Groupama Gan Vie material, expect the same products (Gan Prévoyance Perspectives Épargne, Gan Patrimoine Evolution, the Gestion Déléguée DIS series) under different filenames. These files are Gan-branded and Gan-distributed, so they are recorded here, but the carrier field is Groupama Gan Vie, not Gan Assurances.
+
+    TRAP: Excluded on purpose, so nobody re-derives them: SFCR/RSR solvency reports 2016-2025 (~10 PDFs on /page_elementor/informations-legales*/); the espace-client CGU (CGU-Gan-Assurances-V8.pdf and predecessors); annual « taux de rendement / participation aux bénéfices » disclosures; commercial plaquettes and dépliants; agricultural prevention leaflets; « Exemples de remboursements » santé illustrations; FFA/AMF/FBF mediation charters; the OPCI/SCPI DICI-for-investor documents on ganpatrimoine (UCITS, not insurance); and kid-telluma-boost-septembre-2026.pdf, which is the PRIIPs KID of a structured note (issuer documentation at gspriips.eu), i.e. a unit-linked underlying rather than a Gan insurance document.
+
+    TRAP: Two genuine two-dated-editions pairs beyond the DIS set: the Gan Patrimoine Protection Plus IPID exists as DIC PREV_…042022.pdf (2022-04) and DIN PREV_…122023.pdf (2023-12) — same printed « Produit : Gan Patrimoine Protection Plus », different dates, and only the 2023 one lists Mutuaide Assistance as co-signer; and the Gan Patrimoine Capitalisation fee sheet exists as /Media/GPATCAPI_Frais_2023.pdf and as the undated /Media/documents/Transparence frais contrat/Gan-Patrimoine-Capitalisation.pdf. Both members of each pair are still linked from live pages.
+
+    TRAP: The emprunteur IPID on gan.fr prints « Produit : Gan Assurances Emprunteur » on its cover but names Groupama Gan Vie as the compagnie — the product carries the Gan Assurances name while the risk sits with the life entity. Do not infer the carrier from the product name on any Gan document.
+
+    TRAP: The Gan Santé « tableau de garanties » explicitly prints « Document non contractuel, fourni à titre d’information ». It is kept as product_sheet because it is the only document Gan publishes describing santé cover levels, but do not treat it as contract text.
+
+    44 document(s) enumerated but deliberately absent below; see the
+    discovery file for the list and the reason.
+
+  fetch_tier: plain          # Everything worked over plain HTTP with a desktop Chrome User-Agent — b
+listing_pages:
+- url: https://www.gan.fr/page_elementor/documents-reglementaires-page-retraite/
+  lang: fr
+- url: https://www.gan.fr/page_elementor/documents-reglementaires-page-retraite-2/
+  lang: fr
+- url: https://www.gan.fr/page-daccueil/particuliers/epargne-retraite/
+  lang: fr
+- url: https://www.gan.fr/produit/assurance-vie-epargne/
+  lang: fr
+- url: https://www.gan.fr/produit/assurance-retraite-complementaire/
+  lang: fr
+- url: https://www.gan.fr/produit/solution-retraite-des-salaries/
+  lang: fr
+- url: https://www.gan.fr/produit/assurance-prevoyance/
+  lang: fr
+- url: https://www.gan.fr/produit/assurance-obseques/
+  lang: fr
+- url: https://www.gan.fr/produit/assurance-emprunteur-credit-pret/
+  lang: fr
+- url: https://www.gan.fr/produit/assurance-complementaire-sante/
+  lang: fr
+- url: https://www.gan.fr/wp-json/wp/v2/media?per_page=100&media_type=application
+  lang: fr
+- url: https://www.ganprevoyance.fr/ (product pages, one « Documents » accordion each)
+  lang: fr
+- url: https://www.ganpatrimoine.fr/solution/particulier/… and /solution/professionnel/… (one « Documents » block each)
+  lang: fr
+languages:
+- fr
+pdfs:
+- url: https://www.gan.fr/app/uploads/2026/03/Gan-Chromatys-Evolution-Fiche-Infos-Frais.pdf
+  branch: assurance-vie
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Chromatys Evolution"
+  edition_date: "2026-03"
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.gan.fr/app/uploads/2026/03/Gan-Capitalisation-Exception-Fiche-Infos-Frais.pdf
+  branch: assurance-vie
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Gan Assurance Capitalisation Exception"
+  edition_date: "2026-03"
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.ganpatrimoine.fr/Media/GPATCAPI_Frais_2023.pdf
+  branch: assurance-vie
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Gan Patrimoine Capitalisation"
+  edition_date: "2023"
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.ganpatrimoine.fr/Media/documents/Transparence%20frais%20contrat/Gan-Patrimoine-Capitalisation.pdf
+  branch: assurance-vie
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Gan Patrimoine Capitalisation"
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.ganpatrimoine.fr/Media/documents/Transparence%20frais%20contrat/Gan-Patrimoine-Evolution.pdf
+  branch: assurance-vie
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Gan Patrimoine Evolution"
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.ganprevoyance.fr/assurance-vie-gan-prevoyance-perspectives-epargne/3-4/fiche-d-information-frais-du-contrat-gan-prevoyance-perspectives-epargne.pdf?date=20260318121419
+  branch: assurance-vie
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Gan Prevoyance Perspectives Epargne"
+  edition_date: "2026-03"
+- url: https://www.gan.fr/app/uploads/2026/07/GAN-Chromatys-Evolution-Infos-Cles-2026-07.pdf
+  branch: assurance-vie
+  document_type: product_sheet
+  lang: fr
+  product_name: "Chromatys Évolution"
+  edition_date: "2026-06"
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.gan.fr/app/uploads/2026/07/GAN-Capitalisation-Exception-Infos-Cles-2026-07.pdf
+  branch: assurance-vie
+  document_type: product_sheet
+  lang: fr
+  product_name: "Gan Capitalisation Exception"
+  edition_date: "2026-06"
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.ganpatrimoine.fr/Media/documents/DIC/DIC%20GL%20Capitalisation%20Gan%20Patrimoine_2025_03_07.pdf
+  branch: assurance-vie
+  document_type: product_sheet
+  lang: fr
+  product_name: "Gan Patrimoine Capitalisation"
+  edition_date: "2025-03"
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.ganpatrimoine.fr/Media/documents/DIC/DIC%20GL%20Evolution%20Gan%20Patrimoine_2025_03_05.pdf
+  branch: assurance-vie
+  document_type: product_sheet
+  lang: fr
+  product_name: "Gan Patrimoine Évolution"
+  edition_date: "2025-03"
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.ganprevoyance.fr/epargne-handicap/2-4/document-d-informations-cles-dic-gan-prevoyance-perspectives-epargne.pdf?date=20250428141040
+  branch: assurance-vie
+  document_type: product_sheet
+  lang: fr
+  product_name: "Gan Prévoyance Perspectives Épargne"
+  edition_date: "2025-03"
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.gan.fr/app/uploads/2024/11/062023_DIN-Emprunteur.pdf
+  branch: emprunteur
+  document_type: ipid
+  lang: fr
+  product_name: "Gan Assurances Emprunteur"
+  edition_date: "2023-06"
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.ganpatrimoine.fr/Media/documents/D%C3%A9pliants/DIN%20GAN%20PAT%20Emprunteur-GPE09-032026.pdf
+  branch: emprunteur
+  document_type: ipid
+  lang: fr
+  product_name: "Gan Patrimoine Emprunteur"
+  edition_date: "2026-03"
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.ganprevoyance.fr/assurance-emprunteur/2-1/assurance-emprunteur.pdf?date=20211108150730
+  branch: emprunteur
+  document_type: ipid
+  lang: fr
+  product_name: "Gan Prévoyance Emprunteur"
+  edition_date: "2021-04"
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.ganprevoyance.fr/gav/1-1/document-d-informations-garantie-accidents-de-la-vie.pdf?date=20230317164344
+  branch: gav
+  document_type: ipid
+  lang: fr
+  product_name: "Gan Prévoyance Garantie des Accidents de la Vie"
+  edition_date: "2023-03"
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.ganpatrimoine.fr/Media/documents/DIC/1412-062023%20-%20DIC%20GPatSE.pdf
+  branch: obseques
+  document_type: product_sheet
+  lang: fr
+  product_name: "Gan Patrimoine Sérénité Essentiel"
+  edition_date: "2023-06"
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.ganpatrimoine.fr/Media/documents/DIC/1412-112018%20GPatSE.pdf
+  branch: obseques
+  document_type: product_sheet
+  lang: fr
+  product_name: "Gan Patrimoine Sérénité Essentiel"
+  edition_date: "2018-11"
+  superseded: true
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.ganpatrimoine.fr/Media/documents/DIC/1414-062023%20DIC%20GPatSS.pdf
+  branch: obseques
+  document_type: product_sheet
+  lang: fr
+  product_name: "Gan Patrimoine Sérénité Succession"
+  edition_date: "2023-06"
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.ganprevoyance.fr/obseques-succession/1-1/document-d-informations-cles-gan-prevoyance-serenite-obseques.pdf?date=20250117135714
+  branch: obseques
+  document_type: product_sheet
+  lang: fr
+  product_name: "Gan Prévoyance Sérénité Obsèques"
+  edition_date: "2025-01"
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.gan.fr/app/uploads/2024/11/032023-DIC_Gan-Serenite-Obseques.pdf
+  branch: obseques
+  document_type: product_sheet
+  lang: fr
+  product_name: "Gan Sérénité Obsèques"
+  edition_date: "2023-03"
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.gan.fr/app/uploads/2025/06/Lisibilite-obseques-Gan-Assurances-072025.pdf
+  branch: obseques
+  document_type: product_sheet
+  lang: fr
+  product_name: "Lisibilité obsèques"
+  edition_date: "2025-07"
+  superseded: true
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.ganpatrimoine.fr/Media/documents/Lisibilite-obseques-Gan-Patrimoine-032026.pdf
+  branch: obseques
+  document_type: product_sheet
+  lang: fr
+  product_name: "Lisibilité obsèques"
+  edition_date: "2026-03"
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.ganprevoyance.fr/obseques-succession/1-4/lisibilite-obseques.pdf?date=20260313123059
+  branch: obseques
+  document_type: product_sheet
+  lang: fr
+  product_name: "Lisibilité obsèques"
+  edition_date: "2026-03"
+  superseded: true
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.ganpatrimoine.fr/Media/documents/DIC/DIC%20PREV_Gan%20Patrimoine%20Protection%20Plus%20042022.pdf
+  branch: prevoyance
+  document_type: ipid
+  lang: fr
+  product_name: "Gan Patrimoine Protection Plus"
+  edition_date: "2022-04"
+  superseded: true
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.ganpatrimoine.fr/Media/documents/DIC/DIN%20PREV_Gan%20Patrimoine%20Protection%20Plus%20122023.pdf
+  branch: prevoyance
+  document_type: ipid
+  lang: fr
+  product_name: "Gan Patrimoine Protection Plus"
+  edition_date: "2023-12"
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.ganprevoyance.fr/securite-famille/2-1/telecharger-le-document.pdf?date=20231114103947
+  branch: prevoyance
+  document_type: ipid
+  lang: fr
+  product_name: "Gan Prévoyance Protection"
+  edition_date: "2023-12"
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.ganprevoyance.fr/protection-homme-cle/2-1/document-d-information-gan-prevoyance-protection-homme-cle.pdf?date=20230927144012
+  branch: prevoyance
+  document_type: ipid
+  lang: fr
+  product_name: "Gan Prévoyance Protection Homme Clé"
+  edition_date: "2023-10"
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.gan.fr/app/uploads/2024/11/032023-DIN_Gan-Solutions-Prevoyance.pdf
+  branch: prevoyance
+  document_type: ipid
+  lang: fr
+  product_name: "Gan Solutions Prévoyance"
+  edition_date: "2024-03"
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.gan.fr/app/uploads/2024/11/102023-DIN_-GSP-Homme-Cle.pdf
+  branch: prevoyance
+  document_type: ipid
+  lang: fr
+  product_name: "Gan Solutions Prévoyance Homme Clé"
+  edition_date: "2023-10"
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.ganprevoyance.fr/prevoyance-salaries/2-1/telecharger-le-document.pdf?date=20250103140538
+  branch: prevoyance
+  document_type: product_sheet
+  lang: fr
+  product_name: "Actifs salariés du secteur privé Tableaux d’exemples de prise en charge au 01/01/2025 des"
+  edition_date: "2025"
+- url: https://www.ganpatrimoine.fr/Media/documents/Lisibilite-prevoyance/Tableau-TNS_CCSF_Lisibilite-GPP-2026.pdf
+  branch: prevoyance
+  document_type: product_sheet
+  lang: fr
+  product_name: "Exemple de prise en charge pour les TNS"
+  edition_date: "2026-01"
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.gan.fr/app/uploads/2025/01/Tableau-TNS_CCSF_Lisibilite-GSP_2025.pdf
+  branch: prevoyance
+  document_type: product_sheet
+  lang: fr
+  product_name: "Lisibilité Prévoyance GSP"
+  edition_date: "2025"
+- url: https://www.gan.fr/app/uploads/2025/12/Tableau-TNS_CCSF_Lisibilite-GSP_2026.pdf
+  branch: prevoyance
+  document_type: product_sheet
+  lang: fr
+  product_name: "Lisibilité Prévoyance GVMP non salariés"
+  edition_date: "2026-01"
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.gan.fr/app/uploads/2024/12/Tableau-salarie-secteur-prive-_CCSF-VF-GA.pdf
+  branch: prevoyance
+  document_type: product_sheet
+  lang: fr
+  product_name: "Lisibilité Prévoyance GVMP salariés"
+  edition_date: "2025"
+- url: https://www.ganpatrimoine.fr/Media/documents/Exemple%20tableaux%20de%20garanties%20pr%C3%A9voyance%20TNS/Tableau-TNS-CCSF-Lisibilit%C3%A9-GPP-2025.pdf
+  branch: prevoyance
+  document_type: product_sheet
+  lang: fr
+  product_name: "Tableaux d’exemples de prise en charge au 01/01/2025 des garanties Incapacité / invalidité / décès en vigueur"
+  edition_date: "2025"
+- url: https://www.ganprevoyance.fr/securite-professionnel-gan-prevoyance-protection/2-2/telecharger-le-tableau-des-garanties.pdf?date=20251222151901
+  branch: prevoyance
+  document_type: product_sheet
+  lang: fr
+  product_name: "Travailleurs non-salariés Exemples de prise en charge au 01/01/2026 des garanties incapaci"
+  edition_date: "2026-01"
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.gan.fr/app/uploads/2026/03/Gan-Nouvelle-Vie-Retraite-Fiche-Infos-Frais.pdf
+  branch: retraite
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Gan Assurance Nouvelle Vie"
+  edition_date: "2026-03"
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.ganpatrimoine.fr/Media/documents/Transparence%20frais%20contrat/Transparence%20des%20frais%20Gan%20Patrimoine%20Nouvelle%20Vie.pdf
+  branch: retraite
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Gan Nouvelle Vie (Gan Patrimoine)"
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.ganpatrimoine.fr/Media/documents/Transparence%20frais%20contrat/Gan-Patrimoine-Nouvelle-Vie.pdf
+  branch: retraite
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Gan Patrimoine Nouvelle Vie"
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.ganpatrimoine.fr/Media/documents/Transparence%20frais%20contrat/Gan-Patrimoine-Objectif-Retraite.pdf
+  branch: retraite
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Gan Patrimoine Objectif Retraite"
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.gan.fr/app/uploads/2026/03/Gan-Performance-Retraite-Fiche-Infos-Frais.pdf
+  branch: retraite
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Gan Performance Retraite"
+  edition_date: "2026-03"
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.ganprevoyance.fr/assurance-vie-retraite/1-4/fiche-d-information-frais-du-contrat-retraite-active.pdf?date=20260318121327
+  branch: retraite
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Gan Prevoyance Retraite Active"
+  edition_date: "2026-03"
+- url: https://www.ganprevoyance.fr/plan-epargne-retraite/2-3/fiche-d-information-sur-les-frais-du-per-individuel-gan-nouvelle-vie.pdf?date=20260318121107
+  branch: retraite
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Gan Prévoyance Nouvelle Vie"
+  edition_date: "2026-03"
+- url: https://www.ganpatrimoine.fr/Media/documents/DIC/DIC%20GL%20Objectif%20Retraite%20Gan%20Patrimoine_2025_03_05.pdf
+  branch: retraite
+  document_type: product_sheet
+  lang: fr
+  product_name: "Gan Patrimoine Objectif Retraite"
+  edition_date: "2025-03"
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.gan.fr/app/uploads/2026/07/GAN-Performance-Retraite-Infos-Cles.pdf
+  branch: retraite
+  document_type: product_sheet
+  lang: fr
+  product_name: "Gan Performance Retraite"
+  edition_date: "2026-06"
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.ganprevoyance.fr/epargne-handicap/2-3/document-d-informations-cles-dic-gan-prevoyance-retraite-active.pdf?date=20250428141040
+  branch: retraite
+  document_type: product_sheet
+  lang: fr
+  product_name: "Gan Prévoyance Retraite Active"
+  edition_date: "2025-03"
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.ganprevoyance.fr/complementaire-sante-gan-prevoyance/2-1/document-d-informations-gan-prevoyance-sante.pdf?date=20231127095936
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: "Gan Prévoyance Santé"
+  edition_date: "2023-11"
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.ganprevoyance.fr/complementaire-sante-gan-prevoyance/2-2/document-d-informations-gan-prevoyance-sante-senior.pdf?date=20231127095936
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: "Gan Prévoyance Santé Sénior"
+  edition_date: "2023-11"
+  # carrier named in this document: Groupama Gan Vie
+- url: https://www.gan.fr/app/uploads/2025/03/Tableau-de-garanties-2025.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Tableau de garanties des exemples de remboursement"
+  edition_date: "2025-03"
+  superseded: true
+  # carrier named in this document: Gan Assurances
+- url: https://www.gan.fr/app/uploads/2026/03/Tableau-de-garanties-GAN-Sante-02-2026.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Tableau de garanties des exemples de remboursement"
+  edition_date: "2026-02"
+  # carrier named in this document: Gan Assurances

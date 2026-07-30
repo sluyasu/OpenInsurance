@@ -104,7 +104,17 @@ registered at ORIAS, distributing a carrier's paper. Measured examples:
   d'AXA France IARD et courtier d'assurance - Orias n° 19006337". Carrier = AXA France
   IARD. Avanssur itself returns 0 hits in the register (searched `denomination` and the
   full-text search dataset).
-- **Luko** now trades as "Luko by Allianz Direct" and is absent from the register.
+- **Luko** is absent from the carrier list, and its carrier is not an ACPR-authorised insurer at all.
+  Its conditions générales define, under *Assureur*: "Allianz Direct Versicherungs-AG (succursale
+  France) [...] opère sous la marque Luko", and its IPIDs add that the entity is "soumise au contrôle
+  de l'autorité fédérale de supervision financière, BaFin, numéro d'enregistrement: 5441. Identifiant
+  Refassu : 11600008". That identifier resolves in the register to `ALLIANZ DIRECT VERSICHERUNGS-AG`,
+  `type_entite = Passeport entrant LE`, supervised by BaFin. A German insurer writing French household
+  risks through a French branch. See the open questions below: this is the case that settles them.
+  Two further carriers sit inside the same library: **Opteven Assurances** (an ACPR carrier,
+  `id_referentiel` 220296) writes the assistance title of the household contracts, and **Wakam**
+  survives as insurer of the protection juridique convention annexed to the current extended-cover
+  edition, pre-acquisition paperwork folded in rather than replaced.
 - **L'olivier assurance**, **Leocare**, **Lovys**: absent. L'olivier's carrier is
   ADMIRAL EUROPE COMPANIA DE SEGUROS, which appears only as a `Passeport entrant`
   (Spanish supervision, DGSFP).
@@ -300,10 +310,16 @@ Ingest their documents, if at all, under the carrier that signs them.
 - Whether `Succursale de pays tiers` (4 entities) should ever enter the census. They hold
   French authorisation under the Code des assurances but are branches of non-EEA carriers.
   Deferred, not decided.
-- Whether the 1 033 EEA passporting entities deserve a presence. They write French risks
-  under home-state supervision, and at least one consumer brand (l'olivier / Admiral) sits
-  there. Deferred: the wiki's unit is a document, and their documents are French-language
-  and French-law, so the argument for including them is stronger than it looks.
+- ~~Whether the 1 033 EEA passporting entities deserve a presence.~~ **Settled by evidence,
+  2026-07-30: yes.** Luko, a mainstream French household brand, is carried by
+  `ALLIANZ DIRECT VERSICHERUNGS-AG`, which appears in the register only as a
+  `Passeport entrant LE` under BaFin supervision. Its documents are French-language,
+  French-law, sold to French consumers, and they carry the Refassu identifier openly
+  (11600008). Excluding passporting entities would mean excluding real French consumer
+  products, and the exclusion would be invisible: nothing on the brand's site says the
+  carrier is German. The same holds for l'olivier / Admiral (Spanish, DGSFP-supervised).
+  So the census counts 628 **French-authorised** carriers, and that number is not the
+  number of insurers a French consumer can buy from. Say which one is meant, every time.
 - The 286 Code de la mutualité carriers are a long tail of small health mutuals. A census
   is not an ingestion plan: most publish little and duplicate each other's cover. Decide a
   cutoff before touching them.

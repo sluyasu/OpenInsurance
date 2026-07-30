@@ -1,0 +1,1446 @@
+insurer:
+  slug: matmut
+  name: Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+  website: https://www.matmut.fr
+  segment: particuliers
+  notes: |
+    Matmut is itself a risk carrier, but the matmut.fr document library is a GROUP library spanning eleven distinct carriers across all three French insurance codes plus two non-insurance entities. Per-document attribution is in `carrier`; the entities as printed are:
+    (1) CODE DES ASSURANCES — 'Matmut (Mutuelle assurance des travailleurs mutualistes), Société d'assurance mutuelle à cotisations variables ... N° Siren 775 701 477' signs the mass-market motor, household, GAV, chasse, navigation, scolaire and Matmut Pro range (89 docs). 'Matmut & Co, Société anonyme au capital de 66 015 268 € entièrement libéré, N° 487 597 510 RCS Rouen' signs the entire 'Initiale & Co / Distinguo & Co' range and Assur'4Pattes (31 docs). 'Inter Mutuelles Entreprises, Société Anonyme à directoire et conseil de surveillance ... N° 493 147 011 RCS Rouen' (Niort, 118 avenue de Paris) signs the collectivités / copropriétés / risques immobiliers / bris de machines / pertes d'exploitation range (8 docs) — this entity is NOT in the 13-carrier SGAM list given in the brief. 'AMF Assurances (Assurance Mutuelle des Fonctionnaires et Assimilés), Siret 784 394 397 00029' signs the agents publics professional cover (2 docs). 'Matmut Vie, Société Anonyme au capital de 35 887 500 €, N° 344 898 358 RCS Rouen' signs life, obsèques and prévoyance (11 docs).
+    (2) CODE DE LA MUTUALITÉ — the health arm is NOT Matmut Mutualité as the brief assumed. Every santé product document names 'Mutuelle Ociane Matmut, Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, immatriculée sous le n° 434 243 085, siège social 35 rue Claude-Bonnier 33054 Bordeaux' (56 docs) — the Bordeaux Ociane entity, not the Rouen one. 'Matmut Mutualité, Sirene 775 701 485' appears only as (a) the SOUSCRIPTEUR of the Matmut Vie group life/obsèques contracts, (b) the mutualist co-signer of the student and Matmut/Smac contracts, and (c) its own statutes. Only 2 documents carry Matmut Mutualité as the named carrier.
+    (3) PROTECTION JURIDIQUE — confirmed as asked: /pro/pdf/notice-information-protection-juridique.pdf names the dedicated carrier, not the main one. Its cover reads verbatim: 'Contrat collectif d'assurance de Protection Juridique souscrit par Mutuelle Ociane Matmut auprès de Matmut Protection Juridique — Ayant reçu agrément par arrêté du 1er octobre 1999 pour pratiquer les opérations correspondant à la branche 17 (Protection Juridique)'. MPJ is 'Société Anonyme au capital de 7 500 000 € entièrement libéré, N° 423 499 391 RCS Rouen'. Caution: the string 'Matmut Protection Juridique' also appears in ~75 other documents, but there it is only the delegated provider of a Protection Juridique SUB-GUARANTEE inside a contract carried by someone else — do not read those as MPJ-carried.
+    (4) THIRD-PARTY CARRIERS BEHIND MATMUT BRANDS — the 'Complice' savings range is not Matmut-carried at all. notice-complice-vie.pdf names 'Assureur : Cardif Assurance Vie ... 732 028 154 RCS Paris' and is branded 'AEP - ASSURANCE EPARGNE PENSION®, une marque commerciale de groupe BNP PARIBAS CARDIF'; notice-complice-retraite.pdf names 'Cardif Retraite ... RCS Paris 903 364 321' with the UFEP association as souscripteur, and says the plan is 'distribué par Matmut sous le nom commercial Complice Retraite'. The emprunteur CG (CG-altus-evolution.pdf) is carried by 'MUTLOG SIREN n° 325 942 969' and 'MUTLOG Garanties SIREN n° 384 253 605'. Matmut is a pure intermediary on these three.
+    (5) CO-INSURANCE POOLS — the branch-level (CCN) group health contracts are co-insured. CCN 1951, CCN 1966 and CCN ALISFA name Mutuelle Ociane Matmut as ONE of several co-insurers alongside AESIO Mutuelle, Harmonie Mutuelle, MGEN, MNH, Malakoff Humanis Prévoyance, Intégrance (Groupe APICIL), Solimut Mutuelle de France and AG2R, varying by branch. Attributing these to Matmut alone would be wrong; the `carrier` field flags the pool.
+
+    NOT PUBLISHED: No conditions particulières of any kind — those are per-policyholder and live behind the espace personnel (/app/ContratsAttestationsInternet*, all Disallow'd). No public tariff grid or premium schedule for the insurance products (the only conditions_tarifaires published are promotional-offer riders, plus one Socram Banque banking tariff that is out of scope). No IPID for several products that do have conditions générales: the four Inter Mutuelles Entreprises wordings (risques immobiliers, bris de machines, pertes d'exploitation, multigaranties collectivités) publish IPIDs only under different product codes, and CGLLDPART / CG-livret-matmut have none because they are not insurance. No conditions générales published for the Complice Vie / Complice Retraite savings range — only the Cardif notice d'information. No English-language contractual documents. No machine-readable index: no JSON/CSV catalogue, no PDF in sitemap.xml, no directory listing (all /doc/ paths 308-redirect); the /services-en-ligne/conditions-generales HTML page is the only catalogue and it must be scraped.
+
+    TRAP: THE LIBRARY PAGE IS NOT IN THE SITEMAP. https://www.matmut.fr/services-en-ligne/conditions-generales carries 151 PDF anchors (112 of the kept documents plus the 37 tariff sheets) and is absent from sitemap.xml. Go there first; everything else is mopping up. Its four <h2> sections are 'Conditions Générales Matmut', '… Matmut & Co', '… Distinguo & Co', '… Initiale & Co' — which is itself the carrier split.
+
+    TRAP: sitemap.xml contains 0 PDF URLs out of 2 589 entries. Do not waste a pass expecting product documents there; use it only to enumerate product pages. 1 998 of the 2 589 URLs are /conseils/ blog posts and can be skipped outright.
+
+    TRAP: THE SERVER IS CASE-INSENSITIVE (IIS). CGALI.pdf, cgali.pdf and CGAli.pdf all return the same bytes — verified by sha256 on several pairs. Probing for lower/upper-case 'mirror' files yields 46 false 200s that are not new documents. Any pipeline that flattens these into one directory on a case-insensitive filesystem (macOS default) will silently overwrite. Normalise the basename to lowercase and de-duplicate by sha256 before writing to disk.
+
+    TRAP: /services-en-ligne/doc/CG/ and /services-en-ligne/doc/IPID/ mirror each other by product code (CGSCOL ↔ IPIDSCOL, cgauto4dmatmut ↔ ipidauto4d). Tempting to complete the set by guessing the counterpart — it does not work: the genuinely missing counterparts (CGIMEASS, CGSMAC, IPIDLLDPART, IPID for cgbrismachine / cgpertesexploitation / CGRisquesImmobiliers) all 404, and every apparent hit is a case variant. 184 probes, 0 real new documents.
+
+    TRAP: robots.txt Disallow lines leak two PDF paths that no page links, which is how you learn the /pro/pdf/ and /services-en-ligne/doc/ conventions. Read robots.txt for paths, not just for the sitemap.
+
+    TRAP: EDITION DATES ARE IN A FOOTER REF CODE, NOT A DATE FIELD, AND THE SEPARATOR IS INCONSISTENT. Conditions générales print e.g. 'CG MAV - 01/26', 'CG RP - 12/23', 'MC.30 – 11/24' (MM/YY). IPIDs print 'IPID.RP–12-23', 'IPID.JEUNES – 05-24' (MM-YY with a dash) and some print 'IPID.MOM.SVB– 0925' (MMYY, no separator at all). A single MM/YY regex finds roughly half of them. 43 of 203 documents genuinely carry no printed date — chiefly the CCN tableau-de-garanties sheets. Beware: those sheets contain '12/2026' in the benefit tables, which is a cover-validity date, not an edition.
+
+    TRAP: TWO GENUINE EDITION PAIRS, NOT DUPLICATES. /services-en-ligne/CG/MC30.pdf is 'MC.30 – 05/23' (65 pages) while /services-en-ligne/doc/CG/MC30.pdf is 'MC.30 – 11/24' (66 pages) — same product 'Caducée', two real editions, 0.88 line-level similarity, the newer one adds a cover page. Both kept. Note the two live under different directories with the same basename.
+
+    TRAP: /prevoyance/pdf/Notice-MPO.pdf and /services-en-ligne/doc/IPID/Notice-MPO.pdf are two revisions of the same 'Matmut Prévoyance Obsèques' notice (0.83 line similarity; one says 'L'assureur apportera à l'adhérent le conseil adapté', the other 'L'adhérent est invité à demander conseil auprès de son assureur'). NEITHER carries a printed edition date, so they cannot be ordered — do not guess. Both kept, edition_date null.
+
+    TRAP: A TYPO IN THE PRINTED SIREN. CGCHASSE.pdf and CGMAV-serenite.pdf print 'Immatriculée au RCS de Rouen no 755 701 477'. Matmut's real Siren is 775 701 477 (as printed correctly in CGMAV.pdf and everywhere else). Digit transposition in the source document — do not create a second carrier entity from it.
+
+    TRAP: AN INTRANET HOST LEAKS INTO THE PUBLIC SITE. One convention-collective page links https://basedoc.intra.ociane.matmut.fr/Lists/DocumentsOciane/... (a SharePoint path). Not publicly resolvable; ignore rather than retry.
+
+    TRAP: NOT EVERYTHING UNDER /doc/CG/ IS AN INSURANCE CONTRACT. Four files in the conditions-générales tree are carried by non-insurers and were deliberately excluded: CGLLDPART.pdf and guide-restitution-arval.pdf are ARVAL Service Lease (352 256 424 RCS Paris) long-term-rental terms; CG-livret-matmut.pdf and /epargne-credit/pdf/conditions-tarifaires.pdf are Socram Banque (682 014 865 RCS Niort) savings-passbook terms and tariffs. All four return 200 and are real PDFs — they are simply not insurance.
+
+    TRAP: THE /pro/pdf/ FOLDER IS MOSTLY NOT MATMUT DOCUMENTS. Of ~190 PDFs there, the large majority are the collective bargaining texts themselves (CCN-*-Accord-*.pdf, CCN-*-Avenant-*.pdf, CCN-*-Lettre-*.pdf) published by the branch social partners, not insurance documents. Only the CG / notice-information / garanties-sante files are contractual. Filter on the filename stem, not on the folder.
+
+    TRAP: The 37 conditions_tarifaires entries are commercial offer terms (Bonus, Bonus Booster, Avantage Hiver, Usage Sérénité, Âge du véhicule, Bris de glaces franchise). They sit on the official conditions-générales page and each names its carrier, so they are recorded — but they are 1-2 page tariff riders, not product wordings. Filter on document_type if you only want wordings.
+
+    TRAP: Two IPIDs for health live outside the main IPID folder, at /mutuelle/pdf/IPID-Elsie.pdf and /mutuelle/pdf/IPID-Sante-vous-bien.pdf. The santé product documents are split across four different directories (/mutuelle/pdf/, /mutuelle-sante-ociane/pdf/, /pro/pdf/ and /services-en-ligne/doc/CG/). There is no single santé folder.
+
+    TRAP: DIC vs IPID: the savings and obsèques products publish a PRIIPs 'Document d'Information Clé' (dic-mve.pdf, dic-mvg.pdf, MPO.DIC.pdf) rather than an insurance IPID. They are typed `ipid` here because they play the same pre-contractual key-information role, but the regulation and the layout differ — flag if that matters downstream.
+
+    TRAP: Matmut's own IPIDs do not use a 'Compagnie :' line; only the Ociane (santé) ones do. For the Code des assurances IPIDs the carrier is only in the legal block at the foot of page 2. All of them do carry a clean 'Produit :' line, so product names are reliable.
+
+    TRAP: Some documents carry TWO reference codes with different dates: the document's own edition code and the underlying contract's or a partner's code. Example: notice-information-protection-juridique.pdf shows both 'PJ.260 - 02/25' (the Matmut Protection Juridique contract reference) and 'MOM.NOT.PJ - 10/25' (this notice's own edition). Prefer the code whose prefix matches the document type (NOT./NI./CG./IPID.), not the first one found. The ALISFA files instead date themselves on the cover ('CG Oblig-ALISFA-FM-12-2024', 'NI-FM-ALISFA-12-2024'); the repeated 'FCR571 10/27' in their tables is a form code, not a date.
+
+  fetch_tier: plain          # Plain HTTP throughout, no blocking of any kind. curl and Python urllib
+listing_pages:
+- url: https://www.matmut.fr/services-en-ligne/conditions-generales
+  lang: fr
+- url: https://www.matmut.fr/services-en-ligne/informations-legales
+  lang: fr
+- url: https://www.matmut.fr/mutuelle/mutuelle-sante
+  lang: fr
+- url: https://www.matmut.fr/pro/protection-salaries/mutuelle-entreprise-ociane/pme
+  lang: fr
+- url: https://www.matmut.fr/pro/protection-salaries/mutuelle-entreprise-ociane/convention-collective/
+  lang: fr
+- url: https://www.matmut.fr/prevoyance/capital-prevoyance
+  lang: fr
+- url: https://www.matmut.fr/epargne-credit/assurance-vie
+  lang: fr
+languages:
+- fr
+pdfs:
+- url: https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-assur4pattes.pdf
+  branch: animaux
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Assur'4Pattes"
+  edition_date: "2024-01"
+  # carrier named in this document: Matmut & Co - Société anonyme au capital de 66 015 268 € entièrement libéré, N° 487 597 510 RCS Rouen, entreprise régie par le Code des assurances
+- url: https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/ipid-assur4pattes.pdf
+  branch: animaux
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Assur'4Pattes"
+  edition_date: "2024-01"
+  # carrier named in this document: Matmut & Co - Société anonyme au capital de 66 015 268 € entièrement libéré, N° 487 597 510 RCS Rouen, entreprise régie par le Code des assurances
+- url: https://www.matmut.fr/epargne-credit/pdf/notice-complice-vie.pdf
+  branch: assurance-vie
+  document_type: conditions_generales
+  lang: fr
+  product_name: "CompliceVie"
+  edition_date: "2025-10"
+  # carrier named in this document: Cardif Assurance Vie - Société Anonyme au capital de 719 167 488 €, 732 028 154 RCS Paris (marque AEP - Assurance Epargne Pension, groupe BNP Paribas Cardif)
+- url: https://www.matmut.fr/epargne-credit/pdf/notice-mvg.pdf
+  branch: assurance-vie
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Matmut Vie Générations"
+  edition_date: "2025-01"
+  # carrier named in this document: Matmut Vie - Société Anonyme au capital de 35 887 500 € entièrement libéré, N° 344 898 358 RCS Rouen, entreprise régie par le Code des assurances ; Matmut Mutualité (souscripteur)
+- url: https://www.matmut.fr/epargne-credit/pdf/notice-mve.pdf
+  branch: assurance-vie
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Matmut Vie Épargne"
+  edition_date: "2025-01"
+  # carrier named in this document: Matmut Vie - Société Anonyme au capital de 35 887 500 € entièrement libéré, N° 344 898 358 RCS Rouen, entreprise régie par le Code des assurances ; Matmut Mutualité (souscripteur)
+- url: https://www.matmut.fr/epargne-credit/pdf/dic-mvg.pdf
+  branch: assurance-vie
+  document_type: ipid
+  lang: fr
+  product_name: "Matmut Vie Générations"
+  edition_date: "2025-01"
+  # carrier named in this document: Matmut Vie - Société Anonyme au capital de 35 887 500 € entièrement libéré, N° 344 898 358 RCS Rouen, entreprise régie par le Code des assurances
+- url: https://www.matmut.fr/epargne-credit/pdf/dic-mve.pdf
+  branch: assurance-vie
+  document_type: ipid
+  lang: fr
+  product_name: "Matmut Vie Épargne"
+  edition_date: "2025-01"
+  # carrier named in this document: Matmut Vie - Société Anonyme au capital de 35 887 500 € entièrement libéré, N° 344 898 358 RCS Rouen, entreprise régie par le Code des assurances
+- url: https://www.matmut.fr/services-en-ligne/doc/CG/CGMRSQE.pdf
+  branch: auto
+  document_type: conditions_generales
+  lang: fr
+  product_name: "4 roues Essentiel"
+  edition_date: "2020-09"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/CG/CGMRSQ.pdf
+  branch: auto
+  document_type: conditions_generales
+  lang: fr
+  product_name: "4 roues Référence"
+  edition_date: "2024-10"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-auto3d-init-and-co.pdf
+  branch: auto
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Auto 3D Initiale & Co"
+  edition_date: "2024-10"
+  # carrier named in this document: Matmut & Co - Société anonyme au capital de 66 015 268 € entièrement libéré, N° 487 597 510 RCS Rouen, entreprise régie par le Code des assurances
+- url: https://www.matmut.fr/services-en-ligne/doc/CG/cgauto4dmatmut.pdf
+  branch: auto
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Auto 4D"
+  edition_date: "2024-10"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-auto4d-distinguo-and-co.pdf
+  branch: auto
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Auto 4D Distinguo & Co"
+  edition_date: "2025-07"
+  # carrier named in this document: Matmut & Co - Société anonyme au capital de 66 015 268 € entièrement libéré, N° 487 597 510 RCS Rouen, entreprise régie par le Code des assurances
+- url: https://www.matmut.fr/services-en-ligne/doc/CG/CG-auto-temporaire-matmut.pdf
+  branch: auto
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Auto Temporaire"
+  edition_date: "2024-10"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/CG/CG-automission.pdf
+  branch: auto
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Auto-mission"
+  edition_date: "2024-01"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/CG/cgcampingcar4dmatmut.pdf
+  branch: auto
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Camping-car Auto 4D"
+  edition_date: "2024-10"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/CG/CGMRSQFLOTTE.pdf
+  branch: auto
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Flotte de véhicules"
+  edition_date: "2024-11"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-mrsq-ag-init-and-co.pdf
+  branch: auto
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Initiale & Co (multirisques)"
+  edition_date: "2024-10"
+  # carrier named in this document: Matmut & Co - Société anonyme au capital de 66 015 268 € entièrement libéré, N° 487 597 510 RCS Rouen, entreprise régie par le Code des assurances
+- url: https://www.matmut.fr/services-en-ligne/doc/avantage-h-distinguo-co.pdf
+  branch: auto
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Avantage Hiver"
+  edition_date: "2026-01"
+  # carrier named in this document: Matmut & Co - Société anonyme au capital de 66 015 268 € entièrement libéré, N° 487 597 510 RCS Rouen, entreprise régie par le Code des assurances
+- url: https://www.matmut.fr/services-en-ligne/doc/coavantagehiverauto4d.pdf
+  branch: auto
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Avantage hiver Matmut"
+  edition_date: "2026-01"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/coavantagehiver-auto3d-init-and-co.pdf
+  branch: auto
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Avantage hiver Matmut &amp; Co Auto 3D"
+  # carrier named in this document: Matmut & Co - Société anonyme au capital de 66 015 268 € entièrement libéré, N° 487 597 510 RCS Rouen, entreprise régie par le Code des assurances
+- url: https://www.matmut.fr/services-en-ligne/doc/bonus-distinguo-co.pdf
+  branch: auto
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Bonus"
+  # carrier named in this document: Matmut & Co - Société anonyme au capital de 66 015 268 € entièrement libéré, N° 487 597 510 RCS Rouen, entreprise régie par le Code des assurances
+- url: https://www.matmut.fr/services-en-ligne/doc/bonus-b-distinguo-co.pdf
+  branch: auto
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Bonus Booster"
+  edition_date: "2026-01"
+  # carrier named in this document: Matmut & Co - Société anonyme au capital de 66 015 268 € entièrement libéré, N° 487 597 510 RCS Rouen, entreprise régie par le Code des assurances
+- url: https://www.matmut.fr/services-en-ligne/doc/cobonusboosterauto4d-pro.pdf
+  branch: auto
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Bonus Booster nouveau contrat Matmut Pro"
+  edition_date: "2026-01"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/cobonusboosterauto4d-vieprivee.pdf
+  branch: auto
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Bonus Booster nouveau contrat Matmut Vie Privée"
+  edition_date: "2026-01"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/bonus-b-nc-pro-distinguo-co.pdf
+  branch: auto
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Bonus Booster nouveaux contrats Matmut Pro"
+  # carrier named in this document: Matmut & Co - Société anonyme au capital de 66 015 268 € entièrement libéré, N° 487 597 510 RCS Rouen, entreprise régie par le Code des assurances
+- url: https://www.matmut.fr/services-en-ligne/doc/bonus-b-nc-viePrivee-distinguo-co.pdf
+  branch: auto
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Bonus Booster nouveaux contrats Matmut Vie Privée"
+  # carrier named in this document: Matmut & Co - Société anonyme au capital de 66 015 268 € entièrement libéré, N° 487 597 510 RCS Rouen, entreprise régie par le Code des assurances
+- url: https://www.matmut.fr/services-en-ligne/doc/bonus-f-distinguo-co.pdf
+  branch: auto
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Bonus Matmut Famille"
+  edition_date: "2026-01"
+  # carrier named in this document: Matmut & Co - Société anonyme au capital de 66 015 268 € entièrement libéré, N° 487 597 510 RCS Rouen, entreprise régie par le Code des assurances
+- url: https://www.matmut.fr/services-en-ligne/doc/cobonusfamilleauto4d.pdf
+  branch: auto
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Bonus Matmut famille"
+  edition_date: "2026-01"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/BDG.FLOTTES.pdf
+  branch: auto
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Bris de glaces"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/brisglace-4R-essentiel.pdf
+  branch: auto
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Bris de glaces"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/brisglace-4R-tempo.pdf
+  branch: auto
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Bris de glaces"
+  edition_date: "2026-01"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/brisglaces-auto4D-distinguo-co.pdf
+  branch: auto
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Bris de glaces Auto 4D"
+  # carrier named in this document: Matmut & Co - Société anonyme au capital de 66 015 268 € entièrement libéré, N° 487 597 510 RCS Rouen, entreprise régie par le Code des assurances
+- url: https://www.matmut.fr/services-en-ligne/doc/brisglace-3D-init-and-co.pdf
+  branch: auto
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Bris de glaces – Auto 3D"
+  edition_date: "2026-01"
+  # carrier named in this document: Matmut & Co - Société anonyme au capital de 66 015 268 € entièrement libéré, N° 487 597 510 RCS Rouen, entreprise régie par le Code des assurances
+- url: https://www.matmut.fr/services-en-ligne/doc/cobonusboosterauto4d.pdf
+  branch: auto
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Conditions de l'avantage Bonus Booster Matmut"
+  edition_date: "2026-01"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/cobonusauto4d.pdf
+  branch: auto
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Conditions de l'avantage Bonus Matmut"
+  edition_date: "2026-01"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/brisglace-auto4D.pdf
+  branch: auto
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Conditions de l'avantage Bris de Glaces"
+  edition_date: "2026-01"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/avantage-ecomalin.pdf
+  branch: auto
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Conditions de l'avantage Éco Malin Matmut"
+  edition_date: "2026-01"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/coavantagemop.pdf
+  branch: auto
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Motard professionnel de la Fonction Publique"
+  edition_date: "2026-01"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/coavantagepr.pdf
+  branch: auto
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Petit rouleur Matmut"
+  edition_date: "2026-01"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/coavantageusage-s-initi-and-co.pdf
+  branch: auto
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Usage Sérénité – 2 roues"
+  edition_date: "2026-01"
+  # carrier named in this document: Matmut & Co - Société anonyme au capital de 66 015 268 € entièrement libéré, N° 487 597 510 RCS Rouen, entreprise régie par le Code des assurances
+- url: https://www.matmut.fr/services-en-ligne/doc/coreduction-age-veh-init-and-co.pdf
+  branch: auto
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Âge du véhicule – 2 roues"
+  # carrier named in this document: Matmut & Co - Société anonyme au capital de 66 015 268 € entièrement libéré, N° 487 597 510 RCS Rouen, entreprise régie par le Code des assurances
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDCAMPINGCAR4D.pdf
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Multirisques Camping-car « Auto 4D »"
+  edition_date: "2024-10"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/ipid-auto3d-init-and-co.pdf
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Multirisques « Auto 3D Initiale & Co »"
+  edition_date: "2024-10"
+  # carrier named in this document: Matmut & Co - Société anonyme au capital de 66 015 268 € entièrement libéré, N° 487 597 510 RCS Rouen, entreprise régie par le Code des assurances
+- url: https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/ipid-auto4d-distinguo-and-co.pdf
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Multirisques « Auto 4D Distinguo & Co »"
+  edition_date: "2025-07"
+  # carrier named in this document: Matmut & Co - Société anonyme au capital de 66 015 268 € entièrement libéré, N° 487 597 510 RCS Rouen, entreprise régie par le Code des assurances
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/ipidauto4d.pdf
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Multirisques « Auto 4D »"
+  edition_date: "2024-10"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/IPID-automission.pdf
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Multirisques « Auto-mission »"
+  edition_date: "2024-01"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/ipid-mrsq-ag-init-and-co.pdf
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Multirisques « Initiale & Co »"
+  edition_date: "2024-10"
+  # carrier named in this document: Matmut & Co - Société anonyme au capital de 66 015 268 € entièrement libéré, N° 487 597 510 RCS Rouen, entreprise régie par le Code des assurances
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/IPID-auto-temporaire-matmut.pdf
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat « Assurance Auto Temporaire »"
+  edition_date: "2024-10"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDMRSQFLOTTE.pdf
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat « Flotte de véhicules »"
+  edition_date: "2024-11"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDMRSQE.pdf
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat « Multirisques 4 Roues Essentiel »"
+  edition_date: "2018-01"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDMRSQ.pdf
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat « Multirisques 4 Roues Référence »"
+  edition_date: "2024-10"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/groupe-matmut/assets/img/decouvrir-le-groupe/documents/statuts-matmut-06-21.pdf
+  branch: autres
+  document_type: other
+  lang: fr
+  product_name: "Statuts Matmut"
+  edition_date: "2021-06"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/groupe-matmut/assets/img/decouvrir-le-groupe/documents/statuts-matmut-mutualite-06-21.pdf
+  branch: autres
+  document_type: other
+  lang: fr
+  product_name: "Statuts Matmut Mutualité"
+  edition_date: "2021-06"
+  # carrier named in this document: Matmut Mutualité - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Sirene 775 701 485
+- url: https://www.matmut.fr/services-en-ligne/doc/CG/CGCHASSE.pdf
+  branch: chasse
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Chasse"
+  edition_date: "2026-04"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDCHASSE.pdf
+  branch: chasse
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat « Chasse »"
+  edition_date: "2026-04"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/CG/CG2RLIBERTE.pdf
+  branch: edpm
+  document_type: conditions_generales
+  lang: fr
+  product_name: "2R Liberté"
+  edition_date: "2025-07"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/CG/CG2RMOBILITE.pdf
+  branch: edpm
+  document_type: conditions_generales
+  lang: fr
+  product_name: "2R Mobilité"
+  edition_date: "2025-07"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/IPID2RLIBERTE.pdf
+  branch: edpm
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Multirisques « 2R Liberté »"
+  edition_date: "2025-07"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/IPID2RMOBILITE.pdf
+  branch: edpm
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Multirisques « 2R Mobilité »"
+  edition_date: "2025-07"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/CG/CG-altus-evolution.pdf
+  branch: emprunteur
+  document_type: conditions_generales
+  lang: fr
+  product_name: "MUTLOG ALTUS EVOLUTION 2.0"
+  edition_date: "2020-08"
+  # carrier named in this document: MUTLOG (Siren 325 942 969) et MUTLOG Garanties (Siren 384 253 605)
+- url: https://www.matmut.fr/services-en-ligne/doc/CG/FCAC1.pdf
+  branch: gav
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Familial Complémentaire « Accidents corporels »"
+  edition_date: "2024-10"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/CG/CGMAV.pdf
+  branch: gav
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Multirisques Accidents de la Vie"
+  edition_date: "2026-01"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/CG/CGMAV-serenite.pdf
+  branch: gav
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Multirisques Accidents de la Vie Sérénité"
+  edition_date: "2026-01"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/conditions-offre-FC.pdf
+  branch: gav
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Conditions de l'offre FC"
+  edition_date: "2026-01"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/conditions-offre-MAV-serenite.pdf
+  branch: gav
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Conditions de l'offre MAV / MAV Sérénité"
+  edition_date: "2026-01"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDFCAC1.pdf
+  branch: gav
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat « Familial complémentaire Accidents corporels »"
+  edition_date: "2024-10"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDMAV-serenite.pdf
+  branch: gav
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat « Multirisques Accidents de la Vie Sérénité »"
+  edition_date: "2026-01"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDMAV.pdf
+  branch: gav
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat « Multirisques Accidents de la Vie »"
+  edition_date: "2026-01"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/CG/CGALI.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Assurance Loyers Impayés"
+  edition_date: "2024-10"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-pno-init-and-co.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Habitation Initiale & Co Propriétaire non occupant"
+  edition_date: "2023-12"
+  # carrier named in this document: Matmut & Co - Société anonyme au capital de 66 015 268 € entièrement libéré, N° 487 597 510 RCS Rouen, entreprise régie par le Code des assurances
+- url: https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-rp-init-and-co.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Habitation Initiale & Co Résidence principale"
+  edition_date: "2023-12"
+  # carrier named in this document: Matmut & Co - Société anonyme au capital de 66 015 268 € entièrement libéré, N° 487 597 510 RCS Rouen, entreprise régie par le Code des assurances
+- url: https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-rs-init-and-co.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Habitation Initiale & Co Résidence secondaire"
+  edition_date: "2023-12"
+  # carrier named in this document: Matmut & Co - Société anonyme au capital de 66 015 268 € entièrement libéré, N° 487 597 510 RCS Rouen, entreprise régie par le Code des assurances
+- url: https://www.matmut.fr/services-en-ligne/doc/CG/ME2H.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Habitation Matmut Étudiants"
+  edition_date: "2024-05"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/CG/CGMGARMH.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Habitation Mobile-home Formule Nature"
+  edition_date: "2024-05"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/CG/CGMGARPNO.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Habitation Propriétaire Non Occupant"
+  edition_date: "2023-12"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/CG/CGMGARRP.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Habitation Résidence principale"
+  edition_date: "2023-12"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/CG/CGJEUNES.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Habitation Résidence principale - Jeunes"
+  edition_date: "2024-05"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/CG/CGMGARRS.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Habitation Résidence secondaire"
+  edition_date: "2023-12"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/CG/CGHEB.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Hébergement"
+  edition_date: "2024-05"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/CG/CGPNE.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Propriétaire Non Exploitant"
+  edition_date: "2024-05"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/CG/CGMGARTBNH.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Terrain - Bâtiment non habitable"
+  edition_date: "2024-05"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDIMECOPRO.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Multigaranties des copropriétés"
+  edition_date: "2025-11"
+  # carrier named in this document: Inter Mutuelles Entreprises - Société Anonyme à directoire et conseil de surveillance au capital de 22 763 000 € entièrement libéré, N° 493 147 011 RCS Rouen
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDIMEPNOPNE.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Multigaranties des risques immobiliers"
+  edition_date: "2025-11"
+  # carrier named in this document: Inter Mutuelles Entreprises - Société Anonyme à directoire et conseil de surveillance au capital de 22 763 000 € entièrement libéré, N° 493 147 011 RCS Rouen
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDALI.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat « Assurance Loyers Impayés »"
+  edition_date: "2024-10"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/ipid-pno-init-and-co.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat « Habitation Initiale & Co Propriétaire non occupant »"
+  edition_date: "2023-12"
+  # carrier named in this document: Matmut & Co - Société anonyme au capital de 66 015 268 € entièrement libéré, N° 487 597 510 RCS Rouen, entreprise régie par le Code des assurances
+- url: https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/ipid-rp-init-and-co.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat « Habitation Initiale & Co Résidence principale »"
+  edition_date: "2023-12"
+  # carrier named in this document: Matmut & Co - Société anonyme au capital de 66 015 268 € entièrement libéré, N° 487 597 510 RCS Rouen, entreprise régie par le Code des assurances
+- url: https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/ipid-rs-init-and-co.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat « Habitation Initiale & Co Résidence secondaire »"
+  edition_date: "2023-12"
+  # carrier named in this document: Matmut & Co - Société anonyme au capital de 66 015 268 € entièrement libéré, N° 487 597 510 RCS Rouen, entreprise régie par le Code des assurances
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDME2H.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat « Habitation Matmut Étudiants et Matmut/Smac »"
+  edition_date: "2024-05"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477 ; Matmut Mutualité pour le volet mutualiste
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDMGARMH.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat « Mobile-home » Formule Nature"
+  edition_date: "2024-05"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDHEB.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat « Multigaranties Hébergement »"
+  edition_date: "2024-05"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDPNE.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat « Multigaranties Propriétaire non exploitant »"
+  edition_date: "2024-05"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDMGARPNO.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat « Multigaranties Propriétaire non occupant »"
+  edition_date: "2023-12"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDJEUNES.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat « Multigaranties Résidence principale - Jeunes »"
+  edition_date: "2024-05"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDMGARRP.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat « Multigaranties Résidence principale »"
+  edition_date: "2023-12"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDMGARRS.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat « Multigaranties Résidence secondaire »"
+  edition_date: "2023-12"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDMGARTBNH.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat « Multigaranties Terrain/Bâtiment non habitable »"
+  edition_date: "2024-05"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/jeunes/doc/garanties-rp-jeunes.pdf
+  branch: habitation
+  document_type: product_sheet
+  lang: fr
+  product_name: "Habitation Résidence principale formule Jeunes - garanties"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-mrsq-2r-init-and-co.pdf
+  branch: moto
+  document_type: conditions_generales
+  lang: fr
+  product_name: "2 Roues Initiale & Co"
+  edition_date: "2024-10"
+  # carrier named in this document: Matmut & Co - Société anonyme au capital de 66 015 268 € entièrement libéré, N° 487 597 510 RCS Rouen, entreprise régie par le Code des assurances
+- url: https://www.matmut.fr/services-en-ligne/doc/CG/cg-mrsq-2r.pdf
+  branch: moto
+  document_type: conditions_generales
+  lang: fr
+  product_name: "2R Rider"
+  edition_date: "2024-10"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/coavantagehivermrsq-4r-2r.pdf
+  branch: moto
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Avantage Hiver Matmut"
+  edition_date: "2026-01"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/coavantagehiver-2r-init-and-co.pdf
+  branch: moto
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Avantage hiver Matmut &amp; Co 2 roues"
+  edition_date: "2026-01"
+  # carrier named in this document: Matmut & Co - Société anonyme au capital de 66 015 268 € entièrement libéré, N° 487 597 510 RCS Rouen, entreprise régie par le Code des assurances
+- url: https://www.matmut.fr/services-en-ligne/doc/coreduction-age-vehmrsq-4r-2r.pdf
+  branch: moto
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Avantage âge du véhicule"
+  edition_date: "2026-01"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/cobonusboostermrsq-4r-2r.pdf
+  branch: moto
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Bonus Booster Matmut"
+  edition_date: "2026-01"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/cobonusboostermrsq-2rRider-pro.pdf
+  branch: moto
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Bonus Booster nouveau contrat Matmut Pro"
+  edition_date: "2026-01"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/cobonusboostermrsq-2rRider-vieprivee.pdf
+  branch: moto
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Bonus Booster nouveau contrat Matmut Vie Privée"
+  edition_date: "2026-01"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/cobonusmrsq-4r-2r.pdf
+  branch: moto
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Bonus Matmut"
+  edition_date: "2026-01"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/cobonusfamillemrsq-2r.pdf
+  branch: moto
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Bonus Matmut Famille"
+  edition_date: "2026-01"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/coavantageusage-smrsq-4r-2r.pdf
+  branch: moto
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Usage Sérénité"
+  edition_date: "2026-01"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/coavantageusage-smrsq-2r.pdf
+  branch: moto
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Usage Sérénité – 2 roues"
+  edition_date: "2026-01"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/ipid-mrsq-2r-init-and-co.pdf
+  branch: moto
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Multirisques « 2 Roues Initiale & Co »"
+  edition_date: "2024-10"
+  # carrier named in this document: Matmut & Co - Société anonyme au capital de 66 015 268 € entièrement libéré, N° 487 597 510 RCS Rouen, entreprise régie par le Code des assurances
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/ipid-2r-rider.pdf
+  branch: moto
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Multirisques « 2R Rider »"
+  edition_date: "2024-10"
+  # carrier named in this document: Matmut & Co - Société anonyme au capital de 66 015 268 € entièrement libéré, N° 487 597 510 RCS Rouen, entreprise régie par le Code des assurances
+- url: https://www.matmut.fr/services-en-ligne/doc/CG/CGASS.pdf
+  branch: multirisque-professionnelle
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Association"
+  edition_date: "2024-11"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/CG/cgbrismachine.pdf
+  branch: multirisque-professionnelle
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Bris de machines et pertes d'exploitation suite à bris de machines"
+  edition_date: "2024-11"
+  # carrier named in this document: Inter Mutuelles Entreprises - Société Anonyme à directoire et conseil de surveillance au capital de 22 763 000 € entièrement libéré, N° 493 147 011 RCS Rouen
+- url: https://www.matmut.fr/services-en-ligne/CG/MC30.pdf
+  branch: multirisque-professionnelle
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Caducée"
+  edition_date: "2023-05"
+  superseded: true
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/CG/MC30.pdf
+  branch: multirisque-professionnelle
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Caducée"
+  edition_date: "2024-11"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/CG/CGMPRO.pdf
+  branch: multirisque-professionnelle
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Matmut Pro"
+  edition_date: "2024-11"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/CG/cgmgarpro.pdf
+  branch: multirisque-professionnelle
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Multigaranties des collectivités et risques professionnels"
+  edition_date: "2026-04"
+  # carrier named in this document: Inter Mutuelles Entreprises - Société Anonyme à directoire et conseil de surveillance au capital de 22 763 000 € entièrement libéré, N° 493 147 011 RCS Rouen
+- url: https://www.matmut.fr/services-en-ligne/doc/CG/cgpertesexploitation.pdf
+  branch: multirisque-professionnelle
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Pertes d'exploitation"
+  edition_date: "2024-11"
+  # carrier named in this document: Inter Mutuelles Entreprises - Société Anonyme à directoire et conseil de surveillance au capital de 22 763 000 € entièrement libéré, N° 493 147 011 RCS Rouen
+- url: https://www.matmut.fr/services-en-ligne/doc/CG/CGRisquesImmobiliers.pdf
+  branch: multirisque-professionnelle
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Risques immobiliers"
+  edition_date: "2025-10"
+  # carrier named in this document: Inter Mutuelles Entreprises - Société Anonyme à directoire et conseil de surveillance au capital de 22 763 000 € entièrement libéré, N° 493 147 011 RCS Rouen
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDIMEASS.pdf
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Multigaranties des associations syndicales libres et propriétaires de terrains nus"
+  edition_date: "2025-11"
+  # carrier named in this document: Inter Mutuelles Entreprises - Société Anonyme à directoire et conseil de surveillance au capital de 22 763 000 € entièrement libéré, N° 493 147 011 RCS Rouen
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDIMEASSO.pdf
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Multigaranties professionnels, associations et collectivités"
+  edition_date: "2025-11"
+  # carrier named in this document: Inter Mutuelles Entreprises - Société Anonyme à directoire et conseil de surveillance au capital de 22 763 000 € entièrement libéré, N° 493 147 011 RCS Rouen
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDASS.pdf
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat « Association »"
+  edition_date: "2023-07"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDMC30.pdf
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat « Caducée »"
+  edition_date: "2023-07"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDMPRO.pdf
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat « Matmut Pro »"
+  edition_date: "2025-10"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/CG/CGNDEP.pdf
+  branch: navigation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Navigation de Plaisance"
+  edition_date: "2024-06"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-ndep-distinguo-and-co.pdf
+  branch: navigation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Navigation de plaisance - Distinguo & Co"
+  edition_date: "2025-05"
+  # carrier named in this document: Matmut & Co - Société anonyme au capital de 66 015 268 € entièrement libéré, N° 487 597 510 RCS Rouen, entreprise régie par le Code des assurances
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDNDEP.pdf
+  branch: navigation
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat « Navigation de Plaisance »"
+  edition_date: "2024-06"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/ipid-ndep-distinguo-and-co.pdf
+  branch: navigation
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat « Navigation de plaisance - Distinguo & Co »"
+  edition_date: "2025-05"
+  # carrier named in this document: Matmut & Co - Société anonyme au capital de 66 015 268 € entièrement libéré, N° 487 597 510 RCS Rouen, entreprise régie par le Code des assurances
+- url: https://www.matmut.fr/prevoyance/pdf/CG-MPO-PRESTA.pdf
+  branch: obseques
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Matmut Prestations Obsèques"
+  edition_date: "2025-10"
+  # carrier named in this document: Matmut Vie - Société Anonyme au capital de 35 887 500 € entièrement libéré, N° 344 898 358 RCS Rouen, entreprise régie par le Code des assurances
+- url: https://www.matmut.fr/prevoyance/pdf/Notice-MPO.pdf
+  branch: obseques
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Matmut Prévoyance Obsèques"
+  # carrier named in this document: Matmut Vie - Société Anonyme au capital de 35 887 500 € entièrement libéré, N° 344 898 358 RCS Rouen, entreprise régie par le Code des assurances
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/Notice-MPO.pdf
+  branch: obseques
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Matmut Prévoyance Obsèques"
+  # carrier named in this document: Matmut Vie - Société Anonyme au capital de 35 887 500 € entièrement libéré, N° 344 898 358 RCS Rouen, entreprise régie par le Code des assurances
+- url: https://www.matmut.fr/prevoyance/pdf/MPO.DIC.pdf
+  branch: obseques
+  document_type: ipid
+  lang: fr
+  product_name: "Matmut Prévoyance Obsèques"
+  # carrier named in this document: Matmut Vie - Société Anonyme au capital de 35 887 500 € entièrement libéré, N° 344 898 358 RCS Rouen, entreprise régie par le Code des assurances ; Matmut Mutualité (souscripteur)
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/Notice-CPM.pdf
+  branch: prevoyance
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Complice Prévoyance Matmut"
+  edition_date: "2025-03"
+  # carrier named in this document: Matmut Vie - Société Anonyme au capital de 35 887 500 € entièrement libéré, N° 344 898 358 RCS Rouen, entreprise régie par le Code des assurances ; Matmut Mutualité (souscripteur)
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/ipid-complice-prevoyance-matmut.pdf
+  branch: prevoyance
+  document_type: ipid
+  lang: fr
+  product_name: "Complice Prévoyance Matmut"
+  edition_date: "2025-10"
+  # carrier named in this document: Matmut Vie - Société Anonyme au capital de 35 887 500 € entièrement libéré, N° 344 898 358 RCS Rouen, entreprise régie par le Code des assurances ; Matmut Mutualité (souscripteur)
+- url: https://www.matmut.fr/pro/pdf/tableau-garanties-ma-prevoyance-pro.pdf
+  branch: prevoyance
+  document_type: product_sheet
+  lang: fr
+  product_name: "Ma Prévoyance Pro - tableau de garanties (TNS)"
+  edition_date: "2025-01"
+  # carrier named in this document: Matmut Vie - Société Anonyme au capital de 35 887 500 € entièrement libéré, N° 344 898 358 RCS Rouen, entreprise régie par le Code des assurances
+- url: https://www.matmut.fr/pro/pdf/notice-information-protection-juridique.pdf
+  branch: protection-juridique
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Assistance Juridique Vie Privée et Protection Juridique Santé"
+  edition_date: "2025-10"
+  # carrier named in this document: Matmut Protection Juridique - Société Anonyme au capital de 7 500 000 € entièrement libéré, N° 423 499 391 RCS Rouen, entreprise régie par le Code des assurances ; souscripteur : Mutuelle Ociane Matmut
+- url: https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-mpap.pdf
+  branch: rc-professionnelle
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Multigaranties professionnelles des agents publics"
+  edition_date: "2024-06"
+  # carrier named in this document: AMF Assurances (Assurance Mutuelle des Fonctionnaires et Assimilés) - Société d'assurance mutuelle à cotisations variables, Siret 784 394 397 00029
+- url: https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/ipid-mpap.pdf
+  branch: rc-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat « Multigaranties professionnelles des agents publics »"
+  edition_date: "2024-06"
+  # carrier named in this document: AMF Assurances (Assurance Mutuelle des Fonctionnaires et Assimilés) - Société d'assurance mutuelle à cotisations variables, Siret 784 394 397 00029
+- url: https://www.matmut.fr/epargne-credit/pdf/notice-complice-retraite.pdf
+  branch: retraite
+  document_type: conditions_generales
+  lang: fr
+  product_name: "CompliceRetraite (Nova Retraite)"
+  edition_date: "2025-10"
+  # carrier named in this document: Cardif Retraite - Société anonyme au capital de 408 514 850 €, RCS Paris 903 364 321, Fonds de Retraite Professionnelle Supplémentaire ; souscripteur UFEP
+- url: https://www.matmut.fr/pro/pdf/notice-information-assistance-matmut.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Assistance Santé de la Mutuelle Ociane Matmut"
+  edition_date: "2025-12"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477 (assureur de la garantie Assistance) ; souscripteur : Mutuelle Ociane Matmut
+- url: https://www.matmut.fr/pro/pdf/CCN-1951-notice-information.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: "CCN 1951 (IDCC 29) - Régime complémentaire santé, ensemble du personnel"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085 ; contrat co-assuré : la notice/les CG désignent un pool de co-assureurs (AESIO Mutuelle, Harmonie Mutuelle, MGEN, MNH, Malakoff Humanis Prévoyance, Intégrance/APICIL, Solimut, AG2R selon la branche) dont Mutuelle Ociane Matmut fait partie
+- url: https://www.matmut.fr/pro/pdf/CCN-1951-CG-obligatoire.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: "CCN 1951 (IDCC 29) - Régime de base obligatoire"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085 ; contrat co-assuré : la notice/les CG désignent un pool de co-assureurs (AESIO Mutuelle, Harmonie Mutuelle, MGEN, MNH, Malakoff Humanis Prévoyance, Intégrance/APICIL, Solimut, AG2R selon la branche) dont Mutuelle Ociane Matmut fait partie
+- url: https://www.matmut.fr/pro/pdf/CCN-1951-CG-facultative.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: "CCN 1951 (IDCC 29) - Régime facultatif y compris régime d'accueil Loi Evin"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085 ; contrat co-assuré : la notice/les CG désignent un pool de co-assureurs (AESIO Mutuelle, Harmonie Mutuelle, MGEN, MNH, Malakoff Humanis Prévoyance, Intégrance/APICIL, Solimut, AG2R selon la branche) dont Mutuelle Ociane Matmut fait partie
+- url: https://www.matmut.fr/pro/pdf/CCN-1966-notice-information-base-option-1.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: "CCN 1966 / Accord interbranche - Base + option 1"
+  edition_date: "2023-01"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085 ; contrat co-assuré : la notice/les CG désignent un pool de co-assureurs (AESIO Mutuelle, Harmonie Mutuelle, MGEN, MNH, Malakoff Humanis Prévoyance, Intégrance/APICIL, Solimut, AG2R selon la branche) dont Mutuelle Ociane Matmut fait partie
+- url: https://www.matmut.fr/pro/pdf/CCN-1966-notice-information-base-option-2.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: "CCN 1966 / Accord interbranche - Base + option 2"
+  edition_date: "2023-01"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085 ; contrat co-assuré : la notice/les CG désignent un pool de co-assureurs (AESIO Mutuelle, Harmonie Mutuelle, MGEN, MNH, Malakoff Humanis Prévoyance, Intégrance/APICIL, Solimut, AG2R selon la branche) dont Mutuelle Ociane Matmut fait partie
+- url: https://www.matmut.fr/pro/pdf/CCN-1966-notice-information-base.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: "CCN 1966 / Accord interbranche - Régime base"
+  edition_date: "2023-01"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085 ; contrat co-assuré : la notice/les CG désignent un pool de co-assureurs (AESIO Mutuelle, Harmonie Mutuelle, MGEN, MNH, Malakoff Humanis Prévoyance, Intégrance/APICIL, Solimut, AG2R selon la branche) dont Mutuelle Ociane Matmut fait partie
+- url: https://www.matmut.fr/pro/pdf/CCN-1966-conditions-generales.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: "CCN 1966 / Accord interbranche du 2 octobre 2019"
+  edition_date: "2023-01"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085 ; contrat co-assuré : la notice/les CG désignent un pool de co-assureurs (AESIO Mutuelle, Harmonie Mutuelle, MGEN, MNH, Malakoff Humanis Prévoyance, Intégrance/APICIL, Solimut, AG2R selon la branche) dont Mutuelle Ociane Matmut fait partie
+- url: https://www.matmut.fr/pro/pdf/conditions-generales-contrat-obligatoire-ociane.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat collectif Santé à adhésion obligatoire"
+  edition_date: "2026-01"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/pro/pdf/Notice-Information-contrat-collectif.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat collectif Santé à adhésion obligatoire - Notice salarié"
+  edition_date: "2026-01"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/pro/pdf/CCN-BTP-conditions-generales.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat collectif Santé à adhésion obligatoire CCN Bâtiment et travaux publics"
+  edition_date: "2024-05"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/pro/pdf/CCN-BTP-notice-information.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat collectif Santé à adhésion obligatoire CCN Bâtiment et travaux publics - Notice salarié"
+  edition_date: "2024-09"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/services-en-ligne/doc/CG/GPMT10.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Matmut/Smac Catégories A, B et C"
+  edition_date: "2025-10"
+  # carrier named in this document: Matmut Mutualité - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Sirene 775 701 485 ; Matmut (SAM) et Matmut Vie pour les autres volets
+- url: https://www.matmut.fr/services-en-ligne/doc/CG/Notice-Sante-Pro.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Ociane Santé Pro"
+  edition_date: "2026-02"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/mutuelle-sante-ociane/pdf/conditions-generales-CCN-alisfa.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Régime conventionnel de frais de santé à adhésion obligatoire - CCN ALISFA (IDCC 1261)"
+  edition_date: "2024-12"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085 ; contrat co-assuré : la notice/les CG désignent un pool de co-assureurs (AESIO Mutuelle, Harmonie Mutuelle, MGEN, MNH, Malakoff Humanis Prévoyance, Intégrance/APICIL, Solimut, AG2R selon la branche) dont Mutuelle Ociane Matmut fait partie
+- url: https://www.matmut.fr/mutuelle-sante-ociane/pdf/notice-information-CCN-alisfa.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Régime conventionnel frais de santé - CCN ALISFA (IDCC 1261)"
+  edition_date: "2024-12"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085 ; contrat co-assuré : la notice/les CG désignent un pool de co-assureurs (AESIO Mutuelle, Harmonie Mutuelle, MGEN, MNH, Malakoff Humanis Prévoyance, Intégrance/APICIL, Solimut, AG2R selon la branche) dont Mutuelle Ociane Matmut fait partie
+- url: https://www.matmut.fr/services-en-ligne/doc/CG/Statuts-reglement-indiv.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Statuts d'Ociane / Règlement mutualiste « individuels » - Complémentaire maladie accidents"
+  edition_date: "2024-12"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDSMAC.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat « Matmut/Smac »"
+  edition_date: "2025-10"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477 ; Matmut Mutualité pour le volet mutualiste
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/IPID-Ociane-Sante-Pro.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: "Ociane Santé Pro - Niveaux 1 à 6"
+  edition_date: "2025-09"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/mutuelle/pdf/IPID-Elsie.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: "Santé ELSIE"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/mutuelle/pdf/IPID-Sante-vous-bien.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: "Santé vous bien avec la Mutuelle Ociane Matmut"
+  edition_date: "2025-09"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/pro/pdf/Statuts-OCIANE.pdf
+  branch: sante
+  document_type: other
+  lang: fr
+  product_name: "Statuts d'Ociane"
+  edition_date: "2024-12"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/pro/pdf/mutuelle-pme-garanties.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Collectif Santé Flex - garanties 2026"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/pro/pdf/garanties-pro-ociane-groupe-matmut.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Ociane Santé Pro - garanties"
+  edition_date: "2025-10"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/mutuelle/pdf/notice-option-bien-dans-mon-role-aidant.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Option « Bien dans mon rôle d'aidant »"
+  edition_date: "2025-08"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/mutuelle/pdf/notice-option-bien-a-hopital.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Option « Bien à l'hôpital »"
+  edition_date: "2025-09"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/mutuelle/pdf/fiche-produit-Sante-vous-bien.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Santé vous bien !"
+  edition_date: "2025-08"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/mutuelle/pdf/fiche-produit-famille-Sante-vous-bien.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Santé vous bien ! (famille)"
+  edition_date: "2025-08"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/mutuelle/pdf/fiche-produit-hospitalisation-Sante-vous-bien.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Santé vous bien ! (hospitalisation)"
+  edition_date: "2025-08"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/mutuelle/pdf/fiche-produit-jeune-Sante-vous-bien.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Santé vous bien ! (jeune)"
+  edition_date: "2025-08"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/mutuelle/pdf/fiche-produit-moins-chere-Sante-vous-bien.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Santé vous bien ! (moins chère)"
+  edition_date: "2025-08"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/mutuelle/pdf/fiche-produit-senior-Sante-vous-bien.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Santé vous bien ! (senior)"
+  edition_date: "2025-08"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/pro/pdf/CCN-1951-garanties-sante.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Tableau de garanties santé - CCN 1951"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/pro/pdf/CCN-1966-garanties-sante.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Tableau de garanties santé - CCN 1966"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/pro/pdf/CCN-ALISFA-garanties-sante.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Tableau de garanties santé - CCN ALISFA"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/pro/pdf/CCN-ANIMATION-garanties-sante.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Tableau de garanties santé - CCN ANIMATION"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/pro/pdf/CCN-AUTOMOBILE-garanties-sante.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Tableau de garanties santé - CCN AUTOMOBILE"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/pro/pdf/CCN-Aide-a-domicile-garanties-sante.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Tableau de garanties santé - CCN Aide a domicile"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/pro/pdf/CCN-BJOC-garanties-sante.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Tableau de garanties santé - CCN BJOC"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/pro/pdf/CCN-BOIS-LIN-garanties-sante.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Tableau de garanties santé - CCN BOIS LIN"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/pro/pdf/CCN-BTP-garanties-sante.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Tableau de garanties santé - CCN BTP"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/pro/pdf/CCN-CDNA-garanties-sante.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Tableau de garanties santé - CCN CDNA"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/pro/pdf/CCN-COIFFURE-garanties-sante.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Tableau de garanties santé - CCN COIFFURE"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/pro/pdf/CCN-EEP-garanties-sante.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Tableau de garanties santé - CCN EEP"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/pro/pdf/CCN-HCR-garanties-sante.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Tableau de garanties santé - CCN HCR"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/pro/pdf/CCN-IMMOBILIER-garanties-sante.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Tableau de garanties santé - CCN IMMOBILIER"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/pro/pdf/CCN-INDUSTRIES-BOIS-garanties-sante.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Tableau de garanties santé - CCN INDUSTRIES BOIS"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/pro/pdf/CCN-Metallurgie-garanties-sante.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Tableau de garanties santé - CCN Metallurgie"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/pro/pdf/CCN-Organisme-formation-garanties-sante.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Tableau de garanties santé - CCN Organisme formation"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/pro/pdf/CCN-PRESTATAIRE-SERVICES-garanties-sante.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Tableau de garanties santé - CCN PRESTATAIRE SERVICES"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/pro/pdf/CCN-Production-agricole-garanties-sante.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Tableau de garanties santé - CCN Production agricole"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/pro/pdf/CCN-Production-agricole-cadre-garanties-sante.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Tableau de garanties santé - CCN Production agricole cadre"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/pro/pdf/CCN-Restauration-rapide-garanties-sante.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Tableau de garanties santé - CCN Restauration rapide"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/pro/pdf/CCN-SPORT-garanties-sante.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Tableau de garanties santé - CCN SPORT"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/pro/pdf/CCN-SYNTEC-garanties-sante.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Tableau de garanties santé - CCN SYNTEC"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/pro/pdf/CCN-TRS-garanties-sante.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Tableau de garanties santé - CCN TRS"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/pro/pdf/CCN-TRV-garanties-sante.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Tableau de garanties santé - CCN TRV"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/pro/pdf/CCN-VINS-SPIRITUEUX-garanties-sante.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Tableau de garanties santé - CCN VINS SPIRITUEUX"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/pro/pdf/CCN-habillement-garanties-sante.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Tableau de garanties santé - CCN habillement"
+  # carrier named in this document: Mutuelle Ociane Matmut - Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, Siren 434 243 085
+- url: https://www.matmut.fr/services-en-ligne/doc/CG/CGSCOL.pdf
+  branch: scolaire
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Assurance Scolaire"
+  edition_date: "2023-12"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/CG/CGETUDIANTS.pdf
+  branch: scolaire
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Assurance de l'Étudiant (et Matmut/Smac)"
+  edition_date: "2025-10"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477 ; Matmut Mutualité pour le volet mutualiste
+- url: https://www.matmut.fr/services-en-ligne/doc/conditions-offre-scolaire.pdf
+  branch: scolaire
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Détails et conditions de l'offre"
+  edition_date: "2026-05"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDETUDIANTS.pdf
+  branch: scolaire
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat « Assurance de l'Étudiant et Matmut/Smac »"
+  edition_date: "2025-10"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477 ; Matmut Mutualité pour le volet mutualiste
+- url: https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDSCOL.pdf
+  branch: scolaire
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat « Assurance scolaire »"
+  edition_date: "2023-12"
+  # carrier named in this document: Matmut (Mutuelle assurance des travailleurs mutualistes) - Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477

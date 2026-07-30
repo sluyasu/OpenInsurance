@@ -1,0 +1,490 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "luko",
+  "insurer_name": "Luko",
+  "product_name": "ASSURANCE MULTI-VOYAGES A L’ANNEE - 507332",
+  "branch": "voyage",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": "particuliers",
+  "target_audience_note": "Le contrat prévoit des garanties « pour tout voyage privé » ; ne sont pas assurés « Les personnes ayant leur résidence principale hors de France », « Les déplacements professionels » et « Les voyages de plus de 60 jours consécutifs ».",
+  "reference": "507332",
+  "edition_date": null,
+  "product_family": "Assurance Multi-Voyages à l’année",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.fr.luko.eu/dam/documents/travel/IPID-ANNUAL-507332.pdf",
+  "source_pdf": "assurance-multi-voyages-a-lannee-507332-7e46376f.pdf",
+  "source_sha256": "a3df1ba9a21ce4102512aff9461a56984c0d17c0eb44e060153a39e6e9f30624",
+  "source_pages": 2,
+  "fetched_at": "2026-07-30",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d’information sur le produit d’assurance (IPID) de deux pages présentant l’« ASSURANCE MULTI-VOYAGES A L’ANNEE - 507332 ». Le document désigne comme compagnie ALLIANZ DIRECT VERSICHERUNGS- AG, au capital social de 819 200,00 Euros, Königinstraße 28, 80802 Munich, Allemagne. Il s’agit d’un contrat annuel renouvelable à tacite reconduction qui prévoit, pour tout voyage privé, des garanties d’assurance ainsi que des prestations d’assistance : annulation, interruption ou prolongation, voyage retardé, dommages aux bagages, frais médicaux d’urgence à l’étranger, assistance médicale, individuelle accident, responsabilité civile, téléconsultation, garantie Sport et garantie Rachat de Franchise. Toutes les garanties précédées d’une coche sont systématiquement prévues au contrat.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Annulation du voyage",
+      "description": "Remboursement des frais de voyage prépayés, acomptes, frais d’annulation ou de modification, non remboursables.",
+      "is_optional": false,
+      "territorial_scope": "Dans le(s) pays de séjour, mentionné(s) dans les Conditions particulières, à l’exclusion des pays non couverts.",
+      "limits": "plafond : 8 000 € par assuré",
+      "sub_limits": [],
+      "deductible": "franchise de 5% du montant des frais d’annulation",
+      "conditions": [
+        "Les garanties précédées d’une coche (✓) sont systématiquement prévues au contrat"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Interruption ou prolongation du voyage",
+      "description": "Remboursement des frais de voyage prépayés et acomptes, non remboursables, au prorata du nombre de jours non utilisés, hors frais de transport, des frais des transport engagés pour la poursuite du voyage ou le retour à la résidence principale et/ou des frais d’hébergement supplémentaires en cas de prolongation du voyage.",
+      "is_optional": false,
+      "territorial_scope": "Dans le(s) pays de séjour, mentionné(s) dans les Conditions particulières, à l’exclusion des pays non couverts.",
+      "limits": "plafond : 8 000 € par assuré",
+      "sub_limits": [
+        "frais de voyage prépayés et acomptes, au prorata du nombre de jours non utilisés, hors frais de transport : plafond : 8 000 € par assuré",
+        "frais d’hébergement supplémentaires en cas de prolongation du voyage : plafond : 150 € par jour et par assuré dans la limite de 14 jours"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les garanties précédées d’une coche (✓) sont systématiquement prévues au contrat"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Voyage retardé",
+      "description": "Remboursement des frais de transport pour rejoindre la destination et/ou des frais de voyage prépayés et frais supplémentaires engagés lors de l’attente.",
+      "is_optional": false,
+      "territorial_scope": "Dans le(s) pays de séjour, mentionné(s) dans les Conditions particulières, à l’exclusion des pays non couverts.",
+      "limits": "plafond : 1 500 € par assuré (frais de transport pour rejoindre la destination)",
+      "sub_limits": [
+        "frais de voyage prépayés et frais supplémentaires engagés lors de l’attente : plafond : 200 € par jour et par assuré avec justificatifs / 75 € par jour et par assuré sans justificatif"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les garanties précédées d’une coche (✓) sont systématiquement prévues au contrat"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Dommages aux bagages",
+      "description": "Indemnisation des dommages dont vol.",
+      "is_optional": false,
+      "territorial_scope": "Dans le(s) pays de séjour, mentionné(s) dans les Conditions particulières, à l’exclusion des pays non couverts.",
+      "limits": "plafond : 3 000 € par assuré",
+      "sub_limits": [
+        "dont 1 500 € par assuré pour les objets de valeur"
+      ],
+      "deductible": "franchise de 30 € par assuré",
+      "conditions": [
+        "Les garanties précédées d’une coche (✓) sont systématiquement prévues au contrat"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Frais médicaux d’urgence à l’étranger",
+      "description": "Remboursement des frais médicaux d’urgence à l’étranger.",
+      "is_optional": false,
+      "territorial_scope": "Dans le(s) pays de séjour, mentionné(s) dans les Conditions particulières, à l’exclusion des pays non couverts.",
+      "limits": "plafond : 300 000 €",
+      "sub_limits": [
+        "dont 300 € pour frais de soins dentaires"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les garanties précédées d’une coche (✓) sont systématiquement prévues au contrat"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance médicale",
+      "description": "Evacuation d’urgence et/ou rapatriement sanitaire, transport au chevet, retour des personnes à charge, assistance en cas de décès, recherche et secours.",
+      "is_optional": false,
+      "territorial_scope": "Dans le(s) pays de séjour, mentionné(s) dans les Conditions particulières, à l’exclusion des pays non couverts.",
+      "limits": null,
+      "sub_limits": [
+        "Evacuation d’urgence et/ou rapatriement sanitaire",
+        "Transport au chevet",
+        "Retour des personnes à charge",
+        "Assistance en cas de décès",
+        "Recherche et secours (plafond : 10 000 € par assuré)"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les garanties précédées d’une coche (✓) sont systématiquement prévues au contrat"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Individuelle accident",
+      "description": "Versement d’un capital.",
+      "is_optional": false,
+      "territorial_scope": "Dans le(s) pays de séjour, mentionné(s) dans les Conditions particulières, à l’exclusion des pays non couverts.",
+      "limits": "plafond : 25 000 € par assuré",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Les garanties précédées d’une coche (✓) sont systématiquement prévues au contrat"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Responsabilité civile",
+      "description": "Tout dommage confondu corporels, matériels et immatériels consécutifs.",
+      "is_optional": false,
+      "territorial_scope": "Dans le(s) pays de séjour, mentionné(s) dans les Conditions particulières, à l’exclusion des pays non couverts.",
+      "limits": "plafond : 4 500 000 €",
+      "sub_limits": [
+        "dont 450 000 € pour dommages matériels et immatériels consécutifs"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les garanties précédées d’une coche (✓) sont systématiquement prévues au contrat"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Téléconsultation",
+      "description": "Téléconsultation.",
+      "is_optional": false,
+      "territorial_scope": "Dans le(s) pays de séjour, mentionné(s) dans les Conditions particulières, à l’exclusion des pays non couverts.",
+      "limits": "plafond : 10 téléconsultations par assuré",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Les garanties précédées d’une coche (✓) sont systématiquement prévues au contrat"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Garantie Sport",
+      "description": "Garantie Sport.",
+      "is_optional": false,
+      "territorial_scope": "Dans le(s) pays de séjour, mentionné(s) dans les Conditions particulières, à l’exclusion des pays non couverts.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Les garanties précédées d’une coche (✓) sont systématiquement prévues au contrat"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Garantie Rachat de Franchise",
+      "description": "Garantie Rachat de Franchise.",
+      "is_optional": false,
+      "territorial_scope": "Dans le(s) pays de séjour, mentionné(s) dans les Conditions particulières, à l’exclusion des pays non couverts.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Les garanties précédées d’une coche (✓) sont systématiquement prévues au contrat"
+      ],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Les personnes ayant leur résidence principale hors de France",
+      "description": "Qu’est-ce qui n’est pas assuré ? — Les personnes ayant leur résidence principale hors de France.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Les déplacements professionels",
+      "description": "Qu’est-ce qui n’est pas assuré ? — Les déplacements professionels (orthographe du document).",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Les voyages de plus de 60 jours consécutifs",
+      "description": "Qu’est-ce qui n’est pas assuré ? — Les voyages de plus de 60 jours consécutifs.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Guerre civile ou étrangère ou des actes de guerre",
+      "description": "Principales exclusions : guerre civile ou étrangère ou des actes de guerre.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Emeutes et mouvements populaires",
+      "description": "Principales exclusions : émeutes et mouvements populaires, sauf mentions contraires dans les garanties.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Faute intentionnelle ou dolosive",
+      "description": "Principales exclusions : faute intentionnelle ou dolosive.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Tentative de suicide ou suicide",
+      "description": "Principales exclusions : tentative de suicide ou suicide.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Consommation d’alcool et/ou absorption de médicaments, drogues, non prescrits médicalement",
+      "description": "Principales exclusions : consommation d’alcool et/ou votre absorption de médicaments, drogues, non prescrits médicalement.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Voyage à l'encontre des ordres ou conseils d'un gouvernement ou d'une autre autorité publique",
+      "description": "Principales exclusions : voyage à l'encontre des ordres ou conseils d'un gouvernement ou d'une autre autorité publique.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Les dépenses engagées sans accord préalable de notre service d’assistance",
+      "description": "Principales exclusions : les dépenses engagées sans accord préalable de notre service d’assistance.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Le coût de traitement ou de soins ne résultant pas d’une urgence médicale",
+      "description": "Principales exclusions : le coût de traitement ou de soins ne résultant pas d’une urgence médicale.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Restriction — Franchise sur la garantie Annulation du voyage",
+      "description": "Principales restrictions : pour la garantie Annulation du voyage, franchise de 5% du montant des frais d’annulation.",
+      "applies_to": "Annulation du voyage",
+      "page": 1
+    },
+    {
+      "name": "Restriction — Franchise sur la garantie Dommages aux bagages",
+      "description": "Principales restrictions : pour la garantie Dommages aux bagages, franchise de 30 € par assuré.",
+      "applies_to": "Dommages aux bagages",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": null,
+    "per_coverage": {
+      "Annulation du voyage": "franchise de 5% du montant des frais d’annulation",
+      "Dommages aux bagages": "franchise de 30 € par assuré"
+    },
+    "page": 1
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Déclarer le risque en toute bonne foi",
+      "description": "Déclarer le risque à assurer en toute bonne foi afin de permettre à l’assureur d’apprécier les risques qu’il prend en charge.",
+      "timing": "A la souscription du contrat",
+      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Payer la prime",
+      "description": "Payer la prime indiquée lors de la souscription du contrat.",
+      "timing": "A la souscription du contrat",
+      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Déclarer les circonstances nouvelles",
+      "description": "Déclarer toutes circonstances nouvelles ayant pour conséquence d’aggraver les risques pris en charge ou d’en créer de nouveaux.",
+      "timing": "En cours de contrat",
+      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Déclarer le sinistre",
+      "description": "Déclarer tout sinistre de nature à mettre en œuvre l’une des garanties dans les conditions et délais impartis et joindre tout document utile à l’appréciation du sinistre.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Informer des autres assurances et des remboursements reçus",
+      "description": "Informer l’assureur des garanties éventuellement souscrites pour les mêmes risques en tout ou partie auprès d’autres assureurs, ainsi que de tout remboursement reçu au titre d’un sinistre.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclarer le sinistre",
+      "description": "Déclarer tout sinistre de nature à mettre en œuvre l’une des garanties dans les conditions et délais impartis et joindre tout document utile à l’appréciation du sinistre.",
+      "deadline": "dans les conditions et délais impartis (délai non chiffré dans le document)",
+      "page": 2
+    },
+    {
+      "step": "Obtenir l’accord préalable du service d’assistance",
+      "description": "Le document range parmi les principales exclusions « Les dépenses engagées sans accord préalable de notre service d’assistance ».",
+      "deadline": null,
+      "page": 1
+    },
+    {
+      "step": "Informer l’assureur des autres couvertures",
+      "description": "Informer l’assureur des garanties éventuellement souscrites pour les mêmes risques en tout ou partie auprès d’autres assureurs, ainsi que de tout remboursement reçu au titre d’un sinistre.",
+      "deadline": null,
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat entre en vigueur à 00 h 00 le jour suivant la date de souscription et de paiement de la totalité de la prime. Le contrat est souscrit pour une durée d’un an.",
+    "tacit_renewal": true,
+    "notice_period": null,
+    "methods": [
+      "Par l’assuré, en cas d’application de l’article L113-15-2 du Code des assurances, à l’adresse suivante: resilier@allianzdirect.fr",
+      "Par l’assureur, conformément aux Conditions générales."
+    ],
+    "special_rights": [
+      "Résiliation par l’assuré en cas d’application de l’article L113-15-2 du Code des assurances"
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "La prime doit être payée le jour de la souscription du contrat.",
+      "Le paiement est effectué par tout moyen de paiement proposé sur le site : www.allianz-voyage.fr."
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Compagnie désignée par le document",
+      "description": "Compagnie : ALLIANZ DIRECT VERSICHERUNGS- AG, au capital social de 819 200,00 Euros, Königinstraße 28, 80802 Munich, Allemagne. Le document ne mentionne ni la marque Luko, ni une succursale française, ni Opteven Assurances, ni une autorité de contrôle.",
+      "page": 1
+    },
+    {
+      "name": "Garanties systématiquement prévues",
+      "description": "Les garanties précédées d’une coche (✓) sont systématiquement prévues au contrat.",
+      "page": 1
+    },
+    {
+      "name": "Portée du document",
+      "description": "Ce document présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l’information complète sur ce produit dans la documentation précontractuelle et contractuelle.",
+      "page": 1
+    },
+    {
+      "name": "Pays non couverts",
+      "description": "La liste, mise à jour, de l’ensemble des pays non couverts est disponible sur le site de l’assureur à l’adresse suivante : http://paysexclus.votreassistance.fr",
+      "page": 2
+    },
+    {
+      "name": "En-tête produit",
+      "description": "L’en-tête de la première page porte la mention « ASSURANCE VOYAGE ».",
+      "page": 1
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Produit : ASSURANCE MULTI-VOYAGES A L’ANNEE - 507332",
+      "context": "Ligne « Produit » de l’IPID",
+      "page": 1
+    },
+    {
+      "quote": "Compagnie : ALLIANZ DIRECT VERSICHERUNGS- AG",
+      "context": "Compagnie désignée par le document",
+      "page": 1
+    },
+    {
+      "quote": "ALLIANZ DIRECT VERSICHERUNGS- AG  au capital social de 819 200,00 Euros - Königinstraße 28, 80802 Munich, Allemagne",
+      "context": "Mention de bas/haut de page identifiant l’assureur et son siège",
+      "page": 1
+    },
+    {
+      "quote": "Le produit d’assurance Assurance Multi-Voyages à l’année est un contrat annuel renouvelable à tacite reconduction qui prévoit, pour tout \nvoyage privé, des garanties d’assurance, ainsi que des prestations d’assistance.",
+      "context": "De quel type d’assurance s’agit-il ?",
+      "page": 1
+    },
+    {
+      "quote": "Remboursement des frais de voyage prépayés, acomptes, \nfrais d'annulation ou de modification, non remboursables \n(plafond : 8 000 € par assuré)",
+      "context": "Garantie Annulation du voyage et son plafond",
+      "page": 1
+    },
+    {
+      "quote": "Remboursement des frais médicaux d’urgence à l’étranger \n(plafond : 300 000 €, dont 300 € pour frais de soins \ndentaires)",
+      "context": "Garantie Frais médicaux d’urgence à l’étranger et ses plafonds",
+      "page": 1
+    },
+    {
+      "quote": "Indemnisation des dommages dont vol (plafond : 3 000 € \npar assuré dont 1 500 € par assuré pour les objets de valeur)",
+      "context": "Garantie Dommages aux bagages et ses plafonds",
+      "page": 1
+    },
+    {
+      "quote": "Versement d’un capital (plafond : 25 000 € par assuré)",
+      "context": "Garantie Individuelle accident",
+      "page": 1
+    },
+    {
+      "quote": "Recherche et secours (plafond : 10 000 € par assuré)",
+      "context": "Sous-limite de l’assistance médicale",
+      "page": 1
+    },
+    {
+      "quote": "Téléconsultation (plafond : 10 téléconsultations par assuré)",
+      "context": "Garantie Téléconsultation",
+      "page": 1
+    },
+    {
+      "quote": "Les personnes ayant leur résidence principale hors de \nFrance",
+      "context": "Ce qui n’est pas assuré",
+      "page": 1
+    },
+    {
+      "quote": "Les voyages de plus de 60 jours consécutifs",
+      "context": "Ce qui n’est pas assuré : durée maximale du voyage",
+      "page": 1
+    },
+    {
+      "quote": "Pour la garantie Annulation du voyage : franchise de 5% du \nmontant des frais d’annulation",
+      "context": "Principale restriction : franchise annulation",
+      "page": 1
+    },
+    {
+      "quote": "Pour la garantie Dommages aux bagages : franchise de   30 \n€ par assuré",
+      "context": "Principale restriction : franchise bagages",
+      "page": 1
+    },
+    {
+      "quote": "Dans le(s) pays de séjour, mentionné(s) dans les Conditions particulières, à l’exclusion des pays non couverts.",
+      "context": "Étendue territoriale",
+      "page": 2
+    },
+    {
+      "quote": "La liste, mise à jour, de l’ensemble des pays non couverts est disponible sur le site de l’assureur à l’adresse suivante : \nhttp://paysexclus.votreassistance.fr",
+      "context": "Renvoi à la liste des pays non couverts",
+      "page": 2
+    },
+    {
+      "quote": "Le contrat entre en vigueur à 00 h 00  le jour suivant la date de souscription et de paiement de la totalité de la prime.",
+      "context": "Prise d’effet du contrat",
+      "page": 2
+    },
+    {
+      "quote": "Par l’assuré, en cas d’application de l’article L113-15-2 du Code des assurances, à l’adresse suivante: resilier@allianzdirect.fr",
+      "context": "Modalité de résiliation par l’assuré",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "Aucune date d’édition n’est imprimée dans le texte du document ; le nom du fichier source (IPID-ANNUAL-507332.pdf) n’en contient pas non plus, donc edition_date reste null. Le numéro 507332 imprimé sur la ligne « Produit » est repris dans reference.",
+    "Assureur imprimé : le document désigne uniquement « Compagnie : ALLIANZ DIRECT VERSICHERUNGS- AG » (siège Königinstraße 28, 80802 Munich, Allemagne). Contrairement aux IPID habitation et propriétaire non-occupant du même corpus, il ne cite ni la marque Luko, ni Allianz Direct Versicherungs-AG / Succursale France, ni le porteur d’assistance Opteven Assurances, ni le contrôle de la BaFin ou de l’ACPR. Le champ insurer_name reprend la valeur canonique fournie par le pipeline ; la mention réellement imprimée est conservée dans special_conditions et key_quotes.",
+    "Le document ne se présente pas lui-même comme une notice d’information de contrat de groupe et ne mentionne aucun souscripteur collectif ; il renvoie à des « Conditions particulières » et à des « Conditions générales » sans les nommer autrement.",
+    "IPID de 2 pages : aucun glossaire ni définition contractuelle (definitions vide).",
+    "Les garanties « Garantie Sport » et « Garantie Rachat de Franchise » sont listées sans description, sans plafond et sans condition : le document n’en dit rien de plus.",
+    "Aucun plafond n’est indiqué pour l’évacuation d’urgence / rapatriement sanitaire, le transport au chevet, le retour des personnes à charge et l’assistance en cas de décès ; seule la sous-garantie « Recherche et secours » porte un plafond (10 000 € par assuré).",
+    "Aucun délai de prescription, aucun délai de carence et aucun délai de déclaration chiffré ne figurent dans le document (le texte se limite à « dans les conditions et délais impartis »). Aucun préavis de résiliation n’est chiffré.",
+    "La liste des pays non couverts n’est pas reproduite dans le document : elle renvoie à une page web externe (http://paysexclus.votreassistance.fr).",
+    "La mise en page du PDF découpe certaines phrases mot par mot (par exemple le libellé de la garantie Responsabilité civile) ; les descriptions ont été recomposées à l’identique du texte imprimé, et les key_quotes retenues évitent ces blocs pour rester des spans exacts lisibles."
+  ]
+}
