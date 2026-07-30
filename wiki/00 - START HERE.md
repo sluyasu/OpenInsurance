@@ -20,6 +20,7 @@ no advice).
 ## Countries
 
 - [Belgium](be/00%20-%20Belgium%20MOC.md)
+- [France](fr/00%20-%20France%20MOC.md)
 
 ## Conventions
 

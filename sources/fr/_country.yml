@@ -1,0 +1,203 @@
+# France - country manifest. The branch taxonomy is DATA (this is what keeps the project
+# country-agnostic): branch slugs declared here are the allowed `branch` values for
+# products. Aliases feed discover.py's branch inference.
+#
+# ONE SUPERVISOR, THREE CODES. This is the structural difference from both countries
+# already covered, and it is the opposite case to Switzerland:
+#   - Switzerland splits ONE market across TWO supervisors (FINMA / OFSP).
+#   - France puts ONE supervisor (ACPR) over THREE legal regimes. A carrier is
+#     constituted under exactly one of:
+#       Code des assurances          310 carriers   sociétés anonymes, sociétés d'assurance mutuelles
+#       Code de la mutualité         286 carriers   mutuelles, unions de mutuelles
+#       Code de la sécurité sociale   32 carriers   institutions de prévoyance
+# The code is a register field, not an interpretation. It matters here because the three
+# populations do not sell the same things: the Code de la mutualité population is
+# overwhelmingly complementary health (180 of its 286 carriers hold nothing but branches
+# 1 Accidents and 2 Maladie).
+#
+# Register (fetched 2026-07-30). Refassu replaced the ACPR's periodic Excel lists and is
+# regenerated daily; refassu.fr redirects to regafi.fr, which carries both the banking and
+# the insurance registers. The Opendatasoft Explore API answers ANONYMOUSLY (measured; the
+# portal advertises a free account but none is required):
+#   catalog   https://www.regafi.fr/api/explore/v2.1/catalog/datasets                          17 datasets
+#   entities  .../datasets/prd-assurance-entites/exports/csv?delimiter=%3B                     1763 rows
+#   groups    .../datasets/prd-assurance-groupes/exports/json                                  110 groups
+#   branches  .../datasets/prd-assurance-ux/exports/json                                       R.321-1 labels
+# The 1763 rows are not the census: 628 are `Organisme d'assurance`, 1033 are EEA
+# passporting entities, 82 are `Véhicule de groupe` holdings, 16 other, 4 third-country
+# branches. Detail and de-duplication decisions in _meta/fr-market-census.md.
+
+country: fr
+name: France
+regulator: "ACPR (Autorité de contrôle prudentiel et de résolution)"
+industry_body: France Assureurs
+official_languages: [fr]
+branch_scheme: "fr-named consumer segmentation; `code` = branch number of art. R.321-1 du Code des assurances"
+fallback_branch: autres
+
+# `code` refers to the branch numbers of art. R.321-1 du Code des assurances, which is the
+# scheme the ACPR authorises against and publishes per carrier. It is a PRUDENTIAL scheme,
+# not a sales one, so several consumer branches below share a code and one consumer branch
+# can span several. `mandatory: conditional` means it depends on status, tenure, profession
+# or activity; the branch page is where that nuance is written out.
+
+branches:
+  auto:
+    label: "Assurance auto"
+    aliases: ["auto", "automobile", "voiture", "véhicule terrestre à moteur", "vtam", "4 roues", "tous risques", "au tiers"]
+    mandatory: true             # C. assur. art. L. 211-1: RC obligatoire pour tout VTAM
+    code: "10/3"
+  moto:
+    label: "Deux-roues, quads et voiturettes"
+    aliases: ["moto", "scooter", "cyclomoteur", "cyclo", "quad", "voiturette", "2 roues", "motocyclette", "quadricycle", "sans permis"]
+    mandatory: true             # same L. 211-1 obligation; sold as a distinct product
+    code: "10/3"
+    # Deliberately wider than "deux-roues": French insurers sell moto, scooter, cyclo,
+    # quad and voiturette (quadricycle léger) as one family with one IPID each, and a
+    # quad is neither a two-wheeler nor a car. Measured on Thelem's library.
+  edpm:
+    label: "EDPM et mobilités douces"
+    aliases: ["edpm", "trottinette", "trottinette électrique", "engin de déplacement personnel", "gyropode", "monoroue"]
+    mandatory: true             # EDPM are VTAM for L. 211-1 since décret 2019-1082
+    code: "10"
+    # No Belgian or Swiss counterpart as a standalone slug. French insurers sell it as its
+    # own product with its own IPID (measured on Thelem), because the 2019 decree made the
+    # RC compulsory and the vehicle is not covered by a household policy.
+  habitation:
+    label: "Multirisque habitation"
+    aliases: ["mrh", "multirisque habitation", "habitation", "logement", "locataire", "propriétaire non occupant", "pno", "résidence principale", "mobil-home", "caravane"]
+    mandatory: conditional      # tenant: loi 89-462 art. 7 g); copropriétaire: loi ALUR art. 9-1
+    code: "8/9/13"
+    # Wider than Switzerland's split: France sells contents and building together in one
+    # MRH, so CH's `menage`/`batiment` pair has no French equivalent.
+  sante:
+    label: "Complémentaire santé"
+    aliases: ["complémentaire santé", "mutuelle", "frais de santé", "remboursement", "hospitalisation", "tiers payant", "responsable", "non responsable"]
+    mandatory: conditional      # ANI/loi 2013-504: employer-provided cover compulsory for private-sector employees
+    code: "2"
+    # In everyday French "ma mutuelle" means this cover, not the legal form. See the
+    # country glossary: `mutuelle` (Code de la mutualité entity) and `société d'assurance
+    # mutuelle` (Code des assurances entity) are different things and both read as "mutual".
+  prevoyance:
+    label: "Prévoyance"
+    aliases: ["prévoyance", "capital décès", "incapacité", "invalidité", "arrêt de travail", "indemnités journalières", "madelin", "maintien de salaire"]
+    mandatory: conditional      # compulsory for cadres (convention AGIRC 1947 art. 7), by branch agreement elsewhere
+    code: "20/1"
+  gav:
+    label: "Garantie des accidents de la vie"
+    aliases: ["gav", "garantie des accidents de la vie", "accidents de la vie", "accidents corporels", "vie privée", "accvp", "rcvp"]
+    mandatory: false
+    code: "1"
+    # A French market product with a labelled standard since 2000. Distinct from
+    # `prevoyance`: it indemnifies bodily harm from domestic and leisure accidents where
+    # no third party is liable.
+  assurance-vie:
+    label: "Assurance vie et épargne"
+    aliases: ["assurance vie", "épargne", "multisupport", "unités de compte", "fonds en euros", "capitalisation", "versement programmé"]
+    mandatory: false
+    code: "20/22/24"
+    # The dominant French savings vehicle. Its documents are a notice d'information plus a
+    # DIC/KID, not conditions générales.
+  retraite:
+    label: "Retraite supplémentaire"
+    aliases: ["per", "plan d'épargne retraite", "retraite supplémentaire", "article 83", "perp", "madelin retraite", "rente viagère"]
+    mandatory: false
+    code: "20IRP/22IRP/FRPS/25"
+    # Restructured by the loi PACTE (2019) into the PER. FRPS is a French authorisation
+    # category of its own in the register (23 carriers hold it).
+  emprunteur:
+    label: "Assurance emprunteur"
+    aliases: ["assurance emprunteur", "assurance de prêt", "adi", "assurance crédit immobilier", "quotité", "délégation d'assurance"]
+    mandatory: conditional      # not by statute, but required in practice by the lender
+    code: "1/2/20"
+    # A French regulatory subject in its own right (loi Lagarde 2010, loi Hamon 2014,
+    # amendement Bourquin 2017, loi Lemoine 2022 on free termination and the questionnaire
+    # médical). No Belgian or Swiss equivalent as a separate consumer branch.
+  rc-privee:
+    label: "Responsabilité civile vie privée"
+    aliases: ["rc vie privée", "responsabilité civile vie privée", "rcvp", "rc chef de famille", "responsabilité civile association"]
+    mandatory: false
+    code: "13"
+    # Usually bundled inside the MRH, but sold standalone by some carriers (measured on
+    # Thelem). Distinct from `gav`: this indemnifies harm the insured causes to others,
+    # `gav` indemnifies harm the insured suffers with no liable third party.
+  protection-juridique:
+    label: "Protection juridique"
+    aliases: ["protection juridique", "pj", "défense pénale et recours", "assistance juridique", "litiges"]
+    mandatory: false
+    code: "17"
+  rc-professionnelle:
+    label: "RC professionnelle"
+    aliases: ["rc pro", "responsabilité civile professionnelle", "rc exploitation", "rc entreprise", "faute professionnelle"]
+    mandatory: conditional      # compulsory for regulated professions (health, law, accountancy, estate agency, construction)
+    code: "13"
+  multirisque-professionnelle:
+    label: "Multirisque professionnelle"
+    aliases: ["mrp", "multirisque professionnelle", "multirisque immeuble", "mri", "commerce", "pme", "pmi", "bureau", "local professionnel"]
+    mandatory: false
+    code: "8/9/13"
+  decennale:
+    label: "Assurance construction"
+    aliases: ["décennale", "responsabilité civile décennale", "dommages-ouvrage", "do", "tous risques chantier", "trc", "rc maître d'ouvrage", "constructeur"]
+    mandatory: conditional      # loi Spinetta 78-12: décennale compulsory for builders, dommages-ouvrage for the client
+    code: "13/16"
+    # No Belgian or Swiss counterpart. Two compulsory covers facing each other across the
+    # same building, which is why they share one slug rather than sitting in rc-professionnelle.
+  agricole:
+    label: "Assurance agricole"
+    aliases: ["agricole", "exploitation agricole", "multirisque agricole", "récolte", "grêle", "bétail", "viticole", "prévagri", "terrenis"]
+    mandatory: false
+    code: "8/9/13/16"
+    # France's agricultural mutual sector is large enough that agricultural cover is a
+    # distinct product family rather than a variant of multirisque-professionnelle.
+  chasse:
+    label: "Chasse"
+    aliases: ["chasse", "chasseur", "permis de chasser", "responsabilité civile chasse"]
+    mandatory: true             # C. env. art. L. 423-16: RC required to hold a validated permit
+    code: "13"
+  scolaire:
+    label: "Scolaire et extrascolaire"
+    aliases: ["scolaire", "extrascolaire", "assurance scolaire", "élève", "établissement d'enseignement", "périscolaire"]
+    mandatory: conditional      # not for compulsory schooling itself, required for optional activities and outings
+    code: "1/13"
+  navigation:
+    label: "Navigation de plaisance"
+    aliases: ["plaisance", "bateau", "navigation", "voilier", "jet-ski", "véhicule nautique à moteur"]
+    mandatory: conditional
+    code: "6/12"
+  voyage:
+    label: "Voyage et assistance"
+    aliases: ["voyage", "assistance", "annulation", "bagages", "rapatriement", "assistance médicale"]
+    mandatory: false
+    code: "18"
+  animaux:
+    label: "Animaux"
+    aliases: ["animaux", "chien", "chat", "santé animale", "frais vétérinaires", "nac"]
+    mandatory: false
+    code: "9"
+    # Veterinary costs. A dog owner's liability sits in the MRH's RC vie privée, not here.
+  obseques:
+    label: "Obsèques"
+    aliases: ["obsèques", "prévoyance obsèques", "frais d'obsèques", "convention obsèques"]
+    mandatory: false
+    code: "20"
+  transport:
+    label: "Marchandises transportées"
+    aliases: ["marchandises transportées", "transport", "faculté", "ad valorem"]
+    mandatory: false
+    code: "7"
+  credit-caution:
+    label: "Crédit et caution"
+    aliases: ["caution", "assurance-crédit", "garantie financière", "impayés", "loyers impayés", "gli"]
+    mandatory: false
+    code: "14/15"
+  cyber:
+    label: "Cyber"
+    aliases: ["cyber", "cyberrisque", "cyberassurance", "rançongiciel", "données personnelles"]
+    mandatory: false
+    code: null
+  autres:
+    label: "Autres"
+    aliases: ["divers", "autres assurances", "produits spécifiques"]
+    mandatory: false
+    code: null
