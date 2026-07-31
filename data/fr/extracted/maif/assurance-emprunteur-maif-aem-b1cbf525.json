@@ -1,0 +1,982 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "maif",
+  "insurer_name": "MAIF",
+  "product_name": "Assurance Emprunteur MAIF (AEM)",
+  "branch": "emprunteur",
+  "branch_code": null,
+  "document_type": "conditions_generales",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "Vous devez, au moment de la signature de la demande d’adhésion, être âgé de 18 ans minimum et : – ne pas avoir atteint les 80 ans pour la garantie décès, – ne pas avoir atteint les 65 ans pour la garantie PTIA, – ne pas avoir atteint les 65 ans et ne pas être retraité ou préretraité ayant définitivement cessé ses activités pour les garanties ITT, IPT, IPP, – résider en France métropolitaine, dans les Drom1 ou au sein de l’Union européenne, – avoir contracté un emprunt libellé en euros et rédigé en français, auprès d’un organisme prêteur situé en France métropolitaine, Drom ou au sein de l’Union européenne, pour lequel vous avez la qualité d’emprunteur ou co-emprunteur, – être le dirigeant ou associé d'une personne morale immatriculée en France et ayant son siège social en France métropolitaine ou dans les Drom, si l'emprunteur est une personne morale.",
+  "reference": "NIAEM",
+  "edition_date": "11/24",
+  "product_family": "Assurance Emprunteur MAIF",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/notice-information-assurance-emprunteur.pdf",
+  "source_pdf": "assurance-emprunteur-maif-aem-b1cbf525.pdf",
+  "source_sha256": "4963798312920e90b4d27a72433fc9fa5fe67d7e5327c3d36a7c9eef09f397c7",
+  "source_pages": 16,
+  "fetched_at": "2026-07-30",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Notice d'information du contrat Assurance Emprunteur MAIF (AEM), contrat d'assurance à adhésion facultative adossé à un contrat collectif souscrit par l'Association Solidarité Autonomie et Prévoyance (ASAP) auprès de MAIF VIE, assureur, et géré par SECURIMUT. Il couvre, dans le cadre de prêts immobiliers, le décès, la perte totale et irréversible d'autonomie (PTIA), l'incapacité temporaire totale de travail (ITT), l'invalidité permanente totale (IPT) et l'invalidité permanente partielle (IPP), selon trois formules de garanties. Le décès et la PTIA donnent lieu au versement du capital restant dû pondéré de la quotité ; l'ITT, l'IPT et l'IPP donnent lieu à une indemnité forfaitaire égale aux mensualités, pondérée de la quotité, après une franchise de 90 jours et dans la limite de 9 000 € par mois et par assuré. Le contrat prévoit aussi une garantie invalidité spécifique AERAS (GIS) et une garantie provisoire décès accidentel.",
+  "definitions": [
+    {
+      "term": "Accident",
+      "definition": "Toute atteinte corporelle non intentionnelle de la part de l’assuré, conséquence directe et certaine de l’action soudaine et imprévisible d’une cause extérieure. Les accidents cardio-vasculaires et les accidents vasculaires cérébraux ne sont pas considérés comme des accidents au sens du contrat.",
+      "page": 3
+    },
+    {
+      "term": "Adhérent",
+      "definition": "Personne qui adhère au contrat et qui à ce titre est tenue au paiement des cotisations.",
+      "page": 3
+    },
+    {
+      "term": "Assuré",
+      "definition": "Personne physique admise à l’assurance et sur qui reposent les garanties.",
+      "page": 3
+    },
+    {
+      "term": "Actes de la vie quotidienne",
+      "definition": "Activités qu’une personne effectue chaque jour en réponse à ses besoins primaires. Ils sont au nombre de cinq : se laver, s’habiller, se déplacer, se lever/se coucher/s’asseoir, s’alimenter.",
+      "page": 3
+    },
+    {
+      "term": "Bénéficiaire",
+      "definition": "L’organisme prêteur désigné sur le certificat d'adhésion  pour percevoir les prestations du contrat en cas de sinistre.",
+      "page": 3
+    },
+    {
+      "term": "Certificat d'adhésion",
+      "definition": "Document remis à l’assuré et à conserver par ce dernier, confirmant l’adhésion au contrat et qui reprend le(s) prêt(s) couvert(s), les garanties souscrites, les conditions d’acceptation, la date d’effet des garanties et le coût de l’assurance.",
+      "page": 3
+    },
+    {
+      "term": "Date de consolidation",
+      "definition": "Moment à partir duquel l’état de santé de l’assuré n’est plus susceptible d’évoluer vers une amélioration ou une dégradation.",
+      "page": 3
+    },
+    {
+      "term": "Franchise",
+      "definition": "Période pendant laquelle, après survenance d’un sinistre  ITT, les prestations ne sont pas dues. L’indemnisation de l’assureur débute à l’issue de cette période. La franchise est de 90 jours continus dans le contrat AEM.",
+      "page": 3
+    },
+    {
+      "term": "Incapacité temporaire totale de travail (ITT)",
+      "definition": "État qui place l’assuré  , suite à un accident  ou une maladie  garantis, dans l’impossibilité temporaire, complète et continue, d’exercer sa profession. L’assuré n’exerçant pas d’activité professionnelle ou en recherche d’emploi au moment du sinistre sera également considéré en ITT  s’il est temporairement contraint en raison d’une maladie ou d’un accident, sur prescription médicale, d’observer un repos complet l'empêchant de vaquer librement à ses occupations personnelles. L’ITT doit être médicalement constatée et reconnue par le médecin-conseil de l’assureur. La prise en charge liée à cet état débute après une franchise  de 90 jours.",
+      "page": 3
+    },
+    {
+      "term": "Invalidité permanente totale de travail (IPT)",
+      "definition": "Est considéré en invalidité permanente totale au sens du présent contrat d’assurance l’assuré se trouvant, à la suite d’une maladie ou d’un accident garantis, dans l’impossibilité totale et de façon permanente d’exercer sa profession (ou d'exercer une profession quelconque pour l'assuré sans activité professionnelle ou en recherche d'emploi), dont l’état de santé est consolidé, et qui justifie d’un taux contractuel d’invalidité permanente supérieur ou égal à 66 %. L’IPT  doit être médicalement constatée et reconnue par le médecin-conseil de l’assureur.",
+      "page": 3
+    },
+    {
+      "term": "Invalidité permanente partielle (IPP)",
+      "definition": "Est considéré en invalidité permanente partielle au sens du présent contrat d’assurance l’assuré se trouvant, à la suite d’une maladie ou d’un accident garantis, dans l’impossibilité permanente d’exercer tout ou partie de son activité professionnelle (ou d'exercer une profession quelconque pour l'assuré sans activité professionnelle ou en recherche d'emploi), et dont l’état de santé est consolidé, et qui justifie d’un taux contractuel d’invalidité permanente supérieur ou égal à 33 % et inférieur à 66 %. L’IPP  doit être médicalement constatée et reconnue par le médecin-conseil de l’assureur.",
+      "page": 3
+    },
+    {
+      "term": "Maladie",
+      "definition": "Toute altération de l’état de santé d’origine non accidentelle constatée par un médecin. Est considéré comme faisant suite à une maladie, le décès qualifié de mort naturelle.",
+      "page": 3
+    },
+    {
+      "term": "Perte totale et irréversible d'autonomie (PTIA)",
+      "definition": "Invalidité qui rend l’assuré, après consolidation  de son état de santé, incapable en permanence de se livrer à l’exercice d’une quelconque activité lui procurant gain ou profit, et qui nécessite du fait de son état, le recours à une tierce personne pour effectuer trois des cinq actes de la vie quotidienne  .",
+      "page": 3
+    },
+    {
+      "term": "Quotité",
+      "definition": "Niveau de la garantie couverte pour l’assuré, exprimé en pourcentage du capital restant dû pour la garantie Décès/PTIA et de la mensualité du prêt pour le risque ITT/IPT/IPP.",
+      "page": 3
+    },
+    {
+      "term": "Rechute",
+      "definition": "Nouvelle incapacité totale de travail résultant des mêmes causes que la précédente et intervenant dans un délai de 90 jours à compter de la date de reprise des activités habituelles.",
+      "page": 3
+    },
+    {
+      "term": "Sinistre",
+      "definition": "Événement, maladie ou accident mettant en jeu une garantie, pendant la durée de validité du contrat.",
+      "page": 3
+    },
+    {
+      "term": "« vous » / « nous »",
+      "definition": "Pour une meilleure lecture de votre contrat, le « vous » doit être compris comme le ou les assurés  et le « nous » comme MAIF VIE, via son gestionnaire SECURIMUT. Le lexique ci-dessous est à votre disposition pour une parfaite compréhension des termes techniques. Les mots ou expressions ainsi définis sont désignés par un dictionnaire dans le texte.",
+      "page": 3
+    },
+    {
+      "term": "Drom",
+      "definition": "Drom : Guadeloupe, Guyane, Martinique, Mayotte, La Réunion.",
+      "page": 4
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Garantie en cas de décès",
+      "description": "En cas de décès de l’assuré  avant son 85e anniversaire, nous versons au bénéficiaire    le capital restant dû, pondéré de la quotité  assurée, à la date d’échéance qui précède le jour du décès majoré des intérêts courus jusqu’à la date du décès, tel qu’il est indiqué sur le tableau d’amortissement, dans la limite du montant garanti spécifié sur le certificat d'adhésion  . Si le décès survient le jour d’une échéance, celle-ci est considérée comme postérieure au décès. Les éventuelles échéances impayées, pénalités et intérêts de retard appliqués par l’organisme prêteur ne sont pas pris en compte. Le paiement du capital met fin à l’assurance pour toutes les garanties pour l’assuré concerné.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties s’exercent dans le monde entier.",
+      "limits": "le capital restant dû, pondéré de la quotité  assurée, à la date d’échéance qui précède le jour du décès majoré des intérêts courus jusqu’à la date du décès, tel qu’il est indiqué sur le tableau d’amortissement, dans la limite du montant garanti spécifié sur le certificat d'adhésion  .",
+      "sub_limits": [
+        "– Prêts avec différé : durant la phase de différé, nous versons la somme due à l'organisme prêteur hors échéances impayées, pénalités et intérêts de retard, pondérée de la quotité souscrite dans la limite des prêts décrits au certificat d'adhésion.",
+        "– Prêts à déblocages successifs : si le décès survient avant que la totalité du capital n’ait été débloquée par l’organisme prêteur, le règlement inclura le montant des fonds non encore versés à la date du décès, sous réserve que les cotisations correspondantes aient été réglées et que le contrat de prêt stipule expressément que l’opération pour laquelle le prêt a été consenti demeure."
+      ],
+      "deductible": null,
+      "conditions": [
+        "ne pas avoir atteint les 80 ans pour la garantie décès,",
+        "au 85e anniversaire pour la garantie décès,",
+        "L’ensemble des prestations versées est pondéré de la quotité  souscrite par chacun des assurés  . L’indemnisation s’effectue sur la base du tableau d’amortissement en vigueur à la date du sinistre. Pour les prêts à taux variable, l‘indemnisation découle du tableau d’amortissement produit au jour du sinistre, dans la limite des mécanismes d’ajustement prévus à l’offre de prêt initiale. Pour ceux-là, nous nous réservons le droit d’exiger en cours de prêt, l’actualisation du tableau d’amortissement pour ajuster le niveau de l’assurance.",
+        "Les éventuelles échéances impayées, pénalités et intérêts de retard appliqués par l’organisme prêteur ne sont pas pris en compte."
+      ],
+      "page": 7
+    },
+    {
+      "name": "Garantie en cas de perte totale et irréversible d'autonomie (PTIA)",
+      "description": "En cas de PTIA de l’assuré, nous versons le capital décès tel que défini à l’article 2.2 « Garantie en cas de décès » et déterminé au jour où la PTIA est reconnue. La date de reconnaissance de la PTIA est : – soit la date à laquelle est notifiée la décision de la Sécurité sociale vous classant à titre définitif, avec attribution de la pension correspondante, dans la 3e catégorie d’invalidité, conformément à l’article L341-1 et suivants et R341-2 du Code de la Sécurité sociale ; – soit la date à laquelle vous êtes considéré comme invalide à 100 % par un régime de base de protection sociale, nécessitant l’assistance d’une tierce personne, à la suite d’un accident du travail ; – soit si vous n’êtes pas assuré social, la date fixée par le médecin-conseil que nous mandatons selon la procédure prévue à l’article 4.4 « Droit d’enquête et d'expertise ». Les pièces et décisions émanant de la Sécurité sociale ou d’organismes similaires ne nous engagent pas. L'état de PTIA pourra être apprécié par le médecin-conseil que nous mandatons selon la procédure prévue à l'article 4.4 « Droit d'enquête et d'expertise ».",
+      "is_optional": false,
+      "territorial_scope": "Les garanties s’exercent dans le monde entier. L’état de PTIA ou GIS doit être constaté en France métropolitaine ou dans les Drom. Les frais de rapatriement sont à la charge de l’assuré.",
+      "limits": "nous versons le capital décès tel que défini à l’article 2.2 « Garantie en cas de décès » et déterminé au jour où la PTIA est reconnue.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "ne pas avoir atteint les 65 ans pour la garantie PTIA,",
+        "L'état de PTIA  doit être reconnu au plus tard au 70e anniversaire de l'assuré pour que le capital soit dû, et ceci même si l’accident  ou la maladie  qui a causé la PTIA est antérieur. Le paiement du capital met fin à l’assurance pour toutes les garanties pour l’assuré  concerné.",
+        "Les pièces et décisions émanant de la Sécurité sociale ou d’organismes similaires ne nous engagent pas. L'état de PTIA pourra être apprécié par le médecin-conseil que nous mandatons selon la procédure prévue à l'article 4.4 « Droit d'enquête et d'expertise »."
+      ],
+      "page": 7
+    },
+    {
+      "name": "Garantie en cas d'incapacité temporaire totale de travail (ITT)",
+      "description": "La garantie ITT Si vous vous trouvez en état d’ITT, par suite de maladie ou d’accident survenu pendant la période de garantie ou d’aggravation d’un état antérieur déclaré dans le questionnaire de santé et ne faisant l’objet d’aucune restriction de garanties mentionnée aux conditions particulières, nous versons les indemnités garanties à compter du 91e jour d’incapacité de travail totale et continue. La prise en charge au titre de la garantie ITT ne peut excéder 36 mois. Au-delà des 36 mois, nous étudions la possibilité d'une prise en charge au titre des garanties IPT ou IPP. Le versement des prestations en cas d’ITT cesse dès le moment où, si vous exerciez une activité professionnelle au moment du sinistre, vous êtes reconnu capable d’exercer votre activité professionnelle même à temps partiel, sauf en cas de reprise à temps partiel thérapeutique, ou si vous n’exerciez pas d’activité professionnelle ou étiez en recherche d’emploi au moment du sinistre, vous n’êtes plus contraint en raison d’une maladie ou d’un accident, sur prescription médicale, d’observer un repos complet vous empêchant de vaquer librement à vos occupations personnelles. Le versement des prestations d’ITT cesse également à la date de consolidation  de votre état de santé ; date à partir de laquelle nous étudierons une éventuelle prise en charge au titre de la garantie IPT/IPP.",
+      "is_optional": true,
+      "territorial_scope": "Les garanties s’exercent dans le monde entier. L’état d’ITT, IPT, IPP doit être constaté en France métropolitaine ou dans les Drom. Les frais de rapatriement sont à la charge de l’assuré.",
+      "limits": "L’indemnité garantie est forfaitaire, égale aux mensualités venant à échéance mentionnées sur le tableau d’amortissement produit au jour du sinistre  , pondéré de la quotité  assurée et au prorata temporis, dans la limite de 9 000 € par mois et par assuré  , tous prêts confondus assurés dans le cadre du contrat Assurance Emprunteur MAIF.",
+      "sub_limits": [
+        "La prise en charge au titre de la garantie ITT ne peut excéder 36 mois. Au-delà des 36 mois, nous étudions la possibilité d'une prise en charge au titre des garanties IPT ou IPP.",
+        "La prise en charge des mensualités garanties s’applique pendant la durée de l‘incapacité de travail au prorata de la durée de cette incapacité. Les échéances trimestrielles, semestrielles et annuelles sont décomposées en échéances mensuelles égales.",
+        "En aucun cas, la prise en charge ne pourra être supérieure aux mensualités de remboursement dues à l’organisme prêteur."
+      ],
+      "deductible": "La franchise est de 90 jours continus dans le contrat AEM. nous versons les indemnités garanties à compter du 91e jour d’incapacité de travail totale et continue.",
+      "conditions": [
+        "ne pas avoir atteint les 65 ans et ne pas être retraité ou préretraité ayant définitivement cessé ses activités pour les garanties ITT, IPT, IPP,",
+        "à la date de mise à la retraite ou préretraite sauf en cas de mise en retraite pour inaptitude, et au plus tard, à la date d'échéance suivant le 67e anniversaire pour les garanties ITT  , IPT  et IPP  ,",
+        "Dispositions spécifiques - Prêts avec différé Lorsque l’incapacité de travail survient pendant la période de différé, les modalités qui s’appliquent sont les suivantes : – prêts avec différé d’amortissement en capital et intérêts : aucune prestation n’est versée durant cette période ; – prêts avec différé d’amortissement en capital : nous versons le montant des seules échéances d’intérêts, affecté de la quotité assurée.",
+        "Les prestations en cas d’ITT, IPT ou d’IPP cessent d’être versées en cas de reprise totale ou partielle d’une activité (hormis le cas du temps partiel thérapeutique décrit à l'article 2.4 « Reprise à temps partiel thérapeutique »), à la date de votre mise à la retraite ou préretraite (sauf en cas de mise en retraite pour inaptitude au travail), et, au plus tard à la date d'échéance suivant le 67e anniversaire."
+      ],
+      "page": 8
+    },
+    {
+      "name": "Garantie en cas d'invalidité permanente totale (IPT)",
+      "description": "La garantie IPT Cette garantie intervient dès lors que vous êtes dans l’inaptitude totale et permanente d’exercer votre profession ou une profession quelconque si vous n’exercez pas d’activité professionnelle ou êtes en recherche d’emploi. En cas d’invalidité permanente totale, nous prenons en charge les mensualités venant à échéance mentionnées sur le tableau d’amortissement produit au jour du sinistre, pondéré par la quotité. Le taux d’invalidité est déterminé par expertise médicale et par le croisement entre : – le taux d’incapacité fonctionnelle physique ou mentale (IF) est apprécié en dehors de toute considération professionnelle. Il tient compte uniquement de la diminution de capacité physique ou mentale, suite à la maladie ou à l’accident, par référence au barème d’évaluation des taux d’incapacité en droit commun (édition du concours médical la plus récente au jour de l’expertise) ; – et le taux d’incapacité professionnelle (IP) est apprécié en fonction de la profession exercée avant la maladie ou l’accident. Il tient compte de la façon dont cette profession était exercée antérieurement à la maladie ou l’accident, de ses conditions d’exercice normales et de ses possibilités d’exercice restantes, abstraction faite des possibilités de reclassement dans une profession différente. Si vous n’exercez pas d’activité professionnelle ou si vous êtes en recherche d’emploi, le taux d’incapacité professionnelle est apprécié par référence à une profession quelconque. Pour connaître le taux d’invalidité permanente, nous vous invitons à vous reporter au tableau ci-dessous. Vous êtes reconnu en IPT lorsque votre taux d’invalidité est supérieur ou égal à 66 % à la date de consolidation. Si le taux d’invalidité est réduit à moins de 66 %, vous n’êtes plus considéré en IPT.",
+      "is_optional": true,
+      "territorial_scope": "Les garanties s’exercent dans le monde entier. L’état d’ITT, IPT, IPP doit être constaté en France métropolitaine ou dans les Drom. Les frais de rapatriement sont à la charge de l’assuré.",
+      "limits": "L’indemnité garantie est forfaitaire, égale aux mensualités venant à échéance mentionnées sur le tableau d’amortissement produit au jour du sinistre  , pondéré de la quotité  assurée et au prorata temporis, dans la limite de 9 000 € par mois et par assuré  , tous prêts confondus assurés dans le cadre du contrat Assurance Emprunteur MAIF.",
+      "sub_limits": [
+        "En aucun cas, la prise en charge ne pourra être supérieure aux mensualités de remboursement dues à l’organisme prêteur."
+      ],
+      "deductible": null,
+      "conditions": [
+        "Vous êtes reconnu en IPT lorsque votre taux d’invalidité est supérieur ou égal à 66 % à la date de consolidation.",
+        "En outre, la date de consolidation doit survenir au plus tard à la date d'échéance suivant le 67e anniversaire de l’assuré et, en tout état de cause, avant la mise en préretraite ou retraite de l’assuré et avant qu’il ait atteint l’âge requis pour faire valoir ses droits à la retraite.",
+        "Le taux d’invalidité est déterminé par expertise médicale et par le croisement entre : – le taux d’incapacité fonctionnelle physique ou mentale (IF) est apprécié en dehors de toute considération professionnelle. Il tient compte uniquement de la diminution de capacité physique ou mentale, suite à la maladie ou à l’accident, par référence au barème d’évaluation des taux d’incapacité en droit commun (édition du concours médical la plus récente au jour de l’expertise) ; – et le taux d’incapacité professionnelle (IP) est apprécié en fonction de la profession exercée avant la maladie ou l’accident.",
+        "ne pas avoir atteint les 65 ans et ne pas être retraité ou préretraité ayant définitivement cessé ses activités pour les garanties ITT, IPT, IPP,"
+      ],
+      "page": 8
+    },
+    {
+      "name": "Garantie en cas d'invalidité permanente partielle (IPP)",
+      "description": "L’invalidité permanente est considérée comme partielle lorsque le taux d’invalidité indiqué dans le tableau ci-dessus est compris entre 33 % et 66 %. Dans ce cas, nous prenons en charge le montant de l’échéance garantie multiplié par le taux de prise en charge défini comme suit : Taux de prise en charge = (taux d’invalidité – 33) / 33 %. Si le taux d’invalidité est inférieur à 33 %, vous n’êtes pas considéré en IPP et aucune prestation n’est due. À partir de 66 % de taux d’incapacité, la garantie IPT ci-avant s’applique.",
+      "is_optional": true,
+      "territorial_scope": "Les garanties s’exercent dans le monde entier. L’état d’ITT, IPT, IPP doit être constaté en France métropolitaine ou dans les Drom. Les frais de rapatriement sont à la charge de l’assuré.",
+      "limits": "L’indemnité garantie est forfaitaire, égale aux mensualités venant à échéance mentionnées sur le tableau d’amortissement produit au jour du sinistre  , pondéré de la quotité  assurée et au prorata temporis, dans la limite de 9 000 € par mois et par assuré  , tous prêts confondus assurés dans le cadre du contrat Assurance Emprunteur MAIF.",
+      "sub_limits": [
+        "Taux de prise en charge = (taux d’invalidité – 33) / 33 %.",
+        "En aucun cas, la prise en charge ne pourra être supérieure aux mensualités de remboursement dues à l’organisme prêteur."
+      ],
+      "deductible": null,
+      "conditions": [
+        "entre 33 % et 66 %.",
+        "En outre, la date de consolidation de l’invalidité permanente totale ou partielle doit survenir au plus tard à la date d'échéance suivant votre 67e anniversaire et, en tout état de cause, avant votre mise en préretraite ou retraite et avant que vous ayez atteint l’âge requis pour faire valoir vos droits à la retraite.",
+        "ne pas avoir atteint les 65 ans et ne pas être retraité ou préretraité ayant définitivement cessé ses activités pour les garanties ITT, IPT, IPP,"
+      ],
+      "page": 9
+    },
+    {
+      "name": "Garantie invalidité spécifique AERAS (GIS)",
+      "description": "Vous bénéficiez de la GIS si elle est indiquée dans vos conditions particulières d’adhésion et que vous les avez acceptées. Vous pouvez demander la mise en œuvre de cette garantie lorsque toutes les conditions ci-dessous sont réunies : • votre état de santé est consolidé ; • votre taux d’incapacité fonctionnelle, apprécié par le médecin-conseil mandaté selon la procédure décrite à l’article 4.4 « Droit d’enquête et d'expertise », par référence au barème annexé au Code des pensions civiles et militaires, atteint un taux égal ou supérieur à 70 % ; • vous êtes en état d’invalidité professionnelle totale et êtes en mesure de fournir un justificatif de classement en 2e ou 3e catégorie d’invalidité selon l’article L341-4 du Code de la Sécurité sociale pour les salariés, d’un congé de longue maladie  pour les fonctionnaires ou d’une notification d’inaptitude totale à l’exercice de la profession pour les non-salariés. Dès lors que ces 3 conditions sont satisfaites, nous prenons en charge les mensualités venant à échéance mentionnées sur le tableau d’amortissement produit au jour du sinistre  .",
+      "is_optional": true,
+      "territorial_scope": "L’état de PTIA ou GIS doit être constaté en France métropolitaine ou dans les Drom. Les frais de rapatriement sont à la charge de l’assuré.",
+      "limits": "Dès lors que ces 3 conditions sont satisfaites, nous prenons en charge les mensualités venant à échéance mentionnées sur le tableau d’amortissement produit au jour du sinistre  .",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "• votre état de santé est consolidé ; • votre taux d’incapacité fonctionnelle, apprécié par le médecin-conseil mandaté selon la procédure décrite à l’article 4.4 « Droit d’enquête et d'expertise », par référence au barème annexé au Code des pensions civiles et militaires, atteint un taux égal ou supérieur à 70 % ; • vous êtes en état d’invalidité professionnelle totale et êtes en mesure de fournir un justificatif de classement en 2e ou 3e catégorie d’invalidité selon l’article L341-4 du Code de la Sécurité sociale pour les salariés, d’un congé de longue maladie  pour les fonctionnaires ou d’une notification d’inaptitude totale à l’exercice de la profession pour les non-salariés.",
+        "Les conditions de limitation des prestations et de cessation de la garantie sont identiques à celles définies à l’article 2.4 « La garantie IPT », à l’exception de la date de début de versement des prestations qui est la date de reconnaissance par le médecin-conseil de l’assureur de l’état d’invalidité défini ci-dessus. Les suites liées aux pathologies déclarées à l’adhésion ne seront pas exclues au moment du sinistre dans le cadre de la Garantie Invalidité Spécifique AERAS.",
+        "1.6 - convention aeras (s’Assurer et Emprunter avec un Risque Aggravé de Santé) Nous nous engageons à respecter les dispositions de la convention AERAS consultable sur le site officiel www.aeras-infos.fr. La Garantie Invalidité Spécifique AERAS (GIS) est accordée si elle est indiquée dans les conditions spécifiques d’adhésion que vous avez acceptées sur proposition de l’assureur. Un dispositif d’écrêtement des primes d’assurance est prévu par la convention AERAS. Si vous êtes susceptible d’être éligible, nous vous en informerons et solliciterons les documents nécessaires à la mise en œuvre de cet écrêtement."
+      ],
+      "page": 10
+    },
+    {
+      "name": "Garantie provisoire décès accidentel",
+      "description": "Garantie provisoire décès accidentel La garantie décès pour cause d’accident  vous est accordée provisoirement à compter de la date de signature de votre demande d’adhésion jusqu’à la date de conclusion de l’adhésion (article 1.10 « Date de conclusion de l’adhésion et durée ») ou en cas de refus, jusqu’à la date de notification du refus. Elle cesse également automatiquement si vous ne donnez pas suite à votre demande d’adhésion ou si vous refusez les conditions particulières d’adhésion qui vous ont été proposées et, en tout état de cause, au plus tard 90 jours après la date de signature de la demande d’adhésion. Par ailleurs, dès lors qu’il existe un engagement de votre part vis-à-vis de l’organisme prêteur, la garantie provisoire décès accidentel est également accordée entre la date d’émission du certificat d'adhésion et la date d’effet des garanties. En cas de décès pour cause d’accident  , la prestation versée correspondra au montant du capital emprunté du (des) prêt(s) mentionné(s) sur la demande d’adhésion, pondéré de la quotité  assurée, dans la limite de 150 000 € par assuré.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties s’exercent dans le monde entier.",
+      "limits": "dans la limite de 150 000 € par assuré.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "au plus tard 90 jours après la date de signature de la demande d’adhésion."
+      ],
+      "page": 6
+    },
+    {
+      "name": "Reprise à temps partiel thérapeutique",
+      "description": "Reprise à temps partiel thérapeutique Par dérogation aux dispositions ci-dessus, en cas de reprise d’activité à temps partiel thérapeutique faisant suite à une indemnisation au titre de l’ITT, nous verserons 50 % de la mensualité garantie, pendant une durée maximale de 180 jours. Cette limitation s’applique par sinistre ITT.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "nous verserons 50 % de la mensualité garantie, pendant une durée maximale de 180 jours. Cette",
+      "sub_limits": [
+        "limitation s’applique par sinistre ITT."
+      ],
+      "deductible": null,
+      "conditions": [
+        "en cas de temps partiel thérapeutique : le certificat médical de reprise d’activité à temps partiel thérapeutique précisant la date ainsi que les décomptes de règlement des indemnités journalières mi-temps si vous êtes affilié(e) à un régime social,"
+      ],
+      "page": 8
+    },
+    {
+      "name": "Rechute",
+      "description": "Rechute En cas de rechute  dans les 90 jours suivant une période indemnisée, nous ne ferons pas appliquer à nouveau de la franchise  .",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "dans les 90 jours suivant une période indemnisée, nous ne ferons pas appliquer à nouveau de la franchise  .",
+      "conditions": [
+        "Nouvelle incapacité totale de travail résultant des mêmes causes que la précédente et intervenant dans un délai de 90 jours à compter de la date de reprise des activités habituelles."
+      ],
+      "page": 8
+    },
+    {
+      "name": "Co-emprunteurs",
+      "description": "En cas de décès, de PTIA, d’ITT, d'IPT ou d’IPP simultané des deux co-emprunteurs assurés, le montant total des prestations servies au titre d’un même prêt ne peut excéder le montant des sommes dues à l’organisme prêteur pour la même période.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "En cas de décès, de PTIA, d’ITT, d'IPT ou d’IPP simultané des deux co-emprunteurs assurés, le montant total des prestations servies au titre d’un même prêt ne peut excéder le montant des sommes dues à l’organisme prêteur pour la même période.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 10
+    },
+    {
+      "name": "Option 1 : Décès/PTIA",
+      "description": "Le contrat Assurance Emprunteur MAIF propose 3 formules de garanties qui permettent de s'adapter aux exigences d'assurance de votre prêteur : – option 1 : Décès/PTIA",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "1.4 - quotité assurée La quotité  ne peut être supérieure à 100 % par tête assurée. La quotité ITT/IPT ne peut pas être supérieure à la quotité Décès/PTIA. La quotité IPP est identique à la quotité ITT/IPT."
+      ],
+      "page": 5
+    },
+    {
+      "name": "Option 2 : Décès/PTIA/ITT/IPT",
+      "description": "– option 2 : Décès/PTIA/ITT  /IPT  ,",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "1.4 - quotité assurée La quotité  ne peut être supérieure à 100 % par tête assurée. La quotité ITT/IPT ne peut pas être supérieure à la quotité Décès/PTIA. La quotité IPP est identique à la quotité ITT/IPT."
+      ],
+      "page": 5
+    },
+    {
+      "name": "Option 3 : Décès/PTIA/ITT/IPT/IPP",
+      "description": "– option 3 : Décès/PTIA/ITT/IPT/IPP  .",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "1.4 - quotité assurée La quotité  ne peut être supérieure à 100 % par tête assurée. La quotité ITT/IPT ne peut pas être supérieure à la quotité Décès/PTIA. La quotité IPP est identique à la quotité ITT/IPT."
+      ],
+      "page": 5
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Suicide pendant les douze mois qui suivent l'adhésion",
+      "description": "le suicide pendant les douze mois qui suivent l’adhésion, sauf pour les prêts immobiliers accordés pour l’acquisition du logement principal dans la limite de 120 000 € ;",
+      "applies_to": "all",
+      "page": 10
+    },
+    {
+      "name": "Explosion, dégagements de chaleur, irradiation, radioactivité",
+      "description": "les conséquences directes ou indirectes d’explosion, de dégagements de chaleur ou de l’irradiation provenant de la transmutation de noyaux d’atomes ou de la radioactivité ;",
+      "applies_to": "all",
+      "page": 10
+    },
+    {
+      "name": "Guerres étrangères ou civiles, émeutes, rixes, actes de terrorisme",
+      "description": "les faits de guerres étrangères ou civiles, des participations actives de l’assuré à des émeutes, rixes, actes de terrorisme, étant précisé que les actes de légitime défense ou assistance à personne en danger sont garantis ;",
+      "applies_to": "all",
+      "page": 10
+    },
+    {
+      "name": "Risques aériens (aile volante, deltaplane, parapente, vol à voile, aérostation, saut à l'élastique, parachutisme, ULM, compétitions et vols d'essai)",
+      "description": "les risques aériens sous forme de pratique de l’aile volante, du deltaplane, du parapente, du vol à voile, de l’aérostation (ballon dirigeable, montgolfière), du saut à l’élastique, de la descente en parachute (sauf si la situation critique de l’appareil l’exige), du pilotage d’appareils ultralégers motorisés (ULM) ou de tout appareil homologué ou non homologué, participation à des compétitions, raids, démonstrations acrobatiques, voltiges, tentatives de records, exhibitions, vols d’essai ou vols sur prototype. Lorsque ces sports aériens sont pratiqués occasionnellement dans le cadre d’un baptême ou d’une initiation, la garantie est acquise si l’assuré établit que la pratique de l’activité a fait l’objet d’un encadrement par du personnel qualifié, titulaire des brevets et autorisations réglementaires nécessaires à un tel encadrement ;",
+      "applies_to": "all",
+      "page": 10
+    },
+    {
+      "name": "Sports mécaniques sur terre, sur mer ou sur eau",
+      "description": "les sports mécaniques pratiqués sur terre, type automobile ou motocycle, sur mer ou sur eau ; lorsque ces sports mécaniques sont pratiqués occasionnellement dans le cadre d’un baptême ou d’une initiation, la garantie est acquise si l’assuré établit que la pratique de l’activité a fait l’objet d’un encadrement par du personnel qualifié, titulaire des brevets et autorisations réglementaires nécessaires à un tel encadrement ;",
+      "applies_to": "all",
+      "page": 10
+    },
+    {
+      "name": "Plongée sous-marine à plus de 20 mètres de profondeur",
+      "description": "la plongée sous-marine pratiquée à plus de 20 mètres de profondeur ; lorsque ces sports de plongée sont pratiqués occasionnellement dans le cadre d’un baptême ou d’une initiation, la garantie est acquise si l’assuré établit que la pratique de l’activité a fait l’objet d’un encadrement par du personnel qualifié, titulaire des brevets et autorisations réglementaires nécessaires à un tel encadrement ;",
+      "applies_to": "all",
+      "page": 10
+    },
+    {
+      "name": "Activités de montagne pratiquées hors des sentiers balisés ou hors-piste",
+      "description": "les activités de montagne (sports de neige, de glace, alpinisme, escalade sauf mur artificiel) pratiquées hors des sentiers balisés ou hors-piste ;",
+      "applies_to": "all",
+      "page": 10
+    },
+    {
+      "name": "Sports non représentés par une fédération française agréée",
+      "description": "les sports non représentés par une fédération française agréée par le ministère des Sports.",
+      "applies_to": "all",
+      "page": 10
+    },
+    {
+      "name": "Conduite sous l'emprise d'un état alcoolique",
+      "description": "les conséquences d’accidents survenus alors que l’assuré conduisait un véhicule sous l’emprise d’un état alcoolique dont le seuil est fixé par l’article R234-1 du Code de la route ;",
+      "applies_to": "PTIA, ITT, IPT, IPP et GIS",
+      "page": 11
+    },
+    {
+      "name": "Stupéfiants ou psychotropes hors prescription médicale",
+      "description": "les conséquences d’accidents liés à l’utilisation de substances classées par le Code de la santé publique comme stupéfiants ou psychotropes, en dehors d’une prescription médicale ou d’une absorption accidentelle ;",
+      "applies_to": "PTIA, ITT, IPT, IPP et GIS",
+      "page": 11
+    },
+    {
+      "name": "Fait volontaire de l'assuré, tentative de suicide ou mutilation volontaire",
+      "description": "les sinistres qui résultent du fait volontaire de l'assuré ou qui résultent de tentatives de suicide ou de mutilation volontaire ;",
+      "applies_to": "PTIA, ITT, IPT, IPP et GIS",
+      "page": 11
+    },
+    {
+      "name": "Participation à un délit intentionnel ou un crime",
+      "description": "les accidents résultant de la participation de l’assuré à un délit intentionnel ou un crime ;",
+      "applies_to": "PTIA, ITT, IPT, IPP et GIS",
+      "page": 11
+    },
+    {
+      "name": "Sports pratiqués à titre professionnel ou sponsorisés",
+      "description": "les accidents résultant de la pratique de sports à titre professionnel ou sponsorisés, sauf si ces sports ont été déclarés à l’adhésion et sont couverts par des conditions particulières ;",
+      "applies_to": "PTIA, ITT, IPT, IPP et GIS",
+      "page": 11
+    },
+    {
+      "name": "Affections et accidents visés au questionnaire de santé antérieurs au certificat d'adhésion",
+      "description": "les suites et conséquences des affections et accidents visées au questionnaire de santé dont la première constatation médicale est antérieure à l’émission du certificat d'adhésion. Toutefois, les conséquences d’accidents ou maladies déclarées au questionnaire de santé sont couvertes dès lors que les conditions particulières ne les excluent pas explicitement. La GIS n'est pas concernée par cette exclusion.",
+      "applies_to": "PTIA, ITT, IPT, IPP (la GIS n'est pas concernée)",
+      "page": 11
+    },
+    {
+      "name": "Congé légal de maternité",
+      "description": "Le congé légal de maternité est exclu du contrat sauf si, pendant cette période, l’assurée bénéficie des prestations des garanties ITT, IPT, IPP ou GIS au titre d’une maladie ou d’un accident garantis, non liés à la maternité. Toutefois, les congés pathologiques entraînant une incapacité temporaire totale de travail sont pris en charge après application de la franchise et jusqu’au congé légal de maternité. En cas d’incapacité temporaire totale de travail à la suite d’un accouchement, la prise en charge s’effectuera à compter de la fin du congé légal de maternité et après application de la franchise.",
+      "applies_to": "ITT, IPT, IPP et GIS",
+      "page": 11
+    },
+    {
+      "name": "Sinistres en cours au moment de l'adhésion ou de la prise d'effet des garanties (absence d'aléa)",
+      "description": "Les effets du contrat d'assurance (la prise en charge en cas de sinistre  au titre des garanties du contrat) dépendent d'un événement incertain (d'un aléa). Ainsi les sinistres en cours au moment de l'adhésion ou au moment de la prise d'effet des garanties et répondant aux définitions des garanties du contrat (décès, perte totale et irréversible d'autonomie, incapacité temporaire totale de travail, invalidité permanente totale de travail et invalidité permanente partielle) ne sont pas pris en charge par le présent contrat car ils le priveraient d'aléa. Les sinistres en cours au moment de l'adhésion ou au moment de la prise d'effet des garanties et répondant aux définitions des garanties (ITT, IPT et IPP) du contrat ne sont pas pris en charge par le présent contrat car ils le priveraient d'aléa.",
+      "applies_to": "all",
+      "page": 4
+    },
+    {
+      "name": "Plafonnement à la mensualité de remboursement due à l'organisme prêteur",
+      "description": "En aucun cas, la prise en charge ne pourra être supérieure aux mensualités de remboursement dues à l’organisme prêteur.",
+      "applies_to": "ITT, IPT et IPP",
+      "page": 9
+    },
+    {
+      "name": "Augmentations de mensualités intervenues à la demande de l'assuré pendant l'incapacité",
+      "description": "Les augmentations de mensualités de remboursement du prêt intervenues à votre demande auprès de l’organisme prêteur pendant l’incapacité de travail ne sont pas prises en compte.",
+      "applies_to": "ITT, IPT et IPP",
+      "page": 9
+    },
+    {
+      "name": "Dernière échéance des prêts in fine ou relais (remboursement du capital)",
+      "description": "Pour les prêts in fine ou relais, la garantie n’inclut pas la prise en charge de la dernière échéance (remboursement du capital).",
+      "applies_to": "ITT, IPT et IPP",
+      "page": 9
+    },
+    {
+      "name": "Échéances impayées, pénalités et intérêts de retard (ITT/IPT/IPP)",
+      "description": "Les éventuelles échéances impayées, pénalités et intérêts de retard appliqués par l’organisme prêteur ne sont pas pris en compte.",
+      "applies_to": "ITT, IPT et IPP",
+      "page": 9
+    },
+    {
+      "name": "Échéances impayées, pénalités et intérêts de retard (décès)",
+      "description": "Les éventuelles échéances impayées, pénalités et intérêts de retard appliqués par l’organisme prêteur ne sont pas pris en compte.",
+      "applies_to": "Garantie en cas de décès",
+      "page": 7
+    },
+    {
+      "name": "Prêts avec différé d'amortissement en capital et intérêts : aucune prestation pendant la période de différé",
+      "description": "prêts avec différé d’amortissement en capital et intérêts : aucune prestation n’est versée durant cette période ;",
+      "applies_to": "ITT, IPT et IPP",
+      "page": 8
+    },
+    {
+      "name": "PTIA non reconnue au plus tard au 70e anniversaire",
+      "description": "L'état de PTIA  doit être reconnu au plus tard au 70e anniversaire de l'assuré pour que le capital soit dû, et ceci même si l’accident  ou la maladie  qui a causé la PTIA est antérieur. Le paiement du capital met fin à l’assurance pour toutes",
+      "applies_to": "Garantie PTIA",
+      "page": 8
+    },
+    {
+      "name": "Consolidation postérieure à la date d'échéance suivant le 67e anniversaire ou à la retraite",
+      "description": "En outre, la date de consolidation doit survenir au plus tard à la date d'échéance suivant le 67e anniversaire de l’assuré et, en tout état de cause, avant la mise en préretraite ou retraite de l’assuré et avant qu’il ait atteint l’âge requis pour faire valoir ses droits à la retraite.",
+      "applies_to": "IPT, IPP",
+      "page": 9
+    },
+    {
+      "name": "Taux d'invalidité inférieur à 33 %",
+      "description": "Si le taux d’invalidité est inférieur à 33 %, vous n’êtes pas considéré en IPP et aucune prestation n’est due.",
+      "applies_to": "IPP",
+      "page": 9
+    },
+    {
+      "name": "Taux d'invalidité réduit à moins de 66 %",
+      "description": "Si le taux d’invalidité est réduit à moins de 66 %, vous n’êtes plus considéré en IPT.",
+      "applies_to": "IPT",
+      "page": 9
+    },
+    {
+      "name": "Aménagement : baptême ou initiation encadrés par du personnel qualifié",
+      "description": "Lorsque ces sports aériens sont pratiqués occasionnellement dans le cadre d’un baptême ou d’une initiation, la garantie est acquise si l’assuré établit que la pratique de l’activité a fait l’objet d’un encadrement par du personnel qualifié, titulaire des brevets et autorisations réglementaires nécessaires à un tel encadrement ;",
+      "applies_to": "Risques aériens, sports mécaniques, plongée sous-marine",
+      "page": 10
+    },
+    {
+      "name": "Aménagement : possibilité d'assurer certains risques exclus",
+      "description": "Certains risques répertoriés ci-dessus peuvent être assurés. Vous pouvez nous demander d'étudier la possibilité de les assurer moyennant des conditions spécifiques. En cas d’acceptation de notre part, le certificat d'adhésion ou les conditions particulières stipulent expressément cette prise en charge.",
+      "applies_to": "all",
+      "page": 10
+    },
+    {
+      "name": "Professions non assurables (étude spécifique d'acceptation possible)",
+      "description": "Les professions suivantes ne sont pas assurables. Néanmoins, l'exercice de l'une de ces professions pourra faire l’objet d’une étude spécifique d’acceptation à l’adhésion. Les conditions seront alors précisées sur la proposition d’assurance qui sera émise : • professions du secteur pétrolier (activités onshore et offshore), gaz, nucléaire, autres énergies, • professions avec manipulation ou transport de produits dangereux (explosifs, corrosifs, inflammables, radioactifs, toxiques, chimiques, biologiques, bactériologiques, génétiques), • professions exercées à une hauteur supérieure à 20 mètres, • sportifs professionnels et sportifs amateurs rémunérés, • moniteurs, entraîneurs, encadrants professionnels d’activités sportives (dont guide de montagne, trek, safari et encadrants en dehors des établissements scolaires ou universitaires), • militaires, métiers de l’armée, • police, gendarmerie, professions de maintien de l’ordre, • pompiers professionnels, secouristes, sauveteurs en mer ou en montagne, • professions de la sécurité, surveillance, convoyeurs de fonds, professions avec port ou manipulation d’armes, • professions de la mer (marin-pêcheur, aquaculteur, plongeur professionnel…), en zone estuaire, portuaire, construction navale, • professions de la culture et du spectacle (télévision, cinéma, cirque, statut d’intermittent du spectacle), • professions relatives au travail de la mine, travail souterrain ou en galerie, spéléologues, • métiers de l’aviation ou pilote aérien (sauf pilotes de lignes régulières au sein de l’UE ou à destination et en provenance du Royaume-Uni), • réalisation de missions humanitaires hors UE.",
+      "applies_to": "all",
+      "page": 4
+    },
+    {
+      "name": "La caution personne physique n'est pas assurable",
+      "description": "La caution, personne physique, n’est pas assurable dans le cadre du présent contrat.",
+      "applies_to": "all",
+      "page": 4
+    }
+  ],
+  "deductibles": {
+    "standard": "La franchise est de 90 jours continus dans le contrat AEM.",
+    "variable": null,
+    "per_coverage": {
+      "ITT": "nous versons les indemnités garanties à compter du 91e jour d’incapacité de travail totale et continue.",
+      "Rechute": "dans les 90 jours suivant une période indemnisée, nous ne ferons pas appliquer à nouveau de la franchise  .",
+      "Congé pathologique / suites d'accouchement": "Toutefois, les congés pathologiques entraînant une incapacité temporaire totale de travail sont pris en charge après application de la franchise et jusqu’au congé légal de maternité. En cas d’incapacité temporaire totale de travail à la suite d’un accouchement, la prise en charge s’effectuera à compter de la fin du congé légal de maternité et après application de la franchise."
+    },
+    "page": 3
+  },
+  "waiting_periods": [
+    {
+      "coverage": "ITT",
+      "duration": "La franchise est de 90 jours continus dans le contrat AEM.",
+      "description": "Période pendant laquelle, après survenance d’un sinistre  ITT, les prestations ne sont pas dues. L’indemnisation de l’assureur débute à l’issue de cette période. La franchise est de 90 jours continus dans le contrat AEM.",
+      "page": 3
+    },
+    {
+      "coverage": "ITT",
+      "duration": "du 91e jour d’incapacité de travail totale et continue.",
+      "description": "Si vous vous trouvez en état d’ITT, par suite de maladie ou d’accident survenu pendant la période de garantie ou d’aggravation d’un état antérieur déclaré dans le questionnaire de santé et ne faisant l’objet d’aucune restriction de garanties mentionnée aux conditions particulières, nous versons les indemnités garanties à compter du 91e jour d’incapacité de travail totale et continue.",
+      "page": 8
+    },
+    {
+      "coverage": "ITT (rechute)",
+      "duration": "dans les 90 jours suivant une période indemnisée, nous ne ferons pas appliquer à nouveau de la franchise  .",
+      "description": "Rechute En cas de rechute  dans les 90 jours suivant une période indemnisée, nous ne ferons pas appliquer à nouveau de la franchise  .",
+      "page": 8
+    },
+    {
+      "coverage": "Garantie provisoire décès accidentel",
+      "duration": "au plus tard 90 jours après la date de signature de la demande d’adhésion.",
+      "description": "Garantie provisoire décès accidentel La garantie décès pour cause d’accident  vous est accordée provisoirement à compter de la date de signature de votre demande d’adhésion jusqu’à la date de conclusion de l’adhésion (article 1.10 « Date de conclusion de l’adhésion et durée ») ou en cas de refus, jusqu’à la date de notification du refus. Elle cesse également automatiquement si vous ne donnez pas suite à votre demande d’adhésion ou si vous refusez les conditions particulières d’adhésion qui vous ont été proposées et, en tout état de cause, au plus tard 90 jours après la date de signature de la demande d’adhésion. Par ailleurs, dès lors qu’il existe un engagement de votre part vis-à-vis de l’organisme prêteur, la garantie provisoire décès accidentel est également accordée entre la date d’émission du certificat d'adhésion et la date d’effet des garanties.",
+      "page": 6
+    },
+    {
+      "coverage": "Décès (suicide)",
+      "duration": "pendant les douze mois qui suivent l’adhésion, sauf pour les prêts immobiliers accordés pour l’acquisition du logement principal dans la limite de 120 000 € ;",
+      "description": "le suicide pendant les douze mois qui suivent l’adhésion, sauf pour les prêts immobiliers accordés pour l’acquisition du logement principal dans la limite de 120 000 € ;",
+      "page": 10
+    }
+  ],
+  "obligations": [
+    {
+      "name": "Exactitude des déclarations",
+      "description": "Vos déclarations servent de base à l’assurance qui devient incontestable dès son entrée en vigueur. En cas d’omission ou d’inexactitude intentionnelle dans vos déclarations, nous pourrons invoquer la nullité de l’adhésion et conserver les cotisations d’assurance payées en application des dispositions de l’article L113-8 du Code des assurances qui dispose : Indépendamment des causes ordinaires de nullité, sous réserve des dispositions de l’article L132-26, le contrat d’assurance est nul en cas de réticence ou de fausse déclaration intentionnelle de la part de l’assuré  , quand cette réticence ou fausse déclaration change l’objet du risque ou en diminue l’opinion pour l’assureur, alors même que le risque omis ou dénaturé par l’assuré a été sans influence sur le sinistre. Les primes payées demeurent alors acquises à l’assureur, qui a droit au paiement de toutes les primes échues à titre de dommages et intérêts (...).",
+      "timing": "À l'adhésion",
+      "sanction": "En cas d’omission ou d’inexactitude intentionnelle dans vos déclarations, nous pourrons invoquer la nullité de l’adhésion et conserver les cotisations d’assurance payées en application des dispositions de l’article L113-8 du Code des assurances qui dispose :",
+      "page": 6
+    },
+    {
+      "name": "Omission ou déclaration inexacte non intentionnelle",
+      "description": "En cas d’omission ou de déclaration inexacte de nature à atténuer le risque, les garanties pourront être réduites, par application de la règle proportionnelle, conformément à l’article L113-9 du Code des assurances qui indique : L’omission ou la déclaration inexacte de la part de l’assuré dont la mauvaise foi n’est pas établie n’entraîne pas la nullité de l’assurance. Si elle est constatée avant tout sinistre, l’assureur a le droit soit de maintenir le contrat, moyennant une augmentation de prime acceptée par l’assuré, soit de résilier le contrat dix jours après notification adressée à l’assuré par lettre recommandée, en restituant la portion de la prime payée pour le temps où l’assurance ne court plus. Dans le cas où la constatation n’a lieu qu’après un sinistre, l’indemnité est réduite en proportion du taux des primes payées par rapport au taux des primes qui auraient été dues, si les risques avaient été complètement et exactement déclarés.",
+      "timing": "À l'adhésion ou en cours de contrat",
+      "sanction": "En cas d’omission ou de déclaration inexacte de nature à atténuer le risque, les garanties pourront être réduites, par application de la règle proportionnelle, conformément à l’article L113-9 du Code des assurances qui indique :",
+      "page": 6
+    },
+    {
+      "name": "Signalement des changements d'adresse ou d'état civil",
+      "description": "Par ailleurs, vous devez obligatoirement nous signaler sans délai toute modification des éléments nécessaires pour vous joindre (changement d’adresse ou d’état civil). À défaut, les courriers seront transmis à la dernière adresse connue et produiront tous leurs effets.",
+      "timing": "Sans délai, en cours d'adhésion",
+      "sanction": "(changement d’adresse ou d’état civil). À défaut, les courriers seront transmis à la dernière adresse connue et produiront tous leurs effets.",
+      "page": 6
+    },
+    {
+      "name": "Information sur tout événement modifiant les réponses au questionnaire de santé ou de risques",
+      "description": "Vous devez aussi nous informer de tout événement survenu susceptible de modifier les réponses apportées au questionnaire de santé et/ou questionnaire de risques, entre la date de signature de ces questionnaires et la date d'émission du certificat d'adhésion.",
+      "timing": "Entre la signature des questionnaires et l'émission du certificat d'adhésion",
+      "sanction": null,
+      "page": 6
+    },
+    {
+      "name": "Formalités médicales et financières à l'adhésion",
+      "description": "Lors de l’adhésion, vous devez compléter une demande d’adhésion et vous soumettre, le cas échéant, aux formalités médicales et financières. À cet effet, vous devez parfois remplir un questionnaire de santé et, si besoin, vous soumettre à des examens médicaux et/ou fournir des informations médicales complémentaires et, éventuellement, financières.",
+      "timing": "À l'adhésion",
+      "sanction": "Votre admission est conditionnée à notre acceptation à l’issue des formalités d’adhésion. Nous pouvons accepter les garanties, avec ou sans restriction ou majoration de cotisations, les refuser ou les ajourner.",
+      "page": 5
+    },
+    {
+      "name": "Déclaration de l'incapacité de travail",
+      "description": "Toute incapacité de travail doit être déclarée à partir du 91e jour d’incapacité de travail et, au plus tard, le 180e jour. Passé ce délai, la prise en charge interviendra au plus tôt à la date de déclaration, si l’assureur établit que le retard dans la déclaration lui a porté préjudice.",
+      "timing": "À partir du 91e jour d'incapacité de travail et, au plus tard, le 180e jour",
+      "sanction": "Passé ce délai, la prise en charge interviendra au plus tôt à la date de déclaration, si l’assureur établit que le retard dans la déclaration lui a porté préjudice.",
+      "page": 12
+    },
+    {
+      "name": "Production des justificatifs demandés",
+      "description": "Sous peine de suspension des garanties, vous devez nous adresser, dans les délais fixés, tous les justificatifs que nous vous demandons.",
+      "timing": "Dans les délais fixés",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 11
+    },
+    {
+      "name": "Soumission à l'expertise médicale",
+      "description": "Sous peine de suspension des garanties, vous devez nous adresser, dans les délais que nous fixons, tous les justificatifs demandés. De plus, à tout moment, nous pouvons faire procéder par un médecin à une expertise médicale relative à la demande ou au maintien des prestations. Votre état d’incapacité ou d’invalidité est constaté par expertise médicale en dehors de toute considération du régime obligatoire auquel vous êtes affilié. Les honoraires médicaux relatifs à cet examen sont à notre charge. Vous avez la possibilité de vous faire assister du médecin de votre choix et à vos frais ou de soumettre au médecin expert désigné les conclusions de votre propre médecin à titre d’information. L’expertise médicale entraîne la suspension de tout règlement. Les prestations ne sont pas dues si vous refusez de vous soumettre à l’expertise ou si l’expertise révèle que les conditions prévues par les garanties ne sont pas ou plus réunies. Le cas échéant, le remboursement des prestations déjà versées peut être demandé.",
+      "timing": "À tout moment, sur demande de l'assureur",
+      "sanction": "L’expertise médicale entraîne la suspension de tout règlement. Les prestations ne sont pas dues si vous refusez de vous soumettre à l’expertise ou si l’expertise révèle que les conditions prévues par les garanties ne sont pas ou plus réunies. Le cas échéant, le remboursement des prestations déjà versées peut être demandé.",
+      "page": 13
+    },
+    {
+      "name": "Paiement des cotisations pendant une prise en charge ITT/IPT/IPP",
+      "description": "Vous êtes tenu de régler les cotisations pendant toute la durée d’une prise en charge au titre des garanties ITT   , IPT  et IPP  .",
+      "timing": "Pendant toute la durée d'une prise en charge",
+      "sanction": null,
+      "page": 11
+    },
+    {
+      "name": "Information des modifications du tableau d'amortissement",
+      "description": "Modification du (des) prêt(s) En cours d’adhésion, vous êtes tenu de nous faire part de toutes les modifications de votre tableau d’amortissement et nous vous procurerons un avenant intégrant ces modifications. En cas de modification des caractéristiques du prêt en cours de contrat sollicitée par l’adhérent, pour bénéficier de garanties adaptées, vous devez nous en informer par écrit.",
+      "timing": "En cours d'adhésion",
+      "sanction": null,
+      "page": 14
+    },
+    {
+      "name": "Information du départ du dirigeant assuré ou de l'associé assuré",
+      "description": "Départ du dirigeant assuré ou de l'associé assuré de la personne morale adhérente En cas de départ du dirigeant assuré ou de l'associé assuré de la personne morale qui règle les cotisations, vous devez obligatoirement informer SECURIMUT - 222 cours Lafayette - 69441 Lyon cedex 3, pour l’informer du maintien de l’assurance du prêt si celle-ci demeure exigée par la banque, ou pour y mettre fin, avec l’accord du prêteur.",
+      "timing": "En cas de départ de la personne morale adhérente",
+      "sanction": null,
+      "page": 13
+    },
+    {
+      "name": "Élection de domicile en France métropolitaine en cas de sinistre à l'étranger",
+      "description": "En cas d’accident ou de maladie hors de France métropolitaine, vous êtes tenu de faire élection de votre domicile en France métropolitaine pour toute contestation d’ordre médical ou pour toute action judiciaire survenant à l’occasion d’un sinistre.",
+      "timing": "En cas d'accident ou de maladie hors de France métropolitaine",
+      "sanction": null,
+      "page": 13
+    },
+    {
+      "name": "Changements de situation personnelle ou professionnelle non déclarables",
+      "description": "Évolution de la situation de l'assuré En cours d’adhésion, les changements intervenus dans votre situation personnelle ou professionnelle ne sont pas à déclarer et n’ont aucune incidence sur les garanties qui vous ont été accordées. Elles sont ainsi maintenues aux mêmes conditions, sauf pour le cas spécifique du départ du dirigeant assuré ou de l'associé assuré de la personne morale.",
+      "timing": "En cours d'adhésion",
+      "sanction": null,
+      "page": 14
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclaration du sinistre",
+      "description": "Tout événement susceptible de mettre en jeu les garanties est à déclarer : – par courrier à SECURIMUT - 222 cours Lafayette - 69441 Lyon cedex 3, – par courriel à aem@securimut.fr, – ou par téléphone au 04 26 04 18 73. Les documents médicaux peuvent être adressés sous pli confidentiel à SECURIMUT, à l’attention du médecin‑conseil.",
+      "deadline": null,
+      "page": 11
+    },
+    {
+      "step": "Décès : pièces à produire",
+      "description": "Les pièces à produire pour l’étude de la demande d’indemnisation sont : – un acte intégral de décès ou un extrait d’acte de décès, – un certificat médical de décès précisant notamment la cause du décès (naturelle, accidentelle, suicide ou homicide), complété et signé par le médecin traitant ou le médecin ayant constaté le décès, accompagné le cas échéant des comptes-rendus opératoires et hospitaliers en lien avec la maladie ou l’accident à l’origine du décès, – si le décès est survenu au cours des 3 premières années de l’adhésion : • pour les assurés salariés, les bordereaux ou attestations de paiement des indemnités journalières versées par la Sécurité sociale ou tout autre organisme de prévoyance au cours des 5 années précédant l’adhésion, • pour les assurés non salariés, une attestation de l’employeur ou du comité départemental indiquant les éventuels arrêts de travail survenus au cours des 5 années précédant l’adhésion, – si le décès est d’origine accidentelle, le procès-verbal de gendarmerie ou le rapport de police, – le tableau d’amortissement du (des) prêt(s) concerné(s) au jour du décès, – une attestation du capital restant dû au jour du décès établie par l'organisme prêteur. La preuve du décès hors de France est fournie par un certificat établi par la représentation française (consulat ou ambassade) dans le pays concerné.",
+      "deadline": null,
+      "page": 12
+    },
+    {
+      "step": "PTIA ou GIS : pièces à produire",
+      "description": "Les pièces à produire pour l’étude de la demande d’indemnisation sont : – une attestation médicale, complétée et signée par votre médecin traitant, accompagnée le cas échéant des comptes-rendus opératoires et hospitaliers en lien avec la maladie ou l’accident entraînant l’invalidité, – le justificatif pour assistance d’une tierce personne, – si vous êtes salarié(e), la notification d’attribution de la pension d’invalidité 3e catégorie ou la notification de rente accident du travail à 100 % du régime général de la Sécurité sociale ou régimes similaires, – le cas échéant, la copie de la première notification d’attribution de l’ALD ou exonération du ticket modérateur, – une fiche historique des arrêts de travail éventuels, si l'invalidité est survenue au cours des 3 premières années de l’adhésion et qui précise les dates et la cause des arrêts de travail prescrits au cours des 5 années précédant l’adhésion. Elle est à compléter en premier lieu par l’organisme social ou l’employeur et, en second lieu et en cas d’arrêt de travail, par le médecin traitant, – si l’invalidité est d’origine accidentelle, le procès-verbal de gendarmerie ou le rapport de police, – le tableau d’amortissement du (des) prêt(s) concerné(s) au jour de la reconnaissance de la PTIA, – une attestation du capital restant dû au jour du sinistre établie par l'organisme prêteur. L’état de PTIA ou GIS doit être constaté en France métropolitaine ou dans les Drom. Les frais de rapatriement sont à la charge de l’assuré.",
+      "deadline": null,
+      "page": 12
+    },
+    {
+      "step": "ITT, IPT et IPP : délai de déclaration",
+      "description": "Toute incapacité de travail doit être déclarée à partir du 91e jour d’incapacité de travail et, au plus tard, le 180e jour. Passé ce délai, la prise en charge interviendra au plus tôt à la date de déclaration, si l’assureur établit que le retard dans la déclaration lui a porté préjudice.",
+      "deadline": "à partir du 91e jour d’incapacité de travail et, au plus tard, le 180e jour.",
+      "page": 12
+    },
+    {
+      "step": "ITT, IPT et IPP : pièces à produire",
+      "description": "Les pièces à produire pour l’étude de la demande d’indemnisation sont : – un questionnaire arrêt de travail, complété et signé par vos soins, – une attestation médicale, complétée et signée par votre médecin traitant, accompagnée le cas échéant des comptes-rendus opératoires et hospitaliers en lien avec la maladie ou l’accident entraînant l’arrêt de travail, – une fiche historique des arrêts de travail, si la date du sinistre survient au cours des 3 premières années de l’adhésion et qui précise les dates et la cause des arrêts de travail prescrits au cours des 5 années précédant l’adhésion. Elle est à compléter par l’organisme social ou l’employeur et, en cas d’arrêt de travail, par le médecin traitant, – le cas échéant, la copie de la première notification d’attribution de l’ALD ou exonération du ticket modérateur, – le procès-verbal de gendarmerie ou le rapport de police en cas d’accident, – le tableau d’amortissement du (des) prêt(s) concerné(s) au jour de l’arrêt de travail, – une attestation de l’organisme prêteur précisant les coordonnées du compte bancaire à créditer, en cas de prise en charge, – et, en cas d’IPT ou IPP : • la notification d’attribution de la pension d’invalidité ou la rente d’accident du travail, • et, les justificatifs de paiement de la pension ou la rente, – et, en cas d’ITT : • si vous êtes salarié(e) : les relevés/décomptes d’indemnités journalières du régime social auquel vous êtes affilié(e), • si vous êtes fonctionnaire ou assimilé : les attestations de votre employeur ou arrêtés du comité médical départemental, • si vous êtes travailleur non salarié (TNS) : les décomptes de règlements des indemnités journalières du régime social auquel vous êtes affilié. À défaut, les certificats médicaux d’arrêt de travail. Par ailleurs : – en cas de temps partiel thérapeutique : le certificat médical de reprise d’activité à temps partiel thérapeutique précisant la date ainsi que les décomptes de règlement des indemnités journalières mi-temps si vous êtes affilié(e) à un régime social, – en cas de rechute : l’attestation médicale précisant la date de la rechute et permettant d’établir qu’il s’agit de la même maladie ou accident que celle ou celui qui est à l’origine de l’arrêt de travail initial.",
+      "deadline": null,
+      "page": 12
+    },
+    {
+      "step": "Renouvellement des formalités en cours de sinistre",
+      "description": "Les pièces et les décisions émanant de la Sécurité sociale ou d’organismes similaires ne nous engagent pas. En cours de sinistre, nous pourrons solliciter le renouvellement de certaines formalités pour poursuivre l‘indemnisation. L’état d’ITT, IPT, IPP doit être constaté en France métropolitaine ou dans les Drom. Les frais de rapatriement sont à la charge de l’assuré. Quelle que soit la garantie, nous nous réservons le droit de demander tout autre document que nous jugerons utile.",
+      "deadline": null,
+      "page": 13
+    },
+    {
+      "step": "Droit d'enquête et d'expertise",
+      "description": "Sous peine de suspension des garanties, vous devez nous adresser, dans les délais que nous fixons, tous les justificatifs demandés. De plus, à tout moment, nous pouvons faire procéder par un médecin à une expertise médicale relative à la demande ou au maintien des prestations. Votre état d’incapacité ou d’invalidité est constaté par expertise médicale en dehors de toute considération du régime obligatoire auquel vous êtes affilié. Les honoraires médicaux relatifs à cet examen sont à notre charge. Vous avez la possibilité de vous faire assister du médecin de votre choix et à vos frais ou de soumettre au médecin expert désigné les conclusions de votre propre médecin à titre d’information. L’expertise médicale entraîne la suspension de tout règlement. Les prestations ne sont pas dues si vous refusez de vous soumettre à l’expertise ou si l’expertise révèle que les conditions prévues par les garanties ne sont pas ou plus réunies. Le cas échéant, le remboursement des prestations déjà versées peut être demandé. En cas d’accident ou de maladie hors de France métropolitaine, vous êtes tenu de faire élection de votre domicile en France métropolitaine pour toute contestation d’ordre médical ou pour toute action judiciaire survenant à l’occasion d’un sinistre.",
+      "deadline": null,
+      "page": 13
+    },
+    {
+      "step": "Expertise médicale contradictoire et arbitrale amiable",
+      "description": "Expertise médicale contradictoire et arbitrale amiable En cas de contestation des conclusions de l’expertise et à votre demande, une expertise contradictoire amiable est proposée qui aura lieu entre le médecin expert dont les conclusions sont contestées et le médecin de recours de votre choix. A défaut d’accord entre ces deux médecins pour la rédaction et la signature de conclusions communes, ils pourront s’adjoindre un troisième médecin, désigné d’un commun accord entre eux, afin de recourir à une expertise arbitrale amiable. Les trois médecins opèrent d’un commun accord et à la majorité des voix. À défaut d’entente entre les médecins pour en désigner un troisième, celui-ci sera choisi par le président du Tribunal judiciaire dans le ressort duquel se trouve le domicile déclaré de l’assuré ou son domicile élu selon l’article 4.4 « Droit d’enquête et d’expertise ». Chacune des parties supporte les honoraires et frais du médecin qu’elle a désigné pour l’assister à l’expertise contradictoire et supportera par moitié ceux de l’expert arbitre désigné. Le versement des prestations sera suspendu jusqu’à la prononciation de la sentence arbitrale.",
+      "deadline": null,
+      "page": 13
+    },
+    {
+      "step": "Expertise judiciaire",
+      "description": "Expertise judiciaire En tout état de cause, les parties conservent la faculté de porter le litige devant les juridictions compétentes. Aussi, le recours à la voie judiciaire pour le règlement des prestations est possible dès que survient un différend entre l’assuré et le médecin-conseil mandaté par l’assureur. Ce recours est également possible si, à l’issue de l’expertise arbitrale amiable, une des parties est en désaccord avec l’avis du médecin expert.",
+      "deadline": null,
+      "page": 13
+    },
+    {
+      "step": "Bénéficiaire des prestations",
+      "description": "Les prestations sont versées à l’organisme prêteur, réputé bénéficiaire acceptant, à concurrence des sommes qui lui sont dues au jour du sinistre.",
+      "deadline": null,
+      "page": 13
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat Assurance Emprunteur MAIF couvre tous types de prêts immobiliers d’une durée maximum de 35 ans (soit 420 mois), période de différé et reports de mensualités inclus. s garanties du contrat cessent : – au terme normal ou anticipé de chaque prêt, objet de l’adhésion,",
+    "tacit_renewal": null,
+    "notice_period": "En cas d’acceptation par l’organisme prêteur, la résiliation prend effet 10 jours après la réception par SECURIMUT, pour le compte de l’assureur, de la notification de l’acceptation de la substitution établie par l’organisme prêteur ou à la date de prise d’effet de la nouvelle adhésion, si cette date est postérieure.",
+    "methods": [
+      "Conformément aux dispositions de l’article L113-12-2 du Code des assurances, vous disposez d’une faculté de résilier votre adhésion à tout moment. Vous pouvez résilier votre adhésion en envoyant une lettre recommandée à SECURIMUT - 222 cours Lafayette - 69441 Lyon cedex 3.",
+      "Dès lors que vous faites usage du droit de résiliation, vous devez accompagner votre demande de la décision d’acceptation de la substitution par l’organisme prêteur et indiquer la date de prise d’effet du contrat d’assurance accepté en substitution.",
+      "À compter du prélèvement de votre première cotisation d’assurance, vous disposez d’un délai de 30 jours pour revenir sur votre décision. Dans ce cas, il vous suffit alors d’adresser une lettre recommandée avec accusé de réception à SECURIMUT - 222 cours Lafayette - 69441 Lyon cedex 3, reprenant la mention suivante : Je soussigné(e) (nom, prénom, adresse) désire renoncer à la souscription de mon contrat Assurance Emprunteur MAIF n° … ; date et signature. L’intégralité des cotisations versées vous sera remboursée dans un délai maximum de 30 jours suivant la réception de la lettre recommandée.",
+      "À défaut de paiement d’une cotisation ou d’une fraction de cotisation dans un délai de 10 jours suivant la date d’échéance, nous vous adressons, à votre dernier domicile connu, une lettre recommandée vous informant, conformément à l’article L141-3 du Code des assurances, que le contrat sera résilié 40 jours après l’envoi de cette lettre, si la cotisation est toujours impayée à l’issue de ce délai."
+    ],
+    "special_rights": [
+      "Conformément aux dispositions de l’article L113-12-2 du Code des assurances, vous disposez d’une faculté de résilier votre adhésion à tout moment.",
+      "Dès lors que vous faites usage du droit de résiliation, vous devez accompagner votre demande de la décision d’acceptation de la substitution par l’organisme prêteur et indiquer la date de prise d’effet du contrat d’assurance accepté en substitution. En cas d’acceptation par l’organisme prêteur, la résiliation prend effet 10 jours après la réception par SECURIMUT, pour le compte de l’assureur, de la notification de l’acceptation de la substitution établie par l’organisme prêteur ou à la date de prise d’effet de la nouvelle adhésion, si cette date est postérieure. En cas de refus de la substitution par l’organisme prêteur, l’adhésion au présent contrat n‘est pas résiliée.",
+      "1.7 - faculté de renonciation À compter du prélèvement de votre première cotisation d’assurance, vous disposez d’un délai de 30 jours pour revenir sur votre décision. Dans ce cas, il vous suffit alors d’adresser une lettre recommandée avec accusé de réception à SECURIMUT - 222 cours Lafayette - 69441 Lyon cedex 3, reprenant la mention suivante : Je soussigné(e) (nom, prénom, adresse) désire renoncer à la souscription de mon contrat Assurance Emprunteur MAIF n° … ; date et signature. L’intégralité des cotisations versées vous sera remboursée dans un délai maximum de 30 jours suivant la réception de la lettre recommandée. SECURIMUT informera l’organisme prêteur, bénéficiaire acceptant du contrat, que vous avez exercé votre droit de renonciation à l’adhésion.",
+      "1.12 - cessation des garanties Les garanties du contrat cessent : – au terme normal ou anticipé de chaque prêt, objet de l’adhésion, – à la date de déchéance du terme prononcée par l’organisme prêteur entraînant l’exigibilité du prêt avant terme, – en cas de demande de résiliation à l’initiative de l’adhérent  par application de l’article 1.8 « Faculté de résiliation », – en cas de non-paiement des cotisations au terme de la procédure définie à l’article 3.3 « Non-paiement des cotisations », – à l’âge limite de chaque garantie aux prestations, c’est-à-dire : • à la date de mise à la retraite ou préretraite sauf en cas de mise en retraite pour inaptitude, et au plus tard, à la date d'échéance suivant le 67e anniversaire pour les garanties ITT  , IPT  et IPP  , • au 70e anniversaire pour la garantie PTIA  , • au 85e anniversaire pour la garantie décès, – en cas de départ et à la date du départ du dirigeant assuré ou de l'associé assuré, – si vous ne donnez pas suite à l’offre de prêt dans le délai imparti (article 1.2 « Prêts assurables »).",
+      "3.3 - non-paiement des cotisations L’organisme prêteur sera informé de ce non-paiement et pourra, s’il le souhaite, nous demander de maintenir le contrat en vigueur en se substituant à vous pour le paiement des cotisations. À défaut de paiement d’une cotisation ou d’une fraction de cotisation dans un délai de 10 jours suivant la date d’échéance, nous vous adressons, à votre dernier domicile connu, une lettre recommandée vous informant, conformément à l’article L141-3 du Code des assurances, que le contrat sera résilié 40 jours après l’envoi de cette lettre, si la cotisation est toujours impayée à l’issue de ce délai."
+    ],
+    "page": 6
+  },
+  "prescription_period": {
+    "description": "Aucune action, ni réclamation concernant le présent contrat ne pourra être entreprise au-delà du délai de prescription. La prescription se définit comme l’extinction d’un droit résultant de l’inaction de son titulaire après un délai fixé par la loi. Les dispositions relatives à la prescription des actions dérivant du contrat d’assurance sont fixées par les articles L114-1 à L114-3 du Code des assurances. Pour prendre connaissance de ces articles, nous vous invitons à consulter le site officiel www.legifrance.gouv.fr.",
+    "page": 14
+  },
+  "premium": {
+    "notes": [
+      "La cotisation est fixée en fonction des garanties souscrites, de la date d’adhésion, de votre âge à cette date, de votre activité professionnelle, de ses conditions d’exercice, de votre qualité de fumeur ou non-fumeur, des risques spécifiques déclarés, de votre état de santé, des caractéristiques du prêt et de vos encours de prêt, des quotités souscrites et du co-emprunteur assuré. L’âge retenu pour ce calcul est déterminé par différence entre la date d'effet des garanties souhaitées et votre date de naissance. En cas d’erreur dans l’indication de votre date de naissance, l’ajustement nécessaire sera fait conformément à l’article L132-26 du Code des assurances.",
+      "Cette cotisation est nivelée par prêt et elle est fixée taxes actuelles comprises. L’échéancier des cotisations reprenant le coût de l’assurance (coût global, coût par période et la durée) figure sur le certificat d'adhésion et sur l'attestation de tarif. Elle est définie pour la durée totale du contrat et ne peut être aménagée que lors d’une demande de modification de votre part (selon article 5.1 « Modification en cours de contrat ») ou une évolution relative aux taxes en vigueur.",
+      "La cotisation d’assurance est due à compter de la date de prise d’effet des garanties. Elle est payable mensuellement par prélèvement bancaire. Le prélèvement est effectué le 10 du mois. Il est exclusivement effectué en euros.",
+      "Vous êtes tenu de régler les cotisations pendant toute la durée d’une prise en charge au titre des garanties ITT   , IPT  et IPP  .",
+      "L’organisme prêteur sera informé de ce non-paiement et pourra, s’il le souhaite, nous demander de maintenir le contrat en vigueur en se substituant à vous pour le paiement des cotisations. À défaut de paiement d’une cotisation ou d’une fraction de cotisation dans un délai de 10 jours suivant la date d’échéance, nous vous adressons, à votre dernier domicile connu, une lettre recommandée vous informant, conformément à l’article L141-3 du Code des assurances, que le contrat sera résilié 40 jours après l’envoi de cette lettre, si la cotisation est toujours impayée à l’issue de ce délai.",
+      "Un dispositif d’écrêtement des primes d’assurance est prévu par la convention AERAS. Si vous êtes susceptible d’être éligible, nous vous en informerons et solliciterons les documents nécessaires à la mise en œuvre de cet écrêtement.",
+      "Sur présentation des factures originales, et dans la limite des sommes mentionnées dans la demande de formalités, nous prenons en charge les frais des examens médicaux demandés, excepté en cas de refus ou de renonciation de la part du postulant de souscrire à une proposition sans restriction. Nous remboursons ces frais dans les 30 jours suivants notre décision restrictive, ou à l’expiration du délai de renonciation en cas d’acceptation sans restriction.",
+      "Prêts faisant l’objet d’un plan de surendettement : le nouveau plan de financement résultant du prêt assuré à l’origine est accepté d’office, sous réserve de l’ajustement du montant des cotisations."
+    ],
+    "indexation": null,
+    "page": 11
+  },
+  "special_conditions": [
+    {
+      "name": "Préambule : structure du contrat et intervenants",
+      "description": "Le contrat Assurance Emprunteur MAIF (AEM) est un contrat d’assurance à adhésion facultative régi par le Code des assurances et les dispositions du contrat collectif souscrit par l’Association Solidarité Autonomie et Prévoyance (ASAP), ci-après dénommée l’association, auprès de MAIF VIE, dénommée l’assureur, au profit de ses adhérents. La présente notice définit les garanties et leurs modalités d’entrée en vigueur ainsi que les formalités en cas de sinistre. MAIF VIE est l’assureur du contrat et est soumis au contrôle de l’Autorité de contrôle prudentiel et de résolution (ACPR), 4 place de Budapest, CS 92459, 75436 Paris cedex 09. L’assureur mandate SECURIMUT, pour opérer la gestion des adhésions au contrat AEM. Pour toute opération, vous pouvez contacter SECURIMUT par courrier à l'adresse : 222 cours Lafayette - 69441 Lyon cedex 3 ou par courriel à l'adresse : aem@securimut.fr.",
+      "page": 2
+    },
+    {
+      "name": "Objet du contrat",
+      "description": "Le contrat Assurance Emprunteur MAIF vous permet de souscrire, dans le cadre de prêts immobiliers contractés auprès d’un organisme prêteur, une garantie en cas de décès, de perte totale et irréversible d’autonomie (PTIA), d’incapacité temporaire totale de travail (ITT), d’invalidité permanente totale de travail (IPT) et d’invalidité permanente partielle (IPP) consécutive à une maladie ou un accident. Il prévoit le règlement de tout ou partie du capital restant dû du (des) prêt(s) au bénéficiaire  en cas de décès ou PTIA et la prise en charge de tout ou partie des échéances du (des) prêt(s) en cas d’ITT, IPT ou IPP.",
+      "page": 4
+    },
+    {
+      "name": "Prêts assurables",
+      "description": "Le contrat Assurance Emprunteur MAIF couvre tous types de prêts immobiliers d’une durée maximum de 35 ans (soit 420 mois), période de différé et reports de mensualités inclus. Le montant minimum assurable est de 17 000 € par contrat et par assuré  . Le montant total des capitaux assurés est limité à 5 000 000 € pour l’ensemble des prêts garantis par l’assureur dans le cadre du contrat Assurance Emprunteur MAIF, sauf dérogation expresse et à l’exception des assurés âgés de 75 ans et plus pour lesquels ce montant est limité à 1 250 000 €. Les nouveaux prêts contractés sont assurables sous réserve de la signature de l’offre de prêt au plus tard dans les 6 mois qui suivent la date d’émission du certificat d'adhésion  , et d’un déblocage de fonds au plus tard dans les 36 mois qui suivent la signature de l’offre de prêt. Les prêts déjà contractés sont assurables sous réserve d'un déblocage des fonds déjà effectué ou à venir dans les 36 mois maximum qui suivent la signature de l'offre de prêt. À défaut, les formalités d’adhésion seront à renouveler.",
+      "page": 4
+    },
+    {
+      "name": "Quotité assurée",
+      "description": "La quotité  ne peut être supérieure à 100 % par tête assurée. La quotité ITT/IPT ne peut pas être supérieure à la quotité Décès/PTIA. La quotité IPP est identique à la quotité ITT/IPT.",
+      "page": 5
+    },
+    {
+      "name": "Modalités d'adhésion et décision de l'assureur",
+      "description": "Lors de l’adhésion, vous devez compléter une demande d’adhésion et vous soumettre, le cas échéant, aux formalités médicales et financières. À cet effet, vous devez parfois remplir un questionnaire de santé et, si besoin, vous soumettre à des examens médicaux et/ou fournir des informations médicales complémentaires et, éventuellement, financières. Votre admission est conditionnée à notre acceptation à l’issue des formalités d’adhésion. Nous pouvons accepter les garanties, avec ou sans restriction ou majoration de cotisations, les refuser ou les ajourner. En cas d’acceptation, nous vous fournirons un devis contractuel ainsi, qu’en cas d’acceptation avec restrictions ou rachat de garanties, des conditions particulières, remises dans un délai maximum de 10 jours ouvrés après la réception de vos formalités complètes. En cas d’acceptation avec restrictions de garanties, vous devrez accepter les conditions particulières en nous les renvoyant signées. Notre décision est valable 4 mois. Si au terme de ce délai, vous n’avez pas signé l’adhésion au contrat d’assurance, les formalités d’adhésion pourront être renouvelées. En cas d'évolution de votre situation déclarée avant l'émission du certificat d’adhésion, modifiant vos réponses au questionnaire des risques, et le cas échéant au questionnaire de santé, vous devez nous le signaler. Sur présentation des factures originales, et dans la limite des sommes mentionnées dans la demande de formalités, nous prenons en charge les frais des examens médicaux demandés, excepté en cas de refus ou de renonciation de la part du postulant de souscrire à une proposition sans restriction. Nous remboursons ces frais dans les 30 jours suivants notre décision restrictive, ou à l’expiration du délai de renonciation en cas d’acceptation sans restriction.",
+      "page": 5
+    },
+    {
+      "name": "Convention AERAS et écrêtement des primes",
+      "description": "Nous nous engageons à respecter les dispositions de la convention AERAS consultable sur le site officiel www.aeras-infos.fr. La Garantie Invalidité Spécifique AERAS (GIS) est accordée si elle est indiquée dans les conditions spécifiques d’adhésion que vous avez acceptées sur proposition de l’assureur. Un dispositif d’écrêtement des primes d’assurance est prévu par la convention AERAS. Si vous êtes susceptible d’être éligible, nous vous en informerons et solliciterons les documents nécessaires à la mise en œuvre de cet écrêtement.",
+      "page": 5
+    },
+    {
+      "name": "Faculté de renonciation (30 jours)",
+      "description": "À compter du prélèvement de votre première cotisation d’assurance, vous disposez d’un délai de 30 jours pour revenir sur votre décision. Dans ce cas, il vous suffit alors d’adresser une lettre recommandée avec accusé de réception à SECURIMUT - 222 cours Lafayette - 69441 Lyon cedex 3, reprenant la mention suivante : Je soussigné(e) (nom, prénom, adresse) désire renoncer à la souscription de mon contrat Assurance Emprunteur MAIF n° … ; date et signature. L’intégralité des cotisations versées vous sera remboursée dans un délai maximum de 30 jours suivant la réception de la lettre recommandée. SECURIMUT informera l’organisme prêteur, bénéficiaire acceptant du contrat, que vous avez exercé votre droit de renonciation à l’adhésion.",
+      "page": 5
+    },
+    {
+      "name": "Faculté de résiliation à tout moment et substitution",
+      "description": "Conformément aux dispositions de l’article L113-12-2 du Code des assurances, vous disposez d’une faculté de résilier votre adhésion à tout moment. Vous pouvez résilier votre adhésion en envoyant une lettre recommandée à SECURIMUT - 222 cours Lafayette - 69441 Lyon cedex 3. Dès lors que vous faites usage du droit de résiliation, vous devez accompagner votre demande de la décision d’acceptation de la substitution par l’organisme prêteur et indiquer la date de prise d’effet du contrat d’assurance accepté en substitution. En cas d’acceptation par l’organisme prêteur, la résiliation prend effet 10 jours après la réception par SECURIMUT, pour le compte de l’assureur, de la notification de l’acceptation de la substitution établie par l’organisme prêteur ou à la date de prise d’effet de la nouvelle adhésion, si cette date est postérieure. En cas de refus de la substitution par l’organisme prêteur, l’adhésion au présent contrat n‘est pas résiliée.",
+      "page": 6
+    },
+    {
+      "name": "Date de conclusion de l'adhésion",
+      "description": "L’adhésion au contrat est conclue à la date de votre acception de la proposition d'assurance, votre adhésion étant ensuite confirmée par l’émission d'un certificat d'adhésion  .",
+      "page": 6
+    },
+    {
+      "name": "Date d'effet des garanties",
+      "description": "Vos garanties prennent effet à la plus tardive des dates suivantes : – la date d'effet mentionnée au certificat d'adhésion, – le jour de la signature de l’offre de prêt, sous réserve qu'elle intervienne dans les 6 mois qui suivent la date d'émission du certificat d'adhésion.",
+      "page": 6
+    },
+    {
+      "name": "Cessation des garanties",
+      "description": "Les garanties du contrat cessent : – au terme normal ou anticipé de chaque prêt, objet de l’adhésion, – à la date de déchéance du terme prononcée par l’organisme prêteur entraînant l’exigibilité du prêt avant terme, – en cas de demande de résiliation à l’initiative de l’adhérent  par application de l’article 1.8 « Faculté de résiliation », – en cas de non-paiement des cotisations au terme de la procédure définie à l’article 3.3 « Non-paiement des cotisations », – à l’âge limite de chaque garantie aux prestations, c’est-à-dire : • à la date de mise à la retraite ou préretraite sauf en cas de mise en retraite pour inaptitude, et au plus tard, à la date d'échéance suivant le 67e anniversaire pour les garanties ITT  , IPT  et IPP  , • au 70e anniversaire pour la garantie PTIA  , • au 85e anniversaire pour la garantie décès, – en cas de départ et à la date du départ du dirigeant assuré ou de l'associé assuré, – si vous ne donnez pas suite à l’offre de prêt dans le délai imparti (article 1.2 « Prêts assurables »).",
+      "page": 7
+    },
+    {
+      "name": "Base d'indemnisation et prêts à taux variable",
+      "description": "L’ensemble des prestations versées est pondéré de la quotité  souscrite par chacun des assurés  . L’indemnisation s’effectue sur la base du tableau d’amortissement en vigueur à la date du sinistre. Pour les prêts à taux variable, l‘indemnisation découle du tableau d’amortissement produit au jour du sinistre, dans la limite des mécanismes d’ajustement prévus à l’offre de prêt initiale. Pour ceux-là, nous nous réservons le droit d’exiger en cours de prêt, l’actualisation du tableau d’amortissement pour ajuster le niveau de l’assurance. Les garanties sont accordées définitivement pour la durée du contrat quelles que soient les évolutions de votre situation personnelle/professionnelle et de santé, hors toute modification des prêts et des garanties à votre demande (article 5.1 « Modifications en cours de contrat ») ou cessation des garanties (article 1.12).",
+      "page": 7
+    },
+    {
+      "name": "Territorialité",
+      "description": "2.1 - territorialité Les garanties s’exercent dans le monde entier.",
+      "page": 7
+    },
+    {
+      "name": "Détermination du taux d'invalidité (croisement IF x IP)",
+      "description": "Le taux d’invalidité est déterminé par expertise médicale et par le croisement entre : – le taux d’incapacité fonctionnelle physique ou mentale (IF) est apprécié en dehors de toute considération professionnelle. Il tient compte uniquement de la diminution de capacité physique ou mentale, suite à la maladie ou à l’accident, par référence au barème d’évaluation des taux d’incapacité en droit commun (édition du concours médical la plus récente au jour de l’expertise) ; – et le taux d’incapacité professionnelle (IP) est apprécié en fonction de la profession exercée avant la maladie ou l’accident. [[page 9]] 9 Il tient compte de la façon dont cette profession était exercée antérieurement à la maladie ou l’accident, de ses conditions d’exercice normales et de ses possibilités d’exercice restantes, abstraction faite des possibilités de reclassement dans une profession différente. Si vous n’exercez pas d’activité professionnelle ou si vous êtes en recherche d’emploi, le taux d’incapacité professionnelle est apprécié par référence à une profession quelconque. Pour connaître le taux d’invalidité permanente, nous vous invitons à vous reporter au tableau ci-dessous.",
+      "page": 8
+    },
+    {
+      "name": "Tableau de croisement des taux d'incapacité fonctionnelle et professionnelle",
+      "description": "Taux d’incapacité professionnelle Taux d’incapacité fonctionnelle 10 % 20 % 30 % 40 % 50 % 60 % 70 % 80 % 90 % 100 % 10 % 10,00 % 15,87 % 20,80 % 25,20 % 29,24 % 33,02 % 36,59 % 40,00 % 43,27 % 46,42 % 20 % 12,60 % 20,00 % 26,21 % 31,75 % 36,84 % 41,60 % 46,10 % 50,40 % 54,51 % 58,48 % 30 % 14,42 % 22,89 % 30,00 % 36,34 % 42,14 % 47,62 % 52,78 % 57,69 % 62,40 % 66,94 % 40 % 15,87 % 25,20 % 33,02 % 40,00 % 46,42 % 52,41 % 58,09 % 63,50 % 68,68 % 73,68 % 50 % 17,10 % 27,14 % 35,57 % 43,09 % 50,00 % 56,46 % 62,57 % 68,40 % 73,99 % 79,37 % 60 % 18,17 % 28,84 % 37,80 % 45,79 % 53,13 % 60,00 % 66,49 % 72,68 % 78,62 % 84,34 % 70 % 19,13 % 30,37 % 39,79 % 48,20 % 55,93 % 63,16 % 70,00 % 76,52 % 82,77 % 88,79 % 80 % 20,00 % 31,75 % 41,60 % 50,40 % 58,48 % 66,04 % 73,19 % 80,00 % 86,53 % 92,83 % 90 % 20,80 % 33,02 % 43,27 % 52,41 % 60,82 % 68,68 % 76,12 % 83,20 % 90,00 % 96,55 % 100 % 21,54 % 34,20 % 44,81 % 54,29 % 63,00 % 71,14 % 78,84 % 86,18 % 93,22 % 100,00 %",
+      "page": 9
+    },
+    {
+      "name": "Dispositions communes aux garanties ITT, IPT et IPP",
+      "description": "Dispositions communes aux garanties ITT, IPT et IPP • En aucun cas, la prise en charge ne pourra être supérieure aux mensualités de remboursement dues à l’organisme prêteur. • Les augmentations de mensualités de remboursement du prêt intervenues à votre demande auprès de l’organisme prêteur pendant l’incapacité de travail ne sont pas prises en compte. • Pour les prêts in fine ou relais, la garantie n’inclut pas la prise en charge de la dernière échéance (remboursement du capital). • Les éventuelles échéances impayées, pénalités et intérêts de retard appliqués par l’organisme prêteur ne sont pas pris en compte. • Les sinistres en cours au moment de l'adhésion ou au moment de la prise d'effet des garanties et répondant aux définitions des garanties (ITT, IPT et IPP) du contrat ne sont pas pris en charge par le présent contrat car ils le priveraient d'aléa. Cessation des prestations : Les prestations en cas d’ITT, IPT ou d’IPP cessent d’être versées en cas de reprise totale ou partielle d’une activité (hormis le cas du temps partiel thérapeutique décrit à l'article 2.4 « Reprise à temps partiel thérapeutique »), à la date de votre mise à la retraite ou préretraite (sauf en cas de mise en retraite pour inaptitude au travail), et, au plus tard à la date d'échéance suivant le 67e anniversaire.",
+      "page": 9
+    },
+    {
+      "name": "Modifications en cours de contrat : prêts et garanties",
+      "description": "Modification du (des) prêt(s) En cours d’adhésion, vous êtes tenu de nous faire part de toutes les modifications de votre tableau d’amortissement et nous vous procurerons un avenant intégrant ces modifications. En cas de modification des caractéristiques du prêt en cours de contrat sollicitée par l’adhérent, pour bénéficier de garanties adaptées, vous devez nous en informer par écrit. Dispositions spécifiques – Prêts à échéances modulables : l’allongement de la durée du prêt qui découle du fonctionnement normal du contrat de prêt est accepté d’office, dans la limite d'un allongement de 5 ans. – Prêts faisant l’objet d’un plan de surendettement : le nouveau plan de financement résultant du prêt assuré à l’origine est accepté d’office, sous réserve de l’ajustement du montant des cotisations. Modification des garanties Aucune diminution de garantie (formule de garanties et/ou quotité) demandée par l’adhérent ne pourra être effectuée sans le consentement exprès de l’organisme prêteur. En cas de modification des quotités ou des garanties en cours de contrat, l’assuré concerné par une augmentation de garanties doit effectuer une nouvelle demande d'adhésion. La modification prend effet : – en cas de diminution de garantie : le jour de la réception de l’accord du bénéficiaire par l’assureur, – en cas d’augmentation : à la date d’effet des garanties souhaitée mentionnée sur la nouvelle demande d’adhésion et, au plus tôt, à la date d’acceptation de la modification par l’assureur. Si la demande de modification des garanties est effectuée alors que vous êtes en incapacité ou en invalidité (article 2.4 « Garantie en cas d’incapacité temporaire totale de travail (ITT), invalidité permanente totale (IPT) et invalidité permanente partielle (IPP) »), la modification prendra alors effet à la date de fin d’indemnisation du sinistre concerné.",
+      "page": 14
+    },
+    {
+      "name": "Réclamations et médiation",
+      "description": "Lorsque vous souhaitez obtenir des précisions ou des informations sur les clauses ou conditions d’application de votre contrat, SECURIMUT est en mesure d’étudier vos demandes. En cas de mécontentement, vous pouvez formuler une réclamation en contactant : SECURIMUT - Service réclamations - 222 cours Lafayette - 69441 Lyon cedex 3. SECURIMUT s’engage à accuser réception de votre réclamation dans les 10 jours ouvrables suivant sa réception. Si la réponse apportée ne vous satisfait pas et que le différend persiste, vous pouvez formuler une réclamation auprès de MAIF VIE dont les coordonnées auront été précisées par SECURIMUT dans le courrier de réponse à la réclamation précédente. MAIF VIE s’engage à accuser réception de votre réclamation dans les 10 jours ouvrables suivant sa réception. Quel que soit le niveau de traitement de votre réclamation, une réponse définitive vous sera apportée dans un délai maximum de 2 mois. En cas de désaccord persistant sur la réponse apportée et après épuisement des voies de recours internes indiquées ci-dessus, vous avez la faculté de faire appel à La Médiation de l’Assurance (LMA), sans préjudice des autres voies d’actions légales. La saisine de la Médiation s’effectue : – par voie électronique, en complétant le formulaire disponible sur le site internet : www.mediation-assurance.org, – ou par courrier, à l’adresse suivante : La Médiation de l’Assurance - TSA 50110 - 75441 Paris cedex 09. La charte de la médiation de l’assurance et les conditions d’accès à cette médiation sont disponibles sur le site internet indiqué ci-dessus.",
+      "page": 14
+    },
+    {
+      "name": "Subrogation",
+      "description": "5.4 - subrogation En cas de sinistre provoqué par un tiers responsable, nous pouvons exercer un recours conformément aux dispositions légales, à concurrence des prestations et indemnités versées.",
+      "page": 15
+    },
+    {
+      "name": "Convention de preuve et signature électronique",
+      "description": "5.5 - convention de preuve En cas d’adhésion au contrat à distance avec option pour le mode de souscription numérique, la signature électronique de la demande d’adhésion vaut manifestation de votre accord sur les conditions de votre adhésion dont vous avez préalablement pris connaissance. Vous vous engagez sur l’exactitude de l’ensemble des déclarations que vous avez effectuées de façon dématérialisée, y compris celles relatives à votre état de santé. Vous êtes informé et acceptez expressément que les données et documents d’adhésion sous forme électronique, conservés par SECURIMUT ou chez un hébergeur de données de santé mandaté par cette dernière et agréé au sens de l’article L1111-8 du Code de la santé publique, vous soient opposables et puissent être admis comme preuve de votre identité, de vos déclarations et de votre consentement relatif à l’adhésion au présent contrat ainsi qu’à son contenu et aux moyens de paiement de la cotisation d’assurance. Ces données et documents ayant fait l’objet d’une signature électronique conforme aux dispositions du décret n° 2001-272 du 30 mars 2001 auront la même force probante qu’un support écrit en cas de contestation.",
+      "page": 15
+    },
+    {
+      "name": "Données personnelles",
+      "description": "5.6 - données personnelles Vos données personnelles sont traitées par MAIF VIE et MAIF et sont utilisées pour : – la réalisation des opérations précontractuelles ou contractuelles sur la base de l’exécution du contrat, – la personnalisation des offres et l’envoi d’informations sur les produits et services distribués par le groupe MAIF et ses partenaires sur la base de vos choix (consentement, que vous pouvez retirer à tout moment, ou opposition), – la lutte contre le blanchiment d’argent et le financement du terrorisme dans le cadre de la législation, – la lutte contre la fraude sur la base de l’intérêt légitime. La lutte contre la fraude à l’assurance peut conduire à une inscription sur une liste de personnes présentant un risque de fraude, – la réalisation de statistiques sur la base de l’intérêt légitime. La durée de conservation de vos données est comprise entre 36 mois et la durée du contrat augmentée des prescriptions applicables (en cas de souscription). Les destinataires de vos données sont MAIF VIE, MAIF, leurs distributeurs et leurs sous‑traitants. Vous disposez d’un droit d’accès, de rectification, de limitation, de portabilité, d’opposition, de suppression, et vous pouvez définir des directives post mortem relatives à vos données. Vous pouvez exercer vos droits auprès de MAIF VIE, « Le Pavois », 50 avenue Salvador Allende, CS 90000, 79029 Niort cedex 9 - Mail : vosdonnees.maifvie@maif.fr, ou en contactant le Délégué à la protection des données du groupe MAIF, CS 90000, 79038 Niort cedex 9 ou vosdonnees@maif.fr. Si vous ne souhaitez pas faire l’objet d’un démarchage téléphonique, vous pouvez vous inscrire sur la liste d’opposition sur le site www.bloctel.gouv.fr. Toutefois, en tant qu’adhérent, nous sommes susceptibles de vous adresser de tels appels téléphoniques. Vous pouvez introduire une réclamation auprès de la CNIL - TSA 80715 - 75334 Paris cedex 07. Pour en savoir plus, rendez-vous sur maif.fr rubrique données personnelles.",
+      "page": 15
+    },
+    {
+      "name": "Langue, loi applicable et juridictions compétentes",
+      "description": "5.7 - langue, loi applicable et juridictions compétentes La langue utilisée pendant toute la durée du contrat est le français. Les relations précontractuelles et le contrat Assurance Emprunteur MAIF sont régis par le droit français. Tout litige né de l’exécution, de l’inexécution ou de l’interprétation de ce contrat sera de la compétence des juridictions françaises.",
+      "page": 15
+    },
+    {
+      "name": "Mentions légales / entreprises intervenant au contrat",
+      "description": "Le contrat collectif Assurance Emprunteur MAIF a été souscrit par l’Association Solidarité Autonomie et Prévoyance (ASAP) auprès de MAIF VIE, filiale assurance vie de MAIF. Ce contrat, conçu par MAIF VIE, est distribué par MAIF et SECURIMUT et géré par SECURIMUT. MAIF - Société d’assurance mutuelle à cotisations variables - CS 90000 - 79038 Niort cedex 09. MAIF VIE - Société anonyme au capital de 122 000 000 € - RCS Niort 330 432 782 - CS 90000 - 79029 Niort cedex 09. Entreprises régies par le Code des assurances. SECURIMUT - SAS au capital de 200 000 € - RCS Lyon 487 899 148, à Directoire et Conseil de Surveillance, inscrite à l’Orias sous le n°07005662. Garantie financière et responsabilité civile professionnelle conforme aux articles L. 512-7 et L. 512-6 du Code des assurances. Siège social : 222 cours Lafayette - 69441 Lyon cedex 3. ASSOCIATION SOLIDARITÉ AUTONOMIE ET PRÉVOYANCE (ASAP) - CS 90000 - 79029 Niort cedex 09.",
+      "page": 16
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Le contrat Assurance Emprunteur MAIF (AEM) est un contrat d’assurance à adhésion facultative régi par le Code \ndes assurances et les dispositions du contrat collectif souscrit par l’Association Solidarité Autonomie et Prévoyance \n(ASAP), ci-après dénommée l’association, auprès de MAIF VIE, dénommée l’assureur, au profit de ses adhérents.\nLa présente notice définit les garanties et leurs modalités d’entrée en vigueur ainsi que les formalités en cas \nde sinistre. MAIF VIE est l’assureur du contrat et est soumis au contrôle de l’Autorité de contrôle prudentiel et \nde résolution (ACPR), 4 place de Budapest, CS 92459, 75436 Paris cedex 09.",
+      "context": "Nature du contrat, association souscriptrice et assureur",
+      "page": 2
+    },
+    {
+      "quote": "L’assureur mandate SECURIMUT, pour opérer la gestion des adhésions au contrat AEM. Pour toute opération, vous \npouvez contacter SECURIMUT par courrier à l'adresse : 222 cours Lafayette - 69441 Lyon cedex 3 ou par courriel \nà l'adresse : aem@securimut.fr.",
+      "context": "Gestionnaire mandaté SECURIMUT",
+      "page": 2
+    },
+    {
+      "quote": "Quotité\nNiveau de la garantie couverte pour l’assuré, exprimé en pourcentage du capital restant dû pour la garantie Décès/PTIA et de \nla mensualité du prêt pour le risque ITT/IPT/IPP.",
+      "context": "Définition de la quotité",
+      "page": 3
+    },
+    {
+      "quote": "1.4 - quotité assurée\nLa quotité \n ne peut être supérieure à 100 % par tête assurée. La quotité ITT/IPT ne peut pas être supérieure à la quotité Décès/PTIA. \nLa quotité IPP est identique à la quotité ITT/IPT.",
+      "context": "Règles de quotité assurée",
+      "page": 5
+    },
+    {
+      "quote": "L’indemnité garantie est forfaitaire, égale aux mensualités venant à échéance mentionnées sur le tableau d’amortissement \nproduit au jour du sinistre \n, pondéré de la quotité \n assurée et au prorata temporis, dans la limite de 9 000 € par mois et par \nassuré \n, tous prêts confondus assurés dans le cadre du contrat Assurance Emprunteur MAIF.",
+      "context": "Caractère forfaitaire de l'indemnité ITT/IPT/IPP et plafond mensuel",
+      "page": 8
+    },
+    {
+      "quote": "Franchise\nPériode pendant laquelle, après survenance d’un sinistre \n ITT, les prestations ne sont pas dues. L’indemnisation de l’assureur \ndébute à l’issue de cette période. La franchise est de 90 jours continus dans le contrat AEM.",
+      "context": "Définition de la franchise et durée de 90 jours",
+      "page": 3
+    },
+    {
+      "quote": "nous versons les indemnités garanties à compter du 91e jour d’incapacité de travail totale et continue.",
+      "context": "Point de départ de l'indemnisation ITT",
+      "page": 8
+    },
+    {
+      "quote": "La prise en charge au titre de la garantie ITT ne peut excéder 36 mois. Au-delà des 36 mois, nous étudions la possibilité d'une \nprise en charge au titre des garanties IPT ou IPP.",
+      "context": "Durée maximale de prise en charge ITT",
+      "page": 8
+    },
+    {
+      "quote": "Invalidité permanente totale de travail (IPT)\nEst considéré en invalidité permanente totale au sens du présent contrat d’assurance l’assuré se trouvant, à la suite d’une maladie \nou d’un accident garantis, dans l’impossibilité totale et de façon permanente d’exercer sa profession (ou d'exercer une profession \nquelconque pour l'assuré sans activité professionnelle ou en recherche d'emploi), dont l’état de santé est consolidé, et qui justifie \nd’un taux contractuel d’invalidité permanente supérieur ou égal à 66 %. L’IPT \n  doit être médicalement constatée et reconnue \npar le médecin-conseil de l’assureur.",
+      "context": "Définition de l'IPT et seuil de 66 %",
+      "page": 3
+    },
+    {
+      "quote": "Invalidité permanente partielle (IPP)\nEst considéré en invalidité permanente partielle au sens du présent contrat d’assurance l’assuré se trouvant, à la suite d’une \nmaladie ou d’un accident garantis, dans l’impossibilité permanente d’exercer tout ou partie de son activité professionnelle (ou \nd'exercer une profession quelconque pour l'assuré sans activité professionnelle ou en recherche d'emploi), et dont l’état de \nsanté est consolidé, et qui justifie d’un taux contractuel d’invalidité permanente supérieur ou égal à 33 % et inférieur à 66 %. \nL’IPP \n doit être médicalement constatée et reconnue par le médecin-conseil de l’assureur.",
+      "context": "Définition de l'IPP et fourchette 33 %-66 %",
+      "page": 3
+    },
+    {
+      "quote": "Taux de prise en charge = (taux d’invalidité – 33) / 33 %.\nSi le taux d’invalidité est inférieur à 33 %, vous n’êtes pas considéré en IPP et aucune prestation n’est due.",
+      "context": "Formule du taux de prise en charge IPP",
+      "page": 9
+    },
+    {
+      "quote": "Vous devez, au moment de la signature de la demande d’adhésion, être âgé de 18 ans minimum et :\n– ne pas avoir atteint les 80 ans pour la garantie décès,\n– ne pas avoir atteint les 65 ans pour la garantie PTIA,\n– \u0007ne pas avoir atteint les 65 ans et ne pas être retraité ou préretraité ayant définitivement cessé ses activités pour les garanties \nITT, IPT, IPP,",
+      "context": "Âges limites à l'adhésion par garantie",
+      "page": 4
+    },
+    {
+      "quote": "– à l’âge limite de chaque garantie aux prestations, c’est-à-dire :\n• \u0007à la date de mise à la retraite ou préretraite sauf en cas de mise en retraite pour inaptitude, et au plus tard, à la date \nd'échéance suivant le 67e anniversaire pour les garanties ITT \n, IPT \n et IPP \n,\n• au 70e anniversaire pour la garantie PTIA \n,\n• au 85e anniversaire pour la garantie décès,",
+      "context": "Âges limites de cessation par garantie",
+      "page": 7
+    },
+    {
+      "quote": "le suicide pendant les douze mois qui suivent l’adhésion, sauf pour les prêts immobiliers accordés pour l’acquisition du \nlogement principal dans la limite de 120 000 € ;",
+      "context": "Exclusion de suicide et exception logement principal",
+      "page": 10
+    },
+    {
+      "quote": "Conformément aux dispositions de l’article L113-12-2 du Code des assurances, vous disposez d’une faculté de résilier votre \nadhésion à tout moment.\nVous pouvez résilier votre adhésion en envoyant une lettre recommandée à SECURIMUT - 222 cours Lafayette - 69441 Lyon cedex 3.",
+      "context": "Faculté de résiliation à tout moment (article L113-12-2)",
+      "page": 6
+    },
+    {
+      "quote": "Dès lors que vous faites usage du droit de résiliation, vous devez accompagner votre demande de la décision d’acceptation de \nla substitution par l’organisme prêteur et indiquer la date de prise d’effet du contrat d’assurance accepté en substitution.\nEn cas d’acceptation par l’organisme prêteur, la résiliation prend effet 10 jours après la réception par SECURIMUT, pour le compte \nde l’assureur, de la notification de l’acceptation de la substitution établie par l’organisme prêteur ou à la date de prise d’effet de \nla nouvelle adhésion, si cette date est postérieure.",
+      "context": "Substitution d'assurance et prise d'effet de la résiliation",
+      "page": 6
+    },
+    {
+      "quote": "Le montant minimum assurable est de 17 000 € par contrat et par assuré \n.\nLe montant total des capitaux assurés est limité à 5 000 000 € pour l’ensemble des prêts garantis par l’assureur dans \nle cadre du contrat Assurance Emprunteur MAIF, sauf dérogation expresse et à l’exception des assurés âgés de 75 ans \net plus pour lesquels ce montant est limité à 1 250 000 €.",
+      "context": "Montants assurables minimum et maximum",
+      "page": 4
+    },
+    {
+      "quote": "2.1 - territorialité\nLes garanties s’exercent dans le monde entier.",
+      "context": "Territorialité",
+      "page": 7
+    },
+    {
+      "quote": "les suites et conséquences des affections et accidents visées au questionnaire de santé dont la première constatation \nmédicale est antérieure à l’émission du certificat d'adhésion. Toutefois, les conséquences d’accidents ou maladies \ndéclarées au questionnaire de santé sont couvertes dès lors que les conditions particulières ne les excluent pas \nexplicitement. La GIS n'est pas concernée par cette exclusion.",
+      "context": "Exclusion des affections antérieures déclarées au questionnaire de santé",
+      "page": 11
+    },
+    {
+      "quote": "Le congé légal de maternité est exclu du contrat sauf si, pendant cette période, l’assurée bénéficie des prestations des \ngaranties ITT, IPT, IPP ou GIS au titre d’une maladie ou d’un accident garantis, non liés à la maternité. Toutefois, les congés \npathologiques entraînant une incapacité temporaire totale de travail sont pris en charge après application de la franchise \net jusqu’au congé légal de maternité. En cas d’incapacité temporaire totale de travail à la suite d’un accouchement, la \nprise en charge s’effectuera à compter de la fin du congé légal de maternité et après application de la franchise.",
+      "context": "Traitement du congé légal de maternité",
+      "page": 11
+    },
+    {
+      "quote": "NIAEM - 11/24 - Réalisation : Studio de création MAIF. \nAEM22100001",
+      "context": "Référence interne et date d'édition",
+      "page": 16
+    },
+    {
+      "quote": "MAIF VIE - Société anonyme au capital de 122 000 000 € - RCS Niort 330 432 782 - CS 90000 - 79029 Niort cedex 09.",
+      "context": "Immatriculation de MAIF VIE",
+      "page": 16
+    }
+  ],
+  "gaps": [
+    "Assureur : la tâche indique insurer_name=MAIF ; le document désigne MAIF VIE comme l'assureur (« auprès de MAIF VIE, dénommée l'assureur », « MAIF VIE est l'assureur du contrat », page 2) et imprime « MAIF VIE - Société anonyme au capital de 122 000 000 € - RCS Niort 330 432 782 » (page 16). insurer_name a donc été renseigné à MAIF VIE, insurer_slug resté à maif. Le contrat collectif est souscrit par l'Association Solidarité Autonomie et Prévoyance (ASAP), il est conçu par MAIF VIE, distribué par MAIF et SECURIMUT, et géré par SECURIMUT (SAS, RCS Lyon 487 899 148, Orias 07005662).",
+    "Type de document : la tâche indique document_type=conditions_generales ; le document se présente comme une « Notice d'information » (page 1) d'un contrat collectif à adhésion facultative. La valeur de la tâche a été conservée.",
+    "target_audience laissé à null : le document n'énonce aucune catégorie de clientèle. Il pose des conditions de personnes assurables (18 ans minimum, âges limites par garantie, résidence, emprunt en euros) et vise aussi le dirigeant ou l'associé d'une personne morale emprunteuse ; ces conditions sont reportées dans target_audience_note.",
+    "Exclusion de suicide : le document énonce « le suicide pendant les douze mois qui suivent l'adhésion, sauf pour les prêts immobiliers accordés pour l'acquisition du logement principal dans la limite de 120 000 € » mais NE CITE PAS l'article L. 132-7 du Code des assurances. Aucune référence légale n'a été ajoutée. Les articles effectivement cités par le document sont L113-8, L113-9, L113-12-2, L114-1 à L114-3, L132-26, L141-3, L341-1, L341-4, R341-2 du Code de la Sécurité sociale, R234-1 du Code de la route, L1111-8 du Code de la santé publique et le décret n° 2001-272 du 30 mars 2001.",
+    "Résiliation / substitution : le document fonde la faculté de résilier à tout moment sur l'article L113-12-2 du Code des assurances et subordonne la prise d'effet à l'acceptation de la substitution par l'organisme prêteur, mais il ne nomme jamais la loi Lemoine (2022) ni ne mentionne la suppression du questionnaire de santé qu'elle a introduite. Aucune de ces informations n'a été ajoutée.",
+    "Aucune exclusion ni limitation spécifique aux affections dorso-vertébrales (mal de dos) ou psychiatriques ne figure dans ce document, alors que ces restrictions sont fréquentes en assurance emprunteur. Recherche effectuée sur rachis, dos, vertébral, lombalgie, sciatique, psychiatrique, dépression : aucune occurrence. Le seul filtre équivalent est l'exclusion générale des affections déjà connues et visées au questionnaire de santé, et les restrictions éventuelles portées aux conditions particulières.",
+    "Questionnaire de santé : le document indique seulement « vous devez parfois remplir un questionnaire de santé » (page 5) sans énoncer de seuil de capital ou d'âge dispensant de le remplir. Aucun seuil n'a été inféré.",
+    "Prescription : l'article 5.3 renvoie aux articles L114-1 à L114-3 du Code des assurances et au site legifrance sans reproduire les délais. Le délai de deux ans n'est donc PAS imprimé dans le document et n'a pas été ajouté.",
+    "duration_and_cancellation.tacit_renewal laissé à null : le document ne mentionne aucune reconduction tacite. La durée des garanties suit celle des prêts (« au terme normal ou anticipé de chaque prêt ») et la durée maximale de prêt assurable est de 35 ans (soit 420 mois).",
+    "edition_date : le document ne porte pas de date d'édition explicite ; la dernière page imprime « NIAEM - 11/24 - Réalisation : Studio de création MAIF. » suivi du code interne « AEM22100001 ». 11/24 a été retenu comme date d'édition et NIAEM comme référence ; le code AEM22100001 n'a pas été utilisé comme référence documentaire faute d'indication sur sa nature.",
+    "branch_code laissé à null : le document n'indique aucune branche réglementaire (contrairement à d'autres notices MAIF VIE qui mentionnent la branche 20).",
+    "Le tableau de croisement des taux d'incapacité fonctionnelle et professionnelle (page 9) est extrait sous forme de liste plate de cellules, sans structure de lignes/colonnes. Les valeurs ont été conservées dans l'ordre du texte, sans reconstruire la matrice ; seules les règles énoncées en prose (IPT à partir de 66 %, IPP entre 33 % et 66 %) ont été structurées.",
+    "La couche texte insère des marqueurs de renvoi au lexique (caractères de contrôle et espaces fines insécables) au milieu de nombreuses phrases, par exemple « État qui place l'assuré , suite à un accident ou une maladie garantis ». Ces artefacts ont été retirés des descriptions mais conservés tels quels dans key_quotes, qui restent des extraits exacts.",
+    "Les montants sont imprimés avec des espaces de largeurs variables (espace insécable U+00A0 dans « 17 000 € », « 5 000 000 € », « 1 250 000 € », espace fine U+2009 dans « 9 000 € » et « 150 000 € », espace ordinaire dans « 120 000 € »). Ils ont été conservés octet pour octet.",
+    "Aucun IPID (Document d'information sur le produit d'assurance) n'est intégré à ce document ; les 16 pages sont entièrement la notice d'information.",
+    "is_optional : le document présente trois formules (option 1 Décès/PTIA, option 2 Décès/PTIA/ITT/IPT, option 3 Décès/PTIA/ITT/IPT/IPP) sans qualifier de garantie « optionnelle ». ITT, IPT, IPP et GIS sont marquées is_optional=true parce qu'elles ne figurent que dans certaines formules ou dans les conditions particulières ; décès et PTIA sont dans toutes les formules donc is_optional=false. La reprise à temps partiel thérapeutique, la rechute, les co-emprunteurs et les formules elles-mêmes sont laissées à null.",
+    "Le taux de cotisation n'est pas chiffré : l'article 3.1 énumère les facteurs de tarification et renvoie au certificat d'adhésion et à l'attestation de tarif. Aucun barème ne figure dans le document."
+  ]
+}

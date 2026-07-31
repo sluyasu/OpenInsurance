@@ -63,6 +63,18 @@ branches:
     # No Belgian or Swiss counterpart as a standalone slug. French insurers sell it as its
     # own product with its own IPID (measured on Thelem), because the 2019 decree made the
     # RC compulsory and the vehicle is not covered by a household policy.
+  velo:
+    label: "Vélo"
+    aliases: ["vélo", "bicyclette", "vae", "vélo à assistance électrique", "vélo électrique", "cycle"]
+    mandatory: false
+    code: "9/13"
+    # Added 2026-07-30, from evidence rather than from theory. MAIF's bicycle contract defines
+    # the insured bike as either "à assistance électrique, moteur limité à 250W, coupure à
+    # 25 km/h" or with no pedal assistance at all, and it EXCLUDES damage to véhicules
+    # terrestres à moteur. That is not an EDPM: an EDPM is motorised, is a VTAM, and carries a
+    # compulsory RC. Filing the two together would have merged a product with no compulsory
+    # cover into one that has it. Note also that the bicycle contract's own RC is an OPTION,
+    # not part of the base cover, which is the opposite of the EDPM situation.
   habitation:
     label: "Multirisque habitation"
     aliases: ["mrh", "multirisque habitation", "habitation", "logement", "locataire", "propriétaire non occupant", "pno", "résidence principale", "mobil-home", "caravane"]

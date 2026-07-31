@@ -1,0 +1,1730 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "maif",
+  "insurer_name": "MAIF",
+  "product_name": "PER Responsable et Solidaire",
+  "branch": "retraite",
+  "branch_code": "20 (vie-décès) et 22 (assurances liées à des fonds d’investissement)",
+  "document_type": "conditions_generales",
+  "language": "fr",
+  "target_audience": "particuliers",
+  "target_audience_note": "« Vous devez être majeur, ne pas avoir à la fois demandé la liquidation de votre pension dans un régime obligatoire d’assurance vieillesse et atteint l’âge légal de départ en retraite. Vous devez être fiscalement domicilié en France au moment de l’adhésion. » (page 11). L’annexe 2 prévoit des plafonds de déductibilité distincts pour les travailleurs salariés et pour les travailleurs non-salariés (TNS), avec des spécificités pour les TNS agricoles (page 46).",
+  "reference": "NI21-06/26",
+  "edition_date": "06/26",
+  "product_family": "PER Responsable et Solidaire",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/epargne-financements/notice-per.pdf",
+  "source_pdf": "per-responsable-et-solidaire-notice-dinformation-34193fdb.pdf",
+  "source_sha256": "fba04370e98aacabdfe3650df7a5fbd0a38cc7a06a8bcf1a4ea21c125d10beb9",
+  "source_pages": 80,
+  "fetched_at": "2026-07-30",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Notice d’information du « PER Responsable et Solidaire », plan d’épargne retraite individuel prenant la forme d’un contrat collectif d’assurance vie multisupport à adhésion individuelle et facultative et à versements libres, souscrit par le GERP Futurs Solidaires auprès de MAIF VIE et encadré par la loi Pacte du 22 mai 2019. L’adhésion comporte trois compartiments de gestion (« épargne volontaire », « épargne salariale », « épargne d’entreprise »), un support en euros à capital garanti et des supports en unités de compte non garantis, et se déroule en deux phases : constitution des droits puis liquidation. Le Plan comprend une garantie en cas de vie (épargne retraite liquidable en capital unique ou fractionné et/ou en rente viagère à compter de l’âge légal de départ en retraite ou de la liquidation de la pension), une garantie en cas de décès pendant la phase de constitution (capital, rente viagère ou rente temporaire d’éducation) et une garantie complémentaire en cas de décès couvrant le capital sous risque. Les droits ne sont rachetables avant la retraite que dans les situations limitativement énumérées par la loi (accidents de la vie et acquisition de la résidence principale) et peuvent être transférés vers un autre plan d’épargne retraite.",
+  "definitions": [
+    {
+      "term": "Action",
+      "definition": "Part du capital social d’une entreprise. La valeur d’une action cotée en Bourse varie en fonction des fluctuations des marchés financiers.",
+      "page": 72
+    },
+    {
+      "term": "Adhérent",
+      "definition": "Personne physique qui adhère à la convention collective d’assurance vie, remplit et signe la demande d’adhésion, effectue les versements. Pour le contrat PER Responsable et Solidaire, l’adhérent et l’assuré sont une seule et même personne.",
+      "page": 72
+    },
+    {
+      "term": "Adhésion",
+      "definition": "Contrairement à un contrat individuel (signé entre une personne physique et un assureur), une convention d’assurance collective est conclue entre une ou plusieurs personnes morales (appelées les souscripteurs) et un assureur. Les souscripteurs permettent ainsi à un ensemble de personnes physiques de bénéficier des garanties prévues par la convention d’assurance collective. La relation contractuelle créée entre l’assureur et la personne physique qui adhère à la convention (« l’adhérent ») est désignée sous le terme « adhésion ».",
+      "page": 72
+    },
+    {
+      "term": "Ajustements automatiques",
+      "definition": "Rééquilibrage automatique de la répartition de l’épargne entre les différents supports réalisé par l’assureur et prévue par le contrat.",
+      "page": 72
+    },
+    {
+      "term": "Arbitrage",
+      "definition": "Possibilité exclusive de l’adhérent de modifier en totalité ou en partie la répartition de l’épargne entre les différents supports (euros, unités de compte), par une opération de désinvestissement partielle ou totale et de réinvestissement vers un ou plusieurs supports.",
+      "page": 72
+    },
+    {
+      "term": "Assuré",
+      "definition": "Personne physique sur la tête de laquelle repose le risque de décès.",
+      "page": 72
+    },
+    {
+      "term": "Autres FIA",
+      "definition": "Il s’agit d’un véhicule d’investissement collectif qui répond à la définition de Fonds d’Investissement Alternatif (FIA) mais n’est pas expressément défini dans le Code monétaire et financier.",
+      "page": 72
+    },
+    {
+      "term": "Avenant",
+      "definition": "Document contractuel qui concrétise les modifications apportées à certaines dispositions du contrat d’origine. L’avenant est à conserver car il fait partie intégrante du contrat.",
+      "page": 72
+    },
+    {
+      "term": "Bénéficiaire(s) en cas de décès",
+      "definition": "Personne(s) physique(s) désignée(s) par l’adhérent pour recevoir, au décès de l’assuré, les prestations prévues au contrat.",
+      "page": 72
+    },
+    {
+      "term": "Bénéficiaire en cas de vie",
+      "definition": "Personne qui reçoit le capital ou la rente au terme du contrat. Pour le contrat PER Responsable et Solidaire, le bénéficiaire en cas de vie est l’adhérent.",
+      "page": 72
+    },
+    {
+      "term": "Capital sous risque",
+      "definition": "Montant de la garantie complémentaire versé en cas de décès pour couvrir le risque de moins-value des supports en unités de compte.",
+      "page": 73
+    },
+    {
+      "term": "Certificat d’adhésion",
+      "definition": "Document contractuel qui précise la date d’effet et les caractéristiques de l’adhésion. Ce document est à conserver.",
+      "page": 73
+    },
+    {
+      "term": "Contrat collectif d’assurance ou convention collective d’assurance",
+      "definition": "Contrat conclu entre une ou plusieurs personnes morales (souscripteurs) et un assureur au profit de personnes qui viendront ultérieurement adhérer à la convention (adhérents). PER Responsable et Solidaire est un contrat collectif d’assurance vie souscrit par le GERP Futurs Solidaires auprès de MAIF VIE au bénéfice de ses adhérents.",
+      "page": 73
+    },
+    {
+      "term": "Contrat d’assurance vie",
+      "definition": "Contrat par lequel l’assureur s’engage envers le souscripteur, moyennant le paiement d’une cotisation, à verser une prestation (capital ou rente) au(x) bénéficiaire(s) en cas de réalisation d’un risque lié à la durée de la vie humaine (survie ou décès) auquel est soumis l’assuré.",
+      "page": 73
+    },
+    {
+      "term": "Contrat multisupport",
+      "definition": "Contrat d’assurance vie proposant plusieurs supports d’investissement (le plus souvent un support en euros et des supports en unités de compte) sur lesquels l’adhérent répartit son épargne en fonction de ses objectifs, de son horizon de placement et de son niveau d’acceptation des risques financiers. PER Responsable et Solidaire est un contrat multisupport.",
+      "page": 73
+    },
+    {
+      "term": "Date d’effet",
+      "definition": "Elle correspond à la date d’enregistrement de l’opération à MAIF VIE.",
+      "page": 73
+    },
+    {
+      "term": "Date de valeur",
+      "definition": "Elle correspond à la date à laquelle une opération enregistrée à MAIF VIE produit ses effets contractuels (investissement, désinvestissement, valorisation, arrêt de valorisation…).",
+      "page": 73
+    },
+    {
+      "term": "Désignation bénéficiaire",
+      "definition": "Droit personnel de l’adhérent à caractère contractuel qui permet de porter à la connaissance de l’assureur à l’adhésion, en cours de contrat ou au décès (clause déposée chez un notaire) la ou les personnes qui percevront l’épargne en cas de décès de l’adhérent.",
+      "page": 73
+    },
+    {
+      "term": "Dette privée",
+      "definition": "La dette privée est une solution de financement alternative et complémentaire à la dette bancaire. Elle se différencie des financements « classiques » car elle n’est, généralement, ni cotée ni notée. Elle permet de financer des entreprises ou des projets d’infrastructure.",
+      "page": 73
+    },
+    {
+      "term": "Données à caractère personnel ou données personnelles",
+      "definition": "Il s’agit de toute information se rapportant à une personne physique identifiée ou identifiable. Est réputée être une « personne physique identifiable » une personne physique qui peut être identifiée, directement ou indirectement, notamment par référence à un identifiant, tel qu’un nom, un numéro d’identification, des données de localisation, un identifiant en ligne, ou à un ou plusieurs éléments spécifiques propres à son identité physique, physiologique, génétique, psychique, économique, culturelle ou sociale.",
+      "page": 73
+    },
+    {
+      "term": "Effet de cliquet",
+      "definition": "Ce mécanisme, réservé aux contrats en euros ou aux supports à capital garanti des contrats multisupports, permet de ne jamais remettre en cause les engagements de l’assureur : les intérêts attribués chaque année au contrat sont définitivement acquis.",
+      "page": 74
+    },
+    {
+      "term": "FCP",
+      "definition": "Fonds Commun de Placement. Portefeuille de valeurs mobilières (actions, obligations…) détenues en copropriété et gérées par une société de gestion pour le compte de porteurs de parts.",
+      "page": 74
+    },
+    {
+      "term": "FCPR",
+      "definition": "Les Fonds Commun de Placement à Risque sont des fonds de capital investissement qui sont investis en titres d’entreprises non cotées en bourse à hauteur de 50 % minimum.",
+      "page": 74
+    },
+    {
+      "term": "FIA",
+      "definition": "Les Fonds d’investissement alternatifs sont des fonds d’investissement qui ne sont pas des OPCVM. Ils lèvent des capitaux auprès des investisseurs en vue de les investir, dans l’intérêt de ces investisseurs, conformément à la politique d’investissement du fonds.",
+      "page": 74
+    },
+    {
+      "term": "Montants investis",
+      "definition": "Versements nets de frais sur versements.",
+      "page": 74
+    },
+    {
+      "term": "Notice d’information",
+      "definition": "Document contractuel remis à l’adhérent reprenant et précisant les termes du contrat collectif d’assurance ; la notice définit de manière précise les garanties et leurs modalités d’entrée en vigueur ainsi que les formalités à accomplir en cas de sinistre. Ce document est à conserver.",
+      "page": 74
+    },
+    {
+      "term": "OCDE",
+      "definition": "Organisation de coopération et de développement économiques : il s’agit d’une organisation internationale qui oeuvre pour la mise en place de politiques meilleures pour une vie meilleure. Son objectif est de promouvoir des politiques publiques qui favorisent la prospérité, l’égalité des chances et le bien-être pour tous.",
+      "page": 74
+    },
+    {
+      "term": "OPCVM",
+      "definition": "Organisme de placement collectif en valeurs mobilières. Il existe deux catégories principales d’OPCVM : les Sociétés d’investissement à capital variable (Sicav) et les Fonds communs de placement (FCP).",
+      "page": 74
+    },
+    {
+      "term": "Participation aux bénéfices",
+      "definition": "Part des bénéfices techniques et financiers réalisés par l’assureur redistribuée aux assurés. Elle est versée sous forme d’intérêts complémentaires sur le support en euros.",
+      "page": 74
+    },
+    {
+      "term": "Plus-value ou moins-value",
+      "definition": "Accroissement ou diminution de la valeur d’un bien sur une période donnée. Cette plus-value ou moins-value est dite latente si le bien n’est pas vendu et devient réalisée lors de la vente du bien. Sur un contrat multisupport, on entend par plus-value à la fois les intérêts crédités sur le support en euros et les plus-values éventuelles sur les supports en unités de compte.",
+      "page": 74
+    },
+    {
+      "term": "Prescription",
+      "definition": "La prescription permet, par l’écoulement d’un certain délai, d’éteindre un droit ou, à tout le moins, l’action qui a pour objet de faire valoir ce droit et, en conséquence, de libérer le débiteur de sa dette.",
+      "page": 74
+    },
+    {
+      "term": "Profilage",
+      "definition": "Toute forme de traitement automatisé de données à caractère personnel consistant à utiliser ces données à caractère personnel pour évaluer certains aspects personnels relatifs à une personne physique, notamment pour analyser ou prédire des éléments concernant [...] la situation économique, [...] les préférences personnelles, les intérêts, la fiabilité, le comportement, la localisation ou les déplacements de cette personne physique.",
+      "page": 75
+    },
+    {
+      "term": "Provision mathématique",
+      "definition": "Partie des primes mise en réserve par l’assureur pour faire face à ses engagements futurs et qui, augmentée des intérêts produits affectés au contrat, sera restituée à l’adhérent en cas de rachat ou liquidation (hors frais prélevés).",
+      "page": 75
+    },
+    {
+      "term": "Rachat",
+      "definition": "Faculté offerte à l’adhérent d’obtenir le paiement de tout ou partie de son épargne. Le rachat total met fin à l’adhésion. La faculté de rachat sur le contrat PER Responsable et Solidaire est limitée à des situations exceptionnelles prévues par la réglementation.",
+      "page": 75
+    },
+    {
+      "term": "Renonciation",
+      "definition": "Faculté offerte à l’adhérent de renoncer au contrat dans un délai de 30 jours à compter de la date à laquelle il est informé que le contrat est conclu. La renonciation entraîne la restitution par l’assureur de l’intégralité des sommes versées (sous réserve de leur encaissement préalable).",
+      "page": 75
+    },
+    {
+      "term": "Rente viagère",
+      "definition": "Somme versée périodiquement à l’adhérent (arrérages) jusqu’à son décès en contrepartie d’un capital non récupérable. La rente viagère peut être réversible au profit d’une autre personne. Le contrat PER Responsable et Solidaire offre la possibilité de sortie en rente viagère totale ou partielle avec une possibilité de réversion au profit du conjoint, concubin ou partenaire de Pacs.",
+      "page": 75
+    },
+    {
+      "term": "SCI répondant à la qualification de « Autre FIA »",
+      "definition": "Société Civile Immobilière répondant à la qualification de « Autre FIA » au sens de l’article L. 214-24 III du Code monétaire et financier. Elle a pour objet la constitution et la gestion d’un patrimoine à vocation immobilière susceptible d’être composé de parts ou actions de sociétés à vocation immobilière, cotées ou non cotées, d’immeubles et de tout instrument financier émis par des sociétés ayant un rapport avec l’activité immobilière.",
+      "page": 75
+    },
+    {
+      "term": "Sicav",
+      "definition": "Société d’investissement à capital variable. Société anonyme ayant pour objet la gestion d’un portefeuille de valeurs mobilières (actions, obligations…).",
+      "page": 75
+    },
+    {
+      "term": "Tacite reconduction",
+      "definition": "Renouvellement automatique et sans formalité d’un contrat à durée déterminée, à l’arrivée du terme, à défaut de décision contraire des parties. Les relations contractuelles préexistantes se poursuivent. Chacune des parties peut mettre fin au renouvellement par tacite reconduction suivant les modalités de forme et de préavis prévues au contrat.",
+      "page": 75
+    },
+    {
+      "term": "Taux d’intérêt minimal garanti",
+      "definition": "Engagement pris par l’assureur à l’égard des adhérents de rémunération minimale de l’épargne. Cet engagement est pris pour une période donnée, généralement sur un an.",
+      "page": 75
+    },
+    {
+      "term": "Taux d’intérêt réel du support en euros ou taux de rendement",
+      "definition": "Il est constitué par le taux d’intérêt minimal garanti augmenté de la participation aux bénéfices.",
+      "page": 75
+    },
+    {
+      "term": "Traitement",
+      "definition": "Toute opération ou tout ensemble d’opérations effectuées ou non à l’aide de procédés automatisés et appliquées à des données ou des ensembles de données à caractère personnel.",
+      "page": 76
+    },
+    {
+      "term": "Unité de compte",
+      "definition": "Valeur de référence des contrats à capital variable ou multisupports. Les contrats multisupports sont adossés à des valeurs mobilières (parts de FCP ou actions de Sicav) ; l’engagement de l’assureur porte uniquement sur le nombre d’unités de compte détenues, pas sur la valeur des parts qui évolue à la hausse comme à la baisse selon le rythme d’évolution des marchés financiers. Les unités de compte présentent un risque de perte en capital. Ce risque financier est entièrement assumé par l’adhérent.",
+      "page": 76
+    },
+    {
+      "term": "Valeur de rachat et valeur de transfert de l’adhésion",
+      "definition": "Elles correspondent au cumul de la valeur du support en euros et de la valeur des supports en unités de compte tel que défini par la notice d’information.",
+      "page": 76
+    },
+    {
+      "term": "Valeur liquidative",
+      "definition": "La valeur liquidative d’un OPCVM correspond à la valeur en euros d’une part de l’OPCVM à un instant donné. Elle est obtenue en divisant la valeur globale de l’ensemble des titres qui le composent par le nombre total de parts existantes.",
+      "page": 76
+    },
+    {
+      "term": "Compartiments de gestion",
+      "definition": "Le PER Responsable et Solidaire comporte trois compartiments de gestion distincts : « épargne volontaire » (versements volontaires ponctuels ou programmés et transferts entrants d’un autre produit d’épargne retraite volontaire : PERP, contrat « Madelin », autre Plan d’épargne retraite individuel…), « épargne salariale » (transfert entrant d’un autre produit d’épargne retraite salariale : participation, intéressement, abondement, droits inscrits au compte épargne temps ou jours de repos non pris) et « épargne d’entreprise » (transfert entrant d’un autre produit d’épargne retraite obligatoire d’entreprise, sommes issues notamment de contrats à cotisations définies).",
+      "page": 15
+    },
+    {
+      "term": "Période d’affectation provisoire",
+      "definition": "Du fait de la faculté de renonciation, les montants investis sont affectés en totalité au support en euros pendant les 5 semaines suivant la date d’effet de l’adhésion. La période d’affectation provisoire prend fin au terme des 5 semaines si le dernier jour est un jour ouvré ou, dans le cas contraire, le premier jour ouvré suivant le terme initial.",
+      "page": 17
+    },
+    {
+      "term": "Capital sous risque (mode de calcul)",
+      "definition": "Le capital sous risque est calculé quotidiennement et correspond à la différence positive entre la somme des versements (volontaires et transferts entrants) réalisés sur l’ensemble des supports de l’adhésion, nets des frais sur les versements, diminuée des éventuels rachats partiels hors fiscalité ; et la valeur de l’adhésion versée en cas de décès, brute du prélèvement éventuel de la cotisation due au titre de la garantie complémentaire en cas de décès.",
+      "page": 32
+    },
+    {
+      "term": "Valeur de l’adhésion",
+      "definition": "La valeur de l’adhésion est égale au cumul de la valeur de l’adhésion sur le support en euros, nette des frais sur l’épargne gérée et, le cas échéant, de la cotisation de la garantie complémentaire en cas de décès ; et de la valeur de l’adhésion sur les supports en unités de compte (nombre d’unités de compte net des frais sur l’épargne gérée et, le cas échéant, de la cotisation de la garantie complémentaire en cas de décès, multiplié par la valeur de l’unité de compte).",
+      "page": 28
+    },
+    {
+      "term": "Valeur de transfert de l’adhésion",
+      "definition": "La valeur de transfert de l’adhésion est égale au total de la valeur de l’épargne affectée au(x) supports en unités de compte déterminée à la date d’effet de la demande de transfert augmentée de 3 jours ouvrés ; et la valeur de l’épargne affectée au support en euros appréciée à la même date, mais avec, le cas échéant, application de la réduction ; sur lesquelles sont retenus des frais de transfert au taux de 0,60 %.",
+      "page": 31
+    },
+    {
+      "term": "Risque en matière de durabilité",
+      "definition": "Un événement ou une situation dans le domaine environnemental, social ou de la gouvernance qui, s’il survient, pourrait avoir une incidence négative importante sur la valeur de l’investissement.",
+      "page": 10
+    },
+    {
+      "term": "Investissement durable",
+      "definition": "Par investissement durable, on entend un investissement dans une activité économique qui contribue à un objectif environnemental ou social, pour autant qu’il ne cause de préjudice important à aucun de ces objectifs et que les sociétés bénéficiaires des investissements appliquent des pratiques de bonne gouvernance.",
+      "page": 62
+    },
+    {
+      "term": "Taxinomie de l’UE",
+      "definition": "La taxinomie de l’UE est un système de classification institué par le règlement (UE) 2020/852, qui dresse une liste d’activités économiques durables sur le plan environnemental. Ce règlement ne dresse pas de liste d’activités économiques durables sur le plan social. Les investissements durables ayant un objectif environnemental ne sont pas nécessairement alignés sur la taxinomie.",
+      "page": 62
+    },
+    {
+      "term": "« Part sociale »",
+      "definition": "Le poids des investissements durables contribuant à un objectif social. La part sociale intègre les investissements dans les activités économiques apportant des solutions aux enjeux sociaux ou participant à la transition juste et durable de notre société, pour autant qu’ils ne causent de préjudice important a aucun objectif environnemental ou social et que les entités bénéficiaires des investissements appliquent des pratiques de bonne gouvernance.",
+      "page": 63
+    },
+    {
+      "term": "« Part verte »",
+      "definition": "Le poids des investissements durables contribuant à un objectif environnemental. La part verte intègre les investissements dans les activités économiques contribuant à la transition énergétique et écologique selon les critères du label Greenfin, pour autant qu’ils ne causent de préjudice a aucun objectif environnemental ou social et que les entités bénéficiaires des investissements appliquent des pratiques de bonne gouvernance.",
+      "page": 63
+    },
+    {
+      "term": "Indicateur de risque SRI",
+      "definition": "Summary Risk Indicator, indicateur de niveau de risque de 1 à 7, présent dans les Documents d’informations clés (DIC) des fonds d’investissement. Il est basé sur un calcul de volatilité.",
+      "page": 56
+    },
+    {
+      "term": "PASS",
+      "definition": "PASS : Plafond annuel de la Sécurité sociale.",
+      "page": 46
+    },
+    {
+      "term": "Réserve héréditaire et quotité disponible",
+      "definition": "La réserve est la partie de la succession qui revient obligatoirement à certains héritiers (dits héritiers réservataires), en premier lieu les enfants. La quotité disponible correspond à la fraction restante du patrimoine dont on peut disposer librement.",
+      "page": 45
+    },
+    {
+      "term": "Héritiers",
+      "definition": "Il désigne toutes les personnes qui ont cette qualité au jour du décès de l’adhérent. Les héritiers d’une personne sont le conjoint et les enfants ou leurs descendants, à défaut les parents et les frères et sœurs ou les descendants de ces derniers, à défaut les grands-parents, à défaut les oncles, tantes, cousins et cousines.",
+      "page": 45
+    },
+    {
+      "term": "Conjoint / partenaire de Pacs (clause bénéficiaire)",
+      "definition": "Par conjoint/partenaire de Pacs, il faut entendre la personne mariée/pacsée avec l’adhérent au moment du décès de celui-ci. Si l’adhérent a divorcé/mis fin au Pacs puis s’est remarié/repacsé, c’est son conjoint/partenaire de Pacs au moment du décès qui sera bénéficiaire. Le concubin n’est pas considéré comme conjoint ou partenaire de Pacs.",
+      "page": 44
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Garantie en cas de vie — constitution d’une épargne retraite",
+      "description": "Garantie qui permet la constitution d’une épargne retraite payable au plus tôt à compter de la date à laquelle l’adhérent a liquidé sa pension de retraite dans un régime obligatoire d’assurance vieillesse ou à l’âge légal de départ en retraite, sous la forme d’une rente viagère ou d’un capital unique ou fractionné. Le PER individuel a pour objet l’acquisition et la jouissance de droits viagers personnels ou le versement d’un capital (libéré en une fois ou de manière fractionnée) payables à l’adhérent.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Liquidation au plus tôt à l’âge légal de départ en retraite (article L. 161-17-2 du Code de la Sécurité sociale) ou à la date de liquidation de la pension dans un régime obligatoire d’assurance vieillesse",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "La liquidation peut être ajournée sans que cet ajournement ne puisse excéder le 31 décembre qui suit le 75e anniversaire de l’adhérent (page 36)",
+        "Lors de la demande de liquidation, MAIF VIE procède à un arbitrage pour transférer l’épargne affectée aux supports en unités de compte sur le support en euros ; les prestations sont versées à partir du support en euros (page 36)",
+        "Le contrat ne contient pas de garantie de fidélité, ni de valeur de réduction, ni de frais sur garantie de fidélité ou sur valeur de réduction (page 3)"
+      ],
+      "page": 3
+    },
+    {
+      "name": "Support en euros — garantie en capital et effet de cliquet",
+      "description": "Support en euros qui comporte une garantie en capital au moins égale aux sommes versées, nettes de frais, capitalisées et diminuées des frais prélevés sur l’épargne gérée et de la cotisation éventuellement due au titre de la garantie complémentaire en cas de décès. En dehors des frais ou cotisations appliqués, cette épargne ne peut jamais diminuer (« effet de cliquet ») puisque MAIF VIE prend à sa charge le risque financier en sa qualité d’assureur. La fraction des montants investis affectée au support en euros est valorisée sur une base journalière.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Garantie en capital au moins égale aux sommes versées, nettes de frais, capitalisées et diminuées des frais prélevés sur l’épargne gérée et de la cotisation éventuellement due au titre de la garantie complémentaire en cas de décès",
+      "sub_limits": [],
+      "deductible": "Frais sur l’épargne gérée du support en euros : 0,60 % par an, calculés prorata temporis sur une base journalière, prélevés après attribution de la participation aux bénéfices",
+      "conditions": [
+        "Les frais sur l’épargne gérée sont prélevés au 31 décembre, sur la provision mathématique de l’adhésion à cette date, après application de la participation aux bénéfices et, en cours d’année, au terme de la période d’affectation provisoire, au terme de la phase de constitution des droits et, le cas échéant, à la date d’effet des arbitrages, rachats, transferts et de la déclaration de décès (page 26)"
+      ],
+      "page": 3
+    },
+    {
+      "name": "Taux d’intérêt minimal garanti (support en euros)",
+      "description": "Pendant la phase de constitution des droits, MAIF VIE garantit une valorisation minimale annuelle. Le taux d’intérêt minimal garanti pour une année donnée est fixé chaque année par décision de MAIF VIE dans le respect de la réglementation applicable. En cours d’année, la valorisation du support en euros est effectuée sur la base du taux minimal garanti.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Taux d’intérêt minimal garanti : 0,00 % pour 2026 (net des frais sur l’épargne gérée)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 26
+    },
+    {
+      "name": "Participation aux bénéfices (support en euros)",
+      "description": "Le contrat prévoit une participation aux bénéfices sur le support en euros ; les adhésions participent aux résultats techniques et financiers, nets des charges de la gestion technique et financière dans le respect de la réglementation. Il est notamment fait utilisation de la provision pour participation aux bénéfices. Au 31 décembre de chaque année, une participation complémentaire est immédiatement affectée aux adhésions en cours. Les bénéfices attribués chaque année aux adhésions sont définitivement acquis (effet « de cliquet »). Les frais de gestion sont prélevés après attribution de la participation aux bénéfices.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Taux d’intérêt réel servi en 2025 : 3,05 % (net des frais sur l’épargne gérée)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Le taux d’intérêt réel du support en euros est constitué par le taux d’intérêt minimal garanti augmenté de la participation aux bénéfices (page 26)"
+      ],
+      "page": 3
+    },
+    {
+      "name": "Supports en unités de compte",
+      "description": "Supports en unités de compte permettant aux adhérents qui acceptent le risque financier inhérent à ce type de placements de bénéficier des perspectives de rendement sur le long terme propre aux classes d’actifs de ces supports financiers (actions, diversifiés, obligataires, immobiliers...). L’engagement de MAIF VIE porte uniquement sur le nombre d’unités de compte détenues. L’épargne est valorisée à la hausse comme à la baisse sur la base de la valeur liquidative des unités de compte de référence.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Aucune garantie n’est apportée par MAIF VIE sur la valeur des unités de compte, l’engagement ne portant que sur le nombre d’unités de compte. Aucun rendement minimal n’est garanti et la participation aux bénéfices n’est pas applicable aux supports en unités de compte",
+      "sub_limits": [
+        "Nombre d’unités de compte arrondi à la cinquième décimale la plus proche (page 27)",
+        "Conversion réalisée 3 jours ouvrés après la date d’effet, par référence à la valeur liquidative arrêtée à la date de conversion ou, en l’absence de cotation, du jour de cotation suivant (page 27)",
+        "14 unités de compte listées en annexe 5, toutes labellisées ISR, Finansol ou Greenfin (pages 10 et 56)"
+      ],
+      "deductible": "Frais sur l’épargne gérée des supports en unités de compte : 0,60 % par an, calculés prorata temporis sur une base journalière, prélevés le dernier jour ouvré de chaque mois ; ils entraînent une diminution du nombre d’unités de compte",
+      "conditions": [
+        "Les unités de compte présentent un risque de perte en capital. Ce risque financier est entièrement assumé par l’adhérent (page 9)",
+        "En cas de disparition d’une unité de compte, MAIF VIE lui substitue une autre unité de compte de même nature ; la part de la valeur de rachat affectée à l’ancienne unité de compte est transférée en totalité et sans frais à la nouvelle (page 9)",
+        "MAIF VIE se réserve la possibilité d’ajouter ou de supprimer à tout moment des supports en unités de compte ; l’adhérent en est préalablement informé (page 9)"
+      ],
+      "page": 3
+    },
+    {
+      "name": "Garantie en cas de décès pendant la phase de constitution de l’épargne (contre-assurance)",
+      "description": "Le Plan comporte une contre-assurance en cas de décès de l’adhérent pendant la phase de constitution des droits permettant le versement d’un capital ou d’une rente viagère, au profit d’un ou plusieurs bénéficiaires expressément désignés par l’adhérent (à défaut, à son conjoint ou à son partenaire lié par un Pacte civil de solidarité) ou le versement d’une rente temporaire d’éducation versée aux enfants mineurs de l’adhérent. Le décès de l’adhérent au cours de la phase de constitution des droits met fin à l’adhésion.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Valeur des droits individuels, c’est-à-dire valeur de l’adhésion à la date d’effet de la déclaration de décès augmentée de 3 jours ouvrés, après déduction – le cas échéant – des prélèvements fiscaux et sociaux en vigueur et de la cotisation due au titre de la garantie complémentaire en cas de décès",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "La garantie est mise en œuvre si le décès de l’adhérent intervient pendant la période de constitution de l’épargne ; elle n’est donc pas acquise si l’adhérent décède en phase de liquidation des droits individuels (page 33)",
+        "La date d’effet de la déclaration de décès est fixée à la date de réception par MAIF VIE de l’acte de décès de l’adhérent (page 33)",
+        "Le versement du capital au(x) bénéficiaire(s) ne donne pas lieu à l’application de frais par MAIF VIE (page 34)",
+        "En l’absence de bénéficiaire au jour du décès, les capitaux versés font partie de la succession de l’adhérent (page 13)"
+      ],
+      "page": 32
+    },
+    {
+      "name": "Garantie complémentaire en cas de décès (capital sous risque)",
+      "description": "Garantie complémentaire en cas de décès qui assure, en cas de décès pendant la phase de constitution des droits et sous réserve des conditions d’application, le versement du capital sous risque au(x) bénéficiaire(s) désigné(s). Ce capital est destiné à compenser les moins-values éventuelles des supports en unités de compte de l’adhésion en cas de décès. En cas de décès, MAIF VIE verse le capital sous risque déterminé 7 jours ouvrés avant la date d’effet de la déclaration de décès. Si les conditions de la garantie complémentaire sont remplies, la valeur versée est majorée du montant de la garantie complémentaire en cas de décès.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Le capital sous risque pris en charge par MAIF VIE ne peut excéder 300 000 € par adhésion",
+      "sub_limits": [],
+      "deductible": "Cotisation journalière due lorsque le capital sous risque est positif, déterminée sur la base d’un taux annuel de 4 % du capital sous risque, prélevée le dernier jour ouvré de chaque mois",
+      "conditions": [
+        "La garantie ne s’applique pas lorsque l’adhérent est, au moment de l’adhésion, placé sous un régime de tutelle ou dans un établissement psychiatrique d’hospitalisation (page 32)",
+        "En dehors de ces situations, la garantie complémentaire en cas de décès est obligatoire ; elle est incluse au Plan et s’applique indépendamment de la formule de gestion et du profil d’épargnant choisis (page 32)",
+        "Elle prend effet en même temps que l’adhésion. Aucune formalité médicale n’est exigée (page 32)",
+        "Elle cesse automatiquement lorsque la valeur de l’adhésion ne permet pas le recouvrement de la cotisation, lors de la liquidation du Plan, ou à la suite de toute opération mettant fin à l’adhésion et au plus tard à partir du 31 décembre qui suit le 75e anniversaire (page 32)",
+        "Aucune cotisation n’est prélevée lorsque le capital sous risque est négatif (page 33)",
+        "Le prélèvement intervient en nombre de parts d’unités de compte ou en euros au prorata de la valeur de l’adhésion de chacun des supports présents au Plan, y compris sur le support en euros (page 33)"
+      ],
+      "page": 32
+    },
+    {
+      "name": "Versement d’un capital décès au(x) bénéficiaire(s) désigné(s)",
+      "description": "En cas de décès de l’adhérent pendant la phase de constitution des droits, un capital est versé aux bénéficiaires désignés lorsque l’adhérent a retenu cette option. Chaque bénéficiaire reçoit la part pour laquelle il a été désigné. Après réception de tous les documents, MAIF VIE effectue le règlement par virement sur un compte courant ouvert dans un pays de la zone SEPA aux nom et prénom de chaque bénéficiaire.",
+      "is_optional": true,
+      "territorial_scope": "Virement sur un compte courant ouvert dans un pays de la zone SEPA",
+      "limits": "Valeur de l’adhésion à la date d’effet de la déclaration de décès augmentée de 3 jours ouvrés, majorée le cas échéant de la garantie complémentaire en cas de décès",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Règlement dans un délai maximal d’un mois après réception de tous les documents (page 34)"
+      ],
+      "page": 33
+    },
+    {
+      "name": "Versement d’une rente viagère au(x) bénéficiaire(s) en cas de décès",
+      "description": "En cas de décès de l’adhérent pendant la phase de constitution des droits, une rente viagère est versée au(x) bénéficiaire(s) désigné(s) lorsque l’adhérent a retenu cette option. Le capital constitutif de la rente est égal à la valeur des droits individuels, c’est-à-dire à la valeur de l’adhésion à la date d’effet de la déclaration du décès augmentée de 3 jours ouvrés. Les montants des rentes, exprimés en euros, sont calculés par conversion du capital constitutif en prenant en compte les âges des bénéficiaires et la durée viagère ou temporaire de la rente et en utilisant les tables de mortalité, paramètres et règles techniques en vigueur à la date de liquidation des rentes.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Frais de versement des rentes s’élevant à 1,50 % prélevés sur les arrérages de rente ; frais au taux annuel de 0,60 % des provisions mathématiques de rentes pour l’établissement du compte de résultat",
+      "conditions": [
+        "Les rentes sont versées à terme échu, mensuellement, trimestriellement, semestriellement ou annuellement en fonction de leurs montants, sans prorata en cas de décès au cours d’une période (page 34)",
+        "Les rentes participent aux résultats techniques et financiers, mais cette participation peut être différente de celle du support en euros pendant la phase de constitution de l’épargne (page 35)"
+      ],
+      "page": 33
+    },
+    {
+      "name": "Rente temporaire d’éducation aux enfants mineurs",
+      "description": "Une rente temporaire d’éducation est versée à chacun des enfants de l’adhérent nés ou à naître, mineurs au moment du décès, jusqu’à leur 25e anniversaire, lorsque l’adhérent a retenu cette option de clause bénéficiaire. Si l’adhérent a plusieurs enfants mineurs au moment de son décès, le capital constitutif de chacune des rentes temporaires est obtenu en divisant la valeur de l’adhésion par le nombre d’enfants bénéficiaires des rentes temporaires.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "Rente versée jusqu’au 25e anniversaire de chaque enfant bénéficiaire",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Seuls les enfants mineurs de l’adhérent au moment de son décès reçoivent la rente temporaire d’éducation (page 45)",
+        "La mention « nés ou à naître » permet d’inclure tous les enfants nés mais aussi à naître, c’est-à-dire conçus avant le décès de l’adhérent (page 45)",
+        "À défaut d’autres enfants mineurs, le capital constitutif de la rente intégrera la succession de l’adhérent (page 45)"
+      ],
+      "page": 13
+    },
+    {
+      "name": "Liquidation sous forme de capital (unique ou fractionné)",
+      "description": "Possibilité d’opter, lors de la liquidation et uniquement pour les compartiments « épargne volontaire » et « épargne salariale », pour le versement de tout ou partie des droits individuels sous la forme d’un capital, versé en une fois ou de manière fractionnée. Les paiements fractionnés sont effectués à partir du support en euros selon la périodicité choisie : trimestrielle ou annuelle. En cas de sortie partielle en capital, la valeur résiduelle de l’adhésion non versée en capital est convertie en rente viagère.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "Capital fractionné : durée maximale de 5 ans ; montant minimal d’un versement de 500 € par trimestre et de 2 000 € par an",
+      "sub_limits": [],
+      "deductible": "MAIF VIE n’applique pas de frais en cas de sortie en capital ; des frais de gestion au taux annuel de 0,60 % sont appliqués sur le taux de rendement du support en euros pour le capital fractionné",
+      "conditions": [
+        "Réservé aux compartiments « épargne volontaire » et « épargne salariale » (page 36)",
+        "La liquidation sous la forme d’un capital n’est pas permise en cas d’option expresse et irrévocable pour la rente viagère à compter de l’ouverture du Plan (page 36)",
+        "En cas de décès de l’adhérent avant le paiement de la totalité du capital fractionné, le solde est versé à sa succession (page 37)",
+        "La date d’effet est la date de réception par MAIF VIE de la demande de liquidation complète ; montant versé à cette date augmentée de 3 jours ouvrés (page 37)"
+      ],
+      "page": 36
+    },
+    {
+      "name": "Liquidation en rente viagère classique",
+      "description": "Liquidation de tout ou partie des droits individuels sous la forme d’une rente viagère. La date d’effet est la date de réception par MAIF VIE de la demande de liquidation complète ; la liquidation intervient le 3e jour ouvré suivant. Le montant de la rente est calculé par conversion du capital constitutif en prenant en compte l’âge du ou des bénéficiaires et en utilisant les tables de mortalité, paramètres et règles techniques en vigueur au titre du PER Responsable et Solidaire à la date de liquidation. Les rentes sont payables à terme échu, mensuellement, trimestriellement, semestriellement ou annuellement en fonction du montant, sans prorata en cas de décès au cours d’une période.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Frais de versement des rentes s’élevant à 1,50 % prélevés sur les arrérages de rente ; frais au taux annuel de 0,60 % des provisions mathématiques de rentes pour l’établissement du compte de résultat, dans la limite des produits financiers nets des placements inscrits en recettes dans ce compte",
+      "conditions": [
+        "Le choix entre rente viagère classique et rente viagère à annuités garanties ne peut plus être modifié en phase de liquidation du plan (page 37)",
+        "Si l’adhérent choisit une rente non réversible, les engagements de MAIF VIE prennent fin au jour de son décès (page 38)",
+        "Les rentes participent aux résultats techniques et financiers ; la valorisation résultant de l’affectation de la participation aux résultats est effectuée au début de chaque année civile (page 38)"
+      ],
+      "page": 37
+    },
+    {
+      "name": "Option de réversion de la rente viagère",
+      "description": "Au moment de la demande de liquidation de la rente viagère, l’adhérent peut opter pour la réversion à 60 % ou à 100 % au profit de son conjoint ou de toute autre personne majeure qu’il désigne expressément. Une première rente est versée à l’adhérent jusqu’à son décès, puis une seconde rente est versée au bénéficiaire de la réversion jusqu’à son propre décès.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "Réversion à 60 % ou à 100 %",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "L’application des règles techniques conduit, en fonction du différentiel d’âges existant entre l’adhérent et le bénéficiaire de la seconde rente, à l’application d’un coefficient d’abattement sur le montant de la première rente (page 38)",
+        "Option cumulable avec la rente viagère à annuités garanties (page 36)"
+      ],
+      "page": 37
+    },
+    {
+      "name": "Rente viagère à annuités garanties",
+      "description": "La rente viagère à annuités garanties assure le service de la rente pendant une durée de 5, 10, 15, 20 ou 25 ans, choisie au moment de la liquidation du plan. Si le rentier vit au-delà de la période d’annuités garanties, il continue à percevoir la rente viagère jusqu’à son décès. En cas de décès du rentier pendant la période d’annuités garanties, le solde des annuités garanties à courir jusqu’au terme de la période choisie est versé, sous forme de rente, à un bénéficiaire jusqu’à la fin de la période d’annuités garanties.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "Durée de 5, 10, 15, 20 ou 25 ans ; le nombre maximal d’annuités choisies ne peut excéder l’espérance de vie de l’assuré à la date de mise en service de la rente déterminée selon les tables de mortalité prévues par l’article A. 132-18 du Code des assurances, diminuée de cinq ans",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Si le bénéficiaire décède pendant la période de garantie, les annuités restant à verser le seront au(x) bénéficiaire(s) de 2e rang vivant ou représenté (page 37)",
+        "La désignation des bénéficiaires de premier et de second rang est réalisée de façon définitive et irrévocable au moment de la liquidation du plan (page 37)",
+        "L’application des règles techniques conduit, en fonction de la durée de garantie, à l’application d’un coefficient d’abattement sur le montant de la première rente (page 38)",
+        "Option cumulable avec la réversion (page 36)"
+      ],
+      "page": 37
+    },
+    {
+      "name": "Rachat des rentes de faible montant",
+      "description": "MAIF VIE, avec l’accord de l’adhérent et dans les conditions mentionnées aux articles A. 160-2-1 à A. 160-4 du Code des assurances, peut procéder au rachat des rentes et des majorations de rentes concernant le Plan lorsque les quittances d’arrérages mensuelles ne dépassent pas 100 €. Lorsque les quittances d’arrérages sont versées selon une périodicité de paiement supérieure à un mois, le seuil est multiplié par le nombre de mois inclus dans la période de paiement.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "Quittances d’arrérages mensuelles ne dépassant pas 100 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 38
+    },
+    {
+      "name": "Rachat exceptionnel des droits individuels (déblocage anticipé)",
+      "description": "Les droits individuels constitués dans le cadre du Plan, ventilés sur les trois compartiments, peuvent être rachetés durant la phase de constitution des droits dans les seuls cas suivants : le décès du conjoint de l’adhérent ou de son partenaire lié par un Pacs ; l’invalidité de l’adhérent, de ses enfants, de son conjoint ou de son partenaire de Pacs (au sens des 2° et 3° de l’article L. 341-4 du Code de la Sécurité sociale) ; la situation de surendettement de l’adhérent (article L. 711-1 du Code de la consommation) ; l’expiration des droits à l’assurance chômage de l’adhérent, ou le fait pour l’adhérent ayant exercé des fonctions d’administrateur, de membre du directoire ou de membre du comité de surveillance et n’ayant pas liquidé sa pension de ne pas être titulaire d’un contrat de travail ou d’un mandat social depuis deux ans au moins ; la cessation d’activité non salariée à la suite d’un jugement de liquidation judiciaire ou toute situation justifiant ce rachat selon le président du tribunal de commerce (procédure de conciliation, article L. 611-4 du Code de commerce) ; l’affectation des sommes épargnées à l’acquisition de la résidence principale.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "Rachat partiel d’un montant minimal de 150 € ; après rachat, un montant minimal de 150 € doit rester sur l’adhésion. Rachat total : il met fin à l’adhésion et à toutes les garanties associées",
+      "sub_limits": [],
+      "deductible": "Sans frais ni pénalité contractuelle",
+      "conditions": [
+        "Possible à l’issue de la période d’affectation provisoire (page 29)",
+        "Les droits correspondant aux sommes provenant de l’épargne obligatoire d’entreprise ne peuvent être rachetés pour le motif d’acquisition de la résidence principale (page 29)",
+        "Pour l’acquisition de la résidence principale, le montant débloqué ne peut être supérieur au montant financé hors emprunt et hors déblocage du PER Responsable et Solidaire (page 29)",
+        "Dans un délai de 15 jours à compter de la demande, MAIF VIE notifie la valeur de rachat ; l’adhérent peut renoncer au rachat dans un délai de 15 jours à compter de cette notification (page 30)"
+      ],
+      "page": 29
+    },
+    {
+      "name": "Transfert des droits individuels vers un autre plan d’épargne retraite",
+      "description": "Pendant la phase de constitution de l’épargne, l’adhérent a la possibilité de transférer ses droits individuels en cours de constitution sur un autre plan d’épargne retraite ouvert auprès d’un autre organisme de gestion. La demande est adressée à MAIF VIE par lettre recommandée avec un document identifiant le nouveau plan. Le transfert des droits individuels met fin à l’adhésion et aux garanties qui lui sont associées.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "Frais de transfert au taux de 0,60 % de la valeur transférée ; réduction possible de la valeur de transfert sans excéder 15 % de la valeur des droits individuels relatifs à des engagements exprimés en euros",
+      "sub_limits": [
+        "Valeurs minimales de transfert sur le support en euros, nettes de frais, pour un montant investi de 100 € : 83,98 € (1re année), 83,48 €, 82,98 €, 82,48 €, 81,99 €, 81,49 €, 81,00 €, 80,52 € (8e année) (page 31)",
+        "Nombre minimal d’unités de compte en cas de transfert, net de frais, pour un montant investi équivalent à 100 unités de compte : 98,80360 (1re année) à 94,72780 (8e année) (page 31)"
+      ],
+      "deductible": "0,60 % ; frais nuls à l’issue d’une période de cinq ans à compter du premier versement dans le Plan, ou lorsque le transfert intervient après la date de liquidation de la pension dans un régime obligatoire d’assurance vieillesse ou de l’âge légal de départ en retraite",
+      "conditions": [
+        "Entre la demande de transfert et la fin du délai de renonciation, la valeur de l’adhésion est intégralement affectée au support en euros (page 30)",
+        "L’adhérent dispose d’un délai à compter de la date de notification de la valeur de transfert pour renoncer au transfert (page 30)"
+      ],
+      "page": 30
+    },
+    {
+      "name": "Transferts entrants sur le PER Responsable et Solidaire",
+      "description": "Possibilité de transférer, sur une adhésion au Plan déjà établie, les droits en cours de constitution sur un autre produit d’épargne retraite supplémentaire : autre PER individuel, contrat « Madelin » (article L. 144-1 du Code des assurances), PERP (article L. 144-2), contrat « PREFON » (article L. 132-23), convention « complémentaire retraite des hospitaliers », contrats des régimes gérés par l’Union mutualiste retraite (COREM), PERCO (article L. 3334-1 du Code du travail, affecté au compartiment « épargne salariale ») et contrat « article 83 » ou PERE lorsque le salarié n’est plus tenu d’y adhérer (affecté au compartiment « épargne d’entreprise »).",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "Montant investi égal au montant de la valeur de transfert versée directement par le gestionnaire du contrat, plan ou convention transféré, sans prélèvement de frais par MAIF VIE",
+      "sub_limits": [],
+      "deductible": "Frais en cas de transfert sur le PER Responsable et Solidaire : aucuns",
+      "conditions": [
+        "Toute demande de transfert entrant implique l’adhésion préalable au PER Responsable et Solidaire avec un premier versement d’un montant minimum de 150 € (page 18)",
+        "Les sommes provenant du transfert de droits individuels ne permettent pas à l’adhérent de bénéficier de la déduction fiscale (page 18)",
+        "Lorsque l’ancienneté du Plan transféré ne permet pas de distinguer les versements volontaires des versements obligatoires, les droits sont assimilés à des versements obligatoires, sauf justification par l’adhérent (page 18)",
+        "Sous réserve de son encaissement effectif, le versement issu du transfert prend effet à la date de son encaissement et est valorisé à compter du 3e jour ouvré suivant (page 18)"
+      ],
+      "page": 17
+    },
+    {
+      "name": "Versements volontaires ponctuels et programmés",
+      "description": "Alimentation de l’adhésion par des versements volontaires ponctuels ou programmés, possibles uniquement sur le compartiment « épargne volontaire », réalisés par prélèvement sur un compte bancaire ouvert dans un pays de la zone SEPA aux nom et prénom de l’adhérent. Les versements programmés sont réalisés par prélèvements automatiques mensuels le 8 de chaque mois et peuvent être mis en place dès l’adhésion ou plus tard à tout moment.",
+      "is_optional": true,
+      "territorial_scope": "Prélèvement sur un compte bancaire ouvert dans un pays de la zone SEPA aux nom et prénom de l’adhérent",
+      "limits": "Versement initial à l’adhésion : 150 € minimum ; versements ponctuels : 30 € minimum ; versements programmés : 30 € minimum",
+      "sub_limits": [],
+      "deductible": "Frais sur les versements volontaires, barème dégressif : inférieur à 30 000 € : 2,40 % sur les versements ponctuels et 2,20 % sur les versements programmés ; entre 30 000 € et 99 999 € : 2 % ; entre 100 000 € et 149 999 € : 1,50 % ; égal ou supérieur à 150 000 € : 1 %",
+      "conditions": [
+        "Les versements en espèces ou par mandat cash ne sont pas autorisés (page 15)",
+        "Le premier prélèvement programmé ne peut être effectué qu’à l’issue du délai d’affectation provisoire de 5 semaines (page 15)",
+        "L’adhérent peut augmenter ou diminuer le montant de ses prélèvements ou les interrompre à tout moment sans frais ni pénalité (page 16)",
+        "La mise en place de versements programmés peut ne pas s’appliquer à toutes les unités de compte (page 15)",
+        "Un versement ponctuel ou programmé est valorisé à compter du 3e jour ouvré qui suit sa date d’effet (page 16)"
+      ],
+      "page": 15
+    },
+    {
+      "name": "Formule Gestion à horizon (formule par défaut)",
+      "description": "Formule de gestion pilotée par MAIF VIE, avec un profil d’épargnant au choix (prudent, équilibré ou dynamique), permettant de répartir les montants investis et l’épargne entre le support en euros et les supports en unités de compte en fonction de la date envisagée de liquidation du Plan et d’une grille de répartition préétablie par MAIF VIE conforme au Code monétaire et financier. Plus le terme de la phase de constitution de l’épargne est proche, plus la part investie sur les supports en unités de compte diminue au profit du support en euros. Cette épargne suit un rythme de sécurisation jusqu’au terme prévu pour la liquidation du Plan.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "Grilles de répartition en annexe 3 : profil prudent 60,00 % en support euros de 18 à 45 ans jusqu’à 100,00 % à 60 ans et plus ; profil équilibré 40,00 % de 18 à 45 ans ; profil dynamique 20,00 % de 18 à 45 ans",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Conformément à la réglementation, sauf décision contraire et expresse de l’adhérent, les versements (volontaires et transferts entrants) réalisés sur le Plan sont affectés au profil équilibré de la formule Gestion à horizon au terme de la période d’affectation provisoire (page 20)",
+        "La renonciation au profil équilibré par défaut suppose une demande écrite et signée comportant obligatoirement et sans modification le texte réglementaire prévu par l’article D. 224-3 du Code monétaire et financier (page 20)",
+        "Réajustement semestriel automatique de l’épargne, calculé sur la base de la valeur des supports arrêtée le 15 mars et le 15 septembre de chaque année et réalisé le 3e jour ouvré suivant (page 21)",
+        "Chacun des ajustements automatiques est effectué sans frais (page 21)",
+        "L’âge de départ en retraite est systématiquement pris comme référence pour la détermination du terme de la phase de constitution des droits (page 21)"
+      ],
+      "page": 19
+    },
+    {
+      "name": "Formule Gestion profilée constante",
+      "description": "Formule de gestion pilotée par MAIF VIE permettant d’obtenir une répartition constante de l’ensemble des versements (volontaires ou provenant d’un transfert) et de l’épargne entre le support en euros et les supports en unités de compte, en fonction du profil d’épargnant choisi (prudent, équilibré ou dynamique). MAIF VIE procède chaque semestre à l’ajustement de l’épargne afin de respecter la répartition prévue par le profil choisi.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "Répartition des versements selon le profil d’épargnant : prudent 60 % support en euros / 40 % unités de compte ; équilibré 40 % / 60 % ; dynamique 20 % / 80 %",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Ajustements calculés sur la base de la valeur des supports arrêtée le 15 mars et le 15 septembre de chaque année et réalisés le 3e jour ouvré suivant (page 22)",
+        "Chacun des ajustements automatiques est effectué sans frais (page 22)"
+      ],
+      "page": 19
+    },
+    {
+      "name": "Formule Gestion libre",
+      "description": "Formule permettant à l’adhérent de répartir librement ses versements (volontaires ou provenant d’un transfert) et son épargne entre le support en euros et les supports en unités de compte, et de modifier à tout moment la répartition de son épargne en procédant à des arbitrages. Pour certains supports en unités de compte, cette formule offre également des options de services financiers (investissement progressif, sécurisation des plus-values).",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "Minimum d’affectation de 20 € par support en unités de compte",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "En l’absence de choix de répartition ou si la fraction du versement à affecter aux supports en unités de compte est inférieure au seuil minimum, l’intégralité du versement est affectée au support en euros (page 23)",
+        "Pour les versements programmés, la répartition est exprimée en euros (page 23)"
+      ],
+      "page": 19
+    },
+    {
+      "name": "Arbitrages (formule Gestion libre)",
+      "description": "Possibilité de procéder à des arbitrages afin de modifier en totalité ou en partie la répartition de la valeur de l’adhésion entre les différents supports (support en euros et supports en unités de compte), par une opération de désinvestissement partiel ou total et de réinvestissement vers un ou plusieurs supports. À l’issue de la période d’affectation provisoire, les arbitrages peuvent être réalisés à tout moment à la demande de l’adhérent. Le nombre d’arbitrages n’est pas limité.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "Montant minimal de 300 € (arbitrages du support en euros vers les unités de compte, exprimés en euros ; arbitrages des unités de compte, exprimés en nombre d’unités de compte, minimum de 300 € apprécié par référence à la dernière valeur des unités de compte connue au jour de la réception de la demande)",
+      "sub_limits": [],
+      "deductible": "Néant pour le premier arbitrage de chaque période contractuelle de 12 mois à compter de la date d’effet de l’adhésion ; 15 € pour chaque arbitrage suivant au cours de la même période",
+      "conditions": [
+        "La date d’effet de l’arbitrage est fixée à la date de réception par MAIF VIE de la demande complète ; la valorisation ou la conversion intervient le 3e jour ouvré suivant (page 24)",
+        "La demande d’arbitrage prime sur une demande de versement concomitante (page 24)",
+        "MAIF VIE peut à tout moment et sans préavis modifier et/ou suspendre temporairement les possibilités d’arbitrage, dans le respect des dispositions réglementaires (page 24)"
+      ],
+      "page": 24
+    },
+    {
+      "name": "Option « Sécurisation des plus-values »",
+      "description": "Option permettant de sécuriser sur le support en euros, par un transfert automatique mensuel, les plus-values constatées sur un ou plusieurs supports en unités de compte préalablement désignés. Le 15 de chaque mois (date de calcul), MAIF VIE détermine la plus-value éventuelle sur chacun des supports désignés. Dès que la plus-value constatée sur l’un des supports atteint au moins 5 % de la valeur de référence sur le même support, l’intégralité de la plus-value du support est transférée automatiquement vers le support en euros.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "Seuil de déclenchement : 5 % de la valeur de référence sur le même support",
+      "sub_limits": [],
+      "deductible": "Option réalisée sans frais ; chaque transfert automatique est effectué sans frais",
+      "conditions": [
+        "Peut être mise en place uniquement dans le cadre de la formule Gestion libre et ne peut être associée à l’option d’investissement progressif (page 24)",
+        "L’ajustement est réalisé le 3e jour ouvré suivant le 15 de chaque mois (page 25)",
+        "Si le seuil n’est pas atteint, aucun ajustement n’est effectué (page 25)",
+        "L’option est interrompue à la date de réception de la demande écrite complète (page 25)"
+      ],
+      "page": 24
+    },
+    {
+      "name": "Option « Investissement progressif »",
+      "description": "Option permettant d’investir progressivement sur les supports en unités de compte préalablement désignés, tout ou partie de la valeur du support en euros afin de lisser les effets des variations boursières. L’investissement est réalisé le 3e jour ouvré suivant le 15 de chaque mois. Les conditions de l’investissement progressif sont précisées dans un règlement spécifique qui peut être communiqué à tout moment.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "La somme globale investie dans le cadre de l’investissement progressif doit représenter un minimum de 10 000 €",
+      "sub_limits": [],
+      "deductible": "aucuns",
+      "conditions": [
+        "Peut être mise en place uniquement dans le cadre de la formule Gestion libre et ne peut être associée à l’option de sécurisation des plus-values (page 25)",
+        "Peut être mise en place à l’adhésion ou au cours de la phase de constitution des droits (page 25)"
+      ],
+      "page": 25
+    },
+    {
+      "name": "Changement de formule de gestion et de profil d’épargnant",
+      "description": "À l’issue de la période d’affectation provisoire et pendant la phase de constitution des droits, l’adhérent peut à tout moment, sans frais, changer de formule de gestion et, au sein des formules Gestion à horizon et Gestion profilée constante, changer de profil d’épargnant. Le changement s’applique à l’intégralité de l’épargne constituée sur l’adhésion et implique la réalisation par MAIF VIE de l’ajustement nécessaire entre les supports.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "sans frais",
+      "conditions": [
+        "La date d’effet correspond à la date de réception par MAIF VIE de la demande complète ; le changement et l’ajustement interviennent le 3e jour ouvré suivant (page 20)",
+        "Le changement de formule et/ou de profil prime sur une demande de versement concomitante (page 20)",
+        "Les formules de gestion sont exclusives les unes des autres (page 20)"
+      ],
+      "page": 20
+    },
+    {
+      "name": "Faculté de renonciation à l’adhésion",
+      "description": "L’adhérent peut renoncer à son adhésion par lettre recommandée avec demande d’avis de réception dans un délai de 30 jours calendaires révolus à compter de la réception du certificat d’adhésion, en adressant sa demande à MAIF VIE, 50 avenue Salvador Allende, CS 90000, 79029 Niort cedex 9, rédigée selon le modèle prévu par la notice. L’intégralité des sommes versées est remboursée, sous réserve de leur encaissement effectif.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Remboursement de l’intégralité des sommes versées dans un délai maximum de 30 jours à compter de la réception de la demande de renonciation",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "L’exercice de la faculté de renonciation et le remboursement qui en résulte mettent fin à l’adhésion et à l’ensemble des garanties associées (page 13)"
+      ],
+      "page": 13
+    },
+    {
+      "name": "Information annuelle et information sur les opérations de gestion",
+      "description": "Au début de chaque année, MAIF VIE envoie un relevé d’information indiquant notamment les opérations réalisées au cours de l’année précédente, la valeur de l’adhésion et la valeur de transfert calculées au 31 décembre de l’année écoulée. Après chaque opération de gestion (versement volontaire, transfert entrant, arbitrage...), MAIF VIE adresse un relevé d’opération. L’adhérent bénéficie également d’une information détaillée précisant, pour chaque actif du Plan, la performance brute de frais, la performance nette de frais et les frais prélevés, fournie avant l’ouverture du Plan puis actualisée annuellement.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "À compter de la cinquième année précédant la date de liquidation de la pension ou l’âge légal de départ en retraite, l’adhérent peut interroger MAIF VIE par tout moyen sur ses droits et les modalités de restitution de son épargne (page 40)",
+        "La consultation de l’adhésion est disponible à tout moment dans l’espace personnel sur maif.fr (page 40)"
+      ],
+      "page": 39
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Guerre civile ou étrangère",
+      "description": "La garantie complémentaire en cas de décès ne s’applique pas au décès consécutif à une guerre civile ou étrangère.",
+      "applies_to": "Garantie complémentaire en cas de décès",
+      "page": 33
+    },
+    {
+      "name": "Risque nucléaire",
+      "description": "La garantie complémentaire en cas de décès ne s’applique pas au décès consécutif à des effets directs ou indirects d’explosion, de dégagement de chaleur, d’irradiation provenant de transmutation de noyaux d’atome.",
+      "applies_to": "Garantie complémentaire en cas de décès",
+      "page": 33
+    },
+    {
+      "name": "Suicide pendant la première année de l’adhésion",
+      "description": "La garantie complémentaire en cas de décès ne s’applique pas au décès consécutif à un suicide de l’assuré pendant la première année de l’adhésion.",
+      "applies_to": "Garantie complémentaire en cas de décès",
+      "page": 33
+    },
+    {
+      "name": "Atteinte volontaire et consciente à son intégrité physique",
+      "description": "La garantie complémentaire en cas de décès ne s’applique pas au décès consécutif à toute atteinte volontaire et consciente par l’assuré à son intégrité physique.",
+      "applies_to": "Garantie complémentaire en cas de décès",
+      "page": 33
+    },
+    {
+      "name": "Participation à des actes de violence",
+      "description": "La garantie complémentaire en cas de décès ne s’applique pas au décès consécutif à la participation de l’assuré à tous actes de violence, sauf cas de légitime défense.",
+      "applies_to": "Garantie complémentaire en cas de décès",
+      "page": 33
+    },
+    {
+      "name": "Compétitions à moteur, records, acrobaties, cascades, essais, paris, défis",
+      "description": "La garantie complémentaire en cas de décès ne s’applique pas au décès consécutif à la participation de l’assuré à des compétitions nécessitant l’utilisation d’engins à moteur (terrestres, maritimes ou aériens), à des tentatives de records, des acrobaties, des cascades, des essais, des paris, des défis.",
+      "applies_to": "Garantie complémentaire en cas de décès",
+      "page": 33
+    },
+    {
+      "name": "Sport exercé à titre professionnel ou rémunéré",
+      "description": "La garantie complémentaire en cas de décès ne s’applique pas au décès consécutif à la pratique de tout sport exercé à titre professionnel ou dans le cadre d’un contrat avec rémunération.",
+      "applies_to": "Garantie complémentaire en cas de décès",
+      "page": 33
+    },
+    {
+      "name": "Vols sur engin non certifié ou piloté sans brevet valable",
+      "description": "Exclusion au titre de la pratique des sports de loisirs : vols comme pilote ou passager sur tout engin non muni d’un certificat de navigabilité ou piloté par une personne ne possédant pas de brevet valable.",
+      "applies_to": "Garantie complémentaire en cas de décès",
+      "page": 33
+    },
+    {
+      "name": "Sports aériens et de sensation (ULM, parapente, autogire, deltaplane, parachutisme, vol à voile, saut à l’élastique, kitesurf)",
+      "description": "Exclusion au titre de la pratique des sports de loisirs : l’ULM*, le parapente*, l’autogire*, le deltaplane*, le parachutisme*, le vol à voile*, le saut à l’élastique*, le kitesurf*. (*) Ne sont pas exclus les sinistres résultant de la pratique de ces sports à titre d’initiation (baptême, pratique exceptionnelle), lorsque cette pratique est encadrée par un professionnel ayant les diplômes et compétences requis par la fédération correspondante.",
+      "applies_to": "Garantie complémentaire en cas de décès",
+      "page": 33
+    },
+    {
+      "name": "Plongée sous-marine à plus de 20 mètres de profondeur",
+      "description": "Exclusion au titre de la pratique des sports de loisirs : la plongée sous-marine avec ou sans bouteille à plus de 20 mètres de profondeur.",
+      "applies_to": "Garantie complémentaire en cas de décès",
+      "page": 33
+    },
+    {
+      "name": "Voile et navigation en solitaire à plus de 25 milles des côtes",
+      "description": "Exclusion au titre de la pratique des sports de loisirs : la voile et la navigation en solitaire à plus de 25 milles des côtes.",
+      "applies_to": "Garantie complémentaire en cas de décès",
+      "page": 33
+    },
+    {
+      "name": "Sports de neige ou de glace hors pratique amateur sur domaine skiable autorisé",
+      "description": "Exclusion au titre de la pratique des sports de loisirs : les sports de neige ou de glace (autres que la pratique amateur des sports d’hiver sur le domaine skiable autorisé)*. (*) Ne sont pas exclus les sinistres résultant de la pratique de ces sports à titre d’initiation (baptême, pratique exceptionnelle), lorsque cette pratique est encadrée par un professionnel ayant les diplômes et compétences requis par la fédération correspondante.",
+      "applies_to": "Garantie complémentaire en cas de décès",
+      "page": 33
+    },
+    {
+      "name": "Randonnée en montagne, alpinisme et escalade au-delà de 3 000 mètres d’altitude",
+      "description": "Exclusion au titre de la pratique des sports de loisirs : la randonnée en montagne, l’alpinisme et l’escalade (hors support artificiel) au-delà de 3 000 mètres d’altitude.",
+      "applies_to": "Garantie complémentaire en cas de décès",
+      "page": 33
+    },
+    {
+      "name": "Spéléologie",
+      "description": "Exclusion au titre de la pratique des sports de loisirs : la spéléologie*. (*) Ne sont pas exclus les sinistres résultant de la pratique de ces sports à titre d’initiation (baptême, pratique exceptionnelle), lorsque cette pratique est encadrée par un professionnel ayant les diplômes et compétences requis par la fédération correspondante.",
+      "applies_to": "Garantie complémentaire en cas de décès",
+      "page": 33
+    },
+    {
+      "name": "Portée résiduelle de la garantie décès (contre-exclusion)",
+      "description": "« Tous les risques de décès autres sont assurés, quelle qu’en soit la cause (maladie ou accident). »",
+      "applies_to": "Garantie complémentaire en cas de décès",
+      "page": 33
+    },
+    {
+      "name": "Adhérent sous tutelle ou en établissement psychiatrique à l’adhésion",
+      "description": "La garantie complémentaire en cas de décès ne s’applique pas lorsque l’adhérent est, au moment de l’adhésion, placé sous un régime de tutelle ou dans un établissement psychiatrique d’hospitalisation.",
+      "applies_to": "Garantie complémentaire en cas de décès",
+      "page": 32
+    },
+    {
+      "name": "Cessation automatique de la garantie complémentaire en cas de décès",
+      "description": "Cette garantie cesse automatiquement lorsque la valeur de l’adhésion ne permet pas le recouvrement de la cotisation, lors de la liquidation du Plan, où à la suite de toute opération mettant fin à l’adhésion et au plus tard à partir du 31 décembre qui suit votre 75e anniversaire.",
+      "applies_to": "Garantie complémentaire en cas de décès",
+      "page": 32
+    },
+    {
+      "name": "Décès survenant en phase de liquidation",
+      "description": "La garantie est mise en œuvre si le décès de l’adhérent intervient pendant la période de constitution de l’épargne. Elle n’est donc pas acquise si l’adhérent décède en phase de liquidation des droits individuels.",
+      "applies_to": "Garantie en cas de décès pendant la phase de constitution de l’épargne (contre-assurance)",
+      "page": 33
+    },
+    {
+      "name": "Plafond du capital sous risque",
+      "description": "Le capital sous risque pris en charge par MAIF VIE ne peut excéder 300 000 € par adhésion.",
+      "applies_to": "Garantie complémentaire en cas de décès",
+      "page": 32
+    },
+    {
+      "name": "Absence de garantie sur la valeur des unités de compte",
+      "description": "Aucune garantie n’est apportée par MAIF VIE sur la valeur des unités de compte, l’engagement ne portant que sur le nombre d’unités de compte. Les unités de compte présentent un risque de perte en capital. Ce risque financier est entièrement assumé par l’adhérent.",
+      "applies_to": "Supports en unités de compte",
+      "page": 27
+    },
+    {
+      "name": "Absence de rendement minimal et de participation aux bénéfices sur les unités de compte",
+      "description": "Aucun rendement minimal n’est garanti et la participation aux bénéfices n’est pas applicable aux supports en unités de compte.",
+      "applies_to": "Supports en unités de compte",
+      "page": 27
+    },
+    {
+      "name": "Absence de garantie de fidélité et de valeur de réduction",
+      "description": "Le contrat ne contient pas de garantie de fidélité, ni de valeur de réduction, ni de frais sur garantie de fidélité ou sur valeur de réduction.",
+      "applies_to": "all",
+      "page": 3
+    },
+    {
+      "name": "Indisponibilité de l’épargne hors cas légaux de rachat",
+      "description": "L’adhésion ne peut faire l’objet de rachats, même partiels, que dans des situations exceptionnelles limitativement énumérées par la réglementation. Les droits individuels en cours de constitution ne sont rachetables par le titulaire (ou adhérent) que dans les situations limitativement énumérées par la loi.",
+      "applies_to": "all",
+      "page": 3
+    },
+    {
+      "name": "Rachat pour acquisition de la résidence principale exclu sur le compartiment « épargne d’entreprise »",
+      "description": "Les droits correspondants aux sommes provenant de l’épargne obligatoire d’entreprise ne peuvent être rachetés pour ce motif. Annexe 2 : « Non concerné : le rachat exceptionnel en vue de l’acquisition d’une résidence principale n’est pas autorisé sur ce compartiment. »",
+      "applies_to": "Rachat exceptionnel des droits individuels (déblocage anticipé)",
+      "page": 29
+    },
+    {
+      "name": "Sortie en capital exclue sur le compartiment « épargne d’entreprise »",
+      "description": "Les droits correspondant aux sommes versées sur le compartiment « épargne d’entreprise » (versements obligatoires du salarié ou de l’entreprise) sont délivrés uniquement sous la forme d’une rente viagère (classique ou à annuités garanties, avec option de réversion possible). Annexe 2 : « Non concerné : la sortie en capital et le rachat exceptionnel en vue de l’acquisition d’une résidence principale ne sont pas autorisés. »",
+      "applies_to": "Liquidation sous forme de capital (unique ou fractionné)",
+      "page": 36
+    },
+    {
+      "name": "Sortie en capital exclue en cas d’option anticipée et irrévocable pour la rente viagère",
+      "description": "La liquidation sous la forme d’un capital n’est pas permise si vous avez opté expressément et irrévocablement pour la liquidation de tout ou partie de vos droits en rente viagère à compter de l’ouverture du Plan. À l’adhésion, cette option pour la liquidation des droits en rente viagère est irrévocable.",
+      "applies_to": "Liquidation sous forme de capital (unique ou fractionné)",
+      "page": 36
+    },
+    {
+      "name": "Limite d’ajournement de la liquidation",
+      "description": "Vous pouvez également décider d’ajourner la liquidation de vos droits sans que cet ajournement ne puisse excéder le 31 décembre qui suit votre 75e anniversaire.",
+      "applies_to": "Garantie en cas de vie — constitution d’une épargne retraite",
+      "page": 36
+    },
+    {
+      "name": "Modalités de liquidation non ouvertes par compartiment (annexe 10)",
+      "description": "Selon la synthèse de l’annexe 10, le capital unique et le capital fractionné ne sont ouverts que sur les compartiments « épargne volontaire » et « épargne salariale » ; la combinaison capital et rente viagère n’est ouverte que sur ces deux mêmes compartiments ; aucune coche n’est portée en face de la ligne « Combinaison rente viagère et annuités garanties ».",
+      "applies_to": "Garantie en cas de vie — constitution d’une épargne retraite",
+      "page": 61
+    },
+    {
+      "name": "Versements en espèces ou par mandat cash non autorisés",
+      "description": "Attention : les versements en espèces ou par mandat cash ne sont pas autorisés.",
+      "applies_to": "Versements volontaires ponctuels et programmés",
+      "page": 15
+    },
+    {
+      "name": "Versements volontaires limités au compartiment « épargne volontaire »",
+      "description": "Les versements volontaires ponctuels sont possibles uniquement sur le compartiment « épargne volontaire ». Les versements volontaires programmés sont possibles uniquement sur le compartiment « épargne volontaire ». Annexe 2 : « Seuls les transferts sont autorisés sur ces compartiments » (épargne salariale et épargne d’entreprise).",
+      "applies_to": "Versements volontaires ponctuels et programmés",
+      "page": 15
+    },
+    {
+      "name": "Perte de la déductibilité fiscale à compter du 70e anniversaire",
+      "description": "Les versements réalisés à partir du 70e anniversaire de l’adhérent n’ouvrent plus droit à la déductibilité fiscale quel que soit le mode de versement.",
+      "applies_to": "Versements volontaires ponctuels et programmés",
+      "page": 16
+    },
+    {
+      "name": "Absence de déduction fiscale pour les sommes transférées",
+      "description": "Les sommes provenant du transfert de ses droits individuels ne permettent pas à l’adhérent de bénéficier de la déduction fiscale. Les versements provenant du transfert d’un autre produit d’épargne retraite n’ouvrent pas droit à une nouvelle déduction.",
+      "applies_to": "Transferts entrants sur le PER Responsable et Solidaire",
+      "page": 18
+    },
+    {
+      "name": "Caractère irrévocable de l’option fiscale sur un versement",
+      "description": "Cette option est exercée au plus tard lors du versement auprès de MAIF VIE et elle est irrévocable.",
+      "applies_to": "Versements volontaires ponctuels et programmés",
+      "page": 16
+    },
+    {
+      "name": "Exclusivité des formules de gestion et des profils d’épargnant",
+      "description": "Les formules de gestion sont exclusives les unes des autres : vous ne pouvez choisir qu’une formule de gestion parmi celles proposées (Gestion à horizon ou Gestion profilée constante ou Gestion libre). De même, dans les deux formules pilotées, vous ne pouvez choisir qu’un profil d’épargnant parmi ceux proposés (prudent ou équilibré ou dynamique).",
+      "applies_to": "all",
+      "page": 20
+    },
+    {
+      "name": "Exclusivité des options de services financiers",
+      "description": "Les options sont exclusives les unes des autres. L’option de sécurisation des plus-values ne peut être associée à l’option d’investissement progressif, et réciproquement. Ces options peuvent être mises en place uniquement dans le cadre de la formule Gestion libre.",
+      "applies_to": "Option « Sécurisation des plus-values »",
+      "page": 24
+    },
+    {
+      "name": "Options et versements programmés non proposés pour tous les supports",
+      "description": "Les options et les versements programmés peuvent ne pas être proposés pour tous les supports en unités de compte (se reporter à l’annexe 5).",
+      "applies_to": "Formule Gestion libre",
+      "page": 60
+    },
+    {
+      "name": "Suspension possible des arbitrages et ajustements par MAIF VIE",
+      "description": "MAIF VIE peut à tout moment et sans préavis réglementer et/ou suspendre temporairement les possibilités d’ajustement ou d’arbitrage du support en euros vers les supports en unités de compte ou des supports en unités de compte vers d’autres supports en unités de compte, dans les conditions prévues par la réglementation.",
+      "applies_to": "Arbitrages (formule Gestion libre)",
+      "page": 20
+    },
+    {
+      "name": "Conditions restrictives d’adhésion",
+      "description": "Vous devez être majeur, ne pas avoir à la fois demandé la liquidation de votre pension dans un régime obligatoire d’assurance vieillesse et atteint l’âge légal de départ en retraite. Vous devez être fiscalement domicilié en France au moment de l’adhésion.",
+      "applies_to": "all",
+      "page": 11
+    },
+    {
+      "name": "Refus d’enregistrement de l’adhésion en l’absence de pièces",
+      "description": "Aucune adhésion ne pourra être enregistrée sans ces pièces. L’adhésion est également liée à l’encaissement effectif du premier versement.",
+      "applies_to": "all",
+      "page": 11
+    },
+    {
+      "name": "Blocage de la modification de la clause bénéficiaire après acceptation",
+      "description": "L’acceptation ne peut intervenir qu’après le délai de 30 jours suivant la réception de votre certificat d’adhésion. Dans ce cas, l’accord du bénéficiaire deviendra nécessaire pour modifier la clause ou pour effectuer un rachat.",
+      "applies_to": "Garantie en cas de décès pendant la phase de constitution de l’épargne (contre-assurance)",
+      "page": 14
+    },
+    {
+      "name": "Le concubin n’est pas assimilé au conjoint ou partenaire de Pacs",
+      "description": "Le concubin n’est pas considéré comme conjoint ou partenaire de Pacs. Pour le désigner, il faut indiquer ses nom, prénom, adresse, date et lieu de naissance.",
+      "applies_to": "Garantie en cas de décès pendant la phase de constitution de l’épargne (contre-assurance)",
+      "page": 44
+    },
+    {
+      "name": "Enfant majeur au moment du décès exclu de la rente temporaire d’éducation",
+      "description": "Si l’enfant mineur lors de la désignation est majeur au moment du décès de l’adhérent alors il n’est plus considéré comme bénéficiaire et ne peut percevoir une rente.",
+      "applies_to": "Rente temporaire d’éducation aux enfants mineurs",
+      "page": 45
+    },
+    {
+      "name": "Désignation bénéficiaire d’un majeur protégé",
+      "description": "La désignation ou la modification de la clause bénéficiaire d’un contrat établi au nom d’un majeur placé sous un régime de protection n’est pas libre.",
+      "applies_to": "Garantie en cas de décès pendant la phase de constitution de l’épargne (contre-assurance)",
+      "page": 45
+    },
+    {
+      "name": "Déchéance des prestations non réclamées au profit de la Caisse des dépôts",
+      "description": "En l’absence de demande de paiement des prestations ou du capital, la valeur de l’adhésion sera transférée à la Caisse des dépôts et consignations au terme d’un délai de 10 ans à compter de la date de connaissance du décès. Ce transfert libère MAIF VIE de ses obligations au titre de la garantie décès et de la garantie complémentaire en cas de décès.",
+      "applies_to": "all",
+      "page": 39
+    },
+    {
+      "name": "Exclusion des activités spéculatives (fonds en euros)",
+      "description": "Le fonds en euros du PER Responsable et Solidaire n’investit pas dans des supports ayant pour objet la spéculation, en particulier sur les matières premières agricoles.",
+      "applies_to": "Politique d’investissement du support en euros",
+      "page": 67
+    },
+    {
+      "name": "Exclusion des entreprises contrevenant au Pacte Mondial des Nations Unies",
+      "description": "Politique d’exclusion MAIF : ne pas financer d’entreprises qui contreviennent gravement ou de manière répétée à l’un ou plusieurs des 10 principes du pacte Mondial des Nations Unies.",
+      "applies_to": "Politique d’investissement du support en euros",
+      "page": 67
+    },
+    {
+      "name": "Exclusion du secteur de l’armement",
+      "description": "Politique d’exclusion MAIF : ne pas financer d’entreprises du secteur de l’armement.",
+      "applies_to": "Politique d’investissement du support en euros",
+      "page": 67
+    },
+    {
+      "name": "Exclusion du secteur du tabac",
+      "description": "Politique d’exclusion MAIF : ne pas financer d’entreprises du secteur du tabac.",
+      "applies_to": "Politique d’investissement du support en euros",
+      "page": 67
+    },
+    {
+      "name": "Exclusion du charbon thermique",
+      "description": "Politique d’exclusion MAIF : ne pas financer d’entreprises qui produisent du charbon thermique, qui réalisent plus de 10 % de leur chiffre d’affaires ou de leur production d’électricité grâce au charbon thermique, qui disposent de plus de 5 gigawatts de capacités installées de production d’électricité à partir de charbon.",
+      "applies_to": "Politique d’investissement du support en euros",
+      "page": 67
+    },
+    {
+      "name": "Exclusion du pétrole et des énergies fossiles non conventionnelles",
+      "description": "Politique d’exclusion MAIF : ne pas financer d’entreprises qui réalisent plus de 5 % de leur chiffre d’affaires grâce au pétrole ou qui produisent, grâce aux énergies fossiles non conventionnelles (pétrole et gaz de schiste, sables bitumineux, forage en Arctique, forage en eaux très profondes, l’extraction de pétrole extra-lourd et l’exploitation du gaz de houille), plus de 5 % de l’énergie qu’elles commercialisent.",
+      "applies_to": "Politique d’investissement du support en euros",
+      "page": 67
+    },
+    {
+      "name": "Exclusion des nouveaux projets d’exploration et de production fossiles",
+      "description": "Politique d’exclusion MAIF : ne pas financer d’entreprises qui développent de nouveaux projets d’exploration ou de production de pétrole ou de gaz naturel ou de mines, centrales ou infrastructures charbon thermique ; ne pas financer d’entreprises développant de nouveaux oléoducs ou gazoducs ou de nouvelles capacités de terminaux de gaz naturel liquéfié (GNL).",
+      "applies_to": "Politique d’investissement du support en euros",
+      "page": 67
+    },
+    {
+      "name": "Exclusion des OGM agricoles",
+      "description": "Politique d’exclusion MAIF : ne pas financer d’entreprises qui réalisent plus de 5 % de leur chiffre d’affaires grâce à la production d’OGM agricoles.",
+      "applies_to": "Politique d’investissement du support en euros",
+      "page": 67
+    },
+    {
+      "name": "Exclusion de l’huile de palme",
+      "description": "Politique d’exclusion MAIF : ne pas financer d’entreprises qui produisent de l’huile de palme ou qui réalisent plus de 10 % de leur chiffre d’affaires dans la distribution d’huile de palme.",
+      "applies_to": "Politique d’investissement du support en euros",
+      "page": 67
+    },
+    {
+      "name": "Exclusion des pesticides dangereux",
+      "description": "Politique d’exclusion MAIF : ne pas financer d’entreprises qui produisent des pesticides (incluant les insecticides, fongicides et herbicides) contenant des substances actives classées par l’OMS comme « extrêmement dangereuses » ou « très dangereuses ».",
+      "applies_to": "Politique d’investissement du support en euros",
+      "page": 67
+    },
+    {
+      "name": "Exclusion des États n’ayant pas aboli la peine de mort",
+      "description": "Politique d’exclusion MAIF : ne pas financer d’États qui n’ont pas aboli la peine de mort dans leur Constitution.",
+      "applies_to": "Politique d’investissement du support en euros",
+      "page": 67
+    },
+    {
+      "name": "Exclusion des États et territoires non coopératifs",
+      "description": "Politique d’exclusion MAIF : ne pas financer d’États ou territoires non coopératifs d’un point de vue fiscal ou présentant des défaillances stratégiques aux normes relatives à la lutte contre le blanchiment de capitaux et le financement du terrorisme.",
+      "applies_to": "Politique d’investissement du support en euros",
+      "page": 67
+    },
+    {
+      "name": "Interdiction d’investir dans un fonds ne prenant pas en compte les enjeux ESG",
+      "description": "Tout nouvel investissement dans un fonds qui ne prendrait pas en considération les enjeux environnementaux, sociaux ou de gouvernance de l’intégralité de ses investissements est interdit. Tout nouvel investissement direct dans une entreprise sous le coup d’un veto est interdit.",
+      "applies_to": "Politique d’investissement du support en euros",
+      "page": 68
+    }
+  ],
+  "deductibles": null,
+  "waiting_periods": [
+    {
+      "coverage": "all",
+      "duration": "5 semaines",
+      "description": "Période d’affectation provisoire : du fait de la faculté de renonciation, les montants investis sont affectés en totalité au support en euros pendant les 5 semaines suivant la date d’effet de l’adhésion. À l’issue de cette période, les montants investis sur le compartiment « épargne volontaire », augmentés des intérêts produits, sont répartis sur le support en euros et/ou sur les supports en unités de compte selon la formule de gestion et le profil d’épargnant choisis. Cette opération est effectuée sans frais.",
+      "page": 17
+    },
+    {
+      "coverage": "Garantie complémentaire en cas de décès",
+      "duration": "1 an",
+      "description": "Le suicide de l’assuré pendant la première année de l’adhésion est exclu de la garantie complémentaire en cas de décès.",
+      "page": 33
+    },
+    {
+      "coverage": "Versements volontaires programmés",
+      "duration": "5 semaines",
+      "description": "En tout état de cause, le premier prélèvement ne peut être effectué qu’à l’issue du délai d’affectation provisoire de 5 semaines.",
+      "page": 15
+    },
+    {
+      "coverage": "Arbitrages (formule Gestion libre)",
+      "duration": "Fin de la période d’affectation provisoire",
+      "description": "À l’issue de la période d’affectation provisoire, les arbitrages peuvent être réalisés à tout moment à la demande de l’adhérent. Le changement de formule de gestion est également possible à l’issue de cette période.",
+      "page": 24
+    },
+    {
+      "coverage": "Acceptation de la clause bénéficiaire",
+      "duration": "30 jours",
+      "description": "L’acceptation ne peut intervenir qu’après le délai de 30 jours suivant la réception du certificat d’adhésion.",
+      "page": 14
+    },
+    {
+      "coverage": "Transfert des droits individuels vers un autre plan d’épargne retraite",
+      "duration": "5 ans",
+      "description": "Les frais encourus à l’occasion d’un tel transfert sont nuls à l’issue d’une période de cinq ans à compter du premier versement dans le Plan, ou lorsque le transfert intervient après la date de liquidation par l’adhérent de sa pension dans un régime obligatoire d’assurance vieillesse ou de l’âge légal de départ en retraite.",
+      "page": 31
+    },
+    {
+      "coverage": "Garantie en cas de vie — constitution d’une épargne retraite",
+      "duration": "Jusqu’à l’âge légal de départ en retraite ou la liquidation de la pension",
+      "description": "L’exécution du contrat est liée à la cessation d’activité professionnelle : la liquidation des droits individuels est possible au plus tôt à l’âge légal de départ en retraite fixé en application de l’article L. 161-17-2 du Code de la Sécurité sociale ou à la date de liquidation de la pension dans un régime obligatoire d’assurance vieillesse.",
+      "page": 36
+    }
+  ],
+  "obligations": [
+    {
+      "name": "Constitution du dossier d’adhésion",
+      "description": "Retourner la demande d’adhésion individuelle complétée et signée personnellement avec le questionnaire conseil épargne retraite dûment complété, daté et signé, le relevé d’identité bancaire d’un compte ouvert dans un pays de la zone SEPA aux nom et prénom de l’adhérent, et une copie d’une pièce d’identité en cours de validité dont le numéro doit être indiqué sur la demande d’adhésion.",
+      "timing": "À l’adhésion",
+      "sanction": "Aucune adhésion ne pourra être enregistrée sans ces pièces. L’adhésion est également liée à l’encaissement effectif du premier versement.",
+      "page": 11
+    },
+    {
+      "name": "Justificatifs au titre de la lutte contre le blanchiment et le financement du terrorisme",
+      "description": "Afin de répondre aux obligations de contrôle à la charge de l’assureur, MAIF VIE pourra être amenée à demander, à l’adhésion ou en cours d’adhésion, des informations et justificatifs complémentaires.",
+      "timing": "À l’adhésion et en cours d’adhésion",
+      "sanction": null,
+      "page": 11
+    },
+    {
+      "name": "Justificatifs relatifs à l’origine des fonds",
+      "description": "Les dispositions législatives ou réglementaires, notamment en matière de lutte contre le blanchiment d’argent, le financement du terrorisme et la fraude, peuvent conduire MAIF VIE à solliciter des justificatifs relatifs à l’origine des fonds versés sur le contrat.",
+      "timing": "En cours d’adhésion",
+      "sanction": "À défaut de fournir ces éléments, MAIF VIE peut être amenée à refuser l’opération.",
+      "page": 16
+    },
+    {
+      "name": "Identification des versements",
+      "description": "Pour chaque versement, l’adhérent doit indiquer ses numéros d’adhérent et d’adhésion.",
+      "timing": "À chaque versement",
+      "sanction": null,
+      "page": 15
+    },
+    {
+      "name": "Déclaration du régime fiscal des versements volontaires",
+      "description": "L’adhérent déclare sur la demande d’adhésion le régime fiscal qu’il souhaite voir appliquer par défaut à ses versements volontaires. Pour chaque versement, il peut opter pour que son versement ne soit pas déduit de ses revenus imposables.",
+      "timing": "Au plus tard lors du versement auprès de MAIF VIE",
+      "sanction": "Cette option est irrévocable. À défaut d’option dans les conditions précitées, les dispositions des articles 154 bis et 154 bis-0 A ou 163 quatervicies du CGI s’appliquent dans les conditions de droit commun.",
+      "page": 16
+    },
+    {
+      "name": "Renonciation expresse à la formule de gestion par défaut",
+      "description": "Si l’adhérent souhaite une autre formule de gestion ou un autre profil d’épargnant, il doit renoncer expressément au profil équilibré de la formule Gestion à horizon prévu par la réglementation. La demande doit être écrite et signée et comporter obligatoirement et sans modification le texte réglementaire reproduit dans la notice (article D. 224-3 du Code monétaire et financier).",
+      "timing": "À l’adhésion ou en cours d’adhésion",
+      "sanction": "À défaut, les versements sont affectés au profil équilibré de la formule Gestion à horizon au terme de la période d’affectation provisoire.",
+      "page": 20
+    },
+    {
+      "name": "Choix de la répartition des versements en Gestion libre",
+      "description": "L’adhérent doit déterminer la répartition, exprimée en pourcentage (ou en euros pour les versements programmés), entre le support en euros et les supports en unités de compte, en respectant le minimum d’affectation de 20 € par support en unités de compte.",
+      "timing": "À chaque versement en formule Gestion libre",
+      "sanction": "En l’absence de choix de répartition ou de non-respect du minimum à affecter par support en unités de compte, le versement est intégralement affecté au support en euros.",
+      "page": 23
+    },
+    {
+      "name": "Désignation et mise à jour de la clause bénéficiaire",
+      "description": "L’adhérent désigne lors de l’adhésion le ou les bénéficiaires ; lorsqu’ils sont désignés nominativement, il doit préciser pour chacun ses nom, prénom, adresse, date et lieu de naissance ainsi que la répartition souhaitée en pourcentage. Il est important de veiller périodiquement à l’adaptation de la clause bénéficiaire à sa situation personnelle et familiale (naissance, divorce, décès...) et de la modifier lorsqu’elle n’est plus appropriée.",
+      "timing": "À l’adhésion et en cours d’adhésion",
+      "sanction": "Une clause bénéficiaire inadaptée peut générer des conflits postérieurs à votre décès. En l’absence de bénéficiaire au jour du décès, les capitaux versés font partie de la succession de l’adhérent.",
+      "page": 13
+    },
+    {
+      "name": "Mise en place des prélèvements automatiques mensuels",
+      "description": "Pour mettre en place les prélèvements automatiques mensuels, adresser à MAIF VIE un formulaire « Versements volontaires : ponctuels - programmés » comportant le mandat de prélèvement SEPA complété et signé, et un relevé d’identité bancaire d’un compte courant ouvert dans un pays de la zone SEPA aux nom et prénom de l’adhérent.",
+      "timing": "À la mise en place des versements programmés",
+      "sanction": null,
+      "page": 16
+    },
+    {
+      "name": "Pièces justificatives en cas de rachat exceptionnel",
+      "description": "Adresser à MAIF VIE la demande de rachat accompagnée d’une copie de la pièce d’identité en cours de validité, d’un relevé d’identité bancaire d’un compte ouvert dans un pays de la zone SEPA, et de toute pièce justificative selon le motif : acte de décès ; notification d’attribution d’une pension d’invalidité de l’organisme social ; notification de recevabilité du dossier de surendettement ; attestation d’expiration des droits à l’assurance chômage émanant de France Travail ; jugement prononçant la liquidation judiciaire ; pour l’acquisition de la résidence principale, tout document justificatif (compromis de vente, etc.), un document notarié et une attestation sur l’honneur datée et signée indiquant la destination du rachat et le montant de l’apport personnel ou de l’emprunt.",
+      "timing": "En cas de demande de rachat exceptionnel",
+      "sanction": null,
+      "page": 29
+    },
+    {
+      "name": "Formalités du transfert sortant",
+      "description": "Adresser à MAIF VIE la demande de transfert par lettre recommandée et un document identifiant le nouveau plan d’épargne retraite sur lequel le transfert doit être effectué, document établi par le gestionnaire de ce plan.",
+      "timing": "En cas de demande de transfert vers un autre gestionnaire",
+      "sanction": null,
+      "page": 30
+    },
+    {
+      "name": "Formalités du transfert entrant",
+      "description": "Adhérer préalablement au PER Responsable et Solidaire avec un premier versement d’un montant minimum de 150 € avant d’engager les démarches liées au transfert, puis remettre au gestionnaire du contrat, plan ou convention à transférer le document délivré par MAIF VIE identifiant le Plan d’accueil.",
+      "timing": "Avant tout transfert entrant",
+      "sanction": null,
+      "page": 18
+    },
+    {
+      "name": "Demande de liquidation",
+      "description": "Pour obtenir la liquidation de ses droits, l’adhérent doit exprimer son choix quant aux modalités de délivrance des sommes sur le formulaire de demande de liquidation (disponible sur simple demande) et l’adresser à MAIF VIE.",
+      "timing": "Au moment de la liquidation",
+      "sanction": null,
+      "page": 36
+    },
+    {
+      "name": "Pièces à fournir par les bénéficiaires en cas de décès",
+      "description": "Fournir un extrait d’acte de décès de l’adhérent, la copie d’une pièce d’identité en cours de validité pour chacun des bénéficiaires, un extrait d’acte de naissance sans filiation pour chacun des bénéficiaires désignés ou un acte de notoriété délivré par le notaire lorsque les bénéficiaires mentionnés sur le certificat d’adhésion sont « les enfants nés ou à naître » ou « les héritiers », et un relevé d’identité bancaire d’un compte courant ouvert dans un pays de la zone SEPA aux nom et prénom de chaque bénéficiaire. Des documents spécifiques à certaines situations peuvent être demandés par MAIF VIE.",
+      "timing": "Au décès de l’adhérent",
+      "sanction": "Le versement des rentes par MAIF VIE est effectué après réception de tous les documents nécessaires et sous réserve des formalités fiscales en vigueur.",
+      "page": 34
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclaration du décès de l’adhérent",
+      "description": "La date d’effet de la déclaration de décès est fixée à la date de réception par MAIF VIE de l’acte de décès de l’adhérent. Le capital sous risque de la garantie complémentaire est déterminé 7 jours ouvrés avant la date d’effet de la déclaration de décès.",
+      "deadline": "Date de réception de l’acte de décès par MAIF VIE",
+      "page": 33
+    },
+    {
+      "step": "Détermination de la valeur versée en cas de décès",
+      "description": "La valeur versée correspond à la valeur de l’adhésion à la date d’effet de la déclaration de décès augmentée de 3 jours ouvrés, après déduction – le cas échéant – des prélèvements fiscaux et sociaux en vigueur et de la cotisation due au titre de la garantie complémentaire en cas de décès. Pour les supports en unités de compte, la valeur retenue est la première valeur liquidative arrêtée à compter de la date d’effet de la déclaration de décès augmentée de 3 jours ouvrés.",
+      "deadline": "Date d’effet de la déclaration de décès + 3 jours ouvrés",
+      "page": 33
+    },
+    {
+      "step": "Transmission des pièces justificatives par les bénéficiaires",
+      "description": "Extrait d’acte de décès, copie d’une pièce d’identité en cours de validité de chaque bénéficiaire, extrait d’acte de naissance sans filiation ou acte de notoriété, relevé d’identité bancaire d’un compte ouvert dans un pays de la zone SEPA. Après une analyse fiscale complète de l’adhésion, MAIF VIE adresse, si nécessaire, un dossier fiscal et précise l’ensemble des démarches à effectuer.",
+      "deadline": null,
+      "page": 34
+    },
+    {
+      "step": "Règlement du capital décès",
+      "description": "Après réception de tous les documents, MAIF VIE effectuera le règlement par virement sur un compte courant ouvert dans un pays de la zone SEPA aux nom et prénom de chaque bénéficiaire. Chaque bénéficiaire reçoit la part pour laquelle il a été désigné. Le versement du capital au(x) bénéficiaire(s) ne donne pas lieu à l’application de frais par MAIF VIE.",
+      "deadline": "Délai maximal d’un mois après réception de tous les documents",
+      "page": 34
+    },
+    {
+      "step": "Valorisation des prestations non réclamées",
+      "description": "À compter de la date d’effet de la déclaration de décès et jusqu’à la date de réception des pièces nécessaires au règlement, le capital décès est valorisé conformément à l’article R. 132-3-1 du Code des assurances. En l’absence de demande de paiement, la valeur de l’adhésion est transférée à la Caisse des dépôts et consignations.",
+      "deadline": "10 ans à compter de la date de connaissance du décès",
+      "page": 39
+    },
+    {
+      "step": "Demande de rachat exceptionnel",
+      "description": "Adresser à MAIF VIE le formulaire de demande de rachat accompagné des pièces justificatives correspondant au motif invoqué. En cas de rachat partiel, indiquer le(s) compartiment(s) concerné(s) ; en l’absence de choix, le rachat est imputé proportionnellement sur les différents compartiments et supports.",
+      "deadline": null,
+      "page": 29
+    },
+    {
+      "step": "Notification de la valeur de rachat et délai de renonciation",
+      "description": "Dans un délai de 15 jours à compter de la demande de rachat, MAIF VIE notifie la valeur de rachat. L’adhérent peut renoncer au rachat dans un délai de 15 jours à compter de cette notification. Entre la demande de rachat et la fin du délai de renonciation, la valeur de l’adhésion est intégralement affectée au support en euros.",
+      "deadline": "15 jours pour la notification, puis 15 jours pour renoncer",
+      "page": 30
+    },
+    {
+      "step": "Versement du montant racheté",
+      "description": "À l’expiration du délai de renonciation, si l’adhérent n’a pas renoncé au rachat, MAIF VIE procède au versement du montant racheté. La date d’effet d’un rachat partiel ou total correspond à la date d’expiration du délai de renonciation ; le désinvestissement est réalisé le 3e jour ouvré suivant cette date d’effet.",
+      "deadline": "Date d’expiration du délai de renonciation + 3 jours ouvrés",
+      "page": 30
+    },
+    {
+      "step": "Demande de transfert vers un autre gestionnaire",
+      "description": "Adresser la demande par lettre recommandée avec le document identifiant le plan d’accueil. MAIF VIE communique à l’adhérent et au gestionnaire du plan d’accueil les informations prévues par la réglementation et dispose d’un délai réglementaire pour les transmettre. L’adhérent dispose d’un délai à compter de la date de notification de la valeur de transfert pour renoncer au transfert.",
+      "deadline": "Délai réglementaire de transmission, puis délai de renonciation",
+      "page": 30
+    },
+    {
+      "step": "Demande de liquidation des droits individuels",
+      "description": "Adresser à MAIF VIE le formulaire de demande de liquidation en précisant les modalités de délivrance choisies (capital unique ou fractionné, rente viagère classique ou à annuités garanties, réversion). La date d’effet est la date de réception par MAIF VIE de la demande de liquidation complète ; la liquidation intervient le 3e jour ouvré suivant. MAIF VIE procède préalablement à un arbitrage pour transférer l’épargne affectée aux supports en unités de compte sur le support en euros.",
+      "deadline": "Date de réception de la demande complète + 3 jours ouvrés",
+      "page": 36
+    },
+    {
+      "step": "Réclamation auprès de MAIF VIE",
+      "description": "Déposer une réclamation par courrier (MAIF VIE - Service Réclamations - CS 90000 - 79029 Niort cedex 9), par courriel (reclamations.maifvie@maif.fr) ou par téléphone au 05 49 04 49 04 de 8 h 30 à 18 h 30 du lundi au vendredi et de 9 h à 13 h le samedi.",
+      "deadline": "Accusé de réception dans un délai maximal de 10 jours ; réponse argumentée dans un délai maximal de deux mois",
+      "page": 43
+    },
+    {
+      "step": "Recours à la Médiation de l’Assurance",
+      "description": "Passé le délai de réponse, si celle-ci ne convient pas, l’adhérent peut recourir gratuitement à la Médiation de l’Assurance, par voie électronique sur www.mediation-assurance.org ou par courrier à Monsieur le Médiateur de l’Assurance - TSA 50110 - 75441 Paris cedex 09. Le Médiateur formule une proposition de solution que les parties sont libres d’accepter ou de refuser. Le recours à la Médiation n’exclut pas la possibilité pour les parties d’un recours devant une juridiction.",
+      "deadline": "Après expiration du délai de réponse de deux mois",
+      "page": 43
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat collectif a pris effet au 01/09/2020. Il est souscrit pour une durée d’un an renouvelable par tacite reconduction. La durée de l’adhésion est viagère : elle comprend la phase de constitution des droits individuels (entre la date d’effet de l’adhésion et la date d’effet de la liquidation) puis la phase de liquidation des droits individuels, qui peut se prolonger jusqu’au décès de l’adhérent en cas de sortie en rente viagère (ou au décès du bénéficiaire de la réversion).",
+    "tacit_renewal": true,
+    "notice_period": "Dénonciation du contrat collectif par le GERP Futurs Solidaires : lettre recommandée avec avis de réception moyennant un préavis de 6 mois. Non-reconduction par MAIF VIE : notification par lettre recommandée avec accusé de réception en respectant un préavis d’au moins 12 mois. Changement d’organisme gestionnaire ou transfert collectif du Plan : préavis d’au moins 18 mois (lettre recommandée avec accusé de réception).",
+    "methods": [
+      "Renonciation à l’adhésion par lettre recommandée avec demande d’avis de réception dans un délai de 30 jours calendaires révolus à compter de la réception du certificat d’adhésion (page 13)",
+      "Transfert individuel des droits vers un autre plan d’épargne retraite, par lettre recommandée (page 30)",
+      "Rachat total dans l’un des cas limitativement énumérés par la loi : il met fin à l’adhésion et à toutes les garanties associées (page 29)",
+      "Dénonciation par l’adhérent de son adhésion et demande de transfert des droits en cas de modification du Plan (page 7)",
+      "Dénonciation du contrat collectif par le GERP Futurs Solidaires ou non-reconduction par MAIF VIE, par lettre recommandée avec avis de réception (page 6)"
+    ],
+    "special_rights": [
+      "Pendant la phase de constitution des droits, l’adhésion prend fin en cas de renonciation, de transfert individuel ou collectif des droits sur un autre plan d’épargne retraite, de rachat total prévu dans des situations limitativement énumérées par la loi ou du décès de l’adhérent (page 12)",
+      "En phase de liquidation, l’adhésion prend fin, en l’absence de rente, en cas de sortie totale en capital ou au dernier versement en cas de sortie en capital fractionnée, et dans le cas contraire au décès du bénéficiaire de la rente (ou du bénéficiaire de la rente réversible) (page 12)",
+      "Les adhérents pourront, s’ils le souhaitent, dénoncer leur adhésion et demander le transfert de leurs droits individuels en cours de constitution vers un autre plan d’épargne retraite en cas de modification du Plan ; les modifications sont portées à leur connaissance au moins trois mois avant leurs applications (page 7)",
+      "Le non-renouvellement emporte la dénonciation du contrat : aucune nouvelle adhésion ne pourra plus être acceptée après la date d’effet de cette dénonciation, mais le contrat continuera à produire ses effets à l’égard des adhésions antérieures jusqu’à ce que prennent fin toutes les garanties afférentes (page 6)",
+      "Le changement de gestionnaire ou le transfert collectif du Plan met fin au contrat et aux adhésions et emporte transfert au nouvel assureur de l’ensemble des provisions techniques constituées au titre du Plan et des actifs représentant ces provisions (pages 7 et 8)",
+      "Si l’assemblée générale du GERP Futurs Solidaires décide la fermeture du Plan, aucune nouvelle adhésion ne pourra être acceptée après la date d’effet de cette décision (page 8)"
+    ],
+    "page": 6
+  },
+  "prescription_period": {
+    "description": "La prescription des actions dérivant du PER Responsable et Solidaire est régie par les articles L. 114-1, L. 114-2 et L. 114-3 du Code des assurances. Toute action née du présent Plan est prescrite au terme d’un délai de deux ans à compter de l’événement qui lui a donné naissance. Ce délai est porté à dix ans lorsque le bénéficiaire est une personne distincte de l’adhérent. La prescription est interrompue dans les conditions énoncées à l’article L. 114-2 du Code des assurances et notamment par l’envoi d’une lettre recommandée avec accusé de réception.",
+    "page": 41
+  },
+  "premium": {
+    "notes": [
+      "Frais d’entrée : aucuns (pages 3 et 59).",
+      "Cotisation annuelle au GERP Futurs Solidaires : 5 € maximum par adhésion, prélevés globalement sur les frais sur l’épargne gérée ; cette cotisation est déterminée en multipliant le nombre d’adhésions par 5 € (pages 3 et 11).",
+      "Frais prélevés par MAIF VIE sur les versements volontaires, barème dégressif selon le versement : inférieur à 30 000 € : 2,40 % sur les versements ponctuels et 2,20 % sur les versements programmés ; entre 30 000 € et 99 999 € : 2 % ; entre 100 000 € et 149 999 € : 1,50 % ; égal ou supérieur à 150 000 € : 1 % (pages 3 et 17).",
+      "Exemple donné par la notice : versement 1 000 € – frais sur versements (2,40 %) – 24 € = montant investi 976 € (page 17).",
+      "Frais prélevés par MAIF VIE sur l’épargne gérée : sur le support en euros 0,60 % par an calculés prorata temporis sur une base journalière, prélevés après attribution de la participation aux bénéfices ; sur les supports en unités de compte 0,60 % par an calculés prorata temporis sur une base journalière, entraînant une diminution du nombre d’unités de compte ; sur le capital valorisé après la date de connaissance du décès : 0,60 % (page 3).",
+      "Frais et commissions prélevés par les gestionnaires des fonds : le détail est précisé en annexe 5 ; les frais appliqués par les sociétés de gestion sur les unités de compte sont mis à disposition sur maif.fr (maif.fr/tableau-frais-per) (pages 3 et 59).",
+      "Frais sur les arbitrages en Gestion libre : néant pour le premier arbitrage de chaque période contractuelle de 12 mois ; 15 € pour chaque arbitrage suivant au cours de la même période contractuelle (pages 3 et 24).",
+      "Cotisations éventuellement prélevées au titre de la garantie complémentaire en cas de décès : déterminées sur la base d’un taux annuel de 4 % du capital sous risque, dues lorsque le capital sous risque est positif, prélevées le dernier jour ouvré de chaque mois en nombre de parts d’unités de compte ou en euros au prorata de la valeur de l’adhésion de chacun des supports (pages 3 et 33).",
+      "Frais de versement des rentes : 1,50 % des arrérages (pages 35 et 38).",
+      "Frais et indemnités en cas de rachat exceptionnel ou de liquidation en capital : aucuns (pages 3 et 59).",
+      "Frais en cas de transfert vers un autre PER : 0,60 % de la valeur transférée ; frais en cas de transfert sur le PER Responsable et Solidaire : aucuns (pages 3 et 59).",
+      "Frais des options « Sécurisation des plus-values » et « Investissement progressif » : aucuns (page 59).",
+      "Frais au taux annuel de 0,60 % des provisions mathématiques de rentes, dans la limite des produits financiers nets des placements inscrits en recettes dans le compte de résultat (pages 35 et 38).",
+      "Des frais de gestion au taux annuel de 0,60 % sont appliqués sur le taux de rendement du support en euros pour le capital versé de manière fractionnée (page 37).",
+      "Montants minimums : versement initial 150 € ; versements ponctuels 30 € ; versements programmés 30 € ; versement minimum par support en unités de compte (Gestion libre) 20 € ; arbitrages 300 € ; rachats partiels 150 € ; valeur minimum de l’adhésion après rachat partiel 150 € ; investissement progressif 10 000 € ; seuil de déclenchement de la sécurisation des plus-values 5 % (page 59).",
+      "Les versements sont réalisés par prélèvement sur un compte bancaire ouvert dans un pays de la zone SEPA aux nom et prénom de l’adhérent ; les versements programmés sont prélevés le 8 de chaque mois ; les versements en espèces ou par mandat cash ne sont pas autorisés (page 15).",
+      "L’adhérent peut augmenter ou diminuer le montant de ses prélèvements ou les interrompre à tout moment sans frais ni pénalité (page 16).",
+      "Conformément à l’article R. 224-1 du Code monétaire et financier, les rétrocessions de commission liées à la gestion ou à la distribution des titres financiers mentionnés à cet article sont versées à MAIF VIE (page 11)."
+    ],
+    "indexation": null,
+    "page": 3
+  },
+  "special_conditions": [
+    {
+      "name": "Nature juridique et cadre réglementaire",
+      "description": "Le PER individuel « PER Responsable et Solidaire » est un contrat d’assurance de groupe dont l’exécution est liée à la cessation d’activité professionnelle. Il prend la forme d’un contrat collectif d’assurance vie multisupport, à adhésion individuelle et facultative, à versements libres. Il relève des branches 20 (vie-décès) et 22 (assurances liées à des fonds d’investissement) définies à l’article R. 321-1 du Code des assurances. Il est encadré par les dispositions de la loi Pacte du 22 mai 2019 créant le Plan d’Épargne Retraite individuel, par ses textes d’application et par les dispositions du Code des assurances et du Code monétaire et financier. Il relève de la loi française.",
+      "page": 6
+    },
+    {
+      "name": "Les intervenants au contrat",
+      "description": "Le contrat collectif est souscrit par le GERP Futurs Solidaires, 50 avenue Salvador Allende, CS 90000, 79029 Niort cedex 9, groupement relevant de l’article L. 141-7 du Code des assurances, en vue de l’adhésion de ses membres au Plan. Il est souscrit auprès de MAIF VIE en sa qualité d’assureur. L’adhérent adhère dans le même temps au Plan et au groupement. Les droits et obligations de l’adhérent peuvent être modifiés par des avenants au contrat conclus entre MAIF VIE et le GERP Futurs Solidaires ; l’adhérent est préalablement informé de ces modifications. Le contrat collectif PER Responsable et Solidaire a été souscrit par le GERP Futurs Solidaires auprès de MAIF VIE, filiale assurance vie de MAIF ; ce contrat, conçu et géré par MAIF VIE, est proposé par MAIF et MAIF SOLUTIONS FINANCIÈRES.",
+      "page": 6
+    },
+    {
+      "name": "Les prérogatives du GERP Futurs Solidaires",
+      "description": "Désignation d’un nouveau gestionnaire : sauf en cas de faute grave, le changement d’organisme gestionnaire, soumis à l’assemblée générale du GERP Futurs Solidaires, ne pourra intervenir qu’à l’issue d’un préavis (par lettre recommandée avec accusé de réception) d’au moins 18 mois. Transfert du Plan à un autre gestionnaire : le GERP peut décider le transfert collectif du Plan en respectant un délai de préavis de 18 mois, dans les conditions définies à l’article L. 224-6 du Code monétaire et financier. Fermeture du Plan par décision de l’assemblée générale : aucune nouvelle adhésion ne pourra être acceptée après la date d’effet de cette décision. Dissolution du groupement : les missions du groupement au titre du Plan pourront être reprises par une autre association, la reprise étant organisée par MAIF VIE dans les conditions prévues par la réglementation.",
+      "page": 7
+    },
+    {
+      "name": "La modification du Plan",
+      "description": "Les modifications contractuelles feront l’objet de la signature d’un avenant conclu entre le GERP Futurs Solidaires et MAIF VIE. Elles seront portées à la connaissance des adhérents dans les conditions prévues par la réglementation, au moins trois mois avant leurs applications. Lorsqu’elles porteront sur les dispositions essentielles du Plan, les modifications devront préalablement avoir été décidées, pour le groupement, par l’assemblée générale, sur proposition du conseil d’administration ou, le cas échéant, du comité de surveillance et après avis de MAIF VIE.",
+      "page": 7
+    },
+    {
+      "name": "Les documents contractuels",
+      "description": "L’adhésion se compose de la notice d’information et de ses annexes (comportant un encadré contenant certaines dispositions essentielles du contrat, conformément aux articles L. 132-5-2 et A. 132-8 du Code des assurances), du certificat d’adhésion, le cas échéant des conditions particulières de l’investissement progressif et des avenants éventuels. L’adhésion est régie par l’ensemble de ces documents ainsi que par les dispositions du Code des assurances et du Code monétaire et financier.",
+      "page": 12
+    },
+    {
+      "name": "Ouverture et tenue des comptes individuels",
+      "description": "MAIF VIE ouvre pour chaque adhérent, lors de son adhésion au Plan, un compte individuel où sont notamment inscrits les versements effectués et leurs dates et, en cas de transfert, le montant transféré et la date de transfert ainsi que la valeur de l’adhésion et la ventilation de cette valeur entre les compartiments du Plan.",
+      "page": 11
+    },
+    {
+      "name": "Les trois compartiments de gestion",
+      "description": "Compartiment « épargne volontaire » : versements volontaires ponctuels ou programmés ; transfert entrant d’un autre produit d’épargne retraite volontaire établi au nom de l’adhérent (PERP, contrat « Madelin », autre Plan d’épargne retraite individuel…). Compartiment « épargne salariale » : transfert entrant d’un autre produit d’épargne retraite salariale établi au nom de l’adhérent (sommes issues de la participation, de l’intéressement, de l’abondement, des droits inscrits au compte épargne temps ou correspondant à des jours de repos non pris en l’absence de compte épargne temps). Compartiment « épargne d’entreprise » : transfert entrant d’un autre produit d’épargne retraite obligatoire d’entreprise établi au nom de l’adhérent (sommes issues notamment de contrats à cotisations définies). Les sommes qui alimentent le compte individuel sont affectées au(x) compartiment(s) de gestion correspondant(s) en fonction de leur nature et de leur origine.",
+      "page": 15
+    },
+    {
+      "name": "Correspondance des sommes provenant de transferts entrants",
+      "description": "Les droits transférés d’un contrat « Madelin », d’un PERP, d’un contrat « PREFON », de la « complémentaire retraite des hospitaliers » ou des régimes gérés par l’Union mutualiste retraite (COREM) sont assimilés à des droits issus de versements volontaires sur le compartiment « épargne volontaire ». Les droits transférés d’un PERCO sont assimilés à des droits issus de versements mentionnés au 2° de l’article L. 224-2 du Code monétaire et financier sur le compartiment « épargne salariale ». Les droits issus de versements volontaires du salarié sur un contrat « article 83 » ou PERE sont assimilés à des droits issus de versements volontaires mentionnés au 1° de l’article L. 224-2 sur le compartiment « épargne d’entreprise » ; les droits issus de versements obligatoires du salarié ou de l’employeur sont assimilés à des droits issus de versements obligatoires sur ce même compartiment.",
+      "page": 18
+    },
+    {
+      "name": "Option anticipée pour la rente viagère",
+      "description": "À l’adhésion, l’adhérent peut opter pour la liquidation de ses droits en rente viagère. Cette option est irrévocable. Dans cette hypothèse, il est informé expressément des conséquences de son choix et du caractère irrévocable de son engagement.",
+      "page": 12
+    },
+    {
+      "name": "Modalités de désignation et de modification de la clause bénéficiaire",
+      "description": "La désignation du (des) bénéficiaire(s) peut être effectuée notamment par acte sous seing privé ou par acte authentique. L’adhérent choisit l’une des options proposées sur la demande d’adhésion : soit un capital ou une rente viagère à une ou plusieurs personnes désignées nommément, à défaut de l’un des bénéficiaires sa part sera répartie à parts égales entre les autres bénéficiaires désignés, à défaut son conjoint ou partenaire de Pacs, à défaut ses héritiers ; soit une rente temporaire d’éducation à chacun de ses enfants nés ou à naître, mineurs au moment du décès, versée jusqu’à leur 25e anniversaire. Il peut aussi rédiger une clause particulière déposée chez un notaire et en informer MAIF VIE selon le modèle « Voir dispositions déposées chez Maître…, notaire à…, à défaut mes héritiers ». La clause peut être modifiée à tout moment par avenant à l’adhésion. Au décès de l’adhérent, le bénéficiaire désigné peut renoncer au bénéfice de l’adhésion ; cette faculté ne peut plus être exercée dès lors que le capital décès lui a été versé.",
+      "page": 13
+    },
+    {
+      "name": "Précisions sur le libellé de la clause bénéficiaire (annexe 1)",
+      "description": "Il est important de préciser, pour chaque bénéficiaire désigné, ses nom, prénom, date et lieu de naissance, adresse ainsi que la part du capital attribué en pourcentage ; le total des parts attribuées doit être égal à 100 %. En cas de décès prématuré ou de renonciation de l’un des bénéficiaires, la part de l’épargne qui lui serait revenue sera répartie à parts égales entre les autres bénéficiaires désignés. À défaut de bénéficiaire désigné, l’épargne sera versée au conjoint/partenaire de Pacs, à défaut aux héritiers de l’adhérent. En cas de décès du conjoint/partenaire de Pacs avant celui de l’adhérent ou en cas de divorce sans remariage/de rupture du Pacs, l’épargne sera versée aux héritiers de l’adhérent. L’adhérent doit tenir compte des règles relatives à la réserve héréditaire.",
+      "page": 44
+    },
+    {
+      "name": "Valeurs minimales de rachat sur le support en euros (8 premières années)",
+      "description": "Valeurs minimales de rachat sur le support en euros pour un montant investi de 100 € : 1re année 99,40 € ; 2e année 98,80 € ; 3e année 98,21 € ; 4e année 97,62 € ; 5e année 97,04 € ; 6e année 96,45 € ; 7e année 95,87 € ; 8e année 95,30 €. Ces valeurs, calculées après déduction des frais sur l’épargne gérée, ne tiennent compte ni de la valorisation minimale garantie chaque année, ni des participations aux bénéfices successives, ni des cotisations pouvant être prélevées au titre de la garantie complémentaire en cas de décès, ni de la fiscalité éventuellement applicable en cas de rachat.",
+      "page": 26
+    },
+    {
+      "name": "Nombre minimal d’unités de compte en cas de rachat (8 premières années)",
+      "description": "Nombre minimal d’unités de compte en cas de rachat pour un montant investi de 100 unités de compte : 1re année 99,40000 ; 2e année 98,80360 ; 3e année 98,21078 ; 4e année 97,62151 ; 5e année 97,03578 ; 6e année 96,45357 ; 7e année 95,87485 ; 8e année 95,29960. Ces valeurs, calculées après déduction des frais sur l’épargne gérée, ne tiennent pas compte des cotisations pouvant être prélevées au titre de la garantie complémentaire en cas de décès.",
+      "page": 28
+    },
+    {
+      "name": "Valeurs minimales de transfert (8 premières années)",
+      "description": "Valeurs minimales de transfert sur le support en euros, nettes de frais, pour un montant investi de 100 € : 83,98 € ; 83,48 € ; 82,98 € ; 82,48 € ; 81,99 € ; 81,49 € ; 81,00 € ; 80,52 €. Nombre minimal d’unités de compte en cas de transfert, net de frais, pour un montant investi équivalent à 100 unités de compte : 98,80360 ; 98,21078 ; 97,62151 ; 97,03578 ; 96,45357 ; 95,87485 ; 95,29960 ; 94,72780. Ces valeurs ne tiennent compte ni de la valorisation minimale garantie annuelle, ni des compléments de participation aux bénéfices, ni des cotisations pouvant être prélevées au titre de la garantie complémentaire en cas de décès, ni de l’application du coefficient de réduction en cas de transfert vers un autre organisme gestionnaire.",
+      "page": 31
+    },
+    {
+      "name": "Date d’effet et date de valorisation des versements",
+      "description": "La date de valorisation d’un versement est déterminée à partir de sa date d’effet. Pour les versements volontaires ponctuels, la date d’effet correspond à la date de réception à MAIF VIE de la demande de versement complète. Pour les versements volontaires programmés, la date d’effet correspond à la date de son encaissement. Sous réserve de son encaissement effectif, un versement ponctuel ou programmé est valorisé à compter du 3e jour ouvré qui suit sa date d’effet.",
+      "page": 16
+    },
+    {
+      "name": "Synthèse des dates d’effet et dates de valeur (annexe 9)",
+      "description": "Adhésion : date de réception du dossier complet, J + 3 ouvrés. Période d’affectation provisoire : date d’effet de l’adhésion + 5 semaines, J + 3 ouvrés. Versement volontaire ponctuel : date de réception de la demande complète, J + 3 ouvrés. Versement volontaire programmé : le 8 de chaque mois, J + 3 ouvrés. Transfert entrant : date d’encaissement des sommes, J + 3 ouvrés. Arbitrage individuel : date de réception de la demande complète, J + 3 ouvrés. Arbitrage de rééquilibrage gestion pilotée : le 15 mars et le 15 septembre de l’année, J + 3 ouvrés. Changement de profil ou de formule : date de réception de la demande complète, J + 3 ouvrés. Investissement progressif : le 15 de chaque mois, J + 3 ouvrés. Sécurisation des plus-values : le 15 de chaque mois, J + 3 ouvrés. Rachat partiel ou total exceptionnel : date d’expiration du délai de renonciation au rachat, J + 3 ouvrés. Transfert sortant : date d’expiration du délai de renonciation au transfert, J + 3 ouvrés. Liquidation des droits individuels : date de réception de la demande complète, J + 3 ouvrés. Décès : date de réception de l’acte de décès, J + 3 ouvrés.",
+      "page": 60
+    },
+    {
+      "name": "Synthèse des modalités de liquidation par compartiment (annexe 10)",
+      "description": "Capital unique : « épargne volontaire » et « épargne salariale ». Capital fractionné : « épargne volontaire » et « épargne salariale ». Rente viagère sans réversion, rente viagère avec réversion, rente à annuités garanties avec réversion et rente à annuités garanties sans réversion : les trois compartiments. Combinaison capital et rente viagère : « épargne volontaire » et « épargne salariale ».",
+      "page": 61
+    },
+    {
+      "name": "Synthèse des formules de gestion, garanties, options et services (annexe 8)",
+      "description": "Garanties (garantie en cas de vie, garantie en cas de décès, garantie complémentaire en cas de décès) : disponibles dans les trois formules de gestion. Options (investissement progressif, sécurisation des plus-values) : formule Gestion libre uniquement, les options étant exclusives les unes des autres. Services : versements programmés et conversion du capital en rente viagère disponibles dans les trois formules ; arbitrages en formule Gestion libre uniquement.",
+      "page": 60
+    },
+    {
+      "name": "Annexe 2 — Avertissement",
+      "description": "Les dispositions fiscales et sociales de l’annexe 2 sont mentionnées pour information et n’ont pas de caractère contractuel. La fiscalité applicable au PER Responsable et Solidaire figure en annexe 2 ; en cours d’adhésion, cette annexe est communiquée à l’adhérent sur simple demande.",
+      "page": 46
+    },
+    {
+      "name": "Fiscalité des versements volontaires (phase de constitution)",
+      "description": "Compartiment « épargne volontaire » : pour chaque versement, il est possible de choisir si le versement volontaire est déductible ou non du revenu imposable ; par défaut, le versement est considéré comme déductible. Plafonds de déductibilité : les versements sont déductibles dans une limite égale au plus élevé des deux montants suivants — pour les travailleurs salariés, 10 % du revenu imposable dans la limite de 8 fois le PASS de l’année N-1 OU 10 % du PASS de l’année N-1 ; pour les travailleurs non-salariés (TNS), 10 % de la fraction du bénéfice professionnel imposable limité à 8 fois le PASS de l’année N auxquels s’ajoutent 15 % supplémentaires sur la fraction de ce bénéfice comprise entre 1 et 8 fois le PASS OU 10 % du PASS. Des spécificités existent pour les TNS agricoles. Les versements provenant du transfert d’un autre produit d’épargne retraite n’ouvrent pas droit à une nouvelle déduction. Compartiments « épargne salariale » et « épargne d’entreprise » : seuls les transferts sont autorisés ; les sommes transférées ne donnent pas droit à nouvelle déductibilité.",
+      "page": 46
+    },
+    {
+      "name": "Fiscalité en cas de rachats exceptionnels (accidents de la vie)",
+      "description": "Pour les cas de rachat liés au décès du conjoint ou partenaire de Pacs, à l’invalidité, au surendettement, à l’expiration des droits à l’assurance chômage et à la cessation d’activité non salariée après liquidation judiciaire : le capital perçu est exonéré d’impôt sur le revenu et de prélèvements sociaux ; les produits générés par les versements sont exonérés d’impôt sur le revenu mais sont soumis aux prélèvements sociaux au taux en vigueur à la date du rachat (18,60 % actuellement).",
+      "page": 47
+    },
+    {
+      "name": "Fiscalité en cas de liquidation en capital ou de rachat pour l’acquisition de la résidence principale",
+      "description": "Compartiment « épargne volontaire » — si option pour des versements déductibles : le capital perçu, issu de versements ayant bénéficié d’une déduction du revenu imposable, est soumis à l’impôt sur le revenu, sans l’abattement de 10 %, et au prélèvement à la source ; les produits sont soumis au Prélèvement Forfaitaire Unique de 12,80 % avec possibilité de dispense ou, au choix de l’adhérent, au barème de l’impôt sur le revenu. Si option pour des versements non déductibles : le capital perçu est exonéré de l’impôt sur le revenu ; les produits sont soumis au prélèvement forfaitaire unique de 12,80 % avec possibilité de dispense ou, au choix, au barème. Compartiment « épargne salariale » : le capital et les produits issus de versements bénéficiant d’une exonération (intéressement, participation, abondement, jours de repos non pris, dans la limite des plafonds réglementaires) sont exonérés d’impôt sur le revenu ; pour les versements ne bénéficiant pas d’une exonération, le capital est exonéré d’impôt sur le revenu et les produits sont soumis au PFU de 12,80 %. Compartiment « épargne d’entreprise » : non concerné, la sortie en capital et le rachat exceptionnel en vue de l’acquisition d’une résidence principale ne sont pas autorisés. Prélèvements sociaux : le capital perçu est exonéré des prélèvements sociaux ; les produits sont soumis aux prélèvements sociaux au taux en vigueur à la date du versement de la prestation (18,60 %). La dispense du prélèvement forfaitaire unique concerne les personnes physiques dont le revenu fiscal de référence de l’année N-2 est inférieur à 25 000 € pour les personnes seules ou 50 000 € pour les contribuables soumis à une imposition commune.",
+      "page": 48
+    },
+    {
+      "name": "Fiscalité en cas de liquidation en rente viagère",
+      "description": "Compartiment « épargne volontaire » — si option pour des versements déductibles : la rente versée est soumise en totalité à l’impôt sur le revenu et bénéficie de l’abattement de 10 % dans les conditions et limites en vigueur ; elle est soumise au prélèvement à la source. Si option pour des versements non déductibles : la rente est soumise à l’impôt sur le revenu pour une fraction de son montant, déterminée en fonction de l’âge du crédirentier lors de l’entrée en jouissance de la rente, sans l’abattement de 10 %. Compartiment « épargne salariale » : la rente est soumise à l’impôt sur le revenu pour une fraction de son montant déterminée en fonction de l’âge du crédirentier, sans l’abattement de 10 %. Compartiment « épargne d’entreprise » : la rente versée est soumise en totalité à l’impôt sur le revenu et bénéficie de l’abattement de 10 %, avec prélèvement à la source. Fractions imposables de la rente selon l’âge du crédirentier : inférieur à 50 ans 70 % ; de 50 à 59 ans inclus 50 % ; de 60 à 69 ans inclus 40 % ; à partir de 70 ans 30 %. Prélèvements sociaux : 18,60 % sur une fraction des produits déterminée lors de l’entrée en jouissance de la rente pour les compartiments « épargne volontaire » et « épargne salariale » ; prélèvements sociaux et cotisation d’assurance maladie au taux global de 10,10 % actuellement pour le compartiment « épargne d’entreprise ». Des règles spécifiques s’appliquent lorsque, compte tenu du montant mensuel de rente (inférieur à 100 €), l’adhérent accepte de bénéficier d’une rente unique versée sous forme de capital.",
+      "page": 49
+    },
+    {
+      "name": "Fiscalité en cas de décès pendant la phase de constitution de l’épargne",
+      "description": "Décès avant 70 ans : les prestations dues par l’assureur sont soumises à un prélèvement sur la part revenant à chaque bénéficiaire au-delà d’un abattement de 152 500 € par bénéficiaire, tous contrats d’assurance vie confondus (article 990 I du Code général des impôts). Au-delà de cet abattement, les sommes sont soumises à un prélèvement forfaitaire de 20 %, puis pour la part taxable excédant 700 000 € le cas échéant à un prélèvement de 31,25 %. Le conjoint survivant, le partenaire de Pacs et sous certaines conditions les frères et sœurs de l’adhérent sont exonérés de ce prélèvement. Décès après 70 ans : la totalité des prestations est soumise aux droits de mutation par décès suivant le lien de parenté, après abattement de 30 500 € (article 757 B du CGI), abattement s’entendant pour un même assuré quel que soit le nombre de contrats et de bénéficiaires désignés. Les sommes versées au conjoint survivant, au partenaire de Pacs et sous certaines conditions aux frères et sœurs sont exonérées de droits de succession. Conditions cumulatives pour les frères et sœurs : être célibataire, veuf, divorcé ou séparé de corps ; avoir plus de 50 ans ou être atteint d’une infirmité mettant dans l’impossibilité de subvenir par son travail aux nécessités de l’existence au moment de l’ouverture de la succession ; avoir été constamment domicilié avec le défunt pendant les 5 années précédant le décès.",
+      "page": 50
+    },
+    {
+      "name": "Fiscalité en cas de décès pendant la phase de liquidation de l’épargne",
+      "description": "Décès avant 70 ans : le capital constitutif de la rente réversible est soumis à un prélèvement sur la part revenant à chaque bénéficiaire au-delà d’un abattement de 152 500 € par bénéficiaire (article 990 I du CGI), puis à un prélèvement forfaitaire de 20 % et, pour la part taxable excédant 700 000 €, de 31,25 %. Exceptions : exonération si réversion au profit du conjoint ou partenaire de Pacs et parents en ligne directe ; exonération pour les rentes viagères constituées au moyen de versements réguliers (périodicité et montant) pendant au moins quinze ans. Décès après 70 ans : le capital constitutif de la rente réversible est soumis aux droits de mutation par décès suivant le lien de parenté, après abattement de 30 500 € (article 757 B du CGI) ; exonération si réversion au profit du conjoint ou partenaire de Pacs et parents en ligne directe. Si le décès intervient au cours du paiement du capital fractionné, le solde est versé à la succession de l’adhérent et éventuellement soumis aux droits de succession selon le barème applicable aux héritiers.",
+      "page": 50
+    },
+    {
+      "name": "Fiscalité applicable aux rentes versées en cas de décès pendant la phase de constitution",
+      "description": "La fiscalité de la rente viagère ou de la rente temporaire versée à des enfants mineurs en cas de décès de l’adhérent en phase de constitution des droits s’applique indépendamment des compartiments de gestion. Elle est identique à la fiscalité applicable à la rente viagère versée au moment de la liquidation pour les versements ayant bénéficié de la déductibilité fiscale.",
+      "page": 51
+    },
+    {
+      "name": "Impôt sur la fortune immobilière (IFI)",
+      "description": "Le PER Responsable et Solidaire est un contrat non imposable à l’IFI en phase de constitution des droits. Il devient imposable en cas de rachat autorisé par la loi pour la part représentative des actifs imposables à l’IFI au 1er janvier de l’année.",
+      "page": 51
+    },
+    {
+      "name": "Démarche de durabilité déployée par le contrat",
+      "description": "MAIF VIE intègre systématiquement l’évaluation des enjeux environnementaux, sociaux et de gouvernance (ESG) dans l’analyse des investissements liés aux engagements sur le contrat. Le contrat promeut des critères ESG au sens de l’article 8 du Règlement (UE) 2019/2088 (« Règlement SFDR »). MAIF VIE oriente une partie des investissements liés aux engagements sur le support en euros vers des activités, entreprises ou projets contribuant à limiter le réchauffement climatique sous la barre des + 2° C d’ici la fin du siècle, à limiter les pressions exercées sur la biodiversité, et vers des entreprises, projets ou associations qui contribuent aux enjeux sociaux. MAIF VIE fixe chaque année un objectif minimum d’investissement dans des activités qui contribuent à la transition énergétique et écologique selon le référentiel du label Greenfin (« part verte ») ainsi qu’un objectif minimum d’investissement dans des activités apportant des solutions aux enjeux sociaux (« part sociale »).",
+      "page": 9
+    },
+    {
+      "name": "Labellisation et classification SFDR des unités de compte",
+      "description": "100 % des supports en unités de compte proposés par le contrat sont labellisés ISR (Investissement Socialement Responsable), Finansol ou Greenfin et font la promotion de caractéristiques environnementales ou sociales, ou ont pour objectif de réaliser des investissements durables au sens de l’article 2 du Règlement SFDR. En particulier, 7 options d’investissement sur les 15 proposées font la promotion de caractéristiques environnementales ou sociales (fonds « article 8 »), et 9 options d’investissement ont pour objectif l’investissement durable (fonds « article 9 »). Le contrat est soumis à des risques en matière de durabilité ; ce risque est limité pour le support en euros puisque MAIF VIE prend à sa charge le risque financier de ce support en sa qualité d’assureur, tandis que le risque de durabilité des unités de compte est assumé par l’adhérent.",
+      "page": 10
+    },
+    {
+      "name": "Liste des unités de compte proposées (annexe 5)",
+      "description": "Choix Solidaire (FR0010177899), DNCA Invest - Beyond Alterosa (LU1907594748), Échiquier Arty SRI (FR0010611293), Ecofi Trésorerie (FR001400NPP8), Insertion Emplois Dynamique (FR0010702084), LBPAM ISR Obli Moyen Terme (FR0000287997), MAIF Actions Transition Climat (FR0010703355), MAIF Actions Transition Sociale (FR0000435455), MAIF Rendement Vert (FR0013511870), Mirova Euro Green & Sustainable Bond (LU0914734701), PERIAL Euro Carbone (FR0014002MX7), Sextant PEA (FR001400T0H7), Sycomore Sustainable Tech (LU2331773858), Triodos Global Equities Impact Fund (LU0278271951). Les unités de compte présentées sont disponibles dans la formule Gestion libre ; certaines composent les formules Gestion à horizon et Gestion profilée constante. Toutes ces unités de compte sont éligibles aux options de services financiers proposés dans la formule Gestion libre et à la mise en place de versements programmés pour l’ensemble des formules. Indicateurs de risque SRI de 1 (Ecofi Trésorerie) à 5 (Sextant PEA, Sycomore Sustainable Tech) ; durées minimums de placement recommandées de 1 mois à 8 ans.",
+      "page": 56
+    },
+    {
+      "name": "Caractéristiques environnementales et sociales du support en euros (annexe 11)",
+      "description": "Le fonds en euros du PER Responsable et Solidaire promeut des caractéristiques environnementales et sociales sans avoir pour objectif l’investissement durable, mais est associé à un objectif de 40 % d’investissements durables. Proportion minimale des investissements : #1 Alignés sur les caractéristiques environnementales ou sociales : 100 % minimum ; #2 Autres : 0 % maximum ; #1A Durables : 40 % minimum ; #1B Autres caractéristiques E/S : 60 % minimum ; alignés sur la taxinomie : 0 % ; environnementaux autres : 25 % minimum ; sociaux : 15 % minimum. MAIF VIE entend consacrer au moins 15 % de ses investissements à la part sociale et au moins 25 % de ses investissements à la part verte. Le fonds en euros ne compare pas ses caractéristiques environnementales et sociales à un indice de référence et n’utilise pas directement de produits dérivés. Identifiant d’entité juridique du produit : 969500ZQDM3R7A4STD74.",
+      "page": 62
+    },
+    {
+      "name": "Engagements de sortie des énergies fossiles",
+      "description": "MAIF VIE s’est engagée à ce que, d’ici 2030, le PER Responsable et Solidaire, et par conséquent son compartiment en euros, ne finance plus aucune infrastructure ni activité liée au charbon thermique ou aux énergies fossiles non conventionnelles et, d’ici 2040, plus aucune infrastructure ni activité liée à l’extraction ou la distribution de pétrole.",
+      "page": 68
+    },
+    {
+      "name": "Information réglementaire sur les actifs référencés dans le Plan (annexe 6)",
+      "description": "L’annexe 6 reprend pour chacune des unités de compte proposées dans le plan les performances au 31/12/2025, les frais prélevés et le cas échéant les éventuelles rétrocessions de commissions perçues par MAIF VIE (performance brute de l’unité de compte, frais de gestion de l’unité de compte dont frais rétrocédés, performance nette de l’actif, frais de gestion du contrat, frais totaux). Les performances et les frais passés ne préjugent pas des performances et des frais futurs.",
+      "page": 57
+    },
+    {
+      "name": "Durée recommandée du placement",
+      "description": "La durée recommandée dépend notamment de la situation patrimoniale de l’adhérent, de son attitude vis-à-vis du risque, du régime fiscal en vigueur et des caractéristiques du contrat choisi. L’adhérent est invité à demander conseil auprès de MAIF.",
+      "page": 3
+    },
+    {
+      "name": "Loi Informatique et Libertés — protection des données personnelles",
+      "description": "Responsable de traitement : MAIF VIE, société anonyme au capital de 122 000 000 €, RCS Niort 330 432 782, Le Pavois - 50 avenue Salvador Allende - CS 90000 - 79029 Niort cedex 9. Le groupe MAIF a désigné un délégué à la protection des données personnelles. Les traitements reposent sur les obligations légales (identification et connaissance de la clientèle, devoir de conseil, lutte contre le blanchiment de capitaux et le financement du terrorisme, gel des avoirs, déclarations obligatoires, réponses aux tiers autorisés), sur l’exécution du contrat, sur les intérêts légitimes (qualité de la relation, marketing et développement commercial incluant des opérations de profilage, sécurité et préservation des intérêts mutualistes) et sur le consentement (personnalisation des offres par courriel, SMS ou automate d’appel, publicité sur des sites tiers). Durée de conservation liée au contrat, aux garanties et aux durées de prescription applicables, pouvant atteindre trente années ; trois ans au maximum après le dernier contact pour la prospection commerciale. Droits d’accès, de rectification, de limitation, de portabilité, d’opposition, de suppression et directives post mortem, exerçables auprès de MAIF VIE ou du délégué à la protection des données (vosdonnees@maif.fr) ; réclamation possible auprès de la CNIL, TSA 80715, 75334 PARIS CEDEX 07.",
+      "page": 41
+    },
+    {
+      "name": "Langue, loi applicable et juridictions compétentes",
+      "description": "La langue utilisée pendant toute la durée du contrat est le français. Les relations précontractuelles sont régies par le droit français. Tout litige né de l’exécution, de l’inexécution ou de l’interprétation de ce contrat sera de la compétence des juridictions françaises.",
+      "page": 43
+    },
+    {
+      "name": "Autorité de contrôle",
+      "description": "L’autorité de tutelle des entreprises régies par le Code des assurances est l’Autorité de contrôle prudentiel et de résolution (ACPR) - 4 place de Budapest - CS 92459 - 75436 Paris cedex 09.",
+      "page": 43
+    },
+    {
+      "name": "Mentions légales de l’assureur et des distributeurs",
+      "description": "MAIF VIE - Société anonyme au capital de 122 000 000 € - RCS Niort 330 432 782 - 50 avenue Salvador Allende - CS 90000 - 79029 Niort cedex 9. Entreprise régie par le Code des assurances. MAIF - Société d’assurance mutuelle à cotisations variables - CS 90000 - 79038 Niort cedex 9, entreprise régie par le Code des assurances et identifiée sous le numéro Siren 775 709 702. MAIF SOLUTIONS FINANCIÈRES - Société par actions simplifiée au capital de 3 465 134 € - RCS Niort 350 218 467, intermédiaire en opérations d’assurance, intermédiaire en opérations de banque et en services de paiement, conseiller en investissements financiers enregistré auprès de la CNCGP et inscrit au registre unique sous le n°07031206 (www.orias.fr). GERP FUTURS SOLIDAIRES (Groupement d’Épargne Retraite Populaire) - CS 90000 - 79029 Niort cedex 9.",
+      "page": 80
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Le PER individuel « PER Responsable et Solidaire » est un contrat d’assurance de groupe dont l’exécution est liée à la cessation d’activité professionnelle. Les droits individuels en cours de constitution ne sont rachetables par le titulaire (ou adhérent) que dans les situations limitativement énumérées par la loi.",
+      "context": "Nature du contrat - PER individuel, contrat d'assurance de groupe lie a la cessation d'activite professionnelle",
+      "page": 6
+    },
+    {
+      "quote": "Il relève des branches 20 (vie-décès) et 22 (assurances liées à des fonds d’investissement) définies à l’article R. 321-1 du Code des assurances. Il est encadré par les dispositions de la loi Pacte du 22 mai 2019 créant le Plan d’Épargne Retraite individuel (PER Individuel), par ses textes d’application et par les dispositions du Code des assurances et du Code monétaire et financier. Il relève de la loi française.",
+      "context": "Cadre legal - loi Pacte du 22 mai 2019, branches 20 et 22",
+      "page": 6
+    },
+    {
+      "quote": "une garantie en cas de vie qui permet la constitution d’une épargne retraite payable au plus tôt à compter de la date à laquelle l’adhérent a liquidé sa pension de retraite dans un régime obligatoire d’assurance vieillesse ou à l’âge légal de départ en retraite, sous la forme d’une rente viagère ou d’un capital unique ou fractionné (page 36) ;",
+      "context": "Encadre - garantie en cas de vie (constitution d'une epargne retraite)",
+      "page": 3
+    },
+    {
+      "quote": "un support en euros qui comporte une garantie en capital au moins égale aux sommes versées, nettes de frais, capitalisées et diminuées des frais prélevés sur l’épargne gérée et de la cotisation éventuellement due au titre de la garantie complémentaire en cas de décès (page 26) ;",
+      "context": "Garantie en capital sur le support en euros",
+      "page": 3
+    },
+    {
+      "quote": "Les montants investis sur les supports en unités de compte ne sont pas garantis mais sont sujets à des fluctuations à la hausse ou à la baisse dépendant en particulier de l’évolution des marchés financiers. L’assureur s’engage uniquement sur le nombre d’unités de compte, et non sur la valeur des unités de compte. Les unités de compte présentent un risque de perte en capital. Ce risque financier est entièrement assumé par l’adhérent.",
+      "context": "Risque des unites de compte - engagement sur le nombre, pas la valeur",
+      "page": 9
+    },
+    {
+      "quote": "En revanche, l’adhésion ne peut faire l’objet de rachats, même partiels, que dans des situations exceptionnelles limitativement énumérées par la réglementation.",
+      "context": "Disponibilite des sommes - pas de rachat sauf situations exceptionnelles",
+      "page": 3
+    },
+    {
+      "quote": "Le PER Responsable et Solidaire comporte les trois compartiments de gestion distincts suivants :",
+      "context": "Les trois compartiments de gestion",
+      "page": 15
+    },
+    {
+      "quote": "Conformément à la réglementation, sauf décision contraire et expresse de l’adhérent, les versements (volontaires et transferts entrants) réalisés sur le Plan sont affectés au profil équilibré de la formule Gestion à horizon au terme de la période d’affectation provisoire.",
+      "context": "Gestion a horizon profil equilibre = option par defaut reglementaire",
+      "page": 20
+    },
+    {
+      "quote": "Les droits individuels constitués dans le cadre du Plan, ventilés sur les trois compartiments (« épargne volontaire », « épargne salariale » et « épargne d’entreprise ») peuvent être, à votre demande, rachetés durant la phase de constitution des droits dans les seuls cas suivants :",
+      "context": "Cas de rachat anticipe - liste limitative (chapeau)",
+      "page": 29
+    },
+    {
+      "quote": "l’affectation des sommes épargnées à l’acquisition de la résidence principale. Les droits correspondants aux sommes provenant de l’épargne obligatoire d’entreprise ne peuvent être rachetés pour ce motif.",
+      "context": "Rachat anticipe - acquisition de la residence principale et restriction epargne obligatoire",
+      "page": 29
+    },
+    {
+      "quote": "La garantie complémentaire en cas de décès ne s’applique pas au décès consécutif à : — une guerre civile ou étrangère ; — des effets directs ou indirects d’explosion, de dégagement de chaleur, d’irradiation provenant de transmutation de noyaux d’atome ; — un suicide de l’assuré pendant la première année de l’adhésion ;",
+      "context": "Exclusions de la garantie complementaire en cas de deces (chapeau)",
+      "page": 33
+    },
+    {
+      "quote": "Tous les risques de décès autres sont assurés, quelle qu’en soit la cause (maladie ou accident).",
+      "context": "Portee de la garantie deces - tous les autres risques assures",
+      "page": 33
+    },
+    {
+      "quote": "Le capital sous risque pris en charge par MAIF VIE ne peut excéder 300 000 € par adhésion.",
+      "context": "Plafond du capital sous risque de la garantie complementaire deces",
+      "page": 32
+    },
+    {
+      "quote": "Le montant de cette cotisation est déterminé sur la base d’un taux annuel de 4 % du capital sous risque.",
+      "context": "Cotisation de la garantie complementaire deces - taux annuel 4 %",
+      "page": 33
+    },
+    {
+      "quote": "La liquidation de vos droits individuels est possible au plus tôt à l’âge légal de départ en retraite fixé en application de l’article L. 161-17-2 du Code de la Sécurité sociale ou à la date de liquidation de votre pension dans un régime obligatoire d’assurance vieillesse.",
+      "context": "Conditions de liquidation - age legal ou liquidation de la pension",
+      "page": 36
+    },
+    {
+      "quote": "Les droits individuels correspondant aux versements (volontaires et/ou transferts entrants) réalisés sur le compartiment « épargne volontaire » et sur le compartiment « épargne salariale » sont délivrés, selon votre choix, sous la forme :   — d’un capital versé en une fois ou de manière fractionnée ;   — d’une rente viagère classique ou à annuités garanties. Cette option est cumulable avec la réversion.",
+      "context": "Choix de liquidation - capital, rente viagere ou combinaison (compartiments volontaire et salariale)",
+      "page": 36
+    },
+    {
+      "quote": "Les droits correspondant aux sommes versées sur le compartiment « épargne d’entreprise » (versements obligatoires du salarié ou de l’entreprise) sont délivrés uniquement sous la forme d’une rente viagère (classique ou à annuités garanties, avec option de réversion possible).",
+      "context": "Compartiment epargne d'entreprise - sortie en rente viagere uniquement",
+      "page": 36
+    },
+    {
+      "quote": "La liquidation sous la forme d’un capital n’est pas permise si vous avez opté expressément et irrévocablement pour la liquidation de tout ou partie de vos droits en rente viagère à compter de l’ouverture du Plan.",
+      "context": "Option anticipee et irrevocable pour la rente viagere - interdit la sortie en capital",
+      "page": 36
+    },
+    {
+      "quote": "Vous pouvez renoncer à votre adhésion par lettre recommandée avec demande d’avis de réception dans un délai de 30 jours calendaires révolus à compter de la réception du certificat d’adhésion",
+      "context": "Faculte de renonciation - 30 jours",
+      "page": 13
+    },
+    {
+      "quote": "Toute action née du présent Plan est prescrite au terme d’un délai de deux ans à compter de l’événement qui lui a donné naissance. Ce délai est porté à dix ans lorsque le bénéficiaire est une personne distincte de l’adhérent.",
+      "context": "Prescription - deux ans, dix ans pour le beneficiaire",
+      "page": 41
+    },
+    {
+      "quote": "Les frais encourus à l’occasion d’un tel transfert sont nuls à l’issue d’une période de cinq ans à compter du premier versement dans le Plan, ou lorsque le transfert intervient après la date de liquidation par l’adhérent de sa pension dans un régime obligatoire d’assurance vieillesse ou de l’âge légal de départ en retraite.",
+      "context": "Frais de transfert sortant - 0,60 % et gratuite apres cinq ans",
+      "page": 31
+    },
+    {
+      "quote": "Dans le cas où le droit de transfert des provisions mathématiques excède la quote-part de l’actif qui les représente, le Plan prévoit de réduire cette valeur de transfert à due concurrence sans que cette réduction puisse toutefois excéder 15 % de la valeur des droits individuels de l’adhérent relatifs à des engagements exprimés en euros.",
+      "context": "Reduction possible de la valeur de transfert - plafond 15 %",
+      "page": 31
+    },
+    {
+      "quote": "Vous devez être majeur, ne pas avoir à la fois demandé la liquidation de votre pension dans un régime obligatoire d’assurance vieillesse et atteint l’âge légal de départ en retraite. Vous devez être fiscalement domicilié en France au moment de l’adhésion.",
+      "context": "Conditions d'adhesion - majeur, non retraite, domicilie fiscalement en France",
+      "page": 11
+    },
+    {
+      "quote": "Taux d’intérêt minimal garanti : 0,00 % pour 2026 (net des frais sur l’épargne gérée).",
+      "context": "Taux d'interet minimal garanti 2026 et taux reel servi 2025",
+      "page": 26
+    },
+    {
+      "quote": "Taux d’intérêt réel servi en 2025 : 3,05 % (net des frais sur l’épargne gérée).",
+      "context": "Taux d'interet reel servi en 2025 sur le support en euros",
+      "page": 26
+    },
+    {
+      "quote": "En l’absence de demande de paiement des prestations ou du capital, la valeur de l’adhésion sera transférée à la Caisse des dépôts et consignations dans les conditions prévues aux articles L. 132-27-2 et R. 132-5-5 du Code des assurances au terme d’un délai de 10 ans à compter de la date de connaissance du décès.",
+      "context": "Prestations non reclamees - transfert a la Caisse des depots au bout de 10 ans",
+      "page": 39
+    },
+    {
+      "quote": "Le contrat collectif a pris effet au 01/09/2020. Il est souscrit pour une durée d’un an renouvelable par tacite reconduction.",
+      "context": "Duree du contrat collectif et tacite reconduction",
+      "page": 6
+    },
+    {
+      "quote": "La durée de l’adhésion est viagère. Elle comprend deux phases successives :",
+      "context": "Duree viagere de l'adhesion et ses deux phases",
+      "page": 12
+    },
+    {
+      "quote": "Vous pouvez également décider d’ajourner la liquidation de vos droits sans que cet ajournement ne puisse excéder le 31 décembre qui suit votre 75e anniversaire.",
+      "context": "Ajournement de la liquidation - limite au 31 decembre suivant le 75e anniversaire",
+      "page": 36
+    },
+    {
+      "quote": "NI21-06/26 - Conception et réalisation : Studio de création MAIF.",
+      "context": "Mention d'edition et code interne en derniere page",
+      "page": 80
+    },
+    {
+      "quote": "MAIF VIE Société anonyme au capital de 122 000 000 € - RCS Niort 330 432 782 Le Pavois - 50 avenue Salvador Allende - CS 90000 - 79029 Niort cedex 9.",
+      "context": "Assureur - MAIF VIE, RCS Niort 330 432 782",
+      "page": 41
+    },
+    {
+      "quote": "Le contrat collectif PER Responsable et Solidaire a été souscrit par le GERP Futurs Solidaires auprès de MAIF VIE, filiale assurance vie de MAIF. Ce contrat, conçu et géré par MAIF VIE, est proposé par MAIF et MAIF SOLUTIONS FINANCIÈRES.",
+      "context": "Souscripteur du contrat collectif - GERP Futurs Solidaires aupres de MAIF VIE",
+      "page": 80
+    }
+  ],
+  "gaps": [
+    "Date d’édition : la notice ne porte aucune mention « édition MM/AAAA ». Le seul marqueur est le code interne imprimé sur la dernière ligne de la page 80, « NI21-06/26 - Conception et réalisation : Studio de création MAIF. ». `reference` reprend ce code tel qu’imprimé et `edition_date` retient « 06/26 », lu comme juin 2026 ; cette lecture est cohérente avec le contenu (taux minimal garanti annoncé « pour 2026 », taux réel servi « en 2025 », performances des unités de compte « au 31/12/2025 »), mais elle reste une interprétation du code et non une date écrite en toutes lettres.",
+    "Le document ne comporte aucune franchise/deductible au sens assurantiel : `deductibles` est laissé à null. Les prélèvements qui jouent un rôle équivalent (frais sur versements, frais sur l’épargne gérée, frais d’arbitrage, frais de transfert, cotisation de la garantie complémentaire décès) sont recensés dans `premium` et dans le champ `deductible` de chaque garantie concernée.",
+    "Les pages 2, 77, 78 et 79 ne contiennent aucun texte extractible (pages blanches ou purement graphiques).",
+    "Annexe 3 (pages 52-53) : les grilles de répartition de la formule Gestion à horizon pour les trois profils (prudent, équilibré, dynamique) sont restituées dans le texte source sous forme de colonnes aplaties, ligne par ligne, sans structure de tableau. Seules les bornes ont été reprises (part du support en euros à 18-45 ans pour chaque profil, et 100,00 % à 60 ans et plus pour le profil prudent). La répartition détaillée par unité de compte et par âge, année par année de 46 à 59 ans, n’a pas été transcrite.",
+    "Annexe 4 (page 54) : la grille de la formule Gestion profilée constante a été reprise au niveau des pourcentages par profil (support en euros / unités de compte) ; la ventilation par unité de compte (6 %, 4 %, 2 %… par fonds) n’a pas été transcrite ligne à ligne.",
+    "Annexe 6 (pages 57-58) : le tableau des performances 2025, des frais de gestion, des rétrocessions de commissions et des frais totaux par unité de compte est aplati dans le texte source (en-têtes et valeurs numériques dissociés des libellés de fonds). Les valeurs n’ont pas pu être rattachées de façon fiable à chaque fonds et ne sont donc pas reprises.",
+    "Annexe 11 (pages 62-71) : il s’agit du modèle réglementaire d’informations précontractuelles SFDR pour le support en euros. Seuls les engagements chiffrés et la politique d’exclusion ont été repris. Les tableaux d’indicateurs d’incidence négative (pages 64-66), les graphiques d’alignement à la taxinomie (page 70) et le détail de la catégorie « #2 Autres » (page 71) n’ont pas été transcrits.",
+    "Le taux de la cotisation de la garantie complémentaire en cas de décès est formulé différemment selon l’endroit : « déterminée sur la base d’un taux annuel de 4 % du capital sous risque » (pages 3 et 33) et « ramenée à un taux annuel de 4 % du capital sous risque » (annexe 7, page 59). Le taux de 4 % est identique dans les deux formulations.",
+    "Annexe 10 (page 61) : dans le texte extrait, la ligne « Combinaison rente viagère et annuités garanties » n’est suivie d’aucune coche pour les trois compartiments, contrairement aux autres lignes. Il n’est pas possible de déterminer si l’absence de coche est réelle ou résulte de l’aplatissement du tableau.",
+    "L’encadré de la page 3 mentionne « 15 options d’investissement » proposées (page 10) alors que l’annexe 5 (page 56) liste 14 unités de compte ; le support en euros n’est pas explicitement compté dans l’une ou l’autre énumération. L’écart n’est pas expliqué par le document.",
+    "Les délais de renonciation applicables au transfert entrant et au transfert sortant sont désignés comme des « délais réglementaires » sans être chiffrés dans la notice (pages 18, 30 et 31).",
+    "La notice ne comporte pas de section « exclusions générales » applicable à l’ensemble du contrat : les seules exclusions de sinistre sont celles de la garantie complémentaire en cas de décès (page 33). Les autres entrées de `exclusions` sont des restrictions contractuelles ou des exclusions de la politique d’investissement du support en euros, identifiées comme telles par leur champ `applies_to`.",
+    "Le nom de l’assureur imprimé est MAIF VIE (RCS Niort 330 432 782), filiale assurance vie de MAIF ; le champ `insurer_name` reste « MAIF » conformément aux métadonnées fournies par la tâche. La distinction est documentée dans `special_conditions` (« Les intervenants au contrat » et « Mentions légales de l’assureur et des distributeurs »)."
+  ]
+}

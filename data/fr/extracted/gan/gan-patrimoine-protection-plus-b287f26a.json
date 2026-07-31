@@ -1,0 +1,377 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "gan",
+  "insurer_name": "Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group",
+  "product_name": "Gan Patrimoine Protection Plus",
+  "branch": "prevoyance",
+  "branch_code": null,
+  "document_type": "product_sheet",
+  "language": "fr",
+  "target_audience": "independants",
+  "target_audience_note": "« Travailleurs non-salariés » (titre imprimé en tête du document). Le régime obligatoire de référence est la « Sécurité sociale des indépendants ». Le profil type retenu est « Commerçant, 50 ans, marié, 1 enfant (13 ans) ».",
+  "reference": null,
+  "edition_date": "01/01/2025",
+  "product_family": "Gan Patrimoine Protection Plus",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": true,
+  "source_url": "https://www.ganpatrimoine.fr/Media/documents/Exemple%20tableaux%20de%20garanties%20pr%C3%A9voyance%20TNS/Tableau-TNS-CCSF-Lisibilit%C3%A9-GPP-2025.pdf",
+  "source_pdf": "tableaux-dexemples-de-prise-en-charge-au-01012025-des-garanties-incapacite-invalidite-deces-en-vigueur-b287f26a.pdf",
+  "source_sha256": "4f5689ae2dc7857247d1fae6b02ca6496fc5803d33c095f466376f7f9012865e",
+  "source_pages": 3,
+  "fetched_at": "2026-07-30",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Tableau d’exemples de prise en charge au 01/01/2025 pour les garanties incapacité / invalidité / décès du contrat « Gan Patrimoine Protection Plus », destiné aux travailleurs non-salariés. Le document met en regard, colonne par colonne, les prestations du régime obligatoire (Sécurité sociale des indépendants), celles du contrat de prévoyance et le total, sur un profil type chiffré (commerçant de 50 ans, revenu annuel brut 43 000 €). Il couvre le capital décès, la rente éducation, l’invalidité permanente et l’incapacité de travail, avec deux niveaux d’exemple et deux niveaux de franchise. Il ne s’agit pas d’un document contractuel : « Ils ne peuvent se substituer aux documents contractuels qui seuls engagent l’organisme assureur. »",
+  "definitions": [
+    {
+      "term": "PASS",
+      "definition": "Plafond annuel de la Sécurité sociale — au 01/01/2025 = 47 100 €",
+      "page": 1
+    },
+    {
+      "term": "PMSS",
+      "definition": "plafond mensuel de la Sécurité sociale — [au 01/01/2025] = 3 925 €",
+      "page": 1
+    },
+    {
+      "term": "IJSS",
+      "definition": "Indemnités journalières de la Sécurité sociale",
+      "page": 3
+    },
+    {
+      "term": "IJC",
+      "definition": "indemnité journalière complémentaire, versée par l’assureur, déterminée dans le contrat de prévoyance souscrit",
+      "page": 3
+    },
+    {
+      "term": "CAT 1",
+      "definition": "pension pour incapacité partielle au métier (PIPM)",
+      "page": 2
+    },
+    {
+      "term": "CAT 2",
+      "definition": "pension pour invalidité totale et définitive (PITD)",
+      "page": 2
+    },
+    {
+      "term": "CAT 3",
+      "definition": "pension pour invalidité totale et définitive (PITD) plus majoration pour tierce personne (MTP), l’invalide ayant besoin d’une tierce personne pour effectuer les actes ordinaires de la vie",
+      "page": 2
+    },
+    {
+      "term": "Profil type retenu",
+      "definition": "Commerçant ; 50 ans, marié, 1 enfant (13 ans) ; Revenu annuel brut : 43 000 € soit 3 583 € par mois ; Moyenne 3 dernières années : 43 000 € ; Moyenne 10 meilleurs années : 43 000 €",
+      "page": 1
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Capital décès versé au titre du contrat de prévoyance",
+      "description": "Montant du capital décès déterminé au moment de la souscription du contrat. Garantie forfaitaire ou indemnitaire. Possibilité, le cas échéant, de choisir différentes options au regard de son contrat. Montant du capital décès (Au choix de l’assuré).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Le montant du capital décès peut être soumis à un ou plusieurs plafonds.",
+      "sub_limits": [
+        "Exemple 1 : 100 000 €",
+        "Exemple 2 : 86 000 €",
+        "Total exemple 1 : 9 420 € + 100 000 € (montant du capital décès versé par l’organisme assureur) = 109 420 €",
+        "Total exemple 2 : 9 420 € + 86 000 € (montant du capital décès versé par l’organisme assureur) = 95 420 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Ces garanties (parfois optionnelles) sont souscrites, en fonction des besoins de l’assuré.",
+        "Régime obligatoire de référence : Capital Décès égal à 20% du plafond annuel de la Sécurité sociale (PASS), soit 20 % x 47 100 € = 9 420 €. Si plusieurs bénéficiaires prioritaires de même rang, capital décès partagé à parts égales."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Rente au bénéficiaire désigné",
+      "description": "Option proposée par le contrat de prévoyance (facultatif) : Rente au bénéficiaire désigné.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Capital supplémentaire en cas d’accident",
+      "description": "Option proposée par le contrat de prévoyance (facultatif) : Capital supplémentaire en cas d’accident.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Rente éducation versée au titre du contrat de prévoyance",
+      "description": "Montant de la rente éducation déterminée au moment de la souscription du contrat. Conditions d’âges des enfants (possibilité de prévoir des paliers). Montant rente éducation (Au choix de l’assuré).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [
+        "Exemple 1 : « Rente par enfant de 4 800 €/ an (= 600 € /mois) »",
+        "Exemple 2 : « Rente par enfant de 7 200 €/ an (= 400 € /mois) »",
+        "Majoration à 100 % aux 18 ans de l’enfant",
+        "Rente versée jusqu’à 21 ans ou 26 ans en cas de poursuite d’études",
+        "Total par enfant - exemple 1 : « • 2 355 € et • 600 € / an jusqu’à 21 ans ou 26 ans en cas de poursuite d’études (rente éducation versée par l’organisme assureur) »",
+        "Total par enfant - exemple 2 : « • 2 355 € et • 400 € / an jusqu’à 21 ans ou 26 ans en cas de poursuite d’études (rente éducation versée par l’organisme assureur) »"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Régime obligatoire de référence : Capital décès orphelin égal à 5 % du plafond de la Sécurité sociale, soit Capital par enfant de 5 % x 47 100 € = 2 355 €. Capital décès soumis à des conditions d’âge."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Rente invalidité versée au titre du contrat de prévoyance souscrit",
+      "description": "Taux d’invalidité déterminé par le médecin expert de l’assureur. Montant pouvant s’exprimer en complément de la Sécurité sociale, sous déduction de la Sécurité sociale ou forfaitaire. Possibilité, le cas échéant, de choisir différentes options au regard de son contrat.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [
+        "Hypothèse taux invalidité déterminé par l’expert de l’assureur : 70 %",
+        "Exemple 1 : 1 075 € / mois — Rente versée trimestriellement à terme échu, versée en complément de la Sécurité sociale",
+        "Exemple 2 : 538 € / mois — Rente versée trimestriellement à terme échu, versée en complément de la Sécurité sociale",
+        "Total exemple 1 : 1 792 € + 1 075 € = 2 867 €",
+        "Total exemple 2 : 1 792 € + 538 € = 2 330 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les décisions de l’organisme assureur peuvent différer de celles de la Sécurité sociale.",
+        "Régime obligatoire de référence : En cas d’invalidité catégorie 2 Sécurité sociale : 50 % x (43 000 /12) = 1 792 € par mois."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Capital invalidité en cas d’accident maladie",
+      "description": "Option proposée par le contrat de prévoyance (facultatif) : Capital invalidité en cas d’accident maladie.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Capital invalidité en cas d’accident",
+      "description": "Option proposée par le contrat de prévoyance (facultatif) : Capital invalidité en cas d’accident.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Indemnités complémentaires versées au titre du contrat de prévoyance souscrit (indemnité journalière complémentaire, IJC)",
+      "description": "Montant de l’indemnité journalière complémentaire (IJC) versée par l’assureur, déterminée dans le contrat de prévoyance souscrit. Garantie pouvant s’exprimer en complément de la Sécurité sociale, sous déduction de la Sécurité sociale ou forfaitaire. Possibilité, le cas échéant, de choisir différentes options au regard de son contrat.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Pendant 1095 jours maximum",
+      "sub_limits": [
+        "Exemple 1 : 35,34 € / jours — Pendant 1095 jours maximum",
+        "Exemple 2 : 17,67 € / jours — Pendant 1095 jours maximum",
+        "Franchise 1 — 15 jours — Total exemple 1 : J0 à J3 : 0 € ; J4 à J15 : 58,90 € (IJSS) ; J16 à J 120 : 58,90 € (IJSS) +35,34 € = 94,25 €",
+        "Franchise 1 — 15 jours — Total exemple 2 : J0 à J3 : 0 € ; J4 à J15 : 58,90 € (IJSS) ; J16 à J120 : 58,90 € (IJSS) + 17,67 € = 76,58 €",
+        "Franchise 2 — 30 jours — Total exemple 1 : J0 à J3 : 0 € ; J4 à J30 : 58,90 € (IJSS) ; J31 à J120 : 58,90 € (IJSS) + 35,34 € = 94,25 €",
+        "Franchise 2 — 30 jours — Total exemple 2 : J0 à J3 : 0 € ; J4 à J30 : 58,90 € (IJSS) ; J31 à J120 : 58,90 € (IJSS) + 17,67 € = 76,58 €"
+      ],
+      "deductible": "Niveau de franchise (au choix de l’assuré) — Franchise 1 : 15 jours ; Franchise 2 : 30 jours",
+      "conditions": [
+        "Exemple : maladie ou accident dans le cadre de la vie privé, avec une durée d’arrêt de travail de 120 jours.",
+        "Régime obligatoire de référence : IJSS = (43 000 € X 1/730) = 58,90 € par jour à compter de J4."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Remboursement des frais professionnels",
+      "description": "Option proposée par contrat de prévoyance (facultatif) : Remboursement des frais professionnels.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Remboursement des frais de remplacement",
+      "description": "Option proposée par contrat de prévoyance (facultatif) : Remboursement des frais de remplacement.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Limitations et exclusions définies au contrat souscrit (renvoi générique)",
+      "description": "Ces garanties sont accordées sous réserve des limitations et exclusions de garanties (ex : pratique d’un sport extrême), définies au contrat souscrit.",
+      "applies_to": "all",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": "Niveau de franchise (au choix de l’assuré) — Franchise 1 : 15 jours ; Franchise 2 : 30 jours",
+    "variable": "au choix de l’assuré",
+    "per_coverage": {
+      "Indemnité journalière complémentaire — Franchise 1": "15 jours",
+      "Indemnité journalière complémentaire — Franchise 2": "30 jours"
+    },
+    "page": 3
+  },
+  "waiting_periods": [
+    {
+      "coverage": "Indemnités journalières de la Sécurité sociale (IJSS) — régime obligatoire, pas le contrat de prévoyance",
+      "duration": "3 jours",
+      "description": "Versement des IJSS à partir du 4eme jour (Délai de carence de 3 jours). Il existe des exceptions au délai de carence (ex : arrêt de travail dû à une affection longue durée).",
+      "page": 3
+    }
+  ],
+  "obligations": [],
+  "claims_procedure": [],
+  "duration_and_cancellation": null,
+  "prescription_period": null,
+  "premium": null,
+  "special_conditions": [
+    {
+      "name": "Portée du document",
+      "description": "Ce document présente des exemples de prise en charge par l’assurance maladie, et par votre contrat de prévoyance selon le niveau de couverture choisi. Ils ne correspondent pas forcément à vos besoins ou à votre situation mais, ils vous permettent de comprendre, choisir ou comparer les tableaux de garantie. Ils ne peuvent se substituer aux documents contractuels qui seuls engagent l’organisme assureur. Pour plus de renseignements, consultez la notice d’information de votre contrat.",
+      "page": 1
+    },
+    {
+      "name": "Profil type retenu",
+      "description": "Commerçant ; 50 ans, marié, 1 enfant (13 ans) ; Revenu annuel brut : 43 000 € soit 3 583 € par mois ; Moyenne 3 dernières années : 43 000 € ; Moyenne 10 meilleurs années : 43 000 €.",
+      "page": 1
+    },
+    {
+      "name": "Renvoi 1 — versements du régime obligatoire",
+      "description": "Versements par l’assurance maladie obligatoire soumis à conditions.",
+      "page": 1
+    },
+    {
+      "name": "Renvoi 2 — revalorisation et optionnalité",
+      "description": "Ces garanties (parfois optionnelles) sont souscrites, en fonction des besoins de l’assuré. Ces garanties sont accordées sous réserve des limitations et exclusions de garanties (ex : pratique d’un sport extrême), définies au contrat souscrit. Elles peuvent dans certains cas être revalorisées.",
+      "page": 1
+    },
+    {
+      "name": "Renvoi 3 — champ du capital décès Sécurité sociale",
+      "description": "Ce calcul s’applique lors du décès d'un artisan ou commerçant cotisant (non retraité) ou bénéficiaire d'une pension d'invalidité.",
+      "page": 1
+    },
+    {
+      "name": "Renvoi 5 — plafonnement du capital décès",
+      "description": "Le montant du capital décès peut être soumis à un ou plusieurs plafonds.",
+      "page": 1
+    },
+    {
+      "name": "Renvoi 6 — accident du travail et maladie professionnelle",
+      "description": "Un accident du travail ou une maladie professionnelle enclenchent un processus d’indemnisation différent de la part de la Sécurité sociale.",
+      "page": 2
+    },
+    {
+      "name": "Renvoi 8 — divergence d’appréciation",
+      "description": "Les décisions de l’organisme assureur peuvent différer de celles de la Sécurité sociale.",
+      "page": 2
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Travailleurs non-salariés",
+      "context": "Public visé, imprimé en tête du document",
+      "page": 1
+    },
+    {
+      "quote": "Tableaux d’exemples de prise en charge au 01/01/2025 \ndes garanties Incapacité / invalidité / décès en vigueur",
+      "context": "Titre et date d'effet imprimés",
+      "page": 1
+    },
+    {
+      "quote": "Gan Patrimoine Protection Plus",
+      "context": "Seule mention du produit dans tout le document (bas de page 1) ; aucun assureur n'est nommé",
+      "page": 1
+    },
+    {
+      "quote": "Ces garanties sont accordées sous réserve des limitations et exclusions de garanties (ex : pratique d’un sport extrême), définies au contrat souscrit.",
+      "context": "Unique renvoi aux exclusions",
+      "page": 1
+    },
+    {
+      "quote": "PASS (Plafond annuel de la Sécurité sociale) au 01/01/2025 = 47 100 € et PMSS (plafond mensuel de la Sécurité sociale) = 3 925 €.",
+      "context": "Paramètres de calcul de l'édition 2025",
+      "page": 1
+    },
+    {
+      "quote": "Capital Décès égal à 20% du plafond annuel de la Sécurité \nsociale (PASS)3 4",
+      "context": "Prestation du régime obligatoire",
+      "page": 1
+    },
+    {
+      "quote": "Montant du capital décès déterminé au moment de la souscription du contrat",
+      "context": "Mécanique du capital décès du contrat",
+      "page": 1
+    },
+    {
+      "quote": "Rente par enfant de 4 800 €/ an (= 600 € /mois)",
+      "context": "Rente éducation, exemple 1 — l'équivalence mensuelle imprimée ne correspond pas au montant annuel",
+      "page": 2
+    },
+    {
+      "quote": "Rente par enfant de 7 200 €/ an (= 400 € /mois)",
+      "context": "Rente éducation, exemple 2 — l'équivalence mensuelle imprimée ne correspond pas au montant annuel",
+      "page": 2
+    },
+    {
+      "quote": "Taux d’invalidité déterminé par le médecin expert de l’assureur8",
+      "context": "Détermination du taux d'invalidité au titre du contrat",
+      "page": 2
+    },
+    {
+      "quote": "Montant (IJSS) égal à 1/730 de la moyenne des revenus des 3 \ndernières années dans la limite du PASS",
+      "context": "Calcul des IJ du régime obligatoire",
+      "page": 3
+    },
+    {
+      "quote": "Franchise 1 \n15 jours",
+      "context": "Premier niveau de franchise",
+      "page": 3
+    },
+    {
+      "quote": "Franchise 2  \n30 jours",
+      "context": "Second niveau de franchise",
+      "page": 3
+    },
+    {
+      "quote": "Ils ne peuvent se substituer aux documents contractuels qui seuls engagent l’organisme assureur.",
+      "context": "Portée non contractuelle du document",
+      "page": 1
+    }
+  ],
+  "gaps": [
+    "ASSUREUR : ce document ne nomme AUCUN assureur. Il ne contient ni « Gan Assurances », ni « Groupama Gan Vie », ni « Mutuaide », ni aucune mention légale (RCS, capital, ACPR). Il ne parle que de « l’organisme assureur » et du « contrat de prévoyance souscrit ». La seule identification est le nom de produit « Gan Patrimoine Protection Plus » imprimé en bas de la page 1. Le rattachement à Groupama Gan Vie, porteur de ce produit dans les IPID du même lot, n’est PAS écrit dans ce document et n’a donc pas été porté dans les champs de contenu.",
+    "CONTRADICTION IMPRIMÉE (rente éducation, page 2) : l’exemple 1 imprime « Rente par enfant de 4 800 €/ an (= 600 € /mois) » et l’exemple 2 « Rente par enfant de 7 200 €/ an (= 400 € /mois) ». Les équivalences mensuelles sont incohérentes avec les montants annuels et paraissent interverties entre les deux exemples. Les deux formulations sont conservées telles qu’imprimées, sans correction.",
+    "CONTRADICTION IMPRIMÉE (rente éducation, colonne Total, page 2) : les totaux reprennent « 600 € / an » (exemple 1) et « 400 € / an » (exemple 2), en euros PAR AN, alors que la colonne du contrat annonçait ces mêmes valeurs en euros PAR MOIS. Unités contradictoires à l’intérieur d’une même ligne ; les deux libellés sont conservés verbatim.",
+    "DÉFAUT D’IMPRESSION : la page 3 contient la chaîne « forfaitaireErreur ! Signet non défini. » — un champ de renvoi Word non résolu, laissé dans le PDF publié. Le renvoi visé est vraisemblablement le renvoi 2, mais cela n’est pas écrit : la mention est signalée sans être interprétée.",
+    "RENVOIS MANQUANTS : le corps du document appelle des renvois numérotés jusqu’à 9, mais aucun texte n’est imprimé pour le renvoi 6 en page 1 (il n’est défini qu’en page 2). Les renvois 1 à 5 sont en page 1, 6 à 8 en page 2, 9 en page 3.",
+    "EDITION_DATE : prise du titre imprimé « Tableaux d’exemples de prise en charge au 01/01/2025 » et confirmée par le renvoi 4 (« PASS … au 01/01/2025 = 47 100 € »). Aucun code d’impression ni référence interne n’est imprimé sur ce document — `reference` laissé à null.",
+    "SUPERSEDED : positionné à true. L’autre tableau CCSF du même produit traité dans ce lot (« Gan Patrimoine Protection Plus », même type de document) porte la date 01/01/2026 et actualise les paramètres (PASS 48 060 €). À noter que le prompt d’extraction demande normalement de laisser `superseded` à null (champ calculé au build) ; la valeur est renseignée ici sur instruction explicite de la tâche.",
+    "PRODUCT_FAMILY : le document n’imprime que « Gan Patrimoine Protection Plus », sans ligne de gamme au-dessus. Contrairement aux IPID du même produit, il ne porte pas la mention « MULTIRISQUES PRÉVOYANCE INDIVIDUELLE » : cette ligne partagée ne pouvait donc pas être reprise ici sans extrapolation. Le rapprochement avec les IPID se fait par le nom de produit imprimé, identique.",
+    "EXCLUSIONS : le document n’énumère aucune exclusion. Il ne contient qu’un renvoi générique (« sous réserve des limitations et exclusions de garanties (ex : pratique d’un sport extrême), définies au contrat souscrit »), enregistré comme unique entrée d’exclusions. L’absence de liste n’est pas une omission d’extraction.",
+    "OBLIGATIONS / SINISTRES / DURÉE / RÉSILIATION / COTISATION : totalement absents de ce document, qui est un tableau d’exemples chiffrés et non un document contractuel. Champs laissés vides ou à null.",
+    "MONTANTS DU RÉGIME OBLIGATOIRE : une partie des chiffres du document (9 420 €, 2 355 €, 1 792 €, 58,90 €) relève de la Sécurité sociale des indépendants et non de la garantie de l’assureur. Ils ont été conservés dans `conditions` et `sub_limits` en indiquant explicitement la colonne d’origine, pour ne pas les faire passer pour des prestations du contrat.",
+    "CARENCE : le seul délai de carence imprimé (3 jours) est celui de la Sécurité sociale, pas du contrat de prévoyance. Il est enregistré dans waiting_periods avec cette précision explicite ; le document n’indique aucune carence propre au contrat.",
+    "STRUCTURE TABULAIRE : le texte extrait est un aplatissement de tableaux à trois colonnes (régime obligatoire / contrat de prévoyance / total). L’appariement des cellules a été rétabli d’après les intitulés de colonnes et l’ordre des cellules ; quelques rapprochements (notamment entre les blocs « Exemple 1 » / « Exemple 2 » et leurs totaux) reposent sur cet ordre et non sur un lien explicite."
+  ]
+}

@@ -1,0 +1,557 @@
+insurer:
+  slug: maif
+  name: "MAIF"
+  website: "https://www.maif.fr"
+  segment: particuliers
+  notes: |
+    MAIF is a first-party carrier for its whole non-life range — every non-life IPID prints "MAIF - Entreprise d’assurance immatriculée en France et régie par le Code des assurances - 775 709 702" and every non-life CG prints "MAIF - Société d’assurance mutuelle à cotisations variables ... identifiée sous le numéro SIREN 775 709 702". Two exceptions inside the same library. (1) Life, death, funeral, borrower and savings products are carried by the group subsidiary MAIF VIE: "MAIF VIE - Entreprise d’assurance immatriculée en France et régie par le Code des assurances - LEI 969500ZQDM3R7A4STD74" (IPIDs) / "MAIF VIE - Société anonyme au capital de 122 000 000 € - RCS Niort 330 432 782" (notices). Sollicitudes and Assurance Emprunteur MAIF are group contracts taken out with MAIF VIE by the association ASAP; the PER is taken out with MAIF VIE by GERP Futurs Solidaires. (2) Assurance Loyers Impayés is NOT carried by MAIF at all. The CG says verbatim: "Le contrat Assurance Loyers Impayés est un contrat proposé par la MAIF, géré par l’intermédiaire de Gestion Assurances SA (une marque de la société Groupe Solly Azar) et assuré auprès de SADA Assurances (porteur du risque)" — and a second, parallel set of documents says the same sentence with "assuré auprès de WAKAM (porteur du risque)". Both carrier versions are live side by side on the habitation pages (SADA ref. CG SADA GLI_V1-SA_MF-01/07/2021 – Mars 2023; WAKAM ref. CGWAKAMGLIMF_092025 – Septembre 2025). The savings/livrets documents are Socram Banque products where MAIF is only an intermédiaire en opérations de banque — no insurer at all.
+
+    NOT PUBLISHED: MAIF does publish full conditions générales for motor and household — that is the answer to the interesting question about this insurer — but it publishes them invisibly. 23 real conditions générales are on the public server, including Assurance Auto-Moto Vam (78 p), Assurance Habitation (114 p), Habitation Jeunes (54 p), Propriétaire Bailleur (54 p), Protection Juridique (42 p), Vélo (44 p), Navigation (59 p), corporelle conducteur-passagers Pacs (57 p), Praxis Solutions (60 p), Assurance Professionnelle (54 p), Auto Professionnelle (84 p), Offre Métiers de l’Éducation (56 p), Raqvam A&C (70 p) and Vam A&C (90 p). Not one of them is linked from a product page: they are reachable only from the subscription funnels' JavaScript, or from nowhere at all. A crawler that only reads product pages, as an ordinary visitor does, would conclude MAIF publishes IPIDs only. What is genuinely absent: (a) no conditions générales for the entreprise range — Multirisque Entreprises and Véhicules entreprises are IPID-only; (b) no conditions générales for the construction range — Dommages-Ouvrage, Tous Risques Chantier and Responsabilité Civile Maître d’Ouvrage are IPID-only, as is Auto-mission; (c) no conditions particulières at all except one blank Raqvam A&C specimen (11-2021); (d) no health insurance documents — MAIF has no individual santé product and distributes Harmonie Mutuelle for collective santé, with nothing published on maif.fr; (e) no pet-insurance documents (partner Animaux Santé, quote handled off-site); (f) no cyber insurance contract for individuals (the 'Assurance Cyber Risques' page sells F-Secure software and points to Cybermalveillance.gouv.fr — no insurance product, no IPID); (g) no standalone scolaire contract — school cover sits inside the habitation/Raqvam contracts; (h) no per-contract tariff schedules, only two global barèmes de frais; (i) no group-prevoyance or prevoyance-dirigeant documents for the entreprise range; (j) the accessible 'version adaptée' of the conditions générales is members-only.
+
+    TRAP: A robots-respecting crawler gets nothing: robots.txt has 'Disallow: /*.pdf$'. The PDFs themselves are served normally to any client.
+
+    TRAP: There is no documents page anywhere on maif.fr. Every candidate hub URL (/annexes/documents-contractuels, /annexes/documentation-contractuelle, /annexes/conditions-generales, /annexes/documents-utiles) 404s, and /annexes/toutes-nos-solutions and /annexes/plan-du-site contain zero PDF links.
+
+    TRAP: Product pages link ONLY the IPID. Not one conditions générales is linked from any HTML page on the site. The CGs are referenced exclusively inside the quote funnels' JavaScript: /front/<app>/<version>/static/js/index.js. Fetch the /services-en-ligne/... page, read its <script src> for /front/…, fetch that bundle, grep for '.pdf'. Apps seen: aha (habitation), ahj (habitation jeunes), apb (propriétaire bailleur), vehicule (VAM), protection-corporelle-vehicule (PACS), protection-juridique, praxis, nautis (navigation), ome (métiers de l’éducation), rassurcap, sollicitudes, assurance-vie, simulateur-assurance-vie, assurance-pro, cse, credit-auto, telethon.
+
+    TRAP: Filename convention, which is what actually unlocks the library: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/<category>/<prefix>-<product>.pdf. Categories: mobilite, habitation, famille-vie-quotidienne, epargne-financements, epargne-financements/livret-epargne-autrement, associations-collectivites, enseignants, entreprises, travailleurs-independants, commun. Prefixes: document-information-, conditions-generales-, conditions-particulieres-, notice-, notice-information-, document-informations-cles-, tableau-frais-, tableau-garanties-, tableau-limite-garanties-, bareme-frais-, fiche-informations-, conditions-tarifaires-. Swapping document-information- for conditions-generales- on a known IPID path hits about half the time.
+
+    TRAP: Only 57 of the 77 documents are linked from an HTML page. 11 appear solely inside the quote-flow JavaScript (including the auto, habitation, habitation jeunes, propriétaire bailleur, protection juridique, PACS, praxis and OME conditions générales), and 9 more are served with 200 but referenced nowhere at all — mobilite/conditions-generales-assurance-velo.pdf, mobilite/conditions-generales-assurance-navigation.pdf, mobilite/document-information-assurance-navigation.pdf, epargne-financements/notice-ars.pdf, travailleurs-independants/conditions-generales-assurance-professionnelle.pdf, travailleurs-independants/conditions-generales-assurance-auto-professionnelle.pdf, associations-collectivites/conditions-generales-raqvam-associations-et-collectivites.pdf, associations-collectivites/conditions-generales-vam-associations-et-collectivites.pdf, associations-collectivites/conditions-particulieres-raqvam-associations-et-collectivites.pdf. Those 9 exist only because the filename pattern was probed. Each document carries a `linked_from` field recording which of the three it is.
+
+    TRAP: /files/default/sites/maif-fr/files/pdf/... always 404s; /files/live/sites/maif-fr/files/pdf/... is the live tree. Two habitation pages ship dead /files/default/ links (etats-des-lieux, guide-proprietaires-bailleurs, modele-bail-*, maif-ali-conditions-eligibilite-justificatifs, notice-information-contrats-location-usage-residence-principale). Rewriting default→live recovers the file.
+
+    TRAP: Anchor text is almost useless: 27 of the IPIDs are linked as the generic string "Document d'information sur le produit d'assurance ( PDF - NNN Ko )" with no product name. 44 of 77 documents have site_label_diverges = true, 17 have no anchor text at all. Always take the product name from the PDF.
+
+    TRAP: The IPID header block is NOT at the top of the extracted text. PyMuPDF returns the body first; the "<famille> / Document d’information sur le produit d’assurance / <carrier legal line> / <product name> / <internal code + MM/YYYY>" block lands mid-string. Search the flattened text for 'Document d’information sur le produit d’assurance' and read ±350 characters around it. MAIF does not use the usual 'Compagnie :' / 'Produit :' labels at all.
+
+    TRAP: Every MAIF-issued conditions générales PDF embeds the product's IPID as its final pages. Do not treat the trailing 'IPID XXX' text as a second document, and do not conclude the CG is an IPID.
+
+    TRAP: Edition dates are printed as a bare MM/YYYY or MM/YY on the very last line of the last page, next to an internal reference ('2442 AHA - 01/2025', 'IPID VAM 10/2025', 'NI14 - 01/24', 'CGWAKAMGLIMF_092025'). They are never in the filename and never in the PDF metadata title. A few files carry no date at all (conditions-generales-assurance-loyers-impayes, tableau-limite-garanties-ali, document-information-produit-WAKAM).
+
+    TRAP: PDF /ModDate is not the edition date — several files show a 2026 modification date on a 2023 edition.
+
+    TRAP: The accessibility ('version adaptée') build of the conditions générales is NOT public: the bundles route it to /gateway/api/redirect/espaceperso?redirect_uri=document-adapte?codeDocument=014, i.e. behind the member login. Separately, some IPIDs exist in two public renderings, RGAA and plain (see dropped_duplicates).
+
+    TRAP: document-information-produit-WAKAM.pdf has a text layer but only ~half the text extracts (3 485 chars vs 7 264 for its SADA twin); the rest is vector art. commun/convention-aeras.pdf extracts page 1 cleanly then returns scrambled glyphs (broken font encoding) from page 2. Both are flagged in the records.
+
+    TRAP: Also inside documentation-contractuelle/ but deliberately excluded as non-contractual: associations-collectivites/declaration-sinistre-telethon.pdf and associations-collectivites/releve-identite-bancaire.pdf (both verified 200, they are forms). There is also a separate form tree at /maiffr/documents/pdf/formulaires/<name>.pdf (guide-5-etapes-creer-asso, guide-financements-associations, guide-protection-salaries, guide-tiers-lieux).
+
+    TRAP: Excluded, real, and outside the contractual tree: /files/live/sites/maif-fr/files/pdf/particuliers/habitation/notice-information-contrats-location-usage-residence-principale.pdf (lease notice under housing law, not insurance, and its text layer is fully scrambled), .../particuliers/habitation/maif-ali-conditions-eligibilite-justificatifs.pdf (Solly Azar underwriting checklist), .../particuliers/auto-moto/maif-convention-aeras.pdf (44 p raw text of the 2023 AERAS convention; the 12 p MAIF note on it is the one kept), and .../particuliers/epargne-financements/{publication-informations-durabilite-ars,declaration-incidences-negatives,rapport-esg-climat-maif-vie}.pdf (SFDR/ESG disclosures).
+
+    TRAP: Life-side product names are opaque: Vam = auto/moto, Raqvam = multirisque, Praxis Solutions = GAV, Rassurcap Solutions = temporary death cover, Sollicitudes = funeral cover, ARS = Assurance vie Responsable et Solidaire, AEM = Assurance Emprunteur MAIF, OME = Offre Métiers de l’Éducation, APB = propriétaire bailleur, AHJ = habitation jeunes, AAP = auto professionnelle, ALI/GLI = loyers impayés.
+
+    6 document(s) enumerated but deliberately absent below; see the
+    discovery file for the list and the reason.
+
+  fetch_tier: plain          # No WAF, no blocking, no rate limiting observed. curl and Python urllib
+listing_pages:
+- url: https://www.maif.fr/sitemap-lang.xml
+  lang: fr
+- url: https://www.maif.fr/annexes/toutes-nos-solutions
+  lang: fr
+- url: https://www.maif.fr/vehicule-mobilite/assurance-auto
+  lang: fr
+- url: https://www.maif.fr/habitation/assurance-habitation
+  lang: fr
+- url: https://www.maif.fr/front/aha/2.12.1-RELEASE/static/js/index.js
+  lang: fr
+- url: https://www.maif.fr/front/vehicule/5.1.2-RELEASE/static/js/index.js
+  lang: fr
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/
+  lang: fr
+languages:
+- fr
+pdfs:
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/epargne-financements/notice-ars.pdf
+  branch: assurance-vie
+  document_type: conditions_generales
+  lang: fr
+  product_name: "ASSURANCE VIE RESPONSABLE ET SOLIDAIRE — Notice d’information"
+  edition_date: "2025-04"
+  # carrier named in this document: MAIF VIE - Société anonyme au capital de 122 000 000 € - RCS Niort 330 432 782 - CS 90000 79029 Niort cedex 9. Entreprise régie par le Code des assurances
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/epargne-financements/annexes-notice-information.pdf
+  branch: assurance-vie
+  document_type: conditions_generales
+  lang: fr
+  product_name: "ASSURANCE VIE Responsable et Solidaire — Annexes à la Notice d’information"
+  edition_date: "2026-06"
+  # carrier named in this document: MAIF VIE - Société anonyme au capital de 122 000 000 € - RCS Niort 330 432 782 - CS 90000 79029 Niort cedex 9. Entreprise régie par le Code des assurances
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/epargne-financements/tableau-frais-ars.pdf
+  branch: assurance-vie
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Les frais de l’assurance vie (Assurance vie Responsable et Solidaire)"
+  edition_date: "2026-06"
+  # carrier named in this document: MAIF VIE - Société anonyme au capital de 122 000 000 € - RCS Niort 330 432 782 - CS 90000 79029 Niort cedex 9. Entreprise régie par le Code des assurances
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/epargne-financements/document-informations-cles-ars.pdf
+  branch: assurance-vie
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance vie Responsable et Solidaire"
+  edition_date: "2026-06"
+  # carrier named in this document: MAIF VIE - Société anonyme au capital de 122 000 000 € - RCS Niort 330 432 782 - CS 90000 79029 Niort cedex 9. Entreprise régie par le Code des assurances
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/epargne-financements/documents-informations-cles-uc-ars.pdf
+  branch: assurance-vie
+  document_type: other
+  lang: fr
+  product_name: "ASSURANCE VIE Responsable et Solidaire — Les documents d’informations clés (unités de compte)"
+  edition_date: "2026-06"
+  # carrier named in this document: MAIF VIE - Société anonyme au capital de 122 000 000 € - RCS Niort 330 432 782 - CS 90000 79029 Niort cedex 9. Entreprise régie par le Code des assurances
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/epargne-financements/caracteristiques-envir-ars.pdf
+  branch: assurance-vie
+  document_type: other
+  lang: fr
+  product_name: "Assurance vie Responsable et Solidaire — caractéristiques environnementales et/ou sociales (SFDR art. 8)"
+  edition_date: "2026-06"
+  # carrier named in this document: MAIF VIE - Société anonyme au capital de 122 000 000 € - RCS Niort 330 432 782 - CS 90000 79029 Niort cedex 9. Entreprise régie par le Code des assurances
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/epargne-financements/document-informations-specifiques-ars-fonds-euros.pdf
+  branch: assurance-vie
+  document_type: other
+  lang: fr
+  product_name: "Assurance vie Responsable et Solidaire — fonds en euros"
+  edition_date: "2026-06"
+  # carrier named in this document: MAIF VIE - Société anonyme au capital de 122 000 000 € - RCS Niort 330 432 782 - CS 90000 79029 Niort cedex 9. Entreprise régie par le Code des assurances
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/epargne-financements/publication-annuelle-loi-pacte.pdf
+  branch: assurance-vie
+  document_type: other
+  lang: fr
+  product_name: "Historique des rendements du support en euros (publication annuelle loi PACTE)"
+  edition_date: "2026-01"
+  # carrier named in this document: MAIF VIE - Société anonyme au capital de 122 000 000 € - RCS Niort 330 432 782 - CS 90000 79029 Niort cedex 9. Entreprise régie par le Code des assurances
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/epargne-financements/informations-reglementaires-actifs.pdf
+  branch: assurance-vie
+  document_type: other
+  lang: fr
+  product_name: "Informations réglementaires sur les actifs référencés dans le contrat"
+  edition_date: "2025"
+  # carrier named in this document: MAIF VIE - Société anonyme au capital de 122 000 000 € - RCS Niort 330 432 782 - CS 90000 79029 Niort cedex 9. Entreprise régie par le Code des assurances
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/epargne-financements/livret-epargne-autrement/loi-eckert-tableaux.pdf
+  branch: assurance-vie
+  document_type: other
+  lang: fr
+  product_name: "Publication relative aux contrats d’assurance vie non réglés (art. L. 132-9-4)"
+  edition_date: "2026-04"
+  # carrier named in this document: MAIF VIE - Société anonyme au capital de 122 000 000 € - RCS Niort 330 432 782 - CS 90000 79029 Niort cedex 9. Entreprise régie par le Code des assurances
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/travailleurs-independants/conditions-generales-assurance-auto-professionnelle.pdf
+  branch: auto
+  document_type: conditions_generales
+  lang: fr
+  product_name: "ASSURANCE AUTO PROFESSIONNELLE Aap"
+  edition_date: "2026-03"
+  # carrier named in this document: MAIF - Société d’assurance mutuelle à cotisations variables - CS 90000 - 79038 Niort cedex 9. Entreprise régie par le Code des assurances et identifiée sous le numéro SIREN 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/conditions-generales-assurance-auto-vam.pdf
+  branch: auto
+  document_type: conditions_generales
+  lang: fr
+  product_name: "ASSURANCE AUTO-MOTO Vam"
+  edition_date: "2025-10"
+  # carrier named in this document: MAIF - Société d’assurance mutuelle à cotisations variables - CS 90000 - 79038 Niort cedex 9. Entreprise régie par le Code des assurances et identifiée sous le numéro SIREN 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/conditions-generales-assurance-accidents-corporels-pacs.pdf
+  branch: auto
+  document_type: conditions_generales
+  lang: fr
+  product_name: "ASSURANCE CORPORELLE CONDUCTEUR ET PASSAGERS Pacs"
+  edition_date: "2023-11"
+  # carrier named in this document: MAIF - Société d’assurance mutuelle à cotisations variables - CS 90000 - 79038 Niort cedex 9. Entreprise régie par le Code des assurances et identifiée sous le numéro SIREN 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/conditions-generales-vam-associations-et-collectivites.pdf
+  branch: auto
+  document_type: conditions_generales
+  lang: fr
+  product_name: "ASSURANCE VÉHICULES Vam Associations | Collectivités"
+  edition_date: "2025-10"
+  # carrier named in this document: MAIF - Société d’assurance mutuelle à cotisations variables - CS 90000 - 79038 Niort cedex 9. Entreprise régie par le Code des assurances et identifiée sous le numéro SIREN 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/document-information-assurance-auto-vam.pdf
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Auto-Moto Vam"
+  edition_date: "2025-10"
+  # carrier named in this document: MAIF - Entreprise d’assurance immatriculée en France et régie par le Code des assurances - 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/travailleurs-independants/document-information-assurance-auto-professionnelle.pdf
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance auto professionnelle"
+  edition_date: "2026-03"
+  # carrier named in this document: MAIF - Entreprise d’assurance immatriculée en France et régie par le Code des assurances - 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/document-information-accidents-corporels-pacs.pdf
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance corporelle conducteur passagers - Pacs"
+  edition_date: "2023-11"
+  # carrier named in this document: MAIF - Entreprise d’assurance immatriculée en France et régie par le Code des assurances - 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/document-information-auto-mission.pdf
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "Auto-mission"
+  edition_date: "2025-02"
+  # carrier named in this document: MAIF - Entreprise d’assurance immatriculée en France et régie par le Code des assurances - 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/document-information-vam-associations-et-collectivites.pdf
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "Vam Associations et Collectivités"
+  edition_date: "2025-10"
+  # carrier named in this document: MAIF - Entreprise d’assurance immatriculée en France et régie par le Code des assurances - 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/entreprises/document-information-assurance-auto-professionnel.pdf
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "Véhicules entreprises"
+  edition_date: "2022-09"
+  # carrier named in this document: MAIF - Entreprise d’assurance immatriculée en France et régie par le Code des assurances - 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/commun/bareme-frais.pdf
+  branch: autres
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Barème de frais"
+  edition_date: "2026-03"
+  # carrier named in this document: MAIF - Société d’assurance mutuelle à cotisations variables - CS 90000 - 79038 Niort cedex 9. Entreprise régie par le Code des assurances et identifiée sous le numéro SIREN 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/bareme-frais-associations-et-collectivites.pdf
+  branch: autres
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Barème de frais applicables à compter du 01/07/2024 pour les Associations et les Collectivités"
+  edition_date: "2024-07"
+  # carrier named in this document: MAIF - Société d’assurance mutuelle à cotisations variables - CS 90000 - 79038 Niort cedex 9. Entreprise régie par le Code des assurances et identifiée sous le numéro SIREN 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/epargne-financements/livret-epargne-autrement/guide-hs-mobilite.pdf
+  branch: autres
+  document_type: other
+  lang: fr
+  product_name: "Changer de banque — Le guide de la mobilité (mini-guide bancaire FBF, hors-série)"
+  edition_date: "2022-09"
+  # carrier named in this document: Aucun assureur : guide édité par la Fédération bancaire française (lesclesdelabanque.com), diffusé par MAIF
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/commun/notice-juridique-assurance-a-distance.pdf
+  branch: autres
+  document_type: other
+  lang: fr
+  product_name: "Notice juridique sur l’assurance à distance"
+  edition_date: "2026-06"
+  # carrier named in this document: MAIF - Société d’assurance mutuelle à cotisations variables - CS 90000 - 79038 Niort cedex 9. Entreprise régie par le Code des assurances et identifiée sous le numéro SIREN 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/document-information-assurance-dommages-ouvrages.pdf
+  branch: decennale
+  document_type: ipid
+  lang: fr
+  product_name: "Dommages-Ouvrage Associations et Collectivités"
+  edition_date: "2025-08"
+  # carrier named in this document: MAIF - Entreprise d’assurance immatriculée en France et régie par le Code des assurances - 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/document-information-assurance-tous-risques-chantier.pdf
+  branch: decennale
+  document_type: ipid
+  lang: fr
+  product_name: "Tous Risques Chantier Associations et Collectivités"
+  edition_date: "2025-08"
+  # carrier named in this document: MAIF - Entreprise d’assurance immatriculée en France et régie par le Code des assurances - 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/conditions-generales-assurance-velo.pdf
+  branch: velo
+  document_type: conditions_generales
+  lang: fr
+  product_name: "ASSURANCE Vélo"
+  edition_date: "2024-07"
+  # carrier named in this document: MAIF - Société d’assurance mutuelle à cotisations variables - CS 90000 - 79038 Niort cedex 9. Entreprise régie par le Code des assurances et identifiée sous le numéro SIREN 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/document-information-assurance-velo.pdf
+  branch: velo
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Vélo"
+  edition_date: "2026-06"
+  # carrier named in this document: MAIF - Entreprise d’assurance immatriculée en France et régie par le Code des assurances - 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/notice-information-assurance-emprunteur.pdf
+  branch: emprunteur
+  document_type: conditions_generales
+  lang: fr
+  product_name: "ASSURANCE EMPRUNTEUR MAIF (AEM)"
+  edition_date: "2024-11"
+  # carrier named in this document: MAIF VIE - Société anonyme au capital de 122 000 000 € - RCS Niort 330 432 782 - CS 90000 79029 Niort cedex 9. Entreprise régie par le Code des assurances — « souscrit par l’Association Solidarité Autonomie et Prévoyance (ASAP) auprès de MAIF VIE, dénommée l’assureur »
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/epargne-financements/document-information-aem-credit-auto-acquisition.pdf
+  branch: emprunteur
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Emprunteur Crédit Auto Acquisition"
+  edition_date: "2021-10"
+  # carrier named in this document: MAIF VIE - Entreprise d’assurance immatriculée en France et régie par le Code des assurances - LEI 969500ZQDM3R7A4STD74
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/commun/convention-aeras.pdf
+  branch: emprunteur
+  document_type: other
+  lang: fr
+  product_name: "La Convention AERAS — s’assurer et emprunter avec un risque aggravé de santé (note MAIF)"
+  # carrier named in this document: MAIF - Société d’assurance mutuelle à cotisations variables - CS 90000 - 79038 Niort cedex 9. Entreprise régie par le Code des assurances et identifiée sous le numéro SIREN 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/conditions-generales-praxis-solutions.pdf
+  branch: gav
+  document_type: conditions_generales
+  lang: fr
+  product_name: "ASSURANCE DES ACCIDENTS DE LA VIE COURANTE Praxis Solutions"
+  edition_date: "2024-05"
+  # carrier named in this document: MAIF - Société d’assurance mutuelle à cotisations variables - CS 90000 - 79038 Niort cedex 9. Entreprise régie par le Code des assurances et identifiée sous le numéro SIREN 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/document-information-praxis-solutions.pdf
+  branch: gav
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance des Accidents de la Vie Courante Praxis Solutions"
+  edition_date: "2024-05"
+  # carrier named in this document: MAIF - Entreprise d’assurance immatriculée en France et régie par le Code des assurances - 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/conditions-generales-WAKAM-Assurances.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "ASSURANCE DES LOYERS IMPAYÉS"
+  edition_date: "2025-09"
+  # carrier named in this document: « assuré auprès de WAKAM (porteur du risque) » — WAKAM, Société Anonyme au capital de 5 432 928 €, RCS Paris 562 117 085 (contrat proposé par la MAIF, géré par Gestion Assurances SA / Groupe Solly Azar)
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/conditions-generales-assurance-loyers-impayes.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "ASSURANCE DES LOYERS IMPAYÉS"
+  # carrier named in this document: « assuré auprès de SADA Assurances (porteur du risque) » — SADA Assurances, SA à Directoire et Conseil de Surveillance, au capital de 32 388 700 €, RCS Nîmes B 580 201 127 (contrat proposé par la MAIF, géré par Gestion Assurances SA / Groupe Solly Azar)
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/conditions-generales-assurance-habitation.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "ASSURANCE HABITATION"
+  edition_date: "2025-01"
+  # carrier named in this document: MAIF - Société d’assurance mutuelle à cotisations variables - CS 90000 - 79038 Niort cedex 9. Entreprise régie par le Code des assurances et identifiée sous le numéro SIREN 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/conditions-generales-assurance-habitation-jeunes.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "ASSURANCE HABITATION Jeunes"
+  edition_date: "2025-01"
+  # carrier named in this document: MAIF - Société d’assurance mutuelle à cotisations variables - CS 90000 - 79038 Niort cedex 9. Entreprise régie par le Code des assurances et identifiée sous le numéro SIREN 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/conditions-generales-assurance-proprietaire-bailleur.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "ASSURANCE HABITATION Propriétaire Bailleur"
+  edition_date: "2025-01"
+  # carrier named in this document: MAIF - Société d’assurance mutuelle à cotisations variables - CS 90000 - 79038 Niort cedex 9. Entreprise régie par le Code des assurances et identifiée sous le numéro SIREN 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/document-information-assurance-habitation.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Habitation"
+  edition_date: "2025-01"
+  # carrier named in this document: MAIF - Entreprise d’assurance immatriculée en France et régie par le Code des assurances - 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/document-information-assurance-habitation-jeunes.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Habitation Jeunes"
+  edition_date: "2025-01"
+  # carrier named in this document: MAIF - Entreprise d’assurance immatriculée en France et régie par le Code des assurances - 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/document-information-assurance-loyers-impayes.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Loyers Impayés MF"
+  edition_date: "2023-03"
+  # carrier named in this document: « assuré auprès de SADA Assurances (porteur du risque) » — SADA Assurances, SA à Directoire et Conseil de Surveillance, au capital de 32 388 700 €, RCS Nîmes B 580 201 127 (contrat proposé par la MAIF, géré par Gestion Assurances SA / Groupe Solly Azar)
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/document-information-produit-WAKAM.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Loyers Impayés MF"
+  # carrier named in this document: « assuré auprès de WAKAM (porteur du risque) » — WAKAM, Société Anonyme au capital de 5 432 928 €, RCS Paris 562 117 085 (contrat proposé par la MAIF, géré par Gestion Assurances SA / Groupe Solly Azar)
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/document-information-assurance-proprietaire-bailleur.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Propriétaire Bailleur"
+  edition_date: "2025-01"
+  # carrier named in this document: MAIF - Entreprise d’assurance immatriculée en France et régie par le Code des assurances - 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/tableau-limite-garanties-ali.pdf
+  branch: habitation
+  document_type: other
+  lang: fr
+  product_name: "Assurance Loyers Impayés — Tableau des limites de garantie"
+  # carrier named in this document: SADA Assurances et WAKAM cités tous deux en pied de page (document commun aux deux porteurs)
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/conditions-generales-raqvam-associations-et-collectivites.pdf
+  branch: multirisque-professionnelle
+  document_type: conditions_generales
+  lang: fr
+  product_name: "ASSURANCE MULTIRISQUE Raqvam Associations | Collectivités"
+  edition_date: "2025-03"
+  # carrier named in this document: MAIF - Société d’assurance mutuelle à cotisations variables - CS 90000 - 79038 Niort cedex 9. Entreprise régie par le Code des assurances et identifiée sous le numéro SIREN 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/conditions-particulieres-raqvam-associations-et-collectivites.pdf
+  branch: multirisque-professionnelle
+  document_type: conditions_particulieres
+  lang: fr
+  product_name: "ASSURANCE MULTIRISQUE Raqvam Associations et Collectivités — conditions particulières (modèle)"
+  edition_date: "2021-11"
+  # carrier named in this document: MAIF - Société d’assurance mutuelle à cotisations variables - CS 90000 - 79038 Niort cedex 9. Entreprise régie par le Code des assurances et identifiée sous le numéro SIREN 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/entreprises/document-information-assurance-multirisque-entreprise.pdf
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "Multirisque Entreprises"
+  edition_date: "2023-01"
+  # carrier named in this document: MAIF - Entreprise d’assurance immatriculée en France et régie par le Code des assurances - 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/document-information-raqvam-associations-et-collectivites.pdf
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "Raqvam Associations et Collectivités"
+  edition_date: "2025-03"
+  # carrier named in this document: MAIF - Entreprise d’assurance immatriculée en France et régie par le Code des assurances - 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/conditions-generales-assurance-navigation.pdf
+  branch: navigation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "ASSURANCE NAVIGATION"
+  edition_date: "2023-12"
+  # carrier named in this document: MAIF - Société d’assurance mutuelle à cotisations variables - CS 90000 - 79038 Niort cedex 9. Entreprise régie par le Code des assurances et identifiée sous le numéro SIREN 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/document-information-assurance-bateau.pdf
+  branch: navigation
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Navigation"
+  edition_date: "2023-12"
+  # carrier named in this document: MAIF - Entreprise d’assurance immatriculée en France et régie par le Code des assurances - 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/document-information-assurance-navigation.pdf
+  branch: navigation
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Navigation"
+  edition_date: "2023-12"
+  # carrier named in this document: MAIF - Entreprise d’assurance immatriculée en France et régie par le Code des assurances - 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/notice-information-sollicitudes.pdf
+  branch: obseques
+  document_type: conditions_generales
+  lang: fr
+  product_name: "ASSURANCE OBSÈQUES Sollicitudes"
+  edition_date: "2024-01"
+  # carrier named in this document: MAIF VIE - Société anonyme au capital de 122 000 000 € - RCS Niort 330 432 782 - CS 90000 79029 Niort cedex 9. Entreprise régie par le Code des assurances
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/cotisations-sollicitudes.pdf
+  branch: obseques
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Contrat Sollicitudes — Tableau comparatif des cotisations"
+  edition_date: "2025-07"
+  # carrier named in this document: MAIF VIE - Société anonyme au capital de 122 000 000 € - RCS Niort 330 432 782 - CS 90000 79029 Niort cedex 9. Entreprise régie par le Code des assurances
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/document-informations-cles-sollicitudes.pdf
+  branch: obseques
+  document_type: ipid
+  lang: fr
+  product_name: "Sollicitudes (contrat d’assurance prévoyance obsèques vie entière)"
+  edition_date: "2023-09"
+  # carrier named in this document: MAIF VIE - Société anonyme au capital de 122 000 000 € - RCS Niort 330 432 782 - CS 90000 79029 Niort cedex 9. Entreprise régie par le Code des assurances
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/valeurs-rachat-sollicitudes.pdf
+  branch: obseques
+  document_type: other
+  lang: fr
+  product_name: "Contrat Sollicitudes — Tableau comparatif des valeurs de rachat"
+  edition_date: "2025-07"
+  # carrier named in this document: MAIF VIE - Société anonyme au capital de 122 000 000 € - RCS Niort 330 432 782 - CS 90000 79029 Niort cedex 9. Entreprise régie par le Code des assurances
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/notice-rassurcap-solutions.pdf
+  branch: prevoyance
+  document_type: conditions_generales
+  lang: fr
+  product_name: "ASSURANCE DÉCÈS Rassurcap Solutions"
+  edition_date: "2024-01"
+  # carrier named in this document: MAIF VIE - Société anonyme au capital de 122 000 000 € - RCS Niort 330 432 782 - CS 90000 79029 Niort cedex 9. Entreprise régie par le Code des assurances
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/document-information-deces-rassurcap-solutions.pdf
+  branch: prevoyance
+  document_type: ipid
+  lang: fr
+  product_name: "Rassurcap Solutions"
+  edition_date: "2025-01"
+  # carrier named in this document: MAIF VIE - Entreprise d’assurance immatriculée en France et régie par le Code des assurances - LEI 969500ZQDM3R7A4STD74
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/conditions-generales-assurance-protection-juridique.pdf
+  branch: protection-juridique
+  document_type: conditions_generales
+  lang: fr
+  product_name: "ASSURANCE PROTECTION JURIDIQUE"
+  edition_date: "2023-05"
+  # carrier named in this document: MAIF - Société d’assurance mutuelle à cotisations variables - CS 90000 - 79038 Niort cedex 9. Entreprise régie par le Code des assurances et identifiée sous le numéro SIREN 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/document-information-assurance-protection-juridique.pdf
+  branch: protection-juridique
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Protection Juridique"
+  edition_date: "2023-05"
+  # carrier named in this document: MAIF - Entreprise d’assurance immatriculée en France et régie par le Code des assurances - 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/commun/fiche-informations-responsabilite-civile.pdf
+  branch: rc-privee
+  document_type: other
+  lang: fr
+  product_name: "Fiche d’information responsabilité civile (annexe de l’article A112 du Code des assurances)"
+  edition_date: "2021-10"
+  # carrier named in this document: MAIF - Société d’assurance mutuelle à cotisations variables - CS 90000 - 79038 Niort cedex 9. Entreprise régie par le Code des assurances et identifiée sous le numéro SIREN 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/travailleurs-independants/conditions-generales-assurance-professionnelle.pdf
+  branch: rc-professionnelle
+  document_type: conditions_generales
+  lang: fr
+  product_name: "ASSURANCE PROFESSIONNELLE"
+  edition_date: "2025-01"
+  # carrier named in this document: MAIF - Société d’assurance mutuelle à cotisations variables - CS 90000 - 79038 Niort cedex 9. Entreprise régie par le Code des assurances et identifiée sous le numéro SIREN 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/enseignants/conditions-generales-assurance-professionnelle-metiers-education.pdf
+  branch: rc-professionnelle
+  document_type: conditions_generales
+  lang: fr
+  product_name: "ASSURANCE PROFESSIONNELLE Offre Métiers de l’Éducation"
+  edition_date: "2024-07"
+  # carrier named in this document: MAIF - Société d’assurance mutuelle à cotisations variables - CS 90000 - 79038 Niort cedex 9. Entreprise régie par le Code des assurances et identifiée sous le numéro SIREN 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/travailleurs-independants/document-information-assurance-professionnelle.pdf
+  branch: rc-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Professionnelle"
+  edition_date: "2025-01"
+  # carrier named in this document: MAIF - Entreprise d’assurance immatriculée en France et régie par le Code des assurances - 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/enseignants/document-information-assurance-professionnelle-metiers-education.pdf
+  branch: rc-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance Professionnelle Offre Métiers de l’Éducation"
+  edition_date: "2024-07"
+  # carrier named in this document: MAIF - Entreprise d’assurance immatriculée en France et régie par le Code des assurances - 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/document-information-assurance-responsabilite-civile-maitre-ouvrage.pdf
+  branch: rc-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "Responsabilité Civile Maître d’Ouvrage Associations et Collectivités"
+  edition_date: "2025-08"
+  # carrier named in this document: MAIF - Entreprise d’assurance immatriculée en France et régie par le Code des assurances - 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/enseignants/tableau-garanties-assurance-professionnelle-metiers-education.pdf
+  branch: rc-professionnelle
+  document_type: other
+  lang: fr
+  product_name: "Tableau descriptif des garanties du contrat Offre Métiers de l’Éducation"
+  edition_date: "2025-03"
+  # carrier named in this document: MAIF - Société d’assurance mutuelle à cotisations variables - CS 90000 - 79038 Niort cedex 9. Entreprise régie par le Code des assurances et identifiée sous le numéro SIREN 775 709 702
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/epargne-financements/notice-per.pdf
+  branch: retraite
+  document_type: conditions_generales
+  lang: fr
+  product_name: "PER Responsable et Solidaire — Notice d’information"
+  edition_date: "2026-06"
+  # carrier named in this document: MAIF VIE - Société anonyme au capital de 122 000 000 € - RCS Niort 330 432 782 - CS 90000 79029 Niort cedex 9. Entreprise régie par le Code des assurances — contrat de groupe souscrit auprès de MAIF VIE par le GERP Futurs Solidaires
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/epargne-financements/tableau-frais-per.pdf
+  branch: retraite
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Les frais du PER assurantiel (PER Responsable et Solidaire)"
+  edition_date: "2026-06"
+  # carrier named in this document: MAIF VIE - Société anonyme au capital de 122 000 000 € - RCS Niort 330 432 782 - CS 90000 79029 Niort cedex 9. Entreprise régie par le Code des assurances
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/epargne-financements/publication-informations-durabilite-per.pdf
+  branch: retraite
+  document_type: other
+  lang: fr
+  product_name: "Informations sur les caractéristiques environnementales et sociales du contrat PER Responsable et Solidaire"
+  edition_date: "2026-06"
+  # carrier named in this document: MAIF VIE - Société anonyme au capital de 122 000 000 € - RCS Niort 330 432 782 - CS 90000 79029 Niort cedex 9. Entreprise régie par le Code des assurances
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/epargne-financements/documents-informations-cles-uc-per.pdf
+  branch: retraite
+  document_type: other
+  lang: fr
+  product_name: "PER Responsable et Solidaire — Les documents d’informations clés (unités de compte)"
+  edition_date: "2026-06"
+  # carrier named in this document: MAIF VIE - Société anonyme au capital de 122 000 000 € - RCS Niort 330 432 782 - CS 90000 79029 Niort cedex 9. Entreprise régie par le Code des assurances
+- url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/epargne-financements/caracteristiques-envir-per.pdf
+  branch: retraite
+  document_type: other
+  lang: fr
+  product_name: "PER Responsable et Solidaire — caractéristiques environnementales et/ou sociales (SFDR art. 8)"
+  edition_date: "2026-06"
+  # carrier named in this document: MAIF VIE - Société anonyme au capital de 122 000 000 € - RCS Niort 330 432 782 - CS 90000 79029 Niort cedex 9. Entreprise régie par le Code des assurances

@@ -132,3 +132,20 @@ filesystem. Disambiguate in the data after extraction.
 | DIS_GDT_Equilibre_Thematique_DH_Groupama_2026_05_19.pdf | per-fund / per-profile PRIIPs sheet (DIC / DIS), not an insurance product: it describes an investment option inside a life contract. Ingesting these would show one contract as dozens of products. |
 | da4a2a12-ae4f-4e32-b805-bea802396b7c.pdf | per-fund / per-profile PRIIPs sheet (DIC / DIS), not an insurance product: it describes an investment option inside a life contract. Ingesting these would show one contract as dozens of products. |
 | DIC_FONDS_EN_EURO_RETRAITE_GMA_2026_06_01.pdf | per-fund / per-profile PRIIPs sheet (DIC / DIS), not an insurance product: it describes an investment option inside a life contract. Ingesting these would show one contract as dozens of products. |
+
+## Two documents removed: they are securities, not insurance
+
+`DIC-Telluma-Groupama-Boost-septembre-2026.pdf` and `DIC-Taux-E12m-Groupama-septembre-2026.pdf`
+are **PRIIPs KIDs for structured notes** (*titres de créance*) issued by **Goldman Sachs Finance
+Corp International Ltd**, guaranteed by The Goldman Sachs Group Inc., supervised by the **AMF**.
+Not insurance contracts, not ACPR-supervised, not Groupama's risk.
+
+The first contains the word "Groupama" **zero times**; in the second it appears only inside a
+commercial product name. They sit in Groupama's Contentful asset library because such notes are
+distributed as unit-linked supports inside its life contracts — which is exactly how a securities
+document comes to look like an insurance one.
+
+Removed from `sources/fr/groupama.yml` and from the extraction set. Recorded here rather than
+silently dropped, and worth remembering as a shape: **an insurer's media library also holds the
+paperwork of the instruments inside its contracts.** A DIC on an insurer's own CDN is not
+necessarily an insurance document.

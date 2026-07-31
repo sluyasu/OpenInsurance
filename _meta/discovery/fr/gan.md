@@ -189,3 +189,58 @@ filesystem. Disambiguate in the data after extraction.
 | DIC_FONDS_EN_EUROS.pdf | per-fund / per-profile PRIIPs sheet (DIC / DIS), not an insurance product: it describes an investment option inside a life contract. Ingesting these would show one contract as dozens of products. |
 | document-d-informations-cles-dic-fonds-en-euros.pdf?date=20250428141040 | euro-fund information sheet, not an insurance product: the fonds en euros is an investment support inside a life or retirement contract, not a contract of its own. |
 | DIC-Magestia.pdf | per-fund / per-profile PRIIPs sheet (DIC / DIS), not an insurance product: it describes an investment option inside a life contract. Ingesting these would show one contract as dozens of products. |
+
+## One document is not a Gan product
+
+`telecharger-le-document.pdf?date=20250103140538`, served from `ganprevoyance.fr`, prints
+**« Galya Prévoyance Entreprise »** and nothing links it to the Gan brand. It is a collective
+employer scheme, not an individual contract, and like the other CCSF lisibilité tables in this
+library it **names no insurer at all** — only « l'organisme assureur ».
+
+It is kept, because it is genuinely published on a Gan network's public site and dropping it
+would hide a real document. But it should not be read as a Gan-branded product, and its carrier
+is unknown from the document. Recorded here rather than silently reattributed or deleted.
+
+## Carrier, restated after extraction
+
+Extraction confirmed the discovery finding and sharpened it. Across the 50 ingested documents,
+**« Gan Assurances » is named as the insurer essentially nowhere.** What the documents actually
+print:
+
+- **Groupama Gan Vie** (RCS Paris 340 427 616) as assureur or initiateur, on the large majority.
+- **Groupama Gan Vie and Gan Assurances jointly**, under a single « Compagnie : » line, on the
+  three emprunteur documents.
+- **Société Française de Protection Juridique (SFPJ)**, RCS Paris B 321776775, as a second
+  carrier on two of the Gan Patrimoine obsèques documents. Not anticipated by discovery.
+- **Mutuaide Assistance** as co-signer of the assistance guarantees on several prévoyance and
+  santé documents.
+- **No insurer whatsoever** on the CCSF lisibilité tables, which say only « l'organisme
+  assureur ».
+
+Gan Patrimoine (RCS Lille 457 504 694, ORIAS 09 051 780) and Gan Prévoyance (ORIAS 09 051 779)
+appear as intermediaries, never as carriers, exactly as their own footers state.
+
+## Editions and duplicates found only at extraction
+
+- The two **Gan Santé** guarantee tables, dated 03/2025 and 02/2026, are **byte-for-byte
+  identical in every guarantee label and every Niveau 1 to 5 value** — verified programmatically,
+  0 of 36 rows differ. Only the footer print code distinguishes them. The 2025 one is marked
+  superseded; the pair is worth remembering as evidence that a new edition of a French tariff
+  document does not imply a change in cover.
+- **Gan Patrimoine Protection Plus** and **Gan Prévoyance Protection** are the same contract word
+  for word, differing only in product name and print code, and carry the same date. Parallel
+  network variants, not editions, so neither supersedes the other.
+
+## The three emprunteur documents are not interchangeable
+
+Same group contract, three distribution networks, and genuinely different cover:
+
+| | Gan Assurances | Gan Patrimoine | Gan Prévoyance |
+|---|---|---|---|
+| PTIA ends at | 65 ans | **70 ans** | 65 ans |
+| « Aide à la famille » | no | **yes, 50 % of the quotité** | no |
+| Résiliation regime | current | current | **pre-Lemoine (12 mois / 2 mois)** |
+
+The Gan Prévoyance document still describes the résiliation regime that applied before the loi
+Lemoine of 2022 allowed termination at any time. Recorded as printed; it is a staleness finding,
+not an extraction error.

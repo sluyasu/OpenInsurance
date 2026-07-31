@@ -1,0 +1,311 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "groupama",
+  "insurer_name": "Groupama",
+  "product_name": "Energie prévoyance",
+  "branch": "prevoyance",
+  "branch_code": null,
+  "document_type": "other",
+  "language": "fr",
+  "target_audience": "independants",
+  "target_audience_note": "Le document décrit un régime obligatoire « Sécurité sociale des indépendants » et un « Profil type retenu » : « Commerçant », « 50 ans, marié, 1 enfant (13 ans) ». La note 3 vise « le décès d'un artisan ou commerçant cotisant (non retraité) ou bénéficiaire d'une pension d'invalidité ».",
+  "reference": null,
+  "edition_date": "2026-01",
+  "product_family": "Energie prévoyance",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://assets.ctfassets.net/7awcp71bzphk/6TaB6zk8XVLyn83vszOtX8/31cfaa6a1e539be35223f96ac055b0fa/Exemples-TNS-CCSF-2026.pdf.pdf",
+  "source_pdf": "travailleurs-non-salaries-exemples-reglementaires-de-versement-des-prestations-de-prevoyance-au-01012026-424bbff3.pdf",
+  "source_sha256": "6bcc90b70d722438db6bb72089950bfca347ddbc85c647a8735f499c9e0323c6",
+  "source_pages": 4,
+  "fetched_at": "2026-07-30",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d'exemples chiffrés, de format normalisé, comparant la prise en charge par le régime obligatoire (Sécurité sociale des indépendants) et par un contrat de prévoyance complémentaire, pour un profil type de commerçant de 50 ans percevant 43 000 € bruts par an. Il couvre quatre risques : décès (capital décès), invalidité permanente (rente d'invalidité), incapacité de travail (indemnités journalières) et deux options facultatives (frais d'adaptation, pic d'activité). Le contrat de prévoyance est désigné « Energie prévoyance - Groupama Gan Vie » en page 1 et « ENERGIE – CAISSE REGIONALE GROUPAMA » en pages 2 et 3. Le document précise qu'il ne peut se substituer aux documents contractuels et n'énumère ni les garanties du contrat, ni ses exclusions.",
+  "definitions": [
+    {
+      "term": "PASS",
+      "definition": "PASS (Plafond annuel de la Sécurité sociale) au 01/01/2026 = 47100 €",
+      "page": 1
+    },
+    {
+      "term": "PMSS",
+      "definition": "PMSS (plafond mensuel de la Sécurité sociale) = 4 005 €",
+      "page": 1
+    },
+    {
+      "term": "CAT 1",
+      "definition": "CAT 1 : pension pour incapacité partielle au métier (PIPM)",
+      "page": 2
+    },
+    {
+      "term": "CAT 2",
+      "definition": "CAT 2 : pension pour invalidité totale et définitive (PITD)",
+      "page": 2
+    },
+    {
+      "term": "CAT 3",
+      "definition": "CAT 3 : pension pour invalidité totale et définitive (PITD) plus majoration pour tierce personne (MTP), l'invalide ayant besoin d'une tierce personne pour effectuer les actes ordinaires de la vie",
+      "page": 2
+    },
+    {
+      "term": "IJSS",
+      "definition": "Indemnités journalières de la Sécurité sociale (IJSS)",
+      "page": 3
+    },
+    {
+      "term": "IJC",
+      "definition": "l'indemnité journalière complémentaire (IJC) versée par l'assureur, déterminée dans le contrat de prévoyance souscrit",
+      "page": 3
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Capital décès (contrat de prévoyance)",
+      "description": "Capital décès versé au titre du contrat de prévoyance. Montant du capital décès déterminé au moment de la souscription du contrat. Garantie forfaitaire ou indemnitaire. Possibilité, le cas échéant, de choisir différentes options au regard de son contrat. Montant du capital décès (Au choix de l'assuré).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Le montant du capital décès peut être soumis à un ou plusieurs plafonds (note 5). Le document ne chiffre aucun plafond.",
+      "sub_limits": [
+        "Exemple 1 : 120 000 € (Groupama Gan Vie)",
+        "Exemple 2 : 150 000 € (Groupama Gan Vie)",
+        "Total exemple 1 (capital Sécurité sociale + capital assureur) : 9 612 € + 120000 €=129 612€",
+        "Total exemple 2 (capital Sécurité sociale + capital assureur) : 9 612 € + 150000 €=159 612€"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Pas d'option en capital décès."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Rente invalidité (contrat de prévoyance)",
+      "description": "Rente invalidité versée au titre du contrat de prévoyance souscrit. Taux d'invalidité déterminé par le médecin expert de l'assureur. Montant pouvant s'exprimer en complément de la Sécurité sociale, sous déduction de la Sécurité sociale ou forfaitaire. Possibilité, le cas échéant, de choisir différentes options au regard de son contrat. Les décisions de l'organisme assureur peuvent différer de celles de la Sécurité sociale (note 8).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [
+        "Hypothèse taux invalidité déterminé par l'expert de l'assureur : 70%",
+        "Exemple 1 – Choix d'une rente mensuelle correspondant à un montant journalier de 37 euros. La rente est versée de manière forfaitaire en complément de la sécurité sociale : 1147 € / mois (CAISSE REGIONALE GROUPAMA)",
+        "Exemple 2 – Choix d'une rente mensuelle correspondant à un montant journalier de 55 euros. La rente est versée de manière forfaitaire en complément de la sécurité sociale : 1705 € / mois (CAISSE REGIONALE GROUPAMA)",
+        "Total exemple 1 : 1792 € + 1147 €= 2939€",
+        "Total exemple 2 : 1792 € +1705€=3497€"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Exemple : maladie ou accident dans le cadre de la vie privée. Un accident du travail ou une maladie professionnelle enclenchent un processus d'indemnisation différent de la part de la Sécurité sociale (note 6)."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Frais d'adaptation (option)",
+      "description": "Option proposée par le contrat de prévoyance (facultatif). FRAIS D'ADAPTATION : à partir d'un taux d'invalidité 66%, on peut se faire rembourser, sur présentation de justificatifs, les frais de relogement ou des dépenses engagées…etc. Dans la limite du montant choisi.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "Dans la limite du montant choisi",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "à partir d'un taux d'invalidité 66%",
+        "sur présentation de justificatifs"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Indemnités journalières complémentaires — incapacité de travail",
+      "description": "Indemnités complémentaires versées au titre du contrat de prévoyance souscrit. Montant de l'indemnité journalière complémentaire (IJC) versée par l'assureur, déterminée dans le contrat de prévoyance souscrit. Garantie pouvant s'exprimer en complément de la Sécurité sociale, sous déduction de la Sécurité sociale ou forfaitaire. Possibilité, le cas échéant, de choisir différentes options au regard de son contrat. Montant de l'indemnité journalière (au choix de l'assuré).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [
+        "Exemple 1 : IJ CLASSIQUE 37 euros",
+        "Exemple 2 : IJ SAISONNIERE 37euros sur 4 mois (oct.-jan.) (MAX 8 MOIS)",
+        "Franchise 1, exemple 15 jours — J0 à J15 : 0€ ; J> 15 à J120 :37€",
+        "Franchise 2, exemple 30 jours — J0 à J30 : 0€ ; J> 30 à J120 :37€"
+      ],
+      "deductible": "Niveau de franchise (au choix de l'assuré) ; le document illustre « Franchise 1 (À préciser par chaque organisme) Ex : 15 jours » et « Franchise 2 (À préciser par chaque organisme) Ex : … 30 jours ».",
+      "conditions": [
+        "Exemple retenu : une durée d'arrêt de travail de 120 jours"
+      ],
+      "page": 3
+    },
+    {
+      "name": "Pic d'activité (option)",
+      "description": "Option proposée par contrat de prévoyance (facultatif). PIC D'ACTIVITE : selon le choix IJ classique : nous garantissons une majoration de vos indemnités journalières classiques de 50% pendant une ou plusieurs périodes. Sans franchises. La période clé correspond au minimum à un mois de l'année et au maximum à trois mois de l'année.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "majoration de vos indemnités journalières classiques de 50%",
+      "sub_limits": [
+        "PIC D'ACTIVITE SUR 3 MOIS (oct.-déc.) =55,5",
+        "J0 à J3 : 55,5€",
+        "J> 3 à J92 :  55,5€ + 58,9€ =114,40€",
+        "J> 92 :  58,9€"
+      ],
+      "deductible": "Sans franchises.",
+      "conditions": [
+        "selon le choix IJ classique",
+        "La période clé correspond au minimum à un mois de l'année et au maximum à trois mois de l'année."
+      ],
+      "page": 4
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Limitations et exclusions de garanties définies au contrat souscrit",
+      "description": "Ces garanties (parfois optionnelles) sont souscrites, en fonction des besoins de l'assuré. Ces garanties sont accordées sous réserve des limitations et exclusions de garanties (ex : pratique d'un sport extrême), définies au contrat souscrit. Le seul exemple d'exclusion cité par le document est la pratique d'un sport extrême ; la liste complète n'y figure pas.",
+      "applies_to": "all",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": "Niveau de franchise (au choix de l'assuré) pour les indemnités journalières. Le document illustre deux niveaux : « Franchise 1 (À préciser par chaque organisme) Ex : 15 jours » et « Franchise 2 (À préciser par chaque organisme) Ex : … 30 jours ». Aucune franchise n'est indiquée pour le capital décès ni pour la rente invalidité.",
+    "per_coverage": null,
+    "page": 3
+  },
+  "waiting_periods": [
+    {
+      "coverage": "Indemnités journalières de la Sécurité sociale (IJSS)",
+      "duration": "Délai de carence de 3 jours",
+      "description": "Versement des IJSS à partir du 4eme jour (Délai de carence de 3 jours). Il existe des exceptions au délai de carence (ex : arrêt de travail dû à une affection longue durée) (note 9). Cette carence est celle du régime obligatoire, pas celle du contrat de prévoyance.",
+      "page": 3
+    }
+  ],
+  "obligations": [],
+  "claims_procedure": [],
+  "duration_and_cancellation": null,
+  "prescription_period": null,
+  "premium": null,
+  "special_conditions": [
+    {
+      "name": "Portée du document",
+      "description": "« Ce document présente des exemples de prise en charge par l'assurance maladie, et par votre contrat de prévoyance selon le niveau de couverture choisi. Ils ne correspondent pas forcément à vos besoins ou à votre situation mais, ils vous permettent de comprendre, choisir ou comparer les tableaux de garantie. Ils ne peuvent se substituer aux documents contractuels qui seuls engagent l'organisme assureur. Pour plus de renseignements, consultez la notice d'information de votre contrat. »",
+      "page": 1
+    },
+    {
+      "name": "Profil type retenu",
+      "description": "Commerçant ; 50 ans, marié, 1 enfant (13 ans) ; Revenu annuel brut : 43 000 € soit 3 583 € par mois ; Moyenne 3 dernières années : 43 000 € ; Moyenne 10 meilleurs années : 43 000 €.",
+      "page": 1
+    },
+    {
+      "name": "Désignation du contrat et de l'organisme assureur",
+      "description": "Le contrat est désigné « Contrat de prévoyance : Energie prévoyance - Groupama Gan Vie » en page 1, puis « ENERGIE – CAISSE REGIONALE GROUPAMA » en pages 2 et 3, et les montants d'exemple sont attribués tantôt à « (Groupama Gan Vie) » (capital décès), tantôt à « (CAISSE REGIONALE GROUPAMA) » (rente invalidité). Les deux désignations sont reproduites telles quelles ; aucune caisse régionale n'est nommée.",
+      "page": 1
+    },
+    {
+      "name": "Régime obligatoire — capital décès Sécurité sociale",
+      "description": "Régime obligatoire : Sécurité sociale des indépendants. Capital Décès égal à 20% du plafond annuel de la Sécurité sociale (PASS). Si plusieurs bénéficiaires prioritaires de même rang, capital décès partagé à parts égales. Versements par l'assurance maladie obligatoire soumis à conditions (note 1). Calcul affiché : 20% x 48 060€ = 9 612 €.",
+      "page": 1
+    },
+    {
+      "name": "Régime obligatoire — pension d'invalidité Sécurité sociale",
+      "description": "Calcul de la pension Sécurité sociale en % sur la base du revenu annuel moyen brut des 10 meilleures années d'activité. % du revenu calculé en fonction de la catégorie d'invalidité déterminée par le médecin conseil de la Sécurité sociale après examen de l'assuré. En cas d'invalidité catégorie 2 Sécurité sociale : 50 % x (43 000 /12) = 1 792 € par mois. Hypothèse revenu mensuel perçu avant l'invalidité de 3 583 €.",
+      "page": 2
+    },
+    {
+      "name": "Régime obligatoire — indemnités journalières Sécurité sociale",
+      "description": "Montant (IJSS) égal à 1/730 de la moyenne des revenus des 3 dernières années dans la limite du PASS. Versement des IJSS à partir du 4eme jour (Délai de carence de 3 jours). Calcul affiché : IJSS = (43 000 € X 1/730)  = 58,90 € par jour à compter de J4.",
+      "page": 3
+    },
+    {
+      "name": "Totaux incapacité de travail — franchise 15 jours (exemples 1 et 2)",
+      "description": "Total € /jour pendant 120 jours : J0 à J3 : 0€ ; J4 à J15 : 58,90 ; J> 15 à J120 :  58,90€ +37€ =95,90€ ; J>120 : 58,90€. Les deux exemples affichent le même total.",
+      "page": 3
+    },
+    {
+      "name": "Totaux incapacité de travail — franchise 30 jours (exemples 1 et 2)",
+      "description": "Total € /jour pendant 120 jours, exemple 1 : J0 à J3 : 0€ ; J4 à J30 : 58,90 ; J> 30 à J120 :  58,90€ +40€ =95,90€ ; J>120 : 58,90€. Exemple 2 : J0 à J3 : 0€ ; J4 à J30 : 58,90 ; J> 30 à J120 :  58,90€ + 37€ =95,90€ ; J>120 : 58,90€. Le « +40€ » de l'exemple 1 est reproduit tel quel (voir gaps).",
+      "page": 3
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Ces garanties (parfois optionnelles) sont souscrites, en fonction des besoins de l’assuré. Ces garanties sont accordées sous réserve des limitations et exclusions de garanties (ex : pratique d’un sport extrême), définies au contrat souscrit.",
+      "context": "Renvoi aux limitations et exclusions du contrat, non énumérées",
+      "page": 1
+    },
+    {
+      "quote": "Ce document présente des exemples de prise en charge par l’assurance maladie, et par votre contrat de prévoyance selon le niveau de couverture choisi. Ils ne correspondent pas forcément à vos besoins ou à votre \nsituation mais, ils vous permettent de comprendre, choisir ou comparer les tableaux de garantie. Ils ne peuvent se substituer aux documents contractuels qui seuls engagent l’organisme assureur.",
+      "context": "Portée non contractuelle du document",
+      "page": 1
+    },
+    {
+      "quote": "PASS (Plafond annuel de la Sécurité sociale) au 01/01/2026 = 47100",
+      "context": "PASS retenu en note 4",
+      "page": 1
+    },
+    {
+      "quote": "20% x 48 060€ = 9 612 €",
+      "context": "Calcul du capital décès Sécurité sociale — assiette divergente de la note 4",
+      "page": 1
+    },
+    {
+      "quote": "Le montant du capital décès peut être soumis à un ou plusieurs plafonds.",
+      "context": "Plafonnement du capital décès",
+      "page": 1
+    },
+    {
+      "quote": "Energie prévoyance - Groupama Gan Vie",
+      "context": "Désignation du contrat en page 1",
+      "page": 1
+    },
+    {
+      "quote": "ENERGIE – CAISSE REGIONALE GROUPAMA",
+      "context": "Désignation du contrat en pages 2 et 3",
+      "page": 2
+    },
+    {
+      "quote": "Ce calcul s’applique lors du décès d'un artisan ou commerçant cotisant (non retraité) ou bénéficiaire d'une pension d'invalidité",
+      "context": "Population visée par le calcul du capital décès",
+      "page": 1
+    },
+    {
+      "quote": "Taux d’invalidité déterminé par le médecin expert de l’assureur",
+      "context": "Détermination du taux d'invalidité par l'assureur",
+      "page": 2
+    },
+    {
+      "quote": "Les décisions de l’organisme assureur peuvent différer de celles de la Sécurité sociale.",
+      "context": "Indépendance des décisions assureur / Sécurité sociale",
+      "page": 2
+    },
+    {
+      "quote": "FRAIS D’ADAPTATION : à partir d’un taux d’invalidité 66%, on peut se faire rembourser, sur \nprésentation de justificatifs, les frais de relogement ou des dépenses engagées…etc. Dans la limite du \nmontant choisi",
+      "context": "Option frais d'adaptation",
+      "page": 2
+    },
+    {
+      "quote": "PIC D’ACTIVITE : selon le choix IJ classique : nous garantissons une majoration de vos indemnités \njournalières classiques de 50% pendant une ou plusieurs périodes. Sans franchises.  La période clé \ncorrespond au minimum à un mois de l’année et au maximum à trois mois de l’année.",
+      "context": "Option pic d'activité",
+      "page": 4
+    },
+    {
+      "quote": "Montant (IJSS) égal à 1/730 de la moyenne des revenus des 3 \ndernières années dans la limite du PASS",
+      "context": "Calcul des IJSS",
+      "page": 3
+    },
+    {
+      "quote": "Il existe des exceptions au délai de carence (ex : arrêt de travail dû à une affection longue durée)",
+      "context": "Exceptions au délai de carence Sécurité sociale",
+      "page": 3
+    }
+  ],
+  "gaps": [
+    "Ce document n'est pas contractuel et ne décrit pas le contrat : c'est un jeu d'exemples chiffrés de format normalisé (type CCSF), qui « ne peu[t] se substituer aux documents contractuels qui seuls engagent l'organisme assureur ». Les garanties du contrat Energie prévoyance n'y sont ni énumérées ni définies ; seuls des montants d'exemple sont donnés.",
+    "CONTRADICTION sur l'assiette du capital décès Sécurité sociale, les deux lectures étant conservées : la note 4 indique « PASS (Plafond annuel de la Sécurité sociale) au 01/01/2026 = 47100 € », tandis que le calcul affiché en page 1 est « 20% x 48 060€ = 9 612 € ». 20 % de 47100 € donneraient 9 420 €, non 9 612 €. Le document ne dit pas laquelle des deux valeurs fait foi.",
+    "CONTRADICTION sur l'organisme assureur, les deux désignations étant conservées : « Contrat de prévoyance : Energie prévoyance - Groupama Gan Vie » (page 1, avec des montants d'exemple attribués à « (Groupama Gan Vie) ») contre « ENERGIE – CAISSE REGIONALE GROUPAMA » (pages 2 et 3, montants attribués à « (CAISSE REGIONALE GROUPAMA) »). Aucune caisse régionale n'est nommée et le document ne précise pas laquelle des deux entités porte quel risque.",
+    "ANOMALIE ARITHMÉTIQUE reproduite sans correction : dans le total de l'exemple 1 pour la franchise 30 jours, le document imprime « J> 30 à J120 :  58,90€ +40€ =95,90€ ». Les trois autres totaux comparables impriment « +37€ =95,90€ », et 58,90 + 37 = 95,90. Le « +40€ » est reproduit tel qu'imprimé.",
+    "Le document contient un renvoi Word non résolu, reproduit tel quel dans le texte source : « sous déduction de la Sécurité sociale ou forfaitaireError! Bookmark not defined. » (page 3). Le contenu de la note appelée est donc inconnu.",
+    "Le modèle normalisé n'a pas été entièrement complété par l'organisme. Plusieurs cellules conservent les mentions génériques du gabarit : « Franchise 1 (À préciser par chaque organisme) », « Franchise 2 (À préciser par chaque organisme) », « X €/ % revenu pendant XX jours (À préciser par chaque organisme) », « Total € /jour pendant 120 jours (À préciser par chaque organisme en fonction de la franchise retenue) ». Les niveaux de franchise réellement proposés par le contrat ne sont donc pas connus : « 15 jours » et « 30 jours » sont introduits par « Ex : ».",
+    "Aucune date d'édition ni référence documentaire n'est imprimée : edition_date et reference sont laissés à null. Le nom de fichier de la source contient « 2026 » et la note 4 date le PASS « au 01/01/2026 », mais le document lui-même ne porte aucune mention d'édition. Contrairement au tableau « salariés du secteur privé » du même émetteur, il n'a pas non plus de titre daté.",
+    "Aucune exclusion nominative : le document renvoie aux « limitations et exclusions de garanties […] définies au contrat souscrit » et n'en cite qu'un exemple entre parenthèses (« pratique d'un sport extrême »). L'entrée unique d'exclusions[] reflète cette mention, et non une liste d'exclusions du contrat.",
+    "Aucune information sur la durée du contrat, la résiliation, la prescription, les obligations de l'assuré, la procédure de sinistre ou les cotisations : le document n'en traite pas. Les blocs correspondants sont donc vides.",
+    "Aucune garantie décès optionnelle : le document indique explicitement « Pas d'option en capital décès. » En revanche il ne dit pas si les rentes éducation, rentes de conjoint ou frais d'obsèques existent au contrat — ces risques ne sont pas abordés.",
+    "Page 1 : les treize premières lignes du texte extrait sont vides (mise en page à base de tableaux et d'images), et le titre éventuel de la page n'a pas de couche texte. Le document commence directement par les notes de bas de page.",
+    "Les tableaux à colonnes multiples ont été linéarisés par l'extraction de texte. L'affectation des montants aux colonnes « Exemple 1 » / « Exemple 2 » a été recoupée avec les lignes « Total exemple 1 » / « Total exemple 2 » du document, qui confirment l'ordre retenu.",
+    "Ce document et le tableau « Actifs salariés du secteur privé » (Tableau-salarie-secteur-prive-CCSF-VF-GROUPAMA) sont deux documents distincts du même format normalisé, non deux éditions du même document : populations différentes (indépendants contre salariés du secteur privé), contrats différents (« Energie prévoyance » contre « Synergie Prévoyance Entreprise »), et millésimes différents (PASS au 01/01/2026 contre garanties « au 01/01/2025 »)."
+  ]
+}

@@ -1,7 +1,7 @@
 insurer:
   slug: groupama
-  name: Groupama — brand of the Caisses Régionales d'Assurances Mutuelles Agricoles (non-life) and of Groupama Gan Vie SA (life); site published by the Caisse Nationale de Réassurance mutuelle agricole Groupama, 8-10 rue d'Astorg, 75383 Paris Cedex 08, 343 115 135 RCS Paris
-  website: https://www.groupama.fr
+  name: "Groupama"
+  website: "https://www.groupama.fr"
   segment: particuliers
   notes: |
     Groupama is not an intermediary brand — the risk sits inside the group — but the published documents deliberately do NOT name which regional mutual carries it. The non-life contract documents all print the same substitution formula: « La Caisse Locale d’Assurances Mutuelles Agricoles dénommée ci-après GROUPAMA, (identifiée aux Conditions Personnelles) ayant souscrit un traité de Réassurance emportant substitution auprès de : La Caisse Régionale d’Assurances Mutuelles Agricoles (identifiée aux Conditions Personnelles) » (Profil élus DDG p.1 and Tableau des montants p.1; the Flotte Automobile CG says the same with « Conditions Particulières »). The IPID goes further and prints only « Compagnie : GROUPAMA – Entreprise d’assurance française ». The named entity is therefore resolved per policy in the Conditions Personnelles/Particulières, which are never published. Conclusion for the slug question: ONE slug, 'groupama', for the non-life documents — splitting into 11 regional slugs would be inventing information the documents do not carry. Life, retirement, obsèques and the TNS prévoyance examples are different: they name 'Groupama Gan Vie – Société Anonyme au capital de 1 371 100 605 € – 340 427 616 RCS Paris' as assureur, so those documents belong to the Groupama Gan Vie carrier, not to a régionale. The health CCSF tables name 'Groupama Assurances Mutuelles, pour le compte des Caisses Régionales d’Assurances Mutuelles Agricoles' (the group holding acting for the régionales). Assistance in the Profil élus and Flotte contracts is carried by Mutuaide Assistance. The only documents on the site that DO name an individual régionale are the certificats mutualistes notices (Groupama Grand Est, Groupama Rhône-Alpes Auvergne) — but those are securities notices, not insurance contracts, and are excluded from the list below.
@@ -115,20 +115,6 @@ pdfs:
   product_name: "Groupama Premium"
   edition_date: "2026-06"
   # carrier named in this document: Groupama Gan Vie – Société Anonyme au capital de 1 371 100 605 € – 340 427 616 RCS Paris – Entreprise régie par le code des assurances
-- url: https://assets.ctfassets.net/7awcp71bzphk/5utZ3cYq3aNzjf8J7mn2t1/ef8d5f6f21476040c502038289f3acfe/DIC-Taux-E12m-Groupama-septembre-2026.pdf
-  branch: assurance-vie
-  document_type: product_sheet
-  lang: fr
-  product_name: "Groupama Taux E12m Septembre 2026"
-  edition_date: "2026-09"
-  # carrier named in this document: Groupama Gan Vie
-- url: https://assets.ctfassets.net/7awcp71bzphk/5L0gYGM9yfQSFZr0tM13rr/5ffae12d63ceb9d4ddc21274c14997db/DIC-Telluma-Groupama-Boost-septembre-2026.pdf
-  branch: assurance-vie
-  document_type: product_sheet
-  lang: fr
-  product_name: "Telluma Groupama Boost Septembre 2026"
-  edition_date: "2026-09"
-  # carrier named in this document: Groupama Gan Vie
 - url: https://assets.ctfassets.net/7awcp71bzphk/2NDxlODkd7f3ti8ivbduuL/826b3f591087f7a1a33abb7d4cad172f/Conditions_G__n__rales.pdf
   branch: auto
   document_type: conditions_generales

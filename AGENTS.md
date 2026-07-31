@@ -27,7 +27,7 @@ navigate it without guessing. Do not edit by hand.
 |---|---|---|---|---|---|
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
 | ch (Switzerland) | 0 | 3 | 1 | 0 | 5 |
-| fr (France) | 17 | 70 | 3 | 1 | 5 |
+| fr (France) | 17 | 174 | 7 | 1 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
 
@@ -309,9 +309,37 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | ch | vehicules | vaudoise | Assurance véhicules automobiles | 2026-07-21 | [pdf](https://www.vaudoise.ch/docs/default-source/documents-commerciaux/cga/cga_vm8_20220101_f.pdf) |
 | fr | agricole | thelem | Assurance Engins agricoles - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/Ipid-EA-2026.pdf) |
 | fr | agricole | thelem | Assurance Terrenis - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_-TERRENIS-01-2026.pdf) |
+| fr | assurance-vie | gan | Chromatys Evolution | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2026/03/Gan-Chromatys-Evolution-Fiche-Infos-Frais.pdf) |
+| fr | assurance-vie | gan | GAN ASSURANCES CAPITALISATION EXCEPTION - Fiche | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2026/07/GAN-Capitalisation-Exception-Infos-Cles-2026-07.pdf) |
+| fr | assurance-vie | gan | GAN ASSURANCES CHROMATYS EVOLUTION - Fiche | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2026/07/GAN-Chromatys-Evolution-Infos-Cles-2026-07.pdf) |
+| fr | assurance-vie | gan | Gan Assurance Capitalisation Exception | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2026/03/Gan-Capitalisation-Exception-Fiche-Infos-Frais.pdf) |
+| fr | assurance-vie | gan | Gan Patrimoine Capitalisation | 2026-07-30 | [pdf](https://www.ganpatrimoine.fr/Media/GPATCAPI_Frais_2023.pdf) |
+| fr | assurance-vie | gan | Gan Patrimoine Capitalisation (2) | 2026-07-30 | [pdf](https://www.ganpatrimoine.fr/Media/documents/Transparence%20frais%20contrat/Gan-Patrimoine-Capitalisation.pdf) |
+| fr | assurance-vie | gan | Gan Patrimoine Capitalisation - Fiche | 2026-07-30 | [pdf](https://www.ganpatrimoine.fr/Media/documents/DIC/DIC%20GL%20Capitalisation%20Gan%20Patrimoine_2025_03_07.pdf) |
+| fr | assurance-vie | gan | Gan Patrimoine Evolution | 2026-07-30 | [pdf](https://www.ganpatrimoine.fr/Media/documents/Transparence%20frais%20contrat/Gan-Patrimoine-Evolution.pdf) |
+| fr | assurance-vie | gan | Gan Patrimoine Evolution - Fiche | 2026-07-30 | [pdf](https://www.ganpatrimoine.fr/Media/documents/DIC/DIC%20GL%20Evolution%20Gan%20Patrimoine_2025_03_05.pdf) |
+| fr | assurance-vie | gan | Gan Prevoyance Perspectives Epargne | 2026-07-30 | [pdf](https://www.ganprevoyance.fr/assurance-vie-gan-prevoyance-perspectives-epargne/3-4/fiche-d-information-frais-du-contrat-gan-prevoyance-perspectives-epargne.pdf?date=20260318121419) |
+| fr | assurance-vie | gan | Gan Prévoyance Perspectives Épargne - Fiche | 2026-07-30 | [pdf](https://www.ganprevoyance.fr/epargne-handicap/2-4/document-d-informations-cles-dic-gan-prevoyance-perspectives-epargne.pdf?date=20250428141040) |
+| fr | assurance-vie | groupama | Groupama Capitalisation | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/45dGh3eV7GfghmNbubvHCF/96d8a6d4413eb7b6cd25b69bad72fed1/Transparence-des-frais-Groupama-Capitalisation.pdf) |
+| fr | assurance-vie | groupama | Groupama Capitalisation - Fiche | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/4ynvvCI8ZzrisorVFqTL5P/469058f6a28d1cdcdb1a9de619509ae1/DIC_GL_Capitalisation_Groupama_2026_06_01.pdf) |
+| fr | assurance-vie | groupama | Groupama Modulation | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/2OkzOUNS1lkaWVdo3J6lQV/3672f74ca5be50e87a982547264e261f/Transparence-des-frais-Groupama-Modulation.pdf) |
+| fr | assurance-vie | groupama | Groupama Modulation - Fiche | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/9VWyTehsWk3NUoVC4CtOJ/fa05959c0cca34077bd3667a0bf4f7ed/DIC_GL_Modulation_Groupama_2026_06_01.pdf) |
+| fr | assurance-vie | groupama | Groupama Premium | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/6ww5UxNZIebZgFl7LjYBvS/91f73b81ed78cc3e1619f2a61f3ff848/Transparence-des-frais-Groupama-Premium.pdf) |
+| fr | assurance-vie | groupama | Groupama Premium - Fiche | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/68QgdXzxVcoimlYzysawY/51fcb37e7c705a19a5d68e6a0467b35c/DIC_GL_Premium_Groupama_2026_06_01.pdf) |
+| fr | assurance-vie | maif | Assurance vie Responsable et Solidaire | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/epargne-financements/notice-ars.pdf) |
+| fr | assurance-vie | maif | Assurance vie Responsable et Solidaire - Annexes à la Notice d'information | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/epargne-financements/annexes-notice-information.pdf) |
 | fr | auto | direct-assurance | Assurance Auto et Auto connectée Direct Assurance - IPID | 2026-07-30 | [pdf](https://directassurance.cdn.prismic.io/directassurance/aYnxBN0YXLCxVnsa_fiche-ipid-auto-022026.pdf) |
 | fr | auto | direct-assurance | Contrat Auto | 2026-07-30 | [pdf](https://directassurance.cdn.prismic.io/directassurance/aYnw_90YXLCxVnsY_AUTO_02.26_VW_VF.pdf) |
 | fr | auto | direct-assurance | YouDrive - CP | 2026-07-30 | [pdf](https://directassurance.cdn.prismic.io/directassurance/afNVWsBOoF08xf0r_CPYD_04.26.pdf) |
+| fr | auto | groupama | Convention Spéciale Garantie Assistance Véhicules 3,5 tonnes | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/412fYD1ZFvT8rzbrc8gZmp/bb9a1434accd9b56421b51e18090f894/CS_Assistance__3_5T.pdf) |
+| fr | auto | maif | Assurance Auto-Moto Vam | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/conditions-generales-assurance-auto-vam.pdf) |
+| fr | auto | maif | Assurance auto professionnelle | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/travailleurs-independants/conditions-generales-assurance-auto-professionnelle.pdf) |
+| fr | auto | maif | Assurance corporelle conducteur passagers - Pacs | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/conditions-generales-assurance-accidents-corporels-pacs.pdf) |
+| fr | auto | maif | Assurance véhicules Vam Associations et Collectivités | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/conditions-generales-vam-associations-et-collectivites.pdf) |
+| fr | auto | matmut | 4 roues Référence | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGMRSQ.pdf) |
+| fr | auto | matmut | Auto 4D | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/cgauto4dmatmut.pdf) |
+| fr | auto | matmut | Auto 4D Distinguo & Co | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-auto4d-distinguo-and-co.pdf) |
+| fr | auto | matmut | Auto-mission | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CG-automission.pdf) |
 | fr | auto | thelem | Assurance Automobile - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA-012026.pdf) |
 | fr | auto | thelem | Assurance Camping-Car - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_580_Camping-cars-012026.pdf) |
 | fr | auto | thelem | Assurance Caravane - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_90B_Caravane-juillet-2023.pdf) |
@@ -322,10 +350,17 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | chasse | thelem | Assurance chasse - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_Chasse-332-juillet-2024.pdf) |
 | fr | decennale | thelem | DCBAT - Responsabilité Décennale des entreprises du Bâtiment - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_810_DCBAT_-012025.pdf) |
 | fr | edpm | thelem | Assurance EDPM - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_EDPM-012026.pdf) |
+| fr | emprunteur | gan | Gan Assurances Emprunteur - IPID | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2024/11/062023_DIN-Emprunteur.pdf) |
+| fr | emprunteur | gan | Gan Patrimoine Emprunteur - IPID | 2026-07-30 | [pdf](https://www.ganpatrimoine.fr/Media/documents/D%C3%A9pliants/DIN%20GAN%20PAT%20Emprunteur-GPE09-032026.pdf) |
+| fr | emprunteur | gan | Gan Prévoyance Emprunteur - IPID | 2026-07-30 | [pdf](https://www.ganprevoyance.fr/assurance-emprunteur/2-1/assurance-emprunteur.pdf?date=20211108150730) |
+| fr | emprunteur | maif | Assurance Emprunteur MAIF (AEM) | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/notice-information-assurance-emprunteur.pdf) |
 | fr | emprunteur | thelem | Thélem Emprunteur - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_488_juin-2025.pdf) |
+| fr | gav | gan | Gan Prévoyance Garantie des Accidents de la Vie - IPID | 2026-07-30 | [pdf](https://www.ganprevoyance.fr/gav/1-1/document-d-informations-garantie-accidents-de-la-vie.pdf?date=20230317164344) |
+| fr | gav | maif | Praxis Solutions | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/conditions-generales-praxis-solutions.pdf) |
 | fr | gav | thelem | Assurance Accidents de la vie privée - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_700-ACCVP-08-2025.pdf) |
 | fr | habitation | direct-assurance | Assurance Habitation Direct Assurance - IPID | 2026-07-30 | [pdf](https://directassurance.cdn.prismic.io/directassurance/aHDKPEMqNJQqHyOg_IPID_HABITATION.pdf) |
 | fr | habitation | direct-assurance | Contrat Habitation | 2026-07-30 | [pdf](https://directassurance.cdn.prismic.io/directassurance/abglZ7bci2UF6D7w_HABITATION_MRH_03.26_Vdef.pdf) |
+| fr | habitation | groupama | Assurance multirisques habitation | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/6XdGvqnvZRdt2ZYt9qsJlE/8241ba3621b16026488b20c2c562a548/Tableau_garanties_MRH_avec_logo_G_26_juin.pdf) |
 | fr | habitation | luko | L'assurance multirisque habitation (HCE) | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/t-c/Conditions_generales_HCE_2504.pdf) |
 | fr | habitation | luko | L'assurance multirisque habitation (HMIN) | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/t-c/Conditions_generales_HMIN_2504.pdf) |
 | fr | habitation | luko | L'assurance propriétaire non occupant | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/t-c/Conditions_generales_LCE_2504.pdf) |
@@ -334,6 +369,13 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | habitation | luko | Multirisques habitation et assistance — Police - COUVERTURE ÉTENDUE - IPID | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/legal/IPID_HCE_2504.pdf) |
 | fr | habitation | luko | Propriétaire non-occupant — Police - COUVERTURE MINIMUM LÉGAL - IPID | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/legal/IPID_LMIN_2504.pdf) |
 | fr | habitation | luko | Propriétaire non-occupant — Police - COUVERTURE ÉTENDUE - IPID | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/legal/IPID_LCE_2504.pdf) |
+| fr | habitation | maif | Assurance Habitation | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/conditions-generales-assurance-habitation.pdf) |
+| fr | habitation | maif | Assurance Habitation Jeunes | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/conditions-generales-assurance-habitation-jeunes.pdf) |
+| fr | habitation | maif | Assurance Loyers Impayés - SADA Assurances (porteur du risque) | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/conditions-generales-assurance-loyers-impayes.pdf) |
+| fr | habitation | maif | Assurance Loyers Impayés - WAKAM (porteur du risque) | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/conditions-generales-WAKAM-Assurances.pdf) |
+| fr | habitation | maif | Assurance Propriétaire Bailleur | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/conditions-generales-assurance-proprietaire-bailleur.pdf) |
+| fr | habitation | matmut | Habitation Matmut Étudiants | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/ME2H.pdf) |
+| fr | habitation | matmut | Habitation Résidence principale | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGMGARRP.pdf) |
 | fr | habitation | thelem | Assurance Dommages aux biens - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_570-Dommages-aux-biens.pdf) |
 | fr | habitation | thelem | Assurance multirisque habitation - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_601-Occupants-janvier-2026.pdf) |
 | fr | habitation | thelem | Assurance multirisque habitation Propriétaire non occupant - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2026/03/IPID_TA_621-PNO-janvier-2026.pdf) |
@@ -342,35 +384,97 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | habitation | thelem | Assurance multirisque immeuble - PROPRIETAIRE NON OCCUPANT - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2026/03/IPID_TA_483-MRI-PNO-juillet-2023.pdf) |
 | fr | moto | direct-assurance | Assurance Ma Moto – Mon Cyclo | 2026-07-30 | [pdf](https://directassurance.cdn.prismic.io/directassurance/aG-PfkMqNJQqHv6Q_CG-Ma-Moto-Mon-Cyclo-981029-0324.pdf) |
 | fr | moto | direct-assurance | Ma Moto, Mon Cyclo - IPID | 2026-07-30 | [pdf](https://directassurance.cdn.prismic.io/directassurance/aG-PekMqNJQqHv6P_DiPAMaMotoMonCyclo-2004493-0924_04.pdf) |
+| fr | moto | matmut | 2 roues Initiale & Co | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-mrsq-2r-init-and-co.pdf) |
+| fr | moto | matmut | 2R Rider | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/cg-mrsq-2r.pdf) |
 | fr | moto | thelem | Assurance Cyclo - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_Cyclo-012026.pdf) |
 | fr | moto | thelem | Assurance Moto - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_Moto-012026.pdf) |
 | fr | moto | thelem | Assurance Quad - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_Quad-012026.pdf) |
 | fr | moto | thelem | Assurance Voiturette - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_Voiturette-012026.pdf) |
+| fr | multirisque-professionnelle | maif | Raqvam Associations et Collectivités | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/conditions-generales-raqvam-associations-et-collectivites.pdf) |
+| fr | multirisque-professionnelle | matmut | Matmut « Caducée » | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/MC30.pdf) |
 | fr | multirisque-professionnelle | thelem | Assurance Garauto - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_201_Garauto-Aout-2025.pdf) |
 | fr | multirisque-professionnelle | thelem | Assurance multirisque professionnelle - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPIP_-MRP-PME-PMI-Aout-2025.pdf) |
 | fr | multirisque-professionnelle | thelem | Bris de machine - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_26_BDM-juin-2023.pdf) |
+| fr | navigation | maif | Assurance Navigation | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/conditions-generales-assurance-navigation.pdf) |
+| fr | obseques | gan | GAN PATRIMOINE SÉRÉNITÉ ESSENTIEL - Fiche | 2026-07-30 | [pdf](https://www.ganpatrimoine.fr/Media/documents/DIC/1412-062023%20-%20DIC%20GPatSE.pdf) |
+| fr | obseques | gan | GAN PATRIMOINE SÉRÉNITÉ ESSENTIEL - Fiche (2) | 2026-07-30 | [pdf](https://www.ganpatrimoine.fr/Media/documents/DIC/1412-112018%20GPatSE.pdf) |
+| fr | obseques | gan | GAN PATRIMOINE SÉRÉNITÉ OBSÈQUES - Fiche | 2026-07-30 | [pdf](https://www.ganpatrimoine.fr/Media/documents/Lisibilite-obseques-Gan-Patrimoine-032026.pdf) |
+| fr | obseques | gan | GAN PATRIMOINE SÉRÉNITÉ SUCCESSION - Fiche | 2026-07-30 | [pdf](https://www.ganpatrimoine.fr/Media/documents/DIC/1414-062023%20DIC%20GPatSS.pdf) |
+| fr | obseques | gan | GAN SERENITE OBSEQUES - Fiche | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2025/06/Lisibilite-obseques-Gan-Assurances-072025.pdf) |
+| fr | obseques | gan | GAN SÉRÉNITÉ OBSÈQUES - Fiche | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2024/11/032023-DIC_Gan-Serenite-Obseques.pdf) |
+| fr | obseques | gan | Gan Prévoyance Sérénité Obsèques - Fiche | 2026-07-30 | [pdf](https://www.ganprevoyance.fr/obseques-succession/1-4/lisibilite-obseques.pdf?date=20260313123059) |
+| fr | obseques | gan | Gan Prévoyance Sérénité Obsèques - Fiche (2) | 2026-07-30 | [pdf](https://www.ganprevoyance.fr/obseques-succession/1-1/document-d-informations-cles-gan-prevoyance-serenite-obseques.pdf?date=20250117135714) |
+| fr | obseques | groupama | Groupama Sérénité Obsèques | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/6UVUGprxtQSfzl6ryQuBEp/0c3c5dad7b54cd49e9b7f6a6a92f4917/Lisibilite%C3%8C__obse%C3%8C_ques_Groupama_032026.pdf) |
+| fr | obseques | groupama | Groupama Sérénité Obsèques - Fiche | 2026-07-30 | [pdf](https://www.pia.ggvie.fr/uploads/Offres_et_services/Prevoyance/Groupama/Groupama_Serenite_Obseques/1.Comment%20souscrire/3350-231388-032023%20DIC%20GSO.pdf) |
+| fr | obseques | groupama | Groupama Sérénité Obsèques - Fiche (2) | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/3EwrRMbBVhIXDZ41vUiVjO/9e08763261c4f762c162be87a949f7a7/3350-231388-102021_DIC_GSO.pdf) |
+| fr | obseques | maif | Sollicitudes | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/notice-information-sollicitudes.pdf) |
 | fr | obseques | thelem | Assurance Initiative Obsèques Capital - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TP_419-IOC-2026.pdf) |
 | fr | obseques | thelem | Assurance Initiative Obsèques Services - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TP_IOS-418-2026.pdf) |
+| fr | prevoyance | gan | Galya Prévoyance Entreprise - Fiche | 2026-07-30 | [pdf](https://www.ganprevoyance.fr/prevoyance-salaries/2-1/telecharger-le-document.pdf?date=20250103140538) |
+| fr | prevoyance | gan | Gan Patrimoine Protection Plus - Fiche | 2026-07-30 | [pdf](https://www.ganpatrimoine.fr/Media/documents/Lisibilite-prevoyance/Tableau-TNS_CCSF_Lisibilite-GPP-2026.pdf) |
+| fr | prevoyance | gan | Gan Patrimoine Protection Plus - Fiche (2) | 2026-07-30 | [pdf](https://www.ganpatrimoine.fr/Media/documents/Exemple%20tableaux%20de%20garanties%20pr%C3%A9voyance%20TNS/Tableau-TNS-CCSF-Lisibilit%C3%A9-GPP-2025.pdf) |
+| fr | prevoyance | gan | Gan Patrimoine Protection Plus - IPID | 2026-07-30 | [pdf](https://www.ganpatrimoine.fr/Media/documents/DIC/DIN%20PREV_Gan%20Patrimoine%20Protection%20Plus%20122023.pdf) |
+| fr | prevoyance | gan | Gan Patrimoine Protection Plus - IPID (2) | 2026-07-30 | [pdf](https://www.ganpatrimoine.fr/Media/documents/DIC/DIC%20PREV_Gan%20Patrimoine%20Protection%20Plus%20042022.pdf) |
+| fr | prevoyance | gan | Gan Prévoyance Protection - Fiche | 2026-07-30 | [pdf](https://www.ganprevoyance.fr/securite-professionnel-gan-prevoyance-protection/2-2/telecharger-le-tableau-des-garanties.pdf?date=20251222151901) |
+| fr | prevoyance | gan | Gan Prévoyance Protection - IPID | 2026-07-30 | [pdf](https://www.ganprevoyance.fr/securite-famille/2-1/telecharger-le-document.pdf?date=20231114103947) |
+| fr | prevoyance | gan | Gan Prévoyance Protection Homme Clé - IPID | 2026-07-30 | [pdf](https://www.ganprevoyance.fr/protection-homme-cle/2-1/document-d-information-gan-prevoyance-protection-homme-cle.pdf?date=20230927144012) |
+| fr | prevoyance | gan | Gan Solutions Prévoyance - Fiche | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2025/12/Tableau-TNS_CCSF_Lisibilite-GSP_2026.pdf) |
+| fr | prevoyance | gan | Gan Solutions Prévoyance - Fiche (2) | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2025/01/Tableau-TNS_CCSF_Lisibilite-GSP_2025.pdf) |
+| fr | prevoyance | gan | Gan Solutions Prévoyance - IPID | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2024/11/032023-DIN_Gan-Solutions-Prevoyance.pdf) |
+| fr | prevoyance | gan | Gan Solutions Prévoyance Homme Clé - IPID | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2024/11/102023-DIN_-GSP-Homme-Cle.pdf) |
+| fr | prevoyance | gan | Gan Vision Majoritaire Prévoyance - Fiche | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2024/12/Tableau-salarie-secteur-prive-_CCSF-VF-GA.pdf) |
+| fr | prevoyance | groupama | Energie prévoyance | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/6TaB6zk8XVLyn83vszOtX8/31cfaa6a1e539be35223f96ac055b0fa/Exemples-TNS-CCSF-2026.pdf.pdf) |
+| fr | prevoyance | groupama | Synergie Prévoyance Entreprise | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/iUVrxvEI5iwiEiF1z1OAK/486000647ae868194a37bf310a81c12a/Tableau-salarie-secteur-prive-CCSF-VF-GROUPAMA.pdf) |
+| fr | prevoyance | maif | Rassurcap Solutions | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/notice-rassurcap-solutions.pdf) |
 | fr | prevoyance | thelem | Assurance Capital Décès - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TP_396-capital-deces-juillet-2023.pdf) |
 | fr | prevoyance | thelem | Assurance Protection Famille - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TP_Protection-famille-572_082025.pdf) |
 | fr | prevoyance | thelem | Prévoyance Agri - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TP_PREVAGRI_440_072024.pdf) |
 | fr | prevoyance | thelem | Prévoyance Pro - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TP_prev-pro-ISIS.pdf) |
 | fr | prevoyance | thelem | Prévoyance Pro Madelin - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TP_Prev-madelin_ISIS_v2.pdf) |
+| fr | protection-juridique | groupama | Annexe Garantie Protection juridique automobile — Assurance Flotte automobile | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/IPBJ1AlyPtXiPPXpJOtZP/9f77600424013842489c574030f85c2d/Annexe_Protection_Juridique_Automobile.pdf) |
+| fr | protection-juridique | maif | Assurance Protection Juridique | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/conditions-generales-assurance-protection-juridique.pdf) |
 | fr | protection-juridique | thelem | Assurance Protection Juridique du Professionnel - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_PJ-PRO_012026.pdf) |
 | fr | protection-juridique | thelem | Assurance Protection Juridique du Professionnel agricole - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_PJ-PRO-AGRI_012026.pdf) |
 | fr | protection-juridique | thelem | Assurance Protection Juridique du particulier - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_PJ_PART_012026_VF.pdf) |
 | fr | rc-privee | thelem | Assurance responsabilité civile association - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_RC-AssociationDG-477-CS-437-juillet-2023.pdf) |
 | fr | rc-privee | thelem | Assurance responsabilité civile vie privée - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_RCVP-CS-456-juillet-2024.pdf) |
+| fr | rc-professionnelle | groupama | Fiche d'information relative au fonctionnement des garanties « Responsabilité civile » dans le temps | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/1F2u4urMoJTJ6YVoInXxgd/e12a7bf5661aa1ace7df78dbd6829d39/Assurance-Collectivites-Groupama-Fiche-information-garanties-responsabilite-civile.pdf) |
+| fr | rc-professionnelle | groupama | PROFIL ELUS - IPID | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/4QycpVaKdiUUTBg2Wkf4Ko/ab35cb55c4f067f47c1a33fce12ec294/Assurance-Collectivites-Groupama-DIPA-Profil-Elus.pdf) |
+| fr | rc-professionnelle | groupama | Profil élus | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/1Qb0jvzsOPAyyhOkDTBy9U/b857c830d280c9f930bb11f867f7d048/Assurance-Collectivites-Groupama-Profil-elus-tableau-montants-garanties.pdf) |
+| fr | rc-professionnelle | groupama | Profil élus (2) | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/u9P5hLObmXbXBIv7t5rlC/0fedbefe6fc38ea68c9a19a0ccafce54/Assurance-Collectivites-Groupama-Profil-elus-DDG.pdf) |
+| fr | rc-professionnelle | maif | Assurance Professionnelle | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/travailleurs-independants/conditions-generales-assurance-professionnelle.pdf) |
+| fr | rc-professionnelle | maif | Assurance Professionnelle Offre Métiers de l'Éducation | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/enseignants/conditions-generales-assurance-professionnelle-metiers-education.pdf) |
 | fr | rc-professionnelle | thelem | Responsabilité Civile Chef d'Entreprise- Professions libérales - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_RCPRO.pdf) |
+| fr | retraite | gan | GAN ASSURANCES PERFORMANCE RETRAITE - Fiche | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2026/07/GAN-Performance-Retraite-Infos-Cles.pdf) |
+| fr | retraite | gan | Gan Assurance Nouvelle Vie | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2026/03/Gan-Nouvelle-Vie-Retraite-Fiche-Infos-Frais.pdf) |
+| fr | retraite | gan | Gan Nouvelle Vie (Gan Patrimoine) | 2026-07-30 | [pdf](https://www.ganpatrimoine.fr/Media/documents/Transparence%20frais%20contrat/Transparence%20des%20frais%20Gan%20Patrimoine%20Nouvelle%20Vie.pdf) |
+| fr | retraite | gan | Gan Patrimoine Nouvelle Vie | 2026-07-30 | [pdf](https://www.ganpatrimoine.fr/Media/documents/Transparence%20frais%20contrat/Gan-Patrimoine-Nouvelle-Vie.pdf) |
+| fr | retraite | gan | Gan Patrimoine Objectif Retraite | 2026-07-30 | [pdf](https://www.ganpatrimoine.fr/Media/documents/Transparence%20frais%20contrat/Gan-Patrimoine-Objectif-Retraite.pdf) |
+| fr | retraite | gan | Gan Patrimoine Objectif Retraite - Fiche | 2026-07-30 | [pdf](https://www.ganpatrimoine.fr/Media/documents/DIC/DIC%20GL%20Objectif%20Retraite%20Gan%20Patrimoine_2025_03_05.pdf) |
+| fr | retraite | gan | Gan Performance Retraite | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2026/03/Gan-Performance-Retraite-Fiche-Infos-Frais.pdf) |
+| fr | retraite | gan | Gan Prevoyance Retraite Active | 2026-07-30 | [pdf](https://www.ganprevoyance.fr/assurance-vie-retraite/1-4/fiche-d-information-frais-du-contrat-retraite-active.pdf?date=20260318121327) |
+| fr | retraite | gan | Gan Prévoyance Nouvelle Vie | 2026-07-30 | [pdf](https://www.ganprevoyance.fr/plan-epargne-retraite/2-3/fiche-d-information-sur-les-frais-du-per-individuel-gan-nouvelle-vie.pdf?date=20260318121107) |
+| fr | retraite | gan | Gan Prévoyance Retraite Active - Fiche | 2026-07-30 | [pdf](https://www.ganprevoyance.fr/epargne-handicap/2-3/document-d-informations-cles-dic-gan-prevoyance-retraite-active.pdf?date=20250428141040) |
+| fr | retraite | groupama | Groupama Horizon Retraite | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/2KR970BhlHyMtEUnGDoYY4/d5f313002250b84601bf1df372961b02/Transparence-des-frais-Groupama-Horizon-Retraite.pdf) |
+| fr | retraite | groupama | Groupama Horizon Retraite - Fiche | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/3yYn1UOA8PQDjskkT2qWsx/90582d231fcb19e4d3c064769a7b0edb/DIC_GL_Horizon_Retraite_Groupama_2026_06_01.pdf) |
+| fr | retraite | groupama | Groupama Nouvelle Vie | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/4gPQ2YoChbWFKeDV4VBICJ/5d3845ce521da29f7bfef4258cc03e7d/transparence-des-frais-groupama-nouvelle-vie.pdf) |
+| fr | retraite | groupama | Groupama Nouvelle Vie (2) | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/76DG8H2os5Tqr0ZHzznLKG/d8a1f0cd82c14686f4b8086d7ca42b74/Transparence-des-frais-Groupama-Nouvelle-Vie.pdf) |
+| fr | retraite | maif | PER Responsable et Solidaire | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/epargne-financements/notice-per.pdf) |
 | fr | sante | direct-assurance | Direct Assurance Santé | 2026-07-30 | [pdf](https://directassurance.cdn.prismic.io/directassurance/aG-PbkMqNJQqHv6O_DirectAssurance-NoticeinformationSante.pdf) |
 | fr | sante | direct-assurance | Direct Assurance Santé - Exemples de remboursements | 2026-07-30 | [pdf](https://directassurance.cdn.prismic.io/directassurance/aVudaXNYClf9ox-__DirectAssurance-Exemplesderemboursements.pdf) |
 | fr | sante | direct-assurance | Direct Assurance Santé - contrat responsable - IPID | 2026-07-30 | [pdf](https://directassurance.cdn.prismic.io/directassurance/aG-PZkMqNJQqHv6K_fiche-ipid-sante-responsable.pdf) |
 | fr | sante | direct-assurance | Direct Assurance Santé - formules Hospi (contrat non responsable) - IPID | 2026-07-30 | [pdf](https://directassurance.cdn.prismic.io/directassurance/aG-PaUMqNJQqHv6L_fiche-ipid-sante-non-responsable.pdf) |
+| fr | sante | gan | Gan Prévoyance Santé - IPID | 2026-07-30 | [pdf](https://www.ganprevoyance.fr/complementaire-sante-gan-prevoyance/2-1/document-d-informations-gan-prevoyance-sante.pdf?date=20231127095936) |
+| fr | sante | gan | Gan Prévoyance Santé Sénior - IPID | 2026-07-30 | [pdf](https://www.ganprevoyance.fr/complementaire-sante-gan-prevoyance/2-2/document-d-informations-gan-prevoyance-sante-senior.pdf?date=20231127095936) |
+| fr | sante | gan | Gan Santé – contrat santé responsable (Tableau de garanties 3370-97261-022026) - Fiche | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2026/03/Tableau-de-garanties-GAN-Sante-02-2026.pdf) |
+| fr | sante | gan | Gan Santé – contrat santé responsable (Tableau de garanties 3370-97261-032025) - Fiche | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2025/03/Tableau-de-garanties-2025.pdf) |
+| fr | sante | groupama | Solution Groupama Santé | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/1VeBkcNBeoMcIcSLNwxj4Z/535ba0e5db9f6a565ec05b63f3db3b7b/22286718-5d39-4a90-b99b-7601bf961cf0.pdf) |
 | fr | sante | thelem | Assurance Complémentaire Santé – gamme non responsable et solidaire - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_710-Evolution-NResp-janvier-2024.pdf) |
 | fr | sante | thelem | Assurance Complémentaire Santé – gamme responsable et solidaire - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_710-Evolution-Resp-janvier-2026.pdf) |
 | fr | sante | thelem | INTÉGRALE 1, INTÉGRALE 2, INTÉGRALE 3, INTÉGRALE 4 – Formules responsables et solidaires | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/Exemples_remboursements_TA_2026_RESPONSABLE.pdf) |
 | fr | sante | thelem | PRIMORDIALE 1, PRIMORDIALE 2, PRIMORDIALE 3 – Formules NON responsables et solidaires | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/Exemples_remboursements_TA_2026_NON_RESPONSABLE.pdf) |
 | fr | scolaire | thelem | Assurance scolaire et extra-scolaire - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_scolaire-19-septembre-2024.pdf) |
+| fr | velo | maif | Assurance Vélo | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/conditions-generales-assurance-velo.pdf) |
 | fr | voyage | luko | ASSURANCE MULTI-VOYAGES A L'ANNEE - 507332 - IPID | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/travel/IPID-ANNUAL-507332.pdf) |
 | fr | voyage | luko | Comprehensive Gold Long Trip 507655 | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/travel/dftralong202512/CG_Comprehensive-Gold_Long-trip_507655.pdf) |
 | fr | voyage | luko | Comprehensive Gold Sport Annual 507332 | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/travel/CG-ANNUAL-507332.pdf) |
