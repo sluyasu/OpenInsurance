@@ -76,12 +76,14 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Assurance Quad - IPID](../products/thelem/Assurance%20Quad%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [Assurance Voiturette - IPID](../products/thelem/Assurance%20Voiturette%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 
-### [EDPM et mobilités douces](EDPM%20et%20mobilit%C3%A9s%20douces.md) (2)
+### [EDPM et mobilités douces](EDPM%20et%20mobilit%C3%A9s%20douces.md) (3)
 - [Assurance Vélo - IPID](../products/maif/Assurance%20V%C3%A9lo%20-%20IPID.md) - [MAIF](../insurers/MAIF.md)
+- [Contrat Multirisques « 2R Mobilité » - IPID](../products/matmut/Contrat%20Multirisques%20%C2%AB%202R%20Mobilit%C3%A9%20%C2%BB%20-%20IPID.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Assurance EDPM - IPID](../products/thelem/Assurance%20EDPM%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 
-### Vélo (1)
+### Vélo (2)
 - [Assurance Vélo](../products/maif/Assurance%20V%C3%A9lo.md) - [MAIF](../insurers/MAIF.md)
+- [Contrat Multirisques « 2R Liberté » - IPID](../products/matmut/Contrat%20Multirisques%20%C2%AB%202R%20Libert%C3%A9%20%C2%BB%20-%20IPID.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 
 ### [Multirisque habitation](Multirisque%20habitation.md) (30)
 - [Assurance Habitation Direct Assurance - IPID](../products/direct-assurance/Assurance%20Habitation%20Direct%20Assurance%20-%20IPID.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)

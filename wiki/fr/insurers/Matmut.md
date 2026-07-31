@@ -5,15 +5,17 @@ country: fr
 insurer_slug: matmut
 name: Matmut
 website: https://www.matmut.fr
-products_count: 36
+products_count: 38
 branches_covered:
 - animaux
 - assurance-vie
 - auto
 - chasse
+- edpm
 - habitation
 - moto
 - multirisque-professionnelle
+- velo
 tags:
 - insurance/fr
 - insurer
@@ -29,7 +31,7 @@ generated: true
 
 ## Résumé
 
-**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 36 document(s) across 7 branch(es).
+**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 38 document(s) across 9 branch(es).
 
 ## Produits par branche
 
@@ -71,6 +73,9 @@ generated: true
 ### [Chasse](../branches/Chasse.md)
 - [Contrat « Chasse » - IPID](../products/matmut/Contrat%20%C2%AB%20Chasse%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (04/26) · réf. IPID.CHASSE. 04/26
 
+### [EDPM et mobilités douces](../branches/EDPM%20et%20mobilit%C3%A9s%20douces.md)
+- [Contrat Multirisques « 2R Mobilité » - IPID](../products/matmut/Contrat%20Multirisques%20%C2%AB%202R%20Mobilit%C3%A9%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (07/25) · réf. IPID.EDPM - 07/25
+
 ### [Multirisque habitation](../branches/Multirisque%20habitation.md)
 - [Habitation Matmut Étudiants](../products/matmut/Habitation%20Matmut%20%C3%89tudiants.md) - Conditions générales (2024-05) · réf. CG HAB ETUD – 05/24
 - [Habitation Résidence principale](../products/matmut/Habitation%20R%C3%A9sidence%20principale.md) - Conditions générales (2023-12) · réf. CG RP - 12/23
@@ -82,6 +87,9 @@ generated: true
 
 ### [Multirisque professionnelle](../branches/Multirisque%20professionnelle.md)
 - [Matmut « Caducée »](../products/matmut/Matmut%20%C2%AB%20Caduc%C3%A9e%20%C2%BB.md) - Conditions générales (2024-11) · réf. MC.30 – 11/24
+
+### Vélo
+- [Contrat Multirisques « 2R Liberté » - IPID](../products/matmut/Contrat%20Multirisques%20%C2%AB%202R%20Libert%C3%A9%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (07/25) · réf. IPID.VELO - 07/25
 
 ## Source
 
