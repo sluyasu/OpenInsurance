@@ -16,7 +16,7 @@ generated: true
 
 Liste générée des produits par branche. Les fiches conceptuelles de branche sont rédigées à la main dans ce dossier.
 
-### [Assurance auto](Assurance%20auto.md) (48)
+### [Assurance auto](Assurance%20auto.md) (49)
 - [Assurance Auto et Auto connectée Direct Assurance - IPID](../products/direct-assurance/Assurance%20Auto%20et%20Auto%20connect%C3%A9e%20Direct%20Assurance%20-%20IPID.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [Contrat Auto](../products/direct-assurance/Contrat%20Auto.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [YouDrive - CP](../products/direct-assurance/YouDrive%20-%20CP.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
@@ -42,6 +42,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Avantage Bris de glaces 0 franchise](../products/matmut/Avantage%20Bris%20de%20glaces%200%20franchise%20%284%29.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Avantage Bris de glaces 0 franchise](../products/matmut/Avantage%20Bris%20de%20glaces%200%20franchise.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Avantage Hiver Matmut & Co](../products/matmut/Avantage%20Hiver%20Matmut%20%26%20Co.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
+- [Avantage Usage Sérénité](../products/matmut/Avantage%20Usage%20S%C3%A9r%C3%A9nit%C3%A9%20%282%29.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Avantage Éco Malin Matmut](../products/matmut/Avantage%20%C3%89co%20Malin%20Matmut.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Bonus Booster Matmut & Co](../products/matmut/Bonus%20Booster%20Matmut%20%26%20Co.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Bonus Booster Nouveau Contrat Matmut & Co](../products/matmut/Bonus%20Booster%20Nouveau%20Contrat%20Matmut%20%26%20Co%20%282%29.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
@@ -66,11 +67,18 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Assurance Véhicule de collection - IPID](../products/thelem/Assurance%20V%C3%A9hicule%20de%20collection%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [Assurance Véhicule de plus de 3,5 tonnes - IPID](../products/thelem/Assurance%20V%C3%A9hicule%20de%20plus%20de%203%2C5%20tonnes%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 
-### [Deux-roues, quads et voiturettes](Deux-roues%2C%20quads%20et%20voiturettes.md) (8)
+### [Deux-roues, quads et voiturettes](Deux-roues%2C%20quads%20et%20voiturettes.md) (15)
 - [Assurance Ma Moto – Mon Cyclo](../products/direct-assurance/Assurance%20Ma%20Moto%20%E2%80%93%20Mon%20Cyclo.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [Ma Moto, Mon Cyclo - IPID](../products/direct-assurance/Ma%20Moto%2C%20Mon%20Cyclo%20-%20IPID.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [2 roues Initiale & Co](../products/matmut/2%20roues%20Initiale%20%26%20Co.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [2R Rider](../products/matmut/2R%20Rider.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
+- [Avantage Hiver Matmut](../products/matmut/Avantage%20Hiver%20Matmut.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
+- [Avantage Hiver Matmut & Co](../products/matmut/Avantage%20Hiver%20Matmut%20%26%20Co%20%282%29.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
+- [Avantage Usage Sérénité](../products/matmut/Avantage%20Usage%20S%C3%A9r%C3%A9nit%C3%A9.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
+- [Bonus Booster Nouveau Contrat Matmut](../products/matmut/Bonus%20Booster%20Nouveau%20Contrat%20Matmut%20%282%29.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
+- [Bonus Booster Nouveau Contrat Matmut](../products/matmut/Bonus%20Booster%20Nouveau%20Contrat%20Matmut.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
+- [Contrat Multirisques « 2 Roues Initiale & Co » - IPID](../products/matmut/Contrat%20Multirisques%20%C2%AB%202%20Roues%20Initiale%20%26%20Co%20%C2%BB%20-%20IPID.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
+- [Contrat Multirisques « 2R Rider » - IPID](../products/matmut/Contrat%20Multirisques%20%C2%AB%202R%20Rider%20%C2%BB%20-%20IPID.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Assurance Cyclo - IPID](../products/thelem/Assurance%20Cyclo%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [Assurance Moto - IPID](../products/thelem/Assurance%20Moto%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [Assurance Quad - IPID](../products/thelem/Assurance%20Quad%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)

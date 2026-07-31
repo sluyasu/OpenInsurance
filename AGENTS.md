@@ -27,7 +27,7 @@ navigate it without guessing. Do not edit by hand.
 |---|---|---|---|---|---|
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
 | ch (Switzerland) | 0 | 3 | 1 | 0 | 5 |
-| fr (France) | 17 | 258 | 7 | 1 | 5 |
+| fr (France) | 17 | 266 | 7 | 1 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
 
@@ -364,6 +364,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | auto | matmut | Avantage Bris de glaces 0 franchise (3) | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/brisglace-4R-essentiel.pdf) |
 | fr | auto | matmut | Avantage Bris de glaces 0 franchise (4) | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/brisglace-4R-tempo.pdf) |
 | fr | auto | matmut | Avantage Hiver Matmut & Co | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/avantage-h-distinguo-co.pdf) |
+| fr | auto | matmut | Avantage Usage Sérénité (2) | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/coavantageusage-smrsq-4r-2r.pdf) |
 | fr | auto | matmut | Avantage Éco Malin Matmut | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/avantage-ecomalin.pdf) |
 | fr | auto | matmut | Bonus Booster Matmut & Co | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/bonus-b-distinguo-co.pdf) |
 | fr | auto | matmut | Bonus Booster Nouveau Contrat Matmut & Co | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/bonus-b-nc-pro-distinguo-co.pdf) |
@@ -443,6 +444,13 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | moto | direct-assurance | Ma Moto, Mon Cyclo - IPID | 2026-07-30 | [pdf](https://directassurance.cdn.prismic.io/directassurance/aG-PekMqNJQqHv6P_DiPAMaMotoMonCyclo-2004493-0924_04.pdf) |
 | fr | moto | matmut | 2 roues Initiale & Co | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-mrsq-2r-init-and-co.pdf) |
 | fr | moto | matmut | 2R Rider | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/cg-mrsq-2r.pdf) |
+| fr | moto | matmut | Avantage Hiver Matmut | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/coavantagehivermrsq-4r-2r.pdf) |
+| fr | moto | matmut | Avantage Hiver Matmut & Co (2) | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/coavantagehiver-2r-init-and-co.pdf) |
+| fr | moto | matmut | Avantage Usage Sérénité | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/coavantageusage-smrsq-2r.pdf) |
+| fr | moto | matmut | Bonus Booster Nouveau Contrat Matmut | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/cobonusboostermrsq-2rRider-pro.pdf) |
+| fr | moto | matmut | Bonus Booster Nouveau Contrat Matmut (2) | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/cobonusboostermrsq-2rRider-vieprivee.pdf) |
+| fr | moto | matmut | Contrat Multirisques « 2 Roues Initiale & Co » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/ipid-mrsq-2r-init-and-co.pdf) |
+| fr | moto | matmut | Contrat Multirisques « 2R Rider » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/ipid-2r-rider.pdf) |
 | fr | moto | thelem | Assurance Cyclo - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_Cyclo-012026.pdf) |
 | fr | moto | thelem | Assurance Moto - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_Moto-012026.pdf) |
 | fr | moto | thelem | Assurance Quad - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_Quad-012026.pdf) |
