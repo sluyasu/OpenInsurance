@@ -384,7 +384,12 @@ Article 9 - DROITS DE L’ADHÉRENT AU TITRE DU MANDAT L’adhérent est inform�
 
 - Édition courante de ce produit.
 - Extension / option du produit : **Notice d'information Assurance vie Responsable et Solidaire**
-- [Assurance vie Responsable et Solidaire](Assurance%20vie%20Responsable%20et%20Solidaire.md) - Conditions générales, éd. 04/25
+- [Assurance vie Responsable et Solidaire](Assurance%20vie%20Responsable%20et%20Solidaire.md) - conditions_tarifaires, éd. 06/2026
+- [Assurance vie Responsable et Solidaire - IPID](Assurance%20vie%20Responsable%20et%20Solidaire%20-%20IPID.md) - IPID / Fiche d'information, éd. 06/26
+- [Assurance vie Responsable et Solidaire](Assurance%20vie%20Responsable%20et%20Solidaire%20%282%29.md) - Conditions générales, éd. 04/25
+- [ASSURANCE VIE Responsable et Solidaire - Les documents d'informations clés](ASSURANCE%20VIE%20Responsable%20et%20Solidaire%20-%20Les%20documents%20d%27informations%20cl%C3%A9s.md) - Document, éd. 06/26
+- [Fonds en euros](Fonds%20en%20euros.md) - Document, éd. 06/26
+- [fonds en euros du contrat Assurance vie Responsable et Solidaire](fonds%20en%20euros%20du%20contrat%20Assurance%20vie%20Responsable%20et%20Solidaire.md) - Document, éd. 06/26
 
 ## Source & fidélité
 

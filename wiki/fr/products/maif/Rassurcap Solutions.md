@@ -315,6 +315,10 @@ La prescription Toute action dérivant du présent contrat est prescrite pour de
 - Le questionnaire de santé simplifié et le questionnaire médical sont cités comme formalités de souscription et de réévaluation du capital, mais le document ne donne aucun seuil de capital ou d'âge déclenchant l'un plutôt que l'autre.
 - Le détail des tarifs est reproduit dans premium.notes sous forme d'exemples et de bornes ; les colonnes âge/taux complètes des deux barèmes (18 à 74 ans pour décès/PTIA, 18 à 65 ans pour maladie grave) figurent aux pages 10 et 11 du PDF et n'ont pas été recopiées cellule par cellule dans le JSON.
 
+## Documents liés
+
+- [Rassurcap Solutions - IPID](Rassurcap%20Solutions%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/2025
+
 ## Source & fidélité
 
 - Source : [https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/notice-rassurcap-solutions.pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/notice-rassurcap-solutions.pdf) - téléchargé le 2026-07-30 - 15 pages

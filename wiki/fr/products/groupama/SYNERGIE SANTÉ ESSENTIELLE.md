@@ -1,0 +1,319 @@
+---
+type: product
+domain: insurance
+country: fr
+insurer: '[[Groupama]]'
+insurer_slug: groupama
+branch: sante
+product_name: SYNERGIE SANTÉ ESSENTIELLE
+document_type: other
+target_audience: null
+target_audience_note: null
+reference: null
+edition_date: '052022'
+lang: fr
+tags:
+- insurance/fr/sante
+- product
+- insurer/groupama
+aliases:
+- SYNERGIE SANTÉ ESSENTIELLE
+source_url: https://assets.ctfassets.net/7awcp71bzphk/6Qox8ye95qmLUhlglMfxle/4fa91d463c659afc35a599238f326b29/exemples_de_remboursements_compl__mentaire_sant___TNS.pdf
+source_pages: 10
+fetched_at: '2026-07-30'
+extraction_model: claude-code-subagent:scale
+prompt_version: '1.1'
+product_family: synergie-sante-essentielle
+variant: null
+edition_status: null
+edition_age_years: 4
+superseded: null
+extends: null
+freshness: '2026-07-30'
+status: ready
+generated: true
+---
+
+<!-- GENERATED - do not edit. Fix data/<cc>/extracted/ and run `make build`. -->
+
+## Résumé
+
+Fiche « Exemples de remboursements » de la complémentaire santé SYNERGIE SANTÉ ESSENTIELLE de Groupama, présentée comme un « Contrat d'assurance santé responsable ». Le document compare, poste par poste, le tarif habituellement facturé, la base de remboursement de la Sécurité sociale, le remboursement de l'assurance maladie obligatoire, celui de l'assurance maladie complémentaire et le reste à charge, pour cinq formules (Formule 1 à Formule 5) sur les rubriques Hospitalisation, Soins courants, Aides auditives, Dentaire et Optique. Le document précise qu'il ne se substitue pas aux documents contractuels, qui seuls engagent l'organisme de complémentaire santé.
+
+- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Document · Édition : 052022
+
+## Définitions
+
+| Terme | Définition | Page |
+|---|---|---|
+| Contrat responsable | Les contrats sont dits « responsables » quand ils respectent des obligations fixées par la règlementation, notamment des minimums et maximums de remboursement ainsi que des  interdictions de prise en charge. Pour aller plus loin, consulter le Glossaire de l’assurance complémentaire santé | p. 2 |
+| Base de remboursement de la Sécurité sociale (BR) | La BR est un tarif de « référence » fixé pour chaque acte, chaque produit, chaque dispositif médical. L’assurance maladie obligatoire ne rembourse dans la plupart des cas qu’un % de  la BR, à un taux différent selon les actes, produits de santé, dispositifs médicaux, le complément étant apporté par l’assurance maladie complémentaire. | p. 2 |
+| PLV | Prix limite de vente (note 4 du document). | p. 2 |
+| AMO | Remboursement de l'assurance maladie obligatoire — intitulé de colonne du tableau : « Remboursement  de l'assurance  maladie  obligatoire (AMO) ». | p. 2 |
+| AMC | Remboursement de l'assurance maladie complémentaire — intitulé de colonne du tableau : « Remboursement de l’assurance  maladie  complémentaire  (AMC) ». | p. 2 |
+| Participation forfaitaire de 1 € | Pas de participation forfaitaire de 1€ pour les moins de 18 ans. (note 5 du document). | p. 2 |
+
+## Garanties
+
+### Hospitalisation — Forfait journalier hospitalier (hébergement) - p. 1
+Poste « Forfait journalier hospitalier (hébergement) » de la rubrique Hospitalisation. Tarif le plus souvent facturé ou tarif réglementé : 20 € (15€ en  service  psychiatrique). Base de remboursement de la Sécurité sociale (BR) : 0 €. Remboursement de l'assurance maladie obligatoire (AMO) : 0 €. Reste à charge : 0 €.
+- Limite : Remboursement AMC : 20 € (15€) (identique pour les 5 formules)
+
+### Hospitalisation — Chambre particulière (sur demande du patient) - p. 1
+Poste « Chambre particulière (sur demande du patient) » de la rubrique Hospitalisation. Tarif le plus souvent facturé ou tarif réglementé : Non connu (NC). Base de remboursement de la Sécurité sociale (BR) : Non remboursé. Remboursement de l'assurance maladie obligatoire (AMO) : Non remboursé. Reste à charge : Selon les frais engagés.
+- Limite : Remboursement AMC selon la formule — Formule 1 : 0 € ; Formule 2 : Jusqu’à 51,42 €/jour ; Formule 3 : Jusqu’à 68,56 €/jour ; Formule 4 : Jusqu’à  102,84€/jour ; Formule 5 : Jusqu’à  119,98€/jour
+
+### Hospitalisation, séjours avec actes lourds — Frais de séjour - p. 1
+Poste « Frais de séjour » de la rubrique Hospitalisation — Séjours avec actes lourds. Tarif le plus souvent facturé ou tarif réglementé : Différent selon public / privé. Base de remboursement de la Sécurité sociale (BR) : BR. Remboursement de l'assurance maladie obligatoire (AMO) : BR - 24€. Reste à charge : 0 €. Exemple d'une opération chirurgicale de la cataracte, en secteur privé.
+- Limite : Remboursement AMC : 24 € (identique pour les 5 formules)
+  - Sous-limite : Formule 1 — Frais de séjour en secteur privé : tarif le plus souvent facturé ou tarif réglementé 745,54 € ; base de remboursement (BR) 745,54 € ; remboursement AMO 721,54 € ; remboursement AMC 24 € ; reste à charge 0 €
+  - Sous-limite : Formule 2 — Frais de séjour en secteur privé : tarif le plus souvent facturé ou tarif réglementé 745,54 € ; base de remboursement (BR) 745,54 € ; remboursement AMO 721,54 € ; remboursement AMC 24 € ; reste à charge 0 €
+  - Sous-limite : Formule 3 — Frais de séjour en secteur privé : tarif le plus souvent facturé ou tarif réglementé 745,54 € ; base de remboursement (BR) 745,54 € ; remboursement AMO 721,54 € ; remboursement AMC 24 € ; reste à charge 0 €
+  - Sous-limite : Formule 4 — Frais de séjour en secteur privé : tarif le plus souvent facturé ou tarif réglementé 745,54 € ; base de remboursement (BR) 745,54 € ; remboursement AMO 721,54 € ; remboursement AMC 24 € ; reste à charge 0 €
+  - Sous-limite : Formule 5 — Frais de séjour en secteur privé : tarif le plus souvent facturé ou tarif réglementé 745,54 € ; base de remboursement (BR) 745,54 € ; remboursement AMO 721,54 € ; remboursement AMC 24 € ; reste à charge 0 €
+
+### Hospitalisation, séjours avec actes lourds — Honoraires médecins adhérents OPTAM ou OPTAM-CO - p. 1
+Poste « Honoraires médecins adhérents OPTAM ou OPTAM-CO » de la rubrique Hospitalisation — Séjours avec actes lourds. Tarif le plus souvent facturé ou tarif réglementé : Dépassements maitrisés. Base de remboursement de la Sécurité sociale (BR) : BR. Remboursement de l'assurance maladie obligatoire (AMO) : 100% BR. Reste à charge : Selon le tarif de l'acte.
+- Limite : Remboursement AMC selon la formule — Formule 1 : - ; Formule 2 : 95% BR ; Formule 3 : 120% BR ; Formule 4 : 200% BR ; Formule 5 : 300% BR
+  - Sous-limite : Formule 1 — Opération en secteur privé : honoraires  chirurgien : tarif le plus souvent facturé ou tarif réglementé 355 € ; base de remboursement (BR) 271,70 € ; remboursement AMO 271,70 € ; remboursement AMC 0 € ; reste à charge 83,30 €
+  - Sous-limite : Formule 2 — Opération en secteur privé : honoraires  chirurgien : tarif le plus souvent facturé ou tarif réglementé 355 € ; base de remboursement (BR) 271,70 € ; remboursement AMO 271,70 € ; remboursement AMC 83,30 € ; reste à charge 0 €
+  - Sous-limite : Formule 3 — Opération en secteur privé : honoraires  chirurgien : tarif le plus souvent facturé ou tarif réglementé 355 € ; base de remboursement (BR) 271,70 € ; remboursement AMO 271,70 € ; remboursement AMC 83,30 € ; reste à charge 0 €
+  - Sous-limite : Formule 4 — Opération en secteur privé : honoraires  chirurgien : tarif le plus souvent facturé ou tarif réglementé 355 € ; base de remboursement (BR) 271,70 € ; remboursement AMO 271,70 € ; remboursement AMC 83,30 € ; reste à charge 0 €
+  - Sous-limite : Formule 5 — Opération en secteur privé : honoraires  chirurgien : tarif le plus souvent facturé ou tarif réglementé 355 € ; base de remboursement (BR) 271,70 € ; remboursement AMO 271,70 € ; remboursement AMC 83,30 € ; reste à charge 0 €
+
+### Hospitalisation, séjours avec actes lourds — Honoraires médecins secteur 2 (non adhérents OPTAM ou OPTAM-CO) - p. 1
+Poste « Honoraires médecins secteur 2 (non adhérents OPTAM ou OPTAM-CO) » de la rubrique Hospitalisation — Séjours avec actes lourds. Tarif le plus souvent facturé ou tarif réglementé : Honoraires libres. Base de remboursement de la Sécurité sociale (BR) : BR. Remboursement de l'assurance maladie obligatoire (AMO) : 100% BR. Reste à charge : Selon le tarif de l'acte.
+- Limite : Remboursement AMC selon la formule — Formule 1 : - ; Formule 2 : 75% BR ; Formule 3 : 100% BR ; Formule 4 : 100% BR ; Formule 5 : 100% BR
+  - Sous-limite : Formule 1 — Opération en secteur privé : honoraires  chirurgien : tarif le plus souvent facturé ou tarif réglementé 447 € ; base de remboursement (BR) 271,70 € ; remboursement AMO 271,70 € ; remboursement AMC 0 € ; reste à charge 175,30 €
+  - Sous-limite : Formule 2 — Opération en secteur privé : honoraires  chirurgien : tarif le plus souvent facturé ou tarif réglementé 447 € ; base de remboursement (BR) 271,70 € ; remboursement AMO 271,70 € ; remboursement AMC 175,30 € ; reste à charge 0 €
+  - Sous-limite : Formule 3 — Opération en secteur privé : honoraires  chirurgien : tarif le plus souvent facturé ou tarif réglementé 447 € ; base de remboursement (BR) 271,70 € ; remboursement AMO 271,70 € ; remboursement AMC 175,30 € ; reste à charge 0 €
+  - Sous-limite : Formule 4 — Opération en secteur privé : honoraires  chirurgien : tarif le plus souvent facturé ou tarif réglementé 447 € ; base de remboursement (BR) 271,70 € ; remboursement AMO 271,70 € ; remboursement AMC 175,30 € ; reste à charge 0 €
+  - Sous-limite : Formule 5 — Opération en secteur privé : honoraires  chirurgien : tarif le plus souvent facturé ou tarif réglementé 447 € ; base de remboursement (BR) 271,70 € ; remboursement AMO 271,70 € ; remboursement AMC 175,30 € ; reste à charge 0 €
+
+### Hospitalisation, séjours sans acte lourd — Frais de séjour - p. 1
+Poste « Frais de séjour » de la rubrique Hospitalisation — Séjours sans acte lourd. Tarif le plus souvent facturé ou tarif réglementé : Différent selon public / privé. Base de remboursement de la Sécurité sociale (BR) : BR. Remboursement de l'assurance maladie obligatoire (AMO) : 80% BR. Reste à charge : 0 €. Exemple d’un suivi d’une pneumonie ou pleurésie pour un patient de plus de 17 ans, en hôpital public.
+- Limite : Remboursement AMC : 20% BR (identique pour les 5 formules)
+  - Sous-limite : Formule 1 — Frais de séjour en secteur public : tarif le plus souvent facturé ou tarif réglementé 3 270,12 € ; base de remboursement (BR) 3 270,12 € ; remboursement AMO 2 616,10 € ; remboursement AMC 654,02 € ; reste à charge 0 €
+  - Sous-limite : Formule 2 — Frais de séjour en secteur public : tarif le plus souvent facturé ou tarif réglementé 3 270,12 € ; base de remboursement (BR) 3 270,12 € ; remboursement AMO 2 616,10 € ; remboursement AMC 654,02 € ; reste à charge 0 €
+  - Sous-limite : Formule 3 — Frais de séjour en secteur public : tarif le plus souvent facturé ou tarif réglementé 3 270,12 € ; base de remboursement (BR) 3 270,12 € ; remboursement AMO 2 616,10 € ; remboursement AMC 654,02 € ; reste à charge 0 €
+  - Sous-limite : Formule 4 — Frais de séjour en secteur public : tarif le plus souvent facturé ou tarif réglementé 3 270,12 € ; base de remboursement (BR) 3 270,12 € ; remboursement AMO 2 616,10 € ; remboursement AMC 654,02 € ; reste à charge 0 €
+  - Sous-limite : Formule 5 — Frais de séjour en secteur public : tarif le plus souvent facturé ou tarif réglementé 3 270,12 € ; base de remboursement (BR) 3 270,12 € ; remboursement AMO 2 616,10 € ; remboursement AMC 654,02 € ; reste à charge 0 €
+
+### Soins courants — Honoraires médecins secteur 1 (généralistes ou spécialistes) - p. 1
+Poste « Honoraires médecins secteur 1 (généralistes ou spécialistes) » de la rubrique Soins courants. Tarif le plus souvent facturé ou tarif réglementé : Tarif de convention. Base de remboursement de la Sécurité sociale (BR) : BR. Remboursement de l'assurance maladie obligatoire (AMO) : 70% BR - 1€ 5. Reste à charge : 1 € de participation forfaitaire 5.
+- Limite : Remboursement AMC : 30% BR (identique pour les 5 formules)
+  - Sous-limite : Formule 1 — Consultation d’un médecin traitant généraliste  pour un patient de plus de 18 ans : tarif le plus souvent facturé ou tarif réglementé 25 € ; base de remboursement (BR) 25 € ; remboursement AMO 16,50 € ; remboursement AMC 7,50 € ; reste à charge 1 €
+  - Sous-limite : Formule 2 — Consultation d’un médecin traitant généraliste  pour un patient de plus de 18 ans : tarif le plus souvent facturé ou tarif réglementé 25 € ; base de remboursement (BR) 25 € ; remboursement AMO 16,50 € ; remboursement AMC 7,50 € ; reste à charge 1 €
+  - Sous-limite : Formule 3 — Consultation d’un médecin traitant généraliste  pour un patient de plus de 18 ans : tarif le plus souvent facturé ou tarif réglementé 25 € ; base de remboursement (BR) 25 € ; remboursement AMO 16,50 € ; remboursement AMC 7,50 € ; reste à charge 1 €
+  - Sous-limite : Formule 4 — Consultation d’un médecin traitant généraliste  pour un patient de plus de 18 ans : tarif le plus souvent facturé ou tarif réglementé 25 € ; base de remboursement (BR) 25 € ; remboursement AMO 16,50 € ; remboursement AMC 7,50 € ; reste à charge 1 €
+  - Sous-limite : Formule 5 — Consultation d’un médecin traitant généraliste  pour un patient de plus de 18 ans : tarif le plus souvent facturé ou tarif réglementé 25 € ; base de remboursement (BR) 25 € ; remboursement AMO 16,50 € ; remboursement AMC 7,50 € ; reste à charge 1 €
+  - Sous-limite : Formule 1 — Consultation pédiatre pour enfant de moins de 6  ans : tarif le plus souvent facturé ou tarif réglementé 32 € ; base de remboursement (BR) 32 € ; remboursement AMO 22,40 € ; remboursement AMC 9,60 € ; reste à charge 0 €
+  - Sous-limite : Formule 2 — Consultation pédiatre pour enfant de moins de 6  ans : tarif le plus souvent facturé ou tarif réglementé 32 € ; base de remboursement (BR) 32 € ; remboursement AMO 22,40 € ; remboursement AMC 9,60 € ; reste à charge 0 €
+  - Sous-limite : Formule 3 — Consultation pédiatre pour enfant de moins de 6  ans : tarif le plus souvent facturé ou tarif réglementé 32 € ; base de remboursement (BR) 32 € ; remboursement AMO 22,40 € ; remboursement AMC 9,60 € ; reste à charge 0 €
+  - Sous-limite : Formule 4 — Consultation pédiatre pour enfant de moins de 6  ans : tarif le plus souvent facturé ou tarif réglementé 32 € ; base de remboursement (BR) 32 € ; remboursement AMO 22,40 € ; remboursement AMC 9,60 € ; reste à charge 0 €
+  - Sous-limite : Formule 5 — Consultation pédiatre pour enfant de moins de 6  ans : tarif le plus souvent facturé ou tarif réglementé 32 € ; base de remboursement (BR) 32 € ; remboursement AMO 22,40 € ; remboursement AMC 9,60 € ; reste à charge 0 €
+  - Sous-limite : Formule 1 — Consultation médecin spécialiste pour un  patient de plus de 18 ans (gynécologie,  ophtalmologie, dermatologie, etc …) : tarif le plus souvent facturé ou tarif réglementé 30 € ; base de remboursement (BR) 30 € ; remboursement AMO 20 € ; remboursement AMC 9 € ; reste à charge 1 €
+  - Sous-limite : Formule 2 — Consultation médecin spécialiste pour un  patient de plus de 18 ans (gynécologie,  ophtalmologie, dermatologie, etc …) : tarif le plus souvent facturé ou tarif réglementé 30 € ; base de remboursement (BR) 30 € ; remboursement AMO 20 € ; remboursement AMC 9 € ; reste à charge 1 €
+  - Sous-limite : Formule 3 — Consultation médecin spécialiste pour un  patient de plus de 18 ans (gynécologie,  ophtalmologie, dermatologie, etc …) : tarif le plus souvent facturé ou tarif réglementé 30 € ; base de remboursement (BR) 30 € ; remboursement AMO 20 € ; remboursement AMC 9 € ; reste à charge 1 €
+  - Sous-limite : Formule 4 — Consultation médecin spécialiste pour un  patient de plus de 18 ans (gynécologie,  ophtalmologie, dermatologie, etc …) : tarif le plus souvent facturé ou tarif réglementé 30 € ; base de remboursement (BR) 30 € ; remboursement AMO 20 € ; remboursement AMC 9 € ; reste à charge 1 €
+  - Sous-limite : Formule 5 — Consultation médecin spécialiste pour un  patient de plus de 18 ans (gynécologie,  ophtalmologie, dermatologie, etc …) : tarif le plus souvent facturé ou tarif réglementé 30 € ; base de remboursement (BR) 30 € ; remboursement AMO 20 € ; remboursement AMC 9 € ; reste à charge 1 €
+  - Condition : 1 € de participation forfaitaire 5
+  - Condition : 5 : Pas de participation forfaitaire de 1€ pour les moins de 18 ans.
+
+### Soins courants — Honoraires médecins adhérents OPTAM ou OPTAM-C0 - p. 1
+Poste « Honoraires médecins adhérents OPTAM ou OPTAM-C0 » de la rubrique Soins courants. Tarif le plus souvent facturé ou tarif réglementé : Dépassements maitrisés. Base de remboursement de la Sécurité sociale (BR) : BR. Remboursement de l'assurance maladie obligatoire (AMO) : 70% BR - 1€ 5. Reste à charge : 1 € de participation forfaitaire 5 plus dépassements selon contrat.
+- Limite : Remboursement AMC selon la formule — Formule 1 : 30%BR ; Formule 2 : 30%BR ; Formule 3 : 120%BR ; Formule 4 : 200%BR ; Formule 5 : 400%BR
+  - Sous-limite : Formule 1 — Consultation pédiatre pour enfant de moins de 6  ans : tarif le plus souvent facturé ou tarif réglementé 32 € ; base de remboursement (BR) 32 € ; remboursement AMO 22,40 € ; remboursement AMC 9,60 € ; reste à charge 0 €
+  - Sous-limite : Formule 2 — Consultation pédiatre pour enfant de moins de 6  ans : tarif le plus souvent facturé ou tarif réglementé 32 € ; base de remboursement (BR) 32 € ; remboursement AMO 22,40 € ; remboursement AMC 9,60 € ; reste à charge 0 €
+  - Sous-limite : Formule 3 — Consultation pédiatre pour enfant de moins de 6  ans : tarif le plus souvent facturé ou tarif réglementé 32 € ; base de remboursement (BR) 32 € ; remboursement AMO 22,40 € ; remboursement AMC 9,60 € ; reste à charge 0 €
+  - Sous-limite : Formule 4 — Consultation pédiatre pour enfant de moins de 6  ans : tarif le plus souvent facturé ou tarif réglementé 32 € ; base de remboursement (BR) 32 € ; remboursement AMO 22,40 € ; remboursement AMC 9,60 € ; reste à charge 0 €
+  - Sous-limite : Formule 5 — Consultation pédiatre pour enfant de moins de 6  ans : tarif le plus souvent facturé ou tarif réglementé 32 € ; base de remboursement (BR) 32 € ; remboursement AMO 22,40 € ; remboursement AMC 9,60 € ; reste à charge 0 €
+  - Sous-limite : Formule 1 — Consultation médecin spécialiste pour un  patient de plus de 18 ans (gynécologie,  ophtalmologie, dermatologie, etc …) : tarif le plus souvent facturé ou tarif réglementé 44 € ; base de remboursement (BR) 30 € ; remboursement AMO 20 € ; remboursement AMC 9 € ; reste à charge 15 €
+  - Sous-limite : Formule 2 — Consultation médecin spécialiste pour un  patient de plus de 18 ans (gynécologie,  ophtalmologie, dermatologie, etc …) : tarif le plus souvent facturé ou tarif réglementé 44 € ; base de remboursement (BR) 30 € ; remboursement AMO 20 € ; remboursement AMC 9 € ; reste à charge 15 €
+  - Sous-limite : Formule 3 — Consultation médecin spécialiste pour un  patient de plus de 18 ans (gynécologie,  ophtalmologie, dermatologie, etc …) : tarif le plus souvent facturé ou tarif réglementé 44 € ; base de remboursement (BR) 30 € ; remboursement AMO 20 € ; remboursement AMC 23 € ; reste à charge 1 €
+  - Sous-limite : Formule 4 — Consultation médecin spécialiste pour un  patient de plus de 18 ans (gynécologie,  ophtalmologie, dermatologie, etc …) : tarif le plus souvent facturé ou tarif réglementé 44 € ; base de remboursement (BR) 30 € ; remboursement AMO 20 € ; remboursement AMC 23 € ; reste à charge 1 €
+  - Sous-limite : Formule 5 — Consultation médecin spécialiste pour un  patient de plus de 18 ans (gynécologie,  ophtalmologie, dermatologie, etc …) : tarif le plus souvent facturé ou tarif réglementé 44 € ; base de remboursement (BR) 30 € ; remboursement AMO 20 € ; remboursement AMC 23 € ; reste à charge 1 €
+  - Condition : 1 € de participation forfaitaire 5 plus dépassements selon contrat
+
+### Soins courants — Honoraires médecins secteur 2 (non adhérents OPTAM ou OPTAM-C0) - p. 1
+Poste « Honoraires médecins secteur 2 (non adhérents OPTAM ou OPTAM-C0) » de la rubrique Soins courants. Tarif le plus souvent facturé ou tarif réglementé : Honoraires libres. Base de remboursement de la Sécurité sociale (BR) : BR. Remboursement de l'assurance maladie obligatoire (AMO) : 70% BR - 1€ 5. Reste à charge : 1 € de participation forfaitaire 5 plus dépassements selon contrat.
+- Limite : Remboursement AMC selon la formule — Formule 1 : 30%BR ; Formule 2 : 70%BR ; Formule 3 : 100%BR ; Formule 4 : 130%BR ; Formule 5 : 130%BR
+  - Sous-limite : Formule 1 — Consultation pédiatre pour enfant de 2 à 16 ans : tarif le plus souvent facturé ou tarif réglementé 55 € ; base de remboursement (BR) 23 € ; remboursement AMO 16,10 € ; remboursement AMC 6,90 € ; reste à charge 32 €
+  - Sous-limite : Formule 2 — Consultation pédiatre pour enfant de 2 à 16 ans : tarif le plus souvent facturé ou tarif réglementé 55 € ; base de remboursement (BR) 23 € ; remboursement AMO 16,10 € ; remboursement AMC 16,10 € ; reste à charge 23 €
+  - Sous-limite : Formule 3 — Consultation pédiatre pour enfant de 2 à 16 ans : tarif le plus souvent facturé ou tarif réglementé 55 € ; base de remboursement (BR) 23 € ; remboursement AMO 16,10 € ; remboursement AMC 23 € ; reste à charge 16 €
+  - Sous-limite : Formule 4 — Consultation pédiatre pour enfant de 2 à 16 ans : tarif le plus souvent facturé ou tarif réglementé 55 € ; base de remboursement (BR) 23 € ; remboursement AMO 16,10 € ; remboursement AMC 29,90 € ; reste à charge 9 €
+  - Sous-limite : Formule 5 — Consultation pédiatre pour enfant de 2 à 16 ans : tarif le plus souvent facturé ou tarif réglementé 55 € ; base de remboursement (BR) 23 € ; remboursement AMO 16,10 € ; remboursement AMC 29,90 € ; reste à charge 9 €
+  - Sous-limite : Formule 1 — Consultation médecin spécialiste pour un  patient de plus de 18 ans (gynécologie,  ophtalmologie, dermatologie, etc …) : tarif le plus souvent facturé ou tarif réglementé 57 € ; base de remboursement (BR) 23 € ; remboursement AMO 15,10 € ; remboursement AMC 6,90 € ; reste à charge 35 €
+  - Sous-limite : Formule 2 — Consultation médecin spécialiste pour un  patient de plus de 18 ans (gynécologie,  ophtalmologie, dermatologie, etc …) : tarif le plus souvent facturé ou tarif réglementé 57 € ; base de remboursement (BR) 23 € ; remboursement AMO 15,10 € ; remboursement AMC 16,10 € ; reste à charge 26 €
+  - Sous-limite : Formule 3 — Consultation médecin spécialiste pour un  patient de plus de 18 ans (gynécologie,  ophtalmologie, dermatologie, etc …) : tarif le plus souvent facturé ou tarif réglementé 57 € ; base de remboursement (BR) 23 € ; remboursement AMO 15,10 € ; remboursement AMC 23 € ; reste à charge 19 €
+  - Sous-limite : Formule 4 — Consultation médecin spécialiste pour un  patient de plus de 18 ans (gynécologie,  ophtalmologie, dermatologie, etc …) : tarif le plus souvent facturé ou tarif réglementé 57 € ; base de remboursement (BR) 23 € ; remboursement AMO 15,10 € ; remboursement AMC 29,90 € ; reste à charge 12 €
+  - Sous-limite : Formule 5 — Consultation médecin spécialiste pour un  patient de plus de 18 ans (gynécologie,  ophtalmologie, dermatologie, etc …) : tarif le plus souvent facturé ou tarif réglementé 57 € ; base de remboursement (BR) 23 € ; remboursement AMO 15,10 € ; remboursement AMC 29,90 € ; reste à charge 12 €
+  - Condition : 1 € de participation forfaitaire 5 plus dépassements selon contrat
+
+### Soins courants — Matériel médical - p. 1
+Poste « Matériel médical » de la rubrique Soins courants. Tarif le plus souvent facturé ou tarif réglementé : Tarif moyen facturé. Base de remboursement de la Sécurité sociale (BR) : BR. Remboursement de l'assurance maladie obligatoire (AMO) : 60% BR. Reste à charge : Selon le prix de l'acquisition.
+- Limite : Remboursement AMC selon la formule — Formule 1 : 40% BR ; Formule 2 : 40% BR ; Formule 3 : 100% BR ; Formule 4 : 200% BR ; Formule 5 : 400% BR
+  - Sous-limite : Formule 1 — Achat d'une paire de béquilles : tarif le plus souvent facturé ou tarif réglementé 25,80 € ; base de remboursement (BR) 24,40 € ; remboursement AMO 14,64 € ; remboursement AMC 9,76 € ; reste à charge 1,40 €
+  - Sous-limite : Formule 2 — Achat d'une paire de béquilles : tarif le plus souvent facturé ou tarif réglementé 25,80 € ; base de remboursement (BR) 24,40 € ; remboursement AMO 14,64 € ; remboursement AMC 9,76 € ; reste à charge 1,40 €
+  - Sous-limite : Formule 3 — Achat d'une paire de béquilles : tarif le plus souvent facturé ou tarif réglementé 25,80 € ; base de remboursement (BR) 24,40 € ; remboursement AMO 14,64 € ; remboursement AMC 11,16 € ; reste à charge 0 €
+  - Sous-limite : Formule 4 — Achat d'une paire de béquilles : tarif le plus souvent facturé ou tarif réglementé 25,80 € ; base de remboursement (BR) 24,40 € ; remboursement AMO 14,64 € ; remboursement AMC 11,16 € ; reste à charge 0 €
+  - Sous-limite : Formule 5 — Achat d'une paire de béquilles : tarif le plus souvent facturé ou tarif réglementé 25,80 € ; base de remboursement (BR) 24,40 € ; remboursement AMO 14,64 € ; remboursement AMC 11,16 € ; reste à charge 0 €
+
+### Aides auditives — Equipement 100% Santé - p. 2
+Poste « Equipement 100% Santé » de la rubrique Aides auditives. Tarif le plus souvent facturé ou tarif réglementé : Prix moyen national. Base de remboursement de la Sécurité sociale (BR) : BR. Remboursement de l'assurance maladie obligatoire (AMO) : 60% BR. Reste à charge : 0 €.
+- Limite : Remboursement AMC : 40% BR +  dépassement dans  la limite des PLV (identique pour les 5 formules)
+  - Sous-limite : Formule 1 — Par oreille pour un patient de plus de 20 ans : tarif le plus souvent facturé ou tarif réglementé 950 € ; base de remboursement (BR) 400 € ; remboursement AMO 240 € ; remboursement AMC 710 € ; reste à charge 0 €
+  - Sous-limite : Formule 2 — Par oreille pour un patient de plus de 20 ans : tarif le plus souvent facturé ou tarif réglementé 950 € ; base de remboursement (BR) 400 € ; remboursement AMO 240 € ; remboursement AMC 710 € ; reste à charge 0 €
+  - Sous-limite : Formule 3 — Par oreille pour un patient de plus de 20 ans : tarif le plus souvent facturé ou tarif réglementé 950 € ; base de remboursement (BR) 400 € ; remboursement AMO 240 € ; remboursement AMC 710 € ; reste à charge 0 €
+  - Sous-limite : Formule 4 — Par oreille pour un patient de plus de 20 ans : tarif le plus souvent facturé ou tarif réglementé 950 € ; base de remboursement (BR) 400 € ; remboursement AMO 240 € ; remboursement AMC 710 € ; reste à charge 0 €
+  - Sous-limite : Formule 5 — Par oreille pour un patient de plus de 20 ans : tarif le plus souvent facturé ou tarif réglementé 950 € ; base de remboursement (BR) 400 € ; remboursement AMO 240 € ; remboursement AMC 710 € ; reste à charge 0 €
+  - Condition : 4 : Prix limite de vente
+
+### Aides auditives — Equipement (hors 100% Santé) - p. 2
+Poste « Equipement (hors 100% Santé) » de la rubrique Aides auditives. Tarif le plus souvent facturé ou tarif réglementé : Prix moyen national. Base de remboursement de la Sécurité sociale (BR) : BR. Remboursement de l'assurance maladie obligatoire (AMO) : 60% BR. Reste à charge : Selon le prix de l'acquisition.
+- Limite : Remboursement AMC selon la formule — Formule 1 : 40% BR ; Formule 2 : 100% BR ; Formule 3 : 100% BR + 150 €  par oreille tous les  4 ans ; Formule 4 : 100% BR + 300 €  par oreille tous les  4 ans ; Formule 5 : 250% BR + 400 €  par oreille tous les  4 ans
+  - Sous-limite : Formule 1 — Par oreille pour un patient de plus de 20 ans : tarif le plus souvent facturé ou tarif réglementé 1 476 € ; base de remboursement (BR) 400 € ; remboursement AMO 240 € ; remboursement AMC 160 € ; reste à charge 1 076 €
+  - Sous-limite : Formule 2 — Par oreille pour un patient de plus de 20 ans : tarif le plus souvent facturé ou tarif réglementé 1 476 € ; base de remboursement (BR) 400 € ; remboursement AMO 240 € ; remboursement AMC 400 € ; reste à charge 836 €
+  - Sous-limite : Formule 3 — Par oreille pour un patient de plus de 20 ans : tarif le plus souvent facturé ou tarif réglementé 1 476 € ; base de remboursement (BR) 400 € ; remboursement AMO 240 € ; remboursement AMC 550 € ; reste à charge 686 €
+  - Sous-limite : Formule 4 — Par oreille pour un patient de plus de 20 ans : tarif le plus souvent facturé ou tarif réglementé 1 476 € ; base de remboursement (BR) 400 € ; remboursement AMO 240 € ; remboursement AMC 700 € ; reste à charge 536 €
+  - Sous-limite : Formule 5 — Par oreille pour un patient de plus de 20 ans : tarif le plus souvent facturé ou tarif réglementé 1 476 € ; base de remboursement (BR) 400 € ; remboursement AMO 240 € ; remboursement AMC 1236 € ; reste à charge 0 €
+
+### Dentaire — Soins et prothèses 100% santé - p. 2
+Poste « Soins et prothèses 100% santé » de la rubrique Dentaire. Tarif le plus souvent facturé ou tarif réglementé : Prix moyen national. Base de remboursement de la Sécurité sociale (BR) : BR. Remboursement de l'assurance maladie obligatoire (AMO) : 70% BR. Reste à charge : 0 €.
+- Limite : Remboursement AMC : 30% BR +  dépassement dans  la limite du plafond  des honoraires (identique pour les 5 formules)
+  - Sous-limite : Formule 1 — Couronne céramo-métallique sur incisives,  canines et premières pré-molaires : tarif le plus souvent facturé ou tarif réglementé 500 € ; base de remboursement (BR) 120 € ; remboursement AMO 84 € ; remboursement AMC 416 € ; reste à charge 0 €
+  - Sous-limite : Formule 2 — Couronne céramo-métallique sur incisives,  canines et premières pré-molaires : tarif le plus souvent facturé ou tarif réglementé 500 € ; base de remboursement (BR) 120 € ; remboursement AMO 84 € ; remboursement AMC 416 € ; reste à charge 0 €
+  - Sous-limite : Formule 3 — Couronne céramo-métallique sur incisives,  canines et premières pré-molaires : tarif le plus souvent facturé ou tarif réglementé 500 € ; base de remboursement (BR) 120 € ; remboursement AMO 84 € ; remboursement AMC 416 € ; reste à charge 0 €
+  - Sous-limite : Formule 4 — Couronne céramo-métallique sur incisives,  canines et premières pré-molaires : tarif le plus souvent facturé ou tarif réglementé 500 € ; base de remboursement (BR) 120 € ; remboursement AMO 84 € ; remboursement AMC 416 € ; reste à charge 0 €
+  - Sous-limite : Formule 5 — Couronne céramo-métallique sur incisives,  canines et premières pré-molaires : tarif le plus souvent facturé ou tarif réglementé 500 € ; base de remboursement (BR) 120 € ; remboursement AMO 84 € ; remboursement AMC 416 € ; reste à charge 0 €
+
+### Dentaire — Soins (hors 100% santé) - p. 2
+Poste « Soins (hors 100% santé) » de la rubrique Dentaire. Tarif le plus souvent facturé ou tarif réglementé : Tarif de convention. Base de remboursement de la Sécurité sociale (BR) : BR. Remboursement de l'assurance maladie obligatoire (AMO) : 70% BR. Reste à charge : Dépassement.
+- Limite : Remboursement AMC : 30% BR (identique pour les 5 formules)
+  - Sous-limite : Formule 1 — Détartrage : tarif le plus souvent facturé ou tarif réglementé 43,38 € ; base de remboursement (BR) 43,38 € ; remboursement AMO 30,36 € ; remboursement AMC 13,02 € ; reste à charge 0 €
+  - Sous-limite : Formule 2 — Détartrage : tarif le plus souvent facturé ou tarif réglementé 43,38 € ; base de remboursement (BR) 43,38 € ; remboursement AMO 30,36 € ; remboursement AMC 13,02 € ; reste à charge 0 €
+  - Sous-limite : Formule 3 — Détartrage : tarif le plus souvent facturé ou tarif réglementé 43,38 € ; base de remboursement (BR) 43,38 € ; remboursement AMO 30,36 € ; remboursement AMC 13,02 € ; reste à charge 0 €
+  - Sous-limite : Formule 4 — Détartrage : tarif le plus souvent facturé ou tarif réglementé 43,38 € ; base de remboursement (BR) 43,38 € ; remboursement AMO 30,36 € ; remboursement AMC 13,02 € ; reste à charge 0 €
+  - Sous-limite : Formule 5 — Détartrage : tarif le plus souvent facturé ou tarif réglementé 43,38 € ; base de remboursement (BR) 43,38 € ; remboursement AMO 30,36 € ; remboursement AMC 13,02 € ; reste à charge 0 €
+
+### Dentaire — Prothèses (hors 100% santé) - p. 2
+Poste « Prothèses (hors 100% santé) » de la rubrique Dentaire. Tarif le plus souvent facturé ou tarif réglementé : Prix moyen national. Base de remboursement de la Sécurité sociale (BR) : BR. Remboursement de l'assurance maladie obligatoire (AMO) : 70% BR. Reste à charge : Selon prothèse.
+- Limite : Remboursement AMC selon la formule — Formule 1 : 55% BR ; Formule 2 : 100% BR ; Formule 3 : 200% BR ; Formule 4 : 300% BR ; Formule 5 : 400% BR
+  - Sous-limite : Formule 1 — Couronne céramo-métallique sur molaires : tarif le plus souvent facturé ou tarif réglementé 537,48 € ; base de remboursement (BR) 120 € ; remboursement AMO 84 € ; remboursement AMC 66 € ; reste à charge 387,48 €
+  - Sous-limite : Formule 2 — Couronne céramo-métallique sur molaires : tarif le plus souvent facturé ou tarif réglementé 537,48 € ; base de remboursement (BR) 120 € ; remboursement AMO 84 € ; remboursement AMC 120 € ; reste à charge 333,48 €
+  - Sous-limite : Formule 3 — Couronne céramo-métallique sur molaires : tarif le plus souvent facturé ou tarif réglementé 537,48 € ; base de remboursement (BR) 120 € ; remboursement AMO 84 € ; remboursement AMC 240 € ; reste à charge 213,48 €
+  - Sous-limite : Formule 4 — Couronne céramo-métallique sur molaires : tarif le plus souvent facturé ou tarif réglementé 537,48 € ; base de remboursement (BR) 120 € ; remboursement AMO 84 € ; remboursement AMC 360 € ; reste à charge 93,48 €
+  - Sous-limite : Formule 5 — Couronne céramo-métallique sur molaires : tarif le plus souvent facturé ou tarif réglementé 537,48 € ; base de remboursement (BR) 120 € ; remboursement AMO 84,00 € ; remboursement AMC 453,48 € ; reste à charge 0 €
+
+### Dentaire — Orthodontie (moins de 16 ans) - p. 2
+Poste « Orthodontie (moins de 16 ans) » de la rubrique Dentaire. Tarif le plus souvent facturé ou tarif réglementé : Prix moyen national. Base de remboursement de la Sécurité sociale (BR) : BR. Remboursement de l'assurance maladie obligatoire (AMO) : 100% BR. Reste à charge : Selon traitement.
+- Limite : Remboursement AMC selon la formule — Formule 1 : 55% BR ; Formule 2 : 100% BR ; Formule 3 : 200% BR ; Formule 4 : 300% BR ; Formule 5 : 400% BR
+  - Sous-limite : Formule 1 — Traitement par semestre (6 max) : tarif le plus souvent facturé ou tarif réglementé 720 € ; base de remboursement (BR) 193,50 € ; remboursement AMO 193,50 € ; remboursement AMC 48,38 € ; reste à charge 478,13 €
+  - Sous-limite : Formule 2 — Traitement par semestre (6 max) : tarif le plus souvent facturé ou tarif réglementé 720 € ; base de remboursement (BR) 193,50 € ; remboursement AMO 193,50 € ; remboursement AMC 193,50 € ; reste à charge 333,13 €
+  - Sous-limite : Formule 3 — Traitement par semestre (6 max) : tarif le plus souvent facturé ou tarif réglementé 720 € ; base de remboursement (BR) 193,50 € ; remboursement AMO 193,50 € ; remboursement AMC 387 € ; reste à charge 139,50 €
+  - Sous-limite : Formule 4 — Traitement par semestre (6 max) : tarif le plus souvent facturé ou tarif réglementé 720 € ; base de remboursement (BR) 193,50 € ; remboursement AMO 193,50 € ; remboursement AMC 526,50 € ; reste à charge 0 €
+  - Sous-limite : Formule 5 — Traitement par semestre (6 max) : tarif le plus souvent facturé ou tarif réglementé 720 € ; base de remboursement (BR) 193,50 € ; remboursement AMO 193,50 € ; remboursement AMC 526,50 € ; reste à charge 0 €
+  - Condition : Traitement par semestre (6 max)
+
+### Optique — Equipement 100% Santé - p. 2
+Poste « Equipement 100% Santé » de la rubrique Optique. Tarif le plus souvent facturé ou tarif réglementé : Prix moyen national. Base de remboursement de la Sécurité sociale (BR) : BR. Remboursement de l'assurance maladie obligatoire (AMO) : 60% BR. Reste à charge : 0 €.
+- Limite : Remboursement AMC : 40% BR +  dépassement dans  la limite des PLV 4 (identique pour les 5 formules)
+  - Sous-limite : Formule 1 — Verres simples et monture : tarif le plus souvent facturé ou tarif réglementé 41€ (par verre) +  30€ (monture) ; base de remboursement (BR) 12,75€ par verre  + 9€ ; remboursement AMO 7,65€ par verre  + 5,40€ ; remboursement AMC 33,35€ par verre + 24,60 € ; reste à charge 0 €
+  - Sous-limite : Formule 2 — Verres simples et monture : tarif le plus souvent facturé ou tarif réglementé 41€ (par verre) +  30€ (monture) ; base de remboursement (BR) 12,75€ par verre  + 9€ ; remboursement AMO 7,65€ par verre  + 5,40€ ; remboursement AMC 33,35€ par verre + 24,60 € ; reste à charge 0 €
+  - Sous-limite : Formule 3 — Verres simples et monture : tarif le plus souvent facturé ou tarif réglementé 41€ (par verre) +  30€ (monture) ; base de remboursement (BR) 12,75€ par verre  + 9€ ; remboursement AMO 7,65€ par verre  + 5,40€ ; remboursement AMC 33,35€ par verre + 24,60 € ; reste à charge 0 €
+  - Sous-limite : Formule 4 — Verres simples et monture : tarif le plus souvent facturé ou tarif réglementé 41€ (par verre) +  30€ (monture) ; base de remboursement (BR) 12,75€ par verre  + 9€ ; remboursement AMO 7,65€ par verre  + 5,40€ ; remboursement AMC 33,35€ par verre + 24,60 € ; reste à charge 0 €
+  - Sous-limite : Formule 5 — Verres simples et monture : tarif le plus souvent facturé ou tarif réglementé 41€ (par verre) +  30€ (monture) ; base de remboursement (BR) 12,75€ par verre  + 9€ ; remboursement AMO 7,65€ par verre  + 5,40€ ; remboursement AMC 33,35€ par verre + 24,60 € ; reste à charge 0 €
+  - Sous-limite : Formule 1 — Verres progressifs et monture : tarif le plus souvent facturé ou tarif réglementé 90€ (par verre) +  30€ (monture) ; base de remboursement (BR) 27€ par verre + 9€ ; remboursement AMO 16,20€ par  verre + 5,40€ ; remboursement AMC 73,80€ par verre + 24,60 € ; reste à charge 0 €
+  - Sous-limite : Formule 2 — Verres progressifs et monture : tarif le plus souvent facturé ou tarif réglementé 90€ (par verre) +  30€ (monture) ; base de remboursement (BR) 27€ par verre + 9€ ; remboursement AMO 16,20€ par  verre + 5,40€ ; remboursement AMC 73,80€ par verre + 24,60 € ; reste à charge 0 €
+  - Sous-limite : Formule 3 — Verres progressifs et monture : tarif le plus souvent facturé ou tarif réglementé 90€ (par verre) +  30€ (monture) ; base de remboursement (BR) 27€ par verre + 9€ ; remboursement AMO 16,20€ par  verre + 5,40€ ; remboursement AMC 73,80€ par verre + 24,60 € ; reste à charge 0 €
+  - Sous-limite : Formule 4 — Verres progressifs et monture : tarif le plus souvent facturé ou tarif réglementé 90€ (par verre) +  30€ (monture) ; base de remboursement (BR) 27€ par verre + 9€ ; remboursement AMO 16,20€ par  verre + 5,40€ ; remboursement AMC 73,80€ par verre + 24,60 € ; reste à charge 0 €
+  - Sous-limite : Formule 5 — Verres progressifs et monture : tarif le plus souvent facturé ou tarif réglementé 90€ (par verre) +  30€ (monture) ; base de remboursement (BR) 27€ par verre + 9€ ; remboursement AMO 16,20€ par  verre + 5,40€ ; remboursement AMC 73,80€ par verre + 24,60 € ; reste à charge 0 €
+  - Condition : 4 : Prix limite de vente
+  - Condition : 6 : Les remboursements du poste Optique s'entendent Ticket Modérateur et remboursement AMO inclus.
+
+### Optique — Equipement hors 100% Santé - p. 2
+Poste « Equipement hors 100% Santé » de la rubrique Optique. Tarif le plus souvent facturé ou tarif réglementé : Prix moyen national. Base de remboursement de la Sécurité sociale (BR) : BR. Remboursement de l'assurance maladie obligatoire (AMO) : 60% BR. Reste à charge : Selon le prix de l'acquisition.
+- Limite : Remboursement AMC selon la formule — Formule 1 : Monture : 30€  Verre simple : 35€  Verre progressif :  85€ 6 ; Formule 2 : Monture : 100€  Verre simple : 85€  Verre progressif :  100€ 6 ; Formule 3 : Monture : 100€  Verre simple : 110€  Verre progressif :  140€ 6 ; Formule 4 : Monture : 100€  Verre simple : 140€  Verre progressif :  185€ 6 ; Formule 5 : Monture : 100€  Verre simple : 160€  Verre progressif :  285€ 6
+  - Sous-limite : Formule 1 — Verres simples et monture : tarif le plus souvent facturé ou tarif réglementé 100€ (par verre)  + 139 (monture) ; base de remboursement (BR) 0,05€ par verre + 0,05€ ; remboursement AMO 0,03€ par verre  + 0,03€ ; remboursement AMC 99,91 € ; reste à charge 239 €
+  - Sous-limite : Formule 2 — Verres simples et monture : tarif le plus souvent facturé ou tarif réglementé 100€ (par verre)  + 139 (monture) ; base de remboursement (BR) 0,05€ par verre + 0,05€ ; remboursement AMO 0,03€ par verre  + 0,03€ ; remboursement AMC 269,91 € ; reste à charge 69 €
+  - Sous-limite : Formule 3 — Verres simples et monture : tarif le plus souvent facturé ou tarif réglementé 100€ (par verre)  + 139 (monture) ; base de remboursement (BR) 0,05€ par verre + 0,05€ ; remboursement AMO 0,03€ par verre  + 0,03€ ; remboursement AMC 299,91 € ; reste à charge 39 €
+  - Sous-limite : Formule 4 — Verres simples et monture : tarif le plus souvent facturé ou tarif réglementé 100€ (par verre)  + 139 (monture) ; base de remboursement (BR) 0,05€ par verre + 0,05€ ; remboursement AMO 0,03€ par verre  + 0,03€ ; remboursement AMC 299,91 € ; reste à charge 39 €
+  - Sous-limite : Formule 5 — Verres simples et monture : tarif le plus souvent facturé ou tarif réglementé 100€ (par verre)  + 139 (monture) ; base de remboursement (BR) 0,05€ par verre + 0,05€ ; remboursement AMO 0,03€ par verre  + 0,03€ ; remboursement AMC 299,91 € ; reste à charge 39 €
+  - Sous-limite : Formule 1 — Verres progressifs et monture : tarif le plus souvent facturé ou tarif réglementé 231€ (par verre)  + 139 (monture) ; base de remboursement (BR) 0,05€ par verre + 0,05€ ; remboursement AMO 0,03€ par verre  + 0,03€ ; remboursement AMC 199,91 € ; reste à charge 401 €
+  - Sous-limite : Formule 2 — Verres progressifs et monture : tarif le plus souvent facturé ou tarif réglementé 231€ (par verre)  + 139 (monture) ; base de remboursement (BR) 0,05€ par verre + 0,05€ ; remboursement AMO 0,03€ par verre  + 0,03€ ; remboursement AMC 299,91 € ; reste à charge 301 €
+  - Sous-limite : Formule 3 — Verres progressifs et monture : tarif le plus souvent facturé ou tarif réglementé 231€ (par verre)  + 139 (monture) ; base de remboursement (BR) 0,05€ par verre + 0,05€ ; remboursement AMO 0,03€ par verre  + 0,03€ ; remboursement AMC 379,91 € ; reste à charge 221 €
+  - Sous-limite : Formule 4 — Verres progressifs et monture : tarif le plus souvent facturé ou tarif réglementé 231€ (par verre)  + 139 (monture) ; base de remboursement (BR) 0,05€ par verre + 0,05€ ; remboursement AMO 0,03€ par verre  + 0,03€ ; remboursement AMC 469,91 € ; reste à charge 131 €
+  - Sous-limite : Formule 5 — Verres progressifs et monture : tarif le plus souvent facturé ou tarif réglementé 231€ (par verre)  + 139 (monture) ; base de remboursement (BR) 0,05€ par verre + 0,05€ ; remboursement AMO 0,03€ par verre  + 0,03€ ; remboursement AMC 561,91 € ; reste à charge 39 €
+  - Condition : 6 : Les remboursements du poste Optique s'entendent Ticket Modérateur et remboursement AMO inclus.
+
+### Optique — Lentilles - p. 2
+Poste « Lentilles » de la rubrique Optique. Tarif le plus souvent facturé ou tarif réglementé : Prix moyen national. Base de remboursement de la Sécurité sociale (BR) : Pas de prise en charge (cas général). Remboursement de l'assurance maladie obligatoire (AMO) : Pas de prise en charge (cas général). Reste à charge : Selon le prix de l'acquisition.
+- Limite : Remboursement AMC selon la formule — Formule 1 : Pas de prise en  charge ; Formule 2 : Pas de prise en  charge ; Formule 3 : Prise en charge ; Formule 4 : Prise en charge ; Formule 5 : Prise en charge
+  - Sous-limite : Formule 1 — Forfait annuel : tarif le plus souvent facturé ou tarif réglementé NC ; base de remboursement (BR) Non remboursé  (cas général) ; remboursement AMO Non remboursé  (cas général) ; remboursement AMC - ; reste à charge Selon les frais  engagés
+  - Sous-limite : Formule 2 — Forfait annuel : tarif le plus souvent facturé ou tarif réglementé NC ; base de remboursement (BR) Non remboursé  (cas général) ; remboursement AMO Non remboursé  (cas général) ; remboursement AMC - ; reste à charge Selon les frais  engagés
+  - Sous-limite : Formule 3 — Forfait annuel : tarif le plus souvent facturé ou tarif réglementé NC ; base de remboursement (BR) Non remboursé  (cas général) ; remboursement AMO Non remboursé  (cas général) ; remboursement AMC Jusqu’à 171,4€ ; reste à charge Selon les frais  engagés
+  - Sous-limite : Formule 4 — Forfait annuel : tarif le plus souvent facturé ou tarif réglementé NC ; base de remboursement (BR) Non remboursé  (cas général) ; remboursement AMO Non remboursé  (cas général) ; remboursement AMC Jusqu’à 205,68€ ; reste à charge Selon les frais  engagés
+  - Sous-limite : Formule 5 — Forfait annuel : tarif le plus souvent facturé ou tarif réglementé NC ; base de remboursement (BR) Non remboursé  (cas général) ; remboursement AMO Non remboursé  (cas général) ; remboursement AMC Jusqu’à 342,8€ ; reste à charge Selon les frais  engagés
+
+### Optique — Chrirurgie réfractive - p. 2
+Poste « Chrirurgie réfractive » de la rubrique Optique. Tarif le plus souvent facturé ou tarif réglementé : Prix moyen national. Base de remboursement de la Sécurité sociale (BR) : Non remboursé. Remboursement de l'assurance maladie obligatoire (AMO) : Non remboursé. Reste à charge : Selon le tarif de l'acte.
+- Limite : Remboursement AMC selon la formule — Formule 1 : Pas de prise en  charge ; Formule 2 : Pas de prise en  charge ; Formule 3 : Prise en charge ; Formule 4 : Prise en charge ; Formule 5 : Prise en charge
+  - Sous-limite : Formule 1 — Opération corrective de la myopie : tarif le plus souvent facturé ou tarif réglementé NC ; base de remboursement (BR) Non remboursé ; remboursement AMO Non remboursé ; remboursement AMC - ; reste à charge Selon les frais  engagés
+  - Sous-limite : Formule 2 — Opération corrective de la myopie : tarif le plus souvent facturé ou tarif réglementé NC ; base de remboursement (BR) Non remboursé ; remboursement AMO Non remboursé ; remboursement AMC - ; reste à charge Selon les frais  engagés
+  - Sous-limite : Formule 3 — Opération corrective de la myopie : tarif le plus souvent facturé ou tarif réglementé NC ; base de remboursement (BR) Non remboursé ; remboursement AMO Non remboursé ; remboursement AMC Jusqu’à 250€/an/oeil ; reste à charge Selon les frais  engagés
+  - Sous-limite : Formule 4 — Opération corrective de la myopie : tarif le plus souvent facturé ou tarif réglementé NC ; base de remboursement (BR) Non remboursé ; remboursement AMO Non remboursé ; remboursement AMC Jusqu’à 350€/an/oeil ; reste à charge Selon les frais  engagés
+  - Sous-limite : Formule 5 — Opération corrective de la myopie : tarif le plus souvent facturé ou tarif réglementé NC ; base de remboursement (BR) Non remboursé ; remboursement AMO Non remboursé ; remboursement AMC Jusqu’à 450€/an/oeil ; reste à charge Selon les frais  engagés
+  - Condition : Le libellé du poste est imprimé « Chrirurgie réfractive » (coquille de l'assureur, conservée telle quelle).
+
+## Exclusions
+
+| Exclusion | Description | S'applique à | Page |
+|---|---|---|---|
+| Chambre particulière non prise en charge — Formule 1 | Pour la Formule 1, la colonne « Remboursement de l’assurance maladie complémentaire (AMC) » du poste « Chambre particulière (sur demande du patient) » indique « 0 € », le reste à charge étant « Selon les frais engagés ». | Hospitalisation — Chambre particulière (sur demande du patient) | p. 1 |
+| Dépassements d'honoraires hospitaliers non pris en charge — Formule 1 (médecins adhérents OPTAM ou OPTAM-CO) | Pour la Formule 1, la colonne AMC du poste « Honoraires médecins adhérents OPTAM ou OPTAM-CO » (Séjours avec actes lourds) indique « - ». L'exemple chiffré donne un remboursement AMC de « 0 € » et un reste à charge de « 83,30 € » sur des honoraires de chirurgien de « 355 € ». | Hospitalisation, séjours avec actes lourds — Honoraires médecins adhérents OPTAM ou OPTAM-CO | p. 1 |
+| Dépassements d'honoraires hospitaliers non pris en charge — Formule 1 (médecins secteur 2) | Pour la Formule 1, la colonne AMC du poste « Honoraires médecins secteur 2 (non adhérents OPTAM ou OPTAM-CO) » (Séjours avec actes lourds) indique « - ». L'exemple chiffré donne un remboursement AMC de « 0 € » et un reste à charge de « 175,30 € » sur des honoraires de chirurgien de « 447 € ». | Hospitalisation, séjours avec actes lourds — Honoraires médecins secteur 2 (non adhérents OPTAM ou OPTAM-CO) | p. 1 |
+| Lentilles non prises en charge — Formules 1 et 2 | Pour les Formules 1 et 2, la colonne AMC du poste « Lentilles » indique « Pas de prise en charge » et l'exemple « Forfait annuel » donne « - ». Le reste à charge est « Selon les frais engagés ». | Optique — Lentilles | p. 2 |
+| Chirurgie réfractive non prise en charge — Formules 1 et 2 | Pour les Formules 1 et 2, la colonne AMC du poste « Chrirurgie réfractive » indique « Pas de prise en charge » et l'exemple « Opération corrective de la myopie » donne « - ». Le reste à charge est « Selon les frais engagés ». | Optique — Chrirurgie réfractive | p. 2 |
+| Postes non remboursés par l'assurance maladie obligatoire | Le document indique « Non remboursé » dans les colonnes BR et AMO pour la « Chambre particulière (sur demande du patient) » et la « Chrirurgie réfractive », et « Pas de prise en charge (cas général) » pour les « Lentilles ». Il s'agit du régime obligatoire, non d'une exclusion du contrat complémentaire. | all | p. 1 |
+
+## Franchises
+
+- Standard : 1 € de participation forfaitaire (colonne « Reste à charge » des postes Soins courants)
+- Soins courants — Honoraires médecins secteur 1 (généralistes ou spécialistes) : 1 € de participation forfaitaire 5
+- Soins courants — Honoraires médecins adhérents OPTAM ou OPTAM-C0 : 1 € de participation forfaitaire 5 plus dépassements selon contrat
+- Soins courants — Honoraires médecins secteur 2 (non adhérents OPTAM ou OPTAM-C0) : 1 € de participation forfaitaire 5 plus dépassements selon contrat
+- Dentaire — Soins (hors 100% santé) : Dépassement
+- Hospitalisation, séjours avec actes lourds — Frais de séjour : BR - 24€ remboursés par l'AMO, les 24 € restants étant pris en charge par l'AMC
+
+## Conditions particulières
+
+- Ce document présente des exemples de remboursements en euros par l’assurance maladie et par votre contrat complémentaire santé, parmi  les cas les plus fréquents et selon le niveau de couverture choisi. Ils ne correspondent pas forcément à vos besoins ou à votre situation  mais, ils vous permettent de comprendre, choisir ou comparer les tableaux de garantie. Ils ne peuvent se substituer aux documents  contractuels qui seuls engagent l’organisme de complémentaire santé. p. 2
+- Ils ont été construits sur la base des données communiquées par  l’assurance maladie obligatoire et en s’appuyant sur le Glossaire de l’assurance complémentaire santé édicté par l’UNOCAM  (https://unocam.fr/ressources/documents-a-telecharger/) p. 2
+- Les exemples de remboursements sont donnés pour un assuré sans taux de prise en charge particulier et respectant le parcours de soins coordonnés (note 1 du document). p. 2
+- Les remboursements du poste Optique s'entendent Ticket Modérateur et remboursement AMO inclus. (note 6 du document). p. 2
+- Chaque page porte l'en-tête « Contrat d'assurance santé responsable 2 », renvoyant à la note 2 sur les contrats responsables. p. 1
+- Le document présente cinq formules successives, chacune sur deux pages : « Exemples de remboursements(1) - Formule 1 » (pages 1-2), « Formule 2 » (pages 3-4), « Formule 3 » (pages 5-6), « Formule 4 » (pages 7-8) et « Formule 5 » (pages 9-10). Les mêmes postes de garantie sont repris pour chaque formule, seuls les montants de la colonne AMC changent. p. 1
+- Groupama Assurances Mutuelles, pour le compte des Caisses Régionales d’Assurances Mutuelles  Agricoles – Siège social : 8-10 rue d’Astorg – 75 383 Paris Cedex 08 – 343 115 135 RCS Paris – Entreprise régie par le Code des Assurances et soumise à l’Autorité de Contrôle Prudentiel et de  Résolution (ACPR) - 4 Place de Budapest - CS 92459 - 75436 Paris cedex 09 – 052022. p. 2
+
+## Lacunes d'extraction
+
+- NATURE DU DOCUMENT — ce n'est pas un document contractuel. Il s'agit de la fiche « Exemples de remboursements » (format normalisé de lisibilité en assurance complémentaire santé, construit « en s'appuyant sur le Glossaire de l'assurance complémentaire santé édicté par l'UNOCAM »). Le document le dit lui-même : « Ils ne peuvent se substituer aux documents contractuels qui seuls engagent l'organisme de complémentaire santé. » Les montants repris dans `coverages` proviennent de la colonne « Remboursement de l'assurance maladie complémentaire (AMC) » de ce tableau d'exemples ; ils ne constituent pas le tableau de garanties contractuel, qui n'est pas dans ce document.
+- NOM DE PRODUIT — le document imprime « SYNERGIE SANTÉ ESSENTIELLE » (pages 1, 3, 5, 7 et 9). Les métadonnées de la tâche et le nom du fichier source (« exemples_de_remboursements_complémentaire_santé_TNS.pdf ») annoncent au contraire une « Complémentaire santé TNS ». Le document a été retenu. `product_name` et `product_family` sont donc enregistrés tels qu'imprimés, EN CAPITALES : à normaliser en aval si la casse pose problème.
+- PUBLIC VISÉ — le document ne désigne aucun public : ni « TNS », ni « travailleurs non salariés », ni « particuliers », ni « entreprises » n'apparaissent dans le texte. `target_audience` est laissé null. La mention « TNS » ne figure que dans l'URL et le nom de fichier, pas dans le document.
+- DATE D'ÉDITION — le document ne porte pas de mention « édition » explicite. `edition_date` reprend le code de pied de page tel qu'imprimé, « 052022 », qui clôt la ligne d'agrément ACPR sur les pages 2, 4, 6, 8 et 10. Sa lecture comme « mai 2022 » n'est PAS écrite dans le document et n'a pas été inférée dans les champs.
+- CONTRADICTION INTERNE — Formule 1, poste « Orthodontie (moins de 16 ans) » (page 2) : le niveau AMC annoncé est « 55% BR », mais l'exemple chiffré donne un remboursement AMC de « 48,38 € » sur une BR de « 193,50 € », soit 25 % de la BR. Les deux valeurs sont enregistrées telles qu'imprimées. À titre de comparaison interne, le poste « Prothèses (hors 100% santé) » de la même formule annonce lui aussi « 55% BR » et son exemple (« 66 € » sur une BR de « 120 € ») est, lui, cohérent.
+- ARITHMÉTIQUE — plusieurs restes à charge du poste Orthodontie ne se recomposent pas exactement : Formule 1 « 478,13 € » (720 € − 193,50 € − 48,38 € = 478,12 €) et Formule 2 « 333,13 € » (720 € − 193,50 € − 193,50 € = 333,00 €). Valeurs conservées telles qu'imprimées.
+- ORTHOGRAPHE DE L'ASSUREUR CONSERVÉE — le poste optique est imprimé « Chrirurgie réfractive » (coquille) sur les pages 2, 4, 6, 8 et 10 ; le sigle OPTAM est imprimé « OPTAM-CO » (lettre O) dans la rubrique Hospitalisation et « OPTAM-C0 » (chiffre zéro) dans la rubrique Soins courants, sur toutes les pages. Aucune de ces graphies n'a été corrigée.
+- TYPOGRAPHIE DES POURCENTAGES CONSERVÉE — le document alterne « 30% BR » (avec espace) dans certaines lignes et « 30%BR » (sans espace) dans d'autres, souvent pour la même formule. Les deux graphies sont reprises telles quelles ; il s'agit d'un pourcentage de la base de remboursement, pas d'un pourcentage des frais.
+- STRUCTURE DES PAGES — le bandeau « SYNERGIE SANTÉ ESSENTIELLE / Exemples de remboursements(1) - Formule N » ne figure QUE sur les pages impaires (1, 3, 5, 7, 9). Les pages paires (2, 4, 6, 8, 10), qui portent les postes Aides auditives, Dentaire et Optique, ne portent aucune étiquette de formule : leur rattachement à la formule de la page impaire précédente est déduit de la mise en page (postes complémentaires, alternance systématique, progression monotone des montants d'une formule à la suivante) et non d'une mention explicite.
+- MONTANT SANS UNITÉ — dans le poste « Optique — Equipement hors 100% Santé », le tarif de la monture est imprimé « + 139 (monture) » sans symbole €, sur les cinq formules ; conservé tel quel.
+- SECTIONS ABSENTES — ce type de document ne contient ni définitions contractuelles complètes, ni délais d'attente, ni obligations de l'assuré, ni procédure de déclaration de sinistre, ni durée/résiliation, ni prescription, ni mécanique de cotisation. Ces champs sont donc vides ou null, non par omission d'extraction mais par absence dans la source. Les seules « définitions » enregistrées sont les notes de bas de page 2 à 6 et les intitulés de colonnes.
+- EXCLUSIONS — le document ne comporte aucune clause d'exclusion générale. Les entrées de `exclusions` sont les postes pour lesquels la colonne AMC porte explicitement « Pas de prise en charge », « 0 € » ou « - » pour une formule donnée ; les exclusions contractuelles du produit ne figurent pas dans ce document.
+- QUALITÉ DU TEXTE — la couche texte du PDF colle parfois deux cellules sans espace (« Non remboursé Non rembourséJusqu'à 250€/an/oeil » page 6, « Non connu (NC) Non remboursé » page 1). Les valeurs ont été relues à partir des coordonnées des mots pour attribuer chaque cellule à sa colonne ; les citations de `key_quotes` évitent ces jonctions.
+- MÉTHODE — le texte du prompt a été confronté au PDF local (data/fr/pdfs/groupama/sante/complementaire-sante-tns-exemples-reglementaires-de-remboursement-b51ad106.pdf) : les 10 pages ressortent identiques via page.get_text("text"). Le prompt n'était pas tronqué.
+
+## Source & fidélité
+
+- Source : [https://assets.ctfassets.net/7awcp71bzphk/6Qox8ye95qmLUhlglMfxle/4fa91d463c659afc35a599238f326b29/exemples_de_remboursements_compl__mentaire_sant___TNS.pdf](https://assets.ctfassets.net/7awcp71bzphk/6Qox8ye95qmLUhlglMfxle/4fa91d463c659afc35a599238f326b29/exemples_de_remboursements_compl__mentaire_sant___TNS.pdf) - téléchargé le 2026-07-30 - 10 pages
+- Extraction : claude-code-subagent:scale · prompt v1.1
+- ⚠️ Ceci n'est pas le document officiel de l'assureur et peut contenir des erreurs d'extraction. Information, non un conseil - vérifiez toujours par rapport au document source.

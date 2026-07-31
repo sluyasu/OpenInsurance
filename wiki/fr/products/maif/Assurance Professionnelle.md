@@ -493,6 +493,10 @@ Toute action dérivant du contrat est prescrite par deux ans à compter de l’�
 - Le texte source comporte des espaces insécables, des espaces fines et des traits d’union conditionnels de césure, et mélange ponctuellement apostrophes typographiques et apostrophes ASCII (pages 37 et 48). Les `key_quotes` ont été extraites programmatiquement comme empans exacts du texte source, avec la seule normalisation des suites d’espaces en espace simple ; elles n’ont pas été retapées et conservent donc les traits d’union de césure là où ils figurent dans le PDF.
 - `target_audience` est fixé à « independants » : le contrat désigne comme assuré aussi bien « l’entreprise, personne morale souscriptrice » que « le chef d’entreprise, personne physique agissant en tant qu’entrepreneur individuel » (p. 43), et le PDF est publié par MAIF dans la rubrique « travailleurs-independants » de sa documentation contractuelle. Le libellé imprimé, qui couvre les deux catégories, est conservé dans `target_audience_note`.
 
+## Documents liés
+
+- [Assurance Professionnelle - IPID](Assurance%20Professionnelle%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/2025
+
 ## Source & fidélité
 
 - Source : [https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/travailleurs-independants/conditions-generales-assurance-professionnelle.pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/travailleurs-independants/conditions-generales-assurance-professionnelle.pdf) - téléchargé le 2026-07-30 - 54 pages

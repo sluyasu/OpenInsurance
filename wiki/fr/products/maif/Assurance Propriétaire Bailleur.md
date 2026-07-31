@@ -516,6 +516,10 @@ La prescription est le délai au-delà duquel aucune action n’est plus recevab
 - L’intitulé « 2.5.2 – L’indemnisation de vos biens » et ses modalités détaillées (pages 16 à 19) ont été enregistrés dans special_conditions plutôt que comme garanties, s’agissant de modalités d’indemnisation et non de garanties distinctes.
 - Le document mentionne un service partenaire « Blue by Locat’me : l’agence immobilière 100 % en ligne, à prix unique, pour mettre votre bien en location » (page 4, page de présentation commerciale) sans aucune disposition contractuelle correspondante dans le corps des conditions générales.
 
+## Documents liés
+
+- [Assurance Propriétaire Bailleur - IPID](Assurance%20Propri%C3%A9taire%20Bailleur%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/2025
+
 ## Source & fidélité
 
 - Source : [https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/conditions-generales-assurance-proprietaire-bailleur.pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/conditions-generales-assurance-proprietaire-bailleur.pdf) - téléchargé le 2026-07-30 - 54 pages

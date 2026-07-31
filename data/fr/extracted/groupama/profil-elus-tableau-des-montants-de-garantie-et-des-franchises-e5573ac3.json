@@ -4,7 +4,7 @@
   "country": "fr",
   "insurer_slug": "groupama",
   "insurer_name": "Groupama",
-  "product_name": "Profil élus",
+  "product_name": "Profil élus - Tableau des montants de garantie et des franchises",
   "branch": "rc-professionnelle",
   "branch_code": null,
   "document_type": "conditions_tarifaires",
@@ -491,6 +491,7 @@
     "Aucune zone 1 n'est définie alors que les zones 2 et 3 le sont : le document ne dit pas ce qui s'applique à une éventuelle zone 1, ni ce qui s'applique en France métropolitaine pour les frais médicaux.",
     "target_audience fixé à « secteur_public » sur la seule foi des intitulés de couverture et de pied de page (« Pr fil élus », « Collectivités », « PROFIL ÉLUS ») et de la garantie « Reconstitution de l'image de l'élu ». Le document ne comporte aucune phrase définissant ses destinataires, ni aucune définition de l'Assuré.",
     "La page 1 (couverture) et la page 7 (dos) ne contiennent que des mentions d'identification ; aucune donnée de garantie n'y figure.",
-    "Le texte du PDF contient des octets de contrôle utilisés comme puces (U+0005, U+0007) et des espaces cadratin (U+2002) servant à l'indentation des colonnes. Ces caractères ont servi à retrouver les niveaux hiérarchiques des tableaux d'assistance ; ils subsistent dans les citations de key_quotes, qui sont des extractions exactes de la source."
+    "Le texte du PDF contient des octets de contrôle utilisés comme puces (U+0005, U+0007) et des espaces cadratin (U+2002) servant à l'indentation des colonnes. Ces caractères ont servi à retrouver les niveaux hiérarchiques des tableaux d'assistance ; ils subsistent dans les citations de key_quotes, qui sont des extractions exactes de la source.",
+    "product_name extended from 'Profil élus' using the document's own title line: the contract's conditions générales carry the same bare name, and neither conditions_generales nor conditions_tarifaires receives a page-name suffix from the builder, so the two documents collapsed into a single page and one was lost."
   ]
 }

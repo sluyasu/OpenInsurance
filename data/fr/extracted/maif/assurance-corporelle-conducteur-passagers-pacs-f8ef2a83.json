@@ -1,0 +1,549 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "maif",
+  "insurer_name": "MAIF",
+  "product_name": "Assurance corporelle conducteur passagers - Pacs",
+  "branch": "auto",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "Le document ne rattache le produit à aucune catégorie de clientèle. Il indique seulement, à la rubrique « De quel type d’assurance s’agit-il ? » : « Ce produit est destiné à réparer les dommages corporels, à proposer des solutions d’assistance et à protéger les droits de l’assuré en cas d’accident de la circulation découlant de l’utilisation d’un véhicule terrestre à moteur, d’une trottinette électrique, d’un train, d’un tramway, d’un métro ou d’un vélo en libre-service, dans ou sur lequel il se trouve. »",
+  "reference": "IPID PACS - RGAA",
+  "edition_date": "11/2023",
+  "product_family": "Pacs",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/document-information-accidents-corporels-pacs.pdf",
+  "source_pdf": "assurance-corporelle-conducteur-passagers-pacs-f8ef2a83.pdf",
+  "source_sha256": "f99f5a43facf908e8c61b9980aa731d8c00c8988e1a673f800a56286d2e5e39b",
+  "source_pages": 2,
+  "fetched_at": "2026-07-30",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d’information sur le produit d’assurance (IPID) du contrat « Assurance corporelle conducteur passagers - Pacs » de MAIF. Le produit répare les dommages corporels, propose des solutions d’assistance et protège les droits de l’assuré en cas d’accident de la circulation découlant de l’utilisation d’un véhicule terrestre à moteur, d’une trottinette électrique, d’un train, d’un tramway, d’un métro ou d’un vélo en libre-service, dans ou sur lequel il se trouve. La protection corporelle est sans plafond global au cumul des garanties : elle couvre, avant et après consolidation, les frais médicaux restés à charge, la perte de revenus, les frais divers d’hospitalisation, les mesures compensatoires en cas de handicap, la perte d’une année scolaire, l’incapacité permanente, la tierce personne et le préjudice esthétique, et en cas de décès les frais funéraires, un capital décès et le préjudice patrimonial. S’y ajoutent des prestations d’aides immédiates, une assistance en cas de déplacement en France et dans le monde et une couverture juridique (recours). Le contrat est conclu pour un an, de la date de prise d’effet au 31 décembre suivant, puis reconduit automatiquement chaque 1er janvier.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Frais médicaux restés à charge",
+      "description": "Protection corporelle : pas de plafond global au cumul des garanties. En cas de blessures - Avant consolidation. Frais médicaux restés à charge : sans plafond.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "sans plafond.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Perte de revenus",
+      "description": "Protection corporelle : pas de plafond global au cumul des garanties. En cas de blessures - Avant consolidation. Perte de revenus : dans la limite de 15 000 € par mois.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "dans la limite de 15 000 € par mois.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Frais divers d’hospitalisation",
+      "description": "Protection corporelle : pas de plafond global au cumul des garanties. En cas de blessures - Avant consolidation. Frais divers d’hospitalisation : 16 €/nuitée, dans la limite de 365 nuits.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "16 €/nuitée, dans la limite de 365 nuits.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Mesures compensatoires en cas de handicap",
+      "description": "Protection corporelle : pas de plafond global au cumul des garanties. En cas de blessures - Avant consolidation. Mesures compensatoires en cas de handicap : aide humaine (plafond de 61 000 €/an) et aménagement du logement et du véhicule (plafond de 61 000 €).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [
+        "aide humaine (plafond de 61 000 €/an)",
+        "et aménagement du logement et du véhicule (plafond de 61 000 €)."
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Perte d’une année scolaire ou universitaire",
+      "description": "Protection corporelle : pas de plafond global au cumul des garanties. En cas de blessures - Avant consolidation. Perte d’une année scolaire ou universitaire.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Incapacité permanente",
+      "description": "Protection corporelle : pas de plafond global au cumul des garanties. En cas de blessures - Après consolidation. Incapacité permanente : dès 1 % d’AIPP.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "dès 1 % d’AIPP."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Tierce personne",
+      "description": "Protection corporelle : pas de plafond global au cumul des garanties. En cas de blessures - Après consolidation. Tierce personne si AIPP > à 50 %, rente à concurrence d’un plafond de 61 000 €/an ou majoration de l’incapacité permanente.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "rente à concurrence d’un plafond de 61 000 €/an ou majoration de l’incapacité permanente.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "si AIPP > à 50 %"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Préjudice esthétique",
+      "description": "Protection corporelle : pas de plafond global au cumul des garanties. En cas de blessures - Après consolidation. Préjudice esthétique en cas d’atteinte esthétique importante.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "en cas d’atteinte esthétique importante."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Prestation pour frais funéraires",
+      "description": "Protection corporelle : pas de plafond global au cumul des garanties. En cas de décès. Prestation pour frais funéraires : 3 300 €.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "3 300 €.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Capital décès",
+      "description": "Protection corporelle : pas de plafond global au cumul des garanties. En cas de décès. Capital décès : 5 000 €.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "5 000 €.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Préjudice patrimonial",
+      "description": "Protection corporelle : pas de plafond global au cumul des garanties. En cas de décès. Préjudice patrimonial : dans la limite de 180 000 € par an. Minimum garanti, 15 000 € pour le conjoint survivant et 5 000 € pour chaque enfant à charge.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "dans la limite de 180 000 € par an.",
+      "sub_limits": [
+        "Minimum garanti, 15 000 € pour le conjoint survivant",
+        "5 000 € pour chaque enfant à charge."
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Assistance à domicile et déplacements",
+      "description": "Prestations d’aides immédiates. Assistance à domicile et déplacements : jusqu’à 1 600 € pour les – de 70 ans et 3 200 € pour les 70 ans et +.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "jusqu’à 1 600 € pour les – de 70 ans et 3 200 € pour les 70 ans et +.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "La garantie Assistance en cas de déplacement est acquise à condition que l’événement survienne à plus de 50 km du domicile du bénéficiaire."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Soutien psychologique",
+      "description": "Prestations d’aides immédiates. Soutien psychologique.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Conseil social",
+      "description": "Prestations d’aides immédiates. Conseil social : information sur les droits et les prestations et dans les cas les plus graves, accompagnement et suivi personnalisé (réadaptation professionnelle).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Enseignement à domicile (primaire et secondaire)",
+      "description": "Prestations d’aides immédiates. Enseignement à domicile (primaire et secondaire) : 10 h/semaine pendant 6 mois maximum si arrêt scolarité > à 15 jours.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "10 h/semaine pendant 6 mois maximum",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "si arrêt scolarité > à 15 jours."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Rapatriement sanitaire",
+      "description": "Assistance en cas de déplacement en France et dans le monde - En cas de maladie, d’accident corporel. Rapatriement sanitaire.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "La garantie Assistance en cas de déplacement est acquise à condition que l’événement survienne à plus de 50 km du domicile du bénéficiaire."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Frais médicaux d’hospitalisation à l’étranger",
+      "description": "Assistance en cas de déplacement en France et dans le monde - En cas de maladie, d’accident corporel. Frais médicaux d’hospitalisation à l’étranger.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "La garantie Assistance en cas de déplacement est acquise à condition que l’événement survienne à plus de 50 km du domicile du bénéficiaire."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Frais de secours en montagne",
+      "description": "Assistance en cas de déplacement en France et dans le monde - En cas de maladie, d’accident corporel. Frais de secours en montagne.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "La garantie Assistance en cas de déplacement est acquise à condition que l’événement survienne à plus de 50 km du domicile du bénéficiaire."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Rapatriement du corps du bénéficiaire décédé",
+      "description": "Assistance en cas de déplacement en France et dans le monde - En cas de décès. Rapatriement du corps du bénéficiaire décédé.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "La garantie Assistance en cas de déplacement est acquise à condition que l’événement survienne à plus de 50 km du domicile du bénéficiaire."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Recours",
+      "description": "Couverture juridique. Recours : lorsque que vous subissez un préjudice résultant d’un événement couvert par la garantie protection corporelle engageant la responsabilité d’un tiers. Frais et honoraires (avocat/expert) pris en charge dans les limites prévues au contrat.",
+      "is_optional": false,
+      "territorial_scope": "Une intervention judiciaire ne sera pas exercée si les préjudices subis par l’assuré sont < à 625 € ou si l’événement à l’origine du dommage est survenu en dehors de la France métropolitaine, Guadeloupe, Martinique, Réunion, Saint-Barthélemy, Saint-Martin pour sa partie française et Monaco.",
+      "limits": "Frais et honoraires (avocat/expert) pris en charge dans les limites prévues au contrat.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "lorsque que vous subissez un préjudice résultant d’un événement couvert par la garantie protection corporelle engageant la responsabilité d’un tiers.",
+        "Une intervention judiciaire ne sera pas exercée si les préjudices subis par l’assuré sont < à 625 € ou si l’événement à l’origine du dommage est survenu en dehors de la France métropolitaine, Guadeloupe, Martinique, Réunion, Saint-Barthélemy, Saint-Martin pour sa partie française et Monaco."
+      ],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Les affections ou lésions qui ne sont pas la conséquence de l’événement déclaré",
+      "description": "Rubrique « Qu’est-ce qui n’est pas assuré ? ». Les affections ou lésions de toute nature qui ne sont pas la conséquence de l’événement déclaré.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Les conséquences de soins, traitements ou interventions chirurgicales sans lien avec un accident garanti",
+      "description": "Rubrique « Qu’est-ce qui n’est pas assuré ? ». Les conséquences pouvant résulter de soins reçus, traitements suivis ou interventions chirurgicales sans lien avec un accident garanti.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Conducteur sans l’âge requis ou sans permis en état de validité",
+      "description": "Rubrique « Y a-t-il des exclusions à la couverture ? » - Principales exclusions - Les dommages. Survenus alors que le conducteur d’un véhicule assuré n’a pas l’âge requis ou n’a pas de permis en état de validité.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Véhicule appartenant à l’assuré, ou en location de longue durée, non assuré à MAIF",
+      "description": "Rubrique « Y a-t-il des exclusions à la couverture ? » - Principales exclusions - Les dommages. Survenus dans un véhicule appartenant à l’assuré ou faisant l’objet d’un contrat de location de longue durée souscrit par l’un des assurés lorsque ce véhicule n’est pas assuré à MAIF.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Épreuves, courses, compétitions (ou leurs essais) soumises à autorisations",
+      "description": "Rubrique « Y a-t-il des exclusions à la couverture ? » - Principales exclusions - Les dommages. Survenus au cours d’épreuves, courses, compétitions (ou leurs essais) soumises à autorisations.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Conducteur ou accompagnateur d’un élève conducteur sous l’empire d’un état alcoolique ou ayant fait usage de stupéfiants",
+      "description": "Rubrique « Y a-t-il des exclusions à la couverture ? » - Principales exclusions - Les dommages. Survenus alors que le conducteur ou l’accompagnateur d’un élève conducteur est sous l’empire d’un état alcoolique ou a fait l’usage de stupéfiants.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dommages que l’assuré se cause intentionnellement, suicide ou tentative de suicide",
+      "description": "Rubrique « Y a-t-il des exclusions à la couverture ? » - Principales exclusions - Les dommages. Que l’assuré se cause intentionnellement ou résultant d’un suicide ou d’une tentative de suicide.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Participation active de l’assuré à un acte illicite constituant un crime ou un délit intentionnel",
+      "description": "Rubrique « Y a-t-il des exclusions à la couverture ? » - Principales exclusions - Les dommages. Résultant de la participation active de l’assuré à un acte illicite constituant un crime ou un délit intentionnel.",
+      "applies_to": "all",
+      "page": 1
+    }
+  ],
+  "deductibles": null,
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Répondre exactement aux questions posées par l’assureur",
+      "description": "Répondre exactement aux questions posées par l’assureur pour lui permettre de connaître et d’apprécier le risque à assurer.",
+      "timing": "Lors de la souscription du contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Fournir les documents justificatifs",
+      "description": "Fournir tous documents justificatifs demandés par l’assureur.",
+      "timing": "Lors de la souscription du contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Régler la cotisation",
+      "description": "Régler la cotisation (ou fraction de cotisation) indiquée au contrat.",
+      "timing": "Lors de la souscription du contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Déclarer les circonstances nouvelles aggravant le risque",
+      "description": "Déclarer dans un délai de 15 jours toutes circonstances nouvelles qui ont pour conséquence d’aggraver les risques pris en charge ou d’en créer de nouveaux.",
+      "timing": "En cours de contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Déclarer le sinistre",
+      "description": "Déclarer tout événement susceptible de mettre en jeu l’une des garanties souscrites, dans les 5 jours ouvrés de la date à laquelle l’assuré en a pris connaissance.",
+      "timing": "En cas de sinistre",
+      "sanction": null,
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclaration du sinistre",
+      "description": "Déclarer tout événement susceptible de mettre en jeu l’une des garanties souscrites, dans les 5 jours ouvrés de la date à laquelle l’assuré en a pris connaissance.",
+      "deadline": "dans les 5 jours ouvrés de la date à laquelle l’assuré en a pris connaissance.",
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "De la date de prise d’effet au 31 décembre suivant. Le contrat est conclu pour une durée d’un an et il est ensuite reconduit automatiquement pour une année à chaque 1er janvier sauf résiliation par l’une des parties dans les cas et conditions fixés au contrat.",
+    "tacit_renewal": true,
+    "notice_period": "moyennant un préavis de deux mois.",
+    "methods": [
+      "La résiliation doit être demandée, par lettre simple, par e-mail ou via l’espace personnel maif.fr."
+    ],
+    "special_rights": [
+      "À tout moment à l’expiration d’un délai d’un an à compter de la première souscription.",
+      "Chaque année au 31 décembre moyennant un préavis de deux mois.",
+      "En cas de changement de domicile, de situation ou de régime matrimonial, de profession ou de cessation définitive d’activité professionnelle, sous réserve que ces événements entraînent une réelle modification des risques assurés."
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "La cotisation est exigible au 1er janvier.",
+      "Le règlement peut être effectué en une fois par chèque ou prélèvement automatique ou mensuellement par prélèvement automatique."
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Garanties systématiquement prévues au contrat",
+      "description": "Les garanties précédées d’une coche sont systématiquement prévues au contrat",
+      "page": 1
+    },
+    {
+      "name": "Pas de plafond global au cumul des garanties",
+      "description": "Protection corporelle : pas de plafond global au cumul des garanties",
+      "page": 1
+    },
+    {
+      "name": "Principale restriction - assistance acquise à plus de 50 km du domicile",
+      "description": "La garantie Assistance en cas de déplacement est acquise à condition que l’événement survienne à plus de 50 km du domicile du bénéficiaire.",
+      "page": 1
+    },
+    {
+      "name": "Principale restriction - seuil de 625 € et territoires de l’intervention judiciaire",
+      "description": "Une intervention judiciaire ne sera pas exercée si les préjudices subis par l’assuré sont < à 625 € ou si l’événement à l’origine du dommage est survenu en dehors de la France métropolitaine, Guadeloupe, Martinique, Réunion, Saint-Barthélemy, Saint-Martin pour sa partie française et Monaco.",
+      "page": 1
+    },
+    {
+      "name": "Où suis-je couvert ?",
+      "description": "Sous réserve des dispositions propres à certaines garanties (assistance en cas de déplacement, recours), les garanties du contrat vous sont acquises :   Sans limitation de durée en France métropolitaine, Guadeloupe, Martinique, Réunion et Monaco, ainsi que dans les collectivités d’outre-mer.   Dans tous les autres pays du monde pour les séjours n’excédant pas un an.",
+      "page": 2
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "MAIF - Entreprise d’assurance immatriculée en France et régie par le Code \ndes assurances - 775 709 702",
+      "page": 1
+    },
+    {
+      "quote": "Assurance corporelle conducteur passagers - Pacs",
+      "page": 1
+    },
+    {
+      "quote": "Ce produit est destiné à réparer les dommages corporels, à proposer des solutions d’assistance et à protéger les droits de l’assuré en cas \nd’accident de la circulation découlant de l’utilisation d’un véhicule terrestre à moteur, d’une trottinette électrique, d’un train, d’un tramway, \nd’un métro ou d’un vélo en libre-service, dans ou sur lequel il se trouve.",
+      "page": 1
+    },
+    {
+      "quote": "Les garanties précédées d’une coche   \nsont systématiquement prévues au contrat",
+      "page": 1
+    },
+    {
+      "quote": "Protection corporelle : pas de plafond global au cumul \ndes garanties",
+      "page": 1
+    },
+    {
+      "quote": "Perte de revenus : dans la limite de 15 000 € par mois.",
+      "page": 1
+    },
+    {
+      "quote": "Frais divers d’hospitalisation : 16 €/nuitée, dans la limite \nde 365 nuits.",
+      "page": 1
+    },
+    {
+      "quote": "Mesures compensatoires en cas de handicap : aide humaine \n(plafond de 61 000 €/an) et aménagement du logement\net du véhicule (plafond de 61 000 €).",
+      "page": 1
+    },
+    {
+      "quote": "Incapacité permanente : dès 1 % d’AIPP.",
+      "page": 1
+    },
+    {
+      "quote": "Tierce personne si AIPP > à 50 %, rente à concurrence \nd’un plafond de 61 000 €/an ou majoration de l’incapacité \npermanente.",
+      "page": 1
+    },
+    {
+      "quote": "Préjudice patrimonial : dans la limite de 180 000 € par an. \nMinimum garanti, 15 000 € pour le conjoint survivant et \n5 000 € pour chaque enfant à charge.",
+      "page": 1
+    },
+    {
+      "quote": "Assistance à domicile et déplacements : jusqu’à 1 600 € \npour les – de 70 ans et 3 200 € pour les 70 ans et +.",
+      "page": 1
+    },
+    {
+      "quote": "Enseignement à domicile (primaire et secondaire) : \n10 h/semaine pendant 6 mois maximum si arrêt scolarité \n> à 15 jours.",
+      "page": 1
+    },
+    {
+      "quote": "Recours : lorsque que vous subissez un préjudice résultant \nd’un événement couvert par la garantie protection corporelle \nengageant la responsabilité d’un tiers. Frais et honoraires \n(avocat/expert) pris en charge dans les limites prévues\nau contrat.",
+      "page": 1
+    },
+    {
+      "quote": "Les affections ou lésions de toute nature qui ne sont pas\nla conséquence de l’événement déclaré.",
+      "page": 1
+    },
+    {
+      "quote": "Survenus alors que le conducteur d’un véhicule assuré\nn’a pas l’âge requis ou n’a pas de permis en état de validité.",
+      "page": 1
+    },
+    {
+      "quote": "Survenus dans un véhicule appartenant à l’assuré ou faisant \nl’objet d’un contrat de location de longue durée souscrit \npar l’un des assurés lorsque ce véhicule n’est pas assuré \nà MAIF.",
+      "page": 1
+    },
+    {
+      "quote": "Survenus alors que le conducteur ou l’accompagnateur\nd’un élève conducteur est sous l’empire d’un état alcoolique\nou a fait l’usage de stupéfiants.",
+      "page": 1
+    },
+    {
+      "quote": "La garantie Assistance en cas de déplacement est acquise \nà condition que l’événement survienne à plus de 50 km\ndu domicile du bénéficiaire.",
+      "page": 1
+    },
+    {
+      "quote": "Une intervention judiciaire ne sera pas exercée si les \npréjudices subis par l’assuré sont < à 625 € ou si l’événement \nà l’origine du dommage est survenu en dehors de la France \nmétropolitaine, Guadeloupe, Martinique, Réunion, \nSaint-Barthélemy, Saint-Martin pour sa partie française \net Monaco.",
+      "page": 1
+    },
+    {
+      "quote": "Sous réserve des dispositions propres à certaines garanties (assistance en cas de déplacement, recours), les garanties du contrat \nvous sont acquises :",
+      "page": 2
+    },
+    {
+      "quote": "Sans limitation de durée en France métropolitaine, Guadeloupe, Martinique, Réunion et Monaco, ainsi que dans les collectivités \nd’outre-mer.",
+      "page": 2
+    },
+    {
+      "quote": "Dans tous les autres pays du monde pour les séjours n’excédant pas un an.",
+      "page": 2
+    },
+    {
+      "quote": "Déclarer tout événement susceptible de mettre en jeu l’une des garanties souscrites, dans les 5 jours ouvrés de la date à laquelle\nl’assuré en a pris connaissance.",
+      "page": 2
+    },
+    {
+      "quote": "De la date de prise d’effet au 31 décembre suivant. Le contrat est conclu pour une durée d’un an et il est ensuite reconduit \nautomatiquement pour une année à chaque 1er janvier sauf résiliation par l’une des parties dans les cas et conditions fixés au contrat.",
+      "page": 2
+    },
+    {
+      "quote": "À tout moment à l’expiration d’un délai d’un an à compter de la première souscription. Chaque année au 31 décembre moyennant \nun préavis de deux mois. En cas de changement de domicile, de situation ou de régime matrimonial, de profession ou de cessation \ndéfinitive d’activité professionnelle, sous réserve que ces événements entraînent une réelle modification des risques assurés.",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "Document de 2 pages : c’est un IPID (document d’information normalisé), pas les conditions générales. Il indique lui-même ne présenter qu’« un résumé des principales garanties et exclusions du produit » et renvoie, pour l’information complète, à « la documentation précontractuelle et contractuelle » qui n’est pas jointe ici.",
+    "Assureur : le document ne nomme qu’une entité, « MAIF - Entreprise d’assurance immatriculée en France et régie par le Code des assurances - 775 709 702 » (page 1). Ni MAIF VIE, ni un autre porteur de risque, ni un distributeur tiers ne sont mentionnés.",
+    "edition_date = « 11/2023 » : date imprimée nue en dernière ligne de la page 2, sans le mot « édition ». Le code interne « IPID PACS - RGAA », en en-tête des deux pages, est repris comme reference ; le sigle « RGAA » n’étant explicité nulle part dans le document, il n’a pas été retenu comme variant.",
+    "Nom du produit : la page 1 porte deux libellés, le bandeau « Assurance Corporelle » et, à l’emplacement du produit sous la raison sociale de l’assureur, « Assurance corporelle conducteur passagers - Pacs ». C’est ce dernier qui est retenu comme product_name, tel qu’imprimé (casse comprise) ; product_family = « Pacs ».",
+    "L’en-tête normalisé de l’IPID n’imprime aucune étiquette « Compagnie : » ni « Produit : » : la raison sociale de l’assureur et le nom du produit se suivent en clair sous le titre « Document d’information sur le produit d’assurance ».",
+    "Aucune case à cocher n’est lisible dans la couche texte : chaque puce (garanties, non-assuré, exclusions, territorialité) est rendue par la même séquence U+2002 + U+0001, un caractère de contrôle laissé par une police symbole non mappée. Le même caractère servant indistinctement à la coche des garanties et aux puces des exclusions, il ne permet de distinguer aucune coche. is_optional = false partout repose donc uniquement sur la structure imprimée — mention « Les garanties précédées d’une coche sont systématiquement prévues au contrat » et absence de toute rubrique d’options — et non sur un glyphe vérifiable.",
+    "Les key_quotes sont des extraits exacts de la couche texte, découpés programmatiquement ; les spans ont été choisis pour ne traverser ni ces caractères de contrôle ni une frontière de page. Dans les champs descriptifs (descriptions, limites, conditions, obligations), les caractères de contrôle ont été retirés et les retours à la ligne de mise en page remplacés par une espace ; aucun autre caractère n’a été modifié.",
+    "Les montants, pourcentages et seuils sont reproduits avec les espaces réellement présentes dans la couche texte (espaces insécables U+00A0, espaces fines U+2009), sans normalisation. L’impression est elle-même irrégulière : « 15 000 € » et « 3 200 € » avec espace insécable, « 61 000 € » et « 1 600 € » avec espace ordinaire, « 1 % » et « 50 % » avec espace fine.",
+    "Les deux « Principales restrictions » (assistance acquise à plus de 50 km du domicile ; pas d’intervention judiciaire si le préjudice est < à 625 € ou si l’événement est survenu hors des territoires listés) sont imprimées sous la rubrique « Y a-t-il des exclusions à la couverture ? » mais ne sont pas rédigées comme des exclusions. Elles sont enregistrées dans special_conditions et reportées dans les conditions des garanties d’assistance et de recours ; elles ne sont pas comptées parmi les 8 exclusions.",
+    "Aucune franchise n’est mentionnée (deductibles = null) : le seuil de 50 km conditionne l’acquisition de l’assistance et le seuil de 625 € l’exercice d’une action judiciaire ; aucun des deux n’est présenté comme une franchise.",
+    "Aucune section de définitions (definitions = []) : le document ne définit aucun terme. Le sigle « AIPP » est employé sans être développé, de même que « consolidation », qui structure pourtant les garanties (avant / après consolidation).",
+    "Aucun délai de prescription (prescription_period = null) et aucun délai d’attente ou de carence (waiting_periods = []) ne sont mentionnés.",
+    "territorial_scope est laissé à null garantie par garantie : le document ne donne qu’une portée territoriale globale, à la rubrique « Où suis-je couvert ? », et l’assortit d’une réserve (« Sous réserve des dispositions propres à certaines garanties (assistance en cas de déplacement, recours) »). Cette rubrique est reprise intégralement dans special_conditions ; seule la garantie Recours porte un territorial_scope, celui que le document lui attache explicitement.",
+    "Les métadonnées de la tâche rattachent le document à la branche « auto ». Le document, lui, couvre les accidents de la circulation survenus dans ou sur « un véhicule terrestre à moteur, une trottinette électrique, un train, un tramway, un métro ou un vélo en libre-service » : le périmètre imprimé déborde le seul véhicule automobile. La valeur branch = auto est conservée telle que fournie.",
+    "Le texte imprime « Recours : lorsque que vous subissez un préjudice » (page 1) : la répétition « lorsque que » est celle de l’assureur et a été conservée telle quelle.",
+    "La page 2 imprime deux formulations de la résiliation annuelle, non superposables : « De la date de prise d’effet au 31 décembre suivant […] reconduit automatiquement pour une année à chaque 1er janvier sauf résiliation par l’une des parties » (rubrique « Quand commence la couverture… ») et « Chaque année au 31 décembre moyennant un préavis de deux mois » (rubrique « Comment puis-je résilier… »). Les deux sont reprises verbatim, l’une dans duration, l’autre dans special_rights, sans arbitrage."
+  ]
+}

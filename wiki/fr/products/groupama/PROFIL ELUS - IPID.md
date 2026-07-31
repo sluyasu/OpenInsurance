@@ -184,8 +184,8 @@ Si l'assistance en déplacement a été souscrite, cette garantie est automatiqu
 
 ## Documents liés
 
-- [Profil élus](Profil%20%C3%A9lus%20%282%29.md) - Conditions générales, éd. 2026-01
-- [Profil élus](Profil%20%C3%A9lus.md) - conditions_tarifaires, éd. janvier 2026
+- [PROFIL ÉLUS](PROFIL%20%C3%89LUS.md) - Conditions générales, éd. 2026-01
+- [Profil élus - Tableau des montants de garantie et des franchises](Profil%20%C3%A9lus%20-%20Tableau%20des%20montants%20de%20garantie%20et%20des%20franchises.md) - conditions_tarifaires, éd. janvier 2026
 
 ## Source & fidélité
 

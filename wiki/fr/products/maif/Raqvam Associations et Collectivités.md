@@ -882,6 +882,11 @@ Art. 15 : « Toutes les actions dérivant du présent contrat sont prescrites, c
 - Le libellé des garanties optionnelles ne provient que de l'IPID (page 69) : les conditions générales ne décrivent aucune d'entre elles (elles sont seulement citées aux articles 23.11, 28.10 et 32.2). Leurs plafonds, franchises et conditions ne figurent pas dans ce document et relèvent des conventions spéciales et des conditions particulières.
 - L'article 20.32 « Garantie Responsabilité civile Frais de retrait » fait doublon partiel avec l'article 20.313, qui prévoit déjà l'application de la garantie aux frais de retrait. Les deux ont été conservés distinctement.
 
+## Documents liés
+
+- [Raqvam Associations et Collectivités - IPID](Raqvam%20Associations%20et%20Collectivit%C3%A9s%20-%20IPID.md) - IPID / Fiche d'information, éd. 03-2025
+- [Raqvam Associations et Collectivités - CP](Raqvam%20Associations%20et%20Collectivit%C3%A9s%20-%20CP.md) - Conditions particulières, éd. 11-2021
+
 ## Source & fidélité
 
 - Source : [https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/conditions-generales-raqvam-associations-et-collectivites.pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/conditions-generales-raqvam-associations-et-collectivites.pdf) - téléchargé le 2026-07-30 - 70 pages

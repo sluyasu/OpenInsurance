@@ -5,7 +5,7 @@ country: fr
 insurer_slug: groupama
 name: Groupama
 website: https://www.groupama.fr
-products_count: 23
+products_count: 30
 branches_covered:
 - assurance-vie
 - auto
@@ -31,16 +31,16 @@ generated: true
 
 ## Résumé
 
-**Groupama** - [https://www.groupama.fr](https://www.groupama.fr). 23 document(s) across 9 branch(es).
+**Groupama** - [https://www.groupama.fr](https://www.groupama.fr). 30 document(s) across 9 branch(es).
 
 ## Produits par branche
 
 ### Assurance vie et épargne
+- [GROUPAMA MODULATION - Fiche](../products/groupama/GROUPAMA%20MODULATION%20-%20Fiche.md) - Fiche produit (Document produit le 01/06/2026) · réf. P101-062026
+- [GROUPAMA PREMIUM - Fiche](../products/groupama/GROUPAMA%20PREMIUM%20-%20Fiche.md) - Fiche produit (Document produit le 01/06/2026) · réf. P102-062026
 - [Groupama Capitalisation - Fiche](../products/groupama/Groupama%20Capitalisation%20-%20Fiche.md) - Fiche produit (01/06/2026) · réf. P103-062026
 - [Groupama Capitalisation](../products/groupama/Groupama%20Capitalisation.md) - 
 - [Groupama Modulation](../products/groupama/Groupama%20Modulation.md) - 
-- [Groupama Modulation - Fiche](../products/groupama/Groupama%20Modulation%20-%20Fiche.md) - Fiche produit (Document produit le 01/06/2026) · réf. P101-062026
-- [Groupama Premium - Fiche](../products/groupama/Groupama%20Premium%20-%20Fiche.md) - Fiche produit (Document produit le 01/06/2026) · réf. P102-062026
 - [Groupama Premium](../products/groupama/Groupama%20Premium.md) - 
 
 ### [Assurance auto](../branches/Assurance%20auto.md)
@@ -50,9 +50,9 @@ generated: true
 - [Assurance multirisques habitation](../products/groupama/Assurance%20multirisques%20habitation.md) - Document
 
 ### [Obsèques](../branches/Obs%C3%A8ques.md)
-- [Groupama Sérénité Obsèques](../products/groupama/Groupama%20S%C3%A9r%C3%A9nit%C3%A9%20Obs%C3%A8ques.md) -  (032026) · réf. 3350 - GSO05 - 032026 - PAO / GGVie - Technique Offre et Pilotage
-- [Groupama Sérénité Obsèques - Fiche](../products/groupama/Groupama%20S%C3%A9r%C3%A9nit%C3%A9%20Obs%C3%A8ques%20-%20Fiche.md) - Fiche produit (Dernière mise à jour le 1er mars 2023) · réf. 3350 - 231388 - 032023 - GPaSO
-- [Groupama Sérénité Obsèques - Fiche](../products/groupama/Groupama%20S%C3%A9r%C3%A9nit%C3%A9%20Obs%C3%A8ques%20-%20Fiche%20%282%29.md) - Fiche produit (Dernière mise à jour le 1er octobre 2021) · réf. 3350-231388-102021GSO
+- [GROUPAMA SÉRÉNITÉ OBSÈQUES](../products/groupama/GROUPAMA%20S%C3%89R%C3%89NIT%C3%89%20OBS%C3%88QUES.md) -  (032026) · réf. 3350 - GSO05 - 032026 - PAO / GGVie - Technique Offre et Pilotage
+- [GROUPAMA SÉRÉNITÉ OBSÈQUES - Fiche](../products/groupama/GROUPAMA%20S%C3%89R%C3%89NIT%C3%89%20OBS%C3%88QUES%20-%20Fiche.md) - Fiche produit (Dernière mise à jour le 1er mars 2023) · réf. 3350 - 231388 - 032023 - GPaSO
+- [Groupama Sérénité Obsèques (édition octobre 2021) - Fiche](../products/groupama/Groupama%20S%C3%A9r%C3%A9nit%C3%A9%20Obs%C3%A8ques%20%28%C3%A9dition%20octobre%202021%29%20-%20Fiche.md) - Fiche produit (Dernière mise à jour le 1er octobre 2021) · réf. 3350-231388-102021GSO
 
 ### [Prévoyance](../branches/Pr%C3%A9voyance.md)
 - [Energie prévoyance](../products/groupama/Energie%20pr%C3%A9voyance.md) - Document (2026-01)
@@ -64,8 +64,8 @@ generated: true
 ### [RC professionnelle](../branches/RC%20professionnelle.md)
 - [Fiche d'information relative au fonctionnement des garanties « Responsabilité civile » dans le temps](../products/groupama/Fiche%20d%27information%20relative%20au%20fonctionnement%20des%20garanties%20%C2%AB%20Responsabilit%C3%A9%20civile%20%C2%BB%20dans%20le%20temps.md) - Document (032026) · réf. 3350-216063-032026
 - [PROFIL ELUS - IPID](../products/groupama/PROFIL%20ELUS%20-%20IPID.md) - IPID / Fiche d'information (V012026) · réf. V012026
-- [Profil élus](../products/groupama/Profil%20%C3%A9lus%20%282%29.md) - Conditions générales (2026-01) · réf. RÉF. 3350-213452-012026 • MODÈLE PEL05
-- [Profil élus](../products/groupama/Profil%20%C3%A9lus.md) -  (janvier 2026) · réf. 3350-213453-012026 • MODÈLE TPEL 07
+- [PROFIL ÉLUS](../products/groupama/PROFIL%20%C3%89LUS.md) - Conditions générales (2026-01) · réf. RÉF. 3350-213452-012026 • MODÈLE PEL05
+- [Profil élus - Tableau des montants de garantie et des franchises](../products/groupama/Profil%20%C3%A9lus%20-%20Tableau%20des%20montants%20de%20garantie%20et%20des%20franchises.md) -  (janvier 2026) · réf. 3350-213453-012026 • MODÈLE TPEL 07
 
 ### Retraite supplémentaire
 - [Groupama Horizon Retraite - Fiche](../products/groupama/Groupama%20Horizon%20Retraite%20-%20Fiche.md) - Fiche produit (01/06/2026) · réf. P104-062026
@@ -74,7 +74,14 @@ generated: true
 - [Groupama Nouvelle Vie](../products/groupama/Groupama%20Nouvelle%20Vie.md) - 
 
 ### [Complémentaire santé](../branches/Compl%C3%A9mentaire%20sant%C3%A9.md)
-- [Solution Groupama Santé](../products/groupama/Solution%20Groupama%20Sant%C3%A9.md) - Document (JUILLET 2026)
+- [SANTÉ TNS Gamme Essentielle](../products/groupama/SANT%C3%89%20TNS%20Gamme%20Essentielle.md) - Conditions générales (092021) · réf. Réf. 3350-230004-092021
+- [SYNERGIE SANTÉ ESSENTIELLE](../products/groupama/SYNERGIE%20SANT%C3%89%20ESSENTIELLE.md) - Document (052022)
+- [SYNERGIE SANTÉ SALARIÉS](../products/groupama/SYNERGIE%20SANT%C3%89%20SALARI%C3%89S.md) - Document (052022)
+- [SYNERGIE SANTÉ SALARIÉS](../products/groupama/SYNERGIE%20SANT%C3%89%20SALARI%C3%89S%20%282%29.md) - Document (052022)
+- [Solution Groupama Santé](../products/groupama/Solution%20Groupama%20Sant%C3%A9%20%282%29.md) - Document (JUILLET 2026)
+- [Solution Groupama Santé](../products/groupama/Solution%20Groupama%20Sant%C3%A9.md) - Document (2026-07)
+- [TMGF Synergie santé Salariés](../products/groupama/TMGF%20Synergie%20sant%C3%A9%20Salari%C3%A9s.md) - Document (2020-01)
+- [TMGF Synergie santé Salariés](../products/groupama/TMGF%20Synergie%20sant%C3%A9%20Salari%C3%A9s%20%282%29.md) - Document (2020-01)
 
 ## Source
 

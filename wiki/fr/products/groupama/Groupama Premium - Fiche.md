@@ -5,7 +5,7 @@ country: fr
 insurer: '[[Groupama]]'
 insurer_slug: groupama
 branch: assurance-vie
-product_name: Groupama Premium
+product_name: GROUPAMA PREMIUM
 document_type: product_sheet
 target_audience: particuliers
 target_audience_note: '« Investisseurs de détail visés : ce produit s''adresse à des
@@ -18,7 +18,7 @@ tags:
 - product
 - insurer/groupama
 aliases:
-- Groupama Premium
+- GROUPAMA PREMIUM
 source_url: https://assets.ctfassets.net/7awcp71bzphk/68QgdXzxVcoimlYzysawY/51fcb37e7c705a19a5d68e6a0467b35c/DIC_GL_Premium_Groupama_2026_06_01.pdf
 source_pages: 3
 fetched_at: '2026-07-30'
@@ -152,7 +152,6 @@ Le document mentionne à trois reprises des « avances en cours consenties sur l
 - Les conditions d'accès et le coût de la Garantie plancher optionnelle ne sont pas indiqués : le document dit seulement qu'elle est optionnelle, qu'elle joue avant 75 ans et qu'elle cesse au premier jour du mois suivant le 75ème anniversaire.
 - `prescription_period` est nul : le document n'aborde pas la prescription. `waiting_periods` est vide : aucun délai de carence n'est mentionné.
 - Coquilles de la source conservées sans correction : « Appelez-le +33. (0).9.70.82.16.88 » (points de séparation), « réclamationvous » (page 3, sans espace), et la dernière phrase de la rubrique réclamation imprimée sans point final.
-- product_name normalised from 'GROUPAMA PREMIUM' to 'Groupama Premium': the same product is printed in different casing across documents, and names differing only in case collapse to one page filename on a case-insensitive filesystem, silently overwriting a page.
 
 ## Documents liés
 

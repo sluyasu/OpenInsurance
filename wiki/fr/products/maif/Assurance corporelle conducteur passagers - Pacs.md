@@ -572,6 +572,10 @@ La prescription est le délai au-delà duquel aucune action n’est plus recevab
 - Le montant du capital décès et de la prestation pour frais funéraires est celui « en vigueur à la date de l’accident » (page 25) ; les valeurs imprimées (5 000 € et 3 300 €) sont celles de l’édition du document.
 - Les conditions particulières, qui individualisent le contrat (date de prise d’effet, montant de la cotisation, situation personnelle), ne sont pas jointes à ce PDF.
 
+## Documents liés
+
+- [Assurance corporelle conducteur passagers - Pacs - IPID](Assurance%20corporelle%20conducteur%20passagers%20-%20Pacs%20-%20IPID.md) - IPID / Fiche d'information, éd. 11/2023
+
 ## Source & fidélité
 
 - Source : [https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/conditions-generales-assurance-accidents-corporels-pacs.pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/conditions-generales-assurance-accidents-corporels-pacs.pdf) - téléchargé le 2026-07-30 - 57 pages

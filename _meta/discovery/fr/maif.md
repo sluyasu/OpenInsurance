@@ -162,3 +162,27 @@ filesystem. Disambiguate in the data after extraction.
 | maif-fiche-fiscalite.pdf | banking product, not insurance: the document's own carrier line names Socram Banque as a credit institution and states MAIF acts only as intermédiaire en opérations de banque. No insurer, therefore no insurance contract. |
 | maif-plaquette-fgdr.pdf | banking product, not insurance: the document's own carrier line names Socram Banque as a credit institution and states MAIF acts only as intermédiaire en opérations de banque. No insurer, therefore no insurance contract. |
 | maif-info-credit-auto.pdf | banking product, not insurance: the document's own carrier line names Socram Banque as a credit institution and states MAIF acts only as intermédiaire en opérations de banque. No insurer, therefore no insurance contract. |
+
+## One document removed: not MAIF's, and not insurance
+
+A 36-page mini-guide hosted on `maif.fr` turned out to be an **hors-série of the Fédération
+Bancaire Française** ("les clés de la banque", September 2022). The string "MAIF" appears
+**zero times** in it, and its page 2 prints « Ce mini-guide vous est offert par : » followed by
+nothing — the sponsor's logo is an image outside the text layer, which is precisely why the
+file looks unattributed.
+
+It is banking consumer education, not an insurance contract, and not a MAIF publication.
+Removed from `sources/fr/maif.yml` and from the extraction set.
+
+That makes **three distinct ways** a non-insurance document reached this corpus through an
+insurer's own library, all found by reading rather than by filtering filenames:
+
+1. **Securities** — Goldman Sachs PRIIPs KIDs for structured notes in Groupama's asset
+   library, distributed as unit-linked supports inside its life contracts.
+2. **Banking products** — six MAIF documents whose own carrier line names Socram Banque as a
+   credit institution, with MAIF only an intermédiaire en opérations de banque.
+3. **Third-party consumer education** — this one, a trade body's guide simply hosted on the
+   insurer's server.
+
+The common lesson: **an insurer's media library is not a library of that insurer's insurance
+documents.** Only the document's own text settles what it is and who wrote it.

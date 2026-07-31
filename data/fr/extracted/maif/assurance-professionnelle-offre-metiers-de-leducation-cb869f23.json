@@ -1,0 +1,482 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "maif",
+  "insurer_name": "MAIF",
+  "product_name": "Assurance Professionnelle Offre Métiers de l’Éducation",
+  "branch": "rc-professionnelle",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "Ce produit est destiné à couvrir l’assuré dans l’exercice des activités professionnelles exercées au sein de structures consacrées à l’enseignement, l’éducation ou toute autre activité qui les complète ou les prolonge, ou à l’accueil de personnes handicapées.",
+  "reference": "IPID OME",
+  "edition_date": "07/2024",
+  "product_family": "Offre Métiers de l’Éducation",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/enseignants/document-information-assurance-professionnelle-metiers-education.pdf",
+  "source_pdf": "assurance-professionnelle-offre-metiers-de-leducation-cb869f23.pdf",
+  "source_sha256": "af33c78568cff465bce689948d9c4e2dd02edd5c69bcf6ec3b3f64a2ec41b2de",
+  "source_pages": 2,
+  "fetched_at": "2026-07-30",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d’information sur le produit d’assurance (IPID) de l’Assurance Professionnelle Offre Métiers de l’Éducation de MAIF. Le produit est destiné à couvrir l’assuré dans l’exercice des activités professionnelles exercées au sein de structures consacrées à l’enseignement, l’éducation ou toute autre activité qui les complète ou les prolonge, ou à l’accueil de personnes handicapées. Il regroupe un accompagnement juridique professionnel (recours et protection juridique), une responsabilité civile / défense professionnelle, une protection corporelle professionnelle (blessures, décès, aides immédiates) et une assistance en cas de déplacement professionnel. Le document précise les principales exclusions et restrictions ainsi que les obligations de l’assuré.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Recours (accompagnement juridique professionnel)",
+      "description": "Recours en cas de dommages corporels résultant d’un événement garanti engageant la responsabilité d’un tiers.",
+      "is_optional": false,
+      "limits": null,
+      "page": 1,
+      "conditions": [
+        "Les garanties précédées d’une coche sont systématiquement prévues au contrat"
+      ],
+      "territorial_scope": "En France métropolitaine, en Guadeloupe, en Martinique, à la Réunion, en Guyane, à Saint-Barthélemy, Saint-Martin pour sa partie française et Monaco, sans limitation de durée.   Dans tous les autres pays du monde pour les séjours n’excédant pas un an.",
+      "sub_limits": [],
+      "deductible": null
+    },
+    {
+      "name": "Protection juridique professionnelle",
+      "description": "Protection juridique professionnelle : événement, même non accidentel, qui engage la responsabilité d’un tiers ou lorsque l’assuré fait l’objet d’une réclamation ou d’une mise en cause. Honoraires d’avocats pris en charge dans les limites prévues au contrat.",
+      "is_optional": false,
+      "limits": "Honoraires d’avocats pris en charge dans les limites prévues au contrat.",
+      "page": 1,
+      "territorial_scope": "En France métropolitaine, en Guadeloupe, en Martinique, à la Réunion, en Guyane, à Saint-Barthélemy, Saint-Martin pour sa partie française et Monaco, sans limitation de durée.   Dans tous les autres pays du monde pour les séjours n’excédant pas un an.",
+      "sub_limits": [],
+      "conditions": [],
+      "deductible": null
+    },
+    {
+      "name": "Responsabilité civile",
+      "description": "Responsabilité civile en cas d’accident ou de fait dommageable non intentionnel entraînant des dommages corporels et/ou matériels causés pendant l’exercice ou à l’occasion des activités professionnelles de l’assuré :  - dommages corporels et matériels (plafond de 100 000 000 €) ;  - dommages matériels et immatériels consécutifs (plafond de 15 000 000 €).",
+      "is_optional": false,
+      "page": 1,
+      "limits": "dommages corporels et matériels (plafond de 100 000 000 €)",
+      "sub_limits": [
+        "- dommages corporels et matériels (plafond de 100 000 000 €) ;",
+        "- dommages matériels et immatériels consécutifs (plafond de 15 000 000 €)."
+      ],
+      "territorial_scope": "En France métropolitaine, en Guadeloupe, en Martinique, à la Réunion, en Guyane, à Saint-Barthélemy, Saint-Martin pour sa partie française et Monaco, sans limitation de durée.   Dans tous les autres pays du monde pour les séjours n’excédant pas un an.",
+      "conditions": [],
+      "deductible": null
+    },
+    {
+      "name": "Défense professionnelle",
+      "description": "Défense des intérêts de l’assuré suite à un accident garanti ou fait dommageable non intentionnel qui engage sa responsabilité civile.",
+      "is_optional": false,
+      "page": 1,
+      "territorial_scope": "En France métropolitaine, en Guadeloupe, en Martinique, à la Réunion, en Guyane, à Saint-Barthélemy, Saint-Martin pour sa partie française et Monaco, sans limitation de durée.   Dans tous les autres pays du monde pour les séjours n’excédant pas un an.",
+      "sub_limits": [],
+      "conditions": [],
+      "deductible": null,
+      "limits": null
+    },
+    {
+      "name": "Soutien psychologique",
+      "description": "Soutien psychologique.",
+      "is_optional": false,
+      "page": 1,
+      "territorial_scope": "Le soutien psychologique est limité à la France métropolitaine, à la Guadeloupe, à la Martinique, à la Réunion, à la Guyane, à Saint-Barthélemy, à Saint-Martin pour sa partie française et à Monaco.",
+      "sub_limits": [],
+      "conditions": [],
+      "deductible": null,
+      "limits": null
+    },
+    {
+      "name": "Frais médicaux restés à charge (avant consolidation)",
+      "description": "Frais médicaux restés à charge.",
+      "is_optional": false,
+      "page": 1,
+      "conditions": [
+        "Protection corporelle professionnelle En cas de blessures Avant consolidation"
+      ],
+      "territorial_scope": "En France métropolitaine, en Guadeloupe, en Martinique, à la Réunion, en Guyane, à Saint-Barthélemy, Saint-Martin pour sa partie française et Monaco, sans limitation de durée.   Dans tous les autres pays du monde pour les séjours n’excédant pas un an.",
+      "sub_limits": [],
+      "deductible": null,
+      "limits": null
+    },
+    {
+      "name": "Perte de revenus pendant l’ITT (avant consolidation)",
+      "description": "Perte de revenus pendant l’ITT dans la limite de 15 000 € par mois sans plafond global de garantie.",
+      "is_optional": false,
+      "page": 1,
+      "limits": "dans la limite de 15 000 € par mois sans plafond global de garantie",
+      "territorial_scope": "En France métropolitaine, en Guadeloupe, en Martinique, à la Réunion, en Guyane, à Saint-Barthélemy, Saint-Martin pour sa partie française et Monaco, sans limitation de durée.   Dans tous les autres pays du monde pour les séjours n’excédant pas un an.",
+      "sub_limits": [],
+      "conditions": [],
+      "deductible": null
+    },
+    {
+      "name": "Frais divers d’hospitalisation (avant consolidation)",
+      "description": "Frais divers d’hospitalisation : 16 €/nuitée, dans la limite de 365 jours.",
+      "is_optional": false,
+      "page": 1,
+      "limits": "16 €/nuitée, dans la limite de 365 jours",
+      "territorial_scope": "En France métropolitaine, en Guadeloupe, en Martinique, à la Réunion, en Guyane, à Saint-Barthélemy, Saint-Martin pour sa partie française et Monaco, sans limitation de durée.   Dans tous les autres pays du monde pour les séjours n’excédant pas un an.",
+      "sub_limits": [],
+      "conditions": [],
+      "deductible": null
+    },
+    {
+      "name": "Mesures compensatoires en cas de handicap (avant consolidation)",
+      "description": "Mesures compensatoires en cas de handicap : aide humaine (plafond de 61 000 €/an) et aménagement du logement et du véhicule (plafond de 61 000 €).",
+      "is_optional": false,
+      "page": 1,
+      "sub_limits": [
+        "aide humaine (plafond de 61 000 €/an)",
+        "aménagement du logement et du véhicule (plafond de 61 000 €)"
+      ],
+      "territorial_scope": "En France métropolitaine, en Guadeloupe, en Martinique, à la Réunion, en Guyane, à Saint-Barthélemy, Saint-Martin pour sa partie française et Monaco, sans limitation de durée.   Dans tous les autres pays du monde pour les séjours n’excédant pas un an.",
+      "conditions": [],
+      "deductible": null,
+      "limits": null
+    },
+    {
+      "name": "Incapacité permanente (après consolidation)",
+      "description": "Incapacité permanente : dès 1 % d’AIPP.",
+      "is_optional": false,
+      "page": 1,
+      "conditions": [
+        "dès 1 % d’AIPP"
+      ],
+      "territorial_scope": "En France métropolitaine, en Guadeloupe, en Martinique, à la Réunion, en Guyane, à Saint-Barthélemy, Saint-Martin pour sa partie française et Monaco, sans limitation de durée.   Dans tous les autres pays du monde pour les séjours n’excédant pas un an.",
+      "sub_limits": [],
+      "deductible": null,
+      "limits": null
+    },
+    {
+      "name": "Perte de gains professionnels futurs (après consolidation)",
+      "description": "Perte de gains professionnels futurs dans la limite de 180 000 € par an, jusqu’à 65 ans.",
+      "is_optional": false,
+      "page": 1,
+      "limits": "dans la limite de 180 000 € par an, jusqu’à 65 ans",
+      "territorial_scope": "En France métropolitaine, en Guadeloupe, en Martinique, à la Réunion, en Guyane, à Saint-Barthélemy, Saint-Martin pour sa partie française et Monaco, sans limitation de durée.   Dans tous les autres pays du monde pour les séjours n’excédant pas un an.",
+      "sub_limits": [],
+      "conditions": [],
+      "deductible": null
+    },
+    {
+      "name": "Tierce personne (après consolidation)",
+      "description": "Tierce personne si AIPP > à 50 %, rente à concurrence d’un plafond de 61 000 €/an ou majoration de l’incapacité permanente.",
+      "is_optional": false,
+      "page": 1,
+      "limits": "rente à concurrence d’un plafond de 61 000 €/an",
+      "conditions": [
+        "si AIPP > à 50 %"
+      ],
+      "territorial_scope": "En France métropolitaine, en Guadeloupe, en Martinique, à la Réunion, en Guyane, à Saint-Barthélemy, Saint-Martin pour sa partie française et Monaco, sans limitation de durée.   Dans tous les autres pays du monde pour les séjours n’excédant pas un an.",
+      "sub_limits": [],
+      "deductible": null
+    },
+    {
+      "name": "Préjudice esthétique (après consolidation)",
+      "description": "Préjudice esthétique dès 1 % PEP.",
+      "is_optional": false,
+      "page": 1,
+      "conditions": [
+        "dès 1 % PEP"
+      ],
+      "territorial_scope": "En France métropolitaine, en Guadeloupe, en Martinique, à la Réunion, en Guyane, à Saint-Barthélemy, Saint-Martin pour sa partie française et Monaco, sans limitation de durée.   Dans tous les autres pays du monde pour les séjours n’excédant pas un an.",
+      "sub_limits": [],
+      "deductible": null,
+      "limits": null
+    },
+    {
+      "name": "Prestation pour frais funéraires (en cas de décès)",
+      "description": "Prestation pour frais funéraires : 5 000 €.",
+      "is_optional": false,
+      "page": 1,
+      "limits": "5 000 €",
+      "territorial_scope": "En France métropolitaine, en Guadeloupe, en Martinique, à la Réunion, en Guyane, à Saint-Barthélemy, Saint-Martin pour sa partie française et Monaco, sans limitation de durée.   Dans tous les autres pays du monde pour les séjours n’excédant pas un an.",
+      "sub_limits": [],
+      "conditions": [],
+      "deductible": null
+    },
+    {
+      "name": "Capital décès",
+      "description": "Capital décès : 8 000 €.",
+      "is_optional": false,
+      "page": 1,
+      "limits": "8 000 €",
+      "territorial_scope": "En France métropolitaine, en Guadeloupe, en Martinique, à la Réunion, en Guyane, à Saint-Barthélemy, Saint-Martin pour sa partie française et Monaco, sans limitation de durée.   Dans tous les autres pays du monde pour les séjours n’excédant pas un an.",
+      "sub_limits": [],
+      "conditions": [],
+      "deductible": null
+    },
+    {
+      "name": "Assistance à domicile et déplacements (prestations d’aides immédiates)",
+      "description": "Assistance à domicile et déplacements : jusqu’à 1 600 €.",
+      "is_optional": false,
+      "page": 1,
+      "limits": "jusqu’à 1 600 €",
+      "territorial_scope": "En France métropolitaine, en Guadeloupe, en Martinique, à la Réunion, en Guyane, à Saint-Barthélemy, Saint-Martin pour sa partie française et Monaco, sans limitation de durée.   Dans tous les autres pays du monde pour les séjours n’excédant pas un an.",
+      "sub_limits": [],
+      "conditions": [],
+      "deductible": null
+    },
+    {
+      "name": "Conseil social (prestations d’aides immédiates)",
+      "description": "Conseil social : information sur les droits et les prestations, et dans les cas les plus graves, accompagnement et suivi personnalisé (réadaptation professionnelle).",
+      "is_optional": false,
+      "page": 1,
+      "territorial_scope": "En France métropolitaine, en Guadeloupe, en Martinique, à la Réunion, en Guyane, à Saint-Barthélemy, Saint-Martin pour sa partie française et Monaco, sans limitation de durée.   Dans tous les autres pays du monde pour les séjours n’excédant pas un an.",
+      "sub_limits": [],
+      "conditions": [],
+      "deductible": null,
+      "limits": null
+    },
+    {
+      "name": "Rapatriement sanitaire (assistance en cas de déplacement professionnel)",
+      "description": "Rapatriement sanitaire.",
+      "is_optional": false,
+      "page": 1,
+      "conditions": [
+        "En cas de maladie, d’accident corporel",
+        "Assistance en cas de déplacement : à condition que l’événement se produise à plus de 50 km du domicile, et à plus de 20 km du domicile en Guyane."
+      ],
+      "territorial_scope": "En France métropolitaine, en Guadeloupe, en Martinique, à la Réunion, en Guyane, à Saint-Barthélemy, Saint-Martin pour sa partie française et Monaco, sans limitation de durée.   Dans tous les autres pays du monde pour les séjours n’excédant pas un an.",
+      "sub_limits": [],
+      "deductible": null,
+      "limits": null
+    },
+    {
+      "name": "Frais médicaux d’hospitalisation à l’étranger (assistance en cas de déplacement professionnel)",
+      "description": "Frais médicaux d’hospitalisation à l’étranger.",
+      "is_optional": false,
+      "page": 1,
+      "territorial_scope": "En France métropolitaine, en Guadeloupe, en Martinique, à la Réunion, en Guyane, à Saint-Barthélemy, Saint-Martin pour sa partie française et Monaco, sans limitation de durée.   Dans tous les autres pays du monde pour les séjours n’excédant pas un an.",
+      "sub_limits": [],
+      "conditions": [],
+      "deductible": null,
+      "limits": null
+    },
+    {
+      "name": "Frais de secours en montagne (assistance en cas de déplacement professionnel)",
+      "description": "Frais de secours en montagne.",
+      "is_optional": false,
+      "page": 1,
+      "territorial_scope": "En France métropolitaine, en Guadeloupe, en Martinique, à la Réunion, en Guyane, à Saint-Barthélemy, Saint-Martin pour sa partie française et Monaco, sans limitation de durée.   Dans tous les autres pays du monde pour les séjours n’excédant pas un an.",
+      "sub_limits": [],
+      "conditions": [],
+      "deductible": null,
+      "limits": null
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "La vie privée",
+      "description": "La vie privée.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Les litiges en matière électorale et syndicale",
+      "description": "Les litiges en matière électorale et syndicale.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "La propriété et l’usage des véhicules terrestres à moteur et remorques",
+      "description": "La propriété et l’usage des véhicules terrestres à moteur et remorques.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Affections ou lésions sans lien avec l’événement déclaré",
+      "description": "Les affections ou lésions de toutes natures qui ne sont pas la conséquence de l’événement déclaré.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dommages résultant de la participation active à un acte illicite",
+      "description": "Résultant de la participation active de l’assuré à un acte illicite constituant un crime ou un délit intentionnel.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dommages intentionnels, suicide ou tentative de suicide",
+      "description": "Que l’assuré se cause intentionnellement ou résultant d’un suicide ou d’une tentative de suicide.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dommages résultant d’une activité professionnelle non garantie",
+      "description": "Résultant d’une activité professionnelle autre que celle garantie par ce contrat.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dommages liés aux règles régissant la profession",
+      "description": "Découlant de l’application, la modification, l’interprétation ou la contestation des règles régissant votre profession, soit au titre du droit du travail, d’une convention collective, d’un accord d’entreprise ou du statut général ou particulier des fonctionnaires.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dommages liés à un conflit collectif du travail",
+      "description": "Découlant d’un conflit collectif du travail ou relatifs à la défense des intérêts de la profession.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Restriction — seuil et territorialité de l’action judiciaire (protection juridique)",
+      "description": "Pour la protection juridique, l’exercice d’une action judiciaire ne sera pas exercée si les dommages matériels supportés sont < à 500 € ou si l’événement à l’origine du dommage est survenu en dehors de la France métropolitaine, la Guadeloupe, la Martinique, la Réunion, la Guyane, Saint-Barthélemy, Saint-Martin pour sa partie française et Monaco, et relève d’une juridiction étrangère à ces territoires.",
+      "applies_to": "Protection juridique professionnelle",
+      "page": 1
+    },
+    {
+      "name": "Restriction — territorialité du soutien psychologique",
+      "description": "Le soutien psychologique est limité à la France métropolitaine, à la Guadeloupe, à la Martinique, à la Réunion, à la Guyane, à Saint-Barthélemy, à Saint-Martin pour sa partie française et à Monaco.",
+      "applies_to": "Soutien psychologique",
+      "page": 1
+    },
+    {
+      "name": "Restriction — distance minimale pour l’assistance en cas de déplacement",
+      "description": "Assistance en cas de déplacement : à condition que l’événement se produise à plus de 50 km du domicile, et à plus de 20 km du domicile en Guyane.",
+      "applies_to": "Assistance en cas de déplacement professionnel",
+      "page": 1
+    }
+  ],
+  "deductibles": null,
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Répondre exactement aux questions posées par l’assureur",
+      "description": "Répondre exactement aux questions posées par l’assureur pour lui permettre de connaître et d’apprécier le risque à assurer.",
+      "timing": "Lors de la souscription du contrat :",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Fournir les documents justificatifs",
+      "description": "Fournir tous documents justificatifs demandés par l’assureur.",
+      "timing": "Lors de la souscription du contrat :",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Régler la cotisation",
+      "description": "Régler la cotisation (ou fraction de cotisation) indiquée au contrat.",
+      "timing": "Lors de la souscription du contrat :",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Déclarer les circonstances nouvelles aggravant le risque",
+      "description": "Déclarer dans un délai de 15 jours toutes circonstances nouvelles qui ont pour conséquence d’aggraver les risques pris en charge ou d’en créer de nouveaux.",
+      "timing": "En cours de contrat :",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Déclarer le sinistre",
+      "description": "Déclarer tout événement susceptible de mettre en jeu l’une des garanties souscrites dans les 5 jours ouvrés, de la date à laquelle l’assuré en a pris connaissance.",
+      "timing": "En cas de sinistre :",
+      "sanction": null,
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclaration du sinistre",
+      "description": "Déclarer tout événement susceptible de mettre en jeu l’une des garanties souscrites dans les 5 jours ouvrés, de la date à laquelle l’assuré en a pris connaissance.",
+      "deadline": "dans les 5 jours ouvrés",
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "De la date de prise d’effet au 31 décembre suivant. Le contrat est conclu pour une durée d’un an",
+    "tacit_renewal": true,
+    "notice_period": "moyennant un préavis de deux mois",
+    "methods": [
+      "La résiliation doit être demandée, soit par lettre simple, soit par e-mail."
+    ],
+    "special_rights": [
+      "En cas de changement de domicile, de situation ou de régime matrimonial, de profession ou de cessation définitive d’activité professionnelle, sous réserve que ces événements entraînent une réelle modification des risques assurés."
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "La cotisation est exigible au 1er janvier. Le règlement peut être effectué en une fois par chèque ou prélèvement automatique ou mensuellement par prélèvement automatique."
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Portée du document",
+      "description": "Ce document d’information présente un résumé des principales garanties et exclusions du produit. Il ne prend pas en compte les besoins et demandes spécifiques. Une information complète sur ce produit est fournie dans la documentation précontractuelle et contractuelle.",
+      "page": 1
+    },
+    {
+      "name": "Entreprise d’assurance identifiée sur le document",
+      "description": "MAIF - Entreprise d’assurance immatriculée en France et régie par le Code des assurances - 775 709 702",
+      "page": 1
+    },
+    {
+      "name": "Territorialité",
+      "description": "Les garanties du contrat vous sont acquises pour les activités professionnelles exercées :   En France métropolitaine, en Guadeloupe, en Martinique, à la Réunion, en Guyane, à Saint-Barthélemy, Saint-Martin pour sa partie française et Monaco, sans limitation de durée.   Dans tous les autres pays du monde pour les séjours n’excédant pas un an.",
+      "page": 2
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Ce produit est destiné à couvrir l’assuré dans l’exercice des activités professionnelles exercées au sein de structures consacrées à l’enseignement,\nl’éducation ou toute autre activité qui les complète ou les prolonge, ou à l’accueil de personnes handicapées.",
+      "page": 1
+    },
+    {
+      "quote": "MAIF - Entreprise d’assurance immatriculée en France et régie par le Code \ndes assurances - 775 709 702",
+      "page": 1
+    },
+    {
+      "quote": "Responsabilité civile en cas d’accident ou de fait \ndommageable non intentionnel entraînant des dommages \ncorporels et/ou matériels causés pendant l’exercice ou à \nl’occasion des activités professionnelles de l’assuré :\n - dommages corporels et matériels (plafond de \n100 000 000 €) ;\n - dommages matériels et immatériels consécutifs (plafond \nde 15 000 000 €).",
+      "page": 1
+    },
+    {
+      "quote": "Perte de revenus pendant l’ITT dans la limite de 15 000 € \npar mois sans plafond global de garantie.",
+      "page": 1
+    },
+    {
+      "quote": "Résultant de la participation active de l’assuré à un acte illicite \nconstituant un crime ou un délit intentionnel.",
+      "page": 1
+    },
+    {
+      "quote": "Découlant de l’application, la modification, l’interprétation \nou la contestation des règles régissant votre profession, \nsoit au titre du droit du travail, d’une convention collective, \nd’un accord d’entreprise ou du statut général ou particulier \ndes fonctionnaires.",
+      "page": 1
+    },
+    {
+      "quote": "Pour la protection juridique, l’exercice d’une action judiciaire \nne sera pas exercée si les dommages matériels supportés \nsont < à 500 € ou si l’événement à l’origine du dommage \nest survenu en dehors de la France métropolitaine, \nla Guadeloupe, la Martinique, la Réunion, la Guyane, \nSaint-Barthélemy, Saint-Martin pour sa partie française et \nMonaco, et relève d’une juridiction étrangère à ces territoires.",
+      "page": 1
+    },
+    {
+      "quote": "Déclarer tout événement susceptible de mettre en jeu l’une des garanties souscrites dans les 5 jours ouvrés, de la date à laquelle \nl’assuré en a pris connaissance.",
+      "page": 2
+    },
+    {
+      "quote": "De la date de prise d’effet au 31 décembre suivant. Le contrat est conclu pour une durée d’un an et il est ensuite reconduit automatiquement \npour une année à chaque 1er janvier, sauf résiliation par l’une des parties dans les cas et conditions fixés au contrat.",
+      "page": 2
+    },
+    {
+      "quote": "Les garanties du contrat vous sont acquises pour les activités professionnelles exercées :\n  \u0007En France métropolitaine, en Guadeloupe, en Martinique, à la Réunion, en Guyane, à Saint-Barthélemy, Saint-Martin pour sa partie \nfrançaise et Monaco, sans limitation de durée.\n  \u0007Dans tous les autres pays du monde pour les séjours n’excédant pas un an.",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "Le document ne porte aucune étiquette « Compagnie : » ni « Produit : ». Le bloc d’en-tête a été lu tel qu’imprimé : la ligne « MAIF - Entreprise d’assurance immatriculée en France et régie par le Code des assurances - 775 709 702 » identifie l’entreprise d’assurance, et la ligne suivante « Assurance Professionnelle Offre Métiers de l’Éducation » le produit. Aucune autre entité (MAIF VIE, courtier, intermédiaire) n’est nommée.",
+    "edition_date : le document ne porte pas de mention « édition » ; la seule date imprimée est « 07/2024 », seule sur la dernière ligne de la page 2. Elle a été retenue comme date d’édition.",
+    "target_audience laissé à null : le document ne rattache le produit à aucune des catégories du schéma. La formulation propre au document est reportée dans target_audience_note.",
+    "L’URL source est classée sous « enseignants » et la référence interne est « IPID OME », mais le document lui-même n’emploie ni l’un ni l’autre comme nom de produit ; le nom retenu est celui imprimé en tête, « Assurance Professionnelle Offre Métiers de l’Éducation ».",
+    "En haut de page 1 figure aussi la mention « Assurance Protection des Risques Professionnels », qui est la catégorie d’assurance de l’IPID et non le nom commercial ; elle n’a pas été retenue comme product_name.",
+    "Les « Principales restrictions » sont classées en exclusions car elles figurent sous la rubrique « Y a-t-il des exclusions à la couverture ? ». Le document les distingue toutefois des « Principales exclusions » ; la distinction est conservée dans le nom de chaque entrée.",
+    "Le libellé « Principales exclusions / Les dommages relatifs » est suivi de puces commençant par « Résultant de… », « Que l’assuré se cause… », « Découlant de… », qui ne s’enchaînent pas grammaticalement avec « relatifs ». Reproduit tel quel, sans correction.",
+    "Aucune franchise n’est mentionnée dans ce document : deductibles laissé à null. Aucune définition contractuelle, aucun délai de carence, aucune clause de prescription n’y figurent non plus (l’IPID renvoie à la documentation contractuelle).",
+    "Les plafonds et seuils sont repris tels qu’imprimés, y compris les espaces insécables dans les montants (« 100 000 000 € », « 15 000 € », « 61 000 €/an »).",
+    "Ce document est un résumé réglementaire : il indique lui-même qu’« une information complète sur ce produit est fournie dans la documentation précontractuelle et contractuelle », non jointe ici."
+  ]
+}

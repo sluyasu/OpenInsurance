@@ -5,7 +5,7 @@ country: fr
 insurer: '[[Groupama]]'
 insurer_slug: groupama
 branch: assurance-vie
-product_name: Groupama Modulation
+product_name: GROUPAMA MODULATION
 document_type: product_sheet
 target_audience: particuliers
 target_audience_note: '« Investisseurs de détail visés : ce produit s''adresse à des
@@ -18,7 +18,7 @@ tags:
 - product
 - insurer/groupama
 aliases:
-- Groupama Modulation
+- GROUPAMA MODULATION
 source_url: https://assets.ctfassets.net/7awcp71bzphk/9VWyTehsWk3NUoVC4CtOJ/fa05959c0cca34077bd3667a0bf4f7ed/DIC_GL_Modulation_Groupama_2026_06_01.pdf
 source_pages: 3
 fetched_at: '2026-07-30'
@@ -154,7 +154,6 @@ Le document mentionne à trois reprises des « avances en cours consenties sur l
 - Les trois modes de gestion cités (gestion libre, gestion déléguée, gestion à horizon) ne sont pas décrits ; la phrase qui les énumère est imprimée sans point final dans la source.
 - `prescription_period` est nul : le document n'aborde pas la prescription. `waiting_periods` est vide : aucun délai de carence n'est mentionné.
 - Coquilles de la source conservées sans correction : « Appelez-le +33. (0).9.70.82.16.88 » (points de séparation) et la dernière phrase de la rubrique réclamation imprimée sans point final. L'article du Code des assurances est imprimé avec un trait d'union insécable : « R.131‑1 ».
-- product_name normalised from 'GROUPAMA MODULATION' to 'Groupama Modulation': the same product is printed in different casing across documents, and names differing only in case collapse to one page filename on a case-insensitive filesystem, silently overwriting a page.
 
 ## Documents liés
 

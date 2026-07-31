@@ -5,7 +5,7 @@ country: fr
 insurer: '[[Groupama]]'
 insurer_slug: groupama
 branch: rc-professionnelle
-product_name: Profil élus
+product_name: PROFIL ÉLUS
 document_type: conditions_generales
 target_audience: secteur_public
 target_audience_note: 'Le document ne comporte pas de rubrique « public visé ». Les
@@ -26,7 +26,7 @@ tags:
 - product
 - insurer/groupama
 aliases:
-- Profil élus
+- PROFIL ÉLUS
 source_url: https://assets.ctfassets.net/7awcp71bzphk/u9P5hLObmXbXBIv7t5rlC/0fedbefe6fc38ea68c9a19a0ccafce54/Assurance-Collectivites-Groupama-Profil-elus-DDG.pdf
 source_pages: 47
 fetched_at: '2026-07-30'
@@ -604,12 +604,11 @@ Aux termes de l'article L.114-1 du Code des assurances, toutes actions dérivant
 - Aucun délai d'attente (carence) n'est stipulé dans le document : `waiting_periods` est vide.
 - La branche fournie par la tâche est `rc-professionnelle` ; le contrat regroupe en réalité cinq garanties (responsabilité personnelle de l'élu, protection juridique, accidents corporels, pertes de revenus, assistance) qui débordent de cette seule branche.
 - La gestion des prestations d'assistance est confiée à MUTUAIDE ASSISTANCE, présentée comme « filiale spécialisée de GROUPAMA », l'assureur de l'assistance restant « la Caisse Régionale d'Assurances Mutuelles Agricoles ci-après dénommée GROUPAMA Assistance », non nommée.
-- product_name normalised from 'PROFIL ÉLUS' to 'Profil élus': the same product is printed in different casing across documents, and names differing only in case collapse to one page filename on a case-insensitive filesystem, silently overwriting a page.
 
 ## Documents liés
 
 - [PROFIL ELUS - IPID](PROFIL%20ELUS%20-%20IPID.md) - IPID / Fiche d'information, éd. V012026
-- [Profil élus](Profil%20%C3%A9lus.md) - conditions_tarifaires, éd. janvier 2026
+- [Profil élus - Tableau des montants de garantie et des franchises](Profil%20%C3%A9lus%20-%20Tableau%20des%20montants%20de%20garantie%20et%20des%20franchises.md) - conditions_tarifaires, éd. janvier 2026
 
 ## Source & fidélité
 

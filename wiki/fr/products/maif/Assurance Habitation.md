@@ -876,6 +876,10 @@ La prescription est le délai au-delà duquel aucune action n'est plus recevable
 - La référence imprimée diffère selon l'emplacement : « M5202AHA » en couverture (page 1) et « 2442 AHA - 01/2025 » au dos (page 112). C'est ce code de dos qui porte la date d'édition ; le nom de fichier et les métadonnées PDF ne la donnent pas.
 - La section 16 (Vos données personnelles, pages 98 à 100) est une information RGPD et non une garantie ; elle est résumée dans special_conditions plutôt que détaillée finalité par finalité.
 
+## Documents liés
+
+- [Assurance Habitation - IPID](Assurance%20Habitation%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/2025
+
 ## Source & fidélité
 
 - Source : [https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/conditions-generales-assurance-habitation.pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/conditions-generales-assurance-habitation.pdf) - téléchargé le 2026-07-30 - 114 pages

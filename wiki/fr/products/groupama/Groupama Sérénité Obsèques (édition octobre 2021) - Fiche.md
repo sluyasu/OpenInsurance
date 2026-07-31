@@ -5,7 +5,7 @@ country: fr
 insurer: '[[Groupama]]'
 insurer_slug: groupama
 branch: obseques
-product_name: Groupama Sérénité Obsèques
+product_name: Groupama Sérénité Obsèques (édition octobre 2021)
 document_type: product_sheet
 target_audience: particuliers
 target_audience_note: '« Investisseurs de détail visés : ce produit s''adresse à des
@@ -18,7 +18,7 @@ tags:
 - product
 - insurer/groupama
 aliases:
-- Groupama Sérénité Obsèques
+- Groupama Sérénité Obsèques (édition octobre 2021)
 source_url: https://assets.ctfassets.net/7awcp71bzphk/3EwrRMbBVhIXDZ41vUiVjO/9e08763261c4f762c162be87a949f7a7/3350-231388-102021_DIC_GSO.pdf
 source_pages: 3
 fetched_at: '2026-07-30'
@@ -147,13 +147,14 @@ Le fonds en euros est décrit dans un document d'informations clés spécifique 
 - La ligne « Coûts d'entrée » du tableau des coûts cumule dans le texte extrait deux blocs de valeurs : « 5 % sur chaque cotisation périodique ou sur la prime unique. » et « 1,3 % sur capital si adhésion en cotisations périodiques. 0,20 % sur capital si adhésion en prime unique. », ces deux derniers taux étant collés sans séparateur dans la source (« périodiques.0,20 % »). Les valeurs sont reprises telles qu'imprimées ; leur répartition exacte entre sous-postes n'est pas certaine.
 - Le texte source contient plusieurs mots coupés par un trait d'union conditionnel en fin de ligne (« Ga-rantie », « défail-lante », « supplé-mentaires », « inves-tissement », « notam-ment ») ainsi qu'un « com-prendre » coupé par un vrai trait d'union en page 1. Les citations verbatim ont été choisies pour éviter ces coupures.
 - `prescription_period` est nul : le document n'aborde pas la prescription.
-- product_name normalised from 'Groupama Sérénité Obsèques': the two editions of this document print the same name in different casing, which collides into one page filename on a case-insensitive filesystem and silently overwrote one of them. The 2021 edition is marked superseded by the 2023 one; both are kept.
+- marked superseded: this is the October 2021 edition of a fiche whose March 2023 edition is also in the corpus under the same name and document type; without the flag both resolved to one page filename and this one was overwritten.
+- product_name extended from 'Groupama Sérénité Obsèques' with its printed edition: the March 2023 edition carries the same name and document type, and the two dates are printed as free text that link.py cannot order, so `superseded: true` alone left both resolving to one page filename.
 
 ## Documents liés
 
-- ⚠️ Édition remplacée par une version plus récente : [Groupama Sérénité Obsèques - Fiche](Groupama%20S%C3%A9r%C3%A9nit%C3%A9%20Obs%C3%A8ques%20-%20Fiche.md)
-- [Groupama Sérénité Obsèques](Groupama%20S%C3%A9r%C3%A9nit%C3%A9%20Obs%C3%A8ques.md) - conditions_tarifaires, éd. 032026
-- [Groupama Sérénité Obsèques - Fiche](Groupama%20S%C3%A9r%C3%A9nit%C3%A9%20Obs%C3%A8ques%20-%20Fiche.md) - Fiche produit, éd. Dernière mise à jour le 1er mars 2023
+- ⚠️ Édition remplacée par une version plus récente : [GROUPAMA SÉRÉNITÉ OBSÈQUES - Fiche](GROUPAMA%20S%C3%89R%C3%89NIT%C3%89%20OBS%C3%88QUES%20-%20Fiche.md)
+- [GROUPAMA SÉRÉNITÉ OBSÈQUES](GROUPAMA%20S%C3%89R%C3%89NIT%C3%89%20OBS%C3%88QUES.md) - conditions_tarifaires, éd. 032026
+- [GROUPAMA SÉRÉNITÉ OBSÈQUES - Fiche](GROUPAMA%20S%C3%89R%C3%89NIT%C3%89%20OBS%C3%88QUES%20-%20Fiche.md) - Fiche produit, éd. Dernière mise à jour le 1er mars 2023
 
 ## Source & fidélité
 

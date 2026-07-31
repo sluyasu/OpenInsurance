@@ -99,7 +99,7 @@ Tableau de transparence des frais du produit Groupama Modulation, que le documen
 
 ## Documents liés
 
-- [Groupama Modulation - Fiche](Groupama%20Modulation%20-%20Fiche.md) - Fiche produit, éd. Document produit le 01/06/2026
+- [GROUPAMA MODULATION - Fiche](GROUPAMA%20MODULATION%20-%20Fiche.md) - Fiche produit, éd. Document produit le 01/06/2026
 
 ## Source & fidélité
 

@@ -464,6 +464,10 @@ La prescription est le délai au-delà duquel aucune action n’est plus recevab
 - Aucun montant de plafond n’est propre à un domaine de litige : les seuls plafonds chiffrés sont le plafond global par formule (20 000 € TTC / 50 000 € TTC) et le barème d’honoraires d’avocat par acte de procédure de l’annexe 9.1.
 - Les repères de renvoi au lexique (symboles imprimés à côté des termes définis) sont perdus dans l’extraction texte, ce qui laisse dans certaines phrases des espaces isolés (par exemple « qui engage la responsabilité d’un » suivi d’un blanc à l’article 1.1, page 8, où le terme « tiers » est appelé par un pictogramme).
 
+## Documents liés
+
+- [Assurance Protection Juridique - IPID](Assurance%20Protection%20Juridique%20-%20IPID.md) - IPID / Fiche d'information, éd. 05/2023
+
 ## Source & fidélité
 
 - Source : [https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/conditions-generales-assurance-protection-juridique.pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/conditions-generales-assurance-protection-juridique.pdf) - téléchargé le 2026-07-30 - 42 pages

@@ -681,6 +681,11 @@ La prescription est le délai au-delà duquel aucune action n’est plus recevab
 - Le texte extrait comporte les artefacts typographiques habituels du PDF MAIF : une espace fine (U+2009) matérialisant le renvoi au lexique après les termes définis, des césures par tiret conditionnel (U+00AD) en fin de ligne et des espaces insécables. Les descriptions ont été recollées et nettoyées de ces césures ; les key_quotes ont été extraites programmatiquement en évitant tout passage coupé par une césure, de sorte qu'elles restent des extraits exacts de la source.
 - La page 22 annonce une « Synthèse des modalités d'indemnisation des biens / Tableau récapitulatif » : le tableau a bien été extrait mais son contenu apparaît dans la couche texte avant son propre titre, mêlé au début de l'article 3.2 sur les objets et effets personnels.
 
+## Documents liés
+
+- [Assurance Navigation - IPID](Assurance%20Navigation%20-%20IPID.md) - IPID / Fiche d'information, éd. 12/2023
+- [Assurance Navigation - IPID](Assurance%20Navigation%20-%20IPID%20%282%29.md) - IPID / Fiche d'information, éd. 12/2023
+
 ## Source & fidélité
 
 - Source : [https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/conditions-generales-assurance-navigation.pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/conditions-generales-assurance-navigation.pdf) - téléchargé le 2026-07-30 - 59 pages

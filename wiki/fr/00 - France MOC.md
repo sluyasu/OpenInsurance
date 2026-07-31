@@ -68,9 +68,9 @@ les signale une par une plutôt que de les passer sous silence.
 <!-- BEGIN GENERATED: insurers -->
 - [Direct Assurance](insurers/Direct%20Assurance.md) (11 documents)
 - [Gan Assurances](insurers/Gan%20Assurances.md) (50 documents)
-- [Groupama](insurers/Groupama.md) (23 documents)
+- [Groupama](insurers/Groupama.md) (30 documents)
 - [Luko](insurers/Luko.md) (14 documents)
-- [MAIF](insurers/MAIF.md) (22 documents)
+- [MAIF](insurers/MAIF.md) (69 documents)
 - [Matmut](insurers/Matmut.md) (9 documents)
 - [Thélem assurances](insurers/Th%C3%A9lem%20assurances.md) (45 documents)
 <!-- END GENERATED -->

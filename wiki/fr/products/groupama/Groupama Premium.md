@@ -94,7 +94,7 @@ Fiche de transparence des frais (« Les Frais de l'assurance-vie : Groupama Prem
 
 ## Documents liés
 
-- [Groupama Premium - Fiche](Groupama%20Premium%20-%20Fiche.md) - Fiche produit, éd. Document produit le 01/06/2026
+- [GROUPAMA PREMIUM - Fiche](GROUPAMA%20PREMIUM%20-%20Fiche.md) - Fiche produit, éd. Document produit le 01/06/2026
 
 ## Source & fidélité
 

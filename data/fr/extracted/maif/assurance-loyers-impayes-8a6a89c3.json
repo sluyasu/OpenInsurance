@@ -1,0 +1,239 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "maif",
+  "insurer_name": "MAIF",
+  "product_name": "Assurance Loyers Impayés",
+  "branch": "habitation",
+  "branch_code": null,
+  "document_type": "other",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "Le document ne désigne aucune catégorie de clientèle. Il décrit les garanties du bailleur face au locataire (loyers impayés, détériorations immobilières locatives, recours, départ prématuré, squat).",
+  "reference": null,
+  "edition_date": null,
+  "product_family": "Assurance Loyers Impayés",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/tableau-limite-garanties-ali.pdf",
+  "source_pdf": "assurance-loyers-impayes-tableau-des-limites-de-garantie-8a6a89c3.pdf",
+  "source_sha256": "7368d64c987cdffa41b260817c17b7bb2f3a0d8d437e1380b089a229c2cabe7f",
+  "source_pages": 1,
+  "fetched_at": "2026-07-30",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Tableau des limites de garantie du contrat Assurance Loyers Impayés, présenté en trois colonnes (Nature des garanties de l'offre / Durée-plafond / Franchise). Il récapitule cinq postes : loyers impayés, détériorations immobilières locatives, recours suite à loyers impayés et détériorations immobilières locatives, départ prématuré et garantie squat. Le document précise que le contrat est distribué par MAIF et Gestion Assurances SA (une marque de la société Groupe Solly Azar), également gestionnaire, que l'assureur est SADA Assurances ou WAKAM Assurances selon le portage des risques, et que MAIF est uniquement distributeur et n'en est pas l'assureur.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "LOYERS IMPAYÉS — Pour un nouveau locataire",
+      "description": "Pour un nouveau locataire : remboursement dès le premier impayé.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "Jusqu'au 6e mois qui suit la signification du jugement d'expulsion. Jusqu'à 30 mois de loyers garantis, à hauteur de 90 000 € par sinistre (jusqu'à 3 500 € par mois).",
+      "sub_limits": [
+        "Jusqu'à 30 mois de loyers garantis",
+        "à hauteur de 90 000 € par sinistre",
+        "jusqu'à 3 500 € par mois"
+      ],
+      "deductible": "Aucune franchise (sauf dépôt de garantie légal).",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "LOYERS IMPAYÉS — Pour un locataire en place depuis plus de 6 mois",
+      "description": "Pour un locataire en place depuis plus de 6 mois.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "Période probatoire de 6 mois à compter de la date de souscription.",
+      "sub_limits": [],
+      "deductible": "Franchise de 2 mois de loyers (en plus dépôt de garantie légal).",
+      "conditions": [
+        "Période probatoire de 6 mois à compter de la date de souscription."
+      ],
+      "page": 1
+    },
+    {
+      "name": "DÉTÉRIORATIONS IMMOBILIÈRES LOCATIVES",
+      "description": "Prise en charge : des frais de réparation consécutifs aux dégradations, destructions, altérations et disparitions perpétrées par le locataire constatées à son départ : portes abîmées, lino déchiré, tapisseries arrachées… ; des pertes de loyers pendant le temps nécessaire de la remise en état du logement.",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "6 fois le loyer mensuel. 10 000 € maximum par sinistre (jusqu'à 4 mois au titre des travaux liés à la dégradation + 2 mois liés à la perte pécuniaire).",
+      "sub_limits": [
+        "6 fois le loyer mensuel",
+        "10 000 € maximum par sinistre",
+        "jusqu'à 4 mois au titre des travaux liés à la dégradation",
+        "2 mois liés à la perte pécuniaire"
+      ],
+      "deductible": "Aucune franchise (sauf dépôt de garantie légal).",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "RECOURS SUITE À LOYERS IMPAYÉS ET DÉTÉRIORATIONS IMMOBILIÈRES LOCATIVES",
+      "description": "Frais de procédure (huissier, avocat…). Frais visant à l'expulsion du locataire ; (frais d'intervention du serrurier, du commissaire de police, de déménagement et de garde meuble).",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "Plafond illimité avec les commissaires de justice mandatés par Solly Azar.",
+      "sub_limits": [],
+      "deductible": "Aucune franchise.",
+      "conditions": [
+        "Plafond illimité avec les commissaires de justice mandatés par Solly Azar."
+      ],
+      "page": 1
+    },
+    {
+      "name": "DÉPART PRÉMATURÉ",
+      "description": "Remboursement des loyers impayés en cas de décès ou de départ prématuré du locataire sans respecter les délais (départ prématuré ou « à la cloche de bois »).",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "Jusqu'à la reprise des lieux et selon la durée et le plafond de la garantie loyer impayé.",
+      "sub_limits": [],
+      "deductible": "Aucune franchise.",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "GARANTIE SQUAT",
+      "description": "Remboursement des loyers impayés en cas de squat dans les 3 mois suivants la sortie du locataire et sur la base du dernier loyer (hors charge) garanti. Frais de procédure (avocat…).",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": "Jusqu'à la reprise du logement et pendant une durée maximum de 12 mois (hors charge), dans la limite de 25 000 €, incluant les frais de procédure à hauteur de 3 000 € maximum.",
+      "sub_limits": [
+        "durée maximum de 12 mois (hors charge)",
+        "dans la limite de 25 000 €",
+        "frais de procédure à hauteur de 3 000 € maximum"
+      ],
+      "deductible": "Aucune franchise.",
+      "conditions": [
+        "en cas de squat dans les 3 mois suivants la sortie du locataire",
+        "sur la base du dernier loyer (hors charge) garanti"
+      ],
+      "page": 1
+    }
+  ],
+  "exclusions": [],
+  "deductibles": {
+    "standard": "Aucune franchise (sauf dépôt de garantie légal).",
+    "variable": null,
+    "per_coverage": {
+      "LOYERS IMPAYÉS — Pour un nouveau locataire": "Aucune franchise (sauf dépôt de garantie légal).",
+      "LOYERS IMPAYÉS — Pour un locataire en place depuis plus de 6 mois": "Franchise de 2 mois de loyers (en plus dépôt de garantie légal).",
+      "DÉTÉRIORATIONS IMMOBILIÈRES LOCATIVES": "Aucune franchise (sauf dépôt de garantie légal).",
+      "RECOURS SUITE À LOYERS IMPAYÉS ET DÉTÉRIORATIONS IMMOBILIÈRES LOCATIVES": "Aucune franchise.",
+      "DÉPART PRÉMATURÉ": "Aucune franchise.",
+      "GARANTIE SQUAT": "Aucune franchise."
+    },
+    "page": 1
+  },
+  "waiting_periods": [
+    {
+      "coverage": "LOYERS IMPAYÉS — Pour un locataire en place depuis plus de 6 mois",
+      "duration": "6 mois",
+      "description": "Période probatoire de 6 mois à compter de la date de souscription.",
+      "page": 1
+    }
+  ],
+  "obligations": [],
+  "claims_procedure": [],
+  "duration_and_cancellation": null,
+  "prescription_period": null,
+  "premium": null,
+  "special_conditions": [
+    {
+      "name": "Distribution, gestion et portage du risque",
+      "description": "Le contrat Assurance Loyers Impayés est distribué par MAIF et Gestion Assurances SA (une marque de la société Groupe Solly Azar), également gestionnaire du contrat. L'assureur de ce contrat est SADA Assurances ou WAKAM Assurances, le portage des risques étant confié alternativement à l'un ou l'autre de ces deux assureurs, sur décision de Gestion Assurances SA et selon des conditions contractuelles et tarifaires strictement identiques. MAIF est uniquement distributeur du contrat Assurance Loyers Impayés et n'en est pas l'assureur.",
+      "page": 1
+    },
+    {
+      "name": "Distributeur — MAIF",
+      "description": "MAIF - Société d'assurance mutuelle à cotisations variables - CS 90000 - 79038 Niort cedex 9. Entreprise régie par le Code des assurances et identifiée sous le numéro SIREN 775 709 702.",
+      "page": 1
+    },
+    {
+      "name": "Courtier — Groupe SOLLY AZAR",
+      "description": "Groupe SOLLY AZAR - Société de courtage d'assurances 65/67 rue de la Victoire - 75009 Paris - SAS au capital de 200 000 € RCS Paris 353 508 955 - ORIAS 07008500 (www.orias.fr).",
+      "page": 1
+    },
+    {
+      "name": "Assureur — SADA Assurances",
+      "description": "SADA Assurances - Société anonyme à Directoire et Conseil de surveillance, au capital de 32 388 700 € - RCS Nîmes B 580 201 127. Siège social : 4 rue Scatisse - 30934 Nîmes Cedex 9.",
+      "page": 1
+    },
+    {
+      "name": "Assureur — WAKAM",
+      "description": "WAKAM - Société Anonyme au capital de 5 432 928 € - RCS Paris 562 117 085 - Adresse du siège social : 120-122, rue Réaumur - 75002 PARIS.",
+      "page": 1
+    },
+    {
+      "name": "Autorité de contrôle",
+      "description": "Entreprises régies par le Code des assurances et soumises à l'Autorité de contrôle prudentiel et de résolution (ACPR) 4 place de Budapest CS 92459 - 75436 Paris Cedex 09.",
+      "page": 1
+    },
+    {
+      "name": "En-têtes de colonnes du tableau",
+      "description": "Nature des garanties de l'offre / Durée·plafond / Franchise.",
+      "page": 1
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Assurance Loyers Impayés\nTableau des limites de garantie",
+      "page": 1
+    },
+    {
+      "quote": "Pour un nouveau locataire : remboursement dès le premier impayé.",
+      "page": 1
+    },
+    {
+      "quote": "Jusqu’à 30 mois de loyers garantis, \nà hauteur de 90 000 € par sinistre \n(jusqu’à 3 500 € par mois).",
+      "page": 1
+    },
+    {
+      "quote": "Période probatoire de 6 mois à compter \nde la date de souscription.",
+      "page": 1
+    },
+    {
+      "quote": "Franchise de 2 mois de loyers \n(en plus dépôt de garantie légal).",
+      "page": 1
+    },
+    {
+      "quote": "10 000 € maximum par sinistre \n(jusqu’à 4 mois au titre des travaux liés \nà la dégradation + 2 mois liés à la perte pécuniaire).",
+      "page": 1
+    },
+    {
+      "quote": "Plafond illimité avec les commissaires \nde justice mandatés par Solly Azar.",
+      "page": 1
+    },
+    {
+      "quote": "Jusqu’à la reprise du logement et pendant \nune durée maximum de 12 mois (hors charge), \ndans la limite de 25 000 €, incluant les frais de \nprocédure à hauteur de 3 000 € maximum.",
+      "page": 1
+    },
+    {
+      "quote": "Le contrat Assurance Loyers Impayés est distribué par MAIF et Gestion Assurances SA (une marque de la société Groupe Solly Azar), également gestionnaire du contrat. L’assureur de ce contrat est SADA Assurances ou WAKAM Assurances, le portage des risques étant confié alternativement à l’un ou \nl’autre de ces deux assureurs, sur décision de Gestion Assurances SA et selon des conditions contractuelles et tarifaires strictement identiques. MAIF est uniquement distributeur du contrat Assurance Loyers Impayés et n’en est pas l’assureur.",
+      "page": 1
+    },
+    {
+      "quote": "MAIF - Société d’assurance mutuelle à cotisations variables - CS 90000 - 79038 Niort cedex 9. Entreprise régie par le Code des assurances et identifiée sous le numéro SIREN 775 709 702.",
+      "page": 1
+    },
+    {
+      "quote": "WAKAM - Société Anonyme au capital de 5 432 928 € - RCS Paris 562 117 085 - Adresse du siège social : 120-122, rue Réaumur - 75002 PARIS",
+      "page": 1
+    }
+  ],
+  "gaps": [
+    "PORTEUR DU RISQUE — POINT LE PLUS IMPORTANT DE CE DOCUMENT : la métadonnée de la tâche donne insurer_slug=maif / insurer_name=MAIF, mais le document dit explicitement le contraire : « MAIF est uniquement distributeur du contrat Assurance Loyers Impayés et n'en est pas l'assureur. » L'assureur imprimé est « SADA Assurances ou WAKAM Assurances, le portage des risques étant confié alternativement à l'un ou l'autre de ces deux assureurs, sur décision de Gestion Assurances SA ». Les métadonnées de la tâche ont été recopiées telles quelles comme le demande la spécification, mais toute page produite à partir de cette extraction ne doit pas présenter MAIF comme l'assureur. Les quatre entités et leurs immatriculations figurent dans `special_conditions`.",
+    "Aucune date d'édition n'est imprimée sur le document, sous aucune forme (ni « édition », ni MM/AAAA, ni code interne). `edition_date` est donc null. Les métadonnées PDF donnent creationDate et modDate = 2026-01-06, mais ce n'est pas une mention du document et elle n'a pas été retenue. `reference` est null pour la même raison.",
+    "Le document ne contient AUCUNE exclusion, aucune définition, aucune obligation de l'assuré, aucune procédure de sinistre, aucune durée ni modalité de résiliation, aucun élément de cotisation : c'est un tableau de limites de garantie. Ces sections sont vides par nature.",
+    "AMBIGUÏTÉ DE LECTURE DU TABLEAU (section LOYERS IMPAYÉS) : la cellule « Durée/plafond » de la première ligne contient deux blocs, « Jusqu'au 6e mois qui suit la signification du jugement d'expulsion. » (y≈145) et « Jusqu'à 30 mois de loyers garantis, à hauteur de 90 000 € par sinistre (jusqu'à 3 500 € par mois). » (y≈172-200), la seconde ligne (« Pour un locataire en place depuis plus de 6 mois. », y≈212) n'ayant en face qu'une période probatoire. D'après les coordonnées, le plafond de 30 mois / 90 000 € appartient à la bande de la première ligne ; il est possible qu'il s'applique en réalité à toute la garantie « loyers impayés ». Il a été rattaché à la première ligne, telle qu'il est positionné, et l'ambiguïté est signalée ici plutôt que tranchée.",
+    "La colonne « Durée/plafond » a été portée dans le champ `limits` de chaque garantie et détaillée dans `sub_limits` ; la colonne « Franchise » dans `deductible` et dans `deductibles.per_coverage`. Le document n'énonce pas de franchise générale unique : `deductibles.standard` reprend la mention la plus fréquente (« Aucune franchise (sauf dépôt de garantie légal). »), mais la ligne « locataire en place depuis plus de 6 mois » y déroge avec une franchise de 2 mois de loyers.",
+    "`is_optional` laissé à null pour toutes les garanties : le tableau ne distingue pas les garanties incluses des garanties optionnelles et ne mentionne aucune option.",
+    "Nom du produit : le titre imprimé est « Assurance Loyers Impayés » (casse normale, pas de capitales), sans suffixe. Le pied de page emploie la même dénomination. Attention : un autre document MAIF de la même famille imprime « Assurance Loyers Impayés MF » ; les deux dénominations sont proches mais distinctes et n'ont pas été fusionnées. `product_family` a été fixé à « Assurance Loyers Impayés ».",
+    "Les intitulés de section du tableau sont imprimés en capitales dans la source (LOYERS IMPAYÉS, DÉTÉRIORATIONS IMMOBILIÈRES LOCATIVES, RECOURS SUITE À…, DÉPART PRÉMATURÉ, GARANTIE SQUAT) et ont été conservés tels quels comme noms de garanties. Le nom du produit, lui, n'est pas en capitales.",
+    "Coquille de la source conservée : « en cas de squat dans les 3 mois suivants la sortie du locataire » (« suivants » au lieu de « suivant »).",
+    "Caractères d'espacement inhabituels conservés verbatim dans les citations : U+2009 (espace fine, 3 occurrences, dans « 10 000 € » et autour de « à la cloche de bois ») et U+00A0 (espace insécable, 3 occurrences, dans « à la dégradation » et « commissaire de police »)."
+  ]
+}

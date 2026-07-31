@@ -640,6 +640,10 @@ La prescription est le délai au-delà duquel aucune action n'est plus recevable
 - Le contrat ne mentionne pas de variante de distribution (courtier, partenaire bancaire…) : variant est laissé à null. La référence interne imprimée en couverture est M6202VAMA.
 - Aucune page n'est dépourvue de couche texte ; les 78 pages du PDF sont exploitables.
 
+## Documents liés
+
+- [Assurance Auto-Moto Vam - IPID](Assurance%20Auto-Moto%20Vam%20-%20IPID.md) - IPID / Fiche d'information, éd. 10/2025
+
 ## Source & fidélité
 
 - Source : [https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/conditions-generales-assurance-auto-vam.pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/conditions-generales-assurance-auto-vam.pdf) - téléchargé le 2026-07-30 - 78 pages

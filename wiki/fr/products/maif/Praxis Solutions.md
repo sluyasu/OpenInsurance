@@ -619,6 +619,10 @@ La prescription est le délai au-delà duquel aucune action n’est plus recevab
 - VARIANTES — le document décrit deux versions (Famille et Individu) au sein d'un même contrat, avec des garanties identiques et des périmètres d'assurés différents. Le champ variant est laissé null car il ne s'agit pas de documents parallèles mais de deux formules décrites dans le même texte.
 - PAGES — les 60 marqueurs [page N] sont présents et tous les blocs de texte sont exploitables ; aucune page n'est un scan sans couche texte. Les pages 2 et 58 sont des pages de couverture/mentions et la page 3 une note de présentation.
 
+## Documents liés
+
+- [Assurance des Accidents de la Vie Courante Praxis Solutions - IPID](Assurance%20des%20Accidents%20de%20la%20Vie%20Courante%20Praxis%20Solutions%20-%20IPID.md) - IPID / Fiche d'information, éd. 05/2024
+
 ## Source & fidélité
 
 - Source : [https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/conditions-generales-praxis-solutions.pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/conditions-generales-praxis-solutions.pdf) - téléchargé le 2026-07-30 - 60 pages

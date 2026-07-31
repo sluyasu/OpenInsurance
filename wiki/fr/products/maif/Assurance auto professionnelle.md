@@ -886,6 +886,10 @@ La prescription est le délai au-delà duquel aucune action n’est plus recevab
 - Porteur de risque : le document ne comporte ni mention de l’ACPR, ni numéro SIREN, ni clause de délégation d’assurance. Il imprime un seul assureur, MAIF, en deux endroits : au lexique (« Assureur : La Mutuelle assurance des instituteurs de France (MAIF), 200 avenue Salvador Allende - CS 90000 - 79038 Niort cedex 9 ; “Nous” désigne dans le contrat l’assureur », page 71) et au chapitre données personnelles (« MAIF, société d’assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances […] Numéro individuel d’identification à la TVA : FR 81 775 709 702 », page 66). Seul intervenant tiers cité : IMA Assurances, qui met en œuvre la garantie assistance pour MAIF Assistance (page 53) et prend en charge les frais des prestations d’assistance (page 54).
 - Les montants figurant dans les tableaux mis en page sur plusieurs colonnes (indemnisation des accessoires et aménagements pages 36 et 39, indemnisation de la perte financière en leasing pages 35 et 38, véhicule de remplacement page 45, récapitulatif des franchises page 41) ont été reconstitués à partir d’un flux de texte où l’ordre des cellules n’est pas toujours univoque ; les montants eux-mêmes sont repris tels qu’imprimés mais l’appariement cellule/colonne des tableaux les plus larges reste à vérifier sur le PDF.
 
+## Documents liés
+
+- [Assurance auto professionnelle - IPID](Assurance%20auto%20professionnelle%20-%20IPID.md) - IPID / Fiche d'information, éd. 03/2026
+
 ## Source & fidélité
 
 - Source : [https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/travailleurs-independants/conditions-generales-assurance-auto-professionnelle.pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/travailleurs-independants/conditions-generales-assurance-auto-professionnelle.pdf) - téléchargé le 2026-07-30 - 84 pages
