@@ -125,6 +125,10 @@ versement de 1,25 % puis en rapportant ce rendement à celui issu de calcul des
 - Aucune page sans couche texte : les 3 pages du PDF ont été ré-extraites avec PyMuPDF (page.get_text("text")) et sont identiques caractère pour caractère au texte fourni dans le prompt.
 - Le document ne comporte aucune information sur les modalités de versement des cotisations (montant minimum, périodicité) : premium ne contient que la structure de frais et les hypothèses de calcul imprimées.
 
+## Documents liés
+
+- [Matmut Vie Épargne](Matmut%20Vie%20%C3%89pargne.md) - Conditions générales, éd. 01/25
+
 ## Source & fidélité
 
 - Source : [https://www.matmut.fr/epargne-credit/pdf/dic-mve.pdf](https://www.matmut.fr/epargne-credit/pdf/dic-mve.pdf) - téléchargé le 2026-07-30 - 3 pages

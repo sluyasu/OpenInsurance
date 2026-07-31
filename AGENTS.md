@@ -27,7 +27,7 @@ navigate it without guessing. Do not edit by hand.
 |---|---|---|---|---|---|
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
 | ch (Switzerland) | 0 | 3 | 1 | 0 | 5 |
-| fr (France) | 17 | 266 | 7 | 1 | 5 |
+| fr (France) | 17 | 280 | 7 | 1 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
 
@@ -337,7 +337,9 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | assurance-vie | maif | Informations réglementaires sur les actifs référencés dans le contrat | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/epargne-financements/informations-reglementaires-actifs.pdf) |
 | fr | assurance-vie | maif | Publication relative aux contrats d'assurance vie non réglés (art. L. 132-9-4) | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/epargne-financements/livret-epargne-autrement/loi-eckert-tableaux.pdf) |
 | fr | assurance-vie | maif | fonds en euros du contrat Assurance vie Responsable et Solidaire | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/epargne-financements/caracteristiques-envir-ars.pdf) |
+| fr | assurance-vie | matmut | Matmut Vie Générations | 2026-07-30 | [pdf](https://www.matmut.fr/epargne-credit/pdf/notice-mvg.pdf) |
 | fr | assurance-vie | matmut | Matmut Vie Générations - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/epargne-credit/pdf/dic-mvg.pdf) |
+| fr | assurance-vie | matmut | Matmut Vie Épargne | 2026-07-30 | [pdf](https://www.matmut.fr/epargne-credit/pdf/notice-mve.pdf) |
 | fr | assurance-vie | matmut | Matmut Vie Épargne - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/epargne-credit/pdf/dic-mve.pdf) |
 | fr | auto | direct-assurance | Assurance Auto et Auto connectée Direct Assurance - IPID | 2026-07-30 | [pdf](https://directassurance.cdn.prismic.io/directassurance/aYnxBN0YXLCxVnsa_fiche-ipid-auto-022026.pdf) |
 | fr | auto | direct-assurance | Contrat Auto | 2026-07-30 | [pdf](https://directassurance.cdn.prismic.io/directassurance/aYnw_90YXLCxVnsY_AUTO_02.26_VW_VF.pdf) |
@@ -354,7 +356,9 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | auto | maif | Auto-mission - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/document-information-auto-mission.pdf) |
 | fr | auto | maif | Vam Associations et Collectivités - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/document-information-vam-associations-et-collectivites.pdf) |
 | fr | auto | maif | Véhicules entreprises - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/entreprises/document-information-assurance-auto-professionnel.pdf) |
+| fr | auto | matmut | 4 roues Essentiel Matmut | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGMRSQE.pdf) |
 | fr | auto | matmut | 4 roues Référence | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGMRSQ.pdf) |
+| fr | auto | matmut | Auto 3D Initiale & Co | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-auto3d-init-and-co.pdf) |
 | fr | auto | matmut | Auto 4D | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/cgauto4dmatmut.pdf) |
 | fr | auto | matmut | Auto 4D Distinguo & Co | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-auto4d-distinguo-and-co.pdf) |
 | fr | auto | matmut | Auto Temporaire | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CG-auto-temporaire-matmut.pdf) |
@@ -363,6 +367,8 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | auto | matmut | Avantage Bris de glaces 0 franchise (2) | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/brisglace-3D-init-and-co.pdf) |
 | fr | auto | matmut | Avantage Bris de glaces 0 franchise (3) | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/brisglace-4R-essentiel.pdf) |
 | fr | auto | matmut | Avantage Bris de glaces 0 franchise (4) | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/brisglace-4R-tempo.pdf) |
+| fr | auto | matmut | Avantage Bris de glaces 0 franchise (5) | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/brisglace-auto4D.pdf) |
+| fr | auto | matmut | Avantage Bris de glaces 0 franchise (6) | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/brisglaces-auto4D-distinguo-co.pdf) |
 | fr | auto | matmut | Avantage Hiver Matmut & Co | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/avantage-h-distinguo-co.pdf) |
 | fr | auto | matmut | Avantage Usage Sérénité (2) | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/coavantageusage-smrsq-4r-2r.pdf) |
 | fr | auto | matmut | Avantage Éco Malin Matmut | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/avantage-ecomalin.pdf) |
@@ -371,6 +377,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | auto | matmut | Bonus Booster Nouveau Contrat Matmut & Co (2) | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/bonus-b-nc-viePrivee-distinguo-co.pdf) |
 | fr | auto | matmut | Bonus Famille Matmut & Co | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/bonus-f-distinguo-co.pdf) |
 | fr | auto | matmut | Bonus Matmut & Co | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/bonus-distinguo-co.pdf) |
+| fr | auto | matmut | Camping-car Auto 4D | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/cgcampingcar4dmatmut.pdf) |
 | fr | auto | matmut | Contrat Multirisques Camping-car « Auto 4D » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDCAMPINGCAR4D.pdf) |
 | fr | auto | matmut | Contrat Multirisques « Auto 3D Initiale & Co » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/ipid-auto3d-init-and-co.pdf) |
 | fr | auto | matmut | Contrat Multirisques « Auto 4D Distinguo & Co » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/ipid-auto4d-distinguo-and-co.pdf) |
@@ -381,6 +388,8 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | auto | matmut | Contrat « Flotte de véhicules » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDMRSQFLOTTE.pdf) |
 | fr | auto | matmut | Contrat « Multirisques 4 Roues Essentiel » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDMRSQE.pdf) |
 | fr | auto | matmut | Contrat « Multirisques 4 Roues Référence » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDMRSQ.pdf) |
+| fr | auto | matmut | Flotte de véhicules | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGMRSQFLOTTE.pdf) |
+| fr | auto | matmut | Multirisques Initiale & Co | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-mrsq-ag-init-and-co.pdf) |
 | fr | auto | thelem | Assurance Automobile - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA-012026.pdf) |
 | fr | auto | thelem | Assurance Camping-Car - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_580_Camping-cars-012026.pdf) |
 | fr | auto | thelem | Assurance Caravane - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_90B_Caravane-juillet-2023.pdf) |
@@ -431,8 +440,10 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | habitation | maif | Assurance Loyers Impayés MF - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/document-information-assurance-loyers-impayes.pdf) |
 | fr | habitation | maif | Assurance Propriétaire Bailleur | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/conditions-generales-assurance-proprietaire-bailleur.pdf) |
 | fr | habitation | maif | Assurance Propriétaire Bailleur - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/document-information-assurance-proprietaire-bailleur.pdf) |
+| fr | habitation | matmut | Habitation Initiale & Co Résidence Principale | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-rp-init-and-co.pdf) |
 | fr | habitation | matmut | Habitation Matmut Étudiants | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/ME2H.pdf) |
 | fr | habitation | matmut | Habitation Résidence principale | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGMGARRP.pdf) |
+| fr | habitation | matmut | Habitation Résidence secondaire | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGMGARRS.pdf) |
 | fr | habitation | matmut | Matmut Mobile-home formule Nature | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGMGARMH.pdf) |
 | fr | habitation | thelem | Assurance Dommages aux biens - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_570-Dommages-aux-biens.pdf) |
 | fr | habitation | thelem | Assurance multirisque habitation - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_601-Occupants-janvier-2026.pdf) |
@@ -459,7 +470,10 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | multirisque-professionnelle | maif | Raqvam Associations et Collectivités | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/conditions-generales-raqvam-associations-et-collectivites.pdf) |
 | fr | multirisque-professionnelle | maif | Raqvam Associations et Collectivités - CP | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/conditions-particulieres-raqvam-associations-et-collectivites.pdf) |
 | fr | multirisque-professionnelle | maif | Raqvam Associations et Collectivités - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/document-information-raqvam-associations-et-collectivites.pdf) |
+| fr | multirisque-professionnelle | matmut | Caducée | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/CG/MC30.pdf) |
+| fr | multirisque-professionnelle | matmut | Matmut PRO | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGMPRO.pdf) |
 | fr | multirisque-professionnelle | matmut | Matmut « Caducée » | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/MC30.pdf) |
+| fr | multirisque-professionnelle | matmut | Multigaranties des collectivités et risques professionnels | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/cgmgarpro.pdf) |
 | fr | multirisque-professionnelle | thelem | Assurance Garauto - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_201_Garauto-Aout-2025.pdf) |
 | fr | multirisque-professionnelle | thelem | Assurance multirisque professionnelle - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPIP_-MRP-PME-PMI-Aout-2025.pdf) |
 | fr | multirisque-professionnelle | thelem | Bris de machine - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_26_BDM-juin-2023.pdf) |

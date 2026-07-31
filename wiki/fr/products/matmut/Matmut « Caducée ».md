@@ -33,7 +33,7 @@ extraction_model: claude-code-subagent:scale
 prompt_version: '1.1'
 product_family: caducee
 variant: null
-edition_status: null
+edition_status: current
 edition_age_years: 2
 superseded: null
 extends: null
@@ -631,6 +631,11 @@ Toute action dérivant du présent contrat, qu'il s'agisse de sa validité ou de
 - L'article 22-3 (sinistres sériels, page 41) renvoie aux « cas et conditions de l'article 20-2 » pour la période de garantie subséquente, alors que la garantie subséquente est traitée à l'article 22-2 ; l'article 20-2 porte sur les délais de déclaration de sinistre. Le renvoi est reproduit tel quel sans correction.
 - L'Annexe I (Protection Juridique – honoraires et frais garantis TTC, pages 52-53) est un tableau à deux colonnes dont la couche texte alterne libellé et montant sur des lignes séparées. Les correspondances libellé/montant ont été reconstituées dans cet ordre. Une entrée est ambiguë : sous « Assistance », le libellé « à instruction (sur convocation du juge) » n'est suivi d'aucun montant avant la ligne « Requêtes 414,00 € » ; le montant applicable à l'assistance à instruction n'est donc pas déterminable sur cette couche texte.
 - Les garanties d'Assistance renvoient à l'Annexe II pour leur contenu détaillé ; les prestations y sont décrites en nature (organisation et prise en charge) sans plafond financier chiffré, à l'exception des limites de durée et de distance reproduites (48 heures de gardiennage, 50 kilomètres, un mois).
+
+## Documents liés
+
+- Édition courante de ce produit.
+- [Caducée](Caduc%C3%A9e.md) - Conditions générales, éd. 05/23
 
 ## Source & fidélité
 

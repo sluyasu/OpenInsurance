@@ -118,8 +118,10 @@ Exonération de la franchise applicable contractuellement en cas de remplacement
 ## Documents liés
 
 - Extension / option du produit : **Contrat Multirisques « 3D Initiale & Co »**
+- [Avantage Bris de glaces 0 franchise](Avantage%20Bris%20de%20glaces%200%20franchise%20%286%29.md) - conditions_tarifaires, éd. 01-26
 - [Avantage Bris de glaces 0 franchise](Avantage%20Bris%20de%20glaces%200%20franchise%20%283%29.md) - conditions_tarifaires, éd. 01-26
 - [Avantage Bris de glaces 0 franchise](Avantage%20Bris%20de%20glaces%200%20franchise%20%284%29.md) - conditions_tarifaires, éd. 01/26
+- [Avantage Bris de glaces 0 franchise](Avantage%20Bris%20de%20glaces%200%20franchise%20%285%29.md) - conditions_tarifaires, éd. 01/26
 
 ## Source & fidélité
 

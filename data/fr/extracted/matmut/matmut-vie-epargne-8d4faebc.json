@@ -1,0 +1,621 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "matmut",
+  "insurer_name": "Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477",
+  "product_name": "Matmut Vie Épargne",
+  "branch": "assurance-vie",
+  "branch_code": "20",
+  "document_type": "conditions_generales",
+  "language": "fr",
+  "source_url": "https://www.matmut.fr/epargne-credit/pdf/notice-mve.pdf",
+  "source_pdf": "matmut-vie-epargne-8d4faebc.pdf",
+  "source_sha256": "33aac6bffbc4178d662927e418d741ac9089961d545b64b99301b45a92de6d68",
+  "source_pages": 15,
+  "fetched_at": "2026-07-30",
+  "extraction_model": "claude-code-subagent:scale",
+  "product_family": "Matmut Vie Épargne",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "target_audience": null,
+  "target_audience_note": "Le document ne nomme aucune catégorie de clientèle. La seule condition d'accès énoncée est mutualiste et non catégorielle : « être adhérent à Matmut Mutualité » (article 3, page 4). Le document n'exige nulle part la qualité de personne physique pour l'adhérent, et n'emploie ni « particuliers », ni « professionnels », ni « entreprises ». Il désigne par ailleurs l'adhérent comme « sociétaire » dans les tableaux de fiscalité (article 11.1).",
+  "reference": "VP.11 - 01/25",
+  "edition_date": "01/25",
+  "summary": "Notice d'information du contrat Matmut Vie Épargne, contrat collectif d'assurance sur la vie libellé en euros, à adhésion facultative, relevant de la branche 20 (Vie-décès) de l'article R. 321-1 du Code des assurances. Il est souscrit par Matmut Mutualité auprès de Matmut Vie et permet à l'adhérent de constituer un capital disponible à tout moment par rachat, versé au(x) bénéficiaire(s) désigné(s) en cas de décès de l'assuré. Le contrat ne comporte pas de taux d'intérêt garanti, ni garantie de fidélité, ni valeur de réduction ; la rémunération du capital provient de la participation aux bénéfices, 100 % du solde positif du compte de résultat du contrat étant affecté à la provision correspondante. Les frais sur versements sont au maximum de 1,25 % (barème dégressif) et les frais de gestion annuels de 0,50 % des capitaux disponibles moyens gérés dans l'exercice.",
+  "definitions": [
+    {
+      "term": "Capital disponible",
+      "definition": "Le capital disponible correspond à vos versements nets de frais, diminués des frais de gestion annuels, augmentés des intérêts versés au titre de la rémunération de votre capital disponible et diminués des prélèvements sociaux et fiscaux prévus par la réglementation en vigueur, ainsi que des éventuels rachats partiels.",
+      "page": 5
+    },
+    {
+      "term": "Valeur de rachat",
+      "definition": "Le montant de la valeur de rachat, c'est-à-dire le capital disponible, à une date t est égal : au montant du capital disponible au 1er janvier précédant la date de rachat après intégration de la rémunération annuelle prévue à l'article 6.4 et application des prélèvements sociaux ; diminué des éventuels rachats partiels effectués entre le 1er janvier et la date de rachat ; et augmenté des éventuels versements nets de frais effectués pendant cette même période et des intérêts calculés depuis le 1er janvier dans les conditions prévues à l'article 7.3.",
+      "page": 7
+    },
+    {
+      "term": "Avance",
+      "definition": "L'avance est assimilée à un prêt accordé par Matmut Vie.",
+      "page": 7
+    },
+    {
+      "term": "Réclamation",
+      "definition": "Constitue une réclamation, l'expression de votre mécontentement ou de votre insatisfaction à notre égard. Une demande de service ou de prestation, une demande d'information ou une demande d'avis n'est pas considérée comme une réclamation.",
+      "page": 9
+    },
+    {
+      "term": "Provision pour participation aux bénéfices",
+      "definition": "100 % du solde positif du compte de résultat technique et financier du contrat Matmut Vie Épargne est affecté à la provision pour participation aux bénéfices. Cette provision est définitivement acquise aux adhérents et leur est affectée au plus tard 8 ans après sa constitution.",
+      "page": 3
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Garantie en cas de décès de l'assuré",
+      "description": "Paiement du capital disponible au(x) bénéficiaire(s) désigné(s) par l'adhérent (article 8). Le capital disponible au moment du décès de l'assuré est versé au(x) bénéficiaire(s) désigné(s) par l'adhérent.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "le capital disponible, tel que défini à l'article 6.1",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "règlement dans un délai de 10 jours ouvrés à compter de la réception de la demande complète",
+        "la rémunération du capital disponible cesse au jour de la réception de l'intégralité des pièces nécessaires au paiement du capital décès ; en cas de pluralité de bénéficiaires, à réception des pièces nécessaires au premier règlement",
+        "pour la période écoulée depuis la dernière attribution d'intérêts, Matmut Vie rémunère le capital disponible sur la base de 50 % du taux de rémunération de l'année précédente",
+        "le paiement du capital met définitivement fin à l'adhésion"
+      ],
+      "page": 3
+    },
+    {
+      "name": "Garantie en cas de vie de l'assuré",
+      "description": "Possibilité pour l'adhérent d'obtenir, à tout moment, le paiement total ou partiel du capital disponible en effectuant un rachat. Le cas échéant, le rachat sera soumis à l'accord préalable du(des) bénéficiaire(s) acceptant(s) (article 7).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "le capital disponible",
+      "sub_limits": [],
+      "conditions": [
+        "sous réserve, le cas échéant, de l'accord du(des) bénéficiaire(s) acceptant(s)"
+      ],
+      "deductible": null,
+      "page": 3
+    },
+    {
+      "name": "Garantie de capital minimum (absence d'érosion par les frais et l'assiette)",
+      "description": "En l'absence de rachat partiel, le capital disponible ne pourra en aucun cas être inférieur à la somme des versements effectués nets de frais sur versement et nets des frais de gestion annuels prélevés sur le capital disponible tel que défini à l'article 6.1.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "plancher égal à la somme des versements effectués nets de frais sur versement et nets des frais de gestion annuels",
+      "sub_limits": [
+        "Tableau des valeurs minimales de rachat pour un versement de 10 000 € effectué à l'adhésion (1,25 % de frais de versement, 0,5 % de frais de gestion annuels) : Année 1 : 9 826 € ; Année 2 : 9 776 € ; Année 3 : 9 728 € ; Année 4 : 9 679 € ; Année 5 : 9 631 € ; Année 6 : 9 582 € ; Année 7 : 9 535 € ; Année 8 : 9 487 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "en l'absence de rachat partiel"
+      ],
+      "page": 3
+    },
+    {
+      "name": "Rémunération du capital disponible (participation aux bénéfices)",
+      "description": "Le contrat prévoit une rémunération du capital disponible déterminée annuellement en fonction de la participation aux bénéfices du contrat : 100 % du solde positif du compte de résultat technique et financier du contrat Matmut Vie Épargne est affecté à la provision pour participation aux bénéfices. Cette provision est définitivement acquise aux adhérents et leur est affectée au plus tard 8 ans après sa constitution. Au cours du 1er trimestre de l'exercice civil suivant, Matmut Vie détermine la part distribuée individuellement et le taux net de rémunération annuelle correspondant ; cette rémunération est attribuée aux adhésions en vigueur à cette date.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "taux de rémunération déterminé en fonction des sommes disponibles dans la provision pour participation aux bénéfices ; aucun taux d'intérêt garanti",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "les intérêts sont calculés sur la base du taux annuel et au prorata de la durée de placement pour les versements et rachats partiels réalisés en cours d'année ; ils augmentent les capitaux disponibles en date de valeur du 1er janvier",
+        "les versements sont investis et gérés dans l'actif général de Matmut Vie"
+      ],
+      "page": 3
+    },
+    {
+      "name": "Rachat partiel",
+      "description": "Vous pouvez à tout moment demander le règlement d'une partie du capital disponible en effectuant un rachat partiel. Le rachat partiel du capital ne met pas fin à l'adhésion : vous pouvez continuer à effectuer des versements libres et des versements programmés.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "montant qui ne peut être inférieur à 150 €",
+      "sub_limits": [
+        "possible seulement si le capital disponible après rachat partiel reste supérieur à 500 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "demande comportant votre choix fiscal, les modalités de règlement et, le cas échéant, l'accord écrit du(des) bénéficiaire(s) acceptant(s)",
+        "date de valeur = date d'enregistrement par Matmut Vie, qui correspond à la date de fin de rémunération du capital racheté",
+        "règlement par chèque ou virement dans les 10 jours ouvrés suivant la réception de la demande au siège de Matmut Vie",
+        "prise en compte dans la limite du capital disponible, sans tenir compte des éventuels versements en cours d'encaissement",
+        "frais en cas de rachat total ou partiel : gratuit"
+      ],
+      "page": 6
+    },
+    {
+      "name": "Rachat total",
+      "description": "Vous pouvez à tout moment demander le règlement de la totalité de votre capital disponible et mettre fin définitivement à votre adhésion.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "la totalité du capital disponible",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "demande comportant votre choix fiscal, l'original de votre certificat d'adhésion et, le cas échéant, l'accord écrit du(des) bénéficiaire(s) acceptant(s)",
+        "pour la période écoulée depuis la dernière attribution d'intérêts, rémunération sur la base de 50 % du taux de rémunération de l'année précédente, au prorata de la durée écoulée",
+        "règlement dans les 10 jours ouvrés suivant la réception de la demande, sous réserve qu'aucun versement ne soit en cours d'encaissement",
+        "si un versement est en cours d'encaissement, versement du capital disponible atteint avant prise en compte de ce versement et remboursement du versement net de frais dans un délai maximum de 30 jours",
+        "les avances éventuellement en cours, ainsi que les intérêts sur avance échus non payés, sont déduits du montant du capital racheté"
+      ],
+      "page": 7
+    },
+    {
+      "name": "Avance",
+      "description": "En cas de besoin momentané de liquidités, vous pouvez demander à bénéficier d'une avance, sous réserve, le cas échéant, de l'accord du(des) bénéficiaire(s) acceptant(s). L'avance est assimilée à un prêt accordé par Matmut Vie.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "montant au minimum de 500 € sans pouvoir excéder 80 % de votre capital disponible",
+      "sub_limits": [
+        "le montant de votre capital disponible au jour de l'octroi de l'avance, déduction faite du montant de l'avance, ne peut être inférieur à 500 €",
+        "durée maximum de 3 ans"
+      ],
+      "deductible": null,
+      "conditions": [
+        "à l'expiration d'une période de six mois à compter de la date d'effet de votre adhésion",
+        "faute de remboursement dans les 3 ans, l'avance sera considérée comme un rachat partiel",
+        "elle donne lieu à la perception d'intérêts annuels",
+        "les conditions de l'avance font l'objet d'un règlement spécifique, disponible sur simple demande au siège social de Matmut Vie"
+      ],
+      "page": 7
+    },
+    {
+      "name": "Information annuelle de l'adhérent",
+      "description": "Chaque année, Matmut Vie vous fait parvenir un relevé d'information qui comporte le taux de rémunération de votre capital disponible pour l'année, les intérêts incorporés à votre capital disponible, les prélèvements sociaux et fiscaux prévus par la réglementation, le montant disponible de votre capital au 1er janvier, ainsi que les informations prévues par le Code des assurances.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 6
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Absence de taux d'intérêt garanti, de garantie de fidélité et de valeur de réduction",
+      "description": "« Le contrat Matmut Vie Épargne ne comporte pas de taux d'intérêt garanti, ni garantie de fidélité, ni valeur de réduction. » (article 1). La rémunération dépend exclusivement de la participation aux bénéfices déterminée annuellement.",
+      "applies_to": "all",
+      "page": 4
+    },
+    {
+      "name": "Fiscalité française de l'assurance Vie : non-résidents fiscaux hors champ",
+      "description": "« L'adhésion est soumise à la fiscalité française de l'assurance Vie sauf pour les non résidents fiscaux. » (article 11). Le document ne décrit pas le régime applicable aux non-résidents fiscaux.",
+      "applies_to": "all",
+      "page": 12
+    },
+    {
+      "name": "Désignation d'une personne morale comme bénéficiaire : restriction",
+      "description": "Vous avez la possibilité de désigner, bénéficiaire en cas de décès de votre adhésion, une personne morale. Toutefois, cette désignation ne pourra concerner que les associations, fondations, reconnues d'utilité publique, aptes à recevoir des dons et legs.",
+      "applies_to": "Garantie en cas de décès de l'assuré",
+      "page": 8
+    }
+  ],
+  "deductibles": null,
+  "waiting_periods": [
+    {
+      "coverage": "Avance",
+      "duration": "six mois à compter de la date d'effet de votre adhésion",
+      "description": "À l'expiration d'une période de six mois à compter de la date d'effet de votre adhésion, en cas de besoin momentané de liquidités, vous pouvez demander à bénéficier d'une avance.",
+      "page": 7
+    },
+    {
+      "coverage": "Capital minimum",
+      "duration": "12 premiers mois d'adhésion",
+      "description": "Il vous est demandé, quel que soit le mode de versement que vous avez choisi, de constituer un capital disponible de plus de 500 € à l'issue des 12 premiers mois d'adhésion.",
+      "page": 5
+    },
+    {
+      "coverage": "Participation aux bénéfices",
+      "duration": "au plus tard 8 ans après sa constitution",
+      "description": "La provision pour participation aux bénéfices est définitivement acquise aux adhérents et leur est affectée au plus tard 8 ans après sa constitution (article 6.3 : « attribuée individuellement aux adhérents, au plus tard au cours des huit exercices suivants »).",
+      "page": 3
+    }
+  ],
+  "obligations": [
+    {
+      "name": "Conditions d'adhésion",
+      "description": "Pour adhérer au contrat Matmut Vie Épargne, vous devez : être adhérent à Matmut Mutualité ; lire la présente notice ; remplir et signer une demande d'adhésion au contrat collectif (sauf adhésion simplifiée enregistrée dans une agence Matmut) ; relire et signer le certificat d'adhésion au contrat collectif ; fournir un document officiel d'identité en cours de validité comportant une photographie ; fournir un justificatif de domicile datant de moins de trois mois ; effectuer un versement initial par chèque libellé à l'ordre de Matmut Vie, ou par prélèvement sur un compte bancaire relevant de la zone SEPA.",
+      "timing": "à l'adhésion",
+      "sanction": null,
+      "page": 4
+    },
+    {
+      "name": "Justificatifs au titre de la lutte contre le blanchiment et le financement du terrorisme",
+      "description": "Afin de répondre aux obligations de contrôle à la charge de l'assureur, dans le cadre du dispositif de lutte contre le blanchiment des capitaux et le financement du terrorisme, Matmut Vie pourra être amenée à vous demander, à l'adhésion ou en cours d'adhésion, des informations et justificatifs complémentaires.",
+      "timing": "à l'adhésion ou en cours d'adhésion",
+      "sanction": null,
+      "page": 4
+    },
+    {
+      "name": "Versement initial minimum",
+      "description": "Si vous choisissez d'effectuer un premier versement libre, votre versement initial doit être au minimum de 500 €. Si vous choisissez de mettre en place des versements programmés mensuels, le versement mensuel ne peut être inférieur à 45 € et vous effectuez à l'adhésion un versement initial du montant de votre versement programmé mensuel. Si vous combinez les deux solutions, le versement initial doit être au moins égal au versement programmé mensuel choisi.",
+      "timing": "à l'adhésion",
+      "sanction": null,
+      "page": 5
+    },
+    {
+      "name": "Constitution d'un capital minimum",
+      "description": "Il vous est demandé, quel que soit le mode de versement choisi, de constituer un capital disponible de plus de 500 € à l'issue des 12 premiers mois d'adhésion.",
+      "timing": "à l'issue des 12 premiers mois d'adhésion",
+      "sanction": "Dans le cas contraire, Matmut Vie se réserve le droit de mettre fin à votre adhésion et de procéder au rachat total de votre adhésion si le capital disponible restait inférieur à 500 €.",
+      "page": 5
+    },
+    {
+      "name": "Mandat de prélèvement SEPA et relevé d'identité bancaire",
+      "description": "Afin de vous permettre d'effectuer les versements à venir par prélèvement ou de bénéficier du règlement par virement des capitaux rachetés, il vous est demandé de remplir un mandat de prélèvement SEPA et de fournir un relevé d'identité bancaire. Pour la mise en place ou la modification de versements programmés mensuels, la demande doit parvenir à Matmut Vie avant le 15 du mois.",
+      "timing": "à l'adhésion ou lors de la mise en place des versements programmés",
+      "sanction": "En cas de rejet du prélèvement automatique, Matmut Vie se réserve le droit d'arrêter les versements programmés. Vous pouvez alors continuer de compléter votre capital disponible en réalisant des versements libres.",
+      "page": 5
+    },
+    {
+      "name": "Information de l'assureur en cas de dépôt de la clause bénéficiaire chez un notaire",
+      "description": "La clause bénéficiaire peut être rédigée par acte sous seing privé ou par acte authentique et être déposée chez un notaire. Dans ce cas, vous devez en informer Matmut Vie afin que cette clause puisse être prise en compte lors du décès de l'assuré.",
+      "timing": "en cours d'adhésion",
+      "sanction": null,
+      "page": 7
+    },
+    {
+      "name": "Précision des coordonnées des bénéficiaires nominatifs",
+      "description": "Afin de faciliter la recherche du(des) bénéficiaire(s) au moment du décès de l'assuré, il est nécessaire, lorsque vous désignez le(s) bénéficiaire(s) de façon nominative, de préciser à Matmut Vie leurs coordonnées, notamment leur nom, prénom(s), date et lieu de naissance.",
+      "timing": "à la désignation",
+      "sanction": null,
+      "page": 8
+    },
+    {
+      "name": "Consentement du bénéficiaire acceptant",
+      "description": "En cas d'acceptation de la clause bénéficiaire, vous devrez obtenir le consentement du bénéficiaire acceptant pour modifier le libellé de votre clause bénéficiaire, effectuer le rachat total ou partiel de votre adhésion, faire une demande d'avance ou de nantissement.",
+      "timing": "après acceptation de la clause bénéficiaire",
+      "sanction": null,
+      "page": 8
+    },
+    {
+      "name": "Mise à jour des informations concernant l'adhérent",
+      "description": "Pour faciliter les échanges avec l'adhérent et prévenir l'existence de contrats d'assurance Vie non réclamés, l'adhérent s'engage à informer l'assureur en cas de changement de nom, d'adresse ou de coordonnées bancaires en cours d'adhésion.",
+      "timing": "en cours d'adhésion",
+      "sanction": null,
+      "page": 12
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Demander un rachat partiel",
+      "description": "Faire parvenir à Matmut Vie une demande de rachat partiel comportant votre choix fiscal, les modalités de règlement, ainsi que, le cas échéant, l'accord écrit du(des) bénéficiaire(s) acceptant(s). Le montant ne peut être inférieur à 150 € et le capital disponible après rachat doit rester supérieur à 500 €.",
+      "deadline": "règlement par chèque ou virement dans les 10 jours ouvrés suivant la réception de votre demande de rachat partiel au siège de Matmut Vie",
+      "page": 6
+    },
+    {
+      "step": "Demander un rachat total",
+      "description": "Faire parvenir à Matmut Vie une demande de rachat total comportant notamment votre choix fiscal, ainsi que l'original de votre certificat d'adhésion, et le cas échéant, l'accord écrit du(des) bénéficiaire(s) acceptant(s).",
+      "deadline": "versement du capital disponible dans les 10 jours ouvrés suivant la réception de votre demande de rachat au siège de Matmut Vie ; si un versement est en cours d'encaissement, remboursement de ce versement net de frais dans un délai maximum de 30 jours",
+      "page": 7
+    },
+    {
+      "step": "Demander une avance",
+      "description": "Après six mois à compter de la date d'effet de l'adhésion, demander à bénéficier d'une avance (minimum 500 €, maximum 80 % du capital disponible), sous réserve le cas échéant de l'accord du(des) bénéficiaire(s) acceptant(s). Les conditions de l'avance font l'objet d'un règlement spécifique disponible sur simple demande au siège social de Matmut Vie.",
+      "deadline": "durée maximum de 3 ans ; faute de remboursement dans les 3 ans, l'avance sera considérée comme un rachat partiel",
+      "page": 7
+    },
+    {
+      "step": "Déclarer le décès de l'assuré et réunir les pièces",
+      "description": "Adresser à Matmut Vie une demande complète comportant : l'exemplaire original du certificat d'adhésion ; un acte de décès de l'assuré ; la photocopie recto verso de la carte d'identité en cours de validité de chaque bénéficiaire (ou des 4 premières pages du passeport ou de la carte de séjour) ; l'attestation sur l'honneur établie par chaque bénéficiaire en application de l'article 990 I du Code général des impôts ; tout autre document nécessaire au règlement du capital qu'il soit de nature fiscale ou administrative.",
+      "deadline": "règlement du capital atteint dans un délai de 10 jours ouvrés à compter de la réception de la demande complète",
+      "page": 8
+    },
+    {
+      "step": "Renoncer à l'adhésion",
+      "description": "Adresser à Matmut Vie une lettre recommandée avec accusé de réception, ou une lettre recommandée électronique adressée à matmutvie@matmut.fr, datée et signée, sur le modèle figurant à l'article 9 : « Je soussigné, Nom Prénom Adresse, déclare renoncer à mon adhésion au contrat Matmut Vie Épargne n° XXXX souscrit le JJ/MM/AAAA et demande le remboursement des versements effectués. »",
+      "deadline": "dans un délai de 30 jours calendaires révolus à compter de la réception de votre certificat d'adhésion ; remboursement de l'intégralité des sommes versées dans un délai de 30 jours suivant la réception de la lettre recommandée",
+      "page": 8
+    },
+    {
+      "step": "Réclamation - recours hiérarchique",
+      "description": "En cas de désaccord, vous adresser d'abord à l'agence ou au service qui est à l'origine de ce désaccord, afin qu'une réponse vous soit apportée par son responsable. Un courrier vous est adressé dans les 10 jours ouvrables suivant l'envoi de votre réclamation.",
+      "deadline": "accusé sous 10 jours ouvrables ; position communiquée au plus tard dans le délai de deux mois à compter de l'envoi de votre réclamation, sauf circonstances exceptionnelles",
+      "page": 9
+    },
+    {
+      "step": "Réclamation - service « Réclamations »",
+      "description": "Si cette réponse ne vous donne pas satisfaction, saisir le service « Réclamations » de notre groupe par mail (service.reclamations@matmut.fr), ou par courrier 66, rue de Sotteville 76030 Rouen CEDEX 01.",
+      "deadline": "position définitive de la mutuelle sous 30 jours",
+      "page": 9
+    },
+    {
+      "step": "Médiation de l'assurance",
+      "description": "Saisir gratuitement le médiateur de l'assurance sur www.mediation-assurance.org ou par courrier à La médiation de l'assurance - TSA 50110 - 75441 Paris CEDEX 09. Le médiateur peut également être saisi deux mois après l'envoi de votre réclamation, à défaut de réponse. L'avis du médiateur de l'assurance ne nous lie, ni vous, ni nous, chacun conservant le droit de saisir les tribunaux.",
+      "deadline": "réponse dans un délai maximal de 90 jours selon la charte du médiateur ; la demande doit obligatoirement intervenir dans le délai d'un an à compter de votre réclamation écrite initiale et ne faire l'objet à ce stade d'aucune action contentieuse",
+      "page": 9
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Adhésion individuelle : « La durée de l'adhésion est viagère. Elle prend fin notamment au décès de l'assuré, ou par anticipation, en cas de rachat total du capital disponible. » (article 4). Contrat collectif : « Le contrat collectif Matmut Vie Épargne est souscrit pour une durée d'un an, renouvelable annuellement par tacite reconduction. » (article 12). La durée d'adhésion recommandée dépend notamment de la situation patrimoniale de l'adhérent, de son attitude vis-à-vis du risque, du régime fiscal en vigueur et des caractéristiques du contrat choisi.",
+    "tacit_renewal": true,
+    "notice_period": "au minimum deux mois avant l'échéance principale fixée au 1er janvier (résiliation du contrat collectif)",
+    "methods": [
+      "Résiliation du contrat collectif par l'une ou l'autre des parties (Matmut Mutualité ou Matmut Vie) par lettre recommandée avec avis de réception, au minimum deux mois avant l'échéance principale fixée au 1er janvier",
+      "Renonciation de l'adhérent dans les 30 jours calendaires révolus à compter de la réception du certificat d'adhésion, par lettre recommandée avec accusé de réception ou lettre recommandée électronique à matmutvie@matmut.fr",
+      "Rachat total du capital disponible, qui met fin définitivement à l'adhésion",
+      "Rachat total à l'initiative de Matmut Vie si le capital disponible reste inférieur à 500 € à l'issue des 12 premiers mois",
+      "Fin de l'adhésion au décès de l'assuré, le paiement du capital y mettant définitivement fin",
+      "Dénonciation de l'adhésion par l'adhérent en raison de modifications apportées par avenants conclus entre Matmut Vie et Matmut Mutualité"
+    ],
+    "special_rights": [
+      "En cas de résiliation du contrat collectif, les adhésions en vigueur ne seront pas remises en cause : sauf accord spécifique, aucune nouvelle adhésion ne sera plus acceptée, les versements ne seront plus autorisés et les adhérents conserveront le montant acquis de leur capital",
+      "En cas de liquidation ou de dissolution de Matmut Mutualité, quelle qu'en soit la cause et conformément à l'article L. 141-6 du Code des assurances, le contrat se poursuivra de plein droit entre Matmut Vie et les personnes antérieurement adhérentes au contrat",
+      "L'adhérent est informé des modifications du contrat au moins trois mois avant la date prévue pour leur entrée en vigueur et peut dénoncer son adhésion en raison de ces modifications"
+    ],
+    "page": 4
+  },
+  "prescription_period": {
+    "description": "Toutes actions dérivant d'un contrat d'assurance sont prescrites par deux ans à compter de l'événement qui y donne naissance. Ce délai ne court pas : 1 - en cas de réticence, omission, déclaration fausse ou inexacte sur le risque couru, que du jour où l'assureur en a eu connaissance ; 2 - en cas de sinistre, que du jour où les intéressés en ont eu connaissance, s'ils prouvent qu'ils l'ont ignoré jusque-là. Quand l'action de l'assuré contre l'assureur a pour cause le recours d'un tiers, le délai ne court que du jour où ce tiers a exercé une action en justice contre l'assuré ou a été indemnisé par ce dernier. La prescription est portée à dix ans dans les contrats d'assurance sur la vie lorsque le bénéficiaire est une personne distincte du souscripteur. Pour les contrats d'assurance sur la vie, nonobstant les dispositions du 2°, les actions du bénéficiaire sont prescrites au plus tard trente ans à compter du décès de l'assuré. Conformément à l'article L 192-1 du Code des assurances, si le souscripteur a sa résidence principale dans les départements du Bas-Rhin, du Haut-Rhin et de la Moselle, le délai prévu à l'article L114-1, alinéa 1er du Code des assurances est porté à 5 ans en matière d'assurance sur la vie. La prescription peut être interrompue par les causes ordinaires (articles 2240, 2241 et 2244 du Code civil) ainsi que par la désignation d'un expert à la suite d'un sinistre et par l'envoi d'une lettre recommandée avec accusé de réception. Les parties au contrat d'assurance ne peuvent, même d'un commun accord, ni modifier la durée de la prescription, ni ajouter aux causes de suspension ou d'interruption de celle-ci.",
+    "page": 8
+  },
+  "premium": {
+    "notes": [
+      "Versements libres ou versements programmés mensuels, ou une combinaison de ces deux modes de versements.",
+      "Versement initial libre : au minimum 500 €. Versement programmé mensuel : au minimum 45 €, prélevé automatiquement tous les mois, en début de mois.",
+      "Versement libre complémentaire en cours d'adhésion : ne peut être inférieur à 150 €.",
+      "Frais à l'entrée : pas de frais d'entrée. Frais sur versements au maximum de 1,25 %, dégressifs : 1,25 % pour un versement < à 50 000 € ; 1 % pour un versement > à 50 000 € et < 75 000 € ; 0,5 % pour un versement > à 75 000 €.",
+      "Frais de gestion annuels : 0,50 % des capitaux disponibles moyens gérés dans l'exercice, prélevés sur le capital disponible en fin d'exercice.",
+      "Frais de sortie : frais en cas de rachat total ou partiel : gratuit. Autres frais : néant.",
+      "Date de valeur des versements : chaque versement, net de frais, commence à produire des intérêts à compter du 7e jour ouvré suivant la réception du chèque par Matmut Vie ; du 7e jour ouvré suivant la demande de prélèvement pour les versements libres ; du 4e jour ouvré suivant la date de prélèvement pour les versements programmés mensuels.",
+      "Prélèvements sociaux : 17,2 %, appliqués lors de l'inscription des produits de l'année et, en cours d'année, en cas de règlement du capital disponible."
+    ],
+    "indexation": null,
+    "page": 5
+  },
+  "special_conditions": [
+    {
+      "name": "Nature et parties au contrat",
+      "description": "Matmut Vie Épargne est un contrat collectif d'assurance sur la vie à adhésion facultative, souscrit par Matmut Mutualité - 66, rue de Sotteville 76100 Rouen (le souscripteur), auprès de la société d'assurance Vie, Matmut Vie - 66, rue de Sotteville 76100 Rouen, filiale du Groupe Matmut, régie par le Code des assurances (l'assureur). Le contrat relève de la branche 20 (Vie-décès) de l'article R. 321-1 du Code des assurances.",
+      "page": 4
+    },
+    {
+      "name": "Objet social du souscripteur Matmut Mutualité",
+      "description": "Matmut Mutualité a pour objet la réalisation des opérations d'assurance des activités relevant des branches 1 - 2 définies à l'article R. 211-2 du Code de la mutualité (couvrir les risques de dommages corporels liés à des accidents ou à la maladie) ; de mener une action de prévoyance, de solidarité et d'entraide ; d'assurer à titre accessoire la prévention des risques de dommages corporels ainsi que la protection de l'enfance, de la famille, des personnes âgées, dépendantes ou handicapées. Elle peut présenter des garanties dont le risque est porté par un autre organisme habilité et recourir à des intermédiaires d'assurance.",
+      "page": 4
+    },
+    {
+      "name": "Prise d'effet de l'adhésion",
+      "description": "L'adhésion prend effet à la date de réception par Matmut Vie de votre demande d'adhésion complète et conforme, accompagnée du règlement de votre versement initial, sous réserve de l'encaissement effectif de celui-ci. La date d'effet de l'adhésion figure sur le certificat d'adhésion.",
+      "page": 4
+    },
+    {
+      "name": "Composition du compte de résultat du contrat",
+      "description": "Pour chaque exercice, Matmut Vie établit le compte de résultat du contrat. Au crédit : les versements de l'exercice nets de frais ; les capitaux disponibles (provisions mathématiques) au 31 décembre de l'exercice précédent ; la provision pour participation aux bénéfices au 31 décembre de l'exercice précédent après affectation du résultat positif ; les reprises sur les autres provisions techniques ou réglementaires ; les produits financiers et plus-values ; les profits de réassurance. Au débit : les capitaux disponibles au 31 décembre de l'exercice ; la provision pour participation aux bénéfices avant affectation ; les prestations payées ou provisionnées ; les frais de gestion annuels des adhésions fixés à 0,50 % des capitaux disponibles moyens gérés dans l'exercice ; les prélèvements sociaux ; les dotations aux autres provisions ; les charges financières et administratives et moins-values ; les charges fiscales et prélèvements obligatoires ; les pertes de réassurance ; le solde débiteur éventuel de l'exercice précédent. Lorsqu'il est positif, le solde de ce compte est affecté à la provision pour participation aux bénéfices.",
+      "page": 6
+    },
+    {
+      "name": "Désignation et acceptation du bénéficiaire",
+      "description": "À l'adhésion, vous déterminez le(s) bénéficiaire(s) du capital disponible au moment du décès de l'assuré : clause bénéficiaire standard proposée ou clause libre, éventuellement par acte sous seing privé ou acte authentique déposé chez un notaire. La clause retenue est portée sur le certificat d'adhésion. Tant que le bénéfice n'a pas été accepté, vous pouvez à tout moment modifier le(s) bénéficiaire(s) par avenant. Au terme du délai de renonciation de 30 jours, l'acceptation s'effectue par écrit selon les modalités de l'article L. 132-9 du Code des assurances : soit par avenant signé par l'adhérent, le bénéficiaire et l'assureur, soit par acte sous seing privé ou acte authentique signé par l'adhérent et le bénéficiaire et notifié à l'assureur par écrit.",
+      "page": 7
+    },
+    {
+      "name": "Fiscalité applicable aux rachats (en vigueur au 1er janvier 2025 et susceptible d'évoluer)",
+      "description": "Produits des versements réalisés avant le 27/09/2017 : contrat de 0 à 4 ans, choix entre imposition sur le revenu (IR) ou prélèvement forfaitaire libératoire (PFL) de 35 % et prélèvements sociaux de 17,2 %, soit au global 52,2 % ; de 4 à 8 ans, PFL de 15 % + 17,2 %, soit 32,2 % ; de + 8 ans, PFL de 7,5 % + 17,2 %, soit 24,7 %. Produits des versements réalisés à compter du 27/09/2017 : de 0 à 8 ans, prélèvements fiscaux de 12,8 % + prélèvements sociaux de 17,2 % = 30 %, ou dispense de prélèvement fiscal sur demande ; de + 8 ans, 7,5 % + 17,2 % ou dispense. Système de dispense : de façon déclarative, si l'adhérent a un revenu fiscal de référence en N-2 de 25 000 € ou 50 000 € en cas de déclaration à 2. Au-delà de 150 000 € (300 000 € pour un couple) versés nets de rachat tous contrats confondus au 31/12/N-1, la part des produits provenant de l'excédent est taxée au PFU (12,8 % au lieu de 7,5 %, en plus des 17,2 %). Abattement annuel de 4 600 € (personne seule) ou 9 200 € (foyer fiscal) en cas de rachat sur un contrat de plus de 8 ans.",
+      "page": 12
+    },
+    {
+      "name": "Fiscalité applicable en cas de décès",
+      "description": "Primes versées avant le 70e anniversaire de l'assuré (article 990 I du CGI) : prélèvement sur la part revenant à chaque bénéficiaire au-delà d'un abattement de 152 500 €, tous contrats confondus ; 20 % pour la part comprise entre 152 501 € et 700 000 €, 31,25 % pour la part excédant 700 000 €. Primes versées après le 70e anniversaire (article 757 B du CGI) : droits de succession selon le degré de parenté au-delà d'un abattement de 30 500 €, tous bénéficiaires et contrats confondus. Les conjoints, partenaires de pacs et, sous conditions cumulatives, les frères et sœurs de l'adhérent sont exonérés de droits de succession et du prélèvement de 20 %.",
+      "page": 13
+    },
+    {
+      "name": "Contrôle de l'assureur",
+      "description": "L'organisme chargé du contrôle de Matmut Vie est l'Autorité de contrôle prudentiel et de résolution (ACPR) située 4, place de Budapest - CS 92459 - 75436 Paris CEDEX 9.",
+      "page": 12
+    },
+    {
+      "name": "Loi applicable et langue",
+      "description": "La loi applicable au présent contrat est la loi française. La langue utilisée pendant la durée du contrat est la langue française.",
+      "page": 12
+    },
+    {
+      "name": "Fonds de garantie",
+      "description": "En application de l'article L. 423-1 du Code des assurances, Matmut Vie adhère à un fonds de garantie destiné à préserver les droits des assurés et bénéficiaires de ses contrats d'assurance Vie.",
+      "page": 12
+    },
+    {
+      "name": "Fonctionnement du contrat collectif et comité de gestion paritaire",
+      "description": "Des représentants de Matmut Mutualité et de Matmut Vie se réunissent au moins une fois par an, dans le cadre d'un comité de gestion paritaire, pour étudier les conditions techniques du contrat et leurs évolutions éventuelles. Le contrat collectif Matmut Mutualité est disponible sur simple demande auprès de Matmut Vie. Les droits et obligations de l'adhérent peuvent être modifiés par des avenants conclus entre Matmut Vie et Matmut Mutualité.",
+      "page": 13
+    },
+    {
+      "name": "Commercialisation à distance",
+      "description": "L'offre de commercialisation à distance du contrat Matmut Vie Épargne est notamment régie par l'article L. 112-2-1 du Code des assurances. La durée de validité des informations communiquées à l'adhérent correspond à la durée du contrat, sous réserve d'éventuelles modifications du contrat collectif et des évolutions législatives, réglementaires et fiscales.",
+      "page": 14
+    },
+    {
+      "name": "Protection des données personnelles",
+      "description": "Les sociétés du Groupe Matmut collectent et traitent les données personnelles dans le respect du RGPD du 27 avril 2016 et de la loi du 06 janvier 1978 modifiée. Finalités, catégories de données, destinataires, durées de conservation (à titre indicatif : prospection commerciale 3 ans à compter du dernier contact ; contrat d'assurance Vie 10-30 ans suite au décès de l'assuré ; LCB-FT 5 ans ; lutte contre la fraude 5 ans ; cookies 13 mois), lieux d'hébergement, mesures de sécurité et droits des personnes (accès, rectification, effacement, limitation, opposition, portabilité, directives post-mortem) sont détaillés à l'article 10.3. Les droits s'exercent par courrier électronique à dpd@matmut.fr ou par courrier postal à Matmut, à l'attention du Délégué à la protection des données, 66 rue de Sotteville 76100 Rouen. Réclamation possible auprès de la CNIL.",
+      "page": 9
+    }
+  ],
+  "gaps": [
+    "PORTEUR DE RISQUE / DIVERGENCE AVEC LES MÉTADONNÉES DE LA TÂCHE : le document n'imprime nulle part la « Mutuelle assurance des travailleurs mutualistes » ni le Siren 775 701 477 annoncés par les métadonnées. Deux entités distinctes sont imprimées, aux rôles explicitement séparés : l'ASSUREUR est « Matmut Vie / Société Anonyme au capital de 35 887 500 € entièrement libéré, 344 898 358 RCS Rouen / Entreprise régie par le Code des assurances », filiale du Groupe Matmut ; le SOUSCRIPTEUR du contrat collectif est « Matmut Mutualité / Mutuelle soumise aux dispositions du Livre II du Code de la mutualité, immatriculée au répertoire SIRENE sous le numéro 775 701 485 ». Le Siren de Matmut Mutualité (775 701 485) ressemble à celui de la mutuelle d'assurance annoncée par la tâche (775 701 477) mais en diffère : ce sont deux personnes morales différentes, l'une relevant du Code de la mutualité, l'autre du Code des assurances. insurer_name restitue les deux identités imprimées, avec leur rôle ; insurer_slug reste « matmut » pour le rattachement de la source.",
+    "TYPE DE DOCUMENT : il s'agit d'une « Notice d'information » d'un contrat collectif à adhésion facultative, et non de conditions générales au sens strict. Le document_type « conditions_generales » fourni par la tâche a été conservé, la notice tenant lieu de corps contractuel opposable à l'adhérent. Le contrat collectif lui-même n'est pas reproduit : « Le contrat collectif Matmut Mutualité est disponible sur simple demande auprès de Matmut Vie » (article 12).",
+    "AUCUNE SECTION D'EXCLUSIONS : la notice ne comporte ni section « Exclusions », ni « Risques exclus », ni « Ce qui n'est pas garanti » — ce qui est cohérent avec un contrat d'épargne en euros sans garantie de prévoyance complémentaire. Les trois entrées d'exclusions restituées sont les seules non-garanties écrites en toutes lettres : l'absence de taux d'intérêt garanti / de garantie de fidélité / de valeur de réduction (article 1), l'exclusion des non-résidents fiscaux du champ fiscal décrit (article 11), et la restriction des personnes morales pouvant être désignées bénéficiaires (article 8.1). Rien n'a été ajouté au titre d'exclusions « habituelles » d'un contrat vie : ni suicide de la première année, ni fait intentionnel du bénéficiaire, ni guerre — ces clauses ne figurent pas dans ce document.",
+    "AUCUNE FRANCHISE : le contrat étant un contrat d'épargne, aucune franchise n'est mentionnée ; deductibles est laissé null plutôt que renseigné par défaut. Les seuls seuils monétaires sont des minima de versement et de capital, restitués dans les coverages et dans premium.",
+    "PUBLIC VISÉ : la notice ne nomme aucune catégorie de clientèle. La seule condition d'accès est « être adhérent à Matmut Mutualité ». Contrairement à la notice sœur Matmut Vie Générations, ce document n'énonce ni condition d'âge, ni exigence que l'adhérent soit une personne physique. target_audience est donc laissé null et la formulation du document est reportée dans target_audience_note.",
+    "COUVERTURES : les items « Rachat partiel », « Rachat total » et « Avance » ne sont pas présentés par le document comme des garanties mais comme des modalités de disponibilité du capital (article 7). Ils sont restitués dans coverages parce que ce sont les prestations concrètes du contrat et que le schéma n'offre pas de bloc dédié ; leur nature est signalée ici. Les seules « Garanties offertes » que l'encadré nomme comme telles sont le paiement du capital en cas de décès et la disponibilité du capital en cas de vie.",
+    "DATE D'ÉDITION : aucune mention « édition MM/AAAA ». La date provient du seul code de référence imprimé en pied de la dernière page de texte : « VP.11 - 01/25 » (séparateur point pour le code interne, puis tiret ASCII entouré d'espaces avant le mois — notation encore différente de celles des fiches Avantage de la même bibliothèque, qui écrivent « – 01/26 » ou « – 01-26 » avec un tiret cadratin). Une seconde date en clair figure dans le corps : « Article 11 Information sur la fiscalité du contrat Matmut Vie Épargne (en vigueur au 1er janvier 2025 et susceptible d'évoluer) » (page 12). Elle ne contredit pas le code — les deux désignent 2025 — mais elle porte sur la fiscalité décrite, pas sur l'édition du document ; edition_date reprend donc le code, et la mention en clair est conservée telle quelle dans special_conditions. Le préfixe « VP.11 » ne se rattache visiblement pas au nom du produit (MVE) là où la notice sœur porte « MVG.NOTICE - 01/25 » ; sa signification n'est pas expliquée par le document.",
+    "COUCHE TEXTE — CARACTÈRES INVISIBLES : la couche texte contient 115 caractères de contrôle U+0007 (BEL), placés systématiquement juste après les puces « • » et les tirets de liste, ainsi que 62 espaces fines insécables U+202F (dans « vous devez[U+202F]: », « 0,50[U+202F]% », « Matmut[U+202F]Vie »), 15 espaces insécables U+00A0, 13 U+2002, 13 U+2003, 16 U+2009 et un tiret conditionnel U+00AD. Aucun de ces caractères n'est de l'espace au sens de Python ; un quote retapé à la main échouerait donc silencieusement. Toutes les key_quotes ont été découpées programmatiquement comme spans exacts du texte et conservent ces caractères. Aucune perte de ligature fi/ff/fl (« définition », « effectuer », « bénéficiaire » sortent corrects), aucun glyphe de zone privée, aucun accent décomposé NFD (le texte est déjà en NFC).",
+    "COUCHE TEXTE — CÉSURES : 28 mots sont coupés par un vrai trait d'union en fin de ligne (« obli-\\ngations », « d'obte-\\nnir », « effec-\\ntués »). Les key_quotes qui les traversent les conservent tels quels ; le vérificateur de grounding neutralise les traits d'union et les blancs, la citation reste donc vérifiable, mais le texte cité n'est pas lisible mot à mot sans reconstitution.",
+    "FORMULE DE VALEUR DE RACHAT ILLISIBLE : l'article 7.4 (page 7) contient une formule mathématique dont la couche texte sort désordonnée : les symboles de sommation, les bornes « t / j = 01/01 » et les quotients « nbj / nbja » sont extraits séparément et déportés en bas de page, après l'article 8.1. La formule « Valeur de rachat (t) = capital disponible au 1er janvier x (1 + i) … » n'est donc pas restituable telle qu'imprimée. Les définitions littérales des variables (i, nbj, nbja, nbjv, nbjr) sont, elles, intactes et ont été reprises. Aucune reconstruction de la formule n'a été tentée.",
+    "TYPOGRAPHIE CONSERVÉE : le document imprime « 75436 Paris CEDEX 9.. » avec deux points consécutifs (article 10.4), « si l'assuré en fait lademande » sans espace (tableau de fiscalité, page 13), « prévues par ta réglementation » au lieu de « la » (article 10.3, page 11), et « met en oeuvre » à côté de « mettre en œuvre » dans la même phrase. Ces coquilles de l'assureur sont conservées telles quelles dans les citations, non corrigées.",
+    "MONTANTS AVEC ESPACES ATYPIQUES : le tableau de fiscalité de la page 13 imprime « 50  000  € » et « 150 000  € » avec des espaces doubles ou fines à l'intérieur des montants. Les montants ont été restitués tels que lisibles dans les blocs de prose ; les citations concernées conservent l'espacement exact.",
+    "TABLEAUX : les trois tableaux du document (barème des frais sur versements, article 5.5 ; valeurs minimales de rachat, article 7.1 ; fiscalité des rachats, articles 11.1) sortent de la couche texte sous forme de cellules successives sans structure de ligne. Leur contenu a été reconstitué en prose à partir de l'ordre des cellules, qui est ici sans ambiguïté (chaque valeur suit immédiatement son libellé). Le tableau de fiscalité de la page 13 est le seul dont la mise en page fusionne visuellement les tranches « 0 à 4 ans » et « 4 à 8 ans » sur une même cellule de droite : la restitution en prose suit cette fusion.",
+    "VÉRIFICATION SOURCE : le texte du prompt n'était pas tronqué (15 pages, ~57 000 caractères, très en deçà du plafond). Il a néanmoins été confronté au PDF local data/fr/pdfs/matmut/assurance-vie/matmut-vie-epargne-8d4faebc.pdf via le même appel que le pipeline (PyMuPDF, page.get_text(\"text\")) : les 15 pages sortent identiques octet pour octet. Les key_quotes sont des spans exacts de ce texte et ont été revérifiées contre le PDF avec les fonctions norm()/nospace() de verify_grounding.py.",
+    "PAGINATION : la numérotation imprimée sur les pages est décalée d'une unité par rapport à la pagination PDF (la page PDF 3 porte le folio « 4 », la page PDF 14 porte le folio « 15 »). Tous les champs page de cette extraction citent la pagination PDF, conformément aux marqueurs [[page N]].",
+    "NON DIT : la notice ne mentionne ni le taux de rémunération effectivement servi au titre d'un exercice donné, ni les frais d'arbitrage (le contrat est mono-support en euros), ni le sort des adhésions en cas de défaillance de Matmut Vie au-delà du renvoi au fonds de garantie de l'article L. 423-1, ni de clause de suicide, ni de délai de carence pour la garantie décès."
+  ],
+  "key_quotes": [
+    {
+      "quote": "1 - Nature du contrat\nMatmut Vie Épargne est un contrat collectif d’assurance sur la \nvie, libellé en euros, à adhésion facultative. Les droits et obli-\ngations de l’adhérent peuvent être modifiés par des avenants \nau contrat, conclus entre Matmut Vie et Matmut Mutualité. \nL’adhérent est préalablement informé de ces modifications.",
+      "page": 3,
+      "context": "Encadré, 1 - Nature du contrat"
+    },
+    {
+      "quote": "En cas de décès de l’assuré : paiement du capital disponible \nau(x) bénéficiaire(s) désigné(s) par l’adhérent (article 8).\n• \u0007En cas de vie de l’assuré : possibilité pour l’adhérent d’obte-\nnir, à tout moment, le paiement total ou partiel du capital \ndisponible en effectuant un rachat. Le cas échéant, le rachat \nsera soumis à l’accord préalable du(des) bénéficiaire(s) \nacceptant(s) (article 7).\nEn l’absence de rachat partiel, le capital disponible ne pourra \nen aucun cas être inférieur à la somme des versements effec-\ntués nets de frais sur versement et nets des frais de gestion \nannuels prélevés sur le capital disponible tel que défini à \nl’article 6.1.",
+      "page": 3,
+      "context": "Encadré, 2 - Garanties offertes"
+    },
+    {
+      "quote": "Le contrat Matmut Vie Épargne prévoit une rémunération \ndu capital disponible qui est déterminée annuellement \nen fonction de la participation aux bénéfices du contrat : \n100 % du solde positif du compte de résultat technique \net financier du contrat Matmut Vie Épargne est affecté à \nla provision pour participation aux bénéfices. Cette provi-\nsion est définitivement acquise aux adhérents et leur est \naffectée au plus tard 8 ans après sa constitution.",
+      "page": 3,
+      "context": "Encadré, 3 - Participation aux bénéfices"
+    },
+    {
+      "quote": "Frais à l’entrée et sur versement :\n- pas de frais d’entrée,\n- \u0007les frais sur versements sont au maximum de 1,25 %. \nLe barème dégressif pour les versements à partir de \n50 000 € est détaillé à l’article 5.\n• \u0007Frais en cours de vie de l’adhésion :\n- \u0007frais de gestion annuels : les frais de gestion annuels sont \nfixés à 0,50 % des capitaux disponibles moyens gérés \ndans l’exercice et sont prélevés sur le capital disponible \nen fin d’exercice.\n• \u0007Frais de sortie :\n- frais en cas de rachat total ou partiel : gratuit.\n• \u0007Autres frais :\n- néant.",
+      "page": 3,
+      "context": "Encadré, 5 - Frais liés à l'adhésion"
+    },
+    {
+      "quote": "Le contrat Matmut Vie Épargne ne comporte pas de taux d’intérêt garanti, ni garantie de fidélité, ni valeur de réduction.",
+      "page": 4,
+      "context": "Article 1 - Objet du contrat : absence de garanties"
+    },
+    {
+      "quote": "Matmut Vie Épargne est un contrat collectif d’assurance sur la vie à adhésion facultative, souscrit par :\n• \u0007Matmut Mutualité - 66, rue de Sotteville 76100 Rouen (le souscripteur),\nauprès de :\n• \u0007la société d’assurance Vie, Matmut Vie - 66, rue de Sotteville 76100 Rouen, filiale du Groupe Matmut, régie par le Code des \nassurances (l’assureur).",
+      "page": 4,
+      "context": "Article 2 - Nature du contrat : souscripteur et assureur"
+    },
+    {
+      "quote": "Le contrat Matmut Vie Épargne relève de la branche 20 (Vie-décès) de l’article R. 321-1 du Code des assurances.",
+      "page": 4,
+      "context": "Article 2 - Branche réglementaire"
+    },
+    {
+      "quote": "Pour adhérer au contrat Matmut Vie Épargne, vous devez :\n• \u0007être adhérent à Matmut Mutualité ;\n• \u0007lire la présente notice ;\n• \u0007remplir et signer une demande d’adhésion au contrat collectif (sauf adhésion simplifiée enregistrée dans une agence Matmut) ;\n• \u0007relire et signer le certificat d’adhésion au contrat collectif ;\n• \u0007fournir un document officiel d’identité, comprenant les nom, prénom, date et lieu de naissance de l’adhérent, en cours de validité \net comportant une photographie (carte nationale d’identité, passeport, titre de séjour…) ;\n• \u0007fournir un justificatif de domicile datant de moins de trois mois ;\n• \u0007effectuer un versement initial, par chèque, libellé à l’ordre de Matmut Vie, ou par prélèvement, sur votre compte bancaire ouvert \nauprès d’une banque, relevant de la zone SEPA.",
+      "page": 4,
+      "context": "Article 3 - Modalités d'adhésion individuelle"
+    },
+    {
+      "quote": "La durée de l’adhésion est viagère. Elle prend fin notamment au décès de l’assuré, ou par anticipation, en cas de rachat total du \ncapital disponible.",
+      "page": 4,
+      "context": "Article 4 - Durée de l'adhésion"
+    },
+    {
+      "quote": "Si vous choisissez d’effectuer un premier versement libre, votre versement initial doit être au minimum de 500 €.",
+      "page": 5,
+      "context": "Article 5.1 - Versement initial minimum"
+    },
+    {
+      "quote": "5.2 En cours d’adhésion, vous pouvez, à tout moment, effectuer un versement libre complémentaire qui ne peut être inférieur \nà 150 €.",
+      "page": 5,
+      "context": "Article 5.2 - Versement libre complémentaire minimum"
+    },
+    {
+      "quote": "Il vous est demandé, quel que soit le mode de versement que vous avez choisi, de constituer un capital disponible de plus de 500 € \nà l’issue des 12 premiers mois d’adhésion. Dans le cas contraire, Matmut Vie se réserve le droit de mettre fin à votre adhésion et \nde procéder au rachat total de votre adhésion si le capital disponible restait inférieur à 500 €.",
+      "page": 5,
+      "context": "Article 5.4 - Capital minimum"
+    },
+    {
+      "quote": "Afin de réaliser la gestion administrative du contrat, Matmut Vie prélève des frais sur chaque versement. Ces frais sont dégressifs \nen fonction du montant de votre versement. Ils sont de :\nFrais en pourcentage  \ndu versement\nMontant du versement\n1,25 %\n< à 50 000 €\n1 %\n> à 50 000 € et < 75 000 €\n0,5 %\n> à 75 000 €",
+      "page": 5,
+      "context": "Article 5.5 - Barème dégressif des frais sur versements"
+    },
+    {
+      "quote": "Le capital disponible correspond à vos versements nets de frais, diminués des frais de gestion annuels, augmentés des intérêts \nversés au titre de la rémunération de votre capital disponible et diminués des prélèvements sociaux et fiscaux prévus par la régle-\nmentation en vigueur, ainsi que des éventuels rachats partiels.",
+      "page": 5,
+      "context": "Article 6.1 - Définition du capital disponible"
+    },
+    {
+      "quote": "Vos versements, nets de frais, sont investis et gérés dans l’actif général de Matmut Vie.",
+      "page": 5,
+      "context": "Article 6.2 - Placements correspondants"
+    },
+    {
+      "quote": "les frais de gestion annuels des adhésions fixés à 0,50 % des capitaux disponibles moyens gérés dans l’exercice,",
+      "page": 6,
+      "context": "Article 6.3 - Frais de gestion annuels au débit du compte de résultat"
+    },
+    {
+      "quote": "Vous trouverez ci-dessous le tableau des valeurs \nminimales de rachat pour un versement de 10 000 € effectué à l’adhésion et ayant donné lieu à la perception de 1,25 % de frais de \nversement et de 0,5 % de frais de gestion annuels prélevés sur le capital disponible. Ces montants correspondent à la valeur du \ncapital minimum disponible. \nDate\nValeur de rachat\nVersement initial effectué\nAnnée 1\n9 826 €\n10 000 €\nAnnée 2\n9 776 €\n10 000 €\nAnnée 3\n9 728 €\n10 000 €\nAnnée 4\n9 679 €\n10 000 €\nAnnée 5\n9 631 €\n10 000 €\nAnnée 6\n9 582 €\n10 000 €\nAnnée 7\n9 535 €\n10 000 €\nAnnée 8\n9 487 €\n10 000 €",
+      "page": 6,
+      "context": "Article 7.1 - Tableau des valeurs minimales de rachat"
+    },
+    {
+      "quote": "Vous pouvez à tout moment demander le règlement d’une partie du capital disponible en effectuant un rachat partiel d’un montant \nqui ne peut être inférieur à 150 €. Le rachat partiel n’est toutefois possible que si le capital disponible après rachat partiel reste \nsupérieur à 500 €.",
+      "page": 6,
+      "context": "Article 7.2 - Rachat partiel : minimum et solde requis"
+    },
+    {
+      "quote": "Pour la période écoulée depuis la dernière attribution d’intérêts, Matmut Vie rémunérera votre capital sur la base de 50 % du taux \nde rémunération de l’année précédente, au prorata de la durée écoulée entre cette date et la date d’enregistrement de votre rachat \npar Matmut Vie, et pour les versements effectués sur cette période au prorata de leur durée de placement.",
+      "page": 7,
+      "context": "Article 7.3 - Rémunération de la période courue en cas de rachat total"
+    },
+    {
+      "quote": "le montant de l’avance doit être au minimum de 500 € sans pouvoir excéder 80 % de votre capital disponible ;\n• \u0007le montant de votre capital disponible au jour de l’octroi de l’avance, déduction faite du montant de l’avance ne peut être inférieur \nà 500 €.",
+      "page": 7,
+      "context": "Article 7.5 - Conditions de l'avance"
+    },
+    {
+      "quote": "L’avance est consentie pour une durée maximum de 3 ans. Faute de remboursement dans les 3 ans, l’avance sera considérée comme \nun rachat partiel. Elle donne lieu à la perception d’intérêts annuels.",
+      "page": 7,
+      "context": "Article 7.5 - Durée de l'avance et requalification en rachat partiel"
+    },
+    {
+      "quote": "En cas d’acceptation de la clause bénéficiaire, vous devrez obtenir le consentement du bénéficiaire acceptant pour modifier le libellé \nde votre clause bénéficiaire, effectuer le rachat total ou partiel de votre adhésion, faire une demande d’avance ou de nantissement.",
+      "page": 8,
+      "context": "Article 8.2 - Conséquences de l'acceptation bénéficiaire"
+    },
+    {
+      "quote": "En cas de décès de l’assuré, Matmut Vie règle le capital atteint au(x) bénéficiaire(s) désigné(s) dans un délai de 10 jours ouvrés à \ncompter de la réception de la demande complète comportant les informations suivantes :\n• \u0007l’exemplaire original du certificat d’adhésion ;\n• \u0007un acte de décès de l’assuré ;\n• \u0007la photocopie recto verso de la carte d’identité en cours de validité de chaque bénéficiaire (ou des 4 premières pages du passeport \nou de la carte de séjour) ;\n• \u0007l’attestation sur l’honneur, établie par chaque bénéficiaire en application de l’article 990 I du Code général des impôts ;\n• \u0007tout autre document nécessaire au règlement du capital qu’il soit de nature fiscale ou administrative.",
+      "page": 8,
+      "context": "Article 8.3 - Pièces et délai de règlement du capital décès"
+    },
+    {
+      "quote": "Vous pouvez renoncer à votre adhésion dans un délai de 30 jours calendaires révolus à compter de la réception de votre certificat \nd’adhésion. Ce délai de renonciation expire le dernier jour à 24 heures sans prorogation si ce jour d’expiration correspond à un \nsamedi, un dimanche ou un jour férié.",
+      "page": 8,
+      "context": "Article 9 - Délai de renonciation"
+    },
+    {
+      "quote": "Toutes actions dérivant d’un contrat d’assurance sont prescrites par deux ans à compter de l’événement qui y donne naissance.\nToutefois, ce délai ne court pas :\n1 - En cas de réticence, omission, déclaration fausse ou inexacte sur le risque couru, que du jour où l’assureur en a eu connaissance.\n2 - En cas de sinistre, que du jour où les intéressés en ont eu connaissance, s’ils prouvent qu’ils l’ont ignoré jusque-là.\nQuand l’action de l’assuré contre l’assureur a pour cause le recours d’un tiers, le délai de la prescription ne court que du jour où ce \ntiers a exercé une action en justice contre l’assuré ou a été indemnisé par ce dernier.\nLa prescription est portée à dix ans dans les contrats d’assurance sur la vie lorsque le bénéficiaire est une personne distincte du \nsouscripteur et, dans les contrats d’assurance contre les accidents atteignant les personnes, lorsque les bénéficiaires sont les ayants \ndroit de l’assuré décédé.\nPour les contrats d’assurance sur la vie, nonobstant les dispositions du 2°, les actions du bénéficiaire sont prescrites au plus tard \ntrente ans à compter du décès de l’assuré.",
+      "page": 8,
+      "context": "Article 10.1 - Prescription"
+    },
+    {
+      "quote": "L’organisme chargé du contrôle de Matmut Vie est l’Autorité de contrôle prudentiel et de résolution (ACPR) située 4, place de \nBudapest - CS 92459 - 75436 Paris CEDEX 9..",
+      "page": 12,
+      "context": "Article 10.4 - Contrôle de l'assureur (avec le double point tel qu'imprimé)"
+    },
+    {
+      "quote": "En application de l’article L. 423-1 du Code des assurances, Matmut Vie adhère à un fonds de garantie destiné à préserver les droits \ndes assurés et bénéficiaires de ses contrats d’assurance Vie.",
+      "page": 12,
+      "context": "Article 10.6 - Fonds de garantie"
+    },
+    {
+      "quote": "Le capital décès réglé au titre des primes versées avant le 70e anniversaire de l’assuré est soumis à un prélèvement sur la part \nrevenant à chaque bénéficiaire au-delà d’un abattement de 152 500 €, tous contrats confondus (y compris les contrats souscrits \nauprès d’autres organismes d’assurance).\nCe prélèvement est de :\n• \u0007pour la part de capital comprise entre 152 501 € et 700 000 € : 20 % ; \n• \u0007pour la part excédant 700 000 € : 31,25 %.",
+      "page": 13,
+      "context": "Article 11.3 - Fiscalité en cas de décès (article 990 I du CGI)"
+    },
+    {
+      "quote": "Le contrat collectif Matmut Vie Épargne est souscrit pour une durée d’un an, renouvelable annuellement par tacite reconduc-\ntion. Le contrat peut être résilié par l’une ou l’autre des parties moyennant l’envoi d’une lettre recommandée avec avis de réception, \nau minimum deux mois avant l’échéance principale fixée au 1er janvier.",
+      "page": 13,
+      "context": "Article 12 - Durée et résiliation du contrat collectif"
+    },
+    {
+      "quote": "En cas de résiliation du contrat collectif, que celle-ci soit à l’initiative de Matmut Mutualité ou de Matmut Vie, les adhésions en vigueur \nne seront pas remises en cause. Sauf accord spécifique conclu entre Matmut Mutualité et Matmut Vie au moment de la résiliation, \naucune nouvelle adhésion ne sera plus acceptée et Matmut Vie s’engage à maintenir les adhésions existantes en vigueur dans les \nconditions suivantes :\n• \u0007les versements ne seront plus autorisés ;\n• \u0007les adhérents conserveront le montant acquis de leur capital.",
+      "page": 13,
+      "context": "Article 12 - Sort des adhésions en cas de résiliation du contrat collectif"
+    },
+    {
+      "quote": "VP.11 - 01/25",
+      "page": 14,
+      "context": "Code de référence en pied de page (source de l'edition_date)"
+    },
+    {
+      "quote": "Matmut Vie \nSociété Anonyme au capital de 35 887 500 € \nentièrement libéré, 344 898 358 RCS Rouen \nEntreprise régie par le Code des assurances\nSiège social : 66, rue de Sotteville \n76030 Rouen CEDEX\nMatmut Mutualité \nMutuelle soumise aux dispositions du Livre II \ndu Code de la mutualité, immatriculée au \nrépertoire SIRENE sous le numéro 775 701 485",
+      "page": 15,
+      "context": "Ours de dernière page : les deux entités (assureur et souscripteur)"
+    }
+  ]
+}

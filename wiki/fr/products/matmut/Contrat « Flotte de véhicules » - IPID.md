@@ -244,6 +244,10 @@ Garantie optionnelle relevant de la rubrique « Garantie optionnelle (motocyclet
 - Défaut du calque texte du PDF, sans incidence sur les valeurs extraites : 4 glyphes de zone privée U+F0FC (puces Wingdings) subsistent en début de puce (pages 1 et 2). Les key_quotes ont été découpées de façon à ne traverser aucun de ces glyphes. Le mot « camping-cars » est coupé par un vrai trait d'union en fin de ligne (« camping-\ncars ») dans l'intitulé de rubrique des garanties optionnelles ; aucune citation ne traverse cette coupure.
 - Les seuils de déclenchement de la Protection Juridique sont énoncés une seule fois pour l'ensemble des garanties de Protection Juridique ; le document ne précise pas s'ils s'appliquent identiquement à la « Protection Juridique suite à accident » et à la « Protection Juridique relative au bien assuré ». Ils ont été rattachés aux deux, comme le fait le texte (« les garanties de Protection Juridique »).
 
+## Documents liés
+
+- [Flotte de véhicules](Flotte%20de%20v%C3%A9hicules.md) - Conditions générales, éd. 2024-11
+
 ## Source & fidélité
 
 - Source : [https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDMRSQFLOTTE.pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDMRSQFLOTTE.pdf) - téléchargé le 2026-07-30 - 2 pages
