@@ -1,0 +1,1148 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "matmut",
+  "insurer_name": "Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477",
+  "product_name": "Assur'4Pattes Matmut & Co",
+  "branch": "animaux",
+  "branch_code": null,
+  "document_type": "conditions_generales",
+  "language": "fr",
+  "source_url": "https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-assur4pattes.pdf",
+  "source_pdf": "assur4pattes-1b20decc.pdf",
+  "source_sha256": "4651f0a9da3fe848797ea6ed76565ac141c4a4d858254026484f0ab934480889",
+  "source_pages": 34,
+  "fetched_at": "2026-07-30",
+  "extraction_model": "claude-code-subagent:scale",
+  "product_family": "Assur'4Pattes",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "target_audience": "particuliers",
+  "target_audience_note": "Le document ne prononce pas le mot « particuliers » mais restreint explicitement la souscription à la sphère privée, en trois endroits : « Le contrat ne peut être souscrit que par une personne physique domiciliée en France métropolitaine ou dans la Principauté de Monaco » (page 2) ; les garanties ne sont pas accordées si l'animal « est utilisé à des fins professionnelles », « fait partie d'un élevage professionnel » ou « fait l'objet d'une activité commerciale » (article 4) ; et le droit de renonciation suppose que « vous êtes une personne souscrivant à titre privé » (articles 24-4 et 24-5). La territorialité vise les déplacements « effectué[s] avec votre animal dans le cadre de votre vie privée » (article 5).",
+  "reference": "CG Assur'4Pattes -  01/24",
+  "edition_date": "01/24",
+  "summary": "Conditions générales du contrat Assur'4Pattes Matmut & Co, assurance santé animale pour un chien ou un chat nommément désigné aux Conditions particulières, valant projet de contrat au sens de l'article L. 112-2 du Code des assurances. Le contrat prend en charge les pertes pécuniaires consécutives aux frais de soins vétérinaires exposés en cas de maladie ou d'accident, accorde des prestations d'assistance et une assistance juridique par téléphone. Il se décline en deux formules, Prim' (50 % de remboursement, plafond annuel 1 400 €) et Max' (80 %, plafond annuel 2 000 €), la formule Max' ouvrant seule les garanties de prévention (vaccination 50 €/an, détartrage) et la participation aux frais d'obsèques (150 €). L'animal doit être identifié et âgé de 3 mois ou plus et de moins de 8 ans à la prise d'effet des garanties ; des délais de carence de 48 heures à 24 mois s'appliquent selon la garantie.",
+  "definitions": [
+    {
+      "term": "Accident",
+      "definition": "Toute atteinte à l'intégrité corporelle de l'animal désigné aux Conditions particulières non intentionnelle de la part du souscripteur, des personnes vivant sous son toit et/ou des personnes qui ont la garde de l'animal et provenant de l'action soudaine d'une cause extérieure.",
+      "page": 4
+    },
+    {
+      "term": "Année d'assurance",
+      "definition": "Période comprise entre deux échéances annuelles de cotisation. La date d'échéance annuelle est stipulée aux Conditions particulières. Si le contrat expire entre deux échéances annuelles, la dernière année d'assurance s'entend de la période comprise entre la dernière date d'échéance annuelle et la date de résiliation du contrat.",
+      "page": 4
+    },
+    {
+      "term": "Conditions générales",
+      "definition": "Présent document décrivant les garanties proposées et le fonctionnement du contrat.",
+      "page": 4
+    },
+    {
+      "term": "Conditions particulières et leurs annexes",
+      "definition": "Documents délivrés lors de la souscription du contrat ou de sa modification (avenant) précisant notamment le nom de l'animal, son espèce, sa race, son genre, sa date de naissance, son numéro d'identification ainsi que l'énoncé et le plafond des garanties souscrites.",
+      "page": 4
+    },
+    {
+      "term": "Déchéance",
+      "definition": "Perte du droit à la garantie de l'assureur lorsque, en cas de mise en jeu d'une garantie du contrat, le souscripteur n'a pas exécuté ses obligations contractuelles.",
+      "page": 4
+    },
+    {
+      "term": "Délai de carence",
+      "definition": "Période comprise entre la date d'effet du contrat et le début d'application des garanties.",
+      "page": 4
+    },
+    {
+      "term": "Détartrage",
+      "definition": "Acte vétérinaire qui élimine le tartre (ou plaque) des surfaces dentaires de l'animal.",
+      "page": 4
+    },
+    {
+      "term": "Échéance annuelle",
+      "definition": "Date indiquée aux Conditions particulières. Elle détermine notamment le point de départ d'une période annuelle d'assurance.",
+      "page": 4
+    },
+    {
+      "term": "Frais vétérinaires courants",
+      "definition": "Tout acte effectué par un docteur vétérinaire ayant pour objet de déterminer l'état physiologique d'un animal ou son état de santé, de diagnostiquer une maladie, une blessure, une douleur, une malformation, de les prévenir ou les traiter, de prescrire des médicaments ou de les administrer par voie parentérale.",
+      "page": 4
+    },
+    {
+      "term": "Intervention chirurgicale",
+      "definition": "Toute intervention d'un docteur vétérinaire sur une partie du corps de l'animal, nécessitant l'incision de son enveloppe corporelle ou l'ablation d'un organe, réalisée sous anesthésie générale ou locale, dans le but de prévenir ou traiter une affection.",
+      "page": 4
+    },
+    {
+      "term": "Maladie",
+      "definition": "Toute altération de l'état de santé de l'animal, constatée par un docteur vétérinaire.",
+      "page": 4
+    },
+    {
+      "term": "Note d'honoraires",
+      "definition": "Document établi par le docteur vétérinaire et remis au souscripteur du contrat comportant a minima les mentions suivantes : la date de sa rédaction, le nom et l'adresse du docteur vétérinaire, le nom et prénom du souscripteur, le nom de l'animal, la date d'exécution de l'acte, le libellé ainsi que le décompte détaillé, en quantité et prix, de chaque acte fourni et produit vendu, la somme totale à payer hors taxes et toutes taxes comprises.",
+      "page": 4
+    },
+    {
+      "term": "Nullité du contrat",
+      "definition": "Mesure visée par la loi pour rendre nul un contrat pour l'un des motifs suivants : fausse déclaration volontaire du risque par l'assuré, à la souscription ou en cours de contrat, dans l'intention de tromper l'assureur — elle constitue un manquement à l'obligation de contracter de bonne foi et est encourue même en l'absence d'incidence de la fausse déclaration sur le sinistre (article L. 113-8 du Code des assurances) ; vices du consentement (erreur, dol ou violence - articles 1130 à 1144 du Code civil) lorsqu'ils sont de telle nature que, sans eux, l'une des parties n'aurait pas contracté ou aurait contracté à des conditions substantiellement différentes. Le contrat est considéré comme n'ayant jamais existé.",
+      "page": 5
+    },
+    {
+      "term": "Plafond annuel de remboursement",
+      "definition": "Somme maximale de prise en charge, par année d'assurance, de certaines garanties par l'assureur. Le plafond annuel non consommé ne se reporte pas d'une année sur l'autre.",
+      "page": 5
+    },
+    {
+      "term": "Prescription",
+      "definition": "Délai à l'issue duquel le titulaire d'un droit ne dispose plus d'action pour le faire valoir.",
+      "page": 5
+    },
+    {
+      "term": "Réduction des indemnités",
+      "definition": "Mesure visée par la loi - article L. 113-9 du Code des assurances - pour sanctionner le souscripteur ayant omis de déclarer à l'assureur tous les éléments du risque ou ayant fait une déclaration inexacte à la souscription ou en cours de contrat qui, en conséquence, n'a pas permis à l'assureur d'appliquer une cotisation adaptée. L'indemnité de remboursement est alors réduite en proportion de la cotisation payée par rapport à la cotisation qui aurait été due si le souscripteur avait complètement et exactement déclaré le risque.",
+      "page": 5
+    },
+    {
+      "term": "Souscripteur",
+      "definition": "Signataire du présent contrat défini sous ce nom aux Conditions particulières.",
+      "page": 5
+    },
+    {
+      "term": "Subrogation",
+      "definition": "Substitution de l'assureur dans les droits du souscripteur, lorsqu'il a été indemnisé, contre les tiers responsables du dommage.",
+      "page": 5
+    },
+    {
+      "term": "Support durable",
+      "definition": "Tout instrument offrant la possibilité au souscripteur ou à l'assureur de stocker des informations qui lui sont adressées personnellement, afin de pouvoir s'y reporter ultérieurement pendant un laps de temps adapté aux fins auxquelles les informations sont destinées, et qui permet la reproduction à l'identique des informations conservées.",
+      "page": 5
+    },
+    {
+      "term": "Tacite reconduction",
+      "definition": "Renouvellement automatique du contrat à son échéance annuelle. Lorsque le contrat n'est pas résilié dans les formes et conditions prévues par les présentes Conditions générales, il est automatiquement renouvelé pour une durée d'un an.",
+      "page": 5
+    },
+    {
+      "term": "Taux de remboursement",
+      "definition": "Taux, exprimé en pourcentage, à partir duquel les indemnités sont calculées ; il est appliqué sur le montant des frais vétérinaires engagés par le bénéficiaire en cas de maladie ou d'accident de l'animal et détermine l'indemnité qui lui est versée. Ce taux figure aux Conditions particulières du contrat.",
+      "page": 5
+    },
+    {
+      "term": "Nous",
+      "definition": "Matmut & Co. La gestion du présent contrat ainsi que les garanties des frais vétérinaires en cas d'accident ou de maladie, de prévention et en cas de décès de l'animal désigné aux Conditions particulières sont réalisées par AssurOne. Matmut Assistance pour les garanties d'assistance. Ces garanties sont réalisées par IMA GIE. Matmut Protection Juridique pour la garantie d'assistance juridique.",
+      "page": 5
+    },
+    {
+      "term": "Vous",
+      "definition": "Le souscripteur du contrat, désigné à ce titre aux Conditions particulières, bénéficiaire des indemnités consécutives à la mise en jeu des garanties des frais vétérinaires en cas d'accident ou de maladie et de la participation aux frais d'obsèques de l'animal.",
+      "page": 5
+    },
+    {
+      "term": "Accident corporel (garanties d'assistance)",
+      "definition": "Événement soudain, involontaire et imprévu entraînant une lésion corporelle du bénéficiaire, dont la cause est extérieure au bénéficiaire lui-même, indépendante de sa volonté.",
+      "page": 10
+    },
+    {
+      "term": "Bénéficiaire (garanties d'assistance)",
+      "definition": "Souscripteur du contrat tel que désigné aux Conditions particulières et son conjoint vivant en permanence sous son toit.",
+      "page": 10
+    },
+    {
+      "term": "Domicile (garanties d'assistance)",
+      "definition": "Lieu de résidence principale ou secondaire ou lieu de villégiature du bénéficiaire. Ce domicile doit se situer en France métropolitaine ou dans la Principauté de Monaco.",
+      "page": 10
+    },
+    {
+      "term": "Hospitalisation du bénéficiaire",
+      "definition": "Tout séjour dans un établissement de soins, public ou privé, dès lors que ce séjour a pour objet la mise en observation, le traitement médical ou chirurgical de lésions résultant d'un accident corporel ou d'une maladie soudaine.",
+      "page": 10
+    },
+    {
+      "term": "Immobilisation du bénéficiaire",
+      "definition": "Etat qui, à la suite d'un accident corporel ou d'une maladie soudaine et imprévisible, empêche le bénéficiaire d'exercer son activité habituelle et entraîne son immobilisation au domicile pour des raisons médicalement justifiées et prouvées.",
+      "page": 10
+    },
+    {
+      "term": "Maladie soudaine et imprévisible du bénéficiaire",
+      "definition": "Altération soudaine et imprévisible de l'état de santé du bénéficiaire consécutive ou non à une pathologie préexistante. Le caractère soudain et imprévisible de la maladie du bénéficiaire est apprécié par les médecins de Matmut Assistance.",
+      "page": 10
+    },
+    {
+      "term": "Proche (garanties d'assistance)",
+      "definition": "Toute personne désignée par le bénéficiaire, résidant en France métropolitaine ou à Monaco.",
+      "page": 10
+    },
+    {
+      "term": "Réclamation",
+      "definition": "L'expression de votre mécontentement ou de votre insatisfaction à notre égard constitue une réclamation. Une demande de service ou de prestation, une demande d'information ou d'avis n'est pas considérée comme telle.",
+      "page": 27
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Remboursement des frais vétérinaires courants en cas d'accident ou de maladie",
+      "description": "Sous réserve de l'applicabilité des délais de carence et dans la limite des taux de prise en charge et des plafonds mentionnés à l'article 3, remboursement : des honoraires de consultation ou de visite d'un docteur vétérinaire ; des médicaments prescrits par le docteur vétérinaire ; des frais de diagnostics prescrits par le docteur vétérinaire (analyses de laboratoire, examens d'imagerie, biopsies, prises de sang, ponctions, arthroscopies, examens cardiologiques) ; des frais de radiothérapie et de chimiothérapie prescrits par le docteur vétérinaire ; des frais de transport en ambulance animalière, sous réserve que l'état de l'animal nécessite un tel moyen de transport et qu'il soit validé par le docteur vétérinaire ; des frais de séjour en cabinet ou en clinique vétérinaire. À l'exclusion des frais d'euthanasie et d'incinération.",
+      "is_optional": false,
+      "territorial_scope": "en France métropolitaine ou dans la Principauté de Monaco ; dans les Départements et Régions d'Outre-Mer (Guadeloupe, Guyane, Martinique, Mayotte et La Réunion) et, à l'étranger, dans les pays de l'Union Européenne, en Suisse, dans les Principautés d'Andorre et de Liechtenstein, à Saint-Marin, en Norvège, en Islande et au Royaume-Uni en cas de déplacement n'excédant pas 3 mois consécutifs, effectué avec votre animal dans le cadre de votre vie privée",
+      "limits": "Formule Prim' : Taux de remboursement : 50 % — Plafond annuel de remboursement (frais vétérinaires courants et frais d'intervention chirurgicale confondus) : 1 400 €. Formule Max' : Taux de remboursement : 80 % — Plafond annuel de remboursement (frais vétérinaires courants et frais d'intervention chirurgicale confondus) : 2 000 €",
+      "sub_limits": [
+        "Le plafond annuel non consommé ne se reporte pas d'une année sur l'autre"
+      ],
+      "deductible": "Aucune franchise complémentaire n'est déduite du montant de l'indemnisation (article 16)",
+      "conditions": [
+        "accordée quelle que soit la formule souscrite",
+        "en cas d'accident : à la condition que l'accident soit survenu après un délai de 48 heures à compter de la date d'effet du contrat",
+        "en cas de maladie : à la condition que la première manifestation de la maladie ait lieu après un délai de 45 jours à compter de la date d'effet du contrat"
+      ],
+      "page": 8
+    },
+    {
+      "name": "Remboursement des frais d'intervention chirurgicale en cas d'accident ou de maladie",
+      "description": "Sous réserve de l'applicabilité des délais de carence et dans la limite des taux de prise en charge et des plafonds mentionnés à l'article 3, remboursement : des honoraires vétérinaires propres à l'intervention chirurgicale ; des frais de diagnostics survenus dans un délai de 15 jours précédant le jour de l'intervention chirurgicale (analyses de laboratoire, examens d'imagerie, biopsies, prises de sang, ponctions, arthroscopies, examens cardiologiques) ; des frais de pharmacie, d'anesthésie et de soins liés directement à l'intervention chirurgicale ; des frais de séjour en cabinet ou en clinique vétérinaire rendus nécessaires par l'intervention chirurgicale.",
+      "is_optional": false,
+      "territorial_scope": "identique à l'article 5 (France métropolitaine, Monaco, DROM, Union Européenne, Suisse, Andorre, Liechtenstein, Saint-Marin, Norvège, Islande, Royaume-Uni pour un déplacement n'excédant pas 3 mois consécutifs dans le cadre de la vie privée)",
+      "limits": "Formule Prim' : 50 %, plafond annuel 1 400 € (frais vétérinaires courants et frais d'intervention chirurgicale confondus). Formule Max' : 80 %, plafond annuel 2 000 € (mêmes frais confondus)",
+      "sub_limits": [
+        "frais de diagnostics pris en charge dans un délai de 15 jours précédant le jour de l'intervention chirurgicale"
+      ],
+      "deductible": "Aucune franchise complémentaire n'est déduite du montant de l'indemnisation (article 16)",
+      "conditions": [
+        "accordée quelle que soit la formule souscrite",
+        "consécutive à un accident : après un délai de 48 heures à compter de la date d'effet du contrat",
+        "consécutive à une maladie : après un délai de 6 mois à compter de la date d'effet du contrat et à condition que la première manifestation de cette maladie ait eu lieu après un délai de 45 jours à compter de cette même date d'effet"
+      ],
+      "page": 8
+    },
+    {
+      "name": "Remboursement des frais de vaccination annuelle",
+      "description": "Nous vous remboursons les frais de vaccination annuelle de l'animal désigné aux Conditions particulières dans la limite du plafond mentionné à l'article 3 des présentes Conditions générales et aux Conditions particulières.",
+      "is_optional": true,
+      "territorial_scope": "identique à l'article 5",
+      "limits": "50 € / an (formule Max' uniquement ; aucun montant n'est indiqué en formule Prim')",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "accordée uniquement lorsque vous avez souscrit la formule Max'"
+      ],
+      "page": 9
+    },
+    {
+      "name": "Remboursement des frais de détartrage préventif",
+      "description": "Nous vous remboursons les frais de détartrage préventif. Cette garantie prend effet au terme d'une période d'assurance ininterrompue de deux ans après la date de d'effet du contrat et dans la limite d'une seule prise en charge toutes les 2 années d'assurance, d'échéance annuelle à échéance annuelle.",
+      "is_optional": true,
+      "territorial_scope": "identique à l'article 5",
+      "limits": "Remboursement des frais exposés dans la limite d'un événement toutes les 2 années d'assurance, d'échéance annuelle à échéance annuelle (formule Max' uniquement)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "accordée uniquement lorsque vous avez souscrit la formule Max'",
+        "délai de carence de 24 mois à compter de la date d'effet du contrat, non levé par la justification d'une assurance antérieure (article 3-1-B)"
+      ],
+      "page": 9
+    },
+    {
+      "name": "Participation aux frais d'obsèques",
+      "description": "Nous vous remboursons, dans la limite du plafond mentionné à l'article 3 des présentes Conditions générales et aux Conditions particulières, les frais liés aux obsèques de votre animal : frais d'euthanasie (consultation, anesthésique, injection létale) ; frais funéraires (incinération, urne).",
+      "is_optional": true,
+      "territorial_scope": "identique à l'article 5",
+      "limits": "150 € (formule Max' uniquement)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "accordée uniquement lorsque vous avez souscrit la formule Max'",
+        "mise en jeu au terme d'une période d'assurance de 6 mois ininterrompus après la date d'effet du contrat"
+      ],
+      "page": 14
+    },
+    {
+      "name": "Assistance — Transport de l'animal chez le vétérinaire",
+      "description": "En cas d'accident ou de maladie de l'animal et de maladie soudaine et imprévisible ou d'accident du bénéficiaire : Matmut Assistance organise et prend en charge un aller/retour de l'animal, accompagné, en taxi du domicile du bénéficiaire jusque chez le vétérinaire le plus proche.",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine et Principauté de Monaco",
+      "limits": "un aller/retour en taxi jusque chez le vétérinaire le plus proche",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "si aucun bénéficiaire ne peut véhiculer l'animal",
+        "un certificat vétérinaire justifiant de l'accident ou de la maladie survenu à l'animal pourra être demandé",
+        "prestations accordées quelle que soit la formule souscrite"
+      ],
+      "page": 10
+    },
+    {
+      "name": "Assistance — Prise en charge de la garde de l'animal",
+      "description": "En cas d'hospitalisation de plus de 2 jours ou d'immobilisation au domicile de plus de 5 jours consécutifs du bénéficiaire, Matmut Assistance prend en charge sur présentation d'un justificatif de paiement l'une des prestations suivantes : visite à domicile par un pet-sitter ; transport aller/retour de l'animal du domicile du bénéficiaire à celui d'un proche ; transport aller/retour de l'animal depuis le domicile à la pension et frais de garde en pension animalière.",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine et Principauté de Monaco",
+      "limits": "Visite à domicile par un pet-sitter : prise en charge de 2 visites par jour, dans la limite de 30 jours",
+      "sub_limits": [
+        "Transport vers un proche : proche résidant en France métropolitaine ou à Monaco, dans un rayon de 50km du domicile du bénéficiaire",
+        "Pension animalière : si aucun proche ne peut s'occuper de l'animal — prise en charge des frais de transport et de pension dans la limite de 300 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "hospitalisation de plus de 2 jours ou immobilisation au domicile de plus de 5 jours consécutifs du bénéficiaire",
+        "présentation d'un justificatif de paiement"
+      ],
+      "page": 11
+    },
+    {
+      "name": "Assistance — Recherche d'un vétérinaire à l'étranger",
+      "description": "Matmut Assistance recherche et communique les coordonnées d'un cabinet ou d'une clinique vétérinaire le plus proche du lieu où se trouve l'animal blessé ou malade.",
+      "is_optional": false,
+      "territorial_scope": "DROM (Guadeloupe, Guyane, Martinique, Mayotte, La Réunion), pays de l'Union Européenne, Suisse, Andorre, Liechtenstein, Saint-Marin, Norvège, Islande et Royaume-Uni, pour un déplacement n'excédant pas 3 mois consécutifs effectué avec l'animal dans le cadre de la vie privée",
+      "limits": "Le coût des soins vétérinaires et des médicaments est à la charge du bénéficiaire",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "toute demande de prise en charge de ces frais doit faire l'objet d'une déclaration auprès d'AssurOne selon les modalités prévues à l'article 14"
+      ],
+      "page": 11
+    },
+    {
+      "name": "Assistance — Acheminement de médicaments à l'étranger",
+      "description": "Matmut Assistance recherche localement leurs équivalents disponibles. À défaut et après avoir obtenu copie de l'ordonnance auprès du vétérinaire traitant de l'animal, Matmut Assistance les recherche, en France exclusivement, organise et prend en charge leur envoi.",
+      "is_optional": false,
+      "territorial_scope": "à l'étranger, dans les pays visés à l'article 10-3",
+      "limits": "Le coût des médicaments et les frais de douane restent à la charge du bénéficiaire",
+      "sub_limits": [
+        "Ces envois sont soumis à la réglementation et aux conditions imposées par les législations nationales en matière d'importation ou d'exportation des médicaments"
+      ],
+      "deductible": null,
+      "conditions": [
+        "lorsque certains médicaments indispensables prescrits par un vétérinaire ne sont pas disponibles dans le pays où séjourne le bénéficiaire",
+        "toute demande de prise en charge de ces frais doit faire l'objet d'une déclaration auprès d'AssurOne selon les modalités prévues à l'article 14"
+      ],
+      "page": 11
+    },
+    {
+      "name": "Assistance — Informations et conseils animaliers",
+      "description": "Informations et conseils à caractère documentaire : Matmut Assistance communique tout renseignement d'ordre général sur les chats et les chiens : hygiène, alimentation, vaccins, voyage, …",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine et Principauté de Monaco",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 11
+    },
+    {
+      "name": "Assistance — Aide à la recherche de l'animal en cas de disparition (perte, fugue ou enlèvement)",
+      "description": "Matmut Assistance communique au bénéficiaire : les conseils et les démarches à effectuer auprès des services appropriés pour permettre de retrouver rapidement l'animal ; la liste des vétérinaires (indépendants ou cliniques) dans un rayon de 50 kilomètres autour de son domicile.",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine et Principauté de Monaco",
+      "limits": "liste des vétérinaires dans un rayon de 50 kilomètres autour du domicile",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 12
+    },
+    {
+      "name": "Assistance — Assistance psychologique en cas de décès ou de perte de l'animal",
+      "description": "Matmut Assistance organise et prend en charge selon le cas : des entretiens téléphoniques individuels avec un psychologue clinicien ; si nécessaire, des entretiens en vis-à-vis avec un psychologue clinicien.",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine et Principauté de Monaco",
+      "limits": "Jusqu'à 5 entretiens téléphoniques ; si nécessaire, jusqu'à 3 entretiens en vis-à-vis",
+      "sub_limits": [
+        "Les entretiens doivent être exécutés dans un délai de 3 mois à compter de la survenance de l'événement"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 12
+    },
+    {
+      "name": "Assistance juridique",
+      "description": "La garantie vous permet de bénéficier d'une Assistance Juridique par téléphone en cas de litige ou de différend vous opposant à un tiers et relatif à votre animal. Nous nous engageons à vous aider à résoudre le litige ou le différend rencontré en vous informant et en vous conseillant sur l'étendue et les limites de vos droits, sur la conduite à tenir face à une situation donnée, sur le coût et les chances de succès des actions susceptibles d'être entreprises. Mise en œuvre : Matmut Protection Juridique par téléphone au 02 32 18 52 91 (prix d'un appel normal).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "assistance juridique par téléphone (information et conseil) ; le document ne prévoit ni prise en charge de frais de procédure ni plafond chiffré",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "acquise quelle que soit la formule souscrite",
+        "accordée au titre d'un contrat collectif d'assurance de Protection Juridique souscrit par Matmut & Co auprès de Matmut Protection Juridique, 66 rue de Sotteville 76100 Rouen"
+      ],
+      "page": 15
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Animal âgé de moins de 3 mois ou de 8 ans et plus à la date d'effet du contrat",
+      "description": "Outre les exclusions prévues à l'article 13, les garanties du présent contrat ne vous sont pas accordées si l'animal est âgé de moins de 3 mois ou de 8 ans et plus à la date d'effet du contrat.",
+      "applies_to": "all",
+      "page": 7
+    },
+    {
+      "name": "Animal non identifié",
+      "description": "Les garanties ne sont pas accordées si l'animal n'est pas identifié par une puce électronique ou un tatouage.",
+      "applies_to": "all",
+      "page": 7
+    },
+    {
+      "name": "Animal utilisé à des fins professionnelles",
+      "description": "Les garanties ne sont pas accordées si l'animal est utilisé à des fins professionnelles.",
+      "applies_to": "all",
+      "page": 7
+    },
+    {
+      "name": "Animal faisant partie d'une meute",
+      "description": "Les garanties ne sont pas accordées si l'animal fait partie d'une meute (troupe de chiens dressés pour la chasse).",
+      "applies_to": "all",
+      "page": 7
+    },
+    {
+      "name": "Animal faisant partie d'un élevage professionnel",
+      "description": "Les garanties ne sont pas accordées si l'animal fait partie d'un élevage professionnel.",
+      "applies_to": "all",
+      "page": 7
+    },
+    {
+      "name": "Animal faisant l'objet d'une activité commerciale",
+      "description": "Les garanties ne sont pas accordées si l'animal fait l'objet d'une activité commerciale.",
+      "applies_to": "all",
+      "page": 7
+    },
+    {
+      "name": "Frais d'euthanasie et d'incinération",
+      "description": "Les frais remboursés au titre des frais vétérinaires courants le sont « à l'exclusion des frais d'euthanasie et d'incinération » (article 6). Ces frais relèvent, en formule Max' uniquement, de la garantie « Participation aux frais d'obsèques » de l'article 11.",
+      "applies_to": "Remboursement des frais vétérinaires courants en cas d'accident ou de maladie",
+      "page": 8
+    },
+    {
+      "name": "Maladies ou accidents antérieurs à la souscription ou survenus pendant les délais de carence",
+      "description": "Nous ne garantissons pas les maladies ou accidents, y compris leurs suites et conséquences, dont l'origine, la survenance ou la constatation est antérieure à la souscription de votre contrat ou incluse dans les délais de carence de ce dernier.",
+      "applies_to": "all",
+      "page": 16
+    },
+    {
+      "name": "Maladies évitables par vaccination préventive",
+      "description": "Nous ne garantissons pas les frais exposés pour les maladies qui auraient normalement pu être évitées si des vaccinations préventives avaient été réalisées : chien : maladie de Carré, hépatite de Rubarth, leptospirose, parvovirose, rage ; chat : typhus, coryza, calicivirose, leucose féline, rage.",
+      "applies_to": "all",
+      "page": 16
+    },
+    {
+      "name": "Pathologie congénitale et/ou héréditaire",
+      "description": "Nous ne garantissons pas les frais exposés pour une pathologie congénitale et/ou héréditaire et ses conséquences.",
+      "applies_to": "all",
+      "page": 16
+    },
+    {
+      "name": "Affections nommément listées (entropions, dysplasie, luxations de rotule, races brachycéphales, ectopie testiculaire…)",
+      "description": "Nous ne garantissons pas les frais liés aux affections suivantes et leurs conséquences : les entropions, les ectropions, la dysplasie coxo-fémorale, les anomalies de développement de l'articulation du coude (non union du processus anconé, ostéochondrose, ostéochondrite disséquante, fragmentation du processus coronoïde médial, incongruence articulaire), les luxations de rotule (hors accidentelles), les anomalies des narines, du palais et du larynx des races brachycéphales, l'ectopie testiculaire, y compris les frais de dépistage de ces affections.",
+      "applies_to": "all",
+      "page": 16
+    },
+    {
+      "name": "Médicament sans rapport avec la pathologie déclarée",
+      "description": "Nous ne garantissons pas tout médicament prescrit sans rapport avec la pathologie déclarée.",
+      "applies_to": "all",
+      "page": 16
+    },
+    {
+      "name": "Mises bas et césariennes non accidentelles",
+      "description": "Nous ne garantissons pas les frais de mises bas et les césariennes qui ne sont pas occasionnées par un accident.",
+      "applies_to": "all",
+      "page": 16
+    },
+    {
+      "name": "Frais exposés lors de la gestation",
+      "description": "Nous ne garantissons pas les frais exposés lors de la gestation : diagnostic, suivi de gestation, l'avortement et ses conséquences, l'insémination artificielle.",
+      "applies_to": "all",
+      "page": 16
+    },
+    {
+      "name": "Frais médicamenteux pour interrompre les chaleurs",
+      "description": "Nous ne garantissons pas les frais médicamenteux pour interrompre les chaleurs.",
+      "applies_to": "all",
+      "page": 16
+    },
+    {
+      "name": "Ovariectomie et castration non consécutives à une pathologie",
+      "description": "Nous ne garantissons pas les frais exposés pour toute ovariectomie et castration de l'animal non consécutive à une pathologie.",
+      "applies_to": "all",
+      "page": 16
+    },
+    {
+      "name": "Chirurgie de convenance sur les oreilles ou la queue",
+      "description": "Nous ne garantissons pas toute intervention chirurgicale destinée à corriger les oreilles ou la taille de la queue.",
+      "applies_to": "all",
+      "page": 16
+    },
+    {
+      "name": "Onyxectomie (dégriffage)",
+      "description": "Nous ne garantissons pas les frais d'onyxectomie (dégriffage).",
+      "applies_to": "all",
+      "page": 16
+    },
+    {
+      "name": "Intervention non effectuée par un vétérinaire inscrit à l'ordre",
+      "description": "Nous ne garantissons pas toute intervention qui n'est pas effectuée par un docteur vétérinaire régulièrement inscrit à l'ordre des vétérinaires.",
+      "applies_to": "all",
+      "page": 16
+    },
+    {
+      "name": "Prothèse oculaire",
+      "description": "Nous ne garantissons pas les frais de prothèse oculaire.",
+      "applies_to": "all",
+      "page": 16
+    },
+    {
+      "name": "Prothèses dentaires et appareillages externes",
+      "description": "Nous ne garantissons pas les frais de prothèses dentaires ainsi que ceux afférents à tous appareillages externes.",
+      "applies_to": "all",
+      "page": 16
+    },
+    {
+      "name": "Alimentation et compléments alimentaires",
+      "description": "Nous ne garantissons pas les frais d'alimentation, diététique ou thérapeutique, et de compléments alimentaires.",
+      "applies_to": "all",
+      "page": 16
+    },
+    {
+      "name": "Frais d'identification",
+      "description": "Nous ne garantissons pas les frais d'identification : puce électronique ou tatouage.",
+      "applies_to": "all",
+      "page": 16
+    },
+    {
+      "name": "Diagnostic et soin de la rage, tests antirabiques",
+      "description": "Nous ne garantissons pas les frais de diagnostic et de soin de la rage et les tests antirabiques.",
+      "applies_to": "all",
+      "page": 16
+    },
+    {
+      "name": "Visite et garde de l'animal mordeur ou griffeur",
+      "description": "Nous ne garantissons pas les frais de visite et de garde de l'animal, mordeur ou griffeur au sens de l'article R. 223-25 5° du Code rural et de la pêche maritime, exposés en application de l'arrêté du 21 avril 1997 relatif à la mise sous surveillance des animaux mordeurs ou griffeurs visés à l'article L. 223-10 du Code rural et de la pêche maritime.",
+      "applies_to": "all",
+      "page": 16
+    },
+    {
+      "name": "Visite d'évaluation comportementale",
+      "description": "Nous ne garantissons pas les frais de visite d'évaluation comportementale exposés en application des dispositions des articles L. 211-13-1, L. 211-14-1 et L. 211-14-2 du Code rural et de la pêche maritime.",
+      "applies_to": "all",
+      "page": 16
+    },
+    {
+      "name": "Garde en clinique vétérinaire sans justification médicale",
+      "description": "Nous ne garantissons pas les frais de garde en clinique vétérinaire sans justification médicale.",
+      "applies_to": "all",
+      "page": 16
+    },
+    {
+      "name": "Consultations de confort et de prévention",
+      "description": "Nous ne garantissons pas les consultations de confort et de prévention, sauf celles visées aux articles 8 et 9 (vaccination annuelle et détartrage préventif).",
+      "applies_to": "all",
+      "page": 16
+    },
+    {
+      "name": "Produits cosmétiques, d'hygiène, de confort et antiparasitaires",
+      "description": "Nous ne garantissons pas les frais exposés pour l'achat de produits cosmétiques, d'entretien, d'hygiène ou de confort, lotions, shampoings, dentifrices n'ayant pas fait l'objet d'une autorisation de mise sur le marché à titre de produits médicamenteux et de produits anti-parasitaires.",
+      "applies_to": "all",
+      "page": 16
+    },
+    {
+      "name": "Pathologie comportementale",
+      "description": "Nous ne garantissons pas les visites et les frais médicamenteux consécutifs à une pathologie comportementale et ses conséquences.",
+      "applies_to": "all",
+      "page": 16
+    },
+    {
+      "name": "Blessures consécutives à des combats de chiens organisés",
+      "description": "Nous ne garantissons pas les blessures consécutives à des combats de chiens organisés.",
+      "applies_to": "all",
+      "page": 16
+    },
+    {
+      "name": "Frais d'établissement d'un passeport",
+      "description": "Nous ne garantissons pas les frais d'établissement d'un passeport.",
+      "applies_to": "all",
+      "page": 16
+    },
+    {
+      "name": "Blessures lors d'une chasse, d'une course ou d'une compétition sportive",
+      "description": "Nous ne garantissons pas les blessures occasionnées à l'animal lors d'une partie de chasse, d'une course ou d'une compétition sportive, y compris l'entraînement pour une telle course ou compétition sportive.",
+      "applies_to": "all",
+      "page": 16
+    },
+    {
+      "name": "Guerre, émeutes, désintégration du noyau atomique, mauvais traitements",
+      "description": "Nous ne garantissons pas les frais exposés à la suite d'un accident ou d'une maladie occasionnés par : des faits de guerre (civile ou étrangère) ; des émeutes et mouvements populaires ; la désintégration du noyau atomique ; des mauvais traitements visés à l'article R. 215-4 du Code rural et de la pêche maritime, imputables au maître, aux personnes vivant sous son toit ou aux personnes ayant la garde de l'animal.",
+      "applies_to": "all",
+      "page": 16
+    },
+    {
+      "name": "Frais d'autopsie",
+      "description": "Nous ne garantissons pas les frais d'autopsie.",
+      "applies_to": "all",
+      "page": 16
+    },
+    {
+      "name": "Assistance — traitement médical ou chirurgical du bénéficiaire hors accident corporel ou maladie soudaine",
+      "description": "Nous ne prenons pas en charge les événements liés à un traitement médical ou à une intervention chirurgicale du bénéficiaire qui ne constituerait pas un accident corporel ou une maladie soudaine et imprévisible du bénéficiaire tel que défini à l'article 10-1.",
+      "applies_to": "garanties d'assistance en lien avec votre animal",
+      "page": 13
+    },
+    {
+      "name": "Assistance — hospitalisation de moins de 48 heures consécutives",
+      "description": "Nous ne prenons pas en charge les événements liés à une hospitalisation du bénéficiaire d'une durée inférieure à 48 heures consécutives.",
+      "applies_to": "garanties d'assistance en lien avec votre animal",
+      "page": 13
+    },
+    {
+      "name": "Assistance — immobilisation de moins de 5 jours consécutifs",
+      "description": "Nous ne prenons pas en charge les événements liés à une immobilisation du bénéficiaire d'une durée inférieure à 5 jours consécutifs.",
+      "applies_to": "garanties d'assistance en lien avec votre animal",
+      "page": 13
+    },
+    {
+      "name": "Assistance — usage de médicaments ou substances hors prescription médicale",
+      "description": "Nous ne prenons pas en charge les événements liés aux conséquences de l'usage par le bénéficiaire de médicaments ou de toute autre substance hors prescription médicale.",
+      "applies_to": "garanties d'assistance en lien avec votre animal",
+      "page": 13
+    },
+    {
+      "name": "Assistance — secours d'urgence",
+      "description": "Nous ne pouvons remplacer les secours d'urgence auxquels vous devez faire appel en priorité, ni prendre en charge leurs frais et n'intervenons que dans la limite des accords donnés par les autorités locales.",
+      "applies_to": "garanties d'assistance en lien avec votre animal",
+      "page": 13
+    },
+    {
+      "name": "Assistance — dépenses engagées de la propre initiative du bénéficiaire",
+      "description": "Matmut Assistance ne prend pas en charge les dépenses que le bénéficiaire a engagées de sa propre initiative, ni celles qu'il aurait engagées normalement en l'absence de l'événement ayant justifié l'intervention de Matmut Assistance (titre de transport, repas, carburant, péage…).",
+      "applies_to": "garanties d'assistance en lien avec votre animal",
+      "page": 12
+    },
+    {
+      "name": "Assistance — force majeure, guerre, grève, effets nucléaires, empêchements climatiques",
+      "description": "La responsabilité de Matmut Assistance ne saurait être recherchée en cas de manquement à ses obligations si celui-ci résulte d'un cas de force majeure, d'une guerre civile ou étrangère, d'une révolution, d'un mouvement populaire, d'une émeute, d'une grève, d'une saisie ou contrainte par la force publique, d'une interdiction officielle, d'un acte de piraterie, d'une explosion d'engins, d'effets nucléaires ou radioactifs, d'empêchements climatiques.",
+      "applies_to": "garanties d'assistance en lien avec votre animal",
+      "page": 12
+    },
+    {
+      "name": "Assistance — risque infectieux en contexte épidémique et quarantaine",
+      "description": "Matmut Assistance ne peut intervenir dans les situations à risque infectieux en contexte épidémique faisant l'objet d'une mise en quarantaine ou de mesures préventives ou de surveillance spécifique de la part des autorités sanitaires locales et/ou nationales du pays d'origine.",
+      "applies_to": "garanties d'assistance en lien avec votre animal",
+      "page": 12
+    },
+    {
+      "name": "Assistance — infractions volontaires à la législation locale",
+      "description": "Matmut Assistance ne sera pas tenue d'intervenir dans les cas où le bénéficiaire aura commis de façon volontaire des infractions à la législation locale en vigueur.",
+      "applies_to": "garanties d'assistance en lien avec votre animal",
+      "page": 12
+    }
+  ],
+  "deductibles": {
+    "standard": "Aucune franchise complémentaire n'est déduite du montant de l'indemnisation. L'indemnité versée est calculée en tenant compte du taux de prise en charge correspondant à la formule souscrite (50 % en Prim', 80 % en Max') et des plafonds indiqués à l'article 3-2 et aux Conditions particulières.",
+    "variable": null,
+    "per_coverage": null,
+    "page": 19
+  },
+  "waiting_periods": [
+    {
+      "coverage": "Frais vétérinaires courants — accident",
+      "duration": "48 heures",
+      "description": "En cas d'accident : à la condition que l'accident soit survenu après un délai de 48 heures à compter de la date d'effet du contrat.",
+      "page": 6
+    },
+    {
+      "coverage": "Frais vétérinaires courants — maladie",
+      "duration": "45 jours",
+      "description": "En cas de maladie : à la condition que la première manifestation de la maladie ait lieu après un délai de 45 jours à compter de la date d'effet du contrat.",
+      "page": 6
+    },
+    {
+      "coverage": "Frais d'intervention chirurgicale — accident",
+      "duration": "48 heures",
+      "description": "Consécutive à un accident : après un délai de 48 heures à compter de la date d'effet du contrat.",
+      "page": 6
+    },
+    {
+      "coverage": "Frais d'intervention chirurgicale — maladie",
+      "duration": "6 mois",
+      "description": "Consécutive à une maladie : après un délai de 6 mois à compter de la date d'effet du contrat et à condition que la première manifestation de cette maladie ait eu lieu après un délai de 45 jours à compter de cette même date d'effet.",
+      "page": 6
+    },
+    {
+      "coverage": "Frais de détartrage préventif",
+      "duration": "24 mois",
+      "description": "Après un délai de 24 mois à compter de la date d'effet du contrat. L'article 9 précise que « cette garantie prend effet au terme d'une période d'assurance ininterrompue de deux ans après la date de d'effet du contrat ».",
+      "page": 6
+    },
+    {
+      "coverage": "Frais d'obsèques",
+      "duration": "6 mois",
+      "description": "Après un délai de 6 mois à compter de la date d'effet du contrat. L'article 11 précise que « cette garantie est mise en jeu au terme d'une période d'assurance de 6 mois ininterrompus après la date d'effet du contrat ».",
+      "page": 6
+    },
+    {
+      "coverage": "Toutes garanties sauf détartrage préventif",
+      "duration": "aucun délai de carence sous condition d'antériorité d'assurance",
+      "description": "Sauf en ce qui concerne le délai de carence applicable aux frais de détartrage préventif visé à l'article 3-1-A-3, aucun délai de carence ne vous est opposé si vous justifiez d'une assurance santé continue pour votre animal au cours des 6 mois précédant la date d'effet du présent contrat et dès lors que cette assurance antérieure couvrait à la fois les risques d'accident et de maladie. Le bénéfice de cette disposition est conditionné à la présentation, lors de votre première demande de prise en charge de frais de soins, d'un justificatif d'ancienneté d'assurance.",
+      "page": 7
+    }
+  ],
+  "obligations": [
+    {
+      "name": "Déclarer les éléments du risque à la souscription",
+      "description": "Répondre aux questions suivantes : l'espèce (chien ou chat), la race de votre animal, son nom, son genre (mâle ou femelle), sa date de naissance, son identification (tatouage ou puce électronique), les informations relatives à la vaccination et à la stérilisation de votre animal, son état de santé (absence ou présence de maladie(s) héréditaire(s), congénitale(s), chronique(s) ou récidivante(s) connue(s) de vous). Confirmer, par votre signature, l'exactitude des déclarations figurant aux Conditions particulières et leurs annexes.",
+      "timing": "à la souscription du contrat",
+      "sanction": "En cas de mauvaise foi : nullité du contrat (article L. 113-8). Lorsque la mauvaise foi n'est pas établie : réduction des indemnités (article L. 113-9). La résiliation motivée par une réticence ou une inexactitude (cas n° 10 de l'article 24-1) n'implique pas renonciation à se prévaloir de ces sanctions.",
+      "page": 20
+    },
+    {
+      "name": "Déclarer les circonstances nouvelles en cours de contrat",
+      "description": "Déclarer tout changement portant sur l'un des éléments déclarés à la souscription, notamment ceux mentionnés aux Conditions particulières et leurs annexes, par lettre recommandée ou courrier électronique dans les 15 jours où vous avez eu connaissance de circonstances nouvelles aggravant les risques ou en créant de nouveaux. Si la modification constitue une aggravation du risque, nous pouvons, dans les conditions prévues à l'article L. 113-4 du Code des assurances, soit résilier le contrat, soit proposer un nouveau montant de cotisation.",
+      "timing": "en cours de contrat, dans les 15 jours de la connaissance des circonstances nouvelles",
+      "sanction": "Déchéance de votre droit à garantie en cas de retard, si ce retard a été pour nous à l'origine d'un préjudice et ne résulte pas d'un cas fortuit ou de force majeure ; résiliation possible (cas n° 9 de l'article 24-1) si vous n'acceptez pas le nouveau montant de cotisation.",
+      "page": 20
+    },
+    {
+      "name": "Déclarer les frais engagés",
+      "description": "Dès que vous avez engagé des frais vétérinaires donnant lieu à remboursement au titre du présent contrat, sauf cas fortuit ou de force majeure, vous devez nous en faire la déclaration par écrit, de préférence par lettre recommandée ou par mail (santeanimale.matmut.sinistre@assurone-group.com), ou verbalement par téléphone.",
+      "timing": "5 jours ouvrés maximum",
+      "sanction": "Vous pouvez encourir la déchéance de votre droit à garantie en cas de retard dans la déclaration dès lors que ce manquement nous cause un préjudice.",
+      "page": 17
+    },
+    {
+      "name": "Fournir les pièces justificatives de la demande de prise en charge",
+      "description": "Adresser par courrier (Gestion SANTE ANIMALE MATMUT - 153 rue de Guise – CS 60 688 - 02315 SAINT QUENTIN CEDEX) ou par mail : la feuille de soins disponible en ligne sur matmut.fr/assurance/chien-chat ou depuis « Mon espace personnel », complétée, datée et signée par vos soins pour la partie administrative et par le vétérinaire pour la partie financière et médicale ; la note d'honoraires correspondante établie par le vétérinaire ; et, s'il s'agit de votre première demande pour un animal précédemment assuré, un justificatif d'assurance continue au cours des 6 mois précédant la date d'effet du présent contrat. En cas d'achat de médicaments en pharmacie ou d'analyses de laboratoire, joindre l'original de l'ordonnance nominative accompagnée de la facture. En cas d'accident, indiquer la date de survenance et les circonstances.",
+      "timing": "à chaque demande de prise en charge",
+      "sanction": "En l'absence de communication des documents évoqués, vous perdez tout droit à indemnité pour les prestations en cause. En cas d'inexécution de vos obligations, nous serons fondés à vous réclamer une indemnité proportionnelle aux dommages que cette inexécution nous aura causés.",
+      "page": 17
+    },
+    {
+      "name": "Fournir les pièces en cas de décès de l'animal",
+      "description": "Adresser par courrier ou par mail : la déclaration de décès disponible en ligne sur matmut.fr/assurance/chien-chat ou depuis « Mon espace personnel », complétée, datée et signée par vos soins et par le vétérinaire ; les justificatifs des frais engagés (frais d'euthanasie et frais funéraires) ; et, si le décès intervient dans les 6 mois suivant la date d'effet du présent contrat pour un animal précédemment assuré contre les risques d'accident et de maladie, un justificatif d'assurance continue au cours des 6 mois précédant la date d'effet du présent contrat.",
+      "timing": "en cas de décès de l'animal",
+      "sanction": null,
+      "page": 17
+    },
+    {
+      "name": "Ne pas faire de fausse déclaration ni user de moyens frauduleux",
+      "description": "Vous serez déchu de tout droit à garantie pour les prestations en cause si vous : faites de fausses déclarations sur la date des premiers symptômes, la nature, les circonstances, les causes et les conséquences d'un sinistre ; employez comme justifications des moyens frauduleux ou des documents mensongers ; ne déclarez pas l'existence d'autres assurances portant sur le même risque.",
+      "timing": "en cas de sinistre",
+      "sanction": "déchéance de tout droit à garantie pour les prestations en cause",
+      "page": 18
+    },
+    {
+      "name": "Déclarer les autres assurances",
+      "description": "Si les risques garantis par le présent contrat sont assurés auprès de plusieurs assureurs, vous devez donner immédiatement à chacun d'eux connaissance des autres assureurs en indiquant leurs noms. Vous pourrez obtenir l'indemnisation de vos dommages en vous adressant à l'assureur de votre choix.",
+      "timing": "immédiatement",
+      "sanction": "déchéance en cas de non-déclaration (article 14)",
+      "page": 22
+    },
+    {
+      "name": "Préserver le recours subrogatoire",
+      "description": "Nous sommes subrogés, conformément à l'article L. 121-12 du Code des assurances, jusqu'à concurrence de l'indemnité que nous avons payée, dans vos droits et actions contre le(s) responsable(s) du sinistre, son assureur ou tout organisme débiteur d'indemnités.",
+      "timing": "après indemnisation",
+      "sanction": "Si, de votre fait, la subrogation ne peut s'opérer, totalement ou partiellement, notre garantie est supprimée ou réduite proportionnellement aux droits dont nous avons été privés.",
+      "page": 19
+    },
+    {
+      "name": "Payer la cotisation",
+      "description": "La cotisation annuelle est payable d'avance. Elle peut cependant être réglée en plusieurs fractions ; ce fractionnement ne concerne que le paiement et ne remet pas en cause le caractère annuel de la cotisation.",
+      "timing": "d'avance, à l'échéance annuelle ou aux fractions convenues",
+      "sanction": "À défaut de paiement d'une cotisation ou d'une fraction de cotisation, nous pouvons, dans les conditions et délais prévus par l'article L. 113-3 du Code des assurances, suspendre notre garantie et éventuellement résilier le contrat (cas n° 8 de l'article 24-1), les frais engendrés par l'envoi de la lettre recommandée et/ou, le cas échéant, de prélèvement ou de tout autre moyen de paiement non honoré étant alors à votre charge.",
+      "page": 21
+    },
+    {
+      "name": "Communiquer les éléments nécessaires à l'expertise",
+      "description": "Dans le cadre du traitement de votre demande de remboursement, nous pouvons être amenés à contacter le vétérinaire ayant examiné votre animal ou, indépendamment, vous demander un historique médical complet de votre animal attesté par un vétérinaire. Une expertise peut être réalisée par un docteur vétérinaire de notre choix et à nos frais, avant remboursement ; cette expertise peut nécessiter des éléments du dossier médical de votre animal, que nous vous demandons de nous communiquer le cas échéant.",
+      "timing": "lors du traitement de la demande de remboursement",
+      "sanction": null,
+      "page": 19
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclarer les frais engagés",
+      "description": "Déclaration par écrit, de préférence par lettre recommandée ou par mail (santeanimale.matmut.sinistre@assurone-group.com), ou verbalement par téléphone, dès que vous avez engagé des frais vétérinaires donnant lieu à remboursement, sauf cas fortuit ou de force majeure.",
+      "deadline": "5 jours ouvrés maximum",
+      "page": 17
+    },
+    {
+      "step": "Transmettre la feuille de soins et la note d'honoraires",
+      "description": "Adresser la feuille de soins complétée, datée et signée par vos soins (partie administrative) et par le vétérinaire (parties financière et médicale), accompagnée de la note d'honoraires correspondante, par courrier à Gestion SANTE ANIMALE MATMUT - 153 rue de Guise – CS 60 688 - 02315 SAINT QUENTIN CEDEX ou par mail.",
+      "deadline": null,
+      "page": 17
+    },
+    {
+      "step": "Cas particulier — maladie chronique",
+      "description": "En cas de maladie chronique nécessitant un traitement sur le long terme, vous pouvez nous fournir une attestation du vétérinaire comportant : le nom de votre animal, son identification, le nom et les coordonnées du propriétaire, le nom de(s) médicament(s), le nom de la pathologie concernée par ce traitement, la durée du traitement. Ce document remplace la feuille de soins exigée pour toute demande de remboursement.",
+      "deadline": "attestation d'une validité d'un an maximum, actualisable à notre demande",
+      "page": 17
+    },
+    {
+      "step": "Cas particulier — ordonnance renouvelable",
+      "description": "En cas d'ordonnance renouvelable pour votre animal, une copie de cette ordonnance nominative du docteur vétérinaire sera jointe à la facture de la pharmacie.",
+      "deadline": "la durée de validité de l'ordonnance ne peut excéder une durée de douze mois consécutive à compter de la date de délivrance de l'ordonnance",
+      "page": 17
+    },
+    {
+      "step": "Déclarer le décès de l'animal",
+      "description": "Adresser la déclaration de décès complétée, datée et signée par vos soins et par le vétérinaire, les justificatifs des frais engagés (frais d'euthanasie et frais funéraires) et, le cas échéant, le justificatif d'assurance continue au cours des 6 mois précédant la date d'effet du contrat.",
+      "deadline": null,
+      "page": 17
+    },
+    {
+      "step": "Information de l'assuré (Engagement Qualité)",
+      "description": "Nous vous informons de notre position ou de nos attentes par tout moyen (courrier, téléphone…). Nous vous précisons régulièrement l'état d'évolution de votre dossier.",
+      "deadline": "dans les 48 heures de la réception de la feuille de soins",
+      "page": 18
+    },
+    {
+      "step": "Paiement de l'indemnité",
+      "description": "Le paiement de l'indemnité est effectué dans les 15 jours de la réception de la feuille de soins et de la note d'honoraires acquittée.",
+      "deadline": "15 jours",
+      "page": 18
+    },
+    {
+      "step": "Mise en œuvre des prestations d'assistance",
+      "description": "Vous devez joindre Matmut Assistance 24 h/24, tous les jours, même les jours fériés, aux numéros disponibles en ligne à partir de votre Espace Personnel sur matmut.fr. Les prestations sont réalisées par Inter Mutuelles Assistance GIE (118 avenue de Paris - 79000 Niort).",
+      "deadline": "24 h/24, tous les jours, même les jours fériés",
+      "page": 12
+    },
+    {
+      "step": "Mise en œuvre de l'assistance juridique",
+      "description": "Vous pouvez joindre Matmut Protection Juridique par téléphone au numéro suivant : 02 32 18 52 91 (prix d'un appel normal).",
+      "deadline": null,
+      "page": 15
+    },
+    {
+      "step": "Réclamation — premier niveau",
+      "description": "Votre réclamation peut être formulée par tous moyens : vis-à-vis auprès de votre agence conseil ; par téléphone au 02 35 03 68 68 ; par courrier à Matmut – Gestion des réclamations – TSA 40261 – 76729 Rouen Cedex. Le responsable de l'agence ou du service concerné, ou une entité dédiée au traitement des réclamations, étudie votre situation.",
+      "deadline": "accusé de réception si la réponse ne peut être adressée dans un délai de 10 jours ouvrables ; réponse dans un délai maximal de 30 jours à compter de la réception de votre réclamation",
+      "page": 27
+    },
+    {
+      "step": "Réclamation — service « réclamations sociétaires »",
+      "description": "Si la réponse apportée ne vous satisfait pas, vous pouvez solliciter notre service « réclamations sociétaires » à l'adresse suivante : 66 rue de Sotteville, 76030 Rouen Cedex 1, ou par mail (service.reclamations@matmut.fr).",
+      "deadline": "position définitive dans un délai maximal de 2 mois à compter de l'envoi de votre réclamation initiale, sauf situation exceptionnelle ; accusé de réception sous 10 jours ouvrables si la réponse ne peut être adressée dans ce délai",
+      "page": 27
+    },
+    {
+      "step": "Médiation de l'Assurance",
+      "description": "Si votre désaccord persiste, vous pouvez saisir gratuitement le Médiateur de l'Assurance en écrivant à Médiation de l'Assurance, TSA 50110, 75441 Paris Cedex 09, ou en déposant votre demande sur www.mediation-assurance.org. Vous pouvez également le solliciter directement s'il s'est écoulé plus de 2 mois depuis l'envoi de votre réclamation initiale. L'avis du Médiateur de l'Assurance ne nous lie, ni vous, ni nous, chacun conservant le droit de saisir les tribunaux.",
+      "deadline": "la saisine du Médiateur doit obligatoirement intervenir dans le délai d'un an à compter de l'envoi de votre réclamation initiale et aucune action contentieuse ne doit avoir été engagée auparavant",
+      "page": 27
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat a une durée d'un an. La première année, il est conclu pour la période comprise entre sa date d'effet et la date d'échéance annuelle indiquée aux Conditions particulières. Les garanties prennent effet aux date et heure indiquées aux Conditions particulières, sous réserve que le paiement de votre première cotisation ou première fraction de cotisation soit honoré.",
+    "tacit_renewal": true,
+    "notice_period": "Opposition au renouvellement par tacite reconduction (cas n° 1) : préavis de 1 mois pour vous, 2 mois pour nous, avec effet à la date d'échéance annuelle (L. 113-12)",
+    "methods": [
+      "Par lettre à adresser à Gestion SANTÉ ANIMALE MATMUT - 153 rue de Guise – CS 60 688 - 02315 SAINT QUENTIN CEDEX ou par tout autre support durable (lettre recommandée électronique…)",
+      "Par une déclaration faite à notre Siège social ou dans l'une de nos Agences",
+      "Par un acte extrajudiciaire",
+      "Lorsque nous proposons la conclusion de contrat par un mode de communication à distance, par ce même mode",
+      "La résiliation à notre initiative vous est notifiée par lettre recommandée (avec un accusé de réception dans le cas n° 4) adressée au dernier domicile que vous nous avez notifié"
+    ],
+    "special_rights": [
+      "Cas n° 1 — Opposition au renouvellement du contrat par tacite reconduction : à votre ou notre initiative, effet à la date d'échéance anniverselle indiquée aux Conditions particulières, préavis de 1 mois (vous) ou 2 mois (nous) — L. 113-12",
+      "Cas n° 2 — Envoi de l'avis d'échéance moins de 15 jours avant la fin du droit d'opposition au renouvellement, ou après cette date : à votre initiative, effet à la date d'échéance si la demande est formulée avant celle-ci, sinon le lendemain de la notification ; demande à adresser dans les 20 jours de cet envoi — L. 113-15-1",
+      "Cas n° 3 — Opposition à la poursuite du contrat tacitement renouvelé : à votre initiative, effet 1 mois après notification, sous condition d'une ancienneté de contrat d'1 an à compter de la 1ère souscription — Avis du Comité consultatif du secteur financier en date du 29 avril 2022",
+      "Cas n° 4 — Changement de votre situation portant sur le domicile ou la situation matrimoniale : à votre ou notre initiative, effet 1 mois après notification, notification dans le délai de 3 mois suivant l'événement — L. 113-16",
+      "Cas n° 5 — Majoration résultant de la révision de la cotisation annuelle : à votre initiative, effet 30 jours après notification, demande dans les 30 jours à compter de la réception de l'avis d'échéance — article 21-3 des Conditions générales",
+      "Cas n° 6 — Résiliation par nous d'un autre de vos contrats après sinistre : à votre initiative, effet 1 mois après notification — R. 113-10",
+      "Cas n° 7 — Décès du souscripteur : à notre initiative, effet 10 jours après notification à l'héritier, dans un délai de 3 mois à compter du moment où l'héritier a demandé le transfert à son nom ; à l'initiative de l'héritier, effet dès la notification, l'héritier ne pouvant plus résilier s'il a réglé la cotisation réclamée pour une échéance suivant le décès — L. 121-10",
+      "Cas n° 8 — Non-paiement de la cotisation : à notre initiative, effet 40 jours après l'envoi de la lettre recommandée de mise en demeure ou, lorsque cette lettre ne prévoit pas la résiliation, le jour de l'envoi d'une nouvelle lettre recommandée notifiant la résiliation — L. 113-3, R. 113-1",
+      "Cas n° 9 — Aggravation du risque : à notre initiative, effet 10 jours après notification ou 30 jours après l'envoi d'une proposition avec un nouveau montant de cotisation à laquelle vous ne donnez pas suite ou que vous refusez expressément — L. 113-4",
+      "Cas n° 10 — Réticence ou inexactitude dans la déclaration du risque à la souscription ou en cours de contrat : à notre initiative, effet 10 jours après notification — L. 113-8, L. 113-9",
+      "Cas n° 11 — Survenance d'un sinistre : à notre initiative, effet 1 mois après notification ; nous ne pourrons plus résilier si, passé le délai d'un mois après connaissance du sinistre, nous avons accepté le paiement d'une cotisation pour une période postérieure à ce sinistre — R. 113-10",
+      "Cas n° 12 — Décès, cession, disparition ou abandon de votre animal auprès d'un organisme : à votre initiative, effet dès réception par nous de la notification ; justificatif de décès établi par votre docteur vétérinaire, ou déclaration sur l'honneur de changement de propriétaire, de perte ou d'abandon — article 24 des Conditions générales",
+      "Cas n° 13 — Non-respect de notre Engagement Qualité : à votre initiative, effet dès réception de la notification, à tout moment dans les 12 mois suivant la survenance du sinistre — article 15 des Conditions générales",
+      "Droit de renonciation en cas de souscription à distance (article L. 112-2-1 du Code des assurances) : dans un délai de 14 jours calendaires révolus à compter de la réception des documents contractuels, par lettre simple ou déclaration au Siège social ou en Agence, pour une personne souscrivant à titre privé",
+      "Droit de renonciation en cas de souscription suite à un démarchage à domicile ou sur le lieu de travail (article L. 112-9 du Code des assurances) : dans un délai de 14 jours calendaires révolus à compter de la conclusion du contrat, par lettre recommandée ou déclaration au Siège social ou en Agence, pour une personne souscrivant à titre privé",
+      "Effets de la renonciation : si elle est formulée avant la date de prise d'effet des garanties, le contrat est annulé et la cotisation perçue est intégralement remboursée dans un délai maximum de 30 jours ; si elle est formulée après, la renonciation entraîne la résiliation au lendemain à 0 heure de la date d'envoi de la lettre ou du dépôt de la déclaration, la fraction de cotisation postérieure étant remboursée dans un délai maximum de 30 jours",
+      "Résiliation en cours de période d'assurance : nous avons droit au paiement de la cotisation couvrant la période antérieure à la résiliation ; nous avons droit également de réclamer ou de conserver la fraction de cotisation couvrant la période démarrant à compter de la date d'interruption des garanties lorsque la résiliation est consécutive au non-paiement ; dans les autres cas, nous remboursons la fraction de cotisation à compter de la résiliation lorsqu'elle a été payée d'avance"
+    ],
+    "page": 21
+  },
+  "prescription_period": {
+    "description": "Conformément à l'article L. 114-1 du Code des assurances, toutes actions dérivant du présent contrat, qu'il s'agisse de sa validité ou de son exécution, sont prescrites par deux ans à compter de l'événement qui y donne naissance. Toutefois, ce délai ne court : en cas de réticence, omission, déclaration fausse ou inexacte sur le risque couru, que du jour où l'assureur en a eu connaissance ; en cas de sinistre, que du jour où les intéressés en ont eu connaissance, s'ils prouvent qu'ils l'ont ignoré jusque-là. Quand l'action de l'assuré contre l'assureur a pour cause le recours d'un tiers, le délai de la prescription ne court que du jour où ce tiers a exercé une action en justice contre l'assuré ou a été indemnisé par ce dernier. Les causes d'interruption de la prescription sont celles prévues par l'article L. 114-2 du Code des assurances : la reconnaissance par le débiteur du droit du créancier (article 2240 du Code civil), une demande en justice même en référé (article 2241 du Code civil), une mesure conservatoire ou un acte d'exécution forcée (article 2244 du Code civil), ainsi que la désignation d'un expert à la suite d'un sinistre et l'envoi d'une lettre recommandée ou d'un recommandé électronique avec accusé de réception par notre Société à l'assuré en ce qui concerne le paiement des cotisations ou, par l'assuré à notre Société en ce qui concerne le règlement des indemnités. Conformément à l'article L. 114-3 du Code des assurances, les parties au contrat d'assurance ne peuvent, même d'un commun accord, ni modifier la durée de la prescription, ni ajouter aux causes de suspension ou d'interruption de celle-ci.",
+    "page": 22
+  },
+  "premium": {
+    "notes": [
+      "Le contrat est établi selon vos déclarations et la cotisation est fixée en conséquence en fonction de la formule choisie et indiquée aux Conditions particulières.",
+      "Votre engagement est annuel. La cotisation correspond au coût des garanties souscrites auquel viennent s'ajouter les accessoires de cotisation et les impôts et taxes établis sur les contrats d'assurance et dont la récupération n'est pas interdite.",
+      "La cotisation annuelle est payable d'avance. Elle peut cependant être réglée en plusieurs fractions ; ce fractionnement ne concerne que le paiement et ne remet pas en cause le caractère annuel de la cotisation.",
+      "À défaut de paiement d'une cotisation ou d'une fraction de cotisation, nous pouvons suspendre notre garantie et éventuellement résilier le contrat (article L. 113-3 du Code des assurances), les frais de lettre recommandée et de moyen de paiement non honoré étant à votre charge.",
+      "La révision de la cotisation est annuelle. Elle intervient au premier jour de chaque année civile et modifie le tarif applicable aux risques garantis. Le nouveau tarif s'applique à l'échéance annuelle indiquée aux Conditions particulières ou dès le jour de l'avenant en cas de modification du contrat.",
+      "Vous pouvez résilier le contrat (cas n° 5 de l'article 24-1) en cas de majoration consécutive à la révision de la cotisation annuelle ; le prorata de cotisation afférent à la période de garantie allant jusqu'à la date de résiliation demeure exigible. À défaut de résiliation, la nouvelle cotisation est considérée comme acceptée par vous. La résiliation est toutefois impossible lorsqu'il y a majoration résultant d'une modification, décidée par les Pouvoirs Publics, des impôts et taxes."
+    ],
+    "indexation": "La cotisation évolue chaque année en fonction de l'âge de votre animal sans que cette évolution puisse excéder 3%. La cotisation peut également évoluer pour des raisons d'ordre technique et/ou en fonction de l'évolution constatée du coût des frais vétérinaires.",
+    "page": 21
+  },
+  "special_conditions": [
+    {
+      "name": "Nature et composition du contrat",
+      "description": "Conditions générales valant projet de contrat au sens de l'article L. 112-2 du Code des assurances, comprenant les modalités d'examen des réclamations et la charte de protection des données à caractère personnel. Le présent contrat est régi par le Code des assurances. Il se compose des présentes Conditions générales ainsi que des Conditions particulières remises lors de la souscription et peut être complété, le cas échéant, par des conventions spéciales. Toute disposition législative d'ordre public s'impose aux cocontractants quand bien même ce contrat n'en ferait pas état ou en disposerait autrement.",
+      "page": 1
+    },
+    {
+      "name": "Autorité de contrôle",
+      "description": "Le présent contrat est soumis à l'Autorité de Contrôle Prudentiel et de Résolution (ACPR) : 4 place de Budapest, CS 92459, 75436 Paris Cedex 09.",
+      "page": 33
+    },
+    {
+      "name": "Répartition des rôles entre entités",
+      "description": "« Nous » désigne Matmut & Co ; la gestion du présent contrat ainsi que les garanties des frais vétérinaires en cas d'accident ou de maladie, de prévention et en cas de décès de l'animal sont réalisées par AssurOne ; Matmut Assistance pour les garanties d'assistance, elles-mêmes réalisées par IMA GIE (Inter Mutuelles Assistance GIE, 118 avenue de Paris - 79000 Niort) ; Matmut Protection Juridique pour la garantie d'assistance juridique, accordée au titre d'un contrat collectif de Protection Juridique souscrit par Matmut & Co auprès de Matmut Protection Juridique.",
+      "page": 5
+    },
+    {
+      "name": "Deux formules de garanties",
+      "description": "Le contrat comporte deux formules, Prim' et Max'. Les garanties « Remboursement des frais vétérinaires courants en cas d'accident ou de maladie » (article 6) et « Remboursement des frais d'intervention chirurgicale en cas d'accident ou de maladie » (article 7) sont accordées quelle que soit la formule souscrite, de même que les prestations d'assistance et l'assistance juridique. Les garanties de prévention (articles 8 et 9) et la participation aux frais d'obsèques (article 11) sont accordées lorsque vous avez souscrit la formule Max'.",
+      "page": 6
+    },
+    {
+      "name": "Changement de formule",
+      "description": "Jusqu'au 8ème anniversaire de votre animal, vous avez la faculté de changer de formule à chaque échéance annuelle ; la cotisation annuelle est modifiée en conséquence. Au-delà, le changement de formule se fait uniquement en faveur d'une formule dont le taux de remboursement et le plafond annuel de remboursement sont inférieurs à ceux dont vous bénéficiez au jour de votre demande, et ne peut intervenir qu'à l'échéance annuelle du contrat.",
+      "page": 21
+    },
+    {
+      "name": "Modification du contrat",
+      "description": "La proposition de modification du contrat est demandée par lettre recommandée, courrier électronique ou par envoi recommandé électronique.",
+      "page": 21
+    },
+    {
+      "name": "Communication sur support durable",
+      "description": "Conformément à l'article L. 111-10 du Code des assurances, vous pouvez vous opposer, dès l'entrée en relation ou à tout moment, à l'utilisation du support durable que nous utilisons pour vous communiquer des informations ou documents en vue de revenir à l'utilisation du support papier.",
+      "page": 20
+    },
+    {
+      "name": "Langue et loi applicables",
+      "description": "Le présent contrat est rédigé en français. Il est régi par la loi française.",
+      "page": 21
+    },
+    {
+      "name": "Engagement Qualité et droit de résiliation associé",
+      "description": "Nous vous informons de notre position ou de nos attentes par tout moyen dans les 48 heures de la réception de la feuille de soins ; nous nous chargeons, en cas de sinistre garanti, de l'instruction et de la gestion du dossier et faisons procéder à nos frais aux opérations d'enquêtes nécessaires ; le paiement de l'indemnité est effectué dans les 15 jours de la réception de la feuille de soins et de la note d'honoraires acquittée ; en cas de désaccord sur le montant de l'indemnité, nous nous engageons à vous régler les sommes que nous estimons vous devoir sans attendre l'issue de la procédure d'examen de la réclamation. Si nous ne respectons pas notre Engagement Qualité, vous disposez d'un droit de résiliation du contrat dont les garanties ont été mises en jeu, exerçable à tout moment du traitement du dossier et au plus tard 12 mois après la date de survenance du sinistre.",
+      "page": 18
+    },
+    {
+      "name": "Avance de fonds remboursable (assistance)",
+      "description": "Les prestations non prévues à l'article 10-4, que Matmut Assistance accepterait de mettre en œuvre à la demande d'un bénéficiaire, seront considérées comme une avance de fonds remboursable. Matmut & Co est par ailleurs subrogée, à concurrence des frais que Matmut Assistance a engagés pour son compte, dans les droits et actions de ses souscripteurs et bénéficiaires contre tout responsable de sinistre. Matmut Assistance se réserve le droit de demander au bénéficiaire tout document ou information permettant de prouver la survenance de l'événement ou que le dommage subi est bien la conséquence d'un événement garanti.",
+      "page": 12
+    },
+    {
+      "name": "Conditions d'exécution des prestations d'assistance",
+      "description": "Les prestations garanties s'appliquent compte tenu des caractéristiques géographiques, climatiques, économiques, politiques et juridiques propres au lieu de survenance de l'événement et constatées lors de l'événement.",
+      "page": 12
+    },
+    {
+      "name": "Charte de protection des données à caractère personnel",
+      "description": "La charte annexée aux Conditions générales (pages 28 à 32) détaille les finalités du traitement, les catégories de données collectées, les fondements juridiques, les destinataires, les durées de conservation, les lieux de conservation, les mesures de sécurité, les droits des personnes et leurs modalités d'exercice, les cookies, ainsi que le suivi de la charte. Le Groupe Matmut a nommé un Délégué à la Protection des Données (DPO).",
+      "page": 29
+    },
+    {
+      "name": "Contacts du contrat",
+      "description": "Pour toute question concernant votre contrat ou la mise en jeu d'une garantie : téléphone 02 32 18 53 05 (prix d'un appel normal) ; mail pour toute question concernant votre contrat : santeanimale.matmut@assurone-group.com ; mail pour toute question concernant la mise en jeu d'une garantie : santeanimale.matmut.sinistre@assurone-group.com.",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "PORTEUR DE RISQUE / DIVERGENCE AVEC LES MÉTADONNÉES DE LA TÂCHE : le document n'imprime nulle part la « Mutuelle assurance des travailleurs mutualistes » ni le Siren 775 701 477 annoncés par les métadonnées. TROIS entités du groupe interviennent, avec des rôles distincts explicitement écrits : « Matmut & Co / Société Anonyme au capital de 66 015 268 € entièrement libéré / N° 487 597 510 RCS Rouen » porte le contrat et les garanties frais vétérinaires, prévention et décès ; « Matmut Protection Juridique / Société Anonyme au capital de 7 500 000 € entièrement libéré / N° 423 499 391 RCS Rouen » porte l'assistance juridique, au titre d'un contrat collectif souscrit par Matmut & Co ; « Matmut Assistance » porte les garanties d'assistance, dont les prestations sont réalisées par Inter Mutuelles Assistance GIE (IMA GIE, 118 avenue de Paris - 79000 Niort). S'y ajoute un gestionnaire non assureur, AssurOne, qui assure la gestion du contrat et des garanties de frais vétérinaires (adresses de gestion et courriels @assurone-group.com). insurer_name restitue les entités imprimées avec leur rôle ; insurer_slug reste « matmut » pour le rattachement de la source.",
+    "COUCHE TEXTE — GLYPHES DE ZONE PRIVÉE (piège majeur sur ce document) : la couche texte contient 284 caractères de la zone à usage privé Unicode, restes de puces et de pictogrammes Wingdings : 148 U+F0B7 (puces de liste), 128 U+F0EB (le pictogramme « renvoi au lexique »), 2 U+F020, 3 U+F06C, 1 U+F075, 1 U+F076, 1 U+F077. Le U+F0EB est le plus traître : il se loge AU MILIEU des phrases, à l'endroit où le document imprime un petit symbole après un terme défini, et soude visuellement deux mots dans le texte extrait — « Le symbole[U+F0EB]renvoie à un terme », « l'accident[U+F0EB]soit survenu après un délai de 48 heures », « frais vétérinaires courants[U+F0EB]en cas d'accident », « Conditions particulières[U+F0EB]doit être ». Aucun normaliseur ne les supprime et aucune citation ne peut les enjamber sans les inclure. Toutes les key_quotes ont donc été découpées programmatiquement comme spans exacts du texte, jamais retapées, et conservent ces glyphes. Les valeurs restituées en prose dans les autres champs ont en revanche été nettoyées de ces glyphes pour rester lisibles : les key_quotes font foi.",
+    "TABLEAU DES GARANTIES (article 2, page 6) NON EXPLOITABLE : le tableau qui croise les garanties et les deux formules « Prim' » et « Max' » sort de la couche texte sans le contenu de ses cellules — les marques (coches ou pastilles) qui indiquent quelle garantie appartient à quelle formule ont disparu, ne laissant que les intitulés de garanties et les numéros d'articles. L'appartenance de chaque garantie à une formule n'a donc PAS été lue dans ce tableau mais dans le texte des chapitres, qui l'énonce en toutes lettres : « Les garanties [articles 6 et 7] sont accordées quelle que soit la formule souscrite » (page 8), « Les garanties [articles 8 et 9] vous sont accordées lorsque vous avez souscrit la formule Max' » (page 9), « La garantie [article 11] vous est accordée lorsque vous avez souscrit la formule Max' » (page 14), « Les prestations d'assistance sont accordées quelle que soit la formule souscrite » (page 10), « La garantie Assistance juridique est acquise quelle que soit la formule souscrite » (page 15).",
+    "MONTANTS EN FORMULE PRIM' NON RENSEIGNÉS : dans le tableau des taux et plafonds (article 3-2, page 7), la colonne « Prim' » est vide en face des garanties de prévention (vaccination annuelle, détartrage préventif) et de la participation aux frais d'obsèques ; seules des valeurs uniques apparaissent (50 € / an, un événement toutes les 2 années d'assurance, 150 €), sans qu'aucune colonne ne les rattache explicitement à Max'. Le rattachement a été fait à partir du texte des chapitres II et IV, qui réserve ces garanties à la formule Max'. Le document ne dit pas si ces montants seraient différents en formule Prim' : la question ne se pose pas puisque la garantie n'y est pas acquise, mais aucune mention explicite « néant » ne figure dans la case.",
+    "PLAFOND COMMUN ET PLAFOND ANNUEL : le plafond annuel de remboursement est explicitement commun aux frais vétérinaires courants et aux frais d'intervention chirurgicale (« frais vétérinaires courants et frais d'intervention chirurgicale confondus »), soit 1 400 € en Prim' et 2 000 € en Max'. Le lexique précise que « le plafond annuel non consommé ne se reporte pas d'une année sur l'autre ». Ces deux garanties sont restituées séparément dans coverages, chacune portant la mention du plafond commun, pour ne pas laisser croire à deux plafonds distincts.",
+    "DATE D'ÉDITION : aucune mention « édition MM/AAAA ». La date provient du seul code de référence imprimé en bas de la dernière page de texte : « CG Assur'4Pattes -  01/24 », restitué verbatim dans reference — noter la DOUBLE ESPACE entre le tiret et « 01/24 », conservée telle quelle, et le séparateur (tiret ASCII entouré d'espaces) encore différent de ceux des autres documents Matmut de cette bibliothèque. Aucune date en clair dans le corps ne contredit ce code ; aucune autre date d'édition n'apparaît.",
+    "NOM DU PRODUIT : la couverture (page 1) imprime « Assur'4Pattes » seul, tandis que la page de titre (page 2), le modèle de lettre de renonciation (articles 24-4 et 24-5) et le code de référence utilisent respectivement « Assur'4Pattes Matmut & Co », « Assur'4Pattes Matmut & Co » et « CG Assur'4Pattes ». product_name retient la forme complète imprimée sur la page de titre, product_family la forme courte. L'apostrophe est une apostrophe courbe U+2019 dans toutes les occurrences.",
+    "COQUILLES DE L'ASSUREUR CONSERVÉES : l'article 9 imprime « après la date de d'effet du contrat » (répétition de « de ») ; l'article 14 imprime « sur matmut.fr sur matmut.fr » (répétition) ; le sommaire renvoie aux pages du folio imprimé et non à la pagination PDF ; l'article 4 emploie « Etendue » et « Etat » sans accent là où le corps écrit « État ». Ces particularités sont conservées telles quelles, non corrigées.",
+    "PAGINATION : la numérotation imprimée est décalée par rapport à la pagination PDF (la page PDF 4 porte le folio « 3 », la page PDF 33 porte le folio « 32 »), et le sommaire renvoie aux folios imprimés. Tous les champs page de cette extraction citent la pagination PDF, conformément aux marqueurs [[page N]]. Correspondance : folio = page PDF − 1 à partir de la page PDF 3.",
+    "GARANTIE D'ASSISTANCE JURIDIQUE — PORTÉE LIMITÉE : l'article 12 ne décrit qu'une prestation d'information et de conseil par téléphone. Le document n'énonce ni prise en charge de frais d'avocat, d'expertise ou de procédure, ni plafond, ni seuil d'intervention, ni exclusions propres — au-delà du renvoi général de l'article 13. Les conditions du contrat collectif de Protection Juridique souscrit par Matmut & Co auprès de Matmut Protection Juridique ne sont pas reproduites.",
+    "SECTIONS RENVOYANT À D'AUTRES DOCUMENTS : les montants de cotisation, le taux de remboursement retenu, le plafond souscrit, la date d'échéance annuelle, la formule choisie, l'identité et les caractéristiques de l'animal figurent aux Conditions particulières, qui ne sont pas jointes. Le contrat peut en outre « être complété, le cas échéant, par des conventions spéciales » non reproduites. Aucun barème tarifaire ne figure dans ce document.",
+    "CHARTE RGPD RÉSUMÉE, NON DÉTAILLÉE : la charte de protection des données occupe les pages 28 à 32 (folios 27 à 31) et n'a pas été restituée article par article, s'agissant d'un texte réglementaire d'information et non de dispositions de garantie. Elle est signalée en special_conditions avec son périmètre. Aucune disposition de garantie, d'exclusion ou de procédure de sinistre n'y figure.",
+    "COUCHE TEXTE — AUTRES : aucun espace de largeur nulle (U+200B), aucun tiret conditionnel (U+00AD), aucun caractère de contrôle, aucun accent décomposé NFD (le texte est déjà en NFC), aucune perte de ligature fi/ff/fl (« définitions », « effet », « affections » sortent corrects). 710 apostrophes courbes U+2019 se mêlent à des apostrophes ASCII. Seulement 4 mots sont coupés par un trait d'union en fin de ligne. Les tableaux (délais de carence, taux et plafonds, prestations d'assistance, cas de résiliation) sortent en cellules successives sans structure de ligne : leur contenu a été reconstitué à partir de l'ordre des cellules, qui reste lisible ici, mais l'alignement colonne par colonne du tableau des garanties de la page 6 est irrécupérable (voir ci-dessus).",
+    "VÉRIFICATION SOURCE : le texte du prompt n'était pas tronqué (34 pages, ~90 000 caractères, en deçà du plafond de 240 000). Il a néanmoins été confronté au PDF local data/fr/pdfs/matmut/animaux/assur4pattes-1b20decc.pdf via le même appel que le pipeline (PyMuPDF, page.get_text(\"text\")) : les 34 pages sortent identiques octet pour octet. Les key_quotes sont des spans exacts de ce texte et ont été revérifiées contre le PDF avec les fonctions norm()/nospace() de verify_grounding.py.",
+    "NON DIT : le document ne précise pas le sort du contrat en cas d'adoption d'un second animal (un contrat vise un seul animal nommément désigné), ni ce qu'il advient des garanties lorsque l'animal atteint 8 ans en cours de contrat — l'âge de 8 ans n'est une condition qu'à la date de prise d'effet, et l'article 20-2 organise au contraire le changement de formule « au-delà du 8ème anniversaire », ce qui suppose la poursuite du contrat. Il n'indique pas non plus de délai maximal pour l'envoi des pièces après la déclaration, ni de plafond global sur la durée du contrat."
+  ],
+  "key_quotes": [
+    {
+      "quote": "Ce contrat d’assurance santé animale a pour objet de prendre en charge les pertes pécuniaires consécutives aux frais \nde soins vétérinaires exposés par vous en cas de maladie ou d’accident du chien ou du chat désigné aux Conditions \nparticulières et de vous accorder des prestations d’assistance.",
+      "page": 2,
+      "context": "Page de garde : objet du contrat"
+    },
+    {
+      "quote": "Votre animal doit être identifié par une puce électronique ou un tatouage et être âgé de 3 mois ou plus et de moins de \n8 ans à la date de prise d’effet des garanties.  \nNous accordons les garanties mentionnées aux Conditions particulières et définies par les présentes Conditions \ngénérales, dans les limites qu’elles prévoient.  \nLe contrat ne peut être souscrit que par une personne physique domiciliée en France métropolitaine ou dans la \nPrincipauté de Monaco.",
+      "page": 2,
+      "context": "Page de garde : conditions d'éligibilité de l'animal et du souscripteur"
+    },
+    {
+      "quote": "Matmut & Co. La gestion du présent contrat ainsi que les garanties des frais vétérinaires en cas d’accident ou de maladie, de \nprévention et en cas de décès de l’animal désigné aux Conditions particulières sont réalisées par AssurOne. \nMatmut Assistance pour les garanties d’assistance. Ces garanties sont réalisées par IMA GIE. \nMatmut Protection Juridique pour la garantie d’assistance juridique.",
+      "page": 5,
+      "context": "Article 1, lexique — « Nous » : les trois porteurs et le gestionnaire"
+    },
+    {
+      "quote": "Le souscripteur du contrat, désigné à ce titre aux Conditions particulières, bénéficiaire des indemnités consécutives à la mise en jeu \ndes garanties des frais vétérinaires en cas d’accident ou de maladie et de la participation aux frais d’obsèques de l’animal.",
+      "page": 5,
+      "context": "Article 1, lexique — « Vous »"
+    },
+    {
+      "quote": "1- Pour les frais vétérinaires courants  \n en cas d’accident : à la condition que l’accidentsoit survenu après un délai de 48 heures à compter de la date d’effet du contrat,  \n en cas de maladie : à la condition que la première manifestation de la maladie ait lieu après un délai de 45 jours à compter de \nla date d’effet du contrat.",
+      "page": 6,
+      "context": "Article 3-1-A : délais de carence, frais vétérinaires courants"
+    },
+    {
+      "quote": "2- Pour les frais d’intervention chirurgicale \n consécutive à un accident : après un délai de 48 heures à compter de la date d’effet du contrat, \n consécutive à une maladie : après un délai de 6 mois à compter de la date d’effet du contrat et à condition que la première \nmanifestation de cette maladie ait eu lieu après un délai de 45 jours à compter de cette même date d’effet.  \n \n3- Pour les frais de détartrage préventif \n après un délai de 24 mois à compter de la date d’effet du contrat. \n \n4- Pour les frais d’obsèques  \n après un délai de 6 mois à compter de la date d’effet du contrat.",
+      "page": 6,
+      "context": "Article 3-1-A : délais de carence, chirurgie, détartrage et obsèques"
+    },
+    {
+      "quote": "Sauf en ce qui concerne le délai de carence applicable aux frais de détartrage préventif visé à l’article 3-1-A-3 ci-avant, aucun délai \nde carence ne vous est opposé si vous justifiez d’une assurance santé continue pour votre animal au cours des 6 mois précédant la \ndate d’effet du présent contrat et dès lors que cette assurance antérieure couvrait à la fois les risques d’accident et de maladie.  \n \nLe bénéfice de cette disposition est conditionné à la présentation, lors de votre première demande de prise en charge de frais de \nsoins, d’un justificatif d’ancienneté d’assurance.",
+      "page": 7,
+      "context": "Article 3-1-B : non-application des délais de carence"
+    },
+    {
+      "quote": "Remboursement des frais vétérinaires courants \nTaux de remboursement :  \n50 % \nPlafond annuel de \nremboursement  (frais \nvétérinaires  courantset  \nfrais d’intervention \nchirurgicale confondus) : \n1 400 €  \nTaux de remboursement :  \n80 % \nPlafond annuel de \nremboursement  (frais \nvétérinaires  courantset  \nfrais d’intervention \nchirurgicale confondus) : \n2 000 €",
+      "page": 7,
+      "context": "Article 3-2 : taux et plafonds de remboursement des formules Prim' et Max'"
+    },
+    {
+      "quote": "À la date de prise d’effet des garanties, le chien ou le chat désigné aux Conditions particulièresdoit être : \n âgé de 3 mois ou plus et de moins de 8 ans, \n identifié par une puce électronique ou un tatouage.  \n \nOutre les exclusions prévues à l’article 13, les garanties du présent contrat ne vous sont pas accordées si l’animal :  \n est âgé de moins de 3 mois ou de 8 ans et plus à la date d’effet du contrat, \n n’est pas identifié par une puce électronique ou un tatouage,  \n est utilisé à des fins professionnelles, \n fait partie d’une meute (troupe de chiens dressés pour la chasse), \n fait partie d’un élevage professionnel, \n fait l’objet d’une activité commerciale.",
+      "page": 7,
+      "context": "Article 4 : conditions d'octroi des garanties liées à l'animal"
+    },
+    {
+      "quote": "L’ensemble des garanties, à l’exception des garanties d’assistance en lien avec votre animal, s’applique :  \n en France métropolitaine ou dans la Principauté de Monaco, \n dans les Départements et Régions d’Outre-Mer (Guadeloupe, Guyane, Martinique, Mayotte et La Réunion) et, à l’étranger, dans \nles pays de l’Union Européenne, en Suisse, dans les Principautés d’Andorre et de Liechtenstein, à Saint-Marin, en Norvège, en \nIslande et au Royaume-Uni en cas de déplacement, n’excédant pas 3 mois consécutifs, effectué avec votre animal dans le cadre de \nvotre vie privée.",
+      "page": 7,
+      "context": "Article 5 : territorialité des garanties"
+    },
+    {
+      "quote": "nous vous remboursons les frais ci-dessous \nindiqués : \n les honoraires de consultation ou de visite d’un docteur vétérinaire,  \n les médicaments prescrits par le docteur vétérinaire, \n les frais de diagnostics prescrits par le docteur vétérinaire : analyses de laboratoire, examens d’imagerie, biopsies, prises de sang, \nponctions, arthroscopies, examens cardiologiques, \n les frais de radiothérapie et de chimiothérapie prescrits par le docteur vétérinaire,  \n les frais de transport en ambulance animalière, sous réserve que l’état de votre animal nécessite un tel moyen de transport et qu’il \nsoit validé par le docteur vétérinaire,  \n les frais de séjour en cabinet ou en clinique vétérinaire, \nà l’exclusion des frais d’euthanasie et d’incinération.",
+      "page": 8,
+      "context": "Article 6 : frais vétérinaires courants remboursés"
+    },
+    {
+      "quote": "les honoraires vétérinaires propres à l’intervention chirurgicale, \n les frais de diagnostics survenus dans un délai de 15 jours précédant le jour de l’intervention chirurgicale: analyses de laboratoire, \nexamens d’imagerie, biopsies, prises de sang, ponctions, arthroscopies, examens cardiologiques, \n les frais de pharmacie, d’anesthésie et de soins liés directement à l’intervention chirurgicale,  \n les frais de séjour en cabinet ou en clinique vétérinaire rendus nécessaires par l’intervention chirurgicale.",
+      "page": 8,
+      "context": "Article 7 : frais d'intervention chirurgicale remboursés"
+    },
+    {
+      "quote": "Les garanties « Remboursement des frais de vaccination annuelle » (article 8) et « Remboursement des frais de détartrage \npréventif » (article 9) vous sont accordées lorsque vous avez souscrit la formule Max’.",
+      "page": 9,
+      "context": "Chapitre II : garanties de prévention réservées à la formule Max'"
+    },
+    {
+      "quote": "Nous vous remboursons les frais de détartragepréventif. Cette garantie prend effet au terme d’une période d’assurance \nininterrompue de deux ans après la date de d’effet du contrat et dans la limite d’une seule prise en charge toutes les 2 années \nd’assurance, d’échéance annuelle à échéance annuelle.",
+      "page": 9,
+      "context": "Article 9 : détartrage préventif, périodicité"
+    },
+    {
+      "quote": "Les garanties d’assistance en lien avec votre animal s’appliquent en France métropolitaine et dans la Principauté de Monaco.  \n \nPar exception, les prestations d’assistance à l’étranger sont accordées exclusivement dans les Départements et Régions d’Outre-Mer \n(Guadeloupe, Guyane, Martinique, Mayotte et La Réunion), dans les pays de l’Union Européenne, en Suisse, dans les Principautés \nd’Andorre et de Liechtenstein, à Saint-Marin, en Norvège, en Islande et au Royaume-Uni en cas de déplacement, n’excédant pas 3 \nmois consécutifs, effectué avec votre animal dans le cadre de votre vie privée.",
+      "page": 10,
+      "context": "Article 10-3 : territorialité des garanties d'assistance"
+    },
+    {
+      "quote": "Les prestations de Matmut Assistance visées à l’article 10-4 sont réalisées par Inter Mutuelles Assistance GIE (118 avenue de Paris \n- 79000 Niort).",
+      "page": 12,
+      "context": "Article 10-5 : porteur des prestations d'assistance"
+    },
+    {
+      "quote": "La responsabilité de Matmut Assistance ne saurait être recherchée en cas de manquement à ses obligations si celui-ci résulte \nd’un cas de force majeure, d’une guerre civile ou étrangère, d’une révolution, d’un mouvement populaire, d’une émeute, d’une \ngrève, d’une saisie ou contrainte par la force publique, d’une interdiction officielle, d’un acte de piraterie, d’une explosion \nd’engins, d’effets nucléaires ou radioactifs, d’empêchements climatiques.",
+      "page": 12,
+      "context": "Article 10-5 : force majeure et cas d'exonération de l'assisteur"
+    },
+    {
+      "quote": "Matmut Assistance ne peut intervenir dans les situations à risque infectieux en contexte épidémique faisant l’objet d’une mise \nen quarantaine ou de mesures préventives ou de surveillance spécifique de la part des autorités sanitaires locales et/ou \nnationales du pays d’origine.",
+      "page": 12,
+      "context": "Article 10-5 : risque infectieux et quarantaine"
+    },
+    {
+      "quote": "Outre les exclusions prévues à l’article 13,  \n• nous ne prenons pas en charge les événements liés : \n- à un traitement médical ou à une intervention chirurgicaledu bénéficiaire qui ne constituerait pas un accident corporel \nou une maladie soudaine et imprévisible du bénéficiaire tel que défini à l’article 10-1, \n- à une hospitalisation du bénéficiaire d’une durée inférieure à 48 heures consécutives,  \n- à une immobilisation du bénéficiaire d’une durée inférieure à 5 jours consécutifs,  \n- aux conséquences de l’usage par le bénéficiaire de médicaments ou de toute autre substance hors prescription médicale,  \n• nous ne pouvons remplacer les secours d’urgence auxquels vous devez faire appel en priorité, ni prendre en charge leurs frais \net n’intervenons que dans la limite des accords donnés par les autorités locales.",
+      "page": 13,
+      "context": "Article 10-6 : exclusions propres aux garanties d'assistance"
+    },
+    {
+      "quote": "Nous vous remboursons, dans la limite du plafond mentionné à l’article 3 des présentes Conditions généraleset aux Conditions \nparticulières, les frais liés aux obsèques de votre animal : \n frais d’euthanasie (consultation, anesthésique, injection létale), \n frais funéraires (incinération, urne).",
+      "page": 14,
+      "context": "Article 11 : participation aux frais d'obsèques"
+    },
+    {
+      "quote": "La garantie Assistance juridique est acquise quelle que soit la formule souscrite. Elle vous est accordée au titre d’un contrat collectif \nd’assurance de Protection Juridique souscrit par Matmut & Co auprès de Matmut Protection Juridique, 66 rue de Sotteville                 \n76100 Rouen.",
+      "page": 15,
+      "context": "Article 12 : porteur de la garantie d'assistance juridique"
+    },
+    {
+      "quote": "La garantie vous permet de bénéficier d’une Assistance Juridique par téléphone en cas de litige ou de différend vous opposant à un \ntiers et relatif à votre animal.",
+      "page": 15,
+      "context": "Article 12-1 : objet de l'assistance juridique"
+    },
+    {
+      "quote": "Outre les exclusions spécifiques à chacune des garanties et celle(s) figurant le cas échéant aux Conditions particulières, nous \nne garantissons pas :  \n les maladiesou accidents, y compris leurs suites et conséquences, dont l’origine, la survenance ou la constatation est \nantérieure à la souscription de votre contrat ou incluse dans les délais de carencede ce dernier,  \n les frais exposés pour les maladiesqui auraient normalement pu être évitées si des vaccinations préventives avaient été \nréalisées :  \n- chien : maladie de Carré, hépatite de Rubarth, leptospirose, parvovirose, rage  \n- chat : typhus, coryza, calicivirose, leucose féline, rage  \n les frais exposés pour une  pathologie congénitale et/ou héréditaire et ses conséquences,  \n les frais liés aux affections suivantes et leurs conséquences : les entropions, les ectropions, la dysplasie coxo-fémorale, les \nanomalies de développement de l’articulation du coude (non union du processus anconé, ostéochondrose, ostéochondrite \ndisséquante, fragmentation du processus coronoïde médial, incongruence articulaire), les luxations de rotule (hors \naccidentelles), les anomalies des narines, du palais et du larynx des races brachycéphales, l’ectopie testiculaire, y compris les \nfrais de dépistage de ces affections, \n tout médicament prescrit sans rapport avec la pathologie déclarée, \n les frais de mises bas et les césariennes qui ne sont pas occasionnées par un accident, \n les frais exposés lors de la gestation : diagnostic, suivi de gestation, l’avortement et ses conséquences, l’insémination \nartificielle, \n les frais médicamenteux pour interrompre les chaleurs, \n les frais exposés pour toute ovariectomie et castration de l’animal non consécutive à une pathologie,  \n toute intervention chirurgicaledestinée à corriger les oreilles ou la taille de la queue,  \n les frais d’onyxectomie (dégriffage), \n toute intervention qui n’est pas effectuée par un docteur vétérinaire régulièrement inscrit à l’ordre des vétérinaires, \n les frais de prothèse oculaire, \n les frais de prothèses dentaires ainsi que ceux afférents à tous appareillages externes, \n les frais d’alimentation, diététique ou thérapeutique, et de compléments alimentaires, \n les frais d’identification : puce électronique ou tatouage, \n les frais de diagnostic et de soin de la rage et les tests antirabiques, \n les frais de visite et de garde de l’animal, mordeur ou griffeur au sens de l’article R. 223-25 5° du Code rural et de la pêche \nmaritime, exposés en application de l’arrêté du 21 avril 1997 relatif à la mise sous surveillance des animaux mordeurs ou \ngriffeurs visés à l'article L. 223-10 du Code rural et de la pêche maritime, \n les frais de visite d’évaluation comportementale exposés en application des dispositions des articles L. 211-13-1, L. 211-14-1 \net L. 211-14-2 du Code rural et de la pêche maritime, \n les frais de garde en clinique vétérinaire sans justification médicale, \n les consultations de confort et de prévention, sauf celles visées aux articles 8 et 9, \n les frais exposés pour l’achat de produits cosmétiques, d’entretien, d’hygiène ou de confort, lotions, shampoings, dentifrices \nn’ayant pas fait l’objet d’une autorisation de mise sur le marché à titre de produits médicamenteux et de produits anti-\nparasitaires,  \n les visites et les frais médicamenteux consécutifs à une pathologie comportementale et ses conséquences, \n les blessures consécutives à des combats de chiens organisés, \n les frais d’établissement d’un passeport,  \n les blessures occasionnées à l’animal lors d’une partie de chasse, d’une course ou d’une compétition sportive, y compris \nl’entraînement pour une telle course ou compétition sportive,  \n les frais exposés à la suite d’un accidentou d’une maladieoccasionnés par : \n- des faits de guerre (civile ou étrangère),  \n- des émeutes et mouvements populaires, \n- la désintégration du noyau atomique, \n- des mauvais traitements visés à l’article R. 215-4 du Code rural et de la pêche maritime, imputables au maître, aux \npersonnes vivant sous son toit ou aux personnes ayant la garde de l’animal, \n les frais d’autopsie.",
+      "page": 16,
+      "context": "Article 13 : exclusions applicables à toutes les garanties (liste intégrale)"
+    },
+    {
+      "quote": "Dès que vous avez engagé des frais vétérinaires donnant lieu à remboursement au titre du présent \ncontrat, sauf cas fortuit ou de force majeure, vous devez nous en faire la déclaration par écrit, de \npréférence par lettre recommandée ou par mail (santeanimale.matmut.sinistre@assurone-group.com), \nou verbalement par téléphone.  \nDélai \n5 jours ouvrés maximum \nSanction \nVous pouvez encourir la déchéancede votre droit à garantie en cas de retard dans la déclaration dès \nlors que ce manquement nous cause un préjudice.",
+      "page": 17,
+      "context": "Article 14 : délai de déclaration et sanction"
+    },
+    {
+      "quote": "Vous serez déchu de tout droit à garantie pour les prestations en cause si vous : \n faites de fausses déclarations sur la date des premiers symptômes, la nature, les circonstances, les \ncauses et les conséquences d’un sinistre, \n employez comme justifications des moyens frauduleux ou des documents mensongers, \n ne déclarez pas l’existence d’autres assurances portant sur le même risque.",
+      "page": 18,
+      "context": "Article 14 : cas de déchéance"
+    },
+    {
+      "quote": "Le paiement de l’indemnité est effectué dans les 15 jours de la réception de la feuille de soins et de \nla note d’honoraires acquittée.",
+      "page": 18,
+      "context": "Article 15 : engagement qualité, délai de paiement"
+    },
+    {
+      "quote": "L’indemnité versée est calculée en tenant compte du taux de prise en charge correspondant à la formule souscrite et des plafonds \nindiqués à l’article 3-2 des présentes Conditions générales et aux Conditions particulières.  Aucune franchise complémentaire \nn’est déduite du montant de l’indemnisation.",
+      "page": 19,
+      "context": "Article 16 : détermination de l'indemnité, absence de franchise"
+    },
+    {
+      "quote": "Nous sommes subrogés, conformément à l’article L. 121-12 du Code des assurances, jusqu’à concurrence de l’indemnité que nous \navons payée, dans vos droits et actions contre le(s) responsable(s) du sinistre, son assureur ou tout organisme débiteur d’indemnités. \n \nSi, de votre fait, la subrogationne peut s’opérer, totalement ou partiellement, notre garantie est supprimée ou réduite \nproportionnellement aux droits dont nous avons été privés.",
+      "page": 19,
+      "context": "Article 17 : subrogation"
+    },
+    {
+      "quote": "Jusqu’au 8ème anniversaire de votre animal, vous avez la faculté de changer de formule à chaque échéance annuelle. La cotisation \nannuelle est modifiée en conséquence.  \n Au-delà, le changement de formule se fait uniquement en faveur d’une formule dont le taux de remboursement et le plafond \nannuel de remboursementsont inférieurs à ceux dont vous bénéficiez au jour de votre demande. Ce changement de formule ne \npeut intervenir qu’à l’échéance annuelle de votre contrat. La cotisation annuelle est modifiée en conséquence. \n \n20-3 DURÉE",
+      "page": 21,
+      "context": "Article 20-2 : changement de formule avant et après le 8e anniversaire"
+    },
+    {
+      "quote": "Le contrat a une durée d’un an. La première année, il est conclu pour la période comprise entre sa date d’effet et la date d’échéance \nannuelle indiquée aux Conditions particulières.  \n \nSauf convention contraire, il est, à cette échéance, reconduit de plein droit par tacite reconductiond’année en année, à moins que \nvous ou nous ne fassions usage du droit de résiliation dans les formes et conditions prévues à l’article 24.",
+      "page": 21,
+      "context": "Article 20-3 : durée et tacite reconduction"
+    },
+    {
+      "quote": "La cotisation évolue chaque année en fonction de l’âge de votre animal sans que cette évolution puisse excéder 3%. \n \nLa cotisation peut également évoluer pour des raisons d’ordre technique et/ou en fonction de l’évolution constatée du coût des frais \nvétérinaires.    \n \nLa révision de la cotisation est annuelle.",
+      "page": 21,
+      "context": "Article 21-3 : révision de la cotisation"
+    },
+    {
+      "quote": "Conformément à l’article L. 114-1 du Code des assurances, toutes actions dérivant du présent contrat, qu’il s’agisse de sa validité ou \nde son exécution, sont prescrites par deux ans à compter de l’événement qui y donne naissance.  \n \nToutefois, ce délai ne court : \n• en cas de réticence, omission, déclaration fausse ou inexacte sur le risque couru, que du jour où l’assureur en a eu connaissance, \n• en cas de sinistre, que du jour où les intéressés en ont eu connaissance, s’ils prouvent qu’ils l’ont ignoré jusque-là.",
+      "page": 22,
+      "context": "Article 23 : prescription biennale"
+    },
+    {
+      "quote": "Elle doit être effectuée dans un délai de 14 jours calendaires révolus à compter de la réception des documents contractuels. \nVous devez adresser votre lettre à « Gestion SANTÉ ANIMALE MATMUT- 153 rue de Guise – CS 60 688 - 02315 SAINT QUENTIN \nCEDEX » rédigée selon le modèle ci-dessous :  \n« Je soussigné(e) (nom, prénom, adresse) souhaite par cette lettre renoncer au contrat Assur’4Pattes Matmut & Co n°… souscrit                     \nle XX/XX/XX. »",
+      "page": 25,
+      "context": "Article 24-4 : droit de renonciation en cas de souscription à distance"
+    },
+    {
+      "quote": "Le présent contrat est régi par le Code des assurances. Il est soumis à l’Autorité de Contrôle Prudentiel et de Résolution (ACPR) :            \n4 place de Budapest, CS 92459, 75436 Paris Cedex 09. Il se compose des présentes Conditions générales ainsi que des Conditions \nparticulières remises lors de la souscription et peut être complété, le cas échéant, par des conventions spéciales. Toute disposition \nlégislative d'ordre public s'impose aux cocontractants quand bien même ce contrat n'en ferait pas état ou en disposerait autrement.",
+      "page": 33,
+      "context": "Mention finale : autorité de contrôle et pièces du contrat"
+    },
+    {
+      "quote": "CG Assur’4Pattes -  01/24",
+      "page": 33,
+      "context": "Code de référence en pied de page (source de l'edition_date)"
+    },
+    {
+      "quote": "Matmut & Co \nSociété Anonyme au capital de 66 015 268 € entièrement libéré \nN° 487 597 510 RCS Rouen \nEntreprise régie par le Code des assurances\nSiège social : 66, rue de Sotteville 76100 Rouen\nAdresse postale : 76030 Rouen CEDEX 1\n02 35 03 68 68\nMatmut Protection Juridique \nSociété Anonyme au capital de 7 500 000 € entièrement libéré \nN° 423 499 391 RCS Rouen",
+      "page": 34,
+      "context": "Ours de dernière page : Matmut & Co et Matmut Protection Juridique"
+    }
+  ]
+}

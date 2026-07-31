@@ -27,7 +27,7 @@ navigate it without guessing. Do not edit by hand.
 |---|---|---|---|---|---|
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
 | ch (Switzerland) | 0 | 3 | 1 | 0 | 5 |
-| fr (France) | 17 | 280 | 7 | 1 | 5 |
+| fr (France) | 17 | 282 | 7 | 1 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
 
@@ -309,6 +309,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | ch | vehicules | vaudoise | Assurance véhicules automobiles | 2026-07-21 | [pdf](https://www.vaudoise.ch/docs/default-source/documents-commerciaux/cga/cga_vm8_20220101_f.pdf) |
 | fr | agricole | thelem | Assurance Engins agricoles - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/Ipid-EA-2026.pdf) |
 | fr | agricole | thelem | Assurance Terrenis - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_-TERRENIS-01-2026.pdf) |
+| fr | animaux | matmut | Assur'4Pattes Matmut & Co | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-assur4pattes.pdf) |
 | fr | animaux | matmut | Contrat Assur'4Pattes - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/ipid-assur4pattes.pdf) |
 | fr | assurance-vie | gan | Chromatys Evolution | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2026/03/Gan-Chromatys-Evolution-Fiche-Infos-Frais.pdf) |
 | fr | assurance-vie | gan | GAN ASSURANCES CAPITALISATION EXCEPTION - Fiche | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2026/07/GAN-Capitalisation-Exception-Infos-Cles-2026-07.pdf) |
@@ -337,6 +338,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | assurance-vie | maif | Informations réglementaires sur les actifs référencés dans le contrat | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/epargne-financements/informations-reglementaires-actifs.pdf) |
 | fr | assurance-vie | maif | Publication relative aux contrats d'assurance vie non réglés (art. L. 132-9-4) | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/epargne-financements/livret-epargne-autrement/loi-eckert-tableaux.pdf) |
 | fr | assurance-vie | maif | fonds en euros du contrat Assurance vie Responsable et Solidaire | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/epargne-financements/caracteristiques-envir-ars.pdf) |
+| fr | assurance-vie | matmut | Complice Vie | 2026-07-30 | [pdf](https://www.matmut.fr/epargne-credit/pdf/notice-complice-vie.pdf) |
 | fr | assurance-vie | matmut | Matmut Vie Générations | 2026-07-30 | [pdf](https://www.matmut.fr/epargne-credit/pdf/notice-mvg.pdf) |
 | fr | assurance-vie | matmut | Matmut Vie Générations - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/epargne-credit/pdf/dic-mvg.pdf) |
 | fr | assurance-vie | matmut | Matmut Vie Épargne | 2026-07-30 | [pdf](https://www.matmut.fr/epargne-credit/pdf/notice-mve.pdf) |

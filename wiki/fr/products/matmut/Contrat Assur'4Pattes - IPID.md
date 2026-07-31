@@ -154,6 +154,10 @@ Participation aux frais d’obsèques (frais d’euthanasie, frais funéraires).
 - Le document ne décrit pas de procédure de sinistre détaillée : claims_procedure ne contient que le renvoi aux Conditions générales figurant dans la rubrique des obligations.
 - Aucune page sans couche texte : les 2 pages du PDF ont été extraites et vérifiées identiques au texte fourni dans le prompt.
 
+## Documents liés
+
+- [Assur'4Pattes Matmut & Co](Assur%274Pattes%20Matmut%20%26%20Co.md) - Conditions générales, éd. 01/24
+
 ## Source & fidélité
 
 - Source : [https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/ipid-assur4pattes.pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/ipid-assur4pattes.pdf) - téléchargé le 2026-07-30 - 2 pages

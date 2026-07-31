@@ -5,7 +5,7 @@ country: fr
 insurer_slug: matmut
 name: Matmut
 website: https://www.matmut.fr
-products_count: 60
+products_count: 62
 branches_covered:
 - animaux
 - assurance-vie
@@ -31,14 +31,16 @@ generated: true
 
 ## Résumé
 
-**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 60 document(s) across 9 branch(es).
+**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 62 document(s) across 9 branch(es).
 
 ## Produits par branche
 
 ### Animaux
+- [Assur'4Pattes Matmut & Co](../products/matmut/Assur%274Pattes%20Matmut%20%26%20Co.md) - Conditions générales (01/24) · réf. CG Assur'4Pattes -  01/24
 - [Contrat Assur'4Pattes - IPID](../products/matmut/Contrat%20Assur%274Pattes%20-%20IPID.md) - IPID / Fiche d'information (01-24) · réf. IPID. Assur’4Pattes –01-24
 
 ### Assurance vie et épargne
+- [Complice Vie](../products/matmut/Complice%20Vie.md) - Conditions générales (Octobre 2025) · réf. v.532-01
 - [Matmut Vie Générations - IPID](../products/matmut/Matmut%20Vie%20G%C3%A9n%C3%A9rations%20-%20IPID.md) - IPID / Fiche d'information (01/02/2025) · réf. MVG.DIC - 01/25
 - [Matmut Vie Générations](../products/matmut/Matmut%20Vie%20G%C3%A9n%C3%A9rations.md) - Conditions générales (01/25) · réf. MVG.NOTICE - 01/25
 - [Matmut Vie Épargne - IPID](../products/matmut/Matmut%20Vie%20%C3%89pargne%20-%20IPID.md) - IPID / Fiche d'information (1er février 2025) · réf. MVE.DIC - 01/25

@@ -186,7 +186,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Praxis Solutions](../products/maif/Praxis%20Solutions.md) - [MAIF](../insurers/MAIF.md)
 - [Assurance Accidents de la vie privée - IPID](../products/thelem/Assurance%20Accidents%20de%20la%20vie%20priv%C3%A9e%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 
-### Assurance vie et épargne (31)
+### Assurance vie et épargne (32)
 - [Chromatys Evolution](../products/gan/Chromatys%20Evolution.md) - [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../insurers/Gan%20Assurances.md)
 - [GAN ASSURANCES CAPITALISATION EXCEPTION - Fiche](../products/gan/GAN%20ASSURANCES%20CAPITALISATION%20EXCEPTION%20-%20Fiche.md) - [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../insurers/Gan%20Assurances.md)
 - [GAN ASSURANCES CHROMATYS EVOLUTION - Fiche](../products/gan/GAN%20ASSURANCES%20CHROMATYS%20EVOLUTION%20-%20Fiche.md) - [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../insurers/Gan%20Assurances.md)
@@ -214,6 +214,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Informations réglementaires sur les actifs référencés dans le contrat](../products/maif/Informations%20r%C3%A9glementaires%20sur%20les%20actifs%20r%C3%A9f%C3%A9renc%C3%A9s%20dans%20le%20contrat.md) - [MAIF](../insurers/MAIF.md)
 - [Publication relative aux contrats d'assurance vie non réglés (art. L. 132-9-4)](../products/maif/Publication%20relative%20aux%20contrats%20d%27assurance%20vie%20non%20r%C3%A9gl%C3%A9s%20%28art.%20L.%20132-9-4%29.md) - [MAIF](../insurers/MAIF.md)
 - [fonds en euros du contrat Assurance vie Responsable et Solidaire](../products/maif/fonds%20en%20euros%20du%20contrat%20Assurance%20vie%20Responsable%20et%20Solidaire.md) - [MAIF](../insurers/MAIF.md)
+- [Complice Vie](../products/matmut/Complice%20Vie.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Matmut Vie Générations - IPID](../products/matmut/Matmut%20Vie%20G%C3%A9n%C3%A9rations%20-%20IPID.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Matmut Vie Générations](../products/matmut/Matmut%20Vie%20G%C3%A9n%C3%A9rations.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Matmut Vie Épargne - IPID](../products/matmut/Matmut%20Vie%20%C3%89pargne%20-%20IPID.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
@@ -317,7 +318,8 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Medical & Assistance Gold Long trip](../products/luko/Medical%20%26%20Assistance%20Gold%20Long%20trip.md) - [Luko](../insurers/Luko.md)
 - [Medical & assistance Gold Sport Long trip 507657](../products/luko/Medical%20%26%20assistance%20Gold%20Sport%20Long%20trip%20507657.md) - [Luko](../insurers/Luko.md)
 
-### Animaux (1)
+### Animaux (2)
+- [Assur'4Pattes Matmut & Co](../products/matmut/Assur%274Pattes%20Matmut%20%26%20Co.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Contrat Assur'4Pattes - IPID](../products/matmut/Contrat%20Assur%274Pattes%20-%20IPID.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 
 ### [Obsèques](Obs%C3%A8ques.md) (17)
