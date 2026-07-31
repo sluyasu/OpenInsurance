@@ -5,7 +5,7 @@ country: fr
 insurer_slug: groupama
 name: Groupama
 website: https://www.groupama.fr
-products_count: 30
+products_count: 31
 branches_covered:
 - assurance-vie
 - auto
@@ -31,7 +31,7 @@ generated: true
 
 ## Résumé
 
-**Groupama** - [https://www.groupama.fr](https://www.groupama.fr). 30 document(s) across 9 branch(es).
+**Groupama** - [https://www.groupama.fr](https://www.groupama.fr). 31 document(s) across 9 branch(es).
 
 ## Produits par branche
 
@@ -44,6 +44,7 @@ generated: true
 - [Groupama Premium](../products/groupama/Groupama%20Premium.md) - 
 
 ### [Assurance auto](../branches/Assurance%20auto.md)
+- [Assurance Flotte Automobile](../products/groupama/Assurance%20Flotte%20Automobile.md) - Conditions générales (122020) · réf. 3350-214929-122020
 - [Convention Spéciale Garantie Assistance Véhicules 3,5 tonnes](../products/groupama/Convention%20Sp%C3%A9ciale%20Garantie%20Assistance%20V%C3%A9hicules%203%2C5%20tonnes.md) - Conditions générales (2019-06) · réf. 3350-214973-062019 - PAO/SP3
 
 ### [Multirisque habitation](../branches/Multirisque%20habitation.md)

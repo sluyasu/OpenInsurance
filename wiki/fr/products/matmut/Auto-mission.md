@@ -629,6 +629,10 @@ Conformément à l’article L.114-1 du Code des Assurances, toutes actions dér
 - PAGES SANS TEXTE EXPLOITABLE : les pages 83, 84 et 85 ne portent quasiment que l’en-tête de pagination (et, pour la page 85, la mention ACPR et le code de référence). La page 73, la page 75 et la page 78 sont des pages de titre de section. Aucune page n’est un scan sans couche texte.
 - AUDIENCE : target_audience a été fixée à « entreprises » sur la base de l’énumération imprimée en page 2 (« entreprise, association, comité d’entreprise, mutuelle ou collectivité »). Cette énumération recouvre également des collectivités, qui relèveraient de « secteur_public » ; la catégorie unique retenue ne rend donc pas parfaitement la formulation du document, reproduite intégralement dans target_audience_note.
 
+## Documents liés
+
+- [Contrat Multirisques « Auto-mission » - IPID](Contrat%20Multirisques%20%C2%AB%20Auto-mission%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/24
+
 ## Source & fidélité
 
 - Source : [https://www.matmut.fr/services-en-ligne/doc/CG/CG-automission.pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CG-automission.pdf) - téléchargé le 2026-07-30 - 86 pages
