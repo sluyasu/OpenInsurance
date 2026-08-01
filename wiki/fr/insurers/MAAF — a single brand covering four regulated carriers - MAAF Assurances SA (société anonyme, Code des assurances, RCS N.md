@@ -10,12 +10,13 @@ name: 'MAAF — a single brand covering four regulated carriers: MAAF Assurances
   and MAAF Santé (mutuelle du livre II du Code de la mutualité, SIREN 331 542 142).
   Group Covéa.'
 website: https://www.maaf.fr/
-products_count: 19
+products_count: 21
 branches_covered:
 - chasse
 - decennale
 - habitation
 - multirisque-professionnelle
+- prevoyance
 - protection-juridique
 - rc-privee
 - sante
@@ -38,7 +39,7 @@ generated: true
 
 ## Résumé
 
-**MAAF — a single brand covering four regulated carriers: MAAF Assurances SA (société anonyme, Code des assurances, RCS Niort 542 073 580), MAAF Assurances (société d'assurance mutuelle à cotisations variables, Code des assurances, RCS Niort 781 423 280), MAAF Vie (société anonyme, Code des assurances, RCS Niort 337 804 819) and MAAF Santé (mutuelle du livre II du Code de la mutualité, SIREN 331 542 142). Group Covéa.** - [https://www.maaf.fr/](https://www.maaf.fr/). 19 document(s) across 7 branch(es).
+**MAAF — a single brand covering four regulated carriers: MAAF Assurances SA (société anonyme, Code des assurances, RCS Niort 542 073 580), MAAF Assurances (société d'assurance mutuelle à cotisations variables, Code des assurances, RCS Niort 781 423 280), MAAF Vie (société anonyme, Code des assurances, RCS Niort 337 804 819) and MAAF Santé (mutuelle du livre II du Code de la mutualité, SIREN 331 542 142). Group Covéa.** - [https://www.maaf.fr/](https://www.maaf.fr/). 21 document(s) across 8 branch(es).
 
 ## Produits par branche
 
@@ -55,6 +56,7 @@ generated: true
 - [Assurance habitation jeune - Fiche](../products/maaf/Assurance%20habitation%20jeune%20-%20Fiche.md) - Fiche produit (06/2023)
 - [Assurance habitation jeune - Formule Logement - Fiche](../products/maaf/Assurance%20habitation%20jeune%20-%20Formule%20Logement%20-%20Fiche.md) - Fiche produit (06/2023)
 - [Assurance habitation jeune - Formule Tous risques - Fiche](../products/maaf/Assurance%20habitation%20jeune%20-%20Formule%20Tous%20risques%20-%20Fiche.md) - Fiche produit (06/2023)
+- [IMMEUBLE - IPID](../products/maaf/IMMEUBLE%20-%20IPID.md) - IPID / Fiche d'information (2025-03) · réf. MU0_IPIDHA_00-250315-GqMS1D-1-1-2-22:19:13- HAB11009
 - [Tempo Habitation - Fiche](../products/maaf/Tempo%20Habitation%20-%20Fiche.md) - Fiche produit (06/2022)
 
 ### [Multirisque professionnelle](../branches/Multirisque%20professionnelle.md)
@@ -63,6 +65,9 @@ generated: true
 - [MULTISERVICE À LA PERSONNE — INTERCALAIRE](../products/maaf/MULTISERVICE%20%C3%80%20LA%20PERSONNE%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales (01/25) · réf. 11059 - 01/25
 - [PROFESSIONS DE LA RESTAURATION ET DE L'HÔTELLERIE — INTERCALAIRE](../products/maaf/PROFESSIONS%20DE%20LA%20RESTAURATION%20ET%20DE%20L%27H%C3%94TELLERIE%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales (01/25) · réf. 11045 - 01/25
 - [SYNDICATS PROFESSIONNELS ARTISANAUX — INTERCALAIRE](../products/maaf/SYNDICATS%20PROFESSIONNELS%20ARTISANAUX%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales (03/24) · réf. 11042 - 03/24
+
+### [Prévoyance](../branches/Pr%C3%A9voyance.md)
+- [Assurance accident - IPID](../products/maaf/Assurance%20accident%20-%20IPID.md) - IPID / Fiche d'information (2026-06) · réf. TB0_IPIDPR_00-260608-VZ8Ndm-1-1-2-08:20:18- PRE10003
 
 ### [Protection juridique](../branches/Protection%20juridique.md)
 - [Garanties Protection Juridique - Fiche](../products/maaf/Garanties%20Protection%20Juridique%20-%20Fiche.md) - Fiche produit (06/2022)

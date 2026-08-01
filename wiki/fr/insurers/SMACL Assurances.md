@@ -5,11 +5,12 @@ country: fr
 insurer_slug: smacl
 name: SMACL Assurances
 website: https://www.smacl.fr
-products_count: 24
+products_count: 27
 branches_covered:
 - auto
 - autres
 - decennale
+- habitation
 - multirisque-professionnelle
 - prevoyance
 - protection-juridique
@@ -29,7 +30,7 @@ generated: true
 
 ## Résumé
 
-**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 24 document(s) across 7 branch(es).
+**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 27 document(s) across 8 branch(es).
 
 ## Produits par branche
 
@@ -49,10 +50,14 @@ generated: true
 ### [Assurance construction](../branches/Assurance%20construction.md)
 - [Tous risques chantier - IPID](../products/smacl/Tous%20risques%20chantier%20-%20IPID.md) - IPID / Fiche d'information (01/2024) · réf. CONSTRUCTION_DIPA_TRC_SA_01(06_2021)
 
+### [Multirisque habitation](../branches/Multirisque%20habitation.md)
+- [Votre convention Diagnostic devis et diagnostic réparation - Doc](../products/smacl/Votre%20convention%20Diagnostic%20devis%20et%20diagnostic%20r%C3%A9paration%20-%20Doc.md) - Document (01/2024) · réf. CONVENTION_DIAG_PP_ CA_01(06_2016)
+
 ### [Multirisque professionnelle](../branches/Multirisque%20professionnelle.md)
 - [Aléassur - Dommages aux biens - IPID](../products/smacl/Al%C3%A9assur%20-%20Dommages%20aux%20biens%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. ALEASSUR_DIPA_DAB_04(06_2024)
 - [Assistance Patrimoine des associations](../products/smacl/Assistance%20Patrimoine%20des%20associations.md) - Conditions générales (01/2024) · réf. CONVERGENCE_ADA_CA_PATRIMOINE_02(02_2023)
 - [Assurance Spéciale Accueil Enfants - IPID](../products/smacl/Assurance%20Sp%C3%A9ciale%20Accueil%20Enfants%20-%20IPID.md) - IPID / Fiche d'information (01/2024) · réf. CONVERGENCE_DIPA_ACCUEIL_ENFANTS_ACEPP
+- [Assurance bris de machine](../products/smacl/Assurance%20bris%20de%20machine.md) - Conditions générales (11/2022) · réf. ASA CS BDM - MOD 02_SA(01-1992)
 - [Convergence dommages aux biens - IPID](../products/smacl/Convergence%20dommages%20aux%20biens%20-%20IPID.md) - IPID / Fiche d'information (01/2024) · réf. CONVERGENCE_DIPA_DAB_SA_04(09_2022)
 - [Votre barème de remboursement des honoraires d'expert d'assuré en Dommages aux biens - Tarifs](../products/smacl/Votre%20bar%C3%A8me%20de%20remboursement%20des%20honoraires%20d%27expert%20d%27assur%C3%A9%20en%20Dommages%20aux%20biens%20-%20Tarifs.md) - Conditions tarifaires (01/2024) · réf. BAREME_EXPERT_ASSURE_DAB_(10-2012)
 - [Votre convention Diagnostic devis et diagnostic réparations automobile - Doc](../products/smacl/Votre%20convention%20Diagnostic%20devis%20et%20diagnostic%20r%C3%A9parations%20automobile%20-%20Doc.md) - Document (01/2024) · réf. CONVENTION_DIAG_PM_01(09_2016)
@@ -62,6 +67,7 @@ generated: true
 - [ALÉASSUR Risques statutaires IRCANTEC](../products/smacl/AL%C3%89ASSUR%20Risques%20statutaires%20IRCANTEC.md) - Conditions générales (11/2025) · réf. ALEASSUR_CS_RS_IRCANTEC_05(06_2023)
 
 ### [Protection juridique](../branches/Protection%20juridique.md)
+- [Assurance Protection fonctionnelle des agents et des élus - IPID](../products/smacl/Assurance%20Protection%20fonctionnelle%20des%20agents%20et%20des%20%C3%A9lus%20-%20IPID.md) - IPID / Fiche d'information (03/2020) · réf. PROMUT_DIPA_PROMUT_02 (03_2020)
 - [Information juridique Associations - Doc](../products/smacl/Information%20juridique%20Associations%20-%20Doc.md) - Document (01/2024) · réf. CONVENTION_IJ_ASSOCIATIONS_02(02_2023)
 - [Information juridique Associations - Doc](../products/smacl/Information%20juridique%20Associations%20-%20Doc%20%282%29.md) - Document (01/2024) · réf. CONVENTION_IJ_ASSOCIATIONS_SA_02(02_2023)_TEL
 - [Information juridique Collectivités - Doc](../products/smacl/Information%20juridique%20Collectivit%C3%A9s%20-%20Doc.md) - Document (01/2024) · réf. CONVENTION_IJ_COLLECTIVITES_SA_02(09_2022)

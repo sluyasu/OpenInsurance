@@ -151,6 +151,10 @@ Covéa Protection Juridique et/ou APGIS. », sans indiquer lequel porte la prote
 - Pièges typographiques rencontrés et respectés : deux séparateurs de ligne U+2028 en fin des lignes de mentions légales (page 2), et deux intitulés coupés par un retour à la ligne avec espace en fin de ligne — « Poids de la neige et de la glace, grêle, / avalanche » et « Protection juridique du propriétaire / bailleur ». Les citations ont été découpées programmatiquement dans le texte source ; aucune ne franchit la frontière entre les pages 1 et 2, pour éviter d'absorber le folio « Page 1/2 » et le marqueur de page injecté par le harnais.
 - Le texte du prompt n'était pas tronqué. Contrôle effectué : la couche texte du PDF local (data/fr/pdfs/maaf/habitation/assurance-proprietaire-non-occupant-formules-par-type-de-bien-87102343.pdf), ré-extraite page par page avec page.get_text("text"), est identique caractère pour caractère au texte du prompt, au retour à la ligne final près.
 
+## Documents liés
+
+- [IMMEUBLE - IPID](IMMEUBLE%20-%20IPID.md) - IPID / Fiche d'information, éd. 2025-03
+
 ## Source & fidélité
 
 - Source : [https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/Tableaux_de_garanties/MAAF_TC_Tempo_habitation_propriétaire_non_occupant.pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/Tableaux_de_garanties/MAAF_TC_Tempo_habitation_propriétaire_non_occupant.pdf) - téléchargé le 2026-08-01 - 2 pages

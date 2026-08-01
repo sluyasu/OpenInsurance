@@ -6,7 +6,7 @@ insurer_slug: macif
 name: Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et
   des Cadres et Salariés de l'Industrie et du Commerce)
 website: https://www.macif.fr
-products_count: 25
+products_count: 26
 branches_covered:
 - animaux
 - assurance-vie
@@ -34,13 +34,14 @@ generated: true
 
 ## Résumé
 
-**Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)** - [https://www.macif.fr](https://www.macif.fr). 25 document(s) across 10 branch(es).
+**Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)** - [https://www.macif.fr](https://www.macif.fr). 26 document(s) across 10 branch(es).
 
 ## Produits par branche
 
 ### Animaux
 - [Contrat Chiens guides](../products/macif/Contrat%20Chiens%20guides.md) - Conditions générales (12/12) · réf. EGALIS/CHIEN/05 - 12/12 - NM10
 - [Contrat Macif Assurance Chien Chat - IPID](../products/macif/Contrat%20Macif%20Assurance%20Chien%20Chat%20-%20IPID.md) - IPID / Fiche d'information (06/22) · réf. CHIEN CHAT/05 - 06/22
+- [Contrat d'assurance Chiens guides - IPID](../products/macif/Contrat%20d%27assurance%20Chiens%20guides%20-%20IPID.md) - IPID / Fiche d'information (10/18) · réf. EGALIS CHIEN 10/18
 
 ### Assurance vie et épargne
 - [Multi Vie - Tarifs](../products/macif/Multi%20Vie%20-%20Tarifs.md) - Conditions tarifaires (2024-06) · réf. MUT/ FC/ FRAIS/MV - 06/24

@@ -1,0 +1,306 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "maaf",
+  "insurer_name": "MAAF — a single brand covering four regulated carriers: MAAF Assurances SA (société anonyme, Code des assurances, RCS Niort 542 073 580), MAAF Assurances (société d'assurance mutuelle à cotisations variables, Code des assurances, RCS Niort 781 423 280), MAAF Vie (société anonyme, Code des assurances, RCS Niort 337 804 819) and MAAF Santé (mutuelle du livre II du Code de la mutualité, SIREN 331 542 142). Group Covéa.",
+  "product_name": "Assurance accident",
+  "branch": "prevoyance",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "Le document n'énonce pas de catégorie de clientèle. Il se présente comme une « Assurance prévoyance » couvrant l'accident corporel survenu à l'assuré « dans l'exercice de sa profession et/ou dans le cadre de sa vie privée », et pose une seule condition de personne : « À la souscription du contrat : être âgé de moins de 70 ans ».",
+  "reference": "TB0_IPIDPR_00-260608-VZ8Ndm-1-1-2-08:20:18- PRE10003",
+  "edition_date": "2026-06",
+  "product_family": "Assurance accident",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/PRE10003.PDF",
+  "source_pdf": "assurance-accident-assurance-prevoyance-1f822edd.pdf",
+  "source_sha256": "6b0ef57e214314015af36d2e9d9eeb92d9042958245af64d5686e5aa6e0ede2b",
+  "source_pages": 2,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d'information sur le produit d'assurance (IPID) relatif à l'« Assurance accident », une assurance prévoyance portée par MAAF Assurances SA, entreprise régie par le code des assurances (RCS Niort 542 073 580). Le contrat prévoit le versement d'indemnités journalières et/ou d'un capital pour l'incapacité et/ou le décès consécutifs à un accident corporel survenu à l'assuré dans l'exercice de sa profession et/ou dans le cadre de sa vie privée. Trois garanties sont systématiquement prévues : incapacité temporaire de travail, incapacité permanente et décès, chacune assortie d'une assistance aux personnes. Le montant de l'indemnisation est versé dans la limite du montant souscrit et revalorisé chaque année.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "L'incapacité temporaire de travail",
+      "description": "Garantie systématiquement prévue : « L'incapacité temporaire de travail : versement d'indemnités journalières forfaitaires et assistance aux personnes. »",
+      "is_optional": false,
+      "territorial_scope": "Monde entier pour l'ensemble des garanties.",
+      "limits": "Le montant de l'indemnisation est versé dans la limite du montant souscrit et revalorisé chaque année.",
+      "sub_limits": [],
+      "deductible": "Les indemnités journalières sont soumises à une franchise de 3 jours.",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "L'incapacité permanente",
+      "description": "Garantie systématiquement prévue : « L'incapacité permanente : versement d'un capital et assistance aux personnes. »",
+      "is_optional": false,
+      "territorial_scope": "Monde entier pour l'ensemble des garanties.",
+      "limits": "Le montant de l'indemnisation est versé dans la limite du montant souscrit et revalorisé chaque année.",
+      "sub_limits": [],
+      "deductible": "Le capital incapacité n'est pas versé en cas d'invalidité d'un taux inférieur ou égal à 5 %.",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Le décès",
+      "description": "Garantie systématiquement prévue : « Le décès : versement d'un capital et assistance aux personnes. »",
+      "is_optional": false,
+      "territorial_scope": "Monde entier pour l'ensemble des garanties.",
+      "limits": "Le montant de l'indemnisation est versé dans la limite du montant souscrit et revalorisé chaque année.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Assistance aux personnes",
+      "description": "Citée comme composante de chacune des trois garanties systématiquement prévues (incapacité temporaire de travail, incapacité permanente, décès). Le document n'en décrit ni le contenu, ni le plafond, ni le prestataire.",
+      "is_optional": false,
+      "territorial_scope": "Monde entier pour l'ensemble des garanties.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Toute maladie quelle qu'en soit la cause",
+      "description": "Figure sous la rubrique « Qu'est-ce qui n'est pas assuré ? » : « Toute maladie quelle qu'en soit la cause. »",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Les accidents corporels antérieurs à la date de prise d'effet du contrat",
+      "description": "Figure sous la rubrique « Qu'est-ce qui n'est pas assuré ? » : « Les accidents corporels antérieurs à la date de prise d'effet du contrat. »",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Conséquences d'un suicide ou d'une tentative de suicide",
+      "description": "Principale exclusion : « Les conséquences d'un suicide ou d'une tentative de suicide. »",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Usage de drogues, stupéfiants ou médicaments, ou état d'ivresse manifeste",
+      "description": "Principale exclusion : « Les conséquences de l'usage de drogues, stupéfiants ou médicaments, ou lorsque l'assuré se trouve en état d'ivresse manifeste. »",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Pratique d'un sport à titre professionnel, d'un sport dangereux ou comportant un véhicule quelconque à moteur",
+      "description": "Principale exclusion : « La pratique d'un sport à titre professionnel, d'un sport dangereux ou comportant un véhicule quelconque à moteur. »",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Restriction : invalidité d'un taux inférieur ou égal à 5 %",
+      "description": "Rangée par le document sous « Les principales restrictions » : « Le capital incapacité n'est pas versé en cas d'invalidité d'un taux inférieur ou égal à 5 %. »",
+      "applies_to": "L'incapacité permanente",
+      "page": 1
+    },
+    {
+      "name": "Restriction : franchise de 3 jours sur les indemnités journalières",
+      "description": "Rangée par le document sous « Les principales restrictions » : « Les indemnités journalières sont soumises à une franchise de 3 jours. »",
+      "applies_to": "L'incapacité temporaire de travail",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": null,
+    "per_coverage": {
+      "L'incapacité temporaire de travail": "Les indemnités journalières sont soumises à une franchise de 3 jours.",
+      "L'incapacité permanente": "Le capital incapacité n'est pas versé en cas d'invalidité d'un taux inférieur ou égal à 5 %."
+    },
+    "page": 1
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Âge et déclarations à la souscription",
+      "description": "Être âgé de moins de 70 ans et répondre avec exactitude et sincérité à toutes les questions qui sont posées et fournir les justificatifs demandés.",
+      "timing": "À la souscription du contrat",
+      "sanction": "Sous peine de nullité du contrat d'assurance ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Déclaration des circonstances nouvelles",
+      "description": "Nous déclarer les circonstances nouvelles qui modifient les informations fournies lors de la souscription.",
+      "timing": "En cours de contrat",
+      "sanction": "Sous peine de nullité du contrat d'assurance ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Paiement de la cotisation",
+      "description": "Régler votre cotisation aux dates convenues.",
+      "timing": "À la souscription et à chaque renouvellement",
+      "sanction": "Sous peine de nullité du contrat d'assurance ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Déclaration de sinistre et pièces justificatives",
+      "description": "Nous le déclarer dès connaissance, ou au plus tard dans les délais fixés au contrat, et nous fournir les pièces justificatives.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de nullité du contrat d'assurance ou de non garantie",
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclarer le sinistre et fournir les pièces",
+      "description": "En cas de sinistre : nous le déclarer dès connaissance, ou au plus tard dans les délais fixés au contrat, et nous fournir les pièces justificatives.",
+      "deadline": "dès connaissance, ou au plus tard dans les délais fixés au contrat",
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Les garanties prennent effet à compter de la date mentionnée sur les conditions particulières. Le contrat est souscrit jusqu'au 31 décembre de l'année de sa prise d'effet. Il est ensuite reconduit automatiquement d'année en année au 1er janvier pour une période d'un an sauf résiliation par le souscripteur du contrat ou l'assureur dans les cas et conditions fixés au contrat. Les garanties cessent de plein droit à la date du décès de l'assuré, à la date de liquidation des droits à la retraite de l'assuré dans le cadre de son régime d'assurance vieillesse, ou aux 70 ans de l'assuré.",
+    "tacit_renewal": true,
+    "notice_period": null,
+    "methods": [
+      "par déclaration auprès de nos conseillers (en agence ou par téléphone)",
+      "par lettre ou support durable (e-mail, espace client sur maaf.fr et sur l'application mobile MAAF & Moi)"
+    ],
+    "special_rights": [
+      "à l'échéance annuelle",
+      "lors de la survenance de certains événements ayant une influence directe sur les risques garantis (modification de votre situation personnelle ou professionnelle)"
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "Le paiement de la cotisation intervient à la souscription du contrat et chaque année à l'échéance.",
+      "Le paiement de la cotisation peut être annuel, semestriel, trimestriel ou mensuel par chèque ou par prélèvement bancaire."
+    ],
+    "indexation": "Le montant de l'indemnisation est versé dans la limite du montant souscrit et revalorisé chaque année. (Le document indique une revalorisation annuelle du montant souscrit, sans en préciser l'indice ni le mécanisme.)",
+    "page": 1
+  },
+  "special_conditions": [
+    {
+      "name": "Porteur de risque et code applicable",
+      "description": "MAAF Assurances SA, Société anonyme au capital de 160 000 000 euros entièrement versé, Entreprise régie par le code des assurances - RCS Niort 542 073 580 - code APE 6512 Z. N° TVA intracommunautaire : FR 38 542 073 580. Siège social : Chaban - 79180 CHAURAY - Adresse : Chauray - 79036 NIORT Cedex 9 - maaf.fr",
+      "page": 2
+    },
+    {
+      "name": "Cessation de plein droit des garanties",
+      "description": "Les garanties cessent de plein droit à la date du décès de l'assuré, à la date de liquidation des droits à la retraite de l'assuré dans le cadre de son régime d'assurance vieillesse, ou aux 70 ans de l'assuré.",
+      "page": 2
+    },
+    {
+      "name": "Portée du document",
+      "description": "Ce document d'information présente un résumé des principales garanties et exclusions du produit et ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l'information complète sur ce produit dans la documentation précontractuelle et contractuelle.",
+      "page": 1
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Ce contrat d’assurance prévoit\nle versement d’indemnités journalières et/ou d’un capital pour l’incapacité et/ou le\ndécès consécutifs à un accident corporel survenu à l’assuré dans l’exercice de sa profession et/ou dans le cadre de\nsa vie privée.",
+      "page": 1,
+      "context": "Objet du contrat"
+    },
+    {
+      "quote": "Toute maladie quelle qu’en soit la cause.",
+      "page": 1,
+      "context": "Ce qui n'est pas assuré"
+    },
+    {
+      "quote": "Les accidents corporels antérieurs à la date de prise\nd’effet du contrat.",
+      "page": 1,
+      "context": "Ce qui n'est pas assuré"
+    },
+    {
+      "quote": "Les conséquences d’un suicide ou d’une tentative de\nsuicide.",
+      "page": 1,
+      "context": "Exclusion principale"
+    },
+    {
+      "quote": "Les conséquences de l’usage de drogues, stupéfiants ou\nmédicaments, ou lorsque l’assuré se trouve en état\nd’ivresse manifeste.",
+      "page": 1,
+      "context": "Exclusion principale"
+    },
+    {
+      "quote": "La pratique d’un sport à titre professionnel, d’un sport\ndangereux ou comportant un véhicule quelconque à\nmoteur.",
+      "page": 1,
+      "context": "Exclusion principale"
+    },
+    {
+      "quote": "Le capital incapacité n’est pas versé en cas d’invalidité\nd’un taux inférieur ou égal à 5 %.",
+      "page": 1,
+      "context": "Principale restriction"
+    },
+    {
+      "quote": "Les indemnités journalières sont soumises à une\nfranchise de 3 jours.",
+      "page": 1,
+      "context": "Principale restriction"
+    },
+    {
+      "quote": "Le montant de l’indemnisation est versé dans la limite du\nmontant souscrit et revalorisé chaque année.",
+      "page": 1,
+      "context": "Limite generale d'indemnisation"
+    },
+    {
+      "quote": "incapacité temporaire de travail : versement\nd’indemnités journalières forfaitaires et assistance aux\npersonnes.",
+      "page": 1,
+      "context": "Garantie systematiquement prevue"
+    },
+    {
+      "quote": "incapacité permanente : versement d’un capital et\nassistance aux personnes.",
+      "page": 1,
+      "context": "Garantie systematiquement prevue"
+    },
+    {
+      "quote": "Le décès : versement d’un capital et assistance aux\npersonnes.",
+      "page": 1,
+      "context": "Garantie systematiquement prevue"
+    },
+    {
+      "quote": "Entreprise régie par le code des assurances - RCS Niort 542 073 580 - code APE 6512 Z",
+      "page": 2,
+      "context": "Code regissant le porteur de risque"
+    },
+    {
+      "quote": "Monde entier pour l’ensemble des garanties.",
+      "page": 2,
+      "context": "Etendue territoriale"
+    },
+    {
+      "quote": "Sous peine de nullité du contrat d’assurance ou de non garantie, vous devez :",
+      "page": 2,
+      "context": "Sanction des obligations"
+    },
+    {
+      "quote": "À la souscription du contrat : être âgé de moins de 70 ans et répondre avec exactitude et sincérité à toutes\nles questions qui sont posées et fournir les justificatifs demandés.",
+      "page": 2,
+      "context": "Condition d'age a la souscription"
+    },
+    {
+      "quote": "Les garanties cessent de plein droit à la date du décès de l’assuré, à la date de liquidation des droits à la\nretraite de l’assuré dans le cadre de son régime d’assurance vieillesse, ou aux 70 ans de l’assuré.",
+      "page": 2,
+      "context": "Cessation des garanties"
+    }
+  ],
+  "gaps": [
+    "PORTEUR DE RISQUE : le document ne nomme qu'un seul organisme, « MAAF Assurances SA », « France - RCS Niort 542 073 580 » (page 1), et le pied de page 2 énonce son statut et son code de rattachement : « Société anonyme au capital de 160 000 000 euros entièrement versé / Entreprise régie par le code des assurances - RCS Niort 542 073 580 - code APE 6512 Z ». C'est donc le code des assurances qui régit ce contrat, et non le Code de la mutualité. Aucune mention de MAAF Assurances (société d'assurance mutuelle, RCS Niort 781 423 280), de MAAF Santé (livre II du Code de la mutualité, SIREN 331 542 142) ni de MAAF Vie. insurer_name a été réduit à l'entité réellement imprimée, et non à la description de marque fournie dans les métadonnées de la tâche.",
+    "EDITION_DATE : le document n'imprime aucune date d'édition explicite. Le seul groupe de chiffres susceptible d'encoder une date figure dans la référence répétée en haut des deux pages : « TB0_IPIDPR_00-260608-VZ8Ndm-1-1-2-08:20:18- PRE10003 » (page 1) et « TB0_IPIDPR_00-260608-VZ8Ndm-1-2-2-08:20:18- PRE10003 » (page 2), où le segment 260608 pourrait se lire 08/06/2026. Le document ne qualifie nulle part ce segment de date d'édition : edition_date reste null plutôt que déduit, la référence complète étant conservée dans reference.",
+    "NOM DU PRODUIT : la page de garde superpose deux libellés, « Assurance prévoyance » (ligne de type d'assurance, à la place où les autres IPID MAAF portent la branche) puis « Assurance accident » à l'emplacement du nom commercial. product_name retient « Assurance accident » ; aucun nom de gamme (type TEMPO) n'est imprimé.",
+    "TARGET_AUDIENCE : aucune catégorie de clientèle n'est énoncée. Le contrat vise l'accident « survenu à l'assuré dans l'exercice de sa profession et/ou dans le cadre de sa vie privée », ce qui ne tranche pas entre particuliers et indépendants ; target_audience reste null et le libellé du document est reporté dans target_audience_note. La seule condition de personne est un âge maximal à la souscription (moins de 70 ans) et une cessation des garanties aux 70 ans de l'assuré.",
+    "MONTANTS NON CHIFFRÉS : aucun montant d'indemnité journalière ni de capital n'est imprimé. Le document renvoie au « montant souscrit », c'est-à-dire aux conditions particulières. Le seul chiffre de garantie est le seuil d'invalidité de 5 % et la franchise de 3 jours sur les indemnités journalières. La revalorisation annuelle est affirmée sans indice ni formule.",
+    "FRANCHISE DE 3 JOURS : le document la nomme « franchise » et non « délai de carence ». Elle est donc enregistrée comme franchise (deductibles) et non comme waiting_period, waiting_periods restant vide faute de délai d'attente nommé dans le document.",
+    "TYPOGRAPHIE CONSERVÉE : le texte source mêle apostrophes courbes et apostrophes ASCII à l'intérieur d'une même page (« L'incapacité temporaire de travail » en ASCII, « d'indemnités journalières » en courbe) ; les citations ont été découpées programmatiquement pour préserver l'original. La page 2 imprime « dans les cas et conditions fixés  au contrat » avec un double espace et un accord au masculin ; la formule n'a pas été corrigée dans les citations. La sanction des obligations est écrite « non garantie » sans trait d'union sur ce document.",
+    "AUCUNE DÉFINITION, AUCUNE PRESCRIPTION : IPID de 2 pages, sans lexique ni article de définitions (definitions[] vide) et sans clause de prescription (prescription_period null). Les notions structurantes du produit — « accident corporel », « incapacité temporaire de travail », « incapacité permanente », « sport dangereux » — sont employées sans être définies ; leur définition renvoie implicitement aux conditions générales, non fournies ici.",
+    "ASSISTANCE AUX PERSONNES : citée comme composante des trois garanties, sans description, sans plafond et sans nom de prestataire. Aucun contenu n'a été ajouté ; elle est enregistrée comme garantie distincte uniquement parce que le document la répète pour chacune des trois garanties.",
+    "PAS DE TRONCATURE : le texte du prompt couvre l'intégralité des 2 pages annoncées (source_pages: 2) ; il n'a pas été tronqué par le budget de caractères et les deux pages ont une couche texte exploitable. Les citations ont été découpées page par page après retrait des marqueurs [[page N]], donc aucune ne traverse une frontière de page."
+  ]
+}
