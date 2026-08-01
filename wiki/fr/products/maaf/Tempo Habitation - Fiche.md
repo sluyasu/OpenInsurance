@@ -30,7 +30,7 @@ extraction_model: claude-code-subagent:scale
 prompt_version: '1.1'
 product_family: tempo-habitation
 variant: null
-edition_status: null
+edition_status: current
 edition_age_years: 4
 superseded: null
 extends: null
@@ -209,6 +209,11 @@ Garantie listée dans le comparatif des 3 formules habitation. Proposée « En o
 - Le document n'indique pas laquelle des entités MAAF porte chacune des garanties listées ; l'association garantie → porteur de risque n'est donc pas extractible.
 - Le texte du prompt n'était pas tronqué (1 800 caractères pour 2 pages). Le PDF local a néanmoins été ré-extrait avec fitz `page.get_text("text")` : les 2 pages ressortent identiques au texte du prompt (769 et 1 027 caractères hors marqueurs), l'ancrage des citations est donc vérifié contre le PDF lui-même.
 - Pièges d'encodage relevés dans la couche texte et respectés dans les citations : espaces insécables U+00A0 avant les appels de note « (1) » et dans « (1) Uniquement… » ; apostrophe courbe U+2019 dans « D’autres » alors que les autres apostrophes du document sont ASCII ; séparateurs de ligne U+2028 en fin des lignes « …par téléphone. », « …542 073 580 » et « …Chauray ». Les citations ont été découpées programmatiquement pour éviter ces caractères et les retours à la ligne.
+
+## Documents liés
+
+- Édition courante de ce produit.
+- [Assurance Habitation - Fiche](Assurance%20Habitation%20-%20Fiche.md) - Fiche produit, éd. 06/2022
 
 ## Source & fidélité
 

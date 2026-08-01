@@ -5,7 +5,7 @@ country: fr
 insurer_slug: smacl
 name: SMACL Assurances
 website: https://www.smacl.fr
-products_count: 18
+products_count: 22
 branches_covered:
 - auto
 - autres
@@ -29,7 +29,7 @@ generated: true
 
 ## Résumé
 
-**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 18 document(s) across 7 branch(es).
+**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 22 document(s) across 7 branch(es).
 
 ## Produits par branche
 
@@ -44,6 +44,7 @@ generated: true
 
 ### Autres
 - [ALÉASSUR Protection financière](../products/smacl/AL%C3%89ASSUR%20Protection%20financi%C3%A8re.md) - Conditions générales (01/2024) · réf. ALEASSUR_CS_PF_01(03_2016)
+- [Votre droit de renonciation (hors contrat « Assurance Auto ») - Doc](../products/smacl/Votre%20droit%20de%20renonciation%20%28hors%20contrat%20%C2%AB%20Assurance%20Auto%20%C2%BB%29%20-%20Doc.md) - Document (09/2025)
 
 ### [Assurance construction](../branches/Assurance%20construction.md)
 - [Tous risques chantier - IPID](../products/smacl/Tous%20risques%20chantier%20-%20IPID.md) - IPID / Fiche d'information (01/2024) · réf. CONSTRUCTION_DIPA_TRC_SA_01(06_2021)
@@ -54,13 +55,16 @@ generated: true
 - [Assurance Spéciale Accueil Enfants - IPID](../products/smacl/Assurance%20Sp%C3%A9ciale%20Accueil%20Enfants%20-%20IPID.md) - IPID / Fiche d'information (01/2024) · réf. CONVERGENCE_DIPA_ACCUEIL_ENFANTS_ACEPP
 - [Convergence dommages aux biens - IPID](../products/smacl/Convergence%20dommages%20aux%20biens%20-%20IPID.md) - IPID / Fiche d'information (01/2024) · réf. CONVERGENCE_DIPA_DAB_SA_04(09_2022)
 - [Votre barème de remboursement des honoraires d'expert d'assuré en Dommages aux biens - Tarifs](../products/smacl/Votre%20bar%C3%A8me%20de%20remboursement%20des%20honoraires%20d%27expert%20d%27assur%C3%A9%20en%20Dommages%20aux%20biens%20-%20Tarifs.md) - Conditions tarifaires (01/2024) · réf. BAREME_EXPERT_ASSURE_DAB_(10-2012)
+- [Votre convention Diagnostic devis et diagnostic réparations automobile - Doc](../products/smacl/Votre%20convention%20Diagnostic%20devis%20et%20diagnostic%20r%C3%A9parations%20automobile%20-%20Doc.md) - Document (01/2024) · réf. CONVENTION_DIAG_PM_01(09_2016)
 
 ### [Prévoyance](../branches/Pr%C3%A9voyance.md)
 - [ALÉASSUR Risques statutaires CNRACL](../products/smacl/AL%C3%89ASSUR%20Risques%20statutaires%20CNRACL.md) - Conditions générales (06/2025) · réf. ALEASSUR_CS_RS_CNRACL_06(06_2023)
 - [ALÉASSUR Risques statutaires IRCANTEC](../products/smacl/AL%C3%89ASSUR%20Risques%20statutaires%20IRCANTEC.md) - Conditions générales (11/2025) · réf. ALEASSUR_CS_RS_IRCANTEC_05(06_2023)
 
 ### [Protection juridique](../branches/Protection%20juridique.md)
+- [Information juridique Associations - Doc](../products/smacl/Information%20juridique%20Associations%20-%20Doc.md) - Document (01/2024) · réf. CONVENTION_IJ_ASSOCIATIONS_02(02_2023)
 - [Vos plafonds contractuels de prise en charge - Protection juridique - Tarifs](../products/smacl/Vos%20plafonds%20contractuels%20de%20prise%20en%20charge%20-%20Protection%20juridique%20-%20Tarifs.md) - Conditions tarifaires (08/2022) · réf. PLAFONDS_HONORAIRES_AVOCATS_PM_PJ_01(01_2012)
+- [Votre barème de prise en charge - Garantie protection juridique - Tarifs](../products/smacl/Votre%20bar%C3%A8me%20de%20prise%20en%20charge%20-%20Garantie%20protection%20juridique%20-%20Tarifs.md) - Conditions tarifaires (07/2025) · réf. PP_BAREME_PJ_01(10_2015)
 
 ### [RC professionnelle](../branches/RC%20professionnelle.md)
 - [Convergence - Responsabilité civile - IPID](../products/smacl/Convergence%20-%20Responsabilit%C3%A9%20civile%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. CONVERGENCE_DIPA_RC_SA_03(09_2022)

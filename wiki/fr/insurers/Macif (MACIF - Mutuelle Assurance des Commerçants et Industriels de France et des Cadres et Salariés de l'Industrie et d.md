@@ -6,7 +6,7 @@ insurer_slug: macif
 name: Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et
   des Cadres et Salariés de l'Industrie et du Commerce)
 website: https://www.macif.fr
-products_count: 19
+products_count: 23
 branches_covered:
 - animaux
 - assurance-vie
@@ -34,7 +34,7 @@ generated: true
 
 ## Résumé
 
-**Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)** - [https://www.macif.fr](https://www.macif.fr). 19 document(s) across 10 branch(es).
+**Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)** - [https://www.macif.fr](https://www.macif.fr). 23 document(s) across 10 branch(es).
 
 ## Produits par branche
 
@@ -47,12 +47,14 @@ generated: true
 ### [Assurance auto](../branches/Assurance%20auto.md)
 - [Contrat Auto-Micro Entrepreneur](../products/macif/Contrat%20Auto-Micro%20Entrepreneur.md) - Conditions générales (2012-12) · réf. PRO / AUTOE / 05 - 12 / 12 - NM00
 - [Contrat Camping-car, Autocaravane](../products/macif/Contrat%20Camping-car%2C%20Autocaravane.md) - Conditions générales (2019-01) · réf. LOIS / CARACC / 05 - 01 / 19 - N 891
+- [Contrat Macif Pann'Auto - IPID](../products/macif/Contrat%20Macif%20Pann%27Auto%20-%20IPID.md) - IPID / Fiche d'information (12/22) · réf. VEH/GPM/05 12/22
 - [Réduction spéciale Bon conducteur Macif - Tarifs](../products/macif/R%C3%A9duction%20sp%C3%A9ciale%20Bon%20conducteur%20Macif%20-%20Tarifs.md) - Conditions tarifaires (2024-12)
 
 ### [Assurance emprunteur](../branches/Assurance%20emprunteur.md)
 - [Assurance Découvert Autorisé - Doc](../products/macif/Assurance%20D%C3%A9couvert%20Autoris%C3%A9%20-%20Doc.md) - Document (2020-11)
 - [Assurance Découvert Autorisé - IPID](../products/macif/Assurance%20D%C3%A9couvert%20Autoris%C3%A9%20-%20IPID.md) - IPID / Fiche d'information (12/20) · réf. DIPA ASSURANCE DÉCOUVERT 12/20
 - [Notice d'information au contrat collectif d'assurance emprunteur à adhésion facultative (contrat collectif n° 00.104, So](../products/macif/Notice%20d%27information%20au%20contrat%20collectif%20d%27assurance%20emprunteur%20%C3%A0%20adh%C3%A9sion%20facultative%20%28contrat%20collectif%20n%C2%B0%2000.104%2C%20So.md) - Conditions générales · réf. ASS-OFF--V13
+- [Perte d'Emploi (contrat collectif n°690701 souscrit par SECURIMUT auprès de MNCAP SA)](../products/macif/Perte%20d%27Emploi%20%28contrat%20collectif%20n%C2%B0690701%20souscrit%20par%20SECURIMUT%20aupr%C3%A8s%20de%20MNCAP%20SA%29.md) - Conditions générales
 
 ### [Multirisque habitation](../branches/Multirisque%20habitation.md)
 - [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire](../products/macif/Contrat%20Habitation%20-%20Formule%20%C3%89conomique%20-%20R%C3%A9sidence%20principale%20-%20R%C3%A9sidence%20secondaire.md) - Conditions générales (05/18) · réf. HAB/ECO/05 - 05/18 - N781
@@ -68,6 +70,7 @@ generated: true
 - [Garantie Obsèques - Doc](../products/macif/Garantie%20Obs%C3%A8ques%20-%20Doc.md) - Document
 
 ### Retraite supplémentaire
+- [Multi Horizon Retraite - Tarifs](../products/macif/Multi%20Horizon%20Retraite%20-%20Tarifs.md) - Conditions tarifaires (2022-04) · réf. MUT/ FC/ FRAIS/MHR - 04/22
 - [Plan Épargne Retraite individuel - Tarifs](../products/macif/Plan%20%C3%89pargne%20Retraite%20individuel%20-%20Tarifs.md) - Conditions tarifaires (JUIN 2024) · réf. MUT/ FC/ FRAIS/PERin - 06/24
 
 ### [Complémentaire santé](../branches/Compl%C3%A9mentaire%20sant%C3%A9.md)
@@ -75,6 +78,7 @@ generated: true
 - [Garantie Santé](../products/macif/Garantie%20Sant%C3%A9.md) - Conditions générales (2023-01) · réf. UNI/PREI/GS/05 01/23
 - [Macif Mutuelle Entreprises](../products/macif/Macif%20Mutuelle%20Entreprises%20%282%29.md) - Conditions générales (2025-01) · réf. CG M M E - 01/25
 - [Macif Mutuelle Entreprises](../products/macif/Macif%20Mutuelle%20Entreprises.md) - Conditions générales (2026-01) · réf. NID M M E - 01/26
+- [Régime conventionnel Frais de santé - CCN BAD (Branche de l'aide, de l'accompagnement, des soins et des services à domic](../products/macif/R%C3%A9gime%20conventionnel%20Frais%20de%20sant%C3%A9%20-%20CCN%20BAD%20%28Branche%20de%20l%27aide%2C%20de%20l%27accompagnement%2C%20des%20soins%20et%20des%20services%20%C3%A0%20domic.md) - Conditions générales (V01.01.2023)
 - [contrat GARANTIE SANTE TERRITORIAUX - IPID](../products/macif/contrat%20GARANTIE%20SANTE%20TERRITORIAUX%20-%20IPID.md) - IPID / Fiche d'information (01/2022) · réf. DIPA GST 01/2022
 
 ## Source
