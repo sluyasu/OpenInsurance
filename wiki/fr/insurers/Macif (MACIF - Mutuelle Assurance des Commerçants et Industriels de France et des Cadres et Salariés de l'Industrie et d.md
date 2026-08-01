@@ -6,7 +6,7 @@ insurer_slug: macif
 name: Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et
   des Cadres et Salariés de l'Industrie et du Commerce)
 website: https://www.macif.fr
-products_count: 13
+products_count: 15
 branches_covered:
 - animaux
 - auto
@@ -33,7 +33,7 @@ generated: true
 
 ## Résumé
 
-**Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)** - [https://www.macif.fr](https://www.macif.fr). 13 document(s) across 9 branch(es).
+**Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)** - [https://www.macif.fr](https://www.macif.fr). 15 document(s) across 9 branch(es).
 
 ## Produits par branche
 
@@ -42,8 +42,10 @@ generated: true
 
 ### [Assurance auto](../branches/Assurance%20auto.md)
 - [Contrat Camping-car, Autocaravane](../products/macif/Contrat%20Camping-car%2C%20Autocaravane.md) - Conditions générales (2019-01) · réf. LOIS / CARACC / 05 - 01 / 19 - N 891
+- [Réduction spéciale Bon conducteur Macif - Tarifs](../products/macif/R%C3%A9duction%20sp%C3%A9ciale%20Bon%20conducteur%20Macif%20-%20Tarifs.md) - Conditions tarifaires (2024-12)
 
 ### [Assurance emprunteur](../branches/Assurance%20emprunteur.md)
+- [Assurance Découvert Autorisé - IPID](../products/macif/Assurance%20D%C3%A9couvert%20Autoris%C3%A9%20-%20IPID.md) - IPID / Fiche d'information (12/20) · réf. DIPA ASSURANCE DÉCOUVERT 12/20
 - [Notice d'information au contrat collectif d'assurance emprunteur à adhésion facultative (contrat collectif n° 00.104, So](../products/macif/Notice%20d%27information%20au%20contrat%20collectif%20d%27assurance%20emprunteur%20%C3%A0%20adh%C3%A9sion%20facultative%20%28contrat%20collectif%20n%C2%B0%2000.104%2C%20So.md) - Conditions générales · réf. ASS-OFF--V13
 
 ### [Multirisque habitation](../branches/Multirisque%20habitation.md)

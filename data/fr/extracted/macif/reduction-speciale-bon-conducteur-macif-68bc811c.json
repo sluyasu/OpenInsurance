@@ -1,0 +1,323 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "macif",
+  "insurer_name": "Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)",
+  "product_name": "Réduction spéciale Bon conducteur Macif",
+  "branch": "auto",
+  "branch_code": null,
+  "document_type": "conditions_tarifaires",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "Le document vise « les sociétaires disposant du bonus réglementaire maximal de 50 % (Cœfficient de Réduction / Majoration égal à 0,50) depuis au moins un an sans sinistre » et couvre « les véhicules particuliers, les véhicules de société, les camping-cars et les deux-roues » ainsi que « les fourgons, fourgonnettes, camions et véhicules automoteurs spécialisés ». Aucune catégorie de clientèle n'est nommée en tant que telle.",
+  "reference": null,
+  "edition_date": "2024-12",
+  "product_family": "Réduction spéciale Bon conducteur",
+  "variant": null,
+  "is_extension": true,
+  "extends": "contrat Macif portant sur un véhicule concerné par le CRM",
+  "superseded": null,
+  "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_vehicules/reduction_speciale/Conditions-de-la-reduction-speciale.pdf",
+  "source_pdf": "reduction-speciale-bonus-50-contrats-vehicules-macif-68bc811c.pdf",
+  "source_sha256": "f629c5759006a6528ba22e41a562e5818ed92a965fb22edf1729d42cb95ca5ce",
+  "source_pages": 2,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document tarifaire décrivant la « Réduction spéciale Bon conducteur Macif », un dispositif commercial qui accorde une réduction de cotisation supplémentaire aux sociétaires dont le Cœfficient de Réduction / Majoration (CRM) est égal à 0,50 depuis au moins un an sans sinistre, sur un contrat Macif portant sur un véhicule concerné par le CRM. La réduction est de 2 % par année d'assurance sans sinistre dans la limite de 10 % pour les véhicules particuliers, véhicules de société, camping-cars et deux-roues, et de 5 % par année dans la limite de 20 % pour les fourgons, fourgonnettes, camions et véhicules automoteurs spécialisés. Elle s'applique exclusivement sur la cotisation des garanties Responsabilité civile, Dommages par accident (ou Dommages au véhicule), Vol, Incendie, Bris de glace et Valeur majorée (ou Indemnisation +) lorsque celles-ci ont été souscrites. Le document énumère les cas de suspension et de suppression de la réduction et précise que la Macif peut la modifier ou y mettre fin à tout moment.",
+  "definitions": [
+    {
+      "term": "Bonus réglementaire maximal de 50 %",
+      "definition": "Cœfficient de Réduction / Majoration égal à 0,50.",
+      "page": 1
+    },
+    {
+      "term": "Assiette sur laquelle s'applique la Réduction spéciale",
+      "definition": "La cotisation (qui intègre le CRM de 0,50) des garanties Responsabilité civile ainsi que Dommages par accident (ou Dommages au véhicule), Vol, Incendie, Bris de glace, Valeur majorée (ou Indemnisation +) si celles-ci ont été souscrites.",
+      "page": 1
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Réduction spéciale Bon conducteur - véhicules particuliers, véhicules de société, camping-cars et deux-roues",
+      "description": "Pour les véhicules particuliers, les véhicules de société, les camping-cars et les deux-roues : la réduction est de 2 % par année d'assurance sans sinistre, dans la limite de 10 %. À partir de la deuxième échéance annuelle à 0,50, il est appliqué une réduction de 2 %, laquelle est majorée de 2 % supplémentaires à chaque échéance annuelle, sauf application d'un des cas définis à l'article 3 des présentes Conditions. Ainsi, un sociétaire atteindra la Réduction spéciale maximale de 10 % à la 6e échéance annuelle avec un CRM maintenu à 0,50 sans sinistre.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "2 % par année d'assurance sans sinistre, dans la limite de 10 %",
+      "sub_limits": [
+        "Réduction spéciale maximale de 10 % à la 6e échéance annuelle avec un CRM maintenu à 0,50 sans sinistre"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Disposer du bonus réglementaire maximal de 50 % (CRM égal à 0,50) depuis au moins un an sans sinistre",
+        "Le contrat Macif doit porter sur un véhicule concerné par le CRM",
+        "S'applique un an après l'acquisition du CRM de 0,50, c'est-à-dire à partir de la deuxième échéance annuelle à 0,50 sans sinistre",
+        "Pour les camping-cars, la Réduction spéciale ne s'applique que sur la cotisation des garanties Responsabilité civile et Dommages au véhicule si celle-ci a été souscrite"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Réduction spéciale Bon conducteur - fourgons, fourgonnettes, camions et véhicules automoteurs spécialisés",
+      "description": "Pour les fourgons, fourgonnettes, camions et véhicules automoteurs spécialisés : cette réduction est de 5 % par année d'assurance sans sinistre, dans la limite de 20 %. À partir de la deuxième échéance annuelle à 0,50, il est appliqué une réduction de 5 %, laquelle est majorée de 5 % supplémentaires à chaque échéance annuelle, sauf application d'un des cas définis à l'article 3 des présentes Conditions. Ainsi, un sociétaire atteindra la Réduction spéciale maximale de 20 % à la 5e échéance annuelle avec un CRM maintenu à 0,50 sans sinistre.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "5 % par année d'assurance sans sinistre, dans la limite de 20 %",
+      "sub_limits": [
+        "Réduction spéciale maximale de 20 % à la 5e échéance annuelle avec un CRM maintenu à 0,50 sans sinistre"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Disposer du bonus réglementaire maximal de 50 % (CRM égal à 0,50) depuis au moins un an sans sinistre",
+        "Le contrat Macif doit porter sur un véhicule concerné par le CRM",
+        "S'applique un an après l'acquisition du CRM de 0,50, c'est-à-dire à partir de la deuxième échéance annuelle à 0,50 sans sinistre"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Prise en compte des antécédents personnels d'assurance à la souscription",
+      "description": "Pour toute nouvelle souscription d'un contrat garantissant un véhicule listé, la Réduction spéciale Bon conducteur est calculée en tenant compte des antécédents personnels d'assurance (informations figurant sur le relevé d'informations du souscripteur / bénéficiaire). Le pourcentage de Réduction spéciale s'applique dès la souscription en fonction du nombre d'années depuis lequel le souscripteur peut justifier personnellement d'un CRM de 0,50 sans sinistre.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Le souscripteur doit pouvoir justifier personnellement d'un CRM de 0,50 sans sinistre (relevé d'informations du souscripteur / bénéficiaire)"
+      ],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Garanties non souscrites hors assiette",
+      "description": "La Réduction spéciale s'applique exclusivement sur la cotisation des garanties Responsabilité civile ainsi que Dommages par accident (ou Dommages au véhicule), Vol, Incendie, Bris de glace, Valeur majorée (ou Indemnisation +) « si celles-ci ont été souscrites » : les garanties non souscrites n'entrent pas dans l'assiette.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Camping-cars : assiette restreinte",
+      "description": "Pour les camping-cars, la Réduction spéciale ne s'applique que sur la cotisation des garanties Responsabilité civile et Dommages au véhicule si celle-ci a été souscrite (les autres garanties sont donc exclues de l'assiette).",
+      "applies_to": "Réduction spéciale Bon conducteur - véhicules particuliers, véhicules de société, camping-cars et deux-roues",
+      "page": 1
+    },
+    {
+      "name": "Offre non rétroactive",
+      "description": "Il s'agit d'une offre commerciale non rétroactive qui ne remet pas en cause les règles d'évolution du cœfficient de réduction / majoration (CRM) fixées par les articles 4 et 5 de l'Annexe à l'article A.121 - 1 du Code des assurances.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Réduction personnelle et incessible",
+      "description": "La Réduction spéciale est personnelle et incessible.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Suspension - véhicule assuré moins de 270 jours",
+      "description": "L'évolution de la Réduction spéciale est suspendue pendant une année si le véhicule a été assuré moins de 270 jours au cours de l'année civile précédente.",
+      "applies_to": "all",
+      "page": 2
+    },
+    {
+      "name": "Suspension - sinistre garanti sans responsabilité",
+      "description": "L'évolution de la Réduction spéciale est suspendue pendant une année en cas de survenance d'un sinistre garanti sans responsabilité.",
+      "applies_to": "all",
+      "page": 2
+    },
+    {
+      "name": "Suspension - sinistre responsable de coût inférieur ou égal à 153 €",
+      "description": "L'évolution de la Réduction spéciale est suspendue pendant une année en cas de survenance d'un sinistre responsable dont le coût est inférieur ou égal à 153 €.",
+      "applies_to": "all",
+      "page": 2
+    },
+    {
+      "name": "Suspension - sinistre responsable de coût supérieur à 153 € avec droit à franchise de malus",
+      "description": "L'évolution de la Réduction spéciale est suspendue pendant une année en cas de survenance d'un sinistre responsable dont le coût est supérieur à 153 € et bénéficiant du droit à franchise de malus en application de l'annexe à l'article A.121 - 1 du Code des assurances (cas d'un premier sinistre survenu après une première période d'au moins trois ans au cours de laquelle le CRM a été égal à 0,50).",
+      "applies_to": "all",
+      "page": 2
+    },
+    {
+      "name": "Suppression - sinistre responsable de coût supérieur à 153 € sans droit à franchise de malus",
+      "description": "La Réduction spéciale est supprimée en cas de survenance d'un sinistre responsable dont le coût est supérieur à 153 € sans droit à franchise de malus (cas d'un sinistre responsable intervenant alors que l'assuré bénéficie d'un CRM égal à 0,50 depuis moins de trois ans).",
+      "applies_to": "all",
+      "page": 2
+    }
+  ],
+  "deductibles": null,
+  "waiting_periods": [
+    {
+      "coverage": "Réduction spéciale Bon conducteur",
+      "duration": "un an après l'acquisition du CRM de 0,50",
+      "description": "La Réduction spéciale s'applique un an après l'acquisition du CRM de 0,50, c'est-à-dire à partir de la deuxième échéance annuelle à 0,50 sans sinistre.",
+      "page": 1
+    },
+    {
+      "coverage": "Réduction spéciale Bon conducteur - condition d'entrée",
+      "duration": "au moins un an",
+      "description": "Le dispositif s'adresse aux sociétaires disposant du bonus réglementaire maximal de 50 % (CRM égal à 0,50) depuis au moins un an sans sinistre.",
+      "page": 1
+    }
+  ],
+  "obligations": [
+    {
+      "name": "Justifier des antécédents personnels d'assurance",
+      "description": "À la souscription d'un nouveau contrat, la Réduction spéciale est calculée en tenant compte des antécédents personnels d'assurance figurant sur le relevé d'informations du souscripteur / bénéficiaire ; le souscripteur doit pouvoir justifier personnellement d'un CRM de 0,50 sans sinistre.",
+      "timing": "à la souscription",
+      "sanction": null,
+      "page": 1
+    }
+  ],
+  "claims_procedure": [],
+  "duration_and_cancellation": {
+    "duration": null,
+    "tacit_renewal": null,
+    "notice_period": null,
+    "methods": null,
+    "special_rights": [
+      "La Macif se réserve le droit de modifier les présentes conditions ou de mettre fin à ce dispositif à tout moment, sans avoir à motiver sa décision."
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "La Réduction spéciale s'applique exclusivement sur la cotisation (qui intègre le CRM de 0,50) des garanties Responsabilité civile ainsi que Dommages par accident (ou Dommages au véhicule), Vol, Incendie, Bris de glace, Valeur majorée (ou Indemnisation +) si celles-ci ont été souscrites.",
+      "Pour les camping-cars, la Réduction spéciale ne s'applique que sur la cotisation des garanties Responsabilité civile et Dommages au véhicule si celle-ci a été souscrite.",
+      "La réduction est majorée de 2 % (ou 5 % selon le type de véhicule) supplémentaires à chaque échéance annuelle, dans la limite de 10 % (ou 20 %).",
+      "Conditions applicables à partir du 01/12/2024."
+    ],
+    "indexation": null,
+    "page": 1
+  },
+  "special_conditions": [
+    {
+      "name": "Nature du dispositif",
+      "description": "Il s'agit d'une offre commerciale non rétroactive qui ne remet pas en cause les règles d'évolution du cœfficient de réduction / majoration (CRM) fixées par les articles 4 et 5 de l'Annexe à l'article A.121 - 1 du Code des assurances.",
+      "page": 1
+    },
+    {
+      "name": "Date d'application",
+      "description": "Conditions applicables à partir du 01/12/2024.",
+      "page": 1
+    },
+    {
+      "name": "Caractère personnel",
+      "description": "La Réduction spéciale est personnelle et incessible.",
+      "page": 1
+    },
+    {
+      "name": "Renvoi à l'article 3",
+      "description": "La majoration annuelle de la réduction s'applique « sauf application d'un des cas définis à l'article 3 des présentes Conditions » (cas de suspension et de suppression).",
+      "page": 1
+    },
+    {
+      "name": "Entité émettrice",
+      "description": "MACIF - MUTUELLE ASSURANCE DES COMMERÇANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L'INDUSTRIE ET DU COMMERCE. Société d'assurance mutuelle à cotisations variables. Entreprise régie par le Code des assurances. Siège social : 1 rue Jacques Vandié - 79000 Niort.",
+      "page": 2
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Ce dispositif permet aux sociétaires disposant du bonus réglementaire maximal de 50 % (Cœfficient de Réduction /\nMajoration égal à 0,50) depuis au moins un an sans sinistre de bénéficier d’une réduction tarifaire supplémentaire \nsur leur contrat Macif portant sur un véhicule concerné par le CRM.",
+      "page": 1,
+      "context": null
+    },
+    {
+      "quote": "Pour les véhicules particuliers, les véhicules de société, les camping-cars et les deux-roues :\nla réduction est de 2 % par année d’assurance sans sinistre, dans la limite de 10 %.",
+      "page": 1,
+      "context": null
+    },
+    {
+      "quote": "Pour les fourgons, fourgonnettes, camions et véhicules automoteurs spécialisés :\ncette réduction est de 5 % par année d’assurance sans sinistre, dans la limite de 20 %.",
+      "page": 1,
+      "context": null
+    },
+    {
+      "quote": "Il s’agit d’une offre commerciale non rétroactive qui ne remet pas en cause les règles d’évolution du cœfficient de \nréduction / majoration (CRM) fixées par les articles 4 et 5 de l’Annexe à l’article A.121 - 1 du Code des assurances.",
+      "page": 1,
+      "context": null
+    },
+    {
+      "quote": "Conditions applicables à partir du 01/12/2024.",
+      "page": 1,
+      "context": null
+    },
+    {
+      "quote": "Elle s’applique exclusivement sur la cotisation (qui intègre le CRM de 0,50) des garanties Responsabilité civile ainsi que \nDommages par accident (ou Dommages au véhicule), Vol, Incendie, Bris de glace, Valeur majorée (ou Indemnisation \n+) si celles-ci ont été souscrites.",
+      "page": 1,
+      "context": null
+    },
+    {
+      "quote": "Toutefois, pour les camping-cars, la Réduction spéciale ne s’applique que sur la cotisation des garanties Responsabilité \ncivile et Dommages au véhicule si celle-ci a été souscrite.",
+      "page": 1,
+      "context": null
+    },
+    {
+      "quote": "La Réduction spéciale s’applique un an après l’acquisition du CRM de 0,50 c’est-à-dire à partir de la deuxième échéance \nannuelle à 0,50 sans sinistre.",
+      "page": 1,
+      "context": null
+    },
+    {
+      "quote": "Ainsi, un sociétaire atteindra la Réduction spéciale maximale de 10 % à la 6e échéance annuelle avec un CRM \nmaintenu à 0,50 sans sinistre.",
+      "page": 1,
+      "context": null
+    },
+    {
+      "quote": "Ainsi, un sociétaire atteindra la Réduction spéciale maximale de 20 % à la 5e échéance annuelle avec un CRM \nmaintenu à 0,50 sans sinistre.",
+      "page": 1,
+      "context": null
+    },
+    {
+      "quote": "La Réduction spéciale est personnelle et incessible.",
+      "page": 1,
+      "context": null
+    },
+    {
+      "quote": "Pour toute nouvelle souscription d’un contrat garantissant un véhicule listé ci-dessus, la Réduction spéciale Bon \nconducteur est calculée en tenant compte des antécédents personnels d’assurance (informations figurant sur le \nrelevé d’informations du souscripteur / bénéficiaire). Ainsi, le pourcentage de Réduction spéciale s’appliquera dès la \nsouscription en fonction du nombre d’années depuis lequel le souscripteur peut justifier personnellement d’un CRM \nde 0,50 sans sinistre.",
+      "page": 1,
+      "context": null
+    },
+    {
+      "quote": "MACIF - MUTUELLE ASSURANCE DES COMMERÇANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE. \nSociété d’assurance mutuelle à cotisations variables. Entreprise régie par le Code des assurances. Siège social : 1 rue Jacques Vandié - 79000 Niort.",
+      "page": 2,
+      "context": null
+    },
+    {
+      "quote": "L’évolution de la Réduction spéciale est suspendue pendant une année dans les cas suivants :\n\t• si le véhicule a été assuré moins de 270 jours au cours de l’année civile précédente ;\n\t• en cas de survenance d’un sinistre garanti sans responsabilité ;\n\t• en cas de survenance d’un sinistre responsable dont le coût est inférieur ou égal à 153 € ;",
+      "page": 2,
+      "context": null
+    },
+    {
+      "quote": "en cas de survenance d’un sinistre responsable dont le coût est supérieur à 153 € et bénéficiant du droit à franchise \nde malus en application de l’annexe à l’article A.121 - 1 du Code des assurances (cas d’un premier sinistre survenu \naprès une première période d’au moins trois ans au cours de laquelle le CRM a été égal à 0,50).",
+      "page": 2,
+      "context": null
+    },
+    {
+      "quote": "La Réduction spéciale est supprimée en cas de survenance d’un sinistre responsable dont le coût est supérieur à \n153 € sans droit à franchise de malus (cas d’un sinistre responsable intervenant alors que l’assuré bénéficie d’un \nCRM égal à 0,50 depuis moins de trois ans).",
+      "page": 2,
+      "context": null
+    },
+    {
+      "quote": "La Macif se réserve le droit de modifier les présentes conditions ou de mettre fin à ce dispositif à tout moment, \nsans avoir à motiver sa décision.",
+      "page": 2,
+      "context": null
+    }
+  ],
+  "gaps": [
+    "PORTEUR DE RISQUE : le document ne nomme qu'une seule entité, en mentions légales page 2 : « MACIF - MUTUELLE ASSURANCE DES COMMERÇANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L'INDUSTRIE ET DU COMMERCE. Société d'assurance mutuelle à cotisations variables. Entreprise régie par le Code des assurances. Siège social : 1 rue Jacques Vandié - 79000 Niort. » C'est donc la Macif SAM (branche IARD). Aucune autre entité du groupe n'est citée.",
+    "EDITION_DATE laissée à null : le document ne porte aucun code de référence d'édition de la forme <FAMILLE>/<PRODUIT>/05 - MM/AA - N<nnn> et aucune mention « édition MM/AAAA ». La seule date imprimée est « Conditions applicables à partir du 01/12/2024. », qui est une date d'entrée en vigueur du dispositif et non une date d'édition ; elle est enregistrée dans premium.notes et special_conditions, pas dans edition_date. La date figurant éventuellement dans le nom de fichier CMS n'a pas été utilisée (date de mise en ligne, pas d'édition).",
+    "REFERENCE laissée à null : aucun code de référence interne imprimé.",
+    "Aucun organisme de contrôle n'est nommé (l'ACPR n'est pas mentionnée) ; aucun numéro SIREN/RCS n'est imprimé. Champs laissés vides plutôt que déduits.",
+    "TARGET_AUDIENCE laissée à null : le document ne désigne aucune catégorie de clientèle (particuliers/entreprises/…). Il parle de « sociétaires » et de « souscripteur / bénéficiaire », et liste des véhicules qui relèvent à la fois de l'usage privé et professionnel (« véhicules de société », « fourgons, fourgonnettes, camions et véhicules automoteurs spécialisés »). Le libellé du document est conservé dans target_audience_note.",
+    "Ce document est un document tarifaire (conditions d'une réduction commerciale) et non un document de garanties : il ne décrit AUCUNE garantie d'assurance. Le tableau `coverages` enregistre donc les deux régimes de la Réduction spéciale et la règle de reprise d'antériorité, faute de garanties à transcrire ; les garanties nommées (Responsabilité civile, Dommages par accident / Dommages au véhicule, Vol, Incendie, Bris de glace, Valeur majorée / Indemnisation +) ne sont citées que comme assiette de calcul et ne sont pas décrites par ce document.",
+    "`exclusions` enregistre les cas de suspension et de suppression de la réduction ainsi que les restrictions d'assiette : ce ne sont pas des exclusions de garantie au sens habituel, le document n'en comporte aucune.",
+    "Aucune section Définitions formelle. Les deux entrées de `definitions` sont des gloses présentes dans le texte courant, pas un lexique.",
+    "Absents du document, donc laissés vides : franchises (deductibles), procédure de sinistre (claims_procedure), prescription (prescription_period), durée du contrat / tacite reconduction / préavis de résiliation. La section « 4. Durée » ne contient que la réserve de modification unilatérale de la Macif, enregistrée dans duration_and_cancellation.special_rights.",
+    "DÉFAUT DE COUCHE TEXTE : l'ordre de lecture du PDF est désordonné. Les titres de sections (« Conditions de la Réduction spéciale Bon conducteur Macif », « 1. Descriptif et conditions d'application », « 2. Fonctionnement », « 3. Cas de suspension et de suppression de la Réduction spéciale Bon conducteur », « 4. Durée ») apparaissent APRÈS les paragraphes qu'ils introduisent, et la mention légale MACIF de la page 2 apparaît en tête de page. Le rattachement des paragraphes aux sections a été fait d'après le sens ; les numéros de page cités restent exacts.",
+    "DÉFAUT DE COUCHE TEXTE : les puces graphiques (carrés verts) sont restituées par la couche texte sous la forme littérale « Carré vert. » (texte alternatif d'accessibilité). Les citations verbatim la conservent telle quelle, sans correction.",
+    "DÉFAUT DE COUCHE TEXTE : la couche texte contient des caractères de contrôle résiduels laissés par les puces graphiques : 4 occurrences de U+0007 (BEL) page 1 immédiatement après « Carré vert. », 3 page 2 (devant « Cas de suspension… », « Cas de suppression… » et devant le 4e tiret), et 1 U+0000 (NUL) page 1 collé entre « …ont été souscrites. » et « Toutefois, pour les camping-cars… ». Les citations verbatim ont été découpées de façon à les contourner ; elles ne sont ni supprimées ni corrigées dans le document source.",
+    "Le texte contient des espaces typographiques non standard (U+2008 PUNCTUATION SPACE, U+200A HAIR SPACE) notamment autour des symboles % et €, et des apostrophes courbes U+2019. Les citations ont été découpées programmatiquement dans le texte source pour les préserver.",
+    "Le mot « cœfficient » est orthographié ainsi dans le document (au lieu de « coefficient ») ; l'orthographe de l'assureur est conservée sans correction.",
+    "Le document renvoie à « l'article 3 des présentes Conditions » et aux « articles 4 et 5 de l'Annexe à l'article A.121 - 1 du Code des assurances » sans en reproduire le contenu."
+  ]
+}

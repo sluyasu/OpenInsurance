@@ -10,9 +10,11 @@ name: 'MAAF — a single brand covering four regulated carriers: MAAF Assurances
   and MAAF Santé (mutuelle du livre II du Code de la mutualité, SIREN 331 542 142).
   Group Covéa.'
 website: https://www.maaf.fr/
-products_count: 4
+products_count: 7
 branches_covered:
+- decennale
 - multirisque-professionnelle
+- protection-juridique
 - sante
 tags:
 - insurance/fr
@@ -33,13 +35,20 @@ generated: true
 
 ## Résumé
 
-**MAAF — a single brand covering four regulated carriers: MAAF Assurances SA (société anonyme, Code des assurances, RCS Niort 542 073 580), MAAF Assurances (société d'assurance mutuelle à cotisations variables, Code des assurances, RCS Niort 781 423 280), MAAF Vie (société anonyme, Code des assurances, RCS Niort 337 804 819) and MAAF Santé (mutuelle du livre II du Code de la mutualité, SIREN 331 542 142). Group Covéa.** - [https://www.maaf.fr/](https://www.maaf.fr/). 4 document(s) across 2 branch(es).
+**MAAF — a single brand covering four regulated carriers: MAAF Assurances SA (société anonyme, Code des assurances, RCS Niort 542 073 580), MAAF Assurances (société d'assurance mutuelle à cotisations variables, Code des assurances, RCS Niort 781 423 280), MAAF Vie (société anonyme, Code des assurances, RCS Niort 337 804 819) and MAAF Santé (mutuelle du livre II du Code de la mutualité, SIREN 331 542 142). Group Covéa.** - [https://www.maaf.fr/](https://www.maaf.fr/). 7 document(s) across 4 branch(es).
 
 ## Produits par branche
+
+### [Assurance construction](../branches/Assurance%20construction.md)
+- [VOS GARANTIES RESPONSABILITÉ CIVILE CONSTRUCTION - Fiche](../products/maaf/VOS%20GARANTIES%20RESPONSABILIT%C3%89%20CIVILE%20CONSTRUCTION%20-%20Fiche.md) - Fiche produit (04/18) · réf. 17195 - 04/18 - guide décennale
 
 ### [Multirisque professionnelle](../branches/Multirisque%20professionnelle.md)
 - [COMMERCES D'ALIMENTATION — INTERCALAIRE](../products/maaf/COMMERCES%20D%27ALIMENTATION%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales (01/26) · réf. 11039 - 01/26
 - [MULTISERVICE À LA PERSONNE — INTERCALAIRE](../products/maaf/MULTISERVICE%20%C3%80%20LA%20PERSONNE%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales (01/25) · réf. 11059 - 01/25
+- [PROFESSIONS DE LA RESTAURATION ET DE L'HÔTELLERIE — INTERCALAIRE](../products/maaf/PROFESSIONS%20DE%20LA%20RESTAURATION%20ET%20DE%20L%27H%C3%94TELLERIE%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales (01/25) · réf. 11045 - 01/25
+
+### [Protection juridique](../branches/Protection%20juridique.md)
+- [Garanties Protection Juridique - Fiche](../products/maaf/Garanties%20Protection%20Juridique%20-%20Fiche.md) - Fiche produit (06/2022)
 
 ### [Complémentaire santé](../branches/Compl%C3%A9mentaire%20sant%C3%A9.md)
 - [Assurance SANTÉ PROFIL SALARIÉS](../products/maaf/Assurance%20SANT%C3%89%20PROFIL%20SALARI%C3%89S.md) - Conditions générales (10.2025) · réf. 11015

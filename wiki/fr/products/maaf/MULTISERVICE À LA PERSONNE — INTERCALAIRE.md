@@ -219,6 +219,7 @@ Prestation garantie au titre de l'article 7 « Responsabilité civile profession
 
 - Extension / option du produit : **Conditions générales Multirisque professionnelle référencées 11031**
 - [COMMERCES D'ALIMENTATION — INTERCALAIRE](COMMERCES%20D%27ALIMENTATION%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales, éd. 01/26
+- [PROFESSIONS DE LA RESTAURATION ET DE L'HÔTELLERIE — INTERCALAIRE](PROFESSIONS%20DE%20LA%20RESTAURATION%20ET%20DE%20L%27H%C3%94TELLERIE%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales, éd. 01/25
 
 ## Source & fidélité
 

@@ -27,7 +27,7 @@ navigate it without guessing. Do not edit by hand.
 |---|---|---|---|---|---|
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
 | ch (Switzerland) | 0 | 3 | 1 | 0 | 5 |
-| fr (France) | 17 | 365 | 10 | 1 | 5 |
+| fr (France) | 17 | 371 | 10 | 1 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
 
@@ -350,6 +350,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | auto | groupama | Assurance Flotte Automobile | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/2NDxlODkd7f3ti8ivbduuL/826b3f591087f7a1a33abb7d4cad172f/Conditions_G__n__rales.pdf) |
 | fr | auto | groupama | Convention Spéciale Garantie Assistance Véhicules 3,5 tonnes | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/412fYD1ZFvT8rzbrc8gZmp/bb9a1434accd9b56421b51e18090f894/CS_Assistance__3_5T.pdf) |
 | fr | auto | macif | Contrat Camping-car, Autocaravane | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_vehicules/CG_campingcar.pdf) |
+| fr | auto | macif | Réduction spéciale Bon conducteur Macif - Tarifs | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_vehicules/reduction_speciale/Conditions-de-la-reduction-speciale.pdf) |
 | fr | auto | maif | Assurance Auto-Moto Vam | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/conditions-generales-assurance-auto-vam.pdf) |
 | fr | auto | maif | Assurance Auto-Moto Vam - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/document-information-assurance-auto-vam.pdf) |
 | fr | auto | maif | Assurance auto professionnelle | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/travailleurs-independants/conditions-generales-assurance-auto-professionnelle.pdf) |
@@ -394,6 +395,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | auto | matmut | Contrat « Multirisques 4 Roues Référence » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDMRSQ.pdf) |
 | fr | auto | matmut | Flotte de véhicules | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGMRSQFLOTTE.pdf) |
 | fr | auto | matmut | Multirisques Initiale & Co | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-mrsq-ag-init-and-co.pdf) |
+| fr | auto | smacl | Convergence Auto collaborateurs - garantie complémentaire - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-convergence-accomplit-auto-collaborateurs-association.pdf) |
 | fr | auto | smacl | Flotte entreprises - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-vehicules-entreprise.pdf) |
 | fr | auto | smacl | Vos conventions spéciales CONVERGENCE - Véhicules à moteur | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-convergence-vehicules-a-moteur.pdf) |
 | fr | auto | smacl | Votre convention d'assistance - Flottes entreprises véhicules légers | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/ca-vehicules-legers-flottes-entreprises.pdf) |
@@ -411,6 +413,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | chasse | matmut | Chasse (Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477) | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGCHASSE.pdf) |
 | fr | chasse | matmut | Contrat « Chasse » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDCHASSE.pdf) |
 | fr | chasse | thelem | Assurance chasse - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_Chasse-332-juillet-2024.pdf) |
+| fr | decennale | maaf | VOS GARANTIES RESPONSABILITÉ CIVILE CONSTRUCTION - Fiche | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Garantie_decennale_17195.pdf) |
 | fr | decennale | maif | Dommages-Ouvrage Associations et Collectivités - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/document-information-assurance-dommages-ouvrages.pdf) |
 | fr | decennale | maif | Tous Risques Chantier Associations et Collectivités - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/document-information-assurance-tous-risques-chantier.pdf) |
 | fr | decennale | smacl | Tous risques chantier - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-tous-risques-chantier-collectivites.pdf) |
@@ -422,6 +425,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | emprunteur | gan | Gan Assurances Emprunteur - IPID | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2024/11/062023_DIN-Emprunteur.pdf) |
 | fr | emprunteur | gan | Gan Patrimoine Emprunteur - IPID | 2026-07-30 | [pdf](https://www.ganpatrimoine.fr/Media/documents/D%C3%A9pliants/DIN%20GAN%20PAT%20Emprunteur-GPE09-032026.pdf) |
 | fr | emprunteur | gan | Gan Prévoyance Emprunteur - IPID | 2026-07-30 | [pdf](https://www.ganprevoyance.fr/assurance-emprunteur/2-1/assurance-emprunteur.pdf?date=20211108150730) |
+| fr | emprunteur | macif | Assurance Découvert Autorisé - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_decouvert_autorise.pdf) |
 | fr | emprunteur | macif | Notice d'information au contrat collectif d'assurance emprunteur à adhésion facultative (contrat collectif n° 00.104, So | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/socram/notice_assurance_MACIF.pdf) |
 | fr | emprunteur | maif | Assurance Emprunteur Crédit Auto Acquisition - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/epargne-financements/document-information-aem-credit-auto-acquisition.pdf) |
 | fr | emprunteur | maif | Assurance Emprunteur MAIF (AEM) | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/notice-information-assurance-emprunteur.pdf) |
@@ -488,6 +492,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | moto | thelem | Assurance Voiturette - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_Voiturette-012026.pdf) |
 | fr | multirisque-professionnelle | maaf | COMMERCES D'ALIMENTATION — INTERCALAIRE | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Intercalaire_Commerces_alimentation_11039.pdf) |
 | fr | multirisque-professionnelle | maaf | MULTISERVICE À LA PERSONNE — INTERCALAIRE | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Intercalaire_Multiservice_personne_11059.pdf) |
+| fr | multirisque-professionnelle | maaf | PROFESSIONS DE LA RESTAURATION ET DE L'HÔTELLERIE — INTERCALAIRE | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Intercalaire_Restauration_hotellerie_11045.pdf) |
 | fr | multirisque-professionnelle | maif | Multirisque Entreprises - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/entreprises/document-information-assurance-multirisque-entreprise.pdf) |
 | fr | multirisque-professionnelle | maif | Raqvam Associations et Collectivités | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/conditions-generales-raqvam-associations-et-collectivites.pdf) |
 | fr | multirisque-professionnelle | maif | Raqvam Associations et Collectivités - CP | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/conditions-particulieres-raqvam-associations-et-collectivites.pdf) |
@@ -555,6 +560,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | prevoyance | thelem | Prévoyance Pro - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TP_prev-pro-ISIS.pdf) |
 | fr | prevoyance | thelem | Prévoyance Pro Madelin - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TP_Prev-madelin_ISIS_v2.pdf) |
 | fr | protection-juridique | groupama | Annexe Garantie Protection juridique automobile — Assurance Flotte automobile | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/IPBJ1AlyPtXiPPXpJOtZP/9f77600424013842489c574030f85c2d/Annexe_Protection_Juridique_Automobile.pdf) |
+| fr | protection-juridique | maaf | Garanties Protection Juridique - Fiche | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/Tableaux_de_garanties/MAAF_TG_Tempo_habitation_protection_juridique.pdf) |
 | fr | protection-juridique | maif | Assurance Protection Juridique | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/conditions-generales-assurance-protection-juridique.pdf) |
 | fr | protection-juridique | maif | Assurance Protection Juridique - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/document-information-assurance-protection-juridique.pdf) |
 | fr | protection-juridique | matmut | Assistance Juridique Vie Privée et Protection Juridique Santé | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/notice-information-protection-juridique.pdf) |

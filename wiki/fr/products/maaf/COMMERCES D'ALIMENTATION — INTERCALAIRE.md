@@ -205,6 +205,7 @@ Par extension à l'article 14.2 paragraphe 1, nous garantissons les pertes d'exp
 
 - Extension / option du produit : **Conditions générales Multirisque professionnelle référencées 11031**
 - [MULTISERVICE À LA PERSONNE — INTERCALAIRE](MULTISERVICE%20%C3%80%20LA%20PERSONNE%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales, éd. 01/25
+- [PROFESSIONS DE LA RESTAURATION ET DE L'HÔTELLERIE — INTERCALAIRE](PROFESSIONS%20DE%20LA%20RESTAURATION%20ET%20DE%20L%27H%C3%94TELLERIE%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales, éd. 01/25
 
 ## Source & fidélité
 

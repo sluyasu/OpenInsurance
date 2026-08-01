@@ -1,0 +1,377 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "macif",
+  "insurer_name": "Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)",
+  "product_name": "Assurance Découvert Autorisé",
+  "branch": "emprunteur",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": "particuliers",
+  "target_audience_note": "« Ce contrat est destiné à toute personne physique, titulaire et co-titulaire d'un compte de dépôt auprès de cet établissement bancaire et bénéficiant d'un découvert autorisé, pour un montant et une durée contractuellement fixés. » Le document n'emploie pas le mot « particuliers » ; il restreint l'adhésion aux personnes physiques titulaires d'un compte de dépôt SOCRAM Banque.",
+  "reference": "DIPA ASSURANCE DÉCOUVERT 12/20",
+  "edition_date": "12/20",
+  "product_family": "Assurance Découvert",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_decouvert_autorise.pdf",
+  "source_pdf": "contrat-assurance-decouvert-ea427479.pdf",
+  "source_sha256": "13a3e100324f85bd0d529452e92309ac4b93fa5aac1234ffb629585b628cc06e",
+  "source_pages": 2,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d'information sur le produit d'assurance (DIPA) du contrat « Assurance Découvert », contrat collectif à adhésion facultative souscrit par la Banque (SOCRAM Banque) auprès de l'assureur, et assuré par Apivia Macif Mutuelle (SIREN n°779 558 501), mutuelle régie par le Livre II du Code de la mutualité. Il couvre le titulaire et le co-titulaire d'un compte de dépôt bénéficiant d'un découvert autorisé contre les risques de décès et d'invalidité absolue et définitive consécutifs à une maladie ou à un accident. En cas de sinistre, l'assureur verse à la Banque, bénéficiaire du contrat, un capital égal au montant du découvert autorisé constaté au jour du sinistre, dans la limite du découvert accordé, qui ne peut excéder 3 000 €. Le contrat est annuel, à tacite reconduction, avec un délai de renonciation de 30 jours.",
+  "definitions": [
+    {
+      "term": "La Banque",
+      "definition": "SOCRAM Banque, établissement bancaire souscripteur du contrat collectif et bénéficiaire du contrat.",
+      "page": 1
+    },
+    {
+      "term": "Coche verte",
+      "definition": "Les garanties ou services précédés d'une coche verte sont systématiquement prévus au contrat.",
+      "page": 1
+    },
+    {
+      "term": "Compte bancaire Bleu Anis",
+      "definition": "L'offre bancaire regroupant plusieurs services dont le compte bancaire et l'Assurance Découvert.",
+      "page": 2
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Décès",
+      "description": "Versement d'un capital égal au montant du découvert autorisé constaté au jour du sinistre de l'assuré dans la limite du découvert accordé par la Banque. Le contrat couvre l'assuré titulaire et co-titulaire d'un compte de dépôt contre le risque de décès occasionné par une maladie ou un accident ; le capital est versé à la Banque, bénéficiaire du contrat.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'Outre mer compris) et lors de déplacements dans le monde entier.",
+      "limits": "un capital égal au montant du découvert autorisé constaté au jour du sinistre de l'assuré dans la limite du découvert accordé par la Banque, qui ne peut excéder 3 000 €",
+      "sub_limits": [
+        "ne peut excéder 3 000 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Garantie systématiquement prévue au contrat (précédée d'une coche verte)",
+        "Décès occasionné par une maladie ou un accident",
+        "En cas de pluralité de titulaires du compte de dépôt, le versement du capital n'intervient qu'en cas de décès ou d'invalidité absolue et définitive du dernier titulaire assuré"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Invalidité absolue et définitive",
+      "description": "Versement d'un capital égal au montant du découvert autorisé constaté au jour du sinistre de l'assuré dans la limite du découvert accordé par la Banque. Le contrat couvre l'assuré titulaire et co-titulaire d'un compte de dépôt contre le risque d'invalidité absolue et définitive occasionné par une maladie ou un accident ; le capital est versé à la Banque, bénéficiaire du contrat.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'Outre mer compris) et lors de déplacements dans le monde entier.",
+      "limits": "un capital égal au montant du découvert autorisé constaté au jour du sinistre de l'assuré dans la limite du découvert accordé par la Banque, qui ne peut excéder 3 000 €",
+      "sub_limits": [
+        "ne peut excéder 3 000 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Garantie systématiquement prévue au contrat (précédée d'une coche verte)",
+        "Invalidité absolue et définitive occasionnée par une maladie ou un accident",
+        "En cas de pluralité de titulaires du compte de dépôt, le versement du capital n'intervient qu'en cas de décès ou d'invalidité absolue et définitive du dernier titulaire assuré"
+      ],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Sinistres hors période de validité",
+      "description": "Les sinistres survenus en dehors de la période de validité du contrat. (rubrique « Qu'est-ce qui n'est pas assuré ? »)",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Suicide la première année",
+      "description": "Le suicide lors de la première année d'adhésion au contrat. (« LES PRINCIPALES EXCLUSIONS »)",
+      "applies_to": "Décès",
+      "page": 1
+    },
+    {
+      "name": "Guerre civile ou étrangère",
+      "description": "Les conséquences de la guerre civile ou étrangère. (« LES PRINCIPALES EXCLUSIONS »)",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Délit intentionnel ou crime",
+      "description": "Les conséquences de la participation de l'assuré à un délit intentionnel ou à un crime. (« LES PRINCIPALES EXCLUSIONS »)",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Restriction - déplacements à l'étranger de plus de 12 mois",
+      "description": "Les déplacements à l'étranger ne doivent pas excéder une durée continue de 12 mois. (« LES PRINCIPALES RESTRICTIONS »)",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Restriction - pluralité de titulaires du compte",
+      "description": "En cas de pluralité de titulaires du compte de dépôt, le versement du capital n'intervient qu'en cas de décès ou d'invalidité absolue et définitive du dernier titulaire assuré. (« LES PRINCIPALES RESTRICTIONS »)",
+      "applies_to": "all",
+      "page": 1
+    }
+  ],
+  "deductibles": null,
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Détenir un compte de dépôt",
+      "description": "À la souscription du contrat : détenir un compte de dépôt auprès de la Banque.",
+      "timing": "à la souscription du contrat",
+      "sanction": "Sous peine, le cas échéant, de nullité du contrat d'assurance ou de non garantie",
+      "page": 1
+    },
+    {
+      "name": "Bénéficier d'un découvert autorisé",
+      "description": "À la souscription du contrat : s'être vu accorder un découvert autorisé par la Banque.",
+      "timing": "à la souscription du contrat",
+      "sanction": "Sous peine, le cas échéant, de nullité du contrat d'assurance ou de non garantie",
+      "page": 1
+    },
+    {
+      "name": "Résidence",
+      "description": "À la souscription du contrat : habiter en France ou séjourner hors de France pour une durée n'excédant pas 12 mois.",
+      "timing": "à la souscription du contrat",
+      "sanction": "Sous peine, le cas échéant, de nullité du contrat d'assurance ou de non garantie",
+      "page": 1
+    },
+    {
+      "name": "Signer la demande d'assurance et fournir une pièce d'identité",
+      "description": "À la souscription du contrat : signer la demande d'assurance et fournir la copie d'une pièce d'identité en cours de validité.",
+      "timing": "à la souscription du contrat",
+      "sanction": "Sous peine, le cas échéant, de nullité du contrat d'assurance ou de non garantie",
+      "page": 1
+    },
+    {
+      "name": "Payer la cotisation",
+      "description": "Durant le contrat : payer la cotisation prévue au contrat.",
+      "timing": "durant le contrat",
+      "sanction": "Sous peine, le cas échéant, de nullité du contrat d'assurance ou de non garantie ; en cas de non paiement au-delà de 10 jours de l'échéance et après une mise en demeure restée sans effet, l'assureur pourra être amené à résilier le contrat",
+      "page": 1
+    },
+    {
+      "name": "Fournir les justificatifs",
+      "description": "En cas de sinistre : fournir les justificatifs demandés.",
+      "timing": "en cas de sinistre",
+      "sanction": "Sous peine, le cas échéant, de nullité du contrat d'assurance ou de non garantie",
+      "page": 1
+    },
+    {
+      "name": "Se soumettre à l'expertise médicale",
+      "description": "En cas de sinistre : le cas échéant, se soumettre à l'expertise médicale demandée par l'assureur.",
+      "timing": "en cas de sinistre",
+      "sanction": "Sous peine, le cas échéant, de nullité du contrat d'assurance ou de non garantie",
+      "page": 1
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Fournir les justificatifs",
+      "description": "En cas de sinistre, l'assuré doit fournir les justificatifs demandés.",
+      "deadline": null,
+      "page": 1
+    },
+    {
+      "step": "Expertise médicale",
+      "description": "En cas de sinistre, l'assuré doit, le cas échéant, se soumettre à l'expertise médicale demandée par l'assureur.",
+      "deadline": null,
+      "page": 1
+    },
+    {
+      "step": "Versement du capital",
+      "description": "L'assureur verse à la Banque, bénéficiaire du contrat, un capital égal au montant du découvert constaté sur le compte de dépôt au jour du sinistre de l'assuré, soumis au plafond de garantie.",
+      "deadline": null,
+      "page": 1
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "La durée du contrat est d'un an. Le contrat prend effet à la date de signature figurant sur la demande d'assurance.",
+    "tacit_renewal": true,
+    "notice_period": null,
+    "methods": [
+      "L'assuré peut résilier le contrat à tout moment par lettre ou tout autre moyen prévu à l'article L.221-10-3 du Code de la mutualité (notamment par courrier postal, électronique ou par déclaration au siège social d'Apivia Macif Mutuelle)."
+    ],
+    "special_rights": [
+      "L'adhérent dispose d'un délai de renonciation de 30 jours à compter de la prise d'effet du contrat.",
+      "Il se renouvelle ensuite par tacite reconduction à la date d'échéance annuelle, sauf résiliation par l'une des parties dans les cas et conditions fixés au contrat.",
+      "Les garanties cessent en cas de versement de la prestation due au titre du contrat",
+      "Les garanties cessent en cas de résiliation par l'assuré du contrat Assurance Découvert",
+      "Les garanties cessent en cas de non-paiement d'une cotisation",
+      "Les garanties cessent en cas de suppression du découvert autorisé ayant entrainé l'adhésion au contrat",
+      "Les garanties cessent en cas de clôture du compte de dépôt servant de base à la garantie",
+      "Les garanties cessent en cas de résiliation du compte bancaire Bleu Anis souscrit par l'assuré, c'est-à-dire la résiliation de l'offre bancaire regroupant plusieurs services dont le compte bancaire et l'Assurance Découvert",
+      "Les garanties cessent en cas de résiliation du contrat collectif par la Banque auprès de l'assureur",
+      "Les garanties cessent en cas de fausse déclaration intentionnelle de l'assuré"
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "La cotisation est mensuelle ou annuelle et payable d'avance.",
+      "Elle est due à l'échéance jusqu'à la résiliation du contrat.",
+      "Le paiement de la cotisation est exigible dans les 10 jours de son échéance.",
+      "En cas de non paiement au-delà de ce délai, et après une mise en demeure restée sans effet, l'assureur pourra être amené à résilier le contrat."
+    ],
+    "indexation": null,
+    "page": 1
+  },
+  "special_conditions": [
+    {
+      "name": "Nature du contrat",
+      "description": "Le contrat Assurance Découvert est un contrat collectif à adhésion facultative, souscrit par la Banque (SOCRAM Banque) auprès de l'assureur.",
+      "page": 1
+    },
+    {
+      "name": "Porteur de risque",
+      "description": "Ce contrat est assuré par Apivia Macif Mutuelle (SIREN n°779 558 501), mutuelle enregistrée en France et régie par le Livre II du Code de la mutualité.",
+      "page": 1
+    },
+    {
+      "name": "Bénéficiaire",
+      "description": "L'assureur verse le capital à la Banque, bénéficiaire du contrat.",
+      "page": 1
+    },
+    {
+      "name": "Objet",
+      "description": "Ce contrat a pour objet de couvrir l'assuré, en cas de décès ou d'invalidité absolue et définitive, consécutif à une maladie ou à un accident afin de garantir le versement à la Banque, d'un capital égal au montant du découvert constaté sur le compte au jour du sinistre.",
+      "page": 1
+    },
+    {
+      "name": "Portée du document",
+      "description": "Ce document d'information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l'information complète sur ce produit dans la documentation précontractuelle et contractuelle.",
+      "page": 1
+    },
+    {
+      "name": "Lien avec l'offre Bleu Anis",
+      "description": "Les garanties cessent en cas de résiliation du compte bancaire Bleu Anis souscrit par l'assuré, c'est-à-dire la résiliation de l'offre bancaire regroupant plusieurs services dont le compte bancaire et l'Assurance Découvert.",
+      "page": 2
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Le contrat Assurance Découvert est un contrat collectif à adhésion facultative, souscrit par la Banque (SOCRAM Banque) auprès de l’assureur. Ce contrat est destiné à \ntoute personne physique, titulaire et co-titulaire d’un compte de dépôt auprès de cet établissement bancaire et bénéficiant d’un découvert autorisé, pour un montant \net une durée contractuellement fixés. Ce contrat a pour objet de couvrir l’assuré, en cas de décès ou d’invalidité absolue et définitive, consécutif à une maladie ou à \nun accident afin de garantir le versement à la Banque, d’un capital égal au montant du découvert constaté sur le compte au jour du sinistre.",
+      "page": 1,
+      "context": null
+    },
+    {
+      "quote": "DIPA ASSURANCE DÉCOUVERT 12/20",
+      "page": 1,
+      "context": null
+    },
+    {
+      "quote": "Le contrat Assurance Découvert couvre l’assuré titulaire et co-titulaire d’un \ncompte de dépôt, contre les risques de décès ou d’invalidité absolue et \ndéfinitive, occasionnés par une maladie ou un accident.\nAu titre des garanties souscrites, l’assureur verse à la Banque, bénéficiaire du \ncontrat, un capital égal au montant du découvert constaté sur le compte de \ndépôt au jour du sinistre de l’assuré, qui est soumis à un plafond de garantie \nindiqué ci-dessous.",
+      "page": 1,
+      "context": null
+    },
+    {
+      "quote": "Versement d’un capital égal au montant du découvert autorisé \nconstaté au jour du sinistre de l’assuré dans la limite du découvert \naccordé par la Banque, qui ne peut excéder 3 000 €.",
+      "page": 1,
+      "context": null
+    },
+    {
+      "quote": "Versement d’un capital égal au montant du découvert autorisé \nconstaté au jour du sinistre de l’assuré dans la limite du découvert \naccordé par la Banque, qui ne peut excéder 3 000 €.",
+      "page": 1,
+      "context": null
+    },
+    {
+      "quote": "Les garanties ou services précédés d’une coche verte   sont systématiquement \nprévus au contrat.",
+      "page": 1,
+      "context": null
+    },
+    {
+      "quote": "Les sinistres survenus en dehors de la période de validité du contrat.",
+      "page": 1,
+      "context": null
+    },
+    {
+      "quote": "Le suicide lors de la première année d’adhésion au contrat. \nLes conséquences de la guerre civile ou étrangère.",
+      "page": 1,
+      "context": null
+    },
+    {
+      "quote": "Les conséquences de la participation de l’assuré à un délit intentionnel \nou à un crime.",
+      "page": 1,
+      "context": null
+    },
+    {
+      "quote": "Les déplacements à l’étranger ne doivent pas excéder une durée continue \nde 12 mois.",
+      "page": 1,
+      "context": null
+    },
+    {
+      "quote": "En cas de pluralité de titulaires du compte de dépôt, le versement du \ncapital n’intervient qu’en cas de décès ou d’invalidité absolue et définitive \ndu dernier titulaire assuré.",
+      "page": 1,
+      "context": null
+    },
+    {
+      "quote": "Ce contrat est assuré par Apivia Macif Mutuelle (SIREN n°779 558 501), mutuelle enregistrée en France et régie par \nle Livre II du Code de la mutualité.",
+      "page": 1,
+      "context": null
+    },
+    {
+      "quote": "Produit : contrat ASSURANCE DÉCOUVERT",
+      "page": 1,
+      "context": null
+    },
+    {
+      "quote": "France (départements et régions d’Outre mer compris) et lors de déplacements dans le monde entier.",
+      "page": 1,
+      "context": null
+    },
+    {
+      "quote": "Sous peine, le cas échéant, de nullité du contrat d’assurance ou de non garantie, l’assuré doit : \nÀ la souscription du contrat :  \n-\t détenir un compte de dépôt auprès de la Banque ; \n-\t s’être vu accorder un découvert autorisé par la Banque ; \n-\t habiter en France ou séjourner hors de  France pour une durée n’excédant pas 12 mois ; \n-\t signer la demande d’assurance et fournir la copie d‘une pièce d’identité en cours de validité.\nDurant le contrat : \n-\t payer la cotisation prévue au contrat. \nEn cas de sinistre : \n-\t fournir les justificatifs demandés ;\n-\t le cas échéant, se soumettre à l’expertise médicale demandée par l’assureur.",
+      "page": 1,
+      "context": null
+    },
+    {
+      "quote": "La cotisation est mensuelle ou annuelle et payable d’avance. Elle est due à l’échéance jusqu’à la résiliation du contrat. \nLe paiement de la cotisation est exigible dans les 10 jours de son échéance. En cas de non paiement au-delà de ce délai, et après une mise en demeure \nrestée sans effet, l’assureur pourra être amené à résilier le contrat.",
+      "page": 1,
+      "context": null
+    },
+    {
+      "quote": "Le contrat prend effet à la date de signature  figurant sur la demande d’assurance. \nLa durée du contrat est d’un an. Il se renouvelle ensuite par tacite reconduction à la date d’échéance annuelle, sauf résiliation par l’une des parties dans \nles cas et conditions fixés au contrat.",
+      "page": 2,
+      "context": null
+    },
+    {
+      "quote": "L’adhérent dispose d’un délai de renonciation de 30 jours à compter de la prise d’effet du contrat.",
+      "page": 2,
+      "context": null
+    },
+    {
+      "quote": "Les garanties cessent :\n-\t en cas de versement de la prestation due au titre du contrat ;\n-\t en cas de résiliation par l’assuré du contrat Assurance Découvert ; \n-\t en cas de non-paiement d’une cotisation ; \n-\t en cas de suppression du découvert autorisé ayant entrainé l’adhésion au contrat ; \n-\t en cas de clôture du compte de dépôt servant de base à la garantie ; \n-",
+      "page": 2,
+      "context": null
+    },
+    {
+      "quote": "en cas de résiliation du compte bancaire Bleu Anis souscrit par l’assuré, c’est-à-dire la résiliation de l’offre bancaire regroupant plusieurs services dont \nle compte bancaire et l’Assurance Découvert ; \n-\t en cas de résiliation du contrat collectif par la Banque auprès de l’assureur ;\n-\t en cas de fausse déclaration intentionnelle de l’assuré.",
+      "page": 2,
+      "context": null
+    },
+    {
+      "quote": "L’assuré peut résilier le contrat à tout moment par lettre ou tout autre moyen prévu à l’article L.221-10-3 du Code de la mutualité (notamment par \ncourrier postal, électronique ou par déclaration au siège social d’Apivia Macif Mutuelle).",
+      "page": 2,
+      "context": null
+    }
+  ],
+  "gaps": [
+    "PORTEUR DE RISQUE : le document nomme explicitement « Apivia Macif Mutuelle (SIREN n°779 558 501), mutuelle enregistrée en France et régie par le Livre II du Code de la mutualité » comme assureur - ce n'est PAS la Macif SAM (société d'assurance mutuelle régie par le Code des assurances). Il s'agit de l'entité aujourd'hui dénommée Macif Santé Prévoyance, anciennement Macif-Mutualité puis Apivia Macif Mutuelle : même SIREN 779 558 501, trois dénominations successives. Le nom est enregistré ici exactement tel qu'imprimé (Apivia Macif Mutuelle) ; le changement de dénomination n'est PAS une différence d'assureur.",
+    "SOCRAM Banque est le SOUSCRIPTEUR du contrat collectif et le bénéficiaire du capital, pas le porteur de risque. Aucune autre entité (AXA, Fragonard, MNCAP, Thémis…) n'est citée dans ce document.",
+    "Aucune autorité de contrôle n'est nommée (l'ACPR n'est pas mentionnée). Champ laissé vide plutôt que déduit.",
+    "EDITION_DATE : le document porte la mention « DIPA ASSURANCE DÉCOUVERT 12/20 » page 1, enregistrée telle quelle comme reference et comme edition_date (« 12/20 »). Ce n'est pas un code de la forme <FAMILLE>/<PRODUIT>/05 - MM/AA - N<nnn> que portent les conditions générales Macif ; c'est la seule marque de version imprimée. La date éventuellement présente dans le nom de fichier CMS n'a pas été utilisée.",
+    "NOM DU PRODUIT : le document donne trois libellés qui ne concordent pas exactement - le titre « Assurance Découvert Autorisé », la ligne « Produit : contrat ASSURANCE DÉCOUVERT » et, dans le corps, « Le contrat Assurance Découvert ». product_name retient le titre imprimé (« Assurance Découvert Autorisé ») et product_family « Assurance Découvert ». Les trois libellés sont conservés en citations verbatim. Le nom de fichier source (DIPA_decouvert_autorise.pdf) n'a pas servi à trancher.",
+    "NATURE DU DOCUMENT : c'est un DIPA (IPID), c'est-à-dire un RÉSUMÉ - « Ce document d'information présente un résumé des principales garanties et exclusions du contrat. » Les exclusions listées sont explicitement « LES PRINCIPALES EXCLUSIONS » et « LES PRINCIPALES RESTRICTIONS » : la liste n'est pas exhaustive et le silence du DIPA ne vaut pas absence de clause. Le contrat lui-même (notice / conditions générales du contrat collectif) n'est pas ce document.",
+    "INSTRUMENT JURIDIQUE : l'assureur étant une mutuelle du Livre II du Code de la mutualité, le lien est une ADHÉSION à un contrat collectif et non une souscription bilatérale : le document parle de « l'adhérent » pour le droit de renonciation, de « la première année d'adhésion au contrat », et renvoie pour la résiliation à l'article L.221-10-3 du Code de la mutualité (et non au Code des assurances). Le document emploie néanmoins aussi « l'assuré » et « la souscription du contrat » ; les deux vocabulaires coexistent dans la source et sont conservés tels quels.",
+    "BRANCHE : la métadonnée de la tâche classe ce document en « emprunteur ». Le document ne parle pas de prêt ni d'emprunt : il couvre le solde d'un DÉCOUVERT AUTORISÉ sur un compte de dépôt, avec un plafond de 3 000 €. La divergence est signalée ici ; la valeur fournie a été reprise telle quelle.",
+    "ABSENTS du document, donc laissés vides : franchises (deductibles), délais de carence chiffrés (waiting_periods - la seule limite temporelle est l'exclusion du suicide la première année, enregistrée en exclusion), prescription, préavis de résiliation chiffré, montant de la cotisation, définitions contractuelles de « décès » et d'« invalidité absolue et définitive » (les termes sont employés sans être définis).",
+    "DÉFAUT DE COUCHE TEXTE : la couche texte contient 8 caractères de contrôle U+0007 (BEL) résiduels laissés par les puces graphiques (coches vertes et croix rouges), placés en tête de plusieurs items de liste pages 1 et 2. Les citations verbatim ont été découpées programmatiquement de façon à les contourner ; ils ne sont ni corrigés ni supprimés dans la source.",
+    "Le symbole de la coche verte / de la croix rouge n'est pas restitué par la couche texte : la phrase « Les garanties ou services précédés d'une coche verte   sont systématiquement prévus au contrat. » comporte un blanc là où figure le pictogramme. La distinction entre la rubrique « Qu'est-ce qui est assuré ? » et « Qu'est-ce qui n'est pas assuré ? » a donc été établie d'après les intertitres, pas d'après les pictogrammes.",
+    "L'ordre de lecture du PDF est partiellement désordonné : le titre du document (« Assurance Découvert Autorisé - Document d'information sur le produit d'assurance »), la mention de l'assureur et la ligne « Produit : » apparaissent au milieu de la page 1 dans la couche texte, après les rubriques garanties et exclusions. Les numéros de page cités restent exacts."
+  ]
+}

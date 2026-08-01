@@ -5,7 +5,7 @@ country: fr
 insurer_slug: smacl
 name: SMACL Assurances
 website: https://www.smacl.fr
-products_count: 14
+products_count: 15
 branches_covered:
 - auto
 - autres
@@ -29,11 +29,12 @@ generated: true
 
 ## Résumé
 
-**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 14 document(s) across 7 branch(es).
+**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 15 document(s) across 7 branch(es).
 
 ## Produits par branche
 
 ### [Assurance auto](../branches/Assurance%20auto.md)
+- [Convergence Auto collaborateurs - garantie complémentaire - IPID](../products/smacl/Convergence%20Auto%20collaborateurs%20-%20garantie%20compl%C3%A9mentaire%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. CONVERGENCE_DIPA_ACCOMPLT_SA_03(09_2022)
 - [Flotte entreprises - IPID](../products/smacl/Flotte%20entreprises%20-%20IPID.md) - IPID / Fiche d'information (02/2024) · réf. ENTREPRISE_DIPA_FLOTTE_03(06_2021)
 - [Vos conventions spéciales CONVERGENCE - Véhicules à moteur](../products/smacl/Vos%20conventions%20sp%C3%A9ciales%20CONVERGENCE%20-%20V%C3%A9hicules%20%C3%A0%20moteur.md) - Conditions générales (01/2024) · réf. CONVERGENCE_CS_VAM_SA_07(08_2016)
 - [Votre convention d'assistance - Flottes entreprises véhicules légers](../products/smacl/Votre%20convention%20d%27assistance%20-%20Flottes%20entreprises%20v%C3%A9hicules%20l%C3%A9gers.md) - Conditions générales (07/2025) · réf. ENTREPRISE_CA_ASSISTANCEVL_02(01_2021)
