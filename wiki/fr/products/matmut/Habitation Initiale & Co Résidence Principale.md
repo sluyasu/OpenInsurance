@@ -918,6 +918,10 @@ Conformément à l'article L. 114-1 du Code des assurances, toutes actions déri
 - `target_audience` a été fixé à « particuliers » sur la base de l'objet du contrat (« dans le cadre de votre vie privée, en dehors de toute activité professionnelle », page 2) et de l'article 6 (« en qualité de simple particulier »), le document ne nommant aucun segment de clientèle ; la formulation d'origine est reprise dans `target_audience_note`.
 - Le document est la formule « Initiale & Co » de la résidence principale ; il ne comporte aucune comparaison avec une autre formule et ne mentionne aucun autre contrat Habitation de l'assureur. Aucune indication de niveau de gamme n'est imprimée.
 
+## Documents liés
+
+- [Habitation Initiale & Co Résidence Secondaire](Habitation%20Initiale%20%26%20Co%20R%C3%A9sidence%20Secondaire.md) - Conditions générales, éd. 12/23
+
 ## Source & fidélité
 
 - Source : [https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-rp-init-and-co.pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-rp-init-and-co.pdf) - téléchargé le 2026-07-30 - 78 pages

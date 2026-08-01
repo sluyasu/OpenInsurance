@@ -5,17 +5,21 @@ country: fr
 insurer_slug: matmut
 name: Matmut
 website: https://www.matmut.fr
-products_count: 68
+products_count: 79
 branches_covered:
 - animaux
 - assurance-vie
 - auto
 - chasse
 - edpm
+- gav
 - habitation
 - moto
 - multirisque-professionnelle
 - navigation
+- protection-juridique
+- rc-professionnelle
+- retraite
 - sante
 - velo
 tags:
@@ -33,7 +37,7 @@ generated: true
 
 ## Résumé
 
-**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 68 document(s) across 11 branch(es).
+**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 79 document(s) across 15 branch(es).
 
 ## Produits par branche
 
@@ -90,8 +94,12 @@ generated: true
 ### [EDPM et mobilités douces](../branches/EDPM%20et%20mobilit%C3%A9s%20douces.md)
 - [Contrat Multirisques « 2R Mobilité » - IPID](../products/matmut/Contrat%20Multirisques%20%C2%AB%202R%20Mobilit%C3%A9%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (07/25) · réf. IPID.EDPM - 07/25
 
+### [Garantie des accidents de la vie](../branches/Garantie%20des%20accidents%20de%20la%20vie.md)
+- [Multirisques Accidents de la Vie](../products/matmut/Multirisques%20Accidents%20de%20la%20Vie.md) - Conditions générales (2026-01) · réf. CG MAV - 01/26
+
 ### [Multirisque habitation](../branches/Multirisque%20habitation.md)
 - [Habitation Initiale & Co Résidence Principale](../products/matmut/Habitation%20Initiale%20%26%20Co%20R%C3%A9sidence%20Principale.md) - Conditions générales (12/23) · réf. CG MGAR RP INIT & CO – 12/23
+- [Habitation Initiale & Co Résidence Secondaire](../products/matmut/Habitation%20Initiale%20%26%20Co%20R%C3%A9sidence%20Secondaire.md) - Conditions générales (12/23) · réf. CG RS INIT & CO – 12/23
 - [Habitation Matmut Étudiants](../products/matmut/Habitation%20Matmut%20%C3%89tudiants.md) - Conditions générales (2024-05) · réf. CG HAB ETUD – 05/24
 - [Habitation Propriétaire Non Occupant](../products/matmut/Habitation%20Propri%C3%A9taire%20Non%20Occupant.md) - Conditions générales (12/23) · réf. CG PNO – 12/23
 - [Habitation Résidence principale](../products/matmut/Habitation%20R%C3%A9sidence%20principale.md) - Conditions générales (2023-12) · réf. CG RP - 12/23
@@ -121,8 +129,23 @@ generated: true
 ### Navigation de plaisance
 - [Navigation de Plaisance Matmut](../products/matmut/Navigation%20de%20Plaisance%20Matmut.md) - Conditions générales (06/24) · réf. CG NDEP
 
+### [Protection juridique](../branches/Protection%20juridique.md)
+- [Assistance Juridique Vie Privée et Protection Juridique Santé](../products/matmut/Assistance%20Juridique%20Vie%20Priv%C3%A9e%20et%20Protection%20Juridique%20Sant%C3%A9.md) - Conditions générales (10/25) · réf. MOM.NOT.PJ - 10/25
+
+### [RC professionnelle](../branches/RC%20professionnelle.md)
+- [Multigaranties Professionnelles des Agents Publics](../products/matmut/Multigaranties%20Professionnelles%20des%20Agents%20Publics.md) - Conditions générales (06/24) · réf. CG.MPAP.AMF SAM – 06/24
+
+### Retraite supplémentaire
+- [CompliceRetraite](../products/matmut/CompliceRetraite.md) - Conditions générales (Octobre 2025) · réf. v.311-01
+
 ### [Complémentaire santé](../branches/Compl%C3%A9mentaire%20sant%C3%A9.md)
 - [CONTRAT COLLECTIF FRAIS DE SANTÉ - RÉGIME OBLIGATOIRE](../products/matmut/CONTRAT%20COLLECTIF%20FRAIS%20DE%20SANT%C3%89%20-%20R%C3%89GIME%20OBLIGATOIRE.md) - Conditions générales (Janvier 2023)
+- [Notice d'information — Régime de frais de santé, contrat collectif, Accord interbranche du 2 octobre 2019 (CCN du 15 mar](../products/matmut/Notice%20d%27information%20%E2%80%94%20R%C3%A9gime%20de%20frais%20de%20sant%C3%A9%2C%20contrat%20collectif%2C%20Accord%20interbranche%20du%202%20octobre%202019%20%28CCN%20du%2015%20mar.md) - Conditions générales (ÉDITION 2023 (couverture) ; « janvier 2023 » en pied de page ; « Notice d'information Base obligatoire option 2 - CCN 66-CHRS - Janvier 2023 » en 4e de couverture) · réf. Accord interbranche CCN 66 - CHRS • Notice d'information base obligatoire et option 2 - janvier 2023
+- [Régime frais de santé - CCN BTP - Vos garanties 2026 - Fiche](../products/matmut/R%C3%A9gime%20frais%20de%20sant%C3%A9%20-%20CCN%20BTP%20-%20Vos%20garanties%202026%20-%20Fiche.md) - Fiche produit · réf. CCN BTP-0925
+- [Régime frais de santé - CCN Production agricole non cadres - Vos garanties 2026 - Fiche](../products/matmut/R%C3%A9gime%20frais%20de%20sant%C3%A9%20-%20CCN%20Production%20agricole%20non%20cadres%20-%20Vos%20garanties%202026%20-%20Fiche.md) - Fiche produit · réf. CCN PROD AGRI-0925
+- [Régime frais de santé - COLLECTIF SANTE FLEX - Vos garanties 2026 - Fiche](../products/matmut/R%C3%A9gime%20frais%20de%20sant%C3%A9%20-%20COLLECTIF%20SANTE%20FLEX%20-%20Vos%20garanties%202026%20-%20Fiche.md) - Fiche produit · réf. COLLECTIF SANTE FLEX-1225
+- [Régime frais de santé CCN Services de l'automobile — Vos garanties 2026 - Fiche](../products/matmut/R%C3%A9gime%20frais%20de%20sant%C3%A9%20CCN%20Services%20de%20l%27automobile%20%E2%80%94%20Vos%20garanties%202026%20-%20Fiche.md) - Fiche produit · réf. SERVICES DE L'AUTOMOBILE-0825
+- [Régime frais de santé CCN Transport sanitaire — Vos garanties 2026 - Fiche](../products/matmut/R%C3%A9gime%20frais%20de%20sant%C3%A9%20CCN%20Transport%20sanitaire%20%E2%80%94%20Vos%20garanties%202026%20-%20Fiche.md) - Fiche produit · réf. TRANSPORT SANITAIRE-0925
 
 ### Vélo
 - [Contrat Multirisques « 2R Liberté » - IPID](../products/matmut/Contrat%20Multirisques%20%C2%AB%202R%20Libert%C3%A9%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (07/25) · réf. IPID.VELO - 07/25

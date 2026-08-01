@@ -27,7 +27,7 @@ navigate it without guessing. Do not edit by hand.
 |---|---|---|---|---|---|
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
 | ch (Switzerland) | 0 | 3 | 1 | 0 | 5 |
-| fr (France) | 17 | 288 | 7 | 1 | 5 |
+| fr (France) | 17 | 299 | 7 | 1 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
 
@@ -420,6 +420,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | gav | gan | Gan Prévoyance Garantie des Accidents de la Vie - IPID | 2026-07-30 | [pdf](https://www.ganprevoyance.fr/gav/1-1/document-d-informations-garantie-accidents-de-la-vie.pdf?date=20230317164344) |
 | fr | gav | maif | Assurance des Accidents de la Vie Courante Praxis Solutions - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/document-information-praxis-solutions.pdf) |
 | fr | gav | maif | Praxis Solutions | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/conditions-generales-praxis-solutions.pdf) |
+| fr | gav | matmut | Multirisques Accidents de la Vie | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGMAV.pdf) |
 | fr | gav | thelem | Assurance Accidents de la vie privée - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_700-ACCVP-08-2025.pdf) |
 | fr | habitation | direct-assurance | Assurance Habitation Direct Assurance - IPID | 2026-07-30 | [pdf](https://directassurance.cdn.prismic.io/directassurance/aHDKPEMqNJQqHyOg_IPID_HABITATION.pdf) |
 | fr | habitation | direct-assurance | Contrat Habitation | 2026-07-30 | [pdf](https://directassurance.cdn.prismic.io/directassurance/abglZ7bci2UF6D7w_HABITATION_MRH_03.26_Vdef.pdf) |
@@ -443,6 +444,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | habitation | maif | Assurance Propriétaire Bailleur | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/conditions-generales-assurance-proprietaire-bailleur.pdf) |
 | fr | habitation | maif | Assurance Propriétaire Bailleur - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/document-information-assurance-proprietaire-bailleur.pdf) |
 | fr | habitation | matmut | Habitation Initiale & Co Résidence Principale | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-rp-init-and-co.pdf) |
+| fr | habitation | matmut | Habitation Initiale & Co Résidence Secondaire | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-rs-init-and-co.pdf) |
 | fr | habitation | matmut | Habitation Matmut Étudiants | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/ME2H.pdf) |
 | fr | habitation | matmut | Habitation Propriétaire Non Occupant | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGMGARPNO.pdf) |
 | fr | habitation | matmut | Habitation Résidence principale | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGMGARRP.pdf) |
@@ -529,6 +531,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | protection-juridique | groupama | Annexe Garantie Protection juridique automobile — Assurance Flotte automobile | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/IPBJ1AlyPtXiPPXpJOtZP/9f77600424013842489c574030f85c2d/Annexe_Protection_Juridique_Automobile.pdf) |
 | fr | protection-juridique | maif | Assurance Protection Juridique | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/conditions-generales-assurance-protection-juridique.pdf) |
 | fr | protection-juridique | maif | Assurance Protection Juridique - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/document-information-assurance-protection-juridique.pdf) |
+| fr | protection-juridique | matmut | Assistance Juridique Vie Privée et Protection Juridique Santé | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/notice-information-protection-juridique.pdf) |
 | fr | protection-juridique | thelem | Assurance Protection Juridique du Professionnel - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_PJ-PRO_012026.pdf) |
 | fr | protection-juridique | thelem | Assurance Protection Juridique du Professionnel agricole - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_PJ-PRO-AGRI_012026.pdf) |
 | fr | protection-juridique | thelem | Assurance Protection Juridique du particulier - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_PJ_PART_012026_VF.pdf) |
@@ -545,6 +548,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | rc-professionnelle | maif | Assurance Professionnelle Offre Métiers de l'Éducation - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/enseignants/document-information-assurance-professionnelle-metiers-education.pdf) |
 | fr | rc-professionnelle | maif | Offre Métiers de l'Éducation | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/enseignants/tableau-garanties-assurance-professionnelle-metiers-education.pdf) |
 | fr | rc-professionnelle | maif | Responsabilité Civile Maître d'Ouvrage Associations et Collectivités - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/document-information-assurance-responsabilite-civile-maitre-ouvrage.pdf) |
+| fr | rc-professionnelle | matmut | Multigaranties Professionnelles des Agents Publics | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-mpap.pdf) |
 | fr | rc-professionnelle | thelem | Responsabilité Civile Chef d'Entreprise- Professions libérales - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_RCPRO.pdf) |
 | fr | retraite | gan | GAN ASSURANCES PERFORMANCE RETRAITE - Fiche | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2026/07/GAN-Performance-Retraite-Infos-Cles.pdf) |
 | fr | retraite | gan | Gan Assurance Nouvelle Vie | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2026/03/Gan-Nouvelle-Vie-Retraite-Fiche-Infos-Frais.pdf) |
@@ -565,6 +569,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | retraite | maif | PER Responsable et Solidaire (2) | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/epargne-financements/publication-informations-durabilite-per.pdf) |
 | fr | retraite | maif | PER Responsable et Solidaire (3) | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/epargne-financements/notice-per.pdf) |
 | fr | retraite | maif | PER Responsable et Solidaire (4) | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/epargne-financements/tableau-frais-per.pdf) |
+| fr | retraite | matmut | CompliceRetraite | 2026-07-30 | [pdf](https://www.matmut.fr/epargne-credit/pdf/notice-complice-retraite.pdf) |
 | fr | sante | direct-assurance | Direct Assurance Santé | 2026-07-30 | [pdf](https://directassurance.cdn.prismic.io/directassurance/aG-PbkMqNJQqHv6O_DirectAssurance-NoticeinformationSante.pdf) |
 | fr | sante | direct-assurance | Direct Assurance Santé - Exemples de remboursements | 2026-07-30 | [pdf](https://directassurance.cdn.prismic.io/directassurance/aVudaXNYClf9ox-__DirectAssurance-Exemplesderemboursements.pdf) |
 | fr | sante | direct-assurance | Direct Assurance Santé - contrat responsable - IPID | 2026-07-30 | [pdf](https://directassurance.cdn.prismic.io/directassurance/aG-PZkMqNJQqHv6K_fiche-ipid-sante-responsable.pdf) |
@@ -582,6 +587,12 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | sante | groupama | TMGF Synergie santé Salariés | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/2WdH0QbT2yDvuM9AIoxpxr/3d1ec4295b3f531a9fece1ef2e0cbe03/tableau_de_garanties_synergie_sant___salari___r__gime_local.pdf) |
 | fr | sante | groupama | TMGF Synergie santé Salariés (2) | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/37C1b2uoBbhZLxH9Ye3Rnl/40a0d7d33c18c132a3357aadfd6d8473/tableau_de_garanties_synergie_sant___salari___r__gime_g__n__ral.pdf) |
 | fr | sante | matmut | CONTRAT COLLECTIF FRAIS DE SANTÉ - RÉGIME OBLIGATOIRE | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-1966-conditions-generales.pdf) |
+| fr | sante | matmut | Notice d'information — Régime de frais de santé, contrat collectif, Accord interbranche du 2 octobre 2019 (CCN du 15 mar | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-1966-notice-information-base-option-2.pdf) |
+| fr | sante | matmut | Régime frais de santé - CCN BTP - Vos garanties 2026 - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-BTP-garanties-sante.pdf) |
+| fr | sante | matmut | Régime frais de santé - CCN Production agricole non cadres - Vos garanties 2026 - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-Production-agricole-garanties-sante.pdf) |
+| fr | sante | matmut | Régime frais de santé - COLLECTIF SANTE FLEX - Vos garanties 2026 - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/mutuelle-pme-garanties.pdf) |
+| fr | sante | matmut | Régime frais de santé CCN Services de l'automobile — Vos garanties 2026 - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-AUTOMOBILE-garanties-sante.pdf) |
+| fr | sante | matmut | Régime frais de santé CCN Transport sanitaire — Vos garanties 2026 - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-TRS-garanties-sante.pdf) |
 | fr | sante | thelem | Assurance Complémentaire Santé – gamme non responsable et solidaire - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_710-Evolution-NResp-janvier-2024.pdf) |
 | fr | sante | thelem | Assurance Complémentaire Santé – gamme responsable et solidaire - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_710-Evolution-Resp-janvier-2026.pdf) |
 | fr | sante | thelem | INTÉGRALE 1, INTÉGRALE 2, INTÉGRALE 3, INTÉGRALE 4 – Formules responsables et solidaires | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/Exemples_remboursements_TA_2026_RESPONSABLE.pdf) |

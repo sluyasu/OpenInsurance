@@ -1,0 +1,2083 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "matmut",
+  "insurer_name": "Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477",
+  "branch": "sante",
+  "branch_code": null,
+  "document_type": "product_sheet",
+  "language": "fr",
+  "source_url": "https://www.matmut.fr/pro/pdf/mutuelle-pme-garanties.pdf",
+  "source_pdf": "collectif-sante-flex-garanties-2026-d2d7fa9a.pdf",
+  "source_sha256": "bbcb87f515bcbf30eeb22c62f7bed509a9d26d488154aea628414c86b2a49f98",
+  "source_pages": 8,
+  "fetched_at": "2026-07-30",
+  "extraction_model": "claude-code-subagent:scale",
+  "target_audience": null,
+  "target_audience_note": "Régime frais de santé COLLECTIF SANTE FLEX ; le document désigne les assurés comme « adhérent » et « bénéficiaire » et ne nomme pas de catégorie de souscripteur.",
+  "reference": "COLLECTIF SANTE FLEX-1225",
+  "edition_date": null,
+  "product_family": "Collectif Santé Flex",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "summary": "Tableau des garanties 2026 du régime frais de santé « Collectif Santé Flex », présentant huit niveaux de garanties (NIVEAU 1 à NIVEAU 8). Il détaille les remboursements en hospitalisation, soins courants, optique, dentaire et appareillage, aides auditives, prévention et médecines douces, une protection « Gros Pépin » et le sport sur ordonnance, exprimés en pourcentage de la Base de Remboursement, en remboursement intégral, en frais réels ou en forfaits annuels. Les renvois précisent une grille de forfaits optique par niveau et par âge et les conditions de chaque poste. Il liste des services inclus (Itelis, Medaviz, Livmed's, deuxième avis médical, bilan de santé digital, Méta-Coaching, Salvum, assistance et protection juridique santé). Le document précise qu'il est non contractuel.",
+  "definitions": [
+    {
+      "term": "BR",
+      "definition": "Base de Remboursement",
+      "page": 7
+    },
+    {
+      "term": "OPTAM",
+      "definition": "Option de Pratique Tarifaire Maîtrisée",
+      "page": 7
+    },
+    {
+      "term": "TM",
+      "definition": "Ticket Modérateur",
+      "page": 7
+    },
+    {
+      "term": "SS",
+      "definition": "Sécurité Sociale",
+      "page": 7
+    },
+    {
+      "term": "PMSS",
+      "definition": "Plafond Mensuel de la Sécurité Sociale",
+      "page": 7
+    },
+    {
+      "term": "FR",
+      "definition": "Frais Réels",
+      "page": 7
+    },
+    {
+      "term": "RO",
+      "definition": "Régime Obligatoire",
+      "page": 7
+    },
+    {
+      "term": "DPTM",
+      "definition": "Dispositif de Pratique Tarifaire Maîtrisée",
+      "page": 7
+    },
+    {
+      "term": "DE",
+      "definition": "Dépense Engagée",
+      "page": 7
+    },
+    {
+      "term": "SMR",
+      "definition": "Service Médical Rendu",
+      "page": 7
+    },
+    {
+      "term": "Honoraires et actes techniques en hospitalisation (renvoi 1)",
+      "definition": "Actes de Chirurgie (ADC), d'Anesthésie (ADA), d'Obstétrique (ACO), d'Échographie (ADE) et Actes Techniques Médicaux (ATM). Prise en charge de la participation forfaitaire pour les actes coûteux. Le taux de prise en charge indiqué s'applique aux actes et soins réalisés par des médecins ayant adhéré à l'Option de Pratique Tarifaire Maîtrisée (OPTAM ou OPTAM-ACO). En cas de dépassements d'honoraires, ce taux est minoré de 20 % pour les médecins non adhérents et notre participation sur les dépassements d'honoraires ne peut excéder 100 % du tarif de la Sécurité sociale. Hospitalisation à l'étranger : voir conditions générales de la garantie Assistance Matmut.",
+      "page": 7
+    },
+    {
+      "term": "Actes soumis au parcours de soins (renvoi 2)",
+      "definition": "Prise en charge de la participation forfaitaire pour les actes coûteux. Hors parcours de soins coordonnés, la prise en charge est limitée à 100 % de la Base de Remboursement hors majoration du ticket modérateur appliquée par la Sécurité sociale. Le taux de prise en charge indiqué s'applique aux actes et soins réalisés par des médecins ayant adhéré à l'OPTAM ou OPTAM-ACO. En cas de dépassements d'honoraires, ce taux est minoré de 20 % pour les médecins non adhérents et notre participation sur les dépassements d'honoraires ne peut excéder 100 % du tarif de la Sécurité sociale.",
+      "page": 7
+    },
+    {
+      "term": "Forfait journalier hospitalier (renvoi 3)",
+      "definition": "20 €/jour (sauf psychiatrie 15 €/jour), durée illimitée. MAS et EHPAD non pris en charge.",
+      "page": 7
+    },
+    {
+      "term": "Chambre particulière avec nuitée (renvoi 4)",
+      "definition": "La prise en charge de la chambre particulière est limitée à 90 jours par an en convalescence, rééducation et psychiatrie.",
+      "page": 7
+    },
+    {
+      "term": "Chambre particulière en ambulatoire (renvoi 5)",
+      "definition": "Prise en charge uniquement lorsque l'hospitalisation inclut : un Acte de Chirurgie (ADC) ou un Acte Technique Médical (ATM) et un Acte d'Anesthésie (ADA).",
+      "page": 7
+    },
+    {
+      "term": "Lit d'accompagnant (renvoi 6)",
+      "definition": "Dans le cadre d'une hospitalisation d'un enfant de moins de 16 ans.",
+      "page": 7
+    },
+    {
+      "term": "Prime d'inscription naissance ou adoption (renvoi 7)",
+      "definition": "Prime versée par enfant inscrit sur le contrat dans les 3 mois suivant sa naissance ou son adoption, sous réserve que l'un de ses parents soit adhérent à la garantie à la date de naissance ou d'adoption et sur présentation de l'acte de naissance ou d'adoption.",
+      "page": 7
+    },
+    {
+      "term": "Séances avec des psychologues (renvoi 9)",
+      "definition": "Ouvert aux personnes de plus de 3 ans (enfants, adolescents et adultes) et valable chez les psychologues partenaires du dispositif « Mon soutien psy », diplômés dans leur spécialité et inscrits aux registres officiels de l'Assurance Maladie. Dans la limite de 12 séances par an, avec une première séance qui est un entretien d'évaluation et entre 1 à 11 séances de suivi psychologique (50 €/séance). Ce nombre est adapté aux besoins et déterminé par le psychologue. Garantie uniquement disponible dans les « contrats responsables ».",
+      "page": 7
+    },
+    {
+      "term": "Cure thermale (renvoi 10)",
+      "definition": "Prise en charge des frais liés à des cures thermales donnant lieu à un forfait de surveillance médicale remboursé par la Sécurité sociale.",
+      "page": 7
+    },
+    {
+      "term": "Équipement 100 % Santé optique - classe A (renvoi 11)",
+      "definition": "Équipement relevant du 100 % Santé (verres et monture de classe A) sans reste à charge : les montures de classe A doivent respecter les normes européennes avec un prix inférieur ou égal à 30 €. Les verres de classe A doivent répondre à des critères fixés règlementairement : verres traitant l'ensemble des troubles visuels, amincis en fonction du trouble, durcis pour éviter les rayures, traités anti-reflets. Leurs prix sont encadrés par des Prix Limites de Vente (PLV).",
+      "page": 7
+    },
+    {
+      "term": "Équipement à tarif libre - classe B (renvoi 12)",
+      "definition": "Équipement à tarif libre (verres et monture de classe B) : le professionnel de santé est libre de fixer les prix de ces équipements. Forfait pour une paire de lunettes (1 monture + 2 verres) incluant le remboursement de la Sécurité sociale dans la limite des montants de la grille. Forfait versé dans la limite d'une paire de lunettes tous les 24 mois à partir de la date d'achat ou tous les 12 mois en cas de renouvellement anticipé prévu à l'article R. 871-2 du Code de la Sécurité sociale, notamment pour les moins de 16 ans ou en cas d'évolution de la vue.",
+      "page": 7
+    },
+    {
+      "term": "Chirurgie corrective de l'œil (renvoi 13)",
+      "definition": "Forfait valable pour la chirurgie au laser, implant ou lentille intraoculaire.",
+      "page": 7
+    },
+    {
+      "term": "Inlay-onlay (renvoi 14)",
+      "definition": "Le prix de l'inlay-onlay métallique est plafonné à un Prix Limite de Vente (PLV) de 350 € fixé réglementairement. La prise en charge ne peut excéder 350 € pour les nivaux 6 à 8 dans le cas d'un inlay-onlay métallique. Cette limite ne s'applique pas sur un inlay-onlay en céramique.",
+      "page": 7
+    },
+    {
+      "term": "Prothèses relevant du 100 % Santé (renvoi 15)",
+      "definition": "Sans reste à charge : couronne et bridge métalliques (toutes dents), couronne céramique zircone (dents hors molaires), couronne céramométallique et céramique - hors zircone - (incisives, canines et 1res prémolaires), bridge céramométallique (incisives), couronne mobile. Leurs prix sont encadrés par des Prix Limites de Vente (PLV).",
+      "page": 7
+    },
+    {
+      "term": "Prothèses à tarifs maîtrisés (renvoi 16)",
+      "definition": "Prothèses à tarifs maîtrisés sont plafonnés aux Prix Limites de Vente (PLV) fixés réglementairement.",
+      "page": 7
+    },
+    {
+      "term": "Prothèses à tarifs libres (renvoi 17)",
+      "definition": "Le professionnel de santé est libre de fixer les prix de ces équipements.",
+      "page": 7
+    },
+    {
+      "term": "Dents hors molaires (renvoi 18)",
+      "definition": "Incisives, canines, prémolaires.",
+      "page": 7
+    },
+    {
+      "term": "Molaires (renvoi 19)",
+      "definition": "Premières, deuxièmes et troisièmes molaires.",
+      "page": 7
+    },
+    {
+      "term": "Prothèse dentaire non remboursée (renvoi 20)",
+      "definition": "Prothèses dentaires de la nomenclature CCAM (Classification Commune des Actes Médicaux) non remboursées par la Sécurité sociale.",
+      "page": 7
+    },
+    {
+      "term": "Orthodontie remboursée par la Sécurité sociale (renvoi 21)",
+      "definition": "Le forfait d'orthodontie (semestre/trimestre) sera versé uniquement si la date de début du semestre/trimestre a débuté après la prise d'effet des garanties. Chaque forfait comprend à la fois la part de la Sécurité sociale et la part de la Mutuelle Ociane Matmut.",
+      "page": 7
+    },
+    {
+      "term": "Équipement 100 % SANTÉ aides auditives classe I (renvoi 22)",
+      "definition": "Sans reste à charge : contours d'oreille classique, contours à écouteurs déportés, intra-auriculaire, 30 jours d'essai et 4 ans de garantie fabricant, au moins 3 options (système anti-acouphène, connectivité sans fil, réducteur bruit du vent…).",
+      "page": 8
+    },
+    {
+      "term": "Équipement à tarif libre - aide auditive de classe II (renvoi 23)",
+      "definition": "Entretien (y compris le changement des piles), réglages, réparation prothèses auditives réalisée par l'audioprothésiste prise en charge à hauteur de 100% de la base de remboursement de la Sécurité sociale. Les prix des aides auditives sont encadrés par des Prix Limites de Vente (PLV). Forfait \"Aide auditive\" versé dans la limite de deux équipements (soit un équipement par oreille) tous les 4 ans à partir de la date d'achat.",
+      "page": 8
+    },
+    {
+      "term": "Prothèses capillaires classes III et IV (renvoi 25)",
+      "definition": "Classe III : prothèses capillaires composées d'au moins 50 % de cheveux naturels et le reste de fibres synthétiques. Leurs Prix Limites de Vente (PLV) sont définis réglementairement. Classe IV : prothèses capillaires composées uniquement de cheveux naturels. Leurs prix sont fixés librement.",
+      "page": 8
+    },
+    {
+      "term": "Prothèses capillaires 100% santé classes I et II (renvoi 26)",
+      "definition": "Sans reste à charge. Classe I : prothèses composées uniquement de cheveux synthétiques prises intégralement en charge par la Sécurité sociale. Classe II : prothèses composées d'au moins 30 % de cheveux naturels et le reste de fibres synthétiques. Leurs Prix Limites de Vente (PLV) sont définis réglementairement.",
+      "page": 8
+    },
+    {
+      "term": "Fauteuils roulants 100% santé (renvoi 27)",
+      "definition": "Sans reste à charge : la liste exhaustive des équipements et leurs Prix Limites de Vente (PLV) sont définis réglementairement. Certains modèles sportifs peuvent également être pris en charge après évaluation des besoins par un professionnel de santé.",
+      "page": 8
+    },
+    {
+      "term": "Substituts nicotiniques (renvoi 29)",
+      "definition": "Substituts nicotiniques (patchs, gommes à mâcher...) ou produits pharmaceutiques remboursés par la Sécurité sociale.",
+      "page": 8
+    },
+    {
+      "term": "Actes non remboursés en médecines douces (renvoi 30)",
+      "definition": "Forfait global valable pour les actes non remboursés par la Sécurité sociale sur facture nominative acquittée, chez les praticiens diplômés dans leur spécialité et inscrits aux registres officiels de l'Assurance Maladie. Pour l'acupuncture, seuls sont pris en charge les actes non remboursés par la Sécurité sociale réalisés chez un médecin, une sage-femme ou un chirurgien-dentiste.",
+      "page": 8
+    },
+    {
+      "term": "Santé et développement de l'enfant de moins de 16 ans (renvoi 31)",
+      "definition": "Consultations d'ergothérapeutes et de psychomotriciens - Dépistage des troubles du développement (visuel et auditif pour les moins de 3 ans), de l'apprentissage (vue, audition, dyslexie, dyscalculie) ou du comportement (troubles alimentaires, relationnels) - Bilans allergiques (tests cutanés).",
+      "page": 8
+    },
+    {
+      "term": "Actes de chirurgie plastique réparatrice (renvoi 32)",
+      "definition": "Ce forfait s'ajoute à la prise en charge des honoraires du chirurgien et de l'anesthésiste lors de l'intervention chirurgicale. Le forfait s'applique aux actes réalisés par des médecins ayant adhéré à l'Option de Pratique Tarifaire Maîtrisée (OPTAM et OPTAM- ACO). Pour les médecins non adhérents, la prise en charge des dépassements d'honoraires ne peut excéder 100 % BR dans les « contrats responsables ».",
+      "page": 8
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Hospitalisation - Honoraires et actes techniques",
+      "description": "Honoraires et actes techniques (1) : Actes de Chirurgie (ADC), d'Anesthésie (ADA), d'Obstétrique (ACO), d'Échographie (ADE) et Actes Techniques Médicaux (ATM). Prise en charge de la participation forfaitaire pour les actes coûteux.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 125 % BR ; NIVEAU 2 : 140 % BR ; NIVEAU 3 : 160 % BR ; NIVEAU 4 : 180 % BR ; NIVEAU 5 : 200 % BR ; NIVEAU 6 : 220 % BR ; NIVEAU 7 : 240 % BR ; NIVEAU 8 : 300 % BR",
+      "sub_limits": [
+        "NIVEAU 1 : 125 % BR",
+        "NIVEAU 2 : 140 % BR",
+        "NIVEAU 3 : 160 % BR",
+        "NIVEAU 4 : 180 % BR",
+        "NIVEAU 5 : 200 % BR",
+        "NIVEAU 6 : 220 % BR",
+        "NIVEAU 7 : 240 % BR",
+        "NIVEAU 8 : 300 % BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le taux de prise en charge indiqué s'applique aux actes et soins réalisés par des médecins ayant adhéré à l'Option de Pratique Tarifaire Maîtrisée (OPTAM ou OPTAM-ACO). En cas de dépassements d'honoraires, ce taux est minoré de 20 % pour les médecins non adhérents et notre participation sur les dépassements d'honoraires ne peut excéder 100 % du tarif de la Sécurité sociale.",
+        "Hospitalisation à l'étranger : voir conditions générales de la garantie Assistance Matmut. (renvoi 1)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Hospitalisation - Radiologie",
+      "description": "Radiologie (2).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 100 % BR ; NIVEAU 2 : 120 % BR ; NIVEAU 3 : 120 % BR ; NIVEAU 4 : 120 % BR ; NIVEAU 5 : 120 % BR ; NIVEAU 6 : 150 % BR ; NIVEAU 7 : 200 % BR ; NIVEAU 8 : 200 % BR",
+      "sub_limits": [
+        "NIVEAU 1 : 100 % BR",
+        "NIVEAU 2 : 120 % BR",
+        "NIVEAU 3 : 120 % BR",
+        "NIVEAU 4 : 120 % BR",
+        "NIVEAU 5 : 120 % BR",
+        "NIVEAU 6 : 150 % BR",
+        "NIVEAU 7 : 200 % BR",
+        "NIVEAU 8 : 200 % BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Prise en charge de la participation forfaitaire pour les actes coûteux. Hors parcours de soins coordonnés, la prise en charge est limitée à 100 % de la Base de Remboursement hors majoration du ticket modérateur appliquée par la Sécurité sociale. (renvoi 2)",
+        "Le taux de prise en charge indiqué s'applique aux actes et soins réalisés par des médecins ayant adhéré à l'Option de Pratique Tarifaire Maîtrisée (OPTAM ou OPTAM-ACO). En cas de dépassements d'honoraires, ce taux est minoré de 20 % pour les médecins non adhérents et notre participation sur les dépassements d'honoraires ne peut excéder 100 % du tarif de la Sécurité sociale."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Hospitalisation - Frais de séjour",
+      "description": "Frais de séjour.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 100 % BR ; NIVEAU 2 : 100 % BR ; NIVEAU 3 : 100 % BR ; NIVEAU 4 : 100 % BR ; NIVEAU 5 : 100 % BR ; NIVEAU 6 : 100 % BR ; NIVEAU 7 : 100 % BR ; NIVEAU 8 : 100 % BR",
+      "sub_limits": [
+        "NIVEAU 1 : 100 % BR",
+        "NIVEAU 2 : 100 % BR",
+        "NIVEAU 3 : 100 % BR",
+        "NIVEAU 4 : 100 % BR",
+        "NIVEAU 5 : 100 % BR",
+        "NIVEAU 6 : 100 % BR",
+        "NIVEAU 7 : 100 % BR",
+        "NIVEAU 8 : 100 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Hospitalisation - Transport sanitaire accepté par la Sécurité sociale",
+      "description": "Transport sanitaire accepté par la Sécurité sociale.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 100 % BR ; NIVEAU 2 : 100 % BR ; NIVEAU 3 : 100 % BR ; NIVEAU 4 : 100 % BR ; NIVEAU 5 : 100 % BR ; NIVEAU 6 : 150 % BR ; NIVEAU 7 : 200 % BR ; NIVEAU 8 : 200 % BR",
+      "sub_limits": [
+        "NIVEAU 1 : 100 % BR",
+        "NIVEAU 2 : 100 % BR",
+        "NIVEAU 3 : 100 % BR",
+        "NIVEAU 4 : 100 % BR",
+        "NIVEAU 5 : 100 % BR",
+        "NIVEAU 6 : 150 % BR",
+        "NIVEAU 7 : 200 % BR",
+        "NIVEAU 8 : 200 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Hospitalisation - Forfait patient urgences",
+      "description": "Forfait patient urgences.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : Frais réels ; NIVEAU 2 : Frais réels ; NIVEAU 3 : Frais réels ; NIVEAU 4 : Frais réels ; NIVEAU 5 : Frais réels ; NIVEAU 6 : Frais réels ; NIVEAU 7 : Frais réels ; NIVEAU 8 : Frais réels",
+      "sub_limits": [
+        "NIVEAU 1 : Frais réels",
+        "NIVEAU 2 : Frais réels",
+        "NIVEAU 3 : Frais réels",
+        "NIVEAU 4 : Frais réels",
+        "NIVEAU 5 : Frais réels",
+        "NIVEAU 6 : Frais réels",
+        "NIVEAU 7 : Frais réels",
+        "NIVEAU 8 : Frais réels"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Hospitalisation - Forfait journalier hospitalier",
+      "description": "Forfait journalier hospitalier (3) : 20 €/jour (sauf psychiatrie 15 €/jour), durée illimitée.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : Frais réels ; NIVEAU 2 : Frais réels ; NIVEAU 3 : Frais réels ; NIVEAU 4 : Frais réels ; NIVEAU 5 : Frais réels ; NIVEAU 6 : Frais réels ; NIVEAU 7 : Frais réels ; NIVEAU 8 : Frais réels",
+      "sub_limits": [
+        "NIVEAU 1 : Frais réels",
+        "NIVEAU 2 : Frais réels",
+        "NIVEAU 3 : Frais réels",
+        "NIVEAU 4 : Frais réels",
+        "NIVEAU 5 : Frais réels",
+        "NIVEAU 6 : Frais réels",
+        "NIVEAU 7 : Frais réels",
+        "NIVEAU 8 : Frais réels"
+      ],
+      "deductible": null,
+      "conditions": [
+        "MAS et EHPAD non pris en charge. (renvoi 3)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Hospitalisation - Chambre particulière avec nuitée",
+      "description": "Chambre particulière avec nuitée (4) - Forfait par jour.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 35 €/jour ; NIVEAU 2 : 45 €/jour ; NIVEAU 3 : 55 €/jour ; NIVEAU 4 : 65 €/jour ; NIVEAU 5 : 80 €/jour ; NIVEAU 6 : 90 €/jour ; NIVEAU 7 : 100 €/jour ; NIVEAU 8 : 120 €/jour",
+      "sub_limits": [
+        "NIVEAU 1 : 35 €/jour",
+        "NIVEAU 2 : 45 €/jour",
+        "NIVEAU 3 : 55 €/jour",
+        "NIVEAU 4 : 65 €/jour",
+        "NIVEAU 5 : 80 €/jour",
+        "NIVEAU 6 : 90 €/jour",
+        "NIVEAU 7 : 100 €/jour",
+        "NIVEAU 8 : 120 €/jour"
+      ],
+      "deductible": null,
+      "conditions": [
+        "La prise en charge de la chambre particulière est limitée à 90 jours par an en convalescence, rééducation et psychiatrie. (renvoi 4)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Hospitalisation - Chambre particulière en ambulatoire",
+      "description": "Chambre particulière en ambulatoire (5) - Forfait par jour.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 10 €/jour ; NIVEAU 2 : 10 €/jour ; NIVEAU 3 : 20 €/jour ; NIVEAU 4 : 20 €/jour ; NIVEAU 5 : 20 €/jour ; NIVEAU 6 : 20 €/jour ; NIVEAU 7 : 30 €/jour ; NIVEAU 8 : 40 €/jour",
+      "sub_limits": [
+        "NIVEAU 1 : 10 €/jour",
+        "NIVEAU 2 : 10 €/jour",
+        "NIVEAU 3 : 20 €/jour",
+        "NIVEAU 4 : 20 €/jour",
+        "NIVEAU 5 : 20 €/jour",
+        "NIVEAU 6 : 20 €/jour",
+        "NIVEAU 7 : 30 €/jour",
+        "NIVEAU 8 : 40 €/jour"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Prise en charge uniquement lorsque l'hospitalisation inclut : un Acte de Chirurgie (ADC) ou un Acte Technique Médical (ATM) et un Acte d'Anesthésie (ADA). (renvoi 5)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Hospitalisation - Lit d'accompagnant",
+      "description": "Lit d'accompagnant (6) - Forfait par jour.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 20 €/jour ; NIVEAU 2 : 25 €/jour ; NIVEAU 3 : 25 €/jour ; NIVEAU 4 : 25 €/jour ; NIVEAU 5 : 30 €/jour ; NIVEAU 6 : 40 €/jour ; NIVEAU 7 : 50 €/jour ; NIVEAU 8 : 60 €/jour",
+      "sub_limits": [
+        "NIVEAU 1 : 20 €/jour",
+        "NIVEAU 2 : 25 €/jour",
+        "NIVEAU 3 : 25 €/jour",
+        "NIVEAU 4 : 25 €/jour",
+        "NIVEAU 5 : 30 €/jour",
+        "NIVEAU 6 : 40 €/jour",
+        "NIVEAU 7 : 50 €/jour",
+        "NIVEAU 8 : 60 €/jour"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Dans le cadre d'une hospitalisation d'un enfant de moins de 16 ans. (renvoi 6)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Prime d'inscription naissance ou adoption",
+      "description": "Prime d'inscription naissance ou adoption (7).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 135 € ; NIVEAU 2 : 200 € ; NIVEAU 3 : 265 € ; NIVEAU 4 : 335 € ; NIVEAU 5 : 400 € ; NIVEAU 6 : 465 € ; NIVEAU 7 : 530 € ; NIVEAU 8 : 600 €",
+      "sub_limits": [
+        "NIVEAU 1 : 135 €",
+        "NIVEAU 2 : 200 €",
+        "NIVEAU 3 : 265 €",
+        "NIVEAU 4 : 335 €",
+        "NIVEAU 5 : 400 €",
+        "NIVEAU 6 : 465 €",
+        "NIVEAU 7 : 530 €",
+        "NIVEAU 8 : 600 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Prime versée par enfant inscrit sur le contrat dans les 3 mois suivant sa naissance ou son adoption, sous réserve que l'un de ses parents soit adhérent à la garantie à la date de naissance ou d'adoption et sur présentation de l'acte de naissance ou d'adoption. (renvoi 7)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Soins courants - Honoraires médicaux généralistes",
+      "description": "Honoraires médicaux généralistes (2).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 120 % BR ; NIVEAU 2 : 130 % BR ; NIVEAU 3 : 140 % BR ; NIVEAU 4 : 150 % BR ; NIVEAU 5 : 160 % BR ; NIVEAU 6 : 180 % BR ; NIVEAU 7 : 200 % BR ; NIVEAU 8 : 250 % BR",
+      "sub_limits": [
+        "NIVEAU 1 : 120 % BR",
+        "NIVEAU 2 : 130 % BR",
+        "NIVEAU 3 : 140 % BR",
+        "NIVEAU 4 : 150 % BR",
+        "NIVEAU 5 : 160 % BR",
+        "NIVEAU 6 : 180 % BR",
+        "NIVEAU 7 : 200 % BR",
+        "NIVEAU 8 : 250 % BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Prise en charge de la participation forfaitaire pour les actes coûteux. Hors parcours de soins coordonnés, la prise en charge est limitée à 100 % de la Base de Remboursement hors majoration du ticket modérateur appliquée par la Sécurité sociale. (renvoi 2)",
+        "Le taux de prise en charge indiqué s'applique aux actes et soins réalisés par des médecins ayant adhéré à l'Option de Pratique Tarifaire Maîtrisée (OPTAM ou OPTAM-ACO). En cas de dépassements d'honoraires, ce taux est minoré de 20 % pour les médecins non adhérents et notre participation sur les dépassements d'honoraires ne peut excéder 100 % du tarif de la Sécurité sociale."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Soins courants - Honoraires médicaux spécialistes, actes techniques médicaux",
+      "description": "Honoraires médicaux spécialistes (2), actes techniques médicaux.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 120 % BR ; NIVEAU 2 : 130 % BR ; NIVEAU 3 : 140 % BR ; NIVEAU 4 : 150 % BR ; NIVEAU 5 : 160 % BR ; NIVEAU 6 : 180 % BR ; NIVEAU 7 : 200 % BR ; NIVEAU 8 : 250 % BR",
+      "sub_limits": [
+        "NIVEAU 1 : 120 % BR",
+        "NIVEAU 2 : 130 % BR",
+        "NIVEAU 3 : 140 % BR",
+        "NIVEAU 4 : 150 % BR",
+        "NIVEAU 5 : 160 % BR",
+        "NIVEAU 6 : 180 % BR",
+        "NIVEAU 7 : 200 % BR",
+        "NIVEAU 8 : 250 % BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Prise en charge de la participation forfaitaire pour les actes coûteux. Hors parcours de soins coordonnés, la prise en charge est limitée à 100 % de la Base de Remboursement hors majoration du ticket modérateur appliquée par la Sécurité sociale. (renvoi 2)",
+        "Le taux de prise en charge indiqué s'applique aux actes et soins réalisés par des médecins ayant adhéré à l'Option de Pratique Tarifaire Maîtrisée (OPTAM ou OPTAM-ACO). En cas de dépassements d'honoraires, ce taux est minoré de 20 % pour les médecins non adhérents et notre participation sur les dépassements d'honoraires ne peut excéder 100 % du tarif de la Sécurité sociale."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Soins courants - Honoraires paramédicaux",
+      "description": "Honoraires paramédicaux : infirmiers, kinés, orthophonistes …",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 100 % BR ; NIVEAU 2 : 100 % BR ; NIVEAU 3 : 100 % BR ; NIVEAU 4 : 100 % BR ; NIVEAU 5 : 100 % BR ; NIVEAU 6 : 100 % BR ; NIVEAU 7 : 100 % BR ; NIVEAU 8 : 100 % BR",
+      "sub_limits": [
+        "NIVEAU 1 : 100 % BR",
+        "NIVEAU 2 : 100 % BR",
+        "NIVEAU 3 : 100 % BR",
+        "NIVEAU 4 : 100 % BR",
+        "NIVEAU 5 : 100 % BR",
+        "NIVEAU 6 : 100 % BR",
+        "NIVEAU 7 : 100 % BR",
+        "NIVEAU 8 : 100 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Forfait solidaire soutien psychologique",
+      "description": "Forfait solidaire soutien psychologique (8) - Forfait par an.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 50 € x 3 séances ; NIVEAU 2 : 50 € x 3 séances ; NIVEAU 3 : 50 € x 3 séances ; NIVEAU 4 : 50 € x 3 séances ; NIVEAU 5 : 50 € x 3 séances ; NIVEAU 6 : 50 € x 3 séances ; NIVEAU 7 : 50 € x 3 séances ; NIVEAU 8 : 50 € x 3 séances",
+      "sub_limits": [
+        "NIVEAU 1 : 50 € x 3 séances",
+        "NIVEAU 2 : 50 € x 3 séances",
+        "NIVEAU 3 : 50 € x 3 séances",
+        "NIVEAU 4 : 50 € x 3 séances",
+        "NIVEAU 5 : 50 € x 3 séances",
+        "NIVEAU 6 : 50 € x 3 séances",
+        "NIVEAU 7 : 50 € x 3 séances",
+        "NIVEAU 8 : 50 € x 3 séances"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Forfait valable pour les actes non remboursés par la Sécurité sociale sur facture nominative acquittée, chez les psychologues diplômés dans leur spécialité et inscrits aux registres officiels de l'Assurance Maladie jusqu'au 31/12/2026. (renvoi 8)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Séances avec des psychologues",
+      "description": "Séances avec des psychologues (9) : dispositif « Mon soutien psy », dans la limite de 12 séances par an (50 €/séance).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 100 % BR ; NIVEAU 2 : 100 % BR ; NIVEAU 3 : 100 % BR ; NIVEAU 4 : 100 % BR ; NIVEAU 5 : 100 % BR ; NIVEAU 6 : 100 % BR ; NIVEAU 7 : 100 % BR ; NIVEAU 8 : 100 % BR",
+      "sub_limits": [
+        "NIVEAU 1 : 100 % BR",
+        "NIVEAU 2 : 100 % BR",
+        "NIVEAU 3 : 100 % BR",
+        "NIVEAU 4 : 100 % BR",
+        "NIVEAU 5 : 100 % BR",
+        "NIVEAU 6 : 100 % BR",
+        "NIVEAU 7 : 100 % BR",
+        "NIVEAU 8 : 100 % BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Garantie uniquement disponible dans les « contrats responsables ». (renvoi 9)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Soins courants - Transport sanitaire accepté par la Sécurité sociale",
+      "description": "Transport sanitaire accepté par la Sécurité sociale (poste soins courants).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 100 % BR ; NIVEAU 2 : 100 % BR ; NIVEAU 3 : 100 % BR ; NIVEAU 4 : 100 % BR ; NIVEAU 5 : 100 % BR ; NIVEAU 6 : 150 % BR ; NIVEAU 7 : 200 % BR ; NIVEAU 8 : 200 % BR",
+      "sub_limits": [
+        "NIVEAU 1 : 100 % BR",
+        "NIVEAU 2 : 100 % BR",
+        "NIVEAU 3 : 100 % BR",
+        "NIVEAU 4 : 100 % BR",
+        "NIVEAU 5 : 100 % BR",
+        "NIVEAU 6 : 150 % BR",
+        "NIVEAU 7 : 200 % BR",
+        "NIVEAU 8 : 200 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Soins courants - Radiologie",
+      "description": "Radiologie (2) (poste soins courants).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 120 % BR ; NIVEAU 2 : 120 % BR ; NIVEAU 3 : 120 % BR ; NIVEAU 4 : 120 % BR ; NIVEAU 5 : 120 % BR ; NIVEAU 6 : 120 % BR ; NIVEAU 7 : 120 % BR ; NIVEAU 8 : 200 % BR",
+      "sub_limits": [
+        "NIVEAU 1 : 120 % BR",
+        "NIVEAU 2 : 120 % BR",
+        "NIVEAU 3 : 120 % BR",
+        "NIVEAU 4 : 120 % BR",
+        "NIVEAU 5 : 120 % BR",
+        "NIVEAU 6 : 120 % BR",
+        "NIVEAU 7 : 120 % BR",
+        "NIVEAU 8 : 200 % BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Prise en charge de la participation forfaitaire pour les actes coûteux. Hors parcours de soins coordonnés, la prise en charge est limitée à 100 % de la Base de Remboursement hors majoration du ticket modérateur appliquée par la Sécurité sociale. (renvoi 2)",
+        "Le taux de prise en charge indiqué s'applique aux actes et soins réalisés par des médecins ayant adhéré à l'Option de Pratique Tarifaire Maîtrisée (OPTAM ou OPTAM-ACO). En cas de dépassements d'honoraires, ce taux est minoré de 20 % pour les médecins non adhérents et notre participation sur les dépassements d'honoraires ne peut excéder 100 % du tarif de la Sécurité sociale."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Soins courants - Analyses et examens de laboratoire",
+      "description": "Analyses et examens de laboratoire.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 100 % BR ; NIVEAU 2 : 100 % BR ; NIVEAU 3 : 100 % BR ; NIVEAU 4 : 100 % BR ; NIVEAU 5 : 100 % BR ; NIVEAU 6 : 100 % BR ; NIVEAU 7 : 100 % BR ; NIVEAU 8 : 100 % BR",
+      "sub_limits": [
+        "NIVEAU 1 : 100 % BR",
+        "NIVEAU 2 : 100 % BR",
+        "NIVEAU 3 : 100 % BR",
+        "NIVEAU 4 : 100 % BR",
+        "NIVEAU 5 : 100 % BR",
+        "NIVEAU 6 : 100 % BR",
+        "NIVEAU 7 : 100 % BR",
+        "NIVEAU 8 : 100 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Médicaments à Service Médical Rendu (SMR) important",
+      "description": "Médicaments à Service Médical Rendu (SMR) important.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 100 % BR ; NIVEAU 2 : 100 % BR ; NIVEAU 3 : 100 % BR ; NIVEAU 4 : 100 % BR ; NIVEAU 5 : 100 % BR ; NIVEAU 6 : 100 % BR ; NIVEAU 7 : 100 % BR ; NIVEAU 8 : 100 % BR",
+      "sub_limits": [
+        "NIVEAU 1 : 100 % BR",
+        "NIVEAU 2 : 100 % BR",
+        "NIVEAU 3 : 100 % BR",
+        "NIVEAU 4 : 100 % BR",
+        "NIVEAU 5 : 100 % BR",
+        "NIVEAU 6 : 100 % BR",
+        "NIVEAU 7 : 100 % BR",
+        "NIVEAU 8 : 100 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Médicaments à Service Médical Rendu (SMR) modéré",
+      "description": "Médicaments à Service Médical Rendu (SMR) modéré.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 100 % BR ; NIVEAU 2 : 100 % BR ; NIVEAU 3 : 100 % BR ; NIVEAU 4 : 100 % BR ; NIVEAU 5 : 100 % BR ; NIVEAU 6 : 100 % BR ; NIVEAU 7 : 100 % BR ; NIVEAU 8 : 100 % BR",
+      "sub_limits": [
+        "NIVEAU 1 : 100 % BR",
+        "NIVEAU 2 : 100 % BR",
+        "NIVEAU 3 : 100 % BR",
+        "NIVEAU 4 : 100 % BR",
+        "NIVEAU 5 : 100 % BR",
+        "NIVEAU 6 : 100 % BR",
+        "NIVEAU 7 : 100 % BR",
+        "NIVEAU 8 : 100 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Médicaments à Service Médical Rendu (SMR) faible",
+      "description": "Médicaments à Service Médical Rendu (SMR) faible.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 100 % BR ; NIVEAU 2 : 100 % BR ; NIVEAU 3 : 100 % BR ; NIVEAU 4 : 100 % BR ; NIVEAU 5 : 100 % BR ; NIVEAU 6 : 100 % BR ; NIVEAU 7 : 100 % BR ; NIVEAU 8 : 100 % BR",
+      "sub_limits": [
+        "NIVEAU 1 : 100 % BR",
+        "NIVEAU 2 : 100 % BR",
+        "NIVEAU 3 : 100 % BR",
+        "NIVEAU 4 : 100 % BR",
+        "NIVEAU 5 : 100 % BR",
+        "NIVEAU 6 : 100 % BR",
+        "NIVEAU 7 : 100 % BR",
+        "NIVEAU 8 : 100 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Cure thermale acceptée par la Sécurité sociale",
+      "description": "Cure thermale acceptée par la Sécurité sociale (10) - Forfait par an.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 100 % BR ; NIVEAU 2 : 100 % BR ; NIVEAU 3 : 100 % BR + 265 €/an ; NIVEAU 4 : 100 % BR + 265 €/an ; NIVEAU 5 : 100 % BR + 265 €/an ; NIVEAU 6 : 100 % BR + 265 €/an ; NIVEAU 7 : 100 % BR + 335 €/an ; NIVEAU 8 : 100 % BR + 400 €/an",
+      "sub_limits": [
+        "NIVEAU 1 : 100 % BR",
+        "NIVEAU 2 : 100 % BR",
+        "NIVEAU 3 : 100 % BR + 265 €/an",
+        "NIVEAU 4 : 100 % BR + 265 €/an",
+        "NIVEAU 5 : 100 % BR + 265 €/an",
+        "NIVEAU 6 : 100 % BR + 265 €/an",
+        "NIVEAU 7 : 100 % BR + 335 €/an",
+        "NIVEAU 8 : 100 % BR + 400 €/an"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Prise en charge des frais liés à des cures thermales donnant lieu à un forfait de surveillance médicale remboursé par la Sécurité sociale. (renvoi 10)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Optique - Équipement 100 % Santé Classe A",
+      "description": "Équipement 100 % Santé - Classe A (11).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : Remboursement intégral ; NIVEAU 2 : Remboursement intégral ; NIVEAU 3 : Remboursement intégral ; NIVEAU 4 : Remboursement intégral ; NIVEAU 5 : Remboursement intégral ; NIVEAU 6 : Remboursement intégral ; NIVEAU 7 : Remboursement intégral ; NIVEAU 8 : Remboursement intégral",
+      "sub_limits": [
+        "NIVEAU 1 : Remboursement intégral",
+        "NIVEAU 2 : Remboursement intégral",
+        "NIVEAU 3 : Remboursement intégral",
+        "NIVEAU 4 : Remboursement intégral",
+        "NIVEAU 5 : Remboursement intégral",
+        "NIVEAU 6 : Remboursement intégral",
+        "NIVEAU 7 : Remboursement intégral",
+        "NIVEAU 8 : Remboursement intégral"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Optique - Paire de lunettes jusqu'à 15 ans inclus : 1 monture + 2 verres simples",
+      "description": "Équipement à tarif libre - Classe B (12) - Paire de lunettes jusqu'à 15 ans inclus - 1 monture + 2 verres simples.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 150 € ; NIVEAU 2 : 180 € ; NIVEAU 3 : 225 € ; NIVEAU 4 : 255 € ; NIVEAU 5 : 290 € ; NIVEAU 6 : 290 € ; NIVEAU 7 : 350 € ; NIVEAU 8 : 350 €",
+      "sub_limits": [
+        "NIVEAU 1 : 150 €",
+        "NIVEAU 2 : 180 €",
+        "NIVEAU 3 : 225 €",
+        "NIVEAU 4 : 255 €",
+        "NIVEAU 5 : 290 €",
+        "NIVEAU 6 : 290 €",
+        "NIVEAU 7 : 350 €",
+        "NIVEAU 8 : 350 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Forfait pour une paire de lunettes (1 monture + 2 verres) incluant le remboursement de la Sécurité sociale, dans la limite des montants de la grille du renvoi 12. Forfait versé dans la limite d'une paire de lunettes tous les 24 mois à partir de la date d'achat ou tous les 12 mois en cas de renouvellement anticipé prévu à l'article R. 871-2 du Code de la Sécurité sociale."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Optique - Paire de lunettes jusqu'à 15 ans inclus : 1 monture + 2 verres complexes",
+      "description": "Paire de lunettes jusqu'à 15 ans inclus - 1 monture + 2 verres complexes.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 210 € ; NIVEAU 2 : 300 € ; NIVEAU 3 : 375 € ; NIVEAU 4 : 435 € ; NIVEAU 5 : 500 € ; NIVEAU 6 : 570 € ; NIVEAU 7 : 630 € ; NIVEAU 8 : 700 €",
+      "sub_limits": [
+        "NIVEAU 1 : 210 €",
+        "NIVEAU 2 : 300 €",
+        "NIVEAU 3 : 375 €",
+        "NIVEAU 4 : 435 €",
+        "NIVEAU 5 : 500 €",
+        "NIVEAU 6 : 570 €",
+        "NIVEAU 7 : 630 €",
+        "NIVEAU 8 : 700 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Forfait pour une paire de lunettes (1 monture + 2 verres) incluant le remboursement de la Sécurité sociale, dans la limite des montants de la grille du renvoi 12. Forfait versé dans la limite d'une paire de lunettes tous les 24 mois à partir de la date d'achat ou tous les 12 mois en cas de renouvellement anticipé prévu à l'article R. 871-2 du Code de la Sécurité sociale."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Optique - Paire de lunettes 16 ans et plus : 1 monture + 2 verres simples",
+      "description": "Paire de lunettes 16 ans et plus - 1 monture + 2 verres simples.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 195 € ; NIVEAU 2 : 225 € ; NIVEAU 3 : 260 € ; NIVEAU 4 : 290 € ; NIVEAU 5 : 320 € ; NIVEAU 6 : 350 € ; NIVEAU 7 : 410 € ; NIVEAU 8 : 410 €",
+      "sub_limits": [
+        "NIVEAU 1 : 195 €",
+        "NIVEAU 2 : 225 €",
+        "NIVEAU 3 : 260 €",
+        "NIVEAU 4 : 290 €",
+        "NIVEAU 5 : 320 €",
+        "NIVEAU 6 : 350 €",
+        "NIVEAU 7 : 410 €",
+        "NIVEAU 8 : 410 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Forfait pour une paire de lunettes (1 monture + 2 verres) incluant le remboursement de la Sécurité sociale, dans la limite des montants de la grille du renvoi 12. Forfait versé dans la limite d'une paire de lunettes tous les 24 mois à partir de la date d'achat ou tous les 12 mois en cas de renouvellement anticipé prévu à l'article R. 871-2 du Code de la Sécurité sociale."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Optique - Paire de lunettes 16 ans et plus : 1 monture + 2 verres complexes",
+      "description": "Paire de lunettes 16 ans et plus - 1 monture + 2 verres complexes.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 255 € ; NIVEAU 2 : 345 € ; NIVEAU 3 : 380 € ; NIVEAU 4 : 440 € ; NIVEAU 5 : 500 € ; NIVEAU 6 : 570 € ; NIVEAU 7 : 630 € ; NIVEAU 8 : 700 €",
+      "sub_limits": [
+        "NIVEAU 1 : 255 €",
+        "NIVEAU 2 : 345 €",
+        "NIVEAU 3 : 380 €",
+        "NIVEAU 4 : 440 €",
+        "NIVEAU 5 : 500 €",
+        "NIVEAU 6 : 570 €",
+        "NIVEAU 7 : 630 €",
+        "NIVEAU 8 : 700 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Forfait pour une paire de lunettes (1 monture + 2 verres) incluant le remboursement de la Sécurité sociale, dans la limite des montants de la grille du renvoi 12. Forfait versé dans la limite d'une paire de lunettes tous les 24 mois à partir de la date d'achat ou tous les 12 mois en cas de renouvellement anticipé prévu à l'article R. 871-2 du Code de la Sécurité sociale."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Optique - Paire de lunettes 16 ans et plus : 1 monture + 2 verres très complexes",
+      "description": "Paire de lunettes 16 ans et plus - 1 monture + 2 verres très complexes.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 295 € ; NIVEAU 2 : 395 € ; NIVEAU 3 : 500 € ; NIVEAU 4 : 600 € ; NIVEAU 5 : 700 € ; NIVEAU 6 : 700 € ; NIVEAU 7 : 800 € ; NIVEAU 8 : 800 €",
+      "sub_limits": [
+        "NIVEAU 1 : 295 €",
+        "NIVEAU 2 : 395 €",
+        "NIVEAU 3 : 500 €",
+        "NIVEAU 4 : 600 €",
+        "NIVEAU 5 : 700 €",
+        "NIVEAU 6 : 700 €",
+        "NIVEAU 7 : 800 €",
+        "NIVEAU 8 : 800 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Forfait pour une paire de lunettes (1 monture + 2 verres) incluant le remboursement de la Sécurité sociale, dans la limite des montants de la grille du renvoi 12. Forfait versé dans la limite d'une paire de lunettes tous les 24 mois à partir de la date d'achat ou tous les 12 mois en cas de renouvellement anticipé prévu à l'article R. 871-2 du Code de la Sécurité sociale."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Optique - Lentilles remboursées ou non remboursées par la Sécurité sociale",
+      "description": "Lentilles remboursées ou non remboursées par la Sécurité sociale - Forfait par an.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 100 % BR + 100 €/an ; NIVEAU 2 : 100 % BR + 135 €/an ; NIVEAU 3 : 100 % BR + 165 €/an ; NIVEAU 4 : 100 % BR + 200 €/an ; NIVEAU 5 : 100 % BR + 235 €/an ; NIVEAU 6 : 100 % BR + 265 €/an ; NIVEAU 7 : 100 % BR + 265 €/an ; NIVEAU 8 : 100 % BR + 265 €/an",
+      "sub_limits": [
+        "NIVEAU 1 : 100 % BR + 100 €/an",
+        "NIVEAU 2 : 100 % BR + 135 €/an",
+        "NIVEAU 3 : 100 % BR + 165 €/an",
+        "NIVEAU 4 : 100 % BR + 200 €/an",
+        "NIVEAU 5 : 100 % BR + 235 €/an",
+        "NIVEAU 6 : 100 % BR + 265 €/an",
+        "NIVEAU 7 : 100 % BR + 265 €/an",
+        "NIVEAU 8 : 100 % BR + 265 €/an"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Optique - Chirurgie corrective de l'œil non remboursée par la Sécurité sociale",
+      "description": "Chirurgie corrective de l'œil non remboursée par la Sécurité sociale (13) - Forfait par œil.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 200 €/œil ; NIVEAU 2 : 250 €/œil ; NIVEAU 3 : 300 €/œil ; NIVEAU 4 : 350 €/œil ; NIVEAU 5 : 400 €/œil ; NIVEAU 6 : 450 €/œil ; NIVEAU 7 : 500 €/œil ; NIVEAU 8 : 600 €/œil",
+      "sub_limits": [
+        "NIVEAU 1 : 200 €/œil",
+        "NIVEAU 2 : 250 €/œil",
+        "NIVEAU 3 : 300 €/œil",
+        "NIVEAU 4 : 350 €/œil",
+        "NIVEAU 5 : 400 €/œil",
+        "NIVEAU 6 : 450 €/œil",
+        "NIVEAU 7 : 500 €/œil",
+        "NIVEAU 8 : 600 €/œil"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Forfait valable pour la chirurgie au laser, implant ou lentille intraoculaire. (renvoi 13)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Dentaire - Soins dentaires",
+      "description": "Soins dentaires remboursés par la Sécurité sociale.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 100 % BR ; NIVEAU 2 : 100 % BR ; NIVEAU 3 : 100 % BR ; NIVEAU 4 : 100 % BR ; NIVEAU 5 : 100 % BR ; NIVEAU 6 : 100 % BR ; NIVEAU 7 : 100 % BR ; NIVEAU 8 : 100 % BR",
+      "sub_limits": [
+        "NIVEAU 1 : 100 % BR",
+        "NIVEAU 2 : 100 % BR",
+        "NIVEAU 3 : 100 % BR",
+        "NIVEAU 4 : 100 % BR",
+        "NIVEAU 5 : 100 % BR",
+        "NIVEAU 6 : 100 % BR",
+        "NIVEAU 7 : 100 % BR",
+        "NIVEAU 8 : 100 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Dentaire - Inlay-onlay",
+      "description": "Inlay-onlay (14) - Forfait par dent.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 150 €/dent ; NIVEAU 2 : 200 €/dent ; NIVEAU 3 : 250 €/dent ; NIVEAU 4 : 300 €/dent ; NIVEAU 5 : 350 €/dent ; NIVEAU 6 : 400 €/dent ; NIVEAU 7 : 400 €/dent ; NIVEAU 8 : 400 €/dent",
+      "sub_limits": [
+        "NIVEAU 1 : 150 €/dent",
+        "NIVEAU 2 : 200 €/dent",
+        "NIVEAU 3 : 250 €/dent",
+        "NIVEAU 4 : 300 €/dent",
+        "NIVEAU 5 : 350 €/dent",
+        "NIVEAU 6 : 400 €/dent",
+        "NIVEAU 7 : 400 €/dent",
+        "NIVEAU 8 : 400 €/dent"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le prix de l'inlay-onlay métallique est plafonné à un Prix Limite de Vente (PLV) de 350 € fixé réglementairement. La prise en charge ne peut excéder 350 € pour les nivaux 6 à 8 dans le cas d'un inlay-onlay métallique. Cette limite ne s'applique pas sur un inlay-onlay en céramique. (renvoi 14)"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Dentaire - Prothèse 100 % Santé",
+      "description": "Prothèse 100 % Santé (15).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : Remboursement intégral ; NIVEAU 2 : Remboursement intégral ; NIVEAU 3 : Remboursement intégral ; NIVEAU 4 : Remboursement intégral ; NIVEAU 5 : Remboursement intégral ; NIVEAU 6 : Remboursement intégral ; NIVEAU 7 : Remboursement intégral ; NIVEAU 8 : Remboursement intégral",
+      "sub_limits": [
+        "NIVEAU 1 : Remboursement intégral",
+        "NIVEAU 2 : Remboursement intégral",
+        "NIVEAU 3 : Remboursement intégral",
+        "NIVEAU 4 : Remboursement intégral",
+        "NIVEAU 5 : Remboursement intégral",
+        "NIVEAU 6 : Remboursement intégral",
+        "NIVEAU 7 : Remboursement intégral",
+        "NIVEAU 8 : Remboursement intégral"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Dentaire - Couronne fixe sur dent hors molaire",
+      "description": "Prothèses à tarifs maîtrisés (16) / libres (17) : Couronne fixe sur dent hors molaire (18) - Forfait par dent. Dents hors molaires : incisives, canines, prémolaires.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 170 €/dent ; NIVEAU 2 : 225 €/dent ; NIVEAU 3 : 275 €/dent ; NIVEAU 4 : 330 €/dent ; NIVEAU 5 : 385 €/dent ; NIVEAU 6 : 440 €/dent ; NIVEAU 7 : 545 €/dent ; NIVEAU 8 : 655 €/dent",
+      "sub_limits": [
+        "NIVEAU 1 : 170 €/dent",
+        "NIVEAU 2 : 225 €/dent",
+        "NIVEAU 3 : 275 €/dent",
+        "NIVEAU 4 : 330 €/dent",
+        "NIVEAU 5 : 385 €/dent",
+        "NIVEAU 6 : 440 €/dent",
+        "NIVEAU 7 : 545 €/dent",
+        "NIVEAU 8 : 655 €/dent"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Dentaire - Couronne fixe sur molaire",
+      "description": "Couronne fixe sur molaire (19) - Forfait par dent. Molaires : premières, deuxièmes et troisièmes molaires.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 170 €/dent ; NIVEAU 2 : 195 €/dent ; NIVEAU 3 : 250 €/dent ; NIVEAU 4 : 305 €/dent ; NIVEAU 5 : 355 €/dent ; NIVEAU 6 : 410 €/dent ; NIVEAU 7 : 490 €/dent ; NIVEAU 8 : 600 €/dent",
+      "sub_limits": [
+        "NIVEAU 1 : 170 €/dent",
+        "NIVEAU 2 : 195 €/dent",
+        "NIVEAU 3 : 250 €/dent",
+        "NIVEAU 4 : 305 €/dent",
+        "NIVEAU 5 : 355 €/dent",
+        "NIVEAU 6 : 410 €/dent",
+        "NIVEAU 7 : 490 €/dent",
+        "NIVEAU 8 : 600 €/dent"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Dentaire - Inlay-core",
+      "description": "Inlay-core - Forfait par dent.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 135 €/dent ; NIVEAU 2 : 180 €/dent ; NIVEAU 3 : 225 €/dent ; NIVEAU 4 : 270 €/dent ; NIVEAU 5 : 315 €/dent ; NIVEAU 6 : 360 €/dent ; NIVEAU 7 : 360 €/dent ; NIVEAU 8 : 360 €/dent",
+      "sub_limits": [
+        "NIVEAU 1 : 135 €/dent",
+        "NIVEAU 2 : 180 €/dent",
+        "NIVEAU 3 : 225 €/dent",
+        "NIVEAU 4 : 270 €/dent",
+        "NIVEAU 5 : 315 €/dent",
+        "NIVEAU 6 : 360 €/dent",
+        "NIVEAU 7 : 360 €/dent",
+        "NIVEAU 8 : 360 €/dent"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Dentaire - Couronne transitoire",
+      "description": "Couronne transitoire - Forfait par dent.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 100 €/dent ; NIVEAU 2 : 100 €/dent ; NIVEAU 3 : 100 €/dent ; NIVEAU 4 : 100 €/dent ; NIVEAU 5 : 100 €/dent ; NIVEAU 6 : 100 €/dent ; NIVEAU 7 : 100 €/dent ; NIVEAU 8 : 100 €/dent",
+      "sub_limits": [
+        "NIVEAU 1 : 100 €/dent",
+        "NIVEAU 2 : 100 €/dent",
+        "NIVEAU 3 : 100 €/dent",
+        "NIVEAU 4 : 100 €/dent",
+        "NIVEAU 5 : 100 €/dent",
+        "NIVEAU 6 : 100 €/dent",
+        "NIVEAU 7 : 100 €/dent",
+        "NIVEAU 8 : 100 €/dent"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Dentaire - Autres actes prothétiques remboursés par la Sécurité sociale",
+      "description": "Autres actes prothétiques remboursés par la Sécurité sociale : bridge, prothèse mobile…",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 150 % BR ; NIVEAU 2 : 200 % BR ; NIVEAU 3 : 250 % BR ; NIVEAU 4 : 300 % BR ; NIVEAU 5 : 350 % BR ; NIVEAU 6 : 400 % BR ; NIVEAU 7 : 500 % BR ; NIVEAU 8 : 600 % BR",
+      "sub_limits": [
+        "NIVEAU 1 : 150 % BR",
+        "NIVEAU 2 : 200 % BR",
+        "NIVEAU 3 : 250 % BR",
+        "NIVEAU 4 : 300 % BR",
+        "NIVEAU 5 : 350 % BR",
+        "NIVEAU 6 : 400 % BR",
+        "NIVEAU 7 : 500 % BR",
+        "NIVEAU 8 : 600 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Dentaire - Prothèse dentaire non remboursée par la Sécurité sociale",
+      "description": "Prothèse dentaire non remboursée par la Sécurité sociale (20) - Forfait par an. Prothèses dentaires de la nomenclature CCAM non remboursées par la Sécurité sociale.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 100 €/an ; NIVEAU 2 : 100 €/an ; NIVEAU 3 : 135 €/an ; NIVEAU 4 : 135 €/an ; NIVEAU 5 : 165 €/an ; NIVEAU 6 : 165 €/an ; NIVEAU 7 : 200 €/an ; NIVEAU 8 : 200 €/an",
+      "sub_limits": [
+        "NIVEAU 1 : 100 €/an",
+        "NIVEAU 2 : 100 €/an",
+        "NIVEAU 3 : 135 €/an",
+        "NIVEAU 4 : 135 €/an",
+        "NIVEAU 5 : 165 €/an",
+        "NIVEAU 6 : 165 €/an",
+        "NIVEAU 7 : 200 €/an",
+        "NIVEAU 8 : 200 €/an"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Dentaire - Parodontie - endodontie non remboursées par la Sécurité sociale",
+      "description": "Parodontie - endodontie non remboursées par la Sécurité sociale - Forfait par an.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 200 €/an ; NIVEAU 2 : 300 €/an ; NIVEAU 3 : 300 €/an ; NIVEAU 4 : 300 €/an ; NIVEAU 5 : 300 €/an ; NIVEAU 6 : 400 €/an ; NIVEAU 7 : 465 €/an ; NIVEAU 8 : 465 €/an",
+      "sub_limits": [
+        "NIVEAU 1 : 200 €/an",
+        "NIVEAU 2 : 300 €/an",
+        "NIVEAU 3 : 300 €/an",
+        "NIVEAU 4 : 300 €/an",
+        "NIVEAU 5 : 300 €/an",
+        "NIVEAU 6 : 400 €/an",
+        "NIVEAU 7 : 465 €/an",
+        "NIVEAU 8 : 465 €/an"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Dentaire - Implant dentaire (racine)",
+      "description": "Implant dentaire (racine) - Forfait par an.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 200 €/an ; NIVEAU 2 : 335 €/an ; NIVEAU 3 : 665 €/an ; NIVEAU 4 : 830 €/an ; NIVEAU 5 : 830 €/an ; NIVEAU 6 : 1060 €/an ; NIVEAU 7 : 1200 €/an ; NIVEAU 8 : 1200 €/an",
+      "sub_limits": [
+        "NIVEAU 1 : 200 €/an",
+        "NIVEAU 2 : 335 €/an",
+        "NIVEAU 3 : 665 €/an",
+        "NIVEAU 4 : 830 €/an",
+        "NIVEAU 5 : 830 €/an",
+        "NIVEAU 6 : 1060 €/an",
+        "NIVEAU 7 : 1200 €/an",
+        "NIVEAU 8 : 1200 €/an"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Dentaire - Orthodontie remboursée par la Sécurité sociale",
+      "description": "Orthodontie remboursée par la Sécurité sociale (21) - Forfait par semestre/trimestre de traitement actif.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 290 €/ semestre ou 145 €/ trimestre ; NIVEAU 2 : 390 €/ semestre ou 195 €/ trimestre ; NIVEAU 3 : 485 €/ semestre ou 242,50 €/ trimestre ; NIVEAU 4 : 580 €/ semestre ou 290 €/ trimestre ; NIVEAU 5 : 680 €/ semestre ou 340 €/ trimestre ; NIVEAU 6 : 750 €/ semestre ou 375 €/ trimestre ; NIVEAU 7 : 800 €/ semestre ou 400 €/ trimestre ; NIVEAU 8 : 850 €/ semestre ou 425 €/ trimestre",
+      "sub_limits": [
+        "NIVEAU 1 : 290 €/ semestre ou 145 €/ trimestre",
+        "NIVEAU 2 : 390 €/ semestre ou 195 €/ trimestre",
+        "NIVEAU 3 : 485 €/ semestre ou 242,50 €/ trimestre",
+        "NIVEAU 4 : 580 €/ semestre ou 290 €/ trimestre",
+        "NIVEAU 5 : 680 €/ semestre ou 340 €/ trimestre",
+        "NIVEAU 6 : 750 €/ semestre ou 375 €/ trimestre",
+        "NIVEAU 7 : 800 €/ semestre ou 400 €/ trimestre",
+        "NIVEAU 8 : 850 €/ semestre ou 425 €/ trimestre"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le forfait d'orthodontie (semestre/trimestre) sera versé uniquement si la date de début du semestre/trimestre a débuté après la prise d'effet des garanties. Chaque forfait comprend à la fois la part de la Sécurité sociale et la part de la Mutuelle Ociane Matmut. (renvoi 21)"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Dentaire - Autres actes d'orthodontie remboursés par la Sécurité sociale",
+      "description": "Autres actes d'orthodontie remboursés par la Sécurité sociale : examen, diagnostic, contention…",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 150 % BR ; NIVEAU 2 : 200 % BR ; NIVEAU 3 : 250 % BR ; NIVEAU 4 : 300 % BR ; NIVEAU 5 : 350 % BR ; NIVEAU 6 : 400 % BR ; NIVEAU 7 : 420 % BR ; NIVEAU 8 : 440 % BR",
+      "sub_limits": [
+        "NIVEAU 1 : 150 % BR",
+        "NIVEAU 2 : 200 % BR",
+        "NIVEAU 3 : 250 % BR",
+        "NIVEAU 4 : 300 % BR",
+        "NIVEAU 5 : 350 % BR",
+        "NIVEAU 6 : 400 % BR",
+        "NIVEAU 7 : 420 % BR",
+        "NIVEAU 8 : 440 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Dentaire - Orthodontie non remboursée par la Sécurité sociale",
+      "description": "Orthodontie non remboursée par la Sécurité sociale - Forfait par an.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 265 €/an ; NIVEAU 2 : 335 €/an ; NIVEAU 3 : 400 €/an ; NIVEAU 4 : 465 €/an ; NIVEAU 5 : 500 €/an ; NIVEAU 6 : 530 €/an ; NIVEAU 7 : 665 €/an ; NIVEAU 8 : 665 €/an",
+      "sub_limits": [
+        "NIVEAU 1 : 265 €/an",
+        "NIVEAU 2 : 335 €/an",
+        "NIVEAU 3 : 400 €/an",
+        "NIVEAU 4 : 465 €/an",
+        "NIVEAU 5 : 500 €/an",
+        "NIVEAU 6 : 530 €/an",
+        "NIVEAU 7 : 665 €/an",
+        "NIVEAU 8 : 665 €/an"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Aides auditives - Équipement 100 % Santé Classe I",
+      "description": "Équipement 100 % Santé - Classe I (22).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : Remboursement intégral ; NIVEAU 2 : Remboursement intégral ; NIVEAU 3 : Remboursement intégral ; NIVEAU 4 : Remboursement intégral ; NIVEAU 5 : Remboursement intégral ; NIVEAU 6 : Remboursement intégral ; NIVEAU 7 : Remboursement intégral ; NIVEAU 8 : Remboursement intégral",
+      "sub_limits": [
+        "NIVEAU 1 : Remboursement intégral",
+        "NIVEAU 2 : Remboursement intégral",
+        "NIVEAU 3 : Remboursement intégral",
+        "NIVEAU 4 : Remboursement intégral",
+        "NIVEAU 5 : Remboursement intégral",
+        "NIVEAU 6 : Remboursement intégral",
+        "NIVEAU 7 : Remboursement intégral",
+        "NIVEAU 8 : Remboursement intégral"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Aides auditives - Classe II - moins de 20 ans et/ou cécité",
+      "description": "Équipement à tarif libre - Classe II (23) - Forfait par oreille - Aide auditive moins de 20 ans (24) et/ou atteint de cécité.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 1550 €/oreille ; NIVEAU 2 : 1600 €/oreille ; NIVEAU 3 : 1700 €/oreille ; NIVEAU 4 : 1700 €/oreille ; NIVEAU 5 : 1700 €/oreille ; NIVEAU 6 : 1700 €/oreille ; NIVEAU 7 : 1700 €/oreille ; NIVEAU 8 : 1700 €/oreille",
+      "sub_limits": [
+        "NIVEAU 1 : 1550 €/oreille",
+        "NIVEAU 2 : 1600 €/oreille",
+        "NIVEAU 3 : 1700 €/oreille",
+        "NIVEAU 4 : 1700 €/oreille",
+        "NIVEAU 5 : 1700 €/oreille",
+        "NIVEAU 6 : 1700 €/oreille",
+        "NIVEAU 7 : 1700 €/oreille",
+        "NIVEAU 8 : 1700 €/oreille"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Forfait \"Aide auditive\" versé dans la limite de deux équipements (soit un équipement par oreille) tous les 4 ans à partir de la date d'achat. (renvoi 23)"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Aides auditives - Classe II - 20 ans et plus",
+      "description": "Équipement à tarif libre - Classe II (23) - Forfait par oreille - Aide auditive 20 ans et plus (24).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 510 €/oreille ; NIVEAU 2 : 560 €/oreille ; NIVEAU 3 : 660 €/oreille ; NIVEAU 4 : 760 €/oreille ; NIVEAU 5 : 860 €/oreille ; NIVEAU 6 : 1060 €/oreille ; NIVEAU 7 : 1260 €/oreille ; NIVEAU 8 : 1360 €/oreille",
+      "sub_limits": [
+        "NIVEAU 1 : 510 €/oreille",
+        "NIVEAU 2 : 560 €/oreille",
+        "NIVEAU 3 : 660 €/oreille",
+        "NIVEAU 4 : 760 €/oreille",
+        "NIVEAU 5 : 860 €/oreille",
+        "NIVEAU 6 : 1060 €/oreille",
+        "NIVEAU 7 : 1260 €/oreille",
+        "NIVEAU 8 : 1360 €/oreille"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Forfait \"Aide auditive\" versé dans la limite de deux équipements (soit un équipement par oreille) tous les 4 ans à partir de la date d'achat. (renvoi 23)"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Autres appareillages - Matériel médical",
+      "description": "Matériel médical dont orthopédie, petit appareillage, prothèses capillaires (25), oculaires et mammaires.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 100 % BR ; NIVEAU 2 : 100 % BR ; NIVEAU 3 : 150 % BR ; NIVEAU 4 : 150 % BR ; NIVEAU 5 : 175 % BR ; NIVEAU 6 : 175 % BR ; NIVEAU 7 : 200 % BR ; NIVEAU 8 : 200 % BR",
+      "sub_limits": [
+        "NIVEAU 1 : 100 % BR",
+        "NIVEAU 2 : 100 % BR",
+        "NIVEAU 3 : 150 % BR",
+        "NIVEAU 4 : 150 % BR",
+        "NIVEAU 5 : 175 % BR",
+        "NIVEAU 6 : 175 % BR",
+        "NIVEAU 7 : 200 % BR",
+        "NIVEAU 8 : 200 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Autres appareillages - Prothèses capillaires 100 % Santé Classes I et II",
+      "description": "Prothèses capillaires - Équipement 100 % Santé - Classes I et II (26).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : Remboursement intégral ; NIVEAU 2 : Remboursement intégral ; NIVEAU 3 : Remboursement intégral ; NIVEAU 4 : Remboursement intégral ; NIVEAU 5 : Remboursement intégral ; NIVEAU 6 : Remboursement intégral ; NIVEAU 7 : Remboursement intégral ; NIVEAU 8 : Remboursement intégral",
+      "sub_limits": [
+        "NIVEAU 1 : Remboursement intégral",
+        "NIVEAU 2 : Remboursement intégral",
+        "NIVEAU 3 : Remboursement intégral",
+        "NIVEAU 4 : Remboursement intégral",
+        "NIVEAU 5 : Remboursement intégral",
+        "NIVEAU 6 : Remboursement intégral",
+        "NIVEAU 7 : Remboursement intégral",
+        "NIVEAU 8 : Remboursement intégral"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Autres appareillages - Fauteuils roulants 100 % Santé",
+      "description": "Fauteuils roulants - Équipement 100 % Santé (27).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : Remboursement intégral ; NIVEAU 2 : Remboursement intégral ; NIVEAU 3 : Remboursement intégral ; NIVEAU 4 : Remboursement intégral ; NIVEAU 5 : Remboursement intégral ; NIVEAU 6 : Remboursement intégral ; NIVEAU 7 : Remboursement intégral ; NIVEAU 8 : Remboursement intégral",
+      "sub_limits": [
+        "NIVEAU 1 : Remboursement intégral",
+        "NIVEAU 2 : Remboursement intégral",
+        "NIVEAU 3 : Remboursement intégral",
+        "NIVEAU 4 : Remboursement intégral",
+        "NIVEAU 5 : Remboursement intégral",
+        "NIVEAU 6 : Remboursement intégral",
+        "NIVEAU 7 : Remboursement intégral",
+        "NIVEAU 8 : Remboursement intégral"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Homéopathie et phytothérapie prescrites non remboursées par la Sécurité sociale",
+      "description": "Homéopathie et phytothérapie prescrites non remboursées par la Sécurité sociale (28) - Forfait global par an.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 40 €/an ; NIVEAU 2 : 50 €/an ; NIVEAU 3 : 60 €/an ; NIVEAU 4 : 70 €/an ; NIVEAU 5 : 80 €/an ; NIVEAU 6 : 90 €/an ; NIVEAU 7 : 90 €/an ; NIVEAU 8 : 130 €/an",
+      "sub_limits": [
+        "NIVEAU 1 : 40 €/an",
+        "NIVEAU 2 : 50 €/an",
+        "NIVEAU 3 : 60 €/an",
+        "NIVEAU 4 : 70 €/an",
+        "NIVEAU 5 : 80 €/an",
+        "NIVEAU 6 : 90 €/an",
+        "NIVEAU 7 : 90 €/an",
+        "NIVEAU 8 : 130 €/an"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Forfait valable sur prescription médicale et facture nominative acquittée. (renvoi 28)"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Vaccins et contraceptifs prescrits non remboursés par la Sécurité sociale",
+      "description": "Vaccins et contraceptifs prescrits non remboursés par la Sécurité sociale - Forfait global par an.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 40 €/an ; NIVEAU 2 : 50 €/an ; NIVEAU 3 : 60 €/an ; NIVEAU 4 : 70 €/an ; NIVEAU 5 : 80 €/an ; NIVEAU 6 : 90 €/an ; NIVEAU 7 : 90 €/an ; NIVEAU 8 : 130 €/an",
+      "sub_limits": [
+        "NIVEAU 1 : 40 €/an",
+        "NIVEAU 2 : 50 €/an",
+        "NIVEAU 3 : 60 €/an",
+        "NIVEAU 4 : 70 €/an",
+        "NIVEAU 5 : 80 €/an",
+        "NIVEAU 6 : 90 €/an",
+        "NIVEAU 7 : 90 €/an",
+        "NIVEAU 8 : 130 €/an"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Sevrage tabagique",
+      "description": "Sevrage tabagique : substituts nicotiniques (29) et consultations d'acupuncture, auriculothérapie, hypnose (30) - Forfait global par an.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 90 €/an ; NIVEAU 2 : 90 €/an ; NIVEAU 3 : 90 €/an ; NIVEAU 4 : 90 €/an ; NIVEAU 5 : 90 €/an ; NIVEAU 6 : 90 €/an ; NIVEAU 7 : 90 €/an ; NIVEAU 8 : 90 €/an",
+      "sub_limits": [
+        "NIVEAU 1 : 90 €/an",
+        "NIVEAU 2 : 90 €/an",
+        "NIVEAU 3 : 90 €/an",
+        "NIVEAU 4 : 90 €/an",
+        "NIVEAU 5 : 90 €/an",
+        "NIVEAU 6 : 90 €/an",
+        "NIVEAU 7 : 90 €/an",
+        "NIVEAU 8 : 90 €/an"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Pour l'acupuncture, seuls sont pris en charge les actes non remboursés par la Sécurité sociale réalisés chez un médecin, une sage-femme ou un chirurgien-dentiste. (renvoi 30)"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Médecines douces",
+      "description": "Médecines douces (30) : ostéopathie, psychologie, psychothérapie, podologie, réflexologie plantaire, chiropraxie, étiopathie, sophrologie, microkinésithérapie, shiatsu, acupuncture, hypnose, naturopathie, diététique, homéopathe, phytothérapeute - Forfait global par an.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 30 € x 3 séances au choix ; NIVEAU 2 : 30 € x 3 séances au choix ; NIVEAU 3 : 40 € x 3 séances au choix ; NIVEAU 4 : 40 € x 4 séances au choix ; NIVEAU 5 : 45 € x 4 séances au choix ; NIVEAU 6 : 45 € x 4 séances au choix ; NIVEAU 7 : 50 € X 5 séances au choix ; NIVEAU 8 : 50 € X 5 séances au choix",
+      "sub_limits": [
+        "NIVEAU 1 : 30 € x 3 séances au choix",
+        "NIVEAU 2 : 30 € x 3 séances au choix",
+        "NIVEAU 3 : 40 € x 3 séances au choix",
+        "NIVEAU 4 : 40 € x 4 séances au choix",
+        "NIVEAU 5 : 45 € x 4 séances au choix",
+        "NIVEAU 6 : 45 € x 4 séances au choix",
+        "NIVEAU 7 : 50 € X 5 séances au choix",
+        "NIVEAU 8 : 50 € X 5 séances au choix"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Forfait global valable pour les actes non remboursés par la Sécurité sociale sur facture nominative acquittée, chez les praticiens diplômés dans leur spécialité et inscrits aux registres officiels de l'Assurance Maladie. (renvoi 30)"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Santé et développement de l'enfant de moins de 16 ans",
+      "description": "Santé et développement de l'enfant de moins de 16 ans (31) - Forfait par an : consultations d'ergothérapeutes et de psychomotriciens, dépistage des troubles du développement, de l'apprentissage ou du comportement, bilans allergiques (tests cutanés).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 70 €/an ; NIVEAU 2 : 70 €/an ; NIVEAU 3 : 70 €/an ; NIVEAU 4 : 70 €/an ; NIVEAU 5 : 70 €/an ; NIVEAU 6 : 70 €/an ; NIVEAU 7 : 70 €/an ; NIVEAU 8 : 70 €/an",
+      "sub_limits": [
+        "NIVEAU 1 : 70 €/an",
+        "NIVEAU 2 : 70 €/an",
+        "NIVEAU 3 : 70 €/an",
+        "NIVEAU 4 : 70 €/an",
+        "NIVEAU 5 : 70 €/an",
+        "NIVEAU 6 : 70 €/an",
+        "NIVEAU 7 : 70 €/an",
+        "NIVEAU 8 : 70 €/an"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Protection « Gros Pépin » - Prothèses externes remboursées par la Sécurité sociale",
+      "description": "Prothèses externes remboursées par la Sécurité sociale (capillaires (25), mammaires, oculaires) - Forfait par acte.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : - ; NIVEAU 2 : 150 €/acte ; NIVEAU 3 : 150 €/acte ; NIVEAU 4 : 150 €/acte ; NIVEAU 5 : 150 €/acte ; NIVEAU 6 : 150 €/acte ; NIVEAU 7 : 150 €/acte ; NIVEAU 8 : 150 €/acte",
+      "sub_limits": [
+        "NIVEAU 1 : -",
+        "NIVEAU 2 : 150 €/acte",
+        "NIVEAU 3 : 150 €/acte",
+        "NIVEAU 4 : 150 €/acte",
+        "NIVEAU 5 : 150 €/acte",
+        "NIVEAU 6 : 150 €/acte",
+        "NIVEAU 7 : 150 €/acte",
+        "NIVEAU 8 : 150 €/acte"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Protection « Gros Pépin » - Actes de chirurgie plastique réparatrice",
+      "description": "Actes de chirurgie plastique réparatrice pris en charge par la Sécurité sociale (32) - Forfait par an.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : - ; NIVEAU 2 : 200 €/an ; NIVEAU 3 : 400 €/an ; NIVEAU 4 : 600 €/an ; NIVEAU 5 : 1000 €/an ; NIVEAU 6 : 1500 €/an ; NIVEAU 7 : 2000 €/an ; NIVEAU 8 : 2400 €/an",
+      "sub_limits": [
+        "NIVEAU 1 : -",
+        "NIVEAU 2 : 200 €/an",
+        "NIVEAU 3 : 400 €/an",
+        "NIVEAU 4 : 600 €/an",
+        "NIVEAU 5 : 1000 €/an",
+        "NIVEAU 6 : 1500 €/an",
+        "NIVEAU 7 : 2000 €/an",
+        "NIVEAU 8 : 2400 €/an"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Ce forfait s'ajoute à la prise en charge des honoraires du chirurgien et de l'anesthésiste lors de l'intervention chirurgicale. Le forfait s'applique aux actes réalisés par des médecins ayant adhéré à l'OPTAM et OPTAM-ACO. Pour les médecins non adhérents, la prise en charge des dépassements d'honoraires ne peut excéder 100 % BR dans les « contrats responsables ». (renvoi 32)"
+      ],
+      "page": 3
+    },
+    {
+      "name": "Protection « Gros Pépin » - Suivi psychologique prescrit en cas d'ALD",
+      "description": "Suivi psychologique prescrit en cas d'Affection de Longue Durée (30) - Forfait par an.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : - ; NIVEAU 2 : 30 €/an ; NIVEAU 3 : 50 €/an ; NIVEAU 4 : 100 €/an ; NIVEAU 5 : 150 €/an ; NIVEAU 6 : 200 €/an ; NIVEAU 7 : 250 €/an ; NIVEAU 8 : 300 €/an",
+      "sub_limits": [
+        "NIVEAU 1 : -",
+        "NIVEAU 2 : 30 €/an",
+        "NIVEAU 3 : 50 €/an",
+        "NIVEAU 4 : 100 €/an",
+        "NIVEAU 5 : 150 €/an",
+        "NIVEAU 6 : 200 €/an",
+        "NIVEAU 7 : 250 €/an",
+        "NIVEAU 8 : 300 €/an"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Protection « Gros Pépin » - Plafond global",
+      "description": "Plafond global pour les dépenses \"Gros Pépin\" - Forfait par an.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : - ; NIVEAU 2 : 350 €/an ; NIVEAU 3 : 800 €/an ; NIVEAU 4 : 1200 €/an ; NIVEAU 5 : 1600 €/an ; NIVEAU 6 : 2000 €/an ; NIVEAU 7 : 2500 €/an ; NIVEAU 8 : 3000 €/an",
+      "sub_limits": [
+        "NIVEAU 1 : -",
+        "NIVEAU 2 : 350 €/an",
+        "NIVEAU 3 : 800 €/an",
+        "NIVEAU 4 : 1200 €/an",
+        "NIVEAU 5 : 1600 €/an",
+        "NIVEAU 6 : 2000 €/an",
+        "NIVEAU 7 : 2500 €/an",
+        "NIVEAU 8 : 3000 €/an"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Sport sur ordonnance",
+      "description": "Sport sur ordonnance auprès d'un professionnel agréé pour les adhérents reconnus en Affection de Longue Durée (ALD) ou éligibles (33) - Forfait par an.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 100 €/an ; NIVEAU 2 : 100 €/an ; NIVEAU 3 : 200 €/an ; NIVEAU 4 : 200 €/an ; NIVEAU 5 : 300 €/an ; NIVEAU 6 : 300 €/an ; NIVEAU 7 : 400 €/an ; NIVEAU 8 : 400 €/an",
+      "sub_limits": [
+        "NIVEAU 1 : 100 €/an",
+        "NIVEAU 2 : 100 €/an",
+        "NIVEAU 3 : 200 €/an",
+        "NIVEAU 4 : 200 €/an",
+        "NIVEAU 5 : 300 €/an",
+        "NIVEAU 6 : 300 €/an",
+        "NIVEAU 7 : 400 €/an",
+        "NIVEAU 8 : 400 €/an"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Forfait valable sur prescription médicale et facture nominative acquittée d'un professionnel de sport agréé Activité Physique Adaptée (APA) ou certifié par une fédération sportive. (renvoi 33)"
+      ],
+      "page": 3
+    },
+    {
+      "name": "Services inclus - Itelis",
+      "description": "Itelis : avantages tarifaires optique, audio et médecines douces.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : Inclus ; NIVEAU 2 : Inclus ; NIVEAU 3 : Inclus ; NIVEAU 4 : Inclus ; NIVEAU 5 : Inclus ; NIVEAU 6 : Inclus ; NIVEAU 7 : Inclus ; NIVEAU 8 : Inclus",
+      "sub_limits": [
+        "NIVEAU 1 : Inclus",
+        "NIVEAU 2 : Inclus",
+        "NIVEAU 3 : Inclus",
+        "NIVEAU 4 : Inclus",
+        "NIVEAU 5 : Inclus",
+        "NIVEAU 6 : Inclus",
+        "NIVEAU 7 : Inclus",
+        "NIVEAU 8 : Inclus"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Services inclus - Medaviz",
+      "description": "Medaviz : téléconsultation 24 h/24, 7 j/7.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : Inclus ; NIVEAU 2 : Inclus ; NIVEAU 3 : Inclus ; NIVEAU 4 : Inclus ; NIVEAU 5 : Inclus ; NIVEAU 6 : Inclus ; NIVEAU 7 : Inclus ; NIVEAU 8 : Inclus",
+      "sub_limits": [
+        "NIVEAU 1 : Inclus",
+        "NIVEAU 2 : Inclus",
+        "NIVEAU 3 : Inclus",
+        "NIVEAU 4 : Inclus",
+        "NIVEAU 5 : Inclus",
+        "NIVEAU 6 : Inclus",
+        "NIVEAU 7 : Inclus",
+        "NIVEAU 8 : Inclus"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Services inclus - Livmed's",
+      "description": "Livmed's : livraison de médicaments 24 h/24, 7 j/7.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : Inclus ; NIVEAU 2 : Inclus ; NIVEAU 3 : Inclus ; NIVEAU 4 : Inclus ; NIVEAU 5 : Inclus ; NIVEAU 6 : Inclus ; NIVEAU 7 : Inclus ; NIVEAU 8 : Inclus",
+      "sub_limits": [
+        "NIVEAU 1 : Inclus",
+        "NIVEAU 2 : Inclus",
+        "NIVEAU 3 : Inclus",
+        "NIVEAU 4 : Inclus",
+        "NIVEAU 5 : Inclus",
+        "NIVEAU 6 : Inclus",
+        "NIVEAU 7 : Inclus",
+        "NIVEAU 8 : Inclus"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Services inclus - Deuxième avis médical",
+      "description": "Deuxième avis médical : service d'accès à l'expertise médicale en ligne.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : Inclus ; NIVEAU 2 : Inclus ; NIVEAU 3 : Inclus ; NIVEAU 4 : Inclus ; NIVEAU 5 : Inclus ; NIVEAU 6 : Inclus ; NIVEAU 7 : Inclus ; NIVEAU 8 : Inclus",
+      "sub_limits": [
+        "NIVEAU 1 : Inclus",
+        "NIVEAU 2 : Inclus",
+        "NIVEAU 3 : Inclus",
+        "NIVEAU 4 : Inclus",
+        "NIVEAU 5 : Inclus",
+        "NIVEAU 6 : Inclus",
+        "NIVEAU 7 : Inclus",
+        "NIVEAU 8 : Inclus"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Services inclus - Bilan de santé digital",
+      "description": "Bilan de santé digital : évaluation de santé globale.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : Inclus ; NIVEAU 2 : Inclus ; NIVEAU 3 : Inclus ; NIVEAU 4 : Inclus ; NIVEAU 5 : Inclus ; NIVEAU 6 : Inclus ; NIVEAU 7 : Inclus ; NIVEAU 8 : Inclus",
+      "sub_limits": [
+        "NIVEAU 1 : Inclus",
+        "NIVEAU 2 : Inclus",
+        "NIVEAU 3 : Inclus",
+        "NIVEAU 4 : Inclus",
+        "NIVEAU 5 : Inclus",
+        "NIVEAU 6 : Inclus",
+        "NIVEAU 7 : Inclus",
+        "NIVEAU 8 : Inclus"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Services inclus - Méta-Coaching",
+      "description": "Méta-Coaching : programmes de coaching santé en ligne.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : Inclus ; NIVEAU 2 : Inclus ; NIVEAU 3 : Inclus ; NIVEAU 4 : Inclus ; NIVEAU 5 : Inclus ; NIVEAU 6 : Inclus ; NIVEAU 7 : Inclus ; NIVEAU 8 : Inclus",
+      "sub_limits": [
+        "NIVEAU 1 : Inclus",
+        "NIVEAU 2 : Inclus",
+        "NIVEAU 3 : Inclus",
+        "NIVEAU 4 : Inclus",
+        "NIVEAU 5 : Inclus",
+        "NIVEAU 6 : Inclus",
+        "NIVEAU 7 : Inclus",
+        "NIVEAU 8 : Inclus"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Services inclus - Salvum",
+      "description": "Salvum : formation aux gestes qui sauvent.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : Inclus ; NIVEAU 2 : Inclus ; NIVEAU 3 : Inclus ; NIVEAU 4 : Inclus ; NIVEAU 5 : Inclus ; NIVEAU 6 : Inclus ; NIVEAU 7 : Inclus ; NIVEAU 8 : Inclus",
+      "sub_limits": [
+        "NIVEAU 1 : Inclus",
+        "NIVEAU 2 : Inclus",
+        "NIVEAU 3 : Inclus",
+        "NIVEAU 4 : Inclus",
+        "NIVEAU 5 : Inclus",
+        "NIVEAU 6 : Inclus",
+        "NIVEAU 7 : Inclus",
+        "NIVEAU 8 : Inclus"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Services inclus - Assistance Matmut",
+      "description": "Assistance Matmut.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : Inclus ; NIVEAU 2 : Inclus ; NIVEAU 3 : Inclus ; NIVEAU 4 : Inclus ; NIVEAU 5 : Inclus ; NIVEAU 6 : Inclus ; NIVEAU 7 : Inclus ; NIVEAU 8 : Inclus",
+      "sub_limits": [
+        "NIVEAU 1 : Inclus",
+        "NIVEAU 2 : Inclus",
+        "NIVEAU 3 : Inclus",
+        "NIVEAU 4 : Inclus",
+        "NIVEAU 5 : Inclus",
+        "NIVEAU 6 : Inclus",
+        "NIVEAU 7 : Inclus",
+        "NIVEAU 8 : Inclus"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Services inclus - Protection Juridique Santé",
+      "description": "Protection Juridique Santé.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : Inclus ; NIVEAU 2 : Inclus ; NIVEAU 3 : Inclus ; NIVEAU 4 : Inclus ; NIVEAU 5 : Inclus ; NIVEAU 6 : Inclus ; NIVEAU 7 : Inclus ; NIVEAU 8 : Inclus",
+      "sub_limits": [
+        "NIVEAU 1 : Inclus",
+        "NIVEAU 2 : Inclus",
+        "NIVEAU 3 : Inclus",
+        "NIVEAU 4 : Inclus",
+        "NIVEAU 5 : Inclus",
+        "NIVEAU 6 : Inclus",
+        "NIVEAU 7 : Inclus",
+        "NIVEAU 8 : Inclus"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Grille optique - Lunettes enfant (jusqu'à 15 ans inclus) - Monture",
+      "description": "Grille du renvoi 12 - Lunettes enfant (jusqu'à 15 ans inclus) - Monture.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 50 € ; NIVEAU 2 : 50 € ; NIVEAU 3 : 95 € ; NIVEAU 4 : 95 € ; NIVEAU 5 : 100 € ; NIVEAU 6 : 100 € ; NIVEAU 7 : 100 € ; NIVEAU 8 : 100 €",
+      "sub_limits": [
+        "NIVEAU 1 : 50 €",
+        "NIVEAU 2 : 50 €",
+        "NIVEAU 3 : 95 €",
+        "NIVEAU 4 : 95 €",
+        "NIVEAU 5 : 100 €",
+        "NIVEAU 6 : 100 €",
+        "NIVEAU 7 : 100 €",
+        "NIVEAU 8 : 100 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Grille du renvoi 12 : forfait pour une paire de lunettes (1 monture + 2 verres) incluant le remboursement de la Sécurité sociale."
+      ],
+      "page": 7
+    },
+    {
+      "name": "Grille optique - Lunettes enfant - Verre simple (par verre)",
+      "description": "Lunettes enfant (jusqu'à 15 ans inclus) - Verre simple (par verre).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 50 € ; NIVEAU 2 : 65 € ; NIVEAU 3 : 65 € ; NIVEAU 4 : 80 € ; NIVEAU 5 : 95 € ; NIVEAU 6 : 95 € ; NIVEAU 7 : 125 € ; NIVEAU 8 : 125 €",
+      "sub_limits": [
+        "NIVEAU 1 : 50 €",
+        "NIVEAU 2 : 65 €",
+        "NIVEAU 3 : 65 €",
+        "NIVEAU 4 : 80 €",
+        "NIVEAU 5 : 95 €",
+        "NIVEAU 6 : 95 €",
+        "NIVEAU 7 : 125 €",
+        "NIVEAU 8 : 125 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Grille du renvoi 12 : forfait pour une paire de lunettes (1 monture + 2 verres) incluant le remboursement de la Sécurité sociale."
+      ],
+      "page": 7
+    },
+    {
+      "name": "Grille optique - Lunettes enfant - Verre complexe (par verre)",
+      "description": "Lunettes enfant (jusqu'à 15 ans inclus) - Verre complexe (par verre).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 80 € ; NIVEAU 2 : 125 € ; NIVEAU 3 : 140 € ; NIVEAU 4 : 170 € ; NIVEAU 5 : 200 € ; NIVEAU 6 : 235 € ; NIVEAU 7 : 265 € ; NIVEAU 8 : 300 €",
+      "sub_limits": [
+        "NIVEAU 1 : 80 €",
+        "NIVEAU 2 : 125 €",
+        "NIVEAU 3 : 140 €",
+        "NIVEAU 4 : 170 €",
+        "NIVEAU 5 : 200 €",
+        "NIVEAU 6 : 235 €",
+        "NIVEAU 7 : 265 €",
+        "NIVEAU 8 : 300 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Grille du renvoi 12 : forfait pour une paire de lunettes (1 monture + 2 verres) incluant le remboursement de la Sécurité sociale."
+      ],
+      "page": 7
+    },
+    {
+      "name": "Grille optique - Lunettes adulte (16 ans et plus) - Monture",
+      "description": "Lunettes adulte (16 ans et plus) - Monture.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 95 € ; NIVEAU 2 : 95 € ; NIVEAU 3 : 100 € ; NIVEAU 4 : 100 € ; NIVEAU 5 : 100 € ; NIVEAU 6 : 100 € ; NIVEAU 7 : 100 € ; NIVEAU 8 : 100 €",
+      "sub_limits": [
+        "NIVEAU 1 : 95 €",
+        "NIVEAU 2 : 95 €",
+        "NIVEAU 3 : 100 €",
+        "NIVEAU 4 : 100 €",
+        "NIVEAU 5 : 100 €",
+        "NIVEAU 6 : 100 €",
+        "NIVEAU 7 : 100 €",
+        "NIVEAU 8 : 100 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Grille du renvoi 12 : forfait pour une paire de lunettes (1 monture + 2 verres) incluant le remboursement de la Sécurité sociale."
+      ],
+      "page": 7
+    },
+    {
+      "name": "Grille optique - Lunettes adulte - Verre simple (par verre)",
+      "description": "Lunettes adulte (16 ans et plus) - Verre simple (par verre).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 50 € ; NIVEAU 2 : 65 € ; NIVEAU 3 : 80 € ; NIVEAU 4 : 95 € ; NIVEAU 5 : 110 € ; NIVEAU 6 : 125 € ; NIVEAU 7 : 155 € ; NIVEAU 8 : 155 €",
+      "sub_limits": [
+        "NIVEAU 1 : 50 €",
+        "NIVEAU 2 : 65 €",
+        "NIVEAU 3 : 80 €",
+        "NIVEAU 4 : 95 €",
+        "NIVEAU 5 : 110 €",
+        "NIVEAU 6 : 125 €",
+        "NIVEAU 7 : 155 €",
+        "NIVEAU 8 : 155 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Grille du renvoi 12 : forfait pour une paire de lunettes (1 monture + 2 verres) incluant le remboursement de la Sécurité sociale."
+      ],
+      "page": 7
+    },
+    {
+      "name": "Grille optique - Lunettes adulte - Verre complexe (par verre)",
+      "description": "Lunettes adulte (16 ans et plus) - Verre complexe (par verre).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 80 € ; NIVEAU 2 : 125 € ; NIVEAU 3 : 140 € ; NIVEAU 4 : 170 € ; NIVEAU 5 : 200 € ; NIVEAU 6 : 235 € ; NIVEAU 7 : 265 € ; NIVEAU 8 : 300 €",
+      "sub_limits": [
+        "NIVEAU 1 : 80 €",
+        "NIVEAU 2 : 125 €",
+        "NIVEAU 3 : 140 €",
+        "NIVEAU 4 : 170 €",
+        "NIVEAU 5 : 200 €",
+        "NIVEAU 6 : 235 €",
+        "NIVEAU 7 : 265 €",
+        "NIVEAU 8 : 300 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Grille du renvoi 12 : forfait pour une paire de lunettes (1 monture + 2 verres) incluant le remboursement de la Sécurité sociale."
+      ],
+      "page": 7
+    },
+    {
+      "name": "Grille optique - Lunettes adulte - Verre très complexe (par verre)",
+      "description": "Lunettes adulte (16 ans et plus) - Verre très complexe (par verre).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : 100 € ; NIVEAU 2 : 150 € ; NIVEAU 3 : 200 € ; NIVEAU 4 : 250 € ; NIVEAU 5 : 300 € ; NIVEAU 6 : 300 € ; NIVEAU 7 : 350 € ; NIVEAU 8 : 350 €",
+      "sub_limits": [
+        "NIVEAU 1 : 100 €",
+        "NIVEAU 2 : 150 €",
+        "NIVEAU 3 : 200 €",
+        "NIVEAU 4 : 250 €",
+        "NIVEAU 5 : 300 €",
+        "NIVEAU 6 : 300 €",
+        "NIVEAU 7 : 350 €",
+        "NIVEAU 8 : 350 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Grille du renvoi 12 : forfait pour une paire de lunettes (1 monture + 2 verres) incluant le remboursement de la Sécurité sociale."
+      ],
+      "page": 7
+    },
+    {
+      "name": "Optique - Suppléments et prestations optiques",
+      "description": "Suppléments et prestations optiques (adaptation de la correction visuelle, appairage de verres d'indice de réfraction différents, supplément pour verres avec filtre), autres suppléments (prisme, système antiptosis, verres iséiconiques) remboursés par la Sécurité sociale : prise en charge dans la limite du Prix Limite de Vente pour la classe A (ou prise en charge à 100 % BR lorsqu'il n'existe pas de Prix de Limite de vente (PLV)) et à 100 % BR dans le cadre des verres de la classe B.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "NIVEAU 1 : Dans la limite du PLV pour la classe A (ou 100 % BR à défaut de PLV) ; 100 % BR pour la classe B ; NIVEAU 2 : Dans la limite du PLV pour la classe A (ou 100 % BR à défaut de PLV) ; 100 % BR pour la classe B ; NIVEAU 3 : Dans la limite du PLV pour la classe A (ou 100 % BR à défaut de PLV) ; 100 % BR pour la classe B ; NIVEAU 4 : Dans la limite du PLV pour la classe A (ou 100 % BR à défaut de PLV) ; 100 % BR pour la classe B ; NIVEAU 5 : Dans la limite du PLV pour la classe A (ou 100 % BR à défaut de PLV) ; 100 % BR pour la classe B ; NIVEAU 6 : Dans la limite du PLV pour la classe A (ou 100 % BR à défaut de PLV) ; 100 % BR pour la classe B ; NIVEAU 7 : Dans la limite du PLV pour la classe A (ou 100 % BR à défaut de PLV) ; 100 % BR pour la classe B ; NIVEAU 8 : Dans la limite du PLV pour la classe A (ou 100 % BR à défaut de PLV) ; 100 % BR pour la classe B",
+      "sub_limits": [
+        "NIVEAU 1 : Dans la limite du PLV pour la classe A (ou 100 % BR à défaut de PLV) ; 100 % BR pour la classe B",
+        "NIVEAU 2 : Dans la limite du PLV pour la classe A (ou 100 % BR à défaut de PLV) ; 100 % BR pour la classe B",
+        "NIVEAU 3 : Dans la limite du PLV pour la classe A (ou 100 % BR à défaut de PLV) ; 100 % BR pour la classe B",
+        "NIVEAU 4 : Dans la limite du PLV pour la classe A (ou 100 % BR à défaut de PLV) ; 100 % BR pour la classe B",
+        "NIVEAU 5 : Dans la limite du PLV pour la classe A (ou 100 % BR à défaut de PLV) ; 100 % BR pour la classe B",
+        "NIVEAU 6 : Dans la limite du PLV pour la classe A (ou 100 % BR à défaut de PLV) ; 100 % BR pour la classe B",
+        "NIVEAU 7 : Dans la limite du PLV pour la classe A (ou 100 % BR à défaut de PLV) ; 100 % BR pour la classe B",
+        "NIVEAU 8 : Dans la limite du PLV pour la classe A (ou 100 % BR à défaut de PLV) ; 100 % BR pour la classe B"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 7
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "MAS et EHPAD (forfait journalier hospitalier)",
+      "description": "Forfait journalier hospitalier : MAS et EHPAD non pris en charge. (renvoi 3)",
+      "applies_to": "Hospitalisation - Forfait journalier hospitalier",
+      "page": 7
+    },
+    {
+      "name": "Chambre particulière au-delà de 90 jours par an",
+      "description": "La prise en charge de la chambre particulière est limitée à 90 jours par an en convalescence, rééducation et psychiatrie. (renvoi 4)",
+      "applies_to": "Hospitalisation - Chambre particulière avec nuitée",
+      "page": 7
+    },
+    {
+      "name": "Chambre particulière en ambulatoire sans acte de chirurgie/ATM et anesthésie",
+      "description": "Prise en charge uniquement lorsque l'hospitalisation inclut : un Acte de Chirurgie (ADC) ou un Acte Technique Médical (ATM) et un Acte d'Anesthésie (ADA). (renvoi 5)",
+      "applies_to": "Hospitalisation - Chambre particulière en ambulatoire",
+      "page": 7
+    },
+    {
+      "name": "Hors parcours de soins coordonnés",
+      "description": "Hors parcours de soins coordonnés, la prise en charge est limitée à 100 % de la Base de Remboursement hors majoration du ticket modérateur appliquée par la Sécurité sociale. (renvoi 2)",
+      "applies_to": "Postes portant le renvoi (2) : radiologie, honoraires médicaux généralistes et spécialistes",
+      "page": 7
+    },
+    {
+      "name": "Minoration de 20 % pour les médecins non adhérents à l'OPTAM",
+      "description": "En cas de dépassements d'honoraires, ce taux est minoré de 20 % pour les médecins non adhérents et notre participation sur les dépassements d'honoraires ne peut excéder 100 % du tarif de la Sécurité sociale. (renvois 1 et 2)",
+      "applies_to": "Honoraires et actes techniques ; honoraires médicaux ; radiologie",
+      "page": 7
+    },
+    {
+      "name": "Plafonnement de l'inlay-onlay métallique",
+      "description": "La prise en charge ne peut excéder 350 € pour les nivaux 6 à 8 dans le cas d'un inlay-onlay métallique. Cette limite ne s'applique pas sur un inlay-onlay en céramique. (renvoi 14, orthographe du document conservée)",
+      "applies_to": "Dentaire - Inlay-onlay",
+      "page": 7
+    },
+    {
+      "name": "Orthodontie : semestre/trimestre commencé avant la prise d'effet",
+      "description": "Le forfait d'orthodontie (semestre/trimestre) sera versé uniquement si la date de début du semestre/trimestre a débuté après la prise d'effet des garanties. (renvoi 21)",
+      "applies_to": "Dentaire - Orthodontie remboursée par la Sécurité sociale",
+      "page": 7
+    },
+    {
+      "name": "Acupuncture hors médecin, sage-femme ou chirurgien-dentiste",
+      "description": "Pour l'acupuncture, seuls sont pris en charge les actes non remboursés par la Sécurité sociale réalisés chez un médecin, une sage-femme ou un chirurgien-dentiste. (renvoi 30)",
+      "applies_to": "Médecines douces ; Sevrage tabagique",
+      "page": 8
+    },
+    {
+      "name": "Séances avec des psychologues hors contrat responsable",
+      "description": "Garantie uniquement disponible dans les « contrats responsables ». (renvoi 9)",
+      "applies_to": "Séances avec des psychologues",
+      "page": 7
+    },
+    {
+      "name": "Chirurgie plastique réparatrice - médecins non adhérents OPTAM",
+      "description": "Pour les médecins non adhérents, la prise en charge des dépassements d'honoraires ne peut excéder 100 % BR dans les « contrats responsables ». (renvoi 32)",
+      "applies_to": "Protection « Gros Pépin » - Actes de chirurgie plastique réparatrice",
+      "page": 8
+    },
+    {
+      "name": "Plafonnement au reste à charge réel",
+      "description": "Nos remboursements ne peuvent être supérieurs au montant des frais restant à charge effective de l'adhérent.",
+      "applies_to": "all",
+      "page": 7
+    },
+    {
+      "name": "Protection « Gros Pépin » - non couverte au NIVEAU 1",
+      "description": "Les quatre lignes de la protection « Gros Pépin » (prothèses externes, chirurgie plastique réparatrice, suivi psychologique en ALD, plafond global) portent la valeur « - » pour le NIVEAU 1.",
+      "applies_to": "Protection « Gros Pépin »",
+      "page": 3
+    },
+    {
+      "name": "Livraison de médicaments au-delà de 3 par an ou hors rayon de 20 km",
+      "description": "Prise en charge de 3 livraisons par an par la mutuelle dans un rayon de 20km, au-delà le complément reste à la charge de l'adhérent.",
+      "applies_to": "Services inclus - Livmed's",
+      "page": 8
+    }
+  ],
+  "deductibles": null,
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Justificatifs des forfaits",
+      "description": "Les forfaits sont versés sur présentation de l'original de la facture nominative acquittée et détaillée par acte.",
+      "timing": "Lors de la demande de remboursement",
+      "sanction": null,
+      "page": 7
+    },
+    {
+      "name": "Inscription de l'enfant dans les 3 mois",
+      "description": "Prime versée par enfant inscrit sur le contrat dans les 3 mois suivant sa naissance ou son adoption, sous réserve que l'un de ses parents soit adhérent à la garantie à la date de naissance ou d'adoption et sur présentation de l'acte de naissance ou d'adoption.",
+      "timing": "Dans les 3 mois suivant la naissance ou l'adoption",
+      "sanction": null,
+      "page": 7
+    },
+    {
+      "name": "Prescription médicale",
+      "description": "Plusieurs forfaits ne sont servis que sur prescription médicale et facture nominative acquittée : homéopathie et phytothérapie (28), sport sur ordonnance (33), suivi psychologique en ALD.",
+      "timing": "Avant l'engagement des frais",
+      "sanction": null,
+      "page": 8
+    }
+  ],
+  "claims_procedure": [],
+  "duration_and_cancellation": null,
+  "prescription_period": null,
+  "premium": null,
+  "special_conditions": [
+    {
+      "name": "Assureur de la garantie Santé",
+      "description": "Assureur de la garantie Santé - Mutuelle Ociane - Mutuelle soumise aux dispositions du Livre II du Code de la Mutualité, immatriculée sous le n° SIREN 434 243 085. Siège social : 35 rue Claude Bonnier - 33054 BORDEAUX Cedex. Les statuts de la Mutuelle Ociane sont disponibles sur matmut.fr.",
+      "page": 8
+    },
+    {
+      "name": "Matmut",
+      "description": "Matmut - Mutuelle assurance des travailleurs mutualistes, Société d'assurance mutuelle à cotisations variables, immatriculée au RCS de Rouen n° 775 701 477. Entreprise régie par le Code des assurances, 66, rue de Sotteville 76100 Rouen.",
+      "page": 8
+    },
+    {
+      "name": "Protection juridique",
+      "description": "Prestation réalisée par Matmut Protection juridique, Société du Groupe Matmut - Société Anonyme (SA) au capital de 7 500 000 € entièrement libéré. Entreprise régie par le Code des Assurances, inscrite au RCS de Rouen sous le n° SIREN 423 499 391. Siège Social : 66 Rue de Sotteville 76100 Rouen.",
+      "page": 8
+    },
+    {
+      "name": "Assistance",
+      "description": "Assistance - Prestations réalisées par IMA GIE - Société Anonyme à Directoire et Conseil de Surveillance au capital social de 55 382 784 €, inscrit au RCS de Niort sous le n° Siren 320 281 025. Siège social : 118, avenue de Paris CS 40 000 79033 Niort CEDEX 9.",
+      "page": 8
+    },
+    {
+      "name": "Itelis",
+      "description": "Itelis est une marque d'Isea. Isea Société Anonyme (SA) à Directoire et Conseil de Surveillance au capital de 5 452 135,92€, inscrite au RCS de Paris sous le n° SIREN 440 358 471.",
+      "page": 8
+    },
+    {
+      "name": "Téléconsultation Medaviz",
+      "description": "Téléconsultation Medaviz - Service mis en œuvre par Podalire. Société par Actions Simplifiée (SAS) au capital social de 83 800 €, inscrite au RCS de Paris sous le n° SIREN 807 414 024. Le service doit faire l'objet d'une utilisation raisonnable.",
+      "page": 8
+    },
+    {
+      "name": "deuxiemeavis.fr",
+      "description": "deuxiemeavis.fr - Le service deuxiemeavis.fr est édité par la société CARIANS. Société par Actions Simplifiée (SAS) au capital social de 109 230 €, inscrite au RCS de Paris sous le n° SIREN 803 657 717.",
+      "page": 8
+    },
+    {
+      "name": "Livraison de médicaments LIVMED'S",
+      "description": "Livraison de médicaments LIVMED'S - Société par Actions Simplifiée (SAS) au capital social de 67 114 €, immatriculée au RCS de Nice sous le n°881 600 456. Prise en charge de 3 livraisons par an par la mutuelle dans un rayon de 20km, au-delà le complément reste à la charge de l'adhérent.",
+      "page": 8
+    },
+    {
+      "name": "Méta-Coaching",
+      "description": "Coaching santé délivré par Méta-Coaching - Société par Actions Simplifiée (SAS) au capital social de 383 299 €, inscrite au RCS de Paris sous le n° SIREN 513 782 003.",
+      "page": 8
+    },
+    {
+      "name": "Salvum",
+      "description": "Salvum - Formation en ligne de secourisme. Société par Actions Simplifiée (SAS) au capital social de 449 320 €, inscrite au RCS de Meaux sous le n° SIREN 801 777 541.",
+      "page": 8
+    },
+    {
+      "name": "Valeur du document",
+      "description": "Document non contractuel. L'ensemble des garanties évoquées dans ce document s'applique dans les limites et conditions définies au contrat.",
+      "page": 8
+    },
+    {
+      "name": "Base de calcul des remboursements",
+      "description": "Les pourcentages indiqués incluent la part de la Sécurité sociale et s'appliquent sur la Base de Remboursement (BR) pour les actes relevant de la CCAM (Classification Commune des Actes Médicaux), tarif de convention pour les actes référencés NGAP (Nomenclature Générale des Actes Professionnels), tarif de responsabilité pour les actes référencés LPP (Liste des Produits et des Prestations). Pour les praticiens non conventionnés, la Base de Remboursement est retenue sur la base du tarif d'autorité. Les forfaits annuels s'entendent dans le cadre de l'année civile et par bénéficiaire. Les forfaits sont versés sur présentation de l'original de la facture nominative acquittée et détaillée par acte. Nos remboursements ne peuvent être supérieurs au montant des frais restant à charge effective de l'adhérent. Le total des remboursements est exprimé y compris la part RO.",
+      "page": 7
+    },
+    {
+      "name": "Périodicité de l'équipement optique",
+      "description": "Forfait versé dans la limite d'une paire de lunettes tous les 24 mois à partir de la date d'achat ou tous les 12 mois en cas de renouvellement anticipé prévu à l'article R. 871-2 du Code de la Sécurité sociale, notamment pour les moins de 16 ans ou en cas d'évolution de la vue.",
+      "page": 7
+    },
+    {
+      "name": "Hospitalisation à l'étranger",
+      "description": "Hospitalisation à l'étranger : voir conditions générales de la garantie Assistance Matmut. (renvoi 1)",
+      "page": 7
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Assureur de la garantie Santé - Mutuelle Ociane - Mutuelle soumise aux dispositions du Livre II du Code de la Mutualité, immatriculée sous le n° SIREN 434 243 085.",
+      "page": 8,
+      "context": "Porteur du risque santé"
+    },
+    {
+      "quote": "Matmut - Mutuelle assurance des travailleurs mutualistes, Société d’assurance mutuelle à cotisations variables, immatriculée au RCS de Rouen n° 775 701 477.",
+      "page": 8,
+      "context": "Entité Matmut citée au document"
+    },
+    {
+      "quote": "Nos remboursements ne peuvent être supérieurs au montant des frais restant à charge effective de l’adhérent.",
+      "page": 7,
+      "context": "Plafond général d'indemnisation"
+    },
+    {
+      "quote": "En\ncas de dépassements d’honoraires, ce taux est minoré de 20 % pour les médecins non adhérents et notre participation sur les dépassements d'honoraires ne peut excéder 100",
+      "page": 7,
+      "context": "Minoration hors OPTAM"
+    },
+    {
+      "quote": "(3) Forfait journalier hospitalier : 20 €/jour (sauf psychiatrie 15 €/jour), durée illimitée. MAS et EHPAD non pris en charge.",
+      "page": 7,
+      "context": "Exclusion MAS/EHPAD"
+    },
+    {
+      "quote": "(4) La prise en charge de la chambre particulière est limitée à 90 jours par an en convalescence, rééducation et psychiatrie.",
+      "page": 7,
+      "context": "Limite chambre particulière"
+    },
+    {
+      "quote": "Hospitalisation à l’étranger : voir conditions générales de la garantie Assistance Matmut.",
+      "page": 7,
+      "context": "Renvoi aux conditions générales Assistance"
+    },
+    {
+      "quote": "La prise en charge ne peut excéder 350 € pour les",
+      "page": 7,
+      "context": "Plafond inlay-onlay métallique (le document imprime « nivaux 6 à 8 »)"
+    },
+    {
+      "quote": "Document non contractuel. L’ensemble des garanties évoquées dans ce document s’applique dans les limites et conditions définies au contrat.",
+      "page": 8,
+      "context": "Portée du document"
+    }
+  ],
+  "gaps": [
+    "Le document est un tableau de garanties (« Vos garanties 2026 ») accompagné de ses renvois : il ne comporte ni conditions générales, ni section d'exclusions générales, ni définitions contractuelles complètes. Les exclusions enregistrées ici sont les seules non-prises en charge explicitement écrites et les lignes portant « - » pour un niveau de garantie donné.",
+    "Divergence avec les métadonnées de la tâche : l'assureur de la garantie Santé nommé par le document est la Mutuelle Ociane (mutuelle soumise au Livre II du Code de la Mutualité, SIREN 434 243 085, siège à Bordeaux), et non Matmut. Matmut (Mutuelle assurance des travailleurs mutualistes, RCS de Rouen 775 701 477) est citée séparément, la protection juridique est portée par Matmut Protection juridique (RCS de Rouen 423 499 391) et l'assistance par IMA GIE (RCS de Niort 320 281 025). Les remboursements sont libellés « Mutuelle Ociane Matmut » dans les exemples.",
+    "Divergence entre le document et son URL source : le fichier est publié sous https://www.matmut.fr/pro/pdf/mutuelle-pme-garanties.pdf mais le document s'intitule « Régime frais de santé COLLECTIF SANTE FLEX » et porte la référence « COLLECTIF SANTE FLEX-1225 ». C'est le titre du document qui a été retenu ; la mention « PME » n'apparaît nulle part dans le texte.",
+    "Aucune date d'édition n'est imprimée. Le document porte la référence « COLLECTIF SANTE FLEX-1225 » (page 8) et les mentions « Vos garanties 2026 » / « Renvois 2026 » ; le suffixe -1225 n'est pas explicité comme une date d'édition et n'a donc pas été reporté dans edition_date.",
+    "target_audience laissé à null : le document ne nomme aucune catégorie de souscripteur (il parle d'« adhérent » et de « bénéficiaire »). Intitulé du régime tel qu'imprimé : « Régime frais de santé COLLECTIF SANTE FLEX ».",
+    "Aucune information sur la cotisation, la durée du contrat, la résiliation, la prescription, la procédure de sinistre ou les franchises contractuelles : ces sections n'existent pas dans ce document. Les « participation forfaitaire » et « reste à charge » des pages d'exemples sont des participations légales illustrées, pas des franchises du contrat.",
+    "Le tableau est imprimé en deux blocs de quatre colonnes : NIVEAU 1 à 4 (pages 1 à 3) puis NIVEAU 5 à 8 (pages 4 à 6), avec exactement les mêmes lignes. Chaque garantie est enregistrée une seule fois avec ses huit valeurs en sub_limits, dans l'ordre NIVEAU 1 à NIVEAU 8, et la page citée est celle du premier bloc.",
+    "Le renvoi 14 imprime « pour les nivaux 6 à 8 » (au lieu de « niveaux ») ; la coquille est reproduite telle quelle.",
+    "Le renvoi 24 définit le jour d'anniversaire des 20 ans comme inclus dans la garantie « Aide auditive jusqu'à 20 ans et/ou atteint de cécité », alors que le tableau intitule cette ligne « Aide auditive moins de 20 ans (24) et/ou atteint de cécité » : les deux libellés du document sont conservés tels quels.",
+    "La grille de forfaits optique figurant dans le renvoi 12 (page 7) est restituée sous forme de garanties « Grille optique - ... » avec les huit niveaux en sub_limits.",
+    "Le texte du prompt a été vérifié page à page contre le PDF source (PyMuPDF, page.get_text(\"text\")) : les 8 pages sont identiques et le texte n'est pas tronqué."
+  ],
+  "product_name": "Régime frais de santé - COLLECTIF SANTE FLEX - Vos garanties 2026"
+}

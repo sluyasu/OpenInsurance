@@ -1,0 +1,1344 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "matmut",
+  "insurer_name": "Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477",
+  "product_name": "Multirisques Accidents de la Vie",
+  "branch": "gav",
+  "branch_code": null,
+  "document_type": "conditions_generales",
+  "language": "fr",
+  "target_audience": "particuliers",
+  "target_audience_note": "Le document ne nomme pas de catégorie d'audience. Il énonce : « Le présent contrat vous est destiné si, à la date de prise d'effet des garanties, vous-même et/ou votre conjoint êtes âgés de moins de 61 ans » et « Le contrat ne peut être souscrit que par un proposant admis au préalable comme Sociétaire » (page 2), et propose trois formules « Famille », « Couple », « Individuelle » (page 7). Le droit de renonciation des articles 31-4 et 31-5 vise « une personne souscrivant à titre privé » (pages 36 et 37).",
+  "reference": "CG MAV - 01/26",
+  "edition_date": "2026-01",
+  "product_family": "Multirisques Accidents de la Vie",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.matmut.fr/services-en-ligne/doc/CG/CGMAV.pdf",
+  "source_pdf": "multirisques-accidents-de-la-vie-d1dcad4a.pdf",
+  "source_sha256": "e99c189ca5f05ca449be1e1af80ceb9d3300671744d3119d8f8c7eeed453d39d",
+  "source_pages": 62,
+  "fetched_at": "2026-07-30",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Conditions générales du contrat Matmut Multirisques Accidents de la Vie (garantie des accidents de la vie), valant projet de contrat au sens de l'article L. 112-2 du Code des assurances. Le contrat garantit le paiement d'indemnités en cas d'accident corporel de la vie courante (accidents domestiques, scolaires, de sport ou de loisirs, accidents médicaux, accidents de service ou de travail, agressions et attentats) occasionnant une incapacité permanente à l'assuré ou entraînant son décès. Il se décline en trois formules (Famille, Couple, Individuelle) et deux niveaux de garantie (Niveau 1 et Niveau 2), avec un seuil de déclenchement de 10 % d'incapacité permanente (AIPP) pour la plupart des garanties en cas de blessures, et de 30 % pour les prestations d'accompagnement personnalisé. Le document comprend également les modalités d'examen des réclamations et la charte de protection des données à caractère personnel.",
+  "definitions": [
+    {
+      "term": "Accident",
+      "page": 4,
+      "definition": "Toute atteinte à l'intégrité physique de l'assuré, non intentionnelle de sa part, provenant de l'action soudaine d'une cause extérieure. Le caractère soudain est constitué par la survenance subite de l'événement à l'origine du dommage."
+    },
+    {
+      "term": "Accident médical",
+      "page": 4,
+      "definition": "Accident imputable à des actes chirurgicaux, de prévention, de diagnostic, d'exploration, de traitements ou de soins pratiqués par des médecins et auxiliaires médicaux visés à la Quatrième partie du Code de la santé publique ou par des praticiens autorisés à exercer par la législation française ainsi que dans tout établissement, service ou organisme dans lequel sont réalisés de tels actes. Il y a accident médical lorsqu'un acte ou un ensemble d'actes à caractère médical, qu'il soit fautif ou non, a eu sur l'assuré des conséquences anormales au regard de son état de santé comme de l'évolution prévisible de celui-ci."
+    },
+    {
+      "term": "Actif",
+      "page": 4,
+      "definition": "Qualité acquise lorsque l'assuré : exerce une profession (salariée ou non) même à temps partiel, est apprenti, stagiaire rémunéré, est demandeur d'emploi bénéficiaire de l'assurance chômage."
+    },
+    {
+      "term": "Affection iatrogène",
+      "page": 4,
+      "definition": "Affection consécutive à un traitement médicamenteux ou effet secondaire lié à un traitement médical."
+    },
+    {
+      "term": "Assistance permanente par tierce personne",
+      "page": 4,
+      "definition": "Assistance quotidienne et définitive de l'assuré conservant, après consolidation de son état, des séquelles physiologiques et/ou neuropsychologiques imputables à l'accident qui nécessitent de pallier l'impossibilité ou la difficulté d'effectuer les actes de la vie quotidienne."
+    },
+    {
+      "term": "Conditions générales",
+      "page": 4,
+      "definition": "Présent document décrivant les garanties proposées et le fonctionnement du contrat."
+    },
+    {
+      "term": "Conditions particulières et leurs annexes",
+      "page": 4,
+      "definition": "Documents délivrés lors de la souscription du contrat ou de sa modification (avenant) précisant notamment le nom des personnes assurées ainsi que l'énoncé et le plafond des garanties souscrites."
+    },
+    {
+      "term": "Conjoint",
+      "page": 4,
+      "definition": "Personnes non séparées de droit ou de fait, vivant sous le même toit : mariées, unies par un pacte civil de solidarité, communément considérées comme formant un couple."
+    },
+    {
+      "term": "Consolidation",
+      "page": 4,
+      "definition": "Moment où les lésions se sont fixées et ont pris un caractère permanent tel qu'un traitement n'est plus nécessaire, si ce n'est pour éviter une aggravation"
+    },
+    {
+      "term": "Déchéance",
+      "page": 4,
+      "definition": "Perte du droit à la garantie de l'assureur, en cas de sinistre, lorsque l'assuré ou son représentant légal n'a pas exécuté ses obligations contractuelles."
+    },
+    {
+      "term": "Économiquement à charge",
+      "page": 4,
+      "definition": "Personne remplissant au moins l'une des conditions énumérées ci-dessous : rattachée au foyer fiscal du souscripteur ou de son conjoint, pour laquelle une pension alimentaire est réglée, dont les ressources personnelles ne dépassent pas 3 Salaires Minimum Interprofessionnels de Croissance (SMIC) nets par an."
+    },
+    {
+      "term": "France",
+      "page": 5,
+      "definition": "France métropolitaine et Départements et Régions d'Outre-Mer (Guadeloupe, Guyane, Martinique, Mayotte et La Réunion)."
+    },
+    {
+      "term": "Incapacité permanente (AIPP : Atteinte permanente à l'Intégrité Physique et Psychique)",
+      "page": 5,
+      "definition": "Réduction définitive du potentiel physique, psychosensoriel ou intellectuel, à laquelle s'ajoutent les phénomènes douloureux et les répercussions physiologiques normalement liées à l'atteinte dans la vie de tous les jours."
+    },
+    {
+      "term": "Incapacité temporaire de travail",
+      "page": 5,
+      "definition": "Période d'arrêt de travail retenue par le médecin expert désigné par nos soins."
+    },
+    {
+      "term": "Incapacité Temporaire Totale (ITT)",
+      "page": 5,
+      "definition": "Période antérieure à la consolidation, pendant laquelle, du fait des blessures, l'assuré est dans l'incapacité totale de poursuivre ses activités habituelles."
+    },
+    {
+      "term": "Infection nosocomiale",
+      "page": 5,
+      "definition": "Infection contractée dans un établissement de soins et qui était absente au moment de l'admission de l'assuré."
+    },
+    {
+      "term": "Nullité du contrat",
+      "page": 5,
+      "definition": "Mesure visée par la loi pour rendre nul un contrat pour l'un des motifs suivants : fausse déclaration volontaire du risque par l'assuré, à la souscription ou en cours de contrat, dans l'intention de tromper l'assureur. Elle constitue un manquement à l'obligation de contracter de bonne foi. La nullité est encourue même en l'absence d'incidence de la fausse déclaration sur le sinistre (article L. 113-8 du Code des assurances) ; vices du consentement (erreur, dol ou violence - articles 1130 à 1144 du Code civil) lorsqu'ils sont de telle nature que, sans eux, l'une des parties n'aurait pas contracté ou aurait contracté à des conditions substantiellement différentes. Le contrat est considéré comme n'ayant jamais existé."
+    },
+    {
+      "term": "ONIAM",
+      "page": 5,
+      "definition": "Office national d'indemnisation des victimes d'accidents médicaux, d'affections iatrogènes et d'infections nosocomiales : établissement public, mis en place par la loi n° 2002-303 du 4 mars 2002 (relative aux droits des malades et à la qualité du système de santé), chargé de l'indemnisation des victimes d'accidents médicaux, d'affections iatrogènes ou d'infections nosocomiales présentant un certain seuil de gravité."
+    },
+    {
+      "term": "Perte de chance",
+      "page": 5,
+      "definition": "La perte de chance consécutive à un accident sanitaire est constituée par la disparition actuelle, réelle et sérieuse de la probabilité d'un événement favorable."
+    },
+    {
+      "term": "Préjudice esthétique permanent",
+      "page": 5,
+      "definition": "Atteintes altérant l'apparence physique de l'assuré persistant après consolidation."
+    },
+    {
+      "term": "Prescription",
+      "page": 5,
+      "definition": "Délai à l'issue duquel le titulaire d'un droit ne dispose plus d'action pour le faire valoir."
+    },
+    {
+      "term": "Réduction des indemnités",
+      "page": 5,
+      "definition": "Mesure visée par la loi – article L. 113-9 du Code des assurances – pour sanctionner le souscripteur ayant, de bonne foi, omis de déclarer à l'assureur tous les éléments du risque ou ayant fait une déclaration inexacte à la souscription ou en cours de contrat qui, en conséquence, n'a pas permis à l'assureur d'appliquer une cotisation adaptée. En cas de constatation de cette omission ou de cette déclaration inexacte après un sinistre, l'indemnité de sinistre est alors réduite en proportion de la cotisation payée par rapport à la cotisation qui aurait été due si le souscripteur avait complètement et exactement déclaré le risque."
+    },
+    {
+      "term": "Sinistre",
+      "page": 5,
+      "definition": "Réalisation d'un événement accidentel susceptible de mettre en jeu au moins une garantie du contrat."
+    },
+    {
+      "term": "Sociétaire",
+      "page": 5,
+      "definition": "Souscripteur préalablement admis comme adhérent de la Matmut."
+    },
+    {
+      "term": "Souffrances endurées",
+      "page": 5,
+      "definition": "Souffrances physiques et psychiques endurées par l'assuré du jour de l'accident jusqu'à la consolidation de ses blessures."
+    },
+    {
+      "term": "Souscripteur",
+      "page": 5,
+      "definition": "Signataire du contrat défini sous ce nom aux Conditions particulières."
+    },
+    {
+      "term": "Subrogation",
+      "page": 5,
+      "definition": "Substitution de l'assureur dans les droits de l'assuré, lorsqu'il a été indemnisé, contre les tiers responsables du sinistre."
+    },
+    {
+      "term": "Support durable",
+      "page": 6,
+      "definition": "Tout instrument offrant la possibilité à l'assuré ou à l'assureur de stocker des informations qui lui sont adressées personnellement, afin de pouvoir s'y reporter ultérieurement pendant un laps de temps adapté aux fins auxquelles les informations sont destinées, et qui permet la reproduction à l'identique des informations conservées."
+    },
+    {
+      "term": "Tacite reconduction",
+      "page": 6,
+      "definition": "Renouvellement automatique du contrat à son échéance annuelle. Lorsque le contrat n'est pas résilié dans les formes et conditions prévues par les présentes Conditions générales, il est automatiquement renouvelé pour une durée d'un an."
+    },
+    {
+      "term": "Unité de valeur",
+      "page": 6,
+      "definition": "Une enveloppe globale de services à la personne ou de prestations d'accompagnement personnalisé, exprimée en crédit d'unités de valeur, est accordée au bénéficiaire en fonction de la nature et de l'intensité des dommages corporels de l'assuré consécutifs à l'accident. Chaque service ou prestation proposé est affecté d'un nombre d'unités de valeur venant, au fur et à mesure de sa consommation, en déduction de l'enveloppe globale accordée au bénéficiaire. Le nombre d'unités de valeur affecté à chaque service ou prestation est détaillé à l'annexe I."
+    },
+    {
+      "term": "Véhicule terrestre à moteur",
+      "page": 6,
+      "definition": "Véhicule automoteur destiné à circuler sur le sol, actionné par une force mécanique, ainsi que toute remorque, même non attelée (y compris les caravanes) soumis à l'obligation d'assurance conformément à l'article L. 211-1 du Code des assurances. Outre les véhicules de tourisme et utilitaires légers, les poids lourds, les véhicules destinés au transport de personnes ou de marchandises, les tracteurs, les engins professionnels automoteurs, les camping-cars, les voiturettes, les cyclomoteurs, les motocyclettes, les tricycles à moteur, les quadricycles à moteur, les cyclomobiles légers, les scooters électriques modulaires répondent à la présente définition les tondeuses autoportées (micro-tracteurs) ainsi que les engins de déplacement personnels motorisés visés au paragraphe 6.15 de l'article R. 311-1 du Code de la route (hoverboards, skateboards, monoroues, gyropodes, gyroskates, trottinettes à moteur et patins à roulettes électriques)."
+    },
+    {
+      "term": "Nous",
+      "page": 6,
+      "definition": "Matmut. Matmut Assistance pour les services à la personne et les prestations d'accompagnement personnalisé."
+    },
+    {
+      "term": "Vous",
+      "page": 6,
+      "definition": "Le souscripteur en ce qui concerne le Titre V « Fonctionnement de votre contrat ». Toute personne ayant la qualité d'assuré pour les autres Titres."
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Incapacité permanente et professionnelle — capital de base",
+      "page": 15,
+      "is_optional": false,
+      "territorial_scope": "France et Principauté de Monaco ; monde entier pendant les douze premiers mois du séjour hors de France ; séjour de toute durée effectué à la demande de l'employeur pour une mission temporaire dans un pays de l'Union européenne, en Islande, en Norvège, dans les Principautés d'Andorre et de Liechtenstein, au Royaume-Uni, à Saint-Marin, en Suisse et au Vatican (article 8, page 14).",
+      "description": "En cas d'accident consécutif à un événement couvert visé à l'article 7, lorsque l'assuré conserve, après consolidation des blessures, une incapacité permanente (AIPP) directement imputable à l'accident et au moins égale à 10 %, versement d'un capital de base. La garantie couvre les conséquences physiologiques (déficit fonctionnel permanent) et économiques (incidence professionnelle, perte de gains professionnels futurs) de l'incapacité permanente (AIPP) fixées par le médecin expert désigné par l'assureur. Le capital versé correspond au montant résultant de la multiplication du taux d'incapacité permanente (AIPP) par la valeur du point correspondant à ce taux, auquel il convient s'il y a lieu d'appliquer les majorations ou abattement prévus aux articles 9-2 C et 9-2 D. L'indemnité est versée sous forme d'un capital dont le montant ne peut être révisé en cas de modification ultérieure des prestations des tiers payeurs.",
+      "limits": "Capital maximum garanti : de 10 à 39 % : 5 070 € (Niveau 1) / 23 400 € (Niveau 2) ; de 40 à 65 % : 19 500 € (Niveau 1) / 55 250 € (Niveau 2) ; > à 65 % : 50 000 € (Niveau 1) / 110 000 € (Niveau 2). En présence d'une assistance permanente par tierce personne d'au moins 2 heures par jour : de 10 à 39 % : 7 605 € / 35 100 € ; de 40 à 65 % : 29 250 € / 82 875 € ; > à 65 % : 75 000 € / 165 000 € (article 4-1, pages 8 et 9).",
+      "sub_limits": [
+        "Valeurs du point (sans assistance permanente par tierce personne d'au moins 2 heures par jour) : de 10 à 39 % : 130 € (Niveau 1) / 600 € (Niveau 2) ; de 40 à 65 % : 300 € / 850 € ; > à 65 % : 500 € / 1 100 € (article 9-2 A, page 15).",
+        "Valeurs du point en présence d'une assistance permanente par tierce personne d'au moins 2 heures par jour (majoration de 50 %) : de 10 à 39 % : 195 € / 900 € ; de 40 à 65 % : 450 € / 1 275 € ; > à 65 % : 750 € / 1 650 € (article 9-2 B, page 16).",
+        "Majoration pour inaptitude totale au travail : lorsque le taux d'incapacité permanente (AIPP) est supérieur à 65 % et que l'assuré victime, non retraité, est médicalement reconnu inapte à se livrer à un travail ou à une occupation lui procurant un gain ou un profit, le calcul de l'indemnité est effectué sur la base d'un taux d'incapacité permanente (AIPP) de 100 % (article 9-2 C, page 16).",
+        "Abattement en raison de l'âge : lorsque l'assuré est âgé de plus de 70 ans au jour de l'accident, abattement de 5 % par année d'âge supplémentaire sur la valeur du point, sans jamais dépasser 75 % de la valeur du point d'incapacité (100 % à 70 ans, 95 % à 71 ans, 90 % à 72 ans, 85 % à 73 ans, 80 % à 74 ans, 75 % à 75 ans, 70 % à 76 ans, 65 % à 77 ans, 60 % à 78 ans, 55 % à 79 ans, 50 % à 80 ans, 45 % à 81 ans, 40 % à 82 ans, 35 % à 83 ans, 30 % à 84 ans, 25 % à 85 ans et au-delà) (article 9-2 D, page 16).",
+        "La majoration pour assistance permanente par tierce personne n'est pas due lorsque l'assuré demeure placé dans un établissement spécialisé et/ou de soins après la consolidation de ses blessures (article 9-2 B, page 16)."
+      ],
+      "deductible": null,
+      "conditions": [
+        "Seuil de déclenchement : taux d'incapacité permanente (AIPP) égal ou supérieur à 10 % (article 4-1, page 8).",
+        "Le taux d'incapacité permanente (AIPP) est déterminé par un médecin expert, spécialiste en évaluation médico-légale du dommage corporel, désigné par l'assureur, conformément au « barème indicatif d'évaluation des taux d'incapacité en droit commun » publié dans la revue Le Concours Médical (dernière édition) (page 15).",
+        "Cette garantie (capital de base en cas d'incapacité permanente) est l'une des deux seules ouvertes lorsqu'un véhicule terrestre à moteur est impliqué dans la réalisation de l'accident (article 7-2, page 13)."
+      ]
+    },
+    {
+      "name": "Incapacité permanente et professionnelle — capital complémentaire",
+      "page": 15,
+      "is_optional": false,
+      "territorial_scope": "France et Principauté de Monaco ; monde entier pendant les douze premiers mois du séjour hors de France ; séjour de toute durée effectué à la demande de l'employeur pour une mission temporaire dans un pays de l'Union européenne, en Islande, en Norvège, dans les Principautés d'Andorre et de Liechtenstein, au Royaume-Uni, à Saint-Marin, en Suisse et au Vatican (article 8, page 14).",
+      "description": "Capital complémentaire versé, dans les mêmes conditions de seuil que le capital de base, au titre de la garantie Incapacité permanente et professionnelle. L'indemnité ne peut pas se cumuler avec d'autres indemnités qui réparent les mêmes postes de préjudice (déficit fonctionnel permanent, incidence professionnelle, perte de gains professionnels futurs et assistance permanente par tierce personne). Le capital versé est égal à la différence entre, d'une part, le montant résultant de la multiplication du taux d'incapacité permanente (AIPP) par la valeur du point correspondant à ce taux (après majorations ou abattement des articles 9-2 C et 9-2 D et, en cas d'accident sanitaire, après application du pourcentage de la perte de chance) et, d'autre part, les indemnités reçues ou à recevoir par l'assuré au titre de son incapacité permanente (AIPP), de ses répercussions professionnelles et économiques et de l'assistance permanente par tierce personne, de l'employeur, d'un régime de protection sociale ou de prévoyance collective obligatoire, des caisses de retraite complémentaire ou des mutuelles, du ou des débiteurs d'indemnités, de leurs garants, du FGTI ou de l'ONIAM. Lorsque les indemnités réglées à ce titre sont versées sous forme de rente, elles sont capitalisées en fonction du même taux d'actualisation et de la même table de mortalité que ceux de l'arrêté du 27 décembre 2011 relatif à l'application des articles R. 376-1 et R. 454-1 du Code de la sécurité sociale en vigueur au jour de l'accident.",
+      "limits": "Capital maximum garanti : de 10 à 39 % : 91 650 € (Niveau 1) / 126 750 € (Niveau 2) ; de 40 à 65 % : 204 750 € (Niveau 1) / 282 750 € (Niveau 2) ; > à 65 % : 545 000 € (Niveau 1) / 750 000 € (Niveau 2). En présence d'une assistance permanente par tierce personne d'au moins 2 heures par jour : de 10 à 39 % : 137 475 € / 190 125 € ; de 40 à 65 % : 307 125 € / 424 125 € ; > à 65 % : 817 500 € / 1 125 000 € (article 4-1, pages 8 et 9).",
+      "sub_limits": [
+        "Valeurs du point (sans assistance permanente par tierce personne d'au moins 2 heures par jour) : de 10 à 39 % : 2 350 € (Niveau 1) / 3 250 € (Niveau 2) ; de 40 à 65 % : 3 150 € / 4 350 € ; > à 65 % : 5 450 € / 7 500 € (article 9-2 A, page 16).",
+        "Valeurs du point en présence d'une assistance permanente par tierce personne d'au moins 2 heures par jour : de 10 à 39 % : 3 525 € / 4 875 € ; de 40 à 65 % : 4 725 € / 6 525 € ; > à 65 % : 8 175 € / 11 250 € (article 9-2 B, page 16)."
+      ],
+      "deductible": null,
+      "conditions": [
+        "Seuil de déclenchement : taux d'incapacité permanente (AIPP) égal ou supérieur à 10 %.",
+        "Non garanti à la suite d'un accident dans la réalisation duquel est impliqué un véhicule terrestre à moteur, ainsi que ses remorques ou semi-remorques, autres que les véhicules ferroviaires et les tramways circulant sur des voies qui leur sont propres (article 9-2 E-2, page 17)."
+      ]
+    },
+    {
+      "name": "Souffrances endurées",
+      "page": 17,
+      "is_optional": false,
+      "territorial_scope": "France et Principauté de Monaco ; monde entier pendant les douze premiers mois du séjour hors de France ; séjour de toute durée effectué à la demande de l'employeur pour une mission temporaire dans un pays de l'Union européenne, en Islande, en Norvège, dans les Principautés d'Andorre et de Liechtenstein, au Royaume-Uni, à Saint-Marin, en Suisse et au Vatican (article 8, page 14).",
+      "description": "En cas d'accident consécutif à un événement couvert visé à l'article 7, lorsque l'assuré conserve, après consolidation des blessures, une incapacité permanente directement imputable à l'accident et au moins égale à 10 %, versement d'une indemnité au titre des souffrances endurées ayant donné lieu à une qualification définitive par le médecin expert désigné par l'assureur sur une échelle de gravité de 0,5 à 7. L'indemnité versée est égale à la différence entre le montant déterminé selon le tableau de l'article 10-3 (après application, en cas d'accident sanitaire, du pourcentage de la perte de chance) et les indemnités reçues ou à recevoir au même titre de l'employeur, d'un régime de protection sociale ou de prévoyance collective obligatoire, des caisses de retraite complémentaire ou des mutuelles, du ou des débiteurs d'indemnités, de leurs garants, du FGTI ou de l'ONIAM.",
+      "limits": "Barème par degré de qualification (échelle 0,5 à 7), Niveau 1 / Niveau 2 : 0,5 : 250 € / 250 € ; 1 : 600 € / 600 € ; 1,5 : 800 € / 800 € ; 2 : 1 200 € / 1 200 € ; 2,5 : 1 700 € / 1 700 € ; 3 : 2 500 € / 2 500 € ; 3,5 : 3 500 € / 3 500 € ; 4 : 5 000 € / 5 000 € ; 4,5 : 7 500 € / 7 500 € ; 5 : 10 000 € / 10 000 € ; 5,5 : 14 000 € / 17 500 € ; 6 : 20 000 € / 25 000 € ; 6,5 : 25 000 € / 32 500 € ; 7 : 32 000 € / 40 000 € (articles 4-1 page 9 et 10-3 page 17).",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Seuil de déclenchement : incapacité permanente au moins égale à 10 % après consolidation.",
+        "Qualification définitive par le médecin expert désigné par l'assureur sur une échelle de gravité de 0,5 à 7.",
+        "Outre les exclusions prévues à l'article 22, la garantie n'est pas due à la suite d'un accident dans la réalisation duquel est impliqué un véhicule terrestre à moteur, ainsi que ses remorques ou semi-remorques, autres que les véhicules ferroviaires et les tramways circulant sur des voies qui leur sont propres. (article 10-4, page 18).",
+        "En cas d'aggravation, seules les souffrances endurées à l'occasion de l'aggravation sont prises en compte pour déterminer le droit à indemnisation et son montant selon la grille d'évaluation de l'article 10-3 (article 17, page 22)."
+      ]
+    },
+    {
+      "name": "Préjudice esthétique permanent",
+      "page": 17,
+      "is_optional": false,
+      "territorial_scope": "France et Principauté de Monaco ; monde entier pendant les douze premiers mois du séjour hors de France ; séjour de toute durée effectué à la demande de l'employeur pour une mission temporaire dans un pays de l'Union européenne, en Islande, en Norvège, dans les Principautés d'Andorre et de Liechtenstein, au Royaume-Uni, à Saint-Marin, en Suisse et au Vatican (article 8, page 14).",
+      "description": "En cas d'accident consécutif à un événement couvert visé à l'article 7, lorsque l'assuré conserve, après consolidation des blessures, une incapacité permanente directement imputable à l'accident et au moins égale à 10 %, versement d'une indemnité au titre du préjudice esthétique permanent ayant donné lieu à une qualification définitive par le médecin expert désigné par l'assureur sur une échelle de gravité de 0,5 à 7, déduction faite des indemnités reçues ou à recevoir au même titre des tiers payeurs et débiteurs énumérés à l'article 10-2.",
+      "limits": "Barème par degré de qualification (échelle 0,5 à 7), Niveau 1 / Niveau 2 : 0,5 : 250 € / 250 € ; 1 : 600 € / 600 € ; 1,5 : 800 € / 800 € ; 2 : 1 200 € / 1 200 € ; 2,5 : 1 700 € / 1 700 € ; 3 : 2 500 € / 2 500 € ; 3,5 : 3 500 € / 3 500 € ; 4 : 5 000 € / 5 000 € ; 4,5 : 7 500 € / 7 500 € ; 5 : 10 000 € / 10 000 € ; 5,5 : 14 000 € / 17 500 € ; 6 : 20 000 € / 25 000 € ; 6,5 : 25 000 € / 32 500 € ; 7 : 32 000 € / 40 000 € (articles 4-1 page 9 et 10-3 page 17).",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Seuil de déclenchement : incapacité permanente au moins égale à 10 % après consolidation.",
+        "Outre les exclusions prévues à l'article 22, la garantie n'est pas due à la suite d'un accident dans la réalisation duquel est impliqué un véhicule terrestre à moteur, ainsi que ses remorques ou semi-remorques, autres que les véhicules ferroviaires et les tramways circulant sur des voies qui leur sont propres. (article 10-4, page 18).",
+        "En cas de décès de l'assuré après consolidation mais avant règlement intégral, l'indemnité due au titre du préjudice esthétique permanent (article 10-2) est réduite au prorata de la période comprise entre la date de consolidation et le décès (article 5-2, page 11)."
+      ]
+    },
+    {
+      "name": "Frais de prothèse et/ou de fauteuil roulant",
+      "page": 18,
+      "is_optional": false,
+      "territorial_scope": "France et Principauté de Monaco ; monde entier pendant les douze premiers mois du séjour hors de France ; séjour de toute durée effectué à la demande de l'employeur pour une mission temporaire dans un pays de l'Union européenne, en Islande, en Norvège, dans les Principautés d'Andorre et de Liechtenstein, au Royaume-Uni, à Saint-Marin, en Suisse et au Vatican (article 8, page 14).",
+      "description": "En cas d'accident consécutif à un événement couvert visé à l'article 7, lorsque l'assuré conserve, après consolidation des blessures, une incapacité permanente directement imputable à l'accident et au moins égale à 10 %, remboursement des frais engagés et restés à sa charge pour l'acquisition, rendue nécessaire par l'accident, de la première prothèse définitive (fonctionnelle, organique, optique, auditive, dentaire) et/ou du premier fauteuil roulant. L'indemnité est égale à la différence entre le coût de la première prothèse définitive et/ou du premier fauteuil roulant (après application, en cas d'accident sanitaire, du pourcentage de la perte de chance) et les sommes reçues ou à recevoir au titre de ces frais des tiers payeurs et débiteurs énumérés à l'article 11-2.",
+      "limits": "20 000 € (Niveau 1) / 40 000 € (Niveau 2) (articles 4-1 page 9 et 11-3 page 18).",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Seuil de déclenchement : incapacité permanente au moins égale à 10 % après consolidation.",
+        "Les besoins de l'assuré en prothèse et/ou fauteuil roulant sont soumis à l'accord du médecin expert désigné par l'assureur (page 15).",
+        "Outre les exclusions prévues à l'article 22, la garantie n'est pas due à la suite d'un accident dans la réalisation duquel est impliqué un véhicule terrestre à moteur, ainsi que ses remorques ou semi-remorques, autres que les véhicules ferroviaires et les tramways circulant sur des voies qui leur sont propres. (article 11-4, page 18)."
+      ]
+    },
+    {
+      "name": "Frais de logement et/ou de véhicule adapté(s)",
+      "page": 18,
+      "is_optional": false,
+      "territorial_scope": "France et Principauté de Monaco ; monde entier pendant les douze premiers mois du séjour hors de France ; séjour de toute durée effectué à la demande de l'employeur pour une mission temporaire dans un pays de l'Union européenne, en Islande, en Norvège, dans les Principautés d'Andorre et de Liechtenstein, au Royaume-Uni, à Saint-Marin, en Suisse et au Vatican (article 8, page 14).",
+      "description": "En cas d'accident consécutif à un événement couvert visé à l'article 7, lorsque l'assuré conserve, après consolidation des blessures, une incapacité permanente directement imputable à l'accident et au moins égale à 10 % et est confronté, du fait des séquelles imputables à l'accident indemnisé, à des gênes médicalement constatées engendrées par l'inadaptation de son logement et/ou de son véhicule automobile, versement d'une indemnité au titre des frais engagés pour l'aménagement du logement et/ou du véhicule. L'assureur définit et chiffre, avec le concours d'un organisme spécialisé s'il y a lieu, le coût des mesures d'aménagement. Pour les frais de logement, la prise en charge est limitée aux travaux et aménagements immobiliers nécessaires pour adapter le logement au handicap. L'indemnité correspond à la différence entre le coût d'acquisition ou de réalisation initiale des mesures d'adaptation (après application, en cas d'accident sanitaire, du pourcentage de la perte de chance) et les indemnités reçues ou à recevoir au même titre des tiers payeurs et débiteurs énumérés à l'article 12-3.",
+      "limits": "Logement adapté : 60 000 € (Niveau 1) / 70 000 € (Niveau 2). Véhicule adapté : 30 000 € (Niveau 1) / 40 000 € (Niveau 2) (articles 4-1 page 10 et 12-4 page 19).",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Seuil de déclenchement : incapacité permanente au moins égale à 10 % après consolidation.",
+        "Les besoins de l'assuré en aménagement de son logement et/ou de son véhicule sont soumis à l'accord du médecin expert désigné par l'assureur (page 15).",
+        "Outre les exclusions prévues à l'article 22, la garantie n'est pas due à la suite d'un accident dans la réalisation duquel est impliqué un véhicule terrestre à moteur, ainsi que ses remorques ou semi-remorques, autres que les véhicules ferroviaires et les tramways circulant sur des voies qui leur sont propres. (article 12-5, page 19)."
+      ]
+    },
+    {
+      "name": "Services à la personne",
+      "page": 19,
+      "is_optional": false,
+      "territorial_scope": "Exclusivement en France et dans la Principauté de Monaco. Lorsque certains services ou prestations ne peuvent être mis en œuvre par Matmut Assistance dans un Département ou une Région d'Outre-mer, ils sont pris en charge par Matmut Assistance dans la limite des barèmes appliqués par son réseau de prestataires en France métropolitaine (article 8-3, page 14).",
+      "description": "En cas d'accident consécutif à un événement couvert visé à l'article 7 entraînant une incapacité temporaire totale ou un temps partiel thérapeutique, l'assuré bénéficie d'un crédit de services à la personne, dont le nombre d'unités de valeur alloué est utilisable exclusivement pendant la période d'incapacité. Services accordés à l'un quelconque des assurés blessés : aide ménagère, auxiliaire de vie, déplacement accompagné, jardinage, livraison de courses, livraison de médicaments, portage de repas, prise en charge des animaux de compagnie, coiffure à domicile. Service accordé à l'assuré blessé scolarisé (niveaux primaire et secondaire) : soutien scolaire à domicile ou en ligne. Ces services sont mis en œuvre après accord des services de l'assureur, qui mettent l'assuré en relation avec l'organisme prestataire. Les services à la personne sont réalisés par IMA GIE (118 avenue de Paris – 79000 Niort).",
+      "limits": "Nombre d'unités de valeur alloué selon la durée globale d'incapacité : ≤ à 45 jours : 10 unités de valeur (15 avec majoration) ; > à 45 jours et ≤ à 60 jours : 20 (30) ; > à 60 jours et ≤ à 90 jours : 30 (45) ; > à 90 jours : 40 (60) (articles 4-1 page 8 et 13-3 pages 19-20).",
+      "sub_limits": [
+        "Majoration de 50 % du nombre d'unités de valeur lorsque l'assuré remplit au moins l'une des conditions suivantes : hospitalisé pour une durée consécutive de plus de 2 jours du fait de l'accident ; a la charge d'au moins un enfant âgé de moins de 16 ans ; apporte une assistance permanente à une personne dépendante en raison de son âge ou d'un handicap (article 13-3, page 20).",
+        "Nombre d'unités de valeur affecté à chaque service (Annexe I, I-A 1, page 39) : Aide-ménagère (1 heure) 1 ; Auxiliaire de vie (1 heure) 2 ; Déplacement accompagné (1 transport aller-retour dans un rayon de 50 km du domicile de l'assuré) 3 ; Jardinage (1 heure) 2 ; Livraison de courses (1 livraison dans un rayon de 50 km du domicile de l'assuré) 3 ; Livraison de médicaments (1 livraison) 2 ; Portage de repas (1 livraison d'un pack) 2 ; Prise en charge des animaux de compagnie — transport aller-retour de l'animal 3, garde par un pet-sitter (par jour et par animal) 1, garde en pension animalière (par jour et par animal) 3 ; Coiffure à domicile — 1 déplacement aller-retour 1, prise en charge d'une partie de la prestation sur justificatif dans la limite de 25 € 1.",
+        "Soutien scolaire (Annexe I, I-A 1, page 39) : soutien scolaire à domicile (1 heure, du lundi au vendredi, hors vacances scolaires et jours fériés) 2 unités de valeur ; soutien scolaire en ligne — 1 abonnement de 3 mois sans professeur 3, 1 abonnement de 6 mois sans professeur 4, 1 abonnement de 12 mois sans professeur 6, 1 abonnement de 6 mois niveau collège + 18h avec un professeur 42, 1 abonnement de 6 mois niveau lycée + 18h avec un professeur 45.",
+        "Aide-ménagère : prestation accessible en journée, du lundi au vendredi, hors jours fériés, accordée par tranche minimale de 2 heures par intervention (Annexe I, page 40).",
+        "Auxiliaire de vie : prestation accessible en journée, du lundi au dimanche, accordée par tranche minimale d'une heure par intervention (Annexe I, page 40).",
+        "Déplacement accompagné : déplacement non médicalisé aller-retour dans un rayon de 50 km du domicile, lorsqu'aucune solution de transport par des proches n'est possible (Annexe I, page 40).",
+        "Jardinage : opérations d'entretien courant limitativement énumérées (tondre la pelouse, débroussailler, désherber, enlever la mousse des allées et terrasses, entretenir les massifs et balcons, arroser, traiter des arbres et plantes, ramasser des feuilles, cueillir des fruits et légumes à des fins de consommation, déneiger les accès, enlever des déchets) ; prestation accessible en journée, du lundi au vendredi, hors jours fériés, par tranche minimale de 2 heures par intervention (Annexe I, page 40).",
+        "Livraison de courses : prise en charge des frais de livraison à domicile sur présentation d'un justificatif de paiement dans un rayon de 50 km, ou organisation du retrait des courses dans un centre commercial et de leur livraison à domicile par un taxi (Annexe I, page 40).",
+        "Livraison de médicaments : livraison, par le moyen le plus approprié, des médicaments délivrés par la pharmacie la plus proche du domicile (Annexe I, page 40).",
+        "Portage de repas : livraison d'un pack contenant 5 à 7 jours de repas (déjeuner et dîner) ; prestation accessible en journée, du lundi au vendredi, hors jours fériés (Annexe I, pages 40 et 41).",
+        "Prise en charge des animaux de compagnie (chiens, chats, oiseaux, lapins, petits rongeurs) : transport aller-retour de l'animal (rayon de 50 km) ou garde par un pet-sitter ou en pension animalière, sur présentation d'un justificatif de paiement (Annexe I, page 41).",
+        "Coiffure à domicile : déplacement aller-retour d'un coiffeur ; prestation de coiffure prise en charge sur présentation d'un justificatif de paiement dans la limite de 25 € ; accessible en journée, du lundi au vendredi, hors jours fériés (Annexe I, page 41).",
+        "Soutien scolaire : matières principales (mathématiques, français, Sciences et Vie de la Terre, physique/chimie, langues, histoire/géographie, philosophie, économie) ; cours particuliers à domicile jusqu'à la reprise des cours, du lundi au vendredi, dans la limite de 3 heures par jour et au plus jusqu'au terme de l'année scolaire de survenance de l'accident, hors vacances scolaires et jours fériés ; ou cours en ligne (abonnement à un portail web de e-learning) sur présentation d'un justificatif de paiement (Annexe I, page 41)."
+      ],
+      "deductible": null,
+      "conditions": [
+        "Incapacité temporaire totale ou temps partiel thérapeutique, quelle que soit la gravité des blessures.",
+        "Crédit utilisable exclusivement pendant la période d'incapacité.",
+        "Chaque service proposé est affecté d'un nombre d'unités de valeur venant, au fur et à mesure de sa consommation, en déduction du plafond d'unités de valeur accordé à l'assuré (article 13-3, page 20 et Annexe I).",
+        "Outre les exclusions prévues à l'article 22, la garantie n'est pas due à la suite d'un accident dans la réalisation duquel est impliqué un véhicule terrestre à moteur, ainsi que ses remorques ou semi-remorques, autres que les véhicules ferroviaires et les tramways circulant sur des voies qui leur sont propres. (article 13-4, page 20)."
+      ]
+    },
+    {
+      "name": "Prestations d'accompagnement personnalisé (en cas de blessures)",
+      "page": 20,
+      "is_optional": false,
+      "territorial_scope": "Exclusivement en France et dans la Principauté de Monaco. Lorsque certains services ou prestations ne peuvent être mis en œuvre par Matmut Assistance dans un Département ou une Région d'Outre-mer, ils sont pris en charge par Matmut Assistance dans la limite des barèmes appliqués par son réseau de prestataires en France métropolitaine (article 8-3, page 14).",
+      "description": "En cas d'accident consécutif à un événement couvert visé à l'article 7, lorsque l'assuré conserve, après consolidation des blessures, une incapacité permanente directement imputable à l'accident et au moins égale à 30 %, il bénéficie d'un crédit de prestations d'accompagnement personnalisé, dont le nombre d'unités de valeur alloué est utilisable dans les 48 mois suivant la consolidation des blessures. Prestations accordées à l'un quelconque des assurés blessés : soutien social, soutien psychologique, soutien ergothérapique, hippothérapie, aide à domicile. Prestations accordées à l'assuré blessé autre que le souscripteur ou son conjoint (formule Famille) : prise en charge de l'assuré de moins de 16 ans ou de celui atteint d'un handicap sans limite d'âge, conduite à l'école de l'assuré scolarisé ou conduite aux examens scolaires ou aux stages et retour au domicile, conduite de l'assuré scolarisé aux activités extrascolaires et retour au domicile, soutien scolaire de l'assuré scolarisé. Prestations accordées au souscripteur ou à son conjoint assuré blessé (formule Famille) : prise en charge des assurés de moins de 16 ans ou de ceux atteints d'un handicap sans limite d'âge, conduite à l'école des assurés scolarisés ou conduite aux examens scolaires ou aux stages et retour au domicile, conduite des assurés scolarisés aux activités extrascolaires et retour au domicile. Réalisées par IMA GIE (118 avenue de Paris – 79000 Niort).",
+      "limits": "Plafond : 10 000 €, soit 500 unités de valeur (articles 4-1 page 10 et 14-3 page 20).",
+      "sub_limits": [
+        "Nombre d'unités de valeur affecté à chaque prestation (Annexe I, I-B 1, pages 42 et 43) — Soutien social : conseil social (1 entretien téléphonique) 4 ; bilan social, 1 prestation (2 à 3 entretiens téléphoniques sur une durée de 2 mois) 12 ; prestation de coordination et de suivi, 1 prestation (toute la durée de vie du dossier) 39 ; accompagnement budgétaire, 1 prestation (accompagnement individuel sur une durée de 6 mois) 20 ; aide au retour à l'emploi, 1 prestation (accompagnement individuel sur une durée de 6 mois) 25.",
+        "Soutien psychologique (Annexe I, page 42) — assuré majeur : 1 entretien téléphonique (jusqu'à 4 entretiens téléphoniques supplémentaires) 4, 1er entretien en vis-à-vis 7, 1 entretien en vis-à-vis supplémentaire (jusqu'à 2 entretiens supplémentaires) 5 ; assuré mineur : 1er entretien en vis-à-vis 7, 1 entretien en vis-à-vis supplémentaire (jusqu'à 2 entretiens supplémentaires) 5.",
+        "Soutien ergothérapique (Annexe I, page 42) : bilan situationnel par un ergothérapeute au téléphone (1 prestation) 19 ; bilan situationnel par un ergothérapeute au domicile (1 prestation) 33.",
+        "Hippothérapie (Annexe I, page 42) : programme individuel 94 ; programme familial 235 ; hébergement (1 semaine du lundi au vendredi) quel que soit le programme choisi 40 ; frais de transport aller-retour quel que soit le programme choisi 90.",
+        "Aide à domicile (Annexe I, pages 42 et 43) : aide-ménagère (1 heure) 1 ; auxiliaire de vie (1 heure) 2 ; déplacement accompagné (1 transport aller-retour dans un rayon de 50 km du domicile de l'assuré) 3 ; jardinage (1 heure) 2 ; livraison de courses (1 livraison dans un rayon de 50 km) 3 ; livraison de médicaments (1 livraison) 2 ; portage de repas (1 livraison) 2 ; prise en charge des animaux de compagnie 3 / 1 / 3 ; coiffure à domicile 1 / 1 ; présence d'un proche (1 déplacement aller-retour + hébergement) 10 ; transfert de l'assuré chez un proche (1 déplacement aller-retour + accompagnant) 10 ; garde de l'assuré blessé de moins de 16 ans au domicile par un intervenant qualifié 2 ; conduite à l'école, aux examens scolaires ou aux stages et retour au domicile (1 trajet aller-retour par jour dans un rayon de 50 km) 3 ; conduite aux activités extrascolaires et retour au domicile (1 trajet aller-retour par jour dans un rayon de 50 km) 3.",
+        "Prise en charge de l'assuré de moins de 16 ans (Annexe I, page 43) : présence d'un proche (1 déplacement aller-retour) 10 ; transfert des enfants chez un proche (1 déplacement aller-retour + accompagnant) 10 ; garde au domicile par un intervenant qualifié (1 heure) 2.",
+        "Soutien psychologique : pour les assurés majeurs, jusqu'à 5 entretiens téléphoniques avec un psychologue clinicien et, si nécessaire, jusqu'à 3 entretiens en vis-à-vis ; pour les assurés mineurs, jusqu'à 3 entretiens en vis-à-vis. Garantie mise en œuvre 24h sur 24 du lundi au dimanche, y compris les jours fériés (Annexe I, page 45).",
+        "Aide au retour à l'emploi : accompagnement individuel de 6 mois par 6 entretiens téléphoniques avec un travailleur social ; aide à la recherche d'un nouvel emploi limitée à 7 entretiens en vis-à-vis (ou téléphoniques) sur une durée de 4 mois et, si nécessaire, 3 entretiens supplémentaires sur une durée de 3 mois à compter du 7e et dernier entretien (Annexe I, page 45).",
+        "Bilan social : prestation mise en œuvre sur une durée de 2 mois à compter du déclenchement de la prestation (Annexe I, page 44). Prestation de coordination et de suivi : peut s'étendre sur plusieurs années (Annexe I, page 44).",
+        "Hippothérapie : une semaine d'hippothérapie, programme individuel (5 séances pour l'assuré blessé, une séance par jour) ou programme familial (5 à 10 séances pour l'assuré blessé et un ou deux accompagnants — conjoint, ascendant ou descendant) ; hébergement de l'assuré et de sa famille (un à deux accompagnants) à proximité du site ; transport aller-retour du domicile avec un véhicule personnel ou de location de catégorie B, en train 1ère classe ou en avion classe économique, sur présentation de justificatif de paiement. Le service médical du prestataire étudie au préalable les pièces médicales attestant notamment de l'absence de contre-indications (Annexe I, page 46).",
+        "Présence d'un proche : déplacement aller-retour d'un proche par train 1ère classe, avion classe économique ou tout autre moyen de transport approprié, et hébergement dans un hôtel de type « 2 étoiles », dans la limite de 80 € par nuit d'hôtel, pour une durée maximale de 2 nuits lorsqu'il ne peut être accueilli au domicile de l'assuré ; taxis de liaison également pris en charge (Annexe I, page 47).",
+        "Conditions de territorialité des transports (Annexe I, page 47) : si l'assuré réside en France métropolitaine ou à Monaco, le déplacement pris en charge doit s'effectuer exclusivement en France métropolitaine ou à Monaco ; s'il réside dans les Départements et Régions d'Outre-Mer, le déplacement doit s'effectuer dans le seul Département ou la seule Région d'Outre-Mer de résidence de l'assuré."
+      ],
+      "deductible": null,
+      "conditions": [
+        "Seuil de déclenchement : taux d'incapacité permanente égal ou supérieur à 30 % (article 4-1, page 10).",
+        "Crédit utilisable dans les 48 mois suivant la consolidation des blessures.",
+        "Prestations mises en œuvre après accord des services de l'assureur, qui mettent l'assuré en relation avec l'organisme prestataire.",
+        "Outre les exclusions prévues à l'article 22, la garantie n'est pas due à la suite d'un accident dans la réalisation duquel est impliqué un véhicule terrestre à moteur, ainsi que ses remorques ou semi-remorques, autres que les véhicules ferroviaires et les tramways circulant sur des voies qui leur sont propres. (article 14-4, page 21)."
+      ]
+    },
+    {
+      "name": "Forfait hospitalisation",
+      "page": 21,
+      "is_optional": false,
+      "territorial_scope": "France et Principauté de Monaco ; monde entier pendant les douze premiers mois du séjour hors de France ; séjour de toute durée effectué à la demande de l'employeur pour une mission temporaire dans un pays de l'Union européenne, en Islande, en Norvège, dans les Principautés d'Andorre et de Liechtenstein, au Royaume-Uni, à Saint-Marin, en Suisse et au Vatican (article 8, page 14).",
+      "description": "En cas d'accident consécutif à un événement couvert visé à l'article 7 entraînant une hospitalisation continue supérieure à 2 jours, quelle que soit la gravité des blessures, versement d'un forfait. L'indemnité versée correspond à 50 € par jour d'hospitalisation. Le forfait hospitalisation est définitivement acquis à l'assuré (article 25, page 31).",
+      "limits": "Forfait de 50 €/jour, au minimum 150 € à compter du 3e jour, au maximum 1 500 € (articles 4-1 page 8 et 15-3 page 21).",
+      "sub_limits": [
+        "Pour les « actifs », le forfait versé vient en déduction du plafond prévu au titre de la garantie « Pertes de revenus professionnels » (article 15-3, page 21)."
+      ],
+      "deductible": null,
+      "conditions": [
+        "À compter de 3 jours consécutifs d'hospitalisation (article 4-1, page 8) ; hospitalisation continue supérieure à 2 jours (article 15-1, page 21).",
+        "Outre les exclusions prévues à l'article 22, la garantie n'est pas due à la suite d'un accident dans la réalisation duquel est impliqué un véhicule terrestre à moteur, ainsi que ses remorques ou semi-remorques, autres que les véhicules ferroviaires et les tramways circulant sur des voies qui leur sont propres. (article 15-4, page 21)."
+      ]
+    },
+    {
+      "name": "Pertes de revenus professionnels",
+      "page": 21,
+      "is_optional": false,
+      "territorial_scope": "France et Principauté de Monaco ; monde entier pendant les douze premiers mois du séjour hors de France ; séjour de toute durée effectué à la demande de l'employeur pour une mission temporaire dans un pays de l'Union européenne, en Islande, en Norvège, dans les Principautés d'Andorre et de Liechtenstein, au Royaume-Uni, à Saint-Marin, en Suisse et au Vatican (article 8, page 14).",
+      "description": "En cas d'accident consécutif à un événement couvert visé à l'article 7, remboursement, quelle que soit la gravité des blessures, des pertes de revenus professionnels du souscripteur « actif » ou de son conjoint « actif » (si formule Couple ou Famille souscrite) pendant la durée de son incapacité temporaire de travail, déterminée par le médecin expert désigné par l'assureur. Les pertes de revenus s'établissent pour les travailleurs salariés à partir des 3 derniers bulletins de salaire précédant l'accident, des bulletins de salaire durant l'arrêt de travail et de l'attestation de l'employeur chiffrant les pertes de salaire net soumis à l'impôt sur le revenu ; pour les travailleurs non salariés, à partir du revenu tiré de l'exercice de l'activité professionnelle ne pouvant plus temporairement s'exercer, prouvé par le dernier avis d'imposition ayant précédé l'accident et l'ensemble des documents communiqués à l'Administration Fiscale ; pour les travailleurs non salariés n'ayant pas encore été imposés, sur la base d'un forfait journalier de 50 € ; pour les demandeurs d'emploi bénéficiaires de l'assurance chômage, à partir de l'attestation chiffrant le montant net des indemnités. L'indemnité est égale à la différence entre ces pertes de revenus (après application, en cas d'accident sanitaire, du pourcentage de la perte de chance) et les indemnités reçues ou à recevoir des tiers payeurs et débiteurs énumérés à l'article 16-2.",
+      "limits": "Plafond : 8 500 €* (Niveau 1) / 10 000 €* (Niveau 2), * incluant 1 500 € au titre de la garantie « Forfait hospitalisation » (article 4-1, page 8). L'article 16-3 (page 22) indique un plafond unique de « 8 500 €* » sans distinguer les niveaux.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Réservée au souscripteur « actif » ou à son conjoint « actif » (si formule Couple ou Famille souscrite) ; bénéficiaire de l'indemnité : le souscripteur ou son conjoint, victime de l'accident, désigné aux Conditions particulières, « actif » (article 6-2, page 12).",
+        "Durée d'incapacité temporaire de travail déterminée par le médecin expert désigné par l'assureur.",
+        "Outre les exclusions prévues à l'article 22, la garantie n'est pas due à la suite d'un accident dans la réalisation duquel est impliqué un véhicule terrestre à moteur, ainsi que ses remorques ou semi-remorques, autres que les véhicules ferroviaires et les tramways circulant sur des voies qui leur sont propres. (article 16-4, page 22)."
+      ]
+    },
+    {
+      "name": "Aggravation des blessures",
+      "page": 22,
+      "is_optional": false,
+      "territorial_scope": "France et Principauté de Monaco ; monde entier pendant les douze premiers mois du séjour hors de France ; séjour de toute durée effectué à la demande de l'employeur pour une mission temporaire dans un pays de l'Union européenne, en Islande, en Norvège, dans les Principautés d'Andorre et de Liechtenstein, au Royaume-Uni, à Saint-Marin, en Suisse et au Vatican (article 8, page 14).",
+      "description": "L'aggravation se caractérise par une évolution de l'état de l'assuré, en relation directe et certaine avec l'accident, se traduisant par une augmentation du taux d'incapacité permanente (AIPP) fixé initialement. En présence d'une aggravation, l'assureur est susceptible de verser une indemnité déterminée selon les modalités de calcul et d'intervention définies pour chacun des postes de préjudice visés aux articles 9 et 11 à 16, sous réserve des seuils de déclenchement et dans la limite du plafond correspondant au poste de préjudice concerné, et déduction faite de l'ensemble des règlements effectués par l'assureur au titre dudit poste et par tout autre organisme débiteur d'indemnités tant au titre du préjudice initial qu'au titre des éventuelles aggravations successives. Lorsque le médecin expert désigné par l'assureur conclut à une absence de majoration du taux d'incapacité permanente (AIPP), l'assuré ne peut prétendre à aucune indemnisation complémentaire ; lorsqu'il conclut à une augmentation du taux, l'assuré est susceptible de percevoir une indemnité au titre des postes de préjudices visés aux articles 9 à 16.",
+      "limits": "Plafond correspondant au poste de préjudice concerné (article 17, page 22).",
+      "sub_limits": [
+        "Souffrances endurées : seules les souffrances endurées à l'occasion de l'aggravation sont prises en compte, selon la grille d'évaluation de l'article 10-3 (article 17, page 22)."
+      ],
+      "deductible": null,
+      "conditions": [
+        "Augmentation du taux d'incapacité permanente (AIPP) fixé initialement, constatée par le médecin expert désigné par l'assureur.",
+        "Sous réserve des seuils de déclenchement propres à chaque poste de préjudice."
+      ]
+    },
+    {
+      "name": "Participation aux frais d'obsèques",
+      "page": 23,
+      "is_optional": false,
+      "territorial_scope": "France et Principauté de Monaco ; monde entier pendant les douze premiers mois du séjour hors de France ; séjour de toute durée effectué à la demande de l'employeur pour une mission temporaire dans un pays de l'Union européenne, en Islande, en Norvège, dans les Principautés d'Andorre et de Liechtenstein, au Royaume-Uni, à Saint-Marin, en Suisse et au Vatican (article 8, page 14).",
+      "description": "En cas de décès de l'assuré survenant dans les douze mois de l'accident consécutif à un événement garanti visé à l'article 7, versement d'une indemnité en remboursement des frais engagés pour les obsèques. L'indemnité est égale à la différence entre les frais d'obsèques directement liés à l'inhumation ou à la crémation, sur présentation de justificatifs, et les indemnités reçues ou à recevoir par les bénéficiaires au titre de ce préjudice de l'employeur, d'un régime de protection sociale ou de prévoyance collective obligatoire, des caisses de retraite complémentaire ou des mutuelles, du ou des débiteurs d'indemnités, de leurs garants, du FGTI ou de l'ONIAM. Par dérogation aux dispositions de l'article 22, l'indemnité reste due dans le cas du suicide d'un assuré mineur. Bénéficiaire : la personne ayant exposé les frais (article 6-2, page 12).",
+      "limits": "2 000 € (Niveau 1) / 3 000 € (Niveau 2) ; frais pris en charge à concurrence des frais engagés dans la limite de ces plafonds (articles 4-1 page 10 et 18-4 page 23).",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Décès survenant dans les douze mois de l'accident.",
+        "Présentation de justificatifs des frais d'obsèques.",
+        "Outre les exclusions prévues à l'article 22, la garantie n'est pas due à la suite d'un accident dans la réalisation duquel est impliqué un véhicule terrestre à moteur, ainsi que ses remorques ou semi-remorques, autres que les véhicules ferroviaires et les tramways circulant sur des voies qui leur sont propres. (article 18-3, page 23)."
+      ]
+    },
+    {
+      "name": "Capital décès",
+      "page": 23,
+      "is_optional": false,
+      "territorial_scope": "France et Principauté de Monaco ; monde entier pendant les douze premiers mois du séjour hors de France ; séjour de toute durée effectué à la demande de l'employeur pour une mission temporaire dans un pays de l'Union européenne, en Islande, en Norvège, dans les Principautés d'Andorre et de Liechtenstein, au Royaume-Uni, à Saint-Marin, en Suisse et au Vatican (article 8, page 14).",
+      "description": "En cas de décès d'un assuré consécutif à un événement garanti visé à l'article 7, versement d'un capital dû au(x) bénéficiaire(s) désigné(s) à l'article 6-2. En cas de pluralité de bénéficiaires, le capital est partagé entre eux par parts égales.",
+      "limits": "Souscripteur / Conjoint assuré : 6 000 € (Niveau 1) / 37 000 € (Niveau 2). Autre personne assurée : 6 000 € (Niveau 1) / 7 000 € (Niveau 2) (articles 4-1 page 10 et 19-3 page 23).",
+      "sub_limits": [
+        "Abattement en raison de l'âge : lorsque l'assuré est âgé de plus de 70 ans au jour de l'accident, abattement de 5 % par année d'âge supplémentaire, sans jamais dépasser 75 % (100 % à 70 ans, décroissant jusqu'à 25 % à 85 ans et au-delà) (article 19-2, page 23)."
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le capital décès est l'une des deux seules garanties ouvertes lorsqu'un véhicule terrestre à moteur est impliqué dans la réalisation de l'accident (article 7-2, page 13).",
+        "Les exclusions du paragraphe 5 de l'article 22 (état alcoolique, stupéfiants, refus de vérifications) ne sont pas opposables au conjoint et aux enfants bénéficiaires du capital décès (article 22-5, page 28).",
+        "Le capital décès est définitivement acquis à l'assuré ou au(x) bénéficiaire(s), sans avance sur recours (article 24, page 31)."
+      ]
+    },
+    {
+      "name": "Préjudice patrimonial (formules Couple et Famille)",
+      "page": 24,
+      "is_optional": false,
+      "territorial_scope": "France et Principauté de Monaco ; monde entier pendant les douze premiers mois du séjour hors de France ; séjour de toute durée effectué à la demande de l'employeur pour une mission temporaire dans un pays de l'Union européenne, en Islande, en Norvège, dans les Principautés d'Andorre et de Liechtenstein, au Royaume-Uni, à Saint-Marin, en Suisse et au Vatican (article 8, page 14).",
+      "description": "Garantie acquise uniquement lorsque la formule Couple ou Famille a été souscrite. En cas de décès du souscripteur ou de son conjoint, consécutif à un événement garanti visé à l'article 7, l'assureur indemnise le(s) bénéficiaire(s) désigné(s) à l'article 6-2 par le règlement d'un capital déterminé sur la base des revenus annuels du défunt. Les revenus nets pris en compte sont constitués par la moyenne sur douze mois des gains et rémunérations provenant de l'activité professionnelle soumis à l'impôt sur le revenu, des indemnités de chômage ainsi que des pensions ou rentes versées par un organisme de protection sociale obligatoire, et des pensions servies par les régimes de base d'assurance vieillesse, les régimes obligatoires de retraite complémentaire et les régimes statutaires ou collectifs de retraite supplémentaire. Si l'assuré ne percevait aucun de ces revenus, ou si leur moyenne sur douze mois est inférieure au SMIC net, il est admis que son activité, domestique ou professionnelle, générait un gain mensuel égal au SMIC net. L'indemnité versée à chaque bénéficiaire est égale à la différence entre la part des revenus annuels qui lui est attribuée, capitalisée selon le taux d'actualisation et la table de mortalité de l'arrêté du 27 décembre 2011 (articles R. 376-1 et R. 454-1 du Code de la sécurité sociale), et les indemnités reçues ou à recevoir au titre de ce préjudice des tiers payeurs et débiteurs énumérés à l'article 20-3. L'indemnité est versée sous forme d'un capital dont le montant ne peut être révisé en cas de modification ultérieure des prestations des tiers payeurs.",
+      "limits": "600 000 € (Niveau 1) / 1 000 000 € (Niveau 2) (articles 4-1 page 10 et 20-5 page 25).",
+      "sub_limits": [
+        "Abattement en raison de l'âge : la moyenne sur douze mois des revenus du défunt fait l'objet, lorsque l'assuré est âgé de plus de 70 ans au jour de l'accident, d'un abattement de 5 % par année d'âge supplémentaire, sans jamais dépasser 75 % (article 20-2 B, page 24).",
+        "Grille de répartition des revenus entre bénéficiaires (article 20-2 D, page 25) : 1 bénéficiaire — conjoint sans revenus 50 %, conjoint avec revenus 25 %, chaque bénéficiaire en l'absence de conjoint 50 % ; 2 bénéficiaires — 40 % / 15 % / 20 % par autre bénéficiaire / 30 % en l'absence de conjoint ; 3 bénéficiaires — 40 % / 15 % / 15 % / 20 % ; 4 bénéficiaires — 40 % / 15 % / 13 % / 17 % ; 5 bénéficiaires — 40 % / 15 % / 10 % / 15 % ; 6 et plus — 40 % / 15 % / 40 % divisés par le nombre des autres bénéficiaires / 80 % divisés par le nombre des autres bénéficiaires.",
+        "Lorsque le conjoint dispose de revenus inférieurs à 25 % de ceux de l'assuré décédé, il lui est attribué 40 % des revenus du défunt s'il est le seul bénéficiaire, 30 % s'il n'est pas le seul bénéficiaire (article 20-2 D, page 25)."
+      ],
+      "deductible": null,
+      "conditions": [
+        "Formule Couple ou Famille uniquement ; la formule Individuelle ne comporte pas la garantie Préjudice patrimonial (articles 20 page 24 et 6-2 C page 13).",
+        "Décès du souscripteur ou de son conjoint.",
+        "Preuve des revenus : feuilles de paie des douze derniers mois (activité salariée), dernier avis d'imposition (activité non salariée), bordereaux de règlement ou attestation de l'organisme débiteur pour les indemnités de chômage, pensions et rentes (article 20-2 C, page 24).",
+        "Outre les exclusions prévues à l'article 22, la garantie n'est pas due à la suite d'un accident dans la réalisation duquel est impliqué un véhicule terrestre à moteur, ainsi que ses remorques ou semi-remorques, autres que les véhicules ferroviaires et les tramways circulant sur des voies qui leur sont propres. (article 20-6, page 25).",
+        "Les exclusions du paragraphe 5 de l'article 22 (état alcoolique, emprise de stupéfiants, refus de se soumettre aux vérifications) ne sont pas opposables au conjoint et aux enfants (mineurs, majeurs de moins de vingt-cinq ans, majeurs dont l'assuré ou son conjoint a la tutelle ou la curatelle et qui sont économiquement à la charge de l'assuré décédé) bénéficiaires de l'indemnité correspondant au préjudice patrimonial en cas de décès de l'assuré (article 22-5, page 28)."
+      ]
+    },
+    {
+      "name": "Prestations d'accompagnement personnalisé en cas de décès (formules Couple et Famille)",
+      "page": 26,
+      "is_optional": false,
+      "territorial_scope": "Exclusivement en France et dans la Principauté de Monaco. Lorsque certains services ou prestations ne peuvent être mis en œuvre par Matmut Assistance dans un Département ou une Région d'Outre-mer, ils sont pris en charge par Matmut Assistance dans la limite des barèmes appliqués par son réseau de prestataires en France métropolitaine (article 8-3, page 14).",
+      "description": "Prestations acquises uniquement lorsque la formule Couple ou Famille a été souscrite. En cas de décès de l'assuré imputable à un accident consécutif à un événement couvert visé à l'article 7, les bénéficiaires ont droit à des prestations d'accompagnement personnalisé à utiliser dans les 12 mois suivant l'accident. Prestations accordées à tous les assurés (formule Couple ou Famille) : accompagnement budgétaire, soutien psychologique, aide à domicile. Prestations accordées aux assurés de moins de 16 ans (formule Famille) : prise en charge des assurés de moins de 16 ans ou de ceux atteints d'un handicap quel que soit leur âge. Prestations accordées aux assurés scolarisés (formule Famille) : conduite à l'école des assurés scolarisés ou conduite aux examens scolaires ou aux stages et retour au domicile, conduite des assurés scolarisés aux activités extrascolaires et retour au domicile. Réalisées par IMA GIE (118 avenue de Paris – 79000 Niort). Bénéficiaires en cas de décès d'un assuré : les autres assurés désignés aux Conditions particulières (article 6-2, page 12).",
+      "limits": "Plafond : 5 000 €, soit 250 unités de valeur (articles 4-1 page 10 et 21-3 page 26).",
+      "sub_limits": [
+        "Nombre d'unités de valeur affecté à chaque prestation (Annexe I, II-1, page 48) : accompagnement budgétaire, 1 prestation (accompagnement individuel sur une durée de 6 mois) 20 ; soutien psychologique — assuré majeur : 1 entretien téléphonique (jusqu'à 4 entretiens téléphoniques supplémentaires) 4, 1er entretien en vis-à-vis 7, 1 entretien en vis-à-vis supplémentaire (jusqu'à 2 entretiens supplémentaires) 5 ; assuré mineur : 1er entretien en vis-à-vis 7, 1 entretien en vis-à-vis supplémentaire (jusqu'à 2 entretiens supplémentaires) 5 ; aide à domicile — aide-ménagère (1 heure) 1, auxiliaire de vie (1 heure) 2, déplacement accompagné (1 transport aller-retour dans un rayon de 50 km du domicile de l'assuré) 3 ; prise en charge des assurés de moins de 16 ans — présence d'un proche (1 déplacement aller-retour) 10, transfert des assurés chez un proche (1 déplacement aller-retour + accompagnant) 10, garde au domicile par un intervenant qualifié (1 heure) 2 ; conduite à l'école, aux examens scolaires ou aux stages et retour au domicile (1 trajet aller-retour par jour dans un rayon de 50 km) 3 ; conduite aux activités extrascolaires et retour au domicile (1 trajet aller-retour par jour dans un rayon de 50 km) 3.",
+        "Soutien psychologique en cas de décès : pour l'assuré majeur, jusqu'à 5 entretiens téléphoniques avec un psychologue clinicien et, si nécessaire, jusqu'à 3 entretiens en vis-à-vis ; pour l'assuré mineur, jusqu'à 3 entretiens en vis-à-vis. Garantie mise en œuvre 24h sur 24 du lundi au dimanche, y compris les jours fériés (Annexe I, page 48).",
+        "Conditions de territorialité des transports (Annexe I, page 49) : si le bénéficiaire réside en France métropolitaine ou à Monaco, le déplacement pris en charge doit s'effectuer exclusivement en France métropolitaine ou à Monaco ; s'il réside dans les Départements et Régions d'Outre-Mer, le déplacement doit s'effectuer dans le seul Département ou la seule Région d'Outre-Mer de résidence du bénéficiaire."
+      ],
+      "deductible": null,
+      "conditions": [
+        "Formule Couple ou Famille uniquement.",
+        "Prestations à utiliser dans les 12 mois suivant l'accident.",
+        "Prestations mises en œuvre après accord des services de l'assureur, qui mettent en relation avec l'organisme prestataire.",
+        "Outre les exclusions prévues à l'article 22, la garantie n'est pas due à la suite d'un accident dans la réalisation duquel est impliqué un véhicule terrestre à moteur, ainsi que ses remorques ou semi-remorques, autres que les véhicules ferroviaires et les tramways circulant sur des voies qui leur sont propres. (article 21-4, page 26)."
+      ]
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Accident antérieur à la prise d'effet du contrat",
+      "applies_to": "all",
+      "page": 27,
+      "description": "Sont exclues des garanties les affections, lésions ou atteintes corporelles, ainsi que leur aggravation, qui sont en relation avec un accident survenu antérieurement à la prise d'effet du contrat (article 22-1)."
+    },
+    {
+      "name": "Atteintes qui ne sont pas la conséquence certaine, directe et exclusive de l'accident déclaré",
+      "applies_to": "all",
+      "page": 27,
+      "description": "Sont exclues des garanties les affections, lésions ou atteintes corporelles qui ne sont pas la conséquence certaine, directe et exclusive de l'accident déclaré (article 22-2)."
+    },
+    {
+      "name": "Atteintes imputables à une maladie",
+      "applies_to": "all",
+      "page": 27,
+      "description": "Sont exclues des garanties les affections, lésions ou atteintes corporelles imputables à une maladie connue ou inconnue de l'assuré ou à une aggravation de cette maladie suite à une chute (article 22-2)."
+    },
+    {
+      "name": "Rupture de la coiffe des rotateurs",
+      "applies_to": "all",
+      "page": 27,
+      "description": "Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant de la rupture de la coiffe des rotateurs (article 22-3)."
+    },
+    {
+      "name": "Affections cardio-vasculaires ou vasculaires cérébrales",
+      "applies_to": "all",
+      "page": 27,
+      "description": "Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant d'affections cardio-vasculaires ou vasculaires cérébrales, ou de l'aggravation de ces affections suite à une chute (article 22-3)."
+    },
+    {
+      "name": "Fibromyalgie",
+      "applies_to": "all",
+      "page": 27,
+      "description": "Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant de la fibromyalgie (article 22-3)."
+    },
+    {
+      "name": "Affections virales, microbiennes, parasitaires ou infectieuses",
+      "applies_to": "all",
+      "page": 27,
+      "description": "Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant d'affections virales, microbiennes, parasitaires ou infectieuses (article 22-3)."
+    },
+    {
+      "name": "Piqûre d'insecte",
+      "applies_to": "all",
+      "page": 27,
+      "description": "Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant d'une piqûre d'insecte (article 22-3)."
+    },
+    {
+      "name": "Hernies inguinales, crurales ou ombilicales",
+      "applies_to": "all",
+      "page": 27,
+      "description": "Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant de hernies inguinales, crurales ou ombilicales (article 22-3)."
+    },
+    {
+      "name": "Burn out ou bore out (syndromes d'épuisement professionnel)",
+      "applies_to": "all",
+      "page": 27,
+      "description": "Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant d'un burn out ou d'un bore out (syndromes d'épuisement professionnel) survenu par le fait ou à l'occasion du travail (article 22-3)."
+    },
+    {
+      "name": "Dépressions nerveuses non consécutives à des lésions traumatiques",
+      "applies_to": "all",
+      "page": 27,
+      "description": "Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant de dépressions nerveuses qui ne sont pas la conséquence directe de lésions traumatiques en relation avec un accident garanti (article 22-3)."
+    },
+    {
+      "name": "Troubles bipolaires, schizophrénie ou paranoïa",
+      "applies_to": "all",
+      "page": 27,
+      "description": "Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant de troubles bipolaires, de schizophrénie ou de paranoïa (article 22-3)."
+    },
+    {
+      "name": "Expérimentation biomédicale",
+      "applies_to": "all",
+      "page": 27,
+      "description": "Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant d'une expérimentation biomédicale (article 22-3)."
+    },
+    {
+      "name": "Risque nucléaire",
+      "applies_to": "all",
+      "page": 27,
+      "description": "Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant de dommages ou d'aggravation des dommages causés par des armes ou engins destinés à exploser par modification de structure du noyau de l'atome, ou par tout combustible nucléaire, produit ou déchet radioactif ou par toute source de rayonnement ionisant (article 22-3)."
+    },
+    {
+      "name": "Guerre civile ou étrangère, interventions militaires",
+      "applies_to": "all",
+      "page": 27,
+      "description": "Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant de guerre civile ou étrangère ou si l'assuré y participe, d'interventions militaires (article 22-3)."
+    },
+    {
+      "name": "Insurrection, émeute, complot, mouvement populaire, attentat, terrorisme ou sabotage auxquels l'assuré participe",
+      "applies_to": "all",
+      "page": 27,
+      "description": "Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant d'insurrection, d'émeute, de complot, de mouvement populaire, d'attentat, d'acte de terrorisme ou de sabotage auxquels l'assuré participe (article 22-3). À rapprocher de l'article 7, qui couvre les agressions, attentats et actes de terrorisme dont l'assuré est victime et qu'il n'a pas provoqués."
+    },
+    {
+      "name": "Manipulation volontaire de matériels de guerre, armes à feu ou explosifs",
+      "applies_to": "all",
+      "page": 27,
+      "description": "Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant de la manipulation volontaire par l'assuré de matériels de guerre, d'armes à feu ou d'explosifs dont la détention est interdite (article 22-3)."
+    },
+    {
+      "name": "Suicide ou tentative de suicide",
+      "applies_to": "all",
+      "page": 27,
+      "description": "Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant d'un suicide ou d'une tentative de suicide (article 22-3). Par dérogation, l'indemnité de participation aux frais d'obsèques reste due dans le cas du suicide d'un assuré mineur (article 18-2, page 23)."
+    },
+    {
+      "name": "Mutilation volontaire",
+      "applies_to": "all",
+      "page": 27,
+      "description": "Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant d'une mutilation volontaire (article 22-3)."
+    },
+    {
+      "name": "Participation volontaire à un défi, un pari, une lutte ou une rixe",
+      "applies_to": "all",
+      "page": 27,
+      "description": "Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant de la participation volontaire de l'assuré à un défi, un pari, une lutte ou une rixe (article 22-3)."
+    },
+    {
+      "name": "Participation à un acte illicite constituant un crime ou un délit intentionnel",
+      "applies_to": "all",
+      "page": 27,
+      "description": "Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant de la participation de l'assuré ou du bénéficiaire de l'indemnité à un acte illicite constituant un crime ou un délit intentionnel au sens des dispositions de l'article 121-3 alinéas 1 et 2 du Code pénal (article 22-3)."
+    },
+    {
+      "name": "Intervention médicale, esthétique, chirurgicale ou obstétricale par une personne non diplômée",
+      "applies_to": "all",
+      "page": 27,
+      "description": "Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant d'une intervention médicale, esthétique, chirurgicale ou obstétricale, entreprise sur l'assuré par lui-même ou par un tiers non titulaire des diplômes exigés par la réglementation française pour la réaliser (article 22-3)."
+    },
+    {
+      "name": "Conséquences des interventions chirurgicales effectuées hors de France",
+      "applies_to": "all",
+      "page": 27,
+      "description": "Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant des conséquences des interventions chirurgicales effectuées hors de France (article 22-3)."
+    },
+    {
+      "name": "Pratique d'un sport à titre professionnel",
+      "applies_to": "all",
+      "page": 27,
+      "description": "Sont exclues des garanties les affections, lésions ou atteintes corporelles résultant de la pratique d'un sport à titre professionnel (article 22-3)."
+    },
+    {
+      "name": "Cervicalgies et névralgies cervico-brachiale",
+      "applies_to": "all",
+      "page": 27,
+      "description": "Sont exclues des garanties, sauf si elles sont la conséquence d'un accident garanti ayant entraîné la fracture d'un corps vertébral, les affections, lésions ou atteintes corporelles résultant de cervicalgies et névralgies cervico-brachiale (article 22-4)."
+    },
+    {
+      "name": "Dorsalgies et dorso-radiculalgies",
+      "applies_to": "all",
+      "page": 27,
+      "description": "Sont exclues des garanties, sauf si elles sont la conséquence d'un accident garanti ayant entraîné la fracture d'un corps vertébral, les affections, lésions ou atteintes corporelles résultant de dorsalgies et dorso-radiculalgies (article 22-4)."
+    },
+    {
+      "name": "Lombalgies et lombo-radiculalgies (cruralgies, sciatiques)",
+      "applies_to": "all",
+      "page": 27,
+      "description": "Sont exclues des garanties, sauf si elles sont la conséquence d'un accident garanti ayant entraîné la fracture d'un corps vertébral, les affections, lésions ou atteintes corporelles résultant de lombalgies et lombo-radiculalgies (cruralgies, sciatiques) (article 22-4)."
+    },
+    {
+      "name": "Hernies discales",
+      "applies_to": "all",
+      "page": 27,
+      "description": "Sont exclues des garanties, sauf si elles sont la conséquence d'un accident garanti ayant entraîné la fracture d'un corps vertébral, les affections, lésions ou atteintes corporelles résultant de hernies discales (article 22-4)."
+    },
+    {
+      "name": "Tassement vertébral ostéoporotique",
+      "applies_to": "all",
+      "page": 27,
+      "description": "Sont exclues des garanties, sauf si elles sont la conséquence d'un accident garanti ayant entraîné la fracture d'un corps vertébral, les affections, lésions ou atteintes corporelles résultant de tassement vertébral ostéoporotique (article 22-4)."
+    },
+    {
+      "name": "Syndrome de la queue de cheval",
+      "applies_to": "all",
+      "page": 27,
+      "description": "Sont exclues des garanties, sauf si elles sont la conséquence d'un accident garanti ayant entraîné la fracture d'un corps vertébral, les affections, lésions ou atteintes corporelles résultant d'un syndrome de la queue de cheval (article 22-4)."
+    },
+    {
+      "name": "Spondylolisthésis par lyse isthmique",
+      "applies_to": "all",
+      "page": 27,
+      "description": "Sont exclues des garanties, sauf si elles sont la conséquence d'un accident garanti ayant entraîné la fracture d'un corps vertébral, les affections, lésions ou atteintes corporelles résultant d'un spondylolisthésis par lyse isthmique (article 22-4)."
+    },
+    {
+      "name": "État alcoolique (0,50 g/l de sang ou 0,25 mg/l d'air expiré)",
+      "applies_to": "all",
+      "page": 27,
+      "description": "Sont également exclues des garanties les atteintes corporelles survenues alors que l'assuré est, au moment de l'accident, sous l'empire d'un état alcoolique caractérisé par la présence dans le sang d'une concentration d'alcool pur égale ou supérieure à 0,50 gramme par litre ou par la présence dans l'air expiré d'une concentration d'alcool pur égale ou supérieure à 0,25 milligramme par litre (article 22-5)."
+    },
+    {
+      "name": "État alcoolique du conducteur en permis probatoire ou conduite accompagnée (0,20 g/l de sang ou 0,10 mg/l d'air expiré)",
+      "applies_to": "all",
+      "page": 27,
+      "description": "Sont également exclues des garanties les atteintes corporelles survenues alors que l'assuré, conducteur d'un véhicule terrestre à moteur, titulaire d'un permis probatoire ou en situation d'apprentissage anticipé de la conduite, de conduite encadrée ou de conduite supervisée, est, au moment de l'accident, sous l'empire d'un état alcoolique caractérisé par la présence dans le sang d'une concentration d'alcool pur égale ou supérieure à 0,20 gramme par litre ou par la présence dans l'air expiré d'une concentration d'alcool pur égale ou supérieure à 0,10 milligramme par litre (article 22-5)."
+    },
+    {
+      "name": "Refus de se soumettre aux vérifications de l'état alcoolique",
+      "applies_to": "all",
+      "page": 28,
+      "description": "Sont également exclues des garanties les atteintes corporelles survenues alors que l'assuré, conducteur d'un véhicule terrestre à moteur, refuse, à la suite d'un accident, de se soumettre aux vérifications destinées à établir la preuve de l'état alcoolique prévues par les articles L. 234-4 et L. 234-5 du Code de la route (article 22-5)."
+    },
+    {
+      "name": "Emprise de stupéfiants",
+      "applies_to": "all",
+      "page": 28,
+      "description": "Sont également exclues des garanties les atteintes corporelles survenues alors que l'assuré est, au moment de l'accident, sous l'emprise de stupéfiants. L'emprise de stupéfiants est caractérisée lorsque, en application de l'article L. 235-2 du Code de la route, les épreuves de dépistage, les analyses ou les examens médicaux, cliniques et biologiques, destinés à rechercher la présence d'une ou plusieurs substances ou plantes classées comme stupéfiants au sens de l'arrêté du 22 février 1990 en révèlent la présence et ce, quelles que soient les quantités décelées, sauf si ces substances ou plantes ont été prescrites par un professionnel de santé et qu'elles ont été consommées dans la limite des doses ainsi prescrites (article 22-5)."
+    },
+    {
+      "name": "Refus de se soumettre aux vérifications relatives aux stupéfiants",
+      "applies_to": "all",
+      "page": 28,
+      "description": "Sont également exclues des garanties les atteintes corporelles survenues alors que l'assuré, conducteur d'un véhicule terrestre à moteur, refuse, à la suite d'un accident, de se soumettre aux vérifications prévues par l'article L. 235-2 du Code de la route (article 22-5)."
+    },
+    {
+      "name": "Conducteur ou occupant d'un véhicule volé",
+      "applies_to": "all",
+      "page": 28,
+      "description": "Sont également exclues des garanties les atteintes corporelles survenues alors que l'assuré est, au moment de l'accident, conducteur ou occupant d'un véhicule volé (article 22-6)."
+    },
+    {
+      "name": "Conducteur sans âge requis ou sans permis en état de validité",
+      "applies_to": "all",
+      "page": 28,
+      "description": "Sont également exclues des garanties les atteintes corporelles survenues alors que l'assuré est, au moment de l'accident, conducteur d'un véhicule pour lequel il n'a pas l'âge requis ou n'est pas titulaire des certificats (permis de conduire, licence de circulation), en état de validité, exigés par la réglementation pour la conduite de ce véhicule même s'il prend une leçon de conduite ou est assisté d'une personne titulaire du permis de conduire (article 22-6)."
+    },
+    {
+      "name": "Occupant d'un véhicule dont le conducteur n'a pas l'âge requis ou le permis en état de validité",
+      "applies_to": "all",
+      "page": 28,
+      "description": "Sont également exclues des garanties les atteintes corporelles survenues alors que l'assuré est, au moment de l'accident, occupant d'un véhicule dont le conducteur n'a pas l'âge requis ou n'est pas titulaire des certificats (permis de conduire, licence de circulation) en état de validité exigés par la réglementation pour la conduite de ce véhicule même si ce conducteur prend une leçon de conduite ou est assisté d'une personne titulaire du permis de conduire (article 22-6)."
+    },
+    {
+      "name": "Restriction des garanties en cas d'implication d'un véhicule terrestre à moteur",
+      "applies_to": "all",
+      "page": 13,
+      "description": "L'accident dans la réalisation duquel est impliqué un véhicule terrestre à moteur, ainsi que ses remorques ou semi-remorques, autres que les véhicules ferroviaires et les tramways circulant sur des voies qui leur sont propres, ouvre droit uniquement aux garanties suivantes : capital de base en cas d'incapacité permanente, capital décès (article 7-2). Toutes les autres garanties comportent une exclusion explicite pour ce cas (articles 9-2 E-2, 10-4, 11-4, 12-5, 13-4, 14-4, 15-4, 16-4, 18-3, 20-6 et 21-4)."
+    },
+    {
+      "name": "Véhicule terrestre à moteur — capital complémentaire d'incapacité permanente",
+      "applies_to": "Incapacité permanente et professionnelle — capital complémentaire",
+      "page": 17,
+      "description": "Outre les exclusions prévues à l'article 22, l'assureur ne garantit pas le versement d'un capital complémentaire à la suite d'un accident dans la réalisation duquel est impliqué un véhicule terrestre à moteur, ainsi que ses remorques ou semi-remorques, autres que les véhicules ferroviaires et les tramways circulant sur des voies qui leur sont propres (article 9-2 E-2)."
+    },
+    {
+      "name": "Véhicule terrestre à moteur — souffrances endurées et préjudice esthétique permanent",
+      "applies_to": "Souffrances endurées ; Préjudice esthétique permanent",
+      "page": 18,
+      "description": "Outre les exclusions prévues à l'article 22, l'assureur ne garantit pas les souffrances endurées et/ou le préjudice esthétique permanent à la suite d'un accident dans la réalisation duquel est impliqué un véhicule terrestre à moteur, ainsi que ses remorques ou semi-remorques, autres que les véhicules ferroviaires et les tramways circulant sur des voies qui leur sont propres (article 10-4)."
+    },
+    {
+      "name": "Véhicule terrestre à moteur — frais de prothèse et/ou de fauteuil roulant",
+      "applies_to": "Frais de prothèse et/ou de fauteuil roulant",
+      "page": 18,
+      "description": "Outre les exclusions prévues à l'article 22, l'assureur ne garantit pas les frais de prothèse et/ou de fauteuil roulant à la suite d'un accident dans la réalisation duquel est impliqué un véhicule terrestre à moteur, ainsi que ses remorques ou semi-remorques, autres que les véhicules ferroviaires et les tramways circulant sur des voies qui leur sont propres (article 11-4)."
+    },
+    {
+      "name": "Véhicule terrestre à moteur — frais de logement et de véhicule adaptés",
+      "applies_to": "Frais de logement et/ou de véhicule adapté(s)",
+      "page": 19,
+      "description": "Outre les exclusions prévues à l'article 22, l'assureur ne garantit pas les frais de logement et de véhicule adaptés à la suite d'un accident dans la réalisation duquel est impliqué un véhicule terrestre à moteur, ainsi que ses remorques ou semi-remorques, autres que les véhicules ferroviaires et les tramways circulant sur des voies qui leur sont propres (article 12-5)."
+    },
+    {
+      "name": "Véhicule terrestre à moteur — services à la personne",
+      "applies_to": "Services à la personne",
+      "page": 20,
+      "description": "Outre les exclusions prévues à l'article 22, l'assureur ne garantit pas les services à la personne à la suite d'un accident dans la réalisation duquel est impliqué un véhicule terrestre à moteur, ainsi que ses remorques ou semi-remorques, autres que les véhicules ferroviaires et les tramways circulant sur des voies qui leur sont propres (article 13-4)."
+    },
+    {
+      "name": "Véhicule terrestre à moteur — prestations d'accompagnement personnalisé (blessures)",
+      "applies_to": "Prestations d'accompagnement personnalisé (en cas de blessures)",
+      "page": 21,
+      "description": "Outre les exclusions prévues à l'article 22, l'assureur ne garantit pas les prestations d'accompagnement personnalisé à la suite d'un accident dans la réalisation duquel est impliqué un véhicule terrestre à moteur, ainsi que ses remorques ou semi-remorques, autres que les véhicules ferroviaires et les tramways circulant sur des voies qui leur sont propres (article 14-4)."
+    },
+    {
+      "name": "Véhicule terrestre à moteur — forfait hospitalisation",
+      "applies_to": "Forfait hospitalisation",
+      "page": 21,
+      "description": "Outre les exclusions prévues à l'article 22, l'assureur ne garantit pas le forfait hospitalisation à la suite d'un accident dans la réalisation duquel est impliqué un véhicule terrestre à moteur, ainsi que ses remorques ou semi-remorques, autres que les véhicules ferroviaires et les tramways circulant sur des voies qui leur sont propres (article 15-4)."
+    },
+    {
+      "name": "Véhicule terrestre à moteur — pertes de revenus professionnels",
+      "applies_to": "Pertes de revenus professionnels",
+      "page": 22,
+      "description": "Outre les exclusions prévues à l'article 22, l'assureur ne garantit pas les pertes de revenus professionnels à la suite d'un accident dans la réalisation duquel est impliqué un véhicule terrestre à moteur, ainsi que ses remorques ou semi-remorques, autres que les véhicules ferroviaires et les tramways circulant sur des voies qui leur sont propres (article 16-4)."
+    },
+    {
+      "name": "Véhicule terrestre à moteur — participation aux frais d'obsèques",
+      "applies_to": "Participation aux frais d'obsèques",
+      "page": 23,
+      "description": "Outre les exclusions prévues à l'article 22, l'assureur ne garantit pas la participation aux frais d'obsèques à la suite d'un accident dans la réalisation duquel est impliqué un véhicule terrestre à moteur, ainsi que ses remorques ou semi-remorques, autres que les véhicules ferroviaires et les tramways circulant sur des voies qui leur sont propres (article 18-3)."
+    },
+    {
+      "name": "Véhicule terrestre à moteur — préjudice patrimonial",
+      "applies_to": "Préjudice patrimonial (formules Couple et Famille)",
+      "page": 25,
+      "description": "Outre les exclusions prévues à l'article 22, l'assureur ne garantit pas le préjudice patrimonial à la suite d'un accident dans la réalisation duquel est impliqué un véhicule terrestre à moteur, ainsi que ses remorques ou semi-remorques, autres que les véhicules ferroviaires et les tramways circulant sur des voies qui leur sont propres (article 20-6)."
+    },
+    {
+      "name": "Véhicule terrestre à moteur — prestations d'accompagnement personnalisé (décès)",
+      "applies_to": "Prestations d'accompagnement personnalisé en cas de décès (formules Couple et Famille)",
+      "page": 26,
+      "description": "Outre les exclusions prévues à l'article 22, l'assureur ne garantit pas les prestations d'accompagnement personnalisé à la suite d'un accident dans la réalisation duquel est impliqué un véhicule terrestre à moteur, ainsi que ses remorques ou semi-remorques, autres que les véhicules ferroviaires et les tramways circulant sur des voies qui leur sont propres (article 21-4)."
+    },
+    {
+      "name": "Majoration pour tierce personne non due en établissement spécialisé",
+      "applies_to": "Incapacité permanente et professionnelle — capital de base",
+      "page": 16,
+      "description": "La majoration de 50 % de la valeur du point pour assistance permanente par tierce personne n'est pas due lorsque l'assuré demeure placé dans un établissement spécialisé et/ou de soins après la consolidation de ses blessures (article 9-2 B)."
+    },
+    {
+      "name": "Préjudice patrimonial non garanti en formule Individuelle",
+      "applies_to": "Préjudice patrimonial (formules Couple et Famille)",
+      "page": 13,
+      "description": "La formule Individuelle ne comporte pas la garantie Préjudice patrimonial et ne compte donc aucun bénéficiaire au titre de l'indemnité correspondant à ce préjudice (article 6-2 C)."
+    },
+    {
+      "name": "Transports sanitaires pris en charge par les organismes sociaux (déplacement accompagné)",
+      "applies_to": "Services à la personne",
+      "page": 40,
+      "description": "Au titre du service « Déplacement accompagné », les transports sanitaires pris en charge par les organismes sociaux sont exclus (Annexe I, I-A 2 c)."
+    },
+    {
+      "name": "Travaux de jardinage autres que l'entretien courant énuméré",
+      "applies_to": "Services à la personne",
+      "page": 40,
+      "description": "Au titre du service « Jardinage », les opérations d'entretien courant sont limitativement énumérées et les travaux de toute autre nature sont exclus. Les frais éventuels de déchetterie sont facturés directement à l'assuré (Annexe I, I-A 2 d)."
+    },
+    {
+      "name": "Coût des courses à la charge de l'assuré",
+      "applies_to": "Services à la personne",
+      "page": 40,
+      "description": "Au titre du service « Livraison de courses », le coût des courses demeure à la charge de l'assuré (Annexe I, I-A 2 e)."
+    },
+    {
+      "name": "Coût des médicaments à la charge de l'assuré",
+      "applies_to": "Services à la personne",
+      "page": 40,
+      "description": "Au titre du service « Livraison de médicaments », le coût des médicaments demeure à la charge de l'assuré (Annexe I, I-A 2 f)."
+    },
+    {
+      "name": "Coût des repas à la charge de l'assuré et exclusion du petit-déjeuner",
+      "applies_to": "Services à la personne",
+      "page": 41,
+      "description": "Au titre du service « Portage de repas », le coût des repas demeure à la charge de l'assuré et le petit-déjeuner est exclu de la prestation (Annexe I, I-A 2 g)."
+    },
+    {
+      "name": "Frais de repas non pris en charge en hippothérapie",
+      "applies_to": "Prestations d'accompagnement personnalisé (en cas de blessures)",
+      "page": 46,
+      "description": "Au titre de la prestation « Hippothérapie », les frais de repas restent à la charge du bénéficiaire et de sa famille (Annexe I, I-B 2 d)."
+    },
+    {
+      "name": "Transports sanitaires exclus du transfert de l'assuré chez un proche",
+      "applies_to": "Prestations d'accompagnement personnalisé (en cas de blessures)",
+      "page": 47,
+      "description": "Le transfert de l'assuré chez un proche est pris en charge à l'exclusion des transports sanitaires pris en charge par les organismes sociaux (Annexe I, I-B 2 e)."
+    },
+    {
+      "name": "Transports sanitaires exclus du déplacement accompagné en cas de décès",
+      "applies_to": "Prestations d'accompagnement personnalisé en cas de décès (formules Couple et Famille)",
+      "page": 49,
+      "description": "Au titre du « Déplacement accompagné », le transport non médicalisé aller-retour de l'assuré est pris en charge à l'exclusion de tout transport sanitaire, c'est-à-dire de ceux pris en charge par les organismes sociaux (Annexe I, II-2 c)."
+    },
+    {
+      "name": "Aide au retour à l'emploi : absence de démarche matérielle et de responsabilité",
+      "applies_to": "Prestations d'accompagnement personnalisé (en cas de blessures)",
+      "page": 45,
+      "description": "L'aide au retour à l'emploi ne se substitue pas aux prestations des organismes et associations institutionnels. Aucune démarche matérielle n'est effectuée par l'assureur auprès de ces organismes et associations ou auprès de toute institution ou administration dont l'assuré relève. En outre, la responsabilité de l'assureur ne peut en aucun cas être engagée dans le cas d'une mauvaise utilisation ou d'une interprétation inexacte, par l'assuré, du ou des renseignement(s) communiqué(s) (Annexe I, I-B 2 a)."
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": null,
+    "per_coverage": null,
+    "page": null
+  },
+  "waiting_periods": [
+    {
+      "coverage": "Forfait hospitalisation",
+      "duration": "3 jours consécutifs d'hospitalisation",
+      "description": "Le forfait est dû « À compter de 3 jours consécutifs d'hospitalisation », avec un minimum de 150 € à compter du 3e jour (article 4-1). L'article 15-1 formule la même condition comme « une hospitalisation continue supérieure à 2 jours ».",
+      "page": 8
+    },
+    {
+      "coverage": "Participation aux frais d'obsèques",
+      "duration": "douze mois",
+      "description": "La garantie joue en cas de décès de l'assuré survenant dans les douze mois de l'accident consécutif à un événement garanti visé à l'article 7 (article 18-1).",
+      "page": 23
+    },
+    {
+      "coverage": "Prestations d'accompagnement personnalisé (en cas de blessures)",
+      "duration": "48 mois suivant la consolidation",
+      "description": "Le nombre d'unités de valeur alloué est utilisable dans les 48 mois suivant la consolidation des blessures (article 14-1 et 14-3).",
+      "page": 20
+    },
+    {
+      "coverage": "Prestations d'accompagnement personnalisé en cas de décès (formules Couple et Famille)",
+      "duration": "12 mois suivant l'accident",
+      "description": "Les bénéficiaires ont droit à des prestations d'accompagnement personnalisé à utiliser dans les 12 mois suivant l'accident (article 21-1).",
+      "page": 26
+    },
+    {
+      "coverage": "Services à la personne",
+      "duration": "période d'incapacité",
+      "description": "Le crédit d'unités de valeur est utilisable exclusivement pendant la période d'incapacité (article 13-1).",
+      "page": 19
+    }
+  ],
+  "obligations": [
+    {
+      "name": "Déclarer les éléments du risque à la souscription",
+      "timing": "À la souscription",
+      "page": 32,
+      "description": "Répondre aux questions permettant d'identifier la nature du risque à assurer et confirmer, par signature, l'exactitude des déclarations figurant aux Conditions particulières et leurs annexes établies si nécessaire. Le souscripteur doit également déclarer si lui-même ou les assurés mentionnés aux Conditions particulières sont déjà titulaires d'autres contrats couvrant le risque « accident corporel » (article 26-1 A).",
+      "sanction": "En cas de mauvaise foi : nullité du contrat (article L. 113-8) ; lorsque la mauvaise foi n'est pas établie : réduction des indemnités (article L. 113-9). Résiliation possible (cas n° 11 de l'article 31-1)."
+    },
+    {
+      "name": "Déclarer les changements en cours de contrat",
+      "timing": "En cours de contrat, dans les 15 jours de la connaissance des circonstances nouvelles",
+      "page": 32,
+      "description": "Déclarer tout changement portant sur l'un des éléments déclarés à la souscription, notamment ceux mentionnés aux Conditions particulières et leurs annexes, par lettre recommandée, courrier électronique ou par envoi recommandé électronique, dans les 15 jours où l'assuré a eu connaissance de circonstances nouvelles aggravant les risques ou en créant de nouveaux. La souscription d'un ou plusieurs autres contrats souscrits en vue de garantir le versement d'indemnités en cas d'incapacité permanente ou de décès de l'assuré consécutif à un accident est considérée comme un élément susceptible d'aggraver le risque (article 26-1 B).",
+      "sanction": "Si la modification constitue une aggravation du risque, l'assureur peut soit résilier le contrat, soit proposer un nouveau montant de cotisation (article L. 113-4 ; cas n° 10 de l'article 31-1). En cas de retard dans la déclaration, déchéance du droit à garantie possible si ce retard a été à l'origine d'un préjudice pour l'assureur et ne résulte pas d'un cas fortuit ou de force majeure."
+    },
+    {
+      "name": "Déclarer toute renonciation à recours",
+      "timing": "À la souscription et en cours de contrat",
+      "page": 32,
+      "description": "Déclarer toute renonciation de votre part à un recours éventuel à l'encontre de tout responsable d'un sinistre (article 26-1 C).",
+      "sanction": null
+    },
+    {
+      "name": "Prendre les mesures nécessaires en cas de sinistre",
+      "timing": "En cas de sinistre",
+      "page": 29,
+      "description": "Fournir toutes les informations et prendre toutes les dispositions nécessaires à la gestion et au bon règlement du sinistre (article 23-1).",
+      "sanction": "En cas d'inexécution des obligations, l'assureur est fondé à réclamer une indemnité proportionnelle aux dommages que cette inexécution lui aura causés (article 23-2, page 30)."
+    },
+    {
+      "name": "Déclarer le sinistre dans les 5 jours ouvrés",
+      "timing": "Dès la connaissance du sinistre, 5 jours ouvrés maximum",
+      "page": 29,
+      "description": "Dès que l'assuré a connaissance du sinistre, sauf cas fortuit ou de force majeure, il doit en faire la déclaration par écrit, de préférence par lettre recommandée, en ligne à partir de la rubrique « Mon espace personnel » sur matmut.fr ou verbalement (article 23-2).",
+      "sanction": "Déchéance possible du droit à garantie en cas de retard dans la déclaration dès lors que ce manquement cause un préjudice à l'assureur."
+    },
+    {
+      "name": "Contenu de la déclaration de sinistre",
+      "timing": "Dans la déclaration ou, en cas d'impossibilité, dans le plus bref délai",
+      "page": 29,
+      "description": "Indiquer la date et les circonstances du sinistre, ses causes connues ou présumées et ses conséquences ; les coordonnées des personnes connues (nom et adresse des victimes, des témoins, de l'auteur du sinistre ou de la personne civilement responsable) ; si un procès-verbal a été établi, et dans l'affirmative par quelle autorité (article 23-2).",
+      "sanction": null
+    },
+    {
+      "name": "Fournir les données médicales et le questionnaire (en cas de blessures)",
+      "timing": "Dans les 10 jours suivant la réception du questionnaire",
+      "page": 29,
+      "description": "Fournir, par courrier sous pli confidentiel ou depuis la messagerie de l'espace personnel sur matmut.fr, les données médicales nécessaires pour vérifier l'imputabilité du dommage et obtenir l'indemnisation, et, dans les 10 jours suivant sa réception, le questionnaire transmis par l'assureur intégralement complété et accompagné d'un certificat médical descriptif des blessures établi par le médecin ayant examiné l'assuré initialement. L'assuré doit également retourner le recueil de consentement au traitement des données de santé, intégralement complété et signé (article 23-2).",
+      "sanction": "À défaut, ou en cas de refus ou de retrait du consentement, l'assureur n'est pas en mesure d'instruire et de gérer le dossier. En l'absence de communication des documents évoqués, l'assuré perd tout droit à indemnité pour le sinistre en cause (page 30)."
+    },
+    {
+      "name": "Se rendre aux rendez-vous du médecin expert et communiquer les montants des tiers payeurs",
+      "timing": "Ultérieurement, à la demande de l'assureur",
+      "page": 29,
+      "description": "Se rendre à toute demande de rendez-vous du médecin expert désigné par l'assureur ou accepter sa visite ; communiquer les documents permettant de connaître le montant définitif des indemnités versées par l'employeur, un régime de protection sociale ou de prévoyance collective obligatoire, les caisses de retraite complémentaire ou les mutuelles, l'ONIAM, le FGTI, ainsi que par le(s) responsable(s) de l'accident, son assureur ou tout organisme débiteur d'indemnités (article 23-2).",
+      "sanction": "En l'absence de communication des documents évoqués, l'assuré perd tout droit à indemnité pour le sinistre en cause (page 30)."
+    },
+    {
+      "name": "Obligations du bénéficiaire en cas de décès",
+      "timing": "Dans les 10 jours suivant la réception du questionnaire",
+      "page": 29,
+      "description": "Le bénéficiaire doit communiquer, par courrier sous pli confidentiel, dans les 10 jours suivant sa réception, le questionnaire transmis par l'assureur, intégralement complété et accompagné d'un extrait d'acte de décès et d'un certificat médical précisant la cause du décès et son caractère accidentel, ainsi que le recueil de consentement au traitement des données de santé complété et signé ; puis, à la demande de l'assureur, les documents permettant de connaître le montant définitif des indemnités versées par les tiers payeurs et débiteurs (article 23-2).",
+      "sanction": "À défaut, ou en cas de refus ou de retrait du consentement, l'assureur n'est pas en mesure d'instruire et de gérer le dossier."
+    },
+    {
+      "name": "Sincérité des déclarations de sinistre",
+      "timing": "En cas de sinistre",
+      "page": 30,
+      "description": "Est déchu de tout droit à garantie pour le sinistre en cause l'assuré qui, sciemment, fait de fausses déclarations sur la nature, les circonstances, les causes, les conséquences du sinistre, ou emploie comme justifications des moyens frauduleux ou des documents mensongers (article 23-2).",
+      "sanction": "Déchéance de tout droit à garantie pour le sinistre en cause."
+    },
+    {
+      "name": "Préserver le recours subrogatoire de l'assureur",
+      "timing": "En cas de sinistre",
+      "page": 31,
+      "description": "L'assureur est subrogé, conformément aux articles L. 121-12, L. 131-2 et L. 211-25 du Code des assurances, jusqu'à concurrence de l'indemnité payée, dans les droits et actions de l'assuré contre le(s) responsable(s) du sinistre, son assureur ou tout organisme débiteur d'indemnités (article 25).",
+      "sanction": "Si, du fait de l'assuré, la subrogation ne peut s'opérer, totalement ou partiellement, la garantie est supprimée ou réduite proportionnellement aux droits dont l'assureur a été privé."
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclarer le sinistre",
+      "deadline": "5 jours ouvrés maximum",
+      "page": 29,
+      "description": "Déclaration par écrit, de préférence par lettre recommandée, en ligne à partir de la rubrique « Mon espace personnel » sur matmut.fr ou verbalement, dès que l'assuré a connaissance du sinistre, sauf cas fortuit ou de force majeure. Déclaration de sinistre possible 24 h/24, 7 j/7 sur matmut.fr (page 2)."
+    },
+    {
+      "step": "Transmettre le questionnaire et les pièces médicales",
+      "deadline": "10 jours suivant la réception du questionnaire",
+      "page": 29,
+      "description": "En cas de blessures : questionnaire intégralement complété, certificat médical descriptif des blessures, recueil de consentement au traitement des données de santé. En cas de décès : questionnaire complété, extrait d'acte de décès, certificat médical précisant la cause du décès et son caractère accidentel, recueil de consentement."
+    },
+    {
+      "step": "Réponse de l'assureur sur sa position ou ses attentes",
+      "deadline": "5 jours ouvrés de la réception de la déclaration",
+      "page": 30,
+      "description": "L'assureur informe de sa position ou de ses attentes par tout moyen (courrier, téléphone…) dans les 5 jours ouvrés de la réception de la déclaration, sous réserve de la force majeure, qui est notamment constituée lorsque des événements exceptionnels atteignent un très grand nombre de victimes. Il précise régulièrement l'état d'évolution du dossier (article 24)."
+    },
+    {
+      "step": "Expertise médicale",
+      "deadline": null,
+      "page": 15,
+      "description": "La durée de l'incapacité temporaire de travail et de l'incapacité temporaire totale, l'évaluation du taux d'incapacité permanente (AIPP), le besoin journalier d'une assistance permanente par tierce personne, la qualification des souffrances endurées et du préjudice esthétique permanent et l'inaptitude totale au travail sont déterminés par un médecin expert, spécialiste en évaluation médico-légale du dommage corporel, désigné par l'assureur. Les honoraires de ce médecin sont à la charge de l'assureur ; l'assuré peut se faire assister par le médecin de son choix, dont les honoraires et frais sont à sa charge. L'assureur se charge de l'instruction et de la gestion du dossier et fait procéder à ses frais aux opérations d'expertise nécessaires ; en cas de décès, il se réserve la possibilité de faire procéder à une expertise médicale sur pièces (article 24, page 30)."
+    },
+    {
+      "step": "Litige d'ordre médical : arbitrage médical",
+      "deadline": null,
+      "page": 30,
+      "description": "En cas de désaccord sur la durée de l'incapacité temporaire de travail et de l'incapacité temporaire totale, la qualification ou les taux retenus pour l'un quelconque des préjudices garantis, le besoin journalier d'une assistance permanente par tierce personne, l'inaptitude totale au travail ou les causes des blessures ou du décès, le différend est soumis à deux médecins choisis l'un par l'assuré ou ses ayants droit, l'autre par l'assureur. Si ces deux médecins ne peuvent se mettre d'accord, les parties en choisissent un troisième pour les départager ; à défaut d'entente ou de désignation, la désignation est faite à la requête de la partie la plus diligente par le Président du Tribunal judiciaire du lieu de l'accident ou du domicile de la victime. Chaque partie prend en charge les honoraires et frais du médecin qu'elle a choisi et les parties supportent par moitié les honoraires et frais du troisième médecin (article 24)."
+    },
+    {
+      "step": "Litige au sujet du calcul des indemnités",
+      "deadline": null,
+      "page": 30,
+      "description": "En cas de désaccord sur le montant des indemnités devant être attribuées, la résolution du différend peut être recherchée par la mise en œuvre de la procédure de Traitement des réclamations, décrite dans la partie dédiée « Modalités d'examen des réclamations » (article 24)."
+    },
+    {
+      "step": "Offre définitive d'indemnisation",
+      "deadline": "1 mois suivant la réception de l'ensemble des pièces justificatives ou des conclusions d'expertise",
+      "page": 30,
+      "description": "L'assureur s'engage à présenter une offre définitive d'indemnisation à l'assuré ou au(x) bénéficiaire(s) dans le mois suivant la réception de l'ensemble des pièces justificatives réclamées ou des conclusions d'expertise fixant définitivement le taux d'incapacité (article 24)."
+    },
+    {
+      "step": "Offre provisionnelle",
+      "deadline": "1 mois suivant la réception des conclusions médicales provisoires",
+      "page": 30,
+      "description": "Si le médecin expert ne peut conclure de façon définitive mais estime que l'incapacité permanente (AIPP) directement imputable à l'accident sera au minimum de 10 %, une offre provisionnelle est faite dans le mois suivant la réception des conclusions médicales provisoires. Le montant de l'indemnité provisionnelle est déduit du montant de l'offre définitive ; en cas de solde négatif, l'assuré n'est pas tenu de restituer le trop perçu (article 24)."
+    },
+    {
+      "step": "Paiement",
+      "deadline": "1 mois à partir de l'acceptation de l'offre",
+      "page": 30,
+      "description": "Le paiement des indemnités est effectué par l'assureur dans un délai de 1 mois à partir de l'acceptation de l'offre (article 24)."
+    },
+    {
+      "step": "Avance sur recours",
+      "deadline": null,
+      "page": 30,
+      "description": "Lorsque l'accident engage la responsabilité totale ou partielle d'un tiers, quel qu'il soit, les indemnités sont versées à titre d'avance sur la réparation de l'ensemble du préjudice dont est redevable le tiers responsable, son assureur ou tout organisme débiteur d'indemnités. Aucune indemnité n'est versée à titre d'avance sur les sommes à percevoir de l'ONIAM ou du FGTI lorsque l'assuré est victime d'un accident sanitaire ou d'une infraction pénale. Toutefois, le capital de base en cas d'incapacité permanente, le capital décès et le forfait hospitalisation sont définitivement acquis à l'assuré ou au(x) bénéficiaire(s) (article 24, page 31)."
+    },
+    {
+      "step": "Transparence en cas de désaccord sur le montant",
+      "deadline": null,
+      "page": 31,
+      "description": "En cas de désaccord sur le montant de l'indemnité devant être versée, l'assureur s'engage à régler les sommes qu'il estime devoir sans attendre l'issue de la procédure d'expertise ou d'examen de la réclamation (article 24)."
+    },
+    {
+      "step": "Réclamation — premier niveau",
+      "deadline": "Accusé de réception sous 10 jours ouvrables ; réponse sous 30 jours maximum",
+      "page": 54,
+      "description": "En cas de désaccord sur le contrat, quel qu'en soit l'objet (sa souscription, sa gestion ou le règlement d'un sinistre), la réclamation peut être formulée par tous moyens : téléphone 02 35 03 68 68, formulaire « réclamations » disponible sur l'espace personnel, courrier à MATMUT – Gestion des réclamations – TSA 40261 – 76729 ROUEN CEDEX, ou en vis-à-vis auprès des agences. Si la réponse ne peut être adressée dans un délai de 10 jours ouvrables à compter de l'envoi de la réclamation, un accusé de réception est envoyé. L'assureur s'engage à répondre dans un délai maximal de 30 jours à compter de la réception de la réclamation."
+    },
+    {
+      "step": "Réclamation — second niveau (service « réclamations sociétaires »)",
+      "deadline": "30 jours maximum",
+      "page": 54,
+      "description": "Si la réponse apportée ne satisfait pas, le service « réclamations sociétaires » peut être sollicité par mail (service.reclamations@matmut.fr) ou par écrit (Service « réclamations sociétaires », 66 rue de Sotteville, 76030 Rouen Cedex 1). Il procède à un nouvel examen du dossier et fait part de sa position dans un délai maximal de 30 jours."
+    },
+    {
+      "step": "Médiation de l'Assurance",
+      "deadline": "Réponse du Médiateur dans un délai de 90 jours ; saisine dans le délai d'un an à compter de la réception de la réclamation initiale",
+      "page": 54,
+      "description": "Le Médiateur de l'Assurance peut être saisi gratuitement, en déposant la demande et les pièces du dossier sur son site internet www.mediation-assurance.org ou par écrit (Médiation de l'Assurance, TSA 50110, 75441 Paris Cedex 09). Le Médiateur répond dans un délai de 90 jours, selon sa charte. Il peut également être saisi deux mois après l'envoi de la réclamation si aucune réponse n'a été apportée. La saisine doit obligatoirement intervenir dans le délai d'un an à compter de la réception de la réclamation initiale et aucune action contentieuse ne doit avoir été engagée auparavant. L'avis du Médiateur ne lie ni l'assuré ni l'assureur, chacun conservant le droit de saisir les tribunaux."
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat a une durée d'un an. La première année, il est conclu pour la période comprise entre sa date d'effet et la date d'échéance annuelle indiquée aux Conditions particulières (article 28-3, page 33). Les garanties prennent effet aux date et heure indiquées aux Conditions particulières, sous réserve que le paiement de la première cotisation ou première fraction de cotisation soit honoré (article 28-1, page 32).",
+    "tacit_renewal": true,
+    "notice_period": "Opposition au renouvellement par tacite reconduction (cas n° 1) : préavis de 1 mois pour le souscripteur, 2 mois pour l'assureur (article 31-1, page 34).",
+    "methods": [
+      "Résiliation à l'initiative du souscripteur, notifiée conformément à l'article L. 113-14 du Code des assurances : par lettre ou tout autre support durable (courrier électronique sur l'espace personnel, lettre recommandée électronique…) ; par une déclaration faite au Siège social ou dans l'une des Agences ; par un acte extrajudiciaire ; ou, lorsque l'assureur propose la conclusion de contrat par un mode de communication à distance, par ce même mode (article 31-2 A, page 36).",
+      "L'assureur confirme par écrit la réception de la notification de la demande de résiliation ; le délai de préavis ou la date limite de dénonciation est décompté à partir de la date d'expédition de la notification, et le délai de prise d'effet de la résiliation commence à courir le jour de la réception de la notification (article 31-2 A, page 36).",
+      "Résiliation à l'initiative de l'assureur, notifiée par lettre recommandée (avec accusé de réception dans le cas n° 4) adressée au dernier domicile notifié. Les délais de préavis et de résiliation sont décomptés, sauf dans les cas n° 1 et 9, à partir de la date de première présentation de la lettre par les services postaux. Dans le cas n° 1, le délai de préavis est décompté à partir de la date d'envoi de la lettre recommandée. Dans le cas n° 9, la résiliation intervient à la date d'envoi de la lettre recommandée notifiant cette résiliation, sauf si celle-ci est annoncée dans la lettre recommandée valant mise en demeure, auquel cas elle intervient automatiquement 40 jours après l'envoi de cette lettre (article 31-2 B, page 36)."
+    ],
+    "special_rights": [
+      "Cas n° 1 — Opposition au renouvellement du contrat par tacite reconduction : à l'initiative du souscripteur ou de l'assureur ; effet à la date d'échéance annuelle indiquée aux Conditions particulières ; préavis 1 mois (vous) / 2 mois (nous) ; L. 113-12.",
+      "Cas n° 2 — Envoi de l'avis d'échéance moins de 15 jours avant la fin du droit d'opposition au renouvellement par tacite reconduction, ou après cette date : à l'initiative du souscripteur ; effet à la date d'échéance annuelle si la demande est formulée avant celle-ci, ou le lendemain de la date de notification si elle est formulée après ; notification de la demande adressée dans les 20 jours de cet envoi ; L. 113-15-1.",
+      "Cas n° 3 — Opposition à la poursuite du contrat tacitement renouvelé : à l'initiative du souscripteur ; effet 1 mois après notification ; ancienneté du contrat de 1 an à compter de la 1ère souscription ; Avis du Comité consultatif du secteur financier en date du 29 avril 2022.",
+      "Cas n° 4 — Changement de situation portant sur le domicile, la situation matrimoniale, le régime matrimonial ou la profession, ou retraite professionnelle ou cessation définitive d'activité professionnelle : à l'initiative du souscripteur ou de l'assureur ; effet 1 mois après notification à l'autre partie ; notification dans le délai de 3 mois suivant l'événement qui la motive ; L. 113-16.",
+      "Cas n° 5 — Majoration résultant de la révision de la cotisation annuelle : à l'initiative du souscripteur ; effet 30 jours après notification ; 30 jours à compter de la réception de l'avis d'échéance pour demander la résiliation ; article 29-3 des Conditions générales.",
+      "Cas n° 6 — Diminution du risque : à l'initiative du souscripteur ; effet 30 jours après la demande ; l'assureur doit avoir refusé de réduire la cotisation en proportion de la diminution du risque ; L. 113-4.",
+      "Cas n° 7 — Résiliation par l'assureur d'un autre contrat du souscripteur après sinistre : à l'initiative du souscripteur ; effet 1 mois après notification ; R. 113-10.",
+      "Cas n° 8 — Décès du souscripteur : de plein droit ; 30 jours après le décès pour les formules Couple et Famille (les droits et obligations du souscripteur peuvent, avec l'accord de l'assureur, être transférés sur l'une des autres personnes assurées) ; le lendemain à 0 heure du jour du décès pour la formule Individuelle ; aucune condition ; article 31 des Conditions générales.",
+      "Cas n° 9 — Non-paiement de la cotisation : à l'initiative de l'assureur ; effet 40 jours après l'envoi de la lettre recommandée de mise en demeure ou, lorsque cette lettre ne prévoit pas la résiliation, le jour de l'envoi d'une nouvelle lettre recommandée notifiant la résiliation pour non-paiement ; envoi préalable d'une lettre recommandée de mise en demeure ; L. 113-3, R. 113-1.",
+      "Cas n° 10 — Aggravation du risque : à l'initiative de l'assureur ; effet 10 jours après notification de la résiliation ou 30 jours après l'envoi d'une proposition avec un nouveau montant de cotisation à laquelle le souscripteur ne donne pas suite ou qu'il refuse expressément ; L. 113-4.",
+      "Cas n° 11 — Réticence ou inexactitude dans la déclaration du risque à la souscription ou en cours de contrat : à l'initiative de l'assureur ; effet 10 jours après notification ; L. 113-8, L. 113-9.",
+      "Cas n° 12 — Survenance d'un sinistre : à l'initiative de l'assureur ; effet 1 mois après notification ; l'assureur ne peut plus résilier si, passé le délai d'un mois après connaissance du sinistre, il a accepté le paiement d'une cotisation pour une période postérieure à ce sinistre ; R. 113-10.",
+      "Cas n° 13 — Non-respect de l'Engagement Qualité de l'assureur : à l'initiative du souscripteur ; effet dès réception de la notification ; à tout moment dans les 12 mois suivant la survenance du sinistre ; article 24 des Conditions générales.",
+      "Droit de renonciation en cas de souscription à distance (article 31-4, page 36) : ouvert lorsque la souscription a été réalisée à distance et que le souscripteur est une personne souscrivant à titre privé ; demande notifiée par lettre simple ou par déclaration au Siège social ou dans une Agence, dans un délai de 14 jours calendaires révolus à compter de la réception des documents contractuels ; lettre à adresser à « Matmut 76030 Rouen Cedex 1 ».",
+      "Droit de renonciation en cas de souscription suite à un démarchage (article 31-5, page 37) : ouvert lorsque la souscription a été réalisée dans le cadre d'un démarchage au domicile ou sur le lieu de travail et que le souscripteur est une personne souscrivant à titre privé ; demande notifiée par lettre recommandée ou par déclaration au Siège social ou dans une Agence, dans un délai de 14 jours calendaires révolus à compter de la conclusion du contrat.",
+      "Effets de la renonciation (articles 31-4 C et 31-5 C, pages 37) : formulée avant la date de prise d'effet des garanties et des options, le contrat est annulé et l'intégralité de la cotisation perçue est remboursée dans un délai maximum de 30 jours ; formulée postérieurement, la renonciation entraîne la résiliation du contrat au lendemain à 0 heure de la date d'envoi de la lettre ou du dépôt de la déclaration, et la fraction de cotisation postérieure à la résiliation est remboursée dans un délai maximum de 30 jours.",
+      "Résiliation en cours de période d'assurance (article 31-3, page 36) : l'assureur a droit au paiement de la cotisation couvrant la période antérieure à la résiliation ; il a également droit de réclamer ou de conserver la fraction de cotisation couvrant la période démarrant à compter de la date d'interruption des garanties et options lorsque la résiliation est consécutive au non-paiement de la cotisation ; dans les autres cas, il rembourse la fraction de cotisation à compter de la suspension ou de la résiliation lorsqu'elle a été payée d'avance.",
+      "Modification du contrat (article 28-2, page 33) : la proposition de modification demandée par lettre recommandée, courrier électronique ou envoi recommandé électronique prend effet aux date et heure indiquées par le souscripteur, mais au plus tôt aux date et heure d'envoi de sa lettre recommandée ou de son recommandé électronique ou aux date et heure de réception de son courrier électronique. L'assureur se réserve le droit d'interrompre la garantie dans les 10 jours de la réception de cette proposition : elle cesse alors 10 jours après l'envoi d'une lettre recommandée avisant de cette interruption."
+    ],
+    "page": 33
+  },
+  "prescription_period": {
+    "page": 33,
+    "description": "Conformément à l'article L. 114-1 du Code des assurances, toutes actions dérivant du présent contrat, qu'il s'agisse de sa validité ou de son exécution, sont prescrites par deux ans à compter de l'événement qui y donne naissance. Toutefois, ce délai ne court, en cas de réticence, omission, déclaration fausse ou inexacte sur le risque couru, que du jour où l'assureur en a eu connaissance, et, en cas de sinistre, que du jour où les intéressés en ont eu connaissance, s'ils prouvent qu'ils l'ont ignoré jusque-là. Quand l'action de l'assuré contre l'assureur a pour cause le recours d'un tiers, le délai de la prescription ne court que du jour où ce tiers a exercé une action en justice contre l'assuré ou a été indemnisé par ce dernier. Le délai de prescription est porté à dix ans lorsque les bénéficiaires sont les ayants-droit de l'assuré décédé. Les causes d'interruption sont celles prévues par l'article L. 114-2 du Code des assurances : reconnaissance par le débiteur du droit du créancier (article 2240 du Code civil), demande en justice même en référé, même portée devant une juridiction incompétente ou annulée par l'effet d'un vice de procédure (article 2241), mesure conservatoire prise en application du code des procédures civiles d'exécution ou acte d'exécution forcée (article 2244), ainsi que la désignation d'un expert à la suite d'un sinistre et l'envoi d'une lettre recommandée ou d'un recommandé électronique, avec accusé de réception, par la Société à l'assuré en ce qui concerne le paiement des cotisations ou, par l'assuré à la Société en ce qui concerne le règlement des indemnités. Conformément à l'article L. 114-3 du Code des assurances, les parties ne peuvent, même d'un commun accord, ni modifier la durée de la prescription, ni ajouter aux causes de suspension ou d'interruption de celle-ci (articles 30, pages 33 et 34)."
+  },
+  "premium": {
+    "page": 33,
+    "indexation": "La révision de la cotisation est annuelle. Elle intervient au premier jour de chaque année civile et modifie le tarif applicable aux risques garantis. Le nouveau tarif, communiqué dans les formes habituelles, s'applique à l'échéance annuelle indiquée aux Conditions particulières ou dès le jour de l'avenant en cas de modification du contrat. En cas de majoration consécutive à la révision de la cotisation annuelle, le contrat peut être résilié (cas n° 5 de l'article 31-1) ; le prorata de cotisation afférent à la période de garantie allant jusqu'à la date de résiliation est alors calculé sur la base de l'ancien tarif et demeure exigible. À défaut de résiliation, la nouvelle cotisation est considérée comme acceptée (article 29-3).",
+    "notes": [
+      "L'engagement est annuel. La cotisation correspond au coût des garanties et des options souscrites auquel viennent s'ajouter les accessoires de cotisation, notamment les frais de gestion annuels du contrat, et les impôts et taxes établis sur les contrats d'assurance et dont la récupération n'est pas interdite (article 29-1, page 33).",
+      "La cotisation annuelle est payable d'avance. Elle peut cependant être réglée en plusieurs fractions ; ce fractionnement ne concerne que le paiement et ne remet pas en cause le caractère annuel de la cotisation (article 29-2, page 33).",
+      "À défaut de paiement d'une cotisation ou d'une fraction de cotisation, l'assureur peut, dans les conditions et délais prévus par l'article L. 113-3 du Code des assurances, suspendre la garantie et éventuellement résilier le contrat (cas n° 9 de l'article 31-1), les frais engendrés par l'envoi de la lettre recommandée et/ou, le cas échéant, de prélèvement ou de tout autre moyen de paiement non honoré étant alors à la charge du souscripteur (article 29-2, page 33).",
+      "Variabilité (article 29-4, page 33) : « La Matmut est une société d'assurance mutuelle à cotisations variables. » Si les cotisations annuelles sont insuffisantes pour assurer l'équilibre des opérations, le Conseil d'Administration peut décider de procéder à un rappel de cotisation au titre de l'exercice considéré. Le souscripteur ne peut en aucun cas être tenu, sauf en ce qui concerne l'augmentation des charges fiscales, parafiscales et assimilées, au-delà d'un maximum fixé à deux fois le montant de la cotisation annuelle appelée.",
+      "Le document ne contient aucun tarif ni exemple de prime : les montants figurant aux Conditions particulières ne sont pas reproduits."
+    ]
+  },
+  "special_conditions": [
+    {
+      "name": "Assureur et statut",
+      "page": 62,
+      "description": "Le document est édité par « Mutuelle assurance des travailleurs mutualistes — Société d'assurance mutuelle à cotisations variables — Immatriculée au RCS de Rouen no 775 701 477 — Entreprise régie par le Code des assurances — Siège social : 66, rue de Sotteville 76100 Rouen — Adresse postale : 76030 Rouen CEDEX 1 — 02 35 03 68 68 » (page 62). Aucune autre entité porteuse de risque n'est nommée : le contrat ne comporte pas de garantie protection juridique confiée à un autre assureur."
+    },
+    {
+      "name": "Autorité de contrôle et composition du contrat",
+      "page": 61,
+      "description": "« Le présent contrat est régi par le Code des assurances et par les dispositions statutaires fixant les rapports entre la Société et ses membres. Il est soumis à l'Autorité de Contrôle Prudentiel et de Résolution (ACPR) : 4, place de Budapest CS 92459, 75436 Paris CEDEX 9. Il se compose des présentes Conditions générales ainsi que des Conditions particulières remises lors de la souscription et peut être complété, le cas échéant, par des conventions spéciales. »"
+    },
+    {
+      "name": "Trois formules de contrat",
+      "page": 7,
+      "description": "Trois formules de contrat sont proposées : Famille, Couple, Individuelle (article 2). Les garanties Préjudice patrimonial et Prestations d'accompagnement personnalisé en cas de décès ne sont acquises qu'en formules Couple et Famille (articles 3, 20 et 21)."
+    },
+    {
+      "name": "Deux niveaux de garantie",
+      "page": 8,
+      "description": "Les plafonds, valeurs de point et capitaux du contrat sont déclinés en Niveau 1 et Niveau 2 (article 4-1). Le niveau souscrit est indiqué aux Conditions particulières."
+    },
+    {
+      "name": "Personnes assurées — formule Famille",
+      "page": 11,
+      "description": "Sous condition d'une désignation aux Conditions particulières : le souscripteur et, lorsqu'elles vivent en permanence sous le toit de sa résidence principale, son conjoint, les enfants mineurs de l'un, de l'autre ou des deux, les enfants majeurs célibataires, sans enfants, âgés de moins de 28 ans et économiquement à leur charge (ces enfants conservent la qualité d'assuré lorsqu'ils poursuivent des études sans habiter en permanence sous le toit de la résidence principale), les enfants majeurs célibataires, sans enfants, âgés de 28 ans et plus dont ils ont la tutelle ou la curatelle ou qu'ils représentent au titre de l'habilitation familiale et qui sont économiquement à leur charge, les petits-enfants remplissant les mêmes conditions, les descendants et toutes personnes sous tutelle, curatelle ou habilitation familiale remplissant les mêmes conditions, et les enfants mineurs confiés au souscripteur ou à son conjoint dans le cadre d'un contrat d'accueil au titre de l'aide sociale à l'enfance. Les enfants énumérés ont également la qualité d'assuré lorsque, en raison d'une séparation de leurs parents, ils vivent en alternance sous le toit de la résidence principale du souscripteur (article 6-1 A)."
+    },
+    {
+      "name": "Personnes assurées — formules Couple et Individuelle",
+      "page": 12,
+      "description": "Formule Couple : le souscripteur et son conjoint vivant en permanence sous le toit de sa résidence principale. Formule Individuelle : la personne nommément désignée aux Conditions particulières (article 6-1 A)."
+    },
+    {
+      "name": "Extension aux petits-enfants mineurs",
+      "page": 12,
+      "description": "Sans condition d'une désignation aux Conditions particulières et quelle que soit la formule souscrite (Individuelle, Couple ou Famille), la qualité d'assuré est attribuée au petit-enfant mineur du souscripteur ou de son conjoint, désigné aux Conditions particulières, pendant tout le temps des séjours effectués au domicile du souscripteur. Au titre de cette extension, le petit-enfant mineur bénéficie des garanties du contrat dans les limites et plafonds visés à l'article 4-1. Cette extension intervient uniquement en cas d'absence ou d'insuffisance de garantie d'un autre contrat d'assurance « accidents corporels » souscrit par le ou les représentants légaux du petit-enfant mineur ; dans ce dernier cas, les garanties du présent contrat interviennent à titre complémentaire (article 6-1 B)."
+    },
+    {
+      "name": "Bénéficiaires du capital décès",
+      "page": 12,
+      "description": "Ordre de dévolution du capital décès, sous condition de survie à l'assuré (article 6-2). Formule Famille : au conjoint de l'assuré décédé désigné aux Conditions particulières ; à défaut, aux enfants mineurs de l'assuré décédé, aux enfants mineurs du conjoint économiquement à la charge de l'assuré décédé au jour de l'accident, aux enfants majeurs de moins de 25 ans économiquement à charge, aux enfants majeurs sous tutelle, curatelle ou habilitation familiale économiquement à charge, aux descendants ayant la qualité d'assuré et économiquement à charge ; à défaut, aux autres enfants majeurs vivants ou représentés ; à défaut, au père et à la mère ou à l'un des deux si l'autre est décédé ; à défaut, aux autres ascendants, sauf si l'assuré décédé est un enfant ou un petit-enfant du souscripteur et/ou de son conjoint, auquel cas ses frères et sœurs sont prioritaires ; à défaut, aux frères et sœurs ; à défaut, aux neveux et nièces. Formules Couple et Individuelle : dévolution simplifiée décrite aux paragraphes B et C. En cas de pluralité de bénéficiaires, le capital est partagé entre eux par parts égales (article 19-1, page 23)."
+    },
+    {
+      "name": "Bénéficiaires du préjudice patrimonial",
+      "page": 13,
+      "description": "Pour l'indemnité correspondant au préjudice patrimonial en cas de décès du souscripteur ou de son conjoint, et à condition qu'ils survivent à l'assuré décédé : formule Famille, au conjoint désigné aux Conditions particulières et aux enfants, descendants et personnes définis à l'article 6-2 (enfants mineurs, enfants mineurs du conjoint économiquement à charge, enfants majeurs de moins de 25 ans économiquement à charge, enfants majeurs sous tutelle/curatelle/habilitation familiale économiquement à charge, descendants ayant la qualité d'assuré, personnes sous tutelle/curatelle/habilitation familiale ayant la qualité d'assuré et économiquement à charge) ; à défaut d'enfants et de descendants et autres bénéficiaires précités, au conjoint ; à défaut de conjoint, aux enfants, descendants et autres bénéficiaires précités. Formule Couple : au conjoint désigné aux Conditions particulières. Formule Individuelle : aucun bénéficiaire (garantie non comprise)."
+    },
+    {
+      "name": "Plafonds en cas de pluralité de victimes",
+      "page": 10,
+      "description": "L'assureur ne peut, en aucun cas, être tenu, pour un même accident, de verser par assuré une somme supérieure au plafond de la garantie correspondant à chaque dommage indiqué à l'article 4-1, ni, en cas de pluralité d'assurés décédés lors d'un même événement accidentel, un total d'indemnités supérieur : pour la formule Famille, en cas de décès du souscripteur et de son conjoint et le cas échéant d'un ou plusieurs autres assurés, à deux fois le plafond du préjudice patrimonial, deux fois le plafond du capital décès « Souscripteur-Conjoint assuré » et cinq fois le plafond du capital décès « Autre personne assurée » ; en cas de décès du souscripteur ou de son conjoint et d'un ou plusieurs autres assurés, à une fois le plafond du préjudice patrimonial, une fois le plafond du capital décès « Souscripteur-Conjoint assuré » et cinq fois le plafond du capital décès « Autre personne assurée » ; dans les autres cas, à cinq fois le plafond du capital décès « Autre personne assurée » ; pour la formule Couple, à deux fois le plafond du capital décès « Souscripteur-Conjoint assuré ». En cas de pluralité d'assurés blessés lors d'un même événement accidentel, le total d'indemnités ne peut excéder cinq fois les plafonds cumulés des garanties accordées en cas de blessures. Si la totalité du coût du sinistre dépasse cet engagement maximum, l'assureur verse à chaque bénéficiaire une quote-part proportionnelle des indemnités lui revenant (article 4-2)."
+    },
+    {
+      "name": "Décès non concomitant à l'accident — non-cumul des indemnités",
+      "page": 11,
+      "description": "Lorsque l'assuré décède des suites de l'accident garanti après qu'une indemnité lui a été réglée au titre des garanties en cas de blessures, l'assureur verse aux bénéficiaires visés à l'article 6-2 les indemnités dues au titre des garanties Capital décès (article 19) et Préjudice patrimonial (article 20) dans la limite des plafonds figurant à l'article 4-1 et après déduction de toutes les indemnités déjà réglées au titre des garanties en cas de blessures. En cas de pluralité de bénéficiaires, l'indemnité versée au titre des garanties en cas de blessures est déduite entre les bénéficiaires proportionnellement à l'indemnité qui leur est due (article 5-1)."
+    },
+    {
+      "name": "Décès avant règlement des indemnités de blessures — réduction au prorata",
+      "page": 11,
+      "description": "Lorsque, après consolidation de ses blessures, l'assuré décède avant le règlement intégral des indemnités dues au titre des garanties Incapacité permanente et professionnelle (article 9-2) et Préjudice esthétique permanent (article 10-2), les indemnités versées à ses ayants droit au titre de ces deux garanties sont réduites au prorata de la période comprise entre la date de consolidation et celle du décès, selon la formule : indemnités dues en cas de blessures si l'assuré avait survécu × (durée de vie entre la date de consolidation des blessures et le décès de l'assuré / espérance de vie de l'assuré, en fonction de son sexe, au jour de la consolidation de ses blessures). L'espérance de vie est déterminée à partir des dernières données statistiques « Espérance de vie à différents âges en France » publiées sur le site de l'INSEE avant la date de la consolidation des blessures (article 5-2)."
+    },
+    {
+      "name": "Événements couverts",
+      "page": 13,
+      "description": "Sont couverts les accidents répondant à la définition de l'article 1 survenus à l'occasion de la vie privée ou de la vie professionnelle, sous réserve des exclusions de l'article 22 : les accidents survenus à l'occasion de la vie courante, de la vie scolaire ou d'activités de loisirs (ménage, cuisine, jardinage, bricolage, voyage…), ou au cours de la pratique en qualité d'amateur d'une activité sportive ; les accidents imputables à une catastrophe naturelle (inondation, avalanche, affaissement de terrain…) ou à une catastrophe technologique ; les agressions, attentats ou actes de terrorisme dont l'assuré est victime et qu'il n'a pas provoqués ; les accidents du travail ou de service ; les accidents sanitaires résultant du fonctionnement du système de santé français (accident médical, affection iatrogène ou infection nosocomiale directement imputable à des actes de prévention, de diagnostic ou de soins réalisés par un professionnel de santé, un établissement, un service ou un organisme régi par le Code de la santé publique, et ayant eu pour l'assuré des conséquences anormales au regard de son état de santé comme de l'évolution prévisible de celui-ci) (article 7-1)."
+    },
+    {
+      "name": "Territorialité et paiement des indemnités",
+      "page": 14,
+      "description": "Les garanties s'exercent lorsque l'accident garanti est survenu en France et dans la Principauté de Monaco. Elles sont également acquises lorsque l'accident garanti est survenu dans le monde entier pendant les douze premiers mois du séjour hors de France, ou à l'occasion d'un séjour, quelle qu'en soit la durée, effectué à la demande de l'employeur de l'assuré pour une mission temporaire dans un pays de l'Union européenne, en Islande, en Norvège, dans les Principautés d'Andorre et de Liechtenstein, au Royaume-Uni, à Saint-Marin, en Suisse et au Vatican. Pour l'ensemble des garanties, le paiement de l'indemnité est toujours effectué en France ou dans la Principauté de Monaco et en euros (article 8)."
+    },
+    {
+      "name": "Prestataires d'assistance",
+      "page": 19,
+      "description": "Les services à la personne et les prestations d'accompagnement personnalisé sont réalisés par IMA GIE (118 avenue de Paris – 79000 Niort) selon les articles 13, 14 et 21 (pages 19, 20 et 26). Le lexique (article 1, page 6) désigne toutefois « Matmut Assistance » comme intervenant « pour les services à la personne et les prestations d'accompagnement personnalisé », dénomination également employée à l'article 8-3 (page 14)."
+    },
+    {
+      "name": "Non-opposabilité des exclusions liées à l'alcool et aux stupéfiants aux bénéficiaires en cas de décès",
+      "page": 28,
+      "description": "Les exclusions visées au paragraphe 5 de l'article 22 (état alcoolique, état alcoolique du conducteur en permis probatoire ou conduite accompagnée, refus de se soumettre aux vérifications d'alcoolémie, emprise de stupéfiants, refus de se soumettre aux vérifications relatives aux stupéfiants) ne sont pas opposables au conjoint et aux enfants (mineurs, majeurs de moins de vingt-cinq ans, majeurs dont l'assuré ou son conjoint a la tutelle ou la curatelle et qui sont économiquement à la charge de l'assuré décédé) bénéficiaires du capital décès et de l'indemnité correspondant au préjudice patrimonial en cas de décès de l'assuré (article 22-5)."
+    },
+    {
+      "name": "Communication sur support durable",
+      "page": 32,
+      "description": "Conformément à l'article L. 111-10 du Code des assurances, l'assuré peut s'opposer, dès l'entrée en relation ou à tout moment, à l'utilisation du support durable utilisé par l'assureur pour lui communiquer des informations ou documents, en vue de revenir à l'utilisation du support papier (article 27)."
+    },
+    {
+      "name": "Langue et loi applicables",
+      "page": 33,
+      "description": "Le présent contrat est rédigé en français. Il est régi par la loi française (article 28-4)."
+    },
+    {
+      "name": "Annexe II — exemples d'indemnités",
+      "page": 50,
+      "description": "Trois exemples chiffrés, élaborés à titre indicatif conformément aux règles en vigueur et aux dispositions des Conditions générales à la date d'édition de ces dernières. Exemple 1 : Madame V., 40 ans, sans profession, incapacité permanente partielle de 12 %, souffrances endurées 3/7, préjudice esthétique permanent 1/7 — total 32 860 € (Niveau 1) / 49 300 € (Niveau 2) + crédit de services à la personne. Exemple 2 : Monsieur A., 40 ans, salarié, incapacité permanente de 80 % avec inaptitude au travail et assistance permanente par tierce personne 2 heures par jour — total 540 783.60 € (Niveau 1) / 855 783.60 € (Niveau 2) + crédits de services et prestations. Exemple 3 : Monsieur B., décédé à 35 ans, salaire mensuel net moyen de 2 300 €, veuve de 34 ans sans profession et enfant de 5 ans — total 550 613,40 € (Niveau 1) / 582 613.40 € (Niveau 2) + crédit de prestations d'accompagnement personnalisé (pages 50 à 52)."
+    },
+    {
+      "name": "Charte de protection des données à caractère personnel",
+      "page": 56,
+      "description": "Les sociétés du Groupe Matmut collectent et traitent les données personnelles dans le respect du Règlement Général sur la Protection des Données du 27 avril 2016 et de la loi du 6 janvier 1978 modifiée. Finalités : passation, gestion et exécution des contrats d'assurance ; prestation de conseil en gestion de patrimoine ; gestion de la relation client et prospection commerciale ; amélioration des services ; études statistiques, enquêtes et sondages ; actions de prévention ; exécution des dispositions légales, réglementaires et administratives ; lutte contre la fraude pouvant conduire à l'inscription sur une liste de personnes présentant un risque de fraude ; lutte contre le blanchiment des capitaux et le financement du terrorisme ; recherche et développement. Le traitement des données de santé, dans le cadre de la gestion d'un sinistre corporel, se fait dans le respect du secret médical et requiert le consentement explicite de la personne concernée (pages 56 et 57)."
+    },
+    {
+      "name": "Données personnelles — destinataires, durées et droits",
+      "page": 57,
+      "description": "Destinataires : collaborateurs du Groupe Matmut, partenaires, prestataires, sous-traitants et le cas échéant délégataires de gestion et intermédiaires en assurance, entités du groupe d'assurance, coassureurs et réassureurs, organismes professionnels et fonds de garanties, avocats, experts, auxiliaires de justice et officiers ministériels, curateurs, tuteurs, enquêteurs et professionnels de santé, médecins conseils et personnel habilité, Agence pour la Lutte contre la Fraude à l'Assurance (ALFA), autres organismes d'assurance, organismes sociaux, personnes intéressées au contrat, personnes bénéficiant d'un droit de communication. Exemples de durées de conservation : prospection commerciale 3 ans à compter du dernier contact émanant du prospect ; contrat d'assurance Vie 10-30 ans suite au décès de l'assuré (selon les cas et les contrats) ; lutte contre le blanchiment de capitaux et le financement du terrorisme 5 ans à compter de la cessation des relations ; lutte contre la fraude 5 ans à compter de la clôture du dossier de fraude ; gestion des cookies 13 mois à compter de leur dépôt. Droits : accès, rectification, effacement, limitation, opposition, définition de directives post mortem, portabilité, retrait du consentement, et droits liés aux décisions automatisées. Exercice des droits par courrier électronique dpd@matmut.fr ou par courrier postal « Matmut à l'attention du Délégué à la protection des données, 66 rue de Sotteville, 76100 Rouen », en justifiant de son identité ; réclamation possible auprès de la CNIL, 3 place de Fontenoy - TSA 80715 - 75334 Paris Cedex 07 ; inscription gratuite possible sur la liste d'opposition au démarchage téléphonique www.bloctel.gouv.fr (pages 57 à 59)."
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Ce contrat vous permet de bénéficier d’une protection optimale contre les accidents corporels de la vie                   \ncourante : accidents domestiques, accidents scolaires, de sport ou de loisirs, accidents médicaux, accidents de service \nou de travail, agressions et attentats.",
+      "page": 2,
+      "context": "Objet du contrat, page de garde"
+    },
+    {
+      "quote": "Le présent contrat vous est destiné si, à la date de prise d’effet des garanties, vous-même et/ou votre conjoint êtes âgés \nde moins de 61 ans.",
+      "page": 2,
+      "context": "Condition d'âge à la prise d'effet"
+    },
+    {
+      "quote": "Le contrat ne peut être souscrit que par un proposant admis au préalable comme Sociétaire.",
+      "page": 2,
+      "context": "Condition de souscription : qualité de Sociétaire"
+    },
+    {
+      "quote": "Nous garantissons le paiement d’indemnités en cas de survenance d’un accident",
+      "page": 7,
+      "context": "Objet de la garantie (article 2) ; la phrase se poursuit par « occasionnant une incapacité permanente à l'assuré ou entraînant son décès », coupée ici parce qu'un glyphe de symbole (U+F0EB) s'intercale dans la couche texte"
+    },
+    {
+      "quote": "les agressions, les attentats ou les actes de terrorisme dont l’assuré est victime et qu’il n’a pas provoqués,",
+      "page": 13,
+      "context": "Événements couverts (article 7)"
+    },
+    {
+      "quote": "la formule Individuelle ne comporte pas la garantie Préjudice patrimonial et ne compte donc aucun bénéficiaire au titre de \nl’indemnité correspondant à ce préjudice.",
+      "page": 13,
+      "context": "Formule Individuelle sans préjudice patrimonial (article 6-2 C)"
+    },
+    {
+      "quote": "l’expertise médicale est toujours effectuée par référence à la dernière édition, au jour de \nl’expertise médicale, du « barème indicatif d’évaluation des taux d’incapacité en droit commun » publié dans la revue Le Concours \nMédical.",
+      "page": 14,
+      "context": "Barème d'évaluation du taux d'incapacité (article 8-2)"
+    },
+    {
+      "quote": "La garantie couvre les conséquences physiologiques (déficit fonctionnel permanent) et économiques (incidence professionnelle, \nperte de gains professionnels futurs)",
+      "page": 15,
+      "context": "Postes couverts par la garantie Incapacité permanente et professionnelle (article 9-1)"
+    },
+    {
+      "quote": "Par dérogation aux dispositions de l’article 22, l’indemnité reste due dans le cas du suicide d’un assuré mineur.",
+      "page": 23,
+      "context": "Dérogation à l'exclusion de suicide pour les frais d'obsèques (article 18-2)"
+    },
+    {
+      "quote": "Les prestations d’accompagnement personnalisé vous sont acquises uniquement lorsque vous avez souscrit la formule Couple ou \nFamille.",
+      "page": 26,
+      "context": "Restriction de formule (article 21)"
+    },
+    {
+      "quote": "1 - Sont exclues des garanties les affections, lésions ou atteintes corporelles, ainsi que leur aggravation, qui sont en relation \navec un accident",
+      "page": 27,
+      "context": "Première exclusion générale (article 22-1) ; la phrase se termine par « survenu antérieurement à la prise d'effet du contrat », coupée ici parce qu'un glyphe de symbole s'intercale"
+    },
+    {
+      "quote": "sous l’empire d’un état alcoolique caractérisé par la présence dans le sang \nd’une concentration d’alcool pur égale ou supérieure à 0,50 gramme par litre ou par la présence dans l’air expiré d’une \nconcentration d’alcool pur égale ou supérieure à 0,25 milligramme par litre.",
+      "page": 27,
+      "context": "Exclusion pour état alcoolique (article 22-5)"
+    },
+    {
+      "quote": "sous l’empire d’un état alcoolique caractérisé par la présence dans le sang d’une concentration d’alcool pur égale ou \nsupérieure à 0,20 gramme par litre ou par la présence dans l’air expiré d’une concentration d’alcool pur égale ou supérieure \nà 0,10 milligramme par litre.",
+      "page": 27,
+      "context": "Exclusion pour état alcoolique, conducteur en permis probatoire ou conduite accompagnée (article 22-5)"
+    },
+    {
+      "quote": "L’emprise de stupéfiants est caractérisée lorsque, en application de l’article L. 235-2 du Code de la route, les épreuves de \ndépistage, les analyses ou les examens médicaux, cliniques et biologiques, destinés à rechercher la présence d’une ou \nplusieurs substances ou plantes classées comme stupéfiants au sens de l’arrêté du 22 février 1990 en révèlent la présence et \nce, quelles que soient les quantités décelées, sauf si ces substances ou plantes ont été prescrites par un professionnel de santé \net qu’elles ont été consommées dans la limite des doses ainsi prescrites.",
+      "page": 28,
+      "context": "Définition contractuelle de l'emprise de stupéfiants (article 22-5)"
+    },
+    {
+      "quote": "La Matmut est une société d’assurance mutuelle à cotisations variables.",
+      "page": 33,
+      "context": "Nature mutualiste de l'assureur (article 29-4)"
+    },
+    {
+      "quote": "Si les cotisations annuelles sont insuffisantes pour assurer l’équilibre des opérations, le Conseil d’Administration peut décider de \nprocéder à un rappel de cotisation au titre de l’exercice considéré.",
+      "page": 33,
+      "context": "Rappel de cotisation (article 29-4)"
+    },
+    {
+      "quote": "Conformément à l’article L. 114-1 du Code des assurances, toutes actions dérivant du présent contrat, qu’il s’agisse de sa validité ou \nde son exécution, sont prescrites par deux ans à compter de l’événement qui y donne naissance.",
+      "page": 33,
+      "context": "Prescription biennale (article 30)"
+    },
+    {
+      "quote": "Le contrat a une durée d’un an. La première année, il est conclu pour la période comprise entre sa date d’effet et la date d’échéance",
+      "page": 33,
+      "context": "Durée du contrat (article 28-3)"
+    },
+    {
+      "quote": "L’expression de votre mécontentement ou de votre insatisfaction à notre égard constitue une réclamation.",
+      "page": 54,
+      "context": "Définition de la réclamation"
+    },
+    {
+      "quote": "En toute hypothèse, nous nous engageons à vous répondre dans un délai maximal de 30 jours à compter de la réception de \nvotre réclamation.",
+      "page": 54,
+      "context": "Délai de réponse aux réclamations"
+    },
+    {
+      "quote": "La saisine du Médiateur doit obligatoirement intervenir dans le délai d’un an à compter de la réception de votre réclamation \ninitiale et aucune action contentieuse ne doit avoir été engagée auparavant.",
+      "page": 54,
+      "context": "Délai de saisine du Médiateur de l'Assurance"
+    },
+    {
+      "quote": "Le présent contrat est régi par le Code des assurances et par les dispositions statutaires fixant les rapports entre la Société et ses \nmembres. Il est soumis à l’Autorité de Contrôle Prudentiel et de Résolution (ACPR) : 4, place de Budapest CS 92459, 75436 Paris \nCEDEX 9. Il se compose des présentes Conditions générales ainsi que des Conditions particulières remises lors de la souscription et \npeut être complété, le cas échéant, par des conventions spéciales. Toute disposition législative d'ordre public s'impose aux \ncocontractants quand bien même ce contrat n'en ferait pas état ou en disposerait autrement.",
+      "page": 61,
+      "context": "Régime du contrat, ACPR et composition du contrat"
+    },
+    {
+      "quote": "Mutuelle assurance des travailleurs mutualistes \nSociété d’assurance mutuelle à cotisations variables \nImmatriculée au RCS de Rouen no 775 701 477 \nEntreprise régie par le Code des assurances\nSiège social : 66, rue de Sotteville 76100 Rouen",
+      "page": 62,
+      "context": "Identité et statut de l'entreprise d'assurance"
+    },
+    {
+      "quote": "CG MAV - 01/26",
+      "page": 61,
+      "context": "Code d'édition en pied de page — seule marque de version du document"
+    }
+  ],
+  "gaps": [
+    "Le PDF ne porte aucune date d'édition, aucun numéro de version et aucune référence interne imprimée : `edition_date` et `reference` sont laissés null. La date d'édition « 2026-01 » figurant dans les métadonnées de collecte du projet n'apparaît nulle part dans le document et n'a donc pas été reprise.",
+    "Le texte du prompt n'était pas tronqué : 192 695 caractères pour 62 pages, sous le plafond de 240 000. Les 62 pages ont été ré-extraites du PDF local avec PyMuPDF (page.get_text(\"text\")) et comparées page par page au texte du prompt : correspondance octet pour octet sur les 62 pages. Les citations sont découpées programmatiquement dans cette extraction vérifiée.",
+    "La couche texte contient 823 glyphes de zone d'usage privé (U+F0EB × 531, U+F0B7 × 288) plus U+F020 × 18, U+F0DC × 2, U+F075 et U+F076 × 1 chacun. U+F0EB est le pictogramme « symbole » qui renvoie au lexique et se place immédiatement après le terme défini ; U+F0B7 est une puce Wingdings. Ils ne sont ni des espaces ni de la ponctuation : à la lecture, ils donnent l'illusion de mots collés (« l'accident|et », « incapacité permanente|à », « Le symbole|renvoie », « conjoint|assuré »). Les descriptions de cette extraction restituent la lecture correcte (mot + espace) ; les citations de key_quotes contournent systématiquement ces glyphes, ce qui explique que plusieurs d'entre elles s'arrêtent avant la fin de la phrase.",
+    "Les tableaux de plafonds (article 4-1, pages 8 à 10) et les tableaux d'unités de valeur (Annexe I, pages 39, 42, 43 et 48) arrivent dans la couche texte sous forme de colonnes linéarisées : les en-têtes « Niveau 1 / Niveau 2 » précèdent les valeurs sans les rattacher explicitement à une ligne. L'appariement montant/niveau a été reconstruit à partir de l'ordre de lecture et recoupé, quand c'était possible, avec les tableaux répétés dans les articles 9 à 21 (qui donnent les mêmes valeurs) et avec les exemples chiffrés de l'Annexe II. Les cas où les deux sources divergent sont signalés ci-dessous.",
+    "Contradiction interne (Annexe II, exemple 2, pages 51 et 52) : le tableau indique un capital complémentaire de « 555 465,60 €* » au Niveau 2, tandis que le détail du calcul de la même page 52 aboutit à « 1 125 000 € - 565 495,20 € = 559 504,80 € ». Le total Niveau 2 de l'exemple (855 783.60 €) est cohérent avec la valeur du tableau (555 465,60 €), pas avec celle du calcul détaillé. Les deux lectures sont consignées sans arbitrage. Le calcul du Niveau 1 est, lui, cohérent (817 500 € - 467 034,40 € = 350 465,60 €).",
+    "Contradiction interne sur le plafond « Pertes de revenus professionnels » : l'article 4-1 (page 8) donne deux plafonds, 8 500 €* (Niveau 1) et 10 000 €* (Niveau 2), tandis que l'article 16-3 (page 22) n'affiche qu'un plafond unique de 8 500 €*, sans distinction de niveau. Les deux lectures sont enregistrées dans le champ `limits` de la garantie.",
+    "Divergence de formulation sur le seuil du forfait hospitalisation : l'article 4-1 (page 8) énonce « À compter de 3 jours consécutifs d'hospitalisation » et « Au minimum : 150 € à compter du 3e jour », tandis que l'article 15-1 (page 21) énonce « une hospitalisation continue supérieure à 2 jours ». Les deux formulations sont conservées.",
+    "Divergence de dénomination du prestataire d'assistance : le lexique (page 6) et l'article 8-3 (page 14) désignent « Matmut Assistance », tandis que les articles 13, 14 et 21 (pages 19, 20 et 26) indiquent que les services à la personne et les prestations d'accompagnement personnalisé « sont réalisés par IMA GIE (118 avenue de Paris – 79000 Niort) ». Les deux dénominations sont enregistrées sans arbitrage.",
+    "Anomalie d'ordre de lecture, page 14 : le fragment « à l'exclusion de l'accident sanitaire visé à l'article 7, » apparaît en toute fin de page dans la couche texte, isolé, alors qu'il se rattache manifestement au paragraphe 1 de l'article 8 sur la territorialité (probable encadré ou renvoi mis en page hors du flux). Le rattachement exact de cette réserve n'est pas certain à la seule lecture du texte ; il n'a donc pas été intégré au champ `territorial_scope`, qui reprend la liste des territoires telle qu'imprimée.",
+    "L'article 14-1 (page 20) écrit « une incapacité permanente directement imputable à l'accident et au moins égal à 30 % » (accord au masculin) ; la faute d'accord de l'éditeur n'a pas été corrigée dans la citation ni signalée dans le corps de l'extraction. De même, l'article 20-2 D bénéficiaires (page 13) répète « la tutelle ou la curatelle ou la curatelle ».",
+    "Pages sans contenu contractuel exploitable : page 1 (couverture), page 38 (intercalaire « Annexes »), page 53 (intercalaire « Modalités d'examen des réclamations »), page 55 (intercalaire « Charte de protection des données », qui contient en outre deux lettres isolées « D » et « V » sans contexte, résidus de mise en page), page 60 (uniquement l'en-tête courant) et page 61 (uniquement le pavé légal et le code d'édition).",
+    "Aucune franchise n'est stipulée dans le document : le contrat fonctionne par seuils de déclenchement (10 % d'incapacité permanente pour la plupart des garanties en cas de blessures, 30 % pour les prestations d'accompagnement personnalisé, 3 jours d'hospitalisation pour le forfait) et par déduction des indemnités reçues des tiers payeurs, non par franchise. L'objet `deductibles` est donc rempli de valeurs nulles.",
+    "Le document n'énonce pas de catégorie d'audience (« particuliers », « professionnels »…). `target_audience` a été fixé à « particuliers » sur la base des seules mentions du document reprises dans `target_audience_note` (contrat familial réservé aux Sociétaires, formules Famille/Couple/Individuelle, droit de renonciation ouvert à « une personne souscrivant à titre privé ») ; aucune formulation du document ne nomme cette catégorie.",
+    "Le contrat ne comporte aucune garantie de protection juridique ni aucune garantie confiée à un porteur de risque distinct : la seule entité tierce nommée est le prestataire d'assistance (IMA GIE / Matmut Assistance), qui exécute des prestations en nature et n'est pas désigné comme assureur. Aucune police collective distincte n'est mentionnée.",
+    "Le document ne mentionne ni code de branche réglementaire, ni numéro d'agrément, ni numéro ORIAS : `branch_code` reste null."
+  ]
+}
