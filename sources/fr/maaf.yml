@@ -1,0 +1,720 @@
+insurer:
+  slug: maaf
+  name: "MAAF — a single brand covering four regulated carriers: MAAF Assurances SA (société anonyme, Code des assurances, RCS Niort 542 073 580), MAAF Assurances (société d'assurance mutuelle à cotisations variables, Code des assurances, RCS Niort 781 423 280), MAAF Vie (société anonyme, Code des assurances, RCS Niort 337 804 819) and MAAF Santé (mutuelle du livre II du Code de la mutualité, SIREN 331 542 142). Group Covéa."
+  website: "https://www.maaf.fr/"
+  segment: particuliers
+  notes: |
+    MAAF is a first-party carrier, but the brand spans TWO French legal codes and the documents say so explicitly. IARD, prévoyance and auto risks are carried by MAAF Assurances SA, a société anonyme 'entreprise régie par le Code des assurances - RCS NIORT 542 073 580'. Health risks are carried by MAAF Santé, 'Mutuelle soumise aux dispositions du livre II du Code de la Mutualité - SIREN N° 331 542 142'. The single clearest statement is in MAAF_Convention_Retraites.pdf, which is a contract between two of them: 'Passée entre : MAAF Assurances, Société d'assurance mutuelle à cotisations variables, régie par le Code des Assurances, RCS NIORT 781 423 280, dénommée ci-après la contractante, et MAAF Santé, Mutuelle soumise aux dispositions du Livre II du Code de la Mutualité, SIREN 331 542 142, dénommée ci-après l'assureur ... à l'exception des garanties d'assistance santé à domicile assurées par MAAF Assurances SA' — and then 'La présente convention d'assurance est régie par le Code de la Mutualité.' The same split appears compressed into one sentence in the santé CGs: 'Les Garanties du présent Contrat sont assurées par MAAF Santé, régie par le Code de la Mutualité, à l'exception des garanties d'assistance santé à domicile qui sont assurées par MAAF Assurances SA', and in the santé footers: 'Garanties santé assurées par MAAF santé, garanties d'assistance assurées par MAAF Assurances SA, contrat distribué par MAAF Assurances SA'. It is even visible inside the IPID set: 25 of the 26 IPIDs print 'MAAF Assurances SA / France - RCS Niort 542 073 580' on the carrier line, and SAN25001 (Vivazen) prints 'MAAF Santé / Mutuelle soumise aux dispositions du livre II du code de la mutualité - SIREN 331 542 142'. A THIRD MAAF entity carries risk too and is easy to miss: MAAF Assurances, the société d'assurance mutuelle (RCS Niort 781 423 280, also under the Code des assurances, distinct from MAAF Assurances SA). It appears in most IARD conditions générales as the carrier of the ancillary/assistance guarantees — 'Ces prestations sont assurées par MAAF Assurances (Société d'assurance mutuelle à cotisations variables, entreprise régie par le code des assurances - RCS NIORT 781 423 280)' — and as the SOUSCRIPTEUR of the group health contracts. MAAF Vie (SA, Code des assurances, RCS Niort 337 804 819) carries the épargne/retraite contracts. Two documents are NOT carried by MAAF at all: both Défense Juridique conditions générales name 'ASSISTANCE PROTECTION JURIDIQUE, Société anonyme d'assurance ... R.C.S Bobigny 334 656 386' as l'assureur, and the auto CG says the product 'constitue un contrat distinct dont Assistance Protection Juridique est l'assureur'. Newer MAAF CGs name the same entity under its current name, Covéa Protection Juridique (RCS Le Mans 442 935 227), as the assureur of the protection-juridique sections. Finally, one contract splits its carrier BY BRANCH: the emprunteur notice says the contract is souscrit by ANS Vie-Covéa 'auprès de : - MAAF Vie pour les risques de décès et de perte totale et irréversible d'autonomie (branche 20). - Et MAAF Assurances SA pour les risques arrêt de travail et perte d'emploi (branches 1, 2 et 16)'.
+
+    NOT PUBLISHED: No conditions particulières and no conditions tarifaires are published anywhere on maaf.fr — those are issued per policyholder and live behind the espace client, which robots.txt disallows and which we did not touch. There is no single 'documents contractuels' library either: /fr/documents-information-assurances is an IPID index only (26 IPIDs plus exactly two santé PDFs), and the conditions générales are not linked from it. The 44 conditions générales in this result were assembled from three different surfaces — the sitemap (most of them), llms.txt (5 that appear nowhere else, including the auto CG) and one assurance-vie regulatory page. Coverage is uneven against MAAF's own product range. Missing public conditions générales include: the health gammes MÉDIKA, VITAMINE, VITAPRO and VITAMINE BANQUE POPULAIRE (named in the règlement mutualiste but with no CG of their own); the chasse and bateau/ALCYON products (IPIDs IRD11004 and IRD11001 exist, no CG); the cyclo and caravane/remorque/camion products (IPIDs AUT11019 and AUT11028 exist, no CG); scolaire (a tableau de garanties only); décennale / RC construction (a pedagogical guide only, no CG); the standalone Winalto Donatio and Homme Clé wordings beyond what is in the Epargne and Professionnels CGs; and animaux, cyber, voyage, agricole and obsèques, for which MAAF publishes nothing at all. The IPID set and the CG set do not pair up: 21 of the 26 IPIDs have a matching published conditions générales, 5 do not (cyclo AUT11019, caravane/remorque/camion AUT11028, bateau ALCYON IRD11001, chasse IRD11004, assurance accident PRE10003). In the other direction, of the 44 conditions générales 9 are sector intercalaires that never get their own IPID, leaving 35 standalone CGs against 26 IPIDs. Also not published contractually, and deliberately excluded from documents[]: 26 verified PDFs that are prevention leaflets, claim-handling how-tos (constat, expertise, checklists), commercial one-pagers (bonus décennal, bonus multipro), service guides, the UNOCAM glossary, avis d'échéance explainers, Covéa livres blancs, ESG and solvency (SFCR) reports, annual reports, press releases and baromètres. One structural gap we could not close: the DataDome block on HTML routes stopped the sitemap page crawl after 76 of 1,220 pages, so any contractual PDF that is linked only from a product page AND absent from both the sitemap and llms.txt would have been missed. The 76 pages that did succeed yielded only 20 PDF links, 15 of them already known, which suggests the residual risk is small but it is not zero.
+
+    TRAP: DO NOT ENUMERATE THE IPID CODE SPACE. /fr/files/live/sites/maaf/files/TECH/Ipids/<CODE>.PDF answers HEAD cleanly with 200 vs 404, which makes an enumerator tempting; a predecessor agent started building one and it was discarded unused (its output is left under tmp/DISCARDED_enumeration_do_not_use/ and was not used here). The 26 IPIDs in this result are exactly the ones MAAF links from its own library page. Anything else in that code space is unlinked and out of scope.
+
+    TRAP: A curl 403 on maaf.fr is not proof of a WAF: the same URL with the same browser UA returns 200 to Python urllib. But an HTML 403 after ~50 fast requests IS a real DataDome block, and it persists for the session. Distinguish the two before concluding a host is unreachable.
+
+    TRAP: The static document path /fr/files/live/... is not behind DataDome. When HTML is blocked you can still fetch every PDF. Do the HTML first, slowly, then the PDFs.
+
+    TRAP: https://www.maaf.fr/llms.txt is named in robots.txt and is a genuine discovery source, not just marketing: it has a 'Documents contractuels prioritaires' section that links 8 conditions générales by absolute URL. FIVE of those are in NO sitemap and are linked from no page we could read — the auto CG (18133), the moto CG (2001), the camping-car CG (6056), the Tranquillité Famille CG (1994) and the emprunteur notice (7313562). Without llms.txt you lose MAAF's single most important document, the auto conditions générales. Read llms.txt on every French insurer that declares one.
+
+    TRAP: llms.txt is served with NO Content-Type header and cp1252/latin-1 bytes. body.decode('utf-8') raises UnicodeDecodeError; decode with cp1252.
+
+    TRAP: PARSE <loc> ALLOWING WHITESPACE. Five sitemap URLs contain LITERAL SPACES in the path, un-encoded, e.g. '.../Professionnels/CG/2350 CG Gar HomCle 0124.pdf'. The obvious regex <loc>([^<\s]+)</loc> silently drops all five and you never learn they existed. Three of the five are in scope, including a 50-page conditions générales (Garanties Homme Clé) that is the only published CG behind two IPIDs. Use <loc>(.*?)</loc> and strip, then percent-encode before fetching. This cost a full rebuild here; do not repeat it.
+
+    TRAP: Two sitemap URLs contain non-ASCII characters in the path (…propriétaire_non_occupant.pdf and …Chambre_des_Métiers_11033.pdf). urllib raises on these unless you percent-encode the path first (urlsplit -> quote(path) -> urlunsplit). Both are real 200s once encoded; a naive run silently loses two documents, one of them a 78-page conditions générales.
+
+    TRAP: The number in a MAAF filename is the document's internal 'Réf.', not a date and not always the same number the document prints. MAAF_Notice_information_Assurance_credit_7313562.pdf prints 'Réf. 18151 - 07/25' inside.
+
+    TRAP: Almost every MAAF document carries its own edition date, so edition_source is 'document' for 91 of 94 here. Conditions générales print 'Réf. NNNN - MM/YY' on the last page. IPIDs encode it in the first line's reference string: 'Réf. : MU0_IPIDHA_00-260315-...' means 2026-03. Tableaux de garanties print 'www.maaf.fr - MM/YYYY' in the footer. Santé annexes date themselves 'en vigueur au DD/MM/YYYY'. Statuts date themselves by the general meeting that adopted them.
+
+    TRAP: The IPID header block is rigidly structured and worth parsing rather than guessing: line 1 'Réf. : <code>', line 2 'Document d'information sur le produit d'assurance', line 3 the insurance type, line 4 THE CARRIER, line 5 the legal-regime line, line 6 THE PRODUCT NAME. The product name is the one the site's anchor text usually disagrees with — 37 of 94 documents here have site_label_diverges = true.
+
+    TRAP: The site's anchor text is consistently shorter and more commercial than the document's own name. Example: the library page says 'assurance camping-car, Ambulance, Véhicule de collection, Bazar forain' for AUT11023, whose own product line reads 'Camping-Car, Ambulance, Bazar forain, Véhicule de collection'. The document wins.
+
+    TRAP: Only 40 of the 94 in-scope documents are reachable from an HTML page or llms.txt; the other 54 are listed as <loc> entries in https://www.maaf.fr/fr/sitemap.xml and are linked from no page we could read. The sitemap is the primary discovery surface here, not the site navigation.
+
+    TRAP: The sitemap is stale: 70 of the 1,220 non-agency HTML URLs it lists return 404, and /fr/assurance-auto/documents-credit-auto returns 403/404 rather than a documents page.
+
+    TRAP: The 'tableaux de garanties' footers refuse to name a single carrier: 'par MAAF Assurances SA et/ou MAAF Assurances AM et/ou MAAF Vie et/ou MAAF Santé et/ou Covéa Protection Juridique et/ou APGIS'. Note 'MAAF Assurances AM' is how those sheets abbreviate the société d'assurance mutuelle, and APGIS is a fourth-party institution de prévoyance. The carrier recorded for those rows is the carrier of the underlying contract, not a claim the sheet makes.
+
+    TRAP: FIDELIA ASSISTANCE (RCS Nanterre 377 768 601) appears in nine santé documents but is NOT a carrier: 'MAAF Assurances SA a confié la gestion des garanties d'assistance à FIDELIA ASSISTANCE'. MAAF Assurances SA carries branch 18; FIDELIA only manages it. Do not record it as an assureur.
+
+    TRAP: Four documents name MORE THAN ONE carrier for different parts of the same product, so a one-carrier-per-document model will mis-record them: the emprunteur notice splits MAAF Vie (branche 20) from MAAF Assurances SA (branches 1, 2, 16); '2350 CG Gar HomCle' bundles an « Assurance Perte de Revenus » assurée par MAAF Assurances SA with an « Assurance Décès » whose assureur is MAAF Vie; the santé CGs split MAAF Santé (health) from MAAF Assurances SA (assistance); and Tempo Habitation splits MAAF Assurances SA, MAAF Assurances (the SAM) and Covéa Protection Juridique across three sections.
+
+    TRAP: No GMF or MMA entity appears as carrier in any maaf.fr document, so there is no overlap with the sibling agents' hosts. Covéa appears only as the group name and, via Covéa Protection Juridique, as the protection-juridique carrier. maaf.fr's own llms.txt states the boundary: 'MAAF, MMA et GMF sont des marques distinctes.'
+
+    TRAP: MAAF_conditions_generales_..._vivazen_2542.pdf and ..._vivazen_pro_2541.pdf are PARALLEL VARIANTS, not two editions: both 51 pages, both edition 01/26, different réf. numbers and different body text (individual vs pro offer). Do not collapse them into one document with two dates.
+
+    TRAP: MAAF_Statuts_1865.pdf (Habitation/Souscription/, 2015 general meeting) and Statuts_MAAF_de_Assurances.pdf (maaf_com/Status/, 2021 general meeting) ARE the same document in two genuine editions, published at two unrelated paths. Both are kept; neither is a byte-duplicate of the other.
+
+    TRAP: The Règlement Mutualiste MAAF Santé (18638) is the Code-de-la-mutualité analogue of conditions générales and it covers six gammes — MÉDIKA, VITAMINE, VITAPRO, VITAMINE BANQUE POPULAIRE, BIORYTHM and VIVAZEN. Only BIORYTHM and VIVAZEN have their own published CG, so for the other four the règlement mutualiste is the only public contract wording that exists.
+
+    TRAP: The nine MAAF_Intercalaire_*.pdf files are contractual, not marketing: each one states it either adds to or 'se substitue' to named articles of the Multirisque professionnelle conditions générales (réf. 11031). They are typed conditions_generales here because that is the role they play. They live under an 'Autres_documents/' path next to genuine prevention leaflets, so a path-based filter will either drop all of them or keep the leaflets.
+
+  fetch_tier: plain-urllib-only          # maaf.fr sits behind DataDome. Measured, not inferred: identical URL + 
+listing_pages:
+- url: https://www.maaf.fr/fr/documents-information-assurances
+  lang: fr
+- url: https://www.maaf.fr/fr/assurance-vie/informations-reglementaires
+  lang: fr
+- url: https://www.maaf.fr/llms.txt
+  lang: fr
+- url: https://www.maaf.fr/fr/sitemap.xml
+  lang: fr
+languages:
+- fr
+pdfs:
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Epargne/CG/5116_Convention_speciale_winalto_donatio.pdf
+  branch: assurance-vie
+  document_type: conditions_generales
+  lang: fr
+  product_name: "WINALTO DONATIO — Convention spéciale applicable aux contrats Winalto Donatio"
+  edition_date: "2026-01"
+  # carrier named in this document: MAAF Vie
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Epargne/CG/5133_notice_information_winalto.pdf
+  branch: assurance-vie
+  document_type: conditions_generales
+  lang: fr
+  product_name: "WINALTO — Notice d'information"
+  edition_date: "2026-01"
+  # carrier named in this document: MAAF Vie
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Vehicule/CG/CG_assurance_auto_18133.pdf
+  branch: auto
+  document_type: conditions_generales
+  lang: fr
+  product_name: "AUTO — Contrat Auto, Assurance Multirisque (réf. A0622M)"
+  edition_date: "2026-06"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Vehicule/CG/CG_assurance_CC_6056.pdf
+  branch: auto
+  document_type: conditions_generales
+  lang: fr
+  product_name: "CAMPING CAR, AMBULANCE, BAZAR FORAIN, VÉHICULE DE COLLECTION (Assurance multirisque)"
+  edition_date: "2026-06"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/AUT11001.PDF
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "AUTO (Assurance Véhicule)"
+  edition_date: "2025-06"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/AUT11002.PDF
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "AUTO PRO (Assurance Véhicule)"
+  edition_date: "2025-06"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/AUT11028.PDF
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "CARAVANE, REMORQUE, CAMION, VEHICULES DIVERS (Assurance Véhicule)"
+  edition_date: "2025-06"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/AUT11023.PDF
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "Camping-Car, Ambulance, Bazar forain, Véhicule de collection (Assurance Véhicule)"
+  edition_date: "2025-06"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/Souscription/MAAF_Statuts_1865.pdf
+  branch: autres
+  document_type: other
+  lang: fr
+  product_name: "Statuts de MAAF Assurances (mis à jour à l'issue de l'assemblée générale extraordinaire du 13/06/2015)"
+  edition_date: "2015-06"
+  # carrier named in this document: MAAF Assurances
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/maaf_com/Status/Statuts_MAAF_de_Assurances.pdf
+  branch: autres
+  document_type: other
+  lang: fr
+  product_name: "Statuts de MAAF Assurances (mis à jour à l'issue de l'assemblée générale extraordinaire du 4 juin 2021)"
+  edition_date: "2021-08"
+  # carrier named in this document: MAAF Assurances
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/maaf_com/Status/Statuts_de_MAAF_Assurances_SA.pdf
+  branch: autres
+  document_type: other
+  lang: fr
+  product_name: "Statuts de MAAF Assurances SA (modifiés par l'assemblée générale du 15 juin 2018)"
+  edition_date: "2018-06"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/maaf_com/Status/Statuts_MAAF_Vie.pdf
+  branch: autres
+  document_type: other
+  lang: fr
+  product_name: "Statuts de MAAF Vie (mis à jour à l'issue de l'assemblée générale du 4 juin 2021)"
+  edition_date: "2021-06"
+  # carrier named in this document: MAAF Vie
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/IRD11004.PDF
+  branch: chasse
+  document_type: ipid
+  lang: fr
+  product_name: "CHASSE (Assurance Vie privée)"
+  edition_date: "2026-05"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Garantie_decennale_17195.pdf
+  branch: decennale
+  document_type: product_sheet
+  lang: fr
+  product_name: "Comprendre la garantie Décennale — Vos garanties Responsabilité civile construction"
+  edition_date: "2018-04"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/CG/MAAF_Notice_information_Assurance_credit_7313562.pdf
+  branch: emprunteur
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Assurance Crédit MAAF (contrat n° 02112) — Notice d'information"
+  edition_date: "2025-07"
+  # carrier named in this document: MAAF Vie + MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Vie_quotidienne/CG/MAAF_conditions_generales_contrat_tranquillite_famille_1994.pdf
+  branch: gav
+  document_type: conditions_generales
+  lang: fr
+  product_name: "TRANQUILLITÉ FAMILLE"
+  edition_date: "2026-03"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/PRE11004.PDF
+  branch: gav
+  document_type: ipid
+  lang: fr
+  product_name: "Tranquillité famille (Assurance accidents de la vie)"
+  edition_date: "2026-03"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/CG/MAAF_Conditions_generales_Assurance_immeuble_2222.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "IMMEUBLE — Contrat Immeuble (Assurance multirisque)"
+  edition_date: "2026-01"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/CG/MAAF_Conditions_generales_Assurance_mobil_home_constructions_legeres_2246.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "MOBIL HOME ET CONSTRUCTIONS LÉGÈRES (Assurance multirisque)"
+  edition_date: "2026-01"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/CG/MAAF_Conditions_generales_Tempo_habitation_en_construction_2340.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "TEMPO HABITATION EN CONSTRUCTION"
+  edition_date: "2026-01"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/CG/MAAF_Conditions_generales_Assurance_PNO_2341.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "TEMPO HABITATION — Logement donné en location (Assurance multirisque)"
+  edition_date: "2025-03"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/CG/MAAF_Conditions_generales_Assurance_Tempo_habitation_DROM_3845.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "TEMPO HABITATION — Multirisque habitation DROM"
+  edition_date: "2023-01"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/CG/MAAF_Conditions_generales_Assurance_Tempo_habitation_2339.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "TEMPO HABITATION — Résidence principale / Résidence secondaire / Responsabilité civile (Assurance multirisque)"
+  edition_date: "2026-03"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/CG/MAAF_Conditions_generales_Assurance_Tempo_jeunes_11001.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "TEMPO JEUNES — Spécial étudiants et apprentis, Multirisque Jeunes"
+  edition_date: "2026-05"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/HAB11009.PDF
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "IMMEUBLE (Assurance Habitation)"
+  edition_date: "2025-03"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/HAB11027.PDF
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "MOBIL HOME ET CONSTRUCTIONS LEGERES (Assurance Habitation)"
+  edition_date: "2026-01"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/HAB11028.PDF
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "TEMPO HABITATION EN CONSTRUCTION (Assurance Habitation)"
+  edition_date: "2026-01"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/HAB11029.PDF
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "TEMPO HABITATION Logement donné en location (Assurance Habitation)"
+  edition_date: "2025-03"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/HAB11001.PDF
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "TEMPO HABITATION Résidence principale Résidence secondaire (Assurance Habitation)"
+  edition_date: "2026-03"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/Souscription/MAAF_Fiche_information_VAD_Habitation_6.pdf
+  branch: habitation
+  document_type: other
+  lang: fr
+  product_name: "Fiche d'information relative à la vente à distance de votre contrat TEMPO HABITATION"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/Tableaux_de_garanties/MAAF_TC_Tempo_habitation_formules_classique_integrale.pdf
+  branch: habitation
+  document_type: product_sheet
+  lang: fr
+  product_name: "Assurance Habitation — Comparatif des 2 formules habitation (Classique / Intégrale)"
+  edition_date: "2022-06"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/Tableaux_de_garanties/MAAF_TC_Tempo_habitation_formules_initiale_classique_integrale.pdf
+  branch: habitation
+  document_type: product_sheet
+  lang: fr
+  product_name: "Assurance Habitation — Comparatif des 3 formules habitation (Initiale / Classique / Intégrale)"
+  edition_date: "2022-06"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/Tableaux_de_garanties/MAAF_TG_Tempo_habitation_mobile_home.pdf
+  branch: habitation
+  document_type: product_sheet
+  lang: fr
+  product_name: "Assurance Mobile Home — Comparez les 3 formules"
+  edition_date: "2022-06"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/Tableaux_de_garanties/MAAF_TC_Tempo_habitation_propriétaire_non_occupant.pdf
+  branch: habitation
+  document_type: product_sheet
+  lang: fr
+  product_name: "Assurance Propriétaire Non Occupant — formules par type de bien"
+  edition_date: "2022-06"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/Tableaux_de_garanties/MAAF_TC_Tempo_jeunes_formule_logement_tous_risques.pdf
+  branch: habitation
+  document_type: product_sheet
+  lang: fr
+  product_name: "Assurance habitation jeune — Comparez les 2 formules (LOGEMENT / TOUS RISQUES)"
+  edition_date: "2023-06"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/Tableaux_de_garanties/MAAF_TG_Tempo_jeunes_formule_logement.pdf
+  branch: habitation
+  document_type: product_sheet
+  lang: fr
+  product_name: "Assurance habitation jeune — garanties de la formule LOGEMENT"
+  edition_date: "2023-06"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/Tableaux_de_garanties/MAAF_TG_Tempo_jeunes_formule_tous risques.pdf
+  branch: habitation
+  document_type: product_sheet
+  lang: fr
+  product_name: "Assurance habitation jeune — garanties de la formule Tous risques"
+  edition_date: "2023-06"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Vehicule/CG/CG_moto_2001.pdf
+  branch: moto
+  document_type: conditions_generales
+  lang: fr
+  product_name: "MOTO — Contrat Moto, Assurance Multirisque"
+  edition_date: "2026-06"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/AUT11019.PDF
+  branch: moto
+  document_type: ipid
+  lang: fr
+  product_name: "CYCLO (Assurance Véhicule)"
+  edition_date: "2025-06"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/AUT11003.PDF
+  branch: moto
+  document_type: ipid
+  lang: fr
+  product_name: "MOTO (Assurance Véhicule)"
+  edition_date: "2025-06"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Intercalaire_Capeb_11038.pdf
+  branch: multirisque-professionnelle
+  document_type: conditions_generales
+  lang: fr
+  product_name: "CAPEB — Intercalaire (se substitue aux garanties « Vos responsabilités », articles 6 à 10, des Conditions générales)"
+  edition_date: "2024-03"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Intercalaire_Commerces_alimentation_11039.pdf
+  branch: multirisque-professionnelle
+  document_type: conditions_generales
+  lang: fr
+  product_name: "COMMERCES D'ALIMENTATION — Intercalaire aux Conditions générales Multirisque professionnelle réf. 11031"
+  edition_date: "2026-01"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Intercalaire_Commerces_et_services_11037.pdf
+  branch: multirisque-professionnelle
+  document_type: conditions_generales
+  lang: fr
+  product_name: "COMMERCES ET SERVICES — Intercalaire aux Conditions générales Multirisque professionnelle réf. 11031"
+  edition_date: "2026-01"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Intercalaire_Travaux_publics_11049.pdf
+  branch: multirisque-professionnelle
+  document_type: conditions_generales
+  lang: fr
+  product_name: "ENTREPRISES DE TRAVAUX PUBLICS — Intercalaire (se substitue à la garantie « Vos responsabilités »)"
+  edition_date: "2025-01"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/CG/MAAF_Conditions_generales_Multirisque_associations_11034.pdf
+  branch: multirisque-professionnelle
+  document_type: conditions_generales
+  lang: fr
+  product_name: "MULTIRISQUE ASSOCIATIONS"
+  edition_date: "2026-01"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/CG/MAAF_Conditions_generales_Multirisque_Chambre_des_Métiers_11033.pdf
+  branch: multirisque-professionnelle
+  document_type: conditions_generales
+  lang: fr
+  product_name: "MULTIRISQUE CHAMBRE DE MÉTIERS ET DE L'ARTISANAT"
+  edition_date: "2026-01"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/CG/MAAF_Conditions_generales_Multirisque_pro_btp_11036.pdf
+  branch: multirisque-professionnelle
+  document_type: conditions_generales
+  lang: fr
+  product_name: "MULTIRISQUE DES PROFESSIONNELS DU BÂTIMENT ET DES TRAVAUX PUBLICS"
+  edition_date: "2026-01"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/CG/MAAF_Conditions_generales_Multirisque_mne_11035.pdf
+  branch: multirisque-professionnelle
+  document_type: conditions_generales
+  lang: fr
+  product_name: "MULTIRISQUE NON EXPLOITANT"
+  edition_date: "2026-01"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/CG/MAAF_Conditions_generales_Multirisque_pro_11031.pdf
+  branch: multirisque-professionnelle
+  document_type: conditions_generales
+  lang: fr
+  product_name: "MULTIRISQUE PROFESSIONNELLE"
+  edition_date: "2026-01"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Intercalaire_Multiservice_personne_11059.pdf
+  branch: multirisque-professionnelle
+  document_type: conditions_generales
+  lang: fr
+  product_name: "MULTISERVICE À LA PERSONNE — Intercalaire aux Conditions générales Multirisque professionnelle réf. 11031"
+  edition_date: "2025-01"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Intercalaire_Restauration_hotellerie_11045.pdf
+  branch: multirisque-professionnelle
+  document_type: conditions_generales
+  lang: fr
+  product_name: "PROFESSIONS DE LA RESTAURATION ET DE L'HÔTELLERIE — Intercalaire aux Conditions générales Multirisque professionnelle réf. 11031"
+  edition_date: "2025-01"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Intercalaire_Professions_medicales_para_medicales_11048.pdf
+  branch: multirisque-professionnelle
+  document_type: conditions_generales
+  lang: fr
+  product_name: "PROFESSIONS MÉDICALES ET PARAMÉDICALES — Intercalaire (se substitue à la garantie « Responsabilité civile »)"
+  edition_date: "2024-03"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Intercalaire_Syndicats_professionnels_artisanaux_11042.pdf
+  branch: multirisque-professionnelle
+  document_type: conditions_generales
+  lang: fr
+  product_name: "SYNDICATS PROFESSIONNELS ARTISANAUX — Intercalaire (se substitue aux garanties « Vos responsabilités »)"
+  edition_date: "2024-03"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Intercalaire_Veterinaires_11047.pdf
+  branch: multirisque-professionnelle
+  document_type: conditions_generales
+  lang: fr
+  product_name: "VÉTÉRINAIRES — Intercalaire (se substitue à la garantie « Responsabilité civile »)"
+  edition_date: "2024-03"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/PRO10008.PDF
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "Multirisque Associations (Assurance association)"
+  edition_date: "2024-06"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/PRO10007.PDF
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "Multirisque Chambre de Métiers et de l'Artisanat (Assurance professionnelle)"
+  edition_date: "2024-06"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/PRO10010.PDF
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "Multirisque Non Exploitant (Assurance non exploitant)"
+  edition_date: "2024-06"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/PRO10001.PDF
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "Multirisque Professionnelle (Assurance professionnelle)"
+  edition_date: "2024-06"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/PRO10005.PDF
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "Multirisque des Professionnels du Bâtiment et des Travaux Publics (Assurance professionnelle du BTP)"
+  edition_date: "2024-06"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Nomenclature_btp_11056.pdf
+  branch: multirisque-professionnelle
+  document_type: other
+  lang: fr
+  product_name: "Nomenclature MAAF Assurances SA des activités du Bâtiment et des Travaux Publics (Réf. 11056)"
+  edition_date: "2026-06"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/IRD11001.PDF
+  branch: navigation
+  document_type: ipid
+  lang: fr
+  product_name: "ALCYON (Assurance Vie privée)"
+  edition_date: "2025-05"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/CG/2350 CG Gar HomCle 0124.pdf
+  branch: prevoyance
+  document_type: conditions_generales
+  lang: fr
+  product_name: "GARANTIES HOMME CLÉ MAAF ENTREPRISE (Réf. HC.017) — Conditions générales couvrant deux contrats : « Assurance Perte de Revenus » et « Assurance Décès »"
+  edition_date: "2026-06"
+  # carrier named in this document: MAAF Assurances SA + MAAF Vie
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/CG/MAAF_Conditions_generales_Plan_prevoyance_horizon_2178.pdf
+  branch: prevoyance
+  document_type: conditions_generales
+  lang: fr
+  product_name: "LE PLAN DE PRÉVOYANCE HORIZON — Professionnels indépendants / Chefs d'entreprise"
+  edition_date: "2026-06"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/PRE10003.PDF
+  branch: prevoyance
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance accident (Assurance prévoyance)"
+  edition_date: "2026-06"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/PRE10002.PDF
+  branch: prevoyance
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance perte de revenus (Assurance prévoyance)"
+  edition_date: "2024-06"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/PRE10001.PDF
+  branch: prevoyance
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance perte de revenus homme clé (Assurance prévoyance)"
+  edition_date: "2024-06"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/CG/MAAF_Conditions_generales_Defense_juridique_automobiliste_1968.pdf
+  branch: protection-juridique
+  document_type: conditions_generales
+  lang: fr
+  product_name: "CONTRAT DÉFENSE JURIDIQUE DE L'AUTOMOBILISTE"
+  edition_date: "2017-01"
+  # carrier named in this document: ASSISTANCE PROTECTION JURIDIQUE
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/CG/MAAF_Conditions_generales_Defense_juridique_familiale_2326.pdf
+  branch: protection-juridique
+  document_type: conditions_generales
+  lang: fr
+  product_name: "DÉFENSE JURIDIQUE FAMILIALE — Vie privée"
+  edition_date: "2018-01"
+  # carrier named in this document: ASSISTANCE PROTECTION JURIDIQUE
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/Tableaux_de_garanties/MAAF_TG_Tempo_habitation_protection_juridique.pdf
+  branch: protection-juridique
+  document_type: product_sheet
+  lang: fr
+  product_name: "Garanties Protection Juridique (option du contrat TEMPO assurance habitation MAAF)"
+  edition_date: "2022-06"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/CG/MAAF_Conditions_generales_Assurance_tempo_enfants_11002.pdf
+  branch: rc-privee
+  document_type: conditions_generales
+  lang: fr
+  product_name: "TEMPO ENFANTS — Multirisque Enfants"
+  edition_date: "2026-05"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/HAB11015.PDF
+  branch: rc-privee
+  document_type: ipid
+  lang: fr
+  product_name: "TEMPO ENFANTS (Assurance Vie privée)"
+  edition_date: "2026-05"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/HAB11023.PDF
+  branch: rc-privee
+  document_type: ipid
+  lang: fr
+  product_name: "TEMPO HABITATION Responsabilité civile (Assurance Vie privée)"
+  edition_date: "2024-06"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/HAB11019.PDF
+  branch: rc-privee
+  document_type: ipid
+  lang: fr
+  product_name: "TEMPO JEUNES (Assurance Vie privée)"
+  edition_date: "2026-05"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/Tableaux_de_garanties/MAAF_TG_Tempo_jeunes_formule_personnelle.pdf
+  branch: rc-privee
+  document_type: product_sheet
+  lang: fr
+  product_name: "Assurance jeune — garanties de la formule Personnelle"
+  edition_date: "2023-06"
+  # carrier named in this document: MAAF Assurances SA
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/CG/MAAF_Conditions_generales_Winalto_pro_5152.pdf
+  branch: retraite
+  document_type: conditions_generales
+  lang: fr
+  product_name: "MADELIN RETRAITE WINALTO PRO — Notice d'information"
+  edition_date: "2016-02"
+  # carrier named in this document: MAAF Vie
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Epargne/CG/5177_Notice_Information_PER_Winalto_Retraite.pdf
+  branch: retraite
+  document_type: conditions_generales
+  lang: fr
+  product_name: "PER WINALTO RETRAITE — Notice d'information, Édition (01/2026)"
+  edition_date: "2026-01"
+  # carrier named in this document: MAAF Vie
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Sante/CG/MAAF_Convention_Retraites.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat groupe complémentaire santé à adhésion facultative à destination des retraités — Convention d'assurance (dispositions en vigueur au 01.01.2026)"
+  edition_date: "2026-01"
+  # carrier named in this document: MAAF Santé
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Sante/CG/MAAF_Conditions_generales_Offre_communale_18083.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: "OFFRE COMMUNALE SANTÉ — Notice d'information"
+  edition_date: "2026-01"
+  # carrier named in this document: MAAF Santé
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Sante/CG/MAAF_Reglement_mutualiste_MAAFSANTE_18638.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Règlement Mutualiste MAAF Santé (approuvé par le Conseil d'administration du 23 septembre 2025)"
+  edition_date: "2026-01"
+  # carrier named in this document: MAAF Santé
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Sante/CG/MAAF_Conditions_generales_Assurance_Biorythm_2337.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: "SANTÉ BIORYTHM — Conditions générales / Notice d'information valant règlement"
+  edition_date: "2026-01"
+  # carrier named in this document: MAAF Santé
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Sante/CG/MAAF_Notice_information_Sante_MAAF_Pro_Salaries_11030.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: "SANTÉ PROFIL SALARIÉS — Notice d'information destinée aux affiliés du contrat collectif"
+  edition_date: "2025-10"
+  # carrier named in this document: MAAF Santé
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Sante/CG/MAAF_Conditions_generales_Sante_MAAF_Pro_Salaries_11015.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: "SANTÉ PROFIL SALARIÉS — Santé collective (Conditions générales)"
+  edition_date: "2025-10"
+  # carrier named in this document: MAAF Santé
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Sante/CG/MAAF_Notice_information_Sante_MAAF_Pro_TNS_11016.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: "SANTÉ PROFIL TNS — Notice d'information"
+  edition_date: "2025-10"
+  # carrier named in this document: MAAF Santé
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Sante/CG/MAAF_conditions_generales_contrat_complementaire_sante_vivazen_pro_2541.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: "VIVAZEN (offre pro) — Conditions générales valant extrait du règlement mutualiste (dispositions en vigueur au 01/01/2026)"
+  edition_date: "2026-01"
+  # carrier named in this document: MAAF Santé
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Sante/CG/MAAF_conditions_generales_contrat_complementaire_sante_vivazen_2542.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: "VIVAZEN — Contrat Santé Vivazen, Conditions générales valant extrait du règlement mutualiste (dispositions en vigueur au 01/01/2026)"
+  edition_date: "2026-01"
+  # carrier named in this document: MAAF Santé
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/SAN25001.PDF
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: "VIVAZEN (Assurance santé)"
+  edition_date: "2025-12"
+  # carrier named in this document: MAAF Santé
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Sante/Exemples_de_remboursements/MAAF_exemples_remboursement_BIORYTHM.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Exemples de remboursements — BIORYTHM (contrat d'assurance santé responsable)"
+  # carrier named in this document: MAAF Santé
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Sante/Exemples_de_remboursements/MAAF_exemples_remboursement_Sante_Retraites.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Exemples de remboursements — RETRAITES MAAF (en vigueur au 1er janvier 2026)"
+  edition_date: "2026-01"
+  # carrier named in this document: MAAF Santé
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Sante/Exemples_de_remboursements/MAAF_exemples_remboursement_Sante_MAAF_Pro_Salaries.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Exemples de remboursements — SANTÉ PROFIL SALARIÉS (en vigueur au 1er janvier 2026)"
+  edition_date: "2026-01"
+  # carrier named in this document: MAAF Santé
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Sante/Exemples_de_remboursements/MAAF_exemples_remboursement_Sante_MAAF_Pro_TNS.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Exemples de remboursements — SANTÉ PROFIL TNS (en vigueur au 1er janvier 2026)"
+  edition_date: "2026-01"
+  # carrier named in this document: MAAF Santé
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Sante/Exemples_de_remboursements/MAAF_exemples_remboursement_VIVAZEN.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Exemples de remboursements — VIVAZEN (contrat d'assurance santé responsable)"
+  # carrier named in this document: MAAF Santé
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Sante/TABLEAUX_DE_GARANTIES/MAAF_tableau_garanties_contrat_complementaire_sante_vivazen.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Les garanties de votre complémentaire santé VIVAZEN (garanties en vigueur au 01/12/2025, Niveaux 1 à 5)"
+  edition_date: "2025-12"
+  # carrier named in this document: MAAF Santé
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Sante/TABLEAUX_DE_GARANTIES/MAAF_tableau_garanties_contrat_complementaire_sante_BIORYTHM.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Tableau des garanties — complémentaire santé BIORYTHM (Niveaux 1 à 4)"
+  edition_date: "2025-12"
+  # carrier named in this document: MAAF Santé
+- url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/Tableaux_de_garanties/MAAF_TG_Tempo_Assurance_scolaire.pdf
+  branch: scolaire
+  document_type: product_sheet
+  lang: fr
+  product_name: "Assurance scolaire — Tableau des garanties (Baby / Maternelle / Junior)"
+  edition_date: "2022-06"
+  # carrier named in this document: MAAF Assurances SA
