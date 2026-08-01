@@ -5,7 +5,7 @@ country: fr
 insurer_slug: matmut
 name: Matmut
 website: https://www.matmut.fr
-products_count: 62
+products_count: 68
 branches_covered:
 - animaux
 - assurance-vie
@@ -15,6 +15,8 @@ branches_covered:
 - habitation
 - moto
 - multirisque-professionnelle
+- navigation
+- sante
 - velo
 tags:
 - insurance/fr
@@ -31,7 +33,7 @@ generated: true
 
 ## Résumé
 
-**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 62 document(s) across 9 branch(es).
+**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 68 document(s) across 11 branch(es).
 
 ## Produits par branche
 
@@ -91,7 +93,9 @@ generated: true
 ### [Multirisque habitation](../branches/Multirisque%20habitation.md)
 - [Habitation Initiale & Co Résidence Principale](../products/matmut/Habitation%20Initiale%20%26%20Co%20R%C3%A9sidence%20Principale.md) - Conditions générales (12/23) · réf. CG MGAR RP INIT & CO – 12/23
 - [Habitation Matmut Étudiants](../products/matmut/Habitation%20Matmut%20%C3%89tudiants.md) - Conditions générales (2024-05) · réf. CG HAB ETUD – 05/24
+- [Habitation Propriétaire Non Occupant](../products/matmut/Habitation%20Propri%C3%A9taire%20Non%20Occupant.md) - Conditions générales (12/23) · réf. CG PNO – 12/23
 - [Habitation Résidence principale](../products/matmut/Habitation%20R%C3%A9sidence%20principale.md) - Conditions générales (2023-12) · réf. CG RP - 12/23
+- [Habitation Résidence principale - Jeunes - Contrat d'assurance Multigaranties](../products/matmut/Habitation%20R%C3%A9sidence%20principale%20-%20Jeunes%20-%20Contrat%20d%27assurance%20Multigaranties.md) - Conditions générales (05/24) · réf. CG Habitation Jeunes - 05/24
 - [Habitation Résidence secondaire](../products/matmut/Habitation%20R%C3%A9sidence%20secondaire.md) - Conditions générales (12/23) · réf. CG RS – 12/23
 - [Matmut Mobile-home formule Nature](../products/matmut/Matmut%20Mobile-home%20formule%20Nature.md) - Conditions générales (05/24) · réf. CG MGAR MH Nature – 05/24
 
@@ -107,10 +111,18 @@ generated: true
 - [Contrat Multirisques « 2R Rider » - IPID](../products/matmut/Contrat%20Multirisques%20%C2%AB%202R%20Rider%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (10/24) · réf. IPID.2R RIDER - 10/24
 
 ### [Multirisque professionnelle](../branches/Multirisque%20professionnelle.md)
+- [Association](../products/matmut/Association.md) - Conditions générales (11/24) · réf. CG ASS – 11/24
 - [Caducée](../products/matmut/Caduc%C3%A9e.md) - Conditions générales (05/23) · réf. MC.30
 - [Matmut PRO](../products/matmut/Matmut%20PRO.md) - Conditions générales (11/24) · réf. CG Matmut PRO – 11/24
 - [Matmut « Caducée »](../products/matmut/Matmut%20%C2%AB%20Caduc%C3%A9e%20%C2%BB.md) - Conditions générales (2024-11) · réf. MC.30 – 11/24
 - [Multigaranties des collectivités et risques professionnels](../products/matmut/Multigaranties%20des%20collectivit%C3%A9s%20et%20risques%20professionnels.md) - Conditions générales (04/26) · réf. MC.1 IME – 04/26.
+- [Risques Immobiliers](../products/matmut/Risques%20Immobiliers.md) - Conditions générales (10/25) · réf. CG.IME.IMMO – 10/25
+
+### Navigation de plaisance
+- [Navigation de Plaisance Matmut](../products/matmut/Navigation%20de%20Plaisance%20Matmut.md) - Conditions générales (06/24) · réf. CG NDEP
+
+### [Complémentaire santé](../branches/Compl%C3%A9mentaire%20sant%C3%A9.md)
+- [CONTRAT COLLECTIF FRAIS DE SANTÉ - RÉGIME OBLIGATOIRE](../products/matmut/CONTRAT%20COLLECTIF%20FRAIS%20DE%20SANT%C3%89%20-%20R%C3%89GIME%20OBLIGATOIRE.md) - Conditions générales (Janvier 2023)
 
 ### Vélo
 - [Contrat Multirisques « 2R Liberté » - IPID](../products/matmut/Contrat%20Multirisques%20%C2%AB%202R%20Libert%C3%A9%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (07/25) · réf. IPID.VELO - 07/25

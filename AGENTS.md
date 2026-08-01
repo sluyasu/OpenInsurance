@@ -27,7 +27,7 @@ navigate it without guessing. Do not edit by hand.
 |---|---|---|---|---|---|
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
 | ch (Switzerland) | 0 | 3 | 1 | 0 | 5 |
-| fr (France) | 17 | 282 | 7 | 1 | 5 |
+| fr (France) | 17 | 288 | 7 | 1 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
 
@@ -444,7 +444,9 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | habitation | maif | Assurance Propriétaire Bailleur - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/document-information-assurance-proprietaire-bailleur.pdf) |
 | fr | habitation | matmut | Habitation Initiale & Co Résidence Principale | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-rp-init-and-co.pdf) |
 | fr | habitation | matmut | Habitation Matmut Étudiants | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/ME2H.pdf) |
+| fr | habitation | matmut | Habitation Propriétaire Non Occupant | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGMGARPNO.pdf) |
 | fr | habitation | matmut | Habitation Résidence principale | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGMGARRP.pdf) |
+| fr | habitation | matmut | Habitation Résidence principale - Jeunes - Contrat d'assurance Multigaranties | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGJEUNES.pdf) |
 | fr | habitation | matmut | Habitation Résidence secondaire | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGMGARRS.pdf) |
 | fr | habitation | matmut | Matmut Mobile-home formule Nature | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGMGARMH.pdf) |
 | fr | habitation | thelem | Assurance Dommages aux biens - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_570-Dommages-aux-biens.pdf) |
@@ -472,16 +474,19 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | multirisque-professionnelle | maif | Raqvam Associations et Collectivités | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/conditions-generales-raqvam-associations-et-collectivites.pdf) |
 | fr | multirisque-professionnelle | maif | Raqvam Associations et Collectivités - CP | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/conditions-particulieres-raqvam-associations-et-collectivites.pdf) |
 | fr | multirisque-professionnelle | maif | Raqvam Associations et Collectivités - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/document-information-raqvam-associations-et-collectivites.pdf) |
+| fr | multirisque-professionnelle | matmut | Association | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGASS.pdf) |
 | fr | multirisque-professionnelle | matmut | Caducée | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/CG/MC30.pdf) |
 | fr | multirisque-professionnelle | matmut | Matmut PRO | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGMPRO.pdf) |
 | fr | multirisque-professionnelle | matmut | Matmut « Caducée » | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/MC30.pdf) |
 | fr | multirisque-professionnelle | matmut | Multigaranties des collectivités et risques professionnels | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/cgmgarpro.pdf) |
+| fr | multirisque-professionnelle | matmut | Risques Immobiliers | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGRisquesImmobiliers.pdf) |
 | fr | multirisque-professionnelle | thelem | Assurance Garauto - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_201_Garauto-Aout-2025.pdf) |
 | fr | multirisque-professionnelle | thelem | Assurance multirisque professionnelle - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPIP_-MRP-PME-PMI-Aout-2025.pdf) |
 | fr | multirisque-professionnelle | thelem | Bris de machine - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_26_BDM-juin-2023.pdf) |
 | fr | navigation | maif | Assurance Navigation | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/conditions-generales-assurance-navigation.pdf) |
 | fr | navigation | maif | Assurance Navigation - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/document-information-assurance-bateau.pdf) |
 | fr | navigation | maif | Assurance Navigation - IPID (2) | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/document-information-assurance-navigation.pdf) |
+| fr | navigation | matmut | Navigation de Plaisance Matmut | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGNDEP.pdf) |
 | fr | obseques | gan | GAN PATRIMOINE SÉRÉNITÉ ESSENTIEL - Fiche | 2026-07-30 | [pdf](https://www.ganpatrimoine.fr/Media/documents/DIC/1412-062023%20-%20DIC%20GPatSE.pdf) |
 | fr | obseques | gan | GAN PATRIMOINE SÉRÉNITÉ ESSENTIEL - Fiche (2) | 2026-07-30 | [pdf](https://www.ganpatrimoine.fr/Media/documents/DIC/1412-112018%20GPatSE.pdf) |
 | fr | obseques | gan | GAN PATRIMOINE SÉRÉNITÉ OBSÈQUES - Fiche | 2026-07-30 | [pdf](https://www.ganpatrimoine.fr/Media/documents/Lisibilite-obseques-Gan-Patrimoine-032026.pdf) |
@@ -576,6 +581,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | sante | groupama | Solution Groupama Santé (2) | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/1VeBkcNBeoMcIcSLNwxj4Z/535ba0e5db9f6a565ec05b63f3db3b7b/22286718-5d39-4a90-b99b-7601bf961cf0.pdf) |
 | fr | sante | groupama | TMGF Synergie santé Salariés | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/2WdH0QbT2yDvuM9AIoxpxr/3d1ec4295b3f531a9fece1ef2e0cbe03/tableau_de_garanties_synergie_sant___salari___r__gime_local.pdf) |
 | fr | sante | groupama | TMGF Synergie santé Salariés (2) | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/37C1b2uoBbhZLxH9Ye3Rnl/40a0d7d33c18c132a3357aadfd6d8473/tableau_de_garanties_synergie_sant___salari___r__gime_g__n__ral.pdf) |
+| fr | sante | matmut | CONTRAT COLLECTIF FRAIS DE SANTÉ - RÉGIME OBLIGATOIRE | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-1966-conditions-generales.pdf) |
 | fr | sante | thelem | Assurance Complémentaire Santé – gamme non responsable et solidaire - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_710-Evolution-NResp-janvier-2024.pdf) |
 | fr | sante | thelem | Assurance Complémentaire Santé – gamme responsable et solidaire - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_710-Evolution-Resp-janvier-2026.pdf) |
 | fr | sante | thelem | INTÉGRALE 1, INTÉGRALE 2, INTÉGRALE 3, INTÉGRALE 4 – Formules responsables et solidaires | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/Exemples_remboursements_TA_2026_RESPONSABLE.pdf) |
