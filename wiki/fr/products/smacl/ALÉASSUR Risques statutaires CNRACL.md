@@ -194,6 +194,10 @@ L'assureur garantit au souscripteur le remboursement du capital décès que celu
 - Le sommaire (page 3) est rempli de points de conduite ; il n'a pas été transcrit comme contenu.
 - `product_name` reprend les deux lignes de titre imprimées sur la couverture (« ALÉASSUR » puis « Risques statutaires CNRACL »). `product_family` = « Risques statutaires » et `variant` = « ALÉASSUR CNRACL » sont une normalisation destinée au regroupement : « ALÉASSUR » est la gamme (préfixe du code de référence ALEASSUR_CS_RS_CNRACL_06) et « CNRACL » le régime d'affiliation des agents couverts.
 
+## Documents liés
+
+- [ALÉASSUR Risques statutaires IRCANTEC](AL%C3%89ASSUR%20Risques%20statutaires%20IRCANTEC.md) - Conditions générales, éd. 11/2025
+
 ## Source & fidélité
 
 - Source : [https://www.smacl.fr/files/documents/cs-aleassur-risques-statutaires-cnracl1_0.pdf](https://www.smacl.fr/files/documents/cs-aleassur-risques-statutaires-cnracl1_0.pdf) - téléchargé le 2026-08-01 - 8 pages

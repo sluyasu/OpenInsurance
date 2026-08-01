@@ -16,7 +16,7 @@ generated: true
 
 Liste générée des produits par branche. Les fiches conceptuelles de branche sont rédigées à la main dans ce dossier.
 
-### [Assurance auto](Assurance%20auto.md) (58)
+### [Assurance auto](Assurance%20auto.md) (59)
 - [Assurance Auto et Auto connectée Direct Assurance - IPID](../products/direct-assurance/Assurance%20Auto%20et%20Auto%20connect%C3%A9e%20Direct%20Assurance%20-%20IPID.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [Contrat Auto](../products/direct-assurance/Contrat%20Auto.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [YouDrive - CP](../products/direct-assurance/YouDrive%20-%20CP.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
@@ -67,6 +67,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Flotte de véhicules](../products/matmut/Flotte%20de%20v%C3%A9hicules.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Multirisques Initiale & Co](../products/matmut/Multirisques%20Initiale%20%26%20Co.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Flotte entreprises - IPID](../products/smacl/Flotte%20entreprises%20-%20IPID.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
+- [Vos conventions spéciales CONVERGENCE - Véhicules à moteur](../products/smacl/Vos%20conventions%20sp%C3%A9ciales%20CONVERGENCE%20-%20V%C3%A9hicules%20%C3%A0%20moteur.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [Votre convention d'assistance - Flottes entreprises véhicules légers](../products/smacl/Votre%20convention%20d%27assistance%20-%20Flottes%20entreprises%20v%C3%A9hicules%20l%C3%A9gers.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [Assurance Automobile - IPID](../products/thelem/Assurance%20Automobile%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [Assurance Camping-Car - IPID](../products/thelem/Assurance%20Camping-Car%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
@@ -143,7 +144,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Assurance multirisque immeuble - IPID](../products/thelem/Assurance%20multirisque%20immeuble%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [Assurance multirisque immeuble - PROPRIETAIRE NON OCCUPANT - IPID](../products/thelem/Assurance%20multirisque%20immeuble%20-%20PROPRIETAIRE%20NON%20OCCUPANT%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 
-### [Complémentaire santé](Compl%C3%A9mentaire%20sant%C3%A9.md) (59)
+### [Complémentaire santé](Compl%C3%A9mentaire%20sant%C3%A9.md) (61)
 - [Direct Assurance Santé](../products/direct-assurance/Direct%20Assurance%20Sant%C3%A9.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [Direct Assurance Santé - Exemples de remboursements - Doc](../products/direct-assurance/Direct%20Assurance%20Sant%C3%A9%20-%20Exemples%20de%20remboursements%20-%20Doc.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [Direct Assurance Santé - contrat responsable - IPID](../products/direct-assurance/Direct%20Assurance%20Sant%C3%A9%20-%20contrat%20responsable%20-%20IPID.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
@@ -161,6 +162,8 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [TMGF Synergie santé Salariés - Doc](../products/groupama/TMGF%20Synergie%20sant%C3%A9%20Salari%C3%A9s%20-%20Doc.md) - [Groupama](../insurers/Groupama.md)
 - [TMGF Synergie santé Salariés - Doc](../products/groupama/TMGF%20Synergie%20sant%C3%A9%20Salari%C3%A9s%20-%20Doc%20%282%29.md) - [Groupama](../insurers/Groupama.md)
 - [Assurance SANTÉ PROFIL SALARIÉS](../products/maaf/Assurance%20SANT%C3%89%20PROFIL%20SALARI%C3%89S.md) - [MAAF — a single brand covering four regulated carriers: MAAF Assurances SA (société anonyme, Code des assurances, RCS Niort 542 073 580), MAAF Assurances (société d'assurance mutuelle à cotisations variables, Code des assurances, RCS Niort 781 423 280), MAAF Vie (société anonyme, Code des assurances, RCS Niort 337 804 819) and MAAF Santé (mutuelle du livre II du Code de la mutualité, SIREN 331 542 142). Group Covéa.](../insurers/MAAF%20%E2%80%94%20a%20single%20brand%20covering%20four%20regulated%20carriers%20-%20MAAF%20Assurances%20SA%20%28soci%C3%A9t%C3%A9%20anonyme%2C%20Code%20des%20assurances%2C%20RCS%20N.md)
+- [SANTÉ PROFIL SALARIÉS - Fiche](../products/maaf/SANT%C3%89%20PROFIL%20SALARI%C3%89S%20-%20Fiche.md) - [MAAF — a single brand covering four regulated carriers: MAAF Assurances SA (société anonyme, Code des assurances, RCS Niort 542 073 580), MAAF Assurances (société d'assurance mutuelle à cotisations variables, Code des assurances, RCS Niort 781 423 280), MAAF Vie (société anonyme, Code des assurances, RCS Niort 337 804 819) and MAAF Santé (mutuelle du livre II du Code de la mutualité, SIREN 331 542 142). Group Covéa.](../insurers/MAAF%20%E2%80%94%20a%20single%20brand%20covering%20four%20regulated%20carriers%20-%20MAAF%20Assurances%20SA%20%28soci%C3%A9t%C3%A9%20anonyme%2C%20Code%20des%20assurances%2C%20RCS%20N.md)
+- [Complémentaire santé de la Branche de l'Aide, de l'Accompagnement des Soins et des Services à Domicile - Fiche](../products/macif/Compl%C3%A9mentaire%20sant%C3%A9%20de%20la%20Branche%20de%20l%27Aide%2C%20de%20l%27Accompagnement%20des%20Soins%20et%20des%20Services%20%C3%A0%20Domicile%20-%20Fiche.md) - [Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)](../insurers/Macif%20%28MACIF%20-%20Mutuelle%20Assurance%20des%20Commer%C3%A7ants%20et%20Industriels%20de%20France%20et%20des%20Cadres%20et%20Salari%C3%A9s%20de%20l%27Industrie%20et%20d.md)
 - [CONTRAT COLLECTIF FRAIS DE SANTÉ - RÉGIME OBLIGATOIRE](../products/matmut/CONTRAT%20COLLECTIF%20FRAIS%20DE%20SANT%C3%89%20-%20R%C3%89GIME%20OBLIGATOIRE.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Conditions Générales — Régime conventionnel de frais de santé à adhésion obligatoire, Convention Collective Nationale de](../products/matmut/Conditions%20G%C3%A9n%C3%A9rales%20%E2%80%94%20R%C3%A9gime%20conventionnel%20de%20frais%20de%20sant%C3%A9%20%C3%A0%20adh%C3%A9sion%20obligatoire%2C%20Convention%20Collective%20Nationale%20de.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Notice d'information — Régime de frais de santé, contrat collectif, Accord interbranche du 2 octobre 2019 (CCN du 15 mar](../products/matmut/Notice%20d%27information%20%E2%80%94%20R%C3%A9gime%20de%20frais%20de%20sant%C3%A9%2C%20contrat%20collectif%2C%20Accord%20interbranche%20du%202%20octobre%202019%20%28CCN%20du%2015%20mar.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
@@ -204,7 +207,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [INTÉGRALE 1, INTÉGRALE 2, INTÉGRALE 3, INTÉGRALE 4 – Formules responsables et solidaires - Doc](../products/thelem/INT%C3%89GRALE%201%2C%20INT%C3%89GRALE%202%2C%20INT%C3%89GRALE%203%2C%20INT%C3%89GRALE%204%20%E2%80%93%20Formules%20responsables%20et%20solidaires%20-%20Doc.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [PRIMORDIALE 1, PRIMORDIALE 2, PRIMORDIALE 3 – Formules NON responsables et solidaires - Doc](../products/thelem/PRIMORDIALE%201%2C%20PRIMORDIALE%202%2C%20PRIMORDIALE%203%20%E2%80%93%20Formules%20NON%20responsables%20et%20solidaires%20-%20Doc.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 
-### [Prévoyance](Pr%C3%A9voyance.md) (23)
+### [Prévoyance](Pr%C3%A9voyance.md) (24)
 - [Galya Prévoyance Entreprise - Fiche](../products/gan/Galya%20Pr%C3%A9voyance%20Entreprise%20-%20Fiche.md) - [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../insurers/Gan%20Assurances.md)
 - [Gan Patrimoine Protection Plus - IPID](../products/gan/Gan%20Patrimoine%20Protection%20Plus%20-%20IPID.md) - [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../insurers/Gan%20Assurances.md)
 - [Gan Patrimoine Protection Plus - Fiche](../products/gan/Gan%20Patrimoine%20Protection%20Plus%20-%20Fiche%20%282%29.md) - [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../insurers/Gan%20Assurances.md)
@@ -223,6 +226,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Rassurcap Solutions - IPID](../products/maif/Rassurcap%20Solutions%20-%20IPID.md) - [MAIF](../insurers/MAIF.md)
 - [Rassurcap Solutions](../products/maif/Rassurcap%20Solutions.md) - [MAIF](../insurers/MAIF.md)
 - [ALÉASSUR Risques statutaires CNRACL](../products/smacl/AL%C3%89ASSUR%20Risques%20statutaires%20CNRACL.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
+- [ALÉASSUR Risques statutaires IRCANTEC](../products/smacl/AL%C3%89ASSUR%20Risques%20statutaires%20IRCANTEC.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [Assurance Capital Décès - IPID](../products/thelem/Assurance%20Capital%20D%C3%A9c%C3%A8s%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [Assurance Protection Famille - IPID](../products/thelem/Assurance%20Protection%20Famille%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [Prévoyance Agri - IPID](../products/thelem/Pr%C3%A9voyance%20Agri%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
@@ -315,7 +319,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Assurance Protection Juridique du Professionnel agricole - IPID](../products/thelem/Assurance%20Protection%20Juridique%20du%20Professionnel%20agricole%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [Assurance Protection Juridique du particulier - IPID](../products/thelem/Assurance%20Protection%20Juridique%20du%20particulier%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 
-### [RC professionnelle](RC%20professionnelle.md) (12)
+### [RC professionnelle](RC%20professionnelle.md) (13)
 - [Fiche d'information relative au fonctionnement des garanties « Responsabilité civile » dans le temps - Doc](../products/groupama/Fiche%20d%27information%20relative%20au%20fonctionnement%20des%20garanties%20%C2%AB%20Responsabilit%C3%A9%20civile%20%C2%BB%20dans%20le%20temps%20-%20Doc.md) - [Groupama](../insurers/Groupama.md)
 - [PROFIL ELUS - IPID](../products/groupama/PROFIL%20ELUS%20-%20IPID.md) - [Groupama](../insurers/Groupama.md)
 - [PROFIL ÉLUS](../products/groupama/PROFIL%20%C3%89LUS.md) - [Groupama](../insurers/Groupama.md)
@@ -327,6 +331,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Offre Métiers de l'Éducation - Doc](../products/maif/Offre%20M%C3%A9tiers%20de%20l%27%C3%89ducation%20-%20Doc.md) - [MAIF](../insurers/MAIF.md)
 - [Responsabilité Civile Maître d'Ouvrage Associations et Collectivités - IPID](../products/maif/Responsabilit%C3%A9%20Civile%20Ma%C3%AEtre%20d%27Ouvrage%20Associations%20et%20Collectivit%C3%A9s%20-%20IPID.md) - [MAIF](../insurers/MAIF.md)
 - [Multigaranties Professionnelles des Agents Publics](../products/matmut/Multigaranties%20Professionnelles%20des%20Agents%20Publics.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
+- [Convergence - Responsabilité civile - IPID](../products/smacl/Convergence%20-%20Responsabilit%C3%A9%20civile%20-%20IPID.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [Responsabilité Civile Chef d'Entreprise- Professions libérales - IPID](../products/thelem/Responsabilit%C3%A9%20Civile%20Chef%20d%27Entreprise-%20Professions%20lib%C3%A9rales%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 
 ### [Multirisque professionnelle](Multirisque%20professionnelle.md) (15)
@@ -346,9 +351,10 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Assurance multirisque professionnelle - IPID](../products/thelem/Assurance%20multirisque%20professionnelle%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [Bris de machine - IPID](../products/thelem/Bris%20de%20machine%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 
-### [Assurance construction](Assurance%20construction.md) (3)
+### [Assurance construction](Assurance%20construction.md) (4)
 - [Dommages-Ouvrage Associations et Collectivités - IPID](../products/maif/Dommages-Ouvrage%20Associations%20et%20Collectivit%C3%A9s%20-%20IPID.md) - [MAIF](../insurers/MAIF.md)
 - [Tous Risques Chantier Associations et Collectivités - IPID](../products/maif/Tous%20Risques%20Chantier%20Associations%20et%20Collectivit%C3%A9s%20-%20IPID.md) - [MAIF](../insurers/MAIF.md)
+- [Tous risques chantier - IPID](../products/smacl/Tous%20risques%20chantier%20-%20IPID.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [DCBAT - Responsabilité Décennale des entreprises du Bâtiment - IPID](../products/thelem/DCBAT%20-%20Responsabilit%C3%A9%20D%C3%A9cennale%20des%20entreprises%20du%20B%C3%A2timent%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 
 ### [Assurance agricole](Assurance%20agricole.md) (2)
@@ -402,7 +408,8 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Assurance Initiative Obsèques Capital - IPID](../products/thelem/Assurance%20Initiative%20Obs%C3%A8ques%20Capital%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [Assurance Initiative Obsèques Services - IPID](../products/thelem/Assurance%20Initiative%20Obs%C3%A8ques%20Services%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 
-### Autres (3)
+### Autres (4)
 - [Barème de frais - Tarifs](../products/maif/Bar%C3%A8me%20de%20frais%20-%20Tarifs.md) - [MAIF](../insurers/MAIF.md)
 - [Barème de frais applicables à compter du 01-07-2024 pour les Associations et les Collectivités - Tarifs](../products/maif/Bar%C3%A8me%20de%20frais%20applicables%20%C3%A0%20compter%20du%2001-07-2024%20pour%20les%20Associations%20et%20les%20Collectivit%C3%A9s%20-%20Tarifs.md) - [MAIF](../insurers/MAIF.md)
 - [Notice juridique sur l'assurance à distance - Doc](../products/maif/Notice%20juridique%20sur%20l%27assurance%20%C3%A0%20distance%20-%20Doc.md) - [MAIF](../insurers/MAIF.md)
+- [ALÉASSUR Protection financière](../products/smacl/AL%C3%89ASSUR%20Protection%20financi%C3%A8re.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)

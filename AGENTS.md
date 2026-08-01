@@ -27,7 +27,7 @@ navigate it without guessing. Do not edit by hand.
 |---|---|---|---|---|---|
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
 | ch (Switzerland) | 0 | 3 | 1 | 0 | 5 |
-| fr (France) | 17 | 343 | 10 | 1 | 5 |
+| fr (France) | 17 | 350 | 10 | 1 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
 
@@ -394,6 +394,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | auto | matmut | Flotte de véhicules | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGMRSQFLOTTE.pdf) |
 | fr | auto | matmut | Multirisques Initiale & Co | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-mrsq-ag-init-and-co.pdf) |
 | fr | auto | smacl | Flotte entreprises - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-vehicules-entreprise.pdf) |
+| fr | auto | smacl | Vos conventions spéciales CONVERGENCE - Véhicules à moteur | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-convergence-vehicules-a-moteur.pdf) |
 | fr | auto | smacl | Votre convention d'assistance - Flottes entreprises véhicules légers | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/ca-vehicules-legers-flottes-entreprises.pdf) |
 | fr | auto | thelem | Assurance Automobile - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA-012026.pdf) |
 | fr | auto | thelem | Assurance Camping-Car - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_580_Camping-cars-012026.pdf) |
@@ -405,11 +406,13 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | autres | maif | Barème de frais - Tarifs | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/commun/bareme-frais.pdf) |
 | fr | autres | maif | Barème de frais applicables à compter du 01-07-2024 pour les Associations et les Collectivités - Tarifs | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/bareme-frais-associations-et-collectivites.pdf) |
 | fr | autres | maif | Notice juridique sur l'assurance à distance - Doc | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/commun/notice-juridique-assurance-a-distance.pdf) |
+| fr | autres | smacl | ALÉASSUR Protection financière | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-aleassur-protection-financiere.pdf) |
 | fr | chasse | matmut | Chasse (Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477) | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGCHASSE.pdf) |
 | fr | chasse | matmut | Contrat « Chasse » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDCHASSE.pdf) |
 | fr | chasse | thelem | Assurance chasse - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_Chasse-332-juillet-2024.pdf) |
 | fr | decennale | maif | Dommages-Ouvrage Associations et Collectivités - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/document-information-assurance-dommages-ouvrages.pdf) |
 | fr | decennale | maif | Tous Risques Chantier Associations et Collectivités - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/document-information-assurance-tous-risques-chantier.pdf) |
+| fr | decennale | smacl | Tous risques chantier - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-tous-risques-chantier-collectivites.pdf) |
 | fr | decennale | thelem | DCBAT - Responsabilité Décennale des entreprises du Bâtiment - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_810_DCBAT_-012025.pdf) |
 | fr | edpm | maif | Assurance Vélo - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/document-information-assurance-velo.pdf) |
 | fr | edpm | matmut | 2R Mobilité | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CG2RMOBILITE.pdf) |
@@ -535,6 +538,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | prevoyance | maif | Rassurcap Solutions | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/notice-rassurcap-solutions.pdf) |
 | fr | prevoyance | maif | Rassurcap Solutions - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/document-information-deces-rassurcap-solutions.pdf) |
 | fr | prevoyance | smacl | ALÉASSUR Risques statutaires CNRACL | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-aleassur-risques-statutaires-cnracl1_0.pdf) |
+| fr | prevoyance | smacl | ALÉASSUR Risques statutaires IRCANTEC | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-aleassur-ircantec-risques-statutaires.pdf) |
 | fr | prevoyance | thelem | Assurance Capital Décès - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TP_396-capital-deces-juillet-2023.pdf) |
 | fr | prevoyance | thelem | Assurance Protection Famille - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TP_Protection-famille-572_082025.pdf) |
 | fr | prevoyance | thelem | Prévoyance Agri - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TP_PREVAGRI_440_072024.pdf) |
@@ -561,6 +565,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | rc-professionnelle | maif | Offre Métiers de l'Éducation - Doc | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/enseignants/tableau-garanties-assurance-professionnelle-metiers-education.pdf) |
 | fr | rc-professionnelle | maif | Responsabilité Civile Maître d'Ouvrage Associations et Collectivités - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/document-information-assurance-responsabilite-civile-maitre-ouvrage.pdf) |
 | fr | rc-professionnelle | matmut | Multigaranties Professionnelles des Agents Publics | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-mpap.pdf) |
+| fr | rc-professionnelle | smacl | Convergence - Responsabilité civile - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-responsabilite-civile-convergence.pdf) |
 | fr | rc-professionnelle | thelem | Responsabilité Civile Chef d'Entreprise- Professions libérales - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_RCPRO.pdf) |
 | fr | retraite | gan | GAN ASSURANCES PERFORMANCE RETRAITE - Fiche | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2026/07/GAN-Performance-Retraite-Infos-Cles.pdf) |
 | fr | retraite | gan | Gan Assurance Nouvelle Vie - Tarifs | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2026/03/Gan-Nouvelle-Vie-Retraite-Fiche-Infos-Frais.pdf) |
@@ -599,6 +604,8 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | sante | groupama | TMGF Synergie santé Salariés - Doc | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/2WdH0QbT2yDvuM9AIoxpxr/3d1ec4295b3f531a9fece1ef2e0cbe03/tableau_de_garanties_synergie_sant___salari___r__gime_local.pdf) |
 | fr | sante | groupama | TMGF Synergie santé Salariés - Doc (2) | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/37C1b2uoBbhZLxH9Ye3Rnl/40a0d7d33c18c132a3357aadfd6d8473/tableau_de_garanties_synergie_sant___salari___r__gime_g__n__ral.pdf) |
 | fr | sante | maaf | Assurance SANTÉ PROFIL SALARIÉS | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Sante/CG/MAAF_Conditions_generales_Sante_MAAF_Pro_Salaries_11015.pdf) |
+| fr | sante | maaf | SANTÉ PROFIL SALARIÉS - Fiche | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Sante/Exemples_de_remboursements/MAAF_exemples_remboursement_Sante_MAAF_Pro_Salaries.pdf) |
+| fr | sante | macif | Complémentaire santé de la Branche de l'Aide, de l'Accompagnement des Soins et des Services à Domicile - Fiche | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/TG_BAD_Sante.pdf) |
 | fr | sante | matmut | CONTRAT COLLECTIF FRAIS DE SANTÉ - RÉGIME OBLIGATOIRE | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-1966-conditions-generales.pdf) |
 | fr | sante | matmut | Conditions Générales — Régime conventionnel de frais de santé à adhésion obligatoire, Convention Collective Nationale de | 2026-07-30 | [pdf](https://www.matmut.fr/mutuelle-sante-ociane/pdf/conditions-generales-CCN-alisfa.pdf) |
 | fr | sante | matmut | Notice d'information — Régime de frais de santé, contrat collectif, Accord interbranche du 2 octobre 2019 (CCN du 15 mar | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-1966-notice-information-base-option-2.pdf) |
