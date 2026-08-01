@@ -82,3 +82,12 @@ format imposé au niveau européen). Les conditions générales sont publiées p
 seulement à la souscription par d'autres. Le corpus français est donc plus riche en IPID qu'en conditions
 générales, ce qui est une observation sur la pratique de publication, pas un manquement des assureurs :
 publier l'IPID est une obligation, publier les conditions générales n'en est pas une.
+
+Le contraste entre les trois codes se lit d'ailleurs directement dans ce qui est publié. Un organisme du
+**Code de la mutualité** n'émet pas de conditions générales : son instrument contractuel est le **règlement
+mutualiste**, adopté par l'assemblée générale avec les statuts. L'adhérent n'est pas un souscripteur, et les
+termes se modifient par vote et non par accord entre deux parties. Or ce règlement est le plus souvent
+« remis lors de l'adhésion » plutôt que publié — c'est le cas chez la MGEN, l'une des plus grandes mutuelles
+du pays, dont les 288 pages publiques ne contiennent qu'un seul IPID et aucun règlement qui aboutisse
+(détail et sources : `_meta/discovery/fr/mgen.md`). Autrement dit, pour une part du marché, les termes
+opérants ne sont par construction pas consultables avant d'adhérer.
