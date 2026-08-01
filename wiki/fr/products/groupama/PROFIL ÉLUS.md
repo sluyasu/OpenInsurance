@@ -608,7 +608,7 @@ Aux termes de l'article L.114-1 du Code des assurances, toutes actions dérivant
 ## Documents liés
 
 - [PROFIL ELUS - IPID](PROFIL%20ELUS%20-%20IPID.md) - IPID / Fiche d'information, éd. V012026
-- [Profil élus - Tableau des montants de garantie et des franchises](Profil%20%C3%A9lus%20-%20Tableau%20des%20montants%20de%20garantie%20et%20des%20franchises.md) - conditions_tarifaires, éd. janvier 2026
+- [Profil élus - Tableau des montants de garantie et des franchises - Tarifs](Profil%20%C3%A9lus%20-%20Tableau%20des%20montants%20de%20garantie%20et%20des%20franchises%20-%20Tarifs.md) - Conditions tarifaires, éd. janvier 2026
 
 ## Source & fidélité
 

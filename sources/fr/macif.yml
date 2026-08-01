@@ -1,0 +1,1101 @@
+insurer:
+  slug: macif
+  name: "Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)"
+  website: "https://www.macif.fr"
+  segment: particuliers
+  notes: |
+    Macif is itself a risk carrier, but only for the P&C book. Across this library the carrier named inside the document changes with the product, and there are SEVEN distinct carriers plus one non-insurance counterparty:
+    1. 'Macif - France - Société d'assurance mutuelle à cotisations variables - SIREN n° 781 452 511' (the 'Compagnie :' line of every P&C IPID) = 'MACIF - MUTUELLE ASSURANCE DES COMMERÇANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L'INDUSTRIE ET DU COMMERCE. Société d'assurance mutuelle à cotisations variables. Entreprise régie par le Code des assurances.' (the closing legal footer of every conditions générales) - auto, moto, habitation, chasse, plaisance, GAV, pro.
+    2. 'Macif Santé Prévoyance (SIREN n° 779 558 501), mutuelle enregistrée en France et régie par le Livre II du Code de la mutualité' - health, prévoyance, obsèques, dépendance. NOTE: the same SIREN 779 558 501 is printed as 'Apivia Macif Mutuelle' in the older documents and as 'Macif-Mutualité' in the oldest ones. Same legal entity, three successive names; the library serves all three side by side.
+    3. 'Macif Vie' (ACPR: MACIF VIE SE), printed as 'Macif Vie - Entreprise régie par le Code des assurances' - assurance vie and PER since ~2025. Its predecessor name 'Mutavie' is still printed on the older notices and fee tables in the same folder.
+    4. 'Thémis - Société Anonyme au capital de 2 499 840€ - SIREN n°582 067 922' - all three protection juridique IPIDs.
+    5. 'la Mutuelle Nationale des Fonctionnaires des Collectivités Territoriales (MNFCT)' - the Macif Santé des Territoriaux / Garantie Santé Territoriaux range. Macif distributes, MNFCT carries.
+    6. 'AXA FRANCE IARD et AXA FRANCE VIE' + 'Fragonard Assurances' (trading as Mondial Assistance) - the Socram Banque payment-card insurance and assistance notices.
+    7. 'MNCAP SA' - the Perte d'Emploi cover attached to Garantie Emprunteur Macif; 'MACIF VIE et MATMUT VIE' jointly carry the Socram Banque consumer-credit borrower cover.
+    Several health documents also print the split explicitly: 'Le contrat Macif Mutuelle Santé, distribué par la Macif, est assuré par Macif Santé Prévoyance' - i.e. Macif is the distributor, the mutuelle is the carrier. MACIFILIA (in the ACPR register) is named in no document in this library.
+
+    NOT PUBLISHED: NO LIBRARY PAGE IS REACHABLE ON THE MAIN SITE. Macif publishes no browsable 'documents contractuels' index that this crawl could open on www.macif.fr, because DataDome blocks every HTML page, robots.txt and sitemap.xml. Only one true library page could be read anywhere in the group: https://www.macifvie.fr/documents-des-contrats/ (4 life/retirement products, 8 PDFs). Everything else in this result is a PDF confirmed live on the publisher's own media path whose linking page could not be loaded - so site_label is null for 165 of 173 documents, site_label_diverges is therefore unknown (null) for those, and it cannot be established which of them Macif still links from a live product page versus merely leaves reachable. Treat the set as 'live on the host', not as 'currently advertised'.
+
+    TRAP: www.macif.fr splits its edge: HTML/robots.txt/sitemap.xml are DataDome-protected (403 to httpx AND to urllib), but /files/live/sites/maciffr/files/** serves PDFs at 200 without any challenge. Do not conclude 'unreachable' from the HTML 403.
+
+    TRAP: Because no HTML page on www.macif.fr can be loaded, site_label is null for all 165 macif.fr documents. Their URLs come from the Internet Archive CDX index of macif.fr PDFs restricted to the publisher's own dipa/ and conditions_generales_* folders - i.e. URLs the archive actually crawled from links, not probed - and every one was then re-requested against the live host. No URL space was enumerated. 22 archive URLs returned 404 or an error live and were dropped, so the archive is demonstrably stale in places.
+
+    TRAP: The date in a Macif filename is the CMS upload date, NOT the edition. CG_habitation_RP_protectrice_202101.pdf prints 'HAB/PROT RP/05 - 05/18' and is byte-identical to CG_habitation_RP_protectrice_201805.pdf. The real edition is in the reference code on the last page, format <FAMILY>/<PRODUCT>/05 - MM/YY - N<nnn>. Parse that, not the filename.
+
+    TRAP: CG_Garantie_Accident_20211218.pdf and CG_Garantie_Accident_20230117.pdf both print the same reference code 'PREI/ACC/05 - 04/21 - N754' but differ in extracted text (83377 vs 83318 chars). Same printed edition, two silently different files - do not treat the reference code as a unique key.
+
+    TRAP: Files named *_synthese_* in conditions_generales_prevoyance/NID/ are NOT summaries: NID_synthese_assurance_sante.pdf is byte-identical to the full 38-page NID_assurance_sante.pdf.
+
+    TRAP: French IPIDs here print no edition date: 34 of the 59 retained DIPA files have no date anywhere, in the document or the filename. That is the publisher's behaviour, not a parsing failure.
+
+    TRAP: Apivia Macif Mutuelle, Macif-Mutualité and Macif Santé Prévoyance are ONE entity (SIREN 779 558 501) under three successive names, and Mutavie is the former name of Macif Vie. The library serves documents naming all of them concurrently, so carrier strings are not stable over time for the same product.
+
+    TRAP: www.macifvie.fr answers about 3 requests before returning 403 for ~35 s. Serialise with a long sleep or you will record false negatives.
+
+    TRAP: httpx in this environment has no brotli decoder. Sending 'Accept-Encoding: gzip, deflate, br' makes a genuine 200 look like a 211-byte binary blob. Drop br.
+
+    TRAP: www.macif.fr also publishes, in the same conditions_generales_banque folder, ~40 non-insurance PDFs: Socram Banque account conventions and tariff guides, FBF/lesclesdelabanque educational mini-guides, SFDR and ESG-climate corporate reports. They are excluded here - they are banking or corporate documents, not insurance contracts.
+
+    TRAP: Three filename collisions across the two hosts, all of them DIFFERENT documents that would overwrite each other in a flat download directory: MultiVie-Frais.pdf exists on both macif.fr (Mutavie, 06/2024) and macifvie.fr (Macif Vie, 06/2026); PlanEpargneRetraite-Frais.pdf likewise (Mutavie 06/2024 vs Macif Vie 06/2026); and NI-PlanEpargneRetraite.pdf / ni-planepargneretraite.pdf differ only in case. Key on URL, never on basename.
+
+    8 document(s) enumerated but deliberately absent below; see the
+    discovery file for the list and the reason.
+
+  fetch_tier: waf          # www.macif.fr is behind DataDome. Every HTML page, /robots.txt and /sit
+listing_pages:
+- url: https://www.macifvie.fr/documents-des-contrats/
+  lang: fr
+languages:
+- fr
+pdfs:
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/CG-chiens-guides.pdf
+  branch: animaux
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat Chiens guides"
+  edition_date: "2012-12"
+  # carrier named in this document: MACIF MUTUELLE ASSURANCE DES COMMERCANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE LINDUSTRIE ET DU COMMERCE
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/CG_macif_assurance_chien_chat.pdf
+  branch: animaux
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Macif Assurance Chien Chat"
+  edition_date: "2022-06"
+  # carrier named in this document: MACIF - MUTUELLE ASSURANCE DES COMMERÇANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/dipa_macif_assurance_chien_chat.pdf
+  branch: animaux
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Macif Assurance Chien Chat"
+  edition_date: "2022-06"
+  # carrier named in this document: Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_chiens_guide.pdf
+  branch: animaux
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat d’assurance Chiens guides"
+  # carrier named in this document: Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/NI-ACTIPLUS-2018_compressed.pdf
+  branch: assurance-vie
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Actiplus"
+  edition_date: "2018-01"
+  # carrier named in this document: Mutavie
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/NI-LIVRET-VIE-2018_compressed.pdf
+  branch: assurance-vie
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Livret Vie"
+  edition_date: "2018-01"
+  # carrier named in this document: Mutavie
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/NI_MultiVie_Macif.pdf
+  branch: assurance-vie
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Multi Vie Mutavie"
+  edition_date: "2019-06"
+  # carrier named in this document: Mutavie - Entreprise régie par le Code des assurances
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/JeewanPatrimoine-Frais.pdf
+  branch: assurance-vie
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Jeewan Patrimoine"
+  edition_date: "2024-06"
+  # carrier named in this document: Mutavie
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/MacifEpargneVie-Frais.pdf
+  branch: assurance-vie
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Macif Épargne Vie"
+  edition_date: "2024-06"
+  # carrier named in this document: Mutavie
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/MultiVie-Frais.pdf
+  branch: assurance-vie
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Multi Vie"
+  edition_date: "2024-06"
+  # carrier named in this document: Mutavie
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/cg-auto-microentrepreneur.pdf
+  branch: auto
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat Auto-Micro Entrepreneur"
+  # carrier named in this document: MACIF - MUTUELLE ASSURANCE DES COMMERÇANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE. Société
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_vehicules/CG-Auto_201801.pdf
+  branch: auto
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat Automobile - Voitures particulières, fourgons et fourgonnettes"
+  edition_date: "2018-01"
+  # carrier named in this document: MUTUELLE ASSURANCE DES COMMERÇANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE LINDUSTRIE ET DU COMMERCE. Société
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_vehicules/CG-Auto_souscrit_avant_01012018.pdf
+  branch: auto
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat Automobile - Voitures particulières, fourgons et fourgonnettes (souscrit avant le 01/01/2018)"
+  edition_date: "2015-04"
+  # carrier named in this document: MUTUELLE ASSURANCE DES COMMERÇANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE. Société
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_vehicules/CG_campingcar.pdf
+  branch: auto
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat Camping-Car Autocaravane"
+  # carrier named in this document: MACIF MUTUELLE ASSURANCE DES COMMERCANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE LINDUSTRIE ET DU COMMERCE
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/CG_flotte_auto.pdf
+  branch: auto
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat Flotte Automobile"
+  edition_date: "2019-06"
+  # carrier named in this document: MACIF - MUTUELLE ASSURANCE DES COMMERCANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_vehicules/CG_Auto.pdf
+  branch: auto
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Macif Auto"
+  edition_date: "2026-01"
+  # carrier named in this document: MACIF - MUTUELLE ASSURANCE DES COMMERÇANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_assos/CG_Auto_Pros.pdf
+  branch: auto
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Macif Auto Pros"
+  edition_date: "2022-06"
+  # carrier named in this document: MACIF - MUTUELLE ASSURANCE DES COMMERÇANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE. Société
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_vehicules/CG_PanneAuto.pdf
+  branch: auto
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Macif Pann’Auto"
+  edition_date: "2020-11"
+  # carrier named in this document: MACIF - MUTUELLE ASSURANCE DES COMMERÇANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_vehicules/reduction_speciale/Conditions-de-la-reduction-speciale.pdf
+  branch: auto
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Réduction spéciale bonus 50 % (contrats véhicules Macif)"
+  edition_date: "2024-12"
+  # carrier named in this document: MACIF - MUTUELLE ASSURANCE DES COMMERÇANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_auto.pdf
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Automobile – Voitures particulières, fourgons et fourgonnettes"
+  # carrier named in this document: Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_camping_car.pdf
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Camping-car Autocaravane"
+  # carrier named in this document: Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_flotte_auto_pro.pdf
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Flotte Automobile [DIPA_flotte_auto_pro]"
+  # carrier named in this document: Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_flotte_automobile.pdf
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Flotte Automobile [DIPA_flotte_automobile]"
+  # carrier named in this document: Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_Auto_20241119.pdf
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Macif Auto"
+  edition_date: "2024-11"
+  # carrier named in this document: Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511 : Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_auto_pro.pdf
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Macif Auto Pros"
+  # carrier named in this document: Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_PanneAuto.pdf
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Macif Pann’Auto"
+  # carrier named in this document: Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_loisirs/CG_caravaning.pdf
+  branch: autres
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat Caravaning"
+  edition_date: "2015-04"
+  # carrier named in this document: MACIF - MUTUELLE ASSURANCE DES COMMERCANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_banque.pdf
+  branch: autres
+  document_type: ipid
+  lang: fr
+  product_name: "Banque - Notice d’information d’Assurance des Moyens de paiement"
+  # carrier named in this document: Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_caravaning.pdf
+  branch: autres
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Caravaning"
+  # carrier named in this document: Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511
+- url: https://www.macif.fr/files/live/sites/maciffr/files/maciffr/Particuliers/statuts_apivia_mm.pdf
+  branch: autres
+  document_type: other
+  lang: fr
+  product_name: "Statuts d'Apivia Macif Mutuelle (devenue Macif Santé Prévoyance)"
+  # carrier named in this document: Macif Santé Prévoyance, mutuelle régie par le Livre II du Code de la mutualité et adhérente à la Mutualité Française
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_loisirs/cg_chasse.pdf
+  branch: chasse
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat Chasse"
+  edition_date: "2012-12"
+  # carrier named in this document: MACIF MUTUELLE ASSURANCE DES COMMERCANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE LINDUSTRIE ET DU COMMERCE
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_loisirs/CG_Chasse_2012.pdf
+  branch: chasse
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat d'assurance Chasse"
+  edition_date: "2012-12"
+  # carrier named in this document: MUTUELLE ASSURANCE DES COMMERÇANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_chasse.pdf
+  branch: chasse
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat d’assurance Chasse"
+  # carrier named in this document: Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/socram/notice_assurance_MACIF.pdf
+  branch: emprunteur
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Assurance emprunteur des crédits Socram Banque (contrat collectif à adhésion facultative)"
+  # carrier named in this document: MACIF VIE et MATMUT VIE
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/Notice_info_GEM.pdf
+  branch: emprunteur
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Garantie Emprunteur Macif"
+  # carrier named in this document: Apivia Macif Mutuelle
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/Notice_info_PEM.pdf
+  branch: emprunteur
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Perte d'Emploi (contrat collectif n°690701 souscrit par SECURIMUT)"
+  # carrier named in this document: MNCAP SA
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_credit_consommation.pdf
+  branch: emprunteur
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance emprunteur crédit à la consommation"
+  # carrier named in this document: MATMUT VIE et MACIF VIE
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_decouvert_autorise.pdf
+  branch: emprunteur
+  document_type: ipid
+  lang: fr
+  product_name: "contrat ASSURANCE DÉCOUVERT"
+  # carrier named in this document: Apivia Macif Mutuelle (SIREN n°779 558 501), mutuelle enregistrée en France et régie par
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/INFORMATION_RELATIVE_ASSURANCE_DECOUVERT_AUTORISE.pdf
+  branch: emprunteur
+  document_type: other
+  lang: fr
+  product_name: "Assurance Découvert autorisé"
+  edition_date: "2020-11"
+  # carrier named in this document: Apivia Macif Mutuelle, mutuelle régie par le Livre II
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/CG_Garantie_Accident_201801.pdf
+  branch: gav
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat Garantie Accident 2018-01"
+  edition_date: "2018-01"
+  superseded: true
+  # carrier named in this document: MUTUELLE ASSURANCE DES COMMERÇANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE. Société
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/CG_Garantie_Accident_201805.pdf
+  branch: gav
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat Garantie Accident 2018-05"
+  edition_date: "2018-05"
+  superseded: true
+  # carrier named in this document: MUTUELLE ASSURANCE DES COMMERÇANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE. Société
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/CG_Garantie_Accident_20211218.pdf
+  branch: gav
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat Garantie Accident 2021-04"
+  edition_date: "2021-04"
+  superseded: true
+  # carrier named in this document: MUTUELLE ASSURANCE DES COMMERÇANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE. Société
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/CG_Garantie_Accident.pdf
+  branch: gav
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat Garantie Accident 2026-01"
+  edition_date: "2026-01"
+  # carrier named in this document: MACIF - MUTUELLE ASSURANCE DES COMMERÇANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/CG_Garantie_Accident_20230117.pdf
+  branch: gav
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Macif Garantie Accident"
+  edition_date: "2021-04"
+  # carrier named in this document: MACIF - MUTUELLE ASSURANCE DES COMMERCANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_garantie_accident.pdf
+  branch: gav
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Garantie Accident"
+  edition_date: "2026-01"
+  # carrier named in this document: Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/annexe_optionAJ_plus.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat Habitation - Formule Protectrice - Résidence Principale, annexe option assistance juridique \"Plus\""
+  # carrier named in this document: MUTUELLE ASSURANCE DES COMMERÇANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/CG_habitation_RP_protectrice_201805.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat Habitation - Formule Protectrice - Résidence principale"
+  edition_date: "2018-05"
+  # carrier named in this document: MUTUELLE ASSURANCE DES COMMERÇANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE. Société
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/CG_habitation_RP_protectrice.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat Habitation Formule Protectrice Résidence principale [CG_habitation_RP_protectrice]"
+  edition_date: "2024-04"
+  # carrier named in this document: MACIF - MUTUELLE ASSURANCE DES COMMERÇANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/CG_habitation_RP_protectrice_20230202.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat Habitation Formule Protectrice Résidence principale [CG_habitation_RP_protectrice_20230202]"
+  edition_date: "2021-04"
+  superseded: true
+  # carrier named in this document: MACIF - MUTUELLE ASSURANCE DES COMMERCANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/CG_habitation_RP_protectrice_20240401.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat Habitation Formule Protectrice Résidence principale [CG_habitation_RP_protectrice_20240401]"
+  edition_date: "2024-04"
+  superseded: true
+  # carrier named in this document: MACIF - MUTUELLE ASSURANCE DES COMMERÇANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/CG_habitation_RS_protectrice.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat Habitation Formule Protectrice Résidence secondaire"
+  edition_date: "2024-04"
+  # carrier named in this document: MACIF - MUTUELLE ASSURANCE DES COMMERÇANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/CG_habitation_RP_RS_economique_20230114.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat Habitation Formule Économique Résidence principale - Résidence secondaire 2018-05"
+  edition_date: "2018-05"
+  superseded: true
+  # carrier named in this document: MACIF - MUTUELLE ASSURANCE DES COMMERCANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/CG_habitation_RP_RS_economique.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat Habitation Formule Économique Résidence principale - Résidence secondaire 2024-04"
+  edition_date: "2024-04"
+  # carrier named in this document: MACIF - MUTUELLE ASSURANCE DES COMMERÇANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/CG_GLI.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat Loyers impayés"
+  edition_date: "2023-06"
+  # carrier named in this document: MACIF - MUTUELLE ASSURANCE DES COMMERÇANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/CG_Prems.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat Prem’s Assurance Logement - Assurance Personnelle"
+  edition_date: "2015-04"
+  # carrier named in this document: MACIF - MUTUELLE ASSURANCE DES COMMERCANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/CG_proprietaire_non_occupant.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat Sociétaire Non Occupant"
+  edition_date: "2015-04"
+  # carrier named in this document: MACIF MUTUELLE ASSURANCE DES COMMERCANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE LINDUSTRIE ET DU COMMERCE
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/annexe_proprietaire_non_occupant_appartement_ou_maison_particuliere_residence_secondaire.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat Sociétaire Non Occupant - Annexe spéciale Appartement ou maison particulière - Résidence secondaire"
+  # carrier named in this document: MACIF - MUTUELLE ASSURANCE DES COMMERCANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE LINDUSTRIE ET DU COMMERCE
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/annexe_proprietaire_non_occupant_construction.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat Sociétaire Non Occupant - Annexe spéciale Bâtiments en cours de construction"
+  # carrier named in this document: MACIF - MUTUELLE ASSURANCE DES COMMERCANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/annexe_societaire_non_occupant_batiments_inoccupes.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat Sociétaire Non Occupant - Annexe spéciale Bâtiments inoccupés"
+  # carrier named in this document: MACIF - MUTUELLE ASSURANCE DES COMMERCANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE LINDUSTRIE ET DU COMMERCE
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/annexe_proprietaire_non_occupant_immeuble_en_copropriete.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat Sociétaire Non Occupant - Annexe spéciale Immeubles en copropriété"
+  # carrier named in this document: MACIF - MUTUELLE ASSURANCE DES COMMERCANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE LINDUSTRIE ET DU COMMERCE
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/annexe_proprietaire_non_occupant_immeubles_locatifs.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat Sociétaire Non Occupant - Annexe spéciale Immeubles locatifs"
+  # carrier named in this document: MACIF - MUTUELLE ASSURANCE DES COMMERCANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE LINDUSTRIE ET DU COMMERCE
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/CG-Macif-Habitation.pdf
+  branch: habitation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Macif Habitation"
+  edition_date: "2025-06"
+  # carrier named in this document: MACIF - MUTUELLE ASSURANCE DES COMMERÇANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_habitation_principale_protectrice.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Habitation - Formule Protectrice - Résidence principale"
+  # carrier named in this document: Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_habitation_secondaire_protectrice.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Habitation - Formule Protectrice - Résidence secondaire"
+  # carrier named in this document: Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_habitation_principale_et_secondaire_economique.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire"
+  # carrier named in this document: Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_loyer_impaye.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Loyers impayés"
+  # carrier named in this document: Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/dipa-macif-habitation-maison-en-construction.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Macif Habitation - Formule Construction"
+  # carrier named in this document: Macif - France - Société d’assurance mutuelle à cotisations variables - Sirène n° 781 452 511
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/dipa-macif-habitation-logement-locatif.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Macif Habitation - Formule Logement locatif"
+  edition_date: "2025-06"
+  # carrier named in this document: Macif - France - Société d’assurance mutuelle à cotisations variables - Sirène n° 781 452 511
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/dipa-macif-habitation-residence-principale.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Macif Habitation - Formules Économique, Équilibrée, Confort [dipa-macif-habitation-residence-principale]"
+  edition_date: "2025-06"
+  # carrier named in this document: Macif - France - Société d’assurance mutuelle à cotisations variables - Sirène n° 781 452 511
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/dipa-macif-habitation-residence-secondaire.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Macif Habitation - Formules Économique, Équilibrée, Confort [dipa-macif-habitation-residence-secondaire]"
+  edition_date: "2025-06"
+  # carrier named in this document: Macif - France - Société d’assurance mutuelle à cotisations variables - Sirène n° 781 452 511
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_habitation_prems.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat PREM’S - Assurance logement - Assurance personnelle"
+  # carrier named in this document: Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_proprietaire_non_occupant_appartement_ou_maison_residence_secondaire.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Sociétaire non occupant - Appartement ou maison particulière - Résidence secondaire"
+  # carrier named in this document: Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_proprietaire_non_occupant_batiment_en_construction.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Sociétaire non occupant - Bâtiment en cours de construction"
+  # carrier named in this document: Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_proprietaire_non_occupant_batiments_inoccupes.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Sociétaire non occupant - Bâtiments inoccupés"
+  # carrier named in this document: Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_proprietaire_non_occupant_immeubles_en_copropriete.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Sociétaire non occupant - Immeubles en copropriété"
+  # carrier named in this document: Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_proprietaire_non_occupant_immeubles_locatifs.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Sociétaire non occupant - Immeubles locatifs"
+  # carrier named in this document: Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_vehicules/CG-Moto-2018.pdf
+  branch: moto
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat Deux Roues"
+  edition_date: "2018-11"
+  # carrier named in this document: MUTUELLE ASSURANCE DES COMMERÇANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE. Société
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_vehicules/CG-Moto.pdf
+  branch: moto
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Macif Deux-roues"
+  edition_date: "2026-05"
+  # carrier named in this document: MACIF - MUTUELLE ASSURANCE DES COMMERÇANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_deux_roues.pdf
+  branch: moto
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Macif Deux-roues"
+  edition_date: "2026-05"
+  # carrier named in this document: Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_Moto_Pro.pdf
+  branch: moto
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Macif Deux-roues Pros"
+  # carrier named in this document: Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/CG-ACTP-MAP-06-23.pdf
+  branch: multirisque-professionnelle
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat Multigarantie Activité Professionnelle 2023-06"
+  edition_date: "2023-06"
+  superseded: true
+  # carrier named in this document: MACIF - MUTUELLE ASSURANCE DES COMMERCANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/CG_MAP.pdf
+  branch: multirisque-professionnelle
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat Multigarantie Activité Professionnelle 2025-12"
+  edition_date: "2025-12"
+  # carrier named in this document: MACIF - MUTUELLE ASSURANCE DES COMMERÇANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_multigarantie_activite_professionnelle.pdf
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Multigarantie Activité Professionnelle"
+  edition_date: "2023-06"
+  # carrier named in this document: Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_multigarantie_activite_sociale_vie_associative.pdf
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Multigarantie Activités Sociales Vie Associative [DIPA_multigarantie_activite_sociale_vie_associative]"
+  # carrier named in this document: Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_tres_petite_association.pdf
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Multigarantie Activités Sociales Vie Associative [DIPA_tres_petite_association]"
+  # carrier named in this document: Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_assurance_materiel_informatique.pdf
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Multigarantie Informatique"
+  # carrier named in this document: Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_loisirs/CG_navigation-plaisance.pdf
+  branch: navigation
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat Navigation de plaisance"
+  edition_date: "2017-01"
+  # carrier named in this document: MACIF - MUTUELLE ASSURANCE DES COMMERCANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_navigation_de_plaisance.pdf
+  branch: navigation
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Navigation de plaisance"
+  # carrier named in this document: Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/NID_garantie_obseques.pdf
+  branch: obseques
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Garantie Obsèques"
+  edition_date: "2026-07"
+  # carrier named in this document: Macif Santé Prévoyance
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/DIC_garantie_obseques.pdf
+  branch: obseques
+  document_type: ipid
+  lang: fr
+  product_name: "Garantie Obsèques"
+  edition_date: "2026-07"
+  # carrier named in this document: Macif Santé Prévoyance, mutuelle régie par le Livre II du Code de la mutualité et adhérente à la Mutualité Française. SIREN
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_garantie_obseques.pdf
+  branch: obseques
+  document_type: ipid
+  lang: fr
+  product_name: "contrat GARANTIE OBSÈQUES"
+  edition_date: "2026-01"
+  # carrier named in this document: Macif Santé Prévoyance, mutuelle régie par le Livre II du Code de la mutualité et adhérente à la
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/tableau-principaux-indicateurs-economiques-garantie-obseques.pdf
+  branch: obseques
+  document_type: other
+  lang: fr
+  product_name: "Garantie Obsèques"
+  # carrier named in this document: Macif Santé Prévoyance
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/synthese_garantie_obseques.pdf
+  branch: obseques
+  document_type: product_sheet
+  lang: fr
+  product_name: "Garantie Obsèques"
+  edition_date: "2026-07"
+  # carrier named in this document: Macif Santé Prévoyance, mutuelle régie par le Livre II du Code de
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/Reglement_Mutualiste_garantie_autonomie_et_dependance.pdf
+  branch: prevoyance
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Garantie Autonomie et Dépendance"
+  edition_date: "2026-01"
+  # carrier named in this document: MACIF SANTÉ PRÉVOYANCE, mutuelle régie par
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/NID-Garantie_deces.pdf
+  branch: prevoyance
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Garantie Décès Capital forfaitaire"
+  edition_date: "2026-01"
+  # carrier named in this document: Macif Santé Prévoyance, mutuelle
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/CG_CCN_CEC_CC.pdf
+  branch: prevoyance
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Prévoyance CCN cabinets d'experts comptables et commissaires aux comptes (IDCC 787) [CG_CCN_CEC_CC]"
+  edition_date: "2026-01"
+  # carrier named in this document: Macif Santé Prévoyance
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/NID_CCN_CEC_CC.pdf
+  branch: prevoyance
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Prévoyance CCN cabinets d'experts comptables et commissaires aux comptes (IDCC 787) [NID_CCN_CEC_CC]"
+  edition_date: "2026-01"
+  # carrier named in this document: Macif Santé Prévoyance
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_experts_comptables.pdf
+  branch: prevoyance
+  document_type: ipid
+  lang: fr
+  product_name: "Prévoyance CCN Cabinets d’experts comptables et commissaires aux comptes (IDCC 787)"
+  edition_date: "2026-01"
+  # carrier named in this document: Ce contrat est assuré par Macif Santé Prévoyance (SIREN n° 779 558 501 ), mutuelle enregistrée en France
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_garantie_autonomie_et_dependance.pdf
+  branch: prevoyance
+  document_type: ipid
+  lang: fr
+  product_name: "contrat GARANTIE AUTONOMIE ET DÉPENDANCE"
+  edition_date: "2026-01"
+  # carrier named in this document: Macif Santé Prévoyance (Sirène n°779, 558, 501), mutuelle enregistrée en France et régie par Sirène n°779, 558, 501), mutuelle enregistrée en France et régie par
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_deces_invalidite.pdf
+  branch: prevoyance
+  document_type: ipid
+  lang: fr
+  product_name: "contrat GARANTIE DÉCÈS (Décès, invalidité et arrêt de travail temporaire)"
+  # carrier named in this document: Macif Santé Prévoyance (SIREN n°779 558 501), mutuelle enregistrée en France et régie par
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_garantie_deces.pdf
+  branch: prevoyance
+  document_type: ipid
+  lang: fr
+  product_name: "contrat GARANTIE DÉCÈS Capital forfaitaire"
+  # carrier named in this document: Macif Santé Prévoyance (SIREN n°779 558 501), mutuelle enregistrée en France et régie par
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA%20PJ%20PRO%26ESS%2006-20.pdf
+  branch: protection-juridique
+  document_type: ipid
+  lang: fr
+  product_name: "Protection Juridique [DIPA%20PJ%20PRO%26ESS%2006-20]"
+  edition_date: "2020-06"
+  # carrier named in this document: Thémis - Société Anonyme au capital de 2 499 840€ - SIREN n°582 067 922
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_PJ_Pro-ESS.pdf
+  branch: protection-juridique
+  document_type: ipid
+  lang: fr
+  product_name: "Protection Juridique [DIPA_PJ_Pro-ESS]"
+  # carrier named in this document: Thémis - Société Anonyme au capital de 2 499 840€ - SIREN n°582 067 922
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_protection_juridique_sur_mesure_des_professionnels.pdf
+  branch: protection-juridique
+  document_type: ipid
+  lang: fr
+  product_name: "Protection Juridique [DIPA_protection_juridique_sur_mesure_des_professionnels]"
+  # carrier named in this document: Thémis - Société Anonyme au capital de 2 499 840€ - SIREN n°582 067 922
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/CG_MVPRC.pdf
+  branch: rc-privee
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat Multigarantie Vie privée Responsabilité civile"
+  edition_date: "2018-05"
+  # carrier named in this document: MACIF - MUTUELLE ASSURANCE DES COMMERCANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/dipa-macif-habitation-responsabilite-civile-vie-privee.pdf
+  branch: rc-privee
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Macif Habitation - Formule Responsabilité civile"
+  edition_date: "2025-06"
+  # carrier named in this document: Macif - France - Société d’assurance mutuelle à cotisations variables - Sirène n° 781 452 511
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_habitation_responsabilite_civile.pdf
+  branch: rc-privee
+  document_type: ipid
+  lang: fr
+  product_name: "Contrat Multigarantie Vie Privée - Responsabilité Civile"
+  # carrier named in this document: Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/NI-multihorizonretraite-Mutavie.pdf
+  branch: retraite
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Multi Horizon Retraite"
+  edition_date: "2021-12"
+  # carrier named in this document: Mutavie
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/MultiHorizonRetraite-Frais.pdf
+  branch: retraite
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Multi Horizon Retraite"
+  edition_date: "2022-06"
+  # carrier named in this document: Mutavie
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/PlanEpargneRetraite-Frais.pdf
+  branch: retraite
+  document_type: conditions_tarifaires
+  lang: fr
+  product_name: "Plan Épargne Retraite individuel"
+  edition_date: "2024-06"
+  # carrier named in this document: Mutavie
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/NID_EXPERTS_AUTO_Sante.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Complémentaire santé CCN des cabinets ou entreprises d'expertises en automobile"
+  edition_date: "2026-01"
+  # carrier named in this document: Macif Santé Prévoyance, mutuelle régie par le Livre II du Code de la mutualité et adhérente à la Mutualité Française
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/NID/NID-Garantie-Sante.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Garantie Santé"
+  edition_date: "2023-01"
+  # carrier named in this document: Apivia Macif Mutuelle, mutuelle régie
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/GST-reglement-mutualiste.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Garantie Santé Territoriaux"
+  edition_date: "2022-01"
+  # carrier named in this document: la Mutuelle Nationale des Fonctionnaires des Collectivités Territoriales (MNFCT)
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/NID/NID_MH_COMPLET_20240101.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Macif Hospitalisation 2023-12"
+  edition_date: "2023-12"
+  superseded: true
+  # carrier named in this document: Apivia Macif Mutuelle, mutuelle soumise
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/NID/NID_assurance_hospitalisation.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Macif Hospitalisation 2026-01"
+  edition_date: "2026-01"
+  # carrier named in this document: Macif Santé Prévoyance, mutuelle soumise
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/conditions-generales-macif-mutuelle-entreprises.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Macif Mutuelle Entreprises 2025-01"
+  edition_date: "2025-01"
+  superseded: true
+  # carrier named in this document: Apivia Macif Mutuelle - Mutuelle régie par le Livre II du Code de la mutualité et
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/nid-macif-mutuelle-entreprises.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Macif Mutuelle Entreprises 2026-01"
+  edition_date: "2026-01"
+  # carrier named in this document: Macif Santé Prévoyance - Mutuelle régie par le Livre II du Code de la mutualité
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/NID/NID_MMS_COMPLET_20240101.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Macif Mutuelle Santé 2023-12"
+  edition_date: "2023-12"
+  superseded: true
+  # carrier named in this document: Apivia Macif Mutuelle, mutuelle régie
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/NID/NID_assurance_sante.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Macif Mutuelle Santé 2026-06"
+  edition_date: "2026-06"
+  # carrier named in this document: Macif Santé Prévoyance, mutuelle régie
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/RM_MSDT.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Macif Santé des Territoriaux"
+  edition_date: "2026-06"
+  # carrier named in this document: la MNFCT, Mutuelle régie
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/NID_BAD.pdf
+  branch: sante
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Régime conventionnel frais de santé - CCN de la branche de l'aide, de l'accompagnement, des soins et des services à domicile (BAD)"
+  edition_date: "2021-07"
+  # carrier named in this document: Apivia Macif Mutuelle
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_MSDT.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: "CONTRAT MACIF SANTÉ DES TERRITORIAUX"
+  edition_date: "2026-01"
+  # carrier named in this document: la Mutuelle Nationale des Fonctionnaires des Collectivités Territoriales (MNFCT)
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_sante_collective_aide_a_domicile.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: "contrat COMPLÉMENTAIRE SANTÉ BRANCHE DE L’AIDE, DE L’ACCOMPAGNEMENT,"
+  edition_date: "2019-01"
+  # carrier named in this document: Macif-Mutualité, mutuelle enregistrée en France et régie par le Livre II
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_sante_collective_experts_auto.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: "contrat COMPLÉMENTAIRE SANTÉ CCN DES CABINETS OU ENTREPRISES D’EXPERTISES EN AUTOMOBILE"
+  # carrier named in this document: Apivia Macif Mutuelle, mutuelle régie par le livre II du Code de la mutualité, immatriculée
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_garantie_hospitalisation.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: "contrat GARANTIE HOSPITALISATION"
+  edition_date: "2022-01"
+  # carrier named in this document: Apivia Macif Mutuelle (SIREN n°779 558 501), mutuelle enregistrée en France et régie par
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_GST.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: "contrat GARANTIE SANTE TERRITORIAUX"
+  edition_date: "2022-01"
+  # carrier named in this document: la Mutuelle Nationale des Fonctionnaires des Collectivités Territoriales (MNFCT), mutuelle enregistrée en France
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_garantie_sante_20190820.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: "contrat GARANTIE SANTÉ 2019-09"
+  edition_date: "2019-09"
+  superseded: true
+  # carrier named in this document: Macif-Mutualité (SIREN n°779 558 501) ou Apivia Mutuelle (SIREN n°775 709 710)
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_garantie_sante.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: "contrat GARANTIE SANTÉ 2022-01"
+  edition_date: "2022-01"
+  # carrier named in this document: Apivia Macif Mutuelle (SIREN n°779 558 501), mutuelle enregistrée en France et régie par
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_MH_20220701.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: "contrat MACIF HOSPITALISATION [DIPA_MH_20220701]"
+  edition_date: "2022-07"
+  # carrier named in this document: Apivia Macif Mutuelle (SIREN n°779 558 501), mutuelle enregistrée en France et régie par
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_assurance_hospitalisation.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: "contrat MACIF HOSPITALISATION [DIPA_assurance_hospitalisation]"
+  # carrier named in this document: Macif Santé Prévoyance (SIREN n° 779 558 501), mutuelle enregistrée en France et régie par
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/dipa-macif-mutuelle-entreprises.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: "contrat MACIF MUTUELLE ENTREPRISES (contrat collectif à adhésion obligatoire)"
+  edition_date: "2025-01"
+  # carrier named in this document: Apivia Macif Mutuelle (Sirène n° 779, 558, 501 ), mutuelle enregistrée en France et régie par
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_MMS_20220701.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: "contrat MACIF MUTUELLE SANTÉ [DIPA_MMS_20220701]"
+  edition_date: "2022-07"
+  # carrier named in this document: Apivia Macif Mutuelle (SIREN n°779 558 501), mutuelle enregistrée en France et régie
+- url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_assurance_sante.pdf
+  branch: sante
+  document_type: ipid
+  lang: fr
+  product_name: "contrat MACIF MUTUELLE SANTÉ [DIPA_assurance_sante]"
+  # carrier named in this document: Macif Santé Prévoyance (SIREN n° 779 558 501), mutuelle enregistrée en France et régie par
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/TG_EXPERTS_AUTO.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Complémentaire santé CCN des cabinets ou entreprises d'expertises en automobile"
+  edition_date: "2026-01"
+  # carrier named in this document: Macif Santé Prévoyance, mutuelle régie par le Livre II du Code de la
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/TG_BAD_Sante.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Complémentaire santé de la branche de l'aide, de l'accompagnement des soins et des services à domicile"
+  edition_date: "2023-01"
+  # carrier named in this document: Apivia Macif Mutuelle, mutuelle régie par le Livre II du Code de
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/Exemples-remboursements-GS.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Garantie Santé"
+  edition_date: "2022-01"
+  # carrier named in this document: Apivia Macif Mutuelle, mutuelle régie par le Livre II du Code de la mutualité et adhérente à la Mutualité Française
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/GST-fiche-synthese.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Garantie Santé Territoriaux"
+  edition_date: "2022-01"
+  # carrier named in this document: la Mutuelle Nationale des Fonctionnaires des Collectivités Territoriales (MNFCT)
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/tg-macif-mutuelle-entreprises.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Macif Mutuelle Entreprises"
+  edition_date: "2026-01"
+  # carrier named in this document: Macif Santé Prévoyance, mutuelle régie par le Livre II du Code de la mutualité et adhérente à la Mutualité Française
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/exemples-de-remboursements-mme-4-formule-confort.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Macif Mutuelle Entreprises - formule Confort"
+  edition_date: "2026-01"
+  # carrier named in this document: Macif Santé Prévoyance, mutuelle régie par le Livre II du Code de la mutualité et adhérente
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/exemples-de-remboursements-mme-1-formule-essentielle.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Macif Mutuelle Entreprises - formule Essentielle"
+  edition_date: "2026-01"
+  # carrier named in this document: Macif Santé Prévoyance, mutuelle régie par le Livre II du Code de la mutualité et adhérente
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/exemples-de-remboursements-mme-2-formule-essentielle-plus.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Macif Mutuelle Entreprises - formule Essentielle Plus"
+  edition_date: "2026-01"
+  # carrier named in this document: Macif Santé Prévoyance, mutuelle régie par le Livre II du Code de la mutualité et adhérente
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/exemples-de-remboursements-mme-6-formule-excellence.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Macif Mutuelle Entreprises - formule Excellence"
+  edition_date: "2026-01"
+  # carrier named in this document: Macif Santé Prévoyance, mutuelle régie par le Livre II du Code de la mutualité et adhérente
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/exemples-de-remboursements-mme-3-formule-equilibree.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Macif Mutuelle Entreprises - formule Équilibrée"
+  edition_date: "2026-01"
+  # carrier named in this document: Macif Santé Prévoyance, mutuelle régie par le Livre II du Code de la mutualité et adhérente
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/exemples-de-remboursements-mme-5-formule-etendue.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Macif Mutuelle Entreprises - formule Étendue"
+  edition_date: "2026-01"
+  # carrier named in this document: Macif Santé Prévoyance, mutuelle régie par le Livre II du Code de la mutualité et adhérente
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/ExemplesRemboursement_MMS_ALS.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Macif Mutuelle Santé / Macif Hospitalisation"
+  edition_date: "2026-06"
+  # carrier named in this document: Macif Santé Prévoyance, mutuelle régie par le Livre II du Code de la mutualité et adhérente à la Mutualité Française. SIREN 779 558 501
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/Remboursement_assurance_sante.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Macif Mutuelle Santé [Remboursement_assurance_sante]"
+  # carrier named in this document: Macif Santé Prévoyance, mutuelle régie par le Livre II du Code de la mutualité et adhérente à la Mutualité Française
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/TableauGaranties_assurance_sante.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Macif Mutuelle Santé [TableauGaranties_assurance_sante]"
+  # carrier named in this document: Macif Santé Prévoyance, mutuelle régie par le Livre II du Code de la mutualité et adhérente à la Mutualité Française
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/TG_MSDT.pdf
+  branch: sante
+  document_type: product_sheet
+  lang: fr
+  product_name: "Macif Santé des Territoriaux"
+  edition_date: "2026-06"
+  # carrier named in this document: la MNFCT, mutuelle régie par le Livre II du Code de la mutualité et adhérente à la Mutualité Française
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/Contrat-EAS.pdf
+  branch: scolaire
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Contrat Extension de l'assurance scolaire"
+  edition_date: "2013-05"
+  # carrier named in this document: MUTUELLE ASSURANCE DES COMMERÇANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE. Société
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/socram/CVELEC2015S59.pdf
+  branch: voyage
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Assistance médicale Carte Visa Electron - déplacement privé"
+  edition_date: "2015"
+  # carrier named in this document: Fragonard Assurances (gérée par AWP France SAS, « Mondial Assistance »)
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/notice-assurance_CBleueVisa.pdf
+  branch: voyage
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Assurances de la Carte Visa Classic / Carte Bleue Visa"
+  edition_date: "2017-01"
+  # carrier named in this document: AXA FRANCE IARD et AXA FRANCE VIE
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/socram/CVELEC20158314.0007.pdf
+  branch: voyage
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Assurances de la Carte Visa Electron"
+  edition_date: "2017-01"
+  # carrier named in this document: AXA FRANCE IARD et AXA FRANCE VIE
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/notice-assurance_CVisaPremier.pdf
+  branch: voyage
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Assurances de la Carte Visa Premier"
+  # carrier named in this document: AXA FRANCE IARD et AXA FRANCE VIE
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/notice-assistance_CBleueVisa.pdf
+  branch: voyage
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Convention d'assistance - Carte Visa Classic n°922091"
+  edition_date: "2021-01"
+  # carrier named in this document: Fragonard Assurances (gérée par AWP France SAS, « Mondial Assistance »)
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/notice-assistance-cb-visa-electron.pdf
+  branch: voyage
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Convention d'assistance - Carte Visa Electron n°922093"
+  edition_date: "2021-01"
+  # carrier named in this document: Fragonard Assurances (gérée par AWP France SAS, « Mondial Assistance »)
+- url: https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/notice-assistance_CVisaPremier.pdf
+  branch: voyage
+  document_type: conditions_generales
+  lang: fr
+  product_name: "Convention d'assistance - Carte Visa Premier n°922083"
+  edition_date: "2021-01"
+  # carrier named in this document: Fragonard Assurances (gérée par AWP France SAS, « Mondial Assistance »)

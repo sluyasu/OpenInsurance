@@ -116,8 +116,8 @@ generated: true
 ### [Complémentaire santé](../branches/Compl%C3%A9mentaire%20sant%C3%A9.md)
 - [Assurance Complémentaire Santé – gamme non responsable et solidaire - IPID](../products/thelem/Assurance%20Compl%C3%A9mentaire%20Sant%C3%A9%20%E2%80%93%20gamme%20non%20responsable%20et%20solidaire%20-%20IPID.md) - IPID / Fiche d'information (2024-01)
 - [Assurance Complémentaire Santé – gamme responsable et solidaire - IPID](../products/thelem/Assurance%20Compl%C3%A9mentaire%20Sant%C3%A9%20%E2%80%93%20gamme%20responsable%20et%20solidaire%20-%20IPID.md) - IPID / Fiche d'information (2026-01)
-- [INTÉGRALE 1, INTÉGRALE 2, INTÉGRALE 3, INTÉGRALE 4 – Formules responsables et solidaires](../products/thelem/INT%C3%89GRALE%201%2C%20INT%C3%89GRALE%202%2C%20INT%C3%89GRALE%203%2C%20INT%C3%89GRALE%204%20%E2%80%93%20Formules%20responsables%20et%20solidaires.md) - Document (2026)
-- [PRIMORDIALE 1, PRIMORDIALE 2, PRIMORDIALE 3 – Formules NON responsables et solidaires](../products/thelem/PRIMORDIALE%201%2C%20PRIMORDIALE%202%2C%20PRIMORDIALE%203%20%E2%80%93%20Formules%20NON%20responsables%20et%20solidaires.md) - Document (2026)
+- [INTÉGRALE 1, INTÉGRALE 2, INTÉGRALE 3, INTÉGRALE 4 – Formules responsables et solidaires - Doc](../products/thelem/INT%C3%89GRALE%201%2C%20INT%C3%89GRALE%202%2C%20INT%C3%89GRALE%203%2C%20INT%C3%89GRALE%204%20%E2%80%93%20Formules%20responsables%20et%20solidaires%20-%20Doc.md) - Document (2026)
+- [PRIMORDIALE 1, PRIMORDIALE 2, PRIMORDIALE 3 – Formules NON responsables et solidaires - Doc](../products/thelem/PRIMORDIALE%201%2C%20PRIMORDIALE%202%2C%20PRIMORDIALE%203%20%E2%80%93%20Formules%20NON%20responsables%20et%20solidaires%20-%20Doc.md) - Document (2026)
 
 ### [Scolaire et extrascolaire](../branches/Scolaire%20et%20extrascolaire.md)
 - [Assurance scolaire et extra-scolaire - IPID](../products/thelem/Assurance%20scolaire%20et%20extra-scolaire%20-%20IPID.md) - IPID / Fiche d'information (2024-09)

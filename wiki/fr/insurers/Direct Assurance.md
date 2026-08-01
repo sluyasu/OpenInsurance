@@ -45,7 +45,7 @@ generated: true
 
 ### [Complémentaire santé](../branches/Compl%C3%A9mentaire%20sant%C3%A9.md)
 - [Direct Assurance Santé](../products/direct-assurance/Direct%20Assurance%20Sant%C3%A9.md) - Conditions générales (12.24 (code de pied de page « SANTÉ_12.24_VF »)) · réf. SANTÉ_12.24_VF — N° IDU : FR232655_03PSOH ; contrats de groupe référencés 375044936006 (« responsable ») et 375044936007 (« non responsable ») ; contrat d'assistance N° 0804221
-- [Direct Assurance Santé - Exemples de remboursements](../products/direct-assurance/Direct%20Assurance%20Sant%C3%A9%20-%20Exemples%20de%20remboursements.md) - Document · réf. SAND1000_11.25 VW_V1
+- [Direct Assurance Santé - Exemples de remboursements - Doc](../products/direct-assurance/Direct%20Assurance%20Sant%C3%A9%20-%20Exemples%20de%20remboursements%20-%20Doc.md) - Document · réf. SAND1000_11.25 VW_V1
 - [Direct Assurance Santé - contrat responsable - IPID](../products/direct-assurance/Direct%20Assurance%20Sant%C3%A9%20-%20contrat%20responsable%20-%20IPID.md) - IPID / Fiche d'information (12/2024) · réf. IPID SANTE
 - [Direct Assurance Santé - formules Hospi (contrat non responsable) - IPID](../products/direct-assurance/Direct%20Assurance%20Sant%C3%A9%20-%20formules%20Hospi%20%28contrat%20non%20responsable%29%20-%20IPID.md) - IPID / Fiche d'information (12/2024) · réf. IPID SANTE
 

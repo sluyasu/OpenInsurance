@@ -156,7 +156,7 @@ Garantie SQUAT : Prise en charge des loyers hors charges le temps de l’occupat
 
 ## Documents liés
 
-- [Assurance Loyers Impayés](Assurance%20Loyers%20Impay%C3%A9s.md) - Document
+- [Assurance Loyers Impayés - Doc](Assurance%20Loyers%20Impay%C3%A9s%20-%20Doc.md) - Document
 - [Assurance Loyers Impayés - SADA Assurances (porteur du risque)](Assurance%20Loyers%20Impay%C3%A9s%20-%20SADA%20Assurances%20%28porteur%20du%20risque%29.md) - Conditions générales, éd. Mars 2023
 - [Assurance Loyers Impayés - WAKAM (porteur du risque)](Assurance%20Loyers%20Impay%C3%A9s%20-%20WAKAM%20%28porteur%20du%20risque%29.md) - Conditions générales, éd. Septembre 2025
 

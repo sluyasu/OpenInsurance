@@ -116,9 +116,9 @@ Une garantie d'assistance dont l'assureur est MAIF qui permet d'apporter des pre
 
 ## Documents liés
 
-- [Sollicitudes](Sollicitudes%20%282%29.md) - Conditions générales, éd. 01/2024
-- [Sollicitudes](Sollicitudes.md) - conditions_tarifaires, éd. 07/2025
-- [Sollicitudes](Sollicitudes%20%283%29.md) - Document, éd. 07/2025
+- [Sollicitudes](Sollicitudes.md) - Conditions générales, éd. 01/2024
+- [Sollicitudes - Tarifs](Sollicitudes%20-%20Tarifs.md) - Conditions tarifaires, éd. 07/2025
+- [Sollicitudes - Doc](Sollicitudes%20-%20Doc.md) - Document, éd. 07/2025
 
 ## Source & fidélité
 

@@ -151,7 +151,7 @@ Le produit comporte une Garantie plancher optionnelle destinée à compléter la
 
 ## Documents liés
 
-- [Gan Patrimoine Objectif Retraite](Gan%20Patrimoine%20Objectif%20Retraite.md) - conditions_tarifaires
+- [Gan Patrimoine Objectif Retraite - Tarifs](Gan%20Patrimoine%20Objectif%20Retraite%20-%20Tarifs.md) - Conditions tarifaires
 
 ## Source & fidélité
 

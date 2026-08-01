@@ -148,7 +148,7 @@ L'investisseur a la faculté d'effectuer, à tout moment et sans frais, un racha
 ## Documents liés
 
 - Édition courante de ce produit.
-- [GROUPAMA SÉRÉNITÉ OBSÈQUES](GROUPAMA%20S%C3%89R%C3%89NIT%C3%89%20OBS%C3%88QUES.md) - conditions_tarifaires, éd. 032026
+- [GROUPAMA SÉRÉNITÉ OBSÈQUES - Tarifs](GROUPAMA%20S%C3%89R%C3%89NIT%C3%89%20OBS%C3%88QUES%20-%20Tarifs.md) - Conditions tarifaires, éd. 032026
 - [Groupama Sérénité Obsèques (édition octobre 2021) - Fiche](Groupama%20S%C3%A9r%C3%A9nit%C3%A9%20Obs%C3%A8ques%20%28%C3%A9dition%20octobre%202021%29%20-%20Fiche.md) - Fiche produit, éd. Dernière mise à jour le 1er octobre 2021
 
 ## Source & fidélité

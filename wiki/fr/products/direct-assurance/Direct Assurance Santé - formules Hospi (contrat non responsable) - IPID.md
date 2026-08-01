@@ -180,7 +180,7 @@ Hospitalisation: Chambre particuliere, lit d’accompagnant et confort à l’h�
 
 ## Documents liés
 
-- [Direct Assurance Santé - Exemples de remboursements](Direct%20Assurance%20Sant%C3%A9%20-%20Exemples%20de%20remboursements.md) - Document
+- [Direct Assurance Santé - Exemples de remboursements - Doc](Direct%20Assurance%20Sant%C3%A9%20-%20Exemples%20de%20remboursements%20-%20Doc.md) - Document
 - [Direct Assurance Santé - contrat responsable - IPID](Direct%20Assurance%20Sant%C3%A9%20-%20contrat%20responsable%20-%20IPID.md) - IPID / Fiche d'information, éd. 12/2024
 - [Direct Assurance Santé](Direct%20Assurance%20Sant%C3%A9.md) - Conditions générales, éd. 12.24 (code de pied de page « SANTÉ_12.24_VF »)
 

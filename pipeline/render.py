@@ -21,6 +21,7 @@ DOC_TYPE_LABEL = {
     "conditions_generales": "Conditions générales",
     "ipid": "IPID / Fiche d'information",
     "conditions_particulieres": "Conditions particulières",
+    "conditions_tarifaires": "Conditions tarifaires",
     "product_sheet": "Fiche produit",
     "other": "Document",
 }
@@ -28,7 +29,20 @@ DOC_TYPE_LABEL = {
 # markdown parser sees the link, so a "(IPID)" in a filename reopens a bracket the parser
 # then closes at the wrong place, swallowing the rest of the line into the URL. It only
 # showed up on names that also carry an apostrophe, but the parentheses are the cause.
-DOC_TYPE_SUFFIX = {"ipid": " - IPID", "conditions_particulieres": " - CP", "product_sheet": " - Fiche"}
+#
+# EVERY document type except conditions_generales needs a suffix, because two documents whose
+# page names collide become ONE file on a case-insensitive filesystem — a silently lost
+# document, not a cosmetic clash. `conditions_tarifaires` was missing here and produced a bare
+# name, so Macif's "Plan épargne retraite individuel" notice and its fee table of the same name
+# resolved to the same page; `other` had the same defect. Only conditions_generales stays bare,
+# because it is the contract itself and deserves the plain product name.
+DOC_TYPE_SUFFIX = {
+    "ipid": " - IPID",
+    "conditions_particulieres": " - CP",
+    "conditions_tarifaires": " - Tarifs",
+    "product_sheet": " - Fiche",
+    "other": " - Doc",
+}
 
 
 def _pg(p) -> str:

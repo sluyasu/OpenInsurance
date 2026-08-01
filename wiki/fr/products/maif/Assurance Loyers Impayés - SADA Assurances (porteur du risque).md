@@ -330,7 +330,7 @@ Aux termes de l’article L.114-1 du Code : « Toutes actions dérivant d’un c
 
 ## Documents liés
 
-- [Assurance Loyers Impayés](Assurance%20Loyers%20Impay%C3%A9s.md) - Document
+- [Assurance Loyers Impayés - Doc](Assurance%20Loyers%20Impay%C3%A9s%20-%20Doc.md) - Document
 - [Assurance Loyers Impayés MF - IPID](Assurance%20Loyers%20Impay%C3%A9s%20MF%20-%20IPID.md) - IPID / Fiche d'information, éd. Mars 2023
 - [Assurance Loyers Impayés - WAKAM (porteur du risque)](Assurance%20Loyers%20Impay%C3%A9s%20-%20WAKAM%20%28porteur%20du%20risque%29.md) - Conditions générales, éd. Septembre 2025
 

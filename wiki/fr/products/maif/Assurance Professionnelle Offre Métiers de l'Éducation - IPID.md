@@ -200,7 +200,7 @@ Frais de secours en montagne.
 
 ## Documents liés
 
-- [Offre Métiers de l'Éducation](Offre%20M%C3%A9tiers%20de%20l%27%C3%89ducation.md) - Document, éd. 03/2025
+- [Offre Métiers de l'Éducation - Doc](Offre%20M%C3%A9tiers%20de%20l%27%C3%89ducation%20-%20Doc.md) - Document, éd. 03/2025
 
 ## Source & fidélité
 

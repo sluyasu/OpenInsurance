@@ -136,7 +136,7 @@ Le produit comporte une Garantie plancher ( optionnelle en gestion libre ou gest
 
 ## Documents liés
 
-- [Gan Prevoyance Perspectives Epargne](Gan%20Prevoyance%20Perspectives%20Epargne.md) - conditions_tarifaires, éd. 2026-03
+- [Gan Prevoyance Perspectives Epargne - Tarifs](Gan%20Prevoyance%20Perspectives%20Epargne%20-%20Tarifs.md) - Conditions tarifaires, éd. 2026-03
 
 ## Source & fidélité
 

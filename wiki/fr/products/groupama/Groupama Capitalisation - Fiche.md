@@ -170,7 +170,7 @@ En cas de défaillance de Groupama Gan Vie, les contrats d'assurance, bons et co
 
 ## Documents liés
 
-- [Groupama Capitalisation](Groupama%20Capitalisation.md) - conditions_tarifaires
+- [Groupama Capitalisation - Tarifs](Groupama%20Capitalisation%20-%20Tarifs.md) - Conditions tarifaires
 
 ## Source & fidélité
 

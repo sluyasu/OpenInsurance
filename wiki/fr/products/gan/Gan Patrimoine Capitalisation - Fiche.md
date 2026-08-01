@@ -136,8 +136,8 @@ Document d'informations clés (DIC) du produit d'investissement fondé sur l'ass
 
 ## Documents liés
 
-- [Gan Patrimoine Capitalisation](Gan%20Patrimoine%20Capitalisation.md) - conditions_tarifaires, éd. 2023-09-01
-- [Gan Patrimoine Capitalisation](Gan%20Patrimoine%20Capitalisation%20%282%29.md) - conditions_tarifaires
+- [Gan Patrimoine Capitalisation - Tarifs](Gan%20Patrimoine%20Capitalisation%20-%20Tarifs.md) - Conditions tarifaires, éd. 2023-09-01
+- [Gan Patrimoine Capitalisation - Tarifs](Gan%20Patrimoine%20Capitalisation%20-%20Tarifs%20%282%29.md) - Conditions tarifaires
 
 ## Source & fidélité
 

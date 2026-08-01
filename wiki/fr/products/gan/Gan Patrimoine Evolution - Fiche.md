@@ -151,7 +151,7 @@ Le produit comporte une Garantie plancher optionnelle destinée à compléter la
 
 ## Documents liés
 
-- [Gan Patrimoine Evolution](Gan%20Patrimoine%20Evolution.md) - conditions_tarifaires
+- [Gan Patrimoine Evolution - Tarifs](Gan%20Patrimoine%20Evolution%20-%20Tarifs.md) - Conditions tarifaires
 
 ## Source & fidélité
 

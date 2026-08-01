@@ -153,7 +153,7 @@ Le fonds en euros est décrit dans un document d'informations clés spécifique 
 ## Documents liés
 
 - ⚠️ Édition remplacée par une version plus récente : [GROUPAMA SÉRÉNITÉ OBSÈQUES - Fiche](GROUPAMA%20S%C3%89R%C3%89NIT%C3%89%20OBS%C3%88QUES%20-%20Fiche.md)
-- [GROUPAMA SÉRÉNITÉ OBSÈQUES](GROUPAMA%20S%C3%89R%C3%89NIT%C3%89%20OBS%C3%88QUES.md) - conditions_tarifaires, éd. 032026
+- [GROUPAMA SÉRÉNITÉ OBSÈQUES - Tarifs](GROUPAMA%20S%C3%89R%C3%89NIT%C3%89%20OBS%C3%88QUES%20-%20Tarifs.md) - Conditions tarifaires, éd. 032026
 - [GROUPAMA SÉRÉNITÉ OBSÈQUES - Fiche](GROUPAMA%20S%C3%89R%C3%89NIT%C3%89%20OBS%C3%88QUES%20-%20Fiche.md) - Fiche produit, éd. Dernière mise à jour le 1er mars 2023
 
 ## Source & fidélité

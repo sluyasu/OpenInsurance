@@ -124,7 +124,7 @@ Le produit comporte une Garantie plancher optionnelle destinée à compléter la
 
 ## Documents liés
 
-- [Groupama Horizon Retraite](Groupama%20Horizon%20Retraite.md) - conditions_tarifaires
+- [Groupama Horizon Retraite - Tarifs](Groupama%20Horizon%20Retraite%20-%20Tarifs.md) - Conditions tarifaires
 
 ## Source & fidélité
 

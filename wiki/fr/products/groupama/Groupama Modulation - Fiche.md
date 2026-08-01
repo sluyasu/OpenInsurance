@@ -157,7 +157,7 @@ Le document mentionne à trois reprises des « avances en cours consenties sur l
 
 ## Documents liés
 
-- [Groupama Modulation](Groupama%20Modulation.md) - conditions_tarifaires
+- [Groupama Modulation - Tarifs](Groupama%20Modulation%20-%20Tarifs.md) - Conditions tarifaires
 
 ## Source & fidélité
 

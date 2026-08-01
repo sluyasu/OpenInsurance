@@ -148,7 +148,7 @@ Le produit comporte une Garantie plancher optionnelle destinée à compléter la
 
 ## Documents liés
 
-- [Gan Performance Retraite](Gan%20Performance%20Retraite.md) - conditions_tarifaires, éd. 2026-03
+- [Gan Performance Retraite - Tarifs](Gan%20Performance%20Retraite%20-%20Tarifs.md) - Conditions tarifaires, éd. 2026-03
 
 ## Source & fidélité
 

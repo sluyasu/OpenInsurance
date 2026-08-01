@@ -155,7 +155,7 @@ Le document mentionne à trois reprises des « avances en cours consenties sur l
 
 ## Documents liés
 
-- [Groupama Premium](Groupama%20Premium.md) - conditions_tarifaires
+- [Groupama Premium - Tarifs](Groupama%20Premium%20-%20Tarifs.md) - Conditions tarifaires
 
 ## Source & fidélité
 

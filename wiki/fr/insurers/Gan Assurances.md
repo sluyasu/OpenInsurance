@@ -34,16 +34,16 @@ generated: true
 ## Produits par branche
 
 ### Assurance vie et épargne
-- [Chromatys Evolution](../products/gan/Chromatys%20Evolution.md) -  (2026-03)
+- [Chromatys Evolution - Tarifs](../products/gan/Chromatys%20Evolution%20-%20Tarifs.md) - Conditions tarifaires (2026-03)
 - [GAN ASSURANCES CAPITALISATION EXCEPTION - Fiche](../products/gan/GAN%20ASSURANCES%20CAPITALISATION%20EXCEPTION%20-%20Fiche.md) - Fiche produit (2026-06-01) · réf. P106-062026
 - [GAN ASSURANCES CHROMATYS EVOLUTION - Fiche](../products/gan/GAN%20ASSURANCES%20CHROMATYS%20EVOLUTION%20-%20Fiche.md) - Fiche produit (2026-06-01) · réf. P105-062026
-- [Gan Assurance Capitalisation Exception](../products/gan/Gan%20Assurance%20Capitalisation%20Exception.md) -  (2026-03)
-- [Gan Patrimoine Capitalisation](../products/gan/Gan%20Patrimoine%20Capitalisation.md) -  (2023-09-01)
+- [Gan Assurance Capitalisation Exception - Tarifs](../products/gan/Gan%20Assurance%20Capitalisation%20Exception%20-%20Tarifs.md) - Conditions tarifaires (2026-03)
+- [Gan Patrimoine Capitalisation - Tarifs](../products/gan/Gan%20Patrimoine%20Capitalisation%20-%20Tarifs.md) - Conditions tarifaires (2023-09-01)
 - [Gan Patrimoine Capitalisation - Fiche](../products/gan/Gan%20Patrimoine%20Capitalisation%20-%20Fiche.md) - Fiche produit (2025-03-07)
-- [Gan Patrimoine Capitalisation](../products/gan/Gan%20Patrimoine%20Capitalisation%20%282%29.md) - 
-- [Gan Patrimoine Evolution](../products/gan/Gan%20Patrimoine%20Evolution.md) - 
+- [Gan Patrimoine Capitalisation - Tarifs](../products/gan/Gan%20Patrimoine%20Capitalisation%20-%20Tarifs%20%282%29.md) - Conditions tarifaires
+- [Gan Patrimoine Evolution - Tarifs](../products/gan/Gan%20Patrimoine%20Evolution%20-%20Tarifs.md) - Conditions tarifaires
 - [Gan Patrimoine Evolution - Fiche](../products/gan/Gan%20Patrimoine%20Evolution%20-%20Fiche.md) - Fiche produit (2025-03-05)
-- [Gan Prevoyance Perspectives Epargne](../products/gan/Gan%20Prevoyance%20Perspectives%20Epargne.md) -  (2026-03)
+- [Gan Prevoyance Perspectives Epargne - Tarifs](../products/gan/Gan%20Prevoyance%20Perspectives%20Epargne%20-%20Tarifs.md) - Conditions tarifaires (2026-03)
 - [Gan Prévoyance Perspectives Épargne - Fiche](../products/gan/Gan%20Pr%C3%A9voyance%20Perspectives%20%C3%89pargne%20-%20Fiche.md) - Fiche produit (05/03/2025)
 
 ### [Assurance emprunteur](../branches/Assurance%20emprunteur.md)
@@ -81,14 +81,14 @@ generated: true
 
 ### Retraite supplémentaire
 - [GAN ASSURANCES PERFORMANCE RETRAITE - Fiche](../products/gan/GAN%20ASSURANCES%20PERFORMANCE%20RETRAITE%20-%20Fiche.md) - Fiche produit (01/06/2026) · réf. P107-062026
-- [Gan Assurance Nouvelle Vie](../products/gan/Gan%20Assurance%20Nouvelle%20Vie.md) -  (2026-03)
-- [Gan Nouvelle Vie (Gan Patrimoine)](../products/gan/Gan%20Nouvelle%20Vie%20%28Gan%20Patrimoine%29.md) - 
-- [Gan Patrimoine Nouvelle Vie](../products/gan/Gan%20Patrimoine%20Nouvelle%20Vie.md) - 
-- [Gan Patrimoine Objectif Retraite](../products/gan/Gan%20Patrimoine%20Objectif%20Retraite.md) - 
+- [Gan Assurance Nouvelle Vie - Tarifs](../products/gan/Gan%20Assurance%20Nouvelle%20Vie%20-%20Tarifs.md) - Conditions tarifaires (2026-03)
+- [Gan Nouvelle Vie (Gan Patrimoine) - Tarifs](../products/gan/Gan%20Nouvelle%20Vie%20%28Gan%20Patrimoine%29%20-%20Tarifs.md) - Conditions tarifaires
+- [Gan Patrimoine Nouvelle Vie - Tarifs](../products/gan/Gan%20Patrimoine%20Nouvelle%20Vie%20-%20Tarifs.md) - Conditions tarifaires
+- [Gan Patrimoine Objectif Retraite - Tarifs](../products/gan/Gan%20Patrimoine%20Objectif%20Retraite%20-%20Tarifs.md) - Conditions tarifaires
 - [Gan Patrimoine Objectif Retraite - Fiche](../products/gan/Gan%20Patrimoine%20Objectif%20Retraite%20-%20Fiche.md) - Fiche produit (05/03/2025)
-- [Gan Performance Retraite](../products/gan/Gan%20Performance%20Retraite.md) -  (2026-03)
-- [Gan Prevoyance Retraite Active](../products/gan/Gan%20Prevoyance%20Retraite%20Active.md) -  (2026-03)
-- [Gan Prévoyance Nouvelle Vie](../products/gan/Gan%20Pr%C3%A9voyance%20Nouvelle%20Vie.md) -  (2026-03)
+- [Gan Performance Retraite - Tarifs](../products/gan/Gan%20Performance%20Retraite%20-%20Tarifs.md) - Conditions tarifaires (2026-03)
+- [Gan Prevoyance Retraite Active - Tarifs](../products/gan/Gan%20Prevoyance%20Retraite%20Active%20-%20Tarifs.md) - Conditions tarifaires (2026-03)
+- [Gan Prévoyance Nouvelle Vie - Tarifs](../products/gan/Gan%20Pr%C3%A9voyance%20Nouvelle%20Vie%20-%20Tarifs.md) - Conditions tarifaires (2026-03)
 - [Gan Prévoyance Retraite Active - Fiche](../products/gan/Gan%20Pr%C3%A9voyance%20Retraite%20Active%20-%20Fiche.md) - Fiche produit (05/03/2025)
 
 ### [Complémentaire santé](../branches/Compl%C3%A9mentaire%20sant%C3%A9.md)
