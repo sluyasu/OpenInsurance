@@ -1,0 +1,1895 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "matmut",
+  "insurer_name": "Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477",
+  "branch": "sante",
+  "branch_code": null,
+  "document_type": "product_sheet",
+  "language": "fr",
+  "source_url": "https://www.matmut.fr/pro/pdf/CCN-1951-garanties-sante.pdf",
+  "source_pdf": "tableau-de-garanties-sante-ccn-1951-7a501ef2.pdf",
+  "source_sha256": "2ed3d87a0f91bc7166ba3b32b03322c18407ee6f37c69253e03482f19b3cbbe1",
+  "source_pages": 10,
+  "fetched_at": "2026-07-30",
+  "extraction_model": "claude-code-subagent:scale",
+  "target_audience": null,
+  "target_audience_note": "Régime frais de santé - CCN Établissements sanitaires, sociaux et médico-sociaux adhérents de la FEHAP ; dispositif mutualisé dans le cadre d'une coassurance Santé mise en place par les organisations paritaires de la Branche professionnelle.",
+  "reference": "CCN 51-0925",
+  "edition_date": null,
+  "product_family": "Régime frais de santé CCN Établissements sanitaires, sociaux et médico-sociaux adhérents de la FEHAP (CCN 51)",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "summary": "Tableau des garanties 2026 du régime frais de santé de la CCN des Établissements sanitaires, sociaux et médico-sociaux adhérents de la FEHAP, présentant trois niveaux (BASE 1 à BASE 3). Il détaille les remboursements en hospitalisation médicale et chirurgicale, soins courants, médecine douce et prévention, cures thermales, aides auditives, dentaire et optique, exprimés en pourcentage de la Base de Remboursement, en pourcentage du PMSS, en remboursement intégral ou en forfaits, plusieurs lignes étant expressément « Non couverte » pour certains niveaux. Une grille optique (page 4) fixe les montants par type de verre et par monture, pour l'enfant et pour l'adulte. Le document précise qu'il est non contractuel et que le dispositif est mutualisé dans le cadre d'une coassurance de branche.",
+  "definitions": [
+    {
+      "term": "BR",
+      "definition": "Base de Remboursement",
+      "page": 5
+    },
+    {
+      "term": "OPTAM",
+      "definition": "Option de Pratique Tarifaire Maîtrisée",
+      "page": 5
+    },
+    {
+      "term": "TM",
+      "definition": "Ticket Modérateur",
+      "page": 5
+    },
+    {
+      "term": "SS",
+      "definition": "Sécurité Sociale",
+      "page": 5
+    },
+    {
+      "term": "PMSS",
+      "definition": "Plafond Mensuel de la Sécurité Sociale",
+      "page": 5
+    },
+    {
+      "term": "FR",
+      "definition": "Frais Réels",
+      "page": 5
+    },
+    {
+      "term": "RO",
+      "definition": "Régime Obligatoire",
+      "page": 5
+    },
+    {
+      "term": "DPTM",
+      "definition": "Dispositif de Pratique Tarifaire Maîtrisée",
+      "page": 5
+    },
+    {
+      "term": "DE",
+      "definition": "Dépense Engagée",
+      "page": 5
+    },
+    {
+      "term": "SMR",
+      "definition": "Service Médical Rendu",
+      "page": 5
+    },
+    {
+      "term": "OPTAM/OPTAM-ACO (renvoi 1)",
+      "definition": "Option Pratique Tarifaire Maîtrisée/Option Pratique Tarifaire Maîtrisée - Anesthésie Chirurgie Obstétrique. Le remboursement par l'organisme assureur des dépassements tarifaires sur les consultations et les actes des médecins distingue ceux des médecins ayant adhéré aux dispositifs de pratique tarifaire maîtrisée prévus par la Convention nationale du 25/08/2016, applicable aux médecins libéraux, de ceux des médecins non adhérents. L'organisme assureur ne couvre les dépassements d'honoraires qu'en cas de respect du parcours de soins coordonnés.",
+      "page": 5
+    },
+    {
+      "term": "Séances avec des psychologues (renvoi 2)",
+      "definition": "Ouvert aux personnes de plus de 3 ans (enfants, adolescents et adultes) et valable chez les psychologues partenaires du dispositif « Mon soutien psy », diplômés dans leur spécialité et inscrits aux registres officiels de l'Assurance Maladie. Dans la limite de 12 séances par an, avec une première séance qui est un entretien d'évaluation et entre 1 à 11 séances de suivi psychologique (50€/séance). Ce nombre est adapté aux besoins et déterminé par le psychologue. Garantie uniquement disponible dans les « contrats responsables ».",
+      "page": 5
+    },
+    {
+      "term": "Médecines douces (renvoi 3)",
+      "definition": "Forfait global valable pour les actes non remboursés par la Sécurité sociale, chez les praticiens diplômés dans leur spécialité et inscrits aux registres officiels de l'Assurance Maladie, sur présentation d'une facture nominative acquittée (pour l'acupuncture, seuls sont pris en charge les actes non remboursés par la Sécurité sociale réalisés chez un médecin, une sage-femme ou un chirurgien-dentiste).",
+      "page": 5
+    },
+    {
+      "term": "Panier 100 % Santé aides auditives - classe I (renvoi 4)",
+      "definition": "Telle que définie réglementairement.",
+      "page": 5
+    },
+    {
+      "term": "Périodicité des aides auditives (renvoi 5)",
+      "definition": "Le remboursement est limité à l'achat d'une aide auditive par oreille, par période de 4 ans suivant la date de délivrance de l'aide auditive précédente (ce délai s'entendant pour chaque oreille indépendamment).",
+      "page": 5
+    },
+    {
+      "term": "Aides auditives hors panier 100 % Santé - classe II (renvoi 6)",
+      "definition": "Telle que définie réglementairement. Le remboursement de la Classe II est réglementairement plafonné à 1 700 €/oreille. Prise en charge minimale telle que prévu par le cahier des charges des contrats responsables : 100 % TM.",
+      "page": 5
+    },
+    {
+      "term": "Paniers dentaires (renvoi 7)",
+      "definition": "Tels que définis réglementairement. Les garanties du panier 100 % Santé et du panier maîtrisé s'entendent dans la limite des HLF.",
+      "page": 5
+    },
+    {
+      "term": "Plafond du poste prothèses dentaires (renvoi 8)",
+      "definition": "Le remboursement s'entend pour l'ensemble du poste prothèses dentaires fixes ou amovibles remboursées dans la limite du plafond indiqué par an et par bénéficiaire, au-delà le remboursement devra respecter le minimum du panier de soins : 125 % BR.",
+      "page": 5
+    },
+    {
+      "term": "Plafonds globaux prothèses dentaires (renvoi 9)",
+      "definition": "BASE 1 : Plafond global 500 €/an/bénéficiaire ; BASE 2 : Plafond global 1 000 €/an/bénéficiaire ; BASE 3 : Plafond global 1 500 €/an/bénéficiaire.",
+      "page": 5
+    },
+    {
+      "term": "Périodicité de l'équipement optique (renvoi 10)",
+      "definition": "Tels que définis réglementairement et limité à : un équipement complet (1 monture + 2 verres) tous les 6 mois par bénéficiaire jusqu'à 6 ans, en cas de mauvaise adaptation de la monture à la morphologie du visage de l'enfant entrainant une perte d'efficacité du verre correcteur, à partir de la date de facturation selon règlementation en vigueur ; dans les autres cas, le délai d'un an mentionné à l'alinéa suivant s'applique. Une équipement complet (1 monture + 2 verres) tous les ans par bénéficiaire de 16 ans à partir de la date de facturation. Un équipement complet (1 monture + 2 verres) tous les 2 ans par bénéficiaire de 16 ans et plus à partir de la date de facturation et par dérogation, tous les ans en cas d'évolution de la vue. Il est prévu par voie réglementaire d'autres cas dérogatoires aux périodes mentionnées ci-dessus pour l'achat de verres uniquement lorsque l'évolution de la vue est liée à des situations médicales particulières.",
+      "page": 5
+    },
+    {
+      "term": "Lentilles (renvoi 11)",
+      "definition": "Pour les lentilles remboursées par la Sécurité Sociale, après épuisement du forfait : prise en charge de 100 % TM.",
+      "page": 5
+    },
+    {
+      "term": "Grille optique (renvoi 12)",
+      "definition": "Les remboursements s'entendent par verre.",
+      "page": 5
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Hospitalisation - Conventionnée - Frais de séjour",
+      "description": "Chirurgie - Hospitalisation (y compris maternité) - Conventionnée - Frais de séjour.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 100 % BR ; BASE 2 : 125 % BR ; BASE 3 : 250 % BR",
+      "sub_limits": [
+        "BASE 1 : 100 % BR",
+        "BASE 2 : 125 % BR",
+        "BASE 3 : 250 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Hospitalisation - Conventionnée - Honoraires OPTAM/OPTAM-ACO",
+      "description": "Conventionnée - Honoraires OPTAM/OPTAM-ACO (1).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 100 % BR ; BASE 2 : 150 % BR ; BASE 3 : 250 % BR",
+      "sub_limits": [
+        "BASE 1 : 100 % BR",
+        "BASE 2 : 150 % BR",
+        "BASE 3 : 250 % BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "L'organisme assureur ne couvre les dépassements d'honoraires qu'en cas de respect du parcours de soins coordonnés. (renvoi 1)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Hospitalisation - Conventionnée - Honoraires hors OPTAM/OPTAM-ACO",
+      "description": "Conventionnée - Honoraires hors OPTAM/OPTAM-ACO (1).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 100 % BR ; BASE 2 : 130 % BR ; BASE 3 : 200 % BR",
+      "sub_limits": [
+        "BASE 1 : 100 % BR",
+        "BASE 2 : 130 % BR",
+        "BASE 3 : 200 % BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "L'organisme assureur ne couvre les dépassements d'honoraires qu'en cas de respect du parcours de soins coordonnés. (renvoi 1)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Hospitalisation - Non conventionnées - Honoraires",
+      "description": "Non conventionnées - Honoraires.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 100 % BR ; BASE 2 : 100 % BR ; BASE 3 : 100 % BR",
+      "sub_limits": [
+        "BASE 1 : 100 % BR",
+        "BASE 2 : 100 % BR",
+        "BASE 3 : 100 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Hospitalisation - Forfait journalier hospitalier",
+      "description": "Forfait journalier hospitalier.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : Frais réels ; BASE 2 : Frais réels ; BASE 3 : Frais réels",
+      "sub_limits": [
+        "BASE 1 : Frais réels",
+        "BASE 2 : Frais réels",
+        "BASE 3 : Frais réels"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Hospitalisation - Forfait Patient Urgences (FPU)",
+      "description": "Forfait Patient Urgences (FPU).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : Frais réels ; BASE 2 : Frais réels ; BASE 3 : Frais réels",
+      "sub_limits": [
+        "BASE 1 : Frais réels",
+        "BASE 2 : Frais réels",
+        "BASE 3 : Frais réels"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Hospitalisation - Forfait actes lourds",
+      "description": "Forfait actes lourds.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : Frais réels ; BASE 2 : Frais réels ; BASE 3 : Frais réels",
+      "sub_limits": [
+        "BASE 1 : Frais réels",
+        "BASE 2 : Frais réels",
+        "BASE 3 : Frais réels"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Chambre particulière (avec nuitée) - Conventionnée",
+      "description": "Chambre particulière (y compris maternité) - Chambre (avec nuitée) - Conventionnée.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 1,25 % PMSS/jour ; BASE 2 : 1,50 % PMSS/jour ; BASE 3 : 2 % PMSS/jour",
+      "sub_limits": [
+        "BASE 1 : 1,25 % PMSS/jour",
+        "BASE 2 : 1,50 % PMSS/jour",
+        "BASE 3 : 2 % PMSS/jour"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Chambre en ambulatoire (sans nuitée) - Conventionnée",
+      "description": "Chambre en ambulatoire (sans nuitée) - Conventionnée.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 0,50 % PMSS/jour ; BASE 2 : 0,75 % PMSS/jour ; BASE 3 : 1 % PMSS/jour",
+      "sub_limits": [
+        "BASE 1 : 0,50 % PMSS/jour",
+        "BASE 2 : 0,75 % PMSS/jour",
+        "BASE 3 : 1 % PMSS/jour"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Chambre pour personne accompagnante - Conventionnée",
+      "description": "Pour personne accompagnante - Conventionnée.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : Non couverte ; BASE 2 : 1,50 % PMSS/jour ; BASE 3 : 2 % PMSS/jour",
+      "sub_limits": [
+        "BASE 1 : Non couverte",
+        "BASE 2 : 1,50 % PMSS/jour",
+        "BASE 3 : 2 % PMSS/jour"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Soins courants - Consultations et visites généralistes OPTAM",
+      "description": "Honoraires médicaux - Consultations - Visites Généralistes OPTAM (1).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 100 % BR ; BASE 2 : 100 % BR ; BASE 3 : 100 % BR",
+      "sub_limits": [
+        "BASE 1 : 100 % BR",
+        "BASE 2 : 100 % BR",
+        "BASE 3 : 100 % BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "L'organisme assureur ne couvre les dépassements d'honoraires qu'en cas de respect du parcours de soins coordonnés. (renvoi 1)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Soins courants - Consultations et visites généralistes hors OPTAM",
+      "description": "Consultations - Visites Généralistes hors OPTAM (1).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 100 % BR ; BASE 2 : 100 % BR ; BASE 3 : 100 % BR",
+      "sub_limits": [
+        "BASE 1 : 100 % BR",
+        "BASE 2 : 100 % BR",
+        "BASE 3 : 100 % BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "L'organisme assureur ne couvre les dépassements d'honoraires qu'en cas de respect du parcours de soins coordonnés. (renvoi 1)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Soins courants - Consultations et visites spécialiste OPTAM",
+      "description": "Consultations - Visites Spécialiste OPTAM (1).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 100 % BR ; BASE 2 : 140 % BR ; BASE 3 : 250 % BR",
+      "sub_limits": [
+        "BASE 1 : 100 % BR",
+        "BASE 2 : 140 % BR",
+        "BASE 3 : 250 % BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "L'organisme assureur ne couvre les dépassements d'honoraires qu'en cas de respect du parcours de soins coordonnés. (renvoi 1)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Soins courants - Consultations et visites spécialiste hors OPTAM",
+      "description": "Consultations - Visites Spécialiste hors OPTAM (1).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 100 % BR ; BASE 2 : 120 % BR ; BASE 3 : 200 % BR",
+      "sub_limits": [
+        "BASE 1 : 100 % BR",
+        "BASE 2 : 120 % BR",
+        "BASE 3 : 200 % BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "L'organisme assureur ne couvre les dépassements d'honoraires qu'en cas de respect du parcours de soins coordonnés. (renvoi 1)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Soins courants - Actes techniques médicaux (petite chirurgie) OPTAM/OPTAM-ACO",
+      "description": "Actes techniques médicaux (petite chirurgie) OPTAM/OPTAM-ACO (1).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 100 % BR ; BASE 2 : 140 % BR ; BASE 3 : 170 % BR",
+      "sub_limits": [
+        "BASE 1 : 100 % BR",
+        "BASE 2 : 140 % BR",
+        "BASE 3 : 170 % BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "L'organisme assureur ne couvre les dépassements d'honoraires qu'en cas de respect du parcours de soins coordonnés. (renvoi 1)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Soins courants - Actes techniques médicaux (petite chirurgie) hors OPTAM/OPTAM-ACO",
+      "description": "Actes techniques médicaux (petite chirurgie) hors OPTAM/OPTAM-ACO (1).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 100 % BR ; BASE 2 : 120 % BR ; BASE 3 : 150 % BR",
+      "sub_limits": [
+        "BASE 1 : 100 % BR",
+        "BASE 2 : 120 % BR",
+        "BASE 3 : 150 % BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "L'organisme assureur ne couvre les dépassements d'honoraires qu'en cas de respect du parcours de soins coordonnés. (renvoi 1)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Soins courants - Actes d'échographie OPTAM/OPTAM-ACO",
+      "description": "Actes d'échographie OPTAM/OPTAM-ACO (1).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 100 % BR ; BASE 2 : 120 % BR ; BASE 3 : 170 % BR",
+      "sub_limits": [
+        "BASE 1 : 100 % BR",
+        "BASE 2 : 120 % BR",
+        "BASE 3 : 170 % BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "L'organisme assureur ne couvre les dépassements d'honoraires qu'en cas de respect du parcours de soins coordonnés. (renvoi 1)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Soins courants - Actes d'échographie hors OPTAM/OPTAM-ACO",
+      "description": "Actes d'échographie hors OPTAM/OPTAM-ACO (1).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 100 % BR ; BASE 2 : 100 % BR ; BASE 3 : 150 % BR",
+      "sub_limits": [
+        "BASE 1 : 100 % BR",
+        "BASE 2 : 100 % BR",
+        "BASE 3 : 150 % BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "L'organisme assureur ne couvre les dépassements d'honoraires qu'en cas de respect du parcours de soins coordonnés. (renvoi 1)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Soins courants - Radiologie OPTAM",
+      "description": "Radiologie OPTAM (1).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 100 % BR ; BASE 2 : 120 % BR ; BASE 3 : 170 % BR",
+      "sub_limits": [
+        "BASE 1 : 100 % BR",
+        "BASE 2 : 120 % BR",
+        "BASE 3 : 170 % BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "L'organisme assureur ne couvre les dépassements d'honoraires qu'en cas de respect du parcours de soins coordonnés. (renvoi 1)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Soins courants - Radiologie hors OPTAM",
+      "description": "Radiologie hors OPTAM (1).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 100 % BR ; BASE 2 : 100 % BR ; BASE 3 : 150 % BR",
+      "sub_limits": [
+        "BASE 1 : 100 % BR",
+        "BASE 2 : 100 % BR",
+        "BASE 3 : 150 % BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "L'organisme assureur ne couvre les dépassements d'honoraires qu'en cas de respect du parcours de soins coordonnés. (renvoi 1)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Soins courants - Sages-femmes",
+      "description": "Sages-femmes.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 100 % BR ; BASE 2 : 100 % BR ; BASE 3 : 100 % BR",
+      "sub_limits": [
+        "BASE 1 : 100 % BR",
+        "BASE 2 : 100 % BR",
+        "BASE 3 : 100 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Séances avec des psychologues",
+      "description": "Séances avec des psychologues (2) : dispositif « Mon soutien psy », dans la limite de 12 séances par an (50€/séance).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 100 % BR ; BASE 2 : 100 % BR ; BASE 3 : 100 % BR",
+      "sub_limits": [
+        "BASE 1 : 100 % BR",
+        "BASE 2 : 100 % BR",
+        "BASE 3 : 100 % BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Garantie uniquement disponible dans les « contrats responsables ». (renvoi 2)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Honoraires paramédicaux - Auxiliaires médicaux",
+      "description": "Honoraires paramédicaux - Auxiliaires médicaux.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 100 % BR ; BASE 2 : 100 % BR ; BASE 3 : 100 % BR",
+      "sub_limits": [
+        "BASE 1 : 100 % BR",
+        "BASE 2 : 100 % BR",
+        "BASE 3 : 100 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Analyses - Actes de laboratoire",
+      "description": "Analyses et examens de laboratoire - Analyses - Actes de laboratoire.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 100 % BR ; BASE 2 : 100 % BR ; BASE 3 : 100 % BR",
+      "sub_limits": [
+        "BASE 1 : 100 % BR",
+        "BASE 2 : 100 % BR",
+        "BASE 3 : 100 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Médicament remboursé à 65% par la Sécurité sociale",
+      "description": "Médicaments - Pharmacie : médicament remboursé à 65% par la Sécurité sociale.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 100 % BR ; BASE 2 : 100 % BR ; BASE 3 : 100 % BR",
+      "sub_limits": [
+        "BASE 1 : 100 % BR",
+        "BASE 2 : 100 % BR",
+        "BASE 3 : 100 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Médicament remboursé à 30% par la Sécurité sociale",
+      "description": "Médicament remboursé à 30% par la Sécurité sociale.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 100 % BR ; BASE 2 : 100 % BR ; BASE 3 : 100 % BR",
+      "sub_limits": [
+        "BASE 1 : 100 % BR",
+        "BASE 2 : 100 % BR",
+        "BASE 3 : 100 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Médicament remboursé à 15% par la Sécurité sociale",
+      "description": "Médicament remboursé à 15% par la Sécurité sociale.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : Remboursement Sécurité sociale ; BASE 2 : 100 % BR ; BASE 3 : 100 % BR",
+      "sub_limits": [
+        "BASE 1 : Remboursement Sécurité sociale",
+        "BASE 2 : 100 % BR",
+        "BASE 3 : 100 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Honoraires de pharmacie remboursés par la Sécurité sociale",
+      "description": "Honoraires de pharmacie remboursés par la Sécurité sociale.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 100 % BR ; BASE 2 : 100 % BR ; BASE 3 : 100 % BR",
+      "sub_limits": [
+        "BASE 1 : 100 % BR",
+        "BASE 2 : 100 % BR",
+        "BASE 3 : 100 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Vaccins remboursés par la Sécurité sociale",
+      "description": "Vaccins remboursés par la Sécurité sociale.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 100 % BR ; BASE 2 : 100 % BR ; BASE 3 : 100 % BR",
+      "sub_limits": [
+        "BASE 1 : 100 % BR",
+        "BASE 2 : 100 % BR",
+        "BASE 3 : 100 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Vaccins non remboursés par la Sécurité sociale",
+      "description": "Vaccins non remboursés par la Sécurité sociale.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : Non couverte ; BASE 2 : 25 €/an/bénéficiaire ; BASE 3 : 75 €/an/bénéficiaire",
+      "sub_limits": [
+        "BASE 1 : Non couverte",
+        "BASE 2 : 25 €/an/bénéficiaire",
+        "BASE 3 : 75 €/an/bénéficiaire"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Transport accepté par la Sécurité sociale",
+      "description": "Transport - Transport accepté par la Sécurité sociale.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 100 % BR ; BASE 2 : 100 % BR ; BASE 3 : 100 % BR",
+      "sub_limits": [
+        "BASE 1 : 100 % BR",
+        "BASE 2 : 100 % BR",
+        "BASE 3 : 100 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Matériel médical - Orthopédie, petit et grand appareillage et autres prothèses",
+      "description": "Orthopédie, petit et grand appareillage et autres prothèses remboursés par la Sécurité sociale (hors auditifs, dentaires et optiques), véhicule pour handicapé.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 100 % BR ; BASE 2 : 130 % BR ; BASE 3 : 250 % BR",
+      "sub_limits": [
+        "BASE 1 : 100 % BR",
+        "BASE 2 : 130 % BR",
+        "BASE 3 : 250 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Médecines douces",
+      "description": "Médecines douces reconnus comme praticiens par les annuaires professionnels (sous réserve que la facture comporte le n° FINESS et/ou le n° ADELI et/ou le n° RPPS du professionnel concerné) (3). Liste des praticiens pris en charge : consultations psychologues, ostéopathie, chiropractie, microkinésithérapie, étiopathie, acupuncture, réflexologie, sophrologie, pédicure/podologie, équilibre alimentaire - diététique et séances de psychomotricité.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : Non couverte ; BASE 2 : 3 séances max 25 €/an/bénéficiaire ; BASE 3 : 3 séances max 50 €/an/bénéficiaire",
+      "sub_limits": [
+        "BASE 1 : Non couverte",
+        "BASE 2 : 3 séances max 25 €/an/bénéficiaire",
+        "BASE 3 : 3 séances max 50 €/an/bénéficiaire"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Forfait global valable pour les actes non remboursés par la Sécurité sociale, chez les praticiens diplômés dans leur spécialité et inscrits aux registres officiels de l'Assurance Maladie, sur présentation d'une facture nominative acquittée. (renvoi 3)",
+        "Pour l'acupuncture, seuls sont pris en charge les actes non remboursés par la Sécurité sociale réalisés chez un médecin, une sage-femme ou un chirurgien-dentiste. (renvoi 3)"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Prévention",
+      "description": "Prévention : tous les actes des contrats responsables.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 100 % BR ; BASE 2 : 100 % BR ; BASE 3 : 100 % BR",
+      "sub_limits": [
+        "BASE 1 : 100 % BR",
+        "BASE 2 : 100 % BR",
+        "BASE 3 : 100 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Ostéodensitométrie osseuse non remboursée par la Sécurité sociale",
+      "description": "Ostéodensitométrie osseuse non remboursée par la Sécurité sociale.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : Non couverte ; BASE 2 : Non couverte ; BASE 3 : 50 €/an/bénéficiaire",
+      "sub_limits": [
+        "BASE 1 : Non couverte",
+        "BASE 2 : Non couverte",
+        "BASE 3 : 50 €/an/bénéficiaire"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Patch anti tabac non remboursé par la Sécurité sociale",
+      "description": "Patch anti tabac non remboursé par la Sécurité sociale.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : Non couverte ; BASE 2 : Non couverte ; BASE 3 : 200 €/an /bénéficiaire",
+      "sub_limits": [
+        "BASE 1 : Non couverte",
+        "BASE 2 : Non couverte",
+        "BASE 3 : 200 €/an /bénéficiaire"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Cures thermales remboursées par la Sécurité sociale",
+      "description": "Cures thermales remboursées par la Sécurité sociale.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : Remboursement Sécurité sociale ; BASE 2 : Remboursement Sécurité sociale ; BASE 3 : Remboursement Sécurité sociale + 200 €/an/bénéficiaire",
+      "sub_limits": [
+        "BASE 1 : Remboursement Sécurité sociale",
+        "BASE 2 : Remboursement Sécurité sociale",
+        "BASE 3 : Remboursement Sécurité sociale + 200 €/an/bénéficiaire"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Aides auditives - Classe I (panier 100 % Santé) - 20 ans et moins ou cécité",
+      "description": "Classe I : équipements entrants dans le panier 100 % Santé (4) - Aide auditive (5) pour les bénéficiaires de 20 ans et moins ou atteint de cécité.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : Remboursement intégral ; BASE 2 : Remboursement intégral ; BASE 3 : Remboursement intégral",
+      "sub_limits": [
+        "BASE 1 : Remboursement intégral",
+        "BASE 2 : Remboursement intégral",
+        "BASE 3 : Remboursement intégral"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le remboursement est limité à l'achat d'une aide auditive par oreille, par période de 4 ans suivant la date de délivrance de l'aide auditive précédente (ce délai s'entendant pour chaque oreille indépendamment). (renvoi 5)"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Aides auditives - Classe II (hors panier 100 % Santé) - 20 ans et moins ou cécité",
+      "description": "Classe II : équipements hors panier 100 % Santé (6) - Aide auditive (5) pour les bénéficiaires de 20 ans et moins ou atteint de cécité.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 100 % BR ; BASE 2 : 100 % BR ; BASE 3 : Remboursement Sécurité sociale + 860€/ oreille",
+      "sub_limits": [
+        "BASE 1 : 100 % BR",
+        "BASE 2 : 100 % BR",
+        "BASE 3 : Remboursement Sécurité sociale + 860€/ oreille"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le remboursement est limité à l'achat d'une aide auditive par oreille, par période de 4 ans suivant la date de délivrance de l'aide auditive précédente (ce délai s'entendant pour chaque oreille indépendamment). (renvoi 5)",
+        "Le remboursement de la Classe II est réglementairement plafonné à 1 700 €/oreille. (renvoi 6)"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Aides auditives - Classe I (panier 100 % Santé) - plus de 20 ans",
+      "description": "Classe I : équipements entrants dans le panier 100 % Santé (4) - Aide auditive (5) pour les bénéficiaires de plus de 20 ans.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : Remboursement intégral ; BASE 2 : Remboursement intégral ; BASE 3 : Remboursement intégral",
+      "sub_limits": [
+        "BASE 1 : Remboursement intégral",
+        "BASE 2 : Remboursement intégral",
+        "BASE 3 : Remboursement intégral"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le remboursement est limité à l'achat d'une aide auditive par oreille, par période de 4 ans suivant la date de délivrance de l'aide auditive précédente (ce délai s'entendant pour chaque oreille indépendamment). (renvoi 5)"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Aides auditives - Classe II (hors panier 100 % Santé) - plus de 20 ans",
+      "description": "Classe II : équipements hors panier 100 % Santé (6) - Aide auditive (5) pour les bénéficiaires de plus de 20 ans.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 100 % BR ; BASE 2 : Remboursement Sécurité sociale + 250 €/oreille ; BASE 3 : Remboursement Sécurité sociale + 1 000 €/oreille",
+      "sub_limits": [
+        "BASE 1 : 100 % BR",
+        "BASE 2 : Remboursement Sécurité sociale + 250 €/oreille",
+        "BASE 3 : Remboursement Sécurité sociale + 1 000 €/oreille"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le remboursement est limité à l'achat d'une aide auditive par oreille, par période de 4 ans suivant la date de délivrance de l'aide auditive précédente (ce délai s'entendant pour chaque oreille indépendamment). (renvoi 5)",
+        "Le remboursement de la Classe II est réglementairement plafonné à 1 700 €/oreille. (renvoi 6)"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Aides auditives - Piles et autres consommables ou accessoires",
+      "description": "Piles et autres consommables ou accessoires remboursés par la Sécurité sociale (dans les limites fixées réglementairement).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 100 % BR ; BASE 2 : 100 % BR ; BASE 3 : 100 % BR",
+      "sub_limits": [
+        "BASE 1 : 100 % BR",
+        "BASE 2 : 100 % BR",
+        "BASE 3 : 100 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Dentaire - Soins dentaires",
+      "description": "Soins - Soins dentaires.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 100 % BR ; BASE 2 : 100 % BR ; BASE 3 : 100 % BR",
+      "sub_limits": [
+        "BASE 1 : 100 % BR",
+        "BASE 2 : 100 % BR",
+        "BASE 3 : 100 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Dentaire - Inlay-onlay",
+      "description": "Inlay-onlay du panier maîtrisé dans la limite des HLF et du panier libre.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 100 % BR ; BASE 2 : 130 % BR ; BASE 3 : 250 % BR",
+      "sub_limits": [
+        "BASE 1 : 100 % BR",
+        "BASE 2 : 130 % BR",
+        "BASE 3 : 250 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Dentaire - Soins et prothèses 100 % Santé",
+      "description": "Soins et prothèses 100 % Santé (7).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : Remboursement intégral ; BASE 2 : Remboursement intégral ; BASE 3 : Remboursement intégral",
+      "sub_limits": [
+        "BASE 1 : Remboursement intégral",
+        "BASE 2 : Remboursement intégral",
+        "BASE 3 : Remboursement intégral"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les garanties du panier 100 % Santé et du panier maîtrisé s'entendent dans la limite des HLF. (renvoi 7)"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Dentaire - Panier maîtrisé - dents du sourire",
+      "description": "Prothèses fixes ou amovibles remboursées par la Sécurité sociale y compris couronne sur implant (8) (9) - Panier maîtrisé - Remboursées par la Sécurité Sociale : dents du sourire (incisive, canine, prémolaire) (7).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 200 % BR ; BASE 2 : 350 % BR ; BASE 3 : 450 % BR",
+      "sub_limits": [
+        "BASE 1 : 200 % BR",
+        "BASE 2 : 350 % BR",
+        "BASE 3 : 450 % BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les garanties du panier 100 % Santé et du panier maîtrisé s'entendent dans la limite des HLF. (renvoi 7)",
+        "Le remboursement s'entend pour l'ensemble du poste prothèses dentaires fixes ou amovibles remboursées dans la limite du plafond indiqué par an et par bénéficiaire, au-delà le remboursement devra respecter le minimum du panier de soins : 125 % BR (renvoi 8). Plafonds globaux (renvoi 9) : BASE 1 500 €/an/bénéficiaire, BASE 2 1 000 €/an/bénéficiaire, BASE 3 1 500 €/an/bénéficiaire."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Dentaire - Panier libre - dents du sourire",
+      "description": "Panier libre - Remboursées par la Sécurité sociale : dents du sourire (incisive, canine, prémolaire) (7).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 200 % BR ; BASE 2 : 200 % BR ; BASE 3 : 450 % BR",
+      "sub_limits": [
+        "BASE 1 : 200 % BR",
+        "BASE 2 : 200 % BR",
+        "BASE 3 : 450 % BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le remboursement s'entend pour l'ensemble du poste prothèses dentaires fixes ou amovibles remboursées dans la limite du plafond indiqué par an et par bénéficiaire, au-delà le remboursement devra respecter le minimum du panier de soins : 125 % BR (renvoi 8). Plafonds globaux (renvoi 9) : BASE 1 500 €/an/bénéficiaire, BASE 2 1 000 €/an/bénéficiaire, BASE 3 1 500 €/an/bénéficiaire."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Dentaire - Panier maîtrisé - dents de fond de bouche",
+      "description": "Panier maîtrisé - Remboursées par la Sécurité sociale : dents de fond de bouche (molaire) (7).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 200 % BR ; BASE 2 : 300 % BR ; BASE 3 : 350 % BR",
+      "sub_limits": [
+        "BASE 1 : 200 % BR",
+        "BASE 2 : 300 % BR",
+        "BASE 3 : 350 % BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les garanties du panier 100 % Santé et du panier maîtrisé s'entendent dans la limite des HLF. (renvoi 7)",
+        "Le remboursement s'entend pour l'ensemble du poste prothèses dentaires fixes ou amovibles remboursées dans la limite du plafond indiqué par an et par bénéficiaire, au-delà le remboursement devra respecter le minimum du panier de soins : 125 % BR (renvoi 8). Plafonds globaux (renvoi 9) : BASE 1 500 €/an/bénéficiaire, BASE 2 1 000 €/an/bénéficiaire, BASE 3 1 500 €/an/bénéficiaire."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Dentaire - Panier libre - dents de fond de bouche",
+      "description": "Panier libre - Remboursées par la Sécurité sociale : dents de fond de bouche (molaire) (7).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 200 % BR ; BASE 2 : 200 % BR ; BASE 3 : 350 % BR",
+      "sub_limits": [
+        "BASE 1 : 200 % BR",
+        "BASE 2 : 200 % BR",
+        "BASE 3 : 350 % BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le remboursement s'entend pour l'ensemble du poste prothèses dentaires fixes ou amovibles remboursées dans la limite du plafond indiqué par an et par bénéficiaire, au-delà le remboursement devra respecter le minimum du panier de soins : 125 % BR (renvoi 8). Plafonds globaux (renvoi 9) : BASE 1 500 €/an/bénéficiaire, BASE 2 1 000 €/an/bénéficiaire, BASE 3 1 500 €/an/bénéficiaire."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Dentaire - Panier maîtrisé - Inlay-core",
+      "description": "Panier maîtrisé - Inlay-core (7).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 125 % BR ; BASE 2 : 150 % BR ; BASE 3 : 200 % BR",
+      "sub_limits": [
+        "BASE 1 : 125 % BR",
+        "BASE 2 : 150 % BR",
+        "BASE 3 : 200 % BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les garanties du panier 100 % Santé et du panier maîtrisé s'entendent dans la limite des HLF. (renvoi 7)",
+        "Le remboursement s'entend pour l'ensemble du poste prothèses dentaires fixes ou amovibles remboursées dans la limite du plafond indiqué par an et par bénéficiaire, au-delà le remboursement devra respecter le minimum du panier de soins : 125 % BR (renvoi 8). Plafonds globaux (renvoi 9) : BASE 1 500 €/an/bénéficiaire, BASE 2 1 000 €/an/bénéficiaire, BASE 3 1 500 €/an/bénéficiaire."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Dentaire - Panier libre - Inlay-core",
+      "description": "Panier libre - Inlay-core (7).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 125 % BR ; BASE 2 : 125 % BR ; BASE 3 : 200 % BR",
+      "sub_limits": [
+        "BASE 1 : 125 % BR",
+        "BASE 2 : 125 % BR",
+        "BASE 3 : 200 % BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le remboursement s'entend pour l'ensemble du poste prothèses dentaires fixes ou amovibles remboursées dans la limite du plafond indiqué par an et par bénéficiaire, au-delà le remboursement devra respecter le minimum du panier de soins : 125 % BR (renvoi 8). Plafonds globaux (renvoi 9) : BASE 1 500 €/an/bénéficiaire, BASE 2 1 000 €/an/bénéficiaire, BASE 3 1 500 €/an/bénéficiaire."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Dentaire - Orthodontie acceptée par la Sécurité sociale",
+      "description": "Autres actes dentaires - Orthodontie acceptée par la Sécurité sociale.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 125 % BR ; BASE 2 : 200 % BR ; BASE 3 : 350 % BR",
+      "sub_limits": [
+        "BASE 1 : 125 % BR",
+        "BASE 2 : 200 % BR",
+        "BASE 3 : 350 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Dentaire - Orthodontie refusée par la Sécurité sociale",
+      "description": "Orthodontie refusée par la Sécurité sociale.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : Non couverte ; BASE 2 : 300 €/semestre de soins ; BASE 3 : 500 €/semestre de soins",
+      "sub_limits": [
+        "BASE 1 : Non couverte",
+        "BASE 2 : 300 €/semestre de soins",
+        "BASE 3 : 500 €/semestre de soins"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Dentaire - Prothèses dentaires non remboursées par la Sécurité sociale",
+      "description": "Prothèses dentaires non remboursées par la Sécurité sociale.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : Non couverte ; BASE 2 : 500 €/dent x 2 par an ; BASE 3 : 750 €/dent x 2 par an",
+      "sub_limits": [
+        "BASE 1 : Non couverte",
+        "BASE 2 : 500 €/dent x 2 par an",
+        "BASE 3 : 750 €/dent x 2 par an"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Dentaire - Parodontologie non remboursée par la Sécurité sociale",
+      "description": "Parodontologie non remboursée par la Sécurité sociale.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : Non couverte ; BASE 2 : 500 €/dent x 2 par an ; BASE 3 : 750 €/dent x 2 par an",
+      "sub_limits": [
+        "BASE 1 : Non couverte",
+        "BASE 2 : 500 €/dent x 2 par an",
+        "BASE 3 : 750 €/dent x 2 par an"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Dentaire - Implantologie non remboursée par la Sécurité sociale",
+      "description": "Implantologie non remboursée par la Sécurité sociale.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : Non couverte ; BASE 2 : 500 €/dent x 2 par an ; BASE 3 : 750 €/dent x 2 par an",
+      "sub_limits": [
+        "BASE 1 : Non couverte",
+        "BASE 2 : 500 €/dent x 2 par an",
+        "BASE 3 : 750 €/dent x 2 par an"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Optique - Classe A (panier 100 % Santé) - Monture",
+      "description": "Classe A - Équipements entrant dans le panier 100 % Santé (10) - Monture.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : Remboursement intégral ; BASE 2 : Remboursement intégral ; BASE 3 : Remboursement intégral",
+      "sub_limits": [
+        "BASE 1 : Remboursement intégral",
+        "BASE 2 : Remboursement intégral",
+        "BASE 3 : Remboursement intégral"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Équipement optique limité à un équipement complet (1 monture + 2 verres) tous les 6 mois par bénéficiaire jusqu'à 6 ans en cas de mauvaise adaptation de la monture, tous les ans par bénéficiaire de 16 ans, et tous les 2 ans par bénéficiaire de 16 ans et plus (par dérogation tous les ans en cas d'évolution de la vue). (renvoi 10)"
+      ],
+      "page": 3
+    },
+    {
+      "name": "Optique - Classe B (hors panier 100 % Santé) - Monture",
+      "description": "Classe B - Équipements hors panier 100 % Santé (10) - Monture : voir grille optique.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : Voir grille optique ; BASE 2 : Voir grille optique ; BASE 3 : Voir grille optique",
+      "sub_limits": [
+        "BASE 1 : Voir grille optique",
+        "BASE 2 : Voir grille optique",
+        "BASE 3 : Voir grille optique"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Équipement optique limité à un équipement complet (1 monture + 2 verres) tous les 6 mois par bénéficiaire jusqu'à 6 ans en cas de mauvaise adaptation de la monture, tous les ans par bénéficiaire de 16 ans, et tous les 2 ans par bénéficiaire de 16 ans et plus (par dérogation tous les ans en cas d'évolution de la vue). (renvoi 10)"
+      ],
+      "page": 3
+    },
+    {
+      "name": "Optique - Classe A (panier 100 % Santé) - Verres",
+      "description": "Classe A - Équipements entrant dans le panier 100 % Santé (10) - Verres.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : Remboursement intégral ; BASE 2 : Remboursement intégral ; BASE 3 : Remboursement intégral",
+      "sub_limits": [
+        "BASE 1 : Remboursement intégral",
+        "BASE 2 : Remboursement intégral",
+        "BASE 3 : Remboursement intégral"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Équipement optique limité à un équipement complet (1 monture + 2 verres) tous les 6 mois par bénéficiaire jusqu'à 6 ans en cas de mauvaise adaptation de la monture, tous les ans par bénéficiaire de 16 ans, et tous les 2 ans par bénéficiaire de 16 ans et plus (par dérogation tous les ans en cas d'évolution de la vue). (renvoi 10)"
+      ],
+      "page": 3
+    },
+    {
+      "name": "Optique - Classe B (hors panier 100 % Santé) - Verres",
+      "description": "Classe B - Équipements hors panier 100 % Santé (10) - Verres : voir grille optique.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : Voir grille optique ; BASE 2 : Voir grille optique ; BASE 3 : Voir grille optique",
+      "sub_limits": [
+        "BASE 1 : Voir grille optique",
+        "BASE 2 : Voir grille optique",
+        "BASE 3 : Voir grille optique"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Équipement optique limité à un équipement complet (1 monture + 2 verres) tous les 6 mois par bénéficiaire jusqu'à 6 ans en cas de mauvaise adaptation de la monture, tous les ans par bénéficiaire de 16 ans, et tous les 2 ans par bénéficiaire de 16 ans et plus (par dérogation tous les ans en cas d'évolution de la vue). (renvoi 10)"
+      ],
+      "page": 3
+    },
+    {
+      "name": "Optique - Adaptation et appairage verres de Classe A et supplément filtre Classe A",
+      "description": "Prestation d'adaptation et d'appairage pour des verres de Classe A d'indice de réfraction différents ainsi que le supplément pour les verres avec filtre de Classe A.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : Remboursement intégral ; BASE 2 : Remboursement intégral ; BASE 3 : Remboursement intégral",
+      "sub_limits": [
+        "BASE 1 : Remboursement intégral",
+        "BASE 2 : Remboursement intégral",
+        "BASE 3 : Remboursement intégral"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Optique - Adaptation de la prescription pour verres de Classe B",
+      "description": "Prestation d'adaptation de la prescription médicale de verres correcteurs après réalisation d'un examen de réfraction, en cas de renouvellement par l'opticien lunetier d'une ordonnance pour des verres de Classe B.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 100 % BR ; BASE 2 : 100 % BR ; BASE 3 : 100 % BR",
+      "sub_limits": [
+        "BASE 1 : 100 % BR",
+        "BASE 2 : 100 % BR",
+        "BASE 3 : 100 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Optique - Autres suppléments pour verres de Classe A ou B",
+      "description": "Autres suppléments pour verres de Classe A ou B (prisme/système antiptosis/verres iséiconiques).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : 100 % BR ; BASE 2 : 100 % BR ; BASE 3 : 100 % BR",
+      "sub_limits": [
+        "BASE 1 : 100 % BR",
+        "BASE 2 : 100 % BR",
+        "BASE 3 : 100 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Optique - Lentilles (acceptées, refusées et jetables)",
+      "description": "Autres prestations - Lentilles (11) (acceptées, refusées et jetables).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : Remboursement Sécurité sociale + 50 €/an/bénéficiaire ; BASE 2 : Remboursement Sécurité sociale + 100 € /an/bénéficiaire ; BASE 3 : Remboursement Sécurité sociale + 250 € /an/bénéficiaire",
+      "sub_limits": [
+        "BASE 1 : Remboursement Sécurité sociale + 50 €/an/bénéficiaire",
+        "BASE 2 : Remboursement Sécurité sociale + 100 € /an/bénéficiaire",
+        "BASE 3 : Remboursement Sécurité sociale + 250 € /an/bénéficiaire"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Pour les lentilles remboursées par la Sécurité Sociale, après épuisement du forfait : prise en charge de 100 % TM. (renvoi 11)"
+      ],
+      "page": 3
+    },
+    {
+      "name": "Optique - Chirurgie réfractive non remboursée Sécurité sociale",
+      "description": "Chirurgie réfractive non remboursée Sécurité sociale.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : Non couverte ; BASE 2 : 500 €/œil/an ; BASE 3 : 1 000 €/œil/an",
+      "sub_limits": [
+        "BASE 1 : Non couverte",
+        "BASE 2 : 500 €/œil/an",
+        "BASE 3 : 1 000 €/œil/an"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Assistance Matmut",
+      "description": "ASSISTANCE - Assistance Matmut.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : Inclus ; BASE 2 : Inclus ; BASE 3 : Inclus",
+      "sub_limits": [
+        "BASE 1 : Inclus",
+        "BASE 2 : Inclus",
+        "BASE 3 : Inclus"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Services + - Itelis",
+      "description": "Itelis : avantages tarifaires optique, audio et médecines douces.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : Inclus ; BASE 2 : Inclus ; BASE 3 : Inclus",
+      "sub_limits": [
+        "BASE 1 : Inclus",
+        "BASE 2 : Inclus",
+        "BASE 3 : Inclus"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Services + - Medaviz",
+      "description": "Medaviz : téléconsultation 24 h/24, 7 j/7.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : Inclus ; BASE 2 : Inclus ; BASE 3 : Inclus",
+      "sub_limits": [
+        "BASE 1 : Inclus",
+        "BASE 2 : Inclus",
+        "BASE 3 : Inclus"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Services + - Livmed's",
+      "description": "Livmed's : livraison de médicaments 24 h/24, 7 j/7.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : Inclus ; BASE 2 : Inclus ; BASE 3 : Inclus",
+      "sub_limits": [
+        "BASE 1 : Inclus",
+        "BASE 2 : Inclus",
+        "BASE 3 : Inclus"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Services + - Deuxième avis médical",
+      "description": "Deuxième avis médical : service d'accès à l'expertise médicale en ligne.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : Inclus ; BASE 2 : Inclus ; BASE 3 : Inclus",
+      "sub_limits": [
+        "BASE 1 : Inclus",
+        "BASE 2 : Inclus",
+        "BASE 3 : Inclus"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Services + - Bilan de santé digital",
+      "description": "Bilan de santé digital : évaluation de santé globale.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : Inclus ; BASE 2 : Inclus ; BASE 3 : Inclus",
+      "sub_limits": [
+        "BASE 1 : Inclus",
+        "BASE 2 : Inclus",
+        "BASE 3 : Inclus"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Services + - Méta-Coaching",
+      "description": "Méta-Coaching : programme de coaching santé en ligne.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : Inclus ; BASE 2 : Inclus ; BASE 3 : Inclus",
+      "sub_limits": [
+        "BASE 1 : Inclus",
+        "BASE 2 : Inclus",
+        "BASE 3 : Inclus"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Services + - Salvum",
+      "description": "Salvum : formation aux gestes qui sauvent.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : Inclus ; BASE 2 : Inclus ; BASE 3 : Inclus",
+      "sub_limits": [
+        "BASE 1 : Inclus",
+        "BASE 2 : Inclus",
+        "BASE 3 : Inclus"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Services + - Protection juridique santé",
+      "description": "Protection juridique santé.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 : Inclus ; BASE 2 : Inclus ; BASE 3 : Inclus",
+      "sub_limits": [
+        "BASE 1 : Inclus",
+        "BASE 2 : Inclus",
+        "BASE 3 : Inclus"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Grille optique - VU1",
+      "description": "VU1 : Verres unifocaux sphériques dont la sphère est comprise entre-6,00 et + 6,00 dioptries.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 ENFANT : 50 € ; BASE 1 ADULTE : 65 € ; BASE 2 ENFANT : 50 € ; BASE 2 ADULTE : 70 € ; BASE 3 ENFANT : 60 € ; BASE 3 ADULTE : 90 €",
+      "sub_limits": [
+        "BASE 1 ENFANT : 50 €",
+        "BASE 1 ADULTE : 65 €",
+        "BASE 2 ENFANT : 50 €",
+        "BASE 2 ADULTE : 70 €",
+        "BASE 3 ENFANT : 60 €",
+        "BASE 3 ADULTE : 90 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "GRILLE OPTIQUE (12) : les remboursements s'entendent par verre."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Grille optique - VU2",
+      "description": "VU2 : Verres unifocaux sphéro-cylindriques dont la sphère est comprise entre- 6,00 et 0 dioptries et dont le cylindre est inférieur ou égal à + 4,00 dioptries.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 ENFANT : 60 € ; BASE 1 ADULTE : 70 € ; BASE 2 ENFANT : 60 € ; BASE 2 ADULTE : 80 € ; BASE 3 ENFANT : 70 € ; BASE 3 ADULTE : 100 €",
+      "sub_limits": [
+        "BASE 1 ENFANT : 60 €",
+        "BASE 1 ADULTE : 70 €",
+        "BASE 2 ENFANT : 60 €",
+        "BASE 2 ADULTE : 80 €",
+        "BASE 3 ENFANT : 70 €",
+        "BASE 3 ADULTE : 100 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "GRILLE OPTIQUE (12) : les remboursements s'entendent par verre."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Grille optique - VU3",
+      "description": "VU3 : Verres unifocaux sphéro-cylindriques dont la sphère est positive et dont la somme S (sphère + cylindre) est inférieure ou égale à 6,00 dioptries.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 ENFANT : 60 € ; BASE 1 ADULTE : 75 € ; BASE 2 ENFANT : 60 € ; BASE 2 ADULTE : 85 € ; BASE 3 ENFANT : 75 € ; BASE 3 ADULTE : 100 €",
+      "sub_limits": [
+        "BASE 1 ENFANT : 60 €",
+        "BASE 1 ADULTE : 75 €",
+        "BASE 2 ENFANT : 60 €",
+        "BASE 2 ADULTE : 85 €",
+        "BASE 3 ENFANT : 75 €",
+        "BASE 3 ADULTE : 100 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "GRILLE OPTIQUE (12) : les remboursements s'entendent par verre."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Grille optique - VU4",
+      "description": "VU4 : Verres unifocaux sphériques dont la sphère est hors zone de-6,00 à + 6,00 dioptries.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 ENFANT : 75 € ; BASE 1 ADULTE : 80 € ; BASE 2 ENFANT : 75 € ; BASE 2 ADULTE : 85 € ; BASE 3 ENFANT : 80 € ; BASE 3 ADULTE : 100 €",
+      "sub_limits": [
+        "BASE 1 ENFANT : 75 €",
+        "BASE 1 ADULTE : 80 €",
+        "BASE 2 ENFANT : 75 €",
+        "BASE 2 ADULTE : 85 €",
+        "BASE 3 ENFANT : 80 €",
+        "BASE 3 ADULTE : 100 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "GRILLE OPTIQUE (12) : les remboursements s'entendent par verre."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Grille optique - VU5",
+      "description": "VU5 : Verres unifocaux sphéro-cylindriques dont la sphère est comprise entre- 6,00 et 0 dioptries et dont le cylindre est supérieur à + 4,00 dioptries.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 ENFANT : 75 € ; BASE 1 ADULTE : 90 € ; BASE 2 ENFANT : 75 € ; BASE 2 ADULTE : 90 € ; BASE 3 ENFANT : 90 € ; BASE 3 ADULTE : 110 €",
+      "sub_limits": [
+        "BASE 1 ENFANT : 75 €",
+        "BASE 1 ADULTE : 90 €",
+        "BASE 2 ENFANT : 75 €",
+        "BASE 2 ADULTE : 90 €",
+        "BASE 3 ENFANT : 90 €",
+        "BASE 3 ADULTE : 110 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "GRILLE OPTIQUE (12) : les remboursements s'entendent par verre."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Grille optique - VU6",
+      "description": "VU6 : Verres unifocaux sphéro-cylindriques dont la sphère est inférieure à- 6,00 dioptries et dont le cylindre est supérieur ou égal à 0,25 dioptrie.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 ENFANT : 75 € ; BASE 1 ADULTE : 90 € ; BASE 2 ENFANT : 75 € ; BASE 2 ADULTE : 95 € ; BASE 3 ENFANT : 90 € ; BASE 3 ADULTE : 120 €",
+      "sub_limits": [
+        "BASE 1 ENFANT : 75 €",
+        "BASE 1 ADULTE : 90 €",
+        "BASE 2 ENFANT : 75 €",
+        "BASE 2 ADULTE : 95 €",
+        "BASE 3 ENFANT : 90 €",
+        "BASE 3 ADULTE : 120 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "GRILLE OPTIQUE (12) : les remboursements s'entendent par verre."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Grille optique - VU7",
+      "description": "VU7 : Verres unifocaux sphéro-cylindriques dont la sphère est positive et dont la somme S est supérieure à 6,00 dioptries.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 ENFANT : 80 € ; BASE 1 ADULTE : 100 € ; BASE 2 ENFANT : 80 € ; BASE 2 ADULTE : 110 € ; BASE 3 ENFANT : 100 € ; BASE 3 ADULTE : 130 €",
+      "sub_limits": [
+        "BASE 1 ENFANT : 80 €",
+        "BASE 1 ADULTE : 100 €",
+        "BASE 2 ENFANT : 80 €",
+        "BASE 2 ADULTE : 110 €",
+        "BASE 3 ENFANT : 100 €",
+        "BASE 3 ADULTE : 130 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "GRILLE OPTIQUE (12) : les remboursements s'entendent par verre."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Grille optique - VM1",
+      "description": "VM1 : Verres multifocaux ou progressifs sphériques dont la sphère est comprise entre-4,00 et + 4,00 dioptries.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 ENFANT : 80 € ; BASE 1 ADULTE : 80 € ; BASE 2 ENFANT : 90 € ; BASE 2 ADULTE : 110 € ; BASE 3 ENFANT : 110 € ; BASE 3 ADULTE : 175 €",
+      "sub_limits": [
+        "BASE 1 ENFANT : 80 €",
+        "BASE 1 ADULTE : 80 €",
+        "BASE 2 ENFANT : 90 €",
+        "BASE 2 ADULTE : 110 €",
+        "BASE 3 ENFANT : 110 €",
+        "BASE 3 ADULTE : 175 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "GRILLE OPTIQUE (12) : les remboursements s'entendent par verre."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Grille optique - VM2",
+      "description": "VM2 : Verres multifocaux ou progressifs sphéro-cylindriques dont la sphère est comprise entre-8,00 et 0,00 dioptries et dont le cylindre est inférieur ou égal à + 4,00 dioptries.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 ENFANT : 90 € ; BASE 1 ADULTE : 100 € ; BASE 2 ENFANT : 100 € ; BASE 2 ADULTE : 110 € ; BASE 3 ENFANT : 120 € ; BASE 3 ADULTE : 185 €",
+      "sub_limits": [
+        "BASE 1 ENFANT : 90 €",
+        "BASE 1 ADULTE : 100 €",
+        "BASE 2 ENFANT : 100 €",
+        "BASE 2 ADULTE : 110 €",
+        "BASE 3 ENFANT : 120 €",
+        "BASE 3 ADULTE : 185 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "GRILLE OPTIQUE (12) : les remboursements s'entendent par verre."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Grille optique - VM3",
+      "description": "VM3 : Verres multifocaux ou progressifs sphéro-cylindriques dont la sphère est positive et dont la somme S est inférieure ou égale à 8,00 dioptries.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 ENFANT : 90 € ; BASE 1 ADULTE : 100 € ; BASE 2 ENFANT : 100 € ; BASE 2 ADULTE : 130 € ; BASE 3 ENFANT : 120 € ; BASE 3 ADULTE : 185 €",
+      "sub_limits": [
+        "BASE 1 ENFANT : 90 €",
+        "BASE 1 ADULTE : 100 €",
+        "BASE 2 ENFANT : 100 €",
+        "BASE 2 ADULTE : 130 €",
+        "BASE 3 ENFANT : 120 €",
+        "BASE 3 ADULTE : 185 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "GRILLE OPTIQUE (12) : les remboursements s'entendent par verre."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Grille optique - VM4",
+      "description": "VM4 : Verres multifocaux ou progressifs sphériques dont la sphère est hors zone de-4,00 à + 4,00 dioptries.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 ENFANT : 100 € ; BASE 1 ADULTE : 100 € ; BASE 2 ENFANT : 110 € ; BASE 2 ADULTE : 135 € ; BASE 3 ENFANT : 130 € ; BASE 3 ADULTE : 200 €",
+      "sub_limits": [
+        "BASE 1 ENFANT : 100 €",
+        "BASE 1 ADULTE : 100 €",
+        "BASE 2 ENFANT : 110 €",
+        "BASE 2 ADULTE : 135 €",
+        "BASE 3 ENFANT : 130 €",
+        "BASE 3 ADULTE : 200 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "GRILLE OPTIQUE (12) : les remboursements s'entendent par verre."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Grille optique - VM5",
+      "description": "VM5 : Verres multifocaux ou progressifs sphéro-cylindriques dont la sphère est comprise entre-8,00 et 0 dioptries et dont le cylindre est supérieur à + 4,00 dioptries.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 ENFANT : 100 € ; BASE 1 ADULTE : 100 € ; BASE 2 ENFANT : 110 € ; BASE 2 ADULTE : 135 € ; BASE 3 ENFANT : 130 € ; BASE 3 ADULTE : 200 €",
+      "sub_limits": [
+        "BASE 1 ENFANT : 100 €",
+        "BASE 1 ADULTE : 100 €",
+        "BASE 2 ENFANT : 110 €",
+        "BASE 2 ADULTE : 135 €",
+        "BASE 3 ENFANT : 130 €",
+        "BASE 3 ADULTE : 200 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "GRILLE OPTIQUE (12) : les remboursements s'entendent par verre."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Grille optique - VM6",
+      "description": "VM6 : Verres multifocaux ou progressifs sphéro-cylindriques dont la sphère est inférieure à-8,00 dioptries et dont le cylindre est supérieur ou égal à 0,25 dioptrie.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 ENFANT : 110 € ; BASE 1 ADULTE : 110 € ; BASE 2 ENFANT : 115 € ; BASE 2 ADULTE : 140 € ; BASE 3 ENFANT : 140 € ; BASE 3 ADULTE : 210 €",
+      "sub_limits": [
+        "BASE 1 ENFANT : 110 €",
+        "BASE 1 ADULTE : 110 €",
+        "BASE 2 ENFANT : 115 €",
+        "BASE 2 ADULTE : 140 €",
+        "BASE 3 ENFANT : 140 €",
+        "BASE 3 ADULTE : 210 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "GRILLE OPTIQUE (12) : les remboursements s'entendent par verre."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Grille optique - VM7",
+      "description": "VM7 : Verres multifocaux ou progressifs sphéro-cylindriques dont la sphère est positive et dont la somme S est supérieure à 8,00 dioptries.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 ENFANT : 110 € ; BASE 1 ADULTE : 110 € ; BASE 2 ENFANT : 115 € ; BASE 2 ADULTE : 140 € ; BASE 3 ENFANT : 140 € ; BASE 3 ADULTE : 210 €",
+      "sub_limits": [
+        "BASE 1 ENFANT : 110 €",
+        "BASE 1 ADULTE : 110 €",
+        "BASE 2 ENFANT : 115 €",
+        "BASE 2 ADULTE : 140 €",
+        "BASE 3 ENFANT : 140 €",
+        "BASE 3 ADULTE : 210 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "GRILLE OPTIQUE (12) : les remboursements s'entendent par verre."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Grille optique - Monture",
+      "description": "Monture : Monture.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE 1 ENFANT : 70 € ; BASE 1 ADULTE : 80 € ; BASE 2 ENFANT : 70 € ; BASE 2 ADULTE : 100 € ; BASE 3 ENFANT : 100 € ; BASE 3 ADULTE : 100 €",
+      "sub_limits": [
+        "BASE 1 ENFANT : 70 €",
+        "BASE 1 ADULTE : 80 €",
+        "BASE 2 ENFANT : 70 €",
+        "BASE 2 ADULTE : 100 €",
+        "BASE 3 ENFANT : 100 €",
+        "BASE 3 ADULTE : 100 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "GRILLE OPTIQUE (12) : les remboursements s'entendent par verre."
+      ],
+      "page": 4
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Chambre pour personne accompagnante - non couverte en BASE 1",
+      "description": "La ligne « Pour personne accompagnante - Conventionnée » porte la mention « Non couverte » en BASE 1.",
+      "applies_to": "Chambre pour personne accompagnante - Conventionnée",
+      "page": 1
+    },
+    {
+      "name": "Vaccins non remboursés par la Sécurité sociale - non couverts en BASE 1",
+      "description": "La ligne « Vaccins non remboursés par la Sécurité sociale » porte la mention « Non couverte » en BASE 1.",
+      "applies_to": "Vaccins non remboursés par la Sécurité sociale",
+      "page": 1
+    },
+    {
+      "name": "Médecines douces - non couvertes en BASE 1",
+      "description": "La ligne « Médecines douces » porte la mention « Non couverte » en BASE 1.",
+      "applies_to": "Médecines douces",
+      "page": 2
+    },
+    {
+      "name": "Ostéodensitométrie osseuse non remboursée - non couverte en BASE 1 et BASE 2",
+      "description": "La ligne « Ostéodensitométrie osseuse non remboursée par la Sécurité sociale » porte la mention « Non couverte » en BASE 1 et BASE 2.",
+      "applies_to": "Ostéodensitométrie osseuse non remboursée par la Sécurité sociale",
+      "page": 2
+    },
+    {
+      "name": "Patch anti tabac non remboursé - non couvert en BASE 1 et BASE 2",
+      "description": "La ligne « Patch anti tabac non remboursé par la Sécurité sociale » porte la mention « Non couverte » en BASE 1 et BASE 2.",
+      "applies_to": "Patch anti tabac non remboursé par la Sécurité sociale",
+      "page": 2
+    },
+    {
+      "name": "Orthodontie refusée par la Sécurité sociale - non couverte en BASE 1",
+      "description": "La ligne « Orthodontie refusée par la Sécurité sociale » porte la mention « Non couverte » en BASE 1.",
+      "applies_to": "Dentaire - Orthodontie refusée par la Sécurité sociale",
+      "page": 2
+    },
+    {
+      "name": "Prothèses dentaires non remboursées - non couvertes en BASE 1",
+      "description": "La ligne « Prothèses dentaires non remboursées par la Sécurité sociale » porte la mention « Non couverte » en BASE 1.",
+      "applies_to": "Dentaire - Prothèses dentaires non remboursées par la Sécurité sociale",
+      "page": 2
+    },
+    {
+      "name": "Parodontologie non remboursée - non couverte en BASE 1",
+      "description": "La ligne « Parodontologie non remboursée par la Sécurité sociale » porte la mention « Non couverte » en BASE 1.",
+      "applies_to": "Dentaire - Parodontologie non remboursée par la Sécurité sociale",
+      "page": 2
+    },
+    {
+      "name": "Implantologie non remboursée - non couverte en BASE 1",
+      "description": "La ligne « Implantologie non remboursée par la Sécurité sociale » porte la mention « Non couverte » en BASE 1.",
+      "applies_to": "Dentaire - Implantologie non remboursée par la Sécurité sociale",
+      "page": 2
+    },
+    {
+      "name": "Chirurgie réfractive - non couverte en BASE 1",
+      "description": "La ligne « Chirurgie réfractive non remboursée Sécurité sociale » porte la mention « Non couverte » en BASE 1.",
+      "applies_to": "Optique - Chirurgie réfractive non remboursée Sécurité sociale",
+      "page": 3
+    },
+    {
+      "name": "Dépassements d'honoraires hors parcours de soins coordonnés",
+      "description": "L'organisme assureur ne couvre les dépassements d'honoraires qu'en cas de respect du parcours de soins coordonnés. (renvoi 1)",
+      "applies_to": "Honoraires médicaux et actes des médecins",
+      "page": 5
+    },
+    {
+      "name": "Appareillage - hors auditifs, dentaires et optiques",
+      "description": "Orthopédie, petit et grand appareillage et autres prothèses remboursés par la Sécurité sociale (hors auditifs, dentaires et optiques), véhicule pour handicapé.",
+      "applies_to": "Matériel médical - Orthopédie, petit et grand appareillage et autres prothèses",
+      "page": 1
+    },
+    {
+      "name": "Plafond global du poste prothèses dentaires",
+      "description": "Le remboursement s'entend pour l'ensemble du poste prothèses dentaires fixes ou amovibles remboursées dans la limite du plafond indiqué par an et par bénéficiaire, au-delà le remboursement devra respecter le minimum du panier de soins : 125 % BR (renvoi 8). BASE 1 : 500 €/an/bénéficiaire ; BASE 2 : 1 000 €/an/bénéficiaire ; BASE 3 : 1 500 €/an/bénéficiaire (renvoi 9).",
+      "applies_to": "Dentaire - prothèses fixes ou amovibles",
+      "page": 5
+    },
+    {
+      "name": "Plafond réglementaire des aides auditives de Classe II",
+      "description": "Le remboursement de la Classe II est réglementairement plafonné à 1 700 €/oreille. (renvoi 6)",
+      "applies_to": "Aides auditives - Classe II",
+      "page": 5
+    },
+    {
+      "name": "Aide auditive avant 4 ans",
+      "description": "Le remboursement est limité à l'achat d'une aide auditive par oreille, par période de 4 ans suivant la date de délivrance de l'aide auditive précédente (ce délai s'entendant pour chaque oreille indépendamment). (renvoi 5)",
+      "applies_to": "Aides auditives",
+      "page": 5
+    },
+    {
+      "name": "Périodicité de l'équipement optique",
+      "description": "Un équipement complet (1 monture + 2 verres) tous les 6 mois jusqu'à 6 ans en cas de mauvaise adaptation de la monture, tous les ans par bénéficiaire de 16 ans, tous les 2 ans par bénéficiaire de 16 ans et plus (par dérogation tous les ans en cas d'évolution de la vue). (renvoi 10)",
+      "applies_to": "Optique",
+      "page": 5
+    },
+    {
+      "name": "Acupuncture hors médecin, sage-femme ou chirurgien-dentiste",
+      "description": "Pour l'acupuncture, seuls sont pris en charge les actes non remboursés par la Sécurité sociale réalisés chez un médecin, une sage-femme ou un chirurgien-dentiste. (renvoi 3)",
+      "applies_to": "Médecines douces",
+      "page": 5
+    },
+    {
+      "name": "Séances avec des psychologues hors contrat responsable",
+      "description": "Garantie uniquement disponible dans les « contrats responsables ». (renvoi 2)",
+      "applies_to": "Séances avec des psychologues",
+      "page": 5
+    },
+    {
+      "name": "Plafonnement au reste à charge réel",
+      "description": "Nos remboursements ne peuvent être supérieurs au montant des frais restant à charge effective de l'adhérent.",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Livraison de médicaments au-delà de 3 par an ou hors rayon de 20 km",
+      "description": "Prise en charge de 3 livraisons par an par la mutuelle dans un rayon de 20km, au-delà le complément reste à la charge de l'adhérent.",
+      "applies_to": "Services + - Livmed's",
+      "page": 5
+    }
+  ],
+  "deductibles": null,
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Justificatifs des forfaits",
+      "description": "Les forfaits sont versés sur présentation de l'original de la facture nominative acquittée et détaillée par acte.",
+      "timing": "Lors de la demande de remboursement",
+      "sanction": null,
+      "page": 5
+    },
+    {
+      "name": "Identifiants du praticien sur la facture (médecines douces)",
+      "description": "Médecines douces reconnus comme praticiens par les annuaires professionnels, sous réserve que la facture comporte le n° FINESS et/ou le n° ADELI et/ou le n° RPPS du professionnel concerné.",
+      "timing": "Lors de la demande de remboursement",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Respect du parcours de soins coordonnés",
+      "description": "L'organisme assureur ne couvre les dépassements d'honoraires qu'en cas de respect du parcours de soins coordonnés.",
+      "timing": "Au moment des soins",
+      "sanction": "Les dépassements d'honoraires ne sont pas couverts",
+      "page": 5
+    }
+  ],
+  "claims_procedure": [],
+  "duration_and_cancellation": null,
+  "prescription_period": null,
+  "premium": null,
+  "special_conditions": [
+    {
+      "name": "Coassurance de branche",
+      "description": "Ce dispositif est mutualisé dans le cadre d'une coassurance Santé mise en place par les organisations paritaires de la Branche professionnelle. Les mutuelles co-assureurs du régime sont présentées dans les Conditions Générales et la Notice d'Information.",
+      "page": 5
+    },
+    {
+      "name": "Assureur de la garantie Santé",
+      "description": "Assureur de la garantie Santé - Mutuelle Ociane - Mutuelle soumise aux dispositions du Livre II du Code de la Mutualité, immatriculée sous le n° SIREN 434 243 085. Siège social : 35 rue Claude Bonnier - 33054 BORDEAUX Cedex. Les statuts de la Mutuelle Ociane sont disponibles sur matmut.fr.",
+      "page": 5
+    },
+    {
+      "name": "Matmut",
+      "description": "Matmut - Mutuelle assurance des travailleurs mutualistes, Société d'assurance mutuelle à cotisations variables, immatriculée au RCS de Rouen n° 775 701 477. Entreprise régie par le Code des assurances, 66, rue de Sotteville 76100 Rouen.",
+      "page": 5
+    },
+    {
+      "name": "Protection juridique",
+      "description": "Prestation réalisée par Matmut Protection juridique, Société du Groupe Matmut - Société Anonyme (SA) au capital de 7 500 000 € entièrement libéré. Entreprise régie par le Code des Assurances, inscrite au RCS de Rouen sous le n° SIREN 423 499 391. Siège Social : 66 Rue de Sotteville 76100 Rouen.",
+      "page": 5
+    },
+    {
+      "name": "Assistance",
+      "description": "Assistance - Prestations réalisées par IMA GIE - Société Anonyme à Directoire et Conseil de Surveillance au capital social de 55 382 784 €, inscrit au RCS de Niort sous le n° Siren 320 281 025. Siège social : 118, avenue de Paris CS 40 000 79033 Niort CEDEX 9.",
+      "page": 5
+    },
+    {
+      "name": "Itelis",
+      "description": "Itelis est une marque d'Isea. Isea Société Anonyme (SA) à Directoire et Conseil de Surveillance au capital de 5 452 135,92€, inscrite au RCS de Paris sous le n° SIREN 440 358 471.",
+      "page": 5
+    },
+    {
+      "name": "Téléconsultation Medaviz",
+      "description": "Téléconsultation Medaviz - Service mis en œuvre par Podalire. Société par Actions Simplifiée (SAS) au capital social de 83 800 €, inscrite au RCS de Paris sous le n° SIREN 807 414 024. Le service doit faire l'objet d'une utilisation raisonnable.",
+      "page": 5
+    },
+    {
+      "name": "deuxiemeavis.fr",
+      "description": "deuxiemeavis.fr - Le service deuxiemeavis.fr est édité par la société CARIANS. Société par Actions Simplifiée (SAS) au capital social de 109 230 €, inscrite au RCS de Paris sous le n° SIREN 803 657 717.",
+      "page": 5
+    },
+    {
+      "name": "Livraison de médicaments LIVMED'S",
+      "description": "Livraison de médicaments LIVMED'S - Société par Actions Simplifiée (SAS) au capital social de 67 114 €, immatriculée au RCS de Nice sous le n°881 600 456. Prise en charge de 3 livraisons par an par la mutuelle dans un rayon de 20km, au-delà le complément reste à la charge de l'adhérent.",
+      "page": 5
+    },
+    {
+      "name": "Salvum",
+      "description": "Salvum - Formation en ligne de secourisme. Société par Actions Simplifiée (SAS) au capital social de 449 320 €, inscrite au RCS de Meaux sous le n° SIREN 801 777 541.",
+      "page": 5
+    },
+    {
+      "name": "Valeur du document",
+      "description": "Document non contractuel. L'ensemble des garanties évoquées dans ce document s'applique dans les limites et conditions définies au contrat.",
+      "page": 5
+    },
+    {
+      "name": "Base de calcul des remboursements",
+      "description": "Les pourcentages indiqués incluent la part de la Sécurité sociale et s'appliquent sur la Base de Remboursement (BR) pour les actes relevant de la CCAM (Classification Commune des Actes Médicaux), tarif de convention pour les actes référencés NGAP (Nomenclature Générale des Actes Professionnels), tarif de responsabilité pour les actes référencés LPP (Liste des Produits et des Prestations). Pour les praticiens non conventionnés, la Base de Remboursement est retenue sur la base du tarif d'autorité. Les forfaits annuels s'entendent dans le cadre de l'année civile et par bénéficiaire. Les forfaits sont versés sur présentation de l'original de la facture nominative acquittée et détaillée par acte. Nos remboursements ne peuvent être supérieurs au montant des frais restant à charge effective de l'adhérent. Le total des remboursements est exprimé y compris la part RO.",
+      "page": 5
+    },
+    {
+      "name": "Exemples de remboursements 2026",
+      "description": "Les pages 6 à 10 donnent des exemples chiffrés de remboursements pour chaque base, avec prix moyen pratiqué, remboursement Sécurité sociale, remboursement Mutuelle Ociane Matmut et reste à charge. Ils sont illustratifs et ne modifient pas les garanties.",
+      "page": 6
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Ce dispositif est mutualisé dans le cadre d’une coassurance Santé mise en place par les organisations paritaires de la Branche professionnelle.",
+      "page": 5,
+      "context": "Coassurance de branche"
+    },
+    {
+      "quote": "Assureur de la garantie Santé - Mutuelle Ociane - Mutuelle soumise aux dispositions du Livre II du Code de la Mutualité, immatriculée sous le n° SIREN 434 243",
+      "page": 5,
+      "context": "Porteur du risque santé"
+    },
+    {
+      "quote": "Matmut - Mutuelle assurance des travailleurs mutualistes, Société d’assurance mutuelle à cotisations variables, immatriculée au RCS de Rouen n° 775 701 477.",
+      "page": 5,
+      "context": "Entité Matmut citée au document"
+    },
+    {
+      "quote": "L’organisme assureur ne couvre les dépassements",
+      "page": 5,
+      "context": "Condition de parcours de soins pour les dépassements d'honoraires"
+    },
+    {
+      "quote": "(9) BASE 1 : Plafond global 500 €/an/bénéficiaire",
+      "page": 5,
+      "context": "Plafond global prothèses dentaires"
+    },
+    {
+      "quote": "(6) Telle que définie réglementairement. Le remboursement de la Classe II est réglementairement plafonné à 1 700 €/oreille.",
+      "page": 5,
+      "context": "Plafond aides auditives classe II"
+    },
+    {
+      "quote": "(12) Les remboursements s’entendent par verre.",
+      "page": 5,
+      "context": "Lecture de la grille optique"
+    },
+    {
+      "quote": "Nos remboursements ne peuvent être supérieurs au montant des frais restant à charge effective de l’adhérent.",
+      "page": 5,
+      "context": "Plafond général d'indemnisation"
+    },
+    {
+      "quote": "Document non contractuel. L’ensemble des garanties évoquées dans ce document s’applique dans les limites et conditions définies au contrat.",
+      "page": 5,
+      "context": "Portée du document"
+    }
+  ],
+  "gaps": [
+    "Le document est un tableau de garanties (« Vos garanties 2026 ») accompagné de ses renvois : il ne comporte ni conditions générales, ni section d'exclusions générales, ni définitions contractuelles complètes. Les exclusions enregistrées ici sont les seules non-prises en charge explicitement écrites et les lignes portant « - » pour un niveau de garantie donné. Ici, les non-couvertures sont explicitement écrites « Non couverte » dans le tableau.",
+    "Divergence avec les métadonnées de la tâche : l'assureur de la garantie Santé nommé par le document est la Mutuelle Ociane (mutuelle soumise au Livre II du Code de la Mutualité, SIREN 434 243 085, siège à Bordeaux), et non Matmut. Matmut (Mutuelle assurance des travailleurs mutualistes, RCS de Rouen 775 701 477) est citée séparément, la protection juridique est portée par Matmut Protection juridique (RCS de Rouen 423 499 391) et l'assistance par IMA GIE (RCS de Niort 320 281 025). Les remboursements sont libellés « Mutuelle Ociane Matmut » dans les exemples. Le document ajoute que le dispositif est mutualisé dans le cadre d'une coassurance Santé de branche et que les mutuelles co-assureurs sont présentées dans les Conditions Générales et la Notice d'Information, sans les nommer.",
+    "Aucune date d'édition n'est imprimée. Le document porte la référence « CCN 51-0925 » (page 5) et les mentions « Vos garanties 2026 » / « Grille optique 2026 » / « Renvois 2026 » ; le suffixe -0925 n'est pas explicité comme une date d'édition et n'a donc pas été reporté dans edition_date.",
+    "target_audience laissé à null : le document ne nomme aucune catégorie de souscripteur (il parle d'« adhérent » et de « bénéficiaire »). Intitulé du régime tel qu'imprimé : « Régime frais de santé - CCN Établissements sanitaires, sociaux et médico-sociaux adhérents de la FEHAP ».",
+    "Aucune information sur la cotisation, la durée du contrat, la résiliation, la prescription, la procédure de sinistre ou les franchises contractuelles : ces sections n'existent pas dans ce document. Les « participation forfaitaire » et « reste à charge » des pages d'exemples sont des participations légales illustrées, pas des franchises du contrat.",
+    "Le tableau juxtapose 3 niveaux (BASE 1, BASE 2, BASE 3) sur une même ligne ; chaque garantie est enregistrée une fois avec toutes les valeurs en sub_limits, dans l'ordre du tableau.",
+    "La grille optique de la page 4 est restituée sous forme de garanties « Grille optique - ... » dont les sub_limits suivent l'ordre des colonnes du document : BASE 1 ENFANT, BASE 1 ADULTE, BASE 2 ENFANT, BASE 2 ADULTE, BASE 3 ENFANT, BASE 3 ADULTE (l'ordre ENFANT puis ADULTE est celui du document).",
+    "Le renvoi 10 imprime « Une équipement complet (1 monture + 2 verres) tous les ans par bénéficiaire de 16 ans » : la formulation est ambiguë (« de 16 ans » sans « moins de » ni « jusqu'à ») et l'article est fautif. Le texte est repris tel quel, sans correction ni interprétation.",
+    "Le libellé du poste médecines douces est imprimé « Médecines douces reconnus comme praticiens par les annuaires professionnels » (accord fautif) ; reproduit tel quel.",
+    "Le texte du prompt a été vérifié page à page contre le PDF source (PyMuPDF, page.get_text(\"text\")) : les 10 pages sont identiques et le texte n'est pas tronqué."
+  ],
+  "product_name": "Régime frais de santé - CCN Établissements sanitaires, sociaux et médico-sociaux adhérents de la FEHAP - Vos garanties 2026"
+}

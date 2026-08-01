@@ -1,0 +1,1505 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "matmut",
+  "insurer_name": "Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477",
+  "branch": "sante",
+  "branch_code": null,
+  "document_type": "product_sheet",
+  "language": "fr",
+  "source_url": "https://www.matmut.fr/pro/pdf/CCN-BOIS-LIN-garanties-sante.pdf",
+  "source_pdf": "tableau-de-garanties-sante-ccn-bois-lin-b3403231.pdf",
+  "source_sha256": "854f08e2d7ee7e9e09251d798d6042e87ac5b878ccce4c0e4121ed9376383c4c",
+  "source_pages": 9,
+  "fetched_at": "2026-07-30",
+  "extraction_model": "claude-code-subagent:scale",
+  "target_audience": null,
+  "target_audience_note": "Régime frais de santé - CCN Bois et Lin ; dispositif mutualisé dans le cadre d'une coassurance Santé mise en place par les organisations paritaires de la Branche professionnelle.",
+  "reference": "CCN BOIS-0326",
+  "edition_date": null,
+  "product_family": "Régime frais de santé CCN Bois et Lin",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "summary": "Tableau des garanties 2026 du régime frais de santé de la CCN Bois et Lin, présentant trois niveaux : BASE, OPTION 1 et OPTION 2. Il détaille les remboursements en actes médicaux, hospitalisation, pharmacie, dentaire, autres prescriptions, aides auditives, optique et maternité, exprimés en pourcentage de la Base de Remboursement, en remboursement intégral, en frais réels ou en forfaits, avec une distinction entre médecins signataires et non signataires du Dispositif de Pratique Tarifaire Maîtrisée. Les renvois fixent notamment un forfait dentaire unique cumulé sur l'ensemble des postes prothèses et une limite de deux implants par an. Le document est mutualisé dans le cadre d'une coassurance de branche.",
+  "definitions": [
+    {
+      "term": "BR",
+      "definition": "Base de Remboursement",
+      "page": 3
+    },
+    {
+      "term": "OPTAM",
+      "definition": "Option de Pratique Tarifaire Maîtrisée",
+      "page": 3
+    },
+    {
+      "term": "TM",
+      "definition": "Ticket Modérateur",
+      "page": 3
+    },
+    {
+      "term": "SS",
+      "definition": "Sécurité Sociale",
+      "page": 3
+    },
+    {
+      "term": "PMSS",
+      "definition": "Plafond Mensuel de la Sécurité Sociale",
+      "page": 3
+    },
+    {
+      "term": "FR",
+      "definition": "Frais Réels",
+      "page": 3
+    },
+    {
+      "term": "RO",
+      "definition": "Régime Obligatoire",
+      "page": 3
+    },
+    {
+      "term": "DPTM",
+      "definition": "Dispositif de Pratique Tarifaire Maîtrisée",
+      "page": 3
+    },
+    {
+      "term": "DE",
+      "definition": "Dépense Engagée",
+      "page": 3
+    },
+    {
+      "term": "SMR",
+      "definition": "Service Médical Rendu",
+      "page": 3
+    },
+    {
+      "term": "DPTM (renvoi 1)",
+      "definition": "Médecin signataire ou non signataire du Dispositif de Pratique Tarifaire Maîtrisée (DPTM).",
+      "page": 3
+    },
+    {
+      "term": "Séances avec des psychologues (renvoi 2)",
+      "definition": "Ouvert aux personnes de plus de 3 ans (enfants, adolescents et adultes) et valable chez les psychologues partenaires du dispositif « Mon soutien psy », diplômés dans leur spécialité et inscrits aux registres officiels de l'Assurance Maladie. Dans la limite de 12 séances par an, avec une première séance qui est un entretien d'évaluation et entre 1 à 11 séances de suivi psychologique (50 €/séance). Ce nombre est adapté aux besoins et déterminé par le psychologue. Garantie uniquement disponible dans les « contrats responsables ».",
+      "page": 3
+    },
+    {
+      "term": "Médecines douces (renvoi 3)",
+      "definition": "Forfait global valable pour les actes non remboursés par la Sécurité sociale, chez les praticiens diplômés dans leur spécialité et inscrits aux registres officiels de l'Assurance Maladie, sur présentation d'une facture nominative acquittée (pour l'acupuncture, seuls sont pris en charge les actes non remboursés par la Sécurité sociale réalisés chez un médecin, une sage-femme ou un chirurgien-dentiste).",
+      "page": 3
+    },
+    {
+      "term": "Hospitalisations prises en compte (renvoi 4)",
+      "definition": "Sont pris en compte les remboursements liés aux hospitalisations médicales, chirurgicales, obstétriques, psychiatriques et ambulatoires. Ne sont pas pris en compte les remboursements liés aux longs séjours suivants : les longs séjours en maison de cure médicale et de retraite pour personnes âgées.",
+      "page": 3
+    },
+    {
+      "term": "Forfait journalier hospitalier (renvoi 5)",
+      "definition": "Durée illimitée. MAS et EHPAD non pris en charge.",
+      "page": 3
+    },
+    {
+      "term": "Frais accompagnant (renvoi 6)",
+      "definition": "Dans le cadre d'une hospitalisation d'un enfant de moins de 16 ans.",
+      "page": 3
+    },
+    {
+      "term": "Prothèses relevant du 100 % Santé (renvoi 8)",
+      "definition": "Sans reste à charge : couronne et bridge métalliques (toutes dents), couronne céramique zircone (dents hors molaires), couronne céramométallique et céramique - hors zircone - (incisives, canines et 1ères prémolaires), bridge céramométallique (incisives), couronne mobile. Leurs prix sont encadrés par des Prix Limites de Vente (PLV).",
+      "page": 3
+    },
+    {
+      "term": "Prothèses à tarifs maîtrisés (renvoi 9)",
+      "definition": "Prothèses à tarifs maîtrisés plafonnés aux Prix Limites de Vente (PLV) fixés règlementairement.",
+      "page": 3
+    },
+    {
+      "term": "Prothèses à tarifs libres (renvoi 10)",
+      "definition": "Le professionnel de santé est libre de fixer les prix de ces équipements.",
+      "page": 3
+    },
+    {
+      "term": "Forfait dentaire unique (renvoi 11)",
+      "definition": "1 seul forfait par an 350 €/400 € selon le régime, cumulé sur l'ensemble des postes prothèses dentaires.",
+      "page": 3
+    },
+    {
+      "term": "Implantologie (renvoi 12)",
+      "definition": "Limite de deux implants au global par an. Sont considérées comme dents de devant : les incisives, les canines, les prémolaires. Sont considérées dents du fond : les premières, deuxièmes et troisièmes molaires.",
+      "page": 3
+    },
+    {
+      "term": "Prothèses capillaires classes III et IV (renvoi 13)",
+      "definition": "Classe III : prothèses capillaires composées d'au moins 50 % de cheveux naturels et le reste de fibres synthétiques. Leurs Prix Limites de Vente (PLV) sont définis réglementairement. Classe IV : prothèses capillaires composées uniquement de cheveux naturels. Leurs prix sont fixés librement.",
+      "page": 3
+    },
+    {
+      "term": "Fauteuils roulants 100% santé (renvoi 14)",
+      "definition": "Sans reste à charge : la liste exhaustive des équipements et leurs Prix Limites de Vente (PLV) sont définis réglementairement. Certains modèles sportifs peuvent également être pris en charge après évaluation des besoins par un professionnel de santé.",
+      "page": 3
+    },
+    {
+      "term": "Prothèses capillaires 100% santé classes I et II (renvoi 15)",
+      "definition": "Sans reste à charge. Classe I : prothèses composées uniquement de cheveux synthétiques prises intégralement en charge par la Sécurité sociale. Classe II : prothèses composées d'au moins 30 % de cheveux naturels et le reste de fibres synthétiques. Leurs Prix Limites de Vente (PLV) sont définis réglementairement.",
+      "page": 3
+    },
+    {
+      "term": "Actes de prévention (renvoi 16)",
+      "definition": "Tous les actes de prévention (Cf. arrêté du 8 juin 2006 pris pour l'application de l'article L. 871-1 du Code de la Sécurité sociale et fixant la liste des prestations de prévention prévues à l'article R. 871-2 du même code) sont pris en charge au titre du contrat (pour information à la date du 18/11/2014) : détartrage annuel effectué en 2 séances maximum ; ostéodensitométrie pour les femmes de plus de 50 ans ; scellement des sillons avant 14 ans ; dépistage Hépatite B ; bilan du langage avant 14 ans ; dépistage des troubles de l'audition après 50 ans ; vaccinations (diphtérie, tétanos, poliomyélite, coqueluche, hépatite B, BCG, rubéole, pneumocoques, selon âge).",
+      "page": 3
+    },
+    {
+      "term": "Sevrage tabagique (renvoi 17)",
+      "definition": "Substituts nicotiques (patchs, gommes à mâcher, produits pharmaceutiques remboursables par la Sécurité sociale, consultations d'acupuncture, auriculothérapie, hypnose). Pour l'acupuncture, seuls sont pris en charge les actes non remboursés par la Sécurité sociale réalisés chez un médecin, une sage-femme ou un chirurgien-dentiste.",
+      "page": 3
+    },
+    {
+      "term": "Périodicité et plafond des aides auditives (renvoi 18)",
+      "definition": "Dans la limite d'un appareil par oreille par période de 4 ans suivant la date de délivrance de l'appareil précédent (ce délai s'entendant pour chaque oreille indépendamment). S'agissant de l'Équipement libre (Classe II), la prise en charge dans le cadre du présent régime s'effectue dans tous les cas dans la limite du plafond de remboursement prévu par la règlementation en vigueur du « contrat responsable » (soit 1 700 € RSS inclus au 01.01.2021).",
+      "page": 3
+    },
+    {
+      "term": "Équipement 100% Santé aides auditives classe I (renvoi 19)",
+      "definition": "Sans reste à charge : contours d'oreille classiques, contours à écouteurs déportés, intra-auriculaires, 30 jours d'essai et 4 ans de garantie fabricant, au moins 3 options (système anti-acouphène, connectivité sans fil, réducteur bruit du vent…).",
+      "page": 3
+    },
+    {
+      "term": "Équipement à tarif libre - aide auditive de classe II (renvoi 20)",
+      "definition": "Entretien (y compris le changement des piles), réglages, réparation prothèses auditives réalisée par l'audioprothésiste prise en charge à hauteur de 100% de la base de remboursement de la Sécurité sociale. Les prix des aides auditives sont encadrés par des Prix Limites de Vente (PLV). Forfait \"Aide auditive\" versé dans la limite de deux équipements (soit un équipement par oreille) tous les 4 ans à partir de la date d'achat.",
+      "page": 3
+    },
+    {
+      "term": "Réparation et entretien des aides auditives (renvoi 22)",
+      "definition": "Entretien (y compris le changement des piles), réglages, réparation prothèses auditives réalisés par l'audioprothésiste : 100 % de la Base de Remboursement de la Sécurité sociale.",
+      "page": 3
+    },
+    {
+      "term": "Périodicité et panachage optique (renvoi 23)",
+      "definition": "Forfait versé dans la limite d'une paire de lunettes tous les 24 mois à partir de la date d'achat ou tous les 12 mois en cas de renouvellement anticipé prévu à l'article R 871-2 du Code de la Sécurité sociale, notamment pour les moins de 16 ans ou en cas d'évolution de la vue. Panachage des verres et monture : un Équipement peut être composé de deux verres d'une part, et d'une monture d'autre part, appartenant à des Classes (A ou B) différentes.",
+      "page": 3
+    },
+    {
+      "term": "Équipement 100 % Santé optique - classe A (renvoi 24)",
+      "definition": "Sans reste à charge : les montures de classe A doivent respecter les normes européennes avec un prix inférieur ou égal à 30 €. Les verres de classe A doivent répondre à des critères fixés réglementairement : verres traitant l'ensemble des troubles visuels, amincis en fonction du trouble, durcis pour éviter les rayures, traités anti-reflets. Leurs prix sont encadrés par des Prix Limites de Vente (PLV).",
+      "page": 3
+    },
+    {
+      "term": "Équipement à tarif libre - classe B (renvoi 25)",
+      "definition": "Le professionnel de santé est libre de fixer les prix de ces équipements.",
+      "page": 3
+    },
+    {
+      "term": "Suppléments et prestations optiques (renvoi 26)",
+      "definition": "Suppléments et prestations optiques (adaptation de la correction visuelle, appairage de verres d'indice de réfraction différents, supplément pour verres avec filtre), autres suppléments (prisme, système antiptosis, verres iséiconiques) remboursés par la SS : prise en charge dans la limite du Prix Limite de Vente pour la classe A (ou prise en charge à 100% BR lorsqu'il n'existe pas de PLV) et à 100 % BR dans le cadre des verres de la classe B.",
+      "page": 3
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Actes médicaux - Consultation/Visite généraliste (DPTM)",
+      "description": "Consultation/Visite généraliste (DPTM) (1).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 130 % BR ; OPTION 1 : 150 % BR ; OPTION 2 : 200 % BR",
+      "sub_limits": [
+        "BASE : 130 % BR",
+        "OPTION 1 : 150 % BR",
+        "OPTION 2 : 200 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Actes médicaux - Consultation/Visite généraliste (non DPTM)",
+      "description": "Consultation/Visite généraliste (non DPTM) (1).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 100 % BR ; OPTION 1 : 130 % BR ; OPTION 2 : 180 % BR",
+      "sub_limits": [
+        "BASE : 100 % BR",
+        "OPTION 1 : 130 % BR",
+        "OPTION 2 : 180 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Actes médicaux - Consultation/Visite spécialiste (DPTM)",
+      "description": "Consultation/Visite spécialiste (DPTM) (1).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 130 % BR ; OPTION 1 : 150 % BR ; OPTION 2 : 200 % BR",
+      "sub_limits": [
+        "BASE : 130 % BR",
+        "OPTION 1 : 150 % BR",
+        "OPTION 2 : 200 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Actes médicaux - Consultation/Visite spécialiste (non DPTM)",
+      "description": "Consultation/Visite spécialiste (non DPTM) (1).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 100 % BR ; OPTION 1 : 130 % BR ; OPTION 2 : 180 % BR",
+      "sub_limits": [
+        "BASE : 100 % BR",
+        "OPTION 1 : 130 % BR",
+        "OPTION 2 : 180 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Actes médicaux - Actes techniques médicaux et chirurgie (DPTM)",
+      "description": "Actes techniques médicaux et chirurgie (DPTM) (1).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 100 % BR ; OPTION 1 : 130 % BR ; OPTION 2 : 150 % BR",
+      "sub_limits": [
+        "BASE : 100 % BR",
+        "OPTION 1 : 130 % BR",
+        "OPTION 2 : 150 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Actes médicaux - Actes techniques médicaux et chirurgie (non DPTM)",
+      "description": "Actes techniques médicaux et chirurgie (non DPTM) (1).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 100 % BR ; OPTION 1 : 100 % BR ; OPTION 2 : 130 % BR",
+      "sub_limits": [
+        "BASE : 100 % BR",
+        "OPTION 1 : 100 % BR",
+        "OPTION 2 : 130 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Actes médicaux - Actes d'imagerie médicale et échographie (DPTM)",
+      "description": "Actes d'imagerie médicale et échographie (DPTM) (1).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 100 % BR ; OPTION 1 : 125 % BR ; OPTION 2 : 150 % BR",
+      "sub_limits": [
+        "BASE : 100 % BR",
+        "OPTION 1 : 125 % BR",
+        "OPTION 2 : 150 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Actes médicaux - Actes d'imagerie médicale et échographie (non DPTM)",
+      "description": "Actes d'imagerie médicale et échographie (non DPTM) (1).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 100 % BR ; OPTION 1 : 100 % BR ; OPTION 2 : 130 % BR",
+      "sub_limits": [
+        "BASE : 100 % BR",
+        "OPTION 1 : 100 % BR",
+        "OPTION 2 : 130 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Actes médicaux - Sages-femmes",
+      "description": "Sages-femmes.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 130 % BR ; OPTION 1 : 130 % BR ; OPTION 2 : 130 % BR",
+      "sub_limits": [
+        "BASE : 130 % BR",
+        "OPTION 1 : 130 % BR",
+        "OPTION 2 : 130 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Séances avec des psychologues",
+      "description": "Séances avec des psychologues (2) : dispositif « Mon soutien psy », dans la limite de 12 séances par an (50 €/séance).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 100 % BR ; OPTION 1 : 100 % BR ; OPTION 2 : 100 % BR",
+      "sub_limits": [
+        "BASE : 100 % BR",
+        "OPTION 1 : 100 % BR",
+        "OPTION 2 : 100 % BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Garantie uniquement disponible dans les « contrats responsables ». (renvoi 2)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Actes médicaux - Auxiliaires médicaux",
+      "description": "Auxiliaires médicaux.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 110 % BR ; OPTION 1 : 120 % BR ; OPTION 2 : 150 % BR",
+      "sub_limits": [
+        "BASE : 110 % BR",
+        "OPTION 1 : 120 % BR",
+        "OPTION 2 : 150 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Actes médicaux - Analyses et examens biologie",
+      "description": "Analyses et examens biologie.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 120 % BR ; OPTION 1 : 120 % BR ; OPTION 2 : 120 % BR",
+      "sub_limits": [
+        "BASE : 120 % BR",
+        "OPTION 1 : 120 % BR",
+        "OPTION 2 : 120 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Médecines douces",
+      "description": "Médecines douces (3) : ostéopathie, chiropractie, acupuncture, sophrologie - Forfait global par an.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 30 € x 4 séances au choix ; OPTION 1 : 40 € x 4 séances au choix ; OPTION 2 : 50 € x 4 séances au choix",
+      "sub_limits": [
+        "BASE : 30 € x 4 séances au choix",
+        "OPTION 1 : 40 € x 4 séances au choix",
+        "OPTION 2 : 50 € x 4 séances au choix"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Forfait global valable pour les actes non remboursés par la Sécurité sociale, chez les praticiens diplômés dans leur spécialité et inscrits aux registres officiels de l'Assurance Maladie, sur présentation d'une facture nominative acquittée. (renvoi 3)",
+        "Pour l'acupuncture, seuls sont pris en charge les actes non remboursés par la Sécurité sociale réalisés chez un médecin, une sage-femme ou un chirurgien-dentiste. (renvoi 3)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Hospitalisation - Frais de séjour",
+      "description": "HOSPITALISATION MÉDICALE, CHIRURGICALE, MATERNITÉ (4) - Frais de séjour.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 150 % BR ; OPTION 1 : 150 % BR ; OPTION 2 : 150 % BR",
+      "sub_limits": [
+        "BASE : 150 % BR",
+        "OPTION 1 : 150 % BR",
+        "OPTION 2 : 150 % BR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Sont pris en compte les remboursements liés aux hospitalisations médicales, chirurgicales, obstétriques, psychiatriques et ambulatoires. Ne sont pas pris en compte les remboursements liés aux longs séjours suivants : les longs séjours en maison de cure médicale et de retraite pour personnes âgées. (renvoi 4)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Hospitalisation - Forfait acte lourd",
+      "description": "Forfait acte lourd.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 32 € ; OPTION 1 : 32 € ; OPTION 2 : 32 €",
+      "sub_limits": [
+        "BASE : 32 €",
+        "OPTION 1 : 32 €",
+        "OPTION 2 : 32 €"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Hospitalisation - Forfait journalier hospitalier",
+      "description": "Forfait journalier hospitalier (5) : durée illimitée.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : Frais réels ; OPTION 1 : Frais réels ; OPTION 2 : Frais réels",
+      "sub_limits": [
+        "BASE : Frais réels",
+        "OPTION 1 : Frais réels",
+        "OPTION 2 : Frais réels"
+      ],
+      "deductible": null,
+      "conditions": [
+        "MAS et EHPAD non pris en charge. (renvoi 5)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Hospitalisation - Forfait patient urgences",
+      "description": "Forfait patient urgences.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : Frais réels ; OPTION 1 : Frais réels ; OPTION 2 : Frais réels",
+      "sub_limits": [
+        "BASE : Frais réels",
+        "OPTION 1 : Frais réels",
+        "OPTION 2 : Frais réels"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Hospitalisation - Honoraires médicaux et chirurgicaux (DPTM)",
+      "description": "Honoraires médicaux et chirurgicaux (DPTM) (1).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 250 % BR ; OPTION 1 : 250 % BR ; OPTION 2 : 250 % BR",
+      "sub_limits": [
+        "BASE : 250 % BR",
+        "OPTION 1 : 250 % BR",
+        "OPTION 2 : 250 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Hospitalisation - Honoraires médicaux et chirurgicaux (non DPTM)",
+      "description": "Honoraires médicaux et chirurgicaux (non DPTM) (1).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 200 % BR ; OPTION 1 : 200 % BR ; OPTION 2 : 200 % BR",
+      "sub_limits": [
+        "BASE : 200 % BR",
+        "OPTION 1 : 200 % BR",
+        "OPTION 2 : 200 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Hospitalisation - Chambre particulière",
+      "description": "Chambre particulière - Forfait par jour.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 25 €/jour ; OPTION 1 : 40 €/jour ; OPTION 2 : 60 €/jour",
+      "sub_limits": [
+        "BASE : 25 €/jour",
+        "OPTION 1 : 40 €/jour",
+        "OPTION 2 : 60 €/jour"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Hospitalisation - Frais accompagnant",
+      "description": "Frais accompagnant (6) - Forfait par jour. Dans le cadre d'une hospitalisation d'un enfant de moins de 16 ans.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 30 €/jour ; OPTION 1 : 30 €/jour ; OPTION 2 : 30 €/jour",
+      "sub_limits": [
+        "BASE : 30 €/jour",
+        "OPTION 1 : 30 €/jour",
+        "OPTION 2 : 30 €/jour"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Pharmacie - Médicaments à SMR majeur",
+      "description": "Médicaments à SMR majeur.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 100 % BR ; OPTION 1 : 100 % BR ; OPTION 2 : 100 % BR",
+      "sub_limits": [
+        "BASE : 100 % BR",
+        "OPTION 1 : 100 % BR",
+        "OPTION 2 : 100 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Pharmacie - Médicaments à SMR modéré",
+      "description": "Médicaments à SMR modéré.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 100 % BR ; OPTION 1 : 100 % BR ; OPTION 2 : 100 % BR",
+      "sub_limits": [
+        "BASE : 100 % BR",
+        "OPTION 1 : 100 % BR",
+        "OPTION 2 : 100 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Pharmacie - Médicaments à SMR faible",
+      "description": "Médicaments à SMR faible.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 100 % BR ; OPTION 1 : 100 % BR ; OPTION 2 : 100 % BR",
+      "sub_limits": [
+        "BASE : 100 % BR",
+        "OPTION 1 : 100 % BR",
+        "OPTION 2 : 100 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Pharmacie - Prescriptions non prises en charge et homéopathie/phytothérapie",
+      "description": "Prescriptions non prises en charge et homéopathie/phytothérapie prescrites non remboursés par la Sécurité sociale (7) - Forfait global par an.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 20 €/an ; OPTION 1 : 30 €/an ; OPTION 2 : 30 €/an",
+      "sub_limits": [
+        "BASE : 20 €/an",
+        "OPTION 1 : 30 €/an",
+        "OPTION 2 : 30 €/an"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Forfait valable sur prescription médicale et facture nominative acquittée. (renvoi 7)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Dentaire - Soins",
+      "description": "Soins.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 100 % BR ; OPTION 1 : 125 % BR ; OPTION 2 : 175 % BR",
+      "sub_limits": [
+        "BASE : 100 % BR",
+        "OPTION 1 : 125 % BR",
+        "OPTION 2 : 175 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Dentaire - Inlay-onlay pris en charge Sécurité sociale",
+      "description": "Inlay-onlay prise en charge Sécurité sociale.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 125 €/acte ; OPTION 1 : 175 €/acte ; OPTION 2 : 225 €/acte",
+      "sub_limits": [
+        "BASE : 125 €/acte",
+        "OPTION 1 : 175 €/acte",
+        "OPTION 2 : 225 €/acte"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Dentaire - Prothèses 100 % Santé",
+      "description": "Prothèses 100 % Santé (8).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : Remboursement intégral ; OPTION 1 : Remboursement intégral ; OPTION 2 : Remboursement intégral",
+      "sub_limits": [
+        "BASE : Remboursement intégral",
+        "OPTION 1 : Remboursement intégral",
+        "OPTION 2 : Remboursement intégral"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Dentaire - Couronne transitoire",
+      "description": "Prothèses à tarifs maîtrisés (9) /libres (10) - Couronne transitoire.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 60 €/acte ; OPTION 1 : 60 €/acte ; OPTION 2 : 60 €/acte",
+      "sub_limits": [
+        "BASE : 60 €/acte",
+        "OPTION 1 : 60 €/acte",
+        "OPTION 2 : 60 €/acte"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Dentaire - Prothèse fixe prise en charge par la Sécurité sociale",
+      "description": "Prothèse fixe prise en charge par la Sécurité sociale (11).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : Total de 188 % BR + 350 €/an ; OPTION 1 : Total de 188 % BR + 400 €/an ; OPTION 2 : Total de 188 % BR + 400 €/an",
+      "sub_limits": [
+        "BASE : Total de 188 % BR + 350 €/an",
+        "OPTION 1 : Total de 188 % BR + 400 €/an",
+        "OPTION 2 : Total de 188 % BR + 400 €/an"
+      ],
+      "deductible": null,
+      "conditions": [
+        "1 seul forfait par an 350 €/400 € selon le régime, cumulé sur l'ensemble des postes prothèses dentaires. (renvoi 11)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Dentaire - Prothèse amovible/bridge prise en charge par la Sécurité sociale",
+      "description": "Prothèse amovible/bridge prise en charge par la Sécurité sociale (11).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : Total de 210 % BR + 350 €/an ; OPTION 1 : Total de 210 % BR + 400 €/an ; OPTION 2 : Total de 360 % BR + 400 €/an",
+      "sub_limits": [
+        "BASE : Total de 210 % BR + 350 €/an",
+        "OPTION 1 : Total de 210 % BR + 400 €/an",
+        "OPTION 2 : Total de 360 % BR + 400 €/an"
+      ],
+      "deductible": null,
+      "conditions": [
+        "1 seul forfait par an 350 €/400 € selon le régime, cumulé sur l'ensemble des postes prothèses dentaires. (renvoi 11)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Dentaire - Inlay-core pris en charge par la Sécurité sociale",
+      "description": "Inlay-core pris en charge par la Sécurité sociale (11).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : Total de 210 % BR + 350 €/an ; OPTION 1 : Total de 210 % BR + 400 €/an ; OPTION 2 : Total de 360 % BR + 400 €/an",
+      "sub_limits": [
+        "BASE : Total de 210 % BR + 350 €/an",
+        "OPTION 1 : Total de 210 % BR + 400 €/an",
+        "OPTION 2 : Total de 360 % BR + 400 €/an"
+      ],
+      "deductible": null,
+      "conditions": [
+        "1 seul forfait par an 350 €/400 € selon le régime, cumulé sur l'ensemble des postes prothèses dentaires. (renvoi 11)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Dentaire - Orthodontie prise en charge par la Sécurité sociale",
+      "description": "Autres actes dentaires - Orthodontie prise en charge par la Sécurité sociale.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 160 % BR ; OPTION 1 : 250 % BR ; OPTION 2 : 425 % BR",
+      "sub_limits": [
+        "BASE : 160 % BR",
+        "OPTION 1 : 250 % BR",
+        "OPTION 2 : 425 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Dentaire - Orthodontie non prise en charge par la Sécurité sociale",
+      "description": "Orthodontie non prise en charge par la Sécurité sociale.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : - ; OPTION 1 : 200 % BR ; OPTION 2 : 300 % BR",
+      "sub_limits": [
+        "BASE : -",
+        "OPTION 1 : 200 % BR",
+        "OPTION 2 : 300 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Dentaire - Parodontologie prise en charge par la Sécurité sociale",
+      "description": "Parodontologie prise en charge par la Sécurité sociale.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 100 % BR ; OPTION 1 : 100 % BR ; OPTION 2 : 100 % BR",
+      "sub_limits": [
+        "BASE : 100 % BR",
+        "OPTION 1 : 100 % BR",
+        "OPTION 2 : 100 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Dentaire - Implantologie (dent de devant, IMP)",
+      "description": "Implantologie (dent de devant, IMP) (12).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 300 €/dent ; OPTION 1 : 400 €/dent ; OPTION 2 : 500 €/dent",
+      "sub_limits": [
+        "BASE : 300 €/dent",
+        "OPTION 1 : 400 €/dent",
+        "OPTION 2 : 500 €/dent"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Limite de deux implants au global par an. Sont considérées comme dents de devant : les incisives, les canines, les prémolaires. Sont considérées dents du fond : les premières, deuxièmes et troisièmes molaires. (renvoi 12)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Dentaire - Implantologie (dent du fond, IMP)",
+      "description": "Implantologie (dent du fond, IMP) (12).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 250 €/dent ; OPTION 1 : 400 €/dent ; OPTION 2 : 500 €/dent",
+      "sub_limits": [
+        "BASE : 250 €/dent",
+        "OPTION 1 : 400 €/dent",
+        "OPTION 2 : 500 €/dent"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Limite de deux implants au global par an. Sont considérées comme dents de devant : les incisives, les canines, les prémolaires. Sont considérées dents du fond : les premières, deuxièmes et troisièmes molaires. (renvoi 12)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Autres prescriptions - Orthopédie",
+      "description": "AUTRES PRESCRIPTIONS - Orthopédie.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 100 % BR ; OPTION 1 : 100 % BR ; OPTION 2 : 100 % BR",
+      "sub_limits": [
+        "BASE : 100 % BR",
+        "OPTION 1 : 100 % BR",
+        "OPTION 2 : 100 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Autres prescriptions - Prothèses médicales dont prothèses capillaires et appareillage",
+      "description": "Prothèses médicales dont prothèses capillaires (13) et appareillage.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 100 % BR ; OPTION 1 : 100 % BR ; OPTION 2 : 100 % BR",
+      "sub_limits": [
+        "BASE : 100 % BR",
+        "OPTION 1 : 100 % BR",
+        "OPTION 2 : 100 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Fauteuils roulants - Équipement 100 % Santé",
+      "description": "Fauteuils roulants - Équipement 100 % Santé (14).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : Remboursement intégral ; OPTION 1 : Remboursement intégral ; OPTION 2 : Remboursement intégral",
+      "sub_limits": [
+        "BASE : Remboursement intégral",
+        "OPTION 1 : Remboursement intégral",
+        "OPTION 2 : Remboursement intégral"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Prothèses capillaires - Équipement 100 % Santé Classes I et II",
+      "description": "Prothèses capillaires - Équipement 100 % Santé - Classes I et II (15).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : Remboursement intégral ; OPTION 1 : Remboursement intégral ; OPTION 2 : Remboursement intégral",
+      "sub_limits": [
+        "BASE : Remboursement intégral",
+        "OPTION 1 : Remboursement intégral",
+        "OPTION 2 : Remboursement intégral"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Frais de transport",
+      "description": "Frais de transport.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 100 % BR ; OPTION 1 : 100 % BR ; OPTION 2 : 100 % BR",
+      "sub_limits": [
+        "BASE : 100 % BR",
+        "OPTION 1 : 100 % BR",
+        "OPTION 2 : 100 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Cure thermale",
+      "description": "Cure thermale (y compris forfait de surveillance médicale, forfait thermal, frais d'hébergement et frais de transport).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 65 % à 70 % BR ; OPTION 1 : 65 % à 70 % BR ; OPTION 2 : 65 % à 70 % BR",
+      "sub_limits": [
+        "BASE : 65 % à 70 % BR",
+        "OPTION 1 : 65 % à 70 % BR",
+        "OPTION 2 : 65 % à 70 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Actes de prévention",
+      "description": "Actes de prévention (16) : tous les actes de prévention sont pris en charge au titre du contrat.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 100 % BR ; OPTION 1 : 100 % BR ; OPTION 2 : 100 % BR",
+      "sub_limits": [
+        "BASE : 100 % BR",
+        "OPTION 1 : 100 % BR",
+        "OPTION 2 : 100 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Sevrage tabagique (substituts nicotiniques)",
+      "description": "Sevrage tabagique (substituts nicotiniques) (17) - Forfait par an/bénéficiaire.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 150 € /an/bénéficiaire ; OPTION 1 : 150 € /an/bénéficiaire ; OPTION 2 : 150 € /an/bénéficiaire",
+      "sub_limits": [
+        "BASE : 150 € /an/bénéficiaire",
+        "OPTION 1 : 150 € /an/bénéficiaire",
+        "OPTION 2 : 150 € /an/bénéficiaire"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Pour l'acupuncture, seuls sont pris en charge les actes non remboursés par la Sécurité sociale réalisés chez un médecin, une sage-femme ou un chirurgien-dentiste. (renvoi 17)"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Aides auditives - Équipement 100 % Santé Classe I",
+      "description": "AIDES AUDITIVES (18) - Équipement 100 % Santé - Classe I (19).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : Remboursement intégral ; OPTION 1 : Remboursement intégral ; OPTION 2 : Remboursement intégral",
+      "sub_limits": [
+        "BASE : Remboursement intégral",
+        "OPTION 1 : Remboursement intégral",
+        "OPTION 2 : Remboursement intégral"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Dans la limite d'un appareil par oreille par période de 4 ans suivant la date de délivrance de l'appareil précédent (ce délai s'entendant pour chaque oreille indépendamment). S'agissant de l'Équipement libre (Classe II), la prise en charge s'effectue dans tous les cas dans la limite du plafond de remboursement prévu par la règlementation en vigueur du « contrat responsable » (soit 1 700 € RSS inclus au 01.01.2021). (renvoi 18)"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Aides auditives - Classe II - moins de 20 ans et/ou cécité",
+      "description": "Équipement à tarif libre - Classe II (20) - Forfait par oreille - Aide auditive moins de 20 ans (21) et/ou atteint de cécité.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 1600 €/oreille ; OPTION 1 : 1700 €/oreille ; OPTION 2 : 1700 €/oreille",
+      "sub_limits": [
+        "BASE : 1600 €/oreille",
+        "OPTION 1 : 1700 €/oreille",
+        "OPTION 2 : 1700 €/oreille"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Dans la limite d'un appareil par oreille par période de 4 ans suivant la date de délivrance de l'appareil précédent (ce délai s'entendant pour chaque oreille indépendamment). S'agissant de l'Équipement libre (Classe II), la prise en charge s'effectue dans tous les cas dans la limite du plafond de remboursement prévu par la règlementation en vigueur du « contrat responsable » (soit 1 700 € RSS inclus au 01.01.2021). (renvoi 18)"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Aides auditives - Classe II - 20 ans et plus",
+      "description": "Équipement à tarif libre - Classe II (20) - Aide auditive 20 ans et plus (21).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 560 €/oreille ; OPTION 1 : 760 €/oreille ; OPTION 2 : 1110 €/oreille",
+      "sub_limits": [
+        "BASE : 560 €/oreille",
+        "OPTION 1 : 760 €/oreille",
+        "OPTION 2 : 1110 €/oreille"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Dans la limite d'un appareil par oreille par période de 4 ans suivant la date de délivrance de l'appareil précédent (ce délai s'entendant pour chaque oreille indépendamment). S'agissant de l'Équipement libre (Classe II), la prise en charge s'effectue dans tous les cas dans la limite du plafond de remboursement prévu par la règlementation en vigueur du « contrat responsable » (soit 1 700 € RSS inclus au 01.01.2021). (renvoi 18)"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Aides auditives - Réparation en entretien",
+      "description": "Réparation en entretien (22) : entretien (y compris le changement des piles), réglages, réparation prothèses auditives réalisés par l'audioprothésiste.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 100 % BR ; OPTION 1 : 100 % BR ; OPTION 2 : 100 % BR",
+      "sub_limits": [
+        "BASE : 100 % BR",
+        "OPTION 1 : 100 % BR",
+        "OPTION 2 : 100 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Optique - Équipement 100 % Santé Classe A",
+      "description": "OPTIQUE (23) - Équipement 100 % Santé - Classe A (24).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : Remboursement intégral ; OPTION 1 : Remboursement intégral ; OPTION 2 : Remboursement intégral",
+      "sub_limits": [
+        "BASE : Remboursement intégral",
+        "OPTION 1 : Remboursement intégral",
+        "OPTION 2 : Remboursement intégral"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Forfait versé dans la limite d'une paire de lunettes tous les 24 mois à partir de la date d'achat ou tous les 12 mois en cas de renouvellement anticipé prévu à l'article R 871-2 du Code de la Sécurité sociale, notamment pour les moins de 16 ans ou en cas d'évolution de la vue. Panachage des verres et monture : un Équipement peut être composé de deux verres d'une part, et d'une monture d'autre part, appartenant à des Classes (A ou B) différentes. (renvoi 23)"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Optique - Équipement à tarif libre Classe B - Monture adulte",
+      "description": "Équipement à tarif libre - Classe B (25) - Monture adulte.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 100 € ; OPTION 1 : 100 € ; OPTION 2 : 100 €",
+      "sub_limits": [
+        "BASE : 100 €",
+        "OPTION 1 : 100 €",
+        "OPTION 2 : 100 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Forfait versé dans la limite d'une paire de lunettes tous les 24 mois à partir de la date d'achat ou tous les 12 mois en cas de renouvellement anticipé prévu à l'article R 871-2 du Code de la Sécurité sociale, notamment pour les moins de 16 ans ou en cas d'évolution de la vue. Panachage des verres et monture : un Équipement peut être composé de deux verres d'une part, et d'une monture d'autre part, appartenant à des Classes (A ou B) différentes. (renvoi 23)"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Optique - Équipement à tarif libre Classe B - Monture enfant",
+      "description": "Équipement à tarif libre - Classe B (25) - Monture enfant.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 100 € ; OPTION 1 : 100 € ; OPTION 2 : 100 €",
+      "sub_limits": [
+        "BASE : 100 €",
+        "OPTION 1 : 100 €",
+        "OPTION 2 : 100 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Forfait versé dans la limite d'une paire de lunettes tous les 24 mois à partir de la date d'achat ou tous les 12 mois en cas de renouvellement anticipé prévu à l'article R 871-2 du Code de la Sécurité sociale, notamment pour les moins de 16 ans ou en cas d'évolution de la vue. Panachage des verres et monture : un Équipement peut être composé de deux verres d'une part, et d'une monture d'autre part, appartenant à des Classes (A ou B) différentes. (renvoi 23)"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Optique - Équipement à tarif libre Classe B - 2 verres simples",
+      "description": "2 verres simples.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 240 € ; OPTION 1 : 300 € ; OPTION 2 : 300 €",
+      "sub_limits": [
+        "BASE : 240 €",
+        "OPTION 1 : 300 €",
+        "OPTION 2 : 300 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Forfait versé dans la limite d'une paire de lunettes tous les 24 mois à partir de la date d'achat ou tous les 12 mois en cas de renouvellement anticipé prévu à l'article R 871-2 du Code de la Sécurité sociale, notamment pour les moins de 16 ans ou en cas d'évolution de la vue. Panachage des verres et monture : un Équipement peut être composé de deux verres d'une part, et d'une monture d'autre part, appartenant à des Classes (A ou B) différentes. (renvoi 23)"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Optique - Équipement à tarif libre Classe B - 2 verres complexes",
+      "description": "2 verres complexes.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 350 € ; OPTION 1 : 350 € ; OPTION 2 : 500 €",
+      "sub_limits": [
+        "BASE : 350 €",
+        "OPTION 1 : 350 €",
+        "OPTION 2 : 500 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Forfait versé dans la limite d'une paire de lunettes tous les 24 mois à partir de la date d'achat ou tous les 12 mois en cas de renouvellement anticipé prévu à l'article R 871-2 du Code de la Sécurité sociale, notamment pour les moins de 16 ans ou en cas d'évolution de la vue. Panachage des verres et monture : un Équipement peut être composé de deux verres d'une part, et d'une monture d'autre part, appartenant à des Classes (A ou B) différentes. (renvoi 23)"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Optique - Équipement à tarif libre Classe B - 2 verres très complexes",
+      "description": "2 verres très complexes.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 350 € ; OPTION 1 : 375 € ; OPTION 2 : 600 €",
+      "sub_limits": [
+        "BASE : 350 €",
+        "OPTION 1 : 375 €",
+        "OPTION 2 : 600 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Forfait versé dans la limite d'une paire de lunettes tous les 24 mois à partir de la date d'achat ou tous les 12 mois en cas de renouvellement anticipé prévu à l'article R 871-2 du Code de la Sécurité sociale, notamment pour les moins de 16 ans ou en cas d'évolution de la vue. Panachage des verres et monture : un Équipement peut être composé de deux verres d'une part, et d'une monture d'autre part, appartenant à des Classes (A ou B) différentes. (renvoi 23)"
+      ],
+      "page": 2
+    },
+    {
+      "name": "Optique - Lentilles remboursées par la Sécurité sociale",
+      "description": "Autres prestations - Lentilles remboursées par la Sécurité sociale - Forfait par an.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 455 % BR + 300€ / an ; OPTION 1 : 455 % BR + 300€ / an ; OPTION 2 : 455 % BR + 300€ / an",
+      "sub_limits": [
+        "BASE : 455 % BR + 300€ / an",
+        "OPTION 1 : 455 % BR + 300€ / an",
+        "OPTION 2 : 455 % BR + 300€ / an"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Optique - Lentilles non remboursées par la Sécurité sociale",
+      "description": "Lentilles non remboursées par la Sécurité sociale - Forfait par an/bénéficiaire.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 100 € /an/bénéficiaire ; OPTION 1 : 200 € /an/bénéficiaire ; OPTION 2 : 200 € /an/bénéficiaire",
+      "sub_limits": [
+        "BASE : 100 € /an/bénéficiaire",
+        "OPTION 1 : 200 € /an/bénéficiaire",
+        "OPTION 2 : 200 € /an/bénéficiaire"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Optique - Autres prestations sur verres et montures",
+      "description": "Autres prestations sur verres et montures : filtres, prisme et adaptation de la prescription (26).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : 100 % BR ; OPTION 1 : 100 % BR ; OPTION 2 : 100 % BR",
+      "sub_limits": [
+        "BASE : 100 % BR",
+        "OPTION 1 : 100 % BR",
+        "OPTION 2 : 100 % BR"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Maternité",
+      "description": "Maternité (dans la limite des frais engagés et sur production de factures).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : ⅓  PMSS ; OPTION 1 : ⅓ PMSS ; OPTION 2 : ⅓ PMSS",
+      "sub_limits": [
+        "BASE : ⅓  PMSS",
+        "OPTION 1 : ⅓ PMSS",
+        "OPTION 2 : ⅓ PMSS"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Dans la limite des frais engagés et sur production de factures."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Services + - Itelis",
+      "description": "Itelis : avantages tarifaires optique, audio et médecines douces.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : Inclus ; OPTION 1 : Inclus ; OPTION 2 : Inclus",
+      "sub_limits": [
+        "BASE : Inclus",
+        "OPTION 1 : Inclus",
+        "OPTION 2 : Inclus"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Services + - Medaviz",
+      "description": "Medaviz : téléconsultation 24 h/24, 7 j/7.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : Inclus ; OPTION 1 : Inclus ; OPTION 2 : Inclus",
+      "sub_limits": [
+        "BASE : Inclus",
+        "OPTION 1 : Inclus",
+        "OPTION 2 : Inclus"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Services + - Livmed's",
+      "description": "Livmed's : livraison de médicaments 24 h/24, 7 j/7.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : Inclus ; OPTION 1 : Inclus ; OPTION 2 : Inclus",
+      "sub_limits": [
+        "BASE : Inclus",
+        "OPTION 1 : Inclus",
+        "OPTION 2 : Inclus"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Services + - Deuxième avis médical",
+      "description": "Deuxième avis médical : service d'accès à l'expertise médicale en ligne.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : Inclus ; OPTION 1 : Inclus ; OPTION 2 : Inclus",
+      "sub_limits": [
+        "BASE : Inclus",
+        "OPTION 1 : Inclus",
+        "OPTION 2 : Inclus"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Services + - Bilan de santé digital",
+      "description": "Bilan de santé digital : évaluation de santé globale.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : Inclus ; OPTION 1 : Inclus ; OPTION 2 : Inclus",
+      "sub_limits": [
+        "BASE : Inclus",
+        "OPTION 1 : Inclus",
+        "OPTION 2 : Inclus"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Services + - Méta-Coaching",
+      "description": "Méta-Coaching : programme de coaching santé en ligne.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : Inclus ; OPTION 1 : Inclus ; OPTION 2 : Inclus",
+      "sub_limits": [
+        "BASE : Inclus",
+        "OPTION 1 : Inclus",
+        "OPTION 2 : Inclus"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Services + - Salvum",
+      "description": "Salvum : formation aux gestes qui sauvent.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : Inclus ; OPTION 1 : Inclus ; OPTION 2 : Inclus",
+      "sub_limits": [
+        "BASE : Inclus",
+        "OPTION 1 : Inclus",
+        "OPTION 2 : Inclus"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Services + - Assistance Matmut",
+      "description": "Assistance Matmut.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : Inclus ; OPTION 1 : Inclus ; OPTION 2 : Inclus",
+      "sub_limits": [
+        "BASE : Inclus",
+        "OPTION 1 : Inclus",
+        "OPTION 2 : Inclus"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Services + - Protection juridique santé",
+      "description": "Protection juridique santé.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "BASE : Inclus ; OPTION 1 : Inclus ; OPTION 2 : Inclus",
+      "sub_limits": [
+        "BASE : Inclus",
+        "OPTION 1 : Inclus",
+        "OPTION 2 : Inclus"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Longs séjours en maison de cure médicale et de retraite pour personnes âgées",
+      "description": "Ne sont pas pris en compte les remboursements liés aux longs séjours suivants : les longs séjours en maison de cure médicale et de retraite pour personnes âgées. (renvoi 4)",
+      "applies_to": "Hospitalisation",
+      "page": 3
+    },
+    {
+      "name": "MAS et EHPAD (forfait journalier hospitalier)",
+      "description": "Forfait journalier hospitalier : durée illimitée. MAS et EHPAD non pris en charge. (renvoi 5)",
+      "applies_to": "Hospitalisation - Forfait journalier hospitalier",
+      "page": 3
+    },
+    {
+      "name": "Orthodontie non prise en charge par la Sécurité sociale - non couverte en BASE",
+      "description": "La ligne « Orthodontie non prise en charge par la Sécurité sociale » porte la valeur « - » pour la BASE.",
+      "applies_to": "Dentaire - Orthodontie non prise en charge par la Sécurité sociale",
+      "page": 1
+    },
+    {
+      "name": "Forfait dentaire unique cumulé sur l'ensemble des postes prothèses",
+      "description": "1 seul forfait par an 350 €/400 € selon le régime, cumulé sur l'ensemble des postes prothèses dentaires. (renvoi 11)",
+      "applies_to": "Dentaire - Prothèse fixe, prothèse amovible/bridge et inlay-core",
+      "page": 3
+    },
+    {
+      "name": "Au-delà de deux implants par an",
+      "description": "Limite de deux implants au global par an. (renvoi 12)",
+      "applies_to": "Dentaire - Implantologie",
+      "page": 3
+    },
+    {
+      "name": "Plafond réglementaire des aides auditives de Classe II",
+      "description": "S'agissant de l'Équipement libre (Classe II), la prise en charge dans le cadre du présent régime s'effectue dans tous les cas dans la limite du plafond de remboursement prévu par la règlementation en vigueur du « contrat responsable » (soit 1 700 € RSS inclus au 01.01.2021). (renvoi 18)",
+      "applies_to": "Aides auditives - Classe II",
+      "page": 3
+    },
+    {
+      "name": "Aide auditive avant 4 ans",
+      "description": "Dans la limite d'un appareil par oreille par période de 4 ans suivant la date de délivrance de l'appareil précédent (ce délai s'entendant pour chaque oreille indépendamment). (renvoi 18)",
+      "applies_to": "Aides auditives",
+      "page": 3
+    },
+    {
+      "name": "Renouvellement optique avant 24 mois",
+      "description": "Forfait versé dans la limite d'une paire de lunettes tous les 24 mois à partir de la date d'achat ou tous les 12 mois en cas de renouvellement anticipé prévu à l'article R 871-2 du Code de la Sécurité sociale, notamment pour les moins de 16 ans ou en cas d'évolution de la vue. (renvoi 23)",
+      "applies_to": "Optique",
+      "page": 3
+    },
+    {
+      "name": "Frais accompagnant réservés à l'hospitalisation d'un enfant de moins de 16 ans",
+      "description": "Dans le cadre d'une hospitalisation d'un enfant de moins de 16 ans. (renvoi 6)",
+      "applies_to": "Hospitalisation - Frais accompagnant",
+      "page": 3
+    },
+    {
+      "name": "Acupuncture hors médecin, sage-femme ou chirurgien-dentiste",
+      "description": "Pour l'acupuncture, seuls sont pris en charge les actes non remboursés par la Sécurité sociale réalisés chez un médecin, une sage-femme ou un chirurgien-dentiste. (renvois 3 et 17)",
+      "applies_to": "Médecines douces ; Sevrage tabagique",
+      "page": 3
+    },
+    {
+      "name": "Séances avec des psychologues hors contrat responsable",
+      "description": "Garantie uniquement disponible dans les « contrats responsables ». (renvoi 2)",
+      "applies_to": "Séances avec des psychologues",
+      "page": 3
+    },
+    {
+      "name": "Plafonnement au reste à charge réel",
+      "description": "Nos remboursements ne peuvent être supérieurs au montant des frais restant à charge effective de l'adhérent.",
+      "applies_to": "all",
+      "page": 3
+    },
+    {
+      "name": "Livraison de médicaments au-delà de 3 par an ou hors rayon de 20 km",
+      "description": "Prise en charge de 3 livraisons par an par la mutuelle dans un rayon de 20km, au-delà le complément reste à la charge de l'adhérent.",
+      "applies_to": "Services + - Livmed's",
+      "page": 4
+    }
+  ],
+  "deductibles": null,
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Justificatifs des forfaits",
+      "description": "Les forfaits sont versés sur présentation de l'original de la facture nominative acquittée et détaillée par acte.",
+      "timing": "Lors de la demande de remboursement",
+      "sanction": null,
+      "page": 3
+    },
+    {
+      "name": "Production de factures (maternité)",
+      "description": "Maternité : dans la limite des frais engagés et sur production de factures.",
+      "timing": "Lors de la demande de remboursement",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Prescription médicale",
+      "description": "Le forfait « Prescriptions non prises en charge et homéopathie/phytothérapie » n'est valable que sur prescription médicale et facture nominative acquittée. (renvoi 7)",
+      "timing": "Avant l'engagement des frais",
+      "sanction": null,
+      "page": 3
+    }
+  ],
+  "claims_procedure": [],
+  "duration_and_cancellation": null,
+  "prescription_period": null,
+  "premium": null,
+  "special_conditions": [
+    {
+      "name": "Coassurance de branche",
+      "description": "Ce dispositif est mutualisé dans le cadre d'une coassurance Santé mise en place par les organisations paritaires de la Branche professionnelle. Les mutuelles co-assureurs du régime sont présentées dans les Conditions Générales et la Notice d'Information.",
+      "page": 4
+    },
+    {
+      "name": "Assureur de la garantie Santé",
+      "description": "Assureur de la garantie Santé - Mutuelle Ociane - Mutuelle soumise aux dispositions du Livre II du Code de la Mutualité, immatriculée sous le n° SIREN 434 243 085. Siège social : 35 rue Claude Bonnier - 33054 BORDEAUX Cedex. Les statuts de la Mutuelle Ociane sont disponibles sur matmut.fr.",
+      "page": 4
+    },
+    {
+      "name": "Matmut",
+      "description": "Matmut - Mutuelle assurance des travailleurs mutualistes, Société d'assurance mutuelle à cotisations variables, immatriculée au RCS de Rouen n° 775 701 477. Entreprise régie par le Code des assurances, 66, rue de Sotteville 76100 Rouen.",
+      "page": 4
+    },
+    {
+      "name": "Protection juridique",
+      "description": "Prestation réalisée par Matmut Protection juridique, Société du Groupe Matmut - Société Anonyme (SA) au capital de 7 500 000 € entièrement libéré. Entreprise régie par le Code des Assurances, inscrite au RCS de Rouen sous le n° SIREN 423 499 391. Siège Social : 66 Rue de Sotteville 76100 Rouen.",
+      "page": 4
+    },
+    {
+      "name": "Assistance",
+      "description": "Assistance - Prestations réalisées par IMA GIE - Société Anonyme à Directoire et Conseil de Surveillance au capital social de 55 382 784 €, inscrit au RCS de Niort sous le n° Siren 320 281 025. Siège social : 118, avenue de Paris CS 40 000 79033 Niort CEDEX 9.",
+      "page": 4
+    },
+    {
+      "name": "Itelis",
+      "description": "Itelis est une marque d'Isea. Isea Société Anonyme (SA) à Directoire et Conseil de Surveillance au capital de 5 452 135,92€, inscrite au RCS de Paris sous le n° SIREN 440 358 471.",
+      "page": 4
+    },
+    {
+      "name": "Téléconsultation Medaviz",
+      "description": "Téléconsultation Medaviz - Service mis en œuvre par Podalire. Société par Actions Simplifiée (SAS) au capital social de 83 800 €, inscrite au RCS de Paris sous le n° SIREN 807 414 024. Le service doit faire l'objet d'une utilisation raisonnable.",
+      "page": 4
+    },
+    {
+      "name": "deuxiemeavis.fr",
+      "description": "deuxiemeavis.fr - Le service deuxiemeavis.fr est édité par la société CARIANS. Société par Actions Simplifiée (SAS) au capital social de 109 230 €, inscrite au RCS de Paris sous le n° SIREN 803 657 717.",
+      "page": 4
+    },
+    {
+      "name": "Livraison de médicaments LIVMED'S",
+      "description": "Livraison de médicaments LIVMED'S - Société par Actions Simplifiée (SAS) au capital social de 67 114 €, immatriculée au RCS de Nice sous le n°881 600 456. Prise en charge de 3 livraisons par an par la mutuelle dans un rayon de 20km, au-delà le complément reste à la charge de l'adhérent.",
+      "page": 4
+    },
+    {
+      "name": "Salvum",
+      "description": "Salvum - Formation en ligne de secourisme. Société par Actions Simplifiée (SAS) au capital social de 449 320 €, inscrite au RCS de Meaux sous le n° SIREN 801 777 541.",
+      "page": 4
+    },
+    {
+      "name": "Valeur du document",
+      "description": "Document non contractuel. L'ensemble des garanties évoquées dans ce document s'applique dans les limites et conditions définies au contrat.",
+      "page": 4
+    },
+    {
+      "name": "Base de calcul des remboursements",
+      "description": "Les pourcentages indiqués incluent la part de la Sécurité sociale et s'appliquent sur la Base de Remboursement (BR) pour les actes relevant de la CCAM (Classification Commune des Actes Médicaux), tarif de convention pour les actes référencés NGAP (Nomenclature Générale des Actes Professionnels), tarif de responsabilité pour les actes référencés LPP (Liste des Produits et des Prestations). Pour les praticiens non conventionnés, la Base de Remboursement est retenue sur la base du tarif d'autorité. Les forfaits annuels s'entendent dans le cadre de l'année civile et par bénéficiaire. Les forfaits sont versés sur présentation de l'original de la facture nominative acquittée et détaillée par acte. Nos remboursements ne peuvent être supérieurs au montant des frais restant à charge effective de l'adhérent. Le total des remboursements est exprimé y compris la part RO.",
+      "page": 3
+    },
+    {
+      "name": "Panachage des verres et monture",
+      "description": "Panachage des verres et monture : un Équipement peut être composé de deux verres d'une part, et d'une monture d'autre part, appartenant à des Classes (A ou B) différentes. (renvoi 23)",
+      "page": 3
+    },
+    {
+      "name": "Exemples de remboursements 2026",
+      "description": "Les pages 5 à 9 donnent des exemples chiffrés de remboursements pour chaque niveau, avec prix moyen pratiqué, remboursement Sécurité sociale, remboursement Mutuelle Ociane Matmut et reste à charge. Ils sont illustratifs et ne modifient pas les garanties.",
+      "page": 5
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Ce dispositif est mutualisé dans le cadre d’une coassurance Santé mise en place par les organisations paritaires de la Branche professionnelle.",
+      "page": 4,
+      "context": "Coassurance de branche"
+    },
+    {
+      "quote": "Assureur de la garantie Santé - Mutuelle Ociane - Mutuelle soumise aux dispositions du Livre II du Code de la Mutualité, immatriculée sous le n° SIREN 434 243",
+      "page": 4,
+      "context": "Porteur du risque santé"
+    },
+    {
+      "quote": "(5) Forfait journalier hospitalier : durée illimitée. MAS et EHPAD non pris en charge.",
+      "page": 3,
+      "context": "Exclusion MAS/EHPAD"
+    },
+    {
+      "quote": "(11) 1 seul forfait par an 350 €/400 € selon le régime, cumulé sur l'ensemble des postes prothèses dentaires.",
+      "page": 3,
+      "context": "Forfait dentaire unique"
+    },
+    {
+      "quote": "(12) Limite de deux implants au global par an.",
+      "page": 3,
+      "context": "Limite implants"
+    },
+    {
+      "quote": "soit 1 700 € RSS inclus au 01.01.2021",
+      "page": 3,
+      "context": "Plafond aides auditives classe II"
+    },
+    {
+      "quote": "Panachage des verres et monture : un Équipement peut être",
+      "page": 3,
+      "context": "Panachage optique classes A et B"
+    },
+    {
+      "quote": "Nos remboursements ne peuvent être supérieurs au montant des frais restant à charge effective de l’adhérent.",
+      "page": 3,
+      "context": "Plafond général d'indemnisation"
+    },
+    {
+      "quote": "Document non contractuel. L’ensemble des garanties évoquées dans ce document s’applique dans les limites et conditions définies au contrat.",
+      "page": 4,
+      "context": "Portée du document"
+    }
+  ],
+  "gaps": [
+    "Le document est un tableau de garanties (« Vos garanties 2026 ») accompagné de ses renvois : il ne comporte ni conditions générales, ni section d'exclusions générales, ni définitions contractuelles complètes. Les exclusions enregistrées ici sont les seules non-prises en charge explicitement écrites et les lignes portant « - » pour un niveau de garantie donné. Les renvois 4 et 5 comportent toutefois des exclusions explicites (longs séjours en maison de cure médicale et de retraite, MAS et EHPAD).",
+    "Divergence avec les métadonnées de la tâche : l'assureur de la garantie Santé nommé par le document est la Mutuelle Ociane (mutuelle soumise au Livre II du Code de la Mutualité, SIREN 434 243 085, siège à Bordeaux), et non Matmut. Matmut (Mutuelle assurance des travailleurs mutualistes, RCS de Rouen 775 701 477) est citée séparément, la protection juridique est portée par Matmut Protection juridique (RCS de Rouen 423 499 391) et l'assistance par IMA GIE (RCS de Niort 320 281 025). Les remboursements sont libellés « Mutuelle Ociane Matmut » dans les exemples. Le document ajoute que le dispositif est mutualisé dans le cadre d'une coassurance Santé de branche et que les mutuelles co-assureurs sont présentées dans les Conditions Générales et la Notice d'Information, sans les nommer.",
+    "Aucune date d'édition n'est imprimée. Le document porte la référence « CCN BOIS-0326 » (pages 4 et 9) et les mentions « Vos garanties 2026 » / « Renvois 2026 » ; le suffixe -0326 n'est pas explicité comme une date d'édition et n'a donc pas été reporté dans edition_date.",
+    "target_audience laissé à null : le document ne nomme aucune catégorie de souscripteur (il parle d'« adhérent » et de « bénéficiaire »). Intitulé du régime tel qu'imprimé : « Régime frais de santé - CCN Bois et Lin ».",
+    "Aucune information sur la cotisation, la durée du contrat, la résiliation, la prescription, la procédure de sinistre ou les franchises contractuelles : ces sections n'existent pas dans ce document. Les « participation forfaitaire » et « reste à charge » des pages d'exemples sont des participations légales illustrées, pas des franchises du contrat.",
+    "Le tableau juxtapose 3 niveaux (BASE, OPTION 1, OPTION 2) sur une même ligne ; chaque garantie est enregistrée une fois avec toutes les valeurs en sub_limits, dans l'ordre du tableau.",
+    "La ligne « Maternité » est libellée « ⅓ PMSS » avec le caractère de fraction un tiers (U+2153) ; la valeur est reprise telle qu'imprimée, y compris l'espacement irrégulier de la colonne BASE.",
+    "Le renvoi 17 imprime « Substituts nicotiques » (au lieu de « nicotiniques ») alors que le tableau écrit « substituts nicotiniques » : les deux graphies du document sont conservées telles quelles.",
+    "La ligne « Prescriptions non prises en charge et homéopathie/phytothérapie prescrites non remboursés par la Sécurité sociale » comporte un accord fautif ; reproduite telle quelle. Il en va de même de « Inlay-onlay prise en charge Sécurité sociale » et de « Réparation en entretien » (page 2).",
+    "Le texte du prompt a été vérifié page à page contre le PDF source (PyMuPDF, page.get_text(\"text\")) : les 9 pages sont identiques et le texte n'est pas tronqué."
+  ],
+  "product_name": "Régime frais de santé - CCN Bois et Lin - Vos garanties 2026"
+}

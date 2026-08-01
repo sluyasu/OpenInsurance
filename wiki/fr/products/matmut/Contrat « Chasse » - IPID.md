@@ -154,6 +154,10 @@ Chiens de chasse : dommages accidentels (blessures ou décès) aux chiens de cha
 - Aucune page sans couche texte : les 2 pages du PDF ont été ré-extraites avec PyMuPDF (page.get_text("text")) et sont identiques caractère pour caractère au texte fourni dans le prompt ; aucune troncature.
 - Ordre de lecture : la couche texte place le bandeau de titre (« ASSURANCE CHASSE », mentions légales, « Produit : Contrat « Chasse » ») en fin de page 1, après le corps. Les citations de page 1 restent exactes ; la pagination citée est celle du PDF.
 
+## Documents liés
+
+- [Chasse](Chasse%20%28Matmut%20%28Mutuelle%20assurance%20des%20travailleurs%20mutualistes%29%20%E2%80%94%20Soci%C3%A9t%C3%A9%20d%27assurance%20mutuelle%20%C3%A0%20cotisations%20variables%2C%20entreprise%20r%C3%A9gie%20par%20le%20Code%20des%20assurances%2C%20Siren%20775%20701%20477%29.md) - Conditions générales, éd. CG CHASSE – 04/26 (mention de pied de page 37 ; aucune autre date d'édition n'est imprimée)
+
 ## Source & fidélité
 
 - Source : [https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDCHASSE.pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDCHASSE.pdf) - téléchargé le 2026-07-30 - 2 pages

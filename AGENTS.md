@@ -27,7 +27,7 @@ navigate it without guessing. Do not edit by hand.
 |---|---|---|---|---|---|
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
 | ch (Switzerland) | 0 | 3 | 1 | 0 | 5 |
-| fr (France) | 17 | 299 | 7 | 1 | 5 |
+| fr (France) | 17 | 333 | 7 | 1 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
 
@@ -402,12 +402,14 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | autres | maif | Barème de frais - Tarifs | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/commun/bareme-frais.pdf) |
 | fr | autres | maif | Barème de frais applicables à compter du 01-07-2024 pour les Associations et les Collectivités - Tarifs | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/bareme-frais-associations-et-collectivites.pdf) |
 | fr | autres | maif | Notice juridique sur l'assurance à distance - Doc | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/commun/notice-juridique-assurance-a-distance.pdf) |
+| fr | chasse | matmut | Chasse (Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477) | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGCHASSE.pdf) |
 | fr | chasse | matmut | Contrat « Chasse » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDCHASSE.pdf) |
 | fr | chasse | thelem | Assurance chasse - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_Chasse-332-juillet-2024.pdf) |
 | fr | decennale | maif | Dommages-Ouvrage Associations et Collectivités - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/document-information-assurance-dommages-ouvrages.pdf) |
 | fr | decennale | maif | Tous Risques Chantier Associations et Collectivités - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/document-information-assurance-tous-risques-chantier.pdf) |
 | fr | decennale | thelem | DCBAT - Responsabilité Décennale des entreprises du Bâtiment - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_810_DCBAT_-012025.pdf) |
 | fr | edpm | maif | Assurance Vélo - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/document-information-assurance-velo.pdf) |
+| fr | edpm | matmut | 2R Mobilité | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CG2RMOBILITE.pdf) |
 | fr | edpm | matmut | Contrat Multirisques « 2R Mobilité » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPID2RMOBILITE.pdf) |
 | fr | edpm | thelem | Assurance EDPM - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_EDPM-012026.pdf) |
 | fr | emprunteur | gan | Gan Assurances Emprunteur - IPID | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2024/11/062023_DIN-Emprunteur.pdf) |
@@ -488,6 +490,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | navigation | maif | Assurance Navigation | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/conditions-generales-assurance-navigation.pdf) |
 | fr | navigation | maif | Assurance Navigation - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/document-information-assurance-bateau.pdf) |
 | fr | navigation | maif | Assurance Navigation - IPID (2) | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/document-information-assurance-navigation.pdf) |
+| fr | navigation | matmut | Navigation de Plaisance Distinguo & Co | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-ndep-distinguo-and-co.pdf) |
 | fr | navigation | matmut | Navigation de Plaisance Matmut | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGNDEP.pdf) |
 | fr | obseques | gan | GAN PATRIMOINE SÉRÉNITÉ ESSENTIEL - Fiche | 2026-07-30 | [pdf](https://www.ganpatrimoine.fr/Media/documents/DIC/1412-062023%20-%20DIC%20GPatSE.pdf) |
 | fr | obseques | gan | GAN PATRIMOINE SÉRÉNITÉ ESSENTIEL - Fiche (2) | 2026-07-30 | [pdf](https://www.ganpatrimoine.fr/Media/documents/DIC/1412-112018%20GPatSE.pdf) |
@@ -587,12 +590,43 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | sante | groupama | TMGF Synergie santé Salariés - Doc | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/2WdH0QbT2yDvuM9AIoxpxr/3d1ec4295b3f531a9fece1ef2e0cbe03/tableau_de_garanties_synergie_sant___salari___r__gime_local.pdf) |
 | fr | sante | groupama | TMGF Synergie santé Salariés - Doc (2) | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/37C1b2uoBbhZLxH9Ye3Rnl/40a0d7d33c18c132a3357aadfd6d8473/tableau_de_garanties_synergie_sant___salari___r__gime_g__n__ral.pdf) |
 | fr | sante | matmut | CONTRAT COLLECTIF FRAIS DE SANTÉ - RÉGIME OBLIGATOIRE | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-1966-conditions-generales.pdf) |
+| fr | sante | matmut | Conditions Générales — Régime conventionnel de frais de santé à adhésion obligatoire, Convention Collective Nationale de | 2026-07-30 | [pdf](https://www.matmut.fr/mutuelle-sante-ociane/pdf/conditions-generales-CCN-alisfa.pdf) |
 | fr | sante | matmut | Notice d'information — Régime de frais de santé, contrat collectif, Accord interbranche du 2 octobre 2019 (CCN du 15 mar | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-1966-notice-information-base-option-2.pdf) |
+| fr | sante | matmut | Ociane Santé Pro - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/garanties-pro-ociane-groupe-matmut.pdf) |
+| fr | sante | matmut | Régime complémentaire santé – Ensemble du personnel (CCN du 31 octobre 1951, IDCC N°29) | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-1951-notice-information.pdf) |
+| fr | sante | matmut | Régime de frais de santé – Contrat collectif (Accord interbranche CCN 66 - CHRS) | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-1966-notice-information-base-option-1.pdf) |
+| fr | sante | matmut | Régime de frais de santé – Contrat collectif (Accord interbranche CCN 66 - CHRS) (2) | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-1966-notice-information-base.pdf) |
 | fr | sante | matmut | Régime frais de santé - CCN BTP - Vos garanties 2026 - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-BTP-garanties-sante.pdf) |
+| fr | sante | matmut | Régime frais de santé - CCN Bois et Lin - Vos garanties 2026 - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-BOIS-LIN-garanties-sante.pdf) |
+| fr | sante | matmut | Régime frais de santé - CCN Commerce de détail de l'habillement et des articles textiles - Vos garanties 2026 - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-habillement-garanties-sante.pdf) |
+| fr | sante | matmut | Régime frais de santé - CCN Commerces de détail non alimentaires - Vos garanties 2026 - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-CDNA-garanties-sante.pdf) |
+| fr | sante | matmut | Régime frais de santé - CCN Immobilier - Vos garanties 2026 - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-IMMOBILIER-garanties-sante.pdf) |
+| fr | sante | matmut | Régime frais de santé - CCN Industries du bois ou travail mécanique du bois, des scieries, du négoce et de l'importation | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-INDUSTRIES-BOIS-garanties-sante.pdf) |
+| fr | sante | matmut | Régime frais de santé - CCN Métiers de l'éducation, de la culture, des loisirs, et de l'animation - Vos garanties 2026 - | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-ANIMATION-garanties-sante.pdf) |
+| fr | sante | matmut | Régime frais de santé - CCN Prestataires de services - Vos garanties 2026 - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-PRESTATAIRE-SERVICES-garanties-sante.pdf) |
 | fr | sante | matmut | Régime frais de santé - CCN Production agricole non cadres - Vos garanties 2026 - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-Production-agricole-garanties-sante.pdf) |
+| fr | sante | matmut | Régime frais de santé - CCN des Acteurs du lien social et familial - Vos garanties 2026 - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-ALISFA-garanties-sante.pdf) |
+| fr | sante | matmut | Régime frais de santé - CCN Établissements sanitaires, sociaux et médico-sociaux adhérents de la FEHAP - Vos garanties 2 | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-1951-garanties-sante.pdf) |
 | fr | sante | matmut | Régime frais de santé - COLLECTIF SANTE FLEX - Vos garanties 2026 - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/mutuelle-pme-garanties.pdf) |
+| fr | sante | matmut | Régime frais de santé CCN Bijouterie, joaillerie, orfèvrerie et activités qui s'y rattachent et de l'horlogerie — Vos ga | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-BJOC-garanties-sante.pdf) |
+| fr | sante | matmut | Régime frais de santé CCN Hôtels cafés restaurants — Vos garanties 2026 - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-HCR-garanties-sante.pdf) |
+| fr | sante | matmut | Régime frais de santé CCN Industries et des commerces de gros de vins, cidres, spiritueux, sirops, jus de fruits et bois | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-VINS-SPIRITUEUX-garanties-sante.pdf) |
+| fr | sante | matmut | Régime frais de santé CCN Production agricole cadres — Garantie CADRES Ociane — Vos garanties 2026 - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-Production-agricole-cadre-garanties-sante.pdf) |
+| fr | sante | matmut | Régime frais de santé CCN Restauration rapide — Vos garanties 2026 - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-Restauration-rapide-garanties-sante.pdf) |
 | fr | sante | matmut | Régime frais de santé CCN Services de l'automobile — Vos garanties 2026 - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-AUTOMOBILE-garanties-sante.pdf) |
+| fr | sante | matmut | Régime frais de santé CCN Transport de voyageurs — Vos garanties 2026 - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-TRV-garanties-sante.pdf) |
 | fr | sante | matmut | Régime frais de santé CCN Transport sanitaire — Vos garanties 2026 - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-TRS-garanties-sante.pdf) |
+| fr | sante | matmut | Régime frais de santé — CCN Branche de l'aide, de l'accompagnement, des soins et des services à domicile - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-Aide-a-domicile-garanties-sante.pdf) |
+| fr | sante | matmut | Régime frais de santé — CCN Métallurgie - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-Metallurgie-garanties-sante.pdf) |
+| fr | sante | matmut | Régime frais de santé — CCN Organismes de formation - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-Organisme-formation-garanties-sante.pdf) |
+| fr | sante | matmut | Régime frais de santé — CCN des Établissements et services pour personnes inadaptées et handicapées du 15 mars 1966 et A | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-1966-garanties-sante.pdf) |
+| fr | sante | matmut | Régime frais de santé — CCN Établissements d'enseignement privés - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-EEP-garanties-sante.pdf) |
+| fr | sante | matmut | Santé vous bien ! - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/mutuelle/pdf/fiche-produit-Sante-vous-bien.pdf) |
+| fr | sante | matmut | Santé vous bien ! - Fiche (2) | 2026-07-30 | [pdf](https://www.matmut.fr/mutuelle/pdf/fiche-produit-famille-Sante-vous-bien.pdf) |
+| fr | sante | matmut | Santé vous bien ! - Fiche (3) | 2026-07-30 | [pdf](https://www.matmut.fr/mutuelle/pdf/fiche-produit-jeune-Sante-vous-bien.pdf) |
+| fr | sante | matmut | Santé vous bien ! - Fiche (4) | 2026-07-30 | [pdf](https://www.matmut.fr/mutuelle/pdf/fiche-produit-moins-chere-Sante-vous-bien.pdf) |
+| fr | sante | matmut | Santé vous bien ! - Fiche (5) | 2026-07-30 | [pdf](https://www.matmut.fr/mutuelle/pdf/fiche-produit-senior-Sante-vous-bien.pdf) |
+| fr | sante | matmut | Statuts d'Ociane et Règlement mutualiste « individuels » — Complémentaire maladie accidents | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/Statuts-reglement-indiv.pdf) |
 | fr | sante | thelem | Assurance Complémentaire Santé – gamme non responsable et solidaire - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_710-Evolution-NResp-janvier-2024.pdf) |
 | fr | sante | thelem | Assurance Complémentaire Santé – gamme responsable et solidaire - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_710-Evolution-Resp-janvier-2026.pdf) |
 | fr | sante | thelem | INTÉGRALE 1, INTÉGRALE 2, INTÉGRALE 3, INTÉGRALE 4 – Formules responsables et solidaires - Doc | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/Exemples_remboursements_TA_2026_RESPONSABLE.pdf) |
