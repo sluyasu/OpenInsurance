@@ -70,11 +70,11 @@ les signale une par une plutôt que de les passer sous silence.
 - [Gan Assurances](insurers/Gan%20Assurances.md) (50 documents)
 - [Groupama](insurers/Groupama.md) (31 documents)
 - [Luko](insurers/Luko.md) (14 documents)
-- [MAAF — a single brand covering four regulated carriers: MAAF Assurances SA (société anonyme, Code des assurances, RCS Niort 542 073 580), MAAF Assurances (société d'assurance mutuelle à cotisations variables, Code des assurances, RCS Niort 781 423 280), MAAF Vie (société anonyme, Code des assurances, RCS Niort 337 804 819) and MAAF Santé (mutuelle du livre II du Code de la mutualité, SIREN 331 542 142). Group Covéa.](insurers/MAAF%20%E2%80%94%20a%20single%20brand%20covering%20four%20regulated%20carriers%20-%20MAAF%20Assurances%20SA%20%28soci%C3%A9t%C3%A9%20anonyme%2C%20Code%20des%20assurances%2C%20RCS%20N.md) (7 documents)
-- [Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)](insurers/Macif%20%28MACIF%20-%20Mutuelle%20Assurance%20des%20Commer%C3%A7ants%20et%20Industriels%20de%20France%20et%20des%20Cadres%20et%20Salari%C3%A9s%20de%20l%27Industrie%20et%20d.md) (15 documents)
+- [MAAF — a single brand covering four regulated carriers: MAAF Assurances SA (société anonyme, Code des assurances, RCS Niort 542 073 580), MAAF Assurances (société d'assurance mutuelle à cotisations variables, Code des assurances, RCS Niort 781 423 280), MAAF Vie (société anonyme, Code des assurances, RCS Niort 337 804 819) and MAAF Santé (mutuelle du livre II du Code de la mutualité, SIREN 331 542 142). Group Covéa.](insurers/MAAF%20%E2%80%94%20a%20single%20brand%20covering%20four%20regulated%20carriers%20-%20MAAF%20Assurances%20SA%20%28soci%C3%A9t%C3%A9%20anonyme%2C%20Code%20des%20assurances%2C%20RCS%20N.md) (13 documents)
+- [Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)](insurers/Macif%20%28MACIF%20-%20Mutuelle%20Assurance%20des%20Commer%C3%A7ants%20et%20Industriels%20de%20France%20et%20des%20Cadres%20et%20Salari%C3%A9s%20de%20l%27Industrie%20et%20d.md) (19 documents)
 - [MAIF](insurers/MAIF.md) (69 documents)
 - [Matmut](insurers/Matmut.md) (114 documents)
-- [SMACL Assurances](insurers/SMACL%20Assurances.md) (15 documents)
+- [SMACL Assurances](insurers/SMACL%20Assurances.md) (18 documents)
 - [Thélem assurances](insurers/Th%C3%A9lem%20assurances.md) (45 documents)
 <!-- END GENERATED -->
 

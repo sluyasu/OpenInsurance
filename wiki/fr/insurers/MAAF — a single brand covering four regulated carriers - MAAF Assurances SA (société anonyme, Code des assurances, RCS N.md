@@ -10,11 +10,13 @@ name: 'MAAF — a single brand covering four regulated carriers: MAAF Assurances
   and MAAF Santé (mutuelle du livre II du Code de la mutualité, SIREN 331 542 142).
   Group Covéa.'
 website: https://www.maaf.fr/
-products_count: 7
+products_count: 13
 branches_covered:
 - decennale
+- habitation
 - multirisque-professionnelle
 - protection-juridique
+- rc-privee
 - sante
 tags:
 - insurance/fr
@@ -35,12 +37,19 @@ generated: true
 
 ## Résumé
 
-**MAAF — a single brand covering four regulated carriers: MAAF Assurances SA (société anonyme, Code des assurances, RCS Niort 542 073 580), MAAF Assurances (société d'assurance mutuelle à cotisations variables, Code des assurances, RCS Niort 781 423 280), MAAF Vie (société anonyme, Code des assurances, RCS Niort 337 804 819) and MAAF Santé (mutuelle du livre II du Code de la mutualité, SIREN 331 542 142). Group Covéa.** - [https://www.maaf.fr/](https://www.maaf.fr/). 7 document(s) across 4 branch(es).
+**MAAF — a single brand covering four regulated carriers: MAAF Assurances SA (société anonyme, Code des assurances, RCS Niort 542 073 580), MAAF Assurances (société d'assurance mutuelle à cotisations variables, Code des assurances, RCS Niort 781 423 280), MAAF Vie (société anonyme, Code des assurances, RCS Niort 337 804 819) and MAAF Santé (mutuelle du livre II du Code de la mutualité, SIREN 331 542 142). Group Covéa.** - [https://www.maaf.fr/](https://www.maaf.fr/). 13 document(s) across 6 branch(es).
 
 ## Produits par branche
 
 ### [Assurance construction](../branches/Assurance%20construction.md)
 - [VOS GARANTIES RESPONSABILITÉ CIVILE CONSTRUCTION - Fiche](../products/maaf/VOS%20GARANTIES%20RESPONSABILIT%C3%89%20CIVILE%20CONSTRUCTION%20-%20Fiche.md) - Fiche produit (04/18) · réf. 17195 - 04/18 - guide décennale
+
+### [Multirisque habitation](../branches/Multirisque%20habitation.md)
+- [Assurance Propriétaire Non Occupant - Fiche](../products/maaf/Assurance%20Propri%C3%A9taire%20Non%20Occupant%20-%20Fiche.md) - Fiche produit (06/2022)
+- [Assurance habitation jeune - Fiche](../products/maaf/Assurance%20habitation%20jeune%20-%20Fiche.md) - Fiche produit (06/2023)
+- [Assurance habitation jeune - Formule Logement - Fiche](../products/maaf/Assurance%20habitation%20jeune%20-%20Formule%20Logement%20-%20Fiche.md) - Fiche produit (06/2023)
+- [Assurance habitation jeune - Formule Tous risques - Fiche](../products/maaf/Assurance%20habitation%20jeune%20-%20Formule%20Tous%20risques%20-%20Fiche.md) - Fiche produit (06/2023)
+- [Tempo Habitation - Fiche](../products/maaf/Tempo%20Habitation%20-%20Fiche.md) - Fiche produit (06/2022)
 
 ### [Multirisque professionnelle](../branches/Multirisque%20professionnelle.md)
 - [COMMERCES D'ALIMENTATION — INTERCALAIRE](../products/maaf/COMMERCES%20D%27ALIMENTATION%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales (01/26) · réf. 11039 - 01/26
@@ -49,6 +58,9 @@ generated: true
 
 ### [Protection juridique](../branches/Protection%20juridique.md)
 - [Garanties Protection Juridique - Fiche](../products/maaf/Garanties%20Protection%20Juridique%20-%20Fiche.md) - Fiche produit (06/2022)
+
+### [Responsabilité civile vie privée](../branches/Responsabilit%C3%A9%20civile%20vie%20priv%C3%A9e.md)
+- [Assurance jeune - Fiche](../products/maaf/Assurance%20jeune%20-%20Fiche.md) - Fiche produit (06/2023)
 
 ### [Complémentaire santé](../branches/Compl%C3%A9mentaire%20sant%C3%A9.md)
 - [Assurance SANTÉ PROFIL SALARIÉS](../products/maaf/Assurance%20SANT%C3%89%20PROFIL%20SALARI%C3%89S.md) - Conditions générales (10.2025) · réf. 11015

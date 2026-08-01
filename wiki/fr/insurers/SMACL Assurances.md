@@ -5,7 +5,7 @@ country: fr
 insurer_slug: smacl
 name: SMACL Assurances
 website: https://www.smacl.fr
-products_count: 15
+products_count: 18
 branches_covered:
 - auto
 - autres
@@ -29,13 +29,16 @@ generated: true
 
 ## Résumé
 
-**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 15 document(s) across 7 branch(es).
+**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 18 document(s) across 7 branch(es).
 
 ## Produits par branche
 
 ### [Assurance auto](../branches/Assurance%20auto.md)
+- [ALÉASSUR Auto collaborateurs - conventions spéciales](../products/smacl/AL%C3%89ASSUR%20Auto%20collaborateurs%20-%20conventions%20sp%C3%A9ciales.md) - Conditions générales (01/2024) · réf. ALEASSUR_CS_AutoCollab_02(05_2015)
+- [CONVERGENCE - Auto collaborateurs - Garantie en substitution au contrat personnel](../products/smacl/CONVERGENCE%20-%20Auto%20collaborateurs%20-%20Garantie%20en%20substitution%20au%20contrat%20personnel.md) - Conditions générales (04/2025) · réf. CONVERGENCE_CS_ACSUBS_SA_02(04_2016)
 - [Convergence Auto collaborateurs - garantie complémentaire - IPID](../products/smacl/Convergence%20Auto%20collaborateurs%20-%20garantie%20compl%C3%A9mentaire%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. CONVERGENCE_DIPA_ACCOMPLT_SA_03(09_2022)
 - [Flotte entreprises - IPID](../products/smacl/Flotte%20entreprises%20-%20IPID.md) - IPID / Fiche d'information (02/2024) · réf. ENTREPRISE_DIPA_FLOTTE_03(06_2021)
+- [Territorialité des garanties - Contrat Véhicules à moteur - Doc](../products/smacl/Territorialit%C3%A9%20des%20garanties%20-%20Contrat%20V%C3%A9hicules%20%C3%A0%20moteur%20-%20Doc.md) - Document (01/01/2026) · réf. FICHE_TERRITORIALITE_01(12_2025)
 - [Vos conventions spéciales CONVERGENCE - Véhicules à moteur](../products/smacl/Vos%20conventions%20sp%C3%A9ciales%20CONVERGENCE%20-%20V%C3%A9hicules%20%C3%A0%20moteur.md) - Conditions générales (01/2024) · réf. CONVERGENCE_CS_VAM_SA_07(08_2016)
 - [Votre convention d'assistance - Flottes entreprises véhicules légers](../products/smacl/Votre%20convention%20d%27assistance%20-%20Flottes%20entreprises%20v%C3%A9hicules%20l%C3%A9gers.md) - Conditions générales (07/2025) · réf. ENTREPRISE_CA_ASSISTANCEVL_02(01_2021)
 

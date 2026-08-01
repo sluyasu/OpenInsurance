@@ -1,0 +1,1270 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "macif",
+  "insurer_name": "Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)",
+  "product_name": "contrat GARANTIE SANTE TERRITORIAUX",
+  "branch": "sante",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": "secteur_public",
+  "target_audience_note": "Le document conditionne l'adhésion au statut suivant : « avoir le statut de fonctionnaire ou d'agent non titulaire de droit public ou de droit privé des collectivités territoriales et de leurs établissements publics ou être retraité d'une des catégories visées ci-dessus » (p. 2). S'y ajoutent : « être âgé de plus de 16 ans et avoir la capacité de contracter, résider en France métropolitaine ou dans un département ou une région d'Outre-mer et être affilié à un régime obligatoire français d'assurance maladie ». Le produit « figure sur la liste des offres labellisées sur le site de la DGCL ».",
+  "reference": "DIPA GST 01/2022",
+  "edition_date": "01/2022",
+  "product_family": "Garantie Santé Territoriaux",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_GST.pdf",
+  "source_pdf": "contrat-garantie-sante-territoriaux-394da741.pdf",
+  "source_sha256": "0df9baf935679094e98a031f72fa07d293db6a6cd1552b0f9019d8ad5bab4453",
+  "source_pages": 4,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d'information sur le produit d'assurance (DIPA/IPID) du contrat Garantie Santé Territoriaux, une complémentaire santé assurée par la Mutuelle Nationale des Fonctionnaires des Collectivités Territoriales (MNFCT). Le contrat rembourse, en complément de la Sécurité sociale française, tout ou partie des frais de santé restant à la charge de l'assuré et des éventuels bénéficiaires en cas d'accident, de maladie ou de maternité ; il respecte les conditions légales des contrats responsables et figure sur la liste des offres labellisées de la DGCL. Il couvre systématiquement l'hospitalisation, les soins courants, la prévention, le dentaire, l'optique, les aides auditives et l'appareillage, ainsi qu'une prime de naissance de 100 € par enfant, des prestations d'assistance et des services (réseau de soins, tiers payant, cautionnement de prêt pour les fonctionnaires). L'annexe présente deux axes de choix indépendants : quatre formules « Soins » (Economique, Equilibrée, Protectrice, Excellence) et cinq niveaux d'« Équipements » (0 à 4).",
+  "definitions": [
+    {
+      "term": "Dispositif de pratique tarifaire maîtrisée",
+      "definition": "Dispositif de pratique tarifaire maîtrisée* : OPTAM / OPTAM-CO.",
+      "page": 3
+    },
+    {
+      "term": "LPP",
+      "definition": "LPP* : Liste des Produits et Prestations.",
+      "page": 3
+    },
+    {
+      "term": "RO",
+      "definition": "RO* : Régime Obligatoire.",
+      "page": 3
+    },
+    {
+      "term": "Bonus fidélité",
+      "definition": "Les prestations suivies de ce symbole donnent lieu à un bonus fidélité. Chaque année, à la date anniversaire de votre adhésion, les forfaits mentionnés sont augmentés de 10 % dans la limite de 30 %. Hors niveau d'Equipements 0.",
+      "page": 4
+    },
+    {
+      "term": "Portée du document (DIPA)",
+      "definition": "Ce document d'information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l'information complète sur ce produit dans la documentation précontractuelle et contractuelle. En particulier, les niveaux de remboursement seront détaillés dans le tableau de garanties.",
+      "page": 1
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Hospitalisation — Honoraires chirurgicaux et médicaux : médecins adhérents à un dispositif de pratique tarifaire maîtrisée",
+      "description": "Honoraires chirurgicaux et médicaux en hospitalisation, praticiens adhérents à un dispositif de pratique tarifaire maîtrisée (OPTAM / OPTAM-CO).",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "Formule Soins — ECONOMIQUE : 100 % | EQUILIBREE : 175% | PROTECTRICE : 225% | EXCELLENCE : 250%",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Sont exclus les séjours en établissement médico-sociaux*, dans les maisons de retraite, dans une unité de soins longue durée (USLD) ou dans un établissement dont le code DMT est listé en annexe"
+      ],
+      "page": 3
+    },
+    {
+      "name": "Hospitalisation — Honoraires chirurgicaux et médicaux : médecins non adhérents à un dispositif de pratique tarifaire maîtrisée",
+      "description": "Honoraires chirurgicaux et médicaux en hospitalisation, praticiens non adhérents à un dispositif de pratique tarifaire maîtrisée.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "ECONOMIQUE : 100 % | EQUILIBREE : 150% | PROTECTRICE : 200% | EXCELLENCE : 200%",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Hospitalisation — Analyses et examens de laboratoire",
+      "description": "Analyses et examens de laboratoire en hospitalisation.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "ECONOMIQUE : 100% | EQUILIBREE : 100% | PROTECTRICE : 100% | EXCELLENCE : 100%",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Hospitalisation — Radiologie",
+      "description": "Radiologie en hospitalisation.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "ECONOMIQUE : 100% | EQUILIBREE : 100% | PROTECTRICE : 100% | EXCELLENCE : 100%",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Hospitalisation — Honoraires paramédicaux",
+      "description": "Honoraires paramédicaux en hospitalisation.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "ECONOMIQUE : 100% | EQUILIBREE : 100% | PROTECTRICE : 100% | EXCELLENCE : 100%",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Hospitalisation — Forfait patient urgences",
+      "description": "Forfait patient urgences.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "ECONOMIQUE, EQUILIBREE, PROTECTRICE et EXCELLENCE : Remboursement intégral",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Hospitalisation — Participation forfaitaire sur les actes techniques égaux ou supérieurs à 120 €",
+      "description": "Prise en charge de la participation forfaitaire sur les actes techniques égaux ou supérieurs à 120 €.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "ECONOMIQUE : Oui | EQUILIBREE : Oui | PROTECTRICE : Oui | EXCELLENCE : Oui",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Hospitalisation — Frais de transport",
+      "description": "Frais de transport en hospitalisation.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "ECONOMIQUE : 100% | EQUILIBREE : 100% | PROTECTRICE : 100% | EXCELLENCE : 100%",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Hospitalisation — Frais de séjour",
+      "description": "Frais de séjour en hospitalisation.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "ECONOMIQUE : 100% | EQUILIBREE : 100% | PROTECTRICE : 100% | EXCELLENCE : 100%",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Hospitalisation — Forfait journalier hospitalier",
+      "description": "Forfait journalier hospitalier. Sous réserve d'une hospitalisation d'au moins une nuit (note 2). Le DIPA précise : « FORFAIT JOURNALIER HOSPITALIER : remboursement conditionné à une hospitalisation d'une nuit minimum ».",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "ECONOMIQUE, EQUILIBREE, PROTECTRICE et EXCELLENCE : Remboursement intégral",
+      "sub_limits": [
+        "Sous réserve d'une hospitalisation d'au moins une nuit"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Hospitalisation d'une nuit minimum"
+      ],
+      "page": 3
+    },
+    {
+      "name": "Hospitalisation — Chambre particulière",
+      "description": "Chambre particulière, sous réserve d'une hospitalisation d'au moins une nuit (note 2). Garantie optionnelle selon la formule souscrite.",
+      "is_optional": true,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "ECONOMIQUE : - | EQUILIBREE : 50 €/ jour limité à 90 jours/an | PROTECTRICE : 60 €/ jour limité à 90 jours/an | EXCELLENCE : 70 €/ jour limité à 90 jours/an",
+      "sub_limits": [
+        "limité à 90 jours par année civile",
+        "Sous réserve d'une hospitalisation d'au moins une nuit"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Hospitalisation d'une nuit minimum"
+      ],
+      "page": 3
+    },
+    {
+      "name": "Hospitalisation — Chambre accompagnant",
+      "description": "Chambre accompagnant, sous réserve d'une hospitalisation d'au moins une nuit (note 2). Garantie optionnelle selon la formule souscrite.",
+      "is_optional": true,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "ECONOMIQUE : - | EQUILIBREE : 20 €/ jour limité à 90 jours/an | PROTECTRICE : 25 €/ jour limité à 90 jours/an | EXCELLENCE : 30 €/ jour limité à 90 jours/an",
+      "sub_limits": [
+        "limité à 90 jours par année civile",
+        "Sous réserve d'une hospitalisation d'au moins une nuit"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Hospitalisation d'une nuit minimum"
+      ],
+      "page": 3
+    },
+    {
+      "name": "Prime de naissance",
+      "description": "Prime naissance versée par enfant.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "ECONOMIQUE : 100 €/ enfant | EQUILIBREE : 100 €/ enfant | PROTECTRICE : 100 €/ enfant | EXCELLENCE : 100 €/ enfant",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Soins courants — Consultations et visites (médecine générale) : médecins adhérents à un dispositif de pratique tarifaire maîtrisée",
+      "description": "Honoraires médicaux, consultations et visites de médecine générale, praticiens adhérents à un dispositif de pratique tarifaire maîtrisée.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "ECONOMIQUE : 100 % | EQUILIBREE : 150% | PROTECTRICE : 175% | EXCELLENCE : 225%",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Soins courants — Consultations et visites (médecine générale) : médecins non adhérents à un dispositif de pratique tarifaire maîtrisée",
+      "description": "Honoraires médicaux, consultations et visites de médecine générale, praticiens non adhérents à un dispositif de pratique tarifaire maîtrisée.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "ECONOMIQUE : 100 % | EQUILIBREE : 125% | PROTECTRICE : 150% | EXCELLENCE : 200%",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Soins courants — Consultations et visites (médecine spécialiste) : médecins adhérents à un dispositif de pratique tarifaire maîtrisée",
+      "description": "Honoraires médicaux, consultations et visites de médecine spécialiste, praticiens adhérents à un dispositif de pratique tarifaire maîtrisée.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "ECONOMIQUE : 100 % | EQUILIBREE : 175% | PROTECTRICE : 225% | EXCELLENCE : 250%",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Soins courants — Consultations et visites (médecine spécialiste) : médecins non adhérents à un dispositif de pratique tarifaire maîtrisée",
+      "description": "Honoraires médicaux, consultations et visites de médecine spécialiste, praticiens non adhérents à un dispositif de pratique tarifaire maîtrisée.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "ECONOMIQUE : 100 % | EQUILIBREE : 150% | PROTECTRICE : 200% | EXCELLENCE : 200%",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Soins courants — Pharmacie remboursée à 65 % et à 30 % par le Régime obligatoire",
+      "description": "Médicaments remboursés à 30 % et 65 % par la Sécurité sociale.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "ECONOMIQUE : 100 % | EQUILIBREE : 100% | PROTECTRICE : 100% | EXCELLENCE : 100%",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Soins courants — Pharmacie remboursée à 15 % par le Régime obligatoire",
+      "description": "Médicaments remboursés à 15 % par la Sécurité sociale. Garantie optionnelle selon la formule souscrite : en formule ECONOMIQUE la mention « 15 % (3) » renvoie à la note « Remboursement par le Régime obligatoire* uniquement », c'est-à-dire sans intervention de la mutuelle.",
+      "is_optional": true,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "ECONOMIQUE : 15 % (3) — remboursement par le Régime obligatoire uniquement | EQUILIBREE : 100% | PROTECTRICE : 100% | EXCELLENCE : 100%",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Soins courants — Homéopathie non remboursée par le Régime obligatoire",
+      "description": "Homéopathie non remboursée par la Sécurité sociale, à savoir les consultations en homéopathie et les médicaments homéopathiques (prestations assurées depuis le 01/01/2021). Garantie optionnelle selon la formule souscrite.",
+      "is_optional": true,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "ECONOMIQUE : - | EQUILIBREE : 20 € / an | PROTECTRICE : 40 € / an | EXCELLENCE : 60 € / an",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Soins courants — Analyses et examens de laboratoire",
+      "description": "Analyses et examens de laboratoire hors hospitalisation.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "ECONOMIQUE : 100% | EQUILIBREE : 100% | PROTECTRICE : 100% | EXCELLENCE : 100%",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Soins courants — Radiologie",
+      "description": "Radiologie hors hospitalisation.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "ECONOMIQUE : 100% | EQUILIBREE : 100% | PROTECTRICE : 100% | EXCELLENCE : 100%",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Soins courants — Honoraires paramédicaux",
+      "description": "Honoraires paramédicaux hors hospitalisation.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "ECONOMIQUE : 100% | EQUILIBREE : 100% | PROTECTRICE : 100% | EXCELLENCE : 100%",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Soins courants — Ostéopathe, acupuncteur, diététicien, chiropracteur, podologue, pédicure, psychologue, étiopathe",
+      "description": "Forfait ostéopathe, acupuncteur, diététicien, chiropracteur, podologue, pédicure, psychologue, étiopathe. Garantie optionnelle selon la formule souscrite. Forfait unique pour l'ensemble des spécialités mentionnées, avec une limitation à 3 séances par année civile.",
+      "is_optional": true,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "ECONOMIQUE : - | EQUILIBREE : 35 €/ séance (4) | PROTECTRICE : 40 €/ séance (4) | EXCELLENCE : 45 €/ séance (4)",
+      "sub_limits": [
+        "Limité à 3 séances par année civile pour l'ensemble des spécialités"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Soins courants — Transport hors hospitalisation",
+      "description": "Frais de transport hors hospitalisation.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "ECONOMIQUE : 100% | EQUILIBREE : 100% | PROTECTRICE : 100% | EXCELLENCE : 100%",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Prévention — Actes de prévention et vaccins remboursés par le Régime obligatoire",
+      "description": "Actes de prévention et vaccins remboursés par la Sécurité sociale.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "ECONOMIQUE : 100% | EQUILIBREE : 100% | PROTECTRICE : 100% | EXCELLENCE : 100%",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Prévention — Objets contraceptifs inscrits à la LPP",
+      "description": "Objets contraceptifs inscrits à la Liste des Produits et Prestations.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "ECONOMIQUE : 100% | EQUILIBREE : 100% | PROTECTRICE : 100% | EXCELLENCE : 100%",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Prévention — Vaccin antigrippal non remboursé",
+      "description": "Vaccin antigrippal non remboursé par la Sécurité sociale.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "ECONOMIQUE, EQUILIBREE, PROTECTRICE et EXCELLENCE : Remboursement intégral",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Prévention — Forfait Prévention/Bien-être : intimité et vie du couple",
+      "description": "Forfait Prévention / Bien-être « Intimité et vie du couple ». Forfait par année civile (note 5).",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "ECONOMIQUE : 50 € | EQUILIBREE : 50 € | PROTECTRICE : 50 € | EXCELLENCE : 50 €",
+      "sub_limits": [
+        "Forfait par année civile"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Prévention — Forfait Prévention/Bien-être : activité physique adaptée et prévention des risques cardio-vasculaires",
+      "description": "Forfait Prévention / Bien-être « Activité physique adaptée et prévention des risques cardio-vasculaires ». Forfait par année civile (note 5).",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "ECONOMIQUE : 40 € | EQUILIBREE : 40 € | PROTECTRICE : 40 € | EXCELLENCE : 40 €",
+      "sub_limits": [
+        "Forfait par année civile"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Dentaire — Soins (actes et soins dentaires)",
+      "description": "Actes et soins dentaires.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "ECONOMIQUE : 100% | EQUILIBREE : 100% | PROTECTRICE : 100% | EXCELLENCE : 100%",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Dentaire — Soins d'obturation Inlay / Onlay / Overlay",
+      "description": "Soins d'obturation Inlay / onlay / overlay. Forfait par année civile (note 5).",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "ECONOMIQUE : 100% | EQUILIBREE : 100 % + 100 € | PROTECTRICE : 100 % + 150 € | EXCELLENCE : 100 % + 200 €",
+      "sub_limits": [
+        "Forfait par année civile"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Dentaire (niveaux d'Équipements) — Prothèses 100 % Santé",
+      "description": "Prothèses dentaires 100 % Santé telles que définies réglementairement (note 7).",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "Niveaux d'Équipements 0, 1, 2, 3 et 4 : Remboursement intégral (8) — dans les limites et conditions de la réglementation en vigueur",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Dentaire (niveaux d'Équipements) — Couronne dentaire",
+      "description": "Couronne dentaire, au titre des « autres prothèses remboursées par le Régime obligatoire ».",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "Niveau 0 : 100% | Niveau 1 : 90 € / couronne | Niveau 2 : 175 € / couronne | Niveau 3 : 260 € / couronne | Niveau 4 : 345 € / couronne",
+      "sub_limits": [
+        "Plafond global annuel « autres prothèses remboursées par le RO et orthodontie » applicable durant les 24 premiers mois d'affiliation"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Dentaire (niveaux d'Équipements) — Bridge (3 à 5 dents)",
+      "description": "Bridge de 3 à 5 dents, au titre des « autres prothèses remboursées par le Régime obligatoire ».",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "Niveau 0 : 100% | Niveau 1 : 280 € / bridge | Niveau 2 : 500 € / bridge | Niveau 3 : 720 € / bridge | Niveau 4 : 940 € / bridge",
+      "sub_limits": [
+        "Plafond global annuel applicable durant les 24 premiers mois d'affiliation"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Dentaire (niveaux d'Équipements) — Couronne dentaire transitoire",
+      "description": "Couronne dentaire transitoire.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "Niveaux 0, 1, 2, 3 et 4 : 100%",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Dentaire (niveaux d'Équipements) — Inlay-Core",
+      "description": "Inlay-Core, au titre des « autres prothèses remboursées par le Régime obligatoire ».",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "Niveau 0 : 100% | Niveau 1 : 45 € / inlay | Niveau 2 : 45 € / inlay | Niveau 3 : 45 € / inlay | Niveau 4 : 45 € / inlay",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Dentaire (niveaux d'Équipements) — Appareil dentaire amovible (1 à 3 dents)",
+      "description": "Appareil dentaire amovible de 1 à 3 dents, au titre des « autres prothèses remboursées par le Régime obligatoire ».",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "Niveau 0 : 100% | Niveau 1 : 100 € / appareil | Niveau 2 : 150 € / appareil | Niveau 3 : 200 € / appareil | Niveau 4 : 250 € / appareil",
+      "sub_limits": [
+        "Plafond global annuel applicable durant les 24 premiers mois d'affiliation"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Dentaire (niveaux d'Équipements) — Orthodontie remboursée par le Régime obligatoire",
+      "description": "Orthodontie remboursée par le Régime obligatoire. Forfait par semestre de traitement, pouvant être proratisé selon la durée effective de traitement (note 16).",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "Niveau 0 : 100% | Niveau 1 : 100 € / semestre | Niveau 2 : 250 € / semestre | Niveau 3 : 400 €/ semestre | Niveau 4 : 550 € / semestre",
+      "sub_limits": [
+        "Forfait par semestre de traitement, pouvant être proratisé selon la durée effective de traitement",
+        "Plafond global annuel applicable durant les 24 premiers mois d'affiliation"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Dentaire (niveaux d'Équipements) — Dent supplémentaire ou réparation sur bridge et appareil amovible",
+      "description": "Dent supplémentaire ou réparation sur bridge et appareil amovible.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "Niveau 0 : 100% | Niveau 1 : 10 € / dent ou réparation | Niveau 2 : 20 € / dent ou réparation | Niveau 3 : 30 € / dent ou réparation | Niveau 4 : 40 € / dent ou réparation",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Dentaire (niveaux d'Équipements) — Plafond global annuel année 1",
+      "description": "Pour les « autres prothèses remboursées par le RO » et « l'orthodontie », un plafond global annuel s'applique — année 1 (jusqu'à la fin du 12è mois d'affiliation de l'assuré). Au-delà de ces plafonds, seul le ticket modérateur est remboursé ; ces plafonds s'appliquent en cas de changement du niveau d'Équipements (note 6).",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "Niveau 0 : - | Niveau 1 : 500 € | Niveau 2 : 500 € | Niveau 3 : 700 € | Niveau 4 : 700 €",
+      "sub_limits": [
+        "Au-delà de ces plafonds, seul le ticket modérateur* est remboursé"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Dentaire (niveaux d'Équipements) — Plafond global annuel année 2",
+      "description": "Pour les « autres prothèses remboursées par le RO » et « l'orthodontie », un plafond global annuel s'applique — année 2 (jusqu'à la fin du 24è mois d'affiliation de l'assuré). Au-delà de ces plafonds, seul le ticket modérateur est remboursé (note 6).",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "Niveau 0 : - | Niveau 1 : 1 000 € | Niveau 2 : 1 000 € | Niveau 3 : 1 400 € | Niveau 4 : 1 400 €",
+      "sub_limits": [
+        "Au-delà de ces plafonds, seul le ticket modérateur* est remboursé"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Dentaire (niveaux d'Équipements) — Implants dentaires",
+      "description": "Implants dentaires non remboursés par la Sécurité sociale. Forfait par année civile (note 9). Garantie optionnelle selon la formule souscrite.",
+      "is_optional": true,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "Niveau 0 : - | Niveau 1 : - | Niveau 2 : 300 € | Niveau 3 : 400 € | Niveau 4 : 500 €",
+      "sub_limits": [
+        "Forfait par année civile"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Dentaire (niveaux d'Équipements) — Parodontie non remboursée par le Régime obligatoire",
+      "description": "Parodontie non remboursée par le Régime obligatoire. Forfait par année civile (note 9). Garantie optionnelle selon la formule souscrite.",
+      "is_optional": true,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "Niveau 0 : - | Niveau 1 : 100 € | Niveau 2 : 150 € | Niveau 3 : 200 € | Niveau 4 : 250 €",
+      "sub_limits": [
+        "Forfait par année civile"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Optique (niveaux d'Équipements) — Équipements 100 % Santé (monture et verres)",
+      "description": "Équipements 100 % Santé (dits de classe A) tels que définis réglementairement (note 7).",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "Niveaux 0, 1, 2, 3 et 4 : Remboursement intégral (8) — dans les limites et conditions de la réglementation en vigueur",
+      "sub_limits": [
+        "Le nombre d'équipements (2 verres + 1 monture) est limité à 1 équipement par période de deux ans, à l'exception des cas pour lesquels un renouvellement anticipé est possible réglementairement"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Optique (niveaux d'Équipements) — Monture adulte",
+      "description": "Monture adulte, au titre des « autres verres et montures remboursés par le Régime obligatoire ».",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "Niveau 0 : 100% | Niveau 1 : 30 € | Niveau 2 : 60 € | Niveau 3 : 90 € | Niveau 4 : 100 € (10)",
+      "sub_limits": [
+        "Note (10) : par exception, ce forfait de 100€ correspond au remboursement de la mutuelle en incluant le remboursement de la Sécurité sociale",
+        "1 équipement (2 verres + 1 monture) par période de deux ans"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Optique (niveaux d'Équipements) — Verre simple adulte (par verre)",
+      "description": "Verre simple adulte, par verre, au titre des « autres verres et montures remboursés par le Régime obligatoire ».",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "Niveau 0 : 100% | Niveau 1 : 30 € | Niveau 2 : 50 € | Niveau 3 : 70 € | Niveau 4 : 90 €",
+      "sub_limits": [
+        "1 équipement (2 verres + 1 monture) par période de deux ans"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Optique (niveaux d'Équipements) — Verre complexe et hyper complexe adulte (par verre)",
+      "description": "Verre complexe et hyper complexe adulte, par verre.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "Niveau 0 : 100% | Niveau 1 : 85 € | Niveau 2 : 100 € | Niveau 3 : 115 € | Niveau 4 : 135 €",
+      "sub_limits": [
+        "1 équipement (2 verres + 1 monture) par période de deux ans"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Optique (niveaux d'Équipements) — Monture enfant",
+      "description": "Monture enfant, au titre des « autres verres et montures remboursés par le Régime obligatoire ».",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "Niveau 0 : 100% | Niveau 1 : 30 € | Niveau 2 : 40 € | Niveau 3 : 50 € | Niveau 4 : 70 €",
+      "sub_limits": [
+        "1 équipement (2 verres + 1 monture) par période de deux ans"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Optique (niveaux d'Équipements) — Verre simple enfant (par verre)",
+      "description": "Verre simple enfant, par verre.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "Niveau 0 : 100% | Niveau 1 : 20 € | Niveau 2 : 35 € | Niveau 3 : 50 € | Niveau 4 : 75 €",
+      "sub_limits": [
+        "1 équipement (2 verres + 1 monture) par période de deux ans"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Optique (niveaux d'Équipements) — Verre complexe et hyper complexe enfant (par verre)",
+      "description": "Verre complexe et hyper complexe enfant, par verre.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "Niveau 0 : 100% | Niveau 1 : 85 € | Niveau 2 : 100 € | Niveau 3 : 115 € | Niveau 4 : 130 €",
+      "sub_limits": [
+        "1 équipement (2 verres + 1 monture) par période de deux ans"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Optique (niveaux d'Équipements) — Lentilles de contact",
+      "description": "Lentilles de contact prises en charge par la Sécurité sociale. Forfait par année civile (note 9). Note (11) : uniquement les lentilles prises en charge par le Régime obligatoire. Les lentilles de contact NON remboursées par la Sécurité sociale figurent parmi les garanties optionnelles listées en page 1.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "Niveau 0 : 100 % (11) | Niveau 1 : 100 % + 40 € | Niveau 2 : 100 % + 80 € | Niveau 3 : 100 % + 120 € | Niveau 4 : 100 % + 160 €",
+      "sub_limits": [
+        "Forfait par année civile"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Optique (niveaux d'Équipements) — Chirurgie réfractive de l'œil",
+      "description": "Chirurgie réfractive de l'œil. Forfait par œil et par année civile (note 12). Garantie optionnelle selon la formule souscrite.",
+      "is_optional": true,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "Niveau 0 : - | Niveau 1 : - | Niveau 2 : - | Niveau 3 : 300 € | Niveau 4 : 400 €",
+      "sub_limits": [
+        "Forfait par œil et par année civile"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Optique (niveaux d'Équipements) — Appareils basse vision",
+      "description": "Appareils basse vision : aides visuelles pour les personnes dont l'acuité visuelle avec correction est inférieure à 4/10ème. Forfait par année civile. La prise en charge s'effectue en complément du Régime obligatoire et/ou des aides publiques éventuelles (note 13).",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "Niveaux 0, 1, 2, 3 et 4 : 100 % + 250 €",
+      "sub_limits": [
+        "Forfait par année civile",
+        "Aides visuelles pour les personnes dont l'acuité visuelle avec correction est inférieure à 4/10ème"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Aides auditives (niveaux d'Équipements) — Équipements 100 % Santé",
+      "description": "Équipements 100 % Santé (dits de classe I) tels que définis réglementairement, prestations assurées à partir du 01/01/2021 (note 7).",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "Niveaux 0, 1, 2, 3 et 4 : Remboursement intégral (8) — dans les limites et conditions de la réglementation en vigueur",
+      "sub_limits": [
+        "Le nombre d'équipement (1 appareil acoustique) est limité à 1 équipement par oreille tous les 4 ans"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Aides auditives (niveaux d'Équipements) — Appareil acoustique (> 20 ans)",
+      "description": "Appareil acoustique pour les assurés de plus de 20 ans, au titre des « autres aides auditives remboursées par le Régime obligatoire ».",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "Niveau 0 : 100% | Niveau 1 : 100 % + 150 € | Niveau 2 : 100 % + 300 € | Niveau 3 : 100 % + 450 € | Niveau 4 : 100 % + 600 €",
+      "sub_limits": [
+        "1 équipement par oreille tous les 4 ans ; le point de départ de la période correspond à la date de l'équipement"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Aides auditives (niveaux d'Équipements) — Appareil acoustique (≤ 20 ans)",
+      "description": "Appareil acoustique pour les assurés de 20 ans ou moins, au titre des « autres aides auditives remboursées par le Régime obligatoire ».",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "Niveau 0 : 100% | Niveau 1 : 100 % + 50 € | Niveau 2 : 100 % + 150 € | Niveau 3 : 100 % + 250 € | Niveau 4 : 100 % + 300 €",
+      "sub_limits": [
+        "1 équipement par oreille tous les 4 ans"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Aides auditives (niveaux d'Équipements) — Entretien, piles et accessoires",
+      "description": "Entretien, piles et accessoires. Forfait par année civile (note 9).",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "Niveau 0 : 100% | Niveau 1 : 100 % + 30 € | Niveau 2 : 100 % + 40 € | Niveau 3 : 100 % + 50 € | Niveau 4 : 100 % + 60 €",
+      "sub_limits": [
+        "Forfait par année civile"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Appareillage (niveaux d'Équipements) — Matériel médical",
+      "description": "Matériel médical, hors titre IV de la LPP, objets contraceptifs, basse vision et appareils acoustiques (note 14).",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "Niveau 0 : 100% | Niveau 1 : 125% | Niveau 2 : 150% | Niveau 3 : 200% | Niveau 4 : 300%",
+      "sub_limits": [
+        "Hors titre IV de la LPP*, objets contraceptifs, basse vision et appareils acoustiques"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Appareillage (niveaux d'Équipements) — Véhicule pour handicapés physiques inscrit au titre IV de la LPP",
+      "description": "Véhicule pour personnes handicapées physiques inscrit au titre IV de la Liste des Produits et Prestations. Forfait par année civile (note 9).",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "Niveaux 0, 1, 2, 3 et 4 : 100 % + 1 500 €",
+      "sub_limits": [
+        "Forfait par année civile"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Cures thermales (niveaux d'Équipements) — Honoraires de cures thermales",
+      "description": "Honoraires de cures thermales remboursées par la Sécurité sociale. Forfait par année civile (note 9), sous réserve de prise en charge de la cure thermale par le Régime obligatoire (note 15). Garantie optionnelle selon la formule souscrite.",
+      "is_optional": true,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "Niveau 0 : - | Niveau 1 : 100% | Niveau 2 : 100% | Niveau 3 : 100% | Niveau 4 : 100%",
+      "sub_limits": [
+        "Forfait par année civile"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Sous réserve de prise en charge de la cure thermale par le Régime obligatoire"
+      ],
+      "page": 4
+    },
+    {
+      "name": "Cures thermales (niveaux d'Équipements) — Forfait thermal pour soins",
+      "description": "Forfait thermal pour soins. Forfait par année civile (note 9), sous réserve de prise en charge de la cure thermale par le Régime obligatoire (note 15). Garantie optionnelle selon la formule souscrite.",
+      "is_optional": true,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "Niveau 0 : - | Niveau 1 : 100% | Niveau 2 : 100% | Niveau 3 : 100% | Niveau 4 : 100%",
+      "sub_limits": [
+        "Forfait par année civile"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Sous réserve de prise en charge de la cure thermale par le Régime obligatoire"
+      ],
+      "page": 4
+    },
+    {
+      "name": "Cures thermales (niveaux d'Équipements) — Transport et hébergement",
+      "description": "Transport et hébergement liés à la cure thermale. Forfait par année civile (note 9), sous réserve de prise en charge de la cure thermale par le Régime obligatoire (note 15). Garantie optionnelle selon la formule souscrite.",
+      "is_optional": true,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus)",
+      "limits": "Niveau 0 : - | Niveau 1 : 100% | Niveau 2 : 100 %         + 150€ | Niveau 3 : 100 %                 +250 € | Niveau 4 : 100 %                   +350 € (espacements reproduits tels qu'imprimés)",
+      "sub_limits": [
+        "Forfait par année civile"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Sous réserve de prise en charge de la cure thermale par le Régime obligatoire"
+      ],
+      "page": 4
+    },
+    {
+      "name": "Bonus fidélité",
+      "description": "Les prestations suivies du symbole de bonus fidélité donnent lieu à un bonus fidélité : chaque année, à la date anniversaire de l'adhésion, les forfaits mentionnés sont augmentés de 10 % dans la limite de 30 %. Hors niveau d'Equipements 0.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Augmentation de 10 % par an dans la limite de 30 %",
+      "sub_limits": [
+        "Hors niveau d'Equipements 0"
+      ],
+      "deductible": null,
+      "conditions": [
+        "S'applique uniquement aux prestations marquées du symbole de bonus fidélité"
+      ],
+      "page": 4
+    },
+    {
+      "name": "Assistance en cas d'hospitalisation ou d'immobilisation à domicile",
+      "description": "Assistance systématiquement prévue au contrat : assistance en cas d'hospitalisation ou d'immobilisation à domicile.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance s'appliquent en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Assistance en cas de naissance ou d'adoption, de pathologies lourdes et en cas d'obsèques",
+      "description": "Assistance systématiquement prévue au contrat : assistance en cas de naissance ou d'adoption, de pathologies lourdes et en cas d'obsèques.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance s'appliquent en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Assistance dédiée aux aidants",
+      "description": "Assistance systématiquement prévue au contrat : assistance dédiée aux aidants.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance s'appliquent en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Fonds de secours",
+      "description": "Assistance systématiquement prévue au contrat : fonds de secours.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Réseau de soins",
+      "description": "Service systématiquement prévu au contrat : réseau de soins.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Tiers payant",
+      "description": "Service systématiquement prévu au contrat : tiers payant.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Cautionnement de prêt pour les fonctionnaires",
+      "description": "Service systématiquement prévu au contrat : cautionnement de prêt pour les fonctionnaires.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Soins reçus hors période de validité du contrat",
+      "description": "Les soins reçus en dehors de la période de validité du contrat.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Indemnités journalières en cas d'arrêt de travail",
+      "description": "Les indemnités journalières versées en complément de la Sécurité sociale en cas d'arrêt de travail.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Séjours en unité de soins longue durée et en établissements médico-sociaux (EHPAD)",
+      "description": "Les dépenses de soins afférentes aux séjours dans une unité de soins longue durée ou dans les établissements médico-sociaux tels que les établissements d'hébergement pour personnes âgées (EHPAD).",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Séjours en établissements médico-sociaux, maisons de retraite, USLD et codes DMT listés",
+      "description": "Note (1) du tableau Hospitalisation : Sont exclus les séjours en établissement médico-sociaux*, dans les maisons de retraite, dans une unité de soins longue durée (USLD) ou dans un établissement dont le code DMT est listé en annexe.",
+      "applies_to": "Hospitalisation",
+      "page": 3
+    },
+    {
+      "name": "Franchises médicales",
+      "description": "Principale exclusion du contrat responsable : les franchises médicales sur les médicaments, les actes paramédicaux et les transports.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Participation forfaitaire d'un euro",
+      "description": "Principale exclusion du contrat responsable : la participation forfaitaire d'un euro sur les consultations et actes médicaux, examens radiologiques et analyses de laboratoire.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Majoration du ticket modérateur hors parcours de soins",
+      "description": "Principale exclusion du contrat responsable : la majoration du ticket modérateur lorsque l'assuré ne respecte pas le parcours de soins.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dépassements d'honoraires hors parcours de soins",
+      "description": "Principale exclusion du contrat responsable : les dépassements d'honoraires pratiqués par les médecins lorsque l'assuré ne respecte pas le parcours de soins.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Restriction — forfait journalier hospitalier",
+      "description": "FORFAIT JOURNALIER HOSPITALIER : remboursement conditionné à une hospitalisation d'une nuit minimum.",
+      "applies_to": "Hospitalisation — Forfait journalier hospitalier",
+      "page": 1
+    },
+    {
+      "name": "Restriction — chambre particulière ou accompagnant",
+      "description": "CHAMBRE PARTICULIERE OU ACCOMPAGNANT : remboursement conditionné à une hospitalisation d'une nuit minimum et limité à 90 jours par année civile.",
+      "applies_to": "Hospitalisation — Chambre particulière et Chambre accompagnant",
+      "page": 1
+    },
+    {
+      "name": "Restriction — forfait médecines douces limité à 3 séances",
+      "description": "OSTEOPATHE, ACUPUNCTEUR, DIETETICIEN, CHIROPRACTEUR, PODOLOGUE, PEDICURE, PSYCHOLOGUE, ETIOPATHE : forfait unique pour l'ensemble des spécialités mentionnées, remboursement avec une limitation à 3 séances par année civile.",
+      "applies_to": "Soins courants — Ostéopathe, acupuncteur, diététicien, chiropracteur, podologue, pédicure, psychologue, étiopathe",
+      "page": 1
+    },
+    {
+      "name": "Restriction — plafond global sur les prothèses dentaires et l'orthodontie les 24 premiers mois",
+      "description": "LES PROTHESES DENTAIRES REMBOURSEES PAR LA SECURITE SOCIALE (hors prothèses 100% santé) ET L'ORTHODONTIE : les remboursements sont limités à un plafond global annuel durant les 24 premiers mois d'affiliation de l'assuré. Au-delà de ces plafonds, seul le ticket modérateur est remboursé ; ces plafonds s'appliquent en cas de changement du niveau d'Équipements.",
+      "applies_to": "Dentaire — autres prothèses remboursées par le RO et orthodontie",
+      "page": 1
+    },
+    {
+      "name": "Restriction — renouvellement de l'équipement optique",
+      "description": "OPTIQUE : remboursement limité à un équipement (monture + 2 verres) tous les deux ans sauf cas de renouvellement anticipé prévu réglementairement. Dans tous les cas, pour chaque assuré, le point de départ de la période correspond à la date de l'équipement.",
+      "applies_to": "Optique",
+      "page": 1
+    },
+    {
+      "name": "Restriction — renouvellement des aides auditives",
+      "description": "LES AIDES AUDITIVES REMBOURSEES PAR LA SECURITE SOCIALE : le nombre d'équipement (1 appareil acoustique) est limité à 1 équipement par oreille tous les 4 ans. Dans tous les cas, pour chaque assuré, le point de départ de la période correspond à la date de l'équipement.",
+      "applies_to": "Aides auditives",
+      "page": 1
+    },
+    {
+      "name": "Participation forfaitaire et franchise annuelle exclues des remboursements",
+      "description": "Ces remboursements sont effectués en excluant la participation forfaitaire et la franchise annuelle de l'assuré qui restent à sa charge et dans la limite des dépenses engagées par l'assuré, conformément à la loi.",
+      "applies_to": "all",
+      "page": 3
+    },
+    {
+      "name": "Plafonnement aux dépenses engagées",
+      "description": "Les montants des prestations sont soumis à des plafonds qui varient en fonction du niveau de garanties choisi et qui figurent dans les tableaux de garanties. Ils ne peuvent être plus élevés que les dépenses engagées. Certaines sommes peuvent rester à votre charge.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Soins dispensés à l'étranger — base de remboursement française",
+      "description": "Dans le cas où les soins ont été dispensés à l'étranger, le remboursement se fait sur la base de remboursement du régime d'Assurance maladie obligatoire français, quelle que soit la dépense engagée.",
+      "applies_to": "all",
+      "page": 2
+    }
+  ],
+  "deductibles": {
+    "standard": "Le document ne stipule aucune franchise contractuelle. Il indique que les remboursements sont effectués en excluant la participation forfaitaire et la franchise annuelle légales de l'assuré, qui restent à sa charge conformément à la loi, et que les prestations ne peuvent être plus élevées que les dépenses engagées.",
+    "variable": null,
+    "per_coverage": null,
+    "page": 3
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Conditions de statut à la souscription",
+      "description": "Avoir le statut de fonctionnaire ou d'agent non titulaire de droit public ou de droit privé des collectivités territoriales et de leurs établissements publics ou être retraité d'une des catégories visées ci-dessus.",
+      "timing": "À la souscription",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    },
+    {
+      "name": "Remplir et signer la demande d'adhésion",
+      "description": "Remplir avec exactitude et signer la demande d'adhésion.",
+      "timing": "À la souscription",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    },
+    {
+      "name": "Fournir les pièces justificatives d'adhésion",
+      "description": "Fournir une copie de sa pièce d'identité ainsi que la copie de l'attestation de droits à l'assurance maladie de chaque assuré.",
+      "timing": "À la souscription",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    },
+    {
+      "name": "Conditions d'âge, de capacité, de résidence et d'affiliation",
+      "description": "Être âgé de plus de 16 ans et avoir la capacité de contracter, résider en France métropolitaine ou dans un département ou une région d'Outre-mer et être affilié à un régime obligatoire français d'assurance maladie.",
+      "timing": "À la souscription",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    },
+    {
+      "name": "Payer la cotisation",
+      "description": "Payer la cotisation prévue au contrat.",
+      "timing": "Durant le contrat",
+      "sanction": "Sous peine de suspension des garanties ; en cas de non paiement au-delà du délai de 10 jours et après une mise en demeure restée sans effet, l'assureur pourra être amené à résilier le contrat",
+      "page": 2
+    },
+    {
+      "name": "Fournir les justificatifs de prestations",
+      "description": "Fournir tout document justificatif nécessaire au paiement des prestations prévues au contrat.",
+      "timing": "Durant le contrat",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    },
+    {
+      "name": "Respecter le délai de demande de remboursement",
+      "description": "Faire parvenir les demandes de remboursement à la mutuelle dans un délai maximum de 2 ans suivant la date de l'évènement à indemniser ou de sa date de facturation.",
+      "timing": "Dans un délai maximum de 2 ans suivant la date de l'évènement à indemniser ou de sa date de facturation",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    },
+    {
+      "name": "Signaler tout changement de situation",
+      "description": "Signaler tout changement de situation (régime de Sécurité sociale d'un des assurés, changement de domicile ou de situation familiale, etc…) ou de coordonnées bancaires et produire les justificatifs nécessaires à la modification du contrat. Ce changement peut, dans certains cas, entraîner la modification du contrat et de la cotisation initialement prévue.",
+      "timing": "Durant le contrat",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Adresser la demande de remboursement",
+      "description": "Faire parvenir les demandes de remboursement à la mutuelle, accompagnées de tout document justificatif nécessaire au paiement des prestations prévues au contrat.",
+      "deadline": "Dans un délai maximum de 2 ans suivant la date de l'évènement à indemniser ou de sa date de facturation",
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat prend effet à la date mentionnée sur Le bulletin d'adhésion. Sa durée est d'un an.",
+    "tacit_renewal": true,
+    "notice_period": "Résiliation à l'échéance annuelle moyennant un préavis de 2 mois avant le 31 décembre de l'année en cours.",
+    "methods": [
+      "La demande de résiliation doit être adressée par lettre ou tout autre moyen prévu à l'article L.221-10-3 du Code de la mutualité et notamment par courrier postal à l'adresse figurant sur votre carte de tiers payant, par courrier électronique, par déclaration en point d'accueil physique, par acte extrajudiciaire ou via l'espace adhérent (actiweb) accessible via le site www.mnfct.fr",
+      "La mutuelle confirmera par écrit à l'adhérent avoir reçu sa demande de résiliation"
+    ],
+    "special_rights": [
+      "Il se renouvelle par tacite reconduction chaque année au 1er janvier sauf résiliation par l'une des parties dans les cas et conditions fixés au contrat",
+      "L'adhérent dispose d'un délai de renonciation de 14 jours à compter de la prise d'effet du contrat",
+      "Résiliation à l'échéance annuelle, moyennant un préavis de 2 mois avant le 31 décembre de l'année en cours",
+      "Résiliation à tout moment après expiration d'un délai d'un an à compter de la première souscription ; la résiliation prendra effet à la date précisée dans l'avis de résiliation et au plus tôt un mois après réception de la demande",
+      "Résiliation en cas de modification des garanties à la suite d'une évolution de la réglementation ou d'une décision de la mutuelle, dans un délai d'un mois à compter du jour où cette modification est notifiée à l'adhérent",
+      "Les garanties cessent en cas de résiliation par l'adhérent",
+      "Les garanties cessent en cas de non paiement des cotisations",
+      "Les garanties cessent en cas de modification des garanties à la suite d'une évolution de la réglementation ou d'une décision de la mutuelle, si l'adhérent refuse cette modification"
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "La cotisation est annuelle et payable d'avance. Elle est due à l'échéance jusqu'à la résiliation du contrat.",
+      "Le paiement de la cotisation est exigible dans les 10 jours de son échéance. En cas de non paiement au-delà de ce délai, et après une mise en demeure restée sans effet, l'assureur pourra être amené à résilier le contrat.",
+      "Les cotisations peuvent être réglées par précompte sur salaire, par prélèvement bancaire ou par chèque (uniquement pour le paiement annuel).",
+      "Il est possible de demander le fractionnement du paiement de la cotisation (semestriel, trimestriel ou mensuel). Aucuns frais de fractionnement ne sont alors appliqués.",
+      "Un changement de situation peut, dans certains cas, entraîner la modification du contrat et de la cotisation initialement prévue."
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Porteur du risque",
+      "description": "Ce contrat est assuré par la Mutuelle Nationale des Fonctionnaires des Collectivités Territoriales (MNFCT), mutuelle enregistrée en France et régie par le livre II du Code de la Mutualité. SIREN n°784 442 899.",
+      "page": 1
+    },
+    {
+      "name": "Contrat responsable et offre labellisée",
+      "description": "Le produit respecte les conditions légales des contrats responsables et figure sur la liste des offres labellisées sur le site de la DGCL.",
+      "page": 1
+    },
+    {
+      "name": "Portée du document",
+      "description": "Ce document d'information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l'information complète sur ce produit dans la documentation précontractuelle et contractuelle. En particulier, les niveaux de remboursement seront détaillés dans le tableau de garanties.",
+      "page": 1
+    },
+    {
+      "name": "Base de calcul des garanties",
+      "description": "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l'assuré ayant respecté le parcours de soins. Les pourcentages de ce tableau sont des plafonds exprimés par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement. Les garanties exprimées en euros correspondent au remboursement de la mutuelle uniquement et n'incluent pas le remboursement de la Sécurité sociale. Les garanties exprimées en pourcentage et en euros incluent le remboursement de la Sécurité sociale, le ticket modérateur et la prise en charge forfaitaire de la mutuelle. Les forfaits s'entendent par assuré.",
+      "page": 3
+    },
+    {
+      "name": "Deux axes de choix indépendants",
+      "description": "L'annexe distingue deux grilles distinctes : d'une part quatre « FORMULES SOINS » (ECONOMIQUE, EQUILIBREE, PROTECTRICE, EXCELLENCE) portant sur l'hospitalisation, les soins courants, la prévention et les soins dentaires ; d'autre part cinq « NIVEAUX D'ÉQUIPEMENTS » numérotés 0, 1, 2, 3 et 4 portant sur les prothèses dentaires, l'optique, les aides auditives, l'appareillage et les cures thermales.",
+      "page": 4
+    },
+    {
+      "name": "Point de départ des périodes de renouvellement",
+      "description": "Optique : le nombre d'équipements (2 verres + 1 monture) est limité à 1 équipement par période de deux ans, à l'exception des cas pour lesquels un renouvellement anticipé est possible réglementairement ; dans tous les cas, pour chaque assuré, le point de départ de la période correspond à la date de l'équipement. Aides auditives : pour l'ensemble des aides auditives prises en charge au titre du contrat, le nombre d'équipement (1 appareil acoustique) est limité à 1 équipement par oreille tous les 4 ans ; dans tous les cas, pour chaque assuré, le point de départ de la période correspond à la date de l'équipement.",
+      "page": 4
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Ce contrat est assuré par la Mutuelle Nationale des Fonctionnaires des Collectivités Territoriales (MNFCT), mutuelle enregistrée en France \net régie par le livre II du Code de la Mutualité.",
+      "context": "Bandeau d'identification du produit — porteur du risque",
+      "page": 1
+    },
+    {
+      "quote": "DIPA GST 01/2022",
+      "context": "Référence / édition en tête de document",
+      "page": 1
+    },
+    {
+      "quote": "Ce document d'information présente un résumé des principales garanties et exclusions du contrat.",
+      "context": "Avertissement liminaire du DIPA",
+      "page": 1
+    },
+    {
+      "quote": "Le contrat Garantie Santé Territoriaux est destiné à rembourser, en complément de la Sécurité sociale française, tout ou partie des frais de santé \nrestant à la charge de l’assuré et des éventuels bénéficiaires en cas d’accident, de maladie ou de maternité.",
+      "context": "De quel type d'assurance s'agit-il ?",
+      "page": 1
+    },
+    {
+      "quote": "Le produit respecte les conditions \nlégales des contrats responsables et figure sur la liste des offres labellisées sur le site de la DGCL.",
+      "context": "De quel type d'assurance s'agit-il ?",
+      "page": 1
+    },
+    {
+      "quote": "Les indemnités journalières versées en complément de la \nSécurité sociale en cas d’arrêt de travail.",
+      "context": "Qu'est-ce qui n'est pas assuré ?",
+      "page": 1
+    },
+    {
+      "quote": "La majoration du ticket modérateur lorsque l’assuré ne \nrespecte pas le parcours de soins.",
+      "context": "Principales exclusions du contrat responsable",
+      "page": 1
+    },
+    {
+      "quote": "OPTIQUE : remboursement limité à un équipement (monture + 2 \nverres) tous les deux ans sauf cas de renouvellement anticipé \nprévu réglementairement.",
+      "context": "Principales restrictions",
+      "page": 1
+    },
+    {
+      "quote": "avoir le statut de fonctionnaire ou d’agent non titulaire de droit public ou de droit privé des collectivités territoriales et de leurs \nétablissements publics ou être retraité d’une des catégories visées ci-dessus ;",
+      "context": "Quelles sont mes obligations ? — À la souscription",
+      "page": 2
+    },
+    {
+      "quote": "France (départements et régions d'outre-mer inclus).",
+      "context": "Où suis-je couvert(e) ?",
+      "page": 2
+    },
+    {
+      "quote": "Le contrat prend effet à la date mentionnée sur Le bulletin d’adhésion. Sa durée est d’un an. Il se renouvelle par tacite reconduction \nchaque année au 1er janvier sauf résiliation par l’une des parties dans les cas et conditions fixés au contrat.",
+      "context": "Quand commence la couverture et quand prend-elle fin ?",
+      "page": 2
+    },
+    {
+      "quote": "L’adhérent dispose d’un délai de renonciation de 14 jours à compter de la prise d’effet du contrat.",
+      "context": "Quand commence la couverture et quand prend-elle fin ?",
+      "page": 2
+    },
+    {
+      "quote": "Garantie en vigueur au 1er janvier 2022",
+      "context": "En-tête de l'annexe — tableau des formules et des garanties",
+      "page": 3
+    },
+    {
+      "quote": "Les pourcentages de ce tableau sont des plafonds exprimés par rapport aux bases de remboursement de la Sécurité sociale en incluant \nson remboursement.",
+      "context": "Note de lecture du tableau de garanties",
+      "page": 3
+    },
+    {
+      "quote": "Sont exclus les séjours en établissement médico-sociaux*, dans les maisons de retraite, dans une unité de soins longue durée (USLD) ou dans un \nétablissement dont le code DMT est listé en annexe.",
+      "context": "Note (1) du bloc Hospitalisation",
+      "page": 3
+    },
+    {
+      "quote": "Chaque année, à la date anniversaire de votre adhésion, les \nforfaits mentionnés sont augmentés de 10 % dans la limite de 30 %. Hors niveau d’Equipements 0.",
+      "context": "Bonus fidélité",
+      "page": 4
+    }
+  ],
+  "gaps": [
+    "PORTEUR DU RISQUE : le risque n'est PAS porté par la Macif ni par une entité du groupe Macif nommée dans le document. La seule mention d'assureur est « Ce contrat est assuré par la Mutuelle Nationale des Fonctionnaires des Collectivités Territoriales (MNFCT), mutuelle enregistrée en France et régie par le livre II du Code de la Mutualité. SIREN n°784 442 899 » (p. 1). Le document ne mentionne NULLE PART la Macif, ni comme distributeur, ni à aucun autre titre ; le rattachement de ce PDF au site macif.fr est la seule chose qui l'y relie. Aucun rôle de distribution n'a été inféré.",
+    "SOURCE = IPID : ce document est un DIPA (document d'information sur le produit d'assurance), c'est-à-dire un RÉSUMÉ et non le contrat. Il l'affirme lui-même : « Ce document d'information présente un résumé des principales garanties et exclusions du contrat (…) Vous trouverez l'information complète sur ce produit dans la documentation précontractuelle et contractuelle. » Le silence de ce document sur un point donné ne vaut donc PAS absence de couverture ou absence de clause : les listes d'exclusions y sont explicitement les « PRINCIPALES » exclusions, et les conditions générales n'ont pas été consultées.",
+    "EDITION : datée. La référence imprimée en tête de la page 1 est « DIPA GST 01/2022 », confirmée par « Garantie en vigueur au 1er janvier 2022 » en tête de l'annexe (p. 3). Ce code ne suit pas la structure <FAMILLE>/<PRODUIT>/05 - MM/AA - N<nnn> des contrats Macif SAM. Aucune date n'a été déduite du nom de fichier (DIPA_GST.pdf n'en porte pas).",
+    "PAGE 4 — RECONSTRUCTION MAJEURE DE LA GÉOMÉTRIE DU TABLEAU, À VÉRIFIER : la couche texte de la page 4 est gravement désordonnée. Le tableau y compte CINQ colonnes (niveaux d'Équipements 0, 1, 2, 3, 4), mais la linéarisation les sépare en deux blocs : (a) un bloc de tête contenant UNIQUEMENT les colonnes 1 et 2, sous forme de 28 couples de valeurs sans libellé, en ordre de lignes descendant ; (b) un bloc de bas de page contenant les libellés de lignes avec les colonnes 0, 3 et 4, en ordre de lignes INVERSÉ. Les en-têtes « 1 » et « 2 » figurent en haut de page, les en-têtes « 0 », « 3 », « 4 » tout en bas. Le rapprochement des deux blocs a été fait en s'appuyant sur (i) les unités imprimées dans les valeurs (« € / couronne », « € / bridge », « € / appareil », « € / inlay », « € / dent ou réparation », « € / semestre »), qui identifient sans ambiguïté chaque ligne dentaire, et (ii) la croissance monotone des montants du niveau 1 au niveau 4, vérifiée ligne à ligne. Les deux linéarisations donnent des ORDRES DE LIGNES CONTRADICTOIRES, l'ordre seul n'est donc pas fiable ; c'est l'unité et la monotonie qui ont tranché.",
+    "PAGE 4 — DEUX ATTRIBUTIONS RESTÉES INCERTAINES : (a) Implants dentaires / Parodontie : le bloc de tête fournit les couples « - | 300 € » et « 100 € | 150 € », les lignes basses donnant Implants « - | 400 € | 500 € » et Parodontie « - | 200 € | 250 € ». Seule l'affectation Implants = « - | 300 € » et Parodontie = « 100 € | 150 € » est monotone (l'inverse donnerait Parodontie 300 € au niveau 2 puis 200 € au niveau 3) ; c'est celle retenue. (b) Chirurgie réfractive / Appareils basse vision : les couples disponibles sont « - | - » et « 100 % + 250 € | 100 % + 250 € ». L'affectation retenue (Chirurgie réfractive = « - | - », Basse vision = « 100 % + 250 € ») est la seule cohérente en unités et en monotonie, mais elle INVERSE l'ordre d'apparition des deux lignes dans le bloc bas. Ces deux lignes devraient être revérifiées sur le PDF mis en page si la donnée est utilisée.",
+    "PAGE 4 — LIGNES « Remboursement intégral » : les lignes 100 % Santé (prothèses dentaires, optique, aides auditives) apparaissent dans la couche texte sous forme de « Remboursement intégral (8) » répété quatre ou cinq fois, sans qu'on puisse distinguer à quelle colonne chaque occurrence correspond. Elles ont été restituées comme identiques sur les cinq niveaux, ce que la répétition suggère mais que la couche texte ne prouve pas colonne par colonne.",
+    "ESPACEMENTS ANORMAUX CONSERVÉS : la ligne « Transport et hébergement » des cures thermales imprime « 100 %         + 150€ », « 100 %                 +250 € » et « 100 %                   +350 € », avec de longues suites d'espaces et une espace manquante avant l'euro dans « 150€ ». Ces graphies sont reproduites telles quelles, conformément à la règle de citation verbatim des montants.",
+    "DEUX AXES DE FORMULES NON CROISÉS : le document présente d'un côté quatre formules « Soins » (ECONOMIQUE / EQUILIBREE / PROTECTRICE / EXCELLENCE) et de l'autre cinq niveaux d'« Équipements » (0 à 4). Il n'indique NULLE PART comment ces deux axes se combinent — s'ils sont librement combinables, ou si un niveau d'Équipements est attaché à chaque formule Soins. Aucune correspondance n'a été supposée ; les garanties des pages 3 et 4 sont donc restituées sur leur axe respectif.",
+    "GARANTIES OPTIONNELLES : le champ is_optional a été mis à true pour les lignes que la page 1 énumère explicitement sous « LES GARANTIES OPTIONNELLES (selon la formule souscrite) » — chambre particulière et accompagnant, pharmacie remboursée à 15 %, homéopathie, forfait ostéopathe et assimilés, implants dentaires et parodontie, lentilles non remboursées, chirurgie réfractive, cures thermales. Le document ne dit pas si l'option se souscrit séparément ou résulte du seul choix de formule : la formule « selon la formule souscrite » suggère la seconde lecture, mais elle n'est pas explicitée.",
+    "LENTILLES NON REMBOURSÉES : la page 1 liste « Lentilles de contact non remboursées par la Sécurité sociale » parmi les garanties optionnelles, mais l'annexe (p. 4) ne comporte de ligne que pour les « Lentilles de contact (9) » avec la note (11) « Uniquement les lentilles prises en charge par le Régime obligatoire* ». Le niveau de prise en charge des lentilles NON remboursées ne figure donc nulle part dans le document ; il n'a pas été supposé.",
+    "COTISATIONS ABSENTES : le document décrit le mécanisme de paiement (cotisation annuelle payable d'avance, exigible dans les 10 jours, fractionnement possible sans frais, précompte sur salaire possible) mais ne donne AUCUN montant ni barème de cotisation.",
+    "PRESCRIPTION ABSENTE : le DIPA ne traite pas de la prescription des actions ; prescription_period est laissé à null faute de contenu dans la source. De même, aucun délai de carence n'est mentionné (waiting_periods vide) et la procédure de sinistre se réduit à l'obligation d'adresser les demandes de remboursement dans les 2 ans.",
+    "TYPOGRAPHIE NON CORRIGÉE : le document imprime « Le contrat prend effet à la date mentionnée sur Le bulletin d'adhésion » (majuscule intempestive à « Le »), « Sont exclus les séjours en établissement médico-sociaux* » (accord fautif) et « Les   Les garanties d'assistance s'appliquent » (répétition dans la couche texte, p. 2). Ces graphies n'ont pas été corrigées.",
+    "APOSTROPHES MIXTES : la couche texte mêle apostrophes courbes (U+2019) et ASCII — par exemple « Ce document d'information » et « France (départements et régions d'outre-mer inclus). » en ASCII, contre « restant à la charge de l'assuré » en courbes. Les citations sont découpées telles quelles.",
+    "PICTOGRAMMES PERDUS : la page 1 renvoie à des symboles graphiques (« Les garanties ou services précédés d'une coche verte sont systématiquement prévus au contrat », et le symbole du bonus fidélité en page 4) qui n'existent pas dans la couche texte. Il est donc IMPOSSIBLE de déterminer, ligne par ligne, quelles prestations portent effectivement le symbole du bonus fidélité ; la garantie « Bonus fidélité » est restituée sans liste de prestations concernées.",
+    "VÉRIFICATION SOURCE : le texte du prompt a été confronté au PDF local (data/fr/pdfs/macif/sante/contrat-garantie-sante-territoriaux-394da741.pdf) réextrait page par page avec page.get_text(\"text\") via PyMuPDF ; les 4 pages ressortent identiques. Aucune troncature."
+  ]
+}

@@ -6,9 +6,10 @@ insurer_slug: macif
 name: Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et
   des Cadres et Salariés de l'Industrie et du Commerce)
 website: https://www.macif.fr
-products_count: 15
+products_count: 19
 branches_covered:
 - animaux
+- assurance-vie
 - auto
 - emprunteur
 - habitation
@@ -33,18 +34,23 @@ generated: true
 
 ## Résumé
 
-**Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)** - [https://www.macif.fr](https://www.macif.fr). 15 document(s) across 9 branch(es).
+**Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)** - [https://www.macif.fr](https://www.macif.fr). 19 document(s) across 10 branch(es).
 
 ## Produits par branche
 
 ### Animaux
 - [Contrat Chiens guides](../products/macif/Contrat%20Chiens%20guides.md) - Conditions générales (12/12) · réf. EGALIS/CHIEN/05 - 12/12 - NM10
 
+### Assurance vie et épargne
+- [Multi Vie - Tarifs](../products/macif/Multi%20Vie%20-%20Tarifs.md) - Conditions tarifaires (2024-06) · réf. MUT/ FC/ FRAIS/MV - 06/24
+
 ### [Assurance auto](../branches/Assurance%20auto.md)
+- [Contrat Auto-Micro Entrepreneur](../products/macif/Contrat%20Auto-Micro%20Entrepreneur.md) - Conditions générales (2012-12) · réf. PRO / AUTOE / 05 - 12 / 12 - NM00
 - [Contrat Camping-car, Autocaravane](../products/macif/Contrat%20Camping-car%2C%20Autocaravane.md) - Conditions générales (2019-01) · réf. LOIS / CARACC / 05 - 01 / 19 - N 891
 - [Réduction spéciale Bon conducteur Macif - Tarifs](../products/macif/R%C3%A9duction%20sp%C3%A9ciale%20Bon%20conducteur%20Macif%20-%20Tarifs.md) - Conditions tarifaires (2024-12)
 
 ### [Assurance emprunteur](../branches/Assurance%20emprunteur.md)
+- [Assurance Découvert Autorisé - Doc](../products/macif/Assurance%20D%C3%A9couvert%20Autoris%C3%A9%20-%20Doc.md) - Document (2020-11)
 - [Assurance Découvert Autorisé - IPID](../products/macif/Assurance%20D%C3%A9couvert%20Autoris%C3%A9%20-%20IPID.md) - IPID / Fiche d'information (12/20) · réf. DIPA ASSURANCE DÉCOUVERT 12/20
 - [Notice d'information au contrat collectif d'assurance emprunteur à adhésion facultative (contrat collectif n° 00.104, So](../products/macif/Notice%20d%27information%20au%20contrat%20collectif%20d%27assurance%20emprunteur%20%C3%A0%20adh%C3%A9sion%20facultative%20%28contrat%20collectif%20n%C2%B0%2000.104%2C%20So.md) - Conditions générales · réf. ASS-OFF--V13
 
@@ -69,6 +75,7 @@ generated: true
 - [Garantie Santé](../products/macif/Garantie%20Sant%C3%A9.md) - Conditions générales (2023-01) · réf. UNI/PREI/GS/05 01/23
 - [Macif Mutuelle Entreprises](../products/macif/Macif%20Mutuelle%20Entreprises%20%282%29.md) - Conditions générales (2025-01) · réf. CG M M E - 01/25
 - [Macif Mutuelle Entreprises](../products/macif/Macif%20Mutuelle%20Entreprises.md) - Conditions générales (2026-01) · réf. NID M M E - 01/26
+- [contrat GARANTIE SANTE TERRITORIAUX - IPID](../products/macif/contrat%20GARANTIE%20SANTE%20TERRITORIAUX%20-%20IPID.md) - IPID / Fiche d'information (01/2022) · réf. DIPA GST 01/2022
 
 ## Source
 
