@@ -24,6 +24,54 @@ from common import (fallback_branch, insurer_configs, pdfs_dir, load_manifest,
 UA = "openinsurance-wiki/0.1 (+https://github.com/sluyasu/OpenInsurance; polite public-document fetcher)"
 
 
+class Robots:
+    """Per-origin robots.txt gate. Refuses a URL its host asks crawlers not to take.
+
+    This project is public and its pipeline is meant to be re-run by strangers, so shipping a
+    source file that points every downstream user at a disallowed path would be worse than
+    shipping no source file at all. Enumerating French insurers turned this from a principle
+    into a routine event: axa.fr carries `Disallow: *.pdf` over its whole 152-document library,
+    static.mma.fr answers `Disallow: /` while serving 51 IPIDs, and creditmutuel.fr and acm.fr
+    both disallow the only per-document GET their catalogue offers.
+
+    An unreadable robots.txt is treated as permissive, per RFC 9309: 4xx is "unavailable" and
+    the crawler may proceed, while 5xx is "unreachable" and it must not. That distinction
+    matters here — macif.fr's robots.txt is 403 behind a bot shield, so its policy is genuinely
+    unknown rather than restrictive, and the documents themselves sit on an unprotected path.
+    """
+
+    def __init__(self, client: httpx.Client):
+        self._client = client
+        self._cache: dict[str, object] = {}
+
+    def _parser(self, url: str):
+        from urllib.parse import urlsplit
+        import urllib.robotparser as rp
+        parts = urlsplit(url)
+        origin = f"{parts.scheme}://{parts.netloc}"
+        if origin in self._cache:
+            return self._cache[origin]
+        p = rp.RobotFileParser()
+        try:
+            r = self._client.get(origin + "/robots.txt")
+            if r.status_code >= 500:
+                p.disallow_all = True          # unreachable: assume the strictest reading
+            elif r.status_code >= 400:
+                p.allow_all = True             # unavailable: RFC 9309 says proceed
+            else:
+                p.parse(r.text.splitlines())
+        except Exception:
+            p.allow_all = True
+        self._cache[origin] = p
+        return p
+
+    def allows(self, url: str) -> bool:
+        try:
+            return self._parser(url).can_fetch(UA, url)
+        except Exception:
+            return True
+
+
 def sha256_bytes(b: bytes) -> str:
     return hashlib.sha256(b).hexdigest()
 
@@ -85,12 +133,17 @@ def main() -> int:
         return 0
 
     manifest = load_manifest(cc)
-    n_new = n_skip = n_fail = 0
+    n_new = n_skip = n_fail = n_robots = 0
 
     with httpx.Client(follow_redirects=True, timeout=60.0,
                       headers={"User-Agent": UA, "Accept": "application/pdf,*/*"}) as client:
+        robots = Robots(client)
         for e in entries:
             url = e["url"]
+            if not robots.allows(url):
+                print(f"[download] ROBOTS disallow, not fetched: {url}")
+                n_robots += 1
+                continue
             rec = manifest.get(url)
             if rec and rec.get("local_path"):
                 local = REPO / rec["local_path"]
@@ -131,7 +184,8 @@ def main() -> int:
                 n_fail += 1
 
     save_manifest(cc, manifest)
-    print(f"[download] done: {n_new} new, {n_skip} skipped, {n_fail} failed. Manifest: {len(manifest)} entries.")
+    print(f"[download] done: {n_new} new, {n_skip} skipped, {n_fail} failed"
+          f"{f', {n_robots} robots-disallowed' if n_robots else ''}. Manifest: {len(manifest)} entries.")
     return 0 if n_fail == 0 else 1
 
 
