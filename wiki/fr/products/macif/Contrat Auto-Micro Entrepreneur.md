@@ -5,7 +5,7 @@ country: fr
 insurer: '[[Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France
   et des Cadres et Salariés de l''Industrie et du Commerce)]]'
 insurer_slug: macif
-branch: auto
+branch: rc-professionnelle
 product_name: Contrat Auto-Micro Entrepreneur
 document_type: conditions_generales
 target_audience: null
@@ -19,7 +19,7 @@ reference: PRO / AUTOE / 05 - 12 / 12 - NM00
 edition_date: 2012-12
 lang: fr
 tags:
-- insurance/fr/auto
+- insurance/fr/rc-professionnelle
 - product
 - insurer/macif
 aliases:
@@ -46,7 +46,7 @@ generated: true
 
 Conditions générales du contrat Macif « Auto-Micro Entrepreneur », un contrat de responsabilité civile professionnelle destiné à l'activité déclarée aux Conditions Particulières (titre courant : « Responsabilité civile auto entrepreneur - micro entrepreneur ») : malgré son nom, il ne garantit pas de véhicule, les véhicules terrestres à moteur dont l'Assuré a la propriété, la conduite, la garde ou l'usage étant exclus. La garantie de base couvre les conséquences pécuniaires de la responsabilité civile pour les dommages corporels, matériels et immatériels causés aux tiers avant livraison de produit ou réception de travaux (6 000 000 € par sinistre) et après livraison ou réception, y compris la responsabilité civile professionnelle (1 500 000 € par année d'assurance), la garantie étant déclenchée par la réclamation avec un délai subséquent de 5 ans. S'y ajoutent une garantie Défense et Recours (20 000 € par année d'assurance) et, en option lorsque mention en est faite aux Conditions Particulières, des garanties dommages aux biens : Incendie - dégâts des eaux et risques annexes, Catastrophes naturelles, Bris de glaces et enseignes et Vol. La garantie de responsabilité civile exploitation s'exerce en France Métropolitaine et à Monaco, étendue au monde entier pour les missions n'excédant pas 6 mois hors USA et Canada ; la garantie après livraison s'exerce dans le monde entier hors USA et Canada.
 
-- Assureur : [Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)](../../insurers/Macif%20%28MACIF%20-%20Mutuelle%20Assurance%20des%20Commer%C3%A7ants%20et%20Industriels%20de%20France%20et%20des%20Cadres%20et%20Salari%C3%A9s%20de%20l%27Industrie%20et%20d.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : 2012-12
+- Assureur : [Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)](../../insurers/Macif%20%28MACIF%20-%20Mutuelle%20Assurance%20des%20Commer%C3%A7ants%20et%20Industriels%20de%20France%20et%20des%20Cadres%20et%20Salari%C3%A9s%20de%20l%27Industrie%20et%20d.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : Conditions générales · Édition : 2012-12
 
 > ⚠️ **Édition ancienne** : 2012-12, soit 14 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 

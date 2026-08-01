@@ -16,6 +16,7 @@ branches_covered:
 - moto
 - navigation
 - obseques
+- rc-professionnelle
 - retraite
 - sante
 tags:
@@ -34,7 +35,7 @@ generated: true
 
 ## Résumé
 
-**Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)** - [https://www.macif.fr](https://www.macif.fr). 26 document(s) across 10 branch(es).
+**Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)** - [https://www.macif.fr](https://www.macif.fr). 26 document(s) across 11 branch(es).
 
 ## Produits par branche
 
@@ -47,7 +48,6 @@ generated: true
 - [Multi Vie - Tarifs](../products/macif/Multi%20Vie%20-%20Tarifs.md) - Conditions tarifaires (2024-06) · réf. MUT/ FC/ FRAIS/MV - 06/24
 
 ### [Assurance auto](../branches/Assurance%20auto.md)
-- [Contrat Auto-Micro Entrepreneur](../products/macif/Contrat%20Auto-Micro%20Entrepreneur.md) - Conditions générales (2012-12) · réf. PRO / AUTOE / 05 - 12 / 12 - NM00
 - [Contrat Camping-car, Autocaravane](../products/macif/Contrat%20Camping-car%2C%20Autocaravane.md) - Conditions générales (2019-01) · réf. LOIS / CARACC / 05 - 01 / 19 - N 891
 - [Contrat Macif Pann'Auto - IPID](../products/macif/Contrat%20Macif%20Pann%27Auto%20-%20IPID.md) - IPID / Fiche d'information (12/22) · réf. VEH/GPM/05 12/22
 - [Réduction spéciale Bon conducteur Macif - Tarifs](../products/macif/R%C3%A9duction%20sp%C3%A9ciale%20Bon%20conducteur%20Macif%20-%20Tarifs.md) - Conditions tarifaires (2024-12)
@@ -71,6 +71,9 @@ generated: true
 
 ### [Obsèques](../branches/Obs%C3%A8ques.md)
 - [Garantie Obsèques - Doc](../products/macif/Garantie%20Obs%C3%A8ques%20-%20Doc.md) - Document
+
+### [RC professionnelle](../branches/RC%20professionnelle.md)
+- [Contrat Auto-Micro Entrepreneur](../products/macif/Contrat%20Auto-Micro%20Entrepreneur.md) - Conditions générales (2012-12) · réf. PRO / AUTOE / 05 - 12 / 12 - NM00
 
 ### Retraite supplémentaire
 - [Multi Horizon Retraite - Tarifs](../products/macif/Multi%20Horizon%20Retraite%20-%20Tarifs.md) - Conditions tarifaires (2022-04) · réf. MUT/ FC/ FRAIS/MHR - 04/22

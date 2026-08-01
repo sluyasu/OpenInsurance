@@ -4,7 +4,7 @@ domain: insurance
 country: fr
 insurer: '[[SMACL Assurances]]'
 insurer_slug: smacl
-branch: multirisque-professionnelle
+branch: auto
 product_name: Votre convention Diagnostic devis et diagnostic réparations automobile
 document_type: other
 target_audience: null
@@ -20,7 +20,7 @@ reference: CONVENTION_DIAG_PM_01(09_2016)
 edition_date: 01/2024
 lang: fr
 tags:
-- insurance/fr/multirisque-professionnelle
+- insurance/fr/auto
 - product
 - insurer/smacl
 aliases:
@@ -47,7 +47,7 @@ generated: true
 
 Convention de services « DIAG » de SMACL Assurances, annexée à l'assurance des véhicules de la personne morale souscriptrice. Elle réunit deux prestations : « Diagnostic devis », une vérification téléphonique de la pertinence des devis de réparation supérieurs à 800 € TTC, avec négociation auprès du réparateur ; et « Diagnostic réparations », une assistance à distance des ateliers de réparation intégrés du souscripteur pour l'entretien et la recherche de panne, assortie de formations possibles. Les deux services s'appliquent sans délai de carence, quels que soient la formule de garanties, l'âge et la marque du véhicule, en France métropolitaine et dans les départements et régions d'outre-mer. Il s'agit de prestations de conseil : le document ne prévoit ni indemnisation, ni plafond, ni franchise.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : Document · Édition : 01/2024
+- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Document · Édition : 01/2024
 
 ## Garanties
 
@@ -135,6 +135,10 @@ Des formations présentielles ou en classe virtuelle sur des cas concrets peuven
 - SEUIL DE 800 € TTC : le document énonce que le service s'applique « pour tout devis supérieur à 800 € TTC » mais ne dit pas ce qu'il advient des devis inférieurs ou égaux à ce montant. Le seuil est donc enregistré comme une condition du service et non comme une exclusion, faute de stipulation explicite. À noter que le second service (Diagnostic réparations) s'applique lui « sans délai de carence ni seuil d'intervention ».
 - Les formations sont enregistrées comme une prestation distincte bien que le document les présente sous une forme potestative (« peuvent par ailleurs être proposées ») : ni les conditions d'accès, ni le nombre, ni la prise en charge ne sont précisés.
 - Le document ne contient ni définitions contractuelles, ni exclusions générales, ni obligations de déclaration, ni procédure de réclamation : seules figurent les trois étapes du traitement d'un devis litigieux, enregistrées dans claims_procedure faute de rubrique plus adaptée. Ce ne sont pas des étapes de déclaration de sinistre.
+
+## Documents liés
+
+- [Votre convention Diagnostic devis et diagnostic réparation - Doc](Votre%20convention%20Diagnostic%20devis%20et%20diagnostic%20r%C3%A9paration%20-%20Doc.md) - Document, éd. 01/2024
 
 ## Source & fidélité
 

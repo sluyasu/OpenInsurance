@@ -352,7 +352,6 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | auto | direct-assurance | YouDrive - CP | 2026-07-30 | [pdf](https://directassurance.cdn.prismic.io/directassurance/afNVWsBOoF08xf0r_CPYD_04.26.pdf) |
 | fr | auto | groupama | Assurance Flotte Automobile | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/2NDxlODkd7f3ti8ivbduuL/826b3f591087f7a1a33abb7d4cad172f/Conditions_G__n__rales.pdf) |
 | fr | auto | groupama | Convention Spéciale Garantie Assistance Véhicules 3,5 tonnes | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/412fYD1ZFvT8rzbrc8gZmp/bb9a1434accd9b56421b51e18090f894/CS_Assistance__3_5T.pdf) |
-| fr | auto | macif | Contrat Auto-Micro Entrepreneur | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/cg-auto-microentrepreneur.pdf) |
 | fr | auto | macif | Contrat Camping-car, Autocaravane | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_vehicules/CG_campingcar.pdf) |
 | fr | auto | macif | Contrat Macif Pann'Auto - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_PanneAuto.pdf) |
 | fr | auto | macif | Réduction spéciale Bon conducteur Macif - Tarifs | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_vehicules/reduction_speciale/Conditions-de-la-reduction-speciale.pdf) |
@@ -406,6 +405,8 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | auto | smacl | Flotte entreprises - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-vehicules-entreprise.pdf) |
 | fr | auto | smacl | Territorialité des garanties - Contrat Véhicules à moteur - Doc | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/fiche-territorialite-smacl.pdf) |
 | fr | auto | smacl | Vos conventions spéciales CONVERGENCE - Véhicules à moteur | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-convergence-vehicules-a-moteur.pdf) |
+| fr | auto | smacl | Votre convention Diagnostic devis et diagnostic réparation - Doc | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/convention-diagnostic-devis-reparation-pp.pdf) |
+| fr | auto | smacl | Votre convention Diagnostic devis et diagnostic réparations automobile - Doc | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/convention-diagnostic-devis-reparations-pm.pdf) |
 | fr | auto | smacl | Votre convention d'assistance - Flottes entreprises véhicules légers | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/ca-vehicules-legers-flottes-entreprises.pdf) |
 | fr | auto | thelem | Assurance Automobile - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA-012026.pdf) |
 | fr | auto | thelem | Assurance Camping-Car - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_580_Camping-cars-012026.pdf) |
@@ -489,7 +490,6 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | habitation | matmut | Habitation Résidence principale - Jeunes - Contrat d'assurance Multigaranties | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGJEUNES.pdf) |
 | fr | habitation | matmut | Habitation Résidence secondaire | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGMGARRS.pdf) |
 | fr | habitation | matmut | Matmut Mobile-home formule Nature | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGMGARMH.pdf) |
-| fr | habitation | smacl | Votre convention Diagnostic devis et diagnostic réparation - Doc | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/convention-diagnostic-devis-reparation-pp.pdf) |
 | fr | habitation | thelem | Assurance Dommages aux biens - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_570-Dommages-aux-biens.pdf) |
 | fr | habitation | thelem | Assurance multirisque habitation - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_601-Occupants-janvier-2026.pdf) |
 | fr | habitation | thelem | Assurance multirisque habitation Propriétaire non occupant - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2026/03/IPID_TA_621-PNO-janvier-2026.pdf) |
@@ -533,7 +533,6 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | multirisque-professionnelle | smacl | Assurance bris de machine | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-assurance-speciale-associations-bris-de-machine.pdf) |
 | fr | multirisque-professionnelle | smacl | Convergence dommages aux biens - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-dommages-aux-biens-convergence.pdf) |
 | fr | multirisque-professionnelle | smacl | Votre barème de remboursement des honoraires d'expert d'assuré en Dommages aux biens - Tarifs | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/bareme-expert-assure-dab.pdf) |
-| fr | multirisque-professionnelle | smacl | Votre convention Diagnostic devis et diagnostic réparations automobile - Doc | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/convention-diagnostic-devis-reparations-pm.pdf) |
 | fr | multirisque-professionnelle | thelem | Assurance Garauto - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_201_Garauto-Aout-2025.pdf) |
 | fr | multirisque-professionnelle | thelem | Assurance multirisque professionnelle - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPIP_-MRP-PME-PMI-Aout-2025.pdf) |
 | fr | multirisque-professionnelle | thelem | Bris de machine - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_26_BDM-juin-2023.pdf) |
@@ -609,6 +608,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | rc-professionnelle | groupama | PROFIL ELUS - IPID | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/4QycpVaKdiUUTBg2Wkf4Ko/ab35cb55c4f067f47c1a33fce12ec294/Assurance-Collectivites-Groupama-DIPA-Profil-Elus.pdf) |
 | fr | rc-professionnelle | groupama | PROFIL ÉLUS | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/u9P5hLObmXbXBIv7t5rlC/0fedbefe6fc38ea68c9a19a0ccafce54/Assurance-Collectivites-Groupama-Profil-elus-DDG.pdf) |
 | fr | rc-professionnelle | groupama | Profil élus - Tableau des montants de garantie et des franchises - Tarifs | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/1Qb0jvzsOPAyyhOkDTBy9U/b857c830d280c9f930bb11f867f7d048/Assurance-Collectivites-Groupama-Profil-elus-tableau-montants-garanties.pdf) |
+| fr | rc-professionnelle | macif | Contrat Auto-Micro Entrepreneur | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/cg-auto-microentrepreneur.pdf) |
 | fr | rc-professionnelle | maif | Assurance Professionnelle | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/travailleurs-independants/conditions-generales-assurance-professionnelle.pdf) |
 | fr | rc-professionnelle | maif | Assurance Professionnelle - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/travailleurs-independants/document-information-assurance-professionnelle.pdf) |
 | fr | rc-professionnelle | maif | Assurance Professionnelle Offre Métiers de l'Éducation | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/enseignants/conditions-generales-assurance-professionnelle-metiers-education.pdf) |

@@ -1,314 +1,314 @@
 {
-  "schema_version": "1.0",
-  "prompt_version": "1.1",
-  "country": "fr",
-  "insurer_slug": "smacl",
-  "insurer_name": "SMACL Assurances",
-  "product_name": "Votre convention Diagnostic devis et diagnostic réparations automobile",
-  "branch": "multirisque-professionnelle",
-  "branch_code": null,
-  "document_type": "other",
-  "language": "fr",
-  "target_audience": null,
-  "target_audience_note": "Le document ne formule aucune phrase désignant son public. Le souscripteur est appelé « la personne morale souscriptrice » (page 2) et le service vise « les ateliers de réparation intégrés » de celle-ci. Les véhicules cités incluent « les véhicules spéciaux des services départementaux de secours et d'incendie (échelle pivotante automatique (EPA), fourgon mousse grande puissance (FMOGP), dévidoir automobile (DA), etc.) », ce qui est un exemple de véhicules couverts et non une déclaration de public. Une personne morale n'étant pas nécessairement publique, target_audience est laissé null.",
-  "reference": "CONVENTION_DIAG_PM_01(09_2016)",
-  "edition_date": "01/2024",
-  "product_family": "Convention DIAG",
-  "variant": null,
-  "is_extension": true,
-  "extends": null,
-  "superseded": null,
-  "source_url": "https://www.smacl.fr/files/documents/convention-diagnostic-devis-reparations-pm.pdf",
-  "source_pdf": "convention-diagnostic-devis-et-reparation-automobile-24e1455b.pdf",
-  "source_sha256": "281ec8c7d8442a35eb459d806eb7ab38e6a9569cb9fbdb9844e4144174880ab3",
-  "source_pages": 2,
-  "fetched_at": "2026-08-01",
-  "extraction_model": "claude-code-subagent:scale",
-  "summary": "Convention de services « DIAG » de SMACL Assurances, annexée à l'assurance des véhicules de la personne morale souscriptrice. Elle réunit deux prestations : « Diagnostic devis », une vérification téléphonique de la pertinence des devis de réparation supérieurs à 800 € TTC, avec négociation auprès du réparateur ; et « Diagnostic réparations », une assistance à distance des ateliers de réparation intégrés du souscripteur pour l'entretien et la recherche de panne, assortie de formations possibles. Les deux services s'appliquent sans délai de carence, quels que soient la formule de garanties, l'âge et la marque du véhicule, en France métropolitaine et dans les départements et régions d'outre-mer. Il s'agit de prestations de conseil : le document ne prévoit ni indemnisation, ni plafond, ni franchise.",
-  "definitions": [],
-  "coverages": [
-    {
-      "name": "Diagnostic devis",
-      "description": "SMACL Assurances propose à ses assurés de bénéficier de l'expertise de techniciens spécialisés et expérimentés pour vérifier la pertinence des devis établis en vue de procéder à la réparation de pannes mécaniques, électriques ou électroniques touchant un véhicule assuré auprès de SMACL Assurances et payer ainsi le juste prix de la réparation. En cas de panne du véhicule assuré nécessitant le recours à un professionnel de la réparation automobile, sur demande de l'assuré, SMACL Assurances par l'intermédiaire de son service « DIAG » contacte le réparateur, vérifie la démarche et les contrôles effectués qui ont conduit à l'établissement du devis. En cas de désaccord, il sera demandé au réparateur de modifier son devis conformément aux préconisations « DIAG » et du constructeur. En cas de refus de ce dernier, l'assuré aura la possibilité de limiter l'intervention aux préconisations « DIAG », voire de changer de réparateur.",
-      "is_optional": null,
-      "territorial_scope": "réalisé en France métropolitaine et dans les départements et régions d’outre-mer.",
-      "limits": "« DIAG » se limite à apporter un conseil téléphonique sur le prix du devis élaboré par le réparateur.",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "pour tout devis supérieur à 800 € TTC",
-        "sur demande de l'assuré",
-        "véhicule assuré auprès de SMACL Assurances",
-        "panne mécanique, électrique ou électronique nécessitant le recours à un professionnel de la réparation automobile",
-        "Ce service s'applique sans délai de carence, quels que soient la formule de garanties du véhicule choisie par l'assuré, l'âge et la marque du véhicule.",
-        "Les prestations sont assurées du lundi au vendredi de 9 h 00 à 18 h 00."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Diagnostic devis - Analyse du devis du réparateur",
-      "description": "Sur simple appel téléphonique, des techniciens analysent le devis du réparateur pour donner un avis et vérifier son adéquation avec les préconisations constructeurs et son positionnement par rapport aux tarifs standards constatés sur le marché.",
-      "is_optional": null,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "sur simple appel téléphonique"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Diagnostic devis - Négociation du prix avec le réparateur",
-      "description": "Sur simple appel téléphonique, des techniciens contactent directement le réparateur pour négocier le prix du devis si nécessaire et optimiser les coûts des réparations.",
-      "is_optional": null,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "sur simple appel téléphonique"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Diagnostic devis - Rejet des réparations non justifiées",
-      "description": "Sur simple appel téléphonique, des techniciens rejettent les réparations non justifiées et argumentent auprès du réparateur.",
-      "is_optional": null,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "sur simple appel téléphonique"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Diagnostic réparations - Assistance à l'entretien",
-      "description": "SMACL Assurances assiste à distance, par l'intermédiaire du service « DIAG », les ateliers de réparation intégrés de la personne morale souscriptrice lors d'opérations d'entretien ou de dépannage mécanique, électrique ou électronique afin de limiter la durée d'immobilisation des véhicules assurés auprès de SMACL Assurances. L'assistance à l'entretien consiste à conseiller l'assuré sur la démarche technique et à l'informer sur la faisabilité de la réparation.",
-      "is_optional": null,
-      "territorial_scope": "Ce service à distance est dispensé en France métropolitaine et dans les départements et régions \nd’outre-mer.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Ce service s'applique sans délai de carence ni seuil d'intervention quels que soient la formule de garanties du véhicule choisie par l'assuré, l'âge et la marque du véhicule.",
-        "Les prestations sont assurées du lundi au vendredi de 9 h 00 à 18 h 00."
-      ],
-      "page": 2
-    },
-    {
-      "name": "Diagnostic réparations - Assistance au diagnostic",
-      "description": "L'assistance au diagnostic consiste à optimiser le temps de recherche de la panne, interpréter les informations fournies par les outils de diagnostic et proposer une solution technique. Ainsi, les équipes des ateliers de réparation intégrés peuvent déléguer leurs recherches d'information techniques, se consacrer aux opérations de réparation, monter en compétence et limiter les coûts de réparation externe.",
-      "is_optional": null,
-      "territorial_scope": "Ce service à distance est dispensé en France métropolitaine et dans les départements et régions \nd’outre-mer.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Ce service s'applique sans délai de carence ni seuil d'intervention quels que soient la formule de garanties du véhicule choisie par l'assuré, l'âge et la marque du véhicule.",
-        "Les prestations sont assurées du lundi au vendredi de 9 h 00 à 18 h 00."
-      ],
-      "page": 2
-    },
-    {
-      "name": "Formations des ateliers de réparation intégrés",
-      "description": "Des formations présentielles ou en classe virtuelle sur des cas concrets peuvent par ailleurs être proposées afin de développer les compétences des ateliers de réparation intégrés de l'assuré.",
-      "is_optional": null,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "formulation potestative : « peuvent par ailleurs être proposées »"
-      ],
-      "page": 2
-    }
-  ],
-  "exclusions": [
-    {
-      "name": "Bus et engins (Diagnostic devis)",
-      "description": "Les bus et les engins ne rentrent pas dans le champ d'application du service « DIAG ».",
-      "applies_to": "Diagnostic devis",
-      "page": 1
-    },
-    {
-      "name": "Bus et engins (Diagnostic réparations)",
-      "description": "Les bus et les engins ne rentrent pas dans le champ d'application du service « DIAG ». (Mention répétée pour le second service.)",
-      "applies_to": "Diagnostic réparations",
-      "page": 2
-    },
-    {
-      "name": "Limitation au conseil téléphonique",
-      "description": "« DIAG » se limite à apporter un conseil téléphonique sur le prix du devis élaboré par le réparateur et réalisé en France métropolitaine et dans les départements et régions d'outre-mer. Le service n'inclut donc aucune autre prestation que ce conseil téléphonique.",
-      "applies_to": "Diagnostic devis",
-      "page": 1
-    }
-  ],
-  "deductibles": null,
-  "waiting_periods": [
-    {
-      "coverage": "Diagnostic devis",
-      "duration": "aucun",
-      "description": "Ce service s'applique sans délai de carence, quels que soient la formule de garanties du véhicule choisie par l'assuré, l'âge et la marque du véhicule.",
-      "page": 1
-    },
-    {
-      "coverage": "Diagnostic réparations",
-      "duration": "aucun",
-      "description": "Ce service s'applique sans délai de carence ni seuil d'intervention quels que soient la formule de garanties du véhicule choisie par l'assuré, l'âge et la marque du véhicule.",
-      "page": 2
-    }
-  ],
-  "obligations": [
-    {
-      "name": "Demande de l'assuré",
-      "description": "Le service Diagnostic devis n'est déclenché que « sur demande de l'assuré », par simple appel téléphonique.",
-      "timing": "en cas de panne, avant réparation",
-      "sanction": null,
-      "page": 1
-    }
-  ],
-  "claims_procedure": [
-    {
-      "step": "Appel du service « DIAG »",
-      "description": "En cas de panne du véhicule assuré nécessitant le recours à un professionnel de la réparation automobile, pour tout devis supérieur à 800 € TTC, l'assuré appelle le service « DIAG », qui contacte le réparateur et vérifie la démarche et les contrôles effectués qui ont conduit à l'établissement du devis.",
-      "deadline": null,
-      "page": 1
-    },
-    {
-      "step": "Désaccord sur le devis",
-      "description": "En cas de désaccord, il sera demandé au réparateur de modifier son devis conformément aux préconisations « DIAG » et du constructeur.",
-      "deadline": null,
-      "page": 1
-    },
-    {
-      "step": "Refus du réparateur",
-      "description": "En cas de refus de ce dernier, l'assuré aura la possibilité de limiter l'intervention aux préconisations « DIAG », voire de changer de réparateur.",
-      "deadline": null,
-      "page": 1
-    }
-  ],
-  "duration_and_cancellation": null,
-  "prescription_period": null,
-  "premium": null,
-  "special_conditions": [
-    {
-      "name": "Véhicules concernés",
-      "description": "Sont concernés par ce service les véhicules légers (à 4 roues), les véhicules utilitaires légers et les poids lourds, y compris les véhicules spéciaux des services départementaux de secours et d'incendie (échelle pivotante automatique (EPA), fourgon mousse grande puissance (FMOGP), dévidoir automobile (DA), etc.).",
-      "page": 1
-    },
-    {
-      "name": "Horaires des prestations",
-      "description": "Les prestations sont assurées du lundi au vendredi de 9 h 00 à 18 h 00. (mention identique en page 2 pour le second service.)",
-      "page": 1
-    },
-    {
-      "name": "Numéros de téléphone imprimés",
-      "description": "Le 09 86 03 04 05 figure en pages 1 et 2 ; le 05 49 32 56 56 (prix d'un appel local) figure également en page 2. Le document n'indique pas lequel correspond à quel service.",
-      "page": 2
-    },
-    {
-      "name": "Étendue territoriale",
-      "description": "Diagnostic devis : conseil portant sur un devis « réalisé en France métropolitaine et dans les départements et régions d'outre-mer ». Diagnostic réparations : « Ce service à distance est dispensé en France métropolitaine et dans les départements et régions d'outre-mer. »",
-      "page": 1
-    }
-  ],
-  "key_quotes": [
-    {
-      "quote": "SMACL Assurances propose à ses assurés de bénéficier de l’expertise de techniciens spécialisés et \nexpérimentés pour vérifier la pertinence des devis établis en vue de procéder à la réparation de pannes \nmécaniques, électriques ou électroniques touchant un véhicule assuré auprès de SMACL Assurances et \npayer ainsi  le juste  prix de la réparation.",
-      "context": "Objet du service Diagnostic devis",
-      "page": 1
-    },
-    {
-      "quote": "En cas de panne du véhicule assuré nécessitant le recours à un professionnel de la réparation \nautomobile, pour tout devis supérieur à 800 € TTC, sur demande de l’assuré, SMACL Assurances \npar l’intermédiaire de son service « DIAG » contactera le réparateur. Il vérifiera la démarche et les \ncontrôles effectués qui ont conduit à l’établissement du devis. En cas de désaccord, il sera demandé au \nréparateur de modifier son devis conformément aux préconisations « DIAG » et du constructeur.En cas \nde refus de ce dernier, l’assuré aura la possibilité de limiter l’intervention aux préconisations « DIAG », \nvoire de changer de réparateur.",
-      "context": "Déclenchement du service : seuil de 800 € TTC et déroulé de l'intervention",
-      "page": 1
-    },
-    {
-      "quote": "Sont concernés par ce service les véhicules légers (à 4 roues), les véhicules utilitaires légers et les poids \nlourds, y compris les véhicules spéciaux des services départementaux de secours et d’incendie (échelle \npivotante automatique (EPA), fourgon mousse grande puissance (FMOGP), dévidoir automobile (DA), etc.). \nLes bus et les engins ne rentrent pas dans le champ d’application du service « DIAG ».",
-      "context": "Périmètre des véhicules concernés et exclusion des bus et engins (Diagnostic devis)",
-      "page": 1
-    },
-    {
-      "quote": "Ce service s’applique sans délai de carence, quels que soient la formule de garanties du véhicule choisie \npar l’assuré, l’âge et la marque du véhicule.",
-      "context": "Absence de délai de carence, indépendance vis-à-vis de la formule, de l'âge et de la marque",
-      "page": 1
-    },
-    {
-      "quote": "« DIAG » se limite à apporter un conseil téléphonique sur le prix du devis élaboré par le réparateur et \nréalisé en France métropolitaine et dans les départements et régions d’outre-mer.",
-      "context": "Limite du service : conseil téléphonique uniquement, et étendue territoriale",
-      "page": 1
-    },
-    {
-      "quote": "SMACL Assurances assiste à distance, par l’intermédiaire du service « DIAG », les ateliers de réparation \nintégrés de la personne morale souscriptrice lors d’opérations d’entretien ou de dépannage mécanique, \nélectrique ou électronique afin de limiter la durée d’immobilisation des véhicules assurés auprès de \nSMACL Assurances.",
-      "context": "Objet du service Diagnostic réparations : assistance à distance des ateliers intégrés",
-      "page": 2
-    },
-    {
-      "quote": "L’assistance à l’entretien consiste à :",
-      "context": "Assistance à l'entretien : intitulé",
-      "page": 2
-    },
-    {
-      "quote": "conseiller l’assuré sur la démarche technique ;",
-      "context": "Assistance à l'entretien : conseil sur la démarche technique",
-      "page": 2
-    },
-    {
-      "quote": "l’informer sur la faisabilité de la réparation.",
-      "context": "Assistance à l'entretien : information sur la faisabilité",
-      "page": 2
-    },
-    {
-      "quote": "L’assistance au diagnostic consiste à :",
-      "context": "Assistance au diagnostic : intitulé",
-      "page": 2
-    },
-    {
-      "quote": "optimiser le temps de recherche de la panne ;",
-      "context": "Assistance au diagnostic : optimisation du temps de recherche",
-      "page": 2
-    },
-    {
-      "quote": "interpréter les informations fournies par les outils de diagnostic ;",
-      "context": "Assistance au diagnostic : interprétation des outils",
-      "page": 2
-    },
-    {
-      "quote": "proposer une solution technique.",
-      "context": "Assistance au diagnostic : proposition de solution",
-      "page": 2
-    },
-    {
-      "quote": "Ce service s’applique sans délai de carence ni seuil d’intervention quels que soient la formule de \ngaranties du véhicule choisie par l’assuré, l’âge et la marque du véhicule.",
-      "context": "Diagnostic réparations : ni délai de carence ni seuil d'intervention",
-      "page": 2
-    },
-    {
-      "quote": "SMACL ASSURANCES SA - Société anonyme au capital de 138 801 048 euros, entreprise régie par le Code des\nassurances, RCS Niort n°833 817 224. Siège social : 141, avenue Salvador-Allende - CS 20000 - 79031 NIORT CEDEX 9.",
-      "context": "Colophon : porteur de risque SMACL Assurances SA, RCS Niort 833 817 224",
-      "page": 2
-    },
-    {
-      "quote": "CONVENTION_DIAG_PM_01(09_2016)",
-      "context": "Référence interne du document (segment PM)",
-      "page": 2
-    }
-  ],
-  "gaps": [
-    "DOCUMENT JUMEAU - À NE PAS CONFONDRE : le corpus contient une seconde impression très proche de cette convention (source convention-diagnostic-devis-reparation-ca.pdf, référence CONVENTION_DIAG_PP_ CA_01(06_2016)), distribuée par les Caisses régionales de Crédit Agricole. La présente extraction porte exclusivement sur l'impression référencée CONVENTION_DIAG_PM_01(09_2016), qui ne nomme aucun distributeur. Les deux textes ont la même date d'édition imprimée (01/2024) : ce sont des variantes parallèles, pas des éditions successives, et aucune ne supersède l'autre. Différences de fond relevées : le titre (« et diagnostic réparations automobile » ici, « et diagnostic réparation » dans l'autre), la référence interne, et le pavé distributeur absent ici. Le corps des deux services est autrement identique au mot près, à la césure et à l'espacement près.",
-    "NATURE DU DOCUMENT : c'est une convention de services (prestations de conseil technique), pas une garantie d'assurance. Aucun montant assuré, aucun plafond d'indemnisation, aucune franchise, aucune indemnité n'y figure : le seul montant du document est le seuil de déclenchement de 800 € TTC. Les sections deductibles, premium, duration_and_cancellation et prescription_period sont donc vides parce que le document n'en traite pas.",
-    "is_extension a été mis à true : le service est adossé à l'assurance des véhicules (« un véhicule assuré auprès de SMACL Assurances », « quels que soient la formule de garanties du véhicule choisie par l'assuré »). En revanche `extends` est laissé null car le document ne nomme jamais le contrat automobile de base ; le renseigner reviendrait à le deviner.",
-    "BRANCHE : la valeur `multirisque-professionnelle` est reprise telle quelle des métadonnées de la tâche. Le document ne parle que de véhicules (véhicules légers, utilitaires légers, poids lourds, véhicules de secours et d'incendie) et de réparation automobile ; son objet réel relève de l'automobile. Divergence signalée, la métadonnée n'a pas été modifiée.",
-    "product_family a été fixé à « Convention DIAG », d'après le nom que le document donne lui-même au service (« son service « DIAG » », « le champ d'application du service « DIAG » »). Ce choix permet de regrouper les deux impressions parallèles, dont les titres imprimés diffèrent d'un mot.",
-    "PORTEUR DE RISQUE lu dans le colophon : « SMACL ASSURANCES SA - Société anonyme au capital de 138 801 048 euros, entreprise régie par le Code des assurances, RCS Niort n°833 817 224. » Il s'agit de SMACL Assurances SA (RCS Niort 833 817 224), et non de la société mutuelle d'assurance des collectivités locales (RCS Niort 301 309 605). Le document ne comporte pas de clause « Assureur » : le colophon est la seule source, et aucun groupe d'appartenance n'est nommé.",
-    "DÉFAUT DE COUCHE TEXTE (préservé verbatim, non corrigé) : le colophon perd le « i » des ligatures « ti » et lit « 01/2024 - Concepton : Directon développement et communicaton SMACL Assurances. » Le reste du document n'est pas touché. Point notable : dans l'impression jumelle Crédit Agricole, cette même ligne est correctement composée (« Conception : Direction développement et communication ») alors que d'autres mots y sont dégradés — le défaut n'est donc pas systématique et varie d'un tirage à l'autre. À ré-extraire si l'éditeur corrige le PDF.",
-    "ESPACEMENTS ANORMAUX DE LA SOURCE, conservés tels quels : le texte contient 2 espaces insécables (U+00A0) et 6 espaces fines insécables (U+202F) en page 1, et 2 de chaque en page 2, notamment dans « 800 € TTC » et dans les horaires « 9 h 00 à 18 h 00 ». Les citations et les valeurs sensibles ont été découpées programmatiquement dans le texte source plutôt que retapées, afin de préserver ces caractères.",
-    "TYPO DE L'ASSUREUR conservée, non corrigée : page 1, « conformément aux préconisations « DIAG » et du constructeur.En cas de refus » — l'espace après le point manque. La même phrase est correctement espacée dans l'impression jumelle Crédit Agricole. De même, « payer ainsi  le juste  prix de la réparation » comporte des doubles espaces.",
-    "SEUIL DE 800 € TTC : le document énonce que le service s'applique « pour tout devis supérieur à 800 € TTC » mais ne dit pas ce qu'il advient des devis inférieurs ou égaux à ce montant. Le seuil est donc enregistré comme une condition du service et non comme une exclusion, faute de stipulation explicite. À noter que le second service (Diagnostic réparations) s'applique lui « sans délai de carence ni seuil d'intervention ».",
-    "Les formations sont enregistrées comme une prestation distincte bien que le document les présente sous une forme potestative (« peuvent par ailleurs être proposées ») : ni les conditions d'accès, ni le nombre, ni la prise en charge ne sont précisés.",
-    "Le document ne contient ni définitions contractuelles, ni exclusions générales, ni obligations de déclaration, ni procédure de réclamation : seules figurent les trois étapes du traitement d'un devis litigieux, enregistrées dans claims_procedure faute de rubrique plus adaptée. Ce ne sont pas des étapes de déclaration de sinistre."
-  ]
+ "schema_version": "1.0",
+ "prompt_version": "1.1",
+ "country": "fr",
+ "insurer_slug": "smacl",
+ "insurer_name": "SMACL Assurances",
+ "product_name": "Votre convention Diagnostic devis et diagnostic réparations automobile",
+ "branch": "auto",
+ "branch_code": null,
+ "document_type": "other",
+ "language": "fr",
+ "target_audience": null,
+ "target_audience_note": "Le document ne formule aucune phrase désignant son public. Le souscripteur est appelé « la personne morale souscriptrice » (page 2) et le service vise « les ateliers de réparation intégrés » de celle-ci. Les véhicules cités incluent « les véhicules spéciaux des services départementaux de secours et d'incendie (échelle pivotante automatique (EPA), fourgon mousse grande puissance (FMOGP), dévidoir automobile (DA), etc.) », ce qui est un exemple de véhicules couverts et non une déclaration de public. Une personne morale n'étant pas nécessairement publique, target_audience est laissé null.",
+ "reference": "CONVENTION_DIAG_PM_01(09_2016)",
+ "edition_date": "01/2024",
+ "product_family": "Convention DIAG",
+ "variant": null,
+ "is_extension": true,
+ "extends": null,
+ "superseded": null,
+ "source_url": "https://www.smacl.fr/files/documents/convention-diagnostic-devis-reparations-pm.pdf",
+ "source_pdf": "convention-diagnostic-devis-et-reparation-automobile-24e1455b.pdf",
+ "source_sha256": "281ec8c7d8442a35eb459d806eb7ab38e6a9569cb9fbdb9844e4144174880ab3",
+ "source_pages": 2,
+ "fetched_at": "2026-08-01",
+ "extraction_model": "claude-code-subagent:scale",
+ "summary": "Convention de services « DIAG » de SMACL Assurances, annexée à l'assurance des véhicules de la personne morale souscriptrice. Elle réunit deux prestations : « Diagnostic devis », une vérification téléphonique de la pertinence des devis de réparation supérieurs à 800 € TTC, avec négociation auprès du réparateur ; et « Diagnostic réparations », une assistance à distance des ateliers de réparation intégrés du souscripteur pour l'entretien et la recherche de panne, assortie de formations possibles. Les deux services s'appliquent sans délai de carence, quels que soient la formule de garanties, l'âge et la marque du véhicule, en France métropolitaine et dans les départements et régions d'outre-mer. Il s'agit de prestations de conseil : le document ne prévoit ni indemnisation, ni plafond, ni franchise.",
+ "definitions": [],
+ "coverages": [
+  {
+   "name": "Diagnostic devis",
+   "description": "SMACL Assurances propose à ses assurés de bénéficier de l'expertise de techniciens spécialisés et expérimentés pour vérifier la pertinence des devis établis en vue de procéder à la réparation de pannes mécaniques, électriques ou électroniques touchant un véhicule assuré auprès de SMACL Assurances et payer ainsi le juste prix de la réparation. En cas de panne du véhicule assuré nécessitant le recours à un professionnel de la réparation automobile, sur demande de l'assuré, SMACL Assurances par l'intermédiaire de son service « DIAG » contacte le réparateur, vérifie la démarche et les contrôles effectués qui ont conduit à l'établissement du devis. En cas de désaccord, il sera demandé au réparateur de modifier son devis conformément aux préconisations « DIAG » et du constructeur. En cas de refus de ce dernier, l'assuré aura la possibilité de limiter l'intervention aux préconisations « DIAG », voire de changer de réparateur.",
+   "is_optional": null,
+   "territorial_scope": "réalisé en France métropolitaine et dans les départements et régions d’outre-mer.",
+   "limits": "« DIAG » se limite à apporter un conseil téléphonique sur le prix du devis élaboré par le réparateur.",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "pour tout devis supérieur à 800 € TTC",
+    "sur demande de l'assuré",
+    "véhicule assuré auprès de SMACL Assurances",
+    "panne mécanique, électrique ou électronique nécessitant le recours à un professionnel de la réparation automobile",
+    "Ce service s'applique sans délai de carence, quels que soient la formule de garanties du véhicule choisie par l'assuré, l'âge et la marque du véhicule.",
+    "Les prestations sont assurées du lundi au vendredi de 9 h 00 à 18 h 00."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Diagnostic devis - Analyse du devis du réparateur",
+   "description": "Sur simple appel téléphonique, des techniciens analysent le devis du réparateur pour donner un avis et vérifier son adéquation avec les préconisations constructeurs et son positionnement par rapport aux tarifs standards constatés sur le marché.",
+   "is_optional": null,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "sur simple appel téléphonique"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Diagnostic devis - Négociation du prix avec le réparateur",
+   "description": "Sur simple appel téléphonique, des techniciens contactent directement le réparateur pour négocier le prix du devis si nécessaire et optimiser les coûts des réparations.",
+   "is_optional": null,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "sur simple appel téléphonique"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Diagnostic devis - Rejet des réparations non justifiées",
+   "description": "Sur simple appel téléphonique, des techniciens rejettent les réparations non justifiées et argumentent auprès du réparateur.",
+   "is_optional": null,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "sur simple appel téléphonique"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Diagnostic réparations - Assistance à l'entretien",
+   "description": "SMACL Assurances assiste à distance, par l'intermédiaire du service « DIAG », les ateliers de réparation intégrés de la personne morale souscriptrice lors d'opérations d'entretien ou de dépannage mécanique, électrique ou électronique afin de limiter la durée d'immobilisation des véhicules assurés auprès de SMACL Assurances. L'assistance à l'entretien consiste à conseiller l'assuré sur la démarche technique et à l'informer sur la faisabilité de la réparation.",
+   "is_optional": null,
+   "territorial_scope": "Ce service à distance est dispensé en France métropolitaine et dans les départements et régions \nd’outre-mer.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Ce service s'applique sans délai de carence ni seuil d'intervention quels que soient la formule de garanties du véhicule choisie par l'assuré, l'âge et la marque du véhicule.",
+    "Les prestations sont assurées du lundi au vendredi de 9 h 00 à 18 h 00."
+   ],
+   "page": 2
+  },
+  {
+   "name": "Diagnostic réparations - Assistance au diagnostic",
+   "description": "L'assistance au diagnostic consiste à optimiser le temps de recherche de la panne, interpréter les informations fournies par les outils de diagnostic et proposer une solution technique. Ainsi, les équipes des ateliers de réparation intégrés peuvent déléguer leurs recherches d'information techniques, se consacrer aux opérations de réparation, monter en compétence et limiter les coûts de réparation externe.",
+   "is_optional": null,
+   "territorial_scope": "Ce service à distance est dispensé en France métropolitaine et dans les départements et régions \nd’outre-mer.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Ce service s'applique sans délai de carence ni seuil d'intervention quels que soient la formule de garanties du véhicule choisie par l'assuré, l'âge et la marque du véhicule.",
+    "Les prestations sont assurées du lundi au vendredi de 9 h 00 à 18 h 00."
+   ],
+   "page": 2
+  },
+  {
+   "name": "Formations des ateliers de réparation intégrés",
+   "description": "Des formations présentielles ou en classe virtuelle sur des cas concrets peuvent par ailleurs être proposées afin de développer les compétences des ateliers de réparation intégrés de l'assuré.",
+   "is_optional": null,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "formulation potestative : « peuvent par ailleurs être proposées »"
+   ],
+   "page": 2
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Bus et engins (Diagnostic devis)",
+   "description": "Les bus et les engins ne rentrent pas dans le champ d'application du service « DIAG ».",
+   "applies_to": "Diagnostic devis",
+   "page": 1
+  },
+  {
+   "name": "Bus et engins (Diagnostic réparations)",
+   "description": "Les bus et les engins ne rentrent pas dans le champ d'application du service « DIAG ». (Mention répétée pour le second service.)",
+   "applies_to": "Diagnostic réparations",
+   "page": 2
+  },
+  {
+   "name": "Limitation au conseil téléphonique",
+   "description": "« DIAG » se limite à apporter un conseil téléphonique sur le prix du devis élaboré par le réparateur et réalisé en France métropolitaine et dans les départements et régions d'outre-mer. Le service n'inclut donc aucune autre prestation que ce conseil téléphonique.",
+   "applies_to": "Diagnostic devis",
+   "page": 1
+  }
+ ],
+ "deductibles": null,
+ "waiting_periods": [
+  {
+   "coverage": "Diagnostic devis",
+   "duration": "aucun",
+   "description": "Ce service s'applique sans délai de carence, quels que soient la formule de garanties du véhicule choisie par l'assuré, l'âge et la marque du véhicule.",
+   "page": 1
+  },
+  {
+   "coverage": "Diagnostic réparations",
+   "duration": "aucun",
+   "description": "Ce service s'applique sans délai de carence ni seuil d'intervention quels que soient la formule de garanties du véhicule choisie par l'assuré, l'âge et la marque du véhicule.",
+   "page": 2
+  }
+ ],
+ "obligations": [
+  {
+   "name": "Demande de l'assuré",
+   "description": "Le service Diagnostic devis n'est déclenché que « sur demande de l'assuré », par simple appel téléphonique.",
+   "timing": "en cas de panne, avant réparation",
+   "sanction": null,
+   "page": 1
+  }
+ ],
+ "claims_procedure": [
+  {
+   "step": "Appel du service « DIAG »",
+   "description": "En cas de panne du véhicule assuré nécessitant le recours à un professionnel de la réparation automobile, pour tout devis supérieur à 800 € TTC, l'assuré appelle le service « DIAG », qui contacte le réparateur et vérifie la démarche et les contrôles effectués qui ont conduit à l'établissement du devis.",
+   "deadline": null,
+   "page": 1
+  },
+  {
+   "step": "Désaccord sur le devis",
+   "description": "En cas de désaccord, il sera demandé au réparateur de modifier son devis conformément aux préconisations « DIAG » et du constructeur.",
+   "deadline": null,
+   "page": 1
+  },
+  {
+   "step": "Refus du réparateur",
+   "description": "En cas de refus de ce dernier, l'assuré aura la possibilité de limiter l'intervention aux préconisations « DIAG », voire de changer de réparateur.",
+   "deadline": null,
+   "page": 1
+  }
+ ],
+ "duration_and_cancellation": null,
+ "prescription_period": null,
+ "premium": null,
+ "special_conditions": [
+  {
+   "name": "Véhicules concernés",
+   "description": "Sont concernés par ce service les véhicules légers (à 4 roues), les véhicules utilitaires légers et les poids lourds, y compris les véhicules spéciaux des services départementaux de secours et d'incendie (échelle pivotante automatique (EPA), fourgon mousse grande puissance (FMOGP), dévidoir automobile (DA), etc.).",
+   "page": 1
+  },
+  {
+   "name": "Horaires des prestations",
+   "description": "Les prestations sont assurées du lundi au vendredi de 9 h 00 à 18 h 00. (mention identique en page 2 pour le second service.)",
+   "page": 1
+  },
+  {
+   "name": "Numéros de téléphone imprimés",
+   "description": "Le 09 86 03 04 05 figure en pages 1 et 2 ; le 05 49 32 56 56 (prix d'un appel local) figure également en page 2. Le document n'indique pas lequel correspond à quel service.",
+   "page": 2
+  },
+  {
+   "name": "Étendue territoriale",
+   "description": "Diagnostic devis : conseil portant sur un devis « réalisé en France métropolitaine et dans les départements et régions d'outre-mer ». Diagnostic réparations : « Ce service à distance est dispensé en France métropolitaine et dans les départements et régions d'outre-mer. »",
+   "page": 1
+  }
+ ],
+ "key_quotes": [
+  {
+   "quote": "SMACL Assurances propose à ses assurés de bénéficier de l’expertise de techniciens spécialisés et \nexpérimentés pour vérifier la pertinence des devis établis en vue de procéder à la réparation de pannes \nmécaniques, électriques ou électroniques touchant un véhicule assuré auprès de SMACL Assurances et \npayer ainsi  le juste  prix de la réparation.",
+   "context": "Objet du service Diagnostic devis",
+   "page": 1
+  },
+  {
+   "quote": "En cas de panne du véhicule assuré nécessitant le recours à un professionnel de la réparation \nautomobile, pour tout devis supérieur à 800 € TTC, sur demande de l’assuré, SMACL Assurances \npar l’intermédiaire de son service « DIAG » contactera le réparateur. Il vérifiera la démarche et les \ncontrôles effectués qui ont conduit à l’établissement du devis. En cas de désaccord, il sera demandé au \nréparateur de modifier son devis conformément aux préconisations « DIAG » et du constructeur.En cas \nde refus de ce dernier, l’assuré aura la possibilité de limiter l’intervention aux préconisations « DIAG », \nvoire de changer de réparateur.",
+   "context": "Déclenchement du service : seuil de 800 € TTC et déroulé de l'intervention",
+   "page": 1
+  },
+  {
+   "quote": "Sont concernés par ce service les véhicules légers (à 4 roues), les véhicules utilitaires légers et les poids \nlourds, y compris les véhicules spéciaux des services départementaux de secours et d’incendie (échelle \npivotante automatique (EPA), fourgon mousse grande puissance (FMOGP), dévidoir automobile (DA), etc.). \nLes bus et les engins ne rentrent pas dans le champ d’application du service « DIAG ».",
+   "context": "Périmètre des véhicules concernés et exclusion des bus et engins (Diagnostic devis)",
+   "page": 1
+  },
+  {
+   "quote": "Ce service s’applique sans délai de carence, quels que soient la formule de garanties du véhicule choisie \npar l’assuré, l’âge et la marque du véhicule.",
+   "context": "Absence de délai de carence, indépendance vis-à-vis de la formule, de l'âge et de la marque",
+   "page": 1
+  },
+  {
+   "quote": "« DIAG » se limite à apporter un conseil téléphonique sur le prix du devis élaboré par le réparateur et \nréalisé en France métropolitaine et dans les départements et régions d’outre-mer.",
+   "context": "Limite du service : conseil téléphonique uniquement, et étendue territoriale",
+   "page": 1
+  },
+  {
+   "quote": "SMACL Assurances assiste à distance, par l’intermédiaire du service « DIAG », les ateliers de réparation \nintégrés de la personne morale souscriptrice lors d’opérations d’entretien ou de dépannage mécanique, \nélectrique ou électronique afin de limiter la durée d’immobilisation des véhicules assurés auprès de \nSMACL Assurances.",
+   "context": "Objet du service Diagnostic réparations : assistance à distance des ateliers intégrés",
+   "page": 2
+  },
+  {
+   "quote": "L’assistance à l’entretien consiste à :",
+   "context": "Assistance à l'entretien : intitulé",
+   "page": 2
+  },
+  {
+   "quote": "conseiller l’assuré sur la démarche technique ;",
+   "context": "Assistance à l'entretien : conseil sur la démarche technique",
+   "page": 2
+  },
+  {
+   "quote": "l’informer sur la faisabilité de la réparation.",
+   "context": "Assistance à l'entretien : information sur la faisabilité",
+   "page": 2
+  },
+  {
+   "quote": "L’assistance au diagnostic consiste à :",
+   "context": "Assistance au diagnostic : intitulé",
+   "page": 2
+  },
+  {
+   "quote": "optimiser le temps de recherche de la panne ;",
+   "context": "Assistance au diagnostic : optimisation du temps de recherche",
+   "page": 2
+  },
+  {
+   "quote": "interpréter les informations fournies par les outils de diagnostic ;",
+   "context": "Assistance au diagnostic : interprétation des outils",
+   "page": 2
+  },
+  {
+   "quote": "proposer une solution technique.",
+   "context": "Assistance au diagnostic : proposition de solution",
+   "page": 2
+  },
+  {
+   "quote": "Ce service s’applique sans délai de carence ni seuil d’intervention quels que soient la formule de \ngaranties du véhicule choisie par l’assuré, l’âge et la marque du véhicule.",
+   "context": "Diagnostic réparations : ni délai de carence ni seuil d'intervention",
+   "page": 2
+  },
+  {
+   "quote": "SMACL ASSURANCES SA - Société anonyme au capital de 138 801 048 euros, entreprise régie par le Code des\nassurances, RCS Niort n°833 817 224. Siège social : 141, avenue Salvador-Allende - CS 20000 - 79031 NIORT CEDEX 9.",
+   "context": "Colophon : porteur de risque SMACL Assurances SA, RCS Niort 833 817 224",
+   "page": 2
+  },
+  {
+   "quote": "CONVENTION_DIAG_PM_01(09_2016)",
+   "context": "Référence interne du document (segment PM)",
+   "page": 2
+  }
+ ],
+ "gaps": [
+  "DOCUMENT JUMEAU - À NE PAS CONFONDRE : le corpus contient une seconde impression très proche de cette convention (source convention-diagnostic-devis-reparation-ca.pdf, référence CONVENTION_DIAG_PP_ CA_01(06_2016)), distribuée par les Caisses régionales de Crédit Agricole. La présente extraction porte exclusivement sur l'impression référencée CONVENTION_DIAG_PM_01(09_2016), qui ne nomme aucun distributeur. Les deux textes ont la même date d'édition imprimée (01/2024) : ce sont des variantes parallèles, pas des éditions successives, et aucune ne supersède l'autre. Différences de fond relevées : le titre (« et diagnostic réparations automobile » ici, « et diagnostic réparation » dans l'autre), la référence interne, et le pavé distributeur absent ici. Le corps des deux services est autrement identique au mot près, à la césure et à l'espacement près.",
+  "NATURE DU DOCUMENT : c'est une convention de services (prestations de conseil technique), pas une garantie d'assurance. Aucun montant assuré, aucun plafond d'indemnisation, aucune franchise, aucune indemnité n'y figure : le seul montant du document est le seuil de déclenchement de 800 € TTC. Les sections deductibles, premium, duration_and_cancellation et prescription_period sont donc vides parce que le document n'en traite pas.",
+  "is_extension a été mis à true : le service est adossé à l'assurance des véhicules (« un véhicule assuré auprès de SMACL Assurances », « quels que soient la formule de garanties du véhicule choisie par l'assuré »). En revanche `extends` est laissé null car le document ne nomme jamais le contrat automobile de base ; le renseigner reviendrait à le deviner.",
+  "BRANCHE : la valeur `multirisque-professionnelle` est reprise telle quelle des métadonnées de la tâche. Le document ne parle que de véhicules (véhicules légers, utilitaires légers, poids lourds, véhicules de secours et d'incendie) et de réparation automobile ; son objet réel relève de l'automobile. Divergence signalée, la métadonnée n'a pas été modifiée.",
+  "product_family a été fixé à « Convention DIAG », d'après le nom que le document donne lui-même au service (« son service « DIAG » », « le champ d'application du service « DIAG » »). Ce choix permet de regrouper les deux impressions parallèles, dont les titres imprimés diffèrent d'un mot.",
+  "PORTEUR DE RISQUE lu dans le colophon : « SMACL ASSURANCES SA - Société anonyme au capital de 138 801 048 euros, entreprise régie par le Code des assurances, RCS Niort n°833 817 224. » Il s'agit de SMACL Assurances SA (RCS Niort 833 817 224), et non de la société mutuelle d'assurance des collectivités locales (RCS Niort 301 309 605). Le document ne comporte pas de clause « Assureur » : le colophon est la seule source, et aucun groupe d'appartenance n'est nommé.",
+  "DÉFAUT DE COUCHE TEXTE (préservé verbatim, non corrigé) : le colophon perd le « i » des ligatures « ti » et lit « 01/2024 - Concepton : Directon développement et communicaton SMACL Assurances. » Le reste du document n'est pas touché. Point notable : dans l'impression jumelle Crédit Agricole, cette même ligne est correctement composée (« Conception : Direction développement et communication ») alors que d'autres mots y sont dégradés — le défaut n'est donc pas systématique et varie d'un tirage à l'autre. À ré-extraire si l'éditeur corrige le PDF.",
+  "ESPACEMENTS ANORMAUX DE LA SOURCE, conservés tels quels : le texte contient 2 espaces insécables (U+00A0) et 6 espaces fines insécables (U+202F) en page 1, et 2 de chaque en page 2, notamment dans « 800 € TTC » et dans les horaires « 9 h 00 à 18 h 00 ». Les citations et les valeurs sensibles ont été découpées programmatiquement dans le texte source plutôt que retapées, afin de préserver ces caractères.",
+  "TYPO DE L'ASSUREUR conservée, non corrigée : page 1, « conformément aux préconisations « DIAG » et du constructeur.En cas de refus » — l'espace après le point manque. La même phrase est correctement espacée dans l'impression jumelle Crédit Agricole. De même, « payer ainsi  le juste  prix de la réparation » comporte des doubles espaces.",
+  "SEUIL DE 800 € TTC : le document énonce que le service s'applique « pour tout devis supérieur à 800 € TTC » mais ne dit pas ce qu'il advient des devis inférieurs ou égaux à ce montant. Le seuil est donc enregistré comme une condition du service et non comme une exclusion, faute de stipulation explicite. À noter que le second service (Diagnostic réparations) s'applique lui « sans délai de carence ni seuil d'intervention ».",
+  "Les formations sont enregistrées comme une prestation distincte bien que le document les présente sous une forme potestative (« peuvent par ailleurs être proposées ») : ni les conditions d'accès, ni le nombre, ni la prise en charge ne sont précisés.",
+  "Le document ne contient ni définitions contractuelles, ni exclusions générales, ni obligations de déclaration, ni procédure de réclamation : seules figurent les trois étapes du traitement d'un devis litigieux, enregistrées dans claims_procedure faute de rubrique plus adaptée. Ce ne sont pas des étapes de déclaration de sinistre."
+ ]
 }
