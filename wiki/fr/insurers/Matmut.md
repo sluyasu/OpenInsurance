@@ -5,7 +5,7 @@ country: fr
 insurer_slug: matmut
 name: Matmut
 website: https://www.matmut.fr
-products_count: 113
+products_count: 114
 branches_covered:
 - animaux
 - assurance-vie
@@ -37,7 +37,7 @@ generated: true
 
 ## Résumé
 
-**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 113 document(s) across 15 branch(es).
+**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 114 document(s) across 15 branch(es).
 
 ## Produits par branche
 
@@ -100,6 +100,7 @@ generated: true
 - [Multirisques Accidents de la Vie](../products/matmut/Multirisques%20Accidents%20de%20la%20Vie.md) - Conditions générales (2026-01) · réf. CG MAV - 01/26
 
 ### [Multirisque habitation](../branches/Multirisque%20habitation.md)
+- [Assurance Loyers Impayés](../products/matmut/Assurance%20Loyers%20Impay%C3%A9s.md) - Conditions générales (10/24) · réf. CG LOYERS IMP - 10/24
 - [Habitation Initiale & Co Résidence Principale](../products/matmut/Habitation%20Initiale%20%26%20Co%20R%C3%A9sidence%20Principale.md) - Conditions générales (12/23) · réf. CG MGAR RP INIT & CO – 12/23
 - [Habitation Initiale & Co Résidence Secondaire](../products/matmut/Habitation%20Initiale%20%26%20Co%20R%C3%A9sidence%20Secondaire.md) - Conditions générales (12/23) · réf. CG RS INIT & CO – 12/23
 - [Habitation Matmut Étudiants](../products/matmut/Habitation%20Matmut%20%C3%89tudiants.md) - Conditions générales (2024-05) · réf. CG HAB ETUD – 05/24

@@ -5,7 +5,7 @@ country: fr
 tags:
 - insurance/fr
 - moc
-date: '2026-07-30'
+date: '2026-08-01'
 status: ready
 generated: true
 ---
@@ -16,7 +16,7 @@ generated: true
 
 Liste générée des produits par branche. Les fiches conceptuelles de branche sont rédigées à la main dans ce dossier.
 
-### [Assurance auto](Assurance%20auto.md) (56)
+### [Assurance auto](Assurance%20auto.md) (58)
 - [Assurance Auto et Auto connectée Direct Assurance - IPID](../products/direct-assurance/Assurance%20Auto%20et%20Auto%20connect%C3%A9e%20Direct%20Assurance%20-%20IPID.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [Contrat Auto](../products/direct-assurance/Contrat%20Auto.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [YouDrive - CP](../products/direct-assurance/YouDrive%20-%20CP.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
@@ -66,6 +66,8 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Contrat « Multirisques 4 Roues Référence » - IPID](../products/matmut/Contrat%20%C2%AB%20Multirisques%204%20Roues%20R%C3%A9f%C3%A9rence%20%C2%BB%20-%20IPID.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Flotte de véhicules](../products/matmut/Flotte%20de%20v%C3%A9hicules.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Multirisques Initiale & Co](../products/matmut/Multirisques%20Initiale%20%26%20Co.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
+- [Flotte entreprises - IPID](../products/smacl/Flotte%20entreprises%20-%20IPID.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
+- [Votre convention d'assistance - Flottes entreprises véhicules légers](../products/smacl/Votre%20convention%20d%27assistance%20-%20Flottes%20entreprises%20v%C3%A9hicules%20l%C3%A9gers.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [Assurance Automobile - IPID](../products/thelem/Assurance%20Automobile%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [Assurance Camping-Car - IPID](../products/thelem/Assurance%20Camping-Car%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [Assurance Caravane - IPID](../products/thelem/Assurance%20Caravane%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
@@ -101,7 +103,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Assurance Vélo](../products/maif/Assurance%20V%C3%A9lo.md) - [MAIF](../insurers/MAIF.md)
 - [Contrat Multirisques « 2R Liberté » - IPID](../products/matmut/Contrat%20Multirisques%20%C2%AB%202R%20Libert%C3%A9%20%C2%BB%20-%20IPID.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 
-### [Multirisque habitation](Multirisque%20habitation.md) (35)
+### [Multirisque habitation](Multirisque%20habitation.md) (38)
 - [Assurance Habitation Direct Assurance - IPID](../products/direct-assurance/Assurance%20Habitation%20Direct%20Assurance%20-%20IPID.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [Contrat Habitation](../products/direct-assurance/Contrat%20Habitation.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [Assurance multirisques habitation - Doc](../products/groupama/Assurance%20multirisques%20habitation%20-%20Doc.md) - [Groupama](../insurers/Groupama.md)
@@ -123,6 +125,9 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Assurance Loyers Impayés MF - IPID](../products/maif/Assurance%20Loyers%20Impay%C3%A9s%20MF%20-%20IPID.md) - [MAIF](../insurers/MAIF.md)
 - [Assurance Propriétaire Bailleur](../products/maif/Assurance%20Propri%C3%A9taire%20Bailleur.md) - [MAIF](../insurers/MAIF.md)
 - [Assurance Propriétaire Bailleur - IPID](../products/maif/Assurance%20Propri%C3%A9taire%20Bailleur%20-%20IPID.md) - [MAIF](../insurers/MAIF.md)
+- [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire](../products/macif/Contrat%20Habitation%20-%20Formule%20%C3%89conomique%20-%20R%C3%A9sidence%20principale%20-%20R%C3%A9sidence%20secondaire.md) - [Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)](../insurers/Macif%20%28MACIF%20-%20Mutuelle%20Assurance%20des%20Commer%C3%A7ants%20et%20Industriels%20de%20France%20et%20des%20Cadres%20et%20Salari%C3%A9s%20de%20l%27Industrie%20et%20d.md)
+- [Macif Habitation](../products/macif/Macif%20Habitation.md) - [Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)](../insurers/Macif%20%28MACIF%20-%20Mutuelle%20Assurance%20des%20Commer%C3%A7ants%20et%20Industriels%20de%20France%20et%20des%20Cadres%20et%20Salari%C3%A9s%20de%20l%27Industrie%20et%20d.md)
+- [Assurance Loyers Impayés](../products/matmut/Assurance%20Loyers%20Impay%C3%A9s.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Habitation Initiale & Co Résidence Principale](../products/matmut/Habitation%20Initiale%20%26%20Co%20R%C3%A9sidence%20Principale.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Habitation Initiale & Co Résidence Secondaire](../products/matmut/Habitation%20Initiale%20%26%20Co%20R%C3%A9sidence%20Secondaire.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Habitation Matmut Étudiants](../products/matmut/Habitation%20Matmut%20%C3%89tudiants.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
@@ -138,7 +143,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Assurance multirisque immeuble - IPID](../products/thelem/Assurance%20multirisque%20immeuble%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [Assurance multirisque immeuble - PROPRIETAIRE NON OCCUPANT - IPID](../products/thelem/Assurance%20multirisque%20immeuble%20-%20PROPRIETAIRE%20NON%20OCCUPANT%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 
-### [Complémentaire santé](Compl%C3%A9mentaire%20sant%C3%A9.md) (58)
+### [Complémentaire santé](Compl%C3%A9mentaire%20sant%C3%A9.md) (59)
 - [Direct Assurance Santé](../products/direct-assurance/Direct%20Assurance%20Sant%C3%A9.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [Direct Assurance Santé - Exemples de remboursements - Doc](../products/direct-assurance/Direct%20Assurance%20Sant%C3%A9%20-%20Exemples%20de%20remboursements%20-%20Doc.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [Direct Assurance Santé - contrat responsable - IPID](../products/direct-assurance/Direct%20Assurance%20Sant%C3%A9%20-%20contrat%20responsable%20-%20IPID.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
@@ -155,6 +160,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Solution Groupama Santé - Doc](../products/groupama/Solution%20Groupama%20Sant%C3%A9%20-%20Doc.md) - [Groupama](../insurers/Groupama.md)
 - [TMGF Synergie santé Salariés - Doc](../products/groupama/TMGF%20Synergie%20sant%C3%A9%20Salari%C3%A9s%20-%20Doc.md) - [Groupama](../insurers/Groupama.md)
 - [TMGF Synergie santé Salariés - Doc](../products/groupama/TMGF%20Synergie%20sant%C3%A9%20Salari%C3%A9s%20-%20Doc%20%282%29.md) - [Groupama](../insurers/Groupama.md)
+- [Assurance SANTÉ PROFIL SALARIÉS](../products/maaf/Assurance%20SANT%C3%89%20PROFIL%20SALARI%C3%89S.md) - [MAAF — a single brand covering four regulated carriers: MAAF Assurances SA (société anonyme, Code des assurances, RCS Niort 542 073 580), MAAF Assurances (société d'assurance mutuelle à cotisations variables, Code des assurances, RCS Niort 781 423 280), MAAF Vie (société anonyme, Code des assurances, RCS Niort 337 804 819) and MAAF Santé (mutuelle du livre II du Code de la mutualité, SIREN 331 542 142). Group Covéa.](../insurers/MAAF%20%E2%80%94%20a%20single%20brand%20covering%20four%20regulated%20carriers%20-%20MAAF%20Assurances%20SA%20%28soci%C3%A9t%C3%A9%20anonyme%2C%20Code%20des%20assurances%2C%20RCS%20N.md)
 - [CONTRAT COLLECTIF FRAIS DE SANTÉ - RÉGIME OBLIGATOIRE](../products/matmut/CONTRAT%20COLLECTIF%20FRAIS%20DE%20SANT%C3%89%20-%20R%C3%89GIME%20OBLIGATOIRE.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Conditions Générales — Régime conventionnel de frais de santé à adhésion obligatoire, Convention Collective Nationale de](../products/matmut/Conditions%20G%C3%A9n%C3%A9rales%20%E2%80%94%20R%C3%A9gime%20conventionnel%20de%20frais%20de%20sant%C3%A9%20%C3%A0%20adh%C3%A9sion%20obligatoire%2C%20Convention%20Collective%20Nationale%20de.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Notice d'information — Régime de frais de santé, contrat collectif, Accord interbranche du 2 octobre 2019 (CCN du 15 mar](../products/matmut/Notice%20d%27information%20%E2%80%94%20R%C3%A9gime%20de%20frais%20de%20sant%C3%A9%2C%20contrat%20collectif%2C%20Accord%20interbranche%20du%202%20octobre%202019%20%28CCN%20du%2015%20mar.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
@@ -198,7 +204,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [INTÉGRALE 1, INTÉGRALE 2, INTÉGRALE 3, INTÉGRALE 4 – Formules responsables et solidaires - Doc](../products/thelem/INT%C3%89GRALE%201%2C%20INT%C3%89GRALE%202%2C%20INT%C3%89GRALE%203%2C%20INT%C3%89GRALE%204%20%E2%80%93%20Formules%20responsables%20et%20solidaires%20-%20Doc.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [PRIMORDIALE 1, PRIMORDIALE 2, PRIMORDIALE 3 – Formules NON responsables et solidaires - Doc](../products/thelem/PRIMORDIALE%201%2C%20PRIMORDIALE%202%2C%20PRIMORDIALE%203%20%E2%80%93%20Formules%20NON%20responsables%20et%20solidaires%20-%20Doc.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 
-### [Prévoyance](Pr%C3%A9voyance.md) (22)
+### [Prévoyance](Pr%C3%A9voyance.md) (23)
 - [Galya Prévoyance Entreprise - Fiche](../products/gan/Galya%20Pr%C3%A9voyance%20Entreprise%20-%20Fiche.md) - [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../insurers/Gan%20Assurances.md)
 - [Gan Patrimoine Protection Plus - IPID](../products/gan/Gan%20Patrimoine%20Protection%20Plus%20-%20IPID.md) - [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../insurers/Gan%20Assurances.md)
 - [Gan Patrimoine Protection Plus - Fiche](../products/gan/Gan%20Patrimoine%20Protection%20Plus%20-%20Fiche%20%282%29.md) - [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../insurers/Gan%20Assurances.md)
@@ -216,6 +222,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Synergie Prévoyance Entreprise - Doc](../products/groupama/Synergie%20Pr%C3%A9voyance%20Entreprise%20-%20Doc.md) - [Groupama](../insurers/Groupama.md)
 - [Rassurcap Solutions - IPID](../products/maif/Rassurcap%20Solutions%20-%20IPID.md) - [MAIF](../insurers/MAIF.md)
 - [Rassurcap Solutions](../products/maif/Rassurcap%20Solutions.md) - [MAIF](../insurers/MAIF.md)
+- [ALÉASSUR Risques statutaires CNRACL](../products/smacl/AL%C3%89ASSUR%20Risques%20statutaires%20CNRACL.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [Assurance Capital Décès - IPID](../products/thelem/Assurance%20Capital%20D%C3%A9c%C3%A8s%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [Assurance Protection Famille - IPID](../products/thelem/Assurance%20Protection%20Famille%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [Prévoyance Agri - IPID](../products/thelem/Pr%C3%A9voyance%20Agri%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
@@ -322,7 +329,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Multigaranties Professionnelles des Agents Publics](../products/matmut/Multigaranties%20Professionnelles%20des%20Agents%20Publics.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Responsabilité Civile Chef d'Entreprise- Professions libérales - IPID](../products/thelem/Responsabilit%C3%A9%20Civile%20Chef%20d%27Entreprise-%20Professions%20lib%C3%A9rales%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 
-### [Multirisque professionnelle](Multirisque%20professionnelle.md) (13)
+### [Multirisque professionnelle](Multirisque%20professionnelle.md) (15)
 - [Multirisque Entreprises - IPID](../products/maif/Multirisque%20Entreprises%20-%20IPID.md) - [MAIF](../insurers/MAIF.md)
 - [Raqvam Associations et Collectivités - IPID](../products/maif/Raqvam%20Associations%20et%20Collectivit%C3%A9s%20-%20IPID.md) - [MAIF](../insurers/MAIF.md)
 - [Raqvam Associations et Collectivités](../products/maif/Raqvam%20Associations%20et%20Collectivit%C3%A9s.md) - [MAIF](../insurers/MAIF.md)
@@ -333,6 +340,8 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Matmut « Caducée »](../products/matmut/Matmut%20%C2%AB%20Caduc%C3%A9e%20%C2%BB.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Multigaranties des collectivités et risques professionnels](../products/matmut/Multigaranties%20des%20collectivit%C3%A9s%20et%20risques%20professionnels.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Risques Immobiliers](../products/matmut/Risques%20Immobiliers.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
+- [Assistance Patrimoine des associations](../products/smacl/Assistance%20Patrimoine%20des%20associations.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
+- [Assurance Spéciale Accueil Enfants - IPID](../products/smacl/Assurance%20Sp%C3%A9ciale%20Accueil%20Enfants%20-%20IPID.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [Assurance Garauto - IPID](../products/thelem/Assurance%20Garauto%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [Assurance multirisque professionnelle - IPID](../products/thelem/Assurance%20multirisque%20professionnelle%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [Bris de machine - IPID](../products/thelem/Bris%20de%20machine%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
@@ -369,7 +378,8 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Medical & Assistance Gold Long trip](../products/luko/Medical%20%26%20Assistance%20Gold%20Long%20trip.md) - [Luko](../insurers/Luko.md)
 - [Medical & assistance Gold Sport Long trip 507657](../products/luko/Medical%20%26%20assistance%20Gold%20Sport%20Long%20trip%20507657.md) - [Luko](../insurers/Luko.md)
 
-### Animaux (2)
+### Animaux (3)
+- [Contrat Chiens guides](../products/macif/Contrat%20Chiens%20guides.md) - [Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)](../insurers/Macif%20%28MACIF%20-%20Mutuelle%20Assurance%20des%20Commer%C3%A7ants%20et%20Industriels%20de%20France%20et%20des%20Cadres%20et%20Salari%C3%A9s%20de%20l%27Industrie%20et%20d.md)
 - [Assur'4Pattes Matmut & Co](../products/matmut/Assur%274Pattes%20Matmut%20%26%20Co.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Contrat Assur'4Pattes - IPID](../products/matmut/Contrat%20Assur%274Pattes%20-%20IPID.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 
