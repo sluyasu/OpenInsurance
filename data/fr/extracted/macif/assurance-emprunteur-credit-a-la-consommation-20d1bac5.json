@@ -1,0 +1,412 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "macif",
+  "insurer_name": "Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)",
+  "product_name": "Assurance emprunteur crédit à la consommation",
+  "branch": "emprunteur",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "Le document ne désigne aucune catégorie de clientèle. Il vise l'emprunteur d'un crédit à la consommation et pose une seule condition de personne : « être âgé de moins de 80 ans à la date de dernière échéance du prêt ».",
+  "reference": null,
+  "edition_date": null,
+  "product_family": "Assurance emprunteur crédit à la consommation",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_credit_consommation.pdf",
+  "source_pdf": "assurance-emprunteur-credit-a-la-consommation-20d1bac5.pdf",
+  "source_sha256": "a5256d1abfeb991edf474d22d01fdda0d685fb7eb3b962f975e3e3e308ca19cf",
+  "source_pages": 2,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d'information sur le produit d'assurance (DIPA/IPID) relatif à l'assurance emprunteur adossée à un crédit à la consommation, porté conjointement par trois entreprises d'assurance : MATMUT VIE, MACIF VIE et AGPM-VIE. Le contrat garantit le remboursement du crédit à la consommation : versement du capital restant dû au titre du prêt conformément au tableau d'amortissement en cas de décès, de perte totale et irréversible d'autonomie et d'invalidité permanente, et versement des mensualités de crédit en cas d'incapacité temporaire de travail avec perte de revenus. Les garanties s'appliquent dans le monde entier et prennent effet dès la date de signature de la demande d'adhésion, jusqu'au remboursement intégral du crédit. Un délai de carence de 120 jours s'applique aux risques consécutifs à une maladie, et les mensualités d'incapacité temporaire ne sont versées qu'à partir de l'échéance suivant le 61ème jour d'arrêt continu de travail.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Décès",
+      "description": "Garantie de base. En cas de décès : versement du capital restant dû au titre du prêt conformément au tableau d'amortissement.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties s'appliquent dans le monde entier",
+      "limits": "capital restant dû au titre du prêt conformément au tableau d'amortissement",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Les risques consécutifs à une maladie ne sont garantis que si elle survient à l'issue d'un délai de carence de 120 jours à compter de l'adhésion.",
+        "Prend effet dès la date de signature de la demande d'adhésion."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Perte totale et irréversible d'autonomie",
+      "description": "Garantie de base. En cas de perte totale et irréversible d'autonomie : versement du capital restant dû au titre du prêt conformément au tableau d'amortissement.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties s'appliquent dans le monde entier",
+      "limits": "capital restant dû au titre du prêt conformément au tableau d'amortissement",
+      "sub_limits": [
+        "Plafond : « Pour la perte totale et irréversible d'autonomie : durée maximale du crédit à la consommation. »"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les risques consécutifs à une maladie ne sont garantis que si elle survient à l'issue d'un délai de carence de 120 jours à compter de l'adhésion.",
+        "Prend effet dès la date de signature de la demande d'adhésion."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Incapacité temporaire de travail avec perte de revenus",
+      "description": "Garantie de base. Incapacité temporaire de travail avec perte de revenus : versement des mensualités de crédit.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties s'appliquent dans le monde entier",
+      "limits": "versement des mensualités de crédit",
+      "sub_limits": [
+        "Plafond : « Pour l'incapacité temporaire de travail avec perte de revenus : durée maximale du crédit à la consommation. »"
+      ],
+      "deductible": "Le versement des mensualités s'effectue à partir de l'échéance suivant le 61ème jour d'arrêt continu de travail (le document ne qualifie pas ce délai de franchise).",
+      "conditions": [
+        "Les risques consécutifs à une maladie ne sont garantis que si elle survient à l'issue d'un délai de carence de 120 jours à compter de l'adhésion.",
+        "En cas de rechute après reprise d'une activité professionnelle et du fait d'une même maladie ou accident dans les 60 jours de la reprise, le délai de carence n'est pas appliqué.",
+        "Déclarer le sinistre dans un délai de 120 jours suivant la survenance de celui-ci.",
+        "Garantie prenant fin au 65ème anniversaire de l'assuré, à la liquidation de la retraite ou préretraite, à la cessation définitive d'activité professionnelle, ou à la date de reprise d'une activité professionnelle quelconque rapportant gain ou profit, même à temps partiel."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Invalidité permanente",
+      "description": "Garantie de base. En cas d'invalidité permanente : versement du capital restant dû au titre du prêt conformément au tableau d'amortissement.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties s'appliquent dans le monde entier",
+      "limits": "capital restant dû au titre du prêt conformément au tableau d'amortissement",
+      "sub_limits": [
+        "Plafond : « Pour l'invalidité permanente : durée maximale du crédit à la consommation. »"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les risques consécutifs à une maladie ne sont garantis que si elle survient à l'issue d'un délai de carence de 120 jours à compter de l'adhésion.",
+        "Garantie prenant fin au 65ème anniversaire de l'assuré, à la liquidation de la retraite ou préretraite, à la cessation définitive d'activité professionnelle, ou à la date de reprise d'une activité professionnelle quelconque rapportant gain ou profit, même à temps partiel.",
+        "La rubrique « Quand commence la couverture et quand prend-elle fin ? » nomme cette garantie « incapacité permanente » (voir gaps)."
+      ],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Sinistres hors période de validité du contrat",
+      "description": "Rubrique « Qu'est-ce qui n'est pas assuré ? » : Les sinistres survenus en dehors de la période de validité du contrat.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Suicide au cours de la première année d'adhésion",
+      "description": "Principales exclusions des garanties : le suicide intervenu au cours de la première année d'adhésion.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Tentative de suicide ou mutilation volontaire",
+      "description": "Principales exclusions des garanties : les conséquences de la tentative de suicide ou de mutilation volontaire.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Radioactivité",
+      "description": "Principales exclusions des garanties : les effets directs ou indirects de radioactivité.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "État d'ivresse de l'assuré",
+      "description": "Principales exclusions des garanties : l'état d'ivresse de l'assuré.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Alcoolisme aigu, stupéfiants et produits toxiques",
+      "description": "Principales exclusions des garanties : les conséquences de l'alcoolisme aigu et de l'usage de stupéfiants et de produits toxiques non prescrits médicalement.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Faits intentionnels de l'assuré",
+      "description": "Principales exclusions des garanties : les faits intentionnels de l'assuré.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Sports à engins volants ou véhicules terrestres à moteur en compétition",
+      "description": "Principales exclusions des garanties : les accidents liés à la pratique de sports nécessitant l'usage d'engins volants ou de véhicules terrestres à moteur lors de compétitions ou de rallyes de vitesse.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Maisons de repos, cures et chirurgie esthétique",
+      "description": "Exclusions supplémentaires pour les garanties incapacité temporaire de travail avec perte de revenus et invalidité permanente : les séjours en maison de repos, les cures thermales, marines, de rajeunissement, d'amaigrissement et les arrêts de travail liés à des opérations de chirurgie esthétique.",
+      "applies_to": "Incapacité temporaire de travail avec perte de revenus ; Invalidité permanente",
+      "page": 1
+    },
+    {
+      "name": "Congé de maternité",
+      "description": "Exclusions supplémentaires pour les garanties incapacité temporaire de travail avec perte de revenus et invalidité permanente : les arrêts de travail correspondant à la durée légale du congé de maternité.",
+      "applies_to": "Incapacité temporaire de travail avec perte de revenus ; Invalidité permanente",
+      "page": 1
+    },
+    {
+      "name": "États dépressifs, maladies psychiatriques, épuisement / « Burn-Out »",
+      "description": "Exclusions supplémentaires pour les garanties incapacité temporaire de travail avec perte de revenus et invalidité permanente : les états dépressifs, les maladies psychiatriques, les états d'épuisement ou de « Burn-Out », sauf s'ils ont nécessité une hospitalisation supérieure à 15 jours continus dans un établissement spécialisé.",
+      "applies_to": "Incapacité temporaire de travail avec perte de revenus ; Invalidité permanente",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": null,
+    "per_coverage": {
+      "Incapacité temporaire de travail avec perte de revenus": "le versement des mensualités s'effectue à partir de l'échéance suivant le 61ème jour d'arrêt continu de travail"
+    },
+    "page": 1
+  },
+  "waiting_periods": [
+    {
+      "coverage": "Décès ; Perte totale et irréversible d'autonomie ; Invalidité permanente ; Incapacité temporaire de travail avec perte de revenus",
+      "duration": "120 jours à compter de l'adhésion",
+      "description": "Les principales restrictions : pour les garanties décès, perte totale et irréversible d'autonomie, invalidité permanente ou incapacité temporaire de travail avec pertes de revenus : les risques consécutifs à une maladie ne sont garantis que si elle survient à l'issue d'un délai de carence de 120 jours à compter de l'adhésion.",
+      "page": 1
+    },
+    {
+      "coverage": "Incapacité temporaire de travail avec perte de revenus",
+      "duration": "à partir de l'échéance suivant le 61ème jour d'arrêt continu de travail",
+      "description": "Les principales restrictions : pour l'incapacité temporaire de travail avec perte de revenus : le versement des mensualités s'effectue à partir de l'échéance suivant le 61ème jour d'arrêt continu de travail.",
+      "page": 1
+    },
+    {
+      "coverage": "Rechute",
+      "duration": "dans les 60 jours de la reprise",
+      "description": "Les principales restrictions : en cas de rechute après reprise d'une activité professionnelle et du fait d'une même maladie ou accident dans les 60 jours de la reprise, le délai de carence n'est pas appliqué.",
+      "page": 1
+    }
+  ],
+  "obligations": [
+    {
+      "name": "Conditions d'âge et déclaration de bonne santé",
+      "description": "A la souscription : satisfaire aux conditions d'âge (être âgé de moins de 80 ans à la date de dernière échéance du prêt) et être en mesure de signer la déclaration de bonne santé.",
+      "timing": "A la souscription",
+      "sanction": "Sous peine, le cas échéant de non garantie ou de nullité des garanties",
+      "page": 2
+    },
+    {
+      "name": "Fournir les documents justificatifs",
+      "description": "A la souscription : fournir tous documents justificatifs demandés par l'assureur.",
+      "timing": "A la souscription",
+      "sanction": "Sous peine, le cas échéant de non garantie ou de nullité des garanties",
+      "page": 2
+    },
+    {
+      "name": "Payer la cotisation",
+      "description": "Durant le contrat : payer la cotisation.",
+      "timing": "Durant le contrat",
+      "sanction": "Sous peine, le cas échéant de non garantie ou de nullité des garanties ; les garanties prennent fin en cas de non-paiement des cotisations.",
+      "page": 2
+    },
+    {
+      "name": "Déclarer le sinistre (incapacité temporaire de travail)",
+      "description": "En cas de sinistre : pour la garantie incapacité temporaire de travail avec perte de revenus, déclarer le sinistre dans un délai de 120 jours suivant la survenance de celui-ci.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine, le cas échéant de non garantie ou de nullité des garanties",
+      "page": 2
+    },
+    {
+      "name": "Fournir les justificatifs du dossier",
+      "description": "En cas de sinistre : fournir les justificatifs nécessaires à l'étude du dossier.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine, le cas échéant de non garantie ou de nullité des garanties",
+      "page": 2
+    },
+    {
+      "name": "Se soumettre à un examen médical",
+      "description": "En cas de sinistre : se soumettre à un examen médical auprès d'un médecin expert si exigé par l'assureur.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine, le cas échéant de non garantie ou de nullité des garanties",
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclarer le sinistre",
+      "description": "Pour la garantie incapacité temporaire de travail avec perte de revenus : déclarer le sinistre dans un délai de 120 jours suivant la survenance de celui-ci.",
+      "deadline": "120 jours suivant la survenance du sinistre",
+      "page": 2
+    },
+    {
+      "step": "Fournir les justificatifs",
+      "description": "Fournir les justificatifs nécessaires à l'étude du dossier.",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Examen médical",
+      "description": "Se soumettre à un examen médical auprès d'un médecin expert si exigé par l'assureur.",
+      "deadline": null,
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Les garanties décès, perte totale et irréversible d'autonomie, incapacité temporaire de travail avec perte de revenus, incapacité permanente prennent effet dès la date de signature de la demande d'adhésion. Les garanties sont consenties jusqu'au remboursement intégral du crédit, sous réserve des limite ci-après.",
+    "tacit_renewal": null,
+    "notice_period": "Résiliation possible à tout moment à l'expiration du délai d'un an à compter de la date d'effet du contrat d'assurance (aucun préavis chiffré n'est indiqué).",
+    "methods": [
+      "par lettre recommandée"
+    ],
+    "special_rights": [
+      "Les garanties prennent fin en cas de remboursement définitif du crédit à la fin du terme ou par anticipation.",
+      "Les garanties prennent fin en cas d'exigibilité du prêt avant terme.",
+      "Les garanties prennent fin en cas de non-paiement des cotisations.",
+      "Pour les garanties incapacité temporaire de travail avec perte de revenus et invalidité permanente : fin au 65ème anniversaire de l'assuré, à la liquidation de la retraite ou préretraite, à la cessation définitive d'activité professionnelle, à la date de reprise d'une activité professionnelle quelconque rapportant gain ou profit, même à temps partiel.",
+      "Vous pouvez résilier à tout moment par lettre recommandée à l'expiration du délai d'un an à compter de la date d'effet du contrat d'assurance."
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "Les cotisations d'assurance dont le taux et la base de calcul sont indiqués dans l'offre de contrat de crédit sont incluses dans le montant de chaque échéance de remboursement du crédit.",
+      "Elles sont perçues lors de chaque mensualité."
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Co-assurance : trois entreprises d'assurance",
+      "description": "Le DIPA est émis conjointement par MATMUT VIE, 66 rue de Sotteville, BP 2021, 76040 ROUEN CEDEX, RCS ROUEN 344898358 ; MACIF VIE, 1 rue Jacques Vandier, 79000 NIORT, RCS Niort B 315 652 263 ; AGPM-VIE, Rue Nicolas Appert, Sainte Musse, 83086 TOULON CEDEX 9, RCS TOULON 330 220 419. Entreprises d'assurance immatriculées en France et régies par le Code des assurances. Le document ne répartit pas les garanties entre ces trois porteurs.",
+      "page": 1
+    },
+    {
+      "name": "Portée du document",
+      "description": "Ce document d'information présente un résumé des principales garanties et exclusions du produit. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l'information complète sur ce produit dans la documentation précontractuelle et contractuelle.",
+      "page": 1
+    },
+    {
+      "name": "Adhésion",
+      "description": "Le document désigne l'opération comme une adhésion (« première année d'adhésion », « délai de carence de 120 jours à compter de l'adhésion », « demande d'adhésion »), ce qui traduit un contrat d'assurance de groupe emprunteur.",
+      "page": 1
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Le contrat est un contrat d’assurance emprunteur qui garantit le remboursement du crédit à la consommation dans les conditions ci-dessous.",
+      "page": 1,
+      "context": "De quel type d'assurance s'agit-il ?"
+    },
+    {
+      "quote": "MACIF VIE, 1 rue Jacques Vandier, 79000 NIORT, RCS Niort B 315 652 263.",
+      "page": 1,
+      "context": "Porteurs de risque en tête du DIPA"
+    },
+    {
+      "quote": "En cas de décès : versement du capital restant dû au titre du prêt \nconformément au tableau d’amortissement.",
+      "page": 1,
+      "context": "Garanties de base"
+    },
+    {
+      "quote": "En cas de perte totale et irréversible d’autonomie : versement du \ncapital restant dû au titre du prêt conformément au tableau \nd’amortissement.",
+      "page": 1,
+      "context": "Garanties de base"
+    },
+    {
+      "quote": "Incapacité temporaire de travail avec perte de revenus : versement \ndes mensualités de crédit.",
+      "page": 1,
+      "context": "Garanties de base"
+    },
+    {
+      "quote": "En cas d’invalidité permanente : versement du capital restant dû \nau titre du prêt conformément au tableau d’amortissement.",
+      "page": 1,
+      "context": "Garanties de base"
+    },
+    {
+      "quote": "Pour la perte totale et irréversible d’autonomie : durée maximale du \ncrédit à la consommation.",
+      "page": 1,
+      "context": "Plafond"
+    },
+    {
+      "quote": "Les sinistres survenus en dehors de la période de validité du contrat.",
+      "page": 1,
+      "context": "Qu'est-ce qui n'est pas assuré ?"
+    },
+    {
+      "quote": "le suicide intervenu au cours de la première année d’adhésion,",
+      "page": 1,
+      "context": "Principales exclusions des garanties"
+    },
+    {
+      "quote": "les états dépressifs, les maladies psychiatriques, les états \nd’épuisement ou de « Burn-Out », sauf s’ils ont nécessité une \nhospitalisation supérieure à 15 jours continus dans un établissement \nspécialisé.",
+      "page": 1,
+      "context": "Exclusions supplémentaires ITT / invalidité permanente"
+    },
+    {
+      "quote": "les risques consécutifs à une maladie ne sont \ngarantis que si elle survient à l’issue d’un délai de carence de 120 \njours à compter de l’adhésion,",
+      "page": 1,
+      "context": "Les principales restrictions"
+    },
+    {
+      "quote": "le \nversement des mensualités s’effectue à partir de l’échéance suivant \nle 61ème jour d’arrêt continu de travail,",
+      "page": 1,
+      "context": "Les principales restrictions"
+    },
+    {
+      "quote": "en cas de rechute après reprise d’une activité professionnelle et du \nfait d’une même maladie ou accident dans les 60 jours de la reprise, \nle délai de carence n’est pas appliqué.",
+      "page": 1,
+      "context": "Les principales restrictions"
+    },
+    {
+      "quote": "Les garanties s’appliquent dans le monde entier",
+      "page": 2,
+      "context": "Où suis-je couvert ?"
+    },
+    {
+      "quote": "Satisfaire aux conditions d’âge (être âgé de moins de 80 ans à la date de dernière échéance du prêt) et être en mesure de signer la déclaration \nde bonne santé.",
+      "page": 2,
+      "context": "Quelles sont mes obligations ? — A la souscription"
+    },
+    {
+      "quote": "déclarer le sinistre dans un délai de 120 jours suivant la survenance \nde celui-ci.",
+      "page": 2,
+      "context": "Quelles sont mes obligations ? — En cas de sinistre"
+    },
+    {
+      "quote": "Les cotisations d’assurance dont le taux et la base de calcul sont indiqués dans l’offre de contrat de crédit sont incluses dans le montant de chaque \néchéance de remboursement du crédit.",
+      "page": 2,
+      "context": "Quand et comment effectuer le paiement ?"
+    },
+    {
+      "quote": "Au 65ème anniversaire de l’assuré, à la liquidation \nde la retraite ou préretraite, à la cessation définitive d’activité professionnelle, à la date de reprise d’une activité professionnelle quelconque rapportant \ngain ou profit, même à temps partiel.",
+      "page": 2,
+      "context": "Fin des garanties ITT et invalidité permanente"
+    },
+    {
+      "quote": "Vous pouvez résilier à tout moment par lettre recommandée à l’expiration du délai d’un an à compter de la date d’effet du contrat d’assurance.",
+      "page": 2,
+      "context": "Comment puis-je résilier mon contrat ?"
+    }
+  ],
+  "gaps": [
+    "PORTEUR DE RISQUE : le document n'est pas porté par la Macif SAM. Il nomme trois entreprises d'assurance conjointement en tête de page 1 — MATMUT VIE (RCS ROUEN 344898358), MACIF VIE (RCS Niort B 315 652 263) et AGPM-VIE (RCS TOULON 330 220 419) — sans répartir les garanties entre elles ni désigner d'apériteur. La métadonnée de tâche (insurer_slug macif) ne reflète donc qu'un des trois porteurs.",
+    "AUCUNE DATE D'ÉDITION : le document ne porte ni date d'édition, ni code de référence de type <FAMILLE>/<PRODUIT>/05 - MM/AA - N<nnn> en dernière page, ni numéro de version. `edition_date` et `reference` sont laissés à null ; ils n'ont pas été déduits du nom de fichier (DIPA_credit_consommation.pdf), qui ne porte d'ailleurs aucune date, la date de mise en ligne CMS n'étant en tout état de cause pas une date d'édition.",
+    "CONTRADICTION INTERNE SUR LE NOM DE LA 4e GARANTIE : la rubrique « Qu'est-ce qui est assuré ? » (page 1) l'appelle « En cas d'invalidité permanente », de même que les rubriques Plafond et Exclusions supplémentaires ; mais la rubrique « Quand commence la couverture et quand prend-elle fin ? » (page 2) écrit « incapacité permanente » dans l'énumération des garanties prenant effet à la signature, tout en revenant à « invalidité permanente » dans la phrase suivante. Les deux formulations sont reproduites telles quelles ; aucune n'a été corrigée.",
+    "VARIATION D'ORTHOGRAPHE INTERNE : les restrictions écrivent « incapacité temporaire de travail avec pertes de revenus » (pluriel) alors que le reste du document écrit « perte de revenus » (singulier). Reproduit tel quel.",
+    "COQUILLE NON CORRIGÉE : « sous réserve des limite ci-après » (page 2, singulier au lieu du pluriel) est reproduite verbatim.",
+    "AUCUNE DÉFINITION : le document est un DIPA de 2 pages au format réglementaire et ne comporte pas de glossaire ; `definitions` est vide. Les termes clés (perte totale et irréversible d'autonomie, invalidité permanente, incapacité temporaire de travail, délai de carence) sont employés sans être définis, le document renvoyant à « la documentation précontractuelle et contractuelle ».",
+    "AUCUNE FRANCHISE NOMMÉE : le document n'emploie jamais le mot « franchise ». Le délai de 61 jours applicable à l'incapacité temporaire de travail est présenté sous « Les principales restrictions » ; il est enregistré dans `waiting_periods` et reporté dans `deductibles.per_coverage` et dans le champ `deductible` de la garantie, avec mention explicite que le document ne le qualifie pas de franchise.",
+    "AUCUN MONTANT CHIFFRÉ : aucun capital, plafond en euros, taux de cotisation ni barème n'est imprimé. Les plafonds sont exprimés en durée (« durée maximale du crédit à la consommation ») et les garanties en capital restant dû selon le tableau d'amortissement, renvoyé au contrat de crédit. Le taux et la base de calcul des cotisations sont renvoyés à l'offre de contrat de crédit.",
+    "PLAFOND DÉCÈS NON INDIQUÉ : la rubrique Plafond ne cite que la perte totale et irréversible d'autonomie, l'incapacité temporaire de travail avec perte de revenus et l'invalidité permanente. Aucun plafond n'est énoncé pour la garantie décès ; rien n'a été inféré.",
+    "PRESCRIPTION NON TRAITÉE : le document ne mentionne aucun délai de prescription ; `prescription_period` est laissé à null. C'est attendu pour un DIPA, dont le format réglementaire ne comporte pas cette rubrique.",
+    "PAS DE RENOUVELLEMENT TACITE ÉNONCÉ : `tacit_renewal` est laissé à null. Le document décrit une couverture consentie jusqu'au remboursement intégral du crédit et n'évoque ni échéance annuelle ni reconduction.",
+    "AUDIENCE NON DÉCLARÉE : le document n'indique aucune cible commerciale (particuliers / entreprises / indépendants / secteur public) ; `target_audience` est null. La seule condition de personne imprimée (âge de moins de 80 ans à la dernière échéance du prêt) est reportée dans `target_audience_note` et n'a pas servi à déduire une catégorie.",
+    "PUCES ISSUES D'UNE POLICE SYMBOLE : la couche texte rend les puces des listes d'exclusions par des points d'exclamation ASCII « ! » et la puce de la rubrique « Qu'est-ce qui n'est pas assuré ? » par U+1F5F6 (🗶) ; les puces des obligations sortent en U+25CF (●). Ce sont des artefacts de conversion de puces symboles, non de la ponctuation du contrat. Les citations de `key_quotes` ont été découpées de façon à les éviter.",
+    "TEXTE COMPLET : les 2 pages ont une couche texte exploitable, le prompt n'a pas été tronqué (6 179 caractères après retrait des marqueurs [[page N]]) et aucune page n'est une image scannée.",
+    "CITATIONS : toutes les entrées de `key_quotes` ont été découpées programmatiquement comme spans exacts du texte source après retrait des marqueurs [[page N]] injectés par le harness ; aucune ne franchit une frontière de page. Le texte ne contient ni espace de largeur nulle, ni trait d'union conditionnel, ni accent décomposé (NFD), ni glyphe de zone privée, ni coupure de mot par trait d'union en fin de ligne."
+  ]
+}

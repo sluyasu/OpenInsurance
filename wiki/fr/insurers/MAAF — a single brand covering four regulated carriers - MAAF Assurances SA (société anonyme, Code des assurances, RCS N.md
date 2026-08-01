@@ -10,7 +10,7 @@ name: 'MAAF — a single brand covering four regulated carriers: MAAF Assurances
   and MAAF Santé (mutuelle du livre II du Code de la mutualité, SIREN 331 542 142).
   Group Covéa.'
 website: https://www.maaf.fr/
-products_count: 17
+products_count: 19
 branches_covered:
 - chasse
 - decennale
@@ -38,7 +38,7 @@ generated: true
 
 ## Résumé
 
-**MAAF — a single brand covering four regulated carriers: MAAF Assurances SA (société anonyme, Code des assurances, RCS Niort 542 073 580), MAAF Assurances (société d'assurance mutuelle à cotisations variables, Code des assurances, RCS Niort 781 423 280), MAAF Vie (société anonyme, Code des assurances, RCS Niort 337 804 819) and MAAF Santé (mutuelle du livre II du Code de la mutualité, SIREN 331 542 142). Group Covéa.** - [https://www.maaf.fr/](https://www.maaf.fr/). 17 document(s) across 7 branch(es).
+**MAAF — a single brand covering four regulated carriers: MAAF Assurances SA (société anonyme, Code des assurances, RCS Niort 542 073 580), MAAF Assurances (société d'assurance mutuelle à cotisations variables, Code des assurances, RCS Niort 781 423 280), MAAF Vie (société anonyme, Code des assurances, RCS Niort 337 804 819) and MAAF Santé (mutuelle du livre II du Code de la mutualité, SIREN 331 542 142). Group Covéa.** - [https://www.maaf.fr/](https://www.maaf.fr/). 19 document(s) across 7 branch(es).
 
 ## Produits par branche
 
@@ -58,6 +58,7 @@ generated: true
 - [Tempo Habitation - Fiche](../products/maaf/Tempo%20Habitation%20-%20Fiche.md) - Fiche produit (06/2022)
 
 ### [Multirisque professionnelle](../branches/Multirisque%20professionnelle.md)
+- [CAPEB — INTERCALAIRE](../products/maaf/CAPEB%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales (03/24) · réf. 11038 - 03/24
 - [COMMERCES D'ALIMENTATION — INTERCALAIRE](../products/maaf/COMMERCES%20D%27ALIMENTATION%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales (01/26) · réf. 11039 - 01/26
 - [MULTISERVICE À LA PERSONNE — INTERCALAIRE](../products/maaf/MULTISERVICE%20%C3%80%20LA%20PERSONNE%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales (01/25) · réf. 11059 - 01/25
 - [PROFESSIONS DE LA RESTAURATION ET DE L'HÔTELLERIE — INTERCALAIRE](../products/maaf/PROFESSIONS%20DE%20LA%20RESTAURATION%20ET%20DE%20L%27H%C3%94TELLERIE%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales (01/25) · réf. 11045 - 01/25
@@ -68,6 +69,7 @@ generated: true
 
 ### [Responsabilité civile vie privée](../branches/Responsabilit%C3%A9%20civile%20vie%20priv%C3%A9e.md)
 - [Assurance jeune - Fiche](../products/maaf/Assurance%20jeune%20-%20Fiche.md) - Fiche produit (06/2023)
+- [TEMPO HABITATION Responsabilité civile - IPID](../products/maaf/TEMPO%20HABITATION%20Responsabilit%C3%A9%20civile%20-%20IPID.md) - IPID / Fiche d'information (2024-06) · réf. MU0_IPIDHA_00-240616-BNcr8r-6-1-2-01:01:15- HAB11023
 
 ### [Complémentaire santé](../branches/Compl%C3%A9mentaire%20sant%C3%A9.md)
 - [Assurance SANTÉ PROFIL SALARIÉS](../products/maaf/Assurance%20SANT%C3%89%20PROFIL%20SALARI%C3%89S.md) - Conditions générales (10.2025) · réf. 11015

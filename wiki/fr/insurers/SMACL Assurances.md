@@ -5,7 +5,7 @@ country: fr
 insurer_slug: smacl
 name: SMACL Assurances
 website: https://www.smacl.fr
-products_count: 22
+products_count: 24
 branches_covered:
 - auto
 - autres
@@ -29,7 +29,7 @@ generated: true
 
 ## Résumé
 
-**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 22 document(s) across 7 branch(es).
+**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 24 document(s) across 7 branch(es).
 
 ## Produits par branche
 
@@ -63,6 +63,8 @@ generated: true
 
 ### [Protection juridique](../branches/Protection%20juridique.md)
 - [Information juridique Associations - Doc](../products/smacl/Information%20juridique%20Associations%20-%20Doc.md) - Document (01/2024) · réf. CONVENTION_IJ_ASSOCIATIONS_02(02_2023)
+- [Information juridique Associations - Doc](../products/smacl/Information%20juridique%20Associations%20-%20Doc%20%282%29.md) - Document (01/2024) · réf. CONVENTION_IJ_ASSOCIATIONS_SA_02(02_2023)_TEL
+- [Information juridique Collectivités - Doc](../products/smacl/Information%20juridique%20Collectivit%C3%A9s%20-%20Doc.md) - Document (01/2024) · réf. CONVENTION_IJ_COLLECTIVITES_SA_02(09_2022)
 - [Vos plafonds contractuels de prise en charge - Protection juridique - Tarifs](../products/smacl/Vos%20plafonds%20contractuels%20de%20prise%20en%20charge%20-%20Protection%20juridique%20-%20Tarifs.md) - Conditions tarifaires (08/2022) · réf. PLAFONDS_HONORAIRES_AVOCATS_PM_PJ_01(01_2012)
 - [Votre barème de prise en charge - Garantie protection juridique - Tarifs](../products/smacl/Votre%20bar%C3%A8me%20de%20prise%20en%20charge%20-%20Garantie%20protection%20juridique%20-%20Tarifs.md) - Conditions tarifaires (07/2025) · réf. PP_BAREME_PJ_01(10_2015)
 

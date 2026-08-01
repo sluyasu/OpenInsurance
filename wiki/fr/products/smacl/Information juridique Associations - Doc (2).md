@@ -13,7 +13,7 @@ target_audience_note: « Par bénéficiaire on entend la personne morale de droi
   juridique Associations » et consacre un domaine de droit à « LA VIE DES ASSOCIATIONS
   ». Il s’agit donc de personnes morales de droit privé (associations), et explicitement
   pas du secteur public ni de particuliers.
-reference: CONVENTION_IJ_ASSOCIATIONS_02(02_2023)
+reference: CONVENTION_IJ_ASSOCIATIONS_SA_02(02_2023)_TEL
 edition_date: 01/2024
 lang: fr
 tags:
@@ -22,13 +22,13 @@ tags:
 - insurer/smacl
 aliases:
 - Information juridique Associations
-source_url: https://www.smacl.fr/files/documents/convention-information-juridique-associations-sam.pdf
+source_url: https://www.smacl.fr/files/documents/convention-information-juridique-associations.pdf
 source_pages: 2
 fetched_at: '2026-08-01'
 extraction_model: claude-code-subagent:scale
 prompt_version: '1.1'
 product_family: information-juridique
-variant: null
+variant: SA
 edition_status: null
 edition_age_years: 2
 superseded: null
@@ -139,30 +139,31 @@ Le service apporte « la possibilité de recevoir un courrier type suite à l’
 - Pour garantir la livraison d’une information juridique de qualité, les juristes qualifiés ont accès aux sources suivantes : base de données métiers (droit professionnel et privé) comportant plus de 2 500 fiches de synthèses interactives régulièrement enrichies et mises à jour par des conseillers juristes, via un process très structuré en interne ; bibliothèque multimédia composées d’abonnements multipostes (éditions législatives, Dalloz, etc.), d’accès à une sélection contrôlée de sites juridiques et d’informations accessibles via internet pour une meilleure efficacité ; publications spécialisées essentiellement utilisées pour la veille juridique et la mise à jour de la base de connaissances. Les juristes bénéficient de formation continue dans différents domaines de spécialisation tout au long de l’année. p. 1
 - Par téléphone : le service d’information juridique par téléphone est assuré du lundi au vendredi de 8 h à 19 h sans interruption et le samedi de 8 h à 12 h, hors fermetures exceptionnelles. Numéro indiqué : 09 86 03 04 06. Le document porte également le numéro 05 49 32 56 56 (prix d’un appel local). p. 2
 - La synthèse de l’entretien entre le juriste et l’assuré « servira à alimenter les bases de données métiers ». p. 1
-- SMACL ASSURANCES - Société d’assurance mutuelle à cotisations fixes régie par le Code des assurances, RCS Niort n° 301 309 605. Siège social : 141, avenue Salvador-Allende - CS 20000 - 79031 NIORT CEDEX 9. (Imprimé « cotsatons ﬁxes » dans la couche texte du PDF.) p. 2
+- SMACL ASSURANCES SA - Société anonyme au capital de 138 801 048 euros, entreprise régie par le Code des assurances, RCS Niort n°833 817 224. Siège social : 141, avenue Salvador-Allende - CS 20000 - 79031 NIORT CEDEX 9. p. 2
 
 ## Lacunes d'extraction
 
 - NATURE DU DOCUMENT : ce n’est pas un contrat d’assurance mais une convention de PRESTATION DE SERVICE (information juridique par téléphone) attachée au contrat Protection juridique souscrit auprès de SMACL Assurances. Il n’y a donc ni plafond de garantie, ni franchise, ni cotisation, ni durée/résiliation, ni prescription dans ce document : deductibles, premium, duration_and_cancellation et prescription_period sont laissés à null. Le champ document_type « other » fourni par la tâche correspond.
 - Les blocs coverages[] recensent les prestations et les domaines de droit couverts par le service, faute de garanties d’assurance à proprement parler. Le bloc claims_procedure[] reprend le « TRAITEMENT DES APPELS TÉLÉPHONIQUES », c’est-à-dire les engagements de SMACL Assurances lors d’un appel, et non une procédure de déclaration de sinistre (absente du document).
 - INCOHÉRENCE DE LA SOURCE : sous le titre « LA PROPRIÉTÉ INTELLECTUELLE » (page 1), les rubriques listées sont « la protection sociale des entreprises », « l’élaboration et le contenu des contrats collectifs », « les avantages de la mise en place des contrats collectifs », « les régimes de base » — qui ne relèvent pas de la propriété intellectuelle. Le titre et les rubriques sont conservés verbatim sans correction.
-- DÉFAUT DE COUCHE TEXTE (à re-extraire si l’éditeur corrige le PDF) : la ligature « ti » perd son i. Occurrences relevées page 2 : « Société d’assurance mutuelle à cotsatons ﬁxes » (pour « cotisations »), « Concepton : Directon développement et communicaton ». À l’inverse la ligature « fi » subsiste sous forme du caractère unique U+FB01 dans « ﬁxes ». Tout a été conservé verbatim ; les citations ont été découpées programmatiquement sur ce texte.
-- ASSUREUR : le colophon page 2 nomme « SMACL ASSURANCES - Société d’assurance mutuelle à cotsatons ﬁxes régie par le Code des assurances. RCS Niort n° 301 309 605 », c’est-à-dire la société d’assurance mutuelle (et non SMACL Assurances SA, RCS Niort 833 817 224, qui porte les branches dommages/auto). Cohérent avec un document de protection juridique.
-- Deux dates figurent page 2 et diffèrent : le pied de page porte « 01/2024 » et la référence imprimée « CONVENTION_IJ_ASSOCIATIONS_02(02_2023) » porte 02_2023. edition_date retient 01/2024 ; la référence est conservée intégralement.
-- variant laissé à null : le code de référence « CONVENTION_IJ_ASSOCIATIONS_02(02_2023) » ne comporte aucun marqueur de variante de distribution ni d’entité, et le texte n’en mentionne pas. Le seul élément différenciant imprimé est l’entité au colophon (société d’assurance mutuelle, RCS Niort 301 309 605).
+- DÉFAUT DE COUCHE TEXTE (à re-extraire si l’éditeur corrige le PDF) : la ligature « ti » perd son i. Occurrence relevée page 2 : « 01/2024 - Concepton : Directon développement et communicaton SMACL Assurances. » Conservé verbatim, sans réparation ; les citations ont été découpées programmatiquement sur ce texte.
+- ASSUREUR : le colophon page 2 nomme « SMACL ASSURANCES SA - Société anonyme au capital de 138 801 048 euros, entreprise régie par le Code des assurances, RCS Niort n°833 817 224 », c’est-à-dire la société anonyme — et non la société d’assurance mutuelle (RCS Niort 301 309 605). Point de vigilance pour un relecteur : le document est une convention de protection juridique, portée ici par la SA.
+- VARIANTE : la référence imprimée « CONVENTION_IJ_ASSOCIATIONS_SA_02(02_2023)_TEL » porte les marqueurs « _SA_ » et « _TEL » ; variant a été fixé à « SA » sur cette base et sur le colophon. Le nom commercial imprimé (« Votre convention Information juridique Associations ») ne comporte lui aucun marqueur de variante.
+- Deux dates figurent page 2 et diffèrent : le pied de page porte « 01/2024 » et la référence imprimée porte 02_2023. edition_date retient 01/2024 ; la référence est conservée intégralement. À dates identiques, un autre document portant le même nom commercial serait une variante parallèle et non une édition antérieure.
 - Le contenu du contrat Protection juridique lui-même (garanties, plafonds, exclusions d’assurance) n’est pas dans ce document : seul le service d’information juridique y est décrit. is_extension: true, extends: « contrat Protection juridique ».
 - Deux numéros de téléphone figurent sans que le document précise lequel joint le service d’information juridique : « 05 49 32 56 56 (prix d’un appel local) » en tête de page 2 (numéro général SMACL) et « 09 86 03 04 06 » à la fin de la rubrique « DISPONIBILITÉS DU SERVICE ». Les deux sont conservés.
 - Aucune étendue territoriale n’est indiquée : territorial_scope laissé à null.
 - La mise en page du PDF entrelace les blocs : la page 2 commence par le colophon et la référence, puis vient « CAS D’EXCLUSIONS DE LA PRESTATION » et « DISPONIBILITÉS DU SERVICE ». Les numéros de page cités correspondent à l’ordre réel de la couche texte.
+- target_audience « entreprises » : le document dit « Par bénéficiaire on entend la personne morale de droit privé désignée au contrat » et s’intitule « Associations ». Ce n’est donc ni « particuliers » ni « secteur_public » ; le libellé exact est conservé dans target_audience_note.
 
 ## Documents liés
 
 - Extension / option du produit : **contrat Protection juridique**
-- [Information juridique Associations - Doc](Information%20juridique%20Associations%20-%20Doc%20%282%29.md) - Document, éd. 01/2024
+- [Information juridique Associations - Doc](Information%20juridique%20Associations%20-%20Doc.md) - Document, éd. 01/2024
 - [Information juridique Collectivités - Doc](Information%20juridique%20Collectivit%C3%A9s%20-%20Doc.md) - Document, éd. 01/2024
 
 ## Source & fidélité
 
-- Source : [https://www.smacl.fr/files/documents/convention-information-juridique-associations-sam.pdf](https://www.smacl.fr/files/documents/convention-information-juridique-associations-sam.pdf) - téléchargé le 2026-08-01 - 2 pages
+- Source : [https://www.smacl.fr/files/documents/convention-information-juridique-associations.pdf](https://www.smacl.fr/files/documents/convention-information-juridique-associations.pdf) - téléchargé le 2026-08-01 - 2 pages
 - Extraction : claude-code-subagent:scale · prompt v1.1
 - ⚠️ Ceci n'est pas le document officiel de l'assureur et peut contenir des erreurs d'extraction. Information, non un conseil - vérifiez toujours par rapport au document source.

@@ -6,7 +6,7 @@ insurer_slug: macif
 name: Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et
   des Cadres et Salariés de l'Industrie et du Commerce)
 website: https://www.macif.fr
-products_count: 23
+products_count: 25
 branches_covered:
 - animaux
 - assurance-vie
@@ -34,12 +34,13 @@ generated: true
 
 ## Résumé
 
-**Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)** - [https://www.macif.fr](https://www.macif.fr). 23 document(s) across 10 branch(es).
+**Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)** - [https://www.macif.fr](https://www.macif.fr). 25 document(s) across 10 branch(es).
 
 ## Produits par branche
 
 ### Animaux
 - [Contrat Chiens guides](../products/macif/Contrat%20Chiens%20guides.md) - Conditions générales (12/12) · réf. EGALIS/CHIEN/05 - 12/12 - NM10
+- [Contrat Macif Assurance Chien Chat - IPID](../products/macif/Contrat%20Macif%20Assurance%20Chien%20Chat%20-%20IPID.md) - IPID / Fiche d'information (06/22) · réf. CHIEN CHAT/05 - 06/22
 
 ### Assurance vie et épargne
 - [Multi Vie - Tarifs](../products/macif/Multi%20Vie%20-%20Tarifs.md) - Conditions tarifaires (2024-06) · réf. MUT/ FC/ FRAIS/MV - 06/24
@@ -53,6 +54,7 @@ generated: true
 ### [Assurance emprunteur](../branches/Assurance%20emprunteur.md)
 - [Assurance Découvert Autorisé - Doc](../products/macif/Assurance%20D%C3%A9couvert%20Autoris%C3%A9%20-%20Doc.md) - Document (2020-11)
 - [Assurance Découvert Autorisé - IPID](../products/macif/Assurance%20D%C3%A9couvert%20Autoris%C3%A9%20-%20IPID.md) - IPID / Fiche d'information (12/20) · réf. DIPA ASSURANCE DÉCOUVERT 12/20
+- [Assurance emprunteur crédit à la consommation - IPID](../products/macif/Assurance%20emprunteur%20cr%C3%A9dit%20%C3%A0%20la%20consommation%20-%20IPID.md) - IPID / Fiche d'information
 - [Notice d'information au contrat collectif d'assurance emprunteur à adhésion facultative (contrat collectif n° 00.104, So](../products/macif/Notice%20d%27information%20au%20contrat%20collectif%20d%27assurance%20emprunteur%20%C3%A0%20adh%C3%A9sion%20facultative%20%28contrat%20collectif%20n%C2%B0%2000.104%2C%20So.md) - Conditions générales · réf. ASS-OFF--V13
 - [Perte d'Emploi (contrat collectif n°690701 souscrit par SECURIMUT auprès de MNCAP SA)](../products/macif/Perte%20d%27Emploi%20%28contrat%20collectif%20n%C2%B0690701%20souscrit%20par%20SECURIMUT%20aupr%C3%A8s%20de%20MNCAP%20SA%29.md) - Conditions générales
 

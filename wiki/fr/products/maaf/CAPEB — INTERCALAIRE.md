@@ -10,19 +10,17 @@ insurer: '[[MAAF — a single brand covering four regulated carriers: MAAF Assur
   542 142). Group Covéa.]]'
 insurer_slug: maaf
 branch: multirisque-professionnelle
-product_name: SYNDICATS PROFESSIONNELS ARTISANAUX — INTERCALAIRE
+product_name: CAPEB — INTERCALAIRE
 document_type: conditions_generales
 target_audience: null
 target_audience_note: 'Le document ne désigne pas de catégorie de public au sens du
-  schéma. Il vise un syndicat : « Nous garantissons la responsabilité civile liée
-  à l''exploitation de votre syndicat ainsi que la responsabilité civile professionnelle,
-  du fait des négligences et fautes commises uniquement à l''occasion de l''exercice
-  de vos activités* syndicales assurées », les « ACTIVITÉS » étant définies comme
-  « Celles autorisées par les statuts du syndicat » et les « ADHÉRENTS » comme « Toute
-  personne physique ou morale adhérente au syndicat et bénéficiant de ses activités*
-  ». Couverture : « MA FAMILLE / MON ARGENT / MES BIENS / MON ACTIVITÉ PROFESSIONNELLE
-  / SYNDICATS PROFESSIONNELS ARTISANAUX / INTERCALAIRE ».'
-reference: 11042 - 03/24
+  schéma. Le lexique précise que « Le souscripteur peut être : la Confédération de
+  l''Artisanat et des Petites Entreprises du Bâtiment (CAPEB), un “syndicat départemental”
+  adhérent* de la CAPEB », et que les ACTIVITÉS assurées sont « Celles autorisées
+  par les statuts de la Confédération de l''Artisanat et des Petites Entreprises du
+  Bâtiment (CAPEB) ». Couverture : « MA FAMILLE / MON ARGENT / MES BIENS / MON ACTIVITÉ
+  PROFESSIONNELLE / CAPEB / INTERCALAIRE ».'
+reference: 11038 - 03/24
 edition_date: 03/24
 lang: fr
 tags:
@@ -30,14 +28,14 @@ tags:
 - product
 - insurer/maaf
 aliases:
-- SYNDICATS PROFESSIONNELS ARTISANAUX — INTERCALAIRE
-source_url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Intercalaire_Syndicats_professionnels_artisanaux_11042.pdf
+- CAPEB — INTERCALAIRE
+source_url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Intercalaire_Capeb_11038.pdf
 source_pages: 10
 fetched_at: '2026-08-01'
 extraction_model: claude-code-subagent:scale
 prompt_version: '1.1'
 product_family: multirisque-professionnelle
-variant: Syndicats professionnels artisanaux
+variant: CAPEB
 edition_status: null
 edition_age_years: 2
 superseded: null
@@ -51,7 +49,7 @@ generated: true
 
 ## Résumé
 
-Intercalaire MAAF Assurances SA destiné aux syndicats professionnels artisanaux. À la différence d'un intercalaire d'ajout, celui-ci se substitue aux garanties « Vos responsabilités » (articles 6 à 10) des Conditions générales Multirisque professionnelle référencées 11031. Il réécrit la garantie responsabilité civile exploitation (article 6, avec ses volets à l'égard des tiers et à l'égard des préposés), la garantie responsabilité civile professionnelle (article 7, couvrant missions de représentation, conseil technique, conseil juridique, formation et atteinte accidentelle à l'environnement), les modalités d'application (article 8 : montants, déclenchement en base réclamation, étendue territoriale, déchéance) et les exclusions communes (article 9). Il se clôt par un lexique qui complète celui des Conditions générales et s'y substitue en cas de contradiction.
+Intercalaire MAAF Assurances SA établi pour la CAPEB. Il se substitue aux garanties « Vos responsabilités » (articles 6 à 10) des Conditions générales Multirisque professionnelle référencées 11031. Il réécrit la garantie responsabilité civile exploitation (article 6, volets à l'égard des tiers et à l'égard des préposés), la garantie responsabilité civile professionnelle (article 7, couvrant conseil technique, conseil juridique, formation, recouvrement de créances, délivrance d'habilitations, missions informatiques, missions de représentation et atteinte accidentelle à l'environnement), les modalités d'application (article 8 : montants, déclenchement en base réclamation, étendue territoriale, déchéance) et les exclusions communes (article 9). Le souscripteur peut être la CAPEB elle-même ou un syndicat départemental adhérent. Un lexique complète celui des Conditions générales et s'y substitue en cas de contradiction.
 
 - Assureur : [MAAF — a single brand covering four regulated carriers: MAAF Assurances SA (société anonyme, Code des assurances, RCS Niort 542 073 580), MAAF Assurances (société d'assurance mutuelle à cotisations variables, Code des assurances, RCS Niort 781 423 280), MAAF Vie (société anonyme, Code des assurances, RCS Niort 337 804 819) and MAAF Santé (mutuelle du livre II du Code de la mutualité, SIREN 331 542 142). Group Covéa.](../../insurers/MAAF%20%E2%80%94%20a%20single%20brand%20covering%20four%20regulated%20carriers%20-%20MAAF%20Assurances%20SA%20%28soci%C3%A9t%C3%A9%20anonyme%2C%20Code%20des%20assurances%2C%20RCS%20N.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : Conditions générales · Édition : 03/24
 
@@ -60,9 +58,9 @@ Intercalaire MAAF Assurances SA destiné aux syndicats professionnels artisanaux
 | Terme | Définition | Page |
 |---|---|---|
 | ACCIDENT ou ACCIDENTEL(LE) | Tout événement soudain, fortuit, extérieur à la victime ou à la chose endommagée, constituant la cause de dommages corporels*, matériels* ou immatériels consécutifs*. | p. 9 |
-| ACTIVITÉS | Celles autorisées par les statuts du syndicat. | p. 9 |
+| ACTIVITÉS | Celles autorisées par les statuts de la Confédération de l'Artisanat et des Petites Entreprises du Bâtiment (CAPEB). | p. 9 |
 | ADHÉRENTS | Toute personne physique ou morale adhérente au syndicat et bénéficiant de ses activités*. La déclaration du nombre d'adhérents sert de référence à la souscription du contrat. Toute évolution du nombre d'adhérents supérieure à 10 % devra nous être déclarée. | p. 9 |
-| ASSURÉ | Le souscripteur désigné aux Conditions particulières ou toute personne à qui cette qualité pourra être attribuée par le présent contrat. L'assuré est désigné par « Vous », « Vos » ou « Votre » dans les présentes garanties. | p. 9 |
+| ASSURÉ | Le souscripteur désigné aux Conditions particulières ou toute personne à qui cette qualité pourra être attribuée par le présent contrat. Le souscripteur peut être : la Confédération de l'Artisanat et des Petites Entreprises du Bâtiment (CAPEB), un “syndicat départemental” adhérent* de la CAPEB. L'assuré est désigné par « Vous », « Vos » ou « Votre » dans les présentes garanties. | p. 9 |
 | BIENS CONFIÉS | Tout bien meuble appartenant à un tiers* (y compris à vos adhérents*), à l'exclusion des espèces, billets de banque, monnaies, titres et valeurs. | p. 9 |
 | DOMMAGE IMMATÉRIEL | Tout préjudice pécuniaire subi par un tiers* résultant de la privation de jouissance d'un droit, de l'interruption d'un service ou de la perte d'un bénéfice. | p. 9 |
 | DOMMAGE IMMATÉRIEL CONSÉCUTIF | Dommage immatériel* qui est la conséquence d'un dommage corporel* ou matériel* garanti par le présent contrat. | p. 9 |
@@ -88,7 +86,7 @@ Nous garantissons les conséquences pécuniaires de la responsabilité civile qu
 Nous garantissons les conséquences pécuniaires de la responsabilité que vous encourez en raison des dommages corporels*, matériels* ou immatériels consécutifs* à une atteinte accidentelle* à l'environnement : risque d'atteinte grave à la santé humaine du fait de la contamination des sols, des eaux (affectation grave de l'état écologique, chimique ou quantitatif ou le potentiel écologique des eaux), de l'air et constitutive d'une détérioration directe mesurable de l'environnement autre qu'une atteinte à la biodiversité* ; atteinte aux espèces et habitats protégés (oiseaux migrateurs et aires de reproduction de mue et d'hivernage) survenue lors de l'exercice de vos activités* déclarées aux Conditions particulières.
 - Limite : 400 000 € par année d'assurance* sans pouvoir dépasser 200 000 € par sinistre* · Franchise : Sans franchise* pour les dommages corporels* et à concurrence de la somme indiquée aux Conditions particulières pour les dommages matériels* et immatériels consécutifs*
   - Condition : Ces atteintes ne doivent résulter ni de l'exécution de la prestation ni d'une erreur ou faute professionnelle commise par vous ou un de vos préposés*.
-  - Condition : Ces atteintes peuvent néanmoins relever de la garantie responsabilité civile professionnelle telle que décrite au paragraphe 7.5
+  - Condition : Ces atteintes peuvent néanmoins relever de la garantie responsabilité civile professionnelle telle que décrite au paragraphe 7.8
 
 ### 6.1.2.2 Les frais de prévention (responsabilité civile exploitation) - p. 2
 Nous garantissons les frais de prévention, avec notre accord ou sur demande de l'autorité administrative, visés par la loi n°2008-757 du 1er août 2008 et son décret d'application n°2009-468 du 23 avril 2009 relatifs à la responsabilité environnementale en cas de menace imminente d'atteinte accidentelle* à l'environnement et en vue d'éviter ou d'atténuer les dommages : pouvant affecter les sols, et engendrer un risque grave sur la santé humaine ; pouvant affecter de manière grave l'état écologique, chimique, quantitatif ou le potentiel écologique des eaux ; pouvant affecter gravement le maintien ou le rétablissement dans un état de conservation favorable des espèces et habitats naturels protégés.
@@ -148,37 +146,53 @@ Nous garantissons les conséquences pécuniaires de la responsabilité civile qu
 
 ### 7. La garantie responsabilité civile professionnelle - p. 5
 Dans le cadre des activités* syndicales assurées, lorsque votre responsabilité civile professionnelle est engagée à l'occasion d'un sinistre*, cette garantie permet de compenser financièrement les dommages corporels*, matériels* ou immatériels consécutifs* subis par un tiers* en raison des erreurs de fait ou de droit, omissions, négligences, fautes. Nous garantissons également les Dommages immatériels non consécutifs*, dans les limites prévues dans le présent intercalaire.
-- Portée : Votre garantie responsabilité civile s'exerce dans le monde entier à l'exception des USA et CANADA (article 8.3) · Limite : Dommages corporels*, matériels* et immatériels consécutifs* : 1 500 000 € par sinistre* et par année d'assurance* · Franchise : Sans franchise* pour les dommages corporels* et à concurrence de la somme indiquée aux Conditions particulières pour les dommages matériels* et immatériels consécutifs* ou non
+- Portée : Votre garantie responsabilité civile s'exerce dans le monde entier à l'exception des USA et CANADA (article 8.3) · Limite : Dommages corporels*, matériels* et immatériels consécutifs* : 800 000 € par sinistre* et par année d'assurance* · Franchise : Sans franchise* pour les dommages corporels* et à concurrence de la somme indiquée aux Conditions particulières pour les dommages matériels* et immatériels consécutifs* ou non
   - Sous-limite : Dommages immatériels non consécutifs* : À concurrence de la somme indiquée aux Conditions particulières par sinistre* et par année d'assurance*
-  - Sous-limite : Atteinte accidentelle* à l'environnement : 400 000 € par année d'assurance* sans pouvoir dépasser 200 000 € par sinistre
+  - Sous-limite : Atteinte accidentelle* à l'environnement : 400 000 € par année d'assurance* sans pouvoir dépasser 200 000 € par sinistre*
   - Condition : Dans la limite des plafonds mentionnés, ces garanties ne sont souscrites que si les Conditions particulières le précisent.
 
-### 7.1 Les missions - p. 5
-Les missions de représentation des adhérents* auprès des administrations et organismes publics, ainsi que les conséquences résultant de toutes activités* s'y rapportant et non exclues expressément par le présent contrat.
-- Limite : 1 500 000 € par sinistre* et par année d'assurance* (dommages corporels*, matériels* et immatériels consécutifs*)
+### 7.1 Le conseil technique - p. 5
+L'assistance technique de toute nature dont notamment : la recherche des DTU et normes des produits ; les avis techniques applicables à des chantiers sur les indications fournies par vos adhérents*. La rédaction et diffusion de référentiels techniques. L'assistance technique aux expertises, en cas de “désordre de la construction”.
+- Limite : 800 000 € par sinistre* et par année d'assurance* (dommages corporels*, matériels* et immatériels consécutifs*)
 
-### 7.2 Le conseil technique - p. 5
-L'assistance technique de toute nature dont notamment : la recherche des normes des produits ; les avis techniques applicables à des chantiers sur les indications fournies par vos adhérents*.
-- Limite : 1 500 000 € par sinistre* et par année d'assurance* (dommages corporels*, matériels* et immatériels consécutifs*)
-
-### 7.3 Le conseil juridique - p. 5
-Le conseil juridique c'est-à-dire : la diffusion en matière juridique de renseignements et informations à caractère documentaire, y compris modèles de devis, contrats types de marché ; les consultations juridiques et/ou la rédaction d'actes sous seing privé au profit de vos adhérents*.
-- Limite : 1 500 000 € par sinistre* et par année d'assurance* (dommages corporels*, matériels* et immatériels consécutifs*)
+### 7.2 Le conseil juridique - p. 5
+Le conseil juridique c'est-à-dire : La diffusion en matière juridique de renseignements et informations à caractère documentaire, y compris modèles de devis, contrats types de marché. Les consultations juridiques et/ou la rédaction d'actes sous seing privé au profit de vos adhérents*. L'élaboration des bulletins de salaires sur les indications fournies par vos adhérents*.
+- Limite : 800 000 € par sinistre* et par année d'assurance* (dommages corporels*, matériels* et immatériels consécutifs*)
   - Condition : Le conseil juridique doit s'exercer en conformité avec la législation en vigueur et notamment la loi n° 71-1130 du 31 décembre 1971.
+  - Condition : L'élaboration des bulletins de salaires est garantie sous réserve que les conditions de diplôme ou de qualification requises pour l'activité de conseil juridique, conformément à la loi n° 71-1130 du 31 décembre 1971, soient également remplies pour l'exercice de cette activité.
 
-### 7.4 La formation - p. 5
-La formation concerne l'organisation de stages destinés à vos adhérents*.
-- Limite : 1 500 000 € par sinistre* et par année d'assurance* (dommages corporels*, matériels* et immatériels consécutifs*)
+### 7.3 La formation - p. 5
+La formation concerne l'organisation de stages (comptabilité, gestion, commercialisation, informatique…) destinés à vos adhérents*.
+- Limite : 800 000 € par sinistre* et par année d'assurance* (dommages corporels*, matériels* et immatériels consécutifs*)
 
-### 7.5.1 Les dommages résultant d'atteinte accidentelle à l'environnement (responsabilité civile professionnelle) - p. 5
+### 7.4 Le recouvrement de créances - p. 5
+Garantie de l'activité de recouvrement de créances exercée au profit des adhérents*.
+- Limite : 800 000 € par sinistre* et par année d'assurance* (dommages corporels*, matériels* et immatériels consécutifs*)
+  - Condition : Le recouvrement de créances doit s'exercer en conformité avec la législation en vigueur et notamment la loi n° 91-650 du 9 juillet 1991 portant réforme des procédures civiles d'exécution.
+
+### 7.5 La délivrance d'habilitations - p. 5
+La délivrance d'habilitations comprend la délivrance du Certificat d'Identité Professionnelle (C.I.P.) et l'habilitation P.G.N. / P.G.P.
+- Limite : 800 000 € par sinistre* et par année d'assurance* (dommages corporels*, matériels* et immatériels consécutifs*)
+  - Condition : Sous réserve que ces habilitations ne soient accordées qu'après avoir réuni l'ensemble des pièces justificatives exigées par les lois, les règlements et les conventions en vigueur, ces pièces devant être des originaux ou des documents certifiés conformes aux originaux
+  - Condition : Lorsqu'une condition de formation est exigée, l'habilitation ne peut être délivrée qu'après vérification du suivi effectif de celle-ci.
+
+### 7.6 Les missions informatiques - p. 5
+Les missions informatiques consistent en des prestations d'assistance à la mise en place de systèmes informatiques destinés à offrir à l'entreprise ou à l'artisan des solutions adaptées à la gestion comptable, commerciale ou à la production (Conception Assistée par Ordinateur (C.A.O.) – Dessin Assisté par Ordinateur (D.A.O.), calculs réglementaires) : étude d'opportunité et de besoins ; mise à disposition de clauses types pour l'établissement d'un cahier des charges ; assistance lors des phases de tests et de mise en route.
+- Limite : 800 000 € par sinistre* et par année d'assurance* (dommages corporels*, matériels* et immatériels consécutifs*)
+
+### 7.7 Les missions - p. 5
+Les missions de représentation des adhérents* auprès des administrations et organismes publics, ainsi que les conséquences résultant de toutes activités* s'y rapportant et non exclues expressément par le présent contrat.
+- Limite : 800 000 € par sinistre* et par année d'assurance* (dommages corporels*, matériels* et immatériels consécutifs*)
+
+### 7.8.1 Les dommages résultant d'atteinte accidentelle à l'environnement (responsabilité civile professionnelle) - p. 5
 Nous garantissons les conséquences pécuniaires de la responsabilité que vous encourez en raison des dommages corporels*, matériels* ou immatériels consécutifs* à une atteinte accidentelle* à l'environnement : risque d'atteinte grave à la santé humaine du fait de la contamination des sols, des eaux (affectation grave de l'état écologique, chimique ou quantitatif ou le potentiel écologique des eaux), de l'air et constitutive d'une détérioration directe mesurable de l'environnement autre qu'une atteinte à la biodiversité* ; atteinte aux espèces et habitats protégés (oiseaux migrateurs et aires de reproduction de mue et d'hivernage) survenue lors de l'exercice de vos activités* déclarées aux Conditions particulières.
-- Limite : 400 000 € par année d'assurance* sans pouvoir dépasser 200 000 € par sinistre · Franchise : Sans franchise* pour les dommages corporels* et à concurrence de la somme indiquée aux Conditions particulières pour les dommages matériels* et immatériels consécutifs* ou non
+- Limite : 400 000 € par année d'assurance* sans pouvoir dépasser 200 000 € par sinistre* · Franchise : Sans franchise* pour les dommages corporels* et à concurrence de la somme indiquée aux Conditions particulières pour les dommages matériels* et immatériels consécutifs* ou non
   - Condition : Ces atteintes ne doivent pas être liées à l'exploitation de votre entreprise.
   - Condition : Ces atteintes peuvent néanmoins relever de la garantie responsabilité civile exploitation telle que décrite au paragraphe 6.1.2.1
 
-### 7.5.2 Les frais de prévention (responsabilité civile professionnelle) - p. 5
+### 7.8.2 Les frais de prévention (responsabilité civile professionnelle) - p. 5
 Nous garantissons les frais de prévention, avec notre accord ou sur demande de l'autorité administrative, visés par la loi n°2008-757 du 1er août 2008 et son décret d'application n°2009-468 du 23 avril 2009 relatifs à la responsabilité environnementale en cas de menace imminente d'atteinte accidentelle* à l'environnement et en vue d'éviter ou d'atténuer les dommages : pouvant affecter les sols, et engendrer un risque grave sur la santé humaine ; pouvant affecter de manière grave l'état écologique, chimique, quantitatif ou le potentiel écologique des eaux ; pouvant affecter gravement le maintien ou le rétablissement dans un état de conservation favorable des espèces et habitats naturels protégés.
-- Limite : 400 000 € par année d'assurance* sans pouvoir dépasser 200 000 € par sinistre
+- Limite : 400 000 € par année d'assurance* sans pouvoir dépasser 200 000 € par sinistre*
   - Condition : Avec notre accord ou sur demande de l'autorité administrative
   - Condition : En cas de menace imminente d'atteinte accidentelle* à l'environnement
 
@@ -191,8 +205,8 @@ Nous garantissons les frais de prévention, avec notre accord ou sur demande de 
 | Dommages subis par le véhicule utilisé | Aux exclusions prévues aux articles 9 et 27, viennent s'ajouter les dommages subis par le véhicule utilisé. | 6.1.5 L'utilisation de véhicules terrestres à moteur pour les besoins du service | p. 3 |
 | Épreuves, courses ou compétitions sportives comportant la participation de véhicules à moteur | Les dommages résultant de l'organisation ou de votre participation à des épreuves, courses ou compétitions sportives, y compris leurs essais, comportant la participation de véhicules à moteur. | 6.1.7 L'organisation de foires - salons – marchés - expositions | p. 3 |
 | Mouvement ou manifestation protestataire ou revendicatif | Les dommages résultant de l'organisation ou de votre participation à tout mouvement ou manifestation protestataire ou revendicatif à caractère social, politique ou religieux. | 6.1.7 L'organisation de foires - salons – marchés - expositions | p. 3 |
-| Manifestations réunissant plus de 1500 personnes | Les dommages survenus au cours de l'organisation de manifestations réunissant un public de plus de 1500 personnes dans un espace clos ou délimité par un périmètre de sécurité. | 6.1.7 L'organisation de foires - salons – marchés - expositions | p. 3 |
-| Manifestations avec gradins, tribunes ou chapiteaux au-delà des seuils | Les dommages survenus au cours de l'organisation de manifestations comportant l'installation ou l'utilisation de gradins, tribunes ou chapiteaux : soit démontables pouvant accueillir plus de 500 personnes, soit fixes pouvant accueillir plus de 1000 personnes. | 6.1.7 L'organisation de foires - salons – marchés - expositions | p. 3 |
+| Manifestations réunissant plus de 1 500 personnes | Les dommages survenus au cours de l'organisation de manifestations réunissant un public de plus de 1 500 personnes dans un espace clos ou délimité par un périmètre de sécurité. | 6.1.7 L'organisation de foires - salons – marchés - expositions | p. 3 |
+| Manifestations avec gradins, tribunes ou chapiteaux au-delà des seuils | Les dommages survenus au cours de l'organisation de manifestations comportant l'installation ou l'utilisation de gradins, tribunes ou chapiteaux : soit démontables pouvant accueillir plus de 500 personnes, soit fixes pouvant accueillir plus de 1 000 personnes. | 6.1.7 L'organisation de foires - salons – marchés - expositions | p. 3 |
 | Manifestations excédant 15 jours (exposition) ou 3 jours (autres cas) | Les dommages survenus au cours de l'organisation de manifestations excédant une durée supérieure à 15 jours dans le cas d'une exposition et 3 jours dans les autres cas. | 6.1.7 L'organisation de foires - salons – marchés - expositions | p. 3 |
 | Manifestations aériennes, meetings et baptêmes de l'air | Les dommages survenus au cours de l'organisation de manifestations aériennes y compris les meetings et les baptêmes de l'air. | 6.1.7 L'organisation de foires - salons – marchés - expositions | p. 3 |
 | Son et lumières, tirs de feux d'artifice nécessitant une personne qualifiée | Les dommages survenus au cours de l'organisation de manifestations de son et lumières, tirs de feux d'artifice dont la mise en œuvre requiert une personne qualifiée au titre de la réglementation en vigueur. | 6.1.7 L'organisation de foires - salons – marchés - expositions | p. 3 |
@@ -203,11 +217,11 @@ Nous garantissons les frais de prévention, avec notre accord ou sur demande de 
 | Activités exercées dans des établissements ou installations permanentes hors de France, Andorre et Monaco | Les activités* exercées dans des établissements ou dans des installations permanentes, situés en dehors de la France, des Principautés d'Andorre et de Monaco. | all | p. 6 |
 | Article 9 §1-1 — Faute intentionnelle ou dolosive | Les dommages causés par une faute intentionnelle ou dolosive, au sens de l'article L.113-1 du Code des assurances, sauf si cette faute est commise par un préposé* dont vous devez répondre. | Toutes les garanties de responsabilité civile visées aux articles 6 et 7 | p. 7 |
 | Article 9 §1-2 — Clauses pénales et engagements contractuels aggravants | Les conséquences pécuniaires de clauses pénales, de clauses de garantie, de dédit, de transfert de responsabilité, de solidarité contractuelle, de renonciation à recours ou prévoyant des pénalités de retard, que vous avez acceptées par des conventions à défaut desquelles vous n'auriez pas été tenu (ces dispositions ne s'appliquent pas à la garantie, objet de l'article 6.1.8). | Toutes les garanties de responsabilité civile visées aux articles 6 et 7 | p. 7 |
-| Article 9 §1-3 — Cotisations supplémentaires et sommes mises à charge par le Conseil des prud'hommes | Les cotisations supplémentaires mises à votre charge, dans le cadre de votre faute inexcusable (article L.242-7 du Code de la Sécurité sociale), de la faute intentionnelle d'un co-préposé* (article L.452-5 du Code de la Sécurité sociale), le surcoût des cotisations dues au titre des accidents* du travail et des maladies professionnelles ainsi que toute somme mise à votre charge en vertu d'une décision du Conseil des prud'hommes. | Toutes les garanties de responsabilité civile visées aux articles 6 et 7 | p. 7 |
+| Article 9 §1-3 — Cotisations supplémentaires et sommes mises à charge par le Conseil des prud'hommes | Les cotisations supplémentaires mises à votre charge, dans le cadre de votre faute inexcusable (article L.242-7 du Code de la Sécurité sociale), de la faute intentionnelle d'un co-préposé* (article L.452-5 du Code de la Sécurité sociale), le surcoût des cotisations dues au titre des accidents* du travail et des maladies professionnelles ainsi que toute somme mise à votre charge en vertu d'une décision du Conseil des Prud'hommes. | Toutes les garanties de responsabilité civile visées aux articles 6 et 7 | p. 7 |
 | Article 9 §1-4 — Amiante et ses dérivés | Les dommages liés à l'amiante et ses dérivés, et les réclamations* liées à l'amiante et ses dérivés trouvant leur fondement dans les articles L.452-1, L.452-2, L.452-3 et L.452-4 du Code de la Sécurité sociale. | Toutes les garanties de responsabilité civile visées aux articles 6 et 7 | p. 7 |
 | Article 9 §1-5 — Mauvais entretien et redevances en cas d'atteinte accidentelle à l'environnement | En cas d'atteinte accidentelle* à l'environnement, les dommages résultant d'un mauvais entretien* de matériel ou des installations, les redevances mises à votre charge en application de la législation et de la réglementation en vigueur, même si ces redevances sont destinées à remédier à une situation consécutive à des dommages de pollution garantis au titre des dommages environnementaux ou du préjudice écologique. | Toutes les garanties de responsabilité civile visées aux articles 6 et 7 | p. 7 |
 | Article 9 §1-6 — Dommages inéluctables et violation délibérée des règles | Les dommages dont la survenance était inéluctable en raison des modalités d'exploitation que vous avez choisies, de même que ceux résultant de la violation délibérée des lois, règlements, avis techniques, normes et usages auxquels vous devez vous conformer dans l'exercice des activités* déclarées aux Conditions particulières. | Toutes les garanties de responsabilité civile visées aux articles 6 et 7 | p. 7 |
-| Article 9 §1-7 — Pratiques anticoncurrentielles | conséquences dommageables de pratiques anticoncurrentielles au sens du titre II du livre IV du Code de commerce ou des articles 101 et 102 du Traité sur le fonctionnement de l'Union européenne. | Toutes les garanties de responsabilité civile visées aux articles 6 et 7 | p. 7 |
+| Article 9 §1-7 — Pratiques anticoncurrentielles | Les conséquences dommageables de pratiques anticoncurrentielles au sens du titre II du livre IV du Code de commerce ou des articles 101 et 102 du Traité sur le fonctionnement de l'Union européenne. | Toutes les garanties de responsabilité civile visées aux articles 6 et 7 | p. 7 |
 | Article 9 §1-8 — Denrées alimentaires sans visa sanitaire ou périmées | Les dommages provenant d'utilisation ou de vente de denrées alimentaires n'ayant pas obtenu le visa sanitaire obligatoire et/ou dont la date de péremption est dépassée. | Toutes les garanties de responsabilité civile visées aux articles 6 et 7 | p. 7 |
 | Article 9 §1-9 — Astreintes et amendes | Les astreintes et amendes, y compris celles qui seraient assimilées à des réparations civiles notamment à titre de punition ou à titre exemplaire. | Toutes les garanties de responsabilité civile visées aux articles 6 et 7 | p. 7 |
 | Article 9 §1-10 — Dommages causés par certains animaux | Les dommages causés par tout animal dont l'élevage, la reproduction ou l'importation est interdite en France et par tout animal visé par la loi n° 99-5 du 6 janvier 1999 ou par un texte la modifiant ou la complétant. | Toutes les garanties de responsabilité civile visées aux articles 6 et 7 | p. 7 |
@@ -246,41 +260,46 @@ Nous garantissons les frais de prévention, avec notre accord ou sur demande de 
 - Lorsque ce véhicule est utilisé régulièrement pour les besoins de vos activités* déclarées aux Conditions particulières, la garantie n'est accordée qu'à la condition que le contrat d'assurance garantissant ce véhicule terrestre à moteur comporte une clause d'usage de ce véhicule, conforme à l'utilisation qui est faite au jour du sinistre*. (en cours de contrat / au jour du sinistre · Garantie non accordée à défaut) p. 3
 - Le conseil juridique doit s'exercer en conformité avec la législation en vigueur et notamment la loi n° 71-1130 du 31 décembre 1971. (en cours d'activité) p. 5
 - Vous êtes déchu de tout droit à garantie en cas d'inobservation inexcusable des règles de l'art telles qu'elles sont définies par les réglementations en vigueur, les normes françaises homologuées ou les normes publiées par les organismes de normalisation des autres États membres de l'Union européenne ou des États parties à l'accord sur l'Espace économique européen, offrant un degré de sécurité et de pérennité équivalent à celui des normes françaises. (en cours d'activité · Déchéance de tout droit à garantie) p. 6
+- Le recouvrement de créances doit s'exercer en conformité avec la législation en vigueur et notamment la loi n° 91-650 du 9 juillet 1991 portant réforme des procédures civiles d'exécution. (en cours d'activité) p. 5
+- Sous réserve que ces habilitations ne soient accordées qu'après avoir réuni l'ensemble des pièces justificatives exigées par les lois, les règlements et les conventions en vigueur, ces pièces devant être des originaux ou des documents certifiés conformes aux originaux ; lorsqu'une condition de formation est exigée, l'habilitation ne peut être délivrée qu'après vérification du suivi effectif de celle-ci. (avant délivrance de l'habilitation) p. 5
+- Cette activité est garantie, sous réserve que les conditions de diplôme ou de qualification requises pour l'activité de conseil juridique, conformément à la loi n° 71-1130 du 31 décembre 1971, soient également remplies pour l'exercice de cette activité. (en cours d'activité · À défaut, l'activité n'est pas garantie) p. 5
 
 ## Conditions particulières
 
-- Le présent intercalaire a pour objet de se substituer aux garanties « Vos responsabilités » (articles 6 à 10) de vos Conditions générales MULTIRISQUE PROFESSIONNELLE référencées 11031. p. 2
+- Le présent intercalaire a pour objet de se substituer aux garanties “Vos responsabilités” (articles 6 à 10) de vos Conditions générales MULTIRISQUE PROFESSIONNELLE référencées 11031. p. 2
 - Nous garantissons la responsabilité civile liée à l'exploitation de votre syndicat ainsi que la responsabilité civile professionnelle, du fait des négligences et fautes commises uniquement à l'occasion de l'exercice de vos activités* syndicales assurées. Dans la limite des plafonds mentionnés, ces garanties ne sont souscrites que si les Conditions particulières le précisent. p. 2
 - La garantie est accordée à concurrence des montants indiqués aux tableaux des garanties, y compris lorsqu'elle est déclenchée pendant le délai subséquent défini à l'article 8.2. Dans cette dernière hypothèse, chaque plafond de garantie en vigueur pendant l'année précédant la résiliation est reconduit une seule fois pour l'ensemble de la durée de la garantie subséquente. Lorsque notre garantie est limitée par sinistre* et par année d'assurance*, son montant ne peut dépasser, pour l'ensemble des sinistres* se rattachant à une même année d'assurance*, la somme fixée. p. 6
-- Mode de déclenchement des garanties : les garanties de responsabilité civile, objet des articles 6 et 7 et défense objet de l'article 20, fonctionnent en base réclamation. Le texte de l'ARTICLE L.124-5 alinéa 4 du Code des assurances est reproduit. Le délai subséquent est de cinq ans. Ce délai est porté à dix ans pour les cas visés par le décret n° 2004-1284 du 26 novembre 2004 ou par un texte le modifiant ou le complétant. L'annexe de l'article A.112 DU CODE DES ASSURANCES – FICHE D'INFORMATION RELATIVE AU FONCTIONNEMENT DES GARANTIES « RESPONSABILITÉ CIVILE » DANS LE TEMPS se situe en annexe des présentes Conditions générales. p. 6
+- Mode de déclenchement des garanties : les garanties de responsabilité civile, objet des articles 6 et 7 et défense objet de l'article 20, fonctionnent en base réclamation. Le texte de l'ARTICLE L.124-5 alinéa 4 du Code des assurances est reproduit. Le délai subséquent est de cinq ans. Ce délai est porté à dix ans pour les cas visés par le décret n° 2004-1284 du 26 novembre 2004 ou par un texte le modifiant ou le complétant. « Voir l'article A.112 DU CODE DES ASSURANCES – FICHE D'INFORMATION RELATIVE AU FONCTIONNEMENT DES GARANTIES “RESPONSABILITÉ CIVILE” DANS LE TEMPS en annexe des présentes Conditions générales. » p. 6
 - Votre garantie responsabilité civile s'exerce dans le monde entier à l'exception des USA et CANADA. p. 6
 - Les définitions qui suivent complètent celles indiquées aux Conditions générales et s'y substituent en cas de contradiction. p. 9
 - MAAF Assurances SA, SOCIÉTÉ ANONYME AU CAPITAL DE 160 000 000 euros entièrement versé - Entreprise régie par le Code des assurances - N° ORIAS 13 003 131, RCS NIORT 542 073 580 - Code APE 6512 Z, Siège social : Chaban - 79180 CHAURAY - Adresse postale : Chauray - 79036 NIORT Cedex 09 - maaf.fr. IDU REP Eco circulaire FR231788_03AUDB. p. 10
+- Le souscripteur peut être : la Confédération de l'Artisanat et des Petites Entreprises du Bâtiment (CAPEB), un “syndicat départemental” adhérent* de la CAPEB. p. 9
 
 ## Lacunes d'extraction
 
-- Document INTERCALAIRE de SUBSTITUTION (et non d'ajout) : il remplace les garanties « Vos responsabilités » (articles 6 à 10) des Conditions générales MULTIRISQUE PROFESSIONNELLE référencées 11031, non fournies ici. Tout le reste du contrat (locaux et contenu, tranquillité mobilité, tranquillité financière, durée, résiliation, cotisation, sinistres, prescription, article 20 « défense », article 27 « exclusions », articles 1.1 et 4.1.1 cités en exclusion) reste régi par ces Conditions générales et n'a pas été repris.
+- Document INTERCALAIRE de SUBSTITUTION (et non d'ajout) : il remplace les garanties « Vos responsabilités » (articles 6 à 10) des Conditions générales MULTIRISQUE PROFESSIONNELLE référencées 11031, non fournies ici. Tout le reste du contrat (locaux et contenu, durée, résiliation, cotisation, sinistres, prescription, article 20 « défense », article 27 « exclusions », articles 1.1 et 4.1.1 cités en exclusion) reste régi par ces Conditions générales et n'a pas été repris.
 - Incohérence relevée et non corrigée : le document annonce se substituer aux « articles 6 à 10 », mais ne contient que les articles 6, 7, 8 et 9 (plus un lexique non numéroté). Aucun article 10 ne figure dans le document. Le contenu de l'article 10 substitué est donc inconnu.
-- Autre incohérence de renvoi : les exclusions propres aux garanties 6.1.3, 6.1.5, 6.1.7 et 8.3 renvoient à « l'article 9 » du présent intercalaire (les exclusions communes) ainsi qu'à « l'article 27 » qui appartient aux Conditions générales et n'est pas fourni.
+- Les exclusions propres aux garanties 6.1.3, 6.1.5, 6.1.7 et 8.3 renvoient à « l'article 9 » du présent intercalaire (les exclusions communes) ainsi qu'à « l'article 27 » qui appartient aux Conditions générales et n'est pas fourni.
 - Porteur de risque tel qu'imprimé en page 10 : « MAAF Assurances SA, SOCIÉTÉ ANONYME AU CAPITAL DE 160 000 000 euros entièrement versé - Entreprise régie par le Code des assurances - N° ORIAS 13 003 131, RCS NIORT 542 073 580 ». Aucune autre entité MAAF n'apparaît. Les métadonnées de la tâche fournissaient un libellé agrégeant les quatre entités MAAF ; c'est la mention imprimée qui a été retenue dans insurer_name.
-- Coquilles d'impression conservées verbatim : dans le tableau des garanties de la page 4, la colonne franchise imprime « Conditions particulièrespour » sans espace, et une ligne imprime « Dommages* aux biens confiés » avec l'astérisque déplacé sur « Dommages » au lieu de « confiés » (ailleurs le document écrit « biens confiés* »). Non corrigées.
+- Coquilles d'impression conservées verbatim : la colonne franchise du tableau de la page 4 imprime « Conditions particulièrespour » sans espace ; la page 3 imprime « accidents * du travail » avec une espace avant l'astérisque ; le tableau de la page 4 imprime « 300 000  € » et « 20 000 €  par sinistre* » avec une double espace. Non corrigées.
+- Le document alterne, pour le même intitulé de section, les guillemets français « Vos responsabilités » et les guillemets typographiques anglais “Vos responsabilités” (articles 8 et 9, titre de l'article 9). Les citations conservent la forme imprimée à l'endroit cité.
 - Termes marqués d'un astérisque mais absents du lexique de l'intercalaire, donc non définis dans ce document : sinistre*, dommages corporels*, dommages matériels*, préposé*, biodiversité*, cyber données*, cyber attaque*, réclamations*, mauvais entretien*, année d'assurance*, franchise*. Le lexique précise qu'il « complète » celui des Conditions générales : ces définitions figurent donc dans les Conditions générales 11031, non fournies.
-- Le document ne contient ni durée, ni résiliation, ni prescription, ni cotisation, ni délai d'attente, ni procédure de déclaration de sinistre : duration_and_cancellation et prescription_period ont été laissés null. Le délai subséquent de cinq ans (dix ans pour les cas du décret n° 2004-1284) de l'article 8.2 n'est pas un délai de prescription mais la durée de reprise du passé/garantie subséquente en base réclamation ; il a été enregistré dans special_conditions pour ne pas être confondu avec une prescription.
-- L'article 8.2 renvoie à « L'annexe de l'article A.112 DU CODE DES ASSURANCES – FICHE D'INFORMATION RELATIVE AU FONCTIONNEMENT DES GARANTIES « RESPONSABILITÉ CIVILE » DANS LE TEMPS », qui « se situe en annexe des présentes Conditions générales » : cette annexe ne figure pas dans le document extrait.
-- target_audience laissé null : le document n'énonce pas de catégorie de public au sens du schéma. Les formulations relevées (syndicat, adhérents, activités autorisées par les statuts du syndicat) sont reportées dans target_audience_note.
-- Le tableau des garanties de la page 4 attribue une ligne « Faute inexcusable de l'employeur » (3 500 000 € par sinistre* et par année d'assurance*) et une ligne « Intoxications alimentaires » (2 500 000 € par sinistre* et par année d'assurance*) ; les autres garanties de la sous-section 6.2 (dommages aux biens des préposés, faute intentionnelle d'un co-préposé, recours de la Sécurité sociale, aides et bénévoles) et les garanties 6.1.4 et 6.1.8 n'ont pas de ligne propre dans le tableau. Aucun plafond ne leur a été attribué par déduction : leur champ limits reste null.
-- La couche texte du PDF coupe de très nombreux mots en fin de ligne par un vrai trait d'union (« profes-\nsionnelle », « unique-\nment », « spor-\ntives », « protesta-\ntaire », « gra-\ndins », « bap-\ntêmes », « RESPON-\nSABILITÉ », « anticon-\ncurrentielles », « l'éle-\nvage », etc. — 44 occurrences). Les citations verbatim ont été découpées directement dans la couche texte et conservent ces coupures ; les descriptions en prose les ont recollées sans modifier les mots. Le titre 6.1.1 est en outre éclaté mot par mot sur plusieurs lignes dans la couche texte.
+- Le document ne contient ni durée, ni résiliation, ni prescription, ni cotisation, ni délai d'attente, ni procédure de déclaration de sinistre : duration_and_cancellation et prescription_period ont été laissés null. Le délai subséquent de cinq ans (dix ans pour les cas du décret n° 2004-1284) de l'article 8.2 n'est pas un délai de prescription mais la durée de la garantie subséquente en base réclamation ; il a été enregistré dans special_conditions pour ne pas être confondu avec une prescription.
+- L'article 8.2 renvoie à la « FICHE D'INFORMATION RELATIVE AU FONCTIONNEMENT DES GARANTIES “RESPONSABILITÉ CIVILE” DANS LE TEMPS » de l'article A.112 du Code des assurances, « en annexe des présentes Conditions générales » : cette annexe ne figure pas dans le document extrait.
+- target_audience laissé null : le document n'énonce pas de catégorie de public au sens du schéma. Les formulations relevées (CAPEB, syndicat départemental adhérent, activités autorisées par les statuts de la CAPEB) sont reportées dans target_audience_note.
+- Le tableau des garanties de la page 4 ne comporte pas de ligne propre pour les garanties 6.1.4 (véhicules déplacés), 6.1.8 (engagements contractuels particuliers), 6.2.1, 6.2.3, 6.2.4 et 6.2.5 : aucun plafond ne leur a été attribué par déduction, leur champ limits reste null. De même, les prestations 7.1 à 7.7 ne portent pas de plafond individuel : le tableau de la page 6 ne distingue que dommages corporels/matériels/immatériels consécutifs, dommages immatériels non consécutifs et atteinte accidentelle à l'environnement ; c'est ce plafond global qui leur a été rattaché, en le nommant comme tel.
+- La couche texte du PDF coupe de très nombreux mots en fin de ligne par un vrai trait d'union (« res-\nponsabilité », « inten-\ntionnelle », « péna-\nlités », « législa-\ntion », « environnemen-\ntaux », « euro-\npéenne », « péremp-\ntion », « contamina-\ntion », « réglementa-\ntion », « logi-\nciels », etc. — 47 occurrences), et éclate certains passages mot par mot (le titre 6.1.1 et l'énumération « (Conception Assistée par Ordinateur » de l'article 7.6). Les citations verbatim ont été découpées directement dans la couche texte et conservent ces coupures ; les descriptions en prose les ont recollées sans modifier les mots.
 
 ## Documents liés
 
 - Extension / option du produit : **Conditions générales MULTIRISQUE PROFESSIONNELLE référencées 11031**
-- [CAPEB — INTERCALAIRE](CAPEB%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales, éd. 03/24
 - [COMMERCES D'ALIMENTATION — INTERCALAIRE](COMMERCES%20D%27ALIMENTATION%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales, éd. 01/26
 - [MULTISERVICE À LA PERSONNE — INTERCALAIRE](MULTISERVICE%20%C3%80%20LA%20PERSONNE%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales, éd. 01/25
 - [PROFESSIONS DE LA RESTAURATION ET DE L'HÔTELLERIE — INTERCALAIRE](PROFESSIONS%20DE%20LA%20RESTAURATION%20ET%20DE%20L%27H%C3%94TELLERIE%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales, éd. 01/25
+- [SYNDICATS PROFESSIONNELS ARTISANAUX — INTERCALAIRE](SYNDICATS%20PROFESSIONNELS%20ARTISANAUX%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales, éd. 03/24
 
 ## Source & fidélité
 
-- Source : [https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Intercalaire_Syndicats_professionnels_artisanaux_11042.pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Intercalaire_Syndicats_professionnels_artisanaux_11042.pdf) - téléchargé le 2026-08-01 - 10 pages
+- Source : [https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Intercalaire_Capeb_11038.pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Intercalaire_Capeb_11038.pdf) - téléchargé le 2026-08-01 - 10 pages
 - Extraction : claude-code-subagent:scale · prompt v1.1
 - ⚠️ Ceci n'est pas le document officiel de l'assureur et peut contenir des erreurs d'extraction. Information, non un conseil - vérifiez toujours par rapport au document source.
