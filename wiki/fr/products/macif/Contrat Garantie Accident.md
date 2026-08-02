@@ -30,7 +30,7 @@ extraction_model: claude-code-subagent:scale
 prompt_version: '1.1'
 product_family: garantie-accident
 variant: null
-edition_status: null
+edition_status: current
 edition_age_years: 0
 superseded: null
 extends: null
@@ -553,6 +553,11 @@ Il s'agit du délai au-delà duquel une action n'est plus recevable. Conforméme
 - MONTANTS NON CHIFFRABLES - la quasi-totalité des prestations est exprimée en unités de compte (U.C.), dont la valeur figure aux conditions particulières et non ici. Les seuls euros du contrat sont ceux des exemples (U.C. = 393 € en 2026), des plafonds d'assistance (92 €, 50 €/jour, 200 €, 500 €, 3 000 €, 8 000 €, 80 000 €) et des garanties des assurés scolarisés (77 €, 39 €, 305 €, 610 €, 15 245 €, 76 225 €, 4 574 €). Aucun tarif de cotisation n'est indiqué.
 - DÉLAI D'ATTENTE - le contrat n'en prévoit qu'un seul, l'exclusion des suicides pendant 12 mois après la souscription ou l'augmentation des garanties (article 10 D). Aucun autre délai de carence n'est stipulé.
 - NON ENCODÉ - les modèles de lettre de renonciation (pages 37 et 38) et les encadrés "Notre conseil" ont été résumés plutôt que reproduits intégralement ; les deux barèmes des annexes A et B sont en revanche transcrits en entier dans special_conditions (101 et 48 lignes).
+
+## Documents liés
+
+- Édition courante de ce produit.
+- [Garantie Accident](Garantie%20Accident.md) - Conditions générales, éd. Avril 2021
 
 ## Source & fidélité
 

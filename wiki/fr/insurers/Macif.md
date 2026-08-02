@@ -5,7 +5,7 @@ country: fr
 insurer_slug: macif
 name: Macif
 website: https://www.macif.fr
-products_count: 62
+products_count: 63
 branches_covered:
 - animaux
 - assurance-vie
@@ -40,7 +40,7 @@ generated: true
 
 ## Résumé
 
-**Macif** - [https://www.macif.fr](https://www.macif.fr). 62 document(s) across 18 branch(es).
+**Macif** - [https://www.macif.fr](https://www.macif.fr). 63 document(s) across 18 branch(es).
 
 ## Produits par branche
 
@@ -81,6 +81,7 @@ generated: true
 
 ### [Garantie des accidents de la vie](../branches/Garantie%20des%20accidents%20de%20la%20vie.md)
 - [Contrat Garantie Accident](../products/macif/Contrat%20Garantie%20Accident.md) - Conditions générales (29 janvier 2026) · réf. P R E I/ A C C/05 - 29/01/26 - N754
+- [Garantie Accident](../products/macif/Garantie%20Accident.md) - Conditions générales (Avril 2021) · réf. PREI/ACC/05 - 04/21 - N754
 
 ### [Multirisque habitation](../branches/Multirisque%20habitation.md)
 - [Assistance juridique Option “Plus”](../products/macif/Assistance%20juridique%20Option%20%E2%80%9CPlus%E2%80%9D.md) - Conditions générales (2016-04) · réf. HAB/PROT RP/07 - 04/16 - N365

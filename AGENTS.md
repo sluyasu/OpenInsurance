@@ -27,7 +27,7 @@ navigate it without guessing. Do not edit by hand.
 |---|---|---|---|---|---|
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
 | ch (Switzerland) | 0 | 3 | 1 | 0 | 5 |
-| fr (France) | 24 | 532 | 10 | 1 | 5 |
+| fr (France) | 24 | 533 | 10 | 1 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
 
@@ -472,6 +472,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | gav | gan | Gan Prévoyance Garantie des Accidents de la Vie - IPID | 2026-07-30 | [pdf](https://www.ganprevoyance.fr/gav/1-1/document-d-informations-garantie-accidents-de-la-vie.pdf?date=20230317164344) |
 | fr | gav | maaf | Tranquillité famille - IPID | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/PRE11004.PDF) |
 | fr | gav | macif | Contrat Garantie Accident | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/CG_Garantie_Accident.pdf) |
+| fr | gav | macif | Garantie Accident | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/CG_Garantie_Accident_20230117.pdf) |
 | fr | gav | maif | Assurance des Accidents de la Vie Courante Praxis Solutions - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/document-information-praxis-solutions.pdf) |
 | fr | gav | maif | Praxis Solutions | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/conditions-generales-praxis-solutions.pdf) |
 | fr | gav | matmut | Conditions de l'offre Contrat Familial Complémentaire - Tarifs | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/conditions-offre-FC.pdf) |
