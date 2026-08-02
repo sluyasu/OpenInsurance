@@ -139,7 +139,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Assurance Vélo](../products/maif/Assurance%20V%C3%A9lo.md) - [MAIF](../insurers/MAIF.md)
 - [Contrat Multirisques « 2R Liberté » - IPID](../products/matmut/Contrat%20Multirisques%20%C2%AB%202R%20Libert%C3%A9%20%C2%BB%20-%20IPID.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 
-### [Multirisque habitation](Multirisque%20habitation.md) (72)
+### [Multirisque habitation](Multirisque%20habitation.md) (73)
 - [Assurance Habitation Direct Assurance - IPID](../products/direct-assurance/Assurance%20Habitation%20Direct%20Assurance%20-%20IPID.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [Contrat Habitation](../products/direct-assurance/Contrat%20Habitation.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [Assurance multirisques habitation - Doc](../products/groupama/Assurance%20multirisques%20habitation%20-%20Doc.md) - [Groupama](../insurers/Groupama.md)
@@ -185,6 +185,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Contrat Macif Habitation - Formule Construction - IPID](../products/macif/Contrat%20Macif%20Habitation%20-%20Formule%20Construction%20-%20IPID.md) - [Macif](../insurers/Macif.md)
 - [Contrat Macif Habitation - Formules Économique, Équilibrée, Confort - IPID](../products/macif/Contrat%20Macif%20Habitation%20-%20Formules%20%C3%89conomique%2C%20%C3%89quilibr%C3%A9e%2C%20Confort%20-%20IPID.md) - [Macif](../insurers/Macif.md)
 - [Contrat Macif Habitation - Formules Économique, Équilibrée, Confort (Assurance multirisques habitation - Résidence princ](../products/macif/Contrat%20Macif%20Habitation%20-%20Formules%20%C3%89conomique%2C%20%C3%89quilibr%C3%A9e%2C%20Confort%20%28Assurance%20multirisques%20habitation%20-%20R%C3%A9sidence%20princ.md) - [Macif](../insurers/Macif.md)
+- [Contrat Sociétaire Non Occupant - Annexe spéciale Immeubles en copropriété](../products/macif/Contrat%20Soci%C3%A9taire%20Non%20Occupant%20-%20Annexe%20sp%C3%A9ciale%20Immeubles%20en%20copropri%C3%A9t%C3%A9.md) - [Macif](../insurers/Macif.md)
 - [Contrat Sociétaire Non Occupant - Conditions Générales - Annexe spéciale Immeubles locatifs](../products/macif/Contrat%20Soci%C3%A9taire%20Non%20Occupant%20-%20Conditions%20G%C3%A9n%C3%A9rales%20-%20Annexe%20sp%C3%A9ciale%20Immeubles%20locatifs.md) - [Macif](../insurers/Macif.md)
 - [Macif Habitation](../products/macif/Macif%20Habitation.md) - [Macif](../insurers/Macif.md)
 - [Sociétaire non occupant - Bâtiment en cours de construction - IPID](../products/macif/Soci%C3%A9taire%20non%20occupant%20-%20B%C3%A2timent%20en%20cours%20de%20construction%20-%20IPID.md) - [Macif](../insurers/Macif.md)

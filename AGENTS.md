@@ -27,7 +27,7 @@ navigate it without guessing. Do not edit by hand.
 |---|---|---|---|---|---|
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
 | ch (Switzerland) | 0 | 3 | 1 | 0 | 5 |
-| fr (France) | 24 | 550 | 10 | 1 | 5 |
+| fr (France) | 24 | 551 | 10 | 1 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
 
@@ -522,6 +522,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | habitation | macif | Contrat Macif Habitation - Formule Construction - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/dipa-macif-habitation-maison-en-construction.pdf) |
 | fr | habitation | macif | Contrat Macif Habitation - Formules Économique, Équilibrée, Confort (Assurance multirisques habitation - Résidence princ | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/dipa-macif-habitation-residence-principale.pdf) |
 | fr | habitation | macif | Contrat Macif Habitation - Formules Économique, Équilibrée, Confort - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/dipa-macif-habitation-residence-secondaire.pdf) |
+| fr | habitation | macif | Contrat Sociétaire Non Occupant - Annexe spéciale Immeubles en copropriété | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/annexe_proprietaire_non_occupant_immeuble_en_copropriete.pdf) |
 | fr | habitation | macif | Contrat Sociétaire Non Occupant - Conditions Générales - Annexe spéciale Immeubles locatifs | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/annexe_proprietaire_non_occupant_immeubles_locatifs.pdf) |
 | fr | habitation | macif | Macif Habitation | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/CG-Macif-Habitation.pdf) |
 | fr | habitation | macif | Sociétaire non occupant - Bâtiment en cours de construction - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_proprietaire_non_occupant_batiment_en_construction.pdf) |

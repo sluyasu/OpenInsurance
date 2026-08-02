@@ -5,7 +5,7 @@ country: fr
 insurer_slug: macif
 name: Macif
 website: https://www.macif.fr
-products_count: 70
+products_count: 71
 branches_covered:
 - animaux
 - assurance-vie
@@ -40,7 +40,7 @@ generated: true
 
 ## Résumé
 
-**Macif** - [https://www.macif.fr](https://www.macif.fr). 70 document(s) across 18 branch(es).
+**Macif** - [https://www.macif.fr](https://www.macif.fr). 71 document(s) across 18 branch(es).
 
 ## Produits par branche
 
@@ -92,6 +92,7 @@ generated: true
 - [Contrat Macif Habitation - Formule Construction - IPID](../products/macif/Contrat%20Macif%20Habitation%20-%20Formule%20Construction%20-%20IPID.md) - IPID / Fiche d'information (2025-06) · réf. MACIF HAB MC 06/25
 - [Contrat Macif Habitation - Formules Économique, Équilibrée, Confort - IPID](../products/macif/Contrat%20Macif%20Habitation%20-%20Formules%20%C3%89conomique%2C%20%C3%89quilibr%C3%A9e%2C%20Confort%20-%20IPID.md) - IPID / Fiche d'information (06/25) · réf. MACIF HAB RS 06/25
 - [Contrat Macif Habitation - Formules Économique, Équilibrée, Confort (Assurance multirisques habitation - Résidence princ](../products/macif/Contrat%20Macif%20Habitation%20-%20Formules%20%C3%89conomique%2C%20%C3%89quilibr%C3%A9e%2C%20Confort%20%28Assurance%20multirisques%20habitation%20-%20R%C3%A9sidence%20princ.md) - IPID / Fiche d'information (06/25) · réf. MACIF HAB RP 06/25
+- [Contrat Sociétaire Non Occupant - Annexe spéciale Immeubles en copropriété](../products/macif/Contrat%20Soci%C3%A9taire%20Non%20Occupant%20-%20Annexe%20sp%C3%A9ciale%20Immeubles%20en%20copropri%C3%A9t%C3%A9.md) - Conditions générales (03/11) · réf. HAB/SNOIC/07 - 03/11 - N067
 - [Contrat Sociétaire Non Occupant - Conditions Générales - Annexe spéciale Immeubles locatifs](../products/macif/Contrat%20Soci%C3%A9taire%20Non%20Occupant%20-%20Conditions%20G%C3%A9n%C3%A9rales%20-%20Annexe%20sp%C3%A9ciale%20Immeubles%20locatifs.md) - Conditions générales · réf. HAB/SNOIL/07 - 11/10 - N069
 - [Macif Habitation](../products/macif/Macif%20Habitation.md) - Conditions générales (06/25 (Version 06/2025)) · réf. MACIF HAB/05 - 06/25 - N570
 - [Sociétaire non occupant - Bâtiment en cours de construction - IPID](../products/macif/Soci%C3%A9taire%20non%20occupant%20-%20B%C3%A2timent%20en%20cours%20de%20construction%20-%20IPID.md) - IPID / Fiche d'information (10/18) · réf. HAB-SNO EC 10/18
