@@ -1,0 +1,571 @@
+insurer:
+  slug: lalux
+  # pays: lu
+  name: "lalux"
+  website: ""
+  segment: particuliers
+  notes: |
+    NOT A CARRIER under its own name. 
+
+    NOT PUBLISHED: {'question': 'Does lalux publish full conditions generales, or only the IDD information document?', 'answer': 'ALMOST ONLY THE IDD DOCUMENT. Exactly 4 of 304 documents are real conditions generales, and all 4 belong to the APROBAT construction/professional range: RC Professionnelle Architectes et Ingenieurs-Conseils (FR 19p + DE 19p, ed. 01-05-2025) and RC Decennale et Biennale (FR 18p + DE 17p, ed. 10-07-2025). For the ENTIRE retail book - auto, habitation, RC familiale, protection juridique, accidents, voyage, and every life product - NO conditions generales are published anywhere on lalux.lu.', 'evidence': 'The string "conditions generales" occurs in 47 bodies, but in 43 of them it is the IPID boilerplate pointing AWAY from the site: "pour l\'integralite des droits et obligations de l\'entreprise d\'assurances et de l\'assure, veuillez consulter les conditions generales et/ou particulieres relatives au produit d\'assurance choisi". The CG it names are not on the site. Checked every document >= 8 pages: all are annual reports, SFCR, or tax/newcomer guides, no retail CG hiding among them. The documents hub has no CG section in any of its 5 language trees, and the 435-URL sitemap has zero conditions/bedingungen pages.', 'what_lalux_calls_the_idd_document': {'site_section_slug': 'ipid (identical slug in all 5 UI languages: /fr/.../ipid, /de/.../ipid, /en/.../ipid, /lu/.../ipid, /pt/.../ipid)', 'fr': "Document d'information sur le produit d'assurance", 'de': 'Informationsblatt zum Versicherungsprodukt', 'en': 'Insurance Product Information Document', 'note': 'lalux uses the acronym IPID as its own filing term, in the URL path and in filenames. It does NOT use a local Luxembourgish term. The FR wording is the EU IPID standard wording, not a lalux coinage.'}, 'comparison_to_france': 'Same dividing line as the French market, and lalux falls on the same side as most French insurers: summary only. The difference is WHERE the exception sits - in France the exceptions were usually retail lines from mutual insurers; here the only published CG are B2B construction liability, i.e. the lines sold through brokers to professionals who negotiate on wording.'}
+    NOT PUBLISHED: {'question': 'Is anything aimed at frontaliers (225 840 cross-border workers)?', 'answer': 'YES, and it is a deliberate, named, multilingual campaign - but it is confined to the pension/life side, exactly where the brief predicted.', 'evidence': ['easyLIFE Pension brochure exists in 3 languages and addresses them in the headline: FR "FRONTALIER ?", DE "GRENZGAENGER?", EN "Did you know that as a cross-border worker, you can take...". This is the Luxembourg tax-deduction product (art. 111bis LIR) which a non-resident can still claim by opting into Luxembourg taxation.', 'A dedicated expat brochure exists in 3 languages: ASSURANCES_POUR_EXPATS-FR / VERSICHERUNGEN_FUR_EXPATS-DE / INSURANCES_FOR_EXPATS-EN.', 'The tax-advantage brochure exists in 3 languages: GAINS_IMPOT-FR / STEUERVORTEILE-DE / TAX_GAINS-EN.', 'Newcomer guides, 84 pages, FR and EN: guide-nouveaux_arrivants_au_luxembourg-fr-2027 / guide-newcomers_in_luxembourg-en-2027, plus GUIDE_DES_IMPOTS_2026 (116p).', 'The affiliate-exit form names the frontalier countries explicitly: "si vous residez en dehors du Luxembourg et en dehors d\'un pays frontalier (France, Belgique, ...)".', 'The easyLIFE Epargne and easyLIFE Mixte fiches carry a non-resident carve-out: "Les non-residents doivent s\'en referer [a la legislation de leur pays]".'], 'the_asymmetry': 'Nothing on the motor or home side is aimed at frontaliers - consistent with the fact that a frontalier garages the car and lives at home in FR/BE/DE, so those contracts are written by a foreign insurer. lalux targets frontaliers precisely and only where the Luxembourgish situation follows the person rather than the address: pension, life, tax.'}
+    NOT PUBLISHED: {'question': 'Any document in letzebuergesch?', 'answer': 'NO. Confirmed, and confirmed the hard way rather than by assuming.', 'evidence': 'The /lu/ UI tree is fully built and returns 200 on the hub and all 11 sub-sections (/lu/infoen-tools/dokumenter/...). It lists 90 PDFs. Every one of those 90 is a document already served under another language tree - ZERO are listed only under /lu/ - and their bodies are 33 fr, 27 en, 25 de, 5 pt, with 0 lb. So lalux has a letzebuergesch INTERFACE and no letzebuergesch DOCUMENT. This corroborates the market-wide finding rather than breaking it.', 'method_note': 'Language was measured on the extracted body text of every PDF, not on the URL suffix.'}
+
+    TRAP: _ALL suffix does NOT mean "all languages" - it means allemand — Fiche_info_fin_022026_-_easyLIFE_Epargne_-_ALL.pdf, _easyLIFE_Pension_-_formule_Performance_-_ALL.pdf and _formule_Securite_-_ALL.pdf are pure German (de score 102-118, fr 4-5). In each of those three product families there is an _EN and an _FR but no _DE - the _ALL file IS the German one, labelled with the French abbreviation for "allemand". A pipeline reading _ALL as multilingual, or failing to find _DE and recording German as absent, gets both wrong.
+
+    TRAP: Four claim forms are byte-identical across a _FR and a _DE filename — sha 57950675df22, e45ddf11087e, bc357765ab87, 61753cf1499a. Each is ONE bilingual FR/DE form published twice. Kept once, the twin listed in dropped_duplicates.
+
+    TRAP: Filename language suffix contradicts body language on 4 files — The 3 Declaration-*-FR.pdf claim forms read as German-dominant and Schadenmeldung-Stromschaeden-DE.pdf reads as French-dominant, because they are bilingual forms whose column order differs. Body-text measurement, not the suffix, is what settles lang.
+
+    TRAP: Two IPID filenames carry an opaque abbreviation and NO language marker — ipid_assurance-td.pdf is French and is the Solde Restant Du / mortgage product (TD = temporaire decroissante). ipid_assurance-dec.pdf is French and is lalux-Security, assurance deces a capital constant (DEC = deces). Neither says fr. Both are LALUX Assurances-Vie. Also note the solde-restant-du line publishes only FR (ipid_assurance-td) and EN (ipid_assurance-solde-restant-du_en_version-112018, edition 11/2018) - no German at all, and the EN one is 8 years old.
+
+    TRAP: KID duplicates across two naming generations — The capital-differe KIDs exist twice under two schemes (KID_Assurance_de_capital_differe_..._FR_prime_unique.pdf vs kid_Capital_Differe_fin_CapitalDiffereAR_fr_102024.pdf) and are byte-identical in 4 cases. Deduped by sha256; the remaining ones differ and were kept.
+
+    TRAP: The /lu/ and /pt/ hubs return 200 and are NOT evidence of documents in those languages — /lu/ lists 90 files, all of them FR/DE/EN/PT. /pt/ returns 200 on all 11 sections but yields only 5 real PT files. Status codes on the hub say nothing about document language.
+
+    TRAP: One transient network failure masqueraded as a missing document — IPID_BUSINESS_TRAVEL_fr.pdf errored on first fetch while _de and _en returned 200, which reads exactly like a missing French variant. Forced refetch returned 200, 347602 bytes. Re-verify before recording any language as absent.
+
+    TRAP: One dead link and one text-free PDF — 404: /fileadmin/mediatheque/documents/Divers/RCP/20200220-RCP-fiche-contact-vierge.pdf (still linked from the divers shelf). Text-free (3 chars extracted, likely a scan): /fileadmin/mediatheque/documents/Divers/convention-droit-a-l-oubli-29102019.pdf - the droit a l'oubli convention, which would otherwise be an interesting health-underwriting document.
+
+    214 document(s) enumerated but deliberately absent below; see the
+    discovery file for the list and the reason.
+
+  fetch_tier: plain          # 
+listing_pages:
+languages:
+- fr
+pdfs:
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_lalux_easyprotect-pro-entreprise-accident-entreprise_en.pdf
+  branch: accidents
+  document_type: ipid
+  lang: en
+  product_name: "(689.5kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_assurance-accident_lalux_easyprotect-accident_en.pdf
+  branch: accidents
+  document_type: ipid
+  lang: en
+  product_name: "(691.44kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_lalux_easyprotect-pro-entreprise-accident-entreprise_fr.pdf
+  branch: accidents
+  document_type: ipid
+  lang: fr
+  product_name: "(691.45kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_lalux_easyprotect-pro-entreprise-accident-entreprise_de.pdf
+  branch: accidents
+  document_type: ipid
+  lang: de
+  product_name: "(692.75kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_assurance-accident_lalux_easyprotect-accident_fr.pdf
+  branch: accidents
+  document_type: ipid
+  lang: fr
+  product_name: "(693.94kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_assurance-accident_lalux_easyprotect-accident_de.pdf
+  branch: accidents
+  document_type: ipid
+  lang: de
+  product_name: "(694.73kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_assurance-auto_lalux_easyprotect-auto_vehicules-type-2_en.pdf
+  branch: auto
+  document_type: ipid
+  lang: en
+  product_name: "(689.33kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_assurance-auto_lalux_easyprotect-auto_vehicules-type-1_en.pdf
+  branch: auto
+  document_type: ipid
+  lang: en
+  product_name: "(691.91kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_easyprotect-pro-auto_vehicules-type-2_en.pdf
+  branch: auto
+  document_type: ipid
+  lang: en
+  product_name: "(692.28kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_easyprotect-pro-auto_vehicules-type-1_en.pdf
+  branch: auto
+  document_type: ipid
+  lang: en
+  product_name: "(692.57kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_assurance-auto_lalux_easyprotect_auto_vehicules-type-2_fr.pdf
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "(692.96kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_assurance-auto_lalux_easyprotect-auto_vehicules-type-2_de.pdf
+  branch: auto
+  document_type: ipid
+  lang: de
+  product_name: "(693.05kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_easyprotect-pro-auto_vehicules-type-2-fr.pdf
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "(694.56kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_easyprotect-pro-auto_vehicules-type-1-fr.pdf
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "(694.92kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_easyprotect-pro-auto_vehicules-type-2_de.pdf
+  branch: auto
+  document_type: ipid
+  lang: de
+  product_name: "(695.24kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_assurance-auto_lalux_easyprotect-auto_vehicules-type-1_de.pdf
+  branch: auto
+  document_type: ipid
+  lang: de
+  product_name: "(695.38kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_assurance-auto_lalux_easyprotect_auto_vehicules-type-1_fr.pdf
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "(696.38kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/ipid_assurance_lineheart_tous_risques_fr.pdf
+  branch: autres
+  document_type: ipid
+  lang: fr
+  product_name: "(312.17kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/ipid_assurance_orange_tous_risques_fr.pdf
+  branch: autres
+  document_type: ipid
+  lang: fr
+  product_name: "(312.81kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/ipid_assurance_lineheart_tous_risques_de.pdf
+  branch: autres
+  document_type: ipid
+  lang: de
+  product_name: "(313.82kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/ipid_assurance_orange_tous_risques_de.pdf
+  branch: autres
+  document_type: ipid
+  lang: de
+  product_name: "(314.91kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_CLASSIC_EN.pdf
+  branch: autres
+  document_type: ipid
+  lang: en
+  product_name: "(619.77kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_CLASSIC_FR.pdf
+  branch: autres
+  document_type: ipid
+  lang: fr
+  product_name: "(621.21kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_CLASSIC_DE.pdf
+  branch: autres
+  document_type: ipid
+  lang: de
+  product_name: "(621.64kB)"
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_INFINITE_EN.pdf
+  branch: autres
+  document_type: ipid
+  lang: en
+  product_name: "(622.31kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_PREMIER_EN.pdf
+  branch: autres
+  document_type: ipid
+  lang: en
+  product_name: "(622.34kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_BUSINESS_EN.pdf
+  branch: autres
+  document_type: ipid
+  lang: en
+  product_name: "(622kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_BUSINESS_FR.pdf
+  branch: autres
+  document_type: ipid
+  lang: fr
+  product_name: "(623.76kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_BUSINESS_DE.pdf
+  branch: autres
+  document_type: ipid
+  lang: de
+  product_name: "(623.98kB)"
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_PREMIER_FR.pdf
+  branch: autres
+  document_type: ipid
+  lang: fr
+  product_name: "(624.19kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_INFINITE_FR.pdf
+  branch: autres
+  document_type: ipid
+  lang: fr
+  product_name: "(624.39kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_PREMIER_DE.pdf
+  branch: autres
+  document_type: ipid
+  lang: de
+  product_name: "(624.53kB)"
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_INFINITE_DE.pdf
+  branch: autres
+  document_type: ipid
+  lang: de
+  product_name: "(624.58kB)"
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/Divers/Aprobat/D.G._RC_Decennale_Biennale__10-07-2025_DE.pdf
+  branch: construction
+  document_type: conditions_generales
+  lang: de
+  product_name: "(274.76kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/Divers/Aprobat/D.G._RC_Decennale_Biennale__10-07-2025_FR.pdf
+  branch: construction
+  document_type: conditions_generales
+  lang: fr
+  product_name: "(646.21kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_aprobat_tous-risques-chantier_section-1_en.pdf
+  branch: construction
+  document_type: ipid
+  lang: en
+  product_name: "(688.06kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_aprobat_tous-risques-chantier_section-2_en.pdf
+  branch: construction
+  document_type: ipid
+  lang: en
+  product_name: "(688.34kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_aprobat_rc-decennale_en.pdf
+  branch: construction
+  document_type: ipid
+  lang: en
+  product_name: "(689.12kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_aprobat_tous-risques-chantier_section-2_fr.pdf
+  branch: construction
+  document_type: ipid
+  lang: fr
+  product_name: "(689.85kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_aprobat_tous-risques-chantier_section-1_fr.pdf
+  branch: construction
+  document_type: ipid
+  lang: fr
+  product_name: "(690.08kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_aprobat_tous-risques-chantier_section-1_de.pdf
+  branch: construction
+  document_type: ipid
+  lang: de
+  product_name: "(690.83kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_aprobat_tous-risques-chantier_section-2_de.pdf
+  branch: construction
+  document_type: ipid
+  lang: de
+  product_name: "(691.05kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_aprobat_rc-decennale_fr.pdf
+  branch: construction
+  document_type: ipid
+  lang: fr
+  product_name: "(691.53kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_aprobat_rc-decennale_de.pdf
+  branch: construction
+  document_type: ipid
+  lang: de
+  product_name: "(692.52kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/IPID_Assurance_Habitation_LALUX_easyPROTECT-Habitation_2023_FR.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "(692.83kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/IPID_Assurance_Habitation_LALUX_easyPROTECT-Habitation_2023_EN.pdf
+  branch: habitation
+  document_type: ipid
+  lang: en
+  product_name: "(694.13kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/IPID_Assurance_Habitation_LALUX_easyPROTECT-Habitation_2023_DE.pdf
+  branch: habitation
+  document_type: ipid
+  lang: de
+  product_name: "(697.09kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_discover_lalux_easyprotect_en.pdf
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: en
+  product_name: "(689.3kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_discover_lalux_easyprotect.pdf
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "(692.01kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_lalux_easyprotect-pro-entreprise-assurance-de-responsabilite-civile_en.pdf
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: en
+  product_name: "(692.49kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_discover_lalux_easyprotect_de.pdf
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: de
+  product_name: "(693.04kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_lalux_easyprotect-pro-entreprise-assurance-de-choses_en.pdf
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: en
+  product_name: "(693.23kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_lalux_easyprotect-pro-entreprise-assurance-de-responsabilite-civile_fr.pdf
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "(694.72kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_lalux_easyprotect-pro-entreprise-assurance-de-choses_fr.pdf
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "(695.74kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_lalux_easyprotect-pro-entreprise-assurance-de-responsabilite-civile_de.pdf
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: de
+  product_name: "(696.17kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_lalux_easyprotect-pro-entreprise-assurance-de-choses_de.pdf
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: de
+  product_name: "(696.48kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_services-a-la-personne_lalux_easyprotect_en.pdf
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: en
+  product_name: "(704.06kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_tous-risques-relative-aux-biens_lalux_fr.pdf
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "(706.18kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_services-a-la-personne_lalux_easyprotect_fr.pdf
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "(707.71kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_services-a-la-personne_lalux_easyprotect_de.pdf
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: de
+  product_name: "(707.85kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_tous-risques-relative-aux-biens_lalux_en.pdf
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: en
+  product_name: "(720.16kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_tous-risques-relative-aux-biens_lalux_de.pdf
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: de
+  product_name: "(723.49kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_assurance-dec.pdf
+  branch: prevoyance
+  document_type: ipid
+  lang: fr
+  product_name: "IPID lalux-Security Assurance décès (268.62kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE-VIE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_assurance_protection_juridique_fr.pdf
+  branch: protection-juridique
+  document_type: ipid
+  lang: fr
+  product_name: "IPID Protection juridique (687.06kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_rc-familiale-immeuble-et-chasse_lalux_easyprotect_en.pdf
+  branch: rc-familiale
+  document_type: ipid
+  lang: en
+  product_name: "(688.72kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_rc-familiale-immeuble-et-chasse_lalux_easyprotect_fr.pdf
+  branch: rc-familiale
+  document_type: ipid
+  lang: fr
+  product_name: "(691.97kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_rc-familiale-immeuble-et-chasse_lalux_easyprotect_de.pdf
+  branch: rc-familiale
+  document_type: ipid
+  lang: de
+  product_name: "(692.55kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/Divers/Aprobat/D.G._RC_Architectes-Ingenieur_01-05-2025_DE.pdf
+  branch: rc-professionnelle
+  document_type: conditions_generales
+  lang: de
+  product_name: "(325.55kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/Divers/Aprobat/D.G._RC_Architectes-Ingenieur_01-05-2025_FR__version_definitive_.pdf
+  branch: rc-professionnelle
+  document_type: conditions_generales
+  lang: fr
+  product_name: "(677.2kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-aprobat-rcpro-architectes-ingenieurs-en.pdf
+  branch: rc-professionnelle
+  document_type: ipid
+  lang: en
+  product_name: "(691.33kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-aprobat-rcpro-architectes-ingenieurs-fr.pdf
+  branch: rc-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "(692.53kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-aprobat-rcpro-architectes-ingenieurs-de.pdf
+  branch: rc-professionnelle
+  document_type: ipid
+  lang: de
+  product_name: "(693.9kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-aprobat-rc-professionnelle-des-agents-immobiliers-adm-de-biens-et-syndics-de-copropriete-fr.pdf
+  branch: rc-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "(714.21kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_BUSINESS_TRAVEL_de.pdf
+  branch: sante
+  document_type: ipid
+  lang: de
+  product_name: "(324.98kB)"
+  # carrier named in this document: DKV LUXEMBOURG S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/DKV/documents/IPID/IPID_BUSINESS_TRAVEL_en.pdf
+  branch: sante
+  document_type: ipid
+  lang: en
+  product_name: "(338.01kB)"
+  # carrier named in this document: DKV LUXEMBOURG S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_assurance-td.pdf
+  branch: solde-restant-du
+  document_type: ipid
+  lang: fr
+  product_name: "(268.03kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE-VIE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_assurance-solde-restant-du_en_version-112018.pdf
+  branch: solde-restant-du
+  document_type: ipid
+  lang: en
+  product_name: "(586.43kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE-VIE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/ipid_luxair_tours_assistance_et_annulation_retard_fr.pdf
+  branch: voyage
+  document_type: ipid
+  lang: fr
+  product_name: "(307.07kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/ipid_luxair_tours_assistance_et_annulation_et_retard_de.pdf
+  branch: voyage
+  document_type: ipid
+  lang: de
+  product_name: "(309.16kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_MILES_MORE_LUXAIR_VISA_EN.pdf
+  branch: voyage
+  document_type: ipid
+  lang: en
+  product_name: "(622.88kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_MILES_MORE_LUXAIR_VISA_BUSINESS_EN.pdf
+  branch: voyage
+  document_type: ipid
+  lang: en
+  product_name: "(623.78kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_MILES_MORE_LUXAIR_VISA_FR.pdf
+  branch: voyage
+  document_type: ipid
+  lang: fr
+  product_name: "(624.81kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_MILES_MORE_LUXAIR_VISA_DE.pdf
+  branch: voyage
+  document_type: ipid
+  lang: de
+  product_name: "(624.95kB)"
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_MILES_MORE_LUXAIR_VISA_BUSINESS_FR.pdf
+  branch: voyage
+  document_type: ipid
+  lang: fr
+  product_name: "(625.02kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_MILES_MORE_LUXAIR_VISA_BUSINESS_DE.pdf
+  branch: voyage
+  document_type: ipid
+  lang: de
+  product_name: "(625.09kB)"
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/ipid_bureaux_de_voyages__remanie__-_formule_1_et_2_fr.pdf
+  branch: voyage
+  document_type: ipid
+  lang: fr
+  product_name: "(691.25kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/ipid_bureaux_de_voyages__remanie__-_formule_1_et_2_-de.pdf
+  branch: voyage
+  document_type: ipid
+  lang: de
+  product_name: "(691.72kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_vacances-sans-soucis_lalux_en.pdf
+  branch: voyage
+  document_type: ipid
+  lang: en
+  product_name: "(704.66kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_vacances-sans-soucis_lalux_fr.pdf
+  branch: voyage
+  document_type: ipid
+  lang: fr
+  product_name: "(707.36kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.
+- url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_vacances-sans-soucis_lalux_de.pdf
+  branch: voyage
+  document_type: ipid
+  lang: de
+  product_name: "(707.81kB)"
+  # carrier named in this document: LA LUXEMBOURGEOISE S.A.

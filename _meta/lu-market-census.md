@@ -571,3 +571,39 @@ Luxembourg, and the country attribution would need deciding first.
   write is sold into other Member States, mostly France. If those products are ever
   documented, they belong under the country whose consumers buy them, not under `lu`.
   Deferred, not decided.
+
+## Corrections (2026-08-02) — deux affirmations de ce recensement démenties par la découverte
+
+Les deux venaient d'une observation faite sur quelques URL, généralisée trop vite. Elles sont
+corrigées ici plutôt que réécrites en silence, parce que le raisonnement qui a mené à l'erreur est
+lui-même utile.
+
+**1. « `_PT` renvoie 404 » : faux.** Cinq brochures portugaises sont bien en ligne chez lalux. Le
+portugais n'est pas une langue officielle du Luxembourg mais c'est la première langue d'une part
+importante de la population résidente, et un assureur de détail y publie. Le manifeste garde
+`official_languages: [fr, de, en]` — ce champ décrit les langues **des documents contractuels**,
+et les cinq documents portugais sont des brochures commerciales, non contractuelles. La nuance est
+notée ici pour qu'une prochaine passe ne re-suppose pas leur absence.
+
+**2. « Pas de branche `velo`, faute de produit luxembourgeois observé » : le motif était faux.**
+lalux vend bien une *Assurance Vélo LALUX*. La branche n'a pas été créée pour autant, et le
+document est classé `autres` : en France, `velo` a été créée parce que la définition du cycle
+assuré (assistance ≤ 250 W, coupure à 25 km/h, exclusion des VTAM) divergeait matériellement de
+celle d'un EDPM et changeait le caractère obligatoire de la couverture. Un seul produit ne
+justifie pas une branche ; c'est la divergence de définition qui l'avait justifiée. La question
+reste ouverte et `autres` est l'endroit prévu pour la garder visible.
+
+**Ce que la découverte a confirmé, en revanche :**
+
+- **Aucun document en lëtzebuergesch**, et pour une raison plus intéressante que l'absence : le hub
+  `/lu/` de lalux **existe et est complet**, il liste 90 PDF — tous en FR, DE, EN ou PT. La langue
+  de l'interface n'est pas celle des documents.
+- **Les frontaliers ont bien des produits nommés pour eux**, mais seulement en épargne et retraite :
+  *easyLIFE Pension* titre « FRONTALIER ? » / « GRENZGÄNGER? » / « as a cross-border worker » dans
+  trois langues, à côté de guides fiscaux et d'accueil. **Rien d'équivalent en auto ni en
+  habitation** — exactement la ligne de partage que le census prévoyait, leurs contrats de ce
+  côté-là étant étrangers.
+- **`_ALL` signifie *allemand*, pas *toutes langues*.** Trois fiches portent `_EN`, `_FR` et `_ALL`
+  sans aucun `_DE`. Un piège de nommage qui aurait produit un document trilingue fictif.
+- **lalux.lu héberge un troisième assureur agréé**, **DKV Luxembourg** (RCS B 45762), avec ses
+  propres IPID et ses propres comptes. Lire le porteur sur la marque l'aurait annexé à lalux.

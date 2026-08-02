@@ -133,8 +133,14 @@ branches:
   moto:
     label: "Deux-roues motorisés"
     aliases: ["moto", "motocyclette", "scooter", "cyclomoteur", "quad", "motorrad", "zweirad", "motorbike"]
-    mandatory: true             # same art. 2 obligation; sold as its own product with its own
-                                # IPID (measured on Foyer's library, 2026-08-02)
+    mandatory: true             # same art. 2 obligation (loi du 16 avril 2003)
+    # CITATION CORRIGEE 2026-08-02. Cette entree affirmait d'abord que le deux-roues est vendu
+    # comme un produit distinct avec son propre IPID, "mesure sur la bibliotheque de Foyer".
+    # L'enumeration de cette bibliotheque le dement: 0 occurrence de moto, scooter ou zweirad
+    # sur 800 lignes, et les 12 IPID de la gamme Mobilite sont tous des IPID Auto. La branche
+    # est CONSERVEE parce que l'obligation d'assurance de l'art. 2 vise bien tout vehicule
+    # automoteur, deux-roues compris; c'est le motif tire de la pratique commerciale qui etait
+    # faux, pas la branche. Aucun produit deux-roues luxembourgeois n'est encore observe.
     code: "10/3"
   habitation:
     label: "Assurance habitation"
