@@ -27,7 +27,7 @@ navigate it without guessing. Do not edit by hand.
 |---|---|---|---|---|---|
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
 | ch (Switzerland) | 0 | 3 | 1 | 0 | 5 |
-| fr (France) | 24 | 482 | 10 | 1 | 5 |
+| fr (France) | 24 | 483 | 10 | 1 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
 
@@ -657,6 +657,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | protection-juridique | smacl | Information juridique Sécurité élus - Doc | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/convention-information-juridique-securite-elus-sam.pdf) |
 | fr | protection-juridique | smacl | Juripacte - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-protection-juridique-collectivites.pdf) |
 | fr | protection-juridique | smacl | Juris-Asso - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-jurisasso-protection-juridique-association.pdf) |
+| fr | protection-juridique | smacl | Protection juridique (SMACL Assurances) | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cg-protection-juridique-particulier.pdf) |
 | fr | protection-juridique | smacl | Vos plafonds contractuels de prise en charge - Protection juridique - Tarifs | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/bareme-plafonds-protection-juridique-collectivites.pdf) |
 | fr | protection-juridique | smacl | Votre barème de prise en charge - Garantie protection juridique - Tarifs | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/bareme-prise-en-charge-garantie-protection-juridique.pdf) |
 | fr | protection-juridique | thelem | Assurance Protection Juridique du Professionnel - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_PJ-PRO_012026.pdf) |

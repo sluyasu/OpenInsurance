@@ -77,7 +77,7 @@ né d'un contrat que le classement en [[EDPM et mobilités douces]] aurait mal d
 - [Macif](insurers/Macif.md) (45 documents)
 - [MAIF](insurers/MAIF.md) (69 documents)
 - [Matmut](insurers/Matmut.md) (133 documents)
-- [SMACL Assurances](insurers/SMACL%20Assurances.md) (48 documents)
+- [SMACL Assurances](insurers/SMACL%20Assurances.md) (49 documents)
 - [Thélem assurances](insurers/Th%C3%A9lem%20assurances.md) (45 documents)
 <!-- END GENERATED -->
 

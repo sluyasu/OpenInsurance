@@ -388,7 +388,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Assurance responsabilité civile association - IPID](../products/thelem/Assurance%20responsabilit%C3%A9%20civile%20association%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [Assurance responsabilité civile vie privée - IPID](../products/thelem/Assurance%20responsabilit%C3%A9%20civile%20vie%20priv%C3%A9e%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 
-### [Protection juridique](Protection%20juridique.md) (23)
+### [Protection juridique](Protection%20juridique.md) (24)
 - [Annexe Garantie Protection juridique automobile — Assurance Flotte automobile](../products/groupama/Annexe%20Garantie%20Protection%20juridique%20automobile%20%E2%80%94%20Assurance%20Flotte%20automobile.md) - [Groupama](../insurers/Groupama.md)
 - [Garanties Protection Juridique - Fiche](../products/maaf/Garanties%20Protection%20Juridique%20-%20Fiche.md) - [MAAF](../insurers/MAAF.md)
 - [Assurance Protection Juridique - IPID](../products/maif/Assurance%20Protection%20Juridique%20-%20IPID.md) - [MAIF](../insurers/MAIF.md)
@@ -407,6 +407,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Information juridique Sécurité élus - Doc](../products/smacl/Information%20juridique%20S%C3%A9curit%C3%A9%20%C3%A9lus%20-%20Doc.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [Juripacte - IPID](../products/smacl/Juripacte%20-%20IPID.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [Juris-Asso - IPID](../products/smacl/Juris-Asso%20-%20IPID.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
+- [Protection juridique](../products/smacl/Protection%20juridique%20%28SMACL%20Assurances%29.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [Vos plafonds contractuels de prise en charge - Protection juridique - Tarifs](../products/smacl/Vos%20plafonds%20contractuels%20de%20prise%20en%20charge%20-%20Protection%20juridique%20-%20Tarifs.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [Votre barème de prise en charge - Garantie protection juridique - Tarifs](../products/smacl/Votre%20bar%C3%A8me%20de%20prise%20en%20charge%20-%20Garantie%20protection%20juridique%20-%20Tarifs.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [Assurance Protection Juridique du Professionnel - IPID](../products/thelem/Assurance%20Protection%20Juridique%20du%20Professionnel%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
