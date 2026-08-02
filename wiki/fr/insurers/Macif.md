@@ -5,7 +5,7 @@ country: fr
 insurer_slug: macif
 name: Macif
 website: https://www.macif.fr
-products_count: 40
+products_count: 41
 branches_covered:
 - animaux
 - assurance-vie
@@ -38,7 +38,7 @@ generated: true
 
 ## Résumé
 
-**Macif** - [https://www.macif.fr](https://www.macif.fr). 40 document(s) across 16 branch(es).
+**Macif** - [https://www.macif.fr](https://www.macif.fr). 41 document(s) across 16 branch(es).
 
 ## Produits par branche
 
@@ -77,6 +77,7 @@ generated: true
 - [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire](../products/macif/Contrat%20Habitation%20-%20Formule%20%C3%89conomique%20-%20R%C3%A9sidence%20principale%20-%20R%C3%A9sidence%20secondaire.md) - Conditions générales (05/18) · réf. HAB/ECO/05 - 05/18 - N781
 - [Contrat Macif Habitation - Formule Construction - IPID](../products/macif/Contrat%20Macif%20Habitation%20-%20Formule%20Construction%20-%20IPID.md) - IPID / Fiche d'information (2025-06) · réf. MACIF HAB MC 06/25
 - [Macif Habitation](../products/macif/Macif%20Habitation.md) - Conditions générales (06/25 (Version 06/2025)) · réf. MACIF HAB/05 - 06/25 - N570
+- [Sociétaire non occupant - Bâtiment en cours de construction - IPID](../products/macif/Soci%C3%A9taire%20non%20occupant%20-%20B%C3%A2timent%20en%20cours%20de%20construction%20-%20IPID.md) - IPID / Fiche d'information (10/18) · réf. HAB-SNO EC 10/18
 - [Sociétaire non occupant - Immeubles en copropriété - IPID](../products/macif/Soci%C3%A9taire%20non%20occupant%20-%20Immeubles%20en%20copropri%C3%A9t%C3%A9%20-%20IPID.md) - IPID / Fiche d'information (10/18) · réf. HAB-SNO CO 10/18
 - [Sociétaire non occupant - Immeubles locatifs - IPID](../products/macif/Soci%C3%A9taire%20non%20occupant%20-%20Immeubles%20locatifs%20-%20IPID.md) - IPID / Fiche d'information (10/18) · réf. HAB-SNO-IL 10/18
 

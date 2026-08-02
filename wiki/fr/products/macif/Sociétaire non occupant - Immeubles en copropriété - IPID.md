@@ -253,6 +253,10 @@ Garantie proposée « En option », rattachée à l'option précédente (« ains
 - Artefacts typographiques de la couche texte, préservés tels quels dans les citations : des U+0007 parasites et des espaces insérées en milieu de mot par le crénage (« L es clôtures », « L e mobilier », « La r / esponsabilité », « En cas d / 'événement », « déclar / er »). Les citations ont été découpées pour contourner ces coupures, jamais retapées.
 - Les 4 « PRINCIPALES RESTRICTIONS » sont enregistrées dans special_conditions (le schéma n'a pas de champ « restrictions ») et les deux relatives à la franchise sont reprises dans deductibles.
 
+## Documents liés
+
+- [Sociétaire non occupant - Bâtiment en cours de construction - IPID](Soci%C3%A9taire%20non%20occupant%20-%20B%C3%A2timent%20en%20cours%20de%20construction%20-%20IPID.md) - IPID / Fiche d'information, éd. 10/18
+
 ## Source & fidélité
 
 - Source : [https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_proprietaire_non_occupant_immeubles_en_copropriete.pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_proprietaire_non_occupant_immeubles_en_copropriete.pdf) - téléchargé le 2026-08-01 - 2 pages

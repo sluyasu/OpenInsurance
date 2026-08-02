@@ -74,7 +74,7 @@ né d'un contrat que le classement en [[EDPM et mobilités douces]] aurait mal d
 - [Groupama](insurers/Groupama.md) (31 documents)
 - [Luko](insurers/Luko.md) (14 documents)
 - [MAAF](insurers/MAAF.md) (35 documents)
-- [Macif](insurers/Macif.md) (40 documents)
+- [Macif](insurers/Macif.md) (41 documents)
 - [MAIF](insurers/MAIF.md) (69 documents)
 - [Matmut](insurers/Matmut.md) (125 documents)
 - [SMACL Assurances](insurers/SMACL%20Assurances.md) (44 documents)
