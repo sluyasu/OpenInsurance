@@ -261,6 +261,10 @@ Protection financière.
 - Coquille du document conservée telle quelle : « fournir le récipissé » (page 2) pour « récépissé ».
 - Texte du prompt vérifié caractère par caractère contre une ré-extraction PyMuPDF page.get_text("text") du PDF local : identique (seule différence, un saut de ligne supplémentaire inséré par le harness avant le marqueur [page 2]). Aucune troncature.
 
+## Documents liés
+
+- [Multigarantie Activité Professionnelle](Multigarantie%20Activit%C3%A9%20Professionnelle.md) - Conditions générales, éd. 06/2023
+
 ## Source & fidélité
 
 - Source : [https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_multigarantie_activite_professionnelle.pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_multigarantie_activite_professionnelle.pdf) - téléchargé le 2026-08-01 - 2 pages

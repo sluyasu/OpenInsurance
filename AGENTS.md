@@ -27,7 +27,7 @@ navigate it without guessing. Do not edit by hand.
 |---|---|---|---|---|---|
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
 | ch (Switzerland) | 0 | 3 | 1 | 0 | 5 |
-| fr (France) | 24 | 544 | 10 | 1 | 5 |
+| fr (France) | 24 | 550 | 10 | 1 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
 
@@ -415,7 +415,10 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | auto | smacl | ALÉASSUR Auto collaborateurs - conventions spéciales | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-aleassur-auto-collaborateurs.pdf) |
 | fr | auto | smacl | Aléassur Auto collaborateurs - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-aleassur-auto-collaborateurs.pdf) |
 | fr | auto | smacl | Assistance aux véhicules | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/ca-assistance-vehicules.pdf) |
+| fr | auto | smacl | Assurance auto (SMACL Assurances) | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cg-assurance-auto.pdf) |
 | fr | auto | smacl | Assurance des Véhicules des collectivités territoriales - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-vehicules-collectivites.pdf) |
+| fr | auto | smacl | Assurance véhicules des associations et des entreprises de l'économie sociale et solidaire - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-vehicules-convergence.pdf) |
+| fr | auto | smacl | Assurance véhicules à moteur des associations - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-vehicule-associations.pdf) |
 | fr | auto | smacl | CONVERGENCE - Auto collaborateurs - Garantie en substitution au contrat personnel | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-convergence-auto-collab-garantie-sub-contrat-perso.pdf) |
 | fr | auto | smacl | Conventions spéciales CONVERGENCE - Auto collaborateurs, garantie complémentaire au contrat personnel | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-convergence-auto-collaborateurs-complementaire.pdf) |
 | fr | auto | smacl | Convergence Auto collaborateurs - garantie complémentaire - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-convergence-accomplit-auto-collaborateurs-association.pdf) |
@@ -452,6 +455,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | decennale | maaf | VOS GARANTIES RESPONSABILITÉ CIVILE CONSTRUCTION - Fiche | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Garantie_decennale_17195.pdf) |
 | fr | decennale | maif | Dommages-Ouvrage Associations et Collectivités - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/document-information-assurance-dommages-ouvrages.pdf) |
 | fr | decennale | maif | Tous Risques Chantier Associations et Collectivités - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/document-information-assurance-tous-risques-chantier.pdf) |
+| fr | decennale | smacl | Tous risques chantier | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cg-tous-risques-chantier-association.pdf) |
 | fr | decennale | smacl | Tous risques chantier - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-tous-risques-chantier-collectivites.pdf) |
 | fr | decennale | thelem | DCBAT - Responsabilité Décennale des entreprises du Bâtiment - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_810_DCBAT_-012025.pdf) |
 | fr | edpm | maif | Assurance Vélo - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/document-information-assurance-velo.pdf) |
@@ -512,6 +516,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | habitation | maaf | Tempo Jeunes | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/CG/MAAF_Conditions_generales_Assurance_Tempo_jeunes_11001.pdf) |
 | fr | habitation | macif | Assistance juridique Option “Plus” | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/annexe_optionAJ_plus.pdf) |
 | fr | habitation | macif | Contrat Habitation - Formule Protectrice - Résidence principale | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/CG_habitation_RP_protectrice.pdf) |
+| fr | habitation | macif | Contrat Habitation - Formule Protectrice - Résidence principale (2) | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/CG_habitation_RP_protectrice_201805.pdf) |
 | fr | habitation | macif | Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/CG_habitation_RP_RS_economique_20230114.pdf) |
 | fr | habitation | macif | Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_habitation_principale_et_secondaire_economique.pdf) |
 | fr | habitation | macif | Contrat Macif Habitation - Formule Construction - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/dipa-macif-habitation-maison-en-construction.pdf) |
@@ -586,6 +591,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | multirisque-professionnelle | maaf | SYNDICATS PROFESSIONNELS ARTISANAUX — INTERCALAIRE | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Intercalaire_Syndicats_professionnels_artisanaux_11042.pdf) |
 | fr | multirisque-professionnelle | macif | Contrat Multigarantie Activité Professionnelle - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_multigarantie_activite_professionnelle.pdf) |
 | fr | multirisque-professionnelle | macif | Contrat Multigarantie Informatique - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_assurance_materiel_informatique.pdf) |
+| fr | multirisque-professionnelle | macif | Multigarantie Activité Professionnelle | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/CG-ACTP-MAP-06-23.pdf) |
 | fr | multirisque-professionnelle | maif | Multirisque Entreprises - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/entreprises/document-information-assurance-multirisque-entreprise.pdf) |
 | fr | multirisque-professionnelle | maif | Raqvam Associations et Collectivités | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/conditions-generales-raqvam-associations-et-collectivites.pdf) |
 | fr | multirisque-professionnelle | maif | Raqvam Associations et Collectivités - CP | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/conditions-particulieres-raqvam-associations-et-collectivites.pdf) |

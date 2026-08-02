@@ -16,7 +16,7 @@ generated: true
 
 Liste générée des produits par branche. Les fiches conceptuelles de branche sont rédigées à la main dans ce dossier.
 
-### [Assurance auto](Assurance%20auto.md) (84)
+### [Assurance auto](Assurance%20auto.md) (87)
 - [Assurance Auto et Auto connectée Direct Assurance - IPID](../products/direct-assurance/Assurance%20Auto%20et%20Auto%20connect%C3%A9e%20Direct%20Assurance%20-%20IPID.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [Contrat Auto](../products/direct-assurance/Contrat%20Auto.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [YouDrive - CP](../products/direct-assurance/YouDrive%20-%20CP.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
@@ -83,7 +83,10 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [ALÉASSUR Auto collaborateurs - conventions spéciales](../products/smacl/AL%C3%89ASSUR%20Auto%20collaborateurs%20-%20conventions%20sp%C3%A9ciales.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [Aléassur Auto collaborateurs - IPID](../products/smacl/Al%C3%A9assur%20Auto%20collaborateurs%20-%20IPID.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [Assistance aux véhicules](../products/smacl/Assistance%20aux%20v%C3%A9hicules.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
+- [Assurance auto](../products/smacl/Assurance%20auto%20%28SMACL%20Assurances%29.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [Assurance des Véhicules des collectivités territoriales - IPID](../products/smacl/Assurance%20des%20V%C3%A9hicules%20des%20collectivit%C3%A9s%20territoriales%20-%20IPID.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
+- [Assurance véhicules des associations et des entreprises de l'économie sociale et solidaire - IPID](../products/smacl/Assurance%20v%C3%A9hicules%20des%20associations%20et%20des%20entreprises%20de%20l%27%C3%A9conomie%20sociale%20et%20solidaire%20-%20IPID.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
+- [Assurance véhicules à moteur des associations - IPID](../products/smacl/Assurance%20v%C3%A9hicules%20%C3%A0%20moteur%20des%20associations%20-%20IPID.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [CONVERGENCE - Auto collaborateurs - Garantie en substitution au contrat personnel](../products/smacl/CONVERGENCE%20-%20Auto%20collaborateurs%20-%20Garantie%20en%20substitution%20au%20contrat%20personnel.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [Conventions spéciales CONVERGENCE - Auto collaborateurs, garantie complémentaire au contrat personnel](../products/smacl/Conventions%20sp%C3%A9ciales%20CONVERGENCE%20-%20Auto%20collaborateurs%2C%20garantie%20compl%C3%A9mentaire%20au%20contrat%20personnel.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [Convergence Auto collaborateurs - garantie complémentaire - IPID](../products/smacl/Convergence%20Auto%20collaborateurs%20-%20garantie%20compl%C3%A9mentaire%20-%20IPID.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
@@ -136,7 +139,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Assurance Vélo](../products/maif/Assurance%20V%C3%A9lo.md) - [MAIF](../insurers/MAIF.md)
 - [Contrat Multirisques « 2R Liberté » - IPID](../products/matmut/Contrat%20Multirisques%20%C2%AB%202R%20Libert%C3%A9%20%C2%BB%20-%20IPID.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 
-### [Multirisque habitation](Multirisque%20habitation.md) (71)
+### [Multirisque habitation](Multirisque%20habitation.md) (72)
 - [Assurance Habitation Direct Assurance - IPID](../products/direct-assurance/Assurance%20Habitation%20Direct%20Assurance%20-%20IPID.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [Contrat Habitation](../products/direct-assurance/Contrat%20Habitation.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [Assurance multirisques habitation - Doc](../products/groupama/Assurance%20multirisques%20habitation%20-%20Doc.md) - [Groupama](../insurers/Groupama.md)
@@ -175,6 +178,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Assurance Propriétaire Bailleur](../products/maif/Assurance%20Propri%C3%A9taire%20Bailleur.md) - [MAIF](../insurers/MAIF.md)
 - [Assurance Propriétaire Bailleur - IPID](../products/maif/Assurance%20Propri%C3%A9taire%20Bailleur%20-%20IPID.md) - [MAIF](../insurers/MAIF.md)
 - [Assistance juridique Option “Plus”](../products/macif/Assistance%20juridique%20Option%20%E2%80%9CPlus%E2%80%9D.md) - [Macif](../insurers/Macif.md)
+- [Contrat Habitation - Formule Protectrice - Résidence principale](../products/macif/Contrat%20Habitation%20-%20Formule%20Protectrice%20-%20R%C3%A9sidence%20principale%20%282%29.md) - [Macif](../insurers/Macif.md)
 - [Contrat Habitation - Formule Protectrice - Résidence principale](../products/macif/Contrat%20Habitation%20-%20Formule%20Protectrice%20-%20R%C3%A9sidence%20principale.md) - [Macif](../insurers/Macif.md)
 - [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire - IPID](../products/macif/Contrat%20Habitation%20-%20Formule%20%C3%89conomique%20-%20R%C3%A9sidence%20principale%20-%20R%C3%A9sidence%20secondaire%20-%20IPID.md) - [Macif](../insurers/Macif.md)
 - [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire](../products/macif/Contrat%20Habitation%20-%20Formule%20%C3%89conomique%20-%20R%C3%A9sidence%20principale%20-%20R%C3%A9sidence%20secondaire.md) - [Macif](../insurers/Macif.md)
@@ -475,7 +479,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Sécurité des fonctionnaires territoriaux](../products/smacl/S%C3%A9curit%C3%A9%20des%20fonctionnaires%20territoriaux.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [Responsabilité Civile Chef d'Entreprise- Professions libérales - IPID](../products/thelem/Responsabilit%C3%A9%20Civile%20Chef%20d%27Entreprise-%20Professions%20lib%C3%A9rales%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 
-### [Multirisque professionnelle](Multirisque%20professionnelle.md) (39)
+### [Multirisque professionnelle](Multirisque%20professionnelle.md) (40)
 - [CAPEB — INTERCALAIRE](../products/maaf/CAPEB%20%E2%80%94%20INTERCALAIRE.md) - [MAAF](../insurers/MAAF.md)
 - [COMMERCES D'ALIMENTATION — INTERCALAIRE](../products/maaf/COMMERCES%20D%27ALIMENTATION%20%E2%80%94%20INTERCALAIRE.md) - [MAAF](../insurers/MAAF.md)
 - [MULTIRISQUE PROFESSIONNELLE](../products/maaf/MULTIRISQUE%20PROFESSIONNELLE.md) - [MAAF](../insurers/MAAF.md)
@@ -490,6 +494,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Raqvam Associations et Collectivités - CP](../products/maif/Raqvam%20Associations%20et%20Collectivit%C3%A9s%20-%20CP.md) - [MAIF](../insurers/MAIF.md)
 - [Contrat Multigarantie Activité Professionnelle - IPID](../products/macif/Contrat%20Multigarantie%20Activit%C3%A9%20Professionnelle%20-%20IPID.md) - [Macif](../insurers/Macif.md)
 - [Contrat Multigarantie Informatique - IPID](../products/macif/Contrat%20Multigarantie%20Informatique%20-%20IPID.md) - [Macif](../insurers/Macif.md)
+- [Multigarantie Activité Professionnelle](../products/macif/Multigarantie%20Activit%C3%A9%20Professionnelle.md) - [Macif](../insurers/Macif.md)
 - [Association](../products/matmut/Association.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Caducée](../products/matmut/Caduc%C3%A9e.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Contrat d'assurance Bris de machines et pertes d'exploitation suite à bris de machines](../products/matmut/Contrat%20d%27assurance%20Bris%20de%20machines%20et%20pertes%20d%27exploitation%20suite%20%C3%A0%20bris%20de%20machines.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
@@ -516,11 +521,12 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Assurance multirisque professionnelle - IPID](../products/thelem/Assurance%20multirisque%20professionnelle%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [Bris de machine - IPID](../products/thelem/Bris%20de%20machine%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 
-### [Assurance construction](Assurance%20construction.md) (5)
+### [Assurance construction](Assurance%20construction.md) (6)
 - [VOS GARANTIES RESPONSABILITÉ CIVILE CONSTRUCTION - Fiche](../products/maaf/VOS%20GARANTIES%20RESPONSABILIT%C3%89%20CIVILE%20CONSTRUCTION%20-%20Fiche.md) - [MAAF](../insurers/MAAF.md)
 - [Dommages-Ouvrage Associations et Collectivités - IPID](../products/maif/Dommages-Ouvrage%20Associations%20et%20Collectivit%C3%A9s%20-%20IPID.md) - [MAIF](../insurers/MAIF.md)
 - [Tous Risques Chantier Associations et Collectivités - IPID](../products/maif/Tous%20Risques%20Chantier%20Associations%20et%20Collectivit%C3%A9s%20-%20IPID.md) - [MAIF](../insurers/MAIF.md)
 - [Tous risques chantier - IPID](../products/smacl/Tous%20risques%20chantier%20-%20IPID.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
+- [Tous risques chantier](../products/smacl/Tous%20risques%20chantier.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [DCBAT - Responsabilité Décennale des entreprises du Bâtiment - IPID](../products/thelem/DCBAT%20-%20Responsabilit%C3%A9%20D%C3%A9cennale%20des%20entreprises%20du%20B%C3%A2timent%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 
 ### [Assurance agricole](Assurance%20agricole.md) (2)

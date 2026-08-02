@@ -215,3 +215,19 @@ le nomme, avec la divergence en `gaps` quand elle existe. Ce wiki ne tranche pas
 documents ne tranchent pas. Un lecteur qui a besoin de savoir quelle entité l'assure doit lire la
 clause Assureur de **son** contrat, et à défaut le colophon — et savoir que l'article sur les
 cotisations peut dire autre chose que la page de garde.
+
+### Mise à jour (2026-08-03) : dix documents sur soixante-sept nomment les deux entités ensemble
+
+La clause de traitement de données est devenue le meilleur indice, parce qu'elle nomme les
+responsables **par leur forme juridique complète** là où le corps du contrat se contente du nom
+court. Sur les 67 documents SMACL extraits à ce jour, **dix** désignent *SMACL Assurances* **et**
+*SMACL Assurances SA* comme **responsables conjoints** — donc explicitement comme deux personnes
+morales distinctes, dans le même article, du même contrat.
+
+C'est la preuve la plus nette dont on dispose que la coexistence est réelle et voulue, et pas un
+flottement rédactionnel : le RGPD oblige à nommer chaque responsable, et un rédacteur qui pensait
+écrire deux fois la même société n'aurait pas employé « conjoints ».
+
+Cela ne dit toujours pas **qui porte le risque** sur un contrat donné — la clause de traitement et
+la clause d'assureur répondent à deux questions différentes. La règle de lecture reste : clause
+Assureur si elle existe, colophon sinon, jamais la fréquence du nom.

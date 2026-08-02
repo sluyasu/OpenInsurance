@@ -320,6 +320,10 @@ SMACL Assurances propose également la garantie optionnelle « mise à dispositi
 - Les montants de plusieurs garanties (dépenses de santé, capital invalidité, capital décès, accessoires, objets et effets personnels, franchise) sont renvoyés aux conditions particulières, non fournies. Aucun montant ne peut donc être cité pour ces postes.
 - Les 12 pages comportent une couche texte exploitable ; aucune page scannée ou vide.
 
+## Documents liés
+
+- [Assurance véhicules des associations et des entreprises de l'économie sociale et solidaire - IPID](Assurance%20v%C3%A9hicules%20des%20associations%20et%20des%20entreprises%20de%20l%27%C3%A9conomie%20sociale%20et%20solidaire%20-%20IPID.md) - IPID / Fiche d'information, éd. 02/2024
+
 ## Source & fidélité
 
 - Source : [https://www.smacl.fr/files/documents/cs-convergence-vehicules-a-moteur.pdf](https://www.smacl.fr/files/documents/cs-convergence-vehicules-a-moteur.pdf) - téléchargé le 2026-08-01 - 12 pages

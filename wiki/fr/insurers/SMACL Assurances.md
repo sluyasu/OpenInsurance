@@ -5,7 +5,7 @@ country: fr
 insurer_slug: smacl
 name: SMACL Assurances
 website: https://www.smacl.fr
-products_count: 63
+products_count: 67
 branches_covered:
 - auto
 - autres
@@ -34,7 +34,7 @@ generated: true
 
 ## Résumé
 
-**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 63 document(s) across 12 branch(es).
+**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 67 document(s) across 12 branch(es).
 
 ## Produits par branche
 
@@ -42,7 +42,10 @@ generated: true
 - [ALÉASSUR Auto collaborateurs - conventions spéciales](../products/smacl/AL%C3%89ASSUR%20Auto%20collaborateurs%20-%20conventions%20sp%C3%A9ciales.md) - Conditions générales (01/2024) · réf. ALEASSUR_CS_AutoCollab_02(05_2015)
 - [Aléassur Auto collaborateurs - IPID](../products/smacl/Al%C3%A9assur%20Auto%20collaborateurs%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. ALEASSUR_DIPA_ACSUBS_03(09_2022)
 - [Assistance aux véhicules](../products/smacl/Assistance%20aux%20v%C3%A9hicules.md) - Conditions générales (11/2022) · réf. PM_CA_VAM_SA_03(02_2023)
+- [Assurance auto](../products/smacl/Assurance%20auto%20%28SMACL%20Assurances%29.md) - Conditions générales (07/2023) · réf. PP_CG_VAM_07(02_2023)
 - [Assurance des Véhicules des collectivités territoriales - IPID](../products/smacl/Assurance%20des%20V%C3%A9hicules%20des%20collectivit%C3%A9s%20territoriales%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. ALEASSUR_DIPA_VAM_03(09_2022)
+- [Assurance véhicules des associations et des entreprises de l'économie sociale et solidaire - IPID](../products/smacl/Assurance%20v%C3%A9hicules%20des%20associations%20et%20des%20entreprises%20de%20l%27%C3%A9conomie%20sociale%20et%20solidaire%20-%20IPID.md) - IPID / Fiche d'information (02/2024) · réf. CONVERGENCE_DIPA_VAM_SA_03(09_2022)
+- [Assurance véhicules à moteur des associations - IPID](../products/smacl/Assurance%20v%C3%A9hicules%20%C3%A0%20moteur%20des%20associations%20-%20IPID.md) - IPID / Fiche d'information (02/2024) · réf. ADA_DIPA_VAM_SA_02(07_2020)
 - [CONVERGENCE - Auto collaborateurs - Garantie en substitution au contrat personnel](../products/smacl/CONVERGENCE%20-%20Auto%20collaborateurs%20-%20Garantie%20en%20substitution%20au%20contrat%20personnel.md) - Conditions générales (04/2025) · réf. CONVERGENCE_CS_ACSUBS_SA_02(04_2016)
 - [Conventions spéciales CONVERGENCE - Auto collaborateurs, garantie complémentaire au contrat personnel](../products/smacl/Conventions%20sp%C3%A9ciales%20CONVERGENCE%20-%20Auto%20collaborateurs%2C%20garantie%20compl%C3%A9mentaire%20au%20contrat%20personnel.md) - Conditions générales (04/2025) · réf. CONVERGENCE_CS_ACCOMPLT_SA_05(04_2016)
 - [Convergence Auto collaborateurs - garantie complémentaire - IPID](../products/smacl/Convergence%20Auto%20collaborateurs%20-%20garantie%20compl%C3%A9mentaire%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. CONVERGENCE_DIPA_ACCOMPLT_SA_03(09_2022)
@@ -64,6 +67,7 @@ generated: true
 
 ### [Assurance construction](../branches/Assurance%20construction.md)
 - [Tous risques chantier - IPID](../products/smacl/Tous%20risques%20chantier%20-%20IPID.md) - IPID / Fiche d'information (01/2024) · réf. CONSTRUCTION_DIPA_TRC_SA_01(06_2021)
+- [Tous risques chantier](../products/smacl/Tous%20risques%20chantier.md) - Conditions générales (11/2022) · réf. CONSTRUCTION_CG_TRC_SA_07(02_2023)
 
 ### [Multirisque habitation](../branches/Multirisque%20habitation.md)
 - [Assurance habitation](../products/smacl/Assurance%20habitation.md) - Conditions générales (11/2022) · réf. PP_CG_HABITATION_04(02_2023)

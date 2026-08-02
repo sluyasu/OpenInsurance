@@ -170,6 +170,10 @@ Dommages causés à des tiers dans le cadre de l'opération de construction et t
 - La couche texte du PDF contient des glyphes de puces Wingdings en zone à usage privé (U+F0FB et U+F0FC) en début de ligne, là où le document imprimé affiche une coche ou une croix. Ils n'ont pas été reproduits dans les valeurs extraites ; les citations de key_quotes ont été découpées de façon à ne pas les traverser.
 - La citation du plafond de responsabilité civile a été arrêtée avant « et 400 000 € pour les dommages immatériels  non consécutifs » parce que ce fragment est séparé par un retour à la ligne et une double espace ; le montant est néanmoins conservé intégralement dans sub_limits.
 
+## Documents liés
+
+- [Tous risques chantier](Tous%20risques%20chantier.md) - Conditions générales, éd. 11/2022
+
 ## Source & fidélité
 
 - Source : [https://www.smacl.fr/files/documents/document-information-tous-risques-chantier-collectivites.pdf](https://www.smacl.fr/files/documents/document-information-tous-risques-chantier-collectivites.pdf) - téléchargé le 2026-08-01 - 2 pages
