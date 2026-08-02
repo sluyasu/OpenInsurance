@@ -8,13 +8,14 @@ COUNTRY ?= be
 PY      ?= python3
 PIP     ?= $(PY) -m pip
 
-.PHONY: help setup discover download extract ground ground-strict build index validate all
+.PHONY: help setup discover download textlayer extract ground ground-strict build index validate all
 
 help:
 	@echo "Targets (set COUNTRY=<cc>, optional INSURER=<slug>):"
 	@echo "  setup      install deps + playwright chromium"
 	@echo "  discover   crawl source listing pages -> PDF URLs into sources/<cc>/*.yml"
 	@echo "  download   fetch PDFs -> data/<cc>/pdfs/ (resumable, checksummed)"
+	@echo "  textlayer  flag PDFs whose text layer hides content the page draws"
 	@echo "  extract    PDFs -> rich Markdown + JSON via the committed extraction agent (LLM)"
 	@echo "  ground     verify extracted quotes exist in the source text"
 	@echo "  ground-strict  same, but exit non-zero on any ungrounded quote"
@@ -32,6 +33,9 @@ discover:
 
 download:
 	$(PY) pipeline/download.py --country $(COUNTRY) $(if $(INSURER),--insurer $(INSURER),)
+
+textlayer:
+	$(PY) pipeline/check_textlayer.py --country $(COUNTRY)
 
 extract:
 	$(PY) pipeline/extract.py --country $(COUNTRY) $(if $(INSURER),--insurer $(INSURER),)
