@@ -5,7 +5,7 @@ country: fr
 insurer_slug: macif
 name: Macif
 website: https://www.macif.fr
-products_count: 31
+products_count: 32
 branches_covered:
 - animaux
 - assurance-vie
@@ -35,7 +35,7 @@ generated: true
 
 ## Résumé
 
-**Macif** - [https://www.macif.fr](https://www.macif.fr). 31 document(s) across 13 branch(es).
+**Macif** - [https://www.macif.fr](https://www.macif.fr). 32 document(s) across 13 branch(es).
 
 ## Produits par branche
 
@@ -77,6 +77,7 @@ generated: true
 
 ### [Navigation de plaisance](../branches/Navigation%20de%20plaisance.md)
 - [Contrat Navigation de plaisance](../products/macif/Contrat%20Navigation%20de%20plaisance.md) - Conditions générales (2017-01) · réf. LOIS/NAV/05 - 01/17 - N081
+- [Contrat Navigation de plaisance - IPID](../products/macif/Contrat%20Navigation%20de%20plaisance%20-%20IPID.md) - IPID / Fiche d'information (10/18) · réf. LOIS NAV 10/18
 
 ### [Obsèques](../branches/Obs%C3%A8ques.md)
 - [Garantie Obsèques - Doc](../products/macif/Garantie%20Obs%C3%A8ques%20-%20Doc.md) - Document

@@ -5,12 +5,13 @@ country: fr
 insurer_slug: maaf
 name: MAAF
 website: https://www.maaf.fr/
-products_count: 23
+products_count: 25
 branches_covered:
 - chasse
 - decennale
 - habitation
 - multirisque-professionnelle
+- navigation
 - prevoyance
 - protection-juridique
 - rc-privee
@@ -31,7 +32,7 @@ generated: true
 
 ## Résumé
 
-**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 23 document(s) across 9 branch(es).
+**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 25 document(s) across 10 branch(es).
 
 ## Produits par branche
 
@@ -50,6 +51,7 @@ generated: true
 - [Assurance habitation jeune - Formule Tous risques - Fiche](../products/maaf/Assurance%20habitation%20jeune%20-%20Formule%20Tous%20risques%20-%20Fiche.md) - Fiche produit (06/2023)
 - [FICHE D'INFORMATION RELATIVE A LA VENTE A DISTANCE DE VOTRE CONTRAT TEMPO HABITATION - Doc](../products/maaf/FICHE%20D%27INFORMATION%20RELATIVE%20A%20LA%20VENTE%20A%20DISTANCE%20DE%20VOTRE%20CONTRAT%20TEMPO%20HABITATION%20-%20Doc.md) - Document
 - [IMMEUBLE - IPID](../products/maaf/IMMEUBLE%20-%20IPID.md) - IPID / Fiche d'information (2025-03) · réf. MU0_IPIDHA_00-250315-GqMS1D-1-1-2-22:19:13- HAB11009
+- [TEMPO HABITATION Logement donné en location - IPID](../products/maaf/TEMPO%20HABITATION%20Logement%20donn%C3%A9%20en%20location%20-%20IPID.md) - IPID / Fiche d'information (2025-03) · réf. HAB11029
 - [Tempo Habitation - Fiche](../products/maaf/Tempo%20Habitation%20-%20Fiche.md) - Fiche produit (06/2022)
 
 ### [Multirisque professionnelle](../branches/Multirisque%20professionnelle.md)
@@ -58,6 +60,9 @@ generated: true
 - [MULTISERVICE À LA PERSONNE — INTERCALAIRE](../products/maaf/MULTISERVICE%20%C3%80%20LA%20PERSONNE%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales (01/25) · réf. 11059 - 01/25
 - [PROFESSIONS DE LA RESTAURATION ET DE L'HÔTELLERIE — INTERCALAIRE](../products/maaf/PROFESSIONS%20DE%20LA%20RESTAURATION%20ET%20DE%20L%27H%C3%94TELLERIE%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales (01/25) · réf. 11045 - 01/25
 - [SYNDICATS PROFESSIONNELS ARTISANAUX — INTERCALAIRE](../products/maaf/SYNDICATS%20PROFESSIONNELS%20ARTISANAUX%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales (03/24) · réf. 11042 - 03/24
+
+### [Navigation de plaisance](../branches/Navigation%20de%20plaisance.md)
+- [ALCYON - IPID](../products/maaf/ALCYON%20-%20IPID.md) - IPID / Fiche d'information (2025-05) · réf. IRD11001
 
 ### [Prévoyance](../branches/Pr%C3%A9voyance.md)
 - [Assurance accident - IPID](../products/maaf/Assurance%20accident%20-%20IPID.md) - IPID / Fiche d'information (2026-06) · réf. TB0_IPIDPR_00-260608-VZ8Ndm-1-1-2-08:20:18- PRE10003
