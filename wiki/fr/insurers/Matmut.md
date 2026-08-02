@@ -5,7 +5,7 @@ country: fr
 insurer_slug: matmut
 name: Matmut
 website: https://www.matmut.fr
-products_count: 117
+products_count: 121
 branches_covered:
 - animaux
 - assurance-vie
@@ -38,7 +38,7 @@ generated: true
 
 ## Résumé
 
-**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 117 document(s) across 16 branch(es).
+**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 121 document(s) across 16 branch(es).
 
 ## Produits par branche
 
@@ -98,6 +98,8 @@ generated: true
 - [Contrat Multirisques « 2R Mobilité » - IPID](../products/matmut/Contrat%20Multirisques%20%C2%AB%202R%20Mobilit%C3%A9%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (07/25) · réf. IPID.EDPM - 07/25
 
 ### [Garantie des accidents de la vie](../branches/Garantie%20des%20accidents%20de%20la%20vie.md)
+- [Conditions de l'offre Contrat Familial Complémentaire - Tarifs](../products/matmut/Conditions%20de%20l%27offre%20Contrat%20Familial%20Compl%C3%A9mentaire%20-%20Tarifs.md) - Conditions tarifaires (01/26) · réf. COND.OFFRE.FC– 01/26
+- [Conditions de l'offre — Remise à la souscription — Contrats Multirisques Accidents de la Vie et Multirisques Accidents d](../products/matmut/Conditions%20de%20l%27offre%20%E2%80%94%20Remise%20%C3%A0%20la%20souscription%20%E2%80%94%20Contrats%20Multirisques%20Accidents%20de%20la%20Vie%20et%20Multirisques%20Accidents%20d.md) - Conditions tarifaires (01/26) · réf. COND.OFFRE.MAV/MAV S. - 01/26
 - [Multirisques Accidents de la Vie](../products/matmut/Multirisques%20Accidents%20de%20la%20Vie.md) - Conditions générales (2026-01) · réf. CG MAV - 01/26
 
 ### [Multirisque habitation](../branches/Multirisque%20habitation.md)
@@ -120,6 +122,7 @@ generated: true
 - [Avantage Usage Sérénité - Tarifs](../products/matmut/Avantage%20Usage%20S%C3%A9r%C3%A9nit%C3%A9%20-%20Tarifs.md) - Conditions tarifaires (01/26) · réf. USAGE.S 2 ROUES - 01/26
 - [Bonus Booster Nouveau Contrat Matmut - Tarifs](../products/matmut/Bonus%20Booster%20Nouveau%20Contrat%20Matmut%20-%20Tarifs%20%282%29.md) - Conditions tarifaires (01/26) · réf. BONUS.B.NC.PV 2R RIDER – 01/26
 - [Bonus Booster Nouveau Contrat Matmut - Tarifs](../products/matmut/Bonus%20Booster%20Nouveau%20Contrat%20Matmut%20-%20Tarifs.md) - Conditions tarifaires (01/26) · réf. BONUS.B.NC.PRO 2R RIDER – 01/26
+- [Conditions de la réduction Âge du véhicule — Contrat 2 roues Initiale & Co - Tarifs](../products/matmut/Conditions%20de%20la%20r%C3%A9duction%20%C3%82ge%20du%20v%C3%A9hicule%20%E2%80%94%20Contrat%202%20roues%20Initiale%20%26%20Co%20-%20Tarifs.md) - Conditions tarifaires (01-26) · réf. REDUC.AGE VEH 2R INIT & CO – 01-26
 - [Contrat Multirisques « 2 Roues Initiale & Co » - IPID](../products/matmut/Contrat%20Multirisques%20%C2%AB%202%20Roues%20Initiale%20%26%20Co%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (10/24) · réf. IPID. MRSQ.2R INIT & CO – 10/24
 - [Contrat Multirisques « 2R Rider » - IPID](../products/matmut/Contrat%20Multirisques%20%C2%AB%202R%20Rider%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (10/24) · réf. IPID.2R RIDER - 10/24
 
@@ -146,6 +149,7 @@ generated: true
 
 ### [Complémentaire santé](../branches/Compl%C3%A9mentaire%20sant%C3%A9.md)
 - [Bien dans mon rôle d'aidant - Fiche](../products/matmut/Bien%20dans%20mon%20r%C3%B4le%20d%27aidant%20-%20Fiche.md) - Fiche produit (08/25) · réf. FICHE-AID.MOM – 08/25
+- [Bien à l'hôpital - Fiche](../products/matmut/Bien%20%C3%A0%20l%27h%C3%B4pital%20-%20Fiche.md) - Fiche produit (09/25) · réf. FICHE.HOP.MOM – 09/25
 - [CONTRAT COLLECTIF FRAIS DE SANTÉ - RÉGIME OBLIGATOIRE](../products/matmut/CONTRAT%20COLLECTIF%20FRAIS%20DE%20SANT%C3%89%20-%20R%C3%89GIME%20OBLIGATOIRE.md) - Conditions générales (Janvier 2023)
 - [Conditions Générales — Régime conventionnel de frais de santé à adhésion obligatoire, Convention Collective Nationale de](../products/matmut/Conditions%20G%C3%A9n%C3%A9rales%20%E2%80%94%20R%C3%A9gime%20conventionnel%20de%20frais%20de%20sant%C3%A9%20%C3%A0%20adh%C3%A9sion%20obligatoire%2C%20Convention%20Collective%20Nationale%20de.md) - Conditions générales (12-2024 (référence de pied de page « CG Oblig-ALISFA-FM-12-2024 ») ; le tableau des garanties de l'ANNEXE II porte la mention « En vigueur au 01/01/2025 ») · réf. CG Oblig-ALISFA-FM-12-2024 – SP24/FCR0570
 - [Notice d'information — Régime de frais de santé, contrat collectif, Accord interbranche du 2 octobre 2019 (CCN du 15 mar](../products/matmut/Notice%20d%27information%20%E2%80%94%20R%C3%A9gime%20de%20frais%20de%20sant%C3%A9%2C%20contrat%20collectif%2C%20Accord%20interbranche%20du%202%20octobre%202019%20%28CCN%20du%2015%20mar.md) - Conditions générales (ÉDITION 2023 (couverture) ; « janvier 2023 » en pied de page ; « Notice d'information Base obligatoire option 2 - CCN 66-CHRS - Janvier 2023 » en 4e de couverture) · réf. Accord interbranche CCN 66 - CHRS • Notice d'information base obligatoire et option 2 - janvier 2023

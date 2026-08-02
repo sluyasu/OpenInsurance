@@ -1,0 +1,456 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "macif",
+  "insurer_name": "Macif",
+  "product_name": "Contrat Multigarantie Informatique",
+  "branch": "multirisque-professionnelle",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "our les besoins de l’activité professionnelle",
+  "reference": "ACTP/MI 10/18",
+  "edition_date": "2018-10",
+  "product_family": "Multigarantie Informatique",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_assurance_materiel_informatique.pdf",
+  "source_pdf": "contrat-multigarantie-informatique-c9b6adb5.pdf",
+  "source_sha256": "e9d2217da96faef90f17d4f4d667f577494d94da25c508edb000e57f3e856930",
+  "source_pages": 2,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d'information sur le produit d'assurance (DIPA/IPID) de deux pages pour le Contrat Multigarantie Informatique, présenté comme « Assurance du matériel informatique ». Ce contrat d’assurance protège le matériel informatique de l’assuré contre les dommages accidentels (bris, destruction ou perte). Le document liste quatre garanties toutes précédées d'une coche, deux catégories de biens non assurés, onze exclusions principales, une restriction de franchise indexée, les obligations de l'assuré, le paiement, la durée et la résiliation. Les garanties sont soumises à des plafonds choisis par l’assuré et indiqués dans les conditions particulières. Les plafonds sont indexés sur l’indice des Risques Industriels.",
+  "definitions": [
+    {
+      "term": "Les frais supplémentaires de traitement informatique",
+      "definition": "Il s’agit des frais exposés, à la suite d’un sinistre garanti, pour assurer ou faire assurer les traitements informatiques qu’il aurait normalement supportés, en attente du rétablissement normal des moyens informatiques sinistrés (dans la limite de 6 mois)",
+      "page": 1
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Les dommages directs (bris, destruction, perte) causés au matériel de traitement de l’information",
+      "description": "Les dommages directs (bris, destruction, perte) causés au matériel de traitement de l’information, y compris ses équipements périphériques",
+      "is_optional": false,
+      "territorial_scope": "les lieux indiqués dans les Conditions Particulières, situés en France métropolitaine",
+      "limits": "Les garanties sont soumises à des plafonds choisis par l’assuré et indiqués dans les conditions particulières. Les plafonds sont indexés sur l’indice des Risques Industriels.",
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme restera à la charge de l’assuré (franchise). Cette franchise est indexée sur l’indice des Risques Industriels.",
+      "conditions": [
+        "Les garanties du contrat cessent en cas de transfert total hors des limites de la France métropolitaine."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Les frais de reconstitution des médias",
+      "description": "Les frais de reconstitution des médias (bande, disque, supports informatiques porteurs d’informations) à la suite d’un dommage (bris, destruction ou perte) subi par les supports informatiques",
+      "is_optional": false,
+      "territorial_scope": "les lieux indiqués dans les Conditions Particulières, situés en France métropolitaine",
+      "limits": "Les garanties sont soumises à des plafonds choisis par l’assuré et indiqués dans les conditions particulières. Les plafonds sont indexés sur l’indice des Risques Industriels.",
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme restera à la charge de l’assuré (franchise). Cette franchise est indexée sur l’indice des Risques Industriels.",
+      "conditions": [
+        "Les garanties du contrat cessent en cas de transfert total hors des limites de la France métropolitaine."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Les frais supplémentaires de traitement informatique",
+      "description": "Les frais supplémentaires de traitement informatique Il s’agit des frais exposés, à la suite d’un sinistre garanti, pour assurer ou faire assurer les traitements informatiques qu’il aurait normalement supportés, en attente du rétablissement normal des moyens informatiques sinistrés (dans la limite de 6 mois)",
+      "is_optional": false,
+      "territorial_scope": "les lieux indiqués dans les Conditions Particulières, situés en France métropolitaine",
+      "limits": "Les garanties sont soumises à des plafonds choisis par l’assuré et indiqués dans les conditions particulières. Les plafonds sont indexés sur l’indice des Risques Industriels.",
+      "sub_limits": [
+        "dans la limite de 6 mois"
+      ],
+      "deductible": "En cas de sinistre une somme restera à la charge de l’assuré (franchise). Cette franchise est indexée sur l’indice des Risques Industriels.",
+      "conditions": [
+        "à la suite d’un sinistre garanti",
+        "Les garanties du contrat cessent en cas de transfert total hors des limites de la France métropolitaine."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Les dommages occasionnés au matériel de traitement de l’information par les catastrophes naturelles",
+      "description": "Les dommages occasionnés au matériel de traitement de l’information par les catastrophes naturelles",
+      "is_optional": false,
+      "territorial_scope": "les lieux indiqués dans les Conditions Particulières, situés en France métropolitaine",
+      "limits": "Les garanties sont soumises à des plafonds choisis par l’assuré et indiqués dans les conditions particulières. Les plafonds sont indexés sur l’indice des Risques Industriels.",
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme restera à la charge de l’assuré (franchise). Cette franchise est indexée sur l’indice des Risques Industriels.",
+      "conditions": [
+        "dans les 10 jours suivant la publication d’un arrêté catastrophe naturelle"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Extension territoriale - transport et transfert partiel et temporaire des biens assurés",
+      "description": "our les besoins de l’activité professionnelle, lors d’un transport par terre, mer ou air, ou d’un transfert partiel et temporaire, des biens assurés vers un autre lieu situé en France et dans les Pays de l’Union Européenne",
+      "is_optional": false,
+      "territorial_scope": "our les besoins de l’activité professionnelle, lors d’un transport par terre, mer ou air, ou d’un transfert partiel et temporaire, des biens assurés vers un autre lieu situé en France et dans les Pays de l’Union Européenne",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "our les besoins de l’activité professionnelle"
+      ],
+      "page": 2
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Le matériel non informatique",
+      "description": "Le matériel non informatique",
+      "applies_to": "Qu’est-ce qui n’est pas assuré ?",
+      "page": 1
+    },
+    {
+      "name": "Matériel informatique confié aux tiers chargés de l’entretien ou de la réparation",
+      "description": "Les dommages au matériel informatique confé aux tiers chargés d’assurer l’entretien ou la réparation (matériel transporté hors des lieux indiqués aux Conditions Particulières)",
+      "applies_to": "Qu’est-ce qui n’est pas assuré ?",
+      "page": 1
+    },
+    {
+      "name": "Faute intentionnelle ou dolosive de l’assuré",
+      "description": "Les dommages résultant d’une faute intentionnelle ou dolosive de l’assuré",
+      "applies_to": "Les exclusions communes à toutes les garanties",
+      "page": 1
+    },
+    {
+      "name": "Guerre, séquestre, saisie, douane, quarantaine, confiscation ou réquisition",
+      "description": "Les dommages résultant de la guerre civile ou étrangère, mise sous séquestre, saisie ou destruction en vertu de règlement de douane ou de quarantaine, destruction, confscation ou réquisition par ordre des autorités civiles ou militaires",
+      "applies_to": "Les exclusions communes à toutes les garanties",
+      "page": 1
+    },
+    {
+      "name": "Vols ou détournements commis par les préposés ou les gardiens des biens",
+      "description": "Les vols ou détournements commis par les préposés de l’assuré ou par toute personne chargée de la garde des biens assurés pendant leur service",
+      "applies_to": "Les exclusions communes à toutes les garanties",
+      "page": 1
+    },
+    {
+      "name": "Vols dans les véhicules terrestres stationnés hors d’un local clos et couvert",
+      "description": "Les vols survenus dans les véhicules terrestres stationnés hors d’un local entièrement clos et couvert, gardé ou fermé à clef",
+      "applies_to": "Les exclusions communes à toutes les garanties",
+      "page": 1
+    },
+    {
+      "name": "Expérimentations ou essais autres que les vérifications habituelles",
+      "description": "Les dommages consécutifs à des expérimentations ou essais autres que les vérifcations habituelles de bon fonctionnement",
+      "applies_to": "Les exclusions communes à toutes les garanties",
+      "page": 1
+    },
+    {
+      "name": "Usure, détérioration ou dépréciation normale ou progressive",
+      "description": "Les dommages dus à l’usure, la détérioration ou la dépréciation normale ou progressive",
+      "applies_to": "Les exclusions spécifques à certaines garanties",
+      "page": 1
+    },
+    {
+      "name": "Exploitation non conforme aux prescriptions du fabricant / pièces non agréées / défaut de sauvegarde",
+      "description": "Les dommages résultant d’une exploitation non conforme aux prescriptions du fabricant ou de l’utilisation de pièces ou d’accessoires non agréés par ce dernier, notamment lorsque les opérations normales de sauvegarde n’ont pas été efectuées",
+      "applies_to": "Les exclusions spécifques à certaines garanties",
+      "page": 1
+    },
+    {
+      "name": "Erreurs dans la programmation ou dans les instructions données aux machines",
+      "description": "Les frais de reconstitution des médias et frais supplémentaires pour les dommages résultant d’erreurs dans la programmation ou dans les instructions données aux machines",
+      "applies_to": "Les exclusions spécifques à certaines garanties",
+      "page": 1
+    },
+    {
+      "name": "Dossiers d’analyse ou de programmation et documents en clair",
+      "description": "Les frais de reconstitution pour les dossiers d’analyse ou de programmation, les informations après traitement, ainsi que tous documents en clair pouvant être interprétés directement sans l’intervention de l’ordinateur",
+      "applies_to": "Les exclusions spécifques à certaines garanties",
+      "page": 1
+    },
+    {
+      "name": "Usure ou dépréciation normale des médias, défaut d’entretien des lieux de stockage",
+      "description": "Les frais de reconstitution pour les dommages dus à l’usure ou à la dépréciation normale des médias ou au défaut d’entretien de leurs lieux de stockage",
+      "applies_to": "Les exclusions spécifques à certaines garanties",
+      "page": 1
+    },
+    {
+      "name": "Carence de fourniture du courant électrique",
+      "description": "Les frais supplémentaires conséquence de la carence de fourniture du courant électrique",
+      "applies_to": "Les exclusions spécifques à certaines garanties",
+      "page": 1
+    },
+    {
+      "name": "Transfert total hors de France métropolitaine",
+      "description": "Les garanties du contrat cessent en cas de transfert total hors des limites de la France métropolitaine.",
+      "applies_to": "all",
+      "page": 2
+    }
+  ],
+  "deductibles": {
+    "standard": "En cas de sinistre une somme restera à la charge de l’assuré (franchise).",
+    "variable": "Cette franchise est indexée sur l’indice des Risques Industriels.",
+    "per_coverage": null,
+    "page": 1
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "À la souscription - déclarer activités et circonstances",
+      "description": "À la souscription du contrat : déclarer toutes les activités et circonstances connues de nature à faire apprécier le risque",
+      "timing": "À la souscription du contrat :",
+      "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "En cours de contrat - déclarer les circonstances nouvelles",
+      "description": "En cours de contrat : déclarer dans les 15 jours, à partir du moment où l’assuré en a eu connaissance, par lettre recommandée ou auprès d’un conseiller, toutes les circonstances nouvelles qui rendent inexactes ou caduques les réponses faites lors de la souscription",
+      "timing": "dans les 15 jours, à partir du moment où l’assuré en a eu connaissance",
+      "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Conserver les justificatifs de valeur",
+      "description": "Conserver tout document permettant de prouver l’existence et la valeur de vos biens",
+      "timing": "En cours de contrat",
+      "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "En cas de sinistre - stopper l’évolution et sauver les biens",
+      "description": "endre toutes les dispositions nécessaires pour stopper l’évolution du sinistre, sauver les biens en demandant l’intervention immédiate de l’éventuel service de maintenance",
+      "timing": "En cas de sinistre :",
+      "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "En cas de sinistre - déclaration",
+      "description": "er le sinistre à l’assureur à partir du moment où l’assuré en a connaissance et au plus tard dans les 5 jours ouvrés, dans les 2 jours ouvrés pour un vol, dans les 10 jours suivant la publication d’un arrêté catastrophe naturelle",
+      "timing": "au plus tard dans les 5 jours ouvrés, dans les 2 jours ouvrés pour un vol, dans les 10 jours suivant la publication d’un arrêté catastrophe naturelle",
+      "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "En cas de sinistre - indiquer les circonstances",
+      "description": "te, heure du sinistre, les causes connues ou supposées ainsi que ses conséquences et les coordonnées des personnes lésées, des témoins et du ou des responsables éventuels",
+      "timing": "En cas de sinistre :",
+      "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "En cas de sinistre - prévenir la police et déposer plainte",
+      "description": "en cas de vol, tentative de vol ou d’acte de vandalisme, prévenir la police ou la gendarmerie dans les 12 heures et déposer une plainte",
+      "timing": "dans les 12 heures",
+      "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "En cas de sinistre - autres assureurs",
+      "description": "transmettre les coordonnées des éventuels assureurs couvrant le même risque",
+      "timing": "En cas de sinistre :",
+      "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "En cas de sinistre - transmettre les documents",
+      "description": "transmettre immédiatement tout document concernant le sinistre",
+      "timing": "immédiatement",
+      "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Stopper l’évolution du sinistre et sauver les biens",
+      "description": "endre toutes les dispositions nécessaires pour stopper l’évolution du sinistre, sauver les biens en demandant l’intervention immédiate de l’éventuel service de maintenance",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Déclarer le sinistre",
+      "description": "er le sinistre à l’assureur à partir du moment où l’assuré en a connaissance et au plus tard dans les 5 jours ouvrés, dans les 2 jours ouvrés pour un vol, dans les 10 jours suivant la publication d’un arrêté catastrophe naturelle",
+      "deadline": "au plus tard dans les 5 jours ouvrés, dans les 2 jours ouvrés pour un vol, dans les 10 jours suivant la publication d’un arrêté catastrophe naturelle",
+      "page": 2
+    },
+    {
+      "step": "Indiquer date, heure, causes et conséquences",
+      "description": "te, heure du sinistre, les causes connues ou supposées ainsi que ses conséquences et les coordonnées des personnes lésées, des témoins et du ou des responsables éventuels",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Prévenir la police ou la gendarmerie et déposer plainte",
+      "description": "en cas de vol, tentative de vol ou d’acte de vandalisme, prévenir la police ou la gendarmerie dans les 12 heures et déposer une plainte",
+      "deadline": "dans les 12 heures",
+      "page": 2
+    },
+    {
+      "step": "Transmettre les coordonnées des autres assureurs",
+      "description": "transmettre les coordonnées des éventuels assureurs couvrant le même risque",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Transmettre les documents du sinistre",
+      "description": "transmettre immédiatement tout document concernant le sinistre",
+      "deadline": "immédiatement",
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "La couverture commence à partir de la date convenue d’un commun accord et dure jusqu’à la date d’échéance principale.",
+    "tacit_renewal": true,
+    "notice_period": "à l’échéance principale, avec un préavis d’un mois",
+    "methods": [
+      "La résiliation doit être demandée soit par lettre recommandée, soit par déclaration faite contre récépissé auprès de l’assureur ou de son représentant dans les cas et conditions prévus au contrat :"
+    ],
+    "special_rights": [
+      "à l’échéance principale, avec un préavis d’un mois",
+      "si la situation personnelle ou professionnelle de l’assuré change dans certaines conditions",
+      "si la Macif résilie un autre contrat de l’assuré après sinistre",
+      "en cas d’augmentation de la cotisation hors taxes ou des franchises (hors efet de l’indexation)"
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "La cotisation est payable d’avance à la souscription puis à chaque date d’échéance.",
+      "Elle est exigible annuellement, toutefois un paiement fractionné peut être accordé.",
+      "Le fractionnement du paiement entraîne des frais.",
+      "Le défaut de paiement dans les 10 jours à compter de la date d’échéance pourra entraîner, après une mise en demeure, la suspension des garanties puis la résiliation du contrat.",
+      "Les paiements peuvent être efectués par prélèvement automatique, carte bancaire, chèque, TIP SEPA ou mandat, selon que l’assuré a choisi un paiement fractionné ou non."
+    ],
+    "indexation": "Les plafonds sont indexés sur l’indice des Risques Industriels.",
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Assureur / forme juridique",
+      "description": "Compagnie : Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511",
+      "page": 1
+    },
+    {
+      "name": "Régime et siège social",
+      "description": "Macif. Entreprise régie par le Code des assurances. Siège social : 2 et 4, rue de Pied de Fond 79000 Niort.",
+      "page": 1
+    },
+    {
+      "name": "Portée du document",
+      "description": "Ce document d’information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifques. Vous trouverez l’information complète sur ce produit dans la documentation pré contractuelle et contractuelle.",
+      "page": 1
+    },
+    {
+      "name": "Lecture des coches",
+      "description": "Les garanties précédées d’une coche sont systématiquement prévues au contrat.",
+      "page": 1
+    },
+    {
+      "name": "Plafonds choisis par l’assuré et indexés",
+      "description": "Les garanties sont soumises à des plafonds choisis par l’assuré et indiqués dans les conditions particulières. Les plafonds sont indexés sur l’indice des Risques Industriels.",
+      "page": 1
+    },
+    {
+      "name": "Restriction - franchise indexée",
+      "description": "En cas de sinistre une somme restera à la charge de l’assuré (franchise). Cette franchise est indexée sur l’indice des Risques Industriels.",
+      "page": 1
+    },
+    {
+      "name": "Cessation des garanties en cas de transfert total hors de France métropolitaine",
+      "description": "Les garanties du contrat cessent en cas de transfert total hors des limites de la France métropolitaine.",
+      "page": 2
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Ce contrat d’assurance protège le matériel informatique de l’assuré contre les dommages accidentels (bris, destruction ou perte).",
+      "context": "Nature du contrat",
+      "page": 1
+    },
+    {
+      "quote": "Compagnie : Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511",
+      "context": "Porteur de risque",
+      "page": 1
+    },
+    {
+      "quote": "Les garanties sont soumises à des plafonds choisis par l’assuré et \nindiqués dans les conditions particulières. Les plafonds sont indexés \nsur l’indice des Risques Industriels.",
+      "context": "Plafonds et indexation",
+      "page": 1
+    },
+    {
+      "quote": "Les dommages directs (bris, destruction, perte) causés au matériel de \ntraitement de l’information, y compris ses équipements périphériques",
+      "context": "Garantie principale",
+      "page": 1
+    },
+    {
+      "quote": "Il s’agit des frais exposés, à la suite d’un sinistre garanti, pour assurer \nou faire assurer les traitements informatiques qu’il aurait normalement \nsupportés, en attente du rétablissement normal des moyens \ninformatiques sinistrés (dans la limite de 6 mois)",
+      "context": "Frais supplémentaires - limite 6 mois",
+      "page": 1
+    },
+    {
+      "quote": "Les dommages au matériel informatique confé aux tiers chargés \nd’assurer l’entretien ou la réparation (matériel transporté hors des lieux \nindiqués aux Conditions Particulières)",
+      "context": "Bien non assuré - matériel confié aux tiers",
+      "page": 1
+    },
+    {
+      "quote": "Les vols ou détournements commis par les préposés de l’assuré ou par \ntoute personne chargée de la garde des biens assurés pendant leur \nservice",
+      "context": "Exclusion vols par préposés",
+      "page": 1
+    },
+    {
+      "quote": "Les dommages résultant d’une exploitation non conforme aux \nprescriptions du fabricant ou de l’utilisation de pièces ou d’accessoires \nnon agréés par ce dernier, notamment lorsque les opérations normales \nde sauvegarde n’ont pas été efectuées",
+      "context": "Exclusion exploitation non conforme / sauvegardes",
+      "page": 1
+    },
+    {
+      "quote": "Les frais supplémentaires conséquence de la carence de fourniture du \ncourant électrique",
+      "context": "Exclusion carence de courant",
+      "page": 1
+    },
+    {
+      "quote": "En cas de sinistre une somme restera à la charge de l’assuré (franchise).\nCette franchise est indexée sur l’indice des Risques Industriels.",
+      "context": "Franchise indexée",
+      "page": 1
+    },
+    {
+      "quote": "ACTP/MI 10/18 - Macif. Entreprise régie par le Code des assurances. Siège social : 2 et 4, rue de Pied de Fond 79000 Niort.",
+      "context": "Code d'édition en pied de page",
+      "page": 1
+    },
+    {
+      "quote": "les lieux indiqués dans les Conditions Particulières, situés en France métropolitaine",
+      "context": "Étendue territoriale",
+      "page": 2
+    },
+    {
+      "quote": "our les besoins de l’activité professionnelle, lors d’un transport par terre, mer ou air, ou d’un transfert partiel et temporaire, des biens assurés vers un \nautre lieu situé en France et dans les Pays de l’Union Européenne",
+      "context": "Extension transport / transfert temporaire",
+      "page": 2
+    },
+    {
+      "quote": "en cas de vol, tentative de vol ou d’acte de vandalisme, prévenir la police ou la gendarmerie dans les 12 heures et déposer une plainte",
+      "context": "Obligation dépôt de plainte 12 heures",
+      "page": 2
+    },
+    {
+      "quote": "Les garanties du contrat cessent en cas de transfert total hors des limites de la France métropolitaine.",
+      "context": "Cessation des garanties",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "Aucune date d'édition en toutes lettres. `edition_date` (2018-10) est déduite du code de pied de page « ACTP/MI 10/18 » reporté dans `reference` ; c'est le seul marqueur de version. Le nom de fichier de la source (DIPA_assurance_materiel_informatique.pdf) ne porte aucune date.",
+    "Défaut de la couche texte : les ligatures fi/ff/fl sont perdues. Le PDF sort « spécifques » (spécifiques), « confé » (confié), « confscation » (confiscation), « vérifcations » (vérifications), « efectuées / efectuer / efectués / efet » (effectuées/effectuer/effectués/effet), « fn » (fin). Conservé verbatim, NON corrigé, pour que les citations restent vérifiables. À ré-extraire si l'éditeur corrige le PDF.",
+    "Défaut de la couche texte : plusieurs mots sont coupés par un saut de ligne parasite en page 2 — « - pr » / « endre toutes les dispositions », « - déclar » / « er le sinistre », « - indiquer les da » / « te, heure du sinistre » — et « Dans » / « les lieux indiqués ». Les citations ont été tracées autour de ces coupures (d'où des citations commençant à « endre », « er le sinistre », « te, heure », « les lieux indiqués », « our les besoins »).",
+    "Ordre de lecture : l'extraction linéaire de PyMuPDF renvoie la page 1 dans le désordre (les garanties de la colonne de gauche sortent avant le titre, et les exclusions avant leur intertitre). La structure en deux colonnes a été reconstruite à partir des coordonnées des blocs (get_text(\"dict\")) ; les citations restent des sous-chaînes exactes du texte linéaire.",
+    "Appartenance aux coches recouvrée depuis la couche graphique, pas depuis le texte : les coches sont des images (xref 271, 5,1 × 5,7 pt) posées à x≈29,6 dans la colonne de gauche, aux ordonnées 237,1 / 260,0 / 292,8 / 345,6. Elles se placent exactement en face des quatre garanties (dommages directs, frais de reconstitution des médias, frais supplémentaires de traitement, catastrophes naturelles) : les quatre sont donc is_optional=false et le document ne présente AUCUNE option. Contrôle arithmétique page 1 : 4 coches (xref 271) + 2 croix rouges (xref 273, à x≈307,2, y=197,9 et 207,7, en face des deux biens non assurés) + 12 barres d'exclusion (xref 275, à x≈308,1) = 18 marques pour 4 garanties + 2 biens non assurés + 11 exclusions + 1 restriction, soit 18 lignes marquées. Une 5e occurrence de la coche (x=166,7 ; y=382,5) est le glyphe inline de la légende. Ce fait ne peut pas figurer dans key_quotes puisqu'il n'est pas du texte.",
+    "Aucun plafond chiffré : le document renvoie aux Conditions Particulières (« Les garanties sont soumises à des plafonds choisis par l’assuré et indiqués dans les conditions particulières »). Le seul chiffre de limite est la durée de 6 mois des frais supplémentaires de traitement informatique.",
+    "Le montant de la franchise n'est pas chiffré ; seule son indexation sur l'indice des Risques Industriels est indiquée.",
+    "Aucun porteur de risque distinct n'est nommé : le seul assureur cité est « Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511 » (Macif SAM). À noter que ce document imprime un siège social différent de celui d'autres DIPA Macif : « 2 et 4, rue de Pied de Fond 79000 Niort » ici, contre « 1 rue Jacques Vandier - 79000 Niort » ailleurs. Reporté verbatim, sans arbitrage.",
+    "`branch` recopié depuis les métadonnées de la tâche (multirisque-professionnelle). Divergence à signaler : le document décrit un contrat mono-objet portant sur le seul matériel de traitement de l'information (« Contrat Multigarantie Informatique », « Assurance du matériel informatique »), avec quatre garanties, et non une multirisque professionnelle couvrant l'ensemble des risques de l'entreprise. La liste de branches autorisées n'offre pas de slug plus proche (ni bris de machine ni dommages aux biens professionnels), la valeur est donc conservée telle quelle.",
+    "`target_audience` laissé null : le document ne nomme jamais sa clientèle. Il mentionne « Pour les besoins de l’activité professionnelle », « déclarer toutes les activités » et « si la situation personnelle ou professionnelle de l’assuré change » — un usage professionnel, mais aucune catégorie d'audience explicite. La formulation est reportée dans `target_audience_note`.",
+    "La seule définition du document est celle des « frais supplémentaires de traitement informatique », donnée en ligne sous la garantie ; il n'y a pas de lexique. Aucun délai de carence et aucune clause de prescription : `waiting_periods` vide et `prescription_period` null.",
+    "Le texte n'a pas été tronqué (2 pages complètes). L'extraction a été refaite depuis le PDF local via PyMuPDF page.get_text(\"text\") ; les deux pages sont identiques au texte du prompt."
+  ]
+}

@@ -1,0 +1,450 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "maaf",
+  "insurer_name": "MAAF",
+  "product_name": "TEMPO ENFANTS",
+  "branch": "rc-privee",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "Le document ne désigne aucun public cible. Il indique seulement qui est assuré : « Votre enfant désigné aux conditions particulières. » et précise que certaines garanties dépendent de « l'âge de l'enfant ».",
+  "reference": "HAB11015",
+  "edition_date": "2026-05",
+  "product_family": "Tempo Enfants",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/HAB11015.PDF",
+  "source_pdf": "tempo-enfants-assurance-vie-privee-0022379b.pdf",
+  "source_sha256": "2f90a3cf48d91907a3b5d6639adee7c5834bd235f21c9f6a21f59b6ff1acfd71",
+  "source_pages": 2,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d'information sur le produit d'assurance (IPID) du contrat TEMPO ENFANTS, présenté comme une « Assurance Vie privée » de MAAF Assurances SA. Ce contrat d’assurance vous permet de couvrir les dommages matériels et corporels que peut subir votre enfant dans le cadre de sa vie privée et de ses activités scolaires et extra scolaires. L'assuré est « Votre enfant désigné aux conditions particulières ». Les garanties de base réunissent les frais de santé, la garantie Individuelle accident (plafond 200 000 €), les frais de transport, les dommages et vol de vêtements, le rachat de franchise Responsabilité civile, l'Assistance à domicile et l'Assistance aux personnes ; s'y ajoutent des garanties optionnelles (Responsabilité civile plafonnée à 10 000 000 €, Défense pénale et recours suite à accident plafonnée à 20 000 €) et, en fonction de l'âge de l'enfant, quatre garanties supplémentaires. Le document est un résumé et renvoie à la documentation précontractuelle et contractuelle.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Frais de santé",
+      "description": "Garantie de base : « Frais de santé. » Le document ne détaille pas les prestations couvertes.",
+      "is_optional": false,
+      "territorial_scope": "Monde entier (rubrique « Où suis-je couvert(e) ? », page 2).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Garantie Individuelle accident",
+      "description": "Garantie de base : « Garantie Individuelle accident  avec un plafond de 200 000 €. »",
+      "is_optional": false,
+      "territorial_scope": "Monde entier (pour la durée de l'année scolaire) — rubrique « Où suis-je couvert(e) ? », page 2.",
+      "limits": "plafond de 200 000 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Monde entier pour la garantie Individuelle accident « (pour la durée de l'année scolaire) »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Frais de transport",
+      "description": "Garantie de base : « Frais de transport. »",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine et DROM (rubrique « Où suis-je couvert(e) ? », page 2).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Dommages et vol de vêtements",
+      "description": "Garantie de base : « Dommages et vol de vêtements. »",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine et DROM (rubrique « Où suis-je couvert(e) ? », page 2).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Rachat de franchise Responsabilité civile",
+      "description": "Garantie de base : « Rachat de franchise Responsabilité civile. » Le document n'indique ni le montant de la franchise rachetée ni le contrat de responsabilité civile concerné.",
+      "is_optional": false,
+      "territorial_scope": "Monde entier (pour la durée de l'année scolaire) — rubrique « Où suis-je couvert(e) ? », page 2.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Monde entier pour le rachat de franchise Responsabilité civile « (pour la durée de l'année scolaire) »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance à domicile",
+      "description": "Garantie de base : « Assistance à domicile. » Le contenu des prestations n'est pas détaillé.",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine et DROM (rubrique « Où suis-je couvert(e) ? », page 2).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Assistance aux personnes",
+      "description": "Garantie de base : « Assistance aux personnes. » Le contenu des prestations n'est pas détaillé.",
+      "is_optional": false,
+      "territorial_scope": "Monde entier (rubrique « Où suis-je couvert(e) ? », page 2).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Responsabilité civile",
+      "description": "Garantie optionnelle : « Responsabilité civile avec un plafond de 10 000 000 €. »",
+      "is_optional": true,
+      "territorial_scope": "Monde entier (rubrique « Où suis-je couvert(e) ? », page 2).",
+      "limits": "plafond de 10 000 000 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Défense pénale et recours suite à accident",
+      "description": "Garantie optionnelle : « Défense pénale et recours suite à accident  avec un plafond de 20 000 €. »",
+      "is_optional": true,
+      "territorial_scope": "Monde entier (si séjour de 3 mois maximum, sans limitation de durée en France) — rubrique « Où suis-je couvert(e) ? », page 2. La même rubrique cite par ailleurs « le recours » comme couvert dans l'Espace Economique Européen, la Suisse, Monaco, Andorre, Saint-Marin et le Vatican (pour la durée de l'année scolaire).",
+      "limits": "plafond de 20 000 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Monde entier pour la garantie Défense pénale et recours suite à accident « (si séjour de 3 mois maximum sans limitation de durée en France) ».",
+        "« Espace Economique Européen, Suisse, Monaco, Andorre, Saint-Marin, Vatican pour le recours (pour la durée de l'année scolaire). »"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Vol de fournitures scolaires",
+      "description": "Garantie optionnelle proposée « en fonction de l'âge de l'enfant » : « Vol de fournitures scolaires. »",
+      "is_optional": true,
+      "territorial_scope": "France métropolitaine et DROM (rubrique « Où suis-je couvert(e) ? », page 2).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Et en fonction de l'âge de l'enfant."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Dommages au matériel confié",
+      "description": "Garantie optionnelle proposée « en fonction de l'âge de l'enfant » : « Dommages au matériel confié. »",
+      "is_optional": true,
+      "territorial_scope": "France métropolitaine et DROM (rubrique « Où suis-je couvert(e) ? », page 2).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Et en fonction de l'âge de l'enfant."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Dommages au vélo",
+      "description": "Garantie optionnelle proposée « en fonction de l'âge de l'enfant » : « Dommages au vélo. »",
+      "is_optional": true,
+      "territorial_scope": "France métropolitaine et DROM (rubrique « Où suis-je couvert(e) ? », page 2).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Et en fonction de l'âge de l'enfant."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Dommages et vol d'un instrument de musique",
+      "description": "Garantie optionnelle proposée « en fonction de l'âge de l'enfant » : « Dommages et vol d’un instrument de musique. »",
+      "is_optional": true,
+      "territorial_scope": "France métropolitaine et DROM (rubrique « Où suis-je couvert(e) ? », page 2).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Et en fonction de l'âge de l'enfant."
+      ],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Les maladies y compris celles ayant pour origine un accident corporel",
+      "description": "Les maladies y compris celles ayant pour origine un accident corporel.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "La faute intentionnelle ou dolosive",
+      "description": "Les principales exclusions : La faute intentionnelle ou dolosive.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Accidents en état d'ivresse manifeste",
+      "description": "Les accidents survenant lorsque l'assuré se trouve en état d'ivresse manifeste constaté par la police ou la gendarmerie, avec un taux d'alcoolémie égal ou supérieur à celui défini par le code de la route, et que le sinistre est en relation avec cet état.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Accidents sous l'emprise de substances ou plantes classées comme stupéfiants",
+      "description": "Les accidents survenant lorsque l'assuré se trouve sous l'emprise de substances ou plantes classées comme stupéfiants, constatée par la police ou la gendarmerie.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Accidents survenant lorsque l'assuré conduit un véhicule terrestre à moteur",
+      "description": "Les accidents survenant lorsque l’assuré conduit un véhicule terrestre à moteur. Toutefois, la conduite d'un 2 roues d'une cylindrée maximum de 49,9 cm3 reste garantie, ainsi que la conduite d'un engin de déplacement personnel motorisé, à condition que l'assuré remplisse les conditions d'âge et de capacités exigées par la réglementation en vigueur.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Participation à des émeutes, mouvements populaires, actes de terrorisme ou de sabotage, grèves, rixes, agressions",
+      "description": "La participation à des émeutes, mouvements populaires, actes de terrorisme ou de sabotage, grèves, rixes, agressions, sauf cas de légitime défense.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Accidents résultant d'une activité sportive en club ou association affilié à une fédération assurée",
+      "description": "Les accidents résultant de toute activité sportive exercée dans un club ou une association affilié à une fédération ayant souscrit un contrat d’assurance au bénéfice de ses adhérents.",
+      "applies_to": "all",
+      "page": 1
+    }
+  ],
+  "deductibles": null,
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "À la souscription du contrat",
+      "description": "À la souscription du contrat : répondre avec exactitude et sincérité à toutes les questions qui sont posées et fournir les justificatifs demandés.",
+      "timing": "À la souscription du contrat",
+      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie, vous devez :",
+      "page": 2
+    },
+    {
+      "name": "En cours de contrat",
+      "description": "En cours de contrat : nous déclarer les circonstances nouvelles qui modifient les informations fournies lors de la souscription.",
+      "timing": "En cours de contrat",
+      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie, vous devez :",
+      "page": 2
+    },
+    {
+      "name": "À la souscription et à chaque renouvellement",
+      "description": "À la souscription et à chaque renouvellement : régler votre cotisation aux dates convenues.",
+      "timing": "À la souscription et à chaque renouvellement",
+      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie, vous devez :",
+      "page": 2
+    },
+    {
+      "name": "En cas de sinistre",
+      "description": "En cas de sinistre : nous le déclarer dès que vous en avez connaissance et au plus tard dans le délai fixé par le contrat.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie, vous devez :",
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclarer le sinistre",
+      "description": "En cas de sinistre : nous le déclarer dès que vous en avez connaissance et au plus tard dans le délai fixé par le contrat.",
+      "deadline": "Dès que vous en avez connaissance et au plus tard dans le délai fixé par le contrat",
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat est conclu jusqu’au 31 août de l’année de souscription avec tacite reconduction annuelle, ce qui signifie qu’il est automatiquement renouvelé à l’échéance (la date d’échéance est le 1er septembre à 00h00).",
+    "tacit_renewal": true,
+    "notice_period": null,
+    "methods": [
+      "Par déclaration auprès de nos conseillers (en agence ou par téléphone)",
+      "Par lettre ou support durable (e-mail, espace client sur maaf.fr et sur l'application mobile MAAF & Moi)"
+    ],
+    "special_rights": [
+      "Résiliation à l'échéance annuelle",
+      "Résiliation lors de la survenance de certains événements (changement de domicile, de profession…)"
+    ],
+    "page": 2,
+    "effective_date": "Les garanties prennent effet à compter de la date mentionnée sur les conditions particulières.",
+    "cancellation_notes": "Vous pouvez résilier votre contrat dans les cas prévus par la réglementation et par les conditions générales, notamment à l’échéance annuelle, et lors de la survenance de certains événements (changement de domicile, de profession…). La résiliation de votre contrat doit nous être notifiée par déclaration auprès de nos conseillers (en agence ou par téléphone) ou par lettre ou support durable (e-mail, espace client sur maaf.fr et sur l’application mobile MAAF & Moi)."
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "La cotisation doit être réglée en une seule fois dès la souscription de votre contrat par chèque, prélèvement automatique, carte bancaire."
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Personne assurée",
+      "description": "Votre enfant désigné aux conditions particulières.",
+      "page": 1
+    },
+    {
+      "name": "Étendue territoriale — France métropolitaine et DROM",
+      "description": "France métropolitaine et DROM pour les frais de transport, les dommages aux vêtements, au matériel confié et au vélo, les dommages et vol d’un instrument de musique, le vol de fournitures scolaires, l’Assistance à domicile.",
+      "page": 2
+    },
+    {
+      "name": "Étendue territoriale — Espace Economique Européen et micro-États",
+      "description": "Espace Economique Européen, Suisse, Monaco, Andorre, Saint-Marin, Vatican pour le recours (pour la durée de l’année scolaire).",
+      "page": 2
+    },
+    {
+      "name": "Étendue territoriale — Monde entier",
+      "description": "Monde entier pour les frais de santé, la garantie Individuelle accident (pour la durée de l’année scolaire), le rachat de franchise Responsabilité civile (pour la durée de l’année scolaire), l’Assistance aux personnes, la Responsabilité civile et la garantie Défense pénale et recours suite à accident (si séjour de 3 mois maximum sans limitation de durée en France).",
+      "page": 2
+    },
+    {
+      "name": "Prise d'effet des garanties",
+      "description": "Les garanties prennent effet à compter de la date mentionnée sur les conditions particulières.",
+      "page": 2
+    },
+    {
+      "name": "Portée du document",
+      "description": "Ce document d’information présente un résumé des principales garanties et exclusions du produit et ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l’information complète sur ce produit dans la documentation précontractuelle et contractuelle.",
+      "page": 1
+    },
+    {
+      "name": "Entreprise d'assurance",
+      "description": "MAAF Assurances SA Société anonyme au capital de 160 000 000 euros entièrement versé Entreprise régie par le code des assurances - RCS Niort 542 073 580 - code APE 6512 Z",
+      "page": 2
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Ce contrat d’assurance vous permet de couvrir les dommages matériels et corporels que peut subir votre enfant dans le cadre de sa vie privée et de ses activités scolaires et extra scolaires.",
+      "context": "De quel type d'assurance s'agit-il ?",
+      "page": 1
+    },
+    {
+      "quote": "Votre enfant désigné aux conditions particulières.",
+      "context": "Qu'est-ce qui est assuré ? — personne assurée",
+      "page": 1
+    },
+    {
+      "quote": "Garantie Individuelle accident  avec un plafond de 200 000 €.",
+      "context": "Garantie de base — plafond",
+      "page": 1
+    },
+    {
+      "quote": "Responsabilité civile avec un plafond de 10 000 000 €.",
+      "context": "Garantie optionnelle — plafond",
+      "page": 1
+    },
+    {
+      "quote": "Défense pénale et recours suite à accident  avec un plafond de 20 000 €.",
+      "context": "Garantie optionnelle — plafond",
+      "page": 1
+    },
+    {
+      "quote": "Et en fonction de l’âge de l’enfant :",
+      "context": "Garanties optionnelles selon l'âge de l'enfant",
+      "page": 1
+    },
+    {
+      "quote": "Dommages et vol d’un instrument de musique.",
+      "context": "Garantie optionnelle selon l'âge",
+      "page": 1
+    },
+    {
+      "quote": "Les maladies y compris celles ayant pour origine un accident corporel.",
+      "context": "Qu'est-ce qui n'est pas assuré ?",
+      "page": 1
+    },
+    {
+      "quote": "Les accidents survenant lorsque l'assuré se trouve en état d'ivresse manifeste constaté par la police ou la gendarmerie, avec un taux d'alcoolémie égal ou supérieur à celui défini par le code de la route, et que le sinistre est en relation avec cet état.",
+      "context": "Y a-t-il des exclusions à la couverture ?",
+      "page": 1
+    },
+    {
+      "quote": "Les accidents survenant lorsque l’assuré conduit un véhicule terrestre à moteur. Toutefois, la conduite d'un 2 roues d'une cylindrée maximum de 49,9 cm3 reste garantie, ainsi que la conduite d'un engin de déplacement personnel motorisé, à condition que l'assuré remplisse les conditions d'âge et de capacités exigées par la réglementation en vigueur.",
+      "context": "Y a-t-il des exclusions à la couverture ?",
+      "page": 1
+    },
+    {
+      "quote": "Les accidents résultant de toute activité sportive exercée dans un club ou une association affilié à une fédération ayant souscrit un contrat d’assurance au bénéfice de ses adhérents.",
+      "context": "Y a-t-il des exclusions à la couverture ?",
+      "page": 1
+    },
+    {
+      "quote": "France métropolitaine et DROM pour les frais de transport, les dommages aux vêtements, au matériel confié et au vélo, les dommages et vol d’un instrument de musique, le vol de fournitures scolaires, l’Assistance à domicile.",
+      "context": "Où suis-je couvert(e) ?",
+      "page": 2
+    },
+    {
+      "quote": "Espace Economique Européen, Suisse, Monaco, Andorre, Saint-Marin, Vatican pour le recours (pour la durée de l’année scolaire).",
+      "context": "Où suis-je couvert(e) ?",
+      "page": 2
+    },
+    {
+      "quote": "Monde entier pour les frais de santé, la garantie Individuelle accident (pour la durée de l’année scolaire), le rachat de franchise Responsabilité civile (pour la durée de l’année scolaire), l’Assistance aux personnes, la Responsabilité civile et la garantie Défense pénale et recours suite à accident (si séjour de 3 mois maximum sans limitation de durée en France).",
+      "context": "Où suis-je couvert(e) ?",
+      "page": 2
+    },
+    {
+      "quote": "Sous peine de nullité du contrat d’assurance ou de non-garantie, vous devez :",
+      "context": "Quelles sont mes obligations ? — sanction",
+      "page": 2
+    },
+    {
+      "quote": "En cas de sinistre : nous le déclarer dès que vous en avez connaissance et au plus tard dans le délai fixé par le contrat.",
+      "context": "Quelles sont mes obligations ? — sinistre",
+      "page": 2
+    },
+    {
+      "quote": "La cotisation doit être réglée en une seule fois dès la souscription de votre contrat par chèque, prélèvement automatique, carte bancaire.",
+      "context": "Quand et comment effectuer les paiements ?",
+      "page": 2
+    },
+    {
+      "quote": "Le contrat est conclu jusqu’au 31 août de l’année de souscription avec tacite reconduction annuelle, ce qui signifie qu’il est automatiquement renouvelé à l’échéance (la date d’échéance est le 1er septembre à 00h00).",
+      "context": "Quand commence la couverture et quand prend-elle fin ?",
+      "page": 2
+    },
+    {
+      "quote": "La résiliation de votre contrat doit nous être notifiée par déclaration auprès de nos conseillers (en agence ou par téléphone) ou par lettre ou support durable (e-mail, espace client sur maaf.fr et sur l’application mobile MAAF & Moi).",
+      "context": "Comment puis-je résilier le contrat ?",
+      "page": 2
+    },
+    {
+      "quote": "MAAF Assurances SA Société anonyme au capital de 160 000 000 euros entièrement versé Entreprise régie par le code des assurances - RCS Niort 542 073 580 - code APE 6512 Z",
+      "context": "Mentions légales de l'entreprise d'assurance",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "edition_date laissée à null : le document n'imprime aucune date d'édition. La seule séquence de type date est « 260518 » enfouie dans le code de référence « Réf. : MU0_IPIDHA_00-260518-fr9f0c-1-1-2-05:01:18- HAB11015 », jamais présentée comme une date d'édition ; elle n'a pas été promue en edition_date.",
+    "reference : la ligne « Réf. » varie d'une page à l'autre (…-1-1-2-05:01:18- HAB11015 en page 1, …-1-2-2-05:01:18- HAB11015 en page 2) ; seul le code produit stable HAB11015 a été retenu.",
+    "Divergence nom de fichier / document : le PDF source s'appelle HAB11015.PDF et le code produit porte le préfixe « HAB » (habitation), alors que le document imprime « Assurance Vie privée » et « TEMPO ENFANTS ». Le document fait foi : product_name = TEMPO ENFANTS.",
+    "Contradiction interne relevée dans la rubrique « Où suis-je couvert(e) ? » : « le recours » est rattaché à l'Espace Economique Européen, Suisse, Monaco, Andorre, Saint-Marin, Vatican (pour la durée de l'année scolaire), tandis que « la garantie Défense pénale et recours suite à accident » figure dans la liste Monde entier (si séjour de 3 mois maximum sans limitation de durée en France). Les deux lectures sont conservées mot pour mot dans la garantie et dans special_conditions ; le document ne les concilie pas.",
+    "Mise en page IPID sur deux colonnes : la couche texte entrelace « Qu'est-ce qui est assuré ? » (colonne de gauche) et « Qu'est-ce qui n'est pas assuré ? » / « Y a-t-il des exclusions à la couverture ? » (colonne de droite). L'affectation a été faite par coordonnées via page.get_text(\"blocks\") : colonne gauche x≈36-268, colonne droite x≈309-554, la rubrique exclusions commençant à y≈324 à droite. Aucun tableau de garanties à cases cochées ni marque vectorielle dans ce document ; les « ! » devant les exclusions sont bien des caractères de la couche texte.",
+    "Les quatre garanties « Vol de fournitures scolaires », « Dommages au matériel confié », « Dommages au vélo » et « Dommages et vol d'un instrument de musique » figurent sous le titre « Les garanties optionnelles : » puis sous le sous-titre « Et en fonction de l'âge de l'enfant : » ; elles sont donc marquées is_optional = true, le document ne précisant aucune tranche d'âge.",
+    "Document de type IPID : c'est un résumé. Aucun lexique/définitions, aucune franchise générale chiffrée (la garantie « Rachat de franchise Responsabilité civile » ne dit ni le montant racheté ni le contrat concerné), aucun délai d'attente, aucun délai de prescription, aucun préavis de résiliation chiffré. deductibles et prescription_period laissés à null pour cette raison.",
+    "target_audience laissée à null : le document ne désigne aucun public cible et ne qualifie pas le souscripteur. Il nomme seulement l'assuré (« Votre enfant désigné aux conditions particulières. »). Le libellé du document est reporté dans target_audience_note.",
+    "Aucun montant de cotisation n'est indiqué (l'IPID ne donne que les modalités de paiement).",
+    "Porteur de risque déterminé sans ambiguïté : le document n'imprime qu'une seule entité, MAAF Assurances SA, avec la mention « Entreprise régie par le code des assurances - RCS Niort 542 073 580 - code APE 6512 Z ». Aucune clause générique listant plusieurs assureurs possibles.",
+    "Couche texte : 22 apostrophes courbes (U+2019) et une espace insécable (U+00A0) dans « 542 073 580 » ; le document mélange apostrophes courbes et apostrophes ASCII à l'intérieur d'une même phrase d'exclusion. Les citations ont été découpées programmatiquement dans le texte extrait par page.get_text(\"text\") (sauts de ligne ramenés à des espaces). Aucune ligature perdue ni glyphe de zone privée détecté.",
+    "Aucune troncature : le texte du prompt correspond caractère pour caractère au texte réextrait du PDF local pour les 2 pages (vérifié)."
+  ]
+}

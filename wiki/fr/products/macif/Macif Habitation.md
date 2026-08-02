@@ -386,6 +386,10 @@ Lorsque l'assuré est étudiant ou apprenti, il bénéficie d'un capital de 3 00
 - Le contrat porte plusieurs coquilles de la couche texte, conservées telles quelles dans les citations : « violant orage » pour violent (pages 9 et 10), « missionné un expert » pour missionner (pages 21 et 78), « Celsiuss » (page 25), « inhabi table », « ma trimonial », « con comitants », « cumu lativement », « borne de recharge ment », les exposants agglutinés (« 1rere », « 2ee », « 3ee », « 40ee », « 1erer ») et les articles du Code écrits avec des espaces autour du tiret (« L113 - 8 », « 1792 - 6 »). Ces formes n'ont pas été corrigées.
 - Les marqueurs de mise en page insérés par le convertisseur PDF (« Hors d'encadré. », « Encadré ... ») font partie de la couche texte et ne sont pas du texte contractuel ; ils ont été écartés des descriptions mais peuvent apparaître aux extrémités de certaines citations verbatim.
 
+## Documents liés
+
+- [Contrat Macif Habitation - Formule Construction - IPID](Contrat%20Macif%20Habitation%20-%20Formule%20Construction%20-%20IPID.md) - IPID / Fiche d'information, éd. 2025-06
+
 ## Source & fidélité
 
 - Source : [https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/CG-Macif-Habitation.pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/CG-Macif-Habitation.pdf) - téléchargé le 2026-08-01 - 100 pages

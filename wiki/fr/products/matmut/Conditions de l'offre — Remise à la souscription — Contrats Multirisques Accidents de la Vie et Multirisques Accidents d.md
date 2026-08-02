@@ -1,0 +1,162 @@
+---
+type: product
+domain: insurance
+country: fr
+insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
+  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
+  775 701 477]]'
+insurer_slug: matmut
+branch: gav
+product_name: Conditions de l’offre — Remise à la souscription — Contrats Multirisques
+  Accidents de la Vie et Multirisques Accidents de la Vie Sérénité
+document_type: conditions_tarifaires
+target_audience: null
+target_audience_note: Le souscripteur doit être une personne physique.
+reference: COND.OFFRE.MAV/MAV S. - 01/26
+edition_date: 01/26
+lang: fr
+tags:
+- insurance/fr/gav
+- product
+- insurer/matmut
+aliases:
+- Conditions de l’offre — Remise à la souscription — Contrats Multirisques Accidents
+  de la Vie et Multirisques Accidents de la Vie Sérénité
+source_url: https://www.matmut.fr/services-en-ligne/doc/conditions-offre-MAV-serenite.pdf
+source_pages: 1
+fetched_at: '2026-07-30'
+extraction_model: claude-code-subagent:scale
+prompt_version: '1.1'
+product_family: multirisques-accidents-de-la-vie
+variant: null
+edition_status: null
+edition_age_years: 0
+superseded: null
+extends: Multirisques Accidents de la Vie / Multirisques Accidents de la Vie Sérénité
+freshness: '2026-07-30'
+status: ready
+generated: true
+---
+
+<!-- GENERATED - do not edit. Fix data/<cc>/extracted/ and run `make build`. -->
+
+## Résumé
+
+Document d’une page fixant les conditions d’une offre commerciale de remise à la souscription sur les contrats Multirisques Accidents de la Vie et Multirisques Accidents de la Vie Sérénité de la Matmut. La remise équivaut à 1 mois de cotisation et est déduite du montant total annuel ; elle suppose que le souscripteur, personne physique, souscrive simultanément ou soit déjà titulaire d’un contrat Habitation Résidence Principale, Multirisques 4 roues, Camping-car ou 2 roues éligible, en cours et ni suspendu ni résilié. L’offre est exclue en cas de nouvelle souscription faisant suite à une résiliation pour non-paiement, n’est pas cumulable, ne vaut qu’une seule fois, et la remise est annulée puis due par l’assuré s’il résilie moins de 12 mois après la souscription. Elle vaut pour toute nouvelle souscription éligible prenant effet entre le 01/01/2026 et le 30/04/2026 inclus. Le document ne décrit aucune garantie des contrats concernés.
+
+- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Garantie des accidents de la vie](../../branches/Garantie%20des%20accidents%20de%20la%20vie.md) · Type : Conditions tarifaires · Édition : 01/26
+
+## Exclusions
+
+| Exclusion | Description | S'applique à | Page |
+|---|---|---|---|
+| Nouvelle souscription après résiliation pour non-paiement | IV. Exclusion L’offre ne s’applique pas en cas de nouvelle souscription d’un contrat Multirisques Accidents de la Vie ou Multirisques Accidents de la Vie Sérénité intervenant après la résiliation pour non-paiement de l’un ou l’autre de ces contrats. | all | p. 1 |
+| Contrats Habitation exclus de la condition d’éligibilité | Le contrat Habitation Résidence Principale ouvrant droit à l’offre doit relever de l’une des gammes distribuées depuis le 9 octobre 2013, « Habitation Résidence Principale de l’une des gammes distribuées depuis le 9 octobre 2013, à l’exclusion des contrats Habitation Résidence Principale - Jeunes, Habitation Matmut Etudiants et Hébergement, ». Ces trois contrats ne permettent donc pas de bénéficier de l’offre. | all | p. 1 |
+| Non-cumul avec d’autres offres et unicité | La présente offre est valable une seule et unique fois et n’est pas cumulable avec d’autres offres en cours sur les contrats Multirisques Accidents de la Vie et Multirisques Accidents de la Vie Sérénité. | all | p. 1 |
+| Absence de remboursement de l’avantage tarifaire | avantage tarifaire est personnel, incessible et non transférable. Il ne peut faire l’objet d’aucun remboursement. | all | p. 1 |
+
+## Obligations de l'assuré
+
+- III. Souscripteur/bénéficiaire et conditions de l’offre
+Pour bénéficier de l’offre, il est nécessaire en complément du contrat Multirisques Accidents de la Vie ou
+Multirisques Accidents de la Vie Sérénité de souscrire simultanément ou d’être déjà titulaire auprès de la
+Matmut de l’un au moins des contrats désignés ci-après : Habitation Résidence Principale de l’une des gammes distribuées depuis le 9 octobre 2013, à l’exclusion
+des contrats Habitation Résidence Principale - Jeunes, Habitation Matmut Etudiants et Hébergement, Multirisques 4 roues, Camping-car ou 2 roues garantissant l’un des véhicules suivants :
+- voiture particulière,
+- camping-car,
+- camionnette,
+- motocyclette de plus de 50 cm3 et/ou dont la vitesse maximale par construction est supérieure à
+45 km/h,
+- tricycle à moteur de plus de 50 cm3 et/ou dont la vitesse maximale par construction est supérieure à
+45 km/h. Ce contrat doit être en cours et n’être ni suspendu ni résilié, et ce, pour quelque motif que ce soit. (À la souscription du contrat Multirisques Accidents de la Vie ou Multirisques Accidents de la Vie Sérénité (souscription simultanée ou détention préalable) · Absence de bénéfice de l’offre) p. 1
+- Le souscripteur doit être une personne physique. (À la souscription) p. 1
+- En cas de résiliation du contrat, à l’initiative de l'assuré, moins de 12 mois après sa souscription, la
+remise accordée est annulée et son montant doit donc être réglé par l’assuré. (En cas de résiliation du contrat à l’initiative de l’assuré moins de 12 mois après sa souscription · La remise accordée est annulée et son montant doit être réglé par l’assuré) p. 1
+
+## Durée & résiliation
+
+- Droit spécial : En cas de résiliation du contrat, à l’initiative de l'assuré, moins de 12 mois après sa souscription, la
+remise accordée est annulée et son montant doit donc être réglé par l’assuré.
+
+## Prime
+
+- I. Descriptif de l’offre
+L’assuré souscrivant un contrat Multirisques Accidents de la Vie ou un contrat Multirisques Accidents de la
+Vie Sérénité se voit offrir une remise sur le montant de la cotisation.
+Pour bénéficier de cette offre, le souscripteur doit être titulaire auprès de la Matmut de l’un des contrats
+suivants : Habitation Résidence Principale, Multirisques 4 roues, Camping-car ou 2 roues tels que visés en
+III. ci-après.
+- II. Montant de la remise accordée
+La remise accordée équivaut à 1 mois de cotisation.
+- La remise accordée est déduite du montant total annuel de la cotisation.
+- avantage tarifaire est personnel, incessible et non transférable. Il ne peut faire l’objet d’aucun
+remboursement.
+- La présente offre est valable une seule et unique fois et n’est pas cumulable avec d’autres offres en
+cours sur les contrats Multirisques Accidents de la Vie et Multirisques Accidents de la Vie Sérénité.
+- En cas de résiliation du contrat, à l’initiative de l'assuré, moins de 12 mois après sa souscription, la
+remise accordée est annulée et son montant doit donc être réglé par l’assuré.
+- VI. Période de validité
+La présente offre est valable pour toute nouvelle souscription éligible prenant effet entre le 01/01/2026
+et le 30/04/2026 inclus.
+
+## Conditions particulières
+
+- I. Descriptif de l’offre
+L’assuré souscrivant un contrat Multirisques Accidents de la Vie ou un contrat Multirisques Accidents de la
+Vie Sérénité se voit offrir une remise sur le montant de la cotisation.
+Pour bénéficier de cette offre, le souscripteur doit être titulaire auprès de la Matmut de l’un des contrats
+suivants : Habitation Résidence Principale, Multirisques 4 roues, Camping-car ou 2 roues tels que visés en
+III. ci-après. p. 1
+- II. Montant de la remise accordée
+La remise accordée équivaut à 1 mois de cotisation. p. 1
+- III. Souscripteur/bénéficiaire et conditions de l’offre
+Pour bénéficier de l’offre, il est nécessaire en complément du contrat Multirisques Accidents de la Vie ou
+Multirisques Accidents de la Vie Sérénité de souscrire simultanément ou d’être déjà titulaire auprès de la
+Matmut de l’un au moins des contrats désignés ci-après : Habitation Résidence Principale de l’une des gammes distribuées depuis le 9 octobre 2013, à l’exclusion
+des contrats Habitation Résidence Principale - Jeunes, Habitation Matmut Etudiants et Hébergement, Multirisques 4 roues, Camping-car ou 2 roues garantissant l’un des véhicules suivants :
+- voiture particulière,
+- camping-car,
+- camionnette,
+- motocyclette de plus de 50 cm3 et/ou dont la vitesse maximale par construction est supérieure à
+45 km/h,
+- tricycle à moteur de plus de 50 cm3 et/ou dont la vitesse maximale par construction est supérieure à
+45 km/h. p. 1
+- Ce contrat doit être en cours et n’être ni suspendu ni résilié, et ce, pour quelque motif que ce soit. p. 1
+- Le souscripteur doit être une personne physique. p. 1
+- avantage tarifaire est personnel, incessible et non transférable. Il ne peut faire l’objet d’aucun
+remboursement. La présente offre est valable une seule et unique fois et n’est pas cumulable avec d’autres offres en
+cours sur les contrats Multirisques Accidents de la Vie et Multirisques Accidents de la Vie Sérénité. La remise accordée est déduite du montant total annuel de la cotisation. p. 1
+- VI. Période de validité
+La présente offre est valable pour toute nouvelle souscription éligible prenant effet entre le 01/01/2026
+et le 30/04/2026 inclus. p. 1
+- VII. Information
+Les conditions de l’offre sont disponibles sur le site matmut.fr et dans les Agences Matmut. Elles peuvent
+être remises sur simple demande. p. 1
+- Mutuelle assurance des travailleurs mutualistes
+Société d’assurance mutuelle à cotisations variables, immatriculée au RCS de Rouen n° 775 701 477.
+Entreprise régie par le Code des assurances
+Siège social : 66, rue de Sotteville 76100 Rouen - Adresse postale : 76030 Rouen CEDEX 1 p. 1
+
+## Lacunes d'extraction
+
+- Document de nature tarifaire et promotionnelle : il ne décrit AUCUNE garantie des contrats Multirisques Accidents de la Vie et MAV Sérénité — ni objet, ni plafond, ni franchise, ni territorialité, ni définitions, ni procédure de sinistre, ni prescription. coverages[], definitions[], waiting_periods[] et claims_procedure[] sont donc vides, et deductibles/prescription_period sont à null. Le contenu se limite au mécanisme de la remise.
+- exclusions[] : seule la première entrée provient d’une rubrique intitulée « IV. Exclusion » dans le document. Les trois autres sont des restrictions de l’offre énoncées ailleurs (contrats Habitation écartés par « à l’exclusion des... », non-cumul et unicité, absence de remboursement) ; elles portent sur le bénéfice de l’offre commerciale et non sur la couverture d’assurance. Le texte source est reproduit verbatim dans chaque description.
+- duration_and_cancellation ne reflète pas la durée ni la reconduction des contrats assurés, que le document n’aborde pas : seul special_rights est renseigné, avec la clause de restitution de la remise en cas de résiliation à l’initiative de l’assuré moins de 12 mois après la souscription. duration, tacit_renewal, notice_period et methods restent à null.
+- target_audience laissé à null. Le document énonce une condition de forme juridique — « Le souscripteur doit être une personne physique. », reportée verbatim dans target_audience_note — et non une catégorie de clientèle : une personne physique peut aussi être un indépendant, de sorte que le rattachement à « particuliers » serait une déduction et non une lecture du texte.
+- Aucun montant en euros n’est indiqué : la remise est exprimée en durée (« équivaut à 1 mois de cotisation ») et le document ne donne ni tarif de base ni exemple chiffré.
+- Piège de caractères relevé et conservé verbatim : le document utilise l’apostrophe courbe U+2019 partout (27 occurrences) sauf UNE apostrophe ASCII, au milieu d’une même phrase — « à l’initiative de l'assuré » dans la clause de restitution. Les citations étant des tranches exactes de la couche texte, elles reproduisent ce mélange ; toute reformulation manuelle de cette phrase casserait l’ancrage.
+- edition_date reprise telle qu’imprimée dans la référence (« 01/26 »), non normalisée en AAAA-MM-JJ faute de jour indiqué.
+- Le document couvre deux produits distincts (Multirisques Accidents de la Vie et Multirisques Accidents de la Vie Sérénité) sans les différencier ni sur le montant de la remise ni sur les conditions ; product_family retient la ligne de base « Multirisques Accidents de la Vie » et variant reste à null.
+- Porteur du risque conforme aux métadonnées : le document est émis par la Mutuelle assurance des travailleurs mutualistes, société d’assurance mutuelle à cotisations variables, RCS de Rouen n° 775 701 477, 66 rue de Sotteville 76100 Rouen. S’agissant d’un document d’offre et non d’un contrat, il ne comporte ni réserve de la souscription aux Sociétaires ni article sur le rappel de cotisation propre aux mutuelles à cotisations variables.
+- Les gammes Habitation éligibles sont désignées par une date de distribution (« depuis le 9 octobre 2013 ») sans être nommées ; la liste exacte des gammes concernées n’est pas extractible de ce document.
+
+## Documents liés
+
+- Extension / option du produit : **Multirisques Accidents de la Vie / Multirisques Accidents de la Vie Sérénité**
+- [Multirisques Accidents de la Vie](Multirisques%20Accidents%20de%20la%20Vie.md) - Conditions générales, éd. 2026-01
+
+## Source & fidélité
+
+- Source : [https://www.matmut.fr/services-en-ligne/doc/conditions-offre-MAV-serenite.pdf](https://www.matmut.fr/services-en-ligne/doc/conditions-offre-MAV-serenite.pdf) - téléchargé le 2026-07-30 - 1 pages
+- Extraction : claude-code-subagent:scale · prompt v1.1
+- ⚠️ Ceci n'est pas le document officiel de l'assureur et peut contenir des erreurs d'extraction. Information, non un conseil - vérifiez toujours par rapport au document source.

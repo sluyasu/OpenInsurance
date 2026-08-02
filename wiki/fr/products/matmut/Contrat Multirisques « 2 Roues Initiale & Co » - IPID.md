@@ -183,6 +183,11 @@ Protection Juridique relative au bien assuré : prise en charge de la défense d
 - Le texte comporte 5 glyphes de zone privée Unicode U+F0FC (puces Wingdings converties) en tête des garanties en inclusion et des deux paragraphes de la rubrique « Où suis-je couvert(e) ? ». Les citations verbatim ont été découpées de façon à ne jamais les traverser.
 - Texte du document vérifié caractère par caractère contre le PDF source (PyMuPDF, page.get_text("text")) : les 2 pages du prompt sont identiques à celles du PDF. Aucune troncature.
 
+## Documents liés
+
+- Extension liée : [Conditions de la réduction Âge du véhicule — Contrat 2 roues Initiale & Co - Tarifs](Conditions%20de%20la%20r%C3%A9duction%20%C3%82ge%20du%20v%C3%A9hicule%20%E2%80%94%20Contrat%202%20roues%20Initiale%20%26%20Co%20-%20Tarifs.md)
+- [Conditions de la réduction Âge du véhicule — Contrat 2 roues Initiale & Co - Tarifs](Conditions%20de%20la%20r%C3%A9duction%20%C3%82ge%20du%20v%C3%A9hicule%20%E2%80%94%20Contrat%202%20roues%20Initiale%20%26%20Co%20-%20Tarifs.md) - Conditions tarifaires, éd. 01-26
+
 ## Source & fidélité
 
 - Source : [https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/ipid-mrsq-2r-init-and-co.pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/ipid-mrsq-2r-init-and-co.pdf) - téléchargé le 2026-07-30 - 2 pages

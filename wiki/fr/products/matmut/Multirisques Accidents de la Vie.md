@@ -427,6 +427,11 @@ Conformément à l'article L. 114-1 du Code des assurances, toutes actions déri
 - Le contrat ne comporte aucune garantie de protection juridique ni aucune garantie confiée à un porteur de risque distinct : la seule entité tierce nommée est le prestataire d'assistance (IMA GIE / Matmut Assistance), qui exécute des prestations en nature et n'est pas désigné comme assureur. Aucune police collective distincte n'est mentionnée.
 - Le document ne mentionne ni code de branche réglementaire, ni numéro d'agrément, ni numéro ORIAS : `branch_code` reste null.
 
+## Documents liés
+
+- Extension liée : [Conditions de l'offre — Remise à la souscription — Contrats Multirisques Accidents de la Vie et Multirisques Accidents d](Conditions%20de%20l%27offre%20%E2%80%94%20Remise%20%C3%A0%20la%20souscription%20%E2%80%94%20Contrats%20Multirisques%20Accidents%20de%20la%20Vie%20et%20Multirisques%20Accidents%20d.md)
+- [Conditions de l'offre — Remise à la souscription — Contrats Multirisques Accidents de la Vie et Multirisques Accidents d](Conditions%20de%20l%27offre%20%E2%80%94%20Remise%20%C3%A0%20la%20souscription%20%E2%80%94%20Contrats%20Multirisques%20Accidents%20de%20la%20Vie%20et%20Multirisques%20Accidents%20d.md) - Conditions tarifaires, éd. 01/26
+
 ## Source & fidélité
 
 - Source : [https://www.matmut.fr/services-en-ligne/doc/CG/CGMAV.pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGMAV.pdf) - téléchargé le 2026-07-30 - 62 pages

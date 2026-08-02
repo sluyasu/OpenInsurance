@@ -5,7 +5,7 @@ country: fr
 insurer_slug: macif
 name: Macif
 website: https://www.macif.fr
-products_count: 33
+products_count: 37
 branches_covered:
 - animaux
 - assurance-vie
@@ -15,6 +15,7 @@ branches_covered:
 - emprunteur
 - habitation
 - moto
+- multirisque-professionnelle
 - navigation
 - obseques
 - rc-professionnelle
@@ -35,7 +36,7 @@ generated: true
 
 ## Résumé
 
-**Macif** - [https://www.macif.fr](https://www.macif.fr). 33 document(s) across 13 branch(es).
+**Macif** - [https://www.macif.fr](https://www.macif.fr). 37 document(s) across 14 branch(es).
 
 ## Produits par branche
 
@@ -50,12 +51,14 @@ generated: true
 - [Multi Vie - Tarifs](../products/macif/Multi%20Vie%20-%20Tarifs.md) - Conditions tarifaires (2024-06) · réf. MUT/ FC/ FRAIS/MV - 06/24
 
 ### [Assurance auto](../branches/Assurance%20auto.md)
+- [Contrat Camping-car Autocaravane - IPID](../products/macif/Contrat%20Camping-car%20Autocaravane%20-%20IPID.md) - IPID / Fiche d'information (2018-10) · réf. LOIS CCAR 10/18
 - [Contrat Camping-car, Autocaravane](../products/macif/Contrat%20Camping-car%2C%20Autocaravane.md) - Conditions générales (2019-01) · réf. LOIS / CARACC / 05 - 01 / 19 - N 891
 - [Contrat Macif Pann'Auto - IPID](../products/macif/Contrat%20Macif%20Pann%27Auto%20-%20IPID.md) - IPID / Fiche d'information (12/22) · réf. VEH/GPM/05 12/22
 - [Réduction spéciale Bon conducteur Macif - Tarifs](../products/macif/R%C3%A9duction%20sp%C3%A9ciale%20Bon%20conducteur%20Macif%20-%20Tarifs.md) - Conditions tarifaires (2024-12)
 
 ### [Autres](../branches/Autres.md)
 - [Banque - Notice d'information d'Assurance des Moyens de paiement - IPID](../products/macif/Banque%20-%20Notice%20d%27information%20d%27Assurance%20des%20Moyens%20de%20paiement%20-%20IPID.md) - IPID / Fiche d'information (10/18) · réf. BQ MP 10/18
+- [Contrat Caravaning - IPID](../products/macif/Contrat%20Caravaning%20-%20IPID.md) - IPID / Fiche d'information (2018-10) · réf. LOIS CARAV 10/18
 
 ### [Chasse](../branches/Chasse.md)
 - [Contrat d'assurance Chasse - IPID](../products/macif/Contrat%20d%27assurance%20Chasse%20-%20IPID.md) - IPID / Fiche d'information (10/18) · réf. CHASSE 10/18
@@ -70,11 +73,15 @@ generated: true
 ### [Multirisque habitation](../branches/Multirisque%20habitation.md)
 - [Assistance juridique Option “Plus”](../products/macif/Assistance%20juridique%20Option%20%E2%80%9CPlus%E2%80%9D.md) - Conditions générales (2016-04) · réf. HAB/PROT RP/07 - 04/16 - N365
 - [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire](../products/macif/Contrat%20Habitation%20-%20Formule%20%C3%89conomique%20-%20R%C3%A9sidence%20principale%20-%20R%C3%A9sidence%20secondaire.md) - Conditions générales (05/18) · réf. HAB/ECO/05 - 05/18 - N781
+- [Contrat Macif Habitation - Formule Construction - IPID](../products/macif/Contrat%20Macif%20Habitation%20-%20Formule%20Construction%20-%20IPID.md) - IPID / Fiche d'information (2025-06) · réf. MACIF HAB MC 06/25
 - [Macif Habitation](../products/macif/Macif%20Habitation.md) - Conditions générales (06/25 (Version 06/2025)) · réf. MACIF HAB/05 - 06/25 - N570
 - [Sociétaire non occupant - Immeubles locatifs - IPID](../products/macif/Soci%C3%A9taire%20non%20occupant%20-%20Immeubles%20locatifs%20-%20IPID.md) - IPID / Fiche d'information (10/18) · réf. HAB-SNO-IL 10/18
 
 ### [Deux-roues, quads et voiturettes](../branches/Deux-roues%2C%20quads%20et%20voiturettes.md)
 - [Contrat Deux Roues](../products/macif/Contrat%20Deux%20Roues.md) - Conditions générales (2018-11-25) · réf. VEH/MOTO/05-25/11/18-N760
+
+### [Multirisque professionnelle](../branches/Multirisque%20professionnelle.md)
+- [Contrat Multigarantie Informatique - IPID](../products/macif/Contrat%20Multigarantie%20Informatique%20-%20IPID.md) - IPID / Fiche d'information (2018-10) · réf. ACTP/MI 10/18
 
 ### [Navigation de plaisance](../branches/Navigation%20de%20plaisance.md)
 - [Contrat Navigation de plaisance](../products/macif/Contrat%20Navigation%20de%20plaisance.md) - Conditions générales (2017-01) · réf. LOIS/NAV/05 - 01/17 - N081
