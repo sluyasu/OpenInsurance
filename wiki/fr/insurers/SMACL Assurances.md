@@ -5,7 +5,7 @@ country: fr
 insurer_slug: smacl
 name: SMACL Assurances
 website: https://www.smacl.fr
-products_count: 56
+products_count: 57
 branches_covered:
 - auto
 - autres
@@ -32,7 +32,7 @@ generated: true
 
 ## Résumé
 
-**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 56 document(s) across 10 branch(es).
+**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 57 document(s) across 10 branch(es).
 
 ## Produits par branche
 
@@ -107,6 +107,7 @@ generated: true
 - [Convergence - Responsabilité civile - IPID](../products/smacl/Convergence%20-%20Responsabilit%C3%A9%20civile%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. CONVERGENCE_DIPA_RC_SA_03(09_2022)
 - [Convergence - Responsabilité civile des dirigeants - IPID](../products/smacl/Convergence%20-%20Responsabilit%C3%A9%20civile%20des%20dirigeants%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. CONVERGENCE_DIPA_RCDI_03(09_2022)
 - [Sécurité des fonctionnaires territoriaux - IPID](../products/smacl/S%C3%A9curit%C3%A9%20des%20fonctionnaires%20territoriaux%20-%20IPID.md) - IPID / Fiche d'information (01/2022) · réf. PP_DIPA_SFT_02(07_2020)
+- [Sécurité des fonctionnaires territoriaux](../products/smacl/S%C3%A9curit%C3%A9%20des%20fonctionnaires%20territoriaux.md) - Conditions générales (11/2022) · réf. PP_CG_SFT_06(02_2023)
 
 ### Marchandises transportées
 - [ALÉASSUR Tous risques expositions clou à clou](../products/smacl/AL%C3%89ASSUR%20Tous%20risques%20expositions%20clou%20%C3%A0%20clou.md) - Conditions générales (01/2024) · réf. ALEASSUR_CS_TRE_CLOUACLOU_01(02_2016)

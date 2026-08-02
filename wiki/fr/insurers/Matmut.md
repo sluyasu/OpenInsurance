@@ -5,7 +5,7 @@ country: fr
 insurer_slug: matmut
 name: Matmut
 website: https://www.matmut.fr
-products_count: 136
+products_count: 137
 branches_covered:
 - animaux
 - assurance-vie
@@ -39,7 +39,7 @@ generated: true
 
 ## Résumé
 
-**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 136 document(s) across 17 branch(es).
+**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 137 document(s) across 17 branch(es).
 
 ## Produits par branche
 
@@ -191,6 +191,7 @@ generated: true
 - [Régime frais de santé CCN Industries et des commerces de gros de vins, cidres, spiritueux, sirops, jus de fruits et bois](../products/matmut/R%C3%A9gime%20frais%20de%20sant%C3%A9%20CCN%20Industries%20et%20des%20commerces%20de%20gros%20de%20vins%2C%20cidres%2C%20spiritueux%2C%20sirops%2C%20jus%20de%20fruits%20et%20bois.md) - Fiche produit · réf. CCN VINS SPIRITUEUX-0925
 - [Régime frais de santé CCN Production agricole cadres — Garantie CADRES Ociane — Vos garanties 2026 - Fiche](../products/matmut/R%C3%A9gime%20frais%20de%20sant%C3%A9%20CCN%20Production%20agricole%20cadres%20%E2%80%94%20Garantie%20CADRES%20Ociane%20%E2%80%94%20Vos%20garanties%202026%20-%20Fiche.md) - Fiche produit · réf. CCN PROD AGRI-0326
 - [Régime frais de santé CCN Restauration rapide — Vos garanties 2026 - Fiche](../products/matmut/R%C3%A9gime%20frais%20de%20sant%C3%A9%20CCN%20Restauration%20rapide%20%E2%80%94%20Vos%20garanties%202026%20-%20Fiche.md) - Fiche produit · réf. CCN RESTAURATION RAPIDE-0925
+- [Régime frais de santé CCN SYNTEC — Vos garanties 2026 - Fiche](../products/matmut/R%C3%A9gime%20frais%20de%20sant%C3%A9%20CCN%20SYNTEC%20%E2%80%94%20Vos%20garanties%202026%20-%20Fiche.md) - Fiche produit (2026) · réf. CCN SYNTEC-0226 (page 11) ; CCN SYNTEC-0925 (page 21)
 - [Régime frais de santé CCN Services de l'automobile — Vos garanties 2026 - Fiche](../products/matmut/R%C3%A9gime%20frais%20de%20sant%C3%A9%20CCN%20Services%20de%20l%27automobile%20%E2%80%94%20Vos%20garanties%202026%20-%20Fiche.md) - Fiche produit · réf. SERVICES DE L'AUTOMOBILE-0825
 - [Régime frais de santé CCN Transport de voyageurs — Vos garanties 2026 - Fiche](../products/matmut/R%C3%A9gime%20frais%20de%20sant%C3%A9%20CCN%20Transport%20de%20voyageurs%20%E2%80%94%20Vos%20garanties%202026%20-%20Fiche.md) - Fiche produit · réf. TRANSPORT ROUTIER DE VOYAGEURS-0925
 - [Régime frais de santé CCN Transport sanitaire — Vos garanties 2026 - Fiche](../products/matmut/R%C3%A9gime%20frais%20de%20sant%C3%A9%20CCN%20Transport%20sanitaire%20%E2%80%94%20Vos%20garanties%202026%20-%20Fiche.md) - Fiche produit · réf. TRANSPORT SANITAIRE-0925

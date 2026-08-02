@@ -27,7 +27,7 @@ navigate it without guessing. Do not edit by hand.
 |---|---|---|---|---|---|
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
 | ch (Switzerland) | 0 | 3 | 1 | 0 | 5 |
-| fr (France) | 24 | 498 | 10 | 1 | 5 |
+| fr (France) | 24 | 500 | 10 | 1 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
 
@@ -696,6 +696,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | rc-professionnelle | matmut | Multigaranties Professionnelles des Agents Publics | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-mpap.pdf) |
 | fr | rc-professionnelle | smacl | Convergence - Responsabilité civile - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-responsabilite-civile-convergence.pdf) |
 | fr | rc-professionnelle | smacl | Convergence - Responsabilité civile des dirigeants - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-responsabilite-civile-dirigeants-convergence.pdf) |
+| fr | rc-professionnelle | smacl | Sécurité des fonctionnaires territoriaux | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cg-assurance-securite-fonctionnaires-territoriaux.pdf) |
 | fr | rc-professionnelle | smacl | Sécurité des fonctionnaires territoriaux - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-fonctionnaires-territoriaux.pdf) |
 | fr | rc-professionnelle | thelem | Responsabilité Civile Chef d'Entreprise- Professions libérales - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_RCPRO.pdf) |
 | fr | retraite | gan | GAN ASSURANCES PERFORMANCE RETRAITE - Fiche | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2026/07/GAN-Performance-Retraite-Infos-Cles.pdf) |
@@ -773,6 +774,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | sante | matmut | Régime frais de santé CCN Industries et des commerces de gros de vins, cidres, spiritueux, sirops, jus de fruits et bois | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-VINS-SPIRITUEUX-garanties-sante.pdf) |
 | fr | sante | matmut | Régime frais de santé CCN Production agricole cadres — Garantie CADRES Ociane — Vos garanties 2026 - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-Production-agricole-cadre-garanties-sante.pdf) |
 | fr | sante | matmut | Régime frais de santé CCN Restauration rapide — Vos garanties 2026 - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-Restauration-rapide-garanties-sante.pdf) |
+| fr | sante | matmut | Régime frais de santé CCN SYNTEC — Vos garanties 2026 - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-SYNTEC-garanties-sante.pdf) |
 | fr | sante | matmut | Régime frais de santé CCN Services de l'automobile — Vos garanties 2026 - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-AUTOMOBILE-garanties-sante.pdf) |
 | fr | sante | matmut | Régime frais de santé CCN Transport de voyageurs — Vos garanties 2026 - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-TRV-garanties-sante.pdf) |
 | fr | sante | matmut | Régime frais de santé CCN Transport sanitaire — Vos garanties 2026 - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-TRS-garanties-sante.pdf) |

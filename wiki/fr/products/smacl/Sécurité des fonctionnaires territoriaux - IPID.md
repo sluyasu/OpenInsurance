@@ -138,6 +138,10 @@ Garantie de la responsabilité que l'assuré peut encourir personnellement en ra
 - Le document renvoie explicitement à une documentation contractuelle plus complète pour l'information intégrale sur le produit ; les plafonds et exclusions listés ici sont ceux de l'IPID, présentés comme les « principales » garanties et exclusions, et non comme une liste exhaustive du contrat lui-même.
 - MÉTHODE. Le texte du prompt a été vérifié octet pour octet contre une ré-extraction locale du PDF (PyMuPDF, page.get_text("text"), sha256 conforme au manifeste) : les 2 pages sont identiques une fois retirés les marqueurs [page N] injectés par le harnais. Toutes les citations sont des tranches exactes découpées dans cette ré-extraction, aucune n'enjambe la frontière de page.
 
+## Documents liés
+
+- [Sécurité des fonctionnaires territoriaux](S%C3%A9curit%C3%A9%20des%20fonctionnaires%20territoriaux.md) - Conditions générales, éd. 11/2022
+
 ## Source & fidélité
 
 - Source : [https://www.smacl.fr/files/documents/document-information-fonctionnaires-territoriaux.pdf](https://www.smacl.fr/files/documents/document-information-fonctionnaires-territoriaux.pdf) - téléchargé le 2026-08-01 - 2 pages
