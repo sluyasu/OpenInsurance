@@ -5,7 +5,7 @@ country: fr
 insurer_slug: maaf
 name: MAAF
 website: https://www.maaf.fr/
-products_count: 41
+products_count: 42
 branches_covered:
 - auto
 - chasse
@@ -35,7 +35,7 @@ generated: true
 
 ## Résumé
 
-**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 41 document(s) across 13 branch(es).
+**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 42 document(s) across 13 branch(es).
 
 ## Produits par branche
 
@@ -65,6 +65,7 @@ generated: true
 - [TEMPO HABITATION EN CONSTRUCTION - IPID](../products/maaf/TEMPO%20HABITATION%20EN%20CONSTRUCTION%20-%20IPID.md) - IPID / Fiche d'information (2026-01) · réf. MU0_IPIDHA_00-260126-LDFkGz-2-1-2-05:01:17- HAB11028
 - [TEMPO HABITATION Logement donné en location - IPID](../products/maaf/TEMPO%20HABITATION%20Logement%20donn%C3%A9%20en%20location%20-%20IPID.md) - IPID / Fiche d'information (2025-03) · réf. HAB11029
 - [Tempo Habitation - Fiche](../products/maaf/Tempo%20Habitation%20-%20Fiche.md) - Fiche produit (06/2022)
+- [Tempo Habitation en construction](../products/maaf/Tempo%20Habitation%20en%20construction.md) - Conditions générales (2026-01) · réf. Réf. 2340 - 01/26
 - [Tempo Habitation — Logement donné en location](../products/maaf/Tempo%20Habitation%20%E2%80%94%20Logement%20donn%C3%A9%20en%20location.md) - Conditions générales (03/25) · réf. 2341
 
 ### [Deux-roues, quads et voiturettes](../branches/Deux-roues%2C%20quads%20et%20voiturettes.md)
