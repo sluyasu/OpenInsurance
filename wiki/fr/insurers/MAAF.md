@@ -5,7 +5,7 @@ country: fr
 insurer_slug: maaf
 name: MAAF
 website: https://www.maaf.fr/
-products_count: 43
+products_count: 46
 branches_covered:
 - auto
 - chasse
@@ -18,6 +18,7 @@ branches_covered:
 - prevoyance
 - protection-juridique
 - rc-privee
+- retraite
 - sante
 - scolaire
 tags:
@@ -35,7 +36,7 @@ generated: true
 
 ## Résumé
 
-**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 43 document(s) across 13 branch(es).
+**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 46 document(s) across 14 branch(es).
 
 ## Produits par branche
 
@@ -59,6 +60,7 @@ generated: true
 - [Assurance habitation jeune - Fiche](../products/maaf/Assurance%20habitation%20jeune%20-%20Fiche.md) - Fiche produit (06/2023)
 - [Assurance habitation jeune - Formule Logement - Fiche](../products/maaf/Assurance%20habitation%20jeune%20-%20Formule%20Logement%20-%20Fiche.md) - Fiche produit (06/2023)
 - [Assurance habitation jeune - Formule Tous risques - Fiche](../products/maaf/Assurance%20habitation%20jeune%20-%20Formule%20Tous%20risques%20-%20Fiche.md) - Fiche produit (06/2023)
+- [Contrat Immeuble](../products/maaf/Contrat%20Immeuble.md) - Conditions générales (01/2026) · réf. 2222
 - [FICHE D'INFORMATION RELATIVE A LA VENTE A DISTANCE DE VOTRE CONTRAT TEMPO HABITATION - Doc](../products/maaf/FICHE%20D%27INFORMATION%20RELATIVE%20A%20LA%20VENTE%20A%20DISTANCE%20DE%20VOTRE%20CONTRAT%20TEMPO%20HABITATION%20-%20Doc.md) - Document
 - [IMMEUBLE - IPID](../products/maaf/IMMEUBLE%20-%20IPID.md) - IPID / Fiche d'information · réf. MU0_IPIDHA_00-250315-GqMS1D-1-1-2-22:19:13- HAB11009
 - [MOBIL HOME ET CONSTRUCTIONS LEGERES - IPID](../products/maaf/MOBIL%20HOME%20ET%20CONSTRUCTIONS%20LEGERES%20-%20IPID.md) - IPID / Fiche d'information (2026-01) · réf. HAB11027
@@ -99,8 +101,12 @@ generated: true
 - [TEMPO ENFANTS - IPID](../products/maaf/TEMPO%20ENFANTS%20-%20IPID.md) - IPID / Fiche d'information (2026-05) · réf. HAB11015
 - [TEMPO HABITATION Responsabilité civile - IPID](../products/maaf/TEMPO%20HABITATION%20Responsabilit%C3%A9%20civile%20-%20IPID.md) - IPID / Fiche d'information · réf. MU0_IPIDHA_00-240616-BNcr8r-6-1-2-01:01:15- HAB11023
 
+### [Retraite supplémentaire](../branches/Retraite%20suppl%C3%A9mentaire.md)
+- [PER WINALTO RETRAITE](../products/maaf/PER%20WINALTO%20RETRAITE.md) - Conditions générales (01/2026) · réf. 5177
+
 ### [Complémentaire santé](../branches/Compl%C3%A9mentaire%20sant%C3%A9.md)
 - [Assurance SANTÉ PROFIL SALARIÉS](../products/maaf/Assurance%20SANT%C3%89%20PROFIL%20SALARI%C3%89S.md) - Conditions générales (10.2025) · réf. 11015
+- [BIORYTHM - Fiche](../products/maaf/BIORYTHM%20-%20Fiche.md) - Fiche produit
 - [Contrat Santé Vivazen](../products/maaf/Contrat%20Sant%C3%A9%20Vivazen.md) - Conditions générales (2026-01) · réf. Réf. 2541 - 01/26
 - [Règlement Mutualiste MAAF Santé](../products/maaf/R%C3%A8glement%20Mutualiste%20MAAF%20Sant%C3%A9.md) - Conditions générales (2026-01) · réf. Réf. 18638 - 01/2026
 - [SANTÉ PROFIL SALARIÉS - Fiche](../products/maaf/SANT%C3%89%20PROFIL%20SALARI%C3%89S%20-%20Fiche.md) - Fiche produit (1er janvier 2026)

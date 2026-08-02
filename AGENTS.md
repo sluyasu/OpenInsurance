@@ -27,7 +27,7 @@ navigate it without guessing. Do not edit by hand.
 |---|---|---|---|---|---|
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
 | ch (Switzerland) | 0 | 3 | 1 | 0 | 5 |
-| fr (France) | 24 | 533 | 10 | 1 | 5 |
+| fr (France) | 24 | 540 | 10 | 1 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
 
@@ -498,6 +498,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | habitation | maaf | Assurance habitation jeune - Fiche | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/Tableaux_de_garanties/MAAF_TC_Tempo_jeunes_formule_logement_tous_risques.pdf) |
 | fr | habitation | maaf | Assurance habitation jeune - Formule Logement - Fiche | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/Tableaux_de_garanties/MAAF_TG_Tempo_jeunes_formule_logement.pdf) |
 | fr | habitation | maaf | Assurance habitation jeune - Formule Tous risques - Fiche | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/Tableaux_de_garanties/MAAF_TG_Tempo_jeunes_formule_tous risques.pdf) |
+| fr | habitation | maaf | Contrat Immeuble | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/CG/MAAF_Conditions_generales_Assurance_immeuble_2222.pdf) |
 | fr | habitation | maaf | FICHE D'INFORMATION RELATIVE A LA VENTE A DISTANCE DE VOTRE CONTRAT TEMPO HABITATION - Doc | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/Souscription/MAAF_Fiche_information_VAD_Habitation_6.pdf) |
 | fr | habitation | maaf | IMMEUBLE - IPID | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/HAB11009.PDF) |
 | fr | habitation | maaf | MOBIL HOME ET CONSTRUCTIONS LEGERES - IPID | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/HAB11027.PDF) |
@@ -738,6 +739,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | retraite | groupama | Groupama Horizon Retraite - Tarifs | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/2KR970BhlHyMtEUnGDoYY4/d5f313002250b84601bf1df372961b02/Transparence-des-frais-Groupama-Horizon-Retraite.pdf) |
 | fr | retraite | groupama | Groupama Nouvelle Vie - Tarifs | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/4gPQ2YoChbWFKeDV4VBICJ/5d3845ce521da29f7bfef4258cc03e7d/transparence-des-frais-groupama-nouvelle-vie.pdf) |
 | fr | retraite | groupama | Groupama Nouvelle Vie - Tarifs (2) | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/76DG8H2os5Tqr0ZHzznLKG/d8a1f0cd82c14686f4b8086d7ca42b74/Transparence-des-frais-Groupama-Nouvelle-Vie.pdf) |
+| fr | retraite | maaf | PER WINALTO RETRAITE | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Epargne/CG/5177_Notice_Information_PER_Winalto_Retraite.pdf) |
 | fr | retraite | macif | Multi Horizon Retraite | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/NI-multihorizonretraite-Mutavie.pdf) |
 | fr | retraite | macif | Multi Horizon Retraite - Tarifs | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/MultiHorizonRetraite-Frais.pdf) |
 | fr | retraite | macif | Plan Épargne Retraite individuel - Tarifs | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/PlanEpargneRetraite-Frais.pdf) |
@@ -764,12 +766,14 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | sante | groupama | TMGF Synergie santé Salariés - Doc | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/2WdH0QbT2yDvuM9AIoxpxr/3d1ec4295b3f531a9fece1ef2e0cbe03/tableau_de_garanties_synergie_sant___salari___r__gime_local.pdf) |
 | fr | sante | groupama | TMGF Synergie santé Salariés - Doc (2) | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/37C1b2uoBbhZLxH9Ye3Rnl/40a0d7d33c18c132a3357aadfd6d8473/tableau_de_garanties_synergie_sant___salari___r__gime_g__n__ral.pdf) |
 | fr | sante | maaf | Assurance SANTÉ PROFIL SALARIÉS | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Sante/CG/MAAF_Conditions_generales_Sante_MAAF_Pro_Salaries_11015.pdf) |
+| fr | sante | maaf | BIORYTHM - Fiche | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Sante/Exemples_de_remboursements/MAAF_exemples_remboursement_BIORYTHM.pdf) |
 | fr | sante | maaf | Contrat Santé Vivazen | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Sante/CG/MAAF_conditions_generales_contrat_complementaire_sante_vivazen_pro_2541.pdf) |
 | fr | sante | maaf | Règlement Mutualiste MAAF Santé | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Sante/CG/MAAF_Reglement_mutualiste_MAAFSANTE_18638.pdf) |
 | fr | sante | maaf | SANTÉ PROFIL SALARIÉS - Fiche | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Sante/Exemples_de_remboursements/MAAF_exemples_remboursement_Sante_MAAF_Pro_Salaries.pdf) |
 | fr | sante | macif | CONTRAT MACIF SANTÉ DES TERRITORIAUX - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_MSDT.pdf) |
 | fr | sante | macif | Complémentaire santé de la Branche de l'Aide, de l'Accompagnement des Soins et des Services à Domicile - Fiche | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/TG_BAD_Sante.pdf) |
 | fr | sante | macif | Garantie Santé | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/NID/NID-Garantie-Sante.pdf) |
+| fr | sante | macif | MACIF HOSPITALISATION | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/NID/NID_MH_COMPLET_20240101.pdf) |
 | fr | sante | macif | Macif Mutuelle Entreprises | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/conditions-generales-macif-mutuelle-entreprises.pdf) |
 | fr | sante | macif | Macif Mutuelle Entreprises (2) | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/nid-macif-mutuelle-entreprises.pdf) |
 | fr | sante | macif | Macif Mutuelle Entreprises (contrat collectif à adhésion obligatoire) - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/dipa-macif-mutuelle-entreprises.pdf) |
@@ -777,8 +781,10 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | sante | macif | Macif Mutuelle Santé | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/NID/NID_MMS_COMPLET_20240101.pdf) |
 | fr | sante | macif | Macif Mutuelle Santé - Macif Hospitalisation - Fiche | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/ExemplesRemboursement_MMS_ALS.pdf) |
 | fr | sante | macif | Régime conventionnel Frais de santé - CCN BAD (Branche de l'aide, de l'accompagnement, des soins et des services à domic | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/NID_BAD.pdf) |
+| fr | sante | macif | contrat COMPLÉMENTAIRE SANTÉ CCN DES CABINETS OU ENTREPRISES D'EXPERTISES EN AUTOMOBILE - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_sante_collective_experts_auto.pdf) |
 | fr | sante | macif | contrat GARANTIE SANTE TERRITORIAUX - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_GST.pdf) |
 | fr | sante | macif | contrat GARANTIE SANTÉ - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_garantie_sante.pdf) |
+| fr | sante | macif | contrat GARANTIE SANTÉ - IPID (2) | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_garantie_sante_20190820.pdf) |
 | fr | sante | matmut | Bien dans mon rôle d'aidant - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/mutuelle/pdf/notice-option-bien-dans-mon-role-aidant.pdf) |
 | fr | sante | matmut | Bien à l'hôpital - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/mutuelle/pdf/notice-option-bien-a-hopital.pdf) |
 | fr | sante | matmut | CONTRAT COLLECTIF FRAIS DE SANTÉ - RÉGIME OBLIGATOIRE | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-1966-conditions-generales.pdf) |
@@ -840,3 +846,4 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | voyage | luko | Medical & Assistance Gold Long trip | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/travel/dftralong202512/CG_Medical-Assistance-Gold_Long-trip_507656.pdf) |
 | fr | voyage | luko | Medical & assistance Gold Sport Long trip 507657 | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/travel/dftralong202512/CG_Medical-Assistance-Gold-Sport_Long-trip_507657.pdf) |
 | fr | voyage | macif | Assistance médicale « Carte Visa Classic » | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/notice-assistance_CBleueVisa.pdf) |
+| fr | voyage | macif | CARTE VISA Premier | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/notice-assurance_CVisaPremier.pdf) |

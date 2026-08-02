@@ -148,6 +148,7 @@ Covéa Protection Juridique et/ou APGIS. », sans indiquer lequel porte la prote
 
 ## Documents liés
 
+- [Contrat Immeuble](Contrat%20Immeuble.md) - Conditions générales, éd. 01/2026
 - [IMMEUBLE - IPID](IMMEUBLE%20-%20IPID.md) - IPID / Fiche d'information
 
 ## Source & fidélité

@@ -53,6 +53,7 @@ Note d'information détaillée du contrat Garantie Santé, complémentaire sant�
 ## Documents liés
 
 - [contrat GARANTIE SANTÉ - IPID](contrat%20GARANTIE%20SANT%C3%89%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/2022
+- [contrat GARANTIE SANTÉ - IPID](contrat%20GARANTIE%20SANT%C3%89%20-%20IPID%20%282%29.md) - IPID / Fiche d'information, éd. 09/2019
 
 ## Source & fidélité
 

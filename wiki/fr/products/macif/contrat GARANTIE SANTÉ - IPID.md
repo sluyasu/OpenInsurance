@@ -29,7 +29,7 @@ extraction_model: claude-code-subagent:scale
 prompt_version: '1.1'
 product_family: garantie-sante
 variant: null
-edition_status: null
+edition_status: current
 edition_age_years: 4
 superseded: null
 extends: null
@@ -836,6 +836,8 @@ Plafonds par niveau d’« Équipements » ; les garanties exprimées en euros c
 
 ## Documents liés
 
+- Édition courante de ce produit.
+- [contrat GARANTIE SANTÉ - IPID](contrat%20GARANTIE%20SANT%C3%89%20-%20IPID%20%282%29.md) - IPID / Fiche d'information, éd. 09/2019
 - [Garantie Santé](Garantie%20Sant%C3%A9.md) - Conditions générales, éd. 2023-01
 
 ## Source & fidélité

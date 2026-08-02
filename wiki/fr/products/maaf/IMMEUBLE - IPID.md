@@ -173,6 +173,7 @@ Garantie de base. Le document se limite à l'intitulé, sans description, sans p
 ## Documents liés
 
 - [Assurance Propriétaire Non Occupant - Fiche](Assurance%20Propri%C3%A9taire%20Non%20Occupant%20-%20Fiche.md) - Fiche produit, éd. 06/2022
+- [Contrat Immeuble](Contrat%20Immeuble.md) - Conditions générales, éd. 01/2026
 
 ## Source & fidélité
 

@@ -5,7 +5,7 @@ country: fr
 insurer_slug: macif
 name: Macif
 website: https://www.macif.fr
-products_count: 63
+products_count: 67
 branches_covered:
 - animaux
 - assurance-vie
@@ -40,7 +40,7 @@ generated: true
 
 ## Résumé
 
-**Macif** - [https://www.macif.fr](https://www.macif.fr). 63 document(s) across 18 branch(es).
+**Macif** - [https://www.macif.fr](https://www.macif.fr). 67 document(s) across 18 branch(es).
 
 ## Produits par branche
 
@@ -130,6 +130,7 @@ generated: true
 - [CONTRAT MACIF SANTÉ DES TERRITORIAUX - IPID](../products/macif/CONTRAT%20MACIF%20SANT%C3%89%20DES%20TERRITORIAUX%20-%20IPID.md) - IPID / Fiche d'information (2026-06)
 - [Complémentaire santé de la Branche de l'Aide, de l'Accompagnement des Soins et des Services à Domicile - Fiche](../products/macif/Compl%C3%A9mentaire%20sant%C3%A9%20de%20la%20Branche%20de%20l%27Aide%2C%20de%20l%27Accompagnement%20des%20Soins%20et%20des%20Services%20%C3%A0%20Domicile%20-%20Fiche.md) - Fiche produit (01/2023) · réf. Santé Branche de l'Aide, de l'Accompagnement, des Soins et des Services à Domicile - Encart tarifaire RG - 01/2023
 - [Garantie Santé](../products/macif/Garantie%20Sant%C3%A9.md) - Conditions générales (2023-01) · réf. UNI/PREI/GS/05 01/23
+- [MACIF HOSPITALISATION](../products/macif/MACIF%20HOSPITALISATION.md) - Conditions générales (01/24) · réf. U??? - UNI/PREI/MH/05 - 01/24
 - [Macif Mutuelle Entreprises](../products/macif/Macif%20Mutuelle%20Entreprises.md) - Conditions générales (2025-01) · réf. CG M M E - 01/25
 - [Macif Mutuelle Entreprises - Fiche](../products/macif/Macif%20Mutuelle%20Entreprises%20-%20Fiche.md) - Fiche produit (01/26) · réf. TG MME - 01/26
 - [Macif Mutuelle Entreprises](../products/macif/Macif%20Mutuelle%20Entreprises%20%282%29.md) - Conditions générales · réf. NID M M E - 01/26
@@ -137,11 +138,14 @@ generated: true
 - [Macif Mutuelle Santé](../products/macif/Macif%20Mutuelle%20Sant%C3%A9.md) - Conditions générales (01/24) · réf. UNI/PREI/MMS/05 01/24
 - [Macif Mutuelle Santé - Macif Hospitalisation - Fiche](../products/macif/Macif%20Mutuelle%20Sant%C3%A9%20-%20Macif%20Hospitalisation%20-%20Fiche.md) - Fiche produit (01/06/2026)
 - [Régime conventionnel Frais de santé - CCN BAD (Branche de l'aide, de l'accompagnement, des soins et des services à domic](../products/macif/R%C3%A9gime%20conventionnel%20Frais%20de%20sant%C3%A9%20-%20CCN%20BAD%20%28Branche%20de%20l%27aide%2C%20de%20l%27accompagnement%2C%20des%20soins%20et%20des%20services%20%C3%A0%20domic.md) - Conditions générales (V01.01.2023)
+- [contrat COMPLÉMENTAIRE SANTÉ CCN DES CABINETS OU ENTREPRISES D'EXPERTISES EN AUTOMOBILE - IPID](../products/macif/contrat%20COMPL%C3%89MENTAIRE%20SANT%C3%89%20CCN%20DES%20CABINETS%20OU%20ENTREPRISES%20D%27EXPERTISES%20EN%20AUTOMOBILE%20-%20IPID.md) - IPID / Fiche d'information (01/25) · réf. DIPA/CS CCN Expert Auto/GA - 01/25
 - [contrat GARANTIE SANTE TERRITORIAUX - IPID](../products/macif/contrat%20GARANTIE%20SANTE%20TERRITORIAUX%20-%20IPID.md) - IPID / Fiche d'information (01/2022) · réf. DIPA GST 01/2022
 - [contrat GARANTIE SANTÉ - IPID](../products/macif/contrat%20GARANTIE%20SANT%C3%89%20-%20IPID.md) - IPID / Fiche d'information (01/2022) · réf. DIPA GS 01/2022
+- [contrat GARANTIE SANTÉ - IPID](../products/macif/contrat%20GARANTIE%20SANT%C3%89%20-%20IPID%20%282%29.md) - IPID / Fiche d'information (09/2019) · réf. DIPA GS 09/2019
 
 ### [Voyage et assistance](../branches/Voyage%20et%20assistance.md)
 - [Assistance médicale « Carte Visa Classic »](../products/macif/Assistance%20m%C3%A9dicale%20%C2%AB%20Carte%20Visa%20Classic%20%C2%BB.md) - Conditions générales (01/01/2021) · réf. Notice d'Information n° 922091 - « Notice d'Information valant Convention d'assistance - Carte Visa Classic n°922091 - 01/01/2021 » (en-tête courant de chaque page)
+- [CARTE VISA Premier](../products/macif/CARTE%20VISA%20Premier.md) - Conditions générales · réf. CONTRAT n° 5073788704
 
 ## Source
 
