@@ -142,6 +142,7 @@ La garantie vol des instruments et des matériels de sonorisation laissés dans 
 ## Documents liés
 
 - Extension / option du produit : **Aléassur**
+- [Aléassur](Al%C3%A9assur.md) - Conditions générales, éd. 01/2024
 - [ALÉASSUR Tous risques objets](AL%C3%89ASSUR%20Tous%20risques%20objets.md) - Conditions générales, éd. 01/2024
 
 ## Source & fidélité

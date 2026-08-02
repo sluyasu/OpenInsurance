@@ -5,7 +5,7 @@ country: fr
 insurer_slug: macif
 name: Macif
 website: https://www.macif.fr
-products_count: 41
+products_count: 42
 branches_covered:
 - animaux
 - assurance-vie
@@ -38,7 +38,7 @@ generated: true
 
 ## Résumé
 
-**Macif** - [https://www.macif.fr](https://www.macif.fr). 41 document(s) across 16 branch(es).
+**Macif** - [https://www.macif.fr](https://www.macif.fr). 42 document(s) across 16 branch(es).
 
 ## Produits par branche
 
@@ -95,7 +95,8 @@ generated: true
 - [Garantie Obsèques - Doc](../products/macif/Garantie%20Obs%C3%A8ques%20-%20Doc.md) - Document
 
 ### [Protection juridique](../branches/Protection%20juridique.md)
-- [Protection Juridique - IPID](../products/macif/Protection%20Juridique%20-%20IPID.md) - IPID / Fiche d'information (10/18) · réf. PJ 10/18
+- [Protection Juridique - IPID](../products/macif/Protection%20Juridique%20-%20IPID.md) - IPID / Fiche d'information (2020-06) · réf. Protection Juridique - PJ PRO&ESS  06/20
+- [Protection Juridique - IPID](../products/macif/Protection%20Juridique%20-%20IPID%20%282%29.md) - IPID / Fiche d'information (10/18) · réf. PJ 10/18
 
 ### [Responsabilité civile vie privée](../branches/Responsabilit%C3%A9%20civile%20vie%20priv%C3%A9e.md)
 - [Contrat Multigarantie Vie Privée - Responsabilité Civile - IPID](../products/macif/Contrat%20Multigarantie%20Vie%20Priv%C3%A9e%20-%20Responsabilit%C3%A9%20Civile%20-%20IPID.md) - IPID / Fiche d'information (10/18) · réf. HAB MVP RC 10/18

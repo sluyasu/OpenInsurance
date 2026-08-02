@@ -31,7 +31,7 @@ extraction_model: claude-code-subagent:scale
 prompt_version: '1.1'
 product_family: aleassur
 variant: Collectivités
-edition_status: null
+edition_status: current
 edition_age_years: 2
 superseded: null
 extends: conditions générales Aléassur et conventions spéciales Dommages aux biens
@@ -116,7 +116,9 @@ La garantie de SMACL Assurances porte sur les frais de remplacement ou de répar
 
 ## Documents liés
 
+- Édition courante de ce produit.
 - Extension / option du produit : **conditions générales Aléassur et conventions spéciales Dommages aux biens Aléassur**
+- [Aléassur](Al%C3%A9assur.md) - Conditions générales, éd. 01/2024
 - [ALÉASSUR - Conventions spéciales Tous risques instruments de musique](AL%C3%89ASSUR%20-%20Conventions%20sp%C3%A9ciales%20Tous%20risques%20instruments%20de%20musique.md) - Conditions générales, éd. 01/2024
 
 ## Source & fidélité

@@ -5,7 +5,7 @@ country: fr
 insurer_slug: matmut
 name: Matmut
 website: https://www.matmut.fr
-products_count: 125
+products_count: 129
 branches_covered:
 - animaux
 - assurance-vie
@@ -17,6 +17,7 @@ branches_covered:
 - moto
 - multirisque-professionnelle
 - navigation
+- obseques
 - protection-juridique
 - rc-professionnelle
 - retraite
@@ -38,7 +39,7 @@ generated: true
 
 ## Résumé
 
-**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 125 document(s) across 16 branch(es).
+**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 129 document(s) across 17 branch(es).
 
 ## Produits par branche
 
@@ -102,10 +103,13 @@ generated: true
 ### [Garantie des accidents de la vie](../branches/Garantie%20des%20accidents%20de%20la%20vie.md)
 - [Conditions de l'offre Contrat Familial Complémentaire - Tarifs](../products/matmut/Conditions%20de%20l%27offre%20Contrat%20Familial%20Compl%C3%A9mentaire%20-%20Tarifs.md) - Conditions tarifaires (01/26) · réf. COND.OFFRE.FC– 01/26
 - [Conditions de l'offre — Remise à la souscription — Contrats Multirisques Accidents de la Vie et Multirisques Accidents d](../products/matmut/Conditions%20de%20l%27offre%20%E2%80%94%20Remise%20%C3%A0%20la%20souscription%20%E2%80%94%20Contrats%20Multirisques%20Accidents%20de%20la%20Vie%20et%20Multirisques%20Accidents%20d.md) - Conditions tarifaires (01/26) · réf. COND.OFFRE.MAV/MAV S. - 01/26
+- [Contrat « Multirisques Accidents de la Vie » - IPID](../products/matmut/Contrat%20%C2%AB%20Multirisques%20Accidents%20de%20la%20Vie%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (01/26) · réf. IPID.MAV
 - [Multirisques Accidents de la Vie](../products/matmut/Multirisques%20Accidents%20de%20la%20Vie.md) - Conditions générales · réf. CG MAV - 01/26
 
 ### [Multirisque habitation](../branches/Multirisque%20habitation.md)
 - [Assurance Loyers Impayés](../products/matmut/Assurance%20Loyers%20Impay%C3%A9s.md) - Conditions générales (10/24) · réf. CG LOYERS IMP - 10/24
+- [Contrat Multigaranties des risques immobiliers - IPID](../products/matmut/Contrat%20Multigaranties%20des%20risques%20immobiliers%20-%20IPID.md) - IPID / Fiche d'information (11/25) · réf. IPID.IME.PNO.PNE
+- [Contrat « Multigaranties Propriétaire non exploitant » - IPID](../products/matmut/Contrat%20%C2%AB%20Multigaranties%20Propri%C3%A9taire%20non%20exploitant%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (05/24) · réf. IPID.PNE
 - [Habitation Initiale & Co Résidence Principale](../products/matmut/Habitation%20Initiale%20%26%20Co%20R%C3%A9sidence%20Principale.md) - Conditions générales (12/23) · réf. CG MGAR RP INIT & CO – 12/23
 - [Habitation Initiale & Co Résidence Secondaire](../products/matmut/Habitation%20Initiale%20%26%20Co%20R%C3%A9sidence%20Secondaire.md) - Conditions générales (12/23) · réf. CG RS INIT & CO – 12/23
 - [Habitation Matmut Étudiants](../products/matmut/Habitation%20Matmut%20%C3%89tudiants.md) - Conditions générales · réf. CG HAB ETUD – 05/24
@@ -141,6 +145,9 @@ generated: true
 ### [Navigation de plaisance](../branches/Navigation%20de%20plaisance.md)
 - [Navigation de Plaisance Distinguo & Co](../products/matmut/Navigation%20de%20Plaisance%20Distinguo%20%26%20Co.md) - Conditions générales (2025-05) · réf. CG NDEP DISTINGUO & CO - 05/25
 - [Navigation de Plaisance Matmut](../products/matmut/Navigation%20de%20Plaisance%20Matmut.md) - Conditions générales (06/24) · réf. CG NDEP
+
+### [Obsèques](../branches/Obs%C3%A8ques.md)
+- [Matmut Prévoyance Obsèques](../products/matmut/Matmut%20Pr%C3%A9voyance%20Obs%C3%A8ques.md) - Conditions générales (04/23) · réf. MPO.NOTICE
 
 ### [Protection juridique](../branches/Protection%20juridique.md)
 - [Assistance Juridique Vie Privée et Protection Juridique Santé](../products/matmut/Assistance%20Juridique%20Vie%20Priv%C3%A9e%20et%20Protection%20Juridique%20Sant%C3%A9.md) - Conditions générales (10/25) · réf. MOM.NOT.PJ - 10/25
