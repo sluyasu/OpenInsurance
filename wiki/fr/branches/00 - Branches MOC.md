@@ -516,13 +516,14 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Navigation de Plaisance Distinguo & Co](../products/matmut/Navigation%20de%20Plaisance%20Distinguo%20%26%20Co.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Navigation de Plaisance Matmut](../products/matmut/Navigation%20de%20Plaisance%20Matmut.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 
-### [Voyage et assistance](Voyage%20et%20assistance.md) (6)
+### [Voyage et assistance](Voyage%20et%20assistance.md) (7)
 - [ASSURANCE MULTI-VOYAGES A L'ANNEE - 507332 - IPID](../products/luko/ASSURANCE%20MULTI-VOYAGES%20A%20L%27ANNEE%20-%20507332%20-%20IPID.md) - [Luko](../insurers/Luko.md)
 - [Comprehensive Gold Long Trip 507655](../products/luko/Comprehensive%20Gold%20Long%20Trip%20507655.md) - [Luko](../insurers/Luko.md)
 - [Comprehensive Gold Sport Annual 507332](../products/luko/Comprehensive%20Gold%20Sport%20Annual%20507332.md) - [Luko](../insurers/Luko.md)
 - [Comprehensive Gold Sport Long trip 507333](../products/luko/Comprehensive%20Gold%20Sport%20Long%20trip%20507333.md) - [Luko](../insurers/Luko.md)
 - [Medical & Assistance Gold Long trip](../products/luko/Medical%20%26%20Assistance%20Gold%20Long%20trip.md) - [Luko](../insurers/Luko.md)
 - [Medical & assistance Gold Sport Long trip 507657](../products/luko/Medical%20%26%20assistance%20Gold%20Sport%20Long%20trip%20507657.md) - [Luko](../insurers/Luko.md)
+- [Assistance médicale « Carte Visa Classic »](../products/macif/Assistance%20m%C3%A9dicale%20%C2%AB%20Carte%20Visa%20Classic%20%C2%BB.md) - [Macif](../insurers/Macif.md)
 
 ### [Animaux](Animaux.md) (5)
 - [Contrat Chiens guides](../products/macif/Contrat%20Chiens%20guides.md) - [Macif](../insurers/Macif.md)
