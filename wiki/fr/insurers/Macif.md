@@ -5,7 +5,7 @@ country: fr
 insurer_slug: macif
 name: Macif
 website: https://www.macif.fr
-products_count: 55
+products_count: 56
 branches_covered:
 - animaux
 - assurance-vie
@@ -40,7 +40,7 @@ generated: true
 
 ## Résumé
 
-**Macif** - [https://www.macif.fr](https://www.macif.fr). 55 document(s) across 18 branch(es).
+**Macif** - [https://www.macif.fr](https://www.macif.fr). 56 document(s) across 18 branch(es).
 
 ## Produits par branche
 
@@ -69,6 +69,7 @@ generated: true
 
 ### [Chasse](../branches/Chasse.md)
 - [Contrat d'assurance Chasse - IPID](../products/macif/Contrat%20d%27assurance%20Chasse%20-%20IPID.md) - IPID / Fiche d'information (10/18) · réf. CHASSE 10/18
+- [Multirisque Chasse — Contrat d'assurance chasse](../products/macif/Multirisque%20Chasse%20%E2%80%94%20Contrat%20d%27assurance%20chasse.md) - Conditions générales (décembre 2012) · réf. LOIS/CHA/05 - 12/12 - NM12
 
 ### [Assurance emprunteur](../branches/Assurance%20emprunteur.md)
 - [Assurance Découvert Autorisé - Doc](../products/macif/Assurance%20D%C3%A9couvert%20Autoris%C3%A9%20-%20Doc.md) - Document

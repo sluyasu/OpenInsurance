@@ -187,6 +187,7 @@ Garantie listée sous la rubrique « Vos prestations d'assistance » de la formu
 
 - [Assurance habitation jeune - Fiche](Assurance%20habitation%20jeune%20-%20Fiche.md) - Fiche produit, éd. 06/2023
 - [Assurance habitation jeune - Formule Logement - Fiche](Assurance%20habitation%20jeune%20-%20Formule%20Logement%20-%20Fiche.md) - Fiche produit, éd. 06/2023
+- [Tempo Jeunes](Tempo%20Jeunes.md) - Conditions générales, éd. 2026-05
 
 ## Source & fidélité
 
