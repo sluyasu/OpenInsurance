@@ -123,6 +123,7 @@ Siège social : 66 rue de Sotteville 76100 Rouen p. 1
 ## Documents liés
 
 - Extension / option du produit : **Multirisques 2 roues Initiale & Co**
+- [Conditions de l'Avantage Usage Sérénité — Gamme 2 roues Initiale & Co - Tarifs](Conditions%20de%20l%27Avantage%20Usage%20S%C3%A9r%C3%A9nit%C3%A9%20%E2%80%94%20Gamme%202%20roues%20Initiale%20%26%20Co%20-%20Tarifs.md) - Conditions tarifaires, éd. 01-26
 - [Contrat Multirisques « 2 Roues Initiale & Co » - IPID](Contrat%20Multirisques%20%C2%AB%202%20Roues%20Initiale%20%26%20Co%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information, éd. 10/24
 
 ## Source & fidélité

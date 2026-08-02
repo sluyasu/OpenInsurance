@@ -123,6 +123,10 @@ Tableau standardisé des frais du plan d'épargne retraite Multi Horizon Retrait
 - PIÈGE TYPOGRAPHIQUE — ESPACES PONCTUATION DANS LE PAVÉ LÉGAL : la couche texte insère une ESPACE PONCTUATION U+2008 (et non une espace ordinaire) avant le deux-points à trois endroits, tous dans les mentions légales MUTAVIE : « Siège social␈: 9 rue des Iris », « Tél␈: 05 49 32 50 50 » et « Fax␈: 05 49 32 50 51 ». Une citation retapée à la main avec une espace ordinaire à ces endroits ne correspondrait PAS au texte source. Les citations de ce fichier sont des tranches programmatiques ; celle des mentions légales s'arrête volontairement à « RCS Niort B 315 652 263. », juste avant le premier U+2008.
 - Texte vérifié : les quotes sont des tranches exactes du texte ré-extrait du PDF local (PyMuPDF, page.get_text("text")), identique caractère pour caractère au texte du prompt une fois les marqueurs [page N] retirés. Autres particularités de la couche texte préservées telles quelles : 6 apostrophes typographiques U+2019 (aucune apostrophe ASCII), 3 espaces U+2008 (ci-dessus), 5 tabulations dans les numéros de section (« 1.2.1\t », « 1.2.2\t »…), guillemets courbes U+201C/U+201D autour de “fonds actions” et “fonds immobilier”, et une espace ordinaire résiduelle après « 1,66% » et après « Fonds actions** ». Contrairement au tableau de frais Multi Vie du même éditeur, ce document ne contient AUCUNE espace fine U+2009 avant les appels de note (ici de simples astérisques). Aucun espace insécable, aucun espace de largeur nulle, aucun tiret conditionnel, aucun glyphe de zone privée, aucune ligature perdue, aucune coupure de mot par tiret en fin de ligne.
 
+## Documents liés
+
+- [Multi Horizon Retraite](Multi%20Horizon%20Retraite.md) - Conditions générales, éd. JUILLET 2022 (note d'information) ; additif SEPTEMBRE 2022 applicable à compter du 1er janvier 2023
+
 ## Source & fidélité
 
 - Source : [https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/MultiHorizonRetraite-Frais.pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/MultiHorizonRetraite-Frais.pdf) - téléchargé le 2026-08-01 - 1 pages

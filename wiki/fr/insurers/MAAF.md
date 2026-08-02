@@ -5,7 +5,7 @@ country: fr
 insurer_slug: maaf
 name: MAAF
 website: https://www.maaf.fr/
-products_count: 36
+products_count: 38
 branches_covered:
 - auto
 - chasse
@@ -35,7 +35,7 @@ generated: true
 
 ## Résumé
 
-**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 36 document(s) across 13 branch(es).
+**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 38 document(s) across 13 branch(es).
 
 ## Produits par branche
 
@@ -64,6 +64,7 @@ generated: true
 - [MOBIL HOME ET CONSTRUCTIONS LEGERES - IPID](../products/maaf/MOBIL%20HOME%20ET%20CONSTRUCTIONS%20LEGERES%20-%20IPID.md) - IPID / Fiche d'information (2026-01) · réf. HAB11027
 - [TEMPO HABITATION EN CONSTRUCTION - IPID](../products/maaf/TEMPO%20HABITATION%20EN%20CONSTRUCTION%20-%20IPID.md) - IPID / Fiche d'information (2026-01) · réf. MU0_IPIDHA_00-260126-LDFkGz-2-1-2-05:01:17- HAB11028
 - [TEMPO HABITATION Logement donné en location - IPID](../products/maaf/TEMPO%20HABITATION%20Logement%20donn%C3%A9%20en%20location%20-%20IPID.md) - IPID / Fiche d'information (2025-03) · réf. HAB11029
+- [TEMPO HABITATION — Logement donné en location](../products/maaf/TEMPO%20HABITATION%20%E2%80%94%20Logement%20donn%C3%A9%20en%20location.md) - Conditions générales (03/25) · réf. réf. 2341 - 03/25
 - [Tempo Habitation - Fiche](../products/maaf/Tempo%20Habitation%20-%20Fiche.md) - Fiche produit (06/2022)
 
 ### [Deux-roues, quads et voiturettes](../branches/Deux-roues%2C%20quads%20et%20voiturettes.md)
@@ -72,6 +73,7 @@ generated: true
 ### [Multirisque professionnelle](../branches/Multirisque%20professionnelle.md)
 - [CAPEB — INTERCALAIRE](../products/maaf/CAPEB%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales (03/24) · réf. 11038 - 03/24
 - [COMMERCES D'ALIMENTATION — INTERCALAIRE](../products/maaf/COMMERCES%20D%27ALIMENTATION%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales (01/26) · réf. 11039 - 01/26
+- [MULTIRISQUE DES PROFESSIONNELS DU BÂTIMENT ET DES TRAVAUX PUBLICS](../products/maaf/MULTIRISQUE%20DES%20PROFESSIONNELS%20DU%20B%C3%82TIMENT%20ET%20DES%20TRAVAUX%20PUBLICS.md) - Conditions générales (01/26) · réf. Réf. 11036 - 01/26
 - [MULTIRISQUE PROFESSIONNELLE](../products/maaf/MULTIRISQUE%20PROFESSIONNELLE.md) - Conditions générales (01/26) · réf. Réf. 11031 - 01/26
 - [MULTISERVICE À LA PERSONNE — INTERCALAIRE](../products/maaf/MULTISERVICE%20%C3%80%20LA%20PERSONNE%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales (01/25) · réf. 11059 - 01/25
 - [Multirisque Non Exploitant - IPID](../products/maaf/Multirisque%20Non%20Exploitant%20-%20IPID.md) - IPID / Fiche d'information (2024-06) · réf. PRO10010

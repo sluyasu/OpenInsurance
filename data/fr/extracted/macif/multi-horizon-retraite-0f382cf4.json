@@ -1,0 +1,990 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "macif",
+  "insurer_name": "Macif",
+  "product_name": "Multi Horizon Retraite",
+  "branch": "retraite",
+  "branch_code": "20 et 22",
+  "document_type": "conditions_generales",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "Le document ne nomme pas de public cible. Il précise seulement : « L'adhésion au contrat n'est pas ouverte aux travailleurs non salariés agricoles (TNSA). Pour ouvrir un contrat Multi Horizon Retraite, vous devez : être adhérent de l'AGEPER (…) ». La garantie optionnelle « exonération de versement » de l'annexe 4 est en revanche « Réservé aux Travailleurs non salariés non agricoles ».",
+  "reference": "MUT/N/MHR - 07/22 - C014 (note d'information) ; AD/N/MHR / CANT – 09/22 (additif)",
+  "edition_date": "JUILLET 2022 (note d'information) ; additif SEPTEMBRE 2022 applicable à compter du 1er janvier 2023",
+  "product_family": "Multi Horizon Retraite",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/NI-multihorizonretraite-Mutavie.pdf",
+  "source_pdf": "multi-horizon-retraite-0f382cf4.pdf",
+  "source_sha256": "23c00fdd5d82ce982d46ebcf9a7477146d034e3a85ee0dc2ad7eafca2a863e15",
+  "source_pages": 21,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Note d'information du contrat Multi Horizon Retraite, plan d'épargne retraite individuel prenant la forme d'un contrat d'assurance-vie de groupe (collectif) multisupport à adhésion facultative, souscrit par l'association AGEPER auprès de Mutavie et distribué par la Macif. Il relève des branches 20 et 22 de l'article R. 321-1 du Code des assurances. L'épargne se constitue sur un support en euros à capital garanti net de frais de gestion et sur des supports en unités de compte non garantis, en gestion libre ou en gestion horizon retraite (orientations Prudent, Équilibre, Dynamique) réparties sur trois compartiments réglementaires, et se dénoue au départ à la retraite en rente viagère et/ou en capital. Le contrat ne comporte pas de faculté de rachat hors les six cas légaux de l'article L. 224-4 du Code monétaire et financier, prévoit une garantie plancher décès obligatoire plafonnée à 100 000 euros et une garantie optionnelle « exonération de versement » en cas d'incapacité temporaire totale ou d'invalidité permanente totale. Le document intègre en tête un additif de septembre 2022 modifiant les articles 11 et 17 à compter du 1er janvier 2023.",
+  "definitions": [
+    {
+      "term": "Adhérent",
+      "definition": "L'adhérent est la personne qui conclut le contrat et qui désigne le(s) bénéficiaire(s) du contrat en cas de décès. L'adhérent acquiert automatiquement la qualité d'assuré et de bénéficiaire en cas de vie.",
+      "page": 3
+    },
+    {
+      "term": "Jour ouvré Bourse",
+      "definition": "Un jour ouvré Bourse correspond à un jour d'ouverture de la Bourse de Paris avec publication d'une valeur liquidative par les gestionnaires de fonds.",
+      "page": 5
+    },
+    {
+      "term": "Jour de cotation",
+      "definition": "Par jour de cotation il faut entendre jour ouvré Bourse hors jour férié.",
+      "page": 8
+    },
+    {
+      "term": "Compartiment 1 - versements individuels et facultatifs déductibles",
+      "definition": "Ce compartiment recueille vos versements volontaires déduits fiscalement. Vous pouvez opter avant chaque versement libre ou mise en place de versements mensuels pour la non-déductibilité fiscale des primes ; à défaut de choix, les versements seront considérés comme déductibles de votre revenu imposable.",
+      "page": 4
+    },
+    {
+      "term": "Compartiment 1bis - versements individuels et facultatifs non déductibles",
+      "definition": "Ce compartiment recueille vos versements volontaires non déduits fiscalement. Ce choix est irrévocable pour les versements réalisés. S'agissant des versements mensuels, l'option pour la « non déductibilité » réalisée lors de leur mise en place s'appliquera à l'ensemble des versements mensuels à venir sauf contre-indication.",
+      "page": 4
+    },
+    {
+      "term": "Compartiment 2 - versements provenant de l'épargne salariale",
+      "definition": "Vous pouvez alimenter ce compartiment uniquement par transfert de sommes ou de droits acquis dans le cadre de dispositifs d'épargne salariale dont vous êtes ou avez été bénéficiaire : la participation aux résultats de l'entreprise, l'intéressement, les versements sous forme d'abondement, les droits inscrits au compte épargne-temps ou, en l'absence de CET et sous certaines limites, des sommes correspondant à des jours de repos non pris.",
+      "page": 4
+    },
+    {
+      "term": "Compartiment 3 - versements obligatoires du salarié ou de l'employeur",
+      "definition": "Uniquement en cas de transfert et lorsque le titulaire n'est plus tenu d'y adhérer : versements obligatoires du salarié ou de l'employeur s'agissant de produit dont le salarié est affilié à titre obligatoire dans son entreprise.",
+      "page": 4
+    },
+    {
+      "term": "Cantonnement des actifs",
+      "definition": "Le principe du cantonnement des actifs interdit tout transfert de produits financiers vers les fonds propres de l'assureur ou vers d'autres actifs cantonnés.",
+      "page": 9
+    },
+    {
+      "term": "Incapacité temporaire totale de travail (ITT)",
+      "definition": "Vous êtes reconnu en incapacité temporaire totale de travail (ITT) suite à une maladie ou un accident lorsque vous vous trouvez dans l'impossibilité totale de continuer d'exercer, même à temps partiel, votre activité professionnelle. Cette situation est appréciée par le médecin-conseil de Mutavie indépendamment de toute reconnaissance et/ou indemnisation de votre arrêt de travail par le régime de Sécurité sociale dont vous relevez.",
+      "page": 19
+    },
+    {
+      "term": "Invalidité permanente totale",
+      "definition": "Vous êtes considéré en état d'invalidité permanente si, lorsque votre état est consolidé, suite à une maladie ou un accident, vous vous trouvez définitivement dans l'impossibilité physique totale, constatée médicalement, d'exercer votre activité professionnelle ou une activité professionnelle quelconque vous procurant une rémunération équivalente à celle que vous perceviez avant l'arrêt de travail consécutif à la maladie ou l'accident.",
+      "page": 19
+    },
+    {
+      "term": "Produits « article 8 » et « article 9 » du Règlement SFDR",
+      "definition": "Produits promouvant entre autres caractéristiques des caractéristiques environnementales ou sociales, ou une combinaison de ces caractéristiques pour autant que les sociétés dans lesquelles les investissements sont réalisés appliquent des pratiques de bonne gouvernance, qualifiés de produits « article 8 » ; produits ayant pour objectif l'investissement durable, qualifiés de produits « article 9 ».",
+      "page": 18
+    },
+    {
+      "term": "Risque en matière de durabilité",
+      "definition": "L'article 2 du Règlement SFDR définit le risque en matière de durabilité comme un événement ou une situation dans le domaine environnemental, social ou de la gouvernance qui, s'il survient, pourrait avoir une incidence négative importante, réelle ou potentielle, sur la valeur de l'investissement.",
+      "page": 18
+    },
+    {
+      "term": "Rente viagère à titre gratuit (RVTG) / à titre onéreux (RVTO)",
+      "definition": "(8) Rente viagère à titre gratuit. (9) Rente viagère à titre onéreux. La fraction imposable est fixée à : 70% si le titulaire a moins de 50 ans ; 50% si le titulaire a entre 50 et 59 ans ; 40% si le titulaire a entre 60 et 69 ans ; 30% si le titulaire a plus de 69 ans.",
+      "page": 13
+    },
+    {
+      "term": "PASS",
+      "definition": "(6) Plafond annuel de la Sécurité sociale.",
+      "page": 13
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Prestation en cas de vie de l'adhérent en phase d'épargne",
+      "description": "Le contrat prévoit le versement, au plus tôt à la date de liquidation des droits à la retraite de l'adhérent ou à l'âge légal de départ en retraite, d'une rente viagère revalorisable et/ou d'un capital. L'adhérent peut opter expressément pour la liquidation de tout ou partie de ses droits en rente viagère à compter de l'ouverture de son adhésion ; ce choix est irrévocable.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Demande de transformation totale ou partielle au plus tôt à compter de la date de liquidation de la pension dans un régime obligatoire d'assurance vieillesse ou de l'âge mentionné à l'article L. 161-17-2 du Code de la sécurité sociale (article 15.1)",
+        "S'agissant de l'épargne transformée en rente viagère, la demande de liquidation doit intervenir au plus tard au 75e anniversaire (cet âge peut être différent selon le type de rente choisie)",
+        "Informer Mutavie au moins trois mois avant la date de prise d'effet souhaitée (articles 15.3.1 et 15.3.2)"
+      ],
+      "page": 3
+    },
+    {
+      "name": "Sortie en capital",
+      "description": "Le capital peut être libéré en une fois ou de manière fractionnée. En sortie fractionnée, le capital est versé sous forme de sortie partielle dont le montant doit être au minimum de 150 euros par compartiment ; lorsque l'épargne restant sur le compartiment est inférieure à ce montant, celui-ci est automatiquement clôturé. Modalités de sortie par compartiment : compartiments 1, 1bis et 2 « Capital et/ou rente viagère au choix de l'adhérent » ; compartiment 3 « Rente viagère obligatoire ».",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [
+        "Minimum 150 euros par compartiment en sortie fractionnée"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Sauf lorsque le titulaire a opté expressément et irrévocablement pour la liquidation de ses droits en rente viagère lors de l'ouverture du plan",
+        "Un même compartiment doit être liquidé en totalité sans reversement possible postérieurement à la liquidation de ce compartiment"
+      ],
+      "page": 11
+    },
+    {
+      "name": "Garantie en capital sur les droits exprimés en euros",
+      "description": "Le contrat comporte une garantie en capital au moins égale aux sommes investies nettes de frais sur versements (déduction faite des rachats anticipés effectués et des arbitrages sortants réalisés) et nettes des frais annuels de gestion. L'épargne investie est gérée dans un portefeuille financier cantonné, dénommé « Euro principal » dans le corps de la note et « Euro retraite » depuis l'additif applicable au 1er janvier 2023.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Sommes investies nettes de frais sur versements et nettes des frais annuels de gestion",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Droits exprimés en unités de compte",
+      "description": "Les montants investis sur les supports en unités de compte ne sont pas garantis mais sont sujets à des fluctuations à la hausse ou à la baisse dépendant notamment de l'évolution des marchés financiers. Le mécanisme d'application des frais de gestion annuels sur les supports en unités de compte vient diminuer le nombre de parts détenues. Mutavie s'engage sur le nombre d'unités de compte et non pas sur leur valeur.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Aucune garantie de valeur : engagement sur le nombre d'unités de compte uniquement",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Participation aux résultats financiers du support en euros",
+      "description": "Corps de la note (article 11.1) : « Mutavie s'engage à redistribuer chaque année aux adhérents au moins 90% des résultats financiers engendrés dans l'exercice par les actifs. » Ces résultats sont affectés à la rémunération de l'épargne (intérêts garantis servis chaque jour, intérêts complémentaires servis en fin d'année ou en cas de clôture), au financement forfaitaire de la garantie plancher (0,08% de l'épargne gérée du support en euros) et à la provision pour participation aux bénéfices du canton « Euro principal ». L'additif de septembre 2022 remplace ce texte : « au moins 90% des résultats financiers nets affectés au contrat », nets de dotation aux réserves légales et réglementaires, d'éventuels prélèvements fiscaux et de frais de gestion financière, avec provision pour participation aux bénéfices du canton « Euro Retraite ».",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Au moins 90% des résultats financiers",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 9
+    },
+    {
+      "name": "Taux minimum garanti sur le support en euros",
+      "description": "Chaque jour, l'épargne se capitalise en recevant des intérêts calculés hors contributions sociales exigibles, sur la base d'un taux équivalent journalier au taux d'intérêt minimum garanti, valable pour l'année en cours. Le taux minimum garanti est fixé conformément aux obligations réglementaires et ne préjuge pas du taux de rendement final du contrat ; il est brut de frais de gestion et fixé avant le 1er janvier de l'année par décision de Mutavie. S'y ajoute éventuellement un taux d'intérêt complémentaire servi en fin d'année, également brut de frais de gestion.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 9
+    },
+    {
+      "name": "Garantie décès - versement du capital décès aux bénéficiaires",
+      "description": "En cas de décès pendant la phase d'épargne, le capital décès est versé sous la forme d'un capital ou d'une rente au(x) bénéficiaire(s) personne(s) physique(s) désigné(s) dans la clause bénéficiaire. Le capital versé, ou le capital constitutif de la rente en cas d'option pour la rente, représente la valeur de l'épargne figurant sur le contrat à la date de règlement, éventuellement augmentée d'une prestation complémentaire au titre de la garantie plancher. En l'absence de bénéficiaire déterminé, les sommes font partie de la succession. Dès réception de l'acte de décès, l'épargne est arbitrée sans frais vers une provision pour sinistre à payer et continue à se capitaliser jusqu'au jour précédant son règlement au taux fixé par Mutavie en fin d'année, avec un minimum correspondant au taux réglementaire.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Paiement effectué en numéraire et non en unités de compte",
+        "Réception d'une pièce officielle certifiant le décès, d'un accord de règlement signé par chaque bénéficiaire et de tout document prévu par les dispositions légales",
+        "Vérification de l'encaissement effectif des éventuels versements en cours"
+      ],
+      "page": 10
+    },
+    {
+      "name": "Garantie plancher décès",
+      "description": "La garantie plancher a pour objet d'assurer le règlement d'un capital minimum lors du décès de l'adhérent : versement d'un capital complémentaire si le capital constitué au moment du décès est inférieur au capital minimum garanti. Le capital minimum garanti est égal au cumul des versements effectués nets de frais sur versements, diminués de la part des versements rachetés. Si le règlement est liquidé sous forme de rente, le capital complémentaire complète le capital constitutif de la rente.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Le capital complémentaire ne pourra excéder 100 000 euros par adhérent",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "La garantie est obligatoire",
+        "Elle cesse automatiquement lors de la transformation du contrat en rente viagère ou de la sortie en capital en une fois ou à la fin de la période de fractionnement et au plus tard le 31 décembre suivant le soixante quinzième anniversaire",
+        "Financement prévu aux articles 9 et 11.1 : prélèvement de 0,08% de l'épargne gérée du support en euros en 2022, révisable annuellement"
+      ],
+      "page": 10
+    },
+    {
+      "name": "Rachats exceptionnels anticipés (disponibilité du plan avant la retraite)",
+      "description": "Le contrat ne comporte pas de faculté de rachat. Les seuls cas admis sont ceux légalement prévus par l'article L. 224-4 du Code monétaire et financier : 1° le décès du conjoint du titulaire ou de son partenaire lié par un pacte civil de solidarité ; 2° l'invalidité du titulaire, de ses enfants, de son conjoint ou de son partenaire lié par un PACS (au sens des 2° et 3° de l'article L. 341-4 du Code de la sécurité sociale) ; 3° la situation de surendettement du titulaire ; 4° l'expiration des droits à l'assurance chômage du titulaire, ou le fait pour le titulaire ayant exercé des fonctions d'administrateur, de membre du directoire ou du conseil de surveillance de ne pas être titulaire d'un contrat de travail ou d'un mandat social depuis deux ans au moins ; 5° la cessation d'activité non salariée à la suite d'un jugement de liquidation judiciaire ; 6° l'affectation des sommes épargnées à l'acquisition de la résidence principale. Le rachat est réalisé sous la forme d'un versement unique portant, au choix du titulaire, sur tout ou partie des droits susceptibles d'être liquidés ou rachetés.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "En cas de rachat partiel, la valeur du contrat devra être au minimum de 150 €. À défaut, il sera procédé à un rachat total de l'épargne qui entraîne la clôture du contrat.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Le cas 6° (résidence principale) ne vise que les droits constitués au titre des compartiments 1 et 2 du contrat",
+        "Versement dans le délai d'un mois à compter de la réception de la demande accompagnée de l'ensemble des pièces nécessaires au paiement et du traitement des opérations en cours",
+        "Le rachat total entraîne automatiquement la perte de la qualité de membre de l'association AGEPER"
+      ],
+      "page": 9
+    },
+    {
+      "name": "Transfert de l'épargne vers un autre plan (transfert sortant)",
+      "description": "À tout moment, l'adhérent peut demander le transfert de la totalité de son épargne vers un autre plan visé à l'article L. 224-1 du Code monétaire et financier. La demande doit être effectuée par lettre recommandée avec avis de réception indiquant le nom du nouvel organisme. Mutavie dispose de deux mois pour transmettre au nouvel organisme les sommes et les informations nécessaires. La somme transférée est égale à la valeur de l'épargne au jour du retrait, diminuée des frais de transfert de 1%. À l'issue d'une période de 5 ans à compter de la date d'effet du contrat, aucuns frais de transfert ne sont prélevés.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Frais de transfert sortant 1% ; 0% après 5 ans et lorsque le transfert intervient à compter de l'échéance mentionnée à l'article 15.1",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Le transfert entraîne automatiquement la perte de la qualité de membre de l'association AGEPER"
+      ],
+      "page": 10
+    },
+    {
+      "name": "Transfert entrant d'un autre organisme vers Mutavie",
+      "description": "L'ancien gestionnaire communique à Mutavie le montant des droits en cours de constitution et des sommes versées, en distinguant les versements relevant des compartiments 1, 2 et 3. La somme transférée est considérée comme un versement (sans déduction fiscale possible) et supporte les frais sur versement de l'article 9 ; elle doit répondre au seuil minimum de versement. Le transfert impose la renonciation à l'ensemble des clauses et conditions du contrat précédent. Contrats transférables : Madelin (L. 144-1) vers compartiment 1 ; PERP (L. 144-2) vers compartiment 1 ; Préfon (L. 132-23) vers compartiment 1 ; CRH (L. 132-23) vers compartiment 1 ; régimes gérés par l'Union mutualiste retraite vers compartiment 1 ; PERCO (L. 3334-1 du Code du travail) vers compartiment 2, limité à un transfert tous les trois ans avant le départ de l'entreprise ; contrat article 83 (2° de l'article 83 du CGI), droits issus des versements volontaires du salarié vers compartiment 1 et droits issus des versements obligatoires du salarié ou de l'employeur vers compartiment 3, lorsque le salarié n'est plus tenu d'y adhérer.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Sous réserve de l'accord de Mutavie, le transfert est possible au maximum jusqu'à 60 ans",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 10
+    },
+    {
+      "name": "Revalorisation de la rente en cours de service",
+      "description": "Corps de la note (article 17.1) : les actifs financiers constitués en représentation des provisions mathématiques des rentes sont gérés au sein du canton « Euros principal » et Mutavie s'engage à redistribuer chaque année aux rentiers 90% des résultats financiers engendrés par ces actifs, soit par revalorisation de la rente soit par dotation de la provision pour participation aux bénéfices. Les rentes en cours de service sont revalorisées au 1er janvier de chaque année, par application du taux de revalorisation défini à l'article 17.1, diminué du taux technique éventuel, au prorata temporis pour les rentes constituées au cours de l'année précédente. L'additif de septembre 2022 remplace l'article 17.1 : canton « Euro retraite » et « au moins 90% des résultats financiers nets (tels que définis à l'article 11.1) », et supprime l'article 17.3 remplacé par l'article 11.1.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 11
+    },
+    {
+      "name": "Option de rente : rente viagère réversible",
+      "description": "L'adhérent perçoit une rente jusqu'à son décès, qui est ensuite reversée à 60% ou 100% le cas échéant, au bénéficiaire de la réversion.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Le choix de l'option s'effectue de manière irrévocable et définitive au moment de la liquidation"
+      ],
+      "page": 11
+    },
+    {
+      "name": "Option de rente : rente viagère avec annuités garanties",
+      "description": "Mutavie s'engage à verser la rente durant un nombre d'années choisi (5, 10 ou 15 ans, avec une limite réglementaire). En cas de décès pendant la période garantie, la rente est versée au bénéficiaire jusqu'à l'échéance fixée (conjoint, à défaut les enfants vivants ou représentés, à défaut les héritiers). Si l'adhérent est en vie à cette échéance, il continue de percevoir la rente jusqu'à son décès. Cette option est cumulable avec la réversion.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 11
+    },
+    {
+      "name": "Option de rente : rente par paliers",
+      "description": "L'adhérent peut choisir d'augmenter de 50% le montant de sa rente pendant les dix premières années, avec la perspective d'une rente moins élevée par la suite, ou de diminuer de 50% le montant de sa rente pendant les dix premières années pour bénéficier par la suite d'un complément de revenus plus important. Cette option est cumulable avec la réversion.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "L'option d'augmentation de 50% est réservée aux adhérents de moins de 70 ans au moment de la liquidation"
+      ],
+      "page": 11
+    },
+    {
+      "name": "Versement forfaitaire unique (VFU)",
+      "description": "Lorsque le montant de l'arrérage de rente est inférieur au minimum défini à l'article A. 160-2-1 du Code des assurances, un versement forfaitaire unique est substitué à la rente. Son montant est égal à la valeur de l'épargne détenue à la date de clôture du contrat, diminué d'un prélèvement de gestion de 1% et des éventuels prélèvements sociaux et fiscaux prélevés par Mutavie.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Prélèvement de gestion de 1%",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 11
+    },
+    {
+      "name": "Garantie optionnelle « exonération de versement » - incapacité temporaire totale de travail (ITT)",
+      "description": "L'adhérent est reconnu en incapacité temporaire totale de travail suite à une maladie ou un accident lorsqu'il se trouve dans l'impossibilité totale de continuer d'exercer, même à temps partiel, son activité professionnelle ; cette situation est appréciée par le médecin-conseil de Mutavie indépendamment de toute reconnaissance et/ou indemnisation par le régime de Sécurité sociale. À l'expiration d'une période ininterrompue d'arrêt de travail de 90 jours (délai de franchise), Mutavie prend en charge les versements mensuels pendant toute la durée de l'arrêt de travail. Le montant pris en charge correspond au montant du dernier versement mensuel réalisé avant la date effective de l'arrêt de travail.",
+      "is_optional": true,
+      "territorial_scope": "France métropolitaine, Martinique, Guadeloupe, Guyane, La Réunion et déplacements dans tous les autres pays de l'Union Européenne ainsi qu'en Suisse, Liechtenstein, Saint-Marin, Vatican et Andorre",
+      "limits": "Prise en charge jusqu'à la reconnaissance d'une invalidité permanente et au plus tard au 1 095e jour d'arrêt",
+      "sub_limits": [],
+      "deductible": "Délai de franchise de 90 jours",
+      "conditions": [
+        "Être adhérent au contrat Multi Horizon Retraite",
+        "Avoir le statut de travailleur non salarié non agricole ou être conjoint collaborateur d'un travailleur non salarié non agricole",
+        "Être âgé d'au moins 18 ans et de moins de 60 ans",
+        "Résider fiscalement en France métropolitaine, en Martinique, en Guadeloupe, en Guyane, à La Réunion",
+        "Exercer une activité professionnelle effective et rémunérée",
+        "Remplir une déclaration d'état de santé ; l'adhésion est conditionnée à l'acceptation de Mutavie",
+        "La période de franchise n'est pas appliquée de nouveau en cas de rechute dûment constatée du même accident ou de la même maladie après une reprise d'activité d'une durée inférieure ou égale à 60 jours"
+      ],
+      "page": 19
+    },
+    {
+      "name": "Garantie optionnelle « exonération de versement » - invalidité permanente totale (IPT)",
+      "description": "L'adhérent est considéré en état d'invalidité permanente si, lorsque son état est consolidé suite à une maladie ou un accident, il se trouve définitivement dans l'impossibilité physique totale, constatée médicalement, d'exercer son activité professionnelle ou une activité professionnelle quelconque lui procurant une rémunération équivalente à celle perçue avant l'arrêt de travail. L'invalidité permanente est déterminée en fonction d'un taux fonctionnel apprécié par le médecin-expert désigné par Mutavie en référence au dernier barème indicatif d'évaluation des taux d'incapacité de droit commun publié dans la revue « le Concours médical », sans tenir compte de la profession de l'assuré. En cas d'invalidité permanente totale, l'adhérent est exonéré du paiement des versements mensuels arrivant à échéance durant la période d'invalidité.",
+      "is_optional": true,
+      "territorial_scope": "France métropolitaine, Martinique, Guadeloupe, Guyane, La Réunion et déplacements dans tous les autres pays de l'Union Européenne ainsi qu'en Suisse, Liechtenstein, Saint-Marin, Vatican et Andorre",
+      "limits": "Tant que dure l'invalidité, et au plus tard au 31 décembre de l'année des 67 ans",
+      "sub_limits": [
+        "Taux fonctionnel supérieur ou égal à 66% : prise en charge de la cotisation à 100%"
+      ],
+      "deductible": "Délai de franchise de 90 jours",
+      "conditions": [
+        "Réservé aux travailleurs non salariés non agricoles",
+        "Prise en charge à compter de la date de stabilisation déterminée par le médecin-expert"
+      ],
+      "page": 19
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Garantie « exonération de versement » - exclusion 1",
+      "description": "la guerre civile ou étrangère, les conflits à caractère militaire",
+      "applies_to": "Garantie optionnelle « exonération de versement » (ITT et invalidité permanente totale)",
+      "page": 20
+    },
+    {
+      "name": "Garantie « exonération de versement » - exclusion 2",
+      "description": "le terrorisme, attentats, sabotages, émeutes, troubles civils ou mouvements populaires dès lors que l'assuré y a pris une part active",
+      "applies_to": "Garantie optionnelle « exonération de versement » (ITT et invalidité permanente totale)",
+      "page": 20
+    },
+    {
+      "name": "Garantie « exonération de versement » - exclusion 3",
+      "description": "la pratique des sports aériens",
+      "applies_to": "Garantie optionnelle « exonération de versement » (ITT et invalidité permanente totale)",
+      "page": 20
+    },
+    {
+      "name": "Garantie « exonération de versement » - exclusion 4",
+      "description": "la participation à des acrobaties, à des tentatives de records ou à des sports, lorsqu'elle nécessite l'utilisation d'un véhicule ou engin à moteur",
+      "applies_to": "Garantie optionnelle « exonération de versement » (ITT et invalidité permanente totale)",
+      "page": 20
+    },
+    {
+      "name": "Garantie « exonération de versement » - exclusion 5",
+      "description": "les conséquences directes et indirectes d'explosions, de dégagements de chaleur ou de l'irradiation provenant de la transmutation de noyaux d'atomes ou de la radioactivité",
+      "applies_to": "Garantie optionnelle « exonération de versement » (ITT et invalidité permanente totale)",
+      "page": 20
+    },
+    {
+      "name": "Garantie « exonération de versement » - exclusion 6",
+      "description": "les conséquences des tentatives de suicide ou d'automutilations",
+      "applies_to": "Garantie optionnelle « exonération de versement » (ITT et invalidité permanente totale)",
+      "page": 20
+    },
+    {
+      "name": "Garantie « exonération de versement » - exclusion 7",
+      "description": "les conséquences d'un acte intentionnel de l'assuré ayant provoqué le sinistre",
+      "applies_to": "Garantie optionnelle « exonération de versement » (ITT et invalidité permanente totale)",
+      "page": 20
+    },
+    {
+      "name": "Garantie « exonération de versement » - exclusion 8",
+      "description": "la conduite en état d'ivresse manifeste ou sous l'emprise d'un état alcoolique caractérisé par une concentration d'alcool dans le sang tel que précisé à l'article R. 234-1 du Code la route en vigueur à la date de survenance du sinistre, ainsi que de la conduite de tout engin par l'adhérent s'il n'a pas la qualification ou le permis requis par cette réglementation",
+      "applies_to": "Garantie optionnelle « exonération de versement » (ITT et invalidité permanente totale)",
+      "page": 20
+    },
+    {
+      "name": "Garantie « exonération de versement » - exclusion 9",
+      "description": "les conséquences des accidents liés à l'utilisation par l'assuré de substances classées par le Code de la santé publique comme stupéfiants ou psychotropes en dehors d'une prescription médicale ou d'une absorption accidentelle",
+      "applies_to": "Garantie optionnelle « exonération de versement » (ITT et invalidité permanente totale)",
+      "page": 20
+    },
+    {
+      "name": "Garantie « exonération de versement » - exclusion 10",
+      "description": "les conséquences des accidents résultant de la participation active de l'assuré à des paris, défis, duels, rixes sauf en cas de légitime défense",
+      "applies_to": "Garantie optionnelle « exonération de versement » (ITT et invalidité permanente totale)",
+      "page": 20
+    },
+    {
+      "name": "Garantie « exonération de versement » - exclusion 11",
+      "description": "les conséquences des accidents résultant de la participation de l'assuré à un délit intentionnel ou à un crime",
+      "applies_to": "Garantie optionnelle « exonération de versement » (ITT et invalidité permanente totale)",
+      "page": 20
+    },
+    {
+      "name": "Garantie « exonération de versement » - exclusion 12",
+      "description": "les congés légaux de maternité et paternité",
+      "applies_to": "Garantie optionnelle « exonération de versement » (ITT et invalidité permanente totale)",
+      "page": 20
+    },
+    {
+      "name": "Garantie « exonération de versement » - exclusion 13",
+      "description": "la schizophrénie, les troubles schizotypiques et troubles délirants, les troubles affectifs bipolaires, les épisodes dépressifs, les troubles dépressifs récurrents, les troubles de l'humeur (affectifs) persistants, les troubles névrotiques, troubles phobiques, troubles anxieux, troubles obsessionnels compulsifs et réactions à un facteur de stress, le « burn out » qui n'ont pas donné lieu à une hospitalisation en établissement psychiatrique de plus de 10 jours continus",
+      "applies_to": "Garantie optionnelle « exonération de versement » (ITT et invalidité permanente totale)",
+      "page": 20
+    },
+    {
+      "name": "Garantie « exonération de versement » - exclusion 14",
+      "description": "les affections disco-vertébrales y compris lorsqu'elles sont d'origine accidentelle sauf si elles s'accompagnent d'une fracture vertébrale ou sont d'origine maligne ou infectieuse ou nécessitent une intervention chirurgicale pendant la période d'incapacité concernée",
+      "applies_to": "Garantie optionnelle « exonération de versement » (ITT et invalidité permanente totale)",
+      "page": 20
+    },
+    {
+      "name": "Absence de faculté de rachat",
+      "description": "« Le contrat ne comporte pas de faculté de rachat. Les seuls cas de rachats admis sont ceux légalement prévus par l'article L. 224-4 du Code monétaire et financier. » En dehors des six cas énumérés, l'épargne n'est pas disponible avant le départ à la retraite.",
+      "applies_to": "all",
+      "page": 9
+    },
+    {
+      "name": "Absence de garanties de fidélité et de valeurs de réduction",
+      "description": "« Le contrat ne comporte pas de garanties de fidélité ni de valeurs de réduction. » (article 11)",
+      "applies_to": "all",
+      "page": 8
+    },
+    {
+      "name": "Absence de garantie sur les supports en unités de compte",
+      "description": "Les montants investis sur les supports en unités de compte ne sont pas garantis mais sont sujets à des fluctuations à la hausse ou à la baisse dépendant notamment de l'évolution des marchés financiers ; c'est l'adhérent qui prend en charge le risque financier lié aux fluctuations des marchés financiers. Mutavie s'engage sur le nombre d'unités de compte et non pas sur leur valeur.",
+      "applies_to": "Droits exprimés en unités de compte",
+      "page": 3
+    },
+    {
+      "name": "Adhésion fermée aux travailleurs non salariés agricoles",
+      "description": "« L'adhésion au contrat n'est pas ouverte aux travailleurs non salariés agricoles (TNSA). » L'article 6.1 précise également que « ne sont pas acceptées les ouvertures en qualité de travailleurs non-salariés agricoles » dans le cadre d'une ouverture en qualité de dirigeant ou associé.",
+      "applies_to": "all",
+      "page": 3
+    },
+    {
+      "name": "Compartiment 3 : pas de sortie en capital",
+      "description": "Les droits correspondant aux sommes issues du compartiment 3 (versements obligatoires du salarié ou de l'employeur) sont délivrés sous la forme d'une rente viagère. Le tableau des modalités de sortie porte « Rente viagère obligatoire » pour ce compartiment, et le tableau fiscal porte « non possible » pour la sortie anticipée pour acquisition de la résidence principale et pour la sortie en capital.",
+      "applies_to": "Sortie en capital",
+      "page": 11
+    },
+    {
+      "name": "Rachat pour acquisition de la résidence principale limité aux compartiments 1 et 2",
+      "description": "Le cas de rachat anticipé « L'affectation des sommes épargnées à l'acquisition de la résidence principale » ne vaut « uniquement s'agissant des droits constitués au titre des compartiments 1 et 2 du contrat ».",
+      "applies_to": "Rachats exceptionnels anticipés",
+      "page": 9
+    },
+    {
+      "name": "Opérations en espèces refusées",
+      "description": "« Précision : Mutavie refuse les opérations en espèces. » (article 6.1) et « Mutavie n'accepte pas les opérations en espèces. » (article 28).",
+      "applies_to": "all",
+      "page": 4
+    },
+    {
+      "name": "Versements réservés à l'adhérent",
+      "description": "« Seul l'adhérent est autorisé à réaliser des versements sur le contrat ouvert à son nom. » Sauf, dans le cadre d'une ouverture en qualité de dirigeant ou associé, versement depuis le compte bancaire de l'entreprise sous réserve d'adresser un extrait Kbis (ou équivalent) datant de moins de trois mois.",
+      "applies_to": "Versements",
+      "page": 4
+    },
+    {
+      "name": "Plafond du capital complémentaire de la garantie plancher",
+      "description": "« Ce capital complémentaire ne pourra excéder 100 000 euros par adhérent. » La garantie cesse automatiquement lors de la transformation du contrat en rente viagère ou de la sortie en capital, et au plus tard le 31 décembre suivant le soixante quinzième anniversaire.",
+      "applies_to": "Garantie plancher décès",
+      "page": 10
+    },
+    {
+      "name": "Opérations indisponibles pendant le délai de renonciation",
+      "description": "Le tableau « Les opérations de gestion pendant le délai de renonciation » indique : versement libre « Oui » ; mise en place de versements mensuels « Oui » ; mise en place d'option(s) de gestion (gestion libre) « Oui » ; rachat anticipé « Non » ; arbitrage à la demande (gestion libre) « Non » ; liquidation du contrat « Non ».",
+      "applies_to": "all",
+      "page": 3
+    },
+    {
+      "name": "Opérations indisponibles pendant le délai de vérification de l'encaissement",
+      "description": "Mutavie dispose d'un délai de 20 jours ouvrés pour vérifier l'encaissement du versement (15 jours ouvrés en cas de règlement par chèque). « Durant cette période, aucune opération (rachat, transformation en rente ou capital et transfert) ne peut être réalisée sur l'épargne investie correspondant à ce versement. »",
+      "applies_to": "all",
+      "page": 4
+    },
+    {
+      "name": "Versements mensuels impossibles sur certains supports",
+      "description": "« Il n'est pas possible de mettre en place de versements mensuels venant alimenter une unité de compte immobilière ou un support temporairement ouvert à la commercialisation ou faisant l'objet d'enveloppe de commercialisation. »",
+      "applies_to": "Versements",
+      "page": 4
+    },
+    {
+      "name": "Incompatibilité de l'option rééquilibrage automatique",
+      "description": "« Les options de gestion sont compatibles entre elles sauf l'option rééquilibrage automatique. » Le tableau « Compatibilité des opérations de gestion » indique l'option rééquilibrage automatique « Incompatible » avec l'investissement progressif, la dynamisation des intérêts, la sécurisation des plus-values et le stop loss relatif, et « Compatible » avec les versements mensuels. Elle est également impossible en cas de détention d'unités de compte immobilières ou de supports temporairement ouverts à la commercialisation.",
+      "applies_to": "Options de gestion",
+      "page": 7
+    },
+    {
+      "name": "Suspension ou limitation des versements et arbitrages par Mutavie",
+      "description": "« À titre exceptionnel, afin de protéger l'épargne des adhérents contre des évolutions défavorables des marchés (…) Mutavie peut, sur décision du Directoire après autorisation du Conseil de surveillance, limiter ou suspendre temporairement les versements sur le support en euros » et, dans les mêmes termes, « limiter ou suspendre temporairement les arbitrages ». Mutavie se réserve également le droit de moduler le niveau des montants de versements acceptés sur le support en euros.",
+      "applies_to": "all",
+      "page": 4
+    },
+    {
+      "name": "Refus des versements et arbitrages entrants sur supports à enveloppe épuisée",
+      "description": "« En cas d'épuisement de l'enveloppe disponible, ou d'arrivée au terme de la période de commercialisation, Mutavie refusera les nouveaux versements et les arbitrages entrants sur ces supports. »",
+      "applies_to": "Supports d'investissement",
+      "page": 7
+    },
+    {
+      "name": "Transfert entrant limité à 60 ans",
+      "description": "« Sous réserve de l'accord de Mutavie, le transfert est possible au maximum jusqu'à 60 ans. »",
+      "applies_to": "Transfert entrant d'un autre organisme vers Mutavie",
+      "page": 10
+    },
+    {
+      "name": "Obligation de moyens seulement en gestion horizon retraite",
+      "description": "« Il est rappelé que Mutavie n'est tenue qu'à une obligation de moyens, et que vous supportez seul(e) les risques financiers consécutifs aux opérations effectuées en application du mandat et de l'orientation de gestion choisie. » Dans ce mode de gestion, « vous n'avez pas la possibilité de procéder vous-même à la sélection des supports d'investissement ni aux réorientations d'épargne ».",
+      "applies_to": "Gestion horizon retraite",
+      "page": 5
+    },
+    {
+      "name": "Cessation de plein droit de la garantie « exonération de versement »",
+      "description": "Le bénéfice de la garantie cesse de plein droit : à la date de prise d'effet de la résiliation de la garantie ; à la date de liquidation des droits à la retraite dans un régime obligatoire ; en cas de changement ou de cessation d'activité professionnelle entraînant une modification dans la portée et la nature de la garantie ; en cas de réticence ou de fausse déclaration volontaire du risque à l'adhésion et/ou en cours dans le but d'obtenir des prestations indues ; en cas de redressement ou de liquidation judiciaire de l'adhérent ; en cas de décès de l'adhérent ; en cas de liquidation totale pour quelque cause que ce soit du contrat Multi Horizon Retraite ; en cas d'arrêt volontaire des versements mensuels ; au plus tard à l'âge du 67e anniversaire de l'adhérent.",
+      "applies_to": "Garantie optionnelle « exonération de versement »",
+      "page": 20
+    },
+    {
+      "name": "Cessation des prestations de la garantie « exonération de versement »",
+      "description": "Les prestations de l'assureur cessent : en cas de fausse déclaration non intentionnelle d'un sinistre (Mutavie peut alors aller jusqu'à résilier le contrat, article L. 113-9 du Code des assurances) ; dès lors que l'état de santé de l'adhérent ne répond plus à la définition de l'invalidité permanente totale définie au contrat ; dès la cessation de l'indemnisation de l'arrêt de travail par le régime de protection dont il dépend.",
+      "applies_to": "Garantie optionnelle « exonération de versement »",
+      "page": 20
+    },
+    {
+      "name": "Limitation territoriale de la garantie « exonération de versement »",
+      "description": "Les garanties en cas d'invalidité et d'incapacité temporaire totale sont accordées en France métropolitaine, en Martinique, en Guadeloupe, en Guyane, à la Réunion et lors des déplacements dans tous les autres pays de l'Union Européenne ainsi qu'en Suisse, Liechtenstein, Saint-Marin, Vatican et Andorre. Si l'ITT ou l'IPT survient hors de ces territoires, c'est la date de la première constatation de cet état en France qui sert de point de départ à la garantie.",
+      "applies_to": "Garantie optionnelle « exonération de versement »",
+      "page": 20
+    },
+    {
+      "name": "Nullité en cas de fausse déclaration en cas de sinistre",
+      "description": "« Toute réticence à un contrôle demandé par Mutavie à une expertise médicale ou toute fausse déclaration de la part de l'adhérent de même que la production de documents inexacts ou mensongers entraine la nullité de l'adhésion et tout droit au titre de la garantie. » En cas de réticence ou de fausse déclaration intentionnelle, Mutavie peut invoquer la nullité du contrat dans les conditions prévues à l'article L. 113-8 du Code des assurances.",
+      "applies_to": "Garantie optionnelle « exonération de versement »",
+      "page": 21
+    },
+    {
+      "name": "Suspension de la garantie en cas de refus de contrôle ou d'expertise",
+      "description": "« Tout refus de votre part de transmettre les pièces sollicitées ou de réaliser les expertises ou examens demandés entraînera la suspension immédiate de la garantie. Cette suspension vous sera notifiée par lettre recommandée avec avis de réception. » Si le médecin-conseil de Mutavie considère que l'arrêt de travail n'est pas justifié, l'adhérent cesse de bénéficier de la prise en charge.",
+      "applies_to": "Garantie optionnelle « exonération de versement »",
+      "page": 21
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": null,
+    "per_coverage": {
+      "Garantie optionnelle « exonération de versement »": "Délai de franchise de 90 jours en cas d'invalidité permanente totale ou d'arrêt de travail temporaire total consécutif à une maladie ou un accident. La période de franchise n'est pas appliquée de nouveau en cas de rechute du même accident ou de la même maladie après une reprise d'activité inférieure ou égale à 60 jours."
+    },
+    "page": 20
+  },
+  "waiting_periods": [
+    {
+      "coverage": "Garantie optionnelle « exonération de versement » - incapacité temporaire totale de travail",
+      "duration": "90 jours",
+      "description": "À l'expiration d'une période ininterrompue d'arrêt de travail de 90 jours (délai de franchise), Mutavie prendra en charge vos versements mensuels pendant toute la durée de votre arrêt de travail.",
+      "page": 19
+    },
+    {
+      "coverage": "Garantie optionnelle « exonération de versement » - invalidité permanente totale",
+      "duration": "90 jours",
+      "description": "Un délai de franchise de 90 jours s'applique en cas d'invalidité permanente totale, ou d'arrêt de travail temporaire total consécutif à une maladie ou un accident.",
+      "page": 20
+    },
+    {
+      "coverage": "Transfert sortant",
+      "duration": "5 ans",
+      "description": "À l'issue d'une période de 5 ans à compter de la date d'effet du contrat, aucuns frais de transfert ne sont prélevés.",
+      "page": 10
+    }
+  ],
+  "obligations": [
+    {
+      "name": "Pièces à fournir à l'adhésion",
+      "description": "Être adhérent de l'AGEPER ; prendre connaissance de la note d'information ; signer le document de synthèse correspondant à l'identification des besoins et à la formalisation du conseil ; compléter, dater et signer la demande d'adhésion ; joindre la photocopie recto verso d'un document officiel d'identité portant photographie en cours de validité ; joindre la fiche de renseignement relative aux données de la lutte contre le blanchiment des capitaux et contre le financement du terrorisme et les justificatifs demandés ; effectuer le règlement correspondant au versement initial.",
+      "timing": "À l'adhésion",
+      "sanction": "À titre de condition résolutoire, en l'absence de remise des pièces demandées dans un délai de 15 jours ouvrés à compter de la date de signature de la demande d'adhésion, ou à défaut d'accord de Mutavie, celle-ci sera rétroactivement annulée et les fonds restitués selon les mêmes modalités que le versement initial.",
+      "page": 3
+    },
+    {
+      "name": "Répartition minimale des versements",
+      "description": "La répartition des versements doit respecter un minimum de 1% par support choisi, euros ou unités de compte. Lors du versement initial à l'adhésion et de la mise en place de versements mensuels à l'adhésion, la répartition entre les supports doit respecter un investissement à 20% minimum sur un/des support(s) en unités de compte.",
+      "timing": "À chaque versement",
+      "sanction": null,
+      "page": 4
+    },
+    {
+      "name": "Informations et justificatifs LCB-FT",
+      "description": "L'adhérent, dès son adhésion et pour toute la durée de son contrat, s'engage à fournir toutes les informations et les justificatifs demandés. Toute opération, isolée ou fractionnée, devra être accompagnée des justificatifs liés à l'opération et l'origine des fonds devra être renseignée. Pour les adhésions à distance, le versement initial doit provenir d'un compte ouvert au nom de l'adhérent auprès d'un établissement financier établi dans un État membre de l'Union Européenne ou partie à l'accord sur l'Espace Économique Européen.",
+      "timing": "À l'adhésion et pendant toute la durée du contrat",
+      "sanction": "À défaut, Mutavie se réserve le droit de ne pas donner suite à la demande d'adhésion (le cas échéant à toute demande d'opération), de mettre en œuvre la faculté de résiliation du contrat visée à l'article R. 113-14 du Code des assurances, ou de suspendre les opérations jusqu'à réception des éléments demandés.",
+      "page": 15
+    },
+    {
+      "name": "Preuve de vie et situation fiscale du rentier",
+      "description": "Chaque année, le rentier devra fournir tout justificatif demandé par l'assureur comme preuve de vie et permettant par ailleurs d'attester sa situation fiscale au 1er janvier.",
+      "timing": "Chaque année pendant le service de la rente",
+      "sanction": null,
+      "page": 11
+    },
+    {
+      "name": "Déclaration des changements d'adresse et de domiciliation bancaire",
+      "description": "Durant le service de la rente, le rentier est tenu d'informer Mutavie par écrit de tout changement de domicile et de domiciliation bancaire.",
+      "timing": "Pendant le service de la rente",
+      "sanction": "À défaut, les communications ou règlements seront faits valablement à la dernière adresse enregistrée.",
+      "page": 11
+    },
+    {
+      "name": "Déclaration d'état de santé pour la garantie optionnelle",
+      "description": "Compléter, signer et dater la demande d'adhésion à la garantie « exonération de versement » et la déclaration d'état de santé ; fournir une copie de la pièce d'identité en cours de validité ; être à jour, pendant toute la durée de l'adhésion, du paiement des cotisations aux régimes obligatoires d'assurance maladie et d'assurance vieillesse, pour bénéficier du cadre fiscal de la loi Madelin. En cas d'évolution à la hausse du montant des versements mensuels, Mutavie se réserve le droit de faire compléter une nouvelle déclaration d'état de santé.",
+      "timing": "À l'adhésion à la garantie optionnelle et en cas de hausse des versements",
+      "sanction": "Mutavie peut refuser la demande d'adhésion. En cas de réticence ou de fausse déclaration intentionnelle, Mutavie peut invoquer la nullité du contrat (article L. 113-8 du Code des assurances).",
+      "page": 19
+    },
+    {
+      "name": "Déclaration de reprise d'activité professionnelle",
+      "description": "Vous devez nous déclarer toute reprise d'activité professionnelle, même partielle, dans un délai de 48 heures à compter de cette reprise.",
+      "timing": "En cours d'indemnisation",
+      "sanction": null,
+      "page": 21
+    },
+    {
+      "name": "Soumission aux contrôles et expertises médicales",
+      "description": "À tout moment, Mutavie peut faire procéder par un médecin qu'elle désigne à une expertise médicale relative à la demande ou au maintien des prestations, diligenter une enquête ou demander des pièces complémentaires. Les frais de déplacement sont à la charge de l'assuré. En cas de désaccord avec les conclusions du médecin-conseil, une expertise amiable peut être demandée, confiée à un tiers expert désigné d'un commun accord et choisi sur la liste des experts judiciaires de la cour d'appel ; à défaut d'entente, la désignation est faite par le président du tribunal de grande instance. L'adhérent et Mutavie supportent chacun pour moitié les frais et honoraires du tiers expert, dont les conclusions s'imposent aux parties.",
+      "timing": "En cours d'indemnisation",
+      "sanction": "Tout refus de transmettre les pièces sollicitées ou de réaliser les expertises ou examens demandés entraînera la suspension immédiate de la garantie, notifiée par lettre recommandée avec avis de réception. En cas d'absence non justifiée à l'expertise programmée, Mutavie se réserve le droit de remettre en cause le droit à la garantie et de demander le règlement des frais facturés par l'expert.",
+      "page": 21
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclaration d'une incapacité temporaire totale",
+      "description": "Fournir un certificat détaillé de votre médecin traitant précisant les motifs et date de début de l'arrêt de travail initial et prolongations, le cas échéant, tout justificatif d'un régime obligatoire prouvant le paiement de prestations en cas d'arrêt de travail.",
+      "deadline": "Toute incapacité doit être déclarée dans un délai de 10 jours maximum après le délai de franchise",
+      "page": 20
+    },
+    {
+      "step": "Déclaration d'une invalidité permanente totale",
+      "description": "Toute invalidité doit être déclarée à Mutavie. Si le taux d'invalidité permanente est supérieur ou égal à 66%, la prise en charge par Mutavie intervient à compter de la date de stabilisation déterminée par le médecin-expert, mandaté selon la procédure décrite à l'article « droit de contrôle et d'expertise ».",
+      "deadline": "Dans les 45 jours qui suivent la connaissance de cette invalidité",
+      "page": 21
+    },
+    {
+      "step": "Déclaration du décès de l'adhérent",
+      "description": "Réception d'une pièce officielle certifiant le décès de l'adhérent, d'un accord de règlement signé par chaque bénéficiaire et de tout document prévu par les dispositions légales et réglementaires en vigueur, puis vérification de l'encaissement effectif des éventuels versements en cours. D'autres documents peuvent être demandés afin de justifier la qualité de bénéficiaire (notamment acte de notoriété, acte de naissance avec filiation, copie du Livret de famille).",
+      "deadline": "Les sommes dues non réglées à l'issue d'un délai de dix ans à compter de la date de prise de connaissance par l'assureur du décès sont déposées à la Caisse des dépôts et consignations (article L. 132-27-2 du Code des assurances)",
+      "page": 10
+    },
+    {
+      "step": "Demande de rachat exceptionnel anticipé",
+      "description": "La demande de rachat est accompagnée de la photocopie recto verso d'un document officiel d'identité en cours de validité portant photographie et des pièces justificatives nécessaires selon le cas invoqué : attestation de fin d'indemnisation de Pôle emploi et copie de la lettre de licenciement (ou attestation sur l'honneur pour un ancien mandataire social) ; notification du tribunal ayant prononcé le jugement de liquidation judiciaire ; notification de la pension d'invalidité en deuxième ou troisième catégorie délivrée par la Sécurité sociale ; original de l'acte de décès du conjoint ou du partenaire lié par un PACS ; demande du président de la Commission de surendettement ou du juge ; copie du contrat de vente notarié ou du compromis de vente et justificatif des prêts immobiliers obtenus.",
+      "deadline": "Versement dans le délai d'un mois à compter de la réception de la demande complète",
+      "page": 9
+    },
+    {
+      "step": "Demande de liquidation (capital ou rente)",
+      "description": "Informer Mutavie, qui adresse un dossier de liquidation en capital ou un dossier de transformation en rente viagère à retourner complété, signé et accompagné des pièces justificatives : document justifiant la liquidation des droits à la retraite du régime de base, photocopie de la carte d'identité ou du Livret de famille mis à jour, relevé d'identité bancaire. En cas de rente réversible, joindre en plus une photocopie de la pièce d'identité ou du Livret de famille du bénéficiaire de la réversion.",
+      "deadline": "Au moins trois mois avant la date de prise d'effet souhaitée",
+      "page": 11
+    },
+    {
+      "step": "Réclamation",
+      "description": "Un conseiller est à disposition ; si la réponse ne donne pas entière satisfaction, s'adresser au service « Qualité et Voix du Client » de Mutavie via la rubrique « Nous contacter » de son site internet ou par courrier (Mutavie - Service Qualité et Voix du Client - CS 50000 - 79088 Niort cedex 9). Si le désaccord persiste, recours au Médiateur de l'Assurance (La Médiation de l'Assurance TSA 50110 - 75441 Paris cedex 09 ou saisine en ligne sur http://www.mediation-assurance.org).",
+      "deadline": "Réponse de Mutavie sous sept jours ouvrés maximum à compter de la réception de la réclamation ; saisine de la Médiation dans un délai maximum d'un an à compter de l'envoi de la réclamation écrite",
+      "page": 15
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat est ouvert pour une durée indéterminée (vie entière). Il prend fin notamment au moment de la retraite lors de la liquidation des droits (article 15) ou au décès de l'assuré (article 13), ou par anticipation (article 12). La durée recommandée du contrat dépend notamment de la situation patrimoniale de l'adhérent, de son attitude vis-à-vis du risque, du régime fiscal en vigueur et des caractéristiques du contrat choisi.",
+    "tacit_renewal": null,
+    "notice_period": "Renonciation : 30 jours à compter du moment où l'adhérent est informé que le contrat est conclu, remboursement intégral dans un délai maximum de 10 jours ouvrés à compter de la réception du courrier. Garantie optionnelle « exonération de versement » : résiliation à tout moment, prenant effet le premier jour du mois suivant la demande sous réserve qu'elle parvienne au plus tard 15 jours avant la fin du mois en cours.",
+    "methods": [
+      "Renonciation par lettre recommandée datée et signée ou son équivalent par envoi recommandé électronique, avec demande d'avis de réception, adressée à Mutavie - CS 50000 - 79088 Niort cedex 9 (un modèle de lettre est fourni à l'article 5)",
+      "Transfert vers un autre plan visé à l'article L. 224-1 du Code monétaire et financier, par lettre recommandée avec avis de réception indiquant le nom du nouvel organisme",
+      "Résiliation de la garantie optionnelle par lettre recommandée avec avis de réception adressée à Mutavie, service prévoyance, 79088 Niort cedex 09"
+    ],
+    "special_rights": [
+      "Résiliation de la garantie optionnelle en cas de non-paiement : à défaut de paiement d'un versement mensuel dans un délai de 10 jours suivant la date d'échéance, une lettre recommandée de mise en demeure est adressée précisant que les garanties souscrites seront résiliées 40 jours après l'envoi de cette lettre ; la remise en vigueur peut être demandée, conditionnée à l'acceptation de Mutavie et le cas échéant à des formalités médicales",
+      "En cas de cessation de l'adhésion à la garantie optionnelle, le versement des prestations en cours au titre d'un arrêt de travail survenu pendant la période de garantie demeure dans la limite de la durée contractuelle prévue",
+      "La résiliation du contrat de groupe entraînera un changement d'organisme assureur (article 14) ; les modalités de transfert seront définies en accord avec le nouvel organisme",
+      "Droit de dénoncer l'affiliation en raison des modifications de l'additif, en procédant au transfert du contrat, uniquement si l'adhérent n'est plus tenu d'adhérer au dit contrat"
+    ],
+    "page": 3
+  },
+  "prescription_period": {
+    "description": "Article 30 : en application de l'article L. 114-1 du Code des assurances, « toutes actions dérivant d'un contrat d'assurance sont prescrites par deux ans à compter de l'évènement qui y donne naissance ». Ce délai ne court, en cas de réticence, omission, déclaration fausse ou inexacte sur le risque couru, que du jour où l'assureur en a eu connaissance, et en cas de sinistre, que du jour où les intéressés en ont eu connaissance s'ils prouvent qu'ils l'ont ignoré jusque-là. « La prescription est portée à dix ans lorsque le bénéficiaire est une personne distincte de [l'adhérent]. » « Nonobstant les dispositions du 2°, les actions du bénéficiaire sont prescrites au plus tard trente ans à compter du décès de l'assuré. » Le document reproduit également les articles L. 114-2 et L. 114-3 du Code des assurances et les articles 2234, 2238 et 2240 à 2244 du Code civil relatifs à l'interruption et à la suspension de la prescription.",
+    "page": 15
+  },
+  "premium": {
+    "notes": [
+      "Versement initial : au minimum 150 euros. Versements libres : 50 euros minimum. Versements mensuels : 50 euros minimum, prélevés automatiquement le 10 du mois d'échéance (premier jour ouvré suivant si jour férié ou non ouvré). La mise en place, l'augmentation, la diminution (dans la limite du versement minimum contractuel de 50 euros) et l'interruption des prélèvements sont possibles à tout moment et sans frais, la demande devant parvenir 20 jours avant le 10 du mois d'échéance.",
+      "Frais à l'entrée : 0% - « Aucuns frais ne sont prélevés à l'adhésion. »",
+      "Frais sur versements : 1% du montant de chaque versement ; majoration possible de frais d'entrée acquis au support pour les unités de compte (notamment immobilières), indiqués dans le DICI du support.",
+      "Frais de gestion annuels : 0,60% de l'épargne gérée sur le support en euros ; 0,80% du nombre de parts géré sur les supports en unités de compte. Calculés et prélevés quotidiennement.",
+      "Frais sur arbitrage : 0,50% des sommes arbitrées après un arbitrage gratuit par année civile. Aucuns frais pour les arbitrages réalisés dans le cadre d'une option de gestion ni dans le cadre du mode de gestion horizon retraite. Mise en place/modification d'option(s) de gestion : sans frais.",
+      "Frais liés à la garantie plancher : prélèvement sur le portefeuille financier du support en euros, exprimé en pourcentage de l'épargne gérée du support en euros, révisable annuellement ; « à titre indicatif, il est égal à 0,08% en 2022 ».",
+      "Frais de transfert individuel : sortant 1% de la valeur du contrat (0% après 5 ans et lorsque le transfert intervient à compter de l'échéance mentionnée à l'article 15.1) ; entrant : application des frais sur versement.",
+      "Frais applicables aux rentes viagères : frais de gestion de la rente appliqués à la provision mathématique 0,60% ; frais de service des rentes 1% des versements de rente.",
+      "Rachat exceptionnel : sans frais.",
+      "Cotisation de la garantie optionnelle « exonération de versement » : 3% (hors taxes, prélèvements fiscaux et sociaux) des versements mensuels, s'ajoutant au montant du prélèvement.",
+      "Rémunération des distributeurs (additif) : « Les conseillers distribuant les contrats sont rémunérés par un salaire fixe. Une prime variable en moyenne à 4% peut compléter leur rémunération. »",
+      "Financement de l'association souscriptrice : « Le financement de l'association souscriptrice s'effectue par la perception des cotisations régulières des adhérents qui prennent la forme de frais prélevés sur le plan. »",
+      "Annexe 2 (données arrêtées au 31/12/2021) - support en euros : taux de participation au bénéfice brut 1,75%, taux de frais de gestion 0,60%, taux de participation au bénéfice net 1,15%, rétrocessions de commissions au profit du distributeur 0,00%."
+    ],
+    "indexation": null,
+    "page": 8
+  },
+  "special_conditions": [
+    {
+      "name": "Modes de gestion - gestion horizon retraite",
+      "description": "Trois orientations sont proposées : Gestion horizon retraite Prudent, Gestion horizon retraite Équilibre, Gestion horizon retraite Dynamique. Chaque orientation est encadrée par une grille d'allocation entre la part d'épargne investie sur le support en euros et celle investie sur les supports en unités de compte (OFI actions Climat FR0013414414, OFI actions Solidaire FR0010903674, OFI RS MultiTrack FR0010564351, OFI Profil Équilibre FR0012979268, Fonds €). La répartition évolue chaque année en fonction du nombre d'années séparant de la date présumée du départ à la retraite ; à défaut de précision, la date de liquidation est fixée au 62e anniversaire. Réallocation automatique et sans frais tous les trimestres, les 15 mars, 15 juin, 15 septembre et 15 décembre (ou le premier jour ouvré Bourse hors jour férié suivant). Au terme de la durée de placement fixée, l'épargne est investie à 100% sur le support en euros. Sauf décision contraire et expresse à l'ouverture, les versements sont affectés en mode de gestion horizon retraite avec l'allocation équilibre. L'adhérent donne mandat à l'assureur (articles 1984 et suivants du Code Civil) et ne peut pas sélectionner lui-même les supports.",
+      "page": 4
+    },
+    {
+      "name": "Grilles d'allocation - horizon retraite Prudent",
+      "description": "Part investie en support euros selon le nombre d'années à échéance (OFI actions Climat / OFI actions Solidaire / OFI RS MultiTrack / OFI Profil Équilibre / Fonds €) : 30 et plus à 23 ans : 5%/5%/30%/30%/30% ; 22 : 3%/3%/31%/31%/32% ; 21 : 3%/3%/30%/30%/34% ; 20 : 3%/3%/28%/28%/38% ; 19 : 3%/3%/26%/26%/42% ; 18 : 3%/3%/25%/25%/44% ; 17 : 3%/3%/24%/24%/46% ; 16 : 3%/3%/23%/23%/48% ; 15 : 2%/2%/22%/22%/52% ; 14 : 2%/2%/21%/21%/54% ; 13 : 2%/2%/20%/20%/56% ; 12 : 2%/2%/19%/19%/58% ; 11 : 2%/2%/18%/18%/60% ; 10 : 2%/2%/16%/16%/64% ; 9 : 2%/2%/14%/14%/68% ; 8 : 1%/1%/13%/13%/72% ; 7 : 1%/1%/10%/10%/78% ; 6 : 1%/1%/7%/7%/84% ; 5 : 1%/1%/4%/4%/90% ; 4 : 0%/0%/3%/3%/94% ; 3 : 0%/0%/2%/2%/96% ; 2 : 0%/0%/1%/1%/98% ; 1 : 0%/0%/1%/0%/99% ; 0 : 0%/0%/0%/0%/100%.",
+      "page": 5
+    },
+    {
+      "name": "Grilles d'allocation - horizon retraite Équilibre",
+      "description": "30 et plus à 26 ans : 10%/10%/30%/30%/20% ; 25 : 9%/9%/29%/28%/25% ; 24 : 9%/8%/29%/29%/25% ; 23 : 8%/8%/30%/29%/25% ; 22 : 8%/7%/30%/30%/25% ; 21 : 7%/6%/31%/31%/25% ; 20 : 6%/6%/29%/29%/30% ; 19 : 6%/5%/30%/29%/30% ; 18 : 5%/5%/30%/30%/30% ; 17 : 5%/4%/31%/30%/30% ; 16 : 4%/4%/31%/31%/30% ; 15 à 11 : 3%/3%/30%/29%/35% ; 10 : 3%/3%/27%/27%/40% ; 9 : 3%/3%/24%/24%/46% ; 8 : 2%/2%/21%/21%/54% ; 7 : 2%/2%/17%/17%/62% ; 6 : 2%/2%/13%/13%/70% ; 5 : 1%/1%/10%/10%/78% ; 4 : 1%/1%/6%/6%/86% ; 3 : 1%/1%/4%/4%/90% ; 2 : 0%/0%/3%/3%/94% ; 1 : 0%/0%/2%/1%/97% ; 0 : 0%/0%/0%/0%/100%.",
+      "page": 5
+    },
+    {
+      "name": "Grilles d'allocation - horizon retraite Dynamique",
+      "description": "30 et plus à 25 ans : 20%/20%/30%/30%/0% ; 24 : 18%/18%/32%/32%/0% ; 23 : 16%/16%/34%/34%/0% ; 22 : 14%/14%/36%/36%/0% ; 21 : 12%/12%/38%/38%/0% ; 20 à 16 : 10%/10%/38%/37%/5% ; 15 à 11 : 9%/9%/36%/36%/10% ; 10 : 9%/9%/34%/33%/15% ; 9 : 8%/8%/32%/32%/20% ; 8 : 7%/7%/29%/29%/28% ; 7 : 6%/6%/24%/24%/40% ; 6 : 5%/5%/19%/18%/53% ; 5 : 3%/3%/14%/14%/66% ; 4 : 2%/2%/10%/10%/76% ; 3 : 2%/2%/6%/6%/84% ; 2 : 1%/1%/4%/4%/90% ; 1 : 1%/1%/2%/2%/94% ; 0 : 0%/0%/0%/0%/100%.",
+      "page": 6
+    },
+    {
+      "name": "Mode de gestion libre et arbitrage à la demande",
+      "description": "L'adhérent choisit d'investir son épargne entre plusieurs types de supports parmi ceux éligibles à ce mode de gestion et peut à tout moment modifier la répartition en réalisant un arbitrage, sur demande écrite. La répartition doit respecter un minimum de 1% par support. Le montant minimum de l'arbitrage est de 300 euros.",
+      "page": 7
+    },
+    {
+      "name": "Option de gestion - sécurisation des plus-values",
+      "description": "Les plus-values latentes présentes sur les supports en unités de compte concernés sont arbitrées vers le support en euros selon un seuil de 5%, 10% ou 15% fixé pour chaque support. En cas d'atteinte du seuil, la totalité de la plus-value est automatiquement arbitrée. Date de valeur : le deuxième prochain jour de cotation à compter du dépassement du seuil. Le seuil peut être modifié à tout moment sur demande écrite ; Mutavie se réserve le droit de modifier ces seuils.",
+      "page": 7
+    },
+    {
+      "name": "Option de gestion - dynamisation des intérêts",
+      "description": "Les intérêts acquis sur le support en euros sont investis vers un ou plusieurs supports en unités de compte accessibles en gestion libre (minimum 1% par support). Arbitrage annuel effectué le 25 janvier de chaque année ou le prochain jour ouvré Bourse hors jour férié suivant ; la demande d'activation doit parvenir avant le 31 décembre de l'année précédente.",
+      "page": 6
+    },
+    {
+      "name": "Option de gestion - investissement progressif",
+      "description": "Investissement progressif, par arbitrages successifs, de tout ou partie de l'épargne du support en euros vers un ou plusieurs supports en unités de compte (minimum 1% par support). L'adhérent précise le montant des arbitrages, la périodicité (mensuelle, trimestrielle, semestrielle ou annuelle), les supports destinataires et le nombre d'arbitrages. Arbitrage réalisé le dernier jour ouvré de la périodicité choisie, sous réserve que les sommes arbitrées soient d'un montant minimum de 150 euros. Les arbitrages progressifs peuvent être suspendus à la demande de l'adhérent ou par Mutavie si le solde sur le support en euros n'est plus suffisant.",
+      "page": 6
+    },
+    {
+      "name": "Option de gestion - rééquilibrage automatique",
+      "description": "Définition d'une « répartition type » de l'épargne gérée en gestion libre entre les supports (minimum 1% par support). Chaque mois, un arbitrage automatique est réalisé pour maintenir cette répartition si au moins un support présente un écart de 150 euros par rapport à la « répartition type ». Arbitrage réalisé le dernier jour ouvré Bourse de chaque fin de mois hors jours fériés.",
+      "page": 6
+    },
+    {
+      "name": "Option de gestion - stop loss relatif",
+      "description": "Arbitrage automatique du capital constitué sur un ou plusieurs supports en unités de compte vers le support en euros dès lors que des moins-values latentes relatives atteignent le seuil choisi (5%, 10% ou 15%). La moins-value latente s'entend par la différence entre la valeur de rachat du support suivi à la date de constatation et la plus haute valeur atteinte par le montant de référence. La période de constatation est quotidienne ; le désinvestissement intervient le prochain jour ouvré Bourse hors jours fériés. L'opération ne met pas fin à l'option si le support venait à être réalimenté.",
+      "page": 7
+    },
+    {
+      "name": "Valeurs minimales de transfert (exemple réglementaire pour 1 000 euros versés à l'adhésion)",
+      "description": "Sur le support en euros, cumul des versements 1 000 euros : année 1 : 974,22 ; 2 : 968,37 ; 3 : 962,56 ; 4 : 956,79 ; 5 : 951,05 ; 6 : 954,89 ; 7 : 949,16 ; 8 : 943,47. Sur les supports en unités de compte, nombre d'unités de compte minimal de transfert : année 1 : 97,23 ; 2 : 96,45 ; 3 : 95,68 ; 4 : 94,91 ; 5 : 94,15 ; 6 : 94,34 ; 7 : 93,59 ; 8 : 92,84 (pour 1 000 euros versés, soit 990 euros investis après frais sur versements, permettant d'acquérir 99 parts). Ces valeurs ne tiennent pas compte de la capitalisation réelle de l'épargne ni des éventuels mouvements effectués sur le contrat.",
+      "page": 9
+    },
+    {
+      "name": "Clause bénéficiaire standard",
+      "description": "Clause proposée par défaut : « En cas de décès pendant la phase d'épargne, je désire que la valeur acquise de mon épargne soit versée à mon conjoint non séparé de corps judiciairement, ou mon partenaire de PACS, à défaut par parts égales à mes enfants nés ou à naître, vivants ou représentés, à défaut à mes héritiers. » Deux autres clauses standard sont proposées (enfants ; petits-enfants). Pour rappel : la notion de conjoint désigne uniquement la personne mariée ; le concubin n'est pas assimilé au conjoint ou au partenaire de PACS. Pour un mineur, le libellé de la clause est obligatoirement « à mes héritiers ». L'acceptation du bénéfice par le bénéficiaire, avec le consentement écrit de l'adhérent, rend la désignation irrévocable pendant la phase d'épargne.",
+      "page": 3
+    },
+    {
+      "name": "Gamme des supports en unités de compte (annexe 1)",
+      "description": "En mode de gestion libre : Amiral Sextant Grand Large (FR0010286013, AMIRAL GESTION) ; Amundi Opcimmo P (FR0011066802, AMUNDI IMMOBILIER) ; Comgest Magellan (FR0000292278) ; Comgest Monde (FR0000284689) ; Ginjer actifs 360 (FR0011153014, GINJER AM) ; LFDE Échiquier Arty (FR0010611293) ; OFI actions Monde Durable (FR0010508333) ; OFI actions Climat (FR0013414414) ; OFI actions Solidaire (FR0010903674) ; OFI actions Économie Positive (LU1983381689, OFI LUX) ; OFI RS MultiTrack (FR0010564351) ; OFI profil Équilibre (FR0012979268) ; Sycomore Allocation Patrimoine (FR0007078589) ; Sycomore Francecap (FR0010111732) ; Sycomore Happy@Work (LU1301026388) ; Sycomore Sélection Responsable (FR0010971721). En mode de gestion Horizon Retraite : OFI actions Climat, OFI profil Équilibre, OFI actions Solidaire, OFI RS MultiTrack.",
+      "page": 16
+    },
+    {
+      "name": "Performances des supports au 31/12/2021 (annexe 2)",
+      "description": "Performance brute / frais de gestion de l'actif / performance nette / frais de gestion du plan / frais totaux / performance finale pour le titulaire / quotité des rétrocessions : Amiral Sextant Grand Large 5,46% / 1,70% / 3,76% / 0,60% / 2,30% / 3,16% / 0,85% ; Amundi Opcimmo P 4,68% / 1,66%* / 3,02% / 0,60% / 2,26% / 2,42% / 0,45% (*frais au 31/12/2020) ; Comgest Magellan -13,19% / 2,09% / -15,28% / 0,60% / 2,69% / -15,88% / 0,50% ; Comgest Monde 18,24% / 2,26% / 15,98% / 0,60% / 2,86% / 15,38% / 0,75% ; Ginjer actifs 360 26,59% / 1,89% / 24,70% / 0,60% / 2,49% / 24,10% / 0,83% ; LFDE Échiquier Arty 7,33% / 1,80% / 5,53% / 0,60% / 2,40% / 4,93% / 0,75% ; OFI actions Monde Durable 29,76% / 1,65% / 28,11% / 0,60% / 2,25% / 27,51% / 0,80% ; OFI actions Climat 19,19% / 1,41% / 17,78% / 0,60% / 2,01% / 17,18% / 0,80% ; OFI actions Solidaire 20,05% / 1,40% / 18,65% / 0,60% / 2,00% / 18,05% / 0,80% ; OFI actions Économie Positive 18,08% / 1,41% / 16,67% / 0,60% / 2,01% / 16,07% / 0,80% ; OFI RS MultiTrack 12,82% / 1,50% / 11,32% / 0,60% / 2,10% / 10,72% / 0,70% ; OFI profil Équilibre 5,93% / 1,21% / 4,72% / 0,60% / 1,81% / 4,12% / 0,80% ; Sycomore Allocation Patrimoine 6,81% / 1,68% / 5,13% / 0,60% / 2,28% / 4,53% / 0,90% ; Sycomore Francecap 23,77% / 2,00% / 21,77% / 0,60% / 2,60% / 21,17% / 1,00% ; Sycomore Happy@Work 16,34% / 2,00% / 14,34% / 0,60% / 2,60% / 13,74% / 1,00% ; Sycomore Sélection Responsable 17,05% / 2,06% / 14,99% / 0,60% / 2,66% / 14,39% / 1,00%.",
+      "page": 17
+    },
+    {
+      "name": "Durabilité (annexe 3)",
+      "description": "Le tableau des supports porte « NC : non concerné » pour le support en euros et pour chacune des unités de compte au titre des articles 8 et 9 du Règlement SFDR. Le texte indique néanmoins que « Les supports “article 8” proposés représentent 41% du nombre total des supports d'investissements (supports en unités de compte et support en euros) offerts par le contrat Multi Horizon Retraite et les supports “article 9” représentant 41%. » Les informations présentes sur cette annexe sont celles en vigueur au 31/12/2021.",
+      "page": 18
+    },
+    {
+      "name": "Fiscalité à l'entrée - compartiment 1",
+      "description": "Déductibilité du revenu imposable. Pour l'ensemble des contribuables : déductible à l'impôt sur le revenu dans la limite de 10% des revenus d'activité professionnelle de l'année N-1 (retenus dans la limite de 8 PASS de l'année N-1) ou 10% du PASS de l'année N-1. Pour les indépendants : déductible du bénéfice ou de la rémunération dans la limite de 10% des revenus d'activité de l'année N (retenus dans la limite de 8 PASS), auxquels s'ajoutent 15% supplémentaires sur la fraction de ce bénéfice/cette rémunération comprise entre 1 et 8 PASS ; ou 10% du PASS.",
+      "page": 12
+    },
+    {
+      "name": "Fiscalité à la sortie - compartiment 1 (versements déduits)",
+      "description": "Sortie anticipée pour accident de la vie : part des versements exonérée d'IR et de prélèvements sociaux ; intérêts/plus-values exonérés d'IR mais prélèvements sociaux de 17,2%. Sortie anticipée pour acquisition de la résidence principale : part des versements imposée à l'IR dans la catégorie des pensions et retraites sans l'abattement de 10%, exonération de prélèvements sociaux ; intérêts/plus-values PFU 12,8% et prélèvements sociaux 17,2%. Sortie en capital à l'échéance : part des versements imposée à l'IR dans la catégorie des pensions et retraites sans l'abattement de 10%, pas de prélèvements sociaux ; intérêts/plus-values PFU 12,8% ; traitement social 17,2%. Sortie en rente viagère : imposition à l'IR après abattement de 10% plafonné (régime des RVTG) ; 17,2% sur une fraction de la rente selon l'âge du titulaire (régime des RVTO).",
+      "page": 12
+    },
+    {
+      "name": "Fiscalité à la sortie - option pour la non déductibilité (compartiment 1bis)",
+      "description": "Sortie anticipée pour accident de la vie : part des versements exonérée d'IR et de prélèvements sociaux ; intérêts/plus-values PFU 12,8% et prélèvements sociaux 17,2%. Sortie en capital : part des versements exonérée d'IR, pas de prélèvements sociaux ; intérêts/plus-values PFU 12,8% ; traitement social 17,2%. Sortie en rente viagère : imposition à l'IR sur une fraction de la rente selon l'âge du titulaire (régime des RVTO) ; 17,2% sur une fraction de la rente. Note (7) : « La renonciation à déduction à l'entrée permet, en cas de sortie en capital, de bénéficier de l'exonération du capital, et en cas de sortie en rente, de n'être imposé que sur une fraction de la rente. »",
+      "page": 12
+    },
+    {
+      "name": "Fiscalité - compartiment 2 (épargne salariale)",
+      "description": "À l'entrée : exonération d'IR dans la limite des plafonds légaux, CSG/CRDS 9,7% (et, au-delà des plafonds légaux : non exonérés d'IR, CSG/CRDS 9,7%). Sortie anticipée pour accident de la vie : part des versements exonérée d'IR et de prélèvements sociaux ; intérêts/plus-values exonérés d'IR, prélèvements sociaux 17,2%. Sortie anticipée pour acquisition de la résidence principale : exonération d'IR sur les versements et sur les intérêts/plus-values, prélèvements sociaux 17,2%. Sortie en capital : exonération d'IR sur les versements, pas de prélèvements sociaux ; intérêts/plus-values exonérés d'IR ; 17,2%. Sortie en rente viagère : régime des RVTO.",
+      "page": 13
+    },
+    {
+      "name": "Fiscalité - compartiment 3 (versements obligatoires)",
+      "description": "À l'entrée : part employeur / part salariale exonérées d'IR (note 10 : exonération dans la limite d'un plafond de 8% de la rémunération annuelle brute plafonnée à huit PASS, minorée par l'abondement de l'employeur versé sur un PERCO ou un PER Collectif ainsi que par le versement de jours de repos ou transfert de jours d'un CET dans la limite de 10 jours par an), CSG/CRDS 9,7%. Sortie anticipée pour accident de la vie : part des versements exonérée d'IR et de prélèvements sociaux ; intérêts/plus-values exonérés d'IR, prélèvements sociaux 17,2%. Sortie anticipée pour acquisition de la résidence principale : « non possible ». Sortie en capital : « non possible ». Sortie en rente viagère : imposition à l'IR après abattement de 10% plafonné (régime des RVTG) ; traitement social 10,1%.",
+      "page": 13
+    },
+    {
+      "name": "Fiscalité du versement forfaitaire unique (VFU)",
+      "description": "« Hypothèse du VFU (Versement Forfaitaire Unique) : prévu à l'article A 160-2-1 du Code des assurances. Parts des versements : imposition à l'IR dans la catégorie des pensions et retraites mais sans l'abattement de 10% (article 158 CGI) et traitement social : 10,1%. Intétêts/plus-values : PFU 12,8% (article 158 CGI) et 17,2% de prélèvements sociaux. » (orthographe de la source conservée)",
+      "page": 13
+    },
+    {
+      "name": "Fiscalité en cas de décès (article 20)",
+      "description": "En cas de décès avant 70 ans, le capital ou la valeur capitalisée de la rente est soumis au prélèvement de l'article 990 I du CGI après un abattement de 152 500 € (commun avec les capitaux versés au titre de l'assurance-vie) ; ce prélèvement s'élève à 20% jusqu'à 700 000 € puis au-delà à 31,25%. En cas de décès après 70 ans, taxation au titre de l'article 757 B du CGI après abattement de 30 500 € (commun avec les primes versées après 70 ans sur un contrat d'assurance-vie), puis droits de succession. Exceptions : conjoint survivant, partenaire de PACS survivant, frères et sœurs sous conditions (célibataires, veufs, divorcés ou séparés de corps, âgés de plus de 50 ans ou infirmes, domiciliés chez le titulaire pendant les 5 années précédant son décès) ; rentes viagères servies exonérées du prélèvement de l'article 990 I lorsque les versements ont été réguliers pendant 15 ans au moins, quel que soit le bénéficiaire (cette exonération ne s'applique pas lorsque les bénéficiaires reçoivent un capital) ; troisième exception pour la rente réversible au profit des parents en ligne directe (enfant, petit-enfant, parent, grand-parent du titulaire du plan).",
+      "page": 14
+    },
+    {
+      "name": "Impôt sur la Fortune Immobilière (article 21)",
+      "description": "« Le contrat Multi Horizon Retraite n'est pas soumis à l'IFI (même en cas d'investissement sur des supports immobiliers). »",
+      "page": 14
+    },
+    {
+      "name": "Pilotage du contrat collectif (articles 22 à 24)",
+      "description": "L'AGEPER assure la représentation des intérêts des adhérents par l'intermédiaire du Conseil d'administration, de l'assemblée de ses membres et du Comité de surveillance du contrat, chargé notamment de l'examen des comptes. Le contrat d'assurance-vie de groupe à adhésion facultative porte le n° 01-159, souscrit auprès de Mutavie par l'AGEPER au profit de ses adhérents. Les droits et obligations de l'adhérent peuvent être modifiés par avenants ; l'adhérent est informé trois mois au minimum avant l'entrée en vigueur des modifications substantielles. Seule l'assemblée générale de l'AGEPER a qualité pour autoriser la modification des dispositions essentielles du contrat de groupe.",
+      "page": 14
+    },
+    {
+      "name": "Information annuelle de l'adhérent",
+      "description": "À compter de la cinquième année précédant la date de liquidation de la pension dans un régime obligatoire d'assurance vieillesse ou de l'âge mentionné à l'article L. 161-17-2 du Code de la sécurité sociale, l'adhérent peut interroger Mutavie par tout moyen sur ses droits et les modalités de restitution de l'épargne ; six mois avant le début de cette période des cinq ans, Mutavie l'informera de ce droit. En phase d'épargne : un relevé individuel récapitulant l'évolution de l'épargne durant l'année écoulée et un justificatif fiscal en cas de versement individuel facultatif. Après la transformation en rente : un courrier précisant le nouveau montant brut de la rente après revalorisation annuelle, les modalités d'application des prélèvements sociaux et du prélèvement à la source, et le montant à déclarer dans les revenus.",
+      "page": 12
+    },
+    {
+      "name": "Convention de preuve et loi applicable",
+      "description": "Mutavie peut exiger à tout moment et pour toute opération un écrit de l'adhérent. L'utilisation de l'identifiant et du mot de passe vaut signature ; la signature via un procédé de signature électronique renforcé avec un tiers certificateur vaut signature manuscrite. La preuve des opérations pourra être faite par tous moyens, notamment par les récapitulatifs des transactions établies par les systèmes informatiques de Mutavie. « La loi applicable au présent contrat est la loi française. » (article 29) ; la langue utilisée entre l'assureur et l'adhérent pendant toute la vie des contrats est le français (annexe 4).",
+      "page": 14
+    },
+    {
+      "name": "Autorité de contrôle",
+      "description": "« Mutavie est soumise à l'Autorité de contrôle prudentiel et de résolution (ACPR) : 4 place de Budapest - CS 92459 - 75436 Paris cedex 9. Le rapport sur la solvabilité et la situation financière de Mutavie prévu à l'article L.355-5 est disponible sur mutavie.fr. »",
+      "page": 15
+    },
+    {
+      "name": "Identité des entités",
+      "description": "« Multi Horizon Retraite est souscrit par l'AGEPER et assuré par Mutavie. MUTAVIE SE - Société européenne à Directoire et Conseil de surveillance. Entreprise régie par le Code des assurances. Capital 46 200 000 €. RCS Niort B 315 652 263. Siège social : 9 rue des Iris - CS 50000 - Bessines - 79088 Niort cedex 9. AGEPER - Association pour la gestion de l'épargne retraite (association loi 1901). Siège social : 9 rue des Iris - CS 50000 - 79000 Bessines. » L'additif ajoute : « MACIF - MUTUELLE ASSURANCE DES COMMERÇANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L'INDUSTRIE ET DU COMMERCE. Société d'assurance mutuelle à cotisations variables. Entreprise régie par le Code des assurances. Siège social : 1 rue Jacques Vandier - 79000 Niort. »",
+      "page": 21
+    },
+    {
+      "name": "Protection des données personnelles et LCB-FT",
+      "description": "Les données recueillies font l'objet de traitements par Mutavie, responsable de traitements, pour la passation, la gestion et l'exécution des contrats ainsi qu'à des fins de prospection et gestion commerciales ; elles pourront être transmises aux partenaires et entités du groupe aux mêmes fins, et sont traitées pour la lutte contre le blanchiment, le financement du terrorisme et la fraude, ce qui peut conduire à une inscription sur une liste de personnes présentant un risque de fraude. Droits d'accès, de rectification, d'effacement, de limitation, d'opposition, le cas échéant de portabilité, et directives post mortem ; réclamation possible auprès de la CNIL. Inscription possible sur la liste d'opposition au démarchage téléphonique sur www.bloctel.gouv.fr.",
+      "page": 14
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Le contrat Multi Horizon Retraite est un contrat de groupe (collectif) \nd’assurance-vie destiné à se constituer un complément de revenus au moment \nde la retraite sous forme de rente viagère ou de capital. Le capital n’est pas \ndisponible avant le départ à la retraite, sauf cas de rachats anticipés définis \nà l’article 12.",
+      "context": "Objet du contrat (chapitre 1 Caractéristiques du contrat)",
+      "page": 3
+    },
+    {
+      "quote": "Le contrat Multi Horizon Retraite est un contrat d’assurance collective sur la vie \nà adhésion facultative libellé en unités de compte et en euros. Il est régi par les \nbranches 20 et 22 de l’article R. 321-1 du Code des assurances.",
+      "context": "Nature juridique et branches réglementaires",
+      "page": 3
+    },
+    {
+      "quote": "Pour les droits exprimés en euros : le contrat comporte une garantie en capital \nau moins égale aux sommes investies nettes de frais sur versements (déduc­\ntion faite des rachats anticipés effectués et des arbitrages sortants réalisés) et \nnettes des frais annuels de gestion.",
+      "context": "Garantie en capital sur le support en euros (article 1)",
+      "page": 3
+    },
+    {
+      "quote": "Pour les droits exprimés en unités de compte : les montants investis sur les \nsupports en unités de compte ne sont pas garantis mais sont sujets à des \nfluctuations à la hausse ou à la baisse dépendant notamment de l’évolution \ndes marchés financiers. Par ailleurs, le mécanisme d’application des frais \nde gestion annuels sur les supports en unités de compte vient diminuer le \nnombre de parts détenues.",
+      "context": "Absence de garantie sur les unités de compte (article 1)",
+      "page": 3
+    },
+    {
+      "quote": "L’adhésion au contrat n’est pas ouverte aux travailleurs non salariés agricoles \n(TNSA). Pour ouvrir un contrat Multi Horizon Retraite, vous devez :\nêtre adhérent de l’AGEPER ;",
+      "context": "Conditions d'adhésion (article 2)",
+      "page": 3
+    },
+    {
+      "quote": "Le contrat est ouvert pour une durée indéterminée (vie entière). Il prend \nfin notamment au moment de la retraite lors de la liquidation des droits \n(article 15) ou au décès de l’assuré (article 13), ou par anticipation (article 12).",
+      "context": "Durée du contrat (article 3)",
+      "page": 3
+    },
+    {
+      "quote": "À compter du moment où vous êtes informé que le contrat est conclu, vous \navez 30 jours pour revenir sur votre décision.",
+      "context": "Délai de renonciation (article 5)",
+      "page": 3
+    },
+    {
+      "quote": "Le montant du versement initial est au minimum de 150 euros.\nEnsuite, vous alimentez votre contrat en effectuant :\ndes versements libres : 50 euros minimum ;\net/ou des versements mensuels de 50 euros minimum.",
+      "context": "Versements minimaux (article 6.1)",
+      "page": 4
+    },
+    {
+      "quote": "Sur le support en euros, le prélèvement annuel représente 0,60% de l’épargne \ngérée. Ce prélèvement revient à diminuer l’épargne gérée.\nSur les supports en unités de compte, le prélèvement annuel représente \n0,80% du nombre de parts géré. Ce prélèvement revient à diminuer le nombre \nde parts inscrites sur ces supports. Les frais de gestion annuels de ces deux \ntypes de supports sont calculés et prélevés quotidiennement.",
+      "context": "Frais de gestion (article 9)",
+      "page": 8
+    },
+    {
+      "quote": "Le contrat ne comporte pas de garanties de fidélité ni de valeurs de réduction.",
+      "context": "Absence de garanties de fidélité et de valeurs de réduction (article 11)",
+      "page": 8
+    },
+    {
+      "quote": "La garantie plancher a pour objet d’assurer le règlement d’un capital minimum \nlors du décès de l’adhérent. \nAinsi, cette garantie donne lieu au versement d’un capital complémentaire si le \ncapital constitué au moment du décès est inférieur au capital minimum garanti. Le \ncapital minimum garanti est égal au cumul des versements effectués nets de frais \nsur versements, diminués de la part des versements rachetés. Au cas où le règle­\nment des sommes dues aux bénéficiaires est liquidé sous forme de rente, le capital \ncomplémentaire mentionné ci-dessus complète le capital constitutif de la rente.\nDurée de la garantie\nLa garantie est obligatoire. Elle cesse automatiquement lors de la transforma­\ntion du contrat en rente viagère ou de la sortie en capital en une fois ou à la \nfin de la période de fractionnement et au plus tard le 31 décembre suivant le \nsoixante quinzième anniversaire.\nMontant du capital complémentaire\nLe montant du capital complémentaire versé correspond à la différence entre le \ncapital minimum garanti et le capital constitué au moment du décès. Ce capital \ncomplémentaire ne pourra excéder 100 000 euros par adhérent.",
+      "context": "Garantie plancher décès (article 13.2)",
+      "page": 10
+    },
+    {
+      "quote": "Le contrat ne comporte pas de faculté de rachat. Les seuls cas de rachats \nadmis sont ceux légalement prévus par l’article L. 224-4 du Code monétaire \net financier à savoir :\n1°  Le décès du conjoint du titulaire ou de son partenaire lié par un pacte civil \nde solidarité ;\n2°  L’invalidité du titulaire, de ses enfants, de son conjoint ou de son parte­\nnaire lié par un pacte civil de solidarité. Cette invalidité s’apprécie au sens \ndes 2° et 3° de l’article L. 341-4 du Code de la sécurité sociale ;\n3°  La situation de surendettement du titulaire, au sens de l’article L. 711-1 \ndu code de la consommation ;",
+      "context": "Absence de faculté de rachat et cas de déblocage anticipé (article 12)",
+      "page": 9
+    },
+    {
+      "quote": "Les droits correspondant aux sommes issues du compartiment 3 de votre \ncontrat sont délivrés sous la forme d’une rente viagère.",
+      "context": "Sortie obligatoire en rente pour le compartiment 3 (article 15.2)",
+      "page": 11
+    },
+    {
+      "quote": "Le montant de la rente ainsi calculé est \ndiminué de 1% au titre des frais de service de la rente.",
+      "context": "Frais de service de la rente (article 16)",
+      "page": 11
+    },
+    {
+      "quote": "Cette garantie est financée par une cotisation à hauteur de 3% (hors taxes, \nprélèvements fiscaux et sociaux) des versements mensuels. Cette cotisation \nvient s’ajouter au montant du prélèvement. Exemple : pour un versement pério­\ndique de 100 € par mois la cotisation sera de 3 € hors taxe et le montant du \nprélèvement mensuel s’élèvera à 103 € hors taxe.",
+      "context": "Coût de la garantie optionnelle exonération de versement (annexe 4)",
+      "page": 20
+    },
+    {
+      "quote": "Un délai de franchise de 90 jours s’applique en cas d’invalidité permanente \ntotale, ou d’arrêt de travail temporaire total consécutif à une maladie ou un \naccident.",
+      "context": "Délai de franchise de la garantie exonération de versement (annexe 4)",
+      "page": 20
+    },
+    {
+      "quote": "MUT/N/MHR - 07/22 - C014",
+      "context": "Code de référence du document imprimé en pied de la dernière page",
+      "page": 21
+    },
+    {
+      "quote": "Le contrat MULTI HORIZON RETRAITE est souscrit par l’AGEPER et assuré par Mutavie.",
+      "context": "Porteur du risque et souscripteur (additif)",
+      "page": 2
+    },
+    {
+      "quote": "Le présent additif précise le détail des modifications apportées à la note d’information de votre \ncontrat Multi Horizon Retraite applicables à compter du 1er janvier 2023.",
+      "context": "Portée de l'additif de septembre 2022",
+      "page": 2
+    },
+    {
+      "quote": "En application de l’article L. 114-1 du Code des assurances en vigueur au jour \nde la rédaction de la présente note d’information, “toutes actions dérivant d’un \ncontrat d’assurance sont prescrites par deux ans à compter de l’évènement qui \ny donne naissance.",
+      "context": "Prescription biennale (article 30)",
+      "page": 15
+    },
+    {
+      "quote": "La garantie “exonération de versement” a pour objet, en cas d’incapacité temporaire totale du travail ou en cas d’invalidité \npermanente totale par suite d’une maladie ou d’un accident, la prise en charge par Mutavie du paiement des versements \nmensuels de l’adhérent à son adhésion Multi Horizon Retraite, prévus à l’article 6.1 de ce contrat et ci-après dénommés “ver­\nsements mensuels”.",
+      "context": "Objet de la garantie optionnelle exonération de versement (annexe 4)",
+      "page": 19
+    }
+  ],
+  "gaps": [
+    "Le texte du prompt n'était pas tronqué : la relecture du PDF local avec le même appel page.get_text(\"text\") que le harness restitue exactement le même texte (seule différence : le saut de ligne inséré par le harness avant chaque marqueur [[page N]] et un saut de ligne final).",
+    "Ce PDF empile deux documents d'édition différente : la note d'information « JUILLET 2022 » (code MUT/N/MHR - 07/22 - C014, page 21) et, en page 2, un « Additif à la note d'information SEPTEMBRE 2022 » (code AD/N/MHR / CANT – 09/22) applicable à compter du 1er janvier 2023. L'additif réécrit l'encadré point 3, l'article 11 et l'article 17 et supprime l'article 17.3. Les deux rédactions sont conservées côte à côte dans les champs concernés : canton « Euro principal » (note) contre « Euro retraite » (additif), et « au moins 90% des produits financiers du support euros, nets du coût forfaitaire de la garantie plancher décès » / « au moins 90% des résultats financiers engendrés dans l'exercice par les actifs » (note) contre « au moins 90% des résultats financiers nets affectés au contrat » (additif). Le champ edition_date porte donc les deux dates.",
+    "Divergence interne sur le taux de participation aux bénéfices des rentes : l'article 17.1 du corps de la note écrit « redistribuer chaque année aux rentiers 90% des résultats financiers » sans « au moins », alors que l'article 11.1 et l'additif écrivent « au moins 90% ». Les deux formulations sont reproduites telles quelles.",
+    "L'annexe 3 est contradictoire avec elle-même : le tableau porte « NC » (non concerné) pour le support en euros et pour les seize unités de compte au titre des articles 8 et 9 du Règlement SFDR, tandis que le texte affirme que les supports « article 8 » représentent 41% du total et les supports « article 9 » 41% également. Les deux lectures sont enregistrées.",
+    "Le document ne nomme aucun public cible ; target_audience est laissé à null et la formulation propre au document est reportée dans target_audience_note. La seule population expressément nommée est celle de la garantie optionnelle de l'annexe 4 (« Réservé aux Travailleurs non salariés non agricoles »), qui ne vaut pas pour le contrat principal.",
+    "La métadonnée de tâche donne branch = retraite. Le document se qualifie lui-même de « contrat d'assurance collective sur la vie à adhésion facultative libellé en unités de compte et en euros » relevant « des branches 20 et 22 de l'article R. 321-1 du Code des assurances » et constitue un plan d'épargne retraite au sens de l'article L. 224-1 du Code monétaire et financier ; retraite est donc cohérent, mais le document est aussi bien un contrat d'assurance-vie. Le code de branche réglementaire imprimé (« 20 et 22 ») est reporté dans branch_code.",
+    "Porteur du risque nommé par le document : MUTAVIE SE, société européenne à Directoire et Conseil de surveillance, RCS Niort B 315 652 263, capital 46 200 000 €, siège 9 rue des Iris - CS 50000 - Bessines - 79088 Niort cedex 9. Le souscripteur est l'association AGEPER (loi 1901). La MACIF n'apparaît qu'au titre de la distribution, dans l'additif. Aucune autre entité du groupe n'est nommée.",
+    "Trois tableaux de grilles d'allocation (orientations Prudent, Équilibre, Dynamique, 31 lignes chacun sur 5 colonnes) et deux tableaux fiscaux de grande taille sortent de la couche texte en lecture colonne par colonne, sans structure. Ils ont été reconstitués ligne par ligne et sont restitués sous forme condensée dans special_conditions ; les pourcentages y sont repris verbatim mais la mise en forme tabulaire d'origine est perdue.",
+    "Défauts de couche texte relevés et laissés tels quels dans les citations : 173 traits d'union conditionnels U+00AD, souvent en fin de ligne (« publi[U+00AD]\\ncation », « automatique[U+00AD]ment ») ; 242 U+2008, 385 U+2002 et 125 U+202F employés comme espaces fines avant les deux-points, dans les montants et dans les références d'articles (« l'article[U+202F]12. », « 150[U+202F]euros ») ; 10 caractères U+0007 placés juste avant certains titres d'article. Contrôle effectué : ces U+0007 ne signalent aucun texte manquant — le titre qui suit chacun d'eux est bien présent dans la couche texte, il s'agit d'une marque de paragraphe et non d'un item perdu. Aucun glyphe de zone privée, aucune ligature fi/ff/fl perdue.",
+    "Coquilles de la source conservées sans correction : « Intétêts/plus-values » (page 13), « bénéfi[U+00AD]ciaire de la réversion » (page 11), « en cas de liquidation totale pour quel que cause que ce soit » (page 20), « Sycomore Happy @ Work » en annexe 3 contre « Sycomore Happy@Work » en annexes 1 et 2.",
+    "Le contrat de groupe est identifié « n° 01-159 » (article 24) ; aucun numéro d'adhésion individuel n'est imprimé, le document étant une note d'information générique.",
+    "Les valeurs minimales de transfert des huit premières années présentent une remontée en année 6 (974,22 / 968,37 / 962,56 / 956,79 / 951,05 / 954,89 / 949,16 / 943,47 sur le support en euros, et 97,23 / 96,45 / 95,68 / 94,91 / 94,15 / 94,34 / 93,59 / 92,84 en unités de compte) : la valeur remonte en 6e année parce que les frais de transfert de 1% cessent de s'appliquer après 5 ans. Les chiffres sont repris tels qu'imprimés."
+  ]
+}

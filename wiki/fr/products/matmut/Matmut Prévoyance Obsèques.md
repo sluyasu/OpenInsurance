@@ -233,6 +233,10 @@ Toutes actions dérivant d'un contrat d'assurance sont prescrites par deux ans �
 - Aucun tableau de formules à cocher dans ce document : les deux formules « Capital » et « Prestations » sont décrites en texte courant. Elles ne sont pas des options mais deux configurations exclusives de la même garantie Capital Décès, d'où is_optional = false sur les deux (la dépendance à la formule n'est pas de l'optionnalité).
 - target_audience laissé à null : le document n'emploie aucun terme de segmentation (ni « particuliers », ni « professionnels »). Seules des conditions d'éligibilité sont énoncées (adhérent de Matmut Mutualité, 50 à 80 ans, résidant en France métropolitaine, assuré de son propre contrat) ; elles sont reproduites dans target_audience_note.
 
+## Documents liés
+
+- [Matmut Prévoyance Obsèques - IPID](Matmut%20Pr%C3%A9voyance%20Obs%C3%A8ques%20-%20IPID.md) - IPID / Fiche d'information, éd. 2025-05-01
+
 ## Source & fidélité
 
 - Source : [https://www.matmut.fr/services-en-ligne/doc/IPID/Notice-MPO.pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/Notice-MPO.pdf) - téléchargé le 2026-07-30 - 18 pages

@@ -186,7 +186,9 @@ Protection Juridique relative au bien assuré : prise en charge de la défense d
 ## Documents liés
 
 - Extension liée : [Conditions de la réduction Âge du véhicule — Contrat 2 roues Initiale & Co - Tarifs](Conditions%20de%20la%20r%C3%A9duction%20%C3%82ge%20du%20v%C3%A9hicule%20%E2%80%94%20Contrat%202%20roues%20Initiale%20%26%20Co%20-%20Tarifs.md)
+- Extension liée : [Conditions de l'Avantage Usage Sérénité — Gamme 2 roues Initiale & Co - Tarifs](Conditions%20de%20l%27Avantage%20Usage%20S%C3%A9r%C3%A9nit%C3%A9%20%E2%80%94%20Gamme%202%20roues%20Initiale%20%26%20Co%20-%20Tarifs.md)
 - [Conditions de la réduction Âge du véhicule — Contrat 2 roues Initiale & Co - Tarifs](Conditions%20de%20la%20r%C3%A9duction%20%C3%82ge%20du%20v%C3%A9hicule%20%E2%80%94%20Contrat%202%20roues%20Initiale%20%26%20Co%20-%20Tarifs.md) - Conditions tarifaires, éd. 01-26
+- [Conditions de l'Avantage Usage Sérénité — Gamme 2 roues Initiale & Co - Tarifs](Conditions%20de%20l%27Avantage%20Usage%20S%C3%A9r%C3%A9nit%C3%A9%20%E2%80%94%20Gamme%202%20roues%20Initiale%20%26%20Co%20-%20Tarifs.md) - Conditions tarifaires, éd. 01-26
 
 ## Source & fidélité
 

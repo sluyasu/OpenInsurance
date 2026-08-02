@@ -1,0 +1,503 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "smacl",
+  "insurer_name": "SMACL Assurances",
+  "product_name": "Aléassur Auto collaborateurs",
+  "branch": "auto",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": "secteur_public",
+  "target_audience_note": "« Ce contrat, destiné aux collectivités territoriales » ; titre imprimé « Assurance Auto collaborateurs des collectivités territoriales ». Le véhicule assuré est celui du collaborateur, garanti en substitution de son contrat personnel, mais le souscripteur est la personne morale.",
+  "reference": "ALEASSUR_DIPA_ACSUBS_03(09_2022)",
+  "edition_date": "02/2025",
+  "product_family": "Aléassur Auto collaborateurs",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.smacl.fr/files/documents/document-information-aleassur-auto-collaborateurs.pdf",
+  "source_pdf": "aleassur-auto-collaborateurs-29acde70.pdf",
+  "source_sha256": "efa28558c949b447d6ced1df299131507aabeb03e02e4c1b8eb198ba348c6896",
+  "source_pages": 2,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d’information (DIPA) du contrat « Aléassur Auto collaborateurs », assurance automobile destinée aux collectivités territoriales. Il garantit, en substitution du contrat personnel de l’assuré, le véhicule terrestre à moteur utilisé pour les besoins de la personne morale souscriptrice, notamment contre les conséquences des dommages matériels ou corporels causés à des tiers. Sont systématiquement prévues la responsabilité civile automobile, la défense pénale et recours suite à accident et les garanties dommages subis par le véhicule (incendie, vol, bris de glace, événements climatiques, attentat, catastrophe naturelle, accidents et dégradations), ainsi que les objets et effets personnels transportés et les accessoires. Des garanties optionnelles (matériel et marchandises transportés, assistance, véhicule de remplacement) peuvent être souscrites. La compagnie indiquée est SMACL Assurances SA.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Responsabilité civile automobile : dommages causés aux tiers",
+      "description": "Garantie systématiquement prévue, au titre de la Responsabilité civile et la défense des droits : dommages causés aux tiers.",
+      "is_optional": false,
+      "territorial_scope": "en France métropolitaine, dans les départements et régions d’outre-mer, dans les pays de l’Espace Économique Européen et autres pays expressément mentionnés dans le contrat",
+      "limits": "L’indemnité est limitée à 100 000 000 € (indemnité globale du contrat)",
+      "sub_limits": [
+        "Dommages corporels (sans limitation de somme)",
+        "Dommages matériels et immatériels consécutifs (100 000 000 €)"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Défense pénale et recours suite à accident",
+      "description": "Garantie systématiquement prévue, au titre de la Responsabilité civile et la défense des droits.",
+      "is_optional": false,
+      "territorial_scope": "en France métropolitaine et dans les départements et régions d’outre-mer",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Incendie",
+      "description": "Garantie systématiquement prévue au titre des dommages subis par le véhicule assuré. L’indemnité est plafonnée à la valeur de remplacement à dire d’expert.",
+      "is_optional": false,
+      "territorial_scope": "en France métropolitaine, dans les départements et régions d’outre-mer, dans les pays de l’Espace Économique Européen et autres pays expressément mentionnés dans le contrat",
+      "limits": "L’indemnité est plafonnée à la valeur de remplacement à dire d’expert",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Vol ou tentative de vol",
+      "description": "Garantie systématiquement prévue au titre des dommages subis par le véhicule assuré. L’indemnité est plafonnée à la valeur de remplacement à dire d’expert.",
+      "is_optional": false,
+      "territorial_scope": "en France métropolitaine, dans les départements et régions d’outre-mer, dans les pays de l’Espace Économique Européen et autres pays expressément mentionnés dans le contrat",
+      "limits": "L’indemnité est plafonnée à la valeur de remplacement à dire d’expert",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Bris de glace",
+      "description": "Garantie systématiquement prévue au titre des dommages subis par le véhicule assuré. L’indemnité est plafonnée à la valeur de remplacement à dire d’expert.",
+      "is_optional": false,
+      "territorial_scope": "en France métropolitaine, dans les départements et régions d’outre-mer, dans les pays de l’Espace Économique Européen et autres pays expressément mentionnés dans le contrat",
+      "limits": "L’indemnité est plafonnée à la valeur de remplacement à dire d’expert",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Événements climatiques",
+      "description": "Garantie systématiquement prévue au titre des dommages subis par le véhicule assuré. L’indemnité est plafonnée à la valeur de remplacement à dire d’expert.",
+      "is_optional": false,
+      "territorial_scope": "en France métropolitaine, dans les départements et régions d’outre-mer, dans les pays de l’Espace Économique Européen et autres pays expressément mentionnés dans le contrat",
+      "limits": "L’indemnité est plafonnée à la valeur de remplacement à dire d’expert",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Attentat",
+      "description": "Garantie systématiquement prévue au titre des dommages subis par le véhicule assuré. L’indemnité est plafonnée à la valeur de remplacement à dire d’expert.",
+      "is_optional": false,
+      "territorial_scope": "en France métropolitaine, dans les départements et régions d’outre-mer, dans les pays de l’Espace Économique Européen et autres pays expressément mentionnés dans le contrat",
+      "limits": "L’indemnité est plafonnée à la valeur de remplacement à dire d’expert",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Catastrophe naturelle",
+      "description": "Garantie systématiquement prévue au titre des dommages subis par le véhicule assuré. L’indemnité est plafonnée à la valeur de remplacement à dire d’expert.",
+      "is_optional": false,
+      "territorial_scope": "en France métropolitaine, dans les départements et régions d’outre-mer, dans les pays de l’Espace Économique Européen et autres pays expressément mentionnés dans le contrat",
+      "limits": "L’indemnité est plafonnée à la valeur de remplacement à dire d’expert",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Accidents et dégradations",
+      "description": "Garantie systématiquement prévue au titre des dommages subis par le véhicule assuré. L’indemnité est plafonnée à la valeur de remplacement à dire d’expert.",
+      "is_optional": false,
+      "territorial_scope": "en France métropolitaine, dans les départements et régions d’outre-mer, dans les pays de l’Espace Économique Européen et autres pays expressément mentionnés dans le contrat",
+      "limits": "L’indemnité est plafonnée à la valeur de remplacement à dire d’expert",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Objets et effets personnels transportés",
+      "description": "Garantie systématiquement prévue au titre des dommages subis par le véhicule assuré. L’indemnité est plafonnée aux montants indiqués au contrat.",
+      "is_optional": false,
+      "territorial_scope": "en France métropolitaine, dans les départements et régions d’outre-mer, dans les pays de l’Espace Économique Européen et autres pays expressément mentionnés dans le contrat",
+      "limits": "1 000 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Accessoires",
+      "description": "Garantie systématiquement prévue au titre des dommages subis par le véhicule assuré. L’indemnité est plafonnée aux montants indiqués au contrat.",
+      "is_optional": false,
+      "territorial_scope": "en France métropolitaine, dans les départements et régions d’outre-mer, dans les pays de l’Espace Économique Européen et autres pays expressément mentionnés dans le contrat",
+      "limits": "L’indemnité est plafonnée aux montants indiqués au contrat",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Matériel et marchandises transportés",
+      "description": "Garantie optionnelle, rubrique « Dommages ».",
+      "is_optional": true,
+      "territorial_scope": "en France métropolitaine, dans les départements et régions d’outre-mer, dans les pays de l’Espace Économique Européen et autres pays expressément mentionnés dans le contrat",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Pour la garantie Matériels et marchandises transportés, une franchise contractuelle peut être déduite du montant de l’indemnité.",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Assistance sans franchise kilométrique pour les véhicules de moins de 3,5 T",
+      "description": "Garantie optionnelle, rubrique « Assistance et services » : assistance sans franchise kilométrique pour les véhicules de moins de 3,5 T, y compris pour les personnes voyageant à bord.",
+      "is_optional": true,
+      "territorial_scope": "en France métropolitaine, dans les départements et régions d’outre-mer, dans les pays de l’Espace Économique Européen et autres pays expressément mentionnés dans le contrat",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Véhicules de moins de 3,5 T"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Véhicule de remplacement pour les véhicules de moins de 3,5 T",
+      "description": "Garantie optionnelle, rubrique « Assistance et services ».",
+      "is_optional": true,
+      "territorial_scope": "en France métropolitaine, dans les départements et régions d’outre-mer, dans les pays de l’Espace Économique Européen et autres pays expressément mentionnés dans le contrat",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Véhicules de moins de 3,5 T"
+      ],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Véhicules non utilisés pour les besoins et dans l’intérêt exclusif de la personne morale souscriptrice",
+      "description": "Les véhicules qui ne sont pas utilisés pour les besoins et dans l’intérêt exclusif de la personne morale souscriptrice (Qu’est-ce qui n’est pas assuré ?).",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Véhicules appartenant à la personne morale souscriptrice, loués ou empruntés par elle",
+      "description": "Les véhicules appartenant à la personne morale souscriptrice, loués ou empruntés par elle (Qu’est-ce qui n’est pas assuré ?).",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Véhicules utilisés par les préposés pour les trajets domicile – lieu de travail habituel",
+      "description": "Les véhicules utilisés par les préposés pour les trajets effectués entre leur domicile et leur lieu de travail habituel (Qu’est-ce qui n’est pas assuré ?).",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Faute intentionnelle ou dolosive de l’assuré",
+      "description": "La faute intentionnelle ou dolosive de l’assuré. (PRINCIPALES EXCLUSIONS)",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Transport de matières inflammables, explosives, corrosives ou comburantes",
+      "description": "Le transport de matières inflammables, explosives, corrosives ou comburantes, si ces matières ont provoqué ou aggravé le sinistre. (PRINCIPALES EXCLUSIONS)",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Épreuves, courses, compétitions",
+      "description": "Les épreuves, courses, compétitions lorsque l’assuré y participe en tant que concurrent, organisateur, ou préposé de l’un d’eux. (PRINCIPALES EXCLUSIONS)",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Amendes de toute nature",
+      "description": "Les amendes de toute nature. (PRINCIPALES EXCLUSIONS)",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Conducteur sans l’âge requis ou sans permis de conduire en cours de validité",
+      "description": "Le conducteur n’ayant pas l’âge requis ou un permis de conduire en cours de validité. (PRINCIPALES EXCLUSIONS)",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Conduite sous l’empire d’un état alcoolique ou sous l’emprise de stupéfiants",
+      "description": "Les frais de défense pénale et recours du conducteur et les dommages subis par le véhicule lorsque le conducteur est sous l’empire d’un état alcoolique ou sous l’emprise de stupéfiants. (PRINCIPALES EXCLUSIONS)",
+      "applies_to": "Défense pénale et recours suite à accident ; dommages subis par le véhicule assuré",
+      "page": 1
+    },
+    {
+      "name": "Excès de chaleur sans embrasement ou brûlures de cigarettes",
+      "description": "Les dommages occasionnés par un excès de chaleur sans embrasement ou par les brûlures de cigarettes. (PRINCIPALES EXCLUSIONS)",
+      "applies_to": "Dommages subis par le véhicule assuré",
+      "page": 1
+    },
+    {
+      "name": "Vol commis par les préposés, les élus ou tout représentant de la collectivité",
+      "description": "Le vol commis pendant leur service par les préposés, les élus et toute personne représentant la collectivité ou avec leur complicité. (PRINCIPALES EXCLUSIONS)",
+      "applies_to": "Vol ou tentative de vol",
+      "page": 1
+    },
+    {
+      "name": "Frais de garage et de gardiennage",
+      "description": "Les frais de garage et de gardiennage. (PRINCIPALES EXCLUSIONS)",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dommages par immersion sur route inondée",
+      "description": "Les dommages par immersion résultant de la circulation sur route inondée. (PRINCIPALES EXCLUSIONS)",
+      "applies_to": "all",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": "Pour la garantie Matériels et marchandises transportés, une franchise contractuelle peut être déduite du montant de l’indemnité (rubrique « PRINCIPALES RESTRICTIONS »). Aucun montant de franchise n’est chiffré dans le document.",
+    "per_coverage": {
+      "Matériel et marchandises transportés": "une franchise contractuelle peut être déduite du montant de l’indemnité"
+    },
+    "page": 1
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Répondre exactement aux questions posées par l’assureur",
+      "description": "Répondre exactement aux questions posées par l’assureur, notamment dans le formulaire de déclaration du risque lui permettant d’apprécier les risques qu’il prend en charge.",
+      "timing": "À la souscription du contrat",
+      "sanction": "Sous peine de sanctions indiquées au contrat",
+      "page": 2
+    },
+    {
+      "name": "Fournir les documents justificatifs",
+      "description": "Fournir tous documents justificatifs demandés par l’assureur.",
+      "timing": "À la souscription du contrat",
+      "sanction": "Sous peine de sanctions indiquées au contrat",
+      "page": 2
+    },
+    {
+      "name": "Régler la cotisation",
+      "description": "Régler la cotisation (ou fraction de cotisation) indiquée au contrat.",
+      "timing": "À la souscription du contrat",
+      "sanction": "Sous peine de sanctions indiquées au contrat",
+      "page": 2
+    },
+    {
+      "name": "Déclarer l’aggravation du risque",
+      "description": "Déclarer toutes circonstances nouvelles ayant pour conséquence d’aggraver le risque garanti.",
+      "timing": "En cours de contrat",
+      "sanction": "Sous peine de sanctions indiquées au contrat",
+      "page": 2
+    },
+    {
+      "name": "Déclarer le sinistre",
+      "description": "Déclarer tout sinistre de nature à mettre en jeu l’une des garanties dans les conditions et délais impartis et joindre tous documents utiles à l’appréciation du sinistre.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de sanctions indiquées au contrat",
+      "page": 2
+    },
+    {
+      "name": "Informer des autres assurances et des remboursements reçus",
+      "description": "Informer des garanties éventuellement souscrites pour les mêmes risques en tout ou partie auprès d’autres assureurs, ainsi que tout remboursement que vous pourriez recevoir au titre d’un sinistre.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de sanctions indiquées au contrat",
+      "page": 2
+    },
+    {
+      "name": "Déposer plainte en cas de vol",
+      "description": "En cas de vol, déposer plainte dans les plus brefs délais auprès des autorités compétentes et fournir l’original de ce dépôt.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de sanctions indiquées au contrat",
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclaration du sinistre",
+      "description": "Déclarer tout sinistre de nature à mettre en jeu l’une des garanties dans les conditions et délais impartis et joindre tous documents utiles à l’appréciation du sinistre.",
+      "deadline": "dans les conditions et délais impartis (non chiffrés dans le document)",
+      "page": 2
+    },
+    {
+      "step": "Information sur les autres assurances",
+      "description": "Informer des garanties éventuellement souscrites pour les mêmes risques en tout ou partie auprès d’autres assureurs, ainsi que tout remboursement que vous pourriez recevoir au titre d’un sinistre.",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Dépôt de plainte en cas de vol",
+      "description": "En cas de vol, déposer plainte auprès des autorités compétentes et fournir l’original de ce dépôt.",
+      "deadline": "dans les plus brefs délais",
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "La date d’effet de la couverture ainsi que sa durée sont indiquées au contrat.",
+    "tacit_renewal": null,
+    "notice_period": "En cas de majoration de la cotisation à l’échéance annuelle : résiliation dans les trente jours suivant la date d’échéance annuelle. À l’échéance : notification dans les conditions prévues au contrat (délai non chiffré).",
+    "methods": [
+      "par lettre ou tout autre support durable",
+      "par déclaration faite au siège social de l’assureur",
+      "par acte extrajudiciaire",
+      "lorsque l’assureur propose la conclusion du contrat par un mode de communication à distance, par le même mode de communication",
+      "par un mode de communication à distance",
+      "par tout autre moyen prévu par le contrat"
+    ],
+    "special_rights": [
+      "à l’échéance, conformément à l’article L.113-12 du Code, à l’expiration d’un délai d’un an, en adressant une notification dans les conditions prévues au contrat",
+      "en cas de majoration de la cotisation à l’échéance annuelle lorsque cette modification tarifaire ne résulte ni de dispositions légales ou réglementaires, ni de l’indexation des cotisations telle que définie au contrat ; l’assuré doit alors résilier le contrat dans les trente jours suivant la date d’échéance annuelle"
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "Les cotisations sont payables d’avance annuellement, à la date indiquée dans le contrat, auprès de SMACL Assurances dans les dix jours à compter de l’échéance, sauf disposition plus favorable au contrat.",
+      "Les paiements sont effectués par virement.",
+      "Régler la cotisation (ou fraction de cotisation) indiquée au contrat."
+    ],
+    "indexation": "L’indexation des cotisations est mentionnée comme « définie au contrat », sans autre précision dans ce document.",
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "PRINCIPALES RESTRICTIONS",
+      "description": "Pour la garantie Matériels et marchandises transportés, une franchise contractuelle peut être déduite du montant de l’indemnité.",
+      "page": 1
+    },
+    {
+      "name": "Lecture des coches",
+      "description": "Les garanties précédées d’une coche sont systématiquement prévues au contrat (la coche est un glyphe Wingdings, U+F0FC dans la couche texte).",
+      "page": 1
+    },
+    {
+      "name": "Plafonds indiqués au contrat",
+      "description": "Certaines garanties peuvent être soumises à des plafonds indiqués au contrat ; seuls certains d’entre eux sont mentionnés dans le document d’information.",
+      "page": 1
+    },
+    {
+      "name": "Compagnie",
+      "description": "Compagnie : SMACL Assurances SA - Société anonyme au capital de 138 801 048 euros, entreprise régie par le Code des  \nassurances, RCS Niort n° 833 817 224.",
+      "page": 1
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Ce contrat, destiné aux collectivités territoriales, a pour objet de garantir, en substitution du contrat personnel de l’assuré, le véhicule terrestre à moteur \nutilisé pour les besoins de la personne morale souscriptrice, contre notamment les conséquences des dommages matériels ou corporels causés à des tiers.",
+      "context": "Objet du contrat / audience",
+      "page": 1
+    },
+    {
+      "quote": "Des garanties optionnelles peuvent également être souscrites pour répondre à des besoins spécifiques ou renforcer le niveau de protection du contrat.",
+      "context": "Garanties optionnelles",
+      "page": 1
+    },
+    {
+      "quote": "L’indemnité est limitée à 100 000 000 €.",
+      "context": "Plafond global d’indemnité",
+      "page": 1
+    },
+    {
+      "quote": "Dommages corporels (sans limitation de somme)\n•\tDommages matériels et immatériels consécutifs (100 000 000 €)",
+      "context": "Sous-plafonds RC automobile",
+      "page": 1
+    },
+    {
+      "quote": "L’indemnité est plafonnée à la valeur de remplacement à dire d’expert, \npour les garanties suivantes ",
+      "context": "Indemnisation des dommages au véhicule",
+      "page": 1
+    },
+    {
+      "quote": "Objets et effets personnels transportés (1 000 €)",
+      "context": "Sous-limite objets transportés",
+      "page": 1
+    },
+    {
+      "quote": "La faute intentionnelle ou dolosive de l’assuré.",
+      "context": "Exclusion principale",
+      "page": 1
+    },
+    {
+      "quote": "Le transport de matières inflammables, explosives, corrosives ou \ncomburantes, si ces matières ont  provoqué ou aggravé le sinistre",
+      "context": "Exclusion principale",
+      "page": 1
+    },
+    {
+      "quote": "Les frais de défense pénale et recours du conducteur et les dommages \nsubis par le véhicule lorsque le conducteur est sous l’empire d’un état \nalcoolique ou sous l’emprise de stupéfiants",
+      "context": "Exclusion alcool/stupéfiants",
+      "page": 1
+    },
+    {
+      "quote": "Pour la garantie Matériels et marchandises transportés, une franchise \ncontractuelle peut être déduite du montant de l’indemnité.",
+      "context": "Principale restriction / franchise",
+      "page": 1
+    },
+    {
+      "quote": "Compagnie : SMACL Assurances SA - Société anonyme au capital de 138 801 048 euros, entreprise régie par le Code des  \nassurances, RCS Niort n° 833 817 224.",
+      "context": "Colophon – porteur du risque",
+      "page": 1
+    },
+    {
+      "quote": "ALEASSUR_DIPA_ACSUBS_03(09_2022)",
+      "context": "Référence document",
+      "page": 1
+    },
+    {
+      "quote": "Pour toutes les garanties (sauf défense pénale et recours) : en France métropolitaine, dans les départements et régions d’outre-mer, dans les pays \nde l’Espace Économique Européen et autres pays expressément mentionnés dans le contrat.",
+      "context": "Étendue territoriale",
+      "page": 2
+    },
+    {
+      "quote": "Pour la garantie Défense pénale et recours : en France métropolitaine et dans les départements et régions d’outre-mer.",
+      "context": "Étendue territoriale défense pénale et recours",
+      "page": 2
+    },
+    {
+      "quote": "Les cotisations sont payables d’avance annuellement, à la date indiquée dans le contrat, auprès de SMACL Assurances dans les dix jours à compter de \nl’échéance, sauf disposition plus favorable au contrat.",
+      "context": "Paiement des cotisations",
+      "page": 2
+    },
+    {
+      "quote": "en cas de majoration de la cotisation à l’échéance annuelle lorsque cette modification tarifaire ne résulte ni de dispositions légales ou réglementaires, ni \nde l’indexation des cotisations telle que définie au contrat. L’assuré doit alors résilier le contrat dans les trente jours suivant la date d’échéance annuelle.",
+      "context": "Droit de résiliation",
+      "page": 2
+    },
+    {
+      "quote": "02/2025 - Conception : Direction développement et communication SMACL Assurances",
+      "context": "Colophon – date d’édition",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "Document de 2 pages, intégralement extrait ; aucun texte tronqué, aucune page sans couche texte.",
+    "Contradiction de dates : le colophon de la page 2 imprime « 02/2025 » tandis que le code de référence en pied de page 1 est « ALEASSUR_DIPA_ACSUBS_03(09_2022) ». edition_date retient le colophon (02/2025) ; les métadonnées de la tâche annonçaient 2022-09, soit la date du code de référence, pas celle du document imprimé.",
+    "Porteur du risque : une seule mention dans le document, le colophon page 1 — « Compagnie : SMACL Assurances SA - Société anonyme au capital de 138 801 048 euros, entreprise régie par le Code des assurances, RCS Niort n° 833 817 224 ». Aucun article « Assureur ». Le corps du texte (paiement, résiliation) cite « SMACL Assurances » sans « SA » ; aucune contradiction explicite, mais les deux libellés coexistent.",
+    "Vérification anti-« en-têtes empilés » : les blocs de la couche texte ont été inspectés avec leurs bbox (PyMuPDF get_text('dict')). Une seule ligne « Compagnie : », un seul « Produit : », un seul titre et une seule ligne de colophon (02/2025) — pas d'en-tête fantôme ni de double date sur ce document.",
+    "Les coches et croix du DIPA sont des glyphes Wingdings de la zone à usage privé (U+F0FC pour la coche, U+F0FB pour la croix). Comptes fermés sur la page 1 : 3 U+F0FB = 3 items « Qu'est-ce qui n'est pas assuré ? » ; 6 U+F0FC = 5 lignes de garanties cochées + 1 dans la légende ; 11 « ! » = 10 principales exclusions + 1 principale restriction ; 3 tirets = 3 garanties optionnelles. Ces glyphes ont été exclus des key_quotes car ils feraient échouer l'ancrage.",
+    "« Incendie, Vol ou tentative de vol, Bris de glace, Événements climatiques, Attentat, Catastrophe naturelle, Accidents et dégradations » sont imprimés sur une seule ligne cochée ; ils ont été éclatés en garanties distinctes car ce sont des garanties nommées séparément, toutes sous le même plafond « valeur de remplacement à dire d'expert ».",
+    "Les étendues territoriales portées sur chaque garantie proviennent de la page 2 (« Où suis-je couvert(e) ? ») alors que les garanties elles-mêmes sont décrites page 1 ; le champ page des coverages cite la page 1, celle de la description.",
+    "Aucune section « Définitions », aucun délai de carence et aucune clause de prescription dans ce DIPA : definitions, waiting_periods et prescription_period restent vides ou nuls. Normal pour un document d'information sur le produit d'assurance.",
+    "Montants : le plafond global est imprimé avec une espace fine insécable avant l'euro (« 100 000 000 € ») dans le chapeau et avec une espace ordinaire dans le sous-plafond (« (100 000 000 €) »). Les deux graphies sont conservées telles quelles. « 3,5 T » apparaît aussi avec une espace insécable puis fine (« de 3,5 T ») dans un cas et en espaces ordinaires dans l'autre.",
+    "Aucun montant de franchise n'est chiffré : la seule franchise mentionnée (matériels et marchandises transportés) est renvoyée au contrat.",
+    "Ni la durée du contrat, ni la reconduction tacite, ni l'autorité de contrôle (ACPR) ne sont indiquées dans le document : champs laissés nuls.",
+    "Le titre imprimé en couverture est « Assurance Auto collaborateurs des collectivités territoriales » ; product_name retient le nom commercial du colophon, « Produit : Aléassur Auto collaborateurs »."
+  ]
+}

@@ -277,6 +277,10 @@ Mise à disposition d'un véhicule de remplacement pour les véhicules de moins 
 - La portée territoriale n'est donnée qu'en trois lignes générales en page 2 ; elle a été reportée sur chaque garantie selon la règle énoncée (règle générale, sauf défense pénale et recours et responsabilité environnementale). Le document ne détaille pas de portée propre aux autres garanties optionnelles.
 - La garantie « Défense pénale et recours » est classée parmi les garanties systématiques d'après la section « GARANTIES SYSTÉMATIQUEMENT PRÉVUES : » ; le document ne rattache explicitement aucune des garanties optionnelles à une formule nommée, il renvoie à « la formule de garantie choisie » sans lister les formules.
 
+## Documents liés
+
+- [Flotte entreprises](Flotte%20entreprises.md) - Conditions générales, éd. 05/2025
+
 ## Source & fidélité
 
 - Source : [https://www.smacl.fr/files/documents/document-information-vehicules-entreprise.pdf](https://www.smacl.fr/files/documents/document-information-vehicules-entreprise.pdf) - téléchargé le 2026-08-01 - 2 pages

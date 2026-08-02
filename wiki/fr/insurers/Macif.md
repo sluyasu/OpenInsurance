@@ -5,7 +5,7 @@ country: fr
 insurer_slug: macif
 name: Macif
 website: https://www.macif.fr
-products_count: 45
+products_count: 47
 branches_covered:
 - animaux
 - assurance-vie
@@ -38,7 +38,7 @@ generated: true
 
 ## Résumé
 
-**Macif** - [https://www.macif.fr](https://www.macif.fr). 45 document(s) across 16 branch(es).
+**Macif** - [https://www.macif.fr](https://www.macif.fr). 47 document(s) across 16 branch(es).
 
 ## Produits par branche
 
@@ -107,6 +107,7 @@ generated: true
 - [Contrat Auto-Micro Entrepreneur](../products/macif/Contrat%20Auto-Micro%20Entrepreneur.md) - Conditions générales (2012-12) · réf. PRO / AUTOE / 05 - 12 / 12 - NM00
 
 ### [Retraite supplémentaire](../branches/Retraite%20suppl%C3%A9mentaire.md)
+- [Multi Horizon Retraite](../products/macif/Multi%20Horizon%20Retraite.md) - Conditions générales (JUILLET 2022 (note d'information) ; additif SEPTEMBRE 2022 applicable à compter du 1er janvier 2023) · réf. MUT/N/MHR - 07/22 - C014 (note d'information) ; AD/N/MHR / CANT – 09/22 (additif)
 - [Multi Horizon Retraite - Tarifs](../products/macif/Multi%20Horizon%20Retraite%20-%20Tarifs.md) - Conditions tarifaires (2022-04) · réf. MUT/ FC/ FRAIS/MHR - 04/22
 - [Plan Épargne Retraite individuel - Tarifs](../products/macif/Plan%20%C3%89pargne%20Retraite%20individuel%20-%20Tarifs.md) - Conditions tarifaires (JUIN 2024) · réf. MUT/ FC/ FRAIS/PERin - 06/24
 
@@ -116,6 +117,7 @@ generated: true
 - [Garantie Santé](../products/macif/Garantie%20Sant%C3%A9.md) - Conditions générales (2023-01) · réf. UNI/PREI/GS/05 01/23
 - [Macif Mutuelle Entreprises](../products/macif/Macif%20Mutuelle%20Entreprises.md) - Conditions générales (2025-01) · réf. CG M M E - 01/25
 - [Macif Mutuelle Entreprises](../products/macif/Macif%20Mutuelle%20Entreprises%20%282%29.md) - Conditions générales · réf. NID M M E - 01/26
+- [Macif Mutuelle Santé - Macif Hospitalisation - Fiche](../products/macif/Macif%20Mutuelle%20Sant%C3%A9%20-%20Macif%20Hospitalisation%20-%20Fiche.md) - Fiche produit (01/06/2026)
 - [Régime conventionnel Frais de santé - CCN BAD (Branche de l'aide, de l'accompagnement, des soins et des services à domic](../products/macif/R%C3%A9gime%20conventionnel%20Frais%20de%20sant%C3%A9%20-%20CCN%20BAD%20%28Branche%20de%20l%27aide%2C%20de%20l%27accompagnement%2C%20des%20soins%20et%20des%20services%20%C3%A0%20domic.md) - Conditions générales (V01.01.2023)
 - [contrat GARANTIE SANTE TERRITORIAUX - IPID](../products/macif/contrat%20GARANTIE%20SANTE%20TERRITORIAUX%20-%20IPID.md) - IPID / Fiche d'information (01/2022) · réf. DIPA GST 01/2022
 
