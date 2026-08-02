@@ -27,7 +27,7 @@ navigate it without guessing. Do not edit by hand.
 |---|---|---|---|---|---|
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
 | ch (Switzerland) | 0 | 3 | 1 | 0 | 5 |
-| fr (France) | 24 | 497 | 10 | 1 | 5 |
+| fr (France) | 24 | 498 | 10 | 1 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
 
@@ -637,6 +637,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | prevoyance | maaf | Assurance accident - IPID | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/PRE10003.PDF) |
 | fr | prevoyance | maaf | Assurance perte de revenus - IPID | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/PRE10002.PDF) |
 | fr | prevoyance | maaf | Assurance perte de revenus homme clé - IPID | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/PRE10001.PDF) |
+| fr | prevoyance | maaf | GARANTIES HOMME CLÉ MAAF ENTREPRISE | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/CG/2350 CG Gar HomCle 0124.pdf) |
 | fr | prevoyance | maif | Rassurcap Solutions | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/notice-rassurcap-solutions.pdf) |
 | fr | prevoyance | maif | Rassurcap Solutions - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/document-information-deces-rassurcap-solutions.pdf) |
 | fr | prevoyance | smacl | ALÉASSUR Risques statutaires CNRACL | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-aleassur-risques-statutaires-cnracl1_0.pdf) |

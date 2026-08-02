@@ -5,7 +5,7 @@ country: fr
 insurer_slug: maaf
 name: MAAF
 website: https://www.maaf.fr/
-products_count: 38
+products_count: 39
 branches_covered:
 - auto
 - chasse
@@ -35,7 +35,7 @@ generated: true
 
 ## Résumé
 
-**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 38 document(s) across 13 branch(es).
+**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 39 document(s) across 13 branch(es).
 
 ## Produits par branche
 
@@ -87,6 +87,7 @@ generated: true
 - [Assurance accident - IPID](../products/maaf/Assurance%20accident%20-%20IPID.md) - IPID / Fiche d'information · réf. TB0_IPIDPR_00-260608-VZ8Ndm-1-1-2-08:20:18- PRE10003
 - [Assurance perte de revenus - IPID](../products/maaf/Assurance%20perte%20de%20revenus%20-%20IPID.md) - IPID / Fiche d'information (2024-06) · réf. TB0_IPIDPR_00-240616-1ZFgPX-2-1-2-01:00:33- PRE10002
 - [Assurance perte de revenus homme clé - IPID](../products/maaf/Assurance%20perte%20de%20revenus%20homme%20cl%C3%A9%20-%20IPID.md) - IPID / Fiche d'information (2024-06) · réf. PRE10001
+- [GARANTIES HOMME CLÉ MAAF ENTREPRISE](../products/maaf/GARANTIES%20HOMME%20CL%C3%89%20MAAF%20ENTREPRISE.md) - Conditions générales (06/2026) · réf. Réf.HC.017-06/2026
 
 ### [Protection juridique](../branches/Protection%20juridique.md)
 - [Garanties Protection Juridique - Fiche](../products/maaf/Garanties%20Protection%20Juridique%20-%20Fiche.md) - Fiche produit (06/2022)

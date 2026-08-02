@@ -268,7 +268,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [INTÉGRALE 1, INTÉGRALE 2, INTÉGRALE 3, INTÉGRALE 4 – Formules responsables et solidaires - Doc](../products/thelem/INT%C3%89GRALE%201%2C%20INT%C3%89GRALE%202%2C%20INT%C3%89GRALE%203%2C%20INT%C3%89GRALE%204%20%E2%80%93%20Formules%20responsables%20et%20solidaires%20-%20Doc.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [PRIMORDIALE 1, PRIMORDIALE 2, PRIMORDIALE 3 – Formules NON responsables et solidaires - Doc](../products/thelem/PRIMORDIALE%201%2C%20PRIMORDIALE%202%2C%20PRIMORDIALE%203%20%E2%80%93%20Formules%20NON%20responsables%20et%20solidaires%20-%20Doc.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 
-### [Prévoyance](Pr%C3%A9voyance.md) (30)
+### [Prévoyance](Pr%C3%A9voyance.md) (31)
 - [Galya Prévoyance Entreprise - Fiche](../products/gan/Galya%20Pr%C3%A9voyance%20Entreprise%20-%20Fiche.md) - [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../insurers/Gan%20Assurances.md)
 - [Gan Patrimoine Protection Plus - IPID](../products/gan/Gan%20Patrimoine%20Protection%20Plus%20-%20IPID.md) - [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../insurers/Gan%20Assurances.md)
 - [Gan Patrimoine Protection Plus - Fiche](../products/gan/Gan%20Patrimoine%20Protection%20Plus%20-%20Fiche%20%282%29.md) - [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../insurers/Gan%20Assurances.md)
@@ -287,6 +287,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Assurance accident - IPID](../products/maaf/Assurance%20accident%20-%20IPID.md) - [MAAF](../insurers/MAAF.md)
 - [Assurance perte de revenus - IPID](../products/maaf/Assurance%20perte%20de%20revenus%20-%20IPID.md) - [MAAF](../insurers/MAAF.md)
 - [Assurance perte de revenus homme clé - IPID](../products/maaf/Assurance%20perte%20de%20revenus%20homme%20cl%C3%A9%20-%20IPID.md) - [MAAF](../insurers/MAAF.md)
+- [GARANTIES HOMME CLÉ MAAF ENTREPRISE](../products/maaf/GARANTIES%20HOMME%20CL%C3%89%20MAAF%20ENTREPRISE.md) - [MAAF](../insurers/MAAF.md)
 - [Rassurcap Solutions - IPID](../products/maif/Rassurcap%20Solutions%20-%20IPID.md) - [MAIF](../insurers/MAIF.md)
 - [Rassurcap Solutions](../products/maif/Rassurcap%20Solutions.md) - [MAIF](../insurers/MAIF.md)
 - [ALÉASSUR Risques statutaires CNRACL](../products/smacl/AL%C3%89ASSUR%20Risques%20statutaires%20CNRACL.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
