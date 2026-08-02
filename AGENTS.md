@@ -27,7 +27,7 @@ navigate it without guessing. Do not edit by hand.
 |---|---|---|---|---|---|
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
 | ch (Switzerland) | 0 | 3 | 1 | 0 | 5 |
-| fr (France) | 24 | 528 | 10 | 1 | 5 |
+| fr (France) | 24 | 531 | 10 | 1 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
 
@@ -467,6 +467,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | emprunteur | maif | Assurance Emprunteur Crédit Auto Acquisition - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/epargne-financements/document-information-aem-credit-auto-acquisition.pdf) |
 | fr | emprunteur | maif | Assurance Emprunteur MAIF (AEM) | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/notice-information-assurance-emprunteur.pdf) |
 | fr | emprunteur | maif | La Convention AERAS - Doc | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/commun/convention-aeras.pdf) |
+| fr | emprunteur | matmut | ALTUS EVOLUTION 2.0 | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CG-altus-evolution.pdf) |
 | fr | emprunteur | thelem | Thélem Emprunteur - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_488_juin-2025.pdf) |
 | fr | gav | gan | Gan Prévoyance Garantie des Accidents de la Vie - IPID | 2026-07-30 | [pdf](https://www.ganprevoyance.fr/gav/1-1/document-d-informations-garantie-accidents-de-la-vie.pdf?date=20230317164344) |
 | fr | gav | maaf | Tranquillité famille - IPID | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/PRE11004.PDF) |
@@ -530,6 +531,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | habitation | matmut | Contrat Multigaranties des risques immobiliers - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDIMEPNOPNE.pdf) |
 | fr | habitation | matmut | Contrat « Multigaranties Hébergement » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDHEB.pdf) |
 | fr | habitation | matmut | Contrat « Multigaranties Propriétaire non exploitant » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDPNE.pdf) |
+| fr | habitation | matmut | Contrat « Multigaranties Résidence principale - Jeunes » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDJEUNES.pdf) |
 | fr | habitation | matmut | Habitation Initiale & Co Résidence Principale | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-rp-init-and-co.pdf) |
 | fr | habitation | matmut | Habitation Initiale & Co Résidence Secondaire | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-rs-init-and-co.pdf) |
 | fr | habitation | matmut | Habitation Matmut Étudiants | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/ME2H.pdf) |
@@ -633,6 +635,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | obseques | maif | Sollicitudes - Doc | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/valeurs-rachat-sollicitudes.pdf) |
 | fr | obseques | maif | Sollicitudes - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/document-informations-cles-sollicitudes.pdf) |
 | fr | obseques | maif | Sollicitudes - Tarifs | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/cotisations-sollicitudes.pdf) |
+| fr | obseques | matmut | Matmut Prestations Obsèques | 2026-07-30 | [pdf](https://www.matmut.fr/prevoyance/pdf/CG-MPO-PRESTA.pdf) |
 | fr | obseques | matmut | Matmut Prévoyance Obsèques | 2026-07-30 | [pdf](https://www.matmut.fr/prevoyance/pdf/Notice-MPO.pdf) |
 | fr | obseques | matmut | Matmut Prévoyance Obsèques (2) | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/Notice-MPO.pdf) |
 | fr | obseques | matmut | Matmut Prévoyance Obsèques - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/prevoyance/pdf/MPO.DIC.pdf) |
