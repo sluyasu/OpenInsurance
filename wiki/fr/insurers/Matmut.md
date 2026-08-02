@@ -5,7 +5,7 @@ country: fr
 insurer_slug: matmut
 name: Matmut
 website: https://www.matmut.fr
-products_count: 115
+products_count: 117
 branches_covered:
 - animaux
 - assurance-vie
@@ -21,6 +21,7 @@ branches_covered:
 - rc-professionnelle
 - retraite
 - sante
+- scolaire
 - velo
 tags:
 - insurance/fr
@@ -37,7 +38,7 @@ generated: true
 
 ## Résumé
 
-**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 115 document(s) across 15 branch(es).
+**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 117 document(s) across 16 branch(es).
 
 ## Produits par branche
 
@@ -144,6 +145,7 @@ generated: true
 - [CompliceRetraite](../products/matmut/CompliceRetraite.md) - Conditions générales (Octobre 2025) · réf. v.311-01
 
 ### [Complémentaire santé](../branches/Compl%C3%A9mentaire%20sant%C3%A9.md)
+- [Bien dans mon rôle d'aidant - Fiche](../products/matmut/Bien%20dans%20mon%20r%C3%B4le%20d%27aidant%20-%20Fiche.md) - Fiche produit (08/25) · réf. FICHE-AID.MOM – 08/25
 - [CONTRAT COLLECTIF FRAIS DE SANTÉ - RÉGIME OBLIGATOIRE](../products/matmut/CONTRAT%20COLLECTIF%20FRAIS%20DE%20SANT%C3%89%20-%20R%C3%89GIME%20OBLIGATOIRE.md) - Conditions générales (Janvier 2023)
 - [Conditions Générales — Régime conventionnel de frais de santé à adhésion obligatoire, Convention Collective Nationale de](../products/matmut/Conditions%20G%C3%A9n%C3%A9rales%20%E2%80%94%20R%C3%A9gime%20conventionnel%20de%20frais%20de%20sant%C3%A9%20%C3%A0%20adh%C3%A9sion%20obligatoire%2C%20Convention%20Collective%20Nationale%20de.md) - Conditions générales (12-2024 (référence de pied de page « CG Oblig-ALISFA-FM-12-2024 ») ; le tableau des garanties de l'ANNEXE II porte la mention « En vigueur au 01/01/2025 ») · réf. CG Oblig-ALISFA-FM-12-2024 – SP24/FCR0570
 - [Notice d'information — Régime de frais de santé, contrat collectif, Accord interbranche du 2 octobre 2019 (CCN du 15 mar](../products/matmut/Notice%20d%27information%20%E2%80%94%20R%C3%A9gime%20de%20frais%20de%20sant%C3%A9%2C%20contrat%20collectif%2C%20Accord%20interbranche%20du%202%20octobre%202019%20%28CCN%20du%2015%20mar.md) - Conditions générales (ÉDITION 2023 (couverture) ; « janvier 2023 » en pied de page ; « Notice d'information Base obligatoire option 2 - CCN 66-CHRS - Janvier 2023 » en 4e de couverture) · réf. Accord interbranche CCN 66 - CHRS • Notice d'information base obligatoire et option 2 - janvier 2023
@@ -182,6 +184,9 @@ generated: true
 - [Santé vous bien ! - Fiche](../products/matmut/Sant%C3%A9%20vous%20bien%20%21%20-%20Fiche%20%285%29.md) - Fiche produit (2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)) · réf. 20260101_20261231_IND2022
 - [Santé vous bien ! - Fiche](../products/matmut/Sant%C3%A9%20vous%20bien%20%21%20-%20Fiche.md) - Fiche produit (2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)) · réf. 20260101_20261231_IND2022
 - [Statuts d'Ociane et Règlement mutualiste « individuels » — Complémentaire maladie accidents](../products/matmut/Statuts%20d%27Ociane%20et%20R%C3%A8glement%20mutualiste%20%C2%AB%20individuels%20%C2%BB%20%E2%80%94%20Compl%C3%A9mentaire%20maladie%20accidents.md) - Conditions générales (12/24 (mentions de pied de page « STATUTS.MUT.OCIANE - 12/24 » et « RGMT. INDIV. OCIANE - 12/24 »). Statuts approuvés par l'assemblée générale du 19 octobre 2002, modifications approuvées jusqu'aux assemblées générales du 12 juin et du 5 décembre 2024. Règlement mutualiste « individuels » approuvé par l'assemblée générale du 19 juin 2020 et modifié par le conseil d'administration du 15 septembre 2020, du 11 mai 2021, du 17 septembre 2021, du 9 mai 2022, du 12 mai 2023 et du 21 mai 2024 sur délégation de l'assemblée générale.) · réf. STATUTS.MUT.OCIANE - 12/24 (statuts, p. 19) ; RGMT. INDIV. OCIANE - 12/24 (règlement mutualiste, p. 33)
+
+### [Scolaire et extrascolaire](../branches/Scolaire%20et%20extrascolaire.md)
+- [Conditions de l'offre Assurance Scolaire - Tarifs](../products/matmut/Conditions%20de%20l%27offre%20Assurance%20Scolaire%20-%20Tarifs.md) - Conditions tarifaires (05/26) · réf. COND.OFFRE.SCOL – 05/26
 
 ### [Vélo](../branches/V%C3%A9lo.md)
 - [Contrat Multirisques « 2R Liberté » - IPID](../products/matmut/Contrat%20Multirisques%20%C2%AB%202R%20Libert%C3%A9%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (07/25) · réf. IPID.VELO - 07/25

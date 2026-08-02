@@ -161,6 +161,7 @@ Le service apporte « la possibilité de recevoir un courrier type suite à l’
 - [Information juridique Associations - Doc](Information%20juridique%20Associations%20-%20Doc%20%282%29.md) - Document, éd. 01/2024
 - [Information juridique Collectivités - Doc](Information%20juridique%20Collectivit%C3%A9s%20-%20Doc%20%282%29.md) - Document, éd. 01/2024
 - [Information juridique Collectivités - Doc](Information%20juridique%20Collectivit%C3%A9s%20-%20Doc.md) - Document, éd. 01/2024
+- [Information juridique Sécurité élus - Doc](Information%20juridique%20S%C3%A9curit%C3%A9%20%C3%A9lus%20-%20Doc.md) - Document, éd. 07/2023
 
 ## Source & fidélité
 

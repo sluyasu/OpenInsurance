@@ -5,7 +5,7 @@ country: fr
 insurer_slug: smacl
 name: SMACL Assurances
 website: https://www.smacl.fr
-products_count: 36
+products_count: 38
 branches_covered:
 - auto
 - autres
@@ -29,7 +29,7 @@ generated: true
 
 ## Résumé
 
-**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 36 document(s) across 7 branch(es).
+**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 38 document(s) across 7 branch(es).
 
 ## Produits par branche
 
@@ -52,6 +52,7 @@ generated: true
 - [Tous risques chantier - IPID](../products/smacl/Tous%20risques%20chantier%20-%20IPID.md) - IPID / Fiche d'information (01/2024) · réf. CONSTRUCTION_DIPA_TRC_SA_01(06_2021)
 
 ### [Multirisque professionnelle](../branches/Multirisque%20professionnelle.md)
+- [ALÉASSUR - Conventions spéciales Tous risques instruments de musique](../products/smacl/AL%C3%89ASSUR%20-%20Conventions%20sp%C3%A9ciales%20Tous%20risques%20instruments%20de%20musique.md) - Conditions générales (01/2024) · réf. ALEASSUR_CS_TRINSTRUMENT_01(02_2016)
 - [Aléassur - Dommages aux biens - IPID](../products/smacl/Al%C3%A9assur%20-%20Dommages%20aux%20biens%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. ALEASSUR_DIPA_DAB_04(06_2024)
 - [Assistance Patrimoine des associations](../products/smacl/Assistance%20Patrimoine%20des%20associations.md) - Conditions générales (01/2024) · réf. CONVERGENCE_ADA_CA_PATRIMOINE_02(02_2023)
 - [Assurance Spéciale Accueil Enfants - IPID](../products/smacl/Assurance%20Sp%C3%A9ciale%20Accueil%20Enfants%20-%20IPID.md) - IPID / Fiche d'information (01/2024) · réf. CONVERGENCE_DIPA_ACCUEIL_ENFANTS_ACEPP
@@ -75,6 +76,7 @@ generated: true
 - [Information juridique Associations - Doc](../products/smacl/Information%20juridique%20Associations%20-%20Doc%20%282%29.md) - Document (01/2024) · réf. CONVENTION_IJ_ASSOCIATIONS_SA_02(02_2023)_TEL
 - [Information juridique Collectivités - Doc](../products/smacl/Information%20juridique%20Collectivit%C3%A9s%20-%20Doc%20%282%29.md) - Document (01/2024) · réf. CONVENTION_IJ_COLLECTIVITES_SA_02(09_2022)
 - [Information juridique Collectivités - Doc](../products/smacl/Information%20juridique%20Collectivit%C3%A9s%20-%20Doc.md) - Document (01/2024) · réf. CONVENTION_IJ_COLLECTIVITES_AO_02(02_2023)_TEL
+- [Information juridique Sécurité élus - Doc](../products/smacl/Information%20juridique%20S%C3%A9curit%C3%A9%20%C3%A9lus%20-%20Doc.md) - Document (07/2023) · réf. CONVENTION_IJ_ELUS_02(02_2023)_TEL
 - [Juripacte - IPID](../products/smacl/Juripacte%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. JURIPACTE_DIPA_PJ_01(06/2021)
 - [Juris-Asso - IPID](../products/smacl/Juris-Asso%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. JURISASSO_DIPA_PJ_01(03_2019)
 - [Vos plafonds contractuels de prise en charge - Protection juridique - Tarifs](../products/smacl/Vos%20plafonds%20contractuels%20de%20prise%20en%20charge%20-%20Protection%20juridique%20-%20Tarifs.md) - Conditions tarifaires (08/2022) · réf. PLAFONDS_HONORAIRES_AVOCATS_PM_PJ_01(01_2012)
