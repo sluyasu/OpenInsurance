@@ -14,12 +14,22 @@ stream. `get_text("text")` reports what the extractor restitutes. Comparing the 
 divergence. On this corpus the median ratio is 1.02 — extraction is slightly LONGER than the glyph
 count, because it inserts spaces and newlines the content stream does not contain.
 
-WHAT THIS IS NOT. A ratio below 1 is a SCREENING SIGNAL, not proof. Two other things depress it:
-- documents with many Private-Use-Area glyphs (Wingdings bullets), which cluster tightly around
-  0.68 on one insurer whose contracts are demonstrably complete (100+ coverages each);
-- ligature and encoding quirks.
-So this reports suspects for a human or a worker to check by rendering the page. It does not
-delete, rewrite or block anything.
+THE CONFOUNDER, and it was the whole story. A first version counted every glyph `get_texttrace`
+reports, and flagged 17 documents. Sixteen were false positives, all for the same reason: the
+publisher's design file leaves artwork **outside the page rectangle** — an executive org chart at
+x=4741, y=−1616 on one Macif document, and 92 000 to 215 000 off-page glyphs on each of eleven
+Matmut contracts. No reader ever sees them and `get_text` rightly ignores them. Filtering on the
+page rect took the suspect list from 17 to 1, the one document independently confirmed broken.
+
+I had guessed the confounder was Private-Use-Area bullet glyphs. It was not: those contracts carry
+only 791 to 3 312 PUA glyphs against hundreds of thousands of off-page ones, and score 1.00–1.02
+once filtered. The guess is recorded here because it was wrong and the measurement settled it.
+
+WHAT THIS IS STILL NOT. A ratio below 1 remains a SCREENING SIGNAL, not proof — and it is blind to
+the other real defect in this corpus: dropped fi/ff/fl ligatures ("spécifques", "chaufage",
+"un déf" for *un défi*) occur at a perfectly healthy 1.03. So this reports suspects to check by
+rendering the page, and catches only one of the two failure modes. It does not delete, rewrite or
+block anything.
 
 Usage: python pipeline/check_textlayer.py --country fr [--threshold 0.85] [--json]
 """
