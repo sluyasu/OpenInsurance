@@ -1,0 +1,674 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "macif",
+  "insurer_name": "Macif",
+  "product_name": "CONTRAT MACIF SANTÉ DES TERRITORIAUX",
+  "branch": "sante",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "Le document n'emploie aucune des catégories du schéma mais énonce des conditions d'éligibilité précises parmi les obligations à la souscription : « avoir le statut de fonctionnaire ou d'agent non titulaire de droit public ou de droit privé des collectivités territoriales et de leurs établissements publics ou être retraité d'une des catégories visées ci-dessus » et « être âgé de plus de 16 ans et avoir la capacité de contracter, résider en France métropolitaine ou dans un département ou une région d'outre-mer et être affilié à un régime obligatoire français d'assurance maladie ». L'adhérent est donc une personne physique, agent ou retraité de la fonction publique territoriale.",
+  "reference": null,
+  "edition_date": "2026-06",
+  "product_family": "Macif Santé des Territoriaux",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_MSDT.pdf",
+  "source_pdf": "contrat-macif-sante-des-territoriaux-0a943d0e.pdf",
+  "source_sha256": "4f12dd5edd9b7487064656519fbd4479eaa429e7dcd3fb507d539c2c3e453c50",
+  "source_pages": 2,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d'information (DIPA/IPID) du contrat MACIF SANTÉ DES TERRITORIAUX, assurance complémentaire santé. Le contrat est assuré par la Mutuelle Nationale des Fonctionnaires des Collectivités Territoriales (MNFCT), mutuelle enregistrée en France et régie par le livre II du code de la Mutualité, SIREN n°784 442 899. Il est destiné à rembourser, en complément de la Sécurité sociale française, tout ou partie des frais de santé restant à la charge de l'assuré et des éventuels bénéficiaires en cas d'accident, de maladie ou de maternité ; il respecte les conditions légales des contrats responsables et figure sur la liste des offres labellisées sur le site de la DGCL. Huit garanties sont systématiquement prévues (hospitalisation, prime de naissance, soins courants, prévention et mieux-être, dentaire, optique, aides auditives, appareillage), complétées par six garanties optionnelles selon la formule souscrite, trois prestations d'assistance et quatre services. Les montants des prestations sont soumis à des plafonds qui varient selon le niveau de garanties choisi et figurent dans les tableaux de garanties.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Hospitalisation",
+      "description": "Hospitalisation : honoraires chirurgicaux, médicaux et paramédicaux, analyses et examens de laboratoire, radiologie, ainsi que la participation forfaitaire sur les actes techniques égaux ou supérieurs à 120 €, les frais de transport et de séjour, le forfait patient urgences et le forfait journalier hospitalier. (Garantie systématiquement prévue, précédée d'une coche verte.)",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus) ; les soins ou équipements achetés hors de France sont couverts sous réserve qu'ils soient pris en charge par le régime d'Assurance maladie obligatoire français et à condition que l'assuré réside en France métropolitaine ou dans un département et région d'outre-mer",
+      "limits": "Les montants des prestations sont soumis à des plafonds qui varient en fonction du niveau de garanties choisi et qui figurent dans les tableaux de garanties. Ils ne peuvent être plus élevés que les dépenses engagées.",
+      "sub_limits": [
+        "participation forfaitaire sur les actes techniques égaux ou supérieurs à 120 €"
+      ],
+      "deductible": "Certaines sommes peuvent rester à votre charge",
+      "conditions": [
+        "Forfait journalier hospitalier : remboursement conditionné à une hospitalisation d'une nuit minimum",
+        "Selon la formule souscrite, des délais d'attente peuvent s'appliquer ; pendant 3 mois, l'assuré bénéficie des garanties de la formule ÉQUILIBRÉE 2"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Prime de naissance",
+      "description": "Prime de naissance : 100 €/enfant. (Garantie systématiquement prévue, précédée d'une coche verte.)",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus) ; les soins ou équipements achetés hors de France sont couverts sous réserve qu'ils soient pris en charge par le régime d'Assurance maladie obligatoire français et à condition que l'assuré réside en France métropolitaine ou dans un département et région d'outre-mer",
+      "limits": "100 €/enfant",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Soins courants",
+      "description": "Soins courants : honoraires médicaux et paramédicaux, radiologie, analyses et examens de laboratoire, ainsi que les honoraires de psychologue pris en charge par la Sécurité sociale, les médicaments et honoraires de dispensation, les frais de transport. (Garantie systématiquement prévue, précédée d'une coche verte.)",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus) ; les soins ou équipements achetés hors de France sont couverts sous réserve qu'ils soient pris en charge par le régime d'Assurance maladie obligatoire français et à condition que l'assuré réside en France métropolitaine ou dans un département et région d'outre-mer",
+      "limits": "Plafonds variables selon le niveau de garanties choisi, figurant dans les tableaux de garanties ; ils ne peuvent être plus élevés que les dépenses engagées",
+      "sub_limits": [],
+      "deductible": "Certaines sommes peuvent rester à votre charge",
+      "conditions": [
+        "Les honoraires de psychologue doivent être pris en charge par la Sécurité sociale"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Prévention et mieux-être",
+      "description": "Prévention et mieux-être : pharmacie non remboursée par la Sécurité sociale, à savoir la contraception non remboursée, le vaccin antigrippal non remboursé, et l'auto-test VIH. (Garantie systématiquement prévue, précédée d'une coche verte.)",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus) ; les soins ou équipements achetés hors de France sont couverts sous réserve qu'ils soient pris en charge par le régime d'Assurance maladie obligatoire français et à condition que l'assuré réside en France métropolitaine ou dans un département et région d'outre-mer",
+      "limits": "Plafonds variables selon le niveau de garanties choisi, figurant dans les tableaux de garanties",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Dentaire",
+      "description": "Dentaire : actes et soins dentaires, soins d'obturation Inlay/Onlay/Overlay, prothèses dentaires 100 % Santé telles que définies réglementairement, autres prothèses dentaires (couronne, couronne transitoire, bridge, appareil dentaire amovible, Inlay-core, dent supplémentaire ou réparation sur bridge et appareil dentaire amovible) et orthodontie prises en charge par la Sécurité sociale. (Garantie systématiquement prévue, précédée d'une coche verte.)",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus) ; les soins ou équipements achetés hors de France sont couverts sous réserve qu'ils soient pris en charge par le régime d'Assurance maladie obligatoire français et à condition que l'assuré réside en France métropolitaine ou dans un département et région d'outre-mer",
+      "limits": "Pour les soins d'obturation Inlay/Onlay/Overlay, les autres prothèses dentaires remboursées par la Sécurité sociale, l'orthodontie, les implants dentaires et la parodontie, les remboursements sont limités à un plafond global annuel durant les 36 premiers mois d'affiliation de l'assuré. Cette durée de plafonnement peut être prolongée en cas de modification de la formule de garanties.",
+      "sub_limits": [
+        "plafond global annuel durant les 36 premiers mois d'affiliation de l'assuré"
+      ],
+      "deductible": "Certaines sommes peuvent rester à votre charge",
+      "conditions": [
+        "L'orthodontie doit être prise en charge par la Sécurité sociale"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Optique",
+      "description": "Optique : équipements 100 % Santé (dits de classe A) tels que définis réglementairement, autres verres et montures remboursés par la Sécurité sociale, lentilles de contact prises en charge par la Sécurité sociale. (Garantie systématiquement prévue, précédée d'une coche verte.)",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus) ; les soins ou équipements achetés hors de France sont couverts sous réserve qu'ils soient pris en charge par le régime d'Assurance maladie obligatoire français et à condition que l'assuré réside en France métropolitaine ou dans un département et région d'outre-mer",
+      "limits": "Remboursement limité à un équipement (monture + 2 verres) tous les deux ans sauf cas de renouvellement anticipé prévu réglementairement",
+      "sub_limits": [
+        "un équipement (monture + 2 verres) tous les deux ans"
+      ],
+      "deductible": "Certaines sommes peuvent rester à votre charge",
+      "conditions": [
+        "Les lentilles de contact doivent être prises en charge par la Sécurité sociale (les lentilles non remboursées relèvent d'une garantie optionnelle)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Aides auditives",
+      "description": "Aides auditives : équipements 100 % Santé (dits de classe 1) tels que définis réglementairement, autres aides auditives remboursées par la Sécurité sociale, et les piles et accessoires. (Garantie systématiquement prévue, précédée d'une coche verte.)",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus) ; les soins ou équipements achetés hors de France sont couverts sous réserve qu'ils soient pris en charge par le régime d'Assurance maladie obligatoire français et à condition que l'assuré réside en France métropolitaine ou dans un département et région d'outre-mer",
+      "limits": "Aides auditives remboursées par la Sécurité sociale : le nombre d'équipements (1 appareil acoustique) est limité à 1 équipement par oreille tous les 4 ans",
+      "sub_limits": [
+        "1 équipement (1 appareil acoustique) par oreille tous les 4 ans"
+      ],
+      "deductible": "Certaines sommes peuvent rester à votre charge",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Appareillage",
+      "description": "Appareillage : matériel médical, appareils de basse vision, véhicules pour handicapés physiques en location courte durée et prothèses capillaires de classe II, III et IV. (Garantie systématiquement prévue, précédée d'une coche verte.)",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus) ; les soins ou équipements achetés hors de France sont couverts sous réserve qu'ils soient pris en charge par le régime d'Assurance maladie obligatoire français et à condition que l'assuré réside en France métropolitaine ou dans un département et région d'outre-mer",
+      "limits": "Plafonds variables selon le niveau de garanties choisi, figurant dans les tableaux de garanties",
+      "sub_limits": [],
+      "deductible": "Certaines sommes peuvent rester à votre charge",
+      "conditions": [
+        "Véhicules pour handicapés physiques : en location courte durée uniquement",
+        "Prothèses capillaires : de classe II, III et IV"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Chambre particulière et chambre accompagnant",
+      "description": "Chambre particulière (avec nuitée et en ambulatoire) et la chambre accompagnant avec nuitée. (Garantie optionnelle, selon la formule souscrite.)",
+      "is_optional": true,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus) ; les soins ou équipements achetés hors de France sont couverts sous réserve qu'ils soient pris en charge par le régime d'Assurance maladie obligatoire français et à condition que l'assuré réside en France métropolitaine ou dans un département et région d'outre-mer",
+      "limits": "Chambre particulière et accompagnant avec nuitée en soins de suite, de réadaptation et en psychiatrie : le forfait, pour chacune de ces garanties, est versé dans la limite globale de 60 nuits/an. Les prestations versées au cours de l'année au titre de la chambre particulière ou la chambre accompagnant pour les séjours en Médecine, Chirurgie, Obstétrique et Maternité sont comptabilisées dans cette limite globale annuelle et viennent donc en déduction.",
+      "sub_limits": [
+        "limite globale de 60 nuits/an pour chacune de ces garanties"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Les médicaments remboursés à 30 % et 15 % par la Sécurité sociale",
+      "description": "Les médicaments remboursés à 30 % et 15 % par la Sécurité sociale. (Garantie optionnelle, selon la formule souscrite.)",
+      "is_optional": true,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus) ; les soins ou équipements achetés hors de France sont couverts sous réserve qu'ils soient pris en charge par le régime d'Assurance maladie obligatoire français et à condition que l'assuré réside en France métropolitaine ou dans un département et région d'outre-mer",
+      "limits": "Plafonds variables selon le niveau de garanties choisi, figurant dans les tableaux de garanties",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Les séances Mieux-être",
+      "description": "Les séances Mieux-être, à savoir les séances d'ostéopathie, d'acupuncture, de diététique, de chiropractie, de pédicurie/podologie, de psychologie (non remboursée par la Sécurité sociale), de sophrologie et d'hypnothérapie, ainsi que la participation à des ateliers d'activité physique adaptée. (Garantie optionnelle, selon la formule souscrite.)",
+      "is_optional": true,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus) ; les soins ou équipements achetés hors de France sont couverts sous réserve qu'ils soient pris en charge par le régime d'Assurance maladie obligatoire français et à condition que l'assuré réside en France métropolitaine ou dans un département et région d'outre-mer",
+      "limits": "Forfait unitaire dont la limite globale annuelle (de 2 à 4 séances par an) varie en fonction de la formule de garantie",
+      "sub_limits": [
+        "de 2 à 4 séances par an selon la formule de garantie"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "La pharmacie non remboursée par la Sécurité sociale",
+      "description": "La pharmacie non remboursée par la Sécurité sociale, à savoir les tests de grossesse et d'ovulation, l'homéopathie, les médicaments prescrits ou référencés ANSM, ainsi que le matériel de surveillance de l'hypertension artérielle. (Garantie optionnelle, selon la formule souscrite.)",
+      "is_optional": true,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus) ; les soins ou équipements achetés hors de France sont couverts sous réserve qu'ils soient pris en charge par le régime d'Assurance maladie obligatoire français et à condition que l'assuré réside en France métropolitaine ou dans un département et région d'outre-mer",
+      "limits": "Plafonds variables selon le niveau de garanties choisi, figurant dans les tableaux de garanties",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Orthodontie, implants dentaires et parodontie non remboursés par la Sécurité sociale",
+      "description": "Orthodontie, implants dentaires et parodontie non remboursés par la Sécurité sociale. (Garantie optionnelle, selon la formule souscrite.)",
+      "is_optional": true,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus) ; les soins ou équipements achetés hors de France sont couverts sous réserve qu'ils soient pris en charge par le régime d'Assurance maladie obligatoire français et à condition que l'assuré réside en France métropolitaine ou dans un département et région d'outre-mer",
+      "limits": "Pour l'orthodontie, les implants dentaires et la parodontie, les remboursements sont limités à un plafond global annuel durant les 36 premiers mois d'affiliation de l'assuré ; cette durée de plafonnement peut être prolongée en cas de modification de la formule de garanties",
+      "sub_limits": [
+        "plafond global annuel durant les 36 premiers mois d'affiliation"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Lentilles de contact non remboursées par la Sécurité sociale",
+      "description": "Lentilles de contact non remboursées par la Sécurité sociale. (Garantie optionnelle, selon la formule souscrite.)",
+      "is_optional": true,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus) ; les soins ou équipements achetés hors de France sont couverts sous réserve qu'ils soient pris en charge par le régime d'Assurance maladie obligatoire français et à condition que l'assuré réside en France métropolitaine ou dans un département et région d'outre-mer",
+      "limits": "Plafonds variables selon le niveau de garanties choisi, figurant dans les tableaux de garanties",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Assistance en cas d'hospitalisation ou d'immobilisation à domicile",
+      "description": "Assistance en cas d'hospitalisation ou d'immobilisation à domicile. (Assistance systématiquement prévue, précédée d'une coche verte.)",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance s'appliquent en France (hors départements et régions d'outre mer) y compris Andorre et Principauté de Monaco",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Assistance en cas de naissance ou d'adoption",
+      "description": "Assistance en cas de naissance ou d'adoption. (Assistance systématiquement prévue, précédée d'une coche verte. Le calque texte coupe le mot en « As sistance ».)",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance s'appliquent en France (hors départements et régions d'outre mer) y compris Andorre et Principauté de Monaco",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Assistance dédiée aux aidants et aux travailleurs indépendants",
+      "description": "Assistance dédiée aux aidants et aux travailleurs indépendants. (Assistance systématiquement prévue, précédée d'une coche verte. Le calque texte coupe le mot en « As sistance ».)",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance s'appliquent en France (hors départements et régions d'outre mer) y compris Andorre et Principauté de Monaco",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Réseau de soins",
+      "description": "Réseau de soins. (Service systématiquement prévu, précédé d'une coche verte. Le calque texte imprime « R éseau de soins ».)",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Fonds de secours",
+      "description": "Fonds de secours. (Service systématiquement prévu, précédé d'une coche verte. Le calque texte imprime « F onds de secours ».)",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Prêt pour une aide à l'accès aux soins de santé et cautionnement de prêt pour les fonctionnaires",
+      "description": "Prêt pour une aide à l'accès aux soins de santé et cautionnement de prêt pour les fonctionnaires. (Service systématiquement prévu, précédé d'une coche verte. Le calque texte coupe le mot en « Pr êt ».)",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Tiers payant",
+      "description": "Tiers payant. (Service systématiquement prévu, précédé d'une coche verte. Le calque texte coupe le mot en « Tier s payant ».)",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Soins reçus en dehors de la période de validité du contrat",
+      "description": "Les soins reçus en dehors de la période de validité du contrat. (Rubrique « Qu'est-ce qui n'est pas assuré ? »)",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Indemnités journalières en cas d'arrêt de travail",
+      "description": "Les indemnités journalières versées en complément de la Sécurité sociale en cas d'arrêt de travail. (Rubrique « Qu'est-ce qui n'est pas assuré ? »)",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Séjours en établissements médico-sociaux, pour personnes âgées ou dépendantes, ateliers thérapeutiques et longs séjours",
+      "description": "Les séjours en établissements médico-sociaux (tels que notamment les maisons d'accueil spécialisées, les centres médico-éducatifs, les instituts psychopédagogiques, les centres de rééducation professionnelle), les séjours en établissements pour personnes âgées ou dépendantes (tels que notamment les EHPAD et les maisons de retraite), les séjours en ateliers thérapeutiques, ainsi que les hospitalisations et séjours en établissements, centres ou services dits de longs séjours. (Rubrique « Qu'est-ce qui n'est pas assuré ? »)",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Franchises médicales",
+      "description": "Les franchises médicales sur les médicaments, les actes paramédicaux et les transports. (LES PRINCIPALES EXCLUSIONS DU CONTRAT RESPONSABLE)",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Participation forfaitaire",
+      "description": "La participation forfaitaire sur les consultations et actes médicaux, examens radiologiques et analyses de laboratoire. (LES PRINCIPALES EXCLUSIONS DU CONTRAT RESPONSABLE)",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Majoration du ticket modérateur hors parcours de soins",
+      "description": "La majoration du ticket modérateur lorsque l'assuré ne respecte pas le parcours de soins. (LES PRINCIPALES EXCLUSIONS DU CONTRAT RESPONSABLE)",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dépassements d'honoraires hors parcours de soins",
+      "description": "Les dépassements d'honoraires pratiqués par les médecins lorsque l'assuré ne respecte pas le parcours de soins. (LES PRINCIPALES EXCLUSIONS DU CONTRAT RESPONSABLE)",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Remboursement hors France en dehors du régime obligatoire français",
+      "description": "L'assuré est couvert pour les soins ou les équipements achetés hors de France sous réserve qu'ils soient pris en charge par le régime d'Assurance maladie obligatoire français et sous conditions que l'assuré réside en France métropolitaine ou dans un département et région d'outre-mer. La prise en charge s'effectue conformément à la formule de garantie souscrite et exclut tout autre remboursement de la part de la mutuelle.",
+      "applies_to": "all",
+      "page": 2
+    }
+  ],
+  "deductibles": {
+    "standard": "Les montants des prestations sont soumis à des plafonds qui varient en fonction du niveau de garanties choisi et qui figurent dans les tableaux de garanties. Ils ne peuvent être plus élevés que les dépenses engagées. Certaines sommes peuvent rester à votre charge.",
+    "variable": "Restent à la charge de l'assuré, au titre du contrat responsable : les franchises médicales sur les médicaments, les actes paramédicaux et les transports ; la participation forfaitaire sur les consultations et actes médicaux, examens radiologiques et analyses de laboratoire ; la majoration du ticket modérateur et les dépassements d'honoraires lorsque l'assuré ne respecte pas le parcours de soins.",
+    "per_coverage": null,
+    "page": 1
+  },
+  "waiting_periods": [
+    {
+      "coverage": "Toutes les garanties (selon la formule souscrite)",
+      "duration": "3 mois",
+      "description": "Délais d'attente : selon la formule souscrite, des délais d'attente peuvent s'appliquer. Pendant 3 mois, l'assuré bénéficie des garanties de la formule ÉQUILIBRÉE 2.",
+      "page": 1
+    },
+    {
+      "coverage": "Dentaire (soins d'obturation Inlay/Onlay/Overlay, autres prothèses dentaires remboursées par la Sécurité sociale, orthodontie, implants dentaires, parodontie)",
+      "duration": "36 premiers mois d'affiliation",
+      "description": "Les remboursements sont limités à un plafond global annuel durant les 36 premiers mois d'affiliation de l'assuré. Cette durée de plafonnement peut être prolongée en cas de modification de la formule de garanties. (Plafonnement temporaire et non délai de carence au sens strict, mais restriction liée à l'ancienneté d'affiliation.)",
+      "page": 1
+    }
+  ],
+  "obligations": [
+    {
+      "name": "Statut professionnel requis",
+      "description": "À la souscription : avoir le statut de fonctionnaire ou d'agent non titulaire de droit public ou de droit privé des collectivités territoriales et de leurs établissements publics ou être retraité d'une des catégories visées ci-dessus.",
+      "timing": "À la souscription",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    },
+    {
+      "name": "Âge, capacité, résidence et affiliation",
+      "description": "À la souscription : être âgé de plus de 16 ans et avoir la capacité de contracter, résider en France métropolitaine ou dans un département ou une région d'outre-mer et être affilié à un régime obligatoire français d'assurance maladie.",
+      "timing": "À la souscription",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    },
+    {
+      "name": "Remplir et signer la demande d'adhésion",
+      "description": "À la souscription : remplir avec exactitude la demande d'adhésion et la signer.",
+      "timing": "À la souscription",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    },
+    {
+      "name": "Fournir les pièces d'identité et attestations",
+      "description": "À la souscription : fournir une copie de sa pièce d'identité ainsi que la copie de l'attestation de carte vitale de chaque assuré.",
+      "timing": "À la souscription",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    },
+    {
+      "name": "Mandat SEPA et RIB",
+      "description": "À la souscription : remplir le mandat SEPA et fournir un relevé d'identité bancaire en cas de paiement des cotisations par prélèvement.",
+      "timing": "À la souscription",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    },
+    {
+      "name": "Payer la cotisation",
+      "description": "Durant le contrat : payer la cotisation prévue au contrat.",
+      "timing": "Durant le contrat",
+      "sanction": "Sous peine de suspension des garanties ; en cas de non paiement au-delà de 10 jours et après une mise en demeure restée sans effet, l'assureur pourra être amené à résilier le contrat",
+      "page": 2
+    },
+    {
+      "name": "Fournir les justificatifs de prestations",
+      "description": "Durant le contrat : fournir tout document justificatif nécessaire au paiement des prestations prévues au contrat.",
+      "timing": "Durant le contrat",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    },
+    {
+      "name": "Adresser les demandes de remboursement dans le délai",
+      "description": "Durant le contrat : faire parvenir les demandes de remboursement à l'assureur dans un délai maximum de 2 ans suivant la date de remboursement des soins par la Sécurité sociale ou la date de l'évènement à indemniser ou de sa date de facturation. (Le calque texte imprime « dans un délaimaximumde 2 ans », sans espaces.)",
+      "timing": "Durant le contrat, dans un délai maximum de 2 ans",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    },
+    {
+      "name": "Se soumettre à l'expertise médicale",
+      "description": "Durant le contrat : le cas échéant, se soumettre à l'expertise médicale demandée par l'assureur.",
+      "timing": "Durant le contrat",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    },
+    {
+      "name": "Signaler tout changement de situation",
+      "description": "Durant le contrat : signaler tout changement de situation (régime de Sécurité sociale d'un des assurés, changement de domicile ou de situation familiale, etc…) ou de coordonnées bancaires et produire les justificatifs nécessaires à la modification du contrat. Ce changement peut, dans certains cas, entraîner la modification du contrat et de la cotisation initialement prévue.",
+      "timing": "Durant le contrat",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Adresser la demande de remboursement",
+      "description": "Faire parvenir les demandes de remboursement à l'assureur dans un délai maximum de 2 ans suivant la date de remboursement des soins par la Sécurité sociale ou la date de l'évènement à indemniser ou de sa date de facturation.",
+      "deadline": "2 ans",
+      "page": 2
+    },
+    {
+      "step": "Fournir les justificatifs",
+      "description": "Fournir tout document justificatif nécessaire au paiement des prestations prévues au contrat.",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Se soumettre à l'expertise médicale",
+      "description": "Le cas échéant, se soumettre à l'expertise médicale demandée par l'assureur.",
+      "deadline": null,
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat prend effet à la date mentionnée sur la demande d'assurance. Sa durée est d'un an. Il se renouvelle par tacite reconduction chaque année au 1er janvier sauf résiliation par l'une des parties dans les cas et conditions fixé au contrat.",
+    "tacit_renewal": true,
+    "notice_period": "2 mois avant le 31 décembre de l'année en cours pour une résiliation à l'échéance annuelle",
+    "methods": [
+      "par lettre",
+      "par courrier postal",
+      "par courrier électronique",
+      "par déclaration en point d'accueil",
+      "par acte extrajudiciaire",
+      "ou tout autre moyen prévu à l'article L.221-10-3 du Code de la mutualité"
+    ],
+    "special_rights": [
+      "à l'échéance annuelle, moyennant un préavis de 2 mois avant le 31 décembre de l'année en cours",
+      "à tout moment après expiration d'un délai d'un an à compter de la première souscription ; la résiliation prendra effet à la date précisée dans l'avis de résiliation et au plus tôt un mois après réception de la demande",
+      "dans les 3 mois suivant la survenance d'un évènement limitativement listé au contrat (changement de domicile, de profession, etc.) lorsque cet évènement est en relation directe avec l'objet de la garantie",
+      "Si le contrat a été souscrit exclusivement à distance ou à la suite d'un démarchage à domicile, l'adhérent dispose d'un délai de renonciation de 14 jours calendaires révolus à compter de la prise d'effet du contrat",
+      "Les garanties cessent en cas de résiliation par l'adhérent, en cas de non paiement des cotisations, et en cas de modification des garanties à la suite d'une évolution de la réglementation ou d'une décision de la mutuelle si l'adhérent refuse cette modification",
+      "La mutuelle confirmera par écrit à l'adhérent avoir reçu sa demande de résiliation"
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "La cotisation est annuelle et payable d'avance. Elle est due à l'échéance jusqu'à la résiliation du contrat.",
+      "Le paiement de la cotisation est exigible dans les 10 jours de son échéance. En cas de non paiement au-delà de ce délai, et après une mise en demeure restée sans effet, l'assureur pourra être amené à résilier le contrat.",
+      "Les cotisations peuvent être réglées par mandat de prélèvement SEPA, par précompte éventuel mensuel sur salaire ou, à défaut, par chèque (uniquement pour le paiement annuel).",
+      "Il est possible de demander le fractionnement du paiement de la cotisation (semestriel, trimestriel ou mensuel). Aucuns frais de fractionnement ne sont alors appliqués."
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Contrat responsable et offre labellisée",
+      "description": "Le produit respecte les conditions légales des contrats responsables et figure sur la liste des offres labellisées sur le site de la DGCL.",
+      "page": 1
+    },
+    {
+      "name": "Porteur du risque",
+      "description": "Ce contrat est assuré par la Mutuelle Nationale des Fonctionnaires des Collectivités Territoriales (MNFCT), mutuelle enregistrée en France et régie par le livre II du code de la Mutualité. SIREN n°784 442 899.",
+      "page": 1
+    },
+    {
+      "name": "Plafonds variables selon la formule",
+      "description": "Les montants des prestations sont soumis à des plafonds qui varient en fonction du niveau de garanties choisi et qui figurent dans les tableaux de garanties. Ils ne peuvent être plus élevés que les dépenses engagées. Certaines sommes peuvent rester à votre charge. Le document précise en préambule que « les niveaux de remboursement seront détaillés dans le tableau de garanties », lequel n'est pas joint.",
+      "page": 1
+    },
+    {
+      "name": "Lecture des coches",
+      "description": "Les garanties ou services précédés d'une coche verte √ sont systématiquement prévus au contrat. Les rubriques « LES GARANTIES SYSTÉMATIQUEMENT PRÉVUES » (8 items), « L'ASSISTANCE SYSTÉMATIQUEMENT PRÉVUE » (3 items) et « LES SERVICES SYSTÉMATIQUEMENT PRÉVUS » (4 items) portent une coche ; les 6 items de « LES GARANTIES OPTIONNELLES (selon la formule souscrite) » sont précédés d'une simple puce.",
+      "page": 1
+    },
+    {
+      "name": "Restriction : délais d'attente",
+      "description": "Délais d'attente : selon la formule souscrite, des délais d'attente peuvent s'appliquer. Pendant 3 mois, l'assuré bénéficie des garanties de la formule ÉQUILIBRÉE 2. (LES PRINCIPALES RESTRICTIONS)",
+      "page": 1
+    },
+    {
+      "name": "Restriction : forfait journalier hospitalier",
+      "description": "Forfait journalier hospitalier : remboursement conditionné à une hospitalisation d'une nuit minimum. (LES PRINCIPALES RESTRICTIONS)",
+      "page": 1
+    },
+    {
+      "name": "Restriction : chambre particulière et accompagnant",
+      "description": "Chambre particulière et accompagnant avec nuitée en soins de suite, de réadaptation et en psychiatrie : le forfait, pour chacune de ces garanties, est versé dans la limite globale de 60 nuits/an. Les prestations versées au cours de l'année au titre de la chambre particulière ou la chambre accompagnant pour les séjours en Médecine, Chirurgie, Obstétrique et Maternité sont comptabilisées dans cette limite globale annuelle et viennent donc en déduction. (LES PRINCIPALES RESTRICTIONS)",
+      "page": 1
+    },
+    {
+      "name": "Restriction : séances mieux-être",
+      "description": "Séances mieux-être : forfait unitaire dont la limite globale annuelle (de 2 à 4 séances par an) varie en fonction de la formule de garantie. (LES PRINCIPALES RESTRICTIONS)",
+      "page": 1
+    },
+    {
+      "name": "Restriction : dentaire",
+      "description": "Dentaire : pour les soins d'obturation Inlay/Onlay/Overlay, les autres prothèses dentaires remboursées par la Sécurité sociale, l'orthodontie, les implants dentaires et la parodontie, les remboursements sont limités à un plafond global annuel durant les 36 premiers mois d'affiliation de l'assuré. Cette durée de plafonnement peut être prolongée en cas de modification de la formule de garanties. (LES PRINCIPALES RESTRICTIONS)",
+      "page": 1
+    },
+    {
+      "name": "Restriction : optique",
+      "description": "Optique : remboursement limité à un équipement (monture + 2 verres) tous les deux ans sauf cas de renouvellement anticipé prévu réglementairement. (LES PRINCIPALES RESTRICTIONS)",
+      "page": 1
+    },
+    {
+      "name": "Restriction : aides auditives",
+      "description": "Aides auditives remboursées par la Sécurité sociale : le nombre d'équipements (1 appareil acoustique) est limité à 1 équipement par oreille tous les 4 ans. (LES PRINCIPALES RESTRICTIONS)",
+      "page": 1
+    },
+    {
+      "name": "Formule de garanties citée",
+      "description": "La seule formule nommée dans le document est « ÉQUILIBRÉE 2 », citée au titre des délais d'attente. Le document renvoie pour le reste au « niveau de garanties choisi » et aux « tableaux de garanties » sans les nommer ni les reproduire.",
+      "page": 1
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Ce contrat est assuré par la Mutuelle Nationale des Fonctionnaires des Collectivités Territoriales (MNFCT),",
+      "context": "Porteur du risque",
+      "page": 1
+    },
+    {
+      "quote": "mutuelle enregistrée en France et régie par le livre II du code de la Mutualité. SIREN n°784 442 899",
+      "context": "Statut et SIREN de l'assureur",
+      "page": 1
+    },
+    {
+      "quote": "Produit :  CONTRAT MACIF SANTÉ DES TERRITORIAUX",
+      "context": "Nom du produit",
+      "page": 1
+    },
+    {
+      "quote": "Le contrat MACIF SANTÉ DES TERRITORIAUX est destiné à rembourser, en complément\u0003\n de la Sécurité \nsociale française, tout ou partie des frais de santé restant à la charge de l’assuré et des éventuels bénéficiaires en cas d’accident, de maladie ou de maternité.",
+      "context": "Objet du contrat",
+      "page": 1
+    },
+    {
+      "quote": "produit respecte les conditions légales des contrats responsables et figure sur la liste des offres labellisées sur le site de la DGCL.",
+      "context": "Contrat responsable et labellisation",
+      "page": 1
+    },
+    {
+      "quote": "Les montants des prestations sont soumis à des plafonds qui varient en \nfonction du niveau de garanties choisi et qui figurent dans les tableaux \nde garanties. Ils ne peuvent être plus élevés que les dépenses engagées. \nCertaines sommes peuvent rester à votre charge.",
+      "context": "Plafonds variables selon la formule",
+      "page": 1
+    },
+    {
+      "quote": "Prime de naissance : 100 €/enfant.",
+      "context": "Prime de naissance",
+      "page": 1
+    },
+    {
+      "quote": "Les garanties ou services précédés d’une coche verte √ sont \nsystématiquement prévus au contrat.",
+      "context": "Lecture des coches",
+      "page": 1
+    },
+    {
+      "quote": "Les soins reçus en dehors de la période de validité du contrat.",
+      "context": "Non assuré",
+      "page": 1
+    },
+    {
+      "quote": "Les franchises médicales sur les médicaments, les actes paramédicaux \net les transports.",
+      "context": "Exclusion du contrat responsable",
+      "page": 1
+    },
+    {
+      "quote": "La majoration du ticket modérateur lorsque l’assuré ne respecte pas \nle parcours de soins.",
+      "context": "Exclusion du contrat responsable",
+      "page": 1
+    },
+    {
+      "quote": "Délais d’attente : selon la formule souscrite, des délais d’attente \npeuvent s’appliquer. Pendant 3 mois, l’assuré bénéficie des garanties \nde la formule ÉQUILIBRÉE 2.",
+      "context": "Restriction : délais d'attente",
+      "page": 1
+    },
+    {
+      "quote": "Forfait journalier hospitalier : remboursement conditionné à une \nhospitalisation d’une nuit minimum.",
+      "context": "Restriction : forfait journalier",
+      "page": 1
+    },
+    {
+      "quote": "Séances mieux-être : forfait unitaire dont la limite globale annuelle \n(de 2 à 4 séances par an) varie en fonction de la formule de garantie.",
+      "context": "Restriction : séances mieux-être",
+      "page": 1
+    },
+    {
+      "quote": "Optique : remboursement limité à un équipement (monture + 2 \nverres) tous les deux ans sauf cas de renouvellement anticipé prévu \nréglementairement.",
+      "context": "Restriction : optique",
+      "page": 1
+    },
+    {
+      "quote": "Aides auditives remboursées par la Sécurité sociale : le nombre \nd’équipements (1 appareil acoustique) est limité à 1 équipement par \noreille tous les 4 ans.",
+      "context": "Restriction : aides auditives",
+      "page": 1
+    },
+    {
+      "quote": "France (départements et régions d’outre-mer inclus).",
+      "context": "Étendue territoriale",
+      "page": 2
+    },
+    {
+      "quote": "Les garanties d’assistance s’appliquent en France (hors départements et régions d’outre mer) y compris Andorre et \nPrincipauté de Monaco.",
+      "context": "Étendue territoriale de l'assistance",
+      "page": 2
+    },
+    {
+      "quote": "à l’échéance annuelle, moyennant un préavis de 2 mois avant le 31 décembre de l’année en cours ;",
+      "context": "Résiliation à l'échéance",
+      "page": 2
+    },
+    {
+      "quote": "La cotisation est annuelle et payable d’avance. Elle est due à l’échéance jusqu’à la résiliation du contrat.",
+      "context": "Cotisation",
+      "page": 2
+    },
+    {
+      "quote": "Le contrat prend effet à la date mentionnée sur la demande d’assurance. Sa durée est d’un an. Il se renouvelle par tacite \nreconduction chaque année au 1er janvier sauf résiliation par l’une des parties dans les cas et conditions fixé au",
+      "context": "Durée et tacite reconduction",
+      "page": 2
+    },
+    {
+      "quote": "Sous peine de suspension des garanties, l’adhérent doit :",
+      "context": "Sanction des obligations",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "Porteur du risque : le document est explicite — « Ce contrat est assuré par la Mutuelle Nationale des Fonctionnaires des Collectivités Territoriales (MNFCT), mutuelle enregistrée en France et régie par le livre II du code de la Mutualité. SIREN n°784 442 899 ». L'assureur n'est donc pas la Macif SAM : la marque Macif n'apparaît que dans le nom du produit et dans le pied de page. Aucune autre entité porteuse n'est citée.",
+    "DEUX DATES D'ÉDITION DIFFÉRENTES SONT PRÉSENTES DANS LE FICHIER, une seule est imprimée. Le calque texte des deux pages contient deux lignes de pied de page presque superposées : « Document d'information sur le produit d'assurance / 01/2026 / Macif Santé des Territoriaux » (police VjsbtsCommissioner-Regular, bbox y 817,3-823,3, contenue dans un Form XObject) et « Document d'information sur le produit d'assurance /06/2026 / Macif Santé des Territoriaux » (police KSOJRY+LdmrxfCommissioner-Regular, bbox y 814,2-820,2). Le rendu de la bande de pied de page à fitz.Matrix(14,14) montre que SEULE la mention /06/2026 est visible sur la page imprimée ; la mention 01/2026 n'apparaît nulle part au rendu. edition_date a donc été fixé à 2026-06, la seule date effectivement imprimée. Attention : le manifeste de la pipeline porte edition_date « 2026-01 », valeur issue de la ligne fantôme ; c'est une divergence à corriger en amont.",
+    "reference laissé null : le document ne porte aucun code de référence de type <FAMILLE>/<PRODUIT>/nn - MM/AA. Le seul marqueur de version est la ligne de pied de page décrite ci-dessus.",
+    "Le branch fourni dans les métadonnées de la tâche (sante) concorde avec le contenu du document (« Assurance Complémentaire Santé »).",
+    "target_audience laissé null : le document n'emploie aucune des catégories du schéma. Il pose en revanche des conditions d'éligibilité précises (statut de fonctionnaire ou d'agent non titulaire des collectivités territoriales, ou retraité ; plus de 16 ans ; résidence en France ; affiliation à un régime obligatoire français d'assurance maladie), reproduites dans target_audience_note. Le choix entre « particuliers » (l'adhérent est une personne physique) et « secteur_public » (le critère d'éligibilité est l'emploi public territorial) ne peut pas être tranché sur la foi du document seul.",
+    "Défaut du calque texte n°1 — MOTS COUPÉS PAR DES BLANCS PARASITES. Le calque texte insère un blanc à l'intérieur de plusieurs mots, là où la page imprimée les affiche normalement : « R éseau de soins » pour Réseau, « F onds de secours » pour Fonds, « Pr\\nêt pour une aide » pour Prêt, « Tier\\ns payant » pour Tiers payant, « As\\nsistance en cas de naissance » et « As\\nsistance dédiée aux aidants » pour Assistance, « Chambr\\ne particulière » pour Chambre, « Orthodontie\\n, implants dentaires » pour Orthodontie,. À l'inverse, le calque supprime des espaces réels : « dans un délaimaximumde 2 ans » pour « dans un délai maximum de 2 ans ». Les valeurs des champs structurés portent la lecture imprimée, relevée sur un rendu des deux pages à fitz.Matrix(5,5) ; aucune citation de key_quotes ne traverse un de ces mots coupés.",
+    "Défaut du calque texte n°2 — caractères de contrôle U+0003 : 73 occurrences réparties sur les deux pages, insérées en fin de segment et parfois à l'intérieur d'une phrase, où elles remplacent un espace ou une espace fine (« pharmacie non remboursée par<U+0003>la Sécurité sociale », « prothèses dentaires 100<U+0003>% Santé », « lentilles de contact<U+0003>prises en charge », « dans un département<U+0003>et région d'outre-mer »). Ce ne sont pas des espaces et aucun normaliseur ne les supprime. Les citations de key_quotes ont été découpées programmatiquement dans le calque texte, avec assertion : celles qui contiennent un U+0003 le portent verbatim (elles restent des sous-chaînes exactes du texte source), les autres en sont exemptes.",
+    "ORDRE DE LECTURE DÉSORDONNÉ EN PAGE 2 : le flux de contenu émet les rubriques dans l'ordre « Où suis-je couvert(e) ? », « Comment puis-je résilier le contrat ? », « Quelles sont mes obligations », « Quand et comment effectuer les paiements ? », « Quand commence la couverture et quand prend-elle fin ? », alors que l'ordre imprimé, relevé au rendu, est « Où suis-je couvert(e) ? », « Quelles sont mes obligations », « Quand et comment effectuer les paiements ? », « Quand commence la couverture et quand prend-elle fin ? », « Comment puis-je résilier le contrat ? ». L'affectation de chaque contenu à sa rubrique a donc été faite sur le rendu et non sur l'ordre du texte. Aucun contenu n'a changé de rubrique dans cette extraction.",
+    "Complétude vérifiée au rendu et non par comptage : ce document ne contient AUCUN caractère U+0007, la coche verte √ étant ici un vrai caractère (U+221A) présent dans le calque texte. Le rendu des deux colonnes de la page 1 et de la page 2 à fitz.Matrix(5,5) confirme que tous les items imprimés figurent dans le calque texte : 8 garanties systématiquement prévues, 6 garanties optionnelles, 3 prestations d'assistance, 4 services, 3 items « n'est pas assuré », 4 exclusions du contrat responsable et 7 restrictions. Aucun texte vectorisé, aucune perte de ligature fi/ff/fl.",
+    "Une couche de texte invisible (mode de rendu Tr 3) est présente : 51 segments en page 1 et 13 en page 2, tous composés uniquement d'espaces. Elle n'apporte ni ne masque aucun contenu.",
+    "Aucune section « Définitions » dans ce DIPA (format réglementaire à 2 pages) : definitions[] est vide. Le document renvoie explicitement à « la documentation précontractuelle et contractuelle » et précise que « les niveaux de remboursement seront détaillés dans le tableau de garanties », tableau qui n'est pas joint : aucun taux ni montant de remboursement n'est donc chiffrable ici, à l'exception de la prime de naissance (100 €/enfant) et du seuil de participation forfaitaire sur les actes techniques (120 €).",
+    "Le document ne nomme pas les formules de garanties, à l'exception d'« ÉQUILIBRÉE 2 » citée au titre des délais d'attente ; l'appartenance des garanties optionnelles à telle ou telle formule n'est donc pas extractible et is_optional se limite à distinguer les rubriques « systématiquement prévues » (false) des « garanties optionnelles (selon la formule souscrite) » (true).",
+    "Aucun délai de prescription n'est indiqué (prescription_period null). Le seul délai de forclusion énoncé est celui des demandes de remboursement (2 ans), enregistré dans obligations et claims_procedure.",
+    "Coquilles de l'assureur conservées telles quelles : le titre de rubrique « Quelles sont mes obligations » est imprimé sans point d'interrogation, et la phrase « sauf résiliation par l'une des parties dans les cas et conditions fixé au contrat » comporte un accord fautif.",
+    "Le document mentionne des « éventuels bénéficiaires » couverts en plus de l'assuré sans définir qui ils sont ni comment ils sont rattachés au contrat ; les obligations à la souscription évoquent « l'attestation de carte vitale de chaque assuré », ce qui suppose plusieurs assurés, mais aucune définition d'ayant droit n'est fournie."
+  ]
+}

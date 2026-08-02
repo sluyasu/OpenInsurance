@@ -5,11 +5,12 @@ country: fr
 insurer_slug: smacl
 name: SMACL Assurances
 website: https://www.smacl.fr
-products_count: 46
+products_count: 48
 branches_covered:
 - auto
 - autres
 - decennale
+- habitation
 - multirisque-professionnelle
 - prevoyance
 - protection-juridique
@@ -30,7 +31,7 @@ generated: true
 
 ## Résumé
 
-**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 46 document(s) across 8 branch(es).
+**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 48 document(s) across 9 branch(es).
 
 ## Produits par branche
 
@@ -53,6 +54,9 @@ generated: true
 ### [Assurance construction](../branches/Assurance%20construction.md)
 - [Tous risques chantier - IPID](../products/smacl/Tous%20risques%20chantier%20-%20IPID.md) - IPID / Fiche d'information (01/2024) · réf. CONSTRUCTION_DIPA_TRC_SA_01(06_2021)
 
+### [Multirisque habitation](../branches/Multirisque%20habitation.md)
+- [Assurance habitation](../products/smacl/Assurance%20habitation.md) - Conditions générales (11/2022) · réf. PP_CG_HABITATION_04(02_2023)
+
 ### [Multirisque professionnelle](../branches/Multirisque%20professionnelle.md)
 - [ALÉASSUR - Conventions spéciales Tous risques instruments de musique](../products/smacl/AL%C3%89ASSUR%20-%20Conventions%20sp%C3%A9ciales%20Tous%20risques%20instruments%20de%20musique.md) - Conditions générales (01/2024) · réf. ALEASSUR_CS_TRINSTRUMENT_01(02_2016)
 - [ALÉASSUR Tous risques objets](../products/smacl/AL%C3%89ASSUR%20Tous%20risques%20objets.md) - Conditions générales (01/2024) · réf. ALEASSUR_CS_TRO_02(02_2016)
@@ -61,6 +65,7 @@ generated: true
 - [Assistance Patrimoine des associations](../products/smacl/Assistance%20Patrimoine%20des%20associations.md) - Conditions générales (01/2024) · réf. CONVERGENCE_ADA_CA_PATRIMOINE_02(02_2023)
 - [Assurance Spéciale Accueil Enfants - IPID](../products/smacl/Assurance%20Sp%C3%A9ciale%20Accueil%20Enfants%20-%20IPID.md) - IPID / Fiche d'information (01/2024) · réf. CONVERGENCE_DIPA_ACCUEIL_ENFANTS_ACEPP
 - [Assurance bris de machine](../products/smacl/Assurance%20bris%20de%20machine.md) - Conditions générales (11/2022) · réf. ASA CS BDM - MOD 02_SA(01-1992)
+- [CONVERGENCE Dommages aux biens](../products/smacl/CONVERGENCE%20Dommages%20aux%20biens.md) - Conditions générales (01/2024) · réf. CONVERGENCE_CS_DAB_SA_08(02_2023)
 - [CONVERGENCE Tous risques instruments de musique](../products/smacl/CONVERGENCE%20Tous%20risques%20instruments%20de%20musique.md) - Conditions générales (01/2024) · réf. CONVERGENCE_CS_INSTRUMENTS_SA_01(06_2015)
 - [CONVERGENCE Tous risques objets](../products/smacl/CONVERGENCE%20Tous%20risques%20objets.md) - Conditions générales (01/2024) · réf. CONVERGENCE_CS_TRO_SA_04_(05_2016)
 - [Convergence dommages aux biens - IPID](../products/smacl/Convergence%20dommages%20aux%20biens%20-%20IPID.md) - IPID / Fiche d'information (01/2024) · réf. CONVERGENCE_DIPA_DAB_SA_04(09_2022)

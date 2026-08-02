@@ -115,6 +115,7 @@ La garantie de SMACL Assurances porte sur les frais de remplacement ou de répar
 
 - Édition courante de ce produit.
 - Extension / option du produit : **conditions générales Convergence et conventions spéciales Dommages aux biens Convergence**
+- [CONVERGENCE Dommages aux biens](CONVERGENCE%20Dommages%20aux%20biens.md) - Conditions générales, éd. 01/2024
 - [CONVERGENCE Tous risques instruments de musique](CONVERGENCE%20Tous%20risques%20instruments%20de%20musique.md) - Conditions générales, éd. 01/2024
 
 ## Source & fidélité

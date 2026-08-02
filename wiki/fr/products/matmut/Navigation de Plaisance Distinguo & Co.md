@@ -728,6 +728,10 @@ Conformément à l'article L.114-1 du Code des assurances, toutes actions dériv
 - Deux points de vocabulaire du document sont laissés tels quels bien qu'ils paraissent fautifs : « Protection Juridique relative aux bien assuré » dans le tableau des seuils de déclenchement (article 2-3, page 11), et la référence « article 14-4- » (page 22) avec un tiret surnuméraire. La coquille de l'assureur n'a pas été corrigée.
 - Provenance de edition_date: cette date ne vient pas du texte du document mais du manifeste, ou elle avait ete deduite lors de la decouverte. A verifier contre le document avant d'y appuyer une comparaison d'editions.
 
+## Documents liés
+
+- [Contrat « Navigation de plaisance - Distinguo & Co » - IPID](Contrat%20%C2%AB%20Navigation%20de%20plaisance%20-%20Distinguo%20%26%20Co%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information, éd. 05-25
+
 ## Source & fidélité
 
 - Source : [https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-ndep-distinguo-and-co.pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-ndep-distinguo-and-co.pdf) - téléchargé le 2026-07-30 - 66 pages

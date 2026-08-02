@@ -136,6 +136,7 @@ La garantie vol des instruments et des matériels de sonorisation laissés dans 
 
 - Édition courante de ce produit.
 - Extension / option du produit : **conditions générales Convergence et conventions spéciales Dommages aux biens Convergence**
+- [CONVERGENCE Dommages aux biens](CONVERGENCE%20Dommages%20aux%20biens.md) - Conditions générales, éd. 01/2024
 - [CONVERGENCE Tous risques objets](CONVERGENCE%20Tous%20risques%20objets.md) - Conditions générales, éd. 01/2024
 
 ## Source & fidélité

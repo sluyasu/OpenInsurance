@@ -1,0 +1,610 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "macif",
+  "insurer_name": "Macif",
+  "product_name": "Contrat Automobile – Voitures particulières, fourgons et fourgonnettes",
+  "branch": "auto",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "Le document distingue explicitement deux qualités de souscripteur sans en désigner une comme public cible : « Pour le souscripteur personne physique : assistance au véhicule […] » (garantie de base) et « Pour le souscripteur personne morale : l'assistance au véhicule […] » (garantie optionnelle). Il mentionne également « les personnes physiques ayant souscrit le contrat pour un risque autre que professionnel » au titre de la résiliation infra-annuelle. Le contrat s'adresse donc aussi bien à des particuliers qu'à des personnes morales et ne se réduit pas à une seule valeur de l'énumération.",
+  "reference": "VEH  VPFG - 06/22",
+  "edition_date": "2022-06",
+  "product_family": "Contrat Automobile",
+  "variant": "Voitures particulières, fourgons et fourgonnettes (VPFG)",
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_auto.pdf",
+  "source_pdf": "contrat-automobile-voitures-particulieres-fourgons-et-fourgonnettes-07daa59e.pdf",
+  "source_sha256": "2377825995c288a6c8c67d3f1b4ed16369ff83221bbb82b6351a8d98487eaecb",
+  "source_pages": 2,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d'information (DIPA/IPID) du Contrat Automobile de la Macif, souscrit auprès de « Macif - France - Société d'assurance mutuelle à cotisations variables - SIREN n° 781 452 511 », entreprise régie par le code des assurances, siège social 1 rue Jacques Vandier 79000 Niort. Le contrat couvre l'assurance obligatoire de responsabilité civile du fait du véhicule fourgon ou fourgonnette (dommages causés aux tiers) ainsi que, le cas échéant, les dommages subis par ce dernier, et offre des services d'assistance au véhicule et aux personnes transportées. Sont systématiquement prévues au contrat la responsabilité civile, la défense et le recours, l'assistance (pour le souscripteur personne physique) et l'assistance constat amiable ; dix garanties de dommages au véhicule et cinq garanties optionnelles complètent le dispositif. Le véhicule assuré est le fourgon ou la fourgonnette dont le poids total autorisé en charge est inférieur ou égal à 3,5 tonnes, ainsi que sa remorque de 750 kg au plus.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "La responsabilité civile",
+      "description": "La responsabilité civile pour les dommages causés aux tiers par le véhicule y compris à l'égard des passagers transportés. (Garantie de base, précédée d'une coche : systématiquement prévue au contrat.)",
+      "is_optional": false,
+      "territorial_scope": "En France métropolitaine, dans les pays de l'Union européenne, en Suisse, Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein, et dans les pays mentionnés et non rayés sur la carte verte",
+      "limits": "sans limitation de somme pour les dommages corporels et dans la limite de 100 millions d'euros pour les dommages matériels et immatériels consécutifs",
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise) ; franchise spécifique en cas de prêt de volant à un conducteur titulaire d'un permis de moins de deux ans et non désigné au contrat",
+      "conditions": [
+        "Assurance obligatoire de responsabilité civile du fait du véhicule"
+      ],
+      "page": 1
+    },
+    {
+      "name": "La protection des droits de l'assuré : la défense et le recours",
+      "description": "La protection des droits de l'assuré : la défense et le recours. (Garantie de base, précédée d'une coche : systématiquement prévue au contrat.)",
+      "is_optional": false,
+      "territorial_scope": "Voir l'étendue territoriale générale ; les garanties Défense et Recours ne sont toutefois pas acquises Albanie, Bosnie-Herzégovine, Biélorussie, Moldavie, Monténégro, République de la Macédoine du Nord, Russie, Serbie, Turquie et Ukraine",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Les recours judiciaires sont exercés pour les préjudices non indemnisés supérieurs à 762 euros",
+      "conditions": [
+        "Les recours judiciaires sont exercés pour les préjudices non indemnisés supérieurs à 762 euros"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance au véhicule et aux personnes transportées (souscripteur personne physique)",
+      "description": "Pour le souscripteur personne physique : assistance au véhicule sans franchise kilométrique en cas d'accident et au-delà de 50 km du domicile en cas de panne ainsi que l'assistance aux personnes transportées. (Garantie de base, précédée d'une coche : systématiquement prévue au contrat.)",
+      "is_optional": false,
+      "territorial_scope": "En France métropolitaine, dans les pays de l'Union européenne, en Suisse, Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein, et dans les pays mentionnés et non rayés sur la carte verte",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Franchise kilométrique de 50 km du domicile en cas de panne (supprimée par l'option « Panne 0 km ») ; aucune franchise kilométrique en cas d'accident",
+      "conditions": [
+        "Réservée au souscripteur personne physique ; pour le souscripteur personne morale la même prestation figure parmi les garanties optionnelles"
+      ],
+      "page": 1
+    },
+    {
+      "name": "L'assistance constat amiable",
+      "description": "L'assistance constat amiable. (Garantie de base, précédée d'une coche : systématiquement prévue au contrat.)",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Les dommages au véhicule en cas d'accident",
+      "description": "Les dommages au véhicule en cas d'accident. (Rubrique « LES GARANTIES DOMMAGES AU VÉHICULE ASSURÉ ».)",
+      "is_optional": null,
+      "territorial_scope": "En France métropolitaine, dans les pays de l'Union européenne, en Suisse, Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein, et dans les pays mentionnés et non rayés sur la carte verte",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise) ; franchise spécifique en cas de prêt de volant",
+      "conditions": [
+        "Garantie listée sous « LES GARANTIES DOMMAGES AU VÉHICULE ASSURÉ », sans coche : elle n'est donc pas systématiquement prévue au contrat"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Les actes de vandalisme",
+      "description": "Les actes de vandalisme. (Rubrique « LES GARANTIES DOMMAGES AU VÉHICULE ASSURÉ ».)",
+      "is_optional": null,
+      "territorial_scope": "En France métropolitaine, dans les pays de l'Union européenne, en Suisse, Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein, et dans les pays mentionnés et non rayés sur la carte verte",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise)",
+      "conditions": [
+        "Garantie listée sous « LES GARANTIES DOMMAGES AU VÉHICULE ASSURÉ », sans coche : elle n'est donc pas systématiquement prévue au contrat"
+      ],
+      "page": 1
+    },
+    {
+      "name": "L'incendie, l'explosion, les attentats et les actes de terrorisme",
+      "description": "L'incendie, l'explosion, les attentats et les actes de terrorisme. (Rubrique « LES GARANTIES DOMMAGES AU VÉHICULE ASSURÉ ».)",
+      "is_optional": null,
+      "territorial_scope": "En France métropolitaine, dans les pays de l'Union européenne, en Suisse, Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein, et dans les pays mentionnés et non rayés sur la carte verte",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise)",
+      "conditions": [
+        "Garantie listée sous « LES GARANTIES DOMMAGES AU VÉHICULE ASSURÉ », sans coche : elle n'est donc pas systématiquement prévue au contrat"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Le vol, la tentative de vol",
+      "description": "Le vol, la tentative de vol. (Rubrique « LES GARANTIES DOMMAGES AU VÉHICULE ASSURÉ ».)",
+      "is_optional": null,
+      "territorial_scope": "En France métropolitaine, dans les pays de l'Union européenne, en Suisse, Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein, et dans les pays mentionnés et non rayés sur la carte verte",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise)",
+      "conditions": [
+        "Garantie listée sous « LES GARANTIES DOMMAGES AU VÉHICULE ASSURÉ », sans coche : elle n'est donc pas systématiquement prévue au contrat",
+        "Pour les garanties vol et tentative de vol des mesures de sécurité doivent être mises en œuvre",
+        "En cas de vol, tentative de vol ou acte de vandalisme, déposer plainte auprès des autorités compétentes et fournir l'original du récépissé de ce dépôt de plainte",
+        "Déclaration dans les 2 jours ouvrés"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Le bris de glace",
+      "description": "Le bris de glace. (Rubrique « LES GARANTIES DOMMAGES AU VÉHICULE ASSURÉ ».)",
+      "is_optional": null,
+      "territorial_scope": "En France métropolitaine, dans les pays de l'Union européenne, en Suisse, Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein, et dans les pays mentionnés et non rayés sur la carte verte",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise)",
+      "conditions": [
+        "Garantie listée sous « LES GARANTIES DOMMAGES AU VÉHICULE ASSURÉ », sans coche : elle n'est donc pas systématiquement prévue au contrat"
+      ],
+      "page": 1
+    },
+    {
+      "name": "La tempête, la grêle",
+      "description": "La tempête, la grêle. (Rubrique « LES GARANTIES DOMMAGES AU VÉHICULE ASSURÉ ».)",
+      "is_optional": null,
+      "territorial_scope": "En France métropolitaine, dans les pays de l'Union européenne, en Suisse, Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein, et dans les pays mentionnés et non rayés sur la carte verte",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise)",
+      "conditions": [
+        "Garantie listée sous « LES GARANTIES DOMMAGES AU VÉHICULE ASSURÉ », sans coche : elle n'est donc pas systématiquement prévue au contrat"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Les événements climatiques",
+      "description": "Les événements climatiques. (Rubrique « LES GARANTIES DOMMAGES AU VÉHICULE ASSURÉ ».)",
+      "is_optional": null,
+      "territorial_scope": "En France métropolitaine, dans les pays de l'Union européenne, en Suisse, Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein, et dans les pays mentionnés et non rayés sur la carte verte",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise)",
+      "conditions": [
+        "Garantie listée sous « LES GARANTIES DOMMAGES AU VÉHICULE ASSURÉ », sans coche : elle n'est donc pas systématiquement prévue au contrat"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Les catastrophes naturelles et les catastrophes technologiques",
+      "description": "Les catastrophes naturelles et les catastrophes technologiques. (Rubrique « LES GARANTIES DOMMAGES AU VÉHICULE ASSURÉ ».)",
+      "is_optional": null,
+      "territorial_scope": "En France métropolitaine, dans les pays de l'Union européenne, en Suisse, Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein, et dans les pays mentionnés et non rayés sur la carte verte",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable",
+      "conditions": [
+        "Garantie listée sous « LES GARANTIES DOMMAGES AU VÉHICULE ASSURÉ », sans coche : elle n'est donc pas systématiquement prévue au contrat",
+        "Déclaration dans les 30 jours suivant la publication d'un arrêté de catastrophe naturelle"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Les frais de remorquage et frais annexes",
+      "description": "Les frais de remorquage et frais annexes. (Rubrique « LES GARANTIES DOMMAGES AU VÉHICULE ASSURÉ ».)",
+      "is_optional": null,
+      "territorial_scope": "En France métropolitaine, dans les pays de l'Union européenne, en Suisse, Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein, et dans les pays mentionnés et non rayés sur la carte verte",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie listée sous « LES GARANTIES DOMMAGES AU VÉHICULE ASSURÉ », sans coche : elle n'est donc pas systématiquement prévue au contrat"
+      ],
+      "page": 1
+    },
+    {
+      "name": "L'insolvabilité du tiers responsable",
+      "description": "L'insolvabilité du tiers responsable. (Rubrique « LES GARANTIES DOMMAGES AU VÉHICULE ASSURÉ ».)",
+      "is_optional": null,
+      "territorial_scope": "En France métropolitaine, dans les pays de l'Union européenne, en Suisse, Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein, et dans les pays mentionnés et non rayés sur la carte verte",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie listée sous « LES GARANTIES DOMMAGES AU VÉHICULE ASSURÉ », sans coche : elle n'est donc pas systématiquement prévue au contrat"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Valeur majorée en cas de perte totale du véhicule",
+      "description": "Valeur majorée en cas de perte totale du véhicule : indemnisation au prix d'acquisition du véhicule de moins de 36 mois puis au-delà l'indemnisation de la valeur à dire d'expert majorée. (Rubrique « LES GARANTIES OPTIONNELLES ».)",
+      "is_optional": true,
+      "territorial_scope": "En France métropolitaine, dans les pays de l'Union européenne, en Suisse, Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein, et dans les pays mentionnés et non rayés sur la carte verte",
+      "limits": "indemnisation au prix d'acquisition du véhicule de moins de 36 mois puis au-delà l'indemnisation de la valeur à dire d'expert majorée",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Accessoires et contenu privé du véhicule",
+      "description": "Accessoires et contenu privé du véhicule. (Rubrique « LES GARANTIES OPTIONNELLES ».)",
+      "is_optional": true,
+      "territorial_scope": "En France métropolitaine, dans les pays de l'Union européenne, en Suisse, Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein, et dans les pays mentionnés et non rayés sur la carte verte",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Prêt d'un véhicule en cas de panne ou d'évènement accidentel",
+      "description": "Prêt d'un véhicule en cas de panne ou d'évènement accidentel. (Rubrique « LES GARANTIES OPTIONNELLES ».)",
+      "is_optional": true,
+      "territorial_scope": "Pour le prêt d'un véhicule : en France métropolitaine, Allemagne, Autriche, Belgique, Pays-Bas, Luxembourg, Royaume-Uni, Irlande, Espagne, Portugal, Italie, Suisse, Danemark, Chypre, Malte, Bulgarie, Roumanie, République Tchèque, Slovaquie, Slovénie, Hongrie, Grèce, Pologne, Lettonie, Lituanie, Estonie, Suède, Finlande",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Panne 0 km",
+      "description": "Panne 0 km : assistance en cas de panne sans franchise kilométrique. (Rubrique « LES GARANTIES OPTIONNELLES ».)",
+      "is_optional": true,
+      "territorial_scope": "En France métropolitaine, dans les pays de l'Union européenne, en Suisse, Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein, et dans les pays mentionnés et non rayés sur la carte verte",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Supprime la franchise kilométrique de 50 km applicable en cas de panne",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Assistance au véhicule et aux personnes transportées (souscripteur personne morale)",
+      "description": "Pour le souscripteur personne morale : l'assistance au véhicule sans franchise kilométrique en cas d'accident et au-delà de 50 km du domicile en cas de panne ainsi que l'assistance aux personnes transportées. (Rubrique « LES GARANTIES OPTIONNELLES ».)",
+      "is_optional": true,
+      "territorial_scope": "En France métropolitaine, dans les pays de l'Union européenne, en Suisse, Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein, et dans les pays mentionnés et non rayés sur la carte verte",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Franchise kilométrique de 50 km du domicile en cas de panne ; aucune franchise kilométrique en cas d'accident",
+      "conditions": [
+        "Réservée au souscripteur personne morale"
+      ],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Véhicules frappés d'une interdiction de rouler ou ayant subi un retrait d'immatriculation",
+      "description": "Les véhicules frappés d'une interdiction de rouler ou ayant subi un retrait d'immatriculation. (Rubrique « Qu'est-ce qui n'est pas assuré ? »)",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Les voitures et les voiturettes",
+      "description": "Les voitures et les voiturettes. (Rubrique « Qu'est-ce qui n'est pas assuré ? ». À rapprocher du nom de produit imprimé en tête du document, « Contrat Automobile – Voitures particulières, fourgons et fourgonnettes », qui mentionne pourtant les voitures particulières : les deux mentions sont contradictoires et sont reproduites telles quelles.)",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dommages causés intentionnellement ou par faute dolosive",
+      "description": "Les dommages causés intentionnellement par l'assuré ou résultant de sa faute dolosive. (Exclusion commune à l'ensemble des garanties)",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Épreuves, courses, compétitions ou leurs essais",
+      "description": "Les dommages survenus au cours d'épreuves, courses, compétitions (ou leurs essais) soumises à autorisation préalable des pouvoirs publics. (Exclusion commune à l'ensemble des garanties)",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Transport de matières inflammables, explosives, corrosives ou comburantes",
+      "description": "Les dommages causés ou subis lorsque le véhicule transporte des matières inflammables, explosives, corrosives ou comburantes. (Exclusion commune à l'ensemble des garanties)",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Guerre étrangère ou civile, émeutes ou mouvements populaires",
+      "description": "Les dommages occasionnés par la guerre étrangère ou civile, par des émeutes ou mouvements populaires (sauf application de la garantie Attentats et actes de terrorisme). (Exclusion commune à l'ensemble des garanties)",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Conducteur en état d'ivresse ou sous l'empire de stupéfiants",
+      "description": "Les dommages subis par le véhicule lorsque le conducteur est en état d'ivresse ou sous l'empire de stupéfiants. (Exclusion spécifique à certaines garanties)",
+      "applies_to": "Les garanties dommages au véhicule assuré",
+      "page": 1
+    },
+    {
+      "name": "Défaut d'âge requis ou de permis de conduire valide",
+      "description": "Les dommages causés ou subis par le véhicule dès lors que le conducteur n'a pas l'âge requis ou n'est pas titulaire des certificats en état de validité exigés par la règlementation en vigueur pour la conduite du véhicule. (Exclusion spécifique à certaines garanties)",
+      "applies_to": "Les garanties dommages au véhicule assuré et la responsabilité civile",
+      "page": 1
+    },
+    {
+      "name": "Exclusion territoriale des garanties Défense et Recours",
+      "description": "Les garanties Défense et Recours ne sont toutefois pas acquises Albanie, Bosnie-Herzégovine, Biélorussie, Moldavie, Monténégro, République de la Macédoine du Nord, Russie, Serbie, Turquie et Ukraine.",
+      "applies_to": "La protection des droits de l'assuré : la défense et le recours",
+      "page": 2
+    }
+  ],
+  "deductibles": {
+    "standard": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). Le document ne chiffre aucun montant de franchise.",
+    "variable": "Une franchise spécifique est appliquée en cas de prêt de volant à un conducteur titulaire d'un permis de moins de deux ans et non désigné au contrat.",
+    "per_coverage": {
+      "Catastrophes naturelles": "Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable (montant non chiffré dans le document)",
+      "Assistance au véhicule": "Franchise kilométrique : assistance sans franchise kilométrique en cas d'accident, au-delà de 50 km du domicile en cas de panne (supprimée par l'option « Panne 0 km »)",
+      "Défense et recours": "Les recours judiciaires sont exercés pour les préjudices non indemnisés supérieurs à 762 euros"
+    },
+    "page": 1
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Répondre exactement aux questions posées",
+      "description": "À la souscription du contrat : répondre exactement aux questions posées par l'assureur.",
+      "timing": "À la souscription du contrat",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Fournir les documents justificatifs",
+      "description": "À la souscription du contrat : fournir tous documents justificatifs demandés.",
+      "timing": "À la souscription du contrat",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Déclarer les circonstances nouvelles en cours de contrat",
+      "description": "En cours de contrat : déclarer dans les 15 jours, à partir du moment où l'assuré en a connaissance, toutes les circonstances nouvelles et tous les changements qui modifient les renseignements fournis lors de la souscription et qui sont de nature à aggraver le risque assuré ou à en créer un nouveau.",
+      "timing": "En cours de contrat, dans les 15 jours de la connaissance",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Déclarer le sinistre dans les délais",
+      "description": "En cas de sinistre : déclarer le sinistre à l'assureur à partir du moment où l'assuré en a connaissance et au plus tard dans les 5 jours ouvrés, dans les 2 jours ouvrés pour un vol, dans les 30 jours suivant la publication d'un arrêté de catastrophe naturelle.",
+      "timing": "En cas de sinistre : 5 jours ouvrés ; 2 jours ouvrés pour un vol ; 30 jours après l'arrêté de catastrophe naturelle",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Détailler les circonstances du sinistre",
+      "description": "En cas de sinistre : indiquer les date, heure et lieu du sinistre, les causes et circonstances ainsi que ses conséquences et les coordonnées des personnes lésées, des témoins et du ou des responsables éventuels.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Transmettre les coordonnées des autres assureurs",
+      "description": "En cas de sinistre : transmettre les coordonnées des éventuels assureurs couvrant le même risque.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Déposer plainte en cas de vol ou de vandalisme",
+      "description": "En cas de vol, tentative de vol ou acte de vandalisme, déposer plainte auprès des autorités compétentes et fournir l'original du récépissé de ce dépôt de plainte.",
+      "timing": "En cas de vol, tentative de vol ou acte de vandalisme",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Mettre en œuvre les mesures de sécurité (vol)",
+      "description": "Pour les garanties vol et tentative de vol des mesures de sécurité doivent être mises en œuvre.",
+      "timing": "En permanence",
+      "sanction": null,
+      "page": 1
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclarer le sinistre",
+      "description": "Déclarer le sinistre à l'assureur à partir du moment où l'assuré en a connaissance.",
+      "deadline": "au plus tard dans les 5 jours ouvrés ; dans les 2 jours ouvrés pour un vol ; dans les 30 jours suivant la publication d'un arrêté de catastrophe naturelle",
+      "page": 2
+    },
+    {
+      "step": "Décrire le sinistre",
+      "description": "Indiquer les date, heure et lieu du sinistre, les causes et circonstances ainsi que ses conséquences et les coordonnées des personnes lésées, des témoins et du ou des responsables éventuels.",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Signaler les autres assurances",
+      "description": "Transmettre les coordonnées des éventuels assureurs couvrant le même risque.",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Déposer plainte",
+      "description": "En cas de vol, tentative de vol ou acte de vandalisme, déposer plainte auprès des autorités compétentes et fournir l'original du récépissé de ce dépôt de plainte.",
+      "deadline": null,
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "La couverture commence à partir de la date convenue d'un commun accord et dure jusqu'à la date d'échéance principale.",
+    "tacit_renewal": true,
+    "notice_period": "un mois (résiliation à l'échéance principale)",
+    "methods": [
+      "par l'envoi d'un courrier postal",
+      "par l'envoi d'un courrier électronique",
+      "en effectuant une déclaration en agence",
+      "par téléphone auprès d'un conseiller de l'assureur"
+    ],
+    "special_rights": [
+      "à l'échéance principale, avec un préavis d'un mois",
+      "si la situation personnelle ou professionnelle de l'assuré change et que cela a une incidence sur le risque assuré",
+      "en cas de cession du véhicule assuré",
+      "si la Macif résilie un autre contrat de l'assuré après sinistre",
+      "en cas d'augmentation de la cotisation hors taxes (sauf application du malus) ou des franchises",
+      "à tout moment au-delà d'un délai d'un an à compter de la première souscription, pour les personnes physiques ayant souscrit le contrat pour un risque autre que professionnel",
+      "Lorsque le contrat a été souscrit par une personne physique à la suite d'un démarchage à domicile, l'assuré dispose d'un droit de renonciation"
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "La cotisation est payable d'avance à la souscription puis à chaque date d'échéance.",
+      "Elle est exigible annuellement, toutefois un paiement fractionné peut être accordé. Le fractionnement du paiement entraîne des frais.",
+      "Le défaut de paiement dans les 10 jours à compter de la date d'échéance pourra entraîner, après une mise en demeure, la suspension des garanties puis la résiliation du contrat.",
+      "Les paiements peuvent être effectués par prélèvement automatique, carte bancaire, chèque, TIP SEPA ou mandat, selon que l'assuré a choisi un paiement fractionné ou non.",
+      "Le document mentionne l'existence d'un malus (« en cas d'augmentation de la cotisation hors taxes (sauf application du malus) ») sans en décrire le mécanisme."
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Le véhicule assuré",
+      "description": "Le fourgon ou la fourgonnette dont le poids total autorisé en charge est inférieur ou égal à 3,5 tonnes ; sa remorque dont la masse en charge maximale techniquement admissible n'excède pas 750 kg. Ces deux mentions sont précédées d'une coche.",
+      "page": 1
+    },
+    {
+      "name": "Restriction : franchise",
+      "description": "En cas de sinistre une somme peut rester à la charge de l'assuré (franchise). (LES PRINCIPALES RESTRICTIONS)",
+      "page": 1
+    },
+    {
+      "name": "Restriction : franchise prêt de volant",
+      "description": "Une franchise spécifique est appliquée en cas de prêt de volant à un conducteur titulaire d'un permis de moins de deux ans et non désigné au contrat. (LES PRINCIPALES RESTRICTIONS)",
+      "page": 1
+    },
+    {
+      "name": "Restriction : franchise légale catastrophes naturelles",
+      "description": "Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable. (LES PRINCIPALES RESTRICTIONS)",
+      "page": 1
+    },
+    {
+      "name": "Restriction : mesures de sécurité pour le vol",
+      "description": "Pour les garanties vol et tentative de vol des mesures de sécurité doivent être mises en œuvre. (LES PRINCIPALES RESTRICTIONS)",
+      "page": 1
+    },
+    {
+      "name": "Restriction : seuil de recours judiciaire",
+      "description": "Les recours judiciaires sont exercés pour les préjudices non indemnisés supérieurs à 762 euros. (LES PRINCIPALES RESTRICTIONS)",
+      "page": 1
+    },
+    {
+      "name": "Lecture des coches",
+      "description": "Les garanties précédées d'une coche sont systématiquement prévues au contrat. Seules les deux lignes du « VÉHICULE ASSURÉ » et les quatre « GARANTIES DE BASE » portent une coche ; les dix « GARANTIES DOMMAGES AU VÉHICULE ASSURÉ » et les cinq « GARANTIES OPTIONNELLES » sont précédées d'un simple tiret.",
+      "page": 1
+    },
+    {
+      "name": "Plafonds partiellement indiqués",
+      "description": "Les présentes garanties peuvent être soumises à des plafonds. Seuls certains d'entre eux sont mentionnés ci-dessous.",
+      "page": 1
+    },
+    {
+      "name": "Porteur du risque",
+      "description": "Compagnie : Macif - France - Société d'assurance mutuelle à cotisations variables - SIREN n° 781 452 511. Entreprise régie par le code des assurances. Siège social : 1 rue Jacques Vandier 79000 Niort.",
+      "page": 1
+    },
+    {
+      "name": "Étendue territoriale du prêt de véhicule",
+      "description": "Pour le prêt d'un véhicule : en France métropolitaine, Allemagne, Autriche, Belgique, Pays-Bas, Luxembourg, Royaume-Uni, Irlande, Espagne, Portugal, Italie, Suisse, Danemark, Chypre, Malte, Bulgarie, Roumanie, République Tchèque, Slovaquie, Slovénie, Hongrie, Grèce, Pologne, Lettonie, Lituanie, Estonie, Suède, Finlande.",
+      "page": 2
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Compagnie : Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511",
+      "context": "Porteur du risque",
+      "page": 1
+    },
+    {
+      "quote": "Ce contrat couvre l’assurance obligatoire de responsabilité civile du fait du véhicule fourgon ou fourgonnette (dommages causés aux tiers) ainsi que, le cas échéant, \nles dommages subis par ce dernier. Le contrat offre également des services d’assistance au véhicule et aux personnes transportées.",
+      "context": "Objet du contrat",
+      "page": 1
+    },
+    {
+      "quote": "VEH  VPFG - 06/22 - Macif. Entreprise régie par le code des assurances. Siège social : 1 rue Jacques Vandier 79000 Niort.",
+      "context": "Code de référence et siège social",
+      "page": 1
+    },
+    {
+      "quote": "La responsabilité civile pour les dommages causés aux tiers par \nle véhicule y compris à l’égard des passagers transportés (sans \nlimitation de somme pour les dommages corporels et dans la limite \nde 100 millions d’euros pour les dommages matériels et immatériels \nconsécutifs)",
+      "context": "Plafonds de la responsabilité civile",
+      "page": 1
+    },
+    {
+      "quote": "La protection des droits de l’assuré : la défense et le recours",
+      "context": "Défense et recours",
+      "page": 1
+    },
+    {
+      "quote": "Les voitures et les voiturettes",
+      "context": "Non assuré",
+      "page": 1
+    },
+    {
+      "quote": "Les véhicules frappés d’une interdiction de rouler ou ayant subi un \nretrait d’immatriculation",
+      "context": "Non assuré",
+      "page": 1
+    },
+    {
+      "quote": "Les dommages causés intentionnellement par l’assuré ou résultant de \nsa faute dolosive",
+      "context": "Exclusion commune",
+      "page": 1
+    },
+    {
+      "quote": "Les dommages subis par le véhicule lorsque le conducteur est en état \nd’ivresse ou sous l’empire de stupéfiants",
+      "context": "Exclusion spécifique",
+      "page": 1
+    },
+    {
+      "quote": "Une franchise spécifique est appliquée en cas de prêt de volant à un \nconducteur titulaire d’un permis de moins de deux ans et non désigné \nau contrat",
+      "context": "Restriction : prêt de volant",
+      "page": 1
+    },
+    {
+      "quote": "Les indemnisations au titre des catastrophes naturelles supportent une \nfranchise légale et inassurable",
+      "context": "Restriction : franchise catastrophes naturelles",
+      "page": 1
+    },
+    {
+      "quote": "Les recours judiciaires sont exercés pour les préjudices non indemnisés \nsupérieurs à 762 euros",
+      "context": "Restriction : seuil de recours judiciaire",
+      "page": 1
+    },
+    {
+      "quote": "Les garanties précédées d’une coche  sont systématiquement \nprévues au contrat.",
+      "context": "Lecture des coches",
+      "page": 1
+    },
+    {
+      "quote": "En France métropolitaine, dans les pays de l’Union européenne, en Suisse, Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein, et dans les pays \nmentionnés et non rayés sur la carte verte",
+      "context": "Étendue territoriale",
+      "page": 2
+    },
+    {
+      "quote": "La cotisation est payable d’avance à la souscription puis à chaque date d’échéance. Elle est exigible annuellement, toutefois un paiement fractionné \npeut être accordé. Le fractionnement du paiement entraîne des frais. Le défaut de paiement dans les 10 jours à compter de la date d’échéance pourra \nentraîner, après une mise en demeure, la suspension des garanties puis la résiliation du contrat.",
+      "context": "Paiement de la cotisation",
+      "page": 2
+    },
+    {
+      "quote": "La couverture commence à partir de la date convenue d’un commun accord et dure jusqu’à la date d’échéance principale. À cette date, le contrat est \nrenouvelé automatiquement par période annuelle, sauf si l’une des parties décide d’y mettre fin dans les délais et conditions prévus au contrat. Lorsque \nle contrat a été souscrit par une personne physique à la suite d’un démarchage à domicile, l’assuré dispose d’un droit de renonciation.",
+      "context": "Durée et reconduction",
+      "page": 2
+    },
+    {
+      "quote": "déclarer le sinistre à l’assureur à partir du moment où l’assuré en a connaissance et au plus tard dans les 5 jours ouvrés, dans les 2 jours ouvrés pour  \nun vol, dans les 30 jours suivant la publication d’un arrêté de catastrophe naturelle",
+      "context": "Délais de déclaration",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "CONTRADICTION INTERNE, les deux lectures étant reproduites telles quelles : le nom de produit imprimé en tête du document est « Produit : Contrat Automobile – Voitures particulières, fourgons et fourgonnettes », mais la rubrique « De quel type d'assurance s'agit-il ? » ne décrit que « l'assurance obligatoire de responsabilité civile du fait du véhicule fourgon ou fourgonnette », la rubrique « LE VÉHICULE ASSURÉ » ne vise que « Le fourgon ou la fourgonnette dont le poids total autorisé en charge est inférieur ou égal à 3,5 tonnes » et sa remorque, et la rubrique « Qu'est-ce qui n'est pas assuré ? » exclut explicitement « Les voitures et les voiturettes ». Le nom commercial retenu dans product_name est celui imprimé sur le document ; le périmètre réel décrit par le corps du document est celui des fourgons et fourgonnettes.",
+    "Porteur du risque : le document nomme explicitement « Macif - France - Société d'assurance mutuelle à cotisations variables - SIREN n° 781 452 511 », entreprise régie par le code des assurances, siège 1 rue Jacques Vandier 79000 Niort. Aucun autre porteur n'est cité.",
+    "Protection juridique : la garantie « La protection des droits de l'assuré : la défense et le recours » est portée sous le seul nom de la Macif ; le document ne désigne aucun assureur de protection juridique distinct. Le porteur de cette garantie est donc indéterminé dans ce document et n'a pas été attribué à un tiers.",
+    "edition_date : le document ne porte ni mention « édition » ni date d'entrée en vigueur. La valeur 2022-06 provient du code de référence imprimé en pied de la page 1 : « VEH  VPFG - 06/22 - Macif » (deux espaces entre VEH et VPFG dans le calque texte). Le nom de fichier source (DIPA_auto.pdf) ne porte aucune date et le manifeste de la pipeline indique edition_date null : la date retenue vient donc du document lui-même.",
+    "Le branch fourni dans les métadonnées de la tâche (auto) concorde avec le contenu du document, sous la réserve exprimée ci-dessus sur le périmètre fourgons/fourgonnettes.",
+    "target_audience laissé null : le document ne désigne pas un public unique. Il distingue le « souscripteur personne physique » (assistance en garantie de base) du « souscripteur personne morale » (même assistance, mais en garantie optionnelle) et mentionne « les personnes physiques ayant souscrit le contrat pour un risque autre que professionnel ». Le libellé du document est conservé dans target_audience_note.",
+    "is_optional : trois régimes coexistent dans le document et le schéma n'offre qu'un booléen. false a été retenu pour les quatre « GARANTIES DE BASE » précédées d'une coche (« Les garanties précédées d'une coche sont systématiquement prévues au contrat ») ; true pour les cinq « GARANTIES OPTIONNELLES » ; null pour les dix « GARANTIES DOMMAGES AU VÉHICULE ASSURÉ », qui ne portent pas de coche mais ne sont pas non plus rangées par le document parmi les garanties optionnelles — les qualifier d'optionnelles serait une inférence. Le régime exact de chaque garantie est rappelé dans son champ conditions.",
+    "Aucune section « Définitions » dans ce DIPA (format réglementaire à 2 pages) : definitions[] est vide. Le document renvoie à « la documentation pré contractuelle et contractuelle » pour l'information complète et prévient que « Les présentes garanties peuvent être soumises à des plafonds. Seuls certains d'entre eux sont mentionnés ci-dessous ».",
+    "Aucun montant de franchise n'est chiffré : le document signale l'existence d'une franchise, d'une franchise spécifique en cas de prêt de volant et d'une franchise légale et inassurable en catastrophes naturelles, sans en donner les montants. Les seuls chiffres du document sont : 3,5 tonnes (PTAC du fourgon), 750 kg (remorque), 100 millions d'euros (plafond RC matériel), 50 km (franchise kilométrique d'assistance), 36 mois (valeur majorée), 762 euros (seuil de recours judiciaire), 15 jours / 5 jours ouvrés / 2 jours ouvrés / 30 jours / 10 jours / un mois / un an (délais).",
+    "Aucun délai de prescription n'est indiqué (prescription_period null) et aucun délai de carence n'est mentionné (waiting_periods vide).",
+    "Défaut du calque texte : la coche verte et la puce de chaque item sont rendues par un caractère de contrôle U+0007 (BEL) — 20 occurrences en page 1, 7 en page 2. Ce marqueur n'est PAS un compteur fiable d'items sur ce document : sur les 21 items imprimés de la colonne « Qu'est-ce qui est assuré ? » seuls 8 portent un BEL (les 10 « garanties dommages » n'en portent aucun, et seuls 2 des 5 items de la rubrique « garanties optionnelles » en portent un) ; la rubrique « Qu'est-ce qui n'est pas assuré ? » compte 2 items imprimés pour 1 seul BEL. La complétude a donc été vérifiée sur un rendu des deux colonnes de la page 1 à fitz.Matrix(5,5) plutôt que par comptage : tous les items imprimés (2 lignes véhicule, 4 garanties de base, 10 garanties dommages, 5 garanties optionnelles, 2 items « n'est pas assuré », 4 exclusions communes, 2 exclusions spécifiques, 5 restrictions) sont présents dans le calque texte. Aucune citation de key_quotes ne traverse un U+0007.",
+    "Aucun texte vectorisé et aucune perte de ligature fi/ff/fl sur ce document ; aucune coupure de mot par trait d'union en fin de ligne.",
+    "Le siège social est imprimé « 1 rue Jacques Vandier 79000 Niort » sur ce document ; la coquille éventuelle de l'assureur n'a pas été corrigée. Le document imprime également « Les événements climatiques » et « La tempête, la grêle » comme deux garanties distinctes, ce qui a été conservé sans fusion."
+  ]
+}

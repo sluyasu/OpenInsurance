@@ -5,7 +5,7 @@ country: fr
 insurer_slug: matmut
 name: Matmut
 website: https://www.matmut.fr
-products_count: 129
+products_count: 133
 branches_covered:
 - animaux
 - assurance-vie
@@ -39,7 +39,7 @@ generated: true
 
 ## Résumé
 
-**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 129 document(s) across 17 branch(es).
+**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 133 document(s) across 17 branch(es).
 
 ## Produits par branche
 
@@ -72,6 +72,7 @@ generated: true
 - [Avantage Hiver Matmut & Co - Tarifs](../products/matmut/Avantage%20Hiver%20Matmut%20%26%20Co%20-%20Tarifs.md) - Conditions tarifaires (2026-01) · réf. AVANTAGE.H.DISTINGUO & CO – 01/26
 - [Avantage Usage Sérénité - Tarifs](../products/matmut/Avantage%20Usage%20S%C3%A9r%C3%A9nit%C3%A9%20-%20Tarifs%20%282%29.md) - Conditions tarifaires (01/26) · réf. USAGE.S - 01/26
 - [Avantage Éco Malin Matmut - Tarifs](../products/matmut/Avantage%20%C3%89co%20Malin%20Matmut%20-%20Tarifs.md) - Conditions tarifaires (2026-01) · réf. AVANTAGE.ECOMALIN.WEB - 01/26
+- [Bonus Booster Matmut - Tarifs](../products/matmut/Bonus%20Booster%20Matmut%20-%20Tarifs.md) - Conditions tarifaires (01/26) · réf. BONUS.B.AUTO 4D – 01/26
 - [Bonus Booster Matmut & Co - Tarifs](../products/matmut/Bonus%20Booster%20Matmut%20%26%20Co%20-%20Tarifs.md) - Conditions tarifaires (01/26) · réf. BONUS.B.DISTINGUO & CO – 01/26
 - [Bonus Booster Nouveau Contrat Matmut & Co - Tarifs](../products/matmut/Bonus%20Booster%20Nouveau%20Contrat%20Matmut%20%26%20Co%20-%20Tarifs%20%282%29.md) - Conditions tarifaires (01-26) · réf. BONUS.B.NC.PV-DISTINGUO&CO - 01-26
 - [Bonus Booster Nouveau Contrat Matmut & Co - Tarifs](../products/matmut/Bonus%20Booster%20Nouveau%20Contrat%20Matmut%20%26%20Co%20-%20Tarifs.md) - Conditions tarifaires (01-26) · réf. BONUS.B.NC.PRO-DISTINGUO&CO 01-26
@@ -103,6 +104,7 @@ generated: true
 ### [Garantie des accidents de la vie](../branches/Garantie%20des%20accidents%20de%20la%20vie.md)
 - [Conditions de l'offre Contrat Familial Complémentaire - Tarifs](../products/matmut/Conditions%20de%20l%27offre%20Contrat%20Familial%20Compl%C3%A9mentaire%20-%20Tarifs.md) - Conditions tarifaires (01/26) · réf. COND.OFFRE.FC– 01/26
 - [Conditions de l'offre — Remise à la souscription — Contrats Multirisques Accidents de la Vie et Multirisques Accidents d](../products/matmut/Conditions%20de%20l%27offre%20%E2%80%94%20Remise%20%C3%A0%20la%20souscription%20%E2%80%94%20Contrats%20Multirisques%20Accidents%20de%20la%20Vie%20et%20Multirisques%20Accidents%20d.md) - Conditions tarifaires (01/26) · réf. COND.OFFRE.MAV/MAV S. - 01/26
+- [Contrat « Multirisques Accidents de la Vie Sérénité » - IPID](../products/matmut/Contrat%20%C2%AB%20Multirisques%20Accidents%20de%20la%20Vie%20S%C3%A9r%C3%A9nit%C3%A9%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (01/26) · réf. IPID.MAV.SERENITE - 01/26
 - [Contrat « Multirisques Accidents de la Vie » - IPID](../products/matmut/Contrat%20%C2%AB%20Multirisques%20Accidents%20de%20la%20Vie%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (01/26) · réf. IPID.MAV
 - [Multirisques Accidents de la Vie](../products/matmut/Multirisques%20Accidents%20de%20la%20Vie.md) - Conditions générales · réf. CG MAV - 01/26
 
@@ -143,6 +145,7 @@ generated: true
 - [Risques Immobiliers](../products/matmut/Risques%20Immobiliers.md) - Conditions générales (10/25) · réf. CG.IME.IMMO – 10/25
 
 ### [Navigation de plaisance](../branches/Navigation%20de%20plaisance.md)
+- [Contrat « Navigation de plaisance - Distinguo & Co » - IPID](../products/matmut/Contrat%20%C2%AB%20Navigation%20de%20plaisance%20-%20Distinguo%20%26%20Co%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (05-25) · réf. IPID.NDEP DISTINGUO & CO – 05-25
 - [Navigation de Plaisance Distinguo & Co](../products/matmut/Navigation%20de%20Plaisance%20Distinguo%20%26%20Co.md) - Conditions générales (2025-05) · réf. CG NDEP DISTINGUO & CO - 05/25
 - [Navigation de Plaisance Matmut](../products/matmut/Navigation%20de%20Plaisance%20Matmut.md) - Conditions générales (06/24) · réf. CG NDEP
 
@@ -193,6 +196,7 @@ generated: true
 - [Régime frais de santé — CCN Organismes de formation - Fiche](../products/matmut/R%C3%A9gime%20frais%20de%20sant%C3%A9%20%E2%80%94%20CCN%20Organismes%20de%20formation%20-%20Fiche.md) - Fiche produit (0925 (tableaux « Vos garanties 2026 »)) · réf. CCN ODF-0925
 - [Régime frais de santé — CCN des Établissements et services pour personnes inadaptées et handicapées du 15 mars 1966 et A](../products/matmut/R%C3%A9gime%20frais%20de%20sant%C3%A9%20%E2%80%94%20CCN%20des%20%C3%89tablissements%20et%20services%20pour%20personnes%20inadapt%C3%A9es%20et%20handicap%C3%A9es%20du%2015%20mars%201966%20et%20A.md) - Fiche produit (0326 (tableaux « Vos garanties 2026 »)) · réf. CCN 66-0326
 - [Régime frais de santé — CCN Établissements d'enseignement privés - Fiche](../products/matmut/R%C3%A9gime%20frais%20de%20sant%C3%A9%20%E2%80%94%20CCN%20%C3%89tablissements%20d%27enseignement%20priv%C3%A9s%20-%20Fiche.md) - Fiche produit (0925 (tableaux « Vos garanties 2026 »)) · réf. ENSEIGNEMENT PRIVE-0925
+- [Santé ELSIE - IPID](../products/matmut/Sant%C3%A9%20ELSIE%20-%20IPID.md) - IPID / Fiche d'information (09/24) · réf. MOM.IPID.MOM.CDT.ELSIE_A4-09/24
 - [Santé vous bien ! - Fiche](../products/matmut/Sant%C3%A9%20vous%20bien%20%21%20-%20Fiche%20%282%29.md) - Fiche produit (2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)) · réf. 20260101_20261231_IND2022
 - [Santé vous bien ! - Fiche](../products/matmut/Sant%C3%A9%20vous%20bien%20%21%20-%20Fiche%20%284%29.md) - Fiche produit (2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)) · réf. 20260101_20261231_IND2022
 - [Santé vous bien ! - Fiche](../products/matmut/Sant%C3%A9%20vous%20bien%20%21%20-%20Fiche%20%283%29.md) - Fiche produit (2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)) · réf. 20260101_20261231_IND2022
