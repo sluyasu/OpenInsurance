@@ -5,7 +5,7 @@ country: fr
 insurer_slug: macif
 name: Macif
 website: https://www.macif.fr
-products_count: 56
+products_count: 57
 branches_covered:
 - animaux
 - assurance-vie
@@ -40,7 +40,7 @@ generated: true
 
 ## Résumé
 
-**Macif** - [https://www.macif.fr](https://www.macif.fr). 56 document(s) across 18 branch(es).
+**Macif** - [https://www.macif.fr](https://www.macif.fr). 57 document(s) across 18 branch(es).
 
 ## Produits par branche
 
@@ -59,6 +59,7 @@ generated: true
 - [Contrat Camping-car Autocaravane - IPID](../products/macif/Contrat%20Camping-car%20Autocaravane%20-%20IPID.md) - IPID / Fiche d'information (2018-10) · réf. LOIS CCAR 10/18
 - [Contrat Camping-car, Autocaravane](../products/macif/Contrat%20Camping-car%2C%20Autocaravane.md) - Conditions générales (2019-01) · réf. LOIS / CARACC / 05 - 01 / 19 - N 891
 - [Contrat Macif Pann'Auto - IPID](../products/macif/Contrat%20Macif%20Pann%27Auto%20-%20IPID.md) - IPID / Fiche d'information (12/22) · réf. VEH/GPM/05 12/22
+- [Contrat d'assurance automobile — Voitures particulières, fourgons et fourgonnettes](../products/macif/Contrat%20d%27assurance%20automobile%20%E2%80%94%20Voitures%20particuli%C3%A8res%2C%20fourgons%20et%20fourgonnettes.md) - Conditions générales (janvier 2018) · réf. VEH/AUTO/19-01/18-N828
 - [Macif Auto](../products/macif/Macif%20Auto.md) - Conditions générales (2026-01) · réf. VEH/AUTO PART/05 - 01/26 - N338
 - [Réduction spéciale Bon conducteur Macif - Tarifs](../products/macif/R%C3%A9duction%20sp%C3%A9ciale%20Bon%20conducteur%20Macif%20-%20Tarifs.md) - Conditions tarifaires (2024-12)
 

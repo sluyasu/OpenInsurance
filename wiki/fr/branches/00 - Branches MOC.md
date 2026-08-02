@@ -16,7 +16,7 @@ generated: true
 
 Liste générée des produits par branche. Les fiches conceptuelles de branche sont rédigées à la main dans ce dossier.
 
-### [Assurance auto](Assurance%20auto.md) (82)
+### [Assurance auto](Assurance%20auto.md) (83)
 - [Assurance Auto et Auto connectée Direct Assurance - IPID](../products/direct-assurance/Assurance%20Auto%20et%20Auto%20connect%C3%A9e%20Direct%20Assurance%20-%20IPID.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [Contrat Auto](../products/direct-assurance/Contrat%20Auto.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [YouDrive - CP](../products/direct-assurance/YouDrive%20-%20CP.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
@@ -38,6 +38,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Contrat Camping-car Autocaravane - IPID](../products/macif/Contrat%20Camping-car%20Autocaravane%20-%20IPID.md) - [Macif](../insurers/Macif.md)
 - [Contrat Camping-car, Autocaravane](../products/macif/Contrat%20Camping-car%2C%20Autocaravane.md) - [Macif](../insurers/Macif.md)
 - [Contrat Macif Pann'Auto - IPID](../products/macif/Contrat%20Macif%20Pann%27Auto%20-%20IPID.md) - [Macif](../insurers/Macif.md)
+- [Contrat d'assurance automobile — Voitures particulières, fourgons et fourgonnettes](../products/macif/Contrat%20d%27assurance%20automobile%20%E2%80%94%20Voitures%20particuli%C3%A8res%2C%20fourgons%20et%20fourgonnettes.md) - [Macif](../insurers/Macif.md)
 - [Macif Auto](../products/macif/Macif%20Auto.md) - [Macif](../insurers/Macif.md)
 - [Réduction spéciale Bon conducteur Macif - Tarifs](../products/macif/R%C3%A9duction%20sp%C3%A9ciale%20Bon%20conducteur%20Macif%20-%20Tarifs.md) - [Macif](../insurers/Macif.md)
 - [4 roues Essentiel Matmut](../products/matmut/4%20roues%20Essentiel%20Matmut.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)

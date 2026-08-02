@@ -27,7 +27,7 @@ navigate it without guessing. Do not edit by hand.
 |---|---|---|---|---|---|
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
 | ch (Switzerland) | 0 | 3 | 1 | 0 | 5 |
-| fr (France) | 24 | 521 | 10 | 1 | 5 |
+| fr (France) | 24 | 522 | 10 | 1 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
 
@@ -360,6 +360,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | auto | macif | Contrat Camping-car Autocaravane - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_camping_car.pdf) |
 | fr | auto | macif | Contrat Camping-car, Autocaravane | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_vehicules/CG_campingcar.pdf) |
 | fr | auto | macif | Contrat Macif Pann'Auto - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_PanneAuto.pdf) |
+| fr | auto | macif | Contrat d'assurance automobile — Voitures particulières, fourgons et fourgonnettes | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_vehicules/CG-Auto_201801.pdf) |
 | fr | auto | macif | Macif Auto | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_vehicules/CG_Auto.pdf) |
 | fr | auto | macif | Réduction spéciale Bon conducteur Macif - Tarifs | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_vehicules/reduction_speciale/Conditions-de-la-reduction-speciale.pdf) |
 | fr | auto | maif | Assurance Auto-Moto Vam | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/conditions-generales-assurance-auto-vam.pdf) |
