@@ -5,10 +5,11 @@ country: fr
 insurer_slug: smacl
 name: SMACL Assurances
 website: https://www.smacl.fr
-products_count: 60
+products_count: 61
 branches_covered:
 - auto
 - autres
+- credit-caution
 - decennale
 - habitation
 - multirisque-professionnelle
@@ -32,7 +33,7 @@ generated: true
 
 ## Résumé
 
-**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 60 document(s) across 10 branch(es).
+**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 61 document(s) across 11 branch(es).
 
 ## Produits par branche
 
@@ -55,6 +56,9 @@ generated: true
 ### [Autres](../branches/Autres.md)
 - [ALÉASSUR Protection financière](../products/smacl/AL%C3%89ASSUR%20Protection%20financi%C3%A8re.md) - Conditions générales (01/2024) · réf. ALEASSUR_CS_PF_01(03_2016)
 - [Votre droit de renonciation (hors contrat « Assurance Auto ») - Doc](../products/smacl/Votre%20droit%20de%20renonciation%20%28hors%20contrat%20%C2%AB%20Assurance%20Auto%20%C2%BB%29%20-%20Doc.md) - Document (09/2025)
+
+### Crédit et caution
+- [Assurance loyers impayés](../products/smacl/Assurance%20loyers%20impay%C3%A9s.md) - Conditions générales (01/2024) · réf. LOYERSIMPAYES_CG_04(02_2023)
 
 ### [Assurance construction](../branches/Assurance%20construction.md)
 - [Tous risques chantier - IPID](../products/smacl/Tous%20risques%20chantier%20-%20IPID.md) - IPID / Fiche d'information (01/2024) · réf. CONSTRUCTION_DIPA_TRC_SA_01(06_2021)

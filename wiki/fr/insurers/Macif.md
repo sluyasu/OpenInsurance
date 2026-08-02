@@ -5,7 +5,7 @@ country: fr
 insurer_slug: macif
 name: Macif
 website: https://www.macif.fr
-products_count: 51
+products_count: 52
 branches_covered:
 - animaux
 - assurance-vie
@@ -13,6 +13,7 @@ branches_covered:
 - autres
 - chasse
 - emprunteur
+- gav
 - habitation
 - moto
 - multirisque-professionnelle
@@ -39,7 +40,7 @@ generated: true
 
 ## Résumé
 
-**Macif** - [https://www.macif.fr](https://www.macif.fr). 51 document(s) across 17 branch(es).
+**Macif** - [https://www.macif.fr](https://www.macif.fr). 52 document(s) across 18 branch(es).
 
 ## Produits par branche
 
@@ -75,6 +76,9 @@ generated: true
 - [Assurance emprunteur crédit à la consommation - IPID](../products/macif/Assurance%20emprunteur%20cr%C3%A9dit%20%C3%A0%20la%20consommation%20-%20IPID.md) - IPID / Fiche d'information
 - [Notice d'information au contrat collectif d'assurance emprunteur à adhésion facultative (contrat collectif n° 00.104, So](../products/macif/Notice%20d%27information%20au%20contrat%20collectif%20d%27assurance%20emprunteur%20%C3%A0%20adh%C3%A9sion%20facultative%20%28contrat%20collectif%20n%C2%B0%2000.104%2C%20So.md) - Conditions générales · réf. ASS-OFF--V13
 - [Perte d'Emploi (contrat collectif n°690701 souscrit par SECURIMUT auprès de MNCAP SA)](../products/macif/Perte%20d%27Emploi%20%28contrat%20collectif%20n%C2%B0690701%20souscrit%20par%20SECURIMUT%20aupr%C3%A8s%20de%20MNCAP%20SA%29.md) - Conditions générales
+
+### [Garantie des accidents de la vie](../branches/Garantie%20des%20accidents%20de%20la%20vie.md)
+- [Contrat Garantie Accident](../products/macif/Contrat%20Garantie%20Accident.md) - Conditions générales (29 janvier 2026) · réf. P R E I/ A C C/05 - 29/01/26 - N754
 
 ### [Multirisque habitation](../branches/Multirisque%20habitation.md)
 - [Assistance juridique Option “Plus”](../products/macif/Assistance%20juridique%20Option%20%E2%80%9CPlus%E2%80%9D.md) - Conditions générales (2016-04) · réf. HAB/PROT RP/07 - 04/16 - N365

@@ -188,3 +188,30 @@ Deux observations qui sortent de la même série et qu'aucune métadonnée ne do
 - L'article 19 d'un de ces contrats nomme **SMACL Assurances *et* SMACL Assurances SA comme deux
   responsables de traitement distincts**, ce qui confirme que les deux entités coexistent
   réellement sur un même contrat plutôt que l'une étant un raccourci pour l'autre.
+
+## La frontière entre les deux entités n'est pas nette dans les documents eux-mêmes
+
+Six contrats au moins hésitent sur leur propre porteur, et ce n'est plus imputable à des coquilles.
+Relevé document par document :
+
+| Ce que dit le contrat | Où |
+|---|---|
+| « SMACL Assurances SA, ci-après dénommée SMACL Assurances » — le nom court **défini** comme la SA | art. 4.6 d'un contrat flotte |
+| …puis les deux nommés **« responsables conjoints »**, donc deux personnes distinctes | art. 46 du **même** contrat |
+| « SMACL Assurances » à l'article 1.4, « SMACL ASSURANCES SA » au colophon, avec un capital différent | contrat associatif |
+| Corps « SMACL Assurances », art. 35 les deux comme responsables conjoints, colophon la SA | CG caravaning |
+| Clause Assureur = la **mutuelle**, colophon la mutuelle — mais art. 13 route les données « au personnel habilité de SMACL Assurances **SA** pour les garanties souscrites » | CG loyers impayés |
+| Deux contrats de même maquette, même colophon 11/2022, même couverture — **porteurs différents** | habitation / protection juridique |
+
+Le cas le plus parlant est celui des CG caravaning. Leur colophon imprime **SMACL Assurances SA**,
+mais leur article 30.1 est rédigé en termes **mutualistes** : cotisation normale fixée par le
+conseil d'administration, rappels de cotisation, **plafond de 1,5 fois**. C'est le mécanisme des
+cotisations variables — celui qui, chez Matmut, distingue nettement les contrats portés par la
+mutuelle (plafond de 2×) de ceux portés par la SA, qui n'en ont aucun. Ici il figure dans un
+document que son colophon attribue à la société anonyme.
+
+**Conséquence pour la lecture des pages produit** : le porteur y est enregistré tel que le document
+le nomme, avec la divergence en `gaps` quand elle existe. Ce wiki ne tranche pas, parce que les
+documents ne tranchent pas. Un lecteur qui a besoin de savoir quelle entité l'assure doit lire la
+clause Assureur de **son** contrat, et à défaut le colophon — et savoir que l'article sur les
+cotisations peut dire autre chose que la page de garde.
