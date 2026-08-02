@@ -5,7 +5,7 @@ country: fr
 insurer_slug: maaf
 name: MAAF
 website: https://www.maaf.fr/
-products_count: 39
+products_count: 40
 branches_covered:
 - auto
 - chasse
@@ -35,7 +35,7 @@ generated: true
 
 ## Résumé
 
-**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 39 document(s) across 13 branch(es).
+**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 40 document(s) across 13 branch(es).
 
 ## Produits par branche
 
@@ -64,8 +64,8 @@ generated: true
 - [MOBIL HOME ET CONSTRUCTIONS LEGERES - IPID](../products/maaf/MOBIL%20HOME%20ET%20CONSTRUCTIONS%20LEGERES%20-%20IPID.md) - IPID / Fiche d'information (2026-01) · réf. HAB11027
 - [TEMPO HABITATION EN CONSTRUCTION - IPID](../products/maaf/TEMPO%20HABITATION%20EN%20CONSTRUCTION%20-%20IPID.md) - IPID / Fiche d'information (2026-01) · réf. MU0_IPIDHA_00-260126-LDFkGz-2-1-2-05:01:17- HAB11028
 - [TEMPO HABITATION Logement donné en location - IPID](../products/maaf/TEMPO%20HABITATION%20Logement%20donn%C3%A9%20en%20location%20-%20IPID.md) - IPID / Fiche d'information (2025-03) · réf. HAB11029
-- [TEMPO HABITATION — Logement donné en location](../products/maaf/TEMPO%20HABITATION%20%E2%80%94%20Logement%20donn%C3%A9%20en%20location.md) - Conditions générales (03/25) · réf. réf. 2341 - 03/25
 - [Tempo Habitation - Fiche](../products/maaf/Tempo%20Habitation%20-%20Fiche.md) - Fiche produit (06/2022)
+- [Tempo Habitation — Logement donné en location](../products/maaf/Tempo%20Habitation%20%E2%80%94%20Logement%20donn%C3%A9%20en%20location.md) - Conditions générales (03/25) · réf. 2341
 
 ### [Deux-roues, quads et voiturettes](../branches/Deux-roues%2C%20quads%20et%20voiturettes.md)
 - [CYCLO - IPID](../products/maaf/CYCLO%20-%20IPID.md) - IPID / Fiche d'information (2025-06) · réf. AUT11019
@@ -87,7 +87,7 @@ generated: true
 - [Assurance accident - IPID](../products/maaf/Assurance%20accident%20-%20IPID.md) - IPID / Fiche d'information · réf. TB0_IPIDPR_00-260608-VZ8Ndm-1-1-2-08:20:18- PRE10003
 - [Assurance perte de revenus - IPID](../products/maaf/Assurance%20perte%20de%20revenus%20-%20IPID.md) - IPID / Fiche d'information (2024-06) · réf. TB0_IPIDPR_00-240616-1ZFgPX-2-1-2-01:00:33- PRE10002
 - [Assurance perte de revenus homme clé - IPID](../products/maaf/Assurance%20perte%20de%20revenus%20homme%20cl%C3%A9%20-%20IPID.md) - IPID / Fiche d'information (2024-06) · réf. PRE10001
-- [GARANTIES HOMME CLÉ MAAF ENTREPRISE](../products/maaf/GARANTIES%20HOMME%20CL%C3%89%20MAAF%20ENTREPRISE.md) - Conditions générales (06/2026) · réf. Réf.HC.017-06/2026
+- [Garanties Homme Clé MAAF Entreprise](../products/maaf/Garanties%20Homme%20Cl%C3%A9%20MAAF%20Entreprise.md) - Conditions générales (06/2026) · réf. HC.017
 
 ### [Protection juridique](../branches/Protection%20juridique.md)
 - [Garanties Protection Juridique - Fiche](../products/maaf/Garanties%20Protection%20Juridique%20-%20Fiche.md) - Fiche produit (06/2022)
@@ -99,6 +99,7 @@ generated: true
 
 ### [Complémentaire santé](../branches/Compl%C3%A9mentaire%20sant%C3%A9.md)
 - [Assurance SANTÉ PROFIL SALARIÉS](../products/maaf/Assurance%20SANT%C3%89%20PROFIL%20SALARI%C3%89S.md) - Conditions générales (10.2025) · réf. 11015
+- [Contrat Santé Vivazen](../products/maaf/Contrat%20Sant%C3%A9%20Vivazen.md) - Conditions générales (01/26) · réf. 2541
 - [SANTÉ PROFIL SALARIÉS - Fiche](../products/maaf/SANT%C3%89%20PROFIL%20SALARI%C3%89S%20-%20Fiche.md) - Fiche produit (1er janvier 2026)
 
 ### [Scolaire et extrascolaire](../branches/Scolaire%20et%20extrascolaire.md)

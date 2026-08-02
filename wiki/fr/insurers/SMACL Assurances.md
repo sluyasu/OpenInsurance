@@ -5,7 +5,7 @@ country: fr
 insurer_slug: smacl
 name: SMACL Assurances
 website: https://www.smacl.fr
-products_count: 57
+products_count: 60
 branches_covered:
 - auto
 - autres
@@ -32,7 +32,7 @@ generated: true
 
 ## Résumé
 
-**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 57 document(s) across 10 branch(es).
+**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 60 document(s) across 10 branch(es).
 
 ## Produits par branche
 
@@ -61,8 +61,10 @@ generated: true
 
 ### [Multirisque habitation](../branches/Multirisque%20habitation.md)
 - [Assurance habitation](../products/smacl/Assurance%20habitation.md) - Conditions générales (11/2022) · réf. PP_CG_HABITATION_04(02_2023)
+- [Multirisques caravaning](../products/smacl/Multirisques%20caravaning.md) - Conditions générales (11/2022) · réf. PP_CG_CARAVANING_03(02_2023)
 
 ### [Multirisque professionnelle](../branches/Multirisque%20professionnelle.md)
+- [ALÉASSUR - Conventions spéciales Dommages aux biens](../products/smacl/AL%C3%89ASSUR%20-%20Conventions%20sp%C3%A9ciales%20Dommages%20aux%20biens.md) - Conditions générales (01/2024) · réf. ALEASSUR_CS_DAB_06(06_2019)
 - [ALÉASSUR - Conventions spéciales Tous risques instruments de musique](../products/smacl/AL%C3%89ASSUR%20-%20Conventions%20sp%C3%A9ciales%20Tous%20risques%20instruments%20de%20musique.md) - Conditions générales (01/2024) · réf. ALEASSUR_CS_TRINSTRUMENT_01(02_2016)
 - [ALÉASSUR Tous risques objets](../products/smacl/AL%C3%89ASSUR%20Tous%20risques%20objets.md) - Conditions générales (01/2024) · réf. ALEASSUR_CS_TRO_02(02_2016)
 - [Aléassur](../products/smacl/Al%C3%A9assur.md) - Conditions générales (01/2024) · réf. ALEASSUR_CG_10(02_2023)
@@ -104,6 +106,7 @@ generated: true
 - [Responsabilité civile vie privée](../products/smacl/Responsabilit%C3%A9%20civile%20vie%20priv%C3%A9e%20%28SMACL%20Assurances%29.md) - Conditions générales (11/2022) · réf. PP_CG_RC_05(02_2023)
 
 ### [RC professionnelle](../branches/RC%20professionnelle.md)
+- [CONVERGENCE - Conventions spéciales Responsabilité civile](../products/smacl/CONVERGENCE%20-%20Conventions%20sp%C3%A9ciales%20Responsabilit%C3%A9%20civile.md) - Conditions générales (01/2024) · réf. CONVERGENCE_CS_RC_SA_02_(08_2016)
 - [Convergence - Responsabilité civile - IPID](../products/smacl/Convergence%20-%20Responsabilit%C3%A9%20civile%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. CONVERGENCE_DIPA_RC_SA_03(09_2022)
 - [Convergence - Responsabilité civile des dirigeants - IPID](../products/smacl/Convergence%20-%20Responsabilit%C3%A9%20civile%20des%20dirigeants%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. CONVERGENCE_DIPA_RCDI_03(09_2022)
 - [Sécurité des fonctionnaires territoriaux - IPID](../products/smacl/S%C3%A9curit%C3%A9%20des%20fonctionnaires%20territoriaux%20-%20IPID.md) - IPID / Fiche d'information (01/2022) · réf. PP_DIPA_SFT_02(07_2020)

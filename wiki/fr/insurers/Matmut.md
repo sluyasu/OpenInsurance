@@ -5,7 +5,7 @@ country: fr
 insurer_slug: matmut
 name: Matmut
 website: https://www.matmut.fr
-products_count: 137
+products_count: 141
 branches_covered:
 - animaux
 - assurance-vie
@@ -39,7 +39,7 @@ generated: true
 
 ## Résumé
 
-**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 137 document(s) across 17 branch(es).
+**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 141 document(s) across 17 branch(es).
 
 ## Produits par branche
 
@@ -129,6 +129,7 @@ generated: true
 - [Avantage Hiver Matmut - Tarifs](../products/matmut/Avantage%20Hiver%20Matmut%20-%20Tarifs.md) - Conditions tarifaires (01/26) · réf. AVANTAGE.H – 01/26
 - [Avantage Hiver Matmut & Co - Tarifs](../products/matmut/Avantage%20Hiver%20Matmut%20%26%20Co%20-%20Tarifs%20%282%29.md) - Conditions tarifaires (01-26) · réf. AVANTAGE.H 2R INIT CO – 01-26
 - [Avantage Usage Sérénité - Tarifs](../products/matmut/Avantage%20Usage%20S%C3%A9r%C3%A9nit%C3%A9%20-%20Tarifs.md) - Conditions tarifaires (01/26) · réf. USAGE.S 2 ROUES - 01/26
+- [Bonus Booster Matmut - Tarifs](../products/matmut/Bonus%20Booster%20Matmut%20-%20Tarifs%20%282%29.md) - Conditions tarifaires (2026-01) · réf. BONUS.B – 01/26
 - [Bonus Booster Nouveau Contrat Matmut - Tarifs](../products/matmut/Bonus%20Booster%20Nouveau%20Contrat%20Matmut%20-%20Tarifs%20%283%29.md) - Conditions tarifaires (01/26) · réf. BONUS.B.NC.PV 2R RIDER – 01/26
 - [Bonus Booster Nouveau Contrat Matmut - Tarifs](../products/matmut/Bonus%20Booster%20Nouveau%20Contrat%20Matmut%20-%20Tarifs%20%282%29.md) - Conditions tarifaires (01/26) · réf. BONUS.B.NC.PRO 2R RIDER – 01/26
 - [Conditions de la réduction Âge du véhicule — Contrat 2 roues Initiale & Co - Tarifs](../products/matmut/Conditions%20de%20la%20r%C3%A9duction%20%C3%82ge%20du%20v%C3%A9hicule%20%E2%80%94%20Contrat%202%20roues%20Initiale%20%26%20Co%20-%20Tarifs.md) - Conditions tarifaires (01-26) · réf. REDUC.AGE VEH 2R INIT & CO – 01-26
@@ -141,6 +142,8 @@ generated: true
 ### [Multirisque professionnelle](../branches/Multirisque%20professionnelle.md)
 - [Association](../products/matmut/Association.md) - Conditions générales (11/24) · réf. CG ASS – 11/24
 - [Caducée](../products/matmut/Caduc%C3%A9e.md) - Conditions générales (05/23) · réf. MC.30
+- [Contrat d'assurance Bris de machines et pertes d'exploitation suite à bris de machines](../products/matmut/Contrat%20d%27assurance%20Bris%20de%20machines%20et%20pertes%20d%27exploitation%20suite%20%C3%A0%20bris%20de%20machines.md) - Conditions générales (2024-11) · réf. MC.402 IME – 11/24
+- [Contrat d'assurance Pertes d'exploitation](../products/matmut/Contrat%20d%27assurance%20Pertes%20d%27exploitation.md) - Conditions générales (2024-11) · réf. MC.306 IME – 11/24
 - [Matmut PRO](../products/matmut/Matmut%20PRO.md) - Conditions générales (11/24) · réf. CG Matmut PRO – 11/24
 - [Matmut « Caducée »](../products/matmut/Matmut%20%C2%AB%20Caduc%C3%A9e%20%C2%BB.md) - Conditions générales · réf. MC.30 – 11/24
 - [Multigaranties des collectivités et risques professionnels](../products/matmut/Multigaranties%20des%20collectivit%C3%A9s%20et%20risques%20professionnels.md) - Conditions générales (04/26) · réf. MC.1 IME – 04/26.
@@ -152,8 +155,9 @@ generated: true
 - [Navigation de Plaisance Matmut](../products/matmut/Navigation%20de%20Plaisance%20Matmut.md) - Conditions générales (06/24) · réf. CG NDEP
 
 ### [Obsèques](../branches/Obs%C3%A8ques.md)
-- [Matmut Prévoyance Obsèques](../products/matmut/Matmut%20Pr%C3%A9voyance%20Obs%C3%A8ques.md) - Conditions générales (04/23) · réf. MPO.NOTICE
+- [Matmut Prévoyance Obsèques](../products/matmut/Matmut%20Pr%C3%A9voyance%20Obs%C3%A8ques%20%282%29.md) - Conditions générales (04/23) · réf. MPO.NOTICE
 - [Matmut Prévoyance Obsèques - IPID](../products/matmut/Matmut%20Pr%C3%A9voyance%20Obs%C3%A8ques%20-%20IPID.md) - IPID / Fiche d'information (2025-05-01) · réf. MPO.DIC
+- [Matmut Prévoyance Obsèques](../products/matmut/Matmut%20Pr%C3%A9voyance%20Obs%C3%A8ques.md) - Conditions générales · réf. MPO.NOTICE - 10/25
 
 ### [Protection juridique](../branches/Protection%20juridique.md)
 - [Assistance Juridique Vie Privée et Protection Juridique Santé](../products/matmut/Assistance%20Juridique%20Vie%20Priv%C3%A9e%20et%20Protection%20Juridique%20Sant%C3%A9.md) - Conditions générales (10/25) · réf. MOM.NOT.PJ - 10/25

@@ -389,6 +389,7 @@ Lorsque l'assuré est étudiant ou apprenti, il bénéficie d'un capital de 3 00
 ## Documents liés
 
 - [Contrat Macif Habitation - Formule Construction - IPID](Contrat%20Macif%20Habitation%20-%20Formule%20Construction%20-%20IPID.md) - IPID / Fiche d'information, éd. 2025-06
+- [Contrat Macif Habitation - Formules Économique, Équilibrée, Confort - IPID](Contrat%20Macif%20Habitation%20-%20Formules%20%C3%89conomique%2C%20%C3%89quilibr%C3%A9e%2C%20Confort%20-%20IPID.md) - IPID / Fiche d'information, éd. 06/25
 
 ## Source & fidélité
 

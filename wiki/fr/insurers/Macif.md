@@ -5,7 +5,7 @@ country: fr
 insurer_slug: macif
 name: Macif
 website: https://www.macif.fr
-products_count: 49
+products_count: 51
 branches_covered:
 - animaux
 - assurance-vie
@@ -39,7 +39,7 @@ generated: true
 
 ## Résumé
 
-**Macif** - [https://www.macif.fr](https://www.macif.fr). 49 document(s) across 17 branch(es).
+**Macif** - [https://www.macif.fr](https://www.macif.fr). 51 document(s) across 17 branch(es).
 
 ## Produits par branche
 
@@ -80,6 +80,7 @@ generated: true
 - [Assistance juridique Option “Plus”](../products/macif/Assistance%20juridique%20Option%20%E2%80%9CPlus%E2%80%9D.md) - Conditions générales (2016-04) · réf. HAB/PROT RP/07 - 04/16 - N365
 - [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire](../products/macif/Contrat%20Habitation%20-%20Formule%20%C3%89conomique%20-%20R%C3%A9sidence%20principale%20-%20R%C3%A9sidence%20secondaire.md) - Conditions générales (05/18) · réf. HAB/ECO/05 - 05/18 - N781
 - [Contrat Macif Habitation - Formule Construction - IPID](../products/macif/Contrat%20Macif%20Habitation%20-%20Formule%20Construction%20-%20IPID.md) - IPID / Fiche d'information (2025-06) · réf. MACIF HAB MC 06/25
+- [Contrat Macif Habitation - Formules Économique, Équilibrée, Confort - IPID](../products/macif/Contrat%20Macif%20Habitation%20-%20Formules%20%C3%89conomique%2C%20%C3%89quilibr%C3%A9e%2C%20Confort%20-%20IPID.md) - IPID / Fiche d'information (06/25) · réf. MACIF HAB RS 06/25
 - [Macif Habitation](../products/macif/Macif%20Habitation.md) - Conditions générales (06/25 (Version 06/2025)) · réf. MACIF HAB/05 - 06/25 - N570
 - [Sociétaire non occupant - Bâtiment en cours de construction - IPID](../products/macif/Soci%C3%A9taire%20non%20occupant%20-%20B%C3%A2timent%20en%20cours%20de%20construction%20-%20IPID.md) - IPID / Fiche d'information (10/18) · réf. HAB-SNO EC 10/18
 - [Sociétaire non occupant - Immeubles en copropriété - IPID](../products/macif/Soci%C3%A9taire%20non%20occupant%20-%20Immeubles%20en%20copropri%C3%A9t%C3%A9%20-%20IPID.md) - IPID / Fiche d'information (10/18) · réf. HAB-SNO CO 10/18
@@ -119,6 +120,7 @@ generated: true
 - [Garantie Santé](../products/macif/Garantie%20Sant%C3%A9.md) - Conditions générales (2023-01) · réf. UNI/PREI/GS/05 01/23
 - [Macif Mutuelle Entreprises](../products/macif/Macif%20Mutuelle%20Entreprises.md) - Conditions générales (2025-01) · réf. CG M M E - 01/25
 - [Macif Mutuelle Entreprises](../products/macif/Macif%20Mutuelle%20Entreprises%20%282%29.md) - Conditions générales · réf. NID M M E - 01/26
+- [Macif Mutuelle Santé](../products/macif/Macif%20Mutuelle%20Sant%C3%A9.md) - Conditions générales (01/24) · réf. UNI/PREI/MMS/05 01/24
 - [Macif Mutuelle Santé - Macif Hospitalisation - Fiche](../products/macif/Macif%20Mutuelle%20Sant%C3%A9%20-%20Macif%20Hospitalisation%20-%20Fiche.md) - Fiche produit (01/06/2026)
 - [Régime conventionnel Frais de santé - CCN BAD (Branche de l'aide, de l'accompagnement, des soins et des services à domic](../products/macif/R%C3%A9gime%20conventionnel%20Frais%20de%20sant%C3%A9%20-%20CCN%20BAD%20%28Branche%20de%20l%27aide%2C%20de%20l%27accompagnement%2C%20des%20soins%20et%20des%20services%20%C3%A0%20domic.md) - Conditions générales (V01.01.2023)
 - [contrat GARANTIE SANTE TERRITORIAUX - IPID](../products/macif/contrat%20GARANTIE%20SANTE%20TERRITORIAUX%20-%20IPID.md) - IPID / Fiche d'information (01/2022) · réf. DIPA GST 01/2022

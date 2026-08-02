@@ -209,6 +209,7 @@ Piscines et spas extérieurs (choix parmi 3 plafonds entre 10 000 € et 70 000
 
 ## Documents liés
 
+- [Contrat Macif Habitation - Formules Économique, Équilibrée, Confort - IPID](Contrat%20Macif%20Habitation%20-%20Formules%20%C3%89conomique%2C%20%C3%89quilibr%C3%A9e%2C%20Confort%20-%20IPID.md) - IPID / Fiche d'information, éd. 06/25
 - [Macif Habitation](Macif%20Habitation.md) - Conditions générales, éd. 06/25 (Version 06/2025)
 
 ## Source & fidélité

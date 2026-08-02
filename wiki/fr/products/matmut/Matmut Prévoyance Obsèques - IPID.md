@@ -423,7 +423,8 @@ ou 15 % » alors que l’investissement de référence est de 1 000 € — les 
 
 ## Documents liés
 
-- [Matmut Prévoyance Obsèques](Matmut%20Pr%C3%A9voyance%20Obs%C3%A8ques.md) - Conditions générales, éd. 04/23
+- [Matmut Prévoyance Obsèques](Matmut%20Pr%C3%A9voyance%20Obs%C3%A8ques%20%282%29.md) - Conditions générales, éd. 04/23
+- [Matmut Prévoyance Obsèques](Matmut%20Pr%C3%A9voyance%20Obs%C3%A8ques.md) - Conditions générales
 
 ## Source & fidélité
 

@@ -708,6 +708,10 @@ Poste « Aides auditives » — Équipement (hors 100 % santé). Tarif le plus s
 - Aucun défaut de couche texte détecté sur ce document : pas de caractère U+0007 (donc pas de texte vectorisé), pas de glyphe de zone privée, pas d'espace de largeur nulle, pas de ligature fi/ff/fl perdue. Seuls des U+2009 (espace fine, 59 occurrences) apparaissent dans les montants des pages Alsace-Moselle.
 - La métadonnée de tâche donne branch = sante ; le document (complémentaire santé, remboursements de frais de soins) est en accord, aucune divergence à signaler.
 
+## Documents liés
+
+- [Macif Mutuelle Santé](Macif%20Mutuelle%20Sant%C3%A9.md) - Conditions générales, éd. 01/24
+
 ## Source & fidélité
 
 - Source : [https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/ExemplesRemboursement_MMS_ALS.pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/ExemplesRemboursement_MMS_ALS.pdf) - téléchargé le 2026-08-01 - 52 pages
