@@ -5,7 +5,7 @@ country: fr
 insurer_slug: macif
 name: Macif
 website: https://www.macif.fr
-products_count: 52
+products_count: 53
 branches_covered:
 - animaux
 - assurance-vie
@@ -40,7 +40,7 @@ generated: true
 
 ## Résumé
 
-**Macif** - [https://www.macif.fr](https://www.macif.fr). 52 document(s) across 18 branch(es).
+**Macif** - [https://www.macif.fr](https://www.macif.fr). 53 document(s) across 18 branch(es).
 
 ## Produits par branche
 
@@ -124,6 +124,7 @@ generated: true
 - [Garantie Santé](../products/macif/Garantie%20Sant%C3%A9.md) - Conditions générales (2023-01) · réf. UNI/PREI/GS/05 01/23
 - [Macif Mutuelle Entreprises](../products/macif/Macif%20Mutuelle%20Entreprises.md) - Conditions générales (2025-01) · réf. CG M M E - 01/25
 - [Macif Mutuelle Entreprises](../products/macif/Macif%20Mutuelle%20Entreprises%20%282%29.md) - Conditions générales · réf. NID M M E - 01/26
+- [Macif Mutuelle Entreprises (contrat collectif à adhésion obligatoire) - IPID](../products/macif/Macif%20Mutuelle%20Entreprises%20%28contrat%20collectif%20%C3%A0%20adh%C3%A9sion%20obligatoire%29%20-%20IPID.md) - IPID / Fiche d'information (01/25) · réf. DIPA MME - 01/25 (page 1) ; TG MME - 01/25 pour le tableau de garanties (page 5)
 - [Macif Mutuelle Santé](../products/macif/Macif%20Mutuelle%20Sant%C3%A9.md) - Conditions générales (01/24) · réf. UNI/PREI/MMS/05 01/24
 - [Macif Mutuelle Santé - Macif Hospitalisation - Fiche](../products/macif/Macif%20Mutuelle%20Sant%C3%A9%20-%20Macif%20Hospitalisation%20-%20Fiche.md) - Fiche produit (01/06/2026)
 - [Régime conventionnel Frais de santé - CCN BAD (Branche de l'aide, de l'accompagnement, des soins et des services à domic](../products/macif/R%C3%A9gime%20conventionnel%20Frais%20de%20sant%C3%A9%20-%20CCN%20BAD%20%28Branche%20de%20l%27aide%2C%20de%20l%27accompagnement%2C%20des%20soins%20et%20des%20services%20%C3%A0%20domic.md) - Conditions générales (V01.01.2023)

@@ -114,6 +114,45 @@ Conditions Générales du contrat auto de Direct Assurance (marque d'Avanssur, l
 | Espèces et moyen de paiement, titres et valeurs | Les monnaies, billets de banque, bons du Trésor, bons de caisse, valeurs mobilières, effets de commerce, chèques, facturettes de cartes de paiement, tickets-restaurant, timbres-poste non oblitérés et destinés à l'affranchissement, timbres fiscaux et feuilles timbrées, timbres amendes, billets de jeux divers, titres de transport et cartes téléphoniques, billets d'événements artistiques ou sportifs. | p. 53 |
 | Fait générateur du Litige | Il est constitué par l'apparition d'une difficulté juridique matérialisée par l'atteinte à un droit, ou par le préjudice que vous avez subi ou que vous avez causé à un Tiers, avant toute réclamation s'y rattachant. | p. 53 |
 | Force Majeure | Événement imprévisible et irrésistible qui est d'origine extérieure à l'assuré. | p. 53 |
+| Frais de prévention au titre du Préjudice écologique | Frais exposés par des tiers pour prévenir la réalisation imminente d’un Préjudice écologique, pour éviter son aggravation ou pour en réduire les conséquences. Ces frais comprennent les coûts des mesures raisonnables propres à prévenir ou faire cesser le Préjudice écologique que le juge peut prescrire quand il est saisi d’une demande en ce sens par toute personne ayant qualité et intérêt à agir. | p. 53 |
+| Franchise | C’est la somme à déduire du montant de l’indemnité et qui reste à la charge de l’assuré. | p. 53 |
+| Gardien | Toute personne ayant les pouvoirs d’usage, de direction et de contrôle sur le véhicule. | p. 53 |
+| Gardiennage | Tous les frais liés au stockage du véhicule et sa sortie de parc. Les frais de Gardiennage peuvent inclure des coûts pour la conservation du véhicule, la surveillance, la mise en sécurité, la manutention, les entrées et sorties de parc, la mise à disposition et les frais de dépollution. | p. 53 |
+| Glace | Élément en verre du véhicule, Glaces ou verres organiques livrés d’origine par le constructeur (Pare-brise, Vitre arrière, Vitres latérales, Ensemble des feux avant, Toit vitré ouvrant ou non). | p. 53 |
+| Identifiant | Désigne l’adresse e-mail de connexion que l’Assuré a communiquée lors de la souscription ou en cours du contrat. | p. 53 |
+| Immobilisation du véhicule | Durée nécessaire à un garagiste pour réparer un véhicule à la suite d’un événement garanti. L’immobilisation commence à partir du moment où le véhicule est déposé chez le garagiste le plus proche du lieu de la Panne ou de l’accident. La durée de l’immobilisation est indiquée par le réparateur dès la prise en charge du véhicule. Elle s’achève à la fin des travaux. | p. 53 |
+| Inondation | Montée imprévisible des eaux provoquée par l’excès de pluie (débordement de cours d’eau ou refoulement d’égoût) ou rupture de canalisation. | p. 53 |
+| Jours ouvrés | Les jours de la semaine à l’exception des samedi, dimanche et jours fériés. | p. 53 |
+| Litige | Opposition d’intérêts, désaccord ou refus opposé à une réclamation dont vous êtes l’auteur ou le destinataire et, vous conduisant à faire valoir des prétentions en demande ou en défense, que ce soit à l’amiable ou devant une juridiction. | p. 53 |
+| Local verrouillé | Local clos, couvert avec un accès (entrée et sortie) protégé par une clé (mécanique ou électrique), un badge magnétique ou un code. | p. 53 |
+| Maladie | Altération soudaine et imprévisible de la santé de l’Assuré constatée par une autorité médicale. | p. 53 |
+| Option | Garanties proposées en complément des formules. | p. 53 |
+| Organes mécaniques | Sont considérés comme Organes mécaniques tous les éléments composant la chaine de mouvement du véhicule (le moteur, la boite de vitesse, le pont) mais également tous les éléments de la liaison au sol (amortisseurs, roulement, pneumatiques), tous les éléments du système de freinages (disques de frein, plaquettes, Bloc de freinage ABS). | p. 53 |
+| Panne | Tout incident fortuit d’origine mécanique, électrique, électronique ou hydraulique empêchant le véhicule garanti de poursuivre le déplacement prévu ou en cours dans des conditions normales de circulation. | p. 54 |
+| Pièces de réemploi | La Pièce de réemploi est une pièce détachée d’origine, issue de l’économie circulaire, qui respecte l’ensemble des normes de sécurité en vigueur. | p. 54 |
+| Préjudice écologique | Atteinte non négligeable aux éléments ou aux fonctions des écosystèmes ou aux bénéfices collectifs tirés par l’homme de l’environnement, conformément aux articles 1246 et suivants du Code civil. | p. 54 |
+| Première mise en circulation | Date indiquée sur la carte grise, à l’exception des véhicules neufs achetés hors de France métropolitaine pour lesquels la date sera celle indiquée sur la facture d’achat. | p. 54 |
+| Prescription | Durée au-delà de laquelle plus aucune action en justice, civile ou pénale n’est recevable. | p. 54 |
+| Services numériques | Désigne l’ensemble des Services numériques susceptibles d’être mis à la disposition de l’assuré. Les Services numériques incluent notamment la Signature électronique. L’Assureur s’engage à délivrer les Services numériques conformément aux termes de la présente Convention au titre d’une obligation de moyens. | p. 54 |
+| Signature électronique | Désigne « l’usage d’un procédé fiable d’identification garantissant son lien avec l’acte auquel elle s’attache » conformément au Code civil. | p. 54 |
+| Sinistre | Survenance d’un événement de nature à entraîner notre garantie. | p. 54 |
+| Site internet | Désigne le site Internet direct-assurance.fr | p. 54 |
+| Souscripteur | Le « Souscripteur » est la personne désignée sous ce nom dans les Conditions Personnelles, ou toute personne qui lui serait substituée par accord des parties ou du fait de son décès. Le Souscripteur est responsable de l’exécution du contrat et des déclarations sur la base desquelles le contrat a été établi. | p. 54 |
+| Stupéfiants | Substances ou plantes classées comme stupéfiants. La conduite sous stupéfiants est punie de deux ans d’emprisonnement et de 4 500 euros d’amende et passibles de peines complémentaires (L.235-1 du Code de la route). | p. 54 |
+| Subrogation | Il s’agit de notre droit de récupérer auprès du responsable d’un Sinistre les sommes que nous avons payées. Si, de votre fait, la Subrogation ne peut plus s’opérer en notre faveur, notre garantie cesse d’être engagée dans la mesure où elle aurait pu s’exercer. | p. 54 |
+| Tiers de confiance | Désigne tout prestataire avec lequel nous travaillons délivrant des services dématérialisés tels que la Signature électronique ou l’envoi de lettres recommandées électroniques. | p. 54 |
+| Usage | Il s’agit du mode d’utilisation du véhicule détaillé dans les Conditions Générales et déclaré par l’assuré dans ses Conditions Personnelles. | p. 54 |
+| Usure | Détérioration progressive d’un bien (véhicule) se manifestant par l’altération de ses propriétés ou la modification de son état. | p. 54 |
+| Valeur à neuf | Indemnisation correspondant au prix figurant sur la facture d’achat d’un véhicule assuré acheté neuf, remises commerciales ou autre offres déduites, ou dans les cas des véhicules financés en leasing, à la dernière valeur catalogue constructeur connue du véhicule assuré à la date de la souscription du contrat. | p. 54 |
+| Vandalisme | Dommage matériel causé sans autre mobile que la volonté de détériorer ou de détruire. | p. 54 |
+| Vol | Soustraction frauduleuse de tout ou partie du véhicule assuré commise par effraction caractérisée. | p. 54 |
+| Véhicule neuf | Il s’agit d’un véhicule de première main n’ayant jamais été immatriculé et n’ayant jamais circulé. | p. 54 |
+| Véhicule roulant | Il s’agit d’un véhicule qui peut rouler au titre de la réglementation et dans des conditions normales de sécurité. | p. 54 |
+| Vétusté | C’est la dépréciation de la valeur d’un bien résultant de son usage ou de son ancienneté. | p. 54 |
+| Fait dommageable (annexe fiche d'information RC dans le temps) | Fait, acte ou événement à l’origine des dommages subis par la victime et faisant l’objet d’une réclamation. | p. 55 |
+| Réclamation (annexe fiche d'information RC dans le temps) | Mise en cause de votre responsabilité, soit par lettre adressée à l’Assuré ou à l’Assureur, soit par assignation devant un tribunal civil ou administratif. Un même sinistre peut faire l’objet de plusieurs réclamations, soit d’une même victime, soit de plusieurs victimes. | p. 55 |
+| Période de validité de la garantie (annexe fiche d'information RC dans le temps) | Période comprise entre la date de prise d’effet de la garantie et, après d’éventuelles reconductions, sa date de résiliation ou d’expiration. | p. 55 |
+| Période subséquente (annexe fiche d'information RC dans le temps) | Période se situant après la date de résiliation ou d’expiration de la garantie. Sa durée est précisée par le contrat. Elle ne peut être inférieure à cinq ans. Si votre contrat garantit exclusivement votre responsabilité civile vie privée, reportez-vous à l’article 1. Sinon, reportez-vous aux articles 1 et 2. ARTICLE 1  LE CONTRAT GARANTIT VOTRE RESPONSABILITÉ CIVILE VIE PRIVÉE En dehors de toute activité professionnelle, la garantie est déclenchée par le fait dommageable. L’Assureur apporte sa garantie lorsqu’une réclamation consécutive à des dommages causés à autrui est formulée et que votre responsabilité ou celle des autres personnes garanties par le contrat est engagée, dès lors que le fait à l’origine de ces dommages est survenu entre la date de prise d’effet et la date de résiliation ou d’expiration de la garantie. La déclaration de sinistre doit être adressée à l’Assureur dont la garantie est ou était en cours de validité au moment où le fait dommageable s’est produit. ARTICLE 2  LE CONTRAT GARANTIT LA RESPONSABILITÉ CIVILE (ENCOURUE DU FAIT D’UNE ACTIVITÉ PROFESSIONNELLE) Le contrat d’assurance doit préciser si la garantie est déclenchée par le « fait dommageable » ou si elle l’est par « la réclamation ». Lorsque le contrat contient à la fois des garanties couvrant votre responsabilité civile du fait d’activité professionnelle et des garanties couvrant votre responsabilité civile vie privée, ces dernières sont déclenchées par le fait dommageable (voir art. 1). Certains contrats, pour lesquels la loi prévoit des dispositions particulières dérogent cependant à cette disposition ; c’est le cas par exemple, en matière d’assurance décennale obligatoire, des activités de construction. 2.1. Comment fonctionne le mode de déclenchement « par le fait dommageable » ? L’Assureur apporte sa garantie lorsqu’une réclamation consécutive à des dommages causés à autrui est formulée et que votre responsabilité ou celle des autres personnes garanties par le contrat est engagée, dès lors que le fait à l’origine de ces dommages est survenu entre la date de prise d’effet et la date de résiliation ou d’expiration de la garantie. La déclaration de sinistre doit être adressée à l’Assureur dont la garantie est ou était en cours de validité au moment où le fait dommageable s’est produit. 2.2. Comment fonctionne le mode de déclenchement « par la réclamation » ? Quel que soit le cas, la garantie de l’Assureur n’est pas due si l’Assuré avait connaissance du fait dommageable au jour de la souscription de celle-ci. 2.2.1. Premier cas : La réclamation du tiers est adressée à l’Assuré ou à l’Assureur pendant la période de validité de la garantie souscrite. L’Assureur apporte sa garantie, même si le fait à l’origine du sinistre s’est produit avant la souscription de la garantie. 2.2.2. Second cas : La réclamation est adressée à l’Assuré ou à l’Assureur pendant la période subséquente. 2.2.3. Cas 2.2.1 : l’Assuré n’a pas souscrit de nouvelle garantie de responsabilité déclenchée par la réclamation couvrant le même risque. L’Assureur apporte sa garantie. 2.2.4. Cas 2.2.2 : l’Assuré a souscrit une nouvelle garantie de responsabilité déclenchée par la réclamation auprès d’un nouvel Assureur couvrant le même risque. C’est la nouvelle garantie qui est mise en œuvre, sauf si l’Assuré avait connaissance du fait dommageable au jour de la souscription de celle- ci, auquel cas, c’est la garantie précédente qui intervient. Aussi, dès lors qu’il n’y a pas d’interruption entre deux garanties successives et que la réclamation est adressée à l’Assuré ou à son Assureur avant l’expiration du délai subséquent de la garantie initiale, l’un des deux Assureurs est nécessairement compétent et prend en charge la réclamation. Lorsque la garantie initiale est déclenchée pendant la période subséquente, le plafond de l’indemnisation ne peut être inférieur à celui de la garantie déclenchée pendant l’année précédant la date de sa résiliation ou de son expiration. ANNEXE : FICHE D’INFORMATION RELATIVE AU FONCTIONNEMENT DES GARANTIES « RESPONSABILITÉ CIVILE » DANS LE TEMPS | p. 55 |
 
 ## Garanties
 
@@ -687,6 +726,8 @@ Nous garantissons la défense pénale des seuls intérêts de l'Assuré poursuiv
 | Honoraires de mandataires fixés en fonction de l'intérêt en jeu ou du résultat | Les honoraires des mandataires, quels qu'ils soient, fixés en fonction de l'intérêt en jeu ou en fonction du résultat définitif ou espéré des démarches engagées. | Défense Pénale et Recours | p. 46 |
 | Litiges ayant pour origine une contravention sanctionnée par une amende | Les Litiges qui ont pour origine une contravention sanctionnée par le paiement d'une amende. | Défense Pénale et Recours | p. 46 |
 | Frais engagés avant la déclaration du Litige | Les frais engagés liés à la saisine d'une juridiction, au lancement d'une nouvelle procédure ou à l'exercice d'une voie de recours réalisés avant la déclaration du Litige, sauf s'il y a urgence à les avoir demandés. | Défense Pénale et Recours | p. 46 |
+| Connaissance du fait dommageable au jour de la souscription (garanties déclenchées par la réclamation) | Quel que soit le cas, la garantie de l’Assureur n’est pas due si l’Assuré avait  connaissance du fait dommageable au jour de la souscription de celle-ci. | Annexe « fiche d'information RC dans le temps » (art. A.112 du Code des assurances) — s'applique aux garanties de responsabilité civile déclenchées « par la réclamation ». La garantie Responsabilité civile du présent contrat auto est, elle, déclenchée par le fait dommageable (art. 3.4, p. 21) ; cette règle ne la vise donc pas directement. Reproduit ici parce que le document l'imprime et qu'elle fait partie du contrat (les annexes prévalent sur les Conditions Générales, p. 17). | p. 55 |
+| Réclamation reçue après l'expiration du délai subséquent (ancien assureur) | Aucune garantie n’est due par votre ancien Assureur si  la réclamation vous est adressée ou l’est à votre ancien Assureur après  l’expiration du délai subséquent. [Le document énonce deux fois cette règle : à l'article 3.2 et, dans des termes quasi identiques, à l'article 3.4 de l'annexe — même page PDF 56.] | Annexe « fiche d'information RC dans le temps » (art. A.112 du Code des assurances) — s'applique aux garanties de responsabilité civile déclenchées « par la réclamation ». La garantie Responsabilité civile du présent contrat auto est, elle, déclenchée par le fait dommageable (art. 3.4, p. 21) ; cette règle ne la vise donc pas directement. Reproduit ici parce que le document l'imprime et qu'elle fait partie du contrat (les annexes prévalent sur les Conditions Générales, p. 17). | p. 56 |
 
 ## Franchises
 
@@ -832,11 +873,159 @@ Conformément aux dispositions prévues par l'article L 114-1 du Code des assura
 - Vol du véhicule non retrouvé : pas d'indemnisation en Tiers ; 100 % de la valeur du véhicule moins 100 % de Franchise en Tiers Maxi, Tous Risques et Tous Risques Maxi. Tentative de vol ou Vol du véhicule retrouvé : pas d'indemnisation en Tiers ; 100 % des réparations ou 100 % de la valeur du véhicule moins 100 % de Franchise dans les autres formules. Vol d'éléments isolé sur le véhicule : pas d'indemnisation sauf en Tous Risques Maxi (100 % des réparations moins 100 % de Franchise). En cas de vol, si le véhicule n'est pas retrouvé au bout de 30 jours, il est remboursé sur la base de sa valeur au moment du Vol. p. 11
 - Lors d'un Bris de glace, si l'impact n'est pas dans le champ de vision et qu'il n'est pas plus gros qu'une pièce de 2 €, l'élément vitré est souvent réparable et aucune franchise n'est applicable. Dans les autres cas, l'élément vitré doit être remplacé et une franchise de 25 % reste à votre charge (exemple : remplacement facturé 1 200 €, franchise de 300 €). En choisissant un glacier partenaire en ligne, aucune avance de frais n'est à faire. Lorsqu'une franchise est applicable, Direct Assurance propose de la régler en trois fois sans frais, sous certaines conditions d'éligibilité. p. 9
 - Avec l'option véhicule de prêt étendu ou en Tous Risques Maxi, la mobilité peut être assurée dans les 24 h. En fonction du type d'accident, la durée de la location varie : jusqu'à 30 jours à la suite d'un vol, 15 jours en cas de réparation ou de véhicule irréparable, 7 jours en cas de panne. p. 7
+- Annexe de l’article A.112 du Code des assurances
+Créé par Arrêté 2003-10-31 annexe JORF 7 novembre 2003. 
+Avertissement : 
+La présente fiche d’information vous est délivrée en application de 
+l’article L 112-2 du Code des assurances. Elle a pour objet d’apporter les 
+informations nécessaires à une bonne compréhension du fonctionnement 
+de la garantie de responsabilité civile dans le temps. Elle concerne les 
+contrats souscrits ou reconduits postérieurement à l’entrée en vigueur le 3 
+novembre 2003 de l’article 80 de la loi nº 2003-706. Les contrats souscrits 
+antérieurement font l’objet de dispositions particulières précisées dans 
+la même loi. p. 55
+- Si votre contrat garantit exclusivement votre responsabilité civile vie privée, 
+reportez-vous à l’article 1. 
+Sinon, reportez-vous aux articles 1 et 2. p. 55
+- ARTICLE 1  LE CONTRAT GARANTIT VOTRE 
+RESPONSABILITÉ CIVILE VIE PRIVÉE 
+En dehors de toute activité professionnelle, la garantie est déclenchée par 
+le fait dommageable. L’Assureur apporte sa garantie lorsqu’une réclamation 
+consécutive à des dommages causés à autrui est formulée et que votre 
+responsabilité ou celle des autres personnes garanties par le contrat est 
+engagée, dès lors que le fait à l’origine de ces dommages est survenu entre 
+la date de prise d’effet et la date de résiliation ou d’expiration de la garantie.
+La déclaration de sinistre doit être adressée à l’Assureur dont la garantie 
+est ou était en cours de validité au moment où le fait dommageable s’est 
+produit. p. 55
+- ARTICLE 2  LE CONTRAT GARANTIT  
+LA RESPONSABILITÉ CIVILE (ENCOURUE  
+DU FAIT D’UNE ACTIVITÉ PROFESSIONNELLE) 
+Le contrat d’assurance doit préciser si la garantie est déclenchée par le 
+« fait dommageable » ou si elle l’est par « la réclamation ». Lorsque le contrat 
+contient à la fois des garanties couvrant votre responsabilité civile du fait 
+d’activité professionnelle et des garanties couvrant votre responsabilité 
+civile vie privée, ces dernières sont déclenchées par le fait dommageable 
+(voir art. 1). Certains contrats, pour lesquels la loi prévoit des dispositions 
+particulières dérogent cependant à cette disposition ; c’est le cas par 
+exemple, en matière d’assurance décennale obligatoire, des activités de 
+construction. p. 55
+- 2.1. Comment fonctionne le mode de déclenchement 
+« par le fait dommageable » ? 
+L’Assureur apporte sa garantie lorsqu’une réclamation consécutive à des 
+dommages causés à autrui est formulée et que votre responsabilité ou celle 
+des autres personnes garanties par le contrat est engagée, dès lors que le 
+fait à l’origine de ces dommages est survenu entre la date de prise d’effet 
+et la date de résiliation ou d’expiration de la garantie. La déclaration de 
+sinistre doit être adressée à l’Assureur dont la garantie est ou était en cours 
+de validité au moment où le fait dommageable s’est produit. p. 55
+- 2.2. Comment fonctionne le mode de 
+déclenchement « par la réclamation » ? 
+Quel que soit le cas, la garantie de l’Assureur n’est pas due si l’Assuré avait 
+connaissance du fait dommageable au jour de la souscription de celle-ci. p. 55
+- 2.2.1. Premier cas :
+La réclamation du tiers est adressée à l’Assuré ou à l’Assureur pendant la 
+période de validité de la garantie souscrite.
+ L’Assureur apporte sa garantie, même si le fait à l’origine du sinistre s’est 
+produit avant la souscription de la garantie. p. 55
+- 2.2.2. Second cas : 
+La réclamation est adressée à l’Assuré ou à l’Assureur pendant la période 
+subséquente. p. 55
+- 2.2.3. Cas 2.2.1 : 
+l’Assuré n’a pas souscrit de nouvelle garantie de responsabilité déclenchée 
+par la réclamation couvrant le même risque. 
+L’Assureur apporte sa garantie. p. 55
+- 2.2.4. Cas 2.2.2 : 
+l’Assuré a souscrit une nouvelle garantie de responsabilité déclenchée par 
+la réclamation auprès d’un nouvel Assureur couvrant le même risque. 
+C’est la nouvelle garantie qui est mise en œuvre, sauf si l’Assuré avait 
+connaissance du fait dommageable au jour de la souscription de celle-
+ci, auquel cas, c’est la garantie précédente qui intervient. Aussi, dès lors 
+qu’il n’y a pas d’interruption entre deux garanties successives et que la 
+réclamation est adressée à l’Assuré ou à son Assureur avant l’expiration 
+du délai subséquent de la garantie initiale, l’un des deux Assureurs est 
+nécessairement compétent et prend en charge la réclamation. Lorsque la 
+garantie initiale est déclenchée pendant la période subséquente, le plafond 
+de l’indemnisation ne peut être inférieur à celui de la garantie déclenchée 
+pendant l’année précédant la date de sa résiliation ou de son expiration. p. 55
+- ARTICLE 3  EN CAS DE CHANGEMENT 
+D’ASSUREUR 
+Si vous avez changé d’Assureur et si un sinistre, dont le fait dommageable 
+est intervenu avant la souscription de votre nouveau contrat, n’est l’objet 
+d’une réclamation qu’au cours de votre nouveau contrat, il faut déterminer 
+l’Assureur qui vous indemnisera. Selon le type de contrats, l’ancien ou le 
+nouvel Assureur pourra être valablement saisi. Reportez-vous aux cas types 
+ci-dessous : p. 56
+- 3.1. L’ancienne et la nouvelle garantie sont 
+déclenchées par le fait dommageable 
+La garantie qui est activée par la réclamation est celle qui est ou était en 
+cours de validité à la date de survenance du fait dommageable. p. 56
+- 3.2. L’ancienne et la nouvelle garantie sont 
+déclenchées par la réclamation 
+Votre ancien Assureur devra traiter la réclamation si vous avez eu 
+connaissance du fait dommageable avant la souscription de votre 
+nouvelle garantie. Aucune garantie n’est due par votre ancien Assureur si 
+la réclamation vous est adressée ou l’est à votre ancien Assureur après 
+l’expiration du délai subséquent. Si vous n’avez pas eu connaissance du fait 
+dommageable avant la souscription de votre nouvelle garantie, c’est votre 
+nouvel Assureur qui accueillera votre réclamation. p. 56
+- 3.3. L’ancienne garantie est déclenchée par  
+le fait dommageable et la nouvelle garantie est 
+déclenchée par la réclamation 
+Si le fait dommageable s’est produit pendant la période de validité de 
+l’ancienne garantie, c’est l’ancien Assureur qui doit traiter les réclamations 
+portant sur les dommages qui résultent de ce fait dommageable. p. 56
+- 3.4. L’ancienne garantie est déclenchée par la 
+réclamation et la nouvelle garantie est déclenchée 
+par le fait dommageable 
+Si le fait dommageable s’est produit avant la date de souscription de la 
+nouvelle garantie, c’est l’ancien Assureur qui doit traiter les réclamations. 
+Aucune garantie n’est due par votre ancien Assureur si la réclamation 
+est adressée à l’Assuré ou à votre ancien Assureur après l’expiration du 
+délai subséquent. Si le fait dommageable s’est produit pendant la période 
+de validité de la nouvelle garantie, c’est bien entendu l’Assureur de cette 
+dernière qui doit traiter la réclamation. p. 56
+- ARTICLE 4  EN CAS DE RÉCLAMATIONS 
+MULTIPLES RELATIVES AU MÊME FAIT 
+DOMMAGEABLE
+Un même fait dommageable peut être à l’origine de dommages multiples 
+qui interviennent ou se révèlent à des moments différents. Plusieurs 
+réclamations ont alors vocation à être successivement adressées par les 
+différents tiers concernés. Dans ce cas, le sinistre est considéré comme 
+unique. En conséquence, c’est le même Assureur qui prend en charge 
+l’ensemble des réclamations. Si le fait dommageable s’est produit alors 
+que votre contrat était déclenché sur la base du fait dommageable, c’est 
+donc votre Assureur à la date où le fait dommageable s’est produit qui 
+doit traiter les réclamations. Si vous n’étiez pas couvert sur la base du fait 
+dommageable à la date du fait dommageable, l’Assureur qui doit être 
+désigné est celui qui est compétent, dans les conditions précisées aux 
+paragraphes 1, 2 et 3 ci-dessus, au moment de la formulation de la première 
+réclamation. Dès lors que cet Assureur est compétent au titre de la première 
+réclamation, les réclamations ultérieures seront alors traitées par ce même 
+Assureur quelle que soit la date à laquelle ces réclamations sont formulées, 
+même si la période subséquente est dépassée. p. 56
+- Direct Assurance
+48 rue Carnot – CS 50025 – 92158 Suresnes Cedex. 
+Direct Assurance est la marque d’Avanssur – SA au capital de 37 507,40 € – 378 393 946 RCS Nanterre – Mandataire d’assurance d’AXA France IARD et courtier d’assurance – Orias 
+n° 19006337, www.orias.fr – AXA France IARD – SA au capital de 214 799 030 € – 722 057 460 RCS Nanterre – TVA intracommunautaire n° FR 14 722 057 460 – Siège social : 313 Terrasses 
+de l’Arche 92727 Nanterre Cedex – AXA Assistance France Assurances – SA au capital de 51 429 430,40 € – 451 392 724 RCS Nanterre – Siège social : 8-10 rue Paul Vaillant Couturier 
+92240 Malakoff – TVA intracommunautaire n° FR 81 451 392 724 – Entreprises régies par le Code des assurances. p. 57
+- AUTO_02.26     VW_V8     Crédits photos : Thinckstock     N° IDU : FR232655_03PSOH     
+Une société du groupe AXA p. 57
 
 ## Lacunes d'extraction
 
-- Le texte fourni s'arrête à la page 53 sur 57 : la source a été tronquée pour tenir dans le budget de caractères. La dernière entrée du Lexique est coupée en plein milieu (« Frais de prévention au titre »), et les pages 54 à 57 sont absentes. D'après le sommaire (page 19), il manque la fin du Lexique (p. 36-38 de la pagination interne) et l'« ANNEXE : FICHE D'INFORMATION RELATIVE AU FONCTIONNEMENT DES GARANTIES « RESPONSABILITÉ CIVILE » DANS LE TEMPS » (p. 39 de la pagination interne). Ces contenus n'ont donc pas pu être extraits.
-- Définitions manquantes du fait de la troncature : les termes du Lexique postérieurs à « Force Majeure » dans l'ordre alphabétique (notamment Franchise, Gardiennage, Gardien, Glaces, Jours ouvrés, Litige, Local, Organes mécaniques, Pièce de réemploi, Préjudice écologique, Première mise en circulation, Roulant, Sinistre, Site internet, Stupéfiants, Usage, Usure, Valeur à neuf, Vandalisme, Vétusté) sont utilisés dans le contrat mais leur définition ne figure pas dans le texte fourni. La définition de « Frais de prévention au titre [du Préjudice écologique] » est coupée après son intitulé et n'a pas été reprise.
+- RÉPARATION DE TRONCATURE (reprise du document source, pages 53 à 57). L'extraction précédente s'arrêtait au plafond de caractères du prompt de la moisson (240 000 caractères), qui tombe au milieu de la page 53 du PDF, juste après le début de la définition « Frais de prévention au titre du Préjudice écologique » — 16 969 caractères manquaient. Le PDF local (data/fr/pdfs/direct-assurance/auto/contrat-auto-1f927d91.pdf, sha256 854bdf8030cfee87095041ab09270d6e40157acbd55332878053e8b0262bd70f, identique au manifeste) a été réextrait page par page avec PyMuPDF page.get_text("text"), soit exactement l'appel de la moisson. Vérification du recouvrement : les 33 key_quotes de l'extraction précédente sont toutes des sous-chaînes exactes (au caractère près, sans normalisation) de ce texte réextrait, et pour chacune la page citée est bien la page qui la contient — l'extraction existante a donc été conservée et étendue, pas reconstruite. Contrôle complémentaire : les 63 définitions préexistantes et les 53 garanties ont été repositionnées par recouvrement de 5-grammes contre chaque page ; aucune erreur de page n'est ressortie (les seuls écarts, « Leasing – Perte financière » p. 34 et « Frais d'avocat à l'étranger » p. 29, correspondent à des articles qui commencent bien sur la page citée et se poursuivent sur la suivante).
+- Contenu récupéré. Page 53 (fin) : 14 définitions du Lexique (Frais de prévention au titre du Préjudice écologique, Franchise, Gardien, Gardiennage, Glace, Identifiant, Immobilisation du véhicule, Inondation, Jours ouvrés, Litige, Local verrouillé, Maladie, Option, Organes mécaniques). Page 54 : 21 définitions (Panne, Pièces de réemploi, Préjudice écologique, Première mise en circulation, Prescription, Services numériques, Signature électronique, Sinistre, Site internet, Souscripteur, Stupéfiants, Subrogation, Tiers de confiance, Usage, Usure, Valeur à neuf, Vandalisme, Vol, Véhicule neuf, Véhicule roulant, Vétusté). Pages 55-56 : l'« ANNEXE : FICHE D'INFORMATION RELATIVE AU FONCTIONNEMENT DES GARANTIES « RESPONSABILITÉ CIVILE » DANS LE TEMPS » (annexe de l'article A.112 du Code des assurances), avec ses 4 définitions propres (Fait dommageable, Réclamation, Période de validité de la garantie, Période subséquente) et ses articles 1 à 4 (dont ARTICLE 1 « LE CONTRAT GARANTIT VOTRE RESPONSABILITÉ CIVILE VIE PRIVÉE » et ARTICLE 2 « LE CONTRAT GARANTIT LA RESPONSABILITÉ CIVILE (ENCOURUE DU FAIT D'UNE ACTIVITÉ PROFESSIONNELLE) »). Page 57 : dos de couverture (mentions légales et références d'édition). Au total 39 définitions, 18 special_conditions, 2 exclusions et 19 key_quotes ajoutées ; toutes les citations sont des tranches exactes du texte réextrait, découpées par programme, jamais retapées.
+- Pages 55-56 : les articles 1 et 2 de l'annexe N'ONT PAS été versés dans `coverages`. Le document les imprime comme une fiche d'information réglementaire expliquant COMMENT une garantie de responsabilité civile se déclenche dans le temps (« Comprendre les termes », « Si votre contrat garantit exclusivement votre responsabilité civile vie privée, reportez-vous à l'article 1 »), et non comme des garanties accordées par ce contrat auto. En faire des garanties reviendrait à affirmer que ce contrat auto couvre la RC vie privée et la RC professionnelle, ce que le document ne dit nulle part : la seule garantie RC accordée est celle de l'article 3 (obligation d'assurance de l'article L 211-1, déjà extraite p. 21). Ces articles sont donc enregistrés dans `special_conditions`, article par article, avec leur texte intégral. À noter que la page 17 précise que « Les annexes prévalent sur les Conditions Générales » : cette annexe a donc une valeur contractuelle et prime en cas de contradiction.
+- Dé-duplication. Avant ajout, chaque nouvelle définition a été comparée aux 63 existantes sur le couple (terme, page) puis sur le terme seul ; chaque nouvelle exclusion et chaque nouveau bloc special_conditions a été recherché dans le JSON existant par mots-clés (« fait dommageable », « période subséquente », « vie privée », « A.112 », « Pièce de réemploi », « Signature électronique », « Tiers de confiance », « Services numériques », « Local verrouillé »…). Aucun doublon exact n'a été trouvé : les pages 54 à 57 n'étaient représentées nulle part dans l'extraction précédente, et « période subséquente », « période de validité », « vie privée » et « A.112 » y étaient totalement absents. Deux termes seulement existaient déjà, sous une AUTRE page et avec un AUTRE texte (« Panne » et « Souscripteur », p. 27) : ils ont été ajoutés comme entrées distinctes plutôt que fusionnés (voir l'entrée suivante). Les 4 définitions de l'annexe portent le suffixe « (annexe fiche d'information RC dans le temps) » pour ne pas être confondues avec le Lexique du contrat.
+- CONTRADICTION INTERNE conservée en double lecture : le contrat définit deux fois « Panne » et deux fois « Souscripteur », avec des textes différents. « Panne » p. 27 (chapitre Assistance) : « mettant le véhicule hors d'état de poursuivre le déplacement prévu ou en cours, dans des conditions de circulation normales sur le plan de la sécurité des personnes ou des véhicules » ; « Panne » p. 54 (Lexique) : « empêchant le véhicule garanti de poursuivre le déplacement prévu ou en cours dans des conditions normales de circulation ». « Souscripteur » p. 27 vise le bénéficiaire de l'assistance, « Souscripteur » p. 54 la personne désignée aux Conditions Personnelles, responsable de l'exécution du contrat. Les deux lectures sont enregistrées ; aucune n'a été arbitrée. Le document ne dit pas laquelle prévaut.
+- CONTRADICTION INTERNE sur le capital social d'Avanssur, confirmée par la page récupérée. Page 17 et page 57 (dos de couverture) : « SA au capital de 37 507,40 € ». Page 52 (Lexique, entrée « Assureur ou Nous ») : « SA au capital de 99429429,54 € » — écrit sans séparateur de milliers, contrairement à tous les autres montants du document. Même société (378 393 946 RCS Nanterre), deux chiffres. Les deux étaient déjà dans l'extraction ; la page 57 récupérée fait 2 mentions contre 1 pour le chiffre de la page 52, mais rien dans le document ne tranche. Non réconcilié.
+- DIVERGENCE document / nom de fichier. Le dos de couverture (p. 57) imprime « AUTO_02.26     VW_V8     Crédits photos : Thinckstock     N° IDU : FR232655_03PSOH », alors que le nom du fichier source est AUTO_02.26_VW_VF.pdf. La référence « AUTO_02.26 » concorde (elle figure aussi sur la couverture des Conditions Générales, p. 17) ; le suffixe de version diverge (VW_V8 imprimé contre VW_VF dans l'URL). Le document fait foi : `reference` reste « AUTO_02.26 », inchangé. Aucune date d'édition n'est écrite en toutes lettres nulle part dans le document, y compris sur les pages récupérées.
+- ANOMALIE DE NUMÉROTATION dans l'annexe (p. 55), reproduite verbatim sans correction. Après « 2.2.1. Premier cas » (réclamation pendant la période de validité) et « 2.2.2. Second cas » (réclamation pendant la période subséquente), le document enchaîne sur « 2.2.3. Cas 2.2.1 : l'Assuré n'a pas souscrit de nouvelle garantie… » et « 2.2.4. Cas 2.2.2 : l'Assuré a souscrit une nouvelle garantie… ». Les renvois « Cas 2.2.1 » et « Cas 2.2.2 » désignent donc des hypothèses qui ne correspondent pas à ce que les paragraphes 2.2.1 et 2.2.2 énoncent (ce sont, dans le texte réglementaire d'origine, les deux sous-cas du second cas). Les quatre paragraphes sont enregistrés tels qu'imprimés, sans renumérotation.
+- Pages 53 à 57 : AUCUNE nouvelle garantie et aucune nouvelle exclusion des garanties de ce contrat. Ces pages contiennent la fin du Lexique, l'annexe réglementaire et le dos de couverture. Les deux entrées ajoutées dans `exclusions` proviennent de l'annexe et portent dans `applies_to` la mention explicite qu'elles concernent les garanties de responsabilité civile déclenchées « par la réclamation » et non la garantie RC automobile du présent contrat, qui est déclenchée par le fait dommageable (art. 3.4, p. 21). Elles ne doivent pas être lues comme des exclusions de la garantie RC auto.
+- Qualité du texte layer sur les pages récupérées : propre. Aucun glyphe de zone privée, aucun U+200B, aucune décomposition NFD, aucun U+0007, aucune ligature perdue (« définitions » sort entier). Le document utilise en revanche des espaces fines U+2009, des espaces de ponctuation U+2008 (dans les titres « ARTICLE 1 », « ARTICLE 2 » et les numéros 2.1/2.2), des espaces insécables U+00A0 dans les montants et références légales (deux tirets conditionnels U+00AD existent ailleurs dans le document, aucun sur les pages récupérées) ; toutes les citations ont été découpées par programme pour les préserver. Une coupure de mot par trait d'union en fin de ligne existe p. 55 (« de celle-\nci », art. 2.2.4) : les citations ont été tracées autour.
+- Page 55 : le titre courant « ANNEXE : FICHE D'INFORMATION RELATIVE AU FONCTIONNEMENT DES GARANTIES « RESPONSABILITÉ CIVILE » DANS LE TEMPS » et le folio apparaissent en FIN du flux de texte de la page, après le corps de l'article 2.2.4, et non au début. C'est un artefact d'ordre du flux PDF, pas une information contractuelle placée là. Les folios imprimés ne sont pas les numéros de page : sur ce document folio = page PDF − 16 (page PDF 55 porte « ANNEXE — 39 », page PDF 57 n'a pas de folio). Tous les champs `page` de ce fichier citent le numéro de page PDF ; vérifié par recherche d'ancre pour les 52 key_quotes.
 - La date d'édition n'est pas écrite en toutes lettres dans le document. Le code « AUTO_02.26 » figure sur la couverture des Conditions Générales (page 17) et a été repris tel quel dans `reference` ; `edition_date` reprend ce même code (02.26) sans que le document confirme explicitement qu'il s'agit d'une date d'édition février 2026.
 - Le contexte de la tâche mentionne un document « Auto et Auto connectée », mais le texte fourni ne contient aucune occurrence de « Auto connectée », ni de dispositif télématique/boîtier connecté. Aucune garantie ou condition spécifique à une formule connectée n'a donc pu être extraite.
 - Les montants de nombreuses Franchises (Bris de glace, Incendie, Vol, Attentats, Dommages tous accidents, Contenu du véhicule) ainsi que le plafond de la Garantie personnelle du conducteur et le taux d'AIPP renvoient aux Conditions Personnelles, qui ne font pas partie de ce document. Seuls les montants réglementaires ou forfaitaires imprimés (380 €, 1 500 €, 100 €, 20 €, 760 €, 4 600 €, 1 000 €, 460 €/920 €) ont pu être capturés.

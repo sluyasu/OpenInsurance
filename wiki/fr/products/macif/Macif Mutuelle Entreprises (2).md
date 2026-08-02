@@ -651,6 +651,7 @@ La prescription est le délai au-delà duquel une action n'est plus recevable. L
 ## Documents liés
 
 - [Macif Mutuelle Entreprises](Macif%20Mutuelle%20Entreprises.md) - Conditions générales, éd. 2025-01
+- [Macif Mutuelle Entreprises (contrat collectif à adhésion obligatoire) - IPID](Macif%20Mutuelle%20Entreprises%20%28contrat%20collectif%20%C3%A0%20adh%C3%A9sion%20obligatoire%29%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/25
 
 ## Source & fidélité
 
