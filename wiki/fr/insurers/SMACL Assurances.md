@@ -5,7 +5,7 @@ country: fr
 insurer_slug: smacl
 name: SMACL Assurances
 website: https://www.smacl.fr
-products_count: 43
+products_count: 44
 branches_covered:
 - auto
 - autres
@@ -14,6 +14,7 @@ branches_covered:
 - prevoyance
 - protection-juridique
 - rc-professionnelle
+- transport
 tags:
 - insurance/fr
 - insurer
@@ -29,7 +30,7 @@ generated: true
 
 ## Résumé
 
-**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 43 document(s) across 7 branch(es).
+**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 44 document(s) across 8 branch(es).
 
 ## Produits par branche
 
@@ -89,6 +90,9 @@ generated: true
 ### [RC professionnelle](../branches/RC%20professionnelle.md)
 - [Convergence - Responsabilité civile - IPID](../products/smacl/Convergence%20-%20Responsabilit%C3%A9%20civile%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. CONVERGENCE_DIPA_RC_SA_03(09_2022)
 - [Sécurité des fonctionnaires territoriaux - IPID](../products/smacl/S%C3%A9curit%C3%A9%20des%20fonctionnaires%20territoriaux%20-%20IPID.md) - IPID / Fiche d'information (01/2022) · réf. PP_DIPA_SFT_02(07_2020)
+
+### Marchandises transportées
+- [Conventions spéciales CONVERGENCE - Tous risques expositions clou à clou](../products/smacl/Conventions%20sp%C3%A9ciales%20CONVERGENCE%20-%20Tous%20risques%20expositions%20clou%20%C3%A0%20clou.md) - Conditions générales (01/2024) · réf. CONVERGENCE_CS_TRE_SA_01(05_2016)
 
 ## Source
 

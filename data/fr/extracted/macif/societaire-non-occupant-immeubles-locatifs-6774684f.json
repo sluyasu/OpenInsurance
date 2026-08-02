@@ -1,869 +1,869 @@
 {
- "schema_version": "1.0",
- "prompt_version": "1.1",
- "country": "fr",
- "insurer_slug": "macif",
- "insurer_name": "Macif",
- "product_name": "Sociétaire non occupant - Immeubles locatifs",
- "branch": "habitation",
- "branch_code": null,
- "document_type": "ipid",
- "language": "fr",
- "target_audience": null,
- "target_audience_note": "Le document ne désigne aucune catégorie de public. Il vise « l’assuré » propriétaire d’un « bâtiment ou immeuble qu’il loue vide ou meublé à plusieurs locataires ou qui est occupé en tout ou partie par des activités commerciales ou professionnelles » ; la résiliation infra-annuelle est réservée « pour les personnes physiques ayant souscrit le contrat pour un risque autre que professionnel ».",
- "reference": "HAB-SNO-IL 10/18",
- "edition_date": "10/18",
- "product_family": "Assurance multirisques immeuble",
- "variant": "Sociétaire non occupant - Immeubles locatifs",
- "is_extension": false,
- "extends": null,
- "superseded": null,
- "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_proprietaire_non_occupant_immeubles_locatifs.pdf",
- "source_pdf": "societaire-non-occupant-immeubles-locatifs-6774684f.pdf",
- "source_sha256": "34cfd63f86029340fbb813682b2fdee88fd788c8233404345652b362e66591b4",
- "source_pages": 2,
- "fetched_at": "2026-08-01",
- "extraction_model": "claude-code-subagent:scale",
- "summary": "Document d’information (DIPA/IPID) du contrat « Sociétaire non occupant - Immeubles locatifs » de Macif, société d’assurance mutuelle à cotisations variables (SIREN n° 781 452 511), entreprise régie par le Code des assurances. Le contrat protège l’assuré contre les conséquences d’événements affectant son bâtiment ou immeuble qu’il loue vide ou meublé à plusieurs locataires ou qui est occupé en tout ou partie par des activités commerciales ou professionnelles. Il assure les biens immobiliers (immeuble, annexes et dépendances, installations et aménagements intégrés, clôtures et plantations) et une partie des biens mobiliers des parties communes, contre onze catégories d’événements (incendie, dégât des eaux, tempête, catastrophes naturelles, vol, bris des glaces, terrorisme, etc.) ainsi que les pertes et frais consécutifs. Il garantit également la responsabilité civile du fait des biens assurés ou de leurs gardiens et concierges, les recours des locataires, voisins et tiers, la responsabilité locative, la défense de l’assuré et la protection juridique.",
- "definitions": [],
- "coverages": [
-  {
-   "name": "Biens immobiliers - l’immeuble",
-   "description": "L’immeuble occupé par plusieurs locataires ou en tout ou partie par des activités commerciales ou professionnelles.",
-   "is_optional": false,
-   "territorial_scope": "À l’adresse du risque, en France métropolitaine",
-   "limits": null,
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [],
-   "page": 1
-  },
-  {
-   "name": "Biens immobiliers - ses annexes et dépendances",
-   "description": "Ses annexes et dépendances.",
-   "is_optional": false,
-   "territorial_scope": "À l’adresse du risque, en France métropolitaine",
-   "limits": null,
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [],
-   "page": 1
-  },
-  {
-   "name": "Biens immobiliers - installations et aménagements intégrés",
-   "description": "Les installations et aménagements intégrés à ces constructions.",
-   "is_optional": false,
-   "territorial_scope": "À l’adresse du risque, en France métropolitaine",
-   "limits": null,
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [],
-   "page": 1
-  },
-  {
-   "name": "Biens immobiliers - clôtures, plantations et installations fixes",
-   "description": "Les clôtures, plantations et installations fixes à usage des occupants, situées sur le terrain attenant au(x) bâtiment(s).",
-   "is_optional": false,
-   "territorial_scope": "À l’adresse du risque, en France métropolitaine",
-   "limits": null,
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [],
-   "page": 1
-  },
-  {
-   "name": "Biens mobiliers - mobilier des parties communes",
-   "description": "Le mobilier mis dans les parties communes à la disposition de l’ensemble des occupants.",
-   "is_optional": false,
-   "territorial_scope": "À l’adresse du risque, en France métropolitaine",
-   "limits": null,
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [],
-   "page": 1
-  },
-  {
-   "name": "Biens mobiliers - mobilier des gardiens ou concierges",
-   "description": "Le mobilier mis à la disposition des gardiens ou concierges dans leurs loges ou appartements de fonction.",
-   "is_optional": false,
-   "territorial_scope": "À l’adresse du risque, en France métropolitaine",
-   "limits": null,
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [],
-   "page": 1
-  },
-  {
-   "name": "Biens mobiliers - matériel d’entretien",
-   "description": "Le matériel d’entretien des bâtiments.",
-   "is_optional": false,
-   "territorial_scope": "À l’adresse du risque, en France métropolitaine",
-   "limits": null,
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [],
-   "page": 1
-  },
-  {
-   "name": "Biens mobiliers - approvisionnements",
-   "description": "Les approvisionnements y compris les combustibles.",
-   "is_optional": false,
-   "territorial_scope": "À l’adresse du risque, en France métropolitaine",
-   "limits": null,
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [],
-   "page": 1
-  },
-  {
-   "name": "Biens mobiliers - mobilier d’habitation mis à disposition des locataires (option)",
-   "description": "Le mobilier d’habitation mis à la disposition des locataires et occupants.",
-   "is_optional": true,
-   "territorial_scope": "À l’adresse du risque, en France métropolitaine",
-   "limits": null,
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [],
-   "page": 1
-  },
-  {
-   "name": "L’incendie, l’explosion ou l’implosion, la chute de la foudre",
-   "description": "L’incendie, l’explosion ou l’implosion, la chute de la foudre.",
-   "is_optional": false,
-   "territorial_scope": "À l’adresse du risque, en France métropolitaine",
-   "limits": null,
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [],
-   "page": 1
-  },
-  {
-   "name": "L’action de l’électricité",
-   "description": "L’action de l’électricité.",
-   "is_optional": false,
-   "territorial_scope": "À l’adresse du risque, en France métropolitaine",
-   "limits": null,
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [],
-   "page": 1
-  },
-  {
-   "name": "Le choc de véhicules terrestres, la chute d’aéronefs",
-   "description": "Le choc de véhicules terrestres, la chute d’aéronefs.",
-   "is_optional": false,
-   "territorial_scope": "À l’adresse du risque, en France métropolitaine",
-   "limits": null,
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Exclut le choc de véhicule terrestre conduit par l’assuré ou un membre de sa famille."
-   ],
-   "page": 1
-  },
-  {
-   "name": "Les fumées accidentelles d’un appareil de chauffage",
-   "description": "Les fumées accidentelles d’un appareil de chauffage relié à un conduit de fumée.",
-   "is_optional": false,
-   "territorial_scope": "À l’adresse du risque, en France métropolitaine",
-   "limits": null,
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [],
-   "page": 1
-  },
-  {
-   "name": "La tempête, les avalanches, les inondations",
-   "description": "La tempête, les avalanches, les inondations.",
-   "is_optional": false,
-   "territorial_scope": "À l’adresse du risque, en France métropolitaine",
-   "limits": null,
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "La 2e inondation, ainsi que les suivantes, subies par les bâtiments au cours des 15 dernières années est exclue (sauf catastrophe naturelle)."
-   ],
-   "page": 1
-  },
-  {
-   "name": "La grêle et le poids de la neige sur les toitures",
-   "description": "La grêle et le poids de la neige sur les toitures.",
-   "is_optional": false,
-   "territorial_scope": "À l’adresse du risque, en France métropolitaine",
-   "limits": null,
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [],
-   "page": 1
-  },
-  {
-   "name": "Les catastrophes naturelles",
-   "description": "Les catastrophes naturelles.",
-   "is_optional": false,
-   "territorial_scope": "À l’adresse du risque, en France métropolitaine",
-   "limits": null,
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable."
-   ],
-   "page": 1
-  },
-  {
-   "name": "Le dégât des eaux, les frais de recherche de fuite, l’action du gel",
-   "description": "Le dégât des eaux et les frais de recherche de fuite, l’action du gel.",
-   "is_optional": false,
-   "territorial_scope": "À l’adresse du risque, en France métropolitaine",
-   "limits": null,
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Exclut les dégâts des eaux ou du gel survenus alors que les mesures de prévention n’ont pas été mises en œuvre."
-   ],
-   "page": 1
-  },
-  {
-   "name": "Le vol et les actes de vandalisme",
-   "description": "Le vol et les actes de vandalisme.",
-   "is_optional": false,
-   "territorial_scope": "À l’adresse du risque, en France métropolitaine",
-   "limits": null,
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Exclut les vols et actes de vandalisme causés aux jardins et plantations ainsi que les tags et graffitis sur les murs extérieurs.",
-    "Exclut les vols et détériorations commis dans des locaux à usage collectif."
-   ],
-   "page": 1
-  },
-  {
-   "name": "Le bris des glaces",
-   "description": "Le bris des glaces.",
-   "is_optional": false,
-   "territorial_scope": "À l’adresse du risque, en France métropolitaine",
-   "limits": null,
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Les agencements, aménagements, vitrines et glaces de devantures, des magasins et locaux commerciaux ou artisanaux ne sont pas couverts durant leur exploitation par les locataires (principale restriction)."
-   ],
-   "page": 1
-  },
-  {
-   "name": "Les actes de terrorisme, attentats, émeutes, mouvements populaires",
-   "description": "Les actes de terrorisme, attentats, émeutes, mouvements populaires.",
-   "is_optional": false,
-   "territorial_scope": "À l’adresse du risque, en France métropolitaine",
-   "limits": null,
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [],
-   "page": 1
-  },
-  {
-   "name": "Pertes et frais consécutifs à un événement garanti",
-   "description": "En cas d’événement garanti : la perte de loyers, les frais de déblaiement et de démolition, de gardiennage et/ou de clôture provisoire, les frais de relogement des gardiens et concierges, les pertes indirectes, les frais de déplacement, de garde-meuble et de replacement du mobilier, le remboursement de la prime Dommages ouvrage, les frais de mise en conformité avec la règlementation, les honoraires d’expert.",
-   "is_optional": false,
-   "territorial_scope": "À l’adresse du risque, en France métropolitaine",
-   "limits": null,
-   "sub_limits": [
-    "la perte de loyers",
-    "les frais de déblaiement et de démolition",
-    "les frais de gardiennage et/ou de clôture provisoire",
-    "les frais de relogement des gardiens et concierges",
-    "les pertes indirectes",
-    "les frais de déplacement, de garde-meuble et de replacement du mobilier",
-    "le remboursement de la prime Dommages ouvrage",
-    "les frais de mise en conformité avec la règlementation",
-    "les honoraires d’expert"
-   ],
-   "deductible": null,
-   "conditions": [
-    "En cas d’événement garanti."
-   ],
-   "page": 1
-  },
-  {
-   "name": "Responsabilité civile du fait des biens assurés et des gardiens et concierges",
-   "description": "La responsabilité civile pour les dommages causés aux tiers par les biens assurés ou par les gardiens et concierges dans l’exercice de leurs fonctions.",
-   "is_optional": false,
-   "territorial_scope": "À l’adresse du risque, en France métropolitaine",
-   "limits": "dans la limite de 50 millions d’euros dont 10 millions pour les dommages matériels et immatériels consécutifs",
-   "sub_limits": [
-    "10 millions pour les dommages matériels et immatériels consécutifs"
-   ],
-   "deductible": null,
-   "conditions": [
-    "Exclut les dommages immatériels, non consécutifs à un dommage matériel ou corporel garanti, causés aux tiers.",
-    "Exclut la responsabilité civile des entreprises et organismes intervenant pour l’entretien ou la gestion des biens assurés.",
-    "Exclut les dommages causés aux tiers lors de travaux de construction, rénovation ou d’installation relevant de la législation sur la construction."
-   ],
-   "page": 1
-  },
-  {
-   "name": "Le recours des locataires",
-   "description": "Le recours des locataires.",
-   "is_optional": false,
-   "territorial_scope": "À l’adresse du risque, en France métropolitaine",
-   "limits": null,
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [],
-   "page": 1
-  },
-  {
-   "name": "Le recours des voisins et des tiers",
-   "description": "Le recours des voisins et des tiers.",
-   "is_optional": false,
-   "territorial_scope": "À l’adresse du risque, en France métropolitaine",
-   "limits": null,
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [],
-   "page": 1
-  },
-  {
-   "name": "La responsabilité locative lorsque l’assuré est locataire principal non occupant",
-   "description": "La responsabilité locative lorsque l’assuré est locataire principal non occupant.",
-   "is_optional": false,
-   "territorial_scope": "À l’adresse du risque, en France métropolitaine",
-   "limits": null,
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [],
-   "page": 1
-  },
-  {
-   "name": "La défense de l’assuré",
-   "description": "La défense de l’assuré.",
-   "is_optional": false,
-   "territorial_scope": "À l’adresse du risque, en France métropolitaine",
-   "limits": null,
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [],
-   "page": 1
-  },
-  {
-   "name": "Le recours de l’assuré et sa protection juridique",
-   "description": "Protection des droits de l’assuré : le recours de l’assuré et sa protection juridique en cas de dommages subis par les bâtiments et biens assurés.",
-   "is_optional": false,
-   "territorial_scope": "À l’adresse du risque, en France métropolitaine",
-   "limits": null,
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Les recours amiables et judiciaires sont exercés pour les préjudices d’un montant supérieur au seuil d’intervention (principale restriction).",
-    "Exclut les recours à l’encontre des personnes dont la responsabilité peut être recherchée dans le cadre de la législation en vigueur sur la construction."
-   ],
-   "page": 1
-  }
- ],
- "exclusions": [
-  {
-   "name": "Véhicules à moteur et leurs remorques",
-   "description": "Les véhicules à moteur et leurs remorques. (Rubrique « Qu’est-ce qui n’est pas assuré ? ».)",
-   "applies_to": "all",
-   "page": 1
-  },
-  {
-   "name": "Biens personnels des locataires ou occupants",
-   "description": "Les biens personnels des locataires ou occupants. (Rubrique « Qu’est-ce qui n’est pas assuré ? ».)",
-   "applies_to": "all",
-   "page": 1
-  },
-  {
-   "name": "Objets précieux",
-   "description": "Les objets précieux. (Rubrique « Qu’est-ce qui n’est pas assuré ? ».)",
-   "applies_to": "all",
-   "page": 1
-  },
-  {
-   "name": "Dommages intentionnels ou faute dolosive",
-   "description": "Les dommages causés ou provoqués intentionnellement par l’assuré ou avec sa complicité, ou résultant de sa faute dolosive. (Exclusion commune à toutes les garanties.)",
-   "applies_to": "all",
-   "page": 1
-  },
-  {
-   "name": "Guerre étrangère ou civile",
-   "description": "Les dommages résultant de la guerre étrangère ou civile. (Exclusion commune à toutes les garanties.)",
-   "applies_to": "all",
-   "page": 1
-  },
-  {
-   "name": "Origine nucléaire",
-   "description": "Les dommages d’origine nucléaire. (Exclusion commune à toutes les garanties.)",
-   "applies_to": "all",
-   "page": 1
-  },
-  {
-   "name": "Bâtiments occupés par des personnes non autorisées",
-   "description": "Les dégâts des eaux, vols, actes de vandalisme et bris de glaces lorsque les bâtiments sont occupés par des personnes non autorisées par l’assuré. (Exclusion spécifique à certaines garanties.)",
-   "applies_to": "Le dégât des eaux ; Le vol et les actes de vandalisme ; Le bris des glaces",
-   "page": 1
-  },
-  {
-   "name": "Choc de véhicule conduit par l’assuré ou un membre de sa famille",
-   "description": "Le choc de véhicule terrestre conduit par l’assuré ou un membre de sa famille. (Exclusion spécifique à certaines garanties.)",
-   "applies_to": "Le choc de véhicules terrestres, la chute d’aéronefs",
-   "page": 1
-  },
-  {
-   "name": "2e inondation et suivantes sur 15 ans",
-   "description": "La 2e inondation, ainsi que les suivantes, subies par les bâtiments au cours des 15 dernières années (sauf catastrophe naturelle). (Exclusion spécifique à certaines garanties.)",
-   "applies_to": "La tempête, les avalanches, les inondations",
-   "page": 1
-  },
-  {
-   "name": "Marées, raz-de-marée, glissements de terrain, coulées de boue",
-   "description": "Les dommages causés par les marées, raz-de-marée, glissements de terrain et coulées de boue (sauf catastrophe naturelle). (Exclusion spécifique à certaines garanties.)",
-   "applies_to": "La tempête, les avalanches, les inondations",
-   "page": 1
-  },
-  {
-   "name": "Mesures de prévention non mises en œuvre (dégât des eaux, gel)",
-   "description": "Les dégâts des eaux ou du gel survenus alors que les mesures de prévention n’ont pas été mises en œuvre. (Exclusion spécifique à certaines garanties.)",
-   "applies_to": "Le dégât des eaux, les frais de recherche de fuite, l’action du gel",
-   "page": 1
-  },
-  {
-   "name": "Vols et vandalisme aux jardins, plantations, tags et graffitis",
-   "description": "Les vols et actes de vandalisme causés aux jardins et plantations ainsi que les tags et graffitis sur les murs extérieurs. (Exclusion spécifique à certaines garanties.)",
-   "applies_to": "Le vol et les actes de vandalisme",
-   "page": 1
-  },
-  {
-   "name": "Vols et détériorations dans des locaux à usage collectif",
-   "description": "Les vols et détériorations commis dans des locaux à usage collectif. (Exclusion spécifique à certaines garanties.)",
-   "applies_to": "Le vol et les actes de vandalisme",
-   "page": 1
-  },
-  {
-   "name": "Dommages immatériels non consécutifs",
-   "description": "Les dommages immatériels, non consécutifs à un dommage matériel ou corporel garanti, causés aux tiers. (Exclusion spécifique à certaines garanties.)",
-   "applies_to": "Responsabilité civile du fait des biens assurés et des gardiens et concierges",
-   "page": 1
-  },
-  {
-   "name": "RC des entreprises et organismes d’entretien ou de gestion",
-   "description": "La responsabilité civile des entreprises et organismes intervenant pour l’entretien ou la gestion des biens assurés. (Exclusion spécifique à certaines garanties.)",
-   "applies_to": "Responsabilité civile du fait des biens assurés et des gardiens et concierges",
-   "page": 1
-  },
-  {
-   "name": "Dommages lors de travaux relevant de la législation sur la construction",
-   "description": "Les dommages causés aux tiers lors de travaux de construction, rénovation ou d’installation relevant de la législation sur la construction. (Exclusion spécifique à certaines garanties.)",
-   "applies_to": "Responsabilité civile du fait des biens assurés et des gardiens et concierges",
-   "page": 1
-  },
-  {
-   "name": "Recours relevant de la législation sur la construction",
-   "description": "Les recours à l’encontre des personnes dont la responsabilité peut être recherchée dans le cadre de la législation en vigueur sur la construction. (Exclusion spécifique à certaines garanties.)",
-   "applies_to": "Le recours de l’assuré et sa protection juridique",
-   "page": 1
-  }
- ],
- "deductibles": {
-  "standard": "En cas de sinistre une somme peut rester à la charge de l’assuré (franchise). Le montant n’est pas indiqué dans le document.",
-  "variable": null,
-  "per_coverage": {
-   "Les catastrophes naturelles": "Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable"
-  },
-  "page": 1
- },
- "waiting_periods": [],
- "obligations": [
-  {
-   "name": "Déclaration du risque à la souscription",
-   "description": "À la souscription du contrat : répondre exactement à toutes les questions posées pour identifier la nature du risque à assurer.",
-   "timing": "À la souscription du contrat",
-   "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
-   "page": 2
-  },
-  {
-   "name": "Déclaration des circonstances nouvelles en cours de contrat",
-   "description": "En cours de contrat : déclarer dans les 15 jours, à partir du moment où l’asuré en a eu connaissance, par lettre recommandée ou auprès d’un conseiller, toutes les circonstances nouvelles et tous les changements qui modifient les renseignements fournis lors de la souscription et qui sont de nature à aggraver le risque assuré ou à en créer un nouveau.",
-   "timing": "En cours de contrat - dans les 15 jours",
-   "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
-   "page": 2
-  },
-  {
-   "name": "Conservation des justificatifs",
-   "description": "Conserver tout document permettant de prouver l’existence et la valeur des biens.",
-   "timing": "En cours de contrat",
-   "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
-   "page": 2
-  },
-  {
-   "name": "Mesures conservatoires",
-   "description": "Prendre toutes les dispositions nécessaires pour stopper l’évolution du sinistre, sauver tous les biens qui peuvent l’être et veiller à leur conservation.",
-   "timing": "En cas de sinistre",
-   "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
-   "page": 2
-  },
-  {
-   "name": "Déclaration du sinistre",
-   "description": "Déclarer le sinistre à l’assureur à partir du moment où l’assuré en a connaissance et au plus tard dans les 5 jours ouvrés, dans les 2 jours ouvrés pour un vol, dans les 10 jours suivant la publication d’un arrêté de catastrophe naturelle.",
-   "timing": "En cas de sinistre - 5 jours ouvrés (2 jours ouvrés pour un vol ; 10 jours après un arrêté de catastrophe naturelle)",
-   "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
-   "page": 2
-  },
-  {
-   "name": "Contenu de la déclaration",
-   "description": "Indiquer les date et heure du sinistre, les causes connues ou supposées ainsi que ses conséquences et les coordonnées des personnes lésées, des témoins et du ou des responsables éventuels.",
-   "timing": "En cas de sinistre",
-   "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
-   "page": 2
-  },
-  {
-   "name": "Plainte en cas de vol ou de vandalisme",
-   "description": "En cas de vol, tentative de vol ou d’acte de vandalisme, prévenir la police ou la gendarmerie dans les 24 heures et déposer une plainte.",
-   "timing": "En cas de sinistre - dans les 24 heures",
-   "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
-   "page": 2
-  },
-  {
-   "name": "Plainte en cas de choc de véhicule non identifié",
-   "description": "En cas de choc de véhicule terrestre à moteur non identifié, déposer plainte.",
-   "timing": "En cas de sinistre",
-   "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
-   "page": 2
-  },
-  {
-   "name": "Signaler les autres assureurs",
-   "description": "Transmettre les coordonnées des éventuels assureurs couvrant le même risque.",
-   "timing": "En cas de sinistre",
-   "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
-   "page": 2
-  },
-  {
-   "name": "Transmission des pièces de procédure",
-   "description": "Transmettre immédiatement toute pièce de procédure (avis à victime, assignation…) ainsi que tout document concernant le sinistre.",
-   "timing": "En cas de sinistre - immédiatement",
-   "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
-   "page": 2
-  }
- ],
- "claims_procedure": [
-  {
-   "step": "Mesures conservatoires",
-   "description": "Prendre toutes les dispositions nécessaires pour stopper l’évolution du sinistre, sauver tous les biens qui peuvent l’être et veiller à leur conservation.",
-   "deadline": null,
-   "page": 2
-  },
-  {
-   "step": "Déclaration du sinistre",
-   "description": "Déclarer le sinistre à l’assureur à partir du moment où l’assuré en a connaissance.",
-   "deadline": "Au plus tard dans les 5 jours ouvrés ; dans les 2 jours ouvrés pour un vol ; dans les 10 jours suivant la publication d’un arrêté de catastrophe naturelle",
-   "page": 2
-  },
-  {
-   "step": "Contenu de la déclaration",
-   "description": "Indiquer les date et heure du sinistre, les causes connues ou supposées ainsi que ses conséquences et les coordonnées des personnes lésées, des témoins et du ou des responsables éventuels.",
-   "deadline": null,
-   "page": 2
-  },
-  {
-   "step": "Dépôt de plainte",
-   "description": "En cas de vol, tentative de vol ou d’acte de vandalisme, prévenir la police ou la gendarmerie et déposer une plainte ; en cas de choc de véhicule terrestre à moteur non identifié, déposer plainte.",
-   "deadline": "Dans les 24 heures pour le vol, la tentative de vol ou l’acte de vandalisme",
-   "page": 2
-  },
-  {
-   "step": "Autres assurances",
-   "description": "Transmettre les coordonnées des éventuels assureurs couvrant le même risque.",
-   "deadline": null,
-   "page": 2
-  },
-  {
-   "step": "Pièces de procédure",
-   "description": "Transmettre toute pièce de procédure (avis à victime, assignation…) ainsi que tout document concernant le sinistre.",
-   "deadline": "Immédiatement",
-   "page": 2
-  }
- ],
- "duration_and_cancellation": {
-  "duration": "La couverture commence à partir de la date convenue d’un commun accord et dure jusqu’à la date d’échéance principale. À cette date, le contrat est renouvelé automatiquement par période annuelle, sauf si l’une des parties décide d’y mettre fin dans les délais et conditions prévus au contrat.",
-  "tacit_renewal": true,
-  "notice_period": "un préavis d’un mois (résiliation à l’échéance principale)",
-  "methods": [
-   "Soit par l’envoi d’une lettre recommandée, soit en effectuant une déclaration auprès d’un conseiller de l’assureur"
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "macif",
+  "insurer_name": "Macif",
+  "product_name": "Sociétaire non occupant - Immeubles locatifs",
+  "branch": "habitation",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "Le document ne désigne aucune catégorie de public. Il vise « l’assuré » propriétaire d’un « bâtiment ou immeuble qu’il loue vide ou meublé à plusieurs locataires ou qui est occupé en tout ou partie par des activités commerciales ou professionnelles » ; la résiliation infra-annuelle est réservée « pour les personnes physiques ayant souscrit le contrat pour un risque autre que professionnel ».",
+  "reference": "HAB-SNO-IL 10/18",
+  "edition_date": "10/18",
+  "product_family": "Assurance multirisques immeuble",
+  "variant": "Sociétaire non occupant - Immeubles locatifs",
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_proprietaire_non_occupant_immeubles_locatifs.pdf",
+  "source_pdf": "societaire-non-occupant-immeubles-locatifs-6774684f.pdf",
+  "source_sha256": "34cfd63f86029340fbb813682b2fdee88fd788c8233404345652b362e66591b4",
+  "source_pages": 2,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d’information (DIPA/IPID) du contrat « Sociétaire non occupant - Immeubles locatifs » de Macif, société d’assurance mutuelle à cotisations variables (SIREN n° 781 452 511), entreprise régie par le Code des assurances. Le contrat protège l’assuré contre les conséquences d’événements affectant son bâtiment ou immeuble qu’il loue vide ou meublé à plusieurs locataires ou qui est occupé en tout ou partie par des activités commerciales ou professionnelles. Il assure les biens immobiliers (immeuble, annexes et dépendances, installations et aménagements intégrés, clôtures et plantations) et une partie des biens mobiliers des parties communes, contre onze catégories d’événements (incendie, dégât des eaux, tempête, catastrophes naturelles, vol, bris des glaces, terrorisme, etc.) ainsi que les pertes et frais consécutifs. Il garantit également la responsabilité civile du fait des biens assurés ou de leurs gardiens et concierges, les recours des locataires, voisins et tiers, la responsabilité locative, la défense de l’assuré et la protection juridique.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Biens immobiliers - l’immeuble",
+      "description": "L’immeuble occupé par plusieurs locataires ou en tout ou partie par des activités commerciales ou professionnelles.",
+      "is_optional": false,
+      "territorial_scope": "À l’adresse du risque, en France métropolitaine",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Biens immobiliers - ses annexes et dépendances",
+      "description": "Ses annexes et dépendances.",
+      "is_optional": false,
+      "territorial_scope": "À l’adresse du risque, en France métropolitaine",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Biens immobiliers - installations et aménagements intégrés",
+      "description": "Les installations et aménagements intégrés à ces constructions.",
+      "is_optional": false,
+      "territorial_scope": "À l’adresse du risque, en France métropolitaine",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Biens immobiliers - clôtures, plantations et installations fixes",
+      "description": "Les clôtures, plantations et installations fixes à usage des occupants, situées sur le terrain attenant au(x) bâtiment(s).",
+      "is_optional": false,
+      "territorial_scope": "À l’adresse du risque, en France métropolitaine",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Biens mobiliers - mobilier des parties communes",
+      "description": "Le mobilier mis dans les parties communes à la disposition de l’ensemble des occupants.",
+      "is_optional": false,
+      "territorial_scope": "À l’adresse du risque, en France métropolitaine",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Biens mobiliers - mobilier des gardiens ou concierges",
+      "description": "Le mobilier mis à la disposition des gardiens ou concierges dans leurs loges ou appartements de fonction.",
+      "is_optional": false,
+      "territorial_scope": "À l’adresse du risque, en France métropolitaine",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Biens mobiliers - matériel d’entretien",
+      "description": "Le matériel d’entretien des bâtiments.",
+      "is_optional": false,
+      "territorial_scope": "À l’adresse du risque, en France métropolitaine",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Biens mobiliers - approvisionnements",
+      "description": "Les approvisionnements y compris les combustibles.",
+      "is_optional": false,
+      "territorial_scope": "À l’adresse du risque, en France métropolitaine",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Biens mobiliers - mobilier d’habitation mis à disposition des locataires (option)",
+      "description": "Le mobilier d’habitation mis à la disposition des locataires et occupants.",
+      "is_optional": true,
+      "territorial_scope": "À l’adresse du risque, en France métropolitaine",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "L’incendie, l’explosion ou l’implosion, la chute de la foudre",
+      "description": "L’incendie, l’explosion ou l’implosion, la chute de la foudre.",
+      "is_optional": false,
+      "territorial_scope": "À l’adresse du risque, en France métropolitaine",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "L’action de l’électricité",
+      "description": "L’action de l’électricité.",
+      "is_optional": false,
+      "territorial_scope": "À l’adresse du risque, en France métropolitaine",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Le choc de véhicules terrestres, la chute d’aéronefs",
+      "description": "Le choc de véhicules terrestres, la chute d’aéronefs.",
+      "is_optional": false,
+      "territorial_scope": "À l’adresse du risque, en France métropolitaine",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Exclut le choc de véhicule terrestre conduit par l’assuré ou un membre de sa famille."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Les fumées accidentelles d’un appareil de chauffage",
+      "description": "Les fumées accidentelles d’un appareil de chauffage relié à un conduit de fumée.",
+      "is_optional": false,
+      "territorial_scope": "À l’adresse du risque, en France métropolitaine",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "La tempête, les avalanches, les inondations",
+      "description": "La tempête, les avalanches, les inondations.",
+      "is_optional": false,
+      "territorial_scope": "À l’adresse du risque, en France métropolitaine",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "La 2e inondation, ainsi que les suivantes, subies par les bâtiments au cours des 15 dernières années est exclue (sauf catastrophe naturelle)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "La grêle et le poids de la neige sur les toitures",
+      "description": "La grêle et le poids de la neige sur les toitures.",
+      "is_optional": false,
+      "territorial_scope": "À l’adresse du risque, en France métropolitaine",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Les catastrophes naturelles",
+      "description": "Les catastrophes naturelles.",
+      "is_optional": false,
+      "territorial_scope": "À l’adresse du risque, en France métropolitaine",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Le dégât des eaux, les frais de recherche de fuite, l’action du gel",
+      "description": "Le dégât des eaux et les frais de recherche de fuite, l’action du gel.",
+      "is_optional": false,
+      "territorial_scope": "À l’adresse du risque, en France métropolitaine",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Exclut les dégâts des eaux ou du gel survenus alors que les mesures de prévention n’ont pas été mises en œuvre."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Le vol et les actes de vandalisme",
+      "description": "Le vol et les actes de vandalisme.",
+      "is_optional": false,
+      "territorial_scope": "À l’adresse du risque, en France métropolitaine",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Exclut les vols et actes de vandalisme causés aux jardins et plantations ainsi que les tags et graffitis sur les murs extérieurs.",
+        "Exclut les vols et détériorations commis dans des locaux à usage collectif."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Le bris des glaces",
+      "description": "Le bris des glaces.",
+      "is_optional": false,
+      "territorial_scope": "À l’adresse du risque, en France métropolitaine",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Les agencements, aménagements, vitrines et glaces de devantures, des magasins et locaux commerciaux ou artisanaux ne sont pas couverts durant leur exploitation par les locataires (principale restriction)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Les actes de terrorisme, attentats, émeutes, mouvements populaires",
+      "description": "Les actes de terrorisme, attentats, émeutes, mouvements populaires.",
+      "is_optional": false,
+      "territorial_scope": "À l’adresse du risque, en France métropolitaine",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Pertes et frais consécutifs à un événement garanti",
+      "description": "En cas d’événement garanti : la perte de loyers, les frais de déblaiement et de démolition, de gardiennage et/ou de clôture provisoire, les frais de relogement des gardiens et concierges, les pertes indirectes, les frais de déplacement, de garde-meuble et de replacement du mobilier, le remboursement de la prime Dommages ouvrage, les frais de mise en conformité avec la règlementation, les honoraires d’expert.",
+      "is_optional": false,
+      "territorial_scope": "À l’adresse du risque, en France métropolitaine",
+      "limits": null,
+      "sub_limits": [
+        "la perte de loyers",
+        "les frais de déblaiement et de démolition",
+        "les frais de gardiennage et/ou de clôture provisoire",
+        "les frais de relogement des gardiens et concierges",
+        "les pertes indirectes",
+        "les frais de déplacement, de garde-meuble et de replacement du mobilier",
+        "le remboursement de la prime Dommages ouvrage",
+        "les frais de mise en conformité avec la règlementation",
+        "les honoraires d’expert"
+      ],
+      "deductible": null,
+      "conditions": [
+        "En cas d’événement garanti."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Responsabilité civile du fait des biens assurés et des gardiens et concierges",
+      "description": "La responsabilité civile pour les dommages causés aux tiers par les biens assurés ou par les gardiens et concierges dans l’exercice de leurs fonctions.",
+      "is_optional": false,
+      "territorial_scope": "À l’adresse du risque, en France métropolitaine",
+      "limits": "dans la limite de 50 millions d’euros dont 10 millions pour les dommages matériels et immatériels consécutifs",
+      "sub_limits": [
+        "10 millions pour les dommages matériels et immatériels consécutifs"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Exclut les dommages immatériels, non consécutifs à un dommage matériel ou corporel garanti, causés aux tiers.",
+        "Exclut la responsabilité civile des entreprises et organismes intervenant pour l’entretien ou la gestion des biens assurés.",
+        "Exclut les dommages causés aux tiers lors de travaux de construction, rénovation ou d’installation relevant de la législation sur la construction."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Le recours des locataires",
+      "description": "Le recours des locataires.",
+      "is_optional": false,
+      "territorial_scope": "À l’adresse du risque, en France métropolitaine",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Le recours des voisins et des tiers",
+      "description": "Le recours des voisins et des tiers.",
+      "is_optional": false,
+      "territorial_scope": "À l’adresse du risque, en France métropolitaine",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "La responsabilité locative lorsque l’assuré est locataire principal non occupant",
+      "description": "La responsabilité locative lorsque l’assuré est locataire principal non occupant.",
+      "is_optional": false,
+      "territorial_scope": "À l’adresse du risque, en France métropolitaine",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "La défense de l’assuré",
+      "description": "La défense de l’assuré.",
+      "is_optional": false,
+      "territorial_scope": "À l’adresse du risque, en France métropolitaine",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Le recours de l’assuré et sa protection juridique",
+      "description": "Protection des droits de l’assuré : le recours de l’assuré et sa protection juridique en cas de dommages subis par les bâtiments et biens assurés.",
+      "is_optional": false,
+      "territorial_scope": "À l’adresse du risque, en France métropolitaine",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Les recours amiables et judiciaires sont exercés pour les préjudices d’un montant supérieur au seuil d’intervention (principale restriction).",
+        "Exclut les recours à l’encontre des personnes dont la responsabilité peut être recherchée dans le cadre de la législation en vigueur sur la construction."
+      ],
+      "page": 1
+    }
   ],
-  "special_rights": [
-   "à l’échéance principale, avec un préavis d’un mois",
-   "si la situation personnelle ou professionnelle de l’assuré change dans certaines conditions",
-   "si la Macif résilie un autre contrat de l’assuré après sinistre",
-   "en cas d’augmentation de la cotisation hors taxes ou des franchises (hors effet de l’indexation)",
-   "à tout moment au-delà d’un délai d’un an à compter de la première souscription pour les personnes physiques ayant souscrit le contrat pour un risque autre que professionnel",
-   "Lorsque le contrat a été souscrit par une personne physique, à distance ou à la suite d’un démarchage à domicile, l’assuré dispose d’un droit de renonciation."
+  "exclusions": [
+    {
+      "name": "Véhicules à moteur et leurs remorques",
+      "description": "Les véhicules à moteur et leurs remorques. (Rubrique « Qu’est-ce qui n’est pas assuré ? ».)",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Biens personnels des locataires ou occupants",
+      "description": "Les biens personnels des locataires ou occupants. (Rubrique « Qu’est-ce qui n’est pas assuré ? ».)",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Objets précieux",
+      "description": "Les objets précieux. (Rubrique « Qu’est-ce qui n’est pas assuré ? ».)",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dommages intentionnels ou faute dolosive",
+      "description": "Les dommages causés ou provoqués intentionnellement par l’assuré ou avec sa complicité, ou résultant de sa faute dolosive. (Exclusion commune à toutes les garanties.)",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Guerre étrangère ou civile",
+      "description": "Les dommages résultant de la guerre étrangère ou civile. (Exclusion commune à toutes les garanties.)",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Origine nucléaire",
+      "description": "Les dommages d’origine nucléaire. (Exclusion commune à toutes les garanties.)",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Bâtiments occupés par des personnes non autorisées",
+      "description": "Les dégâts des eaux, vols, actes de vandalisme et bris de glaces lorsque les bâtiments sont occupés par des personnes non autorisées par l’assuré. (Exclusion spécifique à certaines garanties.)",
+      "applies_to": "Le dégât des eaux ; Le vol et les actes de vandalisme ; Le bris des glaces",
+      "page": 1
+    },
+    {
+      "name": "Choc de véhicule conduit par l’assuré ou un membre de sa famille",
+      "description": "Le choc de véhicule terrestre conduit par l’assuré ou un membre de sa famille. (Exclusion spécifique à certaines garanties.)",
+      "applies_to": "Le choc de véhicules terrestres, la chute d’aéronefs",
+      "page": 1
+    },
+    {
+      "name": "2e inondation et suivantes sur 15 ans",
+      "description": "La 2e inondation, ainsi que les suivantes, subies par les bâtiments au cours des 15 dernières années (sauf catastrophe naturelle). (Exclusion spécifique à certaines garanties.)",
+      "applies_to": "La tempête, les avalanches, les inondations",
+      "page": 1
+    },
+    {
+      "name": "Marées, raz-de-marée, glissements de terrain, coulées de boue",
+      "description": "Les dommages causés par les marées, raz-de-marée, glissements de terrain et coulées de boue (sauf catastrophe naturelle). (Exclusion spécifique à certaines garanties.)",
+      "applies_to": "La tempête, les avalanches, les inondations",
+      "page": 1
+    },
+    {
+      "name": "Mesures de prévention non mises en œuvre (dégât des eaux, gel)",
+      "description": "Les dégâts des eaux ou du gel survenus alors que les mesures de prévention n’ont pas été mises en œuvre. (Exclusion spécifique à certaines garanties.)",
+      "applies_to": "Le dégât des eaux, les frais de recherche de fuite, l’action du gel",
+      "page": 1
+    },
+    {
+      "name": "Vols et vandalisme aux jardins, plantations, tags et graffitis",
+      "description": "Les vols et actes de vandalisme causés aux jardins et plantations ainsi que les tags et graffitis sur les murs extérieurs. (Exclusion spécifique à certaines garanties.)",
+      "applies_to": "Le vol et les actes de vandalisme",
+      "page": 1
+    },
+    {
+      "name": "Vols et détériorations dans des locaux à usage collectif",
+      "description": "Les vols et détériorations commis dans des locaux à usage collectif. (Exclusion spécifique à certaines garanties.)",
+      "applies_to": "Le vol et les actes de vandalisme",
+      "page": 1
+    },
+    {
+      "name": "Dommages immatériels non consécutifs",
+      "description": "Les dommages immatériels, non consécutifs à un dommage matériel ou corporel garanti, causés aux tiers. (Exclusion spécifique à certaines garanties.)",
+      "applies_to": "Responsabilité civile du fait des biens assurés et des gardiens et concierges",
+      "page": 1
+    },
+    {
+      "name": "RC des entreprises et organismes d’entretien ou de gestion",
+      "description": "La responsabilité civile des entreprises et organismes intervenant pour l’entretien ou la gestion des biens assurés. (Exclusion spécifique à certaines garanties.)",
+      "applies_to": "Responsabilité civile du fait des biens assurés et des gardiens et concierges",
+      "page": 1
+    },
+    {
+      "name": "Dommages lors de travaux relevant de la législation sur la construction",
+      "description": "Les dommages causés aux tiers lors de travaux de construction, rénovation ou d’installation relevant de la législation sur la construction. (Exclusion spécifique à certaines garanties.)",
+      "applies_to": "Responsabilité civile du fait des biens assurés et des gardiens et concierges",
+      "page": 1
+    },
+    {
+      "name": "Recours relevant de la législation sur la construction",
+      "description": "Les recours à l’encontre des personnes dont la responsabilité peut être recherchée dans le cadre de la législation en vigueur sur la construction. (Exclusion spécifique à certaines garanties.)",
+      "applies_to": "Le recours de l’assuré et sa protection juridique",
+      "page": 1
+    }
   ],
-  "page": 2
- },
- "prescription_period": null,
- "premium": {
-  "notes": [
-   "La cotisation est payable d’avance à la souscription puis à chaque date d’échéance.",
-   "Elle est exigible annuellement, toutefois un paiement fractionné peut être accordé.",
-   "Le fractionnement du paiement entraîne des frais.",
-   "Le défaut de paiement dans les 10 jours à compter de la date d’échéance pourra entraîner, après une mise en demeure, la suspension des garanties puis la résiliation du contrat.",
-   "Les paiements peuvent être effectués par prélèvement automatique, carte bancaire, chèque, TIP SEPA ou mandat, selon que l’assuré a choisi un paiement fractionné ou non."
+  "deductibles": {
+    "standard": "En cas de sinistre une somme peut rester à la charge de l’assuré (franchise). Le montant n’est pas indiqué dans le document.",
+    "variable": null,
+    "per_coverage": {
+      "Les catastrophes naturelles": "Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable"
+    },
+    "page": 1
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Déclaration du risque à la souscription",
+      "description": "À la souscription du contrat : répondre exactement à toutes les questions posées pour identifier la nature du risque à assurer.",
+      "timing": "À la souscription du contrat",
+      "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Déclaration des circonstances nouvelles en cours de contrat",
+      "description": "En cours de contrat : déclarer dans les 15 jours, à partir du moment où l’asuré en a eu connaissance, par lettre recommandée ou auprès d’un conseiller, toutes les circonstances nouvelles et tous les changements qui modifient les renseignements fournis lors de la souscription et qui sont de nature à aggraver le risque assuré ou à en créer un nouveau.",
+      "timing": "En cours de contrat - dans les 15 jours",
+      "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Conservation des justificatifs",
+      "description": "Conserver tout document permettant de prouver l’existence et la valeur des biens.",
+      "timing": "En cours de contrat",
+      "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Mesures conservatoires",
+      "description": "Prendre toutes les dispositions nécessaires pour stopper l’évolution du sinistre, sauver tous les biens qui peuvent l’être et veiller à leur conservation.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Déclaration du sinistre",
+      "description": "Déclarer le sinistre à l’assureur à partir du moment où l’assuré en a connaissance et au plus tard dans les 5 jours ouvrés, dans les 2 jours ouvrés pour un vol, dans les 10 jours suivant la publication d’un arrêté de catastrophe naturelle.",
+      "timing": "En cas de sinistre - 5 jours ouvrés (2 jours ouvrés pour un vol ; 10 jours après un arrêté de catastrophe naturelle)",
+      "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Contenu de la déclaration",
+      "description": "Indiquer les date et heure du sinistre, les causes connues ou supposées ainsi que ses conséquences et les coordonnées des personnes lésées, des témoins et du ou des responsables éventuels.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Plainte en cas de vol ou de vandalisme",
+      "description": "En cas de vol, tentative de vol ou d’acte de vandalisme, prévenir la police ou la gendarmerie dans les 24 heures et déposer une plainte.",
+      "timing": "En cas de sinistre - dans les 24 heures",
+      "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Plainte en cas de choc de véhicule non identifié",
+      "description": "En cas de choc de véhicule terrestre à moteur non identifié, déposer plainte.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Signaler les autres assureurs",
+      "description": "Transmettre les coordonnées des éventuels assureurs couvrant le même risque.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Transmission des pièces de procédure",
+      "description": "Transmettre immédiatement toute pièce de procédure (avis à victime, assignation…) ainsi que tout document concernant le sinistre.",
+      "timing": "En cas de sinistre - immédiatement",
+      "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
+      "page": 2
+    }
   ],
-  "indexation": "Le document mentionne un « effet de l’indexation » exclu du droit de résiliation pour augmentation de cotisation, sans en décrire le mécanisme.",
-  "page": 2
- },
- "special_conditions": [
-  {
-   "name": "Avertissement sur les plafonds de garantie",
-   "description": "« Les biens et événements assurés peuvent être soumis à des plafonds de garantie. Seul l’un d’entre eux est mentionné ci-après. » Le seul plafond chiffré du document est celui de la responsabilité civile (50 millions d’euros dont 10 millions pour les dommages matériels et immatériels consécutifs).",
-   "page": 1
+  "claims_procedure": [
+    {
+      "step": "Mesures conservatoires",
+      "description": "Prendre toutes les dispositions nécessaires pour stopper l’évolution du sinistre, sauver tous les biens qui peuvent l’être et veiller à leur conservation.",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Déclaration du sinistre",
+      "description": "Déclarer le sinistre à l’assureur à partir du moment où l’assuré en a connaissance.",
+      "deadline": "Au plus tard dans les 5 jours ouvrés ; dans les 2 jours ouvrés pour un vol ; dans les 10 jours suivant la publication d’un arrêté de catastrophe naturelle",
+      "page": 2
+    },
+    {
+      "step": "Contenu de la déclaration",
+      "description": "Indiquer les date et heure du sinistre, les causes connues ou supposées ainsi que ses conséquences et les coordonnées des personnes lésées, des témoins et du ou des responsables éventuels.",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Dépôt de plainte",
+      "description": "En cas de vol, tentative de vol ou d’acte de vandalisme, prévenir la police ou la gendarmerie et déposer une plainte ; en cas de choc de véhicule terrestre à moteur non identifié, déposer plainte.",
+      "deadline": "Dans les 24 heures pour le vol, la tentative de vol ou l’acte de vandalisme",
+      "page": 2
+    },
+    {
+      "step": "Autres assurances",
+      "description": "Transmettre les coordonnées des éventuels assureurs couvrant le même risque.",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Pièces de procédure",
+      "description": "Transmettre toute pièce de procédure (avis à victime, assignation…) ainsi que tout document concernant le sinistre.",
+      "deadline": "Immédiatement",
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "La couverture commence à partir de la date convenue d’un commun accord et dure jusqu’à la date d’échéance principale. À cette date, le contrat est renouvelé automatiquement par période annuelle, sauf si l’une des parties décide d’y mettre fin dans les délais et conditions prévus au contrat.",
+    "tacit_renewal": true,
+    "notice_period": "un préavis d’un mois (résiliation à l’échéance principale)",
+    "methods": [
+      "Soit par l’envoi d’une lettre recommandée, soit en effectuant une déclaration auprès d’un conseiller de l’assureur"
+    ],
+    "special_rights": [
+      "à l’échéance principale, avec un préavis d’un mois",
+      "si la situation personnelle ou professionnelle de l’assuré change dans certaines conditions",
+      "si la Macif résilie un autre contrat de l’assuré après sinistre",
+      "en cas d’augmentation de la cotisation hors taxes ou des franchises (hors effet de l’indexation)",
+      "à tout moment au-delà d’un délai d’un an à compter de la première souscription pour les personnes physiques ayant souscrit le contrat pour un risque autre que professionnel",
+      "Lorsque le contrat a été souscrit par une personne physique, à distance ou à la suite d’un démarchage à domicile, l’assuré dispose d’un droit de renonciation."
+    ],
+    "page": 2
   },
-  {
-   "name": "Garanties systématiques",
-   "description": "« Les garanties précédées d’une coche sont systématiquement prévues au contrat. » Une seule ligne de la rubrique « Qu’est-ce qui est assuré ? » porte un tiret et non une coche : « Le mobilier d’habitation mis à la disposition des locataires et occupants ».",
-   "page": 1
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "La cotisation est payable d’avance à la souscription puis à chaque date d’échéance.",
+      "Elle est exigible annuellement, toutefois un paiement fractionné peut être accordé.",
+      "Le fractionnement du paiement entraîne des frais.",
+      "Le défaut de paiement dans les 10 jours à compter de la date d’échéance pourra entraîner, après une mise en demeure, la suspension des garanties puis la résiliation du contrat.",
+      "Les paiements peuvent être effectués par prélèvement automatique, carte bancaire, chèque, TIP SEPA ou mandat, selon que l’assuré a choisi un paiement fractionné ou non."
+    ],
+    "indexation": "Le document mentionne un « effet de l’indexation » exclu du droit de résiliation pour augmentation de cotisation, sans en décrire le mécanisme.",
+    "page": 2
   },
-  {
-   "name": "Principale restriction - franchise",
-   "description": "En cas de sinistre une somme peut rester à la charge de l’assuré (franchise).",
-   "page": 1
-  },
-  {
-   "name": "Principale restriction - franchise légale catastrophes naturelles",
-   "description": "Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
-   "page": 1
-  },
-  {
-   "name": "Principale restriction - agencements et vitrines des locaux commerciaux",
-   "description": "Les agencements, aménagements, vitrines et glaces de devantures, des magasins et locaux commerciaux ou artisanaux ne sont pas couverts durant leur exploitation par les locataires.",
-   "page": 1
-  },
-  {
-   "name": "Principale restriction - seuil d’intervention des recours",
-   "description": "Les recours amiables et judiciaires sont exercés pour les préjudices d’un montant supérieur au seuil d’intervention.",
-   "page": 1
-  },
-  {
-   "name": "Portée territoriale (rubrique « Où suis-je couvert(e) ? »)",
-   "description": "À l’adresse du risque, en France métropolitaine.",
-   "page": 2
-  }
- ],
- "key_quotes": [
-  {
-   "quote": "Compagnie : Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511",
-   "context": "Identité de l'assureur",
-   "page": 1
-  },
-  {
-   "quote": "HAB-SNO-IL 10/18 - Macif. Entreprise régie par le Code des assurances. Siège social : 1 rue Jacques Vandier - 79000 Niort.",
-   "context": "Code de reference / mentions legales",
-   "page": 1
-  },
-  {
-   "quote": "Ce contrat d’assurance protège l’assuré contre les conséquences d’événements affectant son bâtiment ou immeuble qu’il loue vide ou meublé à plusieurs locataires \nou qui est occupé en tout ou partie par des activités commerciales ou professionnelles.",
-   "context": "De quel type d'assurance s'agit-il ?",
-   "page": 1
-  },
-  {
-   "quote": "Ce contrat garantit également sa responsabilité civile du fait des biens assurés ou du fait de leurs gardiens et concierges, ainsi que la protection de ses droits.",
-   "context": "Responsabilite civile et protection des droits",
-   "page": 1
-  },
-  {
-   "quote": "Les biens et événements assurés peuvent être soumis à des plafonds \nde garantie. Seul l’un d’entre eux est mentionné ci-après.",
-   "context": "Avertissement sur les plafonds",
-   "page": 1
-  },
-  {
-   "quote": "L ’immeuble occupé par plusieurs locataires ou  en tout ou partie par \ndes activités commerciales ou professionnelles",
-   "context": "Biens immobiliers assures",
-   "page": 1
-  },
-  {
-   "quote": "Ses annexes et dépendances",
-   "context": "Biens immobiliers assures",
-   "page": 1
-  },
-  {
-   "quote": "Les installations et aménagements intégrés à ces constructions",
-   "context": "Biens immobiliers assures",
-   "page": 1
-  },
-  {
-   "quote": "L e mobilier mis dans les parties communes à la disposition de \nl’ensemble des occupants",
-   "context": "Biens mobiliers assures",
-   "page": 1
-  },
-  {
-   "quote": "L e mobilier mis à la disposition des gardiens ou concierges dans leurs \nloges ou appartements de fonction",
-   "context": "Biens mobiliers assures",
-   "page": 1
-  },
-  {
-   "quote": "Le matériel d’entretien des bâtiments",
-   "context": "Biens mobiliers assures",
-   "page": 1
-  },
-  {
-   "quote": "Les approvisionnements y compris les combustibles",
-   "context": "Biens mobiliers assures",
-   "page": 1
-  },
-  {
-   "quote": "Le mobilier d’habitation mis à la disposition des locataires et occupants",
-   "context": "Bien mobilier en option (tiret)",
-   "page": 1
-  },
-  {
-   "quote": "L’incendie, l’explosion ou l’implosion, la chute de la foudre",
-   "context": "Evenement assure",
-   "page": 1
-  },
-  {
-   "quote": "L es fumées accidentelles d’un appareil de chauffage relié à un conduit \nde fumée",
-   "context": "Evenement assure",
-   "page": 1
-  },
-  {
-   "quote": "La tempête, les avalanches, les inondations",
-   "context": "Evenement assure",
-   "page": 1
-  },
-  {
-   "quote": "Le dégât des eaux et les frais de recherche de fuite, l’action du gel",
-   "context": "Evenement assure",
-   "page": 1
-  },
-  {
-   "quote": "Les actes de terrorisme, attentats, émeutes, mouvements populaires",
-   "context": "Evenement assure",
-   "page": 1
-  },
-  {
-   "quote": "événement garanti : la perte de loyers, les frais de déblaiement \net de démolition, de gardiennage et/ou de clôture provisoire, les frais \nde relogement des gardiens et concierges, les pertes indirectes, les \nfrais de déplacement, de garde-meuble et de replacement du mobilier, \nle remboursement de la prime Dommages ouvrage, les frais de mise en \nconformité avec la règlementation, les honoraires d’expert",
-   "context": "Frais et pertes consecutifs a un evenement garanti",
-   "page": 1
-  },
-  {
-   "quote": "Le recours des locataires",
-   "context": "Responsabilites",
-   "page": 1
-  },
-  {
-   "quote": "Le recours des voisins et des tiers",
-   "context": "Responsabilites",
-   "page": 1
-  },
-  {
-   "quote": "La défense de l’assuré",
-   "context": "Responsabilites",
-   "page": 1
-  },
-  {
-   "quote": "Les garanties précédées d’une coche   sont systématiquement \nprévues au contrat.",
-   "context": "Coche = garantie systematique",
-   "page": 1
-  },
-  {
-   "quote": "Les véhicules à moteur et leurs remorques",
-   "context": "Qu'est-ce qui n'est pas assure ?",
-   "page": 1
-  },
-  {
-   "quote": "Les biens personnels des locataires ou occupants",
-   "context": "Qu'est-ce qui n'est pas assure ?",
-   "page": 1
-  },
-  {
-   "quote": "Les objets précieux",
-   "context": "Qu'est-ce qui n'est pas assure ?",
-   "page": 1
-  },
-  {
-   "quote": "Les dommages résultant de la guerre étrangère ou civile",
-   "context": "Exclusion commune",
-   "page": 1
-  },
-  {
-   "quote": "Les dommages d’origine nucléaire",
-   "context": "Exclusion commune",
-   "page": 1
-  },
-  {
-   "quote": "La 2e inondation, ainsi que les suivantes, subies par les bâtiments au \ncours des 15 dernières années (sauf catastrophe naturelle)",
-   "context": "Exclusion specifique",
-   "page": 1
-  },
-  {
-   "quote": "Les vols et détériorations commis dans des locaux à usage collectif",
-   "context": "Exclusion specifique",
-   "page": 1
-  },
-  {
-   "quote": "À l’adresse du risque, en France métropolitaine",
-   "context": "Portee territoriale",
-   "page": 2
-  },
-  {
-   "quote": "La cotisation est payable d’avance à la souscription puis à chaque date d’échéance. Elle est exigible annuellement, toutefois un paiement fractionné \npeut être accordé. Le fractionnement du paiement entraîne des frais. Le défaut de paiement dans les 10 jours à compter de la date d’échéance pourra \nentraîner, après une mise en demeure, la suspension des garanties puis la résiliation du contrat.",
-   "context": "Paiement de la cotisation",
-   "page": 2
-  },
-  {
-   "quote": "Les paiements peuvent être effectués par prélèvement automatique, carte bancaire, chèque, TIP SEPA ou mandat, selon que l’assuré a choisi un paiement \nfractionné ou non.",
-   "context": "Modes de paiement",
-   "page": 2
-  },
-  {
-   "quote": "La couverture commence à partir de la date convenue d’un commun accord et dure jusqu’à la date d’échéance principale. À cette date, le contrat est \nrenouvelé automatiquement par période annuelle, sauf si l’une des parties décide d’y mettre fin dans les délais et conditions prévus au contrat.",
-   "context": "Debut et fin de la couverture",
-   "page": 2
-  },
-  {
-   "quote": "Soit par l’envoi d’une lettre recommandée, soit en effectuant une déclaration auprès d’un conseiller de l’assureur :\n-\t à l’échéance principale, avec un préavis d’un mois\n-\t si la situation personnelle ou professionnelle de l’assuré change dans certaines conditions\n-\t si la Macif résilie un autre contrat de l’assuré après sinistre\n-\t en cas d’augmentation de la cotisation hors taxes ou des franchises (hors effet de l’indexation)",
-   "context": "Resiliation",
-   "page": 2
-  },
-  {
-   "quote": "à t\n out moment au-delà d’un délai d’un an à compter de la première souscription pour les personnes physiques ayant souscrit le contrat pour un risque \nautre que professionnel",
-   "context": "Resiliation infra-annuelle",
-   "page": 2
-  },
-  {
-   "quote": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie :",
-   "context": "Sanction des obligations",
-   "page": 2
-  },
-  {
-   "quote": "En cours de contrat : déclarer dans les 15 jours, à partir du moment où l’asuré en a eu connaissance, par lettre recommandée ou auprès d’un conseiller, \ntoutes les circonstances nouvelles et tous les changements qui modifient les renseignements fournis lors de la souscription et qui sont de nature à \naggraver le risque assuré ou à en créer un nouveau",
-   "context": "Obligation en cours de contrat",
-   "page": 2
-  },
-  {
-   "quote": "déclar\n \ner le sinistre à l’assureur à partir du moment où l’assuré en a connaissance et au plus tard dans les 5 jours ouvrés, dans les 2 jours ouvrés pour un \nvol, dans les 10 jours suivant la publication d’un arrêté de catastrophe naturelle",
-   "context": "Delais de declaration de sinistre",
-   "page": 2
-  },
-  {
-   "quote": "indiquer les da\n \nte et heure du sinistre, les causes connues ou supposées ainsi que ses conséquences et les coordonnées des personnes lésées, des \ntémoins et du ou des responsables éventuels",
-   "context": "Contenu de la declaration",
-   "page": 2
-  }
- ],
- "gaps": [
-  "DÉFAUT MAJEUR DE LA COUCHE TEXTE. Une partie substantielle de la page 1 est absente de page.get_text(\"text\") : le texte a été vectorisé (converti en tracés) par le producteur du PDF et ne subsiste que sous forme de caractères U+0007 (résidus de puces), un par item manquant. Sont concernés : 1 item de « Les biens immobiliers », 3 items de « Responsabilités » et « Protection des droits de l’assuré », 1 exclusion commune sur 3, 8 exclusions spécifiques sur 11, et les 4 « PRINCIPALES RESTRICTIONS » en totalité.",
-  "MÉTHODE DE RÉCUPÉRATION. Les items manquants ont été relus sur un rendu graphique de la page 1 (PyMuPDF get_pixmap, zoom x5, colonnes gauche et droite). Validation arithmétique, par section : « Les biens immobiliers » 4 items = 3 en couche texte + 1 U+0007 ; « Responsabilités » 5 items = 3 en couche texte (« Le recours des locataires », « Le recours des voisins et des tiers », « La défense de l’assuré ») + 2 U+0007 ; « Protection des droits de l’assuré » 1 item = 1 U+0007 ; exclusions communes 3 items = 2 en couche texte + 1 U+0007 ; exclusions spécifiques 11 items = 2 en couche texte (« La 2e inondation… », « Les vols et détériorations… ») + 9 puces U+0007 dont une portée par l’item « La 2e inondation » lui-même, soit 10 U+0007 pour 9 items vectorisés ; « LES PRINCIPALES RESTRICTIONS » 4 items = 4 U+0007. Chaque section relue au rendu compte exactement le nombre d’items attendu.",
-  "CONSÉQUENCE POUR LA VÉRIFICATION. Aucun item récupéré graphiquement ne figure dans key_quotes : il n’existe pas dans la couche texte et ne peut donc pas être vérifié par verify_grounding.py. Ces items sont enregistrés dans coverages[], exclusions[], deductibles et special_conditions, et signalés ici. Toutes les entrées de key_quotes proviennent exclusivement de la couche texte réelle.",
-  "IMPORTANT : le seul plafond chiffré de tout le document — « dans la limite de 50 millions d’euros dont 10 millions pour les dommages matériels et immatériels consécutifs », attaché à la responsabilité civile — fait partie du texte vectorisé et n’existe pas dans la couche texte. Il a été relu au rendu et ne peut donc pas être cité en key_quotes, alors même que le document annonce en tête de la rubrique « Seul l’un d’entre eux est mentionné ci-après ».",
-  "Assureur : le document nomme uniquement « Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511 », « Entreprise régie par le Code des assurances. Siège social : 1 rue Jacques Vandier - 79000 Niort. » Aucune autre entité juridique n’est nommée. En particulier, les garanties « La défense de l’assuré » et « Le recours de l’assuré et sa protection juridique » sont portées sans qu’aucun assureur de protection juridique distinct ne soit désigné : le porteur de ces garanties reste indéterminé au vu de ce document.",
-  "edition_date : le document ne porte aucune mention « édition ». La valeur « 10/18 » est lue dans le code de référence imprimé en pied de page 1, « HAB-SNO-IL 10/18 - Macif. » Aucune autre date n’apparaît dans le document.",
-  "target_audience laissé null : le document n’énonce aucune catégorie de public (particuliers / entreprises / indépendants). Le produit s’adresse à un « Sociétaire non occupant » ; le document mentionne aussi bien des immeubles loués à des locataires que des immeubles occupés « en tout ou partie par des activités commerciales ou professionnelles », et réserve la résiliation infra-annuelle aux « personnes physiques ayant souscrit le contrat pour un risque autre que professionnel ».",
-  "Le document est un DIPA (document d’information normalisé de 2 pages) et ne contient pas de glossaire : definitions[] est vide.",
-  "Les rubriques « LES BIENS ASSURÉS » et « LES ÉVÉNEMENTS ASSURÉS » ne sont pas structurées en garanties nommées mais en listes de biens et d’événements. Chaque ligne cochée a été enregistrée comme une entrée de coverages[] afin de ne rien perdre, avec un préfixe indiquant sa catégorie d’origine.",
-  "Aucun montant n’est indiqué pour les biens et événements assurés (hors la RC), ni pour la franchise, ni pour le seuil d’intervention des recours. Aucun délai de carence et aucun délai de prescription ne sont mentionnés : waiting_periods vide et prescription_period null.",
-  "Défauts de crénage de la couche texte : des mots sont coupés en leur milieu (« L ’immeuble », « L e mobilier », « L es fumées », « En cas d » / « ’événement », « à t » / « out moment », « déclar » / « er », « indiquer les da » / « te »). Le texte est conservé verbatim dans key_quotes, qui sont des tranches exactes de la couche texte ; les descriptions structurées rétablissent la lecture continue.",
-  "Le texte imprime « à partir du moment où l’asuré en a eu connaissance » (« asuré » pour « assuré ») ; la coquille est conservée telle quelle. Le document écrit par ailleurs « des principales garanties et exclusions du produit » là où les autres DIPA Macif écrivent « du contrat ».",
-  "obligations[] et claims_procedure[] décrivent le même bloc du document (« Quelles sont mes obligations ? »), restitué dans les deux champs du schéma.",
-  "Le titre du produit est ambigu : l’en-tête imprime « Assurance multirisques immeuble » tandis que la ligne « Produit : » imprime « Sociétaire non occupant - Immeubles locatifs ». C’est cette dernière, la mention officielle du DIPA, qui a été retenue en product_name ; l’en-tête sert de product_family et la mention « Produit : » sert aussi de variant, le document se présentant comme la déclinaison « sociétaire non occupant / immeubles locatifs » d’une multirisque immeuble."
- ]
+  "special_conditions": [
+    {
+      "name": "Avertissement sur les plafonds de garantie",
+      "description": "« Les biens et événements assurés peuvent être soumis à des plafonds de garantie. Seul l’un d’entre eux est mentionné ci-après. » Le seul plafond chiffré du document est celui de la responsabilité civile (50 millions d’euros dont 10 millions pour les dommages matériels et immatériels consécutifs).",
+      "page": 1
+    },
+    {
+      "name": "Garanties systématiques",
+      "description": "« Les garanties précédées d’une coche sont systématiquement prévues au contrat. » Une seule ligne de la rubrique « Qu’est-ce qui est assuré ? » porte un tiret et non une coche : « Le mobilier d’habitation mis à la disposition des locataires et occupants ».",
+      "page": 1
+    },
+    {
+      "name": "Principale restriction - franchise",
+      "description": "En cas de sinistre une somme peut rester à la charge de l’assuré (franchise).",
+      "page": 1
+    },
+    {
+      "name": "Principale restriction - franchise légale catastrophes naturelles",
+      "description": "Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable.",
+      "page": 1
+    },
+    {
+      "name": "Principale restriction - agencements et vitrines des locaux commerciaux",
+      "description": "Les agencements, aménagements, vitrines et glaces de devantures, des magasins et locaux commerciaux ou artisanaux ne sont pas couverts durant leur exploitation par les locataires.",
+      "page": 1
+    },
+    {
+      "name": "Principale restriction - seuil d’intervention des recours",
+      "description": "Les recours amiables et judiciaires sont exercés pour les préjudices d’un montant supérieur au seuil d’intervention.",
+      "page": 1
+    },
+    {
+      "name": "Portée territoriale (rubrique « Où suis-je couvert(e) ? »)",
+      "description": "À l’adresse du risque, en France métropolitaine.",
+      "page": 2
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Compagnie : Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511",
+      "context": "Identité de l'assureur",
+      "page": 1
+    },
+    {
+      "quote": "HAB-SNO-IL 10/18 - Macif. Entreprise régie par le Code des assurances. Siège social : 1 rue Jacques Vandier - 79000 Niort.",
+      "context": "Code de reference / mentions legales",
+      "page": 1
+    },
+    {
+      "quote": "Ce contrat d’assurance protège l’assuré contre les conséquences d’événements affectant son bâtiment ou immeuble qu’il loue vide ou meublé à plusieurs locataires \nou qui est occupé en tout ou partie par des activités commerciales ou professionnelles.",
+      "context": "De quel type d'assurance s'agit-il ?",
+      "page": 1
+    },
+    {
+      "quote": "Ce contrat garantit également sa responsabilité civile du fait des biens assurés ou du fait de leurs gardiens et concierges, ainsi que la protection de ses droits.",
+      "context": "Responsabilite civile et protection des droits",
+      "page": 1
+    },
+    {
+      "quote": "Les biens et événements assurés peuvent être soumis à des plafonds \nde garantie. Seul l’un d’entre eux est mentionné ci-après.",
+      "context": "Avertissement sur les plafonds",
+      "page": 1
+    },
+    {
+      "quote": "L ’immeuble occupé par plusieurs locataires ou  en tout ou partie par \ndes activités commerciales ou professionnelles",
+      "context": "Biens immobiliers assures",
+      "page": 1
+    },
+    {
+      "quote": "Ses annexes et dépendances",
+      "context": "Biens immobiliers assures",
+      "page": 1
+    },
+    {
+      "quote": "Les installations et aménagements intégrés à ces constructions",
+      "context": "Biens immobiliers assures",
+      "page": 1
+    },
+    {
+      "quote": "L e mobilier mis dans les parties communes à la disposition de \nl’ensemble des occupants",
+      "context": "Biens mobiliers assures",
+      "page": 1
+    },
+    {
+      "quote": "L e mobilier mis à la disposition des gardiens ou concierges dans leurs \nloges ou appartements de fonction",
+      "context": "Biens mobiliers assures",
+      "page": 1
+    },
+    {
+      "quote": "Le matériel d’entretien des bâtiments",
+      "context": "Biens mobiliers assures",
+      "page": 1
+    },
+    {
+      "quote": "Les approvisionnements y compris les combustibles",
+      "context": "Biens mobiliers assures",
+      "page": 1
+    },
+    {
+      "quote": "Le mobilier d’habitation mis à la disposition des locataires et occupants",
+      "context": "Bien mobilier en option (tiret)",
+      "page": 1
+    },
+    {
+      "quote": "L’incendie, l’explosion ou l’implosion, la chute de la foudre",
+      "context": "Evenement assure",
+      "page": 1
+    },
+    {
+      "quote": "L es fumées accidentelles d’un appareil de chauffage relié à un conduit \nde fumée",
+      "context": "Evenement assure",
+      "page": 1
+    },
+    {
+      "quote": "La tempête, les avalanches, les inondations",
+      "context": "Evenement assure",
+      "page": 1
+    },
+    {
+      "quote": "Le dégât des eaux et les frais de recherche de fuite, l’action du gel",
+      "context": "Evenement assure",
+      "page": 1
+    },
+    {
+      "quote": "Les actes de terrorisme, attentats, émeutes, mouvements populaires",
+      "context": "Evenement assure",
+      "page": 1
+    },
+    {
+      "quote": "événement garanti : la perte de loyers, les frais de déblaiement \net de démolition, de gardiennage et/ou de clôture provisoire, les frais \nde relogement des gardiens et concierges, les pertes indirectes, les \nfrais de déplacement, de garde-meuble et de replacement du mobilier, \nle remboursement de la prime Dommages ouvrage, les frais de mise en \nconformité avec la règlementation, les honoraires d’expert",
+      "context": "Frais et pertes consecutifs a un evenement garanti",
+      "page": 1
+    },
+    {
+      "quote": "Le recours des locataires",
+      "context": "Responsabilites",
+      "page": 1
+    },
+    {
+      "quote": "Le recours des voisins et des tiers",
+      "context": "Responsabilites",
+      "page": 1
+    },
+    {
+      "quote": "La défense de l’assuré",
+      "context": "Responsabilites",
+      "page": 1
+    },
+    {
+      "quote": "Les garanties précédées d’une coche   sont systématiquement \nprévues au contrat.",
+      "context": "Coche = garantie systematique",
+      "page": 1
+    },
+    {
+      "quote": "Les véhicules à moteur et leurs remorques",
+      "context": "Qu'est-ce qui n'est pas assure ?",
+      "page": 1
+    },
+    {
+      "quote": "Les biens personnels des locataires ou occupants",
+      "context": "Qu'est-ce qui n'est pas assure ?",
+      "page": 1
+    },
+    {
+      "quote": "Les objets précieux",
+      "context": "Qu'est-ce qui n'est pas assure ?",
+      "page": 1
+    },
+    {
+      "quote": "Les dommages résultant de la guerre étrangère ou civile",
+      "context": "Exclusion commune",
+      "page": 1
+    },
+    {
+      "quote": "Les dommages d’origine nucléaire",
+      "context": "Exclusion commune",
+      "page": 1
+    },
+    {
+      "quote": "La 2e inondation, ainsi que les suivantes, subies par les bâtiments au \ncours des 15 dernières années (sauf catastrophe naturelle)",
+      "context": "Exclusion specifique",
+      "page": 1
+    },
+    {
+      "quote": "Les vols et détériorations commis dans des locaux à usage collectif",
+      "context": "Exclusion specifique",
+      "page": 1
+    },
+    {
+      "quote": "À l’adresse du risque, en France métropolitaine",
+      "context": "Portee territoriale",
+      "page": 2
+    },
+    {
+      "quote": "La cotisation est payable d’avance à la souscription puis à chaque date d’échéance. Elle est exigible annuellement, toutefois un paiement fractionné \npeut être accordé. Le fractionnement du paiement entraîne des frais. Le défaut de paiement dans les 10 jours à compter de la date d’échéance pourra \nentraîner, après une mise en demeure, la suspension des garanties puis la résiliation du contrat.",
+      "context": "Paiement de la cotisation",
+      "page": 2
+    },
+    {
+      "quote": "Les paiements peuvent être effectués par prélèvement automatique, carte bancaire, chèque, TIP SEPA ou mandat, selon que l’assuré a choisi un paiement \nfractionné ou non.",
+      "context": "Modes de paiement",
+      "page": 2
+    },
+    {
+      "quote": "La couverture commence à partir de la date convenue d’un commun accord et dure jusqu’à la date d’échéance principale. À cette date, le contrat est \nrenouvelé automatiquement par période annuelle, sauf si l’une des parties décide d’y mettre fin dans les délais et conditions prévus au contrat.",
+      "context": "Debut et fin de la couverture",
+      "page": 2
+    },
+    {
+      "quote": "Soit par l’envoi d’une lettre recommandée, soit en effectuant une déclaration auprès d’un conseiller de l’assureur :\n-\t à l’échéance principale, avec un préavis d’un mois\n-\t si la situation personnelle ou professionnelle de l’assuré change dans certaines conditions\n-\t si la Macif résilie un autre contrat de l’assuré après sinistre\n-\t en cas d’augmentation de la cotisation hors taxes ou des franchises (hors effet de l’indexation)",
+      "context": "Resiliation",
+      "page": 2
+    },
+    {
+      "quote": "à t\n out moment au-delà d’un délai d’un an à compter de la première souscription pour les personnes physiques ayant souscrit le contrat pour un risque \nautre que professionnel",
+      "context": "Resiliation infra-annuelle",
+      "page": 2
+    },
+    {
+      "quote": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie :",
+      "context": "Sanction des obligations",
+      "page": 2
+    },
+    {
+      "quote": "En cours de contrat : déclarer dans les 15 jours, à partir du moment où l’asuré en a eu connaissance, par lettre recommandée ou auprès d’un conseiller, \ntoutes les circonstances nouvelles et tous les changements qui modifient les renseignements fournis lors de la souscription et qui sont de nature à \naggraver le risque assuré ou à en créer un nouveau",
+      "context": "Obligation en cours de contrat",
+      "page": 2
+    },
+    {
+      "quote": "déclar\n \ner le sinistre à l’assureur à partir du moment où l’assuré en a connaissance et au plus tard dans les 5 jours ouvrés, dans les 2 jours ouvrés pour un \nvol, dans les 10 jours suivant la publication d’un arrêté de catastrophe naturelle",
+      "context": "Delais de declaration de sinistre",
+      "page": 2
+    },
+    {
+      "quote": "indiquer les da\n \nte et heure du sinistre, les causes connues ou supposées ainsi que ses conséquences et les coordonnées des personnes lésées, des \ntémoins et du ou des responsables éventuels",
+      "context": "Contenu de la declaration",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "DÉFAUT MAJEUR DE LA COUCHE TEXTE. Une partie substantielle de la page 1 est absente de page.get_text(\"text\") : le texte a été vectorisé (converti en tracés) par le producteur du PDF et ne subsiste que sous forme de caractères U+0007 (résidus de puces), un par item manquant. Sont concernés : 1 item de « Les biens immobiliers », 3 items de « Responsabilités » et « Protection des droits de l’assuré », 1 exclusion commune sur 3, 8 exclusions spécifiques sur 11, et les 4 « PRINCIPALES RESTRICTIONS » en totalité.",
+    "MÉTHODE DE RÉCUPÉRATION. Les items manquants ont été relus sur un rendu graphique de la page 1 (PyMuPDF get_pixmap, zoom x5, colonnes gauche et droite). Validation arithmétique, par section : « Les biens immobiliers » 4 items = 3 en couche texte + 1 U+0007 ; « Responsabilités » 5 items = 3 en couche texte (« Le recours des locataires », « Le recours des voisins et des tiers », « La défense de l’assuré ») + 2 U+0007 ; « Protection des droits de l’assuré » 1 item = 1 U+0007 ; exclusions communes 3 items = 2 en couche texte + 1 U+0007 ; exclusions spécifiques 11 items = 2 en couche texte (« La 2e inondation… », « Les vols et détériorations… ») + 9 puces U+0007 dont une portée par l’item « La 2e inondation » lui-même, soit 10 U+0007 pour 9 items vectorisés ; « LES PRINCIPALES RESTRICTIONS » 4 items = 4 U+0007. Chaque section relue au rendu compte exactement le nombre d’items attendu.",
+    "CONSÉQUENCE POUR LA VÉRIFICATION. Aucun item récupéré graphiquement ne figure dans key_quotes : il n’existe pas dans la couche texte et ne peut donc pas être vérifié par verify_grounding.py. Ces items sont enregistrés dans coverages[], exclusions[], deductibles et special_conditions, et signalés ici. Toutes les entrées de key_quotes proviennent exclusivement de la couche texte réelle.",
+    "IMPORTANT : le seul plafond chiffré de tout le document — « dans la limite de 50 millions d’euros dont 10 millions pour les dommages matériels et immatériels consécutifs », attaché à la responsabilité civile — fait partie du texte vectorisé et n’existe pas dans la couche texte. Il a été relu au rendu et ne peut donc pas être cité en key_quotes, alors même que le document annonce en tête de la rubrique « Seul l’un d’entre eux est mentionné ci-après ».",
+    "Assureur : le document nomme uniquement « Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511 », « Entreprise régie par le Code des assurances. Siège social : 1 rue Jacques Vandier - 79000 Niort. » Aucune autre entité juridique n’est nommée. En particulier, les garanties « La défense de l’assuré » et « Le recours de l’assuré et sa protection juridique » sont portées sans qu’aucun assureur de protection juridique distinct ne soit désigné : le porteur de ces garanties reste indéterminé au vu de ce document.",
+    "edition_date : le document ne porte aucune mention « édition ». La valeur « 10/18 » est lue dans le code de référence imprimé en pied de page 1, « HAB-SNO-IL 10/18 - Macif. » Aucune autre date n’apparaît dans le document.",
+    "target_audience laissé null : le document n’énonce aucune catégorie de public (particuliers / entreprises / indépendants). Le produit s’adresse à un « Sociétaire non occupant » ; le document mentionne aussi bien des immeubles loués à des locataires que des immeubles occupés « en tout ou partie par des activités commerciales ou professionnelles », et réserve la résiliation infra-annuelle aux « personnes physiques ayant souscrit le contrat pour un risque autre que professionnel ».",
+    "Le document est un DIPA (document d’information normalisé de 2 pages) et ne contient pas de glossaire : definitions[] est vide.",
+    "Les rubriques « LES BIENS ASSURÉS » et « LES ÉVÉNEMENTS ASSURÉS » ne sont pas structurées en garanties nommées mais en listes de biens et d’événements. Chaque ligne cochée a été enregistrée comme une entrée de coverages[] afin de ne rien perdre, avec un préfixe indiquant sa catégorie d’origine.",
+    "Aucun montant n’est indiqué pour les biens et événements assurés (hors la RC), ni pour la franchise, ni pour le seuil d’intervention des recours. Aucun délai de carence et aucun délai de prescription ne sont mentionnés : waiting_periods vide et prescription_period null.",
+    "Défauts de crénage de la couche texte : des mots sont coupés en leur milieu (« L ’immeuble », « L e mobilier », « L es fumées », « En cas d » / « ’événement », « à t » / « out moment », « déclar » / « er », « indiquer les da » / « te »). Le texte est conservé verbatim dans key_quotes, qui sont des tranches exactes de la couche texte ; les descriptions structurées rétablissent la lecture continue.",
+    "Le texte imprime « à partir du moment où l’asuré en a eu connaissance » (« asuré » pour « assuré ») ; la coquille est conservée telle quelle. Le document écrit par ailleurs « des principales garanties et exclusions du produit » là où les autres DIPA Macif écrivent « du contrat ».",
+    "obligations[] et claims_procedure[] décrivent le même bloc du document (« Quelles sont mes obligations ? »), restitué dans les deux champs du schéma.",
+    "Le titre du produit est ambigu : l’en-tête imprime « Assurance multirisques immeuble » tandis que la ligne « Produit : » imprime « Sociétaire non occupant - Immeubles locatifs ». C’est cette dernière, la mention officielle du DIPA, qui a été retenue en product_name ; l’en-tête sert de product_family et la mention « Produit : » sert aussi de variant, le document se présentant comme la déclinaison « sociétaire non occupant / immeubles locatifs » d’une multirisque immeuble."
+  ]
 }

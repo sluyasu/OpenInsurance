@@ -27,7 +27,7 @@ navigate it without guessing. Do not edit by hand.
 |---|---|---|---|---|---|
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
 | ch (Switzerland) | 0 | 3 | 1 | 0 | 5 |
-| fr (France) | 24 | 463 | 10 | 1 | 5 |
+| fr (France) | 24 | 464 | 10 | 1 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
 
@@ -762,6 +762,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | scolaire | maaf | Assurance scolaire — Tableau des garanties - Fiche | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/Tableaux_de_garanties/MAAF_TG_Tempo_Assurance_scolaire.pdf) |
 | fr | scolaire | matmut | Conditions de l'offre Assurance Scolaire - Tarifs | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/conditions-offre-scolaire.pdf) |
 | fr | scolaire | thelem | Assurance scolaire et extra-scolaire - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_scolaire-19-septembre-2024.pdf) |
+| fr | transport | smacl | Conventions spéciales CONVERGENCE - Tous risques expositions clou à clou | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-convergence-risques-expositions-clou-a-clou.pdf) |
 | fr | velo | maif | Assurance Vélo | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/conditions-generales-assurance-velo.pdf) |
 | fr | velo | matmut | Contrat Multirisques « 2R Liberté » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPID2RLIBERTE.pdf) |
 | fr | voyage | luko | ASSURANCE MULTI-VOYAGES A L'ANNEE - 507332 - IPID | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/travel/IPID-ANNUAL-507332.pdf) |

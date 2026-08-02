@@ -10,7 +10,7 @@ document_type: ipid
 target_audience: null
 target_audience_note: null
 reference: AUT11028
-edition_date: null
+edition_date: 2025-06
 lang: fr
 tags:
 - insurance/fr/auto
@@ -26,7 +26,7 @@ prompt_version: '1.1'
 product_family: assurance-vehicule
 variant: CARAVANE, REMORQUE, CAMION, VEHICULES DIVERS
 edition_status: null
-edition_age_years: null
+edition_age_years: 1
 superseded: null
 extends: null
 freshness: '2026-08-01'
@@ -40,7 +40,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de l'Assurance Véhicule de MAAF Assurances SA, formule CARAVANE, REMORQUE, CAMION, VEHICULES DIVERS. Le contrat a pour objectif premier de garantir le conducteur du véhicule contre les conséquences des dommages matériels ou corporels causés par le véhicule à des tiers (Responsabilité civile), assurance obligatoire ; il peut couvrir également les dommages corporels du conducteur et les dommages matériels au véhicule assuré. Les véhicules assurables sont les caravanes et remorques, les camions, et les véhicules divers tels que les engins de chantier, les véhicules spéciaux. Les garanties optionnelles sont ouvertes par catégorie de véhicule (camions, remorques-caravanes et engins ; puis camions et remorques-caravanes ; puis camions seuls).
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information
+- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 2025-06
 
 ## Garanties
 
@@ -189,11 +189,11 @@ Garantie optionnelle proposée « En plus pour camions » : couverture des domma
 - Mise en page : la couche texte du PDF restitue les blocs dans un ordre différent de la mise en page visuelle (les deux titres de colonnes précèdent leurs contenus). L'affectation des puces aux rubriques « Qu'est-ce qui est assuré ? », « Qu'est-ce qui n'est pas assuré ? » et « Y a-t-il des exclusions à la couverture ? » a été confirmée sur un rendu image de la page 1 (fitz, 130 dpi).
 - Les coches vertes, croix rouges et « ! » de cet IPID sont des puces décoratives de la couche graphique marquant chaque item de liste ; il n'y a aucun tableau de garanties à colonnes de formules dans ce document, donc aucune matrice d'appartenance à reconstituer.
 - Le texte imprime « Le transport de personnes  à titre onéreux » et « Dommages corporels du conducteur  avec un plafond » avec une double espace ; conservée verbatim.
-- edition_date remise a null le 2026-08-01: la valeur 2025-06 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
+- Provenance de edition_date: cette date ne vient pas du texte du document mais du manifeste, ou elle avait ete deduite lors de la decouverte. A verifier contre le document avant d'y appuyer une comparaison d'editions.
 
 ## Documents liés
 
-- [Camping-Car, Ambulance, Bazar forain, Véhicule de collection - IPID](Camping-Car%2C%20Ambulance%2C%20Bazar%20forain%2C%20V%C3%A9hicule%20de%20collection%20-%20IPID.md) - IPID / Fiche d'information
+- [Camping-Car, Ambulance, Bazar forain, Véhicule de collection - IPID](Camping-Car%2C%20Ambulance%2C%20Bazar%20forain%2C%20V%C3%A9hicule%20de%20collection%20-%20IPID.md) - IPID / Fiche d'information, éd. 2025-06
 
 ## Source & fidélité
 

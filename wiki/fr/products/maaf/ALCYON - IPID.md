@@ -10,7 +10,7 @@ document_type: ipid
 target_audience: null
 target_audience_note: null
 reference: IRD11001
-edition_date: null
+edition_date: 2025-05
 lang: fr
 tags:
 - insurance/fr/navigation
@@ -26,7 +26,7 @@ prompt_version: '1.1'
 product_family: alcyon
 variant: null
 edition_status: null
-edition_age_years: null
+edition_age_years: 1
 superseded: null
 extends: null
 freshness: '2026-08-01'
@@ -40,7 +40,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) du contrat ALCYON de MAAF Assurances SA, présenté sous la bannière « Assurance Vie privée ». Le contrat couvre les dommages que peut subir le bateau assuré ainsi que les dommages matériels et corporels qu’il peut occasionner à un tiers, et les personnes transportées gratuitement par le bateau en cas d’accident corporel ; il s’applique exclusivement à la navigation de plaisance. Les garanties de base sont la responsabilité civile et les frais de retirement de l’épave, la défense pénale et recours suite à accident garanti (plafond 20 000 €), la garantie Individuelle marine, l’assistance aux personnes, l’assistance relative au bateau et les renseignements juridiques ; quatre garanties sont optionnelles (dommages au bateau assuré, dommages aux objets transportés, dommages aux moteurs hors bord, protection juridique plaisance). Le document est un résumé et renvoie à la documentation précontractuelle et contractuelle pour l’information complète.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Navigation de plaisance](../../branches/Navigation%20de%20plaisance.md) · Type : IPID / Fiche d'information
+- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Navigation de plaisance](../../branches/Navigation%20de%20plaisance.md) · Type : IPID / Fiche d'information · Édition : 2025-05
 
 ## Garanties
 
@@ -151,7 +151,7 @@ Garantie optionnelle : protection juridique plaisance.
 - Le montant des franchises n’est pas chiffré : le document dit seulement qu’« une somme peut rester à votre charge (franchise contractuelle) » pour trois garanties, sans indiquer de montant. Aucun plafond n’est donné non plus pour les garanties autres que « Défense pénale et recours suite à accident garanti » (20 000 €) : les champs limits correspondants sont null.
 - Aucune définition, aucun délai de carence et aucun délai de prescription ne figurent dans ce document : definitions, waiting_periods sont vides et prescription_period est null parce que la section n’existe pas dans un IPID.
 - Le texte du prompt et l’extraction PyMuPDF page à page ont été comparés : ils sont identiques, à la seule ligne vide près que le harness insère entre les pages. Les colonnes de l’IPID sortent dans un ordre de lecture non linéaire (les rubriques « Qu'est-ce qui n'est pas assuré ? » et « Y a-t-il des exclusions à la couverture ? » précèdent dans le flux textuel le contenu de « Qu'est-ce qui est assuré ? ») ; l’affectation de chaque item à sa rubrique a été refaite à partir des coordonnées des blocs (colonne gauche x≈36-290 = ce qui est assuré ; colonne droite x≈309-555 = ce qui n’est pas assuré, puis les exclusions et restrictions).
-- edition_date remise a null le 2026-08-01: la valeur 2025-05 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
+- Provenance de edition_date: cette date ne vient pas du texte du document mais du manifeste, ou elle avait ete deduite lors de la decouverte. A verifier contre le document avant d'y appuyer une comparaison d'editions.
 
 ## Source & fidélité
 

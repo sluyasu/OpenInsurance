@@ -1,408 +1,408 @@
 {
- "schema_version": "1.0",
- "prompt_version": "1.1",
- "country": "fr",
- "insurer_slug": "macif",
- "insurer_name": "Macif",
- "product_name": "Protection Juridique",
- "branch": "protection-juridique",
- "branch_code": null,
- "document_type": "ipid",
- "language": "fr",
- "target_audience": null,
- "target_audience_note": "Le document n'énonce aucune catégorie de public. Il décrit l'objet du contrat comme un litige « relevant de son activité professionnelle non salariée » et la garantie de base comme couvrant « l'activité professionnelle non salariée de l'assuré quelque soit sa nature (civile, commerciale ou industrielle) » et « l'exercice de l'activité à but non lucratif menée par tout groupement ». C'est une description de l'activité couverte, pas une désignation de public ; target_audience est donc laissé à null.",
- "reference": "PJ 10/18",
- "edition_date": "10/18",
- "product_family": "Protection Juridique",
- "variant": null,
- "is_extension": false,
- "extends": null,
- "superseded": null,
- "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_protection_juridique_sur_mesure_des_professionnels.pdf",
- "source_pdf": "protection-juridique-dipa-protection-juridique-sur-mesure-des-professionnels-d3e8b807.pdf",
- "source_sha256": "d429528bd295538b14f3cf93dbf429d53a1b6be163710df1d339d840a831c3f1",
- "source_pages": 2,
- "fetched_at": "2026-08-01",
- "extraction_model": "claude-code-subagent:scale",
- "summary": "Document d'information sur le produit d'assurance (DIPA/IPID) d'un contrat de protection juridique porté par Thémis, société anonyme au capital de 2 499 840 € (SIREN n°582 067 922). Le contrat couvre la prise en charge des frais et honoraires de procédure de l'assuré, en demande comme en défense, en cas de litige l'opposant à un tiers et relevant de son activité professionnelle non salariée. La garantie de base comprend l'information juridique, l'exercice d'une action amiable et la prise en charge des honoraires de l'avocat du choix de l'assuré dans la limite d'un plafond global par sinistre de 16 000 euros hors taxes. Trois options sont proposées : recouvrement de créances, risque fiscal (plafond de 3 100 euros hors taxes) et dirigeant ; les sinistres ne sont pris en charge qu'au-delà d'un enjeu initial de 380 euros hors taxes, porté à 760 euros hors taxes pour deux des options.",
- "definitions": [],
- "coverages": [
-  {
-   "name": "LA GARANTIE DE BASE - Prise en charge des sinistres",
-   "description": "Prise en charge des sinistres relevant exclusivement de l'activité professionnelle non salariée de l'assuré et de l'exercice de l'activité à but non lucratif menée par tout groupement. Garantie précédée d'une coche, donc systématiquement prévue au contrat.",
-   "is_optional": false,
-   "territorial_scope": "France, Monaco, Andorre, Suisse et les pays membres de l'Union Européenne",
-   "limits": null,
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "de l'activité professionnelle non salariée de l'assuré quelque soit sa nature (civile, commerciale ou industrielle)",
-    "de l'exercice de l'activité à but non lucratif menée par tout groupement"
-   ],
-   "page": 1
-  },
-  {
-   "name": "LES PRESTATIONS FOURNIES - Information juridique",
-   "description": "Information juridique de l'assuré sur l'étendue de ses droits relatifs au sinistre garanti. Prestation précédée d'une coche, donc systématiquement prévue au contrat.",
-   "is_optional": false,
-   "territorial_scope": "France, Monaco, Andorre, Suisse et les pays membres de l'Union Européenne",
-   "limits": null,
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [],
-   "page": 1
-  },
-  {
-   "name": "LES PRESTATIONS FOURNIES - Action amiable",
-   "description": "Exercice d'une action amiable pour le compte de l'assuré. Si la partie adverse est assistée d'un avocat, prise en charge des honoraires de l'avocat représentant l'assuré. Prestation précédée d'une coche, donc systématiquement prévue au contrat.",
-   "is_optional": false,
-   "territorial_scope": "France, Monaco, Andorre, Suisse et les pays membres de l'Union Européenne",
-   "limits": null,
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Si la partie adverse est assistée d'un avocat, prise en charge des honoraires de l'avocat représentant l'assuré"
-   ],
-   "page": 1
-  },
-  {
-   "name": "LES PRESTATIONS FOURNIES - Honoraires d'avocat et frais de procédure",
-   "description": "Prise en charge des honoraires de l'avocat du choix de l'assuré, ainsi que des frais de procédure éventuels, dont ceux d'expertise judiciaire mis à sa charge. Prestation précédée d'une coche, donc systématiquement prévue au contrat.",
-   "is_optional": false,
-   "territorial_scope": "France, Monaco, Andorre, Suisse et les pays membres de l'Union Européenne",
-   "limits": "dans la limite du plafond global par sinistre de 16 000 euros hors taxes",
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [],
-   "page": 1
-  },
-  {
-   "name": "Option “RECOUVREMENT DE CRÉANCES”",
-   "description": "Prise en charge des honoraires de l'avocat de l'assuré et des frais de procédure éventuels, afin de récupérer une créance relevant de son activité professionnelle assurée.",
-   "is_optional": true,
-   "territorial_scope": "France, Monaco, Andorre, Suisse et les pays membres de l'Union Européenne",
-   "limits": null,
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Seuil d'intervention porté à 760 euros hors taxes pour cette option"
-   ],
-   "page": 1
-  },
-  {
-   "name": "Option “RISQUE FISCAL”",
-   "description": "Prise en charge des honoraires (de l'avocat ou de l'expert comptable de l'assuré) et des frais de procédure éventuels, en cas de contestation d'un redressement fiscal concernant l'activité professionnelle assurée.",
-   "is_optional": true,
-   "territorial_scope": "France, Monaco, Andorre, Suisse et les pays membres de l'Union Européenne",
-   "limits": "Les frais et honoraires sont garantis dans la limite du plafond maximum de 3 100 euros hors taxes",
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Seuil d'intervention porté à 760 euros hors taxes pour cette option"
-   ],
-   "page": 1
-  },
-  {
-   "name": "Option “DIRIGEANT”",
-   "description": "Prise en charge des honoraires de l'avocat de l'assuré, ainsi que des frais de procédure éventuels lorsque le dirigeant est poursuivi ou mis en cause : en cas d'infraction commise par le dirigeant dans le cadre de ses fonctions et relative au non respect de la législation en matière de droit du travail, économique, hygiène et de sécurité ; en cas de faute de gestion.",
-   "is_optional": true,
-   "territorial_scope": "France, Monaco, Andorre, Suisse et les pays membres de l'Union Européenne",
-   "limits": null,
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "En cas d'infraction commise par le dirigeant dans le cadre de ses fonctions et relative au non respect de la législation en matière de : droit du travail",
-    "En cas d'infraction commise par le dirigeant dans le cadre de ses fonctions et relative au non respect de la législation en matière de : économique",
-    "En cas d'infraction commise par le dirigeant dans le cadre de ses fonctions et relative au non respect de la législation en matière de : hygiène et de sécurité",
-    "En cas de faute de gestion"
-   ],
-   "page": 1
-  }
- ],
- "exclusions": [
-  {
-   "name": "Les litiges dont l'origine se situe en dehors de la période de validité du contrat",
-   "description": "Les litiges dont l'origine (connaissance par l'assuré des éléments constitutifs du différend) se situe en dehors de la période de validité du contrat.",
-   "applies_to": "Qu'est-ce qui n'est pas assuré ? (non assuré)",
-   "page": 1
-  },
-  {
-   "name": "Les litiges relevant de la vie privée",
-   "description": null,
-   "applies_to": "Qu'est-ce qui n'est pas assuré ? (non assuré)",
-   "page": 1
-  },
-  {
-   "name": "Les litiges liés à une activité professionnelle salariée",
-   "description": null,
-   "applies_to": "Qu'est-ce qui n'est pas assuré ? (non assuré)",
-   "page": 1
-  },
-  {
-   "name": "Les condamnations et indemnités se rapportant à l'objet du litige",
-   "description": null,
-   "applies_to": "Qu'est-ce qui n'est pas assuré ? (non assuré)",
-   "page": 1
-  },
-  {
-   "name": "Les litiges découlant du fait intentionnel de l'assuré",
-   "description": null,
-   "applies_to": "all",
-   "page": 1
-  },
-  {
-   "name": "Les litiges découlant d'un engagement de caution ou d'une subrogation",
-   "description": null,
-   "applies_to": "all",
-   "page": 1
-  },
-  {
-   "name": "Les litiges relevant de la protection des marques et brevets, modèles, droits d'auteur, concurrence déloyale",
-   "description": null,
-   "applies_to": "all",
-   "page": 1
-  },
-  {
-   "name": "Les litiges concernant des conflits collectifs du travail, de contentieux électoraux",
-   "description": null,
-   "applies_to": "all",
-   "page": 1
-  },
-  {
-   "name": "Les litiges de construction ou de restauration survenant dans l'année de réception des travaux",
-   "description": null,
-   "applies_to": "all",
-   "page": 1
-  },
-  {
-   "name": "Les litiges relatifs à un acte d'administration ou de disposition du patrimoine de l'assuré, à une demande d'octroi de délai de paiement ou à l'assistance dans le cadre d'une procédure collective",
-   "description": "Les litiges relatifs à un acte d'administration ou de disposition du patrimoine de l'assuré, ou à une demande d'octroi de délai de paiement ou encore à l'assistance de l'assuré dans le cadre d'une procédure collective le visant.",
-   "applies_to": "all",
-   "page": 1
-  },
-  {
-   "name": "Les litiges opposant l'assuré à un fournisseur d'accès Internet ou découlant de l'utilisation de tout outil Internet, site ou logiciel informatique",
-   "description": null,
-   "applies_to": "all",
-   "page": 1
-  },
-  {
-   "name": "Les frais et honoraires de constat d'huissier et d'expertise amiable",
-   "description": null,
-   "applies_to": "all",
-   "page": 1
-  },
-  {
-   "name": "Les honoraires de consultation, de résultats et de postulation",
-   "description": "Les honoraires de consultation (en dehors d'une procédure), de résultats (liés à la décision obtenue), de postulation (relatifs à la saisine d'un avocat non compétent devant la juridiction territoriale concernée).",
-   "applies_to": "all",
-   "page": 1
-  },
-  {
-   "name": "Risque fiscal : redressement fiscal justifié par la mauvaise foi, des manoeuvres frauduleuses ou un abus de droit imputable à l'assuré",
-   "description": null,
-   "applies_to": "Option “RISQUE FISCAL”",
-   "page": 1
-  },
-  {
-   "name": "Dirigeant : toute infraction volontaire ou toute faute intentionnelle de gestion",
-   "description": null,
-   "applies_to": "Option “DIRIGEANT”",
-   "page": 1
-  }
- ],
- "deductibles": null,
- "waiting_periods": [],
- "obligations": [
-  {
-   "name": "Répondre exactement aux questions posées à la souscription",
-   "description": "Répondre exactement à toutes les questions posées pour identifier la nature du risque à assurer.",
-   "timing": "À la souscription du contrat",
-   "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie",
-   "page": 2
-  },
-  {
-   "name": "Déclarer les circonstances nouvelles en cours de contrat",
-   "description": "Déclarer par lettre recommandée ou auprès d'un conseiller toutes les circonstances nouvelles qui rendent inexactes ou caduques les réponses faites lors de la souscription.",
-   "timing": "En cours de contrat : dans les 15 jours, à partir du moment où l'assuré en a eu connaissance",
-   "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie",
-   "page": 2
-  },
-  {
-   "name": "Déclarer le sinistre",
-   "description": "Déclarer le sinistre à l'assureur à partir du moment où l'assuré en a connaissance.",
-   "timing": "En cas de sinistre : au plus tard dans les 5 jours ouvrés",
-   "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie",
-   "page": 2
-  },
-  {
-   "name": "Ne prendre aucune initiative sans avoir avisé l'assureur",
-   "description": "Ne prendre aucune initiative sans en avoir avisé au préalable l'assureur.",
-   "timing": "En cas de sinistre",
-   "sanction": "À défaut de quoi, sauf urgence justifiée, les frais engagés préalablement à la déclaration pourraient ne pas être pris en charge",
-   "page": 2
-  },
-  {
-   "name": "Constituer son dossier auprès de l'assureur",
-   "description": "Constituer son dossier auprès de l'assureur et lui adresser en temps utile tous les renseignements, documents et éléments de preuve dont l'assuré dispose.",
-   "timing": "En cas de sinistre : en temps utile",
-   "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie",
-   "page": 2
-  }
- ],
- "claims_procedure": [
-  {
-   "step": "Déclarer le sinistre à l'assureur",
-   "description": "Déclarer le sinistre à l'assureur à partir du moment où l'assuré en a connaissance.",
-   "deadline": "au plus tard dans les 5 jours ouvrés",
-   "page": 2
-  },
-  {
-   "step": "Ne prendre aucune initiative avant d'avoir avisé l'assureur",
-   "description": "Ne prendre aucune initiative sans en avoir avisé au préalable l'assureur, à défaut de quoi sauf urgence justifiée, les frais engagés préalablement à la déclaration pourraient ne pas être pris en charge.",
-   "deadline": null,
-   "page": 2
-  },
-  {
-   "step": "Constituer son dossier",
-   "description": "Constituer son dossier auprès de l'assureur et lui adresser tous les renseignements, documents et éléments de preuve dont l'assuré dispose.",
-   "deadline": "en temps utile",
-   "page": 2
-  }
- ],
- "duration_and_cancellation": {
-  "duration": "La couverture commence à partir de la date convenue d'un commun accord et dure jusqu'à la date d'échéance principale.",
-  "tacit_renewal": true,
-  "notice_period": "un mois (résiliation à l'échéance principale)",
-  "methods": [
-   "par lettre recommandée",
-   "par déclaration faite contre récépissé auprès de l'assureur ou de son représentant"
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "macif",
+  "insurer_name": "Macif",
+  "product_name": "Protection Juridique",
+  "branch": "protection-juridique",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "Le document n'énonce aucune catégorie de public. Il décrit l'objet du contrat comme un litige « relevant de son activité professionnelle non salariée » et la garantie de base comme couvrant « l'activité professionnelle non salariée de l'assuré quelque soit sa nature (civile, commerciale ou industrielle) » et « l'exercice de l'activité à but non lucratif menée par tout groupement ». C'est une description de l'activité couverte, pas une désignation de public ; target_audience est donc laissé à null.",
+  "reference": "PJ 10/18",
+  "edition_date": "10/18",
+  "product_family": "Protection Juridique",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_protection_juridique_sur_mesure_des_professionnels.pdf",
+  "source_pdf": "protection-juridique-dipa-protection-juridique-sur-mesure-des-professionnels-d3e8b807.pdf",
+  "source_sha256": "d429528bd295538b14f3cf93dbf429d53a1b6be163710df1d339d840a831c3f1",
+  "source_pages": 2,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d'information sur le produit d'assurance (DIPA/IPID) d'un contrat de protection juridique porté par Thémis, société anonyme au capital de 2 499 840 € (SIREN n°582 067 922). Le contrat couvre la prise en charge des frais et honoraires de procédure de l'assuré, en demande comme en défense, en cas de litige l'opposant à un tiers et relevant de son activité professionnelle non salariée. La garantie de base comprend l'information juridique, l'exercice d'une action amiable et la prise en charge des honoraires de l'avocat du choix de l'assuré dans la limite d'un plafond global par sinistre de 16 000 euros hors taxes. Trois options sont proposées : recouvrement de créances, risque fiscal (plafond de 3 100 euros hors taxes) et dirigeant ; les sinistres ne sont pris en charge qu'au-delà d'un enjeu initial de 380 euros hors taxes, porté à 760 euros hors taxes pour deux des options.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "LA GARANTIE DE BASE - Prise en charge des sinistres",
+      "description": "Prise en charge des sinistres relevant exclusivement de l'activité professionnelle non salariée de l'assuré et de l'exercice de l'activité à but non lucratif menée par tout groupement. Garantie précédée d'une coche, donc systématiquement prévue au contrat.",
+      "is_optional": false,
+      "territorial_scope": "France, Monaco, Andorre, Suisse et les pays membres de l'Union Européenne",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "de l'activité professionnelle non salariée de l'assuré quelque soit sa nature (civile, commerciale ou industrielle)",
+        "de l'exercice de l'activité à but non lucratif menée par tout groupement"
+      ],
+      "page": 1
+    },
+    {
+      "name": "LES PRESTATIONS FOURNIES - Information juridique",
+      "description": "Information juridique de l'assuré sur l'étendue de ses droits relatifs au sinistre garanti. Prestation précédée d'une coche, donc systématiquement prévue au contrat.",
+      "is_optional": false,
+      "territorial_scope": "France, Monaco, Andorre, Suisse et les pays membres de l'Union Européenne",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "LES PRESTATIONS FOURNIES - Action amiable",
+      "description": "Exercice d'une action amiable pour le compte de l'assuré. Si la partie adverse est assistée d'un avocat, prise en charge des honoraires de l'avocat représentant l'assuré. Prestation précédée d'une coche, donc systématiquement prévue au contrat.",
+      "is_optional": false,
+      "territorial_scope": "France, Monaco, Andorre, Suisse et les pays membres de l'Union Européenne",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Si la partie adverse est assistée d'un avocat, prise en charge des honoraires de l'avocat représentant l'assuré"
+      ],
+      "page": 1
+    },
+    {
+      "name": "LES PRESTATIONS FOURNIES - Honoraires d'avocat et frais de procédure",
+      "description": "Prise en charge des honoraires de l'avocat du choix de l'assuré, ainsi que des frais de procédure éventuels, dont ceux d'expertise judiciaire mis à sa charge. Prestation précédée d'une coche, donc systématiquement prévue au contrat.",
+      "is_optional": false,
+      "territorial_scope": "France, Monaco, Andorre, Suisse et les pays membres de l'Union Européenne",
+      "limits": "dans la limite du plafond global par sinistre de 16 000 euros hors taxes",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Option “RECOUVREMENT DE CRÉANCES”",
+      "description": "Prise en charge des honoraires de l'avocat de l'assuré et des frais de procédure éventuels, afin de récupérer une créance relevant de son activité professionnelle assurée.",
+      "is_optional": true,
+      "territorial_scope": "France, Monaco, Andorre, Suisse et les pays membres de l'Union Européenne",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Seuil d'intervention porté à 760 euros hors taxes pour cette option"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Option “RISQUE FISCAL”",
+      "description": "Prise en charge des honoraires (de l'avocat ou de l'expert comptable de l'assuré) et des frais de procédure éventuels, en cas de contestation d'un redressement fiscal concernant l'activité professionnelle assurée.",
+      "is_optional": true,
+      "territorial_scope": "France, Monaco, Andorre, Suisse et les pays membres de l'Union Européenne",
+      "limits": "Les frais et honoraires sont garantis dans la limite du plafond maximum de 3 100 euros hors taxes",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Seuil d'intervention porté à 760 euros hors taxes pour cette option"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Option “DIRIGEANT”",
+      "description": "Prise en charge des honoraires de l'avocat de l'assuré, ainsi que des frais de procédure éventuels lorsque le dirigeant est poursuivi ou mis en cause : en cas d'infraction commise par le dirigeant dans le cadre de ses fonctions et relative au non respect de la législation en matière de droit du travail, économique, hygiène et de sécurité ; en cas de faute de gestion.",
+      "is_optional": true,
+      "territorial_scope": "France, Monaco, Andorre, Suisse et les pays membres de l'Union Européenne",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "En cas d'infraction commise par le dirigeant dans le cadre de ses fonctions et relative au non respect de la législation en matière de : droit du travail",
+        "En cas d'infraction commise par le dirigeant dans le cadre de ses fonctions et relative au non respect de la législation en matière de : économique",
+        "En cas d'infraction commise par le dirigeant dans le cadre de ses fonctions et relative au non respect de la législation en matière de : hygiène et de sécurité",
+        "En cas de faute de gestion"
+      ],
+      "page": 1
+    }
   ],
-  "special_rights": [
-   "à l'échéance principale, avec un préavis d'un mois",
-   "si la situation personnelle ou professionnelle de l'assuré change dans certaines conditions",
-   "en cas d'augmentation de la cotisation hors taxes"
+  "exclusions": [
+    {
+      "name": "Les litiges dont l'origine se situe en dehors de la période de validité du contrat",
+      "description": "Les litiges dont l'origine (connaissance par l'assuré des éléments constitutifs du différend) se situe en dehors de la période de validité du contrat.",
+      "applies_to": "Qu'est-ce qui n'est pas assuré ? (non assuré)",
+      "page": 1
+    },
+    {
+      "name": "Les litiges relevant de la vie privée",
+      "description": null,
+      "applies_to": "Qu'est-ce qui n'est pas assuré ? (non assuré)",
+      "page": 1
+    },
+    {
+      "name": "Les litiges liés à une activité professionnelle salariée",
+      "description": null,
+      "applies_to": "Qu'est-ce qui n'est pas assuré ? (non assuré)",
+      "page": 1
+    },
+    {
+      "name": "Les condamnations et indemnités se rapportant à l'objet du litige",
+      "description": null,
+      "applies_to": "Qu'est-ce qui n'est pas assuré ? (non assuré)",
+      "page": 1
+    },
+    {
+      "name": "Les litiges découlant du fait intentionnel de l'assuré",
+      "description": null,
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Les litiges découlant d'un engagement de caution ou d'une subrogation",
+      "description": null,
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Les litiges relevant de la protection des marques et brevets, modèles, droits d'auteur, concurrence déloyale",
+      "description": null,
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Les litiges concernant des conflits collectifs du travail, de contentieux électoraux",
+      "description": null,
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Les litiges de construction ou de restauration survenant dans l'année de réception des travaux",
+      "description": null,
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Les litiges relatifs à un acte d'administration ou de disposition du patrimoine de l'assuré, à une demande d'octroi de délai de paiement ou à l'assistance dans le cadre d'une procédure collective",
+      "description": "Les litiges relatifs à un acte d'administration ou de disposition du patrimoine de l'assuré, ou à une demande d'octroi de délai de paiement ou encore à l'assistance de l'assuré dans le cadre d'une procédure collective le visant.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Les litiges opposant l'assuré à un fournisseur d'accès Internet ou découlant de l'utilisation de tout outil Internet, site ou logiciel informatique",
+      "description": null,
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Les frais et honoraires de constat d'huissier et d'expertise amiable",
+      "description": null,
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Les honoraires de consultation, de résultats et de postulation",
+      "description": "Les honoraires de consultation (en dehors d'une procédure), de résultats (liés à la décision obtenue), de postulation (relatifs à la saisine d'un avocat non compétent devant la juridiction territoriale concernée).",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Risque fiscal : redressement fiscal justifié par la mauvaise foi, des manoeuvres frauduleuses ou un abus de droit imputable à l'assuré",
+      "description": null,
+      "applies_to": "Option “RISQUE FISCAL”",
+      "page": 1
+    },
+    {
+      "name": "Dirigeant : toute infraction volontaire ou toute faute intentionnelle de gestion",
+      "description": null,
+      "applies_to": "Option “DIRIGEANT”",
+      "page": 1
+    }
   ],
-  "page": 2
- },
- "prescription_period": null,
- "premium": {
-  "notes": [
-   "La cotisation est payable d'avance à la souscription puis à chaque date d'échéance.",
-   "Elle est exigible annuellement, toutefois un paiement fractionné peut être accordé (trimestriel ou semestriel) moyennant des frais afférents.",
-   "Le défaut de paiement dans les 10 jours à compter de la date d'échéance pourra entraîner, après une mise en demeure, la suspension des garanties puis la résiliation du contrat.",
-   "Les paiements peuvent être effectués par chèque bancaire ou prélèvement, selon que l'assuré a choisi ou non, un paiement fractionné."
+  "deductibles": null,
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Répondre exactement aux questions posées à la souscription",
+      "description": "Répondre exactement à toutes les questions posées pour identifier la nature du risque à assurer.",
+      "timing": "À la souscription du contrat",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Déclarer les circonstances nouvelles en cours de contrat",
+      "description": "Déclarer par lettre recommandée ou auprès d'un conseiller toutes les circonstances nouvelles qui rendent inexactes ou caduques les réponses faites lors de la souscription.",
+      "timing": "En cours de contrat : dans les 15 jours, à partir du moment où l'assuré en a eu connaissance",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Déclarer le sinistre",
+      "description": "Déclarer le sinistre à l'assureur à partir du moment où l'assuré en a connaissance.",
+      "timing": "En cas de sinistre : au plus tard dans les 5 jours ouvrés",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Ne prendre aucune initiative sans avoir avisé l'assureur",
+      "description": "Ne prendre aucune initiative sans en avoir avisé au préalable l'assureur.",
+      "timing": "En cas de sinistre",
+      "sanction": "À défaut de quoi, sauf urgence justifiée, les frais engagés préalablement à la déclaration pourraient ne pas être pris en charge",
+      "page": 2
+    },
+    {
+      "name": "Constituer son dossier auprès de l'assureur",
+      "description": "Constituer son dossier auprès de l'assureur et lui adresser en temps utile tous les renseignements, documents et éléments de preuve dont l'assuré dispose.",
+      "timing": "En cas de sinistre : en temps utile",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie",
+      "page": 2
+    }
   ],
-  "indexation": null,
-  "page": 2
- },
- "special_conditions": [
-  {
-   "name": "LES PRINCIPALES RESTRICTIONS - Seuil d'intervention de 380 euros hors taxes",
-   "description": "Les sinistres ne seront pris en charge que si l'enjeu initial en litige (lorsque l'assuré est en demande), est d'un montant supérieur à 380 euros hors taxes.",
-   "page": 1
+  "claims_procedure": [
+    {
+      "step": "Déclarer le sinistre à l'assureur",
+      "description": "Déclarer le sinistre à l'assureur à partir du moment où l'assuré en a connaissance.",
+      "deadline": "au plus tard dans les 5 jours ouvrés",
+      "page": 2
+    },
+    {
+      "step": "Ne prendre aucune initiative avant d'avoir avisé l'assureur",
+      "description": "Ne prendre aucune initiative sans en avoir avisé au préalable l'assureur, à défaut de quoi sauf urgence justifiée, les frais engagés préalablement à la déclaration pourraient ne pas être pris en charge.",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Constituer son dossier",
+      "description": "Constituer son dossier auprès de l'assureur et lui adresser tous les renseignements, documents et éléments de preuve dont l'assuré dispose.",
+      "deadline": "en temps utile",
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "La couverture commence à partir de la date convenue d'un commun accord et dure jusqu'à la date d'échéance principale.",
+    "tacit_renewal": true,
+    "notice_period": "un mois (résiliation à l'échéance principale)",
+    "methods": [
+      "par lettre recommandée",
+      "par déclaration faite contre récépissé auprès de l'assureur ou de son représentant"
+    ],
+    "special_rights": [
+      "à l'échéance principale, avec un préavis d'un mois",
+      "si la situation personnelle ou professionnelle de l'assuré change dans certaines conditions",
+      "en cas d'augmentation de la cotisation hors taxes"
+    ],
+    "page": 2
   },
-  {
-   "name": "LES PRINCIPALES RESTRICTIONS - Seuil d'intervention porté à 760 euros hors taxes pour deux options",
-   "description": "Ce seuil d'intervention est porté, pour les options « recouvrement de créances » et “risque fiscal”, à 760 euros hors taxes.",
-   "page": 1
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "La cotisation est payable d'avance à la souscription puis à chaque date d'échéance.",
+      "Elle est exigible annuellement, toutefois un paiement fractionné peut être accordé (trimestriel ou semestriel) moyennant des frais afférents.",
+      "Le défaut de paiement dans les 10 jours à compter de la date d'échéance pourra entraîner, après une mise en demeure, la suspension des garanties puis la résiliation du contrat.",
+      "Les paiements peuvent être effectués par chèque bancaire ou prélèvement, selon que l'assuré a choisi ou non, un paiement fractionné."
+    ],
+    "indexation": null,
+    "page": 2
   },
-  {
-   "name": "Plafonds non exhaustifs",
-   "description": "Les présentes garanties peuvent être soumises à des plafonds. Seuls certains d'entre eux sont mentionnés ci-dessous.",
-   "page": 1
-  },
-  {
-   "name": "Signalisation des garanties systématiques par une coche",
-   "description": "Les prestations et garanties précédées d'une coche sont systématiquement prévues au contrat. Les trois garanties optionnelles ne portent pas de coche.",
-   "page": 1
-  }
- ],
- "key_quotes": [
-  {
-   "quote": "Compagnie : Thémis - Société Anonyme au capital de 2 499 840€ - SIREN n°582 067 922",
-   "context": "Porteur de risque imprimé en tête du document",
-   "page": 1
-  },
-  {
-   "quote": "Ce contrat d’assurance Protection juridique couvre la prise en charge des frais et honoraires de procédure de l’assuré, en demande comme en défense, en cas de litige \nl’opposant à un tiers et relevant de son activité professionnelle non salariée.",
-   "context": "Définition du type d'assurance",
-   "page": 1
-  },
-  {
-   "quote": "PJ 10/18 - Thémis. Entreprise régie par le Code des assurances. Siège social : 2 et 4, rue de Pied de Fond 79000 Niort.",
-   "context": "Code de référence et mentions légales en pied de page 1",
-   "page": 1
-  },
-  {
-   "quote": "Les présentes garanties peuvent être soumises à des plafonds. Seuls \ncertains d’entre eux sont mentionnés ci-dessous.",
-   "context": "Avertissement sur le caractère non exhaustif des plafonds",
-   "page": 1
-  },
-  {
-   "quote": "Prise en charge des honoraires de l’avocat du choix de l’assuré, ainsi \nque des frais de procédure éventuels, dont ceux d’expertise judiciaire \nmis à sa charge, (dans la limite du plafond global par sinistre de 16 000 \neuros hors taxes)",
-   "context": "Plafond global par sinistre de la garantie de base",
-   "page": 1
-  },
-  {
-   "quote": "Les frais et honoraires sont garantis dans la limite du plafond maximum \nde 3 100 euros hors taxes",
-   "context": "Plafond de l'option RISQUE FISCAL",
-   "page": 1
-  },
-  {
-   "quote": "Les sinistres ne seront pris en charge que si l’enjeu initial en litige \n(lorsque l’assuré est en demande), est d’un montant supérieur à 380 \neuros hors taxes",
-   "context": "Seuil d'intervention général",
-   "page": 1
-  },
-  {
-   "quote": "Ce seuil d’intervention est porté, pour les options « recouvrement de \ncréances » et “risque fiscal”, à 760 euros hors taxes",
-   "context": "Seuil d'intervention relevé pour deux options",
-   "page": 1
-  },
-  {
-   "quote": "Les litiges dont l’origine (connaissance par l’assuré des éléments \nconstitutifs du différend) se situe en dehors de la période de validité \ndu contrat",
-   "context": "Premier poste non assuré",
-   "page": 1
-  },
-  {
-   "quote": "Les litiges découlant du fait intentionnel de l’assuré",
-   "context": "Exclusion commune à toutes les garanties",
-   "page": 1
-  },
-  {
-   "quote": "Les garanties s’exercent exclusivement en : France, Monaco, Andorre, Suisse et les pays membres de l’Union Européenne",
-   "context": "Portée territoriale",
-   "page": 2
-  },
-  {
-   "quote": "déclarer le sinistre à l’assureur à partir du moment où l’assuré en a connaissance et au plus tard dans les 5 jours ouvrés",
-   "context": "Délai de déclaration de sinistre",
-   "page": 2
-  },
-  {
-   "quote": "La couverture commence à partir de la date convenue d’un commun accord et dure jusqu’à la date d’échéance principale. À cette date, le contrat est \nrenouvelé automatiquement par période annuelle, sauf si l’une des parties décide d’y mettre fin dans les délais et conditions prévus au contrat.",
-   "context": "Durée et reconduction tacite",
-   "page": 2
-  },
-  {
-   "quote": "à l’échéance principale, avec un préavis d’un mois",
-   "context": "Préavis de résiliation à l'échéance",
-   "page": 2
-  }
- ],
- "gaps": [
-  "COUCHE TEXTE VÉRIFIÉE COMPLÈTE — CONTREDIT L'ALERTE DE PRÉ-ANALYSE. Ce document avait été signalé comme « mauvaise couche texte » avec un ratio get_texttrace()/get_text() de 0,58, parmi les cinq pires du corpus. Vérification faite : le déficit est un ARTEFACT DE MESURE, pas une perte de contenu. La page 1 porte 10 595 glyphes tracés, mais 5 619 d'entre eux sont situés HORS de la surface de la page (rect 0,0 595,28 841,89) : coordonnées x jusqu'à 4 741 et y négatifs jusqu'à -1 616. En ne comptant que les glyphes réellement sur la page, le ratio est de 5 073/4 976 = 1,019 en page 1 et 2 560/2 526 = 1,013 en page 2, soit la médiane du corpus (1,02). Aucune section n'est manquante.",
-  "Contenu des glyphes hors-page : il s'agit d'un reliquat du fichier de création (contenu resté hors plan de travail), sans rapport avec le contrat — un organigramme de direction de la Macif (« Présidence », « Direction générale », « Directeur de cabinet du président », « Métiers Assurances de personnes », noms de dirigeants) dans les polices AchilleIIFY et Tahoma, dont l'encodage est décalé de +3 (« 3UpVLGHQFH » pour « Présidence »), ce qui explique qu'elles ne soient pas restituées par get_text(\"text\"). Les polices du contrat lui-même (MyriadPro) sont, elles, intégralement restituées. Recommandation pour le corpus : le scan de ratio devrait filtrer get_texttrace() sur le rectangle de la page, sinon il produit des faux positifs — les autres documents Macif signalés méritent le même contrôle avant d'être ré-extraits.",
-  "Contrôle par rendu effectué malgré tout : les deux pages ont été rendues à fitz.Matrix(5, 5) et relues région par région (colonne gauche haut/bas, colonne droite haut/bas). Tout ce qui est visible à l'image figure dans la couche texte, mot pour mot. Toutes les données de ce document sont donc citables ; aucun fait n'est ici non-citable.",
-  "Décompte des U+0007 : 25 en page 1, 3 en page 2. Chaque U+0007 précède immédiatement un item (il correspond à la puce graphique : coche verte ✓ à gauche, croix rouge ✗ ou point d'exclamation orange ! à droite). Répartition vérifiée par position : colonne gauche 8 (4 items cochés + 4 sous-items tirets de l'option « DIRIGEANT » et de la garantie de base), colonne droite 17 (2 puces sur les 4 postes « n'est pas assuré », 2 marqueurs de sous-titre en MyriadPro-Bold à x=307,1, 9 exclusions communes, 2 exclusions spécifiques, 2 restrictions). ATTENTION : sur ce document le nombre de U+0007 n'égale PAS le nombre d'items dans la section « Qu'est-ce qui n'est pas assuré ? » — 2 U+0007 pour 4 items réellement imprimés. Les 4 items sont bien présents dans la couche texte et ont été lus au rendu ; le U+0007 n'est donc pas un compteur fiable ici, contrairement à d'autres documents Macif.",
-  "PORTEUR DE RISQUE : ce document nomme explicitement son assureur, « Compagnie : Thémis - Société Anonyme au capital de 2 499 840€ - SIREN n°582 067 922 », confirmé par le pied de page « PJ 10/18 - Thémis. Entreprise régie par le Code des assurances. Siège social : 2 et 4, rue de Pied de Fond 79000 Niort. » La protection juridique est donc ici portée par Thémis SA, et non par Macif SAM. Le nom « Macif » n'apparaît nulle part dans le corps du document ; insurer_slug/insurer_name sont conservés tels que fournis par les métadonnées de la tâche (rattachement au groupe), mais l'entité qui porte le risque est Thémis.",
-  "branch : « protection-juridique » des métadonnées de la tâche est ICI CONFORME au document, qui s'intitule « Assurance Protection Juridique » et « Produit : Protection Juridique ». Aucune divergence à signaler sur ce document.",
-  "Aucune date d'édition explicite (pas de mention « édition MM/AAAA », pas d'« entrée en vigueur »). edition_date est tiré du code de référence en pied de page « PJ 10/18 », dont le suffixe 10/18 est la partie MM/AA. Le nom du fichier source (DIPA_protection_juridique_sur_mesure_des_professionnels.pdf) ne porte aucune date.",
-  "Le nom de produit imprimé est « Protection Juridique », plus court que celui des métadonnées de la tâche (« Protection Juridique [DIPA_protection_juridique_sur_mesure_des_professionnels] »). La mention « sur mesure des professionnels » n'existe que dans le nom de fichier, jamais dans le document : elle n'a donc pas été reprise dans product_name ni dans variant.",
-  "Aucune franchise n'est mentionnée dans ce document : deductibles est null. Ce n'est pas une omission d'extraction — le mot « franchise » n'apparaît pas. Les seuls montants opposables à l'assuré sont les deux seuils d'intervention (380 et 760 euros hors taxes), enregistrés dans special_conditions.",
-  "Aucun délai de carence ni délai de prescription n'est mentionné : waiting_periods vide et prescription_period null. Aucune section « Définitions » / lexique dans ce DIPA : definitions est vide à juste titre (format IPID réglementaire de 2 pages).",
-  "is_optional est établi par la légende du document elle-même — « Les prestations et garanties précédées d'une coche sont systématiquement prévues au contrat » — et vérifié au rendu : les quatre items de la garantie de base et des prestations fournies portent une coche verte, les trois garanties optionnelles n'en portent pas. Le fait est également confirmé dans la couche texte, où un U+0007 précède les quatre premiers et aucun des trois autres.",
-  "Le document ne chiffre pas le plafond de l'option « RECOUVREMENT DE CRÉANCES » ni celui de l'option « DIRIGEANT », et prévient lui-même que « Les présentes garanties peuvent être soumises à des plafonds. Seuls certains d'entre eux sont mentionnés ci-dessous. » Les plafonds absents ne sont pas déduits.",
-  "Typographie préservée telle quelle dans les citations : apostrophes courbes U+2019, espaces d'approche dans les montants (« 16 000 », « 3 100 », « 2 499 840€ »), guillemets français et guillemets courbes anglais mélangés dans la même phrase (« recouvrement de créances » et “risque fiscal”). Les citations ont été découpées programmatiquement par .find() sur la couche texte, jamais retapées."
- ]
+  "special_conditions": [
+    {
+      "name": "LES PRINCIPALES RESTRICTIONS - Seuil d'intervention de 380 euros hors taxes",
+      "description": "Les sinistres ne seront pris en charge que si l'enjeu initial en litige (lorsque l'assuré est en demande), est d'un montant supérieur à 380 euros hors taxes.",
+      "page": 1
+    },
+    {
+      "name": "LES PRINCIPALES RESTRICTIONS - Seuil d'intervention porté à 760 euros hors taxes pour deux options",
+      "description": "Ce seuil d'intervention est porté, pour les options « recouvrement de créances » et “risque fiscal”, à 760 euros hors taxes.",
+      "page": 1
+    },
+    {
+      "name": "Plafonds non exhaustifs",
+      "description": "Les présentes garanties peuvent être soumises à des plafonds. Seuls certains d'entre eux sont mentionnés ci-dessous.",
+      "page": 1
+    },
+    {
+      "name": "Signalisation des garanties systématiques par une coche",
+      "description": "Les prestations et garanties précédées d'une coche sont systématiquement prévues au contrat. Les trois garanties optionnelles ne portent pas de coche.",
+      "page": 1
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Compagnie : Thémis - Société Anonyme au capital de 2 499 840€ - SIREN n°582 067 922",
+      "context": "Porteur de risque imprimé en tête du document",
+      "page": 1
+    },
+    {
+      "quote": "Ce contrat d’assurance Protection juridique couvre la prise en charge des frais et honoraires de procédure de l’assuré, en demande comme en défense, en cas de litige \nl’opposant à un tiers et relevant de son activité professionnelle non salariée.",
+      "context": "Définition du type d'assurance",
+      "page": 1
+    },
+    {
+      "quote": "PJ 10/18 - Thémis. Entreprise régie par le Code des assurances. Siège social : 2 et 4, rue de Pied de Fond 79000 Niort.",
+      "context": "Code de référence et mentions légales en pied de page 1",
+      "page": 1
+    },
+    {
+      "quote": "Les présentes garanties peuvent être soumises à des plafonds. Seuls \ncertains d’entre eux sont mentionnés ci-dessous.",
+      "context": "Avertissement sur le caractère non exhaustif des plafonds",
+      "page": 1
+    },
+    {
+      "quote": "Prise en charge des honoraires de l’avocat du choix de l’assuré, ainsi \nque des frais de procédure éventuels, dont ceux d’expertise judiciaire \nmis à sa charge, (dans la limite du plafond global par sinistre de 16 000 \neuros hors taxes)",
+      "context": "Plafond global par sinistre de la garantie de base",
+      "page": 1
+    },
+    {
+      "quote": "Les frais et honoraires sont garantis dans la limite du plafond maximum \nde 3 100 euros hors taxes",
+      "context": "Plafond de l'option RISQUE FISCAL",
+      "page": 1
+    },
+    {
+      "quote": "Les sinistres ne seront pris en charge que si l’enjeu initial en litige \n(lorsque l’assuré est en demande), est d’un montant supérieur à 380 \neuros hors taxes",
+      "context": "Seuil d'intervention général",
+      "page": 1
+    },
+    {
+      "quote": "Ce seuil d’intervention est porté, pour les options « recouvrement de \ncréances » et “risque fiscal”, à 760 euros hors taxes",
+      "context": "Seuil d'intervention relevé pour deux options",
+      "page": 1
+    },
+    {
+      "quote": "Les litiges dont l’origine (connaissance par l’assuré des éléments \nconstitutifs du différend) se situe en dehors de la période de validité \ndu contrat",
+      "context": "Premier poste non assuré",
+      "page": 1
+    },
+    {
+      "quote": "Les litiges découlant du fait intentionnel de l’assuré",
+      "context": "Exclusion commune à toutes les garanties",
+      "page": 1
+    },
+    {
+      "quote": "Les garanties s’exercent exclusivement en : France, Monaco, Andorre, Suisse et les pays membres de l’Union Européenne",
+      "context": "Portée territoriale",
+      "page": 2
+    },
+    {
+      "quote": "déclarer le sinistre à l’assureur à partir du moment où l’assuré en a connaissance et au plus tard dans les 5 jours ouvrés",
+      "context": "Délai de déclaration de sinistre",
+      "page": 2
+    },
+    {
+      "quote": "La couverture commence à partir de la date convenue d’un commun accord et dure jusqu’à la date d’échéance principale. À cette date, le contrat est \nrenouvelé automatiquement par période annuelle, sauf si l’une des parties décide d’y mettre fin dans les délais et conditions prévus au contrat.",
+      "context": "Durée et reconduction tacite",
+      "page": 2
+    },
+    {
+      "quote": "à l’échéance principale, avec un préavis d’un mois",
+      "context": "Préavis de résiliation à l'échéance",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "COUCHE TEXTE VÉRIFIÉE COMPLÈTE — CONTREDIT L'ALERTE DE PRÉ-ANALYSE. Ce document avait été signalé comme « mauvaise couche texte » avec un ratio get_texttrace()/get_text() de 0,58, parmi les cinq pires du corpus. Vérification faite : le déficit est un ARTEFACT DE MESURE, pas une perte de contenu. La page 1 porte 10 595 glyphes tracés, mais 5 619 d'entre eux sont situés HORS de la surface de la page (rect 0,0 595,28 841,89) : coordonnées x jusqu'à 4 741 et y négatifs jusqu'à -1 616. En ne comptant que les glyphes réellement sur la page, le ratio est de 5 073/4 976 = 1,019 en page 1 et 2 560/2 526 = 1,013 en page 2, soit la médiane du corpus (1,02). Aucune section n'est manquante.",
+    "Contenu des glyphes hors-page : il s'agit d'un reliquat du fichier de création (contenu resté hors plan de travail), sans rapport avec le contrat — un organigramme de direction de la Macif (« Présidence », « Direction générale », « Directeur de cabinet du président », « Métiers Assurances de personnes », noms de dirigeants) dans les polices AchilleIIFY et Tahoma, dont l'encodage est décalé de +3 (« 3UpVLGHQFH » pour « Présidence »), ce qui explique qu'elles ne soient pas restituées par get_text(\"text\"). Les polices du contrat lui-même (MyriadPro) sont, elles, intégralement restituées. Recommandation pour le corpus : le scan de ratio devrait filtrer get_texttrace() sur le rectangle de la page, sinon il produit des faux positifs — les autres documents Macif signalés méritent le même contrôle avant d'être ré-extraits.",
+    "Contrôle par rendu effectué malgré tout : les deux pages ont été rendues à fitz.Matrix(5, 5) et relues région par région (colonne gauche haut/bas, colonne droite haut/bas). Tout ce qui est visible à l'image figure dans la couche texte, mot pour mot. Toutes les données de ce document sont donc citables ; aucun fait n'est ici non-citable.",
+    "Décompte des U+0007 : 25 en page 1, 3 en page 2. Chaque U+0007 précède immédiatement un item (il correspond à la puce graphique : coche verte ✓ à gauche, croix rouge ✗ ou point d'exclamation orange ! à droite). Répartition vérifiée par position : colonne gauche 8 (4 items cochés + 4 sous-items tirets de l'option « DIRIGEANT » et de la garantie de base), colonne droite 17 (2 puces sur les 4 postes « n'est pas assuré », 2 marqueurs de sous-titre en MyriadPro-Bold à x=307,1, 9 exclusions communes, 2 exclusions spécifiques, 2 restrictions). ATTENTION : sur ce document le nombre de U+0007 n'égale PAS le nombre d'items dans la section « Qu'est-ce qui n'est pas assuré ? » — 2 U+0007 pour 4 items réellement imprimés. Les 4 items sont bien présents dans la couche texte et ont été lus au rendu ; le U+0007 n'est donc pas un compteur fiable ici, contrairement à d'autres documents Macif.",
+    "PORTEUR DE RISQUE : ce document nomme explicitement son assureur, « Compagnie : Thémis - Société Anonyme au capital de 2 499 840€ - SIREN n°582 067 922 », confirmé par le pied de page « PJ 10/18 - Thémis. Entreprise régie par le Code des assurances. Siège social : 2 et 4, rue de Pied de Fond 79000 Niort. » La protection juridique est donc ici portée par Thémis SA, et non par Macif SAM. Le nom « Macif » n'apparaît nulle part dans le corps du document ; insurer_slug/insurer_name sont conservés tels que fournis par les métadonnées de la tâche (rattachement au groupe), mais l'entité qui porte le risque est Thémis.",
+    "branch : « protection-juridique » des métadonnées de la tâche est ICI CONFORME au document, qui s'intitule « Assurance Protection Juridique » et « Produit : Protection Juridique ». Aucune divergence à signaler sur ce document.",
+    "Aucune date d'édition explicite (pas de mention « édition MM/AAAA », pas d'« entrée en vigueur »). edition_date est tiré du code de référence en pied de page « PJ 10/18 », dont le suffixe 10/18 est la partie MM/AA. Le nom du fichier source (DIPA_protection_juridique_sur_mesure_des_professionnels.pdf) ne porte aucune date.",
+    "Le nom de produit imprimé est « Protection Juridique », plus court que celui des métadonnées de la tâche (« Protection Juridique [DIPA_protection_juridique_sur_mesure_des_professionnels] »). La mention « sur mesure des professionnels » n'existe que dans le nom de fichier, jamais dans le document : elle n'a donc pas été reprise dans product_name ni dans variant.",
+    "Aucune franchise n'est mentionnée dans ce document : deductibles est null. Ce n'est pas une omission d'extraction — le mot « franchise » n'apparaît pas. Les seuls montants opposables à l'assuré sont les deux seuils d'intervention (380 et 760 euros hors taxes), enregistrés dans special_conditions.",
+    "Aucun délai de carence ni délai de prescription n'est mentionné : waiting_periods vide et prescription_period null. Aucune section « Définitions » / lexique dans ce DIPA : definitions est vide à juste titre (format IPID réglementaire de 2 pages).",
+    "is_optional est établi par la légende du document elle-même — « Les prestations et garanties précédées d'une coche sont systématiquement prévues au contrat » — et vérifié au rendu : les quatre items de la garantie de base et des prestations fournies portent une coche verte, les trois garanties optionnelles n'en portent pas. Le fait est également confirmé dans la couche texte, où un U+0007 précède les quatre premiers et aucun des trois autres.",
+    "Le document ne chiffre pas le plafond de l'option « RECOUVREMENT DE CRÉANCES » ni celui de l'option « DIRIGEANT », et prévient lui-même que « Les présentes garanties peuvent être soumises à des plafonds. Seuls certains d'entre eux sont mentionnés ci-dessous. » Les plafonds absents ne sont pas déduits.",
+    "Typographie préservée telle quelle dans les citations : apostrophes courbes U+2019, espaces d'approche dans les montants (« 16 000 », « 3 100 », « 2 499 840€ »), guillemets français et guillemets courbes anglais mélangés dans la même phrase (« recouvrement de créances » et “risque fiscal”). Les citations ont été découpées programmatiquement par .find() sur la couche texte, jamais retapées."
+  ]
 }

@@ -1,635 +1,635 @@
 {
- "schema_version": "1.0",
- "prompt_version": "1.1",
- "country": "fr",
- "insurer_slug": "maaf",
- "insurer_name": "MAAF",
- "product_name": "Assurance scolaire — Tableau des garanties",
- "branch": "scolaire",
- "branch_code": null,
- "document_type": "product_sheet",
- "language": "fr",
- "target_audience": null,
- "target_audience_note": null,
- "reference": null,
- "edition_date": "06/2022",
- "product_family": "Assurance scolaire",
- "variant": null,
- "is_extension": false,
- "extends": null,
- "superseded": null,
- "source_url": "https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/Tableaux_de_garanties/MAAF_TG_Tempo_Assurance_scolaire.pdf",
- "source_pdf": "assurance-scolaire-tableau-des-garanties-baby-maternelle-junior-17ef148e.pdf",
- "source_sha256": "64fd6a0171cc2e7ac53cfc38aca06b8f0ae8d7764d1e0fe4477d930c84a085db",
- "source_pages": 3,
- "fetched_at": "2026-08-01",
- "extraction_model": "claude-code-subagent:scale",
- "summary": "Tableau des garanties de l’assurance scolaire MAAF, comparant trois formules — Baby, Maternelle et Junior — sur trois ensembles de garanties : « La protection personnelle » (frais de soins et frais supplémentaires, prothèses, lunettes, invalidité suite à accident, frais d’aménagement du cadre de vie, frais d’obsèques), « Les garanties complémentaires » (frais de transport, vol de fournitures scolaires, dommages au matériel confié, au vélo, à un instrument de musique et aux vêtements, rachat de franchise, assistance à domicile et assistance aux personnes) et « Responsabilité Civile - Défense et Recours ». Chaque ligne indique le type de montant (plafond, plafond/jour, maximum, franchise) et le montant garanti ; les sommes indiquées constituent le maximum garanti par sinistre. Le document renvoie au lexique des conditions générales du contrat Tempo Enfants pour les termes suivis d’un astérisque.",
- "definitions": [],
- "coverages": [
-  {
-   "name": "Frais de soins (médicaux, pharmaceutiques, frais de transport, hospitalisation…)",
-   "description": "Prise en charge des frais de soins : frais médicaux, pharmaceutiques, frais de transport, hospitalisation…",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "Plafond 15 500 € — sur la base de : Frais réels",
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
-   ],
-   "page": 1
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "maaf",
+  "insurer_name": "MAAF",
+  "product_name": "Assurance scolaire — Tableau des garanties",
+  "branch": "scolaire",
+  "branch_code": null,
+  "document_type": "product_sheet",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": null,
+  "reference": null,
+  "edition_date": "06/2022",
+  "product_family": "Assurance scolaire",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/Tableaux_de_garanties/MAAF_TG_Tempo_Assurance_scolaire.pdf",
+  "source_pdf": "assurance-scolaire-tableau-des-garanties-baby-maternelle-junior-17ef148e.pdf",
+  "source_sha256": "64fd6a0171cc2e7ac53cfc38aca06b8f0ae8d7764d1e0fe4477d930c84a085db",
+  "source_pages": 3,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Tableau des garanties de l’assurance scolaire MAAF, comparant trois formules — Baby, Maternelle et Junior — sur trois ensembles de garanties : « La protection personnelle » (frais de soins et frais supplémentaires, prothèses, lunettes, invalidité suite à accident, frais d’aménagement du cadre de vie, frais d’obsèques), « Les garanties complémentaires » (frais de transport, vol de fournitures scolaires, dommages au matériel confié, au vélo, à un instrument de musique et aux vêtements, rachat de franchise, assistance à domicile et assistance aux personnes) et « Responsabilité Civile - Défense et Recours ». Chaque ligne indique le type de montant (plafond, plafond/jour, maximum, franchise) et le montant garanti ; les sommes indiquées constituent le maximum garanti par sinistre. Le document renvoie au lexique des conditions générales du contrat Tempo Enfants pour les termes suivis d’un astérisque.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Frais de soins (médicaux, pharmaceutiques, frais de transport, hospitalisation…)",
+      "description": "Prise en charge des frais de soins : frais médicaux, pharmaceutiques, frais de transport, hospitalisation…",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Plafond 15 500 € — sur la base de : Frais réels",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Frais supplémentaires : Séjour en chambre particulière",
+      "description": "Frais supplémentaires en cas de séjour en chambre particulière.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Plafond/jour 50 € — Maximum 2 000 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Frais supplémentaires : Location de téléviseur à l’hôpital",
+      "description": "Frais supplémentaires : location de téléviseur à l’hôpital.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Plafond 80 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Frais supplémentaires : Frais d’accompagnant du parent au chevet de l’enfant hospitalisé",
+      "description": "Frais supplémentaires d’accompagnant du parent au chevet de l’enfant hospitalisé.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Plafond/jour 20 € — Maximum 350 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Prothèse dentaire",
+      "description": "Prothèse dentaire si atteinte au germe de la dent définitive.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Plafond/dent 400 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "si atteinte au germe de la dent définitive",
+        "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Bris d’appareil orthodontique",
+      "description": "Bris d’appareil orthodontique.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Plafond 400 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Acquise dans la formule Junior uniquement : croix rouge (non acquise) dans les colonnes Baby et Maternelle, coche verte dans la colonne Junior."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Bris de prothèse (auditive…)",
+      "description": "Bris de prothèse (auditive…).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Plafond 800 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Acquise dans la formule Junior uniquement : croix rouge (non acquise) dans les colonnes Baby et Maternelle, coche verte dans la colonne Junior."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Bris, perte ou vol de lunettes ou de lentilles de contact",
+      "description": "Bris, perte ou vol de lunettes ou de lentilles de contact, dans la limite de 2 événements par an.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "250 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "dans la limite de 2 événements par an",
+        "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Invalidité suite à accident*",
+      "description": "Capital versé en cas d’invalidité suite à accident*, selon un barème par tranche de taux d’invalidité. Exemple de calcul donné par le document : pour une invalidité de 31%, 75 000 € x 31% = 23 250 €.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "de 0 à 5% : 0 € ; de 6 à 15% : 30 000 € ; de 16 à 30% : 45 000 € ; de 31 à 50% : 75 000 € ; de 51 à 70% : 125 000 € ; de 71 à 85% : 160 000 € ; de 86 à 100% : 200 000 €",
+      "sub_limits": [
+        "de 0 à 5% : 0 €",
+        "de 6 à 15% : 30 000 €",
+        "de 16 à 30% : 45 000 €",
+        "de 31 à 50% : 75 000 €",
+        "de 51 à 70% : 125 000 €",
+        "de 71 à 85% : 160 000 €",
+        "de 86 à 100% : 200 000 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "* Cf. Lexique des conditions générales du contrat Tempo Enfants.",
+        "Acquise dans les trois formules (Baby, Maternelle, Junior) : les sept lignes du barème portent une coche verte dans les trois colonnes."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance d’une tierce personne",
+      "description": "Majoration du capital invalidité de 25%.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "majoration du capital invalidité de 25%",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Frais d’aménagement du cadre de vie",
+      "description": "Frais d’aménagement du cadre de vie.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Plafond 22 900 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Frais d’obsèques",
+      "description": "Frais d’obsèques.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Plafond 3 100 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Frais de transport (1) — à l’occasion de visite des parents à l’hôpital",
+      "description": "Garantie complémentaire : frais de transport à l’occasion de visite des parents à l’hôpital.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Plafond 400 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "(1) L’utilisation d’une voiture particulière est indemnisée sur la base de 0,20 €/km.",
+        "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Frais de transport (1) — à l’occasion de séances de rééducation ou de visites de contrôle",
+      "description": "Garantie complémentaire : frais de transport à l’occasion de séances de rééducation ou de visites de contrôle.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Plafond 1 550 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "(1) L’utilisation d’une voiture particulière est indemnisée sur la base de 0,20 €/km.",
+        "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Vol de fournitures scolaires",
+      "description": "Vol de fournitures scolaires (limité à 1 vol par an).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Plafond 160 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "limité à 1 vol par an",
+        "Acquise dans la formule Junior uniquement : croix rouge (non acquise) dans les colonnes Baby et Maternelle, coche verte dans la colonne Junior."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Dommages au matériel confié",
+      "description": "Dommages au matériel confié.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Plafond 15 500 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Acquise dans la formule Junior uniquement : croix rouge (non acquise) dans les colonnes Baby et Maternelle, coche verte dans la colonne Junior."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Dommages au vélo suite à collision",
+      "description": "Dommages au vélo suite à collision.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Plafond 770 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Acquise dans la formule Junior uniquement : croix rouge (non acquise) dans les colonnes Baby et Maternelle, coche verte dans la colonne Junior."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Dommages et vol d’un instrument de musique",
+      "description": "Dommages et vol d’un instrument de musique.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Plafond 1 500 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Acquise dans la formule Junior uniquement : croix rouge (non acquise) dans les colonnes Baby et Maternelle, coche verte dans la colonne Junior."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Dommages et vol de vêtements",
+      "description": "Dommages et vol de vêtements.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Plafond 200 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Rachat de franchise responsabilité civile",
+      "description": "Rachat de franchise responsabilité civile.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Plafond 122 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Assistance à domicile — Garde à domicile",
+      "description": "Garde à domicile (suite à accident* ou maladie).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Maximum : Jusqu’à 30 h sur 1 mois",
+      "sub_limits": [],
+      "deductible": "Franchise : 2jours ouvrés",
+      "conditions": [
+        "suite à accident* ou maladie",
+        "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Assistance à domicile — École à domicile",
+      "description": "École à domicile (suite à accident* ou maladie).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Maximum : 3h/jour ouvrable jusqu’à la reprise des cours",
+      "sub_limits": [],
+      "deductible": "Franchise : 2 semaines",
+      "conditions": [
+        "suite à accident* ou maladie",
+        "Acquise dans la formule Junior uniquement : croix rouge (non acquise) dans les colonnes Baby et Maternelle, coche verte dans la colonne Junior."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Assistance à domicile — Transport du domicile à l’école",
+      "description": "Transport du domicile à l’école (transport de l'enfant momentanément handicapé, du domicile à l'école).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Maximum : 2 fois/jour ouvrable pendant 1 mois de date à date",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Acquise dans les formules Maternelle et Junior : croix rouge (non acquise) dans la colonne Baby."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Assistance à domicile — Prise en charge de votre enfant",
+      "description": "Prise en charge de votre enfant (suite à hospitalisation, immobilisation de + de 5 jours ou décès d’un parent). Ligne d’en-tête regroupant les prestations « Déplacement d’un proche » et « Transfert chez un proche avec un accompagnateur ».",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Maximum",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "suite à hospitalisation, immobilisation de + de 5 jours ou décès d’un parent",
+        "La ligne ne porte ni coche ni croix ; la colonne Junior contient la mention « (pour les moins de 16 ans) », les colonnes Baby et Maternelle sont vides."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Prise en charge de votre enfant — Déplacement d’un proche",
+      "description": "Déplacement d’un proche.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "1 transport aller/retour",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Prise en charge de votre enfant — Transfert chez un proche avec un accompagnateur",
+      "description": "Transfert chez un proche avec un accompagnateur.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "1 transport aller/retour",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Assistance à domicile — Intervention d’une assistante maternelle",
+      "description": "Intervention d’une assistante maternelle.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Maximum : 30 h sur 1 mois",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Assistance à domicile — Conduite à l’école",
+      "description": "Conduite à l’école.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Maximum : 2 fois/jour ouvrable 1 mois de date à date",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Acquise dans les formules Maternelle et Junior : croix rouge (non acquise) dans la colonne Baby."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Assistance aux personnes — Rapatriement sanitaire",
+      "description": "Rapatriement sanitaire.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Frais réels",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Assistance aux personnes — Transport des parents au chevet de l’enfant",
+      "description": "Transport des parents au chevet de l’enfant.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Frais réels",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Assistance aux personnes — Soins médicaux à l’étranger",
+      "description": "Soins médicaux à l’étranger.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Plafond 80 000 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Assistance aux personnes — Secours sur piste",
+      "description": "Secours sur piste.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Frais réels",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Votre responsabilité civile (sans franchise)",
+      "description": "Votre responsabilité civile, sans franchise.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "10 000 000 €",
+      "sub_limits": [
+        "dont Dommages matériels* et immatériels* : Plafond 1 500 000 €",
+        "dont Dommages causés par des données faisant l’objet d’un traitement informatisé : Plafond 10 000 €"
+      ],
+      "deductible": "sans franchise",
+      "conditions": [
+        "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Responsabilité civile — dont Dommages matériels* et immatériels*",
+      "description": "Sous-garantie de la responsabilité civile : dommages matériels* et immatériels*.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Plafond 1 500 000 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Responsabilité civile — dont Dommages causés par des données faisant l’objet d’un traitement informatisé",
+      "description": "Sous-garantie de la responsabilité civile : dommages causés par des données faisant l’objet d’un traitement informatisé.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Plafond 10 000 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Acquise dans la formule Junior uniquement : croix rouge (non acquise) dans les colonnes Baby et Maternelle, coche verte dans la colonne Junior."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Défense - Recours",
+      "description": "Défense - Recours.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Plafond 20 000 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
+      ],
+      "page": 3
+    }
+  ],
+  "exclusions": [],
+  "deductibles": {
+    "standard": null,
+    "variable": null,
+    "per_coverage": {
+      "Votre responsabilité civile": "sans franchise",
+      "Assistance à domicile — Garde à domicile": "Franchise : 2jours ouvrés",
+      "Assistance à domicile — École à domicile": "Franchise : 2 semaines"
+    },
+    "page": 2
   },
-  {
-   "name": "Frais supplémentaires : Séjour en chambre particulière",
-   "description": "Frais supplémentaires en cas de séjour en chambre particulière.",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "Plafond/jour 50 € — Maximum 2 000 €",
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
-   ],
-   "page": 1
-  },
-  {
-   "name": "Frais supplémentaires : Location de téléviseur à l’hôpital",
-   "description": "Frais supplémentaires : location de téléviseur à l’hôpital.",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "Plafond 80 €",
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
-   ],
-   "page": 1
-  },
-  {
-   "name": "Frais supplémentaires : Frais d’accompagnant du parent au chevet de l’enfant hospitalisé",
-   "description": "Frais supplémentaires d’accompagnant du parent au chevet de l’enfant hospitalisé.",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "Plafond/jour 20 € — Maximum 350 €",
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
-   ],
-   "page": 1
-  },
-  {
-   "name": "Prothèse dentaire",
-   "description": "Prothèse dentaire si atteinte au germe de la dent définitive.",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "Plafond/dent 400 €",
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "si atteinte au germe de la dent définitive",
-    "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
-   ],
-   "page": 1
-  },
-  {
-   "name": "Bris d’appareil orthodontique",
-   "description": "Bris d’appareil orthodontique.",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "Plafond 400 €",
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Acquise dans la formule Junior uniquement : croix rouge (non acquise) dans les colonnes Baby et Maternelle, coche verte dans la colonne Junior."
-   ],
-   "page": 1
-  },
-  {
-   "name": "Bris de prothèse (auditive…)",
-   "description": "Bris de prothèse (auditive…).",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "Plafond 800 €",
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Acquise dans la formule Junior uniquement : croix rouge (non acquise) dans les colonnes Baby et Maternelle, coche verte dans la colonne Junior."
-   ],
-   "page": 1
-  },
-  {
-   "name": "Bris, perte ou vol de lunettes ou de lentilles de contact",
-   "description": "Bris, perte ou vol de lunettes ou de lentilles de contact, dans la limite de 2 événements par an.",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "250 €",
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "dans la limite de 2 événements par an",
-    "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
-   ],
-   "page": 1
-  },
-  {
-   "name": "Invalidité suite à accident*",
-   "description": "Capital versé en cas d’invalidité suite à accident*, selon un barème par tranche de taux d’invalidité. Exemple de calcul donné par le document : pour une invalidité de 31%, 75 000 € x 31% = 23 250 €.",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "de 0 à 5% : 0 € ; de 6 à 15% : 30 000 € ; de 16 à 30% : 45 000 € ; de 31 à 50% : 75 000 € ; de 51 à 70% : 125 000 € ; de 71 à 85% : 160 000 € ; de 86 à 100% : 200 000 €",
-   "sub_limits": [
-    "de 0 à 5% : 0 €",
-    "de 6 à 15% : 30 000 €",
-    "de 16 à 30% : 45 000 €",
-    "de 31 à 50% : 75 000 €",
-    "de 51 à 70% : 125 000 €",
-    "de 71 à 85% : 160 000 €",
-    "de 86 à 100% : 200 000 €"
-   ],
-   "deductible": null,
-   "conditions": [
-    "* Cf. Lexique des conditions générales du contrat Tempo Enfants.",
-    "Acquise dans les trois formules (Baby, Maternelle, Junior) : les sept lignes du barème portent une coche verte dans les trois colonnes."
-   ],
-   "page": 1
-  },
-  {
-   "name": "Assistance d’une tierce personne",
-   "description": "Majoration du capital invalidité de 25%.",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "majoration du capital invalidité de 25%",
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
-   ],
-   "page": 1
-  },
-  {
-   "name": "Frais d’aménagement du cadre de vie",
-   "description": "Frais d’aménagement du cadre de vie.",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "Plafond 22 900 €",
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
-   ],
-   "page": 1
-  },
-  {
-   "name": "Frais d’obsèques",
-   "description": "Frais d’obsèques.",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "Plafond 3 100 €",
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
-   ],
-   "page": 1
-  },
-  {
-   "name": "Frais de transport (1) — à l’occasion de visite des parents à l’hôpital",
-   "description": "Garantie complémentaire : frais de transport à l’occasion de visite des parents à l’hôpital.",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "Plafond 400 €",
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "(1) L’utilisation d’une voiture particulière est indemnisée sur la base de 0,20 €/km.",
-    "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
-   ],
-   "page": 1
-  },
-  {
-   "name": "Frais de transport (1) — à l’occasion de séances de rééducation ou de visites de contrôle",
-   "description": "Garantie complémentaire : frais de transport à l’occasion de séances de rééducation ou de visites de contrôle.",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "Plafond 1 550 €",
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "(1) L’utilisation d’une voiture particulière est indemnisée sur la base de 0,20 €/km.",
-    "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
-   ],
-   "page": 1
-  },
-  {
-   "name": "Vol de fournitures scolaires",
-   "description": "Vol de fournitures scolaires (limité à 1 vol par an).",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "Plafond 160 €",
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "limité à 1 vol par an",
-    "Acquise dans la formule Junior uniquement : croix rouge (non acquise) dans les colonnes Baby et Maternelle, coche verte dans la colonne Junior."
-   ],
-   "page": 2
-  },
-  {
-   "name": "Dommages au matériel confié",
-   "description": "Dommages au matériel confié.",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "Plafond 15 500 €",
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Acquise dans la formule Junior uniquement : croix rouge (non acquise) dans les colonnes Baby et Maternelle, coche verte dans la colonne Junior."
-   ],
-   "page": 2
-  },
-  {
-   "name": "Dommages au vélo suite à collision",
-   "description": "Dommages au vélo suite à collision.",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "Plafond 770 €",
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Acquise dans la formule Junior uniquement : croix rouge (non acquise) dans les colonnes Baby et Maternelle, coche verte dans la colonne Junior."
-   ],
-   "page": 2
-  },
-  {
-   "name": "Dommages et vol d’un instrument de musique",
-   "description": "Dommages et vol d’un instrument de musique.",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "Plafond 1 500 €",
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Acquise dans la formule Junior uniquement : croix rouge (non acquise) dans les colonnes Baby et Maternelle, coche verte dans la colonne Junior."
-   ],
-   "page": 2
-  },
-  {
-   "name": "Dommages et vol de vêtements",
-   "description": "Dommages et vol de vêtements.",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "Plafond 200 €",
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
-   ],
-   "page": 2
-  },
-  {
-   "name": "Rachat de franchise responsabilité civile",
-   "description": "Rachat de franchise responsabilité civile.",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "Plafond 122 €",
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
-   ],
-   "page": 2
-  },
-  {
-   "name": "Assistance à domicile — Garde à domicile",
-   "description": "Garde à domicile (suite à accident* ou maladie).",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "Maximum : Jusqu’à 30 h sur 1 mois",
-   "sub_limits": [],
-   "deductible": "Franchise : 2jours ouvrés",
-   "conditions": [
-    "suite à accident* ou maladie",
-    "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
-   ],
-   "page": 2
-  },
-  {
-   "name": "Assistance à domicile — École à domicile",
-   "description": "École à domicile (suite à accident* ou maladie).",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "Maximum : 3h/jour ouvrable jusqu’à la reprise des cours",
-   "sub_limits": [],
-   "deductible": "Franchise : 2 semaines",
-   "conditions": [
-    "suite à accident* ou maladie",
-    "Acquise dans la formule Junior uniquement : croix rouge (non acquise) dans les colonnes Baby et Maternelle, coche verte dans la colonne Junior."
-   ],
-   "page": 2
-  },
-  {
-   "name": "Assistance à domicile — Transport du domicile à l’école",
-   "description": "Transport du domicile à l’école (transport de l'enfant momentanément handicapé, du domicile à l'école).",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "Maximum : 2 fois/jour ouvrable pendant 1 mois de date à date",
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Acquise dans les formules Maternelle et Junior : croix rouge (non acquise) dans la colonne Baby."
-   ],
-   "page": 2
-  },
-  {
-   "name": "Assistance à domicile — Prise en charge de votre enfant",
-   "description": "Prise en charge de votre enfant (suite à hospitalisation, immobilisation de + de 5 jours ou décès d’un parent). Ligne d’en-tête regroupant les prestations « Déplacement d’un proche » et « Transfert chez un proche avec un accompagnateur ».",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "Maximum",
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "suite à hospitalisation, immobilisation de + de 5 jours ou décès d’un parent",
-    "La ligne ne porte ni coche ni croix ; la colonne Junior contient la mention « (pour les moins de 16 ans) », les colonnes Baby et Maternelle sont vides."
-   ],
-   "page": 2
-  },
-  {
-   "name": "Prise en charge de votre enfant — Déplacement d’un proche",
-   "description": "Déplacement d’un proche.",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "1 transport aller/retour",
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
-   ],
-   "page": 2
-  },
-  {
-   "name": "Prise en charge de votre enfant — Transfert chez un proche avec un accompagnateur",
-   "description": "Transfert chez un proche avec un accompagnateur.",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "1 transport aller/retour",
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
-   ],
-   "page": 2
-  },
-  {
-   "name": "Assistance à domicile — Intervention d’une assistante maternelle",
-   "description": "Intervention d’une assistante maternelle.",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "Maximum : 30 h sur 1 mois",
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
-   ],
-   "page": 2
-  },
-  {
-   "name": "Assistance à domicile — Conduite à l’école",
-   "description": "Conduite à l’école.",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "Maximum : 2 fois/jour ouvrable 1 mois de date à date",
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Acquise dans les formules Maternelle et Junior : croix rouge (non acquise) dans la colonne Baby."
-   ],
-   "page": 2
-  },
-  {
-   "name": "Assistance aux personnes — Rapatriement sanitaire",
-   "description": "Rapatriement sanitaire.",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "Frais réels",
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
-   ],
-   "page": 2
-  },
-  {
-   "name": "Assistance aux personnes — Transport des parents au chevet de l’enfant",
-   "description": "Transport des parents au chevet de l’enfant.",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "Frais réels",
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
-   ],
-   "page": 2
-  },
-  {
-   "name": "Assistance aux personnes — Soins médicaux à l’étranger",
-   "description": "Soins médicaux à l’étranger.",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "Plafond 80 000 €",
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
-   ],
-   "page": 2
-  },
-  {
-   "name": "Assistance aux personnes — Secours sur piste",
-   "description": "Secours sur piste.",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "Frais réels",
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
-   ],
-   "page": 2
-  },
-  {
-   "name": "Votre responsabilité civile (sans franchise)",
-   "description": "Votre responsabilité civile, sans franchise.",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "10 000 000 €",
-   "sub_limits": [
-    "dont Dommages matériels* et immatériels* : Plafond 1 500 000 €",
-    "dont Dommages causés par des données faisant l’objet d’un traitement informatisé : Plafond 10 000 €"
-   ],
-   "deductible": "sans franchise",
-   "conditions": [
-    "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
-   ],
-   "page": 3
-  },
-  {
-   "name": "Responsabilité civile — dont Dommages matériels* et immatériels*",
-   "description": "Sous-garantie de la responsabilité civile : dommages matériels* et immatériels*.",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "Plafond 1 500 000 €",
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
-   ],
-   "page": 3
-  },
-  {
-   "name": "Responsabilité civile — dont Dommages causés par des données faisant l’objet d’un traitement informatisé",
-   "description": "Sous-garantie de la responsabilité civile : dommages causés par des données faisant l’objet d’un traitement informatisé.",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "Plafond 10 000 €",
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Acquise dans la formule Junior uniquement : croix rouge (non acquise) dans les colonnes Baby et Maternelle, coche verte dans la colonne Junior."
-   ],
-   "page": 3
-  },
-  {
-   "name": "Défense - Recours",
-   "description": "Défense - Recours.",
-   "is_optional": false,
-   "territorial_scope": null,
-   "limits": "Plafond 20 000 €",
-   "sub_limits": [],
-   "deductible": null,
-   "conditions": [
-    "Acquise dans les trois formules (Baby, Maternelle, Junior) : coche verte dans les trois colonnes."
-   ],
-   "page": 3
-  }
- ],
- "exclusions": [],
- "deductibles": {
-  "standard": null,
-  "variable": null,
-  "per_coverage": {
-   "Votre responsabilité civile": "sans franchise",
-   "Assistance à domicile — Garde à domicile": "Franchise : 2jours ouvrés",
-   "Assistance à domicile — École à domicile": "Franchise : 2 semaines"
-  },
-  "page": 2
- },
- "waiting_periods": [],
- "obligations": [],
- "claims_procedure": [],
- "duration_and_cancellation": null,
- "prescription_period": null,
- "premium": null,
- "special_conditions": [
-  {
-   "name": "Formules",
-   "description": "Le tableau compare trois formules, présentées en colonnes : Baby, Maternelle et Junior.",
-   "page": 1
-  },
-  {
-   "name": "Maximum garanti par sinistre",
-   "description": "Les sommes indiquées ci-dessus constituent le maximum garanti par sinistre.",
-   "page": 3
-  },
-  {
-   "name": "Indemnisation des frais de transport en voiture particulière",
-   "description": "(1) L’utilisation d’une voiture particulière est indemnisée sur la base de 0,20 €/km.",
-   "page": 3
-  },
-  {
-   "name": "Renvoi au lexique des conditions générales",
-   "description": "* Cf. Lexique des conditions générales du contrat Tempo Enfants. L’astérisque marque « accident », « Dommages matériels » et « immatériels ».",
-   "page": 3
-  },
-  {
-   "name": "Prise en charge de votre enfant — mention portée dans la colonne Junior",
-   "description": "Sur la ligne « Prise en charge de votre enfant », la colonne Junior porte la mention « (pour les moins de 16 ans) » à la place d’une coche ; les colonnes Baby et Maternelle sont vides.",
-   "page": 2
-  }
- ],
- "key_quotes": [
-  {
-   "quote": "Frais de soins (médicaux, \npharmaceutiques, frais de transport, \nhospitalisation…)",
-   "page": 1,
-   "context": null
-  },
-  {
-   "quote": "Bris, perte ou vol de lunettes\nou de lentilles de contact\ndans la limite de 2 événements par an",
-   "page": 1,
-   "context": null
-  },
-  {
-   "quote": "Exemple de calcul :\npour une invalidité de 31%\n75 000 € x 31% = 23 250 €",
-   "page": 1,
-   "context": null
-  },
-  {
-   "quote": "Assistance d’une tierce personne\nmajoration du capital invalidité de 25%",
-   "page": 1,
-   "context": null
-  },
-  {
-   "quote": "Vol de fournitures scolaires (limité à 1 \nvol par an)",
-   "page": 2,
-   "context": null
-  },
-  {
-   "quote": "(suite à hospitalisation, \nimmobilisation de + de 5 jours ou \ndécès d’un parent)",
-   "page": 2,
-   "context": null
-  },
-  {
-   "quote": "Les sommes indiquées ci-dessus constituent le maximum garanti par sinistre.",
-   "page": 3,
-   "context": null
-  },
-  {
-   "quote": "(1) L’utilisation d’une voiture particulière est indemnisée sur la base de 0,20 €/km.",
-   "page": 3,
-   "context": null
-  },
-  {
-   "quote": "* Cf. Lexique des conditions générales du contrat Tempo Enfants.",
-   "page": 3,
-   "context": null
-  },
-  {
-   "quote": "Société anonyme au capital de 160 000 000 euros entièrement versé – Entreprise régie par le Code des assurances – RCS Niort 542 073 580",
-   "page": 3,
-   "context": null
-  },
-  {
-   "quote": "Les produits distribués par MAAF sont assurés par MAAF Assurances SA et/ou MAAF Assurances AM et/ou MAAF Vie et/ou MAAF Santé et/ou \nCovéa Protection Juridique et/ou APGIS.",
-   "page": 3,
-   "context": null
-  }
- ],
- "gaps": [
-  "APPARTENANCE AUX FORMULES — MÉTHODE. Les marques de la matrice Baby/Maternelle/Junior sont des dessins vectoriels absents de la couche texte : page.get_text(\"text\") ne rend ni coche ni croix. Elles ont été récupérées avec page.get_drawings(). Coche « acquise » = deux chemins remplis teal RGB (0.0, 0.564706, 0.650980), l’un 6,0 × 6,0 pt et l’autre 6,0 × 4,7 pt au même centre. Croix « non acquise » = deux chemins 4,0 × 4,0 pt superposés, l’un noir RGB (0,0,0) et l’autre rouge RGB (0.886275, 0.0, 0.101961). Chaque marque a été affectée à une colonne par son abscisse de centre comparée aux positions des en-têtes (Baby xc≈389,5 / Maternelle xc≈454,7 / Junior xc≈519,9 ; centres des marques ≈386,5-388,9 / 452,9-455,3 / 518,7-521,7).",
-  "APPARTENANCE AUX FORMULES — VALIDATION ARITHMÉTIQUE. Le compte ferme exactement sur chaque page : page 1 = 20 lignes marquées × 3 colonnes = 60 cellules = 56 coches + 4 croix ; page 2 = 17 × 3 = 51 = 39 coches + 12 croix ; page 3 = 4 × 3 = 12 = 10 coches + 2 croix. Total 41 lignes × 3 = 123 = 105 coches + 18 croix, aucune cellule vide dans les lignes marquées. La lecture a été confirmée visuellement sur des rendus PNG à 190-200 dpi des trois pages.",
-  "Ces faits (coches/croix) ne peuvent pas figurer dans key_quotes : ils ne sont pas du texte et rien ne peut les ancrer dans la couche textuelle.",
-  "La croix rouge est une marque explicite de non-appartenance à la formule, pas une exclusion de garantie : elle dit que la garantie n’est pas acquise dans cette formule-là, elle ne dit rien de ce qui n’est pas couvert. La seule ligne sans aucune marque est « Prise en charge de votre enfant », ligne d’en-tête de deux sous-prestations qui portent, elles, des coches.",
-  "EXCLUSIONS : le document n’en contient aucune. C’est un tableau des garanties ; il ne comporte ni section « ce qui n’est pas assuré », ni exclusion, ni définition. exclusions = [] est la lecture exacte : le document renvoie explicitement aux conditions générales du contrat Tempo Enfants, qui ne sont pas dans ce fichier.",
-  "DIVERGENCE NOM DE FICHIER / DOCUMENT : le fichier source s’appelle MAAF_TG_Tempo_Assurance_scolaire.pdf, mais le document s’intitule « Assurance scolaire / Tableau des garanties » et renvoie aux « conditions générales du contrat Tempo Enfants » (et non « Tempo Assurance scolaire »). Le document fait foi ; product_family a été fixé sur le titre imprimé « Assurance scolaire ». Le contrat de base nommé par le document est « Tempo Enfants ».",
-  "PORTEUR DE RISQUE INDÉTERMINABLE : le pied de page identifie l’éditeur « MAAF Assurances SA — Société anonyme au capital de 160 000 000 euros entièrement versé – Entreprise régie par le Code des assurances – RCS Niort 542 073 580 », mais la phrase suivante est la mention générique multi-porteurs (« Les produits distribués par MAAF sont assurés par MAAF Assurances SA et/ou MAAF Assurances AM et/ou MAAF Vie et/ou MAAF Santé et/ou Covéa Protection Juridique et/ou APGIS »), qui ne dit pas qui porte ce produit. Le document ne désigne donc pas le porteur de cette assurance scolaire.",
-  "target_audience laissé à null : le document ne qualifie jamais sa cible (aucune mention de « particuliers » ou équivalent). Les seuls repères sont les noms de formules (Baby, Maternelle, Junior) et la mention « (pour les moins de 16 ans) » portée sur une seule ligne.",
-  "Aucune étendue territoriale n’est indiquée : territorial_scope est null partout. Les intitulés « Soins médicaux à l’étranger », « Rapatriement sanitaire » et « Secours sur piste » sont les seuls indices, mais le document ne définit aucun périmètre géographique.",
-  "Le document ne contient ni durée/résiliation, ni prescription, ni obligations de l’assuré, ni procédure de sinistre, ni mécanique de cotisation : ces blocs sont vides ou null parce que la section n’existe pas dans ce fichier.",
-  "Les colonnes « Franchise » du bloc Assistance à domicile (2jours ouvrés pour la garde à domicile, 2 semaines pour l’école à domicile) sont reprises telles qu’imprimées dans deductibles.per_coverage et dans le champ deductible de la garantie ; le document les nomme « Franchise » et non « délai de carence ».",
-  "Défauts de la couche texte relevés et préservés verbatim : les puces de listes sortent en caractères parasites (U+0097 pour les puces de « Frais supplémentaires », « » (U+00BB), « Ã » (U+00C3) pour les puces d’assistance, « Ï » (U+00CF) pour les sous-puces, « \\\\ » pour les puces de la responsabilité civile) ; neuf séparateurs de ligne U+2028 sont présents ; les montants utilisent des espaces insécables (U+00A0). Les key_quotes ont été découpées programmatiquement dans le texte PyMuPDF et contournent ces caractères parasites.",
-  "Le texte du prompt et l’extraction PyMuPDF page à page ont été comparés : ils sont identiques, à la seule ligne vide près que le harness insère entre les pages."
- ]
+  "waiting_periods": [],
+  "obligations": [],
+  "claims_procedure": [],
+  "duration_and_cancellation": null,
+  "prescription_period": null,
+  "premium": null,
+  "special_conditions": [
+    {
+      "name": "Formules",
+      "description": "Le tableau compare trois formules, présentées en colonnes : Baby, Maternelle et Junior.",
+      "page": 1
+    },
+    {
+      "name": "Maximum garanti par sinistre",
+      "description": "Les sommes indiquées ci-dessus constituent le maximum garanti par sinistre.",
+      "page": 3
+    },
+    {
+      "name": "Indemnisation des frais de transport en voiture particulière",
+      "description": "(1) L’utilisation d’une voiture particulière est indemnisée sur la base de 0,20 €/km.",
+      "page": 3
+    },
+    {
+      "name": "Renvoi au lexique des conditions générales",
+      "description": "* Cf. Lexique des conditions générales du contrat Tempo Enfants. L’astérisque marque « accident », « Dommages matériels » et « immatériels ».",
+      "page": 3
+    },
+    {
+      "name": "Prise en charge de votre enfant — mention portée dans la colonne Junior",
+      "description": "Sur la ligne « Prise en charge de votre enfant », la colonne Junior porte la mention « (pour les moins de 16 ans) » à la place d’une coche ; les colonnes Baby et Maternelle sont vides.",
+      "page": 2
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Frais de soins (médicaux, \npharmaceutiques, frais de transport, \nhospitalisation…)",
+      "page": 1,
+      "context": null
+    },
+    {
+      "quote": "Bris, perte ou vol de lunettes\nou de lentilles de contact\ndans la limite de 2 événements par an",
+      "page": 1,
+      "context": null
+    },
+    {
+      "quote": "Exemple de calcul :\npour une invalidité de 31%\n75 000 € x 31% = 23 250 €",
+      "page": 1,
+      "context": null
+    },
+    {
+      "quote": "Assistance d’une tierce personne\nmajoration du capital invalidité de 25%",
+      "page": 1,
+      "context": null
+    },
+    {
+      "quote": "Vol de fournitures scolaires (limité à 1 \nvol par an)",
+      "page": 2,
+      "context": null
+    },
+    {
+      "quote": "(suite à hospitalisation, \nimmobilisation de + de 5 jours ou \ndécès d’un parent)",
+      "page": 2,
+      "context": null
+    },
+    {
+      "quote": "Les sommes indiquées ci-dessus constituent le maximum garanti par sinistre.",
+      "page": 3,
+      "context": null
+    },
+    {
+      "quote": "(1) L’utilisation d’une voiture particulière est indemnisée sur la base de 0,20 €/km.",
+      "page": 3,
+      "context": null
+    },
+    {
+      "quote": "* Cf. Lexique des conditions générales du contrat Tempo Enfants.",
+      "page": 3,
+      "context": null
+    },
+    {
+      "quote": "Société anonyme au capital de 160 000 000 euros entièrement versé – Entreprise régie par le Code des assurances – RCS Niort 542 073 580",
+      "page": 3,
+      "context": null
+    },
+    {
+      "quote": "Les produits distribués par MAAF sont assurés par MAAF Assurances SA et/ou MAAF Assurances AM et/ou MAAF Vie et/ou MAAF Santé et/ou \nCovéa Protection Juridique et/ou APGIS.",
+      "page": 3,
+      "context": null
+    }
+  ],
+  "gaps": [
+    "APPARTENANCE AUX FORMULES — MÉTHODE. Les marques de la matrice Baby/Maternelle/Junior sont des dessins vectoriels absents de la couche texte : page.get_text(\"text\") ne rend ni coche ni croix. Elles ont été récupérées avec page.get_drawings(). Coche « acquise » = deux chemins remplis teal RGB (0.0, 0.564706, 0.650980), l’un 6,0 × 6,0 pt et l’autre 6,0 × 4,7 pt au même centre. Croix « non acquise » = deux chemins 4,0 × 4,0 pt superposés, l’un noir RGB (0,0,0) et l’autre rouge RGB (0.886275, 0.0, 0.101961). Chaque marque a été affectée à une colonne par son abscisse de centre comparée aux positions des en-têtes (Baby xc≈389,5 / Maternelle xc≈454,7 / Junior xc≈519,9 ; centres des marques ≈386,5-388,9 / 452,9-455,3 / 518,7-521,7).",
+    "APPARTENANCE AUX FORMULES — VALIDATION ARITHMÉTIQUE. Le compte ferme exactement sur chaque page : page 1 = 20 lignes marquées × 3 colonnes = 60 cellules = 56 coches + 4 croix ; page 2 = 17 × 3 = 51 = 39 coches + 12 croix ; page 3 = 4 × 3 = 12 = 10 coches + 2 croix. Total 41 lignes × 3 = 123 = 105 coches + 18 croix, aucune cellule vide dans les lignes marquées. La lecture a été confirmée visuellement sur des rendus PNG à 190-200 dpi des trois pages.",
+    "Ces faits (coches/croix) ne peuvent pas figurer dans key_quotes : ils ne sont pas du texte et rien ne peut les ancrer dans la couche textuelle.",
+    "La croix rouge est une marque explicite de non-appartenance à la formule, pas une exclusion de garantie : elle dit que la garantie n’est pas acquise dans cette formule-là, elle ne dit rien de ce qui n’est pas couvert. La seule ligne sans aucune marque est « Prise en charge de votre enfant », ligne d’en-tête de deux sous-prestations qui portent, elles, des coches.",
+    "EXCLUSIONS : le document n’en contient aucune. C’est un tableau des garanties ; il ne comporte ni section « ce qui n’est pas assuré », ni exclusion, ni définition. exclusions = [] est la lecture exacte : le document renvoie explicitement aux conditions générales du contrat Tempo Enfants, qui ne sont pas dans ce fichier.",
+    "DIVERGENCE NOM DE FICHIER / DOCUMENT : le fichier source s’appelle MAAF_TG_Tempo_Assurance_scolaire.pdf, mais le document s’intitule « Assurance scolaire / Tableau des garanties » et renvoie aux « conditions générales du contrat Tempo Enfants » (et non « Tempo Assurance scolaire »). Le document fait foi ; product_family a été fixé sur le titre imprimé « Assurance scolaire ». Le contrat de base nommé par le document est « Tempo Enfants ».",
+    "PORTEUR DE RISQUE INDÉTERMINABLE : le pied de page identifie l’éditeur « MAAF Assurances SA — Société anonyme au capital de 160 000 000 euros entièrement versé – Entreprise régie par le Code des assurances – RCS Niort 542 073 580 », mais la phrase suivante est la mention générique multi-porteurs (« Les produits distribués par MAAF sont assurés par MAAF Assurances SA et/ou MAAF Assurances AM et/ou MAAF Vie et/ou MAAF Santé et/ou Covéa Protection Juridique et/ou APGIS »), qui ne dit pas qui porte ce produit. Le document ne désigne donc pas le porteur de cette assurance scolaire.",
+    "target_audience laissé à null : le document ne qualifie jamais sa cible (aucune mention de « particuliers » ou équivalent). Les seuls repères sont les noms de formules (Baby, Maternelle, Junior) et la mention « (pour les moins de 16 ans) » portée sur une seule ligne.",
+    "Aucune étendue territoriale n’est indiquée : territorial_scope est null partout. Les intitulés « Soins médicaux à l’étranger », « Rapatriement sanitaire » et « Secours sur piste » sont les seuls indices, mais le document ne définit aucun périmètre géographique.",
+    "Le document ne contient ni durée/résiliation, ni prescription, ni obligations de l’assuré, ni procédure de sinistre, ni mécanique de cotisation : ces blocs sont vides ou null parce que la section n’existe pas dans ce fichier.",
+    "Les colonnes « Franchise » du bloc Assistance à domicile (2jours ouvrés pour la garde à domicile, 2 semaines pour l’école à domicile) sont reprises telles qu’imprimées dans deductibles.per_coverage et dans le champ deductible de la garantie ; le document les nomme « Franchise » et non « délai de carence ».",
+    "Défauts de la couche texte relevés et préservés verbatim : les puces de listes sortent en caractères parasites (U+0097 pour les puces de « Frais supplémentaires », « » (U+00BB), « Ã » (U+00C3) pour les puces d’assistance, « Ï » (U+00CF) pour les sous-puces, « \\\\ » pour les puces de la responsabilité civile) ; neuf séparateurs de ligne U+2028 sont présents ; les montants utilisent des espaces insécables (U+00A0). Les key_quotes ont été découpées programmatiquement dans le texte PyMuPDF et contournent ces caractères parasites.",
+    "Le texte du prompt et l’extraction PyMuPDF page à page ont été comparés : ils sont identiques, à la seule ligne vide près que le harness insère entre les pages."
+  ]
 }

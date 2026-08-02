@@ -14,7 +14,7 @@ target_audience_note: 'Le document ne désigne aucune catégorie de public. Il d
   lié par un PACS, et ses petits-enfants gardés gratuitement et occasionnellement
   », et mentionne « les personnes physiques » au titre de la résiliation infra-annuelle.'
 reference: TB0_IPIDPR_00-260315-hfvxC9-1-1-2-05:02:18- PRE11004
-edition_date: null
+edition_date: 2026-03
 lang: fr
 tags:
 - insurance/fr/gav
@@ -30,7 +30,7 @@ prompt_version: '1.1'
 product_family: tranquillite-famille
 variant: null
 edition_status: null
-edition_age_years: null
+edition_age_years: 0
 superseded: null
 extends: null
 freshness: '2026-08-01'
@@ -44,7 +44,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de la garantie des accidents de la vie « Tranquillité famille » de MAAF Assurances SA. Le contrat couvre les accidents corporels survenus dans le cadre de la vie privée, y compris lors de l'utilisation d'un engin de déplacement personnel motorisé, d'une agression ou d'un attentat, et selon la formule choisie les accidents corporels subis lors de la conduite d'un véhicule loué, prêté ou confié ainsi que les accidents médicaux. Il indemnise les blessures (incapacité temporaire totale supérieure à 5 jours, incapacité permanente partielle supérieure à 5 %) et le décès, et comporte une assistance à domicile, une aide aux aidants, une assistance aux personnes et des renseignements juridiques. Le document précise que les niveaux d'indemnisation sont détaillés dans le tableau des garanties, non joint.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Garantie des accidents de la vie](../../branches/Garantie%20des%20accidents%20de%20la%20vie.md) · Type : IPID / Fiche d'information
+- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Garantie des accidents de la vie](../../branches/Garantie%20des%20accidents%20de%20la%20vie.md) · Type : IPID / Fiche d'information · Édition : 2026-03
 
 ## Garanties
 
@@ -189,7 +189,7 @@ Selon la formule de garantie choisie, le contrat peut également couvrir les acc
 - Couche texte propre : 2 pages extraites, 6 099 caractères, aucune ligature perdue, aucun caractère de zone privée, aucun trait d'union conditionnel, aucun accent NFD ; 16 apostrophes courbes U+2019 et 5 espaces insécables (dont « supérieure à 5 jours : » et « supérieure à 5 % : », où l'espace avant l'unité et avant le deux-points est insécable). Les citations ont été découpées programmatiquement dans le texte PyMuPDF page par page (page.get_text("text")) et vérifiées comme sous-chaînes exactes, espaces insécables compris. Attention : le document mélange apostrophes ASCII et courbes.
 - La signature de la résiliation imprime « MAAF et Moi » sur ce document, alors que d'autres IPID MAAF impriment « MAAF & Moi ». La forme du document est conservée telle quelle.
 - Le texte du prompt n'était pas tronqué (document de 2 pages).
-- edition_date remise a null le 2026-08-01: la valeur 2026-03 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
+- Provenance de edition_date: cette date ne vient pas du texte du document mais du manifeste, ou elle avait ete deduite lors de la decouverte. A verifier contre le document avant d'y appuyer une comparaison d'editions.
 
 ## Source & fidélité
 

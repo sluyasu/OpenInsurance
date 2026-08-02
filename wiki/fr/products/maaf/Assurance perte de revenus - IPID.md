@@ -12,7 +12,7 @@ target_audience_note: Le document ne désigne aucune catégorie de public. Il po
   une condition d'âge à la souscription (« être âgé de moins de 61 ans ») et mentionne
   une garantie optionnelle réservée aux « professions libérales ».
 reference: TB0_IPIDPR_00-240616-1ZFgPX-2-1-2-01:00:33- PRE10002
-edition_date: null
+edition_date: 2024-06
 lang: fr
 tags:
 - insurance/fr/prevoyance
@@ -28,7 +28,7 @@ prompt_version: '1.1'
 product_family: assurance-perte-de-revenus
 variant: null
 edition_status: null
-edition_age_years: null
+edition_age_years: 2
 superseded: null
 extends: null
 freshness: '2026-08-01'
@@ -42,7 +42,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de l'assurance prévoyance « Assurance perte de revenus » de MAAF Assurances SA. Le contrat garantit un complément de revenus en cas d'arrêt de travail ou d'invalidité consécutifs à un accident corporel ou une maladie, au moyen d'indemnités journalières forfaitaires et d'une rente d'invalidité, assorties d'une dispense de règlement des cotisations et d'une assistance aux personnes. Quatre garanties optionnelles complètent l'arrêt total de travail. La souscription est soumise à une acceptation médicale et la couverture s'exerce dans le monde entier.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : IPID / Fiche d'information
+- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : IPID / Fiche d'information · Édition : 2024-06
 
 ## Garanties
 
@@ -158,7 +158,7 @@ Versement d'une indemnité journalière supplémentaire pour les professions lib
 - Couche texte propre : 2 pages extraites, 5 634 caractères, aucune ligature perdue, aucun caractère de zone privée, aucun trait d'union conditionnel, aucun accent NFD ; 40 apostrophes courbes U+2019 et 1 espace insécable. Les citations ont été découpées programmatiquement dans le texte PyMuPDF page par page (page.get_text("text")) et vérifiées comme sous-chaînes exactes ; noter que « L'arrêt total de travail » et « L'invalidité » utilisent l'apostrophe ASCII alors que le reste du document utilise l'apostrophe courbe.
 - Aucun tableau de garanties à colonnes de formules dans ce document : la répartition entre garanties de base et garanties optionnelles est écrite en toutes lettres (« Les garanties » / « Les garanties optionnelles pour l'arrêt total de travail »), is_optional en découle directement du texte. Les coches sont néanmoins des dessins vectoriels absents de la couche texte : relevé par page.get_drawings() sur la page 1, 6 marques vertes de 7,4 × 5,0 pt toutes calées sur la même abscisse x0 = 37 pt (une seule colonne, pas de matrice). Le compte ferme : 2 garanties de base + 4 garanties optionnelles = 6 items × 1 colonne = 6 coches + 0 croix + 0 blanc. Les 4 croix rouges de la colonne « Qu'est-ce qui n'est pas assuré ? » et les 7 points d'exclamation de la colonne exclusions/restrictions sont, eux, des glyphes de la couche texte. Rendu de la page 1 en image contrôlé pour confirmer l'affectation des items aux colonnes « Qu'est-ce qui n'est pas assuré ? » et « Y a-t-il des exclusions à la couverture ? », que l'ordre de la couche texte rend ambigu.
 - Le texte du prompt n'était pas tronqué (document de 2 pages).
-- edition_date remise a null le 2026-08-01: la valeur 2024-06 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
+- Provenance de edition_date: cette date ne vient pas du texte du document mais du manifeste, ou elle avait ete deduite lors de la decouverte. A verifier contre le document avant d'y appuyer une comparaison d'editions.
 
 ## Source & fidélité
 

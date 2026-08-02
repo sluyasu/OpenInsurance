@@ -518,6 +518,9 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Assurance Initiative Obsèques Capital - IPID](../products/thelem/Assurance%20Initiative%20Obs%C3%A8ques%20Capital%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [Assurance Initiative Obsèques Services - IPID](../products/thelem/Assurance%20Initiative%20Obs%C3%A8ques%20Services%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 
+### Marchandises transportées (1)
+- [Conventions spéciales CONVERGENCE - Tous risques expositions clou à clou](../products/smacl/Conventions%20sp%C3%A9ciales%20CONVERGENCE%20-%20Tous%20risques%20expositions%20clou%20%C3%A0%20clou.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
+
 ### [Autres](Autres.md) (7)
 - [Barème de frais - Tarifs](../products/maif/Bar%C3%A8me%20de%20frais%20-%20Tarifs.md) - [MAIF](../insurers/MAIF.md)
 - [Barème de frais applicables à compter du 01-07-2024 pour les Associations et les Collectivités - Tarifs](../products/maif/Bar%C3%A8me%20de%20frais%20applicables%20%C3%A0%20compter%20du%2001-07-2024%20pour%20les%20Associations%20et%20les%20Collectivit%C3%A9s%20-%20Tarifs.md) - [MAIF](../insurers/MAIF.md)

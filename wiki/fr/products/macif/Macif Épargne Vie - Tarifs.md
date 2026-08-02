@@ -99,7 +99,6 @@ Document tarifaire d'une page (« Les frais du Macif Épargne Vie ») daté JUIN
 - Le texte du prompt et une ré-extraction indépendante du PDF local (data/fr/pdfs/macif/assurance-vie/macif-epargne-vie-2024-06-77a3610d.pdf, 1 page, `page.get_text("text")` via PyMuPDF) sont identiques au caractère près (hors saut de ligne final ajouté par le harnais). Les citations de `key_quotes` sont des tranches exactes de ce texte.
 - Le taux « 0,50% » en regard de « proportionnels ou forfaitaires » figure sous l'intitulé « Frais d'arbitrage : » ; le document n'indique ni montant forfaitaire distinct ni assiette pour ce taux (contrairement aux frais de changement de modes de gestion, exprimés « 0,50% des sommes arbitrées »).
 - Aucun code de branche réglementaire, aucune référence de contrat autre que le code d'imprimé, aucun numéro d'agrément ni mention d'autorité de contrôle (ACPR) ne figurent sur le document ; ces champs sont laissés null.
-- Provenance de edition_date: cette date ne vient pas du texte du document mais du manifeste, ou elle avait ete deduite lors de la decouverte. A verifier contre le document avant d'y appuyer une comparaison d'editions.
 
 ## Source & fidélité
 
