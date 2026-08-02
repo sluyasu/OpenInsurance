@@ -2,8 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France
-  et des Cadres et Salariés de l''Industrie et du Commerce)]]'
+insurer: '[[Macif]]'
 insurer_slug: macif
 branch: sante
 product_name: contrat GARANTIE SANTE TERRITORIAUX
@@ -48,7 +47,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (DIPA/IPID) du contrat Garantie Santé Territoriaux, une complémentaire santé assurée par la Mutuelle Nationale des Fonctionnaires des Collectivités Territoriales (MNFCT). Le contrat rembourse, en complément de la Sécurité sociale française, tout ou partie des frais de santé restant à la charge de l'assuré et des éventuels bénéficiaires en cas d'accident, de maladie ou de maternité ; il respecte les conditions légales des contrats responsables et figure sur la liste des offres labellisées de la DGCL. Il couvre systématiquement l'hospitalisation, les soins courants, la prévention, le dentaire, l'optique, les aides auditives et l'appareillage, ainsi qu'une prime de naissance de 100 € par enfant, des prestations d'assistance et des services (réseau de soins, tiers payant, cautionnement de prêt pour les fonctionnaires). L'annexe présente deux axes de choix indépendants : quatre formules « Soins » (Economique, Equilibrée, Protectrice, Excellence) et cinq niveaux d'« Équipements » (0 à 4).
 
-- Assureur : [Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)](../../insurers/Macif%20%28MACIF%20-%20Mutuelle%20Assurance%20des%20Commer%C3%A7ants%20et%20Industriels%20de%20France%20et%20des%20Cadres%20et%20Salari%C3%A9s%20de%20l%27Industrie%20et%20d.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : IPID / Fiche d'information · Édition : 01/2022
+- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : IPID / Fiche d'information · Édition : 01/2022
 
 ## Définitions
 

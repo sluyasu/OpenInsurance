@@ -2,8 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France
-  et des Cadres et Salariés de l''Industrie et du Commerce)]]'
+insurer: '[[Macif]]'
 insurer_slug: macif
 branch: auto
 product_name: Contrat Macif Pann'Auto
@@ -46,7 +45,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (DIPA) du « Contrat Macif Pann'Auto », assuré par Macif - France - Société d'assurance mutuelle à cotisations variables - SIREN n° 781 452 511. Le contrat est destiné à couvrir, en cas de panne mécanique, électrique ou électronique, les frais de remise en état de fonctionnement d'un véhicule terrestre à moteur à quatre roues dont le poids total autorisé en charge est inférieur ou égal à 3,5 tonnes. Les garanties systématiquement prévues portent sur le coût de la main d'œuvre et sur le coût des pièces, le plafond de prise en charge correspondant à la valeur de remplacement du véhicule. Un seuil d'intervention est appliqué en cas de sinistre et les véhicules électriques, hybrides, les voiturettes et les usages professionnels (transport, auto-école, location) sont exclus.
 
-- Assureur : [Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)](../../insurers/Macif%20%28MACIF%20-%20Mutuelle%20Assurance%20des%20Commer%C3%A7ants%20et%20Industriels%20de%20France%20et%20des%20Cadres%20et%20Salari%C3%A9s%20de%20l%27Industrie%20et%20d.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 12/22
+- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 12/22
 
 ## Définitions
 

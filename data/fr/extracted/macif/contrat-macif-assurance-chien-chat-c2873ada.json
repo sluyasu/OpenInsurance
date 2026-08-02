@@ -1,478 +1,478 @@
 {
-  "schema_version": "1.0",
-  "prompt_version": "1.1",
-  "country": "fr",
-  "insurer_slug": "macif",
-  "insurer_name": "Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)",
-  "product_name": "Contrat Macif Assurance Chien Chat",
-  "branch": "animaux",
-  "branch_code": null,
-  "document_type": "ipid",
-  "language": "fr",
-  "target_audience": null,
-  "target_audience_note": "Le document ne désigne pas de catégorie de clientèle ; il vise « le chien ou le chat du sociétaire Macif » et mentionne le cas d’un contrat « souscrit par une personne physique à distance ou par démarchage à domicile ».",
-  "reference": "CHIEN CHAT/05 - 06/22",
-  "edition_date": "06/22",
-  "product_family": "Macif Assurance Chien Chat",
-  "variant": null,
-  "is_extension": false,
-  "extends": null,
-  "superseded": null,
-  "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/dipa/dipa_macif_assurance_chien_chat.pdf",
-  "source_pdf": "contrat-macif-assurance-chien-chat-c2873ada.pdf",
-  "source_sha256": "e8eb8f5bc517d7d3989db72126fb276697d9663a69726da3e9a6ada55ef2bb7d",
-  "source_pages": 2,
-  "fetched_at": "2026-08-01",
-  "extraction_model": "claude-code-subagent:scale",
-  "summary": "Document d’information (DIPA/IPID) du contrat Macif Assurance Chien Chat, souscrit auprès de Macif - France, société d’assurance mutuelle à cotisations variables (SIREN n° 781 452 511). Le contrat apporte une couverture santé pour le chien ou le chat du sociétaire Macif en remboursant une partie des frais de soins vétérinaires consécutifs à un accident ou une maladie de l’animal, ainsi que des frais préventifs, de médecine douce, de décès, d’annonce, de garde ou de transport, une assistance et un service d’information et conseils par téléphone. Le remboursement des frais médicaux s’effectue à hauteur de 80 % des frais engagés par l’assuré et les garanties peuvent être soumises à des plafonds de prise en charge. La couverture porte sur la France métropolitaine, l’assistance à l’étranger s’exerçant dans les DROM, l’Union européenne et une liste de pays énumérés.",
-  "definitions": [],
-  "coverages": [
-    {
-      "name": "Remboursement des frais médicaux vétérinaires (accident ou maladie)",
-      "description": "Le remboursement de frais médicaux prescrits par le docteur vétérinaire pour l’animal suite à un accident ou une maladie.",
-      "is_optional": false,
-      "territorial_scope": "En France métropolitaine.",
-      "limits": "Le remboursement des frais médicaux s’effectue à hauteur de 80 % des frais engagés par l’assuré. Les présentes garanties peuvent être soumises à des plafonds de prise en charge.",
-      "sub_limits": [],
-      "deductible": "En cas de sinistre un seuil d’intervention peut être appliqué. (montant non précisé dans le document)",
-      "conditions": [
-        "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat. »",
-        "Frais prescrits par le docteur vétérinaire.",
-        "Le remboursement des frais médicaux consécutifs à une maladie qui survient dans les 30 jours suivant la date d’effet du contrat est exclu."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Informations et conseils sur la gestion de l’animal (appel téléphonique)",
-      "description": "Les informations et conseils sur la gestion de l’animal sur appel téléphonique : conseils vétérinaires, conseils vie pratique, informations juridiques.",
-      "is_optional": false,
-      "territorial_scope": "En France métropolitaine.",
-      "limits": "Les présentes garanties peuvent être soumises à des plafonds de prise en charge.",
-      "sub_limits": [
-        "conseils vétérinaires",
-        "conseils vie pratique",
-        "informations juridiques"
-      ],
-      "deductible": null,
-      "conditions": [
-        "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat. »"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Remboursement de frais vétérinaires préventifs",
-      "description": "Le remboursement de frais vétérinaires préventifs : frais de vaccination, de stérilisation, de détartrage.",
-      "is_optional": null,
-      "territorial_scope": "En France métropolitaine.",
-      "limits": "Les présentes garanties peuvent être soumises à des plafonds de prise en charge.",
-      "sub_limits": [
-        "frais de vaccination",
-        "frais de stérilisation",
-        "frais de détartrage"
-      ],
-      "deductible": null,
-      "conditions": [
-        "Garantie précédée du signe « – » dans le document ; le document ne précise que « Les garanties précédées d’une coche sont systématiquement prévues au contrat. »"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Remboursement des frais de médecine douce",
-      "description": "Le remboursement des frais de médecine douce : ostéopathie, kinésithérapie, acupuncture, homéopathie et phytothérapie.",
-      "is_optional": null,
-      "territorial_scope": "En France métropolitaine.",
-      "limits": "Les présentes garanties peuvent être soumises à des plafonds de prise en charge.",
-      "sub_limits": [
-        "ostéopathie",
-        "kinésithérapie",
-        "acupuncture",
-        "homéopathie",
-        "phytothérapie"
-      ],
-      "deductible": null,
-      "conditions": [
-        "Garantie précédée du signe « – » dans le document ; le document ne précise que « Les garanties précédées d’une coche sont systématiquement prévues au contrat. »"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Remboursement des frais liés au décès de l’animal",
-      "description": "Le remboursement des frais liés au décès de l’animal : frais d’euthanasie, frais d’incinération.",
-      "is_optional": null,
-      "territorial_scope": "En France métropolitaine.",
-      "limits": "Les présentes garanties peuvent être soumises à des plafonds de prise en charge.",
-      "sub_limits": [
-        "frais d’euthanasie",
-        "frais d’incinération"
-      ],
-      "deductible": null,
-      "conditions": [
-        "Garantie précédée du signe « – » dans le document ; le document ne précise que « Les garanties précédées d’une coche sont systématiquement prévues au contrat. »"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Remboursement des frais d’annonce (perte, fugue ou vol)",
-      "description": "Le remboursement des frais d’annonce en cas de perte, fugue ou vol de l’animal assuré.",
-      "is_optional": null,
-      "territorial_scope": "En France métropolitaine.",
-      "limits": "Les présentes garanties peuvent être soumises à des plafonds de prise en charge.",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Garantie précédée du signe « – » dans le document ; le document ne précise que « Les garanties précédées d’une coche sont systématiquement prévues au contrat. »"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Remboursement des frais de garde ou de transport",
-      "description": "Le remboursement des frais de garde ou de transport.",
-      "is_optional": null,
-      "territorial_scope": "En France métropolitaine.",
-      "limits": "Les présentes garanties peuvent être soumises à des plafonds de prise en charge.",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Garantie précédée du signe « – » dans le document ; le document ne précise que « Les garanties précédées d’une coche sont systématiquement prévues au contrat. »",
-        "Justificatif de l’évènement engendrant la prise en charge des frais de garde ou de transport de l’animal à fournir en cas de sinistre."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Assistance",
-      "description": "L’assistance : aide à la recherche de l’animal disparu, aide psychologique en cas de perte, fugue, vol ou décès de l’animal et assistance à l’étranger.",
-      "is_optional": null,
-      "territorial_scope": "Pour l’assistance à l’étranger : dans les DROM (Guadeloupe, Guyane, Martinique, Mayotte, La Réunion), dans l’ensemble des territoires des États membres de l’Union européenne, et dans les pays suivants : Royaume-Uni, Andorre, Liechtenstein, Monaco, Norvège, Saint-Marin, Suisse, Vatican, Islande, Albanie, Bosnie-Herzégovine, Biélorussie, Israël, Maroc, Moldavie, République de Macédoine du Nord, Monténégro, Russie, Serbie, Tunisie, Turquie, Ukraine.",
-      "limits": "Les présentes garanties peuvent être soumises à des plafonds de prise en charge.",
-      "sub_limits": [
-        "aide à la recherche de l’animal disparu",
-        "aide psychologique en cas de perte, fugue, vol ou décès de l’animal",
-        "assistance à l’étranger"
-      ],
-      "deductible": null,
-      "conditions": [
-        "Garantie précédée du signe « – » dans le document ; le document ne précise que « Les garanties précédées d’une coche sont systématiquement prévues au contrat. »"
-      ],
-      "page": 1
-    }
-  ],
-  "exclusions": [
-    {
-      "name": "Animal de moins de 3 mois ou de 8 ans et plus",
-      "description": "L’animal âgé de moins de 3 mois ou de 8 ans et plus à la date de souscription du contrat.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Animal non identifié",
-      "description": "L’animal non identifié par tatouage ou puce.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Animal d’élevage professionnel ou à usage professionnel",
-      "description": "L’animal faisant partie d’un élevage professionnel ou participant à l’exercice d’une activité professionnelle ou commerciale.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Chien de 1re ou 2e catégorie",
-      "description": "Le chien de 1re ou 2e catégorie selon l’article L.211 - 12 du Code rural et de la pêche maritime.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Chien faisant partie d’une meute",
-      "description": "Le chien faisant partie d’une meute (troupe de chiens dressés pour la chasse).",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Antériorité à la date d’effet du contrat",
-      "description": "Les maladies ou accidents, y compris leurs suites et conséquences, dont l’origine, la survenance ou la constatation est antérieure à la date d’effet du contrat.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Anomalies constitutionnelles, pathologies congénitales et/ou héréditaires",
-      "description": "Les frais consécutifs à toute anomalie constitutionnelle, pathologie congénitale et/ou héréditaire, les luxations médiales de la rotule, ainsi que les frais de dépistage de ces pathologies.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Maladies évitables par vaccination préventive",
-      "description": "Les frais exposés pour les maladies qui auraient pu être évitées si des vaccinations préventives avaient été réalisées (pour le chien : maladie de Carré, hépatite de Rubarth, leptospirose, parvovirose, rage ; pour le chat : tiphus, coryza, calicivirose, leucose féline, rage).",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Chasse, course ou compétition sportive",
-      "description": "Les blessures occasionnées à l’animal lors de sa participation à une partie de chasse, une course ou une compétition sportive, y compris lors de l’entraînement pour une telle course ou compétition sportive.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Manque de soins, mauvais traitements, abandon",
-      "description": "Les frais exposés à la suite de manque de soins ou de nourriture, de mauvais traitements, d’abandon, du fait de l’assuré, de son conjoint ou des personnes vivant sous son toit.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Guerre, émeutes, explosions, radioactivité",
-      "description": "Les frais occasionnés par la guerre étrangère ou civile, des émeutes ou des mouvements populaires, des explosions, des dégagements de chaleur ou de l’irradiation provenant de la trans mutation de noyaux d’atomes ou de la radioactivité. (« trans mutation » est écrit ainsi dans le document)",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Maladie survenant dans les 30 jours suivant la date d’effet",
-      "description": "Le remboursement des frais médicaux consécutifs à une maladie qui survient dans les 30 jours suivant la date d’effet du contrat.",
-      "applies_to": "Remboursement des frais médicaux vétérinaires (accident ou maladie)",
-      "page": 1
-    }
-  ],
-  "deductibles": {
-    "standard": null,
-    "variable": "En cas de sinistre un seuil d’intervention peut être appliqué.",
-    "per_coverage": null,
-    "page": 1
+ "schema_version": "1.0",
+ "prompt_version": "1.1",
+ "country": "fr",
+ "insurer_slug": "macif",
+ "insurer_name": "Macif",
+ "product_name": "Contrat Macif Assurance Chien Chat",
+ "branch": "animaux",
+ "branch_code": null,
+ "document_type": "ipid",
+ "language": "fr",
+ "target_audience": null,
+ "target_audience_note": "Le document ne désigne pas de catégorie de clientèle ; il vise « le chien ou le chat du sociétaire Macif » et mentionne le cas d’un contrat « souscrit par une personne physique à distance ou par démarchage à domicile ».",
+ "reference": "CHIEN CHAT/05 - 06/22",
+ "edition_date": "06/22",
+ "product_family": "Macif Assurance Chien Chat",
+ "variant": null,
+ "is_extension": false,
+ "extends": null,
+ "superseded": null,
+ "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/dipa/dipa_macif_assurance_chien_chat.pdf",
+ "source_pdf": "contrat-macif-assurance-chien-chat-c2873ada.pdf",
+ "source_sha256": "e8eb8f5bc517d7d3989db72126fb276697d9663a69726da3e9a6ada55ef2bb7d",
+ "source_pages": 2,
+ "fetched_at": "2026-08-01",
+ "extraction_model": "claude-code-subagent:scale",
+ "summary": "Document d’information (DIPA/IPID) du contrat Macif Assurance Chien Chat, souscrit auprès de Macif - France, société d’assurance mutuelle à cotisations variables (SIREN n° 781 452 511). Le contrat apporte une couverture santé pour le chien ou le chat du sociétaire Macif en remboursant une partie des frais de soins vétérinaires consécutifs à un accident ou une maladie de l’animal, ainsi que des frais préventifs, de médecine douce, de décès, d’annonce, de garde ou de transport, une assistance et un service d’information et conseils par téléphone. Le remboursement des frais médicaux s’effectue à hauteur de 80 % des frais engagés par l’assuré et les garanties peuvent être soumises à des plafonds de prise en charge. La couverture porte sur la France métropolitaine, l’assistance à l’étranger s’exerçant dans les DROM, l’Union européenne et une liste de pays énumérés.",
+ "definitions": [],
+ "coverages": [
+  {
+   "name": "Remboursement des frais médicaux vétérinaires (accident ou maladie)",
+   "description": "Le remboursement de frais médicaux prescrits par le docteur vétérinaire pour l’animal suite à un accident ou une maladie.",
+   "is_optional": false,
+   "territorial_scope": "En France métropolitaine.",
+   "limits": "Le remboursement des frais médicaux s’effectue à hauteur de 80 % des frais engagés par l’assuré. Les présentes garanties peuvent être soumises à des plafonds de prise en charge.",
+   "sub_limits": [],
+   "deductible": "En cas de sinistre un seuil d’intervention peut être appliqué. (montant non précisé dans le document)",
+   "conditions": [
+    "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat. »",
+    "Frais prescrits par le docteur vétérinaire.",
+    "Le remboursement des frais médicaux consécutifs à une maladie qui survient dans les 30 jours suivant la date d’effet du contrat est exclu."
+   ],
+   "page": 1
   },
-  "waiting_periods": [
-    {
-      "coverage": "Remboursement des frais médicaux vétérinaires (maladie)",
-      "duration": "30 jours",
-      "description": "Le remboursement des frais médicaux consécutifs à une maladie qui survient dans les 30 jours suivant la date d’effet du contrat est listé parmi les principales exclusions.",
-      "page": 1
-    }
-  ],
-  "obligations": [
-    {
-      "name": "Répondre exactement aux questions posées",
-      "description": "À la souscription du contrat : répondre exactement aux questions posées par l’assureur.",
-      "timing": "À la souscription du contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Fournir les documents justificatifs",
-      "description": "À la souscription du contrat : fournir tous documents justificatifs demandés.",
-      "timing": "À la souscription du contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Déclarer les circonstances nouvelles",
-      "description": "En cours de contrat : déclarer dans les 15 jours toutes les circonstances nouvelles et tous les changements qui modifient les renseignements fournis lors de la souscription et qui sont de nature à aggraver le risque assuré ou à en créer un nouveau.",
-      "timing": "En cours de contrat, dans les 15 jours",
-      "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Déclarer le sinistre",
-      "description": "En cas de sinistre : déclarer le sinistre dans les 5 jours ouvrés suivant l’engagement des frais pouvant donner lieu à remboursement.",
-      "timing": "En cas de sinistre, dans les 5 jours ouvrés suivant l’engagement des frais",
-      "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Fournir la facture acquittée et les justificatifs",
-      "description": "En cas de sinistre : fournir la facture acquittée des frais engagés ainsi que, selon le cas, les documents suivants : ordonnance de prescription du docteur vétérinaire, formulaire de soins complété et signé par le docteur vétérinaire, justificatif de l’évènement engendrant la prise en charge des frais de garde ou de transport de l’animal, certificat de décès de l’animal.",
-      "timing": "En cas de sinistre",
-      "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Transmettre les coordonnées des autres assureurs",
-      "description": "En cas de sinistre : transmettre les coordonnées des éventuels autres assureurs couvrant l’animal.",
-      "timing": "En cas de sinistre",
-      "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
-      "page": 2
-    }
-  ],
-  "claims_procedure": [
-    {
-      "step": "Déclaration du sinistre",
-      "description": "Déclarer le sinistre dans les 5 jours ouvrés suivant l’engagement des frais pouvant donner lieu à remboursement.",
-      "deadline": "5 jours ouvrés suivant l’engagement des frais",
-      "page": 2
-    },
-    {
-      "step": "Envoi des justificatifs",
-      "description": "Fournir la facture acquittée des frais engagés ainsi que, selon le cas : ordonnance de prescription du docteur vétérinaire, formulaire de soins complété et signé par le docteur vétérinaire, justificatif de l’évènement engendrant la prise en charge des frais de garde ou de transport de l’animal, certificat de décès de l’animal.",
-      "deadline": null,
-      "page": 2
-    },
-    {
-      "step": "Autres assureurs",
-      "description": "Transmettre les coordonnées des éventuels autres assureurs couvrant l’animal.",
-      "deadline": null,
-      "page": 2
-    }
-  ],
-  "duration_and_cancellation": {
-    "duration": "La couverture commence à partir de la date convenue d’un commun accord et dure jusqu’à la date d’échéance du contrat.",
-    "tacit_renewal": true,
-    "notice_period": "À l’échéance du contrat, avec un préavis d’un mois.",
-    "methods": [
-      "Envoi d’un courrier électronique",
-      "Envoi d’un courrier postal",
-      "Déclaration auprès d’un conseiller de l’assureur"
-    ],
-    "special_rights": [
-      "À l’échéance du contrat, avec un préavis d’un mois",
-      "En cas de perte, de fugue, de vol, de cession ou de décès de l’animal",
-      "Si la Macif résilie un autre contrat de l’assuré après sinistre",
-      "En cas d’augmentation de la cotisation hors taxes",
-      "Lorsque le contrat a été souscrit par une personne physique à distance ou par démarchage à domicile, l’assuré dispose d’un droit de renonciation"
-    ],
-    "page": 2
+  {
+   "name": "Informations et conseils sur la gestion de l’animal (appel téléphonique)",
+   "description": "Les informations et conseils sur la gestion de l’animal sur appel téléphonique : conseils vétérinaires, conseils vie pratique, informations juridiques.",
+   "is_optional": false,
+   "territorial_scope": "En France métropolitaine.",
+   "limits": "Les présentes garanties peuvent être soumises à des plafonds de prise en charge.",
+   "sub_limits": [
+    "conseils vétérinaires",
+    "conseils vie pratique",
+    "informations juridiques"
+   ],
+   "deductible": null,
+   "conditions": [
+    "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat. »"
+   ],
+   "page": 1
   },
-  "prescription_period": null,
-  "premium": {
-    "notes": [
-      "La cotisation est payable d’avance à la souscription puis à chaque date d’échéance.",
-      "Elle est exigible annuellement, toutefois un paiement fractionné peut être accordé.",
-      "Le défaut de paiement dans les 10 jours à compter de la date d’échéance pourra entraîner, après une mise en demeure, la suspension des garanties puis la résiliation du contrat.",
-      "Le paiement peut être effectué par prélèvement mensuel SEPA, ou par carte bancaire pour le paiement de la totalité de la cotisation.",
-      "La résiliation est possible en cas d’augmentation de la cotisation hors taxes."
-    ],
-    "indexation": null,
-    "page": 2
+  {
+   "name": "Remboursement de frais vétérinaires préventifs",
+   "description": "Le remboursement de frais vétérinaires préventifs : frais de vaccination, de stérilisation, de détartrage.",
+   "is_optional": null,
+   "territorial_scope": "En France métropolitaine.",
+   "limits": "Les présentes garanties peuvent être soumises à des plafonds de prise en charge.",
+   "sub_limits": [
+    "frais de vaccination",
+    "frais de stérilisation",
+    "frais de détartrage"
+   ],
+   "deductible": null,
+   "conditions": [
+    "Garantie précédée du signe « – » dans le document ; le document ne précise que « Les garanties précédées d’une coche sont systématiquement prévues au contrat. »"
+   ],
+   "page": 1
   },
-  "special_conditions": [
-    {
-      "name": "Taux de remboursement",
-      "description": "Le remboursement des frais médicaux s’effectue à hauteur de 80 % des frais engagés par l’assuré.",
-      "page": 1
-    },
-    {
-      "name": "Seuil d’intervention",
-      "description": "En cas de sinistre un seuil d’intervention peut être appliqué.",
-      "page": 1
-    },
-    {
-      "name": "Plafonds de prise en charge",
-      "description": "Les présentes garanties peuvent être soumises à des plafonds de prise en charge.",
-      "page": 1
-    },
-    {
-      "name": "Légende des garanties",
-      "description": "Les garanties précédées d’une coche sont systématiquement prévues au contrat.",
-      "page": 1
-    },
-    {
-      "name": "Portée du document",
-      "description": "Ce document d’information présente un résumé des principales garanties et exclusions du produit. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l’information complète sur ce produit dans la documentation pré contractuelle et contractuelle.",
-      "page": 1
-    }
+  {
+   "name": "Remboursement des frais de médecine douce",
+   "description": "Le remboursement des frais de médecine douce : ostéopathie, kinésithérapie, acupuncture, homéopathie et phytothérapie.",
+   "is_optional": null,
+   "territorial_scope": "En France métropolitaine.",
+   "limits": "Les présentes garanties peuvent être soumises à des plafonds de prise en charge.",
+   "sub_limits": [
+    "ostéopathie",
+    "kinésithérapie",
+    "acupuncture",
+    "homéopathie",
+    "phytothérapie"
+   ],
+   "deductible": null,
+   "conditions": [
+    "Garantie précédée du signe « – » dans le document ; le document ne précise que « Les garanties précédées d’une coche sont systématiquement prévues au contrat. »"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Remboursement des frais liés au décès de l’animal",
+   "description": "Le remboursement des frais liés au décès de l’animal : frais d’euthanasie, frais d’incinération.",
+   "is_optional": null,
+   "territorial_scope": "En France métropolitaine.",
+   "limits": "Les présentes garanties peuvent être soumises à des plafonds de prise en charge.",
+   "sub_limits": [
+    "frais d’euthanasie",
+    "frais d’incinération"
+   ],
+   "deductible": null,
+   "conditions": [
+    "Garantie précédée du signe « – » dans le document ; le document ne précise que « Les garanties précédées d’une coche sont systématiquement prévues au contrat. »"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Remboursement des frais d’annonce (perte, fugue ou vol)",
+   "description": "Le remboursement des frais d’annonce en cas de perte, fugue ou vol de l’animal assuré.",
+   "is_optional": null,
+   "territorial_scope": "En France métropolitaine.",
+   "limits": "Les présentes garanties peuvent être soumises à des plafonds de prise en charge.",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Garantie précédée du signe « – » dans le document ; le document ne précise que « Les garanties précédées d’une coche sont systématiquement prévues au contrat. »"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Remboursement des frais de garde ou de transport",
+   "description": "Le remboursement des frais de garde ou de transport.",
+   "is_optional": null,
+   "territorial_scope": "En France métropolitaine.",
+   "limits": "Les présentes garanties peuvent être soumises à des plafonds de prise en charge.",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Garantie précédée du signe « – » dans le document ; le document ne précise que « Les garanties précédées d’une coche sont systématiquement prévues au contrat. »",
+    "Justificatif de l’évènement engendrant la prise en charge des frais de garde ou de transport de l’animal à fournir en cas de sinistre."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Assistance",
+   "description": "L’assistance : aide à la recherche de l’animal disparu, aide psychologique en cas de perte, fugue, vol ou décès de l’animal et assistance à l’étranger.",
+   "is_optional": null,
+   "territorial_scope": "Pour l’assistance à l’étranger : dans les DROM (Guadeloupe, Guyane, Martinique, Mayotte, La Réunion), dans l’ensemble des territoires des États membres de l’Union européenne, et dans les pays suivants : Royaume-Uni, Andorre, Liechtenstein, Monaco, Norvège, Saint-Marin, Suisse, Vatican, Islande, Albanie, Bosnie-Herzégovine, Biélorussie, Israël, Maroc, Moldavie, République de Macédoine du Nord, Monténégro, Russie, Serbie, Tunisie, Turquie, Ukraine.",
+   "limits": "Les présentes garanties peuvent être soumises à des plafonds de prise en charge.",
+   "sub_limits": [
+    "aide à la recherche de l’animal disparu",
+    "aide psychologique en cas de perte, fugue, vol ou décès de l’animal",
+    "assistance à l’étranger"
+   ],
+   "deductible": null,
+   "conditions": [
+    "Garantie précédée du signe « – » dans le document ; le document ne précise que « Les garanties précédées d’une coche sont systématiquement prévues au contrat. »"
+   ],
+   "page": 1
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Animal de moins de 3 mois ou de 8 ans et plus",
+   "description": "L’animal âgé de moins de 3 mois ou de 8 ans et plus à la date de souscription du contrat.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Animal non identifié",
+   "description": "L’animal non identifié par tatouage ou puce.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Animal d’élevage professionnel ou à usage professionnel",
+   "description": "L’animal faisant partie d’un élevage professionnel ou participant à l’exercice d’une activité professionnelle ou commerciale.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Chien de 1re ou 2e catégorie",
+   "description": "Le chien de 1re ou 2e catégorie selon l’article L.211 - 12 du Code rural et de la pêche maritime.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Chien faisant partie d’une meute",
+   "description": "Le chien faisant partie d’une meute (troupe de chiens dressés pour la chasse).",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Antériorité à la date d’effet du contrat",
+   "description": "Les maladies ou accidents, y compris leurs suites et conséquences, dont l’origine, la survenance ou la constatation est antérieure à la date d’effet du contrat.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Anomalies constitutionnelles, pathologies congénitales et/ou héréditaires",
+   "description": "Les frais consécutifs à toute anomalie constitutionnelle, pathologie congénitale et/ou héréditaire, les luxations médiales de la rotule, ainsi que les frais de dépistage de ces pathologies.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Maladies évitables par vaccination préventive",
+   "description": "Les frais exposés pour les maladies qui auraient pu être évitées si des vaccinations préventives avaient été réalisées (pour le chien : maladie de Carré, hépatite de Rubarth, leptospirose, parvovirose, rage ; pour le chat : tiphus, coryza, calicivirose, leucose féline, rage).",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Chasse, course ou compétition sportive",
+   "description": "Les blessures occasionnées à l’animal lors de sa participation à une partie de chasse, une course ou une compétition sportive, y compris lors de l’entraînement pour une telle course ou compétition sportive.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Manque de soins, mauvais traitements, abandon",
+   "description": "Les frais exposés à la suite de manque de soins ou de nourriture, de mauvais traitements, d’abandon, du fait de l’assuré, de son conjoint ou des personnes vivant sous son toit.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Guerre, émeutes, explosions, radioactivité",
+   "description": "Les frais occasionnés par la guerre étrangère ou civile, des émeutes ou des mouvements populaires, des explosions, des dégagements de chaleur ou de l’irradiation provenant de la trans mutation de noyaux d’atomes ou de la radioactivité. (« trans mutation » est écrit ainsi dans le document)",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Maladie survenant dans les 30 jours suivant la date d’effet",
+   "description": "Le remboursement des frais médicaux consécutifs à une maladie qui survient dans les 30 jours suivant la date d’effet du contrat.",
+   "applies_to": "Remboursement des frais médicaux vétérinaires (accident ou maladie)",
+   "page": 1
+  }
+ ],
+ "deductibles": {
+  "standard": null,
+  "variable": "En cas de sinistre un seuil d’intervention peut être appliqué.",
+  "per_coverage": null,
+  "page": 1
+ },
+ "waiting_periods": [
+  {
+   "coverage": "Remboursement des frais médicaux vétérinaires (maladie)",
+   "duration": "30 jours",
+   "description": "Le remboursement des frais médicaux consécutifs à une maladie qui survient dans les 30 jours suivant la date d’effet du contrat est listé parmi les principales exclusions.",
+   "page": 1
+  }
+ ],
+ "obligations": [
+  {
+   "name": "Répondre exactement aux questions posées",
+   "description": "À la souscription du contrat : répondre exactement aux questions posées par l’assureur.",
+   "timing": "À la souscription du contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Fournir les documents justificatifs",
+   "description": "À la souscription du contrat : fournir tous documents justificatifs demandés.",
+   "timing": "À la souscription du contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Déclarer les circonstances nouvelles",
+   "description": "En cours de contrat : déclarer dans les 15 jours toutes les circonstances nouvelles et tous les changements qui modifient les renseignements fournis lors de la souscription et qui sont de nature à aggraver le risque assuré ou à en créer un nouveau.",
+   "timing": "En cours de contrat, dans les 15 jours",
+   "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Déclarer le sinistre",
+   "description": "En cas de sinistre : déclarer le sinistre dans les 5 jours ouvrés suivant l’engagement des frais pouvant donner lieu à remboursement.",
+   "timing": "En cas de sinistre, dans les 5 jours ouvrés suivant l’engagement des frais",
+   "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Fournir la facture acquittée et les justificatifs",
+   "description": "En cas de sinistre : fournir la facture acquittée des frais engagés ainsi que, selon le cas, les documents suivants : ordonnance de prescription du docteur vétérinaire, formulaire de soins complété et signé par le docteur vétérinaire, justificatif de l’évènement engendrant la prise en charge des frais de garde ou de transport de l’animal, certificat de décès de l’animal.",
+   "timing": "En cas de sinistre",
+   "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Transmettre les coordonnées des autres assureurs",
+   "description": "En cas de sinistre : transmettre les coordonnées des éventuels autres assureurs couvrant l’animal.",
+   "timing": "En cas de sinistre",
+   "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
+   "page": 2
+  }
+ ],
+ "claims_procedure": [
+  {
+   "step": "Déclaration du sinistre",
+   "description": "Déclarer le sinistre dans les 5 jours ouvrés suivant l’engagement des frais pouvant donner lieu à remboursement.",
+   "deadline": "5 jours ouvrés suivant l’engagement des frais",
+   "page": 2
+  },
+  {
+   "step": "Envoi des justificatifs",
+   "description": "Fournir la facture acquittée des frais engagés ainsi que, selon le cas : ordonnance de prescription du docteur vétérinaire, formulaire de soins complété et signé par le docteur vétérinaire, justificatif de l’évènement engendrant la prise en charge des frais de garde ou de transport de l’animal, certificat de décès de l’animal.",
+   "deadline": null,
+   "page": 2
+  },
+  {
+   "step": "Autres assureurs",
+   "description": "Transmettre les coordonnées des éventuels autres assureurs couvrant l’animal.",
+   "deadline": null,
+   "page": 2
+  }
+ ],
+ "duration_and_cancellation": {
+  "duration": "La couverture commence à partir de la date convenue d’un commun accord et dure jusqu’à la date d’échéance du contrat.",
+  "tacit_renewal": true,
+  "notice_period": "À l’échéance du contrat, avec un préavis d’un mois.",
+  "methods": [
+   "Envoi d’un courrier électronique",
+   "Envoi d’un courrier postal",
+   "Déclaration auprès d’un conseiller de l’assureur"
   ],
-  "key_quotes": [
-    {
-      "quote": "Compagnie : Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511.",
-      "context": "Identification de l'assureur",
-      "page": 1
-    },
-    {
-      "quote": "Ce contrat d’assurance apporte une couverture santé pour le chien ou le chat du sociétaire Macif en remboursant une partie des frais de soins vétérinaires consécutifs \nà un accident ou une maladie de l’animal.",
-      "context": "Objet du contrat",
-      "page": 1
-    },
-    {
-      "quote": "CHIEN CHAT/05 - 06/22 - Macif. Entreprise régie par le Code des assurances.",
-      "context": "Reference / edition du document",
-      "page": 1
-    },
-    {
-      "quote": "Les présentes garanties peuvent être soumises à des plafonds de prise en \ncharge.",
-      "context": "Plafonds",
-      "page": 1
-    },
-    {
-      "quote": "Le remboursement de frais médicaux prescrits par le docteur \nvétérinaire pour l’animal suite à un accident ou une maladie.",
-      "context": "Garantie principale",
-      "page": 1
-    },
-    {
-      "quote": "L’animal âgé de moins de 3 mois ou de 8 ans et plus à la date de \nsouscription du contrat.",
-      "context": "Animal non assurable",
-      "page": 1
-    },
-    {
-      "quote": "Le chien de 1re ou 2e catégorie selon l’article L.211 - 12 du Code rural et \nde la pêche maritime.",
-      "context": "Chiens categorises exclus",
-      "page": 1
-    },
-    {
-      "quote": "Les maladies ou accidents, y compris leurs suites et conséquences, \ndont l’origine, la survenance ou la constatation est antérieure à la date \nd’effet du contrat.",
-      "context": "Exclusion anteriorite",
-      "page": 1
-    },
-    {
-      "quote": "Les frais consécutifs à toute anomalie constitutionnelle, pathologie \ncongénitale et/ou héréditaire, les luxations médiales de la rotule, ainsi \nque les frais de dépistage de ces pathologies.",
-      "context": "Exclusion congenital/hereditaire",
-      "page": 1
-    },
-    {
-      "quote": "Les frais exposés pour les maladies qui auraient pu être évitées si des \nvaccinations préventives avaient été réalisées (pour le chien : maladie \nde Carré, hépatite de Rubarth, leptospirose, parvovirose, rage ; pour le \nchat : tiphus, coryza, calicivirose, leucose féline, rage).",
-      "context": "Exclusion defaut de vaccination",
-      "page": 1
-    },
-    {
-      "quote": "Le remboursement des frais médicaux consécutifs à une maladie qui \nsurvient dans les 30 jours suivant la date d’effet du contrat.",
-      "context": "Carence maladie 30 jours",
-      "page": 1
-    },
-    {
-      "quote": "Le remboursement des frais médicaux s’effectue à hauteur de 80 % des \nfrais engagés par l’assuré.",
-      "context": "Taux de remboursement 80 %",
-      "page": 1
-    },
-    {
-      "quote": "En cas de sinistre un seuil d’intervention peut être appliqué.",
-      "context": "Seuil d'intervention",
-      "page": 1
-    },
-    {
-      "quote": "Les garanties précédées d’une coche  sont systématiquement \nprévues au contrat.",
-      "context": "Legende des garanties",
-      "page": 1
-    },
-    {
-      "quote": "Pour l’assistance à l’étranger : dans les DROM (Guadeloupe, Guyane, Martinique, Mayotte, La Réunion), dans l’ensemble des territoires des États \nmembres de l’Union européenne, et dans les pays suivants : Royaume-Uni, Andorre, Liechtenstein, Monaco, Norvège, Saint-Marin, Suisse, Vatican, \nIslande, Albanie, Bosnie-Herzégovine, Biélorussie, Israël, Maroc, Moldavie, République de Macédoine du Nord, Monténégro, Russie, Serbie, Tunisie, \nTurquie, Ukraine.",
-      "context": "Etendue territoriale de l'assistance",
-      "page": 2
-    },
-    {
-      "quote": "La cotisation est payable d’avance à la souscription puis à chaque date d’échéance. Elle est exigible annuellement, toutefois un paiement fractionné \npeut être accordé. Le défaut de paiement dans les 10 jours à compter de la date d’échéance pourra entraîner, après une mise en demeure, la suspension \ndes garanties puis la résiliation du contrat.",
-      "context": "Paiement de la cotisation",
-      "page": 2
-    },
-    {
-      "quote": "La couverture commence à partir de la date convenue d’un commun accord et dure jusqu’à la date d’échéance du contrat. À cette date, le contrat est \nrenouvelé automatiquement par période annuelle, sauf si l’une des parties décide d’y mettre fin dans les délais et conditions prévus au contrat.",
-      "context": "Duree et reconduction",
-      "page": 2
-    },
-    {
-      "quote": "En cours de contrat : déclarer dans les 15 jours toutes les circonstances nouvelles et tous les changements qui modifient les renseignements fournis \nlors de la souscription et qui sont de nature à aggraver le risque assuré ou à en créer un nouveau.",
-      "context": "Declaration en cours de contrat",
-      "page": 2
-    },
-    {
-      "quote": "déclarer le sinistre dans les 5 jours ouvrés suivant l’engagement des frais pouvant donner lieu à remboursement",
-      "context": "Delai de declaration de sinistre",
-      "page": 2
-    }
+  "special_rights": [
+   "À l’échéance du contrat, avec un préavis d’un mois",
+   "En cas de perte, de fugue, de vol, de cession ou de décès de l’animal",
+   "Si la Macif résilie un autre contrat de l’assuré après sinistre",
+   "En cas d’augmentation de la cotisation hors taxes",
+   "Lorsque le contrat a été souscrit par une personne physique à distance ou par démarchage à domicile, l’assuré dispose d’un droit de renonciation"
   ],
-  "gaps": [
-    "Le document est un DIPA/IPID (« Document d’information sur le produit d’assurance ») : il présente explicitement « un résumé des principales garanties et exclusions du produit ». Son silence sur un point ne vaut pas absence de garantie ou d’exclusion ; les conditions générales n’ont pas été extraites ici.",
-    "Porteur du risque : le document nomme « Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511 » (Macif SAM), siège social 1 rue Jacques Vandier 79000 Niort. Aucun autre porteur ni assisteur n’est nommé, alors qu’une garantie assistance est prévue : le prestataire d’assistance n’est pas identifié dans le document.",
-    "Aucun montant chiffré de plafond, de seuil d’intervention ou de cotisation n’est indiqué : le document dit seulement que les garanties « peuvent être soumises à des plafonds de prise en charge » et qu’« un seuil d’intervention peut être appliqué ».",
-    "edition_date : le document ne porte pas de mention « édition MM/AAAA » ; la seule datation est le code de référence de bas de page « CHIEN CHAT/05 - 06/22 », dont le segment 06/22 a été reporté tel quel en edition_date. Le code ne comporte pas de numéro N<nnn>.",
-    "target_audience laissé à null : le document ne déclare aucune catégorie de clientèle ; il parle du « sociétaire Macif » et, pour le droit de renonciation, d’une « personne physique ».",
-    "is_optional laissé à null pour six garanties (frais préventifs, médecine douce, frais liés au décès, frais d’annonce, frais de garde ou de transport, assistance) : elles sont précédées du signe « – » et non d’une coche, et le document explique uniquement la coche (« systématiquement prévues au contrat ») sans dire ce que signifie le tiret. En déduire un caractère optionnel serait une inférence.",
-    "Aucune section « Définitions » dans ce document : definitions[] est vide. Aucun délai de prescription n’est mentionné : prescription_period est null.",
-    "Défauts de la couche texte du PDF (conservés tels quels, non corrigés) : plusieurs titres perdent apostrophes et traits d’union — « De quel type d’assurance s agiti l ? » (pour « s’agit-il »), « Yatil des exclusions à la couverture ? » (pour « Y a-t-il »), « Quand commence la couverture et quand pren telle fin ? » (pour « prend-elle »). Ces titres n’ont donc pas été utilisés comme citations.",
-    "La couche texte remplace les puces par des caractères de contrôle U+0007 (et un U+0000 avant « LES PRINCIPALES EXCLUSIONS ») ; les citations ont été découpées de façon à les éviter. Le PDF contient aussi 31 espaces insécables et une espace fine U+200A dans « L.211 - 12 », reportée telle quelle.",
-    "territorial_scope : le document répond globalement à « Où suis-je couvert(e) ? » par « En France métropolitaine » et par une liste étendue pour la seule « assistance à l’étranger » ; il n’attribue pas de portée territoriale garantie par garantie. La répartition retenue ici suit cette réponse globale.",
-    "Le texte du prompt et le texte extrait du PDF source par PyMuPDF (page.get_text(\"text\")) ont été comparés page par page : 2 pages sur 2 identiques après normalisation. Le prompt n’était pas tronqué."
-  ]
+  "page": 2
+ },
+ "prescription_period": null,
+ "premium": {
+  "notes": [
+   "La cotisation est payable d’avance à la souscription puis à chaque date d’échéance.",
+   "Elle est exigible annuellement, toutefois un paiement fractionné peut être accordé.",
+   "Le défaut de paiement dans les 10 jours à compter de la date d’échéance pourra entraîner, après une mise en demeure, la suspension des garanties puis la résiliation du contrat.",
+   "Le paiement peut être effectué par prélèvement mensuel SEPA, ou par carte bancaire pour le paiement de la totalité de la cotisation.",
+   "La résiliation est possible en cas d’augmentation de la cotisation hors taxes."
+  ],
+  "indexation": null,
+  "page": 2
+ },
+ "special_conditions": [
+  {
+   "name": "Taux de remboursement",
+   "description": "Le remboursement des frais médicaux s’effectue à hauteur de 80 % des frais engagés par l’assuré.",
+   "page": 1
+  },
+  {
+   "name": "Seuil d’intervention",
+   "description": "En cas de sinistre un seuil d’intervention peut être appliqué.",
+   "page": 1
+  },
+  {
+   "name": "Plafonds de prise en charge",
+   "description": "Les présentes garanties peuvent être soumises à des plafonds de prise en charge.",
+   "page": 1
+  },
+  {
+   "name": "Légende des garanties",
+   "description": "Les garanties précédées d’une coche sont systématiquement prévues au contrat.",
+   "page": 1
+  },
+  {
+   "name": "Portée du document",
+   "description": "Ce document d’information présente un résumé des principales garanties et exclusions du produit. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l’information complète sur ce produit dans la documentation pré contractuelle et contractuelle.",
+   "page": 1
+  }
+ ],
+ "key_quotes": [
+  {
+   "quote": "Compagnie : Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511.",
+   "context": "Identification de l'assureur",
+   "page": 1
+  },
+  {
+   "quote": "Ce contrat d’assurance apporte une couverture santé pour le chien ou le chat du sociétaire Macif en remboursant une partie des frais de soins vétérinaires consécutifs \nà un accident ou une maladie de l’animal.",
+   "context": "Objet du contrat",
+   "page": 1
+  },
+  {
+   "quote": "CHIEN CHAT/05 - 06/22 - Macif. Entreprise régie par le Code des assurances.",
+   "context": "Reference / edition du document",
+   "page": 1
+  },
+  {
+   "quote": "Les présentes garanties peuvent être soumises à des plafonds de prise en \ncharge.",
+   "context": "Plafonds",
+   "page": 1
+  },
+  {
+   "quote": "Le remboursement de frais médicaux prescrits par le docteur \nvétérinaire pour l’animal suite à un accident ou une maladie.",
+   "context": "Garantie principale",
+   "page": 1
+  },
+  {
+   "quote": "L’animal âgé de moins de 3 mois ou de 8 ans et plus à la date de \nsouscription du contrat.",
+   "context": "Animal non assurable",
+   "page": 1
+  },
+  {
+   "quote": "Le chien de 1re ou 2e catégorie selon l’article L.211 - 12 du Code rural et \nde la pêche maritime.",
+   "context": "Chiens categorises exclus",
+   "page": 1
+  },
+  {
+   "quote": "Les maladies ou accidents, y compris leurs suites et conséquences, \ndont l’origine, la survenance ou la constatation est antérieure à la date \nd’effet du contrat.",
+   "context": "Exclusion anteriorite",
+   "page": 1
+  },
+  {
+   "quote": "Les frais consécutifs à toute anomalie constitutionnelle, pathologie \ncongénitale et/ou héréditaire, les luxations médiales de la rotule, ainsi \nque les frais de dépistage de ces pathologies.",
+   "context": "Exclusion congenital/hereditaire",
+   "page": 1
+  },
+  {
+   "quote": "Les frais exposés pour les maladies qui auraient pu être évitées si des \nvaccinations préventives avaient été réalisées (pour le chien : maladie \nde Carré, hépatite de Rubarth, leptospirose, parvovirose, rage ; pour le \nchat : tiphus, coryza, calicivirose, leucose féline, rage).",
+   "context": "Exclusion defaut de vaccination",
+   "page": 1
+  },
+  {
+   "quote": "Le remboursement des frais médicaux consécutifs à une maladie qui \nsurvient dans les 30 jours suivant la date d’effet du contrat.",
+   "context": "Carence maladie 30 jours",
+   "page": 1
+  },
+  {
+   "quote": "Le remboursement des frais médicaux s’effectue à hauteur de 80 % des \nfrais engagés par l’assuré.",
+   "context": "Taux de remboursement 80 %",
+   "page": 1
+  },
+  {
+   "quote": "En cas de sinistre un seuil d’intervention peut être appliqué.",
+   "context": "Seuil d'intervention",
+   "page": 1
+  },
+  {
+   "quote": "Les garanties précédées d’une coche  sont systématiquement \nprévues au contrat.",
+   "context": "Legende des garanties",
+   "page": 1
+  },
+  {
+   "quote": "Pour l’assistance à l’étranger : dans les DROM (Guadeloupe, Guyane, Martinique, Mayotte, La Réunion), dans l’ensemble des territoires des États \nmembres de l’Union européenne, et dans les pays suivants : Royaume-Uni, Andorre, Liechtenstein, Monaco, Norvège, Saint-Marin, Suisse, Vatican, \nIslande, Albanie, Bosnie-Herzégovine, Biélorussie, Israël, Maroc, Moldavie, République de Macédoine du Nord, Monténégro, Russie, Serbie, Tunisie, \nTurquie, Ukraine.",
+   "context": "Etendue territoriale de l'assistance",
+   "page": 2
+  },
+  {
+   "quote": "La cotisation est payable d’avance à la souscription puis à chaque date d’échéance. Elle est exigible annuellement, toutefois un paiement fractionné \npeut être accordé. Le défaut de paiement dans les 10 jours à compter de la date d’échéance pourra entraîner, après une mise en demeure, la suspension \ndes garanties puis la résiliation du contrat.",
+   "context": "Paiement de la cotisation",
+   "page": 2
+  },
+  {
+   "quote": "La couverture commence à partir de la date convenue d’un commun accord et dure jusqu’à la date d’échéance du contrat. À cette date, le contrat est \nrenouvelé automatiquement par période annuelle, sauf si l’une des parties décide d’y mettre fin dans les délais et conditions prévus au contrat.",
+   "context": "Duree et reconduction",
+   "page": 2
+  },
+  {
+   "quote": "En cours de contrat : déclarer dans les 15 jours toutes les circonstances nouvelles et tous les changements qui modifient les renseignements fournis \nlors de la souscription et qui sont de nature à aggraver le risque assuré ou à en créer un nouveau.",
+   "context": "Declaration en cours de contrat",
+   "page": 2
+  },
+  {
+   "quote": "déclarer le sinistre dans les 5 jours ouvrés suivant l’engagement des frais pouvant donner lieu à remboursement",
+   "context": "Delai de declaration de sinistre",
+   "page": 2
+  }
+ ],
+ "gaps": [
+  "Le document est un DIPA/IPID (« Document d’information sur le produit d’assurance ») : il présente explicitement « un résumé des principales garanties et exclusions du produit ». Son silence sur un point ne vaut pas absence de garantie ou d’exclusion ; les conditions générales n’ont pas été extraites ici.",
+  "Porteur du risque : le document nomme « Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511 » (Macif SAM), siège social 1 rue Jacques Vandier 79000 Niort. Aucun autre porteur ni assisteur n’est nommé, alors qu’une garantie assistance est prévue : le prestataire d’assistance n’est pas identifié dans le document.",
+  "Aucun montant chiffré de plafond, de seuil d’intervention ou de cotisation n’est indiqué : le document dit seulement que les garanties « peuvent être soumises à des plafonds de prise en charge » et qu’« un seuil d’intervention peut être appliqué ».",
+  "edition_date : le document ne porte pas de mention « édition MM/AAAA » ; la seule datation est le code de référence de bas de page « CHIEN CHAT/05 - 06/22 », dont le segment 06/22 a été reporté tel quel en edition_date. Le code ne comporte pas de numéro N<nnn>.",
+  "target_audience laissé à null : le document ne déclare aucune catégorie de clientèle ; il parle du « sociétaire Macif » et, pour le droit de renonciation, d’une « personne physique ».",
+  "is_optional laissé à null pour six garanties (frais préventifs, médecine douce, frais liés au décès, frais d’annonce, frais de garde ou de transport, assistance) : elles sont précédées du signe « – » et non d’une coche, et le document explique uniquement la coche (« systématiquement prévues au contrat ») sans dire ce que signifie le tiret. En déduire un caractère optionnel serait une inférence.",
+  "Aucune section « Définitions » dans ce document : definitions[] est vide. Aucun délai de prescription n’est mentionné : prescription_period est null.",
+  "Défauts de la couche texte du PDF (conservés tels quels, non corrigés) : plusieurs titres perdent apostrophes et traits d’union — « De quel type d’assurance s agiti l ? » (pour « s’agit-il »), « Yatil des exclusions à la couverture ? » (pour « Y a-t-il »), « Quand commence la couverture et quand pren telle fin ? » (pour « prend-elle »). Ces titres n’ont donc pas été utilisés comme citations.",
+  "La couche texte remplace les puces par des caractères de contrôle U+0007 (et un U+0000 avant « LES PRINCIPALES EXCLUSIONS ») ; les citations ont été découpées de façon à les éviter. Le PDF contient aussi 31 espaces insécables et une espace fine U+200A dans « L.211 - 12 », reportée telle quelle.",
+  "territorial_scope : le document répond globalement à « Où suis-je couvert(e) ? » par « En France métropolitaine » et par une liste étendue pour la seule « assistance à l’étranger » ; il n’attribue pas de portée territoriale garantie par garantie. La répartition retenue ici suit cette réponse globale.",
+  "Le texte du prompt et le texte extrait du PDF source par PyMuPDF (page.get_text(\"text\")) ont été comparés page par page : 2 pages sur 2 identiques après normalisation. Le prompt n’était pas tronqué."
+ ]
 }

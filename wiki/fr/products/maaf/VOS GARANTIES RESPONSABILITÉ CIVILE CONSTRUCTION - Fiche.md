@@ -2,12 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[MAAF — a single brand covering four regulated carriers: MAAF Assurances
-  SA (société anonyme, Code des assurances, RCS Niort 542 073 580), MAAF Assurances
-  (société d''assurance mutuelle à cotisations variables, Code des assurances, RCS
-  Niort 781 423 280), MAAF Vie (société anonyme, Code des assurances, RCS Niort 337
-  804 819) and MAAF Santé (mutuelle du livre II du Code de la mutualité, SIREN 331
-  542 142). Group Covéa.]]'
+insurer: '[[MAAF]]'
 insurer_slug: maaf
 branch: decennale
 product_name: VOS GARANTIES RESPONSABILITÉ CIVILE CONSTRUCTION
@@ -50,7 +45,7 @@ generated: true
 
 Guide pédagogique MAAF PRO intitulé « Comprendre la garantie Décennale pour mieux vous protéger », consacré aux responsabilités civiles construction. Il expose le régime légal issu de la loi Spinetta (loi 78-12 du 4 janvier 1978, articles 1792 et suivants du Code civil) : garantie de parfait achèvement sur 1 an, garantie de bon fonctionnement sur 2 ans, garantie décennale sur 10 ans, assurance dommages ouvrage, ainsi que les garanties non obligatoires que MAAF déclare inclure dans son contrat (sous-traitants, dommages aux existants divisibles, dommages immatériels consécutifs, dommages intermédiaires). Il liste les ouvrages exclus de l'obligation d'assurance et présente les autres assurances professionnelles liées aux travaux de construction, un lexique et un mémo des pièces à fournir. Le document n'est pas un contrat : il renvoie aux conditions générales du contrat Multirisque des professionnels du bâtiment et des travaux publics.
 
-- Assureur : [MAAF — a single brand covering four regulated carriers: MAAF Assurances SA (société anonyme, Code des assurances, RCS Niort 542 073 580), MAAF Assurances (société d'assurance mutuelle à cotisations variables, Code des assurances, RCS Niort 781 423 280), MAAF Vie (société anonyme, Code des assurances, RCS Niort 337 804 819) and MAAF Santé (mutuelle du livre II du Code de la mutualité, SIREN 331 542 142). Group Covéa.](../../insurers/MAAF%20%E2%80%94%20a%20single%20brand%20covering%20four%20regulated%20carriers%20-%20MAAF%20Assurances%20SA%20%28soci%C3%A9t%C3%A9%20anonyme%2C%20Code%20des%20assurances%2C%20RCS%20N.md) · Branche : [Assurance construction](../../branches/Assurance%20construction.md) · Type : Fiche produit · Édition : 04/18
+- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Assurance construction](../../branches/Assurance%20construction.md) · Type : Fiche produit · Édition : 04/18
 
 > ⚠️ **Édition ancienne** : 04/18, soit 8 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 

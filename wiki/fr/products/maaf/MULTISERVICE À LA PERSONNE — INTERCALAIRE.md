@@ -2,12 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[MAAF — a single brand covering four regulated carriers: MAAF Assurances
-  SA (société anonyme, Code des assurances, RCS Niort 542 073 580), MAAF Assurances
-  (société d''assurance mutuelle à cotisations variables, Code des assurances, RCS
-  Niort 781 423 280), MAAF Vie (société anonyme, Code des assurances, RCS Niort 337
-  804 819) and MAAF Santé (mutuelle du livre II du Code de la mutualité, SIREN 331
-  542 142). Group Covéa.]]'
+insurer: '[[MAAF]]'
 insurer_slug: maaf
 branch: multirisque-professionnelle
 product_name: MULTISERVICE À LA PERSONNE — INTERCALAIRE
@@ -49,7 +44,7 @@ generated: true
 
 Intercalaire sectoriel « Multiservice à la personne » qui s'ajoute aux Conditions générales Multirisque professionnelle référencées 11031 de MAAF Assurances SA. Il définit, au titre de l'article 7 « Responsabilité civile professionnelle », la liste exclusive des prestations de services à la personne garanties : d'une part les activités soumises à simple déclaration (article L.7232-1-1 du code du travail), d'autre part, si l'assuré déclare détenir l'agrément de l'article L7232-1, les activités auprès des publics fragiles. Chaque prestation est assortie d'exclusions propres qui s'ajoutent à celles des articles 10 et 27 des Conditions générales. Le document se termine par un lexique définissant le domicile et les personnes fragiles (enfants de moins de 3 ans, personnes âgées, dépendantes, handicapées).
 
-- Assureur : [MAAF — a single brand covering four regulated carriers: MAAF Assurances SA (société anonyme, Code des assurances, RCS Niort 542 073 580), MAAF Assurances (société d'assurance mutuelle à cotisations variables, Code des assurances, RCS Niort 781 423 280), MAAF Vie (société anonyme, Code des assurances, RCS Niort 337 804 819) and MAAF Santé (mutuelle du livre II du Code de la mutualité, SIREN 331 542 142). Group Covéa.](../../insurers/MAAF%20%E2%80%94%20a%20single%20brand%20covering%20four%20regulated%20carriers%20-%20MAAF%20Assurances%20SA%20%28soci%C3%A9t%C3%A9%20anonyme%2C%20Code%20des%20assurances%2C%20RCS%20N.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : Conditions générales · Édition : 01/25
+- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : Conditions générales · Édition : 01/25
 
 ## Définitions
 

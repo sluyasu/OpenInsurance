@@ -3,12 +3,7 @@ type: insurer
 domain: insurance
 country: fr
 insurer_slug: maaf
-name: 'MAAF — a single brand covering four regulated carriers: MAAF Assurances SA
-  (société anonyme, Code des assurances, RCS Niort 542 073 580), MAAF Assurances (société
-  d''assurance mutuelle à cotisations variables, Code des assurances, RCS Niort 781
-  423 280), MAAF Vie (société anonyme, Code des assurances, RCS Niort 337 804 819)
-  and MAAF Santé (mutuelle du livre II du Code de la mutualité, SIREN 331 542 142).
-  Group Covéa.'
+name: MAAF
 website: https://www.maaf.fr/
 products_count: 21
 branches_covered:
@@ -24,11 +19,7 @@ tags:
 - insurance/fr
 - insurer
 aliases:
-- 'MAAF — a single brand covering four regulated carriers: MAAF Assurances SA (société
-  anonyme, Code des assurances, RCS Niort 542 073 580), MAAF Assurances (société d''assurance
-  mutuelle à cotisations variables, Code des assurances, RCS Niort 781 423 280), MAAF
-  Vie (société anonyme, Code des assurances, RCS Niort 337 804 819) and MAAF Santé
-  (mutuelle du livre II du Code de la mutualité, SIREN 331 542 142). Group Covéa.'
+- MAAF
 date: '2026-08-01'
 freshness: '2026-08-01'
 status: ready
@@ -39,7 +30,7 @@ generated: true
 
 ## Résumé
 
-**MAAF — a single brand covering four regulated carriers: MAAF Assurances SA (société anonyme, Code des assurances, RCS Niort 542 073 580), MAAF Assurances (société d'assurance mutuelle à cotisations variables, Code des assurances, RCS Niort 781 423 280), MAAF Vie (société anonyme, Code des assurances, RCS Niort 337 804 819) and MAAF Santé (mutuelle du livre II du Code de la mutualité, SIREN 331 542 142). Group Covéa.** - [https://www.maaf.fr/](https://www.maaf.fr/). 21 document(s) across 8 branch(es).
+**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 21 document(s) across 8 branch(es).
 
 ## Produits par branche
 

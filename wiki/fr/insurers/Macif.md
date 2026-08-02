@@ -3,8 +3,7 @@ type: insurer
 domain: insurance
 country: fr
 insurer_slug: macif
-name: Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et
-  des Cadres et Salariés de l'Industrie et du Commerce)
+name: Macif
 website: https://www.macif.fr
 products_count: 26
 branches_covered:
@@ -23,8 +22,7 @@ tags:
 - insurance/fr
 - insurer
 aliases:
-- Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des
-  Cadres et Salariés de l'Industrie et du Commerce)
+- Macif
 date: '2026-08-01'
 freshness: '2026-08-01'
 status: ready
@@ -35,7 +33,7 @@ generated: true
 
 ## Résumé
 
-**Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)** - [https://www.macif.fr](https://www.macif.fr). 26 document(s) across 11 branch(es).
+**Macif** - [https://www.macif.fr](https://www.macif.fr). 26 document(s) across 11 branch(es).
 
 ## Produits par branche
 

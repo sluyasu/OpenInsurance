@@ -1,1122 +1,1122 @@
 {
-  "schema_version": "1.0",
-  "prompt_version": "1.1",
-  "country": "fr",
-  "insurer_slug": "macif",
-  "insurer_name": "Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)",
-  "product_name": "Complémentaire santé de la Branche de l'Aide, de l'Accompagnement des Soins et des Services à Domicile",
-  "branch": "sante",
-  "branch_code": null,
-  "document_type": "product_sheet",
-  "language": "fr",
-  "target_audience": "entreprises",
-  "target_audience_note": "Document adressé à l'employeur : « Une complémentaire santé adaptée aux besoins de mes salariés » (p. 1), « FORMULE DE L'ENTREPRISE » et « Formule souscrite à titre obligatoire par l'entreprise : l'accord de branche prévoit une adhésion obligatoire pour le salarié uniquement » (p. 6). Le régime couvert est le « RÉGIME GÉNÉRAL - SALARIÉ » de la branche de l'Aide, de l'Accompagnement, des Soins et des Services à Domicile.",
-  "reference": "Santé Branche de l'Aide, de l'Accompagnement, des Soins et des Services à Domicile - Encart tarifaire RG - 01/2023",
-  "edition_date": "01/2023",
-  "product_family": "Complémentaire Santé CCN Branche de l'Aide, de l'Accompagnement, des Soins et des Services à Domicile",
-  "variant": "Régime Général",
-  "is_extension": false,
-  "extends": null,
-  "superseded": null,
-  "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/TG_BAD_Sante.pdf",
-  "source_pdf": "complementaire-sante-de-la-branche-de-laide-de-laccompagnement-des-soins-et-des-services-a-domicile-ccadae12.pdf",
-  "source_sha256": "819a061092852f82ef8c4b2aa4c35115b85ff3f8fb57c760a3163e87b43def75",
-  "source_pages": 6,
-  "fetched_at": "2026-08-01",
-  "extraction_model": "claude-code-subagent:scale",
-  "summary": "Encart de présentation des garanties et des cotisations de la Complémentaire santé de la Branche de l'Aide, de l'Accompagnement, des Soins et des Services à Domicile, régime général, distribuée par la Macif et assurée par Apivia Macif Mutuelle. Le document présente un tableau de garanties à trois niveaux — « Base prime » (base conventionnelle) et deux formules améliorées au choix du salarié, « Confort » et « Confort plus » — couvrant l'hospitalisation, les soins courants, le dentaire, les aides auditives, la prévention, la maternité et l'optique, ainsi qu'une grille optique par formule. Les garanties sont en vigueur au 1er janvier 2023 et les pourcentages sont, sauf indication contraire, exprimés par rapport aux bases de remboursement de la Sécurité sociale. Il indique aussi les cotisations mensuelles TTC 2023, exprimées en pourcentage du PMSS, pour le salarié, le conjoint et l'enfant.",
-  "definitions": [
-    {
-      "term": "BR",
-      "definition": "Base de Remboursement, tarif servant de référence à l'Assurance Maladie Obligatoire pour déterminer le montant du remboursement. Les taux de remboursement sont exprimés sur la base des taux applicables au régime général.",
-      "page": 2
-    },
-    {
-      "term": "PMSS",
-      "definition": "Plafond Mensuel de la Sécurité Sociale.",
-      "page": 2
-    },
-    {
-      "term": "AMO",
-      "definition": "Assurance Maladie Obligatoire (part Régime Obligatoire).",
-      "page": 2
-    },
-    {
-      "term": "AMC",
-      "definition": "Assurance Maladie Complémentaire (part Mutuelle).",
-      "page": 2
-    },
-    {
-      "term": "DPTM",
-      "definition": "Dispositif de Pratique Tarifaire Maitrisée.",
-      "page": 2
-    },
-    {
-      "term": "Service Médical Rendu (SMR)",
-      "definition": "La notion de SMR est évaluée par la Haute Autorité de Santé.",
-      "page": 2
-    },
-    {
-      "term": "HLF",
-      "definition": "Honoraires Limites de Facturation.",
-      "page": 2
-    },
-    {
-      "term": "PLV",
-      "definition": "Prix limite de vente.",
-      "page": 2
-    },
-    {
-      "term": "CCAM",
-      "definition": "Classification Commune des Actes Médicaux.",
-      "page": 2
-    },
-    {
-      "term": "TM",
-      "definition": "Ticket Modérateur.",
-      "page": 2
-    },
-    {
-      "term": "Forfait annuel",
-      "definition": "Les forfaits s'entendent par assuré. Lorsque le forfait est annuel, la référence est l'année civile.",
-      "page": 2
-    },
-    {
-      "term": "Équipements de classe A (optique)",
-      "definition": "Equipements de classe A et prestations supplémentaires portant sur l'équipement de classe A pris en charge dans le cadre du « 100 % Santé », tels que définis réglementairement. Panachage des verres et monture : un équipement peut être composé (A ou B) de deux verres d'une même classe d'une part, et, d'autre part, d'une monture appartenant à une classe (A ou B) différente.",
-      "page": 4
-    },
-    {
-      "term": "Équipements de classe B (optique)",
-      "definition": "Equipements de classe B, tels que définis réglementairement. Panachage des verres et monture : un équipement peut être composé (A ou B) de deux verres d'une même classe, d'une part, et, d'autre part, d'une monture appartenant à une classe (A ou B) différente.",
-      "page": 4
-    },
-    {
-      "term": "Équipements de Classe I (aides auditives)",
-      "definition": "Equipements de Classe I, tels que définis réglementairement.",
-      "page": 4
-    },
-    {
-      "term": "Équipements de Classe II (aides auditives)",
-      "definition": "Equipements de Classe II, tels que définis réglementairement.",
-      "page": 4
-    },
-    {
-      "term": "Verre neutre",
-      "definition": "Le verre neutre est compris dans cette classe (classe des unifocaux sphériques SPH de – 6 à + 6).",
-      "page": 5
-    }
-  ],
-  "coverages": [
-    {
-      "name": "Hospitalisation — Honoraires, actes et soins : médecins adhérents à un dispositif de pratique tarifaire maîtrisée",
-      "description": "Hospitalisation médicale, chirurgicale et maternité — honoraires, actes et soins pratiqués par des médecins adhérents à un dispositif de pratique tarifaire maîtrisée (DPTM).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 150 % BR | Confort : 175 % BR | Confort plus : 200 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Garanties exprimées en incluant les prestations versées par le Régime obligatoire de la Sécurité sociale (sauf pour les verres)"
-      ],
-      "page": 2
-    },
-    {
-      "name": "Hospitalisation — Honoraires, actes et soins : médecins non adhérents à un dispositif de pratique tarifaire maîtrisée",
-      "description": "Hospitalisation médicale, chirurgicale et maternité — honoraires, actes et soins pratiqués par des médecins non adhérents à un dispositif de pratique tarifaire maîtrisée.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 130 % BR | Confort : 155 % BR | Confort plus : 180 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Hospitalisation — Forfait patient urgences",
-      "description": "Forfait patient urgences.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : Remboursement intégral | Confort : Remboursement intégral | Confort plus : Remboursement intégral",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Hospitalisation — Forfait actes lourds",
-      "description": "Forfait actes lourds, pour les actes techniques médicaux supérieurs à 120 € (note 2).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : Frais réels | Confort : Frais réels | Confort plus : Frais réels",
-      "sub_limits": [
-        "Pour les actes techniques médicaux supérieurs à 120 €"
-      ],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Hospitalisation — Séjours : frais de séjour",
-      "description": "Frais de séjour en hospitalisation.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 150 % BR | Confort : 250 % BR | Confort plus : 350 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Hospitalisation — Séjours : forfait journalier hospitalier",
-      "description": "Forfait journalier hospitalier.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : Frais réels | Confort : Frais réels | Confort plus : Frais réels",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Hospitalisation — Chambre particulière (hors ambulatoire) : médecine, chirurgie, soins de suite et réadaptation, psychiatrie",
-      "description": "Chambre particulière hors ambulatoire en médecine, chirurgie, soins de suite et réadaptation, psychiatrie (limité à 1 an).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 1,5 % PMSS* / jour | Confort : 2,5 % PMSS* / jour | Confort plus : 3,5 % PMSS* / jour",
-      "sub_limits": [
-        "limité à 1 an"
-      ],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Hospitalisation — Chambre particulière (hors ambulatoire) : maternité",
-      "description": "Chambre particulière hors ambulatoire en maternité (limité à 6 jours).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 2 % PMSS* / jour | Confort : 3 % PMSS* / jour | Confort plus : 4 % PMSS* / jour",
-      "sub_limits": [
-        "limité à 6 jours"
-      ],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Hospitalisation — Frais d'accompagnement",
-      "description": "Frais d'accompagnement, pour un accompagnant d'un enfant à charge de moins de 16 ans (note 3).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : Néant | Confort : 2 % PMSS* / jour | Confort plus : 2 % PMSS* / jour",
-      "sub_limits": [
-        "Pour un accompagnant d'un enfant à charge de moins de 16 ans"
-      ],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Soins courants — Honoraires médicaux, consultations et visites, généralistes : médecins adhérents à un DPTM",
-      "description": "Consultations et visites de médecins généralistes adhérents à un dispositif de pratique tarifaire maîtrisée.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Soins courants — Honoraires médicaux, consultations et visites, généralistes : médecins non adhérents à un DPTM",
-      "description": "Consultations et visites de médecins généralistes non adhérents à un dispositif de pratique tarifaire maîtrisée.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Soins courants — Honoraires médicaux, consultations et visites, spécialistes : médecins adhérents à un DPTM",
-      "description": "Consultations et visites de médecins spécialistes adhérents à un dispositif de pratique tarifaire maîtrisée.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 150 % BR | Confort : 175 % BR | Confort plus : 200 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Soins courants — Honoraires médicaux, consultations et visites, spécialistes : médecins non adhérents à un DPTM",
-      "description": "Consultations et visites de médecins spécialistes non adhérents à un dispositif de pratique tarifaire maîtrisée.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 130 % BR | Confort : 155 % BR | Confort plus : 180 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Soins courants — Sages-femmes",
-      "description": "Honoraires de sages-femmes.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Soins courants — Consultations de psychologues remboursées par l'AMO",
-      "description": "Consultations de psychologues remboursées par l'Assurance Maladie Obligatoire.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Consultations remboursées par l'AMO"
-      ],
-      "page": 2
-    },
-    {
-      "name": "Soins courants — Honoraires paramédicaux : auxiliaires médicaux",
-      "description": "Honoraires paramédicaux des auxiliaires médicaux.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Soins courants — Analyses et examens de laboratoire",
-      "description": "Analyses et examens de laboratoire.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Soins courants — Actes d'imagerie et d'échographie : médecins adhérents à un DPTM",
-      "description": "Actes d'imagerie et d'échographie pratiqués par des médecins adhérents à un dispositif de pratique tarifaire maîtrisée.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Soins courants — Actes d'imagerie et d'échographie : médecins non adhérents à un DPTM",
-      "description": "Actes d'imagerie et d'échographie pratiqués par des médecins non adhérents à un dispositif de pratique tarifaire maîtrisée.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Soins courants — Actes techniques médicaux et de chirurgie : médecins adhérents à un DPTM",
-      "description": "Actes techniques médicaux et de chirurgie pratiqués par des médecins adhérents à un dispositif de pratique tarifaire maîtrisée.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Soins courants — Actes techniques médicaux et de chirurgie : médecins non adhérents à un DPTM",
-      "description": "Actes techniques médicaux et de chirurgie pratiqués par des médecins non adhérents à un dispositif de pratique tarifaire maîtrisée.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Soins courants — Médicaments à Service Médical Rendu important",
-      "description": "Médicaments à Service Médical Rendu important.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Soins courants — Médicaments à Service Médical Rendu modéré",
-      "description": "Médicaments à Service Médical Rendu modéré.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Soins courants — Médicaments à Service Médical Rendu faible",
-      "description": "Médicaments à Service Médical Rendu faible.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Soins courants — Pharmacie hors médicaments",
-      "description": "Pharmacie hors médicaments.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Soins courants — Matériel médical : orthopédie, accessoires, appareillage",
-      "description": "Orthopédie, accessoires, appareillage (hors matériel auditif, dentaire ou d'optique).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 150 % BR",
-      "sub_limits": [
-        "hors matériel auditif, dentaire ou d'optique"
-      ],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Soins courants — Transport",
-      "description": "Frais de transport.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Dentaire — Soins et Prothèses 100 % Santé : Inlay Core, autres soins prothétiques et prothèses dentaires",
-      "description": "Soins et prothèses relevant du panier 100 % Santé : Inlay Core ; autres soins prothétiques et prothèses dentaires. Soins prothétiques et prothèses dentaires tels que définis réglementairement (note 4).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime, Confort et Confort plus : AMO* + 100% des frais restant à charge du bénéficiaire après intervention de l'AMO* dans la limite des HLF*",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Dentaire — Prothèses hors 100 % Santé, panier à honoraires maitrisés : Inlay, onlay",
-      "description": "Inlay, onlay relevant du panier à honoraires maitrisés (prothèses hors 100 % Santé).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 100 % BR | Confort : 135 % BR | Confort plus : 165 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Dentaire — Prothèses hors 100 % Santé, panier à honoraires maitrisés : Inlay-Core",
-      "description": "Inlay-Core relevant du panier à honoraires maitrisés (prothèses hors 100 % Santé).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 125 % BR | Confort : 130 % BR | Confort plus : 160 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Dentaire — Prothèses hors 100 % Santé, panier à honoraires maitrisés : autres soins prothétiques et prothèses dentaires (incisives, canines, prémolaires)",
-      "description": "Autres soins prothétiques et prothèses dentaires (incisives, canines, prémolaires) relevant du panier à honoraires maitrisés.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 270 % BR | Confort : 365 % BR | Confort plus : 415 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Dentaire — Prothèses hors 100 % Santé, panier à honoraires maitrisés : autres prothèses (molaires - dents de fond de bouche)",
-      "description": "Autres prothèses (molaires - dents de fond de bouche) relevant du panier à honoraires maitrisés.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 170 % BR | Confort : 265 % BR | Confort plus : 315 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Dentaire — Prothèses hors 100 % Santé, panier à honoraires libres : Inlay, onlay",
-      "description": "Inlay, onlay relevant du panier à honoraires libres (prothèses hors 100 % Santé).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 100 % BR | Confort : 135 % BR | Confort plus : 165 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Dentaire — Prothèses hors 100 % Santé, panier à honoraires libres : Inlay-Core",
-      "description": "Inlay-Core relevant du panier à honoraires libres (prothèses hors 100 % Santé).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 125 % BR | Confort : 130 % BR | Confort plus : 160 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Dentaire — Prothèses hors 100 % Santé, panier à honoraires libres : autres soins prothétiques et prothèses dentaires (incisives, canines, prémolaires)",
-      "description": "Autres soins prothétiques et prothèses dentaires (incisives, canines, prémolaires) relevant du panier à honoraires libres.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 270 % BR | Confort : 365 % BR | Confort plus : 415 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Dentaire — Prothèses hors 100 % Santé, panier à honoraires libres : autres prothèses (molaires - dents de fond de bouche)",
-      "description": "Autres prothèses (molaires - dents de fond de bouche) relevant du panier à honoraires libres.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 170 % BR | Confort : 265 % BR | Confort plus : 315 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Dentaire — Soins dentaires conservateurs, chirurgicaux ou de prévention",
-      "description": "Soins dentaires conservateurs, chirurgicaux ou de prévention.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Dentaire — Orthodontie remboursée par l'AMO",
-      "description": "Orthodontie remboursée par l'Assurance Maladie Obligatoire (autres actes remboursés par l'AMO).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 275 % BR | Confort : 300 % BR | Confort plus : 325 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Dentaire — Actes non remboursés par l'AMO : soins prothétiques et prothèses dentaires codés CCAM, parodontologie, orthodontie",
-      "description": "Soins prothétiques et prothèses dentaires pour des actes codés dans la CCAM, Parodontologie, Orthodontie (note 5). La garantie parodontologie ne comprend pas les actes réalisés dans le cadre de traitement implantaire, prothétique ou endodontique.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : Néant | Confort : 300 € | Confort plus : 600 €",
-      "sub_limits": [
-        "La garantie parodontologie ne comprend pas les actes réalisés dans le cadre de traitement implantaire, prothétique ou endodontique"
-      ],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Aides auditives — Équipements 100 % Santé (Classe I), soumis à des prix limites de vente",
-      "description": "Aides auditives de classe I relevant du 100 % Santé, soumises à des prix limites de vente : aides auditives pour les personnes au-delà de leur 20e anniversaire ; aides auditives jusqu'au 20e anniversaire ou pour les personnes atteintes de cécité (entendue comme une acuité visuelle inférieure à 1/20e après correction).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime, Confort et Confort plus : AMO* + 100 % des frais restant à charge du bénéficiaire après intervention de l'AMO* dans la limite du PLV*",
-      "sub_limits": [
-        "Aides auditives prises en charge par l'AMO* - un équipement par oreille tous les 4 ans (date de délivrance) - ce délai s'entendant pour chaque oreille indépendamment"
-      ],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Aides auditives — Équipement hors 100 % Santé (Classe II, tarifs libres) : personnes au-delà de leur 20e anniversaire",
-      "description": "Aides auditives de classe II à tarifs libres pour les personnes au-delà de leur 20e anniversaire.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 100 % BR + 170 € | Confort : 100 % BR + 500 € | Confort plus : 100 % BR + 850 €",
-      "sub_limits": [
-        "un équipement par oreille tous les 4 ans (date de délivrance), ce délai s'entendant pour chaque oreille indépendamment"
-      ],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Aides auditives — Équipement hors 100 % Santé (Classe II, tarifs libres) : jusqu'au 20e anniversaire ou personnes atteintes de cécité",
-      "description": "Aides auditives de classe II à tarifs libres jusqu'au 20e anniversaire ou pour les personnes atteintes de cécité (entendue comme une acuité visuelle inférieure à 1/20e après correction).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 100 % BR + 170 € | Confort : 100 % BR + 300 € | Confort plus : 100 % BR + 300 €",
-      "sub_limits": [
-        "un équipement par oreille tous les 4 ans (date de délivrance), ce délai s'entendant pour chaque oreille indépendamment"
-      ],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Aides auditives — Accessoires, entretien, piles, réparations",
-      "description": "Accessoires, entretien, piles, réparations. Pour les piles, la garantie s'applique dans la limite du nombre annuel de paquets de 6 piles, fixé par l'arrêté du 14.11.2018 (note 8).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
-      "sub_limits": [
-        "Pour les piles, la garantie s'applique dans la limite du nombre annuel de paquets de 6 piles, fixé par l'arrêté du 14.11.2018"
-      ],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Prévention - Bien-être — Actes de prévention définis par la réglementation pris en charge par l'AMO",
-      "description": "Actes de prévention définis par la réglementation et pris en charge par l'Assurance Maladie Obligatoire.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Prévention - Bien-être — Vaccins anti-grippe prescrits non remboursés par l'AMO",
-      "description": "Vaccins anti-grippe prescrits et non remboursés par l'Assurance Maladie Obligatoire.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : Frais réels | Confort : Frais réels | Confort plus : Frais réels",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Vaccin prescrit"
-      ],
-      "page": 3
-    },
-    {
-      "name": "Prévention - Bien-être — Contraception prescrite non remboursée par l'AMO",
-      "description": "Contraception prescrite et non remboursée par l'Assurance Maladie Obligatoire.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 2,5 % PMSS* | Confort : 2,5 % PMSS* | Confort plus : 3,5 % PMSS*",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Contraception prescrite"
-      ],
-      "page": 3
-    },
-    {
-      "name": "Prévention - Bien-être — Médecines complémentaires : ostéopathie",
-      "description": "Médecines complémentaires : ostéopathie.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : Néant | Confort : Néant | Confort plus : 20 € / séance",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Prévention - Bien-être — Cures thermales prescrites remboursées par l'AMO : frais de traitement et honoraires",
-      "description": "Frais de traitement et honoraires des cures thermales prescrites et remboursées par l'Assurance Maladie Obligatoire.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Cure thermale prescrite et remboursée par l'AMO"
-      ],
-      "page": 3
-    },
-    {
-      "name": "Prévention - Bien-être — Cures thermales prescrites remboursées par l'AMO : forfait hébergement et transport",
-      "description": "Forfait hébergement et transport des cures thermales prescrites et remboursées par l'Assurance Maladie Obligatoire.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : Néant | Confort : 10 % PMSS* | Confort plus : 10 % PMSS*",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Maternité — Allocation naissance",
-      "description": "Allocation naissance.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 5 % PMSS* | Confort : 10 % PMSS* | Confort plus : 10 % PMSS*",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Optique — Équipements 100 % Santé (verres et/ou monture, Classe A)",
-      "description": "Équipements 100 % Santé de classe A : monture adulte (16 ans et plus) ; monture enfant (de moins de 16 ans) ; verres adulte (16 ans et plus) tous types de correction ; verres enfant (de moins de 16 ans) tous types de correction ; prestations d'appairage pour les verres de classe A d'indices de réfraction différents (tous niveaux) ; supplément pour verres avec filtres (verres de classe A).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime, Confort et Confort plus : AMO* + 100 % des frais restant à charge du bénéficiaire après intervention de l'AMO* dans la limite du PLV.*",
-      "sub_limits": [
-        "1 monture et 2 verres tous les deux ans de date à date pour les adultes de 16 ans et plus (période ramenée à un an en cas de renouvellement anticipé prévu à l'article L 165-1 du Code de la Sécurité sociale)",
-        "1 monture et 2 verres tous les ans de date à date pour les enfants de plus de 6 ans et de moins de 16 ans",
-        "1 monture et 2 verres tous les 6 mois pour les enfants jusqu'à 6 ans en cas de mauvaise adaptation de la monture à la morphologie, tous les ans dans tous les autres cas (Art R. 871-2 du Code de la Sécurité sociale)"
-      ],
-      "deductible": null,
-      "conditions": [
-        "Les garanties sont exprimées en incluant les prestations versées par le Régime obligatoire de la Sécurité sociale, sauf pour les verres"
-      ],
-      "page": 4
-    },
-    {
-      "name": "Optique — Équipements hors 100 % Santé y compris TM (Classe B, tarifs libres) : monture adulte (16 ans et plus)",
-      "description": "Monture adulte (16 ans et plus) relevant des équipements hors 100 % Santé, classe B, tarifs libres.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 70 € | Confort : 100 € | Confort plus : 100 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 4
-    },
-    {
-      "name": "Optique — Équipements hors 100 % Santé y compris TM (Classe B, tarifs libres) : monture enfant (moins de 16 ans)",
-      "description": "Monture enfant (de moins de 16 ans) relevant des équipements hors 100 % Santé, classe B, tarifs libres.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 50 € | Confort : 75 € | Confort plus : 75 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 4
-    },
-    {
-      "name": "Optique — Équipements hors 100 % Santé (Classe B) : verre adulte (16 ans et plus)",
-      "description": "Verre adulte (16 ans et plus) de classe B : le tableau renvoie à la grille optique, qui fixe un montant en € par verre de classe B et par formule selon la correction.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : Voir grille optique | Confort : Voir grille optique | Confort plus : Voir grille optique",
-      "sub_limits": [
-        "Unifocaux sphériques SPH de – 6 à + 6 (le verre neutre est compris dans cette classe) — Base prime : 48 € | Confort : 68 € | Confort plus : 83 €",
-        "Unifocaux sphériques SPH < à -6 ou > à + 6 — Base prime : 90 € | Confort : 128 € | Confort plus : 158 €",
-        "Unifocaux sphéro cylindriques SPH de – 6 à 0 et CYL ≤ + 4 — Base prime : 52 € | Confort : 74 € | Confort plus : 92 €",
-        "Unifocaux sphéro cylindriques SPH > 0 et S ≤ + 6 — Base prime : 52 € | Confort : 74 € | Confort plus : 92 €",
-        "Unifocaux sphéro cylindriques SPH > 0 et S > + 6 — Base prime : 86 € | Confort : 122 € | Confort plus : 150 €",
-        "Unifocaux sphéro cylindriques SPH < - 6 et CYL ≥ + 0,25 — Base prime : 86 € | Confort : 122 € | Confort plus : 150 €",
-        "Unifocaux sphéro cylindriques SPH de – 6 à 0 et CYL > + 4 — Base prime : 95 € | Confort : 135 € | Confort plus : 166 €",
-        "Progressifs et multifocaux sphériques SPH de – 4 à + 4 — Base prime : 114 € | Confort : 162 € | Confort plus : 200 €",
-        "Progressifs et multifocaux sphériques SPH < à -4 ou > à + 4 — Base prime : 124 € | Confort : 176 € | Confort plus : 216 €",
-        "Progressifs et multifocaux sphéro cylindriques SPH de - 8 à 0 et CYL ≤ + 4 — Base prime : 124 € | Confort : 176 € | Confort plus : 216 €",
-        "Progressifs et multifocaux sphéro cylindriques SPH > 0 et S ≤ + 8 — Base prime : 124 € | Confort : 176 € | Confort plus : 216 €",
-        "Progressifs et multifocaux sphéro cylindriques SPH de – 8 à 0 et CYL > + 4 — Base prime : 133 € | Confort : 189 € | Confort plus : 233 €",
-        "Progressifs et multifocaux sphéro cylindriques SPH > 0 et S > + 8 — Base prime : 133 € | Confort : 189 € | Confort plus : 233 €",
-        "Progressifs et multifocaux sphéro cylindriques SPH < - 8 et CYL ≥ + 0,25 — Base prime : 133 € | Confort : 189 € | Confort plus : 233 €"
-      ],
-      "deductible": null,
-      "conditions": [],
-      "page": 4
-    },
-    {
-      "name": "Optique — Équipements hors 100 % Santé (Classe B) : verre enfant (moins de 16 ans)",
-      "description": "Verre enfant (de moins de 16 ans) de classe B : le tableau renvoie à la grille optique, qui fixe un montant en € par verre de classe B et par formule selon la correction.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : Voir grille optique | Confort : Voir grille optique | Confort plus : Voir grille optique",
-      "sub_limits": [
-        "Unifocaux sphériques SPH de – 6 à + 6 (le verre neutre est compris dans cette classe) — Base prime : 38 € | Confort : 54 € | Confort plus : 67 €",
-        "Unifocaux sphériques SPH < à -6 ou > à + 6 — Base prime : 81 € | Confort : 115 € | Confort plus : 141 €",
-        "Unifocaux sphéro cylindriques SPH de – 6 à 0 et CYL ≤ + 4 — Base prime : 43 € | Confort : 61 € | Confort plus : 75 €",
-        "Unifocaux sphéro cylindriques SPH > 0 et S ≤ + 6 — Base prime : 43 € | Confort : 61 € | Confort plus : 75 €",
-        "Unifocaux sphéro cylindriques SPH > 0 et S > + 6 — Base prime : 76 € | Confort : 108 € | Confort plus : 133 €",
-        "Unifocaux sphéro cylindriques SPH < - 6 et CYL ≥ + 0,25 — Base prime : 76 € | Confort : 108 € | Confort plus : 133 €",
-        "Unifocaux sphéro cylindriques SPH de – 6 à 0 et CYL > + 4 — Base prime : 86 € | Confort : 122 € | Confort plus : 150 €",
-        "Progressifs et multifocaux sphériques SPH de – 4 à + 4 — Base prime : 105 € | Confort : 149 € | Confort plus : 183 €",
-        "Progressifs et multifocaux sphériques SPH < à -4 ou > à + 4 — Base prime : 114 € | Confort : 162 € | Confort plus : 200 €",
-        "Progressifs et multifocaux sphéro cylindriques SPH de - 8 à 0 et CYL ≤ + 4 — Base prime : 114 € | Confort : 162 € | Confort plus : 200 €",
-        "Progressifs et multifocaux sphéro cylindriques SPH > 0 et S ≤ + 8 — Base prime : 114 € | Confort : 162 € | Confort plus : 200 €",
-        "Progressifs et multifocaux sphéro cylindriques SPH de – 8 à 0 et CYL > + 4 — Base prime : 124 € | Confort : 176 € | Confort plus : 216 €",
-        "Progressifs et multifocaux sphéro cylindriques SPH > 0 et S > + 8 — Base prime : 124 € | Confort : 176 € | Confort plus : 216 €",
-        "Progressifs et multifocaux sphéro cylindriques SPH < - 8 et CYL ≥ + 0,25 — Base prime : 124 € | Confort : 176 € | Confort plus : 216 €"
-      ],
-      "deductible": null,
-      "conditions": [],
-      "page": 4
-    },
-    {
-      "name": "Optique — Prestation d'adaptation de la prescription médicale de verres correcteurs",
-      "description": "Prestation d'adaptation de la prescription médicale de verres correcteurs après réalisation d'un examen de la réfraction, en cas de renouvellement par l'opticien lunetier d'une ordonnance pour les verres de classe A et B. Prestation supplémentaire portant sur un équipement optique de classe A ou B.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 4
-    },
-    {
-      "name": "Optique — Autres suppléments pour verres de classe A ou B",
-      "description": "Autres suppléments pour verres de classe A ou B (prisme / système antiptosis / verres iséiconiques).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 4
-    },
-    {
-      "name": "Optique — Supplément pour verres avec filtres (verres de classe B)",
-      "description": "Supplément pour verres avec filtres, verres de classe B.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 4
-    },
-    {
-      "name": "Optique — Lentilles remboursées par l'AMO (forfait par an)",
-      "description": "Lentilles remboursées par l'Assurance Maladie Obligatoire, forfait par an.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 100 % BR + 2 % PMSS* | Confort : 100 % BR + 3 % PMSS* | Confort plus : 100 % BR + 4 % PMSS*",
-      "sub_limits": [
-        "forfait par an"
-      ],
-      "deductible": null,
-      "conditions": [],
-      "page": 4
-    },
-    {
-      "name": "Optique — Lentilles non remboursées par l'AMO, y compris lentilles jetables (forfait par an)",
-      "description": "Lentilles non remboursées par l'Assurance Maladie Obligatoire (y compris lentilles jetables), forfait par an.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 2 % PMSS* | Confort : 3 % PMSS* | Confort plus : 4 % PMSS*",
-      "sub_limits": [
-        "forfait par an"
-      ],
-      "deductible": null,
-      "conditions": [],
-      "page": 4
-    },
-    {
-      "name": "Optique — Chirurgie réfractive non remboursée par l'AMO (forfait par an et par oeil)",
-      "description": "Chirurgie réfractive non remboursée par l'Assurance Maladie Obligatoire, forfait par an et par oeil.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Base prime : 200 € | Confort : 300 € | Confort plus : 400 €",
-      "sub_limits": [
-        "forfait par an et par oeil"
-      ],
-      "deductible": null,
-      "conditions": [],
-      "page": 4
-    },
-    {
-      "name": "Garanties d'assistance",
-      "description": "Le document indique que « Les garanties d'assistance sont assurées par IMA Assurances » et que « Le tarif inclut la cotisation d'assistance ». Le contenu des prestations d'assistance n'est pas décrit dans ce document.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 6
-    }
-  ],
-  "exclusions": [
-    {
-      "name": "Participation forfaitaire et franchise annuelle",
-      "description": "Ces remboursements sont effectués en excluant la participation forfaitaire et la franchise annuelle de l'assuré qui restent à sa charge, conformément à la loi.",
-      "applies_to": "all",
-      "page": 2
-    },
-    {
-      "name": "Limite aux frais engagés justifiés",
-      "description": "Note (1) : Dans la limite des frais engagés par le bénéficiaire dûment justifiés.",
-      "applies_to": "all",
-      "page": 4
-    },
-    {
-      "name": "Parodontologie — actes implantaires, prothétiques ou endodontiques",
-      "description": "La garantie parodontologie ne comprend pas les actes réalisés dans le cadre de traitement implantaire, prothétique ou endodontique.",
-      "applies_to": "Dentaire — Actes non remboursés par l'AMO : soins prothétiques et prothèses dentaires codés CCAM, parodontologie, orthodontie",
-      "page": 4
-    },
-    {
-      "name": "Matériel médical — matériel auditif, dentaire ou d'optique",
-      "description": "La garantie orthopédie, accessoires, appareillage s'applique « hors matériel auditif, dentaire ou d'optique ».",
-      "applies_to": "Soins courants — Matériel médical : orthopédie, accessoires, appareillage",
-      "page": 3
-    },
-    {
-      "name": "Frais d'accompagnement — non couverts en formule Base prime",
-      "description": "La ligne « Frais d'accompagnement » porte la mention « Néant » pour la formule Base prime (couverte à 2 % PMSS* / jour en Confort et Confort plus).",
-      "applies_to": "Hospitalisation — Frais d'accompagnement",
-      "page": 2
-    },
-    {
-      "name": "Ostéopathie — non couverte en Base prime et en Confort",
-      "description": "La ligne « Médecines complémentaires : ostéopathie » porte la mention « Néant » pour les formules Base prime et Confort (20 € / séance en Confort plus).",
-      "applies_to": "Prévention - Bien-être — Médecines complémentaires : ostéopathie",
-      "page": 3
-    },
-    {
-      "name": "Cures thermales, forfait hébergement et transport — non couvert en Base prime",
-      "description": "La ligne « Forfait hébergement et transport » des cures thermales porte la mention « Néant » pour la formule Base prime (10 % PMSS* en Confort et Confort plus).",
-      "applies_to": "Prévention - Bien-être — Cures thermales prescrites remboursées par l'AMO : forfait hébergement et transport",
-      "page": 3
-    },
-    {
-      "name": "Actes dentaires non remboursés par l'AMO — non couverts en Base prime",
-      "description": "La ligne « Soins prothétiques et prothèses dentaires pour des actes codés dans la CCAM, Parodontologie, Orthodontie » porte la mention « Néant » pour la formule Base prime (300 € en Confort, 600 € en Confort plus).",
-      "applies_to": "Dentaire — Actes non remboursés par l'AMO : soins prothétiques et prothèses dentaires codés CCAM, parodontologie, orthodontie",
-      "page": 3
-    },
-    {
-      "name": "Limite de renouvellement des aides auditives",
-      "description": "Aides auditives prises en charge par l'AMO : un équipement par oreille tous les 4 ans (date de délivrance), ce délai s'entendant pour chaque oreille indépendamment.",
-      "applies_to": "Aides auditives",
-      "page": 3
-    },
-    {
-      "name": "Limite de renouvellement des piles d'aides auditives",
-      "description": "Pour les piles, la garantie s'applique dans la limite du nombre annuel de paquets de 6 piles, fixé par l'arrêté du 14.11.2018.",
-      "applies_to": "Aides auditives — Accessoires, entretien, piles, réparations",
-      "page": 4
-    },
-    {
-      "name": "Limite de renouvellement de l'équipement optique",
-      "description": "La garantie s'applique aux frais exposés pour l'acquisition d'un équipement optique (composé de deux verres et d'une monture) dans les conditions de renouvellement fixées par l'Arrêté du 03.12.2018 : deux ans pour les adultes et les enfants de 16 ans et plus, un an pour les enfants de plus de 6 ans et de moins de 16 ans, six mois pour les enfants jusqu'à 6 ans uniquement en cas de mauvaise adaptation de la monture à la morphologie du visage entraînant une perte d'efficacité du verre correcteur (un an dans les autres cas).",
-      "applies_to": "Optique",
-      "page": 4
-    },
-    {
-      "name": "Prise en charge de deux équipements optiques — cas limitatifs",
-      "description": "La prise en charge de deux équipements est autorisée uniquement pour les patients ayant : une intolérance ou une contre-indication aux verres progressifs ou multifocaux, et présentant un déficit de vision de près et un déficit de vision de loin (la prise en charge peut couvrir deux équipements corrigeant chacun un des deux déficits) ; une amblyopie et / ou un strabisme nécessitant une pénalisation optique (la prise en charge peut couvrir deux équipements de corrections différentes à porter en alternance).",
-      "applies_to": "Optique",
-      "page": 4
-    }
-  ],
-  "deductibles": {
-    "standard": "Le document ne stipule aucune franchise contractuelle. Il précise seulement que les remboursements sont effectués en excluant la participation forfaitaire et la franchise annuelle légales de l'assuré, qui restent à sa charge conformément à la loi.",
-    "variable": null,
-    "per_coverage": null,
-    "page": 2
+ "schema_version": "1.0",
+ "prompt_version": "1.1",
+ "country": "fr",
+ "insurer_slug": "macif",
+ "insurer_name": "Macif",
+ "product_name": "Complémentaire santé de la Branche de l'Aide, de l'Accompagnement des Soins et des Services à Domicile",
+ "branch": "sante",
+ "branch_code": null,
+ "document_type": "product_sheet",
+ "language": "fr",
+ "target_audience": "entreprises",
+ "target_audience_note": "Document adressé à l'employeur : « Une complémentaire santé adaptée aux besoins de mes salariés » (p. 1), « FORMULE DE L'ENTREPRISE » et « Formule souscrite à titre obligatoire par l'entreprise : l'accord de branche prévoit une adhésion obligatoire pour le salarié uniquement » (p. 6). Le régime couvert est le « RÉGIME GÉNÉRAL - SALARIÉ » de la branche de l'Aide, de l'Accompagnement, des Soins et des Services à Domicile.",
+ "reference": "Santé Branche de l'Aide, de l'Accompagnement, des Soins et des Services à Domicile - Encart tarifaire RG - 01/2023",
+ "edition_date": "01/2023",
+ "product_family": "Complémentaire Santé CCN Branche de l'Aide, de l'Accompagnement, des Soins et des Services à Domicile",
+ "variant": "Régime Général",
+ "is_extension": false,
+ "extends": null,
+ "superseded": null,
+ "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/TG_BAD_Sante.pdf",
+ "source_pdf": "complementaire-sante-de-la-branche-de-laide-de-laccompagnement-des-soins-et-des-services-a-domicile-ccadae12.pdf",
+ "source_sha256": "819a061092852f82ef8c4b2aa4c35115b85ff3f8fb57c760a3163e87b43def75",
+ "source_pages": 6,
+ "fetched_at": "2026-08-01",
+ "extraction_model": "claude-code-subagent:scale",
+ "summary": "Encart de présentation des garanties et des cotisations de la Complémentaire santé de la Branche de l'Aide, de l'Accompagnement, des Soins et des Services à Domicile, régime général, distribuée par la Macif et assurée par Apivia Macif Mutuelle. Le document présente un tableau de garanties à trois niveaux — « Base prime » (base conventionnelle) et deux formules améliorées au choix du salarié, « Confort » et « Confort plus » — couvrant l'hospitalisation, les soins courants, le dentaire, les aides auditives, la prévention, la maternité et l'optique, ainsi qu'une grille optique par formule. Les garanties sont en vigueur au 1er janvier 2023 et les pourcentages sont, sauf indication contraire, exprimés par rapport aux bases de remboursement de la Sécurité sociale. Il indique aussi les cotisations mensuelles TTC 2023, exprimées en pourcentage du PMSS, pour le salarié, le conjoint et l'enfant.",
+ "definitions": [
+  {
+   "term": "BR",
+   "definition": "Base de Remboursement, tarif servant de référence à l'Assurance Maladie Obligatoire pour déterminer le montant du remboursement. Les taux de remboursement sont exprimés sur la base des taux applicables au régime général.",
+   "page": 2
   },
-  "waiting_periods": [],
-  "obligations": [
-    {
-      "name": "Respect du parcours de soins",
-      "description": "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l'assuré ayant respecté le parcours de soins.",
-      "timing": "Lors des dépenses de santé",
-      "sanction": null,
-      "page": 2
-    },
-    {
-      "name": "Justification des frais engagés",
-      "description": "Note (1) : Dans la limite des frais engagés par le bénéficiaire dûment justifiés.",
-      "timing": "Lors de la demande de remboursement",
-      "sanction": null,
-      "page": 4
-    },
-    {
-      "name": "Adhésion obligatoire du salarié",
-      "description": "Formule souscrite à titre obligatoire par l'entreprise : l'accord de branche prévoit une adhésion obligatoire pour le salarié uniquement.",
-      "timing": "A la mise en place du régime",
-      "sanction": null,
-      "page": 6
-    }
-  ],
-  "claims_procedure": [],
-  "duration_and_cancellation": {
-    "duration": "Cotisations mensuelles toutes taxes comprises (TTC) 2023 en vigueur du 1er janvier au 31 décembre 2023. Garanties en vigueur au 1er janvier 2023.",
-    "tacit_renewal": null,
-    "notice_period": null,
-    "methods": null,
-    "special_rights": null,
-    "page": 6
+  {
+   "term": "PMSS",
+   "definition": "Plafond Mensuel de la Sécurité Sociale.",
+   "page": 2
   },
-  "prescription_period": null,
-  "premium": {
-    "notes": [
-      "Cotisations mensuelles toutes taxes comprises (TTC ) 2023 en vigueur du 1er janvier au 31 décembre 2023.",
-      "Les cotisations santé sont exprimées en pourcentage du Plafond Mensuel de la Sécurité sociale (PMSS).",
-      "Les montants en euros sont indiqués à titre indicatif sur la base du PMSS 2023 (3 666 €).",
-      "RÉGIME GÉNÉRAL - SALARIÉ, formule de l'entreprise Base Prime : 1,301 % du PMSS, soit 47,69 € par mois. Le tarif inclut la cotisation d'assistance.",
-      "Formule souscrite à titre obligatoire par l'entreprise : l'accord de branche prévoit une adhésion obligatoire pour le salarié uniquement.",
-      "Extension facultative aux ayants droit : le salarié peut, à titre facultatif, étendre sa couverture à ses ayants droit (conjoint et enfants à charge). Cotisation à la charge exclusive du salarié, formule Base Prime : conjoint 1,527 % du PMSS soit 55,98 € ; enfant 0,767 % du PMSS soit 28,12 €.",
-      "Il n'est pas dû de cotisation pour le 3e enfant et les suivants.",
-      "Formules améliorées facultatives : chaque salarié peut, à titre facultatif, tant pour lui-même que pour ses ayants droit, améliorer le niveau de ses garanties en souscrivant une formule supérieure. Cotisation supplémentaire à la charge exclusive du salarié — CONFORT : salarié + 0,435 % soit + 15,95 €, conjoint + 0,468 % soit + 17,16 €, enfant + 0,196 % soit + 7,19 € ; CONFORT PLUS : salarié + 0,702 % soit + 25,74 €, conjoint + 0,802 % soit + 29,40 €, enfant + 0,293 % soit + 10,74 €.",
-      "COMMUNICATION SUR LES FRAIS - Le ratio des prestations versées sur les cotisations HT perçues est de 79,40 %.",
-      "Le ratio frais de gestion sur cotisations HT est de 24,20 %.",
-      "Ces frais de gestion recouvrent l'ensemble des sommes engagées pour concevoir les contrats, les commercialiser (dont le réseau commercial, le marketing, les commissions des intermédiaires), les souscrire (dont l'encaissement des cotisations, la gestion des résiliations, le suivi comptable et juridique) et les gérer (dont le remboursement, la gestion du tiers payant, l'information client, l'assistance, les services, les prestations complémentaires), c'est-à-dire accomplir toutes les tâches incombant à l'organisme assureur dans le respect des garanties contractuelles."
-    ],
-    "indexation": "Les cotisations santé sont exprimées en pourcentage du Plafond Mensuel de la Sécurité sociale (PMSS) ; les montants en euros sont indicatifs sur la base du PMSS 2023 (3 666 €).",
-    "page": 6
+  {
+   "term": "AMO",
+   "definition": "Assurance Maladie Obligatoire (part Régime Obligatoire).",
+   "page": 2
   },
-  "special_conditions": [
-    {
-      "name": "Porteur du risque et distributeur",
-      "description": "Ce contrat, distribué par la Macif, est assuré par Apivia Macif Mutuelle, mutuelle régie par le Livre II du Code de la mutualité et adhérente à la Mutualité Française. SIREN : 779 558 501. Siège social : 17-21 place Etienne Pernet - 75015 PARIS cedex 15.",
-      "page": 6
-    },
-    {
-      "name": "Assisteur",
-      "description": "Les garanties d'assistance sont assurées par IMA Assurances, Société anonyme au capital de 122 000 000 € - Entreprise régie par le code des assurances - RCS Niort 481 511 632. Siège social : 118 avenue de Paris - CS 40000 - 79033 Niort Cedex 9.",
-      "page": 6
-    },
-    {
-      "name": "Distributeur",
-      "description": "MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des cadres et salariés de l'industrie et du commerce. Société d'assurance mutuelle à cotisations variables. Entreprise régie par le Code des assurances. Siège social : 1 rue Jacques Vandier - 79000 Niort.",
-      "page": 6
-    },
-    {
-      "name": "Portée du document",
-      "description": "Les garanties sont accordées dans les conditions et limites fixées par le contrat souscrit. Le document se déclare « Document non contractuel à caractère publicitaire ».",
-      "page": 6
-    },
-    {
-      "name": "Base de calcul des garanties",
-      "description": "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale. Les garanties sont exprimées en incluant les prestations versées par le Régime obligatoire de la Sécurité sociale (sauf pour les verres). Les forfaits s'entendent par assuré ; lorsque le forfait est annuel, la référence est l'année civile.",
-      "page": 2
-    },
-    {
-      "name": "Architecture des formules",
-      "description": "Le tableau distingue une « Base conventionnelle » (formule Base prime) et des « Formules améliorées au choix du salarié » (Confort et Confort plus). Chaque salarié peut, à titre facultatif, tant pour lui-même que pour ses ayants droit, améliorer le niveau de ses garanties en souscrivant une formule supérieure, et peut étendre sa couverture à ses ayants droit (conjoint et enfants à charge).",
-      "page": 6
-    },
-    {
-      "name": "Conditions de renouvellement de l'équipement optique",
-      "description": "La garantie s'applique aux frais exposés pour l'acquisition d'un équipement optique (composé de deux verres et d'une monture) dans les conditions de renouvellement fixées par l'Arrêté du 03.12.2018 modifiant la prise en charge d'optique médicale de la Liste des Produits et Prestations (LPP) prévue à l'article L. 165-1 du Code de la Sécurité sociale. Les délais s'entendent par rapport à la date de délivrance du dernier dispositif de l'équipement optique concerné et sont également applicables pour le renouvellement séparé des éléments de l'équipement, le délai s'appréciant alors distinctement pour chaque élément. Par dérogation, le renouvellement anticipé pour raison médicale est permis au terme d'une période minimale d'un an pour les adultes et enfants d'au moins 16 ans lorsqu'intervient une dégradation des performances oculaires dans l'une des situations limitativement prévues par la LPP ; pour les enfants de moins de 16 ans aucun délai minimal de renouvellement des verres n'est applicable lorsqu'intervient une dégradation des performances oculaires objectivée par un ophtalmologiste sur une prescription médicale ; enfin aucun délai minimal n'est applicable en cas d'évolution de la réfraction liée à des situations médicales particulières (troubles de réfraction associés à une pathologie ophtalmologique, à une pathologie générale ou à la prise de médicaments au long cours), définies par la LPP, sous réserve d'une nouvelle prescription médicale ophtalmologique.",
-      "page": 4
-    }
+  {
+   "term": "AMC",
+   "definition": "Assurance Maladie Complémentaire (part Mutuelle).",
+   "page": 2
+  },
+  {
+   "term": "DPTM",
+   "definition": "Dispositif de Pratique Tarifaire Maitrisée.",
+   "page": 2
+  },
+  {
+   "term": "Service Médical Rendu (SMR)",
+   "definition": "La notion de SMR est évaluée par la Haute Autorité de Santé.",
+   "page": 2
+  },
+  {
+   "term": "HLF",
+   "definition": "Honoraires Limites de Facturation.",
+   "page": 2
+  },
+  {
+   "term": "PLV",
+   "definition": "Prix limite de vente.",
+   "page": 2
+  },
+  {
+   "term": "CCAM",
+   "definition": "Classification Commune des Actes Médicaux.",
+   "page": 2
+  },
+  {
+   "term": "TM",
+   "definition": "Ticket Modérateur.",
+   "page": 2
+  },
+  {
+   "term": "Forfait annuel",
+   "definition": "Les forfaits s'entendent par assuré. Lorsque le forfait est annuel, la référence est l'année civile.",
+   "page": 2
+  },
+  {
+   "term": "Équipements de classe A (optique)",
+   "definition": "Equipements de classe A et prestations supplémentaires portant sur l'équipement de classe A pris en charge dans le cadre du « 100 % Santé », tels que définis réglementairement. Panachage des verres et monture : un équipement peut être composé (A ou B) de deux verres d'une même classe d'une part, et, d'autre part, d'une monture appartenant à une classe (A ou B) différente.",
+   "page": 4
+  },
+  {
+   "term": "Équipements de classe B (optique)",
+   "definition": "Equipements de classe B, tels que définis réglementairement. Panachage des verres et monture : un équipement peut être composé (A ou B) de deux verres d'une même classe, d'une part, et, d'autre part, d'une monture appartenant à une classe (A ou B) différente.",
+   "page": 4
+  },
+  {
+   "term": "Équipements de Classe I (aides auditives)",
+   "definition": "Equipements de Classe I, tels que définis réglementairement.",
+   "page": 4
+  },
+  {
+   "term": "Équipements de Classe II (aides auditives)",
+   "definition": "Equipements de Classe II, tels que définis réglementairement.",
+   "page": 4
+  },
+  {
+   "term": "Verre neutre",
+   "definition": "Le verre neutre est compris dans cette classe (classe des unifocaux sphériques SPH de – 6 à + 6).",
+   "page": 5
+  }
+ ],
+ "coverages": [
+  {
+   "name": "Hospitalisation — Honoraires, actes et soins : médecins adhérents à un dispositif de pratique tarifaire maîtrisée",
+   "description": "Hospitalisation médicale, chirurgicale et maternité — honoraires, actes et soins pratiqués par des médecins adhérents à un dispositif de pratique tarifaire maîtrisée (DPTM).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 150 % BR | Confort : 175 % BR | Confort plus : 200 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Garanties exprimées en incluant les prestations versées par le Régime obligatoire de la Sécurité sociale (sauf pour les verres)"
+   ],
+   "page": 2
+  },
+  {
+   "name": "Hospitalisation — Honoraires, actes et soins : médecins non adhérents à un dispositif de pratique tarifaire maîtrisée",
+   "description": "Hospitalisation médicale, chirurgicale et maternité — honoraires, actes et soins pratiqués par des médecins non adhérents à un dispositif de pratique tarifaire maîtrisée.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 130 % BR | Confort : 155 % BR | Confort plus : 180 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Hospitalisation — Forfait patient urgences",
+   "description": "Forfait patient urgences.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : Remboursement intégral | Confort : Remboursement intégral | Confort plus : Remboursement intégral",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Hospitalisation — Forfait actes lourds",
+   "description": "Forfait actes lourds, pour les actes techniques médicaux supérieurs à 120 € (note 2).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : Frais réels | Confort : Frais réels | Confort plus : Frais réels",
+   "sub_limits": [
+    "Pour les actes techniques médicaux supérieurs à 120 €"
+   ],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Hospitalisation — Séjours : frais de séjour",
+   "description": "Frais de séjour en hospitalisation.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 150 % BR | Confort : 250 % BR | Confort plus : 350 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Hospitalisation — Séjours : forfait journalier hospitalier",
+   "description": "Forfait journalier hospitalier.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : Frais réels | Confort : Frais réels | Confort plus : Frais réels",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Hospitalisation — Chambre particulière (hors ambulatoire) : médecine, chirurgie, soins de suite et réadaptation, psychiatrie",
+   "description": "Chambre particulière hors ambulatoire en médecine, chirurgie, soins de suite et réadaptation, psychiatrie (limité à 1 an).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 1,5 % PMSS* / jour | Confort : 2,5 % PMSS* / jour | Confort plus : 3,5 % PMSS* / jour",
+   "sub_limits": [
+    "limité à 1 an"
+   ],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Hospitalisation — Chambre particulière (hors ambulatoire) : maternité",
+   "description": "Chambre particulière hors ambulatoire en maternité (limité à 6 jours).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 2 % PMSS* / jour | Confort : 3 % PMSS* / jour | Confort plus : 4 % PMSS* / jour",
+   "sub_limits": [
+    "limité à 6 jours"
+   ],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Hospitalisation — Frais d'accompagnement",
+   "description": "Frais d'accompagnement, pour un accompagnant d'un enfant à charge de moins de 16 ans (note 3).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : Néant | Confort : 2 % PMSS* / jour | Confort plus : 2 % PMSS* / jour",
+   "sub_limits": [
+    "Pour un accompagnant d'un enfant à charge de moins de 16 ans"
+   ],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Soins courants — Honoraires médicaux, consultations et visites, généralistes : médecins adhérents à un DPTM",
+   "description": "Consultations et visites de médecins généralistes adhérents à un dispositif de pratique tarifaire maîtrisée.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Soins courants — Honoraires médicaux, consultations et visites, généralistes : médecins non adhérents à un DPTM",
+   "description": "Consultations et visites de médecins généralistes non adhérents à un dispositif de pratique tarifaire maîtrisée.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Soins courants — Honoraires médicaux, consultations et visites, spécialistes : médecins adhérents à un DPTM",
+   "description": "Consultations et visites de médecins spécialistes adhérents à un dispositif de pratique tarifaire maîtrisée.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 150 % BR | Confort : 175 % BR | Confort plus : 200 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Soins courants — Honoraires médicaux, consultations et visites, spécialistes : médecins non adhérents à un DPTM",
+   "description": "Consultations et visites de médecins spécialistes non adhérents à un dispositif de pratique tarifaire maîtrisée.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 130 % BR | Confort : 155 % BR | Confort plus : 180 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Soins courants — Sages-femmes",
+   "description": "Honoraires de sages-femmes.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Soins courants — Consultations de psychologues remboursées par l'AMO",
+   "description": "Consultations de psychologues remboursées par l'Assurance Maladie Obligatoire.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Consultations remboursées par l'AMO"
+   ],
+   "page": 2
+  },
+  {
+   "name": "Soins courants — Honoraires paramédicaux : auxiliaires médicaux",
+   "description": "Honoraires paramédicaux des auxiliaires médicaux.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Soins courants — Analyses et examens de laboratoire",
+   "description": "Analyses et examens de laboratoire.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Soins courants — Actes d'imagerie et d'échographie : médecins adhérents à un DPTM",
+   "description": "Actes d'imagerie et d'échographie pratiqués par des médecins adhérents à un dispositif de pratique tarifaire maîtrisée.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Soins courants — Actes d'imagerie et d'échographie : médecins non adhérents à un DPTM",
+   "description": "Actes d'imagerie et d'échographie pratiqués par des médecins non adhérents à un dispositif de pratique tarifaire maîtrisée.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Soins courants — Actes techniques médicaux et de chirurgie : médecins adhérents à un DPTM",
+   "description": "Actes techniques médicaux et de chirurgie pratiqués par des médecins adhérents à un dispositif de pratique tarifaire maîtrisée.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Soins courants — Actes techniques médicaux et de chirurgie : médecins non adhérents à un DPTM",
+   "description": "Actes techniques médicaux et de chirurgie pratiqués par des médecins non adhérents à un dispositif de pratique tarifaire maîtrisée.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Soins courants — Médicaments à Service Médical Rendu important",
+   "description": "Médicaments à Service Médical Rendu important.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Soins courants — Médicaments à Service Médical Rendu modéré",
+   "description": "Médicaments à Service Médical Rendu modéré.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Soins courants — Médicaments à Service Médical Rendu faible",
+   "description": "Médicaments à Service Médical Rendu faible.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Soins courants — Pharmacie hors médicaments",
+   "description": "Pharmacie hors médicaments.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Soins courants — Matériel médical : orthopédie, accessoires, appareillage",
+   "description": "Orthopédie, accessoires, appareillage (hors matériel auditif, dentaire ou d'optique).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 150 % BR",
+   "sub_limits": [
+    "hors matériel auditif, dentaire ou d'optique"
+   ],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Soins courants — Transport",
+   "description": "Frais de transport.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Dentaire — Soins et Prothèses 100 % Santé : Inlay Core, autres soins prothétiques et prothèses dentaires",
+   "description": "Soins et prothèses relevant du panier 100 % Santé : Inlay Core ; autres soins prothétiques et prothèses dentaires. Soins prothétiques et prothèses dentaires tels que définis réglementairement (note 4).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime, Confort et Confort plus : AMO* + 100% des frais restant à charge du bénéficiaire après intervention de l'AMO* dans la limite des HLF*",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Dentaire — Prothèses hors 100 % Santé, panier à honoraires maitrisés : Inlay, onlay",
+   "description": "Inlay, onlay relevant du panier à honoraires maitrisés (prothèses hors 100 % Santé).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 100 % BR | Confort : 135 % BR | Confort plus : 165 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Dentaire — Prothèses hors 100 % Santé, panier à honoraires maitrisés : Inlay-Core",
+   "description": "Inlay-Core relevant du panier à honoraires maitrisés (prothèses hors 100 % Santé).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 125 % BR | Confort : 130 % BR | Confort plus : 160 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Dentaire — Prothèses hors 100 % Santé, panier à honoraires maitrisés : autres soins prothétiques et prothèses dentaires (incisives, canines, prémolaires)",
+   "description": "Autres soins prothétiques et prothèses dentaires (incisives, canines, prémolaires) relevant du panier à honoraires maitrisés.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 270 % BR | Confort : 365 % BR | Confort plus : 415 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Dentaire — Prothèses hors 100 % Santé, panier à honoraires maitrisés : autres prothèses (molaires - dents de fond de bouche)",
+   "description": "Autres prothèses (molaires - dents de fond de bouche) relevant du panier à honoraires maitrisés.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 170 % BR | Confort : 265 % BR | Confort plus : 315 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Dentaire — Prothèses hors 100 % Santé, panier à honoraires libres : Inlay, onlay",
+   "description": "Inlay, onlay relevant du panier à honoraires libres (prothèses hors 100 % Santé).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 100 % BR | Confort : 135 % BR | Confort plus : 165 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Dentaire — Prothèses hors 100 % Santé, panier à honoraires libres : Inlay-Core",
+   "description": "Inlay-Core relevant du panier à honoraires libres (prothèses hors 100 % Santé).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 125 % BR | Confort : 130 % BR | Confort plus : 160 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Dentaire — Prothèses hors 100 % Santé, panier à honoraires libres : autres soins prothétiques et prothèses dentaires (incisives, canines, prémolaires)",
+   "description": "Autres soins prothétiques et prothèses dentaires (incisives, canines, prémolaires) relevant du panier à honoraires libres.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 270 % BR | Confort : 365 % BR | Confort plus : 415 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Dentaire — Prothèses hors 100 % Santé, panier à honoraires libres : autres prothèses (molaires - dents de fond de bouche)",
+   "description": "Autres prothèses (molaires - dents de fond de bouche) relevant du panier à honoraires libres.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 170 % BR | Confort : 265 % BR | Confort plus : 315 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Dentaire — Soins dentaires conservateurs, chirurgicaux ou de prévention",
+   "description": "Soins dentaires conservateurs, chirurgicaux ou de prévention.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Dentaire — Orthodontie remboursée par l'AMO",
+   "description": "Orthodontie remboursée par l'Assurance Maladie Obligatoire (autres actes remboursés par l'AMO).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 275 % BR | Confort : 300 % BR | Confort plus : 325 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Dentaire — Actes non remboursés par l'AMO : soins prothétiques et prothèses dentaires codés CCAM, parodontologie, orthodontie",
+   "description": "Soins prothétiques et prothèses dentaires pour des actes codés dans la CCAM, Parodontologie, Orthodontie (note 5). La garantie parodontologie ne comprend pas les actes réalisés dans le cadre de traitement implantaire, prothétique ou endodontique.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : Néant | Confort : 300 € | Confort plus : 600 €",
+   "sub_limits": [
+    "La garantie parodontologie ne comprend pas les actes réalisés dans le cadre de traitement implantaire, prothétique ou endodontique"
+   ],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Aides auditives — Équipements 100 % Santé (Classe I), soumis à des prix limites de vente",
+   "description": "Aides auditives de classe I relevant du 100 % Santé, soumises à des prix limites de vente : aides auditives pour les personnes au-delà de leur 20e anniversaire ; aides auditives jusqu'au 20e anniversaire ou pour les personnes atteintes de cécité (entendue comme une acuité visuelle inférieure à 1/20e après correction).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime, Confort et Confort plus : AMO* + 100 % des frais restant à charge du bénéficiaire après intervention de l'AMO* dans la limite du PLV*",
+   "sub_limits": [
+    "Aides auditives prises en charge par l'AMO* - un équipement par oreille tous les 4 ans (date de délivrance) - ce délai s'entendant pour chaque oreille indépendamment"
+   ],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Aides auditives — Équipement hors 100 % Santé (Classe II, tarifs libres) : personnes au-delà de leur 20e anniversaire",
+   "description": "Aides auditives de classe II à tarifs libres pour les personnes au-delà de leur 20e anniversaire.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 100 % BR + 170 € | Confort : 100 % BR + 500 € | Confort plus : 100 % BR + 850 €",
+   "sub_limits": [
+    "un équipement par oreille tous les 4 ans (date de délivrance), ce délai s'entendant pour chaque oreille indépendamment"
+   ],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Aides auditives — Équipement hors 100 % Santé (Classe II, tarifs libres) : jusqu'au 20e anniversaire ou personnes atteintes de cécité",
+   "description": "Aides auditives de classe II à tarifs libres jusqu'au 20e anniversaire ou pour les personnes atteintes de cécité (entendue comme une acuité visuelle inférieure à 1/20e après correction).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 100 % BR + 170 € | Confort : 100 % BR + 300 € | Confort plus : 100 % BR + 300 €",
+   "sub_limits": [
+    "un équipement par oreille tous les 4 ans (date de délivrance), ce délai s'entendant pour chaque oreille indépendamment"
+   ],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Aides auditives — Accessoires, entretien, piles, réparations",
+   "description": "Accessoires, entretien, piles, réparations. Pour les piles, la garantie s'applique dans la limite du nombre annuel de paquets de 6 piles, fixé par l'arrêté du 14.11.2018 (note 8).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
+   "sub_limits": [
+    "Pour les piles, la garantie s'applique dans la limite du nombre annuel de paquets de 6 piles, fixé par l'arrêté du 14.11.2018"
+   ],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Prévention - Bien-être — Actes de prévention définis par la réglementation pris en charge par l'AMO",
+   "description": "Actes de prévention définis par la réglementation et pris en charge par l'Assurance Maladie Obligatoire.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Prévention - Bien-être — Vaccins anti-grippe prescrits non remboursés par l'AMO",
+   "description": "Vaccins anti-grippe prescrits et non remboursés par l'Assurance Maladie Obligatoire.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : Frais réels | Confort : Frais réels | Confort plus : Frais réels",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Vaccin prescrit"
+   ],
+   "page": 3
+  },
+  {
+   "name": "Prévention - Bien-être — Contraception prescrite non remboursée par l'AMO",
+   "description": "Contraception prescrite et non remboursée par l'Assurance Maladie Obligatoire.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 2,5 % PMSS* | Confort : 2,5 % PMSS* | Confort plus : 3,5 % PMSS*",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Contraception prescrite"
+   ],
+   "page": 3
+  },
+  {
+   "name": "Prévention - Bien-être — Médecines complémentaires : ostéopathie",
+   "description": "Médecines complémentaires : ostéopathie.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : Néant | Confort : Néant | Confort plus : 20 € / séance",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Prévention - Bien-être — Cures thermales prescrites remboursées par l'AMO : frais de traitement et honoraires",
+   "description": "Frais de traitement et honoraires des cures thermales prescrites et remboursées par l'Assurance Maladie Obligatoire.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Cure thermale prescrite et remboursée par l'AMO"
+   ],
+   "page": 3
+  },
+  {
+   "name": "Prévention - Bien-être — Cures thermales prescrites remboursées par l'AMO : forfait hébergement et transport",
+   "description": "Forfait hébergement et transport des cures thermales prescrites et remboursées par l'Assurance Maladie Obligatoire.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : Néant | Confort : 10 % PMSS* | Confort plus : 10 % PMSS*",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Maternité — Allocation naissance",
+   "description": "Allocation naissance.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 5 % PMSS* | Confort : 10 % PMSS* | Confort plus : 10 % PMSS*",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Optique — Équipements 100 % Santé (verres et/ou monture, Classe A)",
+   "description": "Équipements 100 % Santé de classe A : monture adulte (16 ans et plus) ; monture enfant (de moins de 16 ans) ; verres adulte (16 ans et plus) tous types de correction ; verres enfant (de moins de 16 ans) tous types de correction ; prestations d'appairage pour les verres de classe A d'indices de réfraction différents (tous niveaux) ; supplément pour verres avec filtres (verres de classe A).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime, Confort et Confort plus : AMO* + 100 % des frais restant à charge du bénéficiaire après intervention de l'AMO* dans la limite du PLV.*",
+   "sub_limits": [
+    "1 monture et 2 verres tous les deux ans de date à date pour les adultes de 16 ans et plus (période ramenée à un an en cas de renouvellement anticipé prévu à l'article L 165-1 du Code de la Sécurité sociale)",
+    "1 monture et 2 verres tous les ans de date à date pour les enfants de plus de 6 ans et de moins de 16 ans",
+    "1 monture et 2 verres tous les 6 mois pour les enfants jusqu'à 6 ans en cas de mauvaise adaptation de la monture à la morphologie, tous les ans dans tous les autres cas (Art R. 871-2 du Code de la Sécurité sociale)"
+   ],
+   "deductible": null,
+   "conditions": [
+    "Les garanties sont exprimées en incluant les prestations versées par le Régime obligatoire de la Sécurité sociale, sauf pour les verres"
+   ],
+   "page": 4
+  },
+  {
+   "name": "Optique — Équipements hors 100 % Santé y compris TM (Classe B, tarifs libres) : monture adulte (16 ans et plus)",
+   "description": "Monture adulte (16 ans et plus) relevant des équipements hors 100 % Santé, classe B, tarifs libres.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 70 € | Confort : 100 € | Confort plus : 100 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 4
+  },
+  {
+   "name": "Optique — Équipements hors 100 % Santé y compris TM (Classe B, tarifs libres) : monture enfant (moins de 16 ans)",
+   "description": "Monture enfant (de moins de 16 ans) relevant des équipements hors 100 % Santé, classe B, tarifs libres.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 50 € | Confort : 75 € | Confort plus : 75 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 4
+  },
+  {
+   "name": "Optique — Équipements hors 100 % Santé (Classe B) : verre adulte (16 ans et plus)",
+   "description": "Verre adulte (16 ans et plus) de classe B : le tableau renvoie à la grille optique, qui fixe un montant en € par verre de classe B et par formule selon la correction.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : Voir grille optique | Confort : Voir grille optique | Confort plus : Voir grille optique",
+   "sub_limits": [
+    "Unifocaux sphériques SPH de – 6 à + 6 (le verre neutre est compris dans cette classe) — Base prime : 48 € | Confort : 68 € | Confort plus : 83 €",
+    "Unifocaux sphériques SPH < à -6 ou > à + 6 — Base prime : 90 € | Confort : 128 € | Confort plus : 158 €",
+    "Unifocaux sphéro cylindriques SPH de – 6 à 0 et CYL ≤ + 4 — Base prime : 52 € | Confort : 74 € | Confort plus : 92 €",
+    "Unifocaux sphéro cylindriques SPH > 0 et S ≤ + 6 — Base prime : 52 € | Confort : 74 € | Confort plus : 92 €",
+    "Unifocaux sphéro cylindriques SPH > 0 et S > + 6 — Base prime : 86 € | Confort : 122 € | Confort plus : 150 €",
+    "Unifocaux sphéro cylindriques SPH < - 6 et CYL ≥ + 0,25 — Base prime : 86 € | Confort : 122 € | Confort plus : 150 €",
+    "Unifocaux sphéro cylindriques SPH de – 6 à 0 et CYL > + 4 — Base prime : 95 € | Confort : 135 € | Confort plus : 166 €",
+    "Progressifs et multifocaux sphériques SPH de – 4 à + 4 — Base prime : 114 € | Confort : 162 € | Confort plus : 200 €",
+    "Progressifs et multifocaux sphériques SPH < à -4 ou > à + 4 — Base prime : 124 € | Confort : 176 € | Confort plus : 216 €",
+    "Progressifs et multifocaux sphéro cylindriques SPH de - 8 à 0 et CYL ≤ + 4 — Base prime : 124 € | Confort : 176 € | Confort plus : 216 €",
+    "Progressifs et multifocaux sphéro cylindriques SPH > 0 et S ≤ + 8 — Base prime : 124 € | Confort : 176 € | Confort plus : 216 €",
+    "Progressifs et multifocaux sphéro cylindriques SPH de – 8 à 0 et CYL > + 4 — Base prime : 133 € | Confort : 189 € | Confort plus : 233 €",
+    "Progressifs et multifocaux sphéro cylindriques SPH > 0 et S > + 8 — Base prime : 133 € | Confort : 189 € | Confort plus : 233 €",
+    "Progressifs et multifocaux sphéro cylindriques SPH < - 8 et CYL ≥ + 0,25 — Base prime : 133 € | Confort : 189 € | Confort plus : 233 €"
+   ],
+   "deductible": null,
+   "conditions": [],
+   "page": 4
+  },
+  {
+   "name": "Optique — Équipements hors 100 % Santé (Classe B) : verre enfant (moins de 16 ans)",
+   "description": "Verre enfant (de moins de 16 ans) de classe B : le tableau renvoie à la grille optique, qui fixe un montant en € par verre de classe B et par formule selon la correction.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : Voir grille optique | Confort : Voir grille optique | Confort plus : Voir grille optique",
+   "sub_limits": [
+    "Unifocaux sphériques SPH de – 6 à + 6 (le verre neutre est compris dans cette classe) — Base prime : 38 € | Confort : 54 € | Confort plus : 67 €",
+    "Unifocaux sphériques SPH < à -6 ou > à + 6 — Base prime : 81 € | Confort : 115 € | Confort plus : 141 €",
+    "Unifocaux sphéro cylindriques SPH de – 6 à 0 et CYL ≤ + 4 — Base prime : 43 € | Confort : 61 € | Confort plus : 75 €",
+    "Unifocaux sphéro cylindriques SPH > 0 et S ≤ + 6 — Base prime : 43 € | Confort : 61 € | Confort plus : 75 €",
+    "Unifocaux sphéro cylindriques SPH > 0 et S > + 6 — Base prime : 76 € | Confort : 108 € | Confort plus : 133 €",
+    "Unifocaux sphéro cylindriques SPH < - 6 et CYL ≥ + 0,25 — Base prime : 76 € | Confort : 108 € | Confort plus : 133 €",
+    "Unifocaux sphéro cylindriques SPH de – 6 à 0 et CYL > + 4 — Base prime : 86 € | Confort : 122 € | Confort plus : 150 €",
+    "Progressifs et multifocaux sphériques SPH de – 4 à + 4 — Base prime : 105 € | Confort : 149 € | Confort plus : 183 €",
+    "Progressifs et multifocaux sphériques SPH < à -4 ou > à + 4 — Base prime : 114 € | Confort : 162 € | Confort plus : 200 €",
+    "Progressifs et multifocaux sphéro cylindriques SPH de - 8 à 0 et CYL ≤ + 4 — Base prime : 114 € | Confort : 162 € | Confort plus : 200 €",
+    "Progressifs et multifocaux sphéro cylindriques SPH > 0 et S ≤ + 8 — Base prime : 114 € | Confort : 162 € | Confort plus : 200 €",
+    "Progressifs et multifocaux sphéro cylindriques SPH de – 8 à 0 et CYL > + 4 — Base prime : 124 € | Confort : 176 € | Confort plus : 216 €",
+    "Progressifs et multifocaux sphéro cylindriques SPH > 0 et S > + 8 — Base prime : 124 € | Confort : 176 € | Confort plus : 216 €",
+    "Progressifs et multifocaux sphéro cylindriques SPH < - 8 et CYL ≥ + 0,25 — Base prime : 124 € | Confort : 176 € | Confort plus : 216 €"
+   ],
+   "deductible": null,
+   "conditions": [],
+   "page": 4
+  },
+  {
+   "name": "Optique — Prestation d'adaptation de la prescription médicale de verres correcteurs",
+   "description": "Prestation d'adaptation de la prescription médicale de verres correcteurs après réalisation d'un examen de la réfraction, en cas de renouvellement par l'opticien lunetier d'une ordonnance pour les verres de classe A et B. Prestation supplémentaire portant sur un équipement optique de classe A ou B.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 4
+  },
+  {
+   "name": "Optique — Autres suppléments pour verres de classe A ou B",
+   "description": "Autres suppléments pour verres de classe A ou B (prisme / système antiptosis / verres iséiconiques).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 4
+  },
+  {
+   "name": "Optique — Supplément pour verres avec filtres (verres de classe B)",
+   "description": "Supplément pour verres avec filtres, verres de classe B.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 100 % BR | Confort : 100 % BR | Confort plus : 100 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 4
+  },
+  {
+   "name": "Optique — Lentilles remboursées par l'AMO (forfait par an)",
+   "description": "Lentilles remboursées par l'Assurance Maladie Obligatoire, forfait par an.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 100 % BR + 2 % PMSS* | Confort : 100 % BR + 3 % PMSS* | Confort plus : 100 % BR + 4 % PMSS*",
+   "sub_limits": [
+    "forfait par an"
+   ],
+   "deductible": null,
+   "conditions": [],
+   "page": 4
+  },
+  {
+   "name": "Optique — Lentilles non remboursées par l'AMO, y compris lentilles jetables (forfait par an)",
+   "description": "Lentilles non remboursées par l'Assurance Maladie Obligatoire (y compris lentilles jetables), forfait par an.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 2 % PMSS* | Confort : 3 % PMSS* | Confort plus : 4 % PMSS*",
+   "sub_limits": [
+    "forfait par an"
+   ],
+   "deductible": null,
+   "conditions": [],
+   "page": 4
+  },
+  {
+   "name": "Optique — Chirurgie réfractive non remboursée par l'AMO (forfait par an et par oeil)",
+   "description": "Chirurgie réfractive non remboursée par l'Assurance Maladie Obligatoire, forfait par an et par oeil.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Base prime : 200 € | Confort : 300 € | Confort plus : 400 €",
+   "sub_limits": [
+    "forfait par an et par oeil"
+   ],
+   "deductible": null,
+   "conditions": [],
+   "page": 4
+  },
+  {
+   "name": "Garanties d'assistance",
+   "description": "Le document indique que « Les garanties d'assistance sont assurées par IMA Assurances » et que « Le tarif inclut la cotisation d'assistance ». Le contenu des prestations d'assistance n'est pas décrit dans ce document.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 6
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Participation forfaitaire et franchise annuelle",
+   "description": "Ces remboursements sont effectués en excluant la participation forfaitaire et la franchise annuelle de l'assuré qui restent à sa charge, conformément à la loi.",
+   "applies_to": "all",
+   "page": 2
+  },
+  {
+   "name": "Limite aux frais engagés justifiés",
+   "description": "Note (1) : Dans la limite des frais engagés par le bénéficiaire dûment justifiés.",
+   "applies_to": "all",
+   "page": 4
+  },
+  {
+   "name": "Parodontologie — actes implantaires, prothétiques ou endodontiques",
+   "description": "La garantie parodontologie ne comprend pas les actes réalisés dans le cadre de traitement implantaire, prothétique ou endodontique.",
+   "applies_to": "Dentaire — Actes non remboursés par l'AMO : soins prothétiques et prothèses dentaires codés CCAM, parodontologie, orthodontie",
+   "page": 4
+  },
+  {
+   "name": "Matériel médical — matériel auditif, dentaire ou d'optique",
+   "description": "La garantie orthopédie, accessoires, appareillage s'applique « hors matériel auditif, dentaire ou d'optique ».",
+   "applies_to": "Soins courants — Matériel médical : orthopédie, accessoires, appareillage",
+   "page": 3
+  },
+  {
+   "name": "Frais d'accompagnement — non couverts en formule Base prime",
+   "description": "La ligne « Frais d'accompagnement » porte la mention « Néant » pour la formule Base prime (couverte à 2 % PMSS* / jour en Confort et Confort plus).",
+   "applies_to": "Hospitalisation — Frais d'accompagnement",
+   "page": 2
+  },
+  {
+   "name": "Ostéopathie — non couverte en Base prime et en Confort",
+   "description": "La ligne « Médecines complémentaires : ostéopathie » porte la mention « Néant » pour les formules Base prime et Confort (20 € / séance en Confort plus).",
+   "applies_to": "Prévention - Bien-être — Médecines complémentaires : ostéopathie",
+   "page": 3
+  },
+  {
+   "name": "Cures thermales, forfait hébergement et transport — non couvert en Base prime",
+   "description": "La ligne « Forfait hébergement et transport » des cures thermales porte la mention « Néant » pour la formule Base prime (10 % PMSS* en Confort et Confort plus).",
+   "applies_to": "Prévention - Bien-être — Cures thermales prescrites remboursées par l'AMO : forfait hébergement et transport",
+   "page": 3
+  },
+  {
+   "name": "Actes dentaires non remboursés par l'AMO — non couverts en Base prime",
+   "description": "La ligne « Soins prothétiques et prothèses dentaires pour des actes codés dans la CCAM, Parodontologie, Orthodontie » porte la mention « Néant » pour la formule Base prime (300 € en Confort, 600 € en Confort plus).",
+   "applies_to": "Dentaire — Actes non remboursés par l'AMO : soins prothétiques et prothèses dentaires codés CCAM, parodontologie, orthodontie",
+   "page": 3
+  },
+  {
+   "name": "Limite de renouvellement des aides auditives",
+   "description": "Aides auditives prises en charge par l'AMO : un équipement par oreille tous les 4 ans (date de délivrance), ce délai s'entendant pour chaque oreille indépendamment.",
+   "applies_to": "Aides auditives",
+   "page": 3
+  },
+  {
+   "name": "Limite de renouvellement des piles d'aides auditives",
+   "description": "Pour les piles, la garantie s'applique dans la limite du nombre annuel de paquets de 6 piles, fixé par l'arrêté du 14.11.2018.",
+   "applies_to": "Aides auditives — Accessoires, entretien, piles, réparations",
+   "page": 4
+  },
+  {
+   "name": "Limite de renouvellement de l'équipement optique",
+   "description": "La garantie s'applique aux frais exposés pour l'acquisition d'un équipement optique (composé de deux verres et d'une monture) dans les conditions de renouvellement fixées par l'Arrêté du 03.12.2018 : deux ans pour les adultes et les enfants de 16 ans et plus, un an pour les enfants de plus de 6 ans et de moins de 16 ans, six mois pour les enfants jusqu'à 6 ans uniquement en cas de mauvaise adaptation de la monture à la morphologie du visage entraînant une perte d'efficacité du verre correcteur (un an dans les autres cas).",
+   "applies_to": "Optique",
+   "page": 4
+  },
+  {
+   "name": "Prise en charge de deux équipements optiques — cas limitatifs",
+   "description": "La prise en charge de deux équipements est autorisée uniquement pour les patients ayant : une intolérance ou une contre-indication aux verres progressifs ou multifocaux, et présentant un déficit de vision de près et un déficit de vision de loin (la prise en charge peut couvrir deux équipements corrigeant chacun un des deux déficits) ; une amblyopie et / ou un strabisme nécessitant une pénalisation optique (la prise en charge peut couvrir deux équipements de corrections différentes à porter en alternance).",
+   "applies_to": "Optique",
+   "page": 4
+  }
+ ],
+ "deductibles": {
+  "standard": "Le document ne stipule aucune franchise contractuelle. Il précise seulement que les remboursements sont effectués en excluant la participation forfaitaire et la franchise annuelle légales de l'assuré, qui restent à sa charge conformément à la loi.",
+  "variable": null,
+  "per_coverage": null,
+  "page": 2
+ },
+ "waiting_periods": [],
+ "obligations": [
+  {
+   "name": "Respect du parcours de soins",
+   "description": "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l'assuré ayant respecté le parcours de soins.",
+   "timing": "Lors des dépenses de santé",
+   "sanction": null,
+   "page": 2
+  },
+  {
+   "name": "Justification des frais engagés",
+   "description": "Note (1) : Dans la limite des frais engagés par le bénéficiaire dûment justifiés.",
+   "timing": "Lors de la demande de remboursement",
+   "sanction": null,
+   "page": 4
+  },
+  {
+   "name": "Adhésion obligatoire du salarié",
+   "description": "Formule souscrite à titre obligatoire par l'entreprise : l'accord de branche prévoit une adhésion obligatoire pour le salarié uniquement.",
+   "timing": "A la mise en place du régime",
+   "sanction": null,
+   "page": 6
+  }
+ ],
+ "claims_procedure": [],
+ "duration_and_cancellation": {
+  "duration": "Cotisations mensuelles toutes taxes comprises (TTC) 2023 en vigueur du 1er janvier au 31 décembre 2023. Garanties en vigueur au 1er janvier 2023.",
+  "tacit_renewal": null,
+  "notice_period": null,
+  "methods": null,
+  "special_rights": null,
+  "page": 6
+ },
+ "prescription_period": null,
+ "premium": {
+  "notes": [
+   "Cotisations mensuelles toutes taxes comprises (TTC ) 2023 en vigueur du 1er janvier au 31 décembre 2023.",
+   "Les cotisations santé sont exprimées en pourcentage du Plafond Mensuel de la Sécurité sociale (PMSS).",
+   "Les montants en euros sont indiqués à titre indicatif sur la base du PMSS 2023 (3 666 €).",
+   "RÉGIME GÉNÉRAL - SALARIÉ, formule de l'entreprise Base Prime : 1,301 % du PMSS, soit 47,69 € par mois. Le tarif inclut la cotisation d'assistance.",
+   "Formule souscrite à titre obligatoire par l'entreprise : l'accord de branche prévoit une adhésion obligatoire pour le salarié uniquement.",
+   "Extension facultative aux ayants droit : le salarié peut, à titre facultatif, étendre sa couverture à ses ayants droit (conjoint et enfants à charge). Cotisation à la charge exclusive du salarié, formule Base Prime : conjoint 1,527 % du PMSS soit 55,98 € ; enfant 0,767 % du PMSS soit 28,12 €.",
+   "Il n'est pas dû de cotisation pour le 3e enfant et les suivants.",
+   "Formules améliorées facultatives : chaque salarié peut, à titre facultatif, tant pour lui-même que pour ses ayants droit, améliorer le niveau de ses garanties en souscrivant une formule supérieure. Cotisation supplémentaire à la charge exclusive du salarié — CONFORT : salarié + 0,435 % soit + 15,95 €, conjoint + 0,468 % soit + 17,16 €, enfant + 0,196 % soit + 7,19 € ; CONFORT PLUS : salarié + 0,702 % soit + 25,74 €, conjoint + 0,802 % soit + 29,40 €, enfant + 0,293 % soit + 10,74 €.",
+   "COMMUNICATION SUR LES FRAIS - Le ratio des prestations versées sur les cotisations HT perçues est de 79,40 %.",
+   "Le ratio frais de gestion sur cotisations HT est de 24,20 %.",
+   "Ces frais de gestion recouvrent l'ensemble des sommes engagées pour concevoir les contrats, les commercialiser (dont le réseau commercial, le marketing, les commissions des intermédiaires), les souscrire (dont l'encaissement des cotisations, la gestion des résiliations, le suivi comptable et juridique) et les gérer (dont le remboursement, la gestion du tiers payant, l'information client, l'assistance, les services, les prestations complémentaires), c'est-à-dire accomplir toutes les tâches incombant à l'organisme assureur dans le respect des garanties contractuelles."
   ],
-  "key_quotes": [
-    {
-      "quote": "Ce contrat, distribué par la Macif, est assuré par Apivia Macif Mutuelle, mutuelle régie par le Livre II du Code de \nla mutualité et adhérente à la Mutualité Française. SIREN : 779 558 501.",
-      "context": "Mention légale de dernière page — porteur du risque",
-      "page": 6
-    },
-    {
-      "quote": "Les garanties d’assistance sont assurées par IMA Assurances, Société anonyme au capital de 122 000 000 €",
-      "context": "Mention légale de dernière page — assisteur",
-      "page": 6
-    },
-    {
-      "quote": "Garanties en vigueur au 1er janvier 2023",
-      "context": "En-tête du tableau de garanties",
-      "page": 2
-    },
-    {
-      "quote": "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré \nayant respecté le parcours de soins.",
-      "context": "Note liminaire du tableau de garanties",
-      "page": 2
-    },
-    {
-      "quote": "Ces remboursements(1) sont effectués en excluant la participation forfaitaire \net la franchise annuelle de l’assuré qui restent à sa charge, conformément à la loi.",
-      "context": "Note liminaire du tableau de garanties",
-      "page": 2
-    },
-    {
-      "quote": "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la \nSécurité sociale.",
-      "context": "Note liminaire — base de calcul des garanties",
-      "page": 2
-    },
-    {
-      "quote": "BR : Base de Remboursement, tarif servant de référence à l’Assurance Maladie Obligatoire pour déterminer le montant du \nremboursement.",
-      "context": "Légende des sigles",
-      "page": 2
-    },
-    {
-      "quote": "La garantie parodontologie ne comprend pas les actes réalisés dans le cadre de traitement implantaire, prothétique ou endodontique.",
-      "context": "Note (5) — limitation dentaire",
-      "page": 4
-    },
-    {
-      "quote": "Formule souscrite à titre obligatoire par l’entreprise : l’accord de branche prévoit \nune adhésion obligatoire pour le salarié uniquement.",
-      "context": "Encart tarifaire — régime général salarié",
-      "page": 6
-    },
-    {
-      "quote": "Les montants en euros sont indiqués à titre indicatif sur la base du PMSS 2023 (3 666 €).",
-      "context": "Encart tarifaire — base de calcul des cotisations",
-      "page": 6
-    },
-    {
-      "quote": "Le ratio des prestations versées sur les cotisations HT perçues est de 79,40 %.",
-      "context": "Communication sur les frais",
-      "page": 6
-    },
-    {
-      "quote": "Le ratio frais de gestion sur cotisations HT est de 24,20 %.",
-      "context": "Communication sur les frais",
-      "page": 6
-    },
-    {
-      "quote": "Les garanties sont accordées dans les conditions et limites fixées par le contrat souscrit.",
-      "context": "Portée du document",
-      "page": 6
-    },
-    {
-      "quote": "Santé Branche de l’Aide, de l’Accompagnement, des Soins et des Services à Domicile - Encart tarifaire RG - 01/2023 - Document non \ncontractuel à caractère publicitaire.",
-      "context": "Code de référence / édition en dernière page",
-      "page": 6
-    }
-  ],
-  "gaps": [
-    "PORTEUR DU RISQUE : le risque n'est PAS porté par la Macif SAM. Le document imprime « Ce contrat, distribué par la Macif, est assuré par Apivia Macif Mutuelle, mutuelle régie par le Livre II du Code de la mutualité (…) SIREN : 779 558 501 » (p. 6). Apivia Macif Mutuelle est le nom porté à la date du document par l'entité SIREN 779 558 501, successivement dénommée Macif-Mutualité, Apivia Macif Mutuelle puis Macif Santé Prévoyance : c'est une seule et même entité sous trois noms successifs, et non un assureur distinct. Le nom imprimé a été conservé tel quel. La Macif SAM n'intervient qu'en distributeur et l'assistance est portée par IMA Assurances.",
-    "EDITION : le document ne porte pas de mention « édition MM/AAAA ». L'edition_date « 01/2023 » et la reference sont reprises du pied de dernière page, « Santé Branche de l'Aide, de l'Accompagnement, des Soins et des Services à Domicile - Encart tarifaire RG - 01/2023 » (p. 6). Ce code NE SUIT PAS la structure <FAMILLE>/<PRODUIT>/05 - MM/AA - N<nnn> observée sur les contrats Macif SAM. Deux autres dates de validité, cohérentes, figurent dans le corps : « Garanties en vigueur au 1er janvier 2023 » (p. 2) et « Cotisations mensuelles toutes taxes comprises (TTC ) 2023 en vigueur du 1er janvier au 31 décembre 2023 » (p. 6). Aucune date n'a été déduite du nom de fichier.",
-    "GÉOMÉTRIE DU TABLEAU — RECONSTRUCTION SIGNALÉE : la couche texte linéarise le tableau en libellés puis blocs de valeurs, sans conserver la structure des cellules. Pour les deux blocs dentaires « Panier à honoraires maitrisés » et « Panier à honoraires libres », quatre libellés sont suivis de douze valeurs (100 / 125 / 270 / 170 / 135 / 130 / 365 / 265 / 165 / 160 / 415 / 315 % BR). La lecture retenue est COLONNE PAR COLONNE (les quatre premières valeurs = colonne Base prime, les quatre suivantes = Confort, les quatre dernières = Confort plus), seule lecture qui produise une progression croissante Base prime < Confort < Confort plus sur chacune des quatre lignes ; la lecture ligne par ligne donnerait une progression décroissante (170 / 135 / 130) et est donc écartée. Cette attribution reste une reconstruction de la géométrie du tableau, pas une donnée lue telle quelle.",
-    "PANIERS DENTAIRES IDENTIQUES : les douze valeurs du bloc « Panier à honoraires maitrisés » et celles du bloc « Panier à honoraires libres » sont strictement identiques dans le document. Cette identité est restituée telle quelle et n'a pas été corrigée ; elle peut être volontaire ou résulter d'une erreur de composition de l'éditeur.",
-    "CELLULES FUSIONNÉES : pour « Équipements 100 % Santé (Classe I) » des aides auditives, deux libellés (au-delà du 20e anniversaire / jusqu'au 20e anniversaire ou cécité) ne sont suivis que d'une seule série de trois valeurs ; de même, les six libellés des « Équipements 100 % Santé (Classe A) » en optique ne sont suivis que d'une seule série de trois valeurs. Ces lignes ont donc été restituées comme une garantie unique à cellule fusionnée, conformément à ce que la couche texte permet d'établir.",
-    "COUCHE TEXTE DÉSORDONNÉE (p. 6) : l'ordre de lecture de la dernière page est mélangé. Les mentions légales et le pied de page apparaissent AVANT les tableaux de cotisations, et le bloc « COMMUNICATION SUR LES FRAIS » est inséré entre le tableau des cotisations ayants droit et le tableau des cotisations supplémentaires. Les libellés de colonnes des cotisations supplémentaires (« FORMULE DE L'ENTREPRISE », « LE SALARIÉ PEUT CHOISIR UNE FORMULE AMÉLIORÉE », « Base Prime », « CONFORT », « CONFORT PLUS ») sont imprimés APRÈS les six couples de valeurs. L'affectation des couples aux formules Confort (+ 0,435 % / + 15,95 % salarié, + 0,468 % / + 17,16 € conjoint, + 0,196 % / + 7,19 € enfant) et Confort Plus (+ 0,702 % / + 25,74 € salarié, + 0,802 % / + 29,40 € conjoint, + 0,293 % / + 10,74 € enfant) suit l'ordre d'apparition et la progression croissante des montants ; elle reste une reconstruction.",
-    "COTISATIONS PARTIELLES : seule la formule « Base Prime » est tarifée en valeur absolue (1,301 % du PMSS / 47,69 € salarié). Les formules Confort et Confort plus ne sont exprimées qu'en supplément de cotisation. Le document ne donne pas de cotisation totale pour ces deux formules et aucune addition n'a été effectuée.",
-    "RÉPÉTITION DE LA MENTION « Il n'est pas dû de cotisation pour le 3e enfant et les suivants. » : cette phrase apparaît deux fois de suite dans la couche texte (p. 6), probablement parce qu'elle figure sous deux colonnes du tableau. Elle n'est comptée qu'une fois.",
-    "TYPOGRAPHIE : le document imprime « Formules améliorées falcultatives. » (p. 6) — la faute de frappe sur « falcultatives » n'a pas été corrigée dans les citations. De même « Cotisations mensuelles toutes taxes comprises (TTC ) 2023 » comporte une espace avant la parenthèse fermante.",
-    "ABSENCE DE SECTIONS CONTRACTUELLES : ce document est un encart de garanties et de tarifs déclaré « Document non contractuel à caractère publicitaire ». Il ne comporte NI définitions contractuelles complètes (seule une légende de sigles est fournie), NI section d'exclusions, NI délais de carence, NI procédure de sinistre, NI durée / résiliation, NI prescription. Les entrées d'« exclusions » restituées ici sont les seules limitations que le document énonce (participation forfaitaire et franchise légales, limites de renouvellement, exclusion parodontologie, mentions « Néant »). claims_procedure et waiting_periods sont vides, et prescription_period est null, faute de contenu dans la source — et non par omission d'extraction.",
-    "« Néant » : les mentions « Néant » du tableau ont été restituées à la fois dans limits de la garantie concernée et comme exclusions/limitations, afin qu'aucune des deux lectures ne se perde. Elles signifient l'absence de prise en charge pour la formule concernée, pas une exclusion générale du contrat.",
-    "PARCOURS DE SOINS : le document précise que les plafonds valent pour « l'assuré ayant respecté le parcours de soins » mais n'indique NULLE PART le niveau de remboursement applicable hors parcours de soins. Aucune minoration n'a été supposée.",
-    "% BR / % PMSS : tous les pourcentages sont conservés verbatim tels qu'imprimés, y compris les astérisques de renvoi (« 1,5 % PMSS* / jour »). Un « % BR » est un pourcentage de la base de remboursement de la Sécurité sociale, jamais du coût réel.",
-    "VÉRIFICATION SOURCE : le texte du prompt a été confronté au PDF local (data/fr/pdfs/macif/sante/complementaire-sante-de-la-branche-de-laide-de-laccompagnement-des-soins-et-des-services-a-domicile-ccadae12.pdf) réextrait page par page avec page.get_text(\"text\") via PyMuPDF ; les 6 pages ressortent identiques. Aucune troncature."
-  ]
+  "indexation": "Les cotisations santé sont exprimées en pourcentage du Plafond Mensuel de la Sécurité sociale (PMSS) ; les montants en euros sont indicatifs sur la base du PMSS 2023 (3 666 €).",
+  "page": 6
+ },
+ "special_conditions": [
+  {
+   "name": "Porteur du risque et distributeur",
+   "description": "Ce contrat, distribué par la Macif, est assuré par Apivia Macif Mutuelle, mutuelle régie par le Livre II du Code de la mutualité et adhérente à la Mutualité Française. SIREN : 779 558 501. Siège social : 17-21 place Etienne Pernet - 75015 PARIS cedex 15.",
+   "page": 6
+  },
+  {
+   "name": "Assisteur",
+   "description": "Les garanties d'assistance sont assurées par IMA Assurances, Société anonyme au capital de 122 000 000 € - Entreprise régie par le code des assurances - RCS Niort 481 511 632. Siège social : 118 avenue de Paris - CS 40000 - 79033 Niort Cedex 9.",
+   "page": 6
+  },
+  {
+   "name": "Distributeur",
+   "description": "MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des cadres et salariés de l'industrie et du commerce. Société d'assurance mutuelle à cotisations variables. Entreprise régie par le Code des assurances. Siège social : 1 rue Jacques Vandier - 79000 Niort.",
+   "page": 6
+  },
+  {
+   "name": "Portée du document",
+   "description": "Les garanties sont accordées dans les conditions et limites fixées par le contrat souscrit. Le document se déclare « Document non contractuel à caractère publicitaire ».",
+   "page": 6
+  },
+  {
+   "name": "Base de calcul des garanties",
+   "description": "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale. Les garanties sont exprimées en incluant les prestations versées par le Régime obligatoire de la Sécurité sociale (sauf pour les verres). Les forfaits s'entendent par assuré ; lorsque le forfait est annuel, la référence est l'année civile.",
+   "page": 2
+  },
+  {
+   "name": "Architecture des formules",
+   "description": "Le tableau distingue une « Base conventionnelle » (formule Base prime) et des « Formules améliorées au choix du salarié » (Confort et Confort plus). Chaque salarié peut, à titre facultatif, tant pour lui-même que pour ses ayants droit, améliorer le niveau de ses garanties en souscrivant une formule supérieure, et peut étendre sa couverture à ses ayants droit (conjoint et enfants à charge).",
+   "page": 6
+  },
+  {
+   "name": "Conditions de renouvellement de l'équipement optique",
+   "description": "La garantie s'applique aux frais exposés pour l'acquisition d'un équipement optique (composé de deux verres et d'une monture) dans les conditions de renouvellement fixées par l'Arrêté du 03.12.2018 modifiant la prise en charge d'optique médicale de la Liste des Produits et Prestations (LPP) prévue à l'article L. 165-1 du Code de la Sécurité sociale. Les délais s'entendent par rapport à la date de délivrance du dernier dispositif de l'équipement optique concerné et sont également applicables pour le renouvellement séparé des éléments de l'équipement, le délai s'appréciant alors distinctement pour chaque élément. Par dérogation, le renouvellement anticipé pour raison médicale est permis au terme d'une période minimale d'un an pour les adultes et enfants d'au moins 16 ans lorsqu'intervient une dégradation des performances oculaires dans l'une des situations limitativement prévues par la LPP ; pour les enfants de moins de 16 ans aucun délai minimal de renouvellement des verres n'est applicable lorsqu'intervient une dégradation des performances oculaires objectivée par un ophtalmologiste sur une prescription médicale ; enfin aucun délai minimal n'est applicable en cas d'évolution de la réfraction liée à des situations médicales particulières (troubles de réfraction associés à une pathologie ophtalmologique, à une pathologie générale ou à la prise de médicaments au long cours), définies par la LPP, sous réserve d'une nouvelle prescription médicale ophtalmologique.",
+   "page": 4
+  }
+ ],
+ "key_quotes": [
+  {
+   "quote": "Ce contrat, distribué par la Macif, est assuré par Apivia Macif Mutuelle, mutuelle régie par le Livre II du Code de \nla mutualité et adhérente à la Mutualité Française. SIREN : 779 558 501.",
+   "context": "Mention légale de dernière page — porteur du risque",
+   "page": 6
+  },
+  {
+   "quote": "Les garanties d’assistance sont assurées par IMA Assurances, Société anonyme au capital de 122 000 000 €",
+   "context": "Mention légale de dernière page — assisteur",
+   "page": 6
+  },
+  {
+   "quote": "Garanties en vigueur au 1er janvier 2023",
+   "context": "En-tête du tableau de garanties",
+   "page": 2
+  },
+  {
+   "quote": "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré \nayant respecté le parcours de soins.",
+   "context": "Note liminaire du tableau de garanties",
+   "page": 2
+  },
+  {
+   "quote": "Ces remboursements(1) sont effectués en excluant la participation forfaitaire \net la franchise annuelle de l’assuré qui restent à sa charge, conformément à la loi.",
+   "context": "Note liminaire du tableau de garanties",
+   "page": 2
+  },
+  {
+   "quote": "Sauf indications contraires, les pourcentages sont exprimés par rapport aux bases de remboursement de la \nSécurité sociale.",
+   "context": "Note liminaire — base de calcul des garanties",
+   "page": 2
+  },
+  {
+   "quote": "BR : Base de Remboursement, tarif servant de référence à l’Assurance Maladie Obligatoire pour déterminer le montant du \nremboursement.",
+   "context": "Légende des sigles",
+   "page": 2
+  },
+  {
+   "quote": "La garantie parodontologie ne comprend pas les actes réalisés dans le cadre de traitement implantaire, prothétique ou endodontique.",
+   "context": "Note (5) — limitation dentaire",
+   "page": 4
+  },
+  {
+   "quote": "Formule souscrite à titre obligatoire par l’entreprise : l’accord de branche prévoit \nune adhésion obligatoire pour le salarié uniquement.",
+   "context": "Encart tarifaire — régime général salarié",
+   "page": 6
+  },
+  {
+   "quote": "Les montants en euros sont indiqués à titre indicatif sur la base du PMSS 2023 (3 666 €).",
+   "context": "Encart tarifaire — base de calcul des cotisations",
+   "page": 6
+  },
+  {
+   "quote": "Le ratio des prestations versées sur les cotisations HT perçues est de 79,40 %.",
+   "context": "Communication sur les frais",
+   "page": 6
+  },
+  {
+   "quote": "Le ratio frais de gestion sur cotisations HT est de 24,20 %.",
+   "context": "Communication sur les frais",
+   "page": 6
+  },
+  {
+   "quote": "Les garanties sont accordées dans les conditions et limites fixées par le contrat souscrit.",
+   "context": "Portée du document",
+   "page": 6
+  },
+  {
+   "quote": "Santé Branche de l’Aide, de l’Accompagnement, des Soins et des Services à Domicile - Encart tarifaire RG - 01/2023 - Document non \ncontractuel à caractère publicitaire.",
+   "context": "Code de référence / édition en dernière page",
+   "page": 6
+  }
+ ],
+ "gaps": [
+  "PORTEUR DU RISQUE : le risque n'est PAS porté par la Macif SAM. Le document imprime « Ce contrat, distribué par la Macif, est assuré par Apivia Macif Mutuelle, mutuelle régie par le Livre II du Code de la mutualité (…) SIREN : 779 558 501 » (p. 6). Apivia Macif Mutuelle est le nom porté à la date du document par l'entité SIREN 779 558 501, successivement dénommée Macif-Mutualité, Apivia Macif Mutuelle puis Macif Santé Prévoyance : c'est une seule et même entité sous trois noms successifs, et non un assureur distinct. Le nom imprimé a été conservé tel quel. La Macif SAM n'intervient qu'en distributeur et l'assistance est portée par IMA Assurances.",
+  "EDITION : le document ne porte pas de mention « édition MM/AAAA ». L'edition_date « 01/2023 » et la reference sont reprises du pied de dernière page, « Santé Branche de l'Aide, de l'Accompagnement, des Soins et des Services à Domicile - Encart tarifaire RG - 01/2023 » (p. 6). Ce code NE SUIT PAS la structure <FAMILLE>/<PRODUIT>/05 - MM/AA - N<nnn> observée sur les contrats Macif SAM. Deux autres dates de validité, cohérentes, figurent dans le corps : « Garanties en vigueur au 1er janvier 2023 » (p. 2) et « Cotisations mensuelles toutes taxes comprises (TTC ) 2023 en vigueur du 1er janvier au 31 décembre 2023 » (p. 6). Aucune date n'a été déduite du nom de fichier.",
+  "GÉOMÉTRIE DU TABLEAU — RECONSTRUCTION SIGNALÉE : la couche texte linéarise le tableau en libellés puis blocs de valeurs, sans conserver la structure des cellules. Pour les deux blocs dentaires « Panier à honoraires maitrisés » et « Panier à honoraires libres », quatre libellés sont suivis de douze valeurs (100 / 125 / 270 / 170 / 135 / 130 / 365 / 265 / 165 / 160 / 415 / 315 % BR). La lecture retenue est COLONNE PAR COLONNE (les quatre premières valeurs = colonne Base prime, les quatre suivantes = Confort, les quatre dernières = Confort plus), seule lecture qui produise une progression croissante Base prime < Confort < Confort plus sur chacune des quatre lignes ; la lecture ligne par ligne donnerait une progression décroissante (170 / 135 / 130) et est donc écartée. Cette attribution reste une reconstruction de la géométrie du tableau, pas une donnée lue telle quelle.",
+  "PANIERS DENTAIRES IDENTIQUES : les douze valeurs du bloc « Panier à honoraires maitrisés » et celles du bloc « Panier à honoraires libres » sont strictement identiques dans le document. Cette identité est restituée telle quelle et n'a pas été corrigée ; elle peut être volontaire ou résulter d'une erreur de composition de l'éditeur.",
+  "CELLULES FUSIONNÉES : pour « Équipements 100 % Santé (Classe I) » des aides auditives, deux libellés (au-delà du 20e anniversaire / jusqu'au 20e anniversaire ou cécité) ne sont suivis que d'une seule série de trois valeurs ; de même, les six libellés des « Équipements 100 % Santé (Classe A) » en optique ne sont suivis que d'une seule série de trois valeurs. Ces lignes ont donc été restituées comme une garantie unique à cellule fusionnée, conformément à ce que la couche texte permet d'établir.",
+  "COUCHE TEXTE DÉSORDONNÉE (p. 6) : l'ordre de lecture de la dernière page est mélangé. Les mentions légales et le pied de page apparaissent AVANT les tableaux de cotisations, et le bloc « COMMUNICATION SUR LES FRAIS » est inséré entre le tableau des cotisations ayants droit et le tableau des cotisations supplémentaires. Les libellés de colonnes des cotisations supplémentaires (« FORMULE DE L'ENTREPRISE », « LE SALARIÉ PEUT CHOISIR UNE FORMULE AMÉLIORÉE », « Base Prime », « CONFORT », « CONFORT PLUS ») sont imprimés APRÈS les six couples de valeurs. L'affectation des couples aux formules Confort (+ 0,435 % / + 15,95 % salarié, + 0,468 % / + 17,16 € conjoint, + 0,196 % / + 7,19 € enfant) et Confort Plus (+ 0,702 % / + 25,74 € salarié, + 0,802 % / + 29,40 € conjoint, + 0,293 % / + 10,74 € enfant) suit l'ordre d'apparition et la progression croissante des montants ; elle reste une reconstruction.",
+  "COTISATIONS PARTIELLES : seule la formule « Base Prime » est tarifée en valeur absolue (1,301 % du PMSS / 47,69 € salarié). Les formules Confort et Confort plus ne sont exprimées qu'en supplément de cotisation. Le document ne donne pas de cotisation totale pour ces deux formules et aucune addition n'a été effectuée.",
+  "RÉPÉTITION DE LA MENTION « Il n'est pas dû de cotisation pour le 3e enfant et les suivants. » : cette phrase apparaît deux fois de suite dans la couche texte (p. 6), probablement parce qu'elle figure sous deux colonnes du tableau. Elle n'est comptée qu'une fois.",
+  "TYPOGRAPHIE : le document imprime « Formules améliorées falcultatives. » (p. 6) — la faute de frappe sur « falcultatives » n'a pas été corrigée dans les citations. De même « Cotisations mensuelles toutes taxes comprises (TTC ) 2023 » comporte une espace avant la parenthèse fermante.",
+  "ABSENCE DE SECTIONS CONTRACTUELLES : ce document est un encart de garanties et de tarifs déclaré « Document non contractuel à caractère publicitaire ». Il ne comporte NI définitions contractuelles complètes (seule une légende de sigles est fournie), NI section d'exclusions, NI délais de carence, NI procédure de sinistre, NI durée / résiliation, NI prescription. Les entrées d'« exclusions » restituées ici sont les seules limitations que le document énonce (participation forfaitaire et franchise légales, limites de renouvellement, exclusion parodontologie, mentions « Néant »). claims_procedure et waiting_periods sont vides, et prescription_period est null, faute de contenu dans la source — et non par omission d'extraction.",
+  "« Néant » : les mentions « Néant » du tableau ont été restituées à la fois dans limits de la garantie concernée et comme exclusions/limitations, afin qu'aucune des deux lectures ne se perde. Elles signifient l'absence de prise en charge pour la formule concernée, pas une exclusion générale du contrat.",
+  "PARCOURS DE SOINS : le document précise que les plafonds valent pour « l'assuré ayant respecté le parcours de soins » mais n'indique NULLE PART le niveau de remboursement applicable hors parcours de soins. Aucune minoration n'a été supposée.",
+  "% BR / % PMSS : tous les pourcentages sont conservés verbatim tels qu'imprimés, y compris les astérisques de renvoi (« 1,5 % PMSS* / jour »). Un « % BR » est un pourcentage de la base de remboursement de la Sécurité sociale, jamais du coût réel.",
+  "VÉRIFICATION SOURCE : le texte du prompt a été confronté au PDF local (data/fr/pdfs/macif/sante/complementaire-sante-de-la-branche-de-laide-de-laccompagnement-des-soins-et-des-services-a-domicile-ccadae12.pdf) réextrait page par page avec page.get_text(\"text\") via PyMuPDF ; les 6 pages ressortent identiques. Aucune troncature."
+ ]
 }

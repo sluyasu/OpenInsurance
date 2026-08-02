@@ -2,8 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France
-  et des Cadres et Salariés de l''Industrie et du Commerce)]]'
+insurer: '[[Macif]]'
 insurer_slug: macif
 branch: habitation
 product_name: Macif Habitation
@@ -48,7 +47,7 @@ generated: true
 
 Conditions générales du contrat multirisque habitation Macif Habitation (version 06/2025), porté par la MACIF, société d'assurance mutuelle à cotisations variables régie par le Code des assurances. Le contrat se décline en six formules (Économique, Équilibrée, Confort, Logement locatif, Construction, Responsabilité civile) couvrant, selon la formule, les dommages aux biens immobiliers et mobiliers (dégât des eaux et gel, incendie et explosion, vol et vandalisme, événements climatiques, catastrophes naturelles et technologiques, dommages électriques, bris de vitres, casse accidentelle, choc de véhicules, terrorisme), les responsabilités civiles (vie privée, fait des biens immobiliers, locataire ou occupant, séjour et location de salle), la Défense et le Recours, des garanties spécifiques étudiant, apprenti et service civique, ainsi que des prestations d'assistance Macif Assistance. Neuf options sont proposées, dont la Protection juridique à deux niveaux.
 
-- Assureur : [Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)](../../insurers/Macif%20%28MACIF%20-%20Mutuelle%20Assurance%20des%20Commer%C3%A7ants%20et%20Industriels%20de%20France%20et%20des%20Cadres%20et%20Salari%C3%A9s%20de%20l%27Industrie%20et%20d.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales · Édition : 06/25 (Version 06/2025)
+- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales · Édition : 06/25 (Version 06/2025)
 
 ## Définitions
 

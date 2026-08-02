@@ -2,8 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France
-  et des Cadres et Salariés de l''Industrie et du Commerce)]]'
+insurer: '[[Macif]]'
 insurer_slug: macif
 branch: sante
 product_name: Garantie Santé
@@ -44,7 +43,7 @@ generated: true
 
 Note d'information détaillée du contrat Garantie Santé, complémentaire santé individuelle distribuée par la Macif et assurée par Apivia Macif Mutuelle. WORK IN PROGRESS.
 
-- Assureur : [Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)](../../insurers/Macif%20%28MACIF%20-%20Mutuelle%20Assurance%20des%20Commer%C3%A7ants%20et%20Industriels%20de%20France%20et%20des%20Cadres%20et%20Salari%C3%A9s%20de%20l%27Industrie%20et%20d.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : 2023-01
+- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : 2023-01
 
 ## Lacunes d'extraction
 

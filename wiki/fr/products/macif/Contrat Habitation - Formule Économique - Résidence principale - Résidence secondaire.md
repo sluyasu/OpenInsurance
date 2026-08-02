@@ -2,8 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France
-  et des Cadres et Salariés de l''Industrie et du Commerce)]]'
+insurer: '[[Macif]]'
 insurer_slug: macif
 branch: habitation
 product_name: Contrat Habitation - Formule Économique - Résidence principale - Résidence
@@ -47,7 +46,7 @@ generated: true
 
 _(pas de résumé)_
 
-- Assureur : [Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)](../../insurers/Macif%20%28MACIF%20-%20Mutuelle%20Assurance%20des%20Commer%C3%A7ants%20et%20Industriels%20de%20France%20et%20des%20Cadres%20et%20Salari%C3%A9s%20de%20l%27Industrie%20et%20d.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales · Édition : 05/18
+- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales · Édition : 05/18
 
 > ⚠️ **Édition ancienne** : 05/18, soit 8 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 

@@ -2,8 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France
-  et des Cadres et Salariés de l''Industrie et du Commerce)]]'
+insurer: '[[Macif]]'
 insurer_slug: macif
 branch: emprunteur
 product_name: Perte d'Emploi (contrat collectif n°690701 souscrit par SECURIMUT auprès
@@ -50,7 +49,7 @@ generated: true
 
 Note d'information détaillée de la garantie Perte d'Emploi, proposée en option complémentaire d'une garantie emprunteur Décès/Incapacité, régie par le contrat collectif n°690701 souscrit par SECURIMUT auprès de MNCAP SA, qui en est l'assureur ; SECURIMUT en est le gestionnaire mandaté. La garantie verse à l'assuré privé d'emploi par licenciement économique, départ négocié pour motif économique, licenciement pour inaptitude suite à maladie ou accident, licenciement pour faute (hors faute lourde) ou certaines démissions délimitées, et indemnisé par le Pôle Emploi ou équivalent, un forfait mensuel garanti dans la limite de 100 % des échéances du dossier de financement. Les prestations sont forfaitaires, versées sous forme d'indemnité journalière égale à 1/30ème du forfait mensuel, après une franchise de 90 jours, pour 360 jours maximum par période de chômage et 1440 jours cumulés par dossier de financement. La garantie n'est définitivement acquise qu'à l'issue d'un délai de carence de 180 ou 365 jours continus selon les conditions de souscription.
 
-- Assureur : [Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)](../../insurers/Macif%20%28MACIF%20-%20Mutuelle%20Assurance%20des%20Commer%C3%A7ants%20et%20Industriels%20de%20France%20et%20des%20Cadres%20et%20Salari%C3%A9s%20de%20l%27Industrie%20et%20d.md) · Branche : [Assurance emprunteur](../../branches/Assurance%20emprunteur.md) · Type : Conditions générales
+- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Assurance emprunteur](../../branches/Assurance%20emprunteur.md) · Type : Conditions générales
 
 ## Définitions
 

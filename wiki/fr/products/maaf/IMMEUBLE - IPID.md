@@ -2,12 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[MAAF — a single brand covering four regulated carriers: MAAF Assurances
-  SA (société anonyme, Code des assurances, RCS Niort 542 073 580), MAAF Assurances
-  (société d''assurance mutuelle à cotisations variables, Code des assurances, RCS
-  Niort 781 423 280), MAAF Vie (société anonyme, Code des assurances, RCS Niort 337
-  804 819) and MAAF Santé (mutuelle du livre II du Code de la mutualité, SIREN 331
-  542 142). Group Covéa.]]'
+insurer: '[[MAAF]]'
 insurer_slug: maaf
 branch: habitation
 product_name: IMMEUBLE
@@ -48,7 +43,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) relatif au contrat IMMEUBLE, une assurance Habitation portée par MAAF Assurances SA, entreprise régie par le code des assurances (RCS Niort 542 073 580). Le contrat couvre les dommages que peut subir un bien immobilier donné en location ou inoccupé et son contenu, ainsi que la responsabilité civile pour les dommages que ce bien peut causer à un tiers. Les garanties de base regroupent sept garanties Habitation (incendie, dégâts des eaux, événements climatiques, émeutes, catastrophes naturelles, catastrophes technologiques, terrorisme), la perte des loyers plafonnée à 2 ans de loyers ou de valeur locative, les dommages causés par les secours, les frais annexes, la responsabilité civile habitation (plafond 20 000 000 €), la défense pénale et recours suite à accident (plafond 20 000 €), l'assistance aux personnes et les renseignements juridiques. Le document précise qu'il ne présente qu'un résumé des principales garanties et exclusions.
 
-- Assureur : [MAAF — a single brand covering four regulated carriers: MAAF Assurances SA (société anonyme, Code des assurances, RCS Niort 542 073 580), MAAF Assurances (société d'assurance mutuelle à cotisations variables, Code des assurances, RCS Niort 781 423 280), MAAF Vie (société anonyme, Code des assurances, RCS Niort 337 804 819) and MAAF Santé (mutuelle du livre II du Code de la mutualité, SIREN 331 542 142). Group Covéa.](../../insurers/MAAF%20%E2%80%94%20a%20single%20brand%20covering%20four%20regulated%20carriers%20-%20MAAF%20Assurances%20SA%20%28soci%C3%A9t%C3%A9%20anonyme%2C%20Code%20des%20assurances%2C%20RCS%20N.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information · Édition : 2025-03
+- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information · Édition : 2025-03
 
 ## Garanties
 

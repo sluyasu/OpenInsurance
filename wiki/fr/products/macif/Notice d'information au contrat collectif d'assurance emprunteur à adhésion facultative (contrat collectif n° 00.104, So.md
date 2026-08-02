@@ -2,8 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France
-  et des Cadres et Salariés de l''Industrie et du Commerce)]]'
+insurer: '[[Macif]]'
 insurer_slug: macif
 branch: emprunteur
 product_name: Notice d'information au contrat collectif d'assurance emprunteur à adhésion
@@ -50,7 +49,7 @@ generated: true
 
 Notice d'information du contrat collectif d'assurance emprunteur n° 00.104 à adhésion facultative, souscrit par Socram Banque pour le compte des emprunteurs auprès d'un pool de coassurance composé de MATMUT VIE, MACIF VIE et AGPM-VIE, MACIF VIE étant société apéritrice. Le contrat couvre le décès, la perte totale et irréversible d'autonomie, l'incapacité temporaire de travail avec perte de revenus et l'invalidité permanente pouvant survenir pendant la durée du prêt consenti par Socram Banque à un emprunteur et/ou un co-emprunteur. En décès, PTIA et invalidité permanente l'assureur rembourse le capital restant dû selon le tableau d'amortissement ; en incapacité temporaire il prend en charge les échéances à partir de celle suivant le 61ème jour d'arrêt continu de travail. Les risques consécutifs à un accident sont garantis immédiatement, ceux consécutifs à une maladie après un délai de carence de 120 jours.
 
-- Assureur : [Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)](../../insurers/Macif%20%28MACIF%20-%20Mutuelle%20Assurance%20des%20Commer%C3%A7ants%20et%20Industriels%20de%20France%20et%20des%20Cadres%20et%20Salari%C3%A9s%20de%20l%27Industrie%20et%20d.md) · Branche : [Assurance emprunteur](../../branches/Assurance%20emprunteur.md) · Type : Conditions générales
+- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Assurance emprunteur](../../branches/Assurance%20emprunteur.md) · Type : Conditions générales
 
 ## Définitions
 

@@ -2,8 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France
-  et des Cadres et Salariés de l''Industrie et du Commerce)]]'
+insurer: '[[Macif]]'
 insurer_slug: macif
 branch: emprunteur
 product_name: Assurance Découvert Autorisé
@@ -43,7 +42,7 @@ generated: true
 
 Note d'information d'une page relative au contrat Assurance Découvert Autorisé, distribué avec le découvert autorisé de Socram Banque. Son unique objet est d'annoncer un changement de dénomination du porteur de risque : depuis le 27/11/2020, Macif-Mutualité est devenue Apivia Macif Mutuelle, mutuelle régie par le Livre II du Code de la mutualité et adhérente à la Mutualité Française (SIREN 779 558 501). Le document précise que ce changement de dénomination ne modifie pas les garanties proposées et renvoie les adhérents vers un conseiller Macifin'. Il ne décrit ni les garanties, ni les exclusions, ni les modalités du contrat.
 
-- Assureur : [Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)](../../insurers/Macif%20%28MACIF%20-%20Mutuelle%20Assurance%20des%20Commer%C3%A7ants%20et%20Industriels%20de%20France%20et%20des%20Cadres%20et%20Salari%C3%A9s%20de%20l%27Industrie%20et%20d.md) · Branche : [Assurance emprunteur](../../branches/Assurance%20emprunteur.md) · Type : Document · Édition : 2020-11
+- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Assurance emprunteur](../../branches/Assurance%20emprunteur.md) · Type : Document · Édition : 2020-11
 
 ## Conditions particulières
 

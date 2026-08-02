@@ -2,12 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[MAAF — a single brand covering four regulated carriers: MAAF Assurances
-  SA (société anonyme, Code des assurances, RCS Niort 542 073 580), MAAF Assurances
-  (société d''assurance mutuelle à cotisations variables, Code des assurances, RCS
-  Niort 781 423 280), MAAF Vie (société anonyme, Code des assurances, RCS Niort 337
-  804 819) and MAAF Santé (mutuelle du livre II du Code de la mutualité, SIREN 331
-  542 142). Group Covéa.]]'
+insurer: '[[MAAF]]'
 insurer_slug: maaf
 branch: rc-privee
 product_name: TEMPO HABITATION Responsabilité civile
@@ -48,7 +43,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) relatif au contrat TEMPO HABITATION Responsabilité civile, une assurance Vie privée portée par MAAF Assurances SA, entreprise régie par le code des assurances (RCS Niort 542 073 580). Le contrat couvre la responsabilité civile des personnes désignées au contrat pour les dommages qu'elles peuvent causer à un tiers. Les garanties de base sont la Responsabilité civile vie privée (plafond 20 000 000 €), la Défense et recours suite à accident (plafond 20 000 €), la Responsabilité civile location occasionnelle (plafond 5 000 000 €), l'Assistance aux personnes et les Renseignements juridiques. Le document précise qu'il ne présente qu'un résumé des principales garanties et exclusions.
 
-- Assureur : [MAAF — a single brand covering four regulated carriers: MAAF Assurances SA (société anonyme, Code des assurances, RCS Niort 542 073 580), MAAF Assurances (société d'assurance mutuelle à cotisations variables, Code des assurances, RCS Niort 781 423 280), MAAF Vie (société anonyme, Code des assurances, RCS Niort 337 804 819) and MAAF Santé (mutuelle du livre II du Code de la mutualité, SIREN 331 542 142). Group Covéa.](../../insurers/MAAF%20%E2%80%94%20a%20single%20brand%20covering%20four%20regulated%20carriers%20-%20MAAF%20Assurances%20SA%20%28soci%C3%A9t%C3%A9%20anonyme%2C%20Code%20des%20assurances%2C%20RCS%20N.md) · Branche : [Responsabilité civile vie privée](../../branches/Responsabilit%C3%A9%20civile%20vie%20priv%C3%A9e.md) · Type : IPID / Fiche d'information · Édition : 2024-06
+- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Responsabilité civile vie privée](../../branches/Responsabilit%C3%A9%20civile%20vie%20priv%C3%A9e.md) · Type : IPID / Fiche d'information · Édition : 2024-06
 
 ## Garanties
 

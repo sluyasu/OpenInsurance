@@ -2,8 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France
-  et des Cadres et Salariés de l''Industrie et du Commerce)]]'
+insurer: '[[Macif]]'
 insurer_slug: macif
 branch: sante
 product_name: Macif Mutuelle Entreprises
@@ -44,7 +43,7 @@ generated: true
 
 Notice d'information d'un contrat collectif de complémentaire santé à adhésion obligatoire, en vigueur au 01/01/2026, souscrit par une entreprise auprès de Macif Santé Prévoyance au profit de ses salariés et de leurs éventuels ayants droit. Le contrat rembourse tout ou partie des frais de santé en complément des prestations en nature de la Sécurité sociale, ainsi que certains frais médicaux non remboursés par elle expressément prévus au tableau de garanties. L'entreprise souscriptrice choisit une formule socle parmi six niveaux (ESSENTIELLE, ESSENTIELLE +, ÉQUILIBRÉE, CONFORT, ÉTENDUE, EXCELLENCE) respectant le panier de soins minimum "ANI" et le 100 % Santé, et chaque salarié peut y ajouter une option facultative à sa charge exclusive. Des garanties d'assistance à domicile (IMA Assurances) et un service de téléconsultation sont inclus dans toutes les formules.
 
-- Assureur : [Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)](../../insurers/Macif%20%28MACIF%20-%20Mutuelle%20Assurance%20des%20Commer%C3%A7ants%20et%20Industriels%20de%20France%20et%20des%20Cadres%20et%20Salari%C3%A9s%20de%20l%27Industrie%20et%20d.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : 2026-01
+- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : 2026-01
 
 ## Définitions
 

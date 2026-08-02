@@ -2,12 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[MAAF — a single brand covering four regulated carriers: MAAF Assurances
-  SA (société anonyme, Code des assurances, RCS Niort 542 073 580), MAAF Assurances
-  (société d''assurance mutuelle à cotisations variables, Code des assurances, RCS
-  Niort 781 423 280), MAAF Vie (société anonyme, Code des assurances, RCS Niort 337
-  804 819) and MAAF Santé (mutuelle du livre II du Code de la mutualité, SIREN 331
-  542 142). Group Covéa.]]'
+insurer: '[[MAAF]]'
 insurer_slug: maaf
 branch: chasse
 product_name: Assurance Vie privée
@@ -45,7 +40,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de deux pages portant l'intitulé « Assurance Vie privée » et la mention « CHASSE », émis par MAAF Assurances SA (entreprise régie par le code des assurances, RCS Niort 542 073 580). Le contrat couvre la responsabilité civile de l'assuré pour les dommages causés à un tiers à l'occasion de la chasse et d'activités annexes, avec défense pénale et recours suite à accident, et propose en option la garantie des dommages aux chiens en action de chasse. Les dommages corporels et la défense pénale sont garantis sans limitation de somme ; les dommages matériels sont plafonnés à 1 524 491 € et le recours à 20 000 €. Le contrat est conclu jusqu'au 30 juin à 24h suivant la souscription et ne se renouvelle pas par tacite reconduction.
 
-- Assureur : [MAAF — a single brand covering four regulated carriers: MAAF Assurances SA (société anonyme, Code des assurances, RCS Niort 542 073 580), MAAF Assurances (société d'assurance mutuelle à cotisations variables, Code des assurances, RCS Niort 781 423 280), MAAF Vie (société anonyme, Code des assurances, RCS Niort 337 804 819) and MAAF Santé (mutuelle du livre II du Code de la mutualité, SIREN 331 542 142). Group Covéa.](../../insurers/MAAF%20%E2%80%94%20a%20single%20brand%20covering%20four%20regulated%20carriers%20-%20MAAF%20Assurances%20SA%20%28soci%C3%A9t%C3%A9%20anonyme%2C%20Code%20des%20assurances%2C%20RCS%20N.md) · Branche : [Chasse](../../branches/Chasse.md) · Type : IPID / Fiche d'information · Édition : 2026-05
+- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Chasse](../../branches/Chasse.md) · Type : IPID / Fiche d'information · Édition : 2026-05
 
 ## Garanties
 

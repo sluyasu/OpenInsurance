@@ -1,485 +1,485 @@
 {
-  "schema_version": "1.0",
-  "prompt_version": "1.1",
-  "country": "fr",
-  "insurer_slug": "macif",
-  "insurer_name": "Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)",
-  "product_name": "Contrat Macif Pann'Auto",
-  "branch": "auto",
-  "branch_code": null,
-  "document_type": "ipid",
-  "language": "fr",
-  "target_audience": null,
-  "target_audience_note": "Le document ne désigne aucune catégorie de clientèle. Il décrit l'objet assuré (« Ce contrat est destiné à couvrir en cas de panne mécanique, électrique ou électronique, les frais de remise en état de fonctionnement du véhicule terrestre à moteur à quatre roues. ») et emploie le mot « sociétaire ». Les usages professionnels sont exclus (transport de voyageurs à titre onéreux ou de marchandises, enseignement de la conduite, location).",
-  "reference": "VEH/GPM/05 12/22",
-  "edition_date": "12/22",
-  "product_family": "Macif Pann'Auto",
-  "variant": null,
-  "is_extension": false,
-  "extends": null,
-  "superseded": null,
-  "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_PanneAuto.pdf",
-  "source_pdf": "contrat-macif-pannauto-c8ddda85.pdf",
-  "source_sha256": "1458837b8f1e18c8e7268b0c7191a3a3c9b425457f8eaf8dd1e4e04cae3fa49f",
-  "source_pages": 2,
-  "fetched_at": "2026-08-01",
-  "extraction_model": "claude-code-subagent:scale",
-  "summary": "Document d'information sur le produit d'assurance (DIPA) du « Contrat Macif Pann'Auto », assuré par Macif - France - Société d'assurance mutuelle à cotisations variables - SIREN n° 781 452 511. Le contrat est destiné à couvrir, en cas de panne mécanique, électrique ou électronique, les frais de remise en état de fonctionnement d'un véhicule terrestre à moteur à quatre roues dont le poids total autorisé en charge est inférieur ou égal à 3,5 tonnes. Les garanties systématiquement prévues portent sur le coût de la main d'œuvre et sur le coût des pièces, le plafond de prise en charge correspondant à la valeur de remplacement du véhicule. Un seuil d'intervention est appliqué en cas de sinistre et les véhicules électriques, hybrides, les voiturettes et les usages professionnels (transport, auto-école, location) sont exclus.",
-  "definitions": [
-    {
-      "term": "Le véhicule assuré",
-      "definition": "Le véhicule terrestre à moteur à quatre roues dont le poids total autorisé en charge est inférieur ou égal à 3,5 tonnes.",
-      "page": 1
-    },
-    {
-      "term": "Coche (pictogramme)",
-      "definition": "Les garanties précédées d'une coche sont systématiquement prévues au contrat.",
-      "page": 1
-    }
-  ],
-  "coverages": [
-    {
-      "name": "Coût de la main d'œuvre",
-      "description": "Le coût de la main d'œuvre liée à la remise en état de fonctionnement du véhicule assuré en cas de panne (panne mécanique, électrique ou électronique). Garantie systématiquement prévue au contrat.",
-      "is_optional": false,
-      "territorial_scope": "En France métropolitaine et dans les DROM, dans l'ensemble des territoires des États membres de l'Union européenne, au Royaume-Uni ainsi que dans les États du Vatican, Saint-Marin, Monaco, Liechtenstein, et dans les pays mentionnés et non rayés sur la carte verte.",
-      "limits": "Le plafond de prise en charge correspond à la valeur de remplacement du véhicule.",
-      "sub_limits": [],
-      "deductible": "En cas de sinistre un seuil d'intervention est appliqué (montant non indiqué dans le document).",
-      "conditions": [
-        "Le véhicule assuré est un véhicule terrestre à moteur à quatre roues dont le poids total autorisé en charge est inférieur ou égal à 3,5 tonnes",
-        "En France métropolitaine, Andorre ou Monaco : présenter le véhicule chez un professionnel de la réparation automobile et faire déposer le devis sur http://macif.pannemecanique.fr ; le réparateur doit attendre l'accord de la plate-forme technique pour procéder aux réparations"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Coût des pièces",
-      "description": "Le coût des pièces nécessaires à la remise en état de fonctionnement du véhicule assuré en cas de panne (panne mécanique, électrique ou électronique).",
-      "is_optional": false,
-      "territorial_scope": "En France métropolitaine et dans les DROM, dans l'ensemble des territoires des États membres de l'Union européenne, au Royaume-Uni ainsi que dans les États du Vatican, Saint-Marin, Monaco, Liechtenstein, et dans les pays mentionnés et non rayés sur la carte verte.",
-      "limits": "Le plafond de prise en charge correspond à la valeur de remplacement du véhicule.",
-      "sub_limits": [],
-      "deductible": "En cas de sinistre un seuil d'intervention est appliqué (montant non indiqué dans le document).",
-      "conditions": [
-        "Le véhicule assuré est un véhicule terrestre à moteur à quatre roues dont le poids total autorisé en charge est inférieur ou égal à 3,5 tonnes",
-        "En France métropolitaine, Andorre ou Monaco : présenter le véhicule chez un professionnel de la réparation automobile et faire déposer le devis sur http://macif.pannemecanique.fr ; le réparateur doit attendre l'accord de la plate-forme technique pour procéder aux réparations"
-      ],
-      "page": 1
-    }
-  ],
-  "exclusions": [
-    {
-      "name": "Véhicules de transport de voyageurs à titre onéreux ou de marchandises",
-      "description": "Les véhicules utilisés pour le transport de voyageurs à titre onéreux ou le transport de marchandises. (rubrique « Qu'est-ce qui n'est pas assuré ? »)",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Véhicules d'auto-école",
-      "description": "Les véhicules utilisés pour l'enseignement de la conduite. (rubrique « Qu'est-ce qui n'est pas assuré ? »)",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Véhicules de location",
-      "description": "Les véhicules mis en location même de courte durée. (rubrique « Qu'est-ce qui n'est pas assuré ? »)",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Véhicules électriques, hybrides et voiturettes",
-      "description": "Les véhicules électriques, hybrides et les voiturettes. (rubrique « Qu'est-ce qui n'est pas assuré ? »)",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Dommages et réparations résultant d'un accident",
-      "description": "Les dommages et réparations résultant d'un accident. (« LES PRINCIPALES EXCLUSIONS » - exclusions communes à toutes les garanties)",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Pannes relevant d'une responsabilité civile professionnelle, contractuelle ou délictuelle",
-      "description": "Les pannes et leurs conséquences relevant d'une responsabilité civile professionnelle, contractuelle ou délictuelle. (« LES PRINCIPALES EXCLUSIONS » - exclusions communes à toutes les garanties)",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Opérations d'entretien, de mise au point ou de réglage",
-      "description": "Les opérations d'entretien, de mise au point ou de réglage du véhicule. (« LES PRINCIPALES EXCLUSIONS » - exclusions communes à toutes les garanties)",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Vices cachés",
-      "description": "Les vices cachés du véhicule et les conséquences de ceux-ci. (« LES PRINCIPALES EXCLUSIONS » - exclusions communes à toutes les garanties)",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Restriction - seuil d'intervention",
-      "description": "En cas de sinistre un seuil d'intervention est appliqué. (« LA PRINCIPALE RESTRICTION ») Le montant du seuil n'est pas indiqué dans le document.",
-      "applies_to": "all",
-      "page": 1
-    }
-  ],
-  "deductibles": {
-    "standard": "En cas de sinistre un seuil d'intervention est appliqué.",
-    "variable": null,
-    "per_coverage": null,
-    "page": 1
+ "schema_version": "1.0",
+ "prompt_version": "1.1",
+ "country": "fr",
+ "insurer_slug": "macif",
+ "insurer_name": "Macif",
+ "product_name": "Contrat Macif Pann'Auto",
+ "branch": "auto",
+ "branch_code": null,
+ "document_type": "ipid",
+ "language": "fr",
+ "target_audience": null,
+ "target_audience_note": "Le document ne désigne aucune catégorie de clientèle. Il décrit l'objet assuré (« Ce contrat est destiné à couvrir en cas de panne mécanique, électrique ou électronique, les frais de remise en état de fonctionnement du véhicule terrestre à moteur à quatre roues. ») et emploie le mot « sociétaire ». Les usages professionnels sont exclus (transport de voyageurs à titre onéreux ou de marchandises, enseignement de la conduite, location).",
+ "reference": "VEH/GPM/05 12/22",
+ "edition_date": "12/22",
+ "product_family": "Macif Pann'Auto",
+ "variant": null,
+ "is_extension": false,
+ "extends": null,
+ "superseded": null,
+ "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_PanneAuto.pdf",
+ "source_pdf": "contrat-macif-pannauto-c8ddda85.pdf",
+ "source_sha256": "1458837b8f1e18c8e7268b0c7191a3a3c9b425457f8eaf8dd1e4e04cae3fa49f",
+ "source_pages": 2,
+ "fetched_at": "2026-08-01",
+ "extraction_model": "claude-code-subagent:scale",
+ "summary": "Document d'information sur le produit d'assurance (DIPA) du « Contrat Macif Pann'Auto », assuré par Macif - France - Société d'assurance mutuelle à cotisations variables - SIREN n° 781 452 511. Le contrat est destiné à couvrir, en cas de panne mécanique, électrique ou électronique, les frais de remise en état de fonctionnement d'un véhicule terrestre à moteur à quatre roues dont le poids total autorisé en charge est inférieur ou égal à 3,5 tonnes. Les garanties systématiquement prévues portent sur le coût de la main d'œuvre et sur le coût des pièces, le plafond de prise en charge correspondant à la valeur de remplacement du véhicule. Un seuil d'intervention est appliqué en cas de sinistre et les véhicules électriques, hybrides, les voiturettes et les usages professionnels (transport, auto-école, location) sont exclus.",
+ "definitions": [
+  {
+   "term": "Le véhicule assuré",
+   "definition": "Le véhicule terrestre à moteur à quatre roues dont le poids total autorisé en charge est inférieur ou égal à 3,5 tonnes.",
+   "page": 1
   },
-  "waiting_periods": [],
-  "obligations": [
-    {
-      "name": "Répondre exactement aux questions de l'assureur",
-      "description": "À la souscription du contrat : répondre exactement aux questions posées par l'assureur.",
-      "timing": "à la souscription du contrat",
-      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Fournir les documents justificatifs",
-      "description": "À la souscription du contrat : fournir tous documents justificatifs demandés.",
-      "timing": "à la souscription du contrat",
-      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Déclarer les circonstances nouvelles aggravant le risque",
-      "description": "En cours de contrat : déclarer dans les 15 jours, à partir du moment où le sociétaire en a connaissance, toutes les circonstances nouvelles et tous les changements qui modifient les renseignements fournis lors de la souscription et qui sont de nature à aggraver le risque assuré ou à en créer un nouveau.",
-      "timing": "en cours de contrat - dans les 15 jours",
-      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Communiquer les autres assureurs",
-      "description": "Dans les deux cas (panne en France métropolitaine / hors de France métropolitaine), vous devez nous transmettre les coordonnées des éventuels assureurs couvrant le même risque.",
-      "timing": "en cas de sinistre",
-      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie",
-      "page": 2
-    }
-  ],
-  "claims_procedure": [
-    {
-      "step": "Panne en France métropolitaine, Andorre ou Monaco - présentation du véhicule",
-      "description": "Présenter votre véhicule chez un professionnel de la réparation automobile.",
-      "deadline": null,
-      "page": 2
-    },
-    {
-      "step": "Panne en France métropolitaine, Andorre ou Monaco - dépôt du devis",
-      "description": "Demander au réparateur de déposer son devis sur le site http://macif.pannemecanique.fr ; le réparateur doit attendre l'accord de notre plate-forme technique pour procéder aux réparations.",
-      "deadline": null,
-      "page": 2
-    },
-    {
-      "step": "Panne hors de France métropolitaine, Andorre ou Monaco - déclaration",
-      "description": "Déclarer la panne par email à macif.sinistre@pannemecanique.fr dès que vous en avez connaissance et au plus tard dans les cinq jours ouvrés.",
-      "deadline": "dès que vous en avez connaissance et au plus tard dans les cinq jours ouvrés",
-      "page": 2
-    },
-    {
-      "step": "Panne hors de France métropolitaine - réparations",
-      "description": "Faire procéder aux réparations sur place auprès d'un professionnel de l'automobile et en régler le montant.",
-      "deadline": null,
-      "page": 2
-    },
-    {
-      "step": "Panne hors de France métropolitaine - pièces justificatives",
-      "description": "Nous faire parvenir, dans un délai de deux mois après les réparations, par email à macif.sinistre@pannemecanique.fr ou à l'adresse Macif Pann'Auto - 31 route de Gachet - 44300 NANTES, la copie du certificat d'immatriculation, l'original de la facture acquittée des réparations, les copies du dernier contrôle technique obligatoire et des deux derniers entretiens du véhicule correspondant aux prescriptions du constructeur.",
-      "deadline": "dans un délai de deux mois après les réparations",
-      "page": 2
-    },
-    {
-      "step": "Dans les deux cas",
-      "description": "Vous devez nous transmettre les coordonnées des éventuels assureurs couvrant le même risque.",
-      "deadline": null,
-      "page": 2
-    }
-  ],
-  "duration_and_cancellation": {
-    "duration": "La couverture commence à partir de la date convenue d'un commun accord et dure jusqu'à la date indiquée aux conditions particulières.",
-    "tacit_renewal": null,
-    "notice_period": "un préavis d'un mois pour la résiliation annuelle à la date anniversaire du contrat",
-    "methods": [
-      "Soit par l'envoi d'un courrier postal ou électronique, soit en effectuant une déclaration auprès d'un conseiller de l'assureur"
-    ],
-    "special_rights": [
-      "Lorsque le contrat a été souscrit par une personne physique à distance ou par démarchage à domicile, l'assuré dispose d'un droit de renonciation.",
-      "Résiliation annuellement à la date anniversaire du contrat, mentionnée aux conditions particulières, avec un préavis d'un mois",
-      "Résiliation en cas de cession du véhicule assuré",
-      "Résiliation si la Macif résilie un autre contrat de l'assuré après sinistre",
-      "Résiliation en cas d'augmentation de la cotisation hors taxes"
-    ],
-    "page": 2
+  {
+   "term": "Coche (pictogramme)",
+   "definition": "Les garanties précédées d'une coche sont systématiquement prévues au contrat.",
+   "page": 1
+  }
+ ],
+ "coverages": [
+  {
+   "name": "Coût de la main d'œuvre",
+   "description": "Le coût de la main d'œuvre liée à la remise en état de fonctionnement du véhicule assuré en cas de panne (panne mécanique, électrique ou électronique). Garantie systématiquement prévue au contrat.",
+   "is_optional": false,
+   "territorial_scope": "En France métropolitaine et dans les DROM, dans l'ensemble des territoires des États membres de l'Union européenne, au Royaume-Uni ainsi que dans les États du Vatican, Saint-Marin, Monaco, Liechtenstein, et dans les pays mentionnés et non rayés sur la carte verte.",
+   "limits": "Le plafond de prise en charge correspond à la valeur de remplacement du véhicule.",
+   "sub_limits": [],
+   "deductible": "En cas de sinistre un seuil d'intervention est appliqué (montant non indiqué dans le document).",
+   "conditions": [
+    "Le véhicule assuré est un véhicule terrestre à moteur à quatre roues dont le poids total autorisé en charge est inférieur ou égal à 3,5 tonnes",
+    "En France métropolitaine, Andorre ou Monaco : présenter le véhicule chez un professionnel de la réparation automobile et faire déposer le devis sur http://macif.pannemecanique.fr ; le réparateur doit attendre l'accord de la plate-forme technique pour procéder aux réparations"
+   ],
+   "page": 1
   },
-  "prescription_period": null,
-  "premium": {
-    "notes": [
-      "La cotisation est payable d'avance à la souscription puis à chaque date anniversaire.",
-      "Elle est exigible annuellement, toutefois un paiement fractionné peut être accordé.",
-      "Le défaut de paiement dans les 10 jours à compter de la date d'échéance pourra entraîner, après une mise en demeure, la suspension des garanties puis la résiliation du contrat.",
-      "Le paiement peut être effectué par versement d'un acompte par carte bancaire puis par prélèvement mensuel SEPA, ou par carte bancaire pour le paiement de la totalité de la cotisation."
-    ],
-    "indexation": null,
-    "page": 2
+  {
+   "name": "Coût des pièces",
+   "description": "Le coût des pièces nécessaires à la remise en état de fonctionnement du véhicule assuré en cas de panne (panne mécanique, électrique ou électronique).",
+   "is_optional": false,
+   "territorial_scope": "En France métropolitaine et dans les DROM, dans l'ensemble des territoires des États membres de l'Union européenne, au Royaume-Uni ainsi que dans les États du Vatican, Saint-Marin, Monaco, Liechtenstein, et dans les pays mentionnés et non rayés sur la carte verte.",
+   "limits": "Le plafond de prise en charge correspond à la valeur de remplacement du véhicule.",
+   "sub_limits": [],
+   "deductible": "En cas de sinistre un seuil d'intervention est appliqué (montant non indiqué dans le document).",
+   "conditions": [
+    "Le véhicule assuré est un véhicule terrestre à moteur à quatre roues dont le poids total autorisé en charge est inférieur ou égal à 3,5 tonnes",
+    "En France métropolitaine, Andorre ou Monaco : présenter le véhicule chez un professionnel de la réparation automobile et faire déposer le devis sur http://macif.pannemecanique.fr ; le réparateur doit attendre l'accord de la plate-forme technique pour procéder aux réparations"
+   ],
+   "page": 1
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Véhicules de transport de voyageurs à titre onéreux ou de marchandises",
+   "description": "Les véhicules utilisés pour le transport de voyageurs à titre onéreux ou le transport de marchandises. (rubrique « Qu'est-ce qui n'est pas assuré ? »)",
+   "applies_to": "all",
+   "page": 1
   },
-  "special_conditions": [
-    {
-      "name": "Porteur de risque",
-      "description": "Compagnie : Macif - France - Société d'assurance mutuelle à cotisations variables - SIREN n° 781 452 511. Macif. Entreprise régie par le Code des assurances. Siège social : 1 rue Jacques Vandier - 79000 Niort.",
-      "page": 1
-    },
-    {
-      "name": "Portée du document",
-      "description": "Ce document d'information présente un résumé des principales garanties et exclusions du produit. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l'information complète sur ce produit dans la documentation pré contractuelle et contractuelle.",
-      "page": 1
-    },
-    {
-      "name": "Accord préalable de la plate-forme technique",
-      "description": "Le réparateur doit attendre l'accord de notre plate-forme technique pour procéder aux réparations (pannes survenues en France métropolitaine, Andorre ou Monaco).",
-      "page": 2
-    },
-    {
-      "name": "Adresse de gestion des sinistres hors France métropolitaine",
-      "description": "macif.sinistre@pannemecanique.fr ou Macif Pann'Auto - 31 route de Gachet - 44300 NANTES.",
-      "page": 2
-    },
-    {
-      "name": "Site de dépôt des devis",
-      "description": "http://macif.pannemecanique.fr",
-      "page": 2
-    }
+  {
+   "name": "Véhicules d'auto-école",
+   "description": "Les véhicules utilisés pour l'enseignement de la conduite. (rubrique « Qu'est-ce qui n'est pas assuré ? »)",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Véhicules de location",
+   "description": "Les véhicules mis en location même de courte durée. (rubrique « Qu'est-ce qui n'est pas assuré ? »)",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Véhicules électriques, hybrides et voiturettes",
+   "description": "Les véhicules électriques, hybrides et les voiturettes. (rubrique « Qu'est-ce qui n'est pas assuré ? »)",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Dommages et réparations résultant d'un accident",
+   "description": "Les dommages et réparations résultant d'un accident. (« LES PRINCIPALES EXCLUSIONS » - exclusions communes à toutes les garanties)",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Pannes relevant d'une responsabilité civile professionnelle, contractuelle ou délictuelle",
+   "description": "Les pannes et leurs conséquences relevant d'une responsabilité civile professionnelle, contractuelle ou délictuelle. (« LES PRINCIPALES EXCLUSIONS » - exclusions communes à toutes les garanties)",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Opérations d'entretien, de mise au point ou de réglage",
+   "description": "Les opérations d'entretien, de mise au point ou de réglage du véhicule. (« LES PRINCIPALES EXCLUSIONS » - exclusions communes à toutes les garanties)",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Vices cachés",
+   "description": "Les vices cachés du véhicule et les conséquences de ceux-ci. (« LES PRINCIPALES EXCLUSIONS » - exclusions communes à toutes les garanties)",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Restriction - seuil d'intervention",
+   "description": "En cas de sinistre un seuil d'intervention est appliqué. (« LA PRINCIPALE RESTRICTION ») Le montant du seuil n'est pas indiqué dans le document.",
+   "applies_to": "all",
+   "page": 1
+  }
+ ],
+ "deductibles": {
+  "standard": "En cas de sinistre un seuil d'intervention est appliqué.",
+  "variable": null,
+  "per_coverage": null,
+  "page": 1
+ },
+ "waiting_periods": [],
+ "obligations": [
+  {
+   "name": "Répondre exactement aux questions de l'assureur",
+   "description": "À la souscription du contrat : répondre exactement aux questions posées par l'assureur.",
+   "timing": "à la souscription du contrat",
+   "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Fournir les documents justificatifs",
+   "description": "À la souscription du contrat : fournir tous documents justificatifs demandés.",
+   "timing": "à la souscription du contrat",
+   "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Déclarer les circonstances nouvelles aggravant le risque",
+   "description": "En cours de contrat : déclarer dans les 15 jours, à partir du moment où le sociétaire en a connaissance, toutes les circonstances nouvelles et tous les changements qui modifient les renseignements fournis lors de la souscription et qui sont de nature à aggraver le risque assuré ou à en créer un nouveau.",
+   "timing": "en cours de contrat - dans les 15 jours",
+   "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Communiquer les autres assureurs",
+   "description": "Dans les deux cas (panne en France métropolitaine / hors de France métropolitaine), vous devez nous transmettre les coordonnées des éventuels assureurs couvrant le même risque.",
+   "timing": "en cas de sinistre",
+   "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie",
+   "page": 2
+  }
+ ],
+ "claims_procedure": [
+  {
+   "step": "Panne en France métropolitaine, Andorre ou Monaco - présentation du véhicule",
+   "description": "Présenter votre véhicule chez un professionnel de la réparation automobile.",
+   "deadline": null,
+   "page": 2
+  },
+  {
+   "step": "Panne en France métropolitaine, Andorre ou Monaco - dépôt du devis",
+   "description": "Demander au réparateur de déposer son devis sur le site http://macif.pannemecanique.fr ; le réparateur doit attendre l'accord de notre plate-forme technique pour procéder aux réparations.",
+   "deadline": null,
+   "page": 2
+  },
+  {
+   "step": "Panne hors de France métropolitaine, Andorre ou Monaco - déclaration",
+   "description": "Déclarer la panne par email à macif.sinistre@pannemecanique.fr dès que vous en avez connaissance et au plus tard dans les cinq jours ouvrés.",
+   "deadline": "dès que vous en avez connaissance et au plus tard dans les cinq jours ouvrés",
+   "page": 2
+  },
+  {
+   "step": "Panne hors de France métropolitaine - réparations",
+   "description": "Faire procéder aux réparations sur place auprès d'un professionnel de l'automobile et en régler le montant.",
+   "deadline": null,
+   "page": 2
+  },
+  {
+   "step": "Panne hors de France métropolitaine - pièces justificatives",
+   "description": "Nous faire parvenir, dans un délai de deux mois après les réparations, par email à macif.sinistre@pannemecanique.fr ou à l'adresse Macif Pann'Auto - 31 route de Gachet - 44300 NANTES, la copie du certificat d'immatriculation, l'original de la facture acquittée des réparations, les copies du dernier contrôle technique obligatoire et des deux derniers entretiens du véhicule correspondant aux prescriptions du constructeur.",
+   "deadline": "dans un délai de deux mois après les réparations",
+   "page": 2
+  },
+  {
+   "step": "Dans les deux cas",
+   "description": "Vous devez nous transmettre les coordonnées des éventuels assureurs couvrant le même risque.",
+   "deadline": null,
+   "page": 2
+  }
+ ],
+ "duration_and_cancellation": {
+  "duration": "La couverture commence à partir de la date convenue d'un commun accord et dure jusqu'à la date indiquée aux conditions particulières.",
+  "tacit_renewal": null,
+  "notice_period": "un préavis d'un mois pour la résiliation annuelle à la date anniversaire du contrat",
+  "methods": [
+   "Soit par l'envoi d'un courrier postal ou électronique, soit en effectuant une déclaration auprès d'un conseiller de l'assureur"
   ],
-  "key_quotes": [
-    {
-      "quote": "Assurance panne automobile \nDocument d’information sur le produit d’assurance.",
-      "page": 1,
-      "context": null
-    },
-    {
-      "quote": "Compagnie : Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511.",
-      "page": 1,
-      "context": null
-    },
-    {
-      "quote": "Produit : Contrat Macif Pann’Auto.",
-      "page": 1,
-      "context": null
-    },
-    {
-      "quote": "V E H/GPM/05 12/22 - Macif. Entreprise régie par le Code des assurances. Siège social : 1 rue Jacques Vandier - 79000 Niort.",
-      "page": 1,
-      "context": null
-    },
-    {
-      "quote": "Ce document d’information présente un résumé des principales garanties et exclusions du produit. Il ne prend pas en compte vos besoins et demandes \nspécifiques. Vous trouverez l’information complète sur ce produit dans la documentation pré contractuelle et contractuelle.",
-      "page": 1,
-      "context": null
-    },
-    {
-      "quote": "Ce contrat est destiné à couvrir en cas de panne mécanique, électrique ou électronique, les frais de remise en état de fonctionnement du véhicule terrestre à \nmoteur à quatre roues.",
-      "page": 1,
-      "context": null
-    },
-    {
-      "quote": "Le véhicule terrestre à moteur à quatre roues dont le poids total autorisé \nen charge est inférieur ou égal à 3,5 tonnes.",
-      "page": 1,
-      "context": null
-    },
-    {
-      "quote": "Le coût de la main d’œuvre liée à la remise en état de fonctionnement du \nvéhicule assuré en cas de panne.",
-      "page": 1,
-      "context": null
-    },
-    {
-      "quote": "Le coût des pièces nécessaires à la remise en état de fonctionnement du \nvéhicule assuré en cas de panne.",
-      "page": 1,
-      "context": null
-    },
-    {
-      "quote": "Le plafond de prise en charge correspond à la valeur de remplacement du \nvéhicule.",
-      "page": 1,
-      "context": null
-    },
-    {
-      "quote": "Les garanties précédées d’une coche  sont systématiquement prévues \nau contrat.",
-      "page": 1,
-      "context": null
-    },
-    {
-      "quote": "Les véhicules utilisés pour le transport de voyageurs à titre onéreux ou \nle transport de marchandises.",
-      "page": 1,
-      "context": null
-    },
-    {
-      "quote": "Les véhicules utilisés pour l’enseignement de la conduite.",
-      "page": 1,
-      "context": null
-    },
-    {
-      "quote": "Les véhicules mis en location même de courte durée.",
-      "page": 1,
-      "context": null
-    },
-    {
-      "quote": "Les véhicules électriques, hybrides et les voiturettes.",
-      "page": 1,
-      "context": null
-    },
-    {
-      "quote": "Yatil des exclusions à la couverture ?",
-      "page": 1,
-      "context": null
-    },
-    {
-      "quote": "Les exclusions communes à toutes les garanties",
-      "page": 1,
-      "context": null
-    },
-    {
-      "quote": "Les dommages et réparations résultant d’un accident.",
-      "page": 1,
-      "context": null
-    },
-    {
-      "quote": "Les pannes et leurs conséquences relevant d’une responsabilité civile \nprofessionnelle, contractuelle ou délictuelle.",
-      "page": 1,
-      "context": null
-    },
-    {
-      "quote": "Les opérations d’entretien, de mise au point ou de réglage du véhicule.",
-      "page": 1,
-      "context": null
-    },
-    {
-      "quote": "Les vices cachés du véhicule et les conséquences de ceux-ci.",
-      "page": 1,
-      "context": null
-    },
-    {
-      "quote": "En cas de sinistre un seuil d’intervention est appliqué.",
-      "page": 1,
-      "context": null
-    },
-    {
-      "quote": "En France métropolitaine et dans les DROM, dans l’ensemble des territoires des États membres de l’Union européenne, au Royaume-Uni ainsi que dans \nles États du Vatican, Saint-Marin, Monaco, Liechtenstein, et dans les pays mentionnés et non rayés sur la carte verte.",
-      "page": 2,
-      "context": null
-    },
-    {
-      "quote": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie :\nÀ la souscription du contrat :",
-      "page": 2,
-      "context": null
-    },
-    {
-      "quote": "répondre exactement aux questions posées par l’assureur ;",
-      "page": 2,
-      "context": null
-    },
-    {
-      "quote": "fournir tous documents justificatifs demandés.",
-      "page": 2,
-      "context": null
-    },
-    {
-      "quote": "déclarer dans les 15 jours, à partir du moment où le sociétaire en a connaissance, toutes les circonstances nouvelles et tous les changements qui \nmodifient les renseignements fournis lors de la souscription et qui sont de nature à aggraver le risque assuré ou à en créer un nouveau.",
-      "page": 2,
-      "context": null
-    },
-    {
-      "quote": "En cas de panne survenue en France métropolitaine, Andorre ou Monaco, vous devez :",
-      "page": 2,
-      "context": null
-    },
-    {
-      "quote": "présenter votre véhicule chez un professionnel de la réparation automobile ;",
-      "page": 2,
-      "context": null
-    },
-    {
-      "quote": "demander au réparateur de déposer son devis sur le site http://macif.pannemecanique.fr ; le réparateur doit attendre l’accord de notre plate-forme \ntechnique pour procéder aux réparations.",
-      "page": 2,
-      "context": null
-    },
-    {
-      "quote": "En cas de panne survenue hors de France métropolitaine, Andorre ou Monaco, vous devez :",
-      "page": 2,
-      "context": null
-    },
-    {
-      "quote": "macif.sinistre@pannemecanique.fr dès que vous en avez connaissance et au plus tard dans les cinq jours ouvrés ;",
-      "page": 2,
-      "context": null
-    },
-    {
-      "quote": "faire procéder aux réparations sur place auprès d’un professionnel de l’automobile et en régler le montant ;",
-      "page": 2,
-      "context": null
-    },
-    {
-      "quote": "nous faire parvenir, dans un délai de deux mois après les réparations, par email à macif.sinistre@pannemecanique.fr ou à l’adresse Macif Pann’Auto - \n31 route de Gachet - 44300 NANTES, la copie du certificat d’immatriculation, l’original de la facture acquittée des réparations, les copies du dernier \ncontrôle technique obligatoire et des deux derniers entretiens du véhicule correspondant aux prescriptions du constructeur.",
-      "page": 2,
-      "context": null
-    },
-    {
-      "quote": "Dans les deux cas, vous devez nous transmettre les coordonnées des éventuels assureurs couvrant le même risque.",
-      "page": 2,
-      "context": null
-    },
-    {
-      "quote": "La cotisation est payable d’avance à la souscription puis à chaque date anniversaire. Elle est exigible annuellement, toutefois un paiement fractionné peut \nêtre accordé. Le défaut de paiement dans les 10 jours à compter de la date d’échéance pourra entraîner, après une mise en demeure, la suspension des \ngaranties puis la résiliation du contrat.",
-      "page": 2,
-      "context": null
-    },
-    {
-      "quote": "Le paiement peut être effectué par versement d’un acompte par carte bancaire puis par prélèvement mensuel SEPA, ou par carte bancaire pour le paiement \nde la totalité de la cotisation.",
-      "page": 2,
-      "context": null
-    },
-    {
-      "quote": "La couverture commence à partir de la date convenue d’un commun accord et dure jusqu’à la date indiquée aux conditions particulières. Lorsque le contrat \na été souscrit par une personne physique à distance ou par démarchage à domicile, l’assuré dispose d’un droit de renonciation.",
-      "page": 2,
-      "context": null
-    },
-    {
-      "quote": "Soit par l’envoi d’un courrier postal ou électronique, soit en effectuant une déclaration auprès d’un conseiller de l’assureur :",
-      "page": 2,
-      "context": null
-    },
-    {
-      "quote": "annuellement à la date anniversaire du contrat, mentionnée aux conditions particulières, avec un préavis d’un mois ;",
-      "page": 2,
-      "context": null
-    },
-    {
-      "quote": "en cas de cession du véhicule assuré ;",
-      "page": 2,
-      "context": null
-    },
-    {
-      "quote": "si la Macif résilie un autre contrat de l’assuré après sinistre ;",
-      "page": 2,
-      "context": null
-    },
-    {
-      "quote": "en cas d’augmentation de la cotisation hors taxes.",
-      "page": 2,
-      "context": null
-    }
+  "special_rights": [
+   "Lorsque le contrat a été souscrit par une personne physique à distance ou par démarchage à domicile, l'assuré dispose d'un droit de renonciation.",
+   "Résiliation annuellement à la date anniversaire du contrat, mentionnée aux conditions particulières, avec un préavis d'un mois",
+   "Résiliation en cas de cession du véhicule assuré",
+   "Résiliation si la Macif résilie un autre contrat de l'assuré après sinistre",
+   "Résiliation en cas d'augmentation de la cotisation hors taxes"
   ],
-  "gaps": [
-    "PORTEUR DE RISQUE : le document nomme « Compagnie : Macif - France - Société d'assurance mutuelle à cotisations variables - SIREN n° 781 452 511 » et, en pied de page, « Macif. Entreprise régie par le Code des assurances. Siège social : 1 rue Jacques Vandier - 79000 Niort. ». C'est donc la Macif SAM (Code des assurances), et non une entité mutualiste du Livre II. Aucune autre entité du groupe n'est citée, aucune autorité de contrôle n'est nommée (l'ACPR n'apparaît pas).",
-    "RÉFÉRENCE / ÉDITION : le document porte le code « VEH/GPM/05 12/22 » page 1. ATTENTION : la couche texte insère des espaces fines U+200A entre les lettres V, E et H (« V E H/GPM/05 12/22 »), artefact de crénage ; le champ reference est normalisé en « VEH/GPM/05 12/22 » tandis que la citation verbatim correspondante conserve les U+200A. Il correspond au format <FAMILLE>/<PRODUIT>/05 MM/AA des documents Macif ; l'édition retenue est donc « 12/22 », lue dans le document. Aucune date figurant dans le nom de fichier CMS n'a été utilisée.",
-    "NATURE DU DOCUMENT : DIPA (IPID), donc un RÉSUMÉ - « Ce document d'information présente un résumé des principales garanties et exclusions du produit. » Les rubriques sont explicitement « LES PRINCIPALES EXCLUSIONS » et « LA PRINCIPALE RESTRICTION » : la liste n'est pas exhaustive et le silence du document ne vaut pas absence de clause dans le contrat.",
-    "DÉFAUT DE COUCHE TEXTE - CARACTÈRES PERDUS : la couche texte laisse tomber des apostrophes et des traits d'union dans trois intertitres, reproduits VERBATIM sans correction : « De quel type d'assurance s agiti l ? » (pour « s'agit-il »), « Yatil des exclusions à la couverture ? » (pour « Y a-t-il »), et « Quand commence la couverture et quand pren\\ntelle fin ? » (pour « prend-elle fin »). Le document devra être ré-extrait si l'éditeur corrige la couche texte.",
-    "DÉFAUT DE COUCHE TEXTE - CARACTÈRES DE CONTRÔLE : 21 occurrences de U+0007 (BEL) et 2 de U+0000 (NUL) résiduels des puces graphiques. Le NUL le plus gênant est collé entre « Yatil des exclusions à la couverture ? » et « LES PRINCIPALES EXCLUSIONS », qui apparaissent ainsi sur une même ligne ; un second sépare « déclarer la panne par email à » de l'adresse « macif.sinistre@pannemecanique.fr ». Les citations verbatim ont été découpées programmatiquement pour les contourner ; ils ne sont ni corrigés ni supprimés dans la source.",
-    "DÉFAUT DE COUCHE TEXTE - PUCES : les puces des listes d'obligations sont restituées par le caractère « ū » (U+016B), et les puces des garanties par une tabulation seule ou par un tiret demi-cadratin « – ». Le pictogramme de la coche verte n'est pas restitué : « Les garanties précédées d'une coche  sont systématiquement prévues au contrat. » comporte un blanc à sa place. Le rattachement des items aux rubriques « assuré » / « pas assuré » a donc été fait d'après les intertitres.",
-    "Le texte contient des espaces insécables (U+00A0, 22 occurrences) avant les signes « ? » et « : », un espace fin U+200A et des apostrophes courbes U+2019 ; les citations ont été découpées programmatiquement dans le texte source pour les préserver.",
-    "TARGET_AUDIENCE laissée à null : le document ne nomme aucune catégorie de clientèle. Il emploie « sociétaire » et exclut les usages professionnels, mais ne dit pas « particuliers ». Le libellé du document est conservé dans target_audience_note.",
-    "MONTANTS ABSENTS : le « seuil d'intervention » appliqué en cas de sinistre est mentionné sans montant ; le plafond n'est pas chiffré non plus (« correspond à la valeur de remplacement du véhicule »). Le montant de la cotisation n'est pas indiqué. Aucun montant n'a été supposé.",
-    "ABSENTS du document, donc laissés vides : délais de carence (waiting_periods), prescription, tacite reconduction (le document indique une durée « jusqu'à la date indiquée aux conditions particulières » et une résiliation annuelle à la date anniversaire, mais ne qualifie pas explicitement la reconduction - tacit_renewal laissé à null), durée du droit de renonciation en vente à distance / démarchage (le droit est mentionné, le délai ne l'est pas), définition contractuelle de « panne ».",
-    "Le siège social est imprimé « 1 rue Jacques Vandier - 79000 Niort » dans ce document ; la graphie de l'assureur est conservée telle quelle, sans correction."
-  ]
+  "page": 2
+ },
+ "prescription_period": null,
+ "premium": {
+  "notes": [
+   "La cotisation est payable d'avance à la souscription puis à chaque date anniversaire.",
+   "Elle est exigible annuellement, toutefois un paiement fractionné peut être accordé.",
+   "Le défaut de paiement dans les 10 jours à compter de la date d'échéance pourra entraîner, après une mise en demeure, la suspension des garanties puis la résiliation du contrat.",
+   "Le paiement peut être effectué par versement d'un acompte par carte bancaire puis par prélèvement mensuel SEPA, ou par carte bancaire pour le paiement de la totalité de la cotisation."
+  ],
+  "indexation": null,
+  "page": 2
+ },
+ "special_conditions": [
+  {
+   "name": "Porteur de risque",
+   "description": "Compagnie : Macif - France - Société d'assurance mutuelle à cotisations variables - SIREN n° 781 452 511. Macif. Entreprise régie par le Code des assurances. Siège social : 1 rue Jacques Vandier - 79000 Niort.",
+   "page": 1
+  },
+  {
+   "name": "Portée du document",
+   "description": "Ce document d'information présente un résumé des principales garanties et exclusions du produit. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l'information complète sur ce produit dans la documentation pré contractuelle et contractuelle.",
+   "page": 1
+  },
+  {
+   "name": "Accord préalable de la plate-forme technique",
+   "description": "Le réparateur doit attendre l'accord de notre plate-forme technique pour procéder aux réparations (pannes survenues en France métropolitaine, Andorre ou Monaco).",
+   "page": 2
+  },
+  {
+   "name": "Adresse de gestion des sinistres hors France métropolitaine",
+   "description": "macif.sinistre@pannemecanique.fr ou Macif Pann'Auto - 31 route de Gachet - 44300 NANTES.",
+   "page": 2
+  },
+  {
+   "name": "Site de dépôt des devis",
+   "description": "http://macif.pannemecanique.fr",
+   "page": 2
+  }
+ ],
+ "key_quotes": [
+  {
+   "quote": "Assurance panne automobile \nDocument d’information sur le produit d’assurance.",
+   "page": 1,
+   "context": null
+  },
+  {
+   "quote": "Compagnie : Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511.",
+   "page": 1,
+   "context": null
+  },
+  {
+   "quote": "Produit : Contrat Macif Pann’Auto.",
+   "page": 1,
+   "context": null
+  },
+  {
+   "quote": "V E H/GPM/05 12/22 - Macif. Entreprise régie par le Code des assurances. Siège social : 1 rue Jacques Vandier - 79000 Niort.",
+   "page": 1,
+   "context": null
+  },
+  {
+   "quote": "Ce document d’information présente un résumé des principales garanties et exclusions du produit. Il ne prend pas en compte vos besoins et demandes \nspécifiques. Vous trouverez l’information complète sur ce produit dans la documentation pré contractuelle et contractuelle.",
+   "page": 1,
+   "context": null
+  },
+  {
+   "quote": "Ce contrat est destiné à couvrir en cas de panne mécanique, électrique ou électronique, les frais de remise en état de fonctionnement du véhicule terrestre à \nmoteur à quatre roues.",
+   "page": 1,
+   "context": null
+  },
+  {
+   "quote": "Le véhicule terrestre à moteur à quatre roues dont le poids total autorisé \nen charge est inférieur ou égal à 3,5 tonnes.",
+   "page": 1,
+   "context": null
+  },
+  {
+   "quote": "Le coût de la main d’œuvre liée à la remise en état de fonctionnement du \nvéhicule assuré en cas de panne.",
+   "page": 1,
+   "context": null
+  },
+  {
+   "quote": "Le coût des pièces nécessaires à la remise en état de fonctionnement du \nvéhicule assuré en cas de panne.",
+   "page": 1,
+   "context": null
+  },
+  {
+   "quote": "Le plafond de prise en charge correspond à la valeur de remplacement du \nvéhicule.",
+   "page": 1,
+   "context": null
+  },
+  {
+   "quote": "Les garanties précédées d’une coche  sont systématiquement prévues \nau contrat.",
+   "page": 1,
+   "context": null
+  },
+  {
+   "quote": "Les véhicules utilisés pour le transport de voyageurs à titre onéreux ou \nle transport de marchandises.",
+   "page": 1,
+   "context": null
+  },
+  {
+   "quote": "Les véhicules utilisés pour l’enseignement de la conduite.",
+   "page": 1,
+   "context": null
+  },
+  {
+   "quote": "Les véhicules mis en location même de courte durée.",
+   "page": 1,
+   "context": null
+  },
+  {
+   "quote": "Les véhicules électriques, hybrides et les voiturettes.",
+   "page": 1,
+   "context": null
+  },
+  {
+   "quote": "Yatil des exclusions à la couverture ?",
+   "page": 1,
+   "context": null
+  },
+  {
+   "quote": "Les exclusions communes à toutes les garanties",
+   "page": 1,
+   "context": null
+  },
+  {
+   "quote": "Les dommages et réparations résultant d’un accident.",
+   "page": 1,
+   "context": null
+  },
+  {
+   "quote": "Les pannes et leurs conséquences relevant d’une responsabilité civile \nprofessionnelle, contractuelle ou délictuelle.",
+   "page": 1,
+   "context": null
+  },
+  {
+   "quote": "Les opérations d’entretien, de mise au point ou de réglage du véhicule.",
+   "page": 1,
+   "context": null
+  },
+  {
+   "quote": "Les vices cachés du véhicule et les conséquences de ceux-ci.",
+   "page": 1,
+   "context": null
+  },
+  {
+   "quote": "En cas de sinistre un seuil d’intervention est appliqué.",
+   "page": 1,
+   "context": null
+  },
+  {
+   "quote": "En France métropolitaine et dans les DROM, dans l’ensemble des territoires des États membres de l’Union européenne, au Royaume-Uni ainsi que dans \nles États du Vatican, Saint-Marin, Monaco, Liechtenstein, et dans les pays mentionnés et non rayés sur la carte verte.",
+   "page": 2,
+   "context": null
+  },
+  {
+   "quote": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie :\nÀ la souscription du contrat :",
+   "page": 2,
+   "context": null
+  },
+  {
+   "quote": "répondre exactement aux questions posées par l’assureur ;",
+   "page": 2,
+   "context": null
+  },
+  {
+   "quote": "fournir tous documents justificatifs demandés.",
+   "page": 2,
+   "context": null
+  },
+  {
+   "quote": "déclarer dans les 15 jours, à partir du moment où le sociétaire en a connaissance, toutes les circonstances nouvelles et tous les changements qui \nmodifient les renseignements fournis lors de la souscription et qui sont de nature à aggraver le risque assuré ou à en créer un nouveau.",
+   "page": 2,
+   "context": null
+  },
+  {
+   "quote": "En cas de panne survenue en France métropolitaine, Andorre ou Monaco, vous devez :",
+   "page": 2,
+   "context": null
+  },
+  {
+   "quote": "présenter votre véhicule chez un professionnel de la réparation automobile ;",
+   "page": 2,
+   "context": null
+  },
+  {
+   "quote": "demander au réparateur de déposer son devis sur le site http://macif.pannemecanique.fr ; le réparateur doit attendre l’accord de notre plate-forme \ntechnique pour procéder aux réparations.",
+   "page": 2,
+   "context": null
+  },
+  {
+   "quote": "En cas de panne survenue hors de France métropolitaine, Andorre ou Monaco, vous devez :",
+   "page": 2,
+   "context": null
+  },
+  {
+   "quote": "macif.sinistre@pannemecanique.fr dès que vous en avez connaissance et au plus tard dans les cinq jours ouvrés ;",
+   "page": 2,
+   "context": null
+  },
+  {
+   "quote": "faire procéder aux réparations sur place auprès d’un professionnel de l’automobile et en régler le montant ;",
+   "page": 2,
+   "context": null
+  },
+  {
+   "quote": "nous faire parvenir, dans un délai de deux mois après les réparations, par email à macif.sinistre@pannemecanique.fr ou à l’adresse Macif Pann’Auto - \n31 route de Gachet - 44300 NANTES, la copie du certificat d’immatriculation, l’original de la facture acquittée des réparations, les copies du dernier \ncontrôle technique obligatoire et des deux derniers entretiens du véhicule correspondant aux prescriptions du constructeur.",
+   "page": 2,
+   "context": null
+  },
+  {
+   "quote": "Dans les deux cas, vous devez nous transmettre les coordonnées des éventuels assureurs couvrant le même risque.",
+   "page": 2,
+   "context": null
+  },
+  {
+   "quote": "La cotisation est payable d’avance à la souscription puis à chaque date anniversaire. Elle est exigible annuellement, toutefois un paiement fractionné peut \nêtre accordé. Le défaut de paiement dans les 10 jours à compter de la date d’échéance pourra entraîner, après une mise en demeure, la suspension des \ngaranties puis la résiliation du contrat.",
+   "page": 2,
+   "context": null
+  },
+  {
+   "quote": "Le paiement peut être effectué par versement d’un acompte par carte bancaire puis par prélèvement mensuel SEPA, ou par carte bancaire pour le paiement \nde la totalité de la cotisation.",
+   "page": 2,
+   "context": null
+  },
+  {
+   "quote": "La couverture commence à partir de la date convenue d’un commun accord et dure jusqu’à la date indiquée aux conditions particulières. Lorsque le contrat \na été souscrit par une personne physique à distance ou par démarchage à domicile, l’assuré dispose d’un droit de renonciation.",
+   "page": 2,
+   "context": null
+  },
+  {
+   "quote": "Soit par l’envoi d’un courrier postal ou électronique, soit en effectuant une déclaration auprès d’un conseiller de l’assureur :",
+   "page": 2,
+   "context": null
+  },
+  {
+   "quote": "annuellement à la date anniversaire du contrat, mentionnée aux conditions particulières, avec un préavis d’un mois ;",
+   "page": 2,
+   "context": null
+  },
+  {
+   "quote": "en cas de cession du véhicule assuré ;",
+   "page": 2,
+   "context": null
+  },
+  {
+   "quote": "si la Macif résilie un autre contrat de l’assuré après sinistre ;",
+   "page": 2,
+   "context": null
+  },
+  {
+   "quote": "en cas d’augmentation de la cotisation hors taxes.",
+   "page": 2,
+   "context": null
+  }
+ ],
+ "gaps": [
+  "PORTEUR DE RISQUE : le document nomme « Compagnie : Macif - France - Société d'assurance mutuelle à cotisations variables - SIREN n° 781 452 511 » et, en pied de page, « Macif. Entreprise régie par le Code des assurances. Siège social : 1 rue Jacques Vandier - 79000 Niort. ». C'est donc la Macif SAM (Code des assurances), et non une entité mutualiste du Livre II. Aucune autre entité du groupe n'est citée, aucune autorité de contrôle n'est nommée (l'ACPR n'apparaît pas).",
+  "RÉFÉRENCE / ÉDITION : le document porte le code « VEH/GPM/05 12/22 » page 1. ATTENTION : la couche texte insère des espaces fines U+200A entre les lettres V, E et H (« V E H/GPM/05 12/22 »), artefact de crénage ; le champ reference est normalisé en « VEH/GPM/05 12/22 » tandis que la citation verbatim correspondante conserve les U+200A. Il correspond au format <FAMILLE>/<PRODUIT>/05 MM/AA des documents Macif ; l'édition retenue est donc « 12/22 », lue dans le document. Aucune date figurant dans le nom de fichier CMS n'a été utilisée.",
+  "NATURE DU DOCUMENT : DIPA (IPID), donc un RÉSUMÉ - « Ce document d'information présente un résumé des principales garanties et exclusions du produit. » Les rubriques sont explicitement « LES PRINCIPALES EXCLUSIONS » et « LA PRINCIPALE RESTRICTION » : la liste n'est pas exhaustive et le silence du document ne vaut pas absence de clause dans le contrat.",
+  "DÉFAUT DE COUCHE TEXTE - CARACTÈRES PERDUS : la couche texte laisse tomber des apostrophes et des traits d'union dans trois intertitres, reproduits VERBATIM sans correction : « De quel type d'assurance s agiti l ? » (pour « s'agit-il »), « Yatil des exclusions à la couverture ? » (pour « Y a-t-il »), et « Quand commence la couverture et quand pren\\ntelle fin ? » (pour « prend-elle fin »). Le document devra être ré-extrait si l'éditeur corrige la couche texte.",
+  "DÉFAUT DE COUCHE TEXTE - CARACTÈRES DE CONTRÔLE : 21 occurrences de U+0007 (BEL) et 2 de U+0000 (NUL) résiduels des puces graphiques. Le NUL le plus gênant est collé entre « Yatil des exclusions à la couverture ? » et « LES PRINCIPALES EXCLUSIONS », qui apparaissent ainsi sur une même ligne ; un second sépare « déclarer la panne par email à » de l'adresse « macif.sinistre@pannemecanique.fr ». Les citations verbatim ont été découpées programmatiquement pour les contourner ; ils ne sont ni corrigés ni supprimés dans la source.",
+  "DÉFAUT DE COUCHE TEXTE - PUCES : les puces des listes d'obligations sont restituées par le caractère « ū » (U+016B), et les puces des garanties par une tabulation seule ou par un tiret demi-cadratin « – ». Le pictogramme de la coche verte n'est pas restitué : « Les garanties précédées d'une coche  sont systématiquement prévues au contrat. » comporte un blanc à sa place. Le rattachement des items aux rubriques « assuré » / « pas assuré » a donc été fait d'après les intertitres.",
+  "Le texte contient des espaces insécables (U+00A0, 22 occurrences) avant les signes « ? » et « : », un espace fin U+200A et des apostrophes courbes U+2019 ; les citations ont été découpées programmatiquement dans le texte source pour les préserver.",
+  "TARGET_AUDIENCE laissée à null : le document ne nomme aucune catégorie de clientèle. Il emploie « sociétaire » et exclut les usages professionnels, mais ne dit pas « particuliers ». Le libellé du document est conservé dans target_audience_note.",
+  "MONTANTS ABSENTS : le « seuil d'intervention » appliqué en cas de sinistre est mentionné sans montant ; le plafond n'est pas chiffré non plus (« correspond à la valeur de remplacement du véhicule »). Le montant de la cotisation n'est pas indiqué. Aucun montant n'a été supposé.",
+  "ABSENTS du document, donc laissés vides : délais de carence (waiting_periods), prescription, tacite reconduction (le document indique une durée « jusqu'à la date indiquée aux conditions particulières » et une résiliation annuelle à la date anniversaire, mais ne qualifie pas explicitement la reconduction - tacit_renewal laissé à null), durée du droit de renonciation en vente à distance / démarchage (le droit est mentionné, le délai ne l'est pas), définition contractuelle de « panne ».",
+  "Le siège social est imprimé « 1 rue Jacques Vandier - 79000 Niort » dans ce document ; la graphie de l'assureur est conservée telle quelle, sans correction."
+ ]
 }

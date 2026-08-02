@@ -2,8 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France
-  et des Cadres et Salariés de l''Industrie et du Commerce)]]'
+insurer: '[[Macif]]'
 insurer_slug: macif
 branch: emprunteur
 product_name: Assurance Découvert Autorisé
@@ -45,7 +44,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (DIPA) du contrat « Assurance Découvert », contrat collectif à adhésion facultative souscrit par la Banque (SOCRAM Banque) auprès de l'assureur, et assuré par Apivia Macif Mutuelle (SIREN n°779 558 501), mutuelle régie par le Livre II du Code de la mutualité. Il couvre le titulaire et le co-titulaire d'un compte de dépôt bénéficiant d'un découvert autorisé contre les risques de décès et d'invalidité absolue et définitive consécutifs à une maladie ou à un accident. En cas de sinistre, l'assureur verse à la Banque, bénéficiaire du contrat, un capital égal au montant du découvert autorisé constaté au jour du sinistre, dans la limite du découvert accordé, qui ne peut excéder 3 000 €. Le contrat est annuel, à tacite reconduction, avec un délai de renonciation de 30 jours.
 
-- Assureur : [Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)](../../insurers/Macif%20%28MACIF%20-%20Mutuelle%20Assurance%20des%20Commer%C3%A7ants%20et%20Industriels%20de%20France%20et%20des%20Cadres%20et%20Salari%C3%A9s%20de%20l%27Industrie%20et%20d.md) · Branche : [Assurance emprunteur](../../branches/Assurance%20emprunteur.md) · Type : IPID / Fiche d'information · Édition : 12/20
+- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Assurance emprunteur](../../branches/Assurance%20emprunteur.md) · Type : IPID / Fiche d'information · Édition : 12/20
 
 ## Définitions
 

@@ -2,12 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[MAAF — a single brand covering four regulated carriers: MAAF Assurances
-  SA (société anonyme, Code des assurances, RCS Niort 542 073 580), MAAF Assurances
-  (société d''assurance mutuelle à cotisations variables, Code des assurances, RCS
-  Niort 781 423 280), MAAF Vie (société anonyme, Code des assurances, RCS Niort 337
-  804 819) and MAAF Santé (mutuelle du livre II du Code de la mutualité, SIREN 331
-  542 142). Group Covéa.]]'
+insurer: '[[MAAF]]'
 insurer_slug: maaf
 branch: multirisque-professionnelle
 product_name: SYNDICATS PROFESSIONNELS ARTISANAUX — INTERCALAIRE
@@ -53,7 +48,7 @@ generated: true
 
 Intercalaire MAAF Assurances SA destiné aux syndicats professionnels artisanaux. À la différence d'un intercalaire d'ajout, celui-ci se substitue aux garanties « Vos responsabilités » (articles 6 à 10) des Conditions générales Multirisque professionnelle référencées 11031. Il réécrit la garantie responsabilité civile exploitation (article 6, avec ses volets à l'égard des tiers et à l'égard des préposés), la garantie responsabilité civile professionnelle (article 7, couvrant missions de représentation, conseil technique, conseil juridique, formation et atteinte accidentelle à l'environnement), les modalités d'application (article 8 : montants, déclenchement en base réclamation, étendue territoriale, déchéance) et les exclusions communes (article 9). Il se clôt par un lexique qui complète celui des Conditions générales et s'y substitue en cas de contradiction.
 
-- Assureur : [MAAF — a single brand covering four regulated carriers: MAAF Assurances SA (société anonyme, Code des assurances, RCS Niort 542 073 580), MAAF Assurances (société d'assurance mutuelle à cotisations variables, Code des assurances, RCS Niort 781 423 280), MAAF Vie (société anonyme, Code des assurances, RCS Niort 337 804 819) and MAAF Santé (mutuelle du livre II du Code de la mutualité, SIREN 331 542 142). Group Covéa.](../../insurers/MAAF%20%E2%80%94%20a%20single%20brand%20covering%20four%20regulated%20carriers%20-%20MAAF%20Assurances%20SA%20%28soci%C3%A9t%C3%A9%20anonyme%2C%20Code%20des%20assurances%2C%20RCS%20N.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : Conditions générales · Édition : 03/24
+- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : Conditions générales · Édition : 03/24
 
 ## Définitions
 

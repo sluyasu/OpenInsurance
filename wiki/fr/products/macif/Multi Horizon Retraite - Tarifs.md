@@ -2,8 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France
-  et des Cadres et Salariés de l''Industrie et du Commerce)]]'
+insurer: '[[Macif]]'
 insurer_slug: macif
 branch: retraite
 product_name: Multi Horizon Retraite
@@ -41,7 +40,7 @@ generated: true
 
 Tableau standardisé des frais du plan d'épargne retraite Multi Horizon Retraite, sur une page. Il présente le montant minimal de versement initial (150 €), les frais d'adhésion à l'association souscriptrice (0 €), les frais annuels (gestion du plan par support, gestion des fonds en gestion libre et en gestion pilotée par horizon, avec la part rétrocédée au distributeur) et les frais ponctuels par opération (versement, changement de mode de gestion, arbitrage, transfert sortant, versements de rente, rachat). Le contrat est souscrit par l'AGEPER et assuré par Mutavie SE. Le document ne décrit ni les garanties ni les modalités contractuelles : il ne porte que sur les frais du dernier exercice clos.
 
-- Assureur : [Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)](../../insurers/Macif%20%28MACIF%20-%20Mutuelle%20Assurance%20des%20Commer%C3%A7ants%20et%20Industriels%20de%20France%20et%20des%20Cadres%20et%20Salari%C3%A9s%20de%20l%27Industrie%20et%20d.md) · Branche : [Retraite supplémentaire](../../branches/Retraite%20suppl%C3%A9mentaire.md) · Type : Conditions tarifaires · Édition : 2022-04
+- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Retraite supplémentaire](../../branches/Retraite%20suppl%C3%A9mentaire.md) · Type : Conditions tarifaires · Édition : 2022-04
 
 ## Définitions
 

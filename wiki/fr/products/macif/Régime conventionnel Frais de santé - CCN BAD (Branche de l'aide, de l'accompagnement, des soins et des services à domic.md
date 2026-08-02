@@ -2,8 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France
-  et des Cadres et Salariés de l''Industrie et du Commerce)]]'
+insurer: '[[Macif]]'
 insurer_slug: macif
 branch: sante
 product_name: Régime conventionnel Frais de santé - CCN BAD (Branche de l'aide, de
@@ -49,7 +48,7 @@ generated: true
 
 Notice d'information valant conditions générales du régime conventionnel obligatoire de remboursement complémentaire des frais de santé institué par la Convention collective nationale de la branche de l'aide, de l'accompagnement, des soins et des services à domicile (BAD) du 21 mai 2010 et ses avenants (IDCC 2941). Le régime comporte une formule de base obligatoire « Base prime » et deux niveaux facultatifs surcomplémentaires « Confort » et « Confort Plus », avec extension facultative aux ayants droit. Les garanties respectent le cahier des charges des contrats responsables et couvrent l'hospitalisation, les soins courants, le dentaire, l'optique, les aides auditives, la prévention et les cures thermales, ainsi qu'un fonds d'action sociale de branche. Le document est commun à sept Organismes Assureurs co-désignés, parmi lesquels Apivia Macif-Mutuelle ; l'entreprise adhère à l'organisme de son choix.
 
-- Assureur : [Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)](../../insurers/Macif%20%28MACIF%20-%20Mutuelle%20Assurance%20des%20Commer%C3%A7ants%20et%20Industriels%20de%20France%20et%20des%20Cadres%20et%20Salari%C3%A9s%20de%20l%27Industrie%20et%20d.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : V01.01.2023
+- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : V01.01.2023
 
 ## Définitions
 

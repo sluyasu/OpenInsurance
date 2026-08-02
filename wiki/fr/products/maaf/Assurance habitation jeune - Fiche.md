@@ -2,12 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[MAAF — a single brand covering four regulated carriers: MAAF Assurances
-  SA (société anonyme, Code des assurances, RCS Niort 542 073 580), MAAF Assurances
-  (société d''assurance mutuelle à cotisations variables, Code des assurances, RCS
-  Niort 781 423 280), MAAF Vie (société anonyme, Code des assurances, RCS Niort 337
-  804 819) and MAAF Santé (mutuelle du livre II du Code de la mutualité, SIREN 331
-  542 142). Group Covéa.]]'
+insurer: '[[MAAF]]'
 insurer_slug: maaf
 branch: habitation
 product_name: Assurance habitation jeune
@@ -48,7 +43,7 @@ generated: true
 
 Tableau de garanties de deux pages comparant les deux formules de l'assurance habitation jeune MAAF, rattachée au contrat TEMPO JEUNES : « Formule Logement » et « Formule Tous risques ». Il énumère vingt-trois lignes de garanties réparties en quatre rubriques : « Votre assurance personnelle » (frais de santé, individuelle accident, annulation de voyage, capital études, équipement professionnel, matériel de stage confié), « Votre responsabilité civile » (responsabilité civile vie privée, défense, recours), « Vos garanties logement » (responsabilité civile habitation, incendie, dégâts des eaux, bris de vitres, tempête, vol, dommages électriques, garanties complémentaires, garanties hors domicile, catastrophes naturelles et technologiques, terrorisme) et « Vos prestations d’assistance » (assistance aux personnes, assistance à domicile hors DROM). Aucun plafond, aucune franchise et aucune exclusion n'y figurent : le document renvoie aux conditions générales du contrat TEMPO JEUNES.
 
-- Assureur : [MAAF — a single brand covering four regulated carriers: MAAF Assurances SA (société anonyme, Code des assurances, RCS Niort 542 073 580), MAAF Assurances (société d'assurance mutuelle à cotisations variables, Code des assurances, RCS Niort 781 423 280), MAAF Vie (société anonyme, Code des assurances, RCS Niort 337 804 819) and MAAF Santé (mutuelle du livre II du Code de la mutualité, SIREN 331 542 142). Group Covéa.](../../insurers/MAAF%20%E2%80%94%20a%20single%20brand%20covering%20four%20regulated%20carriers%20-%20MAAF%20Assurances%20SA%20%28soci%C3%A9t%C3%A9%20anonyme%2C%20Code%20des%20assurances%2C%20RCS%20N.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Fiche produit · Édition : 06/2023
+- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Fiche produit · Édition : 06/2023
 
 ## Garanties
 
