@@ -13,7 +13,7 @@ target_audience_note: Le document ne nomme pas explicitement sa cible. Il mentio
   » et réserve deux facultés de résiliation « pour les contrats couvrant les personnes
   physiques en dehors de leurs activités professionnelles ».
 reference: null
-edition_date: '2026'
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/agricole
@@ -29,7 +29,7 @@ prompt_version: '1.1'
 product_family: assurance-engins-agricoles
 variant: null
 edition_status: null
-edition_age_years: 0
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -43,7 +43,7 @@ generated: true
 
 L'assurance Engins agricoles de Thélem assurances a pour objectif de garantir le souscripteur contre les conséquences des dommages matériels ou corporels causés par son véhicule automoteur et les matériels tractés à un tiers (responsabilité civile) ; c'est une assurance obligatoire. Sont assurés les véhicules automoteurs de type engins agricoles ainsi que les remorques et matériels lorsqu'ils sont attelés. Le contrat inclut également la couverture des dommages corporels du conducteur, les dommages aux matériels tractés ainsi que les marchandises et animaux transportés. Selon les formules souscrites, il couvre aussi les dommages matériels au véhicule automoteur (bris de glaces, incendie, vol, tous accidents, bris mécaniques, etc.).
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Assurance agricole](../../branches/Assurance%20agricole.md) · Type : IPID / Fiche d'information · Édition : 2026
+- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Assurance agricole](../../branches/Assurance%20agricole.md) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -199,6 +199,7 @@ Dommages subis par les engins agricoles résultant de bris accidentels.
 - Le texte de la garantie « Dommages subis les remorques dételées » est reproduit tel qu'imprimé (la préposition « par » manque dans le document source).
 - Les garanties sont nommées en page 1 et leurs portées territoriales en page 2 ; le champ `page` des garanties cite la page 1, où la garantie est nommée.
 - Le texte extrait du PDF comporte de nombreux sauts de ligne au milieu des phrases (mise en page en colonnes) ; les descriptions ont été recomposées sans modifier les termes employés.
+- edition_date remise a null le 2026-08-01: la valeur 2026 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

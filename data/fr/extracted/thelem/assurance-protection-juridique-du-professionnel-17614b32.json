@@ -1,532 +1,533 @@
 {
-  "schema_version": "1.0",
-  "prompt_version": "1.1",
-  "country": "fr",
-  "insurer_slug": "thelem",
-  "insurer_name": "Thélem assurances",
-  "product_name": "Assurance Protection Juridique du Professionnel",
-  "branch": "protection-juridique",
-  "branch_code": null,
-  "document_type": "ipid",
-  "language": "fr",
-  "target_audience": "entreprises",
-  "target_audience_note": "Bénéficiaire : souscripteur du contrat (personne physique ou morale). Les litiges couverts sont ceux survenant dans le cadre de l’activité professionnelle déclarée (chef d’entreprise).",
-  "reference": null,
-  "edition_date": "2026-01",
-  "product_family": "Assurance Protection Juridique du Professionnel",
-  "variant": null,
-  "is_extension": false,
-  "extends": null,
-  "superseded": null,
-  "source_url": "https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_PJ-PRO_012026.pdf",
-  "source_pdf": "assurance-protection-juridique-du-professionnel-17614b32.pdf",
-  "source_sha256": "65444f9ca53b8d1f4126c41f0019a2c34ccd225c10faad005e4f9e76183a30ea",
-  "source_pages": 2,
-  "fetched_at": "2026-07-30",
-  "extraction_model": "claude-code-subagent:scale",
-  "summary": "L’Assurance Protection Juridique du Professionnel met à disposition une équipe de juristes (téléphone, internet) pour répondre à toutes questions, défendre les droits des assurés et les accompagner ; elle prend également en charge les frais engagés en cas de procédure. Elle couvre la défense des droits de l’assuré, avec conseil et accompagnement en vue de la résolution amiable ou judiciaire du litige (en demande ou en défense) et prise en charge des frais engagés ou diligentés, avec accord préalable de l’assureur, dans la limite de 20 000 € par litige. Les litiges garantis sont ceux survenant dans le cadre de l’activité professionnelle déclarée : infraction liée au statut de chef d’entreprise, relations avec les administrations, relations contractuelles, relations avec les concurrents et les salariés, protection des salariés et protection des droits en qualité de locataire, propriétaire ou occupant des locaux professionnels. Le recouvrement de créances est également prévu, sa prise en charge étant limitée à 3 000 € sous réserve d’une franchise de 10% maximum 800 €.",
-  "definitions": [
-    {
-      "term": "Bénéficiaire",
-      "definition": "Souscripteur du contrat (personne physique ou morale).",
-      "page": 1
-    },
-    {
-      "term": "Le recouvrement de créances",
-      "definition": "Prise en charge des litiges dans lequel l’assuré est conduit à réclamer le paiement d’une créance constituée d’une ou plusieurs factures.",
-      "page": 1
-    }
-  ],
-  "coverages": [
-    {
-      "name": "Assistance juridique par une équipe de juristes",
-      "description": "Cette assurance met à disposition une équipe de juristes (téléphone, internet) pour répondre à toutes questions, défendre les droits des assurés et les accompagner. Elle prend également en charge les frais engagés en cas de procédure.",
-      "is_optional": false,
-      "territorial_scope": "Litiges relevant de la compétence des tribunaux des pays membres de l’Union Européenne, Andorre, Islande, Liechtenstein, Monaco, Norvège, Saint-Marin, Vatican et Suisse.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "La défense des droits de l’assuré",
-      "description": "Conseil et accompagnement de l’assuré en vue de la résolution amiable ou judiciaire du litige (en demande ou en défense) ; prise en charge des frais engagés ou diligentés, avec notre accord préalable, en cas de litige.",
-      "is_optional": false,
-      "territorial_scope": "Litiges relevant de la compétence des tribunaux des pays membres de l’Union Européenne, Andorre, Islande, Liechtenstein, Monaco, Norvège, Saint-Marin, Vatican et Suisse.",
-      "limits": "dans la limite de 20 000 € par litige",
-      "sub_limits": [
-        "Le coût des enquêtes, des consultations, des constats d’huissier",
-        "Le coût des expertises amiables ou judiciaires",
-        "Les frais et honoraires d’avocat ou de toute personne habilitée à défendre les intérêts de l’assuré devant toute juridiction",
-        "Les honoraires et frais de l’avocat intervenant pour l’assuré sont pris en charge à concurrence des montants indiqués dans le tableau visé au contrat"
-      ],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge des frais engagés ou diligentés, avec notre accord préalable",
-        "Bénéficiaire : souscripteur du contrat (personne physique ou morale)",
-        "Garantie systématiquement prévue au contrat (précédée d’une coche)"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Les litiges survenant dans le cadre de l’activité professionnelle déclarée",
-      "description": "Prise en charge des litiges survenant dans le cadre de l’activité professionnelle déclarée.",
-      "is_optional": false,
-      "territorial_scope": "Litiges relevant de la compétence des tribunaux des pays membres de l’Union Européenne, Andorre, Islande, Liechtenstein, Monaco, Norvège, Saint-Marin, Vatican et Suisse.",
-      "limits": "dans la limite de 20 000 € par litige",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Le litige doit survenir dans le cadre de l’activité professionnelle déclarée",
-        "Garantie systématiquement prévue au contrat (précédée d’une coche)"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Infraction liée au statut de chef d’entreprise",
-      "description": "Litiges liés à une infraction liée au statut de chef d’entreprise (faute de gestion, publicité illicite, délit d’entrave…).",
-      "is_optional": false,
-      "territorial_scope": "Litiges relevant de la compétence des tribunaux des pays membres de l’Union Européenne, Andorre, Islande, Liechtenstein, Monaco, Norvège, Saint-Marin, Vatican et Suisse.",
-      "limits": "dans la limite de 20 000 € par litige",
-      "sub_limits": [
-        "faute de gestion",
-        "publicité illicite",
-        "délit d’entrave…"
-      ],
-      "deductible": null,
-      "conditions": [
-        "Garantie systématiquement prévue au contrat (précédée d’une coche)"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Relations avec les administrations",
-      "description": "Litiges dans les relations avec les administrations : Administration fiscale, En matière sociale (litige résultant de l’affiliation, du calcul ou paiement des charges sociale), En matière disciplinaire.",
-      "is_optional": false,
-      "territorial_scope": "Litiges relevant de la compétence des tribunaux des pays membres de l’Union Européenne, Andorre, Islande, Liechtenstein, Monaco, Norvège, Saint-Marin, Vatican et Suisse.",
-      "limits": "dans la limite de 20 000 € par litige",
-      "sub_limits": [
-        "Administration fiscale",
-        "En matière sociale (litige résultant de l’affiliation, du calcul ou paiement des charges sociale)",
-        "En matière disciplinaire"
-      ],
-      "deductible": null,
-      "conditions": [
-        "Garantie systématiquement prévue au contrat (précédée d’une coche)"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Relations contractuelles",
-      "description": "Litiges dans les relations contractuelles : avec les clients (inexécution du contrat de fourniture, défaut affectant un produit vendu), avec les fournisseurs (défaut affectant le produit, inexécution d’un contrat de service), avec les entreprises (travaux d’entretien des locaux professionnels non soumis à l’obligation d’assurance).",
-      "is_optional": false,
-      "territorial_scope": "Litiges relevant de la compétence des tribunaux des pays membres de l’Union Européenne, Andorre, Islande, Liechtenstein, Monaco, Norvège, Saint-Marin, Vatican et Suisse.",
-      "limits": "dans la limite de 20 000 € par litige",
-      "sub_limits": [
-        "Avec les clients (inexécution du contrat de fourniture, défaut affectant un produit vendu)",
-        "Avec les fournisseurs (défaut affectant le produit, inexécution d’un contrat de service)",
-        "Avec les entreprises (travaux d’entretien des locaux professionnels non soumis à l’obligation d’assurance)"
-      ],
-      "deductible": null,
-      "conditions": [
-        "Garantie systématiquement prévue au contrat (précédée d’une coche)"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Relations avec les concurrents",
-      "description": "Litiges dans les relations avec les concurrents.",
-      "is_optional": false,
-      "territorial_scope": "Litiges relevant de la compétence des tribunaux des pays membres de l’Union Européenne, Andorre, Islande, Liechtenstein, Monaco, Norvège, Saint-Marin, Vatican et Suisse.",
-      "limits": "dans la limite de 20 000 € par litige",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Garantie systématiquement prévue au contrat (précédée d’une coche)"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Relations avec les salariés",
-      "description": "Litiges dans les relations avec les salariés.",
-      "is_optional": false,
-      "territorial_scope": "Litiges relevant de la compétence des tribunaux des pays membres de l’Union Européenne, Andorre, Islande, Liechtenstein, Monaco, Norvège, Saint-Marin, Vatican et Suisse.",
-      "limits": "dans la limite de 20 000 € par litige",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Garantie systématiquement prévue au contrat (précédée d’une coche)"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Protection des salariés",
-      "description": "Protection des salariés.",
-      "is_optional": false,
-      "territorial_scope": "Litiges relevant de la compétence des tribunaux des pays membres de l’Union Européenne, Andorre, Islande, Liechtenstein, Monaco, Norvège, Saint-Marin, Vatican et Suisse.",
-      "limits": "dans la limite de 20 000 € par litige",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Garantie systématiquement prévue au contrat (précédée d’une coche)"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Protection des droits en qualité de locataire, propriétaire des locaux professionnels",
-      "description": "Protection des droits en qualité de locataire, propriétaire des locaux professionnels.",
-      "is_optional": false,
-      "territorial_scope": "Litiges relevant de la compétence des tribunaux des pays membres de l’Union Européenne, Andorre, Islande, Liechtenstein, Monaco, Norvège, Saint-Marin, Vatican et Suisse.",
-      "limits": "dans la limite de 20 000 € par litige",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Garantie systématiquement prévue au contrat (précédée d’une coche)"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Protection des droits en tant qu’occupant des locaux professionnels",
-      "description": "Protection des droits en tant qu’occupant des locaux professionnels.",
-      "is_optional": false,
-      "territorial_scope": "Litiges relevant de la compétence des tribunaux des pays membres de l’Union Européenne, Andorre, Islande, Liechtenstein, Monaco, Norvège, Saint-Marin, Vatican et Suisse.",
-      "limits": "dans la limite de 20 000 € par litige",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Garantie systématiquement prévue au contrat (précédée d’une coche)"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Le recouvrement de créances",
-      "description": "Prise en charge des litiges dans lequel l’assuré est conduit à réclamer le paiement d’une créance constituée d’une ou plusieurs factures.",
-      "is_optional": true,
-      "territorial_scope": "Litiges relevant de la compétence des tribunaux des pays membres de l’Union Européenne, Andorre, Islande, Liechtenstein, Monaco, Norvège, Saint-Marin, Vatican et Suisse.",
-      "limits": "La prise en charge des litiges recouvrement de créances est limitée à 3 000 € sous réserve d’une franchise de 10% maximum 800 €",
-      "sub_limits": [],
-      "deductible": "une franchise de 10% maximum 800 €",
-      "conditions": [
-        "Les litiges dont l’enjeu financier est inférieur à 300 € ou 1 000 € pour le recouvrement de créances ne sont pas pris en charge",
-        "Cette garantie n’est pas précédée d’une coche dans la liste des garanties"
-      ],
-      "page": 1
-    }
-  ],
-  "exclusions": [
-    {
-      "name": "Litige connu avant la prise d’effet ou après l’expiration du contrat",
-      "description": "Lorsque l’origine du litige est portée à la connaissance de l’assuré avant la prise d’effet ou après l’expiration du contrat.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Litige provoqué intentionnellement",
-      "description": "Tout litige provoqué intentionnellement par l’assuré ou avec sa complicité.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Conflit collectif du travail",
-      "description": "Lorsque le litige résulte d’un conflit collectif du travail.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Accident de la circulation impliquant le véhicule terrestre à moteur de l’assuré",
-      "description": "Lorsque le litige résulte d’un accident de la circulation impliquant le véhicule terrestre à moteur de l’assuré.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Protection des brevets, titres de propriété industrielle ou droits d’auteur ; donneur d’aval, caution, cessionnaire de droits",
-      "description": "Lorsque le litige résulte de la protection des brevets, titres de propriété industrielle ou droits d’auteur, de la qualité de donneur d’aval, de caution, de cessionnaire de droits.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Qualité de bailleur de tous biens immobiliers",
-      "description": "Lorsque le litige résulte de la qualité de bailleur de tous biens immobiliers.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Livre I du Code civil, régimes matrimoniaux, successions et donations entre vifs",
-      "description": "Lorsque le litige résulte de l’application du livre I du Code civil ainsi que les régimes matrimoniaux, successions et donations entre vifs.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Expression d’opinions politiques, syndicales, religieuses",
-      "description": "Lorsque le litige résulte de l’expression par l’assuré ou préposés d’opinions politiques, syndicales, religieuses.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Amendes et sommes dues aux tiers",
-      "description": "Les amendes et les sommes de toute nature que l’assuré est dans l’obligation de régler ou rembourser aux tiers.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Frais et dépens engagés par le tiers",
-      "description": "Les frais et dépens engagés par le tiers et mis à sa charge.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Frais et interventions rendus nécessaires ou aggravées du seul fait de l’assuré",
-      "description": "Les frais et interventions rendus nécessaires ou aggravées du seul fait de l’assuré.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Enquêtes pour identifier ou retrouver le ou les tiers",
-      "description": "Les enquêtes pour identifier ou retrouver le ou les tiers.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Restriction : litiges avec l’administration fiscale en cas de sanctions fiscales",
-      "description": "Les litiges avec l’administration fiscale si des sanctions fiscales sont appliquées à l’assuré.",
-      "applies_to": "Relations avec les administrations",
-      "page": 1
-    },
-    {
-      "name": "Restriction : litiges liés à des travaux de construction",
-      "description": "Les litiges liés à des travaux de construction au-delà de 150 000 € HT s’ils surviennent avant la réception des travaux, sachant que les travaux de construction soumis à l’obligation d’assurance (L242-1 du code des assurances) sont toujours exclus.",
-      "applies_to": "Relations contractuelles",
-      "page": 1
-    },
-    {
-      "name": "Restriction : litiges avec les concurrents portant sur un titre de propriété intellectuelle",
-      "description": "Les litiges avec les concurrents portant sur un titre de propriété intellectuelle, brevet ou droit d’auteur.",
-      "applies_to": "Relations avec les concurrents",
-      "page": 1
-    },
-    {
-      "name": "Restriction : seuil d’intervention (enjeu financier)",
-      "description": "Les litiges dont l’enjeu financier est inférieur à 300 € ou 1 000 € pour le recouvrement de créances.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Restriction : plafond et franchise du recouvrement de créances",
-      "description": "La prise en charge des litiges recouvrement de créances est limitée à 3 000 € sous réserve d’une franchise de 10% maximum 800 €.",
-      "applies_to": "Le recouvrement de créances",
-      "page": 1
-    },
-    {
-      "name": "Restriction : plafonnement des honoraires et frais d’avocat",
-      "description": "Les honoraires et frais de l’avocat intervenant pour l’assuré sont pris en charge à concurrence des montants indiqués dans le tableau visé au contrat.",
-      "applies_to": "La défense des droits de l’assuré",
-      "page": 1
-    }
-  ],
-  "deductibles": {
-    "standard": null,
-    "variable": null,
-    "per_coverage": {
-      "Le recouvrement de créances": "une franchise de 10% maximum 800 €"
-    },
-    "page": 1
+ "schema_version": "1.0",
+ "prompt_version": "1.1",
+ "country": "fr",
+ "insurer_slug": "thelem",
+ "insurer_name": "Thélem assurances",
+ "product_name": "Assurance Protection Juridique du Professionnel",
+ "branch": "protection-juridique",
+ "branch_code": null,
+ "document_type": "ipid",
+ "language": "fr",
+ "target_audience": "entreprises",
+ "target_audience_note": "Bénéficiaire : souscripteur du contrat (personne physique ou morale). Les litiges couverts sont ceux survenant dans le cadre de l’activité professionnelle déclarée (chef d’entreprise).",
+ "reference": null,
+ "edition_date": null,
+ "product_family": "Assurance Protection Juridique du Professionnel",
+ "variant": null,
+ "is_extension": false,
+ "extends": null,
+ "superseded": null,
+ "source_url": "https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_PJ-PRO_012026.pdf",
+ "source_pdf": "assurance-protection-juridique-du-professionnel-17614b32.pdf",
+ "source_sha256": "65444f9ca53b8d1f4126c41f0019a2c34ccd225c10faad005e4f9e76183a30ea",
+ "source_pages": 2,
+ "fetched_at": "2026-07-30",
+ "extraction_model": "claude-code-subagent:scale",
+ "summary": "L’Assurance Protection Juridique du Professionnel met à disposition une équipe de juristes (téléphone, internet) pour répondre à toutes questions, défendre les droits des assurés et les accompagner ; elle prend également en charge les frais engagés en cas de procédure. Elle couvre la défense des droits de l’assuré, avec conseil et accompagnement en vue de la résolution amiable ou judiciaire du litige (en demande ou en défense) et prise en charge des frais engagés ou diligentés, avec accord préalable de l’assureur, dans la limite de 20 000 € par litige. Les litiges garantis sont ceux survenant dans le cadre de l’activité professionnelle déclarée : infraction liée au statut de chef d’entreprise, relations avec les administrations, relations contractuelles, relations avec les concurrents et les salariés, protection des salariés et protection des droits en qualité de locataire, propriétaire ou occupant des locaux professionnels. Le recouvrement de créances est également prévu, sa prise en charge étant limitée à 3 000 € sous réserve d’une franchise de 10% maximum 800 €.",
+ "definitions": [
+  {
+   "term": "Bénéficiaire",
+   "definition": "Souscripteur du contrat (personne physique ou morale).",
+   "page": 1
   },
-  "waiting_periods": [],
-  "obligations": [
-    {
-      "name": "Répondre exactement aux questions posées",
-      "description": "Répondre exactement aux questions posées lors de la souscription.",
-      "timing": "A la souscription",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
-      "page": 2
-    },
-    {
-      "name": "Régler la cotisation",
-      "description": "Régler la cotisation prévue au contrat.",
-      "timing": "En cours de contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
-      "page": 2
-    },
-    {
-      "name": "Déclarer le litige",
-      "description": "Adresser la déclaration par écrit à l’assureur conseil ou déclarer le litige en ligne sur l’espace assuré dans les 5 jours ouvrés.",
-      "timing": "En cas de litige ou de refus opposé à une réclamation dont l’assuré est l’auteur ou le destinataire",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
-      "page": 2
-    },
-    {
-      "name": "Communiquer les pièces et justificatifs",
-      "description": "Communiquer immédiatement et ultérieurement, à la demande de l’assureur ou à celle de notre gestionnaire délégué toutes pièces, informations, justificatifs ou éléments de preuve nécessaires à la vérification des garanties, à la localisation du tiers, à l’instruction",
-      "timing": "En cas de litige ou de refus opposé à une réclamation dont l’assuré est l’auteur ou le destinataire",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
-      "page": 2
-    }
-  ],
-  "claims_procedure": [
-    {
-      "step": "Déclaration du litige",
-      "description": "Adresser la déclaration par écrit à l’assureur conseil ou déclarer le litige en ligne sur l’espace assuré.",
-      "deadline": "dans les 5 jours ouvrés",
-      "page": 2
-    },
-    {
-      "step": "Transmission des pièces justificatives",
-      "description": "Communiquer immédiatement et ultérieurement, à la demande de l’assureur ou à celle de notre gestionnaire délégué toutes pièces, informations, justificatifs ou éléments de preuve nécessaires à la vérification des garanties, à la localisation du tiers, à l’instruction",
-      "deadline": "immédiatement et ultérieurement, à la demande de l’assureur ou de son gestionnaire délégué",
-      "page": 2
-    },
-    {
-      "step": "Accord préalable de l’assureur sur les frais",
-      "description": "Prise en charge des frais engagés ou diligentés, avec notre accord préalable, en cas de litige (dans la limite de 20 000 € par litige).",
-      "deadline": null,
-      "page": 1
-    }
-  ],
-  "duration_and_cancellation": {
-    "duration": "Le contrat prend effet le lendemain du jour du paiement de la première cotisation et au plus tôt, à la date fixée aux Conditions Particulières. Le contrat est conclu pour la durée prévue aux Conditions Particulières.",
-    "tacit_renewal": true,
-    "notice_period": "Vous pouvez notamment mettre fin au contrat à l'échéance annuelle en respectant un préavis de deux mois.",
-    "methods": [
-      "par lettre ou tout autre support durable",
-      "par déclaration faite au siège social ou chez notre représentant",
-      "par acte extrajudiciaire",
-      "lorsque nous vous avons proposé la conclusion de ce contrat par un mode de communication à distance, par le même mode de communication"
-    ],
-    "special_rights": [
-      "En cas de contrat conclu à distance, l’assuré dispose d’un délai de rétractation de 14 jours à compter du jour où le contrat à distance est conclu ou du jour où le souscripteur reçoit les conditions contractuelles et les informations.",
-      "Les cas de résiliation, les délais à respecter sont ceux prévus par la règlementation et précisés dans les Dispositions Générales.",
-      "À l’expiration de cette durée, il est reconduit automatiquement d’année en année par tacite reconduction sauf en cas de résiliation.",
-      "En cas de résiliation suite à modification de votre situation selon les termes des articles L113-16 et R.113-6 du Code des assurances, vous devrez notifier la résiliation par lettre recommandée (papier ou électronique) avec demande d'avis de réception.",
-      "Nous vous confirmerons par écrit la réception de la notification."
-    ],
-    "page": 2
+  {
+   "term": "Le recouvrement de créances",
+   "definition": "Prise en charge des litiges dans lequel l’assuré est conduit à réclamer le paiement d’une créance constituée d’une ou plusieurs factures.",
+   "page": 1
+  }
+ ],
+ "coverages": [
+  {
+   "name": "Assistance juridique par une équipe de juristes",
+   "description": "Cette assurance met à disposition une équipe de juristes (téléphone, internet) pour répondre à toutes questions, défendre les droits des assurés et les accompagner. Elle prend également en charge les frais engagés en cas de procédure.",
+   "is_optional": false,
+   "territorial_scope": "Litiges relevant de la compétence des tribunaux des pays membres de l’Union Européenne, Andorre, Islande, Liechtenstein, Monaco, Norvège, Saint-Marin, Vatican et Suisse.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
   },
-  "prescription_period": null,
-  "premium": {
-    "notes": [
-      "La cotisation ainsi que les frais, taxes sont payables à notre siège social ou à l’adresse du représentant local, à la date d’échéance fixée aux Conditions Particulières.",
-      "Le contrat prend effet le lendemain du jour du paiement de la première cotisation et au plus tôt, à la date fixée aux Conditions Particulières."
-    ],
-    "indexation": null,
-    "page": 2
+  {
+   "name": "La défense des droits de l’assuré",
+   "description": "Conseil et accompagnement de l’assuré en vue de la résolution amiable ou judiciaire du litige (en demande ou en défense) ; prise en charge des frais engagés ou diligentés, avec notre accord préalable, en cas de litige.",
+   "is_optional": false,
+   "territorial_scope": "Litiges relevant de la compétence des tribunaux des pays membres de l’Union Européenne, Andorre, Islande, Liechtenstein, Monaco, Norvège, Saint-Marin, Vatican et Suisse.",
+   "limits": "dans la limite de 20 000 € par litige",
+   "sub_limits": [
+    "Le coût des enquêtes, des consultations, des constats d’huissier",
+    "Le coût des expertises amiables ou judiciaires",
+    "Les frais et honoraires d’avocat ou de toute personne habilitée à défendre les intérêts de l’assuré devant toute juridiction",
+    "Les honoraires et frais de l’avocat intervenant pour l’assuré sont pris en charge à concurrence des montants indiqués dans le tableau visé au contrat"
+   ],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge des frais engagés ou diligentés, avec notre accord préalable",
+    "Bénéficiaire : souscripteur du contrat (personne physique ou morale)",
+    "Garantie systématiquement prévue au contrat (précédée d’une coche)"
+   ],
+   "page": 1
   },
-  "special_conditions": [
-    {
-      "name": "Accord préalable de l’assureur",
-      "description": "Prise en charge des frais engagés ou diligentés, avec notre accord préalable, en cas de litige (dans la limite de 20 000 € par litige).",
-      "page": 1
-    },
-    {
-      "name": "Légende des garanties",
-      "description": "Les garanties précédées d’une coche sont systématiquement prévues au contrat.",
-      "page": 1
-    },
-    {
-      "name": "Compétence territoriale des juridictions",
-      "description": "La garantie s’applique aux litiges relevant de la compétence des tribunaux des pays membres de l’Union Européenne, Andorre, Islande, Liechtenstein, Monaco, Norvège, Saint-Marin, Vatican et Suisse.",
-      "page": 2
-    },
-    {
-      "name": "Délai de rétractation en cas de contrat conclu à distance",
-      "description": "En cas de contrat conclu à distance, l’assuré dispose d’un délai de rétractation de 14 jours à compter du jour où le contrat à distance est conclu ou du jour où le souscripteur reçoit les conditions contractuelles et les informations.",
-      "page": 2
-    },
-    {
-      "name": "Portée du document",
-      "description": "Ce document d’information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l’information complète sur ce produit dans la documentation précontractuelle et contractuelle.",
-      "page": 1
-    }
+  {
+   "name": "Les litiges survenant dans le cadre de l’activité professionnelle déclarée",
+   "description": "Prise en charge des litiges survenant dans le cadre de l’activité professionnelle déclarée.",
+   "is_optional": false,
+   "territorial_scope": "Litiges relevant de la compétence des tribunaux des pays membres de l’Union Européenne, Andorre, Islande, Liechtenstein, Monaco, Norvège, Saint-Marin, Vatican et Suisse.",
+   "limits": "dans la limite de 20 000 € par litige",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Le litige doit survenir dans le cadre de l’activité professionnelle déclarée",
+    "Garantie systématiquement prévue au contrat (précédée d’une coche)"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Infraction liée au statut de chef d’entreprise",
+   "description": "Litiges liés à une infraction liée au statut de chef d’entreprise (faute de gestion, publicité illicite, délit d’entrave…).",
+   "is_optional": false,
+   "territorial_scope": "Litiges relevant de la compétence des tribunaux des pays membres de l’Union Européenne, Andorre, Islande, Liechtenstein, Monaco, Norvège, Saint-Marin, Vatican et Suisse.",
+   "limits": "dans la limite de 20 000 € par litige",
+   "sub_limits": [
+    "faute de gestion",
+    "publicité illicite",
+    "délit d’entrave…"
+   ],
+   "deductible": null,
+   "conditions": [
+    "Garantie systématiquement prévue au contrat (précédée d’une coche)"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Relations avec les administrations",
+   "description": "Litiges dans les relations avec les administrations : Administration fiscale, En matière sociale (litige résultant de l’affiliation, du calcul ou paiement des charges sociale), En matière disciplinaire.",
+   "is_optional": false,
+   "territorial_scope": "Litiges relevant de la compétence des tribunaux des pays membres de l’Union Européenne, Andorre, Islande, Liechtenstein, Monaco, Norvège, Saint-Marin, Vatican et Suisse.",
+   "limits": "dans la limite de 20 000 € par litige",
+   "sub_limits": [
+    "Administration fiscale",
+    "En matière sociale (litige résultant de l’affiliation, du calcul ou paiement des charges sociale)",
+    "En matière disciplinaire"
+   ],
+   "deductible": null,
+   "conditions": [
+    "Garantie systématiquement prévue au contrat (précédée d’une coche)"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Relations contractuelles",
+   "description": "Litiges dans les relations contractuelles : avec les clients (inexécution du contrat de fourniture, défaut affectant un produit vendu), avec les fournisseurs (défaut affectant le produit, inexécution d’un contrat de service), avec les entreprises (travaux d’entretien des locaux professionnels non soumis à l’obligation d’assurance).",
+   "is_optional": false,
+   "territorial_scope": "Litiges relevant de la compétence des tribunaux des pays membres de l’Union Européenne, Andorre, Islande, Liechtenstein, Monaco, Norvège, Saint-Marin, Vatican et Suisse.",
+   "limits": "dans la limite de 20 000 € par litige",
+   "sub_limits": [
+    "Avec les clients (inexécution du contrat de fourniture, défaut affectant un produit vendu)",
+    "Avec les fournisseurs (défaut affectant le produit, inexécution d’un contrat de service)",
+    "Avec les entreprises (travaux d’entretien des locaux professionnels non soumis à l’obligation d’assurance)"
+   ],
+   "deductible": null,
+   "conditions": [
+    "Garantie systématiquement prévue au contrat (précédée d’une coche)"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Relations avec les concurrents",
+   "description": "Litiges dans les relations avec les concurrents.",
+   "is_optional": false,
+   "territorial_scope": "Litiges relevant de la compétence des tribunaux des pays membres de l’Union Européenne, Andorre, Islande, Liechtenstein, Monaco, Norvège, Saint-Marin, Vatican et Suisse.",
+   "limits": "dans la limite de 20 000 € par litige",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Garantie systématiquement prévue au contrat (précédée d’une coche)"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Relations avec les salariés",
+   "description": "Litiges dans les relations avec les salariés.",
+   "is_optional": false,
+   "territorial_scope": "Litiges relevant de la compétence des tribunaux des pays membres de l’Union Européenne, Andorre, Islande, Liechtenstein, Monaco, Norvège, Saint-Marin, Vatican et Suisse.",
+   "limits": "dans la limite de 20 000 € par litige",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Garantie systématiquement prévue au contrat (précédée d’une coche)"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Protection des salariés",
+   "description": "Protection des salariés.",
+   "is_optional": false,
+   "territorial_scope": "Litiges relevant de la compétence des tribunaux des pays membres de l’Union Européenne, Andorre, Islande, Liechtenstein, Monaco, Norvège, Saint-Marin, Vatican et Suisse.",
+   "limits": "dans la limite de 20 000 € par litige",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Garantie systématiquement prévue au contrat (précédée d’une coche)"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Protection des droits en qualité de locataire, propriétaire des locaux professionnels",
+   "description": "Protection des droits en qualité de locataire, propriétaire des locaux professionnels.",
+   "is_optional": false,
+   "territorial_scope": "Litiges relevant de la compétence des tribunaux des pays membres de l’Union Européenne, Andorre, Islande, Liechtenstein, Monaco, Norvège, Saint-Marin, Vatican et Suisse.",
+   "limits": "dans la limite de 20 000 € par litige",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Garantie systématiquement prévue au contrat (précédée d’une coche)"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Protection des droits en tant qu’occupant des locaux professionnels",
+   "description": "Protection des droits en tant qu’occupant des locaux professionnels.",
+   "is_optional": false,
+   "territorial_scope": "Litiges relevant de la compétence des tribunaux des pays membres de l’Union Européenne, Andorre, Islande, Liechtenstein, Monaco, Norvège, Saint-Marin, Vatican et Suisse.",
+   "limits": "dans la limite de 20 000 € par litige",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Garantie systématiquement prévue au contrat (précédée d’une coche)"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Le recouvrement de créances",
+   "description": "Prise en charge des litiges dans lequel l’assuré est conduit à réclamer le paiement d’une créance constituée d’une ou plusieurs factures.",
+   "is_optional": true,
+   "territorial_scope": "Litiges relevant de la compétence des tribunaux des pays membres de l’Union Européenne, Andorre, Islande, Liechtenstein, Monaco, Norvège, Saint-Marin, Vatican et Suisse.",
+   "limits": "La prise en charge des litiges recouvrement de créances est limitée à 3 000 € sous réserve d’une franchise de 10% maximum 800 €",
+   "sub_limits": [],
+   "deductible": "une franchise de 10% maximum 800 €",
+   "conditions": [
+    "Les litiges dont l’enjeu financier est inférieur à 300 € ou 1 000 € pour le recouvrement de créances ne sont pas pris en charge",
+    "Cette garantie n’est pas précédée d’une coche dans la liste des garanties"
+   ],
+   "page": 1
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Litige connu avant la prise d’effet ou après l’expiration du contrat",
+   "description": "Lorsque l’origine du litige est portée à la connaissance de l’assuré avant la prise d’effet ou après l’expiration du contrat.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Litige provoqué intentionnellement",
+   "description": "Tout litige provoqué intentionnellement par l’assuré ou avec sa complicité.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Conflit collectif du travail",
+   "description": "Lorsque le litige résulte d’un conflit collectif du travail.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Accident de la circulation impliquant le véhicule terrestre à moteur de l’assuré",
+   "description": "Lorsque le litige résulte d’un accident de la circulation impliquant le véhicule terrestre à moteur de l’assuré.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Protection des brevets, titres de propriété industrielle ou droits d’auteur ; donneur d’aval, caution, cessionnaire de droits",
+   "description": "Lorsque le litige résulte de la protection des brevets, titres de propriété industrielle ou droits d’auteur, de la qualité de donneur d’aval, de caution, de cessionnaire de droits.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Qualité de bailleur de tous biens immobiliers",
+   "description": "Lorsque le litige résulte de la qualité de bailleur de tous biens immobiliers.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Livre I du Code civil, régimes matrimoniaux, successions et donations entre vifs",
+   "description": "Lorsque le litige résulte de l’application du livre I du Code civil ainsi que les régimes matrimoniaux, successions et donations entre vifs.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Expression d’opinions politiques, syndicales, religieuses",
+   "description": "Lorsque le litige résulte de l’expression par l’assuré ou préposés d’opinions politiques, syndicales, religieuses.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Amendes et sommes dues aux tiers",
+   "description": "Les amendes et les sommes de toute nature que l’assuré est dans l’obligation de régler ou rembourser aux tiers.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Frais et dépens engagés par le tiers",
+   "description": "Les frais et dépens engagés par le tiers et mis à sa charge.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Frais et interventions rendus nécessaires ou aggravées du seul fait de l’assuré",
+   "description": "Les frais et interventions rendus nécessaires ou aggravées du seul fait de l’assuré.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Enquêtes pour identifier ou retrouver le ou les tiers",
+   "description": "Les enquêtes pour identifier ou retrouver le ou les tiers.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Restriction : litiges avec l’administration fiscale en cas de sanctions fiscales",
+   "description": "Les litiges avec l’administration fiscale si des sanctions fiscales sont appliquées à l’assuré.",
+   "applies_to": "Relations avec les administrations",
+   "page": 1
+  },
+  {
+   "name": "Restriction : litiges liés à des travaux de construction",
+   "description": "Les litiges liés à des travaux de construction au-delà de 150 000 € HT s’ils surviennent avant la réception des travaux, sachant que les travaux de construction soumis à l’obligation d’assurance (L242-1 du code des assurances) sont toujours exclus.",
+   "applies_to": "Relations contractuelles",
+   "page": 1
+  },
+  {
+   "name": "Restriction : litiges avec les concurrents portant sur un titre de propriété intellectuelle",
+   "description": "Les litiges avec les concurrents portant sur un titre de propriété intellectuelle, brevet ou droit d’auteur.",
+   "applies_to": "Relations avec les concurrents",
+   "page": 1
+  },
+  {
+   "name": "Restriction : seuil d’intervention (enjeu financier)",
+   "description": "Les litiges dont l’enjeu financier est inférieur à 300 € ou 1 000 € pour le recouvrement de créances.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Restriction : plafond et franchise du recouvrement de créances",
+   "description": "La prise en charge des litiges recouvrement de créances est limitée à 3 000 € sous réserve d’une franchise de 10% maximum 800 €.",
+   "applies_to": "Le recouvrement de créances",
+   "page": 1
+  },
+  {
+   "name": "Restriction : plafonnement des honoraires et frais d’avocat",
+   "description": "Les honoraires et frais de l’avocat intervenant pour l’assuré sont pris en charge à concurrence des montants indiqués dans le tableau visé au contrat.",
+   "applies_to": "La défense des droits de l’assuré",
+   "page": 1
+  }
+ ],
+ "deductibles": {
+  "standard": null,
+  "variable": null,
+  "per_coverage": {
+   "Le recouvrement de créances": "une franchise de 10% maximum 800 €"
+  },
+  "page": 1
+ },
+ "waiting_periods": [],
+ "obligations": [
+  {
+   "name": "Répondre exactement aux questions posées",
+   "description": "Répondre exactement aux questions posées lors de la souscription.",
+   "timing": "A la souscription",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+   "page": 2
+  },
+  {
+   "name": "Régler la cotisation",
+   "description": "Régler la cotisation prévue au contrat.",
+   "timing": "En cours de contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+   "page": 2
+  },
+  {
+   "name": "Déclarer le litige",
+   "description": "Adresser la déclaration par écrit à l’assureur conseil ou déclarer le litige en ligne sur l’espace assuré dans les 5 jours ouvrés.",
+   "timing": "En cas de litige ou de refus opposé à une réclamation dont l’assuré est l’auteur ou le destinataire",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+   "page": 2
+  },
+  {
+   "name": "Communiquer les pièces et justificatifs",
+   "description": "Communiquer immédiatement et ultérieurement, à la demande de l’assureur ou à celle de notre gestionnaire délégué toutes pièces, informations, justificatifs ou éléments de preuve nécessaires à la vérification des garanties, à la localisation du tiers, à l’instruction",
+   "timing": "En cas de litige ou de refus opposé à une réclamation dont l’assuré est l’auteur ou le destinataire",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+   "page": 2
+  }
+ ],
+ "claims_procedure": [
+  {
+   "step": "Déclaration du litige",
+   "description": "Adresser la déclaration par écrit à l’assureur conseil ou déclarer le litige en ligne sur l’espace assuré.",
+   "deadline": "dans les 5 jours ouvrés",
+   "page": 2
+  },
+  {
+   "step": "Transmission des pièces justificatives",
+   "description": "Communiquer immédiatement et ultérieurement, à la demande de l’assureur ou à celle de notre gestionnaire délégué toutes pièces, informations, justificatifs ou éléments de preuve nécessaires à la vérification des garanties, à la localisation du tiers, à l’instruction",
+   "deadline": "immédiatement et ultérieurement, à la demande de l’assureur ou de son gestionnaire délégué",
+   "page": 2
+  },
+  {
+   "step": "Accord préalable de l’assureur sur les frais",
+   "description": "Prise en charge des frais engagés ou diligentés, avec notre accord préalable, en cas de litige (dans la limite de 20 000 € par litige).",
+   "deadline": null,
+   "page": 1
+  }
+ ],
+ "duration_and_cancellation": {
+  "duration": "Le contrat prend effet le lendemain du jour du paiement de la première cotisation et au plus tôt, à la date fixée aux Conditions Particulières. Le contrat est conclu pour la durée prévue aux Conditions Particulières.",
+  "tacit_renewal": true,
+  "notice_period": "Vous pouvez notamment mettre fin au contrat à l'échéance annuelle en respectant un préavis de deux mois.",
+  "methods": [
+   "par lettre ou tout autre support durable",
+   "par déclaration faite au siège social ou chez notre représentant",
+   "par acte extrajudiciaire",
+   "lorsque nous vous avons proposé la conclusion de ce contrat par un mode de communication à distance, par le même mode de communication"
   ],
-  "key_quotes": [
-    {
-      "quote": "Cette assurance met à disposition une équipe de juristes (téléphone, internet) pour répondre à toutes questions, défendre les droits des assurés et les accompagner.",
-      "context": "De quel type d’assurance s’agit-il ?",
-      "page": 1
-    },
-    {
-      "quote": "Conseil et accompagnement de l’assuré en vue de la résolution amiable ou judiciaire du litige (en demande ou en défense),",
-      "context": "La défense des droits de l’assuré",
-      "page": 1
-    },
-    {
-      "quote": "Prise en charge des frais engagés ou diligentés, avec notre accord préalable, en cas de litige (dans la limite de 20 000 € par litige)",
-      "context": "La défense des droits de l’assuré",
-      "page": 1
-    },
-    {
-      "quote": "Bénéficiaire : souscripteur du contrat (personne physique ou morale).",
-      "context": "Qu’est-ce qui est assuré ?",
-      "page": 1
-    },
-    {
-      "quote": "Les litiges survenant dans le cadre de l’activité professionnelle déclarée :",
-      "context": "Qu’est-ce qui est assuré ?",
-      "page": 1
-    },
-    {
-      "quote": "Infraction liée au statut de chef d’entreprise (faute de gestion, publicité illicite, délit d’entrave…)",
-      "context": "Qu’est-ce qui est assuré ?",
-      "page": 1
-    },
-    {
-      "quote": "Le recouvrement de créances : prise en charge des litiges dans lequel l’assuré est conduit à réclamer le paiement d’une créance constituée d’une ou plusieurs factures.",
-      "context": "Qu’est-ce qui est assuré ?",
-      "page": 1
-    },
-    {
-      "quote": "Les amendes et les sommes de toute nature que l’assuré est dans l’obligation de régler ou rembourser aux tiers,",
-      "context": "Les principales exclusions",
-      "page": 1
-    },
-    {
-      "quote": "Les litiges dont l’enjeu financier est inférieur à 300 € ou    1 000 € pour le recouvrement de créances,",
-      "context": "Les principales restrictions",
-      "page": 1
-    },
-    {
-      "quote": "La prise en charge des litiges recouvrement de créances est limitée à 3 000 € sous réserve d’une franchise de 10% maximum 800 €,",
-      "context": "Les principales restrictions",
-      "page": 1
-    },
-    {
-      "quote": "Les litiges liés à des travaux de construction au-delà de 150 000 € HT s’ils surviennent avant la réception des travaux, sachant que les travaux de construction soumis à l’obligation d’assurance (L242-1 du code des assurances) sont toujours exclus,",
-      "context": "Les principales restrictions",
-      "page": 1
-    },
-    {
-      "quote": "Tout litige provoqué intentionnellement par l’assuré ou avec sa complicité,",
-      "context": "Qu’est-ce qui n’est pas assuré ?",
-      "page": 1
-    },
-    {
-      "quote": "La garantie s’applique aux litiges relevant de la compétence des tribunaux des pays membres de l’Union Européenne, Andorre, Islande, Liechtenstein, Monaco, Norvège, Saint-Marin, Vatican et Suisse.",
-      "context": "Où suis-je couvert ?",
-      "page": 2
-    },
-    {
-      "quote": "Adresser la déclaration par écrit à l’assureur conseil ou déclarer le litige en ligne sur l’espace assuré dans les 5 jours ouvrés,",
-      "context": "Quelles sont mes obligations ?",
-      "page": 2
-    },
-    {
-      "quote": "Vous pouvez notamment mettre fin au contrat à l'échéance annuelle en respectant un préavis de deux mois.",
-      "context": "Comment puis-je résilier mon contrat ?",
-      "page": 2
-    }
+  "special_rights": [
+   "En cas de contrat conclu à distance, l’assuré dispose d’un délai de rétractation de 14 jours à compter du jour où le contrat à distance est conclu ou du jour où le souscripteur reçoit les conditions contractuelles et les informations.",
+   "Les cas de résiliation, les délais à respecter sont ceux prévus par la règlementation et précisés dans les Dispositions Générales.",
+   "À l’expiration de cette durée, il est reconduit automatiquement d’année en année par tacite reconduction sauf en cas de résiliation.",
+   "En cas de résiliation suite à modification de votre situation selon les termes des articles L113-16 et R.113-6 du Code des assurances, vous devrez notifier la résiliation par lettre recommandée (papier ou électronique) avec demande d'avis de réception.",
+   "Nous vous confirmerons par écrit la réception de la notification."
   ],
-  "gaps": [
-    "Aucune date d’édition n’est imprimée dans le document ; elle n’a donc pas été renseignée (le nom du fichier source contient « 012026 », mais cela n’est pas confirmé par le texte).",
-    "Aucune référence interne du document (code imprimé) n’apparaît dans le texte.",
-    "Document de type IPID : il ne présente qu’un résumé des principales garanties et exclusions et renvoie explicitement à la documentation précontractuelle et contractuelle pour l’information complète ; les listes de garanties et d’exclusions ne sont donc pas exhaustives au sens du contrat.",
-    "Le texte de la page 2 est tronqué dans la couche texte du PDF : la dernière obligation en cas de litige s’arrête à « … à la localisation du tiers, à l’instruction » sans la fin de la phrase (dans le document équivalent agricole elle se poursuit par « du dossier et à la recherche de sa solution »).",
-    "« Le recouvrement de créances » n’est pas précédé d’une coche dans la liste des garanties, alors que le document précise que « Les garanties précédées d’une coche sont systématiquement prévues au contrat » ; il a donc été classé is_optional: true, sans que le document le qualifie explicitement d’option.",
-    "Le tableau des montants de prise en charge des honoraires et frais d’avocat n’est pas reproduit dans l’IPID : il renvoie « aux montants indiqués dans le tableau visé au contrat ».",
-    "Aucune section « Définitions » formelle ; seuls « Bénéficiaire » et l’objet du recouvrement de créances sont explicités.",
-    "Aucun délai de prescription n’est mentionné dans le document.",
-    "Aucun délai d’attente / de carence n’est mentionné dans le document.",
-    "Aucun mécanisme d’indexation de la cotisation n’est décrit ; les modalités de fractionnement du paiement ne sont pas précisées.",
-    "La durée du contrat n’est pas chiffrée : elle renvoie à la durée prévue aux Conditions Particulières.",
-    "target_audience renseigné à « entreprises » à partir de la seule formulation du document (« souscripteur du contrat (personne physique ou morale) », « activité professionnelle déclarée », « statut de chef d’entreprise ») ; le document n’utilise aucune des catégories de l’énumération."
-  ]
+  "page": 2
+ },
+ "prescription_period": null,
+ "premium": {
+  "notes": [
+   "La cotisation ainsi que les frais, taxes sont payables à notre siège social ou à l’adresse du représentant local, à la date d’échéance fixée aux Conditions Particulières.",
+   "Le contrat prend effet le lendemain du jour du paiement de la première cotisation et au plus tôt, à la date fixée aux Conditions Particulières."
+  ],
+  "indexation": null,
+  "page": 2
+ },
+ "special_conditions": [
+  {
+   "name": "Accord préalable de l’assureur",
+   "description": "Prise en charge des frais engagés ou diligentés, avec notre accord préalable, en cas de litige (dans la limite de 20 000 € par litige).",
+   "page": 1
+  },
+  {
+   "name": "Légende des garanties",
+   "description": "Les garanties précédées d’une coche sont systématiquement prévues au contrat.",
+   "page": 1
+  },
+  {
+   "name": "Compétence territoriale des juridictions",
+   "description": "La garantie s’applique aux litiges relevant de la compétence des tribunaux des pays membres de l’Union Européenne, Andorre, Islande, Liechtenstein, Monaco, Norvège, Saint-Marin, Vatican et Suisse.",
+   "page": 2
+  },
+  {
+   "name": "Délai de rétractation en cas de contrat conclu à distance",
+   "description": "En cas de contrat conclu à distance, l’assuré dispose d’un délai de rétractation de 14 jours à compter du jour où le contrat à distance est conclu ou du jour où le souscripteur reçoit les conditions contractuelles et les informations.",
+   "page": 2
+  },
+  {
+   "name": "Portée du document",
+   "description": "Ce document d’information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l’information complète sur ce produit dans la documentation précontractuelle et contractuelle.",
+   "page": 1
+  }
+ ],
+ "key_quotes": [
+  {
+   "quote": "Cette assurance met à disposition une équipe de juristes (téléphone, internet) pour répondre à toutes questions, défendre les droits des assurés et les accompagner.",
+   "context": "De quel type d’assurance s’agit-il ?",
+   "page": 1
+  },
+  {
+   "quote": "Conseil et accompagnement de l’assuré en vue de la résolution amiable ou judiciaire du litige (en demande ou en défense),",
+   "context": "La défense des droits de l’assuré",
+   "page": 1
+  },
+  {
+   "quote": "Prise en charge des frais engagés ou diligentés, avec notre accord préalable, en cas de litige (dans la limite de 20 000 € par litige)",
+   "context": "La défense des droits de l’assuré",
+   "page": 1
+  },
+  {
+   "quote": "Bénéficiaire : souscripteur du contrat (personne physique ou morale).",
+   "context": "Qu’est-ce qui est assuré ?",
+   "page": 1
+  },
+  {
+   "quote": "Les litiges survenant dans le cadre de l’activité professionnelle déclarée :",
+   "context": "Qu’est-ce qui est assuré ?",
+   "page": 1
+  },
+  {
+   "quote": "Infraction liée au statut de chef d’entreprise (faute de gestion, publicité illicite, délit d’entrave…)",
+   "context": "Qu’est-ce qui est assuré ?",
+   "page": 1
+  },
+  {
+   "quote": "Le recouvrement de créances : prise en charge des litiges dans lequel l’assuré est conduit à réclamer le paiement d’une créance constituée d’une ou plusieurs factures.",
+   "context": "Qu’est-ce qui est assuré ?",
+   "page": 1
+  },
+  {
+   "quote": "Les amendes et les sommes de toute nature que l’assuré est dans l’obligation de régler ou rembourser aux tiers,",
+   "context": "Les principales exclusions",
+   "page": 1
+  },
+  {
+   "quote": "Les litiges dont l’enjeu financier est inférieur à 300 € ou    1 000 € pour le recouvrement de créances,",
+   "context": "Les principales restrictions",
+   "page": 1
+  },
+  {
+   "quote": "La prise en charge des litiges recouvrement de créances est limitée à 3 000 € sous réserve d’une franchise de 10% maximum 800 €,",
+   "context": "Les principales restrictions",
+   "page": 1
+  },
+  {
+   "quote": "Les litiges liés à des travaux de construction au-delà de 150 000 € HT s’ils surviennent avant la réception des travaux, sachant que les travaux de construction soumis à l’obligation d’assurance (L242-1 du code des assurances) sont toujours exclus,",
+   "context": "Les principales restrictions",
+   "page": 1
+  },
+  {
+   "quote": "Tout litige provoqué intentionnellement par l’assuré ou avec sa complicité,",
+   "context": "Qu’est-ce qui n’est pas assuré ?",
+   "page": 1
+  },
+  {
+   "quote": "La garantie s’applique aux litiges relevant de la compétence des tribunaux des pays membres de l’Union Européenne, Andorre, Islande, Liechtenstein, Monaco, Norvège, Saint-Marin, Vatican et Suisse.",
+   "context": "Où suis-je couvert ?",
+   "page": 2
+  },
+  {
+   "quote": "Adresser la déclaration par écrit à l’assureur conseil ou déclarer le litige en ligne sur l’espace assuré dans les 5 jours ouvrés,",
+   "context": "Quelles sont mes obligations ?",
+   "page": 2
+  },
+  {
+   "quote": "Vous pouvez notamment mettre fin au contrat à l'échéance annuelle en respectant un préavis de deux mois.",
+   "context": "Comment puis-je résilier mon contrat ?",
+   "page": 2
+  }
+ ],
+ "gaps": [
+  "Aucune date d’édition n’est imprimée dans le document ; elle n’a donc pas été renseignée (le nom du fichier source contient « 012026 », mais cela n’est pas confirmé par le texte).",
+  "Aucune référence interne du document (code imprimé) n’apparaît dans le texte.",
+  "Document de type IPID : il ne présente qu’un résumé des principales garanties et exclusions et renvoie explicitement à la documentation précontractuelle et contractuelle pour l’information complète ; les listes de garanties et d’exclusions ne sont donc pas exhaustives au sens du contrat.",
+  "Le texte de la page 2 est tronqué dans la couche texte du PDF : la dernière obligation en cas de litige s’arrête à « … à la localisation du tiers, à l’instruction » sans la fin de la phrase (dans le document équivalent agricole elle se poursuit par « du dossier et à la recherche de sa solution »).",
+  "« Le recouvrement de créances » n’est pas précédé d’une coche dans la liste des garanties, alors que le document précise que « Les garanties précédées d’une coche sont systématiquement prévues au contrat » ; il a donc été classé is_optional: true, sans que le document le qualifie explicitement d’option.",
+  "Le tableau des montants de prise en charge des honoraires et frais d’avocat n’est pas reproduit dans l’IPID : il renvoie « aux montants indiqués dans le tableau visé au contrat ».",
+  "Aucune section « Définitions » formelle ; seuls « Bénéficiaire » et l’objet du recouvrement de créances sont explicités.",
+  "Aucun délai de prescription n’est mentionné dans le document.",
+  "Aucun délai d’attente / de carence n’est mentionné dans le document.",
+  "Aucun mécanisme d’indexation de la cotisation n’est décrit ; les modalités de fractionnement du paiement ne sont pas précisées.",
+  "La durée du contrat n’est pas chiffrée : elle renvoie à la durée prévue aux Conditions Particulières.",
+  "target_audience renseigné à « entreprises » à partir de la seule formulation du document (« souscripteur du contrat (personne physique ou morale) », « activité professionnelle déclarée », « statut de chef d’entreprise ») ; le document n’utilise aucune des catégories de l’énumération.",
+  "edition_date remise a null le 2026-08-01: la valeur 2026-01 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5."
+ ]
 }

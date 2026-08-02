@@ -442,8 +442,8 @@ Poste « Chrirurgie réfractive » de la rubrique Optique. Tarif le plus souvent
 ## Documents liés
 
 - [SYNERGIE SANTÉ SALARIÉS - Doc](SYNERGIE%20SANT%C3%89%20SALARI%C3%89S%20-%20Doc.md) - Document, éd. 052022
-- [TMGF Synergie santé Salariés - Doc](TMGF%20Synergie%20sant%C3%A9%20Salari%C3%A9s%20-%20Doc.md) - Document, éd. 2020-01
-- [TMGF Synergie santé Salariés - Doc](TMGF%20Synergie%20sant%C3%A9%20Salari%C3%A9s%20-%20Doc%20%282%29.md) - Document, éd. 2020-01
+- [TMGF Synergie santé Salariés - Doc](TMGF%20Synergie%20sant%C3%A9%20Salari%C3%A9s%20-%20Doc.md) - Document
+- [TMGF Synergie santé Salariés - Doc](TMGF%20Synergie%20sant%C3%A9%20Salari%C3%A9s%20-%20Doc%20%282%29.md) - Document
 
 ## Source & fidélité
 

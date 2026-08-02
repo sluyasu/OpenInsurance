@@ -1,489 +1,490 @@
 {
-  "schema_version": "1.0",
-  "prompt_version": "1.1",
-  "country": "fr",
-  "insurer_slug": "thelem",
-  "insurer_name": "Thélem assurances",
-  "product_name": "Assurance Accidents de la vie privée",
-  "branch": "gav",
-  "branch_code": null,
-  "document_type": "ipid",
-  "language": "fr",
-  "target_audience": "particuliers",
-  "target_audience_note": "Bénéficiaires selon la formule choisie : souscripteur, son époux(se) / concubin(e) / partenaire de PACS, ses enfants et ses petits-enfants. Les enfants mineurs sont automatiquement couverts même s’ils n’ont pas été déclarés au contrat (hors formule Jeunes).",
-  "reference": null,
-  "edition_date": "2025",
-  "product_family": "Assurance Accidents de la vie privée",
-  "variant": null,
-  "is_extension": false,
-  "extends": null,
-  "superseded": null,
-  "source_url": "https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_700-ACCVP-08-2025.pdf",
-  "source_pdf": "assurance-accidents-de-la-vie-privee-9dc20bfb.pdf",
-  "source_sha256": "dee7b1bf6dc9e5f1c4f73fbe0654f1259bca2b5d80828efb29179d63c1af6975",
-  "source_pages": 2,
-  "fetched_at": "2026-07-30",
-  "extraction_model": "claude-code-subagent:scale",
-  "summary": "L’Assurance Accidents de la vie privée de Thélem assurances est un contrat de garantie des accidents de la vie (document d’information sur le produit d’assurance). Elle a pour objectif de protéger l’assuré, et éventuellement sa famille, contre les conséquences des accidents de la vie privée, et inclut des prestations d’assistance. L’assuré a le choix entre une formule forfaitaire (capital garanti) et une formule indemnitaire (indemnisation individualisée fixée selon les règles légales d’évaluation des préjudices corporels). Le contrat couvre notamment le décès, l’invalidité, une aide financière en cas d’hospitalisation, les frais de recherche et de secours et des services d’assistance, avec des options Scolaire et Extra-scolaire, Accidents professionnels et Revalorisation du capital.",
-  "definitions": [
-    {
-      "term": "Formule forfaitaire",
-      "definition": "capital garanti",
-      "page": 1
-    },
-    {
-      "term": "Formule indemnitaire",
-      "definition": "indemnisation individualisée et fixée en fonction des règles légales permettant l’évaluation des préjudices corporels",
-      "page": 1
-    },
-    {
-      "term": "Bénéficiaires",
-      "definition": "Bénéficiaires selon la formule choisie : souscripteur, son époux(se) / concubin(e) / partenaire de PACS, ses enfants et ses petits-enfants. Les enfants mineurs sont automatiquement couverts même s’ils n’ont pas été déclarés au contrat (hors formule Jeunes).",
-      "page": 1
-    },
-    {
-      "term": "Accidents corporels de la vie courante",
-      "definition": "Les accidents corporels de la vie courante : domestiques, scolaires, de loisirs, touristiques, sportifs, la conduite d’un EDPM loué ou emprunté, ou lorsqu’ils sont liés à des événements climatiques, à des catastrophes techniques, à des attentats et actes de terrorisme, à des agressions et des accidents médicaux.",
-      "page": 1
-    },
-    {
-      "term": "Garanties précédées d’une coche",
-      "definition": "Les garanties précédées d’une coche sont systématiquement prévues au contrat.",
-      "page": 1
-    }
-  ],
-  "coverages": [
-    {
-      "name": "Les accidents corporels de la vie courante",
-      "description": "Les accidents corporels de la vie courante : domestiques, scolaires, de loisirs, touristiques, sportifs, la conduite d’un EDPM loué ou emprunté, ou lorsqu’ils sont liés à des événements climatiques, à des catastrophes techniques, à des attentats et actes de terrorisme, à des agressions et des accidents médicaux.",
-      "is_optional": false,
-      "territorial_scope": "Sans limitation de durée : France métropolitaine, DROM-COM, Etats membres de l’UE, Royaume-Uni, Suisse, Liechtenstein, Islande, Norvège, Chypre, Saint Martin, Vatican et dans les territoires de Monaco et d’Andorre",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Bénéficiaires selon la formule choisie : souscripteur, son époux(se) / concubin(e) / partenaire de PACS, ses enfants et ses petits-enfants.",
-        "Les enfants mineurs sont automatiquement couverts même s’ils n’ont pas été déclarés au contrat (hors formule Jeunes)."
-      ],
-      "page": 1
-    },
-    {
-      "name": "L’indemnisation en cas de décès (formule forfaitaire)",
-      "description": "En formule forfaitaire : L’indemnisation en cas de décès : de 20 000 € à 80 000 € par assuré.",
-      "is_optional": false,
-      "territorial_scope": "Sans limitation de durée : France métropolitaine, DROM-COM, Etats membres de l’UE, Royaume-Uni, Suisse, Liechtenstein, Islande, Norvège, Chypre, Saint Martin, Vatican et dans les territoires de Monaco et d’Andorre",
-      "limits": "de 20 000 € à 80 000 € par assuré",
-      "sub_limits": [
-        "L’indemnisation en cas de décès d’un enfant mineur est limitée à 5 000 €."
-      ],
-      "deductible": null,
-      "conditions": [
-        "Formule forfaitaire"
-      ],
-      "page": 1
-    },
-    {
-      "name": "L’indemnisation en cas d’invalidité (formule forfaitaire)",
-      "description": "En formule forfaitaire : L’indemnisation en cas d’invalidité : de 40 000 € à 160 000 € par assuré, si le seuil de 10% d’invalidité est atteint.",
-      "is_optional": false,
-      "territorial_scope": "Sans limitation de durée : France métropolitaine, DROM-COM, Etats membres de l’UE, Royaume-Uni, Suisse, Liechtenstein, Islande, Norvège, Chypre, Saint Martin, Vatican et dans les territoires de Monaco et d’Andorre",
-      "limits": "de 40 000 € à 160 000 € par assuré, si le seuil de 10% d’invalidité est atteint",
-      "sub_limits": [
-        "Pour les plus de 70 ans : en formule forfaitaire, l’indemnisation de l’invalidité est déclenchée si le seuil de 30% d’invalidité est atteint."
-      ],
-      "deductible": null,
-      "conditions": [
-        "Formule forfaitaire",
-        "si le seuil de 10% d’invalidité est atteint"
-      ],
-      "page": 1
-    },
-    {
-      "name": "L’indemnisation en cas de décès ou d’invalidité (formule indemnitaire)",
-      "description": "En formule indemnitaire : L’indemnisation en cas de décès ou d’invalidité : jusqu’à 2 000 000 € par assuré si le seuil de 5% est atteint.",
-      "is_optional": false,
-      "territorial_scope": "Sans limitation de durée : France métropolitaine, DROM-COM, Etats membres de l’UE, Royaume-Uni, Suisse, Liechtenstein, Islande, Norvège, Chypre, Saint Martin, Vatican et dans les territoires de Monaco et d’Andorre",
-      "limits": "jusqu’à 2 000 000 € par assuré si le seuil de 5% est atteint",
-      "sub_limits": [
-        "L’indemnisation en cas de décès d’un enfant mineur est limitée à 5 000 €.",
-        "Pour les plus de 70 ans : en formule indemnitaire, en cas de décès ou d’invalidité, le montant versé n’excèdera pas 400 000 €."
-      ],
-      "deductible": null,
-      "conditions": [
-        "Formule indemnitaire",
-        "si le seuil de 5% est atteint",
-        "La formule indemnitaire ne peut être souscrite par les personnes de plus de 70 ans."
-      ],
-      "page": 1
-    },
-    {
-      "name": "L’aide financière suite à hospitalisation",
-      "description": "Quelle que soit la formule : L’aide financière jusqu’à 50 €/jour pendant 60 jours maximum suite à hospitalisation (franchise de 2 jours).",
-      "is_optional": false,
-      "territorial_scope": "Sans limitation de durée : France métropolitaine, DROM-COM, Etats membres de l’UE, Royaume-Uni, Suisse, Liechtenstein, Islande, Norvège, Chypre, Saint Martin, Vatican et dans les territoires de Monaco et d’Andorre",
-      "limits": "jusqu’à 50 €/jour pendant 60 jours maximum",
-      "sub_limits": [
-        "60 jours maximum"
-      ],
-      "deductible": "franchise de 2 jours",
-      "conditions": [
-        "suite à hospitalisation"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Les frais de recherche et de secours",
-      "description": "Quelle que soit la formule : Les frais de recherche et de secours jusqu’à 8 000 €.",
-      "is_optional": false,
-      "territorial_scope": "Frais de recherche : France métropolitaine, DROM-COM et pays frontaliers",
-      "limits": "jusqu’à 8 000 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Des services d’assistance",
-      "description": "Quelle que soit la formule : Des services d’assistance : garde des enfants, aide-ménagère, garde des animaux de compagnie, et soutien psychologique : intervention d’un psychologue (6 heures par assuré dans la limite de 18 heures).",
-      "is_optional": false,
-      "territorial_scope": "Assistance : France et étranger si le séjour est inférieur à 90 jours.",
-      "limits": null,
-      "sub_limits": [
-        "Soutien psychologique : intervention d’un psychologue (6 heures par assuré dans la limite de 18 heures)"
-      ],
-      "deductible": null,
-      "conditions": [
-        "Assistance : France et étranger si le séjour est inférieur à 90 jours."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Cas de la conduite d’un EDPM loué ou emprunté",
-      "description": "Cas de la conduite d’un EDPM loué ou emprunté : selon montant choisi par l’assuré (formule forfaitaire) ; Jusqu’à 600 000 € (formule indemnitaire). Dans tous les cas, le seuil d’intervention en AIPP est fixé à 10%.",
-      "is_optional": false,
-      "territorial_scope": "Sans limitation de durée : France métropolitaine, DROM-COM, Etats membres de l’UE, Royaume-Uni, Suisse, Liechtenstein, Islande, Norvège, Chypre, Saint Martin, Vatican et dans les territoires de Monaco et d’Andorre",
-      "limits": "selon montant choisi par l’assuré (formule forfaitaire) ; Jusqu’à 600 000 € (formule indemnitaire)",
-      "sub_limits": [
-        "Dans tous les cas, le seuil d’intervention en AIPP est fixé à 10%."
-      ],
-      "deductible": null,
-      "conditions": [
-        "EDPM loué ou emprunté (les EDPM dont l’assuré est propriétaire relèvent de l’exclusion des accidents de la circulation impliquant un véhicule terrestre à moteur)",
-        "Port du casque, véhicule homologué et circulant à 25 km/h ou moins, conducteur non sous l’emprise de l’alcool ou de stupéfiants"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Scolaire et Extra-scolaire (intégrée dans la formule Jeunes)",
-      "description": "Garantie optionnelle : Scolaire et Extra-scolaire (intégrée dans la formule Jeunes) : couvre les enfants dans leurs activités scolaires et extra-scolaires ainsi qu’en cas de vols, rackets et agressions. La garantie « l’Ecole continue » est incluse en cas d’immobilisation suite à accident ou maladie (mise en œuvre par Mondial Assistance).",
-      "is_optional": true,
-      "territorial_scope": "Sans limitation de durée : France métropolitaine, DROM-COM, Etats membres de l’UE, Royaume-Uni, Suisse, Liechtenstein, Islande, Norvège, Chypre, Saint Martin, Vatican et dans les territoires de Monaco et d’Andorre",
-      "limits": null,
-      "sub_limits": [
-        "La garantie « l’Ecole continue » est incluse en cas d’immobilisation suite à accident ou maladie (mise en œuvre par Mondial Assistance)"
-      ],
-      "deductible": null,
-      "conditions": [
-        "Intégrée dans la formule Jeunes"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Accidents professionnels",
-      "description": "Garantie optionnelle : Accidents professionnels : la couverture est étendue aux accidents professionnels.",
-      "is_optional": true,
-      "territorial_scope": "Sans limitation de durée : France métropolitaine, DROM-COM, Etats membres de l’UE, Royaume-Uni, Suisse, Liechtenstein, Islande, Norvège, Chypre, Saint Martin, Vatican et dans les territoires de Monaco et d’Andorre",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Sans cette option, les dommages subis à l’occasion d’activités professionnelles, d’accidents de travail et de trajets sont exclus"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Revalorisation du capital par assuré (pour la formule forfaitaire)",
-      "description": "Garantie optionnelle : Revalorisation du capital par assuré (pour la formule forfaitaire) : les capitaux des garanties sont revalorisés chaque année + 5 000 €/an en décès et + 10 000 €/an en invalidité.",
-      "is_optional": true,
-      "territorial_scope": "Sans limitation de durée : France métropolitaine, DROM-COM, Etats membres de l’UE, Royaume-Uni, Suisse, Liechtenstein, Islande, Norvège, Chypre, Saint Martin, Vatican et dans les territoires de Monaco et d’Andorre",
-      "limits": "+ 5 000 €/an en décès et + 10 000 €/an en invalidité",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Pour la formule forfaitaire"
-      ],
-      "page": 1
-    }
-  ],
-  "exclusions": [
-    {
-      "name": "Enfants de plus de 26 ans ne vivant plus au foyer et non scolarisés",
-      "description": "Les enfants qui ont plus de 26 ans, ne vivant plus au foyer des parents et qui ne sont plus scolarisés n’ont plus la qualité d’assuré et doivent souscrire une assurance personnelle.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Activités professionnelles, accidents de travail et de trajets",
-      "description": "Les dommages subis à l’occasion d’activités professionnelles, d’accidents de travail et de trajets (sauf au titre de la garantie optionnelle Accidents professionnels) et de toute autre activité donnant lieu à rémunération y compris la pratique d’un sport professionnel ou sport générant des primes de match.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Fonctions publiques, électives ou syndicales",
-      "description": "Les dommages subis à l’occasion de fonctions publiques, électives ou syndicales.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Préjudices relevant d’une garantie de remboursement de prestations en nature",
-      "description": "Les préjudices relevant d’une garantie de remboursement de prestations en nature (frais médicaux, chirurgicaux, pharmaceutiques et d’hospitalisation…).",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Préjudices consécutifs à une incapacité temporaire de travail",
-      "description": "Les préjudices consécutifs à une incapacité temporaire de travail.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Stupéfiants, dépendance pathologique à l’alcool, sports extrêmes et tentatives de records",
-      "description": "Les accidents survenus sous l’emprise de substances classées comme stupéfiants, résultant d’une dépendance pathologique à l’alcool, lors de la pratique du base jump, du wingsuit, des arts martiaux mixtes (MMA) ou de sports non autorisés en France, ou survenus lors de tentatives de records ou d’exploits.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Suicide ou tentative de suicide",
-      "description": "Les dommages résultant d’un suicide ou d’une tentative de suicide.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Accident de la circulation impliquant un véhicule terrestre à moteur",
-      "description": "Les dommages résultant d’un accident de la circulation dans lequel est impliqué un véhicule terrestre à moteur y compris un EDPM (sauf si loué ou emprunté), les remorques et semi-remorques.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Dommages causés par les maladies",
-      "description": "Les dommages causés par les maladies.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "EDPM loué ou emprunté : non port du casque, vitesse, homologation, alcool ou stupéfiants",
-      "description": "En cas de conduite d’un EDPM loué ou emprunté : du non port du casque, lorsque le véhicule circule à plus de 25 km/h ou n’est pas homologué, ou lorsque le conducteur est sous l’emprise de l’alcool ou de stupéfiants.",
-      "applies_to": "Cas de la conduite d’un EDPM loué ou emprunté",
-      "page": 1
-    }
-  ],
-  "deductibles": {
-    "standard": null,
-    "variable": null,
-    "per_coverage": {
-      "L’aide financière suite à hospitalisation": "franchise de 2 jours"
-    },
-    "page": 1
+ "schema_version": "1.0",
+ "prompt_version": "1.1",
+ "country": "fr",
+ "insurer_slug": "thelem",
+ "insurer_name": "Thélem assurances",
+ "product_name": "Assurance Accidents de la vie privée",
+ "branch": "gav",
+ "branch_code": null,
+ "document_type": "ipid",
+ "language": "fr",
+ "target_audience": "particuliers",
+ "target_audience_note": "Bénéficiaires selon la formule choisie : souscripteur, son époux(se) / concubin(e) / partenaire de PACS, ses enfants et ses petits-enfants. Les enfants mineurs sont automatiquement couverts même s’ils n’ont pas été déclarés au contrat (hors formule Jeunes).",
+ "reference": null,
+ "edition_date": null,
+ "product_family": "Assurance Accidents de la vie privée",
+ "variant": null,
+ "is_extension": false,
+ "extends": null,
+ "superseded": null,
+ "source_url": "https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_700-ACCVP-08-2025.pdf",
+ "source_pdf": "assurance-accidents-de-la-vie-privee-9dc20bfb.pdf",
+ "source_sha256": "dee7b1bf6dc9e5f1c4f73fbe0654f1259bca2b5d80828efb29179d63c1af6975",
+ "source_pages": 2,
+ "fetched_at": "2026-07-30",
+ "extraction_model": "claude-code-subagent:scale",
+ "summary": "L’Assurance Accidents de la vie privée de Thélem assurances est un contrat de garantie des accidents de la vie (document d’information sur le produit d’assurance). Elle a pour objectif de protéger l’assuré, et éventuellement sa famille, contre les conséquences des accidents de la vie privée, et inclut des prestations d’assistance. L’assuré a le choix entre une formule forfaitaire (capital garanti) et une formule indemnitaire (indemnisation individualisée fixée selon les règles légales d’évaluation des préjudices corporels). Le contrat couvre notamment le décès, l’invalidité, une aide financière en cas d’hospitalisation, les frais de recherche et de secours et des services d’assistance, avec des options Scolaire et Extra-scolaire, Accidents professionnels et Revalorisation du capital.",
+ "definitions": [
+  {
+   "term": "Formule forfaitaire",
+   "definition": "capital garanti",
+   "page": 1
   },
-  "waiting_periods": [],
-  "obligations": [
-    {
-      "name": "Répondre exactement aux questions posées",
-      "description": "Répondre exactement aux questions posées lors de la souscription afin d’apprécier les risques et fixer la cotisation.",
-      "timing": "A la souscription du contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
-      "page": 2
-    },
-    {
-      "name": "Déclarer les circonstances nouvelles",
-      "description": "Déclarer toutes les circonstances nouvelles qui modifient les informations fournies lors de la souscription.",
-      "timing": "En cours de contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
-      "page": 2
-    },
-    {
-      "name": "Régler la cotisation",
-      "description": "Régler la cotisation à la date convenue.",
-      "timing": "En cours de contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
-      "page": 2
-    },
-    {
-      "name": "Déclarer le sinistre",
-      "description": "Déclarer tout sinistre dès que l’assuré en a connaissance et au plus tard dans le délai fixé par le contrat.",
-      "timing": "En cas de sinistre",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
-      "page": 2
-    },
-    {
-      "name": "Informer de l’existence d’une autre assurance",
-      "description": "Informer de l’existence de toute autre assurance souscrite pour des risques garantis par le présent contrat.",
-      "timing": "En cas de sinistre",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
-      "page": 2
-    }
-  ],
-  "claims_procedure": [
-    {
-      "step": "Déclaration du sinistre",
-      "description": "Déclarer tout sinistre dès que l’assuré en a connaissance et au plus tard dans le délai fixé par le contrat.",
-      "deadline": "dès que l’assuré en a connaissance et au plus tard dans le délai fixé par le contrat",
-      "page": 2
-    },
-    {
-      "step": "Information sur les autres assurances",
-      "description": "Informer de l’existence de toute autre assurance souscrite pour des risques garantis par le présent contrat.",
-      "deadline": null,
-      "page": 2
-    }
-  ],
-  "duration_and_cancellation": {
-    "duration": "Le contrat prend effet à la date et l’heure indiquées aux Conditions Particulières. Le contrat est souscrit jusqu’à la prochaine échéance principale et est renouvelable par tacite reconduction à chaque nouvelle échéance principale avec les facultés de résiliations prévues.",
-    "tacit_renewal": true,
-    "notice_period": "à l'échéance annuelle en respectant un préavis de deux mois",
-    "methods": [
-      "par lettre ou tout autre support durable",
-      "par déclaration faite au siège social ou chez notre représentant",
-      "par acte extrajudiciaire",
-      "via la fonctionnalité mise en place sur le site internet",
-      "En cas de résiliation suite à modification de votre situation selon les termes des articles L113-16 et R.113-6 du Code des assurances, vous devrez notifier la résiliation par lettre recommandée (papier ou électronique) avec demande d'avis de réception."
-    ],
-    "special_rights": [
-      "En cas de contrat conclu à distance, l’assuré dispose d’un délai de rétractation de 14 jours, qui commence à courir à compter de la conclusion du contrat, ou à compter de la réception de l’ensemble de la documentation contractuelle.",
-      "Les cas de résiliation, les délais à respecter sont ceux prévus par la règlementation et précisés dans les Dispositions Générales.",
-      "Nous vous confirmerons par écrit la réception de la notification."
-    ],
-    "page": 2
+  {
+   "term": "Formule indemnitaire",
+   "definition": "indemnisation individualisée et fixée en fonction des règles légales permettant l’évaluation des préjudices corporels",
+   "page": 1
   },
-  "prescription_period": null,
-  "premium": {
-    "notes": [
-      "La cotisation annuelle (ainsi que les frais, taxes et contributions fixées par l’Etat) se paie à la date ou aux dates indiquées sur vos Conditions Particulières.",
-      "Un paiement fractionné peut toutefois être accordé au choix (Semestriel, Mensuel).",
-      "Les paiements peuvent être effectués par carte bancaire, chèque ou prélèvement automatique."
-    ],
-    "indexation": null,
-    "page": 2
+  {
+   "term": "Bénéficiaires",
+   "definition": "Bénéficiaires selon la formule choisie : souscripteur, son époux(se) / concubin(e) / partenaire de PACS, ses enfants et ses petits-enfants. Les enfants mineurs sont automatiquement couverts même s’ils n’ont pas été déclarés au contrat (hors formule Jeunes).",
+   "page": 1
   },
-  "special_conditions": [
-    {
-      "name": "Choix de la formule",
-      "description": "L’assuré a le choix entre une formule forfaitaire (capital garanti) et une formule indemnitaire (indemnisation individualisée et fixée en fonction des règles légales permettant l’évaluation des préjudices corporels).",
-      "page": 1
-    },
-    {
-      "name": "Couverture automatique des enfants mineurs",
-      "description": "Les enfants mineurs sont automatiquement couverts même s’ils n’ont pas été déclarés au contrat (hors formule Jeunes).",
-      "page": 1
-    },
-    {
-      "name": "Restriction - décès d’un enfant mineur",
-      "description": "L’indemnisation en cas de décès d’un enfant mineur est limitée à 5 000 €.",
-      "page": 1
-    },
-    {
-      "name": "Restriction - âge et formule indemnitaire",
-      "description": "La formule indemnitaire ne peut être souscrite par les personnes de plus de 70 ans.",
-      "page": 1
-    },
-    {
-      "name": "Restriction - assurés de plus de 70 ans (formule forfaitaire)",
-      "description": "Pour les plus de 70 ans : en formule forfaitaire, l’indemnisation de l’invalidité est déclenchée si le seuil de 30% d’invalidité est atteint.",
-      "page": 1
-    },
-    {
-      "name": "Restriction - assurés de plus de 70 ans (formule indemnitaire)",
-      "description": "Pour les plus de 70 ans : en formule indemnitaire, en cas de décès ou d’invalidité, le montant versé n’excèdera pas 400 000 €.",
-      "page": 1
-    },
-    {
-      "name": "Seuil d’intervention en AIPP (EDPM loué ou emprunté)",
-      "description": "Dans tous les cas, le seuil d’intervention en AIPP est fixé à 10%.",
-      "page": 1
-    },
-    {
-      "name": "Prestations d’assistance",
-      "description": "Ce contrat inclut des prestations d’assistance.",
-      "page": 1
-    },
-    {
-      "name": "Assureur",
-      "description": "Thélem assurances, société d’assurance mutuelle à cotisations variables, numéro SIREN 085 580 488, Siège Social « Le Croc », BP 63130, 45431 Chécy Cedex. Entreprise régie par le Code des assurances et soumise à l’Autorité de Contrôle Prudentiel et de Résolution (ACPR), sise 4 Place de Budapest, CS 92459, 75436 Paris Cedex 09.",
-      "page": 1
-    }
+  {
+   "term": "Accidents corporels de la vie courante",
+   "definition": "Les accidents corporels de la vie courante : domestiques, scolaires, de loisirs, touristiques, sportifs, la conduite d’un EDPM loué ou emprunté, ou lorsqu’ils sont liés à des événements climatiques, à des catastrophes techniques, à des attentats et actes de terrorisme, à des agressions et des accidents médicaux.",
+   "page": 1
+  },
+  {
+   "term": "Garanties précédées d’une coche",
+   "definition": "Les garanties précédées d’une coche sont systématiquement prévues au contrat.",
+   "page": 1
+  }
+ ],
+ "coverages": [
+  {
+   "name": "Les accidents corporels de la vie courante",
+   "description": "Les accidents corporels de la vie courante : domestiques, scolaires, de loisirs, touristiques, sportifs, la conduite d’un EDPM loué ou emprunté, ou lorsqu’ils sont liés à des événements climatiques, à des catastrophes techniques, à des attentats et actes de terrorisme, à des agressions et des accidents médicaux.",
+   "is_optional": false,
+   "territorial_scope": "Sans limitation de durée : France métropolitaine, DROM-COM, Etats membres de l’UE, Royaume-Uni, Suisse, Liechtenstein, Islande, Norvège, Chypre, Saint Martin, Vatican et dans les territoires de Monaco et d’Andorre",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Bénéficiaires selon la formule choisie : souscripteur, son époux(se) / concubin(e) / partenaire de PACS, ses enfants et ses petits-enfants.",
+    "Les enfants mineurs sont automatiquement couverts même s’ils n’ont pas été déclarés au contrat (hors formule Jeunes)."
+   ],
+   "page": 1
+  },
+  {
+   "name": "L’indemnisation en cas de décès (formule forfaitaire)",
+   "description": "En formule forfaitaire : L’indemnisation en cas de décès : de 20 000 € à 80 000 € par assuré.",
+   "is_optional": false,
+   "territorial_scope": "Sans limitation de durée : France métropolitaine, DROM-COM, Etats membres de l’UE, Royaume-Uni, Suisse, Liechtenstein, Islande, Norvège, Chypre, Saint Martin, Vatican et dans les territoires de Monaco et d’Andorre",
+   "limits": "de 20 000 € à 80 000 € par assuré",
+   "sub_limits": [
+    "L’indemnisation en cas de décès d’un enfant mineur est limitée à 5 000 €."
+   ],
+   "deductible": null,
+   "conditions": [
+    "Formule forfaitaire"
+   ],
+   "page": 1
+  },
+  {
+   "name": "L’indemnisation en cas d’invalidité (formule forfaitaire)",
+   "description": "En formule forfaitaire : L’indemnisation en cas d’invalidité : de 40 000 € à 160 000 € par assuré, si le seuil de 10% d’invalidité est atteint.",
+   "is_optional": false,
+   "territorial_scope": "Sans limitation de durée : France métropolitaine, DROM-COM, Etats membres de l’UE, Royaume-Uni, Suisse, Liechtenstein, Islande, Norvège, Chypre, Saint Martin, Vatican et dans les territoires de Monaco et d’Andorre",
+   "limits": "de 40 000 € à 160 000 € par assuré, si le seuil de 10% d’invalidité est atteint",
+   "sub_limits": [
+    "Pour les plus de 70 ans : en formule forfaitaire, l’indemnisation de l’invalidité est déclenchée si le seuil de 30% d’invalidité est atteint."
+   ],
+   "deductible": null,
+   "conditions": [
+    "Formule forfaitaire",
+    "si le seuil de 10% d’invalidité est atteint"
+   ],
+   "page": 1
+  },
+  {
+   "name": "L’indemnisation en cas de décès ou d’invalidité (formule indemnitaire)",
+   "description": "En formule indemnitaire : L’indemnisation en cas de décès ou d’invalidité : jusqu’à 2 000 000 € par assuré si le seuil de 5% est atteint.",
+   "is_optional": false,
+   "territorial_scope": "Sans limitation de durée : France métropolitaine, DROM-COM, Etats membres de l’UE, Royaume-Uni, Suisse, Liechtenstein, Islande, Norvège, Chypre, Saint Martin, Vatican et dans les territoires de Monaco et d’Andorre",
+   "limits": "jusqu’à 2 000 000 € par assuré si le seuil de 5% est atteint",
+   "sub_limits": [
+    "L’indemnisation en cas de décès d’un enfant mineur est limitée à 5 000 €.",
+    "Pour les plus de 70 ans : en formule indemnitaire, en cas de décès ou d’invalidité, le montant versé n’excèdera pas 400 000 €."
+   ],
+   "deductible": null,
+   "conditions": [
+    "Formule indemnitaire",
+    "si le seuil de 5% est atteint",
+    "La formule indemnitaire ne peut être souscrite par les personnes de plus de 70 ans."
+   ],
+   "page": 1
+  },
+  {
+   "name": "L’aide financière suite à hospitalisation",
+   "description": "Quelle que soit la formule : L’aide financière jusqu’à 50 €/jour pendant 60 jours maximum suite à hospitalisation (franchise de 2 jours).",
+   "is_optional": false,
+   "territorial_scope": "Sans limitation de durée : France métropolitaine, DROM-COM, Etats membres de l’UE, Royaume-Uni, Suisse, Liechtenstein, Islande, Norvège, Chypre, Saint Martin, Vatican et dans les territoires de Monaco et d’Andorre",
+   "limits": "jusqu’à 50 €/jour pendant 60 jours maximum",
+   "sub_limits": [
+    "60 jours maximum"
+   ],
+   "deductible": "franchise de 2 jours",
+   "conditions": [
+    "suite à hospitalisation"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Les frais de recherche et de secours",
+   "description": "Quelle que soit la formule : Les frais de recherche et de secours jusqu’à 8 000 €.",
+   "is_optional": false,
+   "territorial_scope": "Frais de recherche : France métropolitaine, DROM-COM et pays frontaliers",
+   "limits": "jusqu’à 8 000 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Des services d’assistance",
+   "description": "Quelle que soit la formule : Des services d’assistance : garde des enfants, aide-ménagère, garde des animaux de compagnie, et soutien psychologique : intervention d’un psychologue (6 heures par assuré dans la limite de 18 heures).",
+   "is_optional": false,
+   "territorial_scope": "Assistance : France et étranger si le séjour est inférieur à 90 jours.",
+   "limits": null,
+   "sub_limits": [
+    "Soutien psychologique : intervention d’un psychologue (6 heures par assuré dans la limite de 18 heures)"
+   ],
+   "deductible": null,
+   "conditions": [
+    "Assistance : France et étranger si le séjour est inférieur à 90 jours."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Cas de la conduite d’un EDPM loué ou emprunté",
+   "description": "Cas de la conduite d’un EDPM loué ou emprunté : selon montant choisi par l’assuré (formule forfaitaire) ; Jusqu’à 600 000 € (formule indemnitaire). Dans tous les cas, le seuil d’intervention en AIPP est fixé à 10%.",
+   "is_optional": false,
+   "territorial_scope": "Sans limitation de durée : France métropolitaine, DROM-COM, Etats membres de l’UE, Royaume-Uni, Suisse, Liechtenstein, Islande, Norvège, Chypre, Saint Martin, Vatican et dans les territoires de Monaco et d’Andorre",
+   "limits": "selon montant choisi par l’assuré (formule forfaitaire) ; Jusqu’à 600 000 € (formule indemnitaire)",
+   "sub_limits": [
+    "Dans tous les cas, le seuil d’intervention en AIPP est fixé à 10%."
+   ],
+   "deductible": null,
+   "conditions": [
+    "EDPM loué ou emprunté (les EDPM dont l’assuré est propriétaire relèvent de l’exclusion des accidents de la circulation impliquant un véhicule terrestre à moteur)",
+    "Port du casque, véhicule homologué et circulant à 25 km/h ou moins, conducteur non sous l’emprise de l’alcool ou de stupéfiants"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Scolaire et Extra-scolaire (intégrée dans la formule Jeunes)",
+   "description": "Garantie optionnelle : Scolaire et Extra-scolaire (intégrée dans la formule Jeunes) : couvre les enfants dans leurs activités scolaires et extra-scolaires ainsi qu’en cas de vols, rackets et agressions. La garantie « l’Ecole continue » est incluse en cas d’immobilisation suite à accident ou maladie (mise en œuvre par Mondial Assistance).",
+   "is_optional": true,
+   "territorial_scope": "Sans limitation de durée : France métropolitaine, DROM-COM, Etats membres de l’UE, Royaume-Uni, Suisse, Liechtenstein, Islande, Norvège, Chypre, Saint Martin, Vatican et dans les territoires de Monaco et d’Andorre",
+   "limits": null,
+   "sub_limits": [
+    "La garantie « l’Ecole continue » est incluse en cas d’immobilisation suite à accident ou maladie (mise en œuvre par Mondial Assistance)"
+   ],
+   "deductible": null,
+   "conditions": [
+    "Intégrée dans la formule Jeunes"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Accidents professionnels",
+   "description": "Garantie optionnelle : Accidents professionnels : la couverture est étendue aux accidents professionnels.",
+   "is_optional": true,
+   "territorial_scope": "Sans limitation de durée : France métropolitaine, DROM-COM, Etats membres de l’UE, Royaume-Uni, Suisse, Liechtenstein, Islande, Norvège, Chypre, Saint Martin, Vatican et dans les territoires de Monaco et d’Andorre",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Sans cette option, les dommages subis à l’occasion d’activités professionnelles, d’accidents de travail et de trajets sont exclus"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Revalorisation du capital par assuré (pour la formule forfaitaire)",
+   "description": "Garantie optionnelle : Revalorisation du capital par assuré (pour la formule forfaitaire) : les capitaux des garanties sont revalorisés chaque année + 5 000 €/an en décès et + 10 000 €/an en invalidité.",
+   "is_optional": true,
+   "territorial_scope": "Sans limitation de durée : France métropolitaine, DROM-COM, Etats membres de l’UE, Royaume-Uni, Suisse, Liechtenstein, Islande, Norvège, Chypre, Saint Martin, Vatican et dans les territoires de Monaco et d’Andorre",
+   "limits": "+ 5 000 €/an en décès et + 10 000 €/an en invalidité",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Pour la formule forfaitaire"
+   ],
+   "page": 1
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Enfants de plus de 26 ans ne vivant plus au foyer et non scolarisés",
+   "description": "Les enfants qui ont plus de 26 ans, ne vivant plus au foyer des parents et qui ne sont plus scolarisés n’ont plus la qualité d’assuré et doivent souscrire une assurance personnelle.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Activités professionnelles, accidents de travail et de trajets",
+   "description": "Les dommages subis à l’occasion d’activités professionnelles, d’accidents de travail et de trajets (sauf au titre de la garantie optionnelle Accidents professionnels) et de toute autre activité donnant lieu à rémunération y compris la pratique d’un sport professionnel ou sport générant des primes de match.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Fonctions publiques, électives ou syndicales",
+   "description": "Les dommages subis à l’occasion de fonctions publiques, électives ou syndicales.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Préjudices relevant d’une garantie de remboursement de prestations en nature",
+   "description": "Les préjudices relevant d’une garantie de remboursement de prestations en nature (frais médicaux, chirurgicaux, pharmaceutiques et d’hospitalisation…).",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Préjudices consécutifs à une incapacité temporaire de travail",
+   "description": "Les préjudices consécutifs à une incapacité temporaire de travail.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Stupéfiants, dépendance pathologique à l’alcool, sports extrêmes et tentatives de records",
+   "description": "Les accidents survenus sous l’emprise de substances classées comme stupéfiants, résultant d’une dépendance pathologique à l’alcool, lors de la pratique du base jump, du wingsuit, des arts martiaux mixtes (MMA) ou de sports non autorisés en France, ou survenus lors de tentatives de records ou d’exploits.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Suicide ou tentative de suicide",
+   "description": "Les dommages résultant d’un suicide ou d’une tentative de suicide.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Accident de la circulation impliquant un véhicule terrestre à moteur",
+   "description": "Les dommages résultant d’un accident de la circulation dans lequel est impliqué un véhicule terrestre à moteur y compris un EDPM (sauf si loué ou emprunté), les remorques et semi-remorques.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Dommages causés par les maladies",
+   "description": "Les dommages causés par les maladies.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "EDPM loué ou emprunté : non port du casque, vitesse, homologation, alcool ou stupéfiants",
+   "description": "En cas de conduite d’un EDPM loué ou emprunté : du non port du casque, lorsque le véhicule circule à plus de 25 km/h ou n’est pas homologué, ou lorsque le conducteur est sous l’emprise de l’alcool ou de stupéfiants.",
+   "applies_to": "Cas de la conduite d’un EDPM loué ou emprunté",
+   "page": 1
+  }
+ ],
+ "deductibles": {
+  "standard": null,
+  "variable": null,
+  "per_coverage": {
+   "L’aide financière suite à hospitalisation": "franchise de 2 jours"
+  },
+  "page": 1
+ },
+ "waiting_periods": [],
+ "obligations": [
+  {
+   "name": "Répondre exactement aux questions posées",
+   "description": "Répondre exactement aux questions posées lors de la souscription afin d’apprécier les risques et fixer la cotisation.",
+   "timing": "A la souscription du contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+   "page": 2
+  },
+  {
+   "name": "Déclarer les circonstances nouvelles",
+   "description": "Déclarer toutes les circonstances nouvelles qui modifient les informations fournies lors de la souscription.",
+   "timing": "En cours de contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+   "page": 2
+  },
+  {
+   "name": "Régler la cotisation",
+   "description": "Régler la cotisation à la date convenue.",
+   "timing": "En cours de contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+   "page": 2
+  },
+  {
+   "name": "Déclarer le sinistre",
+   "description": "Déclarer tout sinistre dès que l’assuré en a connaissance et au plus tard dans le délai fixé par le contrat.",
+   "timing": "En cas de sinistre",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+   "page": 2
+  },
+  {
+   "name": "Informer de l’existence d’une autre assurance",
+   "description": "Informer de l’existence de toute autre assurance souscrite pour des risques garantis par le présent contrat.",
+   "timing": "En cas de sinistre",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+   "page": 2
+  }
+ ],
+ "claims_procedure": [
+  {
+   "step": "Déclaration du sinistre",
+   "description": "Déclarer tout sinistre dès que l’assuré en a connaissance et au plus tard dans le délai fixé par le contrat.",
+   "deadline": "dès que l’assuré en a connaissance et au plus tard dans le délai fixé par le contrat",
+   "page": 2
+  },
+  {
+   "step": "Information sur les autres assurances",
+   "description": "Informer de l’existence de toute autre assurance souscrite pour des risques garantis par le présent contrat.",
+   "deadline": null,
+   "page": 2
+  }
+ ],
+ "duration_and_cancellation": {
+  "duration": "Le contrat prend effet à la date et l’heure indiquées aux Conditions Particulières. Le contrat est souscrit jusqu’à la prochaine échéance principale et est renouvelable par tacite reconduction à chaque nouvelle échéance principale avec les facultés de résiliations prévues.",
+  "tacit_renewal": true,
+  "notice_period": "à l'échéance annuelle en respectant un préavis de deux mois",
+  "methods": [
+   "par lettre ou tout autre support durable",
+   "par déclaration faite au siège social ou chez notre représentant",
+   "par acte extrajudiciaire",
+   "via la fonctionnalité mise en place sur le site internet",
+   "En cas de résiliation suite à modification de votre situation selon les termes des articles L113-16 et R.113-6 du Code des assurances, vous devrez notifier la résiliation par lettre recommandée (papier ou électronique) avec demande d'avis de réception."
   ],
-  "key_quotes": [
-    {
-      "quote": "L’assurance Accidents de la Vie privée a pour objectif de protéger l’assuré, et éventuellement sa famille, contre les conséquences des accidents de la vie privée.",
-      "context": "De quel type d’assurance s’agit-il ?",
-      "page": 1
-    },
-    {
-      "quote": "L’assuré a le choix entre une formule forfaitaire (capital garanti) et une formule indemnitaire (indemnisation individualisée et fixée en fonction des règles légales permettant l’évaluation des préjudices corporels)",
-      "context": "De quel type d’assurance s’agit-il ?",
-      "page": 1
-    },
-    {
-      "quote": "L’indemnisation en cas d’invalidité : de 40 000 € à 160 000 € par assuré, si le seuil de 10% d’invalidité est atteint,",
-      "context": "Garanties systématiquement prévues - formule forfaitaire",
-      "page": 1
-    },
-    {
-      "quote": "L’aide financière jusqu’à 50 €/jour pendant 60 jours maximum suite à hospitalisation (franchise de 2 jours),",
-      "context": "Garanties systématiquement prévues - quelle que soit la formule",
-      "page": 1
-    },
-    {
-      "quote": "Les frais de recherche et de secours jusqu’à 8 000 €,",
-      "context": "Garanties systématiquement prévues - quelle que soit la formule",
-      "page": 1
-    },
-    {
-      "quote": "Dans tous les cas, le seuil d’intervention en AIPP est fixé à 10%.",
-      "context": "Cas de la conduite d’un EDPM loué ou emprunté",
-      "page": 1
-    },
-    {
-      "quote": "D’un suicide ou d’une tentative de suicide,",
-      "context": "Les principales exclusions - les dommages résultant",
-      "page": 1
-    },
-    {
-      "quote": "Les dommages causés par les maladies.",
-      "context": "Les principales exclusions",
-      "page": 1
-    },
-    {
-      "quote": "L’indemnisation en cas de décès d’un enfant mineur est limitée à 5 000 €.",
-      "context": "Les principales restrictions",
-      "page": 1
-    },
-    {
-      "quote": "La formule indemnitaire ne peut être souscrite par les personnes de plus de 70 ans.",
-      "context": "Les principales restrictions",
-      "page": 1
-    },
-    {
-      "quote": "Sans limitation de durée : France métropolitaine, DROM-COM, Etats membres de l’UE, Royaume-Uni, Suisse, Liechtenstein, Islande, Norvège, Chypre, Saint Martin, Vatican et dans les territoires de Monaco et d’Andorre,",
-      "context": "Où suis-je couvert ?",
-      "page": 2
-    },
-    {
-      "quote": "Assistance : France et étranger si le séjour est inférieur à 90 jours.",
-      "context": "Où suis-je couvert ?",
-      "page": 2
-    }
+  "special_rights": [
+   "En cas de contrat conclu à distance, l’assuré dispose d’un délai de rétractation de 14 jours, qui commence à courir à compter de la conclusion du contrat, ou à compter de la réception de l’ensemble de la documentation contractuelle.",
+   "Les cas de résiliation, les délais à respecter sont ceux prévus par la règlementation et précisés dans les Dispositions Générales.",
+   "Nous vous confirmerons par écrit la réception de la notification."
   ],
-  "gaps": [
-    "Document de type IPID : il présente « un résumé des principales garanties et exclusions du contrat ». Seules « LES PRINCIPALES EXCLUSIONS » et « LES PRINCIPALES RESTRICTIONS » sont listées ; la liste complète figure dans la documentation précontractuelle et contractuelle.",
-    "Aucune date d’édition ni référence interne n’apparaît dans le texte extrait ; le nom du fichier source (IPID_TA_700-ACCVP-08-2025.pdf) suggère une référence « TA 700 » et une édition d’août 2025, non confirmées par le texte : edition_date et reference laissés à null.",
-    "Aucune section « Définitions » formelle : les définitions listées sont reprises des libellés du document (formules, bénéficiaires, accidents de la vie courante).",
-    "Le sigle EDPM n’est pas explicité dans le document ; le sigle AIPP non plus.",
-    "Aucun délai de carence n’est mentionné (waiting_periods vide) ; seule une franchise de 2 jours est indiquée pour l’aide financière suite à hospitalisation.",
-    "Aucun délai de prescription n’est mentionné dans le document (prescription_period null).",
-    "Les plafonds des services d’assistance (garde des enfants, aide-ménagère, garde des animaux de compagnie) ne sont pas chiffrés, hormis le soutien psychologique.",
-    "Les montants des formules forfaitaires sont donnés sous forme de fourchettes (de 20 000 € à 80 000 €, de 40 000 € à 160 000 €) sans détail des paliers.",
-    "Les cas et délais de résiliation ne sont pas détaillés : « Les cas de résiliation, les délais à respecter sont ceux prévus par la règlementation et précisés dans les Dispositions Générales ».",
-    "La formule Jeunes est mentionnée (garantie Scolaire et Extra-scolaire intégrée, enfants mineurs non couverts automatiquement) mais n’est pas décrite par ailleurs."
-  ]
+  "page": 2
+ },
+ "prescription_period": null,
+ "premium": {
+  "notes": [
+   "La cotisation annuelle (ainsi que les frais, taxes et contributions fixées par l’Etat) se paie à la date ou aux dates indiquées sur vos Conditions Particulières.",
+   "Un paiement fractionné peut toutefois être accordé au choix (Semestriel, Mensuel).",
+   "Les paiements peuvent être effectués par carte bancaire, chèque ou prélèvement automatique."
+  ],
+  "indexation": null,
+  "page": 2
+ },
+ "special_conditions": [
+  {
+   "name": "Choix de la formule",
+   "description": "L’assuré a le choix entre une formule forfaitaire (capital garanti) et une formule indemnitaire (indemnisation individualisée et fixée en fonction des règles légales permettant l’évaluation des préjudices corporels).",
+   "page": 1
+  },
+  {
+   "name": "Couverture automatique des enfants mineurs",
+   "description": "Les enfants mineurs sont automatiquement couverts même s’ils n’ont pas été déclarés au contrat (hors formule Jeunes).",
+   "page": 1
+  },
+  {
+   "name": "Restriction - décès d’un enfant mineur",
+   "description": "L’indemnisation en cas de décès d’un enfant mineur est limitée à 5 000 €.",
+   "page": 1
+  },
+  {
+   "name": "Restriction - âge et formule indemnitaire",
+   "description": "La formule indemnitaire ne peut être souscrite par les personnes de plus de 70 ans.",
+   "page": 1
+  },
+  {
+   "name": "Restriction - assurés de plus de 70 ans (formule forfaitaire)",
+   "description": "Pour les plus de 70 ans : en formule forfaitaire, l’indemnisation de l’invalidité est déclenchée si le seuil de 30% d’invalidité est atteint.",
+   "page": 1
+  },
+  {
+   "name": "Restriction - assurés de plus de 70 ans (formule indemnitaire)",
+   "description": "Pour les plus de 70 ans : en formule indemnitaire, en cas de décès ou d’invalidité, le montant versé n’excèdera pas 400 000 €.",
+   "page": 1
+  },
+  {
+   "name": "Seuil d’intervention en AIPP (EDPM loué ou emprunté)",
+   "description": "Dans tous les cas, le seuil d’intervention en AIPP est fixé à 10%.",
+   "page": 1
+  },
+  {
+   "name": "Prestations d’assistance",
+   "description": "Ce contrat inclut des prestations d’assistance.",
+   "page": 1
+  },
+  {
+   "name": "Assureur",
+   "description": "Thélem assurances, société d’assurance mutuelle à cotisations variables, numéro SIREN 085 580 488, Siège Social « Le Croc », BP 63130, 45431 Chécy Cedex. Entreprise régie par le Code des assurances et soumise à l’Autorité de Contrôle Prudentiel et de Résolution (ACPR), sise 4 Place de Budapest, CS 92459, 75436 Paris Cedex 09.",
+   "page": 1
+  }
+ ],
+ "key_quotes": [
+  {
+   "quote": "L’assurance Accidents de la Vie privée a pour objectif de protéger l’assuré, et éventuellement sa famille, contre les conséquences des accidents de la vie privée.",
+   "context": "De quel type d’assurance s’agit-il ?",
+   "page": 1
+  },
+  {
+   "quote": "L’assuré a le choix entre une formule forfaitaire (capital garanti) et une formule indemnitaire (indemnisation individualisée et fixée en fonction des règles légales permettant l’évaluation des préjudices corporels)",
+   "context": "De quel type d’assurance s’agit-il ?",
+   "page": 1
+  },
+  {
+   "quote": "L’indemnisation en cas d’invalidité : de 40 000 € à 160 000 € par assuré, si le seuil de 10% d’invalidité est atteint,",
+   "context": "Garanties systématiquement prévues - formule forfaitaire",
+   "page": 1
+  },
+  {
+   "quote": "L’aide financière jusqu’à 50 €/jour pendant 60 jours maximum suite à hospitalisation (franchise de 2 jours),",
+   "context": "Garanties systématiquement prévues - quelle que soit la formule",
+   "page": 1
+  },
+  {
+   "quote": "Les frais de recherche et de secours jusqu’à 8 000 €,",
+   "context": "Garanties systématiquement prévues - quelle que soit la formule",
+   "page": 1
+  },
+  {
+   "quote": "Dans tous les cas, le seuil d’intervention en AIPP est fixé à 10%.",
+   "context": "Cas de la conduite d’un EDPM loué ou emprunté",
+   "page": 1
+  },
+  {
+   "quote": "D’un suicide ou d’une tentative de suicide,",
+   "context": "Les principales exclusions - les dommages résultant",
+   "page": 1
+  },
+  {
+   "quote": "Les dommages causés par les maladies.",
+   "context": "Les principales exclusions",
+   "page": 1
+  },
+  {
+   "quote": "L’indemnisation en cas de décès d’un enfant mineur est limitée à 5 000 €.",
+   "context": "Les principales restrictions",
+   "page": 1
+  },
+  {
+   "quote": "La formule indemnitaire ne peut être souscrite par les personnes de plus de 70 ans.",
+   "context": "Les principales restrictions",
+   "page": 1
+  },
+  {
+   "quote": "Sans limitation de durée : France métropolitaine, DROM-COM, Etats membres de l’UE, Royaume-Uni, Suisse, Liechtenstein, Islande, Norvège, Chypre, Saint Martin, Vatican et dans les territoires de Monaco et d’Andorre,",
+   "context": "Où suis-je couvert ?",
+   "page": 2
+  },
+  {
+   "quote": "Assistance : France et étranger si le séjour est inférieur à 90 jours.",
+   "context": "Où suis-je couvert ?",
+   "page": 2
+  }
+ ],
+ "gaps": [
+  "Document de type IPID : il présente « un résumé des principales garanties et exclusions du contrat ». Seules « LES PRINCIPALES EXCLUSIONS » et « LES PRINCIPALES RESTRICTIONS » sont listées ; la liste complète figure dans la documentation précontractuelle et contractuelle.",
+  "Aucune date d’édition ni référence interne n’apparaît dans le texte extrait ; le nom du fichier source (IPID_TA_700-ACCVP-08-2025.pdf) suggère une référence « TA 700 » et une édition d’août 2025, non confirmées par le texte : edition_date et reference laissés à null.",
+  "Aucune section « Définitions » formelle : les définitions listées sont reprises des libellés du document (formules, bénéficiaires, accidents de la vie courante).",
+  "Le sigle EDPM n’est pas explicité dans le document ; le sigle AIPP non plus.",
+  "Aucun délai de carence n’est mentionné (waiting_periods vide) ; seule une franchise de 2 jours est indiquée pour l’aide financière suite à hospitalisation.",
+  "Aucun délai de prescription n’est mentionné dans le document (prescription_period null).",
+  "Les plafonds des services d’assistance (garde des enfants, aide-ménagère, garde des animaux de compagnie) ne sont pas chiffrés, hormis le soutien psychologique.",
+  "Les montants des formules forfaitaires sont donnés sous forme de fourchettes (de 20 000 € à 80 000 €, de 40 000 € à 160 000 €) sans détail des paliers.",
+  "Les cas et délais de résiliation ne sont pas détaillés : « Les cas de résiliation, les délais à respecter sont ceux prévus par la règlementation et précisés dans les Dispositions Générales ».",
+  "La formule Jeunes est mentionnée (garantie Scolaire et Extra-scolaire intégrée, enfants mineurs non couverts automatiquement) mais n’est pas décrite par ailleurs.",
+  "edition_date remise a null le 2026-08-01: la valeur 2025 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5."
+ ]
 }

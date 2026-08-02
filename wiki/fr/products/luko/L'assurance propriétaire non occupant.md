@@ -12,7 +12,7 @@ target_audience_note: Ce contrat a pour objet de vous couvrir en votre qualité 
   propriétaire ou copropriétaire non occupant du bien assuré, mis en location de longue
   durée, en dehors de toute activité professionnelle.
 reference: Conditions_générales_LCE_2504
-edition_date: 2025-04
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/habitation
@@ -28,7 +28,7 @@ prompt_version: '1.1'
 product_family: assurance-proprietaire-non-occupant
 variant: LCE
 edition_status: null
-edition_age_years: 1
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -42,7 +42,7 @@ generated: true
 
 Conditions générales du contrat d'assurance habitation Luko destiné au propriétaire, copropriétaire, propriétaire indivis, nu-propriétaire ou usufruitier non occupant d'un bien mis en location de longue durée, en dehors de toute activité professionnelle. Le Titre III (assurance propriétaire non occupant, souscrite auprès d'Allianz Direct Versicherungs-AG succursale France, opérant sous la marque Luko) couvre les dommages aux bâtiments et biens mobiliers appartenant à l'assuré (incendie et événements assimilés, dégât des eaux et gel, événements climatiques, vol et vandalisme, bris de vitres, dommages électriques, catastrophes naturelles et technologiques, attentats), trois options (aménagements extérieurs, canalisations extérieures, piscine/spa/jacuzzi), des frais et pertes dont la perte de loyer, ainsi que la responsabilité civile propriétaire d'immeuble et la défense pénale et recours. Le Titre IV regroupe des prestations d'assistance délivrées par OPTEVEN Assurances (nuisibles, plomberie, retour prématuré, nettoyage et diagnostics au départ d'un locataire, assistance travaux). Les garanties s'exercent en France Métropolitaine (hors Corse) ; une option « Assistance Juridique » proposée par Ekie est décrite en annexe.
 
-- Assureur : [Luko](../../insurers/Luko.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales · Édition : 2025-04
+- Assureur : [Luko](../../insurers/Luko.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales
 
 ## Définitions
 
@@ -704,6 +704,7 @@ La prescription est le délai à l'expiration duquel une action juridique ou jud
 - Les pages 92 à 95 (option « Assistance Juridique » proposée par Ekie) ne figurent pas au sommaire et ne portent pas de numéro de chapitre ; elles ont été traitées comme une annexe au contrat.
 - Aucun délai de carence (waiting period) n'est stipulé dans le document ; le tableau waiting_periods est donc vide.
 - Aucune clause d'indexation de la prime n'est décrite ; seule une révision annuelle du tarif, des franchises et des limites d'indemnité au renouvellement est prévue (page 70).
+- edition_date remise a null le 2026-08-01: la valeur 2025-04 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Documents liés
 

@@ -153,7 +153,7 @@ Siège social : 66, rue de Sotteville 76100 Rouen - Adresse postale : 76030 Roue
 ## Documents liés
 
 - Extension / option du produit : **Multirisques Accidents de la Vie / Multirisques Accidents de la Vie Sérénité**
-- [Multirisques Accidents de la Vie](Multirisques%20Accidents%20de%20la%20Vie.md) - Conditions générales, éd. 2026-01
+- [Multirisques Accidents de la Vie](Multirisques%20Accidents%20de%20la%20Vie.md) - Conditions générales
 
 ## Source & fidélité
 

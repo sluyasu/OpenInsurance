@@ -1,414 +1,414 @@
 {
-  "schema_version": "1.0",
-  "prompt_version": "1.1",
-  "country": "fr",
-  "insurer_slug": "smacl",
-  "insurer_name": "SMACL Assurances",
-  "product_name": "Tous risques chantier",
-  "branch": "decennale",
-  "branch_code": null,
-  "document_type": "ipid",
-  "language": "fr",
-  "target_audience": null,
-  "target_audience_note": "Le document ne nomme pas de catégorie de souscripteur. Il désigne ses bénéficiaires ainsi : « Il bénéficie au maître d'ouvrage ainsi qu'à tout constructeur lié au maître d'ouvrage par un contrat de louage d'ouvrage, y compris les sous-traitants participant à la réalisation de l'opération de construction, pendant le chantier. » Le mot « collectivité » n'apparaît nulle part dans le document, alors que l'URL source contient « collectivites ».",
-  "reference": "CONSTRUCTION_DIPA_TRC_SA_01(06_2021)",
-  "edition_date": "01/2024",
-  "product_family": "Tous risques chantier",
-  "variant": null,
-  "is_extension": false,
-  "extends": null,
-  "superseded": null,
-  "source_url": "https://www.smacl.fr/files/documents/document-information-tous-risques-chantier-collectivites.pdf",
-  "source_pdf": "tous-risques-chantier-2b81e39f.pdf",
-  "source_sha256": "8852056b1942c34581f9421253744654f98a1cfc4480f2f3deb46013e79c5b4f",
-  "source_pages": 2,
-  "fetched_at": "2026-08-01",
-  "extraction_model": "claude-code-subagent:scale",
-  "summary": "Document d'information (IPID) de l'« Assurance tous risques chantier », produit « Tous risques chantier », porté par SMACL Assurances SA (RCS Niort n° 833 817 224). Le contrat garantit l'opération de construction contre notamment les conséquences des dommages matériels survenus sur l'ouvrage pendant les travaux, au bénéfice du maître d'ouvrage et de tout constructeur lié à lui par un contrat de louage d'ouvrage, sous-traitants compris. Sont systématiquement prévus les dommages matériels, pertes, incendie, vol ou tentative de vol sur l'ouvrage en construction, les catastrophes naturelles et les frais de transport consécutifs à un sinistre garanti (5 % du coût définitif de la construction). En option : les dommages aux existants, la maintenance visite après travaux et la responsabilité civile du maître d'ouvrage plafonnée à 5 000 000 €.",
-  "definitions": [],
-  "coverages": [
-    {
-      "name": "Les dommages matériels, pertes, incendie, vol ou tentative de vol sur l'ouvrage en construction",
-      "description": "Les dommages matériels, pertes, incendie, vol ou tentative de vol sur l'ouvrage en construction, et sur les ouvrages provisoires et les matériaux et équipement destinés à être incorporés dans la construction.",
-      "is_optional": false,
-      "territorial_scope": "Sur le site d'implantation du bâtiment, en France métropolitaine",
-      "limits": "L'indemnité est plafonnée au coût définitif de la construction",
-      "sub_limits": [],
-      "deductible": "Les montants des garanties sont soumis à des franchises contractuelles variables selon le montant de l'opération",
-      "conditions": [
-        "Garantie systématiquement prévue"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Les catastrophes naturelles",
-      "description": "Les catastrophes naturelles.",
-      "is_optional": false,
-      "territorial_scope": "Sur le site d'implantation du bâtiment, en France métropolitaine",
-      "limits": "L'indemnité est plafonnée au coût définitif de la construction",
-      "sub_limits": [],
-      "deductible": "Les montants des garanties sont soumis à des franchises contractuelles variables selon le montant de l'opération",
-      "conditions": [
-        "Garantie systématiquement prévue"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Les frais de transport consécutifs à un sinistre garanti",
-      "description": "Les frais de transport consécutifs à un sinistre garanti.",
-      "is_optional": false,
-      "territorial_scope": "Sur le site d'implantation du bâtiment, en France métropolitaine",
-      "limits": "dans la limite de 5 % du coût définitif de la construction",
-      "sub_limits": [],
-      "deductible": "Les montants des garanties sont soumis à des franchises contractuelles variables selon le montant de l'opération",
-      "conditions": [
-        "Garantie systématiquement prévue",
-        "Consécutifs à un sinistre garanti"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Les dommages aux existants",
-      "description": "Les dommages aux existants : pendant et du fait de l'exécution des travaux pour les dommages accidentels occasionnés aux parties préexistantes de l'ouvrage.",
-      "is_optional": true,
-      "territorial_scope": "Sur le site d'implantation du bâtiment, en France métropolitaine",
-      "limits": "Les indemnités au titre des garanties optionnelles de dommages à l'ouvrage sont soumises à des plafonds qui peuvent varier en fonction du cout des opérations",
-      "sub_limits": [],
-      "deductible": "Les montants des garanties sont soumis à des franchises contractuelles variables selon le montant de l'opération",
-      "conditions": [
-        "Garantie optionnelle",
-        "Pendant et du fait de l'exécution des travaux",
-        "Sur la garantie des dommages aux existants, les dommages causés par incendie ou explosion sont exclus"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Maintenance visite après travaux",
-      "description": "Maintenance visite après travaux : les pertes ou dommages subis par l'opération de construction dans l'année suivant la réception, et provenant exclusivement de négligence, maladresse ou fausse manœuvre imputable à une entreprise revenant sur le chantier pour l'accomplissement des seules obligations contractuelles (visites de contrôle, entretien ou réparations).",
-      "is_optional": true,
-      "territorial_scope": "Sur le site d'implantation du bâtiment, en France métropolitaine",
-      "limits": "Les indemnités au titre des garanties optionnelles de dommages à l'ouvrage sont soumises à des plafonds qui peuvent varier en fonction du cout des opérations",
-      "sub_limits": [],
-      "deductible": "Les montants des garanties sont soumis à des franchises contractuelles variables selon le montant de l'opération",
-      "conditions": [
-        "Garantie optionnelle",
-        "Dans l'année suivant la réception",
-        "Provenant exclusivement de négligence, maladresse ou fausse manœuvre imputable à une entreprise revenant sur le chantier pour l'accomplissement des seules obligations contractuelles (visites de contrôle, entretien ou réparations)",
-        "La garantie commence aussitôt après la fin de la période de garantie des dommages matériels, et prend fin 12 mois plus tard",
-        "Sur la garantie maintenance visite, les dommages causés par incendie ou explosion sont exclus"
-      ],
-      "page": 1
-    },
-    {
-      "name": "La responsabilité civile du maître d'ouvrage",
-      "description": "Dommages causés à des tiers dans le cadre de l'opération de construction et trouvant leur origine sur le lieu du chantier.",
-      "is_optional": true,
-      "territorial_scope": "Sur le site d'implantation du bâtiment, en France métropolitaine",
-      "limits": "l'indemnité est plafonnée à  5 000 000 €",
-      "sub_limits": [
-        "3 000 000 € pour les dommages matériels et immatériels consécutifs",
-        "400 000 € pour les dommages immatériels  non consécutifs"
-      ],
-      "deductible": "Les montants des garanties sont soumis à des franchises contractuelles variables selon le montant de l'opération",
-      "conditions": [
-        "Garantie optionnelle",
-        "Dommages trouvant leur origine sur le lieu du chantier"
-      ],
-      "page": 1
-    }
-  ],
-  "exclusions": [
-    {
-      "name": "Les dommages survenus avant la prise d'effet du contrat",
-      "description": "Les dommages survenus avant la prise d'effet du contrat (rubrique « Qu'est-ce qui n'est pas assuré ? »).",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Les dommages survenus après la date de fin de garantie indiquée au contrat",
-      "description": "Les dommages survenus après la date de fin de garantie indiquée au contrat (rubrique « Qu'est-ce qui n'est pas assuré ? »).",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Les dommages qui ne surviendraient pas sur le site du chantier",
-      "description": "Les dommages qui ne surviendraient pas sur le site du chantier (rubrique « Qu'est-ce qui n'est pas assuré ? »).",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Le matériel et les engins de chantier propriété de chaque constructeur",
-      "description": "Le matériel et les engins de chantier propriété de chaque constructeur (rubrique « Qu'est-ce qui n'est pas assuré ? »).",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Sinistres dont le fait dommageable était connu de l'assuré à la souscription",
-      "description": "Les sinistres dont le fait dommageable était connu de l'assuré à la date de souscription du contrat ou de la garantie concernée (rubrique « Qu'est-ce qui n'est pas assuré ? »).",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "La faute intentionnelle ou dolosive de l'assuré",
-      "description": "La faute intentionnelle ou dolosive de l'assuré (PRINCIPALES EXCLUSIONS).",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Arrêt des travaux non prévu au planning au-delà du 5e jour",
-      "description": "Les dommages résultant d'un arrêt des travaux non prévu au planning survenant au-delà du 5e jour après cet arrêt (PRINCIPALES EXCLUSIONS).",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Usure, corrosion, altération de substance",
-      "description": "Les dommages dus à l'usure, corrosion, altération de substance, sauf les dommages extérieurs à la partie atteinte par ce phénomène progressif (PRINCIPALES EXCLUSIONS).",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Réparations provisoires ou de fortune et recherche expérimentale",
-      "description": "Les dommages résultant de réparations provisoires ou de fortune ainsi que ceux de recherche expérimentale (PRINCIPALES EXCLUSIONS).",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Dommages suite à des réserves non levées",
-      "description": "Les dommages suite à des réserves du maître d'œuvre, d'ouvrage ou du contrôleur technique lorsque le sinistre trouve son origine dans la cause même de ces réserves, tant que celles-ci n'ont pas été levées (PRINCIPALES EXCLUSIONS).",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Les pertes ou manquants constatés après inventaire",
-      "description": "Les pertes ou manquants constatés après inventaire (PRINCIPALES EXCLUSIONS).",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Tous dommages indirects",
-      "description": "Tous dommages indirects (chômage, privation de jouissance, pertes de loyer, perte d'exploitation) (PRINCIPALES EXCLUSIONS).",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Incendie ou explosion sur les garanties dommages aux existants et maintenance visite",
-      "description": "Sur la garantie des dommages aux existants, ainsi que sur la garantie maintenance visite, les dommages causés par incendie ou explosion (PRINCIPALES EXCLUSIONS).",
-      "applies_to": "Les dommages aux existants ; Maintenance visite après travaux",
-      "page": 1
-    }
-  ],
-  "deductibles": {
-    "standard": null,
-    "variable": "Les montants des garanties sont soumis à des franchises contractuelles variables selon le montant de l'opération",
-    "per_coverage": null,
-    "page": 1
+ "schema_version": "1.0",
+ "prompt_version": "1.1",
+ "country": "fr",
+ "insurer_slug": "smacl",
+ "insurer_name": "SMACL Assurances",
+ "product_name": "Tous risques chantier",
+ "branch": "decennale",
+ "branch_code": null,
+ "document_type": "ipid",
+ "language": "fr",
+ "target_audience": null,
+ "target_audience_note": "Le document ne nomme pas de catégorie de souscripteur. Il désigne ses bénéficiaires ainsi : « Il bénéficie au maître d'ouvrage ainsi qu'à tout constructeur lié au maître d'ouvrage par un contrat de louage d'ouvrage, y compris les sous-traitants participant à la réalisation de l'opération de construction, pendant le chantier. » Le mot « collectivité » n'apparaît nulle part dans le document, alors que l'URL source contient « collectivites ».",
+ "reference": "CONSTRUCTION_DIPA_TRC_SA_01(06_2021)",
+ "edition_date": "01/2024",
+ "product_family": "Tous risques chantier",
+ "variant": null,
+ "is_extension": false,
+ "extends": null,
+ "superseded": null,
+ "source_url": "https://www.smacl.fr/files/documents/document-information-tous-risques-chantier-collectivites.pdf",
+ "source_pdf": "tous-risques-chantier-2b81e39f.pdf",
+ "source_sha256": "8852056b1942c34581f9421253744654f98a1cfc4480f2f3deb46013e79c5b4f",
+ "source_pages": 2,
+ "fetched_at": "2026-08-01",
+ "extraction_model": "claude-code-subagent:scale",
+ "summary": "Document d'information (IPID) de l'« Assurance tous risques chantier », produit « Tous risques chantier », porté par SMACL Assurances SA (RCS Niort n° 833 817 224). Le contrat garantit l'opération de construction contre notamment les conséquences des dommages matériels survenus sur l'ouvrage pendant les travaux, au bénéfice du maître d'ouvrage et de tout constructeur lié à lui par un contrat de louage d'ouvrage, sous-traitants compris. Sont systématiquement prévus les dommages matériels, pertes, incendie, vol ou tentative de vol sur l'ouvrage en construction, les catastrophes naturelles et les frais de transport consécutifs à un sinistre garanti (5 % du coût définitif de la construction). En option : les dommages aux existants, la maintenance visite après travaux et la responsabilité civile du maître d'ouvrage plafonnée à 5 000 000 €.",
+ "definitions": [],
+ "coverages": [
+  {
+   "name": "Les dommages matériels, pertes, incendie, vol ou tentative de vol sur l'ouvrage en construction",
+   "description": "Les dommages matériels, pertes, incendie, vol ou tentative de vol sur l'ouvrage en construction, et sur les ouvrages provisoires et les matériaux et équipement destinés à être incorporés dans la construction.",
+   "is_optional": false,
+   "territorial_scope": "Sur le site d'implantation du bâtiment, en France métropolitaine",
+   "limits": "L'indemnité est plafonnée au coût définitif de la construction",
+   "sub_limits": [],
+   "deductible": "Les montants des garanties sont soumis à des franchises contractuelles variables selon le montant de l'opération",
+   "conditions": [
+    "Garantie systématiquement prévue"
+   ],
+   "page": 1
   },
-  "waiting_periods": [],
-  "obligations": [
-    {
-      "name": "Répondre exactement aux questions posées par l'assureur",
-      "description": "Répondre exactement aux questions posées par l'assureur, notamment dans le formulaire de déclaration du risque lui permettant d'apprécier les risques qu'il prend en charge.",
-      "timing": "À la souscription du contrat",
-      "sanction": "Sous peine de sanctions indiquées au contrat",
-      "page": 2
-    },
-    {
-      "name": "Fournir les documents justificatifs",
-      "description": "Fournir tous documents justificatifs demandés par l'assureur.",
-      "timing": "À la souscription du contrat",
-      "sanction": "Sous peine de sanctions indiquées au contrat",
-      "page": 2
-    },
-    {
-      "name": "Régler la cotisation provisoire",
-      "description": "Régler la cotisation provisoire calculée sur le montant prévisionnel de l'opération.",
-      "timing": "À la souscription du contrat",
-      "sanction": "Sous peine de sanctions indiquées au contrat",
-      "page": 2
-    },
-    {
-      "name": "Déclarer les circonstances nouvelles aggravant le risque",
-      "description": "Déclarer toutes circonstances nouvelles ayant pour conséquence d'aggraver le risque garanti.",
-      "timing": "En cours de contrat",
-      "sanction": "Sous peine de sanctions indiquées au contrat",
-      "page": 2
-    },
-    {
-      "name": "Fournir les justificatifs en cours de contrat",
-      "description": "Fournir tous documents justificatifs demandés par l'assureur, et notamment les procès verbaux de réception, cout de construction définitif, attestations d'assurance des constructeurs.",
-      "timing": "En cours de contrat",
-      "sanction": "Sous peine de sanctions indiquées au contrat",
-      "page": 2
-    },
-    {
-      "name": "Régler l'ajustement de cotisation",
-      "description": "Régler l'ajustement de cotisation (s'il y a lieu) à partir du montant définitif de l'opération.",
-      "timing": "En cours de contrat",
-      "sanction": "Sous peine de sanctions indiquées au contrat",
-      "page": 2
-    },
-    {
-      "name": "Constituer et conserver un dossier technique",
-      "description": "Constituer et conserver un dossier technique comportant au moins les plans et descriptif de l'ensemble des travaux et le tenir à la disposition de l'assureur.",
-      "timing": "En cours de contrat",
-      "sanction": "Sous peine de sanctions indiquées au contrat",
-      "page": 2
-    },
-    {
-      "name": "Déclarer tout sinistre",
-      "description": "Déclarer tout sinistre de nature à mettre en jeu l'une des garanties dans les conditions et délais impartis et joindre tous documents utiles à l'appréciation du sinistre.",
-      "timing": "En cas de sinistre",
-      "sanction": "Sous peine de sanctions indiquées au contrat",
-      "page": 2
-    },
-    {
-      "name": "Informer des autres assurances et des remboursements",
-      "description": "Informer des garanties éventuellement souscrites pour les mêmes risques en tout ou partie auprès d'autres assureurs, ainsi que tout remboursement que vous pourriez recevoir au titre d'un sinistre.",
-      "timing": "En cas de sinistre",
-      "sanction": "Sous peine de sanctions indiquées au contrat",
-      "page": 2
-    }
-  ],
-  "claims_procedure": [
-    {
-      "step": "Déclarer le sinistre",
-      "description": "Déclarer tout sinistre de nature à mettre en jeu l'une des garanties dans les conditions et délais impartis et joindre tous documents utiles à l'appréciation du sinistre.",
-      "deadline": "dans les conditions et délais impartis (le document ne chiffre pas le délai)",
-      "page": 2
-    },
-    {
-      "step": "Signaler les autres assurances et remboursements",
-      "description": "Informer des garanties éventuellement souscrites pour les mêmes risques en tout ou partie auprès d'autres assureurs, ainsi que tout remboursement que vous pourriez recevoir au titre d'un sinistre.",
-      "deadline": null,
-      "page": 2
-    }
-  ],
-  "duration_and_cancellation": {
-    "duration": "Le contrat prend effet à la date indiquée au contrat. Il est conclu pour la durée des travaux. La garantie cesse de plein droit à la date de réception des travaux, ou d'occupation même partielle des locaux, de mise en service ou prise de possession par le maître d'ouvrage lorsque l'une de ces dates est antérieure à la réception. Toutefois, la garantie se termine au plus tard à la date fixée au contrat. Celle ci peut être prolongée sur demande de l'assuré moyennant complément de cotisation éventuel. Pour la garantie optionnelle de maintenance visite après travaux, la garantie commence aussitôt après la fin de la période de garantie des dommages matériels, et prend fin 12 mois plus tard.",
-    "tacit_renewal": null,
-    "notice_period": null,
-    "methods": [
-      "par lettre ou tout autre support durable",
-      "par déclaration faite au siège social ou chez le représentant de l'assureur",
-      "par acte extrajudiciaire",
-      "lorsque l'assureur propose la conclusion de contrat par un mode de communication à distance, par le même mode de communication",
-      "par tout autre moyen prévu par le contrat"
-    ],
-    "special_rights": [
-      "La garantie est résiliée de plein droit en cas de disparition totale de la construction, objet de l'assurance, par suite d'un événement non garanti",
-      "La garantie peut être prolongée sur demande de l'assuré moyennant complément de cotisation éventuel"
-    ],
-    "page": 2
+  {
+   "name": "Les catastrophes naturelles",
+   "description": "Les catastrophes naturelles.",
+   "is_optional": false,
+   "territorial_scope": "Sur le site d'implantation du bâtiment, en France métropolitaine",
+   "limits": "L'indemnité est plafonnée au coût définitif de la construction",
+   "sub_limits": [],
+   "deductible": "Les montants des garanties sont soumis à des franchises contractuelles variables selon le montant de l'opération",
+   "conditions": [
+    "Garantie systématiquement prévue"
+   ],
+   "page": 1
   },
-  "prescription_period": null,
-  "premium": {
-    "notes": [
-      "La cotisation provisoire et, le cas échéant, l'ajustement de cotisation sont payables suivant les modalités et aux dates prévues au contrat.",
-      "Les paiements peuvent être effectués par chèque ou virement.",
-      "La cotisation provisoire est calculée sur le montant prévisionnel de l'opération ; l'ajustement de cotisation (s'il y a lieu) est établi à partir du montant définitif de l'opération."
-    ],
-    "indexation": null,
-    "page": 2
+  {
+   "name": "Les frais de transport consécutifs à un sinistre garanti",
+   "description": "Les frais de transport consécutifs à un sinistre garanti.",
+   "is_optional": false,
+   "territorial_scope": "Sur le site d'implantation du bâtiment, en France métropolitaine",
+   "limits": "dans la limite de 5 % du coût définitif de la construction",
+   "sub_limits": [],
+   "deductible": "Les montants des garanties sont soumis à des franchises contractuelles variables selon le montant de l'opération",
+   "conditions": [
+    "Garantie systématiquement prévue",
+    "Consécutifs à un sinistre garanti"
+   ],
+   "page": 1
   },
-  "special_conditions": [
-    {
-      "name": "Assureur",
-      "description": "Compagnie : SMACL Assurances SA - Société anonyme au capital de 138 801 048 euros, entreprise régie par le Code des assurances, RCS Niort n° 833 817 224. Siège social : 141, avenue Salvador-Allende - CS 20000 - 79031 NIORT CEDEX 9.",
-      "page": 1
-    },
-    {
-      "name": "Bénéficiaires du contrat",
-      "description": "Il bénéficie au maître d'ouvrage ainsi qu'à tout constructeur lié au maître d'ouvrage par un contrat de louage d'ouvrage, y compris les sous-traitants participant à la réalisation de l'opération de construction, pendant le chantier.",
-      "page": 1
-    },
-    {
-      "name": "Plafonds des garanties optionnelles de dommages à l'ouvrage",
-      "description": "Les indemnités au titre des garanties optionnelles de dommages à l'ouvrage sont soumises à des plafonds qui peuvent varier en fonction du cout des opérations.",
-      "page": 1
-    },
-    {
-      "name": "Lecture des garanties systématiques",
-      "description": "Les garanties précédées d'une coche sont systématiquement prévues au contrat.",
-      "page": 1
-    }
+  {
+   "name": "Les dommages aux existants",
+   "description": "Les dommages aux existants : pendant et du fait de l'exécution des travaux pour les dommages accidentels occasionnés aux parties préexistantes de l'ouvrage.",
+   "is_optional": true,
+   "territorial_scope": "Sur le site d'implantation du bâtiment, en France métropolitaine",
+   "limits": "Les indemnités au titre des garanties optionnelles de dommages à l'ouvrage sont soumises à des plafonds qui peuvent varier en fonction du cout des opérations",
+   "sub_limits": [],
+   "deductible": "Les montants des garanties sont soumis à des franchises contractuelles variables selon le montant de l'opération",
+   "conditions": [
+    "Garantie optionnelle",
+    "Pendant et du fait de l'exécution des travaux",
+    "Sur la garantie des dommages aux existants, les dommages causés par incendie ou explosion sont exclus"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Maintenance visite après travaux",
+   "description": "Maintenance visite après travaux : les pertes ou dommages subis par l'opération de construction dans l'année suivant la réception, et provenant exclusivement de négligence, maladresse ou fausse manœuvre imputable à une entreprise revenant sur le chantier pour l'accomplissement des seules obligations contractuelles (visites de contrôle, entretien ou réparations).",
+   "is_optional": true,
+   "territorial_scope": "Sur le site d'implantation du bâtiment, en France métropolitaine",
+   "limits": "Les indemnités au titre des garanties optionnelles de dommages à l'ouvrage sont soumises à des plafonds qui peuvent varier en fonction du cout des opérations",
+   "sub_limits": [],
+   "deductible": "Les montants des garanties sont soumis à des franchises contractuelles variables selon le montant de l'opération",
+   "conditions": [
+    "Garantie optionnelle",
+    "Dans l'année suivant la réception",
+    "Provenant exclusivement de négligence, maladresse ou fausse manœuvre imputable à une entreprise revenant sur le chantier pour l'accomplissement des seules obligations contractuelles (visites de contrôle, entretien ou réparations)",
+    "La garantie commence aussitôt après la fin de la période de garantie des dommages matériels, et prend fin 12 mois plus tard",
+    "Sur la garantie maintenance visite, les dommages causés par incendie ou explosion sont exclus"
+   ],
+   "page": 1
+  },
+  {
+   "name": "La responsabilité civile du maître d'ouvrage",
+   "description": "Dommages causés à des tiers dans le cadre de l'opération de construction et trouvant leur origine sur le lieu du chantier.",
+   "is_optional": true,
+   "territorial_scope": "Sur le site d'implantation du bâtiment, en France métropolitaine",
+   "limits": "l'indemnité est plafonnée à  5 000 000 €",
+   "sub_limits": [
+    "3 000 000 € pour les dommages matériels et immatériels consécutifs",
+    "400 000 € pour les dommages immatériels  non consécutifs"
+   ],
+   "deductible": "Les montants des garanties sont soumis à des franchises contractuelles variables selon le montant de l'opération",
+   "conditions": [
+    "Garantie optionnelle",
+    "Dommages trouvant leur origine sur le lieu du chantier"
+   ],
+   "page": 1
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Les dommages survenus avant la prise d'effet du contrat",
+   "description": "Les dommages survenus avant la prise d'effet du contrat (rubrique « Qu'est-ce qui n'est pas assuré ? »).",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Les dommages survenus après la date de fin de garantie indiquée au contrat",
+   "description": "Les dommages survenus après la date de fin de garantie indiquée au contrat (rubrique « Qu'est-ce qui n'est pas assuré ? »).",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Les dommages qui ne surviendraient pas sur le site du chantier",
+   "description": "Les dommages qui ne surviendraient pas sur le site du chantier (rubrique « Qu'est-ce qui n'est pas assuré ? »).",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Le matériel et les engins de chantier propriété de chaque constructeur",
+   "description": "Le matériel et les engins de chantier propriété de chaque constructeur (rubrique « Qu'est-ce qui n'est pas assuré ? »).",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Sinistres dont le fait dommageable était connu de l'assuré à la souscription",
+   "description": "Les sinistres dont le fait dommageable était connu de l'assuré à la date de souscription du contrat ou de la garantie concernée (rubrique « Qu'est-ce qui n'est pas assuré ? »).",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "La faute intentionnelle ou dolosive de l'assuré",
+   "description": "La faute intentionnelle ou dolosive de l'assuré (PRINCIPALES EXCLUSIONS).",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Arrêt des travaux non prévu au planning au-delà du 5e jour",
+   "description": "Les dommages résultant d'un arrêt des travaux non prévu au planning survenant au-delà du 5e jour après cet arrêt (PRINCIPALES EXCLUSIONS).",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Usure, corrosion, altération de substance",
+   "description": "Les dommages dus à l'usure, corrosion, altération de substance, sauf les dommages extérieurs à la partie atteinte par ce phénomène progressif (PRINCIPALES EXCLUSIONS).",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Réparations provisoires ou de fortune et recherche expérimentale",
+   "description": "Les dommages résultant de réparations provisoires ou de fortune ainsi que ceux de recherche expérimentale (PRINCIPALES EXCLUSIONS).",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Dommages suite à des réserves non levées",
+   "description": "Les dommages suite à des réserves du maître d'œuvre, d'ouvrage ou du contrôleur technique lorsque le sinistre trouve son origine dans la cause même de ces réserves, tant que celles-ci n'ont pas été levées (PRINCIPALES EXCLUSIONS).",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Les pertes ou manquants constatés après inventaire",
+   "description": "Les pertes ou manquants constatés après inventaire (PRINCIPALES EXCLUSIONS).",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Tous dommages indirects",
+   "description": "Tous dommages indirects (chômage, privation de jouissance, pertes de loyer, perte d'exploitation) (PRINCIPALES EXCLUSIONS).",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Incendie ou explosion sur les garanties dommages aux existants et maintenance visite",
+   "description": "Sur la garantie des dommages aux existants, ainsi que sur la garantie maintenance visite, les dommages causés par incendie ou explosion (PRINCIPALES EXCLUSIONS).",
+   "applies_to": "Les dommages aux existants ; Maintenance visite après travaux",
+   "page": 1
+  }
+ ],
+ "deductibles": {
+  "standard": null,
+  "variable": "Les montants des garanties sont soumis à des franchises contractuelles variables selon le montant de l'opération",
+  "per_coverage": null,
+  "page": 1
+ },
+ "waiting_periods": [],
+ "obligations": [
+  {
+   "name": "Répondre exactement aux questions posées par l'assureur",
+   "description": "Répondre exactement aux questions posées par l'assureur, notamment dans le formulaire de déclaration du risque lui permettant d'apprécier les risques qu'il prend en charge.",
+   "timing": "À la souscription du contrat",
+   "sanction": "Sous peine de sanctions indiquées au contrat",
+   "page": 2
+  },
+  {
+   "name": "Fournir les documents justificatifs",
+   "description": "Fournir tous documents justificatifs demandés par l'assureur.",
+   "timing": "À la souscription du contrat",
+   "sanction": "Sous peine de sanctions indiquées au contrat",
+   "page": 2
+  },
+  {
+   "name": "Régler la cotisation provisoire",
+   "description": "Régler la cotisation provisoire calculée sur le montant prévisionnel de l'opération.",
+   "timing": "À la souscription du contrat",
+   "sanction": "Sous peine de sanctions indiquées au contrat",
+   "page": 2
+  },
+  {
+   "name": "Déclarer les circonstances nouvelles aggravant le risque",
+   "description": "Déclarer toutes circonstances nouvelles ayant pour conséquence d'aggraver le risque garanti.",
+   "timing": "En cours de contrat",
+   "sanction": "Sous peine de sanctions indiquées au contrat",
+   "page": 2
+  },
+  {
+   "name": "Fournir les justificatifs en cours de contrat",
+   "description": "Fournir tous documents justificatifs demandés par l'assureur, et notamment les procès verbaux de réception, cout de construction définitif, attestations d'assurance des constructeurs.",
+   "timing": "En cours de contrat",
+   "sanction": "Sous peine de sanctions indiquées au contrat",
+   "page": 2
+  },
+  {
+   "name": "Régler l'ajustement de cotisation",
+   "description": "Régler l'ajustement de cotisation (s'il y a lieu) à partir du montant définitif de l'opération.",
+   "timing": "En cours de contrat",
+   "sanction": "Sous peine de sanctions indiquées au contrat",
+   "page": 2
+  },
+  {
+   "name": "Constituer et conserver un dossier technique",
+   "description": "Constituer et conserver un dossier technique comportant au moins les plans et descriptif de l'ensemble des travaux et le tenir à la disposition de l'assureur.",
+   "timing": "En cours de contrat",
+   "sanction": "Sous peine de sanctions indiquées au contrat",
+   "page": 2
+  },
+  {
+   "name": "Déclarer tout sinistre",
+   "description": "Déclarer tout sinistre de nature à mettre en jeu l'une des garanties dans les conditions et délais impartis et joindre tous documents utiles à l'appréciation du sinistre.",
+   "timing": "En cas de sinistre",
+   "sanction": "Sous peine de sanctions indiquées au contrat",
+   "page": 2
+  },
+  {
+   "name": "Informer des autres assurances et des remboursements",
+   "description": "Informer des garanties éventuellement souscrites pour les mêmes risques en tout ou partie auprès d'autres assureurs, ainsi que tout remboursement que vous pourriez recevoir au titre d'un sinistre.",
+   "timing": "En cas de sinistre",
+   "sanction": "Sous peine de sanctions indiquées au contrat",
+   "page": 2
+  }
+ ],
+ "claims_procedure": [
+  {
+   "step": "Déclarer le sinistre",
+   "description": "Déclarer tout sinistre de nature à mettre en jeu l'une des garanties dans les conditions et délais impartis et joindre tous documents utiles à l'appréciation du sinistre.",
+   "deadline": "dans les conditions et délais impartis (le document ne chiffre pas le délai)",
+   "page": 2
+  },
+  {
+   "step": "Signaler les autres assurances et remboursements",
+   "description": "Informer des garanties éventuellement souscrites pour les mêmes risques en tout ou partie auprès d'autres assureurs, ainsi que tout remboursement que vous pourriez recevoir au titre d'un sinistre.",
+   "deadline": null,
+   "page": 2
+  }
+ ],
+ "duration_and_cancellation": {
+  "duration": "Le contrat prend effet à la date indiquée au contrat. Il est conclu pour la durée des travaux. La garantie cesse de plein droit à la date de réception des travaux, ou d'occupation même partielle des locaux, de mise en service ou prise de possession par le maître d'ouvrage lorsque l'une de ces dates est antérieure à la réception. Toutefois, la garantie se termine au plus tard à la date fixée au contrat. Celle ci peut être prolongée sur demande de l'assuré moyennant complément de cotisation éventuel. Pour la garantie optionnelle de maintenance visite après travaux, la garantie commence aussitôt après la fin de la période de garantie des dommages matériels, et prend fin 12 mois plus tard.",
+  "tacit_renewal": null,
+  "notice_period": null,
+  "methods": [
+   "par lettre ou tout autre support durable",
+   "par déclaration faite au siège social ou chez le représentant de l'assureur",
+   "par acte extrajudiciaire",
+   "lorsque l'assureur propose la conclusion de contrat par un mode de communication à distance, par le même mode de communication",
+   "par tout autre moyen prévu par le contrat"
   ],
-  "key_quotes": [
-    {
-      "quote": "Ce contrat a pour objet de garantir l’opération de construction contre notamment les conséquences des dommages matériels survenus sur l’ouvrage \npendant les travaux.",
-      "page": 1,
-      "context": "De quel type d'assurance s'agit-il ?"
-    },
-    {
-      "quote": "Il bénéficie au maître d’ouvrage ainsi qu’à tout constructeur lié au maître d’ouvrage par un contrat de louage d’ouvrage, y compris \nles sous-traitants participant à la réalisation de l’opération de construction, pendant le chantier.",
-      "page": 1,
-      "context": "Bénéficiaires"
-    },
-    {
-      "quote": "L’indemnité est plafonnée au coût définitif de la construction.",
-      "page": 1,
-      "context": "Garanties systématiquement prévues"
-    },
-    {
-      "quote": "Les frais de transport consécutifs à un sinistre garanti :",
-      "page": 1,
-      "context": "Garantie systématiquement prévue - frais de transport"
-    },
-    {
-      "quote": "l’indemnité est plafonnée à  5 000 000 € dont 3 000 000 € pour \nles dommages matériels et immatériels consécutifs,",
-      "page": 1,
-      "context": "Garantie optionnelle - responsabilité civile du maître d'ouvrage"
-    },
-    {
-      "quote": "les dommages résultant d’un arrêt des travaux non prévu au planning \nsurvenant au-delà du 5e jour après cet arrêt",
-      "page": 1,
-      "context": "Principales exclusions"
-    },
-    {
-      "quote": "Les montants des garanties sont soumis à des franchises \ncontractuelles variables selon le montant de l’opération",
-      "page": 1,
-      "context": "Principales restrictions"
-    },
-    {
-      "quote": "Produit : Tous risques chantier",
-      "page": 1,
-      "context": "Colophon - bloc produit retenu (le dernier des quatre)"
-    },
-    {
-      "quote": "Compagnie : SMACL Assurances SA - Société anonyme au capital de 138 801 048 euros, entreprise régie par le Code des",
-      "page": 1,
-      "context": "Colophon - identification de l'assureur du bloc retenu"
-    },
-    {
-      "quote": "Sur le site d’implantation du bâtiment, en France métropolitaine.",
-      "page": 2,
-      "context": "Où suis-je couvert(e) ?"
-    },
-    {
-      "quote": "Le contrat prend effet à la date indiquée au contrat. Il est conclu pour la durée des travaux.",
-      "page": 2,
-      "context": "Quand commence la couverture et quand prend-elle fin ?"
-    },
-    {
-      "quote": "Pour la garantie optionnelle de maintenance visite après travaux, la garantie commence aussitôt après la fin de la période de garantie des dommages \nmatériels, et prend fin 12 mois plus tard.",
-      "page": 2,
-      "context": "Durée de la garantie maintenance visite"
-    }
+  "special_rights": [
+   "La garantie est résiliée de plein droit en cas de disparition totale de la construction, objet de l'assurance, par suite d'un événement non garanti",
+   "La garantie peut être prolongée sur demande de l'assuré moyennant complément de cotisation éventuel"
   ],
-  "gaps": [
-    "Document d'information sur le produit d'assurance (IPID) : c'est un résumé, non le contrat. Le silence du document sur un point ne vaut pas absence de garantie ; les conditions générales n'ont pas été fournies.",
-    "COUCHE DE GABARIT PÉRIMÉE : la page 1 de ce PDF contient QUATRE blocs de colophon empilés, chacun avec son propre titre, sa mention « Compagnie : » et son champ « Produit : ». Dans l'ordre du texte : (1) « Assurance accidents de la vie » / « Produit : Assurance des accidents de la vie » / SMACL Assurances SA au capital de 255 037 000 euros, RCS Niort 833817224 ; (2) « Assurance protection juridique » / « Produit : Protection juridique » / SMACL Assurances, société d'assurance mutuelle, agrément 301 309 605 ; (3) « Assurance individuelle accident corporel vie scolaire » / « Produit : Assurance Individuelle accident corporel vie scolaire » / SMACL Assurances SA au capital de 255 037 000 euros ; (4) « Assurance tous risques chantier » / « Produit : Tous risques chantier » / SMACL Assurances SA au capital de 138 801 048 euros, RCS Niort n° 833 817 224. C'est LE QUATRIÈME ET DERNIER BLOC qui a été retenu : c'est celui qui correspond au corps du document (garanties de chantier), celui que suit immédiatement la rubrique « Où suis-je couvert(e) ? » en page 2, et le seul cohérent avec la référence imprimée CONSTRUCTION_DIPA_TRC_SA_01(06_2021) (TRC = tous risques chantier). Les trois premiers blocs sont des résidus de gabarit d'autres produits et ne décrivent pas ce contrat ; prendre le premier aurait attribué le document à l'« Assurance des accidents de la vie » et à une entité au capital de 255 037 000 euros.",
-    "Conséquence de ce qui précède : le PDF nomme deux porteurs différents (SMACL Assurances SA, RCS 833 817 224, et SMACL Assurances société d'assurance mutuelle, agrément 301 309 605), mais seul le premier appartient au bloc vivant. L'assureur retenu est SMACL Assurances SA au capital de 138 801 048 euros ; il a été lu dans le bloc « Compagnie : » du bloc vivant et non déduit de la fréquence du nom.",
-    "Divergence source/document sur le public visé : l'URL et le nom de fichier contiennent « collectivites », mais le mot « collectivité » n'apparaît nulle part dans le texte du document, qui ne désigne comme bénéficiaires que le maître d'ouvrage, les constructeurs et les sous-traitants. target_audience est donc laissé à null plutôt que d'affirmer « secteur_public » sur la foi du nom de fichier.",
-    "Divergence branche/document : le contrat décrit une assurance « tous risques chantier » (dommages à l'ouvrage pendant les travaux, garantie cessant à la réception), et non une garantie décennale. La valeur `branch: decennale` est celle fournie par la tâche et a été recopiée telle quelle ; le document ne mentionne ni la décennale ni l'article 1792 du Code civil.",
-    "Divergence de datation : la référence imprimée « CONSTRUCTION_DIPA_TRC_SA_01(06_2021) » contient « 06_2021 » alors que le pied de page indique « 01/2024 ». edition_date retient la date du pied de page (01/2024) ; la contradiction est signalée et non arbitrée.",
-    "Aucune section de définitions (lexique) dans le document : definitions[] est vide.",
-    "Aucun délai de prescription indiqué : prescription_period laissé à null.",
-    "Aucun délai de carence indiqué : waiting_periods[] est vide.",
-    "tacit_renewal laissé à null : le document dit que le contrat « est conclu pour la durée des travaux » et que « la garantie se termine au plus tard à la date fixée au contrat », mais il n'énonce ni reconduction tacite ni son absence. Affirmer false serait une déduction.",
-    "Les franchises ne sont pas chiffrées : le document se borne à « Les montants des garanties sont soumis à des franchises contractuelles variables selon le montant de l'opération ». deductibles.standard et per_coverage sont donc null.",
-    "Les plafonds des garanties optionnelles de dommages à l'ouvrage ne sont pas chiffrés (« des plafonds qui peuvent varier en fonction du cout des opérations ») ; seuls les montants de la responsabilité civile du maître d'ouvrage le sont.",
-    "Coquilles de la couche texte conservées verbatim : « Les dommage à l'ouvrage : » (singulier) ; « cout » sans accent circonflexe, deux fois (« du cout des opérations », « cout de construction définitif ») alors que « coût » est accentué ailleurs dans le même document ; « procès verbaux » et « Celle ci » sans trait d'union ; doubles espaces dans « plafonnée à  5 000 000 € », « dommages immatériels  non consécutifs », « l'ajustement de  cotisation », « Les frais de transport consécutifs à un sinistre garanti :  dans la limite ». Non corrigées, conformément à la règle de fidélité.",
-    "La couche texte du PDF contient des glyphes de puces Wingdings en zone à usage privé (U+F0FB et U+F0FC) en début de ligne, là où le document imprimé affiche une coche ou une croix. Ils n'ont pas été reproduits dans les valeurs extraites ; les citations de key_quotes ont été découpées de façon à ne pas les traverser.",
-    "La citation du plafond de responsabilité civile a été arrêtée avant « et 400 000 € pour les dommages immatériels  non consécutifs » parce que ce fragment est séparé par un retour à la ligne et une double espace ; le montant est néanmoins conservé intégralement dans sub_limits."
-  ]
+  "page": 2
+ },
+ "prescription_period": null,
+ "premium": {
+  "notes": [
+   "La cotisation provisoire et, le cas échéant, l'ajustement de cotisation sont payables suivant les modalités et aux dates prévues au contrat.",
+   "Les paiements peuvent être effectués par chèque ou virement.",
+   "La cotisation provisoire est calculée sur le montant prévisionnel de l'opération ; l'ajustement de cotisation (s'il y a lieu) est établi à partir du montant définitif de l'opération."
+  ],
+  "indexation": null,
+  "page": 2
+ },
+ "special_conditions": [
+  {
+   "name": "Assureur",
+   "description": "Compagnie : SMACL Assurances SA - Société anonyme au capital de 138 801 048 euros, entreprise régie par le Code des assurances, RCS Niort n° 833 817 224. Siège social : 141, avenue Salvador-Allende - CS 20000 - 79031 NIORT CEDEX 9.",
+   "page": 1
+  },
+  {
+   "name": "Bénéficiaires du contrat",
+   "description": "Il bénéficie au maître d'ouvrage ainsi qu'à tout constructeur lié au maître d'ouvrage par un contrat de louage d'ouvrage, y compris les sous-traitants participant à la réalisation de l'opération de construction, pendant le chantier.",
+   "page": 1
+  },
+  {
+   "name": "Plafonds des garanties optionnelles de dommages à l'ouvrage",
+   "description": "Les indemnités au titre des garanties optionnelles de dommages à l'ouvrage sont soumises à des plafonds qui peuvent varier en fonction du cout des opérations.",
+   "page": 1
+  },
+  {
+   "name": "Lecture des garanties systématiques",
+   "description": "Les garanties précédées d'une coche sont systématiquement prévues au contrat.",
+   "page": 1
+  }
+ ],
+ "key_quotes": [
+  {
+   "quote": "Ce contrat a pour objet de garantir l’opération de construction contre notamment les conséquences des dommages matériels survenus sur l’ouvrage \npendant les travaux.",
+   "page": 1,
+   "context": "De quel type d'assurance s'agit-il ?"
+  },
+  {
+   "quote": "Il bénéficie au maître d’ouvrage ainsi qu’à tout constructeur lié au maître d’ouvrage par un contrat de louage d’ouvrage, y compris \nles sous-traitants participant à la réalisation de l’opération de construction, pendant le chantier.",
+   "page": 1,
+   "context": "Bénéficiaires"
+  },
+  {
+   "quote": "L’indemnité est plafonnée au coût définitif de la construction.",
+   "page": 1,
+   "context": "Garanties systématiquement prévues"
+  },
+  {
+   "quote": "Les frais de transport consécutifs à un sinistre garanti :",
+   "page": 1,
+   "context": "Garantie systématiquement prévue - frais de transport"
+  },
+  {
+   "quote": "l’indemnité est plafonnée à  5 000 000 € dont 3 000 000 € pour \nles dommages matériels et immatériels consécutifs,",
+   "page": 1,
+   "context": "Garantie optionnelle - responsabilité civile du maître d'ouvrage"
+  },
+  {
+   "quote": "les dommages résultant d’un arrêt des travaux non prévu au planning \nsurvenant au-delà du 5e jour après cet arrêt",
+   "page": 1,
+   "context": "Principales exclusions"
+  },
+  {
+   "quote": "Les montants des garanties sont soumis à des franchises \ncontractuelles variables selon le montant de l’opération",
+   "page": 1,
+   "context": "Principales restrictions"
+  },
+  {
+   "quote": "Produit : Tous risques chantier",
+   "page": 1,
+   "context": "Colophon - bloc produit retenu (le dernier des quatre)"
+  },
+  {
+   "quote": "Compagnie : SMACL Assurances SA - Société anonyme au capital de 138 801 048 euros, entreprise régie par le Code des",
+   "page": 1,
+   "context": "Colophon - identification de l'assureur du bloc retenu"
+  },
+  {
+   "quote": "Sur le site d’implantation du bâtiment, en France métropolitaine.",
+   "page": 2,
+   "context": "Où suis-je couvert(e) ?"
+  },
+  {
+   "quote": "Le contrat prend effet à la date indiquée au contrat. Il est conclu pour la durée des travaux.",
+   "page": 2,
+   "context": "Quand commence la couverture et quand prend-elle fin ?"
+  },
+  {
+   "quote": "Pour la garantie optionnelle de maintenance visite après travaux, la garantie commence aussitôt après la fin de la période de garantie des dommages \nmatériels, et prend fin 12 mois plus tard.",
+   "page": 2,
+   "context": "Durée de la garantie maintenance visite"
+  }
+ ],
+ "gaps": [
+  "Document d'information sur le produit d'assurance (IPID) : c'est un résumé, non le contrat. Le silence du document sur un point ne vaut pas absence de garantie ; les conditions générales n'ont pas été fournies.",
+  "COUCHE DE GABARIT PÉRIMÉE : la page 1 de ce PDF contient QUATRE blocs de colophon empilés, chacun avec son propre titre, sa mention « Compagnie : » et son champ « Produit : ». Dans l'ordre du texte : (1) « Assurance accidents de la vie » / « Produit : Assurance des accidents de la vie » / SMACL Assurances SA au capital de 255 037 000 euros, RCS Niort 833817224 ; (2) « Assurance protection juridique » / « Produit : Protection juridique » / SMACL Assurances, société d'assurance mutuelle, agrément 301 309 605 ; (3) « Assurance individuelle accident corporel vie scolaire » / « Produit : Assurance Individuelle accident corporel vie scolaire » / SMACL Assurances SA au capital de 255 037 000 euros ; (4) « Assurance tous risques chantier » / « Produit : Tous risques chantier » / SMACL Assurances SA au capital de 138 801 048 euros, RCS Niort n° 833 817 224. C'est LE QUATRIÈME ET DERNIER BLOC qui a été retenu : c'est celui qui correspond au corps du document (garanties de chantier), celui que suit immédiatement la rubrique « Où suis-je couvert(e) ? » en page 2, et le seul cohérent avec la référence imprimée CONSTRUCTION_DIPA_TRC_SA_01(06_2021) (TRC = tous risques chantier). Les trois premiers blocs sont des résidus de gabarit d'autres produits et ne décrivent pas ce contrat ; prendre le premier aurait attribué le document à l'« Assurance des accidents de la vie » et à une entité au capital de 255 037 000 euros.",
+  "Conséquence de ce qui précède : le PDF nomme deux porteurs différents (SMACL Assurances SA, RCS 833 817 224, et SMACL Assurances société d'assurance mutuelle, agrément 301 309 605), mais seul le premier appartient au bloc vivant. L'assureur retenu est SMACL Assurances SA au capital de 138 801 048 euros ; il a été lu dans le bloc « Compagnie : » du bloc vivant et non déduit de la fréquence du nom.",
+  "Divergence source/document sur le public visé : l'URL et le nom de fichier contiennent « collectivites », mais le mot « collectivité » n'apparaît nulle part dans le texte du document, qui ne désigne comme bénéficiaires que le maître d'ouvrage, les constructeurs et les sous-traitants. target_audience est donc laissé à null plutôt que d'affirmer « secteur_public » sur la foi du nom de fichier.",
+  "Divergence branche/document : le contrat décrit une assurance « tous risques chantier » (dommages à l'ouvrage pendant les travaux, garantie cessant à la réception), et non une garantie décennale. La valeur `branch: decennale` est celle fournie par la tâche et a été recopiée telle quelle ; le document ne mentionne ni la décennale ni l'article 1792 du Code civil.",
+  "Divergence de datation : la référence imprimée « CONSTRUCTION_DIPA_TRC_SA_01(06_2021) » contient « 06_2021 » alors que le pied de page indique « 01/2024 ». edition_date retient la date du pied de page (01/2024) ; la contradiction est signalée et non arbitrée.",
+  "Aucune section de définitions (lexique) dans le document : definitions[] est vide.",
+  "Aucun délai de prescription indiqué : prescription_period laissé à null.",
+  "Aucun délai de carence indiqué : waiting_periods[] est vide.",
+  "tacit_renewal laissé à null : le document dit que le contrat « est conclu pour la durée des travaux » et que « la garantie se termine au plus tard à la date fixée au contrat », mais il n'énonce ni reconduction tacite ni son absence. Affirmer false serait une déduction.",
+  "Les franchises ne sont pas chiffrées : le document se borne à « Les montants des garanties sont soumis à des franchises contractuelles variables selon le montant de l'opération ». deductibles.standard et per_coverage sont donc null.",
+  "Les plafonds des garanties optionnelles de dommages à l'ouvrage ne sont pas chiffrés (« des plafonds qui peuvent varier en fonction du cout des opérations ») ; seuls les montants de la responsabilité civile du maître d'ouvrage le sont.",
+  "Coquilles de la couche texte conservées verbatim : « Les dommage à l'ouvrage : » (singulier) ; « cout » sans accent circonflexe, deux fois (« du cout des opérations », « cout de construction définitif ») alors que « coût » est accentué ailleurs dans le même document ; « procès verbaux » et « Celle ci » sans trait d'union ; doubles espaces dans « plafonnée à  5 000 000 € », « dommages immatériels  non consécutifs », « l'ajustement de  cotisation », « Les frais de transport consécutifs à un sinistre garanti :  dans la limite ». Non corrigées, conformément à la règle de fidélité.",
+  "La couche texte du PDF contient des glyphes de puces Wingdings en zone à usage privé (U+F0FB et U+F0FC) en début de ligne, là où le document imprimé affiche une coche ou une croix. Ils n'ont pas été reproduits dans les valeurs extraites ; les citations de key_quotes ont été découpées de façon à ne pas les traverser.",
+  "La citation du plafond de responsabilité civile a été arrêtée avant « et 400 000 € pour les dommages immatériels  non consécutifs » parce que ce fragment est séparé par un retour à la ligne et une double espace ; le montant est néanmoins conservé intégralement dans sub_limits."
+ ]
 }

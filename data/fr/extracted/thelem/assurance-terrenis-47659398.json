@@ -1,548 +1,549 @@
 {
-  "schema_version": "1.0",
-  "prompt_version": "1.1",
-  "country": "fr",
-  "insurer_slug": "thelem",
-  "insurer_name": "Thélem assurances",
-  "product_name": "Assurance Terrenis",
-  "branch": "agricole",
-  "branch_code": null,
-  "document_type": "ipid",
-  "language": "fr",
-  "target_audience": "entreprises",
-  "target_audience_note": "Cette assurance est destinée aux exploitants agricoles, aux sociétés à usage agricole et aux retraités agricoles.",
-  "reference": null,
-  "edition_date": "2026",
-  "product_family": "Assurance Terrenis",
-  "variant": null,
-  "is_extension": false,
-  "extends": null,
-  "superseded": null,
-  "source_url": "https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_-TERRENIS-01-2026.pdf",
-  "source_pdf": "assurance-terrenis-47659398.pdf",
-  "source_sha256": "969da2f4fc76a4bf5eaf8907df858c2b313834bbd83cf212350478fe3a55b262",
-  "source_pages": 2,
-  "fetched_at": "2026-07-30",
-  "extraction_model": "claude-code-subagent:scale",
-  "summary": "Assurance Terrenis est le contrat d'assurance multirisque agricole de Thélem assurances. Il permet à l'assuré, en tant que professionnel actif ou retraité du monde agricole, de couvrir ses responsabilités et biens professionnels (bâtiments, matériels, marchandises, animaux et récoltes). L'offre est présentée comme totalement modulaire : les garanties indispensables portent sur les responsabilités (RC propriétaire d'immeuble, RC agricole, Défense Pénale et Recours Suite à Accident) et sur les dommages aux locaux professionnels et à leur contenu (incendie, tempêtes, grêle et neige sur toitures, catastrophes naturelles, attentats matériels, dégâts des eaux, dommages électriques). Des garanties optionnelles complètent le contrat (vol, bris de glaces, bris de machines, contenus des congélateurs, tanks à lait et chambres froides, cuves, entraide agricole, pertes financières).",
-  "definitions": [],
-  "coverages": [
-    {
-      "name": "Responsabilité civile propriétaire d'immeuble",
-      "description": "Garantie indispensable au titre des responsabilités : responsabilité civile propriétaire d'immeuble.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Responsabilité civile agricole",
-      "description": "Couvre les dommages de responsabilité liés à l'activité agricole ainsi que la vente à la ferme.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Défense Pénale et Recours Suite à Accident",
-      "description": "Garantie indispensable au titre des responsabilités : Défense Pénale et Recours Suite à Accident.",
-      "is_optional": false,
-      "territorial_scope": "Responsabilité Civile chef d'entreprise et Défense Pénale et Recours Suite à Accident : Union Européenne, Royaume-uni,Suisse, Norvège, Islande et les territoires de Monaco, d'Andorre.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Incendie et risques annexes",
-      "description": "Garantie des dommages aux locaux professionnels et à leur contenu (stock, équipements, matériels…) : incendie et risques annexes.",
-      "is_optional": false,
-      "territorial_scope": "Pour les garanties Dommages et Catastrophes naturelles : à l'adresse indiquée aux Conditions Particulières en France métropolitaine y compris pour les matériels et marchandises laissés chez les clients de l'assuré mais dans ce cas seulement pour les seules garanties Incendie et dégâts des eaux ; pour le matériel et les marchandises aux abords immédiats des locaux professionnels pour les événements Incendie, Dégâts des eaux.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": "Une somme peut rester à la charge de l'assuré (franchise) notamment pour les garanties vol, incendie, bris de glaces, et dégâts des eaux.",
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Tempêtes, grêle et neige sur toitures",
-      "description": "Garantie des dommages aux locaux professionnels et à leur contenu : tempêtes, grêle et neige sur toitures.",
-      "is_optional": false,
-      "territorial_scope": "Pour les garanties Dommages et Catastrophes naturelles : à l'adresse indiquée aux Conditions Particulières en France métropolitaine.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Catastrophes naturelles",
-      "description": "Garantie des dommages aux locaux professionnels et à leur contenu : catastrophes naturelles.",
-      "is_optional": false,
-      "territorial_scope": "En cas de Catastrophes naturelles ou pour toutes les garanties légales : à l'adresse indiquée aux Conditions Particulières et en France Métropolitaine.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Attentats matériels",
-      "description": "Garantie des dommages aux locaux professionnels et à leur contenu : attentats matériels.",
-      "is_optional": false,
-      "territorial_scope": "Pour les garanties Dommages et Catastrophes naturelles : à l'adresse indiquée aux Conditions Particulières en France métropolitaine.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Dégâts des eaux",
-      "description": "Garantie des dommages aux locaux professionnels et à leur contenu : dégâts des eaux.",
-      "is_optional": false,
-      "territorial_scope": "Pour les garanties Dommages et Catastrophes naturelles : à l'adresse indiquée aux Conditions Particulières en France métropolitaine y compris pour les matériels et marchandises laissés chez les clients de l'assuré mais dans ce cas seulement pour les seules garanties Incendie et dégâts des eaux ; pour le matériel et les marchandises aux abords immédiats des locaux professionnels pour les événements Incendie, Dégâts des eaux.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": "Une somme peut rester à la charge de l'assuré (franchise) notamment pour les garanties vol, incendie, bris de glaces, et dégâts des eaux.",
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Dommages électriques aux appareils",
-      "description": "Garantie des dommages aux locaux professionnels et à leur contenu : dommages électriques aux appareils.",
-      "is_optional": false,
-      "territorial_scope": "Pour les garanties Dommages et Catastrophes naturelles : à l'adresse indiquée aux Conditions Particulières en France métropolitaine.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Les dommages électriques concernant les biens de plus de 15 ans d'âge ne donnent pas lieu aux garanties."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Vol (y compris sur les terres agricoles)",
-      "description": "Garantie optionnelle : vol, y compris sur les terres agricoles.",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": "Une somme peut rester à la charge de l'assuré (franchise) notamment pour les garanties vol, incendie, bris de glaces, et dégâts des eaux.",
-      "conditions": [
-        "Le vol des récoltes cueillies ou coupées et laissées sur champ depuis plus de 48 heures ou depuis plus de 21 jours pour les pailles et les fourrages ne donne pas lieu aux garanties."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Bris de glaces",
-      "description": "Garantie optionnelle : bris de glaces.",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": "Une somme peut rester à la charge de l'assuré (franchise) notamment pour les garanties vol, incendie, bris de glaces, et dégâts des eaux.",
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Bris de machines aux appareils et autres appareils fixes",
-      "description": "Garantie optionnelle : bris de machines aux appareils et autres appareils fixes.",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": "jusqu'à 45 000 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Contenu des congélateurs",
-      "description": "Garantie optionnelle : contenu des congélateurs.",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Contenus des tanks à lait",
-      "description": "Garantie optionnelle : contenus des tanks à lait.",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Contenu des chambres froides ou à atmosphère contrôlée",
-      "description": "Garantie optionnelle : contenu des chambres froides ou à atmosphère contrôlée d'une capacité < 120 m3.",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "d'une capacité < 120 m3",
-        "Les chambres froides dont la valeur du contenu est supérieure à 90 000 € ne sont pas assurées."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Dommages aux cuves, aux pertes d'engrais liquides, aux pertes d'hydrocarbures, aux emballages de commercialisation et aux pertes des vins et alcools",
-      "description": "Garantie optionnelle : dommages aux cuves, aux pertes d'engrais liquides, aux pertes d'hydrocarbures, aux emballages de commercialisation et aux pertes des vins et alcools.",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Entraide agricole",
-      "description": "Indemnisation du préjudice corporel de la personne aidant si elle se blesse.",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Pertes financières suite à un sinistre incendie",
-      "description": "Garantie optionnelle : pertes financières suite à un sinistre incendie (suivant l'activité).",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "suivant l'activité"
-      ],
-      "page": 1
-    }
-  ],
-  "exclusions": [
-    {
-      "name": "Les pensions de chevaux",
-      "description": "Activité non assurée : les pensions de chevaux.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Maturation, déshydratation, séchage de luzerne ou de houblon et séchoirs à tabac",
-      "description": "Activités non assurées : de maturation, déshydratation, séchage de luzerne ou de houblon ainsi que les séchoirs à tabac faisant appel à une source de chaleur.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Élevages intensifs dont la valeur totale du contenu est supérieure à 180 000 €",
-      "description": "Activité non assurée : les élevages intensifs dont la valeur totale du contenu est supérieure à 180 000 €.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Chambres froides dont la valeur du contenu est supérieure à 90 000 €",
-      "description": "Ne sont pas assurées les chambres froides dont la valeur du contenu est supérieure à 90 000 €.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Dommages subis par les bâtiments d'habitation",
-      "description": "Ne sont pas assurés les dommages subis par les bâtiments d'habitation.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Le fait intentionnel",
-      "description": "Le fait intentionnel : les dommages que l'assuré cause intentionnellement.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Amiante",
-      "description": "Les dommages et réclamation liés à l'amiante.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "PFAS",
-      "description": "Les dommages et réclamation liés aux PFAS.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Faits ou événements connus à la souscription",
-      "description": "Les faits ou événements dont l'assuré avait connaissance lors de la souscription du contrat.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Atteintes à l'environnement non accidentelles",
-      "description": "Les atteintes à l'environnement non accidentelles ou relevant des dommages environnementaux ou du préjudice écologique.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Dommages électriques aux biens de plus de 15 ans d'âge",
-      "description": "Les dommages électriques concernant les biens de plus de 15 ans d'âge.",
-      "applies_to": "Dommages électriques aux appareils",
-      "page": 1
-    },
-    {
-      "name": "Vol des récoltes laissées sur champ",
-      "description": "Le vol des récoltes cueillies ou coupées et laissées sur champ depuis plus de 48 heures ou depuis plus de 21 jours pour les pailles et les fourrages.",
-      "applies_to": "Vol (y compris sur les terres agricoles)",
-      "page": 1
-    },
-    {
-      "name": "Tous les véhicules terrestres à moteur",
-      "description": "Ne donnent pas lieu aux garanties tous les véhicules terrestres à moteur.",
-      "applies_to": "all",
-      "page": 1
-    }
-  ],
-  "deductibles": {
-    "standard": null,
-    "variable": "Une somme peut rester à la charge de l'assuré (franchise) notamment pour les garanties vol, incendie, bris de glaces, et dégâts des eaux.",
-    "per_coverage": null,
-    "page": 1
+ "schema_version": "1.0",
+ "prompt_version": "1.1",
+ "country": "fr",
+ "insurer_slug": "thelem",
+ "insurer_name": "Thélem assurances",
+ "product_name": "Assurance Terrenis",
+ "branch": "agricole",
+ "branch_code": null,
+ "document_type": "ipid",
+ "language": "fr",
+ "target_audience": "entreprises",
+ "target_audience_note": "Cette assurance est destinée aux exploitants agricoles, aux sociétés à usage agricole et aux retraités agricoles.",
+ "reference": null,
+ "edition_date": null,
+ "product_family": "Assurance Terrenis",
+ "variant": null,
+ "is_extension": false,
+ "extends": null,
+ "superseded": null,
+ "source_url": "https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_-TERRENIS-01-2026.pdf",
+ "source_pdf": "assurance-terrenis-47659398.pdf",
+ "source_sha256": "969da2f4fc76a4bf5eaf8907df858c2b313834bbd83cf212350478fe3a55b262",
+ "source_pages": 2,
+ "fetched_at": "2026-07-30",
+ "extraction_model": "claude-code-subagent:scale",
+ "summary": "Assurance Terrenis est le contrat d'assurance multirisque agricole de Thélem assurances. Il permet à l'assuré, en tant que professionnel actif ou retraité du monde agricole, de couvrir ses responsabilités et biens professionnels (bâtiments, matériels, marchandises, animaux et récoltes). L'offre est présentée comme totalement modulaire : les garanties indispensables portent sur les responsabilités (RC propriétaire d'immeuble, RC agricole, Défense Pénale et Recours Suite à Accident) et sur les dommages aux locaux professionnels et à leur contenu (incendie, tempêtes, grêle et neige sur toitures, catastrophes naturelles, attentats matériels, dégâts des eaux, dommages électriques). Des garanties optionnelles complètent le contrat (vol, bris de glaces, bris de machines, contenus des congélateurs, tanks à lait et chambres froides, cuves, entraide agricole, pertes financières).",
+ "definitions": [],
+ "coverages": [
+  {
+   "name": "Responsabilité civile propriétaire d'immeuble",
+   "description": "Garantie indispensable au titre des responsabilités : responsabilité civile propriétaire d'immeuble.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
   },
-  "waiting_periods": [],
-  "obligations": [
-    {
-      "name": "Répondre exactement aux questions posées",
-      "description": "Répondre exactement aux questions posées nous permettant d'apprécier les risques et fixer la cotisation.",
-      "timing": "A la souscription du contrat",
-      "sanction": "Sous peine de nullité du contrat d'assurance ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Délivrer les documents nécessaires",
-      "description": "Délivrer les documents nécessaires à l'appréciation de l'établissement (bail, compte de résultats, Kbis).",
-      "timing": "A la souscription du contrat",
-      "sanction": "Sous peine de nullité du contrat d'assurance ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Déclarer le transfert des biens assurés",
-      "description": "Déclarer dans les 15 jours le transfert total des biens assurés dans un territoire situé en France métropolitaine.",
-      "timing": "A la souscription du contrat",
-      "sanction": "Sous peine de nullité du contrat d'assurance ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Informer d'une autre assurance",
-      "description": "Nous informer si les biens couverts par le contrat font l'objet d'une autre assurance et indiquer les sommes assurées.",
-      "timing": "A la souscription du contrat",
-      "sanction": "Sous peine de nullité du contrat d'assurance ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Déclarer les circonstances nouvelles",
-      "description": "Déclarer toutes les circonstances nouvelles qui modifient les informations fournies lors de la souscription.",
-      "timing": "En cours de contrat",
-      "sanction": "Sous peine de nullité du contrat d'assurance ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Régler les cotisations",
-      "description": "Régler les cotisations à la date convenue.",
-      "timing": "En cours de contrat",
-      "sanction": "Sous peine de nullité du contrat d'assurance ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Déclarer le sinistre",
-      "description": "Déclarer tout sinistre dès que vous en avez connaissance et au plus tard dans le délai fixé par le contrat.",
-      "timing": "En cas de sinistre",
-      "sanction": "Sous peine de nullité du contrat d'assurance ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Limiter l'importance du sinistre",
-      "description": "Prendre toutes les mesures de préservation possibles pour limiter l'importance du sinistre.",
-      "timing": "En cas de sinistre",
-      "sanction": "Sous peine de nullité du contrat d'assurance ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Justifier le dommage",
-      "description": "Justifier la nature et l'importance du dommage au moyen de factures ou certificats de garantie notamment.",
-      "timing": "En cas de sinistre",
-      "sanction": "Sous peine de nullité du contrat d'assurance ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Recevoir l'expert",
-      "description": "Recevoir notre expert en le laissant procéder aux constats nécessaires.",
-      "timing": "En cas de sinistre",
-      "sanction": "Sous peine de nullité du contrat d'assurance ou de non garantie",
-      "page": 2
-    }
-  ],
-  "claims_procedure": [
-    {
-      "step": "Déclarer le sinistre",
-      "description": "Déclarer tout sinistre dès que vous en avez connaissance et au plus tard dans le délai fixé par le contrat.",
-      "deadline": "dès que vous en avez connaissance et au plus tard dans le délai fixé par le contrat",
-      "page": 2
-    },
-    {
-      "step": "Prendre les mesures de préservation",
-      "description": "Prendre toutes les mesures de préservation possibles pour limiter l'importance du sinistre.",
-      "deadline": null,
-      "page": 2
-    },
-    {
-      "step": "Justifier le dommage",
-      "description": "Justifier la nature et l'importance du dommage au moyen de factures ou certificats de garantie notamment.",
-      "deadline": null,
-      "page": 2
-    },
-    {
-      "step": "Recevoir l'expert",
-      "description": "Recevoir notre expert en le laissant procéder aux constats nécessaires.",
-      "deadline": null,
-      "page": 2
-    }
-  ],
-  "duration_and_cancellation": {
-    "duration": "Le contrat prend effet à la date et l'heure indiquées aux Conditions Particulières. Le contrat est souscrit jusqu'à la prochaine échéance principale. S'il s'agit d'un contrat temporaire, la mention et la date d'expiration sont portées sur les Conditions Particulières.",
-    "tacit_renewal": true,
-    "notice_period": "Vous pouvez notamment mettre fin au contrat à l'échéance annuelle en respectant un préavis de deux mois.",
-    "methods": [
-      "par lettre ou tout autre support durable",
-      "par déclaration faite au siège social ou chez notre représentant",
-      "par acte extrajudiciaire",
-      "lorsque nous vous avons proposé la conclusion de ce contrat par un mode de communication à distance, par le même mode de communication"
-    ],
-    "special_rights": [
-      "En cas de contrat conclu à distance, l'assuré dispose d'un délai de rétractation de 14 jours, qui commence à courir à compter de la conclusion du contrat, ou à compter de la réception de l'ensemble de la documentation contractuelle.",
-      "Les cas de résiliation, les délais à respecter sont ceux prévus par la règlementation et précisés dans les Dispositions Générales.",
-      "En cas de résiliation suite à modification de votre situation selon les termes des articles L113-16 et R.113-6 du Code des assurances, vous devrez notifier la résiliation par lettre recommandée (papier ou électronique) avec demande d'avis de réception.",
-      "Nous vous confirmerons par écrit la réception de la notification."
-    ],
-    "page": 2
+  {
+   "name": "Responsabilité civile agricole",
+   "description": "Couvre les dommages de responsabilité liés à l'activité agricole ainsi que la vente à la ferme.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
   },
-  "prescription_period": null,
-  "premium": {
-    "notes": [
-      "La cotisation annuelle (ainsi que les frais, taxes et contributions fixées par l'Etat) se paie à la date ou aux dates indiquées sur les Conditions Particulières.",
-      "Un paiement fractionné peut toutefois être accordé au choix (Semestriel, Trimestriel, Mensuel).",
-      "Les paiements peuvent être effectués par carte bancaire, chèque ou prélèvement automatique."
-    ],
-    "indexation": null,
-    "page": 2
+  {
+   "name": "Défense Pénale et Recours Suite à Accident",
+   "description": "Garantie indispensable au titre des responsabilités : Défense Pénale et Recours Suite à Accident.",
+   "is_optional": false,
+   "territorial_scope": "Responsabilité Civile chef d'entreprise et Défense Pénale et Recours Suite à Accident : Union Européenne, Royaume-uni,Suisse, Norvège, Islande et les territoires de Monaco, d'Andorre.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
   },
-  "special_conditions": [
-    {
-      "name": "Offre modulaire",
-      "description": "Il s'agit d'une offre totalement modulaire qui s'adapte aux besoins de l'assuré.",
-      "page": 1
-    },
-    {
-      "name": "Mode d'indemnisation choisi par l'assuré",
-      "description": "3 modes de reconstruction de bâtiments : matériaux modernes, vétusté déduite ou valeur à neuf. 2 modes d'indemnisation pour le contenu des bâtiments : plafonné (l'assuré choisi le montant à garantir) ou illimité.",
-      "page": 1
-    },
-    {
-      "name": "Limitation contractuelle d'indemnisation",
-      "description": "L'assuré peut choisir d'accepter une limitation contractuelle d'indemnisation sur la reconstruction des bâtiments et sur le contenu.",
-      "page": 1
-    },
-    {
-      "name": "Garanties systématiquement prévues",
-      "description": "Les garanties précédées d'une coche sont systématiquement prévues au contrat.",
-      "page": 1
-    },
-    {
-      "name": "Portée du document",
-      "description": "Ce document d'information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l'information complète sur ce produit dans la documentation précontractuelle et contractuelle.",
-      "page": 1
-    }
+  {
+   "name": "Incendie et risques annexes",
+   "description": "Garantie des dommages aux locaux professionnels et à leur contenu (stock, équipements, matériels…) : incendie et risques annexes.",
+   "is_optional": false,
+   "territorial_scope": "Pour les garanties Dommages et Catastrophes naturelles : à l'adresse indiquée aux Conditions Particulières en France métropolitaine y compris pour les matériels et marchandises laissés chez les clients de l'assuré mais dans ce cas seulement pour les seules garanties Incendie et dégâts des eaux ; pour le matériel et les marchandises aux abords immédiats des locaux professionnels pour les événements Incendie, Dégâts des eaux.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": "Une somme peut rester à la charge de l'assuré (franchise) notamment pour les garanties vol, incendie, bris de glaces, et dégâts des eaux.",
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Tempêtes, grêle et neige sur toitures",
+   "description": "Garantie des dommages aux locaux professionnels et à leur contenu : tempêtes, grêle et neige sur toitures.",
+   "is_optional": false,
+   "territorial_scope": "Pour les garanties Dommages et Catastrophes naturelles : à l'adresse indiquée aux Conditions Particulières en France métropolitaine.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Catastrophes naturelles",
+   "description": "Garantie des dommages aux locaux professionnels et à leur contenu : catastrophes naturelles.",
+   "is_optional": false,
+   "territorial_scope": "En cas de Catastrophes naturelles ou pour toutes les garanties légales : à l'adresse indiquée aux Conditions Particulières et en France Métropolitaine.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Attentats matériels",
+   "description": "Garantie des dommages aux locaux professionnels et à leur contenu : attentats matériels.",
+   "is_optional": false,
+   "territorial_scope": "Pour les garanties Dommages et Catastrophes naturelles : à l'adresse indiquée aux Conditions Particulières en France métropolitaine.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Dégâts des eaux",
+   "description": "Garantie des dommages aux locaux professionnels et à leur contenu : dégâts des eaux.",
+   "is_optional": false,
+   "territorial_scope": "Pour les garanties Dommages et Catastrophes naturelles : à l'adresse indiquée aux Conditions Particulières en France métropolitaine y compris pour les matériels et marchandises laissés chez les clients de l'assuré mais dans ce cas seulement pour les seules garanties Incendie et dégâts des eaux ; pour le matériel et les marchandises aux abords immédiats des locaux professionnels pour les événements Incendie, Dégâts des eaux.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": "Une somme peut rester à la charge de l'assuré (franchise) notamment pour les garanties vol, incendie, bris de glaces, et dégâts des eaux.",
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Dommages électriques aux appareils",
+   "description": "Garantie des dommages aux locaux professionnels et à leur contenu : dommages électriques aux appareils.",
+   "is_optional": false,
+   "territorial_scope": "Pour les garanties Dommages et Catastrophes naturelles : à l'adresse indiquée aux Conditions Particulières en France métropolitaine.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Les dommages électriques concernant les biens de plus de 15 ans d'âge ne donnent pas lieu aux garanties."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Vol (y compris sur les terres agricoles)",
+   "description": "Garantie optionnelle : vol, y compris sur les terres agricoles.",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": "Une somme peut rester à la charge de l'assuré (franchise) notamment pour les garanties vol, incendie, bris de glaces, et dégâts des eaux.",
+   "conditions": [
+    "Le vol des récoltes cueillies ou coupées et laissées sur champ depuis plus de 48 heures ou depuis plus de 21 jours pour les pailles et les fourrages ne donne pas lieu aux garanties."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Bris de glaces",
+   "description": "Garantie optionnelle : bris de glaces.",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": "Une somme peut rester à la charge de l'assuré (franchise) notamment pour les garanties vol, incendie, bris de glaces, et dégâts des eaux.",
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Bris de machines aux appareils et autres appareils fixes",
+   "description": "Garantie optionnelle : bris de machines aux appareils et autres appareils fixes.",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": "jusqu'à 45 000 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Contenu des congélateurs",
+   "description": "Garantie optionnelle : contenu des congélateurs.",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Contenus des tanks à lait",
+   "description": "Garantie optionnelle : contenus des tanks à lait.",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Contenu des chambres froides ou à atmosphère contrôlée",
+   "description": "Garantie optionnelle : contenu des chambres froides ou à atmosphère contrôlée d'une capacité < 120 m3.",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "d'une capacité < 120 m3",
+    "Les chambres froides dont la valeur du contenu est supérieure à 90 000 € ne sont pas assurées."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Dommages aux cuves, aux pertes d'engrais liquides, aux pertes d'hydrocarbures, aux emballages de commercialisation et aux pertes des vins et alcools",
+   "description": "Garantie optionnelle : dommages aux cuves, aux pertes d'engrais liquides, aux pertes d'hydrocarbures, aux emballages de commercialisation et aux pertes des vins et alcools.",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Entraide agricole",
+   "description": "Indemnisation du préjudice corporel de la personne aidant si elle se blesse.",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Pertes financières suite à un sinistre incendie",
+   "description": "Garantie optionnelle : pertes financières suite à un sinistre incendie (suivant l'activité).",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "suivant l'activité"
+   ],
+   "page": 1
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Les pensions de chevaux",
+   "description": "Activité non assurée : les pensions de chevaux.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Maturation, déshydratation, séchage de luzerne ou de houblon et séchoirs à tabac",
+   "description": "Activités non assurées : de maturation, déshydratation, séchage de luzerne ou de houblon ainsi que les séchoirs à tabac faisant appel à une source de chaleur.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Élevages intensifs dont la valeur totale du contenu est supérieure à 180 000 €",
+   "description": "Activité non assurée : les élevages intensifs dont la valeur totale du contenu est supérieure à 180 000 €.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Chambres froides dont la valeur du contenu est supérieure à 90 000 €",
+   "description": "Ne sont pas assurées les chambres froides dont la valeur du contenu est supérieure à 90 000 €.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Dommages subis par les bâtiments d'habitation",
+   "description": "Ne sont pas assurés les dommages subis par les bâtiments d'habitation.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Le fait intentionnel",
+   "description": "Le fait intentionnel : les dommages que l'assuré cause intentionnellement.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Amiante",
+   "description": "Les dommages et réclamation liés à l'amiante.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "PFAS",
+   "description": "Les dommages et réclamation liés aux PFAS.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Faits ou événements connus à la souscription",
+   "description": "Les faits ou événements dont l'assuré avait connaissance lors de la souscription du contrat.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Atteintes à l'environnement non accidentelles",
+   "description": "Les atteintes à l'environnement non accidentelles ou relevant des dommages environnementaux ou du préjudice écologique.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Dommages électriques aux biens de plus de 15 ans d'âge",
+   "description": "Les dommages électriques concernant les biens de plus de 15 ans d'âge.",
+   "applies_to": "Dommages électriques aux appareils",
+   "page": 1
+  },
+  {
+   "name": "Vol des récoltes laissées sur champ",
+   "description": "Le vol des récoltes cueillies ou coupées et laissées sur champ depuis plus de 48 heures ou depuis plus de 21 jours pour les pailles et les fourrages.",
+   "applies_to": "Vol (y compris sur les terres agricoles)",
+   "page": 1
+  },
+  {
+   "name": "Tous les véhicules terrestres à moteur",
+   "description": "Ne donnent pas lieu aux garanties tous les véhicules terrestres à moteur.",
+   "applies_to": "all",
+   "page": 1
+  }
+ ],
+ "deductibles": {
+  "standard": null,
+  "variable": "Une somme peut rester à la charge de l'assuré (franchise) notamment pour les garanties vol, incendie, bris de glaces, et dégâts des eaux.",
+  "per_coverage": null,
+  "page": 1
+ },
+ "waiting_periods": [],
+ "obligations": [
+  {
+   "name": "Répondre exactement aux questions posées",
+   "description": "Répondre exactement aux questions posées nous permettant d'apprécier les risques et fixer la cotisation.",
+   "timing": "A la souscription du contrat",
+   "sanction": "Sous peine de nullité du contrat d'assurance ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Délivrer les documents nécessaires",
+   "description": "Délivrer les documents nécessaires à l'appréciation de l'établissement (bail, compte de résultats, Kbis).",
+   "timing": "A la souscription du contrat",
+   "sanction": "Sous peine de nullité du contrat d'assurance ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Déclarer le transfert des biens assurés",
+   "description": "Déclarer dans les 15 jours le transfert total des biens assurés dans un territoire situé en France métropolitaine.",
+   "timing": "A la souscription du contrat",
+   "sanction": "Sous peine de nullité du contrat d'assurance ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Informer d'une autre assurance",
+   "description": "Nous informer si les biens couverts par le contrat font l'objet d'une autre assurance et indiquer les sommes assurées.",
+   "timing": "A la souscription du contrat",
+   "sanction": "Sous peine de nullité du contrat d'assurance ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Déclarer les circonstances nouvelles",
+   "description": "Déclarer toutes les circonstances nouvelles qui modifient les informations fournies lors de la souscription.",
+   "timing": "En cours de contrat",
+   "sanction": "Sous peine de nullité du contrat d'assurance ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Régler les cotisations",
+   "description": "Régler les cotisations à la date convenue.",
+   "timing": "En cours de contrat",
+   "sanction": "Sous peine de nullité du contrat d'assurance ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Déclarer le sinistre",
+   "description": "Déclarer tout sinistre dès que vous en avez connaissance et au plus tard dans le délai fixé par le contrat.",
+   "timing": "En cas de sinistre",
+   "sanction": "Sous peine de nullité du contrat d'assurance ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Limiter l'importance du sinistre",
+   "description": "Prendre toutes les mesures de préservation possibles pour limiter l'importance du sinistre.",
+   "timing": "En cas de sinistre",
+   "sanction": "Sous peine de nullité du contrat d'assurance ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Justifier le dommage",
+   "description": "Justifier la nature et l'importance du dommage au moyen de factures ou certificats de garantie notamment.",
+   "timing": "En cas de sinistre",
+   "sanction": "Sous peine de nullité du contrat d'assurance ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Recevoir l'expert",
+   "description": "Recevoir notre expert en le laissant procéder aux constats nécessaires.",
+   "timing": "En cas de sinistre",
+   "sanction": "Sous peine de nullité du contrat d'assurance ou de non garantie",
+   "page": 2
+  }
+ ],
+ "claims_procedure": [
+  {
+   "step": "Déclarer le sinistre",
+   "description": "Déclarer tout sinistre dès que vous en avez connaissance et au plus tard dans le délai fixé par le contrat.",
+   "deadline": "dès que vous en avez connaissance et au plus tard dans le délai fixé par le contrat",
+   "page": 2
+  },
+  {
+   "step": "Prendre les mesures de préservation",
+   "description": "Prendre toutes les mesures de préservation possibles pour limiter l'importance du sinistre.",
+   "deadline": null,
+   "page": 2
+  },
+  {
+   "step": "Justifier le dommage",
+   "description": "Justifier la nature et l'importance du dommage au moyen de factures ou certificats de garantie notamment.",
+   "deadline": null,
+   "page": 2
+  },
+  {
+   "step": "Recevoir l'expert",
+   "description": "Recevoir notre expert en le laissant procéder aux constats nécessaires.",
+   "deadline": null,
+   "page": 2
+  }
+ ],
+ "duration_and_cancellation": {
+  "duration": "Le contrat prend effet à la date et l'heure indiquées aux Conditions Particulières. Le contrat est souscrit jusqu'à la prochaine échéance principale. S'il s'agit d'un contrat temporaire, la mention et la date d'expiration sont portées sur les Conditions Particulières.",
+  "tacit_renewal": true,
+  "notice_period": "Vous pouvez notamment mettre fin au contrat à l'échéance annuelle en respectant un préavis de deux mois.",
+  "methods": [
+   "par lettre ou tout autre support durable",
+   "par déclaration faite au siège social ou chez notre représentant",
+   "par acte extrajudiciaire",
+   "lorsque nous vous avons proposé la conclusion de ce contrat par un mode de communication à distance, par le même mode de communication"
   ],
-  "key_quotes": [
-    {
-      "quote": "Ce contrat d’assurance multirisque agricole permet à l’assuré, en tant que professionnel actif ou retraité du monde agricole, de couvrir ses responsabilités et biens professionnels (bâtiments, matériels, marchandises, animaux et récoltes).",
-      "context": "De quel type d’assurance s’agit-il ?",
-      "page": 1
-    },
-    {
-      "quote": "Cette assurance est destinée aux exploitants agricoles, aux sociétés à usage agricole et aux retraités agricoles. Il s’agit d’une offre totalement modulaire qui s’adapte aux besoins de l’assuré.",
-      "context": "Qu’est-ce qui est assuré ?",
-      "page": 1
-    },
-    {
-      "quote": "Responsabilité civile agricole : couvre les dommages de responsabilité liés à l’activité agricole ainsi que la vente à la ferme",
-      "context": "Les garanties indispensables - Les responsabilités",
-      "page": 1
-    },
-    {
-      "quote": "3 modes de reconstruction de bâtiments : matériaux modernes, vétusté déduite ou valeur à neuf",
-      "context": "Mode d’indemnisation choisi par l’assuré",
-      "page": 1
-    },
-    {
-      "quote": "Bris de machines aux appareils et autres appareils fixes jusqu’à 45 000 €",
-      "context": "Les garanties optionnelles",
-      "page": 1
-    },
-    {
-      "quote": "Les élevages intensifs dont la valeur totale du contenu est supérieure à 180 000 €",
-      "context": "Qu’est-ce qui n’est pas assuré ?",
-      "page": 1
-    },
-    {
-      "quote": "Les dommages électriques concernant les biens de plus de 15 ans d’âge",
-      "context": "Les principales exclusions",
-      "page": 1
-    },
-    {
-      "quote": "Le vol des récoltes cueillies ou coupées et laissées sur champ depuis plus de 48 heures ou depuis plus de 21 jours pour les pailles et les fourrages",
-      "context": "Les principales exclusions",
-      "page": 1
-    },
-    {
-      "quote": "Une somme peut rester à la charge de l’assuré (franchise) notamment pour les garanties vol, incendie, bris de glaces, et dégâts des eaux.",
-      "context": "Les principales restrictions",
-      "page": 1
-    },
-    {
-      "quote": "Responsabilité Civile chef d’entreprise et Défense Pénale et Recours Suite à Accident : Union Européenne, Royaume-uni,Suisse, Norvège, Islande et les territoires de Monaco, d’Andorre.",
-      "context": "Où suis-je couvert ?",
-      "page": 2
-    },
-    {
-      "quote": "Vous pouvez notamment mettre fin au contrat à l'échéance annuelle en respectant un préavis de deux mois.",
-      "context": "Comment puis-je résilier le contrat ?",
-      "page": 2
-    }
+  "special_rights": [
+   "En cas de contrat conclu à distance, l'assuré dispose d'un délai de rétractation de 14 jours, qui commence à courir à compter de la conclusion du contrat, ou à compter de la réception de l'ensemble de la documentation contractuelle.",
+   "Les cas de résiliation, les délais à respecter sont ceux prévus par la règlementation et précisés dans les Dispositions Générales.",
+   "En cas de résiliation suite à modification de votre situation selon les termes des articles L113-16 et R.113-6 du Code des assurances, vous devrez notifier la résiliation par lettre recommandée (papier ou électronique) avec demande d'avis de réception.",
+   "Nous vous confirmerons par écrit la réception de la notification."
   ],
-  "gaps": [
-    "Document IPID de 2 pages : il ne comporte pas de glossaire ni de définitions contractuelles, `definitions` est donc vide.",
-    "Aucune date d'édition n'est imprimée dans le texte du document ; `edition_date` est laissé null (le nom du fichier source mentionne 01-2026, mais cette information ne figure pas dans le texte du document).",
-    "Aucune référence interne de document n'est imprimée dans le texte ; `reference` est null.",
-    "Les montants de franchise ne sont pas chiffrés : le document indique seulement qu'une somme peut rester à la charge de l'assuré, notamment pour les garanties vol, incendie, bris de glaces et dégâts des eaux.",
-    "Aucun délai de prescription n'est mentionné dans le document ; `prescription_period` est null.",
-    "Aucun délai de carence n'est mentionné dans le document ; `waiting_periods` est vide.",
-    "Aucun plafond n'est indiqué pour les garanties de responsabilité civile ni pour la Défense Pénale et Recours Suite à Accident.",
-    "La section « Où suis-je couvert ? » (page 2) cite une « Responsabilité Civile chef d'entreprise » qui ne figure pas sous ce nom dans la liste des garanties de la page 1 ; le rattachement exact de cette portée territoriale aux garanties de responsabilité n'est donc pas certain.",
-    "Les garanties sont nommées en page 1 et leurs portées territoriales en page 2 ; le champ `page` des garanties cite la page 1, où la garantie est nommée.",
-    "La ligne « Catastrophes naturelles, Attentats matériels, Dégâts des eaux, Dommages électriques aux appareils » est précédée d'une seule coche dans le PDF ; elle a été éclatée en quatre garanties distinctes car chacune est nommée séparément ailleurs dans le document.",
-    "Le texte extrait du PDF comporte de nombreux sauts de ligne au milieu des phrases (mise en page en colonnes) ; les descriptions ont été recomposées sans modifier les termes employés."
-  ]
+  "page": 2
+ },
+ "prescription_period": null,
+ "premium": {
+  "notes": [
+   "La cotisation annuelle (ainsi que les frais, taxes et contributions fixées par l'Etat) se paie à la date ou aux dates indiquées sur les Conditions Particulières.",
+   "Un paiement fractionné peut toutefois être accordé au choix (Semestriel, Trimestriel, Mensuel).",
+   "Les paiements peuvent être effectués par carte bancaire, chèque ou prélèvement automatique."
+  ],
+  "indexation": null,
+  "page": 2
+ },
+ "special_conditions": [
+  {
+   "name": "Offre modulaire",
+   "description": "Il s'agit d'une offre totalement modulaire qui s'adapte aux besoins de l'assuré.",
+   "page": 1
+  },
+  {
+   "name": "Mode d'indemnisation choisi par l'assuré",
+   "description": "3 modes de reconstruction de bâtiments : matériaux modernes, vétusté déduite ou valeur à neuf. 2 modes d'indemnisation pour le contenu des bâtiments : plafonné (l'assuré choisi le montant à garantir) ou illimité.",
+   "page": 1
+  },
+  {
+   "name": "Limitation contractuelle d'indemnisation",
+   "description": "L'assuré peut choisir d'accepter une limitation contractuelle d'indemnisation sur la reconstruction des bâtiments et sur le contenu.",
+   "page": 1
+  },
+  {
+   "name": "Garanties systématiquement prévues",
+   "description": "Les garanties précédées d'une coche sont systématiquement prévues au contrat.",
+   "page": 1
+  },
+  {
+   "name": "Portée du document",
+   "description": "Ce document d'information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l'information complète sur ce produit dans la documentation précontractuelle et contractuelle.",
+   "page": 1
+  }
+ ],
+ "key_quotes": [
+  {
+   "quote": "Ce contrat d’assurance multirisque agricole permet à l’assuré, en tant que professionnel actif ou retraité du monde agricole, de couvrir ses responsabilités et biens professionnels (bâtiments, matériels, marchandises, animaux et récoltes).",
+   "context": "De quel type d’assurance s’agit-il ?",
+   "page": 1
+  },
+  {
+   "quote": "Cette assurance est destinée aux exploitants agricoles, aux sociétés à usage agricole et aux retraités agricoles. Il s’agit d’une offre totalement modulaire qui s’adapte aux besoins de l’assuré.",
+   "context": "Qu’est-ce qui est assuré ?",
+   "page": 1
+  },
+  {
+   "quote": "Responsabilité civile agricole : couvre les dommages de responsabilité liés à l’activité agricole ainsi que la vente à la ferme",
+   "context": "Les garanties indispensables - Les responsabilités",
+   "page": 1
+  },
+  {
+   "quote": "3 modes de reconstruction de bâtiments : matériaux modernes, vétusté déduite ou valeur à neuf",
+   "context": "Mode d’indemnisation choisi par l’assuré",
+   "page": 1
+  },
+  {
+   "quote": "Bris de machines aux appareils et autres appareils fixes jusqu’à 45 000 €",
+   "context": "Les garanties optionnelles",
+   "page": 1
+  },
+  {
+   "quote": "Les élevages intensifs dont la valeur totale du contenu est supérieure à 180 000 €",
+   "context": "Qu’est-ce qui n’est pas assuré ?",
+   "page": 1
+  },
+  {
+   "quote": "Les dommages électriques concernant les biens de plus de 15 ans d’âge",
+   "context": "Les principales exclusions",
+   "page": 1
+  },
+  {
+   "quote": "Le vol des récoltes cueillies ou coupées et laissées sur champ depuis plus de 48 heures ou depuis plus de 21 jours pour les pailles et les fourrages",
+   "context": "Les principales exclusions",
+   "page": 1
+  },
+  {
+   "quote": "Une somme peut rester à la charge de l’assuré (franchise) notamment pour les garanties vol, incendie, bris de glaces, et dégâts des eaux.",
+   "context": "Les principales restrictions",
+   "page": 1
+  },
+  {
+   "quote": "Responsabilité Civile chef d’entreprise et Défense Pénale et Recours Suite à Accident : Union Européenne, Royaume-uni,Suisse, Norvège, Islande et les territoires de Monaco, d’Andorre.",
+   "context": "Où suis-je couvert ?",
+   "page": 2
+  },
+  {
+   "quote": "Vous pouvez notamment mettre fin au contrat à l'échéance annuelle en respectant un préavis de deux mois.",
+   "context": "Comment puis-je résilier le contrat ?",
+   "page": 2
+  }
+ ],
+ "gaps": [
+  "Document IPID de 2 pages : il ne comporte pas de glossaire ni de définitions contractuelles, `definitions` est donc vide.",
+  "Aucune date d'édition n'est imprimée dans le texte du document ; `edition_date` est laissé null (le nom du fichier source mentionne 01-2026, mais cette information ne figure pas dans le texte du document).",
+  "Aucune référence interne de document n'est imprimée dans le texte ; `reference` est null.",
+  "Les montants de franchise ne sont pas chiffrés : le document indique seulement qu'une somme peut rester à la charge de l'assuré, notamment pour les garanties vol, incendie, bris de glaces et dégâts des eaux.",
+  "Aucun délai de prescription n'est mentionné dans le document ; `prescription_period` est null.",
+  "Aucun délai de carence n'est mentionné dans le document ; `waiting_periods` est vide.",
+  "Aucun plafond n'est indiqué pour les garanties de responsabilité civile ni pour la Défense Pénale et Recours Suite à Accident.",
+  "La section « Où suis-je couvert ? » (page 2) cite une « Responsabilité Civile chef d'entreprise » qui ne figure pas sous ce nom dans la liste des garanties de la page 1 ; le rattachement exact de cette portée territoriale aux garanties de responsabilité n'est donc pas certain.",
+  "Les garanties sont nommées en page 1 et leurs portées territoriales en page 2 ; le champ `page` des garanties cite la page 1, où la garantie est nommée.",
+  "La ligne « Catastrophes naturelles, Attentats matériels, Dégâts des eaux, Dommages électriques aux appareils » est précédée d'une seule coche dans le PDF ; elle a été éclatée en quatre garanties distinctes car chacune est nommée séparément ailleurs dans le document.",
+  "Le texte extrait du PDF comporte de nombreux sauts de ligne au milieu des phrases (mise en page en colonnes) ; les descriptions ont été recomposées sans modifier les termes employés.",
+  "edition_date remise a null le 2026-08-01: la valeur 2026 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5."
+ ]
 }

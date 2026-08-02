@@ -1,568 +1,568 @@
 {
-  "schema_version": "1.0",
-  "prompt_version": "1.1",
-  "country": "fr",
-  "insurer_slug": "thelem",
-  "insurer_name": "Thélem assurances",
-  "product_name": "Assurance multirisque immeuble",
-  "branch": "habitation",
-  "branch_code": null,
-  "document_type": "ipid",
-  "language": "fr",
-  "target_audience": null,
-  "target_audience_note": "Syndicats de copropriétés et leurs représentants (syndic, syndic bénévole, membre du conseil syndical) pour les parties communes des bâtiments à usage d'habitation ou mixtes. Le document précise que « les copropriétaires non-occupants doivent obligatoirement assurer leurs responsabilités. Ils n'ont donc pas la qualité d'assuré au titre de ce présent contrat ainsi que les propriétaires non occupants ». La garantie Catastrophes technologiques n'est acquise que « si le contrat a été souscrit par une personne physique en dehors de toute activité professionnelle ». Aucune des catégories de l'énumération ne correspond clairement : target_audience laissé à null.",
-  "reference": null,
-  "edition_date": "août 2025",
-  "product_family": "Assurance multirisque immeuble",
-  "variant": "COPROPRIETE",
-  "is_extension": false,
-  "extends": null,
-  "superseded": null,
-  "source_url": "https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_630-MRI-aout-2025.pdf",
-  "source_pdf": "assurance-multirisque-immeuble-ff8857ef.pdf",
-  "source_sha256": "89ef3adf4fc1b76ff9d733859343a77c4663400a99dd5fe5518e6e4b2bd5f7b5",
-  "source_pages": 2,
-  "fetched_at": "2026-07-30",
-  "extraction_model": "claude-code-subagent:scale",
-  "summary": "Document d'information sur le produit d'assurance (IPID) de l'assurance multirisque immeuble - COPROPRIETE de Thélem assurances. Cette assurance a pour objectifs de garantir les dommages aux bâtiments (parties communes exclusivement) et les responsabilités civiles des représentants de copropriétés ; sont assurées les parties communes des bâtiments à usage d'habitation ou mixtes d'une superficie inférieure à 3 000 m², le contenu mobilier situé dans les parties communes, les approvisionnements et les matériels servant à son entretien. Les garanties systématiquement prévues couvrent l'incendie et les explosions, les dommages électriques et électroniques, les catastrophes technologiques, les attentats et actes de terrorisme, les événements climatiques, les dégâts des eaux et le gel, le vol et le vandalisme, le bris de glaces, les frais additionnels ainsi que les responsabilités civiles et la défense pénale et recours suite à accident. Trois garanties optionnelles sont proposées (émeutes, mouvements populaires et vandalisme extérieur ; augmentation du plafond pour les eaux de ruissellement ; renonciation à recours contre les locataires ou occupants).",
-  "definitions": [],
-  "coverages": [
-    {
-      "name": "Incendie, explosions",
-      "description": "Garantie des dommages aux bâtiments résultant d'un incendie ou d'explosions.",
-      "is_optional": false,
-      "territorial_scope": "À l'adresse indiquée aux Conditions Particulières",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": "Suivant la formule souscrite, une somme peut rester à la charge de l'assuré (franchise)",
-      "conditions": [
-        "Sanction de 10 % en cas de non-respect de la réglementation portant sur la présence obligatoire d'extincteur (chaufferie, parking, ascenseur, vide-ordures)"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Dommages électriques et électroniques",
-      "description": "Garantie des dommages électriques et électroniques aux bâtiments.",
-      "is_optional": false,
-      "territorial_scope": "À l'adresse indiquée aux Conditions Particulières",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": "Suivant la formule souscrite, une somme peut rester à la charge de l'assuré (franchise)",
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Catastrophes technologiques",
-      "description": "Catastrophes technologiques (si le contrat a été souscrit par une personne physique en dehors de toute activité professionnelle).",
-      "is_optional": false,
-      "territorial_scope": "À l'adresse indiquée aux Conditions Particulières",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Si le contrat a été souscrit par une personne physique en dehors de toute activité professionnelle"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Attentats, actes de terrorisme",
-      "description": "Garantie des dommages aux bâtiments résultant d'attentats et d'actes de terrorisme.",
-      "is_optional": false,
-      "territorial_scope": "À l'adresse indiquée aux Conditions Particulières",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Evénements climatiques",
-      "description": "Evénements climatiques (tempête, ouragan, grêle, poids de la neige, catastrophes naturelles).",
-      "is_optional": false,
-      "territorial_scope": "À l'adresse indiquée aux Conditions Particulières",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": "Suivant la formule souscrite, une somme peut rester à la charge de l'assuré (franchise)",
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Dégâts des eaux, gel",
-      "description": "Garantie des dommages aux bâtiments résultant de dégâts des eaux et du gel.",
-      "is_optional": false,
-      "territorial_scope": "À l'adresse indiquée aux Conditions Particulières",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": "Application d'une franchise spécifique de 30 % du montant des dommages indemnisés en cas de non-respect des mesures de prévention pour le dégât des eaux, gel ; suivant la formule souscrite, une somme peut rester à la charge de l'assuré (franchise)",
-      "conditions": [
-        "Respect des mesures de prévention pour le dégât des eaux et le gel, sous peine d'une franchise spécifique de 30 % du montant des dommages indemnisés"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Vol, vandalisme",
-      "description": "Garantie des dommages aux bâtiments résultant du vol et du vandalisme.",
-      "is_optional": false,
-      "territorial_scope": "À l'adresse indiquée aux Conditions Particulières",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": "Suivant la formule souscrite, une somme peut rester à la charge de l'assuré (franchise)",
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Bris de glaces",
-      "description": "Garantie des dommages aux bâtiments au titre du bris de glaces.",
-      "is_optional": false,
-      "territorial_scope": "À l'adresse indiquée aux Conditions Particulières",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": "Suivant la formule souscrite, une somme peut rester à la charge de l'assuré (franchise)",
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Frais additionnels suite à événement couvert",
-      "description": "Garantie des frais additionnels suite à événement couvert.",
-      "is_optional": false,
-      "territorial_scope": "À l'adresse indiquée aux Conditions Particulières",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Responsabilités civiles y compris celles du syndic bénévole ou membre du conseil syndical",
-      "description": "Responsabilités civiles y compris celles du syndic bénévole ou membre du conseil syndical.",
-      "is_optional": false,
-      "territorial_scope": "À l'adresse indiquée aux Conditions Particulières",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Responsabilités civiles vis-à-vis du locataire, des voisins ou des tiers",
-      "description": "Responsabilités civiles vis-à-vis du locataire, des voisins ou des tiers.",
-      "is_optional": false,
-      "territorial_scope": "À l'adresse indiquée aux Conditions Particulières",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Défense pénale et recours suite à accident",
-      "description": "Défense pénale et recours suite à accident, au titre des responsabilités civiles.",
-      "is_optional": false,
-      "territorial_scope": "À l'adresse indiquée aux Conditions Particulières",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Atteintes à l'environnement",
-      "description": "Garantie citée dans la rubrique « Où suis-je couvert ? » : la garantie Atteintes à l'environnement s'applique exclusivement aux sinistres survenus en France et relevant de la compétence des juridictions françaises.",
-      "is_optional": null,
-      "territorial_scope": "Exclusivement aux sinistres survenus en France et relevant de la compétence des juridictions françaises",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Emeutes, mouvements populaires et vandalisme extérieur",
-      "description": "Garantie optionnelle : émeutes, mouvements populaires et vandalisme extérieur.",
-      "is_optional": true,
-      "territorial_scope": "À l'adresse indiquée aux Conditions Particulières",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Augmentation du plafond de garanties pour les dommages causés par les eaux de ruissellement",
-      "description": "Garantie optionnelle : augmentation du plafond de garanties pour les dommages causés par les eaux de ruissellement.",
-      "is_optional": true,
-      "territorial_scope": "À l'adresse indiquée aux Conditions Particulières",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Renonciation à recours contre les locataires ou occupants",
-      "description": "Garantie optionnelle : renonciation à recours contre les locataires ou occupants.",
-      "is_optional": true,
-      "territorial_scope": "À l'adresse indiquée aux Conditions Particulières",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    }
-  ],
-  "exclusions": [
-    {
-      "name": "Le fait intentionnel",
-      "description": "Le fait intentionnel : les dommages que l'assuré cause intentionnellement.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Les faits ou événements dont l'assuré avait connaissance lors de la souscription du contrat",
-      "description": "Les faits ou événements dont l'assuré avait connaissance lors de la souscription du contrat.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Les raz de marée, tremblements de terre, éruptions de volcans ou autres cataclysmes ; les glissements, affaissements de terrain, effondrement de bâtiments … hors catastrophes naturelles",
-      "description": "Les raz de marée, tremblements de terre, éruptions de volcans ou autres cataclysmes ; les glissements, affaissements de terrain, effondrement de bâtiments … hors catastrophes naturelles.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "La guerre civile ou guerre étrangère",
-      "description": "La guerre civile ou guerre étrangère.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Les dommages ou l'aggravation des dommages dus aux insectes, rongeurs, champignons et autres parasites",
-      "description": "Les dommages ou l'aggravation des dommages dus aux insectes, rongeurs, champignons et autres parasites.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Les dommages frais et pertes consécutifs à une cyber-attaque ou une infection informatique",
-      "description": "Les dommages frais et pertes consécutifs à une cyber-attaque ou une infection informatique.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Les dommages dus à un défaut d'entretien ou de réparation caractérisé",
-      "description": "Les dommages dus à un défaut d'entretien ou de réparation caractérisé.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Les dommages nucléaires",
-      "description": "Les dommages nucléaires.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Les bâtiments dont la surface développée excède 3 000 m²",
-      "description": "Les bâtiments dont la surface développée excède 3 000 m² ne sont pas assurés (rubrique « Qu'est-ce qui n'est pas assuré ? »).",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Les litiges juridiques liés aux activités de syndic de copropriété et relevant de la Protection juridique",
-      "description": "Les litiges juridiques liés aux activités de syndic de copropriété et relevant de la Protection juridique (gestion financière, administrative…).",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Les bâtiments d'une hauteur supérieure à 28 mètres",
-      "description": "Les bâtiments d'une hauteur supérieure à 28 mètres ne sont pas assurés.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Les risques aggravés par les activités professionnelles et les stockages de produits dangereux",
-      "description": "Les risques aggravés par les activités professionnelles (discothèque, casino, magasin de meubles…), des stockages de produits dangereux (combustibles, emballages, palettes, pneus…).",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Les bâtiments classés en 1ère catégorie (bâtiment de catégorie luxueuse)",
-      "description": "Les bâtiments classés en 1ère catégorie (bâtiment de catégorie luxueuse) ne sont pas assurés.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Les copropriétaires non-occupants et les propriétaires non occupants",
-      "description": "Conformément à la loi Alur, 2014-336 du 24 avril 2014, les copropriétaires non-occupants doivent obligatoirement assurer leurs responsabilités. Ils n'ont donc pas la qualité d'assuré au titre de ce présent contrat ainsi que les propriétaires non occupants.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Parties privatives",
-      "description": "L'assurance garantit les dommages aux bâtiments parties communes exclusivement.",
-      "applies_to": "all",
-      "page": 1
-    }
-  ],
-  "deductibles": {
-    "standard": "Suivant la formule souscrite, une somme peut rester à la charge de l'assuré (franchise) ; le montant n'est pas chiffré dans le document.",
-    "variable": "Application d'une franchise spécifique de 30 % du montant des dommages indemnisés en cas de non-respect des mesures de prévention pour le dégât des eaux, gel",
-    "per_coverage": "Dégât des eaux, gel : franchise spécifique de 30 % du montant des dommages indemnisés en cas de non-respect des mesures de prévention. Sanction de 10 % en cas de non-respect de la réglementation portant sur la présence obligatoire d'extincteur (chaufferie, parking, ascenseur, vide-ordures).",
-    "page": 1
+ "schema_version": "1.0",
+ "prompt_version": "1.1",
+ "country": "fr",
+ "insurer_slug": "thelem",
+ "insurer_name": "Thélem assurances",
+ "product_name": "Assurance multirisque immeuble",
+ "branch": "habitation",
+ "branch_code": null,
+ "document_type": "ipid",
+ "language": "fr",
+ "target_audience": null,
+ "target_audience_note": "Syndicats de copropriétés et leurs représentants (syndic, syndic bénévole, membre du conseil syndical) pour les parties communes des bâtiments à usage d'habitation ou mixtes. Le document précise que « les copropriétaires non-occupants doivent obligatoirement assurer leurs responsabilités. Ils n'ont donc pas la qualité d'assuré au titre de ce présent contrat ainsi que les propriétaires non occupants ». La garantie Catastrophes technologiques n'est acquise que « si le contrat a été souscrit par une personne physique en dehors de toute activité professionnelle ». Aucune des catégories de l'énumération ne correspond clairement : target_audience laissé à null.",
+ "reference": null,
+ "edition_date": "août 2025",
+ "product_family": "Assurance multirisque immeuble",
+ "variant": "COPROPRIETE",
+ "is_extension": false,
+ "extends": null,
+ "superseded": null,
+ "source_url": "https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_630-MRI-aout-2025.pdf",
+ "source_pdf": "assurance-multirisque-immeuble-ff8857ef.pdf",
+ "source_sha256": "89ef3adf4fc1b76ff9d733859343a77c4663400a99dd5fe5518e6e4b2bd5f7b5",
+ "source_pages": 2,
+ "fetched_at": "2026-07-30",
+ "extraction_model": "claude-code-subagent:scale",
+ "summary": "Document d'information sur le produit d'assurance (IPID) de l'assurance multirisque immeuble - COPROPRIETE de Thélem assurances. Cette assurance a pour objectifs de garantir les dommages aux bâtiments (parties communes exclusivement) et les responsabilités civiles des représentants de copropriétés ; sont assurées les parties communes des bâtiments à usage d'habitation ou mixtes d'une superficie inférieure à 3 000 m², le contenu mobilier situé dans les parties communes, les approvisionnements et les matériels servant à son entretien. Les garanties systématiquement prévues couvrent l'incendie et les explosions, les dommages électriques et électroniques, les catastrophes technologiques, les attentats et actes de terrorisme, les événements climatiques, les dégâts des eaux et le gel, le vol et le vandalisme, le bris de glaces, les frais additionnels ainsi que les responsabilités civiles et la défense pénale et recours suite à accident. Trois garanties optionnelles sont proposées (émeutes, mouvements populaires et vandalisme extérieur ; augmentation du plafond pour les eaux de ruissellement ; renonciation à recours contre les locataires ou occupants).",
+ "definitions": [],
+ "coverages": [
+  {
+   "name": "Incendie, explosions",
+   "description": "Garantie des dommages aux bâtiments résultant d'un incendie ou d'explosions.",
+   "is_optional": false,
+   "territorial_scope": "À l'adresse indiquée aux Conditions Particulières",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": "Suivant la formule souscrite, une somme peut rester à la charge de l'assuré (franchise)",
+   "conditions": [
+    "Sanction de 10 % en cas de non-respect de la réglementation portant sur la présence obligatoire d'extincteur (chaufferie, parking, ascenseur, vide-ordures)"
+   ],
+   "page": 1
   },
-  "waiting_periods": [],
-  "obligations": [
-    {
-      "name": "Répondre exactement aux questions posées",
-      "description": "Répondre exactement aux questions posées lors de la souscription afin d'apprécier les risques et fixer la cotisation.",
-      "timing": "À la souscription du contrat",
-      "sanction": "Sous peine de nullité du contrat d'assurance ou de non-garantie",
-      "page": 2
-    },
-    {
-      "name": "Informer de l'existence d'une autre assurance",
-      "description": "Nous informer si les biens couverts par le contrat font l'objet d'une autre assurance et indiquer les sommes assurées.",
-      "timing": "À la souscription du contrat",
-      "sanction": "Sous peine de nullité du contrat d'assurance ou de non-garantie",
-      "page": 2
-    },
-    {
-      "name": "Déclarer les circonstances nouvelles",
-      "description": "Déclarer toutes les circonstances nouvelles qui modifient les informations fournies lors de la souscription.",
-      "timing": "En cours de contrat",
-      "sanction": "Sous peine de nullité du contrat d'assurance ou de non-garantie",
-      "page": 2
-    },
-    {
-      "name": "Régler les cotisations",
-      "description": "Régler les cotisations à la date convenue.",
-      "timing": "En cours de contrat",
-      "sanction": "Sous peine de nullité du contrat d'assurance ou de non-garantie",
-      "page": 2
-    },
-    {
-      "name": "Déclarer tout sinistre",
-      "description": "Déclarer tout sinistre dès que l'assuré en a connaissance et au plus tard dans le délai fixé par le contrat.",
-      "timing": "En cas de sinistre",
-      "sanction": "Sous peine de nullité du contrat d'assurance ou de non-garantie",
-      "page": 2
-    },
-    {
-      "name": "Prendre les mesures de préservation",
-      "description": "Prendre toutes les mesures de préservation possibles pour limiter l'importance du sinistre.",
-      "timing": "En cas de sinistre",
-      "sanction": "Sous peine de nullité du contrat d'assurance ou de non-garantie",
-      "page": 2
-    },
-    {
-      "name": "Justifier la nature et l'importance du dommage",
-      "description": "Justifier la nature et l'importance du dommage, au moyen de factures ou certificats de garantie notamment.",
-      "timing": "En cas de sinistre",
-      "sanction": "Sous peine de nullité du contrat d'assurance ou de non-garantie",
-      "page": 2
-    },
-    {
-      "name": "Recevoir l'expert",
-      "description": "Recevoir notre expert en le laissant procéder aux constats nécessaires.",
-      "timing": "En cas de sinistre",
-      "sanction": "Sous peine de nullité du contrat d'assurance ou de non-garantie",
-      "page": 2
-    },
-    {
-      "name": "Présence obligatoire d'extincteur",
-      "description": "Respecter la réglementation portant sur la présence obligatoire d'extincteur (chaufferie, parking, ascenseur, vide-ordures).",
-      "timing": "En cours de contrat",
-      "sanction": "Sanction de 10 % en cas de non-respect",
-      "page": 1
-    },
-    {
-      "name": "Mesures de prévention dégât des eaux et gel",
-      "description": "Respecter les mesures de prévention pour le dégât des eaux et le gel.",
-      "timing": "En cours de contrat",
-      "sanction": "Application d'une franchise spécifique de 30 % du montant des dommages indemnisés",
-      "page": 1
-    }
-  ],
-  "claims_procedure": [
-    {
-      "step": "Déclaration du sinistre",
-      "description": "Déclarer tout sinistre dès que l'assuré en a connaissance.",
-      "deadline": "dès que l'assuré en a connaissance et au plus tard dans le délai fixé par le contrat",
-      "page": 2
-    },
-    {
-      "step": "Mesures de préservation",
-      "description": "Prendre toutes les mesures de préservation possibles pour limiter l'importance du sinistre.",
-      "deadline": null,
-      "page": 2
-    },
-    {
-      "step": "Justification du dommage",
-      "description": "Justifier la nature et l'importance du dommage, au moyen de factures ou certificats de garantie notamment.",
-      "deadline": null,
-      "page": 2
-    },
-    {
-      "step": "Expertise",
-      "description": "Recevoir notre expert en le laissant procéder aux constats nécessaires.",
-      "deadline": null,
-      "page": 2
-    }
-  ],
-  "duration_and_cancellation": {
-    "duration": "Le contrat prend effet à la date et l'heure indiquées aux Conditions Particulières. Le contrat est souscrit jusqu'à la prochaine échéance principale. S'il s'agit d'un contrat temporaire, la mention et la date d'expiration sont portées sur les Conditions Particulières.",
-    "tacit_renewal": true,
-    "notice_period": "deux mois (résiliation à l'échéance annuelle)",
-    "methods": [
-      "par lettre ou tout autre support durable",
-      "par déclaration faite au siège social ou chez notre représentant",
-      "par acte extrajudiciaire",
-      "via la fonctionnalité mise en place sur le site internet",
-      "En cas de résiliation suite à modification de votre situation selon les termes des articles L113-16 et R.113-6 du Code des assurances, notification par lettre recommandée (papier ou électronique) avec demande d'avis de réception"
-    ],
-    "special_rights": [
-      "Vous pouvez notamment mettre fin au contrat à l'échéance annuelle en respectant un préavis de deux mois.",
-      "En cas de contrat conclu à distance, l'assuré dispose d'un délai de rétractation de 14 jours, qui commence à courir à compter de la conclusion du contrat, ou à compter de la réception de l'ensemble de la documentation contractuelle.",
-      "Les cas de résiliation, les délais à respecter sont ceux prévus par la règlementation et précisés dans les Dispositions Générales."
-    ],
-    "page": 2
+  {
+   "name": "Dommages électriques et électroniques",
+   "description": "Garantie des dommages électriques et électroniques aux bâtiments.",
+   "is_optional": false,
+   "territorial_scope": "À l'adresse indiquée aux Conditions Particulières",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": "Suivant la formule souscrite, une somme peut rester à la charge de l'assuré (franchise)",
+   "conditions": [],
+   "page": 1
   },
-  "prescription_period": null,
-  "premium": {
-    "notes": [
-      "La cotisation annuelle (ainsi que les frais, taxes et contributions fixées par l'Etat) se paie à la date ou aux dates indiquées sur les Conditions Particulières.",
-      "Un paiement fractionné peut toutefois être accordé au choix (annuel, semestriel ou mensuel).",
-      "Les paiements peuvent être effectués par carte bancaire, chèque ou prélèvement automatique."
-    ],
-    "indexation": null,
-    "page": 2
+  {
+   "name": "Catastrophes technologiques",
+   "description": "Catastrophes technologiques (si le contrat a été souscrit par une personne physique en dehors de toute activité professionnelle).",
+   "is_optional": false,
+   "territorial_scope": "À l'adresse indiquée aux Conditions Particulières",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Si le contrat a été souscrit par une personne physique en dehors de toute activité professionnelle"
+   ],
+   "page": 1
   },
-  "special_conditions": [
-    {
-      "name": "Biens assurés",
-      "description": "Les parties communes des bâtiments à usage d'habitation ou mixtes (habitation et professionnels) d'une superficie inférieure à 3 000 m² ainsi que toutes les responsabilités en tant que représentant de syndicat de copropriétés. Le contenu mobilier situé dans les parties communes mis à disposition des occupants ou utilisé par le personnel ou les gardiens de l'immeuble, ainsi que les approvisionnements et les matériels servant à son entretien sont également assurés.",
-      "page": 1
-    },
-    {
-      "name": "Qualité d'assuré — loi Alur",
-      "description": "Conformément à la loi Alur, 2014-336 du 24 avril 2014, les copropriétaires non-occupants doivent obligatoirement assurer leurs responsabilités. Ils n'ont donc pas la qualité d'assuré au titre de ce présent contrat ainsi que les propriétaires non occupants.",
-      "page": 1
-    },
-    {
-      "name": "Restriction — sanction de 10 % (extincteurs)",
-      "description": "Sanction de 10 % en cas de non-respect de la réglementation portant sur la présence obligatoire d'extincteur (chaufferie, parking, ascenseur, vide-ordures).",
-      "page": 1
-    },
-    {
-      "name": "Restriction — franchise spécifique de 30 %",
-      "description": "Application d'une franchise spécifique de 30 % du montant des dommages indemnisés en cas de non-respect des mesures de prévention pour le dégât des eaux, gel.",
-      "page": 1
-    },
-    {
-      "name": "Restriction — franchise selon la formule souscrite",
-      "description": "Suivant la formule souscrite, une somme peut rester à la charge de l'assuré (franchise).",
-      "page": 1
-    },
-    {
-      "name": "Garanties systématiquement prévues",
-      "description": "Les garanties précédées d'une coche sont systématiquement prévues au contrat.",
-      "page": 1
-    },
-    {
-      "name": "Portée du document",
-      "description": "Ce document d'information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l'information complète sur ce produit dans la documentation précontractuelle et contractuelle.",
-      "page": 1
-    }
+  {
+   "name": "Attentats, actes de terrorisme",
+   "description": "Garantie des dommages aux bâtiments résultant d'attentats et d'actes de terrorisme.",
+   "is_optional": false,
+   "territorial_scope": "À l'adresse indiquée aux Conditions Particulières",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Evénements climatiques",
+   "description": "Evénements climatiques (tempête, ouragan, grêle, poids de la neige, catastrophes naturelles).",
+   "is_optional": false,
+   "territorial_scope": "À l'adresse indiquée aux Conditions Particulières",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": "Suivant la formule souscrite, une somme peut rester à la charge de l'assuré (franchise)",
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Dégâts des eaux, gel",
+   "description": "Garantie des dommages aux bâtiments résultant de dégâts des eaux et du gel.",
+   "is_optional": false,
+   "territorial_scope": "À l'adresse indiquée aux Conditions Particulières",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": "Application d'une franchise spécifique de 30 % du montant des dommages indemnisés en cas de non-respect des mesures de prévention pour le dégât des eaux, gel ; suivant la formule souscrite, une somme peut rester à la charge de l'assuré (franchise)",
+   "conditions": [
+    "Respect des mesures de prévention pour le dégât des eaux et le gel, sous peine d'une franchise spécifique de 30 % du montant des dommages indemnisés"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Vol, vandalisme",
+   "description": "Garantie des dommages aux bâtiments résultant du vol et du vandalisme.",
+   "is_optional": false,
+   "territorial_scope": "À l'adresse indiquée aux Conditions Particulières",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": "Suivant la formule souscrite, une somme peut rester à la charge de l'assuré (franchise)",
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Bris de glaces",
+   "description": "Garantie des dommages aux bâtiments au titre du bris de glaces.",
+   "is_optional": false,
+   "territorial_scope": "À l'adresse indiquée aux Conditions Particulières",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": "Suivant la formule souscrite, une somme peut rester à la charge de l'assuré (franchise)",
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Frais additionnels suite à événement couvert",
+   "description": "Garantie des frais additionnels suite à événement couvert.",
+   "is_optional": false,
+   "territorial_scope": "À l'adresse indiquée aux Conditions Particulières",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Responsabilités civiles y compris celles du syndic bénévole ou membre du conseil syndical",
+   "description": "Responsabilités civiles y compris celles du syndic bénévole ou membre du conseil syndical.",
+   "is_optional": false,
+   "territorial_scope": "À l'adresse indiquée aux Conditions Particulières",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Responsabilités civiles vis-à-vis du locataire, des voisins ou des tiers",
+   "description": "Responsabilités civiles vis-à-vis du locataire, des voisins ou des tiers.",
+   "is_optional": false,
+   "territorial_scope": "À l'adresse indiquée aux Conditions Particulières",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Défense pénale et recours suite à accident",
+   "description": "Défense pénale et recours suite à accident, au titre des responsabilités civiles.",
+   "is_optional": false,
+   "territorial_scope": "À l'adresse indiquée aux Conditions Particulières",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Atteintes à l'environnement",
+   "description": "Garantie citée dans la rubrique « Où suis-je couvert ? » : la garantie Atteintes à l'environnement s'applique exclusivement aux sinistres survenus en France et relevant de la compétence des juridictions françaises.",
+   "is_optional": null,
+   "territorial_scope": "Exclusivement aux sinistres survenus en France et relevant de la compétence des juridictions françaises",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Emeutes, mouvements populaires et vandalisme extérieur",
+   "description": "Garantie optionnelle : émeutes, mouvements populaires et vandalisme extérieur.",
+   "is_optional": true,
+   "territorial_scope": "À l'adresse indiquée aux Conditions Particulières",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Augmentation du plafond de garanties pour les dommages causés par les eaux de ruissellement",
+   "description": "Garantie optionnelle : augmentation du plafond de garanties pour les dommages causés par les eaux de ruissellement.",
+   "is_optional": true,
+   "territorial_scope": "À l'adresse indiquée aux Conditions Particulières",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Renonciation à recours contre les locataires ou occupants",
+   "description": "Garantie optionnelle : renonciation à recours contre les locataires ou occupants.",
+   "is_optional": true,
+   "territorial_scope": "À l'adresse indiquée aux Conditions Particulières",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Le fait intentionnel",
+   "description": "Le fait intentionnel : les dommages que l'assuré cause intentionnellement.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Les faits ou événements dont l'assuré avait connaissance lors de la souscription du contrat",
+   "description": "Les faits ou événements dont l'assuré avait connaissance lors de la souscription du contrat.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Les raz de marée, tremblements de terre, éruptions de volcans ou autres cataclysmes ; les glissements, affaissements de terrain, effondrement de bâtiments … hors catastrophes naturelles",
+   "description": "Les raz de marée, tremblements de terre, éruptions de volcans ou autres cataclysmes ; les glissements, affaissements de terrain, effondrement de bâtiments … hors catastrophes naturelles.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "La guerre civile ou guerre étrangère",
+   "description": "La guerre civile ou guerre étrangère.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Les dommages ou l'aggravation des dommages dus aux insectes, rongeurs, champignons et autres parasites",
+   "description": "Les dommages ou l'aggravation des dommages dus aux insectes, rongeurs, champignons et autres parasites.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Les dommages frais et pertes consécutifs à une cyber-attaque ou une infection informatique",
+   "description": "Les dommages frais et pertes consécutifs à une cyber-attaque ou une infection informatique.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Les dommages dus à un défaut d'entretien ou de réparation caractérisé",
+   "description": "Les dommages dus à un défaut d'entretien ou de réparation caractérisé.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Les dommages nucléaires",
+   "description": "Les dommages nucléaires.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Les bâtiments dont la surface développée excède 3 000 m²",
+   "description": "Les bâtiments dont la surface développée excède 3 000 m² ne sont pas assurés (rubrique « Qu'est-ce qui n'est pas assuré ? »).",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Les litiges juridiques liés aux activités de syndic de copropriété et relevant de la Protection juridique",
+   "description": "Les litiges juridiques liés aux activités de syndic de copropriété et relevant de la Protection juridique (gestion financière, administrative…).",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Les bâtiments d'une hauteur supérieure à 28 mètres",
+   "description": "Les bâtiments d'une hauteur supérieure à 28 mètres ne sont pas assurés.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Les risques aggravés par les activités professionnelles et les stockages de produits dangereux",
+   "description": "Les risques aggravés par les activités professionnelles (discothèque, casino, magasin de meubles…), des stockages de produits dangereux (combustibles, emballages, palettes, pneus…).",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Les bâtiments classés en 1ère catégorie (bâtiment de catégorie luxueuse)",
+   "description": "Les bâtiments classés en 1ère catégorie (bâtiment de catégorie luxueuse) ne sont pas assurés.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Les copropriétaires non-occupants et les propriétaires non occupants",
+   "description": "Conformément à la loi Alur, 2014-336 du 24 avril 2014, les copropriétaires non-occupants doivent obligatoirement assurer leurs responsabilités. Ils n'ont donc pas la qualité d'assuré au titre de ce présent contrat ainsi que les propriétaires non occupants.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Parties privatives",
+   "description": "L'assurance garantit les dommages aux bâtiments parties communes exclusivement.",
+   "applies_to": "all",
+   "page": 1
+  }
+ ],
+ "deductibles": {
+  "standard": "Suivant la formule souscrite, une somme peut rester à la charge de l'assuré (franchise) ; le montant n'est pas chiffré dans le document.",
+  "variable": "Application d'une franchise spécifique de 30 % du montant des dommages indemnisés en cas de non-respect des mesures de prévention pour le dégât des eaux, gel",
+  "per_coverage": "Dégât des eaux, gel : franchise spécifique de 30 % du montant des dommages indemnisés en cas de non-respect des mesures de prévention. Sanction de 10 % en cas de non-respect de la réglementation portant sur la présence obligatoire d'extincteur (chaufferie, parking, ascenseur, vide-ordures).",
+  "page": 1
+ },
+ "waiting_periods": [],
+ "obligations": [
+  {
+   "name": "Répondre exactement aux questions posées",
+   "description": "Répondre exactement aux questions posées lors de la souscription afin d'apprécier les risques et fixer la cotisation.",
+   "timing": "À la souscription du contrat",
+   "sanction": "Sous peine de nullité du contrat d'assurance ou de non-garantie",
+   "page": 2
+  },
+  {
+   "name": "Informer de l'existence d'une autre assurance",
+   "description": "Nous informer si les biens couverts par le contrat font l'objet d'une autre assurance et indiquer les sommes assurées.",
+   "timing": "À la souscription du contrat",
+   "sanction": "Sous peine de nullité du contrat d'assurance ou de non-garantie",
+   "page": 2
+  },
+  {
+   "name": "Déclarer les circonstances nouvelles",
+   "description": "Déclarer toutes les circonstances nouvelles qui modifient les informations fournies lors de la souscription.",
+   "timing": "En cours de contrat",
+   "sanction": "Sous peine de nullité du contrat d'assurance ou de non-garantie",
+   "page": 2
+  },
+  {
+   "name": "Régler les cotisations",
+   "description": "Régler les cotisations à la date convenue.",
+   "timing": "En cours de contrat",
+   "sanction": "Sous peine de nullité du contrat d'assurance ou de non-garantie",
+   "page": 2
+  },
+  {
+   "name": "Déclarer tout sinistre",
+   "description": "Déclarer tout sinistre dès que l'assuré en a connaissance et au plus tard dans le délai fixé par le contrat.",
+   "timing": "En cas de sinistre",
+   "sanction": "Sous peine de nullité du contrat d'assurance ou de non-garantie",
+   "page": 2
+  },
+  {
+   "name": "Prendre les mesures de préservation",
+   "description": "Prendre toutes les mesures de préservation possibles pour limiter l'importance du sinistre.",
+   "timing": "En cas de sinistre",
+   "sanction": "Sous peine de nullité du contrat d'assurance ou de non-garantie",
+   "page": 2
+  },
+  {
+   "name": "Justifier la nature et l'importance du dommage",
+   "description": "Justifier la nature et l'importance du dommage, au moyen de factures ou certificats de garantie notamment.",
+   "timing": "En cas de sinistre",
+   "sanction": "Sous peine de nullité du contrat d'assurance ou de non-garantie",
+   "page": 2
+  },
+  {
+   "name": "Recevoir l'expert",
+   "description": "Recevoir notre expert en le laissant procéder aux constats nécessaires.",
+   "timing": "En cas de sinistre",
+   "sanction": "Sous peine de nullité du contrat d'assurance ou de non-garantie",
+   "page": 2
+  },
+  {
+   "name": "Présence obligatoire d'extincteur",
+   "description": "Respecter la réglementation portant sur la présence obligatoire d'extincteur (chaufferie, parking, ascenseur, vide-ordures).",
+   "timing": "En cours de contrat",
+   "sanction": "Sanction de 10 % en cas de non-respect",
+   "page": 1
+  },
+  {
+   "name": "Mesures de prévention dégât des eaux et gel",
+   "description": "Respecter les mesures de prévention pour le dégât des eaux et le gel.",
+   "timing": "En cours de contrat",
+   "sanction": "Application d'une franchise spécifique de 30 % du montant des dommages indemnisés",
+   "page": 1
+  }
+ ],
+ "claims_procedure": [
+  {
+   "step": "Déclaration du sinistre",
+   "description": "Déclarer tout sinistre dès que l'assuré en a connaissance.",
+   "deadline": "dès que l'assuré en a connaissance et au plus tard dans le délai fixé par le contrat",
+   "page": 2
+  },
+  {
+   "step": "Mesures de préservation",
+   "description": "Prendre toutes les mesures de préservation possibles pour limiter l'importance du sinistre.",
+   "deadline": null,
+   "page": 2
+  },
+  {
+   "step": "Justification du dommage",
+   "description": "Justifier la nature et l'importance du dommage, au moyen de factures ou certificats de garantie notamment.",
+   "deadline": null,
+   "page": 2
+  },
+  {
+   "step": "Expertise",
+   "description": "Recevoir notre expert en le laissant procéder aux constats nécessaires.",
+   "deadline": null,
+   "page": 2
+  }
+ ],
+ "duration_and_cancellation": {
+  "duration": "Le contrat prend effet à la date et l'heure indiquées aux Conditions Particulières. Le contrat est souscrit jusqu'à la prochaine échéance principale. S'il s'agit d'un contrat temporaire, la mention et la date d'expiration sont portées sur les Conditions Particulières.",
+  "tacit_renewal": true,
+  "notice_period": "deux mois (résiliation à l'échéance annuelle)",
+  "methods": [
+   "par lettre ou tout autre support durable",
+   "par déclaration faite au siège social ou chez notre représentant",
+   "par acte extrajudiciaire",
+   "via la fonctionnalité mise en place sur le site internet",
+   "En cas de résiliation suite à modification de votre situation selon les termes des articles L113-16 et R.113-6 du Code des assurances, notification par lettre recommandée (papier ou électronique) avec demande d'avis de réception"
   ],
-  "key_quotes": [
-    {
-      "quote": "Cette assurance a pour objectifs de garantir les dommages aux bâtiments (parties communes exclusivement) et les responsabilités civiles des représentants de copropriétés.",
-      "context": "De quel type d'assurance s'agit-il ?",
-      "page": 1
-    },
-    {
-      "quote": "Conformément à la loi Alur, 2014-336 du 24 avril 2014, les copropriétaires non-occupants doivent obligatoirement assurer leurs responsabilités.",
-      "context": "De quel type d'assurance s'agit-il ?",
-      "page": 1
-    },
-    {
-      "quote": "Ils n’ont donc pas la qualité d’assuré au titre de ce présent contrat ainsi que les propriétaires non occupants.",
-      "context": "De quel type d'assurance s'agit-il ?",
-      "page": 1
-    },
-    {
-      "quote": "Les parties communes des bâtiments à usage d’habitation ou mixtes (habitation et professionnels) d’une superficie inférieure à 3 000 m² ainsi que toutes les responsabilités en tant que représentant de syndicat de copropriétés.",
-      "context": "Qu'est-ce qui est assuré ? — biens assurés",
-      "page": 1
-    },
-    {
-      "quote": "Catastrophes technologiques (si le contrat a été souscrit par une personne physique en dehors de toute activité professionnelle)",
-      "context": "Garanties systématiquement prévues — dommages aux bâtiments",
-      "page": 1
-    },
-    {
-      "quote": "Evénements climatiques (tempête, ouragan, grêle, poids de la neige, catastrophes naturelles)",
-      "context": "Garanties systématiquement prévues — dommages aux bâtiments",
-      "page": 1
-    },
-    {
-      "quote": "Responsabilités civiles y compris celles du syndic bénévole ou membre du conseil syndical",
-      "context": "Garanties systématiquement prévues — les responsabilités civiles",
-      "page": 1
-    },
-    {
-      "quote": "Les dommages dus à un défaut d’entretien ou de réparation caractérisé",
-      "context": "Les principales exclusions",
-      "page": 1
-    },
-    {
-      "quote": "Sanction de 10 % en cas de non-respect de la réglementation portant sur la présence obligatoire d’extincteur",
-      "context": "Les principales restrictions",
-      "page": 1
-    },
-    {
-      "quote": "Suivant la formule souscrite, une somme peut rester à la charge de l’assuré (franchise).",
-      "context": "Les principales restrictions",
-      "page": 1
-    },
-    {
-      "quote": "Les bâtiments dont la surface développée excède 3 000 m²",
-      "context": "Qu'est-ce qui n'est pas assuré ?",
-      "page": 1
-    },
-    {
-      "quote": "Les bâtiments d’une hauteur supérieure à 28 mètres",
-      "context": "Qu'est-ce qui n'est pas assuré ?",
-      "page": 1
-    },
-    {
-      "quote": "Les bâtiments classés en 1ère catégorie (bâtiment de catégorie luxueuse).",
-      "context": "Qu'est-ce qui n'est pas assuré ?",
-      "page": 1
-    },
-    {
-      "quote": "La garantie Atteintes à l’environnement s’applique exclusivement aux sinistres survenus en France et relevant de la compétence des juridictions françaises.",
-      "context": "Où suis-je couvert ?",
-      "page": 2
-    },
-    {
-      "quote": "Sous peine de nullité du contrat d’assurance ou de non-garantie, l’assuré doit :",
-      "context": "Quelles sont mes obligations ?",
-      "page": 2
-    },
-    {
-      "quote": "Vous pouvez notamment mettre fin au contrat à l'échéance annuelle en respectant un préavis de deux mois.",
-      "context": "Comment puis-je résilier mon contrat ?",
-      "page": 2
-    }
+  "special_rights": [
+   "Vous pouvez notamment mettre fin au contrat à l'échéance annuelle en respectant un préavis de deux mois.",
+   "En cas de contrat conclu à distance, l'assuré dispose d'un délai de rétractation de 14 jours, qui commence à courir à compter de la conclusion du contrat, ou à compter de la réception de l'ensemble de la documentation contractuelle.",
+   "Les cas de résiliation, les délais à respecter sont ceux prévus par la règlementation et précisés dans les Dispositions Générales."
   ],
-  "gaps": [
-    "Le document est un IPID (résumé standardisé au format © European Union, 2017) : il ne comporte aucune section de définitions contractuelles, aucun délai de carence et aucune clause de prescription. Ces champs sont donc vides/nuls.",
-    "Aucune référence interne de document n'est imprimée dans le texte extrait ; le nom du fichier de l'URL source (« IPID_TA_630-MRI-aout-2025.pdf ») évoque une référence « TA 630 », non confirmée par le texte. `reference` laissé à null.",
-    "La date d'édition n'apparaît pas dans le texte du document ; `edition_date` (« août 2025 ») est déduite du nom du fichier de l'URL source fournie dans la tâche, non d'une mention imprimée.",
-    "`target_audience` laissé à null : l'assuré est un syndicat de copropriétés / son représentant, ce qui ne correspond nettement à aucune valeur de l'énumération (particuliers, entreprises, independants, secteur_public). Le libellé du document est conservé dans `target_audience_note`.",
-    "La garantie « Atteintes à l'environnement » n'apparaît que dans la rubrique « Où suis-je couvert ? » (page 2) et non dans la liste des garanties ; son caractère systématique ou optionnel n'est pas précisé (is_optional laissé à null).",
-    "Aucun plafond de garantie n'est chiffré dans le document, y compris pour l'option « Augmentation du plafond de garanties pour les dommages causés par les eaux de ruissellement ».",
-    "Le montant de la franchise générale n'est pas chiffré : « Suivant la formule souscrite, une somme peut rester à la charge de l'assuré (franchise) ». Les formules souscriptibles ne sont pas décrites.",
-    "Le document ne mentionne ni délai de rétractation spécifique aux personnes morales, ni faculté de résiliation infra-annuelle (contrairement aux IPID habitation particuliers du même assureur) : seule la résiliation à l'échéance annuelle avec préavis de deux mois est citée.",
-    "Le document ne comporte pas de rubrique « prestations d'assistance »."
-  ]
+  "page": 2
+ },
+ "prescription_period": null,
+ "premium": {
+  "notes": [
+   "La cotisation annuelle (ainsi que les frais, taxes et contributions fixées par l'Etat) se paie à la date ou aux dates indiquées sur les Conditions Particulières.",
+   "Un paiement fractionné peut toutefois être accordé au choix (annuel, semestriel ou mensuel).",
+   "Les paiements peuvent être effectués par carte bancaire, chèque ou prélèvement automatique."
+  ],
+  "indexation": null,
+  "page": 2
+ },
+ "special_conditions": [
+  {
+   "name": "Biens assurés",
+   "description": "Les parties communes des bâtiments à usage d'habitation ou mixtes (habitation et professionnels) d'une superficie inférieure à 3 000 m² ainsi que toutes les responsabilités en tant que représentant de syndicat de copropriétés. Le contenu mobilier situé dans les parties communes mis à disposition des occupants ou utilisé par le personnel ou les gardiens de l'immeuble, ainsi que les approvisionnements et les matériels servant à son entretien sont également assurés.",
+   "page": 1
+  },
+  {
+   "name": "Qualité d'assuré — loi Alur",
+   "description": "Conformément à la loi Alur, 2014-336 du 24 avril 2014, les copropriétaires non-occupants doivent obligatoirement assurer leurs responsabilités. Ils n'ont donc pas la qualité d'assuré au titre de ce présent contrat ainsi que les propriétaires non occupants.",
+   "page": 1
+  },
+  {
+   "name": "Restriction — sanction de 10 % (extincteurs)",
+   "description": "Sanction de 10 % en cas de non-respect de la réglementation portant sur la présence obligatoire d'extincteur (chaufferie, parking, ascenseur, vide-ordures).",
+   "page": 1
+  },
+  {
+   "name": "Restriction — franchise spécifique de 30 %",
+   "description": "Application d'une franchise spécifique de 30 % du montant des dommages indemnisés en cas de non-respect des mesures de prévention pour le dégât des eaux, gel.",
+   "page": 1
+  },
+  {
+   "name": "Restriction — franchise selon la formule souscrite",
+   "description": "Suivant la formule souscrite, une somme peut rester à la charge de l'assuré (franchise).",
+   "page": 1
+  },
+  {
+   "name": "Garanties systématiquement prévues",
+   "description": "Les garanties précédées d'une coche sont systématiquement prévues au contrat.",
+   "page": 1
+  },
+  {
+   "name": "Portée du document",
+   "description": "Ce document d'information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l'information complète sur ce produit dans la documentation précontractuelle et contractuelle.",
+   "page": 1
+  }
+ ],
+ "key_quotes": [
+  {
+   "quote": "Cette assurance a pour objectifs de garantir les dommages aux bâtiments (parties communes exclusivement) et les responsabilités civiles des représentants de copropriétés.",
+   "context": "De quel type d'assurance s'agit-il ?",
+   "page": 1
+  },
+  {
+   "quote": "Conformément à la loi Alur, 2014-336 du 24 avril 2014, les copropriétaires non-occupants doivent obligatoirement assurer leurs responsabilités.",
+   "context": "De quel type d'assurance s'agit-il ?",
+   "page": 1
+  },
+  {
+   "quote": "Ils n’ont donc pas la qualité d’assuré au titre de ce présent contrat ainsi que les propriétaires non occupants.",
+   "context": "De quel type d'assurance s'agit-il ?",
+   "page": 1
+  },
+  {
+   "quote": "Les parties communes des bâtiments à usage d’habitation ou mixtes (habitation et professionnels) d’une superficie inférieure à 3 000 m² ainsi que toutes les responsabilités en tant que représentant de syndicat de copropriétés.",
+   "context": "Qu'est-ce qui est assuré ? — biens assurés",
+   "page": 1
+  },
+  {
+   "quote": "Catastrophes technologiques (si le contrat a été souscrit par une personne physique en dehors de toute activité professionnelle)",
+   "context": "Garanties systématiquement prévues — dommages aux bâtiments",
+   "page": 1
+  },
+  {
+   "quote": "Evénements climatiques (tempête, ouragan, grêle, poids de la neige, catastrophes naturelles)",
+   "context": "Garanties systématiquement prévues — dommages aux bâtiments",
+   "page": 1
+  },
+  {
+   "quote": "Responsabilités civiles y compris celles du syndic bénévole ou membre du conseil syndical",
+   "context": "Garanties systématiquement prévues — les responsabilités civiles",
+   "page": 1
+  },
+  {
+   "quote": "Les dommages dus à un défaut d’entretien ou de réparation caractérisé",
+   "context": "Les principales exclusions",
+   "page": 1
+  },
+  {
+   "quote": "Sanction de 10 % en cas de non-respect de la réglementation portant sur la présence obligatoire d’extincteur",
+   "context": "Les principales restrictions",
+   "page": 1
+  },
+  {
+   "quote": "Suivant la formule souscrite, une somme peut rester à la charge de l’assuré (franchise).",
+   "context": "Les principales restrictions",
+   "page": 1
+  },
+  {
+   "quote": "Les bâtiments dont la surface développée excède 3 000 m²",
+   "context": "Qu'est-ce qui n'est pas assuré ?",
+   "page": 1
+  },
+  {
+   "quote": "Les bâtiments d’une hauteur supérieure à 28 mètres",
+   "context": "Qu'est-ce qui n'est pas assuré ?",
+   "page": 1
+  },
+  {
+   "quote": "Les bâtiments classés en 1ère catégorie (bâtiment de catégorie luxueuse).",
+   "context": "Qu'est-ce qui n'est pas assuré ?",
+   "page": 1
+  },
+  {
+   "quote": "La garantie Atteintes à l’environnement s’applique exclusivement aux sinistres survenus en France et relevant de la compétence des juridictions françaises.",
+   "context": "Où suis-je couvert ?",
+   "page": 2
+  },
+  {
+   "quote": "Sous peine de nullité du contrat d’assurance ou de non-garantie, l’assuré doit :",
+   "context": "Quelles sont mes obligations ?",
+   "page": 2
+  },
+  {
+   "quote": "Vous pouvez notamment mettre fin au contrat à l'échéance annuelle en respectant un préavis de deux mois.",
+   "context": "Comment puis-je résilier mon contrat ?",
+   "page": 2
+  }
+ ],
+ "gaps": [
+  "Le document est un IPID (résumé standardisé au format © European Union, 2017) : il ne comporte aucune section de définitions contractuelles, aucun délai de carence et aucune clause de prescription. Ces champs sont donc vides/nuls.",
+  "Aucune référence interne de document n'est imprimée dans le texte extrait ; le nom du fichier de l'URL source (« IPID_TA_630-MRI-aout-2025.pdf ») évoque une référence « TA 630 », non confirmée par le texte. `reference` laissé à null.",
+  "La date d'édition n'apparaît pas dans le texte du document ; `edition_date` (« août 2025 ») est déduite du nom du fichier de l'URL source fournie dans la tâche, non d'une mention imprimée.",
+  "`target_audience` laissé à null : l'assuré est un syndicat de copropriétés / son représentant, ce qui ne correspond nettement à aucune valeur de l'énumération (particuliers, entreprises, independants, secteur_public). Le libellé du document est conservé dans `target_audience_note`.",
+  "La garantie « Atteintes à l'environnement » n'apparaît que dans la rubrique « Où suis-je couvert ? » (page 2) et non dans la liste des garanties ; son caractère systématique ou optionnel n'est pas précisé (is_optional laissé à null).",
+  "Aucun plafond de garantie n'est chiffré dans le document, y compris pour l'option « Augmentation du plafond de garanties pour les dommages causés par les eaux de ruissellement ».",
+  "Le montant de la franchise générale n'est pas chiffré : « Suivant la formule souscrite, une somme peut rester à la charge de l'assuré (franchise) ». Les formules souscriptibles ne sont pas décrites.",
+  "Le document ne mentionne ni délai de rétractation spécifique aux personnes morales, ni faculté de résiliation infra-annuelle (contrairement aux IPID habitation particuliers du même assureur) : seule la résiliation à l'échéance annuelle avec préavis de deux mois est citée.",
+  "Le document ne comporte pas de rubrique « prestations d'assistance »."
+ ]
 }

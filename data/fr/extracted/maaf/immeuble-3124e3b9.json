@@ -12,7 +12,7 @@
  "target_audience": null,
  "target_audience_note": "Le document n'énonce aucune catégorie de clientèle. Il se présente comme une « Assurance Habitation » couvrant « votre bien immobilier donné en location ou inoccupé et son contenu », et vise « L'immeuble donné en location et son contenu », « La maison, l'appartement ou l'immeuble inoccupés » et « Leurs dépendances ».",
  "reference": "MU0_IPIDHA_00-250315-GqMS1D-1-1-2-22:19:13- HAB11009",
- "edition_date": "2025-03",
+ "edition_date": null,
  "product_family": "IMMEUBLE",
  "variant": null,
  "is_extension": false,
@@ -432,6 +432,7 @@
   "MONTANTS DE FRANCHISE NON CHIFFRÉS : le document évoque une « franchise contractuelle ou légale » et une « réduction d'indemnité » sans en indiquer les montants, taux ni modalités de calcul. Il ne précise pas non plus quelles sont les « mesures de protection » dont le non-respect entraîne la réduction.",
   "AUCUNE DÉFINITION, AUCUNE PRESCRIPTION : IPID de 2 pages, sans lexique ni article de définitions (definitions[] vide), sans délai de carence (waiting_periods vide) et sans clause de prescription (prescription_period null).",
   "PAS DE TRONCATURE : le texte du prompt couvre l'intégralité des 2 pages annoncées (source_pages: 2) ; il n'a pas été tronqué par le budget de caractères et les deux pages ont une couche texte exploitable. Les citations ont été découpées page par page après retrait des marqueurs [[page N]], donc aucune ne traverse une frontière de page.",
-  "PRODUCT_NAME : la page de garde superpose « Assurance Habitation » (ligne de type d'assurance) et « IMMEUBLE » à l'emplacement du nom commercial ; product_name retient « IMMEUBLE », en capitales comme imprimé. Le document ne se présente jamais comme une option, une extension ou un avenant d'un contrat de base (is_extension: false)."
+  "PRODUCT_NAME : la page de garde superpose « Assurance Habitation » (ligne de type d'assurance) et « IMMEUBLE » à l'emplacement du nom commercial ; product_name retient « IMMEUBLE », en capitales comme imprimé. Le document ne se présente jamais comme une option, une extension ou un avenant d'un contrat de base (is_extension: false).",
+  "edition_date remise a null le 2026-08-01: la valeur 2025-03 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5."
  ]
 }

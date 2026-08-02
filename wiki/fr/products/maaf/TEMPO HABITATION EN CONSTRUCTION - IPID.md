@@ -14,7 +14,7 @@ target_audience_note: Le document ne désigne aucune catégorie de public. Il d�
   travaux pour son propre compte » (au titre d'une exclusion) ainsi que « les personnes
   physiques » (au titre de la résiliation infra-annuelle).
 reference: MU0_IPIDHA_00-260126-LDFkGz-2-1-2-05:01:17- HAB11028
-edition_date: 2026-01
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/habitation
@@ -30,7 +30,7 @@ prompt_version: '1.1'
 product_family: tempo-habitation
 variant: EN CONSTRUCTION
 edition_status: null
-edition_age_years: 0
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-08-01'
@@ -44,7 +44,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du contrat habitation « TEMPO HABITATION EN CONSTRUCTION » de MAAF Assurances SA. Le contrat couvre les dommages que peut subir une habitation en construction ou en rénovation et son contenu, ainsi que la responsabilité civile pour les dommages que l'habitation peut causer à un tiers, avec un plafond de 20 000 000 € en responsabilité civile et de 20 000 € en défense pénale et recours. Le document précise qu'il ne s'agit pas d'un contrat permettant de satisfaire à l'obligation d'assurance dommages-ouvrage. Deux garanties optionnelles sont proposées : aménagements extérieurs/Cadre de vie et Vol du contenu.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information · Édition : 2026-01
+- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -215,13 +215,14 @@ Vol du contenu.
 - Couche texte propre : 2 pages extraites, 5 832 caractères, aucune ligature perdue, aucun caractère de zone privée, aucun trait d'union conditionnel, aucun accent NFD ; 29 apostrophes courbes U+2019 et 1 espace insécable. Les citations ont été découpées programmatiquement dans le texte PyMuPDF page par page (page.get_text("text")) et vérifiées comme sous-chaînes exactes. Attention : le document mélange apostrophes ASCII (« d'un constructeur », « lors d'un vol », « l'Assistance ») et courbes.
 - Aucun tableau de garanties à colonnes de formules dans ce document. Les coches sont des dessins vectoriels absents de la couche texte : relevé par page.get_drawings() sur la page 1, 9 marques vertes de 7,4 × 5,0 pt toutes calées sur la même abscisse x0 = 37 pt (une seule colonne, pas de matrice). Le compte ferme sur les intitulés de la rubrique « Les garanties de base » : Les garanties Habitation (une seule coche pour les onze lignes indentées), Perte d'usage, Remboursement des mensualités de prêt immobilier, Frais annexes, Dommages causés par les secours, Responsabilité civile, Défense pénale et Recours, Assistance aux personnes, Renseignements juridiques = 9 items × 1 colonne = 9 coches + 0 croix + 0 blanc. Les deux garanties optionnelles (Garantie des aménagement extérieurs/Cadre de vie, Vol du contenu) ne portent AUCUNE coche, ce qui confirme la séparation imprimée entre « Les garanties de base » et « Les garanties optionnelles ». Le rendu image de la page 1 a été contrôlé pour confirmer l'affectation des items aux rubriques, que l'ordre de la couche texte rend trompeur (les items de « Qu'est-ce qui n'est pas assuré ? » précèdent ceux de « Qu'est-ce qui est assuré ? »).
 - Le texte du prompt n'était pas tronqué (document de 2 pages).
+- edition_date remise a null le 2026-08-01: la valeur 2026-01 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Documents liés
 
 - [Assurance Habitation - Fiche](Assurance%20Habitation%20-%20Fiche.md) - Fiche produit, éd. 06/2022
 - [FICHE D'INFORMATION RELATIVE A LA VENTE A DISTANCE DE VOTRE CONTRAT TEMPO HABITATION - Doc](FICHE%20D%27INFORMATION%20RELATIVE%20A%20LA%20VENTE%20A%20DISTANCE%20DE%20VOTRE%20CONTRAT%20TEMPO%20HABITATION%20-%20Doc.md) - Document
 - [Tempo Habitation - Fiche](Tempo%20Habitation%20-%20Fiche.md) - Fiche produit, éd. 06/2022
-- [TEMPO HABITATION Logement donné en location - IPID](TEMPO%20HABITATION%20Logement%20donn%C3%A9%20en%20location%20-%20IPID.md) - IPID / Fiche d'information, éd. 2025-03
+- [TEMPO HABITATION Logement donné en location - IPID](TEMPO%20HABITATION%20Logement%20donn%C3%A9%20en%20location%20-%20IPID.md) - IPID / Fiche d'information
 
 ## Source & fidélité
 

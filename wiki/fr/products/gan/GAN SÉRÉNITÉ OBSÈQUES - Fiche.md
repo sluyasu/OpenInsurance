@@ -28,9 +28,9 @@ extraction_model: claude-code-subagent:scale
 prompt_version: '1.1'
 product_family: gan-serenite-obseques
 variant: null
-edition_status: superseded
+edition_status: null
 edition_age_years: 3
-superseded: true
+superseded: null
 extends: null
 freshness: '2026-07-30'
 status: ready
@@ -148,8 +148,7 @@ l’investisseur a la faculté d’effectuer, à tout moment et sans frais, un r
 
 ## Documents liés
 
-- ⚠️ Édition remplacée par une version plus récente : [GAN SERENITE OBSEQUES - Fiche](GAN%20SERENITE%20OBSEQUES%20-%20Fiche.md)
-- [GAN SERENITE OBSEQUES - Fiche](GAN%20SERENITE%20OBSEQUES%20-%20Fiche.md) - Fiche produit, éd. 2025-07
+- [GAN SERENITE OBSEQUES - Fiche](GAN%20SERENITE%20OBSEQUES%20-%20Fiche.md) - Fiche produit
 
 ## Source & fidélité
 

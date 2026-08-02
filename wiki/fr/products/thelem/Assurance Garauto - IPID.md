@@ -13,7 +13,7 @@ target_audience_note: le professionnel de l’automobile ; Les entreprises non i
   dont l’effectif réel excède 7 personnes (conjoint du dirigeant et apprentis non
   compris). ne sont pas assurées.
 reference: null
-edition_date: 2025-08
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/multirisque-professionnelle
@@ -29,7 +29,7 @@ prompt_version: '1.1'
 product_family: garauto
 variant: null
 edition_status: null
-edition_age_years: 1
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -43,7 +43,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) du contrat Assurance Garauto de Thélem assurances, destiné au professionnel de l’automobile. Il garantit à titre obligatoire la responsabilité civile pour les dommages matériels ou corporels causés à des tiers du fait de l’utilisation des véhicules personnels de l’assuré ou des véhicules qui lui sont confiés dans le cadre de ses activités, ainsi que la défense pénale et recours suite à accident. Des garanties optionnelles couvrent les dommages subis par les véhicules (incendie, forces de la nature, attentats, vol, bris de glaces, dommages tous accidents et vandalisme), les responsabilités civiles après-vente, exploitation et travaux, les dommages corporels du conducteur responsable et des prestations d’assistance au véhicule et aux personnes. Le document résume les principales garanties et exclusions du contrat.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information · Édition : 2025-08
+- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -198,6 +198,7 @@ Garantie mentionnée uniquement dans la rubrique « Où suis-je couvert ? » : P
 - Les garanties listées sous « Incendie, Forces de la nature, Attentats et actes de terrorisme » et « Incendie, Vol » figurent groupées sur une même ligne du document ; elles ont été séparées en garanties distinctes, le document ne précise pas si elles se souscrivent ensemble ou séparément.
 - Les plafonds et franchises propres à chaque garantie optionnelle ne sont pas détaillés dans l’IPID ; ils renvoient à la documentation précontractuelle et contractuelle.
 - Le délai de déclaration de sinistre n’est pas chiffré : le document renvoie au « délai fixé par le contrat ».
+- edition_date remise a null le 2026-08-01: la valeur 2025-08 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

@@ -12,7 +12,7 @@ target_audience_note: l’assuré doit être âgé, à la souscription, d’au m
   et au maximum de 79 ans. Il doit résider sur le territoire métropolitain ou dans
   les départements d’Outre-Mer.
 reference: null
-edition_date: 2023-07
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/prevoyance
@@ -28,7 +28,7 @@ prompt_version: '1.1'
 product_family: capital-deces
 variant: null
 edition_status: null
-edition_age_years: 3
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -42,7 +42,7 @@ generated: true
 
 Le contrat d’assurance Capital Décès de Thélem prévoyance est un contrat de type vie entière qui permet à l’assuré de soutenir un ou plusieurs proches, même sans lien de parenté, en leur transmettant un capital exonéré des droits de succession. Le capital, choisi à la souscription de 7 000 € à 100 000 € par tranche de 1 000 €, est versé aux bénéficiaires désignés aux conditions particulières en cas de décès suite à accident ou maladie. Les garanties ne sont soumises à aucune sélection médicale, la cotisation est fixe dans le temps et payable sur 10 ans ou durant toute la vie de l’assuré. Les indemnités sont versées après application de délais d’attente : aucun pour un décès suite à accident, 2 ans pour un décès suite à maladie.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : IPID / Fiche d'information · Édition : 2023-07
+- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -168,6 +168,7 @@ Revalorisation : l’assureur distribue, tous les ans, les bénéfices technique
 - Le montant des cotisations et la tarification ne figurent pas dans le document.
 - Le document ne comporte aucune rubrique de prestations d’assistance ; aucune n’a donc été extraite.
 - Les conditions et la périodicité de l’augmentation du capital souscrit ne sont pas précisées au-delà du montant minimum de 1 000 €.
+- edition_date remise a null le 2026-08-01: la valeur 2023-07 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

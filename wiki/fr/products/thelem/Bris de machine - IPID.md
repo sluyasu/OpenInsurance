@@ -11,7 +11,7 @@ target_audience: entreprises
 target_audience_note: en tant que professionnel des secteurs Artisanat/Industrie,
   Commerces, Services et Professions libérales
 reference: null
-edition_date: 2023-06
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/multirisque-professionnelle
@@ -27,7 +27,7 @@ prompt_version: '1.1'
 product_family: bris-de-machine
 variant: null
 edition_status: null
-edition_age_years: 3
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -41,7 +41,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) du contrat Bris de machine de Thélem assurances, destiné aux professionnels des secteurs Artisanat/Industrie, Commerces, Services et Professions libérales. Il couvre les dommages matériels accidentels subis directement par les matériels, machines, engins, équipements et installations techniques assurés au contrat, du fait de causes internes, humaines, externes, des effets du courant électrique et de phénomènes naturels. Des garanties et services optionnels portent sur l’incendie, le vol et les dégâts des eaux d’origine externe, la garantie en tous lieux y compris en cours de transport, les frais de reconstitution des supports d’information et les frais supplémentaires d’exploitation. Le montant de la garantie est la valeur déclarée au contrat, correspondant à la valeur d’achat.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information · Édition : 2023-06
+- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -176,6 +176,7 @@ Frais supplémentaires d'exploitation (location de matériels de remplacement).
 - Le document présente à la fois une garantie optionnelle « Frais de reconstitution des supports d’information » et une exclusion « Coût de remplacement des supports informatiques et des frais de reconstitution des informations » ; l’articulation entre les deux n’est pas explicitée dans le texte.
 - Les plafonds propres aux garanties optionnelles (frais de reconstitution, frais supplémentaires d’exploitation) ne sont pas chiffrés dans l’IPID.
 - Le délai de déclaration de sinistre n’est pas chiffré : le document renvoie au « délai fixé par le contrat ».
+- edition_date remise a null le 2026-08-01: la valeur 2023-06 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

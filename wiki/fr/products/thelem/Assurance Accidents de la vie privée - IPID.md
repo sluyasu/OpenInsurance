@@ -13,7 +13,7 @@ target_audience_note: 'Bénéficiaires selon la formule choisie : souscripteur, 
   Les enfants mineurs sont automatiquement couverts même s’ils n’ont pas été déclarés
   au contrat (hors formule Jeunes).'
 reference: null
-edition_date: '2025'
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/gav
@@ -29,7 +29,7 @@ prompt_version: '1.1'
 product_family: assurance-accidents-de-la-vie-privee
 variant: null
 edition_status: null
-edition_age_years: 1
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -43,7 +43,7 @@ generated: true
 
 L’Assurance Accidents de la vie privée de Thélem assurances est un contrat de garantie des accidents de la vie (document d’information sur le produit d’assurance). Elle a pour objectif de protéger l’assuré, et éventuellement sa famille, contre les conséquences des accidents de la vie privée, et inclut des prestations d’assistance. L’assuré a le choix entre une formule forfaitaire (capital garanti) et une formule indemnitaire (indemnisation individualisée fixée selon les règles légales d’évaluation des préjudices corporels). Le contrat couvre notamment le décès, l’invalidité, une aide financière en cas d’hospitalisation, les frais de recherche et de secours et des services d’assistance, avec des options Scolaire et Extra-scolaire, Accidents professionnels et Revalorisation du capital.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Garantie des accidents de la vie](../../branches/Garantie%20des%20accidents%20de%20la%20vie.md) · Type : IPID / Fiche d'information · Édition : 2025
+- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Garantie des accidents de la vie](../../branches/Garantie%20des%20accidents%20de%20la%20vie.md) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -200,6 +200,7 @@ Garantie optionnelle : Revalorisation du capital par assuré (pour la formule fo
 - Les montants des formules forfaitaires sont donnés sous forme de fourchettes (de 20 000 € à 80 000 €, de 40 000 € à 160 000 €) sans détail des paliers.
 - Les cas et délais de résiliation ne sont pas détaillés : « Les cas de résiliation, les délais à respecter sont ceux prévus par la règlementation et précisés dans les Dispositions Générales ».
 - La formule Jeunes est mentionnée (garantie Scolaire et Extra-scolaire intégrée, enfants mineurs non couverts automatiquement) mais n’est pas décrite par ailleurs.
+- edition_date remise a null le 2026-08-01: la valeur 2025 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

@@ -12,7 +12,7 @@ target_audience_note: l’assuré doit être âgé, à la souscription, d’au m
   et au maximum de 82 ans. Il doit résider sur le territoire métropolitain ou dans
   les départements d’Outre-Mer.
 reference: null
-edition_date: '2026'
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/obseques
@@ -28,7 +28,7 @@ prompt_version: '1.1'
 product_family: initiative-obseques
 variant: Capital
 edition_status: null
-edition_age_years: 0
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -42,7 +42,7 @@ generated: true
 
 Le contrat d’assurance Initiative Obsèques Capital est un contrat d’assurance de type vie entière, porté par Thélem prévoyance, qui permet à l’assuré de se constituer un capital afin de financer ses funérailles. Le capital, choisi à la souscription de 2 000 € à 12 000 €, est obligatoirement versé à l’opérateur des pompes funèbres qui aura eu en charge les obsèques ou à la personne physique qui règlera les obsèques, le solde revenant aux bénéficiaires désignés sur les Conditions Particulières. Les garanties ne sont soumises à aucune sélection médicale et la cotisation est fixe dans le temps, payable sur 10, 15, 20 ou 25 ans ou durant toute la vie de l’assuré. Le contrat comprend également des prestations d’assistance (rapatriement du corps, aide-ménagère, garde des enfants et des animaux de compagnie, accompagnement psychologique, assistance téléphonique).
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : IPID / Fiche d'information · Édition : 2026
+- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -184,10 +184,11 @@ Assistance téléphonique, résolution des questions administratives et juridiqu
 - S’agissant d’un IPID de 2 pages, le document ne présente qu’un résumé des principales garanties et exclusions ; la liste exhaustive figure dans la notice d’information, non fournie.
 - Le montant des cotisations et la tarification ne figurent pas dans le document.
 - La « rente complémentaire » est mentionnée dans l’exclusion de suicide mais n’est décrite nulle part ailleurs dans le document.
+- edition_date remise a null le 2026-08-01: la valeur 2026 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Documents liés
 
-- [Assurance Initiative Obsèques Services - IPID](Assurance%20Initiative%20Obs%C3%A8ques%20Services%20-%20IPID.md) - IPID / Fiche d'information, éd. 2026
+- [Assurance Initiative Obsèques Services - IPID](Assurance%20Initiative%20Obs%C3%A8ques%20Services%20-%20IPID.md) - IPID / Fiche d'information
 
 ## Source & fidélité
 

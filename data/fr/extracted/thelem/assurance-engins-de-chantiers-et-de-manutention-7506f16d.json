@@ -1,409 +1,410 @@
 {
-  "schema_version": "1.0",
-  "prompt_version": "1.1",
-  "country": "fr",
-  "insurer_slug": "thelem",
-  "insurer_name": "Thélem assurances",
-  "branch": "auto",
-  "document_type": "ipid",
-  "language": "fr",
-  "source_url": "https://www.thelem-assurances.fr/wp-content/uploads/2025/12/Ipid-EC-2026.pdf",
-  "product_name": "Assurance Engins de chantiers et de manutention",
-  "product_family": "Assurance Engins de chantiers et de manutention",
-  "variant": null,
-  "reference": null,
-  "edition_date": "2026",
-  "target_audience": "entreprises",
-  "branch_code": null,
-  "is_extension": false,
-  "extends": null,
-  "superseded": null,
-  "source_pages": 2,
-  "source_pdf": "assurance-engins-de-chantiers-7506f16d.pdf",
-  "source_sha256": "171f08820bae15949956c9d983c70e4d8f452163a341fc1837061446de653f9c",
-  "fetched_at": "2026-07-30",
-  "extraction_model": "claude-code-subagent:scale",
-  "summary": "L’assurance Engins de chantiers a pour objectif de garantir le souscripteur d’un véhicule « engins de chantiers » contre les conséquences des dommages matériels ou corporels causés par son véhicule à un tiers (responsabilité civile). C’est une assurance obligatoire. Ce contrat inclut également la couverture des dommages corporels du conducteur. Selon les formules souscrites, ce contrat couvre aussi les dommages matériels du véhicule assuré.",
-  "definitions": [],
-  "coverages": [
-    {
-      "name": "Responsabilité civile circulation",
-      "description": "Responsabilité civile circulation : dommages causés aux tiers par le véhicule. Garantie relevant de la responsabilité civile et défense des droits.",
-      "is_optional": false,
-      "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l’UE, Andorre, Monaco, Saint Marin, Liechtenstein et tous les pays non rayés sur la carte verte",
-      "limits": "plafond illimité pour les dommages corporels / 100 millions € pour les dommages matériels",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "C’est une assurance obligatoire",
-        "Pour les séjours de plus de 90 jours, seule la garantie Responsabilité Civile obligatoire est accordée"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Responsabilité civile travaux",
-      "description": "Responsabilité civile travaux : dommages causés aux tiers par le véhicule lorsque celui-ci est utilisé en tant qu’outil. Garantie relevant de la responsabilité civile et défense des droits.",
-      "is_optional": false,
-      "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l’UE, Andorre, Monaco, Saint Marin, Liechtenstein et tous les pays non rayés sur la carte verte",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": "Une franchise spécifique est appliquée lorsque le sinistre résulte de travaux (RC Travaux)",
-      "conditions": [
-        "lorsque celui-ci est utilisé en tant qu’outil"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Responsabilité civile Atteintes à l’environnement",
-      "description": "Responsabilité civile Atteintes à l’environnement. Garantie relevant de la responsabilité civile et défense des droits.",
-      "is_optional": false,
-      "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l’UE, Andorre, Monaco, Saint Marin, Liechtenstein et tous les pays non rayés sur la carte verte",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Défense Pénale et Recours Suite à Accident",
-      "description": "Défense Pénale et Recours Suite à Accident : défense de l’assuré suite à un accident garanti jusqu’à 16 000 €.",
-      "is_optional": false,
-      "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l’UE, Andorre, Monaco, Saint Marin, Liechtenstein et tous les pays non rayés sur la carte verte",
-      "limits": "jusqu’à 16 000 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "suite à un accident garanti"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Protection du conducteur",
-      "description": "Protection du conducteur : dommages corporels du conducteur responsable jusqu’à 600 000 € sans franchise. Garantie relevant des dommages corporels.",
-      "is_optional": false,
-      "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l’UE, Andorre, Monaco, Saint Marin, Liechtenstein et tous les pays non rayés sur la carte verte",
-      "limits": "jusqu’à 600 000 €",
-      "sub_limits": [],
-      "deductible": "sans franchise",
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Dommages au véhicule – Bris de glaces",
-      "description": "Garantie et service optionnel Dommages au véhicule : Bris de glaces.",
-      "is_optional": true,
-      "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l’UE, Andorre, Monaco, Saint Marin, Liechtenstein et tous les pays non rayés sur la carte verte",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": "Une somme peut rester à la charge de l’assuré (franchise) notamment pour les garanties Vol, Incendie, Bris de glaces, Dommages subis par l’assuré",
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Dommages au véhicule – Catastrophes naturelles",
-      "description": "Garantie et service optionnel Dommages au véhicule : Catastrophes naturelles.",
-      "is_optional": true,
-      "territorial_scope": "Pour la garantie Catastrophes naturelles : selon arrêté interministériel constatant l’état de catastrophes naturelles",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "selon arrêté interministériel constatant l’état de catastrophes naturelles"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Dommages au véhicule – Attentats",
-      "description": "Garantie et service optionnel Dommages au véhicule : Attentats.",
-      "is_optional": true,
-      "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l’UE, Andorre, Monaco, Saint Marin, Liechtenstein et tous les pays non rayés sur la carte verte",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Dommages au véhicule – Tempête, grêle, neige",
-      "description": "Garantie et service optionnel Dommages au véhicule : Tempête, grêle, neige.",
-      "is_optional": true,
-      "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l’UE, Andorre, Monaco, Saint Marin, Liechtenstein et tous les pays non rayés sur la carte verte",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Dommages au véhicule – Incendie",
-      "description": "Garantie et service optionnel Dommages au véhicule : Incendie.",
-      "is_optional": true,
-      "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l’UE, Andorre, Monaco, Saint Marin, Liechtenstein et tous les pays non rayés sur la carte verte",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": "Une somme peut rester à la charge de l’assuré (franchise) notamment pour les garanties Vol, Incendie, Bris de glaces, Dommages subis par l’assuré",
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Dommages au véhicule – Dommages électroniques",
-      "description": "Garantie et service optionnel Dommages au véhicule : Dommages électroniques.",
-      "is_optional": true,
-      "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l’UE, Andorre, Monaco, Saint Marin, Liechtenstein et tous les pays non rayés sur la carte verte",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Dommages au véhicule – Vol et tentative de vol",
-      "description": "Garantie et service optionnel Dommages au véhicule : Vol et tentative de vol.",
-      "is_optional": true,
-      "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l’UE, Andorre, Monaco, Saint Marin, Liechtenstein et tous les pays non rayés sur la carte verte",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": "Une somme peut rester à la charge de l’assuré (franchise) notamment pour les garanties Vol, Incendie, Bris de glaces, Dommages subis par l’assuré",
-      "conditions": [
-        "En cas de vol, déposer plainte auprès des autorités compétentes et fournir l’original de ce dépôt"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Dommages au véhicule – Dommages tous accidents et vandalisme",
-      "description": "Garantie et service optionnel Dommages au véhicule : Dommages tous accidents et vandalisme.",
-      "is_optional": true,
-      "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l’UE, Andorre, Monaco, Saint Marin, Liechtenstein et tous les pays non rayés sur la carte verte",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Dommages au véhicule – Bris mécaniques",
-      "description": "Garantie et service optionnel Dommages au véhicule : Bris mécaniques.",
-      "is_optional": true,
-      "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l’UE, Andorre, Monaco, Saint Marin, Liechtenstein et tous les pays non rayés sur la carte verte",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": "Franchise de 30% du montant des dommages si le bris mécanique résulte d’une cause humaine",
-      "conditions": [],
-      "page": 1
-    }
-  ],
-  "exclusions": [
-    {
-      "name": "Véhicules non homologués",
-      "description": "Les véhicules non homologués.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Véhicules dont les caractéristiques ont été modifiées",
-      "description": "Les dommages subis par le véhicule assuré dont les caractéristiques auraient été modifiées dans le but d’augmenter la puissance ou la destination de l’engin.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Le fait intentionnel",
-      "description": "Le fait intentionnel : les dommages que l’assuré cause intentionnellement. Exclusion légale.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Le défaut de permis de conduire ou de CACES",
-      "description": "Le défaut de permis de conduire lorsqu’au moment du sinistre, le conducteur n’a pas l’âge requis ou ne possède pas de permis de conduire en état de validité ou de CACES en cours de validité et correspondant à l’engin utilisé. Exclusion légale.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "La conduite sous l’emprise de l’alcool ou de stupéfiants et tout délit de fuite",
-      "description": "La conduite sous l’emprise de l’alcool ou de stupéfiants et tout délit de fuite : exclusion des dommages au véhicule, de la défense de l’assuré et des dommages corporels du conducteur responsable. Exclusion légale.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Dispositifs de sécurité modifiés, neutralisés ou supprimés",
-      "description": "Les dommages subis par le véhicule assuré lorsque les dispositifs de sécurité ont été modifiés, neutralisés ou supprimés.",
-      "applies_to": "all",
-      "page": 1
-    }
-  ],
-  "deductibles": {
-    "standard": null,
-    "variable": "Une somme peut rester à la charge de l’assuré (franchise) notamment pour les garanties Vol, Incendie, Bris de glaces, Dommages subis par l’assuré.",
-    "per_coverage": {
-      "Responsabilité civile travaux": "",
-      "Dommages au véhicule – Bris mécaniques": "",
-      "Protection du conducteur": ""
-    },
-    "page": 1
+ "schema_version": "1.0",
+ "prompt_version": "1.1",
+ "country": "fr",
+ "insurer_slug": "thelem",
+ "insurer_name": "Thélem assurances",
+ "branch": "auto",
+ "document_type": "ipid",
+ "language": "fr",
+ "source_url": "https://www.thelem-assurances.fr/wp-content/uploads/2025/12/Ipid-EC-2026.pdf",
+ "product_name": "Assurance Engins de chantiers et de manutention",
+ "product_family": "Assurance Engins de chantiers et de manutention",
+ "variant": null,
+ "reference": null,
+ "edition_date": null,
+ "target_audience": "entreprises",
+ "branch_code": null,
+ "is_extension": false,
+ "extends": null,
+ "superseded": null,
+ "source_pages": 2,
+ "source_pdf": "assurance-engins-de-chantiers-7506f16d.pdf",
+ "source_sha256": "171f08820bae15949956c9d983c70e4d8f452163a341fc1837061446de653f9c",
+ "fetched_at": "2026-07-30",
+ "extraction_model": "claude-code-subagent:scale",
+ "summary": "L’assurance Engins de chantiers a pour objectif de garantir le souscripteur d’un véhicule « engins de chantiers » contre les conséquences des dommages matériels ou corporels causés par son véhicule à un tiers (responsabilité civile). C’est une assurance obligatoire. Ce contrat inclut également la couverture des dommages corporels du conducteur. Selon les formules souscrites, ce contrat couvre aussi les dommages matériels du véhicule assuré.",
+ "definitions": [],
+ "coverages": [
+  {
+   "name": "Responsabilité civile circulation",
+   "description": "Responsabilité civile circulation : dommages causés aux tiers par le véhicule. Garantie relevant de la responsabilité civile et défense des droits.",
+   "is_optional": false,
+   "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l’UE, Andorre, Monaco, Saint Marin, Liechtenstein et tous les pays non rayés sur la carte verte",
+   "limits": "plafond illimité pour les dommages corporels / 100 millions € pour les dommages matériels",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "C’est une assurance obligatoire",
+    "Pour les séjours de plus de 90 jours, seule la garantie Responsabilité Civile obligatoire est accordée"
+   ],
+   "page": 1
   },
-  "waiting_periods": [],
-  "obligations": [
-    {
-      "description": "Répondre exactement aux questions posées, notamment dans le formulaire de déclaration du risque, nous permettant d’apprécier le risque.",
-      "timing": "A la souscription du contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
-      "page": 2
-    },
-    {
-      "description": "Fournir tous les documents justificatifs demandés.",
-      "timing": "A la souscription du contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
-      "page": 2
-    },
-    {
-      "description": "Déclarer toutes les circonstances nouvelles qui modifient les informations fournies lors de la souscription.",
-      "timing": "En cours de contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
-      "page": 2
-    },
-    {
-      "description": "Régler les cotisations à la date convenue.",
-      "timing": "En cours de contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
-      "page": 2
-    },
-    {
-      "description": "Déclarer tout sinistre dès que vous en avez connaissance et au plus tard dans le délai fixé par le contrat.",
-      "timing": "En cas de sinistre",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
-      "page": 2
-    },
-    {
-      "description": "En cas de vol, déposer plainte auprès des autorités compétentes et fournir l’original de ce dépôt.",
-      "timing": "En cas de sinistre",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
-      "page": 2
-    },
-    {
-      "description": "Réparer le véhicule avec des pièces ou accessoires agréés (mesure de prévention).",
-      "timing": "En cours de contrat",
-      "sanction": "Franchise de 30% du montant des dommages si inobservation des mesures de prévention",
-      "page": 1
-    },
-    {
-      "description": "Réaliser son entretien selon les préconisations du constructeur (mesure de prévention).",
-      "timing": "En cours de contrat",
-      "sanction": "Franchise de 30% du montant des dommages si inobservation des mesures de prévention",
-      "page": 1
-    }
-  ],
-  "claims_procedure": [
-    {
-      "step": "Déclarer tout sinistre dès que vous en avez connaissance",
-      "deadline": "au plus tard dans le délai fixé par le contrat",
-      "page": 2
-    },
-    {
-      "step": "En cas de vol, déposer plainte auprès des autorités compétentes et fournir l’original de ce dépôt",
-      "deadline": null,
-      "page": 2
-    }
-  ],
-  "duration_and_cancellation": {
-    "duration": "Le contrat prend effet à la date et l’heure indiquée aux Conditions Particulières. Le contrat est souscrit jusqu’à la prochaine échéance principale. S’il s’agit d’un contrat temporaire, la mention et la date d’expiration sont portées sur les Conditions Particulières.",
-    "tacit_renewal": true,
-    "methods": [
-      "par lettre recommandée",
-      "par une déclaration faite contre récépissé à notre siège ou auprès de votre assureur conseil"
-    ],
-    "special_rights": [
-      "lors de la survenance de certains événements (vente du véhicule, changement de profession…)",
-      "dans les cas prévus par la réglementation et les dispositions générales de votre contrat"
-    ],
-    "page": 2,
-    "notice_period": "à l’échéance principale moyennant un préavis de 2 mois"
+  {
+   "name": "Responsabilité civile travaux",
+   "description": "Responsabilité civile travaux : dommages causés aux tiers par le véhicule lorsque celui-ci est utilisé en tant qu’outil. Garantie relevant de la responsabilité civile et défense des droits.",
+   "is_optional": false,
+   "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l’UE, Andorre, Monaco, Saint Marin, Liechtenstein et tous les pays non rayés sur la carte verte",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": "Une franchise spécifique est appliquée lorsque le sinistre résulte de travaux (RC Travaux)",
+   "conditions": [
+    "lorsque celui-ci est utilisé en tant qu’outil"
+   ],
+   "page": 1
   },
-  "prescription_period": null,
-  "premium": {
-    "description": "La cotisation annuelle (ainsi que les frais, taxes et contributions fixées par l’Etat) se paie à la date ou aux dates indiquées sur les Conditions Particulières.",
-    "payment_frequency": "Annuelle ; un paiement fractionné peut toutefois être accordé au choix (Semestriel, Mensuel)",
-    "payment_methods": [
-      "carte bancaire",
-      "chèque",
-      "prélèvement automatique"
-    ],
-    "page": 2
+  {
+   "name": "Responsabilité civile Atteintes à l’environnement",
+   "description": "Responsabilité civile Atteintes à l’environnement. Garantie relevant de la responsabilité civile et défense des droits.",
+   "is_optional": false,
+   "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l’UE, Andorre, Monaco, Saint Marin, Liechtenstein et tous les pays non rayés sur la carte verte",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
   },
-  "special_conditions": [
-    {
-      "name": "Véhicules assurables",
-      "description": "Les véhicules terrestres à moteur de type engins de chantiers ou de manutention utilisés par des professionnels (notamment artisans, entreprises, agriculteurs).",
-      "page": 1
-    },
-    {
-      "name": "Restriction – Non-respect des conditions de sécurité",
-      "description": "Une réduction de 30% de l’indemnisation des dommages corporels si l’assuré ne respecte pas les conditions de sécurité au moment de l’accident.",
-      "page": 1
-    },
-    {
-      "name": "Restriction – Franchise RC Travaux",
-      "description": "Une franchise spécifique est appliquée lorsque le sinistre résulte de travaux (RC Travaux).",
-      "page": 1
-    },
-    {
-      "name": "Restriction – Franchise sur certaines garanties",
-      "description": "Une somme peut rester à la charge de l’assuré (franchise) notamment pour les garanties Vol, Incendie, Bris de glaces, Dommages subis par l’assuré.",
-      "page": 1
-    },
-    {
-      "name": "Restriction – Franchise bris mécanique de cause humaine",
-      "description": "Franchise de 30% du montant des dommages si le bris mécanique résulte d’une cause humaine.",
-      "page": 1
-    },
-    {
-      "name": "Restriction – Franchise en cas d’inobservation des mesures de prévention",
-      "description": "Franchise de 30% du montant des dommages si inobservation des mesures de prévention : Réparer le véhicule avec des pièces ou accessoires agréés ; Réaliser son entretien selon les préconisations du constructeur.",
-      "page": 1
-    },
-    {
-      "name": "Séjours de plus de 90 jours",
-      "description": "Pour les séjours de plus de 90 jours, seule la garantie Responsabilité Civile obligatoire est accordée.",
-      "page": 2
-    },
-    {
-      "name": "Portée du document",
-      "description": "Ce document d’information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l’information complète sur ce produit dans la documentation précontractuelle et contractuelle.",
-      "page": 1
-    }
+  {
+   "name": "Défense Pénale et Recours Suite à Accident",
+   "description": "Défense Pénale et Recours Suite à Accident : défense de l’assuré suite à un accident garanti jusqu’à 16 000 €.",
+   "is_optional": false,
+   "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l’UE, Andorre, Monaco, Saint Marin, Liechtenstein et tous les pays non rayés sur la carte verte",
+   "limits": "jusqu’à 16 000 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "suite à un accident garanti"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Protection du conducteur",
+   "description": "Protection du conducteur : dommages corporels du conducteur responsable jusqu’à 600 000 € sans franchise. Garantie relevant des dommages corporels.",
+   "is_optional": false,
+   "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l’UE, Andorre, Monaco, Saint Marin, Liechtenstein et tous les pays non rayés sur la carte verte",
+   "limits": "jusqu’à 600 000 €",
+   "sub_limits": [],
+   "deductible": "sans franchise",
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Dommages au véhicule – Bris de glaces",
+   "description": "Garantie et service optionnel Dommages au véhicule : Bris de glaces.",
+   "is_optional": true,
+   "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l’UE, Andorre, Monaco, Saint Marin, Liechtenstein et tous les pays non rayés sur la carte verte",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": "Une somme peut rester à la charge de l’assuré (franchise) notamment pour les garanties Vol, Incendie, Bris de glaces, Dommages subis par l’assuré",
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Dommages au véhicule – Catastrophes naturelles",
+   "description": "Garantie et service optionnel Dommages au véhicule : Catastrophes naturelles.",
+   "is_optional": true,
+   "territorial_scope": "Pour la garantie Catastrophes naturelles : selon arrêté interministériel constatant l’état de catastrophes naturelles",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "selon arrêté interministériel constatant l’état de catastrophes naturelles"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Dommages au véhicule – Attentats",
+   "description": "Garantie et service optionnel Dommages au véhicule : Attentats.",
+   "is_optional": true,
+   "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l’UE, Andorre, Monaco, Saint Marin, Liechtenstein et tous les pays non rayés sur la carte verte",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Dommages au véhicule – Tempête, grêle, neige",
+   "description": "Garantie et service optionnel Dommages au véhicule : Tempête, grêle, neige.",
+   "is_optional": true,
+   "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l’UE, Andorre, Monaco, Saint Marin, Liechtenstein et tous les pays non rayés sur la carte verte",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Dommages au véhicule – Incendie",
+   "description": "Garantie et service optionnel Dommages au véhicule : Incendie.",
+   "is_optional": true,
+   "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l’UE, Andorre, Monaco, Saint Marin, Liechtenstein et tous les pays non rayés sur la carte verte",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": "Une somme peut rester à la charge de l’assuré (franchise) notamment pour les garanties Vol, Incendie, Bris de glaces, Dommages subis par l’assuré",
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Dommages au véhicule – Dommages électroniques",
+   "description": "Garantie et service optionnel Dommages au véhicule : Dommages électroniques.",
+   "is_optional": true,
+   "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l’UE, Andorre, Monaco, Saint Marin, Liechtenstein et tous les pays non rayés sur la carte verte",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Dommages au véhicule – Vol et tentative de vol",
+   "description": "Garantie et service optionnel Dommages au véhicule : Vol et tentative de vol.",
+   "is_optional": true,
+   "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l’UE, Andorre, Monaco, Saint Marin, Liechtenstein et tous les pays non rayés sur la carte verte",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": "Une somme peut rester à la charge de l’assuré (franchise) notamment pour les garanties Vol, Incendie, Bris de glaces, Dommages subis par l’assuré",
+   "conditions": [
+    "En cas de vol, déposer plainte auprès des autorités compétentes et fournir l’original de ce dépôt"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Dommages au véhicule – Dommages tous accidents et vandalisme",
+   "description": "Garantie et service optionnel Dommages au véhicule : Dommages tous accidents et vandalisme.",
+   "is_optional": true,
+   "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l’UE, Andorre, Monaco, Saint Marin, Liechtenstein et tous les pays non rayés sur la carte verte",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Dommages au véhicule – Bris mécaniques",
+   "description": "Garantie et service optionnel Dommages au véhicule : Bris mécaniques.",
+   "is_optional": true,
+   "territorial_scope": "Pour les dommages impliquant le véhicule : France métropolitaine, états membres de l’UE, Andorre, Monaco, Saint Marin, Liechtenstein et tous les pays non rayés sur la carte verte",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": "Franchise de 30% du montant des dommages si le bris mécanique résulte d’une cause humaine",
+   "conditions": [],
+   "page": 1
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Véhicules non homologués",
+   "description": "Les véhicules non homologués.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Véhicules dont les caractéristiques ont été modifiées",
+   "description": "Les dommages subis par le véhicule assuré dont les caractéristiques auraient été modifiées dans le but d’augmenter la puissance ou la destination de l’engin.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Le fait intentionnel",
+   "description": "Le fait intentionnel : les dommages que l’assuré cause intentionnellement. Exclusion légale.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Le défaut de permis de conduire ou de CACES",
+   "description": "Le défaut de permis de conduire lorsqu’au moment du sinistre, le conducteur n’a pas l’âge requis ou ne possède pas de permis de conduire en état de validité ou de CACES en cours de validité et correspondant à l’engin utilisé. Exclusion légale.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "La conduite sous l’emprise de l’alcool ou de stupéfiants et tout délit de fuite",
+   "description": "La conduite sous l’emprise de l’alcool ou de stupéfiants et tout délit de fuite : exclusion des dommages au véhicule, de la défense de l’assuré et des dommages corporels du conducteur responsable. Exclusion légale.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Dispositifs de sécurité modifiés, neutralisés ou supprimés",
+   "description": "Les dommages subis par le véhicule assuré lorsque les dispositifs de sécurité ont été modifiés, neutralisés ou supprimés.",
+   "applies_to": "all",
+   "page": 1
+  }
+ ],
+ "deductibles": {
+  "standard": null,
+  "variable": "Une somme peut rester à la charge de l’assuré (franchise) notamment pour les garanties Vol, Incendie, Bris de glaces, Dommages subis par l’assuré.",
+  "per_coverage": {
+   "Responsabilité civile travaux": "",
+   "Dommages au véhicule – Bris mécaniques": "",
+   "Protection du conducteur": ""
+  },
+  "page": 1
+ },
+ "waiting_periods": [],
+ "obligations": [
+  {
+   "description": "Répondre exactement aux questions posées, notamment dans le formulaire de déclaration du risque, nous permettant d’apprécier le risque.",
+   "timing": "A la souscription du contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+   "page": 2
+  },
+  {
+   "description": "Fournir tous les documents justificatifs demandés.",
+   "timing": "A la souscription du contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+   "page": 2
+  },
+  {
+   "description": "Déclarer toutes les circonstances nouvelles qui modifient les informations fournies lors de la souscription.",
+   "timing": "En cours de contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+   "page": 2
+  },
+  {
+   "description": "Régler les cotisations à la date convenue.",
+   "timing": "En cours de contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+   "page": 2
+  },
+  {
+   "description": "Déclarer tout sinistre dès que vous en avez connaissance et au plus tard dans le délai fixé par le contrat.",
+   "timing": "En cas de sinistre",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+   "page": 2
+  },
+  {
+   "description": "En cas de vol, déposer plainte auprès des autorités compétentes et fournir l’original de ce dépôt.",
+   "timing": "En cas de sinistre",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+   "page": 2
+  },
+  {
+   "description": "Réparer le véhicule avec des pièces ou accessoires agréés (mesure de prévention).",
+   "timing": "En cours de contrat",
+   "sanction": "Franchise de 30% du montant des dommages si inobservation des mesures de prévention",
+   "page": 1
+  },
+  {
+   "description": "Réaliser son entretien selon les préconisations du constructeur (mesure de prévention).",
+   "timing": "En cours de contrat",
+   "sanction": "Franchise de 30% du montant des dommages si inobservation des mesures de prévention",
+   "page": 1
+  }
+ ],
+ "claims_procedure": [
+  {
+   "step": "Déclarer tout sinistre dès que vous en avez connaissance",
+   "deadline": "au plus tard dans le délai fixé par le contrat",
+   "page": 2
+  },
+  {
+   "step": "En cas de vol, déposer plainte auprès des autorités compétentes et fournir l’original de ce dépôt",
+   "deadline": null,
+   "page": 2
+  }
+ ],
+ "duration_and_cancellation": {
+  "duration": "Le contrat prend effet à la date et l’heure indiquée aux Conditions Particulières. Le contrat est souscrit jusqu’à la prochaine échéance principale. S’il s’agit d’un contrat temporaire, la mention et la date d’expiration sont portées sur les Conditions Particulières.",
+  "tacit_renewal": true,
+  "methods": [
+   "par lettre recommandée",
+   "par une déclaration faite contre récépissé à notre siège ou auprès de votre assureur conseil"
   ],
-  "key_quotes": [
-    {
-      "quote": "L’assurance Engins de chantiers a pour objectif de garantir le souscripteur d’un véhicule « engins de chantiers » contre les conséquences des dommages matériels ou corporels causés par son véhicule à un tiers (responsabilité civile)."
-    },
-    {
-      "quote": "Les véhicules terrestres à moteur de type engins de chantiers ou de manutention utilisés par des professionnels (notamment artisans, entreprises, agriculteurs)."
-    },
-    {
-      "quote": "Responsabilité civile travaux : dommages causés aux tiers par le véhicule lorsque celui-ci est utilisé en tant qu’outil,"
-    },
-    {
-      "quote": "Protection du conducteur : dommages corporels du conducteur responsable jusqu’à 600 000 € sans franchise,"
-    },
-    {
-      "quote": "le fait intentionnel : les dommages que l’assuré cause intentionnellement,"
-    },
-    {
-      "quote": "Les dommages subis par le véhicule assuré lorsque les dispositifs de sécurité ont été modifiés, neutralisés ou supprimés"
-    },
-    {
-      "quote": "Une franchise spécifique est appliquée lorsque le sinistre résulte de travaux (RC Travaux),"
-    },
-    {
-      "quote": "Franchise de 30% du montant des dommages si le bris mécanique résulte d’une cause humaine"
-    }
+  "special_rights": [
+   "lors de la survenance de certains événements (vente du véhicule, changement de profession…)",
+   "dans les cas prévus par la réglementation et les dispositions générales de votre contrat"
   ],
-  "gaps": [
-    "Le document ne comporte aucune date d’édition ni référence contractuelle imprimée : `edition_date`, `reference` et `branch_code` sont laissés null (le nom du fichier source mentionne « 2026 », mais cette information n’apparaît pas dans le texte du document).",
-    "IPID : aucune section « Définitions » ; `definitions` est donc vide.",
-    "Aucun délai de prescription n’est mentionné : `prescription_period` est null.",
-    "Les montants de franchise ne sont chiffrés que partiellement : « une franchise spécifique » (RC Travaux) et « une somme peut rester à la charge de l’assuré » ne sont pas quantifiées dans le document.",
-    "`target_audience` fixé à « entreprises » : le document vise les professionnels et cite « notamment artisans, entreprises, agriculteurs », plusieurs catégories que l’énumération du schéma ne permet pas de restituer simultanément.",
-    "Les garanties optionnelles sont énumérées en une seule liste sous « Dommages au véhicule » ; elles ont été éclatées en garanties distinctes, sans que le document précise de plafond propre à chacune.",
-    "La page 2 ne contient que les rubriques « Où suis-je couvert ? », « Quelles sont mes obligations ? », « Quand et comment effectuer les paiements ? », « Quand commence la couverture… » et « Comment puis-je resilier le contrat ? » ; aucune autre information exploitable.",
-    "Aucune prestation d’assistance n’est mentionnée dans ce document."
-  ]
+  "page": 2,
+  "notice_period": "à l’échéance principale moyennant un préavis de 2 mois"
+ },
+ "prescription_period": null,
+ "premium": {
+  "description": "La cotisation annuelle (ainsi que les frais, taxes et contributions fixées par l’Etat) se paie à la date ou aux dates indiquées sur les Conditions Particulières.",
+  "payment_frequency": "Annuelle ; un paiement fractionné peut toutefois être accordé au choix (Semestriel, Mensuel)",
+  "payment_methods": [
+   "carte bancaire",
+   "chèque",
+   "prélèvement automatique"
+  ],
+  "page": 2
+ },
+ "special_conditions": [
+  {
+   "name": "Véhicules assurables",
+   "description": "Les véhicules terrestres à moteur de type engins de chantiers ou de manutention utilisés par des professionnels (notamment artisans, entreprises, agriculteurs).",
+   "page": 1
+  },
+  {
+   "name": "Restriction – Non-respect des conditions de sécurité",
+   "description": "Une réduction de 30% de l’indemnisation des dommages corporels si l’assuré ne respecte pas les conditions de sécurité au moment de l’accident.",
+   "page": 1
+  },
+  {
+   "name": "Restriction – Franchise RC Travaux",
+   "description": "Une franchise spécifique est appliquée lorsque le sinistre résulte de travaux (RC Travaux).",
+   "page": 1
+  },
+  {
+   "name": "Restriction – Franchise sur certaines garanties",
+   "description": "Une somme peut rester à la charge de l’assuré (franchise) notamment pour les garanties Vol, Incendie, Bris de glaces, Dommages subis par l’assuré.",
+   "page": 1
+  },
+  {
+   "name": "Restriction – Franchise bris mécanique de cause humaine",
+   "description": "Franchise de 30% du montant des dommages si le bris mécanique résulte d’une cause humaine.",
+   "page": 1
+  },
+  {
+   "name": "Restriction – Franchise en cas d’inobservation des mesures de prévention",
+   "description": "Franchise de 30% du montant des dommages si inobservation des mesures de prévention : Réparer le véhicule avec des pièces ou accessoires agréés ; Réaliser son entretien selon les préconisations du constructeur.",
+   "page": 1
+  },
+  {
+   "name": "Séjours de plus de 90 jours",
+   "description": "Pour les séjours de plus de 90 jours, seule la garantie Responsabilité Civile obligatoire est accordée.",
+   "page": 2
+  },
+  {
+   "name": "Portée du document",
+   "description": "Ce document d’information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l’information complète sur ce produit dans la documentation précontractuelle et contractuelle.",
+   "page": 1
+  }
+ ],
+ "key_quotes": [
+  {
+   "quote": "L’assurance Engins de chantiers a pour objectif de garantir le souscripteur d’un véhicule « engins de chantiers » contre les conséquences des dommages matériels ou corporels causés par son véhicule à un tiers (responsabilité civile)."
+  },
+  {
+   "quote": "Les véhicules terrestres à moteur de type engins de chantiers ou de manutention utilisés par des professionnels (notamment artisans, entreprises, agriculteurs)."
+  },
+  {
+   "quote": "Responsabilité civile travaux : dommages causés aux tiers par le véhicule lorsque celui-ci est utilisé en tant qu’outil,"
+  },
+  {
+   "quote": "Protection du conducteur : dommages corporels du conducteur responsable jusqu’à 600 000 € sans franchise,"
+  },
+  {
+   "quote": "le fait intentionnel : les dommages que l’assuré cause intentionnellement,"
+  },
+  {
+   "quote": "Les dommages subis par le véhicule assuré lorsque les dispositifs de sécurité ont été modifiés, neutralisés ou supprimés"
+  },
+  {
+   "quote": "Une franchise spécifique est appliquée lorsque le sinistre résulte de travaux (RC Travaux),"
+  },
+  {
+   "quote": "Franchise de 30% du montant des dommages si le bris mécanique résulte d’une cause humaine"
+  }
+ ],
+ "gaps": [
+  "Le document ne comporte aucune date d’édition ni référence contractuelle imprimée : `edition_date`, `reference` et `branch_code` sont laissés null (le nom du fichier source mentionne « 2026 », mais cette information n’apparaît pas dans le texte du document).",
+  "IPID : aucune section « Définitions » ; `definitions` est donc vide.",
+  "Aucun délai de prescription n’est mentionné : `prescription_period` est null.",
+  "Les montants de franchise ne sont chiffrés que partiellement : « une franchise spécifique » (RC Travaux) et « une somme peut rester à la charge de l’assuré » ne sont pas quantifiées dans le document.",
+  "`target_audience` fixé à « entreprises » : le document vise les professionnels et cite « notamment artisans, entreprises, agriculteurs », plusieurs catégories que l’énumération du schéma ne permet pas de restituer simultanément.",
+  "Les garanties optionnelles sont énumérées en une seule liste sous « Dommages au véhicule » ; elles ont été éclatées en garanties distinctes, sans que le document précise de plafond propre à chacune.",
+  "La page 2 ne contient que les rubriques « Où suis-je couvert ? », « Quelles sont mes obligations ? », « Quand et comment effectuer les paiements ? », « Quand commence la couverture… » et « Comment puis-je resilier le contrat ? » ; aucune autre information exploitable.",
+  "Aucune prestation d’assistance n’est mentionnée dans ce document.",
+  "edition_date remise a null le 2026-08-01: la valeur 2026 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5."
+ ]
 }

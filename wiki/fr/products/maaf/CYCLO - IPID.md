@@ -10,7 +10,7 @@ document_type: ipid
 target_audience: null
 target_audience_note: null
 reference: AUT11019
-edition_date: 2025-06
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/moto
@@ -26,7 +26,7 @@ prompt_version: '1.1'
 product_family: assurance-vehicule
 variant: CYCLO
 edition_status: null
-edition_age_years: 1
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-08-01'
@@ -40,7 +40,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de l'Assurance Véhicule de MAAF Assurances SA, formule CYCLO. Le contrat a pour objectif premier de garantir le conducteur du véhicule contre les conséquences des dommages matériels ou corporels causés par le véhicule à des tiers (Responsabilité civile), assurance obligatoire ; il couvre également les dommages corporels du conducteur et peut inclure des garanties couvrant les dommages matériels au véhicule assuré. Les véhicules assurables sont les cyclomoteurs à 2 ou 3 roues, quads et side-cars d'une cylindrée inférieure ou égale à 80 cm3. Les garanties Dommages au véhicule assuré (vol, incendie, explosion, attentat, événements climatiques, catastrophes naturelles, tierce collision, dommages tous accidents) sont optionnelles.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Deux-roues, quads et voiturettes](../../branches/Deux-roues%2C%20quads%20et%20voiturettes.md) · Type : IPID / Fiche d'information · Édition : 2025-06
+- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Deux-roues, quads et voiturettes](../../branches/Deux-roues%2C%20quads%20et%20voiturettes.md) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -169,6 +169,7 @@ Garantie optionnelle listée sous « Les garanties optionnelles : Garanties Domm
 - Mise en page : la couche texte du PDF restitue les blocs dans un ordre différent de la mise en page visuelle (les deux titres de colonnes précèdent leurs contenus). L'affectation des puces à « Qu'est-ce qui est assuré ? », « Qu'est-ce qui n'est pas assuré ? » et « Y a-t-il des exclusions à la couverture ? » a été confirmée sur un rendu image de la page 1 (fitz, 130 dpi).
 - Les coches vertes, croix rouges et « ! » de cet IPID sont des puces décoratives de la couche graphique marquant chaque item de liste ; il n'y a aucun tableau de garanties à colonnes de formules dans ce document, donc aucune matrice d'appartenance à reconstituer.
 - Le texte imprime « Le transport de personnes  à titre onéreux » avec une double espace ; conservée verbatim dans la description de l'exclusion.
+- edition_date remise a null le 2026-08-01: la valeur 2025-06 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

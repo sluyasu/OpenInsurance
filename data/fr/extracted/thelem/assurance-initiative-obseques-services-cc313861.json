@@ -1,486 +1,487 @@
 {
-  "schema_version": "1.0",
-  "prompt_version": "1.1",
-  "country": "fr",
-  "insurer_slug": "thelem",
-  "insurer_name": "Thélem assurances",
-  "product_name": "Assurance Initiative Obsèques Services",
-  "branch": "obseques",
-  "branch_code": null,
-  "document_type": "ipid",
-  "language": "fr",
-  "target_audience": "particuliers",
-  "target_audience_note": "l’assuré doit être âgé, à la souscription, d’au moins 18 ans et au maximum de 82 ans. Il doit résider sur le territoire métropolitain ou dans les départements d’Outre-Mer.",
-  "reference": null,
-  "edition_date": "2026",
-  "product_family": "Initiative Obsèques",
-  "variant": "Services",
-  "is_extension": false,
-  "extends": null,
-  "superseded": null,
-  "source_url": "https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TP_IOS-418-2026.pdf",
-  "source_pdf": "assurance-initiative-obseques-services-cc313861.pdf",
-  "source_sha256": "aea41ae5aae88551fb0d75ac3a6bfeb2952f0d6608dd2f3aa9a8ff295e3eb27f",
-  "source_pages": 2,
-  "fetched_at": "2026-07-30",
-  "extraction_model": "claude-code-subagent:scale",
-  "summary": "L’assurance Initiative Obsèques Services est un contrat de type « Vie Entière » qui prévoit le financement des prestations funéraires, porté par Thélem Prévoyance, et l’organisation des obsèques, réalisée par Le Choix Funéraire. L’assuré personnalise sa formule avec les services suivants : préparation et organisation des obsèques, transport du défunt, choix du cercueil et de la cérémonie funéraire ; le montant du capital est fonction des prestations choisies (3 500 €, 4 500 € ou 6 000 €). Le bénéficiaire est Le Choix Funéraire (SA UDIFE) et les garanties ne sont soumises à aucune sélection médicale, la cotisation étant fixe dans le temps et payable sur 10, 15, 20 ou 25 ans ou de manière viagère. Le contrat comprend également des prestations d’assistance (rapatriement du corps, aide-ménagère, garde des enfants et des animaux de compagnie, accompagnement psychologique, assistance téléphonique).",
-  "definitions": [
-    {
-      "term": "Assuré",
-      "definition": "l’assuré doit être âgé, à la souscription, d’au moins 18 ans et au maximum de 82 ans. Il doit résider sur le territoire métropolitain ou dans les départements d’Outre-Mer.",
-      "page": 1
-    },
-    {
-      "term": "Bénéficiaire",
-      "definition": "il s’agit du Choix Funéraire (SA UDIFE – 22490 PLESTIN TRIVAGOU – www.le-choix-funéraire.com– habilitation n°12221106, immatriculée au RCS de Saint Malo sous le n° 384 721 619).",
-      "page": 1
-    },
-    {
-      "term": "Revalorisation",
-      "definition": "l’assureur distribue, tous les ans, les bénéfices techniques et financiers suivant les dispositions réglementaires en vigueur.",
-      "page": 1
-    },
-    {
-      "term": "Rachat",
-      "definition": "l’assuré peut aussi racheter son contrat à tout moment. Il lui sera alors restitué une somme appelée « provisions mathématiques ». Le rachat met fin au contrat (contrat d’assurance et contrat de prestations).",
-      "page": 2
-    },
-    {
-      "term": "Mise en réduction",
-      "definition": "sous conditions, l’assuré peut arrêter le paiement des cotisations sans effectuer de rachat. Les garanties du contrat sont alors « réduites » en proportion des cotisations déjà versées, mais continuent d’exister. Elle a comme conséquence de supprimer l’organisation des prestations par Le Choix Funéraire.",
-      "page": 2
-    }
-  ],
-  "coverages": [
-    {
-      "name": "Préparation et organisation des obsèques",
-      "description": "L’assuré peut personnaliser sa formule avec les services suivants : Préparation et organisation des obsèques.",
-      "is_optional": false,
-      "territorial_scope": "France métropolitaine (Corse exclue)",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Ces garanties ne sont soumises à aucune sélection médicale"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Transport du défunt",
-      "description": "L’assuré peut personnaliser sa formule avec les services suivants : Transport du défunt.",
-      "is_optional": false,
-      "territorial_scope": "France métropolitaine (Corse exclue)",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Ces garanties ne sont soumises à aucune sélection médicale"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Choix du cercueil et de la cérémonie funéraire",
-      "description": "L’assuré peut personnaliser sa formule avec les services suivants : Choix du cercueil et de la cérémonie funéraire.",
-      "is_optional": false,
-      "territorial_scope": "France métropolitaine (Corse exclue)",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Ces garanties ne sont soumises à aucune sélection médicale"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Montant du capital",
-      "description": "Le montant du capital est fonction du choix des prestations choisies : 3 500 €, 4 500 € ou 6 000 €.",
-      "is_optional": false,
-      "territorial_scope": "France métropolitaine (Corse exclue)",
-      "limits": "3 500 €, 4 500 € ou 6 000 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Le montant du capital est fonction du choix des prestations choisies"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Possibilité de changer de formule et de bénéficiaire en cours de contrat",
-      "description": "Possibilité de changer de formule et de bénéficiaire en cours de contrat.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Organisation des obsèques par Le Choix Funéraire",
-      "description": "L’organisation des obsèques est réalisée par Le Choix Funéraire (SA UDIFE – 22490 PLESTIN TRIVAGOU – www.le-choix-funéraire.com).",
-      "is_optional": false,
-      "territorial_scope": "France métropolitaine (Corse exclue)",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "La cotisation",
-      "description": "La cotisation : est fixe dans le temps.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Paiement des cotisations",
-      "description": "Paiement des cotisations : se fait sur une période de 10, 15, 20 ou 25 ans (paiement temporaire) ou durant toute la vie de l’assuré (paiement viager).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [
-        "10, 15, 20 ou 25 ans (paiement temporaire)",
-        "durant toute la vie de l’assuré (paiement viager)"
-      ],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Revalorisation",
-      "description": "Revalorisation : l’assureur distribue, tous les ans, les bénéfices techniques et financiers suivant les dispositions réglementaires en vigueur.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Assistance - Rapatriement du corps",
-      "description": "Rapatriement du corps.",
-      "is_optional": false,
-      "territorial_scope": "France métropolitaine (Corse exclue) ; les garanties Assistance sont acquises pour des séjours n’excédant pas 90 jours dans le reste du monde",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Les prestations d’assistance sont garanties pendant toute la durée du contrat sauf en cas de réduction du capital garanti"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Assistance - Aide-ménagère",
-      "description": "Aide-ménagère : 3 heures par jour pendant les 10 jours suivant le décès.",
-      "is_optional": false,
-      "territorial_scope": "France métropolitaine (Corse exclue) ; les garanties Assistance sont acquises pour des séjours n’excédant pas 90 jours dans le reste du monde",
-      "limits": "3 heures par jour pendant les 10 jours suivant le décès",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Les prestations d’assistance sont garanties pendant toute la durée du contrat sauf en cas de réduction du capital garanti"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Assistance - Garde des enfants et petits-enfants",
-      "description": "Garde des enfants et petits-enfants pendant 2 jours.",
-      "is_optional": false,
-      "territorial_scope": "France métropolitaine (Corse exclue) ; les garanties Assistance sont acquises pour des séjours n’excédant pas 90 jours dans le reste du monde",
-      "limits": "pendant 2 jours",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Les prestations d’assistance sont garanties pendant toute la durée du contrat sauf en cas de réduction du capital garanti"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Assistance - Garde des animaux de compagnie (chiens et chats)",
-      "description": "Garde des animaux de compagnie (chiens et chats) : 10 jours maximum.",
-      "is_optional": false,
-      "territorial_scope": "France métropolitaine (Corse exclue) ; les garanties Assistance sont acquises pour des séjours n’excédant pas 90 jours dans le reste du monde",
-      "limits": "10 jours maximum",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Les prestations d’assistance sont garanties pendant toute la durée du contrat sauf en cas de réduction du capital garanti"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Assistance - Accompagnement psychologique",
-      "description": "Accompagnement psychologique.",
-      "is_optional": false,
-      "territorial_scope": "France métropolitaine (Corse exclue) ; les garanties Assistance sont acquises pour des séjours n’excédant pas 90 jours dans le reste du monde",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Les prestations d’assistance sont garanties pendant toute la durée du contrat sauf en cas de réduction du capital garanti"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Assistance téléphonique, résolution des questions administratives et juridiques, mise à disposition de courriers types",
-      "description": "Assistance téléphonique, résolution des questions administratives et juridiques, mise à disposition de courriers types.",
-      "is_optional": false,
-      "territorial_scope": "France métropolitaine (Corse exclue) ; les garanties Assistance sont acquises pour des séjours n’excédant pas 90 jours dans le reste du monde",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Les prestations d’assistance sont garanties pendant toute la durée du contrat sauf en cas de réduction du capital garanti"
-      ],
-      "page": 1
-    }
-  ],
-  "exclusions": [
-    {
-      "name": "Suicide de l’assuré dans la première année",
-      "description": "Le suicide de l’assuré dans la première année qui suit la date d’effet de la souscription du contrat, ou de l’augmentation d’option pour le capital supplémentaire.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Fait intentionnellement causé ou provoqué par un bénéficiaire",
-      "description": "Les conséquences d’un fait intentionnellement causé ou provoqué par un bénéficiaire condamné à ce titre, en cas de décès de l’assuré.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Participation volontaire et violente à des rassemblements, manifestations, mouvements populaires, rixes, jeux et paris",
-      "description": "Les conséquences de la participation volontaire et violente de l’assuré à des rassemblements, manifestations sur la voie publique, à des mouvements populaires, rixes, jeux et paris.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Restriction - Délai d’attente en cas de décès suite à maladie",
-      "description": "Les indemnités sont versées après application des délais d’attente suivants : Décès suite à maladie : 1 an.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Restriction - Prestations d’assistance en cas de réduction du capital garanti",
-      "description": "Les prestations d’assistance sont garanties pendant toute la durée du contrat sauf en cas de réduction du capital garanti.",
-      "applies_to": "Prestations d’assistance",
-      "page": 1
-    },
-    {
-      "name": "Modification des prestations dont le coût excède le capital garanti",
-      "description": "Au moment des obsèques, toute demande de modification des prestations réalisées par Le Choix Funéraire, dont le coût excéderait le montant du capital garanti, serait facturé par le prestataire à la famille de l’assuré.",
-      "applies_to": "all",
-      "page": 1
-    }
-  ],
-  "deductibles": null,
-  "waiting_periods": [
-    {
-      "coverage": "Décès suite à maladie",
-      "duration": "1 an",
-      "description": "Les indemnités sont versées après application des délais d’attente suivants : Décès suite à maladie : 1 an.",
-      "page": 1
-    }
-  ],
-  "obligations": [
-    {
-      "name": "Répondre exactement aux questions posées",
-      "description": "Répondre exactement aux questions posées lors de la souscription afin d’apprécier les risques et fixer la cotisation.",
-      "timing": "A la souscription du contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
-      "page": 2
-    },
-    {
-      "name": "Déclarer les circonstances nouvelles",
-      "description": "Déclarer toutes les circonstances nouvelles qui modifient les informations fournies lors de la souscription.",
-      "timing": "En cours de contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
-      "page": 2
-    },
-    {
-      "name": "Régler les cotisations",
-      "description": "Régler les cotisations à la date convenue.",
-      "timing": "En cours de contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
-      "page": 2
-    },
-    {
-      "name": "Fournir les pièces justificatives en cas de décès",
-      "description": "En cas de décès de l’assuré, fournir les pièces justificatives : l’acte de décès, le certificat médical précisant la cause de décès, et une facture de prestations funéraires.",
-      "timing": "En cas de décès",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
-      "page": 2
-    }
-  ],
-  "claims_procedure": [
-    {
-      "step": "Fournir les pièces justificatives",
-      "description": "En cas de décès de l’assuré, fournir les pièces justificatives : l’acte de décès, le certificat médical précisant la cause de décès, et une facture de prestations funéraires.",
-      "deadline": null,
-      "page": 2
-    },
-    {
-      "step": "Application des délais d’attente avant versement",
-      "description": "Les indemnités sont versées après application des délais d’attente suivants : Décès suite à maladie : 1 an.",
-      "deadline": "1 an pour un décès suite à maladie",
-      "page": 1
-    },
-    {
-      "step": "Organisation des obsèques",
-      "description": "L’organisation des obsèques est réalisée par Le Choix Funéraire (SA UDIFE – 22490 PLESTIN TRIVAGOU – www.le-choix-funéraire.com).",
-      "deadline": null,
-      "page": 1
-    },
-    {
-      "step": "Modifications demandées au moment des obsèques",
-      "description": "Au moment des obsèques, toute demande de modification des prestations réalisées par Le Choix Funéraire, dont le coût excéderait le montant du capital garanti, serait facturé par le prestataire à la famille de l’assuré.",
-      "deadline": null,
-      "page": 1
-    }
-  ],
-  "duration_and_cancellation": {
-    "duration": "Le contrat prend effet à la date et l’heure indiquées aux Conditions Particulières. Le contrat est souscrit jusqu’à la prochaine échéance principale et est renouvelable par tacite reconduction à chaque nouvelle échéance principale avec les facultés de résiliation prévues. Le contrat prend fin de plein droit au décès de l’assuré.",
-    "tacit_renewal": true,
-    "notice_period": "Vous pouvez notamment mettre fin au contrat à l'échéance annuelle en respectant un préavis de deux mois.",
-    "methods": [
-      "par lettre ou tout autre support durable",
-      "par déclaration faite au siège social ou chez notre représentant",
-      "par acte extrajudiciaire",
-      "via la fonctionnalité mise en place sur le site internet",
-      "en cas de résiliation suite à modification de votre situation selon les termes des articles L113-16 et R.113-6 du Code des assurances, vous devrez notifier la résiliation par lettre recommandée (papier ou électronique) avec demande d'avis de réception"
-    ],
-    "special_rights": [
-      "L’assuré dispose d’un délai de renonciation de 30 jours dans tous les cas à compter de la conclusion du contrat.",
-      "Rachat : l’assuré peut aussi racheter son contrat à tout moment. Il lui sera alors restitué une somme appelée « provisions mathématiques ». Le rachat met fin au contrat (contrat d’assurance et contrat de prestations).",
-      "Mise en réduction : sous conditions, l’assuré peut arrêter le paiement des cotisations sans effectuer de rachat. Les garanties du contrat sont alors « réduites » en proportion des cotisations déjà versées, mais continuent d’exister. Elle a comme conséquence de supprimer l’organisation des prestations par Le Choix Funéraire.",
-      "Les cas de résiliation, les délais à respecter sont ceux prévus par la règlementation et précisés dans les Dispositions Générales.",
-      "Nous vous confirmerons par écrit la réception de la notification."
-    ],
-    "page": 2
+ "schema_version": "1.0",
+ "prompt_version": "1.1",
+ "country": "fr",
+ "insurer_slug": "thelem",
+ "insurer_name": "Thélem assurances",
+ "product_name": "Assurance Initiative Obsèques Services",
+ "branch": "obseques",
+ "branch_code": null,
+ "document_type": "ipid",
+ "language": "fr",
+ "target_audience": "particuliers",
+ "target_audience_note": "l’assuré doit être âgé, à la souscription, d’au moins 18 ans et au maximum de 82 ans. Il doit résider sur le territoire métropolitain ou dans les départements d’Outre-Mer.",
+ "reference": null,
+ "edition_date": null,
+ "product_family": "Initiative Obsèques",
+ "variant": "Services",
+ "is_extension": false,
+ "extends": null,
+ "superseded": null,
+ "source_url": "https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TP_IOS-418-2026.pdf",
+ "source_pdf": "assurance-initiative-obseques-services-cc313861.pdf",
+ "source_sha256": "aea41ae5aae88551fb0d75ac3a6bfeb2952f0d6608dd2f3aa9a8ff295e3eb27f",
+ "source_pages": 2,
+ "fetched_at": "2026-07-30",
+ "extraction_model": "claude-code-subagent:scale",
+ "summary": "L’assurance Initiative Obsèques Services est un contrat de type « Vie Entière » qui prévoit le financement des prestations funéraires, porté par Thélem Prévoyance, et l’organisation des obsèques, réalisée par Le Choix Funéraire. L’assuré personnalise sa formule avec les services suivants : préparation et organisation des obsèques, transport du défunt, choix du cercueil et de la cérémonie funéraire ; le montant du capital est fonction des prestations choisies (3 500 €, 4 500 € ou 6 000 €). Le bénéficiaire est Le Choix Funéraire (SA UDIFE) et les garanties ne sont soumises à aucune sélection médicale, la cotisation étant fixe dans le temps et payable sur 10, 15, 20 ou 25 ans ou de manière viagère. Le contrat comprend également des prestations d’assistance (rapatriement du corps, aide-ménagère, garde des enfants et des animaux de compagnie, accompagnement psychologique, assistance téléphonique).",
+ "definitions": [
+  {
+   "term": "Assuré",
+   "definition": "l’assuré doit être âgé, à la souscription, d’au moins 18 ans et au maximum de 82 ans. Il doit résider sur le territoire métropolitain ou dans les départements d’Outre-Mer.",
+   "page": 1
   },
-  "prescription_period": null,
-  "premium": {
-    "notes": [
-      "La cotisation : est fixe dans le temps.",
-      "Paiement des cotisations : se fait sur une période de 10, 15, 20 ou 25 ans (paiement temporaire) ou durant toute la vie de l’assuré (paiement viager).",
-      "La cotisation annuelle se paie à la date ou aux dates indiquées sur les Conditions Particulières.",
-      "Un paiement fractionné peut toutefois être accordé au choix (Mensuel, Trimestriel, Semestriel ou Annuel).",
-      "Les paiements peuvent être effectués par chèque ou prélèvement automatique.",
-      "Revalorisation : l’assureur distribue, tous les ans, les bénéfices techniques et financiers suivant les dispositions réglementaires en vigueur."
-    ],
-    "indexation": null,
-    "page": 2
+  {
+   "term": "Bénéficiaire",
+   "definition": "il s’agit du Choix Funéraire (SA UDIFE – 22490 PLESTIN TRIVAGOU – www.le-choix-funéraire.com– habilitation n°12221106, immatriculée au RCS de Saint Malo sous le n° 384 721 619).",
+   "page": 1
   },
-  "special_conditions": [
-    {
-      "name": "Type de contrat et articulation assurance / prestations",
-      "description": "Ce contrat prévoit le financement des prestations funéraires (contrat d’assurance porté par Thélem Prévoyance) et l’organisation des obsèques (prestations réalisées par Le Choix Funéraire). Le contrat est de type « Vie Entière » et il est en totale conformité avec la réglementation en vigueur.",
-      "page": 1
-    },
-    {
-      "name": "Conditions d’âge et de résidence de l’assuré",
-      "description": "L’assuré doit être âgé, à la souscription, d’au moins 18 ans et au maximum de 82 ans. Il doit résider sur le territoire métropolitain ou dans les départements d’Outre-Mer.",
-      "page": 1
-    },
-    {
-      "name": "Absence de sélection médicale",
-      "description": "Ces garanties ne sont soumises à aucune sélection médicale.",
-      "page": 1
-    },
-    {
-      "name": "Garanties systématiquement prévues",
-      "description": "Les garanties précédées d’une coche sont systématiquement prévues au contrat.",
-      "page": 1
-    },
-    {
-      "name": "Portée du document d’information",
-      "description": "Ce document d’information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l’information complète sur ce produit dans la documentation précontractuelle et contractuelle, et notamment dans la notice d’information.",
-      "page": 1
-    },
-    {
-      "name": "Assureur",
-      "description": "Thélem prévoyance, SA à conseil d’administration au capital de 18 000 870 € – Entreprise régie par le Code des assurances. Siège Social : Le Croc – BP 63130 – 45431 Chécy Cedex – immatriculée en France sous le n° RCS 539 477 059.",
-      "page": 1
-    },
-    {
-      "name": "Prestataire funéraire",
-      "description": "Le Choix Funéraire (SA UDIFE – 22490 PLESTIN TRIVAGOU – www.le-choix-funéraire.com– habilitation n°12221106, immatriculée au RCS de Saint Malo sous le n° 384 721 619).",
-      "page": 1
-    }
+  {
+   "term": "Revalorisation",
+   "definition": "l’assureur distribue, tous les ans, les bénéfices techniques et financiers suivant les dispositions réglementaires en vigueur.",
+   "page": 1
+  },
+  {
+   "term": "Rachat",
+   "definition": "l’assuré peut aussi racheter son contrat à tout moment. Il lui sera alors restitué une somme appelée « provisions mathématiques ». Le rachat met fin au contrat (contrat d’assurance et contrat de prestations).",
+   "page": 2
+  },
+  {
+   "term": "Mise en réduction",
+   "definition": "sous conditions, l’assuré peut arrêter le paiement des cotisations sans effectuer de rachat. Les garanties du contrat sont alors « réduites » en proportion des cotisations déjà versées, mais continuent d’exister. Elle a comme conséquence de supprimer l’organisation des prestations par Le Choix Funéraire.",
+   "page": 2
+  }
+ ],
+ "coverages": [
+  {
+   "name": "Préparation et organisation des obsèques",
+   "description": "L’assuré peut personnaliser sa formule avec les services suivants : Préparation et organisation des obsèques.",
+   "is_optional": false,
+   "territorial_scope": "France métropolitaine (Corse exclue)",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Ces garanties ne sont soumises à aucune sélection médicale"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Transport du défunt",
+   "description": "L’assuré peut personnaliser sa formule avec les services suivants : Transport du défunt.",
+   "is_optional": false,
+   "territorial_scope": "France métropolitaine (Corse exclue)",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Ces garanties ne sont soumises à aucune sélection médicale"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Choix du cercueil et de la cérémonie funéraire",
+   "description": "L’assuré peut personnaliser sa formule avec les services suivants : Choix du cercueil et de la cérémonie funéraire.",
+   "is_optional": false,
+   "territorial_scope": "France métropolitaine (Corse exclue)",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Ces garanties ne sont soumises à aucune sélection médicale"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Montant du capital",
+   "description": "Le montant du capital est fonction du choix des prestations choisies : 3 500 €, 4 500 € ou 6 000 €.",
+   "is_optional": false,
+   "territorial_scope": "France métropolitaine (Corse exclue)",
+   "limits": "3 500 €, 4 500 € ou 6 000 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Le montant du capital est fonction du choix des prestations choisies"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Possibilité de changer de formule et de bénéficiaire en cours de contrat",
+   "description": "Possibilité de changer de formule et de bénéficiaire en cours de contrat.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Organisation des obsèques par Le Choix Funéraire",
+   "description": "L’organisation des obsèques est réalisée par Le Choix Funéraire (SA UDIFE – 22490 PLESTIN TRIVAGOU – www.le-choix-funéraire.com).",
+   "is_optional": false,
+   "territorial_scope": "France métropolitaine (Corse exclue)",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "La cotisation",
+   "description": "La cotisation : est fixe dans le temps.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Paiement des cotisations",
+   "description": "Paiement des cotisations : se fait sur une période de 10, 15, 20 ou 25 ans (paiement temporaire) ou durant toute la vie de l’assuré (paiement viager).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [
+    "10, 15, 20 ou 25 ans (paiement temporaire)",
+    "durant toute la vie de l’assuré (paiement viager)"
+   ],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Revalorisation",
+   "description": "Revalorisation : l’assureur distribue, tous les ans, les bénéfices techniques et financiers suivant les dispositions réglementaires en vigueur.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Assistance - Rapatriement du corps",
+   "description": "Rapatriement du corps.",
+   "is_optional": false,
+   "territorial_scope": "France métropolitaine (Corse exclue) ; les garanties Assistance sont acquises pour des séjours n’excédant pas 90 jours dans le reste du monde",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Les prestations d’assistance sont garanties pendant toute la durée du contrat sauf en cas de réduction du capital garanti"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Assistance - Aide-ménagère",
+   "description": "Aide-ménagère : 3 heures par jour pendant les 10 jours suivant le décès.",
+   "is_optional": false,
+   "territorial_scope": "France métropolitaine (Corse exclue) ; les garanties Assistance sont acquises pour des séjours n’excédant pas 90 jours dans le reste du monde",
+   "limits": "3 heures par jour pendant les 10 jours suivant le décès",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Les prestations d’assistance sont garanties pendant toute la durée du contrat sauf en cas de réduction du capital garanti"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Assistance - Garde des enfants et petits-enfants",
+   "description": "Garde des enfants et petits-enfants pendant 2 jours.",
+   "is_optional": false,
+   "territorial_scope": "France métropolitaine (Corse exclue) ; les garanties Assistance sont acquises pour des séjours n’excédant pas 90 jours dans le reste du monde",
+   "limits": "pendant 2 jours",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Les prestations d’assistance sont garanties pendant toute la durée du contrat sauf en cas de réduction du capital garanti"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Assistance - Garde des animaux de compagnie (chiens et chats)",
+   "description": "Garde des animaux de compagnie (chiens et chats) : 10 jours maximum.",
+   "is_optional": false,
+   "territorial_scope": "France métropolitaine (Corse exclue) ; les garanties Assistance sont acquises pour des séjours n’excédant pas 90 jours dans le reste du monde",
+   "limits": "10 jours maximum",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Les prestations d’assistance sont garanties pendant toute la durée du contrat sauf en cas de réduction du capital garanti"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Assistance - Accompagnement psychologique",
+   "description": "Accompagnement psychologique.",
+   "is_optional": false,
+   "territorial_scope": "France métropolitaine (Corse exclue) ; les garanties Assistance sont acquises pour des séjours n’excédant pas 90 jours dans le reste du monde",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Les prestations d’assistance sont garanties pendant toute la durée du contrat sauf en cas de réduction du capital garanti"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Assistance téléphonique, résolution des questions administratives et juridiques, mise à disposition de courriers types",
+   "description": "Assistance téléphonique, résolution des questions administratives et juridiques, mise à disposition de courriers types.",
+   "is_optional": false,
+   "territorial_scope": "France métropolitaine (Corse exclue) ; les garanties Assistance sont acquises pour des séjours n’excédant pas 90 jours dans le reste du monde",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Les prestations d’assistance sont garanties pendant toute la durée du contrat sauf en cas de réduction du capital garanti"
+   ],
+   "page": 1
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Suicide de l’assuré dans la première année",
+   "description": "Le suicide de l’assuré dans la première année qui suit la date d’effet de la souscription du contrat, ou de l’augmentation d’option pour le capital supplémentaire.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Fait intentionnellement causé ou provoqué par un bénéficiaire",
+   "description": "Les conséquences d’un fait intentionnellement causé ou provoqué par un bénéficiaire condamné à ce titre, en cas de décès de l’assuré.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Participation volontaire et violente à des rassemblements, manifestations, mouvements populaires, rixes, jeux et paris",
+   "description": "Les conséquences de la participation volontaire et violente de l’assuré à des rassemblements, manifestations sur la voie publique, à des mouvements populaires, rixes, jeux et paris.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Restriction - Délai d’attente en cas de décès suite à maladie",
+   "description": "Les indemnités sont versées après application des délais d’attente suivants : Décès suite à maladie : 1 an.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Restriction - Prestations d’assistance en cas de réduction du capital garanti",
+   "description": "Les prestations d’assistance sont garanties pendant toute la durée du contrat sauf en cas de réduction du capital garanti.",
+   "applies_to": "Prestations d’assistance",
+   "page": 1
+  },
+  {
+   "name": "Modification des prestations dont le coût excède le capital garanti",
+   "description": "Au moment des obsèques, toute demande de modification des prestations réalisées par Le Choix Funéraire, dont le coût excéderait le montant du capital garanti, serait facturé par le prestataire à la famille de l’assuré.",
+   "applies_to": "all",
+   "page": 1
+  }
+ ],
+ "deductibles": null,
+ "waiting_periods": [
+  {
+   "coverage": "Décès suite à maladie",
+   "duration": "1 an",
+   "description": "Les indemnités sont versées après application des délais d’attente suivants : Décès suite à maladie : 1 an.",
+   "page": 1
+  }
+ ],
+ "obligations": [
+  {
+   "name": "Répondre exactement aux questions posées",
+   "description": "Répondre exactement aux questions posées lors de la souscription afin d’apprécier les risques et fixer la cotisation.",
+   "timing": "A la souscription du contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+   "page": 2
+  },
+  {
+   "name": "Déclarer les circonstances nouvelles",
+   "description": "Déclarer toutes les circonstances nouvelles qui modifient les informations fournies lors de la souscription.",
+   "timing": "En cours de contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+   "page": 2
+  },
+  {
+   "name": "Régler les cotisations",
+   "description": "Régler les cotisations à la date convenue.",
+   "timing": "En cours de contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+   "page": 2
+  },
+  {
+   "name": "Fournir les pièces justificatives en cas de décès",
+   "description": "En cas de décès de l’assuré, fournir les pièces justificatives : l’acte de décès, le certificat médical précisant la cause de décès, et une facture de prestations funéraires.",
+   "timing": "En cas de décès",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+   "page": 2
+  }
+ ],
+ "claims_procedure": [
+  {
+   "step": "Fournir les pièces justificatives",
+   "description": "En cas de décès de l’assuré, fournir les pièces justificatives : l’acte de décès, le certificat médical précisant la cause de décès, et une facture de prestations funéraires.",
+   "deadline": null,
+   "page": 2
+  },
+  {
+   "step": "Application des délais d’attente avant versement",
+   "description": "Les indemnités sont versées après application des délais d’attente suivants : Décès suite à maladie : 1 an.",
+   "deadline": "1 an pour un décès suite à maladie",
+   "page": 1
+  },
+  {
+   "step": "Organisation des obsèques",
+   "description": "L’organisation des obsèques est réalisée par Le Choix Funéraire (SA UDIFE – 22490 PLESTIN TRIVAGOU – www.le-choix-funéraire.com).",
+   "deadline": null,
+   "page": 1
+  },
+  {
+   "step": "Modifications demandées au moment des obsèques",
+   "description": "Au moment des obsèques, toute demande de modification des prestations réalisées par Le Choix Funéraire, dont le coût excéderait le montant du capital garanti, serait facturé par le prestataire à la famille de l’assuré.",
+   "deadline": null,
+   "page": 1
+  }
+ ],
+ "duration_and_cancellation": {
+  "duration": "Le contrat prend effet à la date et l’heure indiquées aux Conditions Particulières. Le contrat est souscrit jusqu’à la prochaine échéance principale et est renouvelable par tacite reconduction à chaque nouvelle échéance principale avec les facultés de résiliation prévues. Le contrat prend fin de plein droit au décès de l’assuré.",
+  "tacit_renewal": true,
+  "notice_period": "Vous pouvez notamment mettre fin au contrat à l'échéance annuelle en respectant un préavis de deux mois.",
+  "methods": [
+   "par lettre ou tout autre support durable",
+   "par déclaration faite au siège social ou chez notre représentant",
+   "par acte extrajudiciaire",
+   "via la fonctionnalité mise en place sur le site internet",
+   "en cas de résiliation suite à modification de votre situation selon les termes des articles L113-16 et R.113-6 du Code des assurances, vous devrez notifier la résiliation par lettre recommandée (papier ou électronique) avec demande d'avis de réception"
   ],
-  "key_quotes": [
-    {
-      "quote": "Ce contrat prévoit le financement des prestations funéraires (contrat d’assurance porté par Thélem Prévoyance) et l’organisation des obsèques (prestations réalisées par Le Choix Funéraire).",
-      "context": "De quel type d’assurance s’agit-il ?",
-      "page": 1
-    },
-    {
-      "quote": "L’assuré peut personnaliser sa formule avec les services suivants : Préparation et organisation des obsèques, Transport du défunt, Choix du cercueil et de la cérémonie funéraire.",
-      "context": "Les garanties et les modalités de gestion systématiquement prévues",
-      "page": 1
-    },
-    {
-      "quote": "Le montant du capital est fonction du choix des prestations choisies : 3 500 €, 4 500 € ou 6 000 €,",
-      "context": "Les garanties et les modalités de gestion systématiquement prévues",
-      "page": 1
-    },
-    {
-      "quote": "Le suicide de l’assuré dans la première année qui suit la date d’effet de la souscription du contrat, ou de l’augmentation d’option pour le capital supplémentaire",
-      "context": "Les principales exclusions",
-      "page": 1
-    },
-    {
-      "quote": "Les conséquences d’un fait intentionnellement causé ou provoqué par un bénéficiaire condamné à ce titre, en cas de décès de l’assuré",
-      "context": "Les principales exclusions",
-      "page": 1
-    },
-    {
-      "quote": "Les conséquences de la participation volontaire et violente de l’assuré à des rassemblements, manifestations sur la voie publique, à des mouvements populaires, rixes, jeux et paris",
-      "context": "Les principales exclusions",
-      "page": 1
-    },
-    {
-      "quote": "Au moment des obsèques, toute demande de modification des prestations réalisées par Le Choix Funéraire, dont le coût excéderait le montant du capital garanti, serait facturé par le prestataire à la famille de l’assuré.",
-      "context": "Qu’est-ce qui n’est pas assuré ?",
-      "page": 1
-    },
-    {
-      "quote": "Les prestations d’assistance sont garanties pendant toute la durée du contrat sauf en cas de réduction du capital garanti.",
-      "context": "Les principales restrictions",
-      "page": 1
-    },
-    {
-      "quote": "Les garanties de l’assurance Initiative Obsèques Services s’exercent en France métropolitaine (Corse exclue).",
-      "context": "Où suis-je couvert ?",
-      "page": 2
-    },
-    {
-      "quote": "Les garanties Assistance sont acquises pour des séjours n’excédant pas 90 jours dans le reste du monde.",
-      "context": "Où suis-je couvert ?",
-      "page": 2
-    },
-    {
-      "quote": "Elle a comme conséquence de supprimer l’organisation des prestations par Le Choix Funéraire.",
-      "context": "Mise en réduction",
-      "page": 2
-    }
+  "special_rights": [
+   "L’assuré dispose d’un délai de renonciation de 30 jours dans tous les cas à compter de la conclusion du contrat.",
+   "Rachat : l’assuré peut aussi racheter son contrat à tout moment. Il lui sera alors restitué une somme appelée « provisions mathématiques ». Le rachat met fin au contrat (contrat d’assurance et contrat de prestations).",
+   "Mise en réduction : sous conditions, l’assuré peut arrêter le paiement des cotisations sans effectuer de rachat. Les garanties du contrat sont alors « réduites » en proportion des cotisations déjà versées, mais continuent d’exister. Elle a comme conséquence de supprimer l’organisation des prestations par Le Choix Funéraire.",
+   "Les cas de résiliation, les délais à respecter sont ceux prévus par la règlementation et précisés dans les Dispositions Générales.",
+   "Nous vous confirmerons par écrit la réception de la notification."
   ],
-  "gaps": [
-    "Aucune date d’édition n’est imprimée dans le texte du document ; edition_date laissé null (le nom du fichier source mentionne 2026 mais cette information ne figure pas dans le document lui-même).",
-    "Aucune référence interne de document n’apparaît dans le texte ; reference laissé null.",
-    "Aucune franchise n’est mentionnée dans le document ; deductibles laissé null.",
-    "Aucun délai de prescription n’est mentionné dans le document ; prescription_period laissé null.",
-    "Le document ne comporte pas de section « Définitions » formelle : les entrées de definitions sont tirées des encadrés « Qu’est-ce qui est assuré ? » et « Quand commence la couverture et quand prend-elle fin ? ».",
-    "S’agissant d’un IPID de 2 pages, le document ne présente qu’un résumé des principales garanties et exclusions ; la liste exhaustive figure dans la notice d’information, non fournie.",
-    "Le montant des cotisations et la tarification ne figurent pas dans le document.",
-    "Le « capital supplémentaire » et l’« augmentation d’option » sont mentionnés dans l’exclusion de suicide mais ne sont décrits nulle part ailleurs dans le document.",
-    "Le contenu détaillé des prestations funéraires correspondant à chacun des trois niveaux de capital (3 500 €, 4 500 € ou 6 000 €) n’est pas précisé dans le document."
-  ]
+  "page": 2
+ },
+ "prescription_period": null,
+ "premium": {
+  "notes": [
+   "La cotisation : est fixe dans le temps.",
+   "Paiement des cotisations : se fait sur une période de 10, 15, 20 ou 25 ans (paiement temporaire) ou durant toute la vie de l’assuré (paiement viager).",
+   "La cotisation annuelle se paie à la date ou aux dates indiquées sur les Conditions Particulières.",
+   "Un paiement fractionné peut toutefois être accordé au choix (Mensuel, Trimestriel, Semestriel ou Annuel).",
+   "Les paiements peuvent être effectués par chèque ou prélèvement automatique.",
+   "Revalorisation : l’assureur distribue, tous les ans, les bénéfices techniques et financiers suivant les dispositions réglementaires en vigueur."
+  ],
+  "indexation": null,
+  "page": 2
+ },
+ "special_conditions": [
+  {
+   "name": "Type de contrat et articulation assurance / prestations",
+   "description": "Ce contrat prévoit le financement des prestations funéraires (contrat d’assurance porté par Thélem Prévoyance) et l’organisation des obsèques (prestations réalisées par Le Choix Funéraire). Le contrat est de type « Vie Entière » et il est en totale conformité avec la réglementation en vigueur.",
+   "page": 1
+  },
+  {
+   "name": "Conditions d’âge et de résidence de l’assuré",
+   "description": "L’assuré doit être âgé, à la souscription, d’au moins 18 ans et au maximum de 82 ans. Il doit résider sur le territoire métropolitain ou dans les départements d’Outre-Mer.",
+   "page": 1
+  },
+  {
+   "name": "Absence de sélection médicale",
+   "description": "Ces garanties ne sont soumises à aucune sélection médicale.",
+   "page": 1
+  },
+  {
+   "name": "Garanties systématiquement prévues",
+   "description": "Les garanties précédées d’une coche sont systématiquement prévues au contrat.",
+   "page": 1
+  },
+  {
+   "name": "Portée du document d’information",
+   "description": "Ce document d’information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l’information complète sur ce produit dans la documentation précontractuelle et contractuelle, et notamment dans la notice d’information.",
+   "page": 1
+  },
+  {
+   "name": "Assureur",
+   "description": "Thélem prévoyance, SA à conseil d’administration au capital de 18 000 870 € – Entreprise régie par le Code des assurances. Siège Social : Le Croc – BP 63130 – 45431 Chécy Cedex – immatriculée en France sous le n° RCS 539 477 059.",
+   "page": 1
+  },
+  {
+   "name": "Prestataire funéraire",
+   "description": "Le Choix Funéraire (SA UDIFE – 22490 PLESTIN TRIVAGOU – www.le-choix-funéraire.com– habilitation n°12221106, immatriculée au RCS de Saint Malo sous le n° 384 721 619).",
+   "page": 1
+  }
+ ],
+ "key_quotes": [
+  {
+   "quote": "Ce contrat prévoit le financement des prestations funéraires (contrat d’assurance porté par Thélem Prévoyance) et l’organisation des obsèques (prestations réalisées par Le Choix Funéraire).",
+   "context": "De quel type d’assurance s’agit-il ?",
+   "page": 1
+  },
+  {
+   "quote": "L’assuré peut personnaliser sa formule avec les services suivants : Préparation et organisation des obsèques, Transport du défunt, Choix du cercueil et de la cérémonie funéraire.",
+   "context": "Les garanties et les modalités de gestion systématiquement prévues",
+   "page": 1
+  },
+  {
+   "quote": "Le montant du capital est fonction du choix des prestations choisies : 3 500 €, 4 500 € ou 6 000 €,",
+   "context": "Les garanties et les modalités de gestion systématiquement prévues",
+   "page": 1
+  },
+  {
+   "quote": "Le suicide de l’assuré dans la première année qui suit la date d’effet de la souscription du contrat, ou de l’augmentation d’option pour le capital supplémentaire",
+   "context": "Les principales exclusions",
+   "page": 1
+  },
+  {
+   "quote": "Les conséquences d’un fait intentionnellement causé ou provoqué par un bénéficiaire condamné à ce titre, en cas de décès de l’assuré",
+   "context": "Les principales exclusions",
+   "page": 1
+  },
+  {
+   "quote": "Les conséquences de la participation volontaire et violente de l’assuré à des rassemblements, manifestations sur la voie publique, à des mouvements populaires, rixes, jeux et paris",
+   "context": "Les principales exclusions",
+   "page": 1
+  },
+  {
+   "quote": "Au moment des obsèques, toute demande de modification des prestations réalisées par Le Choix Funéraire, dont le coût excéderait le montant du capital garanti, serait facturé par le prestataire à la famille de l’assuré.",
+   "context": "Qu’est-ce qui n’est pas assuré ?",
+   "page": 1
+  },
+  {
+   "quote": "Les prestations d’assistance sont garanties pendant toute la durée du contrat sauf en cas de réduction du capital garanti.",
+   "context": "Les principales restrictions",
+   "page": 1
+  },
+  {
+   "quote": "Les garanties de l’assurance Initiative Obsèques Services s’exercent en France métropolitaine (Corse exclue).",
+   "context": "Où suis-je couvert ?",
+   "page": 2
+  },
+  {
+   "quote": "Les garanties Assistance sont acquises pour des séjours n’excédant pas 90 jours dans le reste du monde.",
+   "context": "Où suis-je couvert ?",
+   "page": 2
+  },
+  {
+   "quote": "Elle a comme conséquence de supprimer l’organisation des prestations par Le Choix Funéraire.",
+   "context": "Mise en réduction",
+   "page": 2
+  }
+ ],
+ "gaps": [
+  "Aucune date d’édition n’est imprimée dans le texte du document ; edition_date laissé null (le nom du fichier source mentionne 2026 mais cette information ne figure pas dans le document lui-même).",
+  "Aucune référence interne de document n’apparaît dans le texte ; reference laissé null.",
+  "Aucune franchise n’est mentionnée dans le document ; deductibles laissé null.",
+  "Aucun délai de prescription n’est mentionné dans le document ; prescription_period laissé null.",
+  "Le document ne comporte pas de section « Définitions » formelle : les entrées de definitions sont tirées des encadrés « Qu’est-ce qui est assuré ? » et « Quand commence la couverture et quand prend-elle fin ? ».",
+  "S’agissant d’un IPID de 2 pages, le document ne présente qu’un résumé des principales garanties et exclusions ; la liste exhaustive figure dans la notice d’information, non fournie.",
+  "Le montant des cotisations et la tarification ne figurent pas dans le document.",
+  "Le « capital supplémentaire » et l’« augmentation d’option » sont mentionnés dans l’exclusion de suicide mais ne sont décrits nulle part ailleurs dans le document.",
+  "Le contenu détaillé des prestations funéraires correspondant à chacun des trois niveaux de capital (3 500 €, 4 500 € ou 6 000 €) n’est pas précisé dans le document.",
+  "edition_date remise a null le 2026-08-01: la valeur 2026 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5."
+ ]
 }

@@ -224,6 +224,7 @@ Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie.
 - Le titre de rubrique est imprimé « QU'EST- CE QUI EST ASSURÉ ? » et « QU'EST- CE QUI N'EST PAS ASSURÉ ? » avec une espace parasite après « EST- », et « OÙ SUIS- JE COUVERT(E) ? » de même. Conservé tel quel, sans correction.
 - Défaut du calque texte du PDF, sans incidence sur les valeurs extraites : 6 glyphes de zone privée U+F0FC (puces Wingdings) subsistent en début de puce (pages 1 et 2). Les key_quotes ont été découpées de façon à ne traverser aucun de ces glyphes.
 - La liste des pays d'extension territoriale imprime « République Macédoine du Nord » (sans « de »). La variante e306bfd6 du même lot imprime « République de Macédoine du Nord ». Les deux graphies sont conservées verbatim dans leur document respectif, sans harmonisation.
+- Provenance de edition_date: cette date ne vient pas du texte du document mais du manifeste, ou elle avait ete deduite lors de la decouverte. A verifier contre le document avant d'y appuyer une comparaison d'editions.
 
 ## Documents liés
 

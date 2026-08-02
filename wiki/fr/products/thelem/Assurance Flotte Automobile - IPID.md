@@ -10,7 +10,7 @@ document_type: ipid
 target_audience: entreprises
 target_audience_note: null
 reference: null
-edition_date: 2023-07
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/auto
@@ -26,7 +26,7 @@ prompt_version: '1.1'
 product_family: assurance-flotte-automobile
 variant: null
 edition_status: null
-edition_age_years: 3
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -40,7 +40,7 @@ generated: true
 
 L’assurance Flottes Automobile a pour objectif de garantir l’assuré contre les conséquences des dommages matériels ou corporels causés par ses véhicules à un tiers (responsabilité civile). C’est une assurance obligatoire. Ce contrat prévoit également en option les dommages corporels du conducteur. Selon les formules souscrites, il couvre aussi les dommages matériels des véhicules assurés.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 2023-07
+- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -196,6 +196,7 @@ Aménagement professionnels fixes : garantir les aménagements du véhicule jusq
 - Les garanties optionnelles sont énumérées en une seule liste sous « Dommages au véhicule » ; elles ont été éclatées en garanties distinctes, sans que le document précise de plafond ou de franchise propre à chacune (hormis Indemnité+, Contenu et Aménagement professionnels fixes).
 - La portée territoriale des garanties Indemnité+, Contenu et Aménagement professionnels fixes n’est pas précisée séparément : `territorial_scope` laissé null pour ces garanties.
 - La mention « Préjudice écologique » figure dans la ligne Responsabilité Civile sans plafond ni description propre ; elle est conservée dans la description de la garantie RC.
+- edition_date remise a null le 2026-08-01: la valeur 2023-07 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

@@ -148,7 +148,7 @@ Covéa Protection Juridique et/ou APGIS. », sans indiquer lequel porte la prote
 
 ## Documents liés
 
-- [IMMEUBLE - IPID](IMMEUBLE%20-%20IPID.md) - IPID / Fiche d'information, éd. 2025-03
+- [IMMEUBLE - IPID](IMMEUBLE%20-%20IPID.md) - IPID / Fiche d'information
 
 ## Source & fidélité
 

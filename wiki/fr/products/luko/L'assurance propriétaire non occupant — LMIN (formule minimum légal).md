@@ -607,7 +607,7 @@ La prescription est le délai à l'expiration duquel une action juridique ou jud
 
 ## Documents liés
 
-- [L'assurance propriétaire non occupant](L%27assurance%20propri%C3%A9taire%20non%20occupant.md) - Conditions générales, éd. 2025-04
+- [L'assurance propriétaire non occupant](L%27assurance%20propri%C3%A9taire%20non%20occupant.md) - Conditions générales
 
 ## Source & fidélité
 

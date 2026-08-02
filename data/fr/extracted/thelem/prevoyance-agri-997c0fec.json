@@ -1,438 +1,439 @@
 {
-  "schema_version": "1.0",
-  "prompt_version": "1.1",
-  "country": "fr",
-  "insurer_slug": "thelem",
-  "insurer_name": "Thélem assurances",
-  "product_name": "Prévoyance Agri",
-  "branch": "prevoyance",
-  "branch_code": null,
-  "document_type": "ipid",
-  "language": "fr",
-  "target_audience": "independants",
-  "target_audience_note": "L’exploitant agricole. Assuré : toute personne âgée d’au moins 18 ans et au maximum de 59 ans, et désignée sur les Conditions Particulières.",
-  "reference": null,
-  "edition_date": "2024-07",
-  "product_family": "Prévoyance Agri",
-  "variant": null,
-  "is_extension": false,
-  "extends": null,
-  "superseded": null,
-  "source_url": "https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TP_PREVAGRI_440_072024.pdf",
-  "source_pdf": "prevoyance-agri-997c0fec.pdf",
-  "source_sha256": "01dcade6de1e8bbe79cbb7f81d95ae5febcb883df053b857747e1d6e6e825efb",
-  "source_pages": 2,
-  "fetched_at": "2026-07-30",
-  "extraction_model": "claude-code-subagent:scale",
-  "summary": "Document d’information sur le produit d’assurance (IPID) du contrat Prévoyance Agri de Thélem prévoyance. La Prévoyance Agri permet de garantir à l’exploitant agricole le maintien de son revenu en cas d’arrêt de travail et de protéger financièrement sa famille en cas de décès ou d’invalidité, les garanties étant déclenchées après accident ou maladie. Le contrat prévoit systématiquement un capital décès/PTIA, des indemnités journalières et l’exonération des cotisations, et propose en option les frais d’exploitation permanents, l’invalidité, la rente éducation, la rente conjoint temporaire et un capital complémentaire décès/PTIA en cas d’accident professionnel.",
-  "definitions": [
-    {
-      "term": "Assuré",
-      "definition": "toute personne âgée d’au moins 18 ans et au maximum de 59 ans, et désignée sur les Conditions Particulières.",
-      "page": 1
-    },
-    {
-      "term": "Bénéficiaires",
-      "definition": "personne que vous avez désigné et qui recevra la prestation en cas de réalisation du risque. À tout moment, vous pouvez modifier le bénéficiaire.",
-      "page": 1
-    },
-    {
-      "term": "PTIA",
-      "definition": "Perte total et irréversible d’autonomie (PTIA)",
-      "page": 1
-    },
-    {
-      "term": "IJ",
-      "definition": "Des indemnités journalières (IJ) en cas d’arrêt de travail",
-      "page": 1
-    }
-  ],
-  "coverages": [
-    {
-      "name": "Capital en cas de décès ou de Perte total et irréversible d’autonomie (PTIA)",
-      "description": "Un capital en cas de décès ou de Perte total et irréversible d’autonomie (PTIA) : de 10 à 300 K€ avec une majoration de 50% si décès suite à accident.",
-      "is_optional": false,
-      "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
-      "limits": "de 10 à 300 K€ avec une majoration de 50% si décès suite à accident",
-      "sub_limits": [
-        "majoration de 50% si décès suite à accident"
-      ],
-      "deductible": null,
-      "conditions": [
-        "Les garanties sont déclenchées après accident ou maladie."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Indemnités journalières (IJ) en cas d’arrêt de travail",
-      "description": "Des indemnités journalières (IJ) en cas d’arrêt de travail : jusqu’à 300 € par jour pendant 3 ans. Vous pouvez choisir un montant fixe (IJ linéaire) ou un montant qui varie (IJ par palier).",
-      "is_optional": false,
-      "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
-      "limits": "jusqu’à 300 € par jour pendant 3 ans",
-      "sub_limits": [],
-      "deductible": "Les franchises et les délais d’attente suite à maladie qui varient en fonction des garanties et des pathologies.",
-      "conditions": [
-        "Vous pouvez choisir un montant fixe (IJ linéaire) ou un montant qui varie (IJ par palier)",
-        "Les garanties sont déclenchées après accident ou maladie."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Exonération des cotisations",
-      "description": "L’exonération des cotisations si l’assuré est indemnisé au titre des IJ, des frais généraux permanents ou d’une l’invalidité supérieure ou égale à 66%.",
-      "is_optional": false,
-      "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "si l’assuré est indemnisé au titre des IJ, des frais généraux permanents ou d’une l’invalidité supérieure ou égale à 66%"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Les frais d’exploitation permanents",
-      "description": "Les frais d’exploitation permanents : garantie des frais d’exploitation de l’entreprise (loyers, charges de personnel, impôts, eau, électricité).",
-      "is_optional": true,
-      "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Invalidité",
-      "description": "Invalidité : versement d’une rente ou d’un capital en fonction de votre taux d’invalidité.",
-      "is_optional": true,
-      "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Invalidité ≤ 33%, nous ne versons aucune indemnité"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Rente éducation",
-      "description": "Rente éducation : jusqu’à 16 500 € /an pour protéger les enfants suite à décès ou perte totale et irréversible d’autonomie de l’assuré.",
-      "is_optional": true,
-      "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
-      "limits": "jusqu’à 16 500 € /an",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "La rente éducation cesse lorsque l’enfant n’est plus considéré à charge ou lorsqu’il a atteint son 25ème anniversaire."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Rente conjoint temporaire",
-      "description": "Rente conjoint temporaire : jusqu’à 40 000 € par an pour protéger le conjoint suite à décès ou perte totale et irréversible d’autonomie de l’assuré.",
-      "is_optional": true,
-      "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
-      "limits": "jusqu’à 40 000 € par an",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "La rente conjoint cesse en cas de remariage du conjoint(e) survivant ou de conclusion d’un PACS."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Décès/PTIA — capital complémentaire en cas d’accident professionnel",
-      "description": "Décès/PTIA : un capital complémentaire est versé en cas d’accident professionnel.",
-      "is_optional": true,
-      "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "en cas d’accident professionnel"
-      ],
-      "page": 1
-    }
-  ],
-  "exclusions": [
-    {
-      "name": "Suicide ou tentative de suicide dans la première année",
-      "description": "La tentative de suicide ou le suicide de l’assuré survenu dans la première année qui suit la date d’effet de la souscription.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Faute intentionnelle de l’assuré",
-      "description": "La faute intentionnelle de l’assuré.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "État alcoolique",
-      "description": "L’état alcoolique caractérisé par un taux d’alcool supérieur ou égal au taux légalement autorisé pour la conduite d’un véhicule.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Dépendance pathologique à l’alcool",
-      "description": "La dépendance pathologique à l’alcool.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Usage de plantes classées comme stupéfiants",
-      "description": "L’usage de de plantes classés comme stupéfiants.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Sport exercé à titre professionnel",
-      "description": "La pratique de sport exercé à titre professionnel.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Sports aériens",
-      "description": "La pratique de sports aériens.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Événement suite à maladie survenant pendant les délais d’attente",
-      "description": "Tout événement assuré suite à maladie survenant pendant les délais d’attente.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Restriction — Invalidité ≤ 33%",
-      "description": "Invalidité ≤ 33%, nous ne versons aucune indemnité.",
-      "applies_to": "Invalidité",
-      "page": 1
-    },
-    {
-      "name": "Restriction — cessation de la rente éducation",
-      "description": "La rente éducation cesse lorsque l’enfant n’est plus considéré à charge ou lorsqu’il a atteint son 25ème anniversaire.",
-      "applies_to": "Rente éducation",
-      "page": 1
-    },
-    {
-      "name": "Restriction — cessation de la rente conjoint",
-      "description": "La rente conjoint cesse en cas de remariage du conjoint(e) survivant ou de conclusion d’un PACS.",
-      "applies_to": "Rente conjoint temporaire",
-      "page": 1
-    },
-    {
-      "name": "Restriction — franchises et délais d’attente",
-      "description": "Les franchises et les délais d’attente suite à maladie qui varient en fonction des garanties et des pathologies.",
-      "applies_to": "all",
-      "page": 1
-    }
-  ],
-  "deductibles": {
-    "standard": null,
-    "variable": "Les franchises et les délais d’attente suite à maladie qui varient en fonction des garanties et des pathologies.",
-    "per_coverage": null,
-    "page": 1
+ "schema_version": "1.0",
+ "prompt_version": "1.1",
+ "country": "fr",
+ "insurer_slug": "thelem",
+ "insurer_name": "Thélem assurances",
+ "product_name": "Prévoyance Agri",
+ "branch": "prevoyance",
+ "branch_code": null,
+ "document_type": "ipid",
+ "language": "fr",
+ "target_audience": "independants",
+ "target_audience_note": "L’exploitant agricole. Assuré : toute personne âgée d’au moins 18 ans et au maximum de 59 ans, et désignée sur les Conditions Particulières.",
+ "reference": null,
+ "edition_date": null,
+ "product_family": "Prévoyance Agri",
+ "variant": null,
+ "is_extension": false,
+ "extends": null,
+ "superseded": null,
+ "source_url": "https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TP_PREVAGRI_440_072024.pdf",
+ "source_pdf": "prevoyance-agri-997c0fec.pdf",
+ "source_sha256": "01dcade6de1e8bbe79cbb7f81d95ae5febcb883df053b857747e1d6e6e825efb",
+ "source_pages": 2,
+ "fetched_at": "2026-07-30",
+ "extraction_model": "claude-code-subagent:scale",
+ "summary": "Document d’information sur le produit d’assurance (IPID) du contrat Prévoyance Agri de Thélem prévoyance. La Prévoyance Agri permet de garantir à l’exploitant agricole le maintien de son revenu en cas d’arrêt de travail et de protéger financièrement sa famille en cas de décès ou d’invalidité, les garanties étant déclenchées après accident ou maladie. Le contrat prévoit systématiquement un capital décès/PTIA, des indemnités journalières et l’exonération des cotisations, et propose en option les frais d’exploitation permanents, l’invalidité, la rente éducation, la rente conjoint temporaire et un capital complémentaire décès/PTIA en cas d’accident professionnel.",
+ "definitions": [
+  {
+   "term": "Assuré",
+   "definition": "toute personne âgée d’au moins 18 ans et au maximum de 59 ans, et désignée sur les Conditions Particulières.",
+   "page": 1
   },
-  "waiting_periods": [
-    {
-      "coverage": "all",
-      "duration": null,
-      "description": "Tout événement assuré suite à maladie survenant pendant les délais d’attente n’est pas assuré.",
-      "page": 1
-    },
-    {
-      "coverage": "all",
-      "duration": "varient en fonction des garanties et des pathologies",
-      "description": "Les franchises et les délais d’attente suite à maladie qui varient en fonction des garanties et des pathologies.",
-      "page": 1
-    }
-  ],
-  "obligations": [
-    {
-      "name": "Répondre exactement aux questions posées",
-      "description": "Répondre exactement aux questions posées lors de la souscription afin d’apprécier les risques et fixer la cotisation.",
-      "timing": "A la souscription du contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Fournir les documents justificatifs",
-      "description": "Fournir tous les documents justificatifs demandés.",
-      "timing": "A la souscription du contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Compléter et signer la demande de souscription",
-      "description": "Compléter et signer la demande de souscription, l’adhésion à l’association AREP (Pro Madelin), le questionnaire médical ou la déclaration de bonne santé.",
-      "timing": "A la souscription du contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Déclarer les circonstances nouvelles",
-      "description": "Déclarer toutes les circonstances nouvelles qui modifient les informations fournies lors de la souscription.",
-      "timing": "En cours de contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Régler les cotisations",
-      "description": "Régler les cotisations à la date convenue.",
-      "timing": "En cours de contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Fournir les pièces justificatives",
-      "description": "Fournir toutes les pièces justificatives.",
-      "timing": "En cas de sinistre",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
-      "page": 2
-    }
-  ],
-  "claims_procedure": [
-    {
-      "step": "En cas de sinistre",
-      "description": "Fournir toutes les pièces justificatives.",
-      "deadline": null,
-      "page": 2
-    }
-  ],
-  "duration_and_cancellation": {
-    "duration": "Le contrat prend effet à la date de réception du dossier de souscription complet sous réserve d’acceptation médicale ou à la date d’effet indiquée sur la demande de souscription si celle-ci est postérieure. Le contrat est souscrit jusqu’à la prochaine échéance principale (1er janvier) et est renouvelable par tacite reconduction à chaque nouvelle échéance principale avec les facultés de résiliation prévues.",
-    "tacit_renewal": true,
-    "notice_period": "Vous pouvez notamment mettre fin au contrat à l'échéance annuelle en respectant un préavis de deux mois.",
-    "methods": [
-      "par lettre ou tout autre support durable",
-      "par déclaration faite au siège social ou chez notre représentant",
-      "par acte extrajudiciaire",
-      "via la fonctionnalité mise en place sur le site internet"
-    ],
-    "special_rights": [
-      "Les cas de résiliation, les délais à respecter sont ceux prévus par la règlementation et précisés dans les Dispositions Générales.",
-      "Nous vous confirmerons par écrit la réception de la notification.",
-      "en cas de résiliation suite à modification de votre situation selon les termes des articles L113-16 et R.113-6 du Code des assurances, vous devrez notifier la résiliation par lettre recommandée (papier ou électronique) avec demande d'avis de réception"
-    ],
-    "page": 2
+  {
+   "term": "Bénéficiaires",
+   "definition": "personne que vous avez désigné et qui recevra la prestation en cas de réalisation du risque. À tout moment, vous pouvez modifier le bénéficiaire.",
+   "page": 1
   },
-  "prescription_period": null,
-  "premium": {
-    "notes": [
-      "La cotisation annuelle (ainsi que les frais, taxes et contributions fixées par l’Etat) se paie à la date ou aux dates indiquées sur les Conditions Particulières.",
-      "Un paiement fractionné peut toutefois être accordé (Mensuel, Trimestriel).",
-      "Les paiements peuvent être effectués par carte bancaire, chèque ou prélèvement automatique.",
-      "L’exonération des cotisations si l’assuré est indemnisé au titre des IJ, des frais généraux permanents ou d’une l’invalidité supérieure ou égale à 66%."
-    ],
-    "indexation": null,
-    "page": 2
+  {
+   "term": "PTIA",
+   "definition": "Perte total et irréversible d’autonomie (PTIA)",
+   "page": 1
   },
-  "special_conditions": [
-    {
-      "name": "Étendue territoriale",
-      "description": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
-      "page": 2
-    },
-    {
-      "name": "Conditions d’âge de l’assuré",
-      "description": "Assuré : toute personne âgée d’au moins 18 ans et au maximum de 59 ans, et désignée sur les Conditions Particulières.",
-      "page": 1
-    },
-    {
-      "name": "Désignation et modification du bénéficiaire",
-      "description": "Bénéficiaires : personne que vous avez désigné et qui recevra la prestation en cas de réalisation du risque. À tout moment, vous pouvez modifier le bénéficiaire.",
-      "page": 1
-    },
-    {
-      "name": "Fait générateur des garanties",
-      "description": "Les garanties sont déclenchées après accident ou maladie.",
-      "page": 1
-    },
-    {
-      "name": "Garanties systématiques",
-      "description": "Les garanties précédées d’une coche sont systématiquement prévues au contrat.",
-      "page": 1
-    },
-    {
-      "name": "Portée du document",
-      "description": "Ce document d’information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l’information complète sur ce produit dans la documentation précontractuelle et contractuelle.",
-      "page": 1
-    },
-    {
-      "name": "Assureur",
-      "description": "Thélem prévoyance, SA à conseil d’administration au capital de 12 000 580 € – Entreprise régie par le code des assurances Siège Social : Le Croc – BP 63130 – 45430 Chécy – immatriculée en France.",
-      "page": 1
-    }
+  {
+   "term": "IJ",
+   "definition": "Des indemnités journalières (IJ) en cas d’arrêt de travail",
+   "page": 1
+  }
+ ],
+ "coverages": [
+  {
+   "name": "Capital en cas de décès ou de Perte total et irréversible d’autonomie (PTIA)",
+   "description": "Un capital en cas de décès ou de Perte total et irréversible d’autonomie (PTIA) : de 10 à 300 K€ avec une majoration de 50% si décès suite à accident.",
+   "is_optional": false,
+   "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
+   "limits": "de 10 à 300 K€ avec une majoration de 50% si décès suite à accident",
+   "sub_limits": [
+    "majoration de 50% si décès suite à accident"
+   ],
+   "deductible": null,
+   "conditions": [
+    "Les garanties sont déclenchées après accident ou maladie."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Indemnités journalières (IJ) en cas d’arrêt de travail",
+   "description": "Des indemnités journalières (IJ) en cas d’arrêt de travail : jusqu’à 300 € par jour pendant 3 ans. Vous pouvez choisir un montant fixe (IJ linéaire) ou un montant qui varie (IJ par palier).",
+   "is_optional": false,
+   "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
+   "limits": "jusqu’à 300 € par jour pendant 3 ans",
+   "sub_limits": [],
+   "deductible": "Les franchises et les délais d’attente suite à maladie qui varient en fonction des garanties et des pathologies.",
+   "conditions": [
+    "Vous pouvez choisir un montant fixe (IJ linéaire) ou un montant qui varie (IJ par palier)",
+    "Les garanties sont déclenchées après accident ou maladie."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Exonération des cotisations",
+   "description": "L’exonération des cotisations si l’assuré est indemnisé au titre des IJ, des frais généraux permanents ou d’une l’invalidité supérieure ou égale à 66%.",
+   "is_optional": false,
+   "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "si l’assuré est indemnisé au titre des IJ, des frais généraux permanents ou d’une l’invalidité supérieure ou égale à 66%"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Les frais d’exploitation permanents",
+   "description": "Les frais d’exploitation permanents : garantie des frais d’exploitation de l’entreprise (loyers, charges de personnel, impôts, eau, électricité).",
+   "is_optional": true,
+   "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Invalidité",
+   "description": "Invalidité : versement d’une rente ou d’un capital en fonction de votre taux d’invalidité.",
+   "is_optional": true,
+   "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Invalidité ≤ 33%, nous ne versons aucune indemnité"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Rente éducation",
+   "description": "Rente éducation : jusqu’à 16 500 € /an pour protéger les enfants suite à décès ou perte totale et irréversible d’autonomie de l’assuré.",
+   "is_optional": true,
+   "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
+   "limits": "jusqu’à 16 500 € /an",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "La rente éducation cesse lorsque l’enfant n’est plus considéré à charge ou lorsqu’il a atteint son 25ème anniversaire."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Rente conjoint temporaire",
+   "description": "Rente conjoint temporaire : jusqu’à 40 000 € par an pour protéger le conjoint suite à décès ou perte totale et irréversible d’autonomie de l’assuré.",
+   "is_optional": true,
+   "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
+   "limits": "jusqu’à 40 000 € par an",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "La rente conjoint cesse en cas de remariage du conjoint(e) survivant ou de conclusion d’un PACS."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Décès/PTIA — capital complémentaire en cas d’accident professionnel",
+   "description": "Décès/PTIA : un capital complémentaire est versé en cas d’accident professionnel.",
+   "is_optional": true,
+   "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "en cas d’accident professionnel"
+   ],
+   "page": 1
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Suicide ou tentative de suicide dans la première année",
+   "description": "La tentative de suicide ou le suicide de l’assuré survenu dans la première année qui suit la date d’effet de la souscription.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Faute intentionnelle de l’assuré",
+   "description": "La faute intentionnelle de l’assuré.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "État alcoolique",
+   "description": "L’état alcoolique caractérisé par un taux d’alcool supérieur ou égal au taux légalement autorisé pour la conduite d’un véhicule.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Dépendance pathologique à l’alcool",
+   "description": "La dépendance pathologique à l’alcool.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Usage de plantes classées comme stupéfiants",
+   "description": "L’usage de de plantes classés comme stupéfiants.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Sport exercé à titre professionnel",
+   "description": "La pratique de sport exercé à titre professionnel.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Sports aériens",
+   "description": "La pratique de sports aériens.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Événement suite à maladie survenant pendant les délais d’attente",
+   "description": "Tout événement assuré suite à maladie survenant pendant les délais d’attente.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Restriction — Invalidité ≤ 33%",
+   "description": "Invalidité ≤ 33%, nous ne versons aucune indemnité.",
+   "applies_to": "Invalidité",
+   "page": 1
+  },
+  {
+   "name": "Restriction — cessation de la rente éducation",
+   "description": "La rente éducation cesse lorsque l’enfant n’est plus considéré à charge ou lorsqu’il a atteint son 25ème anniversaire.",
+   "applies_to": "Rente éducation",
+   "page": 1
+  },
+  {
+   "name": "Restriction — cessation de la rente conjoint",
+   "description": "La rente conjoint cesse en cas de remariage du conjoint(e) survivant ou de conclusion d’un PACS.",
+   "applies_to": "Rente conjoint temporaire",
+   "page": 1
+  },
+  {
+   "name": "Restriction — franchises et délais d’attente",
+   "description": "Les franchises et les délais d’attente suite à maladie qui varient en fonction des garanties et des pathologies.",
+   "applies_to": "all",
+   "page": 1
+  }
+ ],
+ "deductibles": {
+  "standard": null,
+  "variable": "Les franchises et les délais d’attente suite à maladie qui varient en fonction des garanties et des pathologies.",
+  "per_coverage": null,
+  "page": 1
+ },
+ "waiting_periods": [
+  {
+   "coverage": "all",
+   "duration": null,
+   "description": "Tout événement assuré suite à maladie survenant pendant les délais d’attente n’est pas assuré.",
+   "page": 1
+  },
+  {
+   "coverage": "all",
+   "duration": "varient en fonction des garanties et des pathologies",
+   "description": "Les franchises et les délais d’attente suite à maladie qui varient en fonction des garanties et des pathologies.",
+   "page": 1
+  }
+ ],
+ "obligations": [
+  {
+   "name": "Répondre exactement aux questions posées",
+   "description": "Répondre exactement aux questions posées lors de la souscription afin d’apprécier les risques et fixer la cotisation.",
+   "timing": "A la souscription du contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Fournir les documents justificatifs",
+   "description": "Fournir tous les documents justificatifs demandés.",
+   "timing": "A la souscription du contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Compléter et signer la demande de souscription",
+   "description": "Compléter et signer la demande de souscription, l’adhésion à l’association AREP (Pro Madelin), le questionnaire médical ou la déclaration de bonne santé.",
+   "timing": "A la souscription du contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Déclarer les circonstances nouvelles",
+   "description": "Déclarer toutes les circonstances nouvelles qui modifient les informations fournies lors de la souscription.",
+   "timing": "En cours de contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Régler les cotisations",
+   "description": "Régler les cotisations à la date convenue.",
+   "timing": "En cours de contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Fournir les pièces justificatives",
+   "description": "Fournir toutes les pièces justificatives.",
+   "timing": "En cas de sinistre",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+   "page": 2
+  }
+ ],
+ "claims_procedure": [
+  {
+   "step": "En cas de sinistre",
+   "description": "Fournir toutes les pièces justificatives.",
+   "deadline": null,
+   "page": 2
+  }
+ ],
+ "duration_and_cancellation": {
+  "duration": "Le contrat prend effet à la date de réception du dossier de souscription complet sous réserve d’acceptation médicale ou à la date d’effet indiquée sur la demande de souscription si celle-ci est postérieure. Le contrat est souscrit jusqu’à la prochaine échéance principale (1er janvier) et est renouvelable par tacite reconduction à chaque nouvelle échéance principale avec les facultés de résiliation prévues.",
+  "tacit_renewal": true,
+  "notice_period": "Vous pouvez notamment mettre fin au contrat à l'échéance annuelle en respectant un préavis de deux mois.",
+  "methods": [
+   "par lettre ou tout autre support durable",
+   "par déclaration faite au siège social ou chez notre représentant",
+   "par acte extrajudiciaire",
+   "via la fonctionnalité mise en place sur le site internet"
   ],
-  "key_quotes": [
-    {
-      "quote": "La Prévoyance Agri permet de garantir à l’exploitant agricole le maintien de son revenu en cas d’arrêt de travail et de protéger financièrement sa famille en cas de décès ou d’invalidité.",
-      "context": "De quel type d’assurance s’agit-il ?",
-      "page": 1
-    },
-    {
-      "quote": "Un capital en cas de décès ou de Perte total et irréversible d’autonomie (PTIA) : de 10 à 300 K€ avec une majoration de 50% si décès suite à accident",
-      "context": "Garanties systématiquement prévues",
-      "page": 1
-    },
-    {
-      "quote": "Des indemnités journalières (IJ) en cas d’arrêt de travail : jusqu’à 300 € par jour pendant 3 ans.",
-      "context": "Garanties systématiquement prévues",
-      "page": 1
-    },
-    {
-      "quote": "L’exonération des cotisations si l’assuré est indemnisé au titre des IJ, des frais généraux permanents ou d’une l’invalidité supérieure ou égale à 66%.",
-      "context": "Garanties systématiquement prévues",
-      "page": 1
-    },
-    {
-      "quote": "Rente éducation : jusqu’à 16 500 € /an pour protéger les enfants suite à décès ou perte totale et irréversible d’autonomie de l’assuré,",
-      "context": "Garanties optionnelles",
-      "page": 1
-    },
-    {
-      "quote": "Rente conjoint temporaire : jusqu’à 40 000 € par an pour protéger le conjoint suite à décès ou perte totale et irréversible d’autonomie de l’assuré,",
-      "context": "Garanties optionnelles",
-      "page": 1
-    },
-    {
-      "quote": "La tentative de suicide ou le suicide de l’assuré survenu dans la première année qui suit la date d’effet de la souscription,",
-      "context": "Principales exclusions",
-      "page": 1
-    },
-    {
-      "quote": "Invalidité ≤ 33%, nous ne versons aucune indemnité",
-      "context": "Principales restrictions",
-      "page": 1
-    },
-    {
-      "quote": "Les franchises et les délais d’attente suite à maladie qui varient en fonction des garanties et des pathologies.",
-      "context": "Principales restrictions",
-      "page": 1
-    },
-    {
-      "quote": "Tout événement assuré suite à maladie survenant pendant les délais d’attente.",
-      "context": "Qu’est-ce qui n’est pas assuré ?",
-      "page": 1
-    },
-    {
-      "quote": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse.",
-      "context": "Où suis-je couvert ?",
-      "page": 2
-    },
-    {
-      "quote": "Vous pouvez notamment mettre fin au contrat à l'échéance annuelle en respectant un préavis de deux mois.",
-      "context": "Comment puis-je résilier le contrat ?",
-      "page": 2
-    }
+  "special_rights": [
+   "Les cas de résiliation, les délais à respecter sont ceux prévus par la règlementation et précisés dans les Dispositions Générales.",
+   "Nous vous confirmerons par écrit la réception de la notification.",
+   "en cas de résiliation suite à modification de votre situation selon les termes des articles L113-16 et R.113-6 du Code des assurances, vous devrez notifier la résiliation par lettre recommandée (papier ou électronique) avec demande d'avis de réception"
   ],
-  "gaps": [
-    "Aucune date d’édition n’est imprimée dans le texte du document : edition_date laissé null. Le nom du fichier source (IPID_TP_PREVAGRI_440_072024.pdf) contient « 440_072024 », mais cette information ne figure pas dans le texte extrait, elle n’a donc pas été reportée dans reference ni edition_date.",
-    "Les montants des franchises et la durée des délais d’attente ne sont pas chiffrés : le document indique seulement qu’ils « varient en fonction des garanties et des pathologies ».",
-    "Aucun délai de prescription n’est mentionné dans ce document (prescription_period null) — normal pour un IPID, l’information figure dans les Dispositions Générales.",
-    "Aucune procédure de déclaration de sinistre détaillée (délai de déclaration, destinataire) n’est indiquée : seule l’obligation de « Fournir toutes les pièces justificatives » est mentionnée.",
-    "Le document ne contient pas de section « Définitions » formelle ; les entrées de definitions[] proviennent des mentions Assuré / Bénéficiaires et des sigles utilisés (PTIA, IJ).",
-    "Aucune mention d’un droit de rétractation ni de conditions tarifaires chiffrées (le document est un IPID de 2 pages)."
-  ]
+  "page": 2
+ },
+ "prescription_period": null,
+ "premium": {
+  "notes": [
+   "La cotisation annuelle (ainsi que les frais, taxes et contributions fixées par l’Etat) se paie à la date ou aux dates indiquées sur les Conditions Particulières.",
+   "Un paiement fractionné peut toutefois être accordé (Mensuel, Trimestriel).",
+   "Les paiements peuvent être effectués par carte bancaire, chèque ou prélèvement automatique.",
+   "L’exonération des cotisations si l’assuré est indemnisé au titre des IJ, des frais généraux permanents ou d’une l’invalidité supérieure ou égale à 66%."
+  ],
+  "indexation": null,
+  "page": 2
+ },
+ "special_conditions": [
+  {
+   "name": "Étendue territoriale",
+   "description": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
+   "page": 2
+  },
+  {
+   "name": "Conditions d’âge de l’assuré",
+   "description": "Assuré : toute personne âgée d’au moins 18 ans et au maximum de 59 ans, et désignée sur les Conditions Particulières.",
+   "page": 1
+  },
+  {
+   "name": "Désignation et modification du bénéficiaire",
+   "description": "Bénéficiaires : personne que vous avez désigné et qui recevra la prestation en cas de réalisation du risque. À tout moment, vous pouvez modifier le bénéficiaire.",
+   "page": 1
+  },
+  {
+   "name": "Fait générateur des garanties",
+   "description": "Les garanties sont déclenchées après accident ou maladie.",
+   "page": 1
+  },
+  {
+   "name": "Garanties systématiques",
+   "description": "Les garanties précédées d’une coche sont systématiquement prévues au contrat.",
+   "page": 1
+  },
+  {
+   "name": "Portée du document",
+   "description": "Ce document d’information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l’information complète sur ce produit dans la documentation précontractuelle et contractuelle.",
+   "page": 1
+  },
+  {
+   "name": "Assureur",
+   "description": "Thélem prévoyance, SA à conseil d’administration au capital de 12 000 580 € – Entreprise régie par le code des assurances Siège Social : Le Croc – BP 63130 – 45430 Chécy – immatriculée en France.",
+   "page": 1
+  }
+ ],
+ "key_quotes": [
+  {
+   "quote": "La Prévoyance Agri permet de garantir à l’exploitant agricole le maintien de son revenu en cas d’arrêt de travail et de protéger financièrement sa famille en cas de décès ou d’invalidité.",
+   "context": "De quel type d’assurance s’agit-il ?",
+   "page": 1
+  },
+  {
+   "quote": "Un capital en cas de décès ou de Perte total et irréversible d’autonomie (PTIA) : de 10 à 300 K€ avec une majoration de 50% si décès suite à accident",
+   "context": "Garanties systématiquement prévues",
+   "page": 1
+  },
+  {
+   "quote": "Des indemnités journalières (IJ) en cas d’arrêt de travail : jusqu’à 300 € par jour pendant 3 ans.",
+   "context": "Garanties systématiquement prévues",
+   "page": 1
+  },
+  {
+   "quote": "L’exonération des cotisations si l’assuré est indemnisé au titre des IJ, des frais généraux permanents ou d’une l’invalidité supérieure ou égale à 66%.",
+   "context": "Garanties systématiquement prévues",
+   "page": 1
+  },
+  {
+   "quote": "Rente éducation : jusqu’à 16 500 € /an pour protéger les enfants suite à décès ou perte totale et irréversible d’autonomie de l’assuré,",
+   "context": "Garanties optionnelles",
+   "page": 1
+  },
+  {
+   "quote": "Rente conjoint temporaire : jusqu’à 40 000 € par an pour protéger le conjoint suite à décès ou perte totale et irréversible d’autonomie de l’assuré,",
+   "context": "Garanties optionnelles",
+   "page": 1
+  },
+  {
+   "quote": "La tentative de suicide ou le suicide de l’assuré survenu dans la première année qui suit la date d’effet de la souscription,",
+   "context": "Principales exclusions",
+   "page": 1
+  },
+  {
+   "quote": "Invalidité ≤ 33%, nous ne versons aucune indemnité",
+   "context": "Principales restrictions",
+   "page": 1
+  },
+  {
+   "quote": "Les franchises et les délais d’attente suite à maladie qui varient en fonction des garanties et des pathologies.",
+   "context": "Principales restrictions",
+   "page": 1
+  },
+  {
+   "quote": "Tout événement assuré suite à maladie survenant pendant les délais d’attente.",
+   "context": "Qu’est-ce qui n’est pas assuré ?",
+   "page": 1
+  },
+  {
+   "quote": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse.",
+   "context": "Où suis-je couvert ?",
+   "page": 2
+  },
+  {
+   "quote": "Vous pouvez notamment mettre fin au contrat à l'échéance annuelle en respectant un préavis de deux mois.",
+   "context": "Comment puis-je résilier le contrat ?",
+   "page": 2
+  }
+ ],
+ "gaps": [
+  "Aucune date d’édition n’est imprimée dans le texte du document : edition_date laissé null. Le nom du fichier source (IPID_TP_PREVAGRI_440_072024.pdf) contient « 440_072024 », mais cette information ne figure pas dans le texte extrait, elle n’a donc pas été reportée dans reference ni edition_date.",
+  "Les montants des franchises et la durée des délais d’attente ne sont pas chiffrés : le document indique seulement qu’ils « varient en fonction des garanties et des pathologies ».",
+  "Aucun délai de prescription n’est mentionné dans ce document (prescription_period null) — normal pour un IPID, l’information figure dans les Dispositions Générales.",
+  "Aucune procédure de déclaration de sinistre détaillée (délai de déclaration, destinataire) n’est indiquée : seule l’obligation de « Fournir toutes les pièces justificatives » est mentionnée.",
+  "Le document ne contient pas de section « Définitions » formelle ; les entrées de definitions[] proviennent des mentions Assuré / Bénéficiaires et des sigles utilisés (PTIA, IJ).",
+  "Aucune mention d’un droit de rétractation ni de conditions tarifaires chiffrées (le document est un IPID de 2 pages).",
+  "edition_date remise a null le 2026-08-01: la valeur 2024-07 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5."
+ ]
 }

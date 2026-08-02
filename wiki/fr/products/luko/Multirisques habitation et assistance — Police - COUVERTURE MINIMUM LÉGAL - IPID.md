@@ -15,7 +15,7 @@ target_audience_note: « L’Assurance multirisques habitation est destinée à 
   et les locaux professionnels (sauf télétravail) ainsi que les marchandises professionnelles
   ne sont pas assurés.
 reference: null
-edition_date: 2025-04
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/habitation
@@ -31,7 +31,7 @@ prompt_version: '1.1'
 product_family: multirisques-habitation-et-assistance
 variant: COUVERTURE MINIMUM LÉGAL
 edition_status: null
-edition_age_years: 1
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -45,7 +45,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de deux pages présentant l’assurance multirisques habitation et assistance distribuée sous la marque Luko, dans sa formule « COUVERTURE MINIMUM LÉGAL ». Le produit est destiné à protéger les résidences principales et secondaires à usage d’habitation contre les dommages aux biens ainsi que les frais et pertes subies, et inclut des prestations d’assistance en cas de sinistre au domicile. Les garanties de base listées se limitent à l’incendie et événements assimilés, aux événements climatiques, aux dégâts des eaux, aux catastrophes naturelles et technologiques, aux attentats et actes de terrorisme et aux frais et pertes, complétés par la responsabilité civile vie privée, la responsabilité civile incendie/dégât des eaux et la défense-recours. Le risque multirisques habitation est porté par Allianz Direct Versicherungs-AG succursale France (Luko) et l’assistance par Opteven Assurances.
 
-- Assureur : [Luko](../../insurers/Luko.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information · Édition : 2025-04
+- Assureur : [Luko](../../insurers/Luko.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -181,10 +181,11 @@ Assistance : le stockage de vos bien meubles à concurrence de 500 € TTC.
 - Aucun délai de prescription, aucun délai de carence et aucun délai de déclaration chiffré ne figurent dans le document (le texte se limite à « dans les conditions et délais impartis »).
 - Le document nomme deux porteurs de risque distincts (Allianz Direct Versicherungs-AG succursale France pour la multirisque habitation, Opteven Assurances pour l’assistance) ; le champ insurer_name reprend la valeur canonique fournie par le pipeline et le détail imprimé est conservé dans special_conditions et key_quotes.
 - Orthographe du document conservée dans la garantie d’assistance stockage : « Le stockage de vos bien meubles à concurrence de 500 € TTC ».
+- edition_date remise a null le 2026-08-01: la valeur 2025-04 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Documents liés
 
-- [Multirisques habitation et assistance — Police - COUVERTURE ÉTENDUE - IPID](Multirisques%20habitation%20et%20assistance%20%E2%80%94%20Police%20-%20COUVERTURE%20%C3%89TENDUE%20-%20IPID.md) - IPID / Fiche d'information, éd. 2025-04
+- [Multirisques habitation et assistance — Police - COUVERTURE ÉTENDUE - IPID](Multirisques%20habitation%20et%20assistance%20%E2%80%94%20Police%20-%20COUVERTURE%20%C3%89TENDUE%20-%20IPID.md) - IPID / Fiche d'information
 
 ## Source & fidélité
 

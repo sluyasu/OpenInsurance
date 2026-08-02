@@ -243,10 +243,11 @@ Garantie optionnelle relevant de la rubrique « Garantie optionnelle (motocyclet
 - edition_date déduite du seul code de référence imprimé en pied de page 2, « IPID.FLOTTE- 11/24 », où « 11/24 » se lit MM/AA, soit novembre 2024. Le document ne porte aucune mention « édition » explicite, et ne porte qu'un seul code de référence.
 - Défaut du calque texte du PDF, sans incidence sur les valeurs extraites : 4 glyphes de zone privée U+F0FC (puces Wingdings) subsistent en début de puce (pages 1 et 2). Les key_quotes ont été découpées de façon à ne traverser aucun de ces glyphes. Le mot « camping-cars » est coupé par un vrai trait d'union en fin de ligne (« camping-\ncars ») dans l'intitulé de rubrique des garanties optionnelles ; aucune citation ne traverse cette coupure.
 - Les seuils de déclenchement de la Protection Juridique sont énoncés une seule fois pour l'ensemble des garanties de Protection Juridique ; le document ne précise pas s'ils s'appliquent identiquement à la « Protection Juridique suite à accident » et à la « Protection Juridique relative au bien assuré ». Ils ont été rattachés aux deux, comme le fait le texte (« les garanties de Protection Juridique »).
+- Provenance de edition_date: cette date ne vient pas du texte du document mais du manifeste, ou elle avait ete deduite lors de la decouverte. A verifier contre le document avant d'y appuyer une comparaison d'editions.
 
 ## Documents liés
 
-- [Flotte de véhicules](Flotte%20de%20v%C3%A9hicules.md) - Conditions générales, éd. 2024-11
+- [Flotte de véhicules](Flotte%20de%20v%C3%A9hicules.md) - Conditions générales
 
 ## Source & fidélité
 

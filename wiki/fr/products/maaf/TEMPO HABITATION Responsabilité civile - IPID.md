@@ -13,7 +13,7 @@ target_audience_note: Le document ne désigne pas de catégorie de clientèle. I
   au contrat » ; « L'exercice d'une activité professionnelle » figure parmi ce qui
   n'est pas assuré.
 reference: MU0_IPIDHA_00-240616-BNcr8r-6-1-2-01:01:15- HAB11023
-edition_date: 2024-06
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/rc-privee
@@ -29,7 +29,7 @@ prompt_version: '1.1'
 product_family: tempo-habitation
 variant: null
 edition_status: null
-edition_age_years: 2
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-08-01'
@@ -43,7 +43,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) relatif au contrat TEMPO HABITATION Responsabilité civile, une assurance Vie privée portée par MAAF Assurances SA, entreprise régie par le code des assurances (RCS Niort 542 073 580). Le contrat couvre la responsabilité civile des personnes désignées au contrat pour les dommages qu'elles peuvent causer à un tiers. Les garanties de base sont la Responsabilité civile vie privée (plafond 20 000 000 €), la Défense et recours suite à accident (plafond 20 000 €), la Responsabilité civile location occasionnelle (plafond 5 000 000 €), l'Assistance aux personnes et les Renseignements juridiques. Le document précise qu'il ne présente qu'un résumé des principales garanties et exclusions.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Responsabilité civile vie privée](../../branches/Responsabilit%C3%A9%20civile%20vie%20priv%C3%A9e.md) · Type : IPID / Fiche d'information · Édition : 2024-06
+- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Responsabilité civile vie privée](../../branches/Responsabilit%C3%A9%20civile%20vie%20priv%C3%A9e.md) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -124,6 +124,7 @@ Garantie de base. Le document n'en décrit ni le contenu ni le plafond, et n'ind
 - MONTANT DE LA FRANCHISE NON CHIFFRÉ : le document mentionne une franchise contractuelle (« Une somme peut rester à votre charge ») sans en indiquer le montant ni le mode de calcul.
 - PAS DE TRONCATURE : le texte du prompt couvre l'intégralité des 2 pages annoncées (source_pages: 2) ; il n'a pas été tronqué par le budget de caractères et aucune page n'est dépourvue de couche texte. Les citations ont été découpées programmatiquement page par page après retrait des marqueurs [page N], donc aucune ne traverse une frontière de page.
 - PRODUCT_FAMILY / IS_EXTENSION : le document s'intitule « TEMPO HABITATION Responsabilité civile » et ne se présente jamais comme une option, une extension ou un avenant d'un contrat de base ; is_extension est donc à false. product_family a été ramené à « TEMPO HABITATION », ce qui est une normalisation de notre part et non une mention du document.
+- edition_date remise a null le 2026-08-01: la valeur 2024-06 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

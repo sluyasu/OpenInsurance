@@ -13,7 +13,7 @@ target_audience_note: Le document ne désigne pas explicitement une clientèle. 
   de conduire spécifique ainsi que leurs remorques » et propose une garantie « Aménagement
   professionnels fixes », sans énoncer de catégorie de souscripteurs.
 reference: null
-edition_date: 2023-07
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/auto
@@ -29,7 +29,7 @@ prompt_version: '1.1'
 product_family: assurance-vehicule-de-plus-de-35-tonnes
 variant: null
 edition_status: null
-edition_age_years: 3
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -43,7 +43,7 @@ generated: true
 
 L’assurance Véhicule de plus de 3,5 tonnes est un contrat d’assurance de véhicule terrestre à moteur portant sur les véhicules de plus de 3,5 tonnes nécessitant un permis de conduire spécifique ainsi que leurs remorques. Elle garantit systématiquement la responsabilité civile (dommages causés aux tiers par le véhicule, plafond illimité pour les dommages corporels / 100 millions € pour les dommages matériels) et la Défense Pénale et Recours Suite à Accident jusqu’à 16 000 €. En option, le contrat prévoit la Protection du conducteur jusqu’à 600 000 €, les Dommages au véhicule (bris de glaces, catastrophes naturelles et technologiques, attentats, forces de la nature, incendie et dommages électroniques, vol et tentative de vol, dommages tous accidents et vandalisme), le Contenu de la cabine jusqu’à 1 000 € et les Aménagements professionnels fixes jusqu’à 20 000 €. Le document est un IPID de 2 pages qui, selon ses propres termes, ne présente qu’un résumé des principales garanties et exclusions du contrat.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 2023-07
+- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -184,6 +184,7 @@ Garantir les aménagements du véhicule jusqu’à 20 000 €.
 - Contrairement à d’autres IPID Thélem, ce document ne mentionne pas de faculté de résiliation à tout moment après un an : seule la résiliation à l’échéance annuelle avec préavis de deux mois est citée.
 - Le document indique lui-même n’être qu’un résumé : « Ce document d’information présente un résumé des principales garanties et exclusions du contrat ». La liste exhaustive des garanties, exclusions et franchises figure dans les Dispositions Générales, non fournies ici.
 - Les cas de résiliation et les délais à respecter ne sont pas détaillés : le document renvoie à la réglementation et aux Dispositions Générales.
+- edition_date remise a null le 2026-08-01: la valeur 2023-07 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

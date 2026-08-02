@@ -35,7 +35,7 @@ extraction_model: claude-code-subagent:scale
 prompt_version: '1.1'
 product_family: caducee
 variant: null
-edition_status: superseded
+edition_status: null
 edition_age_years: 3
 superseded: true
 extends: null
@@ -870,8 +870,7 @@ Toute action dérivant du présent contrat, qu’il s’agisse de sa validité o
 
 ## Documents liés
 
-- ⚠️ Édition remplacée par une version plus récente : [Matmut « Caducée »](Matmut%20%C2%AB%20Caduc%C3%A9e%20%C2%BB.md)
-- [Matmut « Caducée »](Matmut%20%C2%AB%20Caduc%C3%A9e%20%C2%BB.md) - Conditions générales, éd. 2024-11
+- [Matmut « Caducée »](Matmut%20%C2%AB%20Caduc%C3%A9e%20%C2%BB.md) - Conditions générales
 
 ## Source & fidélité
 

@@ -51,7 +51,7 @@ generated: true
 - [Assurance vie Responsable et Solidaire - Annexes à la Notice d'information](../products/maif/Assurance%20vie%20Responsable%20et%20Solidaire%20-%20Annexes%20%C3%A0%20la%20Notice%20d%27information.md) - Conditions générales (06/26) · réf. NIA16
 - [Fonds en euros - Doc](../products/maif/Fonds%20en%20euros%20-%20Doc.md) - Document (06/26) · réf. DIS16 - 06/26
 - [Historique des rendements du support en euros - Doc](../products/maif/Historique%20des%20rendements%20du%20support%20en%20euros%20-%20Doc.md) - Document (01/2026) · réf. PALP - 01/2026
-- [Informations réglementaires sur les actifs référencés dans le contrat - Doc](../products/maif/Informations%20r%C3%A9glementaires%20sur%20les%20actifs%20r%C3%A9f%C3%A9renc%C3%A9s%20dans%20le%20contrat%20-%20Doc.md) - Document (2025) · réf. Relevé annuel 2025
+- [Informations réglementaires sur les actifs référencés dans le contrat - Doc](../products/maif/Informations%20r%C3%A9glementaires%20sur%20les%20actifs%20r%C3%A9f%C3%A9renc%C3%A9s%20dans%20le%20contrat%20-%20Doc.md) - Document · réf. Relevé annuel 2025
 - [Publication relative aux contrats d'assurance vie non réglés (art. L. 132-9-4) - Doc](../products/maif/Publication%20relative%20aux%20contrats%20d%27assurance%20vie%20non%20r%C3%A9gl%C3%A9s%20%28art.%20L.%20132-9-4%29%20-%20Doc.md) - Document (04/2026) · réf. TLOIE - 04/2026
 - [fonds en euros du contrat Assurance vie Responsable et Solidaire - Doc](../products/maif/fonds%20en%20euros%20du%20contrat%20Assurance%20vie%20Responsable%20et%20Solidaire%20-%20Doc.md) - Document (06/26) · réf. CESC€16 - 06/26
 
@@ -62,7 +62,7 @@ generated: true
 - [Assurance auto professionnelle - IPID](../products/maif/Assurance%20auto%20professionnelle%20-%20IPID.md) - IPID / Fiche d'information (03/2026) · réf. IPID AAP
 - [Assurance corporelle conducteur passagers - Pacs](../products/maif/Assurance%20corporelle%20conducteur%20passagers%20-%20Pacs.md) - Conditions générales (03/2026) · réf. M6202PACA
 - [Assurance corporelle conducteur passagers - Pacs - IPID](../products/maif/Assurance%20corporelle%20conducteur%20passagers%20-%20Pacs%20-%20IPID.md) - IPID / Fiche d'information (11/2023) · réf. IPID PACS - RGAA
-- [Assurance véhicules Vam Associations et Collectivités](../products/maif/Assurance%20v%C3%A9hicules%20Vam%20Associations%20et%20Collectivit%C3%A9s.md) - Conditions générales (2025-10) · réf. M6202VACA
+- [Assurance véhicules Vam Associations et Collectivités](../products/maif/Assurance%20v%C3%A9hicules%20Vam%20Associations%20et%20Collectivit%C3%A9s.md) - Conditions générales · réf. M6202VACA
 - [Auto-mission - IPID](../products/maif/Auto-mission%20-%20IPID.md) - IPID / Fiche d'information (02-2025) · réf. IPID AUTO-MISSION
 - [Vam Associations et Collectivités - IPID](../products/maif/Vam%20Associations%20et%20Collectivit%C3%A9s%20-%20IPID.md) - IPID / Fiche d'information (10/2025) · réf. IPID VAM A&C
 - [Véhicules entreprises - IPID](../products/maif/V%C3%A9hicules%20entreprises%20-%20IPID.md) - IPID / Fiche d'information (09-2022) · réf. IPID VÉHI ENT

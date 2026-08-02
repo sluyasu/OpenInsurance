@@ -1,555 +1,555 @@
 {
-  "schema_version": "1.0",
-  "prompt_version": "1.1",
-  "country": "fr",
-  "insurer_slug": "thelem",
-  "insurer_name": "Thélem assurances",
-  "product_name": "Prévoyance Pro Madelin",
-  "branch": "prevoyance",
-  "branch_code": null,
-  "document_type": "ipid",
-  "language": "fr",
-  "target_audience": "independants",
-  "target_audience_note": "Le chef d’entreprise. Assuré : toute personne âgée d’au moins 18 ans et au maximum de 62 ans, et désignée sur les Conditions Particulières. Souscription du contrat Prévoyance Pro Madelin ouvrant droit aux avantages fiscaux de la Loi Madelin avec adhésion à l’association AREP.",
-  "reference": null,
-  "edition_date": null,
-  "product_family": "Prévoyance Pro",
-  "variant": "Madelin",
-  "is_extension": false,
-  "extends": null,
-  "superseded": null,
-  "source_url": "https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TP_Prev-madelin_ISIS_v2.pdf",
-  "source_pdf": "prevoyance-pro-madelin-4a9e8c78.pdf",
-  "source_sha256": "827cbee924abfa3582a2ee1c2ed2cc0c0beb057bd32079329e6a005a59ab6957",
-  "source_pages": 2,
-  "fetched_at": "2026-07-30",
-  "extraction_model": "claude-code-subagent:scale",
-  "summary": "Document d’information sur le produit d’assurance (IPID) du contrat Prévoyance Pro Madelin de Thélem prévoyance. La Prévoyance Pro permet de garantir au chef d’entreprise le maintien de son revenu en cas d’arrêt de travail et de protéger financièrement sa famille en cas de décès ou d’invalidité, les garanties étant déclenchées après accident ou maladie. Sont systématiquement prévus un capital décès/PTIA, un soutien psychologique, des indemnités journalières, les frais généraux professionnels permanents ou frais de remplacement, une rente invalidité et l’exonération des cotisations. En souscrivant le contrat Prévoyance Pro Madelin, l’assuré bénéficie des avantages fiscaux de la Loi Madelin et adhère à l’association AREP.",
-  "definitions": [
-    {
-      "term": "Assuré",
-      "definition": "toute personne âgée d’au moins 18 ans et au maximum de 62 ans, et désignée sur les Conditions Particulières.",
-      "page": 1
-    },
-    {
-      "term": "Bénéficiaire",
-      "definition": "personne désignée et qui recevra la prestation en cas de réalisation du risque. À tout moment, vous pouvez modifier le bénéficiaire.",
-      "page": 1
-    },
-    {
-      "term": "PTIA",
-      "definition": "Perte totale et irréversible d’autonomie (PTIA)",
-      "page": 1
-    },
-    {
-      "term": "FGPP",
-      "definition": "Frais généraux professionnels permanents (FGPP)",
-      "page": 1
-    },
-    {
-      "term": "IJ",
-      "definition": "Indemnités journalières (IJ) en cas d’arrêt de travail",
-      "page": 1
-    },
-    {
-      "term": "AREP",
-      "definition": "Vous avez la possibilité de bénéficier des avantages fiscaux de la Loi Madelin en souscrivant le contrat Prévoyance Pro Madelin et vous adhérez alors à l’association AREP.",
-      "page": 1
-    }
-  ],
-  "coverages": [
-    {
-      "name": "Capital en cas de décès ou de Perte totale et irréversible d’autonomie (PTIA)",
-      "description": "Capital en cas de décès ou de Perte totale et irréversible d’autonomie (PTIA) : de 50 à 300 K€ selon formule.",
-      "is_optional": false,
-      "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
-      "limits": "de 50 à 300 K€ selon formule",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "selon formule",
-        "Les garanties sont déclenchées après accident ou maladie."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Soutien psychologique",
-      "description": "Soutien psychologique : suite à décès/PTIA de l’assuré, 4 séances maximum (80 € maximum par séance).",
-      "is_optional": false,
-      "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
-      "limits": "4 séances maximum (80 € maximum par séance)",
-      "sub_limits": [
-        "80 € maximum par séance",
-        "4 séances maximum"
-      ],
-      "deductible": null,
-      "conditions": [
-        "suite à décès/PTIA de l’assuré"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Indemnités journalières (IJ) en cas d’arrêt de travail",
-      "description": "Indemnités journalières (IJ) en cas d’arrêt de travail : de 35 à 300 € par jour pendant 3 ans. Pour les formules 1 à 4 et accident, suppression de la franchise si accident ou hospitalisation (sous conditions).",
-      "is_optional": false,
-      "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
-      "limits": "de 35 à 300 € par jour pendant 3 ans",
-      "sub_limits": [],
-      "deductible": "Les franchises et les délais d’attente suite à maladie qui varient en fonction des garanties et des pathologies. Pour les formules 1 à 4 et accident, suppression de la franchise si accident ou hospitalisation (sous conditions)",
-      "conditions": [
-        "Pour les formules 1 à 4 et accident, suppression de la franchise si accident ou hospitalisation (sous conditions)",
-        "Les garanties sont déclenchées après accident ou maladie."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Frais généraux professionnels permanents (FGPP) ou frais de remplacement",
-      "description": "Frais généraux professionnels permanents (FGPP) ou frais de remplacement : garantie des frais d’exploitation de l’entreprise (loyers, charges de personnel, impôts, eau, électricité).",
-      "is_optional": false,
-      "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Rente invalidité",
-      "description": "Rente invalidité : versement d’une rente en fonction de votre taux d’invalidité (formule 1 à 4).",
-      "is_optional": false,
-      "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "formule 1 à 4",
-        "Invalidité < 33%, nous ne versons aucune indemnité."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Exonération des cotisations",
-      "description": "Exonération des cotisations si l’assuré est indemnisé au titre des IJ, des FGPP ou d’une l’invalidité supérieure ou égale à 66%.",
-      "is_optional": false,
-      "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "si l’assuré est indemnisé au titre des IJ, des FGPP ou d’une l’invalidité supérieure ou égale à 66%"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Capital supplémentaire en cas de décès ou de PTIA",
-      "description": "Un capital supplémentaire en cas de décès ou de PTIA (formule sur-mesure uniquement).",
-      "is_optional": true,
-      "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "formule sur-mesure uniquement"
-      ],
-      "page": 1
-    },
-    {
-      "name": "FGPP ou frais de remplacement (option)",
-      "description": "FGPP ou frais de remplacement (formule sur-mesure).",
-      "is_optional": true,
-      "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "formule sur-mesure"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Suppression de la franchise si accident ou hospitalisation",
-      "description": "Suppression de la franchise si accident ou hospitalisation (formule sur-mesure).",
-      "is_optional": true,
-      "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "formule sur-mesure"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Rente invalidité (option)",
-      "description": "Rente invalidité (formule sur-mesure et accident).",
-      "is_optional": true,
-      "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "formule sur-mesure et accident",
-        "Invalidité < 33%, nous ne versons aucune indemnité."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Rente éducation progressive",
-      "description": "Rente éducation progressive : jusqu’à 30 K€ /an pour protéger les enfants suite à décès ou PTIA de l’assuré (formule sur-mesure).",
-      "is_optional": true,
-      "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
-      "limits": "jusqu’à 30 K€ /an",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "formule sur-mesure",
-        "La rente éducation cesse lorsque l’enfant n’est plus considéré à charge ou lorsqu’il a atteint son 25ème anniversaire (28ème si l’enfant est en situation de handicap)."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Rente conjoint temporaire",
-      "description": "Rente conjoint temporaire : jusqu’à 40 K€ pour protéger le conjoint suite à décès ou PTIA de l’assuré (formule sur-mesure).",
-      "is_optional": true,
-      "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
-      "limits": "jusqu’à 40 K€",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "formule sur-mesure",
-        "La rente conjoint cesse en cas de remariage du conjoint(e) survivant ou de conclusion d’un PACS."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Revalorisation",
-      "description": "Revalorisation du capital décès/PTIA, IJ, FGPP ou frais de remplacement, (et renfort enfants) de 2% par an.",
-      "is_optional": true,
-      "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
-      "limits": "de 2% par an",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    }
-  ],
-  "exclusions": [
-    {
-      "name": "Suicide ou tentative de suicide dans la première année",
-      "description": "Le suicide ou la tentative de suicide de l’assuré survenu dans la première année qui suit la date d’effet du contrat.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Fait intentionnel",
-      "description": "Le fait intentionnel de l’assuré, du bénéficiaire ou de toute personne à qui l’assurance profiterait même indirectement.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Paris, défis, raids et tentatives de records ou d’exploits",
-      "description": "Les paris, défis, raids et tentatives de records ou d’exploits.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "État alcoolique ou stupéfiants lors de la conduite d’un véhicule terrestre à moteur",
-      "description": "Lors de la conduite d’un véhicule terrestre à moteur : l’état alcoolique caractérisé par un taux d’alcool supérieur ou égal au taux légalement autorisé ou lorsque l’assuré est sous l’influence de substances ou plantes classées comme stupéfiants non prescrites médicalement.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Dépendance pathologique à l’alcool et usage de stupéfiants",
-      "description": "La dépendance pathologique à l’alcool, ainsi que l’usage de de plantes ou substances classées comme stupéfiants.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Refus volontaire de traitement",
-      "description": "Le refus volontaire de traitement.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Sport exercé à titre professionnel",
-      "description": "La pratique de sport exercé à titre professionnel.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Sports aériens",
-      "description": "La pratique de sports aériens.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Événement suite à maladie survenant pendant les délais d’attente",
-      "description": "Tout événement assuré suite à maladie survenant pendant les délais d’attente.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Professions exclues",
-      "description": "Sont exclues certaines professions et notamment : agent de sécurité, chauffeur routier avec transport de matériaux dangereux, docker, forain...",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Restriction — Invalidité < 33%",
-      "description": "Invalidité < 33%, nous ne versons aucune indemnité.",
-      "applies_to": "Rente invalidité",
-      "page": 1
-    },
-    {
-      "name": "Restriction — cessation de la rente éducation",
-      "description": "La rente éducation cesse lorsque l’enfant n’est plus considéré à charge ou lorsqu’il a atteint son 25ème anniversaire (28ème si l’enfant est en situation de handicap).",
-      "applies_to": "Rente éducation progressive",
-      "page": 1
-    },
-    {
-      "name": "Restriction — cessation de la rente conjoint",
-      "description": "La rente conjoint cesse en cas de remariage du conjoint(e) survivant ou de conclusion d’un PACS.",
-      "applies_to": "Rente conjoint temporaire",
-      "page": 1
-    },
-    {
-      "name": "Restriction — franchises et délais d’attente",
-      "description": "Les franchises et les délais d’attente suite à maladie qui varient en fonction des garanties et des pathologies.",
-      "applies_to": "all",
-      "page": 1
-    }
-  ],
-  "deductibles": {
-    "standard": null,
-    "variable": "Les franchises et les délais d’attente suite à maladie qui varient en fonction des garanties et des pathologies.",
-    "per_coverage": {
-      "Indemnités journalières (IJ) en cas d’arrêt de travail": "Pour les formules 1 à 4 et accident, suppression de la franchise si accident ou hospitalisation (sous conditions)",
-      "Suppression de la franchise si accident ou hospitalisation": "formule sur-mesure"
-    },
-    "page": 1
+ "schema_version": "1.0",
+ "prompt_version": "1.1",
+ "country": "fr",
+ "insurer_slug": "thelem",
+ "insurer_name": "Thélem assurances",
+ "product_name": "Prévoyance Pro Madelin",
+ "branch": "prevoyance",
+ "branch_code": null,
+ "document_type": "ipid",
+ "language": "fr",
+ "target_audience": "independants",
+ "target_audience_note": "Le chef d’entreprise. Assuré : toute personne âgée d’au moins 18 ans et au maximum de 62 ans, et désignée sur les Conditions Particulières. Souscription du contrat Prévoyance Pro Madelin ouvrant droit aux avantages fiscaux de la Loi Madelin avec adhésion à l’association AREP.",
+ "reference": null,
+ "edition_date": null,
+ "product_family": "Prévoyance Pro",
+ "variant": "Madelin",
+ "is_extension": false,
+ "extends": null,
+ "superseded": null,
+ "source_url": "https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TP_Prev-madelin_ISIS_v2.pdf",
+ "source_pdf": "prevoyance-pro-madelin-4a9e8c78.pdf",
+ "source_sha256": "827cbee924abfa3582a2ee1c2ed2cc0c0beb057bd32079329e6a005a59ab6957",
+ "source_pages": 2,
+ "fetched_at": "2026-07-30",
+ "extraction_model": "claude-code-subagent:scale",
+ "summary": "Document d’information sur le produit d’assurance (IPID) du contrat Prévoyance Pro Madelin de Thélem prévoyance. La Prévoyance Pro permet de garantir au chef d’entreprise le maintien de son revenu en cas d’arrêt de travail et de protéger financièrement sa famille en cas de décès ou d’invalidité, les garanties étant déclenchées après accident ou maladie. Sont systématiquement prévus un capital décès/PTIA, un soutien psychologique, des indemnités journalières, les frais généraux professionnels permanents ou frais de remplacement, une rente invalidité et l’exonération des cotisations. En souscrivant le contrat Prévoyance Pro Madelin, l’assuré bénéficie des avantages fiscaux de la Loi Madelin et adhère à l’association AREP.",
+ "definitions": [
+  {
+   "term": "Assuré",
+   "definition": "toute personne âgée d’au moins 18 ans et au maximum de 62 ans, et désignée sur les Conditions Particulières.",
+   "page": 1
   },
-  "waiting_periods": [
-    {
-      "coverage": "all",
-      "duration": null,
-      "description": "Tout événement assuré suite à maladie survenant pendant les délais d’attente n’est pas assuré.",
-      "page": 1
-    },
-    {
-      "coverage": "all",
-      "duration": "varient en fonction des garanties et des pathologies",
-      "description": "Les franchises et les délais d’attente suite à maladie qui varient en fonction des garanties et des pathologies.",
-      "page": 1
-    }
-  ],
-  "obligations": [
-    {
-      "name": "Répondre exactement aux questions posées",
-      "description": "Répondre exactement aux questions posées lors de la souscription afin d’apprécier les risques et fixer la cotisation.",
-      "timing": "A la souscription du contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Fournir les documents justificatifs",
-      "description": "Fournir tous les documents justificatifs demandés.",
-      "timing": "A la souscription du contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Compléter et signer la demande de souscription",
-      "description": "Compléter et signer la demande de souscription, l’adhésion à l’association AREP (Pro Madelin), le questionnaire médical ou la déclaration de bonne santé.",
-      "timing": "A la souscription du contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Déclarer les circonstances nouvelles",
-      "description": "Déclarer toutes les circonstances nouvelles qui modifient les informations fournies lors de la souscription.",
-      "timing": "En cours de contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Régler les cotisations",
-      "description": "Régler les cotisations à la date convenue.",
-      "timing": "En cours de contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Fournir les pièces justificatives",
-      "description": "Fournir toutes les pièces justificatives.",
-      "timing": "En cas de sinistre",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
-      "page": 2
-    }
-  ],
-  "claims_procedure": [
-    {
-      "step": "En cas de sinistre",
-      "description": "Fournir toutes les pièces justificatives.",
-      "deadline": null,
-      "page": 2
-    }
-  ],
-  "duration_and_cancellation": {
-    "duration": "Le contrat prend effet à la date de réception du dossier de souscription complet sous réserve d’acceptation médicale ou à la date d’effet indiquée sur la demande de souscription si celle-ci est postérieure. Le contrat est souscrit jusqu’à la prochaine échéance principale (1er janvier) et est renouvelable par tacite reconduction à chaque nouvelle échéance principale avec les facultés de résiliation prévues.",
-    "tacit_renewal": true,
-    "notice_period": "Vous pouvez notamment mettre fin au contrat à l'échéance annuelle en respectant un préavis de deux mois.",
-    "methods": [
-      "par lettre ou tout autre support durable",
-      "par déclaration faite au siège social ou chez notre représentant",
-      "par acte extrajudiciaire",
-      "via la fonctionnalité mise en place sur le site internet"
-    ],
-    "special_rights": [
-      "Les cas de résiliation, les délais à respecter sont ceux prévus par la règlementation et précisés dans les Dispositions Générales.",
-      "Nous vous confirmerons par écrit la réception de la notification.",
-      "en cas de résiliation suite à modification de votre situation selon les termes des articles L113-16 et R.113-6 du Code des assurances, vous devrez notifier la résiliation par lettre recommandée (papier ou électronique) avec demande d'avis de réception"
-    ],
-    "page": 2
+  {
+   "term": "Bénéficiaire",
+   "definition": "personne désignée et qui recevra la prestation en cas de réalisation du risque. À tout moment, vous pouvez modifier le bénéficiaire.",
+   "page": 1
   },
-  "prescription_period": null,
-  "premium": {
-    "notes": [
-      "La cotisation annuelle (ainsi que les frais, taxes et contributions fixées par l’Etat) se paie à la date ou aux dates indiquées sur les Conditions Particulières.",
-      "Un paiement fractionné peut toutefois être accordé (Mensuel, Trimestriel).",
-      "Les paiements peuvent être effectués par carte bancaire, chèque ou prélèvement automatique.",
-      "Exonération des cotisations si l’assuré est indemnisé au titre des IJ, des FGPP ou d’une l’invalidité supérieure ou égale à 66%.",
-      "Vous avez la possibilité de bénéficier des avantages fiscaux de la Loi Madelin en souscrivant le contrat Prévoyance Pro Madelin et vous adhérez alors à l’association AREP."
-    ],
-    "indexation": "Revalorisation du capital décès/PTIA, IJ, FGPP ou frais de remplacement, (et renfort enfants) de 2% par an.",
-    "page": 2
+  {
+   "term": "PTIA",
+   "definition": "Perte totale et irréversible d’autonomie (PTIA)",
+   "page": 1
   },
-  "special_conditions": [
-    {
-      "name": "Étendue territoriale",
-      "description": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
-      "page": 2
-    },
-    {
-      "name": "Conditions d’âge de l’assuré",
-      "description": "Assuré : toute personne âgée d’au moins 18 ans et au maximum de 62 ans, et désignée sur les Conditions Particulières.",
-      "page": 1
-    },
-    {
-      "name": "Désignation et modification du bénéficiaire",
-      "description": "Bénéficiaire : personne désignée et qui recevra la prestation en cas de réalisation du risque. À tout moment, vous pouvez modifier le bénéficiaire.",
-      "page": 1
-    },
-    {
-      "name": "Cadre fiscal Loi Madelin et adhésion à l’association AREP",
-      "description": "Vous avez la possibilité de bénéficier des avantages fiscaux de la Loi Madelin en souscrivant le contrat Prévoyance Pro Madelin et vous adhérez alors à l’association AREP.",
-      "page": 1
-    },
-    {
-      "name": "Formules",
-      "description": "Le contrat est décliné en formules (formules 1 à 4, formule accident, formule sur-mesure) dont dépendent le niveau des garanties et l’accès à certaines options.",
-      "page": 1
-    },
-    {
-      "name": "Fait générateur des garanties",
-      "description": "Les garanties sont déclenchées après accident ou maladie.",
-      "page": 1
-    },
-    {
-      "name": "Garanties systématiques",
-      "description": "Les garanties précédées d’une coche sont systématiquement prévues au contrat.",
-      "page": 1
-    },
-    {
-      "name": "Portée du document",
-      "description": "Ce document d’information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l’information complète sur ce produit dans la documentation précontractuelle et contractuelle.",
-      "page": 1
-    },
-    {
-      "name": "Assureur",
-      "description": "Thélem prévoyance, SA à conseil d’administration au capital de 12 000 580 € – Entreprise régie par le code des assurances Siège Social : Le Croc – BP 63130 – 45430 Chécy – immatriculée en France.",
-      "page": 1
-    }
+  {
+   "term": "FGPP",
+   "definition": "Frais généraux professionnels permanents (FGPP)",
+   "page": 1
+  },
+  {
+   "term": "IJ",
+   "definition": "Indemnités journalières (IJ) en cas d’arrêt de travail",
+   "page": 1
+  },
+  {
+   "term": "AREP",
+   "definition": "Vous avez la possibilité de bénéficier des avantages fiscaux de la Loi Madelin en souscrivant le contrat Prévoyance Pro Madelin et vous adhérez alors à l’association AREP.",
+   "page": 1
+  }
+ ],
+ "coverages": [
+  {
+   "name": "Capital en cas de décès ou de Perte totale et irréversible d’autonomie (PTIA)",
+   "description": "Capital en cas de décès ou de Perte totale et irréversible d’autonomie (PTIA) : de 50 à 300 K€ selon formule.",
+   "is_optional": false,
+   "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
+   "limits": "de 50 à 300 K€ selon formule",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "selon formule",
+    "Les garanties sont déclenchées après accident ou maladie."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Soutien psychologique",
+   "description": "Soutien psychologique : suite à décès/PTIA de l’assuré, 4 séances maximum (80 € maximum par séance).",
+   "is_optional": false,
+   "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
+   "limits": "4 séances maximum (80 € maximum par séance)",
+   "sub_limits": [
+    "80 € maximum par séance",
+    "4 séances maximum"
+   ],
+   "deductible": null,
+   "conditions": [
+    "suite à décès/PTIA de l’assuré"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Indemnités journalières (IJ) en cas d’arrêt de travail",
+   "description": "Indemnités journalières (IJ) en cas d’arrêt de travail : de 35 à 300 € par jour pendant 3 ans. Pour les formules 1 à 4 et accident, suppression de la franchise si accident ou hospitalisation (sous conditions).",
+   "is_optional": false,
+   "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
+   "limits": "de 35 à 300 € par jour pendant 3 ans",
+   "sub_limits": [],
+   "deductible": "Les franchises et les délais d’attente suite à maladie qui varient en fonction des garanties et des pathologies. Pour les formules 1 à 4 et accident, suppression de la franchise si accident ou hospitalisation (sous conditions)",
+   "conditions": [
+    "Pour les formules 1 à 4 et accident, suppression de la franchise si accident ou hospitalisation (sous conditions)",
+    "Les garanties sont déclenchées après accident ou maladie."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Frais généraux professionnels permanents (FGPP) ou frais de remplacement",
+   "description": "Frais généraux professionnels permanents (FGPP) ou frais de remplacement : garantie des frais d’exploitation de l’entreprise (loyers, charges de personnel, impôts, eau, électricité).",
+   "is_optional": false,
+   "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Rente invalidité",
+   "description": "Rente invalidité : versement d’une rente en fonction de votre taux d’invalidité (formule 1 à 4).",
+   "is_optional": false,
+   "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "formule 1 à 4",
+    "Invalidité < 33%, nous ne versons aucune indemnité."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Exonération des cotisations",
+   "description": "Exonération des cotisations si l’assuré est indemnisé au titre des IJ, des FGPP ou d’une l’invalidité supérieure ou égale à 66%.",
+   "is_optional": false,
+   "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "si l’assuré est indemnisé au titre des IJ, des FGPP ou d’une l’invalidité supérieure ou égale à 66%"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Capital supplémentaire en cas de décès ou de PTIA",
+   "description": "Un capital supplémentaire en cas de décès ou de PTIA (formule sur-mesure uniquement).",
+   "is_optional": true,
+   "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "formule sur-mesure uniquement"
+   ],
+   "page": 1
+  },
+  {
+   "name": "FGPP ou frais de remplacement (option)",
+   "description": "FGPP ou frais de remplacement (formule sur-mesure).",
+   "is_optional": true,
+   "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "formule sur-mesure"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Suppression de la franchise si accident ou hospitalisation",
+   "description": "Suppression de la franchise si accident ou hospitalisation (formule sur-mesure).",
+   "is_optional": true,
+   "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "formule sur-mesure"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Rente invalidité (option)",
+   "description": "Rente invalidité (formule sur-mesure et accident).",
+   "is_optional": true,
+   "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "formule sur-mesure et accident",
+    "Invalidité < 33%, nous ne versons aucune indemnité."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Rente éducation progressive",
+   "description": "Rente éducation progressive : jusqu’à 30 K€ /an pour protéger les enfants suite à décès ou PTIA de l’assuré (formule sur-mesure).",
+   "is_optional": true,
+   "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
+   "limits": "jusqu’à 30 K€ /an",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "formule sur-mesure",
+    "La rente éducation cesse lorsque l’enfant n’est plus considéré à charge ou lorsqu’il a atteint son 25ème anniversaire (28ème si l’enfant est en situation de handicap)."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Rente conjoint temporaire",
+   "description": "Rente conjoint temporaire : jusqu’à 40 K€ pour protéger le conjoint suite à décès ou PTIA de l’assuré (formule sur-mesure).",
+   "is_optional": true,
+   "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
+   "limits": "jusqu’à 40 K€",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "formule sur-mesure",
+    "La rente conjoint cesse en cas de remariage du conjoint(e) survivant ou de conclusion d’un PACS."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Revalorisation",
+   "description": "Revalorisation du capital décès/PTIA, IJ, FGPP ou frais de remplacement, (et renfort enfants) de 2% par an.",
+   "is_optional": true,
+   "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
+   "limits": "de 2% par an",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Suicide ou tentative de suicide dans la première année",
+   "description": "Le suicide ou la tentative de suicide de l’assuré survenu dans la première année qui suit la date d’effet du contrat.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Fait intentionnel",
+   "description": "Le fait intentionnel de l’assuré, du bénéficiaire ou de toute personne à qui l’assurance profiterait même indirectement.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Paris, défis, raids et tentatives de records ou d’exploits",
+   "description": "Les paris, défis, raids et tentatives de records ou d’exploits.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "État alcoolique ou stupéfiants lors de la conduite d’un véhicule terrestre à moteur",
+   "description": "Lors de la conduite d’un véhicule terrestre à moteur : l’état alcoolique caractérisé par un taux d’alcool supérieur ou égal au taux légalement autorisé ou lorsque l’assuré est sous l’influence de substances ou plantes classées comme stupéfiants non prescrites médicalement.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Dépendance pathologique à l’alcool et usage de stupéfiants",
+   "description": "La dépendance pathologique à l’alcool, ainsi que l’usage de de plantes ou substances classées comme stupéfiants.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Refus volontaire de traitement",
+   "description": "Le refus volontaire de traitement.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Sport exercé à titre professionnel",
+   "description": "La pratique de sport exercé à titre professionnel.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Sports aériens",
+   "description": "La pratique de sports aériens.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Événement suite à maladie survenant pendant les délais d’attente",
+   "description": "Tout événement assuré suite à maladie survenant pendant les délais d’attente.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Professions exclues",
+   "description": "Sont exclues certaines professions et notamment : agent de sécurité, chauffeur routier avec transport de matériaux dangereux, docker, forain...",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Restriction — Invalidité < 33%",
+   "description": "Invalidité < 33%, nous ne versons aucune indemnité.",
+   "applies_to": "Rente invalidité",
+   "page": 1
+  },
+  {
+   "name": "Restriction — cessation de la rente éducation",
+   "description": "La rente éducation cesse lorsque l’enfant n’est plus considéré à charge ou lorsqu’il a atteint son 25ème anniversaire (28ème si l’enfant est en situation de handicap).",
+   "applies_to": "Rente éducation progressive",
+   "page": 1
+  },
+  {
+   "name": "Restriction — cessation de la rente conjoint",
+   "description": "La rente conjoint cesse en cas de remariage du conjoint(e) survivant ou de conclusion d’un PACS.",
+   "applies_to": "Rente conjoint temporaire",
+   "page": 1
+  },
+  {
+   "name": "Restriction — franchises et délais d’attente",
+   "description": "Les franchises et les délais d’attente suite à maladie qui varient en fonction des garanties et des pathologies.",
+   "applies_to": "all",
+   "page": 1
+  }
+ ],
+ "deductibles": {
+  "standard": null,
+  "variable": "Les franchises et les délais d’attente suite à maladie qui varient en fonction des garanties et des pathologies.",
+  "per_coverage": {
+   "Indemnités journalières (IJ) en cas d’arrêt de travail": "Pour les formules 1 à 4 et accident, suppression de la franchise si accident ou hospitalisation (sous conditions)",
+   "Suppression de la franchise si accident ou hospitalisation": "formule sur-mesure"
+  },
+  "page": 1
+ },
+ "waiting_periods": [
+  {
+   "coverage": "all",
+   "duration": null,
+   "description": "Tout événement assuré suite à maladie survenant pendant les délais d’attente n’est pas assuré.",
+   "page": 1
+  },
+  {
+   "coverage": "all",
+   "duration": "varient en fonction des garanties et des pathologies",
+   "description": "Les franchises et les délais d’attente suite à maladie qui varient en fonction des garanties et des pathologies.",
+   "page": 1
+  }
+ ],
+ "obligations": [
+  {
+   "name": "Répondre exactement aux questions posées",
+   "description": "Répondre exactement aux questions posées lors de la souscription afin d’apprécier les risques et fixer la cotisation.",
+   "timing": "A la souscription du contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Fournir les documents justificatifs",
+   "description": "Fournir tous les documents justificatifs demandés.",
+   "timing": "A la souscription du contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Compléter et signer la demande de souscription",
+   "description": "Compléter et signer la demande de souscription, l’adhésion à l’association AREP (Pro Madelin), le questionnaire médical ou la déclaration de bonne santé.",
+   "timing": "A la souscription du contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Déclarer les circonstances nouvelles",
+   "description": "Déclarer toutes les circonstances nouvelles qui modifient les informations fournies lors de la souscription.",
+   "timing": "En cours de contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Régler les cotisations",
+   "description": "Régler les cotisations à la date convenue.",
+   "timing": "En cours de contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Fournir les pièces justificatives",
+   "description": "Fournir toutes les pièces justificatives.",
+   "timing": "En cas de sinistre",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+   "page": 2
+  }
+ ],
+ "claims_procedure": [
+  {
+   "step": "En cas de sinistre",
+   "description": "Fournir toutes les pièces justificatives.",
+   "deadline": null,
+   "page": 2
+  }
+ ],
+ "duration_and_cancellation": {
+  "duration": "Le contrat prend effet à la date de réception du dossier de souscription complet sous réserve d’acceptation médicale ou à la date d’effet indiquée sur la demande de souscription si celle-ci est postérieure. Le contrat est souscrit jusqu’à la prochaine échéance principale (1er janvier) et est renouvelable par tacite reconduction à chaque nouvelle échéance principale avec les facultés de résiliation prévues.",
+  "tacit_renewal": true,
+  "notice_period": "Vous pouvez notamment mettre fin au contrat à l'échéance annuelle en respectant un préavis de deux mois.",
+  "methods": [
+   "par lettre ou tout autre support durable",
+   "par déclaration faite au siège social ou chez notre représentant",
+   "par acte extrajudiciaire",
+   "via la fonctionnalité mise en place sur le site internet"
   ],
-  "key_quotes": [
-    {
-      "quote": "La Prévoyance Pro permet de garantir au chef d’entreprise le maintien de son revenu en cas d’arrêt de travail et de protéger financièrement sa famille en cas de décès ou d’invalidité.",
-      "context": "De quel type d’assurance s’agit-il ?",
-      "page": 1
-    },
-    {
-      "quote": "Vous avez la possibilité de bénéficier des avantages fiscaux de la Loi Madelin en souscrivant le contrat Prévoyance Pro Madelin et vous adhérez alors à l’association AREP.",
-      "context": "De quel type d’assurance s’agit-il ?",
-      "page": 1
-    },
-    {
-      "quote": "Capital en cas de décès ou de Perte totale et irréversible d’autonomie (PTIA) : de 50 à 300 K€ selon formule,",
-      "context": "Garanties systématiquement prévues",
-      "page": 1
-    },
-    {
-      "quote": "Soutien psychologique : suite à décès/PTIA de l’assuré, 4 séances maximum (80 € maximum par séance)",
-      "context": "Garanties systématiquement prévues",
-      "page": 1
-    },
-    {
-      "quote": "Indemnités journalières (IJ) en cas d’arrêt de travail : de 35 à 300 € par jour pendant 3 ans.",
-      "context": "Garanties systématiquement prévues",
-      "page": 1
-    },
-    {
-      "quote": "Exonération des cotisations si l’assuré est indemnisé au titre des IJ, des FGPP ou d’une l’invalidité supérieure ou égale à 66%.",
-      "context": "Garanties systématiquement prévues",
-      "page": 1
-    },
-    {
-      "quote": "Rente éducation progressive : jusqu’à 30 K€ /an pour protéger les enfants suite à décès ou PTIA de l’assuré (formule sur-mesure),",
-      "context": "Garanties optionnelles",
-      "page": 1
-    },
-    {
-      "quote": "Rente conjoint temporaire : jusqu’à 40 K€ pour protéger le conjoint suite à décès ou PTIA de l’assuré (formule sur-mesure),",
-      "context": "Garanties optionnelles",
-      "page": 1
-    },
-    {
-      "quote": "Le suicide ou la tentative de suicide de l’assuré survenu dans la première année qui suit la date d’effet du contrat,",
-      "context": "Principales exclusions",
-      "page": 1
-    },
-    {
-      "quote": "Sont exclues certaines professions et notamment : agent de sécurité, chauffeur routier avec transport de matériaux dangereux, docker, forain...",
-      "context": "Qu’est-ce qui n’est pas assuré ?",
-      "page": 1
-    },
-    {
-      "quote": "Invalidité < 33%, nous ne versons aucune indemnité.",
-      "context": "Principales restrictions",
-      "page": 1
-    },
-    {
-      "quote": "Les franchises et les délais d’attente suite à maladie qui varient en fonction des garanties et des pathologies.",
-      "context": "Principales restrictions",
-      "page": 1
-    },
-    {
-      "quote": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse.",
-      "context": "Où suis-je couvert ?",
-      "page": 2
-    },
-    {
-      "quote": "Vous pouvez notamment mettre fin au contrat à l'échéance annuelle en respectant un préavis de deux mois.",
-      "context": "Comment puis-je résilier le contrat ?",
-      "page": 2
-    }
+  "special_rights": [
+   "Les cas de résiliation, les délais à respecter sont ceux prévus par la règlementation et précisés dans les Dispositions Générales.",
+   "Nous vous confirmerons par écrit la réception de la notification.",
+   "en cas de résiliation suite à modification de votre situation selon les termes des articles L113-16 et R.113-6 du Code des assurances, vous devrez notifier la résiliation par lettre recommandée (papier ou électronique) avec demande d'avis de réception"
   ],
-  "gaps": [
-    "Aucune date d’édition n’est imprimée dans le texte du document : edition_date laissé null. Le nom du fichier source (IPID_TP_Prev-madelin_ISIS_v2.pdf) mentionne une version « v2 », information absente du texte extrait et donc non reportée.",
-    "Le document mentionne des formules (1 à 4, accident, sur-mesure) sans les décrire : le détail des niveaux de garantie par formule n’est pas dans ce document.",
-    "Les montants des franchises et la durée des délais d’attente ne sont pas chiffrés : le document indique seulement qu’ils « varient en fonction des garanties et des pathologies ».",
-    "La liste des professions exclues est explicitement partielle (« et notamment : ... forain... ») : la liste complète ne figure pas dans le document.",
-    "Les conditions de la suppression de franchise en cas d’accident ou d’hospitalisation ne sont pas détaillées (« sous conditions »).",
-    "Aucun délai de prescription n’est mentionné dans ce document (prescription_period null) — l’information figure dans les Dispositions Générales.",
-    "Aucune procédure de déclaration de sinistre détaillée (délai, destinataire) n’est indiquée : seule l’obligation de « Fournir toutes les pièces justificatives » est mentionnée.",
-    "Le document ne contient pas de section « Définitions » formelle ; les entrées de definitions[] proviennent des mentions Assuré / Bénéficiaire et des sigles utilisés (PTIA, FGPP, IJ, AREP)."
-  ]
+  "page": 2
+ },
+ "prescription_period": null,
+ "premium": {
+  "notes": [
+   "La cotisation annuelle (ainsi que les frais, taxes et contributions fixées par l’Etat) se paie à la date ou aux dates indiquées sur les Conditions Particulières.",
+   "Un paiement fractionné peut toutefois être accordé (Mensuel, Trimestriel).",
+   "Les paiements peuvent être effectués par carte bancaire, chèque ou prélèvement automatique.",
+   "Exonération des cotisations si l’assuré est indemnisé au titre des IJ, des FGPP ou d’une l’invalidité supérieure ou égale à 66%.",
+   "Vous avez la possibilité de bénéficier des avantages fiscaux de la Loi Madelin en souscrivant le contrat Prévoyance Pro Madelin et vous adhérez alors à l’association AREP."
+  ],
+  "indexation": "Revalorisation du capital décès/PTIA, IJ, FGPP ou frais de remplacement, (et renfort enfants) de 2% par an.",
+  "page": 2
+ },
+ "special_conditions": [
+  {
+   "name": "Étendue territoriale",
+   "description": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
+   "page": 2
+  },
+  {
+   "name": "Conditions d’âge de l’assuré",
+   "description": "Assuré : toute personne âgée d’au moins 18 ans et au maximum de 62 ans, et désignée sur les Conditions Particulières.",
+   "page": 1
+  },
+  {
+   "name": "Désignation et modification du bénéficiaire",
+   "description": "Bénéficiaire : personne désignée et qui recevra la prestation en cas de réalisation du risque. À tout moment, vous pouvez modifier le bénéficiaire.",
+   "page": 1
+  },
+  {
+   "name": "Cadre fiscal Loi Madelin et adhésion à l’association AREP",
+   "description": "Vous avez la possibilité de bénéficier des avantages fiscaux de la Loi Madelin en souscrivant le contrat Prévoyance Pro Madelin et vous adhérez alors à l’association AREP.",
+   "page": 1
+  },
+  {
+   "name": "Formules",
+   "description": "Le contrat est décliné en formules (formules 1 à 4, formule accident, formule sur-mesure) dont dépendent le niveau des garanties et l’accès à certaines options.",
+   "page": 1
+  },
+  {
+   "name": "Fait générateur des garanties",
+   "description": "Les garanties sont déclenchées après accident ou maladie.",
+   "page": 1
+  },
+  {
+   "name": "Garanties systématiques",
+   "description": "Les garanties précédées d’une coche sont systématiquement prévues au contrat.",
+   "page": 1
+  },
+  {
+   "name": "Portée du document",
+   "description": "Ce document d’information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l’information complète sur ce produit dans la documentation précontractuelle et contractuelle.",
+   "page": 1
+  },
+  {
+   "name": "Assureur",
+   "description": "Thélem prévoyance, SA à conseil d’administration au capital de 12 000 580 € – Entreprise régie par le code des assurances Siège Social : Le Croc – BP 63130 – 45430 Chécy – immatriculée en France.",
+   "page": 1
+  }
+ ],
+ "key_quotes": [
+  {
+   "quote": "La Prévoyance Pro permet de garantir au chef d’entreprise le maintien de son revenu en cas d’arrêt de travail et de protéger financièrement sa famille en cas de décès ou d’invalidité.",
+   "context": "De quel type d’assurance s’agit-il ?",
+   "page": 1
+  },
+  {
+   "quote": "Vous avez la possibilité de bénéficier des avantages fiscaux de la Loi Madelin en souscrivant le contrat Prévoyance Pro Madelin et vous adhérez alors à l’association AREP.",
+   "context": "De quel type d’assurance s’agit-il ?",
+   "page": 1
+  },
+  {
+   "quote": "Capital en cas de décès ou de Perte totale et irréversible d’autonomie (PTIA) : de 50 à 300 K€ selon formule,",
+   "context": "Garanties systématiquement prévues",
+   "page": 1
+  },
+  {
+   "quote": "Soutien psychologique : suite à décès/PTIA de l’assuré, 4 séances maximum (80 € maximum par séance)",
+   "context": "Garanties systématiquement prévues",
+   "page": 1
+  },
+  {
+   "quote": "Indemnités journalières (IJ) en cas d’arrêt de travail : de 35 à 300 € par jour pendant 3 ans.",
+   "context": "Garanties systématiquement prévues",
+   "page": 1
+  },
+  {
+   "quote": "Exonération des cotisations si l’assuré est indemnisé au titre des IJ, des FGPP ou d’une l’invalidité supérieure ou égale à 66%.",
+   "context": "Garanties systématiquement prévues",
+   "page": 1
+  },
+  {
+   "quote": "Rente éducation progressive : jusqu’à 30 K€ /an pour protéger les enfants suite à décès ou PTIA de l’assuré (formule sur-mesure),",
+   "context": "Garanties optionnelles",
+   "page": 1
+  },
+  {
+   "quote": "Rente conjoint temporaire : jusqu’à 40 K€ pour protéger le conjoint suite à décès ou PTIA de l’assuré (formule sur-mesure),",
+   "context": "Garanties optionnelles",
+   "page": 1
+  },
+  {
+   "quote": "Le suicide ou la tentative de suicide de l’assuré survenu dans la première année qui suit la date d’effet du contrat,",
+   "context": "Principales exclusions",
+   "page": 1
+  },
+  {
+   "quote": "Sont exclues certaines professions et notamment : agent de sécurité, chauffeur routier avec transport de matériaux dangereux, docker, forain...",
+   "context": "Qu’est-ce qui n’est pas assuré ?",
+   "page": 1
+  },
+  {
+   "quote": "Invalidité < 33%, nous ne versons aucune indemnité.",
+   "context": "Principales restrictions",
+   "page": 1
+  },
+  {
+   "quote": "Les franchises et les délais d’attente suite à maladie qui varient en fonction des garanties et des pathologies.",
+   "context": "Principales restrictions",
+   "page": 1
+  },
+  {
+   "quote": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DROM-COM, les Pays de l’Union Européenne et la Suisse.",
+   "context": "Où suis-je couvert ?",
+   "page": 2
+  },
+  {
+   "quote": "Vous pouvez notamment mettre fin au contrat à l'échéance annuelle en respectant un préavis de deux mois.",
+   "context": "Comment puis-je résilier le contrat ?",
+   "page": 2
+  }
+ ],
+ "gaps": [
+  "Aucune date d’édition n’est imprimée dans le texte du document : edition_date laissé null. Le nom du fichier source (IPID_TP_Prev-madelin_ISIS_v2.pdf) mentionne une version « v2 », information absente du texte extrait et donc non reportée.",
+  "Le document mentionne des formules (1 à 4, accident, sur-mesure) sans les décrire : le détail des niveaux de garantie par formule n’est pas dans ce document.",
+  "Les montants des franchises et la durée des délais d’attente ne sont pas chiffrés : le document indique seulement qu’ils « varient en fonction des garanties et des pathologies ».",
+  "La liste des professions exclues est explicitement partielle (« et notamment : ... forain... ») : la liste complète ne figure pas dans le document.",
+  "Les conditions de la suppression de franchise en cas d’accident ou d’hospitalisation ne sont pas détaillées (« sous conditions »).",
+  "Aucun délai de prescription n’est mentionné dans ce document (prescription_period null) — l’information figure dans les Dispositions Générales.",
+  "Aucune procédure de déclaration de sinistre détaillée (délai, destinataire) n’est indiquée : seule l’obligation de « Fournir toutes les pièces justificatives » est mentionnée.",
+  "Le document ne contient pas de section « Définitions » formelle ; les entrées de definitions[] proviennent des mentions Assuré / Bénéficiaire et des sigles utilisés (PTIA, FGPP, IJ, AREP)."
+ ]
 }

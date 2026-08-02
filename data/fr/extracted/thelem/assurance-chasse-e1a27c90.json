@@ -1,364 +1,365 @@
 {
-  "schema_version": "1.0",
-  "prompt_version": "1.1",
-  "country": "fr",
-  "insurer_slug": "thelem",
-  "insurer_name": "Thélem assurances",
-  "product_name": "Assurance chasse",
-  "branch": "chasse",
-  "branch_code": null,
-  "document_type": "ipid",
-  "language": "fr",
-  "target_audience": "particuliers",
-  "target_audience_note": "Bénéficiaire : l'adhérent, y compris lorsqu’il agit comme organisateur de chasse ou propriétaire de chasse privée.",
-  "reference": null,
-  "edition_date": "2024-07",
-  "product_family": "Assurance chasse",
-  "variant": null,
-  "is_extension": false,
-  "extends": null,
-  "superseded": null,
-  "source_url": "https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_Chasse-332-juillet-2024.pdf",
-  "source_pdf": "assurance-chasse-e1a27c90.pdf",
-  "source_sha256": "7ddb276ef99709da1b26fa671ae303dc1efb65746e95d28840f9e5db3b64c06e",
-  "source_pages": 2,
-  "fetched_at": "2026-07-30",
-  "extraction_model": "claude-code-subagent:scale",
-  "summary": "Document d’information sur le produit d’assurance (IPID) de l’Assurance chasse de Thélem assurances. Cette assurance a pour objectifs de garantir les dommages résultant d’actes de chasse, de l’organisation d’une chasse ainsi que les accidents causés par les chiens de l’assuré y compris en dehors de la chasse ; l’assurance de responsabilité civile chasse est obligatoire. Le contrat prévoit également en option la garantie des dommages corporels des chasseurs ainsi qu’une garantie frais de soins et mortalité pour les chiens de chasse.",
-  "definitions": [
-    {
-      "term": "Bénéficiaire",
-      "definition": "l'adhérent, y compris lorsqu’il agit comme organisateur de chasse ou propriétaire de chasse privée.",
-      "page": 1
-    }
-  ],
-  "coverages": [
-    {
-      "name": "Responsabilité civile – Dommages résultant de tout acte de chasse",
-      "description": "Dommages résultant de tout acte de chasse y compris les dégâts de gibier,",
-      "is_optional": false,
-      "territorial_scope": "pays de l’Union européenne, Suisse, Norvège, Islande et les territoires de Monaco et d’Andorre",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Responsabilité civile – Dommages résultant des chiens de chasse",
-      "description": "Dommages résultant des chiens de chasse dont l’assuré a la garde, les accidents causés par les chiens de l’assuré y compris en dehors de la chasse.",
-      "is_optional": false,
-      "territorial_scope": "pays de l’Union européenne, Suisse, Norvège, Islande et les territoires de Monaco et d’Andorre",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Responsabilité civile – En tant qu’organisateur de chasse",
-      "description": "En tant qu’organisateur de chasse sous certaines conditions.",
-      "is_optional": false,
-      "territorial_scope": "pays de l’Union européenne, Suisse, Norvège, Islande et les territoires de Monaco et d’Andorre",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "sous certaines conditions"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Défense de l’assuré suite à un accident garanti",
-      "description": "Défense de l’assuré suite à un accident garanti",
-      "is_optional": false,
-      "territorial_scope": "pays de l’Union européenne, Suisse, Norvège, Islande et les territoires de Monaco et d’Andorre",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Indemnités contractuelles – Versement d’un capital en cas de décès par accident",
-      "description": "Indemnités contractuelles versées à l’assuré en cas d’accident résultant d’un acte de chasse – Versement d’un capital en cas de décès par accident,",
-      "is_optional": true,
-      "territorial_scope": "pays de l’Union européenne, Suisse, Norvège, Islande et les territoires de Monaco et d’Andorre",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Indemnités contractuelles – Versement d’un capital en cas d’invalidité permanente totale par accident",
-      "description": "Indemnités contractuelles versées à l’assuré en cas d’accident résultant d’un acte de chasse – Versement d’un capital en cas d’invalidité permanente totale par accident.",
-      "is_optional": true,
-      "territorial_scope": "pays de l’Union européenne, Suisse, Norvège, Islande et les territoires de Monaco et d’Andorre",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Dommages aux chiens de chasse de l’assuré",
-      "description": "Protection pour les dommages accidentels subis par les chiens (frais de soins, mortalité) pendant ou hors actes de chasse.",
-      "is_optional": true,
-      "territorial_scope": "exclusivement en France métropolitaine et territoires de Monaco et d’Andorre",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    }
-  ],
-  "exclusions": [
-    {
-      "name": "Acte de chasse sans permis de chasser valide",
-      "description": "Tout acte de chasse pratiqué sans un permis de chasser valide,",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Chasse pratiquée à titre professionnel",
-      "description": "La chasse pratiquée à titre professionnel.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Troubles causés au voisinage",
-      "description": "Les troubles causés au voisinage,",
-      "applies_to": "Responsabilité civile et Défense pénale et recours suite à accident",
-      "page": 1
-    },
-    {
-      "name": "Faute intentionnelle",
-      "description": "La faute intentionnelle",
-      "applies_to": "Responsabilité civile et Défense pénale et recours suite à accident",
-      "page": 1
-    },
-    {
-      "name": "Chasse aux bêtes fauves ou en mer",
-      "description": "La pratique de la chasse aux bêtes fauves ou en mer,",
-      "applies_to": "Responsabilité civile et Défense pénale et recours suite à accident",
-      "page": 1
-    },
-    {
-      "name": "Atteinte à l’environnement non accidentelle",
-      "description": "Les dommages consécutifs à toute atteinte à l’environnement autres que les dommages accidentels.",
-      "applies_to": "Responsabilité civile et Défense pénale et recours suite à accident",
-      "page": 1
-    },
-    {
-      "name": "État alcoolique ou stupéfiants",
-      "description": "Les conséquences d’accident si l’assuré était sous l’emprise d’un état alcoolique ou sous l’influence de substances ou plantes classées comme stupéfiants.",
-      "applies_to": "Indemnités contractuelles",
-      "page": 1
-    },
-    {
-      "name": "Chiens de moins de 3 mois et de plus de 9 ans",
-      "description": "Les chiens de chasse de moins de 3 mois et plus de 9 ans,",
-      "applies_to": "Dommages aux chiens de chasse",
-      "page": 1
-    },
-    {
-      "name": "Chiens non tatoués et non immatriculés",
-      "description": "Les chiens non tatoués et non immatriculés,",
-      "applies_to": "Dommages aux chiens de chasse",
-      "page": 1
-    },
-    {
-      "name": "Chasse à courre",
-      "description": "La pratique de la chasse à courre,",
-      "applies_to": "Dommages aux chiens de chasse",
-      "page": 1
-    },
-    {
-      "name": "Fait non accidentel",
-      "description": "Le fait non accidentel y compris les piqûres de tiques, les insolations et lésions internes,",
-      "applies_to": "Dommages aux chiens de chasse",
-      "page": 1
-    },
-    {
-      "name": "Chien tué ou blessé par l’assuré ou son conjoint",
-      "description": "Le chien tué ou blessé par l’assuré ou son conjoint.",
-      "applies_to": "Dommages aux chiens de chasse",
-      "page": 1
-    }
-  ],
-  "deductibles": null,
-  "waiting_periods": [],
-  "obligations": [
-    {
-      "name": "Déclaration du risque",
-      "description": "Répondre exactement aux questions posées lors de la souscription afin d’apprécier les risques et fixer la cotisation.",
-      "timing": "À la souscription du contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
-      "page": 2
-    },
-    {
-      "name": "Déclaration des circonstances nouvelles",
-      "description": "Déclarer toutes les circonstances nouvelles qui modifient les informations fournies lors de la souscription,",
-      "timing": "En cours de contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
-      "page": 2
-    },
-    {
-      "name": "Paiement des cotisations",
-      "description": "Régler les cotisations à la date convenue.",
-      "timing": "En cours de contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
-      "page": 2
-    },
-    {
-      "name": "Déclaration de sinistre",
-      "description": "Déclarer tout sinistre dès que l’assuré en a connaissance et au plus tard dans les 5 jours ouvrés,",
-      "timing": "En cas de sinistre",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
-      "page": 2
-    },
-    {
-      "name": "Transmission des pièces",
-      "description": "Transmettre une déclaration et tous les documents en possession de l’assuré permettant de connaître la nature et les circonstances du sinistre, ses causes et conséquences, les noms et adresses des personnes lésées, des responsables et des témoins.",
-      "timing": "En cas de sinistre",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
-      "page": 2
-    },
-    {
-      "name": "Obligations légales à l’étranger",
-      "description": "Hors de la France Métropolitaine, l’assuré s’engage à respecter les obligations légales d’assurances applicables dans le pays d’accueil.",
-      "timing": null,
-      "sanction": null,
-      "page": 2
-    }
-  ],
-  "claims_procedure": [
-    {
-      "step": "Déclaration du sinistre",
-      "description": "Déclarer tout sinistre dès que l’assuré en a connaissance et au plus tard dans les 5 jours ouvrés,",
-      "deadline": "au plus tard dans les 5 jours ouvrés",
-      "page": 2
-    },
-    {
-      "step": "Transmission de la déclaration et des documents",
-      "description": "Transmettre une déclaration et tous les documents en possession de l’assuré permettant de connaître la nature et les circonstances du sinistre, ses causes et conséquences, les noms et adresses des personnes lésées, des responsables et des témoins.",
-      "deadline": null,
-      "page": 2
-    }
-  ],
-  "duration_and_cancellation": {
-    "duration": "Le contrat prend effet le lendemain à 0 heure du paiement de la cotisation à la date et l’heure indiquées au bulletin d’adhésion ou aux Conditions Particulières. Les garanties du contrat expirent au 30/06 de l’année en cours ou pour les garanties Responsabilité civile du fait des chiens » ou « dommages aux chiens » (si cette garantie a été souscrite), à la prochaine date d’ouverture de chasse dans le département du domicile de l’assuré. Le contrat peut se renouveler annuellement, si les 2 parties en décident. Les modalités d’expiration des garanties restent inchangées et prévues ci-dessus.",
-    "tacit_renewal": false,
-    "notice_period": "un préavis de deux mois",
-    "methods": [
-      "par lettre ou tout autre support durable,",
-      "par déclaration faite au siège social ou chez notre représentant,",
-      "par acte extrajudiciaire,",
-      "via la fonctionnalité mise en place sur le site internet."
-    ],
-    "special_rights": [
-      "Vous pouvez notamment mettre fin au contrat à l'échéance annuelle en respectant un préavis de deux mois.",
-      "en cas de résiliation suite à modification de votre situation selon les termes des articles L113-16 et R.113-6 du Code des assurances, vous devrez notifier la résiliation par lettre recommandée (papier ou électronique) avec demande d'avis de réception."
-    ],
-    "page": 2
+ "schema_version": "1.0",
+ "prompt_version": "1.1",
+ "country": "fr",
+ "insurer_slug": "thelem",
+ "insurer_name": "Thélem assurances",
+ "product_name": "Assurance chasse",
+ "branch": "chasse",
+ "branch_code": null,
+ "document_type": "ipid",
+ "language": "fr",
+ "target_audience": "particuliers",
+ "target_audience_note": "Bénéficiaire : l'adhérent, y compris lorsqu’il agit comme organisateur de chasse ou propriétaire de chasse privée.",
+ "reference": null,
+ "edition_date": null,
+ "product_family": "Assurance chasse",
+ "variant": null,
+ "is_extension": false,
+ "extends": null,
+ "superseded": null,
+ "source_url": "https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_Chasse-332-juillet-2024.pdf",
+ "source_pdf": "assurance-chasse-e1a27c90.pdf",
+ "source_sha256": "7ddb276ef99709da1b26fa671ae303dc1efb65746e95d28840f9e5db3b64c06e",
+ "source_pages": 2,
+ "fetched_at": "2026-07-30",
+ "extraction_model": "claude-code-subagent:scale",
+ "summary": "Document d’information sur le produit d’assurance (IPID) de l’Assurance chasse de Thélem assurances. Cette assurance a pour objectifs de garantir les dommages résultant d’actes de chasse, de l’organisation d’une chasse ainsi que les accidents causés par les chiens de l’assuré y compris en dehors de la chasse ; l’assurance de responsabilité civile chasse est obligatoire. Le contrat prévoit également en option la garantie des dommages corporels des chasseurs ainsi qu’une garantie frais de soins et mortalité pour les chiens de chasse.",
+ "definitions": [
+  {
+   "term": "Bénéficiaire",
+   "definition": "l'adhérent, y compris lorsqu’il agit comme organisateur de chasse ou propriétaire de chasse privée.",
+   "page": 1
+  }
+ ],
+ "coverages": [
+  {
+   "name": "Responsabilité civile – Dommages résultant de tout acte de chasse",
+   "description": "Dommages résultant de tout acte de chasse y compris les dégâts de gibier,",
+   "is_optional": false,
+   "territorial_scope": "pays de l’Union européenne, Suisse, Norvège, Islande et les territoires de Monaco et d’Andorre",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
   },
-  "prescription_period": null,
-  "premium": {
-    "notes": [
-      "La cotisation annuelle (ainsi que les frais, taxes et contributions fixées par l’Etat) se paie à la date ou aux dates indiquées sur les Conditions Particulières.",
-      "Les paiements peuvent être effectués par carte bancaire, chèque ou prélèvement automatique."
-    ],
-    "indexation": null,
-    "page": 2
+  {
+   "name": "Responsabilité civile – Dommages résultant des chiens de chasse",
+   "description": "Dommages résultant des chiens de chasse dont l’assuré a la garde, les accidents causés par les chiens de l’assuré y compris en dehors de la chasse.",
+   "is_optional": false,
+   "territorial_scope": "pays de l’Union européenne, Suisse, Norvège, Islande et les territoires de Monaco et d’Andorre",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
   },
-  "special_conditions": [
-    {
-      "name": "Portée du document",
-      "description": "Ce document d’information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l’information complète sur ce produit dans la documentation précontractuelle et contractuelle.",
-      "page": 1
-    },
-    {
-      "name": "Caractère obligatoire de la garantie",
-      "description": "L'assurance de responsabilité civile chasse est obligatoire.",
-      "page": 1
-    },
-    {
-      "name": "Légende des garanties",
-      "description": "Les garanties précédées d’une coche sont systématiquement prévues au contrat.",
-      "page": 1
-    },
-    {
-      "name": "Obligations d’assurance dans le pays d’accueil",
-      "description": "Hors de la France Métropolitaine, l’assuré s’engage à respecter les obligations légales d’assurances applicables dans le pays d’accueil.",
-      "page": 2
-    },
-    {
-      "name": "Confirmation de la résiliation",
-      "description": "Nous vous confirmerons par écrit la réception de la notification.",
-      "page": 2
-    }
+  {
+   "name": "Responsabilité civile – En tant qu’organisateur de chasse",
+   "description": "En tant qu’organisateur de chasse sous certaines conditions.",
+   "is_optional": false,
+   "territorial_scope": "pays de l’Union européenne, Suisse, Norvège, Islande et les territoires de Monaco et d’Andorre",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "sous certaines conditions"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Défense de l’assuré suite à un accident garanti",
+   "description": "Défense de l’assuré suite à un accident garanti",
+   "is_optional": false,
+   "territorial_scope": "pays de l’Union européenne, Suisse, Norvège, Islande et les territoires de Monaco et d’Andorre",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Indemnités contractuelles – Versement d’un capital en cas de décès par accident",
+   "description": "Indemnités contractuelles versées à l’assuré en cas d’accident résultant d’un acte de chasse – Versement d’un capital en cas de décès par accident,",
+   "is_optional": true,
+   "territorial_scope": "pays de l’Union européenne, Suisse, Norvège, Islande et les territoires de Monaco et d’Andorre",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Indemnités contractuelles – Versement d’un capital en cas d’invalidité permanente totale par accident",
+   "description": "Indemnités contractuelles versées à l’assuré en cas d’accident résultant d’un acte de chasse – Versement d’un capital en cas d’invalidité permanente totale par accident.",
+   "is_optional": true,
+   "territorial_scope": "pays de l’Union européenne, Suisse, Norvège, Islande et les territoires de Monaco et d’Andorre",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Dommages aux chiens de chasse de l’assuré",
+   "description": "Protection pour les dommages accidentels subis par les chiens (frais de soins, mortalité) pendant ou hors actes de chasse.",
+   "is_optional": true,
+   "territorial_scope": "exclusivement en France métropolitaine et territoires de Monaco et d’Andorre",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Acte de chasse sans permis de chasser valide",
+   "description": "Tout acte de chasse pratiqué sans un permis de chasser valide,",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Chasse pratiquée à titre professionnel",
+   "description": "La chasse pratiquée à titre professionnel.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Troubles causés au voisinage",
+   "description": "Les troubles causés au voisinage,",
+   "applies_to": "Responsabilité civile et Défense pénale et recours suite à accident",
+   "page": 1
+  },
+  {
+   "name": "Faute intentionnelle",
+   "description": "La faute intentionnelle",
+   "applies_to": "Responsabilité civile et Défense pénale et recours suite à accident",
+   "page": 1
+  },
+  {
+   "name": "Chasse aux bêtes fauves ou en mer",
+   "description": "La pratique de la chasse aux bêtes fauves ou en mer,",
+   "applies_to": "Responsabilité civile et Défense pénale et recours suite à accident",
+   "page": 1
+  },
+  {
+   "name": "Atteinte à l’environnement non accidentelle",
+   "description": "Les dommages consécutifs à toute atteinte à l’environnement autres que les dommages accidentels.",
+   "applies_to": "Responsabilité civile et Défense pénale et recours suite à accident",
+   "page": 1
+  },
+  {
+   "name": "État alcoolique ou stupéfiants",
+   "description": "Les conséquences d’accident si l’assuré était sous l’emprise d’un état alcoolique ou sous l’influence de substances ou plantes classées comme stupéfiants.",
+   "applies_to": "Indemnités contractuelles",
+   "page": 1
+  },
+  {
+   "name": "Chiens de moins de 3 mois et de plus de 9 ans",
+   "description": "Les chiens de chasse de moins de 3 mois et plus de 9 ans,",
+   "applies_to": "Dommages aux chiens de chasse",
+   "page": 1
+  },
+  {
+   "name": "Chiens non tatoués et non immatriculés",
+   "description": "Les chiens non tatoués et non immatriculés,",
+   "applies_to": "Dommages aux chiens de chasse",
+   "page": 1
+  },
+  {
+   "name": "Chasse à courre",
+   "description": "La pratique de la chasse à courre,",
+   "applies_to": "Dommages aux chiens de chasse",
+   "page": 1
+  },
+  {
+   "name": "Fait non accidentel",
+   "description": "Le fait non accidentel y compris les piqûres de tiques, les insolations et lésions internes,",
+   "applies_to": "Dommages aux chiens de chasse",
+   "page": 1
+  },
+  {
+   "name": "Chien tué ou blessé par l’assuré ou son conjoint",
+   "description": "Le chien tué ou blessé par l’assuré ou son conjoint.",
+   "applies_to": "Dommages aux chiens de chasse",
+   "page": 1
+  }
+ ],
+ "deductibles": null,
+ "waiting_periods": [],
+ "obligations": [
+  {
+   "name": "Déclaration du risque",
+   "description": "Répondre exactement aux questions posées lors de la souscription afin d’apprécier les risques et fixer la cotisation.",
+   "timing": "À la souscription du contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+   "page": 2
+  },
+  {
+   "name": "Déclaration des circonstances nouvelles",
+   "description": "Déclarer toutes les circonstances nouvelles qui modifient les informations fournies lors de la souscription,",
+   "timing": "En cours de contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+   "page": 2
+  },
+  {
+   "name": "Paiement des cotisations",
+   "description": "Régler les cotisations à la date convenue.",
+   "timing": "En cours de contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+   "page": 2
+  },
+  {
+   "name": "Déclaration de sinistre",
+   "description": "Déclarer tout sinistre dès que l’assuré en a connaissance et au plus tard dans les 5 jours ouvrés,",
+   "timing": "En cas de sinistre",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+   "page": 2
+  },
+  {
+   "name": "Transmission des pièces",
+   "description": "Transmettre une déclaration et tous les documents en possession de l’assuré permettant de connaître la nature et les circonstances du sinistre, ses causes et conséquences, les noms et adresses des personnes lésées, des responsables et des témoins.",
+   "timing": "En cas de sinistre",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+   "page": 2
+  },
+  {
+   "name": "Obligations légales à l’étranger",
+   "description": "Hors de la France Métropolitaine, l’assuré s’engage à respecter les obligations légales d’assurances applicables dans le pays d’accueil.",
+   "timing": null,
+   "sanction": null,
+   "page": 2
+  }
+ ],
+ "claims_procedure": [
+  {
+   "step": "Déclaration du sinistre",
+   "description": "Déclarer tout sinistre dès que l’assuré en a connaissance et au plus tard dans les 5 jours ouvrés,",
+   "deadline": "au plus tard dans les 5 jours ouvrés",
+   "page": 2
+  },
+  {
+   "step": "Transmission de la déclaration et des documents",
+   "description": "Transmettre une déclaration et tous les documents en possession de l’assuré permettant de connaître la nature et les circonstances du sinistre, ses causes et conséquences, les noms et adresses des personnes lésées, des responsables et des témoins.",
+   "deadline": null,
+   "page": 2
+  }
+ ],
+ "duration_and_cancellation": {
+  "duration": "Le contrat prend effet le lendemain à 0 heure du paiement de la cotisation à la date et l’heure indiquées au bulletin d’adhésion ou aux Conditions Particulières. Les garanties du contrat expirent au 30/06 de l’année en cours ou pour les garanties Responsabilité civile du fait des chiens » ou « dommages aux chiens » (si cette garantie a été souscrite), à la prochaine date d’ouverture de chasse dans le département du domicile de l’assuré. Le contrat peut se renouveler annuellement, si les 2 parties en décident. Les modalités d’expiration des garanties restent inchangées et prévues ci-dessus.",
+  "tacit_renewal": false,
+  "notice_period": "un préavis de deux mois",
+  "methods": [
+   "par lettre ou tout autre support durable,",
+   "par déclaration faite au siège social ou chez notre représentant,",
+   "par acte extrajudiciaire,",
+   "via la fonctionnalité mise en place sur le site internet."
   ],
-  "key_quotes": [
-    {
-      "quote": "Cette assurance a pour objectifs de garantir les dommages résultant d’actes de chasse, de l’organisation d’une chasse ainsi que les accidents causés par les chiens de l’assuré y compris en dehors de la chasse.",
-      "context": "Objet du contrat",
-      "page": 1
-    },
-    {
-      "quote": "L'assurance de responsabilité civile chasse est obligatoire.",
-      "context": "Caractère obligatoire",
-      "page": 1
-    },
-    {
-      "quote": "Ce contrat prévoit également en option la garantie des dommages corporels des chasseurs ainsi qu’une garantie frais de soins et mortalité pour les chiens de chasse.",
-      "context": "Garanties optionnelles",
-      "page": 1
-    },
-    {
-      "quote": "Bénéficiaire : l'adhérent, y compris lorsqu’il agit comme organisateur de chasse ou propriétaire de chasse privée.",
-      "context": "Bénéficiaire",
-      "page": 1
-    },
-    {
-      "quote": "Tout acte de chasse pratiqué sans un permis de chasser valide,",
-      "context": "Ce qui n’est pas assuré",
-      "page": 1
-    },
-    {
-      "quote": "Les chiens de chasse de moins de 3 mois et plus de 9 ans,",
-      "context": "Exclusion Dommages aux chiens de chasse",
-      "page": 1
-    },
-    {
-      "quote": "Le fait non accidentel y compris les piqûres de tiques, les insolations et lésions internes,",
-      "context": "Exclusion Dommages aux chiens de chasse",
-      "page": 1
-    },
-    {
-      "quote": "Déclarer tout sinistre dès que l’assuré en a connaissance et au plus tard dans les 5 jours ouvrés,",
-      "context": "Obligation en cas de sinistre",
-      "page": 2
-    },
-    {
-      "quote": "Pour la garantie Dommages aux chiens de chasse : exclusivement en France métropolitaine et territoires de Monaco et d’Andorre.",
-      "context": "Étendue territoriale",
-      "page": 2
-    },
-    {
-      "quote": "Les garanties du contrat expirent au 30/06 de l’année en cours",
-      "context": "Expiration des garanties",
-      "page": 2
-    }
+  "special_rights": [
+   "Vous pouvez notamment mettre fin au contrat à l'échéance annuelle en respectant un préavis de deux mois.",
+   "en cas de résiliation suite à modification de votre situation selon les termes des articles L113-16 et R.113-6 du Code des assurances, vous devrez notifier la résiliation par lettre recommandée (papier ou électronique) avec demande d'avis de réception."
   ],
-  "gaps": [
-    "Aucune date d’édition n’est imprimée dans le texte du document ; seul le nom du fichier de la source_url comporte la mention « juillet-2024 », non reprise dans edition_date faute d’être dans le document.",
-    "Aucune référence interne du document n’apparaît dans le texte (le nom de fichier de la source_url comporte « 332 », non repris dans reference).",
-    "Le document ne comporte pas de section Définitions ; seule la mention du bénéficiaire a été relevée comme définition.",
-    "Aucun montant, plafond, capital ou sous-limite n’est chiffré dans ce document (les capitaux décès/invalidité et les plafonds de la garantie chiens ne sont pas indiqués).",
-    "Aucune franchise n’est mentionnée : le champ deductibles est laissé null.",
-    "Aucun délai de carence ni délai de prescription n’est mentionné dans le document.",
-    "S’agissant d’un IPID (2 pages), il ne présente qu’un résumé des principales garanties et exclusions ; la liste complète figure dans les Dispositions Générales, non fournies.",
-    "Le texte des pages est entrecoupé de nombreuses lignes vides issues de la mise en page PDF (encadrés), sans perte de contenu identifiée."
-  ]
+  "page": 2
+ },
+ "prescription_period": null,
+ "premium": {
+  "notes": [
+   "La cotisation annuelle (ainsi que les frais, taxes et contributions fixées par l’Etat) se paie à la date ou aux dates indiquées sur les Conditions Particulières.",
+   "Les paiements peuvent être effectués par carte bancaire, chèque ou prélèvement automatique."
+  ],
+  "indexation": null,
+  "page": 2
+ },
+ "special_conditions": [
+  {
+   "name": "Portée du document",
+   "description": "Ce document d’information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l’information complète sur ce produit dans la documentation précontractuelle et contractuelle.",
+   "page": 1
+  },
+  {
+   "name": "Caractère obligatoire de la garantie",
+   "description": "L'assurance de responsabilité civile chasse est obligatoire.",
+   "page": 1
+  },
+  {
+   "name": "Légende des garanties",
+   "description": "Les garanties précédées d’une coche sont systématiquement prévues au contrat.",
+   "page": 1
+  },
+  {
+   "name": "Obligations d’assurance dans le pays d’accueil",
+   "description": "Hors de la France Métropolitaine, l’assuré s’engage à respecter les obligations légales d’assurances applicables dans le pays d’accueil.",
+   "page": 2
+  },
+  {
+   "name": "Confirmation de la résiliation",
+   "description": "Nous vous confirmerons par écrit la réception de la notification.",
+   "page": 2
+  }
+ ],
+ "key_quotes": [
+  {
+   "quote": "Cette assurance a pour objectifs de garantir les dommages résultant d’actes de chasse, de l’organisation d’une chasse ainsi que les accidents causés par les chiens de l’assuré y compris en dehors de la chasse.",
+   "context": "Objet du contrat",
+   "page": 1
+  },
+  {
+   "quote": "L'assurance de responsabilité civile chasse est obligatoire.",
+   "context": "Caractère obligatoire",
+   "page": 1
+  },
+  {
+   "quote": "Ce contrat prévoit également en option la garantie des dommages corporels des chasseurs ainsi qu’une garantie frais de soins et mortalité pour les chiens de chasse.",
+   "context": "Garanties optionnelles",
+   "page": 1
+  },
+  {
+   "quote": "Bénéficiaire : l'adhérent, y compris lorsqu’il agit comme organisateur de chasse ou propriétaire de chasse privée.",
+   "context": "Bénéficiaire",
+   "page": 1
+  },
+  {
+   "quote": "Tout acte de chasse pratiqué sans un permis de chasser valide,",
+   "context": "Ce qui n’est pas assuré",
+   "page": 1
+  },
+  {
+   "quote": "Les chiens de chasse de moins de 3 mois et plus de 9 ans,",
+   "context": "Exclusion Dommages aux chiens de chasse",
+   "page": 1
+  },
+  {
+   "quote": "Le fait non accidentel y compris les piqûres de tiques, les insolations et lésions internes,",
+   "context": "Exclusion Dommages aux chiens de chasse",
+   "page": 1
+  },
+  {
+   "quote": "Déclarer tout sinistre dès que l’assuré en a connaissance et au plus tard dans les 5 jours ouvrés,",
+   "context": "Obligation en cas de sinistre",
+   "page": 2
+  },
+  {
+   "quote": "Pour la garantie Dommages aux chiens de chasse : exclusivement en France métropolitaine et territoires de Monaco et d’Andorre.",
+   "context": "Étendue territoriale",
+   "page": 2
+  },
+  {
+   "quote": "Les garanties du contrat expirent au 30/06 de l’année en cours",
+   "context": "Expiration des garanties",
+   "page": 2
+  }
+ ],
+ "gaps": [
+  "Aucune date d’édition n’est imprimée dans le texte du document ; seul le nom du fichier de la source_url comporte la mention « juillet-2024 », non reprise dans edition_date faute d’être dans le document.",
+  "Aucune référence interne du document n’apparaît dans le texte (le nom de fichier de la source_url comporte « 332 », non repris dans reference).",
+  "Le document ne comporte pas de section Définitions ; seule la mention du bénéficiaire a été relevée comme définition.",
+  "Aucun montant, plafond, capital ou sous-limite n’est chiffré dans ce document (les capitaux décès/invalidité et les plafonds de la garantie chiens ne sont pas indiqués).",
+  "Aucune franchise n’est mentionnée : le champ deductibles est laissé null.",
+  "Aucun délai de carence ni délai de prescription n’est mentionné dans le document.",
+  "S’agissant d’un IPID (2 pages), il ne présente qu’un résumé des principales garanties et exclusions ; la liste complète figure dans les Dispositions Générales, non fournies.",
+  "Le texte des pages est entrecoupé de nombreuses lignes vides issues de la mise en page PDF (encadrés), sans perte de contenu identifiée.",
+  "edition_date remise a null le 2026-08-01: la valeur 2024-07 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5."
+ ]
 }

@@ -16,7 +16,7 @@ target_audience_note: Le document ne nomme aucune catégorie de clientèle. Il d
   » et vise le Transport Public de Marchandises, le Transport Pour Propre Compte et
   le Transport Public de Voyageurs.
 reference: 3350-214973-062019 - PAO/SP3
-edition_date: 2019-06
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/auto
@@ -32,7 +32,7 @@ prompt_version: '1.1'
 product_family: assurance-flotte-automobile-garantie-assistance
 variant: Véhicules > 3,5 tonnes
 edition_status: null
-edition_age_years: 7
+edition_age_years: null
 superseded: null
 extends: contrat d'assurance Flotte automobile (fascicule des Conditions Générales)
 freshness: '2026-07-30'
@@ -46,9 +46,7 @@ generated: true
 
 Convention Spéciale d'assistance annexée au contrat d'assurance Flotte automobile de Groupama, applicable aux véhicules d'un P.T.A.C. supérieur à 3,5 tonnes. Elle organise deux ensembles de prestations : l'Assistance Voyageurs (rapatriement sanitaire, rapatriement du corps, frais médicaux à l'étranger, retour prématuré, avance de caution pénale, frais de justice, incarcération, remplacement de l'Assuré, transmission de messages) et l'Assistance Véhicule (remorquage, hébergement ou rapatriement, véhicule volé, envoi de pièces, mécanicien spécialisé, rapatriement du véhicule, abandon, gardiennage, autocar de remplacement, constat amiable, soutien psychologique). Les prestations sont mises en œuvre par Mutuaide Assistance, filiale du Groupe Groupama, et ne se déclenchent que sur appel téléphonique préalable. Les montants et franchises renvoient à un Tableau des Montants de Garanties et des Franchises qui n'est pas inclus dans ce document.
 
-- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : 2019-06
-
-> ⚠️ **Édition ancienne** : 2019-06, soit 7 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
+- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales
 
 ## Définitions
 
@@ -323,6 +321,7 @@ A la suite d'un événement traumatisant, l'Assureur apporte à l'Assuré une as
 - Le document ne traite ni de la prime, ni de la durée du contrat, ni de la résiliation, ni de la prescription : ces sections relèvent des Conditions Générales du contrat Flotte automobile. `premium` et `prescription_period` sont nuls, et `duration_and_cancellation` ne contient que la cessation liée à l'âge du véhicule.
 - La franchise kilométrique de 40 km est définie « du lieu de garage habituel ou de dépôt du véhicule assuré en France Métropolitaine » ; le document ne précise pas comment elle s'applique lorsque l'événement survient à l'étranger.
 - Les pages 1, 3 et 4 sont respectivement la couverture et le sommaire ; elles n'apportent aucun contenu de garantie, hormis les intitulés relevés ci-dessus. Les numéros de page cités sont ceux des marqueurs [page N] du texte fourni, qui sont décalés d'environ une unité par rapport à la pagination imprimée en pied de page (le marqueur [page 5] porte le folio imprimé « 4 »).
+- edition_date remise a null le 2026-08-01: la valeur 2019-06 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Documents liés
 

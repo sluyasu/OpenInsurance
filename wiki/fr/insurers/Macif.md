@@ -50,7 +50,7 @@ generated: true
 ### [Assurance vie et épargne](../branches/Assurance%20vie%20et%20%C3%A9pargne.md)
 - [Jeewan Patrimoine - Tarifs](../products/macif/Jeewan%20Patrimoine%20-%20Tarifs.md) - Conditions tarifaires (2024-06) · réf. MUT/ FC/ FRAIS/JEEWAN - 06/24
 - [Macif Épargne Vie - Tarifs](../products/macif/Macif%20%C3%89pargne%20Vie%20-%20Tarifs.md) - Conditions tarifaires (2024-06) · réf. MUT/FC/FRAIS/MEV - 06/24
-- [Multi Vie - Tarifs](../products/macif/Multi%20Vie%20-%20Tarifs.md) - Conditions tarifaires (2024-06) · réf. MUT/ FC/ FRAIS/MV - 06/24
+- [Multi Vie - Tarifs](../products/macif/Multi%20Vie%20-%20Tarifs.md) - Conditions tarifaires · réf. MUT/ FC/ FRAIS/MV - 06/24
 
 ### [Assurance auto](../branches/Assurance%20auto.md)
 - [Contrat Camping-car Autocaravane - IPID](../products/macif/Contrat%20Camping-car%20Autocaravane%20-%20IPID.md) - IPID / Fiche d'information (2018-10) · réf. LOIS CCAR 10/18
@@ -66,7 +66,7 @@ generated: true
 - [Contrat d'assurance Chasse - IPID](../products/macif/Contrat%20d%27assurance%20Chasse%20-%20IPID.md) - IPID / Fiche d'information (10/18) · réf. CHASSE 10/18
 
 ### [Assurance emprunteur](../branches/Assurance%20emprunteur.md)
-- [Assurance Découvert Autorisé - Doc](../products/macif/Assurance%20D%C3%A9couvert%20Autoris%C3%A9%20-%20Doc.md) - Document (2020-11)
+- [Assurance Découvert Autorisé - Doc](../products/macif/Assurance%20D%C3%A9couvert%20Autoris%C3%A9%20-%20Doc.md) - Document
 - [Assurance Découvert Autorisé - IPID](../products/macif/Assurance%20D%C3%A9couvert%20Autoris%C3%A9%20-%20IPID.md) - IPID / Fiche d'information (12/20) · réf. DIPA ASSURANCE DÉCOUVERT 12/20
 - [Assurance emprunteur crédit à la consommation - IPID](../products/macif/Assurance%20emprunteur%20cr%C3%A9dit%20%C3%A0%20la%20consommation%20-%20IPID.md) - IPID / Fiche d'information
 - [Notice d'information au contrat collectif d'assurance emprunteur à adhésion facultative (contrat collectif n° 00.104, So](../products/macif/Notice%20d%27information%20au%20contrat%20collectif%20d%27assurance%20emprunteur%20%C3%A0%20adh%C3%A9sion%20facultative%20%28contrat%20collectif%20n%C2%B0%2000.104%2C%20So.md) - Conditions générales · réf. ASS-OFF--V13
@@ -109,8 +109,8 @@ generated: true
 ### [Complémentaire santé](../branches/Compl%C3%A9mentaire%20sant%C3%A9.md)
 - [Complémentaire santé de la Branche de l'Aide, de l'Accompagnement des Soins et des Services à Domicile - Fiche](../products/macif/Compl%C3%A9mentaire%20sant%C3%A9%20de%20la%20Branche%20de%20l%27Aide%2C%20de%20l%27Accompagnement%20des%20Soins%20et%20des%20Services%20%C3%A0%20Domicile%20-%20Fiche.md) - Fiche produit (01/2023) · réf. Santé Branche de l'Aide, de l'Accompagnement, des Soins et des Services à Domicile - Encart tarifaire RG - 01/2023
 - [Garantie Santé](../products/macif/Garantie%20Sant%C3%A9.md) - Conditions générales (2023-01) · réf. UNI/PREI/GS/05 01/23
-- [Macif Mutuelle Entreprises](../products/macif/Macif%20Mutuelle%20Entreprises%20%282%29.md) - Conditions générales (2025-01) · réf. CG M M E - 01/25
-- [Macif Mutuelle Entreprises](../products/macif/Macif%20Mutuelle%20Entreprises.md) - Conditions générales (2026-01) · réf. NID M M E - 01/26
+- [Macif Mutuelle Entreprises](../products/macif/Macif%20Mutuelle%20Entreprises.md) - Conditions générales (2025-01) · réf. CG M M E - 01/25
+- [Macif Mutuelle Entreprises](../products/macif/Macif%20Mutuelle%20Entreprises%20%282%29.md) - Conditions générales · réf. NID M M E - 01/26
 - [Régime conventionnel Frais de santé - CCN BAD (Branche de l'aide, de l'accompagnement, des soins et des services à domic](../products/macif/R%C3%A9gime%20conventionnel%20Frais%20de%20sant%C3%A9%20-%20CCN%20BAD%20%28Branche%20de%20l%27aide%2C%20de%20l%27accompagnement%2C%20des%20soins%20et%20des%20services%20%C3%A0%20domic.md) - Conditions générales (V01.01.2023)
 - [contrat GARANTIE SANTE TERRITORIAUX - IPID](../products/macif/contrat%20GARANTIE%20SANTE%20TERRITORIAUX%20-%20IPID.md) - IPID / Fiche d'information (01/2022) · réf. DIPA GST 01/2022
 

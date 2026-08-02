@@ -315,6 +315,7 @@ Ligne de la section « Autres exemples de remboursement en euros », rubrique «
 - Ce document est le volet « exemples de remboursements en euros » de l'Engagement lisibilité 2026. Un document distinct de la même collection existe dans le corpus pour le même produit et la même édition : « Engagement lisibilité – Tableau de garanties 2026 » (Solution Groupama Santé), sous une autre URL Contentful. Il s'agit de deux documents parallèles et complémentaires, non de deux éditions dont l'une remplacerait l'autre.
 - Le tableau du PDF est restitué par la couche texte dans un ordre de lecture qui ne suit pas les colonnes. Les valeurs ont été réattribuées à leurs colonnes à partir des coordonnées des mots (PyMuPDF get_text("words")), les bandes de colonnes étant relevées sur les en-têtes de chaque page ; celles de la page 6 diffèrent de celles des pages 1 à 5.
 - Le document ne date ni ne référence chaque page : `reference` est null. `edition_date` vient de la seule mention d'édition, « ÉDITION : JUILLET 2026 » (page 6), et est normalisée en 2026-07.
+- Provenance de edition_date: cette date ne vient pas du texte du document mais du manifeste, ou elle avait ete deduite lors de la decouverte. A verifier contre le document avant d'y appuyer une comparaison d'editions.
 
 ## Documents liés
 

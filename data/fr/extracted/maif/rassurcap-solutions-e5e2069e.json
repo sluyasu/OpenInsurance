@@ -1,391 +1,391 @@
 {
-  "schema_version": "1.0",
-  "prompt_version": "1.1",
-  "country": "fr",
-  "insurer_slug": "maif",
-  "insurer_name": "MAIF",
-  "product_name": "Rassurcap Solutions",
-  "branch": "prevoyance",
-  "branch_code": null,
-  "document_type": "ipid",
-  "language": "fr",
-  "target_audience": null,
-  "target_audience_note": "Le document n'énonce pas de public destinataire ; il liste seulement qui n'est pas assurable : « N'est pas assurée, toute personne : mineure, sous tutelle ou hospitalisée dans un établissement psychiatrique, âgée de plus de 65 ans, ne satisfaisant pas aux formalités d'ordre médical, disposant déjà d'un contrat individuel d'assurance décès auprès de MAIF VIE. » Il précise par ailleurs que « Le souscripteur du contrat est nécessairement l'assuré ».",
-  "reference": null,
-  "edition_date": "01/2025",
-  "product_family": "Rassurcap Solutions",
-  "variant": null,
-  "is_extension": false,
-  "extends": null,
-  "superseded": null,
-  "source_url": "https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/document-information-deces-rassurcap-solutions.pdf",
-  "source_pdf": "rassurcap-solutions-e5e2069e.pdf",
-  "source_sha256": "8020b32cbb773deade8e5cc0ce942e03b0cc6873f6477a3c69f4ca7dae32576b",
-  "source_pages": 2,
-  "fetched_at": "2026-07-30",
-  "extraction_model": "claude-code-subagent:scale",
-  "summary": "Document d'information sur le produit d'assurance (IPID) du contrat Rassurcap Solutions, présenté dans la gamme Assurance Décès de MAIF VIE. Le produit est un contrat individuel d'assurance décès, contrat d'assurance sur la vie, dont l'objet est de garantir le versement d'un capital aux bénéficiaires en cas de survenue des risques définis au contrat. Trois garanties sont systématiquement prévues : le décès, la perte totale et irréversible d'autonomie et la maladie grave, cette dernière ouvrant droit à un capital supplémentaire de 5 000 euros. Les garanties sont acquises en France et à l'étranger et la cotisation est perçue au plus tard jusqu'à l'échéance qui suit le 75e anniversaire.",
-  "definitions": [
-    {
-      "term": "Perte totale et irréversible d'autonomie",
-      "definition": "L'assuré est considéré en état de perte totale et irréversible d'autonomie lorsque, à la suite d'un accident ou d'une maladie, il se trouve, en raison de son état de santé : d'une part, dans l'incapacité totale et irrémédiable de se livrer à la moindre activité pouvant lui procurer gain ou profit, et d'autre part, dans la nécessité de recourir, de manière définitive, à l'assistance d'une tierce personne pour accomplir les actes ordinaires de la vie.",
-      "page": 1
-    }
-  ],
-  "coverages": [
-    {
-      "name": "Le décès",
-      "description": "Le risque couvert est le décès quelle qu'en soit la cause, accident ou maladie, sauf exclusions et, le cas échéant, application d'un délai de carence.",
-      "is_optional": false,
-      "territorial_scope": "en France et à l'étranger",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Garantie systématiquement prévue.",
-        "Sauf exclusions et, le cas échéant, application d'un délai de carence."
-      ],
-      "page": 1
-    },
-    {
-      "name": "La perte totale et irréversible d'autonomie",
-      "description": "Le risque couvert est la perte totale et irréversible d'autonomie quelle qu'en soit la cause, accident ou maladie, sauf exclusions. L'assuré est considéré en état de perte totale et irréversible d'autonomie lorsque, à la suite d'un accident ou d'une maladie, il se trouve, en raison de son état de santé : d'une part, dans l'incapacité totale et irrémédiable de se livrer à la moindre activité pouvant lui procurer gain ou profit, et d'autre part, dans la nécessité de recourir, de manière définitive, à l'assistance d'une tierce personne pour accomplir les actes ordinaires de la vie.",
-      "is_optional": false,
-      "territorial_scope": "en France et à l'étranger",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Garantie systématiquement prévue.",
-        "Les deux conditions (incapacité totale et irrémédiable d'activité rémunératrice, et recours définitif à une tierce personne) doivent être réunies."
-      ],
-      "page": 1
-    },
-    {
-      "name": "La maladie grave",
-      "description": "Le risque couvert est la survenance d'une maladie grave, sauf exclusions, en proposant un capital supplémentaire de 5 000 euros.",
-      "is_optional": false,
-      "territorial_scope": "en France et à l'étranger",
-      "limits": "capital supplémentaire de 5 000 euros",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Garantie systématiquement prévue.",
-        "Sauf exclusions, y compris les exclusions spécifiques à la maladie grave."
-      ],
-      "page": 1
-    }
-  ],
-  "exclusions": [
-    {
-      "name": "Personne mineure",
-      "description": "N'est pas assurée toute personne mineure. (Rubrique « Qu'est-ce qui n'est pas assuré ? ».)",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Personne sous tutelle ou hospitalisée en établissement psychiatrique",
-      "description": "N'est pas assurée toute personne sous tutelle ou hospitalisée dans un établissement psychiatrique. (Rubrique « Qu'est-ce qui n'est pas assuré ? ».)",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Personne âgée de plus de 65 ans",
-      "description": "N'est pas assurée toute personne âgée de plus de 65 ans. (Rubrique « Qu'est-ce qui n'est pas assuré ? ».)",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Personne ne satisfaisant pas aux formalités d'ordre médical",
-      "description": "N'est pas assurée toute personne ne satisfaisant pas aux formalités d'ordre médical. (Rubrique « Qu'est-ce qui n'est pas assuré ? ».)",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Personne déjà titulaire d'un contrat individuel d'assurance décès auprès de MAIF VIE",
-      "description": "N'est pas assurée toute personne disposant déjà d'un contrat individuel d'assurance décès auprès de MAIF VIE. (Rubrique « Qu'est-ce qui n'est pas assuré ? ».)",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Guerre civile ou étrangère",
-      "description": "La guerre civile ou étrangère.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Explosion, dégagement de chaleur, irradiation nucléaire",
-      "description": "Les effets directs ou indirects d'explosion, de dégagement de chaleur, d'irradiation provenant de transmutation de noyaux d'atome.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Suicide pendant la première année d'assurance",
-      "description": "Le suicide de l'assuré pendant la première année d'assurance ; en cas d'augmentation des garanties, ce délai d'une année est de nouveau appliqué pour la part de capital correspondant à l'augmentation.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Atteinte volontaire et consciente à son intégrité physique",
-      "description": "Toute atteinte volontaire et consciente par l'assuré à son intégrité physique.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Participation à des actes de violence",
-      "description": "La participation de l'assuré à tous actes de violence, sauf cas de légitime défense.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Compétitions avec engins à moteur, records, acrobaties, cascades, essais, paris, défis",
-      "description": "La participation de l'assuré à des compétitions nécessitant l'utilisation d'engins à moteur (terrestres, maritimes ou aériens), à des tentatives de records, des acrobaties, des cascades, des essais, des paris, des défis...",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Maladie antérieure à la souscription",
-      "description": "Les conséquences d'une maladie dont était atteint l'assuré au moment de la souscription, à moins que cette maladie ait été expressément déclarée à MAIF VIE et qu'elle n'ait pas donné lieu à une restriction ou exclusion de garantie dans les conditions particulières.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Sport professionnel ou rémunéré",
-      "description": "La pratique de sport exercé à titre professionnel ou dans le cadre d'un contrat avec rémunération.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Sports de loisirs — vols sur engin non certifié ou piloté sans brevet valable",
-      "description": "La pratique du sport de loisirs suivant : vols comme pilote ou passager sur tout engin non muni d'un certificat de navigabilité ou piloté par une personne ne possédant pas de brevet valable.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Sports de loisirs — ULM, parapente, autogire, deltaplane, parachutisme, vol à voile, saut à l'élastique, kitesurf",
-      "description": "La pratique des sports de loisirs suivants : l'ULM*, le parapente*, l'autogire*, le deltaplane*, le parachutisme*, le vol à voile*, le saut à l'élastique*, le kitesurf*. Note du document sur les sports marqués d'un astérisque : « Ne sont pas exclus les sinistres résultant de la pratique de ces sports à titre d'initiation (baptême, pratique exceptionnelle), lorsque cette pratique est encadrée par un professionnel ayant les diplômes et compétences requis par la fédération correspondante. »",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Sports de loisirs — plongée sous-marine à plus de 20 mètres",
-      "description": "La pratique du sport de loisirs suivant : la plongée sous-marine avec ou sans bouteille à plus de 20 mètres de profondeur.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Sports de loisirs — voile et navigation en solitaire à plus de 25 milles des côtes",
-      "description": "La pratique du sport de loisirs suivant : la voile et la navigation en solitaire à plus de 25 milles des côtes.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Sports de loisirs — sports de neige ou de glace",
-      "description": "La pratique des sports de loisirs suivants : les sports de neige ou de glace (autres que la pratique amateur des sports d'hiver sur le domaine skiable autorisé)*. Note du document sur les sports marqués d'un astérisque : « Ne sont pas exclus les sinistres résultant de la pratique de ces sports à titre d'initiation (baptême, pratique exceptionnelle), lorsque cette pratique est encadrée par un professionnel ayant les diplômes et compétences requis par la fédération correspondante. »",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Sports de loisirs — randonnée en montagne, alpinisme et escalade au-delà de 3 000 mètres",
-      "description": "La pratique des sports de loisirs suivants : la randonnée en montagne, l'alpinisme et l'escalade (hors support artificiel) au-delà de 3 000 mètres d'altitude.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Sports de loisirs — spéléologie",
-      "description": "La pratique du sport de loisirs suivant : la spéléologie*. Note du document sur les sports marqués d'un astérisque : « Ne sont pas exclus les sinistres résultant de la pratique de ces sports à titre d'initiation (baptême, pratique exceptionnelle), lorsque cette pratique est encadrée par un professionnel ayant les diplômes et compétences requis par la fédération correspondante. »",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Maladie grave intentionnellement provoquée",
-      "description": "Sont exclues les suites et conséquences directes ou indirectes d'une maladie grave intentionnellement provoquée par l'assuré.",
-      "applies_to": "La maladie grave",
-      "page": 1
-    },
-    {
-      "name": "Maladie grave — maladie antérieure à la souscription",
-      "description": "Sont exclues les suites et conséquences directes ou indirectes d'une maladie dont était atteint l'assuré au moment de la souscription, à moins que cette maladie ait été expressément déclarée à MAIF VIE et qu'elle n'ait pas donné lieu à une restriction ou exclusion de garantie dans les conditions particulières.",
-      "applies_to": "La maladie grave",
-      "page": 1
-    },
-    {
-      "name": "Maladie grave — usage abusif de produits pharmaceutiques ou de stupéfiants",
-      "description": "Sont exclues les suites et conséquences directes ou indirectes de l'usage abusif de produits pharmaceutiques ou de stupéfiants en l'absence ou en cas de non-respect de l'ordonnance médicale.",
-      "applies_to": "La maladie grave",
-      "page": 1
-    },
-    {
-      "name": "Maladie grave — éthylisme chronique",
-      "description": "Sont exclues les suites et conséquences directes ou indirectes d'un éthylisme chronique.",
-      "applies_to": "La maladie grave",
-      "page": 1
-    },
-    {
-      "name": "Maladie grave — composants radioactifs, toxiques, explosifs, dangereux ou contagieux",
-      "description": "Sont exclues les suites et conséquences directes ou indirectes des effets directs ou indirects des composants radioactifs, toxiques, explosifs ou de nature dangereuse ou contagieuse, à l'exception des isotopes radioactifs destinés à des usages commerciaux, médicaux, scientifiques ou autres usages similaires de nature pacifique.",
-      "applies_to": "La maladie grave",
-      "page": 1
-    },
-    {
-      "name": "Maladie grave — attaques chimiques ou biologiques",
-      "description": "Sont exclues les suites et conséquences directes ou indirectes des attaques chimiques ou biologiques.",
-      "applies_to": "La maladie grave",
-      "page": 1
-    }
-  ],
-  "deductibles": null,
-  "waiting_periods": [
-    {
-      "coverage": "Le décès",
-      "duration": null,
-      "description": "Le risque couvert est le décès quelle qu'en soit la cause, accident ou maladie, sauf exclusions et, le cas échéant, application d'un délai de carence. La durée de ce délai de carence n'est pas indiquée dans le document.",
-      "page": 1
-    },
-    {
-      "coverage": "Le décès (suicide)",
-      "duration": "première année d'assurance",
-      "description": "Le suicide de l'assuré pendant la première année d'assurance est exclu ; en cas d'augmentation des garanties, ce délai d'une année est de nouveau appliqué pour la part de capital correspondant à l'augmentation.",
-      "page": 1
-    }
-  ],
-  "obligations": [
-    {
-      "name": "Remplir avec exactitude le formulaire de souscription",
-      "description": "Lors de la souscription du contrat : remplir avec exactitude le formulaire de souscription fourni par l'assureur pour lui permettre de connaître et d'apprécier le risque qu'il prend en charge.",
-      "timing": "Lors de la souscription du contrat",
-      "sanction": null,
-      "page": 2
-    },
-    {
-      "name": "Fournir les documents justificatifs",
-      "description": "Lors de la souscription du contrat : fournir tous documents justificatifs demandés par l'assureur.",
-      "timing": "Lors de la souscription du contrat",
-      "sanction": null,
-      "page": 2
-    },
-    {
-      "name": "Régler la cotisation",
-      "description": "Lors de la souscription du contrat : régler la cotisation (ou fraction de cotisation) indiquée au contrat.",
-      "timing": "Lors de la souscription du contrat",
-      "sanction": null,
-      "page": 2
-    },
-    {
-      "name": "Déclarer le sinistre",
-      "description": "En cas de sinistre : déclarer tout événement susceptible de mettre en jeu l'une des garanties souscrites.",
-      "timing": "En cas de sinistre",
-      "sanction": null,
-      "page": 2
-    }
-  ],
-  "claims_procedure": [
-    {
-      "step": "Déclarer l'événement",
-      "description": "Déclarer tout événement susceptible de mettre en jeu l'une des garanties souscrites.",
-      "deadline": null,
-      "page": 2
-    }
-  ],
-  "duration_and_cancellation": {
-    "duration": "Après acceptation, et sous réserve de l'encaissement effectif de la première cotisation ou fraction de cotisation, le contrat et la garantie définie dans les conditions de souscription prennent effet à la date mentionnée dans les conditions particulières qui correspond : soit à la date de remise, au souscripteur, du récépissé de dépôt d'un dossier de souscription ; soit à la date de réception de la demande de souscription à MAIF VIE ; soit, si des informations complémentaires ont été demandées par MAIF VIE, à la date de réception des derniers documents au vu desquels MAIF VIE a pris la décision d'assurer sans exclusion et sans surtarification ; soit, si MAIF VIE est amenée à faire une proposition comprenant des exclusions partielles et/ou une surtarification, à la date de la réception de l'acceptation de cette proposition par le souscripteur. La date d'échéance annuelle du contrat est fixée au premier jour du mois qui suit la date d'anniversaire de sa prise d'effet.",
-    "tacit_renewal": true,
-    "notice_period": "au moins un mois avant la date d'échéance",
-    "methods": [
-      "courrier recommandé avec accusé de réception",
-      "via l'espace personnel maif.fr"
-    ],
-    "special_rights": [
-      "Le souscripteur peut résilier son contrat à l'expiration d'un délai d'un an à compter de la date d'adhésion, sans frais ni pénalités."
-    ],
-    "page": 2
+ "schema_version": "1.0",
+ "prompt_version": "1.1",
+ "country": "fr",
+ "insurer_slug": "maif",
+ "insurer_name": "MAIF",
+ "product_name": "Rassurcap Solutions",
+ "branch": "prevoyance",
+ "branch_code": null,
+ "document_type": "ipid",
+ "language": "fr",
+ "target_audience": null,
+ "target_audience_note": "Le document n'énonce pas de public destinataire ; il liste seulement qui n'est pas assurable : « N'est pas assurée, toute personne : mineure, sous tutelle ou hospitalisée dans un établissement psychiatrique, âgée de plus de 65 ans, ne satisfaisant pas aux formalités d'ordre médical, disposant déjà d'un contrat individuel d'assurance décès auprès de MAIF VIE. » Il précise par ailleurs que « Le souscripteur du contrat est nécessairement l'assuré ».",
+ "reference": null,
+ "edition_date": "01/2025",
+ "product_family": "Rassurcap Solutions",
+ "variant": null,
+ "is_extension": false,
+ "extends": null,
+ "superseded": null,
+ "source_url": "https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/document-information-deces-rassurcap-solutions.pdf",
+ "source_pdf": "rassurcap-solutions-e5e2069e.pdf",
+ "source_sha256": "8020b32cbb773deade8e5cc0ce942e03b0cc6873f6477a3c69f4ca7dae32576b",
+ "source_pages": 2,
+ "fetched_at": "2026-07-30",
+ "extraction_model": "claude-code-subagent:scale",
+ "summary": "Document d'information sur le produit d'assurance (IPID) du contrat Rassurcap Solutions, présenté dans la gamme Assurance Décès de MAIF VIE. Le produit est un contrat individuel d'assurance décès, contrat d'assurance sur la vie, dont l'objet est de garantir le versement d'un capital aux bénéficiaires en cas de survenue des risques définis au contrat. Trois garanties sont systématiquement prévues : le décès, la perte totale et irréversible d'autonomie et la maladie grave, cette dernière ouvrant droit à un capital supplémentaire de 5 000 euros. Les garanties sont acquises en France et à l'étranger et la cotisation est perçue au plus tard jusqu'à l'échéance qui suit le 75e anniversaire.",
+ "definitions": [
+  {
+   "term": "Perte totale et irréversible d'autonomie",
+   "definition": "L'assuré est considéré en état de perte totale et irréversible d'autonomie lorsque, à la suite d'un accident ou d'une maladie, il se trouve, en raison de son état de santé : d'une part, dans l'incapacité totale et irrémédiable de se livrer à la moindre activité pouvant lui procurer gain ou profit, et d'autre part, dans la nécessité de recourir, de manière définitive, à l'assistance d'une tierce personne pour accomplir les actes ordinaires de la vie.",
+   "page": 1
+  }
+ ],
+ "coverages": [
+  {
+   "name": "Le décès",
+   "description": "Le risque couvert est le décès quelle qu'en soit la cause, accident ou maladie, sauf exclusions et, le cas échéant, application d'un délai de carence.",
+   "is_optional": false,
+   "territorial_scope": "en France et à l'étranger",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Garantie systématiquement prévue.",
+    "Sauf exclusions et, le cas échéant, application d'un délai de carence."
+   ],
+   "page": 1
   },
-  "prescription_period": null,
-  "premium": {
-    "notes": [
-      "La cotisation annuelle est perçue pendant la période d'application de la garantie donc au plus tard jusqu'à la date d'échéance qui suit le 75e anniversaire.",
-      "Elle est calculée en fonction de l'âge de l'assuré à la date d'effet puis de reconduction du contrat, du tarif en vigueur à la même date et du montant du capital choisi.",
-      "Elle peut être majorée pour tenir compte de risques particuliers éventuellement constatés lors de la souscription.",
-      "La cotisation est payable d'avance et les garanties ne sont dues que sous réserve de son règlement effectif.",
-      "Le règlement de la cotisation est effectué par prélèvement automatique sur un compte courant ouvert dans un pays de la zone SEPA au nom du souscripteur, sans frais.",
-      "Le paiement des cotisations s'effectue par prélèvement annuel si le montant de la cotisation est inférieur à 30 € par an.",
-      "Si ce dernier est supérieur ou égal à 30 € par an, le prélèvement peut se faire annuellement ou mensuellement au choix du souscripteur."
-    ],
-    "indexation": null,
-    "page": 2
+  {
+   "name": "La perte totale et irréversible d'autonomie",
+   "description": "Le risque couvert est la perte totale et irréversible d'autonomie quelle qu'en soit la cause, accident ou maladie, sauf exclusions. L'assuré est considéré en état de perte totale et irréversible d'autonomie lorsque, à la suite d'un accident ou d'une maladie, il se trouve, en raison de son état de santé : d'une part, dans l'incapacité totale et irrémédiable de se livrer à la moindre activité pouvant lui procurer gain ou profit, et d'autre part, dans la nécessité de recourir, de manière définitive, à l'assistance d'une tierce personne pour accomplir les actes ordinaires de la vie.",
+   "is_optional": false,
+   "territorial_scope": "en France et à l'étranger",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Garantie systématiquement prévue.",
+    "Les deux conditions (incapacité totale et irrémédiable d'activité rémunératrice, et recours définitif à une tierce personne) doivent être réunies."
+   ],
+   "page": 1
   },
-  "special_conditions": [
-    {
-      "name": "Portée du document",
-      "description": "Ce document d'information présente un résumé des principales garanties et exclusions du produit. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l'information complète sur ce produit dans la documentation précontractuelle et contractuelle.",
-      "page": 1
-    },
-    {
-      "name": "Le souscripteur est nécessairement l'assuré",
-      "description": "Le souscripteur du contrat est nécessairement l'assuré. C'est sur lui que reposent les risques.",
-      "page": 1
-    },
-    {
-      "name": "Sports pratiqués à titre d'initiation",
-      "description": "Note du document sur les sports marqués d'un astérisque : « Ne sont pas exclus les sinistres résultant de la pratique de ces sports à titre d'initiation (baptême, pratique exceptionnelle), lorsque cette pratique est encadrée par un professionnel ayant les diplômes et compétences requis par la fédération correspondante. »",
-      "page": 1
-    },
-    {
-      "name": "Gamme et assureur tels qu'imprimés",
-      "description": "Bloc d'en-tête : « Assurance Décès / Document d'information sur le produit d'assurance / MAIF VIE - Entreprise d'assurance immatriculée en France et régie par le Code des assurances - LEI 969500ZQDM3R7A4STD74 / Rassurcap Solutions ».",
-      "page": 1
-    }
+  {
+   "name": "La maladie grave",
+   "description": "Le risque couvert est la survenance d'une maladie grave, sauf exclusions, en proposant un capital supplémentaire de 5 000 euros.",
+   "is_optional": false,
+   "territorial_scope": "en France et à l'étranger",
+   "limits": "capital supplémentaire de 5 000 euros",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Garantie systématiquement prévue.",
+    "Sauf exclusions, y compris les exclusions spécifiques à la maladie grave."
+   ],
+   "page": 1
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Personne mineure",
+   "description": "N'est pas assurée toute personne mineure. (Rubrique « Qu'est-ce qui n'est pas assuré ? ».)",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Personne sous tutelle ou hospitalisée en établissement psychiatrique",
+   "description": "N'est pas assurée toute personne sous tutelle ou hospitalisée dans un établissement psychiatrique. (Rubrique « Qu'est-ce qui n'est pas assuré ? ».)",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Personne âgée de plus de 65 ans",
+   "description": "N'est pas assurée toute personne âgée de plus de 65 ans. (Rubrique « Qu'est-ce qui n'est pas assuré ? ».)",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Personne ne satisfaisant pas aux formalités d'ordre médical",
+   "description": "N'est pas assurée toute personne ne satisfaisant pas aux formalités d'ordre médical. (Rubrique « Qu'est-ce qui n'est pas assuré ? ».)",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Personne déjà titulaire d'un contrat individuel d'assurance décès auprès de MAIF VIE",
+   "description": "N'est pas assurée toute personne disposant déjà d'un contrat individuel d'assurance décès auprès de MAIF VIE. (Rubrique « Qu'est-ce qui n'est pas assuré ? ».)",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Guerre civile ou étrangère",
+   "description": "La guerre civile ou étrangère.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Explosion, dégagement de chaleur, irradiation nucléaire",
+   "description": "Les effets directs ou indirects d'explosion, de dégagement de chaleur, d'irradiation provenant de transmutation de noyaux d'atome.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Suicide pendant la première année d'assurance",
+   "description": "Le suicide de l'assuré pendant la première année d'assurance ; en cas d'augmentation des garanties, ce délai d'une année est de nouveau appliqué pour la part de capital correspondant à l'augmentation.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Atteinte volontaire et consciente à son intégrité physique",
+   "description": "Toute atteinte volontaire et consciente par l'assuré à son intégrité physique.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Participation à des actes de violence",
+   "description": "La participation de l'assuré à tous actes de violence, sauf cas de légitime défense.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Compétitions avec engins à moteur, records, acrobaties, cascades, essais, paris, défis",
+   "description": "La participation de l'assuré à des compétitions nécessitant l'utilisation d'engins à moteur (terrestres, maritimes ou aériens), à des tentatives de records, des acrobaties, des cascades, des essais, des paris, des défis...",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Maladie antérieure à la souscription",
+   "description": "Les conséquences d'une maladie dont était atteint l'assuré au moment de la souscription, à moins que cette maladie ait été expressément déclarée à MAIF VIE et qu'elle n'ait pas donné lieu à une restriction ou exclusion de garantie dans les conditions particulières.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Sport professionnel ou rémunéré",
+   "description": "La pratique de sport exercé à titre professionnel ou dans le cadre d'un contrat avec rémunération.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Sports de loisirs — vols sur engin non certifié ou piloté sans brevet valable",
+   "description": "La pratique du sport de loisirs suivant : vols comme pilote ou passager sur tout engin non muni d'un certificat de navigabilité ou piloté par une personne ne possédant pas de brevet valable.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Sports de loisirs — ULM, parapente, autogire, deltaplane, parachutisme, vol à voile, saut à l'élastique, kitesurf",
+   "description": "La pratique des sports de loisirs suivants : l'ULM*, le parapente*, l'autogire*, le deltaplane*, le parachutisme*, le vol à voile*, le saut à l'élastique*, le kitesurf*. Note du document sur les sports marqués d'un astérisque : « Ne sont pas exclus les sinistres résultant de la pratique de ces sports à titre d'initiation (baptême, pratique exceptionnelle), lorsque cette pratique est encadrée par un professionnel ayant les diplômes et compétences requis par la fédération correspondante. »",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Sports de loisirs — plongée sous-marine à plus de 20 mètres",
+   "description": "La pratique du sport de loisirs suivant : la plongée sous-marine avec ou sans bouteille à plus de 20 mètres de profondeur.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Sports de loisirs — voile et navigation en solitaire à plus de 25 milles des côtes",
+   "description": "La pratique du sport de loisirs suivant : la voile et la navigation en solitaire à plus de 25 milles des côtes.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Sports de loisirs — sports de neige ou de glace",
+   "description": "La pratique des sports de loisirs suivants : les sports de neige ou de glace (autres que la pratique amateur des sports d'hiver sur le domaine skiable autorisé)*. Note du document sur les sports marqués d'un astérisque : « Ne sont pas exclus les sinistres résultant de la pratique de ces sports à titre d'initiation (baptême, pratique exceptionnelle), lorsque cette pratique est encadrée par un professionnel ayant les diplômes et compétences requis par la fédération correspondante. »",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Sports de loisirs — randonnée en montagne, alpinisme et escalade au-delà de 3 000 mètres",
+   "description": "La pratique des sports de loisirs suivants : la randonnée en montagne, l'alpinisme et l'escalade (hors support artificiel) au-delà de 3 000 mètres d'altitude.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Sports de loisirs — spéléologie",
+   "description": "La pratique du sport de loisirs suivant : la spéléologie*. Note du document sur les sports marqués d'un astérisque : « Ne sont pas exclus les sinistres résultant de la pratique de ces sports à titre d'initiation (baptême, pratique exceptionnelle), lorsque cette pratique est encadrée par un professionnel ayant les diplômes et compétences requis par la fédération correspondante. »",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Maladie grave intentionnellement provoquée",
+   "description": "Sont exclues les suites et conséquences directes ou indirectes d'une maladie grave intentionnellement provoquée par l'assuré.",
+   "applies_to": "La maladie grave",
+   "page": 1
+  },
+  {
+   "name": "Maladie grave — maladie antérieure à la souscription",
+   "description": "Sont exclues les suites et conséquences directes ou indirectes d'une maladie dont était atteint l'assuré au moment de la souscription, à moins que cette maladie ait été expressément déclarée à MAIF VIE et qu'elle n'ait pas donné lieu à une restriction ou exclusion de garantie dans les conditions particulières.",
+   "applies_to": "La maladie grave",
+   "page": 1
+  },
+  {
+   "name": "Maladie grave — usage abusif de produits pharmaceutiques ou de stupéfiants",
+   "description": "Sont exclues les suites et conséquences directes ou indirectes de l'usage abusif de produits pharmaceutiques ou de stupéfiants en l'absence ou en cas de non-respect de l'ordonnance médicale.",
+   "applies_to": "La maladie grave",
+   "page": 1
+  },
+  {
+   "name": "Maladie grave — éthylisme chronique",
+   "description": "Sont exclues les suites et conséquences directes ou indirectes d'un éthylisme chronique.",
+   "applies_to": "La maladie grave",
+   "page": 1
+  },
+  {
+   "name": "Maladie grave — composants radioactifs, toxiques, explosifs, dangereux ou contagieux",
+   "description": "Sont exclues les suites et conséquences directes ou indirectes des effets directs ou indirects des composants radioactifs, toxiques, explosifs ou de nature dangereuse ou contagieuse, à l'exception des isotopes radioactifs destinés à des usages commerciaux, médicaux, scientifiques ou autres usages similaires de nature pacifique.",
+   "applies_to": "La maladie grave",
+   "page": 1
+  },
+  {
+   "name": "Maladie grave — attaques chimiques ou biologiques",
+   "description": "Sont exclues les suites et conséquences directes ou indirectes des attaques chimiques ou biologiques.",
+   "applies_to": "La maladie grave",
+   "page": 1
+  }
+ ],
+ "deductibles": null,
+ "waiting_periods": [
+  {
+   "coverage": "Le décès",
+   "duration": null,
+   "description": "Le risque couvert est le décès quelle qu'en soit la cause, accident ou maladie, sauf exclusions et, le cas échéant, application d'un délai de carence. La durée de ce délai de carence n'est pas indiquée dans le document.",
+   "page": 1
+  },
+  {
+   "coverage": "Le décès (suicide)",
+   "duration": "première année d'assurance",
+   "description": "Le suicide de l'assuré pendant la première année d'assurance est exclu ; en cas d'augmentation des garanties, ce délai d'une année est de nouveau appliqué pour la part de capital correspondant à l'augmentation.",
+   "page": 1
+  }
+ ],
+ "obligations": [
+  {
+   "name": "Remplir avec exactitude le formulaire de souscription",
+   "description": "Lors de la souscription du contrat : remplir avec exactitude le formulaire de souscription fourni par l'assureur pour lui permettre de connaître et d'apprécier le risque qu'il prend en charge.",
+   "timing": "Lors de la souscription du contrat",
+   "sanction": null,
+   "page": 2
+  },
+  {
+   "name": "Fournir les documents justificatifs",
+   "description": "Lors de la souscription du contrat : fournir tous documents justificatifs demandés par l'assureur.",
+   "timing": "Lors de la souscription du contrat",
+   "sanction": null,
+   "page": 2
+  },
+  {
+   "name": "Régler la cotisation",
+   "description": "Lors de la souscription du contrat : régler la cotisation (ou fraction de cotisation) indiquée au contrat.",
+   "timing": "Lors de la souscription du contrat",
+   "sanction": null,
+   "page": 2
+  },
+  {
+   "name": "Déclarer le sinistre",
+   "description": "En cas de sinistre : déclarer tout événement susceptible de mettre en jeu l'une des garanties souscrites.",
+   "timing": "En cas de sinistre",
+   "sanction": null,
+   "page": 2
+  }
+ ],
+ "claims_procedure": [
+  {
+   "step": "Déclarer l'événement",
+   "description": "Déclarer tout événement susceptible de mettre en jeu l'une des garanties souscrites.",
+   "deadline": null,
+   "page": 2
+  }
+ ],
+ "duration_and_cancellation": {
+  "duration": "Après acceptation, et sous réserve de l'encaissement effectif de la première cotisation ou fraction de cotisation, le contrat et la garantie définie dans les conditions de souscription prennent effet à la date mentionnée dans les conditions particulières qui correspond : soit à la date de remise, au souscripteur, du récépissé de dépôt d'un dossier de souscription ; soit à la date de réception de la demande de souscription à MAIF VIE ; soit, si des informations complémentaires ont été demandées par MAIF VIE, à la date de réception des derniers documents au vu desquels MAIF VIE a pris la décision d'assurer sans exclusion et sans surtarification ; soit, si MAIF VIE est amenée à faire une proposition comprenant des exclusions partielles et/ou une surtarification, à la date de la réception de l'acceptation de cette proposition par le souscripteur. La date d'échéance annuelle du contrat est fixée au premier jour du mois qui suit la date d'anniversaire de sa prise d'effet.",
+  "tacit_renewal": true,
+  "notice_period": "au moins un mois avant la date d'échéance",
+  "methods": [
+   "courrier recommandé avec accusé de réception",
+   "via l'espace personnel maif.fr"
   ],
-  "key_quotes": [
-    {
-      "quote": "Le produit est un contrat individuel d’assurance décès. C’est un contrat d’assurance sur la vie. Son objet est de garantir le versement d’un capital \naux bénéficiaires, en cas de survenue des risques définis au contrat.",
-      "page": 1,
-      "context": "Nature du produit"
-    },
-    {
-      "quote": "Le risque couvert est le décès quelle qu’en soit la cause, accident \nou maladie, sauf exclusions et, le cas échéant, application d’un délai \nde carence.",
-      "page": 1,
-      "context": "Garantie décès"
-    },
-    {
-      "quote": "Le risque couvert est la survenance d’une maladie grave, sauf \nexclusions, en proposant un capital supplémentaire de 5 000 euros.",
-      "page": 1,
-      "context": "Garantie maladie grave et capital supplémentaire"
-    },
-    {
-      "quote": "L’assuré est considéré en état de perte totale et irréversible \nd’autonomie lorsque, à la suite d’un accident ou d’une maladie, \nil se trouve, en raison de son état de santé",
-      "page": 1,
-      "context": "Définition de la PTIA"
-    },
-    {
-      "quote": "Le suicide de l’assuré pendant la première année d’assurance ;  \nen cas d’augmentation des garanties, ce délai d’une année  \nest de nouveau appliqué pour la part de capital correspondant  \nà l’augmentation.",
-      "page": 1,
-      "context": "Exclusion du suicide"
-    },
-    {
-      "quote": "Le souscripteur du contrat est nécessairement l’assuré. C’est sur lui \nque reposent les risques.",
-      "page": 1,
-      "context": "Qualité du souscripteur"
-    },
-    {
-      "quote": "Le souscripteur peut résilier son contrat à l’expiration d’un délai d’un an à compter de la date d’adhésion, sans frais ni pénalités par courrier \nrecommandé avec accusé de réception, au moins un mois avant la date d’échéance.",
-      "page": 2,
-      "context": "Résiliation"
-    },
-    {
-      "quote": "La cotisation annuelle est perçue pendant la période d’application de la garantie donc au plus tard jusqu’à la date d’échéance qui suit  \nle 75e anniversaire.",
-      "page": 2,
-      "context": "Durée de perception de la cotisation"
-    }
+  "special_rights": [
+   "Le souscripteur peut résilier son contrat à l'expiration d'un délai d'un an à compter de la date d'adhésion, sans frais ni pénalités."
   ],
-  "gaps": [
-    "target_audience : le document ne désigne aucun public. Il ne donne que des critères d'inassurabilité (mineur, sous tutelle ou hospitalisé en établissement psychiatrique, plus de 65 ans, formalités médicales non satisfaites, contrat décès MAIF VIE déjà détenu). Le champ reste null ; ces critères sont conservés verbatim dans target_audience_note et en exclusions.",
-    "reference : aucune référence interne n'est imprimée sur ce document, contrairement aux autres IPID MAIF (« IPID PJ - RGAA », « IPID RCMO A&C »). La dernière ligne de la page 2 ne porte que « 01/2025 », d'où edition_date « 01/2025 » et reference null. Le /ModDate du PDF (D:20250128162625Z) n'a pas été retenu comme source.",
-    "Durée du délai de carence de la garantie décès non chiffrée : le document écrit seulement « sauf exclusions et, le cas échéant, application d'un délai de carence » sans en donner la durée ni les cas d'application.",
-    "Aucun montant de capital décès ou de capital PTIA n'est indiqué : seul le capital supplémentaire maladie grave (5 000 euros) est chiffré. Aucune franchise, aucun barème de cotisation, aucun délai de prescription ne figurent au document.",
-    "La liste des maladies graves couvertes n'est pas donnée : le document parle de « la survenance d'une maladie grave » sans définir le terme ni énumérer les pathologies.",
-    "Couche texte : les puces de la colonne « Qu'est-ce qui est assuré ? » et « Qu'est-ce qui n'est pas assuré ? » sortent en glyphes de zone privée U+F0FC (coche, 4 occurrences) et U+F0FB (croix, 5 occurrences), et 37 caractères de contrôle U+0007 servent de puces internes. Ces caractères sont conservés tels quels dans les key_quotes découpées programmatiquement, mais ils rendent impossible toute vérification textuelle des marqueurs visuels.",
-    "Assureur : MAIF VIE est le seul assureur nommé sur ce document (« MAIF VIE - Entreprise d'assurance immatriculée en France et régie par le Code des assurances - LEI 969500ZQDM3R7A4STD74 »). Aucun SIREN ni numéro RCS n'y figure, seulement le LEI.",
-    "La liste des sports de loisirs exclus a été éclatée en sept exclusions distinctes (une par groupe de la liste imprimée) pour ne pas fusionner des items distincts ; la note de bas de liste sur la pratique à titre d'initiation est rappelée sur les items marqués d'un astérisque dans le document."
-  ]
+  "page": 2
+ },
+ "prescription_period": null,
+ "premium": {
+  "notes": [
+   "La cotisation annuelle est perçue pendant la période d'application de la garantie donc au plus tard jusqu'à la date d'échéance qui suit le 75e anniversaire.",
+   "Elle est calculée en fonction de l'âge de l'assuré à la date d'effet puis de reconduction du contrat, du tarif en vigueur à la même date et du montant du capital choisi.",
+   "Elle peut être majorée pour tenir compte de risques particuliers éventuellement constatés lors de la souscription.",
+   "La cotisation est payable d'avance et les garanties ne sont dues que sous réserve de son règlement effectif.",
+   "Le règlement de la cotisation est effectué par prélèvement automatique sur un compte courant ouvert dans un pays de la zone SEPA au nom du souscripteur, sans frais.",
+   "Le paiement des cotisations s'effectue par prélèvement annuel si le montant de la cotisation est inférieur à 30 € par an.",
+   "Si ce dernier est supérieur ou égal à 30 € par an, le prélèvement peut se faire annuellement ou mensuellement au choix du souscripteur."
+  ],
+  "indexation": null,
+  "page": 2
+ },
+ "special_conditions": [
+  {
+   "name": "Portée du document",
+   "description": "Ce document d'information présente un résumé des principales garanties et exclusions du produit. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l'information complète sur ce produit dans la documentation précontractuelle et contractuelle.",
+   "page": 1
+  },
+  {
+   "name": "Le souscripteur est nécessairement l'assuré",
+   "description": "Le souscripteur du contrat est nécessairement l'assuré. C'est sur lui que reposent les risques.",
+   "page": 1
+  },
+  {
+   "name": "Sports pratiqués à titre d'initiation",
+   "description": "Note du document sur les sports marqués d'un astérisque : « Ne sont pas exclus les sinistres résultant de la pratique de ces sports à titre d'initiation (baptême, pratique exceptionnelle), lorsque cette pratique est encadrée par un professionnel ayant les diplômes et compétences requis par la fédération correspondante. »",
+   "page": 1
+  },
+  {
+   "name": "Gamme et assureur tels qu'imprimés",
+   "description": "Bloc d'en-tête : « Assurance Décès / Document d'information sur le produit d'assurance / MAIF VIE - Entreprise d'assurance immatriculée en France et régie par le Code des assurances - LEI 969500ZQDM3R7A4STD74 / Rassurcap Solutions ».",
+   "page": 1
+  }
+ ],
+ "key_quotes": [
+  {
+   "quote": "Le produit est un contrat individuel d’assurance décès. C’est un contrat d’assurance sur la vie. Son objet est de garantir le versement d’un capital \naux bénéficiaires, en cas de survenue des risques définis au contrat.",
+   "page": 1,
+   "context": "Nature du produit"
+  },
+  {
+   "quote": "Le risque couvert est le décès quelle qu’en soit la cause, accident \nou maladie, sauf exclusions et, le cas échéant, application d’un délai \nde carence.",
+   "page": 1,
+   "context": "Garantie décès"
+  },
+  {
+   "quote": "Le risque couvert est la survenance d’une maladie grave, sauf \nexclusions, en proposant un capital supplémentaire de 5 000 euros.",
+   "page": 1,
+   "context": "Garantie maladie grave et capital supplémentaire"
+  },
+  {
+   "quote": "L’assuré est considéré en état de perte totale et irréversible \nd’autonomie lorsque, à la suite d’un accident ou d’une maladie, \nil se trouve, en raison de son état de santé",
+   "page": 1,
+   "context": "Définition de la PTIA"
+  },
+  {
+   "quote": "Le suicide de l’assuré pendant la première année d’assurance ;  \nen cas d’augmentation des garanties, ce délai d’une année  \nest de nouveau appliqué pour la part de capital correspondant  \nà l’augmentation.",
+   "page": 1,
+   "context": "Exclusion du suicide"
+  },
+  {
+   "quote": "Le souscripteur du contrat est nécessairement l’assuré. C’est sur lui \nque reposent les risques.",
+   "page": 1,
+   "context": "Qualité du souscripteur"
+  },
+  {
+   "quote": "Le souscripteur peut résilier son contrat à l’expiration d’un délai d’un an à compter de la date d’adhésion, sans frais ni pénalités par courrier \nrecommandé avec accusé de réception, au moins un mois avant la date d’échéance.",
+   "page": 2,
+   "context": "Résiliation"
+  },
+  {
+   "quote": "La cotisation annuelle est perçue pendant la période d’application de la garantie donc au plus tard jusqu’à la date d’échéance qui suit  \nle 75e anniversaire.",
+   "page": 2,
+   "context": "Durée de perception de la cotisation"
+  }
+ ],
+ "gaps": [
+  "target_audience : le document ne désigne aucun public. Il ne donne que des critères d'inassurabilité (mineur, sous tutelle ou hospitalisé en établissement psychiatrique, plus de 65 ans, formalités médicales non satisfaites, contrat décès MAIF VIE déjà détenu). Le champ reste null ; ces critères sont conservés verbatim dans target_audience_note et en exclusions.",
+  "reference : aucune référence interne n'est imprimée sur ce document, contrairement aux autres IPID MAIF (« IPID PJ - RGAA », « IPID RCMO A&C »). La dernière ligne de la page 2 ne porte que « 01/2025 », d'où edition_date « 01/2025 » et reference null. Le /ModDate du PDF (D:20250128162625Z) n'a pas été retenu comme source.",
+  "Durée du délai de carence de la garantie décès non chiffrée : le document écrit seulement « sauf exclusions et, le cas échéant, application d'un délai de carence » sans en donner la durée ni les cas d'application.",
+  "Aucun montant de capital décès ou de capital PTIA n'est indiqué : seul le capital supplémentaire maladie grave (5 000 euros) est chiffré. Aucune franchise, aucun barème de cotisation, aucun délai de prescription ne figurent au document.",
+  "La liste des maladies graves couvertes n'est pas donnée : le document parle de « la survenance d'une maladie grave » sans définir le terme ni énumérer les pathologies.",
+  "Couche texte : les puces de la colonne « Qu'est-ce qui est assuré ? » et « Qu'est-ce qui n'est pas assuré ? » sortent en glyphes de zone privée U+F0FC (coche, 4 occurrences) et U+F0FB (croix, 5 occurrences), et 37 caractères de contrôle U+0007 servent de puces internes. Ces caractères sont conservés tels quels dans les key_quotes découpées programmatiquement, mais ils rendent impossible toute vérification textuelle des marqueurs visuels.",
+  "Assureur : MAIF VIE est le seul assureur nommé sur ce document (« MAIF VIE - Entreprise d'assurance immatriculée en France et régie par le Code des assurances - LEI 969500ZQDM3R7A4STD74 »). Aucun SIREN ni numéro RCS n'y figure, seulement le LEI.",
+  "La liste des sports de loisirs exclus a été éclatée en sept exclusions distinctes (une par groupe de la liste imprimée) pour ne pas fusionner des items distincts ; la note de bas de liste sur la pratique à titre d'initiation est rappelée sur les items marqués d'un astérisque dans le document."
+ ]
 }

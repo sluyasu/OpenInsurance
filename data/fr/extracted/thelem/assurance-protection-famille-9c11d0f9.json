@@ -1,397 +1,398 @@
 {
-  "schema_version": "1.0",
-  "prompt_version": "1.1",
-  "country": "fr",
-  "insurer_slug": "thelem",
-  "insurer_name": "Thélem assurances",
-  "product_name": "Assurance Protection Famille",
-  "branch": "prevoyance",
-  "branch_code": null,
-  "document_type": "ipid",
-  "language": "fr",
-  "target_audience": "particuliers",
-  "target_audience_note": "Assuré : toute personne âgée d’au moins 18 ans et au maximum de 69 ans, et désignée sur les Conditions Particulières. Bénéficiaires : membre(s) de la famille, associé(s)…",
-  "reference": null,
-  "edition_date": "2025-08",
-  "product_family": "Assurance Protection Famille",
-  "variant": null,
-  "is_extension": false,
-  "extends": null,
-  "superseded": null,
-  "source_url": "https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TP_Protection-famille-572_082025.pdf",
-  "source_pdf": "assurance-protection-famille-9c11d0f9.pdf",
-  "source_sha256": "b6c866e992e5d4951ecbab90ea561272c8d69f4426f7a1ee1db4d4fc6d993b65",
-  "source_pages": 2,
-  "fetched_at": "2026-07-30",
-  "extraction_model": "claude-code-subagent:scale",
-  "summary": "Document d’information sur le produit d’assurance (IPID) du contrat Assurance Protection Famille de Thélem prévoyance. L’assurance Protection Famille permet de préserver la famille de l’assuré, sur une période qu’il juge sensible, en lui assurant le versement d’un capital si l’assuré décède ou s’il subit une Perte Totale et Irréversible d’Autonomie (PTIA). Les garanties décès et PTIA sont systématiquement prévues, avec choix du montant du capital de 10 000 € à 250 000 €, choix du ou des bénéficiaires et revalorisation du capital. En option, le contrat prévoit une majoration du capital en cas de décès accidentel et une rente éducation.",
-  "definitions": [
-    {
-      "term": "Assuré",
-      "definition": "toute personne âgée d’au moins 18 ans et au maximum de 69 ans, et désignée sur les Conditions Particulières.",
-      "page": 1
-    },
-    {
-      "term": "PTIA",
-      "definition": "Perte Totale et Irréversible d’Autonomie (PTIA)",
-      "page": 1
-    }
-  ],
-  "coverages": [
-    {
-      "name": "Garanties Décès et PTIA",
-      "description": "Le contrat assure à la famille de l’assuré le versement d’un capital afin qu’elle puisse faire face aux problèmes financiers pouvant intervenir si l’assuré décède ou s’il subit une Perte Totale et Irréversible d’Autonomie (PTIA). Les garanties décès et PTIA sont systématiquement prévues.",
-      "is_optional": false,
-      "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DOM-TOM, les pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
-      "limits": "Choix du montant du capital : de 10 000 € à 250 000 € par tranche de 10 000 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Choix du montant du capital : de 10 000 € à 250 000 € par tranche de 10 000 €",
-        "Choix du/des bénéficiaire(s) : membre(s) de la famille, associé(s)…",
-        "Choix de la période de cotisation : minimum 1 an",
-        "Décès ou PTIA suite à accident : aucun délai d’attente",
-        "Décès ou PTIA suite à maladie : délai d’attente de 3 mois",
-        "Décès ou PTIA suite à pathologies liées à des troubles neuropsychiques, maladies psychiatriques, dépressions nerveuses : délai d’attente de 1 an"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Revalorisation du montant du capital",
-      "description": "Revalorisation du montant du capital en fonction de l’évolution de la valeur de service du point de retraite de l’AGIRC.",
-      "is_optional": false,
-      "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DOM-TOM, les pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "en fonction de l’évolution de la valeur de service du point de retraite de l’AGIRC"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Majoration décès",
-      "description": "Majoration décès : le capital souscrit est majoré de 50% en cas de décès accidentel.",
-      "is_optional": true,
-      "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DOM-TOM, les pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
-      "limits": "le capital souscrit est majoré de 50%",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "en cas de décès accidentel"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Rente éducation",
-      "description": "Rente éducation : de 1 000 € à 30 000 € versé chaque année à vos enfants ou à ceux de votre conjoint(e) jusqu’à leur 25ème anniversaire s’ils poursuivent leurs études.",
-      "is_optional": true,
-      "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DOM-TOM, les pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
-      "limits": "de 1 000 € à 30 000 € versé chaque année",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "à vos enfants ou à ceux de votre conjoint(e) jusqu’à leur 25ème anniversaire s’ils poursuivent leurs études",
-        "La rente éducation cesse lorsque l’enfant n’est plus considéré à charge ou lorsqu’il a atteint son 25ème anniversaire."
-      ],
-      "page": 1
-    }
-  ],
-  "exclusions": [
-    {
-      "name": "Suicide ou tentative de suicide dans la première année",
-      "description": "La tentative de suicide ou du suicide de l’assuré survenu dans la première année qui suit la date d’effet de la souscription.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Fait volontaire de l’assuré",
-      "description": "Les accidents, blessures, mutilations ou maladies qui sont le fait volontaire de l’assuré.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Participation volontaire et violente à des rassemblements, rixes, jeux et paris",
-      "description": "La participation volontaire et violente de l’assuré à des rassemblements, manifestations sur la voie publique, à des mouvements populaires, rixes, jeux et paris.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Alcool, stupéfiants, tranquillisants ou produits toxiques",
-      "description": "L’usage de boissons alcoolisées, de stupéfiants, de tranquillisants ou de produits toxiques non prescrits médicalement.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Compétitions avec véhicules à moteur ou aériens",
-      "description": "L’usage de véhicules à moteur ou aériens dans le cadre de compétitions organisées dans un cadre officiel ou privé.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Décès ou PTIA survenant pendant les délais d’attente",
-      "description": "Tout décès ou toute Perte Totale et Irréversible d’Autonomie (PTIA) survenant pendant le(s) délai(s) d’attente et n’ayant pas pour origine un accident.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Restriction — cessation de la rente éducation",
-      "description": "La rente éducation cesse lorsque l’enfant n’est plus considéré à charge ou lorsqu’il a atteint son 25ème anniversaire.",
-      "applies_to": "Rente éducation",
-      "page": 1
-    },
-    {
-      "name": "Restriction — refus de contrôle médical",
-      "description": "Si l’assuré se refuse à un contrôle médical, les garanties sont suspendues.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Restriction — délais d’attente",
-      "description": "Les indemnités sont versées après application des délais d’attente suivants : Décès ou PTIA suite à accident : aucun ; Décès ou PTIA suite à maladie : 3 mois ; Décès ou PTIA suite à pathologies liées à des troubles neuropsychiques, maladies psychiatriques, dépressions nerveuses : 1 an.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Restriction — âge limite des garanties",
-      "description": "Les garanties cessent au tard à la fin de l’année civile au cours de laquelle l’assuré a atteint l’âge de 75 ans.",
-      "applies_to": "all",
-      "page": 2
-    }
-  ],
-  "deductibles": null,
-  "waiting_periods": [
-    {
-      "coverage": "Décès ou PTIA suite à accident",
-      "duration": "aucun",
-      "description": "Les indemnités sont versées après application des délais d’attente suivants : Décès ou PTIA suite à accident : aucun.",
-      "page": 1
-    },
-    {
-      "coverage": "Décès ou PTIA suite à maladie",
-      "duration": "3 mois",
-      "description": "Les indemnités sont versées après application des délais d’attente suivants : Décès ou PTIA suite à maladie : 3 mois.",
-      "page": 1
-    },
-    {
-      "coverage": "Décès ou PTIA suite à pathologies liées à des troubles neuropsychiques, maladies psychiatriques, dépressions nerveuses",
-      "duration": "1 an",
-      "description": "Les indemnités sont versées après application des délais d’attente suivants : Décès ou PTIA suite à pathologies liées à des troubles neuropsychiques, maladies psychiatriques, dépressions nerveuses : 1 an.",
-      "page": 1
-    },
-    {
-      "coverage": "all",
-      "duration": null,
-      "description": "Tout décès ou toute Perte Totale et Irréversible d’Autonomie (PTIA) survenant pendant le(s) délai(s) d’attente et n’ayant pas pour origine un accident n’est pas assuré.",
-      "page": 1
-    }
-  ],
-  "obligations": [
-    {
-      "name": "Répondre exactement aux questions posées",
-      "description": "Répondre exactement aux questions posées lors de la souscription afin d’apprécier les risques et fixer la cotisation.",
-      "timing": "A la souscription du contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Fournir les documents justificatifs",
-      "description": "Fournir tous les documents justificatifs demandés.",
-      "timing": "A la souscription du contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Déclarer les circonstances nouvelles",
-      "description": "Déclarer toutes les circonstances nouvelles qui modifient les informations fournies lors de la souscription.",
-      "timing": "En cours de contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Régler les cotisations",
-      "description": "Régler les cotisations à la date convenue.",
-      "timing": "En cours de contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Fournir les pièces justificatives en cas de décès ou de PTIA",
-      "description": "En cas de décès de l’assuré ou de PTIA, fournir toutes les pièces justificatives.",
-      "timing": "En cas de sinistre",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Se soumettre au contrôle médical",
-      "description": "Si l’assuré se refuse à un contrôle médical, les garanties sont suspendues.",
-      "timing": null,
-      "sanction": "les garanties sont suspendues",
-      "page": 1
-    }
-  ],
-  "claims_procedure": [
-    {
-      "step": "En cas de sinistre",
-      "description": "En cas de décès de l’assuré ou de PTIA, fournir toutes les pièces justificatives.",
-      "deadline": null,
-      "page": 2
-    }
-  ],
-  "duration_and_cancellation": {
-    "duration": "Le contrat prend effet à la date et l’heure indiquées aux Conditions Particulières. Le contrat est souscrit jusqu’à la prochaine échéance principale et est renouvelable par tacite reconduction à chaque nouvelle échéance principale avec les facultés de résiliation prévues. Les garanties cessent au tard à la fin de l’année civile au cours de laquelle l’assuré a atteint l’âge de 75 ans.",
-    "tacit_renewal": true,
-    "notice_period": "Vous pouvez notamment mettre fin au contrat à l'échéance annuelle en respectant un préavis de deux mois.",
-    "methods": [
-      "par lettre ou tout autre support durable",
-      "par déclaration faite au siège social ou chez notre représentant",
-      "par acte extrajudiciaire",
-      "via la fonctionnalité mise en place sur le site internet"
-    ],
-    "special_rights": [
-      "En cas de contrat conclu à distance, l’assuré dispose d’un délai de rétractation de 30 jours, qui commence à courir à compter de la conclusion du contrat, ou à compter de la réception de l’ensemble de la documentation contractuelle.",
-      "Les cas de résiliation, les délais à respecter sont ceux prévus par la règlementation et précisés dans les Dispositions Générales.",
-      "Nous vous confirmerons par écrit la réception de la notification.",
-      "en cas de résiliation suite à modification de votre situation selon les termes des articles L113-16 et R.113-6 du Code des assurances, vous devrez notifier la résiliation par lettre recommandée (papier ou électronique) avec demande d'avis de réception"
-    ],
-    "page": 2
+ "schema_version": "1.0",
+ "prompt_version": "1.1",
+ "country": "fr",
+ "insurer_slug": "thelem",
+ "insurer_name": "Thélem assurances",
+ "product_name": "Assurance Protection Famille",
+ "branch": "prevoyance",
+ "branch_code": null,
+ "document_type": "ipid",
+ "language": "fr",
+ "target_audience": "particuliers",
+ "target_audience_note": "Assuré : toute personne âgée d’au moins 18 ans et au maximum de 69 ans, et désignée sur les Conditions Particulières. Bénéficiaires : membre(s) de la famille, associé(s)…",
+ "reference": null,
+ "edition_date": null,
+ "product_family": "Assurance Protection Famille",
+ "variant": null,
+ "is_extension": false,
+ "extends": null,
+ "superseded": null,
+ "source_url": "https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TP_Protection-famille-572_082025.pdf",
+ "source_pdf": "assurance-protection-famille-9c11d0f9.pdf",
+ "source_sha256": "b6c866e992e5d4951ecbab90ea561272c8d69f4426f7a1ee1db4d4fc6d993b65",
+ "source_pages": 2,
+ "fetched_at": "2026-07-30",
+ "extraction_model": "claude-code-subagent:scale",
+ "summary": "Document d’information sur le produit d’assurance (IPID) du contrat Assurance Protection Famille de Thélem prévoyance. L’assurance Protection Famille permet de préserver la famille de l’assuré, sur une période qu’il juge sensible, en lui assurant le versement d’un capital si l’assuré décède ou s’il subit une Perte Totale et Irréversible d’Autonomie (PTIA). Les garanties décès et PTIA sont systématiquement prévues, avec choix du montant du capital de 10 000 € à 250 000 €, choix du ou des bénéficiaires et revalorisation du capital. En option, le contrat prévoit une majoration du capital en cas de décès accidentel et une rente éducation.",
+ "definitions": [
+  {
+   "term": "Assuré",
+   "definition": "toute personne âgée d’au moins 18 ans et au maximum de 69 ans, et désignée sur les Conditions Particulières.",
+   "page": 1
   },
-  "prescription_period": null,
-  "premium": {
-    "notes": [
-      "La cotisation annuelle se paie à la date ou aux dates indiquées sur les Conditions Particulières.",
-      "Un paiement fractionné peut toutefois être accordé (Mensuel, Trimestriel).",
-      "Les paiements peuvent être effectués par chèque ou prélèvement automatique.",
-      "Choix de la période de cotisation : minimum 1 an"
-    ],
-    "indexation": "Revalorisation du montant du capital en fonction de l’évolution de la valeur de service du point de retraite de l’AGIRC.",
-    "page": 2
+  {
+   "term": "PTIA",
+   "definition": "Perte Totale et Irréversible d’Autonomie (PTIA)",
+   "page": 1
+  }
+ ],
+ "coverages": [
+  {
+   "name": "Garanties Décès et PTIA",
+   "description": "Le contrat assure à la famille de l’assuré le versement d’un capital afin qu’elle puisse faire face aux problèmes financiers pouvant intervenir si l’assuré décède ou s’il subit une Perte Totale et Irréversible d’Autonomie (PTIA). Les garanties décès et PTIA sont systématiquement prévues.",
+   "is_optional": false,
+   "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DOM-TOM, les pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
+   "limits": "Choix du montant du capital : de 10 000 € à 250 000 € par tranche de 10 000 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Choix du montant du capital : de 10 000 € à 250 000 € par tranche de 10 000 €",
+    "Choix du/des bénéficiaire(s) : membre(s) de la famille, associé(s)…",
+    "Choix de la période de cotisation : minimum 1 an",
+    "Décès ou PTIA suite à accident : aucun délai d’attente",
+    "Décès ou PTIA suite à maladie : délai d’attente de 3 mois",
+    "Décès ou PTIA suite à pathologies liées à des troubles neuropsychiques, maladies psychiatriques, dépressions nerveuses : délai d’attente de 1 an"
+   ],
+   "page": 1
   },
-  "special_conditions": [
-    {
-      "name": "Étendue territoriale",
-      "description": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DOM-TOM, les pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
-      "page": 2
-    },
-    {
-      "name": "Conditions d’âge de l’assuré",
-      "description": "Assuré : toute personne âgée d’au moins 18 ans et au maximum de 69 ans, et désignée sur les Conditions Particulières.",
-      "page": 1
-    },
-    {
-      "name": "Choix du/des bénéficiaire(s)",
-      "description": "Choix du/des bénéficiaire(s) : membre(s) de la famille, associé(s)…",
-      "page": 1
-    },
-    {
-      "name": "Période de cotisation",
-      "description": "Choix de la période de cotisation : minimum 1 an.",
-      "page": 1
-    },
-    {
-      "name": "Droit de rétractation en cas de contrat conclu à distance",
-      "description": "En cas de contrat conclu à distance, l’assuré dispose d’un délai de rétractation de 30 jours, qui commence à courir à compter de la conclusion du contrat, ou à compter de la réception de l’ensemble de la documentation contractuelle.",
-      "page": 2
-    },
-    {
-      "name": "Cessation des garanties à 75 ans",
-      "description": "Les garanties cessent au tard à la fin de l’année civile au cours de laquelle l’assuré a atteint l’âge de 75 ans.",
-      "page": 2
-    },
-    {
-      "name": "Garanties systématiques",
-      "description": "Les garanties précédées d’une coche sont systématiquement prévues au contrat.",
-      "page": 1
-    },
-    {
-      "name": "Portée du document",
-      "description": "Ce document d’information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l’information complète sur ce produit dans la documentation précontractuelle et contractuelle.",
-      "page": 1
-    },
-    {
-      "name": "Assureur",
-      "description": "Thélem prévoyance, SA à conseil d’administration au capital de 12 000 580 € – Entreprise régie par le code des assurances Siège Social : Le Croc – BP 63130 – 45430 Chécy – immatriculée en France.",
-      "page": 1
-    }
+  {
+   "name": "Revalorisation du montant du capital",
+   "description": "Revalorisation du montant du capital en fonction de l’évolution de la valeur de service du point de retraite de l’AGIRC.",
+   "is_optional": false,
+   "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DOM-TOM, les pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "en fonction de l’évolution de la valeur de service du point de retraite de l’AGIRC"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Majoration décès",
+   "description": "Majoration décès : le capital souscrit est majoré de 50% en cas de décès accidentel.",
+   "is_optional": true,
+   "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DOM-TOM, les pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
+   "limits": "le capital souscrit est majoré de 50%",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "en cas de décès accidentel"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Rente éducation",
+   "description": "Rente éducation : de 1 000 € à 30 000 € versé chaque année à vos enfants ou à ceux de votre conjoint(e) jusqu’à leur 25ème anniversaire s’ils poursuivent leurs études.",
+   "is_optional": true,
+   "territorial_scope": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DOM-TOM, les pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
+   "limits": "de 1 000 € à 30 000 € versé chaque année",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "à vos enfants ou à ceux de votre conjoint(e) jusqu’à leur 25ème anniversaire s’ils poursuivent leurs études",
+    "La rente éducation cesse lorsque l’enfant n’est plus considéré à charge ou lorsqu’il a atteint son 25ème anniversaire."
+   ],
+   "page": 1
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Suicide ou tentative de suicide dans la première année",
+   "description": "La tentative de suicide ou du suicide de l’assuré survenu dans la première année qui suit la date d’effet de la souscription.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Fait volontaire de l’assuré",
+   "description": "Les accidents, blessures, mutilations ou maladies qui sont le fait volontaire de l’assuré.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Participation volontaire et violente à des rassemblements, rixes, jeux et paris",
+   "description": "La participation volontaire et violente de l’assuré à des rassemblements, manifestations sur la voie publique, à des mouvements populaires, rixes, jeux et paris.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Alcool, stupéfiants, tranquillisants ou produits toxiques",
+   "description": "L’usage de boissons alcoolisées, de stupéfiants, de tranquillisants ou de produits toxiques non prescrits médicalement.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Compétitions avec véhicules à moteur ou aériens",
+   "description": "L’usage de véhicules à moteur ou aériens dans le cadre de compétitions organisées dans un cadre officiel ou privé.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Décès ou PTIA survenant pendant les délais d’attente",
+   "description": "Tout décès ou toute Perte Totale et Irréversible d’Autonomie (PTIA) survenant pendant le(s) délai(s) d’attente et n’ayant pas pour origine un accident.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Restriction — cessation de la rente éducation",
+   "description": "La rente éducation cesse lorsque l’enfant n’est plus considéré à charge ou lorsqu’il a atteint son 25ème anniversaire.",
+   "applies_to": "Rente éducation",
+   "page": 1
+  },
+  {
+   "name": "Restriction — refus de contrôle médical",
+   "description": "Si l’assuré se refuse à un contrôle médical, les garanties sont suspendues.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Restriction — délais d’attente",
+   "description": "Les indemnités sont versées après application des délais d’attente suivants : Décès ou PTIA suite à accident : aucun ; Décès ou PTIA suite à maladie : 3 mois ; Décès ou PTIA suite à pathologies liées à des troubles neuropsychiques, maladies psychiatriques, dépressions nerveuses : 1 an.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Restriction — âge limite des garanties",
+   "description": "Les garanties cessent au tard à la fin de l’année civile au cours de laquelle l’assuré a atteint l’âge de 75 ans.",
+   "applies_to": "all",
+   "page": 2
+  }
+ ],
+ "deductibles": null,
+ "waiting_periods": [
+  {
+   "coverage": "Décès ou PTIA suite à accident",
+   "duration": "aucun",
+   "description": "Les indemnités sont versées après application des délais d’attente suivants : Décès ou PTIA suite à accident : aucun.",
+   "page": 1
+  },
+  {
+   "coverage": "Décès ou PTIA suite à maladie",
+   "duration": "3 mois",
+   "description": "Les indemnités sont versées après application des délais d’attente suivants : Décès ou PTIA suite à maladie : 3 mois.",
+   "page": 1
+  },
+  {
+   "coverage": "Décès ou PTIA suite à pathologies liées à des troubles neuropsychiques, maladies psychiatriques, dépressions nerveuses",
+   "duration": "1 an",
+   "description": "Les indemnités sont versées après application des délais d’attente suivants : Décès ou PTIA suite à pathologies liées à des troubles neuropsychiques, maladies psychiatriques, dépressions nerveuses : 1 an.",
+   "page": 1
+  },
+  {
+   "coverage": "all",
+   "duration": null,
+   "description": "Tout décès ou toute Perte Totale et Irréversible d’Autonomie (PTIA) survenant pendant le(s) délai(s) d’attente et n’ayant pas pour origine un accident n’est pas assuré.",
+   "page": 1
+  }
+ ],
+ "obligations": [
+  {
+   "name": "Répondre exactement aux questions posées",
+   "description": "Répondre exactement aux questions posées lors de la souscription afin d’apprécier les risques et fixer la cotisation.",
+   "timing": "A la souscription du contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Fournir les documents justificatifs",
+   "description": "Fournir tous les documents justificatifs demandés.",
+   "timing": "A la souscription du contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Déclarer les circonstances nouvelles",
+   "description": "Déclarer toutes les circonstances nouvelles qui modifient les informations fournies lors de la souscription.",
+   "timing": "En cours de contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Régler les cotisations",
+   "description": "Régler les cotisations à la date convenue.",
+   "timing": "En cours de contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Fournir les pièces justificatives en cas de décès ou de PTIA",
+   "description": "En cas de décès de l’assuré ou de PTIA, fournir toutes les pièces justificatives.",
+   "timing": "En cas de sinistre",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Se soumettre au contrôle médical",
+   "description": "Si l’assuré se refuse à un contrôle médical, les garanties sont suspendues.",
+   "timing": null,
+   "sanction": "les garanties sont suspendues",
+   "page": 1
+  }
+ ],
+ "claims_procedure": [
+  {
+   "step": "En cas de sinistre",
+   "description": "En cas de décès de l’assuré ou de PTIA, fournir toutes les pièces justificatives.",
+   "deadline": null,
+   "page": 2
+  }
+ ],
+ "duration_and_cancellation": {
+  "duration": "Le contrat prend effet à la date et l’heure indiquées aux Conditions Particulières. Le contrat est souscrit jusqu’à la prochaine échéance principale et est renouvelable par tacite reconduction à chaque nouvelle échéance principale avec les facultés de résiliation prévues. Les garanties cessent au tard à la fin de l’année civile au cours de laquelle l’assuré a atteint l’âge de 75 ans.",
+  "tacit_renewal": true,
+  "notice_period": "Vous pouvez notamment mettre fin au contrat à l'échéance annuelle en respectant un préavis de deux mois.",
+  "methods": [
+   "par lettre ou tout autre support durable",
+   "par déclaration faite au siège social ou chez notre représentant",
+   "par acte extrajudiciaire",
+   "via la fonctionnalité mise en place sur le site internet"
   ],
-  "key_quotes": [
-    {
-      "quote": "L’assurance Protection Famille permet de préserver la famille de l’assuré, sur une période qu’il juge sensible.",
-      "context": "De quel type d’assurance s’agit-il ?",
-      "page": 1
-    },
-    {
-      "quote": "Le contrat assure à la famille de l’assuré le versement d’un capital afin qu’elle puisse faire face aux problèmes financiers pouvant intervenir si l’assuré décède ou s’il subit une Perte Totale et Irréversible d’Autonomie (PTIA).",
-      "context": "De quel type d’assurance s’agit-il ?",
-      "page": 1
-    },
-    {
-      "quote": "Choix du montant du capital : de 10 000 € à 250 000 € par tranche de 10 000 €,",
-      "context": "Garanties Décès et PTIA systématiquement prévues",
-      "page": 1
-    },
-    {
-      "quote": "Revalorisation du montant du capital en fonction de l’évolution de la valeur de service du point de retraite de l’AGIRC.",
-      "context": "Garanties Décès et PTIA systématiquement prévues",
-      "page": 1
-    },
-    {
-      "quote": "Majoration décès : le capital souscrit est majoré de 50% en cas de décès accidentel,",
-      "context": "Garanties optionnelles",
-      "page": 1
-    },
-    {
-      "quote": "Rente éducation : de 1 000 € à 30 000 € versé chaque année à vos enfants ou à ceux de votre conjoint(e) jusqu’à leur 25ème anniversaire s’ils poursuivent leurs études,",
-      "context": "Garanties optionnelles",
-      "page": 1
-    },
-    {
-      "quote": "La tentative de suicide ou du suicide de l’assuré survenu dans la première année qui suit la date d’effet de la souscription,",
-      "context": "Principales exclusions",
-      "page": 1
-    },
-    {
-      "quote": "L’usage de boissons alcoolisées, de stupéfiants, de tranquillisants ou de produits toxiques non prescrits médicalement,",
-      "context": "Principales exclusions",
-      "page": 1
-    },
-    {
-      "quote": "Si l’assuré se refuse à un contrôle médical, les garanties sont suspendues.",
-      "context": "Principales restrictions",
-      "page": 1
-    },
-    {
-      "quote": "Décès ou PTIA suite à maladie : 3 mois",
-      "context": "Délais d’attente",
-      "page": 1
-    },
-    {
-      "quote": "Tout décès ou toute Perte Totale et Irréversible d’Autonomie (PTIA) survenant pendant le(s) délai(s) d’attente et n’ayant pas pour origine un accident.",
-      "context": "Qu’est-ce qui n’est pas assuré ?",
-      "page": 1
-    },
-    {
-      "quote": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DOM-TOM, les pays de l’Union Européenne et la Suisse.",
-      "context": "Où suis-je couvert ?",
-      "page": 2
-    },
-    {
-      "quote": "Les garanties cessent au tard à la fin de l’année civile au cours de laquelle l’assuré a atteint l’âge de 75 ans.",
-      "context": "Quand commence la couverture et quand prend-elle fin ?",
-      "page": 2
-    },
-    {
-      "quote": "Vous pouvez notamment mettre fin au contrat à l'échéance annuelle en respectant un préavis de deux mois.",
-      "context": "Comment puis-je résilier le contrat ?",
-      "page": 2
-    }
+  "special_rights": [
+   "En cas de contrat conclu à distance, l’assuré dispose d’un délai de rétractation de 30 jours, qui commence à courir à compter de la conclusion du contrat, ou à compter de la réception de l’ensemble de la documentation contractuelle.",
+   "Les cas de résiliation, les délais à respecter sont ceux prévus par la règlementation et précisés dans les Dispositions Générales.",
+   "Nous vous confirmerons par écrit la réception de la notification.",
+   "en cas de résiliation suite à modification de votre situation selon les termes des articles L113-16 et R.113-6 du Code des assurances, vous devrez notifier la résiliation par lettre recommandée (papier ou électronique) avec demande d'avis de réception"
   ],
-  "gaps": [
-    "Aucune date d’édition n’est imprimée dans le texte du document : edition_date laissé null. Le nom du fichier source (IPID_TP_Protection-famille-572_082025.pdf) contient « 572_082025 », mais cette information ne figure pas dans le texte extrait, elle n’a donc pas été reportée dans reference ni edition_date.",
-    "Aucune franchise n’est mentionnée dans le document (deductibles null) ; seuls des délais d’attente sont indiqués.",
-    "Aucun délai de prescription n’est mentionné dans ce document (prescription_period null) — l’information figure dans les Dispositions Générales.",
-    "Aucune procédure de déclaration de sinistre détaillée (délai de déclaration, destinataire) n’est indiquée : seule l’obligation de fournir les pièces justificatives en cas de décès ou de PTIA est mentionnée.",
-    "Le document ne contient pas de section « Définitions » formelle ; les entrées de definitions[] proviennent de la mention Assuré et du sigle PTIA. Le terme « bénéficiaire » n’est pas défini, seulement illustré (« membre(s) de la famille, associé(s)… »).",
-    "Le libellé « Les garanties cessent au tard à la fin de l’année civile... » est reproduit tel quel (formulation apparemment tronquée dans le source, probablement « au plus tard »)."
-  ]
+  "page": 2
+ },
+ "prescription_period": null,
+ "premium": {
+  "notes": [
+   "La cotisation annuelle se paie à la date ou aux dates indiquées sur les Conditions Particulières.",
+   "Un paiement fractionné peut toutefois être accordé (Mensuel, Trimestriel).",
+   "Les paiements peuvent être effectués par chèque ou prélèvement automatique.",
+   "Choix de la période de cotisation : minimum 1 an"
+  ],
+  "indexation": "Revalorisation du montant du capital en fonction de l’évolution de la valeur de service du point de retraite de l’AGIRC.",
+  "page": 2
+ },
+ "special_conditions": [
+  {
+   "name": "Étendue territoriale",
+   "description": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DOM-TOM, les pays de l’Union Européenne et la Suisse. Elles sont acquises dans le reste du monde si les séjours ne dépassent pas 90 jours consécutifs.",
+   "page": 2
+  },
+  {
+   "name": "Conditions d’âge de l’assuré",
+   "description": "Assuré : toute personne âgée d’au moins 18 ans et au maximum de 69 ans, et désignée sur les Conditions Particulières.",
+   "page": 1
+  },
+  {
+   "name": "Choix du/des bénéficiaire(s)",
+   "description": "Choix du/des bénéficiaire(s) : membre(s) de la famille, associé(s)…",
+   "page": 1
+  },
+  {
+   "name": "Période de cotisation",
+   "description": "Choix de la période de cotisation : minimum 1 an.",
+   "page": 1
+  },
+  {
+   "name": "Droit de rétractation en cas de contrat conclu à distance",
+   "description": "En cas de contrat conclu à distance, l’assuré dispose d’un délai de rétractation de 30 jours, qui commence à courir à compter de la conclusion du contrat, ou à compter de la réception de l’ensemble de la documentation contractuelle.",
+   "page": 2
+  },
+  {
+   "name": "Cessation des garanties à 75 ans",
+   "description": "Les garanties cessent au tard à la fin de l’année civile au cours de laquelle l’assuré a atteint l’âge de 75 ans.",
+   "page": 2
+  },
+  {
+   "name": "Garanties systématiques",
+   "description": "Les garanties précédées d’une coche sont systématiquement prévues au contrat.",
+   "page": 1
+  },
+  {
+   "name": "Portée du document",
+   "description": "Ce document d’information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l’information complète sur ce produit dans la documentation précontractuelle et contractuelle.",
+   "page": 1
+  },
+  {
+   "name": "Assureur",
+   "description": "Thélem prévoyance, SA à conseil d’administration au capital de 12 000 580 € – Entreprise régie par le code des assurances Siège Social : Le Croc – BP 63130 – 45430 Chécy – immatriculée en France.",
+   "page": 1
+  }
+ ],
+ "key_quotes": [
+  {
+   "quote": "L’assurance Protection Famille permet de préserver la famille de l’assuré, sur une période qu’il juge sensible.",
+   "context": "De quel type d’assurance s’agit-il ?",
+   "page": 1
+  },
+  {
+   "quote": "Le contrat assure à la famille de l’assuré le versement d’un capital afin qu’elle puisse faire face aux problèmes financiers pouvant intervenir si l’assuré décède ou s’il subit une Perte Totale et Irréversible d’Autonomie (PTIA).",
+   "context": "De quel type d’assurance s’agit-il ?",
+   "page": 1
+  },
+  {
+   "quote": "Choix du montant du capital : de 10 000 € à 250 000 € par tranche de 10 000 €,",
+   "context": "Garanties Décès et PTIA systématiquement prévues",
+   "page": 1
+  },
+  {
+   "quote": "Revalorisation du montant du capital en fonction de l’évolution de la valeur de service du point de retraite de l’AGIRC.",
+   "context": "Garanties Décès et PTIA systématiquement prévues",
+   "page": 1
+  },
+  {
+   "quote": "Majoration décès : le capital souscrit est majoré de 50% en cas de décès accidentel,",
+   "context": "Garanties optionnelles",
+   "page": 1
+  },
+  {
+   "quote": "Rente éducation : de 1 000 € à 30 000 € versé chaque année à vos enfants ou à ceux de votre conjoint(e) jusqu’à leur 25ème anniversaire s’ils poursuivent leurs études,",
+   "context": "Garanties optionnelles",
+   "page": 1
+  },
+  {
+   "quote": "La tentative de suicide ou du suicide de l’assuré survenu dans la première année qui suit la date d’effet de la souscription,",
+   "context": "Principales exclusions",
+   "page": 1
+  },
+  {
+   "quote": "L’usage de boissons alcoolisées, de stupéfiants, de tranquillisants ou de produits toxiques non prescrits médicalement,",
+   "context": "Principales exclusions",
+   "page": 1
+  },
+  {
+   "quote": "Si l’assuré se refuse à un contrôle médical, les garanties sont suspendues.",
+   "context": "Principales restrictions",
+   "page": 1
+  },
+  {
+   "quote": "Décès ou PTIA suite à maladie : 3 mois",
+   "context": "Délais d’attente",
+   "page": 1
+  },
+  {
+   "quote": "Tout décès ou toute Perte Totale et Irréversible d’Autonomie (PTIA) survenant pendant le(s) délai(s) d’attente et n’ayant pas pour origine un accident.",
+   "context": "Qu’est-ce qui n’est pas assuré ?",
+   "page": 1
+  },
+  {
+   "quote": "Les garanties sont acquises en France métropolitaine, Monaco, dans les DOM-TOM, les pays de l’Union Européenne et la Suisse.",
+   "context": "Où suis-je couvert ?",
+   "page": 2
+  },
+  {
+   "quote": "Les garanties cessent au tard à la fin de l’année civile au cours de laquelle l’assuré a atteint l’âge de 75 ans.",
+   "context": "Quand commence la couverture et quand prend-elle fin ?",
+   "page": 2
+  },
+  {
+   "quote": "Vous pouvez notamment mettre fin au contrat à l'échéance annuelle en respectant un préavis de deux mois.",
+   "context": "Comment puis-je résilier le contrat ?",
+   "page": 2
+  }
+ ],
+ "gaps": [
+  "Aucune date d’édition n’est imprimée dans le texte du document : edition_date laissé null. Le nom du fichier source (IPID_TP_Protection-famille-572_082025.pdf) contient « 572_082025 », mais cette information ne figure pas dans le texte extrait, elle n’a donc pas été reportée dans reference ni edition_date.",
+  "Aucune franchise n’est mentionnée dans le document (deductibles null) ; seuls des délais d’attente sont indiqués.",
+  "Aucun délai de prescription n’est mentionné dans ce document (prescription_period null) — l’information figure dans les Dispositions Générales.",
+  "Aucune procédure de déclaration de sinistre détaillée (délai de déclaration, destinataire) n’est indiquée : seule l’obligation de fournir les pièces justificatives en cas de décès ou de PTIA est mentionnée.",
+  "Le document ne contient pas de section « Définitions » formelle ; les entrées de definitions[] proviennent de la mention Assuré et du sigle PTIA. Le terme « bénéficiaire » n’est pas défini, seulement illustré (« membre(s) de la famille, associé(s)… »).",
+  "Le libellé « Les garanties cessent au tard à la fin de l’année civile... » est reproduit tel quel (formulation apparemment tronquée dans le source, probablement « au plus tard »).",
+  "edition_date remise a null le 2026-08-01: la valeur 2025-08 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5."
+ ]
 }

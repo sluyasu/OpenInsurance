@@ -1,264 +1,264 @@
 {
-  "schema_version": "1.0",
-  "prompt_version": "1.1",
-  "country": "fr",
-  "insurer_slug": "smacl",
-  "insurer_name": "SMACL Assurances",
-  "product_name": "CONVERGENCE Tous risques objets",
-  "branch": "multirisque-professionnelle",
-  "branch_code": null,
-  "document_type": "conditions_generales",
-  "language": "fr",
-  "target_audience": null,
-  "target_audience_note": "La couverture porte la seule mention de segment « Associatons » (page 1, coquille du calque texte pour « Associations ») et l'adresse de contact « associatons@smacl.fr » (page 6). Le document ne qualifie jamais le souscripteur autrement : ni commune, ni collectivité, ni élu, ni particulier, ni entreprise n'y figurent. Aucune des valeurs de l'énumération ne correspond, d'où target_audience null.",
-  "reference": "CONVERGENCE_CS_TRO_SA_04_(05_2016)",
-  "edition_date": "01/2024",
-  "product_family": "Convergence",
-  "variant": "Associatons",
-  "is_extension": true,
-  "extends": "conditions générales Convergence et conventions spéciales Dommages aux biens Convergence",
-  "superseded": null,
-  "source_url": "https://www.smacl.fr/files/documents/cs-convergence-tous-risques-objets.pdf",
-  "source_pdf": "convergence-tous-risques-objets-82273455.pdf",
-  "source_sha256": "3fff1dafd684970db00db98966196b5475b50457e0db5885cc13c14e5065fc00",
-  "source_pages": 6,
-  "fetched_at": "2026-08-01",
-  "extraction_model": "claude-code-subagent:scale",
-  "summary": "Conventions spéciales « Tous risques objets » du contrat Convergence de SMACL Assurances. Elles ont pour objet l'indemnisation des dommages matériels subis, en tous lieux, par les objets désignés aux conditions particulières, et complètent les conditions générales Convergence ainsi que les conventions spéciales Dommages aux biens Convergence. La garantie couvre les frais de remplacement ou de réparation des objets assurés à la suite des événements couverts au titre des conventions spéciales Dommages aux biens et à la suite d'évènements accidentels, imprévisibles ou fortuits. Le document se limite à cinq articles : objet, étendue territoriale, exclusions, montant de la garantie et règle proportionnelle de capitaux.",
-  "definitions": [],
-  "coverages": [
-    {
-      "name": "Tous risques objets — frais de remplacement ou de réparation des objets assurés",
-      "description": "La garantie de SMACL Assurances porte sur les frais de remplacement ou de réparation des objets assurés suite à la réalisation, en tous lieux : des événements couverts au titre des conventions spéciales Dommages aux biens ; d'évènements accidentels, imprévisibles ou fortuits consécutifs à une destruction, une détérioration, une avarie ou une disparition des objets. Les objets garantis sont ceux désignés aux conditions particulières.",
-      "is_optional": null,
-      "territorial_scope": "SMACL Assurances délivre sa garantie uniquement sur le territoire en France métropolitaine et dans les départements et régions d'outre-mer (article 2). La garantie joue « en tous lieux » à l'intérieur de cette étendue (articles préliminaires et 1).",
-      "limits": "« La garantie de SMACL Assurances s'exerce à concurrence du montant des frais de réparation ou de remplacement des objets sinistrés, et cela, dans la limite de leur valeur de remplacement (définie aux conventions spéciales Dommages aux biens) au jour du sinistre (majoré des frais d'emballage, de transport, de montage et d'essai), et sous déduction du montant de la vétusté définie à dire d'expert (celle-ci ne pouvant être toutefois inférieure à celle déterminée par application d'un taux de vétusté de 8% par an avec un maximum de 50%). »",
-      "sub_limits": [
-        "Taux de vétusté minimal retenu : 8% par an avec un maximum de 50%",
-        "Frais d'emballage, de transport, de montage et d'essai : majorent la valeur de remplacement"
-      ],
-      "deductible": null,
-      "conditions": [
-        "Les objets garantis sont ceux désignés aux conditions particulières",
-        "La garantie est accordée avec application de la règle proportionnelle prévue à l'article L.121-5 du Code des assurances (article 5)",
-        "En cas de disparition de la chose assurée : dépôt de plainte obligatoire, le récépissé devant être remis à SMACL Assurances pour l'application de la garantie (article 3)",
-        "Ces conventions spéciales complètent les conditions générales Convergence et les conventions spéciales Dommages aux biens Convergence"
-      ],
-      "page": 3
-    }
-  ],
-  "exclusions": [
-    {
-      "name": "Exclusions des conditions générales Convergence et des conventions spéciales Dommages aux biens (renvoi)",
-      "description": "« Outre les exclusions communes à toutes les garanties prévues à l'article 3 des conditions générales Convergence et les exclusions applicables aux conventions spéciales Dommages aux biens Convergence, ne sont pas garantis : » — ces exclusions ne sont pas reproduites dans le présent document.",
-      "applies_to": "all",
-      "page": 4
-    },
-    {
-      "name": "Parties de machines atteintes par l'usure",
-      "description": "Les dommages et les frais afférents à des parties de machines atteintes par : soit l'usure, quel qu'en soit le caractère et notamment mécanique, thermique ou chimique. Ne sont toutefois pas visés par cette exclusion ceux de ces dommages dont la cause et la manifestation pourront être considérées comme simultanées.",
-      "applies_to": "all",
-      "page": 4
-    },
-    {
-      "name": "Parties de machines atteintes par l'action progressive et/ou continuelle de l'exploitation, du simple usage ou d'agents destructeurs",
-      "description": "Les dommages et les frais afférents à des parties de machines atteintes par : soit l'action progressive et/ou continuelle de l'exploitation, du simple usage ou d'agents destructeurs, et ce quelles qu'en soient la cause, l'origine ou la manifestation, telles que oxydations, dépôts de rouille, de boue, entartrages, corrosions, fatigues d'origine quelconque. Ne sont toutefois pas visés par cette exclusion ceux de ces dommages dont la cause et la manifestation pourront être considérées comme simultanées.",
-      "applies_to": "all",
-      "page": 4
-    },
-    {
-      "name": "Simple dérangement mécanique ou électrique, défaut de réglage, acte d'entretien",
-      "description": "Les frais exposés à l'occasion d'un simple dérangement mécanique ou électrique, d'un défaut de réglage et, plus généralement, de tout acte d'entretien.",
-      "applies_to": "all",
-      "page": 4
-    },
-    {
-      "name": "Crevasses, fissures, tâches, rayures, écaillements ou égratignures",
-      "description": "Les crevasses, fissures, tâches, rayures, écaillements ou égratignures subis par les objets assurés.",
-      "applies_to": "all",
-      "page": 4
-    },
-    {
-      "name": "Accidents survenant au cours de montages ou de démontages",
-      "description": "Les dommages résultant d'accidents survenant au cours de montages ou de démontages effectués, soit avant la mise en exploitation de l'appareil ou de l'installation, soit lorsque l'installation ou l'appareil n'est plus sous la garde de l'assuré ou de ses préposés.",
-      "applies_to": "all",
-      "page": 4
-    },
-    {
-      "name": "Utilisation des biens avant remise en état définitive alors que l'assuré a connaissance d'un vice",
-      "description": "Les dommages survenant du fait de l'utilisation des biens assurés avant leur remise en état définitive, alors que l'assuré a connaissance d'un vice, d'un défaut ou d'une malfaçon, ou d'un dommage (garanti ou non).",
-      "applies_to": "all",
-      "page": 4
-    },
-    {
-      "name": "Réparations provisoires (ou de fortune) non effectuées par le constructeur",
-      "description": "Les dommages résultant de réparations provisoires (ou de fortune) qui ne seraient pas effectuées par le constructeur ou par l'un de ses représentants autorisés.",
-      "applies_to": "all",
-      "page": 4
-    },
-    {
-      "name": "Pièces ou accessoires non agréés par le constructeur",
-      "description": "Les dommages ayant pour origine l'utilisation ou la simple expérimentation sur un appareil, de pièces ou accessoires non agréés par le constructeur de cet appareil.",
-      "applies_to": "all",
-      "page": 4
-    },
-    {
-      "name": "Travaux d'amélioration ou de protection de l'installation",
-      "description": "Les frais relatifs à des travaux d'amélioration ou de protection de l'installation, même s'il s'agit de mesures exigées par SMACL Assurances.",
-      "applies_to": "all",
-      "page": 4
-    },
-    {
-      "name": "Fait générateur existant lors de la souscription et connu de l'assuré",
-      "description": "Les dommages dus à un fait générateur qui existait lors de la souscription du contrat, et dont l'assuré avait connaissance.",
-      "applies_to": "all",
-      "page": 4
-    },
-    {
-      "name": "Contraventions de douane, confiscations, saisies, mises sous séquestre",
-      "description": "Les conséquences de contraventions de douane ou autres, de confiscations, de saisies ou de mises sous séquestre.",
-      "applies_to": "all",
-      "page": 4
-    },
-    {
-      "name": "Remplacement des pièces à remplacement périodique",
-      "description": "Les dommages et frais occasionnés directement ou indirectement par le remplacement des pièces nécessitant un remplacement périodique telles que courroies, câbles, lampes, fluides de toutes natures.",
-      "applies_to": "all",
-      "page": 4
-    },
-    {
-      "name": "Emballage défectueux",
-      "description": "Les dommages résultant d'un emballage défectueux.",
-      "applies_to": "all",
-      "page": 4
-    },
-    {
-      "name": "Disparition de la chose assurée sans dépôt de plainte",
-      "description": "La disparition de la chose assurée n'ayant pas fait l'objet d'un dépôt de plainte. Le récépissé du dépôt de plainte devra être remis à SMACL Assurances pour l'application de la garantie.",
-      "applies_to": "Tous risques objets — frais de remplacement ou de réparation des objets assurés",
-      "page": 4
-    }
-  ],
-  "deductibles": null,
-  "waiting_periods": [],
-  "obligations": [
-    {
-      "name": "Dépôt de plainte en cas de disparition",
-      "description": "En cas de disparition de la chose assurée, l'assuré doit déposer plainte.",
-      "timing": "En cas de sinistre (disparition)",
-      "sanction": "« La disparition de la chose assurée n'ayant pas fait l'objet d'un dépôt de plainte » n'est pas garantie (article 3).",
-      "page": 4
-    },
-    {
-      "name": "Remise du récépissé du dépôt de plainte",
-      "description": "« Le récépissé du dépôt de plainte devra être remis à SMACL Assurances pour l'application de la garantie. »",
-      "timing": "En cas de sinistre (disparition)",
-      "sanction": "Condition d'application de la garantie ; le document n'énonce pas d'autre sanction.",
-      "page": 4
-    }
-  ],
-  "claims_procedure": [
-    {
-      "step": "Déposer plainte en cas de disparition de la chose assurée",
-      "description": "La disparition de la chose assurée n'ayant pas fait l'objet d'un dépôt de plainte n'est pas garantie.",
-      "deadline": null,
-      "page": 4
-    },
-    {
-      "step": "Remettre le récépissé du dépôt de plainte à SMACL Assurances",
-      "description": "Le récépissé du dépôt de plainte devra être remis à SMACL Assurances pour l'application de la garantie.",
-      "deadline": null,
-      "page": 4
-    }
-  ],
-  "duration_and_cancellation": null,
-  "prescription_period": null,
-  "premium": null,
-  "special_conditions": [
-    {
-      "name": "Objet et articulation avec les autres documents contractuels",
-      "description": "Les présentes conventions spéciales, régies par le Code des assurances, ont pour objet l'indemnisation des dommages matériels subis, en tous lieux, par les objets désignés aux conditions particulières. Elles complètent les conditions générales Convergence et les conventions spéciales Dommages aux biens Convergence.",
-      "page": 3
-    },
-    {
-      "name": "Article 4 — Montant de la garantie / vétusté",
-      "description": "La garantie s'exerce à concurrence du montant des frais de réparation ou de remplacement des objets sinistrés, dans la limite de leur valeur de remplacement (définie aux conventions spéciales Dommages aux biens) au jour du sinistre, majoré des frais d'emballage, de transport, de montage et d'essai, et sous déduction du montant de la vétusté définie à dire d'expert, celle-ci ne pouvant être inférieure à celle déterminée par application d'un taux de vétusté de 8% par an avec un maximum de 50%.",
-      "page": 4
-    },
-    {
-      "name": "Article 5 — Règle proportionnelle de capitaux",
-      "description": "La garantie est accordée avec application de la règle proportionnelle prévue à l'article L.121-5 du Code des assurances.",
-      "page": 4
-    },
-    {
-      "name": "Assureur (colophon)",
-      "description": "SMACL ASSURANCES SA - Société anonyme au capital de 138 801 048 euros, entreprise régie par le Code des assurances, RCS Niort n°833 817 224. Siège social : 141, avenue Salvador-Allende - CS 20000 - 79031 NIORT CEDEX 9.",
-      "page": 6
-    }
-  ],
-  "key_quotes": [
-    {
-      "quote": "Les présentes conventions spéciales, régies par le Code des assurances, ont pour objet l'indemnisation des dommages \nmatériels subis, en tous lieux, par les objets désignés aux conditions particulières.",
-      "context": "Objet des conventions spéciales",
-      "page": 3
-    },
-    {
-      "quote": "Elles complètent les conditions générales Convergence et les conventions spéciales Dommages aux biens Convergence.",
-      "context": "Articulation contractuelle — le document est un complément, pas un contrat autonome",
-      "page": 3
-    },
-    {
-      "quote": "La garantie de SMACL Assurances porte sur les frais de \nremplacement ou de réparation des objets assurés suite à \nla réalisation, en tous lieux :",
-      "context": "Article 1 — objet de la garantie",
-      "page": 3
-    },
-    {
-      "quote": "SMACL Assurances délivre sa garantie uniquement \nsur le territoire en France métropolitaine et dans les \ndépartements et régions d'outre-mer.",
-      "context": "Article 2 — étendue territoriale",
-      "page": 3
-    },
-    {
-      "quote": "Outre les exclusions communes à toutes les garanties \nprévues à l'article 3 des conditions générales Convergence \net les exclusions applicables aux conventions spéciales \nDommages aux biens Convergence, ne sont pas garantis :",
-      "context": "Article 3 — chapeau des exclusions, renvoi aux CG et aux CS Dommages aux biens",
-      "page": 4
-    },
-    {
-      "quote": "Ne sont toutefois pas visés par la présente \nexclusion, ceux de ces dommages dont la cause et \nla manifestation pourront être considérées comme \nsimultanées.",
-      "context": "Article 3 — reprise de garantie sur l'exclusion usure / action progressive",
-      "page": 4
-    },
-    {
-      "quote": "Le récépissé du dépôt de plainte devra être remis à \nSMACL Assurances pour l'application de la garantie.",
-      "context": "Article 3 — condition de mise en jeu de la garantie en cas de disparition",
-      "page": 4
-    },
-    {
-      "quote": "La garantie de SMACL Assurances s'exerce à concurrence \ndu montant des frais de réparation ou de remplacement \ndes objets sinistrés, et cela, dans la limite de leur valeur \nde remplacement (définie aux conventions spéciales \nDommages aux biens) au jour du sinistre (majoré des \nfrais d'emballage, de transport, de montage et d'essai), \net sous déduction du montant de la vétusté définie \nà dire d'expert (celle-ci ne pouvant être toutefois \ninférieure à celle déterminée par application d'un \ntaux de vétusté de 8% par an avec un maximum \nde 50%).",
-      "context": "Article 4 — montant de la garantie et vétusté",
-      "page": 4
-    },
-    {
-      "quote": "La garantie est accordée avec application de la règle \nproportionnelle prévue à l’article L.121-5 du Code \ndes assurances.",
-      "context": "Article 5 — règle proportionnelle de capitaux",
-      "page": 4
-    },
-    {
-      "quote": "SMACL ASSURANCES SA - Société anonyme au capital de 138 801 048 euros, entreprise régie par le Code des\nassurances, RCS Niort n°833 817 224.",
-      "context": "Colophon — la seule entité assureur nommée dans le document",
-      "page": 6
-    }
-  ],
-  "gaps": [
-    "AUDIENCE : le document ne s'adresse jamais à une collectivité territoriale. La couverture (page 1) porte la mention « Associatons » et le contact de la page 6 est « associatons@smacl.fr » ; aucune occurrence de commune, collectivité, élu, particulier ou entreprise. Comme aucune valeur de l'énumération ne convient à un public associatif, target_audience reste null et le libellé du document est reporté dans target_audience_note.",
-    "ASSUREUR : le document ne comporte pas de clause « Assureur ». Le seul colophon (page 6) ne nomme qu'une entité, SMACL ASSURANCES SA, société anonyme au capital de 138 801 048 euros, RCS Niort n°833 817 224 — pas la société mutuelle d'assurance des collectivités locales (RCS Niort 301 309 605). Le porteur de risque est donc SMACL Assurances SA. Les mentions « SMACL Assurances » du corps du texte sont sans qualifiant juridique et n'ont pas été utilisées pour trancher.",
-    "DATE D'ÉDITION — CONTRADICTION INTERNE : le colophon de la page 6 imprime « 01/2024 » tandis que la référence de la page 2 est « CONVERGENCE_CS_TRO_SA_04_(05_2016) », qui embarque 05_2016. Les deux lectures sont conservées : edition_date = « 01/2024 » (marqueur d'édition imprimé), reference = la référence complète. Le document n'explicite pas laquelle des deux dates est la date d'édition du texte contractuel.",
-    "DÉFAUT DU CALQUE TEXTE — LIGATURE « ti » : la lettre « i » disparaît dans plusieurs mots : « Associatons » (page 1) pour Associations, « associatons@smacl.fr » (page 6), « Concepton » et « communicaton » et « Directon » (page 6). Les citations et les valeurs sont conservées verbatim, sans correction, pour rester vérifiables. Le défaut est par bloc : le corps des articles 1 à 5 (pages 3 et 4) est indemne.",
-    "CARACTÈRES DE CONTRÔLE NON DÉCLARÉS : le calque texte contient 19 U+0007 (BEL), placés systématiquement après chaque puce « • » et chaque tiret « - » des articles 1 et 3, ainsi que 5 U+0008 et 495 U+0011 formant les points de conduite du sommaire (page 2), et un U+0009 avant « 01/2024 » (page 6). Les citations ont été découpées programmatiquement pour ne traverser aucun de ces caractères ; c'est pourquoi les citations d'exclusions individuelles sont absentes de key_quotes (elles commencent toutes juste après un U+0007). Le document comporte aussi 5 U+00A0 (« DE LA GARANTIE », « telles que oxydations », « cet appareil », « MONTANT DE LA GARANTIE », « des assurances ») et 3 apostrophes courbes U+2019 (« l’article L.121-5 », « prix d’un appel local », « L’ASSURANCE DES TERRITOIRES ») au milieu d'apostrophes ASCII partout ailleurs.",
-    "TYPE DE DOCUMENT : les métadonnées de la tâche annoncent document_type = conditions_generales, mais le document se présente lui-même comme des « conventions spéciales » qui « complètent les conditions générales Convergence et les conventions spéciales Dommages aux biens Convergence ». La métadonnée a été recopiée telle quelle comme le prescrit la consigne, mais is_extension est mis à true et extends nomme les documents de base. Les conditions générales Convergence ne sont pas jointes.",
-    "PÉRIMÈTRE : ce document ne contient ni définitions, ni franchises, ni délais de carence, ni clause de durée / résiliation, ni délai de prescription, ni mécanique de cotisation. Ces éléments relèvent des conditions générales Convergence, non fournies ici. definitions, waiting_periods sont donc vides et deductibles, duration_and_cancellation, prescription_period, premium sont null — absence réelle, pas un défaut de lecture. Le terme « valeur de remplacement » est explicitement renvoyé aux conventions spéciales Dommages aux biens, également absentes.",
-    "STRUCTURE DES GARANTIES : l'article 1 énonce une garantie unique (« La garantie de SMACL Assurances porte sur… ») déclinée en deux catégories d'événements déclencheurs. Elle est donc restituée comme une seule coverage, les deux catégories figurant dans sa description, plutôt que scindée en deux garanties que le document ne distingue pas.",
-    "MONTANT DE LA GARANTIE : aucun plafond en euros n'est imprimé. Le montant de la garantie est défini par référence à la valeur de remplacement des objets, elle-même définie dans un autre document, et les capitaux assurés relèvent des conditions particulières, non jointes.",
-    "PAGE BLANCHE : la page 5 ne comporte aucun texte extractible (0 caractère). La page 1 est une couverture et la page 2 un sommaire.",
-    "BRANCHE : la métadonnée branch = multirisque-professionnelle a été recopiée. Le document ne se qualifie d'aucune branche ; il s'agit d'une garantie de dommages aux biens (tous risques objets) complétant un contrat Convergence."
-  ]
+ "schema_version": "1.0",
+ "prompt_version": "1.1",
+ "country": "fr",
+ "insurer_slug": "smacl",
+ "insurer_name": "SMACL Assurances",
+ "product_name": "CONVERGENCE Tous risques objets",
+ "branch": "multirisque-professionnelle",
+ "branch_code": null,
+ "document_type": "conditions_generales",
+ "language": "fr",
+ "target_audience": null,
+ "target_audience_note": "La couverture porte la seule mention de segment « Associatons » (page 1, coquille du calque texte pour « Associations ») et l'adresse de contact « associatons@smacl.fr » (page 6). Le document ne qualifie jamais le souscripteur autrement : ni commune, ni collectivité, ni élu, ni particulier, ni entreprise n'y figurent. Aucune des valeurs de l'énumération ne correspond, d'où target_audience null.",
+ "reference": "CONVERGENCE_CS_TRO_SA_04_(05_2016)",
+ "edition_date": "01/2024",
+ "product_family": "Convergence",
+ "variant": "Associatons",
+ "is_extension": true,
+ "extends": "conditions générales Convergence et conventions spéciales Dommages aux biens Convergence",
+ "superseded": null,
+ "source_url": "https://www.smacl.fr/files/documents/cs-convergence-tous-risques-objets.pdf",
+ "source_pdf": "convergence-tous-risques-objets-82273455.pdf",
+ "source_sha256": "3fff1dafd684970db00db98966196b5475b50457e0db5885cc13c14e5065fc00",
+ "source_pages": 6,
+ "fetched_at": "2026-08-01",
+ "extraction_model": "claude-code-subagent:scale",
+ "summary": "Conventions spéciales « Tous risques objets » du contrat Convergence de SMACL Assurances. Elles ont pour objet l'indemnisation des dommages matériels subis, en tous lieux, par les objets désignés aux conditions particulières, et complètent les conditions générales Convergence ainsi que les conventions spéciales Dommages aux biens Convergence. La garantie couvre les frais de remplacement ou de réparation des objets assurés à la suite des événements couverts au titre des conventions spéciales Dommages aux biens et à la suite d'évènements accidentels, imprévisibles ou fortuits. Le document se limite à cinq articles : objet, étendue territoriale, exclusions, montant de la garantie et règle proportionnelle de capitaux.",
+ "definitions": [],
+ "coverages": [
+  {
+   "name": "Tous risques objets — frais de remplacement ou de réparation des objets assurés",
+   "description": "La garantie de SMACL Assurances porte sur les frais de remplacement ou de réparation des objets assurés suite à la réalisation, en tous lieux : des événements couverts au titre des conventions spéciales Dommages aux biens ; d'évènements accidentels, imprévisibles ou fortuits consécutifs à une destruction, une détérioration, une avarie ou une disparition des objets. Les objets garantis sont ceux désignés aux conditions particulières.",
+   "is_optional": null,
+   "territorial_scope": "SMACL Assurances délivre sa garantie uniquement sur le territoire en France métropolitaine et dans les départements et régions d'outre-mer (article 2). La garantie joue « en tous lieux » à l'intérieur de cette étendue (articles préliminaires et 1).",
+   "limits": "« La garantie de SMACL Assurances s'exerce à concurrence du montant des frais de réparation ou de remplacement des objets sinistrés, et cela, dans la limite de leur valeur de remplacement (définie aux conventions spéciales Dommages aux biens) au jour du sinistre (majoré des frais d'emballage, de transport, de montage et d'essai), et sous déduction du montant de la vétusté définie à dire d'expert (celle-ci ne pouvant être toutefois inférieure à celle déterminée par application d'un taux de vétusté de 8% par an avec un maximum de 50%). »",
+   "sub_limits": [
+    "Taux de vétusté minimal retenu : 8% par an avec un maximum de 50%",
+    "Frais d'emballage, de transport, de montage et d'essai : majorent la valeur de remplacement"
+   ],
+   "deductible": null,
+   "conditions": [
+    "Les objets garantis sont ceux désignés aux conditions particulières",
+    "La garantie est accordée avec application de la règle proportionnelle prévue à l'article L.121-5 du Code des assurances (article 5)",
+    "En cas de disparition de la chose assurée : dépôt de plainte obligatoire, le récépissé devant être remis à SMACL Assurances pour l'application de la garantie (article 3)",
+    "Ces conventions spéciales complètent les conditions générales Convergence et les conventions spéciales Dommages aux biens Convergence"
+   ],
+   "page": 3
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Exclusions des conditions générales Convergence et des conventions spéciales Dommages aux biens (renvoi)",
+   "description": "« Outre les exclusions communes à toutes les garanties prévues à l'article 3 des conditions générales Convergence et les exclusions applicables aux conventions spéciales Dommages aux biens Convergence, ne sont pas garantis : » — ces exclusions ne sont pas reproduites dans le présent document.",
+   "applies_to": "all",
+   "page": 4
+  },
+  {
+   "name": "Parties de machines atteintes par l'usure",
+   "description": "Les dommages et les frais afférents à des parties de machines atteintes par : soit l'usure, quel qu'en soit le caractère et notamment mécanique, thermique ou chimique. Ne sont toutefois pas visés par cette exclusion ceux de ces dommages dont la cause et la manifestation pourront être considérées comme simultanées.",
+   "applies_to": "all",
+   "page": 4
+  },
+  {
+   "name": "Parties de machines atteintes par l'action progressive et/ou continuelle de l'exploitation, du simple usage ou d'agents destructeurs",
+   "description": "Les dommages et les frais afférents à des parties de machines atteintes par : soit l'action progressive et/ou continuelle de l'exploitation, du simple usage ou d'agents destructeurs, et ce quelles qu'en soient la cause, l'origine ou la manifestation, telles que oxydations, dépôts de rouille, de boue, entartrages, corrosions, fatigues d'origine quelconque. Ne sont toutefois pas visés par cette exclusion ceux de ces dommages dont la cause et la manifestation pourront être considérées comme simultanées.",
+   "applies_to": "all",
+   "page": 4
+  },
+  {
+   "name": "Simple dérangement mécanique ou électrique, défaut de réglage, acte d'entretien",
+   "description": "Les frais exposés à l'occasion d'un simple dérangement mécanique ou électrique, d'un défaut de réglage et, plus généralement, de tout acte d'entretien.",
+   "applies_to": "all",
+   "page": 4
+  },
+  {
+   "name": "Crevasses, fissures, tâches, rayures, écaillements ou égratignures",
+   "description": "Les crevasses, fissures, tâches, rayures, écaillements ou égratignures subis par les objets assurés.",
+   "applies_to": "all",
+   "page": 4
+  },
+  {
+   "name": "Accidents survenant au cours de montages ou de démontages",
+   "description": "Les dommages résultant d'accidents survenant au cours de montages ou de démontages effectués, soit avant la mise en exploitation de l'appareil ou de l'installation, soit lorsque l'installation ou l'appareil n'est plus sous la garde de l'assuré ou de ses préposés.",
+   "applies_to": "all",
+   "page": 4
+  },
+  {
+   "name": "Utilisation des biens avant remise en état définitive alors que l'assuré a connaissance d'un vice",
+   "description": "Les dommages survenant du fait de l'utilisation des biens assurés avant leur remise en état définitive, alors que l'assuré a connaissance d'un vice, d'un défaut ou d'une malfaçon, ou d'un dommage (garanti ou non).",
+   "applies_to": "all",
+   "page": 4
+  },
+  {
+   "name": "Réparations provisoires (ou de fortune) non effectuées par le constructeur",
+   "description": "Les dommages résultant de réparations provisoires (ou de fortune) qui ne seraient pas effectuées par le constructeur ou par l'un de ses représentants autorisés.",
+   "applies_to": "all",
+   "page": 4
+  },
+  {
+   "name": "Pièces ou accessoires non agréés par le constructeur",
+   "description": "Les dommages ayant pour origine l'utilisation ou la simple expérimentation sur un appareil, de pièces ou accessoires non agréés par le constructeur de cet appareil.",
+   "applies_to": "all",
+   "page": 4
+  },
+  {
+   "name": "Travaux d'amélioration ou de protection de l'installation",
+   "description": "Les frais relatifs à des travaux d'amélioration ou de protection de l'installation, même s'il s'agit de mesures exigées par SMACL Assurances.",
+   "applies_to": "all",
+   "page": 4
+  },
+  {
+   "name": "Fait générateur existant lors de la souscription et connu de l'assuré",
+   "description": "Les dommages dus à un fait générateur qui existait lors de la souscription du contrat, et dont l'assuré avait connaissance.",
+   "applies_to": "all",
+   "page": 4
+  },
+  {
+   "name": "Contraventions de douane, confiscations, saisies, mises sous séquestre",
+   "description": "Les conséquences de contraventions de douane ou autres, de confiscations, de saisies ou de mises sous séquestre.",
+   "applies_to": "all",
+   "page": 4
+  },
+  {
+   "name": "Remplacement des pièces à remplacement périodique",
+   "description": "Les dommages et frais occasionnés directement ou indirectement par le remplacement des pièces nécessitant un remplacement périodique telles que courroies, câbles, lampes, fluides de toutes natures.",
+   "applies_to": "all",
+   "page": 4
+  },
+  {
+   "name": "Emballage défectueux",
+   "description": "Les dommages résultant d'un emballage défectueux.",
+   "applies_to": "all",
+   "page": 4
+  },
+  {
+   "name": "Disparition de la chose assurée sans dépôt de plainte",
+   "description": "La disparition de la chose assurée n'ayant pas fait l'objet d'un dépôt de plainte. Le récépissé du dépôt de plainte devra être remis à SMACL Assurances pour l'application de la garantie.",
+   "applies_to": "Tous risques objets — frais de remplacement ou de réparation des objets assurés",
+   "page": 4
+  }
+ ],
+ "deductibles": null,
+ "waiting_periods": [],
+ "obligations": [
+  {
+   "name": "Dépôt de plainte en cas de disparition",
+   "description": "En cas de disparition de la chose assurée, l'assuré doit déposer plainte.",
+   "timing": "En cas de sinistre (disparition)",
+   "sanction": "« La disparition de la chose assurée n'ayant pas fait l'objet d'un dépôt de plainte » n'est pas garantie (article 3).",
+   "page": 4
+  },
+  {
+   "name": "Remise du récépissé du dépôt de plainte",
+   "description": "« Le récépissé du dépôt de plainte devra être remis à SMACL Assurances pour l'application de la garantie. »",
+   "timing": "En cas de sinistre (disparition)",
+   "sanction": "Condition d'application de la garantie ; le document n'énonce pas d'autre sanction.",
+   "page": 4
+  }
+ ],
+ "claims_procedure": [
+  {
+   "step": "Déposer plainte en cas de disparition de la chose assurée",
+   "description": "La disparition de la chose assurée n'ayant pas fait l'objet d'un dépôt de plainte n'est pas garantie.",
+   "deadline": null,
+   "page": 4
+  },
+  {
+   "step": "Remettre le récépissé du dépôt de plainte à SMACL Assurances",
+   "description": "Le récépissé du dépôt de plainte devra être remis à SMACL Assurances pour l'application de la garantie.",
+   "deadline": null,
+   "page": 4
+  }
+ ],
+ "duration_and_cancellation": null,
+ "prescription_period": null,
+ "premium": null,
+ "special_conditions": [
+  {
+   "name": "Objet et articulation avec les autres documents contractuels",
+   "description": "Les présentes conventions spéciales, régies par le Code des assurances, ont pour objet l'indemnisation des dommages matériels subis, en tous lieux, par les objets désignés aux conditions particulières. Elles complètent les conditions générales Convergence et les conventions spéciales Dommages aux biens Convergence.",
+   "page": 3
+  },
+  {
+   "name": "Article 4 — Montant de la garantie / vétusté",
+   "description": "La garantie s'exerce à concurrence du montant des frais de réparation ou de remplacement des objets sinistrés, dans la limite de leur valeur de remplacement (définie aux conventions spéciales Dommages aux biens) au jour du sinistre, majoré des frais d'emballage, de transport, de montage et d'essai, et sous déduction du montant de la vétusté définie à dire d'expert, celle-ci ne pouvant être inférieure à celle déterminée par application d'un taux de vétusté de 8% par an avec un maximum de 50%.",
+   "page": 4
+  },
+  {
+   "name": "Article 5 — Règle proportionnelle de capitaux",
+   "description": "La garantie est accordée avec application de la règle proportionnelle prévue à l'article L.121-5 du Code des assurances.",
+   "page": 4
+  },
+  {
+   "name": "Assureur (colophon)",
+   "description": "SMACL ASSURANCES SA - Société anonyme au capital de 138 801 048 euros, entreprise régie par le Code des assurances, RCS Niort n°833 817 224. Siège social : 141, avenue Salvador-Allende - CS 20000 - 79031 NIORT CEDEX 9.",
+   "page": 6
+  }
+ ],
+ "key_quotes": [
+  {
+   "quote": "Les présentes conventions spéciales, régies par le Code des assurances, ont pour objet l'indemnisation des dommages \nmatériels subis, en tous lieux, par les objets désignés aux conditions particulières.",
+   "context": "Objet des conventions spéciales",
+   "page": 3
+  },
+  {
+   "quote": "Elles complètent les conditions générales Convergence et les conventions spéciales Dommages aux biens Convergence.",
+   "context": "Articulation contractuelle — le document est un complément, pas un contrat autonome",
+   "page": 3
+  },
+  {
+   "quote": "La garantie de SMACL Assurances porte sur les frais de \nremplacement ou de réparation des objets assurés suite à \nla réalisation, en tous lieux :",
+   "context": "Article 1 — objet de la garantie",
+   "page": 3
+  },
+  {
+   "quote": "SMACL Assurances délivre sa garantie uniquement \nsur le territoire en France métropolitaine et dans les \ndépartements et régions d'outre-mer.",
+   "context": "Article 2 — étendue territoriale",
+   "page": 3
+  },
+  {
+   "quote": "Outre les exclusions communes à toutes les garanties \nprévues à l'article 3 des conditions générales Convergence \net les exclusions applicables aux conventions spéciales \nDommages aux biens Convergence, ne sont pas garantis :",
+   "context": "Article 3 — chapeau des exclusions, renvoi aux CG et aux CS Dommages aux biens",
+   "page": 4
+  },
+  {
+   "quote": "Ne sont toutefois pas visés par la présente \nexclusion, ceux de ces dommages dont la cause et \nla manifestation pourront être considérées comme \nsimultanées.",
+   "context": "Article 3 — reprise de garantie sur l'exclusion usure / action progressive",
+   "page": 4
+  },
+  {
+   "quote": "Le récépissé du dépôt de plainte devra être remis à \nSMACL Assurances pour l'application de la garantie.",
+   "context": "Article 3 — condition de mise en jeu de la garantie en cas de disparition",
+   "page": 4
+  },
+  {
+   "quote": "La garantie de SMACL Assurances s'exerce à concurrence \ndu montant des frais de réparation ou de remplacement \ndes objets sinistrés, et cela, dans la limite de leur valeur \nde remplacement (définie aux conventions spéciales \nDommages aux biens) au jour du sinistre (majoré des \nfrais d'emballage, de transport, de montage et d'essai), \net sous déduction du montant de la vétusté définie \nà dire d'expert (celle-ci ne pouvant être toutefois \ninférieure à celle déterminée par application d'un \ntaux de vétusté de 8% par an avec un maximum \nde 50%).",
+   "context": "Article 4 — montant de la garantie et vétusté",
+   "page": 4
+  },
+  {
+   "quote": "La garantie est accordée avec application de la règle \nproportionnelle prévue à l’article L.121-5 du Code \ndes assurances.",
+   "context": "Article 5 — règle proportionnelle de capitaux",
+   "page": 4
+  },
+  {
+   "quote": "SMACL ASSURANCES SA - Société anonyme au capital de 138 801 048 euros, entreprise régie par le Code des\nassurances, RCS Niort n°833 817 224.",
+   "context": "Colophon — la seule entité assureur nommée dans le document",
+   "page": 6
+  }
+ ],
+ "gaps": [
+  "AUDIENCE : le document ne s'adresse jamais à une collectivité territoriale. La couverture (page 1) porte la mention « Associatons » et le contact de la page 6 est « associatons@smacl.fr » ; aucune occurrence de commune, collectivité, élu, particulier ou entreprise. Comme aucune valeur de l'énumération ne convient à un public associatif, target_audience reste null et le libellé du document est reporté dans target_audience_note.",
+  "ASSUREUR : le document ne comporte pas de clause « Assureur ». Le seul colophon (page 6) ne nomme qu'une entité, SMACL ASSURANCES SA, société anonyme au capital de 138 801 048 euros, RCS Niort n°833 817 224 — pas la société mutuelle d'assurance des collectivités locales (RCS Niort 301 309 605). Le porteur de risque est donc SMACL Assurances SA. Les mentions « SMACL Assurances » du corps du texte sont sans qualifiant juridique et n'ont pas été utilisées pour trancher.",
+  "DATE D'ÉDITION — CONTRADICTION INTERNE : le colophon de la page 6 imprime « 01/2024 » tandis que la référence de la page 2 est « CONVERGENCE_CS_TRO_SA_04_(05_2016) », qui embarque 05_2016. Les deux lectures sont conservées : edition_date = « 01/2024 » (marqueur d'édition imprimé), reference = la référence complète. Le document n'explicite pas laquelle des deux dates est la date d'édition du texte contractuel.",
+  "DÉFAUT DU CALQUE TEXTE — LIGATURE « ti » : la lettre « i » disparaît dans plusieurs mots : « Associatons » (page 1) pour Associations, « associatons@smacl.fr » (page 6), « Concepton » et « communicaton » et « Directon » (page 6). Les citations et les valeurs sont conservées verbatim, sans correction, pour rester vérifiables. Le défaut est par bloc : le corps des articles 1 à 5 (pages 3 et 4) est indemne.",
+  "CARACTÈRES DE CONTRÔLE NON DÉCLARÉS : le calque texte contient 19 U+0007 (BEL), placés systématiquement après chaque puce « • » et chaque tiret « - » des articles 1 et 3, ainsi que 5 U+0008 et 495 U+0011 formant les points de conduite du sommaire (page 2), et un U+0009 avant « 01/2024 » (page 6). Les citations ont été découpées programmatiquement pour ne traverser aucun de ces caractères ; c'est pourquoi les citations d'exclusions individuelles sont absentes de key_quotes (elles commencent toutes juste après un U+0007). Le document comporte aussi 5 U+00A0 (« DE LA GARANTIE », « telles que oxydations », « cet appareil », « MONTANT DE LA GARANTIE », « des assurances ») et 3 apostrophes courbes U+2019 (« l’article L.121-5 », « prix d’un appel local », « L’ASSURANCE DES TERRITOIRES ») au milieu d'apostrophes ASCII partout ailleurs.",
+  "TYPE DE DOCUMENT : les métadonnées de la tâche annoncent document_type = conditions_generales, mais le document se présente lui-même comme des « conventions spéciales » qui « complètent les conditions générales Convergence et les conventions spéciales Dommages aux biens Convergence ». La métadonnée a été recopiée telle quelle comme le prescrit la consigne, mais is_extension est mis à true et extends nomme les documents de base. Les conditions générales Convergence ne sont pas jointes.",
+  "PÉRIMÈTRE : ce document ne contient ni définitions, ni franchises, ni délais de carence, ni clause de durée / résiliation, ni délai de prescription, ni mécanique de cotisation. Ces éléments relèvent des conditions générales Convergence, non fournies ici. definitions, waiting_periods sont donc vides et deductibles, duration_and_cancellation, prescription_period, premium sont null — absence réelle, pas un défaut de lecture. Le terme « valeur de remplacement » est explicitement renvoyé aux conventions spéciales Dommages aux biens, également absentes.",
+  "STRUCTURE DES GARANTIES : l'article 1 énonce une garantie unique (« La garantie de SMACL Assurances porte sur… ») déclinée en deux catégories d'événements déclencheurs. Elle est donc restituée comme une seule coverage, les deux catégories figurant dans sa description, plutôt que scindée en deux garanties que le document ne distingue pas.",
+  "MONTANT DE LA GARANTIE : aucun plafond en euros n'est imprimé. Le montant de la garantie est défini par référence à la valeur de remplacement des objets, elle-même définie dans un autre document, et les capitaux assurés relèvent des conditions particulières, non jointes.",
+  "PAGE BLANCHE : la page 5 ne comporte aucun texte extractible (0 caractère). La page 1 est une couverture et la page 2 un sommaire.",
+  "BRANCHE : la métadonnée branch = multirisque-professionnelle a été recopiée. Le document ne se qualifie d'aucune branche ; il s'agit d'une garantie de dommages aux biens (tous risques objets) complétant un contrat Convergence."
+ ]
 }

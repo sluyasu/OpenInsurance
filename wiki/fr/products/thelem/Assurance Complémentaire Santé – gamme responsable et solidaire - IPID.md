@@ -11,7 +11,7 @@ target_audience: particuliers
 target_audience_note: 'Bénéficiaires : Salariés y compris Alsace Moselle, fonctionnaires
   territoriaux, Travailleurs Non-Salariés (TNS), agriculteurs et étudiants.'
 reference: null
-edition_date: 2026-01
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/sante
@@ -27,7 +27,7 @@ prompt_version: '1.1'
 product_family: assurance-complementaire-sante
 variant: gamme responsable et solidaire
 edition_status: null
-edition_age_years: 0
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -41,7 +41,7 @@ generated: true
 
 Document d’information (IPID) de l’Assurance Complémentaire Santé de Thélem assurances, gamme responsable et solidaire. Le produit est destiné à rembourser tout ou partie des frais de santé restant à la charge de l’assuré et des éventuels bénéficiaires en cas d’accident, de maladie ou de maternité, en complément de la Sécurité Sociale française. Sont systématiquement prévus l’hospitalisation (y compris chambre particulière), les soins courants, le 100% santé et le panier libre ou modéré, l’optique, le dentaire, les aides auditives, le réseau de soins Carte Blanche, un service de télémédecine et des prestations d’assistance. Des garanties optionnelles couvrent les frais sans prescription, le renfort optique, certains actes dentaires et la franchise prépayée.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : IPID / Fiche d'information · Édition : 2026-01
+- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -195,10 +195,11 @@ Franchise prépayée : possibilité, en fonction de ses dépenses de santé, de 
 - Aucune procédure de déclaration de sinistre proprement dite n’est décrite : le document ne traite que du règlement des prestations et de la transmission des justificatifs.
 - Le document ne comporte pas de section « Définitions » formelle ; les termes repris (bénéficiaires, 100% santé, panier libre ou modéré) proviennent du corps du texte.
 - L’exclusion de la chambre particulière pour certains séjours coexiste avec la chambre particulière annoncée dans la garantie Hospitalisation ; le document ne précise pas cette articulation.
+- edition_date remise a null le 2026-08-01: la valeur 2026-01 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Documents liés
 
-- [Assurance Complémentaire Santé – gamme non responsable et solidaire - IPID](Assurance%20Compl%C3%A9mentaire%20Sant%C3%A9%20%E2%80%93%20gamme%20non%20responsable%20et%20solidaire%20-%20IPID.md) - IPID / Fiche d'information, éd. 2024-01
+- [Assurance Complémentaire Santé – gamme non responsable et solidaire - IPID](Assurance%20Compl%C3%A9mentaire%20Sant%C3%A9%20%E2%80%93%20gamme%20non%20responsable%20et%20solidaire%20-%20IPID.md) - IPID / Fiche d'information
 
 ## Source & fidélité
 

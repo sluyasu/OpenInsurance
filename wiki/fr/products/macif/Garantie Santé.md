@@ -48,6 +48,7 @@ Note d'information détaillée du contrat Garantie Santé, complémentaire sant�
 ## Lacunes d'extraction
 
 - Extraction en cours - fichier provisoire.
+- Provenance de edition_date: cette date ne vient pas du texte du document mais du manifeste, ou elle avait ete deduite lors de la decouverte. A verifier contre le document avant d'y appuyer une comparaison d'editions.
 
 ## Source & fidélité
 

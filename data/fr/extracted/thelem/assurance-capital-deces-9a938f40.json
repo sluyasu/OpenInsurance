@@ -1,409 +1,410 @@
 {
-  "schema_version": "1.0",
-  "prompt_version": "1.1",
-  "country": "fr",
-  "insurer_slug": "thelem",
-  "insurer_name": "Thélem assurances",
-  "product_name": "Assurance Capital Décès",
-  "branch": "prevoyance",
-  "branch_code": null,
-  "document_type": "ipid",
-  "language": "fr",
-  "target_audience": "particuliers",
-  "target_audience_note": "l’assuré doit être âgé, à la souscription, d’au moins 18 ans et au maximum de 79 ans. Il doit résider sur le territoire métropolitain ou dans les départements d’Outre-Mer.",
-  "reference": null,
-  "edition_date": "2023-07",
-  "product_family": "Capital Décès",
-  "variant": null,
-  "is_extension": false,
-  "extends": null,
-  "superseded": null,
-  "source_url": "https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TP_396-capital-deces-juillet-2023.pdf",
-  "source_pdf": "assurance-capital-deces-9a938f40.pdf",
-  "source_sha256": "307319835a12b78bba46dc86057f59e6a56fc259cc128e71e7bc034fadc8636b",
-  "source_pages": 2,
-  "fetched_at": "2026-07-30",
-  "extraction_model": "claude-code-subagent:scale",
-  "summary": "Le contrat d’assurance Capital Décès de Thélem prévoyance est un contrat de type vie entière qui permet à l’assuré de soutenir un ou plusieurs proches, même sans lien de parenté, en leur transmettant un capital exonéré des droits de succession. Le capital, choisi à la souscription de 7 000 € à 100 000 € par tranche de 1 000 €, est versé aux bénéficiaires désignés aux conditions particulières en cas de décès suite à accident ou maladie. Les garanties ne sont soumises à aucune sélection médicale, la cotisation est fixe dans le temps et payable sur 10 ans ou durant toute la vie de l’assuré. Les indemnités sont versées après application de délais d’attente : aucun pour un décès suite à accident, 2 ans pour un décès suite à maladie.",
-  "definitions": [
-    {
-      "term": "Assuré",
-      "definition": "l’assuré doit être âgé, à la souscription, d’au moins 18 ans et au maximum de 79 ans. Il doit résider sur le territoire métropolitain ou dans les départements d’Outre-Mer.",
-      "page": 1
-    },
-    {
-      "term": "Bénéficiaire",
-      "definition": "toute personne désignée aux conditions particulières.",
-      "page": 1
-    },
-    {
-      "term": "Revalorisation",
-      "definition": "l’assureur distribue, tous les ans, les bénéfices techniques et financiers suivant les dispositions réglementaires en vigueur.",
-      "page": 1
-    },
-    {
-      "term": "Rachat",
-      "definition": "l’assuré peut aussi racheter son contrat à tout moment. Il lui sera alors restitué une somme appelée « provisions mathématiques ». Le rachat met fin au contrat.",
-      "page": 2
-    },
-    {
-      "term": "Mise en réduction",
-      "definition": "l’assuré peut arrêter le paiement des cotisations sans effectuer de rachat. Les garanties du contrat sont alors « réduites » en proportion des cotisations déjà versées, mais continuent d’exister.",
-      "page": 2
-    }
-  ],
-  "coverages": [
-    {
-      "name": "Garanties systématiquement prévues suite à accident ou maladie",
-      "description": "Le contrat d’assurance Capital Décès permet à l’assuré de soutenir un ou plusieurs proches, même sans lien de parenté, en leur transmettant un capital exonéré des droits de succession. Les garanties et les modalités de gestion sont systématiquement prévues suite à accident ou maladie.",
-      "is_optional": false,
-      "territorial_scope": "France métropolitaine et départements d’Outre-Mer ; les garanties sont acquises pour des séjours n’excédant pas 90 jours dans le reste du monde",
-      "limits": "de 7 000 € à 100 000 €, par tranche de 1 000 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Les garanties suivantes ne sont soumises à aucune sélection médicale",
-        "Les indemnités sont versées après application des délais d’attente suivants : Décès suite à accident : aucun - Décès suite à maladie : 2 ans"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Choix du capital",
-      "description": "Choix du capital : de 7 000 € à 100 000 €, par tranche de 1 000 €.",
-      "is_optional": false,
-      "territorial_scope": "France métropolitaine et départements d’Outre-Mer",
-      "limits": "de 7 000 € à 100 000 €, par tranche de 1 000 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Les garanties suivantes ne sont soumises à aucune sélection médicale"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Choix du/des bénéficiaire(s)",
-      "description": "Choix du/des bénéficiaire(s) : membre(s) de la famille, ami(s)(es), associé(s)(es) ou toute autre personne physique ou morale sans lien de parenté.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Les garanties suivantes ne sont soumises à aucune sélection médicale"
-      ],
-      "page": 1
-    },
-    {
-      "name": "La cotisation",
-      "description": "La cotisation : est fixe dans le temps.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Paiement des cotisations",
-      "description": "Paiement des cotisations : se fait sur une période de 10 ans (paiement temporaire) ou durant toute la vie de l’assuré (paiement viager).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [
-        "10 ans (paiement temporaire)",
-        "durant toute la vie de l’assuré (paiement viager)"
-      ],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Augmentation du capital souscrit",
-      "description": "Augmentation du capital souscrit : le montant ne peut être inférieur à 1 000 €.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "le montant ne peut être inférieur à 1 000 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "le montant ne peut être inférieur à 1 000 €"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Revalorisation",
-      "description": "Revalorisation : l’assureur distribue, tous les ans, les bénéfices techniques et financiers suivant les dispositions réglementaires en vigueur.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    }
-  ],
-  "exclusions": [
-    {
-      "name": "Suicide de l’assuré dans la première année",
-      "description": "Le suicide de l’assuré dans la première année qui suit la date d’effet de la souscription, ou l’augmentation du capital.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Fait intentionnellement causé ou provoqué par un bénéficiaire",
-      "description": "Le fait intentionnellement causé ou provoqué par un bénéficiaire entrainant le décès de l’assuré.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Participation volontaire et violente à des rassemblements, manifestations, mouvements populaires, rixes, jeux et paris",
-      "description": "La participation volontaire et violente de l’assuré à des rassemblements, manifestations sur la voie publique, à des mouvements populaires, rixes, jeux et paris.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Éthylisme, état alcoolique et stupéfiants",
-      "description": "L’éthylisme ayant entrainé le décès accidentel, ou s’il est révélé qu’au moment de l’accident, l’assuré se trouve sous l’emprise d’un état alcoolique ou sous l’influence de substances ou plantes classées comme stupéfiants.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Risques aériens et sauts (élastique, parachute, parapente)",
-      "description": "Les risques aériens, les sauts effectués avec un élastique, un parachute ou un parapente, ou tout autre matériel équivalent, s’ils ne sont pas homologués, les vols sur appareils non munis d’un certificat de navigabilité ou pour lesquels le pilote ne possède pas un brevet ou une licence valide.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Compétitions, rallyes de vitesse, démonstrations et acrobaties avec véhicules à moteur",
-      "description": "Les risques provenant de l’usage de véhicules à moteur lors de compétitions organisées dans un cadre officiel ou privé, de courses de rallyes de vitesse, de démonstrations ou acrobaties.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Restriction - Délais d’attente",
-      "description": "Les indemnités sont versées après application des délais d’attente suivants : Décès suite à accident : aucun - Décès suite à maladie : 2 ans.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Décès suite à maladie survenant pendant le délai d’attente",
-      "description": "En cas de décès suite à maladie survenant pendant le délai d’attente, il est remboursé au(x) bénéficiaire(s) le montant des cotisations payées.",
-      "applies_to": "all",
-      "page": 1
-    }
-  ],
-  "deductibles": null,
-  "waiting_periods": [
-    {
-      "coverage": "Décès suite à accident",
-      "duration": "aucun",
-      "description": "Les indemnités sont versées après application des délais d’attente suivants : Décès suite à accident : aucun.",
-      "page": 1
-    },
-    {
-      "coverage": "Décès suite à maladie",
-      "duration": "2 ans",
-      "description": "Les indemnités sont versées après application des délais d’attente suivants : Décès suite à maladie : 2 ans. En cas de décès suite à maladie survenant pendant le délai d’attente, il est remboursé au(x) bénéficiaire(s) le montant des cotisations payées.",
-      "page": 1
-    }
-  ],
-  "obligations": [
-    {
-      "name": "Répondre exactement aux questions posées",
-      "description": "Répondre exactement aux questions posées lors de la souscription afin d’apprécier les risques et fixer la cotisation.",
-      "timing": "A la souscription du contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
-      "page": 2
-    },
-    {
-      "name": "Déclarer les circonstances nouvelles",
-      "description": "Déclarer toutes les circonstances nouvelles qui modifient les informations fournies lors de la souscription.",
-      "timing": "En cours de contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
-      "page": 2
-    },
-    {
-      "name": "Régler les cotisations",
-      "description": "Régler les cotisations à la date convenue.",
-      "timing": "En cours de contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
-      "page": 2
-    },
-    {
-      "name": "Fournir les pièces justificatives en cas de décès",
-      "description": "En cas de décès de l’assuré, fournir les pièces justificatives : l’acte de décès, le certificat médical précisant la cause de décès, un extrait d’acte de naissance pour chacun des bénéficiaires.",
-      "timing": "En cas de décès",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
-      "page": 2
-    }
-  ],
-  "claims_procedure": [
-    {
-      "step": "Fournir les pièces justificatives",
-      "description": "En cas de décès de l’assuré, fournir les pièces justificatives : l’acte de décès, le certificat médical précisant la cause de décès, un extrait d’acte de naissance pour chacun des bénéficiaires.",
-      "deadline": null,
-      "page": 2
-    },
-    {
-      "step": "Application des délais d’attente avant versement",
-      "description": "Les indemnités sont versées après application des délais d’attente suivants : Décès suite à accident : aucun - Décès suite à maladie : 2 ans.",
-      "deadline": "aucun délai pour un décès suite à accident ; 2 ans pour un décès suite à maladie",
-      "page": 1
-    },
-    {
-      "step": "Remboursement des cotisations si le décès par maladie survient pendant le délai d’attente",
-      "description": "En cas de décès suite à maladie survenant pendant le délai d’attente, il est remboursé au(x) bénéficiaire(s) le montant des cotisations payées.",
-      "deadline": null,
-      "page": 1
-    }
-  ],
-  "duration_and_cancellation": {
-    "duration": "Le contrat prend effet à la date et l’heure indiquées aux Conditions Particulières. Le contrat est souscrit jusqu’à la prochaine échéance principale et est renouvelable par tacite reconduction à chaque nouvelle échéance principale avec les facultés de résiliation prévues. Le contrat prend fin de plein droit au décès de l’assuré.",
-    "tacit_renewal": true,
-    "notice_period": "Vous pouvez notamment mettre fin au contrat à l'échéance annuelle en respectant un préavis de deux mois.",
-    "methods": [
-      "par lettre ou tout autre support durable",
-      "par déclaration faite au siège social ou chez notre représentant",
-      "par acte extrajudiciaire",
-      "via la fonctionnalité mise en place sur le site internet",
-      "en cas de résiliation suite à modification de votre situation selon les termes des articles L113-16 et R.113-6 du Code des assurances, vous devrez notifier la résiliation par lettre recommandée (papier ou électronique) avec demande d'avis de réception"
-    ],
-    "special_rights": [
-      "L’assuré dispose d’un délai de renonciation de 30 jours dans tous les cas à compter de la conclusion du contrat.",
-      "Rachat : l’assuré peut aussi racheter son contrat à tout moment. Il lui sera alors restitué une somme appelée « provisions mathématiques ». Le rachat met fin au contrat.",
-      "Mise en réduction : l’assuré peut arrêter le paiement des cotisations sans effectuer de rachat. Les garanties du contrat sont alors « réduites » en proportion des cotisations déjà versées, mais continuent d’exister.",
-      "Les cas de résiliation, les délais à respecter sont ceux prévus par la règlementation et précisés dans les Dispositions Générales.",
-      "Nous vous confirmerons par écrit la réception de la notification."
-    ],
-    "page": 2
+ "schema_version": "1.0",
+ "prompt_version": "1.1",
+ "country": "fr",
+ "insurer_slug": "thelem",
+ "insurer_name": "Thélem assurances",
+ "product_name": "Assurance Capital Décès",
+ "branch": "prevoyance",
+ "branch_code": null,
+ "document_type": "ipid",
+ "language": "fr",
+ "target_audience": "particuliers",
+ "target_audience_note": "l’assuré doit être âgé, à la souscription, d’au moins 18 ans et au maximum de 79 ans. Il doit résider sur le territoire métropolitain ou dans les départements d’Outre-Mer.",
+ "reference": null,
+ "edition_date": null,
+ "product_family": "Capital Décès",
+ "variant": null,
+ "is_extension": false,
+ "extends": null,
+ "superseded": null,
+ "source_url": "https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TP_396-capital-deces-juillet-2023.pdf",
+ "source_pdf": "assurance-capital-deces-9a938f40.pdf",
+ "source_sha256": "307319835a12b78bba46dc86057f59e6a56fc259cc128e71e7bc034fadc8636b",
+ "source_pages": 2,
+ "fetched_at": "2026-07-30",
+ "extraction_model": "claude-code-subagent:scale",
+ "summary": "Le contrat d’assurance Capital Décès de Thélem prévoyance est un contrat de type vie entière qui permet à l’assuré de soutenir un ou plusieurs proches, même sans lien de parenté, en leur transmettant un capital exonéré des droits de succession. Le capital, choisi à la souscription de 7 000 € à 100 000 € par tranche de 1 000 €, est versé aux bénéficiaires désignés aux conditions particulières en cas de décès suite à accident ou maladie. Les garanties ne sont soumises à aucune sélection médicale, la cotisation est fixe dans le temps et payable sur 10 ans ou durant toute la vie de l’assuré. Les indemnités sont versées après application de délais d’attente : aucun pour un décès suite à accident, 2 ans pour un décès suite à maladie.",
+ "definitions": [
+  {
+   "term": "Assuré",
+   "definition": "l’assuré doit être âgé, à la souscription, d’au moins 18 ans et au maximum de 79 ans. Il doit résider sur le territoire métropolitain ou dans les départements d’Outre-Mer.",
+   "page": 1
   },
-  "prescription_period": null,
-  "premium": {
-    "notes": [
-      "La cotisation : est fixe dans le temps.",
-      "Paiement des cotisations : se fait sur une période de 10 ans (paiement temporaire) ou durant toute la vie de l’assuré (paiement viager).",
-      "La cotisation annuelle se paie à la date ou aux dates indiquées sur les Conditions Particulières.",
-      "Un paiement fractionné peut toutefois être accordé au choix (Mensuel, Trimestriel, Semestriel ou Annuel).",
-      "Les paiements peuvent être effectués par chèque ou prélèvement automatique.",
-      "Revalorisation : l’assureur distribue, tous les ans, les bénéfices techniques et financiers suivant les dispositions réglementaires en vigueur."
-    ],
-    "indexation": null,
-    "page": 2
+  {
+   "term": "Bénéficiaire",
+   "definition": "toute personne désignée aux conditions particulières.",
+   "page": 1
   },
-  "special_conditions": [
-    {
-      "name": "Type de contrat",
-      "description": "Le contrat est de type vie entière et est en totale conformité avec la réglementation en vigueur.",
-      "page": 1
-    },
-    {
-      "name": "Fiscalité du capital transmis",
-      "description": "Le contrat d’assurance Capital Décès permet à l’assuré de soutenir un ou plusieurs proches, même sans lien de parenté, en leur transmettant un capital exonéré des droits de succession.",
-      "page": 1
-    },
-    {
-      "name": "Conditions d’âge et de résidence de l’assuré",
-      "description": "L’assuré doit être âgé, à la souscription, d’au moins 18 ans et au maximum de 79 ans. Il doit résider sur le territoire métropolitain ou dans les départements d’Outre-Mer.",
-      "page": 1
-    },
-    {
-      "name": "Absence de sélection médicale",
-      "description": "Les garanties suivantes ne sont soumises à aucune sélection médicale.",
-      "page": 1
-    },
-    {
-      "name": "Garanties systématiquement prévues",
-      "description": "Les garanties précédées d’une coche sont systématiquement prévues au contrat.",
-      "page": 1
-    },
-    {
-      "name": "Portée du document d’information",
-      "description": "Ce document d’information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l’information complète sur ce produit dans la documentation précontractuelle et contractuelle.",
-      "page": 1
-    },
-    {
-      "name": "Assureur",
-      "description": "Thélem prévoyance, SA à conseil d’administration au capital de 12 000 580 € – Entreprise régie par le code des assurances Siège Social : Le Croc – BP 63130 – 45430 Chécy – immatriculée en France.",
-      "page": 1
-    }
+  {
+   "term": "Revalorisation",
+   "definition": "l’assureur distribue, tous les ans, les bénéfices techniques et financiers suivant les dispositions réglementaires en vigueur.",
+   "page": 1
+  },
+  {
+   "term": "Rachat",
+   "definition": "l’assuré peut aussi racheter son contrat à tout moment. Il lui sera alors restitué une somme appelée « provisions mathématiques ». Le rachat met fin au contrat.",
+   "page": 2
+  },
+  {
+   "term": "Mise en réduction",
+   "definition": "l’assuré peut arrêter le paiement des cotisations sans effectuer de rachat. Les garanties du contrat sont alors « réduites » en proportion des cotisations déjà versées, mais continuent d’exister.",
+   "page": 2
+  }
+ ],
+ "coverages": [
+  {
+   "name": "Garanties systématiquement prévues suite à accident ou maladie",
+   "description": "Le contrat d’assurance Capital Décès permet à l’assuré de soutenir un ou plusieurs proches, même sans lien de parenté, en leur transmettant un capital exonéré des droits de succession. Les garanties et les modalités de gestion sont systématiquement prévues suite à accident ou maladie.",
+   "is_optional": false,
+   "territorial_scope": "France métropolitaine et départements d’Outre-Mer ; les garanties sont acquises pour des séjours n’excédant pas 90 jours dans le reste du monde",
+   "limits": "de 7 000 € à 100 000 €, par tranche de 1 000 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Les garanties suivantes ne sont soumises à aucune sélection médicale",
+    "Les indemnités sont versées après application des délais d’attente suivants : Décès suite à accident : aucun - Décès suite à maladie : 2 ans"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Choix du capital",
+   "description": "Choix du capital : de 7 000 € à 100 000 €, par tranche de 1 000 €.",
+   "is_optional": false,
+   "territorial_scope": "France métropolitaine et départements d’Outre-Mer",
+   "limits": "de 7 000 € à 100 000 €, par tranche de 1 000 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Les garanties suivantes ne sont soumises à aucune sélection médicale"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Choix du/des bénéficiaire(s)",
+   "description": "Choix du/des bénéficiaire(s) : membre(s) de la famille, ami(s)(es), associé(s)(es) ou toute autre personne physique ou morale sans lien de parenté.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Les garanties suivantes ne sont soumises à aucune sélection médicale"
+   ],
+   "page": 1
+  },
+  {
+   "name": "La cotisation",
+   "description": "La cotisation : est fixe dans le temps.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Paiement des cotisations",
+   "description": "Paiement des cotisations : se fait sur une période de 10 ans (paiement temporaire) ou durant toute la vie de l’assuré (paiement viager).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [
+    "10 ans (paiement temporaire)",
+    "durant toute la vie de l’assuré (paiement viager)"
+   ],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Augmentation du capital souscrit",
+   "description": "Augmentation du capital souscrit : le montant ne peut être inférieur à 1 000 €.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "le montant ne peut être inférieur à 1 000 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "le montant ne peut être inférieur à 1 000 €"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Revalorisation",
+   "description": "Revalorisation : l’assureur distribue, tous les ans, les bénéfices techniques et financiers suivant les dispositions réglementaires en vigueur.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Suicide de l’assuré dans la première année",
+   "description": "Le suicide de l’assuré dans la première année qui suit la date d’effet de la souscription, ou l’augmentation du capital.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Fait intentionnellement causé ou provoqué par un bénéficiaire",
+   "description": "Le fait intentionnellement causé ou provoqué par un bénéficiaire entrainant le décès de l’assuré.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Participation volontaire et violente à des rassemblements, manifestations, mouvements populaires, rixes, jeux et paris",
+   "description": "La participation volontaire et violente de l’assuré à des rassemblements, manifestations sur la voie publique, à des mouvements populaires, rixes, jeux et paris.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Éthylisme, état alcoolique et stupéfiants",
+   "description": "L’éthylisme ayant entrainé le décès accidentel, ou s’il est révélé qu’au moment de l’accident, l’assuré se trouve sous l’emprise d’un état alcoolique ou sous l’influence de substances ou plantes classées comme stupéfiants.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Risques aériens et sauts (élastique, parachute, parapente)",
+   "description": "Les risques aériens, les sauts effectués avec un élastique, un parachute ou un parapente, ou tout autre matériel équivalent, s’ils ne sont pas homologués, les vols sur appareils non munis d’un certificat de navigabilité ou pour lesquels le pilote ne possède pas un brevet ou une licence valide.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Compétitions, rallyes de vitesse, démonstrations et acrobaties avec véhicules à moteur",
+   "description": "Les risques provenant de l’usage de véhicules à moteur lors de compétitions organisées dans un cadre officiel ou privé, de courses de rallyes de vitesse, de démonstrations ou acrobaties.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Restriction - Délais d’attente",
+   "description": "Les indemnités sont versées après application des délais d’attente suivants : Décès suite à accident : aucun - Décès suite à maladie : 2 ans.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Décès suite à maladie survenant pendant le délai d’attente",
+   "description": "En cas de décès suite à maladie survenant pendant le délai d’attente, il est remboursé au(x) bénéficiaire(s) le montant des cotisations payées.",
+   "applies_to": "all",
+   "page": 1
+  }
+ ],
+ "deductibles": null,
+ "waiting_periods": [
+  {
+   "coverage": "Décès suite à accident",
+   "duration": "aucun",
+   "description": "Les indemnités sont versées après application des délais d’attente suivants : Décès suite à accident : aucun.",
+   "page": 1
+  },
+  {
+   "coverage": "Décès suite à maladie",
+   "duration": "2 ans",
+   "description": "Les indemnités sont versées après application des délais d’attente suivants : Décès suite à maladie : 2 ans. En cas de décès suite à maladie survenant pendant le délai d’attente, il est remboursé au(x) bénéficiaire(s) le montant des cotisations payées.",
+   "page": 1
+  }
+ ],
+ "obligations": [
+  {
+   "name": "Répondre exactement aux questions posées",
+   "description": "Répondre exactement aux questions posées lors de la souscription afin d’apprécier les risques et fixer la cotisation.",
+   "timing": "A la souscription du contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+   "page": 2
+  },
+  {
+   "name": "Déclarer les circonstances nouvelles",
+   "description": "Déclarer toutes les circonstances nouvelles qui modifient les informations fournies lors de la souscription.",
+   "timing": "En cours de contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+   "page": 2
+  },
+  {
+   "name": "Régler les cotisations",
+   "description": "Régler les cotisations à la date convenue.",
+   "timing": "En cours de contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+   "page": 2
+  },
+  {
+   "name": "Fournir les pièces justificatives en cas de décès",
+   "description": "En cas de décès de l’assuré, fournir les pièces justificatives : l’acte de décès, le certificat médical précisant la cause de décès, un extrait d’acte de naissance pour chacun des bénéficiaires.",
+   "timing": "En cas de décès",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+   "page": 2
+  }
+ ],
+ "claims_procedure": [
+  {
+   "step": "Fournir les pièces justificatives",
+   "description": "En cas de décès de l’assuré, fournir les pièces justificatives : l’acte de décès, le certificat médical précisant la cause de décès, un extrait d’acte de naissance pour chacun des bénéficiaires.",
+   "deadline": null,
+   "page": 2
+  },
+  {
+   "step": "Application des délais d’attente avant versement",
+   "description": "Les indemnités sont versées après application des délais d’attente suivants : Décès suite à accident : aucun - Décès suite à maladie : 2 ans.",
+   "deadline": "aucun délai pour un décès suite à accident ; 2 ans pour un décès suite à maladie",
+   "page": 1
+  },
+  {
+   "step": "Remboursement des cotisations si le décès par maladie survient pendant le délai d’attente",
+   "description": "En cas de décès suite à maladie survenant pendant le délai d’attente, il est remboursé au(x) bénéficiaire(s) le montant des cotisations payées.",
+   "deadline": null,
+   "page": 1
+  }
+ ],
+ "duration_and_cancellation": {
+  "duration": "Le contrat prend effet à la date et l’heure indiquées aux Conditions Particulières. Le contrat est souscrit jusqu’à la prochaine échéance principale et est renouvelable par tacite reconduction à chaque nouvelle échéance principale avec les facultés de résiliation prévues. Le contrat prend fin de plein droit au décès de l’assuré.",
+  "tacit_renewal": true,
+  "notice_period": "Vous pouvez notamment mettre fin au contrat à l'échéance annuelle en respectant un préavis de deux mois.",
+  "methods": [
+   "par lettre ou tout autre support durable",
+   "par déclaration faite au siège social ou chez notre représentant",
+   "par acte extrajudiciaire",
+   "via la fonctionnalité mise en place sur le site internet",
+   "en cas de résiliation suite à modification de votre situation selon les termes des articles L113-16 et R.113-6 du Code des assurances, vous devrez notifier la résiliation par lettre recommandée (papier ou électronique) avec demande d'avis de réception"
   ],
-  "key_quotes": [
-    {
-      "quote": "Le contrat d’assurance Capital Décès permet à l’assuré de soutenir un ou plusieurs proches, même sans lien de parenté, en leur transmettant un capital exonéré des droits de succession.",
-      "context": "De quel type d’assurance s’agit-il ?",
-      "page": 1
-    },
-    {
-      "quote": "Choix du capital : de 7 000 € à 100 000 €, par tranche de 1 000 €,",
-      "context": "Les garanties et les modalités de gestion systématiquement prévues suite à accident ou maladie",
-      "page": 1
-    },
-    {
-      "quote": "Choix du/des bénéficiaire(s) : membre(s) de la famille, ami(s)(es), associé(s)(es) ou toute autre personne physique ou morale sans lien de parenté,",
-      "context": "Les garanties et les modalités de gestion systématiquement prévues",
-      "page": 1
-    },
-    {
-      "quote": "Augmentation du capital souscrit : le montant ne peut être inférieur à 1 000 €,",
-      "context": "Les garanties et les modalités de gestion systématiquement prévues",
-      "page": 1
-    },
-    {
-      "quote": "Le suicide de l’assuré dans la première année qui suit la date d’effet de la souscription, ou l’augmentation du capital,",
-      "context": "Les principales exclusions",
-      "page": 1
-    },
-    {
-      "quote": "Le fait intentionnellement causé ou provoqué par un bénéficiaire entrainant le décès de l’assuré,",
-      "context": "Les principales exclusions",
-      "page": 1
-    },
-    {
-      "quote": "La participation volontaire et violente de l’assuré à des rassemblements, manifestations sur la voie publique, à des mouvements populaires, rixes, jeux et paris,",
-      "context": "Les principales exclusions",
-      "page": 1
-    },
-    {
-      "quote": "L’éthylisme ayant entrainé le décès accidentel, ou s’il est révélé qu’au moment de l’accident, l’assuré se trouve sous l’emprise d’un état alcoolique ou sous l’influence de substances ou plantes classées comme stupéfiants,",
-      "context": "Les principales exclusions",
-      "page": 1
-    },
-    {
-      "quote": "Les risques aériens, les sauts effectués avec un élastique, un parachute ou un parapente, ou tout autre matériel équivalent, s’ils ne sont pas homologués, les vols sur appareils non munis d’un certificat de navigabilité ou pour lesquels le pilote ne possède pas un brevet ou une licence valide,",
-      "context": "Les principales exclusions",
-      "page": 1
-    },
-    {
-      "quote": "Les risques provenant de l’usage de véhicules à moteur lors de compétitions organisées dans un cadre officiel ou privé, de courses de rallyes de vitesse, de démonstrations ou acrobaties.",
-      "context": "Les principales exclusions",
-      "page": 1
-    },
-    {
-      "quote": "En cas de décès suite à maladie survenant pendant le délai d’attente, il est remboursé au(x) bénéficiaire(s) le montant des cotisations payées.",
-      "context": "Qu’est-ce qui n’est pas assuré ?",
-      "page": 1
-    },
-    {
-      "quote": "Les garanties de Capital Décès s’exercent en France métropolitaine et dans les départements d’Outre-Mer.",
-      "context": "Où suis-je couvert ?",
-      "page": 2
-    },
-    {
-      "quote": "Les garanties sont acquises pour des séjours n’excédant pas 90 jours dans le reste du monde.",
-      "context": "Où suis-je couvert ?",
-      "page": 2
-    }
+  "special_rights": [
+   "L’assuré dispose d’un délai de renonciation de 30 jours dans tous les cas à compter de la conclusion du contrat.",
+   "Rachat : l’assuré peut aussi racheter son contrat à tout moment. Il lui sera alors restitué une somme appelée « provisions mathématiques ». Le rachat met fin au contrat.",
+   "Mise en réduction : l’assuré peut arrêter le paiement des cotisations sans effectuer de rachat. Les garanties du contrat sont alors « réduites » en proportion des cotisations déjà versées, mais continuent d’exister.",
+   "Les cas de résiliation, les délais à respecter sont ceux prévus par la règlementation et précisés dans les Dispositions Générales.",
+   "Nous vous confirmerons par écrit la réception de la notification."
   ],
-  "gaps": [
-    "Aucune date d’édition n’est imprimée dans le texte du document ; edition_date laissé null (le nom du fichier source mentionne « juillet 2023 » mais cette information ne figure pas dans le document lui-même).",
-    "Aucune référence interne de document n’apparaît dans le texte ; reference laissé null.",
-    "Aucune franchise n’est mentionnée dans le document ; deductibles laissé null.",
-    "Aucun délai de prescription n’est mentionné dans le document ; prescription_period laissé null.",
-    "Le document ne comporte pas de section « Définitions » formelle : les entrées de definitions sont tirées des encadrés « Qu’est-ce qui est assuré ? » et « Quand commence la couverture et quand prend-elle fin ? ».",
-    "S’agissant d’un IPID de 2 pages, le document ne présente qu’un résumé des principales garanties et exclusions ; la liste exhaustive figure dans la documentation précontractuelle et contractuelle, non fournie.",
-    "Le montant des cotisations et la tarification ne figurent pas dans le document.",
-    "Le document ne comporte aucune rubrique de prestations d’assistance ; aucune n’a donc été extraite.",
-    "Les conditions et la périodicité de l’augmentation du capital souscrit ne sont pas précisées au-delà du montant minimum de 1 000 €."
-  ]
+  "page": 2
+ },
+ "prescription_period": null,
+ "premium": {
+  "notes": [
+   "La cotisation : est fixe dans le temps.",
+   "Paiement des cotisations : se fait sur une période de 10 ans (paiement temporaire) ou durant toute la vie de l’assuré (paiement viager).",
+   "La cotisation annuelle se paie à la date ou aux dates indiquées sur les Conditions Particulières.",
+   "Un paiement fractionné peut toutefois être accordé au choix (Mensuel, Trimestriel, Semestriel ou Annuel).",
+   "Les paiements peuvent être effectués par chèque ou prélèvement automatique.",
+   "Revalorisation : l’assureur distribue, tous les ans, les bénéfices techniques et financiers suivant les dispositions réglementaires en vigueur."
+  ],
+  "indexation": null,
+  "page": 2
+ },
+ "special_conditions": [
+  {
+   "name": "Type de contrat",
+   "description": "Le contrat est de type vie entière et est en totale conformité avec la réglementation en vigueur.",
+   "page": 1
+  },
+  {
+   "name": "Fiscalité du capital transmis",
+   "description": "Le contrat d’assurance Capital Décès permet à l’assuré de soutenir un ou plusieurs proches, même sans lien de parenté, en leur transmettant un capital exonéré des droits de succession.",
+   "page": 1
+  },
+  {
+   "name": "Conditions d’âge et de résidence de l’assuré",
+   "description": "L’assuré doit être âgé, à la souscription, d’au moins 18 ans et au maximum de 79 ans. Il doit résider sur le territoire métropolitain ou dans les départements d’Outre-Mer.",
+   "page": 1
+  },
+  {
+   "name": "Absence de sélection médicale",
+   "description": "Les garanties suivantes ne sont soumises à aucune sélection médicale.",
+   "page": 1
+  },
+  {
+   "name": "Garanties systématiquement prévues",
+   "description": "Les garanties précédées d’une coche sont systématiquement prévues au contrat.",
+   "page": 1
+  },
+  {
+   "name": "Portée du document d’information",
+   "description": "Ce document d’information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l’information complète sur ce produit dans la documentation précontractuelle et contractuelle.",
+   "page": 1
+  },
+  {
+   "name": "Assureur",
+   "description": "Thélem prévoyance, SA à conseil d’administration au capital de 12 000 580 € – Entreprise régie par le code des assurances Siège Social : Le Croc – BP 63130 – 45430 Chécy – immatriculée en France.",
+   "page": 1
+  }
+ ],
+ "key_quotes": [
+  {
+   "quote": "Le contrat d’assurance Capital Décès permet à l’assuré de soutenir un ou plusieurs proches, même sans lien de parenté, en leur transmettant un capital exonéré des droits de succession.",
+   "context": "De quel type d’assurance s’agit-il ?",
+   "page": 1
+  },
+  {
+   "quote": "Choix du capital : de 7 000 € à 100 000 €, par tranche de 1 000 €,",
+   "context": "Les garanties et les modalités de gestion systématiquement prévues suite à accident ou maladie",
+   "page": 1
+  },
+  {
+   "quote": "Choix du/des bénéficiaire(s) : membre(s) de la famille, ami(s)(es), associé(s)(es) ou toute autre personne physique ou morale sans lien de parenté,",
+   "context": "Les garanties et les modalités de gestion systématiquement prévues",
+   "page": 1
+  },
+  {
+   "quote": "Augmentation du capital souscrit : le montant ne peut être inférieur à 1 000 €,",
+   "context": "Les garanties et les modalités de gestion systématiquement prévues",
+   "page": 1
+  },
+  {
+   "quote": "Le suicide de l’assuré dans la première année qui suit la date d’effet de la souscription, ou l’augmentation du capital,",
+   "context": "Les principales exclusions",
+   "page": 1
+  },
+  {
+   "quote": "Le fait intentionnellement causé ou provoqué par un bénéficiaire entrainant le décès de l’assuré,",
+   "context": "Les principales exclusions",
+   "page": 1
+  },
+  {
+   "quote": "La participation volontaire et violente de l’assuré à des rassemblements, manifestations sur la voie publique, à des mouvements populaires, rixes, jeux et paris,",
+   "context": "Les principales exclusions",
+   "page": 1
+  },
+  {
+   "quote": "L’éthylisme ayant entrainé le décès accidentel, ou s’il est révélé qu’au moment de l’accident, l’assuré se trouve sous l’emprise d’un état alcoolique ou sous l’influence de substances ou plantes classées comme stupéfiants,",
+   "context": "Les principales exclusions",
+   "page": 1
+  },
+  {
+   "quote": "Les risques aériens, les sauts effectués avec un élastique, un parachute ou un parapente, ou tout autre matériel équivalent, s’ils ne sont pas homologués, les vols sur appareils non munis d’un certificat de navigabilité ou pour lesquels le pilote ne possède pas un brevet ou une licence valide,",
+   "context": "Les principales exclusions",
+   "page": 1
+  },
+  {
+   "quote": "Les risques provenant de l’usage de véhicules à moteur lors de compétitions organisées dans un cadre officiel ou privé, de courses de rallyes de vitesse, de démonstrations ou acrobaties.",
+   "context": "Les principales exclusions",
+   "page": 1
+  },
+  {
+   "quote": "En cas de décès suite à maladie survenant pendant le délai d’attente, il est remboursé au(x) bénéficiaire(s) le montant des cotisations payées.",
+   "context": "Qu’est-ce qui n’est pas assuré ?",
+   "page": 1
+  },
+  {
+   "quote": "Les garanties de Capital Décès s’exercent en France métropolitaine et dans les départements d’Outre-Mer.",
+   "context": "Où suis-je couvert ?",
+   "page": 2
+  },
+  {
+   "quote": "Les garanties sont acquises pour des séjours n’excédant pas 90 jours dans le reste du monde.",
+   "context": "Où suis-je couvert ?",
+   "page": 2
+  }
+ ],
+ "gaps": [
+  "Aucune date d’édition n’est imprimée dans le texte du document ; edition_date laissé null (le nom du fichier source mentionne « juillet 2023 » mais cette information ne figure pas dans le document lui-même).",
+  "Aucune référence interne de document n’apparaît dans le texte ; reference laissé null.",
+  "Aucune franchise n’est mentionnée dans le document ; deductibles laissé null.",
+  "Aucun délai de prescription n’est mentionné dans le document ; prescription_period laissé null.",
+  "Le document ne comporte pas de section « Définitions » formelle : les entrées de definitions sont tirées des encadrés « Qu’est-ce qui est assuré ? » et « Quand commence la couverture et quand prend-elle fin ? ».",
+  "S’agissant d’un IPID de 2 pages, le document ne présente qu’un résumé des principales garanties et exclusions ; la liste exhaustive figure dans la documentation précontractuelle et contractuelle, non fournie.",
+  "Le montant des cotisations et la tarification ne figurent pas dans le document.",
+  "Le document ne comporte aucune rubrique de prestations d’assistance ; aucune n’a donc été extraite.",
+  "Les conditions et la périodicité de l’augmentation du capital souscrit ne sont pas précisées au-delà du montant minimum de 1 000 €.",
+  "edition_date remise a null le 2026-08-01: la valeur 2023-07 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5."
+ ]
 }

@@ -219,7 +219,7 @@ Prestation : Réservation/organisation des déplacements, d'événements culture
 ## Documents liés
 
 - [PROFIL ELUS - IPID](PROFIL%20ELUS%20-%20IPID.md) - IPID / Fiche d'information, éd. V012026
-- [PROFIL ÉLUS](PROFIL%20%C3%89LUS.md) - Conditions générales, éd. 2026-01
+- [PROFIL ÉLUS](PROFIL%20%C3%89LUS.md) - Conditions générales
 
 ## Source & fidélité
 

@@ -15,7 +15,7 @@ target_audience_note: 'Le document désigne l’assuré comme « propriétaire b
   ne précise pas la nature (personne physique ou morale) du souscripteur, d’où target_audience
   null.'
 reference: null
-edition_date: 2025-04
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/habitation
@@ -31,7 +31,7 @@ prompt_version: '1.1'
 product_family: proprietaire-non-occupant
 variant: COUVERTURE ÉTENDUE
 edition_status: null
-edition_age_years: 1
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -45,7 +45,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de deux pages présentant l’assurance Propriétaire non-occupant et assistance distribuée sous la marque Luko, dans sa formule « COUVERTURE ÉTENDUE ». Le produit est destiné à protéger les logements à usage d’habitation non occupés par leur propriétaire contre les dommages aux biens ainsi que les frais et pertes subies, et couvre également la responsabilité civile de l’assuré en sa qualité de propriétaire bailleur. Les garanties de base couvrent notamment l’incendie, les dommages causés par les services de secours, les événements climatiques, les dégâts des eaux, les catastrophes naturelles et technologiques, les attentats, le vol et le vandalisme, le bris des vitres et des appareils sanitaires, le dommage électrique et les frais et pertes, complétés par des prestations d’assistance liées à la gestion locative. Le risque est porté par Allianz Direct Versicherungs-AG succursale France (Luko) et l’assistance par Opteven Assurances.
 
-- Assureur : [Luko](../../insurers/Luko.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information · Édition : 2025-04
+- Assureur : [Luko](../../insurers/Luko.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -226,10 +226,11 @@ Assistance : retour prématuré en cas de sinistre (prise en charge du transport
 - Aucun délai de prescription, aucun délai de carence et aucun délai de déclaration chiffré ne figurent dans le document (le texte se limite à « dans les conditions et délais impartis »).
 - Le document ne précise pas si le souscripteur peut être une personne morale : target_audience reste null, la formulation du document est conservée dans target_audience_note.
 - Le document nomme deux porteurs de risque distincts (Allianz Direct Versicherungs-AG succursale France pour l’assurance propriétaire non-occupant, Opteven Assurances pour l’assistance) ; le champ insurer_name reprend la valeur canonique fournie par le pipeline et le détail imprimé est conservé dans special_conditions et key_quotes.
+- edition_date remise a null le 2026-08-01: la valeur 2025-04 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Documents liés
 
-- [Propriétaire non-occupant — Police - COUVERTURE MINIMUM LÉGAL - IPID](Propri%C3%A9taire%20non-occupant%20%E2%80%94%20Police%20-%20COUVERTURE%20MINIMUM%20L%C3%89GAL%20-%20IPID.md) - IPID / Fiche d'information, éd. 2025-04
+- [Propriétaire non-occupant — Police - COUVERTURE MINIMUM LÉGAL - IPID](Propri%C3%A9taire%20non-occupant%20%E2%80%94%20Police%20-%20COUVERTURE%20MINIMUM%20L%C3%89GAL%20-%20IPID.md) - IPID / Fiche d'information
 
 ## Source & fidélité
 

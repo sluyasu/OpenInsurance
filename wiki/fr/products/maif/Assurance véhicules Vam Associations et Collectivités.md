@@ -23,7 +23,7 @@ target_audience_note: 'Contrat souscrit par une personne morale. Page 3 : « Le 
   publics, établissements scolaires) : aucune des catégories du schéma (entreprises
   / secteur_public) ne correspond seule au document, qui ne tranche pas.'
 reference: M6202VACA
-edition_date: 2025-10
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/auto
@@ -39,7 +39,7 @@ prompt_version: '1.1'
 product_family: vam-associations-et-collectivites
 variant: null
 edition_status: null
-edition_age_years: 1
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -53,7 +53,7 @@ generated: true
 
 Conditions générales du contrat d'assurance véhicules terrestres à moteur « Vam » de MAIF dans sa version destinée aux associations et collectivités, c'est-à-dire aux personnes morales sociétaires (associations loi 1901, fondations, établissements publics et scolaires, CSE, coopératives, mutuelles). Le contrat couvre les risques découlant de la propriété ou de l'usage des véhicules désignés aux conditions particulières et comprend un socle commun à toutes les formules (responsabilité civile, accompagnement juridique, indemnisation des dommages corporels, événements climatiques et catastrophes naturelles, attentats, assistance) complété par quatre formules souscriptibles (Initiale, Essentiel, Différence, Plénitude) plus la formule Pertinence fermée à la souscription. Trois garanties optionnelles sont proposées : Assistance panne 0 km, Service véhicule de remplacement et Protection des objets transportés. Les montants garantis, capitaux et franchises sont renvoyés aux conditions particulières et à l'avis d'échéance.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : 2025-10
+- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales
 
 ## Définitions
 
@@ -888,6 +888,7 @@ Toute action dérivant du présent contrat est prescrite deux ans à compter de 
 - L'article 28.2 renvoie au « tableau de remboursement des honoraires figurant à l'annexe 1 » puis, dans la phrase suivante, à « l'annexe 3 » ; l'annexe 1 porte en réalité sur les prothèses et l'annexe 3 sur les honoraires d'avocats. L'incohérence de renvoi est celle du document et a été conservée telle quelle.
 - Le symbole de renvoi au lexique (« Les termes signalés par le symbole … renvoient au lexique », page 6) n'est pas restitué par la couche texte : il apparaît sous forme d'espaces parasites au milieu des phrases. Ces espaces ont été normalisés dans les descriptions ; les key_quotes conservent en revanche l'espacement source (seuls les retours à la ligne ont été réduits).
 - a key_quote was sliced from the prompt text rather than the PDF and had captured an injected [page N] marker where it crossed a page boundary; truncated at the boundary.
+- edition_date remise a null le 2026-08-01: la valeur 2025-10 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Documents liés
 

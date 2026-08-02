@@ -1,378 +1,378 @@
 {
-  "schema_version": "1.0",
-  "prompt_version": "1.1",
-  "country": "fr",
-  "insurer_slug": "macif",
-  "insurer_name": "Macif",
-  "product_name": "Banque - Notice d’information d’Assurance des Moyens de paiement",
-  "branch": "autres",
-  "branch_code": null,
-  "document_type": "ipid",
-  "language": "fr",
-  "target_audience": null,
-  "target_audience_note": "Le document ne désigne aucune catégorie de public. Il vise « l’assuré » titulaire d’un « compte de dépôt détenu auprès de Socram Banque » (page 1), et écarte « L’assuré qui au moment de l’adhésion n’habite pas en France ou séjourne à l’étranger pour une durée de plus de 12 mois ».",
-  "reference": "BQ MP 10/18",
-  "edition_date": "10/18",
-  "product_family": "Assurance des Moyens de paiement",
-  "variant": null,
-  "is_extension": false,
-  "extends": null,
-  "superseded": null,
-  "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_banque.pdf",
-  "source_pdf": "banque-notice-dinformation-dassurance-des-moyens-de-paiement-52e9e2df.pdf",
-  "source_sha256": "66579e9f42ef3a733287a9b54266fb9e5c46dff3a25fb4052e924f1964942926",
-  "source_pages": 2,
-  "fetched_at": "2026-08-01",
-  "extraction_model": "claude-code-subagent:scale",
-  "summary": "Document d’information (DIPA/IPID) sur l’Assurance des Moyens de paiement souscrite dans le cadre d’un compte de dépôt détenu auprès de Socram Banque, assurée par Macif, société d’assurance mutuelle à cotisations variables (SIREN n° 781 452 511), entreprise régie par le Code des assurances. Le contrat rembourse les pertes pécuniaires subies à la suite de la perte ou du vol des moyens de paiement émis par la Banque (carte bancaire et formules de chèques), dans la limite de 3 000 euros par année et par garantie. Il couvre également le vol d’espèces par agression dans les 24 heures suivant un retrait et les frais de renouvellement des papiers officiels perdus ou volés, chacun dans la limite de 300 euros par année. Les quatre garanties sont systématiquement prévues au contrat et la couverture s’exerce dans le monde entier.",
-  "definitions": [
-    {
-      "term": "Moyens de paiement (émis par la Banque)",
-      "definition": "« sa carte bancaire et ses formules de chèques » (énumération donnée entre parenthèses dans la description du contrat).",
-      "page": 1
-    },
-    {
-      "term": "Papiers personnels officiels",
-      "definition": "« passeport, carte de séjour, permis de conduire, carte grise, permis bateau, établis au nom de l’assuré, de son conjoint et de ses enfants mineurs ».",
-      "page": 1
-    }
-  ],
-  "coverages": [
-    {
-      "name": "Garantie perte et vol de chèques émis par la Banque",
-      "description": "Remboursement des pertes pécuniaires en cas d’opérations frauduleuses de paiement et de retrait entre le moment de la perte ou du vol des chèques et leur mise en opposition.",
-      "is_optional": false,
-      "territorial_scope": "Dans le monde entier",
-      "limits": "dans la limite de 3 000 euros par année",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Les pertes couvertes sont celles survenues entre le moment de la perte ou du vol des chèques et leur mise en opposition."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Garantie perte et vol de carte émise par la Banque",
-      "description": "Remboursement des pertes pécuniaires subies en cas d’opérations frauduleuses de paiement et de retrait entre le moment de la perte ou du vol de la carte et sa mise en opposition.",
-      "is_optional": false,
-      "territorial_scope": "Dans le monde entier",
-      "limits": "dans la limite de 3 000 euros par année",
-      "sub_limits": [
-        "En cas de perte et vol de la carte bancaire, le plafond annuel de garantie est limité à 1500 euros si l’assuré a agi frauduleusement ou n’a pas satisfait, intentionnellement ou par négligence grave, à ses obligations de préservation de la sécurité de ses données de sécurité personnalisées, d’utilisation de sa carte ou d’informations aux fins de blocage de sa carte"
-      ],
-      "deductible": null,
-      "conditions": [
-        "Les pertes couvertes sont celles survenues entre le moment de la perte ou du vol de la carte et sa mise en opposition."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Garantie vol d’espèces par agression",
-      "description": "Remboursement du montant des espèces volées suite à une agression subie par l’assuré dans un délai de 24 heures après le retrait qu’il a effectué à l’aide de la carte garantie.",
-      "is_optional": false,
-      "territorial_scope": "Dans le monde entier",
-      "limits": "dans la limite de 300 euros par année",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "L’agression doit être subie « dans un délai de 24 heures après le retrait » effectué à l’aide de la carte garantie."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Garantie perte et vol des papiers officiels",
-      "description": "Remboursement des frais engagés par l’assuré pour le renouvellement des papiers personnels officiels perdus ou volés à l’assuré si l’un des moyens de paiement garantis a été volé ou perdu en même temps. Sont concernés : passeport, carte de séjour, permis de conduire, carte grise, permis bateau, établis au nom de l’assuré, de son conjoint et de ses enfants mineurs.",
-      "is_optional": false,
-      "territorial_scope": "Dans le monde entier",
-      "limits": "dans le limite de 300 euros par année",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "L’un des moyens de paiement garantis doit avoir été volé ou perdu en même temps que les papiers.",
-        "Papiers concernés : passeport, carte de séjour, permis de conduire, carte grise, permis bateau, établis au nom de l’assuré, de son conjoint et de ses enfants mineurs."
-      ],
-      "page": 1
-    }
-  ],
-  "exclusions": [
-    {
-      "name": "Assuré n’habitant pas en France ou séjournant à l’étranger plus de 12 mois",
-      "description": "« L’assuré qui au moment de l’adhésion n’habite pas en France ou séjourne à l’étranger pour une durée de plus de 12 mois ». Figure sous la rubrique « Qu’est-ce qui n’est pas assuré ? ».",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Faute intentionnelle ou dolosive",
-      "description": "La faute intentionnelle ou dolosive commise par l’assuré, son conjoint ou concubin, ses ascendants et descendants. (Exclusion commune à toutes les garanties.)",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Utilisation frauduleuse hors période de garantie",
-      "description": "L’utilisation frauduleuse commise après la date d’opposition auprès de la Banque, avant la remise de la carte garantie et ou du chéquier à son titulaire, à l’occasion d’un envoi par la poste (y compris dans les boîtes à lettres), après la clôture du compte, après la date d’expiration de validité de la carte. (Exclusion commune à toutes les garanties.)",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Utilisation frauduleuse par un proche",
-      "description": "L’utilisation frauduleuse causée par un membre de la famille de l’assuré, son conjoint ou concubin. (Exclusion commune à toutes les garanties.)",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Guerre civile ou étrangère",
-      "description": "La guerre civile ou étrangère. (Exclusion commune à toutes les garanties.)",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Émeutes, grèves, mouvements populaires",
-      "description": "Les émeutes, grèves, mouvements populaires, lorsque l’assuré y participe activement. (Exclusion commune à toutes les garanties.)",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Confiscation, embargo, capture ou destruction par ordre d’une autorité publique",
-      "description": "La confiscation, embargo, capture ou destruction par ordre d’une autorité publique. (Exclusion commune à toutes les garanties.)",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Vols d’espèces et de papiers officiels après clôture du compte ou par un proche",
-      "description": "Les vols d’espèces et de papiers officiels, commis après la clôture du compte ou par un membre de la famille de l’assuré, de son conjoint ou concubin. (Exclusion spécifique à certaines garanties.)",
-      "applies_to": "Garantie vol d’espèces par agression ; Garantie perte et vol des papiers officiels",
-      "page": 1
-    }
-  ],
-  "deductibles": null,
-  "waiting_periods": [],
-  "obligations": [
-    {
-      "name": "Faire opposition auprès de la Banque",
-      "description": "Faire immédiatement opposition auprès de la Banque dès le constat de la perte ou du vol des moyens de paiement.",
-      "timing": "En cas de sinistre - immédiatement, dès le constat",
-      "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Déposer plainte ou déclarer la perte",
-      "description": "Déposer plainte en cas de vol ou faire une déclaration de perte auprès des autorités de police compétentes dans les plus brefs délais.",
-      "timing": "En cas de sinistre - dans les plus brefs délais",
-      "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Déclarer le sinistre à la Banque",
-      "description": "Déclarer le sinistre à la Banque à partir du moment où l’assuré en a connaissance et au plus tard dans les 5 jours ouvrés.",
-      "timing": "En cas de sinistre - au plus tard dans les 5 jours ouvrés",
-      "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Fournir les justificatifs d’opposition et de plainte",
-      "description": "Fournir les copies de la lettre de mise en opposition et du dépôt de plainte.",
-      "timing": "En cas de sinistre",
-      "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Justificatifs complémentaires - vol d’espèces par agression",
-      "description": "Pour une demande au titre de la garantie vol d’espèces par agression : préciser en plus dans la déclaration les circonstances et conséquences de l’évènement ainsi que toute preuve de l’agression, témoignage ou certificat médical.",
-      "timing": "En cas de sinistre",
-      "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Justificatifs complémentaires - perte et vol des papiers officiels",
-      "description": "Pour une demande au titre la garantie perte et vol des papiers officiels : l’assuré doit joindre en plus à sa déclaration la copie des nouveaux papiers et les factures correspondant aux frais de renouvellement.",
-      "timing": "En cas de sinistre",
-      "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Signaler les autres assureurs",
-      "description": "Transmettre les coordonnées des éventuels assureurs couvrant le même risque.",
-      "timing": "En cas de sinistre",
-      "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
-      "page": 2
-    }
-  ],
-  "claims_procedure": [
-    {
-      "step": "Opposition",
-      "description": "Faire immédiatement opposition auprès de la Banque dès le constat de la perte ou du vol des moyens de paiement.",
-      "deadline": "Immédiatement, dès le constat",
-      "page": 2
-    },
-    {
-      "step": "Dépôt de plainte / déclaration de perte",
-      "description": "Déposer plainte en cas de vol ou faire une déclaration de perte auprès des autorités de police compétentes.",
-      "deadline": "Dans les plus brefs délais",
-      "page": 2
-    },
-    {
-      "step": "Déclaration du sinistre",
-      "description": "Déclarer le sinistre à la Banque à partir du moment où l’assuré en a connaissance.",
-      "deadline": "Au plus tard dans les 5 jours ouvrés",
-      "page": 2
-    },
-    {
-      "step": "Pièces justificatives",
-      "description": "Fournir les copies de la lettre de mise en opposition et du dépôt de plainte ; pour le vol d’espèces par agression, préciser les circonstances et conséquences de l’évènement ainsi que toute preuve de l’agression, témoignage ou certificat médical ; pour la perte et vol des papiers officiels, joindre la copie des nouveaux papiers et les factures correspondant aux frais de renouvellement.",
-      "deadline": null,
-      "page": 2
-    },
-    {
-      "step": "Autres assurances",
-      "description": "Transmettre les coordonnées des éventuels assureurs couvrant le même risque.",
-      "deadline": null,
-      "page": 2
-    }
-  ],
-  "duration_and_cancellation": {
-    "duration": "La couverture commence à partir de la signature de la demande d’adhésion sous réserve du paiement de la cotisation. Le contrat est renouvelé automatiquement par période annuelle, sauf si l’une des parties décide d’y mettre fin dans les délais et conditions prévus au contrat.",
-    "tacit_renewal": true,
-    "notice_period": null,
-    "methods": [
-      "Par l’envoi d’une lettre recommandée : à tout moment",
-      "De plein droit : en cas de clôture du compte de dépôt",
-      "De plein droit : en cas de non renouvellement de la carte garantie et/ou du chéquier"
-    ],
-    "special_rights": [
-      "Lorsque le contrat a été souscrit à la suite d’un démarchage à domicile ou à distance, l’assuré dispose d’un droit de rétractation."
-    ],
-    "page": 2
+ "schema_version": "1.0",
+ "prompt_version": "1.1",
+ "country": "fr",
+ "insurer_slug": "macif",
+ "insurer_name": "Macif",
+ "product_name": "Banque - Notice d’information d’Assurance des Moyens de paiement",
+ "branch": "autres",
+ "branch_code": null,
+ "document_type": "ipid",
+ "language": "fr",
+ "target_audience": null,
+ "target_audience_note": "Le document ne désigne aucune catégorie de public. Il vise « l’assuré » titulaire d’un « compte de dépôt détenu auprès de Socram Banque » (page 1), et écarte « L’assuré qui au moment de l’adhésion n’habite pas en France ou séjourne à l’étranger pour une durée de plus de 12 mois ».",
+ "reference": "BQ MP 10/18",
+ "edition_date": "10/18",
+ "product_family": "Assurance des Moyens de paiement",
+ "variant": null,
+ "is_extension": false,
+ "extends": null,
+ "superseded": null,
+ "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_banque.pdf",
+ "source_pdf": "banque-notice-dinformation-dassurance-des-moyens-de-paiement-52e9e2df.pdf",
+ "source_sha256": "66579e9f42ef3a733287a9b54266fb9e5c46dff3a25fb4052e924f1964942926",
+ "source_pages": 2,
+ "fetched_at": "2026-08-01",
+ "extraction_model": "claude-code-subagent:scale",
+ "summary": "Document d’information (DIPA/IPID) sur l’Assurance des Moyens de paiement souscrite dans le cadre d’un compte de dépôt détenu auprès de Socram Banque, assurée par Macif, société d’assurance mutuelle à cotisations variables (SIREN n° 781 452 511), entreprise régie par le Code des assurances. Le contrat rembourse les pertes pécuniaires subies à la suite de la perte ou du vol des moyens de paiement émis par la Banque (carte bancaire et formules de chèques), dans la limite de 3 000 euros par année et par garantie. Il couvre également le vol d’espèces par agression dans les 24 heures suivant un retrait et les frais de renouvellement des papiers officiels perdus ou volés, chacun dans la limite de 300 euros par année. Les quatre garanties sont systématiquement prévues au contrat et la couverture s’exerce dans le monde entier.",
+ "definitions": [
+  {
+   "term": "Moyens de paiement (émis par la Banque)",
+   "definition": "« sa carte bancaire et ses formules de chèques » (énumération donnée entre parenthèses dans la description du contrat).",
+   "page": 1
   },
-  "prescription_period": null,
-  "premium": {
-    "notes": [
-      "La cotisation est payable d’avance à la souscription puis à chaque date d’échéance.",
-      "Le défaut de paiement dans les 10 jours à compter de la date d’échéance pourra entraîner, après une mise en demeure, la suspension des garanties puis la résiliation du contrat.",
-      "Les paiements sont effectués par prélèvement automatique."
-    ],
-    "indexation": null,
-    "page": 2
+  {
+   "term": "Papiers personnels officiels",
+   "definition": "« passeport, carte de séjour, permis de conduire, carte grise, permis bateau, établis au nom de l’assuré, de son conjoint et de ses enfants mineurs ».",
+   "page": 1
+  }
+ ],
+ "coverages": [
+  {
+   "name": "Garantie perte et vol de chèques émis par la Banque",
+   "description": "Remboursement des pertes pécuniaires en cas d’opérations frauduleuses de paiement et de retrait entre le moment de la perte ou du vol des chèques et leur mise en opposition.",
+   "is_optional": false,
+   "territorial_scope": "Dans le monde entier",
+   "limits": "dans la limite de 3 000 euros par année",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Les pertes couvertes sont celles survenues entre le moment de la perte ou du vol des chèques et leur mise en opposition."
+   ],
+   "page": 1
   },
-  "special_conditions": [
-    {
-      "name": "Portée territoriale",
-      "description": "« Où suis-je couvert(e) ? » : Dans le monde entier.",
-      "page": 2
-    },
-    {
-      "name": "Principale restriction - plafond réduit sur la carte bancaire",
-      "description": "En cas de perte et vol de la carte bancaire, le plafond annuel de garantie est limité à 1500 euros si l’assuré a agi frauduleusement ou n’a pas satisfait, intentionnellement ou par négligence grave, à ses obligations de préservation de la sécurité de ses données de sécurité personnalisées, d’utilisation de sa carte ou d’informations aux fins de blocage de sa carte.",
-      "page": 1
-    },
-    {
-      "name": "Garanties systématiques",
-      "description": "« Les garanties précédées d’une coche sont systématiquement prévues au contrat. » Aucune garantie optionnelle n’est proposée dans ce document.",
-      "page": 1
-    },
-    {
-      "name": "Cadre du contrat",
-      "description": "Le contrat s’exerce « dans le cadre de son compte de dépôt détenu auprès de Socram Banque » ; les moyens de paiement garantis sont ceux « émis par la Banque ».",
-      "page": 1
-    }
+  {
+   "name": "Garantie perte et vol de carte émise par la Banque",
+   "description": "Remboursement des pertes pécuniaires subies en cas d’opérations frauduleuses de paiement et de retrait entre le moment de la perte ou du vol de la carte et sa mise en opposition.",
+   "is_optional": false,
+   "territorial_scope": "Dans le monde entier",
+   "limits": "dans la limite de 3 000 euros par année",
+   "sub_limits": [
+    "En cas de perte et vol de la carte bancaire, le plafond annuel de garantie est limité à 1500 euros si l’assuré a agi frauduleusement ou n’a pas satisfait, intentionnellement ou par négligence grave, à ses obligations de préservation de la sécurité de ses données de sécurité personnalisées, d’utilisation de sa carte ou d’informations aux fins de blocage de sa carte"
+   ],
+   "deductible": null,
+   "conditions": [
+    "Les pertes couvertes sont celles survenues entre le moment de la perte ou du vol de la carte et sa mise en opposition."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Garantie vol d’espèces par agression",
+   "description": "Remboursement du montant des espèces volées suite à une agression subie par l’assuré dans un délai de 24 heures après le retrait qu’il a effectué à l’aide de la carte garantie.",
+   "is_optional": false,
+   "territorial_scope": "Dans le monde entier",
+   "limits": "dans la limite de 300 euros par année",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "L’agression doit être subie « dans un délai de 24 heures après le retrait » effectué à l’aide de la carte garantie."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Garantie perte et vol des papiers officiels",
+   "description": "Remboursement des frais engagés par l’assuré pour le renouvellement des papiers personnels officiels perdus ou volés à l’assuré si l’un des moyens de paiement garantis a été volé ou perdu en même temps. Sont concernés : passeport, carte de séjour, permis de conduire, carte grise, permis bateau, établis au nom de l’assuré, de son conjoint et de ses enfants mineurs.",
+   "is_optional": false,
+   "territorial_scope": "Dans le monde entier",
+   "limits": "dans le limite de 300 euros par année",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "L’un des moyens de paiement garantis doit avoir été volé ou perdu en même temps que les papiers.",
+    "Papiers concernés : passeport, carte de séjour, permis de conduire, carte grise, permis bateau, établis au nom de l’assuré, de son conjoint et de ses enfants mineurs."
+   ],
+   "page": 1
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Assuré n’habitant pas en France ou séjournant à l’étranger plus de 12 mois",
+   "description": "« L’assuré qui au moment de l’adhésion n’habite pas en France ou séjourne à l’étranger pour une durée de plus de 12 mois ». Figure sous la rubrique « Qu’est-ce qui n’est pas assuré ? ».",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Faute intentionnelle ou dolosive",
+   "description": "La faute intentionnelle ou dolosive commise par l’assuré, son conjoint ou concubin, ses ascendants et descendants. (Exclusion commune à toutes les garanties.)",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Utilisation frauduleuse hors période de garantie",
+   "description": "L’utilisation frauduleuse commise après la date d’opposition auprès de la Banque, avant la remise de la carte garantie et ou du chéquier à son titulaire, à l’occasion d’un envoi par la poste (y compris dans les boîtes à lettres), après la clôture du compte, après la date d’expiration de validité de la carte. (Exclusion commune à toutes les garanties.)",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Utilisation frauduleuse par un proche",
+   "description": "L’utilisation frauduleuse causée par un membre de la famille de l’assuré, son conjoint ou concubin. (Exclusion commune à toutes les garanties.)",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Guerre civile ou étrangère",
+   "description": "La guerre civile ou étrangère. (Exclusion commune à toutes les garanties.)",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Émeutes, grèves, mouvements populaires",
+   "description": "Les émeutes, grèves, mouvements populaires, lorsque l’assuré y participe activement. (Exclusion commune à toutes les garanties.)",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Confiscation, embargo, capture ou destruction par ordre d’une autorité publique",
+   "description": "La confiscation, embargo, capture ou destruction par ordre d’une autorité publique. (Exclusion commune à toutes les garanties.)",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Vols d’espèces et de papiers officiels après clôture du compte ou par un proche",
+   "description": "Les vols d’espèces et de papiers officiels, commis après la clôture du compte ou par un membre de la famille de l’assuré, de son conjoint ou concubin. (Exclusion spécifique à certaines garanties.)",
+   "applies_to": "Garantie vol d’espèces par agression ; Garantie perte et vol des papiers officiels",
+   "page": 1
+  }
+ ],
+ "deductibles": null,
+ "waiting_periods": [],
+ "obligations": [
+  {
+   "name": "Faire opposition auprès de la Banque",
+   "description": "Faire immédiatement opposition auprès de la Banque dès le constat de la perte ou du vol des moyens de paiement.",
+   "timing": "En cas de sinistre - immédiatement, dès le constat",
+   "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Déposer plainte ou déclarer la perte",
+   "description": "Déposer plainte en cas de vol ou faire une déclaration de perte auprès des autorités de police compétentes dans les plus brefs délais.",
+   "timing": "En cas de sinistre - dans les plus brefs délais",
+   "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Déclarer le sinistre à la Banque",
+   "description": "Déclarer le sinistre à la Banque à partir du moment où l’assuré en a connaissance et au plus tard dans les 5 jours ouvrés.",
+   "timing": "En cas de sinistre - au plus tard dans les 5 jours ouvrés",
+   "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Fournir les justificatifs d’opposition et de plainte",
+   "description": "Fournir les copies de la lettre de mise en opposition et du dépôt de plainte.",
+   "timing": "En cas de sinistre",
+   "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Justificatifs complémentaires - vol d’espèces par agression",
+   "description": "Pour une demande au titre de la garantie vol d’espèces par agression : préciser en plus dans la déclaration les circonstances et conséquences de l’évènement ainsi que toute preuve de l’agression, témoignage ou certificat médical.",
+   "timing": "En cas de sinistre",
+   "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Justificatifs complémentaires - perte et vol des papiers officiels",
+   "description": "Pour une demande au titre la garantie perte et vol des papiers officiels : l’assuré doit joindre en plus à sa déclaration la copie des nouveaux papiers et les factures correspondant aux frais de renouvellement.",
+   "timing": "En cas de sinistre",
+   "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Signaler les autres assureurs",
+   "description": "Transmettre les coordonnées des éventuels assureurs couvrant le même risque.",
+   "timing": "En cas de sinistre",
+   "sanction": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie",
+   "page": 2
+  }
+ ],
+ "claims_procedure": [
+  {
+   "step": "Opposition",
+   "description": "Faire immédiatement opposition auprès de la Banque dès le constat de la perte ou du vol des moyens de paiement.",
+   "deadline": "Immédiatement, dès le constat",
+   "page": 2
+  },
+  {
+   "step": "Dépôt de plainte / déclaration de perte",
+   "description": "Déposer plainte en cas de vol ou faire une déclaration de perte auprès des autorités de police compétentes.",
+   "deadline": "Dans les plus brefs délais",
+   "page": 2
+  },
+  {
+   "step": "Déclaration du sinistre",
+   "description": "Déclarer le sinistre à la Banque à partir du moment où l’assuré en a connaissance.",
+   "deadline": "Au plus tard dans les 5 jours ouvrés",
+   "page": 2
+  },
+  {
+   "step": "Pièces justificatives",
+   "description": "Fournir les copies de la lettre de mise en opposition et du dépôt de plainte ; pour le vol d’espèces par agression, préciser les circonstances et conséquences de l’évènement ainsi que toute preuve de l’agression, témoignage ou certificat médical ; pour la perte et vol des papiers officiels, joindre la copie des nouveaux papiers et les factures correspondant aux frais de renouvellement.",
+   "deadline": null,
+   "page": 2
+  },
+  {
+   "step": "Autres assurances",
+   "description": "Transmettre les coordonnées des éventuels assureurs couvrant le même risque.",
+   "deadline": null,
+   "page": 2
+  }
+ ],
+ "duration_and_cancellation": {
+  "duration": "La couverture commence à partir de la signature de la demande d’adhésion sous réserve du paiement de la cotisation. Le contrat est renouvelé automatiquement par période annuelle, sauf si l’une des parties décide d’y mettre fin dans les délais et conditions prévus au contrat.",
+  "tacit_renewal": true,
+  "notice_period": null,
+  "methods": [
+   "Par l’envoi d’une lettre recommandée : à tout moment",
+   "De plein droit : en cas de clôture du compte de dépôt",
+   "De plein droit : en cas de non renouvellement de la carte garantie et/ou du chéquier"
   ],
-  "key_quotes": [
-    {
-      "quote": "Compagnie : Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511",
-      "context": "Identité de l'assureur",
-      "page": 1
-    },
-    {
-      "quote": "BQ MP 10/18 - Macif. Entreprise régie par le Code des assurances. Siège social : 2 et 4, rue de Pied de Fond 79000 Niort.",
-      "context": "Code de reference / mentions legales",
-      "page": 1
-    },
-    {
-      "quote": "Ce contrat d’assurance garantit à l’assuré, dans le cadre de son compte de dépôt détenu auprès de Socram Banque, le remboursement des pertes pécuniaires subies \nà la suite de la perte ou du vol de ses moyens de paiement émis par la Banque (sa carte bancaire et ses formules de chèques). Le contrat couvre également  les frais de \nrenouvellement des papiers officiels perdus ou volés et le vol d’espèces par agression.",
-      "context": "De quel type d'assurance s'agit-il ?",
-      "page": 1
-    },
-    {
-      "quote": "La garantie perte et vol de chèques émis par la Banque : \nremboursement des pertes pécuniaires en cas d’opérations \nfrauduleuses de paiement et de retrait entre le moment de la perte ou \ndu vol des chèques et leur mise en opposition (dans la limite de  \n3 000 euros par année)",
-      "context": "Garantie cheques",
-      "page": 1
-    },
-    {
-      "quote": "La garantie perte et vol de carte émise par la Banque : \nremboursement des pertes pécuniaires subies en cas d’opérations \nfrauduleuses de paiement et de retrait entre le moment de la perte ou \ndu vol de la carte et sa mise en opposition (dans la limite de  \n3 000 euros par année)",
-      "context": "Garantie carte",
-      "page": 1
-    },
-    {
-      "quote": "La garantie vol d’espèces par agression : remboursement du \nmontant des espèces volées suite à une agression subie par l’assuré \ndans un délai de 24 heures après le retrait qu’il a effectué à l’aide de  \nla carte garantie (dans la limite de 300 euros par année)",
-      "context": "Garantie vol d'especes par agression",
-      "page": 1
-    },
-    {
-      "quote": "La garantie perte et vol des papiers officiels : remboursement \ndes frais engagés par l’assuré pour le renouvellement des papiers \npersonnels officiels perdus ou volés à l’assuré si l’un des moyens \nde paiement garantis a été volé ou perdu en même temps. Sont \nconcernés : passeport, carte de séjour, permis de conduire, carte grise, \npermis bateau, établis au nom de l’assuré, de son conjoint et de ses \nenfants mineurs (dans le limite de 300 euros par année)",
-      "context": "Garantie papiers officiels",
-      "page": 1
-    },
-    {
-      "quote": "Les garanties précédées d’une coche   sont systématiquement \nprévues au contrat.",
-      "context": "Les garanties sont systematiques",
-      "page": 1
-    },
-    {
-      "quote": "L’assuré  qui au moment de l’adhésion n’habite pas en France ou \nséjourne à l’étranger pour une durée de plus de 12 mois",
-      "context": "Qu'est-ce qui n'est pas assure ?",
-      "page": 1
-    },
-    {
-      "quote": "La faute intentionnelle ou dolosive commise par l’assuré, son conjoint \nou concubin, ses ascendants et descendants",
-      "context": "Exclusion commune",
-      "page": 1
-    },
-    {
-      "quote": "L’utilisation frauduleuse commise après la date d’opposition auprès de \nla Banque, avant la remise de la carte garantie et ou du chéquier à son \ntitulaire, à l’occasion d’un envoi par la poste (y compris dans les boîtes \nà lettres), après la clôture du compte, après la date d’expiration de \nvalidité de la carte",
-      "context": "Exclusion commune",
-      "page": 1
-    },
-    {
-      "quote": "Les vols d’espèces et de papiers officiels, commis après la clôture du \ncompte ou par un membre de la famille de l’assuré, de son conjoint ou \nconcubin",
-      "context": "Exclusion specifique",
-      "page": 1
-    },
-    {
-      "quote": "En cas de perte et vol de la carte bancaire, le plafond annuel de \ngarantie est limité à 1500 euros si l’assuré a agi frauduleusement ou \nn’a pas satisfait, intentionnellement ou par négligence grave, à ses \nobligations de préservation de la sécurité de ses données de sécurité \npersonnalisées, d’utilisation de sa carte ou d’informations aux fins  \nde blocage de sa carte",
-      "context": "Principale restriction",
-      "page": 1
-    },
-    {
-      "quote": "La cotisation est payable d’avance à la souscription puis à chaque date d’échéance. Le défaut de paiement dans les 10 jours à compter de la date \nd’échéance pourra entraîner, après une mise en demeure, la suspension des garanties puis la résiliation du contrat.",
-      "context": "Paiement de la cotisation",
-      "page": 2
-    },
-    {
-      "quote": "La couverture commence à partir de la signature de la demande d’adhésion sous réserve du paiement de la cotisation. Le contrat est renouvelé \nautomatiquement par période annuelle, sauf si l’une des parties décide d’y mettre fin dans les délais et conditions prévus au contrat.",
-      "context": "Debut et fin de la couverture",
-      "page": 2
-    },
-    {
-      "quote": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie :",
-      "context": "Sanction des obligations",
-      "page": 2
-    },
-    {
-      "quote": "déclarer le sinistre à la Banque à partir du moment où l’assuré en a connaissance et au plus tard dans les 5 jours ouvrés",
-      "context": "Delai de declaration",
-      "page": 2
-    }
+  "special_rights": [
+   "Lorsque le contrat a été souscrit à la suite d’un démarchage à domicile ou à distance, l’assuré dispose d’un droit de rétractation."
   ],
-  "gaps": [
-    "Assureur : le document nomme « Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511 », « Entreprise régie par le Code des assurances. Siège social : 2 et 4, rue de Pied de Fond 79000 Niort. » Socram Banque est nommée comme la banque teneuse du compte de dépôt et destinataire de la déclaration de sinistre, jamais comme assureur.",
-    "edition_date : le document ne porte aucune mention « édition ». La valeur « 10/18 » est lue dans le code de référence imprimé en pied de page 1, « BQ MP 10/18 - Macif. » Aucune autre date n’apparaît dans le document.",
-    "target_audience laissé null : le document n’énonce aucune catégorie de public (particuliers / entreprises / indépendants). La seule condition d’éligibilité énoncée est négative (résidence en France, séjour à l’étranger de moins de 12 mois) et a été enregistrée en exclusion ainsi que dans target_audience_note.",
-    "Portée territoriale : « Dans le monde entier » est énoncé une seule fois, globalement, sous « Où suis-je couvert(e) ? » (page 2). Le document ne détaille pas de portée par garantie ; la valeur a été reportée telle quelle sur chacune des quatre garanties.",
-    "Aucune franchise n’est mentionnée dans le document : deductibles laissé null.",
-    "Aucun délai de carence, aucun délai de prescription, aucun préavis de résiliation ne sont mentionnés : waiting_periods vide et prescription_period null.",
-    "Le document est un DIPA (document d’information normalisé de 2 pages) et ne contient pas de glossaire. Les deux entrées de definitions[] reprennent des énumérations données entre parenthèses dans le corps des garanties (« sa carte bancaire et ses formules de chèques », liste des papiers officiels) ; ce ne sont pas des définitions contractuelles formelles.",
-    "obligations[] et claims_procedure[] décrivent le même bloc du document (« Quelles sont mes obligations ? / En cas de sinistre »), restitué dans les deux champs du schéma.",
-    "Le titre du produit est ambigu : l’en-tête imprime « Assurance des moyens de paiement » tandis que la ligne « Produit : » imprime « Banque - Notice d’information d’Assurance des Moyens de paiement ». C’est cette dernière, la mention officielle du DIPA, qui a été retenue en product_name.",
-    "Aucune coche/croix n’est présente dans la couche texte : les puces des rubriques « Qu’est-ce qui est assuré ? » / « Qu’est-ce qui n’est pas assuré ? » ressortent en U+0007 (résidu de puce). L’appartenance des garanties n’en dépend pas ici, le document déclarant en toutes lettres que les garanties cochées sont systématiquement prévues au contrat.",
-    "Le texte imprime « dans le limite de 300 euros par année » (au lieu de « dans la limite ») pour la garantie perte et vol des papiers officiels ; la coquille est conservée telle quelle."
-  ]
+  "page": 2
+ },
+ "prescription_period": null,
+ "premium": {
+  "notes": [
+   "La cotisation est payable d’avance à la souscription puis à chaque date d’échéance.",
+   "Le défaut de paiement dans les 10 jours à compter de la date d’échéance pourra entraîner, après une mise en demeure, la suspension des garanties puis la résiliation du contrat.",
+   "Les paiements sont effectués par prélèvement automatique."
+  ],
+  "indexation": null,
+  "page": 2
+ },
+ "special_conditions": [
+  {
+   "name": "Portée territoriale",
+   "description": "« Où suis-je couvert(e) ? » : Dans le monde entier.",
+   "page": 2
+  },
+  {
+   "name": "Principale restriction - plafond réduit sur la carte bancaire",
+   "description": "En cas de perte et vol de la carte bancaire, le plafond annuel de garantie est limité à 1500 euros si l’assuré a agi frauduleusement ou n’a pas satisfait, intentionnellement ou par négligence grave, à ses obligations de préservation de la sécurité de ses données de sécurité personnalisées, d’utilisation de sa carte ou d’informations aux fins de blocage de sa carte.",
+   "page": 1
+  },
+  {
+   "name": "Garanties systématiques",
+   "description": "« Les garanties précédées d’une coche sont systématiquement prévues au contrat. » Aucune garantie optionnelle n’est proposée dans ce document.",
+   "page": 1
+  },
+  {
+   "name": "Cadre du contrat",
+   "description": "Le contrat s’exerce « dans le cadre de son compte de dépôt détenu auprès de Socram Banque » ; les moyens de paiement garantis sont ceux « émis par la Banque ».",
+   "page": 1
+  }
+ ],
+ "key_quotes": [
+  {
+   "quote": "Compagnie : Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511",
+   "context": "Identité de l'assureur",
+   "page": 1
+  },
+  {
+   "quote": "BQ MP 10/18 - Macif. Entreprise régie par le Code des assurances. Siège social : 2 et 4, rue de Pied de Fond 79000 Niort.",
+   "context": "Code de reference / mentions legales",
+   "page": 1
+  },
+  {
+   "quote": "Ce contrat d’assurance garantit à l’assuré, dans le cadre de son compte de dépôt détenu auprès de Socram Banque, le remboursement des pertes pécuniaires subies \nà la suite de la perte ou du vol de ses moyens de paiement émis par la Banque (sa carte bancaire et ses formules de chèques). Le contrat couvre également  les frais de \nrenouvellement des papiers officiels perdus ou volés et le vol d’espèces par agression.",
+   "context": "De quel type d'assurance s'agit-il ?",
+   "page": 1
+  },
+  {
+   "quote": "La garantie perte et vol de chèques émis par la Banque : \nremboursement des pertes pécuniaires en cas d’opérations \nfrauduleuses de paiement et de retrait entre le moment de la perte ou \ndu vol des chèques et leur mise en opposition (dans la limite de  \n3 000 euros par année)",
+   "context": "Garantie cheques",
+   "page": 1
+  },
+  {
+   "quote": "La garantie perte et vol de carte émise par la Banque : \nremboursement des pertes pécuniaires subies en cas d’opérations \nfrauduleuses de paiement et de retrait entre le moment de la perte ou \ndu vol de la carte et sa mise en opposition (dans la limite de  \n3 000 euros par année)",
+   "context": "Garantie carte",
+   "page": 1
+  },
+  {
+   "quote": "La garantie vol d’espèces par agression : remboursement du \nmontant des espèces volées suite à une agression subie par l’assuré \ndans un délai de 24 heures après le retrait qu’il a effectué à l’aide de  \nla carte garantie (dans la limite de 300 euros par année)",
+   "context": "Garantie vol d'especes par agression",
+   "page": 1
+  },
+  {
+   "quote": "La garantie perte et vol des papiers officiels : remboursement \ndes frais engagés par l’assuré pour le renouvellement des papiers \npersonnels officiels perdus ou volés à l’assuré si l’un des moyens \nde paiement garantis a été volé ou perdu en même temps. Sont \nconcernés : passeport, carte de séjour, permis de conduire, carte grise, \npermis bateau, établis au nom de l’assuré, de son conjoint et de ses \nenfants mineurs (dans le limite de 300 euros par année)",
+   "context": "Garantie papiers officiels",
+   "page": 1
+  },
+  {
+   "quote": "Les garanties précédées d’une coche   sont systématiquement \nprévues au contrat.",
+   "context": "Les garanties sont systematiques",
+   "page": 1
+  },
+  {
+   "quote": "L’assuré  qui au moment de l’adhésion n’habite pas en France ou \nséjourne à l’étranger pour une durée de plus de 12 mois",
+   "context": "Qu'est-ce qui n'est pas assure ?",
+   "page": 1
+  },
+  {
+   "quote": "La faute intentionnelle ou dolosive commise par l’assuré, son conjoint \nou concubin, ses ascendants et descendants",
+   "context": "Exclusion commune",
+   "page": 1
+  },
+  {
+   "quote": "L’utilisation frauduleuse commise après la date d’opposition auprès de \nla Banque, avant la remise de la carte garantie et ou du chéquier à son \ntitulaire, à l’occasion d’un envoi par la poste (y compris dans les boîtes \nà lettres), après la clôture du compte, après la date d’expiration de \nvalidité de la carte",
+   "context": "Exclusion commune",
+   "page": 1
+  },
+  {
+   "quote": "Les vols d’espèces et de papiers officiels, commis après la clôture du \ncompte ou par un membre de la famille de l’assuré, de son conjoint ou \nconcubin",
+   "context": "Exclusion specifique",
+   "page": 1
+  },
+  {
+   "quote": "En cas de perte et vol de la carte bancaire, le plafond annuel de \ngarantie est limité à 1500 euros si l’assuré a agi frauduleusement ou \nn’a pas satisfait, intentionnellement ou par négligence grave, à ses \nobligations de préservation de la sécurité de ses données de sécurité \npersonnalisées, d’utilisation de sa carte ou d’informations aux fins  \nde blocage de sa carte",
+   "context": "Principale restriction",
+   "page": 1
+  },
+  {
+   "quote": "La cotisation est payable d’avance à la souscription puis à chaque date d’échéance. Le défaut de paiement dans les 10 jours à compter de la date \nd’échéance pourra entraîner, après une mise en demeure, la suspension des garanties puis la résiliation du contrat.",
+   "context": "Paiement de la cotisation",
+   "page": 2
+  },
+  {
+   "quote": "La couverture commence à partir de la signature de la demande d’adhésion sous réserve du paiement de la cotisation. Le contrat est renouvelé \nautomatiquement par période annuelle, sauf si l’une des parties décide d’y mettre fin dans les délais et conditions prévus au contrat.",
+   "context": "Debut et fin de la couverture",
+   "page": 2
+  },
+  {
+   "quote": "Sous peine de nullité du contrat d’assurance, de réduction d’indemnité ou de non garantie :",
+   "context": "Sanction des obligations",
+   "page": 2
+  },
+  {
+   "quote": "déclarer le sinistre à la Banque à partir du moment où l’assuré en a connaissance et au plus tard dans les 5 jours ouvrés",
+   "context": "Delai de declaration",
+   "page": 2
+  }
+ ],
+ "gaps": [
+  "Assureur : le document nomme « Macif - France - Société d’assurance mutuelle à cotisations variables - SIREN n° 781 452 511 », « Entreprise régie par le Code des assurances. Siège social : 2 et 4, rue de Pied de Fond 79000 Niort. » Socram Banque est nommée comme la banque teneuse du compte de dépôt et destinataire de la déclaration de sinistre, jamais comme assureur.",
+  "edition_date : le document ne porte aucune mention « édition ». La valeur « 10/18 » est lue dans le code de référence imprimé en pied de page 1, « BQ MP 10/18 - Macif. » Aucune autre date n’apparaît dans le document.",
+  "target_audience laissé null : le document n’énonce aucune catégorie de public (particuliers / entreprises / indépendants). La seule condition d’éligibilité énoncée est négative (résidence en France, séjour à l’étranger de moins de 12 mois) et a été enregistrée en exclusion ainsi que dans target_audience_note.",
+  "Portée territoriale : « Dans le monde entier » est énoncé une seule fois, globalement, sous « Où suis-je couvert(e) ? » (page 2). Le document ne détaille pas de portée par garantie ; la valeur a été reportée telle quelle sur chacune des quatre garanties.",
+  "Aucune franchise n’est mentionnée dans le document : deductibles laissé null.",
+  "Aucun délai de carence, aucun délai de prescription, aucun préavis de résiliation ne sont mentionnés : waiting_periods vide et prescription_period null.",
+  "Le document est un DIPA (document d’information normalisé de 2 pages) et ne contient pas de glossaire. Les deux entrées de definitions[] reprennent des énumérations données entre parenthèses dans le corps des garanties (« sa carte bancaire et ses formules de chèques », liste des papiers officiels) ; ce ne sont pas des définitions contractuelles formelles.",
+  "obligations[] et claims_procedure[] décrivent le même bloc du document (« Quelles sont mes obligations ? / En cas de sinistre »), restitué dans les deux champs du schéma.",
+  "Le titre du produit est ambigu : l’en-tête imprime « Assurance des moyens de paiement » tandis que la ligne « Produit : » imprime « Banque - Notice d’information d’Assurance des Moyens de paiement ». C’est cette dernière, la mention officielle du DIPA, qui a été retenue en product_name.",
+  "Aucune coche/croix n’est présente dans la couche texte : les puces des rubriques « Qu’est-ce qui est assuré ? » / « Qu’est-ce qui n’est pas assuré ? » ressortent en U+0007 (résidu de puce). L’appartenance des garanties n’en dépend pas ici, le document déclarant en toutes lettres que les garanties cochées sont systématiquement prévues au contrat.",
+  "Le texte imprime « dans le limite de 300 euros par année » (au lieu de « dans la limite ») pour la garantie perte et vol des papiers officiels ; la coquille est conservée telle quelle."
+ ]
 }

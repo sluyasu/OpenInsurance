@@ -1,546 +1,547 @@
 {
-  "schema_version": "1.0",
-  "prompt_version": "1.1",
-  "country": "fr",
-  "insurer_slug": "thelem",
-  "insurer_name": "Thélem assurances",
-  "product_name": "Assurance responsabilité civile vie privée",
-  "branch": "rc-privee",
-  "branch_code": null,
-  "document_type": "ipid",
-  "language": "fr",
-  "target_audience": "particuliers",
-  "target_audience_note": "Les assurés : souscripteur, époux(se), concubin(e), partenaire de PACS, enfants (selon certaines limites), ascendants domiciliés au foyer.",
-  "reference": null,
-  "edition_date": "2024-07",
-  "product_family": "Responsabilité civile vie privée",
-  "variant": null,
-  "is_extension": false,
-  "extends": null,
-  "superseded": null,
-  "source_url": "https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_RCVP-CS-456-juillet-2024.pdf",
-  "source_pdf": "assurance-responsabilite-civile-vie-privee-6a80c4a8.pdf",
-  "source_sha256": "879ea9331ba791f5265fe5beb862dec0df5cc07414fa299cef6d5b6429a3ed65",
-  "source_pages": 2,
-  "fetched_at": "2026-07-30",
-  "extraction_model": "claude-code-subagent:scale",
-  "summary": "L’assurance responsabilité civile vie privée de Thélem assurances garantit les conséquences pécuniaires de la responsabilité civile que l’assuré peut encourir en raison des dommages corporels, matériels et immatériels consécutifs causés à un tiers au cours de sa vie privée, y compris l’activité d’assistant(e) maternel(le) exercée uniquement chez lui. Les assurés sont le souscripteur, son époux(se), concubin(e) ou partenaire de PACS, les enfants (selon certaines limites) et les ascendants domiciliés au foyer. Les garanties systématiquement prévues couvrent notamment les dommages causés par l’assuré, ses préposés et ses animaux, la garde d’enfants, les activités scolaires, sportives et de loisirs, les atteintes accidentelles à l’environnement jusqu’à 300 000 €, les biens confiés jusqu’à 8 000 €, la responsabilité de propriétaire d’immeuble et la défense pénale et recours suite à accident jusqu’à 16 000 €. Le présent document est un document d’information sur le produit d’assurance (IPID) qui présente un résumé des principales garanties et exclusions du contrat.",
-  "definitions": [
-    {
-      "term": "Les assurés",
-      "definition": "Souscripteur, époux(se), concubin(e), partenaire de PACS, enfants (selon certaines limites), ascendants domiciliés au foyer.",
-      "page": 1
-    }
-  ],
-  "coverages": [
-    {
-      "name": "Les dommages causés par l’assuré",
-      "description": "Les dommages causés par l’assuré au cours de sa vie privée.",
-      "is_optional": false,
-      "territorial_scope": "Monde entier à condition que l’assuré ait son domicile et sa résidence en France ou dans les principautés d’Andorre ou de Monaco.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Les dommages causés par les préposés et employés de maison",
-      "description": "Les dommages causés par les préposés et employés de maison de l’assuré pendant le temps de service.",
-      "is_optional": false,
-      "territorial_scope": "Monde entier à condition que l’assuré ait son domicile et sa résidence en France ou dans les principautés d’Andorre ou de Monaco.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "pendant le temps de service"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Les dommages causés par les animaux domestiques",
-      "description": "Les dommages causés par les animaux domestiques de l’assuré ou ceux dont il a la garde.",
-      "is_optional": false,
-      "territorial_scope": "Monde entier à condition que l’assuré ait son domicile et sa résidence en France ou dans les principautés d’Andorre ou de Monaco.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Sont exclus les chiens dangereux de 1ère et 2ème catégorie, les animaux dont l’élevage, la reproduction ou la détention est interdit par la règlementation et les animaux contribuant à une activité professionnelle"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Activité d’assistant(e) maternel(le)",
-      "description": "La responsabilité civile vie privée couvre également l’activité d’assistant(e) maternel(le) exercée uniquement chez vous.",
-      "is_optional": false,
-      "territorial_scope": "Monde entier à condition que l’assuré ait son domicile et sa résidence en France ou dans les principautés d’Andorre ou de Monaco.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": "Application d’une franchise de 160 € pour les dommages causés aux personnes accueillies au domicile à titre onéreux.",
-      "conditions": [
-        "exercée uniquement chez vous",
-        "La garde d’enfants exercée dans une Maison d’Assistant Maternel (MAM) est exclue"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Les dommages résultant de la garde d’enfants confiés à l’assuré",
-      "description": "Les dommages résultant de la garde d’enfants confiés à l’assuré.",
-      "is_optional": false,
-      "territorial_scope": "Monde entier à condition que l’assuré ait son domicile et sa résidence en France ou dans les principautés d’Andorre ou de Monaco.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "La garde d’enfants exercée dans une Maison d’Assistant Maternel (MAM) est exclue"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Les dommages résultant d’intoxication alimentaire",
-      "description": "Les dommages résultant d’intoxication alimentaire.",
-      "is_optional": false,
-      "territorial_scope": "Monde entier à condition que l’assuré ait son domicile et sa résidence en France ou dans les principautés d’Andorre ou de Monaco.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Les dommages résultant des activités scolaires et extrascolaires des enfants de l’assuré",
-      "description": "Les dommages résultant des activités scolaires et extrascolaires des enfants de l’assuré.",
-      "is_optional": false,
-      "territorial_scope": "Monde entier à condition que l’assuré ait son domicile et sa résidence en France ou dans les principautés d’Andorre ou de Monaco.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Les dommages résultant des activités physiques ou sportives à titre d’amateur",
-      "description": "Les dommages résultant des activités physiques ou sportives à titre d’amateur.",
-      "is_optional": false,
-      "territorial_scope": "Monde entier à condition que l’assuré ait son domicile et sa résidence en France ou dans les principautés d’Andorre ou de Monaco.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "N’est pas assurée l’activité physique ou sportive exercée à titre d’amateur dans le cadre d’une association, une société ou une fédération sportive",
-        "Ne sont pas assurés les sports exercés à titre professionnel, sports aériens ou comportant l’utilisation de véhicules terrestres à moteur"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Les dommages résultant des activités de camping ou de caravaning et de loisirs",
-      "description": "Les dommages résultant des activités de camping ou de caravaning et de loisirs.",
-      "is_optional": false,
-      "territorial_scope": "Monde entier à condition que l’assuré ait son domicile et sa résidence en France ou dans les principautés d’Andorre ou de Monaco.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Usage temporaire de fauteuils électriques des personnes handicapées",
-      "description": "Les dommages résultant de l’usage temporaire (3 mois maxi) de fauteuils électriques des personnes handicapées.",
-      "is_optional": false,
-      "territorial_scope": "Monde entier à condition que l’assuré ait son domicile et sa résidence en France ou dans les principautés d’Andorre ou de Monaco.",
-      "limits": "usage temporaire (3 mois maxi)",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "usage temporaire (3 mois maxi)"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Atteintes accidentelles à l’environnement",
-      "description": "Les dommages résultant d’atteintes accidentelles à l’environnement.",
-      "is_optional": false,
-      "territorial_scope": "Monde entier à condition que l’assuré ait son domicile et sa résidence en France ou dans les principautés d’Andorre ou de Monaco.",
-      "limits": "jusqu’à 300 000 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "La conduite à l’insu des véhicules par les enfants mineurs de l’assuré",
-      "description": "La conduite à l’insu des véhicules par les enfants mineurs de l’assuré.",
-      "is_optional": false,
-      "territorial_scope": "Monde entier à condition que l’assuré ait son domicile et sa résidence en France ou dans les principautés d’Andorre ou de Monaco.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "L’aide occasionnelle",
-      "description": "Les dommages causés aux tiers ou subis par les personnes apportant leur aide occasionnelle à l’assuré.",
-      "is_optional": false,
-      "territorial_scope": "Monde entier à condition que l’assuré ait son domicile et sa résidence en France ou dans les principautés d’Andorre ou de Monaco.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Les dommages causés à certains biens confiés",
-      "description": "Les dommages causés à certains biens confiés (matériels de bricolage, de jardinage et de nettoyage ou matériels confiés lors de stage).",
-      "is_optional": false,
-      "territorial_scope": "Monde entier à condition que l’assuré ait son domicile et sa résidence en France ou dans les principautés d’Andorre ou de Monaco.",
-      "limits": "jusqu’à 8 000 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Biens visés : matériels de bricolage, de jardinage et de nettoyage ou matériels confiés lors de stage"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Les recours pouvant être exercés contre l’assuré",
-      "description": "Les recours pouvant être exercés contre l’assuré (par la Sécurité sociale ou tout autre régime de prévoyance, par les préposés de l’assuré).",
-      "is_optional": false,
-      "territorial_scope": "Monde entier à condition que l’assuré ait son domicile et sa résidence en France ou dans les principautés d’Andorre ou de Monaco.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "La responsabilité en tant qu’organisateur de manifestation à caractère familial",
-      "description": "La responsabilité en tant qu’organisateur de manifestation à caractère familial.",
-      "is_optional": false,
-      "territorial_scope": "Monde entier à condition que l’assuré ait son domicile et sa résidence en France ou dans les principautés d’Andorre ou de Monaco.",
-      "limits": "jusqu’à 200 personnes",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Manifestation à caractère familial jusqu’à 200 personnes"
-      ],
-      "page": 1
-    },
-    {
-      "name": "La responsabilité civile en tant que propriétaire d’immeuble",
-      "description": "La responsabilité civile en tant que propriétaire d’immeuble.",
-      "is_optional": false,
-      "territorial_scope": "Monde entier à condition que l’assuré ait son domicile et sa résidence en France ou dans les principautés d’Andorre ou de Monaco.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "La défense pénale et recours suite à accident",
-      "description": "La défense pénale et recours suite à accident.",
-      "is_optional": false,
-      "territorial_scope": "Pour la garantie Défense pénale et recours suite à accident : Union européenne, Suisse, Norvège, Islande et territoires de Monaco, d’Andorre, du Liechtenstein, de Saint-Marin et du Vatican.",
-      "limits": "jusqu’à 16 000 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "La défense pénale en cas de poursuite pour conduite sous l’emprise d’alcool ou stupéfiants est exclue",
-        "Le recours est exclu lorsque le dommage engage la responsabilité d’une personne ayant la qualité d’assuré"
-      ],
-      "page": 1
-    }
-  ],
-  "exclusions": [
-    {
-      "name": "Activité professionnelle ou fonctions publiques ou politiques",
-      "description": "L’activité professionnelle ou les fonctions publiques ou politiques de l’assuré.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Activité physique ou sportive amateur dans le cadre d’une association, société ou fédération sportive",
-      "description": "L’activité physique ou sportive exercée à titre d’amateur dans le cadre d’une association, une société ou une fédération sportive.",
-      "applies_to": "Les dommages résultant des activités physiques ou sportives à titre d’amateur",
-      "page": 1
-    },
-    {
-      "name": "Sports professionnels, sports aériens ou avec véhicules terrestres à moteur",
-      "description": "Les sports exercés à titre professionnel, sports aériens ou comportant l’utilisation de véhicules terrestres à moteur.",
-      "applies_to": "Les dommages résultant des activités physiques ou sportives à titre d’amateur",
-      "page": 1
-    },
-    {
-      "name": "Exploitation de gîtes ruraux, chambres et tables d’hôtes",
-      "description": "L’exploitation de gîtes ruraux, chambres et tables d’hôtes.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Conséquences de la faute inexcusable",
-      "description": "Les conséquences de la faute inexcusable.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Biens dont l’assuré est propriétaire, locataire, gardien ou qui lui sont confiés",
-      "description": "Les dommages causés aux véhicules, immeubles, choses, objets ou animaux dont l’assurés est propriétaire, locataire, gardien ou qui lui sont confiés.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Dommages subis par les enfants ayant la qualité d’assuré",
-      "description": "Les dommages subis par les enfants ayant la qualité d’assuré.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Garde d’enfants en Maison d’Assistant Maternel (MAM)",
-      "description": "La garde d’enfants exercée dans une Maison d’Assistant Maternel (MAM).",
-      "applies_to": "Les dommages résultant de la garde d’enfants confiés à l’assuré",
-      "page": 1
-    },
-    {
-      "name": "Chiens dangereux de 1ère et 2ème catégorie",
-      "description": "Les dommages causés par les chiens dangereux de 1ère et 2ème catégorie.",
-      "applies_to": "Les dommages causés par les animaux domestiques",
-      "page": 1
-    },
-    {
-      "name": "Animaux dont l’élevage, la reproduction ou la détention est interdit",
-      "description": "Les dommages causés par les animaux dont l’élevage, la reproduction ou la détention est interdit par la règlementation.",
-      "applies_to": "Les dommages causés par les animaux domestiques",
-      "page": 1
-    },
-    {
-      "name": "Animaux contribuant à une activité professionnelle",
-      "description": "Les dommages causés par les animaux contribuant à une activité professionnelle.",
-      "applies_to": "Les dommages causés par les animaux domestiques",
-      "page": 1
-    },
-    {
-      "name": "Embarcations à moteur de plus de 6 cv",
-      "description": "Les dommages causés par les embarcations à moteur de plus de 6 cv de puissance.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Mini-motos",
-      "description": "Les dommages causés par les mini-motos.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Installations d’énergies renouvelables",
-      "description": "Les dommages causés par les installations d’énergies renouvelables.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Véhicules terrestres à moteur soumis à l’obligation d’assurance",
-      "description": "Les dommages causés par les véhicules terrestres à moteur soumis à l’obligation d’assurance (sauf les NVEI moins de 25 km/h).",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Défaut d’entretien ou de réparation caractérisé",
-      "description": "Les dommages causés par un défaut d’entretien ou de réparation caractérisé, connu de l’assuré et lui incombant.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Défense pénale en cas de conduite sous l’emprise d’alcool ou stupéfiants",
-      "description": "Au titre de la garantie défense pénale et recours : la défense pénale en cas de poursuite pour conduite sous l’emprise d’alcool ou stupéfiants.",
-      "applies_to": "La défense pénale et recours suite à accident",
-      "page": 1
-    },
-    {
-      "name": "Recours contre une personne ayant la qualité d’assuré",
-      "description": "Au titre de la garantie défense pénale et recours : le recours lorsque le dommage engage la responsabilité d’une personne ayant la qualité d’assuré.",
-      "applies_to": "La défense pénale et recours suite à accident",
-      "page": 1
-    },
-    {
-      "name": "Restriction – Franchise de 160 € pour les personnes accueillies au domicile à titre onéreux",
-      "description": "Application d’une franchise de 160 € pour les dommages causés aux personnes accueillies au domicile à titre onéreux.",
-      "applies_to": "Activité d’assistant(e) maternel(le)",
-      "page": 1
-    }
-  ],
-  "deductibles": {
-    "standard": null,
-    "variable": null,
-    "per_coverage": {
-      "Dommages causés aux personnes accueillies au domicile à titre onéreux": "Application d’une franchise de 160 €"
-    },
-    "page": 1
+ "schema_version": "1.0",
+ "prompt_version": "1.1",
+ "country": "fr",
+ "insurer_slug": "thelem",
+ "insurer_name": "Thélem assurances",
+ "product_name": "Assurance responsabilité civile vie privée",
+ "branch": "rc-privee",
+ "branch_code": null,
+ "document_type": "ipid",
+ "language": "fr",
+ "target_audience": "particuliers",
+ "target_audience_note": "Les assurés : souscripteur, époux(se), concubin(e), partenaire de PACS, enfants (selon certaines limites), ascendants domiciliés au foyer.",
+ "reference": null,
+ "edition_date": null,
+ "product_family": "Responsabilité civile vie privée",
+ "variant": null,
+ "is_extension": false,
+ "extends": null,
+ "superseded": null,
+ "source_url": "https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_RCVP-CS-456-juillet-2024.pdf",
+ "source_pdf": "assurance-responsabilite-civile-vie-privee-6a80c4a8.pdf",
+ "source_sha256": "879ea9331ba791f5265fe5beb862dec0df5cc07414fa299cef6d5b6429a3ed65",
+ "source_pages": 2,
+ "fetched_at": "2026-07-30",
+ "extraction_model": "claude-code-subagent:scale",
+ "summary": "L’assurance responsabilité civile vie privée de Thélem assurances garantit les conséquences pécuniaires de la responsabilité civile que l’assuré peut encourir en raison des dommages corporels, matériels et immatériels consécutifs causés à un tiers au cours de sa vie privée, y compris l’activité d’assistant(e) maternel(le) exercée uniquement chez lui. Les assurés sont le souscripteur, son époux(se), concubin(e) ou partenaire de PACS, les enfants (selon certaines limites) et les ascendants domiciliés au foyer. Les garanties systématiquement prévues couvrent notamment les dommages causés par l’assuré, ses préposés et ses animaux, la garde d’enfants, les activités scolaires, sportives et de loisirs, les atteintes accidentelles à l’environnement jusqu’à 300 000 €, les biens confiés jusqu’à 8 000 €, la responsabilité de propriétaire d’immeuble et la défense pénale et recours suite à accident jusqu’à 16 000 €. Le présent document est un document d’information sur le produit d’assurance (IPID) qui présente un résumé des principales garanties et exclusions du contrat.",
+ "definitions": [
+  {
+   "term": "Les assurés",
+   "definition": "Souscripteur, époux(se), concubin(e), partenaire de PACS, enfants (selon certaines limites), ascendants domiciliés au foyer.",
+   "page": 1
+  }
+ ],
+ "coverages": [
+  {
+   "name": "Les dommages causés par l’assuré",
+   "description": "Les dommages causés par l’assuré au cours de sa vie privée.",
+   "is_optional": false,
+   "territorial_scope": "Monde entier à condition que l’assuré ait son domicile et sa résidence en France ou dans les principautés d’Andorre ou de Monaco.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
   },
-  "waiting_periods": [],
-  "obligations": [
-    {
-      "name": "Réponse exacte aux questions posées",
-      "description": "Répondre exactement aux questions posées lors de la souscription afin d’apprécier les risques et fixer la cotisation.",
-      "timing": "À la souscription du contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
-      "page": 2
-    },
-    {
-      "name": "Fourniture des documents justificatifs",
-      "description": "Fournir tous les documents justificatifs demandés.",
-      "timing": "À la souscription du contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
-      "page": 2
-    },
-    {
-      "name": "Déclaration des circonstances nouvelles",
-      "description": "Déclarer toutes les circonstances nouvelles qui modifient les informations fournies lors de la souscription.",
-      "timing": "En cours de contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
-      "page": 2
-    },
-    {
-      "name": "Règlement des cotisations",
-      "description": "Régler les cotisations à la date convenue.",
-      "timing": "En cours de contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
-      "page": 2
-    },
-    {
-      "name": "Déclaration de sinistre",
-      "description": "Déclarer tout sinistre dès que l’assuré en a connaissance et au plus tard dans le délai fixé par le contrat.",
-      "timing": "En cas de sinistre",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
-      "page": 2
-    }
-  ],
-  "claims_procedure": [
-    {
-      "step": "Déclaration du sinistre",
-      "description": "Déclarer tout sinistre dès que l’assuré en a connaissance.",
-      "deadline": "dès que l’assuré en a connaissance et au plus tard dans le délai fixé par le contrat",
-      "page": 2
-    }
-  ],
-  "duration_and_cancellation": {
-    "duration": "Le contrat prend effet à la date et l’heure indiquées aux Conditions Particulières. Le contrat est souscrit jusqu’à la prochaine échéance principale et est renouvelable par tacite reconduction à chaque échéance principale avec les facultés de résiliation prévues. S’il s’agit d’un contrat temporaire, la mention et la date d’expiration sont portées sur les Conditions Particulières.",
-    "tacit_renewal": true,
-    "notice_period": "À l’échéance annuelle en respectant un préavis de deux mois.",
-    "methods": [
-      "par lettre ou tout autre support durable",
-      "par déclaration faite au siège social ou chez notre représentant",
-      "par acte extrajudiciaire",
-      "via la fonctionnalité mise en place sur le site internet"
-    ],
-    "special_rights": [
-      "Les cas de résiliation, les délais à respecter sont ceux prévus par la règlementation et précisés dans les Dispositions Générales.",
-      "Résiliation à tout moment, sans frais ni pénalités, suite à l’expiration d’un délai d’un an à compter de la souscription du contrat. Cette faculté est ouverte pour les contrats couvrant les personnes physiques en dehors de leurs activités professionnelles.",
-      "En cas de résiliation suite à modification de votre situation selon les termes des articles L113-16 et R.113-6 du Code des assurances, vous devrez notifier la résiliation par lettre recommandée (papier ou électronique) avec demande d'avis de réception."
-    ],
-    "page": 2
+  {
+   "name": "Les dommages causés par les préposés et employés de maison",
+   "description": "Les dommages causés par les préposés et employés de maison de l’assuré pendant le temps de service.",
+   "is_optional": false,
+   "territorial_scope": "Monde entier à condition que l’assuré ait son domicile et sa résidence en France ou dans les principautés d’Andorre ou de Monaco.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "pendant le temps de service"
+   ],
+   "page": 1
   },
-  "prescription_period": {
-    "description": null,
-    "page": null
+  {
+   "name": "Les dommages causés par les animaux domestiques",
+   "description": "Les dommages causés par les animaux domestiques de l’assuré ou ceux dont il a la garde.",
+   "is_optional": false,
+   "territorial_scope": "Monde entier à condition que l’assuré ait son domicile et sa résidence en France ou dans les principautés d’Andorre ou de Monaco.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Sont exclus les chiens dangereux de 1ère et 2ème catégorie, les animaux dont l’élevage, la reproduction ou la détention est interdit par la règlementation et les animaux contribuant à une activité professionnelle"
+   ],
+   "page": 1
   },
-  "premium": {
-    "notes": [
-      "La cotisation annuelle (ainsi que les frais, taxes et contributions fixées par l’Etat) se paie à la date ou aux dates indiquées sur les Conditions Particulières.",
-      "Un paiement fractionné peut toutefois être accordé au choix (semestriel, trimestriel ou mensuel).",
-      "Les paiements peuvent être effectués par carte bancaire, chèque ou prélèvement automatique."
-    ],
-    "indexation": null,
-    "page": 2
+  {
+   "name": "Activité d’assistant(e) maternel(le)",
+   "description": "La responsabilité civile vie privée couvre également l’activité d’assistant(e) maternel(le) exercée uniquement chez vous.",
+   "is_optional": false,
+   "territorial_scope": "Monde entier à condition que l’assuré ait son domicile et sa résidence en France ou dans les principautés d’Andorre ou de Monaco.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": "Application d’une franchise de 160 € pour les dommages causés aux personnes accueillies au domicile à titre onéreux.",
+   "conditions": [
+    "exercée uniquement chez vous",
+    "La garde d’enfants exercée dans une Maison d’Assistant Maternel (MAM) est exclue"
+   ],
+   "page": 1
   },
-  "special_conditions": [
-    {
-      "name": "Portée du document",
-      "description": "Ce document d’information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l’information complète sur ce produit dans la documentation précontractuelle et contractuelle.",
-      "page": 1
-    },
-    {
-      "name": "Garanties systématiquement prévues",
-      "description": "Les garanties précédées d’une coche sont systématiquement prévues au contrat.",
-      "page": 1
-    },
-    {
-      "name": "Activité d’assistant(e) maternel(le)",
-      "description": "L’assurance couvre l’activité d’assistant(e) maternel(le) exercée uniquement chez vous.",
-      "page": 1
-    },
-    {
-      "name": "Contrat temporaire",
-      "description": "S’il s’agit d’un contrat temporaire, la mention et la date d’expiration sont portées sur les Conditions Particulières.",
-      "page": 2
-    },
-    {
-      "name": "Confirmation de la résiliation",
-      "description": "Nous vous confirmerons par écrit la réception de la notification.",
-      "page": 2
-    }
+  {
+   "name": "Les dommages résultant de la garde d’enfants confiés à l’assuré",
+   "description": "Les dommages résultant de la garde d’enfants confiés à l’assuré.",
+   "is_optional": false,
+   "territorial_scope": "Monde entier à condition que l’assuré ait son domicile et sa résidence en France ou dans les principautés d’Andorre ou de Monaco.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "La garde d’enfants exercée dans une Maison d’Assistant Maternel (MAM) est exclue"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Les dommages résultant d’intoxication alimentaire",
+   "description": "Les dommages résultant d’intoxication alimentaire.",
+   "is_optional": false,
+   "territorial_scope": "Monde entier à condition que l’assuré ait son domicile et sa résidence en France ou dans les principautés d’Andorre ou de Monaco.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Les dommages résultant des activités scolaires et extrascolaires des enfants de l’assuré",
+   "description": "Les dommages résultant des activités scolaires et extrascolaires des enfants de l’assuré.",
+   "is_optional": false,
+   "territorial_scope": "Monde entier à condition que l’assuré ait son domicile et sa résidence en France ou dans les principautés d’Andorre ou de Monaco.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Les dommages résultant des activités physiques ou sportives à titre d’amateur",
+   "description": "Les dommages résultant des activités physiques ou sportives à titre d’amateur.",
+   "is_optional": false,
+   "territorial_scope": "Monde entier à condition que l’assuré ait son domicile et sa résidence en France ou dans les principautés d’Andorre ou de Monaco.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "N’est pas assurée l’activité physique ou sportive exercée à titre d’amateur dans le cadre d’une association, une société ou une fédération sportive",
+    "Ne sont pas assurés les sports exercés à titre professionnel, sports aériens ou comportant l’utilisation de véhicules terrestres à moteur"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Les dommages résultant des activités de camping ou de caravaning et de loisirs",
+   "description": "Les dommages résultant des activités de camping ou de caravaning et de loisirs.",
+   "is_optional": false,
+   "territorial_scope": "Monde entier à condition que l’assuré ait son domicile et sa résidence en France ou dans les principautés d’Andorre ou de Monaco.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Usage temporaire de fauteuils électriques des personnes handicapées",
+   "description": "Les dommages résultant de l’usage temporaire (3 mois maxi) de fauteuils électriques des personnes handicapées.",
+   "is_optional": false,
+   "territorial_scope": "Monde entier à condition que l’assuré ait son domicile et sa résidence en France ou dans les principautés d’Andorre ou de Monaco.",
+   "limits": "usage temporaire (3 mois maxi)",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "usage temporaire (3 mois maxi)"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Atteintes accidentelles à l’environnement",
+   "description": "Les dommages résultant d’atteintes accidentelles à l’environnement.",
+   "is_optional": false,
+   "territorial_scope": "Monde entier à condition que l’assuré ait son domicile et sa résidence en France ou dans les principautés d’Andorre ou de Monaco.",
+   "limits": "jusqu’à 300 000 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "La conduite à l’insu des véhicules par les enfants mineurs de l’assuré",
+   "description": "La conduite à l’insu des véhicules par les enfants mineurs de l’assuré.",
+   "is_optional": false,
+   "territorial_scope": "Monde entier à condition que l’assuré ait son domicile et sa résidence en France ou dans les principautés d’Andorre ou de Monaco.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "L’aide occasionnelle",
+   "description": "Les dommages causés aux tiers ou subis par les personnes apportant leur aide occasionnelle à l’assuré.",
+   "is_optional": false,
+   "territorial_scope": "Monde entier à condition que l’assuré ait son domicile et sa résidence en France ou dans les principautés d’Andorre ou de Monaco.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Les dommages causés à certains biens confiés",
+   "description": "Les dommages causés à certains biens confiés (matériels de bricolage, de jardinage et de nettoyage ou matériels confiés lors de stage).",
+   "is_optional": false,
+   "territorial_scope": "Monde entier à condition que l’assuré ait son domicile et sa résidence en France ou dans les principautés d’Andorre ou de Monaco.",
+   "limits": "jusqu’à 8 000 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Biens visés : matériels de bricolage, de jardinage et de nettoyage ou matériels confiés lors de stage"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Les recours pouvant être exercés contre l’assuré",
+   "description": "Les recours pouvant être exercés contre l’assuré (par la Sécurité sociale ou tout autre régime de prévoyance, par les préposés de l’assuré).",
+   "is_optional": false,
+   "territorial_scope": "Monde entier à condition que l’assuré ait son domicile et sa résidence en France ou dans les principautés d’Andorre ou de Monaco.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "La responsabilité en tant qu’organisateur de manifestation à caractère familial",
+   "description": "La responsabilité en tant qu’organisateur de manifestation à caractère familial.",
+   "is_optional": false,
+   "territorial_scope": "Monde entier à condition que l’assuré ait son domicile et sa résidence en France ou dans les principautés d’Andorre ou de Monaco.",
+   "limits": "jusqu’à 200 personnes",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Manifestation à caractère familial jusqu’à 200 personnes"
+   ],
+   "page": 1
+  },
+  {
+   "name": "La responsabilité civile en tant que propriétaire d’immeuble",
+   "description": "La responsabilité civile en tant que propriétaire d’immeuble.",
+   "is_optional": false,
+   "territorial_scope": "Monde entier à condition que l’assuré ait son domicile et sa résidence en France ou dans les principautés d’Andorre ou de Monaco.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "La défense pénale et recours suite à accident",
+   "description": "La défense pénale et recours suite à accident.",
+   "is_optional": false,
+   "territorial_scope": "Pour la garantie Défense pénale et recours suite à accident : Union européenne, Suisse, Norvège, Islande et territoires de Monaco, d’Andorre, du Liechtenstein, de Saint-Marin et du Vatican.",
+   "limits": "jusqu’à 16 000 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "La défense pénale en cas de poursuite pour conduite sous l’emprise d’alcool ou stupéfiants est exclue",
+    "Le recours est exclu lorsque le dommage engage la responsabilité d’une personne ayant la qualité d’assuré"
+   ],
+   "page": 1
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Activité professionnelle ou fonctions publiques ou politiques",
+   "description": "L’activité professionnelle ou les fonctions publiques ou politiques de l’assuré.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Activité physique ou sportive amateur dans le cadre d’une association, société ou fédération sportive",
+   "description": "L’activité physique ou sportive exercée à titre d’amateur dans le cadre d’une association, une société ou une fédération sportive.",
+   "applies_to": "Les dommages résultant des activités physiques ou sportives à titre d’amateur",
+   "page": 1
+  },
+  {
+   "name": "Sports professionnels, sports aériens ou avec véhicules terrestres à moteur",
+   "description": "Les sports exercés à titre professionnel, sports aériens ou comportant l’utilisation de véhicules terrestres à moteur.",
+   "applies_to": "Les dommages résultant des activités physiques ou sportives à titre d’amateur",
+   "page": 1
+  },
+  {
+   "name": "Exploitation de gîtes ruraux, chambres et tables d’hôtes",
+   "description": "L’exploitation de gîtes ruraux, chambres et tables d’hôtes.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Conséquences de la faute inexcusable",
+   "description": "Les conséquences de la faute inexcusable.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Biens dont l’assuré est propriétaire, locataire, gardien ou qui lui sont confiés",
+   "description": "Les dommages causés aux véhicules, immeubles, choses, objets ou animaux dont l’assurés est propriétaire, locataire, gardien ou qui lui sont confiés.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Dommages subis par les enfants ayant la qualité d’assuré",
+   "description": "Les dommages subis par les enfants ayant la qualité d’assuré.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Garde d’enfants en Maison d’Assistant Maternel (MAM)",
+   "description": "La garde d’enfants exercée dans une Maison d’Assistant Maternel (MAM).",
+   "applies_to": "Les dommages résultant de la garde d’enfants confiés à l’assuré",
+   "page": 1
+  },
+  {
+   "name": "Chiens dangereux de 1ère et 2ème catégorie",
+   "description": "Les dommages causés par les chiens dangereux de 1ère et 2ème catégorie.",
+   "applies_to": "Les dommages causés par les animaux domestiques",
+   "page": 1
+  },
+  {
+   "name": "Animaux dont l’élevage, la reproduction ou la détention est interdit",
+   "description": "Les dommages causés par les animaux dont l’élevage, la reproduction ou la détention est interdit par la règlementation.",
+   "applies_to": "Les dommages causés par les animaux domestiques",
+   "page": 1
+  },
+  {
+   "name": "Animaux contribuant à une activité professionnelle",
+   "description": "Les dommages causés par les animaux contribuant à une activité professionnelle.",
+   "applies_to": "Les dommages causés par les animaux domestiques",
+   "page": 1
+  },
+  {
+   "name": "Embarcations à moteur de plus de 6 cv",
+   "description": "Les dommages causés par les embarcations à moteur de plus de 6 cv de puissance.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Mini-motos",
+   "description": "Les dommages causés par les mini-motos.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Installations d’énergies renouvelables",
+   "description": "Les dommages causés par les installations d’énergies renouvelables.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Véhicules terrestres à moteur soumis à l’obligation d’assurance",
+   "description": "Les dommages causés par les véhicules terrestres à moteur soumis à l’obligation d’assurance (sauf les NVEI moins de 25 km/h).",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Défaut d’entretien ou de réparation caractérisé",
+   "description": "Les dommages causés par un défaut d’entretien ou de réparation caractérisé, connu de l’assuré et lui incombant.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Défense pénale en cas de conduite sous l’emprise d’alcool ou stupéfiants",
+   "description": "Au titre de la garantie défense pénale et recours : la défense pénale en cas de poursuite pour conduite sous l’emprise d’alcool ou stupéfiants.",
+   "applies_to": "La défense pénale et recours suite à accident",
+   "page": 1
+  },
+  {
+   "name": "Recours contre une personne ayant la qualité d’assuré",
+   "description": "Au titre de la garantie défense pénale et recours : le recours lorsque le dommage engage la responsabilité d’une personne ayant la qualité d’assuré.",
+   "applies_to": "La défense pénale et recours suite à accident",
+   "page": 1
+  },
+  {
+   "name": "Restriction – Franchise de 160 € pour les personnes accueillies au domicile à titre onéreux",
+   "description": "Application d’une franchise de 160 € pour les dommages causés aux personnes accueillies au domicile à titre onéreux.",
+   "applies_to": "Activité d’assistant(e) maternel(le)",
+   "page": 1
+  }
+ ],
+ "deductibles": {
+  "standard": null,
+  "variable": null,
+  "per_coverage": {
+   "Dommages causés aux personnes accueillies au domicile à titre onéreux": "Application d’une franchise de 160 €"
+  },
+  "page": 1
+ },
+ "waiting_periods": [],
+ "obligations": [
+  {
+   "name": "Réponse exacte aux questions posées",
+   "description": "Répondre exactement aux questions posées lors de la souscription afin d’apprécier les risques et fixer la cotisation.",
+   "timing": "À la souscription du contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+   "page": 2
+  },
+  {
+   "name": "Fourniture des documents justificatifs",
+   "description": "Fournir tous les documents justificatifs demandés.",
+   "timing": "À la souscription du contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+   "page": 2
+  },
+  {
+   "name": "Déclaration des circonstances nouvelles",
+   "description": "Déclarer toutes les circonstances nouvelles qui modifient les informations fournies lors de la souscription.",
+   "timing": "En cours de contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+   "page": 2
+  },
+  {
+   "name": "Règlement des cotisations",
+   "description": "Régler les cotisations à la date convenue.",
+   "timing": "En cours de contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+   "page": 2
+  },
+  {
+   "name": "Déclaration de sinistre",
+   "description": "Déclarer tout sinistre dès que l’assuré en a connaissance et au plus tard dans le délai fixé par le contrat.",
+   "timing": "En cas de sinistre",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+   "page": 2
+  }
+ ],
+ "claims_procedure": [
+  {
+   "step": "Déclaration du sinistre",
+   "description": "Déclarer tout sinistre dès que l’assuré en a connaissance.",
+   "deadline": "dès que l’assuré en a connaissance et au plus tard dans le délai fixé par le contrat",
+   "page": 2
+  }
+ ],
+ "duration_and_cancellation": {
+  "duration": "Le contrat prend effet à la date et l’heure indiquées aux Conditions Particulières. Le contrat est souscrit jusqu’à la prochaine échéance principale et est renouvelable par tacite reconduction à chaque échéance principale avec les facultés de résiliation prévues. S’il s’agit d’un contrat temporaire, la mention et la date d’expiration sont portées sur les Conditions Particulières.",
+  "tacit_renewal": true,
+  "notice_period": "À l’échéance annuelle en respectant un préavis de deux mois.",
+  "methods": [
+   "par lettre ou tout autre support durable",
+   "par déclaration faite au siège social ou chez notre représentant",
+   "par acte extrajudiciaire",
+   "via la fonctionnalité mise en place sur le site internet"
   ],
-  "key_quotes": [
-    {
-      "quote": "L’assurance responsabilité civile vie privée a pour objectif de garantir les conséquences pécuniaires de la responsabilité civile que l’assuré peut encourir en raison des dommages corporels, matériels et immatériels consécutifs causés à un tiers au cours de sa vie privée, y compris l’activité d’assistant(e) maternel(le) exercée uniquement chez vous.",
-      "context": "De quel type d’assurance s’agit-il ?",
-      "page": 1
-    },
-    {
-      "quote": "Les assurés : souscripteur, époux(se), concubin(e), partenaire de PACS, enfants (selon certaines limites), ascendants domiciliés au foyer.",
-      "context": "Qu’est-ce qui est assuré ? – les assurés",
-      "page": 1
-    },
-    {
-      "quote": "d’atteintes accidentelles à l’environnement jusqu’à 300 000 €,",
-      "context": "Qu’est-ce qui est assuré ? – dommages résultant de",
-      "page": 1
-    },
-    {
-      "quote": "Les dommages causés à certains biens confiés jusqu’à 8 000 € (matériels de bricolage, de jardinage et de nettoyage ou matériels confiés lors de stage),",
-      "context": "Qu’est-ce qui est assuré ? – biens confiés",
-      "page": 1
-    },
-    {
-      "quote": "La défense pénale et recours suite à accident jusqu’à 16 000 €.",
-      "context": "Qu’est-ce qui est assuré ? – défense pénale et recours",
-      "page": 1
-    },
-    {
-      "quote": "L’exploitation de gîtes ruraux, chambres et tables d’hôtes.",
-      "context": "Qu’est-ce qui n’est pas assuré ?",
-      "page": 1
-    },
-    {
-      "quote": "La garde d’enfants exercée dans une Maison d’Assistant Maternel (MAM).",
-      "context": "Les principales exclusions",
-      "page": 1
-    },
-    {
-      "quote": "les véhicules terrestres à moteur soumis à l’obligation d’assurance (sauf les NVEI moins de 25 km/h),",
-      "context": "Les principales exclusions – dommages causés par",
-      "page": 1
-    },
-    {
-      "quote": "Application d’une franchise de 160 € pour les dommages causés aux personnes accueillies au domicile à titre onéreux.",
-      "context": "Les principales restrictions",
-      "page": 1
-    },
-    {
-      "quote": "Monde entier à condition que l’assuré ait son domicile et sa résidence en France ou dans les principautés d’Andorre ou de Monaco.",
-      "context": "Où suis-je couvert ?",
-      "page": 2
-    }
+  "special_rights": [
+   "Les cas de résiliation, les délais à respecter sont ceux prévus par la règlementation et précisés dans les Dispositions Générales.",
+   "Résiliation à tout moment, sans frais ni pénalités, suite à l’expiration d’un délai d’un an à compter de la souscription du contrat. Cette faculté est ouverte pour les contrats couvrant les personnes physiques en dehors de leurs activités professionnelles.",
+   "En cas de résiliation suite à modification de votre situation selon les termes des articles L113-16 et R.113-6 du Code des assurances, vous devrez notifier la résiliation par lettre recommandée (papier ou électronique) avec demande d'avis de réception."
   ],
-  "gaps": [
-    "Document de type IPID : par nature non exhaustif. Il indique lui-même qu’il « présente un résumé des principales garanties et exclusions du contrat » et renvoie à la documentation précontractuelle et contractuelle pour l’information complète.",
-    "Aucune date d’édition ni référence interne n’est imprimée dans le texte du document : edition_date et reference laissés à null (le nom du fichier source contient « CS-456-juillet-2024 », mention absente du texte extrait).",
-    "Le plafond général de la garantie responsabilité civile n’est pas indiqué : seules quelques sous-limites sont chiffrées (300 000 € pour les atteintes accidentelles à l’environnement, 8 000 € pour les biens confiés, 16 000 € pour la défense pénale et recours).",
-    "Les « certaines limites » applicables aux enfants ayant la qualité d’assuré ne sont pas précisées dans le document.",
-    "Aucune franchise générale n’est indiquée : seule une franchise de 160 € pour les dommages causés aux personnes accueillies au domicile à titre onéreux est mentionnée.",
-    "Aucune section « Définitions » : seuls les assurés sont énumérés.",
-    "Le délai de prescription n’est pas mentionné dans le document : prescription_period laissé à null.",
-    "Le délai contractuel de déclaration de sinistre n’est pas chiffré (« au plus tard dans le délai fixé par le contrat »).",
-    "La couche texte du PDF restitue les rubriques dans un ordre différent de la mise en page (les rubriques « Où suis-je couvert ? » et « Quand commence la couverture… » apparaissent en fin de page 2) ; aucun contenu ne paraît manquant."
-  ]
+  "page": 2
+ },
+ "prescription_period": {
+  "description": null,
+  "page": null
+ },
+ "premium": {
+  "notes": [
+   "La cotisation annuelle (ainsi que les frais, taxes et contributions fixées par l’Etat) se paie à la date ou aux dates indiquées sur les Conditions Particulières.",
+   "Un paiement fractionné peut toutefois être accordé au choix (semestriel, trimestriel ou mensuel).",
+   "Les paiements peuvent être effectués par carte bancaire, chèque ou prélèvement automatique."
+  ],
+  "indexation": null,
+  "page": 2
+ },
+ "special_conditions": [
+  {
+   "name": "Portée du document",
+   "description": "Ce document d’information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l’information complète sur ce produit dans la documentation précontractuelle et contractuelle.",
+   "page": 1
+  },
+  {
+   "name": "Garanties systématiquement prévues",
+   "description": "Les garanties précédées d’une coche sont systématiquement prévues au contrat.",
+   "page": 1
+  },
+  {
+   "name": "Activité d’assistant(e) maternel(le)",
+   "description": "L’assurance couvre l’activité d’assistant(e) maternel(le) exercée uniquement chez vous.",
+   "page": 1
+  },
+  {
+   "name": "Contrat temporaire",
+   "description": "S’il s’agit d’un contrat temporaire, la mention et la date d’expiration sont portées sur les Conditions Particulières.",
+   "page": 2
+  },
+  {
+   "name": "Confirmation de la résiliation",
+   "description": "Nous vous confirmerons par écrit la réception de la notification.",
+   "page": 2
+  }
+ ],
+ "key_quotes": [
+  {
+   "quote": "L’assurance responsabilité civile vie privée a pour objectif de garantir les conséquences pécuniaires de la responsabilité civile que l’assuré peut encourir en raison des dommages corporels, matériels et immatériels consécutifs causés à un tiers au cours de sa vie privée, y compris l’activité d’assistant(e) maternel(le) exercée uniquement chez vous.",
+   "context": "De quel type d’assurance s’agit-il ?",
+   "page": 1
+  },
+  {
+   "quote": "Les assurés : souscripteur, époux(se), concubin(e), partenaire de PACS, enfants (selon certaines limites), ascendants domiciliés au foyer.",
+   "context": "Qu’est-ce qui est assuré ? – les assurés",
+   "page": 1
+  },
+  {
+   "quote": "d’atteintes accidentelles à l’environnement jusqu’à 300 000 €,",
+   "context": "Qu’est-ce qui est assuré ? – dommages résultant de",
+   "page": 1
+  },
+  {
+   "quote": "Les dommages causés à certains biens confiés jusqu’à 8 000 € (matériels de bricolage, de jardinage et de nettoyage ou matériels confiés lors de stage),",
+   "context": "Qu’est-ce qui est assuré ? – biens confiés",
+   "page": 1
+  },
+  {
+   "quote": "La défense pénale et recours suite à accident jusqu’à 16 000 €.",
+   "context": "Qu’est-ce qui est assuré ? – défense pénale et recours",
+   "page": 1
+  },
+  {
+   "quote": "L’exploitation de gîtes ruraux, chambres et tables d’hôtes.",
+   "context": "Qu’est-ce qui n’est pas assuré ?",
+   "page": 1
+  },
+  {
+   "quote": "La garde d’enfants exercée dans une Maison d’Assistant Maternel (MAM).",
+   "context": "Les principales exclusions",
+   "page": 1
+  },
+  {
+   "quote": "les véhicules terrestres à moteur soumis à l’obligation d’assurance (sauf les NVEI moins de 25 km/h),",
+   "context": "Les principales exclusions – dommages causés par",
+   "page": 1
+  },
+  {
+   "quote": "Application d’une franchise de 160 € pour les dommages causés aux personnes accueillies au domicile à titre onéreux.",
+   "context": "Les principales restrictions",
+   "page": 1
+  },
+  {
+   "quote": "Monde entier à condition que l’assuré ait son domicile et sa résidence en France ou dans les principautés d’Andorre ou de Monaco.",
+   "context": "Où suis-je couvert ?",
+   "page": 2
+  }
+ ],
+ "gaps": [
+  "Document de type IPID : par nature non exhaustif. Il indique lui-même qu’il « présente un résumé des principales garanties et exclusions du contrat » et renvoie à la documentation précontractuelle et contractuelle pour l’information complète.",
+  "Aucune date d’édition ni référence interne n’est imprimée dans le texte du document : edition_date et reference laissés à null (le nom du fichier source contient « CS-456-juillet-2024 », mention absente du texte extrait).",
+  "Le plafond général de la garantie responsabilité civile n’est pas indiqué : seules quelques sous-limites sont chiffrées (300 000 € pour les atteintes accidentelles à l’environnement, 8 000 € pour les biens confiés, 16 000 € pour la défense pénale et recours).",
+  "Les « certaines limites » applicables aux enfants ayant la qualité d’assuré ne sont pas précisées dans le document.",
+  "Aucune franchise générale n’est indiquée : seule une franchise de 160 € pour les dommages causés aux personnes accueillies au domicile à titre onéreux est mentionnée.",
+  "Aucune section « Définitions » : seuls les assurés sont énumérés.",
+  "Le délai de prescription n’est pas mentionné dans le document : prescription_period laissé à null.",
+  "Le délai contractuel de déclaration de sinistre n’est pas chiffré (« au plus tard dans le délai fixé par le contrat »).",
+  "La couche texte du PDF restitue les rubriques dans un ordre différent de la mise en page (les rubriques « Où suis-je couvert ? » et « Quand commence la couverture… » apparaissent en fin de page 2) ; aucun contenu ne paraît manquant.",
+  "edition_date remise a null le 2026-08-01: la valeur 2024-07 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5."
+ ]
 }

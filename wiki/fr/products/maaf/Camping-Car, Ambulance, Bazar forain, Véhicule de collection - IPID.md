@@ -13,7 +13,7 @@ target_audience_note: Le document ne désigne aucune catégorie de public. Il pr
   pour camping-car, ambulance et bazar forain » puis « En plus pour ambulance et bazar
   forain », et mentionne « les personnes physiques » au titre de la résiliation infra-annuelle.
 reference: PU0_IPIDAU_00-250622-ZCh9d6-3-1-2-05:04:15- AUT11023
-edition_date: 2025-06
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/auto
@@ -29,7 +29,7 @@ prompt_version: '1.1'
 product_family: assurance-vehicule
 variant: Camping-Car, Ambulance, Bazar forain, Véhicule de collection
 edition_status: null
-edition_age_years: 1
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-08-01'
@@ -43,7 +43,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de l'assurance véhicule de MAAF Assurances SA pour les camping-cars, ambulances, bazars forains et véhicules de collection. Le contrat a pour objectif premier de garantir le conducteur contre les conséquences des dommages matériels ou corporels causés par le véhicule à des tiers (Responsabilité civile), assurance obligatoire, illimitée en dommages corporels et plafonnée à 100 millions d'euros en dommages matériels et immatériels. Il couvre également les dommages corporels du conducteur (plafond de 660 000 € ou de 990 000 €), le recours suite à accident (16 000 €), l'assistance et les renseignements juridiques. Des garanties optionnelles couvrent les dommages au véhicule assuré, le contenu privé et professionnel, l'assistance panne 0 km, la défense juridique de l'automobiliste et l'immobilisation.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 2025-06
+- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -212,10 +212,11 @@ Garantie optionnelle proposée « En plus pour ambulance et bazar forain ». Le 
 - Le document ne désigne aucun public cible : target_audience laissé à null, la formulation propre du document est reportée dans target_audience_note. Les catégories ambulance / bazar forain et la garantie « Contenu professionnel » n'ont PAS servi à déduire un public « independants » ou « entreprises ».
 - Couche texte propre : 2 pages extraites, 6 161 caractères, aucune ligature perdue, aucun caractère de zone privée, aucun trait d'union conditionnel, aucun accent NFD ; 27 apostrophes courbes U+2019 et 1 espace insécable. Les citations ont été découpées programmatiquement dans le texte PyMuPDF page par page (page.get_text("text")) et vérifiées comme sous-chaînes exactes. Deux irrégularités typographiques du document sont conservées verbatim dans les citations : « Responsabilité civile / Défense: illimitée » sans espace avant le deux-points, et « Dommages corporels du conducteur  avec un plafond » avec une double espace. Le document mélange par ailleurs apostrophes ASCII et courbes.
 - Le texte du prompt n'était pas tronqué (document de 2 pages).
+- edition_date remise a null le 2026-08-01: la valeur 2025-06 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Documents liés
 
-- [CARAVANE, REMORQUE, CAMION, VEHICULES DIVERS - IPID](CARAVANE%2C%20REMORQUE%2C%20CAMION%2C%20VEHICULES%20DIVERS%20-%20IPID.md) - IPID / Fiche d'information, éd. 2025-06
+- [CARAVANE, REMORQUE, CAMION, VEHICULES DIVERS - IPID](CARAVANE%2C%20REMORQUE%2C%20CAMION%2C%20VEHICULES%20DIVERS%20-%20IPID.md) - IPID / Fiche d'information
 
 ## Source & fidélité
 

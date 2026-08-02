@@ -12,7 +12,7 @@ target_audience_note: 'Assuré : toute personne âgée d’au moins 18 ans et au
   de 69 ans, et désignée sur les Conditions Particulières. Bénéficiaires : membre(s)
   de la famille, associé(s)…'
 reference: null
-edition_date: 2025-08
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/prevoyance
@@ -28,7 +28,7 @@ prompt_version: '1.1'
 product_family: assurance-protection-famille
 variant: null
 edition_status: null
-edition_age_years: 1
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -42,7 +42,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) du contrat Assurance Protection Famille de Thélem prévoyance. L’assurance Protection Famille permet de préserver la famille de l’assuré, sur une période qu’il juge sensible, en lui assurant le versement d’un capital si l’assuré décède ou s’il subit une Perte Totale et Irréversible d’Autonomie (PTIA). Les garanties décès et PTIA sont systématiquement prévues, avec choix du montant du capital de 10 000 € à 250 000 €, choix du ou des bénéficiaires et revalorisation du capital. En option, le contrat prévoit une majoration du capital en cas de décès accidentel et une rente éducation.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : IPID / Fiche d'information · Édition : 2025-08
+- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -156,6 +156,7 @@ Rente éducation : de 1 000 € à 30 000 € versé chaque année à vos enfant
 - Aucune procédure de déclaration de sinistre détaillée (délai de déclaration, destinataire) n’est indiquée : seule l’obligation de fournir les pièces justificatives en cas de décès ou de PTIA est mentionnée.
 - Le document ne contient pas de section « Définitions » formelle ; les entrées de definitions[] proviennent de la mention Assuré et du sigle PTIA. Le terme « bénéficiaire » n’est pas défini, seulement illustré (« membre(s) de la famille, associé(s)… »).
 - Le libellé « Les garanties cessent au tard à la fin de l’année civile... » est reproduit tel quel (formulation apparemment tronquée dans le source, probablement « au plus tard »).
+- edition_date remise a null le 2026-08-01: la valeur 2025-08 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

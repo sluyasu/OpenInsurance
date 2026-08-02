@@ -1,701 +1,701 @@
 {
-  "schema_version": "1.0",
-  "prompt_version": "1.1",
-  "country": "fr",
-  "insurer_slug": "maif",
-  "insurer_name": "MAIF",
-  "product_name": "Véhicules entreprises",
-  "branch": "auto",
-  "branch_code": null,
-  "document_type": "ipid",
-  "language": "fr",
-  "target_audience": "entreprises",
-  "target_audience_note": "les conducteurs des véhicules terrestres à moteur de votre entreprise",
-  "reference": "IPID VÉHI ENT",
-  "edition_date": "09-2022",
-  "product_family": "Véhicules entreprises",
-  "variant": null,
-  "is_extension": false,
-  "extends": null,
-  "superseded": null,
-  "source_url": "https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/entreprises/document-information-assurance-auto-professionnel.pdf",
-  "source_pdf": "vehicules-entreprises-abbb909b.pdf",
-  "source_sha256": "3e2a100ec82654823e4f6fb3018cccdcf5aa572b8033428183883e1f3fb1cc2c",
-  "source_pages": 2,
-  "fetched_at": "2026-07-30",
-  "extraction_model": "claude-code-subagent:scale",
-  "summary": "Document d’information sur le produit d’assurance (IPID) du contrat « Véhicules entreprises » de MAIF, présenté sous l’intitulé « Assurance Auto professionnelle ». Le produit garantit les conducteurs des véhicules terrestres à moteur de l’entreprise contre les conséquences des dommages matériels et/ou corporels causés par ces véhicules à des tiers (responsabilité civile), assurance présentée comme obligatoire. Il comporte également une protection des dommages corporels des conducteurs et passagers, des garanties de dommages aux véhicules assurés, une garantie pertes financières, un accompagnement juridique, des services d’assistance et trois garanties optionnelles.",
-  "definitions": [],
-  "coverages": [
-    {
-      "name": "Protection des dommages corporels — En cas de blessures — Frais médicaux restés à charge",
-      "description": "Frais médicaux restés à charge : sans limitation de somme",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "sans limitation de somme",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Protection des dommages corporels — En cas de blessures — Pertes de revenus",
-      "description": "Pertes de revenus : dans la limite de 15 000 € par mois",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "dans la limite de 15 000 € par mois",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Protection des dommages corporels — En cas de blessures — Frais divers d’hospitalisation",
-      "description": "Frais divers d’hospitalisation : 16 €/nuitée, dans la limite \nde 365 jours",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "16 €/nuitée, dans la limite \nde 365 jours",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Protection des dommages corporels — En cas de blessures — Incapacité permanente",
-      "description": "Incapacité permanente : dès le premier point d’incapacité",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Protection des dommages corporels — En cas de blessures — Mesures compensatoires en cas de handicap",
-      "description": "Mesures compensatoires en cas de handicap : aide humaine \n(plafond de 61 000 €/an) et aménagement du logement \net du véhicule (plafond de 61 000 €)",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [
-        "aide humaine \n(plafond de 61 000 €/an)",
-        "aménagement du logement \net du véhicule (plafond de 61 000 €)"
-      ],
-      "deductible": null,
-      "conditions": [
-        "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Protection des dommages corporels — En cas de blessures — Tierce personne",
-      "description": "Tierce personne si incapacité ≥ à 50 % : majoration \nde l’incapacité permanente",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Protection des dommages corporels — En cas de blessures — Préjudice esthétique",
-      "description": "Préjudice esthétique en cas d’atteinte esthétique importante",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Protection des dommages corporels — En cas de décès — Capital décès et prestation pour frais funéraires",
-      "description": "Capital décès (5 000 €) et prestation pour frais funéraires (3 300 €)",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [
-        "Capital décès (5 000 €)",
-        "prestation pour frais funéraires (3 300 €)"
-      ],
-      "deductible": null,
-      "conditions": [
-        "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Protection des dommages corporels — En cas de décès — Préjudice patrimonial",
-      "description": "Préjudice patrimonial : minimum garanti, 15 000 € pour \nle conjoint et 5 000 € par enfant à charge",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "minimum garanti, 15 000 € pour \nle conjoint et 5 000 € par enfant à charge",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Protection des dommages corporels — Prestations d’aides immédiates — Assistance à domicile et déplacements",
-      "description": "Assistance à domicile et déplacements : jusqu’à 1 600 € pour \nles moins de 70 ans et 3 200 € pour les 70 ans et plus",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "jusqu’à 1 600 € pour \nles moins de 70 ans et 3 200 € pour les 70 ans et plus",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Protection des dommages corporels — Prestations d’aides immédiates — Soutien psychologique",
-      "description": "Soutien psychologique",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Protection des dommages corporels — Prestations d’aides immédiates — Soutien social, aide à la réinsertion professionnelle, aide à la reprise des études",
-      "description": "Soutien social, aide à la réinsertion professionnelle, aide \nà la reprise des études : conseil et information sur les droits \net prestations et dans les cas les plus graves, accompagnement \net suivi personnalisé",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Dommages au véhicule, ses accessoires, ses aménagements — Événements climatiques, catastrophes naturelles",
-      "description": "Événements climatiques, catastrophes naturelles",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Dommages au véhicule, ses accessoires, ses aménagements — Attentats",
-      "description": "Attentats",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Dommages au véhicule, ses accessoires, ses aménagements — Catastrophes technologiques",
-      "description": "Catastrophes technologiques",
-      "is_optional": null,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Garantie NON précédée d’une coche visible sur le document, alors que « les garanties précédées d’une coche sont systématiquement prévues au contrat » ; le document ne la range pas non plus sous la rubrique « Garanties optionnelles »."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Dommages au véhicule, ses accessoires, ses aménagements — Vol ou tentative de vol, vandalisme, incendie, bris d’élément vitré",
-      "description": "Vol ou tentative de vol, vandalisme, incendie, bris d’élément vitré",
-      "is_optional": null,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Aucune coche visible sur le document : la couche PDF contient bien un glyphe de coche devant cette ligne, mais il est tracé en blanc sur fond blanc et reste donc invisible à la lecture. Le document ne range pas non plus cette garantie sous « Garanties optionnelles »."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Dommages au véhicule, ses accessoires, ses aménagements — Collision, accident sans tiers",
-      "description": "Collision, accident sans tiers",
-      "is_optional": null,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Garantie NON précédée d’une coche visible sur le document, alors que « les garanties précédées d’une coche sont systématiquement prévues au contrat » ; le document ne la range pas non plus sous la rubrique « Garanties optionnelles »."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Pertes financières — En complément des dommages au véhicule en cas de perte totale",
-      "description": "En complément des dommages au véhicule en cas de perte totale",
-      "is_optional": null,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Aucune coche visible sur le document : la couche PDF contient bien un glyphe de coche devant cette ligne, mais il est tracé en blanc sur fond blanc et reste donc invisible à la lecture. Le document ne range pas non plus cette garantie sous « Garanties optionnelles »."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Responsabilité civile-défense — Responsabilité civile générale",
-      "description": "Responsabilité civile générale",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [
-        "dommages corporels (sans limitation de somme)",
-        "dommages matériels et immatériels consécutifs (100 000 000 €)"
-      ],
-      "deductible": null,
-      "conditions": [
-        "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Responsabilité civile-défense — Responsabilité civile particulière",
-      "description": "Responsabilité civile particulière",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [
-        "dommages environnementaux/préjudice écologique consécutifs \n(30 000 €)",
-        "fonction outil (10 000 000 €), dont dommages matériels \net immatériels consécutifs (1 000 000 €)"
-      ],
-      "deductible": null,
-      "conditions": [
-        "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Responsabilité civile-défense — Défense des intérêts de l’assuré",
-      "description": "Défense des intérêts de l’assuré suite à un accident garanti  \nqui engage sa responsabilité civile (sans limitation de somme)",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "sans limitation de somme",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Accompagnement juridique — Information et conseil juridiques",
-      "description": "Information et conseil juridiques",
-      "is_optional": false,
-      "territorial_scope": "Dans les pays de l’EEE pour les véhicules immatriculés en France métropolitaine, toutes les garanties sauf informations  \net conseils juridiques, recours-protection juridique.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Accompagnement juridique — Recours contre le tiers responsable",
-      "description": "Recours contre le tiers responsable : défense des intérêts \nde l’assuré suite à un événement garanti",
-      "is_optional": false,
-      "territorial_scope": "Dans les pays de l’EEE pour les véhicules immatriculés en France métropolitaine, toutes les garanties sauf informations  \net conseils juridiques, recours-protection juridique.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Accompagnement juridique — Honoraires d’avocats et de conseils",
-      "description": "Honoraires d’avocats et de conseils pris en charge (sans limitation \nde somme)",
-      "is_optional": null,
-      "territorial_scope": "Dans les pays de l’EEE pour les véhicules immatriculés en France métropolitaine, toutes les garanties sauf informations  \net conseils juridiques, recours-protection juridique.",
-      "limits": "sans limitation \nde somme",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Garantie NON précédée d’une coche visible sur le document, alors que « les garanties précédées d’une coche sont systématiquement prévues au contrat » ; le document ne la range pas non plus sous la rubrique « Garanties optionnelles »."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Accompagnement juridique — Protection juridique (malfaçons et vices cachés)",
-      "description": "Protection juridique : en cas de malfaçons suite à réparation, prise \nen charge dans le cadre d’un événement garanti, ou vices cachés \n(article 1641 du Code civil) affectant un véhicule de moins de 4 ans",
-      "is_optional": false,
-      "territorial_scope": "Dans les pays de l’EEE pour les véhicules immatriculés en France métropolitaine, toutes les garanties sauf informations  \net conseils juridiques, recours-protection juridique.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Assistance au véhicule et aux personnes en cas de déplacement — Assistance au véhicule en cas d’accident ou de vol",
-      "description": "Assistance au véhicule sans franchise kilométrique en cas \nd’accident ou de vol du véhicule assuré",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": "sans franchise kilométrique",
-      "conditions": [
-        "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Assistance au véhicule et aux personnes en cas de déplacement — Assistance au véhicule et rapatriement des personnes valides",
-      "description": "Assistance au véhicule et rapatriement des personnes valides \nen cas de véhicule accidenté, incendié, volé ou d’acte \n de vandalisme",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Assistance au véhicule et aux personnes en cas de déplacement — Assistance et rapatriement sanitaire",
-      "description": "Assistance et rapatriement sanitaire",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Garanties optionnelles — Assistance en cas de panne à 0 km du domicile",
-      "description": "Assistance en cas de panne à 0 km du domicile",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Listée par le document sous la rubrique « Garanties optionnelles »."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Garanties optionnelles — Véhicule de remplacement adapté en cas d’accident, de vol ou de panne",
-      "description": "Véhicule de remplacement adapté en cas d’accident, de vol \nou de panne",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Listée par le document sous la rubrique « Garanties optionnelles »."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Garanties optionnelles — Protection des objets transportés",
-      "description": "Protection des objets transportés",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Listée par le document sous la rubrique « Garanties optionnelles »."
-      ],
-      "page": 1
-    }
-  ],
-  "exclusions": [
-    {
-      "name": "Qu’est-ce qui n’est pas assuré ? — La panne du véhicule",
-      "description": "La panne du véhicule",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Qu’est-ce qui n’est pas assuré ? — Les incidents de caractère mécanique",
-      "description": "Les incidents de caractère mécanique",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Qu’est-ce qui n’est pas assuré ? — La privation de jouissance, dépréciation du véhicule",
-      "description": "La privation de jouissance, dépréciation du véhicule",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Principales exclusions — Les dommages survenus lors d’épreuves, courses ou compétitions",
-      "description": "Survenus à l’occasion de la participation de l’assuré en qualité \nde concurrent ou d’organisateur, à des manifestations (épreuves, \ncourses, compétitions), y compris leurs essais ou concentrations \nsoumises par la réglementation en vigueur à l’autorisation \npréalable des pouvoirs publics et comportant la participation \nde véhicules à moteur",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Principales exclusions — Les dommages survenus alors que le conducteur n’a pas l’âge requis ou le permis exigé",
-      "description": "Survenus alors que le conducteur d’un véhicule assuré n’a pas \nl’âge requis ou n’est pas titulaire de la licence, du permis, du brevet \nde sécurité routière ou des certificats de capacité exigés \npar la législation en vigueur et en état de validité",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Principales exclusions — Les dommages survenus sous l’empire d’un état alcoolique ou de stupéfiants",
-      "description": "Survenus alors que le conducteur du véhicule assuré \nou l’accompagnateur d’un élève conducteur est sous l’empire \nd’un état alcoolique ou a fait usage de stupéfiants",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Principales exclusions — Les dommages subis par les personnes transportées à titre gratuit sans conditions suffisantes de sécurité",
-      "description": "Subis par les personnes transportées à titre gratuit lorsque \nle transport n’est pas effectué dans des conditions de sécurité \nsuffisantes",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Principales exclusions — Les dommages résultant de la seule vétusté ou d’un défaut d’entretien",
-      "description": "Résultant de la seule vétusté ou d’un défaut d’entretien",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Principales exclusions — Les dommages résultant de la faute intentionnelle ou dolosive de l’assuré",
-      "description": "Résultant de la faute intentionnelle ou dolosive de l’assuré",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Principales exclusions — Les dommages résultant de travaux réalisés sur le véhicule assuré",
-      "description": "Résultant de travaux réalisés sur le véhicule assuré",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Principales restrictions — Franchise à la charge de l’assuré sur les dommages matériels au véhicule",
-      "description": "En cas de dommages matériels subis par le véhicule, l’assuré \nconserve à sa charge une somme (franchise) : plusieurs niveaux \nde franchises au choix de l’assuré",
-      "applies_to": "Dommages au véhicule, ses accessoires, ses aménagements",
-      "page": 1
-    },
-    {
-      "name": "Principales restrictions — Franchise réglementaire catastrophes naturelles",
-      "description": "Franchise réglementaire catastrophes naturelles : 380 €",
-      "applies_to": "Dommages au véhicule, ses accessoires, ses aménagements — Événements climatiques, catastrophes naturelles",
-      "page": 1
-    },
-    {
-      "name": "Principales restrictions — Seuil d’intervention judiciaire et limite géographique du recours",
-      "description": "Pour la garantie recours-protection juridique, une intervention \njudiciaire ne sera pas exercée si les intérêts en jeu sont ≤ à 625 € \nou si l’événement à l’origine du dommage est survenu en dehors \nde la France métropolitaine",
-      "applies_to": "Accompagnement juridique",
-      "page": 1
-    }
-  ],
-  "deductibles": {
-    "standard": "En cas de dommages matériels subis par le véhicule, l’assuré \nconserve à sa charge une somme (franchise) : plusieurs niveaux \nde franchises au choix de l’assuré",
-    "variable": "plusieurs niveaux \nde franchises au choix de l’assuré",
-    "per_coverage": {
-      "Catastrophes naturelles (franchise réglementaire)": "380 €"
-    },
-    "page": 1
+ "schema_version": "1.0",
+ "prompt_version": "1.1",
+ "country": "fr",
+ "insurer_slug": "maif",
+ "insurer_name": "MAIF",
+ "product_name": "Véhicules entreprises",
+ "branch": "auto",
+ "branch_code": null,
+ "document_type": "ipid",
+ "language": "fr",
+ "target_audience": "entreprises",
+ "target_audience_note": "les conducteurs des véhicules terrestres à moteur de votre entreprise",
+ "reference": "IPID VÉHI ENT",
+ "edition_date": "09-2022",
+ "product_family": "Véhicules entreprises",
+ "variant": null,
+ "is_extension": false,
+ "extends": null,
+ "superseded": null,
+ "source_url": "https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/entreprises/document-information-assurance-auto-professionnel.pdf",
+ "source_pdf": "vehicules-entreprises-abbb909b.pdf",
+ "source_sha256": "3e2a100ec82654823e4f6fb3018cccdcf5aa572b8033428183883e1f3fb1cc2c",
+ "source_pages": 2,
+ "fetched_at": "2026-07-30",
+ "extraction_model": "claude-code-subagent:scale",
+ "summary": "Document d’information sur le produit d’assurance (IPID) du contrat « Véhicules entreprises » de MAIF, présenté sous l’intitulé « Assurance Auto professionnelle ». Le produit garantit les conducteurs des véhicules terrestres à moteur de l’entreprise contre les conséquences des dommages matériels et/ou corporels causés par ces véhicules à des tiers (responsabilité civile), assurance présentée comme obligatoire. Il comporte également une protection des dommages corporels des conducteurs et passagers, des garanties de dommages aux véhicules assurés, une garantie pertes financières, un accompagnement juridique, des services d’assistance et trois garanties optionnelles.",
+ "definitions": [],
+ "coverages": [
+  {
+   "name": "Protection des dommages corporels — En cas de blessures — Frais médicaux restés à charge",
+   "description": "Frais médicaux restés à charge : sans limitation de somme",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "sans limitation de somme",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
+   ],
+   "page": 1
   },
-  "waiting_periods": [],
-  "obligations": [
-    {
-      "name": "Répondre exactement aux questions posées par l’assureur",
-      "description": "Répondre exactement aux questions posées par l’assureur pour lui permettre de connaître et d’apprécier le risque à assurer.",
-      "timing": "Lors de la souscription du contrat",
-      "sanction": null,
-      "page": 2
-    },
-    {
-      "name": "Fournir les documents justificatifs",
-      "description": "Fournir tous documents justificatifs demandés par l’assureur.",
-      "timing": "Lors de la souscription du contrat",
-      "sanction": null,
-      "page": 2
-    },
-    {
-      "name": "Régler la cotisation",
-      "description": "Régler la cotisation (ou fraction de cotisation) indiquée au contrat.",
-      "timing": "Lors de la souscription du contrat",
-      "sanction": null,
-      "page": 2
-    },
-    {
-      "name": "Déclarer les circonstances nouvelles aggravant le risque",
-      "description": "Déclarer dans un délai de 15 jours toutes circonstances nouvelles qui ont pour conséquence d’aggraver les risques pris en charge  \nou d’en créer de nouveaux.",
-      "timing": "En cours de contrat — dans un délai de 15 jours",
-      "sanction": null,
-      "page": 2
-    },
-    {
-      "name": "Déclarer le sinistre",
-      "description": "Déclarer tout événement susceptible de mettre en jeu l’une des garanties souscrite dans les 5 jours ouvrés de la date à laquelle l’assuré  \nen a eu connaissance.",
-      "timing": "En cas de sinistre — dans les 5 jours ouvrés",
-      "sanction": null,
-      "page": 2
-    },
-    {
-      "name": "Déposer plainte en cas de vol",
-      "description": "En cas de vol ou tentative de vol, déposer plainte auprès des autorités compétentes et fournir le récépissé délivré.",
-      "timing": "En cas de sinistre",
-      "sanction": null,
-      "page": 2
-    }
-  ],
-  "claims_procedure": [
-    {
-      "step": "Déclaration du sinistre",
-      "description": "Déclarer tout événement susceptible de mettre en jeu l’une des garanties souscrite dans les 5 jours ouvrés de la date à laquelle l’assuré  \nen a eu connaissance.",
-      "deadline": "dans les 5 jours ouvrés de la date à laquelle l’assuré en a eu connaissance",
-      "page": 2
-    },
-    {
-      "step": "Dépôt de plainte en cas de vol ou tentative de vol",
-      "description": "En cas de vol ou tentative de vol, déposer plainte auprès des autorités compétentes et fournir le récépissé délivré.",
-      "deadline": null,
-      "page": 2
-    }
-  ],
-  "duration_and_cancellation": {
-    "duration": "L’année de la souscription, de la date de prise d’effet au 31 décembre suivant. Le contrat est ensuite reconduit automatiquement pour une \nannée à chaque 1er janvier, sauf résiliation par l’une des parties dans les cas et conditions fixés au contrat.",
-    "tacit_renewal": true,
-    "notice_period": "un préavis de deux mois",
-    "methods": [
-      "soit par lettre, soit par envoi \nélectronique à l’assureur."
-    ],
-    "special_rights": [],
-    "page": 2
+  {
+   "name": "Protection des dommages corporels — En cas de blessures — Pertes de revenus",
+   "description": "Pertes de revenus : dans la limite de 15 000 € par mois",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "dans la limite de 15 000 € par mois",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
+   ],
+   "page": 1
   },
-  "prescription_period": null,
-  "premium": {
-    "notes": [
-      "La cotisation est exigible au 1er janvier. Le règlement peut être effectué en une fois, ou mensuellement.",
-      "Les paiements s’effectuent par carte bancaire ou prélèvement automatique."
-    ],
-    "indexation": null,
-    "page": 2
+  {
+   "name": "Protection des dommages corporels — En cas de blessures — Frais divers d’hospitalisation",
+   "description": "Frais divers d’hospitalisation : 16 €/nuitée, dans la limite \nde 365 jours",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "16 €/nuitée, dans la limite \nde 365 jours",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
+   ],
+   "page": 1
   },
-  "special_conditions": [
-    {
-      "name": "Portée du document",
-      "description": "Ce document d’information présente un résumé des principales garanties et exclusions du produit. Il ne prend pas en compte \nles besoins et demandes spécifiques. Une information complète sur ce produit est fournie dans la documentation précontractuelle \net contractuelle.",
-      "page": 1
-    },
-    {
-      "name": "Où suis-je couvert ? — France métropolitaine",
-      "description": "Toutes les garanties acquises en France métropolitaine.",
-      "page": 2
-    },
-    {
-      "name": "Où suis-je couvert ? — Pays de l’EEE",
-      "description": "Dans les pays de l’EEE pour les véhicules immatriculés en France métropolitaine, toutes les garanties sauf informations  \net conseils juridiques, recours-protection juridique.\nRecours limité au recours amiable.",
-      "page": 2
-    },
-    {
-      "name": "Où suis-je couvert ? — Autres pays de la carte verte",
-      "description": "Autres pays mentionnés sur la carte verte : voyages ou séjours ≤ à 3 mois, toutes les garanties sauf informations et conseils juridiques, \nrecours-protection juridique.\nRecours limité au recours amiable.",
-      "page": 2
-    },
-    {
-      "name": "Où suis-je couvert ? — Reste du monde",
-      "description": "Pour les autres pays du monde, la couverture géographique est indiquée dans le contrat.",
-      "page": 2
-    }
+  {
+   "name": "Protection des dommages corporels — En cas de blessures — Incapacité permanente",
+   "description": "Incapacité permanente : dès le premier point d’incapacité",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Protection des dommages corporels — En cas de blessures — Mesures compensatoires en cas de handicap",
+   "description": "Mesures compensatoires en cas de handicap : aide humaine \n(plafond de 61 000 €/an) et aménagement du logement \net du véhicule (plafond de 61 000 €)",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [
+    "aide humaine \n(plafond de 61 000 €/an)",
+    "aménagement du logement \net du véhicule (plafond de 61 000 €)"
+   ],
+   "deductible": null,
+   "conditions": [
+    "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Protection des dommages corporels — En cas de blessures — Tierce personne",
+   "description": "Tierce personne si incapacité ≥ à 50 % : majoration \nde l’incapacité permanente",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Protection des dommages corporels — En cas de blessures — Préjudice esthétique",
+   "description": "Préjudice esthétique en cas d’atteinte esthétique importante",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Protection des dommages corporels — En cas de décès — Capital décès et prestation pour frais funéraires",
+   "description": "Capital décès (5 000 €) et prestation pour frais funéraires (3 300 €)",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [
+    "Capital décès (5 000 €)",
+    "prestation pour frais funéraires (3 300 €)"
+   ],
+   "deductible": null,
+   "conditions": [
+    "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Protection des dommages corporels — En cas de décès — Préjudice patrimonial",
+   "description": "Préjudice patrimonial : minimum garanti, 15 000 € pour \nle conjoint et 5 000 € par enfant à charge",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "minimum garanti, 15 000 € pour \nle conjoint et 5 000 € par enfant à charge",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Protection des dommages corporels — Prestations d’aides immédiates — Assistance à domicile et déplacements",
+   "description": "Assistance à domicile et déplacements : jusqu’à 1 600 € pour \nles moins de 70 ans et 3 200 € pour les 70 ans et plus",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "jusqu’à 1 600 € pour \nles moins de 70 ans et 3 200 € pour les 70 ans et plus",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Protection des dommages corporels — Prestations d’aides immédiates — Soutien psychologique",
+   "description": "Soutien psychologique",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Protection des dommages corporels — Prestations d’aides immédiates — Soutien social, aide à la réinsertion professionnelle, aide à la reprise des études",
+   "description": "Soutien social, aide à la réinsertion professionnelle, aide \nà la reprise des études : conseil et information sur les droits \net prestations et dans les cas les plus graves, accompagnement \net suivi personnalisé",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Dommages au véhicule, ses accessoires, ses aménagements — Événements climatiques, catastrophes naturelles",
+   "description": "Événements climatiques, catastrophes naturelles",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Dommages au véhicule, ses accessoires, ses aménagements — Attentats",
+   "description": "Attentats",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Dommages au véhicule, ses accessoires, ses aménagements — Catastrophes technologiques",
+   "description": "Catastrophes technologiques",
+   "is_optional": null,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Garantie NON précédée d’une coche visible sur le document, alors que « les garanties précédées d’une coche sont systématiquement prévues au contrat » ; le document ne la range pas non plus sous la rubrique « Garanties optionnelles »."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Dommages au véhicule, ses accessoires, ses aménagements — Vol ou tentative de vol, vandalisme, incendie, bris d’élément vitré",
+   "description": "Vol ou tentative de vol, vandalisme, incendie, bris d’élément vitré",
+   "is_optional": null,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Aucune coche visible sur le document : la couche PDF contient bien un glyphe de coche devant cette ligne, mais il est tracé en blanc sur fond blanc et reste donc invisible à la lecture. Le document ne range pas non plus cette garantie sous « Garanties optionnelles »."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Dommages au véhicule, ses accessoires, ses aménagements — Collision, accident sans tiers",
+   "description": "Collision, accident sans tiers",
+   "is_optional": null,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Garantie NON précédée d’une coche visible sur le document, alors que « les garanties précédées d’une coche sont systématiquement prévues au contrat » ; le document ne la range pas non plus sous la rubrique « Garanties optionnelles »."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Pertes financières — En complément des dommages au véhicule en cas de perte totale",
+   "description": "En complément des dommages au véhicule en cas de perte totale",
+   "is_optional": null,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Aucune coche visible sur le document : la couche PDF contient bien un glyphe de coche devant cette ligne, mais il est tracé en blanc sur fond blanc et reste donc invisible à la lecture. Le document ne range pas non plus cette garantie sous « Garanties optionnelles »."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Responsabilité civile-défense — Responsabilité civile générale",
+   "description": "Responsabilité civile générale",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [
+    "dommages corporels (sans limitation de somme)",
+    "dommages matériels et immatériels consécutifs (100 000 000 €)"
+   ],
+   "deductible": null,
+   "conditions": [
+    "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Responsabilité civile-défense — Responsabilité civile particulière",
+   "description": "Responsabilité civile particulière",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [
+    "dommages environnementaux/préjudice écologique consécutifs \n(30 000 €)",
+    "fonction outil (10 000 000 €), dont dommages matériels \net immatériels consécutifs (1 000 000 €)"
+   ],
+   "deductible": null,
+   "conditions": [
+    "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Responsabilité civile-défense — Défense des intérêts de l’assuré",
+   "description": "Défense des intérêts de l’assuré suite à un accident garanti  \nqui engage sa responsabilité civile (sans limitation de somme)",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "sans limitation de somme",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Accompagnement juridique — Information et conseil juridiques",
+   "description": "Information et conseil juridiques",
+   "is_optional": false,
+   "territorial_scope": "Dans les pays de l’EEE pour les véhicules immatriculés en France métropolitaine, toutes les garanties sauf informations  \net conseils juridiques, recours-protection juridique.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Accompagnement juridique — Recours contre le tiers responsable",
+   "description": "Recours contre le tiers responsable : défense des intérêts \nde l’assuré suite à un événement garanti",
+   "is_optional": false,
+   "territorial_scope": "Dans les pays de l’EEE pour les véhicules immatriculés en France métropolitaine, toutes les garanties sauf informations  \net conseils juridiques, recours-protection juridique.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Accompagnement juridique — Honoraires d’avocats et de conseils",
+   "description": "Honoraires d’avocats et de conseils pris en charge (sans limitation \nde somme)",
+   "is_optional": null,
+   "territorial_scope": "Dans les pays de l’EEE pour les véhicules immatriculés en France métropolitaine, toutes les garanties sauf informations  \net conseils juridiques, recours-protection juridique.",
+   "limits": "sans limitation \nde somme",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Garantie NON précédée d’une coche visible sur le document, alors que « les garanties précédées d’une coche sont systématiquement prévues au contrat » ; le document ne la range pas non plus sous la rubrique « Garanties optionnelles »."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Accompagnement juridique — Protection juridique (malfaçons et vices cachés)",
+   "description": "Protection juridique : en cas de malfaçons suite à réparation, prise \nen charge dans le cadre d’un événement garanti, ou vices cachés \n(article 1641 du Code civil) affectant un véhicule de moins de 4 ans",
+   "is_optional": false,
+   "territorial_scope": "Dans les pays de l’EEE pour les véhicules immatriculés en France métropolitaine, toutes les garanties sauf informations  \net conseils juridiques, recours-protection juridique.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Assistance au véhicule et aux personnes en cas de déplacement — Assistance au véhicule en cas d’accident ou de vol",
+   "description": "Assistance au véhicule sans franchise kilométrique en cas \nd’accident ou de vol du véhicule assuré",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": "sans franchise kilométrique",
+   "conditions": [
+    "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Assistance au véhicule et aux personnes en cas de déplacement — Assistance au véhicule et rapatriement des personnes valides",
+   "description": "Assistance au véhicule et rapatriement des personnes valides \nen cas de véhicule accidenté, incendié, volé ou d’acte \n de vandalisme",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Assistance au véhicule et aux personnes en cas de déplacement — Assistance et rapatriement sanitaire",
+   "description": "Assistance et rapatriement sanitaire",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Garantie précédée d’une coche : « Les garanties précédées d’une coche sont systématiquement prévues au contrat »."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Garanties optionnelles — Assistance en cas de panne à 0 km du domicile",
+   "description": "Assistance en cas de panne à 0 km du domicile",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Listée par le document sous la rubrique « Garanties optionnelles »."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Garanties optionnelles — Véhicule de remplacement adapté en cas d’accident, de vol ou de panne",
+   "description": "Véhicule de remplacement adapté en cas d’accident, de vol \nou de panne",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Listée par le document sous la rubrique « Garanties optionnelles »."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Garanties optionnelles — Protection des objets transportés",
+   "description": "Protection des objets transportés",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Listée par le document sous la rubrique « Garanties optionnelles »."
+   ],
+   "page": 1
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Qu’est-ce qui n’est pas assuré ? — La panne du véhicule",
+   "description": "La panne du véhicule",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Qu’est-ce qui n’est pas assuré ? — Les incidents de caractère mécanique",
+   "description": "Les incidents de caractère mécanique",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Qu’est-ce qui n’est pas assuré ? — La privation de jouissance, dépréciation du véhicule",
+   "description": "La privation de jouissance, dépréciation du véhicule",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Principales exclusions — Les dommages survenus lors d’épreuves, courses ou compétitions",
+   "description": "Survenus à l’occasion de la participation de l’assuré en qualité \nde concurrent ou d’organisateur, à des manifestations (épreuves, \ncourses, compétitions), y compris leurs essais ou concentrations \nsoumises par la réglementation en vigueur à l’autorisation \npréalable des pouvoirs publics et comportant la participation \nde véhicules à moteur",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Principales exclusions — Les dommages survenus alors que le conducteur n’a pas l’âge requis ou le permis exigé",
+   "description": "Survenus alors que le conducteur d’un véhicule assuré n’a pas \nl’âge requis ou n’est pas titulaire de la licence, du permis, du brevet \nde sécurité routière ou des certificats de capacité exigés \npar la législation en vigueur et en état de validité",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Principales exclusions — Les dommages survenus sous l’empire d’un état alcoolique ou de stupéfiants",
+   "description": "Survenus alors que le conducteur du véhicule assuré \nou l’accompagnateur d’un élève conducteur est sous l’empire \nd’un état alcoolique ou a fait usage de stupéfiants",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Principales exclusions — Les dommages subis par les personnes transportées à titre gratuit sans conditions suffisantes de sécurité",
+   "description": "Subis par les personnes transportées à titre gratuit lorsque \nle transport n’est pas effectué dans des conditions de sécurité \nsuffisantes",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Principales exclusions — Les dommages résultant de la seule vétusté ou d’un défaut d’entretien",
+   "description": "Résultant de la seule vétusté ou d’un défaut d’entretien",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Principales exclusions — Les dommages résultant de la faute intentionnelle ou dolosive de l’assuré",
+   "description": "Résultant de la faute intentionnelle ou dolosive de l’assuré",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Principales exclusions — Les dommages résultant de travaux réalisés sur le véhicule assuré",
+   "description": "Résultant de travaux réalisés sur le véhicule assuré",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Principales restrictions — Franchise à la charge de l’assuré sur les dommages matériels au véhicule",
+   "description": "En cas de dommages matériels subis par le véhicule, l’assuré \nconserve à sa charge une somme (franchise) : plusieurs niveaux \nde franchises au choix de l’assuré",
+   "applies_to": "Dommages au véhicule, ses accessoires, ses aménagements",
+   "page": 1
+  },
+  {
+   "name": "Principales restrictions — Franchise réglementaire catastrophes naturelles",
+   "description": "Franchise réglementaire catastrophes naturelles : 380 €",
+   "applies_to": "Dommages au véhicule, ses accessoires, ses aménagements — Événements climatiques, catastrophes naturelles",
+   "page": 1
+  },
+  {
+   "name": "Principales restrictions — Seuil d’intervention judiciaire et limite géographique du recours",
+   "description": "Pour la garantie recours-protection juridique, une intervention \njudiciaire ne sera pas exercée si les intérêts en jeu sont ≤ à 625 € \nou si l’événement à l’origine du dommage est survenu en dehors \nde la France métropolitaine",
+   "applies_to": "Accompagnement juridique",
+   "page": 1
+  }
+ ],
+ "deductibles": {
+  "standard": "En cas de dommages matériels subis par le véhicule, l’assuré \nconserve à sa charge une somme (franchise) : plusieurs niveaux \nde franchises au choix de l’assuré",
+  "variable": "plusieurs niveaux \nde franchises au choix de l’assuré",
+  "per_coverage": {
+   "Catastrophes naturelles (franchise réglementaire)": "380 €"
+  },
+  "page": 1
+ },
+ "waiting_periods": [],
+ "obligations": [
+  {
+   "name": "Répondre exactement aux questions posées par l’assureur",
+   "description": "Répondre exactement aux questions posées par l’assureur pour lui permettre de connaître et d’apprécier le risque à assurer.",
+   "timing": "Lors de la souscription du contrat",
+   "sanction": null,
+   "page": 2
+  },
+  {
+   "name": "Fournir les documents justificatifs",
+   "description": "Fournir tous documents justificatifs demandés par l’assureur.",
+   "timing": "Lors de la souscription du contrat",
+   "sanction": null,
+   "page": 2
+  },
+  {
+   "name": "Régler la cotisation",
+   "description": "Régler la cotisation (ou fraction de cotisation) indiquée au contrat.",
+   "timing": "Lors de la souscription du contrat",
+   "sanction": null,
+   "page": 2
+  },
+  {
+   "name": "Déclarer les circonstances nouvelles aggravant le risque",
+   "description": "Déclarer dans un délai de 15 jours toutes circonstances nouvelles qui ont pour conséquence d’aggraver les risques pris en charge  \nou d’en créer de nouveaux.",
+   "timing": "En cours de contrat — dans un délai de 15 jours",
+   "sanction": null,
+   "page": 2
+  },
+  {
+   "name": "Déclarer le sinistre",
+   "description": "Déclarer tout événement susceptible de mettre en jeu l’une des garanties souscrite dans les 5 jours ouvrés de la date à laquelle l’assuré  \nen a eu connaissance.",
+   "timing": "En cas de sinistre — dans les 5 jours ouvrés",
+   "sanction": null,
+   "page": 2
+  },
+  {
+   "name": "Déposer plainte en cas de vol",
+   "description": "En cas de vol ou tentative de vol, déposer plainte auprès des autorités compétentes et fournir le récépissé délivré.",
+   "timing": "En cas de sinistre",
+   "sanction": null,
+   "page": 2
+  }
+ ],
+ "claims_procedure": [
+  {
+   "step": "Déclaration du sinistre",
+   "description": "Déclarer tout événement susceptible de mettre en jeu l’une des garanties souscrite dans les 5 jours ouvrés de la date à laquelle l’assuré  \nen a eu connaissance.",
+   "deadline": "dans les 5 jours ouvrés de la date à laquelle l’assuré en a eu connaissance",
+   "page": 2
+  },
+  {
+   "step": "Dépôt de plainte en cas de vol ou tentative de vol",
+   "description": "En cas de vol ou tentative de vol, déposer plainte auprès des autorités compétentes et fournir le récépissé délivré.",
+   "deadline": null,
+   "page": 2
+  }
+ ],
+ "duration_and_cancellation": {
+  "duration": "L’année de la souscription, de la date de prise d’effet au 31 décembre suivant. Le contrat est ensuite reconduit automatiquement pour une \nannée à chaque 1er janvier, sauf résiliation par l’une des parties dans les cas et conditions fixés au contrat.",
+  "tacit_renewal": true,
+  "notice_period": "un préavis de deux mois",
+  "methods": [
+   "soit par lettre, soit par envoi \nélectronique à l’assureur."
   ],
-  "key_quotes": [
-    {
-      "quote": "Ce produit d’assurance a pour objectif premier de garantir les conducteurs des véhicules terrestres à moteur de votre entreprise contre \nles conséquences des dommages matériels et/ou corporels causés par vos véhicules à des tiers (responsabilité civile). C’est une assurance \nobligatoire. Cette assurance inclut également des garanties complémentaires couvrant les dommages matériels aux véhicules assurés \net les dommages corporels des conducteurs et passagers, ainsi que des services d’assistance aux véhicules et aux personnes.",
-      "context": "Objet du contrat (De quel type d’assurance s’agit-il ?)",
-      "page": 1
-    },
-    {
-      "quote": "sont systématiquement prévues au contrat",
-      "context": "Légende : portée de la coche",
-      "page": 1
-    },
-    {
-      "quote": "dommages matériels et immatériels consécutifs (100 000 000 €)",
-      "context": "Plafond RC dommages matériels et immatériels consécutifs",
-      "page": 1
-    },
-    {
-      "quote": "fonction outil (10 000 000 €), dont dommages matériels \net immatériels consécutifs (1 000 000 €)",
-      "context": "Plafond RC fonction outil",
-      "page": 1
-    },
-    {
-      "quote": "Pertes de revenus : dans la limite de 15 000 € par mois",
-      "context": "Plafond de perte de revenus",
-      "page": 1
-    },
-    {
-      "quote": "Franchise réglementaire catastrophes naturelles : 380 €",
-      "context": "Franchise réglementaire catastrophes naturelles",
-      "page": 1
-    },
-    {
-      "quote": "Subis par les personnes transportées à titre gratuit lorsque \nle transport n’est pas effectué dans des conditions de sécurité \nsuffisantes",
-      "context": "Exclusion des personnes transportées à titre gratuit",
-      "page": 1
-    },
-    {
-      "quote": "Pour la garantie recours-protection juridique, une intervention \njudiciaire ne sera pas exercée si les intérêts en jeu sont ≤ à 625 € \nou si l’événement à l’origine du dommage est survenu en dehors \nde la France métropolitaine",
-      "context": "Restriction du recours-protection juridique",
-      "page": 1
-    },
-    {
-      "quote": "Toutes les garanties acquises en France métropolitaine.",
-      "context": "Étendue territoriale de principe",
-      "page": 2
-    },
-    {
-      "quote": "L’année de la souscription, de la date de prise d’effet au 31 décembre suivant. Le contrat est ensuite reconduit automatiquement pour une \nannée à chaque 1er janvier, sauf résiliation par l’une des parties dans les cas et conditions fixés au contrat.",
-      "context": "Durée et reconduction du contrat",
-      "page": 2
-    }
+  "special_rights": [],
+  "page": 2
+ },
+ "prescription_period": null,
+ "premium": {
+  "notes": [
+   "La cotisation est exigible au 1er janvier. Le règlement peut être effectué en une fois, ou mensuellement.",
+   "Les paiements s’effectuent par carte bancaire ou prélèvement automatique."
   ],
-  "gaps": [
-    "Document de type IPID (2 pages) : il ne présente qu’un résumé des principales garanties et exclusions, comme il l’indique lui-même. Il ne comporte ni lexique de définitions, ni délais de carence, ni clause de prescription ; `definitions`, `waiting_periods` et `prescription_period` sont donc vides ou nuls.",
-    "ANOMALIE DE FABRICATION DU PDF, à connaître avant de lire `is_optional`. Le document indique que « Les garanties précédées d’une coche sont systématiquement prévues au contrat ». Deux coches existent bien dans le fichier mais sont tracées EN BLANC sur fond blanc, donc invisibles à la lecture : devant « Vol ou tentative de vol, vandalisme, incendie, bris d’élément vitré » et devant « En complément des dommages au véhicule en cas de perte totale » (Pertes financières). Les coches réellement visibles sont vertes (0x94C23D). Une extraction fondée sur la seule couche texte conclurait que ces deux garanties sont systématiquement prévues, ce qu’un lecteur du document ne peut pas voir. `is_optional` a été laissé nul pour ces deux lignes, avec la mention correspondante dans `conditions`.",
-    "Marquage des garanties (suite) : la coche visible manque également devant « Catastrophes technologiques », « Collision, accident sans tiers » et « Honoraires d’avocats et de conseils pris en charge (sans limitation de somme) », sans que ces garanties figurent sous « Garanties optionnelles ». `is_optional` y est nul. Les trois garanties listées sous « Garanties optionnelles » sont à true. Toutes les autres, précédées d’une coche verte visible, sont à false.",
-    "Étendue territoriale plus étroite que sur les autres IPID auto MAIF : ce document écrit « Toutes les garanties acquises en France métropolitaine. », sans mentionner la Guadeloupe, la Martinique, la Réunion, Saint-Barthélemy, Saint-Martin ni Monaco, que citent les IPID auto MAIF voisins. De même, la restriction du recours-protection juridique s’arrête à « en dehors de la France métropolitaine ». Repris tel quel, sans complément.",
-    "Les rubriques « Qu’est-ce qui n’est pas assuré ? », « Principales exclusions » et « Principales restrictions » ont toutes été versées dans `exclusions`, en conservant dans le nom la rubrique d’origine, car le schéma ne distingue pas ces trois catégories. Les deux restrictions relatives aux franchises sont en outre reprises dans `deductibles`.",
-    "Le montant des différents niveaux de franchise n’est pas indiqué : le document se borne à écrire « plusieurs niveaux de franchises au choix de l’assuré ». Seule la franchise réglementaire catastrophes naturelles est chiffrée (380 €).",
-    "Nom de produit : le document imprime « Véhicules entreprises » comme nom commercial et « Assurance Auto professionnelle » comme intitulé de la catégorie de document, en haut de la même page. Le second est aussi le nom commercial d’un autre produit MAIF (« Assurance auto professionnelle », IPID AAP, destiné aux travailleurs indépendants) ; ne pas les confondre.",
-    "Le SIREN est imprimé sans séparateurs sur ce document (« 775709702 ») alors que d’autres documents MAIF l’impriment « 775 709 702 » ; il s’agit du même numéro."
-  ]
+  "indexation": null,
+  "page": 2
+ },
+ "special_conditions": [
+  {
+   "name": "Portée du document",
+   "description": "Ce document d’information présente un résumé des principales garanties et exclusions du produit. Il ne prend pas en compte \nles besoins et demandes spécifiques. Une information complète sur ce produit est fournie dans la documentation précontractuelle \net contractuelle.",
+   "page": 1
+  },
+  {
+   "name": "Où suis-je couvert ? — France métropolitaine",
+   "description": "Toutes les garanties acquises en France métropolitaine.",
+   "page": 2
+  },
+  {
+   "name": "Où suis-je couvert ? — Pays de l’EEE",
+   "description": "Dans les pays de l’EEE pour les véhicules immatriculés en France métropolitaine, toutes les garanties sauf informations  \net conseils juridiques, recours-protection juridique.\nRecours limité au recours amiable.",
+   "page": 2
+  },
+  {
+   "name": "Où suis-je couvert ? — Autres pays de la carte verte",
+   "description": "Autres pays mentionnés sur la carte verte : voyages ou séjours ≤ à 3 mois, toutes les garanties sauf informations et conseils juridiques, \nrecours-protection juridique.\nRecours limité au recours amiable.",
+   "page": 2
+  },
+  {
+   "name": "Où suis-je couvert ? — Reste du monde",
+   "description": "Pour les autres pays du monde, la couverture géographique est indiquée dans le contrat.",
+   "page": 2
+  }
+ ],
+ "key_quotes": [
+  {
+   "quote": "Ce produit d’assurance a pour objectif premier de garantir les conducteurs des véhicules terrestres à moteur de votre entreprise contre \nles conséquences des dommages matériels et/ou corporels causés par vos véhicules à des tiers (responsabilité civile). C’est une assurance \nobligatoire. Cette assurance inclut également des garanties complémentaires couvrant les dommages matériels aux véhicules assurés \net les dommages corporels des conducteurs et passagers, ainsi que des services d’assistance aux véhicules et aux personnes.",
+   "context": "Objet du contrat (De quel type d’assurance s’agit-il ?)",
+   "page": 1
+  },
+  {
+   "quote": "sont systématiquement prévues au contrat",
+   "context": "Légende : portée de la coche",
+   "page": 1
+  },
+  {
+   "quote": "dommages matériels et immatériels consécutifs (100 000 000 €)",
+   "context": "Plafond RC dommages matériels et immatériels consécutifs",
+   "page": 1
+  },
+  {
+   "quote": "fonction outil (10 000 000 €), dont dommages matériels \net immatériels consécutifs (1 000 000 €)",
+   "context": "Plafond RC fonction outil",
+   "page": 1
+  },
+  {
+   "quote": "Pertes de revenus : dans la limite de 15 000 € par mois",
+   "context": "Plafond de perte de revenus",
+   "page": 1
+  },
+  {
+   "quote": "Franchise réglementaire catastrophes naturelles : 380 €",
+   "context": "Franchise réglementaire catastrophes naturelles",
+   "page": 1
+  },
+  {
+   "quote": "Subis par les personnes transportées à titre gratuit lorsque \nle transport n’est pas effectué dans des conditions de sécurité \nsuffisantes",
+   "context": "Exclusion des personnes transportées à titre gratuit",
+   "page": 1
+  },
+  {
+   "quote": "Pour la garantie recours-protection juridique, une intervention \njudiciaire ne sera pas exercée si les intérêts en jeu sont ≤ à 625 € \nou si l’événement à l’origine du dommage est survenu en dehors \nde la France métropolitaine",
+   "context": "Restriction du recours-protection juridique",
+   "page": 1
+  },
+  {
+   "quote": "Toutes les garanties acquises en France métropolitaine.",
+   "context": "Étendue territoriale de principe",
+   "page": 2
+  },
+  {
+   "quote": "L’année de la souscription, de la date de prise d’effet au 31 décembre suivant. Le contrat est ensuite reconduit automatiquement pour une \nannée à chaque 1er janvier, sauf résiliation par l’une des parties dans les cas et conditions fixés au contrat.",
+   "context": "Durée et reconduction du contrat",
+   "page": 2
+  }
+ ],
+ "gaps": [
+  "Document de type IPID (2 pages) : il ne présente qu’un résumé des principales garanties et exclusions, comme il l’indique lui-même. Il ne comporte ni lexique de définitions, ni délais de carence, ni clause de prescription ; `definitions`, `waiting_periods` et `prescription_period` sont donc vides ou nuls.",
+  "ANOMALIE DE FABRICATION DU PDF, à connaître avant de lire `is_optional`. Le document indique que « Les garanties précédées d’une coche sont systématiquement prévues au contrat ». Deux coches existent bien dans le fichier mais sont tracées EN BLANC sur fond blanc, donc invisibles à la lecture : devant « Vol ou tentative de vol, vandalisme, incendie, bris d’élément vitré » et devant « En complément des dommages au véhicule en cas de perte totale » (Pertes financières). Les coches réellement visibles sont vertes (0x94C23D). Une extraction fondée sur la seule couche texte conclurait que ces deux garanties sont systématiquement prévues, ce qu’un lecteur du document ne peut pas voir. `is_optional` a été laissé nul pour ces deux lignes, avec la mention correspondante dans `conditions`.",
+  "Marquage des garanties (suite) : la coche visible manque également devant « Catastrophes technologiques », « Collision, accident sans tiers » et « Honoraires d’avocats et de conseils pris en charge (sans limitation de somme) », sans que ces garanties figurent sous « Garanties optionnelles ». `is_optional` y est nul. Les trois garanties listées sous « Garanties optionnelles » sont à true. Toutes les autres, précédées d’une coche verte visible, sont à false.",
+  "Étendue territoriale plus étroite que sur les autres IPID auto MAIF : ce document écrit « Toutes les garanties acquises en France métropolitaine. », sans mentionner la Guadeloupe, la Martinique, la Réunion, Saint-Barthélemy, Saint-Martin ni Monaco, que citent les IPID auto MAIF voisins. De même, la restriction du recours-protection juridique s’arrête à « en dehors de la France métropolitaine ». Repris tel quel, sans complément.",
+  "Les rubriques « Qu’est-ce qui n’est pas assuré ? », « Principales exclusions » et « Principales restrictions » ont toutes été versées dans `exclusions`, en conservant dans le nom la rubrique d’origine, car le schéma ne distingue pas ces trois catégories. Les deux restrictions relatives aux franchises sont en outre reprises dans `deductibles`.",
+  "Le montant des différents niveaux de franchise n’est pas indiqué : le document se borne à écrire « plusieurs niveaux de franchises au choix de l’assuré ». Seule la franchise réglementaire catastrophes naturelles est chiffrée (380 €).",
+  "Nom de produit : le document imprime « Véhicules entreprises » comme nom commercial et « Assurance Auto professionnelle » comme intitulé de la catégorie de document, en haut de la même page. Le second est aussi le nom commercial d’un autre produit MAIF (« Assurance auto professionnelle », IPID AAP, destiné aux travailleurs indépendants) ; ne pas les confondre.",
+  "Le SIREN est imprimé sans séparateurs sur ce document (« 775709702 ») alors que d’autres documents MAIF l’impriment « 775 709 702 » ; il s’agit du même numéro."
+ ]
 }

@@ -10,7 +10,7 @@ document_type: ipid
 target_audience: particuliers
 target_audience_note: null
 reference: null
-edition_date: 2023-07
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/auto
@@ -26,7 +26,7 @@ prompt_version: '1.1'
 product_family: assurance-caravane
 variant: null
 edition_status: null
-edition_age_years: 3
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -40,7 +40,7 @@ generated: true
 
 L’assurance Caravane a pour objectif de garantir les responsabilités liées à l’utilisation de la caravane lorsqu’elle est dételée ou en mode camping. Le contrat couvre aussi les dommages de la caravane (attelée ou dételée) selon les formules souscrites. Sont assurées les caravanes utilisées à des fins touristiques, et dont la carte grise est de type RESP ou CARAVANE. Ce document d’information (IPID) présente un résumé des principales garanties et exclusions du contrat.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 2023-07
+- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -152,6 +152,7 @@ Les frais consécutifs à la privation de jouissance : remboursement des dépens
 - La rubrique « Où suis-je couvert ? » (page 2) cite une « garantie Protection juridique » (France métropolitaine, Andorre, Monaco, états membres de l’UE, Saint-Siège, Saint-Marin, Liechtenstein, Suisse et Norvège) qui ne figure pas dans la liste des garanties de la page 1 ; elle n’a donc pas été créée comme couverture distincte.
 - La portée territoriale générale est reproduite verbatim (« Les garanties sont accordées hors France métropolitaine ou en Corse pour les séjours de moins de 2 mois ») bien que sa formulation soit ambiguë dans le document source.
 - Les montants des capitaux assurés sur la caravane et sur le contenu ne sont pas indiqués (renvoi implicite aux Conditions Particulières).
+- edition_date remise a null le 2026-08-01: la valeur 2023-07 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

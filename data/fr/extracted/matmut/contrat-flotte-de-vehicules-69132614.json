@@ -1,550 +1,551 @@
 {
-  "schema_version": "1.0",
-  "prompt_version": "1.1",
-  "country": "fr",
-  "insurer_slug": "matmut",
-  "insurer_name": "Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477",
-  "product_name": "Contrat « Flotte de véhicules »",
-  "branch": "auto",
-  "branch_code": null,
-  "document_type": "ipid",
-  "language": "fr",
-  "target_audience": null,
-  "target_audience_note": "Le document ne nomme aucune catégorie de souscripteurs. Il décrit l'objet du contrat comme garantissant « l'ensemble d'une flotte de véhicule (2 roues, 3 roues ou 4 roues motorisés) » et emploie un vocabulaire d'exploitation (« l'établissement auquel le véhicule est affecté », « les entrées et/ou sorties de véhicule composant le parc à garantir », garantie optionnelle « Marchandises et outillage professionnels transportés »), sans pour autant énoncer l'audience du produit.",
-  "reference": "IPID.FLOTTE- 11/24",
-  "edition_date": "2024-11",
-  "product_family": "Flotte de véhicules",
-  "variant": null,
-  "is_extension": false,
-  "extends": null,
-  "superseded": null,
-  "source_url": "https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDMRSQFLOTTE.pdf",
-  "source_pdf": "contrat-flotte-de-vehicules-69132614.pdf",
-  "source_sha256": "ed6b20f7a0978810496ada3256f17626ac353872e63b6859882b2800910d47f7",
-  "source_pages": 2,
-  "fetched_at": "2026-07-30",
-  "extraction_model": "claude-code-subagent:scale",
-  "summary": "Document d'information sur le produit d'assurance (IPID) relatif au contrat « Flotte de véhicules » de la Matmut, assurance automobile. Le contrat a pour objet de garantir l'ensemble d'une flotte de véhicules (2 roues, 3 roues ou 4 roues motorisés) contre les conséquences des dommages matériels et corporels causés à des tiers (Responsabilité civile), assurance obligatoire, et inclut systématiquement la Protection Juridique suite à accident. Une gamme étendue de garanties optionnelles peut être souscrite, dont certaines réservées aux voitures particulières et camping-cars ou aux motocyclettes et quads. Le document ne présente qu'un résumé des principales garanties et exclusions.",
-  "definitions": [],
-  "coverages": [
-    {
-      "name": "Responsabilité civile en et hors circulation",
-      "description": "Dommages causés aux tiers par le véhicule.",
-      "is_optional": false,
-      "territorial_scope": "France métropolitaine, Départements et Régions d'Outre-Mer (Guadeloupe, Guyane, Martinique, Mayotte et La Réunion) et déplacements dans les pays de l'Union Européenne ainsi que Andorre, Bosnie-Herzégovine, Islande, Liechtenstein, Monaco, Monténégro, Norvège, Royaume-Uni, Serbie et Suisse.",
-      "limits": "Dommages corporels : illimité. Tous dommages matériels, immatériels consécutifs et préjudice écologique confondus jusqu'à 100 000 000 €.",
-      "sub_limits": [
-        "Dommages corporels : illimité.",
-        "Tous dommages matériels, immatériels consécutifs et préjudice écologique confondus jusqu'à 100 000 000 €."
-      ],
-      "deductible": null,
-      "conditions": [
-        "Assurance obligatoire",
-        "Seuls les principaux plafonds des garanties en inclusion sont indiqués ; le détail des plafonds et sous-plafonds figure aux Conditions générales du contrat"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Protection Juridique suite à accident",
-      "description": "Prise en charge des frais de défense pénale ou de recours de l'assuré suite à accident.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "jusqu'à 20 000 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Seuil de déclenchement : 150 € à l'amiable",
-        "Seuil de déclenchement : 760 € devant les Tribunaux et Cours d'Appel",
-        "Seuil de déclenchement : 3 000 € devant le Conseil d'État ou la Cour de Cassation"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Bris de pare-brise",
-      "description": "Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie.",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Bris de glaces",
-      "description": "Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie.",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Vol du véhicule",
-      "description": "Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie. Elle est listée distinctement de la garantie « Vol et tentative de vol ».",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Vol et tentative de vol",
-      "description": "Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie. Elle est listée distinctement de la garantie « Vol du véhicule ».",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Incendie (hors acte de vandalisme) - attentat - tempête",
-      "description": "Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie. Elle est listée distinctement de la garantie « Incendie-attentat-tempête ».",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Incendie-attentat-tempête",
-      "description": "Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie. Elle est listée distinctement de la garantie « Incendie (hors acte de vandalisme) - attentat - tempête ».",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Catastrophes naturelles",
-      "description": "Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie.",
-      "is_optional": true,
-      "territorial_scope": "Ne s'exerce qu'en France métropolitaine et dans les Départements et Régions d'Outre-Mer (Guadeloupe, Guyane, Martinique, Mayotte et La Réunion).",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Catastrophes technologiques",
-      "description": "Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie.",
-      "is_optional": true,
-      "territorial_scope": "Ne s'exerce qu'en France métropolitaine et dans les Départements et Régions d'Outre-Mer (Guadeloupe, Guyane, Martinique, Mayotte et La Réunion).",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Dommages collision",
-      "description": "Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie. Elle est listée distinctement de « Dommages collision-événements naturels ».",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Dommages collision-événements naturels",
-      "description": "Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie. Elle est listée distinctement de « Dommages collision ».",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Dommages accidents",
-      "description": "Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie. Elle est listée distinctement de « Dommages accidents-vandalisme-événements naturels ».",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Dommages accidents-vandalisme-événements naturels",
-      "description": "Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie. Elle est listée distinctement de « Dommages accidents ».",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Accessoires et aménagements du véhicule",
-      "description": "Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie.",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Exonérations spécifiques de franchise",
-      "description": "Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie.",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Marchandises et outillage professionnels transportés",
-      "description": "Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie.",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Dommages corporels du conducteur",
-      "description": "Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie.",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Le seuil de déclenchement au titre de l'Incapacité permanente est de 10 %"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Indisponibilité du véhicule suite à accident",
-      "description": "Prise en charge des frais journaliers engagés pour remplacer le véhicule indisponible suite à un événement garanti.",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Indisponibilité du véhicule suite à panne",
-      "description": "Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie.",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Assistance au véhicule et aux personnes transportées",
-      "description": "Prise en charge des personnes et dépannage-remorquage du véhicule assuré en cas d'accident, d'incendie, de vol, de tentative de vol ou de panne (sous réserve que cette dernière se produise au moins à 50 km de l'établissement auquel le véhicule est affecté ou du domicile du bénéficiaire lorsque le véhicule y est habituellement stationné).",
-      "is_optional": true,
-      "territorial_scope": "Fait l'objet, pour la territorialité, de développements spécifiques dans les Conditions générales.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Sous réserve que la panne se produise au moins à 50 km de l'établissement auquel le véhicule est affecté ou du domicile du bénéficiaire lorsque le véhicule y est habituellement stationné"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Assistance panne 0 km",
-      "description": "Prise en charge des personnes et dépannage-remorquage du véhicule assuré en cas de panne sans franchise kilométrique en cas de panne.",
-      "is_optional": true,
-      "territorial_scope": "Fait l'objet, pour la territorialité, de développements spécifiques dans les Conditions générales.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Protection Juridique relative au bien assuré",
-      "description": "Prise en charge de la défense des intérêts de l'assuré en cas de litige avec un tiers résultant de l'achat, de la vente ou de la réparation du véhicule assuré.",
-      "is_optional": true,
-      "territorial_scope": "Fait l'objet, pour la territorialité, de développements spécifiques dans les Conditions générales.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Seuil de déclenchement : 150 € à l'amiable",
-        "Seuil de déclenchement : 760 € devant les Tribunaux et Cours d'Appel",
-        "Seuil de déclenchement : 3 000 € devant le Conseil d'État ou la Cour de Cassation"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Avance de franchise et/ou de TVA",
-      "description": "Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie.",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Contenu privé",
-      "description": "Garantie optionnelle relevant de la rubrique « Garanties optionnelles (voitures particulières et camping-cars) ». Le document ne détaille pas le contenu de cette garantie.",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Réservée aux voitures particulières et camping-cars"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Panne mécanique",
-      "description": "Garantie optionnelle relevant de la rubrique « Garanties optionnelles (voitures particulières et camping-cars) ». Le document ne détaille pas le contenu de cette garantie.",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Réservée aux voitures particulières et camping-cars",
-        "Un délai de carence de 90 jours est prévu pour les véhicules ayant plus de 48 mois à la date d'effet du contrat"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Équipements de protection du conducteur",
-      "description": "Garantie optionnelle relevant de la rubrique « Garantie optionnelle (motocyclettes et quads) ». Le document ne détaille pas le contenu de cette garantie.",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Réservée aux motocyclettes et quads"
-      ],
-      "page": 1
-    }
-  ],
-  "exclusions": [
-    {
-      "name": "Véhicules frappés d'une interdiction de rouler ou ayant subi un retrait d'immatriculation",
-      "description": "Les véhicules frappés d'une interdiction de rouler ou ayant subi un retrait d'immatriculation. (Rubrique « Qu'est-ce qui n'est pas assuré ? »)",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Amendes, majorations et accessoires",
-      "description": "Les amendes, leurs majorations et accessoires. (Rubrique « Qu'est-ce qui n'est pas assuré ? »)",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Faute intentionnelle ou dolosive de l'assuré",
-      "description": "Les dommages provenant d'une faute intentionnelle ou dolosive de l'assuré. (Principales exclusions légales et contractuelles)",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Conducteur sans l'âge requis ou sans certificats valides",
-      "description": "Les dommages survenus lorsque le conducteur n'a pas l'âge requis ou n'est pas titulaire des certificats en état de validité exigés par la réglementation pour la conduite du véhicule assuré.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Transport de matières inflammables, explosives, corrosives ou comburantes",
-      "description": "Les dommages causés ou subis par le véhicule assuré en cas de transport de matières inflammables, explosives, corrosives ou comburantes.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Épreuves, courses, compétitions et leurs essais",
-      "description": "Les dommages survenus au cours d'épreuves, courses, compétition ou leurs essais, soumis à l'autorisation préalable des Pouvoirs Publics.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Guerre civile ou étrangère",
-      "description": "Les dommages occasionnés par la guerre civile ou étrangère.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Conducteur sous l'empire d'un état alcoolique ou sous l'emprise de stupéfiants",
-      "description": "Les dommages survenus lorsque le conducteur est sous l'empire d'un état alcoolique ou sous l'emprise de stupéfiants (exclusion non applicable à la garantie de Responsabilité civile).",
-      "applies_to": "Toutes les garanties sauf la Responsabilité civile",
-      "page": 1
-    }
-  ],
-  "deductibles": {
-    "standard": "Une franchise précisée au contrat est susceptible d'être déduite du montant de l'estimation des dommages.",
-    "variable": null,
-    "per_coverage": null,
-    "page": 1
+ "schema_version": "1.0",
+ "prompt_version": "1.1",
+ "country": "fr",
+ "insurer_slug": "matmut",
+ "insurer_name": "Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477",
+ "product_name": "Contrat « Flotte de véhicules »",
+ "branch": "auto",
+ "branch_code": null,
+ "document_type": "ipid",
+ "language": "fr",
+ "target_audience": null,
+ "target_audience_note": "Le document ne nomme aucune catégorie de souscripteurs. Il décrit l'objet du contrat comme garantissant « l'ensemble d'une flotte de véhicule (2 roues, 3 roues ou 4 roues motorisés) » et emploie un vocabulaire d'exploitation (« l'établissement auquel le véhicule est affecté », « les entrées et/ou sorties de véhicule composant le parc à garantir », garantie optionnelle « Marchandises et outillage professionnels transportés »), sans pour autant énoncer l'audience du produit.",
+ "reference": "IPID.FLOTTE- 11/24",
+ "edition_date": "2024-11",
+ "product_family": "Flotte de véhicules",
+ "variant": null,
+ "is_extension": false,
+ "extends": null,
+ "superseded": null,
+ "source_url": "https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDMRSQFLOTTE.pdf",
+ "source_pdf": "contrat-flotte-de-vehicules-69132614.pdf",
+ "source_sha256": "ed6b20f7a0978810496ada3256f17626ac353872e63b6859882b2800910d47f7",
+ "source_pages": 2,
+ "fetched_at": "2026-07-30",
+ "extraction_model": "claude-code-subagent:scale",
+ "summary": "Document d'information sur le produit d'assurance (IPID) relatif au contrat « Flotte de véhicules » de la Matmut, assurance automobile. Le contrat a pour objet de garantir l'ensemble d'une flotte de véhicules (2 roues, 3 roues ou 4 roues motorisés) contre les conséquences des dommages matériels et corporels causés à des tiers (Responsabilité civile), assurance obligatoire, et inclut systématiquement la Protection Juridique suite à accident. Une gamme étendue de garanties optionnelles peut être souscrite, dont certaines réservées aux voitures particulières et camping-cars ou aux motocyclettes et quads. Le document ne présente qu'un résumé des principales garanties et exclusions.",
+ "definitions": [],
+ "coverages": [
+  {
+   "name": "Responsabilité civile en et hors circulation",
+   "description": "Dommages causés aux tiers par le véhicule.",
+   "is_optional": false,
+   "territorial_scope": "France métropolitaine, Départements et Régions d'Outre-Mer (Guadeloupe, Guyane, Martinique, Mayotte et La Réunion) et déplacements dans les pays de l'Union Européenne ainsi que Andorre, Bosnie-Herzégovine, Islande, Liechtenstein, Monaco, Monténégro, Norvège, Royaume-Uni, Serbie et Suisse.",
+   "limits": "Dommages corporels : illimité. Tous dommages matériels, immatériels consécutifs et préjudice écologique confondus jusqu'à 100 000 000 €.",
+   "sub_limits": [
+    "Dommages corporels : illimité.",
+    "Tous dommages matériels, immatériels consécutifs et préjudice écologique confondus jusqu'à 100 000 000 €."
+   ],
+   "deductible": null,
+   "conditions": [
+    "Assurance obligatoire",
+    "Seuls les principaux plafonds des garanties en inclusion sont indiqués ; le détail des plafonds et sous-plafonds figure aux Conditions générales du contrat"
+   ],
+   "page": 1
   },
-  "waiting_periods": [
-    {
-      "coverage": "Panne mécanique",
-      "duration": "90 jours",
-      "description": "Un délai de carence de 90 jours est prévu au titre de la garantie Panne mécanique pour les véhicules ayant plus de 48 mois à la date d'effet du contrat.",
-      "page": 1
-    }
-  ],
-  "obligations": [
-    {
-      "name": "Déclaration du risque à la souscription",
-      "description": "Répondre exactement aux questions posées par l'assureur permettant d'apprécier les risques à prendre en charge.",
-      "timing": "à la souscription",
-      "sanction": "Sous peine de nullité du contrat ou de non-garantie",
-      "page": 2
-    },
-    {
-      "name": "Déclaration d'aggravation du risque et des mouvements de parc en cours de contrat",
-      "description": "Déclarer tout élément ayant pour effet d'aggraver le risque garanti, notamment les entrées et/ou sorties de véhicule composant le parc à garantir.",
-      "timing": "en cours de contrat",
-      "sanction": "Sous peine de nullité du contrat ou de non-garantie",
-      "page": 2
-    },
-    {
-      "name": "Déclaration de sinistre",
-      "description": "Déclarer le sinistre le plus rapidement possible et, au plus tard, dans les délais et selon les modalités précisés aux Conditions générales.",
-      "timing": "en cas de sinistre",
-      "sanction": "Sous peine de nullité du contrat ou de non-garantie",
-      "page": 2
-    }
-  ],
-  "claims_procedure": [
-    {
-      "step": "Déclaration du sinistre",
-      "description": "Déclarer le sinistre le plus rapidement possible et, au plus tard, dans les délais et selon les modalités précisés aux Conditions générales.",
-      "deadline": "Le plus rapidement possible, et au plus tard dans les délais précisés aux Conditions générales (délai chiffré non indiqué dans ce document)",
-      "page": 2
-    }
-  ],
-  "duration_and_cancellation": {
-    "duration": "Le contrat est conclu pour une durée d'un an. La première année, il est conclu pour la période comprise entre sa date d'effet et la date d'échéance annuelle indiquée aux Conditions particulières.",
-    "tacit_renewal": true,
-    "notice_period": "un mois (résiliation à l'échéance annuelle)",
-    "methods": [
-      "par lettre ou tout autre support durable (lettre recommandée électronique…)",
-      "par une déclaration faite auprès de l'assureur ou de son représentant",
-      "lorsque la conclusion de contrat est proposée par un mode de communication à distance, par ce même mode"
-    ],
-    "special_rights": [
-      "à son échéance annuelle, sous réserve de respecter un délai de préavis d'un mois"
-    ],
-    "page": 2
+  {
+   "name": "Protection Juridique suite à accident",
+   "description": "Prise en charge des frais de défense pénale ou de recours de l'assuré suite à accident.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "jusqu'à 20 000 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Seuil de déclenchement : 150 € à l'amiable",
+    "Seuil de déclenchement : 760 € devant les Tribunaux et Cours d'Appel",
+    "Seuil de déclenchement : 3 000 € devant le Conseil d'État ou la Cour de Cassation"
+   ],
+   "page": 1
   },
-  "prescription_period": null,
-  "premium": {
-    "notes": [
-      "Les paiements doivent être effectués lors de la souscription du contrat et à l'échéance annuelle.",
-      "Les cotisations sont annuelles et payables d'avance par virement, prélèvement automatique ou chèque.",
-      "Elles peuvent être réglées en plusieurs fractions sans frais supplémentaires selon les modalités prévues au contrat.",
-      "Les garanties prennent effet aux date et heure indiquées aux Conditions particulières, sous réserve que le paiement de la première cotisation ou première fraction de cotisation soit honoré."
-    ],
-    "indexation": null,
-    "page": 2
+  {
+   "name": "Bris de pare-brise",
+   "description": "Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie.",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
   },
-  "special_conditions": [
-    {
-      "name": "Seuil de déclenchement de la garantie Dommages corporels du conducteur",
-      "description": "Le seuil de déclenchement des garantie [sic] Dommages corporels du conducteur au titre de l'Incapacité permanente est de 10 %.",
-      "page": 1
-    },
-    {
-      "name": "Seuils de déclenchement de la Protection Juridique",
-      "description": "Les seuils de déclenchement des garanties de Protection Juridique sont de : 150 € à l'amiable, 760 € devant les Tribunaux et Cours d'Appel, 3 000 € devant le Conseil d'État ou la Cour de Cassation.",
-      "page": 1
-    },
-    {
-      "name": "Extension territoriale sous conditions",
-      "description": "Les garanties peuvent également être accordées en Albanie, au Maroc, en Moldavie, en République Macédoine du Nord, en Tunisie, en Turquie et en Ukraine sous réserve de l'accord préalable de l'assureur et de la présentation lors du passage à la frontière de la carte internationale d'assurance automobile.",
-      "page": 2
-    },
-    {
-      "name": "Portée du document",
-      "description": "Ce document d'information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. L'information complète figure dans la documentation précontractuelle et contractuelle.",
-      "page": 1
-    }
+  {
+   "name": "Bris de glaces",
+   "description": "Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie.",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Vol du véhicule",
+   "description": "Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie. Elle est listée distinctement de la garantie « Vol et tentative de vol ».",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Vol et tentative de vol",
+   "description": "Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie. Elle est listée distinctement de la garantie « Vol du véhicule ».",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Incendie (hors acte de vandalisme) - attentat - tempête",
+   "description": "Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie. Elle est listée distinctement de la garantie « Incendie-attentat-tempête ».",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Incendie-attentat-tempête",
+   "description": "Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie. Elle est listée distinctement de la garantie « Incendie (hors acte de vandalisme) - attentat - tempête ».",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Catastrophes naturelles",
+   "description": "Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie.",
+   "is_optional": true,
+   "territorial_scope": "Ne s'exerce qu'en France métropolitaine et dans les Départements et Régions d'Outre-Mer (Guadeloupe, Guyane, Martinique, Mayotte et La Réunion).",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Catastrophes technologiques",
+   "description": "Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie.",
+   "is_optional": true,
+   "territorial_scope": "Ne s'exerce qu'en France métropolitaine et dans les Départements et Régions d'Outre-Mer (Guadeloupe, Guyane, Martinique, Mayotte et La Réunion).",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Dommages collision",
+   "description": "Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie. Elle est listée distinctement de « Dommages collision-événements naturels ».",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Dommages collision-événements naturels",
+   "description": "Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie. Elle est listée distinctement de « Dommages collision ».",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Dommages accidents",
+   "description": "Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie. Elle est listée distinctement de « Dommages accidents-vandalisme-événements naturels ».",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Dommages accidents-vandalisme-événements naturels",
+   "description": "Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie. Elle est listée distinctement de « Dommages accidents ».",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Accessoires et aménagements du véhicule",
+   "description": "Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie.",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Exonérations spécifiques de franchise",
+   "description": "Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie.",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Marchandises et outillage professionnels transportés",
+   "description": "Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie.",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Dommages corporels du conducteur",
+   "description": "Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie.",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Le seuil de déclenchement au titre de l'Incapacité permanente est de 10 %"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Indisponibilité du véhicule suite à accident",
+   "description": "Prise en charge des frais journaliers engagés pour remplacer le véhicule indisponible suite à un événement garanti.",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Indisponibilité du véhicule suite à panne",
+   "description": "Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie.",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Assistance au véhicule et aux personnes transportées",
+   "description": "Prise en charge des personnes et dépannage-remorquage du véhicule assuré en cas d'accident, d'incendie, de vol, de tentative de vol ou de panne (sous réserve que cette dernière se produise au moins à 50 km de l'établissement auquel le véhicule est affecté ou du domicile du bénéficiaire lorsque le véhicule y est habituellement stationné).",
+   "is_optional": true,
+   "territorial_scope": "Fait l'objet, pour la territorialité, de développements spécifiques dans les Conditions générales.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Sous réserve que la panne se produise au moins à 50 km de l'établissement auquel le véhicule est affecté ou du domicile du bénéficiaire lorsque le véhicule y est habituellement stationné"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Assistance panne 0 km",
+   "description": "Prise en charge des personnes et dépannage-remorquage du véhicule assuré en cas de panne sans franchise kilométrique en cas de panne.",
+   "is_optional": true,
+   "territorial_scope": "Fait l'objet, pour la territorialité, de développements spécifiques dans les Conditions générales.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Protection Juridique relative au bien assuré",
+   "description": "Prise en charge de la défense des intérêts de l'assuré en cas de litige avec un tiers résultant de l'achat, de la vente ou de la réparation du véhicule assuré.",
+   "is_optional": true,
+   "territorial_scope": "Fait l'objet, pour la territorialité, de développements spécifiques dans les Conditions générales.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Seuil de déclenchement : 150 € à l'amiable",
+    "Seuil de déclenchement : 760 € devant les Tribunaux et Cours d'Appel",
+    "Seuil de déclenchement : 3 000 € devant le Conseil d'État ou la Cour de Cassation"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Avance de franchise et/ou de TVA",
+   "description": "Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie.",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Contenu privé",
+   "description": "Garantie optionnelle relevant de la rubrique « Garanties optionnelles (voitures particulières et camping-cars) ». Le document ne détaille pas le contenu de cette garantie.",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Réservée aux voitures particulières et camping-cars"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Panne mécanique",
+   "description": "Garantie optionnelle relevant de la rubrique « Garanties optionnelles (voitures particulières et camping-cars) ». Le document ne détaille pas le contenu de cette garantie.",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Réservée aux voitures particulières et camping-cars",
+    "Un délai de carence de 90 jours est prévu pour les véhicules ayant plus de 48 mois à la date d'effet du contrat"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Équipements de protection du conducteur",
+   "description": "Garantie optionnelle relevant de la rubrique « Garantie optionnelle (motocyclettes et quads) ». Le document ne détaille pas le contenu de cette garantie.",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Réservée aux motocyclettes et quads"
+   ],
+   "page": 1
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Véhicules frappés d'une interdiction de rouler ou ayant subi un retrait d'immatriculation",
+   "description": "Les véhicules frappés d'une interdiction de rouler ou ayant subi un retrait d'immatriculation. (Rubrique « Qu'est-ce qui n'est pas assuré ? »)",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Amendes, majorations et accessoires",
+   "description": "Les amendes, leurs majorations et accessoires. (Rubrique « Qu'est-ce qui n'est pas assuré ? »)",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Faute intentionnelle ou dolosive de l'assuré",
+   "description": "Les dommages provenant d'une faute intentionnelle ou dolosive de l'assuré. (Principales exclusions légales et contractuelles)",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Conducteur sans l'âge requis ou sans certificats valides",
+   "description": "Les dommages survenus lorsque le conducteur n'a pas l'âge requis ou n'est pas titulaire des certificats en état de validité exigés par la réglementation pour la conduite du véhicule assuré.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Transport de matières inflammables, explosives, corrosives ou comburantes",
+   "description": "Les dommages causés ou subis par le véhicule assuré en cas de transport de matières inflammables, explosives, corrosives ou comburantes.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Épreuves, courses, compétitions et leurs essais",
+   "description": "Les dommages survenus au cours d'épreuves, courses, compétition ou leurs essais, soumis à l'autorisation préalable des Pouvoirs Publics.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Guerre civile ou étrangère",
+   "description": "Les dommages occasionnés par la guerre civile ou étrangère.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Conducteur sous l'empire d'un état alcoolique ou sous l'emprise de stupéfiants",
+   "description": "Les dommages survenus lorsque le conducteur est sous l'empire d'un état alcoolique ou sous l'emprise de stupéfiants (exclusion non applicable à la garantie de Responsabilité civile).",
+   "applies_to": "Toutes les garanties sauf la Responsabilité civile",
+   "page": 1
+  }
+ ],
+ "deductibles": {
+  "standard": "Une franchise précisée au contrat est susceptible d'être déduite du montant de l'estimation des dommages.",
+  "variable": null,
+  "per_coverage": null,
+  "page": 1
+ },
+ "waiting_periods": [
+  {
+   "coverage": "Panne mécanique",
+   "duration": "90 jours",
+   "description": "Un délai de carence de 90 jours est prévu au titre de la garantie Panne mécanique pour les véhicules ayant plus de 48 mois à la date d'effet du contrat.",
+   "page": 1
+  }
+ ],
+ "obligations": [
+  {
+   "name": "Déclaration du risque à la souscription",
+   "description": "Répondre exactement aux questions posées par l'assureur permettant d'apprécier les risques à prendre en charge.",
+   "timing": "à la souscription",
+   "sanction": "Sous peine de nullité du contrat ou de non-garantie",
+   "page": 2
+  },
+  {
+   "name": "Déclaration d'aggravation du risque et des mouvements de parc en cours de contrat",
+   "description": "Déclarer tout élément ayant pour effet d'aggraver le risque garanti, notamment les entrées et/ou sorties de véhicule composant le parc à garantir.",
+   "timing": "en cours de contrat",
+   "sanction": "Sous peine de nullité du contrat ou de non-garantie",
+   "page": 2
+  },
+  {
+   "name": "Déclaration de sinistre",
+   "description": "Déclarer le sinistre le plus rapidement possible et, au plus tard, dans les délais et selon les modalités précisés aux Conditions générales.",
+   "timing": "en cas de sinistre",
+   "sanction": "Sous peine de nullité du contrat ou de non-garantie",
+   "page": 2
+  }
+ ],
+ "claims_procedure": [
+  {
+   "step": "Déclaration du sinistre",
+   "description": "Déclarer le sinistre le plus rapidement possible et, au plus tard, dans les délais et selon les modalités précisés aux Conditions générales.",
+   "deadline": "Le plus rapidement possible, et au plus tard dans les délais précisés aux Conditions générales (délai chiffré non indiqué dans ce document)",
+   "page": 2
+  }
+ ],
+ "duration_and_cancellation": {
+  "duration": "Le contrat est conclu pour une durée d'un an. La première année, il est conclu pour la période comprise entre sa date d'effet et la date d'échéance annuelle indiquée aux Conditions particulières.",
+  "tacit_renewal": true,
+  "notice_period": "un mois (résiliation à l'échéance annuelle)",
+  "methods": [
+   "par lettre ou tout autre support durable (lettre recommandée électronique…)",
+   "par une déclaration faite auprès de l'assureur ou de son représentant",
+   "lorsque la conclusion de contrat est proposée par un mode de communication à distance, par ce même mode"
   ],
-  "key_quotes": [
-    {
-      "quote": "Ce contrat d’assurance a pour objet de garantir l’ensemble d’une flotte de véhicule (2 roues, 3 roues ou 4 roues motorisés) contre les \nconséquences des dommages matériels et corporels causés à des tiers (Responsabilité civile). C’est une assurance obligatoire. Il peut \négalement accorder des garanties complémentaires afin de couvrir les dommages corporels du conducteur, les dommages matériels subis \npar les véhicules assurés ou encore la défense des intérêts de l’assuré.",
-      "page": 1,
-      "context": "Objet du contrat (rubrique « De quel type d'assurance s'agit-il ? »)"
-    },
-    {
-      "quote": "Tous dommages matériels, immatériels consécutifs et \npréjudice écologique confondus jusqu’à 100 000 000 €.",
-      "page": 1,
-      "context": "Plafond de la Responsabilité civile pour les dommages matériels"
-    },
-    {
-      "quote": "Les dommages provenant d’une faute intentionnelle ou \ndolosive de l’assuré.",
-      "page": 1,
-      "context": "Première des principales exclusions légales et contractuelles"
-    },
-    {
-      "quote": "Un délai de carence de 90 jours est prévu au titre de la \ngarantie Panne mécanique pour les véhicules ayant plus de \n48 mois à la date d’effet du contrat.",
-      "page": 1,
-      "context": "Délai de carence de la garantie Panne mécanique"
-    },
-    {
-      "quote": "Le seuil de déclenchement des garantie Dommages \ncorporels du conducteur au titre de l’Incapacité permanente \nest de 10 %.",
-      "page": 1,
-      "context": "Seuil d'Incapacité permanente ; la coquille de l'assureur « des garantie » (sans s) est conservée verbatim"
-    },
-    {
-      "quote": "Les garanties s’exercent en France métropolitaine, dans les Départements et Régions d’Outre-Mer (Guadeloupe, Guyane, \nMartinique, Mayotte et La Réunion) et au cours de déplacements effectués dans les pays de l’Union Européenne ainsi que dans \nles pays suivants : Andorre, Bosnie-Herzégovine, Islande, Liechtenstein, Monaco, Monténégro, Norvège, Royaume-Uni, Serbie et \nSuisse.",
-      "page": 2,
-      "context": "Portée territoriale de base et liste des pays"
-    },
-    {
-      "quote": "en cours de contrat : déclarer tout élément ayant pour effet d’aggraver le risque garanti, notamment les entrées et/ou sorties de \nvéhicule composant le parc à garantir,",
-      "page": 2,
-      "context": "Obligation de déclaration propre au contrat de flotte : mouvements du parc"
-    },
-    {
-      "quote": "Elle peut être demandée aux conditions prévues au contrat à son échéance annuelle, sous réserve de respecter un délai de préavis \nd’un mois.",
-      "page": 2,
-      "context": "Seule faculté de résiliation énoncée par ce document"
-    }
+  "special_rights": [
+   "à son échéance annuelle, sous réserve de respecter un délai de préavis d'un mois"
   ],
-  "gaps": [
-    "Le document est un IPID (2 pages) : il ne présente qu'un résumé des principales garanties et exclusions et renvoie aux Conditions générales pour le détail des plafonds et sous-plafonds. La très grande majorité des 25 garanties optionnelles est listée par son seul intitulé, sans description, sans plafond et sans franchise ; aucun contenu ne peut leur être attribué à partir de ce document.",
-    "Contrairement aux autres IPID auto de ce lot Matmut, l'Assistance au véhicule et aux personnes transportées figure ici sous « Garanties optionnelles » et non parmi les « Garanties en inclusion systématiquement prévues » : elle a donc été enregistrée avec is_optional = true, conformément au document.",
-    "La liste des garanties optionnelles contient des intitulés très voisins mais distincts, énumérés séparément par le document et conservés tels quels sans fusion : « Vol du véhicule » et « Vol et tentative de vol » ; « Incendie (hors acte de vandalisme) - attentat - tempête » et « Incendie-attentat-tempête » ; « Dommages collision » et « Dommages collision-événements naturels » ; « Dommages accidents » et « Dommages accidents-vandalisme-événements naturels ». Le document n'explique pas ce qui les sépare (il s'agit vraisemblablement de variantes de formule, mais il ne le dit pas).",
-    "Coquille de l'assureur conservée verbatim : « Le seuil de déclenchement des garantie Dommages corporels du conducteur » (page 1), « garantie » au singulier après « des ». Non corrigée.",
-    "La rubrique « Comment puis-je résilier le contrat ? » de ce document n'énonce que la résiliation à l'échéance annuelle avec préavis d'un mois. À la différence des autres IPID auto de ce lot Matmut, elle ne mentionne ni la résiliation infra-annuelle après un an, ni le délai de vingt jours suivant l'avis d'échéance, qui y sont réservés au contrat concernant « une personne physique en dehors de toute activité professionnelle ». Cette absence est enregistrée telle quelle, sans interprétation.",
-    "Aucune section de définitions/lexique ne figure dans le document : definitions[] est donc vide.",
-    "Aucune clause de prescription n'est mentionnée : prescription_period est null.",
-    "target_audience laissé à null : le document ne nomme aucune catégorie de souscripteurs, malgré un vocabulaire d'exploitation de parc. Voir target_audience_note.",
-    "edition_date déduite du seul code de référence imprimé en pied de page 2, « IPID.FLOTTE- 11/24 », où « 11/24 » se lit MM/AA, soit novembre 2024. Le document ne porte aucune mention « édition » explicite, et ne porte qu'un seul code de référence.",
-    "Défaut du calque texte du PDF, sans incidence sur les valeurs extraites : 4 glyphes de zone privée U+F0FC (puces Wingdings) subsistent en début de puce (pages 1 et 2). Les key_quotes ont été découpées de façon à ne traverser aucun de ces glyphes. Le mot « camping-cars » est coupé par un vrai trait d'union en fin de ligne (« camping-\\ncars ») dans l'intitulé de rubrique des garanties optionnelles ; aucune citation ne traverse cette coupure.",
-    "Les seuils de déclenchement de la Protection Juridique sont énoncés une seule fois pour l'ensemble des garanties de Protection Juridique ; le document ne précise pas s'ils s'appliquent identiquement à la « Protection Juridique suite à accident » et à la « Protection Juridique relative au bien assuré ». Ils ont été rattachés aux deux, comme le fait le texte (« les garanties de Protection Juridique »)."
-  ]
+  "page": 2
+ },
+ "prescription_period": null,
+ "premium": {
+  "notes": [
+   "Les paiements doivent être effectués lors de la souscription du contrat et à l'échéance annuelle.",
+   "Les cotisations sont annuelles et payables d'avance par virement, prélèvement automatique ou chèque.",
+   "Elles peuvent être réglées en plusieurs fractions sans frais supplémentaires selon les modalités prévues au contrat.",
+   "Les garanties prennent effet aux date et heure indiquées aux Conditions particulières, sous réserve que le paiement de la première cotisation ou première fraction de cotisation soit honoré."
+  ],
+  "indexation": null,
+  "page": 2
+ },
+ "special_conditions": [
+  {
+   "name": "Seuil de déclenchement de la garantie Dommages corporels du conducteur",
+   "description": "Le seuil de déclenchement des garantie [sic] Dommages corporels du conducteur au titre de l'Incapacité permanente est de 10 %.",
+   "page": 1
+  },
+  {
+   "name": "Seuils de déclenchement de la Protection Juridique",
+   "description": "Les seuils de déclenchement des garanties de Protection Juridique sont de : 150 € à l'amiable, 760 € devant les Tribunaux et Cours d'Appel, 3 000 € devant le Conseil d'État ou la Cour de Cassation.",
+   "page": 1
+  },
+  {
+   "name": "Extension territoriale sous conditions",
+   "description": "Les garanties peuvent également être accordées en Albanie, au Maroc, en Moldavie, en République Macédoine du Nord, en Tunisie, en Turquie et en Ukraine sous réserve de l'accord préalable de l'assureur et de la présentation lors du passage à la frontière de la carte internationale d'assurance automobile.",
+   "page": 2
+  },
+  {
+   "name": "Portée du document",
+   "description": "Ce document d'information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. L'information complète figure dans la documentation précontractuelle et contractuelle.",
+   "page": 1
+  }
+ ],
+ "key_quotes": [
+  {
+   "quote": "Ce contrat d’assurance a pour objet de garantir l’ensemble d’une flotte de véhicule (2 roues, 3 roues ou 4 roues motorisés) contre les \nconséquences des dommages matériels et corporels causés à des tiers (Responsabilité civile). C’est une assurance obligatoire. Il peut \négalement accorder des garanties complémentaires afin de couvrir les dommages corporels du conducteur, les dommages matériels subis \npar les véhicules assurés ou encore la défense des intérêts de l’assuré.",
+   "page": 1,
+   "context": "Objet du contrat (rubrique « De quel type d'assurance s'agit-il ? »)"
+  },
+  {
+   "quote": "Tous dommages matériels, immatériels consécutifs et \npréjudice écologique confondus jusqu’à 100 000 000 €.",
+   "page": 1,
+   "context": "Plafond de la Responsabilité civile pour les dommages matériels"
+  },
+  {
+   "quote": "Les dommages provenant d’une faute intentionnelle ou \ndolosive de l’assuré.",
+   "page": 1,
+   "context": "Première des principales exclusions légales et contractuelles"
+  },
+  {
+   "quote": "Un délai de carence de 90 jours est prévu au titre de la \ngarantie Panne mécanique pour les véhicules ayant plus de \n48 mois à la date d’effet du contrat.",
+   "page": 1,
+   "context": "Délai de carence de la garantie Panne mécanique"
+  },
+  {
+   "quote": "Le seuil de déclenchement des garantie Dommages \ncorporels du conducteur au titre de l’Incapacité permanente \nest de 10 %.",
+   "page": 1,
+   "context": "Seuil d'Incapacité permanente ; la coquille de l'assureur « des garantie » (sans s) est conservée verbatim"
+  },
+  {
+   "quote": "Les garanties s’exercent en France métropolitaine, dans les Départements et Régions d’Outre-Mer (Guadeloupe, Guyane, \nMartinique, Mayotte et La Réunion) et au cours de déplacements effectués dans les pays de l’Union Européenne ainsi que dans \nles pays suivants : Andorre, Bosnie-Herzégovine, Islande, Liechtenstein, Monaco, Monténégro, Norvège, Royaume-Uni, Serbie et \nSuisse.",
+   "page": 2,
+   "context": "Portée territoriale de base et liste des pays"
+  },
+  {
+   "quote": "en cours de contrat : déclarer tout élément ayant pour effet d’aggraver le risque garanti, notamment les entrées et/ou sorties de \nvéhicule composant le parc à garantir,",
+   "page": 2,
+   "context": "Obligation de déclaration propre au contrat de flotte : mouvements du parc"
+  },
+  {
+   "quote": "Elle peut être demandée aux conditions prévues au contrat à son échéance annuelle, sous réserve de respecter un délai de préavis \nd’un mois.",
+   "page": 2,
+   "context": "Seule faculté de résiliation énoncée par ce document"
+  }
+ ],
+ "gaps": [
+  "Le document est un IPID (2 pages) : il ne présente qu'un résumé des principales garanties et exclusions et renvoie aux Conditions générales pour le détail des plafonds et sous-plafonds. La très grande majorité des 25 garanties optionnelles est listée par son seul intitulé, sans description, sans plafond et sans franchise ; aucun contenu ne peut leur être attribué à partir de ce document.",
+  "Contrairement aux autres IPID auto de ce lot Matmut, l'Assistance au véhicule et aux personnes transportées figure ici sous « Garanties optionnelles » et non parmi les « Garanties en inclusion systématiquement prévues » : elle a donc été enregistrée avec is_optional = true, conformément au document.",
+  "La liste des garanties optionnelles contient des intitulés très voisins mais distincts, énumérés séparément par le document et conservés tels quels sans fusion : « Vol du véhicule » et « Vol et tentative de vol » ; « Incendie (hors acte de vandalisme) - attentat - tempête » et « Incendie-attentat-tempête » ; « Dommages collision » et « Dommages collision-événements naturels » ; « Dommages accidents » et « Dommages accidents-vandalisme-événements naturels ». Le document n'explique pas ce qui les sépare (il s'agit vraisemblablement de variantes de formule, mais il ne le dit pas).",
+  "Coquille de l'assureur conservée verbatim : « Le seuil de déclenchement des garantie Dommages corporels du conducteur » (page 1), « garantie » au singulier après « des ». Non corrigée.",
+  "La rubrique « Comment puis-je résilier le contrat ? » de ce document n'énonce que la résiliation à l'échéance annuelle avec préavis d'un mois. À la différence des autres IPID auto de ce lot Matmut, elle ne mentionne ni la résiliation infra-annuelle après un an, ni le délai de vingt jours suivant l'avis d'échéance, qui y sont réservés au contrat concernant « une personne physique en dehors de toute activité professionnelle ». Cette absence est enregistrée telle quelle, sans interprétation.",
+  "Aucune section de définitions/lexique ne figure dans le document : definitions[] est donc vide.",
+  "Aucune clause de prescription n'est mentionnée : prescription_period est null.",
+  "target_audience laissé à null : le document ne nomme aucune catégorie de souscripteurs, malgré un vocabulaire d'exploitation de parc. Voir target_audience_note.",
+  "edition_date déduite du seul code de référence imprimé en pied de page 2, « IPID.FLOTTE- 11/24 », où « 11/24 » se lit MM/AA, soit novembre 2024. Le document ne porte aucune mention « édition » explicite, et ne porte qu'un seul code de référence.",
+  "Défaut du calque texte du PDF, sans incidence sur les valeurs extraites : 4 glyphes de zone privée U+F0FC (puces Wingdings) subsistent en début de puce (pages 1 et 2). Les key_quotes ont été découpées de façon à ne traverser aucun de ces glyphes. Le mot « camping-cars » est coupé par un vrai trait d'union en fin de ligne (« camping-\\ncars ») dans l'intitulé de rubrique des garanties optionnelles ; aucune citation ne traverse cette coupure.",
+  "Les seuils de déclenchement de la Protection Juridique sont énoncés une seule fois pour l'ensemble des garanties de Protection Juridique ; le document ne précise pas s'ils s'appliquent identiquement à la « Protection Juridique suite à accident » et à la « Protection Juridique relative au bien assuré ». Ils ont été rattachés aux deux, comme le fait le texte (« les garanties de Protection Juridique »).",
+  "Provenance de edition_date: cette date ne vient pas du texte du document mais du manifeste, ou elle avait ete deduite lors de la decouverte. A verifier contre le document avant d'y appuyer une comparaison d'editions."
+ ]
 }

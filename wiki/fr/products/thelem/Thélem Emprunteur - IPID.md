@@ -14,7 +14,7 @@ target_audience_note: L’assurance Emprunteur a pour objectif de couvrir un pr�
   les personnes physiques en dehors de leurs activités professionnelles » et le délai
   de renonciation de 30 jours « ne s’applique pas aux prêts professionnels ».
 reference: null
-edition_date: 2025-06
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/emprunteur
@@ -30,7 +30,7 @@ prompt_version: '1.1'
 product_family: thelem-emprunteur
 variant: null
 edition_status: null
-edition_age_years: 1
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -44,7 +44,7 @@ generated: true
 
 Thélem Emprunteur est une assurance emprunteur (document d’information sur le produit d’assurance) souscrite auprès de Thélem prévoyance, S.A. à Conseil d’Administration. Elle a pour objectif de couvrir un prêt personnel ou professionnel contracté par l’assuré auprès d’un organisme prêteur, ce dernier étant le bénéficiaire acceptant du contrat. La garantie Décès / Perte Totale et Irréversible d’Autonomie (PTIA) est systématiquement prévue et donne lieu au versement du capital restant dû ; les garanties Invalidité Permanente Totale (IPT) et Partielle (IPP), Incapacité Temporaire Totale (ITT) dont aide à la famille, et l’Option Intégrale sont optionnelles. Les garanties sont acquises dans le monde entier.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Assurance emprunteur](../../branches/Assurance%20emprunteur.md) · Type : IPID / Fiche d'information · Édition : 2025-06
+- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Assurance emprunteur](../../branches/Assurance%20emprunteur.md) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -200,6 +200,7 @@ Garantie optionnelle. En cas d’ITT (y compris mi-temps thérapeutique), d’IP
 - Le montant de la cotisation n’est pas indiqué (renvoi au certificat d’adhésion).
 - Le document mentionne « D’autres situations entrainent les cessations des garanties » sans les énumérer toutes (seuls « les principaux cas » sont listés).
 - Aucune procédure de règlement de sinistre détaillée au-delà des obligations déclaratives (pas de délai chiffré : « dans le délai fixé par le contrat »).
+- edition_date remise a null le 2026-08-01: la valeur 2025-06 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

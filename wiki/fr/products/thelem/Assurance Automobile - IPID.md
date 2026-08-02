@@ -13,7 +13,7 @@ target_audience_note: Le document ne nomme pas explicitement sa cible ; la facul
   les personnes physiques en dehors de leurs activités professionnelles », et le transport
   public de voyageurs et de marchandises n'est pas assuré.
 reference: null
-edition_date: 2026-01
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/auto
@@ -29,7 +29,7 @@ prompt_version: '1.1'
 product_family: assurance-automobile
 variant: null
 edition_status: null
-edition_age_years: 0
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -43,7 +43,7 @@ generated: true
 
 L'assurance Automobile de Thélem assurances a pour objectif de garantir l'assuré contre les conséquences des dommages matériels ou corporels causés par son véhicule à des tiers (responsabilité civile) ; c'est une assurance obligatoire. Sont assurés les véhicules terrestres à moteur 4 roues jusqu'à 3,5 Tonnes nécessitant un permis de conduire et leurs remorques. Le contrat inclut également les dommages corporels du conducteur ainsi que des prestations d'assistance au véhicule et aux personnes. Selon les formules souscrites, il couvre aussi les dommages matériels du véhicule assuré (bris de glaces, incendie, vol, tempête, tous accidents et vandalisme, etc.).
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 2026-01
+- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -217,6 +217,7 @@ Des solutions accordées lors de la mise à disposition du véhicule assuré en 
 - La mention « Préjudice écologique » est imprimée à la suite de la garantie Responsabilité Civile sans plafond propre ; elle a été conservée dans la description de cette garantie.
 - Les garanties sont nommées en page 1 et leurs portées territoriales en page 2 ; le champ `page` des garanties cite la page 1, où la garantie est nommée.
 - Le texte extrait du PDF comporte de nombreux sauts de ligne au milieu des phrases (mise en page en colonnes) ; les descriptions ont été recomposées sans modifier les termes employés.
+- edition_date remise a null le 2026-08-01: la valeur 2026-01 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

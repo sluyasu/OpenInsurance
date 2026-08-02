@@ -175,6 +175,7 @@ Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie.
 - Le bloc d'identification imprime « Code des Assurances » avec une majuscule à « Assurances » et « 66 rue de Sotteville » sans virgule, là où les autres documents Matmut & Co du lot impriment « Code des assurances » et « 66, rue de Sotteville ». Conservé verbatim, sans harmonisation.
 - La rubrique territoriale n'énonce qu'une seule exception d'assistance, au singulier : « la garantie Assistance au véhicule et aux personnes transportées, fait l'objet pour la territorialité, d'un développement spécifique dans les Conditions générales » (la virgule après « transportées » est celle du document). Les contrats Auto 4D du lot en énoncent trois.
 - Défaut du calque texte du PDF, sans incidence sur les valeurs extraites : 6 glyphes de zone privée U+F0FC (puces Wingdings) subsistent en début de puce (pages 1 et 2). Les key_quotes ont été découpées de façon à ne traverser aucun de ces glyphes.
+- Provenance de edition_date: cette date ne vient pas du texte du document mais du manifeste, ou elle avait ete deduite lors de la decouverte. A verifier contre le document avant d'y appuyer une comparaison d'editions.
 
 ## Source & fidélité
 

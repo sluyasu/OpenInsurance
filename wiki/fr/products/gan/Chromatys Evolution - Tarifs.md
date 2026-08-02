@@ -12,7 +12,7 @@ document_type: conditions_tarifaires
 target_audience: null
 target_audience_note: null
 reference: null
-edition_date: 2026-03
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/assurance-vie
@@ -28,7 +28,7 @@ prompt_version: '1.1'
 product_family: chromatys-evolution
 variant: null
 edition_status: null
-edition_age_years: 0
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -42,7 +42,7 @@ generated: true
 
 Fiche « Les Frais de l'assurance-vie » du contrat Chromatys Evolution, publiée au titre de l'engagement de transparence annuelle de Groupama Gan Vie. Elle indique le montant minimal de versement, le droit d'adhésion à l'association souscriptrice, les frais annuels de gestion du contrat (supports fonds euros, unités de compte, gestion déléguée), les frais moyens de gestion des unités de compte par classe d'actifs avec les taux de rétrocessions de commissions correspondants, et les frais ponctuels par opération. Le document ne décrit ni garanties ni exclusions : il ne porte que sur les frais. Les mentions légales indiquent que Gan Assurances distribue les produits de Groupama Gan Vie.
 
-- Assureur : [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../../insurers/Gan%20Assurances.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Conditions tarifaires · Édition : 2026-03
+- Assureur : [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../../insurers/Gan%20Assurances.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Conditions tarifaires
 
 ## Définitions
 
@@ -99,6 +99,7 @@ Fiche « Les Frais de l'assurance-vie » du contrat Chromatys Evolution, publié
 - La valeur « Droit unique de 20 € à l’adhésion » est imprimée deux fois, en face de « Frais d'adhésion à l'association ayant souscrit le contrat » et en face de « Autres frais annuels — Frais forfaitaires ». Les deux occurrences sont conservées telles quelles ; le document ne dit pas s'il s'agit du même prélèvement compté deux fois ou de deux postes distincts.
 - Plusieurs postes de frais sont imprimés « - » (frais proportionnels, changement de modes de gestion, arbitrage, nombre d'arbitrages gratuits, transferts sortants, versements de rente, rachat). Le document ne précise pas si « - » signifie « néant » ou « non applicable » ; la valeur est reproduite telle quelle sans interprétation.
 - Le nom du produit est imprimé « Chromatys Evolution » (sans accent) dans le titre et dans l'intitulé de la fiche ; il est repris tel quel, sans correction.
+- edition_date remise a null le 2026-08-01: la valeur 2026-03 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Documents liés
 

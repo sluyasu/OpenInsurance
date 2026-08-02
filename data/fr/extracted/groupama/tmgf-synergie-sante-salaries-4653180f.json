@@ -1,1232 +1,1233 @@
 {
-  "schema_version": "1.0",
-  "prompt_version": "1.1",
-  "country": "fr",
-  "insurer_slug": "groupama",
-  "insurer_name": "Groupama",
-  "product_name": "TMGF Synergie santé Salariés",
-  "branch": "sante",
-  "branch_code": null,
-  "document_type": "other",
-  "language": "fr",
-  "target_audience": null,
-  "target_audience_note": "Le tableau est intitulé « TMGF Synergie santé Salariés » et décliné en « Version Régime Local / En complément » ; le document n'énonce aucune condition d'éligibilité ni population assurable.",
-  "reference": null,
-  "edition_date": "2020-01",
-  "product_family": "Synergie santé Salariés",
-  "variant": "Version Régime Local / En complément",
-  "is_extension": false,
-  "extends": null,
-  "superseded": null,
-  "source_url": "https://assets.ctfassets.net/7awcp71bzphk/2WdH0QbT2yDvuM9AIoxpxr/3d1ec4295b3f531a9fece1ef2e0cbe03/tableau_de_garanties_synergie_sant___salari___r__gime_local.pdf",
-  "source_pdf": "synergie-sante-salaries-tableau-de-garanties-regime-local-alsace-moselle-4653180f.pdf",
-  "source_sha256": "6ac1760046d8794350cae45f7801d546fa9f581f2fec00bcb4a58c8012abbffb",
-  "source_pages": 2,
-  "fetched_at": "2026-07-30",
-  "extraction_model": "claude-code-subagent:scale",
-  "summary": "Tableau de garanties du contrat santé collectif Groupama « Synergie santé Salariés », version Régime Local. Il présente, poste par poste (Hospitalisation, Maternité, Soins courants, Pack Pharmacie, Aides auditives, Optique adulte et enfant, réseaux Sévéane optique et dentaire, Dentaire, Pack Prévention/médecines douces, Services inclus), le niveau de prise en charge dans dix formules (FORMULE 1, 1+, 2, 2+, 3, 3+, 4, 4+, 5, 5+), en regard du remboursement du régime obligatoire. Les montants sont exprimés en % BR, % FR, TM, en euros ou en mentions « Inclus ». Le document porte la mention « Document non contractuel » et renvoie aux conditions générales pour les définitions, conditions et limites.",
-  "definitions": [
-    {
-      "term": "BR",
-      "definition": "BR - Base de remboursement telle que définie aux conditions générales",
-      "page": 2
-    },
-    {
-      "term": "RO",
-      "definition": "RO - Régime obligatoire de protection sociale tel que défini aux conditions générales",
-      "page": 2
-    },
-    {
-      "term": "TM",
-      "definition": "TM - Ticket modérateur : différence entre la base de remboursement et le remboursement effectif du régime obligatoire",
-      "page": 2
-    },
-    {
-      "term": "FR",
-      "definition": "FR - Frais réels : Frais réllement engagés par la personne assurée sous déduction du remboursement du RO",
-      "page": 2
-    },
-    {
-      "term": "PMSS",
-      "definition": "PMSS - Plafond Mensuel de la Sécurité sociale",
-      "page": 2
-    },
-    {
-      "term": "DPTAM",
-      "definition": "DPTAM - Dispositifs de Pratique Tarifaire Maîtrisée qui comprennent l’OPTAM (Option Pratique Tarifaire Maitrisée) et l’OPTAM-CO (Option Pratique Tarifaire Maîtrisée-Chirurgie et Obstétrique).",
-      "page": 2
-    },
-    {
-      "term": "Equipements / soins et prothèses 100% santé (renvoi 2)",
-      "definition": "(2) Tels que définis réglementairement et visés à l’article R. 871-2 du code de la sécurité sociale",
-      "page": 2
-    },
-    {
-      "term": "Verres unifocaux simples (renvoi 5)",
-      "definition": "(5) Verres unifocaux sphériques dont la sphère est comprise entre -6,00 et + 6,00 dioptries ;  verres unifocaux sphéro-cylindriques dont la sphère est comprise entre -6,00 et 0 dioptries et dont le cylindre est inférieur ou égal à + 4,00 dioptries ; verres unifocaux sphéro-cylindriques dont la sphère est positive et dont la somme S (sphère + cylindre) est inférieure ou égale à 6,00 dioptries ;",
-      "page": 2
-    },
-    {
-      "term": "Verres complexes (renvoi 6)",
-      "definition": "(6)Verres unifocaux sphériques dont la sphère est hors zone de-6,00 à + 6,00 dioptries ; verres unifocaux sphéro-cylindriques dont la sphère est comprise entre-6,00 et 0 dioptries et dont le cylindre est supérieur à + 4,00 dioptries ; verres unifocaux sphéro-cylindriques dont la sphère est inférieure à-6,00 dioptries et dont le cylindre est supérieur ou égal à 0,25 dioptrie ; verres unifocaux sphéro-cylindriques dont la sphère est positive et dont la somme S est supérieure à 6,00 dioptries ; verres \nmultifocaux ou progressifs sphériques dont la sphère est comprise entre-4,00 et + 4,00 dioptries ; verres multifocaux ou progressifs sphéro-cylindriques dont la sphère est comprise entre-8,00 et 0,00 dioptries et dont le cylindre est inférieur ou égal à + 4,00 dioptries ; verres multifocaux ou progressifs sphéro-cylindriques dont la sphère est positive et dont la somme S est inférieure ou égale à 8,00 dioptries ;",
-      "page": 2
-    },
-    {
-      "term": "Verres très complexes (renvoi 7)",
-      "definition": "(7)Verres multifocaux ou progressifs sphériques dont la sphère est hors zone de-4,00 à + 4,00 dioptries ; verres multifocaux ou progressifs sphéro-cylindriques dont la sphère est comprise entre-8,00 et 0 dioptries et dont le cylindre est supérieur à + 4,00 dioptries ;  verres multifocaux ou progressifs sphéro-cylindriques dont la sphère est inférieure à-8,00 dioptries et dont le cylindre est supérieur ou égal à 0,25 dioptrie ; verres multifocaux ou progressifs sphéro-cylindriques dont la sphère est \npositive et dont la somme S est supérieure à 8,00 dioptries.",
-      "page": 2
-    },
-    {
-      "term": "Verres sélectionnés réseau Sévéane (renvoi 8)",
-      "definition": "(8)Verres et traitements particuliers sélectionnés entre l’assureur et les opticiens membres du réseau Sévéane dans la limite pour l'équipement complet des montants minimum et maximum prévus par la réglementation relative au contrat responsable : anti -rayures y compris - l'anti reflet à partir du 01/01/2020 - et l'anti salissures hors traitements supplémentaires.",
-      "page": 2
-    }
-  ],
-  "coverages": [
-    {
-      "name": "HOSPITALISATION - Honoraires ● médecin adhérent à un DPTAM",
-      "description": "Ligne du tableau de garanties, poste « HOSPITALISATION ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90 % à 100% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 190% BR | FORMULE 2+ : 190% BR | FORMULE 3 : 215% BR | FORMULE 3+ : 215% BR | FORMULE 4 : 290% BR | FORMULE 4+ : 290% BR | FORMULE 5 : 390% BR | FORMULE 5+ : 390% BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "HOSPITALISATION - Honoraires ● médecin non adhérent à un DPTAM",
-      "description": "Ligne du tableau de garanties, poste « HOSPITALISATION ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90 % à 100% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 170% BR | FORMULE 2+ : 170% BR | FORMULE 3 : 190% BR | FORMULE 3+ : 190% BR | FORMULE 4 : 200% BR | FORMULE 4+ : 200% BR | FORMULE 5 : 200% BR | FORMULE 5+ : 200% BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "HOSPITALISATION - Actes chirurgicaux ● médecin adhérent à un DPTAM",
-      "description": "Ligne du tableau de garanties, poste « HOSPITALISATION ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90 % à 100 % BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 190% BR | FORMULE 2+ : 190% BR | FORMULE 3 : 215% BR | FORMULE 3+ : 215% BR | FORMULE 4 : 290% BR | FORMULE 4+ : 290% BR | FORMULE 5 : 390% BR | FORMULE 5+ : 390% BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "HOSPITALISATION - Actes chirurgicaux ● médecin non adhérent à un DPTAM",
-      "description": "Ligne du tableau de garanties, poste « HOSPITALISATION ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90 % à 100% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 170% BR | FORMULE 2+ : 170% BR | FORMULE 3 : 190% BR | FORMULE 3+ : 190% BR | FORMULE 4 : 200% BR | FORMULE 4+ : 200% BR | FORMULE 5 : 200% BR | FORMULE 5+ : 200% BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "HOSPITALISATION - Frais de séjour ● En établissement conventionné",
-      "description": "Ligne du tableau de garanties, poste « HOSPITALISATION ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 100% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 100 % FR | FORMULE 2+ : 100 % FR | FORMULE 3 : 100 % FR | FORMULE 3+ : 100 % FR | FORMULE 4 : 100 % FR | FORMULE 4+ : 100 % FR | FORMULE 5 : 100 % FR | FORMULE 5+ : 100 % FR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "HOSPITALISATION - Frais de séjour ● En établissement non conventionné",
-      "description": "Ligne du tableau de garanties, poste « HOSPITALISATION ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 100% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 80 % FR | FORMULE 2+ : 80 % FR | FORMULE 3 : 90 % FR | FORMULE 3+ : 90 % FR | FORMULE 4 : 90 % FR | FORMULE 4+ : 90 % FR | FORMULE 5 : 90 % FR | FORMULE 5+ : 90 % FR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "HOSPITALISATION - Forfait journalier hospitalier",
-      "description": "Ligne du tableau de garanties, poste « HOSPITALISATION ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 100% BR | FORMULE 1 : 100 % FR | FORMULE 1+ : 100 % FR | FORMULE 2 : 100% FR | FORMULE 2+ : 100% FR | FORMULE 3 : 100 % FR | FORMULE 3+ : 100 % FR | FORMULE 4 : 100 % FR | FORMULE 4+ : 100 % FR | FORMULE 5 : 100 % FR | FORMULE 5+ : 100 % FR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "HOSPITALISATION - Frais de séjour en cas d’hospitalisation à l’étranger (1)",
-      "description": "Ligne du tableau de garanties, poste « HOSPITALISATION ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 170% BR | FORMULE 2+ : 170% BR | FORMULE 3 : 190% BR | FORMULE 3+ : 190% BR | FORMULE 4 : 200% BR | FORMULE 4+ : 200% BR | FORMULE 5 : 200% BR | FORMULE 5+ : 200% BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "HOSPITALISATION - Chambre particulière / jour",
-      "description": "Ligne du tableau de garanties, poste « HOSPITALISATION ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : - | FORMULE 1 : - | FORMULE 1+ : - | FORMULE 2 : 40 € | FORMULE 2+ : 40 € | FORMULE 3 : 60 € | FORMULE 3+ : 60 € | FORMULE 4 : 100 € | FORMULE 4+ : 100 € | FORMULE 5 : 120 € | FORMULE 5+ : 120 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "HOSPITALISATION - Frais d’accompagnant d’une personne assurée hospitalisée / jour",
-      "description": "Ligne du tableau de garanties, poste « HOSPITALISATION ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : - | FORMULE 1 : - | FORMULE 1+ : - | FORMULE 2 : 35 € | FORMULE 2+ : 35 € | FORMULE 3 : 45 € | FORMULE 3+ : 45 € | FORMULE 4 : 65 € | FORMULE 4+ : 65 € | FORMULE 5 : 70 € | FORMULE 5+ : 70 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "HOSPITALISATION - Frais de télévision, téléphone, accès internet, achat de journaux, sur justificatifs, par jour, dans la limite de 10 jours par hospitalisation",
-      "description": "Ligne du tableau de garanties, poste « HOSPITALISATION ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : - | FORMULE 1 : - | FORMULE 1+ : - | FORMULE 2 : 5 € | FORMULE 2+ : 5 € | FORMULE 3 : 5 € | FORMULE 3+ : 5 € | FORMULE 4 : 10 € | FORMULE 4+ : 10 € | FORMULE 5 : 15 € | FORMULE 5+ : 15 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "MATERNITE - Procréation Médicale Assistée non prise en charge par le RO, par an",
-      "description": "Ligne du tableau de garanties, poste « MATERNITE ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : - | FORMULE 1 : - | FORMULE 1+ : - | FORMULE 2 : - | FORMULE 2+ : - | FORMULE 3 : 200 € | FORMULE 3+ : 200 € | FORMULE 4 : 200 € | FORMULE 4+ : 200 € | FORMULE 5 : 200 € | FORMULE 5+ : 200 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "MATERNITE - Indemnité pour Naissance ou Adoption",
-      "description": "Ligne du tableau de garanties, poste « MATERNITE ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : - | FORMULE 1 : - | FORMULE 1+ : - | FORMULE 2 : - | FORMULE 2+ : - | FORMULE 3 : 150€ | FORMULE 3+ : 150€ | FORMULE 4 : 150€ | FORMULE 4+ : 150€ | FORMULE 5 : 150€ | FORMULE 5+ : 150€",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "SOINS COURANTS - Médecin généraliste ● médecin adhérent à un DPTAM",
-      "description": "Ligne du tableau de garanties, poste « SOINS COURANTS ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 160% BR | FORMULE 2+ : 160% BR | FORMULE 3 : 215% BR | FORMULE 3+ : 215% BR | FORMULE 4 : 290% BR | FORMULE 4+ : 290% BR | FORMULE 5 : 490% BR | FORMULE 5+ : 490% BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "'Honoraires médicaux"
-      ],
-      "page": 1
-    },
-    {
-      "name": "SOINS COURANTS - Médecin généraliste ● médecin non adhérent à un DPTAM",
-      "description": "Ligne du tableau de garanties, poste « SOINS COURANTS ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 140% BR | FORMULE 2+ : 140% BR | FORMULE 3 : 190 % BR | FORMULE 3+ : 190 % BR | FORMULE 4 : 200% BR | FORMULE 4+ : 200% BR | FORMULE 5 : 200% BR | FORMULE 5+ : 200% BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "'Honoraires médicaux"
-      ],
-      "page": 1
-    },
-    {
-      "name": "SOINS COURANTS - Médecin spécialiste ● médecin adhérent à un DPTAM",
-      "description": "Ligne du tableau de garanties, poste « SOINS COURANTS ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 160% BR | FORMULE 2+ : 160% BR | FORMULE 3 : 215% BR | FORMULE 3+ : 215% BR | FORMULE 4 : 290% BR | FORMULE 4+ : 290% BR | FORMULE 5 : 490% BR | FORMULE 5+ : 490% BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "'Honoraires médicaux"
-      ],
-      "page": 1
-    },
-    {
-      "name": "SOINS COURANTS - Médecin spécialiste ● médecin non adhérent à un DPTAM",
-      "description": "Ligne du tableau de garanties, poste « SOINS COURANTS ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 140% BR | FORMULE 2+ : 140% BR | FORMULE 3 : 190 % BR | FORMULE 3+ : 190 % BR | FORMULE 4 : 200% BR | FORMULE 4+ : 200% BR | FORMULE 5 : 200% BR | FORMULE 5+ : 200% BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "'Honoraires médicaux"
-      ],
-      "page": 1
-    },
-    {
-      "name": "SOINS COURANTS - Petite chirurgie et actes de pratique médicale ● médecin adhérent à un DPTAM",
-      "description": "Ligne du tableau de garanties, poste « SOINS COURANTS ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 160% BR | FORMULE 2+ : 160% BR | FORMULE 3 : 215% BR | FORMULE 3+ : 215% BR | FORMULE 4 : 290% BR | FORMULE 4+ : 290% BR | FORMULE 5 : 490% BR | FORMULE 5+ : 490% BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "'Honoraires médicaux"
-      ],
-      "page": 1
-    },
-    {
-      "name": "SOINS COURANTS - Petite chirurgie et actes de pratique médicale courante ● médecin non adhérent à un DPTAM",
-      "description": "Ligne du tableau de garanties, poste « SOINS COURANTS ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 140% BR | FORMULE 2+ : 140% BR | FORMULE 3 : 190 % BR | FORMULE 3+ : 190 % BR | FORMULE 4 : 200% BR | FORMULE 4+ : 200% BR | FORMULE 5 : 200% BR | FORMULE 5+ : 200% BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "'Honoraires médicaux"
-      ],
-      "page": 1
-    },
-    {
-      "name": "SOINS COURANTS - Honoraires paramédicaux",
-      "description": "Ligne du tableau de garanties, poste « SOINS COURANTS ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 160% BR | FORMULE 2+ : 160% BR | FORMULE 3 : 215% BR | FORMULE 3+ : 215% BR | FORMULE 4 : 290% BR | FORMULE 4+ : 290% BR | FORMULE 5 : 490% BR | FORMULE 5+ : 490% BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "'Honoraires médicaux"
-      ],
-      "page": 1
-    },
-    {
-      "name": "SOINS COURANTS - Analyses et examens de laboratoire",
-      "description": "Ligne du tableau de garanties, poste « SOINS COURANTS ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 160% BR | FORMULE 2+ : 160% BR | FORMULE 3 : 215 % BR | FORMULE 3+ : 215 % BR | FORMULE 4 : 290% BR | FORMULE 4+ : 290% BR | FORMULE 5 : 490% BR | FORMULE 5+ : 490% BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "'Honoraires médicaux"
-      ],
-      "page": 1
-    },
-    {
-      "name": "SOINS COURANTS - Radiologie ● médecin adhérent à un DPTAM",
-      "description": "Ligne du tableau de garanties, poste « SOINS COURANTS ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 160% BR | FORMULE 2+ : 160% BR | FORMULE 3 : 215% BR | FORMULE 3+ : 215% BR | FORMULE 4 : 290% BR | FORMULE 4+ : 290% BR | FORMULE 5 : 490% BR | FORMULE 5+ : 490% BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "'Honoraires médicaux"
-      ],
-      "page": 1
-    },
-    {
-      "name": "SOINS COURANTS - Radiologie ● médecin non adhérent à un DPTAM",
-      "description": "Ligne du tableau de garanties, poste « SOINS COURANTS ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 140% BR | FORMULE 2+ : 140% BR | FORMULE 3 : 190 % BR | FORMULE 3+ : 190 % BR | FORMULE 4 : 200% BR | FORMULE 4+ : 200% BR | FORMULE 5 : 200% BR | FORMULE 5+ : 200% BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "'Honoraires médicaux"
-      ],
-      "page": 1
-    },
-    {
-      "name": "SOINS COURANTS - Matériel médical - appareillage (hors optique, dentaire et aides",
-      "description": "Ligne du tableau de garanties, poste « SOINS COURANTS ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 160% BR | FORMULE 2+ : 160% BR | FORMULE 3 : 215% BR | FORMULE 3+ : 215% BR | FORMULE 4 : 290% BR | FORMULE 4+ : 290% BR | FORMULE 5 : 490% BR | FORMULE 5+ : 490% BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "'Honoraires médicaux"
-      ],
-      "page": 1
-    },
-    {
-      "name": "SOINS COURANTS - Transport pris en charge par le RO (y compris en cas d’hospitalisation mais hors cure thermale)",
-      "description": "Ligne du tableau de garanties, poste « SOINS COURANTS ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 100% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 170% BR | FORMULE 2+ : 170% BR | FORMULE 3 : 225 % BR | FORMULE 3+ : 225 % BR | FORMULE 4 : 300% BR | FORMULE 4+ : 300% BR | FORMULE 5 : 500% BR | FORMULE 5+ : 500% BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "'Honoraires médicaux"
-      ],
-      "page": 1
-    },
-    {
-      "name": "SOINS COURANTS - - frais pharmaceutiques (dont vaccins) prescrits médicalement et pris en charge par le RO",
-      "description": "Ligne du tableau de garanties, poste « SOINS COURANTS ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 15 %/80 %/90 % BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 100% BR | FORMULE 2+ : 100% BR | FORMULE 3 : 100% BR | FORMULE 3+ : 100% BR | FORMULE 4 : 100% BR | FORMULE 4+ : 100% BR | FORMULE 5 : 100% BR | FORMULE 5+ : 100% BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "'Honoraires médicaux",
-        "Médicaments"
-      ],
-      "page": 1
-    },
-    {
-      "name": "SOINS COURANTS - Cures thermales prises en charge par le RO (y compris hospitalisation)",
-      "description": "Ligne du tableau de garanties, poste « SOINS COURANTS ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 65 % / 90 % BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 100% BR | FORMULE 2+ : 100% BR | FORMULE 3 : 100% BR | FORMULE 3+ : 100% BR | FORMULE 4 : 100% BR | FORMULE 4+ : 100% BR | FORMULE 5 : 100% BR | FORMULE 5+ : 100% BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "'Honoraires médicaux",
-        "Médicaments"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Pack PHARMACIE",
-      "description": "Prestation globale par an et par personne assurée : le montant est imprimé une seule fois par colonne, dans une cellule fusionnée couvrant les lignes du pack.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : - | FORMULE 1 : - | FORMULE 1+ : - | FORMULE 2 : - | FORMULE 2+ : - | FORMULE 3 : 50 € | FORMULE 3+ : 50 € | FORMULE 4 : 50 € | FORMULE 4+ : 50 € | FORMULE 5 : 50 € | FORMULE 5+ : 50 €",
-      "sub_limits": [
-        "Postes couverts par la prestation globale : Pharmacie prescrite médicalement mais non prise en charge par le RO ; Moyens contraceptifs prescrits médicalement mais non pris en charge par le RO ; Vaccins prescrits médicalement mais non pris en charge par le RO"
-      ],
-      "deductible": null,
-      "conditions": [
-        "Prestation globale par an et par personne assurée au titre de l’ensemble des frais pharmaceutiques suivants :"
-      ],
-      "page": 1
-    },
-    {
-      "name": "AIDES AUDITIVES - Equipements 100% santé 2",
-      "description": "Ligne du tableau de garanties, poste « AIDES AUDITIVES ». Cellule unique couvrant les dix formules : « Pris en charge dans la limite des prix limites de vente (PLV) ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 à FORMULE 5+ : Pris en charge dans la limite des prix limites de vente (PLV)",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'une aide auditive par oreille par période de 4 ans"
-      ],
-      "page": 1
-    },
-    {
-      "name": "AIDES AUDITIVES - Equipements hors 100% santé adulte (personne âgée de 20 ans et plus)",
-      "description": "Ligne du tableau de garanties, poste « AIDES AUDITIVES ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 100% BR | FORMULE 2+ : 100% BR | FORMULE 3 : 100% BR | FORMULE 3+ : 100% BR | FORMULE 4 : 100% BR | FORMULE 4+ : 100% BR | FORMULE 5 : 100% BR | FORMULE 5+ : 100% BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'une aide auditive par oreille par période de 4 ans"
-      ],
-      "page": 1
-    },
-    {
-      "name": "AIDES AUDITIVES - Forfait supplémentaire / oreille / 4 ans / adulte (hors accessoires )",
-      "description": "Ligne du tableau de garanties, poste « AIDES AUDITIVES ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : - | FORMULE 1 : 0 € | FORMULE 1+ : 0 € | FORMULE 2 : 100 € | FORMULE 2+ : 100 € | FORMULE 3 : 300 € | FORMULE 3+ : 300 € | FORMULE 4 : 500 € | FORMULE 4+ : 500 € | FORMULE 5 : 1 100 € | FORMULE 5+ : 1 100 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'une aide auditive par oreille par période de 4 ans"
-      ],
-      "page": 1
-    },
-    {
-      "name": "AIDES AUDITIVES - Equipements hors 100% santé enfant (personne âgée de moins de 20 ans)",
-      "description": "Ligne du tableau de garanties, poste « AIDES AUDITIVES ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 100% BR | FORMULE 2+ : 100% BR | FORMULE 3 : 100% BR | FORMULE 3+ : 100% BR | FORMULE 4 : 100% BR | FORMULE 4+ : 100% BR | FORMULE 5 : 100% BR | FORMULE 5+ : 100% BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'une aide auditive par oreille par période de 4 ans"
-      ],
-      "page": 1
-    },
-    {
-      "name": "AIDES AUDITIVES - Forfait supplémentaire / oreille / 4 ans / enfant (hors accessoires )",
-      "description": "Ligne du tableau de garanties, poste « AIDES AUDITIVES ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : - | FORMULE 1 : 0 € | FORMULE 1+ : 0 € | FORMULE 2 : 0 € | FORMULE 2+ : 0 € | FORMULE 3 : 100 € | FORMULE 3+ : 100 € | FORMULE 4 : 100 € | FORMULE 4+ : 100 € | FORMULE 5 : 300 € | FORMULE 5+ : 300 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'une aide auditive par oreille par période de 4 ans"
-      ],
-      "page": 1
-    },
-    {
-      "name": "AIDES AUDITIVES - Accessoires pris en charge par le RO",
-      "description": "Ligne du tableau de garanties, poste « AIDES AUDITIVES ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 100% BR | FORMULE 2+ : 100% BR | FORMULE 3 : 100% BR | FORMULE 3+ : 100% BR | FORMULE 4 : 100% BR | FORMULE 4+ : 100% BR | FORMULE 5 : 100% BR | FORMULE 5+ : 100% BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'une aide auditive par oreille par période de 4 ans"
-      ],
-      "page": 1
-    },
-    {
-      "name": "OPTIQUE - Equipement 100% santé (2)",
-      "description": "Ligne du tableau de garanties, poste « OPTIQUE ». Cellule unique couvrant les dix formules : « Pris en charge dans la limite des prix limites de vente (PLV) dès 2020 ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% | FORMULE 1 à FORMULE 5+ : Pris en charge dans la limite des prix limites de vente (PLV) dès 2020",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'un équipement (une monture et deux verres) par période de deux ans pour les adultes : (sauf évolution de la vue, un par an, et sauf situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (3) pour les verres)"
-      ],
-      "page": 1
-    },
-    {
-      "name": "OPTIQUE - Equipement à verres unifocaux simples (5)",
-      "description": "Ligne du tableau de garanties, poste « OPTIQUE ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100 € | FORMULE 1+ : 250 € | FORMULE 2 : 250 € | FORMULE 2+ : 300 € | FORMULE 3 : 300 € | FORMULE 3+ : 350 € | FORMULE 4 : 350 € | FORMULE 4+ : 410 € | FORMULE 5 : 410 € | FORMULE 5+ : 420 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'un équipement (une monture et deux verres) par période de deux ans pour les adultes : (sauf évolution de la vue, un par an, et sauf situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (3) pour les verres)",
-        "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
-      ],
-      "page": 1
-    },
-    {
-      "name": "OPTIQUE - Equipement comportant un verre unifocal simple et un verre complexe",
-      "description": "Ligne du tableau de garanties, poste « OPTIQUE ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 150 € | FORMULE 1+ : 325 € | FORMULE 2 : 325 € | FORMULE 2+ : 375 € | FORMULE 3 : 375 € | FORMULE 3+ : 450 € | FORMULE 4 : 450 € | FORMULE 4+ : 555 € | FORMULE 5 : 555 € | FORMULE 5+ : 560 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'un équipement (une monture et deux verres) par période de deux ans pour les adultes : (sauf évolution de la vue, un par an, et sauf situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (3) pour les verres)",
-        "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
-      ],
-      "page": 1
-    },
-    {
-      "name": "OPTIQUE - Equipement comportant un verre unifocal simple et un verre très complexe",
-      "description": "Ligne du tableau de garanties, poste « OPTIQUE ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 150 € | FORMULE 1+ : 325 € | FORMULE 2 : 325 € | FORMULE 2+ : 375 € | FORMULE 3 : 375 € | FORMULE 3+ : 450 € | FORMULE 4 : 450 € | FORMULE 4+ : 565 € | FORMULE 5 : 565 € | FORMULE 5+ : 610 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'un équipement (une monture et deux verres) par période de deux ans pour les adultes : (sauf évolution de la vue, un par an, et sauf situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (3) pour les verres)",
-        "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
-      ],
-      "page": 1
-    },
-    {
-      "name": "OPTIQUE - Equipement à verres complexes (6)",
-      "description": "Ligne du tableau de garanties, poste « OPTIQUE ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 200 € | FORMULE 1+ : 400 € | FORMULE 2 : 400 € | FORMULE 2+ : 450 € | FORMULE 3 : 450 € | FORMULE 3+ : 550 € | FORMULE 4 : 550 € | FORMULE 4+ : 700 € | FORMULE 5 : 700 € | FORMULE 5+ : 700 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'un équipement (une monture et deux verres) par période de deux ans pour les adultes : (sauf évolution de la vue, un par an, et sauf situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (3) pour les verres)",
-        "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
-      ],
-      "page": 1
-    },
-    {
-      "name": "OPTIQUE - Equipement comportant un verre complexe et un verre très complexe",
-      "description": "Ligne du tableau de garanties, poste « OPTIQUE ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 200 € | FORMULE 1+ : 400 € | FORMULE 2 : 400 € | FORMULE 2+ : 450 € | FORMULE 3 : 450 € | FORMULE 3+ : 550 € | FORMULE 4 : 550 € | FORMULE 4+ : 710 € | FORMULE 5 : 710 € | FORMULE 5+ : 750 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'un équipement (une monture et deux verres) par période de deux ans pour les adultes : (sauf évolution de la vue, un par an, et sauf situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (3) pour les verres)",
-        "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
-      ],
-      "page": 1
-    },
-    {
-      "name": "OPTIQUE - Equipement à verres très complexes (7)",
-      "description": "Ligne du tableau de garanties, poste « OPTIQUE ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 200 € | FORMULE 1+ : 400 € | FORMULE 2 : 400 € | FORMULE 2+ : 450 € | FORMULE 3 : 450 € | FORMULE 3+ : 550 € | FORMULE 4 : 550 € | FORMULE 4+ : 720 € | FORMULE 5 : 720 € | FORMULE 5+ : 800 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'un équipement (une monture et deux verres) par période de deux ans pour les adultes : (sauf évolution de la vue, un par an, et sauf situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (3) pour les verres)",
-        "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
-      ],
-      "page": 1
-    },
-    {
-      "name": "OPTIQUE - Dont monture (4)",
-      "description": "Ligne du tableau de garanties, poste « OPTIQUE ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 30 € | FORMULE 1+ : 100 € | FORMULE 2 : 100 € | FORMULE 2+ : 100 € | FORMULE 3 : 100 € | FORMULE 3+ : 100 € | FORMULE 4 : 100 € | FORMULE 4+ : 100 € | FORMULE 5 : 100 € | FORMULE 5+ : 100 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'un équipement (une monture et deux verres) par période de deux ans pour les adultes : (sauf évolution de la vue, un par an, et sauf situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (3) pour les verres)",
-        "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
-      ],
-      "page": 1
-    },
-    {
-      "name": "OPTIQUE - Prestation d'adaptation de la prescription médicale de verre correcteur par l'opticien",
-      "description": "Ligne du tableau de garanties, poste « OPTIQUE ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : TM | FORMULE 1+ : TM | FORMULE 2 : TM | FORMULE 2+ : TM | FORMULE 3 : TM | FORMULE 3+ : TM | FORMULE 4 : TM | FORMULE 4+ : TM | FORMULE 5 : TM | FORMULE 5+ : TM",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'un équipement (une monture et deux verres) par période de deux ans pour les adultes : (sauf évolution de la vue, un par an, et sauf situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (3) pour les verres)",
-        "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
-      ],
-      "page": 1
-    },
-    {
-      "name": "OPTIQUE - Lentilles correctrices prescrites médicalement prises en charge par le RO, par an et par pers. assuré",
-      "description": "Ligne du tableau de garanties, poste « OPTIQUE ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100 € | FORMULE 1+ : 220 € | FORMULE 2 : 220 € | FORMULE 2+ : 260 € | FORMULE 3 : 260 € | FORMULE 3+ : 300 € | FORMULE 4 : 300 € | FORMULE 4+ : 340 € | FORMULE 5 : 340 € | FORMULE 5+ : 400 €",
-      "sub_limits": [
-        "avec un minimum de : RO Régime Local AM : - | FORMULE 1 : TM | FORMULE 1+ : TM | FORMULE 2 : TM | FORMULE 2+ : TM | FORMULE 3 : TM | FORMULE 3+ : TM | FORMULE 4 : TM | FORMULE 4+ : TM | FORMULE 5 : TM | FORMULE 5+ : TM"
-      ],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'un équipement (une monture et deux verres) par période de deux ans pour les adultes : (sauf évolution de la vue, un par an, et sauf situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (3) pour les verres)",
-        "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
-      ],
-      "page": 1
-    },
-    {
-      "name": "OPTIQUE - Lentilles correctrices prescrites médicalement référencées à la LPP mais non prises en charge par le RO, par an et par pers. assurée",
-      "description": "Ligne du tableau de garanties, poste « OPTIQUE ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : - | FORMULE 1 : - | FORMULE 1+ : - | FORMULE 2 : - | FORMULE 2+ : 170 € | FORMULE 3 : 170 € | FORMULE 3+ : 230 € | FORMULE 4 : 230 € | FORMULE 4+ : 290 € | FORMULE 5 : 290 € | FORMULE 5+ : 350 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'un équipement (une monture et deux verres) par période de deux ans pour les adultes : (sauf évolution de la vue, un par an, et sauf situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (3) pour les verres)",
-        "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
-      ],
-      "page": 1
-    },
-    {
-      "name": "OPTIQUE - Chirurgie réfractive (traitement des corrections visuelles) par an et par personne assurée",
-      "description": "Ligne du tableau de garanties, poste « OPTIQUE ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : - | FORMULE 1 : - | FORMULE 1+ : - | FORMULE 2 : - | FORMULE 2+ : 600 € | FORMULE 3 : 600 € | FORMULE 3+ : 750 € | FORMULE 4 : 750 € | FORMULE 4+ : 900 € | FORMULE 5 : 900 € | FORMULE 5+ : 1 000 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'un équipement (une monture et deux verres) par période de deux ans pour les adultes : (sauf évolution de la vue, un par an, et sauf situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (3) pour les verres)",
-        "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
-      ],
-      "page": 1
-    },
-    {
-      "name": "OPTIQUE ADULTE DANS LE RESEAU SEVEANE - Verres sélectionnés (8)",
-      "description": "Ligne du tableau de garanties, poste « OPTIQUE ADULTE DANS LE RESEAU SEVEANE ». Cellule unique couvrant les dix formules : « Forfait lunettes parmi / sélection partenaire / entièrement pris en charge Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 à FORMULE 5+ : Forfait lunettes parmi / sélection partenaire / entièrement pris en charge Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'un équipement (une monture et deux verres) par période de deux ans pour les adultes : (sauf évolution de la vue, un par an, et sauf situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (3) pour les verres)"
-      ],
-      "page": 1
-    },
-    {
-      "name": "OPTIQUE ADULTE DANS LE RESEAU SEVEANE - Monture si verres sélectionnés (4)",
-      "description": "Ligne du tableau de garanties, poste « OPTIQUE ADULTE DANS LE RESEAU SEVEANE ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 30 € | FORMULE 1+ : 100 € | FORMULE 2 : 100 € | FORMULE 2+ : 100 € | FORMULE 3 : 100 € | FORMULE 3+ : 100 € | FORMULE 4 : 100 € | FORMULE 4+ : 100 € | FORMULE 5 : 100 € | FORMULE 5+ : 100 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'un équipement (une monture et deux verres) par période de deux ans pour les adultes : (sauf évolution de la vue, un par an, et sauf situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (3) pour les verres)"
-      ],
-      "page": 1
-    },
-    {
-      "name": "OPTIQUE ADULTE DANS LE RESEAU SEVEANE - Equipement à verres autres et autres frais d’optique",
-      "description": "Ligne du tableau de garanties, poste « OPTIQUE ADULTE DANS LE RESEAU SEVEANE ». Cellule unique couvrant les dix formules : « Les montants de prestations prévus dans la rubrique OPTIQUE ADULTE (hors réseau Sévéane) ci-dessus demeurent applicables ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "FORMULE 1 à FORMULE 5+ : Les montants de prestations prévus dans la rubrique OPTIQUE ADULTE (hors réseau Sévéane) ci-dessus demeurent applicables",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'un équipement (une monture et deux verres) par période de deux ans pour les adultes : (sauf évolution de la vue, un par an, et sauf situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (3) pour les verres)"
-      ],
-      "page": 1
-    },
-    {
-      "name": "OPTIQUE ENFANT (personne agée de moins de 16 ans) - Equipement 100% santé (2)",
-      "description": "Ligne du tableau de garanties, poste « OPTIQUE ENFANT (personne agée de moins de 16 ans) ». Cellule unique couvrant les dix formules : « Pris en charge dans la limite des prix limites de vente (PLV) dès 2020 ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 à FORMULE 5+ : Pris en charge dans la limite des prix limites de vente (PLV) dès 2020",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'un équipement (une monture et deux verres) par période d’un an pour les enfants : de la vue ou situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (9) pour les verres)"
-      ],
-      "page": 2
-    },
-    {
-      "name": "OPTIQUE ENFANT (personne agée de moins de 16 ans) - Equipement à verres unifocaux simples (5)",
-      "description": "Ligne du tableau de garanties, poste « OPTIQUE ENFANT (personne agée de moins de 16 ans) ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100 € | FORMULE 1+ : 250 € | FORMULE 2 : 250 € | FORMULE 2+ : 300 € | FORMULE 3 : 300 € | FORMULE 3+ : 350 € | FORMULE 4 : 350 € | FORMULE 4+ : 410 € | FORMULE 5 : 410 € | FORMULE 5+ : 420 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'un équipement (une monture et deux verres) par période d’un an pour les enfants : de la vue ou situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (9) pour les verres)",
-        "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
-      ],
-      "page": 2
-    },
-    {
-      "name": "OPTIQUE ENFANT (personne agée de moins de 16 ans) - Equipement comportant un verre unifocal simple et un verre complexe",
-      "description": "Ligne du tableau de garanties, poste « OPTIQUE ENFANT (personne agée de moins de 16 ans) ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 150 € | FORMULE 1+ : 325 € | FORMULE 2 : 325 € | FORMULE 2+ : 375 € | FORMULE 3 : 375 € | FORMULE 3+ : 450 € | FORMULE 4 : 450 € | FORMULE 4+ : 555 € | FORMULE 5 : 555 € | FORMULE 5+ : 560 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'un équipement (une monture et deux verres) par période d’un an pour les enfants : de la vue ou situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (9) pour les verres)",
-        "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
-      ],
-      "page": 2
-    },
-    {
-      "name": "OPTIQUE ENFANT (personne agée de moins de 16 ans) - Equipement comportant un verre unifocal simple et un verre très complexe",
-      "description": "Ligne du tableau de garanties, poste « OPTIQUE ENFANT (personne agée de moins de 16 ans) ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 150 € | FORMULE 1+ : 325 € | FORMULE 2 : 325 € | FORMULE 2+ : 375 € | FORMULE 3 : 375 € | FORMULE 3+ : 450 € | FORMULE 4 : 450 € | FORMULE 4+ : 565 € | FORMULE 5 : 565 € | FORMULE 5+ : 610 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'un équipement (une monture et deux verres) par période d’un an pour les enfants : de la vue ou situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (9) pour les verres)",
-        "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
-      ],
-      "page": 2
-    },
-    {
-      "name": "OPTIQUE ENFANT (personne agée de moins de 16 ans) - Equipement à verres complexes (6)",
-      "description": "Ligne du tableau de garanties, poste « OPTIQUE ENFANT (personne agée de moins de 16 ans) ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 200 € | FORMULE 1+ : 400 € | FORMULE 2 : 400 € | FORMULE 2+ : 450 € | FORMULE 3 : 450 € | FORMULE 3+ : 550 € | FORMULE 4 : 550 € | FORMULE 4+ : 700 € | FORMULE 5 : 700 € | FORMULE 5+ : 700 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'un équipement (une monture et deux verres) par période d’un an pour les enfants : de la vue ou situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (9) pour les verres)",
-        "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
-      ],
-      "page": 2
-    },
-    {
-      "name": "OPTIQUE ENFANT (personne agée de moins de 16 ans) - Equipement comportant un verre complexe et un verre très complexe",
-      "description": "Ligne du tableau de garanties, poste « OPTIQUE ENFANT (personne agée de moins de 16 ans) ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 200 € | FORMULE 1+ : 400 € | FORMULE 2 : 400 € | FORMULE 2+ : 450 € | FORMULE 3 : 450 € | FORMULE 3+ : 550 € | FORMULE 4 : 550 € | FORMULE 4+ : 710 € | FORMULE 5 : 710 € | FORMULE 5+ : 750 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'un équipement (une monture et deux verres) par période d’un an pour les enfants : de la vue ou situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (9) pour les verres)",
-        "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
-      ],
-      "page": 2
-    },
-    {
-      "name": "OPTIQUE ENFANT (personne agée de moins de 16 ans) - Equipement à verres très complexes (7)",
-      "description": "Ligne du tableau de garanties, poste « OPTIQUE ENFANT (personne agée de moins de 16 ans) ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 200 € | FORMULE 1+ : 400 € | FORMULE 2 : 400 € | FORMULE 2+ : 450 € | FORMULE 3 : 450 € | FORMULE 3+ : 550 € | FORMULE 4 : 550 € | FORMULE 4+ : 720 € | FORMULE 5 : 720 € | FORMULE 5+ : 800 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'un équipement (une monture et deux verres) par période d’un an pour les enfants : de la vue ou situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (9) pour les verres)",
-        "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
-      ],
-      "page": 2
-    },
-    {
-      "name": "OPTIQUE ENFANT (personne agée de moins de 16 ans) - Dont monture (4)",
-      "description": "Ligne du tableau de garanties, poste « OPTIQUE ENFANT (personne agée de moins de 16 ans) ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 30 € | FORMULE 1+ : 100 € | FORMULE 2 : 100 € | FORMULE 2+ : 100 € | FORMULE 3 : 100 € | FORMULE 3+ : 100 € | FORMULE 4 : 100 € | FORMULE 4+ : 100 € | FORMULE 5 : 100 € | FORMULE 5+ : 100 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'un équipement (une monture et deux verres) par période d’un an pour les enfants : de la vue ou situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (9) pour les verres)",
-        "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
-      ],
-      "page": 2
-    },
-    {
-      "name": "OPTIQUE ENFANT (personne agée de moins de 16 ans) - Prestation d'adaptation de la prescription médicale de verre correcteur par l'opticien",
-      "description": "Ligne du tableau de garanties, poste « OPTIQUE ENFANT (personne agée de moins de 16 ans) ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : TM | FORMULE 1+ : TM | FORMULE 2 : TM | FORMULE 2+ : TM | FORMULE 3 : TM | FORMULE 3+ : TM | FORMULE 4 : TM | FORMULE 4+ : TM | FORMULE 5 : TM | FORMULE 5+ : TM",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'un équipement (une monture et deux verres) par période d’un an pour les enfants : de la vue ou situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (9) pour les verres)",
-        "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
-      ],
-      "page": 2
-    },
-    {
-      "name": "OPTIQUE ENFANT (personne agée de moins de 16 ans) - Lentilles correctrices prescrites médicalement prises en charge par le RO, par an et par personne assurée",
-      "description": "Ligne du tableau de garanties, poste « OPTIQUE ENFANT (personne agée de moins de 16 ans) ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100 € | FORMULE 1+ : 220 € | FORMULE 2 : 220 € | FORMULE 2+ : 260 € | FORMULE 3 : 260 € | FORMULE 3+ : 300 € | FORMULE 4 : 300 € | FORMULE 4+ : 340 € | FORMULE 5 : 340 € | FORMULE 5+ : 400 €",
-      "sub_limits": [
-        "avec un minimum de : RO Régime Local AM : - | FORMULE 1 : TM | FORMULE 1+ : TM | FORMULE 2 : TM | FORMULE 2+ : TM | FORMULE 3 : TM | FORMULE 3+ : TM | FORMULE 4 : TM | FORMULE 4+ : TM | FORMULE 5 : TM | FORMULE 5+ : TM"
-      ],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'un équipement (une monture et deux verres) par période d’un an pour les enfants : de la vue ou situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (9) pour les verres)",
-        "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
-      ],
-      "page": 2
-    },
-    {
-      "name": "OPTIQUE ENFANT (personne agée de moins de 16 ans) - Lentilles correctrices prescrites médicalement référencées à la LPP mais non prises en charge par le RO, par an et par personne",
-      "description": "Ligne du tableau de garanties, poste « OPTIQUE ENFANT (personne agée de moins de 16 ans) ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : - | FORMULE 1 : - | FORMULE 1+ : - | FORMULE 2 : - | FORMULE 2+ : 170 € | FORMULE 3 : 170 € | FORMULE 3+ : 230 € | FORMULE 4 : 230 € | FORMULE 4+ : 290 € | FORMULE 5 : 290 € | FORMULE 5+ : 350 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'un équipement (une monture et deux verres) par période d’un an pour les enfants : de la vue ou situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (9) pour les verres)",
-        "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
-      ],
-      "page": 2
-    },
-    {
-      "name": "OPTIQUE ENFANT (personne agée de moins de 16 ans) - Chirurgie réfractive (traitement des corrections visuelles) par an et par personne assurée",
-      "description": "Ligne du tableau de garanties, poste « OPTIQUE ENFANT (personne agée de moins de 16 ans) ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : - | FORMULE 1 : - | FORMULE 1+ : - | FORMULE 2 : - | FORMULE 2+ : 600 € | FORMULE 3 : 600 € | FORMULE 3+ : 750 € | FORMULE 4 : 750 € | FORMULE 4+ : 900 € | FORMULE 5 : 900 € | FORMULE 5+ : 1 000 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'un équipement (une monture et deux verres) par période d’un an pour les enfants : de la vue ou situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (9) pour les verres)",
-        "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
-      ],
-      "page": 2
-    },
-    {
-      "name": "OPTIQUE ENFANT DANS LE RESEAU SEVEANE - Verres sélectionnés (8)",
-      "description": "Ligne du tableau de garanties, poste « OPTIQUE ENFANT DANS LE RESEAU SEVEANE ». Cellule unique couvrant les dix formules : « Forfait lunettes parmi / sélection partenaire / entièrement pris en charge Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 à FORMULE 5+ : Forfait lunettes parmi / sélection partenaire / entièrement pris en charge Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'un équipement (une monture et deux verres) par période d’un an pour les enfants : de la vue ou situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (9) pour les verres)"
-      ],
-      "page": 2
-    },
-    {
-      "name": "OPTIQUE ENFANT DANS LE RESEAU SEVEANE - Monture si verres sélectionnés (4)",
-      "description": "Ligne du tableau de garanties, poste « OPTIQUE ENFANT DANS LE RESEAU SEVEANE ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 30 € | FORMULE 1+ : 100 | FORMULE 2 : 100 € | FORMULE 2+ : 100 € | FORMULE 3 : 100 € | FORMULE 3+ : 100 € | FORMULE 4 : 100 € | FORMULE 4+ : 100 € | FORMULE 5 : 100 € | FORMULE 5+ : 100 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'un équipement (une monture et deux verres) par période d’un an pour les enfants : de la vue ou situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (9) pour les verres)"
-      ],
-      "page": 2
-    },
-    {
-      "name": "OPTIQUE ENFANT DANS LE RESEAU SEVEANE - Equipement à verres autres et autres frais d’optique",
-      "description": "Ligne du tableau de garanties, poste « OPTIQUE ENFANT DANS LE RESEAU SEVEANE ». Cellule unique couvrant les dix formules : « Les montants de prestations prévus dans la rubrique OPTIQUE ENFANT (hors réseau Sévéane) ci-dessus demeurent applicables ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "FORMULE 1 à FORMULE 5+ : Les montants de prestations prévus dans la rubrique OPTIQUE ENFANT (hors réseau Sévéane) ci-dessus demeurent applicables",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'un équipement (une monture et deux verres) par période d’un an pour les enfants : de la vue ou situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (9) pour les verres)"
-      ],
-      "page": 2
-    },
-    {
-      "name": "DENTAIRE - Soins et prothèses 100% santé (2)",
-      "description": "Ligne du tableau de garanties, poste « DENTAIRE ». Cellule unique couvrant les dix formules : « Pris en charge dans le respect des honoraires limites de facturation dès 2020 ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 à FORMULE 5+ : Pris en charge dans le respect des honoraires limites de facturation dès 2020",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "DENTAIRE - - Soins",
-      "description": "Ligne du tableau de garanties, poste « DENTAIRE ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 100% BR | FORMULE 2+ : 100% BR | FORMULE 3 : 100% BR | FORMULE 3+ : 100% BR | FORMULE 4 : 100% BR | FORMULE 4+ : 100% BR | FORMULE 5 : 100% BR | FORMULE 5+ : 100% BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Soins et prothèses hors 100% santé"
-      ],
-      "page": 2
-    },
-    {
-      "name": "DENTAIRE - - Inlays / Onlays",
-      "description": "Ligne du tableau de garanties, poste « DENTAIRE ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 190% BR | FORMULE 2 : 190% BR | FORMULE 2+ : 290% BR | FORMULE 3 : 290% BR | FORMULE 3+ : 390% BR | FORMULE 4 : 390% BR | FORMULE 4+ : 490% BR | FORMULE 5 : 490% BR | FORMULE 5+ : 590% BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Soins et prothèses hors 100% santé"
-      ],
-      "page": 2
-    },
-    {
-      "name": "DENTAIRE - - Inlay Core",
-      "description": "Ligne du tableau de garanties, poste « DENTAIRE ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 125% BR | FORMULE 1+ : 150% BR | FORMULE 2 : 150% BR | FORMULE 2+ : 190% BR | FORMULE 3 : 190% BR | FORMULE 3+ : 240% BR | FORMULE 4 : 240% BR | FORMULE 4+ : 290% BR | FORMULE 5 : 290% BR | FORMULE 5+ : 340% BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Soins et prothèses hors 100% santé"
-      ],
-      "page": 2
-    },
-    {
-      "name": "DENTAIRE - - Prothèses",
-      "description": "Ligne du tableau de garanties, poste « DENTAIRE ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : - | FORMULE 1 : - | FORMULE 1+ : - | FORMULE 2 : - | FORMULE 2+ : - | FORMULE 3 : - | FORMULE 3+ : - | FORMULE 4 : - | FORMULE 4+ : - | FORMULE 5 : - | FORMULE 5+ : -",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Soins et prothèses hors 100% santé"
-      ],
-      "page": 2
-    },
-    {
-      "name": "DENTAIRE - - prises en charge par le RO",
-      "description": "Ligne du tableau de garanties, poste « DENTAIRE ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 125% BR | FORMULE 1+ : 190% BR | FORMULE 2 : 190% BR | FORMULE 2+ : 290% BR | FORMULE 3 : 290% BR | FORMULE 3+ : 390% BR | FORMULE 4 : 390% BR | FORMULE 4+ : 490% BR | FORMULE 5 : 490% BR | FORMULE 5+ : 590% BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Soins et prothèses hors 100% santé"
-      ],
-      "page": 2
-    },
-    {
-      "name": "DENTAIRE - - non prises en charge par le RO, par an, par pers. assurée",
-      "description": "Ligne du tableau de garanties, poste « DENTAIRE ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : - | FORMULE 1 : - | FORMULE 1+ : 100 € | FORMULE 2 : 100 € | FORMULE 2+ : 200 € | FORMULE 3 : 200 € | FORMULE 3+ : 300 € | FORMULE 4 : 300 € | FORMULE 4+ : 400 € | FORMULE 5 : 400 € | FORMULE 5+ : 500 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Soins et prothèses hors 100% santé"
-      ],
-      "page": 2
-    },
-    {
-      "name": "DENTAIRE - Orthodontie prise en charge par le RO",
-      "description": "Ligne du tableau de garanties, poste « DENTAIRE ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : 90% à 100% BR | FORMULE 1 : 125% BR | FORMULE 1+ : 200% BR | FORMULE 2 : 200% BR | FORMULE 2+ : 300% BR | FORMULE 3 : 300% BR | FORMULE 3+ : 400% BR | FORMULE 4 : 400% BR | FORMULE 4+ : 500% BR | FORMULE 5 : 500% BR | FORMULE 5+ : 600% BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Soins et prothèses hors 100% santé"
-      ],
-      "page": 2
-    },
-    {
-      "name": "DENTAIRE - Orthodontie non prise en charge par le RO, par an, par pers. assurée",
-      "description": "Ligne du tableau de garanties, poste « DENTAIRE ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : - | FORMULE 1 : - | FORMULE 1+ : 100 € | FORMULE 2 : 100 € | FORMULE 2+ : 200 € | FORMULE 3 : 200 € | FORMULE 3+ : 300 € | FORMULE 4 : 300 € | FORMULE 4+ : 400 € | FORMULE 5 : 400 € | FORMULE 5+ : 500 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Soins et prothèses hors 100% santé"
-      ],
-      "page": 2
-    },
-    {
-      "name": "DENTAIRE - Parodontologie non prise en charge par le RO, par an, par pers. assurée",
-      "description": "Ligne du tableau de garanties, poste « DENTAIRE ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : - | FORMULE 1 : - | FORMULE 1+ : 50 € | FORMULE 2 : 50 € | FORMULE 2+ : 100 € | FORMULE 3 : 100 € | FORMULE 3+ : 200 € | FORMULE 4 : 200 € | FORMULE 4+ : 300 € | FORMULE 5 : 300 € | FORMULE 5+ : 400 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Soins et prothèses hors 100% santé"
-      ],
-      "page": 2
-    },
-    {
-      "name": "DENTAIRE - Implantologie non prise en charge par le RO, par an, par pers. assurée",
-      "description": "Ligne du tableau de garanties, poste « DENTAIRE ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : - | FORMULE 1 : - | FORMULE 1+ : 100 € | FORMULE 2 : 100 € | FORMULE 2+ : 200 € | FORMULE 3 : 200 € | FORMULE 3+ : 300 € | FORMULE 4 : 300 € | FORMULE 4+ : 400 € | FORMULE 5 : 400 € | FORMULE 5+ : 600 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Soins et prothèses hors 100% santé"
-      ],
-      "page": 2
-    },
-    {
-      "name": "DENTAIRE - Blanchiment des dents (actes effectués par un chirurgien-dentiste) non pris en charge par le RO, par an, par pers. assurée",
-      "description": "Ligne du tableau de garanties, poste « DENTAIRE ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : - | FORMULE 1 : - | FORMULE 1+ : 25 € | FORMULE 2 : 25 € | FORMULE 2+ : 50 € | FORMULE 3 : 50 € | FORMULE 3+ : 75 € | FORMULE 4 : 75 € | FORMULE 4+ : 100 € | FORMULE 5 : 100 € | FORMULE 5+ : 125 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Soins et prothèses hors 100% santé"
-      ],
-      "page": 2
-    },
-    {
-      "name": "Pack PRÉVENTION, MÉDECINES DOUCES ET SANTÉ AU QUOTIDIEN",
-      "description": "Prestation globale par an et par personne assurée : le montant est imprimé une seule fois par colonne, dans une cellule fusionnée couvrant les lignes du pack.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : - | FORMULE 1 : - | FORMULE 1+ : - | FORMULE 2 : 50 € | FORMULE 2+ : 50 € | FORMULE 3 : 100 € | FORMULE 3+ : 100 € | FORMULE 4 : 200 € | FORMULE 4+ : 200 € | FORMULE 5 : 300 € | FORMULE 5+ : 300 €",
-      "sub_limits": [
-        "Postes couverts par la prestation globale : Actes de prévention dentaire non pris en charge par le RO (pose de vernis fluoré pour les enfants de moins de 13 ans, détartrage approfondi pour les personnes de 45 ans et plus) ; Consultation de Dététicien non prise en charge par le RO ; Consultations de psychologues, de psychanalystes et consultation ou frais de psychomotriciens non pris en charge par le RO ; Cures thermales prises en charge par le RO : frais d’hébergement et de transport ; Actes ou frais d’acupuncture, de chiropraxie, d’étiopathie, d’ostéopathie, d'hypnothérapie et d'homéopathie, non pris en charge par le RO ; Actes d’honoraires paramédicaux (podologue, kinésithérapeute, etc …) prescrits médicalement non pris en charge par le RO ; Sevrage tabagique (substituts nicotiniques ou médicaments prescrits non remboursés par le RO) / an / pers. assurée ; Pratique d’une activité sportive sur prescription médicale non prise en charge par le RO (ALD)",
-        "FORMULE 2 : le montant 50 € est une cellule fusionnée qui ne couvre pas les postes suivants, marqués « - » : Actes de prévention dentaire non pris en charge par le RO (pose de vernis fluoré pour les enfants de moins de 13 ans, détartrage approfondi pour les personnes de 45 ans et plus) ; Consultation de Dététicien non prise en charge par le RO ; Consultations de psychologues, de psychanalystes et consultation ou frais de psychomotriciens non pris en charge par le RO ; Cures thermales prises en charge par le RO : frais d’hébergement et de transport",
-        "FORMULE 2+ : le montant 50 € est une cellule fusionnée qui ne couvre pas les postes suivants, marqués « - » : Actes de prévention dentaire non pris en charge par le RO (pose de vernis fluoré pour les enfants de moins de 13 ans, détartrage approfondi pour les personnes de 45 ans et plus) ; Consultation de Dététicien non prise en charge par le RO ; Consultations de psychologues, de psychanalystes et consultation ou frais de psychomotriciens non pris en charge par le RO ; Cures thermales prises en charge par le RO : frais d’hébergement et de transport"
-      ],
-      "deductible": null,
-      "conditions": [
-        "Prestation globale par an et par personne assurée au titre de l’ensemble des frais suivants :"
-      ],
-      "page": 2
-    },
-    {
-      "name": "SERVICES INCLUS - Tiers payant généralisé",
-      "description": "Ligne du tableau de garanties, poste « SERVICES INCLUS ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : - | FORMULE 1 : Inclus | FORMULE 1+ : Inclus | FORMULE 2 : Inclus | FORMULE 2+ : Inclus | FORMULE 3 : Inclus | FORMULE 3+ : Inclus | FORMULE 4 : Inclus | FORMULE 4+ : Inclus | FORMULE 5 : Inclus | FORMULE 5+ : Inclus",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "SERVICES INCLUS - Aide au calcul des frais restant à charge",
-      "description": "Ligne du tableau de garanties, poste « SERVICES INCLUS ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : - | FORMULE 1 : inclus | FORMULE 1+ : inclus | FORMULE 2 : inclus | FORMULE 2+ : inclus | FORMULE 3 : inclus | FORMULE 3+ : inclus | FORMULE 4 : inclus | FORMULE 4+ : inclus | FORMULE 5 : inclus | FORMULE 5+ : inclus",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "SERVICES INCLUS - Solution(s) de télémédecine proposée(s) par l’assureur / an / pers. assurée de + de 18 ans",
-      "description": "Ligne du tableau de garanties, poste « SERVICES INCLUS ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : - | FORMULE 1 : Limité à 6 téléconsultations | FORMULE 1+ : Limité à 6 téléconsultations | FORMULE 2 : Limité à 6 téléconsultations | FORMULE 2+ : Limité à 6 téléconsultations | FORMULE 3 : Limité à 6 téléconsultations | FORMULE 3+ : Limité à 6 téléconsultations | FORMULE 4 : Limité à 6 téléconsultations | FORMULE 4+ : Limité à 6 téléconsultations | FORMULE 5 : Limité à 6 téléconsultations | FORMULE 5+ : Limité à 6 téléconsultations",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "SERVICES INCLUS - Assistance / infos santé",
-      "description": "Ligne du tableau de garanties, poste « SERVICES INCLUS ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "RO Régime Local AM : - | FORMULE 1 : Premium | FORMULE 1+ : Premium | FORMULE 2 : Premium | FORMULE 2+ : Premium | FORMULE 3 : Premium | FORMULE 3+ : Premium | FORMULE 4 : Premium | FORMULE 4+ : Premium | FORMULE 5 : Premium | FORMULE 5+ : Premium",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    }
-  ],
-  "exclusions": [],
-  "deductibles": null,
-  "waiting_periods": [],
-  "obligations": [],
-  "claims_procedure": [],
-  "duration_and_cancellation": null,
-  "prescription_period": null,
-  "premium": null,
-  "special_conditions": [
-    {
-      "name": "Base des prestations",
-      "description": "Les prestations sont exprimées en complément du remboursement du RO au titre de l’assurance Maladie ou Maternité dans la limite des frais réels et de celles prévues aux conditions générales.",
-      "page": 1
-    },
-    {
-      "name": "Renvoi 1 - hospitalisation à l'étranger hors UE/AELE",
-      "description": "(1) En cas d’hospitalisation dans un pays étranger (autre qu’un état membre de l’Union européenne ou de l'Association européenne de libre-échange), la prise en charge des frais de séjour par l’assureur limitée aux bases indiquées.",
-      "page": 2
-    },
-    {
-      "name": "Renvoi 3 - renouvellement anticipé de l'équipement optique (adultes et 16 ans et plus)",
-      "description": "(3) Et, par période d’un an pour les enfants de moins de 16 ans et par période de 6 mois pour les enfants jusqu'à 6 ans en cas de mauvaise adaptation de la monture à la morphologie du visage de l’enfant entraînant une perte d’efficacité du verre correcteur ; et sans délai uniquement pour les verres pour les enfants de moins de 16 ans en cas d'évolution de la vue ou situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés. Les cas pour lesquels un \nrenouvellement anticipé est prévu, notamment en cas d'évolution de la vue, figurent dans la liste mentionnée à l'article L. 165-1 du code de la sécurité sociale. Les remboursements du poste Optique s'entendent Ticket Modérateur et remboursement du RO inclus.",
-      "page": 2
-    },
-    {
-      "name": "Renvoi 4 - renouvellement de la monture seule",
-      "description": "(4) En cas de renouvellement de la monture seule, le montant de la prestation est fixé à 100€ et limité aux frais réellement engagés.",
-      "page": 2
-    },
-    {
-      "name": "Renvoi 9 - renouvellement anticipé de l'équipement optique (enfants de moins de 16 ans)",
-      "description": "(9) Et, par période de 6 mois pour les enfants jusqu'à 6 ans en cas de mauvaise adaptation de la monture à la morphologie du visage de l’enfant entraînant une perte d’efficacité du verre correcteur. Les cas pour lesquels un renouvellement anticipé est prévu, notamment en cas d'évolution de la vue, figurent dans la liste mentionnée à l'article L. 165-1 du code de la sécurité sociale. Les remboursements du poste Optique s'entendent Ticket Modérateur et remboursement du RO inclus.",
-      "page": 2
-    },
-    {
-      "name": "Entreprise et autorité de contrôle",
-      "description": "Caisses Régionales d'Assurances Mutuelles Agricoles - Entreprises régies par le Code des Assurances et soumises à l'Autorité de Contrôle Prudentiel et de Résolution - 4 place de Budapest - CS 92459 - 75 436 Paris Cedex 09 Aucune caisse régionale n'est nommément désignée.",
-      "page": 1
-    },
-    {
-      "name": "Valeur juridique du document",
-      "description": "Le document porte la mention « Document non contractuel » en pied de chaque page.",
-      "page": 1
-    },
-    {
-      "name": "Colonnes du tableau",
-      "description": "Le tableau comporte une colonne « RO Régime Local AM » puis dix colonnes intitulées « TOTAL / FORMULE n / SSS » pour les formules 1, 1+, 2, 2+, 3, 3+, 4, 4+, 5 et 5+.",
-      "page": 1
-    }
-  ],
-  "key_quotes": [
-    {
-      "quote": "Les prestations sont exprimées en complément du remboursement du RO au titre de l’assurance Maladie ou Maternité dans la limite des frais réels et de celles prévues aux conditions générales.",
-      "context": "base des prestations",
-      "page": 1
-    },
-    {
-      "quote": "(1) En cas d’hospitalisation dans un pays étranger (autre qu’un état membre de l’Union européenne ou de l'Association européenne de libre-échange), la prise en charge des frais de séjour par l’assureur limitée aux bases indiquées.",
-      "context": "hospitalisation hors UE/AELE",
-      "page": 2
-    },
-    {
-      "quote": "(4) En cas de renouvellement de la monture seule, le montant de la prestation est fixé à 100€ et limité aux frais réellement engagés.",
-      "context": "monture seule",
-      "page": 2
-    },
-    {
-      "quote": "(8)Verres et traitements particuliers sélectionnés entre l’assureur et les opticiens membres du réseau Sévéane dans la limite pour l'équipement complet des montants minimum et maximum prévus par la réglementation relative au contrat responsable : anti -rayures y compris - l'anti reflet à partir du 01/01/2020 - et l'anti salissures hors traitements supplémentaires.",
-      "context": "verres sélectionnés réseau Sévéane",
-      "page": 2
-    },
-    {
-      "quote": "TM - Ticket modérateur : différence entre la base de remboursement et le remboursement effectif du régime obligatoire",
-      "context": "définition du ticket modérateur",
-      "page": 2
-    },
-    {
-      "quote": "Caisses Régionales d'Assurances Mutuelles Agricoles - Entreprises régies par le Code des Assurances et soumises à l'Autorité de Contrôle Prudentiel et de Résolution - 4 place de Budapest - CS 92459 - 75 436 Paris Cedex 09",
-      "context": "porteur du risque",
-      "page": 1
-    }
-  ],
-  "gaps": [
-    "Document intégral (2 pages), non tronqué : le texte du prompt correspond octet pour octet au texte PyMuPDF du PDF local.",
-    "Contradiction interne non résolue, les deux lectures étant conservées telles quelles : le bandeau de titre porte « Version Régime Local / En complément » et la note liminaire indique « Les prestations sont exprimées en complément du remboursement du RO », alors que les dix colonnes du tableau sont intitulées « TOTAL / FORMULE n / SSS ». Le document ne dit nulle part si les valeurs des colonnes incluent ou non le remboursement du régime obligatoire ; aucune des deux lectures n'a été retenue au détriment de l'autre.",
-    "Le sigle « SSS » des en-têtes de colonnes n'est jamais développé dans le document ; « TMGF » du titre non plus.",
-    "Texte présent dans la couche texte mais invisible à l'écran : les bandeaux de rubrique portent des caractères de la même couleur verte que le fond du bandeau (RGB 0x92bc27), donc illisibles pour un lecteur humain. Contenu relevé, sans interprétation possible : « HOSPITALISATION » (p. 1) : RO Régime Local AM : 1 | FORMULE 1 : 1 | FORMULE 1+ : 2 | FORMULE 2 : 2 | FORMULE 2+ : 3 | FORMULE 3 : 3 | FORMULE 3+ : 6 | FORMULE 4 : 6 | FORMULE 4+ : 10 | FORMULE 5 : 10 || « SOINS COURANTS » (p. 1) : RO Régime Local AM : RG || « Pack PHARMACIE » (p. 1) : RO Régime Local AM : RG | FORMULE 1 : - | FORMULE 1+ : - | FORMULE 2 : - | FORMULE 2+ : - | FORMULE 3 : 2 | FORMULE 3+ : 2 | FORMULE 4 : 2 | FORMULE 4+ : 2 | FORMULE 5 : 2 | FORMULE 5+ : 2 || « AIDES AUDITIVES » (p. 1) : RO Régime Local AM : RG || « OPTIQUE » (p. 1) : RO Régime Local AM : RG | FORMULE 1 : 1 | FORMULE 1+ : 5 | FORMULE 2 : 5 | FORMULE 2+ : 6 | FORMULE 3 : 6 | FORMULE 3+ : 7 | FORMULE 4 : 7 | FORMULE 4+ : 8 | FORMULE 5 : 8 | FORMULE 5+ : 8 || « OPTIQUE ENFANT (personne agée de moins de 16 ans) » (p. 2) : FORMULE 1 : 1 | FORMULE 1+ : 5 | FORMULE 2 : 5 | FORMULE 2+ : 6 | FORMULE 3 : 6 | FORMULE 3+ : 7 | FORMULE 4 : 7 | FORMULE 4+ : 8 | FORMULE 5 : 8 | FORMULE 5+ : 8.",
-    "Aucune date d'édition, aucune référence d'imprimé, aucun numéro de contrat ne figurent au document ; edition_date et reference restent null. Les seules dates citées sont réglementaires (« dès 2020 », « à partir du 01/01/2020 »).",
-    "Aucun assureur nommément désigné : le pied de page mentionne « Caisses Régionales d'Assurances Mutuelles Agricoles » au pluriel, sans identifier de caisse.",
-    "Le document ne contient aucune section d'exclusions, aucune obligation de l'assuré, aucune procédure de sinistre, aucune durée/résiliation, aucune prescription et aucune information de cotisation : exclusions/obligations/claims_procedure/duration_and_cancellation/prescription_period/premium sont donc vides ou nuls. Les cases « - » du tableau signifient l'absence de prise en charge pour la formule concernée et ont été conservées comme telles dans les limites, et non transformées en exclusions.",
-    "Les deux « Packs » (Pharmacie, Prévention/médecines douces) sont des cellules fusionnées : un seul montant par colonne couvre l'ensemble des postes listés. Les postes explicitement marqués « - » dans une colonne malgré le montant fusionné sont signalés en sub_limits.",
-    "target_audience laissé à null : le mot « Salariés » n'apparaît que dans le nom du produit, le document ne décrivant ni l'entreprise souscriptrice ni les bénéficiaires.",
-    "Le tableau a été reconstruit à partir des coordonnées des mots et de la grille du PDF (la lecture linéaire du texte mélange les libellés et les valeurs) ; les valeurs sont reprises littéralement, y compris les incohérences de frappe (« 170 % BR » avec espace vs « 170% BR », « 150€ » sans espace, « 100 » sans le symbole € en FORMULE 1+ pour la monture Sévéane enfant, « 'Honoraires médicaux » avec une apostrophe parasite)."
-  ]
+ "schema_version": "1.0",
+ "prompt_version": "1.1",
+ "country": "fr",
+ "insurer_slug": "groupama",
+ "insurer_name": "Groupama",
+ "product_name": "TMGF Synergie santé Salariés",
+ "branch": "sante",
+ "branch_code": null,
+ "document_type": "other",
+ "language": "fr",
+ "target_audience": null,
+ "target_audience_note": "Le tableau est intitulé « TMGF Synergie santé Salariés » et décliné en « Version Régime Local / En complément » ; le document n'énonce aucune condition d'éligibilité ni population assurable.",
+ "reference": null,
+ "edition_date": null,
+ "product_family": "Synergie santé Salariés",
+ "variant": "Version Régime Local / En complément",
+ "is_extension": false,
+ "extends": null,
+ "superseded": null,
+ "source_url": "https://assets.ctfassets.net/7awcp71bzphk/2WdH0QbT2yDvuM9AIoxpxr/3d1ec4295b3f531a9fece1ef2e0cbe03/tableau_de_garanties_synergie_sant___salari___r__gime_local.pdf",
+ "source_pdf": "synergie-sante-salaries-tableau-de-garanties-regime-local-alsace-moselle-4653180f.pdf",
+ "source_sha256": "6ac1760046d8794350cae45f7801d546fa9f581f2fec00bcb4a58c8012abbffb",
+ "source_pages": 2,
+ "fetched_at": "2026-07-30",
+ "extraction_model": "claude-code-subagent:scale",
+ "summary": "Tableau de garanties du contrat santé collectif Groupama « Synergie santé Salariés », version Régime Local. Il présente, poste par poste (Hospitalisation, Maternité, Soins courants, Pack Pharmacie, Aides auditives, Optique adulte et enfant, réseaux Sévéane optique et dentaire, Dentaire, Pack Prévention/médecines douces, Services inclus), le niveau de prise en charge dans dix formules (FORMULE 1, 1+, 2, 2+, 3, 3+, 4, 4+, 5, 5+), en regard du remboursement du régime obligatoire. Les montants sont exprimés en % BR, % FR, TM, en euros ou en mentions « Inclus ». Le document porte la mention « Document non contractuel » et renvoie aux conditions générales pour les définitions, conditions et limites.",
+ "definitions": [
+  {
+   "term": "BR",
+   "definition": "BR - Base de remboursement telle que définie aux conditions générales",
+   "page": 2
+  },
+  {
+   "term": "RO",
+   "definition": "RO - Régime obligatoire de protection sociale tel que défini aux conditions générales",
+   "page": 2
+  },
+  {
+   "term": "TM",
+   "definition": "TM - Ticket modérateur : différence entre la base de remboursement et le remboursement effectif du régime obligatoire",
+   "page": 2
+  },
+  {
+   "term": "FR",
+   "definition": "FR - Frais réels : Frais réllement engagés par la personne assurée sous déduction du remboursement du RO",
+   "page": 2
+  },
+  {
+   "term": "PMSS",
+   "definition": "PMSS - Plafond Mensuel de la Sécurité sociale",
+   "page": 2
+  },
+  {
+   "term": "DPTAM",
+   "definition": "DPTAM - Dispositifs de Pratique Tarifaire Maîtrisée qui comprennent l’OPTAM (Option Pratique Tarifaire Maitrisée) et l’OPTAM-CO (Option Pratique Tarifaire Maîtrisée-Chirurgie et Obstétrique).",
+   "page": 2
+  },
+  {
+   "term": "Equipements / soins et prothèses 100% santé (renvoi 2)",
+   "definition": "(2) Tels que définis réglementairement et visés à l’article R. 871-2 du code de la sécurité sociale",
+   "page": 2
+  },
+  {
+   "term": "Verres unifocaux simples (renvoi 5)",
+   "definition": "(5) Verres unifocaux sphériques dont la sphère est comprise entre -6,00 et + 6,00 dioptries ;  verres unifocaux sphéro-cylindriques dont la sphère est comprise entre -6,00 et 0 dioptries et dont le cylindre est inférieur ou égal à + 4,00 dioptries ; verres unifocaux sphéro-cylindriques dont la sphère est positive et dont la somme S (sphère + cylindre) est inférieure ou égale à 6,00 dioptries ;",
+   "page": 2
+  },
+  {
+   "term": "Verres complexes (renvoi 6)",
+   "definition": "(6)Verres unifocaux sphériques dont la sphère est hors zone de-6,00 à + 6,00 dioptries ; verres unifocaux sphéro-cylindriques dont la sphère est comprise entre-6,00 et 0 dioptries et dont le cylindre est supérieur à + 4,00 dioptries ; verres unifocaux sphéro-cylindriques dont la sphère est inférieure à-6,00 dioptries et dont le cylindre est supérieur ou égal à 0,25 dioptrie ; verres unifocaux sphéro-cylindriques dont la sphère est positive et dont la somme S est supérieure à 6,00 dioptries ; verres \nmultifocaux ou progressifs sphériques dont la sphère est comprise entre-4,00 et + 4,00 dioptries ; verres multifocaux ou progressifs sphéro-cylindriques dont la sphère est comprise entre-8,00 et 0,00 dioptries et dont le cylindre est inférieur ou égal à + 4,00 dioptries ; verres multifocaux ou progressifs sphéro-cylindriques dont la sphère est positive et dont la somme S est inférieure ou égale à 8,00 dioptries ;",
+   "page": 2
+  },
+  {
+   "term": "Verres très complexes (renvoi 7)",
+   "definition": "(7)Verres multifocaux ou progressifs sphériques dont la sphère est hors zone de-4,00 à + 4,00 dioptries ; verres multifocaux ou progressifs sphéro-cylindriques dont la sphère est comprise entre-8,00 et 0 dioptries et dont le cylindre est supérieur à + 4,00 dioptries ;  verres multifocaux ou progressifs sphéro-cylindriques dont la sphère est inférieure à-8,00 dioptries et dont le cylindre est supérieur ou égal à 0,25 dioptrie ; verres multifocaux ou progressifs sphéro-cylindriques dont la sphère est \npositive et dont la somme S est supérieure à 8,00 dioptries.",
+   "page": 2
+  },
+  {
+   "term": "Verres sélectionnés réseau Sévéane (renvoi 8)",
+   "definition": "(8)Verres et traitements particuliers sélectionnés entre l’assureur et les opticiens membres du réseau Sévéane dans la limite pour l'équipement complet des montants minimum et maximum prévus par la réglementation relative au contrat responsable : anti -rayures y compris - l'anti reflet à partir du 01/01/2020 - et l'anti salissures hors traitements supplémentaires.",
+   "page": 2
+  }
+ ],
+ "coverages": [
+  {
+   "name": "HOSPITALISATION - Honoraires ● médecin adhérent à un DPTAM",
+   "description": "Ligne du tableau de garanties, poste « HOSPITALISATION ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90 % à 100% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 190% BR | FORMULE 2+ : 190% BR | FORMULE 3 : 215% BR | FORMULE 3+ : 215% BR | FORMULE 4 : 290% BR | FORMULE 4+ : 290% BR | FORMULE 5 : 390% BR | FORMULE 5+ : 390% BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "HOSPITALISATION - Honoraires ● médecin non adhérent à un DPTAM",
+   "description": "Ligne du tableau de garanties, poste « HOSPITALISATION ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90 % à 100% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 170% BR | FORMULE 2+ : 170% BR | FORMULE 3 : 190% BR | FORMULE 3+ : 190% BR | FORMULE 4 : 200% BR | FORMULE 4+ : 200% BR | FORMULE 5 : 200% BR | FORMULE 5+ : 200% BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "HOSPITALISATION - Actes chirurgicaux ● médecin adhérent à un DPTAM",
+   "description": "Ligne du tableau de garanties, poste « HOSPITALISATION ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90 % à 100 % BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 190% BR | FORMULE 2+ : 190% BR | FORMULE 3 : 215% BR | FORMULE 3+ : 215% BR | FORMULE 4 : 290% BR | FORMULE 4+ : 290% BR | FORMULE 5 : 390% BR | FORMULE 5+ : 390% BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "HOSPITALISATION - Actes chirurgicaux ● médecin non adhérent à un DPTAM",
+   "description": "Ligne du tableau de garanties, poste « HOSPITALISATION ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90 % à 100% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 170% BR | FORMULE 2+ : 170% BR | FORMULE 3 : 190% BR | FORMULE 3+ : 190% BR | FORMULE 4 : 200% BR | FORMULE 4+ : 200% BR | FORMULE 5 : 200% BR | FORMULE 5+ : 200% BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "HOSPITALISATION - Frais de séjour ● En établissement conventionné",
+   "description": "Ligne du tableau de garanties, poste « HOSPITALISATION ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 100% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 100 % FR | FORMULE 2+ : 100 % FR | FORMULE 3 : 100 % FR | FORMULE 3+ : 100 % FR | FORMULE 4 : 100 % FR | FORMULE 4+ : 100 % FR | FORMULE 5 : 100 % FR | FORMULE 5+ : 100 % FR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "HOSPITALISATION - Frais de séjour ● En établissement non conventionné",
+   "description": "Ligne du tableau de garanties, poste « HOSPITALISATION ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 100% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 80 % FR | FORMULE 2+ : 80 % FR | FORMULE 3 : 90 % FR | FORMULE 3+ : 90 % FR | FORMULE 4 : 90 % FR | FORMULE 4+ : 90 % FR | FORMULE 5 : 90 % FR | FORMULE 5+ : 90 % FR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "HOSPITALISATION - Forfait journalier hospitalier",
+   "description": "Ligne du tableau de garanties, poste « HOSPITALISATION ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 100% BR | FORMULE 1 : 100 % FR | FORMULE 1+ : 100 % FR | FORMULE 2 : 100% FR | FORMULE 2+ : 100% FR | FORMULE 3 : 100 % FR | FORMULE 3+ : 100 % FR | FORMULE 4 : 100 % FR | FORMULE 4+ : 100 % FR | FORMULE 5 : 100 % FR | FORMULE 5+ : 100 % FR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "HOSPITALISATION - Frais de séjour en cas d’hospitalisation à l’étranger (1)",
+   "description": "Ligne du tableau de garanties, poste « HOSPITALISATION ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 170% BR | FORMULE 2+ : 170% BR | FORMULE 3 : 190% BR | FORMULE 3+ : 190% BR | FORMULE 4 : 200% BR | FORMULE 4+ : 200% BR | FORMULE 5 : 200% BR | FORMULE 5+ : 200% BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "HOSPITALISATION - Chambre particulière / jour",
+   "description": "Ligne du tableau de garanties, poste « HOSPITALISATION ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : - | FORMULE 1 : - | FORMULE 1+ : - | FORMULE 2 : 40 € | FORMULE 2+ : 40 € | FORMULE 3 : 60 € | FORMULE 3+ : 60 € | FORMULE 4 : 100 € | FORMULE 4+ : 100 € | FORMULE 5 : 120 € | FORMULE 5+ : 120 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "HOSPITALISATION - Frais d’accompagnant d’une personne assurée hospitalisée / jour",
+   "description": "Ligne du tableau de garanties, poste « HOSPITALISATION ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : - | FORMULE 1 : - | FORMULE 1+ : - | FORMULE 2 : 35 € | FORMULE 2+ : 35 € | FORMULE 3 : 45 € | FORMULE 3+ : 45 € | FORMULE 4 : 65 € | FORMULE 4+ : 65 € | FORMULE 5 : 70 € | FORMULE 5+ : 70 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "HOSPITALISATION - Frais de télévision, téléphone, accès internet, achat de journaux, sur justificatifs, par jour, dans la limite de 10 jours par hospitalisation",
+   "description": "Ligne du tableau de garanties, poste « HOSPITALISATION ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : - | FORMULE 1 : - | FORMULE 1+ : - | FORMULE 2 : 5 € | FORMULE 2+ : 5 € | FORMULE 3 : 5 € | FORMULE 3+ : 5 € | FORMULE 4 : 10 € | FORMULE 4+ : 10 € | FORMULE 5 : 15 € | FORMULE 5+ : 15 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "MATERNITE - Procréation Médicale Assistée non prise en charge par le RO, par an",
+   "description": "Ligne du tableau de garanties, poste « MATERNITE ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : - | FORMULE 1 : - | FORMULE 1+ : - | FORMULE 2 : - | FORMULE 2+ : - | FORMULE 3 : 200 € | FORMULE 3+ : 200 € | FORMULE 4 : 200 € | FORMULE 4+ : 200 € | FORMULE 5 : 200 € | FORMULE 5+ : 200 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "MATERNITE - Indemnité pour Naissance ou Adoption",
+   "description": "Ligne du tableau de garanties, poste « MATERNITE ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : - | FORMULE 1 : - | FORMULE 1+ : - | FORMULE 2 : - | FORMULE 2+ : - | FORMULE 3 : 150€ | FORMULE 3+ : 150€ | FORMULE 4 : 150€ | FORMULE 4+ : 150€ | FORMULE 5 : 150€ | FORMULE 5+ : 150€",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "SOINS COURANTS - Médecin généraliste ● médecin adhérent à un DPTAM",
+   "description": "Ligne du tableau de garanties, poste « SOINS COURANTS ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 160% BR | FORMULE 2+ : 160% BR | FORMULE 3 : 215% BR | FORMULE 3+ : 215% BR | FORMULE 4 : 290% BR | FORMULE 4+ : 290% BR | FORMULE 5 : 490% BR | FORMULE 5+ : 490% BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "'Honoraires médicaux"
+   ],
+   "page": 1
+  },
+  {
+   "name": "SOINS COURANTS - Médecin généraliste ● médecin non adhérent à un DPTAM",
+   "description": "Ligne du tableau de garanties, poste « SOINS COURANTS ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 140% BR | FORMULE 2+ : 140% BR | FORMULE 3 : 190 % BR | FORMULE 3+ : 190 % BR | FORMULE 4 : 200% BR | FORMULE 4+ : 200% BR | FORMULE 5 : 200% BR | FORMULE 5+ : 200% BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "'Honoraires médicaux"
+   ],
+   "page": 1
+  },
+  {
+   "name": "SOINS COURANTS - Médecin spécialiste ● médecin adhérent à un DPTAM",
+   "description": "Ligne du tableau de garanties, poste « SOINS COURANTS ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 160% BR | FORMULE 2+ : 160% BR | FORMULE 3 : 215% BR | FORMULE 3+ : 215% BR | FORMULE 4 : 290% BR | FORMULE 4+ : 290% BR | FORMULE 5 : 490% BR | FORMULE 5+ : 490% BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "'Honoraires médicaux"
+   ],
+   "page": 1
+  },
+  {
+   "name": "SOINS COURANTS - Médecin spécialiste ● médecin non adhérent à un DPTAM",
+   "description": "Ligne du tableau de garanties, poste « SOINS COURANTS ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 140% BR | FORMULE 2+ : 140% BR | FORMULE 3 : 190 % BR | FORMULE 3+ : 190 % BR | FORMULE 4 : 200% BR | FORMULE 4+ : 200% BR | FORMULE 5 : 200% BR | FORMULE 5+ : 200% BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "'Honoraires médicaux"
+   ],
+   "page": 1
+  },
+  {
+   "name": "SOINS COURANTS - Petite chirurgie et actes de pratique médicale ● médecin adhérent à un DPTAM",
+   "description": "Ligne du tableau de garanties, poste « SOINS COURANTS ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 160% BR | FORMULE 2+ : 160% BR | FORMULE 3 : 215% BR | FORMULE 3+ : 215% BR | FORMULE 4 : 290% BR | FORMULE 4+ : 290% BR | FORMULE 5 : 490% BR | FORMULE 5+ : 490% BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "'Honoraires médicaux"
+   ],
+   "page": 1
+  },
+  {
+   "name": "SOINS COURANTS - Petite chirurgie et actes de pratique médicale courante ● médecin non adhérent à un DPTAM",
+   "description": "Ligne du tableau de garanties, poste « SOINS COURANTS ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 140% BR | FORMULE 2+ : 140% BR | FORMULE 3 : 190 % BR | FORMULE 3+ : 190 % BR | FORMULE 4 : 200% BR | FORMULE 4+ : 200% BR | FORMULE 5 : 200% BR | FORMULE 5+ : 200% BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "'Honoraires médicaux"
+   ],
+   "page": 1
+  },
+  {
+   "name": "SOINS COURANTS - Honoraires paramédicaux",
+   "description": "Ligne du tableau de garanties, poste « SOINS COURANTS ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 160% BR | FORMULE 2+ : 160% BR | FORMULE 3 : 215% BR | FORMULE 3+ : 215% BR | FORMULE 4 : 290% BR | FORMULE 4+ : 290% BR | FORMULE 5 : 490% BR | FORMULE 5+ : 490% BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "'Honoraires médicaux"
+   ],
+   "page": 1
+  },
+  {
+   "name": "SOINS COURANTS - Analyses et examens de laboratoire",
+   "description": "Ligne du tableau de garanties, poste « SOINS COURANTS ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 160% BR | FORMULE 2+ : 160% BR | FORMULE 3 : 215 % BR | FORMULE 3+ : 215 % BR | FORMULE 4 : 290% BR | FORMULE 4+ : 290% BR | FORMULE 5 : 490% BR | FORMULE 5+ : 490% BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "'Honoraires médicaux"
+   ],
+   "page": 1
+  },
+  {
+   "name": "SOINS COURANTS - Radiologie ● médecin adhérent à un DPTAM",
+   "description": "Ligne du tableau de garanties, poste « SOINS COURANTS ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 160% BR | FORMULE 2+ : 160% BR | FORMULE 3 : 215% BR | FORMULE 3+ : 215% BR | FORMULE 4 : 290% BR | FORMULE 4+ : 290% BR | FORMULE 5 : 490% BR | FORMULE 5+ : 490% BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "'Honoraires médicaux"
+   ],
+   "page": 1
+  },
+  {
+   "name": "SOINS COURANTS - Radiologie ● médecin non adhérent à un DPTAM",
+   "description": "Ligne du tableau de garanties, poste « SOINS COURANTS ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 140% BR | FORMULE 2+ : 140% BR | FORMULE 3 : 190 % BR | FORMULE 3+ : 190 % BR | FORMULE 4 : 200% BR | FORMULE 4+ : 200% BR | FORMULE 5 : 200% BR | FORMULE 5+ : 200% BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "'Honoraires médicaux"
+   ],
+   "page": 1
+  },
+  {
+   "name": "SOINS COURANTS - Matériel médical - appareillage (hors optique, dentaire et aides",
+   "description": "Ligne du tableau de garanties, poste « SOINS COURANTS ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 160% BR | FORMULE 2+ : 160% BR | FORMULE 3 : 215% BR | FORMULE 3+ : 215% BR | FORMULE 4 : 290% BR | FORMULE 4+ : 290% BR | FORMULE 5 : 490% BR | FORMULE 5+ : 490% BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "'Honoraires médicaux"
+   ],
+   "page": 1
+  },
+  {
+   "name": "SOINS COURANTS - Transport pris en charge par le RO (y compris en cas d’hospitalisation mais hors cure thermale)",
+   "description": "Ligne du tableau de garanties, poste « SOINS COURANTS ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 100% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 170% BR | FORMULE 2+ : 170% BR | FORMULE 3 : 225 % BR | FORMULE 3+ : 225 % BR | FORMULE 4 : 300% BR | FORMULE 4+ : 300% BR | FORMULE 5 : 500% BR | FORMULE 5+ : 500% BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "'Honoraires médicaux"
+   ],
+   "page": 1
+  },
+  {
+   "name": "SOINS COURANTS - - frais pharmaceutiques (dont vaccins) prescrits médicalement et pris en charge par le RO",
+   "description": "Ligne du tableau de garanties, poste « SOINS COURANTS ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 15 %/80 %/90 % BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 100% BR | FORMULE 2+ : 100% BR | FORMULE 3 : 100% BR | FORMULE 3+ : 100% BR | FORMULE 4 : 100% BR | FORMULE 4+ : 100% BR | FORMULE 5 : 100% BR | FORMULE 5+ : 100% BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "'Honoraires médicaux",
+    "Médicaments"
+   ],
+   "page": 1
+  },
+  {
+   "name": "SOINS COURANTS - Cures thermales prises en charge par le RO (y compris hospitalisation)",
+   "description": "Ligne du tableau de garanties, poste « SOINS COURANTS ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 65 % / 90 % BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 100% BR | FORMULE 2+ : 100% BR | FORMULE 3 : 100% BR | FORMULE 3+ : 100% BR | FORMULE 4 : 100% BR | FORMULE 4+ : 100% BR | FORMULE 5 : 100% BR | FORMULE 5+ : 100% BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "'Honoraires médicaux",
+    "Médicaments"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Pack PHARMACIE",
+   "description": "Prestation globale par an et par personne assurée : le montant est imprimé une seule fois par colonne, dans une cellule fusionnée couvrant les lignes du pack.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : - | FORMULE 1 : - | FORMULE 1+ : - | FORMULE 2 : - | FORMULE 2+ : - | FORMULE 3 : 50 € | FORMULE 3+ : 50 € | FORMULE 4 : 50 € | FORMULE 4+ : 50 € | FORMULE 5 : 50 € | FORMULE 5+ : 50 €",
+   "sub_limits": [
+    "Postes couverts par la prestation globale : Pharmacie prescrite médicalement mais non prise en charge par le RO ; Moyens contraceptifs prescrits médicalement mais non pris en charge par le RO ; Vaccins prescrits médicalement mais non pris en charge par le RO"
+   ],
+   "deductible": null,
+   "conditions": [
+    "Prestation globale par an et par personne assurée au titre de l’ensemble des frais pharmaceutiques suivants :"
+   ],
+   "page": 1
+  },
+  {
+   "name": "AIDES AUDITIVES - Equipements 100% santé 2",
+   "description": "Ligne du tableau de garanties, poste « AIDES AUDITIVES ». Cellule unique couvrant les dix formules : « Pris en charge dans la limite des prix limites de vente (PLV) ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 à FORMULE 5+ : Pris en charge dans la limite des prix limites de vente (PLV)",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'une aide auditive par oreille par période de 4 ans"
+   ],
+   "page": 1
+  },
+  {
+   "name": "AIDES AUDITIVES - Equipements hors 100% santé adulte (personne âgée de 20 ans et plus)",
+   "description": "Ligne du tableau de garanties, poste « AIDES AUDITIVES ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 100% BR | FORMULE 2+ : 100% BR | FORMULE 3 : 100% BR | FORMULE 3+ : 100% BR | FORMULE 4 : 100% BR | FORMULE 4+ : 100% BR | FORMULE 5 : 100% BR | FORMULE 5+ : 100% BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'une aide auditive par oreille par période de 4 ans"
+   ],
+   "page": 1
+  },
+  {
+   "name": "AIDES AUDITIVES - Forfait supplémentaire / oreille / 4 ans / adulte (hors accessoires )",
+   "description": "Ligne du tableau de garanties, poste « AIDES AUDITIVES ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : - | FORMULE 1 : 0 € | FORMULE 1+ : 0 € | FORMULE 2 : 100 € | FORMULE 2+ : 100 € | FORMULE 3 : 300 € | FORMULE 3+ : 300 € | FORMULE 4 : 500 € | FORMULE 4+ : 500 € | FORMULE 5 : 1 100 € | FORMULE 5+ : 1 100 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'une aide auditive par oreille par période de 4 ans"
+   ],
+   "page": 1
+  },
+  {
+   "name": "AIDES AUDITIVES - Equipements hors 100% santé enfant (personne âgée de moins de 20 ans)",
+   "description": "Ligne du tableau de garanties, poste « AIDES AUDITIVES ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 100% BR | FORMULE 2+ : 100% BR | FORMULE 3 : 100% BR | FORMULE 3+ : 100% BR | FORMULE 4 : 100% BR | FORMULE 4+ : 100% BR | FORMULE 5 : 100% BR | FORMULE 5+ : 100% BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'une aide auditive par oreille par période de 4 ans"
+   ],
+   "page": 1
+  },
+  {
+   "name": "AIDES AUDITIVES - Forfait supplémentaire / oreille / 4 ans / enfant (hors accessoires )",
+   "description": "Ligne du tableau de garanties, poste « AIDES AUDITIVES ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : - | FORMULE 1 : 0 € | FORMULE 1+ : 0 € | FORMULE 2 : 0 € | FORMULE 2+ : 0 € | FORMULE 3 : 100 € | FORMULE 3+ : 100 € | FORMULE 4 : 100 € | FORMULE 4+ : 100 € | FORMULE 5 : 300 € | FORMULE 5+ : 300 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'une aide auditive par oreille par période de 4 ans"
+   ],
+   "page": 1
+  },
+  {
+   "name": "AIDES AUDITIVES - Accessoires pris en charge par le RO",
+   "description": "Ligne du tableau de garanties, poste « AIDES AUDITIVES ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 100% BR | FORMULE 2+ : 100% BR | FORMULE 3 : 100% BR | FORMULE 3+ : 100% BR | FORMULE 4 : 100% BR | FORMULE 4+ : 100% BR | FORMULE 5 : 100% BR | FORMULE 5+ : 100% BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'une aide auditive par oreille par période de 4 ans"
+   ],
+   "page": 1
+  },
+  {
+   "name": "OPTIQUE - Equipement 100% santé (2)",
+   "description": "Ligne du tableau de garanties, poste « OPTIQUE ». Cellule unique couvrant les dix formules : « Pris en charge dans la limite des prix limites de vente (PLV) dès 2020 ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% | FORMULE 1 à FORMULE 5+ : Pris en charge dans la limite des prix limites de vente (PLV) dès 2020",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'un équipement (une monture et deux verres) par période de deux ans pour les adultes : (sauf évolution de la vue, un par an, et sauf situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (3) pour les verres)"
+   ],
+   "page": 1
+  },
+  {
+   "name": "OPTIQUE - Equipement à verres unifocaux simples (5)",
+   "description": "Ligne du tableau de garanties, poste « OPTIQUE ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100 € | FORMULE 1+ : 250 € | FORMULE 2 : 250 € | FORMULE 2+ : 300 € | FORMULE 3 : 300 € | FORMULE 3+ : 350 € | FORMULE 4 : 350 € | FORMULE 4+ : 410 € | FORMULE 5 : 410 € | FORMULE 5+ : 420 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'un équipement (une monture et deux verres) par période de deux ans pour les adultes : (sauf évolution de la vue, un par an, et sauf situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (3) pour les verres)",
+    "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
+   ],
+   "page": 1
+  },
+  {
+   "name": "OPTIQUE - Equipement comportant un verre unifocal simple et un verre complexe",
+   "description": "Ligne du tableau de garanties, poste « OPTIQUE ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 150 € | FORMULE 1+ : 325 € | FORMULE 2 : 325 € | FORMULE 2+ : 375 € | FORMULE 3 : 375 € | FORMULE 3+ : 450 € | FORMULE 4 : 450 € | FORMULE 4+ : 555 € | FORMULE 5 : 555 € | FORMULE 5+ : 560 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'un équipement (une monture et deux verres) par période de deux ans pour les adultes : (sauf évolution de la vue, un par an, et sauf situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (3) pour les verres)",
+    "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
+   ],
+   "page": 1
+  },
+  {
+   "name": "OPTIQUE - Equipement comportant un verre unifocal simple et un verre très complexe",
+   "description": "Ligne du tableau de garanties, poste « OPTIQUE ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 150 € | FORMULE 1+ : 325 € | FORMULE 2 : 325 € | FORMULE 2+ : 375 € | FORMULE 3 : 375 € | FORMULE 3+ : 450 € | FORMULE 4 : 450 € | FORMULE 4+ : 565 € | FORMULE 5 : 565 € | FORMULE 5+ : 610 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'un équipement (une monture et deux verres) par période de deux ans pour les adultes : (sauf évolution de la vue, un par an, et sauf situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (3) pour les verres)",
+    "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
+   ],
+   "page": 1
+  },
+  {
+   "name": "OPTIQUE - Equipement à verres complexes (6)",
+   "description": "Ligne du tableau de garanties, poste « OPTIQUE ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 200 € | FORMULE 1+ : 400 € | FORMULE 2 : 400 € | FORMULE 2+ : 450 € | FORMULE 3 : 450 € | FORMULE 3+ : 550 € | FORMULE 4 : 550 € | FORMULE 4+ : 700 € | FORMULE 5 : 700 € | FORMULE 5+ : 700 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'un équipement (une monture et deux verres) par période de deux ans pour les adultes : (sauf évolution de la vue, un par an, et sauf situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (3) pour les verres)",
+    "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
+   ],
+   "page": 1
+  },
+  {
+   "name": "OPTIQUE - Equipement comportant un verre complexe et un verre très complexe",
+   "description": "Ligne du tableau de garanties, poste « OPTIQUE ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 200 € | FORMULE 1+ : 400 € | FORMULE 2 : 400 € | FORMULE 2+ : 450 € | FORMULE 3 : 450 € | FORMULE 3+ : 550 € | FORMULE 4 : 550 € | FORMULE 4+ : 710 € | FORMULE 5 : 710 € | FORMULE 5+ : 750 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'un équipement (une monture et deux verres) par période de deux ans pour les adultes : (sauf évolution de la vue, un par an, et sauf situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (3) pour les verres)",
+    "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
+   ],
+   "page": 1
+  },
+  {
+   "name": "OPTIQUE - Equipement à verres très complexes (7)",
+   "description": "Ligne du tableau de garanties, poste « OPTIQUE ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 200 € | FORMULE 1+ : 400 € | FORMULE 2 : 400 € | FORMULE 2+ : 450 € | FORMULE 3 : 450 € | FORMULE 3+ : 550 € | FORMULE 4 : 550 € | FORMULE 4+ : 720 € | FORMULE 5 : 720 € | FORMULE 5+ : 800 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'un équipement (une monture et deux verres) par période de deux ans pour les adultes : (sauf évolution de la vue, un par an, et sauf situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (3) pour les verres)",
+    "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
+   ],
+   "page": 1
+  },
+  {
+   "name": "OPTIQUE - Dont monture (4)",
+   "description": "Ligne du tableau de garanties, poste « OPTIQUE ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 30 € | FORMULE 1+ : 100 € | FORMULE 2 : 100 € | FORMULE 2+ : 100 € | FORMULE 3 : 100 € | FORMULE 3+ : 100 € | FORMULE 4 : 100 € | FORMULE 4+ : 100 € | FORMULE 5 : 100 € | FORMULE 5+ : 100 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'un équipement (une monture et deux verres) par période de deux ans pour les adultes : (sauf évolution de la vue, un par an, et sauf situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (3) pour les verres)",
+    "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
+   ],
+   "page": 1
+  },
+  {
+   "name": "OPTIQUE - Prestation d'adaptation de la prescription médicale de verre correcteur par l'opticien",
+   "description": "Ligne du tableau de garanties, poste « OPTIQUE ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : TM | FORMULE 1+ : TM | FORMULE 2 : TM | FORMULE 2+ : TM | FORMULE 3 : TM | FORMULE 3+ : TM | FORMULE 4 : TM | FORMULE 4+ : TM | FORMULE 5 : TM | FORMULE 5+ : TM",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'un équipement (une monture et deux verres) par période de deux ans pour les adultes : (sauf évolution de la vue, un par an, et sauf situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (3) pour les verres)",
+    "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
+   ],
+   "page": 1
+  },
+  {
+   "name": "OPTIQUE - Lentilles correctrices prescrites médicalement prises en charge par le RO, par an et par pers. assuré",
+   "description": "Ligne du tableau de garanties, poste « OPTIQUE ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100 € | FORMULE 1+ : 220 € | FORMULE 2 : 220 € | FORMULE 2+ : 260 € | FORMULE 3 : 260 € | FORMULE 3+ : 300 € | FORMULE 4 : 300 € | FORMULE 4+ : 340 € | FORMULE 5 : 340 € | FORMULE 5+ : 400 €",
+   "sub_limits": [
+    "avec un minimum de : RO Régime Local AM : - | FORMULE 1 : TM | FORMULE 1+ : TM | FORMULE 2 : TM | FORMULE 2+ : TM | FORMULE 3 : TM | FORMULE 3+ : TM | FORMULE 4 : TM | FORMULE 4+ : TM | FORMULE 5 : TM | FORMULE 5+ : TM"
+   ],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'un équipement (une monture et deux verres) par période de deux ans pour les adultes : (sauf évolution de la vue, un par an, et sauf situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (3) pour les verres)",
+    "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
+   ],
+   "page": 1
+  },
+  {
+   "name": "OPTIQUE - Lentilles correctrices prescrites médicalement référencées à la LPP mais non prises en charge par le RO, par an et par pers. assurée",
+   "description": "Ligne du tableau de garanties, poste « OPTIQUE ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : - | FORMULE 1 : - | FORMULE 1+ : - | FORMULE 2 : - | FORMULE 2+ : 170 € | FORMULE 3 : 170 € | FORMULE 3+ : 230 € | FORMULE 4 : 230 € | FORMULE 4+ : 290 € | FORMULE 5 : 290 € | FORMULE 5+ : 350 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'un équipement (une monture et deux verres) par période de deux ans pour les adultes : (sauf évolution de la vue, un par an, et sauf situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (3) pour les verres)",
+    "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
+   ],
+   "page": 1
+  },
+  {
+   "name": "OPTIQUE - Chirurgie réfractive (traitement des corrections visuelles) par an et par personne assurée",
+   "description": "Ligne du tableau de garanties, poste « OPTIQUE ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : - | FORMULE 1 : - | FORMULE 1+ : - | FORMULE 2 : - | FORMULE 2+ : 600 € | FORMULE 3 : 600 € | FORMULE 3+ : 750 € | FORMULE 4 : 750 € | FORMULE 4+ : 900 € | FORMULE 5 : 900 € | FORMULE 5+ : 1 000 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'un équipement (une monture et deux verres) par période de deux ans pour les adultes : (sauf évolution de la vue, un par an, et sauf situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (3) pour les verres)",
+    "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
+   ],
+   "page": 1
+  },
+  {
+   "name": "OPTIQUE ADULTE DANS LE RESEAU SEVEANE - Verres sélectionnés (8)",
+   "description": "Ligne du tableau de garanties, poste « OPTIQUE ADULTE DANS LE RESEAU SEVEANE ». Cellule unique couvrant les dix formules : « Forfait lunettes parmi / sélection partenaire / entièrement pris en charge Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 à FORMULE 5+ : Forfait lunettes parmi / sélection partenaire / entièrement pris en charge Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'un équipement (une monture et deux verres) par période de deux ans pour les adultes : (sauf évolution de la vue, un par an, et sauf situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (3) pour les verres)"
+   ],
+   "page": 1
+  },
+  {
+   "name": "OPTIQUE ADULTE DANS LE RESEAU SEVEANE - Monture si verres sélectionnés (4)",
+   "description": "Ligne du tableau de garanties, poste « OPTIQUE ADULTE DANS LE RESEAU SEVEANE ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 30 € | FORMULE 1+ : 100 € | FORMULE 2 : 100 € | FORMULE 2+ : 100 € | FORMULE 3 : 100 € | FORMULE 3+ : 100 € | FORMULE 4 : 100 € | FORMULE 4+ : 100 € | FORMULE 5 : 100 € | FORMULE 5+ : 100 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'un équipement (une monture et deux verres) par période de deux ans pour les adultes : (sauf évolution de la vue, un par an, et sauf situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (3) pour les verres)"
+   ],
+   "page": 1
+  },
+  {
+   "name": "OPTIQUE ADULTE DANS LE RESEAU SEVEANE - Equipement à verres autres et autres frais d’optique",
+   "description": "Ligne du tableau de garanties, poste « OPTIQUE ADULTE DANS LE RESEAU SEVEANE ». Cellule unique couvrant les dix formules : « Les montants de prestations prévus dans la rubrique OPTIQUE ADULTE (hors réseau Sévéane) ci-dessus demeurent applicables ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "FORMULE 1 à FORMULE 5+ : Les montants de prestations prévus dans la rubrique OPTIQUE ADULTE (hors réseau Sévéane) ci-dessus demeurent applicables",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'un équipement (une monture et deux verres) par période de deux ans pour les adultes : (sauf évolution de la vue, un par an, et sauf situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (3) pour les verres)"
+   ],
+   "page": 1
+  },
+  {
+   "name": "OPTIQUE ENFANT (personne agée de moins de 16 ans) - Equipement 100% santé (2)",
+   "description": "Ligne du tableau de garanties, poste « OPTIQUE ENFANT (personne agée de moins de 16 ans) ». Cellule unique couvrant les dix formules : « Pris en charge dans la limite des prix limites de vente (PLV) dès 2020 ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 à FORMULE 5+ : Pris en charge dans la limite des prix limites de vente (PLV) dès 2020",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'un équipement (une monture et deux verres) par période d’un an pour les enfants : de la vue ou situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (9) pour les verres)"
+   ],
+   "page": 2
+  },
+  {
+   "name": "OPTIQUE ENFANT (personne agée de moins de 16 ans) - Equipement à verres unifocaux simples (5)",
+   "description": "Ligne du tableau de garanties, poste « OPTIQUE ENFANT (personne agée de moins de 16 ans) ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100 € | FORMULE 1+ : 250 € | FORMULE 2 : 250 € | FORMULE 2+ : 300 € | FORMULE 3 : 300 € | FORMULE 3+ : 350 € | FORMULE 4 : 350 € | FORMULE 4+ : 410 € | FORMULE 5 : 410 € | FORMULE 5+ : 420 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'un équipement (une monture et deux verres) par période d’un an pour les enfants : de la vue ou situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (9) pour les verres)",
+    "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
+   ],
+   "page": 2
+  },
+  {
+   "name": "OPTIQUE ENFANT (personne agée de moins de 16 ans) - Equipement comportant un verre unifocal simple et un verre complexe",
+   "description": "Ligne du tableau de garanties, poste « OPTIQUE ENFANT (personne agée de moins de 16 ans) ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 150 € | FORMULE 1+ : 325 € | FORMULE 2 : 325 € | FORMULE 2+ : 375 € | FORMULE 3 : 375 € | FORMULE 3+ : 450 € | FORMULE 4 : 450 € | FORMULE 4+ : 555 € | FORMULE 5 : 555 € | FORMULE 5+ : 560 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'un équipement (une monture et deux verres) par période d’un an pour les enfants : de la vue ou situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (9) pour les verres)",
+    "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
+   ],
+   "page": 2
+  },
+  {
+   "name": "OPTIQUE ENFANT (personne agée de moins de 16 ans) - Equipement comportant un verre unifocal simple et un verre très complexe",
+   "description": "Ligne du tableau de garanties, poste « OPTIQUE ENFANT (personne agée de moins de 16 ans) ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 150 € | FORMULE 1+ : 325 € | FORMULE 2 : 325 € | FORMULE 2+ : 375 € | FORMULE 3 : 375 € | FORMULE 3+ : 450 € | FORMULE 4 : 450 € | FORMULE 4+ : 565 € | FORMULE 5 : 565 € | FORMULE 5+ : 610 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'un équipement (une monture et deux verres) par période d’un an pour les enfants : de la vue ou situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (9) pour les verres)",
+    "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
+   ],
+   "page": 2
+  },
+  {
+   "name": "OPTIQUE ENFANT (personne agée de moins de 16 ans) - Equipement à verres complexes (6)",
+   "description": "Ligne du tableau de garanties, poste « OPTIQUE ENFANT (personne agée de moins de 16 ans) ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 200 € | FORMULE 1+ : 400 € | FORMULE 2 : 400 € | FORMULE 2+ : 450 € | FORMULE 3 : 450 € | FORMULE 3+ : 550 € | FORMULE 4 : 550 € | FORMULE 4+ : 700 € | FORMULE 5 : 700 € | FORMULE 5+ : 700 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'un équipement (une monture et deux verres) par période d’un an pour les enfants : de la vue ou situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (9) pour les verres)",
+    "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
+   ],
+   "page": 2
+  },
+  {
+   "name": "OPTIQUE ENFANT (personne agée de moins de 16 ans) - Equipement comportant un verre complexe et un verre très complexe",
+   "description": "Ligne du tableau de garanties, poste « OPTIQUE ENFANT (personne agée de moins de 16 ans) ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 200 € | FORMULE 1+ : 400 € | FORMULE 2 : 400 € | FORMULE 2+ : 450 € | FORMULE 3 : 450 € | FORMULE 3+ : 550 € | FORMULE 4 : 550 € | FORMULE 4+ : 710 € | FORMULE 5 : 710 € | FORMULE 5+ : 750 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'un équipement (une monture et deux verres) par période d’un an pour les enfants : de la vue ou situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (9) pour les verres)",
+    "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
+   ],
+   "page": 2
+  },
+  {
+   "name": "OPTIQUE ENFANT (personne agée de moins de 16 ans) - Equipement à verres très complexes (7)",
+   "description": "Ligne du tableau de garanties, poste « OPTIQUE ENFANT (personne agée de moins de 16 ans) ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 200 € | FORMULE 1+ : 400 € | FORMULE 2 : 400 € | FORMULE 2+ : 450 € | FORMULE 3 : 450 € | FORMULE 3+ : 550 € | FORMULE 4 : 550 € | FORMULE 4+ : 720 € | FORMULE 5 : 720 € | FORMULE 5+ : 800 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'un équipement (une monture et deux verres) par période d’un an pour les enfants : de la vue ou situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (9) pour les verres)",
+    "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
+   ],
+   "page": 2
+  },
+  {
+   "name": "OPTIQUE ENFANT (personne agée de moins de 16 ans) - Dont monture (4)",
+   "description": "Ligne du tableau de garanties, poste « OPTIQUE ENFANT (personne agée de moins de 16 ans) ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 30 € | FORMULE 1+ : 100 € | FORMULE 2 : 100 € | FORMULE 2+ : 100 € | FORMULE 3 : 100 € | FORMULE 3+ : 100 € | FORMULE 4 : 100 € | FORMULE 4+ : 100 € | FORMULE 5 : 100 € | FORMULE 5+ : 100 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'un équipement (une monture et deux verres) par période d’un an pour les enfants : de la vue ou situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (9) pour les verres)",
+    "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
+   ],
+   "page": 2
+  },
+  {
+   "name": "OPTIQUE ENFANT (personne agée de moins de 16 ans) - Prestation d'adaptation de la prescription médicale de verre correcteur par l'opticien",
+   "description": "Ligne du tableau de garanties, poste « OPTIQUE ENFANT (personne agée de moins de 16 ans) ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : TM | FORMULE 1+ : TM | FORMULE 2 : TM | FORMULE 2+ : TM | FORMULE 3 : TM | FORMULE 3+ : TM | FORMULE 4 : TM | FORMULE 4+ : TM | FORMULE 5 : TM | FORMULE 5+ : TM",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'un équipement (une monture et deux verres) par période d’un an pour les enfants : de la vue ou situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (9) pour les verres)",
+    "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
+   ],
+   "page": 2
+  },
+  {
+   "name": "OPTIQUE ENFANT (personne agée de moins de 16 ans) - Lentilles correctrices prescrites médicalement prises en charge par le RO, par an et par personne assurée",
+   "description": "Ligne du tableau de garanties, poste « OPTIQUE ENFANT (personne agée de moins de 16 ans) ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100 € | FORMULE 1+ : 220 € | FORMULE 2 : 220 € | FORMULE 2+ : 260 € | FORMULE 3 : 260 € | FORMULE 3+ : 300 € | FORMULE 4 : 300 € | FORMULE 4+ : 340 € | FORMULE 5 : 340 € | FORMULE 5+ : 400 €",
+   "sub_limits": [
+    "avec un minimum de : RO Régime Local AM : - | FORMULE 1 : TM | FORMULE 1+ : TM | FORMULE 2 : TM | FORMULE 2+ : TM | FORMULE 3 : TM | FORMULE 3+ : TM | FORMULE 4 : TM | FORMULE 4+ : TM | FORMULE 5 : TM | FORMULE 5+ : TM"
+   ],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'un équipement (une monture et deux verres) par période d’un an pour les enfants : de la vue ou situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (9) pour les verres)",
+    "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
+   ],
+   "page": 2
+  },
+  {
+   "name": "OPTIQUE ENFANT (personne agée de moins de 16 ans) - Lentilles correctrices prescrites médicalement référencées à la LPP mais non prises en charge par le RO, par an et par personne",
+   "description": "Ligne du tableau de garanties, poste « OPTIQUE ENFANT (personne agée de moins de 16 ans) ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : - | FORMULE 1 : - | FORMULE 1+ : - | FORMULE 2 : - | FORMULE 2+ : 170 € | FORMULE 3 : 170 € | FORMULE 3+ : 230 € | FORMULE 4 : 230 € | FORMULE 4+ : 290 € | FORMULE 5 : 290 € | FORMULE 5+ : 350 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'un équipement (une monture et deux verres) par période d’un an pour les enfants : de la vue ou situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (9) pour les verres)",
+    "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
+   ],
+   "page": 2
+  },
+  {
+   "name": "OPTIQUE ENFANT (personne agée de moins de 16 ans) - Chirurgie réfractive (traitement des corrections visuelles) par an et par personne assurée",
+   "description": "Ligne du tableau de garanties, poste « OPTIQUE ENFANT (personne agée de moins de 16 ans) ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : - | FORMULE 1 : - | FORMULE 1+ : - | FORMULE 2 : - | FORMULE 2+ : 600 € | FORMULE 3 : 600 € | FORMULE 3+ : 750 € | FORMULE 4 : 750 € | FORMULE 4+ : 900 € | FORMULE 5 : 900 € | FORMULE 5+ : 1 000 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'un équipement (une monture et deux verres) par période d’un an pour les enfants : de la vue ou situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (9) pour les verres)",
+    "Equipement hors 100% santé (dont maximum 100 € pour la monture) (4)"
+   ],
+   "page": 2
+  },
+  {
+   "name": "OPTIQUE ENFANT DANS LE RESEAU SEVEANE - Verres sélectionnés (8)",
+   "description": "Ligne du tableau de garanties, poste « OPTIQUE ENFANT DANS LE RESEAU SEVEANE ». Cellule unique couvrant les dix formules : « Forfait lunettes parmi / sélection partenaire / entièrement pris en charge Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 à FORMULE 5+ : Forfait lunettes parmi / sélection partenaire / entièrement pris en charge Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés Prise en charge intégrale / des verres et des / traitements sélectionnés",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'un équipement (une monture et deux verres) par période d’un an pour les enfants : de la vue ou situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (9) pour les verres)"
+   ],
+   "page": 2
+  },
+  {
+   "name": "OPTIQUE ENFANT DANS LE RESEAU SEVEANE - Monture si verres sélectionnés (4)",
+   "description": "Ligne du tableau de garanties, poste « OPTIQUE ENFANT DANS LE RESEAU SEVEANE ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 30 € | FORMULE 1+ : 100 | FORMULE 2 : 100 € | FORMULE 2+ : 100 € | FORMULE 3 : 100 € | FORMULE 3+ : 100 € | FORMULE 4 : 100 € | FORMULE 4+ : 100 € | FORMULE 5 : 100 € | FORMULE 5+ : 100 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'un équipement (une monture et deux verres) par période d’un an pour les enfants : de la vue ou situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (9) pour les verres)"
+   ],
+   "page": 2
+  },
+  {
+   "name": "OPTIQUE ENFANT DANS LE RESEAU SEVEANE - Equipement à verres autres et autres frais d’optique",
+   "description": "Ligne du tableau de garanties, poste « OPTIQUE ENFANT DANS LE RESEAU SEVEANE ». Cellule unique couvrant les dix formules : « Les montants de prestations prévus dans la rubrique OPTIQUE ENFANT (hors réseau Sévéane) ci-dessus demeurent applicables ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "FORMULE 1 à FORMULE 5+ : Les montants de prestations prévus dans la rubrique OPTIQUE ENFANT (hors réseau Sévéane) ci-dessus demeurent applicables",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'un équipement (une monture et deux verres) par période d’un an pour les enfants : de la vue ou situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement (9) pour les verres)"
+   ],
+   "page": 2
+  },
+  {
+   "name": "DENTAIRE - Soins et prothèses 100% santé (2)",
+   "description": "Ligne du tableau de garanties, poste « DENTAIRE ». Cellule unique couvrant les dix formules : « Pris en charge dans le respect des honoraires limites de facturation dès 2020 ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 à FORMULE 5+ : Pris en charge dans le respect des honoraires limites de facturation dès 2020",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "DENTAIRE - - Soins",
+   "description": "Ligne du tableau de garanties, poste « DENTAIRE ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 100% BR | FORMULE 2 : 100% BR | FORMULE 2+ : 100% BR | FORMULE 3 : 100% BR | FORMULE 3+ : 100% BR | FORMULE 4 : 100% BR | FORMULE 4+ : 100% BR | FORMULE 5 : 100% BR | FORMULE 5+ : 100% BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Soins et prothèses hors 100% santé"
+   ],
+   "page": 2
+  },
+  {
+   "name": "DENTAIRE - - Inlays / Onlays",
+   "description": "Ligne du tableau de garanties, poste « DENTAIRE ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 100% BR | FORMULE 1+ : 190% BR | FORMULE 2 : 190% BR | FORMULE 2+ : 290% BR | FORMULE 3 : 290% BR | FORMULE 3+ : 390% BR | FORMULE 4 : 390% BR | FORMULE 4+ : 490% BR | FORMULE 5 : 490% BR | FORMULE 5+ : 590% BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Soins et prothèses hors 100% santé"
+   ],
+   "page": 2
+  },
+  {
+   "name": "DENTAIRE - - Inlay Core",
+   "description": "Ligne du tableau de garanties, poste « DENTAIRE ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 125% BR | FORMULE 1+ : 150% BR | FORMULE 2 : 150% BR | FORMULE 2+ : 190% BR | FORMULE 3 : 190% BR | FORMULE 3+ : 240% BR | FORMULE 4 : 240% BR | FORMULE 4+ : 290% BR | FORMULE 5 : 290% BR | FORMULE 5+ : 340% BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Soins et prothèses hors 100% santé"
+   ],
+   "page": 2
+  },
+  {
+   "name": "DENTAIRE - - Prothèses",
+   "description": "Ligne du tableau de garanties, poste « DENTAIRE ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : - | FORMULE 1 : - | FORMULE 1+ : - | FORMULE 2 : - | FORMULE 2+ : - | FORMULE 3 : - | FORMULE 3+ : - | FORMULE 4 : - | FORMULE 4+ : - | FORMULE 5 : - | FORMULE 5+ : -",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Soins et prothèses hors 100% santé"
+   ],
+   "page": 2
+  },
+  {
+   "name": "DENTAIRE - - prises en charge par le RO",
+   "description": "Ligne du tableau de garanties, poste « DENTAIRE ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% BR | FORMULE 1 : 125% BR | FORMULE 1+ : 190% BR | FORMULE 2 : 190% BR | FORMULE 2+ : 290% BR | FORMULE 3 : 290% BR | FORMULE 3+ : 390% BR | FORMULE 4 : 390% BR | FORMULE 4+ : 490% BR | FORMULE 5 : 490% BR | FORMULE 5+ : 590% BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Soins et prothèses hors 100% santé"
+   ],
+   "page": 2
+  },
+  {
+   "name": "DENTAIRE - - non prises en charge par le RO, par an, par pers. assurée",
+   "description": "Ligne du tableau de garanties, poste « DENTAIRE ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : - | FORMULE 1 : - | FORMULE 1+ : 100 € | FORMULE 2 : 100 € | FORMULE 2+ : 200 € | FORMULE 3 : 200 € | FORMULE 3+ : 300 € | FORMULE 4 : 300 € | FORMULE 4+ : 400 € | FORMULE 5 : 400 € | FORMULE 5+ : 500 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Soins et prothèses hors 100% santé"
+   ],
+   "page": 2
+  },
+  {
+   "name": "DENTAIRE - Orthodontie prise en charge par le RO",
+   "description": "Ligne du tableau de garanties, poste « DENTAIRE ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : 90% à 100% BR | FORMULE 1 : 125% BR | FORMULE 1+ : 200% BR | FORMULE 2 : 200% BR | FORMULE 2+ : 300% BR | FORMULE 3 : 300% BR | FORMULE 3+ : 400% BR | FORMULE 4 : 400% BR | FORMULE 4+ : 500% BR | FORMULE 5 : 500% BR | FORMULE 5+ : 600% BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Soins et prothèses hors 100% santé"
+   ],
+   "page": 2
+  },
+  {
+   "name": "DENTAIRE - Orthodontie non prise en charge par le RO, par an, par pers. assurée",
+   "description": "Ligne du tableau de garanties, poste « DENTAIRE ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : - | FORMULE 1 : - | FORMULE 1+ : 100 € | FORMULE 2 : 100 € | FORMULE 2+ : 200 € | FORMULE 3 : 200 € | FORMULE 3+ : 300 € | FORMULE 4 : 300 € | FORMULE 4+ : 400 € | FORMULE 5 : 400 € | FORMULE 5+ : 500 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Soins et prothèses hors 100% santé"
+   ],
+   "page": 2
+  },
+  {
+   "name": "DENTAIRE - Parodontologie non prise en charge par le RO, par an, par pers. assurée",
+   "description": "Ligne du tableau de garanties, poste « DENTAIRE ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : - | FORMULE 1 : - | FORMULE 1+ : 50 € | FORMULE 2 : 50 € | FORMULE 2+ : 100 € | FORMULE 3 : 100 € | FORMULE 3+ : 200 € | FORMULE 4 : 200 € | FORMULE 4+ : 300 € | FORMULE 5 : 300 € | FORMULE 5+ : 400 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Soins et prothèses hors 100% santé"
+   ],
+   "page": 2
+  },
+  {
+   "name": "DENTAIRE - Implantologie non prise en charge par le RO, par an, par pers. assurée",
+   "description": "Ligne du tableau de garanties, poste « DENTAIRE ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : - | FORMULE 1 : - | FORMULE 1+ : 100 € | FORMULE 2 : 100 € | FORMULE 2+ : 200 € | FORMULE 3 : 200 € | FORMULE 3+ : 300 € | FORMULE 4 : 300 € | FORMULE 4+ : 400 € | FORMULE 5 : 400 € | FORMULE 5+ : 600 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Soins et prothèses hors 100% santé"
+   ],
+   "page": 2
+  },
+  {
+   "name": "DENTAIRE - Blanchiment des dents (actes effectués par un chirurgien-dentiste) non pris en charge par le RO, par an, par pers. assurée",
+   "description": "Ligne du tableau de garanties, poste « DENTAIRE ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : - | FORMULE 1 : - | FORMULE 1+ : 25 € | FORMULE 2 : 25 € | FORMULE 2+ : 50 € | FORMULE 3 : 50 € | FORMULE 3+ : 75 € | FORMULE 4 : 75 € | FORMULE 4+ : 100 € | FORMULE 5 : 100 € | FORMULE 5+ : 125 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Soins et prothèses hors 100% santé"
+   ],
+   "page": 2
+  },
+  {
+   "name": "Pack PRÉVENTION, MÉDECINES DOUCES ET SANTÉ AU QUOTIDIEN",
+   "description": "Prestation globale par an et par personne assurée : le montant est imprimé une seule fois par colonne, dans une cellule fusionnée couvrant les lignes du pack.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : - | FORMULE 1 : - | FORMULE 1+ : - | FORMULE 2 : 50 € | FORMULE 2+ : 50 € | FORMULE 3 : 100 € | FORMULE 3+ : 100 € | FORMULE 4 : 200 € | FORMULE 4+ : 200 € | FORMULE 5 : 300 € | FORMULE 5+ : 300 €",
+   "sub_limits": [
+    "Postes couverts par la prestation globale : Actes de prévention dentaire non pris en charge par le RO (pose de vernis fluoré pour les enfants de moins de 13 ans, détartrage approfondi pour les personnes de 45 ans et plus) ; Consultation de Dététicien non prise en charge par le RO ; Consultations de psychologues, de psychanalystes et consultation ou frais de psychomotriciens non pris en charge par le RO ; Cures thermales prises en charge par le RO : frais d’hébergement et de transport ; Actes ou frais d’acupuncture, de chiropraxie, d’étiopathie, d’ostéopathie, d'hypnothérapie et d'homéopathie, non pris en charge par le RO ; Actes d’honoraires paramédicaux (podologue, kinésithérapeute, etc …) prescrits médicalement non pris en charge par le RO ; Sevrage tabagique (substituts nicotiniques ou médicaments prescrits non remboursés par le RO) / an / pers. assurée ; Pratique d’une activité sportive sur prescription médicale non prise en charge par le RO (ALD)",
+    "FORMULE 2 : le montant 50 € est une cellule fusionnée qui ne couvre pas les postes suivants, marqués « - » : Actes de prévention dentaire non pris en charge par le RO (pose de vernis fluoré pour les enfants de moins de 13 ans, détartrage approfondi pour les personnes de 45 ans et plus) ; Consultation de Dététicien non prise en charge par le RO ; Consultations de psychologues, de psychanalystes et consultation ou frais de psychomotriciens non pris en charge par le RO ; Cures thermales prises en charge par le RO : frais d’hébergement et de transport",
+    "FORMULE 2+ : le montant 50 € est une cellule fusionnée qui ne couvre pas les postes suivants, marqués « - » : Actes de prévention dentaire non pris en charge par le RO (pose de vernis fluoré pour les enfants de moins de 13 ans, détartrage approfondi pour les personnes de 45 ans et plus) ; Consultation de Dététicien non prise en charge par le RO ; Consultations de psychologues, de psychanalystes et consultation ou frais de psychomotriciens non pris en charge par le RO ; Cures thermales prises en charge par le RO : frais d’hébergement et de transport"
+   ],
+   "deductible": null,
+   "conditions": [
+    "Prestation globale par an et par personne assurée au titre de l’ensemble des frais suivants :"
+   ],
+   "page": 2
+  },
+  {
+   "name": "SERVICES INCLUS - Tiers payant généralisé",
+   "description": "Ligne du tableau de garanties, poste « SERVICES INCLUS ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : - | FORMULE 1 : Inclus | FORMULE 1+ : Inclus | FORMULE 2 : Inclus | FORMULE 2+ : Inclus | FORMULE 3 : Inclus | FORMULE 3+ : Inclus | FORMULE 4 : Inclus | FORMULE 4+ : Inclus | FORMULE 5 : Inclus | FORMULE 5+ : Inclus",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "SERVICES INCLUS - Aide au calcul des frais restant à charge",
+   "description": "Ligne du tableau de garanties, poste « SERVICES INCLUS ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : - | FORMULE 1 : inclus | FORMULE 1+ : inclus | FORMULE 2 : inclus | FORMULE 2+ : inclus | FORMULE 3 : inclus | FORMULE 3+ : inclus | FORMULE 4 : inclus | FORMULE 4+ : inclus | FORMULE 5 : inclus | FORMULE 5+ : inclus",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "SERVICES INCLUS - Solution(s) de télémédecine proposée(s) par l’assureur / an / pers. assurée de + de 18 ans",
+   "description": "Ligne du tableau de garanties, poste « SERVICES INCLUS ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : - | FORMULE 1 : Limité à 6 téléconsultations | FORMULE 1+ : Limité à 6 téléconsultations | FORMULE 2 : Limité à 6 téléconsultations | FORMULE 2+ : Limité à 6 téléconsultations | FORMULE 3 : Limité à 6 téléconsultations | FORMULE 3+ : Limité à 6 téléconsultations | FORMULE 4 : Limité à 6 téléconsultations | FORMULE 4+ : Limité à 6 téléconsultations | FORMULE 5 : Limité à 6 téléconsultations | FORMULE 5+ : Limité à 6 téléconsultations",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "SERVICES INCLUS - Assistance / infos santé",
+   "description": "Ligne du tableau de garanties, poste « SERVICES INCLUS ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "RO Régime Local AM : - | FORMULE 1 : Premium | FORMULE 1+ : Premium | FORMULE 2 : Premium | FORMULE 2+ : Premium | FORMULE 3 : Premium | FORMULE 3+ : Premium | FORMULE 4 : Premium | FORMULE 4+ : Premium | FORMULE 5 : Premium | FORMULE 5+ : Premium",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  }
+ ],
+ "exclusions": [],
+ "deductibles": null,
+ "waiting_periods": [],
+ "obligations": [],
+ "claims_procedure": [],
+ "duration_and_cancellation": null,
+ "prescription_period": null,
+ "premium": null,
+ "special_conditions": [
+  {
+   "name": "Base des prestations",
+   "description": "Les prestations sont exprimées en complément du remboursement du RO au titre de l’assurance Maladie ou Maternité dans la limite des frais réels et de celles prévues aux conditions générales.",
+   "page": 1
+  },
+  {
+   "name": "Renvoi 1 - hospitalisation à l'étranger hors UE/AELE",
+   "description": "(1) En cas d’hospitalisation dans un pays étranger (autre qu’un état membre de l’Union européenne ou de l'Association européenne de libre-échange), la prise en charge des frais de séjour par l’assureur limitée aux bases indiquées.",
+   "page": 2
+  },
+  {
+   "name": "Renvoi 3 - renouvellement anticipé de l'équipement optique (adultes et 16 ans et plus)",
+   "description": "(3) Et, par période d’un an pour les enfants de moins de 16 ans et par période de 6 mois pour les enfants jusqu'à 6 ans en cas de mauvaise adaptation de la monture à la morphologie du visage de l’enfant entraînant une perte d’efficacité du verre correcteur ; et sans délai uniquement pour les verres pour les enfants de moins de 16 ans en cas d'évolution de la vue ou situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés. Les cas pour lesquels un \nrenouvellement anticipé est prévu, notamment en cas d'évolution de la vue, figurent dans la liste mentionnée à l'article L. 165-1 du code de la sécurité sociale. Les remboursements du poste Optique s'entendent Ticket Modérateur et remboursement du RO inclus.",
+   "page": 2
+  },
+  {
+   "name": "Renvoi 4 - renouvellement de la monture seule",
+   "description": "(4) En cas de renouvellement de la monture seule, le montant de la prestation est fixé à 100€ et limité aux frais réellement engagés.",
+   "page": 2
+  },
+  {
+   "name": "Renvoi 9 - renouvellement anticipé de l'équipement optique (enfants de moins de 16 ans)",
+   "description": "(9) Et, par période de 6 mois pour les enfants jusqu'à 6 ans en cas de mauvaise adaptation de la monture à la morphologie du visage de l’enfant entraînant une perte d’efficacité du verre correcteur. Les cas pour lesquels un renouvellement anticipé est prévu, notamment en cas d'évolution de la vue, figurent dans la liste mentionnée à l'article L. 165-1 du code de la sécurité sociale. Les remboursements du poste Optique s'entendent Ticket Modérateur et remboursement du RO inclus.",
+   "page": 2
+  },
+  {
+   "name": "Entreprise et autorité de contrôle",
+   "description": "Caisses Régionales d'Assurances Mutuelles Agricoles - Entreprises régies par le Code des Assurances et soumises à l'Autorité de Contrôle Prudentiel et de Résolution - 4 place de Budapest - CS 92459 - 75 436 Paris Cedex 09 Aucune caisse régionale n'est nommément désignée.",
+   "page": 1
+  },
+  {
+   "name": "Valeur juridique du document",
+   "description": "Le document porte la mention « Document non contractuel » en pied de chaque page.",
+   "page": 1
+  },
+  {
+   "name": "Colonnes du tableau",
+   "description": "Le tableau comporte une colonne « RO Régime Local AM » puis dix colonnes intitulées « TOTAL / FORMULE n / SSS » pour les formules 1, 1+, 2, 2+, 3, 3+, 4, 4+, 5 et 5+.",
+   "page": 1
+  }
+ ],
+ "key_quotes": [
+  {
+   "quote": "Les prestations sont exprimées en complément du remboursement du RO au titre de l’assurance Maladie ou Maternité dans la limite des frais réels et de celles prévues aux conditions générales.",
+   "context": "base des prestations",
+   "page": 1
+  },
+  {
+   "quote": "(1) En cas d’hospitalisation dans un pays étranger (autre qu’un état membre de l’Union européenne ou de l'Association européenne de libre-échange), la prise en charge des frais de séjour par l’assureur limitée aux bases indiquées.",
+   "context": "hospitalisation hors UE/AELE",
+   "page": 2
+  },
+  {
+   "quote": "(4) En cas de renouvellement de la monture seule, le montant de la prestation est fixé à 100€ et limité aux frais réellement engagés.",
+   "context": "monture seule",
+   "page": 2
+  },
+  {
+   "quote": "(8)Verres et traitements particuliers sélectionnés entre l’assureur et les opticiens membres du réseau Sévéane dans la limite pour l'équipement complet des montants minimum et maximum prévus par la réglementation relative au contrat responsable : anti -rayures y compris - l'anti reflet à partir du 01/01/2020 - et l'anti salissures hors traitements supplémentaires.",
+   "context": "verres sélectionnés réseau Sévéane",
+   "page": 2
+  },
+  {
+   "quote": "TM - Ticket modérateur : différence entre la base de remboursement et le remboursement effectif du régime obligatoire",
+   "context": "définition du ticket modérateur",
+   "page": 2
+  },
+  {
+   "quote": "Caisses Régionales d'Assurances Mutuelles Agricoles - Entreprises régies par le Code des Assurances et soumises à l'Autorité de Contrôle Prudentiel et de Résolution - 4 place de Budapest - CS 92459 - 75 436 Paris Cedex 09",
+   "context": "porteur du risque",
+   "page": 1
+  }
+ ],
+ "gaps": [
+  "Document intégral (2 pages), non tronqué : le texte du prompt correspond octet pour octet au texte PyMuPDF du PDF local.",
+  "Contradiction interne non résolue, les deux lectures étant conservées telles quelles : le bandeau de titre porte « Version Régime Local / En complément » et la note liminaire indique « Les prestations sont exprimées en complément du remboursement du RO », alors que les dix colonnes du tableau sont intitulées « TOTAL / FORMULE n / SSS ». Le document ne dit nulle part si les valeurs des colonnes incluent ou non le remboursement du régime obligatoire ; aucune des deux lectures n'a été retenue au détriment de l'autre.",
+  "Le sigle « SSS » des en-têtes de colonnes n'est jamais développé dans le document ; « TMGF » du titre non plus.",
+  "Texte présent dans la couche texte mais invisible à l'écran : les bandeaux de rubrique portent des caractères de la même couleur verte que le fond du bandeau (RGB 0x92bc27), donc illisibles pour un lecteur humain. Contenu relevé, sans interprétation possible : « HOSPITALISATION » (p. 1) : RO Régime Local AM : 1 | FORMULE 1 : 1 | FORMULE 1+ : 2 | FORMULE 2 : 2 | FORMULE 2+ : 3 | FORMULE 3 : 3 | FORMULE 3+ : 6 | FORMULE 4 : 6 | FORMULE 4+ : 10 | FORMULE 5 : 10 || « SOINS COURANTS » (p. 1) : RO Régime Local AM : RG || « Pack PHARMACIE » (p. 1) : RO Régime Local AM : RG | FORMULE 1 : - | FORMULE 1+ : - | FORMULE 2 : - | FORMULE 2+ : - | FORMULE 3 : 2 | FORMULE 3+ : 2 | FORMULE 4 : 2 | FORMULE 4+ : 2 | FORMULE 5 : 2 | FORMULE 5+ : 2 || « AIDES AUDITIVES » (p. 1) : RO Régime Local AM : RG || « OPTIQUE » (p. 1) : RO Régime Local AM : RG | FORMULE 1 : 1 | FORMULE 1+ : 5 | FORMULE 2 : 5 | FORMULE 2+ : 6 | FORMULE 3 : 6 | FORMULE 3+ : 7 | FORMULE 4 : 7 | FORMULE 4+ : 8 | FORMULE 5 : 8 | FORMULE 5+ : 8 || « OPTIQUE ENFANT (personne agée de moins de 16 ans) » (p. 2) : FORMULE 1 : 1 | FORMULE 1+ : 5 | FORMULE 2 : 5 | FORMULE 2+ : 6 | FORMULE 3 : 6 | FORMULE 3+ : 7 | FORMULE 4 : 7 | FORMULE 4+ : 8 | FORMULE 5 : 8 | FORMULE 5+ : 8.",
+  "Aucune date d'édition, aucune référence d'imprimé, aucun numéro de contrat ne figurent au document ; edition_date et reference restent null. Les seules dates citées sont réglementaires (« dès 2020 », « à partir du 01/01/2020 »).",
+  "Aucun assureur nommément désigné : le pied de page mentionne « Caisses Régionales d'Assurances Mutuelles Agricoles » au pluriel, sans identifier de caisse.",
+  "Le document ne contient aucune section d'exclusions, aucune obligation de l'assuré, aucune procédure de sinistre, aucune durée/résiliation, aucune prescription et aucune information de cotisation : exclusions/obligations/claims_procedure/duration_and_cancellation/prescription_period/premium sont donc vides ou nuls. Les cases « - » du tableau signifient l'absence de prise en charge pour la formule concernée et ont été conservées comme telles dans les limites, et non transformées en exclusions.",
+  "Les deux « Packs » (Pharmacie, Prévention/médecines douces) sont des cellules fusionnées : un seul montant par colonne couvre l'ensemble des postes listés. Les postes explicitement marqués « - » dans une colonne malgré le montant fusionné sont signalés en sub_limits.",
+  "target_audience laissé à null : le mot « Salariés » n'apparaît que dans le nom du produit, le document ne décrivant ni l'entreprise souscriptrice ni les bénéficiaires.",
+  "Le tableau a été reconstruit à partir des coordonnées des mots et de la grille du PDF (la lecture linéaire du texte mélange les libellés et les valeurs) ; les valeurs sont reprises littéralement, y compris les incohérences de frappe (« 170 % BR » avec espace vs « 170% BR », « 150€ » sans espace, « 100 » sans le symbole € en FORMULE 1+ pour la monture Sévéane enfant, « 'Honoraires médicaux » avec une apostrophe parasite).",
+  "edition_date remise a null le 2026-08-01: la valeur 2020-01 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5."
+ ]
 }

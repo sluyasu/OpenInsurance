@@ -12,7 +12,7 @@ document_type: conditions_tarifaires
 target_audience: null
 target_audience_note: null
 reference: null
-edition_date: 2026-03
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/retraite
@@ -28,7 +28,7 @@ prompt_version: '1.1'
 product_family: gan-performance-retraite
 variant: null
 edition_status: null
-edition_age_years: 0
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -42,7 +42,7 @@ generated: true
 
 Fiche de transparence des frais du contrat Gan Performance Retraite, publiée au titre de l'engagement de Groupama Gan Vie de mettre à jour annuellement l'information sur les frais. Elle indique le montant minimal de versement, les frais annuels de gestion du contrat (supports fonds euros et unités de compte), les frais moyens de gestion des unités de compte par classe d'actifs et par mode de gestion (gestion libre, gestion pilotée ou standardisée) avec la part rétrocédée à l'assureur, ainsi que les frais ponctuels par opération. Le document ne décrit ni les garanties ni les exclusions du contrat.
 
-- Assureur : [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../../insurers/Gan%20Assurances.md) · Branche : [Retraite supplémentaire](../../branches/Retraite%20suppl%C3%A9mentaire.md) · Type : Conditions tarifaires · Édition : 2026-03
+- Assureur : [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../../insurers/Gan%20Assurances.md) · Branche : [Retraite supplémentaire](../../branches/Retraite%20suppl%C3%A9mentaire.md) · Type : Conditions tarifaires
 
 ## Définitions
 
@@ -101,6 +101,7 @@ Fiche de transparence des frais du contrat Gan Performance Retraite, publiée au
 - variant reste null : le document ne signale aucune version parallèle du produit (réseau, formule) ; product_family reprend le nom commercial imprimé.
 - Le document ne comporte ni durée/résiliation, ni procédure de sinistre, ni délai de prescription, ni franchise : ces blocs restent vides ou null.
 - Les taux de gestion des unités de compte sont donnés comme des moyennes de l'univers d'investissement, le document précisant que « la valeur exacte dépendra des Unités de Compte constituant l'encours du client ».
+- edition_date remise a null le 2026-08-01: la valeur 2026-03 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Documents liés
 

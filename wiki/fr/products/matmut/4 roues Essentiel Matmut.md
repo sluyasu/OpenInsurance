@@ -624,6 +624,7 @@ Toute action dérivant du présent contrat, qu'il s'agisse de sa validité ou de
 - Portée limitée de certaines annexes : l'Annexe I (bonus-malus) et l'Annexe II (catastrophes naturelles) reproduisent des clauses types réglementaires ; l'Annexe I est précédée, dans le sommaire des annexes page 42, de la mention « Par dérogation aux dispositions de l'alinéa 2 de l'article A. 121-1 du Code des Assurances, la clause de « réduction ou de majoration des primes ou cotisations » est applicable aux contrats garantissant les quadricycles à moteur », seule occurrence d'une catégorie de véhicule autre que les quatre roues listées à l'article 5.
 - Pagination : les citations `page` renvoient aux marqueurs [page N] du texte fourni, qui correspondent aux pages physiques du PDF ; le folio imprimé en tête de page est décalé d'une unité (la page PDF 9 porte le folio 8). Les pages 56, 58 et 61 ne portent qu'un titre de partie ; les pages 64 et 68 ne contiennent qu'un en-tête courant ; la page 3 (sommaire) est une longue suite de tabulations dans la couche texte.
 - Le texte du document fourni dans le prompt couvre les 70 pages et a été vérifié identique, page par page, au texte extrait du PDF local data/fr/pdfs/matmut/auto/4-roues-essentiel-d9f52c57.pdf par page.get_text("text") (PyMuPDF) : aucune troncature.
+- Provenance de edition_date: cette date ne vient pas du texte du document mais du manifeste, ou elle avait ete deduite lors de la decouverte. A verifier contre le document avant d'y appuyer une comparaison d'editions.
 
 ## Source & fidélité
 

@@ -12,7 +12,7 @@
  "target_audience": null,
  "target_audience_note": null,
  "reference": "MU0_IPIDIR_00-260518-V45nc0-1-1-2-05:01:24- IRD11004",
- "edition_date": "2026-05",
+ "edition_date": null,
  "product_family": "Assurance Vie privée",
  "variant": "CHASSE",
  "is_extension": false,
@@ -293,6 +293,7 @@
   "`target_audience` laissé null : le document n'énonce aucune cible (particuliers, entreprises…). L'intitulé « Assurance Vie privée » n'a pas été utilisé pour déduire le champ.",
   "Le texte du prompt n'était pas tronqué (3 898 caractères pour 2 pages). Le PDF local a néanmoins été ré-extrait avec fitz `page.get_text(\"text\")` : les 2 pages ressortent identiques au texte du prompt (2 018 et 1 876 caractères hors marqueurs), l'ancrage des citations est donc vérifié contre le PDF lui-même.",
   "Pièges d'encodage relevés et respectés : apostrophe courbe U+2019 dans « d’assurance », « d’information », « l’information », « l’assuré », « l’environnement », « jusqu’au », alors que d'autres apostrophes du même document sont en ASCII (« qu'organisateur », « l'acquisition », « Qu'est-ce ») ; espace insécable U+00A0 dans « RCS Niort 542 073\\u00a0580 » en page 1 seulement, la page 2 imprimant le même numéro avec des espaces ordinaires. Les montants « 1 524 491 € », « 20 000 € » et « 160 000 000 euros » utilisent des espaces ordinaires. Les citations ont été découpées programmatiquement dans le texte source pour respecter ces caractères.",
-  "Le paragraphe « Ce document d'information présente un résumé… » est justifié et la couche texte le restitue mot par mot sur des lignes séparées (« compte vos / besoins / et / demandes / spécifiques. Vous / … »). La citation correspondante conserve ces sauts de ligne, qui sont ceux du texte source et non une erreur de transcription."
+  "Le paragraphe « Ce document d'information présente un résumé… » est justifié et la couche texte le restitue mot par mot sur des lignes séparées (« compte vos / besoins / et / demandes / spécifiques. Vous / … »). La citation correspondante conserve ces sauts de ligne, qui sont ceux du texte source et non une erreur de transcription.",
+  "edition_date remise a null le 2026-08-01: la valeur 2026-05 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5."
  ]
 }

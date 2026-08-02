@@ -10,7 +10,7 @@ document_type: ipid
 target_audience: null
 target_audience_note: null
 reference: MU0_IPIDIR_00-260518-V45nc0-1-1-2-05:01:24- IRD11004
-edition_date: 2026-05
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/chasse
@@ -26,7 +26,7 @@ prompt_version: '1.1'
 product_family: assurance-vie-privee
 variant: CHASSE
 edition_status: null
-edition_age_years: 0
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-08-01'
@@ -40,7 +40,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de deux pages portant l'intitulé « Assurance Vie privée » et la mention « CHASSE », émis par MAAF Assurances SA (entreprise régie par le code des assurances, RCS Niort 542 073 580). Le contrat couvre la responsabilité civile de l'assuré pour les dommages causés à un tiers à l'occasion de la chasse et d'activités annexes, avec défense pénale et recours suite à accident, et propose en option la garantie des dommages aux chiens en action de chasse. Les dommages corporels et la défense pénale sont garantis sans limitation de somme ; les dommages matériels sont plafonnés à 1 524 491 € et le recours à 20 000 €. Le contrat est conclu jusqu'au 30 juin à 24h suivant la souscription et ne se renouvelle pas par tacite reconduction.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Chasse](../../branches/Chasse.md) · Type : IPID / Fiche d'information · Édition : 2026-05
+- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Chasse](../../branches/Chasse.md) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -128,6 +128,7 @@ Seule garantie listée sous « Les garanties optionnelles : ». Le préambule du
 - Le texte du prompt n'était pas tronqué (3 898 caractères pour 2 pages). Le PDF local a néanmoins été ré-extrait avec fitz `page.get_text("text")` : les 2 pages ressortent identiques au texte du prompt (2 018 et 1 876 caractères hors marqueurs), l'ancrage des citations est donc vérifié contre le PDF lui-même.
 - Pièges d'encodage relevés et respectés : apostrophe courbe U+2019 dans « d’assurance », « d’information », « l’information », « l’assuré », « l’environnement », « jusqu’au », alors que d'autres apostrophes du même document sont en ASCII (« qu'organisateur », « l'acquisition », « Qu'est-ce ») ; espace insécable U+00A0 dans « RCS Niort 542 073\u00a0580 » en page 1 seulement, la page 2 imprimant le même numéro avec des espaces ordinaires. Les montants « 1 524 491 € », « 20 000 € » et « 160 000 000 euros » utilisent des espaces ordinaires. Les citations ont été découpées programmatiquement dans le texte source pour respecter ces caractères.
 - Le paragraphe « Ce document d'information présente un résumé… » est justifié et la couche texte le restitue mot par mot sur des lignes séparées (« compte vos / besoins / et / demandes / spécifiques. Vous / … »). La citation correspondante conserve ces sauts de ligne, qui sont ceux du texte source et non une erreur de transcription.
+- edition_date remise a null le 2026-08-01: la valeur 2026-05 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

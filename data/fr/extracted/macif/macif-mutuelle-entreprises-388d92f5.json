@@ -12,7 +12,7 @@
  "target_audience": "entreprises",
  "target_audience_note": "\"Contrat collectif à adhésion obligatoire\" souscrit par l'\"entreprise souscriptrice\" au profit de ses salariés ; \"En tant qu'employeur, vous avez le choix jusqu'à 6 niveaux de garanties pour couvrir l'étendue des besoins de vos salariés tout en maîtrisant le budget de votre entreprise\".",
  "reference": "NID M M E - 01/26",
- "edition_date": "2026-01",
+ "edition_date": null,
  "product_family": "Macif Mutuelle Entreprises",
  "variant": null,
  "is_extension": false,
@@ -1903,6 +1903,7 @@
   "Le montant de la cotisation n'est pas chiffré (renvoyé au contrat souscrit par l'entreprise et au bulletin d'affiliation) ; seules les mécaniques d'indexation et de paiement sont extraites.",
   "Coquilles et artefacts de la couche texte conservés tels quels, sans correction : \"Cures thermale\" (pages 10 et 18), \"soins d'obsturation\" (note 8), \"incisive\" au singulier (pages 11 et 15), \"1erer\" / \"1rere\" (exposants aplatis), \"cumu latives\", \"di spensation\" / \"dispensa tion\", \"Hord d'encadré\" (page 14), \"prévus par décret\" (page 25), ainsi que les marqueurs \"Encadré.\" / \"Hors d'encadré.\" injectés par l'extraction du PDF.",
   "Pages 2, 4 et 12 : la couche texte contient de nombreuses lignes dupliquées (sommaire, encadrés marketing, exemples de remboursement). Les exemples chiffrés de la page 12 sont partiellement corrompus (\"1133 € 1133 €  3 €\", \"1023,35 € 1023,35 €  5 €\") ; ils n'ont pas été retenus comme montants de garantie car ce sont des illustrations commerciales et non des engagements contractuels.",
-  "Les exemples de reste à charge de la page 4 (couronne dentaire hors 100 % Santé de 547,90 euros, lunettes à verres progressifs de 601 euros, consultation de dermatologue avec 58 euros de dépassements) sont présentés comme \"quelques exemples de remboursements\" à visée pédagogique ; ils sont enregistrés en special_conditions et non comme des garanties."
+  "Les exemples de reste à charge de la page 4 (couronne dentaire hors 100 % Santé de 547,90 euros, lunettes à verres progressifs de 601 euros, consultation de dermatologue avec 58 euros de dépassements) sont présentés comme \"quelques exemples de remboursements\" à visée pédagogique ; ils sont enregistrés en special_conditions et non comme des garanties.",
+  "edition_date remise a null le 2026-08-01: la valeur 2026-01 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5."
  ]
 }

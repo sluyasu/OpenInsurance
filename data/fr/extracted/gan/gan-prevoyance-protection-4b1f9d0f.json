@@ -1,401 +1,401 @@
 {
-  "schema_version": "1.0",
-  "prompt_version": "1.1",
-  "country": "fr",
-  "insurer_slug": "gan",
-  "insurer_name": "Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group",
-  "product_name": "Gan Prévoyance Protection",
-  "branch": "prevoyance",
-  "branch_code": null,
-  "document_type": "product_sheet",
-  "language": "fr",
-  "target_audience": "independants",
-  "target_audience_note": "« Travailleurs non-salariés » (titre imprimé en page 1). Profil type retenu : • Commerçant • 50 ans, marié, 1 enfant (13 ans) • Revenu annuel brut : 43 000 € soit 3 583 € par mois • Moyenne 3 dernières années : 43 000 € • Moyenne 10 meilleurs années : 43 000 €",
-  "reference": "3340 – GPP12 – 012026 – PAO – GGVIE / Technique Offre et Pilotage",
-  "edition_date": "01/01/2026",
-  "product_family": "Gan Prévoyance Protection",
-  "variant": null,
-  "is_extension": false,
-  "extends": null,
-  "superseded": null,
-  "source_url": "https://www.ganprevoyance.fr/securite-professionnel-gan-prevoyance-protection/2-2/telecharger-le-tableau-des-garanties.pdf?date=20251222151901",
-  "source_pdf": "travailleurs-non-salaries-exemples-de-prise-en-charge-au-01012026-des-garanties-incapaci-4b1f9d0f.pdf",
-  "source_sha256": "26cffdec23d9f7064f3b04e8cf49135097787c49467f45592cb4ebbd505bb4a0",
-  "source_pages": 6,
-  "fetched_at": "2026-07-30",
-  "extraction_model": "claude-code-subagent:scale",
-  "summary": "Document d'illustration du contrat de prévoyance Gan Prévoyance Protection destiné aux travailleurs non-salariés, présentant des exemples de prise en charge au 01/01/2026 des garanties incapacité, invalidité et décès. Pour un profil type (commerçant de 50 ans, marié, un enfant de 13 ans, revenu annuel brut de 43 000 €), il met en regard, garantie par garantie, ce que verse le régime obligatoire (Sécurité sociale des indépendants) et ce que verserait le contrat de prévoyance, avec deux niveaux d'exemples chiffrés et le total cumulé. Il couvre le capital décès, la rente éducation, la rente d'invalidité permanente et les indemnités journalières complémentaires, et cite les options facultatives proposées par le contrat. Le document précise qu'il ne se substitue pas aux documents contractuels.",
-  "definitions": [
-    {
-      "term": "PASS (Plafond annuel de la Sécurité sociale) / PMSS (plafond mensuel de la Sécurité sociale)",
-      "definition": "PASS (Plafond annuel de la Sécurité sociale) au 01/01/2026 = 48 060 € et PMSS (plafond mensuel de la Sécurité sociale) = 4 005 €.",
-      "page": 6
-    },
-    {
-      "term": "CAT 1 / CAT 2 / CAT 3 (catégories d'invalidité de la Sécurité sociale)",
-      "definition": "CAT 1 : pension pour incapacité partielle au métier (PIPM) ; CAT 2 : pension pour invalidité totale et définitive (PITD) ; CAT 3 : pension pour invalidité totale et définitive (PITD) plus majoration pour tierce personne pour effectuer les actes ordinaires de la vie.",
-      "page": 6
-    },
-    {
-      "term": "IJSS (Indemnités journalières de la Sécurité sociale)",
-      "definition": "Indemnités journalières de la Sécurité sociale (IJSS) 1 — Montant (IJSS) égal à 1/730 de la moyenne des revenus des 3 dernières années dans la limite du PASS 4",
-      "page": 5
-    },
-    {
-      "term": "IJC (indemnité journalière complémentaire)",
-      "definition": "Montant de l’indemnité journalière complémentaire (IJC) versée par l’assureur, déterminée dans le contrat de prévoyance souscrit",
-      "page": 5
-    }
-  ],
-  "coverages": [
-    {
-      "name": "Capital décès versé au titre du contrat de prévoyance",
-      "description": "Montant du capital décès déterminé au moment de la souscription du contrat Garantie forfaitaire ou indemnitaire Possibilité, le cas échéant, de choisir différentes options au regard de son contrat",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Montant du capital décès (au choix de l’assuré) 5 — Le montant du capital décès peut être soumis à un ou plusieurs plafonds.",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Montant du capital décès déterminé au moment de la souscription du contrat",
-        "Garantie forfaitaire ou indemnitaire",
-        "Possibilité, le cas échéant, de choisir différentes options au regard de son contrat"
-      ],
-      "page": 2
-    },
-    {
-      "name": "Rente au bénéficiaire désigné",
-      "description": "Option proposée par le contrat de prévoyance (facultatif) : Rente au bénéficiaire désigné",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Capital supplémentaire en cas d'accident",
-      "description": "Option proposée par le contrat de prévoyance (facultatif) : Capital supplémentaire en cas d’accident",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Rente éducation versée au titre du contrat de prévoyance",
-      "description": "Montant de la rente éducation déterminée au moment de la souscription du contrat Conditions d’âges des enfants (possibilité de prévoir des paliers)",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Montant rente éducation (au choix de l’assuré)",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Montant de la rente éducation déterminée au moment de la souscription du contrat",
-        "Conditions d'âges des enfants (possibilité de prévoir des paliers)"
-      ],
-      "page": 3
-    },
-    {
-      "name": "Rente invalidité versée au titre du contrat de prévoyance souscrit",
-      "description": "Taux d’invalidité déterminé par le médecin expert de l’assureur 8 Montant pouvant s’exprimer en complément de la Sécurité sociale, sous déduction de la Sécurité sociale ou forfaitaire Possibilité, le cas échéant, de choisir différentes options au regard de son contrat",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Taux d'invalidité déterminé par le médecin expert de l'assureur",
-        "Montant pouvant s'exprimer en complément de la Sécurité sociale, sous déduction de la Sécurité sociale ou forfaitaire",
-        "Possibilité, le cas échéant, de choisir différentes options au regard de son contrat",
-        "Les décisions de l’organisme assureur peuvent différer de celles de la Sécurité sociale."
-      ],
-      "page": 4
-    },
-    {
-      "name": "Capital invalidité en cas d'accident maladie",
-      "description": "Option proposée par le contrat de prévoyance (facultatif) : Capital invalidité en cas d’accident maladie",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 4
-    },
-    {
-      "name": "Capital invalidité en cas d'accident",
-      "description": "Option proposée par le contrat de prévoyance (facultatif) : Capital invalidité en cas d’accident",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 4
-    },
-    {
-      "name": "Indemnités complémentaires versées au titre du contrat de prévoyance souscrit (indemnité journalière complémentaire)",
-      "description": "Montant de l’indemnité journalière complémentaire (IJC) versée par l’assureur, déterminée dans le contrat de prévoyance souscrit Garantie pouvant s’exprimer en complément de la Sécurité sociale, sous déduction de la Sécurité sociale ou forfaitaire Possibilité, le cas échéant, de choisir différentes options au regard de son contrat",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Montant du l’indemnité journalière (au choix de l’assuré)",
-      "sub_limits": [],
-      "deductible": "Niveau de franchise (au choix de l’assuré) — niveaux illustrés : « Franchise 1 » 15 jours et « Franchise 2 » 30 jours",
-      "conditions": [
-        "Montant de l'indemnité journalière complémentaire (IJC) versée par l'assureur, déterminée dans le contrat de prévoyance souscrit",
-        "Garantie pouvant s'exprimer en complément de la Sécurité sociale, sous déduction de la Sécurité sociale ou forfaitaire",
-        "Possibilité, le cas échéant, de choisir différentes options au regard de son contrat"
-      ],
-      "page": 5
-    },
-    {
-      "name": "Remboursement des frais professionnels",
-      "description": "Option proposée par contrat de prévoyance (facultatif) : Remboursement des frais professionnels",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 5
-    },
-    {
-      "name": "Remboursement des frais de remplacement",
-      "description": "Option proposée par contrat de prévoyance (facultatif) : Remboursement des frais de remplacement",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 5
-    }
-  ],
-  "exclusions": [
-    {
-      "name": "Limitations et exclusions de garanties définies au contrat souscrit",
-      "description": "Ces garanties (parfois optionnelles) sont souscrites, en fonction des besoins de l’assuré. Ces garanties sont accordées sous réserve des limitations et exclusions de garanties (ex : pratique d’un sport extrême), définies au contrat souscrit. Elles peuvent dans certains cas être revalorisées.",
-      "applies_to": "all",
-      "page": 6
-    }
-  ],
-  "deductibles": {
-    "standard": null,
-    "variable": "Niveau de franchise (au choix de l’assuré) : « Franchise 1 » 15 jours, « Franchise 2 » 30 jours (garantie incapacité de travail).",
-    "per_coverage": null,
-    "page": 5
+ "schema_version": "1.0",
+ "prompt_version": "1.1",
+ "country": "fr",
+ "insurer_slug": "gan",
+ "insurer_name": "Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group",
+ "product_name": "Gan Prévoyance Protection",
+ "branch": "prevoyance",
+ "branch_code": null,
+ "document_type": "product_sheet",
+ "language": "fr",
+ "target_audience": "independants",
+ "target_audience_note": "« Travailleurs non-salariés » (titre imprimé en page 1). Profil type retenu : • Commerçant • 50 ans, marié, 1 enfant (13 ans) • Revenu annuel brut : 43 000 € soit 3 583 € par mois • Moyenne 3 dernières années : 43 000 € • Moyenne 10 meilleurs années : 43 000 €",
+ "reference": "3340 – GPP12 – 012026 – PAO – GGVIE / Technique Offre et Pilotage",
+ "edition_date": "01/01/2026",
+ "product_family": "Gan Prévoyance Protection",
+ "variant": null,
+ "is_extension": false,
+ "extends": null,
+ "superseded": null,
+ "source_url": "https://www.ganprevoyance.fr/securite-professionnel-gan-prevoyance-protection/2-2/telecharger-le-tableau-des-garanties.pdf?date=20251222151901",
+ "source_pdf": "travailleurs-non-salaries-exemples-de-prise-en-charge-au-01012026-des-garanties-incapaci-4b1f9d0f.pdf",
+ "source_sha256": "26cffdec23d9f7064f3b04e8cf49135097787c49467f45592cb4ebbd505bb4a0",
+ "source_pages": 6,
+ "fetched_at": "2026-07-30",
+ "extraction_model": "claude-code-subagent:scale",
+ "summary": "Document d'illustration du contrat de prévoyance Gan Prévoyance Protection destiné aux travailleurs non-salariés, présentant des exemples de prise en charge au 01/01/2026 des garanties incapacité, invalidité et décès. Pour un profil type (commerçant de 50 ans, marié, un enfant de 13 ans, revenu annuel brut de 43 000 €), il met en regard, garantie par garantie, ce que verse le régime obligatoire (Sécurité sociale des indépendants) et ce que verserait le contrat de prévoyance, avec deux niveaux d'exemples chiffrés et le total cumulé. Il couvre le capital décès, la rente éducation, la rente d'invalidité permanente et les indemnités journalières complémentaires, et cite les options facultatives proposées par le contrat. Le document précise qu'il ne se substitue pas aux documents contractuels.",
+ "definitions": [
+  {
+   "term": "PASS (Plafond annuel de la Sécurité sociale) / PMSS (plafond mensuel de la Sécurité sociale)",
+   "definition": "PASS (Plafond annuel de la Sécurité sociale) au 01/01/2026 = 48 060 € et PMSS (plafond mensuel de la Sécurité sociale) = 4 005 €.",
+   "page": 6
   },
-  "waiting_periods": [
-    {
-      "coverage": "Indemnités journalières de la Sécurité sociale (IJSS) — régime obligatoire",
-      "duration": "délai de carence de 3 jours",
-      "description": "Versement des IJSS à partir du 4ème jour (délai de carence de 3 jours) 9 Il existe des exceptions au délai de carence (ex : arrêt de travail dû à une affection longue durée).",
-      "page": 5
-    },
-    {
-      "coverage": "Indemnités complémentaires versées au titre du contrat de prévoyance souscrit",
-      "duration": "« Franchise 1 » 15 jours / « Franchise 2 » 30 jours",
-      "description": "Niveau de franchise (au choix de l’assuré) : le document illustre deux niveaux de franchise, 15 jours et 30 jours.",
-      "page": 5
-    }
-  ],
-  "obligations": [],
-  "claims_procedure": [],
-  "duration_and_cancellation": null,
-  "prescription_period": null,
-  "premium": null,
-  "special_conditions": [
-    {
-      "name": "Objet et portée du document",
-      "description": "• Ce document présente des exemples de prise en charge par l’assurance maladie, et par votre contrat de prévoyance selon le niveau de couverture choisi. • Ils ne correspondent pas forcément à vos besoins ou à votre situation mais, ils vous permettent de comprendre, choisir ou comparer les tableaux de garantie. Ils ne peuvent se substituer aux documents contractuels qui seuls engagent l’organisme assureur. Pour plus de renseignements, consultez la notice d’information de votre contrat.",
-      "page": 1
-    },
-    {
-      "name": "Profil type retenu",
-      "description": "Profil type retenu : • Commerçant • 50 ans, marié, 1 enfant (13 ans) • Revenu annuel brut : 43 000 € soit 3 583 € par mois • Moyenne 3 dernières années : 43 000 € • Moyenne 10 meilleurs années : 43 000 €",
-      "page": 1
-    },
-    {
-      "name": "Décès — régime obligatoire (Sécurité sociale des indépendants)",
-      "description": "Capital décès égal à 20 % du plafond annuel de la Sécurité sociale (PASS) 3/4 Si plusieurs bénéficiaires prioritaires de même rang, capital décès partagé à parts égales Chiffrage : 20 % x 48 060 € = 9 612 €.",
-      "page": 2
-    },
-    {
-      "name": "Décès — exemple 1",
-      "description": "Montant du capital décès versé au titre du contrat de prévoyance : 100 000 €. Total exemple 1 : 9 612 € + 100 000 € (montant du capital décès versé par l’organisme assureur) = 109 612 €.",
-      "page": 2
-    },
-    {
-      "name": "Décès — exemple 2",
-      "description": "Montant du capital décès versé au titre du contrat de prévoyance : 86 000 €. Total exemple 2 : 9 612 € + 86 000 € (montant du capital décès versé par l’organisme assureur) = 95 612 €.",
-      "page": 2
-    },
-    {
-      "name": "Rente éducation — régime obligatoire (Sécurité sociale des indépendants)",
-      "description": "Capital décès orphelin égal à 5 % du plafond de la Sécurité sociale Capital décès soumis à des conditions d’âge Chiffrage : Capital par enfant de 5 % x 48 060 € = 2 403 €.",
-      "page": 3
-    },
-    {
-      "name": "Rente éducation — exemple 1",
-      "description": "Rente par enfant de 4 800 €/ an (= 400 € /mois) Majoration à 100 % aux 18 ans de l’enfant Rente versée jusqu’à 21 ans ou 26 ans en cas de poursuite d’études. Total par enfant - exemple 1 : 2 403 € et 400 €/ mois jusqu’à 21 ans ou 26 ans en cas de poursuite d’études (rente éducation versée par l’organisme assureur).",
-      "page": 3
-    },
-    {
-      "name": "Rente éducation — exemple 2",
-      "description": "Rente par enfant de 7 200 €/ an (= 600 € /mois) Majoration à 100 % aux 18 ans de l’enfant Rente versée jusqu’à 21 ans ou 26 ans en cas de poursuite d’études. Total par enfant - exemple 2 : 2 403 € et 600 €/ mois jusqu’à 21 ans ou 26 ans en cas de poursuite d’études (rente éducation versée par l’organisme assureur).",
-      "page": 3
-    },
-    {
-      "name": "Invalidité permanente — régime obligatoire (Sécurité sociale des indépendants)",
-      "description": "Capital de la pension Sécurité sociale en % sur la base du revenu annuel moyen brut des 10 meilleures années d’activité % du revenu calculé en fonction de la catégorie d’invalidité déterminée par le médecin conseil de la Sécurité sociale après examen de l’assuré 7 Chiffrage : En cas d’invalidité catégorie 2 Sécurité sociale : 50 % x (43 000/12) = 1 792 € par mois.",
-      "page": 4
-    },
-    {
-      "name": "Invalidité permanente — hypothèses des exemples",
-      "description": "Total par mois (hypothèse revenu mensuel perçu avant l’invalidité de 3 583 €) Hypothèse taux invalidité déterminé par l’expert de l’assureur : 70 %",
-      "page": 4
-    },
-    {
-      "name": "Invalidité permanente — exemple 1",
-      "description": "Montant de la rente : 1 075 €/mois. Rente versée trimestriellement à terme échu, en complément de la Sécurité sociale. Total exemple 1 : 1 792 € + 1 075 € = 2 867 €/ mois.",
-      "page": 4
-    },
-    {
-      "name": "Invalidité permanente — exemple 2",
-      "description": "Montant de la rente : 538 €/mois. Rente versée trimestriellement à terme échu, en complément de la Sécurité sociale. Total exemple 2 : 1 792 € + 538 € = 2 330 €/ mois.",
-      "page": 4
-    },
-    {
-      "name": "Incapacité de travail — régime obligatoire (Sécurité sociale des indépendants)",
-      "description": "Montant (IJSS) égal à 1/730 de la moyenne des revenus des 3 dernières années dans la limite du PASS 4 Versement des IJSS à partir du 4ème jour (délai de carence de 3 jours) 9 Chiffrage : IJSS = (43 000 € X 1/730) = 58,90 € par jour à compter du 4ème jour.",
-      "page": 5
-    },
-    {
-      "name": "Incapacité de travail — Franchise 1 (15 jours), exemple 1",
-      "description": "« Franchise 1 15 jours ». Indemnité journalière complémentaire : 35,34 €/ jour Pendant 1 095 jours maximum. Total / jour pendant 120 jours J0 à J3 : 0 € J4 à J15 : 58,90 € (IJSS) J16 à J 120 : 58,90 € (IJSS) +35,34 € = 94,25 €.",
-      "page": 5
-    },
-    {
-      "name": "Incapacité de travail — Franchise 1 (15 jours), exemple 2",
-      "description": "« Franchise 1 15 jours ». Indemnité journalière complémentaire : 17,67 €/ jour Pendant 1 095 jours maximum. Total / jour pendant 120 jours J0 à J3 : 0 € J4 à J15 : 58,90 € (IJSS) J16 à J120 : 58,90 € (IJSS) + 17,67 € = 76,58 €.",
-      "page": 5
-    },
-    {
-      "name": "Incapacité de travail — Franchise 2 (30 jours), exemple 1",
-      "description": "« Franchise 2 30 jours ». Indemnité journalière complémentaire : 35,34 €/ jour Pendant 1 095 jours maximum. Total / jour pendant 120 jours J0 à J3 : 0 € J4 à J15 : 58,90 € (IJSS) J16 à J 120 : 58,90 € (IJSS) +35,34 € = 94,25 €.",
-      "page": 5
-    },
-    {
-      "name": "Incapacité de travail — Franchise 2 (30 jours), exemple 2",
-      "description": "« Franchise 2 30 jours ». Indemnité journalière complémentaire : 17,67 €/ jour Pendant 1 095 jours maximum. Total / jour pendant 120 jours J0 à J3 : 0 € J4 à J15 : 58,90 € (IJSS) J16 à J120 : 58,90 € (IJSS) + 17,67 € = 76,58 €.",
-      "page": 5
-    },
-    {
-      "name": "Renvoi 1 — versements du régime obligatoire",
-      "description": "Versements par l’assurance maladie obligatoire soumis à conditions.",
-      "page": 6
-    },
-    {
-      "name": "Renvoi 2 — souscription et limitations des garanties",
-      "description": "Ces garanties (parfois optionnelles) sont souscrites, en fonction des besoins de l’assuré. Ces garanties sont accordées sous réserve des limitations et exclusions de garanties (ex : pratique d’un sport extrême), définies au contrat souscrit. Elles peuvent dans certains cas être revalorisées.",
-      "page": 6
-    },
-    {
-      "name": "Renvoi 3 — champ du calcul du capital décès Sécurité sociale",
-      "description": "Ce calcul s’applique lors du décès d'un artisan ou commerçant cotisant (non retraité) ou bénéficiaire d'une pension d'invalidité.",
-      "page": 6
-    },
-    {
-      "name": "Renvoi 5 — plafonnement possible du capital décès",
-      "description": "Le montant du capital décès peut être soumis à un ou plusieurs plafonds.",
-      "page": 6
-    },
-    {
-      "name": "Renvoi 6 — accident du travail et maladie professionnelle",
-      "description": "Un accident du travail ou une maladie professionnelle enclenchent un processus d’indemnisation différent de la part de la Sécurité sociale.",
-      "page": 6
-    },
-    {
-      "name": "Renvoi 8 — décisions de l'organisme assureur",
-      "description": "Les décisions de l’organisme assureur peuvent différer de celles de la Sécurité sociale.",
-      "page": 6
-    },
-    {
-      "name": "Renvoi 9 — exceptions au délai de carence",
-      "description": "Il existe des exceptions au délai de carence (ex : arrêt de travail dû à une affection longue durée).",
-      "page": 6
-    },
-    {
-      "name": "Référence de pied de page",
-      "description": "3340 – GPP12 – 012026 – PAO – GGVIE / Technique Offre et Pilotage",
-      "page": 6
-    }
-  ],
-  "key_quotes": [
-    {
-      "quote": "Ce document présente des exemples de prise en charge par \nl’assurance maladie, et par votre contrat de prévoyance selon le niveau \nde couverture choisi.",
-      "context": "Objet du document",
-      "page": 1
-    },
-    {
-      "quote": "Ils ne peuvent se substituer aux documents \ncontractuels qui seuls engagent l’organisme assureur.",
-      "context": "Portée non contractuelle du document",
-      "page": 1
-    },
-    {
-      "quote": "Montant du capital décès déterminé au moment de la \nsouscription du contrat",
-      "context": "Détermination du capital décès du contrat de prévoyance",
-      "page": 2
-    },
-    {
-      "quote": "Montant de la rente éducation déterminée au moment de \nla souscription du contrat",
-      "context": "Détermination de la rente éducation",
-      "page": 3
-    },
-    {
-      "quote": "Taux d’invalidité déterminé par le médecin expert de \nl’assureur",
-      "context": "Détermination du taux d'invalidité par l'assureur",
-      "page": 4
-    },
-    {
-      "quote": "Montant de l’indemnité journalière complémentaire (IJC) versée par \nl’assureur, déterminée dans le contrat de prévoyance souscrit",
-      "context": "Indemnité journalière complémentaire",
-      "page": 5
-    },
-    {
-      "quote": "Ces garanties (parfois optionnelles) sont souscrites, en fonction des besoins de l’assuré. Ces garanties sont accordées sous réserve des limitations \net exclusions de garanties (ex : pratique d’un sport extrême), définies au contrat souscrit.",
-      "context": "Renvoi 2 : les garanties sont accordées sous réserve des limitations et exclusions du contrat",
-      "page": 6
-    },
-    {
-      "quote": "PASS (Plafond annuel de la Sécurité sociale) au 01/01/2026 = 48 060 € et PMSS (plafond mensuel de la Sécurité sociale) = 4 005 €.",
-      "context": "Renvoi 4 : plafonds de la Sécurité sociale utilisés dans les exemples",
-      "page": 6
-    },
-    {
-      "quote": "Il existe des exceptions au délai de carence (ex : arrêt de travail dû à une affection longue durée).",
-      "context": "Renvoi 9 : exceptions au délai de carence de la Sécurité sociale",
-      "page": 6
-    }
-  ],
-  "gaps": [
-    "Le document ne nomme aucune entreprise d'assurance : il ne parle que d'« organisme assureur » et de « contrat de prévoyance ». Le seul sigle de société est le code de pied de page « 3340 – GPP12 – 012026 – PAO – GGVIE / Technique Offre et Pilotage », dont le segment « GGVIE » n'est explicité nulle part dans le document. Aucun porteur de risque n'a donc été déduit ; insurer_slug/insurer_name sont conservés tels que fournis par la tâche.",
-    "edition_date porte « 01/01/2026 », seule date imprimée (« Exemples de prise en charge au 01/01/2026 » en page 1). Il s'agit de la date de valeur des exemples, pas d'une mention d'édition explicite ; le code de pied de page porte le millésime « 012026 ». Aucune mention « édition MM/AAAA » ne figure sur le document.",
-    "Divergence nom de fichier / document : l'URL source pointe vers « telecharger-le-tableau-des-garanties.pdf », mais le document s'intitule « Exemples de prise en charge au 01/01/2026 des garanties incapacité / invalidité / décès en vigueur » et n'est pas un tableau de garanties contractuel. C'est l'en-tête du document qui a été suivi.",
-    "Le document est un comparatif illustratif : il ne fixe aucun montant de garantie contractuel. Tous les montants figurant dans coverages[] proviennent des colonnes générales ; les chiffres des colonnes « Exemple 1 » et « Exemple 2 » sont enregistrés séparément dans special_conditions[] avec leur libellé d'origine, pour ne pas les faire passer pour des plafonds contractuels.",
-    "Contradiction relevée sans arbitrage (page 5) : les blocs « Franchise 1 15 jours » et « Franchise 2 30 jours » aboutissent aux mêmes totaux journaliers — dans les deux cas « J4 à J15 : 58,90 € (IJSS) » puis « J16 à J 120 : 58,90 € (IJSS) +35,34 € = 94,25 € » (et 76,58 € pour l'exemple 2). Avec une franchise de 30 jours, le complément ne devrait pas démarrer à J16. Les deux blocs sont reproduits tels qu'imprimés, sans correction.",
-    "Le document ne comporte aucune liste d'exclusions : la seule mention est le renvoi 2 (« sous réserve des limitations et exclusions de garanties (ex : pratique d'un sport extrême), définies au contrat souscrit »), qui renvoie au contrat souscrit. exclusions[] ne contient donc qu'une entrée — les exclusions réelles figurent dans la notice d'information, non fournie ici.",
-    "Aucune obligation de l'assuré, aucune procédure de sinistre, aucune durée/résiliation, aucun délai de prescription et aucune information de cotisation ne figurent dans le document : obligations[], claims_procedure[], duration_and_cancellation, prescription_period et premium restent vides ou null.",
-    "Coquilles conservées telles quelles : « maladie ou accident dans le cadre de la vie privé 6 » (page 5 ; la page 4 imprime « vie privée 6 »), « Montant du l'indemnité journalière (au choix de l'assuré) » (page 5, repris en limits de la garantie IJC) et « Moyenne 10 meilleurs années : 43 000 € » (page 1).",
-    "Libellés d'options reproduits tels qu'imprimés, y compris « Capital invalidité en cas d'accident maladie » (page 4), qui juxtapose accident et maladie sans que le document explicite le sens.",
-    "Variation de libellé non harmonisée par le document en page 3 : la colonne du régime obligatoire est titrée « Capital orphelin Sécurité sociale » puis décrite comme « Capital décès orphelin égal à 5 % du plafond de la Sécurité sociale » ; le total de la ligne parle de « Capital décès orphelin + Rente éducation ».",
-    "Page 3 : la description du régime obligatoire dit « 5 % du plafond de la Sécurité sociale » sans préciser annuel ou mensuel, mais le chiffrage applique « 5 % x 48 060 € », soit le plafond annuel (PASS). L'écart de libellé est signalé, non corrigé.",
-    "Le tableau est extrait d'un PDF en colonnes : la couche texte restitue successivement les en-têtes de colonnes (régime obligatoire, contrat de prévoyance, total) puis les valeurs. Les rattachements valeur/colonne ont été rétablis d'après l'ordre et le libellé imprimés ; aucun montant n'a été recalculé.",
-    "Les puces du document ressortent comme caractères de zone privée (U+F0A7, 41 occurrences) dans la couche texte ; elles ont été retirées des descriptions. Aucune key_quote ne traverse ces caractères.",
-    "target_audience a été posé à « independants » d'après le titre imprimé « Travailleurs non-salariés » et le profil type « Commerçant » (reproduits verbatim dans target_audience_note). Le document n'emploie pas le mot « indépendants »."
-  ]
+  {
+   "term": "CAT 1 / CAT 2 / CAT 3 (catégories d'invalidité de la Sécurité sociale)",
+   "definition": "CAT 1 : pension pour incapacité partielle au métier (PIPM) ; CAT 2 : pension pour invalidité totale et définitive (PITD) ; CAT 3 : pension pour invalidité totale et définitive (PITD) plus majoration pour tierce personne pour effectuer les actes ordinaires de la vie.",
+   "page": 6
+  },
+  {
+   "term": "IJSS (Indemnités journalières de la Sécurité sociale)",
+   "definition": "Indemnités journalières de la Sécurité sociale (IJSS) 1 — Montant (IJSS) égal à 1/730 de la moyenne des revenus des 3 dernières années dans la limite du PASS 4",
+   "page": 5
+  },
+  {
+   "term": "IJC (indemnité journalière complémentaire)",
+   "definition": "Montant de l’indemnité journalière complémentaire (IJC) versée par l’assureur, déterminée dans le contrat de prévoyance souscrit",
+   "page": 5
+  }
+ ],
+ "coverages": [
+  {
+   "name": "Capital décès versé au titre du contrat de prévoyance",
+   "description": "Montant du capital décès déterminé au moment de la souscription du contrat Garantie forfaitaire ou indemnitaire Possibilité, le cas échéant, de choisir différentes options au regard de son contrat",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Montant du capital décès (au choix de l’assuré) 5 — Le montant du capital décès peut être soumis à un ou plusieurs plafonds.",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Montant du capital décès déterminé au moment de la souscription du contrat",
+    "Garantie forfaitaire ou indemnitaire",
+    "Possibilité, le cas échéant, de choisir différentes options au regard de son contrat"
+   ],
+   "page": 2
+  },
+  {
+   "name": "Rente au bénéficiaire désigné",
+   "description": "Option proposée par le contrat de prévoyance (facultatif) : Rente au bénéficiaire désigné",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Capital supplémentaire en cas d'accident",
+   "description": "Option proposée par le contrat de prévoyance (facultatif) : Capital supplémentaire en cas d’accident",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Rente éducation versée au titre du contrat de prévoyance",
+   "description": "Montant de la rente éducation déterminée au moment de la souscription du contrat Conditions d’âges des enfants (possibilité de prévoir des paliers)",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Montant rente éducation (au choix de l’assuré)",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Montant de la rente éducation déterminée au moment de la souscription du contrat",
+    "Conditions d'âges des enfants (possibilité de prévoir des paliers)"
+   ],
+   "page": 3
+  },
+  {
+   "name": "Rente invalidité versée au titre du contrat de prévoyance souscrit",
+   "description": "Taux d’invalidité déterminé par le médecin expert de l’assureur 8 Montant pouvant s’exprimer en complément de la Sécurité sociale, sous déduction de la Sécurité sociale ou forfaitaire Possibilité, le cas échéant, de choisir différentes options au regard de son contrat",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Taux d'invalidité déterminé par le médecin expert de l'assureur",
+    "Montant pouvant s'exprimer en complément de la Sécurité sociale, sous déduction de la Sécurité sociale ou forfaitaire",
+    "Possibilité, le cas échéant, de choisir différentes options au regard de son contrat",
+    "Les décisions de l’organisme assureur peuvent différer de celles de la Sécurité sociale."
+   ],
+   "page": 4
+  },
+  {
+   "name": "Capital invalidité en cas d'accident maladie",
+   "description": "Option proposée par le contrat de prévoyance (facultatif) : Capital invalidité en cas d’accident maladie",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 4
+  },
+  {
+   "name": "Capital invalidité en cas d'accident",
+   "description": "Option proposée par le contrat de prévoyance (facultatif) : Capital invalidité en cas d’accident",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 4
+  },
+  {
+   "name": "Indemnités complémentaires versées au titre du contrat de prévoyance souscrit (indemnité journalière complémentaire)",
+   "description": "Montant de l’indemnité journalière complémentaire (IJC) versée par l’assureur, déterminée dans le contrat de prévoyance souscrit Garantie pouvant s’exprimer en complément de la Sécurité sociale, sous déduction de la Sécurité sociale ou forfaitaire Possibilité, le cas échéant, de choisir différentes options au regard de son contrat",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Montant du l’indemnité journalière (au choix de l’assuré)",
+   "sub_limits": [],
+   "deductible": "Niveau de franchise (au choix de l’assuré) — niveaux illustrés : « Franchise 1 » 15 jours et « Franchise 2 » 30 jours",
+   "conditions": [
+    "Montant de l'indemnité journalière complémentaire (IJC) versée par l'assureur, déterminée dans le contrat de prévoyance souscrit",
+    "Garantie pouvant s'exprimer en complément de la Sécurité sociale, sous déduction de la Sécurité sociale ou forfaitaire",
+    "Possibilité, le cas échéant, de choisir différentes options au regard de son contrat"
+   ],
+   "page": 5
+  },
+  {
+   "name": "Remboursement des frais professionnels",
+   "description": "Option proposée par contrat de prévoyance (facultatif) : Remboursement des frais professionnels",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 5
+  },
+  {
+   "name": "Remboursement des frais de remplacement",
+   "description": "Option proposée par contrat de prévoyance (facultatif) : Remboursement des frais de remplacement",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 5
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Limitations et exclusions de garanties définies au contrat souscrit",
+   "description": "Ces garanties (parfois optionnelles) sont souscrites, en fonction des besoins de l’assuré. Ces garanties sont accordées sous réserve des limitations et exclusions de garanties (ex : pratique d’un sport extrême), définies au contrat souscrit. Elles peuvent dans certains cas être revalorisées.",
+   "applies_to": "all",
+   "page": 6
+  }
+ ],
+ "deductibles": {
+  "standard": null,
+  "variable": "Niveau de franchise (au choix de l’assuré) : « Franchise 1 » 15 jours, « Franchise 2 » 30 jours (garantie incapacité de travail).",
+  "per_coverage": null,
+  "page": 5
+ },
+ "waiting_periods": [
+  {
+   "coverage": "Indemnités journalières de la Sécurité sociale (IJSS) — régime obligatoire",
+   "duration": "délai de carence de 3 jours",
+   "description": "Versement des IJSS à partir du 4ème jour (délai de carence de 3 jours) 9 Il existe des exceptions au délai de carence (ex : arrêt de travail dû à une affection longue durée).",
+   "page": 5
+  },
+  {
+   "coverage": "Indemnités complémentaires versées au titre du contrat de prévoyance souscrit",
+   "duration": "« Franchise 1 » 15 jours / « Franchise 2 » 30 jours",
+   "description": "Niveau de franchise (au choix de l’assuré) : le document illustre deux niveaux de franchise, 15 jours et 30 jours.",
+   "page": 5
+  }
+ ],
+ "obligations": [],
+ "claims_procedure": [],
+ "duration_and_cancellation": null,
+ "prescription_period": null,
+ "premium": null,
+ "special_conditions": [
+  {
+   "name": "Objet et portée du document",
+   "description": "• Ce document présente des exemples de prise en charge par l’assurance maladie, et par votre contrat de prévoyance selon le niveau de couverture choisi. • Ils ne correspondent pas forcément à vos besoins ou à votre situation mais, ils vous permettent de comprendre, choisir ou comparer les tableaux de garantie. Ils ne peuvent se substituer aux documents contractuels qui seuls engagent l’organisme assureur. Pour plus de renseignements, consultez la notice d’information de votre contrat.",
+   "page": 1
+  },
+  {
+   "name": "Profil type retenu",
+   "description": "Profil type retenu : • Commerçant • 50 ans, marié, 1 enfant (13 ans) • Revenu annuel brut : 43 000 € soit 3 583 € par mois • Moyenne 3 dernières années : 43 000 € • Moyenne 10 meilleurs années : 43 000 €",
+   "page": 1
+  },
+  {
+   "name": "Décès — régime obligatoire (Sécurité sociale des indépendants)",
+   "description": "Capital décès égal à 20 % du plafond annuel de la Sécurité sociale (PASS) 3/4 Si plusieurs bénéficiaires prioritaires de même rang, capital décès partagé à parts égales Chiffrage : 20 % x 48 060 € = 9 612 €.",
+   "page": 2
+  },
+  {
+   "name": "Décès — exemple 1",
+   "description": "Montant du capital décès versé au titre du contrat de prévoyance : 100 000 €. Total exemple 1 : 9 612 € + 100 000 € (montant du capital décès versé par l’organisme assureur) = 109 612 €.",
+   "page": 2
+  },
+  {
+   "name": "Décès — exemple 2",
+   "description": "Montant du capital décès versé au titre du contrat de prévoyance : 86 000 €. Total exemple 2 : 9 612 € + 86 000 € (montant du capital décès versé par l’organisme assureur) = 95 612 €.",
+   "page": 2
+  },
+  {
+   "name": "Rente éducation — régime obligatoire (Sécurité sociale des indépendants)",
+   "description": "Capital décès orphelin égal à 5 % du plafond de la Sécurité sociale Capital décès soumis à des conditions d’âge Chiffrage : Capital par enfant de 5 % x 48 060 € = 2 403 €.",
+   "page": 3
+  },
+  {
+   "name": "Rente éducation — exemple 1",
+   "description": "Rente par enfant de 4 800 €/ an (= 400 € /mois) Majoration à 100 % aux 18 ans de l’enfant Rente versée jusqu’à 21 ans ou 26 ans en cas de poursuite d’études. Total par enfant - exemple 1 : 2 403 € et 400 €/ mois jusqu’à 21 ans ou 26 ans en cas de poursuite d’études (rente éducation versée par l’organisme assureur).",
+   "page": 3
+  },
+  {
+   "name": "Rente éducation — exemple 2",
+   "description": "Rente par enfant de 7 200 €/ an (= 600 € /mois) Majoration à 100 % aux 18 ans de l’enfant Rente versée jusqu’à 21 ans ou 26 ans en cas de poursuite d’études. Total par enfant - exemple 2 : 2 403 € et 600 €/ mois jusqu’à 21 ans ou 26 ans en cas de poursuite d’études (rente éducation versée par l’organisme assureur).",
+   "page": 3
+  },
+  {
+   "name": "Invalidité permanente — régime obligatoire (Sécurité sociale des indépendants)",
+   "description": "Capital de la pension Sécurité sociale en % sur la base du revenu annuel moyen brut des 10 meilleures années d’activité % du revenu calculé en fonction de la catégorie d’invalidité déterminée par le médecin conseil de la Sécurité sociale après examen de l’assuré 7 Chiffrage : En cas d’invalidité catégorie 2 Sécurité sociale : 50 % x (43 000/12) = 1 792 € par mois.",
+   "page": 4
+  },
+  {
+   "name": "Invalidité permanente — hypothèses des exemples",
+   "description": "Total par mois (hypothèse revenu mensuel perçu avant l’invalidité de 3 583 €) Hypothèse taux invalidité déterminé par l’expert de l’assureur : 70 %",
+   "page": 4
+  },
+  {
+   "name": "Invalidité permanente — exemple 1",
+   "description": "Montant de la rente : 1 075 €/mois. Rente versée trimestriellement à terme échu, en complément de la Sécurité sociale. Total exemple 1 : 1 792 € + 1 075 € = 2 867 €/ mois.",
+   "page": 4
+  },
+  {
+   "name": "Invalidité permanente — exemple 2",
+   "description": "Montant de la rente : 538 €/mois. Rente versée trimestriellement à terme échu, en complément de la Sécurité sociale. Total exemple 2 : 1 792 € + 538 € = 2 330 €/ mois.",
+   "page": 4
+  },
+  {
+   "name": "Incapacité de travail — régime obligatoire (Sécurité sociale des indépendants)",
+   "description": "Montant (IJSS) égal à 1/730 de la moyenne des revenus des 3 dernières années dans la limite du PASS 4 Versement des IJSS à partir du 4ème jour (délai de carence de 3 jours) 9 Chiffrage : IJSS = (43 000 € X 1/730) = 58,90 € par jour à compter du 4ème jour.",
+   "page": 5
+  },
+  {
+   "name": "Incapacité de travail — Franchise 1 (15 jours), exemple 1",
+   "description": "« Franchise 1 15 jours ». Indemnité journalière complémentaire : 35,34 €/ jour Pendant 1 095 jours maximum. Total / jour pendant 120 jours J0 à J3 : 0 € J4 à J15 : 58,90 € (IJSS) J16 à J 120 : 58,90 € (IJSS) +35,34 € = 94,25 €.",
+   "page": 5
+  },
+  {
+   "name": "Incapacité de travail — Franchise 1 (15 jours), exemple 2",
+   "description": "« Franchise 1 15 jours ». Indemnité journalière complémentaire : 17,67 €/ jour Pendant 1 095 jours maximum. Total / jour pendant 120 jours J0 à J3 : 0 € J4 à J15 : 58,90 € (IJSS) J16 à J120 : 58,90 € (IJSS) + 17,67 € = 76,58 €.",
+   "page": 5
+  },
+  {
+   "name": "Incapacité de travail — Franchise 2 (30 jours), exemple 1",
+   "description": "« Franchise 2 30 jours ». Indemnité journalière complémentaire : 35,34 €/ jour Pendant 1 095 jours maximum. Total / jour pendant 120 jours J0 à J3 : 0 € J4 à J15 : 58,90 € (IJSS) J16 à J 120 : 58,90 € (IJSS) +35,34 € = 94,25 €.",
+   "page": 5
+  },
+  {
+   "name": "Incapacité de travail — Franchise 2 (30 jours), exemple 2",
+   "description": "« Franchise 2 30 jours ». Indemnité journalière complémentaire : 17,67 €/ jour Pendant 1 095 jours maximum. Total / jour pendant 120 jours J0 à J3 : 0 € J4 à J15 : 58,90 € (IJSS) J16 à J120 : 58,90 € (IJSS) + 17,67 € = 76,58 €.",
+   "page": 5
+  },
+  {
+   "name": "Renvoi 1 — versements du régime obligatoire",
+   "description": "Versements par l’assurance maladie obligatoire soumis à conditions.",
+   "page": 6
+  },
+  {
+   "name": "Renvoi 2 — souscription et limitations des garanties",
+   "description": "Ces garanties (parfois optionnelles) sont souscrites, en fonction des besoins de l’assuré. Ces garanties sont accordées sous réserve des limitations et exclusions de garanties (ex : pratique d’un sport extrême), définies au contrat souscrit. Elles peuvent dans certains cas être revalorisées.",
+   "page": 6
+  },
+  {
+   "name": "Renvoi 3 — champ du calcul du capital décès Sécurité sociale",
+   "description": "Ce calcul s’applique lors du décès d'un artisan ou commerçant cotisant (non retraité) ou bénéficiaire d'une pension d'invalidité.",
+   "page": 6
+  },
+  {
+   "name": "Renvoi 5 — plafonnement possible du capital décès",
+   "description": "Le montant du capital décès peut être soumis à un ou plusieurs plafonds.",
+   "page": 6
+  },
+  {
+   "name": "Renvoi 6 — accident du travail et maladie professionnelle",
+   "description": "Un accident du travail ou une maladie professionnelle enclenchent un processus d’indemnisation différent de la part de la Sécurité sociale.",
+   "page": 6
+  },
+  {
+   "name": "Renvoi 8 — décisions de l'organisme assureur",
+   "description": "Les décisions de l’organisme assureur peuvent différer de celles de la Sécurité sociale.",
+   "page": 6
+  },
+  {
+   "name": "Renvoi 9 — exceptions au délai de carence",
+   "description": "Il existe des exceptions au délai de carence (ex : arrêt de travail dû à une affection longue durée).",
+   "page": 6
+  },
+  {
+   "name": "Référence de pied de page",
+   "description": "3340 – GPP12 – 012026 – PAO – GGVIE / Technique Offre et Pilotage",
+   "page": 6
+  }
+ ],
+ "key_quotes": [
+  {
+   "quote": "Ce document présente des exemples de prise en charge par \nl’assurance maladie, et par votre contrat de prévoyance selon le niveau \nde couverture choisi.",
+   "context": "Objet du document",
+   "page": 1
+  },
+  {
+   "quote": "Ils ne peuvent se substituer aux documents \ncontractuels qui seuls engagent l’organisme assureur.",
+   "context": "Portée non contractuelle du document",
+   "page": 1
+  },
+  {
+   "quote": "Montant du capital décès déterminé au moment de la \nsouscription du contrat",
+   "context": "Détermination du capital décès du contrat de prévoyance",
+   "page": 2
+  },
+  {
+   "quote": "Montant de la rente éducation déterminée au moment de \nla souscription du contrat",
+   "context": "Détermination de la rente éducation",
+   "page": 3
+  },
+  {
+   "quote": "Taux d’invalidité déterminé par le médecin expert de \nl’assureur",
+   "context": "Détermination du taux d'invalidité par l'assureur",
+   "page": 4
+  },
+  {
+   "quote": "Montant de l’indemnité journalière complémentaire (IJC) versée par \nl’assureur, déterminée dans le contrat de prévoyance souscrit",
+   "context": "Indemnité journalière complémentaire",
+   "page": 5
+  },
+  {
+   "quote": "Ces garanties (parfois optionnelles) sont souscrites, en fonction des besoins de l’assuré. Ces garanties sont accordées sous réserve des limitations \net exclusions de garanties (ex : pratique d’un sport extrême), définies au contrat souscrit.",
+   "context": "Renvoi 2 : les garanties sont accordées sous réserve des limitations et exclusions du contrat",
+   "page": 6
+  },
+  {
+   "quote": "PASS (Plafond annuel de la Sécurité sociale) au 01/01/2026 = 48 060 € et PMSS (plafond mensuel de la Sécurité sociale) = 4 005 €.",
+   "context": "Renvoi 4 : plafonds de la Sécurité sociale utilisés dans les exemples",
+   "page": 6
+  },
+  {
+   "quote": "Il existe des exceptions au délai de carence (ex : arrêt de travail dû à une affection longue durée).",
+   "context": "Renvoi 9 : exceptions au délai de carence de la Sécurité sociale",
+   "page": 6
+  }
+ ],
+ "gaps": [
+  "Le document ne nomme aucune entreprise d'assurance : il ne parle que d'« organisme assureur » et de « contrat de prévoyance ». Le seul sigle de société est le code de pied de page « 3340 – GPP12 – 012026 – PAO – GGVIE / Technique Offre et Pilotage », dont le segment « GGVIE » n'est explicité nulle part dans le document. Aucun porteur de risque n'a donc été déduit ; insurer_slug/insurer_name sont conservés tels que fournis par la tâche.",
+  "edition_date porte « 01/01/2026 », seule date imprimée (« Exemples de prise en charge au 01/01/2026 » en page 1). Il s'agit de la date de valeur des exemples, pas d'une mention d'édition explicite ; le code de pied de page porte le millésime « 012026 ». Aucune mention « édition MM/AAAA » ne figure sur le document.",
+  "Divergence nom de fichier / document : l'URL source pointe vers « telecharger-le-tableau-des-garanties.pdf », mais le document s'intitule « Exemples de prise en charge au 01/01/2026 des garanties incapacité / invalidité / décès en vigueur » et n'est pas un tableau de garanties contractuel. C'est l'en-tête du document qui a été suivi.",
+  "Le document est un comparatif illustratif : il ne fixe aucun montant de garantie contractuel. Tous les montants figurant dans coverages[] proviennent des colonnes générales ; les chiffres des colonnes « Exemple 1 » et « Exemple 2 » sont enregistrés séparément dans special_conditions[] avec leur libellé d'origine, pour ne pas les faire passer pour des plafonds contractuels.",
+  "Contradiction relevée sans arbitrage (page 5) : les blocs « Franchise 1 15 jours » et « Franchise 2 30 jours » aboutissent aux mêmes totaux journaliers — dans les deux cas « J4 à J15 : 58,90 € (IJSS) » puis « J16 à J 120 : 58,90 € (IJSS) +35,34 € = 94,25 € » (et 76,58 € pour l'exemple 2). Avec une franchise de 30 jours, le complément ne devrait pas démarrer à J16. Les deux blocs sont reproduits tels qu'imprimés, sans correction.",
+  "Le document ne comporte aucune liste d'exclusions : la seule mention est le renvoi 2 (« sous réserve des limitations et exclusions de garanties (ex : pratique d'un sport extrême), définies au contrat souscrit »), qui renvoie au contrat souscrit. exclusions[] ne contient donc qu'une entrée — les exclusions réelles figurent dans la notice d'information, non fournie ici.",
+  "Aucune obligation de l'assuré, aucune procédure de sinistre, aucune durée/résiliation, aucun délai de prescription et aucune information de cotisation ne figurent dans le document : obligations[], claims_procedure[], duration_and_cancellation, prescription_period et premium restent vides ou null.",
+  "Coquilles conservées telles quelles : « maladie ou accident dans le cadre de la vie privé 6 » (page 5 ; la page 4 imprime « vie privée 6 »), « Montant du l'indemnité journalière (au choix de l'assuré) » (page 5, repris en limits de la garantie IJC) et « Moyenne 10 meilleurs années : 43 000 € » (page 1).",
+  "Libellés d'options reproduits tels qu'imprimés, y compris « Capital invalidité en cas d'accident maladie » (page 4), qui juxtapose accident et maladie sans que le document explicite le sens.",
+  "Variation de libellé non harmonisée par le document en page 3 : la colonne du régime obligatoire est titrée « Capital orphelin Sécurité sociale » puis décrite comme « Capital décès orphelin égal à 5 % du plafond de la Sécurité sociale » ; le total de la ligne parle de « Capital décès orphelin + Rente éducation ».",
+  "Page 3 : la description du régime obligatoire dit « 5 % du plafond de la Sécurité sociale » sans préciser annuel ou mensuel, mais le chiffrage applique « 5 % x 48 060 € », soit le plafond annuel (PASS). L'écart de libellé est signalé, non corrigé.",
+  "Le tableau est extrait d'un PDF en colonnes : la couche texte restitue successivement les en-têtes de colonnes (régime obligatoire, contrat de prévoyance, total) puis les valeurs. Les rattachements valeur/colonne ont été rétablis d'après l'ordre et le libellé imprimés ; aucun montant n'a été recalculé.",
+  "Les puces du document ressortent comme caractères de zone privée (U+F0A7, 41 occurrences) dans la couche texte ; elles ont été retirées des descriptions. Aucune key_quote ne traverse ces caractères.",
+  "target_audience a été posé à « independants » d'après le titre imprimé « Travailleurs non-salariés » et le profil type « Commerçant » (reproduits verbatim dans target_audience_note). Le document n'emploie pas le mot « indépendants »."
+ ]
 }

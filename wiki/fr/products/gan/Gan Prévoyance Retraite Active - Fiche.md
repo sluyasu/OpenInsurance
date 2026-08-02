@@ -148,7 +148,7 @@ Conséquences potentielles d’une sortie du capital avant le terme : l’invest
 
 ## Documents liés
 
-- [Gan Prevoyance Retraite Active - Tarifs](Gan%20Prevoyance%20Retraite%20Active%20-%20Tarifs.md) - Conditions tarifaires, éd. 2026-03
+- [Gan Prevoyance Retraite Active - Tarifs](Gan%20Prevoyance%20Retraite%20Active%20-%20Tarifs.md) - Conditions tarifaires
 
 ## Source & fidélité
 

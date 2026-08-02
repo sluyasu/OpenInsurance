@@ -12,7 +12,7 @@ target_audience_note: 'Le document s''adresse aux personnes déjà couvertes : �
   vous êtes adhérent au contrat d''assurance découvert autorisé ». Il ne définit aucune
   catégorie de clientèle ni condition d''éligibilité.'
 reference: null
-edition_date: 2020-11
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/emprunteur
@@ -28,7 +28,7 @@ prompt_version: '1.1'
 product_family: assurance-decouvert-autorise
 variant: null
 edition_status: null
-edition_age_years: 6
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-08-01'
@@ -42,7 +42,7 @@ generated: true
 
 Note d'information d'une page relative au contrat Assurance Découvert Autorisé, distribué avec le découvert autorisé de Socram Banque. Son unique objet est d'annoncer un changement de dénomination du porteur de risque : depuis le 27/11/2020, Macif-Mutualité est devenue Apivia Macif Mutuelle, mutuelle régie par le Livre II du Code de la mutualité et adhérente à la Mutualité Française (SIREN 779 558 501). Le document précise que ce changement de dénomination ne modifie pas les garanties proposées et renvoie les adhérents vers un conseiller Macifin'. Il ne décrit ni les garanties, ni les exclusions, ni les modalités du contrat.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Assurance emprunteur](../../branches/Assurance%20emprunteur.md) · Type : Document · Édition : 2020-11
+- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Assurance emprunteur](../../branches/Assurance%20emprunteur.md) · Type : Document
 
 ## Conditions particulières
 
@@ -66,6 +66,7 @@ Note d'information d'une page relative au contrat Assurance Découvert Autorisé
 - ZONE D'EN-TÊTE SANS TEXTE : les premières lignes du PDF ne contiennent que des suites d'espaces (bandeau / logos sans couche texte). Aucune information n'en a été tirée.
 - AUCUNE mention de l'autorité de contrôle (ACPR), ni de dispositif de réclamation ou de médiation, ni d'information sur la protection des données.
 - Texte vérifié : les quotes sont des tranches exactes du texte ré-extrait du PDF local (PyMuPDF, page.get_text("text")), identique caractère pour caractère au texte du prompt une fois les marqueurs [page N] retirés. La couche texte contient 12 apostrophes typographiques U+2019 (aucune apostrophe ASCII), aucun espace de largeur nulle, aucun tiret conditionnel, aucun glyphe de zone privée, aucune ligature perdue et aucune coupure de mot par tiret en fin de ligne. Attention en revanche : le SIREN est coupé par un retour à la ligne dans le corps du texte (« SIREN 779 \n558 501 ») ; les citations retenues l'évitent et reprennent la forme non coupée du pavé légal (« SIREN 779 558 501. »). De même les mentions légales coupent les lignes en plein milieu de phrase, coupures conservées telles quelles dans les citations.
+- edition_date remise a null le 2026-08-01: la valeur 2020-11 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

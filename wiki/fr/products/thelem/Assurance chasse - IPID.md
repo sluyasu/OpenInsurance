@@ -11,7 +11,7 @@ target_audience: particuliers
 target_audience_note: 'Bénéficiaire : l''adhérent, y compris lorsqu’il agit comme
   organisateur de chasse ou propriétaire de chasse privée.'
 reference: null
-edition_date: 2024-07
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/chasse
@@ -27,7 +27,7 @@ prompt_version: '1.1'
 product_family: assurance-chasse
 variant: null
 edition_status: null
-edition_age_years: 2
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -41,7 +41,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de l’Assurance chasse de Thélem assurances. Cette assurance a pour objectifs de garantir les dommages résultant d’actes de chasse, de l’organisation d’une chasse ainsi que les accidents causés par les chiens de l’assuré y compris en dehors de la chasse ; l’assurance de responsabilité civile chasse est obligatoire. Le contrat prévoit également en option la garantie des dommages corporels des chasseurs ainsi qu’une garantie frais de soins et mortalité pour les chiens de chasse.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Chasse](../../branches/Chasse.md) · Type : IPID / Fiche d'information · Édition : 2024-07
+- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Chasse](../../branches/Chasse.md) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -146,6 +146,7 @@ Protection pour les dommages accidentels subis par les chiens (frais de soins, m
 - Aucun délai de carence ni délai de prescription n’est mentionné dans le document.
 - S’agissant d’un IPID (2 pages), il ne présente qu’un résumé des principales garanties et exclusions ; la liste complète figure dans les Dispositions Générales, non fournies.
 - Le texte des pages est entrecoupé de nombreuses lignes vides issues de la mise en page PDF (encadrés), sans perte de contenu identifiée.
+- edition_date remise a null le 2026-08-01: la valeur 2024-07 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

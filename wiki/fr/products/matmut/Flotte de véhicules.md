@@ -27,7 +27,7 @@ target_audience_note: 'Le document ne déclare aucune catégorie de souscripteur
   », « votre flotte de véhicules », service.prevention@matmut.fr). Faute de déclaration
   explicite, target_audience est laissé null.'
 reference: CG MRSQ FLOTTE - 11/24
-edition_date: 2024-11
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/auto
@@ -43,7 +43,7 @@ prompt_version: '1.1'
 product_family: flotte-de-vehicules
 variant: null
 edition_status: null
-edition_age_years: 2
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -57,7 +57,7 @@ generated: true
 
 « Flotte de véhicules » Matmut est le contrat d'assurance Multirisques de la Matmut destiné à garantir les risques découlant de la propriété, de l'usage et/ou de la garde d'une flotte de véhicules. Les garanties ne sont pas organisées en formules mais accordées véhicule par véhicule : chaque véhicule du parc figure à l'« état de parc flotte », annexe des Conditions particulières qui porte, pour lui seul, les garanties souscrites (codes AB, H8, H, D8, D, E8, E, J, T, C9, C2, C8, C1/C0, R, F1, S, K, L2, F3, M, G, P, F4, DR), les plafonds, les franchises, l'usage et la clause conducteurs. Le contrat couvre la Responsabilité civile en et hors circulation, les dommages au véhicule, les dommages aux biens transportés, les garanties Mobilité (assistance, indisponibilité, panne mécanique), la garantie du conducteur et deux garanties de Protection Juridique. Les entrées et sorties de véhicules doivent être déclarées (entrées avant mise en circulation, sorties dans les cinq jours du retrait effectif) et la cotisation est régularisée périodiquement selon l'une des trois modalités retenues aux Conditions particulières : révision périodique, révision par semi-différence ou absence de régularisation.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : 2024-11
+- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales
 
 ## Définitions
 
@@ -861,6 +861,7 @@ Conformément à l'article L.114-1 du Code des assurances, toutes actions dériv
 - Qualité de sociétaire : le document n’énonce aucune clause imposant explicitement d’être Sociétaire pour souscrire. Le cadre mutualiste apparaît en revanche à la page 117 — « Le présent contrat est régi par le Code des assurances et par les dispositions statutaires fixant les rapports entre la Société et ses membres » — à l’article 41-4 VARIABILITÉ (page 83) et dans les renvois au service « réclamations sociétaires » (page 104) et au « numéro de sociétaire ou d’adhérent » (page 109).
 - Qualité de sociétaire : le document n’énonce aucune clause imposant explicitement d’être Sociétaire pour souscrire. Le cadre mutualiste apparaît en revanche à la page 117 — « Le présent contrat est régi par le Code des assurances et par les dispositions statutaires fixant les rapports entre la Société et ses membres » — à l’article 41-4 VARIABILITÉ (page 83) et dans les renvois au service « réclamations sociétaires » (page 104) et au « numéro de sociétaire ou d’adhérent » (page 109).
 - Pages citées : elles renvoient aux marqueurs [page N] du texte extrait, c’est-à-dire à la pagination réelle du PDF, qui est en avance d’une unité sur le folio imprimé en pied de page (le folio « 82 » se trouve sur la page 83 du PDF). Les pages des blocs premium, duration_and_cancellation et prescription_period ont été recalées sur la page de début de l’article correspondant (articles 41, 40 et 43).
+- edition_date remise a null le 2026-08-01: la valeur 2024-11 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Documents liés
 

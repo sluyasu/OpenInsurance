@@ -12,7 +12,7 @@ document_type: product_sheet
 target_audience: null
 target_audience_note: null
 reference: null
-edition_date: 2025-07
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/obseques
@@ -27,8 +27,8 @@ extraction_model: claude-code-subagent:scale
 prompt_version: '1.1'
 product_family: gan-serenite-obseques
 variant: null
-edition_status: current
-edition_age_years: 1
+edition_status: null
+edition_age_years: null
 superseded: true
 extends: null
 freshness: '2026-07-30'
@@ -42,7 +42,7 @@ generated: true
 
 Document de lisibilité obsèques du contrat GAN SERENITE OBSEQUES, présenté comme un « CONTRAT D’ASSURANCE PRÉVOYANCE OBSÈQUES VIE ENTIÈRE » assuré par Groupama Gan Vie. Il ne contient que des tableaux comparatifs chiffrés : les cotisations (annuelles et cumulées en cas de décès à différents âges) et les valeurs de rachat, pour trois âges de souscription (50, 60 et 70 ans) et un capital obsèques garanti de 5 000 € pris à titre d’exemple. Le document précise lui-même que ces tableaux « n’ont pas de valeur contractuelle » et ne décrit ni les garanties, ni les exclusions, ni les modalités du contrat.
 
-- Assureur : [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../../insurers/Gan%20Assurances.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : Fiche produit · Édition : 2025-07
+- Assureur : [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../../insurers/Gan%20Assurances.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : Fiche produit
 
 ## Garanties
 
@@ -143,10 +143,10 @@ Les cotisations ci-dessus ne prennent pas en compte les garanties optionnelles n
 - Les tableaux sont extraits en colonnes aplaties par la couche texte du PDF : chaque ligne a été restituée comme une suite de montants verbatim dans l’ordre du texte, avec l’âge de souscription et la page. L’appariement montant/colonne au-delà de cet ordre n’est pas vérifiable depuis le texte seul.
 - Un caractère de contrôle U+0007 est présent six fois dans la couche texte, systématiquement entre l’appel de note « *1 » et le texte de la note ; les citations ont été découpées de manière à ne pas le traverser.
 - premium.notes contient des montants d’exemple (cotisations et valeurs de rachat) et non un tarif applicable : le document indique explicitement que ces tableaux n’ont pas de valeur contractuelle et reposent sur un capital garanti de 5 000 € choisi à titre d’exemple.
+- edition_date remise a null le 2026-08-01: la valeur 2025-07 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Documents liés
 
-- Édition courante de ce produit.
 - [GAN SÉRÉNITÉ OBSÈQUES - Fiche](GAN%20S%C3%89R%C3%89NIT%C3%89%20OBS%C3%88QUES%20-%20Fiche.md) - Fiche produit, éd. 2023-03-01
 
 ## Source & fidélité

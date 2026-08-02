@@ -18,7 +18,7 @@ target_audience_note: « Ce contrat a vocation à vous couvrir en votre qualité
   réservée à un « proposant admis au préalable comme Sociétaire », le souscripteur
   devant avoir « la qualité d'étudiant » et être âgé de moins de 28 ans et sans enfant.
 reference: CG HAB ETUD – 05/24
-edition_date: 2024-05
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/habitation
@@ -34,7 +34,7 @@ prompt_version: '1.1'
 product_family: habitation-matmut-etudiants
 variant: null
 edition_status: null
-edition_age_years: 2
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -48,7 +48,7 @@ generated: true
 
 Conditions générales du contrat d'assurance Multigaranties Habitation Matmut Étudiants et Matmut/Smac, valant projet de contrat au sens de l'article L. 112-2 du Code des assurances. Le contrat couvre le souscripteur en qualité de locataire ou d'occupant à titre gratuit d'une chambre (cité U ou chez l'habitant), d'un studio ou d'un deux pièces à usage d'habitation n'excédant pas 66 m² et 2 pièces principales, ainsi que ses responsabilités civiles et ses biens dans le cadre de la vie privée, en dehors de toute activité professionnelle. Il réunit des garanties de Responsabilité civile personnelle et Immeuble, des garanties de Dommages aux biens (incendie, événements climatiques, dégâts des eaux, vol, bris de glaces…), des garanties de Dommages corporels et Protection études, des garanties d'Assistance et de Protection Juridique. La souscription est réservée à un sociétaire dont le souscripteur, le conjoint et les colocataires désignés à l'annexe spéciale colocation ont moins de 28 ans et sont sans enfant, le souscripteur devant seul avoir la qualité d'étudiant.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales · Édition : 2024-05
+- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales
 
 ## Définitions
 
@@ -923,6 +923,7 @@ Conformément à l'article L.114-1 du Code des assurances, toutes actions dériv
 - TABLEAUX D'ASSISTANCE ET DE PROTECTION JURIDIQUE : les tableaux des articles 23-2, 24-3 et de l'Annexe sont extraits en colonnes désordonnées par la couche texte (les en-têtes « NATURE DES PRESTATIONS / SITUATION / CONTENU / CONDITIONS ET LIMITES » se répètent et les cellules sont éclatées sur plusieurs lignes). Le contenu a été recomposé prestation par prestation ; le rattachement d'une condition à sa prestation reste dans quelques cas déduit de la mise en page plutôt que d'une phrase explicite.
 - PAGES 1, 4, 64, 67, 69 et 72 : pages de couverture et intercalaires de titre ne comportant qu'un titre de section (« Annexe », « MODALITÉS D'EXAMEN DES RÉCLAMATIONS », « FICHE D'INFORMATION… », « CHARTE DE PROTECTION DES DONNÉES… ») sans contenu contractuel extractible. Les pages 74 à 76 du PDF portent les numéros imprimés 73 à 75 : la numérotation imprimée du document est décalée d'une unité par rapport à la pagination PDF, et toutes les citations de page de cette extraction utilisent la pagination PDF des marqueurs [page N].
 - TARIF : le document ne contient aucun prix ni aucune cotisation chiffrée ; seules les mécaniques de cotisation (annualité, fractionnement, révision annuelle, variabilité avec rappel plafonné à deux fois la cotisation annuelle appelée) sont décrites.
+- edition_date remise a null le 2026-08-01: la valeur 2024-05 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

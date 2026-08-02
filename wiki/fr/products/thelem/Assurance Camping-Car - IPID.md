@@ -13,7 +13,7 @@ target_audience_note: Le document ne désigne pas explicitement une clientèle. 
   est ouverte pour les contrats couvrant les personnes physiques en dehors de leurs
   activités professionnelles ».
 reference: null
-edition_date: 2026-01
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/auto
@@ -29,7 +29,7 @@ prompt_version: '1.1'
 product_family: assurance-camping-car
 variant: null
 edition_status: null
-edition_age_years: 0
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -43,7 +43,7 @@ generated: true
 
 L’assurance Camping-car est un contrat d’assurance de véhicule terrestre à moteur portant sur les camping-cars de moins de 3,5 tonnes. Elle garantit systématiquement la responsabilité civile (plafond illimité pour les dommages corporels / 100 millions € pour les dommages matériels, préjudice écologique), la responsabilité civile camping, la Défense Pénale et Recours Suite à Accident jusqu’à 16 000 €, les Dommages au véhicule (bris de glaces, catastrophes naturelles et technologiques, forces de la nature, incendie du camping-car et de son contenu, vol et tentative de vol) et le Contenu du camping-car jusqu’à 3 200 €. Le contrat prévoit en option la Protection du conducteur jusqu’à 600 000 €, les Dommages tous accidents et vandalisme, la Privation de jouissance (jusqu’à 50 € durant 20 jours) et les Frais de dépannage et de remorquage (190 €, et 300 € nuits, week-end, jour férié), ainsi que des prestations d’assistance au véhicule et aux personnes. Le document est un IPID de 2 pages qui, selon ses propres termes, ne présente qu’un résumé des principales garanties et exclusions du contrat.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 2026-01
+- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -208,6 +208,7 @@ Garantie mentionnée uniquement dans la rubrique « Où suis-je couvert ? » : �
 - La cible de clientèle n’est pas énoncée : target_audience est laissé null (voir target_audience_note).
 - Le document indique lui-même n’être qu’un résumé : « Ce document d’information présente un résumé des principales garanties et exclusions du contrat ». La liste exhaustive des garanties, exclusions et franchises figure dans les Dispositions Générales, non fournies ici.
 - Les cas de résiliation et les délais à respecter ne sont pas détaillés : le document renvoie à la réglementation et aux Dispositions Générales.
+- edition_date remise a null le 2026-08-01: la valeur 2026-01 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

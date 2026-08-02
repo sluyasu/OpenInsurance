@@ -14,7 +14,7 @@ target_audience_note: Votre habitation est à usage strictement privatif et d’
   ; le souscripteur est une personne physique qui agit en dehors de toute activité
   commerciale ou professionnelle (page 70).
 reference: Conditions_générales_HMIN_2504
-edition_date: 2025-04
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/habitation
@@ -30,7 +30,7 @@ prompt_version: '1.1'
 product_family: assurance-multirisque-habitation
 variant: HMIN (Conditions_générales_HMIN_2504)
 edition_status: null
-edition_age_years: 1
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -44,7 +44,7 @@ generated: true
 
 Conditions générales du contrat multirisque habitation distribué sous la marque Luko en France, porté par Allianz Direct Versicherungs-AG (succursale France) pour le volet assurance (Titre III) et par OPTEVEN Assurances pour le volet assistance (Titre IV), sous la référence interne Conditions_générales_HMIN_2504. Le contrat couvre le logement à usage strictement privatif, principal ou secondaire, situé en France Métropolitaine (hors Corse), contre l'incendie et événements assimilés, la fumée et la suie, la foudre, le choc de véhicule et la chute d'objets, les dommages causés par les services de secours, le dégât des eaux et le gel, les événements climatiques, les catastrophes naturelles et technologiques, les attentats et actes de terrorisme, avec une liste de frais et pertes annexes, une responsabilité civile habitation, « Voyage et Cocktail » et vie privée, une garantie Défense pénale et Recours suite à un accident, et des prestations d'assistance. Les options décrites dans ce formulaire sont « Piscine, spa et jacuzzi », « Frais de réparation des canalisations intérieures », « Assurance scolaire » et l'option FAMILLE de l'assistance ; les garanties acquises sont uniquement celles souscrites et mentionnées aux Conditions Particulières.
 
-- Assureur : [Luko](../../insurers/Luko.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales · Édition : 2025-04
+- Assureur : [Luko](../../insurers/Luko.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales
 
 ## Définitions
 
@@ -724,6 +724,7 @@ La prescription est le délai à l’expiration duquel une action juridique ou j
 - Le tableau de vétusté (page 57) affiche le plafond « 75% » sur la seule ligne « Meuble meublant » ; la mise en page ne permet pas de déterminer avec certitude s’il s’applique à toutes les catégories. Il est restitué tel qu’imprimé, comme colonne « Plafond ».
 - Le texte du PDF mélange des caractères composés (NFC) et décomposés (NFD) ainsi que de nombreuses espaces de largeur nulle (U+200B) ; les `key_quotes` ont été extraites programmatiquement comme des empans exacts pour préserver la fidélité au niveau des octets.
 - product_name suffixed with the printed reference code HMIN to distinguish it from the parallel formula, whose Titre III heading is identical. The human-readable formula name is not printed anywhere in the document, so it was not invented.
+- edition_date remise a null le 2026-08-01: la valeur 2025-04 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

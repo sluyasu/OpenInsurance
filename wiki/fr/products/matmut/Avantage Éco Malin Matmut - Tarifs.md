@@ -126,6 +126,7 @@ Prise en charge d'un an de cotisation d'assurance du véhicule électrique (hors
 - Le montant de la cotisation et celui de la réduction en euros ne figurent pas : seul le taux de 5 % est indiqué. Aucun tarif n'est chiffré dans ce document.
 - Défaut du calque texte du PDF, sans incidence sur les valeurs extraites : 2 glyphes de zone privée U+F0B7 (puces Wingdings) subsistent en début des deux puces du point 3, page 2. Les key_quotes ont été découpées de façon à ne traverser aucun de ces glyphes. Le mot « main-d'œuvre » est en outre coupé par un vrai trait d'union en fin de ligne (« main-\nd'œuvre ») page 2 ; aucune citation ne traverse cette coupure.
 - Le document imprime « pièces de réemploi dîtes » (avec un accent circonflexe sur le i), coquille de l'assureur conservée verbatim dans la description de l'engagement correspondant.
+- Provenance de edition_date: cette date ne vient pas du texte du document mais du manifeste, ou elle avait ete deduite lors de la decouverte. A verifier contre le document avant d'y appuyer une comparaison d'editions.
 
 ## Documents liés
 

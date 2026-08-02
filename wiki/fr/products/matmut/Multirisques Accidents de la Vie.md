@@ -18,7 +18,7 @@ target_audience_note: 'Le document ne nomme pas de catégorie d''audience. Il é
   Le droit de renonciation des articles 31-4 et 31-5 vise « une personne souscrivant
   à titre privé » (pages 36 et 37).'
 reference: CG MAV - 01/26
-edition_date: 2026-01
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/gav
@@ -34,7 +34,7 @@ prompt_version: '1.1'
 product_family: multirisques-accidents-de-la-vie
 variant: null
 edition_status: null
-edition_age_years: 0
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -48,7 +48,7 @@ generated: true
 
 Conditions générales du contrat Matmut Multirisques Accidents de la Vie (garantie des accidents de la vie), valant projet de contrat au sens de l'article L. 112-2 du Code des assurances. Le contrat garantit le paiement d'indemnités en cas d'accident corporel de la vie courante (accidents domestiques, scolaires, de sport ou de loisirs, accidents médicaux, accidents de service ou de travail, agressions et attentats) occasionnant une incapacité permanente à l'assuré ou entraînant son décès. Il se décline en trois formules (Famille, Couple, Individuelle) et deux niveaux de garantie (Niveau 1 et Niveau 2), avec un seuil de déclenchement de 10 % d'incapacité permanente (AIPP) pour la plupart des garanties en cas de blessures, et de 30 % pour les prestations d'accompagnement personnalisé. Le document comprend également les modalités d'examen des réclamations et la charte de protection des données à caractère personnel.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Garantie des accidents de la vie](../../branches/Garantie%20des%20accidents%20de%20la%20vie.md) · Type : Conditions générales · Édition : 2026-01
+- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Garantie des accidents de la vie](../../branches/Garantie%20des%20accidents%20de%20la%20vie.md) · Type : Conditions générales
 
 ## Définitions
 
@@ -426,6 +426,7 @@ Conformément à l'article L. 114-1 du Code des assurances, toutes actions déri
 - Le document n'énonce pas de catégorie d'audience (« particuliers », « professionnels »…). `target_audience` a été fixé à « particuliers » sur la base des seules mentions du document reprises dans `target_audience_note` (contrat familial réservé aux Sociétaires, formules Famille/Couple/Individuelle, droit de renonciation ouvert à « une personne souscrivant à titre privé ») ; aucune formulation du document ne nomme cette catégorie.
 - Le contrat ne comporte aucune garantie de protection juridique ni aucune garantie confiée à un porteur de risque distinct : la seule entité tierce nommée est le prestataire d'assistance (IMA GIE / Matmut Assistance), qui exécute des prestations en nature et n'est pas désigné comme assureur. Aucune police collective distincte n'est mentionnée.
 - Le document ne mentionne ni code de branche réglementaire, ni numéro d'agrément, ni numéro ORIAS : `branch_code` reste null.
+- edition_date remise a null le 2026-08-01: la valeur 2026-01 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Documents liés
 

@@ -12,7 +12,7 @@ target_audience_note: Le tableau est intitulé « TMGF Synergie santé Salariés
   décliné en « Version Régime Local / En complément » ; le document n'énonce aucune
   condition d'éligibilité ni population assurable.
 reference: null
-edition_date: 2020-01
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/sante
@@ -28,7 +28,7 @@ prompt_version: '1.1'
 product_family: synergie-sante-salaries
 variant: Version Régime Local / En complément
 edition_status: null
-edition_age_years: 6
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -42,7 +42,7 @@ generated: true
 
 Tableau de garanties du contrat santé collectif Groupama « Synergie santé Salariés », version Régime Local. Il présente, poste par poste (Hospitalisation, Maternité, Soins courants, Pack Pharmacie, Aides auditives, Optique adulte et enfant, réseaux Sévéane optique et dentaire, Dentaire, Pack Prévention/médecines douces, Services inclus), le niveau de prise en charge dans dix formules (FORMULE 1, 1+, 2, 2+, 3, 3+, 4, 4+, 5, 5+), en regard du remboursement du régime obligatoire. Les montants sont exprimés en % BR, % FR, TM, en euros ou en mentions « Inclus ». Le document porte la mention « Document non contractuel » et renvoie aux conditions générales pour les définitions, conditions et limites.
 
-- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Document · Édition : 2020-01
+- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Document
 
 ## Définitions
 
@@ -503,12 +503,13 @@ renouvellement anticipé est prévu, notamment en cas d'évolution de la vue, fi
 - Les deux « Packs » (Pharmacie, Prévention/médecines douces) sont des cellules fusionnées : un seul montant par colonne couvre l'ensemble des postes listés. Les postes explicitement marqués « - » dans une colonne malgré le montant fusionné sont signalés en sub_limits.
 - target_audience laissé à null : le mot « Salariés » n'apparaît que dans le nom du produit, le document ne décrivant ni l'entreprise souscriptrice ni les bénéficiaires.
 - Le tableau a été reconstruit à partir des coordonnées des mots et de la grille du PDF (la lecture linéaire du texte mélange les libellés et les valeurs) ; les valeurs sont reprises littéralement, y compris les incohérences de frappe (« 170 % BR » avec espace vs « 170% BR », « 150€ » sans espace, « 100 » sans le symbole € en FORMULE 1+ pour la monture Sévéane enfant, « 'Honoraires médicaux » avec une apostrophe parasite).
+- edition_date remise a null le 2026-08-01: la valeur 2020-01 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Documents liés
 
 - [SYNERGIE SANTÉ SALARIÉS - Doc](SYNERGIE%20SANT%C3%89%20SALARI%C3%89S%20-%20Doc.md) - Document, éd. 052022
 - [SYNERGIE SANTÉ SALARIÉS - Doc](SYNERGIE%20SANT%C3%89%20SALARI%C3%89S%20-%20Doc%20%282%29.md) - Document, éd. 052022
-- [TMGF Synergie santé Salariés - Doc](TMGF%20Synergie%20sant%C3%A9%20Salari%C3%A9s%20-%20Doc%20%282%29.md) - Document, éd. 2020-01
+- [TMGF Synergie santé Salariés - Doc](TMGF%20Synergie%20sant%C3%A9%20Salari%C3%A9s%20-%20Doc%20%282%29.md) - Document
 
 ## Source & fidélité
 

@@ -1,352 +1,352 @@
 {
-  "schema_version": "1.0",
-  "prompt_version": "1.1",
-  "country": "fr",
-  "insurer_slug": "maif",
-  "insurer_name": "MAIF",
-  "product_name": "Assurance Vélo",
-  "branch": "edpm",
-  "branch_code": null,
-  "document_type": "ipid",
-  "language": "fr",
-  "target_audience": null,
-  "target_audience_note": "Le document ne déclare aucune catégorie de clientèle. Il délimite le risque par l’usage et non par le souscripteur : « Les déplacements professionnels » et « Le transport onéreux de personnes ou de marchandises » figurent parmi ce qui n’est pas assuré.",
-  "reference": "IPID VELO",
-  "edition_date": "06/2026",
-  "product_family": "Assurance Vélo",
-  "variant": null,
-  "is_extension": false,
-  "extends": null,
-  "superseded": null,
-  "source_url": "https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/document-information-assurance-velo.pdf",
-  "source_pdf": "assurance-velo-93f01276.pdf",
-  "source_sha256": "c298e0effbb4d3482e1bde97af5728a99d33dac65b42811b1265cfa59c516ef9",
-  "source_pages": 2,
-  "fetched_at": "2026-07-30",
-  "extraction_model": "claude-code-subagent:scale",
-  "summary": "Document d’information sur le produit d’assurance (IPID) de l’Assurance Vélo MAIF. Le produit couvre les dommages corporels des utilisateurs ayant qualité d’assurés (avec des plafonds chiffrés par poste), les dommages au vélo et à ses accessoires pour une liste d’événements, le recours et l’assistance au vélo en cas de déplacement. Une garantie optionnelle « Responsabilité civile-défense » est proposée. Le contrat est conclu pour un an et reconduit automatiquement chaque 1er janvier.",
-  "definitions": [
-    {
-      "term": "Assurance Vélo",
-      "definition": "Ce produit est destiné à couvrir les dommages matériels au vélo assuré et les dommages corporels de ses utilisateurs ayant qualité d’assurés ainsi que des services d’assistance au vélo.",
-      "page": 1
-    }
-  ],
-  "coverages": [
-    {
-      "name": "Les dommages corporels",
-      "description": "Indemnisation des dommages corporels résultant de l’utilisation du véhicule assuré :",
-      "is_optional": false,
-      "territorial_scope": "Sous réserves des dispositions propres à certaines garanties (assistance en cas de déplacement, recours) : Sans limitation de durée en France métropolitaine, Guadeloupe, Martinique, Réunion, Saint-Barthélemy, Saint-Martin pour sa partie française et Monaco ; Dès lors que le séjour n’excède pas un an, dans les pays de l’espace économique européen (EEE).",
-      "limits": null,
-      "sub_limits": [
-        "Frais médicaux restés à charge (plafond de 1 400 €) ;",
-        "Services d’aide à la personne : assistance à domicile (plafond de 700 €) et service d’accompagnement. ;",
-        "Frais divers d’hospitalisation : 16 € par nuitée (max : 365 nuits) ;",
-        "Perte justifiée de revenus pour la période d’incapacité de travail dans la limite de 3 100 € ;",
-        "Incapacité permanente : à partir de 10 %. ;",
-        "Capitaux décès : ayant droit (1 600 €). Conjoint (3 900 €). Enfant à charge (3 100 €)."
-      ],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Dommages au vélo et à ses accessoires",
-      "description": "Événements climatiques ; Catastrophes naturelles et technologiques ; Attentats ; Vol ou tentative de vol ; Vandalisme ; Incendie ; Autres événements accidentels.",
-      "is_optional": false,
-      "territorial_scope": "Sous réserves des dispositions propres à certaines garanties (assistance en cas de déplacement, recours) : Sans limitation de durée en France métropolitaine, Guadeloupe, Martinique, Réunion, Saint-Barthélemy, Saint-Martin pour sa partie française et Monaco ; Dès lors que le séjour n’excède pas un an, dans les pays de l’espace économique européen (EEE).",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": "En cas de dommages matériels subis par le vélo, l’assuré conserve à sa charge une somme (franchise) qui dépend de la valeur du vélo assuré. Franchise réglementaire catastrophes naturelles : 380 €.",
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Recours",
-      "description": "Pour les préjudices résultant d’un événement accidentel garanti.",
-      "is_optional": false,
-      "territorial_scope": "Sous réserves des dispositions propres à certaines garanties (assistance en cas de déplacement, recours) : Sans limitation de durée en France métropolitaine, Guadeloupe, Martinique, Réunion, Saint-Barthélemy, Saint-Martin pour sa partie française et Monaco ; Dès lors que le séjour n’excède pas un an, dans les pays de l’espace économique européen (EEE).",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Pour la garantie recours, une intervention judiciaire ne sera pas exercée si les intérêts en jeu sont < à 625 € ou si l’événement à l’origine du dommage est survenu en dehors de France métropolitaine, Guadeloupe, Martinique, Réunion, Saint-Barthélemy et Saint-Martin pour sa partie française et Monaco."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Assistance au vélo en cas de déplacement",
-      "description": "Dépannage, remorquage du vélo ; Retour au domicile ou poursuite de trajet ; Récupération du vélo ; Aide financière pour la location d’un vélo de remplacement.",
-      "is_optional": false,
-      "territorial_scope": "Sous réserves des dispositions propres à certaines garanties (assistance en cas de déplacement, recours) : Sans limitation de durée en France métropolitaine, Guadeloupe, Martinique, Réunion, Saint-Barthélemy, Saint-Martin pour sa partie française et Monaco ; Dès lors que le séjour n’excède pas un an, dans les pays de l’espace économique européen (EEE).",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Responsabilité civile-défense",
-      "description": "Responsabilité civile : dommages causés aux tiers, dommages corporels (sans limitation de somme), dommages matériels et immatériels consécutifs (3 000 000 €). Défense des intérêts de l’assuré à la suite d’un accident garanti qui engage sa responsabilité civile.",
-      "is_optional": true,
-      "territorial_scope": "Sous réserves des dispositions propres à certaines garanties (assistance en cas de déplacement, recours) : Sans limitation de durée en France métropolitaine, Guadeloupe, Martinique, Réunion, Saint-Barthélemy, Saint-Martin pour sa partie française et Monaco ; Dès lors que le séjour n’excède pas un an, dans les pays de l’espace économique européen (EEE).",
-      "limits": "dommages corporels (sans limitation de somme), dommages matériels et immatériels consécutifs (3 000 000 €).",
-      "sub_limits": [],
-      "deductible": "Si l’option responsabilité civile est souscrite, l’assuré conserve une somme (franchise) de 75 € pour les dommages matériels causés à un tiers",
-      "conditions": [],
-      "page": 1
-    }
-  ],
-  "exclusions": [
-    {
-      "name": "Les déplacements professionnels",
-      "description": "« Qu’est-ce qui n’est pas assuré ? » : Les déplacements professionnels ;",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Le transport onéreux de personnes ou de marchandises",
-      "description": "« Qu’est-ce qui n’est pas assuré ? » : Le transport onéreux de personnes ou de marchandises.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Épreuves, courses et compétitions soumises à autorisation préalable",
-      "description": "« Principales exclusions » : Survenus à l’occasion de la participation de l’assuré en qualité de concurrent ou d’organisateur à des épreuves, courses ; compétitions ou leurs essais, soumis par la réglementation en vigueur à l’autorisation préalable des pouvoirs publics ;",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Conducteur sous l’empire d’un état alcoolique ou usage de stupéfiants",
-      "description": "« Principales exclusions » : Survenus alors que le conducteur est sous l’empire d’un état alcoolique ou a fait l’usage de stupéfiants ;",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Faute intentionnelle ou dolosive de l’assuré",
-      "description": "« Principales exclusions » : Résultant de la faute intentionnelle ou dolosive de l’assuré ;",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Travaux d’entretien réalisés sur le vélo",
-      "description": "« Principales exclusions » : Résultant de travaux d’entretien réalisés sur le vélo.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Franchise sur les dommages matériels subis par le vélo et franchise RC",
-      "description": "« Principales restrictions » : En cas de dommages matériels subis par le vélo, l’assuré conserve à sa charge une somme (franchise) qui dépend de la valeur du vélo assuré. Si l’option responsabilité civile est souscrite, l’assuré conserve une somme (franchise) de 75 € pour les dommages matériels causés à un tiers ;",
-      "applies_to": "Dommages au vélo et à ses accessoires ; Responsabilité civile-défense",
-      "page": 1
-    },
-    {
-      "name": "Franchise réglementaire catastrophes naturelles",
-      "description": "« Principales restrictions » : Franchise réglementaire catastrophes naturelles : 380 € ;",
-      "applies_to": "Dommages au vélo et à ses accessoires",
-      "page": 1
-    },
-    {
-      "name": "Seuil d’intervention judiciaire et limite territoriale de la garantie recours",
-      "description": "« Principales restrictions » : Pour la garantie recours, une intervention judiciaire ne sera pas exercée si les intérêts en jeu sont < à 625 € ou si l’événement à l’origine du dommage est survenu en dehors de France métropolitaine, Guadeloupe, Martinique, Réunion, Saint-Barthélemy et Saint-Martin pour sa partie française et Monaco.",
-      "applies_to": "Recours",
-      "page": 1
-    }
-  ],
-  "deductibles": {
-    "standard": null,
-    "variable": "En cas de dommages matériels subis par le vélo, l’assuré conserve à sa charge une somme (franchise) qui dépend de la valeur du vélo assuré.",
-    "per_coverage": {
-      "Dommages matériels subis par le vélo": "En cas de dommages matériels subis par le vélo, l’assuré conserve à sa charge une somme (franchise) qui dépend de la valeur du vélo assuré.",
-      "Responsabilité civile (option) — dommages matériels causés à un tiers": "Si l’option responsabilité civile est souscrite, l’assuré conserve une somme (franchise) de 75 € pour les dommages matériels causés à un tiers",
-      "Catastrophes naturelles": "Franchise réglementaire catastrophes naturelles : 380 €"
-    },
-    "page": 1
+ "schema_version": "1.0",
+ "prompt_version": "1.1",
+ "country": "fr",
+ "insurer_slug": "maif",
+ "insurer_name": "MAIF",
+ "product_name": "Assurance Vélo",
+ "branch": "edpm",
+ "branch_code": null,
+ "document_type": "ipid",
+ "language": "fr",
+ "target_audience": null,
+ "target_audience_note": "Le document ne déclare aucune catégorie de clientèle. Il délimite le risque par l’usage et non par le souscripteur : « Les déplacements professionnels » et « Le transport onéreux de personnes ou de marchandises » figurent parmi ce qui n’est pas assuré.",
+ "reference": "IPID VELO",
+ "edition_date": "06/2026",
+ "product_family": "Assurance Vélo",
+ "variant": null,
+ "is_extension": false,
+ "extends": null,
+ "superseded": null,
+ "source_url": "https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/document-information-assurance-velo.pdf",
+ "source_pdf": "assurance-velo-93f01276.pdf",
+ "source_sha256": "c298e0effbb4d3482e1bde97af5728a99d33dac65b42811b1265cfa59c516ef9",
+ "source_pages": 2,
+ "fetched_at": "2026-07-30",
+ "extraction_model": "claude-code-subagent:scale",
+ "summary": "Document d’information sur le produit d’assurance (IPID) de l’Assurance Vélo MAIF. Le produit couvre les dommages corporels des utilisateurs ayant qualité d’assurés (avec des plafonds chiffrés par poste), les dommages au vélo et à ses accessoires pour une liste d’événements, le recours et l’assistance au vélo en cas de déplacement. Une garantie optionnelle « Responsabilité civile-défense » est proposée. Le contrat est conclu pour un an et reconduit automatiquement chaque 1er janvier.",
+ "definitions": [
+  {
+   "term": "Assurance Vélo",
+   "definition": "Ce produit est destiné à couvrir les dommages matériels au vélo assuré et les dommages corporels de ses utilisateurs ayant qualité d’assurés ainsi que des services d’assistance au vélo.",
+   "page": 1
+  }
+ ],
+ "coverages": [
+  {
+   "name": "Les dommages corporels",
+   "description": "Indemnisation des dommages corporels résultant de l’utilisation du véhicule assuré :",
+   "is_optional": false,
+   "territorial_scope": "Sous réserves des dispositions propres à certaines garanties (assistance en cas de déplacement, recours) : Sans limitation de durée en France métropolitaine, Guadeloupe, Martinique, Réunion, Saint-Barthélemy, Saint-Martin pour sa partie française et Monaco ; Dès lors que le séjour n’excède pas un an, dans les pays de l’espace économique européen (EEE).",
+   "limits": null,
+   "sub_limits": [
+    "Frais médicaux restés à charge (plafond de 1 400 €) ;",
+    "Services d’aide à la personne : assistance à domicile (plafond de 700 €) et service d’accompagnement. ;",
+    "Frais divers d’hospitalisation : 16 € par nuitée (max : 365 nuits) ;",
+    "Perte justifiée de revenus pour la période d’incapacité de travail dans la limite de 3 100 € ;",
+    "Incapacité permanente : à partir de 10 %. ;",
+    "Capitaux décès : ayant droit (1 600 €). Conjoint (3 900 €). Enfant à charge (3 100 €)."
+   ],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
   },
-  "waiting_periods": [],
-  "obligations": [
-    {
-      "name": null,
-      "description": "Répondre exactement aux questions posées par l’assureur pour lui permettre de connaître et d’apprécier le risque à assurer.",
-      "timing": "Lors de la souscription du contrat",
-      "sanction": null,
-      "page": 2
-    },
-    {
-      "name": null,
-      "description": "Fournir tous documents justificatifs demandés par l’assureur.",
-      "timing": "Lors de la souscription du contrat",
-      "sanction": null,
-      "page": 2
-    },
-    {
-      "name": null,
-      "description": "Régler la cotisation (ou fraction de cotisation) indiquée au contrat.",
-      "timing": "Lors de la souscription du contrat",
-      "sanction": null,
-      "page": 2
-    },
-    {
-      "name": null,
-      "description": "Déclarer dans un délai de 15 jours toutes circonstances nouvelles qui ont pour conséquence d’aggraver les risques pris en charge ou d’en créer de nouveaux.",
-      "timing": "En cours de contrat",
-      "sanction": null,
-      "page": 2
-    },
-    {
-      "name": null,
-      "description": "Déclarer tout événement susceptible de mettre en jeu l’une des garanties souscrites dans les 5 jours ouvrés de la date à laquelle l’assuré en a pris connaissance.",
-      "timing": "En cas de sinistre",
-      "sanction": null,
-      "page": 2
-    },
-    {
-      "name": null,
-      "description": "En cas de vol ou tentative de vol, déposer plainte auprès des autorités compétentes et fournir le récépissé délivré.",
-      "timing": "En cas de sinistre",
-      "sanction": null,
-      "page": 2
-    }
-  ],
-  "claims_procedure": [
-    {
-      "step": "Déclaration du sinistre",
-      "description": "Déclarer tout événement susceptible de mettre en jeu l’une des garanties souscrites dans les 5 jours ouvrés de la date à laquelle l’assuré en a pris connaissance.",
-      "deadline": "dans les 5 jours ouvrés de la date à laquelle l’assuré en a pris connaissance",
-      "page": 2
-    },
-    {
-      "step": "Vol ou tentative de vol : dépôt de plainte",
-      "description": "En cas de vol ou tentative de vol, déposer plainte auprès des autorités compétentes et fournir le récépissé délivré.",
-      "deadline": null,
-      "page": 2
-    }
-  ],
-  "duration_and_cancellation": {
-    "duration": "De la date de prise d’effet au 31 décembre suivant. Le contrat est conclu pour une durée d’un an et il est ensuite reconduit automatiquement pour une année à chaque 1er janvier sauf résiliation par l’une des parties dans les cas et conditions fixés au contrat.",
-    "tacit_renewal": true,
-    "notice_period": "Chaque année au 31 décembre moyennant un préavis de deux mois.",
-    "methods": [
-      "La résiliation doit être demandée, par lettre simple, par e-mail ou via l’espace personnel maif.fr.."
-    ],
-    "special_rights": [
-      "À tout moment à l’expiration d’un délai d’un an à compter de la première souscription.",
-      "Chaque année au 31 décembre moyennant un préavis de deux mois.",
-      "En cas de changement de domicile, de situation ou de régime matrimonial, de profession ou de cessation définitive d’activité professionnelle, sous réserve que ces événements entraînent une réelle modification des risques assurés."
-    ],
-    "page": 2
+  {
+   "name": "Dommages au vélo et à ses accessoires",
+   "description": "Événements climatiques ; Catastrophes naturelles et technologiques ; Attentats ; Vol ou tentative de vol ; Vandalisme ; Incendie ; Autres événements accidentels.",
+   "is_optional": false,
+   "territorial_scope": "Sous réserves des dispositions propres à certaines garanties (assistance en cas de déplacement, recours) : Sans limitation de durée en France métropolitaine, Guadeloupe, Martinique, Réunion, Saint-Barthélemy, Saint-Martin pour sa partie française et Monaco ; Dès lors que le séjour n’excède pas un an, dans les pays de l’espace économique européen (EEE).",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": "En cas de dommages matériels subis par le vélo, l’assuré conserve à sa charge une somme (franchise) qui dépend de la valeur du vélo assuré. Franchise réglementaire catastrophes naturelles : 380 €.",
+   "conditions": [],
+   "page": 1
   },
-  "prescription_period": null,
-  "premium": {
-    "page": 2,
-    "indexation": null,
-    "notes": [
-      "La cotisation est exigible au 1er janvier. Le règlement peut être effectué en une fois par chèque ou prélèvement automatique ou mensuellement par prélèvement automatique."
-    ]
+  {
+   "name": "Recours",
+   "description": "Pour les préjudices résultant d’un événement accidentel garanti.",
+   "is_optional": false,
+   "territorial_scope": "Sous réserves des dispositions propres à certaines garanties (assistance en cas de déplacement, recours) : Sans limitation de durée en France métropolitaine, Guadeloupe, Martinique, Réunion, Saint-Barthélemy, Saint-Martin pour sa partie française et Monaco ; Dès lors que le séjour n’excède pas un an, dans les pays de l’espace économique européen (EEE).",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Pour la garantie recours, une intervention judiciaire ne sera pas exercée si les intérêts en jeu sont < à 625 € ou si l’événement à l’origine du dommage est survenu en dehors de France métropolitaine, Guadeloupe, Martinique, Réunion, Saint-Barthélemy et Saint-Martin pour sa partie française et Monaco."
+   ],
+   "page": 1
   },
-  "special_conditions": [
-    {
-      "name": "Où suis-je couvert ?",
-      "description": "Sous réserves des dispositions propres à certaines garanties (assistance en cas de déplacement, recours) : Sans limitation de durée en France métropolitaine, Guadeloupe, Martinique, Réunion, Saint-Barthélemy, Saint-Martin pour sa partie française et Monaco ; Dès lors que le séjour n’excède pas un an, dans les pays de l’espace économique européen (EEE).",
-      "page": 2
-    },
-    {
-      "name": "Lecture des coches",
-      "description": "Les garanties précédées d’une coche sont systématiquement prévues au contrat",
-      "page": 1
-    },
-    {
-      "name": "Portée du document d’information",
-      "description": "Ce document d’information présente un résumé des principales garanties et exclusions du produit. Il ne prend pas en compte les besoins et demandes spécifiques. Une information complète sur ce produit est fournie dans la documentation précontractuelle et contractuelle.",
-      "page": 1
-    },
-    {
-      "name": "Entreprise d’assurance",
-      "description": "MAIF - Entreprise d’assurance immatriculée en France et régie par le Code des assurances - 775 709 702",
-      "page": 1
-    }
+  {
+   "name": "Assistance au vélo en cas de déplacement",
+   "description": "Dépannage, remorquage du vélo ; Retour au domicile ou poursuite de trajet ; Récupération du vélo ; Aide financière pour la location d’un vélo de remplacement.",
+   "is_optional": false,
+   "territorial_scope": "Sous réserves des dispositions propres à certaines garanties (assistance en cas de déplacement, recours) : Sans limitation de durée en France métropolitaine, Guadeloupe, Martinique, Réunion, Saint-Barthélemy, Saint-Martin pour sa partie française et Monaco ; Dès lors que le séjour n’excède pas un an, dans les pays de l’espace économique européen (EEE).",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Responsabilité civile-défense",
+   "description": "Responsabilité civile : dommages causés aux tiers, dommages corporels (sans limitation de somme), dommages matériels et immatériels consécutifs (3 000 000 €). Défense des intérêts de l’assuré à la suite d’un accident garanti qui engage sa responsabilité civile.",
+   "is_optional": true,
+   "territorial_scope": "Sous réserves des dispositions propres à certaines garanties (assistance en cas de déplacement, recours) : Sans limitation de durée en France métropolitaine, Guadeloupe, Martinique, Réunion, Saint-Barthélemy, Saint-Martin pour sa partie française et Monaco ; Dès lors que le séjour n’excède pas un an, dans les pays de l’espace économique européen (EEE).",
+   "limits": "dommages corporels (sans limitation de somme), dommages matériels et immatériels consécutifs (3 000 000 €).",
+   "sub_limits": [],
+   "deductible": "Si l’option responsabilité civile est souscrite, l’assuré conserve une somme (franchise) de 75 € pour les dommages matériels causés à un tiers",
+   "conditions": [],
+   "page": 1
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Les déplacements professionnels",
+   "description": "« Qu’est-ce qui n’est pas assuré ? » : Les déplacements professionnels ;",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Le transport onéreux de personnes ou de marchandises",
+   "description": "« Qu’est-ce qui n’est pas assuré ? » : Le transport onéreux de personnes ou de marchandises.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Épreuves, courses et compétitions soumises à autorisation préalable",
+   "description": "« Principales exclusions » : Survenus à l’occasion de la participation de l’assuré en qualité de concurrent ou d’organisateur à des épreuves, courses ; compétitions ou leurs essais, soumis par la réglementation en vigueur à l’autorisation préalable des pouvoirs publics ;",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Conducteur sous l’empire d’un état alcoolique ou usage de stupéfiants",
+   "description": "« Principales exclusions » : Survenus alors que le conducteur est sous l’empire d’un état alcoolique ou a fait l’usage de stupéfiants ;",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Faute intentionnelle ou dolosive de l’assuré",
+   "description": "« Principales exclusions » : Résultant de la faute intentionnelle ou dolosive de l’assuré ;",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Travaux d’entretien réalisés sur le vélo",
+   "description": "« Principales exclusions » : Résultant de travaux d’entretien réalisés sur le vélo.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Franchise sur les dommages matériels subis par le vélo et franchise RC",
+   "description": "« Principales restrictions » : En cas de dommages matériels subis par le vélo, l’assuré conserve à sa charge une somme (franchise) qui dépend de la valeur du vélo assuré. Si l’option responsabilité civile est souscrite, l’assuré conserve une somme (franchise) de 75 € pour les dommages matériels causés à un tiers ;",
+   "applies_to": "Dommages au vélo et à ses accessoires ; Responsabilité civile-défense",
+   "page": 1
+  },
+  {
+   "name": "Franchise réglementaire catastrophes naturelles",
+   "description": "« Principales restrictions » : Franchise réglementaire catastrophes naturelles : 380 € ;",
+   "applies_to": "Dommages au vélo et à ses accessoires",
+   "page": 1
+  },
+  {
+   "name": "Seuil d’intervention judiciaire et limite territoriale de la garantie recours",
+   "description": "« Principales restrictions » : Pour la garantie recours, une intervention judiciaire ne sera pas exercée si les intérêts en jeu sont < à 625 € ou si l’événement à l’origine du dommage est survenu en dehors de France métropolitaine, Guadeloupe, Martinique, Réunion, Saint-Barthélemy et Saint-Martin pour sa partie française et Monaco.",
+   "applies_to": "Recours",
+   "page": 1
+  }
+ ],
+ "deductibles": {
+  "standard": null,
+  "variable": "En cas de dommages matériels subis par le vélo, l’assuré conserve à sa charge une somme (franchise) qui dépend de la valeur du vélo assuré.",
+  "per_coverage": {
+   "Dommages matériels subis par le vélo": "En cas de dommages matériels subis par le vélo, l’assuré conserve à sa charge une somme (franchise) qui dépend de la valeur du vélo assuré.",
+   "Responsabilité civile (option) — dommages matériels causés à un tiers": "Si l’option responsabilité civile est souscrite, l’assuré conserve une somme (franchise) de 75 € pour les dommages matériels causés à un tiers",
+   "Catastrophes naturelles": "Franchise réglementaire catastrophes naturelles : 380 €"
+  },
+  "page": 1
+ },
+ "waiting_periods": [],
+ "obligations": [
+  {
+   "name": null,
+   "description": "Répondre exactement aux questions posées par l’assureur pour lui permettre de connaître et d’apprécier le risque à assurer.",
+   "timing": "Lors de la souscription du contrat",
+   "sanction": null,
+   "page": 2
+  },
+  {
+   "name": null,
+   "description": "Fournir tous documents justificatifs demandés par l’assureur.",
+   "timing": "Lors de la souscription du contrat",
+   "sanction": null,
+   "page": 2
+  },
+  {
+   "name": null,
+   "description": "Régler la cotisation (ou fraction de cotisation) indiquée au contrat.",
+   "timing": "Lors de la souscription du contrat",
+   "sanction": null,
+   "page": 2
+  },
+  {
+   "name": null,
+   "description": "Déclarer dans un délai de 15 jours toutes circonstances nouvelles qui ont pour conséquence d’aggraver les risques pris en charge ou d’en créer de nouveaux.",
+   "timing": "En cours de contrat",
+   "sanction": null,
+   "page": 2
+  },
+  {
+   "name": null,
+   "description": "Déclarer tout événement susceptible de mettre en jeu l’une des garanties souscrites dans les 5 jours ouvrés de la date à laquelle l’assuré en a pris connaissance.",
+   "timing": "En cas de sinistre",
+   "sanction": null,
+   "page": 2
+  },
+  {
+   "name": null,
+   "description": "En cas de vol ou tentative de vol, déposer plainte auprès des autorités compétentes et fournir le récépissé délivré.",
+   "timing": "En cas de sinistre",
+   "sanction": null,
+   "page": 2
+  }
+ ],
+ "claims_procedure": [
+  {
+   "step": "Déclaration du sinistre",
+   "description": "Déclarer tout événement susceptible de mettre en jeu l’une des garanties souscrites dans les 5 jours ouvrés de la date à laquelle l’assuré en a pris connaissance.",
+   "deadline": "dans les 5 jours ouvrés de la date à laquelle l’assuré en a pris connaissance",
+   "page": 2
+  },
+  {
+   "step": "Vol ou tentative de vol : dépôt de plainte",
+   "description": "En cas de vol ou tentative de vol, déposer plainte auprès des autorités compétentes et fournir le récépissé délivré.",
+   "deadline": null,
+   "page": 2
+  }
+ ],
+ "duration_and_cancellation": {
+  "duration": "De la date de prise d’effet au 31 décembre suivant. Le contrat est conclu pour une durée d’un an et il est ensuite reconduit automatiquement pour une année à chaque 1er janvier sauf résiliation par l’une des parties dans les cas et conditions fixés au contrat.",
+  "tacit_renewal": true,
+  "notice_period": "Chaque année au 31 décembre moyennant un préavis de deux mois.",
+  "methods": [
+   "La résiliation doit être demandée, par lettre simple, par e-mail ou via l’espace personnel maif.fr.."
   ],
-  "key_quotes": [
-    {
-      "quote": "Ce produit est destiné à couvrir les dommages matériels au vélo assuré et les dommages corporels de ses utilisateurs ayant qualité d’assurés \nainsi que des services d’assistance au vélo.",
-      "page": 1,
-      "context": "De quel type d’assurance s’agit-il ?"
-    },
-    {
-      "quote": "Indemnisation des dommages corporels résultant de l’utilisation \ndu véhicule assuré :",
-      "page": 1,
-      "context": "Garantie dommages corporels"
-    },
-    {
-      "quote": "Frais médicaux restés à charge (plafond de 1 400 €) ;",
-      "page": 1,
-      "context": "Plafond — frais médicaux"
-    },
-    {
-      "quote": "Frais divers d’hospitalisation : 16 € par nuitée (max : 365 nuits) ;",
-      "page": 1,
-      "context": "Plafond — frais d’hospitalisation"
-    },
-    {
-      "quote": "Capitaux décès : ayant droit (1 600 €).\n \u0001 Conjoint (3 900 €).\n \u0001 Enfant à charge (3 100 €).",
-      "page": 1,
-      "context": "Capitaux décès"
-    },
-    {
-      "quote": "Responsabilité civile : dommages causés aux tiers, dommages\ncorporels (sans limitation de somme), dommages matériels et\nimmatériels consécutifs (3 000 000 €).",
-      "page": 1,
-      "context": "Garantie optionnelle Responsabilité civile — plafonds"
-    },
-    {
-      "quote": "Les déplacements professionnels ;",
-      "page": 1,
-      "context": "Qu’est-ce qui n’est pas assuré ?"
-    },
-    {
-      "quote": "Survenus alors que le conducteur est sous l’empire d’un état\n \u0001 alcoolique ou a fait l’usage de stupéfiants ;",
-      "page": 1,
-      "context": "Principales exclusions"
-    },
-    {
-      "quote": "Franchise réglementaire catastrophes naturelles : 380 € ;",
-      "page": 1,
-      "context": "Franchise réglementaire catastrophes naturelles"
-    },
-    {
-      "quote": "Pour la garantie recours, une intervention judiciaire ne\n \u0001 sera pas exercée si les intérêts en jeu sont < à 625 € ou si\n \u0001 l’événement à l’origine du dommage est survenu en dehors\n \u0001 de France métropolitaine, Guadeloupe, Martinique, Réunion,\n \u0001 Saint-Barthélemy et Saint-Martin pour sa partie française\n \u0001 et Monaco.",
-      "page": 1,
-      "context": "Restriction de la garantie recours"
-    },
-    {
-      "quote": "Sans limitation de durée en France métropolitaine, Guadeloupe, Martinique, Réunion, Saint-Barthélemy, Saint-Martin pour sa partie \nfrançaise et Monaco ; \n \u0001 Dès lors que le séjour n’excède pas un an, dans les pays de l’espace économique européen (EEE).",
-      "page": 2,
-      "context": "Où suis-je couvert ?"
-    },
-    {
-      "quote": "De la date de prise d’effet au 31 décembre suivant. Le contrat est conclu pour une durée d’un an et il est ensuite reconduit \nautomatiquement pour une année à chaque 1er janvier sauf résiliation par l’une des parties dans les cas et conditions fixés au contrat.",
-      "page": 2,
-      "context": "Durée et reconduction"
-    },
-    {
-      "quote": "MAIF - Entreprise d’assurance immatriculée en France \net régie par le Code des assurances - 775 709 702",
-      "page": 1,
-      "context": "Identification de l’entreprise d’assurance"
-    }
+  "special_rights": [
+   "À tout moment à l’expiration d’un délai d’un an à compter de la première souscription.",
+   "Chaque année au 31 décembre moyennant un préavis de deux mois.",
+   "En cas de changement de domicile, de situation ou de régime matrimonial, de profession ou de cessation définitive d’activité professionnelle, sous réserve que ces événements entraînent une réelle modification des risques assurés."
   ],
-  "gaps": [
-    "L’assureur imprimé est « MAIF - Entreprise d’assurance immatriculée en France et régie par le Code des assurances - 775 709 702 » : ici le numéro est imprimé avec des espaces, alors que les IPID Construction MAIF de la même famille l’impriment « 775709702 ». MAIF VIE n’est pas mentionnée.",
-    "La date d’édition « 06/2026 » n’est pas dans le nom du fichier : elle est imprimée seule en haut de la page 2, sous la référence interne « IPID VELO ».",
-    "Contradiction avec les métadonnées du PDF : le champ /Title du fichier est « Document d’information sur le produit d’assurance Auto Professionnelle », alors que tout le corps du document porte « Assurance Vélo ». C’est le document imprimé qui a été retenu ; le /Title paraît être un reliquat de gabarit.",
-    "Le nom de produit est imprimé deux fois à l’identique en fin de page 1 (« Assurance Vélo » comme bannière de famille puis « Assurance Vélo » comme intitulé du produit) : le document ne distingue donc pas une famille d’un produit. Aucun intitulé n’est en capitales, sauf la référence interne « IPID VELO », qui n’est pas un nom commercial.",
-    "Le document ne qualifie jamais le vélo d’EDPM ni de véhicule motorisé — il parle de « vélo » et du « véhicule assuré ». La branche `edpm` provient des métadonnées de la tâche, pas du document.",
-    "Défaut de couche texte : les puces ressortent sous forme de caractères de contrôle U+0001 (48 occurrences) et U+0007 (6 occurrences), précédés d’une espace cadratin U+2002. Piège supplémentaire propre à ce document : ces glyphes sont répétés à CHAQUE ligne de renvoi, y compris au milieu d’un même item (les trois « Principales restrictions » s’étalent ainsi sur douze lignes toutes précédées d’une puce). Le découpage en items a donc été fait sur le sens, pas sur les puces. Les caractères ont été retirés des champs descriptifs ; en revanche quatre citations de `key_quotes` en traversent un et le conservent verbatim, comme l’exige la vérification de grounding.",
-    "Coquilles du document reproduites telles quelles, sans correction : « et service d’accompagnement. ; » et « Incapacité permanente : à partir de 10 %. ; » (point suivi d’un point-virgule), « courses ; compétitions ou leurs essais » (point-virgule au milieu d’une énumération), et « via l’espace personnel maif.fr.. » (double point final).",
-    "Le quatrième item des « Principales exclusions » (« Résultant de travaux d’entretien réalisés sur le vélo. ») est imprimé sans puce, à la suite du troisième ; il a été compté comme un item distinct au vu de sa construction grammaticale parallèle.",
-    "La rubrique « Principales restrictions » (3 items : franchises, franchise catastrophes naturelles, seuil et limite territoriale du recours) a été enregistrée dans `exclusions` faute de bloc dédié dans le schéma ; chaque description porte le libellé de rubrique du document. Les mêmes franchises sont également portées dans `deductibles` et sur les garanties concernées.",
-    "Le montant de la franchise applicable aux dommages matériels subis par le vélo n’est pas chiffré : le document dit seulement qu’il « dépend de la valeur du vélo assuré ».",
-    "La garantie dommages corporels n’a pas de plafond global imprimé : seuls des plafonds par poste sont indiqués, enregistrés en `sub_limits`. Le document ne dit pas non plus si l’assistance comporte des plafonds (« Aide financière pour la location d’un vélo de remplacement » est citée sans montant).",
-    "Aucun délai de carence, aucun délai de prescription et aucune procédure de réclamation/médiation ne sont mentionnés dans cet IPID.",
-    "Le texte du PDF a été vérifié caractère par caractère contre une ré-extraction PyMuPDF `page.get_text(\"text\")` du fichier local : identique, 5 925 caractères, 2 pages — pas de troncature."
+  "page": 2
+ },
+ "prescription_period": null,
+ "premium": {
+  "page": 2,
+  "indexation": null,
+  "notes": [
+   "La cotisation est exigible au 1er janvier. Le règlement peut être effectué en une fois par chèque ou prélèvement automatique ou mensuellement par prélèvement automatique."
   ]
+ },
+ "special_conditions": [
+  {
+   "name": "Où suis-je couvert ?",
+   "description": "Sous réserves des dispositions propres à certaines garanties (assistance en cas de déplacement, recours) : Sans limitation de durée en France métropolitaine, Guadeloupe, Martinique, Réunion, Saint-Barthélemy, Saint-Martin pour sa partie française et Monaco ; Dès lors que le séjour n’excède pas un an, dans les pays de l’espace économique européen (EEE).",
+   "page": 2
+  },
+  {
+   "name": "Lecture des coches",
+   "description": "Les garanties précédées d’une coche sont systématiquement prévues au contrat",
+   "page": 1
+  },
+  {
+   "name": "Portée du document d’information",
+   "description": "Ce document d’information présente un résumé des principales garanties et exclusions du produit. Il ne prend pas en compte les besoins et demandes spécifiques. Une information complète sur ce produit est fournie dans la documentation précontractuelle et contractuelle.",
+   "page": 1
+  },
+  {
+   "name": "Entreprise d’assurance",
+   "description": "MAIF - Entreprise d’assurance immatriculée en France et régie par le Code des assurances - 775 709 702",
+   "page": 1
+  }
+ ],
+ "key_quotes": [
+  {
+   "quote": "Ce produit est destiné à couvrir les dommages matériels au vélo assuré et les dommages corporels de ses utilisateurs ayant qualité d’assurés \nainsi que des services d’assistance au vélo.",
+   "page": 1,
+   "context": "De quel type d’assurance s’agit-il ?"
+  },
+  {
+   "quote": "Indemnisation des dommages corporels résultant de l’utilisation \ndu véhicule assuré :",
+   "page": 1,
+   "context": "Garantie dommages corporels"
+  },
+  {
+   "quote": "Frais médicaux restés à charge (plafond de 1 400 €) ;",
+   "page": 1,
+   "context": "Plafond — frais médicaux"
+  },
+  {
+   "quote": "Frais divers d’hospitalisation : 16 € par nuitée (max : 365 nuits) ;",
+   "page": 1,
+   "context": "Plafond — frais d’hospitalisation"
+  },
+  {
+   "quote": "Capitaux décès : ayant droit (1 600 €).\n \u0001 Conjoint (3 900 €).\n \u0001 Enfant à charge (3 100 €).",
+   "page": 1,
+   "context": "Capitaux décès"
+  },
+  {
+   "quote": "Responsabilité civile : dommages causés aux tiers, dommages\ncorporels (sans limitation de somme), dommages matériels et\nimmatériels consécutifs (3 000 000 €).",
+   "page": 1,
+   "context": "Garantie optionnelle Responsabilité civile — plafonds"
+  },
+  {
+   "quote": "Les déplacements professionnels ;",
+   "page": 1,
+   "context": "Qu’est-ce qui n’est pas assuré ?"
+  },
+  {
+   "quote": "Survenus alors que le conducteur est sous l’empire d’un état\n \u0001 alcoolique ou a fait l’usage de stupéfiants ;",
+   "page": 1,
+   "context": "Principales exclusions"
+  },
+  {
+   "quote": "Franchise réglementaire catastrophes naturelles : 380 € ;",
+   "page": 1,
+   "context": "Franchise réglementaire catastrophes naturelles"
+  },
+  {
+   "quote": "Pour la garantie recours, une intervention judiciaire ne\n \u0001 sera pas exercée si les intérêts en jeu sont < à 625 € ou si\n \u0001 l’événement à l’origine du dommage est survenu en dehors\n \u0001 de France métropolitaine, Guadeloupe, Martinique, Réunion,\n \u0001 Saint-Barthélemy et Saint-Martin pour sa partie française\n \u0001 et Monaco.",
+   "page": 1,
+   "context": "Restriction de la garantie recours"
+  },
+  {
+   "quote": "Sans limitation de durée en France métropolitaine, Guadeloupe, Martinique, Réunion, Saint-Barthélemy, Saint-Martin pour sa partie \nfrançaise et Monaco ; \n \u0001 Dès lors que le séjour n’excède pas un an, dans les pays de l’espace économique européen (EEE).",
+   "page": 2,
+   "context": "Où suis-je couvert ?"
+  },
+  {
+   "quote": "De la date de prise d’effet au 31 décembre suivant. Le contrat est conclu pour une durée d’un an et il est ensuite reconduit \nautomatiquement pour une année à chaque 1er janvier sauf résiliation par l’une des parties dans les cas et conditions fixés au contrat.",
+   "page": 2,
+   "context": "Durée et reconduction"
+  },
+  {
+   "quote": "MAIF - Entreprise d’assurance immatriculée en France \net régie par le Code des assurances - 775 709 702",
+   "page": 1,
+   "context": "Identification de l’entreprise d’assurance"
+  }
+ ],
+ "gaps": [
+  "L’assureur imprimé est « MAIF - Entreprise d’assurance immatriculée en France et régie par le Code des assurances - 775 709 702 » : ici le numéro est imprimé avec des espaces, alors que les IPID Construction MAIF de la même famille l’impriment « 775709702 ». MAIF VIE n’est pas mentionnée.",
+  "La date d’édition « 06/2026 » n’est pas dans le nom du fichier : elle est imprimée seule en haut de la page 2, sous la référence interne « IPID VELO ».",
+  "Contradiction avec les métadonnées du PDF : le champ /Title du fichier est « Document d’information sur le produit d’assurance Auto Professionnelle », alors que tout le corps du document porte « Assurance Vélo ». C’est le document imprimé qui a été retenu ; le /Title paraît être un reliquat de gabarit.",
+  "Le nom de produit est imprimé deux fois à l’identique en fin de page 1 (« Assurance Vélo » comme bannière de famille puis « Assurance Vélo » comme intitulé du produit) : le document ne distingue donc pas une famille d’un produit. Aucun intitulé n’est en capitales, sauf la référence interne « IPID VELO », qui n’est pas un nom commercial.",
+  "Le document ne qualifie jamais le vélo d’EDPM ni de véhicule motorisé — il parle de « vélo » et du « véhicule assuré ». La branche `edpm` provient des métadonnées de la tâche, pas du document.",
+  "Défaut de couche texte : les puces ressortent sous forme de caractères de contrôle U+0001 (48 occurrences) et U+0007 (6 occurrences), précédés d’une espace cadratin U+2002. Piège supplémentaire propre à ce document : ces glyphes sont répétés à CHAQUE ligne de renvoi, y compris au milieu d’un même item (les trois « Principales restrictions » s’étalent ainsi sur douze lignes toutes précédées d’une puce). Le découpage en items a donc été fait sur le sens, pas sur les puces. Les caractères ont été retirés des champs descriptifs ; en revanche quatre citations de `key_quotes` en traversent un et le conservent verbatim, comme l’exige la vérification de grounding.",
+  "Coquilles du document reproduites telles quelles, sans correction : « et service d’accompagnement. ; » et « Incapacité permanente : à partir de 10 %. ; » (point suivi d’un point-virgule), « courses ; compétitions ou leurs essais » (point-virgule au milieu d’une énumération), et « via l’espace personnel maif.fr.. » (double point final).",
+  "Le quatrième item des « Principales exclusions » (« Résultant de travaux d’entretien réalisés sur le vélo. ») est imprimé sans puce, à la suite du troisième ; il a été compté comme un item distinct au vu de sa construction grammaticale parallèle.",
+  "La rubrique « Principales restrictions » (3 items : franchises, franchise catastrophes naturelles, seuil et limite territoriale du recours) a été enregistrée dans `exclusions` faute de bloc dédié dans le schéma ; chaque description porte le libellé de rubrique du document. Les mêmes franchises sont également portées dans `deductibles` et sur les garanties concernées.",
+  "Le montant de la franchise applicable aux dommages matériels subis par le vélo n’est pas chiffré : le document dit seulement qu’il « dépend de la valeur du vélo assuré ».",
+  "La garantie dommages corporels n’a pas de plafond global imprimé : seuls des plafonds par poste sont indiqués, enregistrés en `sub_limits`. Le document ne dit pas non plus si l’assistance comporte des plafonds (« Aide financière pour la location d’un vélo de remplacement » est citée sans montant).",
+  "Aucun délai de carence, aucun délai de prescription et aucune procédure de réclamation/médiation ne sont mentionnés dans cet IPID.",
+  "Le texte du PDF a été vérifié caractère par caractère contre une ré-extraction PyMuPDF `page.get_text(\"text\")` du fichier local : identique, 5 925 caractères, 2 pages — pas de troncature."
+ ]
 }

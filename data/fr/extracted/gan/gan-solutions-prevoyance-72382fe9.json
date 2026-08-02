@@ -1,677 +1,677 @@
 {
-  "schema_version": "1.0",
-  "prompt_version": "1.1",
-  "country": "fr",
-  "insurer_slug": "gan",
-  "insurer_name": "Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group",
-  "product_name": "Gan Solutions Prévoyance",
-  "branch": "prevoyance",
-  "branch_code": null,
-  "document_type": "ipid",
-  "language": "fr",
-  "target_audience": null,
-  "target_audience_note": "Le document ne désigne pas de catégorie de public. Il indique : « Ce produit d’assurance de groupe est destiné à garantir le maintien de revenus aux adhérents au(x) contrat(s) souscrit(s) par l’association DEMAIN » et précise que « Les adhérents ayant le statut de Travailleurs Non Salariés (TNS) bénéficient du dispositif fiscal de la loi Madelin pour les garanties qui lui sont éligibles ». Le titre imprimé est « MULTIRISQUES PRÉVOYANCE INDIVIDUELLE ». Deux garanties sont « réservée[s] aux TNS et Exploitants agricoles », et une option vise « les professions médicales et paramédicales ».",
-  "reference": "3370-GSP07-032024 - PAO/GGVie",
-  "edition_date": "032024",
-  "product_family": "Gan Solutions Prévoyance",
-  "variant": null,
-  "is_extension": false,
-  "extends": null,
-  "superseded": null,
-  "source_url": "https://www.gan.fr/app/uploads/2024/11/032023-DIN_Gan-Solutions-Prevoyance.pdf",
-  "source_pdf": "gan-solutions-prevoyance-72382fe9.pdf",
-  "source_sha256": "b5cb3cf8dde2059271db0a2dd85638bba6a6a87da516d9cda621752434e53089",
-  "source_pages": 2,
-  "fetched_at": "2026-07-30",
-  "extraction_model": "claude-code-subagent:scale",
-  "summary": "Document d’information d’un produit d’assurance (DIPA/IPID) du produit Gan Solutions Prévoyance, un contrat d’assurance de groupe de prévoyance individuelle souscrit auprès de Groupama Gan Vie par l’association DEMAIN, avec Mutuaide Assistance pour les garanties d’assistance. Le contrat garantit le maintien de revenus en cas d’incapacité ou d’invalidité consécutive à une maladie ou un accident et protège les proches en cas de décès, l’indemnisation se faisant sans déduction des indemnités du régime obligatoire. Les garanties se répartissent entre garanties systématiques (symbole ✔) et garanties optionnelles (symbole •) : capital ou rente décès, décès accidentel, rente d’éducation, rente de conjoint, PTIA, capital maladies redoutées, allocation journalière d’hospitalisation, indemnités journalières d’arrêt de travail selon quatre formules, rentes ou capitaux d’invalidité, et services d’assistance. Le document résume également les exclusions et restrictions principales, les obligations, le paiement des cotisations et les conditions de résiliation.",
-  "definitions": [
-    {
-      "term": "Symboles ✔ et • (garanties systématiques / optionnelles)",
-      "definition": "Les garanties précédées d’une coche verte (symbole✔) sont accordées systématiquement dans le contrat. Celles précédées d’une puce (symbole •) sont optionnelles.",
-      "page": 1
-    },
-    {
-      "term": "PTIA",
-      "definition": "Perte Totale et Irréversible d’Autonomie. En cas de PTIA, le capital prévu en cas de décès est versé à l’assuré lui-même.",
-      "page": 1
-    },
-    {
-      "term": "Capital maladies redoutées",
-      "definition": "En cas de maladie grave de l’assuré (cancer, accident vasculaire cérébrale, infarctus du myocarde), versement d’un capital.",
-      "page": 1
-    },
-    {
-      "term": "IJ « classique »",
-      "definition": "Indemnités journalières qui ont toujours le même montant (proposée quelle que soit la cause de l’arrêt de travail ou en cas d’accident uniquement). Durée maximale de versement : 1 095 jours.",
-      "page": 1
-    },
-    {
-      "term": "IJ « modulable »",
-      "definition": "Indemnités journalières dont le montant s’adapte à celui des IJ versées par le régime social de base, suivant 3 paliers. Durée maximale de versement : 1 095 jours.",
-      "page": 1
-    }
-  ],
-  "coverages": [
-    {
-      "name": "Décès - versement d’un capital ou d’une rente aux personnes désignées",
-      "description": "✔ En cas de décès : versement d’un capital ou d’une rente aux personnes désignées. L’assuré choisit, sous réserve d’avoir satisfait aux conditions d’adhésion, de s’assurer pour l’une ou plusieurs des situations suivantes : décès, arrêt de travail, invalidité, consécutifs à un accident ou à une maladie.",
-      "is_optional": false,
-      "territorial_scope": "Garantie Décès : dans le monde entier.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Sous réserve d’avoir satisfait aux conditions d’adhésion.",
-        "Les garanties prennent fin la veille de l’échéance annuelle qui suit le 85ème anniversaire de l’assuré pour les garanties en cas de décès."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Décès accidentel - versement d’un capital ou d’une rente",
-      "description": "• Versement d’un capital ou d’une rente en cas de décès accidentel.",
-      "is_optional": true,
-      "territorial_scope": "Garantie Décès : dans le monde entier.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Rente d’éducation",
-      "description": "• Versement d’une rente d’éducation aux enfants désignés au certificat d’adhésion.",
-      "is_optional": true,
-      "territorial_scope": "Garantie Décès : dans le monde entier.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Rente viagère de conjoint",
-      "description": "• Versement d’une rente viagère à son conjoint.",
-      "is_optional": true,
-      "territorial_scope": "Garantie Décès : dans le monde entier.",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Perte Totale et Irréversible d’Autonomie (PTIA)",
-      "description": "En cas de Perte Totale et Irréversible d’Autonomie (PTIA), le capital prévu en cas de décès est versé à l’assuré lui-même.",
-      "is_optional": null,
-      "territorial_scope": null,
-      "limits": "le capital prévu en cas de décès",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Les garanties prennent fin la veille de l’échéance annuelle qui suit le 67ème anniversaire de l’assuré pour les garanties en cas de PTIA et de maladies redoutées."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Capital maladies redoutées",
-      "description": "Capital maladies redoutées : en cas de maladie grave de l’assuré (cancer, accident vasculaire cérébrale, infarctus du myocarde), versement d’un capital.",
-      "is_optional": null,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Pour la garantie en cas de maladies redoutées, le délai de carence est de 6 mois.",
-        "Les garanties prennent fin la veille de l’échéance annuelle qui suit le 67ème anniversaire de l’assuré pour les garanties en cas de PTIA et de maladies redoutées."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Allocation journalière d’hospitalisation",
-      "description": "• En cas d’hospitalisation : versement d’une allocation journalière d’hospitalisation.",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Les garanties prennent fin la veille de l’échéance annuelle qui suit le 75ème anniversaire de l’assuré pour la garantie allocation journalière en cas d’hospitalisation."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Arrêt de travail - IJ « classique »",
-      "description": "• IJ « classique » qui ont toujours le même montant (proposée quelle que soit la cause de l’arrêt de travail ou en cas d’accident uniquement).",
-      "is_optional": true,
-      "territorial_scope": "Garanties Arrêt de travail et Invalidité : dans le monde entier à l’exception des pays classés parmi les « pays formellement déconseillés » ou les « pays déconseillés sauf raisons professionnelles impératives » au moment du séjour et dont la liste est diffusée par le Ministère des Affaires Etrangères de la République Française.",
-      "limits": "Durée maximale de versement : 1 095 jours.",
-      "sub_limits": [
-        "Les durées de 1 095 jours et 730 jours sont limitées à 365 jours en cas d’affections disco vertébrales ou psychiques."
-      ],
-      "deductible": "Application d’une franchise dont la durée est choisie par l’assuré pendant laquelle les IJ ne sont pas versées. Dans tous les cas, la franchise est de 90 jours en cas d’affection psychique.",
-      "conditions": [
-        "Délai de carence de 3 mois à partir de la prise d’effet des garanties en cas d’arrêt de travail pour maladie (6 mois en cas d’affections disco vertébrales, 12 mois en cas d’affections psychiques, 9 mois en cas de grossesse pathologique).",
-        "Les garanties prennent fin la veille de l’échéance annuelle qui suit le 65ème ou le 67ème anniversaire de l’assuré suivant l’option souscrite à l’adhésion."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Arrêt de travail - IJ « modulable »",
-      "description": "• IJ « modulable » dont le montant s’adapte à celui des IJ versées par le régime social de base, suivant 3 paliers.",
-      "is_optional": true,
-      "territorial_scope": "Garanties Arrêt de travail et Invalidité : dans le monde entier à l’exception des pays classés parmi les « pays formellement déconseillés » ou les « pays déconseillés sauf raisons professionnelles impératives » au moment du séjour et dont la liste est diffusée par le Ministère des Affaires Etrangères de la République Française.",
-      "limits": "Durée maximale de versement : 1 095 jours.",
-      "sub_limits": [
-        "Les durées de 1 095 jours et 730 jours sont limitées à 365 jours en cas d’affections disco vertébrales ou psychiques."
-      ],
-      "deductible": "Application d’une franchise dont la durée est choisie par l’assuré pendant laquelle les IJ ne sont pas versées. Dans tous les cas, la franchise est de 90 jours en cas d’affection psychique.",
-      "conditions": [
-        "Délai de carence de 3 mois à partir de la prise d’effet des garanties en cas d’arrêt de travail pour maladie (6 mois en cas d’affections disco vertébrales, 12 mois en cas d’affections psychiques, 9 mois en cas de grossesse pathologique)."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Arrêt de travail - IJ de remboursement des frais professionnels",
-      "description": "• IJ de remboursement des frais professionnels permettant de financer les frais professionnels fixes (réservée aux TNS et Exploitants agricoles).",
-      "is_optional": true,
-      "territorial_scope": "Garanties Arrêt de travail et Invalidité : dans le monde entier à l’exception des pays classés parmi les « pays formellement déconseillés » ou les « pays déconseillés sauf raisons professionnelles impératives » au moment du séjour et dont la liste est diffusée par le Ministère des Affaires Etrangères de la République Française.",
-      "limits": "Durée de versement 365 jours ou 730 jours.",
-      "sub_limits": [
-        "Les durées de 1 095 jours et 730 jours sont limitées à 365 jours en cas d’affections disco vertébrales ou psychiques."
-      ],
-      "deductible": "Application d’une franchise dont la durée est choisie par l’assuré pendant laquelle les IJ ne sont pas versées. Dans tous les cas, la franchise est de 90 jours en cas d’affection psychique.",
-      "conditions": [
-        "Réservée aux TNS et Exploitants agricoles."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Arrêt de travail - IJ de remboursement des frais de remplacement",
-      "description": "• IJ de remboursement des frais de remplacement, permettant de financer la rémunération d’un remplaçant (réservée aux TNS et Exploitants agricoles) (proposée quelle que soit la cause de l’arrêt de travail ou en cas d’accident uniquement).",
-      "is_optional": true,
-      "territorial_scope": "Garanties Arrêt de travail et Invalidité : dans le monde entier à l’exception des pays classés parmi les « pays formellement déconseillés » ou les « pays déconseillés sauf raisons professionnelles impératives » au moment du séjour et dont la liste est diffusée par le Ministère des Affaires Etrangères de la République Française.",
-      "limits": "Durée de versement 180 jours.",
-      "sub_limits": [],
-      "deductible": "Application d’une franchise dont la durée est choisie par l’assuré pendant laquelle les IJ ne sont pas versées. Dans tous les cas, la franchise est de 90 jours en cas d’affection psychique.",
-      "conditions": [
-        "Réservée aux TNS et Exploitants agricoles."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Extension Sécurité dos",
-      "description": "• Extension Sécurité dos : suppression de la limitation à 365 jours pour les affections disco vertébrales.",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Extension Sécurité dos et psy",
-      "description": "• Extension Sécurité dos et psy : suppression de la limitation à 365 jours pour les affections disco vertébrales et psychiques.",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Invalidité permanente totale (IPT) ou partielle (IPP) - rente mensuelle ou capital",
-      "description": "• Versement d’une rente mensuelle ou d’un capital en fonction du taux d’invalidité résultant de la combinaison des taux d’invalidité professionnelle et fonctionnelle et dans la proportion de ce taux divisé par 66, si ce taux d’invalidité est ≥ à 15 % ou 33 % (au choix de l’assuré) en cas d’accident ou de maladie. La prestation, capital ou rente, est totale à partir du taux résultant de la combinaison des taux d’invalidité professionnelle et fonctionnelle ≥ à 66 %.",
-      "is_optional": true,
-      "territorial_scope": "Garanties Arrêt de travail et Invalidité : dans le monde entier à l’exception des pays classés parmi les « pays formellement déconseillés » ou les « pays déconseillés sauf raisons professionnelles impératives » au moment du séjour et dont la liste est diffusée par le Ministère des Affaires Etrangères de la République Française.",
-      "limits": "dans la proportion de ce taux divisé par 66 ; prestation totale à partir d’un taux combiné ≥ à 66 %",
-      "sub_limits": [
-        "seuil de déclenchement : taux d’invalidité ≥ à 15 % ou 33 % (au choix de l’assuré)"
-      ],
-      "deductible": null,
-      "conditions": [
-        "Délai de carence de 3 mois à partir de la prise d’effet des garanties en cas d’invalidité pour maladie (6 mois en cas d’affections disco vertébrales, 12 mois en cas d’affections psychiques, 9 mois en cas de grossesse pathologique).",
-        "Temps partiel thérapeutique : la prestation est réduite en fonction du taux de reprise d’activité.",
-        "Les garanties prennent fin la veille de l’échéance annuelle qui suit le 65ème ou le 67ème anniversaire de l’assuré suivant l’option souscrite à l’adhésion."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Invalidité - IPP professionnelle des professions médicales et paramédicales",
-      "description": "• Versement d’une rente mensuelle ou d’un capital en cas d’accident ou de maladie, en fonction du taux d’IPP professionnelle ≥ à 15 % pour les professions médicales et paramédicales.",
-      "is_optional": true,
-      "territorial_scope": "Garanties Arrêt de travail et Invalidité : dans le monde entier à l’exception des pays classés parmi les « pays formellement déconseillés » ou les « pays déconseillés sauf raisons professionnelles impératives » au moment du séjour et dont la liste est diffusée par le Ministère des Affaires Etrangères de la République Française.",
-      "limits": "taux d’IPP professionnelle ≥ à 15 %",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Réservée aux professions médicales et paramédicales."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Invalidité d’origine accidentelle uniquement (capital)",
-      "description": "• Le capital peut être proposé en cas d’invalidité d’origine accidentelle uniquement.",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Prise en charge des cotisations (exonération)",
-      "description": "En cas d’arrêt de travail ou d’IPT, l’assureur prend en charge le paiement des cotisations.",
-      "is_optional": null,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Services d’assistance",
-      "description": "✔ Pour l’ensemble des garanties, le contrat inclut des services d’assistance tels que l’aide ménagère à domicile en cas d’hospitalisation ou la garde des enfants de moins de 18 ans en cas de grève scolaire ou de maladie de la nourrice agréée. Ces garanties sont portées par Mutuaide Assistance, co-signataire du document.",
-      "is_optional": false,
-      "territorial_scope": "Garanties d’Assistance : accidents ou maladies survenus en France et dans les principautés d’Andorre et de Monaco, étendus à l’étranger pour les garanties d’assistance en déplacement.",
-      "limits": null,
-      "sub_limits": [
-        "aide ménagère à domicile en cas d’hospitalisation",
-        "garde des enfants de moins de 18 ans en cas de grève scolaire ou de maladie de la nourrice agréée"
-      ],
-      "deductible": null,
-      "conditions": [
-        "La liste est donnée à titre d’exemple (« des services d’assistance tels que … »)."
-      ],
-      "page": 1
-    },
-    {
-      "name": "Indemnisation sans déduction des indemnités du régime obligatoire",
-      "description": "L’indemnisation se fait sans déduction des indemnités du régime obligatoire.",
-      "is_optional": null,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    }
-  ],
-  "exclusions": [
-    {
-      "name": "Maladies ou accidents antérieurs faisant l’objet d’une exclusion particulière",
-      "description": "X Les conséquences des maladies ou accidents survenus avant la date de signature de la demande d’adhésion, expressément mentionnés sur le Certificat d’Adhésion et ayant fait l’objet d’une exclusion particulière.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Sinistres survenus hors période de validité du contrat",
-      "description": "X Les sinistres survenus en dehors de la période de validité du contrat.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Dividendes en cas d’option pour le dispositif fiscal Madelin",
-      "description": "X Les dividendes, si l’adhérent a opté pour le dispositif fiscal Madelin.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Remboursement des frais de santé",
-      "description": "X Le remboursement des frais de santé en complément du régime obligatoire.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Suicide au cours de la première année d’assurance",
-      "description": "! Pour la garantie décès : le suicide au cours de la première année d’assurance.",
-      "applies_to": "Décès - versement d’un capital ou d’une rente aux personnes désignées",
-      "page": 1
-    },
-    {
-      "name": "Faute ou comportement de l’assuré, stupéfiants, imprégnation alcoolique",
-      "description": "! Pour toutes les garanties : les conséquences d’une faute ou d’un comportement de l’assuré ayant causé la réalisation du risque, de l’usage de stupéfiant ou de l’imprégnation alcoolique.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Compétitions sportives lucratives, sports extrêmes ou dangereux",
-      "description": "! Pour les garanties PTIA, Incapacité et Invalidité : la pratique de compétitions sportives dans un but lucratif, de certains sports extrêmes ou dangereux. Le document ne dresse pas la liste des sports concernés.",
-      "applies_to": "Garanties PTIA, Incapacité et Invalidité",
-      "page": 1
-    }
-  ],
-  "deductibles": {
-    "standard": "Application d’une franchise dont la durée est choisie par l’assuré pendant laquelle les IJ ne sont pas versées. Dans tous les cas, la franchise est de 90 jours en cas d’affection psychique.",
-    "variable": "La durée de la franchise est choisie par l’assuré ; le document n’en donne ni les valeurs possibles, ni le minimum, ni le maximum.",
-    "per_coverage": {
-      "Indemnités journalières (arrêt de travail)": "franchise dont la durée est choisie par l’assuré, pendant laquelle les IJ ne sont pas versées",
-      "Affection psychique": "franchise de 90 jours dans tous les cas"
-    },
-    "page": 1
+ "schema_version": "1.0",
+ "prompt_version": "1.1",
+ "country": "fr",
+ "insurer_slug": "gan",
+ "insurer_name": "Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group",
+ "product_name": "Gan Solutions Prévoyance",
+ "branch": "prevoyance",
+ "branch_code": null,
+ "document_type": "ipid",
+ "language": "fr",
+ "target_audience": null,
+ "target_audience_note": "Le document ne désigne pas de catégorie de public. Il indique : « Ce produit d’assurance de groupe est destiné à garantir le maintien de revenus aux adhérents au(x) contrat(s) souscrit(s) par l’association DEMAIN » et précise que « Les adhérents ayant le statut de Travailleurs Non Salariés (TNS) bénéficient du dispositif fiscal de la loi Madelin pour les garanties qui lui sont éligibles ». Le titre imprimé est « MULTIRISQUES PRÉVOYANCE INDIVIDUELLE ». Deux garanties sont « réservée[s] aux TNS et Exploitants agricoles », et une option vise « les professions médicales et paramédicales ».",
+ "reference": "3370-GSP07-032024 - PAO/GGVie",
+ "edition_date": "032024",
+ "product_family": "Gan Solutions Prévoyance",
+ "variant": null,
+ "is_extension": false,
+ "extends": null,
+ "superseded": null,
+ "source_url": "https://www.gan.fr/app/uploads/2024/11/032023-DIN_Gan-Solutions-Prevoyance.pdf",
+ "source_pdf": "gan-solutions-prevoyance-72382fe9.pdf",
+ "source_sha256": "b5cb3cf8dde2059271db0a2dd85638bba6a6a87da516d9cda621752434e53089",
+ "source_pages": 2,
+ "fetched_at": "2026-07-30",
+ "extraction_model": "claude-code-subagent:scale",
+ "summary": "Document d’information d’un produit d’assurance (DIPA/IPID) du produit Gan Solutions Prévoyance, un contrat d’assurance de groupe de prévoyance individuelle souscrit auprès de Groupama Gan Vie par l’association DEMAIN, avec Mutuaide Assistance pour les garanties d’assistance. Le contrat garantit le maintien de revenus en cas d’incapacité ou d’invalidité consécutive à une maladie ou un accident et protège les proches en cas de décès, l’indemnisation se faisant sans déduction des indemnités du régime obligatoire. Les garanties se répartissent entre garanties systématiques (symbole ✔) et garanties optionnelles (symbole •) : capital ou rente décès, décès accidentel, rente d’éducation, rente de conjoint, PTIA, capital maladies redoutées, allocation journalière d’hospitalisation, indemnités journalières d’arrêt de travail selon quatre formules, rentes ou capitaux d’invalidité, et services d’assistance. Le document résume également les exclusions et restrictions principales, les obligations, le paiement des cotisations et les conditions de résiliation.",
+ "definitions": [
+  {
+   "term": "Symboles ✔ et • (garanties systématiques / optionnelles)",
+   "definition": "Les garanties précédées d’une coche verte (symbole✔) sont accordées systématiquement dans le contrat. Celles précédées d’une puce (symbole •) sont optionnelles.",
+   "page": 1
   },
-  "waiting_periods": [
-    {
-      "coverage": "Arrêt de travail et invalidité pour maladie",
-      "duration": "3 mois",
-      "description": "Application d’un délai de carence de 3 mois à partir de la prise d’effet des garanties en cas d’arrêt de travail et invalidité pour maladie, pendant lequel les garanties ne s’appliquent pas.",
-      "page": 1
-    },
-    {
-      "coverage": "Arrêt de travail et invalidité - affections disco vertébrales",
-      "duration": "6 mois",
-      "description": "Ce délai est porté à 6 mois en cas d’affections disco vertébrales.",
-      "page": 1
-    },
-    {
-      "coverage": "Arrêt de travail et invalidité - affections psychiques",
-      "duration": "12 mois",
-      "description": "Ce délai est porté à 12 mois en cas d’affections psychiques.",
-      "page": 1
-    },
-    {
-      "coverage": "Arrêt de travail et invalidité - grossesse pathologique",
-      "duration": "9 mois",
-      "description": "Ce délai est porté à 9 mois en cas de grossesse pathologique.",
-      "page": 1
-    },
-    {
-      "coverage": "Capital maladies redoutées",
-      "duration": "6 mois",
-      "description": "Pour la garantie en cas de maladies redoutées, le délai est de 6 mois.",
-      "page": 1
-    }
-  ],
-  "obligations": [
-    {
-      "name": "Répondre exactement aux questions de l’assureur",
-      "description": "Répondre exactement aux questions posées par l’assureur, notamment dans la déclaration de souscription et le questionnaire médical.",
-      "timing": "À la souscription du contrat",
-      "sanction": "Sous peine de nullité du contrat ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Fournir les justificatifs",
-      "description": "Fournir tous documents justificatifs demandés par l’assureur.",
-      "timing": "À la souscription du contrat",
-      "sanction": "Sous peine de nullité du contrat ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Régler la cotisation",
-      "description": "Régler la cotisation indiquée au Certificat d’Adhésion.",
-      "timing": "À la souscription du contrat",
-      "sanction": "Sous peine de nullité du contrat ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Déclarer les circonstances nouvelles",
-      "description": "Déclarer toutes circonstances nouvelles, mentionnées au contrat, ayant pour conséquence de modifier les risques pris en charge (exercice d’un sport à risque, changement d’activité professionnelle, modification des conditions d’exercice de l’activité professionnelle, structure de la famille).",
-      "timing": "En cours d’adhésion",
-      "sanction": "Sous peine de nullité du contrat ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Déclarer le sinistre et fournir les pièces",
-      "description": "Déclarer tout sinistre de nature à mettre en jeu l’une des garanties dans les conditions et délais impartis et joindre tous documents nécessaires à l’appréciation du sinistre, tels que certificats médicaux, preuve de l’accident, justificatifs des revenus professionnels, attestation de paiement de prestations par le régime social de base.",
-      "timing": "En cas de sinistre",
-      "sanction": "Sous peine de nullité du contrat ou de non garantie",
-      "page": 2
-    },
-    {
-      "name": "Se soumettre à l’expertise médicale",
-      "description": "Se soumettre à toute expertise médicale jugée nécessaire.",
-      "timing": "En cas de sinistre",
-      "sanction": "Sous peine de nullité du contrat ou de non garantie",
-      "page": 2
-    }
-  ],
-  "claims_procedure": [
-    {
-      "step": "Déclaration du sinistre",
-      "description": "Déclarer tout sinistre de nature à mettre en jeu l’une des garanties dans les conditions et délais impartis.",
-      "deadline": "dans les conditions et délais impartis (le document ne chiffre pas le délai)",
-      "page": 2
-    },
-    {
-      "step": "Transmission des pièces justificatives",
-      "description": "Joindre tous documents nécessaires à l’appréciation du sinistre, tels que certificats médicaux, preuve de l’accident, justificatifs des revenus professionnels, attestation de paiement de prestations par le régime social de base.",
-      "deadline": null,
-      "page": 2
-    },
-    {
-      "step": "Expertise médicale",
-      "description": "Se soumettre à toute expertise médicale jugée nécessaire.",
-      "deadline": null,
-      "page": 2
-    }
-  ],
-  "duration_and_cancellation": {
-    "duration": "La souscription est conclue pour une période d’une année. L’adhésion au contrat et les garanties prennent effet à la date indiquée sur le certificat d’adhésion, sous réserve de l’acceptation du risque par l’assureur après étude du questionnaire de santé et du paiement de la 1ère cotisation.",
-    "tacit_renewal": true,
-    "notice_period": "au moins deux mois avant la date d’échéance principale du contrat",
-    "methods": [
-      "À la date d’échéance principale du contrat, en adressant une notification dans les formes prévues par l’article L 113-14 du Code des Assurances au moins deux mois avant cette date.",
-      "En cas de modification de votre situation personnelle ou professionnelle ayant une influence directe sur les risques garantis.",
-      "En cas de révision des cotisations, en adressant une lettre recommandée dans les 30 jours qui suivent la date de notification de la modification.",
-      "En cas de modification du contrat suite à une évolution réglementaire, dans le délai de 30 jours à compter de la proposition de modification du contrat par l’assureur.",
-      "Les cas et les modalités de résiliation sont indiqués à la Notice d’Information."
-    ],
-    "special_rights": [
-      "Elle se renouvelle automatiquement annuellement à la date anniversaire, sauf résiliation à l’échéance annuelle par l’une des parties dans les cas et conditions fixées au contrat.",
-      "Les garanties prennent fin aux dates indiquées sur le Certificat d’adhésion et en cas de résiliation de l’adhésion.",
-      "L’assureur ne peut plus résilier l’adhésion, à l’échéance annuelle, à l’expiration d’un délai de 2 ans à compter de sa prise d’effet, sauf en cas de non-paiement des cotisations ou de fausse déclaration.",
-      "L’adhésion cesse, en tout état de cause, à la date de résiliation du contrat souscrit avec l’Association DEMAIN. Dans ce cas, le contrat prévoit des conditions de maintien des garanties.",
-      "Limites d’âge : les garanties prennent fin la veille de l’échéance annuelle qui suit le 85ème anniversaire de l’assuré pour les garanties en cas de décès ; le 67ème anniversaire pour les garanties en cas de PTIA et de maladies redoutées ; le 75ème anniversaire pour la garantie allocation journalière en cas d’hospitalisation ; le 65ème ou le 67ème anniversaire suivant l’option souscrite à l’adhésion pour les garanties en cas d’arrêt de travail ou d’invalidité."
-    ],
-    "page": 2
+  {
+   "term": "PTIA",
+   "definition": "Perte Totale et Irréversible d’Autonomie. En cas de PTIA, le capital prévu en cas de décès est versé à l’assuré lui-même.",
+   "page": 1
   },
-  "prescription_period": null,
-  "premium": {
-    "notes": [
-      "Les cotisations sont payables d’avance annuellement, à la date indiquée dans le contrat, auprès de l’assureur ou de son représentant dans les dix jours à compter de l’échéance.",
-      "Un paiement fractionné peut toutefois être accordé au choix (semestriel, trimestriel ou mensuel).",
-      "Les modalités de paiement sont convenues avec l’assureur.",
-      "Régler la cotisation indiquée au Certificat d’Adhésion.",
-      "En cas d’arrêt de travail ou d’IPT, l’assureur prend en charge le paiement des cotisations.",
-      "Une révision des cotisations est possible : elle ouvre un droit de résiliation par lettre recommandée dans les 30 jours qui suivent la date de notification de la modification.",
-      "Les adhérents ayant le statut de Travailleurs Non Salariés (TNS) bénéficient du dispositif fiscal de la loi Madelin pour les garanties qui lui sont éligibles."
-    ],
-    "indexation": null,
-    "page": 2
+  {
+   "term": "Capital maladies redoutées",
+   "definition": "En cas de maladie grave de l’assuré (cancer, accident vasculaire cérébrale, infarctus du myocarde), versement d’un capital.",
+   "page": 1
   },
-  "special_conditions": [
-    {
-      "name": "Portée du document",
-      "description": "Ce document présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez une information complète sur ce produit dans la documentation précontractuelle et contractuelle.",
-      "page": 1
-    },
-    {
-      "name": "Co-assureurs / porteurs de risque",
-      "description": "Deux compagnies sont nommées en tête du document : Groupama Gan Vie, société anonyme au capital de 1 371 100 605 euros - 340 427 616 RCS Paris - APE : 6511Z - Siège social : 8-10, rue d’Astorg 75008 Paris ; et Mutuaide Assistance (filiale spécialisée du groupe Groupama), société anonyme au capital de 13 401 270 euros - RCS Bobigny 383 974 086 - Siège social : 126 rue de la Piazza - CS 20010 - 93196 Noisy-le-Grand Cedex. Entreprises régies par le Code des assurances et soumises à l’Autorité de Contrôle Prudentiel et de Résolution (ACPR) 4 place de Budapest CS 92459 - 75436 Paris.",
-      "page": 1
-    },
-    {
-      "name": "Souscripteur du contrat de groupe",
-      "description": "Le contrat est souscrit par l’association DEMAIN ; les assurés y adhèrent. L’adhésion cesse à la date de résiliation du contrat souscrit avec l’Association DEMAIN, le contrat prévoyant alors des conditions de maintien des garanties.",
-      "page": 1
-    },
-    {
-      "name": "Restriction - limitation à 365 jours pour les affections disco vertébrales ou psychiques",
-      "description": "Les durées de 1 095 jours et 730 jours sont limitées à 365 jours en cas d’affections disco vertébrales ou psychiques. Les extensions optionnelles « Sécurité dos » et « Sécurité dos et psy » suppriment cette limitation.",
-      "page": 1
-    },
-    {
-      "name": "Restriction - appréciation des durées maximales sur la durée totale de l’adhésion",
-      "description": "Les durées maximales de versement en cas d’affections disco vertébrales et/ou psychiques s’apprécient sur la durée totale de l’adhésion même s’il existe plusieurs périodes d’incapacité dues à des affections disco vertébrales et/ou psychiques distinctes.",
-      "page": 1
-    },
-    {
-      "name": "Restriction - temps partiel thérapeutique",
-      "description": "Temps partiel thérapeutique : la prestation est réduite en fonction du taux de reprise d’activité.",
-      "page": 1
-    },
-    {
-      "name": "Prise d’effet des garanties",
-      "description": "L’adhésion au contrat et les garanties prennent effet à la date indiquée sur le certificat d’adhésion, sous réserve de l’acceptation du risque par l’assureur après étude du questionnaire de santé et du paiement de la 1ère cotisation.",
-      "page": 2
-    }
+  {
+   "term": "IJ « classique »",
+   "definition": "Indemnités journalières qui ont toujours le même montant (proposée quelle que soit la cause de l’arrêt de travail ou en cas d’accident uniquement). Durée maximale de versement : 1 095 jours.",
+   "page": 1
+  },
+  {
+   "term": "IJ « modulable »",
+   "definition": "Indemnités journalières dont le montant s’adapte à celui des IJ versées par le régime social de base, suivant 3 paliers. Durée maximale de versement : 1 095 jours.",
+   "page": 1
+  }
+ ],
+ "coverages": [
+  {
+   "name": "Décès - versement d’un capital ou d’une rente aux personnes désignées",
+   "description": "✔ En cas de décès : versement d’un capital ou d’une rente aux personnes désignées. L’assuré choisit, sous réserve d’avoir satisfait aux conditions d’adhésion, de s’assurer pour l’une ou plusieurs des situations suivantes : décès, arrêt de travail, invalidité, consécutifs à un accident ou à une maladie.",
+   "is_optional": false,
+   "territorial_scope": "Garantie Décès : dans le monde entier.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Sous réserve d’avoir satisfait aux conditions d’adhésion.",
+    "Les garanties prennent fin la veille de l’échéance annuelle qui suit le 85ème anniversaire de l’assuré pour les garanties en cas de décès."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Décès accidentel - versement d’un capital ou d’une rente",
+   "description": "• Versement d’un capital ou d’une rente en cas de décès accidentel.",
+   "is_optional": true,
+   "territorial_scope": "Garantie Décès : dans le monde entier.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Rente d’éducation",
+   "description": "• Versement d’une rente d’éducation aux enfants désignés au certificat d’adhésion.",
+   "is_optional": true,
+   "territorial_scope": "Garantie Décès : dans le monde entier.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Rente viagère de conjoint",
+   "description": "• Versement d’une rente viagère à son conjoint.",
+   "is_optional": true,
+   "territorial_scope": "Garantie Décès : dans le monde entier.",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Perte Totale et Irréversible d’Autonomie (PTIA)",
+   "description": "En cas de Perte Totale et Irréversible d’Autonomie (PTIA), le capital prévu en cas de décès est versé à l’assuré lui-même.",
+   "is_optional": null,
+   "territorial_scope": null,
+   "limits": "le capital prévu en cas de décès",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Les garanties prennent fin la veille de l’échéance annuelle qui suit le 67ème anniversaire de l’assuré pour les garanties en cas de PTIA et de maladies redoutées."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Capital maladies redoutées",
+   "description": "Capital maladies redoutées : en cas de maladie grave de l’assuré (cancer, accident vasculaire cérébrale, infarctus du myocarde), versement d’un capital.",
+   "is_optional": null,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Pour la garantie en cas de maladies redoutées, le délai de carence est de 6 mois.",
+    "Les garanties prennent fin la veille de l’échéance annuelle qui suit le 67ème anniversaire de l’assuré pour les garanties en cas de PTIA et de maladies redoutées."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Allocation journalière d’hospitalisation",
+   "description": "• En cas d’hospitalisation : versement d’une allocation journalière d’hospitalisation.",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Les garanties prennent fin la veille de l’échéance annuelle qui suit le 75ème anniversaire de l’assuré pour la garantie allocation journalière en cas d’hospitalisation."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Arrêt de travail - IJ « classique »",
+   "description": "• IJ « classique » qui ont toujours le même montant (proposée quelle que soit la cause de l’arrêt de travail ou en cas d’accident uniquement).",
+   "is_optional": true,
+   "territorial_scope": "Garanties Arrêt de travail et Invalidité : dans le monde entier à l’exception des pays classés parmi les « pays formellement déconseillés » ou les « pays déconseillés sauf raisons professionnelles impératives » au moment du séjour et dont la liste est diffusée par le Ministère des Affaires Etrangères de la République Française.",
+   "limits": "Durée maximale de versement : 1 095 jours.",
+   "sub_limits": [
+    "Les durées de 1 095 jours et 730 jours sont limitées à 365 jours en cas d’affections disco vertébrales ou psychiques."
+   ],
+   "deductible": "Application d’une franchise dont la durée est choisie par l’assuré pendant laquelle les IJ ne sont pas versées. Dans tous les cas, la franchise est de 90 jours en cas d’affection psychique.",
+   "conditions": [
+    "Délai de carence de 3 mois à partir de la prise d’effet des garanties en cas d’arrêt de travail pour maladie (6 mois en cas d’affections disco vertébrales, 12 mois en cas d’affections psychiques, 9 mois en cas de grossesse pathologique).",
+    "Les garanties prennent fin la veille de l’échéance annuelle qui suit le 65ème ou le 67ème anniversaire de l’assuré suivant l’option souscrite à l’adhésion."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Arrêt de travail - IJ « modulable »",
+   "description": "• IJ « modulable » dont le montant s’adapte à celui des IJ versées par le régime social de base, suivant 3 paliers.",
+   "is_optional": true,
+   "territorial_scope": "Garanties Arrêt de travail et Invalidité : dans le monde entier à l’exception des pays classés parmi les « pays formellement déconseillés » ou les « pays déconseillés sauf raisons professionnelles impératives » au moment du séjour et dont la liste est diffusée par le Ministère des Affaires Etrangères de la République Française.",
+   "limits": "Durée maximale de versement : 1 095 jours.",
+   "sub_limits": [
+    "Les durées de 1 095 jours et 730 jours sont limitées à 365 jours en cas d’affections disco vertébrales ou psychiques."
+   ],
+   "deductible": "Application d’une franchise dont la durée est choisie par l’assuré pendant laquelle les IJ ne sont pas versées. Dans tous les cas, la franchise est de 90 jours en cas d’affection psychique.",
+   "conditions": [
+    "Délai de carence de 3 mois à partir de la prise d’effet des garanties en cas d’arrêt de travail pour maladie (6 mois en cas d’affections disco vertébrales, 12 mois en cas d’affections psychiques, 9 mois en cas de grossesse pathologique)."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Arrêt de travail - IJ de remboursement des frais professionnels",
+   "description": "• IJ de remboursement des frais professionnels permettant de financer les frais professionnels fixes (réservée aux TNS et Exploitants agricoles).",
+   "is_optional": true,
+   "territorial_scope": "Garanties Arrêt de travail et Invalidité : dans le monde entier à l’exception des pays classés parmi les « pays formellement déconseillés » ou les « pays déconseillés sauf raisons professionnelles impératives » au moment du séjour et dont la liste est diffusée par le Ministère des Affaires Etrangères de la République Française.",
+   "limits": "Durée de versement 365 jours ou 730 jours.",
+   "sub_limits": [
+    "Les durées de 1 095 jours et 730 jours sont limitées à 365 jours en cas d’affections disco vertébrales ou psychiques."
+   ],
+   "deductible": "Application d’une franchise dont la durée est choisie par l’assuré pendant laquelle les IJ ne sont pas versées. Dans tous les cas, la franchise est de 90 jours en cas d’affection psychique.",
+   "conditions": [
+    "Réservée aux TNS et Exploitants agricoles."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Arrêt de travail - IJ de remboursement des frais de remplacement",
+   "description": "• IJ de remboursement des frais de remplacement, permettant de financer la rémunération d’un remplaçant (réservée aux TNS et Exploitants agricoles) (proposée quelle que soit la cause de l’arrêt de travail ou en cas d’accident uniquement).",
+   "is_optional": true,
+   "territorial_scope": "Garanties Arrêt de travail et Invalidité : dans le monde entier à l’exception des pays classés parmi les « pays formellement déconseillés » ou les « pays déconseillés sauf raisons professionnelles impératives » au moment du séjour et dont la liste est diffusée par le Ministère des Affaires Etrangères de la République Française.",
+   "limits": "Durée de versement 180 jours.",
+   "sub_limits": [],
+   "deductible": "Application d’une franchise dont la durée est choisie par l’assuré pendant laquelle les IJ ne sont pas versées. Dans tous les cas, la franchise est de 90 jours en cas d’affection psychique.",
+   "conditions": [
+    "Réservée aux TNS et Exploitants agricoles."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Extension Sécurité dos",
+   "description": "• Extension Sécurité dos : suppression de la limitation à 365 jours pour les affections disco vertébrales.",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Extension Sécurité dos et psy",
+   "description": "• Extension Sécurité dos et psy : suppression de la limitation à 365 jours pour les affections disco vertébrales et psychiques.",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Invalidité permanente totale (IPT) ou partielle (IPP) - rente mensuelle ou capital",
+   "description": "• Versement d’une rente mensuelle ou d’un capital en fonction du taux d’invalidité résultant de la combinaison des taux d’invalidité professionnelle et fonctionnelle et dans la proportion de ce taux divisé par 66, si ce taux d’invalidité est ≥ à 15 % ou 33 % (au choix de l’assuré) en cas d’accident ou de maladie. La prestation, capital ou rente, est totale à partir du taux résultant de la combinaison des taux d’invalidité professionnelle et fonctionnelle ≥ à 66 %.",
+   "is_optional": true,
+   "territorial_scope": "Garanties Arrêt de travail et Invalidité : dans le monde entier à l’exception des pays classés parmi les « pays formellement déconseillés » ou les « pays déconseillés sauf raisons professionnelles impératives » au moment du séjour et dont la liste est diffusée par le Ministère des Affaires Etrangères de la République Française.",
+   "limits": "dans la proportion de ce taux divisé par 66 ; prestation totale à partir d’un taux combiné ≥ à 66 %",
+   "sub_limits": [
+    "seuil de déclenchement : taux d’invalidité ≥ à 15 % ou 33 % (au choix de l’assuré)"
+   ],
+   "deductible": null,
+   "conditions": [
+    "Délai de carence de 3 mois à partir de la prise d’effet des garanties en cas d’invalidité pour maladie (6 mois en cas d’affections disco vertébrales, 12 mois en cas d’affections psychiques, 9 mois en cas de grossesse pathologique).",
+    "Temps partiel thérapeutique : la prestation est réduite en fonction du taux de reprise d’activité.",
+    "Les garanties prennent fin la veille de l’échéance annuelle qui suit le 65ème ou le 67ème anniversaire de l’assuré suivant l’option souscrite à l’adhésion."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Invalidité - IPP professionnelle des professions médicales et paramédicales",
+   "description": "• Versement d’une rente mensuelle ou d’un capital en cas d’accident ou de maladie, en fonction du taux d’IPP professionnelle ≥ à 15 % pour les professions médicales et paramédicales.",
+   "is_optional": true,
+   "territorial_scope": "Garanties Arrêt de travail et Invalidité : dans le monde entier à l’exception des pays classés parmi les « pays formellement déconseillés » ou les « pays déconseillés sauf raisons professionnelles impératives » au moment du séjour et dont la liste est diffusée par le Ministère des Affaires Etrangères de la République Française.",
+   "limits": "taux d’IPP professionnelle ≥ à 15 %",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Réservée aux professions médicales et paramédicales."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Invalidité d’origine accidentelle uniquement (capital)",
+   "description": "• Le capital peut être proposé en cas d’invalidité d’origine accidentelle uniquement.",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Prise en charge des cotisations (exonération)",
+   "description": "En cas d’arrêt de travail ou d’IPT, l’assureur prend en charge le paiement des cotisations.",
+   "is_optional": null,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Services d’assistance",
+   "description": "✔ Pour l’ensemble des garanties, le contrat inclut des services d’assistance tels que l’aide ménagère à domicile en cas d’hospitalisation ou la garde des enfants de moins de 18 ans en cas de grève scolaire ou de maladie de la nourrice agréée. Ces garanties sont portées par Mutuaide Assistance, co-signataire du document.",
+   "is_optional": false,
+   "territorial_scope": "Garanties d’Assistance : accidents ou maladies survenus en France et dans les principautés d’Andorre et de Monaco, étendus à l’étranger pour les garanties d’assistance en déplacement.",
+   "limits": null,
+   "sub_limits": [
+    "aide ménagère à domicile en cas d’hospitalisation",
+    "garde des enfants de moins de 18 ans en cas de grève scolaire ou de maladie de la nourrice agréée"
+   ],
+   "deductible": null,
+   "conditions": [
+    "La liste est donnée à titre d’exemple (« des services d’assistance tels que … »)."
+   ],
+   "page": 1
+  },
+  {
+   "name": "Indemnisation sans déduction des indemnités du régime obligatoire",
+   "description": "L’indemnisation se fait sans déduction des indemnités du régime obligatoire.",
+   "is_optional": null,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Maladies ou accidents antérieurs faisant l’objet d’une exclusion particulière",
+   "description": "X Les conséquences des maladies ou accidents survenus avant la date de signature de la demande d’adhésion, expressément mentionnés sur le Certificat d’Adhésion et ayant fait l’objet d’une exclusion particulière.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Sinistres survenus hors période de validité du contrat",
+   "description": "X Les sinistres survenus en dehors de la période de validité du contrat.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Dividendes en cas d’option pour le dispositif fiscal Madelin",
+   "description": "X Les dividendes, si l’adhérent a opté pour le dispositif fiscal Madelin.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Remboursement des frais de santé",
+   "description": "X Le remboursement des frais de santé en complément du régime obligatoire.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Suicide au cours de la première année d’assurance",
+   "description": "! Pour la garantie décès : le suicide au cours de la première année d’assurance.",
+   "applies_to": "Décès - versement d’un capital ou d’une rente aux personnes désignées",
+   "page": 1
+  },
+  {
+   "name": "Faute ou comportement de l’assuré, stupéfiants, imprégnation alcoolique",
+   "description": "! Pour toutes les garanties : les conséquences d’une faute ou d’un comportement de l’assuré ayant causé la réalisation du risque, de l’usage de stupéfiant ou de l’imprégnation alcoolique.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Compétitions sportives lucratives, sports extrêmes ou dangereux",
+   "description": "! Pour les garanties PTIA, Incapacité et Invalidité : la pratique de compétitions sportives dans un but lucratif, de certains sports extrêmes ou dangereux. Le document ne dresse pas la liste des sports concernés.",
+   "applies_to": "Garanties PTIA, Incapacité et Invalidité",
+   "page": 1
+  }
+ ],
+ "deductibles": {
+  "standard": "Application d’une franchise dont la durée est choisie par l’assuré pendant laquelle les IJ ne sont pas versées. Dans tous les cas, la franchise est de 90 jours en cas d’affection psychique.",
+  "variable": "La durée de la franchise est choisie par l’assuré ; le document n’en donne ni les valeurs possibles, ni le minimum, ni le maximum.",
+  "per_coverage": {
+   "Indemnités journalières (arrêt de travail)": "franchise dont la durée est choisie par l’assuré, pendant laquelle les IJ ne sont pas versées",
+   "Affection psychique": "franchise de 90 jours dans tous les cas"
+  },
+  "page": 1
+ },
+ "waiting_periods": [
+  {
+   "coverage": "Arrêt de travail et invalidité pour maladie",
+   "duration": "3 mois",
+   "description": "Application d’un délai de carence de 3 mois à partir de la prise d’effet des garanties en cas d’arrêt de travail et invalidité pour maladie, pendant lequel les garanties ne s’appliquent pas.",
+   "page": 1
+  },
+  {
+   "coverage": "Arrêt de travail et invalidité - affections disco vertébrales",
+   "duration": "6 mois",
+   "description": "Ce délai est porté à 6 mois en cas d’affections disco vertébrales.",
+   "page": 1
+  },
+  {
+   "coverage": "Arrêt de travail et invalidité - affections psychiques",
+   "duration": "12 mois",
+   "description": "Ce délai est porté à 12 mois en cas d’affections psychiques.",
+   "page": 1
+  },
+  {
+   "coverage": "Arrêt de travail et invalidité - grossesse pathologique",
+   "duration": "9 mois",
+   "description": "Ce délai est porté à 9 mois en cas de grossesse pathologique.",
+   "page": 1
+  },
+  {
+   "coverage": "Capital maladies redoutées",
+   "duration": "6 mois",
+   "description": "Pour la garantie en cas de maladies redoutées, le délai est de 6 mois.",
+   "page": 1
+  }
+ ],
+ "obligations": [
+  {
+   "name": "Répondre exactement aux questions de l’assureur",
+   "description": "Répondre exactement aux questions posées par l’assureur, notamment dans la déclaration de souscription et le questionnaire médical.",
+   "timing": "À la souscription du contrat",
+   "sanction": "Sous peine de nullité du contrat ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Fournir les justificatifs",
+   "description": "Fournir tous documents justificatifs demandés par l’assureur.",
+   "timing": "À la souscription du contrat",
+   "sanction": "Sous peine de nullité du contrat ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Régler la cotisation",
+   "description": "Régler la cotisation indiquée au Certificat d’Adhésion.",
+   "timing": "À la souscription du contrat",
+   "sanction": "Sous peine de nullité du contrat ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Déclarer les circonstances nouvelles",
+   "description": "Déclarer toutes circonstances nouvelles, mentionnées au contrat, ayant pour conséquence de modifier les risques pris en charge (exercice d’un sport à risque, changement d’activité professionnelle, modification des conditions d’exercice de l’activité professionnelle, structure de la famille).",
+   "timing": "En cours d’adhésion",
+   "sanction": "Sous peine de nullité du contrat ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Déclarer le sinistre et fournir les pièces",
+   "description": "Déclarer tout sinistre de nature à mettre en jeu l’une des garanties dans les conditions et délais impartis et joindre tous documents nécessaires à l’appréciation du sinistre, tels que certificats médicaux, preuve de l’accident, justificatifs des revenus professionnels, attestation de paiement de prestations par le régime social de base.",
+   "timing": "En cas de sinistre",
+   "sanction": "Sous peine de nullité du contrat ou de non garantie",
+   "page": 2
+  },
+  {
+   "name": "Se soumettre à l’expertise médicale",
+   "description": "Se soumettre à toute expertise médicale jugée nécessaire.",
+   "timing": "En cas de sinistre",
+   "sanction": "Sous peine de nullité du contrat ou de non garantie",
+   "page": 2
+  }
+ ],
+ "claims_procedure": [
+  {
+   "step": "Déclaration du sinistre",
+   "description": "Déclarer tout sinistre de nature à mettre en jeu l’une des garanties dans les conditions et délais impartis.",
+   "deadline": "dans les conditions et délais impartis (le document ne chiffre pas le délai)",
+   "page": 2
+  },
+  {
+   "step": "Transmission des pièces justificatives",
+   "description": "Joindre tous documents nécessaires à l’appréciation du sinistre, tels que certificats médicaux, preuve de l’accident, justificatifs des revenus professionnels, attestation de paiement de prestations par le régime social de base.",
+   "deadline": null,
+   "page": 2
+  },
+  {
+   "step": "Expertise médicale",
+   "description": "Se soumettre à toute expertise médicale jugée nécessaire.",
+   "deadline": null,
+   "page": 2
+  }
+ ],
+ "duration_and_cancellation": {
+  "duration": "La souscription est conclue pour une période d’une année. L’adhésion au contrat et les garanties prennent effet à la date indiquée sur le certificat d’adhésion, sous réserve de l’acceptation du risque par l’assureur après étude du questionnaire de santé et du paiement de la 1ère cotisation.",
+  "tacit_renewal": true,
+  "notice_period": "au moins deux mois avant la date d’échéance principale du contrat",
+  "methods": [
+   "À la date d’échéance principale du contrat, en adressant une notification dans les formes prévues par l’article L 113-14 du Code des Assurances au moins deux mois avant cette date.",
+   "En cas de modification de votre situation personnelle ou professionnelle ayant une influence directe sur les risques garantis.",
+   "En cas de révision des cotisations, en adressant une lettre recommandée dans les 30 jours qui suivent la date de notification de la modification.",
+   "En cas de modification du contrat suite à une évolution réglementaire, dans le délai de 30 jours à compter de la proposition de modification du contrat par l’assureur.",
+   "Les cas et les modalités de résiliation sont indiqués à la Notice d’Information."
   ],
-  "key_quotes": [
-    {
-      "quote": "Document d’information d’un produit d’assurance",
-      "context": "En-tête imprimé : il s’agit bien d’un DIPA/IPID (le fichier source est nommé « DIN » par Gan)",
-      "page": 1
-    },
-    {
-      "quote": "Groupama Gan Vie, société anonyme au capital de 1 371 100 605 euros - 340 427 616 RCS Paris - APE : 6511Z - Siège social : 8-10, rue d’Astorg 75008 Paris",
-      "context": "Premier porteur de risque nommé",
-      "page": 1
-    },
-    {
-      "quote": "Mutuaide Assistance (filiale spécialisée du groupe Groupama), société anonyme au capital de 13 401 270 euros - RCS Bobigny 383 974 086",
-      "context": "Second co-signataire, pour l’assistance",
-      "page": 1
-    },
-    {
-      "quote": "Produit : Gan Solutions Prévoyance",
-      "context": "Nom du produit tel qu’imprimé",
-      "page": 1
-    },
-    {
-      "quote": "Ce document présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins \net demandes spécifiques. Vous trouverez une information complète sur ce produit dans la documentation précontractuelle et \ncontractuelle.",
-      "context": "Portée du document : résumé, non contractuel",
-      "page": 1
-    },
-    {
-      "quote": "Ce produit d’assurance de groupe est destiné à garantir le maintien de revenus aux adhérents au(x) contrat(s) souscrit(s) par \nl’association DEMAIN, en cas d’incapacité ou d’invalidité à la suite d’une maladie ou d’un accident et protège financièrement les \nproches en cas de décès.",
-      "context": "Objet du contrat et souscripteur (association DEMAIN)",
-      "page": 1
-    },
-    {
-      "quote": "Les adhérents ayant le \nstatut de Travailleurs Non Salariés (TNS) bénéficient du dispositif fiscal de la loi Madelin pour les garanties qui lui sont éligibles.",
-      "context": "Régime fiscal Madelin pour les TNS",
-      "page": 1
-    },
-    {
-      "quote": "Les garanties précédées d’une coche verte (symbole✔) sont accordées systématiquement dans le contrat. Celles précédées \nd’une puce (symbole •) sont optionnelles.",
-      "context": "Légende distinguant garanties systématiques et optionnelles",
-      "page": 1
-    },
-    {
-      "quote": "En cas de Perte Totale et Irréversible d’Autonomie (PTIA), le capital prévu \nen cas de décès est versé à l’assuré lui-même.",
-      "context": "Garantie PTIA",
-      "page": 1
-    },
-    {
-      "quote": "Capital maladies redoutées : en cas de maladie grave de l’assuré (can-\ncer, accident vasculaire cérébrale, infarctus du myocarde), versement d’un \ncapital.",
-      "context": "Garantie maladies redoutées et maladies visées",
-      "page": 1
-    },
-    {
-      "quote": "Versement d’une rente mensuelle ou d’un capital en fonction du taux \nd’invalidité résultant de la combinaison des taux d’invalidité profession-\nnelle et fonctionnelle et dans la proportion de ce taux divisé par 66, si ce \ntaux d’invalidité est ≥ à 15 % ou 33 %",
-      "context": "Mécanique de la rente d’invalidité et seuils de déclenchement",
-      "page": 1
-    },
-    {
-      "quote": "La prestation, capital ou rente, est totale à partir du taux résultant de la \ncombinaison des taux d’invalidité professionnelle et fonctionnelle ≥ à 66 %.",
-      "context": "Seuil d’invalidité totale",
-      "page": 1
-    },
-    {
-      "quote": "Pour la garantie décès : le suicide au cours de la première année d’as-\nsurance.",
-      "context": "Exclusion suicide première année",
-      "page": 1
-    },
-    {
-      "quote": "Pour toutes les garanties : les conséquences d’une faute ou d’un com-\nportement de l’assuré ayant causé la réalisation du risque, de l’usage de \nstupéfiant ou de l’imprégnation alcoolique.",
-      "context": "Exclusion générale : faute, stupéfiants, alcool",
-      "page": 1
-    },
-    {
-      "quote": "Pour les garanties PTIA, Incapacité et Invalidité : la pratique de com-\npétitions sportives dans un but lucratif, de certains sports extrêmes ou \ndangereux.",
-      "context": "Exclusion sports",
-      "page": 1
-    },
-    {
-      "quote": "Application d’un délai de carence de 3 mois à partir de la prise d’effet \ndes garanties en cas d’arrêt de travail et invalidité pour maladie, pendant \nlequel les garanties ne s’appliquent pas. Ce délai est porté à 6 mois en \ncas d’affections disco vertébrales, 12 mois en cas d’affections psychiques \net 9 mois en cas de grossesse pathologique. Pour la garantie en cas de \nmaladies redoutées, le délai est de 6 mois.",
-      "context": "Délais de carence par type d’affection",
-      "page": 1
-    },
-    {
-      "quote": "Application d’une franchise dont la durée est choisie par l’assuré pen-\ndant laquelle les IJ ne sont pas versées. Dans tous les cas, la franchise est \nde 90 jours en cas d’affection psychique.",
-      "context": "Franchise en jours sur les indemnités journalières",
-      "page": 1
-    },
-    {
-      "quote": "Le contrat inclut des services d’assistance tels que l’aide ménagère à \ndomicile en cas d’hospitalisation ou la garde des enfants de moins de 18 \nans en cas de grève scolaire ou de maladie de la nourrice agréée.",
-      "context": "Services d’assistance inclus",
-      "page": 1
-    },
-    {
-      "quote": "Garantie Décès : dans le monde entier.",
-      "context": "Portée territoriale de la garantie décès",
-      "page": 2
-    },
-    {
-      "quote": "Garanties Arrêt de travail et Invalidité : dans le monde entier à l’exception des pays classés parmi les « pays formellement déconseillés » ou les « pays \ndéconseillés sauf raisons professionnelles impératives » au moment du séjour et dont la liste est diffusée par le Ministère des Affaires Etrangères de la \nRépublique Française.",
-      "context": "Portée territoriale des garanties arrêt de travail et invalidité",
-      "page": 2
-    },
-    {
-      "quote": "Garanties d’Assistance : accidents ou maladies survenus en France et dans les principautés d’Andorre et de Monaco, étendus à l’étranger pour les garan-\nties d’assistance en déplacement.",
-      "context": "Portée territoriale des garanties d’assistance",
-      "page": 2
-    },
-    {
-      "quote": "Sous peine de nullité du contrat ou de non garantie :",
-      "context": "Sanction attachée aux obligations de l’assuré",
-      "page": 2
-    },
-    {
-      "quote": "Les cotisations sont payables d’avance annuellement, à la date indiquée dans le contrat, auprès de l’assureur ou de son représentant dans les dix jours à \ncompter de l’échéance.",
-      "context": "Modalités de paiement des cotisations",
-      "page": 2
-    },
-    {
-      "quote": "La souscription est conclue pour une période d’une année. Elle se renouvelle automatiquement annuellement à la date anniversaire, sauf résiliation à \nl’échéance annuelle par l’une des parties dans les cas et conditions fixées au contrat.",
-      "context": "Durée annuelle et reconduction automatique",
-      "page": 2
-    },
-    {
-      "quote": "les garanties prennent fin la veille de l’échéance annuelle qui suit les limites d’âges suivantes : \n- le 85ème anniversaire de l’assuré pour les garanties en cas de décès\n- le 67ème anniversaire de l’assuré pour les garanties en cas de PTIA et de maladies redoutées\n- le 75ème anniversaire de l’assuré pour la garantie allocation journalière en cas d’hospitalisation\n- le 65ème ou le 67ème anniversaire de l’assuré suivant l’option souscrite à l’adhésion pour les garanties en cas d’arrêt de travail ou d’invalidité.",
-      "context": "Limites d’âge par garantie",
-      "page": 2
-    },
-    {
-      "quote": "Vous pouvez mettre fin au contrat : \n− à la date d’échéance principale du contrat, en nous adressant une notification dans les formes prévues par l’article L 113-14 du Code des Assurances au \nmoins deux mois avant cette date,",
-      "context": "Résiliation à l’échéance principale",
-      "page": 2
-    },
-    {
-      "quote": "3370-GSP07-032024 - PAO/GGVie",
-      "context": "Code de pied de page (seule datation imprimée)",
-      "page": 2
-    }
+  "special_rights": [
+   "Elle se renouvelle automatiquement annuellement à la date anniversaire, sauf résiliation à l’échéance annuelle par l’une des parties dans les cas et conditions fixées au contrat.",
+   "Les garanties prennent fin aux dates indiquées sur le Certificat d’adhésion et en cas de résiliation de l’adhésion.",
+   "L’assureur ne peut plus résilier l’adhésion, à l’échéance annuelle, à l’expiration d’un délai de 2 ans à compter de sa prise d’effet, sauf en cas de non-paiement des cotisations ou de fausse déclaration.",
+   "L’adhésion cesse, en tout état de cause, à la date de résiliation du contrat souscrit avec l’Association DEMAIN. Dans ce cas, le contrat prévoit des conditions de maintien des garanties.",
+   "Limites d’âge : les garanties prennent fin la veille de l’échéance annuelle qui suit le 85ème anniversaire de l’assuré pour les garanties en cas de décès ; le 67ème anniversaire pour les garanties en cas de PTIA et de maladies redoutées ; le 75ème anniversaire pour la garantie allocation journalière en cas d’hospitalisation ; le 65ème ou le 67ème anniversaire suivant l’option souscrite à l’adhésion pour les garanties en cas d’arrêt de travail ou d’invalidité."
   ],
-  "gaps": [
-    "Type de document : le fichier source est nommé « DIN_Gan-Solutions-Prevoyance » mais l’en-tête imprimé est « Document d’information d’un produit d’assurance ». Il s’agit donc bien d’un DIPA/IPID au sens de la DDA ; la dénomination « DIN » n’est qu’une convention de nommage de fichier chez Gan. document_type = ipid, conforme à l’en-tête.",
-    "Porteur de risque : le document ne mentionne jamais « Gan Assurances ». Il nomme deux compagnies : Groupama Gan Vie (340 427 616 RCS Paris, APE 6511Z) et Mutuaide Assistance (RCS Bobigny 383 974 086), pour l’assistance. insurer_name a donc été renseigné avec l’assureur principal imprimé (Groupama Gan Vie) alors que les métadonnées de la tâche indiquaient Gan Assurances ; insurer_slug reste « gan » (clé de publication). Le pied de page ne répète que Groupama Gan Vie et Mutuaide Assistance.",
-    "Divergence de date entre l’URL et le document : l’URL source est « 032023-DIN_Gan-Solutions-Prevoyance.pdf » (donc 03/2023), alors que le code imprimé en pied de page est « 3370-GSP07-032024 - PAO/GGVie » (donc 032024). Le document l’emporte : edition_date = 032024. Aucune date n’est écrite en clair dans le document ; le fragment « 032024 » est repris tel qu’imprimé et le document ne dit pas qu’il signifie mars 2024.",
-    "Ordre de lecture du PDF : le document est mis en page sur deux colonnes et le texte extrait est entrelacé. Trois blocs qui appartiennent visiblement à la colonne « Qu’est-ce qui est assuré ? » apparaissent APRÈS la colonne des exclusions dans le texte linéarisé : la phrase sur la prestation totale à ≥ 66 %, la prise en charge des cotisations en cas d’arrêt de travail ou d’IPT, et le bloc « Pour l’ensemble des garanties / services d’assistance ». Ils ont été rattachés aux garanties, pas aux exclusions. Toutes ces lignes sont citées page 1, page réelle où elles figurent.",
-    "Marqueurs ✔/• : la ligne « Les durées de 1 095 jours et 730 jours sont limitées à 365 jours… » porte une puce « • » (marqueur d’option selon la légende) alors qu’il s’agit d’une restriction et non d’une garantie optionnelle. Elle a été traitée comme une restriction (special_conditions et sub_limits), pas comme une garantie. La divergence est signalée ici plutôt que corrigée.",
-    "is_optional non déterminable pour quatre garanties : PTIA, capital maladies redoutées, prise en charge des cotisations et indemnisation sans déduction du régime obligatoire ne portent ni coche verte ni puce dans le texte extrait ; is_optional a été laissé à null pour elles plutôt que déduit.",
-    "Aucun montant, plafond ou taux de garantie n’est chiffré : le document ne donne ni capital décès, ni montant d’IJ, ni montant de rente, ni cotisation. Les seules valeurs chiffrées sont des durées (1 095 / 730 / 365 / 180 jours), des délais de carence (3, 6, 9, 12 mois), la franchise de 90 jours en affection psychique, les seuils d’invalidité (15 %, 33 %, 66 %) et les limites d’âge (65, 67, 75, 85 ans).",
-    "La franchise est exprimée en durée, pas en argent, et sa valeur est « choisie par l’assuré » sans fourchette indiquée. deductibles.variable le signale.",
-    "Le document ne mentionne aucun délai de prescription : prescription_period est null.",
-    "La liste des services d’assistance est explicitement illustrative (« des services d’assistance tels que… ») ; le détail, les plafonds et les conditions d’assistance ne figurent pas.",
-    "La liste des « certains sports extrêmes ou dangereux » exclus n’est pas donnée.",
-    "Aucun public visé n’est explicitement énoncé : target_audience est null. Le contrat s’adresse aux adhérents de l’association DEMAIN, avec des garanties réservées aux TNS et Exploitants agricoles et une option pour les professions médicales et paramédicales ; le titre imprime « MULTIRISQUES PRÉVOYANCE INDIVIDUELLE ». Ces éléments sont consignés dans target_audience_note sans être convertis en catégorie.",
-    "Le document renvoie à la Notice d’Information pour les cas et modalités de résiliation, et à « la documentation précontractuelle et contractuelle » pour l’information complète : ni l’une ni l’autre n’est fournie.",
-    "Coquilles du document conservées telles quelles : « accident vasculaire cérébrale » (accord), « frais professionnels fixes  » (double espace), « Ministère des Affaires Etrangères » (sans accent sur Etrangères)."
-  ]
+  "page": 2
+ },
+ "prescription_period": null,
+ "premium": {
+  "notes": [
+   "Les cotisations sont payables d’avance annuellement, à la date indiquée dans le contrat, auprès de l’assureur ou de son représentant dans les dix jours à compter de l’échéance.",
+   "Un paiement fractionné peut toutefois être accordé au choix (semestriel, trimestriel ou mensuel).",
+   "Les modalités de paiement sont convenues avec l’assureur.",
+   "Régler la cotisation indiquée au Certificat d’Adhésion.",
+   "En cas d’arrêt de travail ou d’IPT, l’assureur prend en charge le paiement des cotisations.",
+   "Une révision des cotisations est possible : elle ouvre un droit de résiliation par lettre recommandée dans les 30 jours qui suivent la date de notification de la modification.",
+   "Les adhérents ayant le statut de Travailleurs Non Salariés (TNS) bénéficient du dispositif fiscal de la loi Madelin pour les garanties qui lui sont éligibles."
+  ],
+  "indexation": null,
+  "page": 2
+ },
+ "special_conditions": [
+  {
+   "name": "Portée du document",
+   "description": "Ce document présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez une information complète sur ce produit dans la documentation précontractuelle et contractuelle.",
+   "page": 1
+  },
+  {
+   "name": "Co-assureurs / porteurs de risque",
+   "description": "Deux compagnies sont nommées en tête du document : Groupama Gan Vie, société anonyme au capital de 1 371 100 605 euros - 340 427 616 RCS Paris - APE : 6511Z - Siège social : 8-10, rue d’Astorg 75008 Paris ; et Mutuaide Assistance (filiale spécialisée du groupe Groupama), société anonyme au capital de 13 401 270 euros - RCS Bobigny 383 974 086 - Siège social : 126 rue de la Piazza - CS 20010 - 93196 Noisy-le-Grand Cedex. Entreprises régies par le Code des assurances et soumises à l’Autorité de Contrôle Prudentiel et de Résolution (ACPR) 4 place de Budapest CS 92459 - 75436 Paris.",
+   "page": 1
+  },
+  {
+   "name": "Souscripteur du contrat de groupe",
+   "description": "Le contrat est souscrit par l’association DEMAIN ; les assurés y adhèrent. L’adhésion cesse à la date de résiliation du contrat souscrit avec l’Association DEMAIN, le contrat prévoyant alors des conditions de maintien des garanties.",
+   "page": 1
+  },
+  {
+   "name": "Restriction - limitation à 365 jours pour les affections disco vertébrales ou psychiques",
+   "description": "Les durées de 1 095 jours et 730 jours sont limitées à 365 jours en cas d’affections disco vertébrales ou psychiques. Les extensions optionnelles « Sécurité dos » et « Sécurité dos et psy » suppriment cette limitation.",
+   "page": 1
+  },
+  {
+   "name": "Restriction - appréciation des durées maximales sur la durée totale de l’adhésion",
+   "description": "Les durées maximales de versement en cas d’affections disco vertébrales et/ou psychiques s’apprécient sur la durée totale de l’adhésion même s’il existe plusieurs périodes d’incapacité dues à des affections disco vertébrales et/ou psychiques distinctes.",
+   "page": 1
+  },
+  {
+   "name": "Restriction - temps partiel thérapeutique",
+   "description": "Temps partiel thérapeutique : la prestation est réduite en fonction du taux de reprise d’activité.",
+   "page": 1
+  },
+  {
+   "name": "Prise d’effet des garanties",
+   "description": "L’adhésion au contrat et les garanties prennent effet à la date indiquée sur le certificat d’adhésion, sous réserve de l’acceptation du risque par l’assureur après étude du questionnaire de santé et du paiement de la 1ère cotisation.",
+   "page": 2
+  }
+ ],
+ "key_quotes": [
+  {
+   "quote": "Document d’information d’un produit d’assurance",
+   "context": "En-tête imprimé : il s’agit bien d’un DIPA/IPID (le fichier source est nommé « DIN » par Gan)",
+   "page": 1
+  },
+  {
+   "quote": "Groupama Gan Vie, société anonyme au capital de 1 371 100 605 euros - 340 427 616 RCS Paris - APE : 6511Z - Siège social : 8-10, rue d’Astorg 75008 Paris",
+   "context": "Premier porteur de risque nommé",
+   "page": 1
+  },
+  {
+   "quote": "Mutuaide Assistance (filiale spécialisée du groupe Groupama), société anonyme au capital de 13 401 270 euros - RCS Bobigny 383 974 086",
+   "context": "Second co-signataire, pour l’assistance",
+   "page": 1
+  },
+  {
+   "quote": "Produit : Gan Solutions Prévoyance",
+   "context": "Nom du produit tel qu’imprimé",
+   "page": 1
+  },
+  {
+   "quote": "Ce document présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins \net demandes spécifiques. Vous trouverez une information complète sur ce produit dans la documentation précontractuelle et \ncontractuelle.",
+   "context": "Portée du document : résumé, non contractuel",
+   "page": 1
+  },
+  {
+   "quote": "Ce produit d’assurance de groupe est destiné à garantir le maintien de revenus aux adhérents au(x) contrat(s) souscrit(s) par \nl’association DEMAIN, en cas d’incapacité ou d’invalidité à la suite d’une maladie ou d’un accident et protège financièrement les \nproches en cas de décès.",
+   "context": "Objet du contrat et souscripteur (association DEMAIN)",
+   "page": 1
+  },
+  {
+   "quote": "Les adhérents ayant le \nstatut de Travailleurs Non Salariés (TNS) bénéficient du dispositif fiscal de la loi Madelin pour les garanties qui lui sont éligibles.",
+   "context": "Régime fiscal Madelin pour les TNS",
+   "page": 1
+  },
+  {
+   "quote": "Les garanties précédées d’une coche verte (symbole✔) sont accordées systématiquement dans le contrat. Celles précédées \nd’une puce (symbole •) sont optionnelles.",
+   "context": "Légende distinguant garanties systématiques et optionnelles",
+   "page": 1
+  },
+  {
+   "quote": "En cas de Perte Totale et Irréversible d’Autonomie (PTIA), le capital prévu \nen cas de décès est versé à l’assuré lui-même.",
+   "context": "Garantie PTIA",
+   "page": 1
+  },
+  {
+   "quote": "Capital maladies redoutées : en cas de maladie grave de l’assuré (can-\ncer, accident vasculaire cérébrale, infarctus du myocarde), versement d’un \ncapital.",
+   "context": "Garantie maladies redoutées et maladies visées",
+   "page": 1
+  },
+  {
+   "quote": "Versement d’une rente mensuelle ou d’un capital en fonction du taux \nd’invalidité résultant de la combinaison des taux d’invalidité profession-\nnelle et fonctionnelle et dans la proportion de ce taux divisé par 66, si ce \ntaux d’invalidité est ≥ à 15 % ou 33 %",
+   "context": "Mécanique de la rente d’invalidité et seuils de déclenchement",
+   "page": 1
+  },
+  {
+   "quote": "La prestation, capital ou rente, est totale à partir du taux résultant de la \ncombinaison des taux d’invalidité professionnelle et fonctionnelle ≥ à 66 %.",
+   "context": "Seuil d’invalidité totale",
+   "page": 1
+  },
+  {
+   "quote": "Pour la garantie décès : le suicide au cours de la première année d’as-\nsurance.",
+   "context": "Exclusion suicide première année",
+   "page": 1
+  },
+  {
+   "quote": "Pour toutes les garanties : les conséquences d’une faute ou d’un com-\nportement de l’assuré ayant causé la réalisation du risque, de l’usage de \nstupéfiant ou de l’imprégnation alcoolique.",
+   "context": "Exclusion générale : faute, stupéfiants, alcool",
+   "page": 1
+  },
+  {
+   "quote": "Pour les garanties PTIA, Incapacité et Invalidité : la pratique de com-\npétitions sportives dans un but lucratif, de certains sports extrêmes ou \ndangereux.",
+   "context": "Exclusion sports",
+   "page": 1
+  },
+  {
+   "quote": "Application d’un délai de carence de 3 mois à partir de la prise d’effet \ndes garanties en cas d’arrêt de travail et invalidité pour maladie, pendant \nlequel les garanties ne s’appliquent pas. Ce délai est porté à 6 mois en \ncas d’affections disco vertébrales, 12 mois en cas d’affections psychiques \net 9 mois en cas de grossesse pathologique. Pour la garantie en cas de \nmaladies redoutées, le délai est de 6 mois.",
+   "context": "Délais de carence par type d’affection",
+   "page": 1
+  },
+  {
+   "quote": "Application d’une franchise dont la durée est choisie par l’assuré pen-\ndant laquelle les IJ ne sont pas versées. Dans tous les cas, la franchise est \nde 90 jours en cas d’affection psychique.",
+   "context": "Franchise en jours sur les indemnités journalières",
+   "page": 1
+  },
+  {
+   "quote": "Le contrat inclut des services d’assistance tels que l’aide ménagère à \ndomicile en cas d’hospitalisation ou la garde des enfants de moins de 18 \nans en cas de grève scolaire ou de maladie de la nourrice agréée.",
+   "context": "Services d’assistance inclus",
+   "page": 1
+  },
+  {
+   "quote": "Garantie Décès : dans le monde entier.",
+   "context": "Portée territoriale de la garantie décès",
+   "page": 2
+  },
+  {
+   "quote": "Garanties Arrêt de travail et Invalidité : dans le monde entier à l’exception des pays classés parmi les « pays formellement déconseillés » ou les « pays \ndéconseillés sauf raisons professionnelles impératives » au moment du séjour et dont la liste est diffusée par le Ministère des Affaires Etrangères de la \nRépublique Française.",
+   "context": "Portée territoriale des garanties arrêt de travail et invalidité",
+   "page": 2
+  },
+  {
+   "quote": "Garanties d’Assistance : accidents ou maladies survenus en France et dans les principautés d’Andorre et de Monaco, étendus à l’étranger pour les garan-\nties d’assistance en déplacement.",
+   "context": "Portée territoriale des garanties d’assistance",
+   "page": 2
+  },
+  {
+   "quote": "Sous peine de nullité du contrat ou de non garantie :",
+   "context": "Sanction attachée aux obligations de l’assuré",
+   "page": 2
+  },
+  {
+   "quote": "Les cotisations sont payables d’avance annuellement, à la date indiquée dans le contrat, auprès de l’assureur ou de son représentant dans les dix jours à \ncompter de l’échéance.",
+   "context": "Modalités de paiement des cotisations",
+   "page": 2
+  },
+  {
+   "quote": "La souscription est conclue pour une période d’une année. Elle se renouvelle automatiquement annuellement à la date anniversaire, sauf résiliation à \nl’échéance annuelle par l’une des parties dans les cas et conditions fixées au contrat.",
+   "context": "Durée annuelle et reconduction automatique",
+   "page": 2
+  },
+  {
+   "quote": "les garanties prennent fin la veille de l’échéance annuelle qui suit les limites d’âges suivantes : \n- le 85ème anniversaire de l’assuré pour les garanties en cas de décès\n- le 67ème anniversaire de l’assuré pour les garanties en cas de PTIA et de maladies redoutées\n- le 75ème anniversaire de l’assuré pour la garantie allocation journalière en cas d’hospitalisation\n- le 65ème ou le 67ème anniversaire de l’assuré suivant l’option souscrite à l’adhésion pour les garanties en cas d’arrêt de travail ou d’invalidité.",
+   "context": "Limites d’âge par garantie",
+   "page": 2
+  },
+  {
+   "quote": "Vous pouvez mettre fin au contrat : \n− à la date d’échéance principale du contrat, en nous adressant une notification dans les formes prévues par l’article L 113-14 du Code des Assurances au \nmoins deux mois avant cette date,",
+   "context": "Résiliation à l’échéance principale",
+   "page": 2
+  },
+  {
+   "quote": "3370-GSP07-032024 - PAO/GGVie",
+   "context": "Code de pied de page (seule datation imprimée)",
+   "page": 2
+  }
+ ],
+ "gaps": [
+  "Type de document : le fichier source est nommé « DIN_Gan-Solutions-Prevoyance » mais l’en-tête imprimé est « Document d’information d’un produit d’assurance ». Il s’agit donc bien d’un DIPA/IPID au sens de la DDA ; la dénomination « DIN » n’est qu’une convention de nommage de fichier chez Gan. document_type = ipid, conforme à l’en-tête.",
+  "Porteur de risque : le document ne mentionne jamais « Gan Assurances ». Il nomme deux compagnies : Groupama Gan Vie (340 427 616 RCS Paris, APE 6511Z) et Mutuaide Assistance (RCS Bobigny 383 974 086), pour l’assistance. insurer_name a donc été renseigné avec l’assureur principal imprimé (Groupama Gan Vie) alors que les métadonnées de la tâche indiquaient Gan Assurances ; insurer_slug reste « gan » (clé de publication). Le pied de page ne répète que Groupama Gan Vie et Mutuaide Assistance.",
+  "Divergence de date entre l’URL et le document : l’URL source est « 032023-DIN_Gan-Solutions-Prevoyance.pdf » (donc 03/2023), alors que le code imprimé en pied de page est « 3370-GSP07-032024 - PAO/GGVie » (donc 032024). Le document l’emporte : edition_date = 032024. Aucune date n’est écrite en clair dans le document ; le fragment « 032024 » est repris tel qu’imprimé et le document ne dit pas qu’il signifie mars 2024.",
+  "Ordre de lecture du PDF : le document est mis en page sur deux colonnes et le texte extrait est entrelacé. Trois blocs qui appartiennent visiblement à la colonne « Qu’est-ce qui est assuré ? » apparaissent APRÈS la colonne des exclusions dans le texte linéarisé : la phrase sur la prestation totale à ≥ 66 %, la prise en charge des cotisations en cas d’arrêt de travail ou d’IPT, et le bloc « Pour l’ensemble des garanties / services d’assistance ». Ils ont été rattachés aux garanties, pas aux exclusions. Toutes ces lignes sont citées page 1, page réelle où elles figurent.",
+  "Marqueurs ✔/• : la ligne « Les durées de 1 095 jours et 730 jours sont limitées à 365 jours… » porte une puce « • » (marqueur d’option selon la légende) alors qu’il s’agit d’une restriction et non d’une garantie optionnelle. Elle a été traitée comme une restriction (special_conditions et sub_limits), pas comme une garantie. La divergence est signalée ici plutôt que corrigée.",
+  "is_optional non déterminable pour quatre garanties : PTIA, capital maladies redoutées, prise en charge des cotisations et indemnisation sans déduction du régime obligatoire ne portent ni coche verte ni puce dans le texte extrait ; is_optional a été laissé à null pour elles plutôt que déduit.",
+  "Aucun montant, plafond ou taux de garantie n’est chiffré : le document ne donne ni capital décès, ni montant d’IJ, ni montant de rente, ni cotisation. Les seules valeurs chiffrées sont des durées (1 095 / 730 / 365 / 180 jours), des délais de carence (3, 6, 9, 12 mois), la franchise de 90 jours en affection psychique, les seuils d’invalidité (15 %, 33 %, 66 %) et les limites d’âge (65, 67, 75, 85 ans).",
+  "La franchise est exprimée en durée, pas en argent, et sa valeur est « choisie par l’assuré » sans fourchette indiquée. deductibles.variable le signale.",
+  "Le document ne mentionne aucun délai de prescription : prescription_period est null.",
+  "La liste des services d’assistance est explicitement illustrative (« des services d’assistance tels que… ») ; le détail, les plafonds et les conditions d’assistance ne figurent pas.",
+  "La liste des « certains sports extrêmes ou dangereux » exclus n’est pas donnée.",
+  "Aucun public visé n’est explicitement énoncé : target_audience est null. Le contrat s’adresse aux adhérents de l’association DEMAIN, avec des garanties réservées aux TNS et Exploitants agricoles et une option pour les professions médicales et paramédicales ; le titre imprime « MULTIRISQUES PRÉVOYANCE INDIVIDUELLE ». Ces éléments sont consignés dans target_audience_note sans être convertis en catégorie.",
+  "Le document renvoie à la Notice d’Information pour les cas et modalités de résiliation, et à « la documentation précontractuelle et contractuelle » pour l’information complète : ni l’une ni l’autre n’est fournie.",
+  "Coquilles du document conservées telles quelles : « accident vasculaire cérébrale » (accord), « frais professionnels fixes  » (double espace), « Ministère des Affaires Etrangères » (sans accent sur Etrangères)."
+ ]
 }

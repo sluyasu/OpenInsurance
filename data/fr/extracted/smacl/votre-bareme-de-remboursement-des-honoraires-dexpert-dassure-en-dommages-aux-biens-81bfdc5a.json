@@ -1,162 +1,162 @@
 {
-  "schema_version": "1.0",
-  "prompt_version": "1.1",
-  "country": "fr",
-  "insurer_slug": "smacl",
-  "insurer_name": "SMACL Assurances",
-  "product_name": "Votre barème de remboursement des honoraires d’expert d’assuré en Dommages aux biens",
-  "branch": "multirisque-professionnelle",
-  "branch_code": null,
-  "document_type": "conditions_tarifaires",
-  "language": "fr",
-  "target_audience": null,
-  "target_audience_note": null,
-  "reference": "BAREME_EXPERT_ASSURE_DAB_(10-2012)",
-  "edition_date": "01/2024",
-  "product_family": "Barème de remboursement des honoraires d’expert d’assuré en Dommages aux biens",
-  "variant": null,
-  "is_extension": true,
-  "extends": "Dommages aux biens",
-  "superseded": null,
-  "source_url": "https://www.smacl.fr/files/documents/bareme-expert-assure-dab.pdf",
-  "source_pdf": "bareme-de-remboursement-dab-2012-81bfdc5a.pdf",
-  "source_sha256": "43fb319e8444bef6195778d865ed270b1f906bcf4f82aa1ad05f399a19cb607e",
-  "source_pages": 1,
-  "fetched_at": "2026-08-01",
-  "extraction_model": "claude-code-subagent:scale",
-  "summary": "Document tarifaire d’une page publié par SMACL Assurances : le barème de remboursement des honoraires de l’expert d’assuré en Dommages aux biens. Il fixe, par tranches du montant contractuel de l’indemnité d’assurance exprimé en multiples de l’indice FFB, le taux limite de remboursement de ces honoraires (de 4,50 % sur la première tranche à 0,05 % sur le surplus au-delà de 98 000 fois l’indice). Deux plafonds absolus s’ajoutent au calcul : le montant des honoraires réellement payés et, le cas échéant, le capital maximum garanti aux conditions particulières. Le document ne décrit aucune garantie, aucune exclusion générale et aucune condition de souscription.",
-  "definitions": [
-    {
-      "term": "Montant contractuel de l’indemnité d’assurance",
-      "definition": "le montant de l’indemnité correspond au montant contractuel de l’indemnité d’assurance, hors pertes indirectes, hors frais annexes\net préjudices accessoires, et avant application de la (des) franchise(s) contractuelle(s).",
-      "page": 1
-    },
-    {
-      "term": "Indice FFB",
-      "definition": "l’indice du prix de la construction dans la région parisienne, publié par la Fédération Française du Bâtiment et des activités annexes\n(FFB), ou par l’organisme qui lui serait substitué.",
-      "page": 1
-    }
-  ],
-  "coverages": [
-    {
-      "name": "Remboursement des honoraires d’expert d’assuré en Dommages aux biens",
-      "description": "Barème fixant le taux limite de remboursement des honoraires d’expert assuré, appliqué par tranches au montant contractuel de l’indemnité d’assurance en euros, indexé sur l’indice FFB. Le document est intitulé « Votre barème de remboursement des honoraires d’expert d’assuré en Dommages aux biens ».",
-      "is_optional": null,
-      "territorial_scope": null,
-      "limits": "le montant des honoraires ne pourra jamais excéder : ni le montant des honoraires réellement payés, s’ils sont inférieurs à la limite\nde remboursement calculé comme indiqué dans le tableau, ni le montant du capital maximum garanti figurant le cas échéant aux\nconditions particulières du contrat.",
-      "sub_limits": [
-        "1ère tranche\njusqu’à 250 fois l’indice\n4,50 %",
-        "2ème tranche\nde 250 à 2 500 fois l’indice\n4,50 % sur 250 fois l’indice\n+ 1,0 % sur le surplus",
-        "3ème tranche\nde 2 500 à 9 800 fois l’indice\n1,35 % sur 2 500 fois l’indice\n+ 0,50 % sur le surplus",
-        "4ème tranche\nde 9 800 à 98 000 fois l’indice\n0,71 % sur 9 800 fois l’indice\n+ 0,10 % sur le surplus",
-        "5ème tranche\nsupérieur à 98 000 fois l’indice\n0,16 % sur 98 000 fois l’indice\n+ 0,05 % sur le surplus"
-      ],
-      "deductible": null,
-      "conditions": [
-        "le montant de l’indemnité correspond au montant contractuel de l’indemnité d’assurance, hors pertes indirectes, hors frais annexes\net préjudices accessoires, et avant application de la (des) franchise(s) contractuelle(s).",
-        "l’indice du prix de la construction dans la région parisienne, publié par la Fédération Française du Bâtiment et des activités annexes\n(FFB), ou par l’organisme qui lui serait substitué."
-      ],
-      "page": 1
-    }
-  ],
-  "exclusions": [
-    {
-      "name": "Éléments exclus de l’assiette de calcul de l’indemnité",
-      "description": "le montant de l’indemnité correspond au montant contractuel de l’indemnité d’assurance, hors pertes indirectes, hors frais annexes\net préjudices accessoires, et avant application de la (des) franchise(s) contractuelle(s).",
-      "applies_to": "Remboursement des honoraires d’expert d’assuré en Dommages aux biens",
-      "page": 1
-    },
-    {
-      "name": "Honoraires excédant les honoraires réellement payés ou le capital maximum garanti",
-      "description": "le montant des honoraires ne pourra jamais excéder : ni le montant des honoraires réellement payés, s’ils sont inférieurs à la limite\nde remboursement calculé comme indiqué dans le tableau, ni le montant du capital maximum garanti figurant le cas échéant aux\nconditions particulières du contrat.",
-      "applies_to": "Remboursement des honoraires d’expert d’assuré en Dommages aux biens",
-      "page": 1
-    }
-  ],
-  "deductibles": {
-    "standard": null,
-    "variable": null,
-    "per_coverage": null,
-    "page": null
+ "schema_version": "1.0",
+ "prompt_version": "1.1",
+ "country": "fr",
+ "insurer_slug": "smacl",
+ "insurer_name": "SMACL Assurances",
+ "product_name": "Votre barème de remboursement des honoraires d’expert d’assuré en Dommages aux biens",
+ "branch": "multirisque-professionnelle",
+ "branch_code": null,
+ "document_type": "conditions_tarifaires",
+ "language": "fr",
+ "target_audience": null,
+ "target_audience_note": null,
+ "reference": "BAREME_EXPERT_ASSURE_DAB_(10-2012)",
+ "edition_date": "01/2024",
+ "product_family": "Barème de remboursement des honoraires d’expert d’assuré en Dommages aux biens",
+ "variant": null,
+ "is_extension": true,
+ "extends": "Dommages aux biens",
+ "superseded": null,
+ "source_url": "https://www.smacl.fr/files/documents/bareme-expert-assure-dab.pdf",
+ "source_pdf": "bareme-de-remboursement-dab-2012-81bfdc5a.pdf",
+ "source_sha256": "43fb319e8444bef6195778d865ed270b1f906bcf4f82aa1ad05f399a19cb607e",
+ "source_pages": 1,
+ "fetched_at": "2026-08-01",
+ "extraction_model": "claude-code-subagent:scale",
+ "summary": "Document tarifaire d’une page publié par SMACL Assurances : le barème de remboursement des honoraires de l’expert d’assuré en Dommages aux biens. Il fixe, par tranches du montant contractuel de l’indemnité d’assurance exprimé en multiples de l’indice FFB, le taux limite de remboursement de ces honoraires (de 4,50 % sur la première tranche à 0,05 % sur le surplus au-delà de 98 000 fois l’indice). Deux plafonds absolus s’ajoutent au calcul : le montant des honoraires réellement payés et, le cas échéant, le capital maximum garanti aux conditions particulières. Le document ne décrit aucune garantie, aucune exclusion générale et aucune condition de souscription.",
+ "definitions": [
+  {
+   "term": "Montant contractuel de l’indemnité d’assurance",
+   "definition": "le montant de l’indemnité correspond au montant contractuel de l’indemnité d’assurance, hors pertes indirectes, hors frais annexes\net préjudices accessoires, et avant application de la (des) franchise(s) contractuelle(s).",
+   "page": 1
   },
-  "waiting_periods": [],
-  "obligations": [],
-  "claims_procedure": [],
-  "duration_and_cancellation": null,
-  "prescription_period": null,
-  "premium": null,
-  "special_conditions": [
-    {
-      "name": "Assureur (colophon)",
-      "description": "SMACL ASSURANCES SA - Société anonyme au capital de 138 801 048 euros, entreprise régie par le Code des\nassurances, RCS Niort n°833 817 224. Siège social : 141, avenue Salvador-Allende - CS 20000 - 79031 NIORT CEDEX 9.",
-      "page": 1
-    },
-    {
-      "name": "Indexation du barème",
-      "description": "Les tranches du barème sont exprimées en multiples de l’indice et le tableau porte la mention « (Indexation à l’indice FFB) (2) », l’indice étant celui du prix de la construction dans la région parisienne publié par la Fédération Française du Bâtiment et des activités annexes (FFB), ou par l’organisme qui lui serait substitué.",
-      "page": 1
-    },
-    {
-      "name": "Contact",
-      "description": "05 49 32 56 56 (prix d’un appel local)",
-      "page": 1
-    }
-  ],
-  "key_quotes": [
-    {
-      "quote": "1ère tranche\njusqu’à 250 fois l’indice\n4,50 %",
-      "context": "Barème - 1ère tranche",
-      "page": 1
-    },
-    {
-      "quote": "2ème tranche\nde 250 à 2 500 fois l’indice\n4,50 % sur 250 fois l’indice\n+ 1,0 % sur le surplus",
-      "context": "Barème - 2ème tranche",
-      "page": 1
-    },
-    {
-      "quote": "3ème tranche\nde 2 500 à 9 800 fois l’indice\n1,35 % sur 2 500 fois l’indice\n+ 0,50 % sur le surplus",
-      "context": "Barème - 3ème tranche",
-      "page": 1
-    },
-    {
-      "quote": "4ème tranche\nde 9 800 à 98 000 fois l’indice\n0,71 % sur 9 800 fois l’indice\n+ 0,10 % sur le surplus",
-      "context": "Barème - 4ème tranche",
-      "page": 1
-    },
-    {
-      "quote": "5ème tranche\nsupérieur à 98 000 fois l’indice\n0,16 % sur 98 000 fois l’indice\n+ 0,05 % sur le surplus",
-      "context": "Barème - 5ème tranche",
-      "page": 1
-    },
-    {
-      "quote": "(1) le montant de l’indemnité correspond au montant contractuel de l’indemnité d’assurance, hors pertes indirectes, hors frais annexes\net préjudices accessoires, et avant application de la (des) franchise(s) contractuelle(s).",
-      "context": "Assiette de calcul de l'indemnité",
-      "page": 1
-    },
-    {
-      "quote": "(2) l’indice du prix de la construction dans la région parisienne, publié par la Fédération Française du Bâtiment et des activités annexes\n(FFB), ou par l’organisme qui lui serait substitué.",
-      "context": "Indice de référence",
-      "page": 1
-    },
-    {
-      "quote": "(3) le montant des honoraires ne pourra jamais excéder : ni le montant des honoraires réellement payés, s’ils sont inférieurs à la limite\nde remboursement calculé comme indiqué dans le tableau, ni le montant du capital maximum garanti figurant le cas échéant aux\nconditions particulières du contrat.",
-      "context": "Double plafond du remboursement",
-      "page": 1
-    },
-    {
-      "quote": "SMACL ASSURANCES SA - Société anonyme au capital de 138 801 048 euros, entreprise régie par le Code des\nassurances, RCS Niort n°833 817 224. Siège social : 141, avenue Salvador-Allende - CS 20000 - 79031 NIORT CEDEX 9.",
-      "context": "Colophon - entité porteuse du risque",
-      "page": 1
-    }
-  ],
-  "gaps": [
-    "Document d'une seule page, purement tarifaire : il ne contient ni définitions contractuelles complètes, ni liste de garanties, ni exclusions générales, ni procédure de sinistre, ni durée / résiliation, ni prescription, ni mécanique de cotisation. Ces sections sont absentes du document, pas omises par l'extraction.",
-    "Contradiction de dates à l'intérieur du document : le colophon imprime « 01/2024 - Concepton : Directon développement et communicaton SMACL Assurances. » tandis que la référence en pied de page est « BAREME_EXPERT_ASSURE_DAB_(10-2012) ». edition_date retient 01/2024 (millésime de l'édition imprimée) et reference conserve le code (10-2012) tel quel ; le nom de fichier local porte lui aussi 2012. Les deux lectures sont conservées verbatim.",
-    "Couche texte défectueuse : la ligature « ti » perd son « i » dans tout le PDF (« Concepton », « Directon », « communicaton » pour Conception / Direction / communication). Le texte est conservé verbatim, non corrigé, pour que les citations restent vérifiables. Une recherche par mot-clé sur ce document sous-compte donc silencieusement.",
-    "target_audience laissé à null : le document ne désigne aucun public (ni collectivités, ni entreprises, ni particuliers). Aucune mention d'audience à citer dans target_audience_note.",
-    "is_extension mis à true parce que le document n'est pas un produit autonome mais un barème annexé à un contrat Dommages aux biens ; extends reprend la seule désignation imprimée du contrat de rattachement (« Dommages aux biens », dans le titre), le document renvoyant par ailleurs aux « conditions particulières du contrat » sans nommer le produit.",
-    "premium laissé à null : l'indexation décrite (indice FFB) porte sur le montant de l'indemnité et sur les tranches du barème, pas sur la cotisation. Elle est enregistrée dans coverages, definitions et special_conditions.",
-    "Assureur nommé : « SMACL ASSURANCES SA - Société anonyme au capital de 138 801 048 euros, entreprise régie par le Code des assurances, RCS Niort n°833 817 224 » (entité SA, groupe MAIF). La mutuelle SMACL Assurances (RCS Niort 301 309 605) n'apparaît nulle part dans ce document.",
-    "Le texte du prompt n'a pas été tronqué (1 page). Vérification faite : la ré-extraction locale du PDF via PyMuPDF page.get_text(\"text\") est identique caractère pour caractère au texte fourni dans le prompt, marqueurs [[page N]] retirés. Les citations sont des tranches exactes de ce texte."
-  ]
+  {
+   "term": "Indice FFB",
+   "definition": "l’indice du prix de la construction dans la région parisienne, publié par la Fédération Française du Bâtiment et des activités annexes\n(FFB), ou par l’organisme qui lui serait substitué.",
+   "page": 1
+  }
+ ],
+ "coverages": [
+  {
+   "name": "Remboursement des honoraires d’expert d’assuré en Dommages aux biens",
+   "description": "Barème fixant le taux limite de remboursement des honoraires d’expert assuré, appliqué par tranches au montant contractuel de l’indemnité d’assurance en euros, indexé sur l’indice FFB. Le document est intitulé « Votre barème de remboursement des honoraires d’expert d’assuré en Dommages aux biens ».",
+   "is_optional": null,
+   "territorial_scope": null,
+   "limits": "le montant des honoraires ne pourra jamais excéder : ni le montant des honoraires réellement payés, s’ils sont inférieurs à la limite\nde remboursement calculé comme indiqué dans le tableau, ni le montant du capital maximum garanti figurant le cas échéant aux\nconditions particulières du contrat.",
+   "sub_limits": [
+    "1ère tranche\njusqu’à 250 fois l’indice\n4,50 %",
+    "2ème tranche\nde 250 à 2 500 fois l’indice\n4,50 % sur 250 fois l’indice\n+ 1,0 % sur le surplus",
+    "3ème tranche\nde 2 500 à 9 800 fois l’indice\n1,35 % sur 2 500 fois l’indice\n+ 0,50 % sur le surplus",
+    "4ème tranche\nde 9 800 à 98 000 fois l’indice\n0,71 % sur 9 800 fois l’indice\n+ 0,10 % sur le surplus",
+    "5ème tranche\nsupérieur à 98 000 fois l’indice\n0,16 % sur 98 000 fois l’indice\n+ 0,05 % sur le surplus"
+   ],
+   "deductible": null,
+   "conditions": [
+    "le montant de l’indemnité correspond au montant contractuel de l’indemnité d’assurance, hors pertes indirectes, hors frais annexes\net préjudices accessoires, et avant application de la (des) franchise(s) contractuelle(s).",
+    "l’indice du prix de la construction dans la région parisienne, publié par la Fédération Française du Bâtiment et des activités annexes\n(FFB), ou par l’organisme qui lui serait substitué."
+   ],
+   "page": 1
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Éléments exclus de l’assiette de calcul de l’indemnité",
+   "description": "le montant de l’indemnité correspond au montant contractuel de l’indemnité d’assurance, hors pertes indirectes, hors frais annexes\net préjudices accessoires, et avant application de la (des) franchise(s) contractuelle(s).",
+   "applies_to": "Remboursement des honoraires d’expert d’assuré en Dommages aux biens",
+   "page": 1
+  },
+  {
+   "name": "Honoraires excédant les honoraires réellement payés ou le capital maximum garanti",
+   "description": "le montant des honoraires ne pourra jamais excéder : ni le montant des honoraires réellement payés, s’ils sont inférieurs à la limite\nde remboursement calculé comme indiqué dans le tableau, ni le montant du capital maximum garanti figurant le cas échéant aux\nconditions particulières du contrat.",
+   "applies_to": "Remboursement des honoraires d’expert d’assuré en Dommages aux biens",
+   "page": 1
+  }
+ ],
+ "deductibles": {
+  "standard": null,
+  "variable": null,
+  "per_coverage": null,
+  "page": null
+ },
+ "waiting_periods": [],
+ "obligations": [],
+ "claims_procedure": [],
+ "duration_and_cancellation": null,
+ "prescription_period": null,
+ "premium": null,
+ "special_conditions": [
+  {
+   "name": "Assureur (colophon)",
+   "description": "SMACL ASSURANCES SA - Société anonyme au capital de 138 801 048 euros, entreprise régie par le Code des\nassurances, RCS Niort n°833 817 224. Siège social : 141, avenue Salvador-Allende - CS 20000 - 79031 NIORT CEDEX 9.",
+   "page": 1
+  },
+  {
+   "name": "Indexation du barème",
+   "description": "Les tranches du barème sont exprimées en multiples de l’indice et le tableau porte la mention « (Indexation à l’indice FFB) (2) », l’indice étant celui du prix de la construction dans la région parisienne publié par la Fédération Française du Bâtiment et des activités annexes (FFB), ou par l’organisme qui lui serait substitué.",
+   "page": 1
+  },
+  {
+   "name": "Contact",
+   "description": "05 49 32 56 56 (prix d’un appel local)",
+   "page": 1
+  }
+ ],
+ "key_quotes": [
+  {
+   "quote": "1ère tranche\njusqu’à 250 fois l’indice\n4,50 %",
+   "context": "Barème - 1ère tranche",
+   "page": 1
+  },
+  {
+   "quote": "2ème tranche\nde 250 à 2 500 fois l’indice\n4,50 % sur 250 fois l’indice\n+ 1,0 % sur le surplus",
+   "context": "Barème - 2ème tranche",
+   "page": 1
+  },
+  {
+   "quote": "3ème tranche\nde 2 500 à 9 800 fois l’indice\n1,35 % sur 2 500 fois l’indice\n+ 0,50 % sur le surplus",
+   "context": "Barème - 3ème tranche",
+   "page": 1
+  },
+  {
+   "quote": "4ème tranche\nde 9 800 à 98 000 fois l’indice\n0,71 % sur 9 800 fois l’indice\n+ 0,10 % sur le surplus",
+   "context": "Barème - 4ème tranche",
+   "page": 1
+  },
+  {
+   "quote": "5ème tranche\nsupérieur à 98 000 fois l’indice\n0,16 % sur 98 000 fois l’indice\n+ 0,05 % sur le surplus",
+   "context": "Barème - 5ème tranche",
+   "page": 1
+  },
+  {
+   "quote": "(1) le montant de l’indemnité correspond au montant contractuel de l’indemnité d’assurance, hors pertes indirectes, hors frais annexes\net préjudices accessoires, et avant application de la (des) franchise(s) contractuelle(s).",
+   "context": "Assiette de calcul de l'indemnité",
+   "page": 1
+  },
+  {
+   "quote": "(2) l’indice du prix de la construction dans la région parisienne, publié par la Fédération Française du Bâtiment et des activités annexes\n(FFB), ou par l’organisme qui lui serait substitué.",
+   "context": "Indice de référence",
+   "page": 1
+  },
+  {
+   "quote": "(3) le montant des honoraires ne pourra jamais excéder : ni le montant des honoraires réellement payés, s’ils sont inférieurs à la limite\nde remboursement calculé comme indiqué dans le tableau, ni le montant du capital maximum garanti figurant le cas échéant aux\nconditions particulières du contrat.",
+   "context": "Double plafond du remboursement",
+   "page": 1
+  },
+  {
+   "quote": "SMACL ASSURANCES SA - Société anonyme au capital de 138 801 048 euros, entreprise régie par le Code des\nassurances, RCS Niort n°833 817 224. Siège social : 141, avenue Salvador-Allende - CS 20000 - 79031 NIORT CEDEX 9.",
+   "context": "Colophon - entité porteuse du risque",
+   "page": 1
+  }
+ ],
+ "gaps": [
+  "Document d'une seule page, purement tarifaire : il ne contient ni définitions contractuelles complètes, ni liste de garanties, ni exclusions générales, ni procédure de sinistre, ni durée / résiliation, ni prescription, ni mécanique de cotisation. Ces sections sont absentes du document, pas omises par l'extraction.",
+  "Contradiction de dates à l'intérieur du document : le colophon imprime « 01/2024 - Concepton : Directon développement et communicaton SMACL Assurances. » tandis que la référence en pied de page est « BAREME_EXPERT_ASSURE_DAB_(10-2012) ». edition_date retient 01/2024 (millésime de l'édition imprimée) et reference conserve le code (10-2012) tel quel ; le nom de fichier local porte lui aussi 2012. Les deux lectures sont conservées verbatim.",
+  "Couche texte défectueuse : la ligature « ti » perd son « i » dans tout le PDF (« Concepton », « Directon », « communicaton » pour Conception / Direction / communication). Le texte est conservé verbatim, non corrigé, pour que les citations restent vérifiables. Une recherche par mot-clé sur ce document sous-compte donc silencieusement.",
+  "target_audience laissé à null : le document ne désigne aucun public (ni collectivités, ni entreprises, ni particuliers). Aucune mention d'audience à citer dans target_audience_note.",
+  "is_extension mis à true parce que le document n'est pas un produit autonome mais un barème annexé à un contrat Dommages aux biens ; extends reprend la seule désignation imprimée du contrat de rattachement (« Dommages aux biens », dans le titre), le document renvoyant par ailleurs aux « conditions particulières du contrat » sans nommer le produit.",
+  "premium laissé à null : l'indexation décrite (indice FFB) porte sur le montant de l'indemnité et sur les tranches du barème, pas sur la cotisation. Elle est enregistrée dans coverages, definitions et special_conditions.",
+  "Assureur nommé : « SMACL ASSURANCES SA - Société anonyme au capital de 138 801 048 euros, entreprise régie par le Code des assurances, RCS Niort n°833 817 224 » (entité SA, groupe MAIF). La mutuelle SMACL Assurances (RCS Niort 301 309 605) n'apparaît nulle part dans ce document.",
+  "Le texte du prompt n'a pas été tronqué (1 page). Vérification faite : la ré-extraction locale du PDF via PyMuPDF page.get_text(\"text\") est identique caractère pour caractère au texte fourni dans le prompt, marqueurs [[page N]] retirés. Les citations sont des tranches exactes de ce texte."
+ ]
 }

@@ -289,7 +289,7 @@ informations et conseils juridiques, recours-protection juridique.
 
 ## Documents liés
 
-- [Assurance véhicules Vam Associations et Collectivités](Assurance%20v%C3%A9hicules%20Vam%20Associations%20et%20Collectivit%C3%A9s.md) - Conditions générales, éd. 2025-10
+- [Assurance véhicules Vam Associations et Collectivités](Assurance%20v%C3%A9hicules%20Vam%20Associations%20et%20Collectivit%C3%A9s.md) - Conditions générales
 
 ## Source & fidélité
 

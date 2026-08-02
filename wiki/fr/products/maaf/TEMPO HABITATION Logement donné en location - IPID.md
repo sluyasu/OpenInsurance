@@ -10,7 +10,7 @@ document_type: ipid
 target_audience: null
 target_audience_note: null
 reference: HAB11029
-edition_date: 2025-03
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/habitation
@@ -26,7 +26,7 @@ prompt_version: '1.1'
 product_family: tempo-habitation
 variant: Logement donné en location
 edition_status: null
-edition_age_years: 1
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-08-01'
@@ -40,7 +40,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) du contrat TEMPO HABITATION dans sa déclinaison « Logement donné en location », de MAAF Assurances SA. Le contrat couvre les dommages que peut subir le bien immobilier donné en location et son contenu, ainsi que la responsabilité civile du bailleur pour les dommages que le bien peut causer à un tiers. Les garanties de base réunissent les garanties Habitation (incendie et événements assimilés, choc de véhicules, événements climatiques, dégâts des eaux, émeutes et mouvements populaires, catastrophes naturelles, catastrophes technologiques, actes de terrorisme et attentats), la perte de loyer ou le remboursement des mensualités de prêt immobilier, les dommages causés par les secours, les frais annexes, la responsabilité civile habitation (plafond 20 000 000 €), la défense pénale et recours (plafond 20 000 €), l’assistance aux personnes et les renseignements juridiques ; dix garanties sont proposées en option. Le document est un résumé et renvoie à la documentation précontractuelle et contractuelle.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information · Édition : 2025-03
+- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -225,13 +225,14 @@ Garantie optionnelle : assistance au logement.
 - Les montants de franchise ne sont pas chiffrés : le document dit seulement qu’« une somme peut rester à votre charge (franchise contractuelle ou légale) » pour deux ensembles de garanties. Aucun plafond n’est donné hors « Responsabilité civile habitation » (20 000 000 €) et « Défense pénale et recours suite à accident » (20 000 €) : les autres champs limits sont null.
 - Aucune définition et aucun délai de prescription ne figurent dans ce document : definitions est vide et prescription_period est null parce que la section n’existe pas dans un IPID.
 - Le texte du prompt et l’extraction PyMuPDF page à page ont été comparés : ils sont identiques, à la seule ligne vide près que le harness insère entre les pages. Les colonnes de l’IPID sortent dans un ordre de lecture non linéaire ; l’affectation de chaque item à sa rubrique a été refaite à partir des coordonnées des blocs (colonne gauche x≈36-276 = ce qui est assuré ; colonne droite x≈309-552 = ce qui n’est pas assuré, puis exclusions et restrictions).
+- edition_date remise a null le 2026-08-01: la valeur 2025-03 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Documents liés
 
 - [Assurance Habitation - Fiche](Assurance%20Habitation%20-%20Fiche.md) - Fiche produit, éd. 06/2022
 - [FICHE D'INFORMATION RELATIVE A LA VENTE A DISTANCE DE VOTRE CONTRAT TEMPO HABITATION - Doc](FICHE%20D%27INFORMATION%20RELATIVE%20A%20LA%20VENTE%20A%20DISTANCE%20DE%20VOTRE%20CONTRAT%20TEMPO%20HABITATION%20-%20Doc.md) - Document
 - [Tempo Habitation - Fiche](Tempo%20Habitation%20-%20Fiche.md) - Fiche produit, éd. 06/2022
-- [TEMPO HABITATION EN CONSTRUCTION - IPID](TEMPO%20HABITATION%20EN%20CONSTRUCTION%20-%20IPID.md) - IPID / Fiche d'information, éd. 2026-01
+- [TEMPO HABITATION EN CONSTRUCTION - IPID](TEMPO%20HABITATION%20EN%20CONSTRUCTION%20-%20IPID.md) - IPID / Fiche d'information
 
 ## Source & fidélité
 

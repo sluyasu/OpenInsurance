@@ -53,6 +53,7 @@ Conditions générales du contrat Navigation de plaisance de la Macif, destiné 
 ## Lacunes d'extraction
 
 - Extraction en cours - version partielle.
+- Provenance de edition_date: cette date ne vient pas du texte du document mais du manifeste, ou elle avait ete deduite lors de la decouverte. A verifier contre le document avant d'y appuyer une comparaison d'editions.
 
 ## Source & fidélité
 

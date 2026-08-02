@@ -11,7 +11,7 @@ target_audience: entreprises
 target_audience_note: En tant que professionnels du bâtiment, ce contrat d’assurance
   vous permet de satisfaire à l'obligation d'assurance responsabilité décennale.
 reference: DCBAT
-edition_date: 2025-01
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/decennale
@@ -27,7 +27,7 @@ prompt_version: '1.1'
 product_family: responsabilite-decennale-des-entreprises-du-batiment
 variant: null
 edition_status: null
-edition_age_years: 1
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -41,7 +41,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) du contrat DCBAT / Responsabilité Décennale des entreprises du Bâtiment de Thélem assurances. En tant que professionnels du bâtiment, ce contrat d’assurance permet de satisfaire à l’obligation d’assurance responsabilité décennale ; seules les activités professionnelles déclarées sont garanties. Il comporte la garantie obligatoire de responsabilité décennale visée aux articles 1792 et 2270 du code civil, des garanties facultatives (sous-traitant, bon fonctionnement, dommages intermédiaires, existants, immatériels consécutifs, travaux non constitutifs d’ouvrages, ouvrages non soumis à obligation d’assurance) ainsi que des garanties pour les dommages en cours de chantier.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Assurance construction](../../branches/Assurance%20construction.md) · Type : IPID / Fiche d'information · Édition : 2025-01
+- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Assurance construction](../../branches/Assurance%20construction.md) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -175,6 +175,7 @@ Vos dommages en cours de chantier – Catastrophes naturelles sur l’ouvrage en
 - Le délai de déclaration de sinistre n’est pas chiffré : le document renvoie au « délai fixé par le contrat ».
 - Aucun délai de carence ni délai de prescription n’est mentionné dans le document.
 - S’agissant d’un IPID (2 pages), il ne présente qu’un résumé des principales garanties et exclusions ; la liste complète figure dans les Dispositions Générales, non fournies.
+- edition_date remise a null le 2026-08-01: la valeur 2025-01 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

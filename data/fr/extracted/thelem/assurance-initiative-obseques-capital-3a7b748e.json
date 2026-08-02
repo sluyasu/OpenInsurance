@@ -1,430 +1,431 @@
 {
-  "schema_version": "1.0",
-  "prompt_version": "1.1",
-  "country": "fr",
-  "insurer_slug": "thelem",
-  "insurer_name": "Thélem assurances",
-  "product_name": "Assurance Initiative Obsèques Capital",
-  "branch": "obseques",
-  "branch_code": null,
-  "document_type": "ipid",
-  "language": "fr",
-  "target_audience": "particuliers",
-  "target_audience_note": "l’assuré doit être âgé, à la souscription, d’au moins 18 ans et au maximum de 82 ans. Il doit résider sur le territoire métropolitain ou dans les départements d’Outre-Mer.",
-  "reference": null,
-  "edition_date": "2026",
-  "product_family": "Initiative Obsèques",
-  "variant": "Capital",
-  "is_extension": false,
-  "extends": null,
-  "superseded": null,
-  "source_url": "https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TP_419-IOC-2026.pdf",
-  "source_pdf": "assurance-initiative-obseques-capital-3a7b748e.pdf",
-  "source_sha256": "6b35e630db0026c2cced99bed2e7265ca100dfc3dad06d900e3c6826a5d6b377",
-  "source_pages": 2,
-  "fetched_at": "2026-07-30",
-  "extraction_model": "claude-code-subagent:scale",
-  "summary": "Le contrat d’assurance Initiative Obsèques Capital est un contrat d’assurance de type vie entière, porté par Thélem prévoyance, qui permet à l’assuré de se constituer un capital afin de financer ses funérailles. Le capital, choisi à la souscription de 2 000 € à 12 000 €, est obligatoirement versé à l’opérateur des pompes funèbres qui aura eu en charge les obsèques ou à la personne physique qui règlera les obsèques, le solde revenant aux bénéficiaires désignés sur les Conditions Particulières. Les garanties ne sont soumises à aucune sélection médicale et la cotisation est fixe dans le temps, payable sur 10, 15, 20 ou 25 ans ou durant toute la vie de l’assuré. Le contrat comprend également des prestations d’assistance (rapatriement du corps, aide-ménagère, garde des enfants et des animaux de compagnie, accompagnement psychologique, assistance téléphonique).",
-  "definitions": [
-    {
-      "term": "Assuré",
-      "definition": "l’assuré doit être âgé, à la souscription, d’au moins 18 ans et au maximum de 82 ans. Il doit résider sur le territoire métropolitain ou dans les départements d’Outre-Mer.",
-      "page": 1
-    },
-    {
-      "term": "Bénéficiaire",
-      "definition": "Le capital est obligatoirement versé à l’opérateur des pompes funèbres qui aura eu en charge les obsèques ou à la personne physique qui règlera les obsèques. Le solde du capital ira aux bénéficiaires désignés sur les Conditions Particulières.",
-      "page": 1
-    },
-    {
-      "term": "Revalorisation",
-      "definition": "l’assureur distribue, tous les ans, les bénéfices techniques et financiers suivant les dispositions réglementaires en vigueur.",
-      "page": 1
-    },
-    {
-      "term": "Rachat",
-      "definition": "l’assuré peut aussi racheter son contrat à tout moment. Il lui sera alors restitué une somme appelée « provisions mathématiques ». Le rachat met fin au contrat.",
-      "page": 2
-    },
-    {
-      "term": "Mise en réduction",
-      "definition": "l’assuré peut arrêter le paiement des cotisations sans effectuer de rachat. Les garanties du contrat sont alors « réduites » en proportion des cotisations déjà versées, mais continuent d’exister.",
-      "page": 2
-    }
-  ],
-  "coverages": [
-    {
-      "name": "Choix du capital",
-      "description": "Choix du capital : de 2 000 € à 12 000€. Le montant du capital est défini lors de la souscription.",
-      "is_optional": false,
-      "territorial_scope": "France métropolitaine et départements d’Outre-Mer",
-      "limits": "de 2 000 € à 12 000€",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Le montant du capital est défini lors de la souscription",
-        "Les garanties suivantes ne sont soumises à aucune sélection médicale"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Choix du/des bénéficiaire(s)",
-      "description": "Choix du/des bénéficiaire(s). Le capital est obligatoirement versé à l’opérateur des pompes funèbres qui aura eu en charge les obsèques ou à la personne physique qui règlera les obsèques. Le solde du capital ira aux bénéficiaires désignés sur les Conditions Particulières.",
-      "is_optional": false,
-      "territorial_scope": "France métropolitaine et départements d’Outre-Mer",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Les garanties suivantes ne sont soumises à aucune sélection médicale"
-      ],
-      "page": 1
-    },
-    {
-      "name": "La cotisation",
-      "description": "La cotisation : est fixe dans le temps.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Paiement des cotisations",
-      "description": "Paiement des cotisations : se fait sur une période de 10, 15, 20 ou 25 ans (paiement temporaire) ou durant toute la vie de l’assuré (paiement viager).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [
-        "10, 15, 20 ou 25 ans (paiement temporaire)",
-        "durant toute la vie de l’assuré (paiement viager)"
-      ],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Revalorisation",
-      "description": "Revalorisation : l’assureur distribue, tous les ans, les bénéfices techniques et financiers suivant les dispositions réglementaires en vigueur.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Augmentation du capital",
-      "description": "L’augmentation du capital est réservée aux personnes âgées de moins de 82 ans et ne peut intervenir qu’une seule fois dans la même année.",
-      "is_optional": true,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "est réservée aux personnes âgées de moins de 82 ans",
-        "ne peut intervenir qu’une seule fois dans la même année"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Assistance - Rapatriement du corps",
-      "description": "Rapatriement du corps.",
-      "is_optional": false,
-      "territorial_scope": "France métropolitaine et départements d’Outre-Mer ; les garanties Assistance sont acquises pour des séjours n’excédant pas 90 jours dans le reste du monde",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Assistance - Aide-ménagère",
-      "description": "Aide-ménagère : 3 heures par jour pendant les 10 jours suivant le décès.",
-      "is_optional": false,
-      "territorial_scope": "France métropolitaine et départements d’Outre-Mer ; les garanties Assistance sont acquises pour des séjours n’excédant pas 90 jours dans le reste du monde",
-      "limits": "3 heures par jour pendant les 10 jours suivant le décès",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Assistance - Garde des enfants et petits-enfants",
-      "description": "Garde des enfants et petits-enfants pendant 2 jours.",
-      "is_optional": false,
-      "territorial_scope": "France métropolitaine et départements d’Outre-Mer ; les garanties Assistance sont acquises pour des séjours n’excédant pas 90 jours dans le reste du monde",
-      "limits": "pendant 2 jours",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Assistance - Garde des animaux de compagnie (chiens et chats)",
-      "description": "Garde des animaux de compagnie (chiens et chats) : 10 jours maximum.",
-      "is_optional": false,
-      "territorial_scope": "France métropolitaine et départements d’Outre-Mer ; les garanties Assistance sont acquises pour des séjours n’excédant pas 90 jours dans le reste du monde",
-      "limits": "10 jours maximum",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Assistance - Accompagnement psychologique",
-      "description": "Accompagnement psychologique.",
-      "is_optional": false,
-      "territorial_scope": "France métropolitaine et départements d’Outre-Mer ; les garanties Assistance sont acquises pour des séjours n’excédant pas 90 jours dans le reste du monde",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Assistance téléphonique, résolution des questions administratives et juridiques, mise à disposition de courriers types",
-      "description": "Assistance téléphonique, résolution des questions administratives et juridiques, mise à disposition de courriers types.",
-      "is_optional": false,
-      "territorial_scope": "France métropolitaine et départements d’Outre-Mer ; les garanties Assistance sont acquises pour des séjours n’excédant pas 90 jours dans le reste du monde",
-      "limits": null,
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    }
-  ],
-  "exclusions": [
-    {
-      "name": "Suicide de l’assuré dans la première année",
-      "description": "Le suicide de l’assuré dans la première année qui suit la date d’effet du contrat, ou qui suit l’augmentation de garantie pour le capital ou la rente complémentaire.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Fait intentionnellement causé ou provoqué par un bénéficiaire",
-      "description": "Les conséquences d’un fait intentionnellement causé ou provoqué par un bénéficiaire condamné à ce titre, en cas de décès de l’assuré.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Participation volontaire et violente à des rassemblements, manifestations, mouvements populaires, rixes, jeux et paris",
-      "description": "Les conséquences de la participation volontaire et violente de l’assuré à des rassemblement, manifestations sur la voie publique, à des mouvements populaires, rixes, jeux et paris.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Restriction - Délai d’attente en cas de décès suite à maladie",
-      "description": "Les indemnités sont versées après application des délais d’attente suivants : Décès suite à maladie : 1 an.",
-      "applies_to": "all",
-      "page": 1
-    },
-    {
-      "name": "Restriction - Augmentation du capital réservée aux moins de 82 ans",
-      "description": "L’augmentation du capital est réservée aux personnes âgées de moins de 82 ans.",
-      "applies_to": "Augmentation du capital",
-      "page": 1
-    },
-    {
-      "name": "Restriction - Augmentation du capital une seule fois par an",
-      "description": "L’augmentation du capital ne peut intervenir qu’une seule fois dans la même année.",
-      "applies_to": "Augmentation du capital",
-      "page": 1
-    },
-    {
-      "name": "Décès suite à maladie survenant pendant le délai d’attente",
-      "description": "En cas de décès suite à maladie survenant pendant le délai d’attente, il est remboursé au(x) bénéficiaire(s) le montant des cotisations payées.",
-      "applies_to": "all",
-      "page": 1
-    }
-  ],
-  "deductibles": null,
-  "waiting_periods": [
-    {
-      "coverage": "Décès suite à maladie",
-      "duration": "1 an",
-      "description": "Les indemnités sont versées après application des délais d’attente suivants : Décès suite à maladie : 1 an. En cas de décès suite à maladie survenant pendant le délai d’attente, il est remboursé au(x) bénéficiaire(s) le montant des cotisations payées.",
-      "page": 1
-    }
-  ],
-  "obligations": [
-    {
-      "name": "Répondre exactement aux questions posées",
-      "description": "Répondre exactement aux questions posées lors de la souscription afin d’apprécier les risques et fixer la cotisation.",
-      "timing": "A la souscription du contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
-      "page": 2
-    },
-    {
-      "name": "Déclarer les circonstances nouvelles",
-      "description": "Déclarer toutes les circonstances nouvelles qui modifient les informations fournies lors de la souscription.",
-      "timing": "En cours de contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
-      "page": 2
-    },
-    {
-      "name": "Régler les cotisations",
-      "description": "Régler les cotisations à la date convenue.",
-      "timing": "En cours de contrat",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
-      "page": 2
-    },
-    {
-      "name": "Fournir les pièces justificatives en cas de décès",
-      "description": "En cas de décès de l’assuré, fournir les pièces justificatives : la facture justifiant le financement des obsèques, l’acte de décès et le certificat médical précisant la cause de décès de l’assuré.",
-      "timing": "En cas de décès",
-      "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
-      "page": 2
-    }
-  ],
-  "claims_procedure": [
-    {
-      "step": "Fournir les pièces justificatives",
-      "description": "En cas de décès de l’assuré, fournir les pièces justificatives : la facture justifiant le financement des obsèques, l’acte de décès et le certificat médical précisant la cause de décès de l’assuré.",
-      "deadline": null,
-      "page": 2
-    },
-    {
-      "step": "Application des délais d’attente avant versement",
-      "description": "Les indemnités sont versées après application des délais d’attente suivants : Décès suite à maladie : 1 an.",
-      "deadline": "1 an pour un décès suite à maladie",
-      "page": 1
-    },
-    {
-      "step": "Versement du capital",
-      "description": "Le capital est obligatoirement versé à l’opérateur des pompes funèbres qui aura eu en charge les obsèques ou à la personne physique qui règlera les obsèques. Le solde du capital ira aux bénéficiaires désignés sur les Conditions Particulières.",
-      "deadline": null,
-      "page": 1
-    }
-  ],
-  "duration_and_cancellation": {
-    "duration": "Le contrat prend effet à la date et l’heure indiquées aux Conditions Particulières. Le contrat est souscrit jusqu’à la prochaine échéance principale et est renouvelable par tacite reconduction à chaque nouvelle échéance principale avec les facultés de résiliation prévues. Le contrat prend fin de plein droit au décès de l’assuré.",
-    "tacit_renewal": true,
-    "notice_period": "Vous pouvez notamment mettre fin au contrat à l'échéance annuelle en respectant un préavis de deux mois.",
-    "methods": [
-      "par lettre ou tout autre support durable",
-      "par déclaration faite au siège social ou chez notre représentant",
-      "par acte extrajudiciaire",
-      "via la fonctionnalité mise en place sur le site internet",
-      "en cas de résiliation suite à modification de votre situation selon les termes des articles L113-16 et R.113-6 du Code des assurances, vous devrez notifier la résiliation par lettre recommandée (papier ou électronique) avec demande d'avis de réception"
-    ],
-    "special_rights": [
-      "L’assuré dispose d’un délai de renonciation de 30 jours dans tous les cas à compter de la conclusion du contrat.",
-      "Rachat : l’assuré peut aussi racheter son contrat à tout moment. Il lui sera alors restitué une somme appelée « provisions mathématiques ». Le rachat met fin au contrat.",
-      "Mise en réduction : l’assuré peut arrêter le paiement des cotisations sans effectuer de rachat. Les garanties du contrat sont alors « réduites » en proportion des cotisations déjà versées, mais continuent d’exister.",
-      "Les cas de résiliation, les délais à respecter sont ceux prévus par la règlementation et précisés dans les Dispositions Générales.",
-      "Nous vous confirmerons par écrit la réception de la notification."
-    ],
-    "page": 2
+ "schema_version": "1.0",
+ "prompt_version": "1.1",
+ "country": "fr",
+ "insurer_slug": "thelem",
+ "insurer_name": "Thélem assurances",
+ "product_name": "Assurance Initiative Obsèques Capital",
+ "branch": "obseques",
+ "branch_code": null,
+ "document_type": "ipid",
+ "language": "fr",
+ "target_audience": "particuliers",
+ "target_audience_note": "l’assuré doit être âgé, à la souscription, d’au moins 18 ans et au maximum de 82 ans. Il doit résider sur le territoire métropolitain ou dans les départements d’Outre-Mer.",
+ "reference": null,
+ "edition_date": null,
+ "product_family": "Initiative Obsèques",
+ "variant": "Capital",
+ "is_extension": false,
+ "extends": null,
+ "superseded": null,
+ "source_url": "https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TP_419-IOC-2026.pdf",
+ "source_pdf": "assurance-initiative-obseques-capital-3a7b748e.pdf",
+ "source_sha256": "6b35e630db0026c2cced99bed2e7265ca100dfc3dad06d900e3c6826a5d6b377",
+ "source_pages": 2,
+ "fetched_at": "2026-07-30",
+ "extraction_model": "claude-code-subagent:scale",
+ "summary": "Le contrat d’assurance Initiative Obsèques Capital est un contrat d’assurance de type vie entière, porté par Thélem prévoyance, qui permet à l’assuré de se constituer un capital afin de financer ses funérailles. Le capital, choisi à la souscription de 2 000 € à 12 000 €, est obligatoirement versé à l’opérateur des pompes funèbres qui aura eu en charge les obsèques ou à la personne physique qui règlera les obsèques, le solde revenant aux bénéficiaires désignés sur les Conditions Particulières. Les garanties ne sont soumises à aucune sélection médicale et la cotisation est fixe dans le temps, payable sur 10, 15, 20 ou 25 ans ou durant toute la vie de l’assuré. Le contrat comprend également des prestations d’assistance (rapatriement du corps, aide-ménagère, garde des enfants et des animaux de compagnie, accompagnement psychologique, assistance téléphonique).",
+ "definitions": [
+  {
+   "term": "Assuré",
+   "definition": "l’assuré doit être âgé, à la souscription, d’au moins 18 ans et au maximum de 82 ans. Il doit résider sur le territoire métropolitain ou dans les départements d’Outre-Mer.",
+   "page": 1
   },
-  "prescription_period": null,
-  "premium": {
-    "notes": [
-      "La cotisation : est fixe dans le temps.",
-      "Paiement des cotisations : se fait sur une période de 10, 15, 20 ou 25 ans (paiement temporaire) ou durant toute la vie de l’assuré (paiement viager).",
-      "La cotisation annuelle se paie à la date ou aux dates indiquées sur les Conditions Particulières.",
-      "Un paiement fractionné peut toutefois être accordé au choix (Mensuel, Trimestriel, Semestriel ou Annuel).",
-      "Les paiements peuvent être effectués par chèque ou prélèvement automatique.",
-      "Revalorisation : l’assureur distribue, tous les ans, les bénéfices techniques et financiers suivant les dispositions réglementaires en vigueur."
-    ],
-    "indexation": null,
-    "page": 2
+  {
+   "term": "Bénéficiaire",
+   "definition": "Le capital est obligatoirement versé à l’opérateur des pompes funèbres qui aura eu en charge les obsèques ou à la personne physique qui règlera les obsèques. Le solde du capital ira aux bénéficiaires désignés sur les Conditions Particulières.",
+   "page": 1
   },
-  "special_conditions": [
-    {
-      "name": "Type de contrat",
-      "description": "Le contrat est de type vie entière et est en totale conformité avec la réglementation en vigueur.",
-      "page": 1
-    },
-    {
-      "name": "Conditions d’âge et de résidence de l’assuré",
-      "description": "L’assuré doit être âgé, à la souscription, d’au moins 18 ans et au maximum de 82 ans. Il doit résider sur le territoire métropolitain ou dans les départements d’Outre-Mer.",
-      "page": 1
-    },
-    {
-      "name": "Absence de sélection médicale",
-      "description": "Les garanties suivantes ne sont soumises à aucune sélection médicale.",
-      "page": 1
-    },
-    {
-      "name": "Garanties systématiquement prévues",
-      "description": "Les garanties précédées d’une coche sont systématiquement prévues au contrat.",
-      "page": 1
-    },
-    {
-      "name": "Portée du document d’information",
-      "description": "Ce document d’information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l’information complète sur ce produit dans la documentation précontractuelle et contractuelle, et notamment dans la notice d’information.",
-      "page": 1
-    },
-    {
-      "name": "Assureur",
-      "description": "Thélem prévoyance, SA à conseil d’administration au capital de 18 000 870 € – Entreprise régie par le Code des assurances. Siège Social : Le Croc – BP 63130 – 45431 Chécy Cedex– immatriculée en France sous le n° RCS 539 477 059.",
-      "page": 1
-    }
+  {
+   "term": "Revalorisation",
+   "definition": "l’assureur distribue, tous les ans, les bénéfices techniques et financiers suivant les dispositions réglementaires en vigueur.",
+   "page": 1
+  },
+  {
+   "term": "Rachat",
+   "definition": "l’assuré peut aussi racheter son contrat à tout moment. Il lui sera alors restitué une somme appelée « provisions mathématiques ». Le rachat met fin au contrat.",
+   "page": 2
+  },
+  {
+   "term": "Mise en réduction",
+   "definition": "l’assuré peut arrêter le paiement des cotisations sans effectuer de rachat. Les garanties du contrat sont alors « réduites » en proportion des cotisations déjà versées, mais continuent d’exister.",
+   "page": 2
+  }
+ ],
+ "coverages": [
+  {
+   "name": "Choix du capital",
+   "description": "Choix du capital : de 2 000 € à 12 000€. Le montant du capital est défini lors de la souscription.",
+   "is_optional": false,
+   "territorial_scope": "France métropolitaine et départements d’Outre-Mer",
+   "limits": "de 2 000 € à 12 000€",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Le montant du capital est défini lors de la souscription",
+    "Les garanties suivantes ne sont soumises à aucune sélection médicale"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Choix du/des bénéficiaire(s)",
+   "description": "Choix du/des bénéficiaire(s). Le capital est obligatoirement versé à l’opérateur des pompes funèbres qui aura eu en charge les obsèques ou à la personne physique qui règlera les obsèques. Le solde du capital ira aux bénéficiaires désignés sur les Conditions Particulières.",
+   "is_optional": false,
+   "territorial_scope": "France métropolitaine et départements d’Outre-Mer",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Les garanties suivantes ne sont soumises à aucune sélection médicale"
+   ],
+   "page": 1
+  },
+  {
+   "name": "La cotisation",
+   "description": "La cotisation : est fixe dans le temps.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Paiement des cotisations",
+   "description": "Paiement des cotisations : se fait sur une période de 10, 15, 20 ou 25 ans (paiement temporaire) ou durant toute la vie de l’assuré (paiement viager).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [
+    "10, 15, 20 ou 25 ans (paiement temporaire)",
+    "durant toute la vie de l’assuré (paiement viager)"
+   ],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Revalorisation",
+   "description": "Revalorisation : l’assureur distribue, tous les ans, les bénéfices techniques et financiers suivant les dispositions réglementaires en vigueur.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Augmentation du capital",
+   "description": "L’augmentation du capital est réservée aux personnes âgées de moins de 82 ans et ne peut intervenir qu’une seule fois dans la même année.",
+   "is_optional": true,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "est réservée aux personnes âgées de moins de 82 ans",
+    "ne peut intervenir qu’une seule fois dans la même année"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Assistance - Rapatriement du corps",
+   "description": "Rapatriement du corps.",
+   "is_optional": false,
+   "territorial_scope": "France métropolitaine et départements d’Outre-Mer ; les garanties Assistance sont acquises pour des séjours n’excédant pas 90 jours dans le reste du monde",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Assistance - Aide-ménagère",
+   "description": "Aide-ménagère : 3 heures par jour pendant les 10 jours suivant le décès.",
+   "is_optional": false,
+   "territorial_scope": "France métropolitaine et départements d’Outre-Mer ; les garanties Assistance sont acquises pour des séjours n’excédant pas 90 jours dans le reste du monde",
+   "limits": "3 heures par jour pendant les 10 jours suivant le décès",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Assistance - Garde des enfants et petits-enfants",
+   "description": "Garde des enfants et petits-enfants pendant 2 jours.",
+   "is_optional": false,
+   "territorial_scope": "France métropolitaine et départements d’Outre-Mer ; les garanties Assistance sont acquises pour des séjours n’excédant pas 90 jours dans le reste du monde",
+   "limits": "pendant 2 jours",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Assistance - Garde des animaux de compagnie (chiens et chats)",
+   "description": "Garde des animaux de compagnie (chiens et chats) : 10 jours maximum.",
+   "is_optional": false,
+   "territorial_scope": "France métropolitaine et départements d’Outre-Mer ; les garanties Assistance sont acquises pour des séjours n’excédant pas 90 jours dans le reste du monde",
+   "limits": "10 jours maximum",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Assistance - Accompagnement psychologique",
+   "description": "Accompagnement psychologique.",
+   "is_optional": false,
+   "territorial_scope": "France métropolitaine et départements d’Outre-Mer ; les garanties Assistance sont acquises pour des séjours n’excédant pas 90 jours dans le reste du monde",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Assistance téléphonique, résolution des questions administratives et juridiques, mise à disposition de courriers types",
+   "description": "Assistance téléphonique, résolution des questions administratives et juridiques, mise à disposition de courriers types.",
+   "is_optional": false,
+   "territorial_scope": "France métropolitaine et départements d’Outre-Mer ; les garanties Assistance sont acquises pour des séjours n’excédant pas 90 jours dans le reste du monde",
+   "limits": null,
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Suicide de l’assuré dans la première année",
+   "description": "Le suicide de l’assuré dans la première année qui suit la date d’effet du contrat, ou qui suit l’augmentation de garantie pour le capital ou la rente complémentaire.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Fait intentionnellement causé ou provoqué par un bénéficiaire",
+   "description": "Les conséquences d’un fait intentionnellement causé ou provoqué par un bénéficiaire condamné à ce titre, en cas de décès de l’assuré.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Participation volontaire et violente à des rassemblements, manifestations, mouvements populaires, rixes, jeux et paris",
+   "description": "Les conséquences de la participation volontaire et violente de l’assuré à des rassemblement, manifestations sur la voie publique, à des mouvements populaires, rixes, jeux et paris.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Restriction - Délai d’attente en cas de décès suite à maladie",
+   "description": "Les indemnités sont versées après application des délais d’attente suivants : Décès suite à maladie : 1 an.",
+   "applies_to": "all",
+   "page": 1
+  },
+  {
+   "name": "Restriction - Augmentation du capital réservée aux moins de 82 ans",
+   "description": "L’augmentation du capital est réservée aux personnes âgées de moins de 82 ans.",
+   "applies_to": "Augmentation du capital",
+   "page": 1
+  },
+  {
+   "name": "Restriction - Augmentation du capital une seule fois par an",
+   "description": "L’augmentation du capital ne peut intervenir qu’une seule fois dans la même année.",
+   "applies_to": "Augmentation du capital",
+   "page": 1
+  },
+  {
+   "name": "Décès suite à maladie survenant pendant le délai d’attente",
+   "description": "En cas de décès suite à maladie survenant pendant le délai d’attente, il est remboursé au(x) bénéficiaire(s) le montant des cotisations payées.",
+   "applies_to": "all",
+   "page": 1
+  }
+ ],
+ "deductibles": null,
+ "waiting_periods": [
+  {
+   "coverage": "Décès suite à maladie",
+   "duration": "1 an",
+   "description": "Les indemnités sont versées après application des délais d’attente suivants : Décès suite à maladie : 1 an. En cas de décès suite à maladie survenant pendant le délai d’attente, il est remboursé au(x) bénéficiaire(s) le montant des cotisations payées.",
+   "page": 1
+  }
+ ],
+ "obligations": [
+  {
+   "name": "Répondre exactement aux questions posées",
+   "description": "Répondre exactement aux questions posées lors de la souscription afin d’apprécier les risques et fixer la cotisation.",
+   "timing": "A la souscription du contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+   "page": 2
+  },
+  {
+   "name": "Déclarer les circonstances nouvelles",
+   "description": "Déclarer toutes les circonstances nouvelles qui modifient les informations fournies lors de la souscription.",
+   "timing": "En cours de contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+   "page": 2
+  },
+  {
+   "name": "Régler les cotisations",
+   "description": "Régler les cotisations à la date convenue.",
+   "timing": "En cours de contrat",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+   "page": 2
+  },
+  {
+   "name": "Fournir les pièces justificatives en cas de décès",
+   "description": "En cas de décès de l’assuré, fournir les pièces justificatives : la facture justifiant le financement des obsèques, l’acte de décès et le certificat médical précisant la cause de décès de l’assuré.",
+   "timing": "En cas de décès",
+   "sanction": "Sous peine de nullité du contrat d’assurance ou de non-garantie",
+   "page": 2
+  }
+ ],
+ "claims_procedure": [
+  {
+   "step": "Fournir les pièces justificatives",
+   "description": "En cas de décès de l’assuré, fournir les pièces justificatives : la facture justifiant le financement des obsèques, l’acte de décès et le certificat médical précisant la cause de décès de l’assuré.",
+   "deadline": null,
+   "page": 2
+  },
+  {
+   "step": "Application des délais d’attente avant versement",
+   "description": "Les indemnités sont versées après application des délais d’attente suivants : Décès suite à maladie : 1 an.",
+   "deadline": "1 an pour un décès suite à maladie",
+   "page": 1
+  },
+  {
+   "step": "Versement du capital",
+   "description": "Le capital est obligatoirement versé à l’opérateur des pompes funèbres qui aura eu en charge les obsèques ou à la personne physique qui règlera les obsèques. Le solde du capital ira aux bénéficiaires désignés sur les Conditions Particulières.",
+   "deadline": null,
+   "page": 1
+  }
+ ],
+ "duration_and_cancellation": {
+  "duration": "Le contrat prend effet à la date et l’heure indiquées aux Conditions Particulières. Le contrat est souscrit jusqu’à la prochaine échéance principale et est renouvelable par tacite reconduction à chaque nouvelle échéance principale avec les facultés de résiliation prévues. Le contrat prend fin de plein droit au décès de l’assuré.",
+  "tacit_renewal": true,
+  "notice_period": "Vous pouvez notamment mettre fin au contrat à l'échéance annuelle en respectant un préavis de deux mois.",
+  "methods": [
+   "par lettre ou tout autre support durable",
+   "par déclaration faite au siège social ou chez notre représentant",
+   "par acte extrajudiciaire",
+   "via la fonctionnalité mise en place sur le site internet",
+   "en cas de résiliation suite à modification de votre situation selon les termes des articles L113-16 et R.113-6 du Code des assurances, vous devrez notifier la résiliation par lettre recommandée (papier ou électronique) avec demande d'avis de réception"
   ],
-  "key_quotes": [
-    {
-      "quote": "Le contrat d’assurance Initiative Obsèques Capital permet à l’assuré de se constituer un capital afin de financer ses funérailles.",
-      "context": "De quel type d’assurance s’agit-il ?",
-      "page": 1
-    },
-    {
-      "quote": "Le capital est obligatoirement versé à l’opérateur des pompes funèbres qui aura eu en charge les obsèques ou à la personne physique qui règlera les obsèques.",
-      "context": "Bénéficiaire",
-      "page": 1
-    },
-    {
-      "quote": "Choix du capital : de 2 000 € à 12 000€. Le montant du capital est défini lors de la souscription,",
-      "context": "Les garanties et les modalités de gestion systématiquement prévues",
-      "page": 1
-    },
-    {
-      "quote": "Le suicide de l’assuré dans la première année qui suit la date d’effet du contrat, ou qui suit l’augmentation de garantie pour le capital ou la rente complémentaire",
-      "context": "Les principales exclusions",
-      "page": 1
-    },
-    {
-      "quote": "Les conséquences d’un fait intentionnellement causé ou provoqué par un bénéficiaire condamné à ce titre, en cas de décès de l’assuré",
-      "context": "Les principales exclusions",
-      "page": 1
-    },
-    {
-      "quote": "Les conséquences de la participation volontaire et violente de l’assuré à des rassemblement, manifestations sur la voie publique, à des mouvements populaires, rixes, jeux et paris",
-      "context": "Les principales exclusions",
-      "page": 1
-    },
-    {
-      "quote": "En cas de décès suite à maladie survenant pendant le délai d’attente, il est remboursé au(x) bénéficiaire(s) le montant des cotisations payées.",
-      "context": "Qu’est-ce qui n’est pas assuré ?",
-      "page": 1
-    },
-    {
-      "quote": "Les garanties de l’initiative Obsèques Capital s’exercent en France métropolitaine et dans les départements d’Outre-Mer.",
-      "context": "Où suis-je couvert ?",
-      "page": 2
-    },
-    {
-      "quote": "Les garanties Assistance sont acquises pour des séjours n’excédant pas 90 jours dans le reste du monde.",
-      "context": "Où suis-je couvert ?",
-      "page": 2
-    },
-    {
-      "quote": "Le contrat prend fin de plein droit au décès de l’assuré.",
-      "context": "Quand commence la couverture et quand prend-elle fin ?",
-      "page": 2
-    }
+  "special_rights": [
+   "L’assuré dispose d’un délai de renonciation de 30 jours dans tous les cas à compter de la conclusion du contrat.",
+   "Rachat : l’assuré peut aussi racheter son contrat à tout moment. Il lui sera alors restitué une somme appelée « provisions mathématiques ». Le rachat met fin au contrat.",
+   "Mise en réduction : l’assuré peut arrêter le paiement des cotisations sans effectuer de rachat. Les garanties du contrat sont alors « réduites » en proportion des cotisations déjà versées, mais continuent d’exister.",
+   "Les cas de résiliation, les délais à respecter sont ceux prévus par la règlementation et précisés dans les Dispositions Générales.",
+   "Nous vous confirmerons par écrit la réception de la notification."
   ],
-  "gaps": [
-    "Aucune date d’édition n’est imprimée dans le texte du document ; edition_date laissé null (le nom du fichier source mentionne 2026 mais cette information ne figure pas dans le document lui-même).",
-    "Aucune référence interne de document n’apparaît dans le texte ; reference laissé null.",
-    "Aucune franchise n’est mentionnée dans le document ; deductibles laissé null.",
-    "Aucun délai de prescription n’est mentionné dans le document ; prescription_period laissé null.",
-    "Le document ne comporte pas de section « Définitions » formelle : les entrées de definitions sont tirées des encadrés « Qu’est-ce qui est assuré ? » et « Quand commence la couverture et quand prend-elle fin ? ».",
-    "S’agissant d’un IPID de 2 pages, le document ne présente qu’un résumé des principales garanties et exclusions ; la liste exhaustive figure dans la notice d’information, non fournie.",
-    "Le montant des cotisations et la tarification ne figurent pas dans le document.",
-    "La « rente complémentaire » est mentionnée dans l’exclusion de suicide mais n’est décrite nulle part ailleurs dans le document."
-  ]
+  "page": 2
+ },
+ "prescription_period": null,
+ "premium": {
+  "notes": [
+   "La cotisation : est fixe dans le temps.",
+   "Paiement des cotisations : se fait sur une période de 10, 15, 20 ou 25 ans (paiement temporaire) ou durant toute la vie de l’assuré (paiement viager).",
+   "La cotisation annuelle se paie à la date ou aux dates indiquées sur les Conditions Particulières.",
+   "Un paiement fractionné peut toutefois être accordé au choix (Mensuel, Trimestriel, Semestriel ou Annuel).",
+   "Les paiements peuvent être effectués par chèque ou prélèvement automatique.",
+   "Revalorisation : l’assureur distribue, tous les ans, les bénéfices techniques et financiers suivant les dispositions réglementaires en vigueur."
+  ],
+  "indexation": null,
+  "page": 2
+ },
+ "special_conditions": [
+  {
+   "name": "Type de contrat",
+   "description": "Le contrat est de type vie entière et est en totale conformité avec la réglementation en vigueur.",
+   "page": 1
+  },
+  {
+   "name": "Conditions d’âge et de résidence de l’assuré",
+   "description": "L’assuré doit être âgé, à la souscription, d’au moins 18 ans et au maximum de 82 ans. Il doit résider sur le territoire métropolitain ou dans les départements d’Outre-Mer.",
+   "page": 1
+  },
+  {
+   "name": "Absence de sélection médicale",
+   "description": "Les garanties suivantes ne sont soumises à aucune sélection médicale.",
+   "page": 1
+  },
+  {
+   "name": "Garanties systématiquement prévues",
+   "description": "Les garanties précédées d’une coche sont systématiquement prévues au contrat.",
+   "page": 1
+  },
+  {
+   "name": "Portée du document d’information",
+   "description": "Ce document d’information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l’information complète sur ce produit dans la documentation précontractuelle et contractuelle, et notamment dans la notice d’information.",
+   "page": 1
+  },
+  {
+   "name": "Assureur",
+   "description": "Thélem prévoyance, SA à conseil d’administration au capital de 18 000 870 € – Entreprise régie par le Code des assurances. Siège Social : Le Croc – BP 63130 – 45431 Chécy Cedex– immatriculée en France sous le n° RCS 539 477 059.",
+   "page": 1
+  }
+ ],
+ "key_quotes": [
+  {
+   "quote": "Le contrat d’assurance Initiative Obsèques Capital permet à l’assuré de se constituer un capital afin de financer ses funérailles.",
+   "context": "De quel type d’assurance s’agit-il ?",
+   "page": 1
+  },
+  {
+   "quote": "Le capital est obligatoirement versé à l’opérateur des pompes funèbres qui aura eu en charge les obsèques ou à la personne physique qui règlera les obsèques.",
+   "context": "Bénéficiaire",
+   "page": 1
+  },
+  {
+   "quote": "Choix du capital : de 2 000 € à 12 000€. Le montant du capital est défini lors de la souscription,",
+   "context": "Les garanties et les modalités de gestion systématiquement prévues",
+   "page": 1
+  },
+  {
+   "quote": "Le suicide de l’assuré dans la première année qui suit la date d’effet du contrat, ou qui suit l’augmentation de garantie pour le capital ou la rente complémentaire",
+   "context": "Les principales exclusions",
+   "page": 1
+  },
+  {
+   "quote": "Les conséquences d’un fait intentionnellement causé ou provoqué par un bénéficiaire condamné à ce titre, en cas de décès de l’assuré",
+   "context": "Les principales exclusions",
+   "page": 1
+  },
+  {
+   "quote": "Les conséquences de la participation volontaire et violente de l’assuré à des rassemblement, manifestations sur la voie publique, à des mouvements populaires, rixes, jeux et paris",
+   "context": "Les principales exclusions",
+   "page": 1
+  },
+  {
+   "quote": "En cas de décès suite à maladie survenant pendant le délai d’attente, il est remboursé au(x) bénéficiaire(s) le montant des cotisations payées.",
+   "context": "Qu’est-ce qui n’est pas assuré ?",
+   "page": 1
+  },
+  {
+   "quote": "Les garanties de l’initiative Obsèques Capital s’exercent en France métropolitaine et dans les départements d’Outre-Mer.",
+   "context": "Où suis-je couvert ?",
+   "page": 2
+  },
+  {
+   "quote": "Les garanties Assistance sont acquises pour des séjours n’excédant pas 90 jours dans le reste du monde.",
+   "context": "Où suis-je couvert ?",
+   "page": 2
+  },
+  {
+   "quote": "Le contrat prend fin de plein droit au décès de l’assuré.",
+   "context": "Quand commence la couverture et quand prend-elle fin ?",
+   "page": 2
+  }
+ ],
+ "gaps": [
+  "Aucune date d’édition n’est imprimée dans le texte du document ; edition_date laissé null (le nom du fichier source mentionne 2026 mais cette information ne figure pas dans le document lui-même).",
+  "Aucune référence interne de document n’apparaît dans le texte ; reference laissé null.",
+  "Aucune franchise n’est mentionnée dans le document ; deductibles laissé null.",
+  "Aucun délai de prescription n’est mentionné dans le document ; prescription_period laissé null.",
+  "Le document ne comporte pas de section « Définitions » formelle : les entrées de definitions sont tirées des encadrés « Qu’est-ce qui est assuré ? » et « Quand commence la couverture et quand prend-elle fin ? ».",
+  "S’agissant d’un IPID de 2 pages, le document ne présente qu’un résumé des principales garanties et exclusions ; la liste exhaustive figure dans la notice d’information, non fournie.",
+  "Le montant des cotisations et la tarification ne figurent pas dans le document.",
+  "La « rente complémentaire » est mentionnée dans l’exclusion de suicide mais n’est décrite nulle part ailleurs dans le document.",
+  "edition_date remise a null le 2026-08-01: la valeur 2026 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5."
+ ]
 }

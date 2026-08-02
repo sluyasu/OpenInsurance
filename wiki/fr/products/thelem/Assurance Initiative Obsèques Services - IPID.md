@@ -12,7 +12,7 @@ target_audience_note: l’assuré doit être âgé, à la souscription, d’au m
   et au maximum de 82 ans. Il doit résider sur le territoire métropolitain ou dans
   les départements d’Outre-Mer.
 reference: null
-edition_date: '2026'
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/obseques
@@ -28,7 +28,7 @@ prompt_version: '1.1'
 product_family: initiative-obseques
 variant: Services
 edition_status: null
-edition_age_years: 0
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -42,7 +42,7 @@ generated: true
 
 L’assurance Initiative Obsèques Services est un contrat de type « Vie Entière » qui prévoit le financement des prestations funéraires, porté par Thélem Prévoyance, et l’organisation des obsèques, réalisée par Le Choix Funéraire. L’assuré personnalise sa formule avec les services suivants : préparation et organisation des obsèques, transport du défunt, choix du cercueil et de la cérémonie funéraire ; le montant du capital est fonction des prestations choisies (3 500 €, 4 500 € ou 6 000 €). Le bénéficiaire est Le Choix Funéraire (SA UDIFE) et les garanties ne sont soumises à aucune sélection médicale, la cotisation étant fixe dans le temps et payable sur 10, 15, 20 ou 25 ans ou de manière viagère. Le contrat comprend également des prestations d’assistance (rapatriement du corps, aide-ménagère, garde des enfants et des animaux de compagnie, accompagnement psychologique, assistance téléphonique).
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : IPID / Fiche d'information · Édition : 2026
+- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -203,10 +203,11 @@ Assistance téléphonique, résolution des questions administratives et juridiqu
 - Le montant des cotisations et la tarification ne figurent pas dans le document.
 - Le « capital supplémentaire » et l’« augmentation d’option » sont mentionnés dans l’exclusion de suicide mais ne sont décrits nulle part ailleurs dans le document.
 - Le contenu détaillé des prestations funéraires correspondant à chacun des trois niveaux de capital (3 500 €, 4 500 € ou 6 000 €) n’est pas précisé dans le document.
+- edition_date remise a null le 2026-08-01: la valeur 2026 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Documents liés
 
-- [Assurance Initiative Obsèques Capital - IPID](Assurance%20Initiative%20Obs%C3%A8ques%20Capital%20-%20IPID.md) - IPID / Fiche d'information, éd. 2026
+- [Assurance Initiative Obsèques Capital - IPID](Assurance%20Initiative%20Obs%C3%A8ques%20Capital%20-%20IPID.md) - IPID / Fiche d'information
 
 ## Source & fidélité
 

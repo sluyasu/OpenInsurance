@@ -19,7 +19,7 @@ target_audience_note: Le document ne déclare aucune catégorie de clientèle. P
   judiciaire du souscripteur. À la différence du contrat parallèle « 2R Rider », il
   n'impose aucune condition de qualité de Sociétaire.
 reference: CG MRSQ 2R INITIAL & CO - 10/24
-edition_date: 2024-10
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/moto
@@ -35,7 +35,7 @@ prompt_version: '1.1'
 product_family: multirisques-2-roues
 variant: Initiale & Co — Matmut & Co
 edition_status: null
-edition_age_years: 2
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -49,7 +49,7 @@ generated: true
 
 Conditions générales du contrat d'assurance Multirisques « 2 roues Initiale & Co », valant projet de contrat au sens de l'article L. 112-2 du Code des assurances, porté par Matmut & Co. Le contrat garantit les risques découlant de la propriété, de l'usage et/ou de la garde d'un véhicule terrestre à moteur à 2 ou 3 roues ou de type « quad » immatriculé en France ou à Monaco. Quatre formules sont proposées — Tiers, Tiers-Vol-Incendie, Urbaine et Équilibre —, la formule Urbaine ne pouvant être souscrite pour les cyclomoteurs et les quads et la formule Équilibre ne pouvant l'être pour les cyclomoteurs ; chaque formule associe des garanties en inclusion (Responsabilité civile et défense civile, Protection Juridique suite à accident, Assistance au véhicule et aux personnes transportées) et des garanties optionnelles (Dommages corporels du conducteur à 2 niveaux, Protection Juridique relative au bien assuré, protection complémentaire Assistance panne 0 kilomètre/rétention administrative du permis de conduire). Le document comprend également les modalités d'examen des réclamations, la fiche d'information relative au fonctionnement des garanties « Responsabilité civile » dans le temps et la charte de protection des données à caractère personnel.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Deux-roues, quads et voiturettes](../../branches/Deux-roues%2C%20quads%20et%20voiturettes.md) · Type : Conditions générales · Édition : 2024-10
+- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Deux-roues, quads et voiturettes](../../branches/Deux-roues%2C%20quads%20et%20voiturettes.md) · Type : Conditions générales
 
 ## Définitions
 
@@ -530,10 +530,11 @@ Conformément à l'article L.114-1 du Code des assurances, toutes actions dériv
 - ANNEXES PARTIELLEMENT SYNTHÉTISÉES. L'Annexe II (Assistance au véhicule et aux personnes transportées, pages 70 à 80) détaille prestation par prestation le domaine d'application, les bénéficiaires, les exclusions propres à l'assistance et les plafonds de dépannage-remorquage ; l'Annexe IV (pages 81 à 83) donne le barème d'heures de crédit de chaque service ; l'Annexe V (pages 84 à 89) donne des exemples chiffrés d'indemnités. L'objet, les plafonds et les barèmes principaux de ces annexes sont repris dans les garanties correspondantes, mais le libellé complet de chaque prestation d'assistance de l'Annexe II et le détail des exemples de l'Annexe V n'ont pas été transcrits ligne à ligne.
 - COQUILLE DE L'ASSUREUR CONSERVÉE TELLE QUELLE. À l'article 22-6 (page 44), le texte renvoie aux « frais irrépétibles, tels que définis à l'article 22-I D » (chiffre romain I au lieu du chiffre 1). Le renvoi est reproduit tel qu'imprimé et non corrigé. À noter que la coquille équivalente relevée dans « 2R Rider » à l'article 22-9 D (renvoi erroné à « l'article 27-6 ») est ici correcte : l'article 19-8 D renvoie bien à « l'article 19-6 », ce qui confirme que le renvoi de 2R Rider est bien une erreur de l'éditeur.
 - PAGES SANS CONTENU EXTRACTIBLE : aucune. Les 102 pages comportent une couche texte exploitable.
+- edition_date remise a null le 2026-08-01: la valeur 2024-10 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Documents liés
 
-- [2R Rider](2R%20Rider.md) - Conditions générales, éd. 2024-10
+- [2R Rider](2R%20Rider.md) - Conditions générales
 
 ## Source & fidélité
 

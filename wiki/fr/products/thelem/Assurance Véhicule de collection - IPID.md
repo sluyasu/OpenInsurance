@@ -13,7 +13,7 @@ target_audience_note: Le document ne désigne pas explicitement une clientèle. 
   est ouverte pour les contrats couvrant les personnes physiques en dehors de leurs
   activités professionnelles ».
 reference: null
-edition_date: 2024-07
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/auto
@@ -29,7 +29,7 @@ prompt_version: '1.1'
 product_family: assurance-vehicule-de-collection
 variant: null
 edition_status: null
-edition_age_years: 2
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -43,7 +43,7 @@ generated: true
 
 L’assurance Véhicules de collection est un contrat d’assurance de véhicule terrestre à moteur portant sur les véhicules de collection. Elle garantit systématiquement la responsabilité civile (dommages causés aux tiers par le véhicule, plafond illimité pour les dommages corporels / 100 millions € pour les dommages matériels, préjudice écologique) ainsi que la Défense Pénale et Recours Suite à Accident jusqu’à 16 000 €. En option, le contrat prévoit la Protection du conducteur jusqu’à 600 000 €, les Dommages au véhicule (bris de glaces, catastrophes naturelles et technologiques, attentats, forces de la nature, incendie et dommages électroniques, vol et tentative de vol, dommages tous accidents et vandalisme) et le Contenu de la cabine jusqu’à 1 000 €. Le document est un IPID de 2 pages qui, selon ses propres termes, ne présente qu’un résumé des principales garanties et exclusions du contrat.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 2024-07
+- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -181,6 +181,7 @@ Garantir le contenu de la cabine du véhicule jusqu’à 1 000 €.
 - Le titre de la page 1 indique « Assurance Véhicules de collection » alors que la ligne « Produit : » indique « Assurance Véhicule de collection » ; product_name reprend la ligne « Produit : ».
 - Le document indique lui-même n’être qu’un résumé : « Ce document d’information présente un résumé des principales garanties et exclusions du contrat ». La liste exhaustive des garanties, exclusions et franchises figure dans les Dispositions Générales, non fournies ici.
 - Les délais et cas de résiliation ne sont pas détaillés : le document renvoie à la réglementation et aux Dispositions Générales.
+- edition_date remise a null le 2026-08-01: la valeur 2024-07 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

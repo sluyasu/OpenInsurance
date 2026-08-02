@@ -20,7 +20,7 @@ target_audience_note: Le document ne désigne aucune catégorie de clientèle. I
   5) et les droits de renonciation des articles 43-4 et 43-5 ne visent que la personne
   « souscrivant à titre privé ».
 reference: CG CAMPING-CAR AUTO 4D - 10/24
-edition_date: 2024-10
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/auto
@@ -36,7 +36,7 @@ prompt_version: '1.1'
 product_family: camping-car-auto-4d
 variant: null
 edition_status: null
-edition_age_years: 2
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -50,7 +50,7 @@ generated: true
 
 Conditions générales du contrat d'assurance Multirisques « Camping-car Auto 4D » Matmut, valant projet de contrat au sens de l'article L. 112-2 du Code des assurances. Le contrat garantit les risques découlant de la propriété, de l'usage et/ou de la garde d'un camping-car immatriculé en France ou à Monaco et soumis à l'obligation légale d'assurance ; il ne peut être souscrit que par un proposant préalablement admis comme Sociétaire de la Matmut. Il est proposé en 4 formules — Tiers, Tiers-Vol-Incendie, Tous risques et Tous risques Plus — combinant garanties en inclusion et options : Responsabilité civile et défense civile, garanties des Dommages au véhicule assuré (bris de pare-brise et de glaces, vol, incendie-attentat-tempête, catastrophes naturelles et technologiques, dommages collision, dommages accidents-vandalisme, accessoires et aménagements), garanties des Dommages aux biens transportés (effets personnels, marchandises et outillage professionnels), garanties Renfort indemnisation, garanties Mobilité (assistance, assistance panne 0 km, véhicule de remplacement, panne mécanique), garantie du conducteur et garanties de Protection Juridique. Les spécificités camping-car sont explicites : les aménagements « camping/caravaning » (auvent, chauffe-eau…) sont assimilés à des éléments du véhicule assuré, les baies de la cellule sont exclues du Bris de glaces, la cellule aménagée et ses équipements sont hors garantie Panne mécanique, le véhicule de remplacement ne peut pas être un camping-car et les dommages purement esthétiques non réparés d'un camping-car ne sont évalués qu'à 25 % du coût estimé hors taxes des réparations. Le porteur de risque désigné par « Nous » est la Matmut, Société d'assurance mutuelle à cotisations variables (article 39-4 : le Conseil d'Administration peut décider un rappel de cotisation, plafonné à deux fois le montant de la cotisation annuelle appelée), sauf pour la garantie Protection Juridique relative au bien assuré, portée par Matmut Protection Juridique (SA au capital de 7 500 000 €, N° 423 499 391 RCS Rouen), et pour les garanties d'Assistance, mises en œuvre par Matmut Assistance / Inter Mutuelles Assistance GIE.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : 2024-10
+- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales
 
 ## Définitions
 
@@ -772,6 +772,7 @@ Conformément à l'article L.114-1 du Code des assurances, toutes actions dériv
 - Pagination : les folios imprimés sont décalés d'une unité par rapport aux pages du PDF (folio = page PDF − 1, p. ex. le folio « 59 » de l'article 30 correspond à la page 60 du PDF). Toutes les valeurs du champ page se réfèrent aux marqueurs [page N] du PDF, non aux folios imprimés. Le sommaire (pages 3-4) renvoie aux folios.
 - Le texte fourni dans le prompt a été vérifié page par page contre le PDF local (data/fr/pdfs/matmut/auto/camping-car-auto-4d-0bc95ade.pdf, sha256 138d4a37ea9820e823c0794064e0f2858c07f4d63e91f1bb367b2d336148f863, 126 pages) réextrait avec page.get_text("text") : les 126 pages sont identiques caractère par caractère (au séparateur de page près). Les citations de key_quotes ont été découpées programmatiquement dans ce texte page par page, sans jamais franchir une frontière de page.
 - Convention de nommage des définitions : le document définit plusieurs fois les mêmes mots dans des sections différentes (« Accident », « France », « Sinistre », « Tiers », « Réclamation », « Personnes assurées »). Pour éviter les collisions, le champ term porte un qualificatif entre parenthèses indiquant la source (p. ex. « Accident (Annexe II) », « Frais irrépétibles (28-1 D et 29-1 D) », « Usage Privé (Déplacements privés) ») ; le libellé imprimé est celui qui précède le qualificatif. Les définitions issues de listes à puces (Éléments du véhicule, Perte totale du véhicule assuré, Personnes assurées et Tiers en Protection Juridique) ont été mises à plat en prose, ponctuation de liste comprise.
+- edition_date remise a null le 2026-08-01: la valeur 2024-10 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

@@ -14,7 +14,7 @@ target_audience_note: Le document ne comporte pas de rubrique « à qui s'adress
   étant donc l'entreprise. Une option vise par ailleurs « les professions libérales
   ».
 reference: PRE10001
-edition_date: 2024-06
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/prevoyance
@@ -30,7 +30,7 @@ prompt_version: '1.1'
 product_family: assurance-perte-de-revenus-homme-cle
 variant: null
 edition_status: null
-edition_age_years: 2
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-08-01'
@@ -44,7 +44,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de l'« Assurance perte de revenus homme clé », contrat de prévoyance de MAAF Assurances SA. Ce contrat d’assurance prévoit l’indemnisation de l’entreprise suite à l’arrêt de travail de l’homme clé (personne jouant un rôle déterminant dans l’entreprise) consécutifs à un accident corporel ou une maladie. Les garanties systématiquement prévues portent sur l'arrêt total de travail (versement d'indemnités journalières, dispense de règlement des cotisations et assistance aux personnes) ; trois garanties optionnelles complètent l'arrêt total de travail. La souscription est soumise à une acceptation médicale et l'indemnisation est versée dans la limite du montant souscrit, revalorisé chaque année ; la couverture s'exerce dans le monde entier.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : IPID / Fiche d'information · Édition : 2024-06
+- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -162,6 +162,7 @@ Garantie optionnelle pour l'arrêt total de travail : « Versement d'une indemni
 - Couche texte : le PDF contient 39 apostrophes courbes (U+2019) et une espace insécable (U+00A0) dans « 542 073 580 ». Les citations ont été découpées programmatiquement dans le texte extrait par page.get_text("text") (sauts de ligne ramenés à des espaces) et sont conformes au caractère près à la couche texte ; aucune ligature ni glyphe de zone privée détecté.
 - Aucune troncature : le texte du prompt correspond caractère pour caractère au texte réextrait du PDF local pour les 2 pages (vérifié).
 - La rubrique « Les garanties systématiquement prévues » regroupe en une seule puce trois prestations distinctes (indemnités journalières, dispense de cotisations, assistance aux personnes) ; elles ont été éclatées en trois garanties, le document ne détaillant ni la dispense de cotisations ni l'assistance.
+- edition_date remise a null le 2026-08-01: la valeur 2024-06 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

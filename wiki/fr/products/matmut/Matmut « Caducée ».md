@@ -18,7 +18,7 @@ target_audience_note: 'Sous-titre du document : « Conditions Générales Matmut
   être une personne morale de type Société Civile Professionnelle (SCP) ou Société
   d''Exercice Libéral (SEL).'
 reference: MC.30 – 11/24
-edition_date: 2024-11
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/multirisque-professionnelle
@@ -33,8 +33,8 @@ extraction_model: claude-code-subagent:scale
 prompt_version: '1.1'
 product_family: caducee
 variant: null
-edition_status: current
-edition_age_years: 2
+edition_status: null
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -48,7 +48,7 @@ generated: true
 
 Conditions générales du contrat Matmut « Caducée », contrat d'assurance destiné aux professions médicales et aux auxiliaires médicaux, valant projet de contrat au sens de l'article L. 112-2 du Code des assurances. Il a pour objet, en fonction de la formule souscrite, d'assurer les responsabilités et/ou les biens dans le cadre de l'activité professionnelle de l'assuré ou de son Internat en Médecine. Trois formules sont proposées : « Cabinet médical », « Responsabilité civile médicale professionnelle » et « Responsabilité civile médicale de l'Interne en médecine », combinant selon les cas la responsabilité civile (médicale, exploitation, liée au local), les dommages aux biens, l'assistance au local professionnel, les préjudices financiers et la protection juridique. La garantie « Responsabilité civile médicale professionnelle » est déclenchée par la réclamation conformément aux articles L. 1142-2 du Code de la Santé Publique et L. 251-2 du Code des assurances, avec une période subséquente de cinq ans (dix ans en cas de cessation définitive d'activité ou de décès).
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : Conditions générales · Édition : 2024-11
+- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : Conditions générales
 
 ## Définitions
 
@@ -631,10 +631,10 @@ Toute action dérivant du présent contrat, qu'il s'agisse de sa validité ou de
 - L'article 22-3 (sinistres sériels, page 41) renvoie aux « cas et conditions de l'article 20-2 » pour la période de garantie subséquente, alors que la garantie subséquente est traitée à l'article 22-2 ; l'article 20-2 porte sur les délais de déclaration de sinistre. Le renvoi est reproduit tel quel sans correction.
 - L'Annexe I (Protection Juridique – honoraires et frais garantis TTC, pages 52-53) est un tableau à deux colonnes dont la couche texte alterne libellé et montant sur des lignes séparées. Les correspondances libellé/montant ont été reconstituées dans cet ordre. Une entrée est ambiguë : sous « Assistance », le libellé « à instruction (sur convocation du juge) » n'est suivi d'aucun montant avant la ligne « Requêtes 414,00 € » ; le montant applicable à l'assistance à instruction n'est donc pas déterminable sur cette couche texte.
 - Les garanties d'Assistance renvoient à l'Annexe II pour leur contenu détaillé ; les prestations y sont décrites en nature (organisation et prise en charge) sans plafond financier chiffré, à l'exception des limites de durée et de distance reproduites (48 heures de gardiennage, 50 kilomètres, un mois).
+- edition_date remise a null le 2026-08-01: la valeur 2024-11 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Documents liés
 
-- Édition courante de ce produit.
 - [Caducée](Caduc%C3%A9e.md) - Conditions générales, éd. 05/23
 
 ## Source & fidélité

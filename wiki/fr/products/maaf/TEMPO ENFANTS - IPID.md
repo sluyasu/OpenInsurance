@@ -12,7 +12,7 @@ target_audience_note: 'Le document ne désigne aucun public cible. Il indique se
   qui est assuré : « Votre enfant désigné aux conditions particulières. » et précise
   que certaines garanties dépendent de « l''âge de l''enfant ».'
 reference: HAB11015
-edition_date: 2026-05
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/rc-privee
@@ -28,7 +28,7 @@ prompt_version: '1.1'
 product_family: tempo-enfants
 variant: null
 edition_status: null
-edition_age_years: 0
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-08-01'
@@ -42,7 +42,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du contrat TEMPO ENFANTS, présenté comme une « Assurance Vie privée » de MAAF Assurances SA. Ce contrat d’assurance vous permet de couvrir les dommages matériels et corporels que peut subir votre enfant dans le cadre de sa vie privée et de ses activités scolaires et extra scolaires. L'assuré est « Votre enfant désigné aux conditions particulières ». Les garanties de base réunissent les frais de santé, la garantie Individuelle accident (plafond 200 000 €), les frais de transport, les dommages et vol de vêtements, le rachat de franchise Responsabilité civile, l'Assistance à domicile et l'Assistance aux personnes ; s'y ajoutent des garanties optionnelles (Responsabilité civile plafonnée à 10 000 000 €, Défense pénale et recours suite à accident plafonnée à 20 000 €) et, en fonction de l'âge de l'enfant, quatre garanties supplémentaires. Le document est un résumé et renvoie à la documentation précontractuelle et contractuelle.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Responsabilité civile vie privée](../../branches/Responsabilit%C3%A9%20civile%20vie%20priv%C3%A9e.md) · Type : IPID / Fiche d'information · Édition : 2026-05
+- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Responsabilité civile vie privée](../../branches/Responsabilit%C3%A9%20civile%20vie%20priv%C3%A9e.md) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -166,6 +166,7 @@ Garantie optionnelle proposée « en fonction de l'âge de l'enfant » : « Domm
 - Porteur de risque déterminé sans ambiguïté : le document n'imprime qu'une seule entité, MAAF Assurances SA, avec la mention « Entreprise régie par le code des assurances - RCS Niort 542 073 580 - code APE 6512 Z ». Aucune clause générique listant plusieurs assureurs possibles.
 - Couche texte : 22 apostrophes courbes (U+2019) et une espace insécable (U+00A0) dans « 542 073 580 » ; le document mélange apostrophes courbes et apostrophes ASCII à l'intérieur d'une même phrase d'exclusion. Les citations ont été découpées programmatiquement dans le texte extrait par page.get_text("text") (sauts de ligne ramenés à des espaces). Aucune ligature perdue ni glyphe de zone privée détecté.
 - Aucune troncature : le texte du prompt correspond caractère pour caractère au texte réextrait du PDF local pour les 2 pages (vérifié).
+- edition_date remise a null le 2026-08-01: la valeur 2026-05 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

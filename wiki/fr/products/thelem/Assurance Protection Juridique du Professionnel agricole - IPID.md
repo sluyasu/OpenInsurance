@@ -12,7 +12,7 @@ target_audience_note: 'Bénéficiaire : souscripteur du contrat (personne physiq
   morale). Les litiges couverts sont ceux survenant dans le cadre de l’activité agricole
   déclarée (exploitant agricole).'
 reference: null
-edition_date: 2026-01
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/protection-juridique
@@ -28,7 +28,7 @@ prompt_version: '1.1'
 product_family: assurance-protection-juridique-du-professionnel-agricole
 variant: null
 edition_status: null
-edition_age_years: 0
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -42,7 +42,7 @@ generated: true
 
 L’Assurance Protection Juridique du Professionnel agricole met à disposition une équipe de juristes (téléphone, internet) pour répondre à toutes questions, défendre les droits des assurés et les accompagner ; elle prend également en charge les frais engagés en cas de procédure. Elle couvre la défense des droits de l’assuré, avec conseil et accompagnement en vue de la résolution amiable ou judiciaire du litige (en demande ou en défense) et prise en charge des frais engagés ou diligentés, avec accord préalable de l’assureur, dans la limite de 20 000 € par litige. Les litiges garantis sont ceux survenant dans le cadre de l’activité agricole déclarée : infraction liée au statut d’exploitant agricole, relations avec les administrations, relations contractuelles, relations avec les concurrents et les salariés, protection des salariés et protection des droits en qualité de locataire ou propriétaire des biens immobiliers d’exploitation. Le recouvrement de créances est également prévu, sa prise en charge étant limitée à 3 000 € sous réserve d’une franchise de 10% maximum 800 €.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Protection juridique](../../branches/Protection%20juridique.md) · Type : IPID / Fiche d'information · Édition : 2026-01
+- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Protection juridique](../../branches/Protection%20juridique.md) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -205,6 +205,7 @@ Prise en charge des litiges dans lequel l’assuré est conduit à réclamer le 
 - Aucun mécanisme d’indexation de la cotisation n’est décrit ; les modalités de fractionnement du paiement ne sont pas précisées.
 - La durée du contrat n’est pas chiffrée : elle renvoie à la durée prévue aux Conditions Particulières.
 - target_audience renseigné à « entreprises » à partir de la seule formulation du document (« souscripteur du contrat (personne physique ou morale) », « activité agricole déclarée ») ; le document n’utilise aucune des catégories de l’énumération.
+- edition_date remise a null le 2026-08-01: la valeur 2026-01 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

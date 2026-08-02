@@ -11,7 +11,7 @@ target_audience: null
 target_audience_note: 'Produit destiné aux associations. « Les assurés : souscripteur,
   le président et les membres du bureau, les adhérents. »'
 reference: null
-edition_date: 2023-07
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/rc-privee
@@ -27,7 +27,7 @@ prompt_version: '1.1'
 product_family: responsabilite-civile-association
 variant: null
 edition_status: null
-edition_age_years: 3
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -41,7 +41,7 @@ generated: true
 
 L’assurance responsabilité civile association de Thélem assurances garantit les conséquences pécuniaires de la responsabilité civile que l’assuré peut encourir en raison des dommages corporels, matériels et immatériels consécutifs causés à autrui à l’occasion de ses activités associatives, y compris de ses manifestations temporaires privées ou publiques déclarées. Les assurés sont le souscripteur, le président et les membres du bureau ainsi que les adhérents. Le contrat prévoit systématiquement la responsabilité civile de l’association, la responsabilité en tant qu’organisateur de manifestations privées ou publiques déclarées et la défense pénale et recours suite à accident ; une garantie optionnelle couvre les indemnités contractuelles en cas d’accident (décès, invalidité permanente, frais de recherche et de secours). Le présent document est un document d’information sur le produit d’assurance (IPID) qui présente un résumé des principales garanties et exclusions du contrat.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Responsabilité civile vie privée](../../branches/Responsabilit%C3%A9%20civile%20vie%20priv%C3%A9e.md) · Type : IPID / Fiche d'information · Édition : 2023-07
+- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Responsabilité civile vie privée](../../branches/Responsabilit%C3%A9%20civile%20vie%20priv%C3%A9e.md) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -194,6 +194,7 @@ Indemnités contractuelles en cas d’accident au cours ou à l’occasion d’a
 - Le délai de prescription n’est pas mentionné dans le document : prescription_period laissé à null.
 - Le délai contractuel de déclaration de sinistre n’est pas chiffré (« au plus tard dans le délai fixé par le contrat »).
 - La couche texte du PDF restitue les rubriques dans un ordre différent de la mise en page (les rubriques « Où suis-je couvert ? » et « Quand commence la couverture… » apparaissent en fin de page 2) ; aucun contenu ne paraît manquant.
+- edition_date remise a null le 2026-08-01: la valeur 2023-07 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

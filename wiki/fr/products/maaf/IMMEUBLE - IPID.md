@@ -13,7 +13,7 @@ target_audience_note: Le document n'énonce aucune catégorie de clientèle. Il 
   ou inoccupé et son contenu », et vise « L'immeuble donné en location et son contenu
   », « La maison, l'appartement ou l'immeuble inoccupés » et « Leurs dépendances ».
 reference: MU0_IPIDHA_00-250315-GqMS1D-1-1-2-22:19:13- HAB11009
-edition_date: 2025-03
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/habitation
@@ -29,7 +29,7 @@ prompt_version: '1.1'
 product_family: immeuble
 variant: null
 edition_status: null
-edition_age_years: 1
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-08-01'
@@ -43,7 +43,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) relatif au contrat IMMEUBLE, une assurance Habitation portée par MAAF Assurances SA, entreprise régie par le code des assurances (RCS Niort 542 073 580). Le contrat couvre les dommages que peut subir un bien immobilier donné en location ou inoccupé et son contenu, ainsi que la responsabilité civile pour les dommages que ce bien peut causer à un tiers. Les garanties de base regroupent sept garanties Habitation (incendie, dégâts des eaux, événements climatiques, émeutes, catastrophes naturelles, catastrophes technologiques, terrorisme), la perte des loyers plafonnée à 2 ans de loyers ou de valeur locative, les dommages causés par les secours, les frais annexes, la responsabilité civile habitation (plafond 20 000 000 €), la défense pénale et recours suite à accident (plafond 20 000 €), l'assistance aux personnes et les renseignements juridiques. Le document précise qu'il ne présente qu'un résumé des principales garanties et exclusions.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information · Édition : 2025-03
+- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -168,6 +168,7 @@ Garantie de base. Le document se limite à l'intitulé, sans description, sans p
 - AUCUNE DÉFINITION, AUCUNE PRESCRIPTION : IPID de 2 pages, sans lexique ni article de définitions (definitions[] vide), sans délai de carence (waiting_periods vide) et sans clause de prescription (prescription_period null).
 - PAS DE TRONCATURE : le texte du prompt couvre l'intégralité des 2 pages annoncées (source_pages: 2) ; il n'a pas été tronqué par le budget de caractères et les deux pages ont une couche texte exploitable. Les citations ont été découpées page par page après retrait des marqueurs [page N], donc aucune ne traverse une frontière de page.
 - PRODUCT_NAME : la page de garde superpose « Assurance Habitation » (ligne de type d'assurance) et « IMMEUBLE » à l'emplacement du nom commercial ; product_name retient « IMMEUBLE », en capitales comme imprimé. Le document ne se présente jamais comme une option, une extension ou un avenant d'un contrat de base (is_extension: false).
+- edition_date remise a null le 2026-08-01: la valeur 2025-03 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Documents liés
 

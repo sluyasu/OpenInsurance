@@ -11,7 +11,7 @@ document_type: other
 target_audience: particuliers
 target_audience_note: null
 reference: null
-edition_date: '2026'
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/sante
@@ -27,7 +27,7 @@ prompt_version: '1.1'
 product_family: primordiale
 variant: Formules NON responsables et solidaires
 edition_status: null
-edition_age_years: 0
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -41,7 +41,7 @@ generated: true
 
 Document « Exemples de remboursements 2026 » de Thélem assurances, établi au titre de la Lisibilité des contrats d’assurance complémentaire santé, pour les formules NON responsables et solidaires PRIMORDIALE 1, PRIMORDIALE 2 et PRIMORDIALE 3. Il présente, pour les principaux postes de soins (hospitalisation, soins courants, dentaire, optique, aides auditives), le tarif le plus souvent facturé ou le tarif réglementé, la base de remboursement de la sécurité sociale (BR), le remboursement de l’assurance maladie obligatoire (AMO), puis le remboursement de l’assurance maladie complémentaire (AMC) et le reste à charge pour chacune des trois formules. Les contrats sont dits « NON responsables » quand ils ne respectent pas des obligations fixées par la règlementation, notamment des minimums et maximums de remboursement ainsi que des interdictions de prise en charge. Le document précise que ces exemples ne peuvent se substituer aux documents contractuels qui seuls engagent l’organisme de complémentaire santé.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Document · Édition : 2026
+- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Document
 
 ## Définitions
 
@@ -426,6 +426,7 @@ AIDES AUDITIVES – Équipement (hors 100% santé). Tarif le plus souvent factur
 - Page 3, le libellé du panier 100% santé dentaire est imprimé « Honoraires de facturation (HLF) » ; il a été repris tel quel.
 - Page 1, ligne « Frais de séjour en secteur privé », le tarif est imprimé « 838,98 € » sans la mention « Tarif moyen de » qui précède les autres montants moyens du tableau.
 - Les mentions « Selon contrat », « Prise en charge si prévu au contrat » et « Dépassements si prévu au contrat » renvoient au contrat souscrit : le document ne chiffre pas ces prises en charge. Aucune garantie n’est présentée comme optionnelle : is_optional est à false pour toutes les lignes.
+- edition_date remise a null le 2026-08-01: la valeur 2026 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

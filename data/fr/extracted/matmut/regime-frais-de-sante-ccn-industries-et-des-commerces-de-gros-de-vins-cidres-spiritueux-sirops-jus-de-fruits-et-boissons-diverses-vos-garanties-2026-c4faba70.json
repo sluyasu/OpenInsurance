@@ -1,1316 +1,1316 @@
 {
-  "schema_version": "1.0",
-  "prompt_version": "1.1",
-  "country": "fr",
-  "insurer_slug": "matmut",
-  "insurer_name": "Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477",
-  "product_name": "Régime frais de santé CCN Industries et des commerces de gros de vins, cidres, spiritueux, sirops, jus de fruits et boissons diverses — Vos garanties 2026",
-  "branch": "sante",
-  "branch_code": null,
-  "document_type": "product_sheet",
-  "language": "fr",
-  "target_audience": null,
-  "target_audience_note": "Le document ne désigne aucun public cible. Il s'intitule « Régime frais de santé / CCN Industries et des commerces de gros de vins, cidres, spiritueux, sirops, jus de fruits et boissons diverses » et parle d'« adhérent » et de « bénéficiaire ».",
-  "reference": "CCN VINS SPIRITUEUX-0925",
-  "edition_date": null,
-  "product_family": "Régime frais de santé CCN Industries et commerces de gros de vins, cidres, spiritueux, sirops, jus de fruits et boissons diverses",
-  "variant": null,
-  "is_extension": false,
-  "extends": null,
-  "superseded": null,
-  "source_url": "https://www.matmut.fr/pro/pdf/CCN-VINS-SPIRITUEUX-garanties-sante.pdf",
-  "source_pdf": "tableau-de-garanties-sante-ccn-vins-spiritueux-c4faba70.pdf",
-  "source_sha256": "b502a4604cc324ce8b7e0aa1b5cc6430ef211e47d9d405fa0da843d762b20f9c",
-  "source_pages": 8,
-  "fetched_at": "2026-07-30",
-  "extraction_model": "claude-code-subagent:scale",
-  "summary": "Tableau de garanties du régime frais de santé de la CCN Industries et des commerces de gros de vins, cidres, spiritueux, sirops, jus de fruits et boissons diverses, présentant trois niveaux de couverture (NIVEAU 1, NIVEAU 2, NIVEAU 3) pour les actes médicaux, l'hospitalisation (y compris obstétrique), des garanties complémentaires, le dentaire, l'optique, les aides auditives et le sport sur ordonnance. Les remboursements sont exprimés en pourcentage de la Base de Remboursement (BR) y compris la part du régime obligatoire, en frais réels ou en forfaits en euros. Le document ajoute une assistance et une série de services inclus dans les trois niveaux, puis des exemples chiffrés de remboursements. Il précise être un document non contractuel.",
-  "definitions": [
-    {
-      "term": "BR",
-      "definition": "Base de Remboursement",
-      "page": 3
-    },
-    {
-      "term": "OPTAM",
-      "definition": "Option de Pratique Tarifaire Maîtrisée",
-      "page": 3
-    },
-    {
-      "term": "TM",
-      "definition": "Ticket Modérateur",
-      "page": 3
-    },
-    {
-      "term": "SS",
-      "definition": "Sécurité Sociale",
-      "page": 3
-    },
-    {
-      "term": "PMSS",
-      "definition": "Plafond Mensuel de la Sécurité Sociale",
-      "page": 3
-    },
-    {
-      "term": "FR",
-      "definition": "Frais Réels",
-      "page": 3
-    },
-    {
-      "term": "RO",
-      "definition": "Régime Obligatoire",
-      "page": 3
-    },
-    {
-      "term": "DPTM",
-      "definition": "Dispositif de Pratique Tarifaire Maîtrisée",
-      "page": 3
-    },
-    {
-      "term": "DE",
-      "definition": "Dépense Engagée",
-      "page": 3
-    },
-    {
-      "term": "SMR",
-      "definition": "Service Médical Rendu",
-      "page": 3
-    },
-    {
-      "term": "Prothèses relevant du 100 % Santé sans reste à charge",
-      "definition": "Couronne et bridge métalliques (toutes dents), couronne céramique zircone (dents hors molaires), couronne céramométallique et céramique hors zircone (incisives, canines et 1ères prémolaires), bridge céramométallique (incisives), prothèses amovibles à plaque base résine. Leurs prix sont encadrés par des Prix Limites de Vente (PLV). (renvoi 7)",
-      "page": 3
-    },
-    {
-      "term": "Prothèses à tarifs maîtrisés",
-      "definition": "Prothèses à tarifs maîtrisés plafonnés aux Prix Limites de Vente (PLV) fixés règlementairement. (renvoi 8)",
-      "page": 3
-    },
-    {
-      "term": "Prothèses à tarifs libres",
-      "definition": "Le professionnel de santé est libre de fixer les prix de ces équipements. (renvoi 9)",
-      "page": 3
-    },
-    {
-      "term": "Équipement relevant du 100 % Santé (verres et monture de classe A)",
-      "definition": "Équipement sans reste à charge : les montures de classe A doivent respecter les normes européennes avec un prix inférieur ou égal à 30€. Les verres de classe A doivent répondre à des critères fixés réglementairement : verres traitant l'ensemble des troubles visuels, amincis en fonction du trouble, durcis pour éviter les rayures, traités anti-reflet. Leurs prix sont encadrés par des Prix Limites de Vente (PLV). (renvoi 10)",
-      "page": 3
-    },
-    {
-      "term": "Équipement à tarif libre (verres et monture de classe B)",
-      "definition": "Le professionnel est libre de fixer les prix de ces équipements. Forfait pour une paire de lunettes (1 monture + 2 verres) incluant le remboursement de la Sécurité sociale. (renvoi 11)",
-      "page": 3
-    },
-    {
-      "term": "Équipement relevant du 100 % Santé (aides auditives classe I)",
-      "definition": "Équipement sans reste à charge : contours d'oreille classiques, contours à écouteurs déportés, intra-auriculaires, 30 jours d'essai et 4 ans de garantie fabricant, au moins 3 options (système anti-acouphène, connectivité sans fil, réducteur bruit du vent…) (renvoi 13)",
-      "page": 3
-    },
-    {
-      "term": "Équipement à tarif libre (aide auditive de classe II)",
-      "definition": "Entretien (y compris le changement des piles), réglages, réparation prothèses auditives réalisée par l'audioprothésiste prise en charge à hauteur de 100 % de la base de remboursement de la Sécurité sociale. Le contrat responsable impose depuis le 01/01/2021 un plafond de 1 700 € y compris le remboursement de la sécurité sociale par prothèse. (renvoi 14)",
-      "page": 3
-    },
-    {
-      "term": "HLF",
-      "definition": "Honoraires Limites de Facturation (sigle utilisé dans le poste dentaire et développé au renvoi 6 : « Prise en charge dans la limite des Honoraires Limites de Facturation (HLF) »).",
-      "page": 3
-    }
-  ],
-  "coverages": [
-    {
-      "name": "Consultations et visites - Médecins généralistes/spécialistes - Praticiens adhérents au DPTAM",
-      "description": "Actes médicaux : consultations et visites de médecins généralistes/spécialistes chez des praticiens adhérents au DPTAM.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 130 % BR | NIVEAU 2 : 370 % BR | NIVEAU 3 : 400 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Consultations et visites - Médecins généralistes/spécialistes - Praticiens non adhérents au DPTAM",
-      "description": "Actes médicaux : consultations et visites de médecins généralistes/spécialistes chez des praticiens non adhérents au DPTAM.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 110 % BR | NIVEAU 2 : 200 % BR | NIVEAU 3 : 200 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Analyses et examens de laboratoire",
-      "description": "Actes médicaux : analyses et examens de laboratoire.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 120 % BR | NIVEAU 2 : 370 % BR | NIVEAU 3 : 400 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Actes techniques d'imagerie médicale",
-      "description": "Actes médicaux : actes techniques d'imagerie médicale (renvoi 1).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 130 % BR | NIVEAU 2 : 370 % BR | NIVEAU 3 : 400 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Le taux de prise en charge indiqué s'applique aux actes et soins réalisés par des médecins ayant adhéré au à l'Option de Pratique Tarifaire Maîtrisée (OPTAM ou OPTAM-ACO). Ce taux est minoré de 20 % et limité à 200 % pour les médecins non adhérents (renvoi 1, page 3)"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Honoraires médecins radiologues - Adhérents au DPTAM",
-      "description": "Actes médicaux : honoraires de médecins radiologues adhérents au DPTAM.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 130 % BR | NIVEAU 2 : 370 % BR | NIVEAU 3 : 400 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Honoraires médecins radiologues - Non adhérents au DPTAM",
-      "description": "Actes médicaux : honoraires de médecins radiologues non adhérents au DPTAM.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 110 % BR | NIVEAU 2 : 200 % BR | NIVEAU 3 : 200 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Auxiliaires médicaux",
-      "description": "Actes médicaux : auxiliaires médicaux.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 120 % BR | NIVEAU 2 : 360 % BR | NIVEAU 3 : 400 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Actes de spécialistes - Praticiens adhérents au DPTAM",
-      "description": "Actes médicaux : actes de spécialistes chez des praticiens adhérents au DPTAM.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 130 % BR | NIVEAU 2 : 370 % BR | NIVEAU 3 : 400 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Actes de spécialistes - Praticiens non adhérents au DPTAM",
-      "description": "Actes médicaux : actes de spécialistes chez des praticiens non adhérents au DPTAM.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 110 % BR | NIVEAU 2 : 200 % BR | NIVEAU 3 : 200 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Forfait solidaire soutien psychologique - Forfait par an",
-      "description": "Actes médicaux : forfait solidaire de soutien psychologique, forfait par an (renvoi 2).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 50 € x 3 séances | NIVEAU 2 : 50 € x 3 séances | NIVEAU 3 : 50 € x 3 séances",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Forfait valable pour les actes non remboursés par la Sécurité Sociale, chez les psychologues diplômés dans leur spécialité et inscrits aux registres officiels de l'Assurance Maladie, sur présentation d'une facture nominative acquittée jusqu'au 31/12/2026 (renvoi 2, page 3)"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Séances d'accompagnement psychologique réalisées par des psychologues, remboursées par la Sécurité sociale",
-      "description": "Actes médicaux : séances d'accompagnement psychologique réalisées par des psychologues, remboursées par la Sécurité sociale (renvoi 3), dans le cadre du dispositif « Mon soutien psy ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 100 % BR | NIVEAU 2 : 100 % BR | NIVEAU 3 : 100 % BR",
-      "sub_limits": [
-        "Dans la limite de 12 séances par an, avec une première séance qui est un entretien d'évaluation et entre 1 à 11 séances de suivi psychologique (50 €/séance) (renvoi 3, page 3)"
-      ],
-      "deductible": null,
-      "conditions": [
-        "Ouvert aux personnes de plus de 3 ans (enfants, adolescents et adultes)",
-        "Valable chez les psychologues partenaires du dispositif « Mon soutien psy », diplômés dans leur spécialité et inscrits aux registres officiels de l'Assurance Maladie",
-        "Ce nombre est adapté aux besoins et déterminé par le psychologue",
-        "Garantie uniquement disponible dans les « contrats responsables »"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Hospitalisation - Frais de séjour - Établissement conventionné",
-      "description": "Hospitalisation (y compris obstétrique) : frais de séjour en établissement conventionné.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : Frais réels | NIVEAU 2 : Frais réels | NIVEAU 3 : Frais réels",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Hospitalisation - Frais de séjour - Établissement non conventionné",
-      "description": "Hospitalisation (y compris obstétrique) : frais de séjour en établissement non conventionné.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 100 % BR | NIVEAU 2 : 100 % BR | NIVEAU 3 : 100 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Hospitalisation - Honoraires - Praticiens adhérents au DPTAM",
-      "description": "Hospitalisation (y compris obstétrique) : honoraires des praticiens adhérents au DPTAM.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 400 % BR | NIVEAU 2 : Frais réels | NIVEAU 3 : Frais réels",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Hospitalisation - Honoraires - Praticiens non adhérents au DPTAM",
-      "description": "Hospitalisation (y compris obstétrique) : honoraires des praticiens non adhérents au DPTAM.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 200 % BR | NIVEAU 2 : 200 % BR | NIVEAU 3 : 200 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Soins post-opératoires",
-      "description": "Hospitalisation (y compris obstétrique) : soins post-opératoires.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 100 % BR | NIVEAU 2 : 100 % FR - RSS, Non OPTAM : limité à 200 % BR | NIVEAU 3 : 100 % FR - RSS, Non OPTAM : limité à 200 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Forfait journalier hospitalier",
-      "description": "Hospitalisation (y compris obstétrique) : forfait journalier hospitalier, sur la base du montant en vigueur à la date des soins, sans limitation de durée.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : Frais réels | NIVEAU 2 : Frais réels | NIVEAU 3 : Frais réels",
-      "sub_limits": [
-        "Sur la base du montant en vigueur à la date des soins, sans limitation de durée"
-      ],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Forfait patient urgences",
-      "description": "Hospitalisation (y compris obstétrique) : forfait patient urgences.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : Frais réels | NIVEAU 2 : Frais réels | NIVEAU 3 : Frais réels",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Transport en ambulance remboursé par la Sécurité sociale",
-      "description": "Hospitalisation (y compris obstétrique) : transport en ambulance remboursé par la Sécurité sociale.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 100 % BR | NIVEAU 2 : 115 % BR | NIVEAU 3 : 130 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Transport en ambulance non remboursé par la Sécurité sociale",
-      "description": "Hospitalisation (y compris obstétrique) : transport en ambulance non remboursé par la Sécurité sociale.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 100 % BR | NIVEAU 2 : 100 % BR | NIVEAU 3 : 100 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Chambre particulière - Forfait par jour",
-      "description": "Hospitalisation (y compris obstétrique) : chambre particulière, prise en charge limitée par année civile et par bénéficiaire à 60 jours en rééducation, forfait par jour.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 70 €/jour | NIVEAU 2 : Frais réels | NIVEAU 3 : Frais réels",
-      "sub_limits": [
-        "Prise en charge limitée par année civile et par bénéficiaire à 60 jours en rééducation"
-      ],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Lit accompagnant - Forfait par jour",
-      "description": "Hospitalisation (y compris obstétrique) : lit accompagnant, uniquement en cas d'hospitalisation d'un enfant à charge âgé de moins de 16 ans à la date des soins, forfait par jour.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 25 €/jour | NIVEAU 2 : 50 €/jour | NIVEAU 3 : 75 €/jour",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Uniquement en cas d'hospitalisation d'un enfant à charge âgé de moins de 16 ans à la date des soins"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Matériel médical remboursé par la Sécurité sociale (hors Aide auditive et Prothèse dentaire) - Orthopédie/appareillage/prothèses",
-      "description": "Garanties complémentaires : matériel médical remboursé par la Sécurité sociale (hors aide auditive et prothèse dentaire) - orthopédie/appareillage/prothèses.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 160 % BR | NIVEAU 2 : 360 % BR | NIVEAU 3 : 400 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Hors aide auditive et prothèse dentaire"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Frais pharmaceutiques",
-      "description": "Garanties complémentaires : frais pharmaceutiques.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 100 % BR | NIVEAU 2 : 100 % BR | NIVEAU 3 : 100 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Forfait médicaments prescrits et non remboursés par la Sécurité sociale - Forfait global par an/bénéficiaire",
-      "description": "Garanties complémentaires : forfait pour les médicaments prescrits et non remboursés par la Sécurité sociale, forfait global par an et par bénéficiaire.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 50 € par année civile et par bénéficiaire | NIVEAU 2 : 100 € par année civile et par bénéficiaire | NIVEAU 3 : 150 € par année civile et par bénéficiaire",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Médicaments prescrits et non remboursés par la Sécurité sociale"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Vaccins remboursés par la Sécurité sociale",
-      "description": "Garanties complémentaires : vaccins remboursés par la Sécurité sociale.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 100 % BR | NIVEAU 2 : 165 % BR | NIVEAU 3 : 165 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Vaccins non remboursés par la Sécurité sociale - Forfait par an/bénéficiaire",
-      "description": "Garanties complémentaires : vaccins non remboursés par la Sécurité sociale, forfait par an et par bénéficiaire.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 50 € par année civile et par bénéficiaire | NIVEAU 2 : 50 € par année civile et par bénéficiaire | NIVEAU 3 : 50 € par année civile et par bénéficiaire",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Forfait vaccin antigrippe - Forfait par an",
-      "description": "Garanties complémentaires : forfait vaccin antigrippe, forfait par an (renvoi 4).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 20 €/an | NIVEAU 2 : 20 €/an | NIVEAU 3 : 20 €/an",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Forfait valable sur facture nominative acquittée jusqu'au 31/12/2026 (renvoi 4, page 3)"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Allocation maternité",
-      "description": "Garanties complémentaires : allocation maternité, allocation forfaitaire s'appliquant une seule fois en cas de naissance multiple (sur présentation de l'acte de naissance ou d'adoption).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 156,45 € | NIVEAU 2 : 375,48 € | NIVEAU 3 : 375,48 €",
-      "sub_limits": [
-        "Allocation forfaitaire s'appliquant une seule fois en cas de naissance multiple"
-      ],
-      "deductible": null,
-      "conditions": [
-        "Sur présentation de l'acte de naissance ou d'adoption"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Cures thermales remboursées par la Sécurité sociale - Forfait par an",
-      "description": "Garanties complémentaires : cures thermales remboursées par la Sécurité sociale, forfait par an.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 65 % BR + 156,45 €/an | NIVEAU 2 : 65 % BR + 375,48 €/an | NIVEAU 3 : 65 % BR + 375,48 €/an",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Cure remboursée par la Sécurité sociale"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Ostéodensitométrie - Forfait par an/bénéficiaire",
-      "description": "Garanties complémentaires : ostéodensitométrie, forfait par an et par bénéficiaire.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 50 € par année civile et par bénéficiaire | NIVEAU 2 : 75 € par année civile et par bénéficiaire | NIVEAU 3 : 75 € par année civile et par bénéficiaire",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 1
-    },
-    {
-      "name": "Médecine douce : homéopathie, phytothérapie, acupuncture, chiropractie, ostéopathie - Forfait global par an/bénéficiaire",
-      "description": "Garanties complémentaires : médecine douce (homéopathie, phytothérapie, acupuncture, chiropractie, ostéopathie), forfait global par an et par bénéficiaire (renvoi 5).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 30 € x 3 séances au choix | NIVEAU 2 : 50 € x 5 séances au choix | NIVEAU 3 : 60 € x 5 séances au choix",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Forfait global valable pour les actes non remboursés par la Sécurité sociale, chez les praticiens diplômés dans leur spécialité et inscrits aux registres officiels de l'Assurance Maladie, sur présentation d'une facture nominative acquittée",
-        "Pour l'acupuncture, seuls sont pris en charge les actes non remboursés par la Sécurité sociale réalisés chez un médecin, une sage-femme ou un chirurgien-dentiste (renvoi 5, page 3)"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Sevrage tabagique - Forfait global par an",
-      "description": "Garanties complémentaires : sevrage tabagique (substituts nicotiniques - patchs, gommes… - ou produits pharmaceutiques remboursables par la Sécurité sociale), forfait global par an. Non prévu en NIVEAU 1 (« - » dans le tableau).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : - | NIVEAU 2 : 90 €/an | NIVEAU 3 : 90 €/an",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Substituts nicotiniques (patchs, gommes…) ou produits pharmaceutiques remboursables par la Sécurité sociale"
-      ],
-      "page": 1
-    },
-    {
-      "name": "Dentaire - Soins et prothèses « 100 % Santé »",
-      "description": "Dentaire : soins et prothèses relevant du panier « 100 % Santé » (renvois 6 et 7).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : Remboursement intégral | NIVEAU 2 : Remboursement intégral | NIVEAU 3 : Remboursement intégral",
-      "sub_limits": [
-        "Prise en charge dans la limite des Honoraires Limites de Facturation (HLF) (renvoi 6, page 3)"
-      ],
-      "deductible": null,
-      "conditions": [
-        "Prix encadrés par des Prix Limites de Vente (PLV)"
-      ],
-      "page": 2
-    },
-    {
-      "name": "Dentaire - Soins et prothèses à honoraires maîtrisés",
-      "description": "Dentaire : soins et prothèses à honoraires maîtrisés (renvoi 8).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : Prise en charge selon ce qui est prévu ci-dessous et dans la limite des HLF | NIVEAU 2 : Prise en charge selon ce qui est prévu ci-dessous et dans la limite des HLF | NIVEAU 3 : Prise en charge selon ce qui est prévu ci-dessous et dans la limite des HLF",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Prothèses à tarifs maîtrisés plafonnés aux Prix Limites de Vente (PLV) fixés règlementairement (renvoi 8, page 3)"
-      ],
-      "page": 2
-    },
-    {
-      "name": "Soins dentaires pris en charge par la Sécurité sociale (hors Inlay-onlay)",
-      "description": "Dentaire : soins dentaires pris en charge par la Sécurité sociale, hors inlay-onlay.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 170 % BR | NIVEAU 2 : 170 % BR | NIVEAU 3 : 170 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Hors Inlay-onlay"
-      ],
-      "page": 2
-    },
-    {
-      "name": "Prothèses dentaires à honoraires maîtrisées/libres (y compris appareils Inlay-onlay et amovibles définitifs)",
-      "description": "Dentaire : prothèses dentaires à honoraires maîtrisées (renvoi 8) ou libres (renvoi 9), y compris appareils inlay-onlay et amovibles définitifs.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 450 % BR | NIVEAU 2 : 520 % BR | NIVEAU 3 : 550 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Orthodontie - Actes pris en charge par la Sécurité sociale",
-      "description": "Dentaire : orthodontie, actes pris en charge par la Sécurité sociale.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 210 % BR | NIVEAU 2 : 450 % BR | NIVEAU 3 : 450 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Orthodontie - Actes non pris en charge par la Sécurité sociale",
-      "description": "Dentaire : orthodontie, actes non pris en charge par la Sécurité sociale. Non prévu en NIVEAU 1 (« - » dans le tableau).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : - | NIVEAU 2 : 250 % BR | NIVEAU 3 : 310 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Implantologie - Forfait par an",
-      "description": "Dentaire : implantologie, forfait par an. Non prévue en NIVEAU 1 (« - » dans le tableau).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : - | NIVEAU 2 : 750 €/an | NIVEAU 3 : 800 €/an",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Autres actes dentaires non pris en charge ci-dessus (parodontologie, pilier implantaire etc.) - Forfait par an",
-      "description": "Dentaire : autres actes dentaires non pris en charge ci-dessus (parodontologie, pilier implantaire etc.), forfait par an. Non prévus en NIVEAU 1 (« - » dans le tableau).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : - | NIVEAU 2 : 500 €/an | NIVEAU 3 : 500 €/an",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Actes et scanner (tomodensitométrie) - Procédés pré-implantaires (wax up, guide chirurgical)",
-      "description": "Dentaire : le tableau porte successivement les libellés « Actes et scanner (tomodensitométrie) » puis « Procédés pré-implantaires (wax up, guide chirurgical) », suivis d'une seule série de trois valeurs. Non prévu en NIVEAU 1 et NIVEAU 2 (« - » dans le tableau).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : - | NIVEAU 2 : - | NIVEAU 3 : 70 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Optique - Équipements « 100 % Santé »",
-      "description": "Optique : équipements relevant du panier « 100 % Santé » (renvoi 10).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : Remboursement intégral | NIVEAU 2 : Remboursement intégral | NIVEAU 3 : Remboursement intégral",
-      "sub_limits": [
-        "Les montures de classe A doivent respecter les normes européennes avec un prix inférieur ou égal à 30€ (renvoi 10, page 3)"
-      ],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Optique - Équipement à tarif libre - Classe B - Verre simple",
-      "description": "Optique : verre simple de l'équipement à tarif libre de classe B (renvoi 11).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 100 €/verre | NIVEAU 2 : 160 €/verre | NIVEAU 3 : 160 €/verre",
-      "sub_limits": [
-        "Forfait pour une paire de lunettes (1 monture + 2 verres) incluant le remboursement de la Sécurité sociale (renvoi 11, page 3)"
-      ],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Optique - Équipement à tarif libre - Classe B - Verre complexe",
-      "description": "Optique : verre complexe de l'équipement à tarif libre de classe B (renvoi 11).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 210 €/verre | NIVEAU 2 : 300 €/verre | NIVEAU 3 : 300 €/verre",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Optique - Équipement à tarif libre - Classe B - Verre très complexe",
-      "description": "Optique : verre très complexe de l'équipement à tarif libre de classe B (renvoi 11).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 250 €/verre | NIVEAU 2 : 350 €/verre | NIVEAU 3 : 350 €/verre",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Optique - Équipement à tarif libre - Classe B - Monture enfant/adulte",
-      "description": "Optique : monture enfant/adulte de l'équipement à tarif libre de classe B (renvoi 11). Le tableau donne deux montants par niveau, séparés par une barre oblique (enfant/adulte).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 50 €/100 € | NIVEAU 2 : 100 €/100 € | NIVEAU 3 : 100 €/100 € (enfant/adulte)",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Lentilles - Forfait par an",
-      "description": "Optique - Autres prestations : lentilles, forfait par an.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 100 % BR + 150 €/an | NIVEAU 2 : 100 % BR + 250 €/an | NIVEAU 3 : 100 % BR + 250 €/an",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Chirurgie - Forfait par œil/an",
-      "description": "Optique - Autres prestations : chirurgie, forfait par œil et par an.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 200 €/oeil/an | NIVEAU 2 : 500 €/oeil/an | NIVEAU 3 : 500 €/oeil/an",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Aides auditives - Équipement 100 % santé - Classe I",
-      "description": "Aides auditives : équipement 100 % santé de classe I (renvois 12 et 13).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : Remboursement intégral | NIVEAU 2 : Remboursement intégral | NIVEAU 3 : Remboursement intégral",
-      "sub_limits": [
-        "Limité à une Aide auditive tous les quatre ans pour chaque oreille (renvoi 12, page 3)"
-      ],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Aides auditives - Équipement à tarif libre - Classe II",
-      "description": "Aides auditives : équipement à tarif libre de classe II (renvois 12 et 14).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 210 % BR | NIVEAU 2 : 460 % BR | NIVEAU 3 : 460 % BR",
-      "sub_limits": [
-        "Limité à une Aide auditive tous les quatre ans pour chaque oreille (renvoi 12, page 3)",
-        "Le contrat responsable impose depuis le 01/01/2021 un plafond de 1 700 € y compris le remboursement de la sécurité sociale par prothèse (renvoi 14, page 3)",
-        "Forfait « Aide auditive » versé dans la limite de deux équipements (soit un équipement par oreille) tous les 4 ans à partir de la date d'achat (renvoi 14, page 3)"
-      ],
-      "deductible": null,
-      "conditions": [
-        "Entretien (y compris le changement des piles), réglages, réparation prothèses auditives réalisée par l'audioprothésiste prise en charge à hauteur de 100 % de la base de remboursement de la Sécurité sociale (renvoi 14, page 3)"
-      ],
-      "page": 2
-    },
-    {
-      "name": "Petits accessoires auditifs (piles…)",
-      "description": "Aides auditives : petits accessoires auditifs (piles…).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : 210 % BR | NIVEAU 2 : 460 % BR | NIVEAU 3 : 460 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Sport sur ordonnance - Forfait par an",
-      "description": "Sport sur ordonnance auprès d'un professionnel agréé pour les adhérents reconnus en Affection de Longue Durée (ALD) ou éligibles (renvoi 15). Non prévu en NIVEAU 1 (« - » dans le tableau).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : - | NIVEAU 2 : 100 €/an | NIVEAU 3 : 200 €/an",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Forfait valable sur prescription médicale et facture nominative acquittée d'un professionnel de sport agréé Activité Physique Adaptée (APA) ou certifié par une fédération sportive",
-        "Pour les personnes en Affection Longue Durée (ALD), aux patients atteints d'une maladie chronique, présentant des facteurs de risque et aux personnes en situation de perte d'autonomie tels que définis par décret (renvoi 15, page 3)"
-      ],
-      "page": 2
-    },
-    {
-      "name": "Assistance Matmut",
-      "description": "Assistance : Assistance Matmut, incluse dans les trois niveaux.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : Inclus | NIVEAU 2 : Inclus | NIVEAU 3 : Inclus",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Itelis : avantages tarifaires optique, audio et médecines douces",
-      "description": "Services + : Itelis, avantages tarifaires optique, audio et médecines douces.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : Inclus | NIVEAU 2 : Inclus | NIVEAU 3 : Inclus",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Medaviz : téléconsultation 24 h/24, 7 j/7",
-      "description": "Services + : Medaviz, téléconsultation 24 h/24, 7 j/7.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : Inclus | NIVEAU 2 : Inclus | NIVEAU 3 : Inclus",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Le service doit faire l'objet d'une utilisation raisonnable"
-      ],
-      "page": 2
-    },
-    {
-      "name": "Livmed's : livraison de médicaments 24 h/24, 7 j/7",
-      "description": "Services + : Livmed's, livraison de médicaments 24 h/24, 7 j/7.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : Inclus | NIVEAU 2 : Inclus | NIVEAU 3 : Inclus",
-      "sub_limits": [
-        "Prise en charge de 3 livraisons par an par la mutuelle dans un rayon de 20km, au-delà le complément reste à la charge de l'adhérent (page 3)"
-      ],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Deuxième avis médical : service d'accès à l'expertise médicale en ligne",
-      "description": "Services + : deuxième avis médical, service d'accès à l'expertise médicale en ligne (deuxiemeavis.fr).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : Inclus | NIVEAU 2 : Inclus | NIVEAU 3 : Inclus",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Bilan de santé digital : évaluation de santé globale",
-      "description": "Services + : bilan de santé digital, évaluation de santé globale.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : Inclus | NIVEAU 2 : Inclus | NIVEAU 3 : Inclus",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Méta-Coaching : programme de coaching santé en ligne",
-      "description": "Services + : Méta-Coaching, programme de coaching santé en ligne.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : Inclus | NIVEAU 2 : Inclus | NIVEAU 3 : Inclus",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Salvum : formation aux gestes qui sauvent",
-      "description": "Services + : Salvum, formation aux gestes qui sauvent (formation en ligne de secourisme).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : Inclus | NIVEAU 2 : Inclus | NIVEAU 3 : Inclus",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    },
-    {
-      "name": "Protection juridique santé",
-      "description": "Services + : protection juridique santé, prestation réalisée par Matmut Protection juridique.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "NIVEAU 1 : Inclus | NIVEAU 2 : Inclus | NIVEAU 3 : Inclus",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 2
-    }
-  ],
-  "exclusions": [
-    {
-      "name": "Praticiens non conventionnés - base de remboursement",
-      "description": "Pour les praticiens non conventionnés, la Base de Remboursement est retenue sur la base du tarif d'autorité.",
-      "applies_to": "all",
-      "page": 3
-    },
-    {
-      "name": "Remboursement plafonné aux frais restant effectivement à charge",
-      "description": "Nos remboursements ne peuvent être supérieurs au montant des frais restant à charge effective de l'adhérent.",
-      "applies_to": "all",
-      "page": 3
-    },
-    {
-      "name": "Médecins non adhérents - taux minoré de 20 % et limité à 200 %",
-      "description": "Le taux de prise en charge indiqué s'applique aux actes et soins réalisés par des médecins ayant adhéré au à l'Option de Pratique Tarifaire Maîtrisée (OPTAM ou OPTAM-ACO). Ce taux est minoré de 20 % et limité à 200 % pour les médecins non adhérents (renvoi 1).",
-      "applies_to": "Actes techniques d'imagerie médicale",
-      "page": 3
-    },
-    {
-      "name": "Orthodontie non prise en charge par la Sécurité sociale - non prévue en NIVEAU 1",
-      "description": "Le tableau porte « - » pour l'orthodontie non prise en charge par la Sécurité sociale en NIVEAU 1 ; elle n'est prévue qu'en NIVEAU 2 (250 % BR) et NIVEAU 3 (310 % BR).",
-      "applies_to": "Orthodontie - Actes non pris en charge par la Sécurité sociale",
-      "page": 2
-    },
-    {
-      "name": "Implantologie - non prévue en NIVEAU 1",
-      "description": "Le tableau porte « - » pour l'implantologie en NIVEAU 1 ; elle n'est prévue qu'en NIVEAU 2 (750 €/an) et NIVEAU 3 (800 €/an).",
-      "applies_to": "Implantologie - Forfait par an",
-      "page": 2
-    },
-    {
-      "name": "Autres actes dentaires - non prévus en NIVEAU 1",
-      "description": "Le tableau porte « - » pour les autres actes dentaires (parodontologie, pilier implantaire etc.) en NIVEAU 1 ; ils ne sont prévus qu'en NIVEAU 2 et NIVEAU 3 (500 €/an).",
-      "applies_to": "Autres actes dentaires non pris en charge ci-dessus (parodontologie, pilier implantaire etc.) - Forfait par an",
-      "page": 2
-    },
-    {
-      "name": "Procédés pré-implantaires - non prévus en NIVEAU 1 et NIVEAU 2",
-      "description": "Le tableau porte « - » en NIVEAU 1 et NIVEAU 2 pour la ligne « Actes et scanner (tomodensitométrie) / Procédés pré-implantaires (wax up, guide chirurgical) » ; seule la colonne NIVEAU 3 porte 70 €.",
-      "applies_to": "Actes et scanner (tomodensitométrie) - Procédés pré-implantaires (wax up, guide chirurgical)",
-      "page": 2
-    },
-    {
-      "name": "Sevrage tabagique - non prévu en NIVEAU 1",
-      "description": "Le tableau porte « - » pour le sevrage tabagique en NIVEAU 1 ; il n'est prévu qu'en NIVEAU 2 et NIVEAU 3 (90 €/an).",
-      "applies_to": "Sevrage tabagique - Forfait global par an",
-      "page": 1
-    },
-    {
-      "name": "Sport sur ordonnance - non prévu en NIVEAU 1",
-      "description": "Le tableau porte « - » pour le sport sur ordonnance en NIVEAU 1 ; il n'est prévu qu'en NIVEAU 2 (100 €/an) et NIVEAU 3 (200 €/an).",
-      "applies_to": "Sport sur ordonnance - Forfait par an",
-      "page": 2
-    },
-    {
-      "name": "Chambre particulière - limitée à 60 jours en rééducation",
-      "description": "Chambre particulière - Prise en charge limitée par année civile et par bénéficiaire à 60 jours en rééducation.",
-      "applies_to": "Chambre particulière - Forfait par jour",
-      "page": 1
-    },
-    {
-      "name": "Lit accompagnant - uniquement pour un enfant à charge de moins de 16 ans",
-      "description": "Lit accompagnant - Uniquement en cas d'hospitalisation d'un enfant à charge âgé de moins de 16 ans à la date des soins.",
-      "applies_to": "Lit accompagnant - Forfait par jour",
-      "page": 1
-    },
-    {
-      "name": "Aides auditives - une aide auditive tous les quatre ans par oreille",
-      "description": "Limité à une Aide auditive tous les quatre ans pour chaque oreille (renvoi 12).",
-      "applies_to": "AIDES AUDITIVES",
-      "page": 3
-    },
-    {
-      "name": "Aides auditives classe II - plafond de 1 700 € par prothèse",
-      "description": "Le contrat responsable impose depuis le 01/01/2021 un plafond de 1 700 € y compris le remboursement de la sécurité sociale par prothèse (renvoi 14).",
-      "applies_to": "Aides auditives - Équipement à tarif libre - Classe II",
-      "page": 3
-    },
-    {
-      "name": "Matériel médical - hors aide auditive et prothèse dentaire",
-      "description": "La garantie matériel médical vise le matériel médical remboursé par la Sécurité sociale hors aide auditive et prothèse dentaire.",
-      "applies_to": "Matériel médical remboursé par la Sécurité sociale (hors Aide auditive et Prothèse dentaire) - Orthopédie/appareillage/prothèses",
-      "page": 1
-    },
-    {
-      "name": "Soins dentaires - hors Inlay-onlay",
-      "description": "La ligne « Soins dentaires pris en charge par la Sécurité sociale » exclut expressément les inlay-onlay, traités dans la ligne prothèses.",
-      "applies_to": "Soins dentaires pris en charge par la Sécurité sociale (hors Inlay-onlay)",
-      "page": 2
-    },
-    {
-      "name": "Dentaire 100 % Santé - limite des Honoraires Limites de Facturation",
-      "description": "Prise en charge dans la limite des Honoraires Limites de Facturation (HLF) (renvoi 6).",
-      "applies_to": "Dentaire - Soins et prothèses « 100 % Santé »",
-      "page": 3
-    },
-    {
-      "name": "Séances d'accompagnement psychologique - contrats responsables uniquement",
-      "description": "Garantie uniquement disponible dans les « contrats responsables » (renvoi 3).",
-      "applies_to": "Séances d'accompagnement psychologique réalisées par des psychologues, remboursées par la Sécurité sociale",
-      "page": 3
-    },
-    {
-      "name": "Séances d'accompagnement psychologique - plafond de séances",
-      "description": "Dans la limite de 12 séances par an, avec une première séance qui est un entretien d'évaluation et entre 1 à 11 séances de suivi psychologique (50 €/séance). Ce nombre est adapté aux besoins et déterminé par le psychologue (renvoi 3).",
-      "applies_to": "Séances d'accompagnement psychologique réalisées par des psychologues, remboursées par la Sécurité sociale",
-      "page": 3
-    },
-    {
-      "name": "Forfait solidaire soutien psychologique - actes remboursés par la Sécurité sociale et échéance",
-      "description": "Forfait valable pour les actes non remboursés par la Sécurité Sociale, chez les psychologues diplômés dans leur spécialité et inscrits aux registres officiels de l'Assurance Maladie, sur présentation d'une facture nominative acquittée jusqu'au 31/12/2026 (renvoi 2).",
-      "applies_to": "Forfait solidaire soutien psychologique - Forfait par an",
-      "page": 3
-    },
-    {
-      "name": "Forfait vaccin antigrippe - échéance",
-      "description": "Forfait valable sur facture nominative acquittée jusqu'au 31/12/2026 (renvoi 4).",
-      "applies_to": "Forfait vaccin antigrippe - Forfait par an",
-      "page": 3
-    },
-    {
-      "name": "Médecine douce - actes remboursés par la Sécurité sociale et acupuncture",
-      "description": "Forfait global valable pour les actes non remboursés par la Sécurité sociale, chez les praticiens diplômés dans leur spécialité et inscrits aux registres officiels de l'Assurance Maladie, sur présentation d'une facture nominative acquittée. Pour l'acupuncture, seuls sont pris en charge les actes non remboursés par la Sécurité sociale réalisés chez un médecin, une sage-femme ou un chirurgien-dentiste (renvoi 5).",
-      "applies_to": "Médecine douce : homéopathie, phytothérapie, acupuncture, chiropractie, ostéopathie - Forfait global par an/bénéficiaire",
-      "page": 3
-    },
-    {
-      "name": "Allocation maternité - une seule fois en cas de naissance multiple",
-      "description": "Allocation forfaitaire s'appliquant une seule fois en cas de naissance multiple.",
-      "applies_to": "Allocation maternité",
-      "page": 1
-    },
-    {
-      "name": "Livmed's - au-delà de 3 livraisons par an ou hors rayon de 20 km",
-      "description": "Prise en charge de 3 livraisons par an par la mutuelle dans un rayon de 20km, au-delà le complément reste à la charge de l'adhérent.",
-      "applies_to": "Livmed's : livraison de médicaments 24 h/24, 7 j/7",
-      "page": 3
-    }
-  ],
-  "deductibles": null,
-  "waiting_periods": [],
-  "obligations": [
-    {
-      "name": "Présentation de la facture pour les forfaits",
-      "description": "Les forfaits sont versés sur présentation de l'original de la facture nominative acquittée et détaillée par acte.",
-      "timing": "Lors de la demande de remboursement",
-      "sanction": null,
-      "page": 3
-    },
-    {
-      "name": "Justificatif de l'allocation maternité",
-      "description": "Allocation maternité versée sur présentation de l'acte de naissance ou d'adoption.",
-      "timing": "Lors de la demande de remboursement",
-      "sanction": null,
-      "page": 1
-    },
-    {
-      "name": "Prescription médicale - sport sur ordonnance",
-      "description": "Forfait valable sur prescription médicale et facture nominative acquittée d'un professionnel de sport agréé Activité Physique Adaptée (APA) ou certifié par une fédération sportive (renvoi 15).",
-      "timing": "Lors de la demande de remboursement",
-      "sanction": null,
-      "page": 3
-    },
-    {
-      "name": "Facture nominative acquittée - médecine douce",
-      "description": "Forfait global valable sur présentation d'une facture nominative acquittée, chez les praticiens diplômés dans leur spécialité et inscrits aux registres officiels de l'Assurance Maladie (renvoi 5).",
-      "timing": "Lors de la demande de remboursement",
-      "sanction": null,
-      "page": 3
-    },
-    {
-      "name": "Prescription médicale - médicaments non remboursés",
-      "description": "Le forfait ne vise que les médicaments prescrits et non remboursés par la Sécurité sociale.",
-      "timing": "Lors de la demande de remboursement",
-      "sanction": null,
-      "page": 1
-    }
-  ],
-  "claims_procedure": [],
-  "duration_and_cancellation": null,
-  "prescription_period": null,
-  "premium": null,
-  "special_conditions": [
-    {
-      "name": "Porteur du risque santé",
-      "description": "Assureur de la garantie Santé - Mutuelle Ociane - Mutuelle soumise aux dispositions du Livre II du Code de la Mutualité, immatriculée sous le n° SIREN 434 243 085. Siège social : 35 rue Claude Bonnier - 33054 BORDEAUX Cedex. Les statuts de la Mutuelle Ociane sont disponibles sur matmut.fr.",
-      "page": 3
-    },
-    {
-      "name": "Matmut",
-      "description": "Matmut - Mutuelle assurance des travailleurs mutualistes, Société d'assurance mutuelle à cotisations variables, immatriculée au RCS de Rouen n° 775 701 477. Entreprise régie par le Code des assurances, 66, rue de Sotteville 76100 Rouen.",
-      "page": 3
-    },
-    {
-      "name": "Porteur de la protection juridique",
-      "description": "Prestation réalisée par Matmut Protection juridique, Société du Groupe Matmut - Société Anonyme (SA) au capital de 7 500 000 € entièrement libéré. Entreprise régie par le Code des Assurances, inscrite au RCS de Rouen sous le n° SIREN 423 499 391. Siège Social : 66 Rue de Sotteville 76100 Rouen.",
-      "page": 3
-    },
-    {
-      "name": "Prestataire assistance",
-      "description": "Assistance - Prestations réalisées par IMA GIE - Société Anonyme à Directoire et Conseil de Surveillance au capital social de 55 382 784 €, inscrit au RCS de Niort sous le n° Siren 320 281 025. Siège social : 118, avenue de Paris CS 40 000 79033 Niort CEDEX 9.",
-      "page": 3
-    },
-    {
-      "name": "Prestataires des Services +",
-      "description": "Itelis est une marque d'Isea (SA, RCS Paris 440 358 471) ; téléconsultation Medaviz mise en œuvre par Podalire (SAS, RCS Paris 807 414 024) ; deuxiemeavis.fr édité par CARIANS (SAS, RCS Paris 803 657 717) ; livraison de médicaments LIVMED'S (SAS, RCS Nice 881 600 456) ; coaching santé délivré par Méta-Coaching (SAS, RCS Paris 513 782 003) ; Salvum, formation en ligne de secourisme (SAS, RCS Meaux 801 777 541).",
-      "page": 3
-    },
-    {
-      "name": "Portée du document",
-      "description": "Document non contractuel. L'ensemble des garanties évoquées dans ce document s'applique dans les limites et conditions définies au contrat.",
-      "page": 3
-    },
-    {
-      "name": "Base de calcul des remboursements",
-      "description": "Les pourcentages indiqués incluent la part de la Sécurité sociale et s'appliquent sur la Base de Remboursement (BR) pour les actes relevant de la CCAM (Classification Commune des Actes Médicaux), tarif de convention pour les actes référencés NGAP (Nomenclature Générale des Actes Professionnels), tarif de responsabilité pour les actes référencés LPP (Liste des Produits et des Prestations). Le total des remboursements est exprimé y compris la part RO.",
-      "page": 3
-    },
-    {
-      "name": "Cadre des forfaits annuels",
-      "description": "Les forfaits annuels s'entendent dans le cadre de l'année civile et par bénéficiaire.",
-      "page": 3
-    },
-    {
-      "name": "Exemple de remboursement - Forfait journalier hospitalier (hébergement)",
-      "description": "Prix moyen pratiqué : 20 € (15 € en service psychiatrique) pour les trois niveaux ; Remboursement Sécurité sociale : 0 € ; Remboursement Mutuelle Ociane Matmut : Frais réels ; Reste à charge : 0 €.",
-      "page": 4
-    },
-    {
-      "name": "Exemple de remboursement - Chambre particulière (sur demande du patient)",
-      "description": "Prix moyen pratiqué : Non connu (NC) ; Remboursement Sécurité sociale : 0 € ; Remboursement Mutuelle Ociane Matmut : 75 €/jour (NIVEAU 1), Frais réels (NIVEAU 2 et NIVEAU 3) ; Reste à charge : Selon la dépense (NIVEAU 1), 0 € (NIVEAU 2 et NIVEAU 3). Voir la contradiction signalée dans `gaps` : le tableau de garanties de la page 1 porte 70 €/jour pour le NIVEAU 1.",
-      "page": 4
-    },
-    {
-      "name": "Exemple de remboursement - Opération chirurgicale de la cataracte, frais de séjour en secteur privé",
-      "description": "Séjours avec actes lourds en secteur privé. Prix moyen pratiqué : 838,98 € ; Remboursement Sécurité sociale : 814,98 € ; Remboursement Mutuelle Ociane Matmut : 24 € ; Reste à charge : 0 € (identique sur les trois niveaux).",
-      "page": 4
-    },
-    {
-      "name": "Exemple de remboursement - Honoraires chirurgien secteur 2 (adhérents OPTAM ou OPTAM-ACO)",
-      "description": "Opération en secteur privé : honoraires chirurgien. Prix moyen pratiqué : 443 € ; Remboursement Sécurité sociale : 271,70 € ; Remboursement Mutuelle Ociane Matmut : 171,30 € (NIVEAU 1), 162,30 € (NIVEAU 2 et NIVEAU 3) ; Reste à charge : 0 € sur les trois niveaux.",
-      "page": 4
-    },
-    {
-      "name": "Exemple de remboursement - Honoraires chirurgien secteur 2 (non adhérents OPTAM ou OPTAM-ACO)",
-      "description": "Opération en secteur privé : honoraires chirurgien. Prix moyen pratiqué : 486 € ; Remboursement Sécurité sociale : 271,70 € ; Remboursement Mutuelle Ociane Matmut : 214,30 € ; Reste à charge : 0 € (identique sur les trois niveaux).",
-      "page": 4
-    },
-    {
-      "name": "Exemple de remboursement - Séjour sans actes lourds en hôpital public (pneumonie ou pleurésie, patient de plus de 17 ans)",
-      "description": "Frais de séjour en secteur public. Prix moyen pratiqué : 3754 € ; Remboursement Sécurité sociale : 3003,20 € ; Remboursement Mutuelle Ociane Matmut : Frais réels ; Reste à charge : 0 € (identique sur les trois niveaux).",
-      "page": 4
-    },
-    {
-      "name": "Exemple de remboursement - Consultation médecin traitant généraliste secteur 1 (patient de plus de 18 ans)",
-      "description": "Prix moyen pratiqué : 30 € ; Remboursement Sécurité sociale : 19 € ; Remboursement Mutuelle Ociane Matmut : 9 € ; Reste à charge : 2 € de participation forfaitaire (identique sur les trois niveaux).",
-      "page": 5
-    },
-    {
-      "name": "Exemple de remboursement - Consultation pédiatre secteur 1 (enfant de 2 à 6 ans)",
-      "description": "Prix moyen pratiqué : 35 € ; Remboursement Sécurité sociale : 24,50 € ; Remboursement Mutuelle Ociane Matmut : 10,50 € ; Reste à charge : 0 € (identique sur les trois niveaux).",
-      "page": 5
-    },
-    {
-      "name": "Exemple de remboursement - Consultation spécialiste secteur 1 (adulte de plus de 18 ans, gynécologie médicale)",
-      "description": "Prix moyen pratiqué : 40 € ; Remboursement Sécurité sociale : 26 € ; Remboursement Mutuelle Ociane Matmut : 12 € ; Reste à charge : 2 € de participation forfaitaire (identique sur les trois niveaux).",
-      "page": 5
-    },
-    {
-      "name": "Exemple de remboursement - Consultation pédiatre secteur 2 OPTAM (enfant de 2 à 6 ans)",
-      "description": "Prix moyen pratiqué : 50 € ; Remboursement Sécurité sociale : 24,50 € ; Remboursement Mutuelle Ociane Matmut : 21 € (NIVEAU 1), 25,50 € (NIVEAU 2 et NIVEAU 3) ; Reste à charge : 4,50 € (NIVEAU 1), 0 € (NIVEAU 2 et NIVEAU 3).",
-      "page": 5
-    },
-    {
-      "name": "Exemple de remboursement - Consultation spécialiste secteur 2 OPTAM (adulte de plus de 18 ans, gynécologie médicale)",
-      "description": "Prix moyen pratiqué : 53 € ; Remboursement Sécurité sociale : 26 € ; Remboursement Mutuelle Ociane Matmut : 22,50 € (NIVEAU 1), 25 € (NIVEAU 2 et NIVEAU 3) ; Reste à charge : 4,50 € dont 2 € de participation forfaitaire (NIVEAU 1), 2 € de participation forfaitaire (NIVEAU 2 et NIVEAU 3).",
-      "page": 5
-    },
-    {
-      "name": "Exemple de remboursement - Consultation pédiatre secteur 2 non OPTAM (enfant de 2 à 16 ans)",
-      "description": "Prix moyen pratiqué : 62 € ; Remboursement Sécurité sociale : 16,10 € ; Remboursement Mutuelle Ociane Matmut : 9,20 € (NIVEAU 1), 29,90 € (NIVEAU 2 et NIVEAU 3) ; Reste à charge : 36,70 € (NIVEAU 1), 16 € (NIVEAU 2 et NIVEAU 3).",
-      "page": 5
-    },
-    {
-      "name": "Exemple de remboursement - Consultation spécialiste secteur 2 non OPTAM (adulte de plus de 18 ans, gynécologie médicale)",
-      "description": "Prix moyen pratiqué : 66 € ; Remboursement Sécurité sociale : 14,10 € ; Remboursement Mutuelle Ociane Matmut : 9,20 € (NIVEAU 1), 29,90 € (NIVEAU 2 et NIVEAU 3) ; Reste à charge : 42,70 € dont 2 € de participation forfaitaire (NIVEAU 1), 22 € dont 2 € de participation forfaitaire (NIVEAU 2 et NIVEAU 3).",
-      "page": 6
-    },
-    {
-      "name": "Exemple de remboursement - Matériel médical, paire de béquilles",
-      "description": "Prix moyen pratiqué : 26,71 € ; Remboursement Sécurité sociale : 14,64 € ; Remboursement Mutuelle Ociane Matmut : 12,07 € ; Reste à charge : 0 € (identique sur les trois niveaux).",
-      "page": 6
-    },
-    {
-      "name": "Exemple de remboursement - Optique 100 % Santé classe A, monture et verres simples (adulte de 35 ans)",
-      "description": "Prix moyen pratiqué : 30 + 85 € ; Remboursement Sécurité sociale : 5,40 + 15,30 € ; Remboursement Mutuelle Ociane Matmut : 24,60 + 69,70 € ; Reste à charge : 0 € (identique sur les trois niveaux).",
-      "page": 6
-    },
-    {
-      "name": "Exemple de remboursement - Optique 100 % Santé classe A, monture et verres progressifs (adulte de 35 ans)",
-      "description": "Prix moyen pratiqué : 30 + 180 € ; Remboursement Sécurité sociale : 5,40 + 32,40 € ; Remboursement Mutuelle Ociane Matmut : 24,60 + 147,60 € ; Reste à charge : 0 € (identique sur les trois niveaux).",
-      "page": 6
-    },
-    {
-      "name": "Exemple de remboursement - Optique classe B tarif libre, monture et verres simples (adulte de 35 ans)",
-      "description": "Prix moyen pratiqué : 148 + 224 € ; Remboursement Sécurité sociale : 0,03 + 0,06 € ; Remboursement Mutuelle Ociane Matmut : 99,97 + 199,94 € (NIVEAU 1), 99,97 + 223,94 € (NIVEAU 2 et NIVEAU 3) ; Reste à charge : 72 € (NIVEAU 1), 48 € (NIVEAU 2 et NIVEAU 3).",
-      "page": 6
-    },
-    {
-      "name": "Exemple de remboursement - Optique classe B tarif libre, monture et verres progressifs (adulte de 35 ans)",
-      "description": "Prix moyen pratiqué : 148 + 492 € ; Remboursement Sécurité sociale : 0,03 + 0,06 € ; Remboursement Mutuelle Ociane Matmut : 99,97 + 419,94 € (NIVEAU 1), 99,97 + 491,94 € (NIVEAU 2 et NIVEAU 3) ; Reste à charge : 120 € (NIVEAU 1), 48 € (NIVEAU 2 et NIVEAU 3).",
-      "page": 6
-    },
-    {
-      "name": "Exemple de remboursement - Lentilles non remboursées par la Sécurité sociale (forfait par an)",
-      "description": "Prix moyen pratiqué : Non connu (NC) ; Remboursement Sécurité sociale : 0 € ; Remboursement Mutuelle Ociane Matmut : 150 € (NIVEAU 1), 250 € (NIVEAU 2 et NIVEAU 3) ; Reste à charge : Selon la dépense.",
-      "page": 7
-    },
-    {
-      "name": "Exemple de remboursement - Chirurgie réfractive, opération corrective de la myopie (forfait par œil)",
-      "description": "Prix moyen pratiqué : Non connu (NC) ; Remboursement Sécurité sociale : 0 € ; Remboursement Mutuelle Ociane Matmut : 200 €/an (NIVEAU 1), 500 €/an (NIVEAU 2 et NIVEAU 3) ; Reste à charge : Selon la dépense.",
-      "page": 7
-    },
-    {
-      "name": "Exemple de remboursement - Dentaire 100 % Santé, couronne céramo-métallique sur incisives, canines et premières prémolaires",
-      "description": "Prix moyen pratiqué : 515 € ; Remboursement Sécurité sociale : 72 € ; Remboursement Mutuelle Ociane Matmut : 443 € ; Reste à charge : 0 € (identique sur les trois niveaux).",
-      "page": 7
-    },
-    {
-      "name": "Exemple de remboursement - Dentaire hors 100 % Santé, détartrage",
-      "description": "Prix moyen pratiqué : 43,38 € ; Remboursement Sécurité sociale : 26,03 € ; Remboursement Mutuelle Ociane Matmut : 17,35 € ; Reste à charge : 0 € (identique sur les trois niveaux).",
-      "page": 7
-    },
-    {
-      "name": "Exemple de remboursement - Prothèses à tarif libre hors 100 % Santé, couronne céramo-métallique sur molaires",
-      "description": "Prix moyen pratiqué : 561,99 € ; Remboursement Sécurité sociale : 72 € ; Remboursement Mutuelle Ociane Matmut : 468 € (NIVEAU 1), 489,99 € (NIVEAU 2 et NIVEAU 3) ; Reste à charge : 21,99 € (NIVEAU 1), 0 € (NIVEAU 2 et NIVEAU 3).",
-      "page": 7
-    },
-    {
-      "name": "Exemple de remboursement - Orthodontie remboursée par la Sécurité sociale (traitement par semestre, enfant de moins de 16 ans, 6 semestres maximum)",
-      "description": "Prix moyen pratiqué : 714,10 € ; Remboursement Sécurité sociale : 193,50 € ; Remboursement Mutuelle Ociane Matmut : 212,85 € (NIVEAU 1), 520,60 € (NIVEAU 2 et NIVEAU 3) ; Reste à charge : 307,75 € (NIVEAU 1), 0 € (NIVEAU 2 et NIVEAU 3).",
-      "page": 7
-    },
-    {
-      "name": "Exemple de remboursement - Aide auditive 100 % Santé classe I, par oreille (adulte de 35 ans)",
-      "description": "Prix moyen pratiqué : 950 € ; Remboursement Sécurité sociale : 240 € ; Remboursement Mutuelle Ociane Matmut : 710 € ; Reste à charge : 0 € (identique sur les trois niveaux).",
-      "page": 8
-    },
-    {
-      "name": "Exemple de remboursement - Aide auditive à tarif libre hors 100 % Santé classe II, par oreille (adulte de 35 ans)",
-      "description": "Prix moyen pratiqué : 1515 € ; Remboursement Sécurité sociale : 240 € ; Remboursement Mutuelle Ociane Matmut : 600 € (NIVEAU 1), 1275 € (NIVEAU 2 et NIVEAU 3) ; Reste à charge : 675 € (NIVEAU 1), 0 € (NIVEAU 2 et NIVEAU 3).",
-      "page": 8
-    }
-  ],
-  "gaps": [
-    "Le document est un tableau de garanties « Document non contractuel » (page 3) : il ne contient ni conditions générales, ni section « Exclusions ». Les entrées portées ici en `exclusions` sont les limitations, plafonds et cases « - » (absence de garantie) que le tableau lui-même énonce ; elles ne préjugent pas des exclusions du contrat, qui n'est pas fourni. Ne pas lire le silence du document comme une absence d'exclusion.",
-    "CONTRADICTION INTERNE SUR LA CHAMBRE PARTICULIÈRE : le tableau de garanties (page 1) porte pour le NIVEAU 1 « Chambre particulière […] - Forfait par jour : 70 €/jour », tandis que l'exemple de remboursement (page 4) porte pour le même NIVEAU 1 « Remboursement Mutuelle Ociane Matmut : 75 €/jour ». Les deux valeurs sont enregistrées verbatim, la première dans la garantie (page 1), la seconde dans l'exemple (page 4) ; aucune n'a été corrigée ni départagée.",
-    "PORTEUR DE RISQUE : le document désigne comme assureur de la garantie Santé la « Mutuelle Ociane », mutuelle du Livre II du Code de la Mutualité, SIREN 434 243 085, siège 35 rue Claude Bonnier 33054 Bordeaux Cedex (page 3) — et non Matmut. Matmut (Mutuelle assurance des travailleurs mutualistes, RCS Rouen 775 701 477) est citée séparément ; la protection juridique est portée par Matmut Protection juridique (RCS Rouen 423 499 391) et l'assistance par IMA GIE (RCS Niort 320 281 025). Les métadonnées de la tâche indiquent `insurer_name` = Matmut : elles ont été recopiées telles quelles, mais elles divergent du document sur ce point.",
-    "edition_date : le document n'imprime aucune date d'édition. Il porte « Vos garanties 2026 » (pages 1 et 2), « Renvois 2026 » (page 3) et « Quelques exemples de remboursements 2026 » (pages 4 à 8), c'est-à-dire l'année d'application des garanties, ainsi que le code de pied de page « CCN VINS SPIRITUEUX-0925 » (pages 3 et 8). Le champ a été laissé null plutôt que d'y déduire une date.",
-    "target_audience : le document ne nomme aucun public cible. Il s'agit d'un régime frais de santé rattaché à une CCN, mais l'audience n'a pas été déduite du type de produit ; `target_audience` est null et le libellé du document est reporté dans `target_audience_note`.",
-    "SIGLE « DPTAM » NON DÉFINI : les tableaux de garanties (pages 1 et 2) écrivent « DPTAM », alors que le légendier de la page 3 définit « DPTM : Dispositif de Pratique Tarifaire Maîtrisée ». Le sigle DPTAM ne figure nulle part dans le légendier. Les deux graphies sont reprises telles qu'imprimées et n'ont pas été harmonisées.",
-    "SIGLE « RSS » NON DÉFINI : la ligne « Soins post-opératoires » (page 1) porte en NIVEAU 2 et NIVEAU 3 « 100 % FR - RSS / Non OPTAM : limité à 200 % BR ». Le sigle RSS ne figure pas dans le légendier de la page 3. Sa signification n'a pas été déduite ; le libellé est repris verbatim.",
-    "LIBELLÉ AMBIGU EN DENTAIRE : la page 2 porte successivement deux libellés — « Actes et scanner (tomodensitométrie) » puis « Procédés pré-implantaires (wax up, guide chirurgical) » — suivis d'une seule série de trois valeurs (« - », « - », « 70 € »). Le document ne permet pas de déterminer si le premier libellé est un sous-titre ou une garantie distincte privée de valeurs. Les deux libellés ont été conservés dans une seule entrée plutôt que d'inventer une répartition.",
-    "TYPOGRAPHIE DU DOCUMENT PRÉSERVÉE : le renvoi (1) porte « des médecins ayant adhéré au à l'Option de Pratique Tarifaire Maîtrisée » (page 3), avec un « au à » manifestement fautif. La ligne « Chirurgie - Forfait par œil/an » (page 2) donne ses montants sous la forme « 200 €/oeil/an », avec « oeil » non ligaturé là où l'intitulé écrit « œil ». Ces libellés sont repris tels qu'imprimés, sans correction.",
-    "OBSERVATION SUR LES EXEMPLES : dans l'exemple « Honoraires médecins secteur 2 (adhérents OPTAM ou OPTAM-ACO) » de la page 4, le remboursement affiché pour le NIVEAU 1 (171,30 €) est supérieur à celui affiché pour les NIVEAU 2 et NIVEAU 3 (162,30 €), alors que le reste à charge est de 0 € dans les trois colonnes. Les valeurs sont reprises telles qu'imprimées, sans tentative de rationalisation.",
-    "INCOHÉRENCE INTERNE DES EXEMPLES : page 5, l'exemple pédiatre est libellé « enfant de 2 à 6 ans » pour le secteur 1 et pour le secteur 2 OPTAM, mais « enfant de 2 à 16 ans » pour le secteur 2 non OPTAM. Les deux libellés sont reportés tels quels.",
-    "Le légendier de la page 3 définit dix sigles (BR, OPTAM, TM, SS, PMSS, FR, RO, DPTM, DE, SMR) dont plusieurs (TM, PMSS, DE, SMR) ne sont utilisés nulle part dans les tableaux de garanties. Ils sont enregistrés en `definitions` tels que le document les donne. Le sigle HLF, utilisé dans le tableau dentaire, n'est développé que dans le renvoi (6).",
-    "Aucune information sur la durée du contrat, la reconduction, la résiliation, la prescription, les cotisations ou la procédure de déclaration de sinistre n'apparaît dans le document : `duration_and_cancellation`, `prescription_period`, `premium` et `claims_procedure` sont donc vides ou null.",
-    "Aucune franchise n'est mentionnée : `deductibles` est null. Aucun délai d'attente/de carence n'est mentionné : `waiting_periods` est vide. La périodicité des aides auditives (4 ans par oreille) est une période de renouvellement d'équipement, pas un délai de carence. Le document ne donne aucune périodicité de renouvellement pour l'optique, contrairement aux autres régimes CCN du même émetteur : cette absence n'a pas été comblée.",
-    "DÉFAUT D'ENCODAGE DU TEXTE : la page 1 du PDF contient 7 accents décomposés (NFD : lettre + diacritique combinant U+0300/U+0301) au milieu d'un texte par ailleurs précomposé — notamment dans « à la date », « durée », « particulière », « limitée », « année », « rééducation ». Le texte est conservé tel quel ; les citations ont été découpées programmatiquement dans le texte du PDF et reproduisent cet encodage. La normalisation NFKC du contrôle de grounding absorbe cette différence.",
-    "Les pages 4 à 8 ne contiennent pas de garanties mais des exemples chiffrés de remboursement (« Quelques exemples de remboursements 2026 ») fondés sur des « prix moyens pratiqués ». Ils sont enregistrés en `special_conditions` et ne doivent pas être lus comme des engagements de garantie.",
-    "Le texte du PDF a été comparé page à page avec l'extraction PyMuPDF du fichier local : les 8 pages concordent, aucune troncature."
-  ],
-  "key_quotes": [
-    {
-      "quote": "Les pourcentages indiqués incluent la part de la Sécurité sociale et s’appliquent sur la Base de Remboursement (BR) pour les actes relevant de la CCAM (Classification\nCommune des Actes Médicaux), tarif de convention pour les actes référencés NGAP (Nomenclature Générale des Actes Professionnels), tarif de responsabilité pour les actes\nréférencés LPP (Liste des Produits et des Prestations).",
-      "context": "Base de calcul des pourcentages",
-      "page": 3
-    },
-    {
-      "quote": "Pour les praticiens non conventionnés, la Base de Remboursement est retenue sur la base du tarif d'autorité. Les forfaits\nannuels s’entendent dans le cadre de l’année civile et par bénéficiaire.",
-      "context": "Tarif d'autorite et cadre des forfaits annuels",
-      "page": 3
-    },
-    {
-      "quote": "Nos remboursements ne peuvent être supérieurs au montant des frais restant à charge effective de l’adhérent. Le total des remboursements est exprimé y compris la\npart RO.",
-      "context": "Plafond au reste a charge effectif",
-      "page": 3
-    },
-    {
-      "quote": "(1) Le taux de prise en charge indiqué s’applique aux actes et soins réalisés par des médecins ayant adhéré au à l’Option de Pratique Tarifaire Maîtrisée (OPTAM ou\nOPTAM-ACO). Ce taux est minoré de 20 % et limité à 200 % pour les médecins non adhérents.",
-      "context": "Minoration pour les medecins non adherents au DPTAM",
-      "page": 3
-    },
-    {
-      "quote": "(3) Ouvert aux personnes de plus de 3 ans (enfants, adolescents et adultes) et valable chez les psychologues partenaires du dispositif « Mon soutien psy », diplômés dans leur\nspécialité et inscrits aux registres officiels de l’Assurance Maladie. Dans la limite de 12 séances par an, avec une première séance qui est un entretien d’évaluation et entre 1 à\n11 séances de suivi psychologique (50 €/séance). Ce nombre est adapté aux besoins et déterminé par le psychologue.",
-      "context": "Conditions des seances d'accompagnement psychologique",
-      "page": 3
-    },
-    {
-      "quote": "(5) Forfait global valable pour les actes non remboursés par la Sécurité sociale, chez les praticiens diplômés dans leur spécialité et inscrits aux registres officiels de l'Assurance\nMaladie, sur présentation d'une facture nominative acquittée (pour l'acupuncture, seuls sont pris en charge les actes non remboursés par la Sécurité sociale réalisés chez un\nmédecin, une sage-femme ou un chirurgien-dentiste).",
-      "context": "Conditions des medecines douces et de l'acupuncture",
-      "page": 3
-    },
-    {
-      "quote": "(6) Prise en charge dans la limite des Honoraires Limites de Facturation (HLF).",
-      "context": "Limite des honoraires limites de facturation en dentaire",
-      "page": 3
-    },
-    {
-      "quote": "(12) Limité à une Aide auditive tous les quatre ans pour chaque oreille.",
-      "context": "Periodicite des aides auditives",
-      "page": 3
-    },
-    {
-      "quote": "Le contrat responsable impose depuis le 01/01/2021 un plafond de\n1 700 € y compris le remboursement de la sécurité sociale par prothèse.",
-      "context": "Plafond contrat responsable sur les aides auditives",
-      "page": 3
-    },
-    {
-      "quote": "Assureur de la garantie Santé - Mutuelle Ociane - Mutuelle soumise aux dispositions du Livre II du Code de la Mutualité, immatriculée sous le n° SIREN 434 243\n085.",
-      "context": "Porteur du risque sante",
-      "page": 3
-    },
-    {
-      "quote": "Prestation réalisée par Matmut Protection juridique, Société du Groupe Matmut - Société Anonyme (SA) au capital de 7 500 000 € entièrement libéré. Entreprise\nrégie par le Code des Assurances, inscrite au RCS de Rouen sous le n° SIREN 423 499 391.",
-      "context": "Porteur de la protection juridique",
-      "page": 3
-    },
-    {
-      "quote": "Assistance - Prestations réalisées par IMA GIE - Société Anonyme à Directoire et Conseil de Surveillance au capital social de 55 382 784 €, inscrit au RCS de Niort sous\nle n° Siren 320 281 025.",
-      "context": "Prestataire assistance",
-      "page": 3
-    },
-    {
-      "quote": "Document non contractuel. L’ensemble des garanties évoquées dans ce document s’applique dans les limites et conditions définies au contrat.",
-      "context": "Portee non contractuelle du document",
-      "page": 3
-    },
-    {
-      "quote": "Chambre particulière - Prise en charge limitée par année civile et par bénéficiaire \nà 60 jours en rééducation - Forfait par jour",
-      "context": "Limite de la chambre particuliere",
-      "page": 1
-    },
-    {
-      "quote": "Lit accompagnant - Uniquement en cas d’hospitalisation d’un enfant à charge âgé\nde moins de 16 ans à la date des soins - Forfait par jour",
-      "context": "Condition du lit accompagnant",
-      "page": 1
-    }
-  ]
+ "schema_version": "1.0",
+ "prompt_version": "1.1",
+ "country": "fr",
+ "insurer_slug": "matmut",
+ "insurer_name": "Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477",
+ "product_name": "Régime frais de santé CCN Industries et des commerces de gros de vins, cidres, spiritueux, sirops, jus de fruits et boissons diverses — Vos garanties 2026",
+ "branch": "sante",
+ "branch_code": null,
+ "document_type": "product_sheet",
+ "language": "fr",
+ "target_audience": null,
+ "target_audience_note": "Le document ne désigne aucun public cible. Il s'intitule « Régime frais de santé / CCN Industries et des commerces de gros de vins, cidres, spiritueux, sirops, jus de fruits et boissons diverses » et parle d'« adhérent » et de « bénéficiaire ».",
+ "reference": "CCN VINS SPIRITUEUX-0925",
+ "edition_date": null,
+ "product_family": "Régime frais de santé CCN Industries et commerces de gros de vins, cidres, spiritueux, sirops, jus de fruits et boissons diverses",
+ "variant": null,
+ "is_extension": false,
+ "extends": null,
+ "superseded": null,
+ "source_url": "https://www.matmut.fr/pro/pdf/CCN-VINS-SPIRITUEUX-garanties-sante.pdf",
+ "source_pdf": "tableau-de-garanties-sante-ccn-vins-spiritueux-c4faba70.pdf",
+ "source_sha256": "b502a4604cc324ce8b7e0aa1b5cc6430ef211e47d9d405fa0da843d762b20f9c",
+ "source_pages": 8,
+ "fetched_at": "2026-07-30",
+ "extraction_model": "claude-code-subagent:scale",
+ "summary": "Tableau de garanties du régime frais de santé de la CCN Industries et des commerces de gros de vins, cidres, spiritueux, sirops, jus de fruits et boissons diverses, présentant trois niveaux de couverture (NIVEAU 1, NIVEAU 2, NIVEAU 3) pour les actes médicaux, l'hospitalisation (y compris obstétrique), des garanties complémentaires, le dentaire, l'optique, les aides auditives et le sport sur ordonnance. Les remboursements sont exprimés en pourcentage de la Base de Remboursement (BR) y compris la part du régime obligatoire, en frais réels ou en forfaits en euros. Le document ajoute une assistance et une série de services inclus dans les trois niveaux, puis des exemples chiffrés de remboursements. Il précise être un document non contractuel.",
+ "definitions": [
+  {
+   "term": "BR",
+   "definition": "Base de Remboursement",
+   "page": 3
+  },
+  {
+   "term": "OPTAM",
+   "definition": "Option de Pratique Tarifaire Maîtrisée",
+   "page": 3
+  },
+  {
+   "term": "TM",
+   "definition": "Ticket Modérateur",
+   "page": 3
+  },
+  {
+   "term": "SS",
+   "definition": "Sécurité Sociale",
+   "page": 3
+  },
+  {
+   "term": "PMSS",
+   "definition": "Plafond Mensuel de la Sécurité Sociale",
+   "page": 3
+  },
+  {
+   "term": "FR",
+   "definition": "Frais Réels",
+   "page": 3
+  },
+  {
+   "term": "RO",
+   "definition": "Régime Obligatoire",
+   "page": 3
+  },
+  {
+   "term": "DPTM",
+   "definition": "Dispositif de Pratique Tarifaire Maîtrisée",
+   "page": 3
+  },
+  {
+   "term": "DE",
+   "definition": "Dépense Engagée",
+   "page": 3
+  },
+  {
+   "term": "SMR",
+   "definition": "Service Médical Rendu",
+   "page": 3
+  },
+  {
+   "term": "Prothèses relevant du 100 % Santé sans reste à charge",
+   "definition": "Couronne et bridge métalliques (toutes dents), couronne céramique zircone (dents hors molaires), couronne céramométallique et céramique hors zircone (incisives, canines et 1ères prémolaires), bridge céramométallique (incisives), prothèses amovibles à plaque base résine. Leurs prix sont encadrés par des Prix Limites de Vente (PLV). (renvoi 7)",
+   "page": 3
+  },
+  {
+   "term": "Prothèses à tarifs maîtrisés",
+   "definition": "Prothèses à tarifs maîtrisés plafonnés aux Prix Limites de Vente (PLV) fixés règlementairement. (renvoi 8)",
+   "page": 3
+  },
+  {
+   "term": "Prothèses à tarifs libres",
+   "definition": "Le professionnel de santé est libre de fixer les prix de ces équipements. (renvoi 9)",
+   "page": 3
+  },
+  {
+   "term": "Équipement relevant du 100 % Santé (verres et monture de classe A)",
+   "definition": "Équipement sans reste à charge : les montures de classe A doivent respecter les normes européennes avec un prix inférieur ou égal à 30€. Les verres de classe A doivent répondre à des critères fixés réglementairement : verres traitant l'ensemble des troubles visuels, amincis en fonction du trouble, durcis pour éviter les rayures, traités anti-reflet. Leurs prix sont encadrés par des Prix Limites de Vente (PLV). (renvoi 10)",
+   "page": 3
+  },
+  {
+   "term": "Équipement à tarif libre (verres et monture de classe B)",
+   "definition": "Le professionnel est libre de fixer les prix de ces équipements. Forfait pour une paire de lunettes (1 monture + 2 verres) incluant le remboursement de la Sécurité sociale. (renvoi 11)",
+   "page": 3
+  },
+  {
+   "term": "Équipement relevant du 100 % Santé (aides auditives classe I)",
+   "definition": "Équipement sans reste à charge : contours d'oreille classiques, contours à écouteurs déportés, intra-auriculaires, 30 jours d'essai et 4 ans de garantie fabricant, au moins 3 options (système anti-acouphène, connectivité sans fil, réducteur bruit du vent…) (renvoi 13)",
+   "page": 3
+  },
+  {
+   "term": "Équipement à tarif libre (aide auditive de classe II)",
+   "definition": "Entretien (y compris le changement des piles), réglages, réparation prothèses auditives réalisée par l'audioprothésiste prise en charge à hauteur de 100 % de la base de remboursement de la Sécurité sociale. Le contrat responsable impose depuis le 01/01/2021 un plafond de 1 700 € y compris le remboursement de la sécurité sociale par prothèse. (renvoi 14)",
+   "page": 3
+  },
+  {
+   "term": "HLF",
+   "definition": "Honoraires Limites de Facturation (sigle utilisé dans le poste dentaire et développé au renvoi 6 : « Prise en charge dans la limite des Honoraires Limites de Facturation (HLF) »).",
+   "page": 3
+  }
+ ],
+ "coverages": [
+  {
+   "name": "Consultations et visites - Médecins généralistes/spécialistes - Praticiens adhérents au DPTAM",
+   "description": "Actes médicaux : consultations et visites de médecins généralistes/spécialistes chez des praticiens adhérents au DPTAM.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 130 % BR | NIVEAU 2 : 370 % BR | NIVEAU 3 : 400 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Consultations et visites - Médecins généralistes/spécialistes - Praticiens non adhérents au DPTAM",
+   "description": "Actes médicaux : consultations et visites de médecins généralistes/spécialistes chez des praticiens non adhérents au DPTAM.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 110 % BR | NIVEAU 2 : 200 % BR | NIVEAU 3 : 200 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Analyses et examens de laboratoire",
+   "description": "Actes médicaux : analyses et examens de laboratoire.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 120 % BR | NIVEAU 2 : 370 % BR | NIVEAU 3 : 400 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Actes techniques d'imagerie médicale",
+   "description": "Actes médicaux : actes techniques d'imagerie médicale (renvoi 1).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 130 % BR | NIVEAU 2 : 370 % BR | NIVEAU 3 : 400 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Le taux de prise en charge indiqué s'applique aux actes et soins réalisés par des médecins ayant adhéré au à l'Option de Pratique Tarifaire Maîtrisée (OPTAM ou OPTAM-ACO). Ce taux est minoré de 20 % et limité à 200 % pour les médecins non adhérents (renvoi 1, page 3)"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Honoraires médecins radiologues - Adhérents au DPTAM",
+   "description": "Actes médicaux : honoraires de médecins radiologues adhérents au DPTAM.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 130 % BR | NIVEAU 2 : 370 % BR | NIVEAU 3 : 400 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Honoraires médecins radiologues - Non adhérents au DPTAM",
+   "description": "Actes médicaux : honoraires de médecins radiologues non adhérents au DPTAM.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 110 % BR | NIVEAU 2 : 200 % BR | NIVEAU 3 : 200 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Auxiliaires médicaux",
+   "description": "Actes médicaux : auxiliaires médicaux.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 120 % BR | NIVEAU 2 : 360 % BR | NIVEAU 3 : 400 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Actes de spécialistes - Praticiens adhérents au DPTAM",
+   "description": "Actes médicaux : actes de spécialistes chez des praticiens adhérents au DPTAM.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 130 % BR | NIVEAU 2 : 370 % BR | NIVEAU 3 : 400 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Actes de spécialistes - Praticiens non adhérents au DPTAM",
+   "description": "Actes médicaux : actes de spécialistes chez des praticiens non adhérents au DPTAM.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 110 % BR | NIVEAU 2 : 200 % BR | NIVEAU 3 : 200 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Forfait solidaire soutien psychologique - Forfait par an",
+   "description": "Actes médicaux : forfait solidaire de soutien psychologique, forfait par an (renvoi 2).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 50 € x 3 séances | NIVEAU 2 : 50 € x 3 séances | NIVEAU 3 : 50 € x 3 séances",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Forfait valable pour les actes non remboursés par la Sécurité Sociale, chez les psychologues diplômés dans leur spécialité et inscrits aux registres officiels de l'Assurance Maladie, sur présentation d'une facture nominative acquittée jusqu'au 31/12/2026 (renvoi 2, page 3)"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Séances d'accompagnement psychologique réalisées par des psychologues, remboursées par la Sécurité sociale",
+   "description": "Actes médicaux : séances d'accompagnement psychologique réalisées par des psychologues, remboursées par la Sécurité sociale (renvoi 3), dans le cadre du dispositif « Mon soutien psy ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 100 % BR | NIVEAU 2 : 100 % BR | NIVEAU 3 : 100 % BR",
+   "sub_limits": [
+    "Dans la limite de 12 séances par an, avec une première séance qui est un entretien d'évaluation et entre 1 à 11 séances de suivi psychologique (50 €/séance) (renvoi 3, page 3)"
+   ],
+   "deductible": null,
+   "conditions": [
+    "Ouvert aux personnes de plus de 3 ans (enfants, adolescents et adultes)",
+    "Valable chez les psychologues partenaires du dispositif « Mon soutien psy », diplômés dans leur spécialité et inscrits aux registres officiels de l'Assurance Maladie",
+    "Ce nombre est adapté aux besoins et déterminé par le psychologue",
+    "Garantie uniquement disponible dans les « contrats responsables »"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Hospitalisation - Frais de séjour - Établissement conventionné",
+   "description": "Hospitalisation (y compris obstétrique) : frais de séjour en établissement conventionné.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : Frais réels | NIVEAU 2 : Frais réels | NIVEAU 3 : Frais réels",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Hospitalisation - Frais de séjour - Établissement non conventionné",
+   "description": "Hospitalisation (y compris obstétrique) : frais de séjour en établissement non conventionné.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 100 % BR | NIVEAU 2 : 100 % BR | NIVEAU 3 : 100 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Hospitalisation - Honoraires - Praticiens adhérents au DPTAM",
+   "description": "Hospitalisation (y compris obstétrique) : honoraires des praticiens adhérents au DPTAM.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 400 % BR | NIVEAU 2 : Frais réels | NIVEAU 3 : Frais réels",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Hospitalisation - Honoraires - Praticiens non adhérents au DPTAM",
+   "description": "Hospitalisation (y compris obstétrique) : honoraires des praticiens non adhérents au DPTAM.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 200 % BR | NIVEAU 2 : 200 % BR | NIVEAU 3 : 200 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Soins post-opératoires",
+   "description": "Hospitalisation (y compris obstétrique) : soins post-opératoires.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 100 % BR | NIVEAU 2 : 100 % FR - RSS, Non OPTAM : limité à 200 % BR | NIVEAU 3 : 100 % FR - RSS, Non OPTAM : limité à 200 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Forfait journalier hospitalier",
+   "description": "Hospitalisation (y compris obstétrique) : forfait journalier hospitalier, sur la base du montant en vigueur à la date des soins, sans limitation de durée.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : Frais réels | NIVEAU 2 : Frais réels | NIVEAU 3 : Frais réels",
+   "sub_limits": [
+    "Sur la base du montant en vigueur à la date des soins, sans limitation de durée"
+   ],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Forfait patient urgences",
+   "description": "Hospitalisation (y compris obstétrique) : forfait patient urgences.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : Frais réels | NIVEAU 2 : Frais réels | NIVEAU 3 : Frais réels",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Transport en ambulance remboursé par la Sécurité sociale",
+   "description": "Hospitalisation (y compris obstétrique) : transport en ambulance remboursé par la Sécurité sociale.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 100 % BR | NIVEAU 2 : 115 % BR | NIVEAU 3 : 130 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Transport en ambulance non remboursé par la Sécurité sociale",
+   "description": "Hospitalisation (y compris obstétrique) : transport en ambulance non remboursé par la Sécurité sociale.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 100 % BR | NIVEAU 2 : 100 % BR | NIVEAU 3 : 100 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Chambre particulière - Forfait par jour",
+   "description": "Hospitalisation (y compris obstétrique) : chambre particulière, prise en charge limitée par année civile et par bénéficiaire à 60 jours en rééducation, forfait par jour.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 70 €/jour | NIVEAU 2 : Frais réels | NIVEAU 3 : Frais réels",
+   "sub_limits": [
+    "Prise en charge limitée par année civile et par bénéficiaire à 60 jours en rééducation"
+   ],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Lit accompagnant - Forfait par jour",
+   "description": "Hospitalisation (y compris obstétrique) : lit accompagnant, uniquement en cas d'hospitalisation d'un enfant à charge âgé de moins de 16 ans à la date des soins, forfait par jour.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 25 €/jour | NIVEAU 2 : 50 €/jour | NIVEAU 3 : 75 €/jour",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Uniquement en cas d'hospitalisation d'un enfant à charge âgé de moins de 16 ans à la date des soins"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Matériel médical remboursé par la Sécurité sociale (hors Aide auditive et Prothèse dentaire) - Orthopédie/appareillage/prothèses",
+   "description": "Garanties complémentaires : matériel médical remboursé par la Sécurité sociale (hors aide auditive et prothèse dentaire) - orthopédie/appareillage/prothèses.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 160 % BR | NIVEAU 2 : 360 % BR | NIVEAU 3 : 400 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Hors aide auditive et prothèse dentaire"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Frais pharmaceutiques",
+   "description": "Garanties complémentaires : frais pharmaceutiques.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 100 % BR | NIVEAU 2 : 100 % BR | NIVEAU 3 : 100 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Forfait médicaments prescrits et non remboursés par la Sécurité sociale - Forfait global par an/bénéficiaire",
+   "description": "Garanties complémentaires : forfait pour les médicaments prescrits et non remboursés par la Sécurité sociale, forfait global par an et par bénéficiaire.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 50 € par année civile et par bénéficiaire | NIVEAU 2 : 100 € par année civile et par bénéficiaire | NIVEAU 3 : 150 € par année civile et par bénéficiaire",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Médicaments prescrits et non remboursés par la Sécurité sociale"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Vaccins remboursés par la Sécurité sociale",
+   "description": "Garanties complémentaires : vaccins remboursés par la Sécurité sociale.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 100 % BR | NIVEAU 2 : 165 % BR | NIVEAU 3 : 165 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Vaccins non remboursés par la Sécurité sociale - Forfait par an/bénéficiaire",
+   "description": "Garanties complémentaires : vaccins non remboursés par la Sécurité sociale, forfait par an et par bénéficiaire.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 50 € par année civile et par bénéficiaire | NIVEAU 2 : 50 € par année civile et par bénéficiaire | NIVEAU 3 : 50 € par année civile et par bénéficiaire",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Forfait vaccin antigrippe - Forfait par an",
+   "description": "Garanties complémentaires : forfait vaccin antigrippe, forfait par an (renvoi 4).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 20 €/an | NIVEAU 2 : 20 €/an | NIVEAU 3 : 20 €/an",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Forfait valable sur facture nominative acquittée jusqu'au 31/12/2026 (renvoi 4, page 3)"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Allocation maternité",
+   "description": "Garanties complémentaires : allocation maternité, allocation forfaitaire s'appliquant une seule fois en cas de naissance multiple (sur présentation de l'acte de naissance ou d'adoption).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 156,45 € | NIVEAU 2 : 375,48 € | NIVEAU 3 : 375,48 €",
+   "sub_limits": [
+    "Allocation forfaitaire s'appliquant une seule fois en cas de naissance multiple"
+   ],
+   "deductible": null,
+   "conditions": [
+    "Sur présentation de l'acte de naissance ou d'adoption"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Cures thermales remboursées par la Sécurité sociale - Forfait par an",
+   "description": "Garanties complémentaires : cures thermales remboursées par la Sécurité sociale, forfait par an.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 65 % BR + 156,45 €/an | NIVEAU 2 : 65 % BR + 375,48 €/an | NIVEAU 3 : 65 % BR + 375,48 €/an",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Cure remboursée par la Sécurité sociale"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Ostéodensitométrie - Forfait par an/bénéficiaire",
+   "description": "Garanties complémentaires : ostéodensitométrie, forfait par an et par bénéficiaire.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 50 € par année civile et par bénéficiaire | NIVEAU 2 : 75 € par année civile et par bénéficiaire | NIVEAU 3 : 75 € par année civile et par bénéficiaire",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 1
+  },
+  {
+   "name": "Médecine douce : homéopathie, phytothérapie, acupuncture, chiropractie, ostéopathie - Forfait global par an/bénéficiaire",
+   "description": "Garanties complémentaires : médecine douce (homéopathie, phytothérapie, acupuncture, chiropractie, ostéopathie), forfait global par an et par bénéficiaire (renvoi 5).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 30 € x 3 séances au choix | NIVEAU 2 : 50 € x 5 séances au choix | NIVEAU 3 : 60 € x 5 séances au choix",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Forfait global valable pour les actes non remboursés par la Sécurité sociale, chez les praticiens diplômés dans leur spécialité et inscrits aux registres officiels de l'Assurance Maladie, sur présentation d'une facture nominative acquittée",
+    "Pour l'acupuncture, seuls sont pris en charge les actes non remboursés par la Sécurité sociale réalisés chez un médecin, une sage-femme ou un chirurgien-dentiste (renvoi 5, page 3)"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Sevrage tabagique - Forfait global par an",
+   "description": "Garanties complémentaires : sevrage tabagique (substituts nicotiniques - patchs, gommes… - ou produits pharmaceutiques remboursables par la Sécurité sociale), forfait global par an. Non prévu en NIVEAU 1 (« - » dans le tableau).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : - | NIVEAU 2 : 90 €/an | NIVEAU 3 : 90 €/an",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Substituts nicotiniques (patchs, gommes…) ou produits pharmaceutiques remboursables par la Sécurité sociale"
+   ],
+   "page": 1
+  },
+  {
+   "name": "Dentaire - Soins et prothèses « 100 % Santé »",
+   "description": "Dentaire : soins et prothèses relevant du panier « 100 % Santé » (renvois 6 et 7).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : Remboursement intégral | NIVEAU 2 : Remboursement intégral | NIVEAU 3 : Remboursement intégral",
+   "sub_limits": [
+    "Prise en charge dans la limite des Honoraires Limites de Facturation (HLF) (renvoi 6, page 3)"
+   ],
+   "deductible": null,
+   "conditions": [
+    "Prix encadrés par des Prix Limites de Vente (PLV)"
+   ],
+   "page": 2
+  },
+  {
+   "name": "Dentaire - Soins et prothèses à honoraires maîtrisés",
+   "description": "Dentaire : soins et prothèses à honoraires maîtrisés (renvoi 8).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : Prise en charge selon ce qui est prévu ci-dessous et dans la limite des HLF | NIVEAU 2 : Prise en charge selon ce qui est prévu ci-dessous et dans la limite des HLF | NIVEAU 3 : Prise en charge selon ce qui est prévu ci-dessous et dans la limite des HLF",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Prothèses à tarifs maîtrisés plafonnés aux Prix Limites de Vente (PLV) fixés règlementairement (renvoi 8, page 3)"
+   ],
+   "page": 2
+  },
+  {
+   "name": "Soins dentaires pris en charge par la Sécurité sociale (hors Inlay-onlay)",
+   "description": "Dentaire : soins dentaires pris en charge par la Sécurité sociale, hors inlay-onlay.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 170 % BR | NIVEAU 2 : 170 % BR | NIVEAU 3 : 170 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Hors Inlay-onlay"
+   ],
+   "page": 2
+  },
+  {
+   "name": "Prothèses dentaires à honoraires maîtrisées/libres (y compris appareils Inlay-onlay et amovibles définitifs)",
+   "description": "Dentaire : prothèses dentaires à honoraires maîtrisées (renvoi 8) ou libres (renvoi 9), y compris appareils inlay-onlay et amovibles définitifs.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 450 % BR | NIVEAU 2 : 520 % BR | NIVEAU 3 : 550 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Orthodontie - Actes pris en charge par la Sécurité sociale",
+   "description": "Dentaire : orthodontie, actes pris en charge par la Sécurité sociale.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 210 % BR | NIVEAU 2 : 450 % BR | NIVEAU 3 : 450 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Orthodontie - Actes non pris en charge par la Sécurité sociale",
+   "description": "Dentaire : orthodontie, actes non pris en charge par la Sécurité sociale. Non prévu en NIVEAU 1 (« - » dans le tableau).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : - | NIVEAU 2 : 250 % BR | NIVEAU 3 : 310 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Implantologie - Forfait par an",
+   "description": "Dentaire : implantologie, forfait par an. Non prévue en NIVEAU 1 (« - » dans le tableau).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : - | NIVEAU 2 : 750 €/an | NIVEAU 3 : 800 €/an",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Autres actes dentaires non pris en charge ci-dessus (parodontologie, pilier implantaire etc.) - Forfait par an",
+   "description": "Dentaire : autres actes dentaires non pris en charge ci-dessus (parodontologie, pilier implantaire etc.), forfait par an. Non prévus en NIVEAU 1 (« - » dans le tableau).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : - | NIVEAU 2 : 500 €/an | NIVEAU 3 : 500 €/an",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Actes et scanner (tomodensitométrie) - Procédés pré-implantaires (wax up, guide chirurgical)",
+   "description": "Dentaire : le tableau porte successivement les libellés « Actes et scanner (tomodensitométrie) » puis « Procédés pré-implantaires (wax up, guide chirurgical) », suivis d'une seule série de trois valeurs. Non prévu en NIVEAU 1 et NIVEAU 2 (« - » dans le tableau).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : - | NIVEAU 2 : - | NIVEAU 3 : 70 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Optique - Équipements « 100 % Santé »",
+   "description": "Optique : équipements relevant du panier « 100 % Santé » (renvoi 10).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : Remboursement intégral | NIVEAU 2 : Remboursement intégral | NIVEAU 3 : Remboursement intégral",
+   "sub_limits": [
+    "Les montures de classe A doivent respecter les normes européennes avec un prix inférieur ou égal à 30€ (renvoi 10, page 3)"
+   ],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Optique - Équipement à tarif libre - Classe B - Verre simple",
+   "description": "Optique : verre simple de l'équipement à tarif libre de classe B (renvoi 11).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 100 €/verre | NIVEAU 2 : 160 €/verre | NIVEAU 3 : 160 €/verre",
+   "sub_limits": [
+    "Forfait pour une paire de lunettes (1 monture + 2 verres) incluant le remboursement de la Sécurité sociale (renvoi 11, page 3)"
+   ],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Optique - Équipement à tarif libre - Classe B - Verre complexe",
+   "description": "Optique : verre complexe de l'équipement à tarif libre de classe B (renvoi 11).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 210 €/verre | NIVEAU 2 : 300 €/verre | NIVEAU 3 : 300 €/verre",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Optique - Équipement à tarif libre - Classe B - Verre très complexe",
+   "description": "Optique : verre très complexe de l'équipement à tarif libre de classe B (renvoi 11).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 250 €/verre | NIVEAU 2 : 350 €/verre | NIVEAU 3 : 350 €/verre",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Optique - Équipement à tarif libre - Classe B - Monture enfant/adulte",
+   "description": "Optique : monture enfant/adulte de l'équipement à tarif libre de classe B (renvoi 11). Le tableau donne deux montants par niveau, séparés par une barre oblique (enfant/adulte).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 50 €/100 € | NIVEAU 2 : 100 €/100 € | NIVEAU 3 : 100 €/100 € (enfant/adulte)",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Lentilles - Forfait par an",
+   "description": "Optique - Autres prestations : lentilles, forfait par an.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 100 % BR + 150 €/an | NIVEAU 2 : 100 % BR + 250 €/an | NIVEAU 3 : 100 % BR + 250 €/an",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Chirurgie - Forfait par œil/an",
+   "description": "Optique - Autres prestations : chirurgie, forfait par œil et par an.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 200 €/oeil/an | NIVEAU 2 : 500 €/oeil/an | NIVEAU 3 : 500 €/oeil/an",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Aides auditives - Équipement 100 % santé - Classe I",
+   "description": "Aides auditives : équipement 100 % santé de classe I (renvois 12 et 13).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : Remboursement intégral | NIVEAU 2 : Remboursement intégral | NIVEAU 3 : Remboursement intégral",
+   "sub_limits": [
+    "Limité à une Aide auditive tous les quatre ans pour chaque oreille (renvoi 12, page 3)"
+   ],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Aides auditives - Équipement à tarif libre - Classe II",
+   "description": "Aides auditives : équipement à tarif libre de classe II (renvois 12 et 14).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 210 % BR | NIVEAU 2 : 460 % BR | NIVEAU 3 : 460 % BR",
+   "sub_limits": [
+    "Limité à une Aide auditive tous les quatre ans pour chaque oreille (renvoi 12, page 3)",
+    "Le contrat responsable impose depuis le 01/01/2021 un plafond de 1 700 € y compris le remboursement de la sécurité sociale par prothèse (renvoi 14, page 3)",
+    "Forfait « Aide auditive » versé dans la limite de deux équipements (soit un équipement par oreille) tous les 4 ans à partir de la date d'achat (renvoi 14, page 3)"
+   ],
+   "deductible": null,
+   "conditions": [
+    "Entretien (y compris le changement des piles), réglages, réparation prothèses auditives réalisée par l'audioprothésiste prise en charge à hauteur de 100 % de la base de remboursement de la Sécurité sociale (renvoi 14, page 3)"
+   ],
+   "page": 2
+  },
+  {
+   "name": "Petits accessoires auditifs (piles…)",
+   "description": "Aides auditives : petits accessoires auditifs (piles…).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : 210 % BR | NIVEAU 2 : 460 % BR | NIVEAU 3 : 460 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Sport sur ordonnance - Forfait par an",
+   "description": "Sport sur ordonnance auprès d'un professionnel agréé pour les adhérents reconnus en Affection de Longue Durée (ALD) ou éligibles (renvoi 15). Non prévu en NIVEAU 1 (« - » dans le tableau).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : - | NIVEAU 2 : 100 €/an | NIVEAU 3 : 200 €/an",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Forfait valable sur prescription médicale et facture nominative acquittée d'un professionnel de sport agréé Activité Physique Adaptée (APA) ou certifié par une fédération sportive",
+    "Pour les personnes en Affection Longue Durée (ALD), aux patients atteints d'une maladie chronique, présentant des facteurs de risque et aux personnes en situation de perte d'autonomie tels que définis par décret (renvoi 15, page 3)"
+   ],
+   "page": 2
+  },
+  {
+   "name": "Assistance Matmut",
+   "description": "Assistance : Assistance Matmut, incluse dans les trois niveaux.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : Inclus | NIVEAU 2 : Inclus | NIVEAU 3 : Inclus",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Itelis : avantages tarifaires optique, audio et médecines douces",
+   "description": "Services + : Itelis, avantages tarifaires optique, audio et médecines douces.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : Inclus | NIVEAU 2 : Inclus | NIVEAU 3 : Inclus",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Medaviz : téléconsultation 24 h/24, 7 j/7",
+   "description": "Services + : Medaviz, téléconsultation 24 h/24, 7 j/7.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : Inclus | NIVEAU 2 : Inclus | NIVEAU 3 : Inclus",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Le service doit faire l'objet d'une utilisation raisonnable"
+   ],
+   "page": 2
+  },
+  {
+   "name": "Livmed's : livraison de médicaments 24 h/24, 7 j/7",
+   "description": "Services + : Livmed's, livraison de médicaments 24 h/24, 7 j/7.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : Inclus | NIVEAU 2 : Inclus | NIVEAU 3 : Inclus",
+   "sub_limits": [
+    "Prise en charge de 3 livraisons par an par la mutuelle dans un rayon de 20km, au-delà le complément reste à la charge de l'adhérent (page 3)"
+   ],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Deuxième avis médical : service d'accès à l'expertise médicale en ligne",
+   "description": "Services + : deuxième avis médical, service d'accès à l'expertise médicale en ligne (deuxiemeavis.fr).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : Inclus | NIVEAU 2 : Inclus | NIVEAU 3 : Inclus",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Bilan de santé digital : évaluation de santé globale",
+   "description": "Services + : bilan de santé digital, évaluation de santé globale.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : Inclus | NIVEAU 2 : Inclus | NIVEAU 3 : Inclus",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Méta-Coaching : programme de coaching santé en ligne",
+   "description": "Services + : Méta-Coaching, programme de coaching santé en ligne.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : Inclus | NIVEAU 2 : Inclus | NIVEAU 3 : Inclus",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Salvum : formation aux gestes qui sauvent",
+   "description": "Services + : Salvum, formation aux gestes qui sauvent (formation en ligne de secourisme).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : Inclus | NIVEAU 2 : Inclus | NIVEAU 3 : Inclus",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  },
+  {
+   "name": "Protection juridique santé",
+   "description": "Services + : protection juridique santé, prestation réalisée par Matmut Protection juridique.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "NIVEAU 1 : Inclus | NIVEAU 2 : Inclus | NIVEAU 3 : Inclus",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 2
+  }
+ ],
+ "exclusions": [
+  {
+   "name": "Praticiens non conventionnés - base de remboursement",
+   "description": "Pour les praticiens non conventionnés, la Base de Remboursement est retenue sur la base du tarif d'autorité.",
+   "applies_to": "all",
+   "page": 3
+  },
+  {
+   "name": "Remboursement plafonné aux frais restant effectivement à charge",
+   "description": "Nos remboursements ne peuvent être supérieurs au montant des frais restant à charge effective de l'adhérent.",
+   "applies_to": "all",
+   "page": 3
+  },
+  {
+   "name": "Médecins non adhérents - taux minoré de 20 % et limité à 200 %",
+   "description": "Le taux de prise en charge indiqué s'applique aux actes et soins réalisés par des médecins ayant adhéré au à l'Option de Pratique Tarifaire Maîtrisée (OPTAM ou OPTAM-ACO). Ce taux est minoré de 20 % et limité à 200 % pour les médecins non adhérents (renvoi 1).",
+   "applies_to": "Actes techniques d'imagerie médicale",
+   "page": 3
+  },
+  {
+   "name": "Orthodontie non prise en charge par la Sécurité sociale - non prévue en NIVEAU 1",
+   "description": "Le tableau porte « - » pour l'orthodontie non prise en charge par la Sécurité sociale en NIVEAU 1 ; elle n'est prévue qu'en NIVEAU 2 (250 % BR) et NIVEAU 3 (310 % BR).",
+   "applies_to": "Orthodontie - Actes non pris en charge par la Sécurité sociale",
+   "page": 2
+  },
+  {
+   "name": "Implantologie - non prévue en NIVEAU 1",
+   "description": "Le tableau porte « - » pour l'implantologie en NIVEAU 1 ; elle n'est prévue qu'en NIVEAU 2 (750 €/an) et NIVEAU 3 (800 €/an).",
+   "applies_to": "Implantologie - Forfait par an",
+   "page": 2
+  },
+  {
+   "name": "Autres actes dentaires - non prévus en NIVEAU 1",
+   "description": "Le tableau porte « - » pour les autres actes dentaires (parodontologie, pilier implantaire etc.) en NIVEAU 1 ; ils ne sont prévus qu'en NIVEAU 2 et NIVEAU 3 (500 €/an).",
+   "applies_to": "Autres actes dentaires non pris en charge ci-dessus (parodontologie, pilier implantaire etc.) - Forfait par an",
+   "page": 2
+  },
+  {
+   "name": "Procédés pré-implantaires - non prévus en NIVEAU 1 et NIVEAU 2",
+   "description": "Le tableau porte « - » en NIVEAU 1 et NIVEAU 2 pour la ligne « Actes et scanner (tomodensitométrie) / Procédés pré-implantaires (wax up, guide chirurgical) » ; seule la colonne NIVEAU 3 porte 70 €.",
+   "applies_to": "Actes et scanner (tomodensitométrie) - Procédés pré-implantaires (wax up, guide chirurgical)",
+   "page": 2
+  },
+  {
+   "name": "Sevrage tabagique - non prévu en NIVEAU 1",
+   "description": "Le tableau porte « - » pour le sevrage tabagique en NIVEAU 1 ; il n'est prévu qu'en NIVEAU 2 et NIVEAU 3 (90 €/an).",
+   "applies_to": "Sevrage tabagique - Forfait global par an",
+   "page": 1
+  },
+  {
+   "name": "Sport sur ordonnance - non prévu en NIVEAU 1",
+   "description": "Le tableau porte « - » pour le sport sur ordonnance en NIVEAU 1 ; il n'est prévu qu'en NIVEAU 2 (100 €/an) et NIVEAU 3 (200 €/an).",
+   "applies_to": "Sport sur ordonnance - Forfait par an",
+   "page": 2
+  },
+  {
+   "name": "Chambre particulière - limitée à 60 jours en rééducation",
+   "description": "Chambre particulière - Prise en charge limitée par année civile et par bénéficiaire à 60 jours en rééducation.",
+   "applies_to": "Chambre particulière - Forfait par jour",
+   "page": 1
+  },
+  {
+   "name": "Lit accompagnant - uniquement pour un enfant à charge de moins de 16 ans",
+   "description": "Lit accompagnant - Uniquement en cas d'hospitalisation d'un enfant à charge âgé de moins de 16 ans à la date des soins.",
+   "applies_to": "Lit accompagnant - Forfait par jour",
+   "page": 1
+  },
+  {
+   "name": "Aides auditives - une aide auditive tous les quatre ans par oreille",
+   "description": "Limité à une Aide auditive tous les quatre ans pour chaque oreille (renvoi 12).",
+   "applies_to": "AIDES AUDITIVES",
+   "page": 3
+  },
+  {
+   "name": "Aides auditives classe II - plafond de 1 700 € par prothèse",
+   "description": "Le contrat responsable impose depuis le 01/01/2021 un plafond de 1 700 € y compris le remboursement de la sécurité sociale par prothèse (renvoi 14).",
+   "applies_to": "Aides auditives - Équipement à tarif libre - Classe II",
+   "page": 3
+  },
+  {
+   "name": "Matériel médical - hors aide auditive et prothèse dentaire",
+   "description": "La garantie matériel médical vise le matériel médical remboursé par la Sécurité sociale hors aide auditive et prothèse dentaire.",
+   "applies_to": "Matériel médical remboursé par la Sécurité sociale (hors Aide auditive et Prothèse dentaire) - Orthopédie/appareillage/prothèses",
+   "page": 1
+  },
+  {
+   "name": "Soins dentaires - hors Inlay-onlay",
+   "description": "La ligne « Soins dentaires pris en charge par la Sécurité sociale » exclut expressément les inlay-onlay, traités dans la ligne prothèses.",
+   "applies_to": "Soins dentaires pris en charge par la Sécurité sociale (hors Inlay-onlay)",
+   "page": 2
+  },
+  {
+   "name": "Dentaire 100 % Santé - limite des Honoraires Limites de Facturation",
+   "description": "Prise en charge dans la limite des Honoraires Limites de Facturation (HLF) (renvoi 6).",
+   "applies_to": "Dentaire - Soins et prothèses « 100 % Santé »",
+   "page": 3
+  },
+  {
+   "name": "Séances d'accompagnement psychologique - contrats responsables uniquement",
+   "description": "Garantie uniquement disponible dans les « contrats responsables » (renvoi 3).",
+   "applies_to": "Séances d'accompagnement psychologique réalisées par des psychologues, remboursées par la Sécurité sociale",
+   "page": 3
+  },
+  {
+   "name": "Séances d'accompagnement psychologique - plafond de séances",
+   "description": "Dans la limite de 12 séances par an, avec une première séance qui est un entretien d'évaluation et entre 1 à 11 séances de suivi psychologique (50 €/séance). Ce nombre est adapté aux besoins et déterminé par le psychologue (renvoi 3).",
+   "applies_to": "Séances d'accompagnement psychologique réalisées par des psychologues, remboursées par la Sécurité sociale",
+   "page": 3
+  },
+  {
+   "name": "Forfait solidaire soutien psychologique - actes remboursés par la Sécurité sociale et échéance",
+   "description": "Forfait valable pour les actes non remboursés par la Sécurité Sociale, chez les psychologues diplômés dans leur spécialité et inscrits aux registres officiels de l'Assurance Maladie, sur présentation d'une facture nominative acquittée jusqu'au 31/12/2026 (renvoi 2).",
+   "applies_to": "Forfait solidaire soutien psychologique - Forfait par an",
+   "page": 3
+  },
+  {
+   "name": "Forfait vaccin antigrippe - échéance",
+   "description": "Forfait valable sur facture nominative acquittée jusqu'au 31/12/2026 (renvoi 4).",
+   "applies_to": "Forfait vaccin antigrippe - Forfait par an",
+   "page": 3
+  },
+  {
+   "name": "Médecine douce - actes remboursés par la Sécurité sociale et acupuncture",
+   "description": "Forfait global valable pour les actes non remboursés par la Sécurité sociale, chez les praticiens diplômés dans leur spécialité et inscrits aux registres officiels de l'Assurance Maladie, sur présentation d'une facture nominative acquittée. Pour l'acupuncture, seuls sont pris en charge les actes non remboursés par la Sécurité sociale réalisés chez un médecin, une sage-femme ou un chirurgien-dentiste (renvoi 5).",
+   "applies_to": "Médecine douce : homéopathie, phytothérapie, acupuncture, chiropractie, ostéopathie - Forfait global par an/bénéficiaire",
+   "page": 3
+  },
+  {
+   "name": "Allocation maternité - une seule fois en cas de naissance multiple",
+   "description": "Allocation forfaitaire s'appliquant une seule fois en cas de naissance multiple.",
+   "applies_to": "Allocation maternité",
+   "page": 1
+  },
+  {
+   "name": "Livmed's - au-delà de 3 livraisons par an ou hors rayon de 20 km",
+   "description": "Prise en charge de 3 livraisons par an par la mutuelle dans un rayon de 20km, au-delà le complément reste à la charge de l'adhérent.",
+   "applies_to": "Livmed's : livraison de médicaments 24 h/24, 7 j/7",
+   "page": 3
+  }
+ ],
+ "deductibles": null,
+ "waiting_periods": [],
+ "obligations": [
+  {
+   "name": "Présentation de la facture pour les forfaits",
+   "description": "Les forfaits sont versés sur présentation de l'original de la facture nominative acquittée et détaillée par acte.",
+   "timing": "Lors de la demande de remboursement",
+   "sanction": null,
+   "page": 3
+  },
+  {
+   "name": "Justificatif de l'allocation maternité",
+   "description": "Allocation maternité versée sur présentation de l'acte de naissance ou d'adoption.",
+   "timing": "Lors de la demande de remboursement",
+   "sanction": null,
+   "page": 1
+  },
+  {
+   "name": "Prescription médicale - sport sur ordonnance",
+   "description": "Forfait valable sur prescription médicale et facture nominative acquittée d'un professionnel de sport agréé Activité Physique Adaptée (APA) ou certifié par une fédération sportive (renvoi 15).",
+   "timing": "Lors de la demande de remboursement",
+   "sanction": null,
+   "page": 3
+  },
+  {
+   "name": "Facture nominative acquittée - médecine douce",
+   "description": "Forfait global valable sur présentation d'une facture nominative acquittée, chez les praticiens diplômés dans leur spécialité et inscrits aux registres officiels de l'Assurance Maladie (renvoi 5).",
+   "timing": "Lors de la demande de remboursement",
+   "sanction": null,
+   "page": 3
+  },
+  {
+   "name": "Prescription médicale - médicaments non remboursés",
+   "description": "Le forfait ne vise que les médicaments prescrits et non remboursés par la Sécurité sociale.",
+   "timing": "Lors de la demande de remboursement",
+   "sanction": null,
+   "page": 1
+  }
+ ],
+ "claims_procedure": [],
+ "duration_and_cancellation": null,
+ "prescription_period": null,
+ "premium": null,
+ "special_conditions": [
+  {
+   "name": "Porteur du risque santé",
+   "description": "Assureur de la garantie Santé - Mutuelle Ociane - Mutuelle soumise aux dispositions du Livre II du Code de la Mutualité, immatriculée sous le n° SIREN 434 243 085. Siège social : 35 rue Claude Bonnier - 33054 BORDEAUX Cedex. Les statuts de la Mutuelle Ociane sont disponibles sur matmut.fr.",
+   "page": 3
+  },
+  {
+   "name": "Matmut",
+   "description": "Matmut - Mutuelle assurance des travailleurs mutualistes, Société d'assurance mutuelle à cotisations variables, immatriculée au RCS de Rouen n° 775 701 477. Entreprise régie par le Code des assurances, 66, rue de Sotteville 76100 Rouen.",
+   "page": 3
+  },
+  {
+   "name": "Porteur de la protection juridique",
+   "description": "Prestation réalisée par Matmut Protection juridique, Société du Groupe Matmut - Société Anonyme (SA) au capital de 7 500 000 € entièrement libéré. Entreprise régie par le Code des Assurances, inscrite au RCS de Rouen sous le n° SIREN 423 499 391. Siège Social : 66 Rue de Sotteville 76100 Rouen.",
+   "page": 3
+  },
+  {
+   "name": "Prestataire assistance",
+   "description": "Assistance - Prestations réalisées par IMA GIE - Société Anonyme à Directoire et Conseil de Surveillance au capital social de 55 382 784 €, inscrit au RCS de Niort sous le n° Siren 320 281 025. Siège social : 118, avenue de Paris CS 40 000 79033 Niort CEDEX 9.",
+   "page": 3
+  },
+  {
+   "name": "Prestataires des Services +",
+   "description": "Itelis est une marque d'Isea (SA, RCS Paris 440 358 471) ; téléconsultation Medaviz mise en œuvre par Podalire (SAS, RCS Paris 807 414 024) ; deuxiemeavis.fr édité par CARIANS (SAS, RCS Paris 803 657 717) ; livraison de médicaments LIVMED'S (SAS, RCS Nice 881 600 456) ; coaching santé délivré par Méta-Coaching (SAS, RCS Paris 513 782 003) ; Salvum, formation en ligne de secourisme (SAS, RCS Meaux 801 777 541).",
+   "page": 3
+  },
+  {
+   "name": "Portée du document",
+   "description": "Document non contractuel. L'ensemble des garanties évoquées dans ce document s'applique dans les limites et conditions définies au contrat.",
+   "page": 3
+  },
+  {
+   "name": "Base de calcul des remboursements",
+   "description": "Les pourcentages indiqués incluent la part de la Sécurité sociale et s'appliquent sur la Base de Remboursement (BR) pour les actes relevant de la CCAM (Classification Commune des Actes Médicaux), tarif de convention pour les actes référencés NGAP (Nomenclature Générale des Actes Professionnels), tarif de responsabilité pour les actes référencés LPP (Liste des Produits et des Prestations). Le total des remboursements est exprimé y compris la part RO.",
+   "page": 3
+  },
+  {
+   "name": "Cadre des forfaits annuels",
+   "description": "Les forfaits annuels s'entendent dans le cadre de l'année civile et par bénéficiaire.",
+   "page": 3
+  },
+  {
+   "name": "Exemple de remboursement - Forfait journalier hospitalier (hébergement)",
+   "description": "Prix moyen pratiqué : 20 € (15 € en service psychiatrique) pour les trois niveaux ; Remboursement Sécurité sociale : 0 € ; Remboursement Mutuelle Ociane Matmut : Frais réels ; Reste à charge : 0 €.",
+   "page": 4
+  },
+  {
+   "name": "Exemple de remboursement - Chambre particulière (sur demande du patient)",
+   "description": "Prix moyen pratiqué : Non connu (NC) ; Remboursement Sécurité sociale : 0 € ; Remboursement Mutuelle Ociane Matmut : 75 €/jour (NIVEAU 1), Frais réels (NIVEAU 2 et NIVEAU 3) ; Reste à charge : Selon la dépense (NIVEAU 1), 0 € (NIVEAU 2 et NIVEAU 3). Voir la contradiction signalée dans `gaps` : le tableau de garanties de la page 1 porte 70 €/jour pour le NIVEAU 1.",
+   "page": 4
+  },
+  {
+   "name": "Exemple de remboursement - Opération chirurgicale de la cataracte, frais de séjour en secteur privé",
+   "description": "Séjours avec actes lourds en secteur privé. Prix moyen pratiqué : 838,98 € ; Remboursement Sécurité sociale : 814,98 € ; Remboursement Mutuelle Ociane Matmut : 24 € ; Reste à charge : 0 € (identique sur les trois niveaux).",
+   "page": 4
+  },
+  {
+   "name": "Exemple de remboursement - Honoraires chirurgien secteur 2 (adhérents OPTAM ou OPTAM-ACO)",
+   "description": "Opération en secteur privé : honoraires chirurgien. Prix moyen pratiqué : 443 € ; Remboursement Sécurité sociale : 271,70 € ; Remboursement Mutuelle Ociane Matmut : 171,30 € (NIVEAU 1), 162,30 € (NIVEAU 2 et NIVEAU 3) ; Reste à charge : 0 € sur les trois niveaux.",
+   "page": 4
+  },
+  {
+   "name": "Exemple de remboursement - Honoraires chirurgien secteur 2 (non adhérents OPTAM ou OPTAM-ACO)",
+   "description": "Opération en secteur privé : honoraires chirurgien. Prix moyen pratiqué : 486 € ; Remboursement Sécurité sociale : 271,70 € ; Remboursement Mutuelle Ociane Matmut : 214,30 € ; Reste à charge : 0 € (identique sur les trois niveaux).",
+   "page": 4
+  },
+  {
+   "name": "Exemple de remboursement - Séjour sans actes lourds en hôpital public (pneumonie ou pleurésie, patient de plus de 17 ans)",
+   "description": "Frais de séjour en secteur public. Prix moyen pratiqué : 3754 € ; Remboursement Sécurité sociale : 3003,20 € ; Remboursement Mutuelle Ociane Matmut : Frais réels ; Reste à charge : 0 € (identique sur les trois niveaux).",
+   "page": 4
+  },
+  {
+   "name": "Exemple de remboursement - Consultation médecin traitant généraliste secteur 1 (patient de plus de 18 ans)",
+   "description": "Prix moyen pratiqué : 30 € ; Remboursement Sécurité sociale : 19 € ; Remboursement Mutuelle Ociane Matmut : 9 € ; Reste à charge : 2 € de participation forfaitaire (identique sur les trois niveaux).",
+   "page": 5
+  },
+  {
+   "name": "Exemple de remboursement - Consultation pédiatre secteur 1 (enfant de 2 à 6 ans)",
+   "description": "Prix moyen pratiqué : 35 € ; Remboursement Sécurité sociale : 24,50 € ; Remboursement Mutuelle Ociane Matmut : 10,50 € ; Reste à charge : 0 € (identique sur les trois niveaux).",
+   "page": 5
+  },
+  {
+   "name": "Exemple de remboursement - Consultation spécialiste secteur 1 (adulte de plus de 18 ans, gynécologie médicale)",
+   "description": "Prix moyen pratiqué : 40 € ; Remboursement Sécurité sociale : 26 € ; Remboursement Mutuelle Ociane Matmut : 12 € ; Reste à charge : 2 € de participation forfaitaire (identique sur les trois niveaux).",
+   "page": 5
+  },
+  {
+   "name": "Exemple de remboursement - Consultation pédiatre secteur 2 OPTAM (enfant de 2 à 6 ans)",
+   "description": "Prix moyen pratiqué : 50 € ; Remboursement Sécurité sociale : 24,50 € ; Remboursement Mutuelle Ociane Matmut : 21 € (NIVEAU 1), 25,50 € (NIVEAU 2 et NIVEAU 3) ; Reste à charge : 4,50 € (NIVEAU 1), 0 € (NIVEAU 2 et NIVEAU 3).",
+   "page": 5
+  },
+  {
+   "name": "Exemple de remboursement - Consultation spécialiste secteur 2 OPTAM (adulte de plus de 18 ans, gynécologie médicale)",
+   "description": "Prix moyen pratiqué : 53 € ; Remboursement Sécurité sociale : 26 € ; Remboursement Mutuelle Ociane Matmut : 22,50 € (NIVEAU 1), 25 € (NIVEAU 2 et NIVEAU 3) ; Reste à charge : 4,50 € dont 2 € de participation forfaitaire (NIVEAU 1), 2 € de participation forfaitaire (NIVEAU 2 et NIVEAU 3).",
+   "page": 5
+  },
+  {
+   "name": "Exemple de remboursement - Consultation pédiatre secteur 2 non OPTAM (enfant de 2 à 16 ans)",
+   "description": "Prix moyen pratiqué : 62 € ; Remboursement Sécurité sociale : 16,10 € ; Remboursement Mutuelle Ociane Matmut : 9,20 € (NIVEAU 1), 29,90 € (NIVEAU 2 et NIVEAU 3) ; Reste à charge : 36,70 € (NIVEAU 1), 16 € (NIVEAU 2 et NIVEAU 3).",
+   "page": 5
+  },
+  {
+   "name": "Exemple de remboursement - Consultation spécialiste secteur 2 non OPTAM (adulte de plus de 18 ans, gynécologie médicale)",
+   "description": "Prix moyen pratiqué : 66 € ; Remboursement Sécurité sociale : 14,10 € ; Remboursement Mutuelle Ociane Matmut : 9,20 € (NIVEAU 1), 29,90 € (NIVEAU 2 et NIVEAU 3) ; Reste à charge : 42,70 € dont 2 € de participation forfaitaire (NIVEAU 1), 22 € dont 2 € de participation forfaitaire (NIVEAU 2 et NIVEAU 3).",
+   "page": 6
+  },
+  {
+   "name": "Exemple de remboursement - Matériel médical, paire de béquilles",
+   "description": "Prix moyen pratiqué : 26,71 € ; Remboursement Sécurité sociale : 14,64 € ; Remboursement Mutuelle Ociane Matmut : 12,07 € ; Reste à charge : 0 € (identique sur les trois niveaux).",
+   "page": 6
+  },
+  {
+   "name": "Exemple de remboursement - Optique 100 % Santé classe A, monture et verres simples (adulte de 35 ans)",
+   "description": "Prix moyen pratiqué : 30 + 85 € ; Remboursement Sécurité sociale : 5,40 + 15,30 € ; Remboursement Mutuelle Ociane Matmut : 24,60 + 69,70 € ; Reste à charge : 0 € (identique sur les trois niveaux).",
+   "page": 6
+  },
+  {
+   "name": "Exemple de remboursement - Optique 100 % Santé classe A, monture et verres progressifs (adulte de 35 ans)",
+   "description": "Prix moyen pratiqué : 30 + 180 € ; Remboursement Sécurité sociale : 5,40 + 32,40 € ; Remboursement Mutuelle Ociane Matmut : 24,60 + 147,60 € ; Reste à charge : 0 € (identique sur les trois niveaux).",
+   "page": 6
+  },
+  {
+   "name": "Exemple de remboursement - Optique classe B tarif libre, monture et verres simples (adulte de 35 ans)",
+   "description": "Prix moyen pratiqué : 148 + 224 € ; Remboursement Sécurité sociale : 0,03 + 0,06 € ; Remboursement Mutuelle Ociane Matmut : 99,97 + 199,94 € (NIVEAU 1), 99,97 + 223,94 € (NIVEAU 2 et NIVEAU 3) ; Reste à charge : 72 € (NIVEAU 1), 48 € (NIVEAU 2 et NIVEAU 3).",
+   "page": 6
+  },
+  {
+   "name": "Exemple de remboursement - Optique classe B tarif libre, monture et verres progressifs (adulte de 35 ans)",
+   "description": "Prix moyen pratiqué : 148 + 492 € ; Remboursement Sécurité sociale : 0,03 + 0,06 € ; Remboursement Mutuelle Ociane Matmut : 99,97 + 419,94 € (NIVEAU 1), 99,97 + 491,94 € (NIVEAU 2 et NIVEAU 3) ; Reste à charge : 120 € (NIVEAU 1), 48 € (NIVEAU 2 et NIVEAU 3).",
+   "page": 6
+  },
+  {
+   "name": "Exemple de remboursement - Lentilles non remboursées par la Sécurité sociale (forfait par an)",
+   "description": "Prix moyen pratiqué : Non connu (NC) ; Remboursement Sécurité sociale : 0 € ; Remboursement Mutuelle Ociane Matmut : 150 € (NIVEAU 1), 250 € (NIVEAU 2 et NIVEAU 3) ; Reste à charge : Selon la dépense.",
+   "page": 7
+  },
+  {
+   "name": "Exemple de remboursement - Chirurgie réfractive, opération corrective de la myopie (forfait par œil)",
+   "description": "Prix moyen pratiqué : Non connu (NC) ; Remboursement Sécurité sociale : 0 € ; Remboursement Mutuelle Ociane Matmut : 200 €/an (NIVEAU 1), 500 €/an (NIVEAU 2 et NIVEAU 3) ; Reste à charge : Selon la dépense.",
+   "page": 7
+  },
+  {
+   "name": "Exemple de remboursement - Dentaire 100 % Santé, couronne céramo-métallique sur incisives, canines et premières prémolaires",
+   "description": "Prix moyen pratiqué : 515 € ; Remboursement Sécurité sociale : 72 € ; Remboursement Mutuelle Ociane Matmut : 443 € ; Reste à charge : 0 € (identique sur les trois niveaux).",
+   "page": 7
+  },
+  {
+   "name": "Exemple de remboursement - Dentaire hors 100 % Santé, détartrage",
+   "description": "Prix moyen pratiqué : 43,38 € ; Remboursement Sécurité sociale : 26,03 € ; Remboursement Mutuelle Ociane Matmut : 17,35 € ; Reste à charge : 0 € (identique sur les trois niveaux).",
+   "page": 7
+  },
+  {
+   "name": "Exemple de remboursement - Prothèses à tarif libre hors 100 % Santé, couronne céramo-métallique sur molaires",
+   "description": "Prix moyen pratiqué : 561,99 € ; Remboursement Sécurité sociale : 72 € ; Remboursement Mutuelle Ociane Matmut : 468 € (NIVEAU 1), 489,99 € (NIVEAU 2 et NIVEAU 3) ; Reste à charge : 21,99 € (NIVEAU 1), 0 € (NIVEAU 2 et NIVEAU 3).",
+   "page": 7
+  },
+  {
+   "name": "Exemple de remboursement - Orthodontie remboursée par la Sécurité sociale (traitement par semestre, enfant de moins de 16 ans, 6 semestres maximum)",
+   "description": "Prix moyen pratiqué : 714,10 € ; Remboursement Sécurité sociale : 193,50 € ; Remboursement Mutuelle Ociane Matmut : 212,85 € (NIVEAU 1), 520,60 € (NIVEAU 2 et NIVEAU 3) ; Reste à charge : 307,75 € (NIVEAU 1), 0 € (NIVEAU 2 et NIVEAU 3).",
+   "page": 7
+  },
+  {
+   "name": "Exemple de remboursement - Aide auditive 100 % Santé classe I, par oreille (adulte de 35 ans)",
+   "description": "Prix moyen pratiqué : 950 € ; Remboursement Sécurité sociale : 240 € ; Remboursement Mutuelle Ociane Matmut : 710 € ; Reste à charge : 0 € (identique sur les trois niveaux).",
+   "page": 8
+  },
+  {
+   "name": "Exemple de remboursement - Aide auditive à tarif libre hors 100 % Santé classe II, par oreille (adulte de 35 ans)",
+   "description": "Prix moyen pratiqué : 1515 € ; Remboursement Sécurité sociale : 240 € ; Remboursement Mutuelle Ociane Matmut : 600 € (NIVEAU 1), 1275 € (NIVEAU 2 et NIVEAU 3) ; Reste à charge : 675 € (NIVEAU 1), 0 € (NIVEAU 2 et NIVEAU 3).",
+   "page": 8
+  }
+ ],
+ "gaps": [
+  "Le document est un tableau de garanties « Document non contractuel » (page 3) : il ne contient ni conditions générales, ni section « Exclusions ». Les entrées portées ici en `exclusions` sont les limitations, plafonds et cases « - » (absence de garantie) que le tableau lui-même énonce ; elles ne préjugent pas des exclusions du contrat, qui n'est pas fourni. Ne pas lire le silence du document comme une absence d'exclusion.",
+  "CONTRADICTION INTERNE SUR LA CHAMBRE PARTICULIÈRE : le tableau de garanties (page 1) porte pour le NIVEAU 1 « Chambre particulière […] - Forfait par jour : 70 €/jour », tandis que l'exemple de remboursement (page 4) porte pour le même NIVEAU 1 « Remboursement Mutuelle Ociane Matmut : 75 €/jour ». Les deux valeurs sont enregistrées verbatim, la première dans la garantie (page 1), la seconde dans l'exemple (page 4) ; aucune n'a été corrigée ni départagée.",
+  "PORTEUR DE RISQUE : le document désigne comme assureur de la garantie Santé la « Mutuelle Ociane », mutuelle du Livre II du Code de la Mutualité, SIREN 434 243 085, siège 35 rue Claude Bonnier 33054 Bordeaux Cedex (page 3) — et non Matmut. Matmut (Mutuelle assurance des travailleurs mutualistes, RCS Rouen 775 701 477) est citée séparément ; la protection juridique est portée par Matmut Protection juridique (RCS Rouen 423 499 391) et l'assistance par IMA GIE (RCS Niort 320 281 025). Les métadonnées de la tâche indiquent `insurer_name` = Matmut : elles ont été recopiées telles quelles, mais elles divergent du document sur ce point.",
+  "edition_date : le document n'imprime aucune date d'édition. Il porte « Vos garanties 2026 » (pages 1 et 2), « Renvois 2026 » (page 3) et « Quelques exemples de remboursements 2026 » (pages 4 à 8), c'est-à-dire l'année d'application des garanties, ainsi que le code de pied de page « CCN VINS SPIRITUEUX-0925 » (pages 3 et 8). Le champ a été laissé null plutôt que d'y déduire une date.",
+  "target_audience : le document ne nomme aucun public cible. Il s'agit d'un régime frais de santé rattaché à une CCN, mais l'audience n'a pas été déduite du type de produit ; `target_audience` est null et le libellé du document est reporté dans `target_audience_note`.",
+  "SIGLE « DPTAM » NON DÉFINI : les tableaux de garanties (pages 1 et 2) écrivent « DPTAM », alors que le légendier de la page 3 définit « DPTM : Dispositif de Pratique Tarifaire Maîtrisée ». Le sigle DPTAM ne figure nulle part dans le légendier. Les deux graphies sont reprises telles qu'imprimées et n'ont pas été harmonisées.",
+  "SIGLE « RSS » NON DÉFINI : la ligne « Soins post-opératoires » (page 1) porte en NIVEAU 2 et NIVEAU 3 « 100 % FR - RSS / Non OPTAM : limité à 200 % BR ». Le sigle RSS ne figure pas dans le légendier de la page 3. Sa signification n'a pas été déduite ; le libellé est repris verbatim.",
+  "LIBELLÉ AMBIGU EN DENTAIRE : la page 2 porte successivement deux libellés — « Actes et scanner (tomodensitométrie) » puis « Procédés pré-implantaires (wax up, guide chirurgical) » — suivis d'une seule série de trois valeurs (« - », « - », « 70 € »). Le document ne permet pas de déterminer si le premier libellé est un sous-titre ou une garantie distincte privée de valeurs. Les deux libellés ont été conservés dans une seule entrée plutôt que d'inventer une répartition.",
+  "TYPOGRAPHIE DU DOCUMENT PRÉSERVÉE : le renvoi (1) porte « des médecins ayant adhéré au à l'Option de Pratique Tarifaire Maîtrisée » (page 3), avec un « au à » manifestement fautif. La ligne « Chirurgie - Forfait par œil/an » (page 2) donne ses montants sous la forme « 200 €/oeil/an », avec « oeil » non ligaturé là où l'intitulé écrit « œil ». Ces libellés sont repris tels qu'imprimés, sans correction.",
+  "OBSERVATION SUR LES EXEMPLES : dans l'exemple « Honoraires médecins secteur 2 (adhérents OPTAM ou OPTAM-ACO) » de la page 4, le remboursement affiché pour le NIVEAU 1 (171,30 €) est supérieur à celui affiché pour les NIVEAU 2 et NIVEAU 3 (162,30 €), alors que le reste à charge est de 0 € dans les trois colonnes. Les valeurs sont reprises telles qu'imprimées, sans tentative de rationalisation.",
+  "INCOHÉRENCE INTERNE DES EXEMPLES : page 5, l'exemple pédiatre est libellé « enfant de 2 à 6 ans » pour le secteur 1 et pour le secteur 2 OPTAM, mais « enfant de 2 à 16 ans » pour le secteur 2 non OPTAM. Les deux libellés sont reportés tels quels.",
+  "Le légendier de la page 3 définit dix sigles (BR, OPTAM, TM, SS, PMSS, FR, RO, DPTM, DE, SMR) dont plusieurs (TM, PMSS, DE, SMR) ne sont utilisés nulle part dans les tableaux de garanties. Ils sont enregistrés en `definitions` tels que le document les donne. Le sigle HLF, utilisé dans le tableau dentaire, n'est développé que dans le renvoi (6).",
+  "Aucune information sur la durée du contrat, la reconduction, la résiliation, la prescription, les cotisations ou la procédure de déclaration de sinistre n'apparaît dans le document : `duration_and_cancellation`, `prescription_period`, `premium` et `claims_procedure` sont donc vides ou null.",
+  "Aucune franchise n'est mentionnée : `deductibles` est null. Aucun délai d'attente/de carence n'est mentionné : `waiting_periods` est vide. La périodicité des aides auditives (4 ans par oreille) est une période de renouvellement d'équipement, pas un délai de carence. Le document ne donne aucune périodicité de renouvellement pour l'optique, contrairement aux autres régimes CCN du même émetteur : cette absence n'a pas été comblée.",
+  "DÉFAUT D'ENCODAGE DU TEXTE : la page 1 du PDF contient 7 accents décomposés (NFD : lettre + diacritique combinant U+0300/U+0301) au milieu d'un texte par ailleurs précomposé — notamment dans « à la date », « durée », « particulière », « limitée », « année », « rééducation ». Le texte est conservé tel quel ; les citations ont été découpées programmatiquement dans le texte du PDF et reproduisent cet encodage. La normalisation NFKC du contrôle de grounding absorbe cette différence.",
+  "Les pages 4 à 8 ne contiennent pas de garanties mais des exemples chiffrés de remboursement (« Quelques exemples de remboursements 2026 ») fondés sur des « prix moyens pratiqués ». Ils sont enregistrés en `special_conditions` et ne doivent pas être lus comme des engagements de garantie.",
+  "Le texte du PDF a été comparé page à page avec l'extraction PyMuPDF du fichier local : les 8 pages concordent, aucune troncature."
+ ],
+ "key_quotes": [
+  {
+   "quote": "Les pourcentages indiqués incluent la part de la Sécurité sociale et s’appliquent sur la Base de Remboursement (BR) pour les actes relevant de la CCAM (Classification\nCommune des Actes Médicaux), tarif de convention pour les actes référencés NGAP (Nomenclature Générale des Actes Professionnels), tarif de responsabilité pour les actes\nréférencés LPP (Liste des Produits et des Prestations).",
+   "context": "Base de calcul des pourcentages",
+   "page": 3
+  },
+  {
+   "quote": "Pour les praticiens non conventionnés, la Base de Remboursement est retenue sur la base du tarif d'autorité. Les forfaits\nannuels s’entendent dans le cadre de l’année civile et par bénéficiaire.",
+   "context": "Tarif d'autorite et cadre des forfaits annuels",
+   "page": 3
+  },
+  {
+   "quote": "Nos remboursements ne peuvent être supérieurs au montant des frais restant à charge effective de l’adhérent. Le total des remboursements est exprimé y compris la\npart RO.",
+   "context": "Plafond au reste a charge effectif",
+   "page": 3
+  },
+  {
+   "quote": "(1) Le taux de prise en charge indiqué s’applique aux actes et soins réalisés par des médecins ayant adhéré au à l’Option de Pratique Tarifaire Maîtrisée (OPTAM ou\nOPTAM-ACO). Ce taux est minoré de 20 % et limité à 200 % pour les médecins non adhérents.",
+   "context": "Minoration pour les medecins non adherents au DPTAM",
+   "page": 3
+  },
+  {
+   "quote": "(3) Ouvert aux personnes de plus de 3 ans (enfants, adolescents et adultes) et valable chez les psychologues partenaires du dispositif « Mon soutien psy », diplômés dans leur\nspécialité et inscrits aux registres officiels de l’Assurance Maladie. Dans la limite de 12 séances par an, avec une première séance qui est un entretien d’évaluation et entre 1 à\n11 séances de suivi psychologique (50 €/séance). Ce nombre est adapté aux besoins et déterminé par le psychologue.",
+   "context": "Conditions des seances d'accompagnement psychologique",
+   "page": 3
+  },
+  {
+   "quote": "(5) Forfait global valable pour les actes non remboursés par la Sécurité sociale, chez les praticiens diplômés dans leur spécialité et inscrits aux registres officiels de l'Assurance\nMaladie, sur présentation d'une facture nominative acquittée (pour l'acupuncture, seuls sont pris en charge les actes non remboursés par la Sécurité sociale réalisés chez un\nmédecin, une sage-femme ou un chirurgien-dentiste).",
+   "context": "Conditions des medecines douces et de l'acupuncture",
+   "page": 3
+  },
+  {
+   "quote": "(6) Prise en charge dans la limite des Honoraires Limites de Facturation (HLF).",
+   "context": "Limite des honoraires limites de facturation en dentaire",
+   "page": 3
+  },
+  {
+   "quote": "(12) Limité à une Aide auditive tous les quatre ans pour chaque oreille.",
+   "context": "Periodicite des aides auditives",
+   "page": 3
+  },
+  {
+   "quote": "Le contrat responsable impose depuis le 01/01/2021 un plafond de\n1 700 € y compris le remboursement de la sécurité sociale par prothèse.",
+   "context": "Plafond contrat responsable sur les aides auditives",
+   "page": 3
+  },
+  {
+   "quote": "Assureur de la garantie Santé - Mutuelle Ociane - Mutuelle soumise aux dispositions du Livre II du Code de la Mutualité, immatriculée sous le n° SIREN 434 243\n085.",
+   "context": "Porteur du risque sante",
+   "page": 3
+  },
+  {
+   "quote": "Prestation réalisée par Matmut Protection juridique, Société du Groupe Matmut - Société Anonyme (SA) au capital de 7 500 000 € entièrement libéré. Entreprise\nrégie par le Code des Assurances, inscrite au RCS de Rouen sous le n° SIREN 423 499 391.",
+   "context": "Porteur de la protection juridique",
+   "page": 3
+  },
+  {
+   "quote": "Assistance - Prestations réalisées par IMA GIE - Société Anonyme à Directoire et Conseil de Surveillance au capital social de 55 382 784 €, inscrit au RCS de Niort sous\nle n° Siren 320 281 025.",
+   "context": "Prestataire assistance",
+   "page": 3
+  },
+  {
+   "quote": "Document non contractuel. L’ensemble des garanties évoquées dans ce document s’applique dans les limites et conditions définies au contrat.",
+   "context": "Portee non contractuelle du document",
+   "page": 3
+  },
+  {
+   "quote": "Chambre particulière - Prise en charge limitée par année civile et par bénéficiaire \nà 60 jours en rééducation - Forfait par jour",
+   "context": "Limite de la chambre particuliere",
+   "page": 1
+  },
+  {
+   "quote": "Lit accompagnant - Uniquement en cas d’hospitalisation d’un enfant à charge âgé\nde moins de 16 ans à la date des soins - Forfait par jour",
+   "context": "Condition du lit accompagnant",
+   "page": 1
+  }
+ ]
 }

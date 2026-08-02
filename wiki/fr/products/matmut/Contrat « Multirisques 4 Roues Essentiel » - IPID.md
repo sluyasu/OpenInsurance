@@ -174,6 +174,7 @@ Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie.
 - Divergence relevée entre le document et les métadonnées de la tâche : celles-ci désignent l'assureur comme « Matmut (Mutuelle assurance des travailleurs mutualistes) [...] Siren 775 701 477 ». Le document imprime bien « Matmut - Mutuelle assurance des travailleurs mutualistes » mais sans Siren. insurer_name reproduit ce qu'imprime le document.
 - Défaut du calque texte du PDF, sans incidence sur les valeurs extraites mais à connaître pour toute re-vérification : le texte contient 36 caractères de contrôle U+0007 (BEL) et 7 traits d'union conditionnels U+00AD placés aux puces et aux coupures de ligne (par exemple « dispo­sition pénale », « à une dispo­ »), ainsi que 3 glyphes de zone privée U+F072 (puces Wingdings) dans la rubrique « Qu'est-ce qui n'est pas assuré ? ». Les key_quotes ont été découpées de façon à ne traverser aucun de ces caractères. Les espaces fines insécables (U+202F, U+2009) à l'intérieur des montants (« 100 000 000 € », « 20 000 € ») sont conservées telles quelles.
 - Le document mentionne « Garanties en inclusion systématiquement prévues » et « Garanties optionnelles » mais n'indique pas quelles garanties optionnelles sont regroupées en formules ni leurs conditions de souscription.
+- Provenance de edition_date: cette date ne vient pas du texte du document mais du manifeste, ou elle avait ete deduite lors de la decouverte. A verifier contre le document avant d'y appuyer une comparaison d'editions.
 
 ## Source & fidélité
 

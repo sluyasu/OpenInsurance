@@ -224,6 +224,7 @@ Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie.
 - edition_date déduite du seul code de référence imprimé en pied de page 2, « IPID.4D DISTINGUO & CO - 07/25 », où « 07/25 » se lit MM/AA, soit juillet 2025. Le document ne porte aucune mention « édition » explicite, et ne porte qu'un seul code de référence. C'est la plus récente des éditions de ce lot Matmut.
 - Les titres de rubrique sont imprimés « QU'EST- CE QUI EST ASSURÉ ? », « QU'EST- CE QUI N'EST PAS ASSURÉ ? » et « OÙ SUIS- JE COUVERT(E) ? » avec une espace parasite après le trait d'union. Conservés tels quels, sans correction.
 - Défaut du calque texte du PDF, sans incidence sur les valeurs extraites : 6 glyphes de zone privée U+F0FC (puces Wingdings) subsistent en début de puce (pages 1 et 2). Les key_quotes ont été découpées de façon à ne traverser aucun de ces glyphes.
+- Provenance de edition_date: cette date ne vient pas du texte du document mais du manifeste, ou elle avait ete deduite lors de la decouverte. A verifier contre le document avant d'y appuyer une comparaison d'editions.
 
 ## Documents liés
 

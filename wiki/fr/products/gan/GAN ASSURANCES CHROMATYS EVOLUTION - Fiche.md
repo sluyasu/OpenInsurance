@@ -148,7 +148,7 @@ Le produit comporte une Garantie plancher optionnelle destinée à compléter la
 
 ## Documents liés
 
-- [Chromatys Evolution - Tarifs](Chromatys%20Evolution%20-%20Tarifs.md) - Conditions tarifaires, éd. 2026-03
+- [Chromatys Evolution - Tarifs](Chromatys%20Evolution%20-%20Tarifs.md) - Conditions tarifaires
 
 ## Source & fidélité
 

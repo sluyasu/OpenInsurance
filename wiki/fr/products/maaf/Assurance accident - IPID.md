@@ -14,7 +14,7 @@ target_audience_note: 'Le document n''énonce pas de catégorie de clientèle. I
   », et pose une seule condition de personne : « À la souscription du contrat : être
   âgé de moins de 70 ans ».'
 reference: TB0_IPIDPR_00-260608-VZ8Ndm-1-1-2-08:20:18- PRE10003
-edition_date: 2026-06
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/prevoyance
@@ -30,7 +30,7 @@ prompt_version: '1.1'
 product_family: assurance-accident
 variant: null
 edition_status: null
-edition_age_years: 0
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-08-01'
@@ -44,7 +44,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) relatif à l'« Assurance accident », une assurance prévoyance portée par MAAF Assurances SA, entreprise régie par le code des assurances (RCS Niort 542 073 580). Le contrat prévoit le versement d'indemnités journalières et/ou d'un capital pour l'incapacité et/ou le décès consécutifs à un accident corporel survenu à l'assuré dans l'exercice de sa profession et/ou dans le cadre de sa vie privée. Trois garanties sont systématiquement prévues : incapacité temporaire de travail, incapacité permanente et décès, chacune assortie d'une assistance aux personnes. Le montant de l'indemnisation est versé dans la limite du montant souscrit et revalorisé chaque année.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : IPID / Fiche d'information · Édition : 2026-06
+- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -125,6 +125,7 @@ Citée comme composante de chacune des trois garanties systématiquement prévue
 - AUCUNE DÉFINITION, AUCUNE PRESCRIPTION : IPID de 2 pages, sans lexique ni article de définitions (definitions[] vide) et sans clause de prescription (prescription_period null). Les notions structurantes du produit — « accident corporel », « incapacité temporaire de travail », « incapacité permanente », « sport dangereux » — sont employées sans être définies ; leur définition renvoie implicitement aux conditions générales, non fournies ici.
 - ASSISTANCE AUX PERSONNES : citée comme composante des trois garanties, sans description, sans plafond et sans nom de prestataire. Aucun contenu n'a été ajouté ; elle est enregistrée comme garantie distincte uniquement parce que le document la répète pour chacune des trois garanties.
 - PAS DE TRONCATURE : le texte du prompt couvre l'intégralité des 2 pages annoncées (source_pages: 2) ; il n'a pas été tronqué par le budget de caractères et les deux pages ont une couche texte exploitable. Les citations ont été découpées page par page après retrait des marqueurs [page N], donc aucune ne traverse une frontière de page.
+- edition_date remise a null le 2026-08-01: la valeur 2026-06 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

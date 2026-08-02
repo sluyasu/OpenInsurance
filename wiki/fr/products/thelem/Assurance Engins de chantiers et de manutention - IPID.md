@@ -10,7 +10,7 @@ document_type: ipid
 target_audience: entreprises
 target_audience_note: null
 reference: null
-edition_date: '2026'
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/auto
@@ -26,7 +26,7 @@ prompt_version: '1.1'
 product_family: assurance-engins-de-chantiers-et-de-manutention
 variant: null
 edition_status: null
-edition_age_years: 0
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -40,7 +40,7 @@ generated: true
 
 L’assurance Engins de chantiers a pour objectif de garantir le souscripteur d’un véhicule « engins de chantiers » contre les conséquences des dommages matériels ou corporels causés par son véhicule à un tiers (responsabilité civile). C’est une assurance obligatoire. Ce contrat inclut également la couverture des dommages corporels du conducteur. Selon les formules souscrites, ce contrat couvre aussi les dommages matériels du véhicule assuré.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 2026
+- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -171,6 +171,7 @@ Garantie et service optionnel Dommages au véhicule : Bris mécaniques.
 - Les garanties optionnelles sont énumérées en une seule liste sous « Dommages au véhicule » ; elles ont été éclatées en garanties distinctes, sans que le document précise de plafond propre à chacune.
 - La page 2 ne contient que les rubriques « Où suis-je couvert ? », « Quelles sont mes obligations ? », « Quand et comment effectuer les paiements ? », « Quand commence la couverture… » et « Comment puis-je resilier le contrat ? » ; aucune autre information exploitable.
 - Aucune prestation d’assistance n’est mentionnée dans ce document.
+- edition_date remise a null le 2026-08-01: la valeur 2026 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

@@ -13,7 +13,7 @@ target_audience_note: 'Le document décrit un régime obligatoire « Sécurité 
   1 enfant (13 ans) ». La note 3 vise « le décès d''un artisan ou commerçant cotisant
   (non retraité) ou bénéficiaire d''une pension d''invalidité ».'
 reference: null
-edition_date: 2026-01
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/prevoyance
@@ -29,7 +29,7 @@ prompt_version: '1.1'
 product_family: energie-prevoyance
 variant: null
 edition_status: null
-edition_age_years: 0
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -43,7 +43,7 @@ generated: true
 
 Document d'exemples chiffrés, de format normalisé, comparant la prise en charge par le régime obligatoire (Sécurité sociale des indépendants) et par un contrat de prévoyance complémentaire, pour un profil type de commerçant de 50 ans percevant 43 000 € bruts par an. Il couvre quatre risques : décès (capital décès), invalidité permanente (rente d'invalidité), incapacité de travail (indemnités journalières) et deux options facultatives (frais d'adaptation, pic d'activité). Le contrat de prévoyance est désigné « Energie prévoyance - Groupama Gan Vie » en page 1 et « ENERGIE – CAISSE REGIONALE GROUPAMA » en pages 2 et 3. Le document précise qu'il ne peut se substituer aux documents contractuels et n'énumère ni les garanties du contrat, ni ses exclusions.
 
-- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : Document · Édition : 2026-01
+- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : Document
 
 ## Définitions
 
@@ -143,6 +143,7 @@ Option proposée par contrat de prévoyance (facultatif). PIC D'ACTIVITE : selon
 - Page 1 : les treize premières lignes du texte extrait sont vides (mise en page à base de tableaux et d'images), et le titre éventuel de la page n'a pas de couche texte. Le document commence directement par les notes de bas de page.
 - Les tableaux à colonnes multiples ont été linéarisés par l'extraction de texte. L'affectation des montants aux colonnes « Exemple 1 » / « Exemple 2 » a été recoupée avec les lignes « Total exemple 1 » / « Total exemple 2 » du document, qui confirment l'ordre retenu.
 - Ce document et le tableau « Actifs salariés du secteur privé » (Tableau-salarie-secteur-prive-CCSF-VF-GROUPAMA) sont deux documents distincts du même format normalisé, non deux éditions du même document : populations différentes (indépendants contre salariés du secteur privé), contrats différents (« Energie prévoyance » contre « Synergie Prévoyance Entreprise »), et millésimes différents (PASS au 01/01/2026 contre garanties « au 01/01/2025 »).
+- edition_date remise a null le 2026-08-01: la valeur 2026-01 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

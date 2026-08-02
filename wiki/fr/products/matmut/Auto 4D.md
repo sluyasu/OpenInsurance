@@ -19,7 +19,7 @@ target_audience_note: Le document ne désigne aucune catégorie de souscripteur.
   que « Le contrat ne peut être souscrit que par un proposant admis au préalable comme
   Sociétaire ».
 reference: CG AUTO 4D - 10/24
-edition_date: 2024-10
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/auto
@@ -35,7 +35,7 @@ prompt_version: '1.1'
 product_family: auto-4d
 variant: Matmut
 edition_status: null
-edition_age_years: 2
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -49,7 +49,7 @@ generated: true
 
 « Auto 4D » Matmut est le contrat d'assurance Multirisques automobile de la Matmut pour les véhicules terrestres à moteur à 4 roues (voiture particulière, véhicule utilitaire ou camionnette, voiturette) immatriculés en France ou à Monaco. Il est proposé en 4 formules — Tiers, Tiers-Vol-Incendie, Tous risques et Tous risques Plus — chacune combinant des garanties en inclusion et des garanties optionnelles : Responsabilité civile et défense civile, garanties des Dommages au véhicule (bris de pare-brise et de glaces, vol, incendie-attentat-tempête, catastrophes naturelles et technologiques, dommages collision et dommages accidents-vandalisme, accessoires et aménagements), garanties des Dommages aux biens transportés, garanties Renfort indemnisation, garanties Mobilité (assistance, véhicule de remplacement, panne mécanique), garantie du conducteur et garanties de Protection Juridique. Le contrat ne peut être souscrit que par un proposant admis au préalable comme Sociétaire, et la cotisation est variable, la Matmut étant une société d'assurance mutuelle à cotisations variables.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : 2024-10
+- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales
 
 ## Définitions
 
@@ -771,10 +771,11 @@ Conformément à l'article L. 114-1 du Code des assurances, toutes actions déri
 - MONTANTS RENVOYÉS AUX CONDITIONS PARTICULIÈRES : de nombreux plafonds et toutes les franchises ne sont pas chiffrés dans les Conditions générales et renvoient aux Conditions particulières (plafonds Bris de pare-brise, Bris de glaces, Accessoires-aménagements, Effets personnels, Marchandises-outillage, Panne mécanique ; montant ou taux de toutes les franchises, y compris la franchise spécifique « conducteur novice »). Ces valeurs ne figurent pas dans le document et n'ont pas été inventées.
 - ANNEXE IV NON DÉTAILLÉE POSTE PAR POSTE : l'annexe IV (pages 102 à 113) est un long tableau attribuant un nombre d'unités de valeur à chaque service à la personne et à chaque prestation d'accompagnement personnalisé, avec ses conditions de mise en jeu. Les enveloppes globales (nombre d'unités de valeur et plafonds en euros) sont capturées dans les garanties correspondantes ; le détail ligne à ligne du barème d'unités de valeur n'a pas été reproduit poste par poste. De même, la charte de protection des données (pages 119 et suivantes) et le détail de la fiche « Responsabilité civile dans le temps » sont résumés dans special_conditions plutôt que transcrits intégralement.
 - PÉRIMÈTRE DES DÉCOMPTES : 70 garanties et 59 exclusions ont été relevées. Les garanties incluent les prestations d'assistance de l'annexe II, dont les plafonds propres (80 € par nuit, 80 000 €, 180 €, 2 000 €, 10 000 €) seraient autrement perdus, ainsi que les postes de préjudice de la garantie du conducteur, qui portent chacun leur propre plafond et seuil de déclenchement. Les exclusions couvrent les 26 cas généraux de l'article 30 et les exclusions propres à chaque garantie.
+- edition_date remise a null le 2026-08-01: la valeur 2024-10 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Documents liés
 
-- [Auto 4D Distinguo & Co](Auto%204D%20Distinguo%20%26%20Co.md) - Conditions générales, éd. 2025-07
+- [Auto 4D Distinguo & Co](Auto%204D%20Distinguo%20%26%20Co.md) - Conditions générales
 - [Contrat Multirisques Camping-car « Auto 4D » - IPID](Contrat%20Multirisques%20Camping-car%20%C2%AB%20Auto%204D%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information, éd. 10/24
 
 ## Source & fidélité

@@ -13,7 +13,7 @@ target_audience_note: L’assuré, c’est-à-dire la personne désignée dans l
   personne civilement responsable de l’assuré mineur au titre de la garantie Responsabilité
   Civile.
 reference: null
-edition_date: 2024-09
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/scolaire
@@ -29,7 +29,7 @@ prompt_version: '1.1'
 product_family: assurance-scolaire-et-extra-scolaire
 variant: null
 edition_status: null
-edition_age_years: 2
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -43,7 +43,7 @@ generated: true
 
 Document d’information (IPID) de l’Assurance scolaire et extra-scolaire de Thélem assurances. Le contrat a pour objet de garantir les dommages qu’un élève ou qu’un étudiant pourrait occasionner à autrui mais aussi les dommages corporels qu’il pourrait subir. Les garanties systématiquement prévues sont la Responsabilité Civile (jusqu’à 5 000 000 €), la Défense pénale et recours suite à accident (jusqu’à 8 000 €), les Indemnités contractuelles en cas d’accidents (capital décès jusqu’à 3 200 € et invalidité permanente jusqu’à 145 000 €), les Frais de soins et les Frais de recherche et de secours (à concurrence de 1 600 €). Une garantie optionnelle « Ecole continue après maladie et accident » est proposée.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Scolaire et extrascolaire](../../branches/Scolaire%20et%20extrascolaire.md) · Type : IPID / Fiche d'information · Édition : 2024-09
+- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Scolaire et extrascolaire](../../branches/Scolaire%20et%20extrascolaire.md) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -155,6 +155,7 @@ Ecole continue après maladie et accident : des cours sont donnés à partir du 
 - Aucun préavis de résiliation ni délai de rétractation n’est indiqué dans ce document.
 - Le délai de prescription n’est pas mentionné dans ce document (IPID).
 - Le document ne comporte pas de section « Définitions » ; les termes repris proviennent du corps du texte.
+- edition_date remise a null le 2026-08-01: la valeur 2024-09 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

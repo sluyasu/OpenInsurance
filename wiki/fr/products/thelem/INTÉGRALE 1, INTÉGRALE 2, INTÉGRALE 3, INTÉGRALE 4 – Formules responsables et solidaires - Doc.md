@@ -11,7 +11,7 @@ document_type: other
 target_audience: particuliers
 target_audience_note: null
 reference: null
-edition_date: '2026'
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/sante
@@ -27,7 +27,7 @@ prompt_version: '1.1'
 product_family: integrale
 variant: Formules responsables et solidaires
 edition_status: null
-edition_age_years: 0
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -41,7 +41,7 @@ generated: true
 
 Document « Exemples de remboursements 2026 » de Thélem assurances, établi au titre de la Lisibilité des contrats d’assurance complémentaire santé, pour les formules responsables et solidaires INTÉGRALE 1, INTÉGRALE 2, INTÉGRALE 3 et INTÉGRALE 4. Il présente, pour les principaux postes de soins (hospitalisation, soins courants, dentaire, optique, aides auditives), le tarif le plus souvent facturé ou le tarif réglementé, la base de remboursement de la sécurité sociale (BR), le remboursement de l’assurance maladie obligatoire (AMO), puis le remboursement de l’assurance maladie complémentaire (AMC) et le reste à charge pour chacune des quatre formules. Les contrats sont dits « responsables » quand ils respectent des obligations fixées par la règlementation, notamment des minimums et maximums de remboursement ainsi que des interdictions de prise en charge. Le document précise que ces exemples ne peuvent se substituer aux documents contractuels qui seuls engagent l’organisme de complémentaire santé.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Document · Édition : 2026
+- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Document
 
 ## Définitions
 
@@ -476,6 +476,7 @@ AIDES AUDITIVES – Équipement (hors 100% santé). Tarif le plus souvent factur
 - La mention « (remboursement des dépassements plafonné à 100% BR) » est coupée par des césures de fin de ligne dans le texte extrait (« dépasse-ments ») pour les formules 2 à 4 ; les césures ont été recollées.
 - Quelques montants sont imprimés sans espace avant le symbole euro (« 0,00€ », « 34,85€ », « 300,00€ », « 800,00€ », « 5,40€ ») ; la typographie de la source a été conservée.
 - Les mentions « Selon contrat », « Prise en charge si prévu au contrat » et « Dépassement si prévu au contrat » renvoient au contrat souscrit : le document ne chiffre pas ces prises en charge. Aucune garantie n’est présentée comme optionnelle : is_optional est à false pour toutes les lignes.
+- edition_date remise a null le 2026-08-01: la valeur 2026 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

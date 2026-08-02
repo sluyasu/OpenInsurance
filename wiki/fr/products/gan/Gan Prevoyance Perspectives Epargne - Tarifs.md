@@ -12,7 +12,7 @@ document_type: conditions_tarifaires
 target_audience: null
 target_audience_note: null
 reference: null
-edition_date: 2026-03
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/assurance-vie
@@ -28,7 +28,7 @@ prompt_version: '1.1'
 product_family: gan-prevoyance-perspectives-epargne
 variant: null
 edition_status: null
-edition_age_years: 0
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -42,7 +42,7 @@ generated: true
 
 Fiche de transparence des frais du contrat Gan Prevoyance Perspectives Epargne, publiée sous le titre « Les Frais de l’assurance-vie : Gan Prevoyance Perspectives Epargne ». Elle détaille le montant minimal de versement, les frais annuels de gestion du contrat (fonds euros, unités de compte, gestion déléguée), les frais moyens de gestion des unités de compte en gestion libre et en gestion pilotée ou standardisée avec les taux de rétrocessions de commissions, et les frais ponctuels par opération. Le document indique que Groupama Gan Vie s’engage à mettre à jour annuellement ces informations ; les mentions légales désignent Gan Prévoyance comme mandataire de Groupama Gan Vie. Le document ne décrit ni garanties ni exclusions.
 
-- Assureur : [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../../insurers/Gan%20Assurances.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Conditions tarifaires · Édition : 2026-03
+- Assureur : [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../../insurers/Gan%20Assurances.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Conditions tarifaires
 
 ## Définitions
 
@@ -97,6 +97,7 @@ d'une moyenne et la valeur exacte dépendra des Unités de Compte constituant l'
 - Les lignes de frais portant la valeur « - » sont reprises telles quelles : le document imprime un tiret, sans préciser s’il signifie « néant » ou « non applicable ».
 - Le document mentionne des « Frais d’adhésion à l’association ayant souscrit le contrat » sans nommer l’association.
 - product_name imprimé « Gan Prevoyance Perspectives Epargne », sans accents, dans le titre comme dans l’en-tête ; conservé tel quel. La raison sociale du distributeur est en revanche imprimée « Gan Prévoyance » avec accent dans les mentions légales.
+- edition_date remise a null le 2026-08-01: la valeur 2026-03 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Documents liés
 

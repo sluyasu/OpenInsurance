@@ -12,7 +12,7 @@ document_type: conditions_tarifaires
 target_audience: null
 target_audience_note: null
 reference: null
-edition_date: 2026-03
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/retraite
@@ -28,7 +28,7 @@ prompt_version: '1.1'
 product_family: gan-prevoyance-nouvelle-vie
 variant: null
 edition_status: null
-edition_age_years: 0
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -42,7 +42,7 @@ generated: true
 
 Fiche d’information sur les frais du PER Individuel Gan Prévoyance Nouvelle Vie. Le document est un tableau de frais : montant minimal de versement, droit d’adhésion à l’association, frais annuels de gestion du plan et des supports (fonds euros, unités de compte), frais de gestion des fonds en gestion libre et en gestion pilotée par horizon avec les taux de rétrocession de commissions, et frais ponctuels par opération (versement, transfert sortant, versements de rente). Il ne décrit aucune garantie ni aucune exclusion. Les mentions légales nomment Gan Prévoyance (société d’intermédiation en assurance, mandataire de Groupama Gan Vie) et Groupama Gan Vie, qui s’engage à mettre à jour ces informations annuellement.
 
-- Assureur : [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../../insurers/Gan%20Assurances.md) · Branche : [Retraite supplémentaire](../../branches/Retraite%20suppl%C3%A9mentaire.md) · Type : Conditions tarifaires · Édition : 2026-03
+- Assureur : [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../../insurers/Gan%20Assurances.md) · Branche : [Retraite supplémentaire](../../branches/Retraite%20suppl%C3%A9mentaire.md) · Type : Conditions tarifaires
 
 ## Définitions
 
@@ -100,6 +100,7 @@ Fiche d’information sur les frais du PER Individuel Gan Prévoyance Nouvelle V
 - Incohérence interne : la ligne « Frais proportionnels » porte une valeur forfaitaire, « 5€ (frais associatifs annuels) ». La valeur est reportée verbatim sans correction.
 - Le sens du symbole « - » utilisé dans plusieurs cases (gestion à horizon, changement de mode de gestion, arbitrages, rachat) n'est pas explicité par le document ; il est reporté tel quel sans interprétation.
 - Aucune information sur le public visé, la durée, la résiliation, la prescription ou les obligations de l'assuré : ces blocs sont vides ou à null. Le document ne se rattache à aucune branche réglementaire : branch_code laissé à null.
+- edition_date remise a null le 2026-08-01: la valeur 2026-03 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

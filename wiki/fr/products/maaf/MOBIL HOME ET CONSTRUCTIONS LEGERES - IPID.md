@@ -13,7 +13,7 @@ target_audience_note: 'Le document ne désigne aucun public cible. Il indique se
   en tant que propriétaire ou locataire, de couvrir les dommages que peut subir votre
   habitation principale ou secondaire ou donnée en location et son contenu. »'
 reference: HAB11027
-edition_date: 2026-01
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/habitation
@@ -29,7 +29,7 @@ prompt_version: '1.1'
 product_family: mobil-home-et-constructions-legeres
 variant: null
 edition_status: null
-edition_age_years: 0
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-08-01'
@@ -43,7 +43,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du contrat MOBIL HOME ET CONSTRUCTIONS LEGERES, présenté comme une « Assurance Habitation » de MAAF Assurances SA. Ce contrat d’assurance vous permet, en tant que propriétaire ou locataire, de couvrir les dommages que peut subir votre habitation principale ou secondaire ou donnée en location et son contenu. Il couvre également votre responsabilité civile et celle des personnes vivant sous votre toit pour les dommages susceptibles d’être causés à un tiers (y compris l’assurance locative obligatoire). Sont assurés le mobil home et les constructions légères, leur contenu, leurs annexes et les personnes vivant sous le toit de l'assuré. Les garanties de base réunissent dix garanties Habitation (incendie et événements assimilés, dommages électriques, choc de véhicules, bris de vitres, émeutes et mouvements populaires, dégâts des eaux, événements climatiques, catastrophes naturelles, catastrophes technologiques, actes de terrorisme et attentats), la perte d'usage de l'habitation, les frais annexes, la responsabilité civile vie privée et la responsabilité civile habitation (plafonds de 20 000 000 € chacune), la défense pénale et recours suite à accident (plafond de 20 000 €), les dommages causés par les secours, l'assistance aux personnes et les renseignements juridiques. Le document est un résumé et renvoie à la documentation précontractuelle et contractuelle.
 
-- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information · Édition : 2026-01
+- Assureur : [MAAF](../../insurers/MAAF.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -231,6 +231,7 @@ Garantie nommée uniquement dans la rubrique « Où suis-je couvert(e) ? » (pag
 - Porteur de risque déterminé sans ambiguïté : le document n'imprime qu'une seule entité, MAAF Assurances SA, avec la mention « Entreprise régie par le code des assurances - RCS Niort 542 073 580 - code APE 6512 Z ». Aucune clause générique listant plusieurs assureurs possibles.
 - Couche texte : 28 apostrophes courbes (U+2019) et une espace insécable (U+00A0) dans « 542 073 580 » ; apostrophes courbes et ASCII sont mélangées à l'intérieur d'une même phrase d'exclusion. Les citations ont été découpées programmatiquement dans le texte extrait par page.get_text("text") (sauts de ligne ramenés à des espaces). Aucune ligature perdue ni glyphe de zone privée détecté.
 - Aucune troncature : le texte du prompt correspond caractère pour caractère au texte réextrait du PDF local pour les 2 pages (vérifié).
+- edition_date remise a null le 2026-08-01: la valeur 2026-01 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

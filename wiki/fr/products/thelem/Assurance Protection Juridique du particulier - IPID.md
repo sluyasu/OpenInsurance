@@ -12,7 +12,7 @@ target_audience_note: 'Bénéficiaires : l’assuré, c’est-à-dire le souscri
   son conjoint ou assimilé non séparé de corps ou de fait, et les enfants à leur charge
   au sens fiscal du terme.'
 reference: null
-edition_date: 2026-01
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/protection-juridique
@@ -28,7 +28,7 @@ prompt_version: '1.1'
 product_family: protection-juridique-du-particulier
 variant: null
 edition_status: null
-edition_age_years: 0
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -42,7 +42,7 @@ generated: true
 
 L’assurance Protection Juridique du particulier de Thélem assurances met à la disposition de l’assuré un service d’information juridique (téléphone et internet) pour répondre à ses questions en prévention des litiges et, en cas de litige, les moyens juridiques et financiers en vue d’une solution amiable ou judiciaire. Elle intervient pour les litiges de la vie privée et salariée dans les domaines de la protection de la personne, de la vie quotidienne, de l’habitation, de la construction, de l’automobile, des loisirs, du travail, de la santé, de la défense pénale et du droit de la famille. Les frais engagés ou diligentés sont pris en charge lorsque le litige est supérieur à 220 €, dans la limite de 20 000 € par litige ; en dessous de ce seuil, un accompagnement juridique par téléphone est prévu. Le présent document est un document d’information sur le produit d’assurance (IPID) qui présente un résumé des principales garanties et exclusions du contrat.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Protection juridique](../../branches/Protection%20juridique.md) · Type : IPID / Fiche d'information · Édition : 2026-01
+- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Protection juridique](../../branches/Protection%20juridique.md) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -194,6 +194,7 @@ Successions en qualité d’héritier, donations, incapacités, tutelle.
 - Le délai de prescription n’est pas mentionné dans le document : prescription_period laissé à null.
 - La formule tarifaire et les modalités de fractionnement de la cotisation ne sont pas détaillées (seul le lieu et la date de paiement sont indiqués).
 - La couche texte du PDF restitue les rubriques dans un ordre différent de la mise en page (les rubriques « Où suis-je couvert ? » et « Quelles sont mes obligations ? » apparaissent en fin de page 2) ; aucun contenu ne paraît manquant.
+- edition_date remise a null le 2026-08-01: la valeur 2026-01 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

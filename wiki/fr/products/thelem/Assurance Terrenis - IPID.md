@@ -11,7 +11,7 @@ target_audience: entreprises
 target_audience_note: Cette assurance est destinée aux exploitants agricoles, aux
   sociétés à usage agricole et aux retraités agricoles.
 reference: null
-edition_date: '2026'
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/agricole
@@ -27,7 +27,7 @@ prompt_version: '1.1'
 product_family: assurance-terrenis
 variant: null
 edition_status: null
-edition_age_years: 0
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -41,7 +41,7 @@ generated: true
 
 Assurance Terrenis est le contrat d'assurance multirisque agricole de Thélem assurances. Il permet à l'assuré, en tant que professionnel actif ou retraité du monde agricole, de couvrir ses responsabilités et biens professionnels (bâtiments, matériels, marchandises, animaux et récoltes). L'offre est présentée comme totalement modulaire : les garanties indispensables portent sur les responsabilités (RC propriétaire d'immeuble, RC agricole, Défense Pénale et Recours Suite à Accident) et sur les dommages aux locaux professionnels et à leur contenu (incendie, tempêtes, grêle et neige sur toitures, catastrophes naturelles, attentats matériels, dégâts des eaux, dommages électriques). Des garanties optionnelles complètent le contrat (vol, bris de glaces, bris de machines, contenus des congélateurs, tanks à lait et chambres froides, cuves, entraide agricole, pertes financières).
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Assurance agricole](../../branches/Assurance%20agricole.md) · Type : IPID / Fiche d'information · Édition : 2026
+- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Assurance agricole](../../branches/Assurance%20agricole.md) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -205,6 +205,7 @@ Garantie optionnelle : pertes financières suite à un sinistre incendie (suivan
 - Les garanties sont nommées en page 1 et leurs portées territoriales en page 2 ; le champ `page` des garanties cite la page 1, où la garantie est nommée.
 - La ligne « Catastrophes naturelles, Attentats matériels, Dégâts des eaux, Dommages électriques aux appareils » est précédée d'une seule coche dans le PDF ; elle a été éclatée en quatre garanties distinctes car chacune est nommée séparément ailleurs dans le document.
 - Le texte extrait du PDF comporte de nombreux sauts de ligne au milieu des phrases (mise en page en colonnes) ; les descriptions ont été recomposées sans modifier les termes employés.
+- edition_date remise a null le 2026-08-01: la valeur 2026 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

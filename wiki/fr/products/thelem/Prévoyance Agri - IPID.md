@@ -11,7 +11,7 @@ target_audience: independants
 target_audience_note: 'L’exploitant agricole. Assuré : toute personne âgée d’au moins
   18 ans et au maximum de 59 ans, et désignée sur les Conditions Particulières.'
 reference: null
-edition_date: 2024-07
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/prevoyance
@@ -27,7 +27,7 @@ prompt_version: '1.1'
 product_family: prevoyance-agri
 variant: null
 edition_status: null
-edition_age_years: 2
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -41,7 +41,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) du contrat Prévoyance Agri de Thélem prévoyance. La Prévoyance Agri permet de garantir à l’exploitant agricole le maintien de son revenu en cas d’arrêt de travail et de protéger financièrement sa famille en cas de décès ou d’invalidité, les garanties étant déclenchées après accident ou maladie. Le contrat prévoit systématiquement un capital décès/PTIA, des indemnités journalières et l’exonération des cotisations, et propose en option les frais d’exploitation permanents, l’invalidité, la rente éducation, la rente conjoint temporaire et un capital complémentaire décès/PTIA en cas d’accident professionnel.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : IPID / Fiche d'information · Édition : 2024-07
+- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -172,6 +172,7 @@ Décès/PTIA : un capital complémentaire est versé en cas d’accident profess
 - Aucune procédure de déclaration de sinistre détaillée (délai de déclaration, destinataire) n’est indiquée : seule l’obligation de « Fournir toutes les pièces justificatives » est mentionnée.
 - Le document ne contient pas de section « Définitions » formelle ; les entrées de definitions[] proviennent des mentions Assuré / Bénéficiaires et des sigles utilisés (PTIA, IJ).
 - Aucune mention d’un droit de rétractation ni de conditions tarifaires chiffrées (le document est un IPID de 2 pages).
+- edition_date remise a null le 2026-08-01: la valeur 2024-07 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

@@ -10,7 +10,7 @@ document_type: other
 target_audience: null
 target_audience_note: null
 reference: Relevé annuel 2025
-edition_date: '2025'
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/assurance-vie
@@ -26,7 +26,7 @@ prompt_version: '1.1'
 product_family: informations-reglementaires-sur-les-actifs-references-dans-le-contrat
 variant: null
 edition_status: null
-edition_age_years: 1
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -40,7 +40,7 @@ generated: true
 
 Annexe réglementaire au relevé annuel 2025 : pour chacune des 25 unités de compte proposées dans le contrat, le tableau donne le code ISIN, la société de gestion, l'indicateur de risque (SRI), la performance brute 2025 et moyenne annualisée sur cinq ans, les frais de gestion de l'unité de compte et la part rétrocédée à MAIF VIE, la performance nette, les frais de gestion du contrat, les frais totaux et la performance finale. Les unités de compte sont réparties en catégories imprimées (Fonds actions, Fond obligations, Fonds mixtes, Fonds immobiliers, Fonds de capital investissement, Fonds Monétaires, Autres). Le document ne décrit aucune garantie d'assurance et ne comporte aucune exclusion.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Document · Édition : 2025
+- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Document
 
 ## Définitions
 
@@ -101,6 +101,7 @@ Annexe réglementaire au relevé annuel 2025 : pour chacune des 25 unités de co
 - Les libellés de six unités de compte portent en exposant un renvoi « **** » (MAIF Actions Transition Biodiversité, Mirova Women Leaders and Diversity, Sextant PEA, LBPAM ISR Actions Emergents, Sycomore Sustainable Tech, MAIF Habitats et Inclusion, PERIAL Euro Carbone, MAIF Rendement Vert, MAIF Dette Transition Sociale). Les astérisques ont été retirées du champ `name` (ce sont des appels de note, pas des éléments du nom) et la note correspondante est reproduite en fin de description.
 - Deux unités de compte n'affichent aucune performance (« - » partout) : Mirova Women Leaders and Diversity (annuelle et 5 ans). Quatre autres n'affichent pas de moyenne sur 5 ans (MAIF Actions Transition Biodiversité, Sextant PEA). Les tirets sont reproduits tels quels, sans interprétation.
 - L'en-tête de colonnes est éclaté sur de nombreuses lignes dans la couche texte ; l'affectation des 11 valeurs de chaque ligne aux colonnes repose sur l'ordre de lecture, constant sur les 25 lignes et vérifié par le fait que chaque ligne contient exactement 11 valeurs dont deux « (dont X %) ».
+- edition_date remise a null le 2026-08-01: la valeur 2025 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

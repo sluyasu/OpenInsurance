@@ -1,1050 +1,1050 @@
 {
-  "schema_version": "1.0",
-  "prompt_version": "1.1",
-  "country": "fr",
-  "insurer_slug": "groupama",
-  "insurer_name": "Groupama",
-  "product_name": "SANTÉ TNS Gamme Essentielle",
-  "branch": "sante",
-  "branch_code": null,
-  "document_type": "conditions_generales",
-  "language": "fr",
-  "target_audience": null,
-  "target_audience_note": "Le document est titré « SANTÉ TNS - Gamme Essentielle » et n'énonce nulle part la population éligible ; il ne développe pas le sigle TNS et ne décrit ni conditions d'adhésion ni statut professionnel requis.",
-  "reference": "Réf. 3350-230004-092021",
-  "edition_date": "092021",
-  "product_family": "Santé TNS",
-  "variant": "Gamme Essentielle",
-  "is_extension": true,
-  "extends": "Notice d’information valant conditions générales",
-  "superseded": null,
-  "source_url": "https://assets.ctfassets.net/7awcp71bzphk/TjU7ncvu2i6ApvMmCfd0j/9d1575199cee6408385a5e37aea1b417/tableau_de_garanties_compl__mentaire_sant___TNS.pdf",
-  "source_pdf": "sante-tns-gamme-essentielle-tableau-des-garanties-annexe-3-a-la-notice-dinformation-valant-conditions-generales-ref-3350-230004-092021-38b91083.pdf",
-  "source_sha256": "7b279a688a3d9b4e425025c0eca2fa2e834d83b972ae0f5b37f24008e1635366",
-  "source_pages": 8,
-  "fetched_at": "2026-07-30",
-  "extraction_model": "claude-code-subagent:scale",
-  "summary": "Annexe 3 à la notice d'information valant conditions générales du contrat santé « SANTÉ TNS - Gamme Essentielle » de Groupama : elle contient exclusivement le tableau des garanties, décliné en cinq formules (FORMULE 1 à FORMULE 5), pour les postes Hospitalisation, Maternité, Soins courants, Aides auditives, Optique, Dentaire, Prévention et santé au quotidien et télémédecine. Deux blocs supplémentaires donnent les niveaux applicables chez les opticiens et chirurgiens-dentistes partenaires du réseau Sévéane. Les montants sont exprimés en complément des remboursements du régime obligatoire, en % BR, % FR, % PMSS, TM ou en euros, et onze renvois précisent les limitations (délai de trois mois sur les honoraires et actes chirurgicaux, hospitalisation hors UE/AELE, non-cumul réseau/hors réseau, planchers et plafonds réglementaires optique).",
-  "definitions": [
-    {
-      "term": "BR",
-      "definition": "Base de remboursement telle que définie aux conditions générales.",
-      "page": 2
-    },
-    {
-      "term": "DPTAM",
-      "definition": "Dispositifs de Pratique Tarifaire Maîtrisée qui comprennent l’OPTAM (Option Pratique Tarifaire Maitrisée) et l’OPTAM-CO (Option Pratique Tarifaire Maîtrisée-Chirurgie et Obstétrique).",
-      "page": 2
-    },
-    {
-      "term": "FR",
-      "definition": "Frais réellement engagés par la personne assurée sous déduction du remboursement du RO.",
-      "page": 2
-    },
-    {
-      "term": "PMSS",
-      "definition": "Plafond Mensuel de la Sécurité sociale, soit 3428 € pour 2021; ainsi au 1er janvier 2021, 1% du PMSS est égal à 34,28 €. L’évolution de cette valeur peut être obtenue en consultant le site https://www.securite-sociale.fr, rubrique «la Sécu & vous» / Barèmes.",
-      "page": 2
-    },
-    {
-      "term": "TM",
-      "definition": "Ticket modérateur tel que tel que défini aux conditions générales. (répétition « tel que tel que » telle qu'imprimée)",
-      "page": 2
-    },
-    {
-      "term": "RO",
-      "definition": "Régime obligatoire de protection sociale tel que défini aux conditions générales.",
-      "page": 2
-    },
-    {
-      "term": "Equipements 100% santé",
-      "definition": "Tels que définis réglementairement et visés à l’article R. 871-2 du Code de la sécurité sociale. (renvoi 3)",
-      "page": 6
-    },
-    {
-      "term": "Verres unifocaux simples (renvoi 5)",
-      "definition": "Verres unifocaux sphériques dont la sphère est comprise entre -6,00 et +6,00 dioptries ; verres unifocaux sphéro-cylindriques dont la sphère est comprise entre -6,00 et 0 dioptries et dont le cylindre est inférieur ou égal à + 4,00 dioptries ; verres unifocaux sphéro-cylindriques dont la sphère est positive et dont la somme S (sphère + cylindre) est inférieure ou égale à 6,00 dioptries.",
-      "page": 6
-    }
-  ],
-  "coverages": [
-    {
-      "name": "Hospitalisation - Honoraires - médecin adhérent à un DPTAM",
-      "description": "Poste HOSPITALISATION : honoraires d'un médecin adhérent à un DPTAM.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : TM ; Formule 2 : 95 % BR1 ; Formule 3 : 120 % BR1 ; Formule 4 : 200 % BR1 ; Formule 5 : 300 % BR1",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Renvoi 1 : garanties « Honoraires » et « Actes chirurgicaux » limitées à 100% du TM pendant les trois premiers mois suivant l’adhésion au contrat (p. 6)"
-      ],
-      "page": 3
-    },
-    {
-      "name": "Hospitalisation - Honoraires - médecin non adhérent à un DPTAM",
-      "description": "Poste HOSPITALISATION : honoraires d'un médecin non adhérent à un DPTAM.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : TM ; Formule 2 : 75 % BR1 ; Formule 3 : 100 % BR1 ; Formule 4 : TM + 100 % BR1 ; Formule 5 : TM + 100% BR1",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Renvoi 1 : limitation à 100% du TM pendant les trois premiers mois suivant l’adhésion (p. 6)"
-      ],
-      "page": 3
-    },
-    {
-      "name": "Hospitalisation - Actes chirurgicaux - médecin adhérent à un DPTAM",
-      "description": "Poste HOSPITALISATION : actes chirurgicaux réalisés par un médecin adhérent à un DPTAM.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : TM ; Formule 2 : 95 % BR1 ; Formule 3 : 120 % BR1 ; Formule 4 : 200 % BR1 ; Formule 5 : 300 % BR1",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Renvoi 1 : limitation à 100% du TM pendant les trois premiers mois suivant l’adhésion (p. 6)"
-      ],
-      "page": 3
-    },
-    {
-      "name": "Hospitalisation - Actes chirurgicaux - médecin non adhérent à un DPTAM",
-      "description": "Poste HOSPITALISATION : actes chirurgicaux réalisés par un médecin non adhérent à un DPTAM.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : TM ; Formule 2 : 75 % BR1 ; Formule 3 : 100 % BR1 ; Formule 4 : TM + 100 % BR1 ; Formule 5 : TM + 100 % BR1",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Renvoi 1 : limitation à 100% du TM pendant les trois premiers mois suivant l’adhésion (p. 6)"
-      ],
-      "page": 3
-    },
-    {
-      "name": "Hospitalisation - Frais de séjour - conventionné",
-      "description": "Poste HOSPITALISATION : frais de séjour en établissement conventionné.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : 100 % FR ; Formule 2 : 100 % FR ; Formule 3 : 100 % FR ; Formule 4 : 100 % FR ; Formule 5 : 100 % FR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Hospitalisation - Frais de séjour - non conventionné",
-      "description": "Poste HOSPITALISATION : frais de séjour en établissement non conventionné.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : TM ; Formule 2 : TM ; Formule 3 : 100 % BR ; Formule 4 : 90 % FR ; Formule 5 : 90 % FR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Hospitalisation - Transport pris en charge par le RO",
-      "description": "Poste HOSPITALISATION : transport pris en charge par le régime obligatoire.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : TM ; Formule 2 : 50 % BR ; Formule 3 : 100 % BR ; Formule 4 : 200 % BR ; Formule 5 : 400 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Hospitalisation - Forfait journalier hospitalier",
-      "description": "Poste HOSPITALISATION : forfait journalier hospitalier.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : 100 % FR9 ; Formule 2 : 100 % FR9 ; Formule 3 : 100 % FR9 ; Formule 4 : 100 % FR9 ; Formule 5 : 100 % FR9",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Renvoi 9 : « Cette prestation concerne uniquement le forfait journalier hospitalier facturé par les établissements de santé, et non pas celui facturé par les établissements médico-sociaux. » (p. 6)"
-      ],
-      "page": 3
-    },
-    {
-      "name": "Hospitalisation - Chambre particulière en % du PMSS/jour",
-      "description": "Poste HOSPITALISATION : chambre particulière, exprimée en pourcentage du PMSS par jour.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : _ ; Formule 2 : 1,5 % ; Formule 3 : 2 % ; Formule 4 : 3 % ; Formule 5 : 3,5 %",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Hospitalisation - Lit + repas accompagnant en % du PMSS/jour",
-      "description": "Poste HOSPITALISATION : lit et repas de l'accompagnant, en pourcentage du PMSS par jour.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : _ ; Formule 2 : 1% ; Formule 3 : 1,5 % ; Formule 4 : 2,0 % ; Formule 5 : 2,5 %",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Hospitalisation à l'étranger (RO français)2",
-      "description": "Poste HOSPITALISATION : hospitalisation à l'étranger avec RO français.",
-      "is_optional": false,
-      "territorial_scope": "Étranger, avec régime obligatoire français",
-      "limits": "Formule 1 : TM ; Formule 2 : 75 % BR ; Formule 3 : 100 % BR ; Formule 4 : 145 % BR ; Formule 5 : 145 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Renvoi 2 : en cas d’hospitalisation dans un pays étranger autre qu’un État membre de l’Union européenne ou de l'Association européenne de libre-échange, la prise en charge des frais de séjour est limitée aux bases indiquées (p. 6)"
-      ],
-      "page": 3
-    },
-    {
-      "name": "Procréation médicale assistée non prise en charge par le RO/an/pers. assurée",
-      "description": "Poste « LE + MATERNITE » (intitulé tel qu'imprimé).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : _ ; Formule 2 : _ ; Formule 3 : 200 € ; Formule 4 : 200 € ; Formule 5 : 200 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Soins courants - Honoraires médicaux - médecin généraliste adhérent à un DPTAM",
-      "description": "Poste SOINS COURANTS : honoraires d'un médecin généraliste adhérent à un DPTAM.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : TM ; Formule 2 : TM ; Formule 3 : 120 % BR ; Formule 4 : 200 % BR ; Formule 5 : 400 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Soins courants - Honoraires médicaux - médecin généraliste non adhérent à un DPTAM",
-      "description": "Poste SOINS COURANTS : honoraires d'un médecin généraliste non adhérent à un DPTAM.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : TM ; Formule 2 : TM ; Formule 3 : 100 % BR ; Formule 4 : TM + 100 % BR ; Formule 5 : TM + 100 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Soins courants - Honoraires médicaux - médecin spécialiste adhérent à un DPTAM",
-      "description": "Poste SOINS COURANTS : honoraires d'un médecin spécialiste adhérent à un DPTAM.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : TM ; Formule 2 : 90 % BR ; Formule 3 : 120 % BR ; Formule 4 : 200 % BR ; Formule 5 : 400 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Soins courants - Honoraires médicaux - médecin spécialiste non adhérent à un DPTAM",
-      "description": "Poste SOINS COURANTS : honoraires d'un médecin spécialiste non adhérent à un DPTAM.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : TM ; Formule 2 : 70 % BR ; Formule 3 : 100 % BR ; Formule 4 : TM + 100 % BR ; Formule 5 : TM + 100 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Soins courants - Honoraires paramédicaux",
-      "description": "Poste SOINS COURANTS : honoraires paramédicaux.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : TM ; Formule 2 : TM ; Formule 3 : 100 % BR ; Formule 4 : 200 % BR ; Formule 5 : 400 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Soins courants - Analyses et examens de laboratoire",
-      "description": "Poste SOINS COURANTS : analyses et examens de laboratoire.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : TM ; Formule 2 : TM ; Formule 3 : 120 % BR ; Formule 4 : 200 % BR ; Formule 5 : 400 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Soins courants - Radiologie et petite chirurgie réalisées par un médecin adhérent à un DPTAM",
-      "description": "Poste SOINS COURANTS : radiologie et petite chirurgie réalisées par un médecin adhérent à un DPTAM.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : TM ; Formule 2 : TM ; Formule 3 : 120 % BR ; Formule 4 : 200 % BR ; Formule 5 : 400 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Soins courants - Radiologie et petite chirurgie réalisées par un médecin non adhérent à un DPTAM",
-      "description": "Poste SOINS COURANTS : radiologie et petite chirurgie réalisées par un médecin non adhérent à un DPTAM.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : TM ; Formule 2 : TM ; Formule 3 : 100 % BR ; Formule 4 : TM + 100 % BR ; Formule 5 : TM + 100 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Soins courants - Médicaments : pharmacie prescrite prise en charge par le RO",
-      "description": "Poste SOINS COURANTS : médicaments, pharmacie prescrite prise en charge par le RO.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : TM ; Formule 2 : TM ; Formule 3 : TM ; Formule 4 : TM ; Formule 5 : TM",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Soins courants - Matériel médical : appareillage (hors optique, dentaire et aides auditives)",
-      "description": "Poste SOINS COURANTS : matériel médical, appareillage hors optique, dentaire et aides auditives.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : TM ; Formule 2 : TM ; Formule 3 : 100 % BR ; Formule 4 : 200 % BR ; Formule 5 : 400 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Soins courants - Frais de transport pris en charge par le RO",
-      "description": "Poste SOINS COURANTS : frais de transport pris en charge par le RO.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : TM ; Formule 2 : 50 % BR ; Formule 3 : 100 % BR ; Formule 4 : 200 % BR ; Formule 5 : 400 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Soins courants - Chiropraxie et Ostéopathie/pers. assurée",
-      "description": "Poste SOINS COURANTS : séances de chiropraxie et d'ostéopathie par personne assurée.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : _ ; Formule 2 : 25€/séance-max. 2/an ; Formule 3 : 25€/séance-max. 3/an ; Formule 4 : 30€/séance-max. 3/an ; Formule 5 : 50€/séance-max. 3/an",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Soins courants - Consultation de diététicien/an/pers. assurée",
-      "description": "Poste SOINS COURANTS : consultation de diététicien par an et par personne assurée.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : _ ; Formule 2 : _ ; Formule 3 : 28 € ; Formule 4 : 28 € ; Formule 5 : 28 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Cures thermales prises en charge par le RO (y compris hospitalisation) - Frais d’hospitalisation et actes médicaux",
-      "description": "Poste SOINS COURANTS : cures thermales prises en charge par le RO, frais d'hospitalisation et actes médicaux.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : TM ; Formule 2 : TM ; Formule 3 : TM ; Formule 4 : TM ; Formule 5 : TM",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 3
-    },
-    {
-      "name": "Cures thermales prises en charge par le RO - Frais supplémentaires hébergement et transport/an/pers. assurée11",
-      "description": "Poste SOINS COURANTS : frais supplémentaires d'hébergement et de transport liés à la cure thermale.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : _ ; Formule 2 : _ ; Formule 3 : + 125 € ; Formule 4 : + 175 € ; Formule 5 : + 175 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Renvoi 11 : par dérogation à la notice d’information valant conditions générales, une seule cure thermale par personne et par an, prise en charge par le RO, est prise en considération pour le versement de cette indemnité (p. 6)"
-      ],
-      "page": 3
-    },
-    {
-      "name": "Aides auditives - Equipements 100% santé3",
-      "description": "Poste AIDES AUDITIVES : prise en charge d'une aide auditive par oreille par période de 4 ans ; équipements du panier 100% santé.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [
-        "Pris en charge dans la limite des prix limites de vente (PLV)"
-      ],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'une aide auditive par oreille par période de 4 ans",
-        "Renvoi 3 : équipements « tels que définis réglementairement et visés à l’article R. 871-2 du Code de la sécurité sociale » (p. 6)"
-      ],
-      "page": 4
-    },
-    {
-      "name": "Aides auditives - Equipements hors 100% santé adulte (personne âgée de 20 ans et plus)",
-      "description": "Poste AIDES AUDITIVES : équipements hors 100% santé pour un adulte.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : TM ; Formule 2 : 100 % BR ; Formule 3 : 100 % BR ; Formule 4 : 100 % BR ; Formule 5 : 250 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'une aide auditive par oreille par période de 4 ans"
-      ],
-      "page": 4
-    },
-    {
-      "name": "Aides auditives - Forfait supplémentaire/oreille/4 ans/adulte (hors accessoires)",
-      "description": "Poste AIDES AUDITIVES : forfait supplémentaire par oreille et par période de 4 ans pour un adulte, hors accessoires.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : _ ; Formule 2 : _ ; Formule 3 : + 150 € ; Formule 4 : + 300 € ; Formule 5 : + 400 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 4
-    },
-    {
-      "name": "Aides auditives - Equipements hors 100% santé enfant (personne âgée de moins de 20 ans)",
-      "description": "Poste AIDES AUDITIVES : équipements hors 100% santé pour un enfant de moins de 20 ans.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : TM ; Formule 2 : TM ; Formule 3 : TM ; Formule 4 : TM ; Formule 5 : TM",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'une aide auditive par oreille par période de 4 ans"
-      ],
-      "page": 4
-    },
-    {
-      "name": "Aides auditives - Forfait supplémentaire/oreille/4 ans/enfant (hors accessoires)",
-      "description": "Poste AIDES AUDITIVES : forfait supplémentaire par oreille et par période de 4 ans pour un enfant, hors accessoires.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : _ ; Formule 2 : _ ; Formule 3 : + 100 € ; Formule 4 : + 200 € ; Formule 5 : + 300 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 4
-    },
-    {
-      "name": "Aides auditives - Accessoires pris en charge par le RO",
-      "description": "Poste AIDES AUDITIVES : accessoires pris en charge par le RO.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : TM ; Formule 2 : TM ; Formule 3 : TM ; Formule 4 : TM ; Formule 5 : TM",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 4
-    },
-    {
-      "name": "Optique - Equipements 100% santé3",
-      "description": "Poste OPTIQUE : prise en charge d'un équipement (une monture et deux verres) par période de deux ans pour les adultes et enfants de 16 ans et plus ; équipements du panier 100% santé.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [
-        "Pris en charge dans la limite des Prix Limites de Vente (PLV)"
-      ],
-      "deductible": null,
-      "conditions": [
-        "Prise en charge d'un équipement (une monture et deux verres) par période de deux ans pour les adultes et enfants de 16 ans et plus (sauf évolution de la vue, un par an, et sauf situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement pour les verres)",
-        "Renvoi 10 : « Les remboursements du poste Optique s'entendent Ticket Modérateur et remboursement du RO inclus. » (p. 6)"
-      ],
-      "page": 4
-    },
-    {
-      "name": "Optique - Equipements hors 100% santé : équipement à verres unifocaux simples5",
-      "description": "Poste OPTIQUE : équipement hors 100% santé à verres unifocaux simples (dont maximum 100 € pour la monture).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : 100 € ; Formule 2 : 270 € ; Formule 3 : 320 € ; Formule 4 : 380 € ; Formule 5 : 420 €",
-      "sub_limits": [
-        "dont maximum 100 € pour la monture"
-      ],
-      "deductible": null,
-      "conditions": [
-        "Renvoi 5 : définition des verres unifocaux simples par plages de dioptries (p. 6)"
-      ],
-      "page": 4
-    },
-    {
-      "name": "Optique - Equipements hors 100% santé : équipement comportant 1 verre unifocal simple et un autre type de verre",
-      "description": "Poste OPTIQUE : équipement hors 100% santé mixte (dont maximum 100 € pour la monture).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : 150 € ; Formule 2 : 285 € ; Formule 3 : 350 € ; Formule 4 : 425 € ; Formule 5 : 545 €",
-      "sub_limits": [
-        "dont maximum 100 € pour la monture"
-      ],
-      "deductible": null,
-      "conditions": [],
-      "page": 4
-    },
-    {
-      "name": "Optique - Equipements hors 100% santé : tout autre équipement",
-      "description": "Poste OPTIQUE : tout autre équipement hors 100% santé (dont maximum 100 € pour la monture).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : 200 € ; Formule 2 : 300 € ; Formule 3 : 380 € ; Formule 4 : 470 € ; Formule 5 : 670 €",
-      "sub_limits": [
-        "dont maximum 100 € pour la monture"
-      ],
-      "deductible": null,
-      "conditions": [],
-      "page": 4
-    },
-    {
-      "name": "Optique - Prestation d'adaptation de la prescription médicale de verre correcteur par l'opticien",
-      "description": "Poste OPTIQUE : prestation d'adaptation de la prescription médicale de verre correcteur réalisée par l'opticien.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : TM ; Formule 2 : TM ; Formule 3 : TM ; Formule 4 : TM ; Formule 5 : TM",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 4
-    },
-    {
-      "name": "Optique - Lentilles prises en charge par le RO/an/pers. assurée",
-      "description": "Poste OPTIQUE : lentilles prises en charge par le RO, par an et par personne assurée ; la ligne « - avec un minimum de » porte la valeur TM dans les cinq formules.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : 100 € / avec un minimum de TM ; Formule 2 : 6 % PMSS / avec un minimum de TM ; Formule 3 : 8 % PMSS / avec un minimum de TM ; Formule 4 : 8 % PMSS / avec un minimum de TM ; Formule 5 : 10 % PMSS / avec un minimum de TM",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 4
-    },
-    {
-      "name": "Optique - Lentilles correctrices prescrites non prises en charge par le RO/an/pers. assurée",
-      "description": "Poste OPTIQUE : lentilles correctrices prescrites mais non prises en charge par le RO.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : _ ; Formule 2 : _ ; Formule 3 : 5 % PMSS ; Formule 4 : 6 % PMSS ; Formule 5 : 10 % PMSS",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 4
-    },
-    {
-      "name": "Optique - Chirurgie réfractive (traitement des corrections visuelles) /an/pers. assurée",
-      "description": "Poste OPTIQUE : chirurgie réfractive, par an et par personne assurée.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : _ ; Formule 2 : _ ; Formule 3 : 250 € ; Formule 4 : 350 € ; Formule 5 : 450 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 4
-    },
-    {
-      "name": "Dentaire - Soins et prothèses 100% santé3",
-      "description": "Poste DENTAIRE : soins et prothèses du panier 100% santé.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [
-        "Pris en charge dans le respect des honoraires limites de facturation"
-      ],
-      "deductible": null,
-      "conditions": [],
-      "page": 4
-    },
-    {
-      "name": "Dentaire - Soins et prothèses hors 100% santé : Soins",
-      "description": "Poste DENTAIRE : soins hors 100% santé.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : TM ; Formule 2 : TM ; Formule 3 : TM ; Formule 4 : TM ; Formule 5 : TM",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 4
-    },
-    {
-      "name": "Dentaire - Soins et prothèses hors 100% santé : Inlays/Onlays",
-      "description": "Poste DENTAIRE : inlays/onlays hors 100% santé.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : TM ; Formule 2 : 75 % BR ; Formule 3 : 200 % BR ; Formule 4 : 300 % BR ; Formule 5 : 400 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 4
-    },
-    {
-      "name": "Dentaire - Prothèses prises en charge par le RO",
-      "description": "Poste DENTAIRE : prothèses hors 100% santé prises en charge par le RO.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : TM + 25 % BR ; Formule 2 : 100 % BR ; Formule 3 : 200 % BR ; Formule 4 : 300 % BR ; Formule 5 : 400 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 4
-    },
-    {
-      "name": "Dentaire - Prothèses non prises en charge par le RO/an/pers. assurée",
-      "description": "Poste DENTAIRE : prothèses non prises en charge par le RO, par an et par personne assurée.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : - ; Formule 2 : 100 € ; Formule 3 : 200 € ; Formule 4 : 300 € ; Formule 5 : 400 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 4
-    },
-    {
-      "name": "Dentaire - Parodontologie non prise en charge par le RO/an/pers. assurée",
-      "description": "Poste DENTAIRE : parodontologie non prise en charge par le RO.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : 50 € ; Formule 2 : 50 € ; Formule 3 : 75 € ; Formule 4 : 100 € ; Formule 5 : 200 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 4
-    },
-    {
-      "name": "Dentaire - Implantologie non prise en charge par le RO/an/pers. assurée",
-      "description": "Poste DENTAIRE : implantologie non prise en charge par le RO.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : 50 € ; Formule 2 : 100 € ; Formule 3 : 200 € ; Formule 4 : 250 € ; Formule 5 : 350 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 4
-    },
-    {
-      "name": "Dentaire - Orthodontie prise en charge par le RO",
-      "description": "Poste DENTAIRE : orthodontie prise en charge par le RO.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : TM + 25 % BR ; Formule 2 : 100 % BR ; Formule 3 : 200 % BR ; Formule 4 : 250 % BR ; Formule 5 : 400 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 4
-    },
-    {
-      "name": "Dentaire - Orthodontie non prise en charge par le RO/an/pers. assurée",
-      "description": "Poste DENTAIRE : orthodontie non prise en charge par le RO.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : _ ; Formule 2 : _ ; Formule 3 : 200 € ; Formule 4 : 300 € ; Formule 5 : 450 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 4
-    },
-    {
-      "name": "Prévention et santé au quotidien - Moyens de contraception et vaccins prescrits non remboursés par le RO/an/pers. assurée",
-      "description": "Poste PREVENTION ET SANTE AU QUOTIDIEN : moyens de contraception et vaccins prescrits non remboursés par le RO.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : _ ; Formule 2 : _ ; Formule 3 : 50 € ; Formule 4 : 60 € ; Formule 5 : 60 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 4
-    },
-    {
-      "name": "Prévention et santé au quotidien - Sevrage tabagique (substituts nicotiniques ou médicaments prescrits non remboursés par le RO)/an/pers. assurée",
-      "description": "Poste PREVENTION ET SANTE AU QUOTIDIEN : sevrage tabagique.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : _ ; Formule 2 : 50 € ; Formule 3 : 50 € ; Formule 4 : 50 € ; Formule 5 : 50 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 4
-    },
-    {
-      "name": "Prévention et santé au quotidien - Actes de prévention pris en charge par le RO",
-      "description": "Poste PREVENTION ET SANTE AU QUOTIDIEN : actes de prévention pris en charge par le RO.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : Inclus ; Formule 2 : Inclus ; Formule 3 : Inclus ; Formule 4 : Inclus ; Formule 5 : Inclus",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 4
-    },
-    {
-      "name": "Assistance/Info Santé",
-      "description": "Poste PREVENTION ET SANTE AU QUOTIDIEN : Assistance/Info Santé.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : Inclus ; Formule 2 : Inclus ; Formule 3 : Inclus ; Formule 4 : Inclus ; Formule 5 : Inclus",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 4
-    },
-    {
-      "name": "Tiers payant généralisé",
-      "description": "Poste PREVENTION ET SANTE AU QUOTIDIEN : tiers payant généralisé.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : Inclus ; Formule 2 : Inclus ; Formule 3 : Inclus ; Formule 4 : Inclus ; Formule 5 : Inclus",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 4
-    },
-    {
-      "name": "Solution(s) de télémédecine proposée(s) par l'assureur",
-      "description": "Solution(s) de télémédecine proposée(s) par l'assureur, identiques dans les cinq formules.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : Limité à 6 téléconsultations/an/pers. assurée de + de 18 ans ; Formule 2 : Limité à 6 téléconsultations/an/pers. assurée de + de 18 ans ; Formule 3 : Limité à 6 téléconsultations/an/pers. assurée de + de 18 ans ; Formule 4 : Limité à 6 téléconsultations/an/pers. assurée de + de 18 ans ; Formule 5 : Limité à 6 téléconsultations/an/pers. assurée de + de 18 ans",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 5
-    },
-    {
-      "name": "Opticiens partenaires Sévéane6 - Equipements 100% santé3",
-      "description": "Réseau OPTICIENS PARTENAIRES SEVEANE : équipements du panier 100% santé.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [
-        "Pris en charge dans la limite des prix limites de vente (PLV)"
-      ],
-      "deductible": null,
-      "conditions": [
-        "Renvoi 6 : « Cette garantie est accordée sous réserve de mention spécifique au certificat d’adhésion. » (p. 6)"
-      ],
-      "page": 5
-    },
-    {
-      "name": "Opticiens partenaires Sévéane6 - Equipements hors 100% santé : Forfait lunettes parmi une sélection partenaire Sévéane",
-      "description": "Réseau OPTICIENS PARTENAIRES SEVEANE : équipements hors 100% santé (dont maximum 100 € pour la monture) ; la cellule couvrant les cinq formules porte « Forfait lunettes parmi une sélection partenaire Sévéane ».",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [
-        "dont maximum 100 € pour la monture"
-      ],
-      "deductible": null,
-      "conditions": [],
-      "page": 5
-    },
-    {
-      "name": "Opticiens partenaires Sévéane6 - Supplément pour traitement particulier des verres/pers. assurée",
-      "description": "Réseau OPTICIENS PARTENAIRES SEVEANE : supplément pour traitement particulier des verres. Quatre montants seulement sont imprimés sur cette ligne (30 €, 40 €, 50 €, 50 €).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [
-        "30 €",
-        "40 €",
-        "50 €",
-        "50 €"
-      ],
-      "deductible": null,
-      "conditions": [],
-      "page": 5
-    },
-    {
-      "name": "Opticiens partenaires Sévéane6 - Verres sélectionnés par l’assureur et Sévéane",
-      "description": "Réseau OPTICIENS PARTENAIRES SEVEANE : « Prise en charge intégrale des verres sélectionnés dans la limite des montants minimum et maximum prévus par la réglementation relative au contrat responsable et à la couverture complémentaire santé minimale des salariés.8 » Les trois lignes d'équipement portent un montant unique : 100 € (verres unifocaux simples5), 150 € (1 verre unifocal simple et un autre type de verre), 200 € (tout autre équipement).",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [
-        "- équipement à verres unifocaux simples5 : 100 €",
-        "- équipement comportant 1 verre unifocal simple et un autre type de verre : 150 €",
-        "- tout autre équipement : 200 €"
-      ],
-      "deductible": null,
-      "conditions": [
-        "Renvoi 8 : limites pour l'équipement complet, ticket modérateur et remboursement du régime obligatoire inclus, détaillées par catégorie de verres a) à f) (p. 6)"
-      ],
-      "page": 5
-    },
-    {
-      "name": "Opticiens partenaires Sévéane6 - Lentilles prises en charge par le RO/an/pers. assurée",
-      "description": "Réseau OPTICIENS PARTENAIRES SEVEANE : lentilles prises en charge par le RO ; la ligne « - avec un minimum de » porte la valeur TM dans les cinq formules.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : 100 € / avec un minimum de TM ; Formule 2 : 6 % PMSS / avec un minimum de TM ; Formule 3 : 8 % PMSS / avec un minimum de TM ; Formule 4 : 8 % PMSS / avec un minimum de TM ; Formule 5 : 10 % PMSS / avec un minimum de TM",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 5
-    },
-    {
-      "name": "Opticiens partenaires Sévéane6 - Lentilles correctrices prescrites non prises en charge par le RO/an/pers. assurée",
-      "description": "Réseau OPTICIENS PARTENAIRES SEVEANE : lentilles correctrices prescrites non prises en charge par le RO.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : _ ; Formule 2 : _ ; Formule 3 : 5 % PMSS ; Formule 4 : 6 % PMSS ; Formule 5 : 10 % PMSS",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 5
-    },
-    {
-      "name": "Opticiens partenaires Sévéane6 - Chirurgie réfractive (traitement des corrections visuelles) /an/pers. assurée",
-      "description": "Réseau OPTICIENS PARTENAIRES SEVEANE : chirurgie réfractive.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : _ ; Formule 2 : _ ; Formule 3 : 250 € ; Formule 4 : 350 € ; Formule 5 : 450 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 5
-    },
-    {
-      "name": "Dentistes partenaires Sévéane7 - Soins et prothèses 100% santé3",
-      "description": "Réseau DENTISTES PARTENAIRES SEVEANE : soins et prothèses du panier 100% santé.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": null,
-      "sub_limits": [
-        "Pris en charge dans le respect des honoraires limites de facturation"
-      ],
-      "deductible": null,
-      "conditions": [
-        "Renvoi 7 : « Cette garantie est accordée sous réserve de mention spécifique au certificat d’adhésion. » (p. 6)"
-      ],
-      "page": 5
-    },
-    {
-      "name": "Dentistes partenaires Sévéane7 - Soins et prothèses hors 100% santé : Soins",
-      "description": "Réseau DENTISTES PARTENAIRES SEVEANE : soins hors 100% santé.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : TM ; Formule 2 : TM ; Formule 3 : TM ; Formule 4 : TM ; Formule 5 : TM",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 5
-    },
-    {
-      "name": "Dentistes partenaires Sévéane7 - Soins et prothèses hors 100% santé : Inlays/Onlays",
-      "description": "Réseau DENTISTES PARTENAIRES SEVEANE : inlays/onlays hors 100% santé.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : TM ; Formule 2 : 100 % BR ; Formule 3 : 225 % BR ; Formule 4 : 325 % BR ; Formule 5 : 425 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 5
-    },
-    {
-      "name": "Dentistes partenaires Sévéane7 - Prothèses prises en charge par le RO",
-      "description": "Réseau DENTISTES PARTENAIRES SEVEANE : prothèses prises en charge par le RO.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : TM + 25 % BR ; Formule 2 : 125 % BR ; Formule 3 : 225 % BR ; Formule 4 : 325 % BR ; Formule 5 : 425 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 5
-    },
-    {
-      "name": "Dentistes partenaires Sévéane7 - Prothèses non prises en charge par le RO/an/pers. assurée",
-      "description": "Réseau DENTISTES PARTENAIRES SEVEANE : prothèses non prises en charge par le RO.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : - ; Formule 2 : 100 € ; Formule 3 : 200 € ; Formule 4 : 300 € ; Formule 5 : 400 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 5
-    },
-    {
-      "name": "Dentistes partenaires Sévéane7 - Parodontologie non prise en charge par le RO/an/pers. assurée",
-      "description": "Réseau DENTISTES PARTENAIRES SEVEANE : parodontologie non prise en charge par le RO.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : 50 € ; Formule 2 : 65 € ; Formule 3 : 100 € ; Formule 4 : 130 € ; Formule 5 : 260 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 5
-    },
-    {
-      "name": "Dentistes partenaires Sévéane7 - Implantologie non prise en charge par le RO/an/pers. assurée",
-      "description": "Réseau DENTISTES PARTENAIRES SEVEANE : implantologie non prise en charge par le RO.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : 50 € ; Formule 2 : 130 € ; Formule 3 : 260 € ; Formule 4 : 325 € ; Formule 5 : 455 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 5
-    },
-    {
-      "name": "Dentistes partenaires Sévéane7 - Orthodontie prise en charge par le RO",
-      "description": "Réseau DENTISTES PARTENAIRES SEVEANE : orthodontie prise en charge par le RO.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : TM + 25 % BR ; Formule 2 : 100 % BR ; Formule 3 : 200 % BR ; Formule 4 : 250 % BR ; Formule 5 : 400 % BR",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 5
-    },
-    {
-      "name": "Dentistes partenaires Sévéane7 - Orthodontie non prise en charge par le RO/an/pers. assurée",
-      "description": "Réseau DENTISTES PARTENAIRES SEVEANE : orthodontie non prise en charge par le RO.",
-      "is_optional": false,
-      "territorial_scope": null,
-      "limits": "Formule 1 : _ ; Formule 2 : _ ; Formule 3 : 200 € ; Formule 4 : 300 € ; Formule 5 : 450 €",
-      "sub_limits": [],
-      "deductible": null,
-      "conditions": [],
-      "page": 5
-    }
-  ],
-  "exclusions": [],
-  "deductibles": null,
-  "waiting_periods": [
-    {
-      "coverage": "Honoraires et Actes chirurgicaux (poste Hospitalisation)",
-      "duration": "les trois premiers mois suivant l’adhésion au contrat",
-      "description": "En application de la notice d’information valant conditions générales, les garanties « Honoraires » et « Actes chirurgicaux » sont limitées à 100% du TM pendant les trois premiers mois suivant l’adhésion au contrat quelle que soit la formule choisie. Cette limitation de garanties n’est toutefois pas appliquée sous certaines conditions prévues par cette notice d'information.",
-      "page": 6
-    }
-  ],
-  "obligations": [],
-  "claims_procedure": [],
-  "duration_and_cancellation": null,
-  "prescription_period": null,
-  "premium": null,
-  "special_conditions": [
-    {
-      "name": "Renvoi 1 - limitation des trois premiers mois",
-      "description": "En application de la notice d’information valant conditions générales, les garanties « Honoraires » et « Actes chirurgicaux » sont limitées à 100% du TM pendant les trois premiers mois suivant l’adhésion au contrat quelle que soit la formule choisie. Cette limitation de garanties n’est toutefois pas appliquée sous certaines conditions prévues par cette notice d'information.",
-      "page": 6
-    },
-    {
-      "name": "Renvoi 2 - hospitalisation hors UE/AELE",
-      "description": "En cas d’hospitalisation dans un pays étranger (autre qu’un état membre de l’Union européenne ou de l'Association européenne de libre-échange), la prise en charge des frais de séjour par l’assureur sera en tout état de cause limitée aux bases indiquées.",
-      "page": 6
-    },
-    {
-      "name": "Renvoi 4 - renouvellement anticipé des équipements optiques",
-      "description": "Et, par période d’un an pour les enfants de moins de 16 ans et par période de 6 mois pour les enfants jusqu'à 6 ans en cas de mauvaise adaptation de la monture à la morphologie du visage de l’enfant entraînant une perte d’efficacité du verre correcteur ; et sans délai uniquement pour les verres pour les enfants de moins de 16 ans en cas d'évolution de la vue ou situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés. Les cas pour lesquels un renouvellement anticipé est prévu, figurent dans la liste mentionnée à l'article L. 165-1 du Code de la sécurité sociale.",
-      "page": 6
-    },
-    {
-      "name": "Renvoi 6 - réseau Sévéane, optique",
-      "description": "Cette garantie est accordée sous réserve de mention spécifique au certificat d’adhésion. En outre pour le poste Optique : l'intervention de l'assureur en remboursement des frais de lunettes est en tout état de cause limitée à la prise en charge d'un équipement complet chez un opticien membre du réseau Sévéane ou chez un opticien n'appartenant pas à ce réseau, dans les limites exposées dans les tableaux ci-dessus ; en ce qui concerne les lentilles correctrices prescrites médicalement prises en charge ou non par le RO, les remboursements prévus chez les opticiens membres du réseau Sévéane et ceux prévus chez les opticiens n'appartenant pas à ce réseau ne se cumulent pas.",
-      "page": 6
-    },
-    {
-      "name": "Renvoi 7 - réseau Sévéane, dentaire",
-      "description": "Cette garantie est accordée sous réserve de mention spécifique au certificat d’adhésion. En outre pour le poste Dentaire, les remboursements prévus chez les chirurgiens dentistes membres du réseau Sévéane et ceux prévus chez les professionnels de santé n'appartenant pas à ce réseau, ne se cumulent pas.",
-      "page": 6
-    },
-    {
-      "name": "Renvoi 8 - limites réglementaires pour l'équipement optique complet",
-      "description": "Limites pour l'équipement complet (ticket modérateur et remboursement du régime obligatoire de protection sociale inclus) : a) Minimum : 100 €/Maximum : 420 € dont 100 € au maximum pour la monture ; b) équipement comportant 1 verre mentionné au a) et 1 verre mentionné au c) : Minimum : 150 €/Maximum : 560 € dont 100 € au maximum pour la monture ; c) Minimum : 200 €/Maximum : 700 € dont 100 € au maximum pour la monture ; d) équipement comportant 1 verre mentionné au a) et 1 verre mentionné au f) : Minimum : 150 €/Maximum : 610 € dont 100 € au maximum pour la monture ; e) équipement comportant 1 verre mentionné au c) et 1 verre mentionné au f) : Minimum : 200 €/Maximum : 750 € dont 100 € au maximum pour la monture ; f) Minimum : 200 €/Maximum : 800 € dont 100 € au maximum pour la monture. Les catégories a), c) et f) sont définies par plages de dioptries.",
-      "page": 6
-    },
-    {
-      "name": "Renvoi 9 - forfait journalier hospitalier",
-      "description": "Cette prestation concerne uniquement le forfait journalier hospitalier facturé par les établissements de santé, et non pas celui facturé par les établissements médico-sociaux.",
-      "page": 6
-    },
-    {
-      "name": "Renvoi 10 - base des remboursements optique",
-      "description": "Les remboursements du poste Optique s'entendent Ticket Modérateur et remboursement du RO inclus.",
-      "page": 6
-    },
-    {
-      "name": "Renvoi 11 - une seule cure thermale par an",
-      "description": "Par dérogation à la notice d’information valant conditions générales, une seule cure thermale par personne et par an, prise en charge par le RO, est prise en considération pour le versement de cette indemnité.",
-      "page": 6
-    },
-    {
-      "name": "Base des garanties",
-      "description": "Les montants de garanties sont exprimés en complément des remboursements du Régime obligatoire de protection sociale. Les conditions et limites de remboursement exposées à la notice d’information valant conditions générales sont prises en considération dans le décompte des remboursements dus par l’assureur.",
-      "page": 2
-    },
-    {
-      "name": "Entreprise et autorité de contrôle",
-      "description": "Caisse Régionale d’Assurances Mutuelles Agricoles. Entreprise régie par le Code des assurances et soumise à l'Autorité de Contrôle Prudentiel et de Résolution (ACPR) - 4 place de Budapest - CS 92459 - 75436 Paris Cedex 09. Aucune caisse régionale nommément désignée ne figure au document.",
-      "page": 8
-    }
-  ],
-  "key_quotes": [
-    {
-      "quote": "Les montants de garanties sont exprimés en complément des remboursements du Régime obligatoire de protection sociale. \nLes conditions et limites de remboursement exposées à la notice d’information valant conditions générales sont prises en considération dans le décompte des remboursements dus \npar l’assureur.",
-      "context": "base de calcul des garanties",
-      "page": 2
-    },
-    {
-      "quote": "PMSS : \nPlafond Mensuel de la Sécurité sociale, soit 3428 € pour 2021; ainsi au 1er janvier 2021, 1% du PMSS est égal à 34,28 €.",
-      "context": "définition du PMSS",
-      "page": 2
-    },
-    {
-      "quote": "En application de la notice d’information valant conditions générales, les garanties « Honoraires » et « Actes chirurgicaux » sont limitées à 100% du TM pendant les trois premiers mois suivant \nl’adhésion au contrat quelle que soit la formule choisie. Cette limitation de garanties n’est toutefois pas appliquée sous certaines conditions prévues par cette notice d'information.",
-      "context": "limitation des trois premiers mois",
-      "page": 6
-    },
-    {
-      "quote": "En cas d’hospitalisation dans un pays étranger (autre qu’un état membre de l’Union européenne ou de l'Association européenne de libre-échange), la prise en charge des frais de séjour par l’assureur \nsera en tout état de cause limitée aux bases indiquées.",
-      "context": "hospitalisation hors UE/AELE",
-      "page": 6
-    },
-    {
-      "quote": "En outre pour le poste Optique, les dispositions suivantes sont applicables :\n- \u0007l'intervention de l'assureur en remboursement des frais de lunettes est en tout état de cause limitée à la prise en charge d'un équipement complet chez un opticien membre du réseau Sévéane ou \nchez un opticien n'appartenant pas à ce réseau, dans les limites exposées dans les tableaux ci-dessus.\n- \u0007en ce qui concerne les lentilles correctrices prescrites médicalement prises en charge ou non par le RO, les remboursements prévus chez les opticiens membres du réseau Sévéane et ceux prévus \nchez les opticiens n'appartenant pas à ce réseau ne se cumulent pas.",
-      "context": "réseau Sévéane optique : non-cumul",
-      "page": 6
-    },
-    {
-      "quote": "Par dérogation à la notice d’information valant conditions générales, une seule cure thermale par personne et par an, prise en charge par le RO, est prise en considération pour le versement de \ncette indemnité.",
-      "context": "une seule cure thermale par an",
-      "page": 6
-    },
-    {
-      "quote": "Caisse Régionale d’Assurances Mutuelles Agricoles\nEntreprise régie par le Code des assurances et soumise à l'Autorité de Contrôle Prudentiel \net de Résolution (ACPR) - 4 place de Budapest - CS 92459 - 75436 Paris Cedex 09",
-      "context": "entité porteuse du risque, non nommée",
-      "page": 8
-    },
-    {
-      "quote": "Prise en charge intégrale des verres sélectionnés dans la limite des montants minimum \net maximum prévus par la réglementation relative au contrat responsable et à la \ncouverture complémentaire santé minimale des salariés.8",
-      "context": "verres sélectionnés Sévéane",
-      "page": 5
-    }
-  ],
-  "gaps": [
-    "Document intégral (8 pages), non tronqué : le texte du prompt correspond octet pour octet au texte PyMuPDF du PDF local.",
-    "Le nom du produit est imprimé en capitales sur la couverture (« SANTÉ TNS », « TABLEAU DES GARANTIES ») ; il est enregistré ici tel qu'imprimé (« SANTÉ TNS Gamme Essentielle »). À normaliser en aval : des noms de produit ne différant que par la casse produisent le même nom de fichier de page et s'écrasent silencieusement.",
-    "Ce document n'est pas le contrat : c'est l'annexe 3 (tableau des garanties) à la notice d'information valant conditions générales. Les définitions contractuelles, les exclusions, la procédure de sinistre, la durée/résiliation, la prescription et les cotisations ne figurent pas dans ce PDF - ils sont renvoyés à la notice, qui n'est pas jointe. Les tableaux exclusions, obligations, claims_procedure, duration_and_cancellation, prescription_period et premium sont donc vides ou nuls sans que cela signifie leur absence du contrat.",
-    "Aucun assureur nommément désigné : la page 8 imprime seulement « Caisse Régionale d’Assurances Mutuelles Agricoles », sans identifier laquelle. Le document ne mentionne ni RCS, ni SIREN, ni adresse de la caisse.",
-    "Les limites sont conservées telles qu'imprimées, y compris les appels de renvoi collés aux valeurs (« 95 % BR1 », « 100 % FR9 », « Hospitalisation à l'étranger (RO français)2 ») : le chiffre final est un numéro de renvoi, pas une décimale.",
-    "Incohérences typographiques de l'assureur conservées telles quelles : « TM + 100% BR1 » (sans espace) en formule 5 pour les honoraires d'hospitalisation d'un médecin non adhérent alors que la ligne « Actes chirurgicaux » imprime « TM + 100 % BR1 » ; « 1% » en formule 2 pour le lit accompagnant ; « TM : Ticket modérateur tel que tel que défini aux conditions générales » (répétition) ; le poste maternité est intitulé « LE + MATERNITE » (probable troncature d'un intitulé plus long) ; la ligne « Prothèses non prises en charge par le RO » utilise « - » en formule 1 là où le reste du tableau utilise « _ ».",
-    "Ligne « Supplément pour traitement particulier des verres/pers. assurée » du bloc Sévéane : seuls quatre montants sont imprimés (30 €, 40 €, 50 €, 50 €) pour cinq colonnes de formules ; l'affectation aux formules n'est pas déterminable avec certitude et les montants sont donc listés en sub_limits sans numéro de formule.",
-    "Le bloc « OPTICIENS PARTENAIRES SEVEANE » ne donne pas de montant par formule pour les équipements hors 100% santé : la cellule fusionnée porte « Forfait lunettes parmi une sélection partenaire Sévéane » ; de même les trois lignes d'équipement du sous-bloc « Verres sélectionnés » ne portent qu'un montant unique (100 €, 150 €, 200 €) sans déclinaison par formule.",
-    "La page 7 est vide (aucun texte extractible).",
-    "La valeur du PMSS citée est celle de 2021 (3428 €) ; le document renvoie au site securite-sociale.fr pour son évolution.",
-    "target_audience laissé à null : le document ne définit aucune population assurable ; seul le sigle TNS du titre suggère une cible, ce que la règle interdit de déduire."
-  ]
+ "schema_version": "1.0",
+ "prompt_version": "1.1",
+ "country": "fr",
+ "insurer_slug": "groupama",
+ "insurer_name": "Groupama",
+ "product_name": "SANTÉ TNS Gamme Essentielle",
+ "branch": "sante",
+ "branch_code": null,
+ "document_type": "conditions_generales",
+ "language": "fr",
+ "target_audience": null,
+ "target_audience_note": "Le document est titré « SANTÉ TNS - Gamme Essentielle » et n'énonce nulle part la population éligible ; il ne développe pas le sigle TNS et ne décrit ni conditions d'adhésion ni statut professionnel requis.",
+ "reference": "Réf. 3350-230004-092021",
+ "edition_date": "092021",
+ "product_family": "Santé TNS",
+ "variant": "Gamme Essentielle",
+ "is_extension": true,
+ "extends": "Notice d’information valant conditions générales",
+ "superseded": null,
+ "source_url": "https://assets.ctfassets.net/7awcp71bzphk/TjU7ncvu2i6ApvMmCfd0j/9d1575199cee6408385a5e37aea1b417/tableau_de_garanties_compl__mentaire_sant___TNS.pdf",
+ "source_pdf": "sante-tns-gamme-essentielle-tableau-des-garanties-annexe-3-a-la-notice-dinformation-valant-conditions-generales-ref-3350-230004-092021-38b91083.pdf",
+ "source_sha256": "7b279a688a3d9b4e425025c0eca2fa2e834d83b972ae0f5b37f24008e1635366",
+ "source_pages": 8,
+ "fetched_at": "2026-07-30",
+ "extraction_model": "claude-code-subagent:scale",
+ "summary": "Annexe 3 à la notice d'information valant conditions générales du contrat santé « SANTÉ TNS - Gamme Essentielle » de Groupama : elle contient exclusivement le tableau des garanties, décliné en cinq formules (FORMULE 1 à FORMULE 5), pour les postes Hospitalisation, Maternité, Soins courants, Aides auditives, Optique, Dentaire, Prévention et santé au quotidien et télémédecine. Deux blocs supplémentaires donnent les niveaux applicables chez les opticiens et chirurgiens-dentistes partenaires du réseau Sévéane. Les montants sont exprimés en complément des remboursements du régime obligatoire, en % BR, % FR, % PMSS, TM ou en euros, et onze renvois précisent les limitations (délai de trois mois sur les honoraires et actes chirurgicaux, hospitalisation hors UE/AELE, non-cumul réseau/hors réseau, planchers et plafonds réglementaires optique).",
+ "definitions": [
+  {
+   "term": "BR",
+   "definition": "Base de remboursement telle que définie aux conditions générales.",
+   "page": 2
+  },
+  {
+   "term": "DPTAM",
+   "definition": "Dispositifs de Pratique Tarifaire Maîtrisée qui comprennent l’OPTAM (Option Pratique Tarifaire Maitrisée) et l’OPTAM-CO (Option Pratique Tarifaire Maîtrisée-Chirurgie et Obstétrique).",
+   "page": 2
+  },
+  {
+   "term": "FR",
+   "definition": "Frais réellement engagés par la personne assurée sous déduction du remboursement du RO.",
+   "page": 2
+  },
+  {
+   "term": "PMSS",
+   "definition": "Plafond Mensuel de la Sécurité sociale, soit 3428 € pour 2021; ainsi au 1er janvier 2021, 1% du PMSS est égal à 34,28 €. L’évolution de cette valeur peut être obtenue en consultant le site https://www.securite-sociale.fr, rubrique «la Sécu & vous» / Barèmes.",
+   "page": 2
+  },
+  {
+   "term": "TM",
+   "definition": "Ticket modérateur tel que tel que défini aux conditions générales. (répétition « tel que tel que » telle qu'imprimée)",
+   "page": 2
+  },
+  {
+   "term": "RO",
+   "definition": "Régime obligatoire de protection sociale tel que défini aux conditions générales.",
+   "page": 2
+  },
+  {
+   "term": "Equipements 100% santé",
+   "definition": "Tels que définis réglementairement et visés à l’article R. 871-2 du Code de la sécurité sociale. (renvoi 3)",
+   "page": 6
+  },
+  {
+   "term": "Verres unifocaux simples (renvoi 5)",
+   "definition": "Verres unifocaux sphériques dont la sphère est comprise entre -6,00 et +6,00 dioptries ; verres unifocaux sphéro-cylindriques dont la sphère est comprise entre -6,00 et 0 dioptries et dont le cylindre est inférieur ou égal à + 4,00 dioptries ; verres unifocaux sphéro-cylindriques dont la sphère est positive et dont la somme S (sphère + cylindre) est inférieure ou égale à 6,00 dioptries.",
+   "page": 6
+  }
+ ],
+ "coverages": [
+  {
+   "name": "Hospitalisation - Honoraires - médecin adhérent à un DPTAM",
+   "description": "Poste HOSPITALISATION : honoraires d'un médecin adhérent à un DPTAM.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : TM ; Formule 2 : 95 % BR1 ; Formule 3 : 120 % BR1 ; Formule 4 : 200 % BR1 ; Formule 5 : 300 % BR1",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Renvoi 1 : garanties « Honoraires » et « Actes chirurgicaux » limitées à 100% du TM pendant les trois premiers mois suivant l’adhésion au contrat (p. 6)"
+   ],
+   "page": 3
+  },
+  {
+   "name": "Hospitalisation - Honoraires - médecin non adhérent à un DPTAM",
+   "description": "Poste HOSPITALISATION : honoraires d'un médecin non adhérent à un DPTAM.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : TM ; Formule 2 : 75 % BR1 ; Formule 3 : 100 % BR1 ; Formule 4 : TM + 100 % BR1 ; Formule 5 : TM + 100% BR1",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Renvoi 1 : limitation à 100% du TM pendant les trois premiers mois suivant l’adhésion (p. 6)"
+   ],
+   "page": 3
+  },
+  {
+   "name": "Hospitalisation - Actes chirurgicaux - médecin adhérent à un DPTAM",
+   "description": "Poste HOSPITALISATION : actes chirurgicaux réalisés par un médecin adhérent à un DPTAM.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : TM ; Formule 2 : 95 % BR1 ; Formule 3 : 120 % BR1 ; Formule 4 : 200 % BR1 ; Formule 5 : 300 % BR1",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Renvoi 1 : limitation à 100% du TM pendant les trois premiers mois suivant l’adhésion (p. 6)"
+   ],
+   "page": 3
+  },
+  {
+   "name": "Hospitalisation - Actes chirurgicaux - médecin non adhérent à un DPTAM",
+   "description": "Poste HOSPITALISATION : actes chirurgicaux réalisés par un médecin non adhérent à un DPTAM.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : TM ; Formule 2 : 75 % BR1 ; Formule 3 : 100 % BR1 ; Formule 4 : TM + 100 % BR1 ; Formule 5 : TM + 100 % BR1",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Renvoi 1 : limitation à 100% du TM pendant les trois premiers mois suivant l’adhésion (p. 6)"
+   ],
+   "page": 3
+  },
+  {
+   "name": "Hospitalisation - Frais de séjour - conventionné",
+   "description": "Poste HOSPITALISATION : frais de séjour en établissement conventionné.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : 100 % FR ; Formule 2 : 100 % FR ; Formule 3 : 100 % FR ; Formule 4 : 100 % FR ; Formule 5 : 100 % FR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Hospitalisation - Frais de séjour - non conventionné",
+   "description": "Poste HOSPITALISATION : frais de séjour en établissement non conventionné.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : TM ; Formule 2 : TM ; Formule 3 : 100 % BR ; Formule 4 : 90 % FR ; Formule 5 : 90 % FR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Hospitalisation - Transport pris en charge par le RO",
+   "description": "Poste HOSPITALISATION : transport pris en charge par le régime obligatoire.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : TM ; Formule 2 : 50 % BR ; Formule 3 : 100 % BR ; Formule 4 : 200 % BR ; Formule 5 : 400 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Hospitalisation - Forfait journalier hospitalier",
+   "description": "Poste HOSPITALISATION : forfait journalier hospitalier.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : 100 % FR9 ; Formule 2 : 100 % FR9 ; Formule 3 : 100 % FR9 ; Formule 4 : 100 % FR9 ; Formule 5 : 100 % FR9",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Renvoi 9 : « Cette prestation concerne uniquement le forfait journalier hospitalier facturé par les établissements de santé, et non pas celui facturé par les établissements médico-sociaux. » (p. 6)"
+   ],
+   "page": 3
+  },
+  {
+   "name": "Hospitalisation - Chambre particulière en % du PMSS/jour",
+   "description": "Poste HOSPITALISATION : chambre particulière, exprimée en pourcentage du PMSS par jour.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : _ ; Formule 2 : 1,5 % ; Formule 3 : 2 % ; Formule 4 : 3 % ; Formule 5 : 3,5 %",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Hospitalisation - Lit + repas accompagnant en % du PMSS/jour",
+   "description": "Poste HOSPITALISATION : lit et repas de l'accompagnant, en pourcentage du PMSS par jour.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : _ ; Formule 2 : 1% ; Formule 3 : 1,5 % ; Formule 4 : 2,0 % ; Formule 5 : 2,5 %",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Hospitalisation à l'étranger (RO français)2",
+   "description": "Poste HOSPITALISATION : hospitalisation à l'étranger avec RO français.",
+   "is_optional": false,
+   "territorial_scope": "Étranger, avec régime obligatoire français",
+   "limits": "Formule 1 : TM ; Formule 2 : 75 % BR ; Formule 3 : 100 % BR ; Formule 4 : 145 % BR ; Formule 5 : 145 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Renvoi 2 : en cas d’hospitalisation dans un pays étranger autre qu’un État membre de l’Union européenne ou de l'Association européenne de libre-échange, la prise en charge des frais de séjour est limitée aux bases indiquées (p. 6)"
+   ],
+   "page": 3
+  },
+  {
+   "name": "Procréation médicale assistée non prise en charge par le RO/an/pers. assurée",
+   "description": "Poste « LE + MATERNITE » (intitulé tel qu'imprimé).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : _ ; Formule 2 : _ ; Formule 3 : 200 € ; Formule 4 : 200 € ; Formule 5 : 200 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Soins courants - Honoraires médicaux - médecin généraliste adhérent à un DPTAM",
+   "description": "Poste SOINS COURANTS : honoraires d'un médecin généraliste adhérent à un DPTAM.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : TM ; Formule 2 : TM ; Formule 3 : 120 % BR ; Formule 4 : 200 % BR ; Formule 5 : 400 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Soins courants - Honoraires médicaux - médecin généraliste non adhérent à un DPTAM",
+   "description": "Poste SOINS COURANTS : honoraires d'un médecin généraliste non adhérent à un DPTAM.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : TM ; Formule 2 : TM ; Formule 3 : 100 % BR ; Formule 4 : TM + 100 % BR ; Formule 5 : TM + 100 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Soins courants - Honoraires médicaux - médecin spécialiste adhérent à un DPTAM",
+   "description": "Poste SOINS COURANTS : honoraires d'un médecin spécialiste adhérent à un DPTAM.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : TM ; Formule 2 : 90 % BR ; Formule 3 : 120 % BR ; Formule 4 : 200 % BR ; Formule 5 : 400 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Soins courants - Honoraires médicaux - médecin spécialiste non adhérent à un DPTAM",
+   "description": "Poste SOINS COURANTS : honoraires d'un médecin spécialiste non adhérent à un DPTAM.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : TM ; Formule 2 : 70 % BR ; Formule 3 : 100 % BR ; Formule 4 : TM + 100 % BR ; Formule 5 : TM + 100 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Soins courants - Honoraires paramédicaux",
+   "description": "Poste SOINS COURANTS : honoraires paramédicaux.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : TM ; Formule 2 : TM ; Formule 3 : 100 % BR ; Formule 4 : 200 % BR ; Formule 5 : 400 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Soins courants - Analyses et examens de laboratoire",
+   "description": "Poste SOINS COURANTS : analyses et examens de laboratoire.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : TM ; Formule 2 : TM ; Formule 3 : 120 % BR ; Formule 4 : 200 % BR ; Formule 5 : 400 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Soins courants - Radiologie et petite chirurgie réalisées par un médecin adhérent à un DPTAM",
+   "description": "Poste SOINS COURANTS : radiologie et petite chirurgie réalisées par un médecin adhérent à un DPTAM.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : TM ; Formule 2 : TM ; Formule 3 : 120 % BR ; Formule 4 : 200 % BR ; Formule 5 : 400 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Soins courants - Radiologie et petite chirurgie réalisées par un médecin non adhérent à un DPTAM",
+   "description": "Poste SOINS COURANTS : radiologie et petite chirurgie réalisées par un médecin non adhérent à un DPTAM.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : TM ; Formule 2 : TM ; Formule 3 : 100 % BR ; Formule 4 : TM + 100 % BR ; Formule 5 : TM + 100 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Soins courants - Médicaments : pharmacie prescrite prise en charge par le RO",
+   "description": "Poste SOINS COURANTS : médicaments, pharmacie prescrite prise en charge par le RO.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : TM ; Formule 2 : TM ; Formule 3 : TM ; Formule 4 : TM ; Formule 5 : TM",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Soins courants - Matériel médical : appareillage (hors optique, dentaire et aides auditives)",
+   "description": "Poste SOINS COURANTS : matériel médical, appareillage hors optique, dentaire et aides auditives.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : TM ; Formule 2 : TM ; Formule 3 : 100 % BR ; Formule 4 : 200 % BR ; Formule 5 : 400 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Soins courants - Frais de transport pris en charge par le RO",
+   "description": "Poste SOINS COURANTS : frais de transport pris en charge par le RO.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : TM ; Formule 2 : 50 % BR ; Formule 3 : 100 % BR ; Formule 4 : 200 % BR ; Formule 5 : 400 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Soins courants - Chiropraxie et Ostéopathie/pers. assurée",
+   "description": "Poste SOINS COURANTS : séances de chiropraxie et d'ostéopathie par personne assurée.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : _ ; Formule 2 : 25€/séance-max. 2/an ; Formule 3 : 25€/séance-max. 3/an ; Formule 4 : 30€/séance-max. 3/an ; Formule 5 : 50€/séance-max. 3/an",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Soins courants - Consultation de diététicien/an/pers. assurée",
+   "description": "Poste SOINS COURANTS : consultation de diététicien par an et par personne assurée.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : _ ; Formule 2 : _ ; Formule 3 : 28 € ; Formule 4 : 28 € ; Formule 5 : 28 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Cures thermales prises en charge par le RO (y compris hospitalisation) - Frais d’hospitalisation et actes médicaux",
+   "description": "Poste SOINS COURANTS : cures thermales prises en charge par le RO, frais d'hospitalisation et actes médicaux.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : TM ; Formule 2 : TM ; Formule 3 : TM ; Formule 4 : TM ; Formule 5 : TM",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 3
+  },
+  {
+   "name": "Cures thermales prises en charge par le RO - Frais supplémentaires hébergement et transport/an/pers. assurée11",
+   "description": "Poste SOINS COURANTS : frais supplémentaires d'hébergement et de transport liés à la cure thermale.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : _ ; Formule 2 : _ ; Formule 3 : + 125 € ; Formule 4 : + 175 € ; Formule 5 : + 175 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Renvoi 11 : par dérogation à la notice d’information valant conditions générales, une seule cure thermale par personne et par an, prise en charge par le RO, est prise en considération pour le versement de cette indemnité (p. 6)"
+   ],
+   "page": 3
+  },
+  {
+   "name": "Aides auditives - Equipements 100% santé3",
+   "description": "Poste AIDES AUDITIVES : prise en charge d'une aide auditive par oreille par période de 4 ans ; équipements du panier 100% santé.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [
+    "Pris en charge dans la limite des prix limites de vente (PLV)"
+   ],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'une aide auditive par oreille par période de 4 ans",
+    "Renvoi 3 : équipements « tels que définis réglementairement et visés à l’article R. 871-2 du Code de la sécurité sociale » (p. 6)"
+   ],
+   "page": 4
+  },
+  {
+   "name": "Aides auditives - Equipements hors 100% santé adulte (personne âgée de 20 ans et plus)",
+   "description": "Poste AIDES AUDITIVES : équipements hors 100% santé pour un adulte.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : TM ; Formule 2 : 100 % BR ; Formule 3 : 100 % BR ; Formule 4 : 100 % BR ; Formule 5 : 250 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'une aide auditive par oreille par période de 4 ans"
+   ],
+   "page": 4
+  },
+  {
+   "name": "Aides auditives - Forfait supplémentaire/oreille/4 ans/adulte (hors accessoires)",
+   "description": "Poste AIDES AUDITIVES : forfait supplémentaire par oreille et par période de 4 ans pour un adulte, hors accessoires.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : _ ; Formule 2 : _ ; Formule 3 : + 150 € ; Formule 4 : + 300 € ; Formule 5 : + 400 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 4
+  },
+  {
+   "name": "Aides auditives - Equipements hors 100% santé enfant (personne âgée de moins de 20 ans)",
+   "description": "Poste AIDES AUDITIVES : équipements hors 100% santé pour un enfant de moins de 20 ans.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : TM ; Formule 2 : TM ; Formule 3 : TM ; Formule 4 : TM ; Formule 5 : TM",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'une aide auditive par oreille par période de 4 ans"
+   ],
+   "page": 4
+  },
+  {
+   "name": "Aides auditives - Forfait supplémentaire/oreille/4 ans/enfant (hors accessoires)",
+   "description": "Poste AIDES AUDITIVES : forfait supplémentaire par oreille et par période de 4 ans pour un enfant, hors accessoires.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : _ ; Formule 2 : _ ; Formule 3 : + 100 € ; Formule 4 : + 200 € ; Formule 5 : + 300 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 4
+  },
+  {
+   "name": "Aides auditives - Accessoires pris en charge par le RO",
+   "description": "Poste AIDES AUDITIVES : accessoires pris en charge par le RO.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : TM ; Formule 2 : TM ; Formule 3 : TM ; Formule 4 : TM ; Formule 5 : TM",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 4
+  },
+  {
+   "name": "Optique - Equipements 100% santé3",
+   "description": "Poste OPTIQUE : prise en charge d'un équipement (une monture et deux verres) par période de deux ans pour les adultes et enfants de 16 ans et plus ; équipements du panier 100% santé.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [
+    "Pris en charge dans la limite des Prix Limites de Vente (PLV)"
+   ],
+   "deductible": null,
+   "conditions": [
+    "Prise en charge d'un équipement (une monture et deux verres) par période de deux ans pour les adultes et enfants de 16 ans et plus (sauf évolution de la vue, un par an, et sauf situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés, sans délai uniquement pour les verres)",
+    "Renvoi 10 : « Les remboursements du poste Optique s'entendent Ticket Modérateur et remboursement du RO inclus. » (p. 6)"
+   ],
+   "page": 4
+  },
+  {
+   "name": "Optique - Equipements hors 100% santé : équipement à verres unifocaux simples5",
+   "description": "Poste OPTIQUE : équipement hors 100% santé à verres unifocaux simples (dont maximum 100 € pour la monture).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : 100 € ; Formule 2 : 270 € ; Formule 3 : 320 € ; Formule 4 : 380 € ; Formule 5 : 420 €",
+   "sub_limits": [
+    "dont maximum 100 € pour la monture"
+   ],
+   "deductible": null,
+   "conditions": [
+    "Renvoi 5 : définition des verres unifocaux simples par plages de dioptries (p. 6)"
+   ],
+   "page": 4
+  },
+  {
+   "name": "Optique - Equipements hors 100% santé : équipement comportant 1 verre unifocal simple et un autre type de verre",
+   "description": "Poste OPTIQUE : équipement hors 100% santé mixte (dont maximum 100 € pour la monture).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : 150 € ; Formule 2 : 285 € ; Formule 3 : 350 € ; Formule 4 : 425 € ; Formule 5 : 545 €",
+   "sub_limits": [
+    "dont maximum 100 € pour la monture"
+   ],
+   "deductible": null,
+   "conditions": [],
+   "page": 4
+  },
+  {
+   "name": "Optique - Equipements hors 100% santé : tout autre équipement",
+   "description": "Poste OPTIQUE : tout autre équipement hors 100% santé (dont maximum 100 € pour la monture).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : 200 € ; Formule 2 : 300 € ; Formule 3 : 380 € ; Formule 4 : 470 € ; Formule 5 : 670 €",
+   "sub_limits": [
+    "dont maximum 100 € pour la monture"
+   ],
+   "deductible": null,
+   "conditions": [],
+   "page": 4
+  },
+  {
+   "name": "Optique - Prestation d'adaptation de la prescription médicale de verre correcteur par l'opticien",
+   "description": "Poste OPTIQUE : prestation d'adaptation de la prescription médicale de verre correcteur réalisée par l'opticien.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : TM ; Formule 2 : TM ; Formule 3 : TM ; Formule 4 : TM ; Formule 5 : TM",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 4
+  },
+  {
+   "name": "Optique - Lentilles prises en charge par le RO/an/pers. assurée",
+   "description": "Poste OPTIQUE : lentilles prises en charge par le RO, par an et par personne assurée ; la ligne « - avec un minimum de » porte la valeur TM dans les cinq formules.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : 100 € / avec un minimum de TM ; Formule 2 : 6 % PMSS / avec un minimum de TM ; Formule 3 : 8 % PMSS / avec un minimum de TM ; Formule 4 : 8 % PMSS / avec un minimum de TM ; Formule 5 : 10 % PMSS / avec un minimum de TM",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 4
+  },
+  {
+   "name": "Optique - Lentilles correctrices prescrites non prises en charge par le RO/an/pers. assurée",
+   "description": "Poste OPTIQUE : lentilles correctrices prescrites mais non prises en charge par le RO.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : _ ; Formule 2 : _ ; Formule 3 : 5 % PMSS ; Formule 4 : 6 % PMSS ; Formule 5 : 10 % PMSS",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 4
+  },
+  {
+   "name": "Optique - Chirurgie réfractive (traitement des corrections visuelles) /an/pers. assurée",
+   "description": "Poste OPTIQUE : chirurgie réfractive, par an et par personne assurée.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : _ ; Formule 2 : _ ; Formule 3 : 250 € ; Formule 4 : 350 € ; Formule 5 : 450 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 4
+  },
+  {
+   "name": "Dentaire - Soins et prothèses 100% santé3",
+   "description": "Poste DENTAIRE : soins et prothèses du panier 100% santé.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [
+    "Pris en charge dans le respect des honoraires limites de facturation"
+   ],
+   "deductible": null,
+   "conditions": [],
+   "page": 4
+  },
+  {
+   "name": "Dentaire - Soins et prothèses hors 100% santé : Soins",
+   "description": "Poste DENTAIRE : soins hors 100% santé.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : TM ; Formule 2 : TM ; Formule 3 : TM ; Formule 4 : TM ; Formule 5 : TM",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 4
+  },
+  {
+   "name": "Dentaire - Soins et prothèses hors 100% santé : Inlays/Onlays",
+   "description": "Poste DENTAIRE : inlays/onlays hors 100% santé.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : TM ; Formule 2 : 75 % BR ; Formule 3 : 200 % BR ; Formule 4 : 300 % BR ; Formule 5 : 400 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 4
+  },
+  {
+   "name": "Dentaire - Prothèses prises en charge par le RO",
+   "description": "Poste DENTAIRE : prothèses hors 100% santé prises en charge par le RO.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : TM + 25 % BR ; Formule 2 : 100 % BR ; Formule 3 : 200 % BR ; Formule 4 : 300 % BR ; Formule 5 : 400 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 4
+  },
+  {
+   "name": "Dentaire - Prothèses non prises en charge par le RO/an/pers. assurée",
+   "description": "Poste DENTAIRE : prothèses non prises en charge par le RO, par an et par personne assurée.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : - ; Formule 2 : 100 € ; Formule 3 : 200 € ; Formule 4 : 300 € ; Formule 5 : 400 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 4
+  },
+  {
+   "name": "Dentaire - Parodontologie non prise en charge par le RO/an/pers. assurée",
+   "description": "Poste DENTAIRE : parodontologie non prise en charge par le RO.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : 50 € ; Formule 2 : 50 € ; Formule 3 : 75 € ; Formule 4 : 100 € ; Formule 5 : 200 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 4
+  },
+  {
+   "name": "Dentaire - Implantologie non prise en charge par le RO/an/pers. assurée",
+   "description": "Poste DENTAIRE : implantologie non prise en charge par le RO.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : 50 € ; Formule 2 : 100 € ; Formule 3 : 200 € ; Formule 4 : 250 € ; Formule 5 : 350 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 4
+  },
+  {
+   "name": "Dentaire - Orthodontie prise en charge par le RO",
+   "description": "Poste DENTAIRE : orthodontie prise en charge par le RO.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : TM + 25 % BR ; Formule 2 : 100 % BR ; Formule 3 : 200 % BR ; Formule 4 : 250 % BR ; Formule 5 : 400 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 4
+  },
+  {
+   "name": "Dentaire - Orthodontie non prise en charge par le RO/an/pers. assurée",
+   "description": "Poste DENTAIRE : orthodontie non prise en charge par le RO.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : _ ; Formule 2 : _ ; Formule 3 : 200 € ; Formule 4 : 300 € ; Formule 5 : 450 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 4
+  },
+  {
+   "name": "Prévention et santé au quotidien - Moyens de contraception et vaccins prescrits non remboursés par le RO/an/pers. assurée",
+   "description": "Poste PREVENTION ET SANTE AU QUOTIDIEN : moyens de contraception et vaccins prescrits non remboursés par le RO.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : _ ; Formule 2 : _ ; Formule 3 : 50 € ; Formule 4 : 60 € ; Formule 5 : 60 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 4
+  },
+  {
+   "name": "Prévention et santé au quotidien - Sevrage tabagique (substituts nicotiniques ou médicaments prescrits non remboursés par le RO)/an/pers. assurée",
+   "description": "Poste PREVENTION ET SANTE AU QUOTIDIEN : sevrage tabagique.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : _ ; Formule 2 : 50 € ; Formule 3 : 50 € ; Formule 4 : 50 € ; Formule 5 : 50 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 4
+  },
+  {
+   "name": "Prévention et santé au quotidien - Actes de prévention pris en charge par le RO",
+   "description": "Poste PREVENTION ET SANTE AU QUOTIDIEN : actes de prévention pris en charge par le RO.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : Inclus ; Formule 2 : Inclus ; Formule 3 : Inclus ; Formule 4 : Inclus ; Formule 5 : Inclus",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 4
+  },
+  {
+   "name": "Assistance/Info Santé",
+   "description": "Poste PREVENTION ET SANTE AU QUOTIDIEN : Assistance/Info Santé.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : Inclus ; Formule 2 : Inclus ; Formule 3 : Inclus ; Formule 4 : Inclus ; Formule 5 : Inclus",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 4
+  },
+  {
+   "name": "Tiers payant généralisé",
+   "description": "Poste PREVENTION ET SANTE AU QUOTIDIEN : tiers payant généralisé.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : Inclus ; Formule 2 : Inclus ; Formule 3 : Inclus ; Formule 4 : Inclus ; Formule 5 : Inclus",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 4
+  },
+  {
+   "name": "Solution(s) de télémédecine proposée(s) par l'assureur",
+   "description": "Solution(s) de télémédecine proposée(s) par l'assureur, identiques dans les cinq formules.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : Limité à 6 téléconsultations/an/pers. assurée de + de 18 ans ; Formule 2 : Limité à 6 téléconsultations/an/pers. assurée de + de 18 ans ; Formule 3 : Limité à 6 téléconsultations/an/pers. assurée de + de 18 ans ; Formule 4 : Limité à 6 téléconsultations/an/pers. assurée de + de 18 ans ; Formule 5 : Limité à 6 téléconsultations/an/pers. assurée de + de 18 ans",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 5
+  },
+  {
+   "name": "Opticiens partenaires Sévéane6 - Equipements 100% santé3",
+   "description": "Réseau OPTICIENS PARTENAIRES SEVEANE : équipements du panier 100% santé.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [
+    "Pris en charge dans la limite des prix limites de vente (PLV)"
+   ],
+   "deductible": null,
+   "conditions": [
+    "Renvoi 6 : « Cette garantie est accordée sous réserve de mention spécifique au certificat d’adhésion. » (p. 6)"
+   ],
+   "page": 5
+  },
+  {
+   "name": "Opticiens partenaires Sévéane6 - Equipements hors 100% santé : Forfait lunettes parmi une sélection partenaire Sévéane",
+   "description": "Réseau OPTICIENS PARTENAIRES SEVEANE : équipements hors 100% santé (dont maximum 100 € pour la monture) ; la cellule couvrant les cinq formules porte « Forfait lunettes parmi une sélection partenaire Sévéane ».",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [
+    "dont maximum 100 € pour la monture"
+   ],
+   "deductible": null,
+   "conditions": [],
+   "page": 5
+  },
+  {
+   "name": "Opticiens partenaires Sévéane6 - Supplément pour traitement particulier des verres/pers. assurée",
+   "description": "Réseau OPTICIENS PARTENAIRES SEVEANE : supplément pour traitement particulier des verres. Quatre montants seulement sont imprimés sur cette ligne (30 €, 40 €, 50 €, 50 €).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [
+    "30 €",
+    "40 €",
+    "50 €",
+    "50 €"
+   ],
+   "deductible": null,
+   "conditions": [],
+   "page": 5
+  },
+  {
+   "name": "Opticiens partenaires Sévéane6 - Verres sélectionnés par l’assureur et Sévéane",
+   "description": "Réseau OPTICIENS PARTENAIRES SEVEANE : « Prise en charge intégrale des verres sélectionnés dans la limite des montants minimum et maximum prévus par la réglementation relative au contrat responsable et à la couverture complémentaire santé minimale des salariés.8 » Les trois lignes d'équipement portent un montant unique : 100 € (verres unifocaux simples5), 150 € (1 verre unifocal simple et un autre type de verre), 200 € (tout autre équipement).",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [
+    "- équipement à verres unifocaux simples5 : 100 €",
+    "- équipement comportant 1 verre unifocal simple et un autre type de verre : 150 €",
+    "- tout autre équipement : 200 €"
+   ],
+   "deductible": null,
+   "conditions": [
+    "Renvoi 8 : limites pour l'équipement complet, ticket modérateur et remboursement du régime obligatoire inclus, détaillées par catégorie de verres a) à f) (p. 6)"
+   ],
+   "page": 5
+  },
+  {
+   "name": "Opticiens partenaires Sévéane6 - Lentilles prises en charge par le RO/an/pers. assurée",
+   "description": "Réseau OPTICIENS PARTENAIRES SEVEANE : lentilles prises en charge par le RO ; la ligne « - avec un minimum de » porte la valeur TM dans les cinq formules.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : 100 € / avec un minimum de TM ; Formule 2 : 6 % PMSS / avec un minimum de TM ; Formule 3 : 8 % PMSS / avec un minimum de TM ; Formule 4 : 8 % PMSS / avec un minimum de TM ; Formule 5 : 10 % PMSS / avec un minimum de TM",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 5
+  },
+  {
+   "name": "Opticiens partenaires Sévéane6 - Lentilles correctrices prescrites non prises en charge par le RO/an/pers. assurée",
+   "description": "Réseau OPTICIENS PARTENAIRES SEVEANE : lentilles correctrices prescrites non prises en charge par le RO.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : _ ; Formule 2 : _ ; Formule 3 : 5 % PMSS ; Formule 4 : 6 % PMSS ; Formule 5 : 10 % PMSS",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 5
+  },
+  {
+   "name": "Opticiens partenaires Sévéane6 - Chirurgie réfractive (traitement des corrections visuelles) /an/pers. assurée",
+   "description": "Réseau OPTICIENS PARTENAIRES SEVEANE : chirurgie réfractive.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : _ ; Formule 2 : _ ; Formule 3 : 250 € ; Formule 4 : 350 € ; Formule 5 : 450 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 5
+  },
+  {
+   "name": "Dentistes partenaires Sévéane7 - Soins et prothèses 100% santé3",
+   "description": "Réseau DENTISTES PARTENAIRES SEVEANE : soins et prothèses du panier 100% santé.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": null,
+   "sub_limits": [
+    "Pris en charge dans le respect des honoraires limites de facturation"
+   ],
+   "deductible": null,
+   "conditions": [
+    "Renvoi 7 : « Cette garantie est accordée sous réserve de mention spécifique au certificat d’adhésion. » (p. 6)"
+   ],
+   "page": 5
+  },
+  {
+   "name": "Dentistes partenaires Sévéane7 - Soins et prothèses hors 100% santé : Soins",
+   "description": "Réseau DENTISTES PARTENAIRES SEVEANE : soins hors 100% santé.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : TM ; Formule 2 : TM ; Formule 3 : TM ; Formule 4 : TM ; Formule 5 : TM",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 5
+  },
+  {
+   "name": "Dentistes partenaires Sévéane7 - Soins et prothèses hors 100% santé : Inlays/Onlays",
+   "description": "Réseau DENTISTES PARTENAIRES SEVEANE : inlays/onlays hors 100% santé.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : TM ; Formule 2 : 100 % BR ; Formule 3 : 225 % BR ; Formule 4 : 325 % BR ; Formule 5 : 425 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 5
+  },
+  {
+   "name": "Dentistes partenaires Sévéane7 - Prothèses prises en charge par le RO",
+   "description": "Réseau DENTISTES PARTENAIRES SEVEANE : prothèses prises en charge par le RO.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : TM + 25 % BR ; Formule 2 : 125 % BR ; Formule 3 : 225 % BR ; Formule 4 : 325 % BR ; Formule 5 : 425 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 5
+  },
+  {
+   "name": "Dentistes partenaires Sévéane7 - Prothèses non prises en charge par le RO/an/pers. assurée",
+   "description": "Réseau DENTISTES PARTENAIRES SEVEANE : prothèses non prises en charge par le RO.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : - ; Formule 2 : 100 € ; Formule 3 : 200 € ; Formule 4 : 300 € ; Formule 5 : 400 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 5
+  },
+  {
+   "name": "Dentistes partenaires Sévéane7 - Parodontologie non prise en charge par le RO/an/pers. assurée",
+   "description": "Réseau DENTISTES PARTENAIRES SEVEANE : parodontologie non prise en charge par le RO.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : 50 € ; Formule 2 : 65 € ; Formule 3 : 100 € ; Formule 4 : 130 € ; Formule 5 : 260 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 5
+  },
+  {
+   "name": "Dentistes partenaires Sévéane7 - Implantologie non prise en charge par le RO/an/pers. assurée",
+   "description": "Réseau DENTISTES PARTENAIRES SEVEANE : implantologie non prise en charge par le RO.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : 50 € ; Formule 2 : 130 € ; Formule 3 : 260 € ; Formule 4 : 325 € ; Formule 5 : 455 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 5
+  },
+  {
+   "name": "Dentistes partenaires Sévéane7 - Orthodontie prise en charge par le RO",
+   "description": "Réseau DENTISTES PARTENAIRES SEVEANE : orthodontie prise en charge par le RO.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : TM + 25 % BR ; Formule 2 : 100 % BR ; Formule 3 : 200 % BR ; Formule 4 : 250 % BR ; Formule 5 : 400 % BR",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 5
+  },
+  {
+   "name": "Dentistes partenaires Sévéane7 - Orthodontie non prise en charge par le RO/an/pers. assurée",
+   "description": "Réseau DENTISTES PARTENAIRES SEVEANE : orthodontie non prise en charge par le RO.",
+   "is_optional": false,
+   "territorial_scope": null,
+   "limits": "Formule 1 : _ ; Formule 2 : _ ; Formule 3 : 200 € ; Formule 4 : 300 € ; Formule 5 : 450 €",
+   "sub_limits": [],
+   "deductible": null,
+   "conditions": [],
+   "page": 5
+  }
+ ],
+ "exclusions": [],
+ "deductibles": null,
+ "waiting_periods": [
+  {
+   "coverage": "Honoraires et Actes chirurgicaux (poste Hospitalisation)",
+   "duration": "les trois premiers mois suivant l’adhésion au contrat",
+   "description": "En application de la notice d’information valant conditions générales, les garanties « Honoraires » et « Actes chirurgicaux » sont limitées à 100% du TM pendant les trois premiers mois suivant l’adhésion au contrat quelle que soit la formule choisie. Cette limitation de garanties n’est toutefois pas appliquée sous certaines conditions prévues par cette notice d'information.",
+   "page": 6
+  }
+ ],
+ "obligations": [],
+ "claims_procedure": [],
+ "duration_and_cancellation": null,
+ "prescription_period": null,
+ "premium": null,
+ "special_conditions": [
+  {
+   "name": "Renvoi 1 - limitation des trois premiers mois",
+   "description": "En application de la notice d’information valant conditions générales, les garanties « Honoraires » et « Actes chirurgicaux » sont limitées à 100% du TM pendant les trois premiers mois suivant l’adhésion au contrat quelle que soit la formule choisie. Cette limitation de garanties n’est toutefois pas appliquée sous certaines conditions prévues par cette notice d'information.",
+   "page": 6
+  },
+  {
+   "name": "Renvoi 2 - hospitalisation hors UE/AELE",
+   "description": "En cas d’hospitalisation dans un pays étranger (autre qu’un état membre de l’Union européenne ou de l'Association européenne de libre-échange), la prise en charge des frais de séjour par l’assureur sera en tout état de cause limitée aux bases indiquées.",
+   "page": 6
+  },
+  {
+   "name": "Renvoi 4 - renouvellement anticipé des équipements optiques",
+   "description": "Et, par période d’un an pour les enfants de moins de 16 ans et par période de 6 mois pour les enfants jusqu'à 6 ans en cas de mauvaise adaptation de la monture à la morphologie du visage de l’enfant entraînant une perte d’efficacité du verre correcteur ; et sans délai uniquement pour les verres pour les enfants de moins de 16 ans en cas d'évolution de la vue ou situation médicale particulière entrant dans la liste des cas de renouvellements anticipés autorisés. Les cas pour lesquels un renouvellement anticipé est prévu, figurent dans la liste mentionnée à l'article L. 165-1 du Code de la sécurité sociale.",
+   "page": 6
+  },
+  {
+   "name": "Renvoi 6 - réseau Sévéane, optique",
+   "description": "Cette garantie est accordée sous réserve de mention spécifique au certificat d’adhésion. En outre pour le poste Optique : l'intervention de l'assureur en remboursement des frais de lunettes est en tout état de cause limitée à la prise en charge d'un équipement complet chez un opticien membre du réseau Sévéane ou chez un opticien n'appartenant pas à ce réseau, dans les limites exposées dans les tableaux ci-dessus ; en ce qui concerne les lentilles correctrices prescrites médicalement prises en charge ou non par le RO, les remboursements prévus chez les opticiens membres du réseau Sévéane et ceux prévus chez les opticiens n'appartenant pas à ce réseau ne se cumulent pas.",
+   "page": 6
+  },
+  {
+   "name": "Renvoi 7 - réseau Sévéane, dentaire",
+   "description": "Cette garantie est accordée sous réserve de mention spécifique au certificat d’adhésion. En outre pour le poste Dentaire, les remboursements prévus chez les chirurgiens dentistes membres du réseau Sévéane et ceux prévus chez les professionnels de santé n'appartenant pas à ce réseau, ne se cumulent pas.",
+   "page": 6
+  },
+  {
+   "name": "Renvoi 8 - limites réglementaires pour l'équipement optique complet",
+   "description": "Limites pour l'équipement complet (ticket modérateur et remboursement du régime obligatoire de protection sociale inclus) : a) Minimum : 100 €/Maximum : 420 € dont 100 € au maximum pour la monture ; b) équipement comportant 1 verre mentionné au a) et 1 verre mentionné au c) : Minimum : 150 €/Maximum : 560 € dont 100 € au maximum pour la monture ; c) Minimum : 200 €/Maximum : 700 € dont 100 € au maximum pour la monture ; d) équipement comportant 1 verre mentionné au a) et 1 verre mentionné au f) : Minimum : 150 €/Maximum : 610 € dont 100 € au maximum pour la monture ; e) équipement comportant 1 verre mentionné au c) et 1 verre mentionné au f) : Minimum : 200 €/Maximum : 750 € dont 100 € au maximum pour la monture ; f) Minimum : 200 €/Maximum : 800 € dont 100 € au maximum pour la monture. Les catégories a), c) et f) sont définies par plages de dioptries.",
+   "page": 6
+  },
+  {
+   "name": "Renvoi 9 - forfait journalier hospitalier",
+   "description": "Cette prestation concerne uniquement le forfait journalier hospitalier facturé par les établissements de santé, et non pas celui facturé par les établissements médico-sociaux.",
+   "page": 6
+  },
+  {
+   "name": "Renvoi 10 - base des remboursements optique",
+   "description": "Les remboursements du poste Optique s'entendent Ticket Modérateur et remboursement du RO inclus.",
+   "page": 6
+  },
+  {
+   "name": "Renvoi 11 - une seule cure thermale par an",
+   "description": "Par dérogation à la notice d’information valant conditions générales, une seule cure thermale par personne et par an, prise en charge par le RO, est prise en considération pour le versement de cette indemnité.",
+   "page": 6
+  },
+  {
+   "name": "Base des garanties",
+   "description": "Les montants de garanties sont exprimés en complément des remboursements du Régime obligatoire de protection sociale. Les conditions et limites de remboursement exposées à la notice d’information valant conditions générales sont prises en considération dans le décompte des remboursements dus par l’assureur.",
+   "page": 2
+  },
+  {
+   "name": "Entreprise et autorité de contrôle",
+   "description": "Caisse Régionale d’Assurances Mutuelles Agricoles. Entreprise régie par le Code des assurances et soumise à l'Autorité de Contrôle Prudentiel et de Résolution (ACPR) - 4 place de Budapest - CS 92459 - 75436 Paris Cedex 09. Aucune caisse régionale nommément désignée ne figure au document.",
+   "page": 8
+  }
+ ],
+ "key_quotes": [
+  {
+   "quote": "Les montants de garanties sont exprimés en complément des remboursements du Régime obligatoire de protection sociale. \nLes conditions et limites de remboursement exposées à la notice d’information valant conditions générales sont prises en considération dans le décompte des remboursements dus \npar l’assureur.",
+   "context": "base de calcul des garanties",
+   "page": 2
+  },
+  {
+   "quote": "PMSS : \nPlafond Mensuel de la Sécurité sociale, soit 3428 € pour 2021; ainsi au 1er janvier 2021, 1% du PMSS est égal à 34,28 €.",
+   "context": "définition du PMSS",
+   "page": 2
+  },
+  {
+   "quote": "En application de la notice d’information valant conditions générales, les garanties « Honoraires » et « Actes chirurgicaux » sont limitées à 100% du TM pendant les trois premiers mois suivant \nl’adhésion au contrat quelle que soit la formule choisie. Cette limitation de garanties n’est toutefois pas appliquée sous certaines conditions prévues par cette notice d'information.",
+   "context": "limitation des trois premiers mois",
+   "page": 6
+  },
+  {
+   "quote": "En cas d’hospitalisation dans un pays étranger (autre qu’un état membre de l’Union européenne ou de l'Association européenne de libre-échange), la prise en charge des frais de séjour par l’assureur \nsera en tout état de cause limitée aux bases indiquées.",
+   "context": "hospitalisation hors UE/AELE",
+   "page": 6
+  },
+  {
+   "quote": "En outre pour le poste Optique, les dispositions suivantes sont applicables :\n- \u0007l'intervention de l'assureur en remboursement des frais de lunettes est en tout état de cause limitée à la prise en charge d'un équipement complet chez un opticien membre du réseau Sévéane ou \nchez un opticien n'appartenant pas à ce réseau, dans les limites exposées dans les tableaux ci-dessus.\n- \u0007en ce qui concerne les lentilles correctrices prescrites médicalement prises en charge ou non par le RO, les remboursements prévus chez les opticiens membres du réseau Sévéane et ceux prévus \nchez les opticiens n'appartenant pas à ce réseau ne se cumulent pas.",
+   "context": "réseau Sévéane optique : non-cumul",
+   "page": 6
+  },
+  {
+   "quote": "Par dérogation à la notice d’information valant conditions générales, une seule cure thermale par personne et par an, prise en charge par le RO, est prise en considération pour le versement de \ncette indemnité.",
+   "context": "une seule cure thermale par an",
+   "page": 6
+  },
+  {
+   "quote": "Caisse Régionale d’Assurances Mutuelles Agricoles\nEntreprise régie par le Code des assurances et soumise à l'Autorité de Contrôle Prudentiel \net de Résolution (ACPR) - 4 place de Budapest - CS 92459 - 75436 Paris Cedex 09",
+   "context": "entité porteuse du risque, non nommée",
+   "page": 8
+  },
+  {
+   "quote": "Prise en charge intégrale des verres sélectionnés dans la limite des montants minimum \net maximum prévus par la réglementation relative au contrat responsable et à la \ncouverture complémentaire santé minimale des salariés.8",
+   "context": "verres sélectionnés Sévéane",
+   "page": 5
+  }
+ ],
+ "gaps": [
+  "Document intégral (8 pages), non tronqué : le texte du prompt correspond octet pour octet au texte PyMuPDF du PDF local.",
+  "Le nom du produit est imprimé en capitales sur la couverture (« SANTÉ TNS », « TABLEAU DES GARANTIES ») ; il est enregistré ici tel qu'imprimé (« SANTÉ TNS Gamme Essentielle »). À normaliser en aval : des noms de produit ne différant que par la casse produisent le même nom de fichier de page et s'écrasent silencieusement.",
+  "Ce document n'est pas le contrat : c'est l'annexe 3 (tableau des garanties) à la notice d'information valant conditions générales. Les définitions contractuelles, les exclusions, la procédure de sinistre, la durée/résiliation, la prescription et les cotisations ne figurent pas dans ce PDF - ils sont renvoyés à la notice, qui n'est pas jointe. Les tableaux exclusions, obligations, claims_procedure, duration_and_cancellation, prescription_period et premium sont donc vides ou nuls sans que cela signifie leur absence du contrat.",
+  "Aucun assureur nommément désigné : la page 8 imprime seulement « Caisse Régionale d’Assurances Mutuelles Agricoles », sans identifier laquelle. Le document ne mentionne ni RCS, ni SIREN, ni adresse de la caisse.",
+  "Les limites sont conservées telles qu'imprimées, y compris les appels de renvoi collés aux valeurs (« 95 % BR1 », « 100 % FR9 », « Hospitalisation à l'étranger (RO français)2 ») : le chiffre final est un numéro de renvoi, pas une décimale.",
+  "Incohérences typographiques de l'assureur conservées telles quelles : « TM + 100% BR1 » (sans espace) en formule 5 pour les honoraires d'hospitalisation d'un médecin non adhérent alors que la ligne « Actes chirurgicaux » imprime « TM + 100 % BR1 » ; « 1% » en formule 2 pour le lit accompagnant ; « TM : Ticket modérateur tel que tel que défini aux conditions générales » (répétition) ; le poste maternité est intitulé « LE + MATERNITE » (probable troncature d'un intitulé plus long) ; la ligne « Prothèses non prises en charge par le RO » utilise « - » en formule 1 là où le reste du tableau utilise « _ ».",
+  "Ligne « Supplément pour traitement particulier des verres/pers. assurée » du bloc Sévéane : seuls quatre montants sont imprimés (30 €, 40 €, 50 €, 50 €) pour cinq colonnes de formules ; l'affectation aux formules n'est pas déterminable avec certitude et les montants sont donc listés en sub_limits sans numéro de formule.",
+  "Le bloc « OPTICIENS PARTENAIRES SEVEANE » ne donne pas de montant par formule pour les équipements hors 100% santé : la cellule fusionnée porte « Forfait lunettes parmi une sélection partenaire Sévéane » ; de même les trois lignes d'équipement du sous-bloc « Verres sélectionnés » ne portent qu'un montant unique (100 €, 150 €, 200 €) sans déclinaison par formule.",
+  "La page 7 est vide (aucun texte extractible).",
+  "La valeur du PMSS citée est celle de 2021 (3428 €) ; le document renvoie au site securite-sociale.fr pour son évolution.",
+  "target_audience laissé à null : le document ne définit aucune population assurable ; seul le sigle TNS du titre suggère une cible, ce que la règle interdit de déduire."
+ ]
 }

@@ -1,272 +1,273 @@
 {
-  "schema_version": "1.0",
-  "prompt_version": "1.1",
-  "country": "fr",
-  "insurer_slug": "maif",
-  "insurer_name": "MAIF",
-  "product_name": "Informations réglementaires sur les actifs référencés dans le contrat",
-  "branch": "assurance-vie",
-  "branch_code": null,
-  "document_type": "other",
-  "language": "fr",
-  "target_audience": null,
-  "target_audience_note": null,
-  "reference": "Relevé annuel 2025",
-  "edition_date": "2025",
-  "product_family": null,
-  "variant": null,
-  "is_extension": true,
-  "extends": null,
-  "superseded": null,
-  "source_url": "https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/epargne-financements/informations-reglementaires-actifs.pdf",
-  "source_pdf": "informations-reglementaires-sur-les-actifs-references-dans-le-contrat-6d17e350.pdf",
-  "source_sha256": "c68fb300d9e4a316e225f94a834dabaa85daa0f900ad02a0fcd69170e4478c71",
-  "source_pages": 3,
-  "fetched_at": "2026-07-30",
-  "extraction_model": "claude-code-subagent:scale",
-  "summary": "Annexe réglementaire au relevé annuel 2025 : pour chacune des 25 unités de compte proposées dans le contrat, le tableau donne le code ISIN, la société de gestion, l'indicateur de risque (SRI), la performance brute 2025 et moyenne annualisée sur cinq ans, les frais de gestion de l'unité de compte et la part rétrocédée à MAIF VIE, la performance nette, les frais de gestion du contrat, les frais totaux et la performance finale. Les unités de compte sont réparties en catégories imprimées (Fonds actions, Fond obligations, Fonds mixtes, Fonds immobiliers, Fonds de capital investissement, Fonds Monétaires, Autres). Le document ne décrit aucune garantie d'assurance et ne comporte aucune exclusion.",
-  "definitions": [
-    {
-      "term": "Frais de gestion de l'unité de compte (B)*",
-      "definition": "Coûts récurrents du document d'informations clés, à savoir, les frais de gestion et autres frais administratifs et d'exploitation ainsi que les coûts de transaction.",
-      "page": 1
-    },
-    {
-      "term": "dont frais rétrocédés (taux de rétrocessions de commissions)**",
-      "definition": "Part des frais reversés à MAIF VIE par la société de gestion de l'unité de compte.",
-      "page": 1
-    },
-    {
-      "term": "Frais de gestion du contrat (C)***",
-      "definition": "+ 0,25 % soit 1,05 % pour la formule Gestion déléguée.",
-      "page": 1
-    },
-    {
-      "term": "Renvoi **** (unités de compte de moins de cinq ans)",
-      "definition": "Pour les unités de compte qui existent depuis moins de cinq ans, la performance est calculée sur la période la plus longue disponible.",
-      "page": 1
-    },
-    {
-      "term": "Renvoi ***** (Fonds mixtes)",
-      "definition": "Vous retrouverez ces fonds dans la catégorie « Gestion diversifiée ».",
-      "page": 1
-    },
-    {
-      "term": "Renvoi ****** (Fonds de capital investissement)",
-      "definition": "Vous retrouverez ce fonds dans la catégorie « Capital investissement / Dette privée ».",
-      "page": 1
-    },
-    {
-      "term": "Renvoi ******* (Autres)",
-      "definition": "Vous retrouverez ce fonds dans la catégorie « Dette privée ».",
-      "page": 1
-    },
-    {
-      "term": "Indicateur de risque de l'unité de compte (SRI)",
-      "definition": "Indicateur de risque de l'unité de compte (SRI) : 1 (faible) à 7 (élevé)",
-      "page": 1
-    },
-    {
-      "term": "Date d'arrêté des frais et des performances",
-      "definition": "Les frais de gestion des unités compte sont les derniers connus au 28/11/2025. Les performances sont arrêtées au 31/12/2025 ou à la dernière valeur liquidative disponible.",
-      "page": 1
-    }
-  ],
-  "coverages": [],
-  "exclusions": [],
-  "deductibles": null,
-  "waiting_periods": [],
-  "obligations": [],
-  "claims_procedure": [],
-  "duration_and_cancellation": null,
-  "prescription_period": null,
-  "premium": {
-    "notes": [
-      "Frais de gestion du contrat (C) : 0,80 % pour les 25 unités de compte listées ; renvoi *** : + 0,25 % soit 1,05 % pour la formule Gestion déléguée.",
-      "Part des frais reversés à MAIF VIE par la société de gestion de l'unité de compte.",
-      "Les performances et les frais passés sur les unités de compte ne préjugent pas des performances et des frais futurs sur les unités de compte."
-    ],
-    "indexation": null,
-    "page": 1
+ "schema_version": "1.0",
+ "prompt_version": "1.1",
+ "country": "fr",
+ "insurer_slug": "maif",
+ "insurer_name": "MAIF",
+ "product_name": "Informations réglementaires sur les actifs référencés dans le contrat",
+ "branch": "assurance-vie",
+ "branch_code": null,
+ "document_type": "other",
+ "language": "fr",
+ "target_audience": null,
+ "target_audience_note": null,
+ "reference": "Relevé annuel 2025",
+ "edition_date": null,
+ "product_family": null,
+ "variant": null,
+ "is_extension": true,
+ "extends": null,
+ "superseded": null,
+ "source_url": "https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/epargne-financements/informations-reglementaires-actifs.pdf",
+ "source_pdf": "informations-reglementaires-sur-les-actifs-references-dans-le-contrat-6d17e350.pdf",
+ "source_sha256": "c68fb300d9e4a316e225f94a834dabaa85daa0f900ad02a0fcd69170e4478c71",
+ "source_pages": 3,
+ "fetched_at": "2026-07-30",
+ "extraction_model": "claude-code-subagent:scale",
+ "summary": "Annexe réglementaire au relevé annuel 2025 : pour chacune des 25 unités de compte proposées dans le contrat, le tableau donne le code ISIN, la société de gestion, l'indicateur de risque (SRI), la performance brute 2025 et moyenne annualisée sur cinq ans, les frais de gestion de l'unité de compte et la part rétrocédée à MAIF VIE, la performance nette, les frais de gestion du contrat, les frais totaux et la performance finale. Les unités de compte sont réparties en catégories imprimées (Fonds actions, Fond obligations, Fonds mixtes, Fonds immobiliers, Fonds de capital investissement, Fonds Monétaires, Autres). Le document ne décrit aucune garantie d'assurance et ne comporte aucune exclusion.",
+ "definitions": [
+  {
+   "term": "Frais de gestion de l'unité de compte (B)*",
+   "definition": "Coûts récurrents du document d'informations clés, à savoir, les frais de gestion et autres frais administratifs et d'exploitation ainsi que les coûts de transaction.",
+   "page": 1
   },
-  "special_conditions": [
-    {
-      "name": "MAIF Actions Transition Sociale",
-      "description": "Code ISIN : FR0000435455. Société de gestion : OFI Invest Asset Management. Catégorie imprimée : « Fonds actions ». Indicateur de risque de l'unité de compte (SRI) : 4 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 13,10 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 8,41 %; Frais de gestion de l'unité de compte (B)* : 1,16 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,60 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 11,94 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : 7,25 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 1,96 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,60 %); Performance finale (A-B-C) — annuelle (2025) : 11,14 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : 6,45 %.",
-      "page": 1
-    },
-    {
-      "name": "MAIF Actions Transition Climat",
-      "description": "Code ISIN : FR0010703355. Société de gestion : CPR Asset Management. Catégorie imprimée : « Fonds actions ». Indicateur de risque de l'unité de compte (SRI) : 4 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 21,49 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 11,69 %; Frais de gestion de l'unité de compte (B)* : 1,23 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,75 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 20,26 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : 10,46 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 2,03 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,75 %); Performance finale (A-B-C) — annuelle (2025) : 19,46 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : 9,66 %.",
-      "page": 1
-    },
-    {
-      "name": "MAIF Actions Transition Biodiversité",
-      "description": "Code ISIN : FR001400QKP2. Société de gestion : Natixis Investment Managers International. Catégorie imprimée : « Fonds actions ». Indicateur de risque de l'unité de compte (SRI) : 4 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 3,57 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : -; Frais de gestion de l'unité de compte (B)* : 1,25 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,75 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 2,32 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : -; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 2,05 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,75 %); Performance finale (A-B-C) — annuelle (2025) : 1,52 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : -. Le libellé porte le renvoi « **** » : Pour les unités de compte qui existent depuis moins de cinq ans, la performance est calculée sur la période la plus longue disponible.",
-      "page": 1
-    },
-    {
-      "name": "ALM Actions Zone Euro ISR",
-      "description": "Code ISIN : FR0011511815. Société de gestion : AG2R LA MONDIALE Gestion d'actifs. Catégorie imprimée : « Fonds actions ». Indicateur de risque de l'unité de compte (SRI) : 4 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 21,82 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 11,25 %; Frais de gestion de l'unité de compte (B)* : 1,29 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,60 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 20,53 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : 9,96 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 2,09 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,60 %); Performance finale (A-B-C) — annuelle (2025) : 19,73 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : 9,16 %.",
-      "page": 1
-    },
-    {
-      "name": "CPR Actions USA Responsable",
-      "description": "Code ISIN : FR0013053790. Société de gestion : CPR Asset Management. Catégorie imprimée : « Fonds actions ». Indicateur de risque de l'unité de compte (SRI) : 4 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 17,85 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 12,48 %; Frais de gestion de l'unité de compte (B)* : 1,33 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,53 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 16,52 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : 11,15 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 2,13 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,53 %); Performance finale (A-B-C) — annuelle (2025) : 15,72 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : 10,35 %.",
-      "page": 1
-    },
-    {
-      "name": "LBPAM ISR Actions Focus France",
-      "description": "Code ISIN : FR0010613323. Société de gestion : LBP AM. Catégorie imprimée : « Fonds actions ». Indicateur de risque de l'unité de compte (SRI) : 4 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 16,21 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 11,74 %; Frais de gestion de l'unité de compte (B)* : 1,49 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,61 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 14,72 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : 10,25 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 2,29 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,61 %); Performance finale (A-B-C) — annuelle (2025) : 13,92 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : 9,45 %.",
-      "page": 1
-    },
-    {
-      "name": "Triodos Global Equities Impact Fund",
-      "description": "Code ISIN : LU0278271951. Société de gestion : Triodos Investment Management. Catégorie imprimée : « Fonds actions ». Indicateur de risque de l'unité de compte (SRI) : 4 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 1,80 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 5,92 %; Frais de gestion de l'unité de compte (B)* : 1,68 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,55 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 0,12 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : 4,24 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 2,48 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,55 %); Performance finale (A-B-C) — annuelle (2025) : - 0,68 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : 3,44 %.",
-      "page": 1
-    },
-    {
-      "name": "Mirova Women Leaders and Diversity",
-      "description": "Code ISIN : LU2909824133. Société de gestion : Natixis Investment Managers International. Catégorie imprimée : « Fonds actions ». Indicateur de risque de l'unité de compte (SRI) : 4 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : -; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : -; Frais de gestion de l'unité de compte (B)* : 1,70 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,68 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : -; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : -; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 2,50 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,68 %); Performance finale (A-B-C) — annuelle (2025) : -; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : -. Le libellé porte le renvoi « **** » : Pour les unités de compte qui existent depuis moins de cinq ans, la performance est calculée sur la période la plus longue disponible.",
-      "page": 1
-    },
-    {
-      "name": "Insertion Emplois Dynamique",
-      "description": "Code ISIN : FR0010702084. Société de gestion : Natixis Investment Managers International. Catégorie imprimée : « Fonds actions ». Indicateur de risque de l'unité de compte (SRI) : 4 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 2,11 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 2,39 %; Frais de gestion de l'unité de compte (B)* : 1,97 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,81 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 0,14 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : 0,42 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 2,77 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,81 %); Performance finale (A-B-C) — annuelle (2025) : - 0,66 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : - 0,38 %.",
-      "page": 1
-    },
-    {
-      "name": "Sextant PEA",
-      "description": "Code ISIN : FR001400T0H7. Société de gestion : Amiral Gestion. Catégorie imprimée : « Fonds actions ». Indicateur de risque de l'unité de compte (SRI) : 4 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : -; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : -; Frais de gestion de l'unité de compte (B)* : 2,03 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,60 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : -; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : -; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 2,83 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,60 %); Performance finale (A-B-C) — annuelle (2025) : -; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : -. Le libellé porte le renvoi « **** » : Pour les unités de compte qui existent depuis moins de cinq ans, la performance est calculée sur la période la plus longue disponible.",
-      "page": 1
-    },
-    {
-      "name": "LBPAM ISR Actions Emergents",
-      "description": "Code ISIN : FR001400B1N3. Société de gestion : LBP AM. Catégorie imprimée : « Fonds actions ». Indicateur de risque de l'unité de compte (SRI) : 4 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 19,77 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 8,38 %; Frais de gestion de l'unité de compte (B)* : 2,04 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,70 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 17,73 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : 6,34 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 2,84 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,70 %); Performance finale (A-B-C) — annuelle (2025) : 16,93 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : 5,54 %. Le libellé porte le renvoi « **** » : Pour les unités de compte qui existent depuis moins de cinq ans, la performance est calculée sur la période la plus longue disponible.",
-      "page": 2
-    },
-    {
-      "name": "Sycomore Sustainable Tech",
-      "description": "Code ISIN : LU2331773858. Société de gestion : Sycomore Asset Management. Catégorie imprimée : « Fonds actions ». Indicateur de risque de l'unité de compte (SRI) : 5 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 15,84 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 13,27 %; Frais de gestion de l'unité de compte (B)* : 2,15 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,70 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 13,69 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : 11,12 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 2,95 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,70 %); Performance finale (A-B-C) — annuelle (2025) : 12,89 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : 10,32 %. Le libellé porte le renvoi « **** » : Pour les unités de compte qui existent depuis moins de cinq ans, la performance est calculée sur la période la plus longue disponible.",
-      "page": 2
-    },
-    {
-      "name": "Ostrum SRI EURO Sovereign Bonds",
-      "description": "Code ISIN : FR0000003196. Société de gestion : Natixis Investment Managers International. Catégorie imprimée : « Fond obligations ». Indicateur de risque de l'unité de compte (SRI) : 3 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 0,94 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : - 2,74 %; Frais de gestion de l'unité de compte (B)* : 0,80 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,35 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 0,14 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : - 3,54 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 1,60 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,35 %); Performance finale (A-B-C) — annuelle (2025) : - 0,66 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : - 4,34 %.",
-      "page": 2
-    },
-    {
-      "name": "Ostrum SRI Credit Euro",
-      "description": "Code ISIN : FR0000982217. Société de gestion : Natixis Investment Managers International. Catégorie imprimée : « Fond obligations ». Indicateur de risque de l'unité de compte (SRI) : 2 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 4,16 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 0,61 %; Frais de gestion de l'unité de compte (B)* : 0,95 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,35 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 3,21 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : - 0,34 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 1,75 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,35 %); Performance finale (A-B-C) — annuelle (2025) : 2,41 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : - 1,14 %.",
-      "page": 2
-    },
-    {
-      "name": "MIROVA Euro Green & Sustainable Bond",
-      "description": "Code ISIN : LU0914734701. Société de gestion : Natixis Investment Managers International. Catégorie imprimée : « Fond obligations ». Indicateur de risque de l'unité de compte (SRI) : 3 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 2,44 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : - 1,67 %; Frais de gestion de l'unité de compte (B)* : 1,13 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,38 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 1,31 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : - 2,80 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 1,93 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,38 %); Performance finale (A-B-C) — annuelle (2025) : 0,51 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : - 3,60 %.",
-      "page": 2
-    },
-    {
-      "name": "LBPAM ISR Obli Moyen Terme",
-      "description": "Code ISIN : FR0000287997. Société de gestion : LBP AM. Catégorie imprimée : « Fond obligations ». Indicateur de risque de l'unité de compte (SRI) : 2 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 3,68 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 0,40 %; Frais de gestion de l'unité de compte (B)* : 1,26 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,49 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 2,42 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : - 0,86 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 2,06 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,49 %); Performance finale (A-B-C) — annuelle (2025) : 1,62 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : - 1,66 %.",
-      "page": 2
-    },
-    {
-      "name": "Amundi RI European High Yield",
-      "description": "Code ISIN : FR0013340916. Société de gestion : Amundi Asset Management. Catégorie imprimée : « Fond obligations ». Indicateur de risque de l'unité de compte (SRI) : 2 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 5,89 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 3,02 %; Frais de gestion de l'unité de compte (B)* : 1,43 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,60 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 4,46 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : 1,59 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 2,23 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,60 %); Performance finale (A-B-C) — annuelle (2025) : 3,66 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : 0,79 %.",
-      "page": 2
-    },
-    {
-      "name": "Choix Solidaire",
-      "description": "Code ISIN : FR0010177899. Société de gestion : Ecofi Investissements. Catégorie imprimée : « Fonds mixtes***** ». Indicateur de risque de l'unité de compte (SRI) : 3 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 8,80 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 3,86 %; Frais de gestion de l'unité de compte (B)* : 1,02 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,45 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 7,78 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : 2,84 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 1,82 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,45 %); Performance finale (A-B-C) — annuelle (2025) : 6,98 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : 2,04 %.",
-      "page": 2
-    },
-    {
-      "name": "Echiquier Arty SRI",
-      "description": "Code ISIN : FR0010611293. Société de gestion : La Financière de l'Echiquier. Catégorie imprimée : « Fonds mixtes***** ». Indicateur de risque de l'unité de compte (SRI) : 2 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 6,05 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 3,84 %; Frais de gestion de l'unité de compte (B)* : 1,63 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,83 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 4,42 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : 2,21 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 2,43 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,83 %); Performance finale (A-B-C) — annuelle (2025) : 3,62 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : 1,41 %.",
-      "page": 2
-    },
-    {
-      "name": "DNCA Invest - Beyond Alterosa",
-      "description": "Code ISIN : LU1907594748. Société de gestion : DNCA Finance. Catégorie imprimée : « Fonds mixtes***** ». Indicateur de risque de l'unité de compte (SRI) : 2 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 2,58 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 1,94 %; Frais de gestion de l'unité de compte (B)* : 1,68 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,70 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 0,90 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : 0,26 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 2,48 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,70 %); Performance finale (A-B-C) — annuelle (2025) : 0,10 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : - 0,54 %.",
-      "page": 3
-    },
-    {
-      "name": "MAIF Habitats et Inclusion",
-      "description": "Code ISIN : FR001400MU46. Société de gestion : AMPERE Gestion. Catégorie imprimée : « Fonds immobiliers ». Indicateur de risque de l'unité de compte (SRI) : 2 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 8,05 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 6,68 %; Frais de gestion de l'unité de compte (B)* : 2,08 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,70 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 5,97 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : 4,60 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 2,88 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,70 %); Performance finale (A-B-C) — annuelle (2025) : 5,17 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : 3,80 %. Le libellé porte le renvoi « **** » : Pour les unités de compte qui existent depuis moins de cinq ans, la performance est calculée sur la période la plus longue disponible.",
-      "page": 3
-    },
-    {
-      "name": "PERIAL Euro Carbone",
-      "description": "Code ISIN : FR0014002MX7. Société de gestion : PERIAL Asset Management. Catégorie imprimée : « Fonds immobiliers ». Indicateur de risque de l'unité de compte (SRI) : 2 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 3,42 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 0,89 %; Frais de gestion de l'unité de compte (B)* : 2,10 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,70 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 1,32 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : - 1,21 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 2,90 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,70 %); Performance finale (A-B-C) — annuelle (2025) : 0,52 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : - 2,01 %. Le libellé porte le renvoi « **** » : Pour les unités de compte qui existent depuis moins de cinq ans, la performance est calculée sur la période la plus longue disponible.",
-      "page": 3
-    },
-    {
-      "name": "MAIF Rendement Vert",
-      "description": "Code ISIN : FR0013511870. Société de gestion : Eiffel Investment Group. Catégorie imprimée : « Fonds de capital investissement****** ». Indicateur de risque de l'unité de compte (SRI) : 3 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 7,27 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 7,64 %; Frais de gestion de l'unité de compte (B)* : 1,70 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,70 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 5,57 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : 5,94 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 2,50 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,70 %); Performance finale (A-B-C) — annuelle (2025) : 4,77 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : 5,14 %. Le libellé porte le renvoi « **** » : Pour les unités de compte qui existent depuis moins de cinq ans, la performance est calculée sur la période la plus longue disponible.",
-      "page": 3
-    },
-    {
-      "name": "Ostrum Euro Liquidity LVNAV",
-      "description": "Code ISIN : FR0011034735. Société de gestion : Natixis Investment Managers International. Catégorie imprimée : « Fonds Monétaires ». Indicateur de risque de l'unité de compte (SRI) : 1 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 2,45 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 1,99 %; Frais de gestion de l'unité de compte (B)* : 0,28 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,00 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 2,17 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : 1,71 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 1,08 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,00 %); Performance finale (A-B-C) — annuelle (2025) : 1,37 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : 0,91 %.",
-      "page": 3
-    },
-    {
-      "name": "MAIF Dette Transition Sociale",
-      "description": "Code ISIN : FR001400S2R3. Société de gestion : Eiffel Investment Group. Catégorie imprimée : « Autres******* ». Indicateur de risque de l'unité de compte (SRI) : 3 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 5,28 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 5,31 %; Frais de gestion de l'unité de compte (B)* : 1,99 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,60 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 3,29 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : 3,32 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 2,79 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,60 %); Performance finale (A-B-C) — annuelle (2025) : 2,49 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : 2,52 %. Le libellé porte le renvoi « **** » : Pour les unités de compte qui existent depuis moins de cinq ans, la performance est calculée sur la période la plus longue disponible.",
-      "page": 3
-    }
+  {
+   "term": "dont frais rétrocédés (taux de rétrocessions de commissions)**",
+   "definition": "Part des frais reversés à MAIF VIE par la société de gestion de l'unité de compte.",
+   "page": 1
+  },
+  {
+   "term": "Frais de gestion du contrat (C)***",
+   "definition": "+ 0,25 % soit 1,05 % pour la formule Gestion déléguée.",
+   "page": 1
+  },
+  {
+   "term": "Renvoi **** (unités de compte de moins de cinq ans)",
+   "definition": "Pour les unités de compte qui existent depuis moins de cinq ans, la performance est calculée sur la période la plus longue disponible.",
+   "page": 1
+  },
+  {
+   "term": "Renvoi ***** (Fonds mixtes)",
+   "definition": "Vous retrouverez ces fonds dans la catégorie « Gestion diversifiée ».",
+   "page": 1
+  },
+  {
+   "term": "Renvoi ****** (Fonds de capital investissement)",
+   "definition": "Vous retrouverez ce fonds dans la catégorie « Capital investissement / Dette privée ».",
+   "page": 1
+  },
+  {
+   "term": "Renvoi ******* (Autres)",
+   "definition": "Vous retrouverez ce fonds dans la catégorie « Dette privée ».",
+   "page": 1
+  },
+  {
+   "term": "Indicateur de risque de l'unité de compte (SRI)",
+   "definition": "Indicateur de risque de l'unité de compte (SRI) : 1 (faible) à 7 (élevé)",
+   "page": 1
+  },
+  {
+   "term": "Date d'arrêté des frais et des performances",
+   "definition": "Les frais de gestion des unités compte sont les derniers connus au 28/11/2025. Les performances sont arrêtées au 31/12/2025 ou à la dernière valeur liquidative disponible.",
+   "page": 1
+  }
+ ],
+ "coverages": [],
+ "exclusions": [],
+ "deductibles": null,
+ "waiting_periods": [],
+ "obligations": [],
+ "claims_procedure": [],
+ "duration_and_cancellation": null,
+ "prescription_period": null,
+ "premium": {
+  "notes": [
+   "Frais de gestion du contrat (C) : 0,80 % pour les 25 unités de compte listées ; renvoi *** : + 0,25 % soit 1,05 % pour la formule Gestion déléguée.",
+   "Part des frais reversés à MAIF VIE par la société de gestion de l'unité de compte.",
+   "Les performances et les frais passés sur les unités de compte ne préjugent pas des performances et des frais futurs sur les unités de compte."
   ],
-  "key_quotes": [
-    {
-      "quote": "Informations réglementaires sur les actifs référencés dans le contrat",
-      "page": 1,
-      "context": "Titre imprimé, répété en tête des trois pages"
-    },
-    {
-      "quote": "Le tableau ci-dessous, reprend pour chacune des unités de compte proposées dans le contrat, les performances au 31/12/2025, les frais prélevés et le cas échéant les éventuelles rétrocessions de commissions perçues par\nMAIF VIE.",
-      "page": 1,
-      "context": "Chapeau du tableau, nommant le porteur"
-    },
-    {
-      "quote": "Les performances et les frais passés sur les unités de compte ne préjugent pas des performances et des frais futurs sur les unités de compte.",
-      "page": 1,
-      "context": "Avertissement sur les performances passées"
-    },
-    {
-      "quote": "* Coûts récurrents du document d'informations clés, à savoir, les frais de gestion et autres frais administratifs et d'exploitation ainsi que les coûts de transaction.",
-      "page": 1,
-      "context": "Définition des frais de gestion de l'unité de compte (colonne B)"
-    },
-    {
-      "quote": "** Part des frais reversés à MAIF VIE par la société de gestion de l'unité de compte.",
-      "page": 1,
-      "context": "Définition des rétrocessions de commissions"
-    },
-    {
-      "quote": "*** + 0,25 % soit 1,05 % pour la formule Gestion déléguée.",
-      "page": 1,
-      "context": "Majoration des frais de gestion du contrat en Gestion déléguée"
-    },
-    {
-      "quote": "**** Pour les unités de compte qui existent depuis moins de cinq ans, la performance est calculée sur la période la plus longue disponible.",
-      "page": 1,
-      "context": "Portée des performances quinquennales"
-    },
-    {
-      "quote": "Les frais de gestion des unités compte sont les derniers connus au 28/11/2025. Les performances sont arrêtées au 31/12/2025 ou à la dernière valeur liquidative disponible.",
-      "page": 1,
-      "context": "Dates d'arrêté (la phrase imprime « unités compte », sans « de »)"
-    }
-  ],
-  "gaps": [
-    "Ce document n'est pas un document contractuel de produit : c'est l'annexe réglementaire « Relevé annuel 2025 » listant les unités de compte référencées au contrat. Il ne décrit aucune garantie, aucune franchise, aucune exclusion, aucune procédure de sinistre et aucune durée ; `coverages` et `exclusions` sont donc vides à dessein. Les 25 lignes du tableau (ISIN, société de gestion, catégorie, SRI, performances et frais) sont portées dans `special_conditions`, une entrée par unité de compte.",
-    "Le contrat auquel se rattache ce relevé n'est JAMAIS nommé : le document parle seulement « du contrat ». `is_extension` est mis à true car le document se présente explicitement comme une annexe portant sur « les unités de compte proposées dans le contrat », mais `extends` reste null faute de nom imprimé — il ne peut pas être déduit sans sortir du document.",
-    "Le porteur imprimé est MAIF VIE (« les éventuelles rétrocessions de commissions perçues par MAIF VIE »), alors que les métadonnées de la tâche indiquaient insurer_name « MAIF ». `insurer_name` suit le document. Aucune forme juridique, aucun RCS/SIREN, aucune autorité de contrôle ne sont imprimés.",
-    "Aucune date d'édition ni code interne de type « XXXX - MM/AAAA » n'est imprimé, contrairement aux autres documents MAIF. `edition_date` est donc null ; le seul repère temporel imprimé est « Relevé annuel 2025 » (porté dans `reference`), avec des performances arrêtées au 31/12/2025 et des frais connus au 28/11/2025.",
-    "Les trois pages se terminent toutes par la mention « Suite », y compris la dernière (page 3). Il n'est pas possible de déterminer à partir du PDF si le tableau se poursuit au-delà des 25 lignes présentes ; 25 lignes ont été extraites, ce sont toutes celles que contient le fichier.",
-    "Coquilles imprimées, reproduites sans correction : la catégorie est intitulée « Fond obligations » (au singulier) alors que les autres catégories sont au pluriel ; et la note d'arrêté imprime « Les frais de gestion des unités compte » (sans « de »).",
-    "Les libellés de six unités de compte portent en exposant un renvoi « **** » (MAIF Actions Transition Biodiversité, Mirova Women Leaders and Diversity, Sextant PEA, LBPAM ISR Actions Emergents, Sycomore Sustainable Tech, MAIF Habitats et Inclusion, PERIAL Euro Carbone, MAIF Rendement Vert, MAIF Dette Transition Sociale). Les astérisques ont été retirées du champ `name` (ce sont des appels de note, pas des éléments du nom) et la note correspondante est reproduite en fin de description.",
-    "Deux unités de compte n'affichent aucune performance (« - » partout) : Mirova Women Leaders and Diversity (annuelle et 5 ans). Quatre autres n'affichent pas de moyenne sur 5 ans (MAIF Actions Transition Biodiversité, Sextant PEA). Les tirets sont reproduits tels quels, sans interprétation.",
-    "L'en-tête de colonnes est éclaté sur de nombreuses lignes dans la couche texte ; l'affectation des 11 valeurs de chaque ligne aux colonnes repose sur l'ordre de lecture, constant sur les 25 lignes et vérifié par le fait que chaque ligne contient exactement 11 valeurs dont deux « (dont X %) »."
-  ]
+  "indexation": null,
+  "page": 1
+ },
+ "special_conditions": [
+  {
+   "name": "MAIF Actions Transition Sociale",
+   "description": "Code ISIN : FR0000435455. Société de gestion : OFI Invest Asset Management. Catégorie imprimée : « Fonds actions ». Indicateur de risque de l'unité de compte (SRI) : 4 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 13,10 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 8,41 %; Frais de gestion de l'unité de compte (B)* : 1,16 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,60 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 11,94 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : 7,25 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 1,96 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,60 %); Performance finale (A-B-C) — annuelle (2025) : 11,14 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : 6,45 %.",
+   "page": 1
+  },
+  {
+   "name": "MAIF Actions Transition Climat",
+   "description": "Code ISIN : FR0010703355. Société de gestion : CPR Asset Management. Catégorie imprimée : « Fonds actions ». Indicateur de risque de l'unité de compte (SRI) : 4 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 21,49 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 11,69 %; Frais de gestion de l'unité de compte (B)* : 1,23 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,75 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 20,26 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : 10,46 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 2,03 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,75 %); Performance finale (A-B-C) — annuelle (2025) : 19,46 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : 9,66 %.",
+   "page": 1
+  },
+  {
+   "name": "MAIF Actions Transition Biodiversité",
+   "description": "Code ISIN : FR001400QKP2. Société de gestion : Natixis Investment Managers International. Catégorie imprimée : « Fonds actions ». Indicateur de risque de l'unité de compte (SRI) : 4 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 3,57 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : -; Frais de gestion de l'unité de compte (B)* : 1,25 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,75 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 2,32 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : -; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 2,05 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,75 %); Performance finale (A-B-C) — annuelle (2025) : 1,52 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : -. Le libellé porte le renvoi « **** » : Pour les unités de compte qui existent depuis moins de cinq ans, la performance est calculée sur la période la plus longue disponible.",
+   "page": 1
+  },
+  {
+   "name": "ALM Actions Zone Euro ISR",
+   "description": "Code ISIN : FR0011511815. Société de gestion : AG2R LA MONDIALE Gestion d'actifs. Catégorie imprimée : « Fonds actions ». Indicateur de risque de l'unité de compte (SRI) : 4 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 21,82 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 11,25 %; Frais de gestion de l'unité de compte (B)* : 1,29 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,60 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 20,53 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : 9,96 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 2,09 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,60 %); Performance finale (A-B-C) — annuelle (2025) : 19,73 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : 9,16 %.",
+   "page": 1
+  },
+  {
+   "name": "CPR Actions USA Responsable",
+   "description": "Code ISIN : FR0013053790. Société de gestion : CPR Asset Management. Catégorie imprimée : « Fonds actions ». Indicateur de risque de l'unité de compte (SRI) : 4 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 17,85 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 12,48 %; Frais de gestion de l'unité de compte (B)* : 1,33 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,53 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 16,52 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : 11,15 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 2,13 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,53 %); Performance finale (A-B-C) — annuelle (2025) : 15,72 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : 10,35 %.",
+   "page": 1
+  },
+  {
+   "name": "LBPAM ISR Actions Focus France",
+   "description": "Code ISIN : FR0010613323. Société de gestion : LBP AM. Catégorie imprimée : « Fonds actions ». Indicateur de risque de l'unité de compte (SRI) : 4 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 16,21 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 11,74 %; Frais de gestion de l'unité de compte (B)* : 1,49 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,61 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 14,72 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : 10,25 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 2,29 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,61 %); Performance finale (A-B-C) — annuelle (2025) : 13,92 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : 9,45 %.",
+   "page": 1
+  },
+  {
+   "name": "Triodos Global Equities Impact Fund",
+   "description": "Code ISIN : LU0278271951. Société de gestion : Triodos Investment Management. Catégorie imprimée : « Fonds actions ». Indicateur de risque de l'unité de compte (SRI) : 4 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 1,80 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 5,92 %; Frais de gestion de l'unité de compte (B)* : 1,68 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,55 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 0,12 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : 4,24 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 2,48 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,55 %); Performance finale (A-B-C) — annuelle (2025) : - 0,68 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : 3,44 %.",
+   "page": 1
+  },
+  {
+   "name": "Mirova Women Leaders and Diversity",
+   "description": "Code ISIN : LU2909824133. Société de gestion : Natixis Investment Managers International. Catégorie imprimée : « Fonds actions ». Indicateur de risque de l'unité de compte (SRI) : 4 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : -; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : -; Frais de gestion de l'unité de compte (B)* : 1,70 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,68 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : -; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : -; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 2,50 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,68 %); Performance finale (A-B-C) — annuelle (2025) : -; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : -. Le libellé porte le renvoi « **** » : Pour les unités de compte qui existent depuis moins de cinq ans, la performance est calculée sur la période la plus longue disponible.",
+   "page": 1
+  },
+  {
+   "name": "Insertion Emplois Dynamique",
+   "description": "Code ISIN : FR0010702084. Société de gestion : Natixis Investment Managers International. Catégorie imprimée : « Fonds actions ». Indicateur de risque de l'unité de compte (SRI) : 4 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 2,11 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 2,39 %; Frais de gestion de l'unité de compte (B)* : 1,97 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,81 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 0,14 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : 0,42 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 2,77 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,81 %); Performance finale (A-B-C) — annuelle (2025) : - 0,66 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : - 0,38 %.",
+   "page": 1
+  },
+  {
+   "name": "Sextant PEA",
+   "description": "Code ISIN : FR001400T0H7. Société de gestion : Amiral Gestion. Catégorie imprimée : « Fonds actions ». Indicateur de risque de l'unité de compte (SRI) : 4 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : -; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : -; Frais de gestion de l'unité de compte (B)* : 2,03 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,60 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : -; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : -; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 2,83 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,60 %); Performance finale (A-B-C) — annuelle (2025) : -; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : -. Le libellé porte le renvoi « **** » : Pour les unités de compte qui existent depuis moins de cinq ans, la performance est calculée sur la période la plus longue disponible.",
+   "page": 1
+  },
+  {
+   "name": "LBPAM ISR Actions Emergents",
+   "description": "Code ISIN : FR001400B1N3. Société de gestion : LBP AM. Catégorie imprimée : « Fonds actions ». Indicateur de risque de l'unité de compte (SRI) : 4 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 19,77 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 8,38 %; Frais de gestion de l'unité de compte (B)* : 2,04 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,70 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 17,73 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : 6,34 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 2,84 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,70 %); Performance finale (A-B-C) — annuelle (2025) : 16,93 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : 5,54 %. Le libellé porte le renvoi « **** » : Pour les unités de compte qui existent depuis moins de cinq ans, la performance est calculée sur la période la plus longue disponible.",
+   "page": 2
+  },
+  {
+   "name": "Sycomore Sustainable Tech",
+   "description": "Code ISIN : LU2331773858. Société de gestion : Sycomore Asset Management. Catégorie imprimée : « Fonds actions ». Indicateur de risque de l'unité de compte (SRI) : 5 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 15,84 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 13,27 %; Frais de gestion de l'unité de compte (B)* : 2,15 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,70 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 13,69 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : 11,12 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 2,95 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,70 %); Performance finale (A-B-C) — annuelle (2025) : 12,89 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : 10,32 %. Le libellé porte le renvoi « **** » : Pour les unités de compte qui existent depuis moins de cinq ans, la performance est calculée sur la période la plus longue disponible.",
+   "page": 2
+  },
+  {
+   "name": "Ostrum SRI EURO Sovereign Bonds",
+   "description": "Code ISIN : FR0000003196. Société de gestion : Natixis Investment Managers International. Catégorie imprimée : « Fond obligations ». Indicateur de risque de l'unité de compte (SRI) : 3 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 0,94 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : - 2,74 %; Frais de gestion de l'unité de compte (B)* : 0,80 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,35 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 0,14 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : - 3,54 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 1,60 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,35 %); Performance finale (A-B-C) — annuelle (2025) : - 0,66 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : - 4,34 %.",
+   "page": 2
+  },
+  {
+   "name": "Ostrum SRI Credit Euro",
+   "description": "Code ISIN : FR0000982217. Société de gestion : Natixis Investment Managers International. Catégorie imprimée : « Fond obligations ». Indicateur de risque de l'unité de compte (SRI) : 2 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 4,16 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 0,61 %; Frais de gestion de l'unité de compte (B)* : 0,95 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,35 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 3,21 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : - 0,34 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 1,75 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,35 %); Performance finale (A-B-C) — annuelle (2025) : 2,41 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : - 1,14 %.",
+   "page": 2
+  },
+  {
+   "name": "MIROVA Euro Green & Sustainable Bond",
+   "description": "Code ISIN : LU0914734701. Société de gestion : Natixis Investment Managers International. Catégorie imprimée : « Fond obligations ». Indicateur de risque de l'unité de compte (SRI) : 3 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 2,44 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : - 1,67 %; Frais de gestion de l'unité de compte (B)* : 1,13 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,38 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 1,31 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : - 2,80 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 1,93 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,38 %); Performance finale (A-B-C) — annuelle (2025) : 0,51 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : - 3,60 %.",
+   "page": 2
+  },
+  {
+   "name": "LBPAM ISR Obli Moyen Terme",
+   "description": "Code ISIN : FR0000287997. Société de gestion : LBP AM. Catégorie imprimée : « Fond obligations ». Indicateur de risque de l'unité de compte (SRI) : 2 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 3,68 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 0,40 %; Frais de gestion de l'unité de compte (B)* : 1,26 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,49 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 2,42 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : - 0,86 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 2,06 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,49 %); Performance finale (A-B-C) — annuelle (2025) : 1,62 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : - 1,66 %.",
+   "page": 2
+  },
+  {
+   "name": "Amundi RI European High Yield",
+   "description": "Code ISIN : FR0013340916. Société de gestion : Amundi Asset Management. Catégorie imprimée : « Fond obligations ». Indicateur de risque de l'unité de compte (SRI) : 2 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 5,89 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 3,02 %; Frais de gestion de l'unité de compte (B)* : 1,43 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,60 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 4,46 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : 1,59 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 2,23 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,60 %); Performance finale (A-B-C) — annuelle (2025) : 3,66 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : 0,79 %.",
+   "page": 2
+  },
+  {
+   "name": "Choix Solidaire",
+   "description": "Code ISIN : FR0010177899. Société de gestion : Ecofi Investissements. Catégorie imprimée : « Fonds mixtes***** ». Indicateur de risque de l'unité de compte (SRI) : 3 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 8,80 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 3,86 %; Frais de gestion de l'unité de compte (B)* : 1,02 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,45 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 7,78 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : 2,84 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 1,82 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,45 %); Performance finale (A-B-C) — annuelle (2025) : 6,98 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : 2,04 %.",
+   "page": 2
+  },
+  {
+   "name": "Echiquier Arty SRI",
+   "description": "Code ISIN : FR0010611293. Société de gestion : La Financière de l'Echiquier. Catégorie imprimée : « Fonds mixtes***** ». Indicateur de risque de l'unité de compte (SRI) : 2 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 6,05 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 3,84 %; Frais de gestion de l'unité de compte (B)* : 1,63 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,83 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 4,42 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : 2,21 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 2,43 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,83 %); Performance finale (A-B-C) — annuelle (2025) : 3,62 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : 1,41 %.",
+   "page": 2
+  },
+  {
+   "name": "DNCA Invest - Beyond Alterosa",
+   "description": "Code ISIN : LU1907594748. Société de gestion : DNCA Finance. Catégorie imprimée : « Fonds mixtes***** ». Indicateur de risque de l'unité de compte (SRI) : 2 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 2,58 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 1,94 %; Frais de gestion de l'unité de compte (B)* : 1,68 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,70 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 0,90 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : 0,26 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 2,48 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,70 %); Performance finale (A-B-C) — annuelle (2025) : 0,10 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : - 0,54 %.",
+   "page": 3
+  },
+  {
+   "name": "MAIF Habitats et Inclusion",
+   "description": "Code ISIN : FR001400MU46. Société de gestion : AMPERE Gestion. Catégorie imprimée : « Fonds immobiliers ». Indicateur de risque de l'unité de compte (SRI) : 2 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 8,05 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 6,68 %; Frais de gestion de l'unité de compte (B)* : 2,08 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,70 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 5,97 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : 4,60 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 2,88 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,70 %); Performance finale (A-B-C) — annuelle (2025) : 5,17 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : 3,80 %. Le libellé porte le renvoi « **** » : Pour les unités de compte qui existent depuis moins de cinq ans, la performance est calculée sur la période la plus longue disponible.",
+   "page": 3
+  },
+  {
+   "name": "PERIAL Euro Carbone",
+   "description": "Code ISIN : FR0014002MX7. Société de gestion : PERIAL Asset Management. Catégorie imprimée : « Fonds immobiliers ». Indicateur de risque de l'unité de compte (SRI) : 2 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 3,42 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 0,89 %; Frais de gestion de l'unité de compte (B)* : 2,10 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,70 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 1,32 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : - 1,21 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 2,90 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,70 %); Performance finale (A-B-C) — annuelle (2025) : 0,52 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : - 2,01 %. Le libellé porte le renvoi « **** » : Pour les unités de compte qui existent depuis moins de cinq ans, la performance est calculée sur la période la plus longue disponible.",
+   "page": 3
+  },
+  {
+   "name": "MAIF Rendement Vert",
+   "description": "Code ISIN : FR0013511870. Société de gestion : Eiffel Investment Group. Catégorie imprimée : « Fonds de capital investissement****** ». Indicateur de risque de l'unité de compte (SRI) : 3 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 7,27 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 7,64 %; Frais de gestion de l'unité de compte (B)* : 1,70 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,70 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 5,57 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : 5,94 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 2,50 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,70 %); Performance finale (A-B-C) — annuelle (2025) : 4,77 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : 5,14 %. Le libellé porte le renvoi « **** » : Pour les unités de compte qui existent depuis moins de cinq ans, la performance est calculée sur la période la plus longue disponible.",
+   "page": 3
+  },
+  {
+   "name": "Ostrum Euro Liquidity LVNAV",
+   "description": "Code ISIN : FR0011034735. Société de gestion : Natixis Investment Managers International. Catégorie imprimée : « Fonds Monétaires ». Indicateur de risque de l'unité de compte (SRI) : 1 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 2,45 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 1,99 %; Frais de gestion de l'unité de compte (B)* : 0,28 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,00 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 2,17 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : 1,71 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 1,08 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,00 %); Performance finale (A-B-C) — annuelle (2025) : 1,37 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : 0,91 %.",
+   "page": 3
+  },
+  {
+   "name": "MAIF Dette Transition Sociale",
+   "description": "Code ISIN : FR001400S2R3. Société de gestion : Eiffel Investment Group. Catégorie imprimée : « Autres******* ». Indicateur de risque de l'unité de compte (SRI) : 3 (échelle 1 (faible) à 7 (élevé)). Performance brute de l'unité de compte (A) — annuelle (2025) : 5,28 %; Performance brute de l'unité de compte (A) — moyenne annualisée sur 5 ans (2025/2021) : 5,31 %; Frais de gestion de l'unité de compte (B)* : 1,99 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,60 %); Performance nette de l'unité de compte (A-B) — annuelle (2025) : 3,29 %; Performance nette de l'unité de compte (A-B) — moyenne annualisée sur 5 ans (2025/2021) : 3,32 %; Frais de gestion du contrat (C)*** : 0,80 %; Frais totaux (B*+C) : 2,79 %; dont frais rétrocédés (taux de rétrocessions de commissions)** : (dont 0,60 %); Performance finale (A-B-C) — annuelle (2025) : 2,49 %; Performance finale (A-B-C) — moyenne annualisée sur 5 ans (2025/2021) : 2,52 %. Le libellé porte le renvoi « **** » : Pour les unités de compte qui existent depuis moins de cinq ans, la performance est calculée sur la période la plus longue disponible.",
+   "page": 3
+  }
+ ],
+ "key_quotes": [
+  {
+   "quote": "Informations réglementaires sur les actifs référencés dans le contrat",
+   "page": 1,
+   "context": "Titre imprimé, répété en tête des trois pages"
+  },
+  {
+   "quote": "Le tableau ci-dessous, reprend pour chacune des unités de compte proposées dans le contrat, les performances au 31/12/2025, les frais prélevés et le cas échéant les éventuelles rétrocessions de commissions perçues par\nMAIF VIE.",
+   "page": 1,
+   "context": "Chapeau du tableau, nommant le porteur"
+  },
+  {
+   "quote": "Les performances et les frais passés sur les unités de compte ne préjugent pas des performances et des frais futurs sur les unités de compte.",
+   "page": 1,
+   "context": "Avertissement sur les performances passées"
+  },
+  {
+   "quote": "* Coûts récurrents du document d'informations clés, à savoir, les frais de gestion et autres frais administratifs et d'exploitation ainsi que les coûts de transaction.",
+   "page": 1,
+   "context": "Définition des frais de gestion de l'unité de compte (colonne B)"
+  },
+  {
+   "quote": "** Part des frais reversés à MAIF VIE par la société de gestion de l'unité de compte.",
+   "page": 1,
+   "context": "Définition des rétrocessions de commissions"
+  },
+  {
+   "quote": "*** + 0,25 % soit 1,05 % pour la formule Gestion déléguée.",
+   "page": 1,
+   "context": "Majoration des frais de gestion du contrat en Gestion déléguée"
+  },
+  {
+   "quote": "**** Pour les unités de compte qui existent depuis moins de cinq ans, la performance est calculée sur la période la plus longue disponible.",
+   "page": 1,
+   "context": "Portée des performances quinquennales"
+  },
+  {
+   "quote": "Les frais de gestion des unités compte sont les derniers connus au 28/11/2025. Les performances sont arrêtées au 31/12/2025 ou à la dernière valeur liquidative disponible.",
+   "page": 1,
+   "context": "Dates d'arrêté (la phrase imprime « unités compte », sans « de »)"
+  }
+ ],
+ "gaps": [
+  "Ce document n'est pas un document contractuel de produit : c'est l'annexe réglementaire « Relevé annuel 2025 » listant les unités de compte référencées au contrat. Il ne décrit aucune garantie, aucune franchise, aucune exclusion, aucune procédure de sinistre et aucune durée ; `coverages` et `exclusions` sont donc vides à dessein. Les 25 lignes du tableau (ISIN, société de gestion, catégorie, SRI, performances et frais) sont portées dans `special_conditions`, une entrée par unité de compte.",
+  "Le contrat auquel se rattache ce relevé n'est JAMAIS nommé : le document parle seulement « du contrat ». `is_extension` est mis à true car le document se présente explicitement comme une annexe portant sur « les unités de compte proposées dans le contrat », mais `extends` reste null faute de nom imprimé — il ne peut pas être déduit sans sortir du document.",
+  "Le porteur imprimé est MAIF VIE (« les éventuelles rétrocessions de commissions perçues par MAIF VIE »), alors que les métadonnées de la tâche indiquaient insurer_name « MAIF ». `insurer_name` suit le document. Aucune forme juridique, aucun RCS/SIREN, aucune autorité de contrôle ne sont imprimés.",
+  "Aucune date d'édition ni code interne de type « XXXX - MM/AAAA » n'est imprimé, contrairement aux autres documents MAIF. `edition_date` est donc null ; le seul repère temporel imprimé est « Relevé annuel 2025 » (porté dans `reference`), avec des performances arrêtées au 31/12/2025 et des frais connus au 28/11/2025.",
+  "Les trois pages se terminent toutes par la mention « Suite », y compris la dernière (page 3). Il n'est pas possible de déterminer à partir du PDF si le tableau se poursuit au-delà des 25 lignes présentes ; 25 lignes ont été extraites, ce sont toutes celles que contient le fichier.",
+  "Coquilles imprimées, reproduites sans correction : la catégorie est intitulée « Fond obligations » (au singulier) alors que les autres catégories sont au pluriel ; et la note d'arrêté imprime « Les frais de gestion des unités compte » (sans « de »).",
+  "Les libellés de six unités de compte portent en exposant un renvoi « **** » (MAIF Actions Transition Biodiversité, Mirova Women Leaders and Diversity, Sextant PEA, LBPAM ISR Actions Emergents, Sycomore Sustainable Tech, MAIF Habitats et Inclusion, PERIAL Euro Carbone, MAIF Rendement Vert, MAIF Dette Transition Sociale). Les astérisques ont été retirées du champ `name` (ce sont des appels de note, pas des éléments du nom) et la note correspondante est reproduite en fin de description.",
+  "Deux unités de compte n'affichent aucune performance (« - » partout) : Mirova Women Leaders and Diversity (annuelle et 5 ans). Quatre autres n'affichent pas de moyenne sur 5 ans (MAIF Actions Transition Biodiversité, Sextant PEA). Les tirets sont reproduits tels quels, sans interprétation.",
+  "L'en-tête de colonnes est éclaté sur de nombreuses lignes dans la couche texte ; l'affectation des 11 valeurs de chaque ligne aux colonnes repose sur l'ordre de lecture, constant sur les 25 lignes et vérifié par le fait que chaque ligne contient exactement 11 valeurs dont deux « (dont X %) ».",
+  "edition_date remise a null le 2026-08-01: la valeur 2025 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5."
+ ]
 }

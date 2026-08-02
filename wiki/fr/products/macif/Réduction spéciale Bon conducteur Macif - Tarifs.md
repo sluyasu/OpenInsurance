@@ -137,6 +137,7 @@ Pour toute nouvelle souscription d'un contrat garantissant un véhicule listé, 
 - Le texte contient des espaces typographiques non standard (U+2008 PUNCTUATION SPACE, U+200A HAIR SPACE) notamment autour des symboles % et €, et des apostrophes courbes U+2019. Les citations ont été découpées programmatiquement dans le texte source pour les préserver.
 - Le mot « cœfficient » est orthographié ainsi dans le document (au lieu de « coefficient ») ; l'orthographe de l'assureur est conservée sans correction.
 - Le document renvoie à « l'article 3 des présentes Conditions » et aux « articles 4 et 5 de l'Annexe à l'article A.121 - 1 du Code des assurances » sans en reproduire le contenu.
+- Provenance de edition_date: cette date ne vient pas du texte du document mais du manifeste, ou elle avait ete deduite lors de la decouverte. A verifier contre le document avant d'y appuyer une comparaison d'editions.
 
 ## Documents liés
 

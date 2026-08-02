@@ -200,6 +200,7 @@ Garantie optionnelle. Le document ne détaille pas le contenu de cette garantie.
 - product_family fixée à « Multirisques Initiale & Co » et variant à null : le nom imprimé « Contrat Multirisques « Initiale & Co » » ne porte aucun marqueur de génération Auto 3D/4D, contrairement à son voisin « Contrat Multirisques « Auto 3D Initiale & Co » » (17f27019), dont les garanties diffèrent d'ailleurs sensiblement. Les deux ont donc été gardés dans des familles distinctes plutôt que regroupés ; il s'agit d'un choix de normalisation, non d'une affirmation du document.
 - Le bloc d'identification imprime « Code des Assurances » avec une majuscule à « Assurances » et « 66 rue de Sotteville » sans virgule, comme 17f27019 et à la différence de e306bfd6. Conservé verbatim, sans harmonisation.
 - Défaut du calque texte du PDF, sans incidence sur les valeurs extraites : 5 glyphes de zone privée U+F0FC (puces Wingdings) subsistent en début de puce (pages 1 et 2). Les key_quotes ont été découpées de façon à ne traverser aucun de ces glyphes.
+- Provenance de edition_date: cette date ne vient pas du texte du document mais du manifeste, ou elle avait ete deduite lors de la decouverte. A verifier contre le document avant d'y appuyer une comparaison d'editions.
 
 ## Source & fidélité
 

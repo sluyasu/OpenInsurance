@@ -11,7 +11,7 @@ target_audience: particuliers
 target_audience_note: Cette faculté est ouverte pour les contrats couvrant les personnes
   physiques en dehors de leurs activités professionnelles.
 reference: null
-edition_date: 2026-01
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/edpm
@@ -27,7 +27,7 @@ prompt_version: '1.1'
 product_family: assurance-edpm
 variant: null
 edition_status: null
-edition_age_years: 0
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -41,7 +41,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de l’Assurance EDPM de Thélem assurances. L’assurance EDPM a pour objectif de garantir l’assuré contre les conséquences des dommages matériels ou corporels causés par son véhicule à un tiers (responsabilité civile) ; c’est une assurance obligatoire. Le contrat prévoit également les dommages corporels du conducteur et, selon les formules souscrites, il couvre aussi les dommages matériels du véhicule assuré. Sont concernés les engins de déplacement personnels motorisés (trottinettes électriques, monoroues, gyropodes, hoverboards, etc…) dont la vitesse maximum est de 25km/h.
 
-- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [EDPM et mobilités douces](../../branches/EDPM%20et%20mobilit%C3%A9s%20douces.md) · Type : IPID / Fiche d'information · Édition : 2026-01
+- Assureur : [Thélem assurances](../../insurers/Th%C3%A9lem%20assurances.md) · Branche : [EDPM et mobilités douces](../../branches/EDPM%20et%20mobilit%C3%A9s%20douces.md) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -169,6 +169,7 @@ Pour la garantie Attentats et actes de terrorisme : territoire national.
 - Le document ne comporte pas de section Définitions ; seule la description des EDPM a été relevée comme définition.
 - Aucun délai de carence ni délai de prescription n’est mentionné dans le document.
 - S’agissant d’un IPID (2 pages), il ne présente qu’un résumé des principales garanties et exclusions ; la liste complète figure dans les Dispositions Générales, non fournies.
+- edition_date remise a null le 2026-08-01: la valeur 2026-01 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 

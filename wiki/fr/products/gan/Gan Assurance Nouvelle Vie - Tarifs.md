@@ -12,7 +12,7 @@ document_type: conditions_tarifaires
 target_audience: null
 target_audience_note: null
 reference: null
-edition_date: 2026-03
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/retraite
@@ -28,7 +28,7 @@ prompt_version: '1.1'
 product_family: nouvelle-vie
 variant: Gan Assurances
 edition_status: null
-edition_age_years: 0
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -42,7 +42,7 @@ generated: true
 
 Fiche de transparence des frais du PER Individuel Gan Assurance Nouvelle Vie, publiée au titre de l'engagement de Groupama Gan Vie de mettre à jour annuellement l'information sur les frais. Elle indique le montant minimal de versement, les frais d'adhésion à l'association souscriptrice, les frais annuels de gestion du plan (supports fonds euros et unités de compte), les frais moyens de gestion des fonds en gestion libre et en gestion pilotée par horizon (profils prudent, équilibré, dynamique) avec la part rétrocédée à l'assureur, ainsi que les frais ponctuels par opération. Le document ne décrit ni les garanties ni les exclusions du plan.
 
-- Assureur : [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../../insurers/Gan%20Assurances.md) · Branche : [Retraite supplémentaire](../../branches/Retraite%20suppl%C3%A9mentaire.md) · Type : Conditions tarifaires · Édition : 2026-03
+- Assureur : [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../../insurers/Gan%20Assurances.md) · Branche : [Retraite supplémentaire](../../branches/Retraite%20suppl%C3%A9mentaire.md) · Type : Conditions tarifaires
 
 ## Définitions
 
@@ -104,6 +104,7 @@ Fiche de transparence des frais du PER Individuel Gan Assurance Nouvelle Vie, pu
 - Doublon relevé tel quel : « Droit unique de 5 € à l’adhésion » figure à la fois en « Frais d'adhésion à l'association ayant souscrit le contrat » et en « Frais forfaitaires » sous la rubrique « Autres frais annuels », alors qu'il s'agit d'un droit unique et non d'un frais annuel.
 - Porteur du risque : le document nomme Groupama Gan Vie (SA au capital de 1 371 100 605 euros, RCS Paris 340 427 616, APE 6511Z) comme assureur et précise « Gan Assurances distribue les produits de Groupama Gan Vie ». insurer_slug/insurer_name sont conservés tels que fournis par la tâche (Gan Assurances, RCS Paris 542 063 797), qui n'est ici que distributeur.
 - Le document ne comporte ni durée/résiliation, ni procédure de sinistre, ni délai de prescription, ni franchise : ces blocs restent vides ou null.
+- edition_date remise a null le 2026-08-01: la valeur 2026-03 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Documents liés
 

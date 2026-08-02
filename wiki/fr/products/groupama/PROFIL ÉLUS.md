@@ -19,7 +19,7 @@ target_audience_note: 'Le document ne comporte pas de rubrique « public visé �
   personnes physiques, dans le cadre de mandats publics locaux (couverture « Collectivités
   »).'
 reference: RÉF. 3350-213452-012026 • MODÈLE PEL05
-edition_date: 2026-01
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/rc-professionnelle
@@ -35,7 +35,7 @@ prompt_version: '1.1'
 product_family: profil-elus
 variant: null
 edition_status: null
-edition_age_years: 0
+edition_age_years: null
 superseded: null
 extends: null
 freshness: '2026-07-30'
@@ -49,7 +49,7 @@ generated: true
 
 Dispositions Générales et Garanties du contrat PROFIL ÉLUS (gamme Collectivités) de Groupama, destiné aux élus locaux exerçant un mandat au sein d'une collectivité ou d'un établissement public. Le contrat a pour objet d'accorder les garanties Responsabilité personnelle, Protection juridique, Accidents corporels, Pertes de revenus et Assistance, celles retenues étant indiquées aux Conditions Personnelles. Le document définit les termes du contrat, l'étendue territoriale, les exclusions générales et particulières, le fonctionnement (durée, cotisation, indexation, résiliation, prescription), les obligations en cas de sinistre et les dispositions diverses (données personnelles, dématérialisation, réclamations, sanctions internationales). Les montants de garantie et les franchises ne figurent pas dans ce fascicule : ils renvoient systématiquement au Tableau des Montants de Garantie et des Franchises et aux Conditions Personnelles.
 
-- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : Conditions générales · Édition : 2026-01
+- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : Conditions générales
 
 ## Définitions
 
@@ -604,6 +604,7 @@ Aux termes de l'article L.114-1 du Code des assurances, toutes actions dérivant
 - Aucun délai d'attente (carence) n'est stipulé dans le document : `waiting_periods` est vide.
 - La branche fournie par la tâche est `rc-professionnelle` ; le contrat regroupe en réalité cinq garanties (responsabilité personnelle de l'élu, protection juridique, accidents corporels, pertes de revenus, assistance) qui débordent de cette seule branche.
 - La gestion des prestations d'assistance est confiée à MUTUAIDE ASSISTANCE, présentée comme « filiale spécialisée de GROUPAMA », l'assureur de l'assistance restant « la Caisse Régionale d'Assurances Mutuelles Agricoles ci-après dénommée GROUPAMA Assistance », non nommée.
+- edition_date remise a null le 2026-08-01: la valeur 2026-01 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Documents liés
 

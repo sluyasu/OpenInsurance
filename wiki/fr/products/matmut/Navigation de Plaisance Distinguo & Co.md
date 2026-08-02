@@ -726,6 +726,7 @@ Conformément à l'article L.114-1 du Code des assurances, toutes actions dériv
 - is_optional laissé à null pour la plupart des garanties : l'article 2-2 pose que « Les garanties vous sont acquises uniquement lorsqu'elles ont été souscrites et qu'elles figurent aux Conditions particulières » (page 10) sans distinguer un socle obligatoire d'options. Le champ n'a été renseigné que là où le document qualifie lui-même la garantie d'extension (mise en location du bateau assuré, indemnisation en prix d'acquisition) ou la décrit comme acquise (assistance, article 15).
 - Le contrat ne prévoit aucun délai de carence : waiting_periods est vide parce que le document n'en mentionne aucun, et non parce que la section aurait été omise.
 - Deux points de vocabulaire du document sont laissés tels quels bien qu'ils paraissent fautifs : « Protection Juridique relative aux bien assuré » dans le tableau des seuils de déclenchement (article 2-3, page 11), et la référence « article 14-4- » (page 22) avec un tiret surnuméraire. La coquille de l'assureur n'a pas été corrigée.
+- Provenance de edition_date: cette date ne vient pas du texte du document mais du manifeste, ou elle avait ete deduite lors de la decouverte. A verifier contre le document avant d'y appuyer une comparaison d'editions.
 
 ## Source & fidélité
 

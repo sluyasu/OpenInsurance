@@ -111,6 +111,7 @@ Pendant cette période d'hivernage, et sous réserve que toutes les conditions s
 - Porteur de risque : le document imprime « Matmut & Co », société anonyme immatriculée « N° 487 597 510 RCS Rouen », distincte de la mutuelle « Matmut - Mutuelle assurance des travailleurs mutualistes » (Siren 775 701 477) désignée par les métadonnées de la tâche. insurer_name reproduit l'entité réellement imprimée. Aucun Siren n'est imprimé ici, seulement un numéro RCS.
 - Le calque texte de ce document est propre : ni glyphe de zone privée, ni caractère de contrôle, ni trait d'union conditionnel. Il mêle en revanche apostrophes courbes (U+2019) et apostrophes ASCII à l'intérieur d'une même phrase (par exemple « contrat d'assurance le garantissant », « L'avantage s'applique », « l'année suivante ») ; les key_quotes ont été découpées programmatiquement dans le texte du PDF et reproduisent ce mélange tel quel.
 - Le document ne chiffre aucun montant de cotisation : seul le taux de réduction de 5 % est indiqué.
+- Provenance de edition_date: cette date ne vient pas du texte du document mais du manifeste, ou elle avait ete deduite lors de la decouverte. A verifier contre le document avant d'y appuyer une comparaison d'editions.
 
 ## Documents liés
 

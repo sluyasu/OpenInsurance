@@ -10,7 +10,7 @@ document_type: conditions_tarifaires
 target_audience: null
 target_audience_note: null
 reference: MUT/ FC/ FRAIS/MV - 06/24
-edition_date: 2024-06
+edition_date: null
 lang: fr
 tags:
 - insurance/fr/assurance-vie
@@ -26,7 +26,7 @@ prompt_version: '1.1'
 product_family: multi-vie
 variant: null
 edition_status: null
-edition_age_years: 2
+edition_age_years: null
 superseded: true
 extends: null
 freshness: '2026-08-01'
@@ -40,7 +40,7 @@ generated: true
 
 Tableau standardisé des frais du contrat d'assurance vie Multi Vie, sur une page, édition JUIN 2024. Il présente le montant minimal de versement initial (50 €), les frais annuels (frais de gestion du contrat par support, frais de gestion des unités de compte en gestion libre avec la part rétrocédée au distributeur, autres frais annuels) et les frais ponctuels par opération (versement, arbitrage, changement de mode de gestion, transfert sortant, versements de rente, rachat). Le contrat est assuré par Mutavie SE, entreprise régie par le Code des assurances. Le document ne décrit ni les garanties ni les modalités contractuelles : il ne porte que sur les frais du dernier exercice clos.
 
-- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Conditions tarifaires · Édition : 2024-06
+- Assureur : [Macif](../../insurers/Macif.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Conditions tarifaires
 
 ## Définitions
 
@@ -107,6 +107,7 @@ Tableau standardisé des frais du contrat d'assurance vie Multi Vie, sur une pag
 - Le contrat n'est pas rattaché à une association souscriptrice dans ce document (contrairement au tableau de frais Multi Horizon Retraite du même éditeur, souscrit par l'AGEPER) ; aucun « frais d'adhésion à l'association » n'y figure d'ailleurs.
 - PIÈGE TYPOGRAPHIQUE — ESPACES FINES AVANT LES APPELS DE NOTE : la couche texte insère une ESPACE FINE U+2009 (et non une espace ordinaire) entre le libellé et son appel de note, aux 8 emplacements suivants : « Fonds actions␉(2) », « Fonds immobilier␉(4) », « Les frais du Multi Vie␉(1) » et les cinq occurrences de « Dont taux de rétrocessions de commissions␉(3) ». Une citation retapée à la main avec une espace ordinaire à ces endroits ne correspondrait PAS au texte source. Les citations de ce fichier sont des tranches programmatiques et contiennent donc bien le caractère U+2009.
 - Texte vérifié : les quotes sont des tranches exactes du texte ré-extrait du PDF local (PyMuPDF, page.get_text("text")), identique caractère pour caractère au texte du prompt une fois les marqueurs [page N] retirés. Autres particularités de la couche texte préservées telles quelles : 2 apostrophes typographiques U+2019 (aucune apostrophe ASCII), 8 espaces fines U+2009 (ci-dessus), 1 espace insécable U+00A0 dans la toute première ligne « NA : non applicable. » (entre « NA » et le deux-points — les espaces de « 46 200 000 € » sont en revanche ordinaires), 5 tabulations dans les numéros de section (« 1.1\t », « 1.2.1\t »…), des guillemets courbes U+201C/U+201D autour de “fonds actions” et “fonds immobilier”, un signe degré dans « Mode de gestion n°1 » et une espace finale après « un maximum de 30 € ». Aucun espace de largeur nulle, aucun tiret conditionnel, aucun glyphe de zone privée, aucune ligature perdue, aucune coupure de mot par tiret en fin de ligne.
+- edition_date remise a null le 2026-08-01: la valeur 2024-06 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
 ## Source & fidélité
 
