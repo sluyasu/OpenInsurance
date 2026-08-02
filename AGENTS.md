@@ -27,7 +27,7 @@ navigate it without guessing. Do not edit by hand.
 |---|---|---|---|---|---|
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
 | ch (Switzerland) | 0 | 3 | 1 | 0 | 5 |
-| fr (France) | 24 | 531 | 10 | 1 | 5 |
+| fr (France) | 24 | 532 | 10 | 1 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
 
@@ -579,6 +579,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | multirisque-professionnelle | maaf | Multirisque des Professionnels du Bâtiment et des Travaux Publics | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/CG/MAAF_Conditions_generales_Multirisque_pro_btp_11036.pdf) |
 | fr | multirisque-professionnelle | maaf | PROFESSIONS DE LA RESTAURATION ET DE L'HÔTELLERIE — INTERCALAIRE | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Intercalaire_Restauration_hotellerie_11045.pdf) |
 | fr | multirisque-professionnelle | maaf | SYNDICATS PROFESSIONNELS ARTISANAUX — INTERCALAIRE | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Intercalaire_Syndicats_professionnels_artisanaux_11042.pdf) |
+| fr | multirisque-professionnelle | macif | Contrat Multigarantie Activité Professionnelle - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_multigarantie_activite_professionnelle.pdf) |
 | fr | multirisque-professionnelle | macif | Contrat Multigarantie Informatique - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_assurance_materiel_informatique.pdf) |
 | fr | multirisque-professionnelle | maif | Multirisque Entreprises - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/entreprises/document-information-assurance-multirisque-entreprise.pdf) |
 | fr | multirisque-professionnelle | maif | Raqvam Associations et Collectivités | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/conditions-generales-raqvam-associations-et-collectivites.pdf) |

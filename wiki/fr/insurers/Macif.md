@@ -5,7 +5,7 @@ country: fr
 insurer_slug: macif
 name: Macif
 website: https://www.macif.fr
-products_count: 61
+products_count: 62
 branches_covered:
 - animaux
 - assurance-vie
@@ -40,7 +40,7 @@ generated: true
 
 ## Résumé
 
-**Macif** - [https://www.macif.fr](https://www.macif.fr). 61 document(s) across 18 branch(es).
+**Macif** - [https://www.macif.fr](https://www.macif.fr). 62 document(s) across 18 branch(es).
 
 ## Produits par branche
 
@@ -99,6 +99,7 @@ generated: true
 - [Contrat Deux Roues](../products/macif/Contrat%20Deux%20Roues.md) - Conditions générales (2018-11-25) · réf. VEH/MOTO/05-25/11/18-N760
 
 ### [Multirisque professionnelle](../branches/Multirisque%20professionnelle.md)
+- [Contrat Multigarantie Activité Professionnelle - IPID](../products/macif/Contrat%20Multigarantie%20Activit%C3%A9%20Professionnelle%20-%20IPID.md) - IPID / Fiche d'information (06/23) · réf. ACTP/MAP
 - [Contrat Multigarantie Informatique - IPID](../products/macif/Contrat%20Multigarantie%20Informatique%20-%20IPID.md) - IPID / Fiche d'information (2018-10) · réf. ACTP/MI 10/18
 
 ### [Navigation de plaisance](../branches/Navigation%20de%20plaisance.md)

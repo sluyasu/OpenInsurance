@@ -466,7 +466,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Sécurité des fonctionnaires territoriaux](../products/smacl/S%C3%A9curit%C3%A9%20des%20fonctionnaires%20territoriaux.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [Responsabilité Civile Chef d'Entreprise- Professions libérales - IPID](../products/thelem/Responsabilit%C3%A9%20Civile%20Chef%20d%27Entreprise-%20Professions%20lib%C3%A9rales%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 
-### [Multirisque professionnelle](Multirisque%20professionnelle.md) (38)
+### [Multirisque professionnelle](Multirisque%20professionnelle.md) (39)
 - [CAPEB — INTERCALAIRE](../products/maaf/CAPEB%20%E2%80%94%20INTERCALAIRE.md) - [MAAF](../insurers/MAAF.md)
 - [COMMERCES D'ALIMENTATION — INTERCALAIRE](../products/maaf/COMMERCES%20D%27ALIMENTATION%20%E2%80%94%20INTERCALAIRE.md) - [MAAF](../insurers/MAAF.md)
 - [MULTIRISQUE PROFESSIONNELLE](../products/maaf/MULTIRISQUE%20PROFESSIONNELLE.md) - [MAAF](../insurers/MAAF.md)
@@ -479,6 +479,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Raqvam Associations et Collectivités - IPID](../products/maif/Raqvam%20Associations%20et%20Collectivit%C3%A9s%20-%20IPID.md) - [MAIF](../insurers/MAIF.md)
 - [Raqvam Associations et Collectivités](../products/maif/Raqvam%20Associations%20et%20Collectivit%C3%A9s.md) - [MAIF](../insurers/MAIF.md)
 - [Raqvam Associations et Collectivités - CP](../products/maif/Raqvam%20Associations%20et%20Collectivit%C3%A9s%20-%20CP.md) - [MAIF](../insurers/MAIF.md)
+- [Contrat Multigarantie Activité Professionnelle - IPID](../products/macif/Contrat%20Multigarantie%20Activit%C3%A9%20Professionnelle%20-%20IPID.md) - [Macif](../insurers/Macif.md)
 - [Contrat Multigarantie Informatique - IPID](../products/macif/Contrat%20Multigarantie%20Informatique%20-%20IPID.md) - [Macif](../insurers/Macif.md)
 - [Association](../products/matmut/Association.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Caducée](../products/matmut/Caduc%C3%A9e.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
