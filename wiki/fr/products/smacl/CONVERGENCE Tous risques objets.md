@@ -30,7 +30,7 @@ extraction_model: claude-code-subagent:scale
 prompt_version: '1.1'
 product_family: convergence
 variant: Associatons
-edition_status: null
+edition_status: current
 edition_age_years: 2
 superseded: null
 extends: conditions générales Convergence et conventions spéciales Dommages aux biens
@@ -113,7 +113,9 @@ La garantie de SMACL Assurances porte sur les frais de remplacement ou de répar
 
 ## Documents liés
 
+- Édition courante de ce produit.
 - Extension / option du produit : **conditions générales Convergence et conventions spéciales Dommages aux biens Convergence**
+- [CONVERGENCE Tous risques instruments de musique](CONVERGENCE%20Tous%20risques%20instruments%20de%20musique.md) - Conditions générales, éd. 01/2024
 
 ## Source & fidélité
 

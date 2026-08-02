@@ -5,7 +5,7 @@ country: fr
 insurer_slug: smacl
 name: SMACL Assurances
 website: https://www.smacl.fr
-products_count: 40
+products_count: 43
 branches_covered:
 - auto
 - autres
@@ -29,13 +29,14 @@ generated: true
 
 ## Résumé
 
-**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 40 document(s) across 7 branch(es).
+**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 43 document(s) across 7 branch(es).
 
 ## Produits par branche
 
 ### [Assurance auto](../branches/Assurance%20auto.md)
 - [ALÉASSUR Auto collaborateurs - conventions spéciales](../products/smacl/AL%C3%89ASSUR%20Auto%20collaborateurs%20-%20conventions%20sp%C3%A9ciales.md) - Conditions générales (01/2024) · réf. ALEASSUR_CS_AutoCollab_02(05_2015)
 - [CONVERGENCE - Auto collaborateurs - Garantie en substitution au contrat personnel](../products/smacl/CONVERGENCE%20-%20Auto%20collaborateurs%20-%20Garantie%20en%20substitution%20au%20contrat%20personnel.md) - Conditions générales (04/2025) · réf. CONVERGENCE_CS_ACSUBS_SA_02(04_2016)
+- [Conventions spéciales CONVERGENCE - Auto collaborateurs, garantie complémentaire au contrat personnel](../products/smacl/Conventions%20sp%C3%A9ciales%20CONVERGENCE%20-%20Auto%20collaborateurs%2C%20garantie%20compl%C3%A9mentaire%20au%20contrat%20personnel.md) - Conditions générales (04/2025) · réf. CONVERGENCE_CS_ACCOMPLT_SA_05(04_2016)
 - [Convergence Auto collaborateurs - garantie complémentaire - IPID](../products/smacl/Convergence%20Auto%20collaborateurs%20-%20garantie%20compl%C3%A9mentaire%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. CONVERGENCE_DIPA_ACCOMPLT_SA_03(09_2022)
 - [Flotte entreprises - IPID](../products/smacl/Flotte%20entreprises%20-%20IPID.md) - IPID / Fiche d'information (02/2024) · réf. ENTREPRISE_DIPA_FLOTTE_03(06_2021)
 - [Territorialité des garanties - Contrat Véhicules à moteur - Doc](../products/smacl/Territorialit%C3%A9%20des%20garanties%20-%20Contrat%20V%C3%A9hicules%20%C3%A0%20moteur%20-%20Doc.md) - Document (01/01/2026) · réf. FICHE_TERRITORIALITE_01(12_2025)
@@ -58,6 +59,7 @@ generated: true
 - [Assistance Patrimoine des associations](../products/smacl/Assistance%20Patrimoine%20des%20associations.md) - Conditions générales (01/2024) · réf. CONVERGENCE_ADA_CA_PATRIMOINE_02(02_2023)
 - [Assurance Spéciale Accueil Enfants - IPID](../products/smacl/Assurance%20Sp%C3%A9ciale%20Accueil%20Enfants%20-%20IPID.md) - IPID / Fiche d'information (01/2024) · réf. CONVERGENCE_DIPA_ACCUEIL_ENFANTS_ACEPP
 - [Assurance bris de machine](../products/smacl/Assurance%20bris%20de%20machine.md) - Conditions générales (11/2022) · réf. ASA CS BDM - MOD 02_SA(01-1992)
+- [CONVERGENCE Tous risques instruments de musique](../products/smacl/CONVERGENCE%20Tous%20risques%20instruments%20de%20musique.md) - Conditions générales (01/2024) · réf. CONVERGENCE_CS_INSTRUMENTS_SA_01(06_2015)
 - [CONVERGENCE Tous risques objets](../products/smacl/CONVERGENCE%20Tous%20risques%20objets.md) - Conditions générales (01/2024) · réf. CONVERGENCE_CS_TRO_SA_04_(05_2016)
 - [Convergence dommages aux biens - IPID](../products/smacl/Convergence%20dommages%20aux%20biens%20-%20IPID.md) - IPID / Fiche d'information (01/2024) · réf. CONVERGENCE_DIPA_DAB_SA_04(09_2022)
 - [Votre barème de remboursement des honoraires d'expert d'assuré en Dommages aux biens - Tarifs](../products/smacl/Votre%20bar%C3%A8me%20de%20remboursement%20des%20honoraires%20d%27expert%20d%27assur%C3%A9%20en%20Dommages%20aux%20biens%20-%20Tarifs.md) - Conditions tarifaires (01/2024) · réf. BAREME_EXPERT_ASSURE_DAB_(10-2012)
@@ -65,6 +67,7 @@ generated: true
 ### [Prévoyance](../branches/Pr%C3%A9voyance.md)
 - [ALÉASSUR Risques statutaires CNRACL](../products/smacl/AL%C3%89ASSUR%20Risques%20statutaires%20CNRACL.md) - Conditions générales (06/2025) · réf. ALEASSUR_CS_RS_CNRACL_06(06_2023)
 - [ALÉASSUR Risques statutaires IRCANTEC](../products/smacl/AL%C3%89ASSUR%20Risques%20statutaires%20IRCANTEC.md) - Conditions générales (11/2025) · réf. ALEASSUR_CS_RS_IRCANTEC_05(06_2023)
+- [Aléassur - Risques statutaires IRCANTEC - IPID](../products/smacl/Al%C3%A9assur%20-%20Risques%20statutaires%20IRCANTEC%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. ALEASSUR_DIPA_RS_IRCANTEC_01(06_2019)
 - [Convergence individuelle accidents corporels - IPID](../products/smacl/Convergence%20individuelle%20accidents%20corporels%20-%20IPID.md) - IPID / Fiche d'information (01/2024) · réf. CONVERGENCE_DIPA_IAC_03(09_2022)
 - [Sécurité des salariés et bénévoles d'association - IPID](../products/smacl/S%C3%A9curit%C3%A9%20des%20salari%C3%A9s%20et%20b%C3%A9n%C3%A9voles%20d%27association%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. SSBA_DIPA_01(03_2019)
 

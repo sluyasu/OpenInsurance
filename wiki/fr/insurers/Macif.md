@@ -5,7 +5,7 @@ country: fr
 insurer_slug: macif
 name: Macif
 website: https://www.macif.fr
-products_count: 37
+products_count: 40
 branches_covered:
 - animaux
 - assurance-vie
@@ -18,6 +18,8 @@ branches_covered:
 - multirisque-professionnelle
 - navigation
 - obseques
+- protection-juridique
+- rc-privee
 - rc-professionnelle
 - retraite
 - sante
@@ -36,7 +38,7 @@ generated: true
 
 ## Résumé
 
-**Macif** - [https://www.macif.fr](https://www.macif.fr). 37 document(s) across 14 branch(es).
+**Macif** - [https://www.macif.fr](https://www.macif.fr). 40 document(s) across 16 branch(es).
 
 ## Produits par branche
 
@@ -75,6 +77,7 @@ generated: true
 - [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire](../products/macif/Contrat%20Habitation%20-%20Formule%20%C3%89conomique%20-%20R%C3%A9sidence%20principale%20-%20R%C3%A9sidence%20secondaire.md) - Conditions générales (05/18) · réf. HAB/ECO/05 - 05/18 - N781
 - [Contrat Macif Habitation - Formule Construction - IPID](../products/macif/Contrat%20Macif%20Habitation%20-%20Formule%20Construction%20-%20IPID.md) - IPID / Fiche d'information (2025-06) · réf. MACIF HAB MC 06/25
 - [Macif Habitation](../products/macif/Macif%20Habitation.md) - Conditions générales (06/25 (Version 06/2025)) · réf. MACIF HAB/05 - 06/25 - N570
+- [Sociétaire non occupant - Immeubles en copropriété - IPID](../products/macif/Soci%C3%A9taire%20non%20occupant%20-%20Immeubles%20en%20copropri%C3%A9t%C3%A9%20-%20IPID.md) - IPID / Fiche d'information (10/18) · réf. HAB-SNO CO 10/18
 - [Sociétaire non occupant - Immeubles locatifs - IPID](../products/macif/Soci%C3%A9taire%20non%20occupant%20-%20Immeubles%20locatifs%20-%20IPID.md) - IPID / Fiche d'information (10/18) · réf. HAB-SNO-IL 10/18
 
 ### [Deux-roues, quads et voiturettes](../branches/Deux-roues%2C%20quads%20et%20voiturettes.md)
@@ -89,6 +92,12 @@ generated: true
 
 ### [Obsèques](../branches/Obs%C3%A8ques.md)
 - [Garantie Obsèques - Doc](../products/macif/Garantie%20Obs%C3%A8ques%20-%20Doc.md) - Document
+
+### [Protection juridique](../branches/Protection%20juridique.md)
+- [Protection Juridique - IPID](../products/macif/Protection%20Juridique%20-%20IPID.md) - IPID / Fiche d'information (10/18) · réf. PJ 10/18
+
+### [Responsabilité civile vie privée](../branches/Responsabilit%C3%A9%20civile%20vie%20priv%C3%A9e.md)
+- [Contrat Multigarantie Vie Privée - Responsabilité Civile - IPID](../products/macif/Contrat%20Multigarantie%20Vie%20Priv%C3%A9e%20-%20Responsabilit%C3%A9%20Civile%20-%20IPID.md) - IPID / Fiche d'information (10/18) · réf. HAB MVP RC 10/18
 
 ### [RC professionnelle](../branches/RC%20professionnelle.md)
 - [Contrat Auto-Micro Entrepreneur](../products/macif/Contrat%20Auto-Micro%20Entrepreneur.md) - Conditions générales (2012-12) · réf. PRO / AUTOE / 05 - 12 / 12 - NM00

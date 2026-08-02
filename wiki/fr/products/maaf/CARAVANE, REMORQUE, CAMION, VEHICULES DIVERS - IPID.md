@@ -190,6 +190,10 @@ Garantie optionnelle proposée « En plus pour camions » : couverture des domma
 - Les coches vertes, croix rouges et « ! » de cet IPID sont des puces décoratives de la couche graphique marquant chaque item de liste ; il n'y a aucun tableau de garanties à colonnes de formules dans ce document, donc aucune matrice d'appartenance à reconstituer.
 - Le texte imprime « Le transport de personnes  à titre onéreux » et « Dommages corporels du conducteur  avec un plafond » avec une double espace ; conservée verbatim.
 
+## Documents liés
+
+- [Camping-Car, Ambulance, Bazar forain, Véhicule de collection - IPID](Camping-Car%2C%20Ambulance%2C%20Bazar%20forain%2C%20V%C3%A9hicule%20de%20collection%20-%20IPID.md) - IPID / Fiche d'information, éd. 2025-06
+
 ## Source & fidélité
 
 - Source : [https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/AUT11028.PDF](https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/AUT11028.PDF) - téléchargé le 2026-08-01 - 2 pages

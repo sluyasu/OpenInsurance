@@ -1,0 +1,492 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "maaf",
+  "insurer_name": "MAAF",
+  "product_name": "Tranquillité famille",
+  "branch": "gav",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "Le document ne désigne aucune catégorie de public. Il définit seulement le cercle des assurés : « le souscripteur, son conjoint, concubin ou partenaire lié par un PACS, ses enfants et les enfants de son conjoint, concubin ou partenaire lié par un PACS, et ses petits-enfants gardés gratuitement et occasionnellement », et mentionne « les personnes physiques » au titre de la résiliation infra-annuelle.",
+  "reference": "TB0_IPIDPR_00-260315-hfvxC9-1-1-2-05:02:18- PRE11004",
+  "edition_date": "2026-03",
+  "product_family": "Tranquillité famille",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/PRE11004.PDF",
+  "source_pdf": "tranquillite-famille-assurance-accidents-de-la-vie-a3ef793f.pdf",
+  "source_sha256": "48ebd698332c1fe579d4bfaf50562b1a5aa5b5731e2ee22c1fd97410ce08a68f",
+  "source_pages": 2,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d'information sur le produit d'assurance (IPID) de la garantie des accidents de la vie « Tranquillité famille » de MAAF Assurances SA. Le contrat couvre les accidents corporels survenus dans le cadre de la vie privée, y compris lors de l'utilisation d'un engin de déplacement personnel motorisé, d'une agression ou d'un attentat, et selon la formule choisie les accidents corporels subis lors de la conduite d'un véhicule loué, prêté ou confié ainsi que les accidents médicaux. Il indemnise les blessures (incapacité temporaire totale supérieure à 5 jours, incapacité permanente partielle supérieure à 5 %) et le décès, et comporte une assistance à domicile, une aide aux aidants, une assistance aux personnes et des renseignements juridiques. Le document précise que les niveaux d'indemnisation sont détaillés dans le tableau des garanties, non joint.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "En cas de blessures d'un assuré — Incapacité temporaire totale (ITT) supérieure à 5 jours",
+      "description": "Incapacité temporaire totale (ITT) supérieure à 5 jours : Remboursement des frais de soins, Versement d'un capital.",
+      "is_optional": false,
+      "territorial_scope": "Monde entier (« Monde entier pour les autres garanties »).",
+      "limits": null,
+      "sub_limits": [
+        "Remboursement des frais de soins",
+        "Versement d'un capital"
+      ],
+      "deductible": "Incapacité temporaire totale supérieure à 5 jours",
+      "conditions": [
+        "L'ITT doit être supérieure à 5 jours.",
+        "A partir des 66 ans de l'assuré, les capitaux dus en cas d'accident corporel garanti sont diminués de 5 % par an (diminution maximum de 50 % pour les frais de soins et le capital incapacité temporaire totale).",
+        "L'invalidité doit par ailleurs être constatée par un médecin exerçant en France."
+      ],
+      "page": 1
+    },
+    {
+      "name": "En cas de blessures d'un assuré — Incapacité permanente partielle (IPP) supérieure à 5 %",
+      "description": "Incapacité permanente partielle (IPP) supérieure à 5 % : Versement d'un capital, Prise en charge des frais d'aménagement de l'habitation et/ou du véhicule, Prise en charge de l'assistance d'une tierce personne.",
+      "is_optional": false,
+      "territorial_scope": "Monde entier (« Monde entier pour les autres garanties »).",
+      "limits": null,
+      "sub_limits": [
+        "Versement d'un capital",
+        "Prise en charge des frais d'aménagement de l'habitation et/ou du véhicule",
+        "Prise en charge de l'assistance d'une tierce personne"
+      ],
+      "deductible": "Franchise de 5 % : l'IPP doit être supérieure à 5 %",
+      "conditions": [
+        "L'IPP doit être supérieure à 5 %.",
+        "A partir des 66 ans de l'assuré, les capitaux dus en cas d'accident corporel garanti sont diminués de 5 % par an (diminution maximum de 80 % pour l'incapacité permanente partielle).",
+        "L'invalidité doit par ailleurs être constatée par un médecin exerçant en France."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Le + MAAF : capital forfaitaire en cas d'IPP inférieure à la franchise",
+      "description": "Le + MAAF : Versement d'un capital forfaitaire pour toute incapacité permanente partielle inférieure à la franchise (5 %) et d'une incapacité totale supérieure à 60 jours.",
+      "is_optional": false,
+      "territorial_scope": "Monde entier (« Monde entier pour les autres garanties »).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Incapacité permanente partielle inférieure à la franchise (5 %).",
+        "Incapacité totale supérieure à 60 jours."
+      ],
+      "page": 1
+    },
+    {
+      "name": "En cas de décès d'un assuré",
+      "description": "Remboursement des frais d'obsèques, Capital versé au conjoint et aux enfants assurés (lors du décès d'un adulte assuré).",
+      "is_optional": false,
+      "territorial_scope": "Monde entier (« Monde entier pour les autres garanties »).",
+      "limits": null,
+      "sub_limits": [
+        "Remboursement des frais d'obsèques",
+        "Capital versé au conjoint et aux enfants assurés (lors du décès d'un adulte assuré)"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le capital au conjoint et aux enfants assurés n'est versé que lors du décès d'un adulte assuré.",
+        "A partir des 66 ans de l'assuré, les capitaux dus sont diminués de 5 % par an (diminution maximum de 50 % pour les frais d'obsèques, de 80 % pour le capital décès conjoint ou assimilé et le capital enfant)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Une assistance à domicile",
+      "description": "Aide ménagère, garde des enfants ou petits-enfants, garde des animaux....",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine, Guadeloupe, Martinique, Guyane et Réunion pour l'assistance à domicile.",
+      "limits": null,
+      "sub_limits": [
+        "Aide ménagère",
+        "Garde des enfants ou petits-enfants",
+        "Garde des animaux...."
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Une aide aux aidants",
+      "description": "Accompagnement de l'aidant, solutions en cas de besoin de répit.",
+      "is_optional": false,
+      "territorial_scope": "Monde entier (« Monde entier pour les autres garanties »).",
+      "limits": null,
+      "sub_limits": [
+        "Accompagnement de l'aidant",
+        "Solutions en cas de besoin de répit"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Une assistance aux personnes",
+      "description": "Accompagnement psychologique, rapatriement sanitaire, frais de soins à l'étranger...",
+      "is_optional": false,
+      "territorial_scope": "Monde entier (« Monde entier pour les autres garanties »).",
+      "limits": null,
+      "sub_limits": [
+        "Accompagnement psychologique",
+        "Rapatriement sanitaire",
+        "Frais de soins à l'étranger..."
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Renseignements juridiques",
+      "description": "Renseignements juridiques. Le document se limite à l'intitulé de la garantie, sans en décrire le contenu.",
+      "is_optional": false,
+      "territorial_scope": "Monde entier (« Monde entier pour les autres garanties »).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Accidents corporels subis lors de la conduite d'un véhicule loué, prêté ou confié",
+      "description": "Selon la formule de garantie choisie, le contrat peut également couvrir les accidents corporels subis lors de la conduite d'un véhicule loué, prêté ou confié.",
+      "is_optional": true,
+      "territorial_scope": "Monde entier (« Monde entier pour les autres garanties »).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Couverture subordonnée à la formule de garantie choisie (« Selon la formule de garantie choisie »). Le document ne nomme ni ne liste les formules."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Accidents médicaux",
+      "description": "Selon la formule de garantie choisie, le contrat peut également couvrir les accidents médicaux.",
+      "is_optional": true,
+      "territorial_scope": "Monde entier (« Monde entier pour les autres garanties »).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Couverture subordonnée à la formule de garantie choisie (« Selon la formule de garantie choisie »). Le document ne nomme ni ne liste les formules."
+      ],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Accidents survenus dans le cadre de l'activité professionnelle",
+      "description": "Les accidents survenus dans le cadre de votre activité professionnelle (à l’exception des accidents survenant lors des déplacements domicile/travail).",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Suicide ou tentative de suicide",
+      "description": "Le suicide ou la tentative de suicide,",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Conséquences de tout acte provoqué volontairement",
+      "description": "Les conséquences de tout acte provoqué volontairement,",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Accidents résultant de la pratique de certains sports",
+      "description": "Les accidents résultant de la pratique de certains sports,",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Guerres étrangères et guerres civiles",
+      "description": "Les guerres étrangères et guerres civiles,",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Accidents survenant sous l'empire de l'alcool et/ou des stupéfiants",
+      "description": "Les accidents survenant sous l'empire de l'alcool et/ou des stupéfiants,",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Maladies, y compris celles ayant pour origine un accident corporel ou un accident médical garanti",
+      "description": "Les maladies y compris celles ayant pour origine un accident corporel ou un accident médical garanti,",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Affections vasculaires et/ou circulatoires, atteintes musculaires, tendineuses ou ligamentaires",
+      "description": "Toute affection vasculaire et/ou circulatoire et toute atteinte musculaire, tendineuse ou ligamentaire,",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Accidents impliquant un véhicule terrestre à moteur lorsque l'assuré n'a pas la qualité de conducteur",
+      "description": "Les accidents impliquant un véhicule terrestre à moteur lorsque l’assuré n’a pas la qualité de conducteur.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Diminution des capitaux à partir de 66 ans (restriction)",
+      "description": "A partir des 66 ans de l’assuré, les capitaux dus en cas d’accident corporel garanti sont diminués de 5 % par an (avec une diminution maximum de 50 % pour les frais de soins, frais d’obsèques et le capital incapacité temporaire totale, et une diminution maximum de 80 % pour le capital décès conjoint ou assimilé, le capital enfant et l’incapacité permanente partielle). Le document classe ce point sous « Les principales restrictions » de la rubrique « Y a-t-il des exclusions à la couverture ? ».",
+      "applies_to": "all",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": null,
+    "per_coverage": {
+      "Incapacité temporaire totale (ITT)": "L'ITT doit être supérieure à 5 jours.",
+      "Incapacité permanente partielle (IPP)": "Franchise de 5 % : l'IPP doit être supérieure à 5 %. Le + MAAF verse un capital forfaitaire pour toute incapacité permanente partielle inférieure à la franchise (5 %) et d'une incapacité totale supérieure à 60 jours."
+    },
+    "page": 1
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "À la souscription du contrat",
+      "description": "Répondre avec exactitude et sincérité à toutes les questions qui sont posées et fournir les justificatifs demandés.",
+      "timing": "À la souscription du contrat",
+      "sanction": "Sous peine de nullité du contrat d'assurance ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "En cours de contrat",
+      "description": "Nous déclarer les circonstances nouvelles qui modifient les informations fournies lors de la souscription.",
+      "timing": "En cours de contrat",
+      "sanction": "Sous peine de nullité du contrat d'assurance ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "À la souscription et à chaque renouvellement",
+      "description": "Régler votre cotisation aux dates convenues.",
+      "timing": "À la souscription et à chaque renouvellement",
+      "sanction": "Sous peine de nullité du contrat d'assurance ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "En cas de sinistre",
+      "description": "Nous le déclarer dès que vous en avez connaissance et au plus tard dans le délai fixé par le contrat.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de nullité du contrat d'assurance ou de non garantie",
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclaration du sinistre",
+      "description": "Nous déclarer le sinistre dès que vous en avez connaissance.",
+      "deadline": "Dès que vous en avez connaissance et au plus tard dans le délai fixé par le contrat",
+      "page": 2
+    },
+    {
+      "step": "Constatation médicale de l'invalidité",
+      "description": "L'invalidité doit être constatée par un médecin exerçant en France.",
+      "deadline": null,
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Les garanties prennent effet à compter de la date mentionnée sur les conditions particulières. Le contrat est conclu jusqu'au 31 décembre de l'année de souscription avec tacite reconduction annuelle, ce qui signifie qu'il est automatiquement renouvelé à l'échéance (la date d'échéance est le 1er janvier à 00h00).",
+    "tacit_renewal": true,
+    "notice_period": null,
+    "methods": [
+      "Par déclaration auprès de nos conseillers (en agence ou par téléphone)",
+      "Par lettre ou support durable (e-mail, espace client sur maaf.fr et sur l'application mobile MAAF et Moi)"
+    ],
+    "special_rights": [
+      "Résiliation à l'échéance annuelle",
+      "Résiliation à tout moment à l'expiration d'un délai d'un an à compter de la souscription pour les personnes physiques",
+      "Résiliation lors de la survenance de certains événements (modification de votre situation personnelle et professionnelle, évolution de la réglementation...)"
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "La cotisation peut être réglée en paiement annuel, semestriel, trimestriel ou mensuel (10 ou 12 fois) par chèque, prélèvement automatique, carte bancaire.",
+      "À la souscription et à chaque renouvellement : régler votre cotisation aux dates convenues."
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Les assurés",
+      "description": "Les assurés : le souscripteur, son conjoint, concubin ou partenaire lié par un PACS, ses enfants et les enfants de son conjoint, concubin ou partenaire lié par un PACS, et ses petits-enfants gardés gratuitement et occasionnellement.",
+      "page": 1
+    },
+    {
+      "name": "Champ du risque garanti",
+      "description": "Ce contrat d'assurance permet de vous couvrir contre les accidents corporels dans le cadre de votre vie privée, y compris lors de l'utilisation d'un engin de déplacement personnel motorisé, d'une agression ou d'un attentat. Selon la formule de garantie choisie, le contrat peut également couvrir les accidents corporels subis lors de la conduite d'un véhicule loué, prêté ou confié, ainsi que les accidents médicaux.",
+      "page": 1
+    },
+    {
+      "name": "Diminution des capitaux à partir de 66 ans",
+      "description": "A partir des 66 ans de l’assuré, les capitaux dus en cas d’accident corporel garanti sont diminués de 5 % par an (avec une diminution maximum de 50 % pour les frais de soins, frais d’obsèques et le capital incapacité temporaire totale, et une diminution maximum de 80 % pour le capital décès conjoint ou assimilé, le capital enfant et l’incapacité permanente partielle).",
+      "page": 1
+    },
+    {
+      "name": "Étendue territoriale",
+      "description": "France métropolitaine, Guadeloupe, Martinique, Guyane et Réunion pour l'assistance à domicile. Monde entier pour les autres garanties. L'invalidité doit par ailleurs être constatée par un médecin exerçant en France.",
+      "page": 2
+    },
+    {
+      "name": "Constatation de l'invalidité",
+      "description": "L'invalidité doit par ailleurs être constatée par un médecin exerçant en France.",
+      "page": 2
+    },
+    {
+      "name": "Portée du document",
+      "description": "Ce document d'information présente un résumé des principales garanties et exclusions du produit et ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l'information complète sur ce produit dans la documentation précontractuelle et contractuelle, en particulier, les niveaux d'indemnisation seront détaillés dans le tableau des garanties.",
+      "page": 1
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Ce contrat d'assurance permet de vous couvrir contre les accidents corporels dans le cadre de votre vie privée, y\ncompris lors de l'utilisation d'un engin de déplacement personnel motorisé, d'une agression ou d'un attentat. Selon\nla formule de garantie choisie, le contrat peut également couvrir les accidents corporels subis lors de la conduite\nd'un véhicule loué, prêté ou confié, ainsi que les accidents médicaux.",
+      "context": "De quel type d'assurance s'agit-il ?",
+      "page": 1
+    },
+    {
+      "quote": "Les assurés : le souscripteur, son conjoint, concubin ou\npartenaire lié par un PACS, ses enfants et les enfants de\nson conjoint, concubin ou partenaire lié par un PACS, et ses\npetits-enfants gardés gratuitement et occasionnellement.",
+      "context": "Qu'est-ce qui est assuré ? - Les assurés",
+      "page": 1
+    },
+    {
+      "quote": "En cas de blessures d'un assuré\nIncapacité temporaire totale (ITT) supérieure à 5 jours :\nRemboursement des frais de soins,\nVersement d'un capital.",
+      "context": "Les garanties - En cas de blessures d'un assuré (ITT)",
+      "page": 1
+    },
+    {
+      "quote": "Incapacité permanente partielle (IPP) supérieure à 5 % :\nVersement d'un capital,\nPrise\nen\ncharge\ndes\nfrais\nd'aménagement\nde\nl'habitation et/ou du véhicule,\nPrise en charge de l'assistance d'une tierce personne.",
+      "context": "Les garanties - En cas de blessures d'un assuré (IPP)",
+      "page": 1
+    },
+    {
+      "quote": "Le + MAAF :\nVersement d'un capital forfaitaire pour toute incapacité\npermanente partielle inférieure à la franchise (5 %) et\nd'une incapacité totale supérieure à 60 jours.",
+      "context": "Les garanties - Le + MAAF",
+      "page": 1
+    },
+    {
+      "quote": "En cas de décès d'un assuré\nRemboursement des frais d'obsèques,\nCapital versé au conjoint et aux enfants assurés (lors du\ndécès d'un adulte assuré).",
+      "context": "Les garanties - En cas de décès d'un assuré",
+      "page": 1
+    },
+    {
+      "quote": "Une assistance à domicile\nAide\nménagère,\ngarde\ndes\nenfants\nou\npetits-enfants,\ngarde des animaux....",
+      "context": "Les garanties - Une assistance à domicile",
+      "page": 1
+    },
+    {
+      "quote": "Une aide aux aidants\nAccompagnement de l'aidant, solutions en cas de besoin\nde répit.",
+      "context": "Les garanties - Une aide aux aidants",
+      "page": 1
+    },
+    {
+      "quote": "Une assistance aux personnes\nAccompagnement psychologique, rapatriement sanitaire,\nfrais de soins à l'étranger...",
+      "context": "Les garanties - Une assistance aux personnes",
+      "page": 1
+    },
+    {
+      "quote": "Les accidents survenus dans le cadre de votre activité\nprofessionnelle (à l’exception des accidents survenant\nlors des déplacements domicile/travail).",
+      "context": "Qu'est-ce qui n'est pas assuré ?",
+      "page": 1
+    },
+    {
+      "quote": "Le suicide ou la tentative de suicide,",
+      "context": "Les principales exclusions",
+      "page": 1
+    },
+    {
+      "quote": "Les conséquences de tout acte provoqué volontairement,",
+      "context": "Les principales exclusions",
+      "page": 1
+    },
+    {
+      "quote": "Les accidents résultant de la pratique de certains sports,",
+      "context": "Les principales exclusions",
+      "page": 1
+    },
+    {
+      "quote": "Les guerres étrangères et guerres civiles,",
+      "context": "Les principales exclusions",
+      "page": 1
+    },
+    {
+      "quote": "Les accidents survenant sous l'empire de l'alcool et/ou\ndes stupéfiants,",
+      "context": "Les principales exclusions",
+      "page": 1
+    },
+    {
+      "quote": "Les maladies y compris celles ayant pour origine un\naccident corporel ou un accident médical garanti,",
+      "context": "Les principales exclusions",
+      "page": 1
+    },
+    {
+      "quote": "Toute\naffection\nvasculaire\net/ou\ncirculatoire et\ntoute\natteinte musculaire, tendineuse ou ligamentaire,",
+      "context": "Les principales exclusions",
+      "page": 1
+    },
+    {
+      "quote": "Les accidents impliquant un véhicule terrestre à moteur\nlorsque l’assuré n’a pas la qualité de conducteur.",
+      "context": "Les principales exclusions",
+      "page": 1
+    },
+    {
+      "quote": "A partir des 66 ans de l’assuré, les capitaux dus en cas\nd’accident corporel garanti sont diminués de 5 % par an\n(avec une diminution maximum de 50 % pour les frais\nde\nsoins,\nfrais\nd’obsèques\net\nle\ncapital\nincapacité\ntemporaire totale, et une diminution maximum de 80 %\npour le capital décès conjoint ou assimilé, le capital\nenfant et l’incapacité permanente partielle).",
+      "context": "Les principales restrictions",
+      "page": 1
+    },
+    {
+      "quote": "France métropolitaine, Guadeloupe, Martinique, Guyane et Réunion pour l'assistance à domicile. Monde\nentier pour les autres garanties. L'invalidité doit par ailleurs être constatée par un médecin exerçant en\nFrance.",
+      "context": "Où suis-je couvert(e) ?",
+      "page": 2
+    },
+    {
+      "quote": "Sous peine de nullité du contrat d’assurance ou de non garantie, vous devez : \nÀ la souscription du contrat : répondre avec exactitude et sincérité à toutes les questions qui sont posées et\nfournir les justificatifs demandés.",
+      "context": "Quelles sont mes obligations ?",
+      "page": 2
+    },
+    {
+      "quote": "La cotisation peut être réglée en paiement annuel, semestriel, trimestriel ou mensuel (10 ou 12 fois) par\nchèque, prélèvement automatique, carte bancaire.",
+      "context": "Quand et comment effectuer les paiements ?",
+      "page": 2
+    },
+    {
+      "quote": "Le contrat est conclu jusqu’au 31 décembre de l’année de souscription avec tacite reconduction annuelle, ce qui\nsignifie qu’il est automatiquement renouvelé à l’échéance (la date d’échéance est le 1er janvier à 00h00).",
+      "context": "Quand commence la couverture et quand prend-elle fin ?",
+      "page": 2
+    },
+    {
+      "quote": "Vous pouvez résilier votre contrat dans les cas et délais prévus par la réglementation et par les conditions\ngénérales, notamment à certaines périodes de la vie du contrat (à l'échéance annuelle, à tout moment à\nl'expiration d'un délai d'un an à compter de la souscription pour les personnes physiques...) et lors de la\nsurvenance de certains événements (modification de votre situation personnelle et professionnelle, évolution de\nla réglementation...).",
+      "context": "Comment puis-je résilier le contrat ?",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "Aucune date d'édition n'est imprimée. La seule séquence datable est le fragment « 260315 » enfoui dans le code de référence « TB0_IPIDPR_00-260315-hfvxC9-1-1-2-05:02:18- PRE11004 », non libellé comme une date : edition_date laissé à null plutôt que déduit.",
+    "Le code de référence diffère entre les deux pages : « ...-1-1-2-05:02:18- PRE11004 » en page 1 et « ...-1-2-2-05:02:18- PRE11004 » en page 2 (numérotation de feuillet). L'identifiant produit stable est PRE11004.",
+    "Le porteur de risque est nommé sans ambiguïté : MAAF Assurances SA, société anonyme au capital de 160 000 000 euros entièrement versé, entreprise régie par le code des assurances, RCS Niort 542 073 580, code APE 6512 Z. Aucun avertissement multi-porteurs listant plusieurs assureurs possibles n'apparaît sur ce document.",
+    "AUCUN montant d'indemnisation n'est chiffré dans le document : ni capital ITT, ni capital IPP, ni capital décès, ni frais d'obsèques, ni plafond d'assistance. Le document renvoie explicitement au « tableau des garanties », publié séparément et absent de ce PDF. Les seuls pourcentages imprimés sont les seuils (ITT > 5 jours, IPP > 5 %) et le barème de diminution par âge (5 % par an à partir de 66 ans, plafonné à 50 % ou 80 % selon le capital).",
+    "Le document mentionne « Selon la formule de garantie choisie » pour la conduite d'un véhicule loué, prêté ou confié et pour les accidents médicaux, mais ne nomme, ne liste et ne compare AUCUNE formule. Ces deux couvertures sont donc portées avec is_optional: true sur la seule foi de cette phrase ; aucun tableau à colonnes de formules ni aucune coche par formule n'existe dans ce PDF, ni dans la couche texte ni dans la couche vectorielle. Les autres garanties, cochées sous « Les garanties : » sans mention de formule, sont portées is_optional: false.",
+    "Les coches sont des dessins vectoriels absents de la couche texte. Relevé par page.get_drawings() sur la page 1 : 6 marques vertes de 7 × 5 pt, remplissage RGB 0,282/0,682/0,302, toutes calées sur la même abscisse x0 = 37 pt — donc une seule colonne, pas de matrice de formules. Ces 6 coches correspondent exactement aux six intitulés de rubriques de la colonne « Qu'est-ce qui est assuré ? » (En cas de blessures d'un assuré, En cas de décès d'un assuré, Une assistance à domicile, Une aide aux aidants, Une assistance aux personnes, Renseignements juridiques) : 6 rubriques × 1 colonne = 6 cellules = 6 coches + 0 croix + 0 option + 0 blanc. Les lignes indentées sous chaque coche sont les prestations, non des garanties cochées. Les rubriques blessures et décès ont été éclatées en garanties distinctes lorsque le document leur donne des déclencheurs distincts (ITT > 5 jours, IPP > 5 %, Le + MAAF), ce qui explique 10 coverages pour 6 coches. Rendu de la page 1 en image contrôlé pour confirmer cette structure et l'affectation des items aux colonnes, que l'ordre de la couche texte rend trompeur.",
+    "Le document ne définit aucun terme (pas de lexique) : definitions est vide, ce qui est normal pour un IPID.",
+    "Aucun délai de prescription n'est indiqué : prescription_period laissé à null.",
+    "Aucun préavis de résiliation n'est chiffré : notice_period laissé à null.",
+    "Aucun délai de carence n'est mentionné : waiting_periods est vide. Les seuils de 5 jours (ITT) et 5 % (IPP) sont des franchises/seuils de déclenchement, portés dans deductibles et dans coverages, non des délais d'attente.",
+    "L'exclusion « Les accidents résultant de la pratique de certains sports » ne nomme aucun sport : la liste n'est pas dans ce document.",
+    "La « principale restriction » relative à l'âge de 66 ans figure sous la rubrique « Y a-t-il des exclusions à la couverture ? ». Elle est reportée à la fois dans exclusions (avec la mention « restriction » dans le nom), dans special_conditions et dans coverages.conditions des garanties concernées. Il s'agit du même texte source, non d'items distincts.",
+    "Le document ne désigne aucun public cible : target_audience laissé à null, la formulation propre du document est reportée dans target_audience_note.",
+    "Couche texte propre : 2 pages extraites, 6 099 caractères, aucune ligature perdue, aucun caractère de zone privée, aucun trait d'union conditionnel, aucun accent NFD ; 16 apostrophes courbes U+2019 et 5 espaces insécables (dont « supérieure à 5 jours : » et « supérieure à 5 % : », où l'espace avant l'unité et avant le deux-points est insécable). Les citations ont été découpées programmatiquement dans le texte PyMuPDF page par page (page.get_text(\"text\")) et vérifiées comme sous-chaînes exactes, espaces insécables compris. Attention : le document mélange apostrophes ASCII et courbes.",
+    "La signature de la résiliation imprime « MAAF et Moi » sur ce document, alors que d'autres IPID MAAF impriment « MAAF & Moi ». La forme du document est conservée telle quelle.",
+    "Le texte du prompt n'était pas tronqué (document de 2 pages)."
+  ]
+}

@@ -5,11 +5,12 @@ country: fr
 insurer_slug: maaf
 name: MAAF
 website: https://www.maaf.fr/
-products_count: 31
+products_count: 35
 branches_covered:
 - auto
 - chasse
 - decennale
+- gav
 - habitation
 - moto
 - multirisque-professionnelle
@@ -34,18 +35,22 @@ generated: true
 
 ## Résumé
 
-**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 31 document(s) across 12 branch(es).
+**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 35 document(s) across 13 branch(es).
 
 ## Produits par branche
 
 ### [Assurance auto](../branches/Assurance%20auto.md)
 - [CARAVANE, REMORQUE, CAMION, VEHICULES DIVERS - IPID](../products/maaf/CARAVANE%2C%20REMORQUE%2C%20CAMION%2C%20VEHICULES%20DIVERS%20-%20IPID.md) - IPID / Fiche d'information (2025-06) · réf. AUT11028
+- [Camping-Car, Ambulance, Bazar forain, Véhicule de collection - IPID](../products/maaf/Camping-Car%2C%20Ambulance%2C%20Bazar%20forain%2C%20V%C3%A9hicule%20de%20collection%20-%20IPID.md) - IPID / Fiche d'information (2025-06) · réf. PU0_IPIDAU_00-250622-ZCh9d6-3-1-2-05:04:15- AUT11023
 
 ### [Chasse](../branches/Chasse.md)
 - [Assurance Vie privée - IPID](../products/maaf/Assurance%20Vie%20priv%C3%A9e%20-%20IPID.md) - IPID / Fiche d'information (2026-05) · réf. MU0_IPIDIR_00-260518-V45nc0-1-1-2-05:01:24- IRD11004
 
 ### [Assurance construction](../branches/Assurance%20construction.md)
 - [VOS GARANTIES RESPONSABILITÉ CIVILE CONSTRUCTION - Fiche](../products/maaf/VOS%20GARANTIES%20RESPONSABILIT%C3%89%20CIVILE%20CONSTRUCTION%20-%20Fiche.md) - Fiche produit (04/18) · réf. 17195 - 04/18 - guide décennale
+
+### [Garantie des accidents de la vie](../branches/Garantie%20des%20accidents%20de%20la%20vie.md)
+- [Tranquillité famille - IPID](../products/maaf/Tranquillit%C3%A9%20famille%20-%20IPID.md) - IPID / Fiche d'information (2026-03) · réf. TB0_IPIDPR_00-260315-hfvxC9-1-1-2-05:02:18- PRE11004
 
 ### [Multirisque habitation](../branches/Multirisque%20habitation.md)
 - [Assurance Habitation - Fiche](../products/maaf/Assurance%20Habitation%20-%20Fiche.md) - Fiche produit (06/2022)
@@ -57,6 +62,7 @@ generated: true
 - [FICHE D'INFORMATION RELATIVE A LA VENTE A DISTANCE DE VOTRE CONTRAT TEMPO HABITATION - Doc](../products/maaf/FICHE%20D%27INFORMATION%20RELATIVE%20A%20LA%20VENTE%20A%20DISTANCE%20DE%20VOTRE%20CONTRAT%20TEMPO%20HABITATION%20-%20Doc.md) - Document
 - [IMMEUBLE - IPID](../products/maaf/IMMEUBLE%20-%20IPID.md) - IPID / Fiche d'information (2025-03) · réf. MU0_IPIDHA_00-250315-GqMS1D-1-1-2-22:19:13- HAB11009
 - [MOBIL HOME ET CONSTRUCTIONS LEGERES - IPID](../products/maaf/MOBIL%20HOME%20ET%20CONSTRUCTIONS%20LEGERES%20-%20IPID.md) - IPID / Fiche d'information (2026-01) · réf. HAB11027
+- [TEMPO HABITATION EN CONSTRUCTION - IPID](../products/maaf/TEMPO%20HABITATION%20EN%20CONSTRUCTION%20-%20IPID.md) - IPID / Fiche d'information (2026-01) · réf. MU0_IPIDHA_00-260126-LDFkGz-2-1-2-05:01:17- HAB11028
 - [TEMPO HABITATION Logement donné en location - IPID](../products/maaf/TEMPO%20HABITATION%20Logement%20donn%C3%A9%20en%20location%20-%20IPID.md) - IPID / Fiche d'information (2025-03) · réf. HAB11029
 - [Tempo Habitation - Fiche](../products/maaf/Tempo%20Habitation%20-%20Fiche.md) - Fiche produit (06/2022)
 
@@ -76,6 +82,7 @@ generated: true
 
 ### [Prévoyance](../branches/Pr%C3%A9voyance.md)
 - [Assurance accident - IPID](../products/maaf/Assurance%20accident%20-%20IPID.md) - IPID / Fiche d'information (2026-06) · réf. TB0_IPIDPR_00-260608-VZ8Ndm-1-1-2-08:20:18- PRE10003
+- [Assurance perte de revenus - IPID](../products/maaf/Assurance%20perte%20de%20revenus%20-%20IPID.md) - IPID / Fiche d'information (2024-06) · réf. TB0_IPIDPR_00-240616-1ZFgPX-2-1-2-01:00:33- PRE10002
 - [Assurance perte de revenus homme clé - IPID](../products/maaf/Assurance%20perte%20de%20revenus%20homme%20cl%C3%A9%20-%20IPID.md) - IPID / Fiche d'information (2024-06) · réf. PRE10001
 
 ### [Protection juridique](../branches/Protection%20juridique.md)

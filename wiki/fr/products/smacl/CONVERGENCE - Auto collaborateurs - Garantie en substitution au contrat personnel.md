@@ -32,7 +32,7 @@ extraction_model: claude-code-subagent:scale
 prompt_version: '1.1'
 product_family: convergence
 variant: Associatons
-edition_status: null
+edition_status: current
 edition_age_years: 1
 superseded: null
 extends: CONVERGENCE
@@ -119,7 +119,9 @@ La garantie de SMACL Assurances s'exerce selon la FORMULE 3 telle que définie �
 
 ## Documents liés
 
+- Édition courante de ce produit.
 - Extension / option du produit : **CONVERGENCE**
+- [Conventions spéciales CONVERGENCE - Auto collaborateurs, garantie complémentaire au contrat personnel](Conventions%20sp%C3%A9ciales%20CONVERGENCE%20-%20Auto%20collaborateurs%2C%20garantie%20compl%C3%A9mentaire%20au%20contrat%20personnel.md) - Conditions générales, éd. 04/2025
 
 ## Source & fidélité
 
