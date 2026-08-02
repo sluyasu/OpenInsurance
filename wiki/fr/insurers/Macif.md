@@ -5,7 +5,7 @@ country: fr
 insurer_slug: macif
 name: Macif
 website: https://www.macif.fr
-products_count: 47
+products_count: 48
 branches_covered:
 - animaux
 - assurance-vie
@@ -38,7 +38,7 @@ generated: true
 
 ## Résumé
 
-**Macif** - [https://www.macif.fr](https://www.macif.fr). 47 document(s) across 16 branch(es).
+**Macif** - [https://www.macif.fr](https://www.macif.fr). 48 document(s) across 16 branch(es).
 
 ## Produits par branche
 
@@ -62,6 +62,7 @@ generated: true
 
 ### [Autres](../branches/Autres.md)
 - [Banque - Notice d'information d'Assurance des Moyens de paiement - IPID](../products/macif/Banque%20-%20Notice%20d%27information%20d%27Assurance%20des%20Moyens%20de%20paiement%20-%20IPID.md) - IPID / Fiche d'information (10/18) · réf. BQ MP 10/18
+- [Contrat Caravaning](../products/macif/Contrat%20Caravaning.md) - Conditions générales (Avril 2015) · réf. LOIS/CARACC/05 - 04/15 - N073
 - [Contrat Caravaning - IPID](../products/macif/Contrat%20Caravaning%20-%20IPID.md) - IPID / Fiche d'information (2018-10) · réf. LOIS CARAV 10/18
 
 ### [Chasse](../branches/Chasse.md)

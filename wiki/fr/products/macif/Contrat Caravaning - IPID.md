@@ -205,6 +205,10 @@ Les services d’assistance : (rubrique « Qu’est-ce qui est assuré ? » — 
 - ARTEFACTS TYPOGRAPHIQUES de la couche texte, préservés tels quels dans les key_quotes et non corrigés : résidu de puce U+0007 ; mots coupés en plusieurs fragments par le flux de texte (« La car » + « avane », « La pr » + « ivation », « L es services », « L ’auvent », « à t » + « out moment », « r épondre », « déclar » + « er », « indiquer les da » + « te ») ; espaces parasites à l'intérieur des mots. Plusieurs citations commencent donc volontairement en milieu de mot (« avane ou la cellule amovible… », « ivation de jouissance… », « out moment au-delà… ») pour rester des sous-chaînes exactes de la couche texte.
 - Le texte fourni dans le prompt n'était pas tronqué (2 pages, 2 721 et 3 501 caractères). L'extraction a néanmoins été refaite depuis le PDF local avec le même appel page.get_text('text') que le harness ; le recouvrement avec le texte du prompt a été vérifié et concorde.
 
+## Documents liés
+
+- [Contrat Caravaning](Contrat%20Caravaning.md) - Conditions générales, éd. Avril 2015
+
 ## Source & fidélité
 
 - Source : [https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_caravaning.pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_caravaning.pdf) - téléchargé le 2026-08-01 - 2 pages
