@@ -640,6 +640,10 @@ Conformément à l'article L.114-1 du Code des assurances, toutes actions dériv
 - La résiliation du contrat est toutefois impossible lorsqu'il y a majoration de la cotisation annuelle résultant d'une modification, décidée par les Pouvoirs Publics, des impôts et taxes ou du taux annuel de la cotisation relative à la garantie des Catastrophes naturelles, ou majoration de la franchise applicable à la garantie des Catastrophes naturelles (article 33-3).
 - Par dérogation aux dispositions de l'article L. 121-5 du Code des assurances, nous renonçons à l'application de la règle proportionnelle de capitaux (article 26-1).
 
+## Documents liés
+
+- [Habitation Résidence Principale formule Jeunes - Fiche](Habitation%20R%C3%A9sidence%20Principale%20formule%20Jeunes%20-%20Fiche.md) - Fiche produit
+
 ## Source & fidélité
 
 - Source : [https://www.matmut.fr/services-en-ligne/doc/CG/CGJEUNES.pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGJEUNES.pdf) - téléchargé le 2026-07-30 - 66 pages

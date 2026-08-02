@@ -5,7 +5,7 @@ country: fr
 insurer_slug: maaf
 name: MAAF
 website: https://www.maaf.fr/
-products_count: 21
+products_count: 23
 branches_covered:
 - chasse
 - decennale
@@ -15,6 +15,7 @@ branches_covered:
 - protection-juridique
 - rc-privee
 - sante
+- scolaire
 tags:
 - insurance/fr
 - insurer
@@ -30,7 +31,7 @@ generated: true
 
 ## Résumé
 
-**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 21 document(s) across 8 branch(es).
+**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 23 document(s) across 9 branch(es).
 
 ## Produits par branche
 
@@ -47,6 +48,7 @@ generated: true
 - [Assurance habitation jeune - Fiche](../products/maaf/Assurance%20habitation%20jeune%20-%20Fiche.md) - Fiche produit (06/2023)
 - [Assurance habitation jeune - Formule Logement - Fiche](../products/maaf/Assurance%20habitation%20jeune%20-%20Formule%20Logement%20-%20Fiche.md) - Fiche produit (06/2023)
 - [Assurance habitation jeune - Formule Tous risques - Fiche](../products/maaf/Assurance%20habitation%20jeune%20-%20Formule%20Tous%20risques%20-%20Fiche.md) - Fiche produit (06/2023)
+- [FICHE D'INFORMATION RELATIVE A LA VENTE A DISTANCE DE VOTRE CONTRAT TEMPO HABITATION - Doc](../products/maaf/FICHE%20D%27INFORMATION%20RELATIVE%20A%20LA%20VENTE%20A%20DISTANCE%20DE%20VOTRE%20CONTRAT%20TEMPO%20HABITATION%20-%20Doc.md) - Document
 - [IMMEUBLE - IPID](../products/maaf/IMMEUBLE%20-%20IPID.md) - IPID / Fiche d'information (2025-03) · réf. MU0_IPIDHA_00-250315-GqMS1D-1-1-2-22:19:13- HAB11009
 - [Tempo Habitation - Fiche](../products/maaf/Tempo%20Habitation%20-%20Fiche.md) - Fiche produit (06/2022)
 
@@ -70,6 +72,9 @@ generated: true
 ### [Complémentaire santé](../branches/Compl%C3%A9mentaire%20sant%C3%A9.md)
 - [Assurance SANTÉ PROFIL SALARIÉS](../products/maaf/Assurance%20SANT%C3%89%20PROFIL%20SALARI%C3%89S.md) - Conditions générales (10.2025) · réf. 11015
 - [SANTÉ PROFIL SALARIÉS - Fiche](../products/maaf/SANT%C3%89%20PROFIL%20SALARI%C3%89S%20-%20Fiche.md) - Fiche produit (1er janvier 2026)
+
+### [Scolaire et extrascolaire](../branches/Scolaire%20et%20extrascolaire.md)
+- [Assurance scolaire — Tableau des garanties - Fiche](../products/maaf/Assurance%20scolaire%20%E2%80%94%20Tableau%20des%20garanties%20-%20Fiche.md) - Fiche produit (06/2022)
 
 ## Source
 

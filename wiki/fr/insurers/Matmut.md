@@ -5,7 +5,7 @@ country: fr
 insurer_slug: matmut
 name: Matmut
 website: https://www.matmut.fr
-products_count: 114
+products_count: 115
 branches_covered:
 - animaux
 - assurance-vie
@@ -37,7 +37,7 @@ generated: true
 
 ## Résumé
 
-**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 114 document(s) across 15 branch(es).
+**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 115 document(s) across 15 branch(es).
 
 ## Produits par branche
 
@@ -105,6 +105,7 @@ generated: true
 - [Habitation Initiale & Co Résidence Secondaire](../products/matmut/Habitation%20Initiale%20%26%20Co%20R%C3%A9sidence%20Secondaire.md) - Conditions générales (12/23) · réf. CG RS INIT & CO – 12/23
 - [Habitation Matmut Étudiants](../products/matmut/Habitation%20Matmut%20%C3%89tudiants.md) - Conditions générales (2024-05) · réf. CG HAB ETUD – 05/24
 - [Habitation Propriétaire Non Occupant](../products/matmut/Habitation%20Propri%C3%A9taire%20Non%20Occupant.md) - Conditions générales (12/23) · réf. CG PNO – 12/23
+- [Habitation Résidence Principale formule Jeunes - Fiche](../products/matmut/Habitation%20R%C3%A9sidence%20Principale%20formule%20Jeunes%20-%20Fiche.md) - Fiche produit
 - [Habitation Résidence principale](../products/matmut/Habitation%20R%C3%A9sidence%20principale.md) - Conditions générales (2023-12) · réf. CG RP - 12/23
 - [Habitation Résidence principale - Jeunes - Contrat d'assurance Multigaranties](../products/matmut/Habitation%20R%C3%A9sidence%20principale%20-%20Jeunes%20-%20Contrat%20d%27assurance%20Multigaranties.md) - Conditions générales (05/24) · réf. CG Habitation Jeunes - 05/24
 - [Habitation Résidence secondaire](../products/matmut/Habitation%20R%C3%A9sidence%20secondaire.md) - Conditions générales (12/23) · réf. CG RS – 12/23

@@ -160,6 +160,7 @@ Le service apporte « la possibilité de recevoir un courrier type suite à l’
 
 - Extension / option du produit : **contrat Protection juridique**
 - [Information juridique Associations - Doc](Information%20juridique%20Associations%20-%20Doc.md) - Document, éd. 01/2024
+- [Information juridique Collectivités - Doc](Information%20juridique%20Collectivit%C3%A9s%20-%20Doc%20%282%29.md) - Document, éd. 01/2024
 - [Information juridique Collectivités - Doc](Information%20juridique%20Collectivit%C3%A9s%20-%20Doc.md) - Document, éd. 01/2024
 
 ## Source & fidélité
