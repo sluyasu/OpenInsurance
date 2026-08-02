@@ -164,3 +164,27 @@ resolve from the documents after extraction.
 | Assistance aux personnes [ca-assistance-personnes-sam] | conditions_generales | voyage | 2023-02 | SMACL Assurances | 10 | https://www.smacl.fr/files/documents/ca-assistance-personnes-sam.pdf |
 | Assistance aux personnes [ca-assistance-personnes] | conditions_generales | voyage | 2023-02 | SMACL Assurances | 10 | https://www.smacl.fr/files/documents/ca-assistance-personnes.pdf |
 | CONVERGENCE Annulation de séjour | conditions_generales | voyage | 2022-02 | SMACL ASSURANCES SA - Société anonyme au capital de 138 801 048 euros, entreprise régie par le Code des assurances, RCS Niort n°833 817 224. | 6 | https://www.smacl.fr/files/documents/cs-convergence-annulation-sejour_0.pdf |
+
+## Correction (2026-08-01) : les dates d'édition de cette fiche étaient fausses, toutes
+
+La passe de découverte a lu, pour chaque document, la date enfouie dans le **code de référence**
+(`ALEASSUR_CS_TRINSTRUMENT_01(02_2016)`) plutôt que celle du **colophon**. Sur les 53 documents où
+l'extraction a depuis lu les deux, elles divergent **sur 53** — cent pour cent — et le code est
+souvent *postérieur* au colophon.
+
+Les deux dates existent et ne disent pas la même chose : le colophon porte la date que le document
+imprime comme la sienne, le code de référence date la maquette dont il est tiré. C'est la première
+que ce projet enregistre comme `edition_date`, la seconde restant dans `reference`.
+
+Le manifeste et `sources/fr/smacl.yml` sont corrigés sur ces 53. Les documents non encore extraits
+gardent la date du code : elle sera remplacée quand l'extraction lira leur colophon, et
+`placement.py` note désormais dans `gaps` quand une date vient du manifeste plutôt que du document.
+
+Deux observations qui sortent de la même série et qu'aucune métadonnée ne donne :
+
+- **Deux contrats partagent la même maquette, le même colophon 11/2022 et la même couverture
+  « Partculiers », et n'ont pas le même porteur** — l'un la SA, l'autre la mutuelle. La répartition
+  ne se lit qu'au colophon, jamais à la mise en page.
+- L'article 19 d'un de ces contrats nomme **SMACL Assurances *et* SMACL Assurances SA comme deux
+  responsables de traitement distincts**, ce qui confirme que les deux entités coexistent
+  réellement sur un même contrat plutôt que l'une étant un raccourci pour l'autre.
