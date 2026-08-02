@@ -16,7 +16,7 @@ generated: true
 
 Liste générée des produits par branche. Les fiches conceptuelles de branche sont rédigées à la main dans ce dossier.
 
-### [Assurance auto](Assurance%20auto.md) (83)
+### [Assurance auto](Assurance%20auto.md) (84)
 - [Assurance Auto et Auto connectée Direct Assurance - IPID](../products/direct-assurance/Assurance%20Auto%20et%20Auto%20connect%C3%A9e%20Direct%20Assurance%20-%20IPID.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [Contrat Auto](../products/direct-assurance/Contrat%20Auto.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [YouDrive - CP](../products/direct-assurance/YouDrive%20-%20CP.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
@@ -24,6 +24,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Convention Spéciale Garantie Assistance Véhicules 3,5 tonnes](../products/groupama/Convention%20Sp%C3%A9ciale%20Garantie%20Assistance%20V%C3%A9hicules%203%2C5%20tonnes.md) - [Groupama](../insurers/Groupama.md)
 - [CARAVANE, REMORQUE, CAMION, VEHICULES DIVERS - IPID](../products/maaf/CARAVANE%2C%20REMORQUE%2C%20CAMION%2C%20VEHICULES%20DIVERS%20-%20IPID.md) - [MAAF](../insurers/MAAF.md)
 - [Camping-Car, Ambulance, Bazar forain, Véhicule de collection - IPID](../products/maaf/Camping-Car%2C%20Ambulance%2C%20Bazar%20forain%2C%20V%C3%A9hicule%20de%20collection%20-%20IPID.md) - [MAAF](../insurers/MAAF.md)
+- [Contrat Camping car, Ambulance, Bazar forain, Véhicule de collection — Assurance Multirisque](../products/maaf/Contrat%20Camping%20car%2C%20Ambulance%2C%20Bazar%20forain%2C%20V%C3%A9hicule%20de%20collection%20%E2%80%94%20Assurance%20Multirisque.md) - [MAAF](../insurers/MAAF.md)
 - [Assurance Auto-Moto Vam - IPID](../products/maif/Assurance%20Auto-Moto%20Vam%20-%20IPID.md) - [MAIF](../insurers/MAIF.md)
 - [Assurance Auto-Moto Vam](../products/maif/Assurance%20Auto-Moto%20Vam.md) - [MAIF](../insurers/MAIF.md)
 - [Assurance auto professionnelle](../products/maif/Assurance%20auto%20professionnelle.md) - [MAIF](../insurers/MAIF.md)
@@ -135,7 +136,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Assurance Vélo](../products/maif/Assurance%20V%C3%A9lo.md) - [MAIF](../insurers/MAIF.md)
 - [Contrat Multirisques « 2R Liberté » - IPID](../products/matmut/Contrat%20Multirisques%20%C2%AB%202R%20Libert%C3%A9%20%C2%BB%20-%20IPID.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 
-### [Multirisque habitation](Multirisque%20habitation.md) (70)
+### [Multirisque habitation](Multirisque%20habitation.md) (71)
 - [Assurance Habitation Direct Assurance - IPID](../products/direct-assurance/Assurance%20Habitation%20Direct%20Assurance%20-%20IPID.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [Contrat Habitation](../products/direct-assurance/Contrat%20Habitation.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [Assurance multirisques habitation - Doc](../products/groupama/Assurance%20multirisques%20habitation%20-%20Doc.md) - [Groupama](../insurers/Groupama.md)
@@ -175,6 +176,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Assurance Propriétaire Bailleur - IPID](../products/maif/Assurance%20Propri%C3%A9taire%20Bailleur%20-%20IPID.md) - [MAIF](../insurers/MAIF.md)
 - [Assistance juridique Option “Plus”](../products/macif/Assistance%20juridique%20Option%20%E2%80%9CPlus%E2%80%9D.md) - [Macif](../insurers/Macif.md)
 - [Contrat Habitation - Formule Protectrice - Résidence principale](../products/macif/Contrat%20Habitation%20-%20Formule%20Protectrice%20-%20R%C3%A9sidence%20principale.md) - [Macif](../insurers/Macif.md)
+- [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire - IPID](../products/macif/Contrat%20Habitation%20-%20Formule%20%C3%89conomique%20-%20R%C3%A9sidence%20principale%20-%20R%C3%A9sidence%20secondaire%20-%20IPID.md) - [Macif](../insurers/Macif.md)
 - [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire](../products/macif/Contrat%20Habitation%20-%20Formule%20%C3%89conomique%20-%20R%C3%A9sidence%20principale%20-%20R%C3%A9sidence%20secondaire.md) - [Macif](../insurers/Macif.md)
 - [Contrat Macif Habitation - Formule Construction - IPID](../products/macif/Contrat%20Macif%20Habitation%20-%20Formule%20Construction%20-%20IPID.md) - [Macif](../insurers/Macif.md)
 - [Contrat Macif Habitation - Formules Économique, Équilibrée, Confort - IPID](../products/macif/Contrat%20Macif%20Habitation%20-%20Formules%20%C3%89conomique%2C%20%C3%89quilibr%C3%A9e%2C%20Confort%20-%20IPID.md) - [Macif](../insurers/Macif.md)
@@ -538,7 +540,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Conditions de l'offre Assurance Scolaire - Tarifs](../products/matmut/Conditions%20de%20l%27offre%20Assurance%20Scolaire%20-%20Tarifs.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Assurance scolaire et extra-scolaire - IPID](../products/thelem/Assurance%20scolaire%20et%20extra-scolaire%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 
-### [Navigation de plaisance](Navigation%20de%20plaisance.md) (9)
+### [Navigation de plaisance](Navigation%20de%20plaisance.md) (10)
 - [ALCYON - IPID](../products/maaf/ALCYON%20-%20IPID.md) - [MAAF](../insurers/MAAF.md)
 - [Assurance Navigation - IPID](../products/maif/Assurance%20Navigation%20-%20IPID.md) - [MAIF](../insurers/MAIF.md)
 - [Assurance Navigation](../products/maif/Assurance%20Navigation.md) - [MAIF](../insurers/MAIF.md)
@@ -548,6 +550,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Contrat « Navigation de plaisance - Distinguo & Co » - IPID](../products/matmut/Contrat%20%C2%AB%20Navigation%20de%20plaisance%20-%20Distinguo%20%26%20Co%20%C2%BB%20-%20IPID.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Navigation de Plaisance Distinguo & Co](../products/matmut/Navigation%20de%20Plaisance%20Distinguo%20%26%20Co.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
 - [Navigation de Plaisance Matmut](../products/matmut/Navigation%20de%20Plaisance%20Matmut.md) - [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../insurers/Matmut.md)
+- [Convention Assistance Navigation de plaisance](../products/smacl/Convention%20Assistance%20Navigation%20de%20plaisance.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 
 ### [Voyage et assistance](Voyage%20et%20assistance.md) (8)
 - [ASSURANCE MULTI-VOYAGES A L'ANNEE - 507332 - IPID](../products/luko/ASSURANCE%20MULTI-VOYAGES%20A%20L%27ANNEE%20-%20507332%20-%20IPID.md) - [Luko](../insurers/Luko.md)
@@ -595,8 +598,9 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [ALÉASSUR Tous risques expositions clou à clou](../products/smacl/AL%C3%89ASSUR%20Tous%20risques%20expositions%20clou%20%C3%A0%20clou.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [Conventions spéciales CONVERGENCE - Tous risques expositions clou à clou](../products/smacl/Conventions%20sp%C3%A9ciales%20CONVERGENCE%20-%20Tous%20risques%20expositions%20clou%20%C3%A0%20clou.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 
-### Crédit et caution (1)
+### Crédit et caution (2)
 - [Assurance loyers impayés](../products/smacl/Assurance%20loyers%20impay%C3%A9s.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
+- [Assurance loyers impayés](../products/smacl/Assurance%20loyers%20impay%C3%A9s%20%282%29.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 
 ### [Autres](Autres.md) (8)
 - [Barème de frais - Tarifs](../products/maif/Bar%C3%A8me%20de%20frais%20-%20Tarifs.md) - [MAIF](../insurers/MAIF.md)

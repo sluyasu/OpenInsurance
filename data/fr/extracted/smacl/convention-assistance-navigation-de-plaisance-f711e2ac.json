@@ -1,0 +1,935 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "smacl",
+  "insurer_name": "SMACL Assurances",
+  "product_name": "Convention Assistance Navigation de plaisance",
+  "branch": "navigation",
+  "branch_code": null,
+  "document_type": "conditions_generales",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "Deux bandeaux de couverture (page 1) : « Collectivités » et « Associations » (la couche texte les rend « Collectvités » et « Associatons », ligature « ti » perdue). Aucune des deux catégories du schéma ne recouvre l'ensemble ; le champ est donc laissé null. Art. 2.1 : « Toute personne physique embarquée, à titre gratuit, à bord d'un bateau de plaisance entrant dans la définition ci-dessous (article. 2.2). » Art. 2.2 : bateau « utilisé pour la pratique de toute activité de loisir et/ou d'activités relevant d'une mission de service public non commerciale », « à titre privé ou pour un besoin d'intérêt général, dans un but non lucratif ».",
+  "reference": "NAVIMUT_CA_NAVIMUT_SA_02(01_2017)",
+  "edition_date": "01/2024",
+  "product_family": "Navigation de plaisance",
+  "variant": null,
+  "is_extension": true,
+  "extends": "contrat navigation de plaisance",
+  "superseded": true,
+  "source_url": "https://www.smacl.fr/files/documents/ca-navigation-de-plaisance.pdf",
+  "source_pdf": "assurance-navigation-de-plaisance-ca-navigation-de-plaisance-f711e2ac.pdf",
+  "source_sha256": "66fd1476ea8151f063b5cc0cea43eb7ad153c0f92912ece2dbe6ffae898438fd",
+  "source_pages": 10,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Convention d'assistance mise en œuvre par SMACL Assistance pour les assurés de SMACL Assurances souscripteurs d'un contrat navigation de plaisance. Elle couvre l'assistance aux personnes (rapatriement sanitaire, frais médicaux à l'étranger à concurrence de 80 000 € par bénéficiaire, assistance en cas de décès, assistance aux personnes valides, garanties complémentaires, avance de fonds) et l'assistance au bateau (frais de secours à hauteur de 5 000 €, renflouement, retirement, dépannage-remorquage, grutage, expertise, envoi de pièces détachées, acheminement d'équipier, rapatriement du bateau, mise en épave et frais de port à l'étranger), ainsi qu'un service d'informations. SMACL Assistance intervient 7 j / 7, 24 h / 24. L'assistance aux personnes est acquise dans le monde entier sans franchise de distance ; l'assistance au bateau est acquise dans la limite de l'étendue géographique du contrat d'assurance couvrant le bateau.",
+  "definitions": [
+    {
+      "term": "Accident corporel",
+      "definition": "Evénement soudain, d'origine extérieure au corps humain, involontaire, imprévisible, sans rapport avec une maladie et qui entraîne des dommages physiques.",
+      "page": 3
+    },
+    {
+      "term": "Accident survenu au bateau",
+      "definition": "Evénement soudain, involontaire, imprévisible, soit par choc avec un élément extérieur au bateau, soit par contraintes physiques extrêmes occasionnant des dommages qui rendent impossible l'utilisation du bateau dans le respect de la réglementation en vigueur. Sont assimilés à l'accident les événements naturels qui endommagent directement le bateau (tempête, raz de marée, cyclone et, généralement, fortune de mer), ainsi que les attentats et actes de terrorisme.",
+      "page": 3
+    },
+    {
+      "term": "Animaux de compagnie",
+      "definition": "Les animaux de compagnie sont les animaux domestiques dont l'espèce est depuis longtemps domestiquée, vivant au domicile du bénéficiaire.",
+      "page": 3
+    },
+    {
+      "term": "Bagages",
+      "definition": "Les bagages et objets susceptibles d'être pris en charge par SMACL Assistance sont ceux considérés comme nécessaires à un séjour à bord du bateau et embarqués par le bénéficiaire, à l'exclusion : des moyens de paiement (argent liquide, devises, chèques, cartes bancaires, etc.) ; des denrées périssables ; des produits et matières dangereuses ; des équipements du bateau (voiles, accastillage, électronique de bord, annexes, moteurs auxiliaires, skis, planches à voiles, matériel de plongée) ; des matériels audio-vidéo ou gros électroménager ; des bijoux et autres objets de valeur. Jusqu'à 30 kg maximum, les bagages et objets peuvent être rapatriés avec le bénéficiaire et sont alors qualifiés de bagages à main (vêtements, nécessaire de toilette, mais aussi les vélos). Au-delà de 30 kg, les bagages sont rapatriés séparément et sont alors appelés autres bagages.",
+      "page": 3
+    },
+    {
+      "term": "Bateau",
+      "definition": "Engin flottant comprenant notamment voilier, bateau à moteur, planche à voile, véhicule nautique à moteur, bateau à rames.",
+      "page": 3
+    },
+    {
+      "term": "Bateau économiquement réparable",
+      "definition": "Un bateau est considéré comme économiquement réparable lorsque le coût de la réparation est inférieur à sa valeur de remplacement en France.",
+      "page": 3
+    },
+    {
+      "term": "Conjoint de fait",
+      "definition": "Par conjoint de fait, il faut entendre le concubin, ainsi que le partenaire dans le cadre d'un PACS (Pacte civil de solidarité).",
+      "page": 3
+    },
+    {
+      "term": "Domicile",
+      "definition": "Pour l'application de la présente convention, le domicile d'un bénéficiaire est sa demeure légale et officielle d'habitation en France ou à défaut, son lieu de résidence en France. Les étudiants, enfants d'assuré auprès de SMACL Assurances, sont considérés comme ayant un double domicile, leur résidence dans le cadre de leurs études et la résidence de leurs parents assurés.",
+      "page": 3
+    },
+    {
+      "term": "Épave (bateau réduit à l'état d'épave)",
+      "definition": "Bateau gravement endommagé, jugé inapte à la navigation et économiquement irréparable selon la réglementation française en matière de sécurité des bateaux de plaisance.",
+      "page": 3
+    },
+    {
+      "term": "Frais d'hébergement",
+      "definition": "Frais de la nuit à l'hôtel et des repas, hors frais de téléphone, de connexion internet et de bar.",
+      "page": 3
+    },
+    {
+      "term": "France",
+      "definition": "Sont assimilés à la France : la France métropolitaine ainsi que les principautés d'Andorre et de Monaco ; les DROM (Guadeloupe, Martinique, Réunion, Guyane et Mayotte).",
+      "page": 3
+    },
+    {
+      "term": "Maladie",
+      "definition": "Altération soudaine et imprévisible de la santé, consécutive ou non à une situation préexistante, n'ayant pas pour origine un accident corporel, constatée par une autorité médicale compétente et qui empêche la continuation normale du voyage ou du séjour. Remarque : ni les voyages à visée diagnostique et/ou thérapeutique, c'est-à-dire ayant pour objectif de consulter un praticien ou d'être hospitalisé, ni les retours pour greffe d'organe, ne peuvent être considérés comme des événements donnant droit à une assistance au titre de la maladie si celle-ci n'est pas justifiée par une altération soudaine et imprévisible de l'état de santé au cours du voyage.",
+      "page": 4
+    },
+    {
+      "term": "Mille marin",
+      "definition": "Unité de mesure des distances utilisée en navigation maritime et aérienne, distance entre deux points d'un méridien terrestre séparés par une minute d'arc (1 852 m).",
+      "page": 4
+    },
+    {
+      "term": "Mission de service public",
+      "definition": "Activité exercée directement par l'autorité publique (État, collectivités territoriales, établissements publics) ou sous son contrôle, dans le but de satisfaire à un besoin d'intérêt général.",
+      "page": 4
+    },
+    {
+      "term": "Navigation de plaisance",
+      "definition": "Pratique de toute activité de loisir consistant à utiliser un bateau à titre privé, dans un but non lucratif.",
+      "page": 4
+    },
+    {
+      "term": "Panne",
+      "definition": "Défaillance mécanique, électrique, électronique, hydraulique ou de gréement, survenue en l'absence de tout choc ainsi que de toute contrainte extérieure, et rendant impossible l'utilisation du bateau dans le respect de la réglementation en vigueur.",
+      "page": 4
+    },
+    {
+      "term": "Port d'attache",
+      "definition": "Lieu de mouillage habituel du bateau, ou dans le cas des bateaux hivernant hors d'eau, notamment au domicile de l'assuré, lieu de mise à l'eau du bateau, considéré alors comme le port d'attache.",
+      "page": 4
+    },
+    {
+      "term": "Proche",
+      "definition": "Parent du bénéficiaire.",
+      "page": 4
+    },
+    {
+      "term": "Valeur de remplacement d'un bateau",
+      "definition": "Prix auquel un bateau peut être acquis, à un moment donné, sur le marché français. Il est déterminé en tenant compte des caractéristiques du bateau, des équipements optionnels, de son état d'entretien, d'usure et des réparations qu'il a subies.",
+      "page": 4
+    }
+  ],
+  "coverages": [
+    {
+      "name": "3.1.1 - Rapatriement sanitaire",
+      "description": "En cas de maladie ou d'accident corporel, lorsque les médecins de SMACL Assistance, après avis des médecins consultés localement et, si nécessaire, du médecin traitant, et en cas de nécessité médicalement établie, décident d'un rapatriement et en déterminent les moyens (ambulance, train, avion de ligne, avion sanitaire ou tout autre moyen approprié), SMACL Assistance organise, depuis l'escale imposée, le retour du patient à son domicile en France ou dans un hôpital adapté proche de son domicile en France et prend en charge le coût de ce transport. Dans la mesure du possible, et sous réserve de l'avis des médecins de SMACL Assistance, il sera fait en sorte que l'un des membres de la famille, déjà sur place, puisse voyager avec le blessé ou le malade.",
+      "is_optional": false,
+      "territorial_scope": "Monde entier, sans franchise de distance (art. 2.6.1)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Décision et choix des moyens par les médecins de SMACL Assistance, après avis des médecins consultés localement et, si nécessaire, du médecin traitant.",
+        "Nécessité médicalement établie."
+      ],
+      "page": 6
+    },
+    {
+      "name": "3.1.2 - Attente sur place d'un accompagnant",
+      "description": "Lorsque le bénéficiaire blessé ou malade, non transportable, doit rester hospitalisé au-delà de la date initialement prévue pour son retour, SMACL Assistance organise et participe à l'hébergement d'une personne attendant sur place le rapatriement.",
+      "is_optional": false,
+      "territorial_scope": "Monde entier, sans franchise de distance (art. 2.6.1)",
+      "limits": "à concurrence de 50 € par jour, et ce, pour une durée maximale de sept (7) jours",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Bénéficiaire non transportable devant rester hospitalisé au-delà de la date initialement prévue pour son retour."
+      ],
+      "page": 6
+    },
+    {
+      "name": "3.1.3 - Voyage aller-retour d'un proche",
+      "description": "Lorsque le bénéficiaire blessé ou malade, non transportable, doit rester hospitalisé pendant plus de sept (7) jours, et dès lors qu'il est isolé de tout membre de sa famille, SMACL Assistance organise et prend en charge le transport aller et retour d'un proche, et participe à son hébergement. Lorsque le blessé ou malade est âgé de moins de 18 ans, et à condition que son état de santé le justifie, ce déplacement est organisé et pris en charge, pour une durée maximale de sept (7) jours, quelle que soit la durée de l'hospitalisation.",
+      "is_optional": false,
+      "territorial_scope": "Monde entier, sans franchise de distance (art. 2.6.1)",
+      "limits": "hébergement à concurrence de 50 € par jour, pour une durée maximale de sept (7) jours",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Hospitalisation de plus de sept (7) jours et isolement de tout membre de la famille.",
+        "Pour un blessé ou malade de moins de 18 ans : à condition que son état de santé le justifie, quelle que soit la durée de l'hospitalisation."
+      ],
+      "page": 6
+    },
+    {
+      "name": "3.1.4 - Frais médicaux et d'hospitalisation à l'étranger",
+      "description": "À l'étranger, à la suite d'une maladie ou d'un accident corporel, SMACL Assistance, en complément des prestations dues par les organismes sociaux, prend en charge les frais médicaux et d'hospitalisation engagés sur place. Dans l'attente des remboursements par les organismes sociaux, ces frais font l'objet d'une avance.",
+      "is_optional": false,
+      "territorial_scope": "À l'étranger",
+      "limits": "à concurrence de 80 000 € par bénéficiaire",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Sous réserve que le bénéficiaire ait la qualité d'assuré auprès d'un organisme d'assurance maladie.",
+        "Les soins devront avoir été prescrits en accord avec les médecins de SMACL Assistance et seront limités à la période pendant laquelle ils jugeront le patient intransportable.",
+        "Le bénéficiaire s'engage à effectuer, dès son retour en France, toute démarche nécessaire au recouvrement de ces frais auprès des organismes concernés, et à transmettre à SMACL Assistance les décomptes originaux justifiant les remboursements obtenus des organismes sociaux."
+      ],
+      "page": 6
+    },
+    {
+      "name": "3.1.5 - Recherche et expédition de médicaments et prothèses",
+      "description": "En cas de nécessité SMACL Assistance recherche, sur le lieu de séjour, les médicaments (prescrits ou leurs équivalents) indispensables à la santé du patient. À défaut de pouvoir se les procurer à la prochaine escale du bateau, et dans la mesure où le délai d'acheminement est compatible avec la nature du problème, SMACL Assistance organise et prend en charge l'expédition de ces médicaments à cette escale. De même, SMACL Assistance organise et prend en charge, lorsque nécessaire, l'expédition de lunettes, lentilles de contact, appareillages médicaux et prothèses.",
+      "is_optional": false,
+      "territorial_scope": "Monde entier, sans franchise de distance (art. 2.6.1)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Le coût de ces médicaments et matériels reste à charge du bénéficiaire, SMACL Assistance pouvant en avancer le montant si nécessaire.",
+        "Le délai d'acheminement doit être compatible avec la nature du problème."
+      ],
+      "page": 6
+    },
+    {
+      "name": "3.2.1 - Décès d'un bénéficiaire en déplacement",
+      "description": "SMACL Assistance organise et prend en charge le transport du corps du port le plus proche jusqu'au lieu d'obsèques ou d'inhumation ou de crémation en France. La prise en charge inclut les frais de préparation du défunt, les aménagements spécifiques au transport, ainsi qu'un cercueil, conforme à la législation et de qualité courante.",
+      "is_optional": false,
+      "territorial_scope": "Monde entier, sans franchise de distance (art. 2.6.1)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Les autres frais, notamment les frais de cérémonie, de convoi, d'inhumation ou de crémation restent à la charge de la famille."
+      ],
+      "page": 6
+    },
+    {
+      "name": "3.2.2 - Retour anticipé en cas de décès",
+      "description": "En cas de décès du conjoint (de droit ou de fait), d'un ascendant en ligne directe, d'un descendant en ligne directe, d'un frère ou d'une sœur d'un des bénéficiaires, SMACL Assistance organise et prend en charge l'acheminement depuis le port le plus proche, jusqu'au lieu d'inhumation ou d'obsèques, en France, des bénéficiaires en déplacement (tels que définis en 2.1). Les mêmes dispositions sont applicables sur décision des médecins de SMACL Assistance en cas d'attente d'un décès imminent et inéluctable.",
+      "is_optional": false,
+      "territorial_scope": "Monde entier, sans franchise de distance (art. 2.6.1)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 6
+    },
+    {
+      "name": "3.3.1 - Attente sur place",
+      "description": "SMACL Assistance organise l'hébergement des bénéficiaires qui attendent sur place la réparation de leur bateau immobilisé et participe aux frais (hôtel et repas).",
+      "is_optional": false,
+      "territorial_scope": "Monde entier, sans franchise de distance (art. 2.6.1)",
+      "limits": "à concurrence de 50 € par jour et par personne, dans la limite de dix (10) jours maximum",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 6
+    },
+    {
+      "name": "3.3.2 - Rapatriement en cas d'indisponibilité du bateau",
+      "description": "SMACL Assistance rapatrie les bénéficiaires au port d'attache de leur bateau ou à leur domicile en France lorsqu'ils sont immobilisés à la suite du vol de leur bateau ou lorsque ce dernier est indisponible à la suite d'un accident, d'une panne ou d'un événement climatique majeur. En remplacement du retour au domicile et dans la limite du coût de cette mise en œuvre, les bénéficiaires peuvent choisir l'acheminement vers leur lieu de destination.",
+      "is_optional": false,
+      "territorial_scope": "Monde entier, sans franchise de distance (art. 2.6.1)",
+      "limits": "En remplacement du retour au domicile, l'acheminement vers le lieu de destination est pris en charge dans la limite du coût de cette mise en œuvre",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Cette garantie n'est pas cumulable avec l'attente sur place décrite à l'article 3.3.1."
+      ],
+      "page": 6
+    },
+    {
+      "name": "3.3.3 - Rapatriement des autres bénéficiaires en cas de rapatriement sanitaire d'un blessé ou d'un malade",
+      "description": "Lorsque le transport sanitaire d'un bénéficiaire est décidé, si le moyen de retour prévu initialement ne peut être utilisé, SMACL Assistance organise et prend en charge le retour des autres bénéficiaires à leur domicile.",
+      "is_optional": false,
+      "territorial_scope": "Monde entier, sans franchise de distance (art. 2.6.1)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Le moyen de retour prévu initialement ne peut être utilisé."
+      ],
+      "page": 6
+    },
+    {
+      "name": "3.4.1 - Accompagnement d'un enfant de moins de 18 ans ou d'une personne handicapée",
+      "description": "Lorsqu'un transport concerne un enfant de moins de 18 ans non accompagné ou une personne handicapée, SMACL Assistance organise et prend en charge le voyage aller et retour d'un proche, ou d'une personne habilitée par sa famille, pour l'accompagner dans son déplacement. Lorsque le voyage d'un proche est impossible, SMACL Assistance fait accompagner l'enfant ou la personne handicapée par une personne qualifiée.",
+      "is_optional": false,
+      "territorial_scope": "Monde entier, sans franchise de distance (art. 2.6.1)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 7
+    },
+    {
+      "name": "3.4.2 - Vol, perte ou destruction de documents",
+      "description": "En cas de vol, de perte ou de destruction de papiers d'identité, de documents bancaires ou de titres de transport, SMACL Assistance conseille le bénéficiaire sur les démarches à accomplir (dépôt de plainte, oppositions, documents équivalents, démarches à effectuer pour renouveler les documents) et peut, contre reconnaissance de dette, effectuer l'avance de fonds nécessaire au retour au domicile.",
+      "is_optional": false,
+      "territorial_scope": "Monde entier, sans franchise de distance (art. 2.6.1)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "L'avance de fonds est consentie contre reconnaissance de dette."
+      ],
+      "page": 7
+    },
+    {
+      "name": "3.4.3 - Bagages à main et animaux de compagnie",
+      "description": "À l'occasion du rapatriement d'une personne, les animaux de compagnie qui l'accompagnent, ses bagages à main, sont rapatriés aux frais de SMACL Assistance.",
+      "is_optional": false,
+      "territorial_scope": "Monde entier, sans franchise de distance (art. 2.6.1)",
+      "limits": "Bagages à main : jusqu'à 30 kg maximum (art. 1.4)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 7
+    },
+    {
+      "name": "3.5 - Avance de fonds",
+      "description": "SMACL Assistance peut, contre reconnaissance de dette, consentir au bénéficiaire une avance de fonds, remboursable dans le délai maximal d'un mois à compter du jour de l'avance, pour lui permettre de faire face à une dépense découlant d'une difficulté grave et de caractère imprévu.",
+      "is_optional": false,
+      "territorial_scope": "Monde entier, sans franchise de distance (art. 2.6.1)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Contre reconnaissance de dette.",
+        "Remboursable dans le délai maximal d'un mois à compter du jour de l'avance.",
+        "Dépense découlant d'une difficulté grave et de caractère imprévu."
+      ],
+      "page": 7
+    },
+    {
+      "name": "4.1.1 - Frais de secours",
+      "description": "Indépendamment de toute garantie de même nature souscrite auprès de l'assurance, SMACL Assistance prend en charge les frais justifiés d'intervention de tout organisme compétent dans l'organisation des secours.",
+      "is_optional": false,
+      "territorial_scope": "Dans la limite de l'étendue géographique du contrat d'assurance couvrant le bateau et dans le respect des limites de navigation autorisées par sa catégorie de conception et d'armement ; sans franchise de distance, y compris lorsque le bateau est à quai (art. 2.6.2)",
+      "limits": "à hauteur de 5 000 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Frais justifiés."
+      ],
+      "page": 7
+    },
+    {
+      "name": "4.1.2 - Renflouement",
+      "description": "Pour les bateaux garantis en dommage, SMACL Assistance, lorsque le bateau est échoué ou coulé involontairement, transfère l'organisation et la prise en charge des opérations de renflouement au GIE NAVIMUT.",
+      "is_optional": false,
+      "territorial_scope": "Dans la limite de l'étendue géographique du contrat d'assurance couvrant le bateau et dans le respect des limites de navigation autorisées par sa catégorie de conception et d'armement ; sans franchise de distance, y compris lorsque le bateau est à quai (art. 2.6.2)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Réservé aux bateaux garantis en dommage.",
+        "Bateau échoué ou coulé involontairement.",
+        "Organisation et prise en charge transférées au GIE NAVIMUT."
+      ],
+      "page": 7
+    },
+    {
+      "name": "4.1.3 - Retirement",
+      "description": "À la demande des autorités maritimes, lorsque le bateau sinistré présente un danger pour la navigation, SMACL Assistance organise son retirement, et en prend en charge le coût. Si le renflouement fait partie des opérations de retirement, il est intégré à cette garantie.",
+      "is_optional": false,
+      "territorial_scope": "Dans la limite de l'étendue géographique du contrat d'assurance couvrant le bateau et dans le respect des limites de navigation autorisées par sa catégorie de conception et d'armement ; sans franchise de distance, y compris lorsque le bateau est à quai (art. 2.6.2)",
+      "limits": "dans la limite définie au niveau de la garantie souscrite auprès de l'assurance",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "À la demande des autorités maritimes.",
+        "Le bateau sinistré doit présenter un danger pour la navigation."
+      ],
+      "page": 7
+    },
+    {
+      "name": "4.1.4 - Dépannage-remorquage",
+      "description": "SMACL Assistance organise le dépannage du bateau ou, en cas d'impossibilité, son remorquage jusqu'à un port permettant la réparation du bateau ou, si nécessaire, son grutage. Les frais de dépannage ou de remorquage sont pris en charge par SMACL Assistance.",
+      "is_optional": false,
+      "territorial_scope": "Dans la limite de l'étendue géographique du contrat d'assurance couvrant le bateau et dans le respect des limites de navigation autorisées par sa catégorie de conception et d'armement ; sans franchise de distance, y compris lorsque le bateau est à quai (art. 2.6.2)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Le coût des pièces détachées reste à la charge du bénéficiaire."
+      ],
+      "page": 7
+    },
+    {
+      "name": "4.1.5 - Dépannage à quai",
+      "description": "SMACL Assistance organise le dépannage du bateau par l'intervention d'un technicien et prend en charge son déplacement ainsi que la 1ère heure de main d'œuvre.",
+      "is_optional": false,
+      "territorial_scope": "Dans la limite de l'étendue géographique du contrat d'assurance couvrant le bateau et dans le respect des limites de navigation autorisées par sa catégorie de conception et d'armement ; sans franchise de distance, y compris lorsque le bateau est à quai (art. 2.6.2)",
+      "limits": "prise en charge du déplacement du technicien et de la 1ère heure de main d'œuvre",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 7
+    },
+    {
+      "name": "4.1.6 - Grutage",
+      "description": "Lorsqu'il juge que la réparation du bateau est impossible à effectuer sans sortir celui-ci de l'eau ou de sa remorque, SMACL Assistance organise et prend en charge son grutage. De même, lorsque, suite à un incident sur la remorque, il juge que la réparation de celle-ci n'est pas possible sans en sortir le bateau, SMACL Assistance organise et prend en charge le grutage de celui-ci. À l'achèvement des travaux, SMACL Assistance organise et prend en charge la remise à l'eau du bateau.",
+      "is_optional": false,
+      "territorial_scope": "Dans la limite de l'étendue géographique du contrat d'assurance couvrant le bateau et dans le respect des limites de navigation autorisées par sa catégorie de conception et d'armement ; sans franchise de distance, y compris lorsque le bateau est à quai (art. 2.6.2)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Appréciation de SMACL Assistance sur l'impossibilité de réparer sans sortir le bateau de l'eau ou de sa remorque."
+      ],
+      "page": 7
+    },
+    {
+      "name": "4.1.7 - Frais de cale ou de ber",
+      "description": "Lorsque la réparation nécessite la mise sur cale ou sur ber, et que des frais afférents sont demandés, SMACL Assistance en prend en charge le coût.",
+      "is_optional": false,
+      "territorial_scope": "Dans la limite de l'étendue géographique du contrat d'assurance couvrant le bateau et dans le respect des limites de navigation autorisées par sa catégorie de conception et d'armement ; sans franchise de distance, y compris lorsque le bateau est à quai (art. 2.6.2)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 8
+    },
+    {
+      "name": "4.1.8 - Expertise",
+      "description": "Lorsque nécessaire, SMACL Assistance missionne un expert et en prend en charge le coût.",
+      "is_optional": false,
+      "territorial_scope": "Dans la limite de l'étendue géographique du contrat d'assurance couvrant le bateau et dans le respect des limites de navigation autorisées par sa catégorie de conception et d'armement ; sans franchise de distance, y compris lorsque le bateau est à quai (art. 2.6.2)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 8
+    },
+    {
+      "name": "4.1.9 - Transport jusqu'à un chantier efficient",
+      "description": "Lorsqu'il juge que les réparations du bateau sont impossibles à effectuer dans de bonnes conditions de délai et/ou de qualité, dans le port d'accueil, SMACL Assistance peut décider son transport jusqu'à un chantier susceptible de procéder aux réparations nécessaires. La réparation effectuée, le bateau sera, si nécessaire, transporté jusqu'au lieu de mise à l'eau le plus proche.",
+      "is_optional": false,
+      "territorial_scope": "Dans la limite de l'étendue géographique du contrat d'assurance couvrant le bateau et dans le respect des limites de navigation autorisées par sa catégorie de conception et d'armement ; sans franchise de distance, y compris lorsque le bateau est à quai (art. 2.6.2)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Décision de SMACL Assistance."
+      ],
+      "page": 8
+    },
+    {
+      "name": "4.1.10 - Envoi de pièces détachées",
+      "description": "SMACL Assistance recherche et organise l'envoi de pièces détachées indisponibles sur place et nécessaires à la réparation du bateau garanti. Les frais d'expédition et les droits de douane sont pris en charge par SMACL Assistance.",
+      "is_optional": false,
+      "territorial_scope": "Dans la limite de l'étendue géographique du contrat d'assurance couvrant le bateau et dans le respect des limites de navigation autorisées par sa catégorie de conception et d'armement ; sans franchise de distance, y compris lorsque le bateau est à quai (art. 2.6.2)",
+      "limits": "prise en charge des frais d'expédition et des droits de douane",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Le prix de ces pièces doit être remboursé dans un délai maximum d'un (1) mois.",
+        "Pièces indisponibles sur place et nécessaires à la réparation du bateau garanti."
+      ],
+      "page": 8
+    },
+    {
+      "name": "4.2.1 - Acheminement d'un équipier",
+      "description": "À la suite de l'indisponibilité, du fait, médicalement justifié, d'une maladie, d'un accident corporel ou du décès d'un équipier nécessaire à la marche du bateau, SMACL Assistance organise et prend en charge, depuis la France, l'acheminement d'un remplaçant. Cette garantie s'applique également en cas de retour anticipé au domicile pour décès d'un proche.",
+      "is_optional": false,
+      "territorial_scope": "Dans la limite de l'étendue géographique du contrat d'assurance couvrant le bateau et dans le respect des limites de navigation autorisées par sa catégorie de conception et d'armement ; sans franchise de distance, y compris lorsque le bateau est à quai (art. 2.6.2)",
+      "limits": "acheminement depuis la France",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Indisponibilité médicalement justifiée d'un équipier nécessaire à la marche du bateau."
+      ],
+      "page": 8
+    },
+    {
+      "name": "4.2.2 - Voyage d'un équipage pour reprendre possession du bateau",
+      "description": "SMACL Assistance organise et prend en charge le transport de l'équipage nécessaire à la conduite du bateau pour aller en reprendre possession lorsqu'il est réparé.",
+      "is_optional": false,
+      "territorial_scope": "Dans la limite de l'étendue géographique du contrat d'assurance couvrant le bateau et dans le respect des limites de navigation autorisées par sa catégorie de conception et d'armement ; sans franchise de distance, y compris lorsque le bateau est à quai (art. 2.6.2)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 8
+    },
+    {
+      "name": "4.2.3 - Rapatriement du bateau par un patron de plaisance",
+      "description": "À la suite de l'indisponibilité, du fait d'une maladie, d'un accident corporel ou du décès, du chef de bord du bateau, et de l'absence d'une autre personne apte à prendre celui-ci en charge, SMACL Assistance missionne un patron de plaisance qualifié ainsi que les équipiers nécessaires pour rapatrier le bateau laissé sur place et prend en charge leurs frais.",
+      "is_optional": false,
+      "territorial_scope": "Dans la limite de l'étendue géographique du contrat d'assurance couvrant le bateau et dans le respect des limites de navigation autorisées par sa catégorie de conception et d'armement ; sans franchise de distance, y compris lorsque le bateau est à quai (art. 2.6.2)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Absence d'une autre personne apte à prendre le bateau en charge."
+      ],
+      "page": 8
+    },
+    {
+      "name": "4.2.4 - Rapatriement de bagages autres que bagages à main",
+      "description": "En cas d'immobilisation du bateau pour une durée supérieure à sept (7) jours, SMACL Assistance organise et prend en charge le rapatriement, à l'adresse du bénéficiaire, des bagages qu'il contient.",
+      "is_optional": false,
+      "territorial_scope": "Dans la limite de l'étendue géographique du contrat d'assurance couvrant le bateau et dans le respect des limites de navigation autorisées par sa catégorie de conception et d'armement ; sans franchise de distance, y compris lorsque le bateau est à quai (art. 2.6.2)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Immobilisation du bateau pour une durée supérieure à sept (7) jours.",
+        "La liste de ces bagages devra être remise à un représentant de SMACL Assistance par le bénéficiaire avant prise en charge.",
+        "À l'exception des denrées périssables, des matériels audio-vidéo, électroménagers, des équipements du bateau, des moyens de paiement, des bijoux et autres objets de valeur."
+      ],
+      "page": 8
+    },
+    {
+      "name": "4.3.1 - Rapatriement du bateau immobilisé (étranger)",
+      "description": "En cas de panne ou d'accident à l'étranger, SMACL Assistance organise le retour en France du bateau lorsque celui-ci est jugé irréparable à l'étranger mais réparable en France pour un coût total de transport et de réparation inférieur à sa valeur de remplacement en France.",
+      "is_optional": false,
+      "territorial_scope": "À l'étranger (garantie complémentaire de l'art. 4.3)",
+      "limits": "coût total de transport et de réparation inférieur à la valeur de remplacement du bateau en France",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Bateau jugé irréparable à l'étranger mais réparable en France."
+      ],
+      "page": 8
+    },
+    {
+      "name": "4.3.2 - Mise en épave (étranger)",
+      "description": "Si elle estime que le bateau n'est pas réparable selon les standards français, ni en France ni à l'étranger pour un coût inférieur à sa valeur de remplacement en France, SMACL Assistance organise la mise en épave et, si possible, la vente de l'épave, soit dans le pays de survenance, soit en France, selon les dispositions les mieux adaptées au pays.",
+      "is_optional": false,
+      "territorial_scope": "À l'étranger (garantie complémentaire de l'art. 4.3)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Sous réserve que le propriétaire en fasse formellement la demande et fournisse, dès son retour en France, les documents nécessaires."
+      ],
+      "page": 8
+    },
+    {
+      "name": "4.3.3 - Frais de port et gardiennage (étranger)",
+      "description": "Dans l'attente du rapatriement du bateau, SMACL Assistance organise et prend en charge les frais de port et si nécessaire le gardiennage.",
+      "is_optional": false,
+      "territorial_scope": "À l'étranger (garantie complémentaire de l'art. 4.3)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Sous réserve de réception des documents nécessaires dans les trente (30) jours suivant la connaissance de l'événement."
+      ],
+      "page": 8
+    },
+    {
+      "name": "5.1 - Renseignements",
+      "description": "Des renseignements et conseils médicaux à l'étranger pourront être prodigués par les médecins de SMACL Assistance : lors de la préparation du voyage (attitudes préventives, vaccinations obligatoires et conseillées) ; pendant le voyage (choix d'établissement hospitalier) et au retour du voyage (tout événement médical survenant dans les suites immédiates). De même, des renseignements pratiques, de caractère général, relatifs à l'organisation des voyages pourront être communiqués (formalités administratives, liaisons téléphoniques, caractéristiques économiques et climatiques, etc.).",
+      "is_optional": false,
+      "territorial_scope": "À l'étranger pour les renseignements et conseils médicaux",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Ces renseignements et conseils ne peuvent, pour autant, être considérés comme des consultations médicales."
+      ],
+      "page": 8
+    },
+    {
+      "name": "5.2 - Recherche de personnes et transmission de messages urgents",
+      "description": "SMACL Assistance se charge de mettre en œuvre les moyens qu'elle juge appropriés pour rechercher les membres de la famille d'un bénéficiaire et transmettre des messages lorsque, pour quelque cause que ce soit, il ne peut pas les envoyer lui-même. Les bénéficiaires en déplacement, confrontés à de sérieux ennuis non prévus dans le présent document, pourront appeler SMACL Assistance qui s'efforcera de leur venir en aide.",
+      "is_optional": false,
+      "territorial_scope": "Monde entier, sans franchise de distance (art. 2.6.1)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 8
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Bagages exclus - moyens de paiement",
+      "description": "Les bagages et objets susceptibles d'être pris en charge par SMACL Assistance sont ceux considérés comme nécessaires à un séjour à bord du bateau et embarqués par le bénéficiaire, à l'exclusion des moyens de paiement (argent liquide, devises, chèques, cartes bancaires, etc.).",
+      "applies_to": "Prestations portant sur les bagages",
+      "page": 3
+    },
+    {
+      "name": "Bagages exclus - denrées périssables",
+      "description": "Exclusion des denrées périssables de la définition des bagages pris en charge.",
+      "applies_to": "Prestations portant sur les bagages",
+      "page": 3
+    },
+    {
+      "name": "Bagages exclus - produits et matières dangereuses",
+      "description": "Exclusion des produits et matières dangereuses de la définition des bagages pris en charge.",
+      "applies_to": "Prestations portant sur les bagages",
+      "page": 3
+    },
+    {
+      "name": "Bagages exclus - équipements du bateau",
+      "description": "Exclusion des équipements du bateau (voiles, accastillage, électronique de bord, annexes, moteurs auxiliaires, skis, planches à voiles, matériel de plongée) de la définition des bagages pris en charge.",
+      "applies_to": "Prestations portant sur les bagages",
+      "page": 3
+    },
+    {
+      "name": "Bagages exclus - matériels audio-vidéo ou gros électroménager",
+      "description": "Exclusion des matériels audio-vidéo ou gros électroménager de la définition des bagages pris en charge.",
+      "applies_to": "Prestations portant sur les bagages",
+      "page": 3
+    },
+    {
+      "name": "Bagages exclus - bijoux et objets de valeur",
+      "description": "Exclusion des bijoux et autres objets de valeur de la définition des bagages pris en charge.",
+      "applies_to": "Prestations portant sur les bagages",
+      "page": 3
+    },
+    {
+      "name": "Frais d'hébergement - téléphone, internet et bar",
+      "description": "Les frais d'hébergement sont les frais de la nuit à l'hôtel et des repas, hors frais de téléphone, de connexion internet et de bar.",
+      "applies_to": "Prestations d'hébergement",
+      "page": 3
+    },
+    {
+      "name": "Voyages à visée diagnostique ou thérapeutique et retours pour greffe d'organe",
+      "description": "Ni les voyages à visée diagnostique et/ou thérapeutique, c'est-à-dire ayant pour objectif de consulter un praticien ou d'être hospitalisé, ni les retours pour greffe d'organe, ne peuvent être considérés comme des événements donnant droit à une assistance au titre de la maladie si celle-ci n'est pas justifiée par une altération soudaine et imprévisible de l'état de santé au cours du voyage.",
+      "applies_to": "Garanties d'assistance aux personnes (maladie)",
+      "page": 4
+    },
+    {
+      "name": "Compétitions de bateaux à moteur",
+      "description": "Sont exclues les compétitions de bateaux à moteur.",
+      "applies_to": "all",
+      "page": 4
+    },
+    {
+      "name": "Escales au port d'attache",
+      "description": "La garantie s'étend également aux activités touristiques pratiquées durant les escales, hors escales au port d'attache.",
+      "applies_to": "all",
+      "page": 4
+    },
+    {
+      "name": "Utilisation lucrative du bateau sans accord spécifique",
+      "description": "Sauf accord spécifique de SMACL Assurances, le bateau doit être utilisé à titre privé ou pour un besoin d'intérêt général, dans un but non lucratif.",
+      "applies_to": "all",
+      "page": 4
+    },
+    {
+      "name": "Force majeure et événements assimilés",
+      "description": "La responsabilité de SMACL Assistance ne saurait être recherchée, en cas de manquement aux obligations de la présente convention si celui-ci résulte de cas de force majeure ou d'événements tels que guerre civile ou étrangère, révolution, mouvement populaire, émeute, grève, saisie ou contrainte par la force publique, interdiction officielle, piraterie, explosion d'engins, effets nucléaires ou radioactifs, empêchements climatiques.",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Substitution aux organismes locaux d'urgence et sauvetage en mer",
+      "description": "SMACL Assistance ne peut intervenir que dans la limite des accords donnés par les autorités locales, et ne peut en aucun cas se substituer aux organismes locaux d'urgence, ni prendre en charge les frais de service public ainsi engagés. En particulier, il ne saurait organiser des opérations de sauvetage en mer, que ce soit pour des personnes ou des bateaux.",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Infractions volontaires à la législation locale",
+      "description": "SMACL Assistance ne sera pas tenu d'intervenir dans les cas où le bénéficiaire aurait commis de façon volontaire des infractions à la législation locale en vigueur.",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Dépenses engagées de la propre initiative du bénéficiaire",
+      "description": "Ces prestations sont mises en œuvre par SMACL Assistance ou en accord préalable avec elle. Par contre, SMACL Assistance ne participe pas, en principe, aux dépenses que le bénéficiaire a engagées de sa propre initiative.",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Dépenses qui auraient été engagées en l'absence de l'événement",
+      "description": "Toutes les dépenses que le bénéficiaire aurait dû normalement engager en l'absence de l'événement donnant lieu à l'intervention de SMACL Assistance, restent à sa charge (titre de transport, repas, essence, frais de port, taxes, etc.).",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Prestations non prévues à la convention",
+      "description": "Les prestations, non prévues dans la présente convention, que SMACL Assistance accepterait de mettre en œuvre à la demande d'un bénéficiaire seront considérées comme une avance de fonds remboursable.",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Coût des médicaments, lunettes, appareillages et prothèses",
+      "description": "Le coût de ces médicaments et matériels reste à charge du bénéficiaire, SMACL Assistance pouvant en avancer le montant si nécessaire.",
+      "applies_to": "3.1.5 - Recherche et expédition de médicaments et prothèses",
+      "page": 6
+    },
+    {
+      "name": "Frais de cérémonie, de convoi, d'inhumation ou de crémation",
+      "description": "Les autres frais, notamment les frais de cérémonie, de convoi, d'inhumation ou de crémation restent à la charge de la famille.",
+      "applies_to": "3.2.1 - Décès d'un bénéficiaire en déplacement",
+      "page": 6
+    },
+    {
+      "name": "Non-cumul du rapatriement et de l'attente sur place",
+      "description": "Cette garantie n'est pas cumulable avec l'attente sur place décrite à l'article 3.3.1.",
+      "applies_to": "3.3.2 - Rapatriement en cas d'indisponibilité du bateau",
+      "page": 6
+    },
+    {
+      "name": "Bateau sous séquestre",
+      "description": "En cas de séquestre du bateau, SMACL Assistance ne pourra intervenir qu'après levée du séquestre.",
+      "applies_to": "Garanties d'assistance au bateau (art. 4.1)",
+      "page": 7
+    },
+    {
+      "name": "Coût des pièces détachées lors du dépannage-remorquage",
+      "description": "Les frais de dépannage ou de remorquage sont pris en charge par SMACL Assistance, le coût des pièces détachées restant à la charge du bénéficiaire.",
+      "applies_to": "4.1.4 - Dépannage-remorquage",
+      "page": 7
+    },
+    {
+      "name": "Prix des pièces détachées expédiées",
+      "description": "Les frais d'expédition, les droits de douane sont pris en charge par SMACL Assistance, le prix de ces pièces devant être remboursé dans un délai maximum d'un (1) mois.",
+      "applies_to": "4.1.10 - Envoi de pièces détachées",
+      "page": 8
+    },
+    {
+      "name": "Bagages exclus du rapatriement en cas d'immobilisation du bateau",
+      "description": "Rapatriement des bagages contenus dans le bateau à l'exception des denrées périssables, des matériels audio-vidéo, électroménagers, des équipements du bateau, des moyens de paiement, des bijoux et autres objets de valeur.",
+      "applies_to": "4.2.4 - Rapatriement de bagages autres que bagages à main",
+      "page": 8
+    },
+    {
+      "name": "Les renseignements médicaux ne sont pas des consultations",
+      "description": "Ces renseignements et conseils ne peuvent, pour autant, être considérés comme des consultations médicales.",
+      "applies_to": "5.1 - Renseignements",
+      "page": 8
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": null,
+    "per_coverage": null,
+    "page": 5
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Appeler SMACL Assistance et obtenir son accord préalable",
+      "description": "Ces prestations sont mises en œuvre par SMACL Assistance ou en accord préalable avec elle. Par contre, SMACL Assistance ne participe pas, en principe, aux dépenses que le bénéficiaire a engagées de sa propre initiative. SMACL Assistance intervient 7 j / 7, 24 h / 24, à la suite d'appels émanant de bénéficiaires aux numéros suivants : 09 86 03 04 05 depuis la France, +33 5 49 34 83 38 depuis l'étranger ; pour les bénéficiaires sourds et malendendants, communication par SMS : 06 73 25 32 47 ou Fax : 05 49 34 72 67.",
+      "timing": "Au moment de l'événement",
+      "sanction": "SMACL Assistance ne participe pas, en principe, aux dépenses engagées de la propre initiative du bénéficiaire.",
+      "page": 5
+    },
+    {
+      "name": "Fournir les pièces justificatives",
+      "description": "SMACL Assistance se réserve le droit de demander à l'assuré tout document ou information utile à la bonne instruction de son dossier.",
+      "timing": "Sur demande, pendant l'instruction du dossier",
+      "sanction": null,
+      "page": 5
+    },
+    {
+      "name": "Reverser les remboursements des organismes sociaux",
+      "description": "Lorsque tout ou partie des prestations fournies en exécution des garanties du contrat sont couvertes totalement ou partiellement par les organismes sociaux, le bénéficiaire requerra auprès des organismes concernés les remboursements qui lui sont dus et les reversera à SMACL Assistance.",
+      "timing": "Après la prestation",
+      "sanction": null,
+      "page": 5
+    },
+    {
+      "name": "Effectuer les démarches de recouvrement des frais médicaux",
+      "description": "Le bénéficiaire s'engage à effectuer, dès son retour en France, toute démarche nécessaire au recouvrement de ces frais auprès des organismes concernés, et à transmettre à SMACL Assistance les décomptes originaux justifiant les remboursements obtenus des organismes sociaux.",
+      "timing": "Dès son retour en France",
+      "sanction": null,
+      "page": 6
+    },
+    {
+      "name": "Rembourser les avances de fonds",
+      "description": "SMACL Assistance peut, contre reconnaissance de dette, consentir au bénéficiaire une avance de fonds, remboursable dans le délai maximal d'un mois à compter du jour de l'avance.",
+      "timing": "Dans le délai maximal d'un mois à compter du jour de l'avance",
+      "sanction": null,
+      "page": 7
+    },
+    {
+      "name": "Rembourser le prix des pièces détachées expédiées",
+      "description": "Les frais d'expédition, les droits de douane sont pris en charge par SMACL Assistance, le prix de ces pièces devant être remboursé dans un délai maximum d'un (1) mois.",
+      "timing": "Dans un délai maximum d'un (1) mois",
+      "sanction": null,
+      "page": 8
+    },
+    {
+      "name": "Remettre la liste des bagages avant prise en charge",
+      "description": "La liste de ces bagages devra être remise à un représentant de SMACL Assistance par le bénéficiaire avant prise en charge.",
+      "timing": "Avant prise en charge du rapatriement des bagages",
+      "sanction": null,
+      "page": 8
+    },
+    {
+      "name": "Demander formellement la mise en épave et fournir les documents",
+      "description": "SMACL Assistance organise la mise en épave sous réserve que son propriétaire en fasse formellement la demande et fournisse, dès son retour en France, les documents nécessaires. Pour les frais de port et gardiennage, les documents nécessaires doivent être reçus dans les trente (30) jours suivant la connaissance de l'événement.",
+      "timing": "Dès le retour en France ; dans les trente (30) jours suivant la connaissance de l'événement pour les frais de port et gardiennage",
+      "sanction": null,
+      "page": 8
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Appeler SMACL Assistance",
+      "description": "SMACL Assistance intervient 7 j / 7, 24 h / 24, à la suite d'appels émanant de bénéficiaires aux numéros suivants : 09 86 03 04 05 depuis la France ; +33 5 49 34 83 38 depuis l'étranger. Pour les bénéficiaires sourds et malendendants, communication par SMS : 06 73 25 32 47 ou Fax : 05 49 34 72 67.",
+      "deadline": null,
+      "page": 3
+    },
+    {
+      "step": "Obtenir l'accord préalable de SMACL Assistance",
+      "description": "Ces prestations sont mises en œuvre par SMACL Assistance ou en accord préalable avec elle ; SMACL Assistance ne participe pas, en principe, aux dépenses que le bénéficiaire a engagées de sa propre initiative.",
+      "deadline": null,
+      "page": 5
+    },
+    {
+      "step": "Transmettre les pièces justificatives",
+      "description": "SMACL Assistance se réserve le droit de demander à l'assuré tout document ou information utile à la bonne instruction de son dossier.",
+      "deadline": null,
+      "page": 5
+    },
+    {
+      "step": "Remboursement à défaut de mise en œuvre",
+      "description": "Les prestations qui ne pourraient être mises en œuvre par SMACL Assistance pourront donner lieu à un remboursement au bénéficiaire.",
+      "deadline": null,
+      "page": 5
+    }
+  ],
+  "duration_and_cancellation": null,
+  "prescription_period": null,
+  "premium": null,
+  "special_conditions": [
+    {
+      "name": "Préambule - mise en œuvre de la convention",
+      "description": "La convention d'assistance navigation de plaisance mise en œuvre par SMACL Assistance, et présentée ci-après, se propose d'apporter aux assurés de SMACL Assurances, souscripteurs d'un contrat navigation de plaisance, des garanties aussi larges que possible dans le cadre de la navigation de plaisance. À cet effet, elle ne comporte que de rares limitations. SMACL Assistance intervient 7 j / 7, 24 h / 24.",
+      "page": 3
+    },
+    {
+      "name": "Bateaux garantis",
+      "description": "a) Tout bateau de plaisance assuré par SMACL Assurances, dans le cadre d'un contrat navigation de plaisance, destiné à la navigation maritime ou fluviale, utilisé pour la pratique de toute activité de loisir et/ou d'activités relevant d'une mission de service public non commerciale. Sauf accord spécifique de SMACL Assurances, il doit être utilisé à titre privé ou pour un besoin d'intérêt général, dans un but non lucratif. b) Tout bateau de plaisance assuré par SMACL Assurances et prêté à titre gracieux par l'assuré. c) Tout bateau de plaisance pris en location par l'assuré et garanti auprès de SMACL Assurances.",
+      "page": 4
+    },
+    {
+      "name": "Déplacements garantis",
+      "description": "Les prestations garanties s'appliquent à l'occasion de toute navigation à bord du bateau assuré, pour des déplacements ininterrompus du bénéficiaire pouvant aller jusqu'à un an. La garantie s'étend également aux activités touristiques pratiquées durant les escales, hors escales au port d'attache. Sont exclues les compétitions de bateaux à moteur.",
+      "page": 4
+    },
+    {
+      "name": "Événements générateurs donnant droit aux prestations",
+      "description": "Donnent droit aux prestations d'assistance les événements suivants : maladie, accident corporel, décès d'un bénéficiaire ; décès du conjoint de droit ou de fait, d'un ascendant en ligne directe, d'un descendant en ligne directe, d'un frère ou d'une sœur d'un des bénéficiaires ; vol ou perte de papiers d'identité ou d'argent ; dommage accidentel au bateau de plaisance ; vol du bateau, ou d'éléments de son équipement, qui rendent impossible l'utilisation du bateau dans le respect de la réglementation en vigueur ; tentative de vol, ou acte de vandalisme qui entraîne des dommages rendant impossible l'utilisation du bateau dans le respect de la réglementation en vigueur ; incendie du bateau ; panne de moteur ou d'appareils de navigation, mettant en péril le bateau ou l'équipage ; panne de carburant, problème d'alimentation de carburant ou d'alimentation électrique ; vol ou perte des clés du bateau.",
+      "page": 4
+    },
+    {
+      "name": "Causes d'immobilisation ouvrant droit aux garanties d'assistance au bateau",
+      "description": "En cas d'immobilisation d'un bateau garanti, telle que définie à l'article 2.2, pour les causes suivantes : panne ; accident ; incendie ; vol ou tentative de vol ; perte de clés ; indisponibilité du chef de bord du fait d'une maladie, d'un accident corporel ou d'un décès.",
+      "page": 7
+    },
+    {
+      "name": "Prise en charge des frais pour le compte de SMACL Assurances",
+      "description": "SMACL Assistance met en œuvre les prestations garanties par la présente convention et assume, pour le compte de SMACL Assurances, la prise en charge des frais afférents.",
+      "page": 5
+    },
+    {
+      "name": "Conditions locales d'exécution des prestations",
+      "description": "Les prestations garanties s'appliquent compte tenu des conditions géographiques, climatiques, économiques, politiques et juridiques propres au lieu de déplacement, constatées ou prévisibles lors de l'événement.",
+      "page": 5
+    },
+    {
+      "name": "Subrogation",
+      "description": "SMACL Assurances est subrogée, à concurrence des frais que SMACL Assistance a engagés pour son compte, dans les droits et actions de ses souscripteurs et bénéficiaires contre tout responsable de sinistre.",
+      "page": 5
+    },
+    {
+      "name": "Entités nommées par le document",
+      "description": "Le document nomme trois entités et ne comporte aucune clause « Assureur ». Préambule (page 3) : la convention est « mise en œuvre par SMACL Assistance » au profit des « assurés de SMACL Assurances, souscripteurs d'un contrat navigation de plaisance ». Art. 4.1.2 (page 7) : l'organisation et la prise en charge du renflouement sont transférées au « GIE NAVIMUT ». Colophon (page 10) : « SMACL ASSURANCES SA - Société anonyme au capital de 138 801 048 euros, entreprise régie par le Code des assurances, RCS Niort n°833 817 224. »",
+      "page": 3
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "La convention d’assistance navigation de plaisance mise \nen œuvre par SMACL Assistance, et présentée ci-après, \nse propose d’apporter aux assurés de SMACL Assurances, \nsouscripteurs d’un contrat navigation de plaisance, des \ngaranties aussi larges que possible dans le cadre de la \nnavigation de plaisance.",
+      "page": 3
+    },
+    {
+      "quote": "SMACL Assistance intervient 7 j / 7, 24 h / 24, à la suite \nd’appels émanant de bénéficiaires aux numéros suivants :",
+      "page": 3
+    },
+    {
+      "quote": "Toute personne physique embarquée, à titre gratuit, à \nbord d’un bateau de plaisance entrant dans la définition \nci-dessous (article. 2.2).",
+      "page": 4
+    },
+    {
+      "quote": "Tout bateau de plaisance assuré par SMACL Assurances, \ndans le cadre d’un contrat navigation de plaisance, \ndestiné à la navigation maritime ou fluviale, utilisé \npour la pratique de toute activité de loisir et/ou \nd’activités relevant d’une mission de service public \nnon commerciale.",
+      "page": 4
+    },
+    {
+      "quote": "Sont exclues les compétitions de bateaux à moteur.",
+      "page": 4
+    },
+    {
+      "quote": "L’ensemble des garanties d’assistance aux personnes \nest accordée dans le monde entier, sans franchise \nde distance.",
+      "page": 5
+    },
+    {
+      "quote": "Les garanties d’assistance au bateau sont accordées \ndans la limite de l’étendue géographique du contrat \nd’assurance couvrant le bateau et dans le respect des \nlimites de navigation autorisées par sa catégorie de \nconception et d’armement.",
+      "page": 5
+    },
+    {
+      "quote": "SMACL Assistance ne peut intervenir que dans \nla limite des accords donnés par les autorités locales, et \nne peut en aucun cas se substituer aux organismes locaux \nd’urgence, ni prendre en charge les frais de service public \nainsi engagés. En particulier, il ne saurait organiser des \nopérations de sauvetage en mer, que ce soit pour des \npersonnes ou des bateaux.",
+      "page": 5
+    },
+    {
+      "quote": "Toutes les dépenses que le bénéficiaire aurait dû \nnormalement engager en l’absence de l’événement \ndonnant lieu à l’intervention de SMACL Assistance, \nrestent à sa charge (titre de transport, repas, essence, \nfrais de port, taxes, etc.).",
+      "page": 5
+    },
+    {
+      "quote": "SMACL Assistance, en complément des \nprestations dues par les organismes sociaux, prend en \ncharge les frais médicaux et d’hospitalisation engagés \nsur place à concurrence de 80 000 € par bénéficiaire",
+      "page": 6
+    },
+    {
+      "quote": "SMACL Assistance \norganise et participe à l’hébergement d’une personne \nattendant sur place le rapatriement, à concurrence de \n50 € par jour, et ce, pour une durée maximale de sept \n(7) jours.",
+      "page": 6
+    },
+    {
+      "quote": "participe aux frais (hôtel et \nrepas), à concurrence de 50 € par jour et par personne, \ndans la limite de dix (10) jours maximum.",
+      "page": 6
+    },
+    {
+      "quote": "Cette garantie n’est pas cumulable \navec l’attente sur place décrite à l’article 3.3.1.",
+      "page": 6
+    },
+    {
+      "quote": "SMACL Assistance \nprend en charge, à hauteur de 5 000 €, les frais justifiés \nd’intervention de tout organisme compétent dans \nl’organisation des secours.",
+      "page": 7
+    },
+    {
+      "quote": "Pour les bateaux garantis en dommage, SMACL \nAssistance, lorsque le bateau est échoué ou coulé \ninvolontairement, \ntransfère \nl’organisation \net \nla \nprise en charge des opérations de renflouement au \nGIE NAVIMUT.",
+      "page": 7
+    },
+    {
+      "quote": "En cas de séquestre du bateau, SMACL Assistance ne \npourra intervenir qu’après levée du séquestre.",
+      "page": 7
+    },
+    {
+      "quote": "Ces renseignements et conseils ne peuvent, pour autant, \nêtre considérés comme des consultations médicales.",
+      "page": 8
+    },
+    {
+      "quote": "SMACL ASSURANCES SA - Société anonyme au capital de 138 801 048 euros, entreprise régie par le Code des\nassurances, RCS Niort n°833 817 224.",
+      "page": 10
+    }
+  ],
+  "gaps": [
+    "edition_date pris au colophon de la page 10 : « 01/2024 - Concepton : Directon développement et communicaton SMACL Assurances. » Le code de référence imprimé au pied de la page 2, NAVIMUT_CA_NAVIMUT_SA_02(01_2017), porte 01/2017 et est conservé dans `reference`. Écart de sept ans entre les deux valeurs, toutes deux imprimées ; aucune n'a été harmonisée.",
+    "target_audience laissé null : la page 1 porte DEUX bandeaux, « Collectivités » et « Associations » (couche texte : « Collectvités », « Associatons »). Aucune valeur de l'énumération du schéma ne recouvre un public associatif ; le libellé exact du document est conservé dans target_audience_note plutôt que d'être réduit à « secteur_public ».",
+    "document_type conservé à « conditions_generales » comme fourni par la tâche, mais le document se désigne lui-même autrement : la page 1 imprime « Votre convention d'assistance » et la page 3 « Convention Assistance Navigation de plaisance ». Ce n'est pas un recueil de conditions générales d'assurance : il ne contient ni durée, ni résiliation, ni cotisation, ni prescription, ni clause de contrôle de l'assureur.",
+    "is_extension mis à true : le préambule (page 3) énonce que la convention s'adresse « aux assurés de SMACL Assurances, souscripteurs d'un contrat navigation de plaisance ». `extends` reprend la formule exacte du document, « contrat navigation de plaisance » ; le document ne donne pas d'autre nom commercial au contrat de base.",
+    "duration_and_cancellation, prescription_period et premium sont null : le document ne comporte aucune disposition sur la durée, la reconduction, la résiliation, la prescription, la cotisation ou son indexation. Il ne mentionne ni autorité de contrôle, ni médiation, ni traitement des réclamations, ni protection des données personnelles.",
+    "Aucune franchise monétaire n'est stipulée. Le mot « franchise » n'apparaît qu'au sens de franchise de distance : l'assistance aux personnes est accordée « sans franchise de distance » (art. 2.6.1) et l'assistance au bateau « sans franchise de distance, y compris lorsque le bateau est à quai » (art. 2.6.2). Les champs de `deductibles` sont donc null.",
+    "is_optional mis à false sur les 33 garanties : le document ne qualifie aucune prestation d'optionnelle et ne comporte ni formule ni tableau de garanties. Les restrictions propres à certaines prestations (renflouement réservé aux « bateaux garantis en dommage », retirement plafonné « dans la limite définie au niveau de la garantie souscrite auprès de l'assurance ») sont enregistrées comme conditions, non comme options.",
+    "Défaut de la couche texte : la police d'affichage Poligon perd la ligature « ti ». Page 1 : « Collectvités » et « Associatons » (le rendu imprime « Collectivités » et « Associations ») ; page 10 : « Concepton », « Directon », « communicaton ». Les valeurs structurées suivent le rendu, les citations suivent la couche texte et évitent ces mots.",
+    "La page 2 (sommaire) contient 2 276 caractères U+FFFD : les points de conduite des lignes de sommaire ne sont pas encodés. Aucune citation n'est prise sur cette page et aucun contenu n'y est perdu (les titres d'articles sont lisibles).",
+    "U+0007 (31 occurrences, réparties p3=8, p4=13, p5=7, p7=1, p8=2) : ce caractère de contrôle suit la puce des listes ; il ne signale aucun texte manquant. Toutes les citations ont été découpées sans en traverser aucun.",
+    "Texte vérifié : les 10 pages extraites par page.get_text(\"text\") (PyMuPDF) sont identiques caractère par caractère au texte fourni dans le prompt ; aucune troncature. Aucun bloc hors du rectangle de page, aucun en-tête empilé, aucune ligne d'édition fantôme (une seule date de colophon dans la couche texte : 01/2024).",
+    "La page 9 est entièrement vide (aucun texte, aucune image) ; page blanche de mise en page avant la 4e de couverture.",
+    "Trois entités distinctes sont nommées, sans clause « Assureur » pour les départager : SMACL Assistance (qui met en œuvre les prestations et en assume les frais « pour le compte de SMACL Assurances », art. 2.5 a), SMACL Assurances (dont les assurés sont bénéficiaires, et qui est subrogée à l'art. 2.5 g) et le GIE NAVIMUT (à qui le renflouement est transféré, art. 4.1.2). Le colophon ne nomme que « SMACL ASSURANCES SA - Société anonyme au capital de 138 801 048 euros, RCS Niort n°833 817 224 ». Le document ne dit nulle part laquelle de ces entités porte le risque ; aucune n'a été désignée par déduction.",
+    "Le manifeste local porte pour ce document product_name « Assurance navigation de plaisance [ca-navigation-de-plaisance] » et edition_date « 2017-01 » ; le document imprime « Convention Assistance Navigation de plaisance » (page 3) et la date de colophon 01/2024. Le document a primé sur les métadonnées de la tâche.",
+    "Coquilles de l'éditeur conservées telles quelles : « bénéficiaires sourds et malendendants » (page 3), « Evénement » sans accent aux art. 1.1 et 1.2 (page 3), « (article. 2.2) » (page 4), et le genre de SMACL Assistance alterne entre le féminin et le masculin (« SMACL Assistance ne sera pas tenu d'intervenir », « il ne saurait organiser », page 5). Aucune n'a été rectifiée."
+  ]
+}

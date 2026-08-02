@@ -27,7 +27,7 @@ navigate it without guessing. Do not edit by hand.
 |---|---|---|---|---|---|
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
 | ch (Switzerland) | 0 | 3 | 1 | 0 | 5 |
-| fr (France) | 24 | 540 | 10 | 1 | 5 |
+| fr (France) | 24 | 544 | 10 | 1 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
 
@@ -356,6 +356,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | auto | groupama | Convention Spéciale Garantie Assistance Véhicules 3,5 tonnes | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/412fYD1ZFvT8rzbrc8gZmp/bb9a1434accd9b56421b51e18090f894/CS_Assistance__3_5T.pdf) |
 | fr | auto | maaf | CARAVANE, REMORQUE, CAMION, VEHICULES DIVERS - IPID | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/AUT11028.PDF) |
 | fr | auto | maaf | Camping-Car, Ambulance, Bazar forain, Véhicule de collection - IPID | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/AUT11023.PDF) |
+| fr | auto | maaf | Contrat Camping car, Ambulance, Bazar forain, Véhicule de collection — Assurance Multirisque | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Vehicule/CG/CG_assurance_CC_6056.pdf) |
 | fr | auto | macif | Contrat Automobile – Voitures particulières, fourgons et fourgonnettes - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_auto.pdf) |
 | fr | auto | macif | Contrat Camping-car Autocaravane - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_camping_car.pdf) |
 | fr | auto | macif | Contrat Camping-car, Autocaravane | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_vehicules/CG_campingcar.pdf) |
@@ -447,6 +448,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | chasse | matmut | Contrat « Chasse » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDCHASSE.pdf) |
 | fr | chasse | thelem | Assurance chasse - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_Chasse-332-juillet-2024.pdf) |
 | fr | credit-caution | smacl | Assurance loyers impayés | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cg-loyers-impayes-sam.pdf) |
+| fr | credit-caution | smacl | Assurance loyers impayés (2) | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cg-loyers-impayes.pdf) |
 | fr | decennale | maaf | VOS GARANTIES RESPONSABILITÉ CIVILE CONSTRUCTION - Fiche | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Garantie_decennale_17195.pdf) |
 | fr | decennale | maif | Dommages-Ouvrage Associations et Collectivités - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/document-information-assurance-dommages-ouvrages.pdf) |
 | fr | decennale | maif | Tous Risques Chantier Associations et Collectivités - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/document-information-assurance-tous-risques-chantier.pdf) |
@@ -511,6 +513,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | habitation | macif | Assistance juridique Option “Plus” | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/annexe_optionAJ_plus.pdf) |
 | fr | habitation | macif | Contrat Habitation - Formule Protectrice - Résidence principale | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/CG_habitation_RP_protectrice.pdf) |
 | fr | habitation | macif | Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/CG_habitation_RP_RS_economique_20230114.pdf) |
+| fr | habitation | macif | Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_habitation_principale_et_secondaire_economique.pdf) |
 | fr | habitation | macif | Contrat Macif Habitation - Formule Construction - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/dipa-macif-habitation-maison-en-construction.pdf) |
 | fr | habitation | macif | Contrat Macif Habitation - Formules Économique, Équilibrée, Confort (Assurance multirisques habitation - Résidence princ | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/dipa-macif-habitation-residence-principale.pdf) |
 | fr | habitation | macif | Contrat Macif Habitation - Formules Économique, Équilibrée, Confort - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/dipa-macif-habitation-residence-secondaire.pdf) |
@@ -621,6 +624,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | navigation | matmut | Contrat « Navigation de plaisance - Distinguo & Co » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/ipid-ndep-distinguo-and-co.pdf) |
 | fr | navigation | matmut | Navigation de Plaisance Distinguo & Co | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-ndep-distinguo-and-co.pdf) |
 | fr | navigation | matmut | Navigation de Plaisance Matmut | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGNDEP.pdf) |
+| fr | navigation | smacl | Convention Assistance Navigation de plaisance | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/ca-navigation-de-plaisance.pdf) |
 | fr | obseques | gan | GAN PATRIMOINE SÉRÉNITÉ ESSENTIEL - Fiche | 2026-07-30 | [pdf](https://www.ganpatrimoine.fr/Media/documents/DIC/1412-062023%20-%20DIC%20GPatSE.pdf) |
 | fr | obseques | gan | GAN PATRIMOINE SÉRÉNITÉ ESSENTIEL - Fiche (2) | 2026-07-30 | [pdf](https://www.ganpatrimoine.fr/Media/documents/DIC/1412-112018%20GPatSE.pdf) |
 | fr | obseques | gan | GAN PATRIMOINE SÉRÉNITÉ OBSÈQUES - Fiche | 2026-07-30 | [pdf](https://www.ganpatrimoine.fr/Media/documents/Lisibilite-obseques-Gan-Patrimoine-032026.pdf) |

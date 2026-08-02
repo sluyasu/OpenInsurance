@@ -5,7 +5,7 @@ country: fr
 insurer_slug: macif
 name: Macif
 website: https://www.macif.fr
-products_count: 67
+products_count: 68
 branches_covered:
 - animaux
 - assurance-vie
@@ -40,7 +40,7 @@ generated: true
 
 ## Résumé
 
-**Macif** - [https://www.macif.fr](https://www.macif.fr). 67 document(s) across 18 branch(es).
+**Macif** - [https://www.macif.fr](https://www.macif.fr). 68 document(s) across 18 branch(es).
 
 ## Produits par branche
 
@@ -86,6 +86,7 @@ generated: true
 ### [Multirisque habitation](../branches/Multirisque%20habitation.md)
 - [Assistance juridique Option “Plus”](../products/macif/Assistance%20juridique%20Option%20%E2%80%9CPlus%E2%80%9D.md) - Conditions générales (2016-04) · réf. HAB/PROT RP/07 - 04/16 - N365
 - [Contrat Habitation - Formule Protectrice - Résidence principale](../products/macif/Contrat%20Habitation%20-%20Formule%20Protectrice%20-%20R%C3%A9sidence%20principale.md) - Conditions générales (Avril 2024) · réf. HAB/PROT RP/05 - 04/24 - N752
+- [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire - IPID](../products/macif/Contrat%20Habitation%20-%20Formule%20%C3%89conomique%20-%20R%C3%A9sidence%20principale%20-%20R%C3%A9sidence%20secondaire%20-%20IPID.md) - IPID / Fiche d'information (04/24) · réf. HAB-ECO 04/24
 - [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire](../products/macif/Contrat%20Habitation%20-%20Formule%20%C3%89conomique%20-%20R%C3%A9sidence%20principale%20-%20R%C3%A9sidence%20secondaire.md) - Conditions générales (05/18) · réf. HAB/ECO/05 - 05/18 - N781
 - [Contrat Macif Habitation - Formule Construction - IPID](../products/macif/Contrat%20Macif%20Habitation%20-%20Formule%20Construction%20-%20IPID.md) - IPID / Fiche d'information (2025-06) · réf. MACIF HAB MC 06/25
 - [Contrat Macif Habitation - Formules Économique, Équilibrée, Confort - IPID](../products/macif/Contrat%20Macif%20Habitation%20-%20Formules%20%C3%89conomique%2C%20%C3%89quilibr%C3%A9e%2C%20Confort%20-%20IPID.md) - IPID / Fiche d'information (06/25) · réf. MACIF HAB RS 06/25

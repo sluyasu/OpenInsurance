@@ -50,6 +50,10 @@ _(pas de résumé)_
 
 > ⚠️ **Édition ancienne** : 05/18, soit 8 ans à la date de collecte, et aucune édition plus récente de ce document n'a été trouvée. Le document était toujours publié par l'assureur au moment de la collecte. Un document ancien peut décrire un produit qui n'est plus commercialisé mais dont des contrats sont toujours en cours ; ce point n'est pas déterminable à partir du document et est à vérifier auprès de l'assureur.
 
+## Documents liés
+
+- [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire - IPID](Contrat%20Habitation%20-%20Formule%20%C3%89conomique%20-%20R%C3%A9sidence%20principale%20-%20R%C3%A9sidence%20secondaire%20-%20IPID.md) - IPID / Fiche d'information, éd. 04/24
+
 ## Source & fidélité
 
 - Source : [https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/CG_habitation_RP_RS_economique_20230114.pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/CG_habitation_RP_RS_economique_20230114.pdf) - téléchargé le 2026-08-01 - 72 pages

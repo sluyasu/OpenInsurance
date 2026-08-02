@@ -5,7 +5,7 @@ country: fr
 insurer_slug: maaf
 name: MAAF
 website: https://www.maaf.fr/
-products_count: 46
+products_count: 47
 branches_covered:
 - auto
 - chasse
@@ -36,13 +36,14 @@ generated: true
 
 ## Résumé
 
-**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 46 document(s) across 14 branch(es).
+**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 47 document(s) across 14 branch(es).
 
 ## Produits par branche
 
 ### [Assurance auto](../branches/Assurance%20auto.md)
 - [CARAVANE, REMORQUE, CAMION, VEHICULES DIVERS - IPID](../products/maaf/CARAVANE%2C%20REMORQUE%2C%20CAMION%2C%20VEHICULES%20DIVERS%20-%20IPID.md) - IPID / Fiche d'information (2025-06) · réf. AUT11028
 - [Camping-Car, Ambulance, Bazar forain, Véhicule de collection - IPID](../products/maaf/Camping-Car%2C%20Ambulance%2C%20Bazar%20forain%2C%20V%C3%A9hicule%20de%20collection%20-%20IPID.md) - IPID / Fiche d'information (2025-06) · réf. PU0_IPIDAU_00-250622-ZCh9d6-3-1-2-05:04:15- AUT11023
+- [Contrat Camping car, Ambulance, Bazar forain, Véhicule de collection — Assurance Multirisque](../products/maaf/Contrat%20Camping%20car%2C%20Ambulance%2C%20Bazar%20forain%2C%20V%C3%A9hicule%20de%20collection%20%E2%80%94%20Assurance%20Multirisque.md) - Conditions générales (06/26) · réf. 6056
 
 ### [Chasse](../branches/Chasse.md)
 - [Assurance Vie privée - IPID](../products/maaf/Assurance%20Vie%20priv%C3%A9e%20-%20IPID.md) - IPID / Fiche d'information · réf. MU0_IPIDIR_00-260518-V45nc0-1-1-2-05:01:24- IRD11004

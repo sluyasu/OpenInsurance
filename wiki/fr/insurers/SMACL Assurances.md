@@ -5,7 +5,7 @@ country: fr
 insurer_slug: smacl
 name: SMACL Assurances
 website: https://www.smacl.fr
-products_count: 61
+products_count: 63
 branches_covered:
 - auto
 - autres
@@ -13,6 +13,7 @@ branches_covered:
 - decennale
 - habitation
 - multirisque-professionnelle
+- navigation
 - prevoyance
 - protection-juridique
 - rc-privee
@@ -33,7 +34,7 @@ generated: true
 
 ## Résumé
 
-**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 61 document(s) across 11 branch(es).
+**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 63 document(s) across 12 branch(es).
 
 ## Produits par branche
 
@@ -59,6 +60,7 @@ generated: true
 
 ### Crédit et caution
 - [Assurance loyers impayés](../products/smacl/Assurance%20loyers%20impay%C3%A9s.md) - Conditions générales (01/2024) · réf. LOYERSIMPAYES_CG_04(02_2023)
+- [Assurance loyers impayés](../products/smacl/Assurance%20loyers%20impay%C3%A9s%20%282%29.md) - Conditions générales (01/2024) · réf. LOYERSIMPAYES_CG_SA_04(02_2023)
 
 ### [Assurance construction](../branches/Assurance%20construction.md)
 - [Tous risques chantier - IPID](../products/smacl/Tous%20risques%20chantier%20-%20IPID.md) - IPID / Fiche d'information (01/2024) · réf. CONSTRUCTION_DIPA_TRC_SA_01(06_2021)
@@ -82,6 +84,9 @@ generated: true
 - [CONVERGENCE Tous risques objets](../products/smacl/CONVERGENCE%20Tous%20risques%20objets.md) - Conditions générales (01/2024) · réf. CONVERGENCE_CS_TRO_SA_04_(05_2016)
 - [Convergence dommages aux biens - IPID](../products/smacl/Convergence%20dommages%20aux%20biens%20-%20IPID.md) - IPID / Fiche d'information (01/2024) · réf. CONVERGENCE_DIPA_DAB_SA_04(09_2022)
 - [Votre barème de remboursement des honoraires d'expert d'assuré en Dommages aux biens - Tarifs](../products/smacl/Votre%20bar%C3%A8me%20de%20remboursement%20des%20honoraires%20d%27expert%20d%27assur%C3%A9%20en%20Dommages%20aux%20biens%20-%20Tarifs.md) - Conditions tarifaires (01/2024) · réf. BAREME_EXPERT_ASSURE_DAB_(10-2012)
+
+### [Navigation de plaisance](../branches/Navigation%20de%20plaisance.md)
+- [Convention Assistance Navigation de plaisance](../products/smacl/Convention%20Assistance%20Navigation%20de%20plaisance.md) - Conditions générales (01/2024) · réf. NAVIMUT_CA_NAVIMUT_SA_02(01_2017)
 
 ### [Prévoyance](../branches/Pr%C3%A9voyance.md)
 - [ALÉASSUR Risques statutaires CNRACL](../products/smacl/AL%C3%89ASSUR%20Risques%20statutaires%20CNRACL.md) - Conditions générales (06/2025) · réf. ALEASSUR_CS_RS_CNRACL_06(06_2023)

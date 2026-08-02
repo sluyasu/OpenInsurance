@@ -31,7 +31,7 @@ extraction_model: claude-code-subagent:scale
 prompt_version: '1.1'
 product_family: assurance-loyers-impayes
 variant: null
-edition_status: null
+edition_status: current
 edition_age_years: 2
 superseded: null
 extends: null
@@ -218,6 +218,11 @@ Conformément à l'article L.114-1 du Code, toutes actions dérivant d'un contra
 - Page 13 : page entièrement vide (0 caractère de texte, 0 image, 0 dessin vectoriel dans le PDF). Ce n'est pas une perte d'extraction.
 - Le nom de fichier de la source (« cg-loyers-impayes-sam.pdf ») contient le segment « sam ». Le document ne comporte aucune explication de ce sigle et il n'a donc pas été interprété ; la forme sociale retenue est celle imprimée au colophon.
 - Le texte de la prompt n'était pas tronqué (14 pages sur 14). Vérification faite : le texte fourni est identique caractère pour caractère à `page.get_text("text")` sur le PDF local, à un « \n » ajouté en fin de chaque page par le harnais près ; toutes les citations ont été découpées programmatiquement et vérifiées comme sous-chaînes exactes de la page citée.
+
+## Documents liés
+
+- Édition courante de ce produit.
+- [Assurance loyers impayés](Assurance%20loyers%20impay%C3%A9s%20%282%29.md) - Conditions générales, éd. 01/2024
 
 ## Source & fidélité
 
