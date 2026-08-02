@@ -38,7 +38,7 @@ generated: true
 - [Propriétaire non-occupant — Police - COUVERTURE MINIMUM LÉGAL - IPID](../products/luko/Propri%C3%A9taire%20non-occupant%20%E2%80%94%20Police%20-%20COUVERTURE%20MINIMUM%20L%C3%89GAL%20-%20IPID.md) - IPID / Fiche d'information (2025-04)
 - [Propriétaire non-occupant — Police - COUVERTURE ÉTENDUE - IPID](../products/luko/Propri%C3%A9taire%20non-occupant%20%E2%80%94%20Police%20-%20COUVERTURE%20%C3%89TENDUE%20-%20IPID.md) - IPID / Fiche d'information (2025-04)
 
-### Voyage et assistance
+### [Voyage et assistance](../branches/Voyage%20et%20assistance.md)
 - [ASSURANCE MULTI-VOYAGES A L'ANNEE - 507332 - IPID](../products/luko/ASSURANCE%20MULTI-VOYAGES%20A%20L%27ANNEE%20-%20507332%20-%20IPID.md) - IPID / Fiche d'information · réf. 507332
 - [Comprehensive Gold Long Trip 507655](../products/luko/Comprehensive%20Gold%20Long%20Trip%20507655.md) - Conditions générales (09 2025) · réf. 507655
 - [Comprehensive Gold Sport Annual 507332](../products/luko/Comprehensive%20Gold%20Sport%20Annual%20507332.md) - Conditions générales (03 2025) · réf. 507332

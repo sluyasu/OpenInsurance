@@ -40,7 +40,7 @@ generated: true
 
 Fiche de transparence des frais (« Les Frais de l'assurance-vie : Groupama Premium ») relative au contrat d'assurance vie Groupama Premium. Elle publie le montant minimal de versement, les frais annuels de gestion du contrat (supports en euros et unités de compte), les frais de gestion des unités de compte par catégorie de fonds avec les taux de rétrocessions de commissions, les autres frais annuels et les frais ponctuels par opération. Le document précise que Groupama Gan Vie s'engage à mettre à jour annuellement ces informations. Il ne décrit aucune garantie ni exclusion.
 
-- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : Assurance vie et épargne · Type : Conditions tarifaires
+- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Conditions tarifaires
 
 ## Définitions
 

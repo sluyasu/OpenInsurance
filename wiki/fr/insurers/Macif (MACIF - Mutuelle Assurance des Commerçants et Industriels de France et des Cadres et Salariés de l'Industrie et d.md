@@ -39,12 +39,12 @@ generated: true
 
 ## Produits par branche
 
-### Animaux
+### [Animaux](../branches/Animaux.md)
 - [Contrat Chiens guides](../products/macif/Contrat%20Chiens%20guides.md) - Conditions générales (12/12) · réf. EGALIS/CHIEN/05 - 12/12 - NM10
 - [Contrat Macif Assurance Chien Chat - IPID](../products/macif/Contrat%20Macif%20Assurance%20Chien%20Chat%20-%20IPID.md) - IPID / Fiche d'information (06/22) · réf. CHIEN CHAT/05 - 06/22
 - [Contrat d'assurance Chiens guides - IPID](../products/macif/Contrat%20d%27assurance%20Chiens%20guides%20-%20IPID.md) - IPID / Fiche d'information (10/18) · réf. EGALIS CHIEN 10/18
 
-### Assurance vie et épargne
+### [Assurance vie et épargne](../branches/Assurance%20vie%20et%20%C3%A9pargne.md)
 - [Multi Vie - Tarifs](../products/macif/Multi%20Vie%20-%20Tarifs.md) - Conditions tarifaires (2024-06) · réf. MUT/ FC/ FRAIS/MV - 06/24
 
 ### [Assurance auto](../branches/Assurance%20auto.md)
@@ -66,7 +66,7 @@ generated: true
 ### [Deux-roues, quads et voiturettes](../branches/Deux-roues%2C%20quads%20et%20voiturettes.md)
 - [Contrat Deux Roues](../products/macif/Contrat%20Deux%20Roues.md) - Conditions générales (2018-11-25) · réf. VEH/MOTO/05-25/11/18-N760
 
-### Navigation de plaisance
+### [Navigation de plaisance](../branches/Navigation%20de%20plaisance.md)
 - [Contrat Navigation de plaisance](../products/macif/Contrat%20Navigation%20de%20plaisance.md) - Conditions générales (2017-01) · réf. LOIS/NAV/05 - 01/17 - N081
 
 ### [Obsèques](../branches/Obs%C3%A8ques.md)
@@ -75,7 +75,7 @@ generated: true
 ### [RC professionnelle](../branches/RC%20professionnelle.md)
 - [Contrat Auto-Micro Entrepreneur](../products/macif/Contrat%20Auto-Micro%20Entrepreneur.md) - Conditions générales (2012-12) · réf. PRO / AUTOE / 05 - 12 / 12 - NM00
 
-### Retraite supplémentaire
+### [Retraite supplémentaire](../branches/Retraite%20suppl%C3%A9mentaire.md)
 - [Multi Horizon Retraite - Tarifs](../products/macif/Multi%20Horizon%20Retraite%20-%20Tarifs.md) - Conditions tarifaires (2022-04) · réf. MUT/ FC/ FRAIS/MHR - 04/22
 - [Plan Épargne Retraite individuel - Tarifs](../products/macif/Plan%20%C3%89pargne%20Retraite%20individuel%20-%20Tarifs.md) - Conditions tarifaires (JUIN 2024) · réf. MUT/ FC/ FRAIS/PERin - 06/24
 

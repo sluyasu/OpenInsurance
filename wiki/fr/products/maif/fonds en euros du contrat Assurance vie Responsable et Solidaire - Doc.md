@@ -40,7 +40,7 @@ generated: true
 
 Annexe précontractuelle SFDR (modèle d'informations précontractuelles pour les produits financiers visés à l'article 8 du règlement SFDR) portant sur le fonds en euros du contrat Assurance vie Responsable et Solidaire de MAIF VIE. Le produit ne poursuit pas d'objectif d'investissement durable mais promeut des caractéristiques environnementales et sociales, avec un objectif de 23 % d'investissements durables. Le document décrit les indicateurs de durabilité (part ISR, part sociale et taux d'impact social au sens du label Finansol, part verte au sens du label Greenfin), la prise en compte des principales incidences négatives, la politique d'exclusion MAIF, la politique de bonne gouvernance et l'allocation d'actifs cible. Il ne décrit aucune garantie d'assurance.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : Assurance vie et épargne · Type : Document · Édition : 06/26
+- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Document · Édition : 06/26
 
 ## Définitions
 

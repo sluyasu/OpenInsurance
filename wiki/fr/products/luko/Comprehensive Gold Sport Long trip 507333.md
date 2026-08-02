@@ -43,7 +43,7 @@ generated: true
 
 Notice d’information et Conditions générales du contrat d’assurance voyage « Comprehensive Gold Sport Long trip 507333 » (édition 09 2025) souscrit auprès d’ALLIANZ DIRECT VERSICHERUNGS-AG, par l’intermédiaire de l’organisme de voyage, pour un voyage privé unique d’une durée maximum de trois cent soixante-cinq (365) jours consécutifs, réservé par une personne ayant sa résidence principale en France. Le contrat couvre l’annulation du voyage (8 000 €, franchise 5 %), l’interruption ou la prolongation (8 000 €), le voyage retardé (1 500 €), les dommages et le retard de bagages (3 000 €), les frais médicaux d’urgence à l’étranger (300 000 €), l’assistance médicale et le rapatriement (frais réels), la responsabilité civile (4 500 000 €), l’individuelle accident (25 000 €), une garantie Sport (activité manquée, équipement sportif, recherche et secours), la téléconsultation, les frais juridiques à l’étranger (3 000 €) ainsi que les documents d’identité et clés (400 €). Les garanties effectivement acquises sont celles figurant aux Conditions particulières et s’appliquent dans les pays de séjour sélectionnés, à l’exclusion des pays de la liste du Ministère des Affaires étrangères.
 
-- Assureur : [Luko](../../insurers/Luko.md) · Branche : Voyage et assistance · Type : Conditions générales · Édition : 09 2025
+- Assureur : [Luko](../../insurers/Luko.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : Conditions générales · Édition : 09 2025
 
 ## Définitions
 

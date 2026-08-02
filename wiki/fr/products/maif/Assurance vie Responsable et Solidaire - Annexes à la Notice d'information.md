@@ -52,7 +52,7 @@ generated: true
 
 ASSURANCE VIE Responsable et Solidaire Annexes à la Notice d’information MAIF VIE Le contrat Assurance vie Responsable et Solidaire propose un ensemble de modes de gestion, de garanties, d’options et de services. (ces éléments mentionnés pour information n’ont pas de caractère contractuel) Les documents d’informations clés des différents fonds présents dans cette annexe sont ceux en vigueur au moment de la rédaction de cette notice. Vous pouvez obtenir une version actualisée de ces documents sur maif.fr/unites-de-compte ou sur simple demande auprès de MAIF VIE - 50 avenue Salvador Allende - CS 90000 - 79029 Niort cedex 9.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : Assurance vie et épargne · Type : Conditions générales · Édition : 06/26
+- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Conditions générales · Édition : 06/26
 
 ## Définitions
 

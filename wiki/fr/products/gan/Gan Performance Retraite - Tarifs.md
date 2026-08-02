@@ -42,7 +42,7 @@ generated: true
 
 Fiche de transparence des frais du contrat Gan Performance Retraite, publiée au titre de l'engagement de Groupama Gan Vie de mettre à jour annuellement l'information sur les frais. Elle indique le montant minimal de versement, les frais annuels de gestion du contrat (supports fonds euros et unités de compte), les frais moyens de gestion des unités de compte par classe d'actifs et par mode de gestion (gestion libre, gestion pilotée ou standardisée) avec la part rétrocédée à l'assureur, ainsi que les frais ponctuels par opération. Le document ne décrit ni les garanties ni les exclusions du contrat.
 
-- Assureur : [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../../insurers/Gan%20Assurances.md) · Branche : Retraite supplémentaire · Type : Conditions tarifaires · Édition : 2026-03
+- Assureur : [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../../insurers/Gan%20Assurances.md) · Branche : [Retraite supplémentaire](../../branches/Retraite%20suppl%C3%A9mentaire.md) · Type : Conditions tarifaires · Édition : 2026-03
 
 ## Définitions
 

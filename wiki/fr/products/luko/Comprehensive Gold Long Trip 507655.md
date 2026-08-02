@@ -46,7 +46,7 @@ generated: true
 
 Notice d'information et Conditions générales du contrat d'assurance voyage « Comprehensive Gold Long Trip 507655 » (édition 09 2025) distribué en France, dont l'assureur est ALLIANZ DIRECT VERSICHERUNGS-AG (Munich, contrôlée par la BaFin) agissant par sa succursale française de Saint-Ouen-sur-Seine, elle-même contrôlée par l'ACPR. Le contrat couvre un voyage privé spécifique d'une durée maximale de trois cent soixante-cinq (365) jours consécutifs, vendu par l'organisme de voyages auprès duquel le contrat est souscrit; il n'est pas renouvelable et s'adresse aux personnes ayant leur résidence principale en France. Il comprend les garanties Annulation du voyage (8 000 €, franchise 5 %), Interruption ou prolongation (8 000 €), Voyage retardé (1 500 €), Dommages aux bagages (3 000 €), Retard de bagages, Frais médicaux d'urgence à l'étranger (300 000 €), Assistance médicale (frais réels, recherche et secours 10 000 €), Responsabilité civile (4 500 000 €), Individuelle accident (25 000 €), Téléconsultation (2 téléconsultations), Frais juridiques à l'étranger (3 000 €) et Documents d'identité et clés (400 €). La gestion des sinistres, de l'assistance et des réclamations est assurée par AP Solutions GmbH succursale française.
 
-- Assureur : [Luko](../../insurers/Luko.md) · Branche : Voyage et assistance · Type : Conditions générales · Édition : 09 2025
+- Assureur : [Luko](../../insurers/Luko.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : Conditions générales · Édition : 09 2025
 
 ## Définitions
 

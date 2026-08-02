@@ -27,7 +27,7 @@ navigate it without guessing. Do not edit by hand.
 |---|---|---|---|---|---|
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
 | ch (Switzerland) | 0 | 3 | 1 | 0 | 5 |
-| fr (France) | 24 | 408 | 10 | 1 | 5 |
+| fr (France) | 24 | 412 | 10 | 1 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
 
@@ -531,6 +531,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | multirisque-professionnelle | smacl | Assistance Patrimoine des associations | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/ca-assistance-patrimoine-associations-sam.pdf) |
 | fr | multirisque-professionnelle | smacl | Assurance Spéciale Accueil Enfants - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-structures-accueil-enfants.pdf) |
 | fr | multirisque-professionnelle | smacl | Assurance bris de machine | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-assurance-speciale-associations-bris-de-machine.pdf) |
+| fr | multirisque-professionnelle | smacl | CONVERGENCE Tous risques objets | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-convergence-tous-risques-objets.pdf) |
 | fr | multirisque-professionnelle | smacl | Convergence dommages aux biens - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-dommages-aux-biens-convergence.pdf) |
 | fr | multirisque-professionnelle | smacl | Votre barème de remboursement des honoraires d'expert d'assuré en Dommages aux biens - Tarifs | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/bareme-expert-assure-dab.pdf) |
 | fr | multirisque-professionnelle | thelem | Assurance Garauto - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_201_Garauto-Aout-2025.pdf) |
@@ -580,6 +581,8 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | prevoyance | maif | Rassurcap Solutions - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/document-information-deces-rassurcap-solutions.pdf) |
 | fr | prevoyance | smacl | ALÉASSUR Risques statutaires CNRACL | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-aleassur-risques-statutaires-cnracl1_0.pdf) |
 | fr | prevoyance | smacl | ALÉASSUR Risques statutaires IRCANTEC | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-aleassur-ircantec-risques-statutaires.pdf) |
+| fr | prevoyance | smacl | Convergence individuelle accidents corporels - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-accidents-corporels-convergence.pdf) |
+| fr | prevoyance | smacl | Sécurité des salariés et bénévoles d'association - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-securite-salaries-benevoles-associations.pdf) |
 | fr | prevoyance | thelem | Assurance Capital Décès - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TP_396-capital-deces-juillet-2023.pdf) |
 | fr | prevoyance | thelem | Assurance Protection Famille - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TP_Protection-famille-572_082025.pdf) |
 | fr | prevoyance | thelem | Prévoyance Agri - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TP_PREVAGRI_440_072024.pdf) |
@@ -594,6 +597,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | protection-juridique | smacl | Information juridique Associations - Doc | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/convention-information-juridique-associations-sam.pdf) |
 | fr | protection-juridique | smacl | Information juridique Associations - Doc (2) | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/convention-information-juridique-associations.pdf) |
 | fr | protection-juridique | smacl | Information juridique Collectivités - Doc | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/convention-information-juridique-collectivites.pdf) |
+| fr | protection-juridique | smacl | Juris-Asso - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-jurisasso-protection-juridique-association.pdf) |
 | fr | protection-juridique | smacl | Vos plafonds contractuels de prise en charge - Protection juridique - Tarifs | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/bareme-plafonds-protection-juridique-collectivites.pdf) |
 | fr | protection-juridique | smacl | Votre barème de prise en charge - Garantie protection juridique - Tarifs | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/bareme-prise-en-charge-garantie-protection-juridique.pdf) |
 | fr | protection-juridique | thelem | Assurance Protection Juridique du Professionnel - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_PJ-PRO_012026.pdf) |

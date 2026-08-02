@@ -43,7 +43,7 @@ generated: true
 
 ## Produits par branche
 
-### Assurance vie et épargne
+### [Assurance vie et épargne](../branches/Assurance%20vie%20et%20%C3%A9pargne.md)
 - [ASSURANCE VIE Responsable et Solidaire - Les documents d'informations clés - Doc](../products/maif/ASSURANCE%20VIE%20Responsable%20et%20Solidaire%20-%20Les%20documents%20d%27informations%20cl%C3%A9s%20-%20Doc.md) - Document (06/26) · réf. NISG16 - 06/26
 - [Assurance vie Responsable et Solidaire - Tarifs](../products/maif/Assurance%20vie%20Responsable%20et%20Solidaire%20-%20Tarifs.md) - Conditions tarifaires (06/2026) · réf. TDF16
 - [Assurance vie Responsable et Solidaire - IPID](../products/maif/Assurance%20vie%20Responsable%20et%20Solidaire%20-%20IPID.md) - IPID / Fiche d'information (06/26) · réf. DIC16 - 06/26
@@ -67,7 +67,7 @@ generated: true
 - [Vam Associations et Collectivités - IPID](../products/maif/Vam%20Associations%20et%20Collectivit%C3%A9s%20-%20IPID.md) - IPID / Fiche d'information (10/2025) · réf. IPID VAM A&C
 - [Véhicules entreprises - IPID](../products/maif/V%C3%A9hicules%20entreprises%20-%20IPID.md) - IPID / Fiche d'information (09-2022) · réf. IPID VÉHI ENT
 
-### Autres
+### [Autres](../branches/Autres.md)
 - [Barème de frais - Tarifs](../products/maif/Bar%C3%A8me%20de%20frais%20-%20Tarifs.md) - Conditions tarifaires (03/2026)
 - [Barème de frais applicables à compter du 01-07-2024 pour les Associations et les Collectivités - Tarifs](../products/maif/Bar%C3%A8me%20de%20frais%20applicables%20%C3%A0%20compter%20du%2001-07-2024%20pour%20les%20Associations%20et%20les%20Collectivit%C3%A9s%20-%20Tarifs.md) - Conditions tarifaires (07/2024)
 - [Notice juridique sur l'assurance à distance - Doc](../products/maif/Notice%20juridique%20sur%20l%27assurance%20%C3%A0%20distance%20-%20Doc.md) - Document (06/2026) · réf. 2113NJ
@@ -106,7 +106,7 @@ generated: true
 - [Raqvam Associations et Collectivités](../products/maif/Raqvam%20Associations%20et%20Collectivit%C3%A9s.md) - Conditions générales (01/2026) · réf. M6202RACA
 - [Raqvam Associations et Collectivités - CP](../products/maif/Raqvam%20Associations%20et%20Collectivit%C3%A9s%20-%20CP.md) - Conditions particulières (11-2021) · réf. 3443 G
 
-### Navigation de plaisance
+### [Navigation de plaisance](../branches/Navigation%20de%20plaisance.md)
 - [Assurance Navigation - IPID](../products/maif/Assurance%20Navigation%20-%20IPID.md) - IPID / Fiche d'information (12/2023) · réf. IPID NAVIGATION - RGAA
 - [Assurance Navigation](../products/maif/Assurance%20Navigation.md) - Conditions générales (04/2026) · réf. M6202NAVI
 - [Assurance Navigation - IPID](../products/maif/Assurance%20Navigation%20-%20IPID%20%282%29.md) - IPID / Fiche d'information (12/2023) · réf. IPID NAVIGATION
@@ -136,14 +136,14 @@ generated: true
 - [Offre Métiers de l'Éducation - Doc](../products/maif/Offre%20M%C3%A9tiers%20de%20l%27%C3%89ducation%20-%20Doc.md) - Document (03/2025)
 - [Responsabilité Civile Maître d'Ouvrage Associations et Collectivités - IPID](../products/maif/Responsabilit%C3%A9%20Civile%20Ma%C3%AEtre%20d%27Ouvrage%20Associations%20et%20Collectivit%C3%A9s%20-%20IPID.md) - IPID / Fiche d'information (08/2025) · réf. IPID RCMO A&C
 
-### Retraite supplémentaire
+### [Retraite supplémentaire](../branches/Retraite%20suppl%C3%A9mentaire.md)
 - [Fonds en euros du PER Responsable et Solidaire - Doc](../products/maif/Fonds%20en%20euros%20du%20PER%20Responsable%20et%20Solidaire%20-%20Doc.md) - Document (06/26) · réf. CESC€21
 - [PER Responsable et Solidaire](../products/maif/PER%20Responsable%20et%20Solidaire.md) - Conditions générales (06/26) · réf. NI21-06/26
 - [PER Responsable et Solidaire - Tarifs](../products/maif/PER%20Responsable%20et%20Solidaire%20-%20Tarifs.md) - Conditions tarifaires (06/26) · réf. TDF21
 - [PER Responsable et Solidaire - Doc](../products/maif/PER%20Responsable%20et%20Solidaire%20-%20Doc%20%282%29.md) - Document (06/2026) · réf. RSFDR21Fr
 - [PER Responsable et Solidaire - Doc](../products/maif/PER%20Responsable%20et%20Solidaire%20-%20Doc.md) - Document (06/26) · réf. NISG21-06/26
 
-### Vélo
+### [Vélo](../branches/V%C3%A9lo.md)
 - [Assurance Vélo](../products/maif/Assurance%20V%C3%A9lo.md) - Conditions générales (07/2024) · réf. M4202VLOB
 
 ## Source

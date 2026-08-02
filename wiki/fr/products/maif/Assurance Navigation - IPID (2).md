@@ -44,7 +44,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de l'Assurance Navigation de MAIF, entreprise d'assurance immatriculée en France et régie par le Code des assurances (775 709 702). Le produit est destiné à protéger le bateau dont l'assuré est propriétaire ou copropriétaire, à couvrir sa responsabilité civile et à garantir ses droits. Il regroupe des garanties dommages au bateau, indemnisation des biens et préjudices accessoires, assistance, responsabilité civile-défense, accompagnement juridique et dommages corporels. Les garanties précédées d'une coche sont systématiquement prévues au contrat.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : Navigation de plaisance · Type : IPID / Fiche d'information · Édition : 12/2023
+- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Navigation de plaisance](../../branches/Navigation%20de%20plaisance.md) · Type : IPID / Fiche d'information · Édition : 12/2023
 
 ## Garanties
 

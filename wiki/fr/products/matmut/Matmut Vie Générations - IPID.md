@@ -46,7 +46,7 @@ generated: true
 
 Document d'informations clés (DIC) du contrat Matmut Vie Générations, contrat collectif d'assurance sur la vie libellé en euros à adhésion facultative. Le contrat prend fin au plus tard le 1er avril qui suit le 28e anniversaire de l'adhérent. Le document précise qu'aucune prestation d'assurance n'est incluse, que l'épargne investie (montant versé - frais sur versements - frais de gestion annuels) ne peut qu'augmenter et que la rémunération du capital disponible est déterminée annuellement par la participation aux bénéfices, 100 % du solde positif du compte de résultat technique et financier étant affecté à la provision pour participation aux bénéfices. Le produit est classé 1 sur 7 sur l'indicateur synthétique de risque, la classe la plus basse ; les coûts d'entrée affichés sont de 0 € ou 0 % et la période de détention recommandée est de 8 ans. Le produit est présenté comme émis par Matmut Vie (Société Anonyme, N° 344 898 358 RCS Rouen) et soumis au contrôle de l'Autorité de contrôle prudentiel et de résolution.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : Assurance vie et épargne · Type : IPID / Fiche d'information · Édition : 01/02/2025
+- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : IPID / Fiche d'information · Édition : 01/02/2025
 
 ## Définitions
 

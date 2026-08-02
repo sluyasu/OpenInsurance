@@ -45,7 +45,7 @@ generated: true
 
 Recueil des documents d’informations clés (DIC au sens du règlement PRIIPs) des 14 supports en unités de compte proposés dans le PER Responsable et Solidaire, contrat collectif souscrit par le GERP Futurs Solidaires auprès de MAIF VIE, conçu et géré par MAIF VIE et proposé par MAIF et MAIF SOLUTIONS FINANCIÈRES. Chaque DIC est établi par la société de gestion du fonds concerné et présente, pour ce fonds, son objectif et sa politique d’investissement, ses investisseurs de détail visés, son indicateur synthétique de risque sur une échelle de 1 à 7, ses scénarios de performance, ses coûts et sa période de détention recommandée. Le document ne décrit aucune garantie d’assurance, aucune exclusion contractuelle et aucun frais du contrat lui-même ; les DIC précisent que les coûts indiqués ne tiennent pas compte des frais des contrats d’assurance vie ou de capitalisation lorsqu’ils s’appliquent. Les indicateurs de risque des supports s’échelonnent de 1 sur 7 (Ecofi Trésorerie) à 5 sur 7 (Sextant PEA, Sycomore Sustainable Tech) et les périodes de détention recommandées de 7 jours-1 mois à 8 ans.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : Retraite supplémentaire · Type : Document · Édition : 06/26
+- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Retraite supplémentaire](../../branches/Retraite%20suppl%C3%A9mentaire.md) · Type : Document · Édition : 06/26
 
 ## Définitions
 

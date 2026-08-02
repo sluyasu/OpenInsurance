@@ -50,7 +50,7 @@ generated: true
 
 Conditions générales du contrat Assur'4Pattes Matmut & Co, assurance santé animale pour un chien ou un chat nommément désigné aux Conditions particulières, valant projet de contrat au sens de l'article L. 112-2 du Code des assurances. Le contrat prend en charge les pertes pécuniaires consécutives aux frais de soins vétérinaires exposés en cas de maladie ou d'accident, accorde des prestations d'assistance et une assistance juridique par téléphone. Il se décline en deux formules, Prim' (50 % de remboursement, plafond annuel 1 400 €) et Max' (80 %, plafond annuel 2 000 €), la formule Max' ouvrant seule les garanties de prévention (vaccination 50 €/an, détartrage) et la participation aux frais d'obsèques (150 €). L'animal doit être identifié et âgé de 3 mois ou plus et de moins de 8 ans à la prise d'effet des garanties ; des délais de carence de 48 heures à 24 mois s'appliquent selon la garantie.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : Animaux · Type : Conditions générales · Édition : 01/24
+- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Animaux](../../branches/Animaux.md) · Type : Conditions générales · Édition : 01/24
 
 ## Définitions
 

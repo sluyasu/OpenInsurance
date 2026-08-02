@@ -41,7 +41,7 @@ generated: true
 
 Document d'informations clés (PRIIPs) du contrat Assurance vie Responsable et Solidaire, contrat collectif d'assurance vie multisupport à adhésion individuelle et facultative à versements libres, conçu et géré par MAIF VIE. Le contrat comporte un compartiment en euros adossé à l'actif général de MAIF VIE, avec taux d'intérêt minimal garanti annuel et participation aux bénéfices, et des compartiments en unités de compte. Il réunit deux garanties principales indissociables — une garantie en cas de vie et une garantie en cas de décès — complétées par une garantie complémentaire en cas de décès. Le document détaille l'indicateur de risque, les coûts, la période de détention recommandée de 8 ans, les modalités de rachat et de renonciation et la procédure de réclamation.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : Assurance vie et épargne · Type : IPID / Fiche d'information · Édition : 06/26
+- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : IPID / Fiche d'information · Édition : 06/26
 
 ## Définitions
 

@@ -40,7 +40,7 @@ generated: true
 
 Tableau des frais du contrat collectif d’assurance vie « Assurance vie Responsable et Solidaire », arrêté au 02/06/2026. Il présente les frais relatifs au produit (versement initial minimal, frais d’adhésion), les frais annuels de gestion du contrat et des supports, les frais de gestion des unités de compte par catégorie de fonds et par mode de gestion (gestion libre, gestion pilotée, gestion profilée, gestion déléguée) avec la part rétrocédée au distributeur et au gestionnaire, ainsi que les frais ponctuels par opération (versement, changement de mode de gestion, arbitrage, transfert sortant, versements de rente, rachat). Le contrat a été souscrit par MAIF auprès de MAIF VIE, qui le conçoit et le gère, et il est proposé par MAIF et MAIF SOLUTIONS FINANCIÈRES.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : Assurance vie et épargne · Type : Conditions tarifaires · Édition : 06/2026
+- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Conditions tarifaires · Édition : 06/2026
 
 ## Définitions
 

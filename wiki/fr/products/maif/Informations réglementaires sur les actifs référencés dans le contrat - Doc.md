@@ -40,7 +40,7 @@ generated: true
 
 Annexe réglementaire au relevé annuel 2025 : pour chacune des 25 unités de compte proposées dans le contrat, le tableau donne le code ISIN, la société de gestion, l'indicateur de risque (SRI), la performance brute 2025 et moyenne annualisée sur cinq ans, les frais de gestion de l'unité de compte et la part rétrocédée à MAIF VIE, la performance nette, les frais de gestion du contrat, les frais totaux et la performance finale. Les unités de compte sont réparties en catégories imprimées (Fonds actions, Fond obligations, Fonds mixtes, Fonds immobiliers, Fonds de capital investissement, Fonds Monétaires, Autres). Le document ne décrit aucune garantie d'assurance et ne comporte aucune exclusion.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : Assurance vie et épargne · Type : Document · Édition : 2025
+- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Document · Édition : 2025
 
 ## Définitions
 

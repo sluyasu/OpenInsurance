@@ -49,7 +49,7 @@ generated: true
 
 Recueil des documents d’informations clés (DIC / PRIIPs) des unités de compte du contrat Assurance vie Responsable et Solidaire de MAIF VIE. Le PDF de 80 pages reproduit, sur trois pages chacun, les 25 DIC produits par les sociétés de gestion des supports référencés (ALM Actions Zone Euro ISR, Amundi RI European High Yield, Choix Solidaire, CPR Actions USA Responsable, DNCA Invest - Beyond Alterosa, Échiquier Arty SRI, Ecofi Trésorerie, Insertion Emplois Dynamique, trois fonds LBPAM ISR, six fonds MAIF, deux fonds Mirova, deux fonds Ostrum SRI, PERIAL Euro Carbone, Sextant PEA, Sycomore Sustainable Tech et Triodos Global Equities Impact Fund). Chaque DIC indique l’initiateur, le code ISIN, la nature du fonds, les investisseurs de détail visés, l’indicateur synthétique de risque sur une échelle de 1 à 7, la période de détention recommandée et les coûts d’entrée, de sortie, de gestion, de transaction et les commissions liées aux résultats. Le document ne décrit aucune garantie d’assurance : les garanties du contrat figurent dans sa notice d’information et son propre document d’informations clés.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : Assurance vie et épargne · Type : Document · Édition : 06/26
+- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Document · Édition : 06/26
 
 ## Définitions
 

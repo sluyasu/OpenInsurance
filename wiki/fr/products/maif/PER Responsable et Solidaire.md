@@ -45,7 +45,7 @@ generated: true
 
 Notice d’information du « PER Responsable et Solidaire », plan d’épargne retraite individuel prenant la forme d’un contrat collectif d’assurance vie multisupport à adhésion individuelle et facultative et à versements libres, souscrit par le GERP Futurs Solidaires auprès de MAIF VIE et encadré par la loi Pacte du 22 mai 2019. L’adhésion comporte trois compartiments de gestion (« épargne volontaire », « épargne salariale », « épargne d’entreprise »), un support en euros à capital garanti et des supports en unités de compte non garantis, et se déroule en deux phases : constitution des droits puis liquidation. Le Plan comprend une garantie en cas de vie (épargne retraite liquidable en capital unique ou fractionné et/ou en rente viagère à compter de l’âge légal de départ en retraite ou de la liquidation de la pension), une garantie en cas de décès pendant la phase de constitution (capital, rente viagère ou rente temporaire d’éducation) et une garantie complémentaire en cas de décès couvrant le capital sous risque. Les droits ne sont rachetables avant la retraite que dans les situations limitativement énumérées par la loi (accidents de la vie et acquisition de la résidence principale) et peuvent être transférés vers un autre plan d’épargne retraite.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : Retraite supplémentaire · Type : Conditions générales · Édition : 06/26
+- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Retraite supplémentaire](../../branches/Retraite%20suppl%C3%A9mentaire.md) · Type : Conditions générales · Édition : 06/26
 
 ## Définitions
 

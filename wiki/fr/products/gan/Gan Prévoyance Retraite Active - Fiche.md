@@ -44,7 +44,7 @@ generated: true
 
 Document d’informations clés (DIC) de Gan Prévoyance Retraite Active, contrat d’assurance sur la vie de type multisupport dont les garanties sont libellées en unités de compte et en euros. C’est un contrat de groupe à adhésion facultative souscrit auprès de Groupama Gan Vie par l’Association pour la Protection du Patrimoine et de la Personne (A3P) au profit de ses adhérents, relevant des branches 20 et 22. Le produit permet la constitution d’une épargne par versements libres et/ou programmés, en gestion libre ou en gestion déléguée, et verse en cas de décès de l’investisseur avant la liquidation de sa retraite un capital égal à l’épargne constituée ; une Garantie plancher optionnelle complète cette garantie principale. Le document détaille l’indicateur de risque, les coûts au fil du temps, la durée de détention recommandée de 8 ans, le délai de renonciation et la procédure de réclamation.
 
-- Assureur : [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../../insurers/Gan%20Assurances.md) · Branche : Retraite supplémentaire · Type : Fiche produit · Édition : 05/03/2025
+- Assureur : [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../../insurers/Gan%20Assurances.md) · Branche : [Retraite supplémentaire](../../branches/Retraite%20suppl%C3%A9mentaire.md) · Type : Fiche produit · Édition : 05/03/2025
 
 ## Définitions
 

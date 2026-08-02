@@ -41,7 +41,7 @@ generated: true
 
 Publication statistique annuelle de MAIF VIE au titre de l’article L. 132-9-4 du Code des assurances (dispositif dit « loi Eckert ») sur les contrats d’assurance vie non réglés. Le document se compose de deux tableaux chiffrés : un bilan 2025 des contrats ayant donné lieu à instruction/recherche, des assurés centenaires non décédés et des contrats classés « sans suite » ; et un historique 2021-2025 des contrats dont l’assuré a été identifié comme décédé, des contrats réglés et des suites données aux consultations au titre des articles L. 132-9-2 et L. 132-9-3. Il ne décrit aucune garantie d’assurance et ne comporte ni conditions de couverture ni exclusions ; il énumère en note les douze contrats MAIF VIE concernés.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : Assurance vie et épargne · Type : Document · Édition : 04/2026
+- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Document · Édition : 04/2026
 
 ## Définitions
 

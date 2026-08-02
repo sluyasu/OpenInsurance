@@ -47,7 +47,7 @@ generated: true
 
 Notice d'information du contrat Matmut Vie Épargne, contrat collectif d'assurance sur la vie libellé en euros, à adhésion facultative, relevant de la branche 20 (Vie-décès) de l'article R. 321-1 du Code des assurances. Il est souscrit par Matmut Mutualité auprès de Matmut Vie et permet à l'adhérent de constituer un capital disponible à tout moment par rachat, versé au(x) bénéficiaire(s) désigné(s) en cas de décès de l'assuré. Le contrat ne comporte pas de taux d'intérêt garanti, ni garantie de fidélité, ni valeur de réduction ; la rémunération du capital provient de la participation aux bénéfices, 100 % du solde positif du compte de résultat du contrat étant affecté à la provision correspondante. Les frais sur versements sont au maximum de 1,25 % (barème dégressif) et les frais de gestion annuels de 0,50 % des capitaux disponibles moyens gérés dans l'exercice.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : Assurance vie et épargne · Type : Conditions générales · Édition : 01/25
+- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Conditions générales · Édition : 01/25
 
 ## Définitions
 

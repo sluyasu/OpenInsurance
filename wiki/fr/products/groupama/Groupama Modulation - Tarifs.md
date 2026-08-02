@@ -40,7 +40,7 @@ generated: true
 
 Tableau de transparence des frais du produit Groupama Modulation, que le document intitule « Les Frais du PER Individuel : Groupama Modulation ». Il récapitule le montant minimal de versement, les frais annuels de gestion du plan (supports fonds euros et unités de compte), les frais moyens de gestion des fonds en gestion libre et en gestion pilotée ou standardisée avec la part rétrocédée à l'assureur, ainsi que les frais ponctuels par opération (taux maximal). Il ne décrit ni garantie, ni exclusion, ni modalité contractuelle : c'est un document de frais publié par Groupama Gan Vie au titre de son engagement de mise à jour annuelle.
 
-- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : Assurance vie et épargne · Type : Conditions tarifaires
+- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Conditions tarifaires
 
 ## Définitions
 

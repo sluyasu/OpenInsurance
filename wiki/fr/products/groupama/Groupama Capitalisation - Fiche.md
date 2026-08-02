@@ -42,7 +42,7 @@ generated: true
 
 Document d'informations clés (DIC/PRIIPs) de Groupama Capitalisation, contrat de capitalisation nominatif de type multisupport de Groupama Gan Vie, dont les garanties sont libellées en unités de compte et en euros et qui relève de la branche 24 du code des assurances. Le produit permet la constitution d'un capital par versements libres et/ou programmés répartis entre un fonds en euros et des unités de compte, en gestion libre ou en gestion déléguée, pour une durée de souscription de 99 ans et une période de détention recommandée de 8 ans. Le document expose l'indicateur de risque, l'absence de prestation d'assurance, la protection du FGAP plafonnée à 70 000 €, les coûts au fil du temps et leur composition, le délai de renonciation et les modalités de rachat et de réclamation.
 
-- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : Assurance vie et épargne · Type : Fiche produit · Édition : 01/06/2026
+- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Fiche produit · Édition : 01/06/2026
 
 ## Définitions
 

@@ -74,7 +74,7 @@ les signale une par une plutôt que de les passer sous silence.
 - [Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce)](insurers/Macif%20%28MACIF%20-%20Mutuelle%20Assurance%20des%20Commer%C3%A7ants%20et%20Industriels%20de%20France%20et%20des%20Cadres%20et%20Salari%C3%A9s%20de%20l%27Industrie%20et%20d.md) (26 documents)
 - [MAIF](insurers/MAIF.md) (69 documents)
 - [Matmut](insurers/Matmut.md) (114 documents)
-- [SMACL Assurances](insurers/SMACL%20Assurances.md) (27 documents)
+- [SMACL Assurances](insurers/SMACL%20Assurances.md) (31 documents)
 - [Thélem assurances](insurers/Th%C3%A9lem%20assurances.md) (45 documents)
 <!-- END GENERATED -->
 

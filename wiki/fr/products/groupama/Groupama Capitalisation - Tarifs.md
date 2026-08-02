@@ -40,7 +40,7 @@ generated: true
 
 Tableau de transparence des frais du produit Groupama Capitalisation, intitulé « Les Frais de l'assurance-vie : Groupama Capitalisation ». Il récapitule le montant minimal de versement, les frais d'adhésion à l'association, les frais annuels de gestion du contrat (supports fonds euros, unités de compte, gestion déléguée), les frais moyens de gestion des unités de compte en gestion libre et en gestion pilotée ou standardisée avec la part rétrocédée à l'assureur, et les frais ponctuels par opération (taux maximal). Le document ne décrit ni garantie ni exclusion : c'est une notice de frais publiée par Groupama Gan Vie au titre de son engagement de mise à jour annuelle.
 
-- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : Assurance vie et épargne · Type : Conditions tarifaires
+- Assureur : [Groupama](../../insurers/Groupama.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Conditions tarifaires
 
 ## Définitions
 

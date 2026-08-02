@@ -44,7 +44,7 @@ generated: true
 
 Notice d’information précontractuelle MAIF sur la vente d’assurance à distance, prise en application de l’article L 112-2-1 du Code des assurances. Elle décrit, pour les opérations conclues entièrement à distance, les modalités de conclusion du contrat et de paiement de la cotisation, la durée et la résiliation, le droit de renonciation de 14 jours et ses effets financiers, la loi et la langue applicables, ainsi que les modalités d’examen des réclamations et le recours au Médiateur de l’assurance. Elle ne décrit aucune garantie et n’est rattachée à aucun produit en particulier.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : Autres · Type : Document · Édition : 06/2026
+- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Autres](../../branches/Autres.md) · Type : Document · Édition : 06/2026
 
 ## Définitions
 

@@ -33,7 +33,7 @@ generated: true
 
 ## Produits par branche
 
-### Assurance vie et épargne
+### [Assurance vie et épargne](../branches/Assurance%20vie%20et%20%C3%A9pargne.md)
 - [Chromatys Evolution - Tarifs](../products/gan/Chromatys%20Evolution%20-%20Tarifs.md) - Conditions tarifaires (2026-03)
 - [GAN ASSURANCES CAPITALISATION EXCEPTION - Fiche](../products/gan/GAN%20ASSURANCES%20CAPITALISATION%20EXCEPTION%20-%20Fiche.md) - Fiche produit (2026-06-01) · réf. P106-062026
 - [GAN ASSURANCES CHROMATYS EVOLUTION - Fiche](../products/gan/GAN%20ASSURANCES%20CHROMATYS%20EVOLUTION%20-%20Fiche.md) - Fiche produit (2026-06-01) · réf. P105-062026
@@ -79,7 +79,7 @@ generated: true
 - [Gan Solutions Prévoyance Homme Clé - IPID](../products/gan/Gan%20Solutions%20Pr%C3%A9voyance%20Homme%20Cl%C3%A9%20-%20IPID.md) - IPID / Fiche d'information (102023) · réf. 3370 - HC03 -102023 - PAO/GGVie
 - [Gan Vision Majoritaire Prévoyance - Fiche](../products/gan/Gan%20Vision%20Majoritaire%20Pr%C3%A9voyance%20-%20Fiche.md) - Fiche produit (au 01/01/2025)
 
-### Retraite supplémentaire
+### [Retraite supplémentaire](../branches/Retraite%20suppl%C3%A9mentaire.md)
 - [GAN ASSURANCES PERFORMANCE RETRAITE - Fiche](../products/gan/GAN%20ASSURANCES%20PERFORMANCE%20RETRAITE%20-%20Fiche.md) - Fiche produit (01/06/2026) · réf. P107-062026
 - [Gan Assurance Nouvelle Vie - Tarifs](../products/gan/Gan%20Assurance%20Nouvelle%20Vie%20-%20Tarifs.md) - Conditions tarifaires (2026-03)
 - [Gan Nouvelle Vie (Gan Patrimoine) - Tarifs](../products/gan/Gan%20Nouvelle%20Vie%20%28Gan%20Patrimoine%29%20-%20Tarifs.md) - Conditions tarifaires

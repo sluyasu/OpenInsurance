@@ -49,7 +49,7 @@ generated: true
 
 Assurance vie Responsable et Solidaire est un contrat d’assurance vie de groupe de type multisupport à adhésion individuelle et facultative et à versements libres souscrit auprès de MAIF VIE par MAIF, 200 avenue Salvador Allende, 79000 Niort. Les droits et obligations de l’adhérent peuvent être modifiés par des avenants au contrat conclus entre MAIF VIE et MAIF. L’adhérent est préalablement informé de ces modifications. Assurance vie Responsable et Solidaire comprend deux garanties principales indissociables : — une garantie en cas de vie qui permet la constitution d’une épargne (valeur de l’adhésion) qui sera versée au terme de l’adhésion ou au moment du rachat. L’adhérent pourra opter entre le versement du capital, en une ou plusieurs fois ou le paiement sous la forme d’une rente viagère (page 34) ; — une garantie en cas de décès qui prévoit le versement de l’épargne ainsi constituée au(x) bénéficiaire(s) désigné(s) par l’adhérent si celui-ci décède en cours d’adhésion (page 36). L’adhésion comprend une garantie complémentaire en cas de décès de l’assuré, permettant sous certaines conditions, le versement d’un capital supplémentaire en euros (page 37).
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : Assurance vie et épargne · Type : Conditions générales · Édition : 04/25
+- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Conditions générales · Édition : 04/25
 
 ## Définitions
 

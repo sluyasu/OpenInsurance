@@ -41,11 +41,11 @@ generated: true
 
 ## Produits par branche
 
-### Animaux
+### [Animaux](../branches/Animaux.md)
 - [Assur'4Pattes Matmut & Co](../products/matmut/Assur%274Pattes%20Matmut%20%26%20Co.md) - Conditions générales (01/24) · réf. CG Assur'4Pattes -  01/24
 - [Contrat Assur'4Pattes - IPID](../products/matmut/Contrat%20Assur%274Pattes%20-%20IPID.md) - IPID / Fiche d'information (01-24) · réf. IPID. Assur’4Pattes –01-24
 
-### Assurance vie et épargne
+### [Assurance vie et épargne](../branches/Assurance%20vie%20et%20%C3%A9pargne.md)
 - [Complice Vie](../products/matmut/Complice%20Vie.md) - Conditions générales (Octobre 2025) · réf. v.532-01
 - [Matmut Vie Générations - IPID](../products/matmut/Matmut%20Vie%20G%C3%A9n%C3%A9rations%20-%20IPID.md) - IPID / Fiche d'information (01/02/2025) · réf. MVG.DIC - 01/25
 - [Matmut Vie Générations](../products/matmut/Matmut%20Vie%20G%C3%A9n%C3%A9rations.md) - Conditions générales (01/25) · réf. MVG.NOTICE - 01/25
@@ -129,7 +129,7 @@ generated: true
 - [Multigaranties des collectivités et risques professionnels](../products/matmut/Multigaranties%20des%20collectivit%C3%A9s%20et%20risques%20professionnels.md) - Conditions générales (04/26) · réf. MC.1 IME – 04/26.
 - [Risques Immobiliers](../products/matmut/Risques%20Immobiliers.md) - Conditions générales (10/25) · réf. CG.IME.IMMO – 10/25
 
-### Navigation de plaisance
+### [Navigation de plaisance](../branches/Navigation%20de%20plaisance.md)
 - [Navigation de Plaisance Distinguo & Co](../products/matmut/Navigation%20de%20Plaisance%20Distinguo%20%26%20Co.md) - Conditions générales (2025-05) · réf. CG NDEP DISTINGUO & CO - 05/25
 - [Navigation de Plaisance Matmut](../products/matmut/Navigation%20de%20Plaisance%20Matmut.md) - Conditions générales (06/24) · réf. CG NDEP
 
@@ -139,7 +139,7 @@ generated: true
 ### [RC professionnelle](../branches/RC%20professionnelle.md)
 - [Multigaranties Professionnelles des Agents Publics](../products/matmut/Multigaranties%20Professionnelles%20des%20Agents%20Publics.md) - Conditions générales (06/24) · réf. CG.MPAP.AMF SAM – 06/24
 
-### Retraite supplémentaire
+### [Retraite supplémentaire](../branches/Retraite%20suppl%C3%A9mentaire.md)
 - [CompliceRetraite](../products/matmut/CompliceRetraite.md) - Conditions générales (Octobre 2025) · réf. v.311-01
 
 ### [Complémentaire santé](../branches/Compl%C3%A9mentaire%20sant%C3%A9.md)
@@ -182,7 +182,7 @@ generated: true
 - [Santé vous bien ! - Fiche](../products/matmut/Sant%C3%A9%20vous%20bien%20%21%20-%20Fiche.md) - Fiche produit (2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)) · réf. 20260101_20261231_IND2022
 - [Statuts d'Ociane et Règlement mutualiste « individuels » — Complémentaire maladie accidents](../products/matmut/Statuts%20d%27Ociane%20et%20R%C3%A8glement%20mutualiste%20%C2%AB%20individuels%20%C2%BB%20%E2%80%94%20Compl%C3%A9mentaire%20maladie%20accidents.md) - Conditions générales (12/24 (mentions de pied de page « STATUTS.MUT.OCIANE - 12/24 » et « RGMT. INDIV. OCIANE - 12/24 »). Statuts approuvés par l'assemblée générale du 19 octobre 2002, modifications approuvées jusqu'aux assemblées générales du 12 juin et du 5 décembre 2024. Règlement mutualiste « individuels » approuvé par l'assemblée générale du 19 juin 2020 et modifié par le conseil d'administration du 15 septembre 2020, du 11 mai 2021, du 17 septembre 2021, du 9 mai 2022, du 12 mai 2023 et du 21 mai 2024 sur délégation de l'assemblée générale.) · réf. STATUTS.MUT.OCIANE - 12/24 (statuts, p. 19) ; RGMT. INDIV. OCIANE - 12/24 (règlement mutualiste, p. 33)
 
-### Vélo
+### [Vélo](../branches/V%C3%A9lo.md)
 - [Contrat Multirisques « 2R Liberté » - IPID](../products/matmut/Contrat%20Multirisques%20%C2%AB%202R%20Libert%C3%A9%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (07/25) · réf. IPID.VELO - 07/25
 
 ## Source

@@ -42,7 +42,7 @@ generated: true
 
 Fiche « Les Frais de l'assurance-vie » du contrat Gan Patrimoine Capitalisation, publiée au titre de l'engagement de transparence annuelle de Groupama Gan Vie et portant la mention « Dernière mise à jour le 01 septembre 2023 ». Elle indique le montant minimal de versement, les frais annuels de gestion du contrat (supports fonds euros, unités de compte, gestion déléguée), les frais moyens de gestion des unités de compte par classe d'actifs — actions, obligations, immobilier, diversifiés et Private Equity — avec les taux de rétrocessions de commissions correspondants, et les frais ponctuels par opération. Le document ne décrit ni garanties ni exclusions : il ne porte que sur les frais. Les mentions légales présentent Gan Patrimoine comme société d'intermédiation en assurance, mandataire exclusif de Groupama Gan Vie et de ses filiales.
 
-- Assureur : [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../../insurers/Gan%20Assurances.md) · Branche : Assurance vie et épargne · Type : Conditions tarifaires · Édition : 2023-09-01
+- Assureur : [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../../insurers/Gan%20Assurances.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Conditions tarifaires · Édition : 2023-09-01
 
 ## Définitions
 

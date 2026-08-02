@@ -43,7 +43,7 @@ generated: true
 
 Document d’informations clés (DIC/KID) du produit d’investissement Gan Prévoyance Perspectives Épargne, produit le 05/03/2025 par Groupama Gan Vie. Il s’agit d’un contrat d’assurance sur la vie de type multisupport, contrat de groupe à adhésion facultative souscrit auprès de Groupama Gan Vie par l’Association pour la Protection du Patrimoine et de la Personne (A3P), relevant des branches 20 (Vie-Décès) et 22. Le contrat permet la constitution d’une épargne par versements libres et/ou programmés répartis entre un fonds en euros et des unités de compte, en gestion libre ou gestion déléguée ; en cas de décès un capital égal à l’épargne constituée est versé aux bénéficiaires désignés, avec une Garantie plancher optionnelle avant 65 ans. Le document détaille l’indicateur de risque, le mécanisme du FGAP, les coûts sur 1 an et 8 ans, la période de détention recommandée de 8 ans et la procédure de réclamation.
 
-- Assureur : [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../../insurers/Gan%20Assurances.md) · Branche : Assurance vie et épargne · Type : Fiche produit · Édition : 05/03/2025
+- Assureur : [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../../insurers/Gan%20Assurances.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Fiche produit · Édition : 05/03/2025
 
 ## Définitions
 

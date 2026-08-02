@@ -40,7 +40,7 @@ generated: true
 
 Tableau normalisé des frais du PER assurantiel « PER Responsable et Solidaire », arrêté au 02/06/2026. Il recense le montant minimal de versement initial, les frais d’adhésion à l’association souscriptrice, les frais annuels (frais des supports, frais de gestion des fonds en gestion libre et en gestion pilotée par horizon, avec le taux de rétrocessions de commissions) et les frais ponctuels par opérations (versement, changement de mode de gestion, arbitrage, transfert sortant, versements de rente, rachat). Le contrat collectif est souscrit par le GERP Futurs Solidaires auprès de MAIF VIE ; il ne décrit aucune garantie d’assurance.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : Retraite supplémentaire · Type : Conditions tarifaires · Édition : 06/26
+- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Retraite supplémentaire](../../branches/Retraite%20suppl%C3%A9mentaire.md) · Type : Conditions tarifaires · Édition : 06/26
 
 ## Prime
 

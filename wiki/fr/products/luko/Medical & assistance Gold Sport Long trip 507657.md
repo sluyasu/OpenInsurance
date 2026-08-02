@@ -43,7 +43,7 @@ generated: true
 
 Notice d’information et Conditions générales du contrat d’assurance voyage « Medical & assistance Gold Sport Long trip 507657 » (édition 09 2025) souscrit auprès d’ALLIANZ DIRECT VERSICHERUNGS-AG par l’intermédiaire de l’organisme de voyage, pour un voyage privé unique d’une durée maximum de trois cent soixante-cinq (365) jours consécutifs, réservé par une personne ayant sa résidence principale en France. Le contrat couvre les frais médicaux d’urgence à l’étranger (300 000 €), l’assistance médicale et le rapatriement (frais réels, recherche et secours 10 000 €), l’interruption ou la prolongation du voyage (8 000 €), le voyage retardé (1 500 €), les dommages et le retard de bagages (3 000 €), la responsabilité civile (4 500 000 €), l’individuelle accident (25 000 €), une garantie Sport (activité manquée, équipement sportif, recherche et secours), la téléconsultation, les frais juridiques à l’étranger (3 000 €) et les documents d’identité et clés (400 €). Le Tableau des garanties ne comporte aucune garantie Annulation du voyage. Les garanties effectivement acquises sont celles figurant aux Conditions particulières et s’appliquent dans les pays de séjour sélectionnés, à l’exclusion des pays de la liste du Ministère des Affaires étrangères.
 
-- Assureur : [Luko](../../insurers/Luko.md) · Branche : Voyage et assistance · Type : Conditions générales · Édition : 09 2025
+- Assureur : [Luko](../../insurers/Luko.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : Conditions générales · Édition : 09 2025
 
 ## Définitions
 

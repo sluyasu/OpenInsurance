@@ -35,7 +35,7 @@ generated: true
 
 ## Produits par branche
 
-### Assurance vie et épargne
+### [Assurance vie et épargne](../branches/Assurance%20vie%20et%20%C3%A9pargne.md)
 - [GROUPAMA MODULATION - Fiche](../products/groupama/GROUPAMA%20MODULATION%20-%20Fiche.md) - Fiche produit (Document produit le 01/06/2026) · réf. P101-062026
 - [GROUPAMA PREMIUM - Fiche](../products/groupama/GROUPAMA%20PREMIUM%20-%20Fiche.md) - Fiche produit (Document produit le 01/06/2026) · réf. P102-062026
 - [Groupama Capitalisation - Fiche](../products/groupama/Groupama%20Capitalisation%20-%20Fiche.md) - Fiche produit (01/06/2026) · réf. P103-062026
@@ -68,7 +68,7 @@ generated: true
 - [PROFIL ÉLUS](../products/groupama/PROFIL%20%C3%89LUS.md) - Conditions générales (2026-01) · réf. RÉF. 3350-213452-012026 • MODÈLE PEL05
 - [Profil élus - Tableau des montants de garantie et des franchises - Tarifs](../products/groupama/Profil%20%C3%A9lus%20-%20Tableau%20des%20montants%20de%20garantie%20et%20des%20franchises%20-%20Tarifs.md) - Conditions tarifaires (janvier 2026) · réf. 3350-213453-012026 • MODÈLE TPEL 07
 
-### Retraite supplémentaire
+### [Retraite supplémentaire](../branches/Retraite%20suppl%C3%A9mentaire.md)
 - [Groupama Horizon Retraite - Fiche](../products/groupama/Groupama%20Horizon%20Retraite%20-%20Fiche.md) - Fiche produit (01/06/2026) · réf. P104-062026
 - [Groupama Horizon Retraite - Tarifs](../products/groupama/Groupama%20Horizon%20Retraite%20-%20Tarifs.md) - Conditions tarifaires
 - [Groupama Nouvelle Vie - Tarifs](../products/groupama/Groupama%20Nouvelle%20Vie%20-%20Tarifs%20%282%29.md) - Conditions tarifaires

@@ -43,7 +43,7 @@ generated: true
 
 Conventions spéciales ALÉASSUR « Protection financière » : garantie de pertes d'exploitation qui complète les conventions spéciales Dommages aux biens et les conditions générales Aléassur, et qui est subordonnée à l'existence au jour du sinistre d'une garantie de dommages aux biens souscrite auprès de SMACL Assurances. À la suite d'un sinistre garanti, SMACL Assurances verse une indemnité destinée à compenser la perte de marge brute résultant de la baisse du chiffre d'affaires causée par l'interruption totale ou la réduction de l'activité assurée, et à supporter les frais supplémentaires engagés pour limiter cette baisse. La garantie est acquise en France métropolitaine ainsi que dans les départements et régions d'outre-mer. L'article 3 détaille le calcul de l'indemnité et l'article 4 énumère neuf exclusions particulières.
 
-- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : Autres · Type : Conditions générales · Édition : 01/2024
+- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Autres](../../branches/Autres.md) · Type : Conditions générales · Édition : 01/2024
 
 ## Définitions
 

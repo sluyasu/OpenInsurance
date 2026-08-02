@@ -44,7 +44,7 @@ generated: true
 
 Document d'informations spécifiques (PRIIPs) du fonds en euros, support d'investissement proposé parmi d'autres au sein du contrat Assurance vie Responsable et Solidaire conçu et géré par MAIF VIE. Le support est adossé à l'actif général de MAIF VIE et comporte une garantie du capital égale à tout moment à la somme des montants nets investis, déduction faite de tous frais afférents au contrat, complétée chaque année par une participation aux bénéfices versée en date de valeur du 31 décembre. Le document indique une classe de risque 1 sur 7, une période de détention recommandée d'un an, les scénarios de performance pour 10 000 € investis et le détail des coûts propres au support.
 
-- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : Assurance vie et épargne · Type : Document · Édition : 06/26
+- Assureur : [MAIF](../../insurers/MAIF.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Document · Édition : 06/26
 
 ## Définitions
 
