@@ -865,7 +865,11 @@ pdfs:
   document_type: ipid
   lang: fr
   product_name: "CONTRAT MACIF SANTÉ DES TERRITORIAUX"
-  edition_date: "2026-01"
+  edition_date: "2026-06"
+  # date corrigee 2026-08-01: la couche texte porte DEUX pieds de page
+  # superposes, / 01/2026 / dans un Form XObject et /06/2026 / juste au-dessus.
+  # Un rendu a 14x montre que seul 06/2026 est reellement imprime; la
+  # decouverte avait retenu la ligne fantome.
   # carrier named in this document: la Mutuelle Nationale des Fonctionnaires des Collectivités Territoriales (MNFCT)
 - url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_sante_collective_aide_a_domicile.pdf
   branch: sante
