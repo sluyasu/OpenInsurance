@@ -435,6 +435,7 @@ Tiers payant. Service systématiquement prévu au contrat.
 ## Documents liés
 
 - [Macif Mutuelle Entreprises](Macif%20Mutuelle%20Entreprises.md) - Conditions générales, éd. 2025-01
+- [Macif Mutuelle Entreprises - Fiche](Macif%20Mutuelle%20Entreprises%20-%20Fiche.md) - Fiche produit, éd. 01/26
 - [Macif Mutuelle Entreprises](Macif%20Mutuelle%20Entreprises%20%282%29.md) - Conditions générales
 
 ## Source & fidélité

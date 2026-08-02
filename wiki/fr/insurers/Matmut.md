@@ -5,7 +5,7 @@ country: fr
 insurer_slug: matmut
 name: Matmut
 website: https://www.matmut.fr
-products_count: 141
+products_count: 143
 branches_covered:
 - animaux
 - assurance-vie
@@ -39,7 +39,7 @@ generated: true
 
 ## Résumé
 
-**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 141 document(s) across 17 branch(es).
+**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 143 document(s) across 17 branch(es).
 
 ## Produits par branche
 
@@ -112,6 +112,7 @@ generated: true
 ### [Multirisque habitation](../branches/Multirisque%20habitation.md)
 - [Assurance Loyers Impayés](../products/matmut/Assurance%20Loyers%20Impay%C3%A9s.md) - Conditions générales (10/24) · réf. CG LOYERS IMP - 10/24
 - [Contrat Multigaranties des risques immobiliers - IPID](../products/matmut/Contrat%20Multigaranties%20des%20risques%20immobiliers%20-%20IPID.md) - IPID / Fiche d'information (11/25) · réf. IPID.IME.PNO.PNE
+- [Contrat « Multigaranties Hébergement » - IPID](../products/matmut/Contrat%20%C2%AB%20Multigaranties%20H%C3%A9bergement%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (05/24) · réf. IPID. HEB – 05/24
 - [Contrat « Multigaranties Propriétaire non exploitant » - IPID](../products/matmut/Contrat%20%C2%AB%20Multigaranties%20Propri%C3%A9taire%20non%20exploitant%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (05/24) · réf. IPID.PNE
 - [Habitation Initiale & Co Résidence Principale](../products/matmut/Habitation%20Initiale%20%26%20Co%20R%C3%A9sidence%20Principale.md) - Conditions générales (12/23) · réf. CG MGAR RP INIT & CO – 12/23
 - [Habitation Initiale & Co Résidence Secondaire](../products/matmut/Habitation%20Initiale%20%26%20Co%20R%C3%A9sidence%20Secondaire.md) - Conditions générales (12/23) · réf. CG RS INIT & CO – 12/23
@@ -173,6 +174,7 @@ generated: true
 - [Bien à l'hôpital - Fiche](../products/matmut/Bien%20%C3%A0%20l%27h%C3%B4pital%20-%20Fiche.md) - Fiche produit (09/25) · réf. FICHE.HOP.MOM – 09/25
 - [CONTRAT COLLECTIF FRAIS DE SANTÉ - RÉGIME OBLIGATOIRE](../products/matmut/CONTRAT%20COLLECTIF%20FRAIS%20DE%20SANT%C3%89%20-%20R%C3%89GIME%20OBLIGATOIRE.md) - Conditions générales (Janvier 2023)
 - [Conditions Générales — Régime conventionnel de frais de santé à adhésion obligatoire, Convention Collective Nationale de](../products/matmut/Conditions%20G%C3%A9n%C3%A9rales%20%E2%80%94%20R%C3%A9gime%20conventionnel%20de%20frais%20de%20sant%C3%A9%20%C3%A0%20adh%C3%A9sion%20obligatoire%2C%20Convention%20Collective%20Nationale%20de.md) - Conditions générales (12-2024 (référence de pied de page « CG Oblig-ALISFA-FM-12-2024 ») ; le tableau des garanties de l'ANNEXE II porte la mention « En vigueur au 01/01/2025 ») · réf. CG Oblig-ALISFA-FM-12-2024 – SP24/FCR0570
+- [Matmut-Smac Catégories A, B et C](../products/matmut/Matmut-Smac%20Cat%C3%A9gories%20A%2C%20B%20et%20C.md) - Conditions générales (2025-10)
 - [Notice d'information — Régime de frais de santé, contrat collectif, Accord interbranche du 2 octobre 2019 (CCN du 15 mar](../products/matmut/Notice%20d%27information%20%E2%80%94%20R%C3%A9gime%20de%20frais%20de%20sant%C3%A9%2C%20contrat%20collectif%2C%20Accord%20interbranche%20du%202%20octobre%202019%20%28CCN%20du%2015%20mar.md) - Conditions générales (ÉDITION 2023 (couverture) ; « janvier 2023 » en pied de page ; « Notice d'information Base obligatoire option 2 - CCN 66-CHRS - Janvier 2023 » en 4e de couverture) · réf. Accord interbranche CCN 66 - CHRS • Notice d'information base obligatoire et option 2 - janvier 2023
 - [Ociane Santé Pro - Fiche](../products/matmut/Ociane%20Sant%C3%A9%20Pro%20-%20Fiche.md) - Fiche produit (10/25) · réf. SANTE PRO-0925
 - [Régime complémentaire santé – Ensemble du personnel (CCN du 31 octobre 1951, IDCC N°29)](../products/matmut/R%C3%A9gime%20compl%C3%A9mentaire%20sant%C3%A9%20%E2%80%93%20Ensemble%20du%20personnel%20%28CCN%20du%2031%20octobre%201951%2C%20IDCC%20N%C2%B029%29.md) - Conditions générales (Juillet 2024) · réf. Notice d'information – Régime complémentaire santé – Ensemble du personnel – CCN du 31 octobre 1951 (IDCC N°29)

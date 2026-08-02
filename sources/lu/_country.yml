@@ -1,0 +1,328 @@
+# Luxembourg - country manifest. The branch taxonomy is DATA (this is what keeps the project
+# country-agnostic): branch slugs declared here are the allowed `branch` values for products.
+# Aliases feed discover.py's branch inference.
+#
+# ONE SUPERVISOR, ONE LAW, AND A MARKET THAT IS NOT DOMESTIC. This is the structural
+# difference from the three countries already covered, and it is not on the supervision axis:
+#   - Belgium: one supervisor, one regime.
+#   - Switzerland: ONE market across TWO supervisors (FINMA / OFSP).
+#   - France: ONE supervisor over THREE legal codes.
+#   - Luxembourg: one supervisor (CAA), one authorising statute (loi modifiée du 7 décembre
+#     2015 sur le secteur des assurances, "LSA"), one contract statute (loi modifiée du
+#     27 juillet 1997 sur le contrat d'assurance) - and a market where the business written
+#     from Luxembourg is overwhelmingly NOT sold to people in Luxembourg.
+# Measured from the CAA's own annual-report annexes, financial year 2025:
+#     life      35 095 771 k€ total premiums, of which  1 765 819 k€ Luxembourg   =  5,0 %
+#               (France alone: 18 332 210 k€, > 52 % of the total)
+#     non-life  19 918 771 k€ total premiums, of which  1 735 762 k€ Luxembourg   =  8,7 %
+#     plus 207 authorised reinsurance undertakings, almost all foreign-group captives,
+#     writing no consumer contracts at all.
+# So the licence count is not the corpus: 63 Luxembourg-authorised direct insurers exist, and
+# fewer than ten sell a retail product to a resident. Detail in _meta/lu-market-census.md.
+#
+# Register (fetched 2026-08-02). https://www.caa.lu/fr/operateurs, one HTML list per
+# category, each with an "Exporter en CSV" link to a static nightly file. Every CSV answered
+# 200 text/csv to plain Python urllib - NO key, NO cookie, NO account - all carrying
+# `Last-Modified: Sun, 02 Aug 2026 01:00 GMT`. There is no JSON/query API; a flat nightly
+# dump per list is what exists, and it is enough.
+#   https://www.caa.lu/uploads/documents/files/csv/AssurancesDirectes_AssureursLuxembourgeoisNonVie.csv     35
+#   https://www.caa.lu/uploads/documents/files/csv/AssurancesDirectes_AssureursLuxembourgeoisVie.csv        28
+#   https://www.caa.lu/uploads/documents/files/csv/AssurancesDirectes_SuccursalesEtrangeresNonVie.csv        9
+#   https://www.caa.lu/uploads/documents/files/csv/AssurancesDirectes_SuccursalesEtrangeresVie.csv           5   (14 rows, 11 DISTINCT entities: 3 appear in both)
+#   https://www.caa.lu/uploads/documents/files/csv/Reassurances.csv                                        207
+#   https://www.caa.lu/uploads/documents/files/csv/FondsDePension_FondsDePensionLuxembourgeois.csv           2
+#   https://www.caa.lu/uploads/documents/files/csv/Distribution_AgentsDAssurances.csv                     3112
+#   https://www.caa.lu/uploads/documents/files/csv/Distribution_SocietesDeCourtage.csv                       78
+# The two freedom-of-services lists have NO CSV export; parsed from HTML: 628 distinct
+# inbound non-life notifications, 128 inbound life. Those hold no Luxembourg authorisation.
+# The vie and non-vie Luxembourg lists do not intersect: Luxembourg applies the
+# specialisation principle, so no Luxembourg company is both a life and a non-life insurer.
+
+country: lu
+name: Luxembourg
+regulator: "CAA (Commissariat aux Assurances)"
+industry_body: ACA (Association des Compagnies d'Assurances et de Réassurances du Grand-Duché de Luxembourg)
+official_languages: [fr, de, en]
+branch_scheme: "lu-named consumer segmentation; `code` = branch of ANNEXE I (non-vie, 1-18) / ANNEXE II (vie, I-VII) de la loi modifiée du 7 décembre 2015 sur le secteur des assurances"
+fallback_branch: autres
+
+# LANGUAGES - the declared list is deliberately NOT the constitutional list, and the reason
+# is written here rather than left to be rediscovered.
+#   Loi du 24 février 1984 sur le régime des langues: art. 1er "La langue nationale des
+#   Luxembourgeois est le luxembourgeois"; art. 2 "Les actes législatifs et leurs règlements
+#   d'exécution sont rédigés en français"; art. 3, administrative and judicial matters may
+#   use "les langues française, allemande ou luxembourgeoise".
+#   The insurance statutes bind documents to "les langues officielles du Grand-Duché" without
+#   enumerating them: loi du 27 juillet 1997 art. 16 point 2 ("Les contrats ne sont valables
+#   que s'ils sont rédigés dans l'une des langues officielles du Grand-Duché de Luxembourg ou
+#   dans une langue comprise par le preneur d'assurance"), art. 17 point 2, art. 17-1;
+#   LSA art. 295-13 (1) c).
+#   MEASURED 2026-08-02: lalux publishes true FR and DE variants of the same conditions
+#   générales (`…_FR.pdf` 200 / `…_DE.pdf` 200 / `_EN`, `_LU`, `_PT` all 404); AXA Assurances
+#   Luxembourg publishes three DISTINCT CG sets under /fr/cgv, /de/cgv, /en/cgv; Foyer serves
+#   ONE byte-identical French PDF from its French, German and English sites; Hiscox
+#   Luxembourg is English; the CAA's own site is FR + EN only. NO contractual document in
+#   lëtzebuergesch was found anywhere (lalux and DKV offer an `lb` interface, but their `lb`
+#   document pages 404).
+#   `official_languages` is consumed by discover.py's guess_lang(), which matches /xx/, -xx.
+#   and _xx. in URLs and falls back to the first element. Declaring `lb` would detect nothing;
+#   declaring only [fr, de] would silently mislabel English documents as French. Hence
+#   [fr, de, en], fr first. Revisit if an lb document ever appears.
+
+# BRANCH CODES refer to the annexes of the LSA, which transpose the Solvency II annexe and
+# are the scheme the CAA authorises against and publishes per undertaking in the register:
+#   ANNEXE I - CLASSIFICATION PAR BRANCHE D'ASSURANCE NON VIE, part A: 1 Accidents,
+#   2 Maladie, 3 Corps de véhicules terrestres (autres que ferroviaires), 4 Corps de véhicules
+#   ferroviaires, 5 Corps de véhicules aériens, 6 Corps de véhicules maritimes lacustres et
+#   fluviaux, 7 Marchandises transportées, 8 Incendie et éléments naturels, 9 Autres dommages
+#   aux biens, 10 R.C. véhicules terrestres automoteurs, 11 R.C. véhicules aériens, 12 R.C.
+#   véhicules maritimes lacustres et fluviaux, 13 R.C. générale, 14 Crédit, 15 Caution,
+#   16 Pertes pécuniaires diverses, 17 Protection juridique, 18 Assistance.
+#   ANNEXE II - CLASSIFICATION PAR BRANCHE D'ASSURANCE VIE: I vie/décès/mixtes/rentes non
+#   liées à des fonds d'investissement, II nuptialité-natalité, III liées à des fonds
+#   d'investissement, IV permanent health insurance, V opérations tontinières,
+#   VI opérations de capitalisation, VII gestion de fonds collectifs de retraite.
+# Roman numerals are used for life codes exactly as the register writes them, so a `code`
+# never collides across the two annexes. It is a PRUDENTIAL scheme, not a sales one, so
+# several consumer branches below share a code and one consumer branch can span several.
+# `mandatory: conditional` means it depends on profession, tenure or a lender's requirement;
+# the branch page is where that nuance is written out.
+
+# WHAT THIS FILE DELIBERATELY DOES NOT CONTAIN, and why - because importing France's or
+# Belgium's list would have been the easy and wrong move:
+#   - NO `edpm`. France needed one because décret 2019-1082 made EDPM into VTAM and forced a
+#     compulsory RC. Luxembourg went the other way: the loi du 29 mars 2024 (transposing
+#     directive (UE) 2021/2118) redefined "véhicules" in art. 1er a) of the loi du 16 avril
+#     2003 as motorised vehicles "avec, soit une vitesse maximale par construction supérieure
+#     à 25 km/h, soit un poids net maximal supérieur à 25 kg et une vitesse maximale par
+#     construction supérieure à 14 km/h". A standard e-scooter is outside the compulsory
+#     motor insurance here.
+#   - NO `velo`. No Luxembourg bicycle product was observed (Foyer and lalux retail ranges
+#     checked 2026-08-02, zero hits). France's `velo` was added from evidence; adding one
+#     here would be adding it from theory. It lands in `autres` until a product is found.
+#   - NO `scolaire`. Code de la sécurité sociale, Livre II, art. 91, 1° puts "les écoliers,
+#     élèves et étudiants admis à l'enseignement précoce, préscolaire, scolaire et
+#     universitaire, y compris les activités péripréscolaires, périscolaires et
+#     périuniversitaires" inside a SPECIAL PUBLIC accident-insurance scheme. There is no
+#     private product to document.
+#   - NO `accidents-travail` (Belgium has one, mandatory). Code de la sécurité sociale,
+#     Livre II, art. 85: work-accident cover is compulsory PUBLIC insurance administered by
+#     the AAA, which is not a CAA-supervised insurer and is not in the register.
+#   - NO `navigation`, NO `transport`, NO `agricole`, NO `cyber`, NO `obseques`. Branches
+#     6/7/12 are heavily populated in the register but by P&I clubs and commercial marine
+#     carriers, not by retail products; the others were not observed in any Luxembourg retail
+#     range. Declared absent rather than declared empty.
+#   - NO `emprunteur`. Luxembourg calls it `solde restant dû`, and both retail carriers sell
+#     it under exactly that name. See below.
+
+branches:
+  auto:
+    label: "Assurance auto"
+    aliases: ["auto", "automobile", "voiture", "véhicule automoteur", "rc auto", "casco", "responsabilité civile automobile", "kfz", "autoversicherung", "kraftfahrzeug", "car insurance"]
+    mandatory: true             # loi modifiée du 16 avril 2003, art. 2 point 1: no vehicle may
+                                # be admitted to circulation unless its civil liability is
+                                # covered. Obligation falls on the holder of the certificat
+                                # d'immatriculation.
+    code: "10/3"
+    # `casco` is the local word for own-damage cover and it is the word the CAA itself uses
+    # in its per-capita retail indicators (Tab 3.27, 2025: CASCO 625 €/hab, RC véhicules
+    # terrestres automoteurs 279 €/hab). Do not translate it to "tous risques": Luxembourg
+    # reads casco, not the French formula names. Motor is the largest domestic non-life line
+    # by far: branch 3 casco 428 790 k€ + branch 10 RC auto 191 451 k€ on Luxembourg
+    # operations in 2025, out of a 1 735 762 k€ domestic non-life book (Tab 3.23).
+  moto:
+    label: "Deux-roues motorisés"
+    aliases: ["moto", "motocyclette", "scooter", "cyclomoteur", "quad", "motorrad", "zweirad", "motorbike"]
+    mandatory: true             # same art. 2 obligation; sold as its own product with its own
+                                # IPID (measured on Foyer's library, 2026-08-02)
+    code: "10/3"
+  habitation:
+    label: "Assurance habitation"
+    aliases: ["habitation", "logement", "incendie", "multirisque habitation", "propriétaire", "locataire", "déménagement", "wohnung", "gebäude", "hausrat", "brand", "home", "household"]
+    mandatory: false            # DELIBERATE, and checked against the text: the loi modifiée
+                                # du 21 septembre 2006 sur le bail à usage d'habitation
+                                # contains NO insurance obligation for the tenant. Its single
+                                # occurrence of "assurance" is the colocation-pact article,
+                                # which requires the pact to set out "les modalités de
+                                # conclusion des contrats d'approvisionnement et d'assurance
+                                # relatifs au bien loué" - a drafting rule, not a duty to
+                                # insure. Luxembourg differs here from France (loi 89-462
+                                # art. 7 g)) and from Wallonia/Brussels. Landlords impose it
+                                # contractually; that is a fact about leases, not statute, and
+                                # the branch page must say it in those words.
+    code: "8/9/13"
+    # Like France and unlike Switzerland, building and contents are sold together in one
+    # contract, so CH's `menage`/`batiment` pair has no Luxembourg equivalent.
+  rc-familiale:
+    label: "Responsabilité civile familiale"
+    aliases: ["rc familiale", "responsabilité civile familiale", "responsabilité civile vie privée", "rc chef de famille", "privathaftpflicht", "familienhaftpflicht", "family liability"]
+    mandatory: false
+    code: "13"
+    # Its own slug, not folded into `habitation`, because the supervisor measures it as its
+    # own line: the CAA reports "13. RC générale / a) RC familiale" separately, gives it a
+    # per-capita indicator (29 €/hab in 2025) and records 83,05 % of its premium as written on
+    # Luxembourg operations - the MOST domestic branch in the whole non-life book. It is
+    # usually sold as a named cover inside the household contract (lalux's easyPROTECT
+    # habitation has a dedicated "Responsabilité Civile Familiale" page), which is exactly why
+    # it needs a slug: otherwise it disappears into `habitation` and the most Luxembourg-facing
+    # cover in the market becomes invisible. Belgium's `vie-privee` is the same object under a
+    # different local name; keep the local name.
+  protection-juridique:
+    label: "Protection juridique"
+    aliases: ["protection juridique", "pj", "défense en justice", "recours", "litiges", "rechtsschutz", "rechtsschutzversicherung", "legal protection"]
+    mandatory: false
+    code: "17"
+    # Second most domestic branch: 80,42 % of branch 17 premium is written on Luxembourg
+    # operations (2025). FOYER-ARAG holds an authorisation for branch 17 and nothing else,
+    # i.e. Luxembourg has a dedicated legal-protection carrier, as Belgium does.
+  accidents:
+    label: "Assurance accidents"
+    aliases: ["accidents", "accident", "accidents corporels", "individuelle accidents", "unfall", "unfallversicherung", "private unfallversicherung", "personal accident"]
+    mandatory: false
+    code: "1"
+    # The PRIVATE top-up only. The compulsory layer is public: Code de la sécurité sociale,
+    # Livre II, art. 85. Any branch page must open on that distinction or it will read as if
+    # the private product were the primary cover. Measured product names: lalux "easyPROTECT
+    # Accident", Foyer "IPID Accident (Groupe)", AXA "Private Unfallversicherung / VivaZen".
+  sante:
+    label: "Complémentaire santé"
+    aliases: ["santé", "complémentaire santé", "frais de santé", "hospitalisation", "soins", "dentaire", "krankenversicherung", "gesundheit", "zusatzversicherung", "health"]
+    mandatory: false
+    code: "2"
+    # Compulsory layer is the CNS: Code de la sécurité sociale, Livre I, art. 1er "Assurance
+    # obligatoire". The private layer is a top-up. DKV LUXEMBOURG S.A. holds branch 2 and
+    # nothing else. NOTE for the branch page: CMCM (Caisse Médico-Complémentaire Mutualiste)
+    # is a significant provider of consumer complementary health cover and is ABSENT from the
+    # CAA register; its legal basis and supervisor are NOT ESTABLISHED. Do not assume it is
+    # an insurer and do not assume it is not.
+  voyage:
+    label: "Voyage et assistance"
+    aliases: ["voyage", "assistance", "annulation", "bagages", "rapatriement", "déplacements et loisirs", "reise", "reiseversicherung", "beistand", "travel", "assistance médicale"]
+    mandatory: false
+    code: "18/16"
+    # EUROP ASSISTANCE LUXEMBOURG S.A. is authorised for exactly 16 and 18, which is why the
+    # code spans both: Luxembourg files travel cancellation under pertes pécuniaires and the
+    # assistance service under branch 18. Measured product names: Foyer "Assurance voyage",
+    # lalux "pack voyage", AXA "déplacements & loisirs / OptiTravel".
+  animaux:
+    label: "Animaux"
+    aliases: ["animaux", "chien", "chat", "frais vétérinaires", "santé animale", "haustier", "tierkrankenversicherung", "pet"]
+    mandatory: false
+    code: "9"
+    # Veterinary costs. The owner's liability for the animal sits in `rc-familiale`, not here.
+    # Measured: Foyer "happy pet", "Assurance chien & chat".
+  assurance-vie:
+    label: "Assurance vie et épargne"
+    aliases: ["assurance vie", "épargne", "placement", "unités de compte", "fonds d'investissement", "capitalisation", "invest", "leben", "lebensversicherung", "sparen", "kapitalisierung", "life", "unit-linked"]
+    mandatory: false
+    code: "I/III/VI"
+    # This is the branch where the country's scale lives and where a wiki must be most careful
+    # about WHO the product is for. 35,1 bn € of life premiums in 2025, of which 1,77 bn €
+    # (5,0 %) written on Luxembourg engagements: the rest is cross-border, more than half of
+    # it French. The ~20 Luxembourg life carriers that are cross-border wealth vehicles
+    # (Cardif Lux Vie, Utmost, Vitis, OneLife, Wealins, Sogelife, Swiss Life Products,
+    # La Mondiale Europartner, Scottish Widows Europe, BPCE Life, CALI Europe, CNP Luxembourg,
+    # DB Vita, Monument, Zurich Eurolife…) sell through private banks to non-residents, and
+    # their documents are KID/DIC and notices, not conditions générales. A `lu` product page
+    # for one of them would be documenting a French or Italian consumer story from a
+    # Luxembourg address. Decide country attribution before ingesting any of them.
+  prevoyance:
+    label: "Prévoyance et décès"
+    aliases: ["prévoyance", "décès", "temporaire décès", "capital décès", "vorsorge", "todesfall", "risikoleben", "protection"]
+    mandatory: false
+    code: "I"
+    # Measured: Foyer "Chronos Temporaire Décès", lalux "easyLIFE Prévoyance", AXA
+    # "Vorsorge - Sparen / prévoyance - épargne".
+  retraite:
+    label: "Retraite et pension complémentaire"
+    aliases: ["retraite", "pension", "épargne pension", "rente viagère", "prévoyance vieillesse", "rente", "altersvorsorge", "pensionsplan", "retirement"]
+    mandatory: false
+    code: "I/VII"
+    # Two pension fund vehicles are separately authorised by the CAA (FONDS DE PENSION
+    # GOODYEAR, SWISS LIFE INTERNATIONAL PENSION FUND) alongside the insurers' individual
+    # products. The statutory framework for occupational schemes was NOT ESTABLISHED in this
+    # pass; do not cite one until it is. Measured retail product: lalux "easyLIFE Pension".
+  solde-restant-du:
+    label: "Assurance solde restant dû"
+    aliases: ["solde restant dû", "srd", "assurance de prêt", "prêt hypothécaire", "crédit immobilier", "restschuldversicherung", "restschuld", "outstanding balance", "mortgage life"]
+    mandatory: conditional      # not by statute; required in practice by the mortgage lender
+    code: "I"
+    # THE Luxembourg (and Belgian) name for what France calls `assurance emprunteur`. Both
+    # retail carriers sell it under exactly this label: Foyer "Assurance solde restant dû",
+    # lalux "easyLIFE Solde Restant Dû". Filed as its own slug rather than inside
+    # `assurance-vie` because it is a distinct retail product with its own document, and named
+    # locally rather than imported from France, because the local name is what appears in
+    # document titles and therefore what `discover.py` has to match. Note that Luxembourg has
+    # nothing resembling the French loi Lagarde / loi Lemoine regime around it - no
+    # substitution right and no questionnaire-médical statute was found.
+  construction:
+    label: "Assurances constructions"
+    aliases: ["construction", "décennale", "biennale", "responsabilité décennale", "tous risques chantier", "trc", "maître d'ouvrage", "zehn- und zweijahreshaftpflichtversicherung", "bauherren"]
+    mandatory: conditional      # loi du 13 décembre 1989 portant organisation des professions
+                                # d'architecte et d'ingénieur-conseil, art. 6: "Les architectes
+                                # et ingénieurs-conseils visés par la présente loi assurent
+                                # obligatoirement leur responsabilité professionnelle, tant
+                                # contractuelle que délictuelle ou quasi délictuelle, y compris
+                                # la responsabilité décennale."
+    code: "13/16"
+    # Luxembourg construction cover is DÉCENNALE ET BIENNALE, a two-tier liability, and it is
+    # NOT France's décennale/dommages-ouvrage pair. The underlying liability is Code civil
+    # art. 1792 ("Si l'édifice périt en tout ou en partie par le vice de la construction, même
+    # par le vice du sol, les architectes, entrepreneurs et autres personnes liées au maître de
+    # l'ouvrage par un contrat de louage d'ouvrage en sont responsables pendant dix ans") and
+    # art. 2270, which adds the second tier ("après dix ans, s'il s'agit de gros ouvrages,
+    # après deux ans pour les menus ouvrages"). Both are quoted verbatim inside lalux's own
+    # conditions générales "RC décennale et biennale" (ed. 01.05.2025), whose German title is
+    # "Allgemeine Bedingungen für die Zehn- und Zweijahreshaftpflichtversicherung".
+    # Two differences from France that must not be smoothed over:
+    #   - the insurance obligation covers ARCHITECTS AND CONSULTING ENGINEERS ONLY. No statute
+    #     making it compulsory for entrepreneurs was found. Recorded as NOT ESTABLISHED, not
+    #     as "not compulsory": the absence of a statute is weaker evidence than a statute.
+    #   - there is NO dommages-ouvrage equivalent, so there is no compulsory cover on the
+    #     client's side of the building. That is why this is one slug and not France's pair.
+    # lalux sells it to consumers ("Constructions" sits in its retail nav), so it is a retail
+    # branch here even though the compulsory limb is professional.
+  rc-professionnelle:
+    label: "RC professionnelle"
+    aliases: ["rc professionnelle", "rc pro", "responsabilité civile professionnelle", "rc exploitation", "faute professionnelle", "berufshaftpflicht", "professional indemnity"]
+    mandatory: conditional      # compulsory for architects and consulting engineers (loi du
+                                # 13 décembre 1989 art. 6, see `construction`). The full list
+                                # of regulated professions carrying a compulsory RC was NOT
+                                # ESTABLISHED; do not assert one.
+    code: "13"
+  multirisque-professionnelle:
+    label: "Multirisque professionnelle"
+    aliases: ["multirisque professionnelle", "multirisk pro", "multirisques pro", "commerce", "pme", "indépendant", "horesca", "profession libérale", "betriebshaftpflicht", "gewerbe"]
+    mandatory: false
+    code: "8/9/13"
+    # Measured as a sector-segmented family rather than one product: Foyer publishes seven
+    # Multirisk Pro IPIDs (commerces et services, professions de bureau, de l'agriculture, de
+    # l'automobile, de l'Horesca, de la santé, du bâtiment) and AXA a "TeamUp Multirisques Pro
+    # profession médicale et paramédicale". `horesca` is the local word for hotel-restaurant-
+    # café and belongs in the country glossary.
+  credit-caution:
+    label: "Crédit, caution et loyers impayés"
+    aliases: ["caution", "crédit", "assurance-crédit", "garantie locative", "loyer impayé", "loyers impayés", "impayés", "kaution", "mietausfall", "credit insurance", "surety"]
+    mandatory: false
+    code: "14/15"
+    # Retail-visible instance is the rent-guarantee product (Foyer "Assurance loyer impayé");
+    # the rest of branches 14/15 is commercial (Atradius, Greenstars BNP Paribas, SG LuCI,
+    # Camca). Kept as one slug because the retail slice is thin.
+  chasse:
+    label: "Chasse"
+    aliases: ["chasse", "chasseur", "permis de chasser", "responsabilité civile chasse", "jagd", "jagdhaftpflicht", "hunting"]
+    mandatory: true             # loi du 25 mai 2011 relative à la chasse, art. 63 point 2 (the
+                                # annual permit is issued on production of "une attestation
+                                # d'assurance conforme aux dispositions de l'article 66") and
+                                # art. 66 ("Le contrat d'assurance doit couvrir la
+                                # responsabilité civile du preneur lors de l'exercice de la
+                                # chasse ou en sa qualité d'organisateur de chasse").
+    code: "13"
+    # Declared because the cover is compulsory by statute. NO Luxembourg product library has
+    # been checked for it yet - the branch exists on the strength of the law, not of an
+    # observed document. Mark the branch page `status: stub` until one is found.
+  autres:
+    label: "Autres"
+    aliases: ["divers", "autres assurances", "produits spécifiques", "sonstige"]
+    mandatory: false
+    code: null

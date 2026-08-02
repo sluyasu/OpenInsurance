@@ -1,0 +1,402 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "matmut",
+  "insurer_name": "Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477",
+  "product_name": "Contrat « Multigaranties Hébergement »",
+  "branch": "habitation",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "Le document ne désigne pas explicitement une catégorie de souscripteurs. Il indique seulement que le contrat garantit « les assurés dans le cadre de leur vie privée » et, au titre de la résiliation, « s’il concerne une personne physique en dehors de toute activité professionnelle ».",
+  "reference": "IPID. HEB – 05/24",
+  "edition_date": "05/24",
+  "product_family": "Multigaranties Hébergement",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDHEB.pdf",
+  "source_pdf": "contrat-multigaranties-hebergement-e4fb1827.pdf",
+  "source_sha256": "98ce3584bd57017c63ea95fa828d47d2e81f3758ae02e8bb1e1cc4ae2840a6dc",
+  "source_pages": 2,
+  "fetched_at": "2026-07-30",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d’information (IPID) du contrat « Multigaranties Hébergement » de la Matmut, assurance habitation. Le contrat garantit les assurés dans le cadre de leur vie privée contre les conséquences des dommages corporels et matériels causés à des tiers (Responsabilité civile), et vise également à couvrir leur responsabilité civile d’occupant et leurs biens mobiliers, le cas échéant. Deux garanties sont systématiquement prévues en inclusion (Responsabilité civile personnelle jusqu’à 100 000 000 € et Protection Juridique suite à accident jusqu’à 20 000 €) ; cinq ensembles de garanties sont proposés en option (responsabilité civile d’occupant, incendie et événements assimilés, événements climatiques et catastrophes naturelles, vol et vandalisme, bris de glaces). Le document précise qu’il ne présente qu’un résumé des principales garanties et exclusions du contrat.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Responsabilité civile personnelle",
+      "description": "Garantie en inclusion systématiquement prévue : dommages causés aux tiers dans le cadre de la vie privée et familiale. La garantie est acquise : tous dommages corporels, matériels, immatériels consécutifs et préjudice écologique confondus jusqu’à 100 000 000 €.",
+      "is_optional": false,
+      "territorial_scope": "Monde entier",
+      "limits": "jusqu’à 100 000 000 €",
+      "sub_limits": [],
+      "deductible": "Responsabilité civile (dommages matériels) : 170 €",
+      "conditions": [
+        "Seuls les principaux plafonds des garanties en inclusion sont indiqués dans l’IPID ; le détail des plafonds figure aux Conditions générales du contrat."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Protection Juridique suite à accident",
+      "description": "Garantie en inclusion systématiquement prévue : prise en charge des frais de défense pénale ou de recours suite à accident jusqu’à 20 000 €.",
+      "is_optional": false,
+      "territorial_scope": "Monde entier",
+      "limits": "jusqu’à 20 000 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Seuils de déclenchement de la garantie : 150 € à l’amiable",
+        "760 € devant les Tribunaux et Cours d’Appel",
+        "3 000 € devant le Conseil d’État ou la Cour de Cassation"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Responsabilité civile d'occupant",
+      "description": "Garantie optionnelle listée sous « Garanties optionnelles ». Le document n’en donne ni la définition ni le plafond.",
+      "is_optional": true,
+      "territorial_scope": "France métropolitaine, Départements et Régions d’Outre-Mer (Guadeloupe, Guyane, Martinique, Mayotte et La Réunion) et Principauté de Monaco",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Incendie-attentat-dommages électriques - chute de la foudre - choc d’un véhicule terrestre - catastrophes technologiques",
+      "description": "Garantie optionnelle listée sous « Garanties optionnelles », sur une seule ligne regroupant plusieurs événements : incendie, attentat, dommages électriques, chute de la foudre, choc d’un véhicule terrestre, catastrophes technologiques. Aucun plafond n’est indiqué dans l’IPID.",
+      "is_optional": true,
+      "territorial_scope": "France métropolitaine, Départements et Régions d’Outre-Mer (Guadeloupe, Guyane, Martinique, Mayotte et La Réunion) et Principauté de Monaco ; par exception, les garanties Attentat ou acte de terrorisme et Catastrophes technologiques s’appliquent en France métropolitaine et dans les Départements et Régions d'Outre-Mer (Guadeloupe, Guyane, Martinique, Mayotte et La Réunion) uniquement",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Dommages relatifs à l’assurance des biens : 170 €",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Événements climatiques, dégâts des eaux, gel, inondation et catastrophes naturelles",
+      "description": "Garantie optionnelle listée sous « Garanties optionnelles », sur une seule ligne regroupant plusieurs événements : événements climatiques, dégâts des eaux, gel, inondation et catastrophes naturelles. Aucun plafond n’est indiqué dans l’IPID.",
+      "is_optional": true,
+      "territorial_scope": "France métropolitaine, Départements et Régions d’Outre-Mer (Guadeloupe, Guyane, Martinique, Mayotte et La Réunion) et Principauté de Monaco ; par exception, la garantie Catastrophes naturelles s’applique en France métropolitaine et dans les Départements et Régions d'Outre-Mer (Guadeloupe, Guyane, Martinique, Mayotte et La Réunion) uniquement",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Dommages relatifs à l’assurance des biens : 170 €. Sauf : Inondation : 380 € ; Catastrophes naturelles : Sécheresse : 1520 €, Autres événements : 380 €",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Vol, tentative de vol et acte de vandalisme",
+      "description": "Garantie optionnelle listée sous « Garanties optionnelles ». Aucun plafond n’est indiqué dans l’IPID.",
+      "is_optional": true,
+      "territorial_scope": "France métropolitaine, Départements et Régions d’Outre-Mer (Guadeloupe, Guyane, Martinique, Mayotte et La Réunion) et Principauté de Monaco",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Dommages relatifs à l’assurance des biens : 170 €",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Bris de glaces",
+      "description": "Garantie optionnelle listée sous « Garanties optionnelles ». Aucun plafond n’est indiqué dans l’IPID.",
+      "is_optional": true,
+      "territorial_scope": "France métropolitaine, Départements et Régions d’Outre-Mer (Guadeloupe, Guyane, Martinique, Mayotte et La Réunion) et Principauté de Monaco",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Dommages relatifs à l’assurance des biens : 170 €",
+      "conditions": [],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Les véhicules terrestres à moteur et remorques",
+      "description": "Listé sous « QU’EST-CE QUI N’EST PAS ASSURÉ ? » : les véhicules terrestres à moteur et remorques.",
+      "applies_to": null,
+      "page": 1
+    },
+    {
+      "name": "Les collections numismatiques, espèces monnayées, billets de banque, pièces de monnaie cotées, cartes de paiement et de crédit, chèques",
+      "description": "Listé sous « QU’EST-CE QUI N’EST PAS ASSURÉ ? » : les collections numismatiques, les espèces monnayées, les billets de banque, les pièces de monnaie faisant l’objet d’une cotation, les cartes de paiement et de crédit, les chèques.",
+      "applies_to": null,
+      "page": 1
+    },
+    {
+      "name": "Les titres financiers",
+      "description": "Listé sous « QU’EST-CE QUI N’EST PAS ASSURÉ ? » : les titres financiers, tels que définis à l’article L.211-1 du Code monétaire et financier.",
+      "applies_to": null,
+      "page": 1
+    },
+    {
+      "name": "Les lingots, barres ou blocs de métaux précieux, pierreries et perles fines non montées",
+      "description": "Listé sous « QU’EST-CE QUI N’EST PAS ASSURÉ ? » : les lingots, les barres ou blocs de métaux précieux, les pierreries et perles fines non montées.",
+      "applies_to": null,
+      "page": 1
+    },
+    {
+      "name": "Faute intentionnelle ou faute dolosive de l’assuré",
+      "description": "Principale exclusion (légale et contractuelle) : les dommages provenant de la faute intentionnelle de l’assuré ou de sa faute dolosive.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dommages intentionnellement causés ou provoqués avec la complicité de l’assuré",
+      "description": "Principale exclusion (légale et contractuelle) : les dommages intentionnellement causés ou provoqués avec la complicité de l’assuré.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dommages aux données informatiques, virus informatiques et piratage informatique",
+      "description": "Principale exclusion (légale et contractuelle) : les dommages occasionnés aux données informatiques ou dus aux virus informatiques ainsi qu’au piratage informatique.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dommages causés par les parasites des matériaux de construction, leur traitement et les travaux nécessaires",
+      "description": "Principale exclusion (légale et contractuelle) : les dommages causés par les parasites des matériaux de construction (insectes xylophages et champignons lignivores), par leur traitement et par les travaux nécessaires à ce traitement.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Coût du traitement des parasites des matériaux de construction et des travaux nécessaires",
+      "description": "Principale exclusion (légale et contractuelle) : le coût du traitement des parasites des matériaux de construction (insectes xylophages et champignons lignivores) ni celui des travaux nécessaires pour le réaliser.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Guerre civile ou étrangère",
+      "description": "Principale exclusion (légale et contractuelle) : les dommages occasionnés par la guerre civile ou étrangère.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Incendie à partir d’un feu allumé à l’extérieur de l’habitation en méconnaissance de la réglementation",
+      "description": "Principale exclusion (légale et contractuelle) : les dommages occasionnés par un incendie à partir d’un feu allumé à l’extérieur de l’habitation en méconnaissance de la réglementation (exclusion applicable à la garantie Responsabilité civile).",
+      "applies_to": "Responsabilité civile",
+      "page": 1
+    },
+    {
+      "name": "Organisation ou pratique de la chasse",
+      "description": "Principale exclusion (légale et contractuelle) : les dommages résultant de l’organisation ou de la pratique de la chasse.",
+      "applies_to": "all",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": "Franchises susceptibles d’être déduites du montant de l’estimation des dommages : Responsabilité civile (dommages matériels) : 170 € ; Dommages relatifs à l’assurance des biens : 170 €",
+    "variable": null,
+    "per_coverage": {
+      "Responsabilité civile (dommages matériels)": "170 €",
+      "Dommages relatifs à l’assurance des biens": "170 €",
+      "Inondation": "380 €",
+      "Catastrophes naturelles - Sécheresse": "1520 €",
+      "Catastrophes naturelles - Autres événements": "380 €"
+    },
+    "page": 1
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Déclaration à la souscription",
+      "description": "Répondre exactement aux questions posées par l’assureur, notamment dans le formulaire de déclaration du risque permettant d’apprécier les risques à prendre en charge.",
+      "timing": "À la souscription",
+      "sanction": "Nullité du contrat ou non-garantie",
+      "page": 2
+    },
+    {
+      "name": "Déclaration d’aggravation du risque",
+      "description": "Déclarer tout élément ayant pour effet d’aggraver le risque garanti.",
+      "timing": "En cours de contrat",
+      "sanction": "Nullité du contrat ou non-garantie",
+      "page": 2
+    },
+    {
+      "name": "Déclaration de sinistre",
+      "description": "Déclarer le sinistre le plus rapidement possible et, au plus tard, dans les délais et selon les modalités précisés aux Conditions générales.",
+      "timing": "En cas de sinistre",
+      "sanction": "Nullité du contrat ou non-garantie",
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclaration du sinistre",
+      "description": "Déclarer le sinistre le plus rapidement possible et, au plus tard, dans les délais et selon les modalités précisés aux Conditions générales.",
+      "deadline": "Le plus rapidement possible et, au plus tard, dans les délais précisés aux Conditions générales (délai chiffré non indiqué dans l’IPID)",
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat est conclu pour une durée d’un an. La première année, il est conclu pour la période comprise entre sa date d’effet et la date d’échéance annuelle indiquée aux Conditions particulières.",
+    "tacit_renewal": true,
+    "notice_period": "Un mois de préavis pour une résiliation à l’échéance annuelle",
+    "methods": [
+      "Par lettre ou tout autre support durable (courrier électronique sur l’Espace Personnel, lettre recommandée électronique…)",
+      "Par une déclaration faite auprès de l’assureur ou de son représentant",
+      "Lorsque la conclusion de contrat est proposée par un mode de communication à distance, par ce même mode"
+    ],
+    "special_rights": [
+      "À l’échéance annuelle, sous réserve de respecter un délai de préavis d’un mois",
+      "S’il concerne une personne physique en dehors de toute activité professionnelle : à tout moment, à l’expiration d’un délai d’un an à compter de sa première souscription",
+      "S’il concerne une personne physique en dehors de toute activité professionnelle : lors de son renouvellement à l’échéance annuelle, dans les vingt jours suivant la date d’envoi de l’avis d’échéance"
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "Les paiements doivent être effectués lors de la souscription du contrat et à l’échéance annuelle.",
+      "Les cotisations sont annuelles et payables d’avance par prélèvement automatique, carte bancaire, chèque ou titre interbancaire de paiement (TIP SEPA).",
+      "Elles peuvent être réglées en plusieurs fractions sans frais supplémentaires selon les modalités prévues au contrat.",
+      "Les garanties prennent effet aux date et heure indiquées aux Conditions particulières, sous réserve que le paiement de la première cotisation ou première fraction de cotisation soit honoré."
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Portée du document",
+      "description": "Ce document d’information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte les besoins et demandes spécifiques du souscripteur ; l’information complète figure dans la documentation précontractuelle et contractuelle.",
+      "page": 1
+    },
+    {
+      "name": "Plafonds indiqués",
+      "description": "Seuls les principaux plafonds des garanties en inclusion sont indiqués ; le détail des plafonds figure aux Conditions générales du contrat.",
+      "page": 1
+    },
+    {
+      "name": "Prise d’effet des garanties",
+      "description": "Les garanties prennent effet aux date et heure indiquées aux Conditions particulières (sous réserve que le paiement de la première cotisation ou première fraction de cotisation soit honoré).",
+      "page": 2
+    },
+    {
+      "name": "Exception territoriale",
+      "description": "Par exception, les garanties Attentat ou acte de terrorisme, Catastrophes technologiques et Catastrophes naturelles s’appliquent en France métropolitaine et dans les Départements et Régions d'Outre-Mer (Guadeloupe, Guyane, Martinique, Mayotte et La Réunion) uniquement.",
+      "page": 2
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Ce contrat d’assurance a pour objet de garantir les assurés dans le cadre de leur vie privée contre les conséquences des dommages \ncorporels et matériels causés à des tiers (Responsabilité civile). Il vise également à couvrir leur responsabilité civile d’occupant et leurs \nbiens mobiliers, le cas échéant.",
+      "context": "Objet du contrat (De quel type d’assurance s’agit-il ?)",
+      "page": 1
+    },
+    {
+      "quote": "Seuls les principaux plafonds des garanties en inclusion sont \nindiqués ci-après. Le détail des plafonds figure aux Conditions \ngénérales du contrat.",
+      "context": "Portée des plafonds indiqués dans l’IPID",
+      "page": 1
+    },
+    {
+      "quote": "Responsabilité civile personnelle : dommages causés aux \ntiers dans le cadre de la vie privée et familiale \nLa garantie est acquise : tous dommages corporels, matériels, \nimmatériels consécutifs et préjudice écologique confondus \njusqu’à 100 000 000 €",
+      "context": "Garantie en inclusion – Responsabilité civile personnelle et son plafond",
+      "page": 1
+    },
+    {
+      "quote": "Protection Juridique suite à accident : prise en charge des \nfrais de défense pénale ou de recours suite à accident jusqu’à \n20 000 €",
+      "context": "Garantie en inclusion – Protection Juridique suite à accident et son plafond",
+      "page": 1
+    },
+    {
+      "quote": "Responsabilité civile d'occupant \nIncendie-attentat-dommages électriques - chute de la foudre - \nchoc d’un véhicule terrestre - catastrophes technologiques \nÉvénements climatiques, dégâts des eaux, gel, inondation et \ncatastrophes naturelles \nVol, tentative de vol et acte de vandalisme \nBris de glaces",
+      "context": "Liste des garanties optionnelles",
+      "page": 1
+    },
+    {
+      "quote": "Les véhicules terrestres à moteur et remorques  \n× Les collections numismatiques, les espèces monnayées, les \nbillets de banque, les pièces de monnaie faisant l’objet d’une \ncotation, les cartes de paiement et de crédit, les chèques \n× Les titres financiers, tels que définis à l’article L.211-1 du Code \nmonétaire et financier \n× Les lingots, les barres ou blocs de métaux précieux, les \npierreries et perles fines non montées",
+      "context": "Biens et éléments non assurés (QU’EST-CE QUI N’EST PAS ASSURÉ ?)",
+      "page": 1
+    },
+    {
+      "quote": "Les dommages provenant de la faute intentionnelle de \nl’assuré ou de sa faute dolosive",
+      "context": "Exclusion – faute intentionnelle ou dolosive",
+      "page": 1
+    },
+    {
+      "quote": "Les dommages occasionnés aux données informatiques ou \ndus aux virus informatiques ainsi qu’au piratage informatique.",
+      "context": "Exclusion – données informatiques, virus et piratage",
+      "page": 1
+    },
+    {
+      "quote": "Les dommages causés par les parasites des matériaux de \nconstruction (insectes xylophages et champignons lignivores), \npar leur traitement et par les travaux nécessaires à ce \ntraitement \n! Le coût du traitement des parasites des matériaux de \nconstruction (insectes xylophages et champignons lignivores) \nni celui des travaux nécessaires pour le réaliser",
+      "context": "Exclusions – parasites des matériaux de construction (dommages et coût du traitement)",
+      "page": 1
+    },
+    {
+      "quote": "Les dommages occasionnés par la guerre civile ou étrangère \n! Les dommages occasionnés par un incendie à partir d’un feu \nallumé à l’extérieur de l’habitation en méconnaissance de la \nréglementation",
+      "context": "Exclusions – guerre civile ou étrangère ; incendie à partir d’un feu allumé à l’extérieur",
+      "page": 1
+    },
+    {
+      "quote": "Les dommages résultant de l’organisation ou de la pratique \nde la chasse",
+      "context": "Exclusion – organisation ou pratique de la chasse",
+      "page": 1
+    },
+    {
+      "quote": "Franchises susceptibles d’être déduites du montant de \nl’estimation des dommages :  \n- Responsabilité civile (dommages matériels) : 170 € \n- Dommages relatifs à l’assurance des biens : 170 €",
+      "context": "Franchises générales",
+      "page": 1
+    },
+    {
+      "quote": "- Sécheresse : 1520 € \n     - Autres événements : 380 €",
+      "context": "Franchises catastrophes naturelles",
+      "page": 1
+    },
+    {
+      "quote": "Les seuils de déclenchement de la garantie de Protection \nJuridique suite à accident sont de :  \n- 150 € à l’amiable, \n- 760 € devant les Tribunaux et Cours d’Appel, \n- 3 000 € devant le Conseil d’État ou la Cour de Cassation",
+      "context": "Seuils d’intervention de la Protection Juridique suite à accident",
+      "page": 1
+    },
+    {
+      "quote": "Les garanties de Responsabilité civile personnelle et de Protection Juridique suite à accident s'exercent dans le monde entier",
+      "context": "Étendue territoriale – RC personnelle et Protection Juridique",
+      "page": 2
+    },
+    {
+      "quote": "Par exception, les garanties Attentat ou acte de terrorisme, Catastrophes technologiques et Catastrophes naturelles \ns’appliquent en France métropolitaine et dans les Départements et Régions d'Outre-Mer (Guadeloupe, Guyane, Martinique, \nMayotte et La Réunion) uniquement.",
+      "context": "Étendue territoriale – exception attentat / catastrophes technologiques et naturelles",
+      "page": 2
+    },
+    {
+      "quote": "Sous peine de nullité du contrat ou de non-garantie, vous devez : \n- à la souscription : répondre exactement aux questions posées par l’assureur, notamment dans le formulaire de déclaration du \nrisque permettant d’apprécier les risques à prendre en charge, \n- en cours de contrat : déclarer tout élément ayant pour effet d’aggraver le risque garanti, \n- en cas de sinistre : déclarer le sinistre le plus rapidement possible et, au plus tard, dans les délais et selon les modalités précisés \naux Conditions générales.",
+      "context": "Obligations de l’assuré et sanction",
+      "page": 2
+    },
+    {
+      "quote": "Les cotisations sont annuelles et payables d’avance par prélèvement automatique, carte bancaire, chèque ou titre interbancaire de \npaiement (TIP SEPA). Elles peuvent être réglées en plusieurs fractions sans frais supplémentaires selon les modalités prévues au \ncontrat.",
+      "context": "Modalités de paiement des cotisations",
+      "page": 2
+    },
+    {
+      "quote": "Le contrat est conclu pour une durée d’un an et se renouvelle automatiquement à sa date d’échéance annuelle, sauf résiliation par \nl’une des parties dans les formes et conditions prévues aux Conditions générales. La première année, il est conclu pour la période  \ncomprise entre sa date d’effet et la date d’échéance annuelle indiquée aux Conditions particulières.",
+      "context": "Durée du contrat et reconduction",
+      "page": 2
+    },
+    {
+      "quote": "La résiliation du contrat doit être effectuée, soit par lettre ou tout autre support durable (courrier électronique sur l’Espace Personnel, \nlettre recommandée électronique…), soit par une déclaration faite auprès de l’assureur ou de son représentant, soit, lorsque la \nconclusion de contrat est proposée par un mode de communication à distance, par ce même mode.",
+      "context": "Formes de résiliation",
+      "page": 2
+    },
+    {
+      "quote": "- à son échéance annuelle, sous réserve de respecter un délai de préavis d’un mois, \net, s’il concerne une personne physique en dehors de toute activité professionnelle, \n- à tout moment, à l’expiration d’un délai d’un an à compter de sa première souscription, \n- lors de son renouvellement à l’échéance annuelle, dans les vingt jours suivant la date d’envoi de l’avis d’échéance.",
+      "context": "Cas et délais de résiliation",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "Document d’information normalisé (IPID) de 2 pages : il ne contient aucune section de définitions, aucune procédure de sinistre détaillée et aucun délai de prescription. `definitions` et `waiting_periods` sont donc vides et `prescription_period` est null — ces sections sont absentes du document, pas omises par l’extraction.",
+    "`target_audience` laissé à null : le document ne désigne aucune catégorie de souscripteurs. Il mentionne uniquement la garantie « dans le cadre de leur vie privée et familiale » (objet du contrat) et, au titre de la résiliation, la condition « s’il concerne une personne physique en dehors de toute activité professionnelle » — deux formulations conservées dans `target_audience_note` et non converties en catégorie.",
+    "Les garanties optionnelles sont imprimées sous forme de lignes composites, sans puce ni plafond individuel. Deux d’entre elles regroupent plusieurs événements sur une seule ligne : « Incendie-attentat-dommages électriques - chute de la foudre - choc d’un véhicule terrestre - catastrophes technologiques » et « Événements climatiques, dégâts des eaux, gel, inondation et catastrophes naturelles ». Elles ont été conservées telles qu’imprimées plutôt que scindées en garanties distinctes, car le document ne les présente pas séparément ; tous les événements nommés figurent dans les descriptions.",
+    "Aucun plafond n’est indiqué pour les garanties optionnelles : l’IPID précise que « Seuls les principaux plafonds des garanties en inclusion sont indiqués ci-après ». Les champs `limits` de ces garanties sont donc null.",
+    "Les franchises Inondation (380 €), Catastrophes naturelles – Sécheresse (1520 €) et Catastrophes naturelles – Autres événements (380 €) sont imprimées comme des exceptions à la franchise « Dommages relatifs à l’assurance des biens : 170 € ». Le document ne rattache pas explicitement ces franchises à une garantie nommée ; elles ont été rattachées à la ligne optionnelle « Événements climatiques, dégâts des eaux, gel, inondation et catastrophes naturelles » qui est la seule à nommer ces événements. Montant « 1520 € » repris verbatim (imprimé sans espace de milliers, contrairement à « 3 000 € » ailleurs dans la page).",
+    "Les 4 items de la rubrique « QU’EST-CE QUI N’EST PAS ASSURÉ ? » sont des biens exclus de l’assurance ; le document ne précise pas à quelle garantie ils se rattachent, donc `applies_to` est null pour eux plutôt que déduit.",
+    "Vérification de la mise en page : le PDF est sur deux colonnes en page 1 (garanties à gauche, x≈28-42 ; non-assuré et exclusions à droite, x≈309-319). L’attribution des puces à leur rubrique a été contrôlée sur les positions x et non sur l’ordre du flux textuel. Les 4 items « × » (Arial-BoldMT, x=309,2) relèvent bien de « QU’EST-CE QUI N’EST PAS ASSURÉ ? » et les 8 items « ! » (Calibri, x=309,2) de « Y A-T-IL DES EXCLUSIONS À LA COUVERTURE ? ». Aucune puce de garantie ne se trouve sous un titre d’exclusion.",
+    "Couche texte : 4 glyphes Wingdings U+F0FC (les coches des garanties en inclusion, page 1, et des deux lignes territoriales, page 2) et 2 glyphes SymbolMT U+F0B7 (les puces « Inondation » et « Catastrophes naturelles » du bloc franchises) subsistent en zone d’usage privé. Aucune citation de `key_quotes` ne traverse ces caractères.",
+    "Référence : le pied de page de la page 2 imprime « IPID.  HEB – 05/24 » (deux fragments de texte séparés, rendu vérifié par un agrandissement 14× de la bande y≈798-815 — l’espace est réellement imprimé). C’est la seule mention de date d’édition du document ; `edition_date` = « 05/24 » telle qu’imprimée. Aucun doublon ni ligne d’édition fantôme dans la couche texte.",
+    "Le texte de la prompt n’était pas tronqué. Le PDF local (data/fr/pdfs/matmut/habitation/contrat-multigaranties-hebergement-e4fb1827.pdf) a néanmoins été ré-extrait avec page.get_text(\"text\") : le résultat est identique caractère par caractère au texte de la prompt, aux marqueurs [[page N]] et au saut de ligne inséré entre les pages près. Aucun caractère U+0007, aucun texte vectorisé, aucun tableau de garanties à coches.",
+    "L’assureur nommé sur le document est « Matmut - Mutuelle assurance des travailleurs mutualistes. Société d’assurance mutuelle à cotisations variables. Entreprise régie par le Code des Assurances - Siège social : 66 rue de Sotteville 76100 Rouen. N° Siren 775 701 477 ». Aucun autre porteur de risque n’est mentionné.",
+    "Aucune autorité de contrôle (ACPR), aucune information de médiation et aucun délai de renonciation ne figurent dans ce document."
+  ]
+}

@@ -55,6 +55,7 @@ Conditions générales d’un contrat collectif frais de santé à adhésion obl
 
 ## Documents liés
 
+- [Macif Mutuelle Entreprises - Fiche](Macif%20Mutuelle%20Entreprises%20-%20Fiche.md) - Fiche produit, éd. 01/26
 - [Macif Mutuelle Entreprises](Macif%20Mutuelle%20Entreprises%20%282%29.md) - Conditions générales
 - [Macif Mutuelle Entreprises (contrat collectif à adhésion obligatoire) - IPID](Macif%20Mutuelle%20Entreprises%20%28contrat%20collectif%20%C3%A0%20adh%C3%A9sion%20obligatoire%29%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/25
 

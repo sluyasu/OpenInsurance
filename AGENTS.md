@@ -27,7 +27,7 @@ navigate it without guessing. Do not edit by hand.
 |---|---|---|---|---|---|
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
 | ch (Switzerland) | 0 | 3 | 1 | 0 | 5 |
-| fr (France) | 24 | 522 | 10 | 1 | 5 |
+| fr (France) | 24 | 528 | 10 | 1 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
 
@@ -511,6 +511,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | habitation | macif | Contrat Macif Habitation - Formule Construction - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/dipa-macif-habitation-maison-en-construction.pdf) |
 | fr | habitation | macif | Contrat Macif Habitation - Formules Économique, Équilibrée, Confort (Assurance multirisques habitation - Résidence princ | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/dipa-macif-habitation-residence-principale.pdf) |
 | fr | habitation | macif | Contrat Macif Habitation - Formules Économique, Équilibrée, Confort - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/dipa-macif-habitation-residence-secondaire.pdf) |
+| fr | habitation | macif | Contrat Sociétaire Non Occupant - Conditions Générales - Annexe spéciale Immeubles locatifs | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/annexe_proprietaire_non_occupant_immeubles_locatifs.pdf) |
 | fr | habitation | macif | Macif Habitation | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/CG-Macif-Habitation.pdf) |
 | fr | habitation | macif | Sociétaire non occupant - Bâtiment en cours de construction - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_proprietaire_non_occupant_batiment_en_construction.pdf) |
 | fr | habitation | macif | Sociétaire non occupant - Immeubles en copropriété - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_proprietaire_non_occupant_immeubles_en_copropriete.pdf) |
@@ -527,6 +528,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | habitation | maif | Assurance Propriétaire Bailleur - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/document-information-assurance-proprietaire-bailleur.pdf) |
 | fr | habitation | matmut | Assurance Loyers Impayés | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGALI.pdf) |
 | fr | habitation | matmut | Contrat Multigaranties des risques immobiliers - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDIMEPNOPNE.pdf) |
+| fr | habitation | matmut | Contrat « Multigaranties Hébergement » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDHEB.pdf) |
 | fr | habitation | matmut | Contrat « Multigaranties Propriétaire non exploitant » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDPNE.pdf) |
 | fr | habitation | matmut | Habitation Initiale & Co Résidence Principale | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-rp-init-and-co.pdf) |
 | fr | habitation | matmut | Habitation Initiale & Co Résidence Secondaire | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-rs-init-and-co.pdf) |
@@ -626,6 +628,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | obseques | groupama | GROUPAMA SÉRÉNITÉ OBSÈQUES - Tarifs | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/6UVUGprxtQSfzl6ryQuBEp/0c3c5dad7b54cd49e9b7f6a6a92f4917/Lisibilite%C3%8C__obse%C3%8C_ques_Groupama_032026.pdf) |
 | fr | obseques | groupama | Groupama Sérénité Obsèques (édition octobre 2021) - Fiche | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/3EwrRMbBVhIXDZ41vUiVjO/9e08763261c4f762c162be87a949f7a7/3350-231388-102021_DIC_GSO.pdf) |
 | fr | obseques | macif | Garantie Obsèques - Doc | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/tableau-principaux-indicateurs-economiques-garantie-obseques.pdf) |
+| fr | obseques | macif | contrat GARANTIE OBSÈQUES - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_garantie_obseques.pdf) |
 | fr | obseques | maif | Sollicitudes | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/notice-information-sollicitudes.pdf) |
 | fr | obseques | maif | Sollicitudes - Doc | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/valeurs-rachat-sollicitudes.pdf) |
 | fr | obseques | maif | Sollicitudes - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/document-informations-cles-sollicitudes.pdf) |
@@ -765,14 +768,17 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | sante | macif | Macif Mutuelle Entreprises | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/conditions-generales-macif-mutuelle-entreprises.pdf) |
 | fr | sante | macif | Macif Mutuelle Entreprises (2) | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/nid-macif-mutuelle-entreprises.pdf) |
 | fr | sante | macif | Macif Mutuelle Entreprises (contrat collectif à adhésion obligatoire) - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/dipa-macif-mutuelle-entreprises.pdf) |
+| fr | sante | macif | Macif Mutuelle Entreprises - Fiche | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/tg-macif-mutuelle-entreprises.pdf) |
 | fr | sante | macif | Macif Mutuelle Santé | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/NID/NID_MMS_COMPLET_20240101.pdf) |
 | fr | sante | macif | Macif Mutuelle Santé - Macif Hospitalisation - Fiche | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/ExemplesRemboursement_MMS_ALS.pdf) |
 | fr | sante | macif | Régime conventionnel Frais de santé - CCN BAD (Branche de l'aide, de l'accompagnement, des soins et des services à domic | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/NID_BAD.pdf) |
 | fr | sante | macif | contrat GARANTIE SANTE TERRITORIAUX - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_GST.pdf) |
+| fr | sante | macif | contrat GARANTIE SANTÉ - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_garantie_sante.pdf) |
 | fr | sante | matmut | Bien dans mon rôle d'aidant - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/mutuelle/pdf/notice-option-bien-dans-mon-role-aidant.pdf) |
 | fr | sante | matmut | Bien à l'hôpital - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/mutuelle/pdf/notice-option-bien-a-hopital.pdf) |
 | fr | sante | matmut | CONTRAT COLLECTIF FRAIS DE SANTÉ - RÉGIME OBLIGATOIRE | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-1966-conditions-generales.pdf) |
 | fr | sante | matmut | Conditions Générales — Régime conventionnel de frais de santé à adhésion obligatoire, Convention Collective Nationale de | 2026-07-30 | [pdf](https://www.matmut.fr/mutuelle-sante-ociane/pdf/conditions-generales-CCN-alisfa.pdf) |
+| fr | sante | matmut | Matmut-Smac Catégories A, B et C | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/GPMT10.pdf) |
 | fr | sante | matmut | Notice d'information — Régime de frais de santé, contrat collectif, Accord interbranche du 2 octobre 2019 (CCN du 15 mar | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-1966-notice-information-base-option-2.pdf) |
 | fr | sante | matmut | Ociane Santé Pro - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/garanties-pro-ociane-groupe-matmut.pdf) |
 | fr | sante | matmut | Régime complémentaire santé – Ensemble du personnel (CCN du 31 octobre 1951, IDCC N°29) | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-1951-notice-information.pdf) |

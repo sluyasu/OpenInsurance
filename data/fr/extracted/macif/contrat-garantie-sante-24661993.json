@@ -1,0 +1,1848 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "macif",
+  "insurer_name": "Macif",
+  "product_name": "contrat GARANTIE SANTÉ",
+  "branch": "sante",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "Le document ne désigne aucune catégorie de clientèle. Les seules conditions de personne qu’il imprime sont des conditions de souscription (p. 2) : « être âgé de plus de 16 ans et avoir la capacité de contracter, résider en France métropolitaine ou dans un département ou une région d’Outre-mer et être affilié à un régime obligatoire français d’assurance maladie ».",
+  "reference": "DIPA GS 01/2022",
+  "edition_date": "01/2022",
+  "product_family": "Garantie Santé",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_garantie_sante.pdf",
+  "source_pdf": "contrat-garantie-sante-2022-01-24661993.pdf",
+  "source_sha256": "6d50eebc5d86e307782ea4e9ede34a87d022cbd3f0a8ac13a6e6f9201bbc7eb0",
+  "source_pages": 4,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d’information sur le produit d’assurance (DIPA) du contrat GARANTIE SANTÉ, une assurance complémentaire santé assurée par Apivia Macif Mutuelle (SIREN n°779 558 501), mutuelle régie par le Livre II du Code de la mutualité. Le contrat rembourse, en complément de la Sécurité sociale française, tout ou partie des frais de santé restant à la charge de l’assuré et des éventuels bénéficiaires en cas d’accident, de maladie ou de maternité, et respecte les conditions légales des contrats responsables. Le document liste les garanties systématiquement prévues (hospitalisation, prime de naissance, soins courants, prévention, dentaire, optique, aides auditives, appareillage, assistance et services) et les garanties optionnelles selon la formule souscrite. Deux annexes donnent les tableaux de garanties : quatre formules « Soins » (ÉCONOMIQUE, ÉQUILIBRÉE, PROTECTRICE, EXCELLENCE) et cinq niveaux d’« Équipements » (0 à 4).",
+  "definitions": [
+    {
+      "term": "Dispositifs de pratique tarifaire maîtrisée*",
+      "definition": "OPTAM/OPTAM-CO.",
+      "page": 3
+    },
+    {
+      "term": "LPP*",
+      "definition": "Liste des Produits et Prestations.",
+      "page": 3
+    },
+    {
+      "term": "RO*",
+      "definition": "Régime Obligatoire.",
+      "page": 3
+    },
+    {
+      "term": "Appareils basse vision",
+      "definition": "Aides visuelles pour les personnes dont l’acuité visuelle avec correction est inférieure à 4/10e. Forfait par année civile. La prise en charge s’effectue en complément du Régime obligatoire* et/ou des aides publiques éventuelles.",
+      "page": 4
+    },
+    {
+      "term": "Coche verte",
+      "definition": "Les garanties ou services précédés d’une coche verte sont systématiquement prévus au contrat.",
+      "page": 1
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Hospitalisation",
+      "description": "Honoraires chirurgicaux, médicaux et paramédicaux, analyses et examens de laboratoire, radiologie, participation forfaitaire sur les actes techniques égaux ou supérieurs à 120 €, frais de transport et de séjour, forfait journalier hospitalier, forfait patient urgences.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Voir le détail par formule au tableau des garanties (p. 3)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie systématiquement prévue au contrat (coche verte).",
+        "(1) Sont exclus les séjours en établissement médico-sociaux*, dans les maisons de retraite, dans une unité de soins longue durée (USLD) ou dans un établissement dont le code DMT est listé en annexe."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Prime de naissance",
+      "description": "Prime de naissance versée par enfant.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "100 € / enfant",
+      "sub_limits": [
+        "ÉCONOMIQUE : 100 € / enfant",
+        "ÉQUILIBRÉE : 100 € / enfant",
+        "PROTECTRICE : 100 € / enfant",
+        "EXCELLENCE : 100 € / enfant"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Garantie systématiquement prévue au contrat (coche verte)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Soins courants",
+      "description": "Honoraires médicaux et paramédicaux, médicaments remboursés à 30 % et 65 % par la Sécurité sociale, analyses et examens de laboratoire, radiologie, transport hors hospitalisation.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Voir le détail par formule au tableau des garanties (p. 3)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie systématiquement prévue au contrat (coche verte)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Prévention",
+      "description": "Actes de prévention et vaccins remboursés par la Sécurité sociale, objets contraceptifs inscrits à la LPP, vaccin antigrippal non remboursé, forfaits Prévention / Bien être.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Voir le détail par formule au tableau des garanties (p. 3)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie systématiquement prévue au contrat (coche verte)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Dentaire",
+      "description": "Soins dentaires, soins d’obturation Inlay/Onlay/Overlay, prothèses dentaires 100 % Santé telles que définies réglementairement, autres prothèses dentaires (couronne, couronne transitoire, bridge, appareil amovible, Inlay-core, dent supplémentaire, réparation sur bridge et appareil amovible) et orthodontie prises en charge par la Sécurité sociale.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Voir le détail aux tableaux des garanties (p. 3 pour les soins, p. 4 pour les prothèses et l’orthodontie)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie systématiquement prévue au contrat (coche verte)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Optique",
+      "description": "Équipements 100 % Santé (dits de classe A) tels que définis réglementairement, autres verres et montures remboursés par la Sécurité sociale, lentilles de contact prises en charge par la Sécurité sociale, appareils basse vision.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Voir le détail par niveau d’Équipements au tableau des garanties (p. 4)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie systématiquement prévue au contrat (coche verte)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Aides auditives",
+      "description": "Équipements 100 % Santé (dits de classe I) tels que définis réglementairement, autres aides auditives remboursées par la Sécurité sociale, entretien, piles et accessoires.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Voir le détail par niveau d’Équipements au tableau des garanties (p. 4)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie systématiquement prévue au contrat (coche verte)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Appareillage",
+      "description": "Matériel médical et véhicule pour personnes handicapées physiques.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Voir le détail par niveau d’Équipements au tableau des garanties (p. 4)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie systématiquement prévue au contrat (coche verte)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Chambre particulière et chambre accompagnant (option)",
+      "description": "Chambre particulière et chambre accompagnant, si hospitalisation d’au moins une nuit.",
+      "is_optional": true,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Voir le détail par formule au tableau des garanties (p. 3)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie optionnelle, selon la formule souscrite.",
+        "Sous réserve d’une hospitalisation d’au moins une nuit."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Médicaments remboursés à 15 % par la Sécurité sociale (option)",
+      "description": "Médicaments remboursés à 15 % par la Sécurité sociale.",
+      "is_optional": true,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Voir le détail par formule au tableau des garanties (p. 3)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie optionnelle, selon la formule souscrite."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Homéopathie non remboursée par la Sécurité sociale (option)",
+      "description": "Homéopathie non remboursée par la Sécurité sociale, à savoir les consultations en homéopathie et les médicaments homéopathiques.",
+      "is_optional": true,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Voir le détail par formule au tableau des garanties (p. 3)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie optionnelle, selon la formule souscrite."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Forfait ostéopathe, acupuncteur, diététicien, chiropracteur, podologue, pédicure, psychologue, étiopathe (option)",
+      "description": "Forfait ostéopathe, acupuncteur, diététicien, chiropracteur, podologue, pédicure, psychologue, étiopathe.",
+      "is_optional": true,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Voir le détail par formule au tableau des garanties (p. 3)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie optionnelle, selon la formule souscrite.",
+        "Limité à 3 séances par année civile pour l’ensemble des spécialités."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Implants dentaires et parodontie non remboursés par la Sécurité sociale (option)",
+      "description": "Implants dentaires et parodontie, non remboursés par la Sécurité sociale.",
+      "is_optional": true,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Voir le détail par niveau d’Équipements au tableau des garanties (p. 4)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie optionnelle, selon la formule souscrite."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Lentilles de contact non remboursées par la Sécurité sociale (option)",
+      "description": "Lentilles de contact non remboursées par la Sécurité sociale.",
+      "is_optional": true,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Voir le détail par niveau d’Équipements au tableau des garanties (p. 4)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie optionnelle, selon la formule souscrite."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Chirurgie réfractive de l’œil (option)",
+      "description": "Chirurgie réfractive de l’œil.",
+      "is_optional": true,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Voir le détail par niveau d’Équipements au tableau des garanties (p. 4)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie optionnelle, selon la formule souscrite."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Cures thermales remboursées par la Sécurité sociale (option)",
+      "description": "Cures thermales remboursées par la Sécurité sociale.",
+      "is_optional": true,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Voir le détail par niveau d’Équipements au tableau des garanties (p. 4)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie optionnelle, selon la formule souscrite."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance en cas d’hospitalisation ou d’immobilisation à domicile",
+      "description": "Assistance systématiquement prévue au contrat.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assistance s’appliquent en France (hors départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Assistance systématiquement prévue (coche verte)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance en cas de naissance ou d’adoption, de pathologies lourdes et en cas d’obsèques",
+      "description": "Assistance systématiquement prévue au contrat.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assistance s’appliquent en France (hors départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Assistance systématiquement prévue (coche verte)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance dédiée aux aidants",
+      "description": "Assistance systématiquement prévue au contrat.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d’assistance s’appliquent en France (hors départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Assistance systématiquement prévue (coche verte)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Réseau de soins",
+      "description": "Service systématiquement prévu au contrat.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Service systématiquement prévu (coche verte)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Tiers payant",
+      "description": "Service systématiquement prévu au contrat.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Service systématiquement prévu (coche verte)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Hospitalisation - Honoraires (chirurgicaux et médicaux)",
+      "description": "Plafonds par formule « Soins » ; les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale, remboursement de celle-ci inclus.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": null,
+      "sub_limits": [
+        "ÉCONOMIQUE - médecins adhérents à un dispositif de pratique tarifaire maîtrisée* : 100 %",
+        "ÉCONOMIQUE - médecins non adhérents : 100 %",
+        "ÉQUILIBRÉE - médecins adhérents : 175 %",
+        "ÉQUILIBRÉE - médecins non adhérents : 150 %",
+        "PROTECTRICE - médecins adhérents : 225 %",
+        "PROTECTRICE - médecins non adhérents : 200 %",
+        "EXCELLENCE - médecins adhérents : 250 %",
+        "EXCELLENCE - médecins non adhérents : 200 %"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Dispositifs de pratique tarifaire maîtrisée* : OPTAM/OPTAM-CO.",
+        "(1) Sont exclus les séjours en établissement médico-sociaux*, dans les maisons de retraite, dans une unité de soins longue durée (USLD) ou dans un établissement dont le code DMT est listé en annexe."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Hospitalisation - Analyses et examens de laboratoire",
+      "description": "Plafonds par formule « Soins » ; les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale, remboursement de celle-ci inclus.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "100 % (toutes formules)",
+      "sub_limits": [
+        "ÉCONOMIQUE : 100 %",
+        "ÉQUILIBRÉE : 100 %",
+        "PROTECTRICE : 100 %",
+        "EXCELLENCE : 100 %"
+      ],
+      "deductible": null,
+      "conditions": [
+        "(1) Sont exclus les séjours en établissement médico-sociaux*, dans les maisons de retraite, dans une unité de soins longue durée (USLD) ou dans un établissement dont le code DMT est listé en annexe."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Hospitalisation - Radiologie",
+      "description": "Plafonds par formule « Soins » ; les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale, remboursement de celle-ci inclus.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "100 % (toutes formules)",
+      "sub_limits": [
+        "ÉCONOMIQUE : 100 %",
+        "ÉQUILIBRÉE : 100 %",
+        "PROTECTRICE : 100 %",
+        "EXCELLENCE : 100 %"
+      ],
+      "deductible": null,
+      "conditions": [
+        "(1) Sont exclus les séjours en établissement médico-sociaux*, dans les maisons de retraite, dans une unité de soins longue durée (USLD) ou dans un établissement dont le code DMT est listé en annexe."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Hospitalisation - Honoraires paramédicaux",
+      "description": "Plafonds par formule « Soins » ; les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale, remboursement de celle-ci inclus.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "100 % (toutes formules)",
+      "sub_limits": [
+        "ÉCONOMIQUE : 100 %",
+        "ÉQUILIBRÉE : 100 %",
+        "PROTECTRICE : 100 %",
+        "EXCELLENCE : 100 %"
+      ],
+      "deductible": null,
+      "conditions": [
+        "(1) Sont exclus les séjours en établissement médico-sociaux*, dans les maisons de retraite, dans une unité de soins longue durée (USLD) ou dans un établissement dont le code DMT est listé en annexe."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Hospitalisation - Forfait patient urgences",
+      "description": "Plafonds par formule « Soins » ; les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale, remboursement de celle-ci inclus.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Remboursement intégral (toutes formules)",
+      "sub_limits": [
+        "ÉCONOMIQUE : Remboursement intégral",
+        "ÉQUILIBRÉE : Remboursement intégral",
+        "PROTECTRICE : Remboursement intégral",
+        "EXCELLENCE : Remboursement intégral"
+      ],
+      "deductible": null,
+      "conditions": [
+        "(1) Sont exclus les séjours en établissement médico-sociaux*, dans les maisons de retraite, dans une unité de soins longue durée (USLD) ou dans un établissement dont le code DMT est listé en annexe."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Hospitalisation - Participation forfaitaire sur les actes techniques égaux ou supérieurs à 120 €",
+      "description": "Plafonds par formule « Soins » ; les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale, remboursement de celle-ci inclus.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Oui (toutes formules)",
+      "sub_limits": [
+        "ÉCONOMIQUE : Oui",
+        "ÉQUILIBRÉE : Oui",
+        "PROTECTRICE : Oui",
+        "EXCELLENCE : Oui"
+      ],
+      "deductible": null,
+      "conditions": [
+        "(1) Sont exclus les séjours en établissement médico-sociaux*, dans les maisons de retraite, dans une unité de soins longue durée (USLD) ou dans un établissement dont le code DMT est listé en annexe."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Hospitalisation - Frais de transport",
+      "description": "Plafonds par formule « Soins » ; les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale, remboursement de celle-ci inclus.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "100 % (toutes formules)",
+      "sub_limits": [
+        "ÉCONOMIQUE : 100 %",
+        "ÉQUILIBRÉE : 100 %",
+        "PROTECTRICE : 100 %",
+        "EXCELLENCE : 100 %"
+      ],
+      "deductible": null,
+      "conditions": [
+        "(1) Sont exclus les séjours en établissement médico-sociaux*, dans les maisons de retraite, dans une unité de soins longue durée (USLD) ou dans un établissement dont le code DMT est listé en annexe."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Hospitalisation - Frais de séjour",
+      "description": "Plafonds par formule « Soins » ; les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale, remboursement de celle-ci inclus.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "100 % (toutes formules)",
+      "sub_limits": [
+        "ÉCONOMIQUE : 100 %",
+        "ÉQUILIBRÉE : 100 %",
+        "PROTECTRICE : 100 %",
+        "EXCELLENCE : 100 %"
+      ],
+      "deductible": null,
+      "conditions": [
+        "(1) Sont exclus les séjours en établissement médico-sociaux*, dans les maisons de retraite, dans une unité de soins longue durée (USLD) ou dans un établissement dont le code DMT est listé en annexe."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Hospitalisation - Forfait journalier hospitalier (2)",
+      "description": "Plafonds par formule « Soins » ; les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale, remboursement de celle-ci inclus.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Remboursement intégral (toutes formules)",
+      "sub_limits": [
+        "ÉCONOMIQUE : Remboursement intégral",
+        "ÉQUILIBRÉE : Remboursement intégral",
+        "PROTECTRICE : Remboursement intégral",
+        "EXCELLENCE : Remboursement intégral"
+      ],
+      "deductible": null,
+      "conditions": [
+        "(2) Sous réserve d’une hospitalisation d’au moins une nuit.",
+        "(1) Sont exclus les séjours en établissement médico-sociaux*, dans les maisons de retraite, dans une unité de soins longue durée (USLD) ou dans un établissement dont le code DMT est listé en annexe."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Hospitalisation - Chambre particulière (2)",
+      "description": "Plafonds par formule « Soins » ; les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale, remboursement de celle-ci inclus.",
+      "is_optional": true,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Jusqu’à 70 € / jour limité à 90 jours / an (formule EXCELLENCE)",
+      "sub_limits": [
+        "ÉCONOMIQUE : -",
+        "ÉQUILIBRÉE : 50 € / jour limité à 90 jours / an",
+        "PROTECTRICE : 60 € / jour limité à 90 jours / an",
+        "EXCELLENCE : 70 € / jour limité à 90 jours / an"
+      ],
+      "deductible": null,
+      "conditions": [
+        "(2) Sous réserve d’une hospitalisation d’au moins une nuit.",
+        "Non prévue en formule ÉCONOMIQUE (cellule « - »)."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Hospitalisation - Chambre accompagnant (2)",
+      "description": "Plafonds par formule « Soins » ; les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale, remboursement de celle-ci inclus.",
+      "is_optional": true,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Jusqu’à 30 € / jour limité à 90 jours / an (formule EXCELLENCE)",
+      "sub_limits": [
+        "ÉCONOMIQUE : -",
+        "ÉQUILIBRÉE : 20 € / jour limité à 90 jours / an",
+        "PROTECTRICE : 25 € / jour limité à 90 jours / an",
+        "EXCELLENCE : 30 € / jour limité à 90 jours / an"
+      ],
+      "deductible": null,
+      "conditions": [
+        "(2) Sous réserve d’une hospitalisation d’au moins une nuit.",
+        "Non prévue en formule ÉCONOMIQUE (cellule « - »)."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Prime naissance",
+      "description": "Plafonds par formule « Soins » ; les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale, remboursement de celle-ci inclus.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "100 € / enfant (toutes formules)",
+      "sub_limits": [
+        "ÉCONOMIQUE : 100 € / enfant",
+        "ÉQUILIBRÉE : 100 € / enfant",
+        "PROTECTRICE : 100 € / enfant",
+        "EXCELLENCE : 100 € / enfant"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Soins courants - Honoraires médicaux - Consultations - visites (médecine générale)",
+      "description": "Plafonds par formule « Soins » ; les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale, remboursement de celle-ci inclus.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": null,
+      "sub_limits": [
+        "ÉCONOMIQUE - médecins adhérents à un dispositif de pratique tarifaire maîtrisée* : 100 %",
+        "ÉCONOMIQUE - médecins non adhérents : 100 %",
+        "ÉQUILIBRÉE - médecins adhérents : 150 %",
+        "ÉQUILIBRÉE - médecins non adhérents : 125 %",
+        "PROTECTRICE - médecins adhérents : 175 %",
+        "PROTECTRICE - médecins non adhérents : 150 %",
+        "EXCELLENCE - médecins adhérents : 225 %",
+        "EXCELLENCE - médecins non adhérents : 200 %"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Dispositifs de pratique tarifaire maîtrisée* : OPTAM/OPTAM-CO."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Soins courants - Honoraires médicaux - Consultations - visites (médecine spécialiste)",
+      "description": "Plafonds par formule « Soins » ; les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale, remboursement de celle-ci inclus.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": null,
+      "sub_limits": [
+        "ÉCONOMIQUE - médecins adhérents : 100 %",
+        "ÉCONOMIQUE - médecins non adhérents : 100 %",
+        "ÉQUILIBRÉE - médecins adhérents : 175 %",
+        "ÉQUILIBRÉE - médecins non adhérents : 150 %",
+        "PROTECTRICE - médecins adhérents : 225 %",
+        "PROTECTRICE - médecins non adhérents : 200 %",
+        "EXCELLENCE - médecins adhérents : 250 %",
+        "EXCELLENCE - médecins non adhérents : 200 %"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Dispositifs de pratique tarifaire maîtrisée* : OPTAM/OPTAM-CO."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Soins courants - Médicaments - pharmacie remboursée à 65 % et à 30 % par le RO*",
+      "description": "Plafonds par formule « Soins » ; les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale, remboursement de celle-ci inclus.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "100 % (toutes formules)",
+      "sub_limits": [
+        "ÉCONOMIQUE : 100 %",
+        "ÉQUILIBRÉE : 100 %",
+        "PROTECTRICE : 100 %",
+        "EXCELLENCE : 100 %"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Soins courants - Médicaments - pharmacie remboursée à 15 % par le RO",
+      "description": "Plafonds par formule « Soins » ; les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale, remboursement de celle-ci inclus.",
+      "is_optional": true,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "100 % (formules ÉQUILIBRÉE, PROTECTRICE, EXCELLENCE)",
+      "sub_limits": [
+        "ÉCONOMIQUE : 15 % (3)",
+        "ÉQUILIBRÉE : 100 %",
+        "PROTECTRICE : 100 %",
+        "EXCELLENCE : 100 %"
+      ],
+      "deductible": null,
+      "conditions": [
+        "(3) Remboursement par le Régime obligatoire* uniquement.",
+        "Figure p. 1 parmi « LES GARANTIES OPTIONNELLES (selon la formule souscrite) »."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Soins courants - Homéopathie non remboursée par le RO* (prestations assurées depuis le 01/01/2021)",
+      "description": "Plafonds par formule « Soins » ; les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale, remboursement de celle-ci inclus.",
+      "is_optional": true,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Jusqu’à 60 € / an (formule EXCELLENCE)",
+      "sub_limits": [
+        "ÉCONOMIQUE : -",
+        "ÉQUILIBRÉE : 20 € / an",
+        "PROTECTRICE : 40 € / an",
+        "EXCELLENCE : 60 € / an"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Non prévue en formule ÉCONOMIQUE (cellule « - »)."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Soins courants - Analyses et examens de laboratoire",
+      "description": "Plafonds par formule « Soins » ; les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale, remboursement de celle-ci inclus.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "100 % (toutes formules)",
+      "sub_limits": [
+        "ÉCONOMIQUE : 100 %",
+        "ÉQUILIBRÉE : 100 %",
+        "PROTECTRICE : 100 %",
+        "EXCELLENCE : 100 %"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Soins courants - Radiologie",
+      "description": "Plafonds par formule « Soins » ; les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale, remboursement de celle-ci inclus.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "100 % (toutes formules)",
+      "sub_limits": [
+        "ÉCONOMIQUE : 100 %",
+        "ÉQUILIBRÉE : 100 %",
+        "PROTECTRICE : 100 %",
+        "EXCELLENCE : 100 %"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Soins courants - Honoraires paramédicaux",
+      "description": "Plafonds par formule « Soins » ; les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale, remboursement de celle-ci inclus.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "100 % (toutes formules)",
+      "sub_limits": [
+        "ÉCONOMIQUE : 100 %",
+        "ÉQUILIBRÉE : 100 %",
+        "PROTECTRICE : 100 %",
+        "EXCELLENCE : 100 %"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Soins courants - Ostéopathe / Acupuncteur / Diététicien / Chiropracteur / Podologue / Pédicure / Psychologue / Étiopathe",
+      "description": "Plafonds par formule « Soins » ; les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale, remboursement de celle-ci inclus.",
+      "is_optional": true,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Jusqu’à 45 € / séance (formule EXCELLENCE)",
+      "sub_limits": [
+        "ÉCONOMIQUE : -",
+        "ÉQUILIBRÉE : 35 € / séance (4)",
+        "PROTECTRICE : 40 € / séance (4)",
+        "EXCELLENCE : 45 € / séance (4)"
+      ],
+      "deductible": null,
+      "conditions": [
+        "(4) Limité à 3 séances par année civile pour l’ensemble des spécialités.",
+        "Non prévu en formule ÉCONOMIQUE (cellule « - »)."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Soins courants - Transport hors hospitalisation",
+      "description": "Plafonds par formule « Soins » ; les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale, remboursement de celle-ci inclus.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "100 % (toutes formules)",
+      "sub_limits": [
+        "ÉCONOMIQUE : 100 %",
+        "ÉQUILIBRÉE : 100 %",
+        "PROTECTRICE : 100 %",
+        "EXCELLENCE : 100 %"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Prévention - Actes de prévention et vaccins remboursés par le RO*",
+      "description": "Plafonds par formule « Soins » ; les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale, remboursement de celle-ci inclus.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "100 % (toutes formules)",
+      "sub_limits": [
+        "ÉCONOMIQUE : 100 %",
+        "ÉQUILIBRÉE : 100 %",
+        "PROTECTRICE : 100 %",
+        "EXCELLENCE : 100 %"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Prévention - Objets contraceptifs inscrits à la LPP*",
+      "description": "Plafonds par formule « Soins » ; les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale, remboursement de celle-ci inclus.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "100 % (toutes formules)",
+      "sub_limits": [
+        "ÉCONOMIQUE : 100 %",
+        "ÉQUILIBRÉE : 100 %",
+        "PROTECTRICE : 100 %",
+        "EXCELLENCE : 100 %"
+      ],
+      "deductible": null,
+      "conditions": [
+        "LPP* : Liste des Produits et Prestations."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Prévention - Vaccin antigrippal non remboursé",
+      "description": "Plafonds par formule « Soins » ; les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale, remboursement de celle-ci inclus.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Remboursement intégral (toutes formules)",
+      "sub_limits": [
+        "ÉCONOMIQUE : Remboursement intégral",
+        "ÉQUILIBRÉE : Remboursement intégral",
+        "PROTECTRICE : Remboursement intégral",
+        "EXCELLENCE : Remboursement intégral"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Prévention - Forfaits Prévention / Bien-être (5)",
+      "description": "Plafonds par formule « Soins » ; les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale, remboursement de celle-ci inclus.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "50 € (intimité et vie du couple) et 40 € (activité physique adaptée et prévention des risques cardio-vasculaires), toutes formules",
+      "sub_limits": [
+        "ÉCONOMIQUE - intimité et vie du couple : 50 € ; activité physique adaptée et prévention des risques cardio-vasculaires : 40 €",
+        "ÉQUILIBRÉE - intimité et vie du couple : 50 € ; activité physique adaptée et prévention des risques cardio-vasculaires : 40 €",
+        "PROTECTRICE - intimité et vie du couple : 50 € ; activité physique adaptée et prévention des risques cardio-vasculaires : 40 €",
+        "EXCELLENCE - intimité et vie du couple : 50 € ; activité physique adaptée et prévention des risques cardio-vasculaires : 40 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "(5) Forfait par année civile."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Dentaire - Soins (actes et soins dentaires)",
+      "description": "Plafonds par formule « Soins » ; les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale, remboursement de celle-ci inclus.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "100 % (toutes formules)",
+      "sub_limits": [
+        "ÉCONOMIQUE : 100 %",
+        "ÉQUILIBRÉE : 100 %",
+        "PROTECTRICE : 100 %",
+        "EXCELLENCE : 100 %"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Dentaire - Soins d’obturation Inlay / Onlay / Overlay (5)",
+      "description": "Plafonds par formule « Soins » ; les pourcentages sont exprimés par rapport aux bases de remboursement de la Sécurité sociale, remboursement de celle-ci inclus.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Jusqu’à 100 % + 200 € (formule EXCELLENCE)",
+      "sub_limits": [
+        "ÉCONOMIQUE : 100 %",
+        "ÉQUILIBRÉE : 100 % + 100 €",
+        "PROTECTRICE : 100 % + 150 €",
+        "EXCELLENCE : 100 % + 200 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "(5) Forfait par année civile."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Dentaire - Prothèses 100 % Santé (7) (prestations assurées depuis le 01/01/2020)",
+      "description": "Plafonds par niveau d’« Équipements » ; les garanties exprimées en euros correspondent au remboursement de la mutuelle uniquement.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Remboursement intégral (8) (tous niveaux)",
+      "sub_limits": [
+        "niveau 0 : Remboursement intégral (8)",
+        "niveau 1 : Remboursement intégral (8)",
+        "niveau 2 : Remboursement intégral (8)",
+        "niveau 3 : Remboursement intégral (8)",
+        "niveau 4 : Remboursement intégral (8)"
+      ],
+      "deductible": null,
+      "conditions": [
+        "(7) Tels que définis règlementairement.",
+        "(8) Dans les limites et conditions de la réglementation en vigueur."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Dentaire - Autres prothèses remboursées par le RO* : Couronne dentaire",
+      "description": "Plafonds par niveau d’« Équipements » ; les garanties exprimées en euros correspondent au remboursement de la mutuelle uniquement.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Jusqu’à 345 € / couronne (niveau 4)",
+      "sub_limits": [
+        "niveau 0 : 100 %",
+        "niveau 1 : 90 € / couronne",
+        "niveau 2 : 175 € / couronne",
+        "niveau 3 : 260 € / couronne",
+        "niveau 4 : 345 € / couronne"
+      ],
+      "deductible": null,
+      "conditions": [
+        "(6) Pour l’ensemble des garanties “Autres prothèses remboursées par le RO* et orthodontie”, les forfaits sont accordés dans la limite des plafonds année 1 et année 2 indiqués au tableau. Au-delà de ces plafonds, seul le ticket modérateur* est remboursé. Ces plafonds s’appliquent en cas de changement du niveau d’Equipements."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Dentaire - Autres prothèses remboursées par le RO* : Couronne dentaire transitoire",
+      "description": "Plafonds par niveau d’« Équipements » ; les garanties exprimées en euros correspondent au remboursement de la mutuelle uniquement.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "100 % (tous niveaux)",
+      "sub_limits": [
+        "niveau 0 : 100 %",
+        "niveau 1 : 100 %",
+        "niveau 2 : 100 %",
+        "niveau 3 : 100 %",
+        "niveau 4 : 100 %"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Dentaire - Autres prothèses remboursées par le RO* : Bridge (3 à 5 dents)",
+      "description": "Plafonds par niveau d’« Équipements » ; les garanties exprimées en euros correspondent au remboursement de la mutuelle uniquement.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Jusqu’à 940 € / bridge (niveau 4)",
+      "sub_limits": [
+        "niveau 0 : 100 %",
+        "niveau 1 : 280 € / bridge",
+        "niveau 2 : 500 € / bridge",
+        "niveau 3 : 720 € / bridge",
+        "niveau 4 : 940 € / bridge"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Dentaire - Autres prothèses remboursées par le RO* : Appareil dentaire amovible (1 à 3 dents)",
+      "description": "Plafonds par niveau d’« Équipements » ; les garanties exprimées en euros correspondent au remboursement de la mutuelle uniquement.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Jusqu’à 250 € / appareil (niveau 4)",
+      "sub_limits": [
+        "niveau 0 : 100 %",
+        "niveau 1 : 100 € / appareil",
+        "niveau 2 : 150 € / appareil",
+        "niveau 3 : 200 € / appareil",
+        "niveau 4 : 250 € / appareil"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Dentaire - Autres prothèses remboursées par le RO* : Inlay-core",
+      "description": "Plafonds par niveau d’« Équipements » ; les garanties exprimées en euros correspondent au remboursement de la mutuelle uniquement.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "45 € / inlay (niveaux 1 à 4)",
+      "sub_limits": [
+        "niveau 0 : 100 %",
+        "niveau 1 : 45 € /  inlay",
+        "niveau 2 : 45 € / inlay",
+        "niveau 3 : 45 € / inlay",
+        "niveau 4 : 45 € / inlay"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Dentaire - Autres prothèses remboursées par le RO* : Dent supplémentaire ou réparation sur bridge et appareil amovible",
+      "description": "Plafonds par niveau d’« Équipements » ; les garanties exprimées en euros correspondent au remboursement de la mutuelle uniquement.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Jusqu’à 40 € / dent ou réparation (niveau 4)",
+      "sub_limits": [
+        "niveau 0 : 100 %",
+        "niveau 1 : 10 € / dent ou réparation",
+        "niveau 2 : 20 € / dent ou réparation",
+        "niveau 3 : 30 € / dent ou réparation",
+        "niveau 4 : 40 € / dent ou réparation"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Dentaire - Orthodontie remboursée par le RO* (16)",
+      "description": "Plafonds par niveau d’« Équipements » ; les garanties exprimées en euros correspondent au remboursement de la mutuelle uniquement.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Jusqu’à 550 € / semestre (niveau 4)",
+      "sub_limits": [
+        "niveau 0 : 100 %",
+        "niveau 1 : 100 € / semestre",
+        "niveau 2 : 250 € / semestre",
+        "niveau 3 : 400 € / semestre",
+        "niveau 4 : 550 € / semestre"
+      ],
+      "deductible": null,
+      "conditions": [
+        "(16) Forfait par semestre de traitement, pouvant être proratisé selon la durée effective de traitement."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Dentaire - Plafond global annuel « autres prothèses remboursées par le RO* » et « orthodontie »",
+      "description": "Pour les “autres prothèses remboursées par le RO*” et “l’orthodontie”, un plafond global annuel s’applique.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Année 1 (jusqu’à la fin du 12e mois d’affiliation de l’assuré*) : jusqu’à 700 € ; année 2 (jusqu’à la fin du 24e mois d’affiliation de l’assuré*) : jusqu’à 1 400 €",
+      "sub_limits": [
+        "niveau 0 - année 1 : - ; année 2 : -",
+        "niveau 1 - année 1 : 500 € ; année 2 : 1 000 €",
+        "niveau 2 - année 1 : 500 € ; année 2 : 1 000 €",
+        "niveau 3 - année 1 : 700 € ; année 2 : 1 400 €",
+        "niveau 4 - année 1 : 700 € ; année 2 : 1 400 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "(6) Au-delà de ces plafonds, seul le ticket modérateur* est remboursé. Ces plafonds s’appliquent en cas de changement du niveau d’Equipements."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Dentaire - Implants dentaires (9)",
+      "description": "Plafonds par niveau d’« Équipements » ; les garanties exprimées en euros correspondent au remboursement de la mutuelle uniquement.",
+      "is_optional": true,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Jusqu’à 500 € (niveau 4)",
+      "sub_limits": [
+        "niveau 0 : -",
+        "niveau 1 : -",
+        "niveau 2 : 300 €",
+        "niveau 3 : 400 €",
+        "niveau 4 : 500 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "(9) Forfait par année civile.",
+        "Non prévus aux niveaux 0 et 1 (cellules « - »)."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Dentaire - Parodontie non remboursée par le Régime obligatoire* (9)",
+      "description": "Plafonds par niveau d’« Équipements » ; les garanties exprimées en euros correspondent au remboursement de la mutuelle uniquement.",
+      "is_optional": true,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Jusqu’à 250 € (niveau 4)",
+      "sub_limits": [
+        "niveau 0 : -",
+        "niveau 1 : 100 €",
+        "niveau 2 : 150 €",
+        "niveau 3 : 200 €",
+        "niveau 4 : 250 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "(9) Forfait par année civile.",
+        "Non prévue au niveau 0 (cellule « - »)."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Optique - Équipements 100 % Santé (7) (monture et verres) (prestations assurées depuis le 01/01/2020)",
+      "description": "Plafonds par niveau d’« Équipements » ; les garanties exprimées en euros correspondent au remboursement de la mutuelle uniquement.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Remboursement intégral (8) (tous niveaux)",
+      "sub_limits": [
+        "niveau 0 : Remboursement intégral (8)",
+        "niveau 1 : Remboursement intégral (8)",
+        "niveau 2 : Remboursement intégral (8)",
+        "niveau 3 : Remboursement intégral (8)",
+        "niveau 4 : Remboursement intégral (8)"
+      ],
+      "deductible": null,
+      "conditions": [
+        "(7) Tels que définis règlementairement.",
+        "(8) Dans les limites et conditions de la réglementation en vigueur."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Optique - Autres verres et montures remboursés par le RO* : Monture adulte",
+      "description": "Plafonds par niveau d’« Équipements » ; les garanties exprimées en euros correspondent au remboursement de la mutuelle uniquement.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Jusqu’à 100 € (niveau 4)",
+      "sub_limits": [
+        "niveau 0 : 100 %",
+        "niveau 1 : 30 €",
+        "niveau 2 : 60 €",
+        "niveau 3 : 90 €",
+        "niveau 4 : 100 € (10)"
+      ],
+      "deductible": null,
+      "conditions": [
+        "(10) Par exception, ce forfait de 100€ correspond au remboursement de la mutuelle en incluant le remboursement de la Sécurité sociale."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Optique - Autres verres et montures remboursés par le RO* : Verre simple adulte (par verre)",
+      "description": "Plafonds par niveau d’« Équipements » ; les garanties exprimées en euros correspondent au remboursement de la mutuelle uniquement.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Jusqu’à 90 € par verre (niveau 4)",
+      "sub_limits": [
+        "niveau 0 : 100 %",
+        "niveau 1 : 30 €",
+        "niveau 2 : 50 €",
+        "niveau 3 : 70 €",
+        "niveau 4 : 90 €"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Optique - Autres verres et montures remboursés par le RO* : Verre complexe et hyper complexe adulte (par verre)",
+      "description": "Plafonds par niveau d’« Équipements » ; les garanties exprimées en euros correspondent au remboursement de la mutuelle uniquement.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Jusqu’à 135 € par verre (niveau 4)",
+      "sub_limits": [
+        "niveau 0 : 100 %",
+        "niveau 1 : 85 €",
+        "niveau 2 : 100 €",
+        "niveau 3 : 115 €",
+        "niveau 4 : 135 €"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Optique - Autres verres et montures remboursés par le RO* : Monture enfant",
+      "description": "Plafonds par niveau d’« Équipements » ; les garanties exprimées en euros correspondent au remboursement de la mutuelle uniquement.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Jusqu’à 70 € (niveau 4)",
+      "sub_limits": [
+        "niveau 0 : 100 %",
+        "niveau 1 : 30 €",
+        "niveau 2 : 40 €",
+        "niveau 3 : 50 €",
+        "niveau 4 : 70 €"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Optique - Autres verres et montures remboursés par le RO* : Verre simple enfant (par verre)",
+      "description": "Plafonds par niveau d’« Équipements » ; les garanties exprimées en euros correspondent au remboursement de la mutuelle uniquement.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Jusqu’à 75 € par verre (niveau 4)",
+      "sub_limits": [
+        "niveau 0 : 100 %",
+        "niveau 1 : 20 €",
+        "niveau 2 : 35 €",
+        "niveau 3 : 50 €",
+        "niveau 4 : 75 €"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Optique - Autres verres et montures remboursés par le RO* : Verre complexe et hyper complexe enfant (par verre)",
+      "description": "Plafonds par niveau d’« Équipements » ; les garanties exprimées en euros correspondent au remboursement de la mutuelle uniquement.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Jusqu’à 130 € par verre (niveau 4)",
+      "sub_limits": [
+        "niveau 0 : 100 %",
+        "niveau 1 : 85 €",
+        "niveau 2 : 100 €",
+        "niveau 3 : 115 €",
+        "niveau 4 : 130 €"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Optique - Lentilles de contact (9)",
+      "description": "Plafonds par niveau d’« Équipements » ; les garanties exprimées en euros correspondent au remboursement de la mutuelle uniquement.",
+      "is_optional": null,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Jusqu’à 100 % + 160 € (niveau 4)",
+      "sub_limits": [
+        "niveau 0 : 100 % (11)",
+        "niveau 1 : 100 % + 40 €",
+        "niveau 2 : 100 % + 80 €",
+        "niveau 3 : 100 % + 120 €",
+        "niveau 4 : 100 % + 160 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "(9) Forfait par année civile.",
+        "(11) Uniquement les lentilles prises en charge par le Régime obligatoire*, au niveau 0.",
+        "La p. 1 range les « lentilles de contact prises en charge par la Sécurité sociale » parmi les garanties systématiquement prévues et les « lentilles de contact non remboursées par la Sécurité sociale » parmi les garanties optionnelles : la ligne du tableau couvre les deux cas, le document ne permet pas de trancher le caractère optionnel de la ligne entière."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Optique - Chirurgie réfractive de l’œil (12)",
+      "description": "Plafonds par niveau d’« Équipements » ; les garanties exprimées en euros correspondent au remboursement de la mutuelle uniquement.",
+      "is_optional": true,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Jusqu’à 400 € (niveau 4)",
+      "sub_limits": [
+        "niveau 0 : -",
+        "niveau 1 : -",
+        "niveau 2 : -",
+        "niveau 3 : 300 €",
+        "niveau 4 : 400 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "(12) Forfait par œil et par année civile.",
+        "Non prévue aux niveaux 0, 1 et 2 (cellules « - »)."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Optique - Appareils basse vision (13)",
+      "description": "Plafonds par niveau d’« Équipements » ; les garanties exprimées en euros correspondent au remboursement de la mutuelle uniquement.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "100 % + 250 € (tous niveaux)",
+      "sub_limits": [
+        "niveau 0 : 100 % + 250 €",
+        "niveau 1 : 100 % + 250 €",
+        "niveau 2 : 100 % + 250 €",
+        "niveau 3 : 100 % + 250 €",
+        "niveau 4 : 100 % + 250 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "(13) Aides visuelles pour les personnes dont l’acuité visuelle avec correction est inférieure à 4/10e. Forfait par année civile. La prise en charge s’effectue en complément du Régime obligatoire* et/ou des aides publiques éventuelles."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Aides auditives - Équipements 100 % Santé (7) (prestations assurées depuis le 01/01/2021)",
+      "description": "Plafonds par niveau d’« Équipements » ; les garanties exprimées en euros correspondent au remboursement de la mutuelle uniquement.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Remboursement intégral (8) (tous niveaux)",
+      "sub_limits": [
+        "niveau 0 : Remboursement intégral (8)",
+        "niveau 1 : Remboursement intégral (8)",
+        "niveau 2 : Remboursement intégral (8)",
+        "niveau 3 : Remboursement intégral (8)",
+        "niveau 4 : Remboursement intégral (8)"
+      ],
+      "deductible": null,
+      "conditions": [
+        "(7) Tels que définis règlementairement.",
+        "(8) Dans les limites et conditions de la réglementation en vigueur."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Aides auditives - Autres aides auditives remboursées par le RO* : Appareil acoustique (> 20 ans)",
+      "description": "Plafonds par niveau d’« Équipements » ; les garanties exprimées en euros correspondent au remboursement de la mutuelle uniquement.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Jusqu’à 100 % + 600 € (niveau 4)",
+      "sub_limits": [
+        "niveau 0 : 100 %",
+        "niveau 1 : 100 % + 150 €",
+        "niveau 2 : 100 % + 300 €`",
+        "niveau 3 : 100 % + 450 €",
+        "niveau 4 : 100 % + 600 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "La cellule du niveau 2 est imprimée « 100 % + 300 €` », avec un accent grave parasite après le symbole euro ; reproduit tel quel."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Aides auditives - Autres aides auditives remboursées par le RO* : Appareil acoustique (≤ 20 ans)",
+      "description": "Plafonds par niveau d’« Équipements » ; les garanties exprimées en euros correspondent au remboursement de la mutuelle uniquement.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Jusqu’à 100 % + 300 € (niveau 4)",
+      "sub_limits": [
+        "niveau 0 : 100 %",
+        "niveau 1 : 100 % + 50 €",
+        "niveau 2 : 100 % + 150 €",
+        "niveau 3 : 100 % + 250 €",
+        "niveau 4 : 100 % + 300 €"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Aides auditives - Entretien, piles et accessoires (9)",
+      "description": "Plafonds par niveau d’« Équipements » ; les garanties exprimées en euros correspondent au remboursement de la mutuelle uniquement.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Jusqu’à 100 % + 60 € (niveau 4)",
+      "sub_limits": [
+        "niveau 0 : 100 %",
+        "niveau 1 : 100 % + 30 €",
+        "niveau 2 : 100 % + 40 €",
+        "niveau 3 : 100 % + 50 €",
+        "niveau 4 : 100 % + 60 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "(9) Forfait par année civile."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Appareillage - Matériel médical (14)",
+      "description": "Plafonds par niveau d’« Équipements » ; les garanties exprimées en euros correspondent au remboursement de la mutuelle uniquement.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Jusqu’à 300 % (niveau 4)",
+      "sub_limits": [
+        "niveau 0 : 100 %",
+        "niveau 1 : 125 %",
+        "niveau 2 : 150 %",
+        "niveau 3 : 200 %",
+        "niveau 4 : 300 %"
+      ],
+      "deductible": null,
+      "conditions": [
+        "(14) Hors titre IV de la LPP*, objets contraceptifs, basse vision et appareils acoustiques."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Appareillage - Véhicule pour handicapés physiques inscrit au titre IV de la LPP* (9)",
+      "description": "Plafonds par niveau d’« Équipements » ; les garanties exprimées en euros correspondent au remboursement de la mutuelle uniquement.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "100 % + 1 500 € (tous niveaux)",
+      "sub_limits": [
+        "niveau 0 : 100 % + 1 500 €",
+        "niveau 1 : 100 % + 1 500 €",
+        "niveau 2 : 100 % + 1 500 €",
+        "niveau 3 : 100 % + 1 500 €",
+        "niveau 4 : 100 % + 1 500 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "(9) Forfait par année civile."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Cures thermales (9) (15) - Honoraires de cures thermales",
+      "description": "Plafonds par niveau d’« Équipements » ; les garanties exprimées en euros correspondent au remboursement de la mutuelle uniquement.",
+      "is_optional": true,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "100 % (niveaux 1 à 4)",
+      "sub_limits": [
+        "niveau 0 : -",
+        "niveau 1 : 100 %",
+        "niveau 2 : 100 %",
+        "niveau 3 : 100 %",
+        "niveau 4 : 100 %"
+      ],
+      "deductible": null,
+      "conditions": [
+        "(9) Forfait par année civile.",
+        "(15) Sous réserve de prise en charge de la cure thermale par le Régime obligatoire*.",
+        "Non prévus au niveau 0 (cellule « - »)."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Cures thermales (9) (15) - Transport et hébergement",
+      "description": "Plafonds par niveau d’« Équipements » ; les garanties exprimées en euros correspondent au remboursement de la mutuelle uniquement.",
+      "is_optional": true,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "Jusqu’à 100 % + 350 € (niveau 4)",
+      "sub_limits": [
+        "niveau 0 : -",
+        "niveau 1 : 100 %",
+        "niveau 2 : 100 %        + 150 €",
+        "niveau 3 : 100 %       + 250 €",
+        "niveau 4 : 100 %       + 350 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "(9) Forfait par année civile.",
+        "(15) Sous réserve de prise en charge de la cure thermale par le Régime obligatoire*.",
+        "Non prévus au niveau 0 (cellule « - »)."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Cures thermales (9) (15) - Forfait thermal pour soins",
+      "description": "Plafonds par niveau d’« Équipements » ; les garanties exprimées en euros correspondent au remboursement de la mutuelle uniquement.",
+      "is_optional": true,
+      "territorial_scope": "France (départements et régions d’outre-mer inclus). Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "limits": "100 % (niveaux 1 à 4)",
+      "sub_limits": [
+        "niveau 0 : -",
+        "niveau 1 : 100 %",
+        "niveau 2 : 100 %",
+        "niveau 3 : 100 %",
+        "niveau 4 : 100 %"
+      ],
+      "deductible": null,
+      "conditions": [
+        "(9) Forfait par année civile.",
+        "(15) Sous réserve de prise en charge de la cure thermale par le Régime obligatoire*.",
+        "Non prévu au niveau 0 (cellule « - »)."
+      ],
+      "page": 4
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Soins reçus en dehors de la période de validité du contrat",
+      "description": "Les soins reçus en dehors de la période de validité du contrat.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Indemnités journalières en cas d’arrêt de travail",
+      "description": "Les indemnités journalières versées en complément de la Sécurité sociale en cas d’arrêt de travail.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Séjours en unité de soins longue durée ou en établissement médico-social (EHPAD)",
+      "description": "Les dépenses de soins afférentes aux séjours dans une unité de soins longue durée ou dans les établissements médico-sociaux tels que les établissements d’hébergement pour personnes âgées (EHPAD).",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Franchises médicales (exclusion du contrat responsable)",
+      "description": "Les franchises médicales sur les médicaments, les actes paramédicaux et les transports.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Participation forfaitaire d’un euro (exclusion du contrat responsable)",
+      "description": "La participation forfaitaire d’un euro sur les consultations et actes médicaux, examens radiologiques et analyses de laboratoire.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Majoration du ticket modérateur hors parcours de soins (exclusion du contrat responsable)",
+      "description": "La majoration du ticket modérateur lorsque l’assuré ne respecte pas le parcours de soins.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dépassements d’honoraires hors parcours de soins (exclusion du contrat responsable)",
+      "description": "Les dépassements d’honoraires pratiqués par les médecins lorsque l’assuré ne respecte pas le parcours de soin.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Restriction - Forfait journalier hospitalier",
+      "description": "Forfait journalier hospitalier : remboursement conditionné à une hospitalisation d’une nuit minimum.",
+      "applies_to": "Hospitalisation - Forfait journalier hospitalier (2)",
+      "page": 1
+    },
+    {
+      "name": "Restriction - Chambre particulière ou accompagnant",
+      "description": "Chambre particulière ou accompagnant : remboursement conditionné à une hospitalisation d’une nuit minimum et limité à 90 jours par année civile.",
+      "applies_to": "Chambre particulière et chambre accompagnant (option)",
+      "page": 1
+    },
+    {
+      "name": "Restriction - Ostéopathe, acupuncteur, diéteticien, chiropracteur, podologue, pédicure, psychologue, étiopathe",
+      "description": "Ostéopathe, acupuncteur, diéteticien, chiropracteur, podologue, pédicure, psychologue, étiopathe : forfait unique pour l’ensemble des spécialités mentionnées, remboursement avec une limitation à 3 séances par année civile. (Le document imprime « diéteticien » sans accent dans cette restriction.)",
+      "applies_to": "Soins courants - Ostéopathe / Acupuncteur / Diététicien / Chiropracteur / Podologue / Pédicure / Psychologue / Étiopathe",
+      "page": 1
+    },
+    {
+      "name": "Restriction - Prothèses dentaires remboursées par la Sécurité sociale (hors 100 % santé) et orthodontie",
+      "description": "Les prothèses dentaires remboursées par la Sécurite sociale (hors prothèses 100 % santé) et l’orthodontie : les remboursements sont limités à un plafond global annuel durant les 24 premiers mois d’affiliation de l’assuré. (Le document imprime « Sécurite » sans accent.)",
+      "applies_to": "Dentaire - Plafond global annuel « autres prothèses remboursées par le RO* » et « orthodontie »",
+      "page": 1
+    },
+    {
+      "name": "Restriction - Optique : un équipement tous les deux ans",
+      "description": "Optique : remboursement limité à un équipement (monture + 2 verres) tous les deux ans sauf cas de renouvellement anticipé prévu réglementairement.",
+      "applies_to": "Optique",
+      "page": 1
+    },
+    {
+      "name": "Restriction - Aides auditives : un équipement par oreille tous les 4 ans",
+      "description": "Les aides auditives remboursées par la Sécurite sociale : le nombre d’équipement (1 appareil acoustique) est limité à 1 équipement par oreille tous les 4 ans. (Le document imprime « Sécurite » sans accent.)",
+      "applies_to": "Aides auditives",
+      "page": 1
+    },
+    {
+      "name": "Hospitalisation - séjours exclus (note (1) du tableau des garanties)",
+      "description": "Sont exclus les séjours en établissement médico-sociaux*, dans les maisons de retraite, dans une unité de soins longue durée (USLD) ou dans un établissement dont le code DMT est listé en annexe.",
+      "applies_to": "Hospitalisation",
+      "page": 3
+    },
+    {
+      "name": "Matériel médical - exclusions de la garantie (note (14))",
+      "description": "Hors titre IV de la LPP*, objets contraceptifs, basse vision et appareils acoustiques.",
+      "applies_to": "Appareillage - Matériel médical (14)",
+      "page": 4
+    },
+    {
+      "name": "Participation forfaitaire et franchise annuelle restant à la charge de l’assuré",
+      "description": "Ces remboursements sont effectués en excluant la participation forfaitaire et la franchise annuelle de l’assuré qui restent à sa charge et dans la limite des dépenses engagées par l’assuré, conformément à la loi.",
+      "applies_to": "all",
+      "page": 3
+    },
+    {
+      "name": "Au-delà des plafonds dentaires annuels, seul le ticket modérateur est remboursé (note (6))",
+      "description": "Pour l’ensemble des garanties “Autres prothèses remboursées par le RO* et orthodontie”, les forfaits sont accordés dans la limite des plafonds année 1 et année 2 indiqués ci-dessus. Au-delà de ces plafonds, seul le ticket modérateur* est remboursé. Ces plafonds s’appliquent en cas de changement du niveau d’Equipements.",
+      "applies_to": "Dentaire - Plafond global annuel « autres prothèses remboursées par le RO* » et « orthodontie »",
+      "page": 4
+    },
+    {
+      "name": "Cures thermales - sous réserve de prise en charge par le Régime obligatoire (note (15))",
+      "description": "Sous réserve de prise en charge de la cure thermale par le Régime obligatoire*.",
+      "applies_to": "Cures thermales remboursées par la Sécurité sociale (option)",
+      "page": 4
+    },
+    {
+      "name": "Plafonnement général des prestations",
+      "description": "Les montants des prestations sont soumis à des plafonds qui varient en fonction du niveau de garanties choisi et qui figurent dans les tableaux de garanties. Ils ne peuvent être plus élevés que les dépenses engagées. Certaines sommes peuvent rester à votre charge.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Soins dispensés à l’étranger - base de remboursement limitée",
+      "description": "Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire français (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "applies_to": "all",
+      "page": 2
+    },
+    {
+      "name": "Assistance - hors départements et régions d’outre-mer",
+      "description": "Les garanties d’assistance s’appliquent en France (hors départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco.",
+      "applies_to": "Assistance en cas d’hospitalisation ou d’immobilisation à domicile",
+      "page": 2
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": null,
+    "per_coverage": null,
+    "page": null
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Conditions à la souscription - âge, capacité, résidence et affiliation",
+      "description": "À la souscription : être âgé de plus de 16 ans et avoir la capacité de contracter, résider en France métropolitaine ou dans un département ou une région d’Outre-mer et être affilié à un régime obligatoire français d’assurance maladie.",
+      "timing": "À la souscription",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    },
+    {
+      "name": "Remplir et signer la demande d’assurance",
+      "description": "À la souscription : remplir avec exactitude la demande d’assurance et la signer.",
+      "timing": "À la souscription",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    },
+    {
+      "name": "Fournir les pièces d’identité et attestations de carte vitale",
+      "description": "À la souscription : fournir une copie de sa pièce d’identité ainsi que la copie de l’attestation de carte vitale de chaque assuré.",
+      "timing": "À la souscription",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    },
+    {
+      "name": "Mandat SEPA et RIB",
+      "description": "À la souscription : remplir le mandat SEPA et fournir un relevé d’identité bancaire en cas de paiement des cotisations par prélèvement.",
+      "timing": "À la souscription",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    },
+    {
+      "name": "Payer la cotisation",
+      "description": "Durant le contrat : payer la cotisation prévue au contrat.",
+      "timing": "Durant le contrat",
+      "sanction": "Sous peine de suspension des garanties ; en cas de non paiement au-delà de 10 jours de l’échéance et après une mise en demeure restée sans effet, l’assureur pourra être amené à résilier le contrat.",
+      "page": 2
+    },
+    {
+      "name": "Fournir les justificatifs de prestations",
+      "description": "Durant le contrat : fournir tout document justificatif nécessaire au paiement des prestations prévues au contrat.",
+      "timing": "Durant le contrat",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    },
+    {
+      "name": "Adresser les demandes de remboursement dans les 2 ans",
+      "description": "Durant le contrat : faire parvenir les demandes de remboursement à l’assureur dans un délai maximum de 2 ans suivant la date de remboursement des soins par la Sécurité sociale ou la date de l’évènement à indemniser ou de sa date de facturation.",
+      "timing": "Durant le contrat",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    },
+    {
+      "name": "Se soumettre à l’expertise médicale",
+      "description": "Durant le contrat : le cas échéant, se soumettre à l’expertise médicale demandée par l’assureur.",
+      "timing": "Durant le contrat",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    },
+    {
+      "name": "Signaler tout changement de situation",
+      "description": "Durant le contrat : signaler tout changement de situation (régime de Sécurité sociale d’un des assurés, changement de domicile ou de situation familiale, etc…) ou de coordonnées bancaires et produire les justificatifs nécessaires à la modification du contrat. Ce changement peut, dans certains cas, entraîner la modification du contrat et de la cotisation initialement prévue.",
+      "timing": "Durant le contrat",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Adresser la demande de remboursement",
+      "description": "Faire parvenir les demandes de remboursement à l’assureur dans un délai maximum de 2 ans suivant la date de remboursement des soins par la Sécurité sociale ou la date de l’évènement à indemniser ou de sa date de facturation.",
+      "deadline": "2 ans",
+      "page": 2
+    },
+    {
+      "step": "Justificatifs",
+      "description": "Fournir tout document justificatif nécessaire au paiement des prestations prévues au contrat.",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Expertise médicale",
+      "description": "Le cas échéant, se soumettre à l’expertise médicale demandée par l’assureur.",
+      "deadline": null,
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat prend effet à la date mentionnée sur la demande d’adhésion. Sa durée est d’un an.",
+    "tacit_renewal": true,
+    "notice_period": "2 mois avant le 31 décembre de l’année en cours pour la résiliation à l’échéance annuelle ; à tout moment après un an, la résiliation prend effet au plus tôt un mois après réception de la demande.",
+    "methods": [
+      "Par lettre ou tout autre moyen prévu à l’article L.221-10-3 du Code de la mutualité",
+      "Par courrier postal à l’adresse figurant sur la carte de tiers payant",
+      "Par courrier électronique",
+      "Par déclaration en point d’accueil physique Macif",
+      "Via l’Espace Assurance sur le site www.macif.fr"
+    ],
+    "special_rights": [
+      "L’adhérent dispose d’un délai de renonciation de 30 jours à compter de la prise d’effet du contrat.",
+      "Résiliation à l’échéance annuelle, moyennant un préavis de 2 mois avant le 31 décembre de l’année en cours.",
+      "Résiliation à tout moment après expiration d’un délai d’un an à compter de la première souscription ; la résiliation prendra effet à la date précisée dans l’avis de résiliation et au plus tôt un mois après réception de la demande.",
+      "Résiliation en cas d’augmentation des cotisations, notamment à la suite d’une modification de situation, dans un délai d’un mois à compter de la date de réception du nouvel avis d’échéance.",
+      "Résiliation en cas de modification des garanties à la suite d’une évolution de la réglementation ou d’une décision de la mutuelle, dans un délai d’un mois à compter du jour où cette modification est notifiée à l’adhérent.",
+      "Les garanties cessent : en cas de résiliation par l’adhérent ; en cas de non paiement des cotisations ; en cas de modification de la situation d’un assuré entraînant une augmentation des cotisations, si l’adhérent refuse cette augmentation ; en cas de modification des garanties à la suite d’une évolution de la réglementation ou d’une décision de la mutuelle, si l’adhérent refuse cette modification.",
+      "La mutuelle confirmera par écrit à l’adhérent avoir reçu sa demande de résiliation."
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "La cotisation est annuelle et payable d’avance. Elle est due à l’échéance jusqu’à la résiliation du contrat.",
+      "Le paiement de la cotisation est exigible dans les 10 jours de son échéance. En cas de non paiement au-delà de ce délai, et après une mise en demeure restée sans effet, l’assureur pourra être amené à résilier le contrat.",
+      "Les cotisations peuvent être réglées par mandat de prélèvement SEPA ou par chèque (uniquement pour le paiement annuel).",
+      "Il est possible de demander le fractionnement du paiement de la cotisation (semestriel, trimestriel ou mensuel). Aucuns frais de fractionnement ne sont alors appliqués.",
+      "Une modification de situation peut, dans certains cas, entraîner la modification du contrat et de la cotisation initialement prévue."
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Porteur de risque",
+      "description": "Ce contrat est assuré par Apivia Macif Mutuelle (SIREN n°779 558 501), mutuelle enregistrée en France et régie par le Livre II du Code de la mutualité.",
+      "page": 1
+    },
+    {
+      "name": "Portée du document",
+      "description": "Ce document d’information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l’information complète sur ce produit dans la documentation précontractuelle et contractuelle. En particulier, les niveaux de remboursement seront détaillés dans le tableau de garanties.",
+      "page": 1
+    },
+    {
+      "name": "Contrat responsable",
+      "description": "Le produit respecte les conditions légales des contrats responsables.",
+      "page": 1
+    },
+    {
+      "name": "Lecture des tableaux de garanties",
+      "description": "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l’assuré ayant respecté le parcours de soins. Ces remboursements sont effectués en excluant la participation forfaitaire et la franchise annuelle de l’assuré qui restent à sa charge et dans la limite des dépenses engagées par l’assuré, conformément à la loi.",
+      "page": 3
+    },
+    {
+      "name": "Expression des garanties (formules « Soins »)",
+      "description": "Les pourcentages de ce tableau sont des plafonds exprimés par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement. Les garanties exprimées en euros correspondent au remboursement de la mutuelle uniquement et n’incluent pas le remboursement de la Sécurité sociale. Les forfaits s’entendent par assuré.",
+      "page": 3
+    },
+    {
+      "name": "Expression des garanties (niveaux d’« Équipements »)",
+      "description": "Les pourcentages de ce tableau sont des plafonds exprimés par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement. Les garanties exprimées en euros correspondent au remboursement de la mutuelle uniquement et n’incluent pas le remboursement de la Sécurité sociale. Les garanties exprimées en pourcentage et en euros incluent le remboursement de la Sécurité sociale, le ticket modérateur et la prise en charge forfaitaire de la mutuelle. Les forfaits s’entendent par assuré.",
+      "page": 4
+    },
+    {
+      "name": "Renouvellement de l’équipement optique",
+      "description": "Le nombre d’équipements (2 verres + 1 monture) est limité à 1 équipement par période de deux ans, à l’exception des cas pour lesquels un renouvellement anticipé est possible réglementairement. Dans tous les cas, pour chaque assuré, le point de départ de la période correspond à la date de l’équipement.",
+      "page": 4
+    },
+    {
+      "name": "Renouvellement des aides auditives",
+      "description": "Pour l’ensemble des aides auditives prises en charge au titre du contrat, le nombre d’équipement (1 appareil acoustique) est limité à 1 équipement par oreille tous les 4 ans. Dans tous les cas, pour chaque assuré*, le point de départ de la période correspond à la date de l’équipement.",
+      "page": 4
+    },
+    {
+      "name": "Formules et niveaux proposés",
+      "description": "Quatre formules « Soins » (ÉCONOMIQUE, ÉQUILIBRÉE, PROTECTRICE, EXCELLENCE) et cinq niveaux d’« Équipements » (0, 1, 2, 3, 4).",
+      "page": 3
+    },
+    {
+      "name": "Référence du tableau de garanties",
+      "description": "TG Garantie Santé - 01/22",
+      "page": 4
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Le contrat Garantie Santé est destiné à rembourser, en complément de la Sécurité sociale française, tout ou partie des frais de santé restant à la charge de l’assuré \net des éventuels bénéficiaires en cas d’accident, de maladie ou de maternité. Le produit respecte les conditions légales des contrats responsables.",
+      "context": "Nature du produit",
+      "page": 1
+    },
+    {
+      "quote": "Ce contrat est assuré par Apivia Macif Mutuelle (SIREN n°779 558 501), mutuelle enregistrée en France et régie par \nle Livre II du Code de la mutualité.",
+      "context": "Porteur de risque",
+      "page": 1
+    },
+    {
+      "quote": "Les montants des prestations sont soumis à des plafonds qui varient en \nfonction du niveau de garanties choisi et qui figurent dans les tableaux \nde garanties. Ils ne peuvent être plus élevés que les dépenses engagées. \nCertaines sommes peuvent rester à votre charge.",
+      "context": "Plafonnement des prestations",
+      "page": 1
+    },
+    {
+      "quote": "Les soins reçus en dehors de la période de validité du contrat.",
+      "context": "Qu’est-ce qui n’est pas assuré ?",
+      "page": 1
+    },
+    {
+      "quote": "Les indemnités journalières versées en complément de la Sécurité sociale \nen cas d’arrêt de travail.",
+      "context": "Qu’est-ce qui n’est pas assuré ?",
+      "page": 1
+    },
+    {
+      "quote": "Les dépenses de soins afférentes aux séjours dans une unité de soins \nlongue durée ou dans les établissements médico-sociaux tels que les \nétablissements d’hébergement pour personnes âgées (EHPAD).",
+      "context": "Qu’est-ce qui n’est pas assuré ?",
+      "page": 1
+    },
+    {
+      "quote": "Les franchises médicales sur les médicaments, les actes paramédicaux \net les transports.",
+      "context": "Principales exclusions du contrat responsable",
+      "page": 1
+    },
+    {
+      "quote": "La participation forfaitaire d’un euro sur les consultations et actes \nmédicaux, examens radiologiques et analyses de laboratoire.",
+      "context": "Principales exclusions du contrat responsable",
+      "page": 1
+    },
+    {
+      "quote": "La majoration du ticket modérateur lorsque l’assuré ne respecte pas le \nparcours de soins.",
+      "context": "Principales exclusions du contrat responsable",
+      "page": 1
+    },
+    {
+      "quote": "Les dépassements d’honoraires pratiqués par les médecins lorsque \nl’assuré ne respecte pas le parcours de soin.",
+      "context": "Principales exclusions du contrat responsable",
+      "page": 1
+    },
+    {
+      "quote": "Forfait journalier hospitalier : remboursement conditionné à une \nhospitalisation d’une nuit minimum.",
+      "context": "Principales restrictions",
+      "page": 1
+    },
+    {
+      "quote": "Les aides auditives remboursées par la Sécurite sociale : le nombre \nd’équipement (1 appareil acoustique) est limité à 1 équipement par oreille \ntous les 4 ans.",
+      "context": "Principales restrictions ; le document imprime « Sécurite » sans accent",
+      "page": 1
+    },
+    {
+      "quote": "Les prothèses dentaires remboursées par la Sécurite sociale (hors \nprothèses 100 % santé) et l’orthodontie : les remboursements sont \nlimités à un plafond global annuel durant les 24 premiers mois d’affiliation \nde l’assuré.",
+      "context": "Principales restrictions ; « Sécurite » sans accent et espace fine U+2009 dans « 100 % santé »",
+      "page": 1
+    },
+    {
+      "quote": "La cotisation est annuelle et payable d’avance. Elle est due à l’échéance jusqu’à la résiliation du contrat. \nLe paiement de la cotisation est exigible dans les 10 jours de son échéance. En cas de non paiement  au-delà de ce délai, et après une mise en demeure \nrestée sans effet, l’assureur pourra être amené à résilier le contrat.",
+      "context": "Paiements",
+      "page": 2
+    },
+    {
+      "quote": "Le contrat prend effet à la date mentionnée sur la demande d’adhésion. Sa durée est d’un an. Il se renouvelle par tacite reconduction chaque année au \n1er janvier sauf résiliation par l’une des parties dans les cas et conditions fixés au contrat.",
+      "context": "Durée et tacite reconduction",
+      "page": 2
+    },
+    {
+      "quote": "L’adhérent dispose d’un délai de renonciation de 30 jours à compter de la prise d’effet du contrat.",
+      "context": "Renonciation",
+      "page": 2
+    },
+    {
+      "quote": "Sous peine de suspension des garanties, l’adhérent doit :",
+      "context": "Sanction attachée aux obligations",
+      "page": 2
+    },
+    {
+      "quote": "faire parvenir les demandes de remboursement à l’assureur dans un délai maximum de 2 ans suivant la date de remboursement des soins par la Sécurité \nsociale ou la date de l’évènement à indemniser ou de sa date de facturation ;",
+      "context": "Délai des demandes de remboursement",
+      "page": 2
+    },
+    {
+      "quote": "Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire \nfrançais (dans la limite du ticket modérateur), quelle que soit la dépense engagée.",
+      "context": "Territorialité - soins à l’étranger",
+      "page": 2
+    },
+    {
+      "quote": "Les garanties d’assistance s’appliquent en France (hors départements et régions d’outre-mer) y compris Andorre et Principauté de Monaco.",
+      "context": "Territorialité - assistance",
+      "page": 2
+    },
+    {
+      "quote": "Les pourcentages de ce tableau sont des plafonds exprimés par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement.",
+      "context": "Lecture du tableau des formules « Soins »",
+      "page": 3
+    },
+    {
+      "quote": "Sont exclus les séjours en établissement médico-sociaux*, dans les \nmaisons de retraite, dans une unité de soins longue durée (USLD) ou dans \nun établissement dont le code DMT est listé en annexe.",
+      "context": "Note (1) du tableau - séjours exclus de l’hospitalisation",
+      "page": 3
+    },
+    {
+      "quote": "Le nombre d’équipements (2 verres + 1 monture) est limité à 1 équipement par période de deux ans, à l’exception des cas pour lesquels un renouvellement anticipé est possible réglementairement. Dans tous les cas, pour chaque assuré, le point de départ de la période correspond à la date de l’équipement.",
+      "context": "Renouvellement optique",
+      "page": 4
+    },
+    {
+      "quote": "Pour l’ensemble des aides auditives prises en charge au titre du contrat, le nombre d’équipement (1 appareil acoustique) est limité à 1 équipement par oreille tous les 4 ans. Dans tous les cas, pour chaque assuré*, le point de départ de la période correspond à la date de l’équipement.",
+      "context": "Renouvellement des aides auditives",
+      "page": 4
+    }
+  ],
+  "gaps": [
+    "51 caractères U+0007 dans la couche texte (34 p. 1, 17 p. 2) : ce ne sont PAS des pertes de texte. Vérification faite sur rendu fitz.Matrix(2.5,2.5) de la p. 1 : chaque U+0007 se trouve en tête d’un item de liste dont le texte est intégralement présent, et correspond à une puce imprimée (coche verte, croix rouge, point d’exclamation rouge ou tiret). Les comptes ferment section par section en p. 1 : 8 garanties systématiques + 8 garanties optionnelles + 3 assistances + 2 services + 3 « n’est pas assuré » + 4 exclusions du contrat responsable + 6 restrictions = 34. Les citations ont été découpées après le U+0007 pour ne pas embarquer le caractère de contrôle.",
+    "Les puces de la p. 2 ne portent pas toutes un U+0007 (les trois premiers items de « Les garanties cessent » n’en ont pas) : le marqueur n’est donc pas systématique, ce qui confirme qu’il ne signale pas un contenu manquant.",
+    "Les deux tableaux annexes (p. 3 et p. 4) sortent de get_text() ligne par ligne puis colonne par colonne. L’appariement valeur/colonne a été reconstruit à partir des abscisses des spans et non de l’ordre du texte : p. 3, en-têtes à x=335,1 (ÉCONOMIQUE), 470,6 (ÉQUILIBRÉE), 600,8 (PROTECTRICE), 735,3 (EXCELLENCE), valeurs alignées à x≈346/479/612/745 ; p. 4, en-têtes à x=269,0 (0), 390,9 (1), 512,8 (2), 634,7 (3), 756,6 (4), valeurs alignées sur les mêmes abscisses. L’ordre à plat s’est révélé identique à l’ordre positionnel sur toutes les lignes contrôlées.",
+    "Cellule imprimée avec une coquille : au niveau 2 de « Appareil acoustique (> 20 ans) » (p. 4) la couche texte donne « 100 % + 300 €` ». Un rendu fitz.Matrix(9,9) de la cellule montre que l’accent grave parasite est bien IMPRIMÉ sur la page. La valeur est reproduite telle quelle, sans correction.",
+    "Pas de faux pied de page : une seule ligne d’édition par page, « DIPA GS 01/2022 » (p. 1, texte pivoté dans la marge droite, bbox x 574-582) et « TG Garantie Santé - 01/22 » (p. 4). Aucune ligne d’édition concurrente ni superposée n’a été trouvée, aucun bloc de texte hors du rectangle de page, aucun en-tête empilé appartenant à un autre produit.",
+    "Le porteur de risque imprimé est Apivia Macif Mutuelle (SIREN n°779 558 501), mutuelle régie par le Livre II du Code de la mutualité — et non la Macif SAM (société d’assurance mutuelle régie par le Code des assurances) que porte le champ insurer_name fourni par la tâche. La couche texte donne bien « SIREN n°779 558 501 » (et non une reformulation d’accessibilité type « Sirène n° 779, 558, 501 »).",
+    "Aucune franchise contractuelle n’est mentionnée : les seules sommes restant à charge citées sont la participation forfaitaire, la franchise annuelle légale et les franchises médicales, qui relèvent du contrat responsable et non d’une franchise du contrat. L’objet `deductibles` est donc renseigné à null sur tous ses champs.",
+    "Aucun délai de prescription n’est imprimé : `prescription_period` laissé null. Aucun délai d’attente / stage n’est mentionné : `waiting_periods` vide. Aucune autorité de contrôle n’est nommée.",
+    "Le caractère optionnel de la ligne « Lentilles de contact » (p. 4) n’est pas tranchable : la p. 1 range les lentilles prises en charge par la Sécurité sociale parmi les garanties systématiques et les lentilles non remboursées parmi les garanties optionnelles, alors que le tableau ne comporte qu’une seule ligne pour les deux. `is_optional` laissé null pour cette ligne, avec les deux lectures en `conditions`.",
+    "Coquilles de l’assureur conservées telles qu’imprimées : « Sécurite sociale » (deux fois, p. 1), « diéteticien » (p. 1, alors que le tableau p. 3 écrit « Diététicien »), « Comission d’Indemnisation » absent ici mais « d’Equipements » sans accent (note (6), p. 4), « 100€ » sans espace (note (10), p. 4).",
+    "Espaces fines U+2009 (7 occurrences, toutes en p. 1) à l’intérieur des pourcentages (« 30 % », « 100 % Santé »…). Les citations les conservent ; elles ont été extraites par découpage programmatique de la couche texte, jamais retapées.",
+    "Deux citations candidates ont été écartées parce qu’elles contenaient une césure par trait d’union à la fin d’une ligne (« systéma-\\ntiquement », « régle-\\nmentairement »), qu’aucune normalisation d’espaces ne répare : les faits correspondants figurent dans les champs structurés (définition « Coche verte », restriction Optique).",
+    "Le texte du prompt n’était pas tronqué. Il a été revérifié contre une extraction locale page à page via page.get_text(\"text\") ; identique à l’exception des sauts de ligne insérés par le harnais autour des marqueurs [[page N]].",
+    "Les cellules « - » du tableau signifient l’absence de la garantie au niveau ou à la formule concernés ; elles ont été reportées telles quelles dans `sub_limits` et jamais converties en exclusion."
+  ]
+}

@@ -71,6 +71,10 @@ Publication annuelle d'information et de transparence sur les droits exprimés e
 - Aucune mention de l'autorité de contrôle (ACPR) ni d'un quelconque dispositif de réclamation ou de médiation dans le document.
 - Texte vérifié : les quotes sont des tranches exactes du texte ré-extrait du PDF local (PyMuPDF, page.get_text("text")), lequel est identique caractère pour caractère au texte fourni dans le prompt une fois les marqueurs [page N] retirés. Le document contient 5 apostrophes typographiques U+2019 (aucune apostrophe ASCII), aucun espace de largeur nulle, aucun tiret conditionnel et aucun glyphe de zone privée.
 
+## Documents liés
+
+- [contrat GARANTIE OBSÈQUES - IPID](contrat%20GARANTIE%20OBS%C3%88QUES%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/26
+
 ## Source & fidélité
 
 - Source : [https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/tableau-principaux-indicateurs-economiques-garantie-obseques.pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/tableau-principaux-indicateurs-economiques-garantie-obseques.pdf) - téléchargé le 2026-08-01 - 1 pages
