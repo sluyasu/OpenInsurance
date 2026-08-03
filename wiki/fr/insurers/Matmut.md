@@ -96,7 +96,7 @@ generated: true
 - [Multirisques Initiale & Co](../products/matmut/Multirisques%20Initiale%20%26%20Co.md) - Conditions générales (10/24) · réf. CG MRSQ AG INIT & Co - 10/24
 
 ### [Chasse](../branches/Chasse.md)
-- [Chasse](../products/matmut/Chasse%20%28Matmut%20%28Mutuelle%20assurance%20des%20travailleurs%20mutualistes%29%20%E2%80%94%20Soci%C3%A9t%C3%A9%20d%27assurance%20mutuelle%20%C3%A0%20cotisations%20variables%2C%20entreprise%20r%C3%A9gie%20par%20le%20Code%20des%20assurances%2C%20Siren%20775%20701%20477%29.md) - Conditions générales (CG CHASSE – 04/26 (mention de pied de page 37 ; aucune autre date d'édition n'est imprimée)) · réf. CG CHASSE – 04/26
+- [Chasse](../products/matmut/Chasse%20%28Matmut%29.md) - Conditions générales (CG CHASSE – 04/26 (mention de pied de page 37 ; aucune autre date d'édition n'est imprimée)) · réf. CG CHASSE – 04/26
 - [Contrat « Chasse » - IPID](../products/matmut/Contrat%20%C2%AB%20Chasse%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (04/26) · réf. IPID.CHASSE. 04/26
 
 ### [EDPM et mobilités douces](../branches/EDPM%20et%20mobilit%C3%A9s%20douces.md)

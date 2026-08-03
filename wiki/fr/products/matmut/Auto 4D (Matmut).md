@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: auto
 product_name: Auto 4D
@@ -49,7 +47,7 @@ generated: true
 
 « Auto 4D » Matmut est le contrat d'assurance Multirisques automobile de la Matmut pour les véhicules terrestres à moteur à 4 roues (voiture particulière, véhicule utilitaire ou camionnette, voiturette) immatriculés en France ou à Monaco. Il est proposé en 4 formules — Tiers, Tiers-Vol-Incendie, Tous risques et Tous risques Plus — chacune combinant des garanties en inclusion et des garanties optionnelles : Responsabilité civile et défense civile, garanties des Dommages au véhicule (bris de pare-brise et de glaces, vol, incendie-attentat-tempête, catastrophes naturelles et technologiques, dommages collision et dommages accidents-vandalisme, accessoires et aménagements), garanties des Dommages aux biens transportés, garanties Renfort indemnisation, garanties Mobilité (assistance, véhicule de remplacement, panne mécanique), garantie du conducteur et garanties de Protection Juridique. Le contrat ne peut être souscrit que par un proposant admis au préalable comme Sociétaire, et la cotisation est variable, la Matmut étant une société d'assurance mutuelle à cotisations variables.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales
 
 ## Définitions
 

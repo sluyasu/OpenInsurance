@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: auto
 product_name: Bonus Matmut & Co
@@ -47,7 +45,7 @@ generated: true
 
 Document d'une page fixant les conditions d'octroi du Bonus Matmut & Co, avantage commercial adossé au contrat Multirisques « Auto 4D Distinguo & Co ». Il permet au bonus d'évoluer au-delà du maximum réglementaire de 50 % (coefficient 0,50) et d'atteindre 65 % (coefficient 0,35), soit 15 % de bonus supplémentaire, en l'absence de sinistre responsable. L'avantage s'applique sur la cotisation hors taxes des garanties Responsabilité civile et Dommages au véhicule assuré et le document est valable jusqu'au 31/12/2026.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions tarifaires · Édition : 01/26
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions tarifaires · Édition : 01/26
 
 ## Garanties
 

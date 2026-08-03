@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: sante
 product_name: Régime frais de santé — CCN des Établissements et services pour personnes
@@ -50,7 +48,7 @@ generated: true
 
 Tableau de garanties 2026 du régime frais de santé de la CCN des Établissements et services pour personnes inadaptées et handicapées du 15 mars 1966 et Accords collectifs des centres d'hébergement de réinsertion sociale, assuré par la Mutuelle Ociane (Groupe Matmut). Le document présente, formule par formule (BASE, OPTION 1, OPTION 2), les niveaux de remboursement en hospitalisation, soins courants, dentaire, optique, aides auditives et autres postes, complétés par les services inclus. Une page de renvois précise les abréviations et les conditions de chaque poste, et des exemples chiffrés illustrent les remboursements. Le document est non contractuel.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit · Édition : 0326 (tableaux « Vos garanties 2026 »)
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit · Édition : 0326 (tableaux « Vos garanties 2026 »)
 
 ## Définitions
 

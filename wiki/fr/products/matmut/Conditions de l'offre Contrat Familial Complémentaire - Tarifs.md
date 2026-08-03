@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: gav
 product_name: Conditions de l’offre Contrat Familial Complémentaire
@@ -45,7 +43,7 @@ generated: true
 
 Document d’une page fixant les conditions d’une offre promotionnelle commerciale — une « Remise à la souscription » — portant sur le contrat Familial Complémentaire de la Matmut. La remise équivaut à 6 mois de cotisation et suppose que le souscripteur, personne physique, souscrive simultanément ou détienne déjà auprès de la Matmut au moins un contrat Habitation Résidence Principale d’une gamme distribuée depuis le 9 octobre 2013 (hors Jeunes, Matmut Etudiants et Hébergement) ou un contrat Multirisques 4 roues, Camping-car ou 2 roues garantissant l’un de cinq types de véhicules énumérés. L’offre vise les nouvelles souscriptions prenant effet entre le 01/01/2026 et le 30/04/2026 inclus. Le document ne décrit aucune garantie d’assurance : il ne porte que sur le prix.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Garantie des accidents de la vie](../../branches/Garantie%20des%20accidents%20de%20la%20vie.md) · Type : Conditions tarifaires · Édition : 01/26
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Garantie des accidents de la vie](../../branches/Garantie%20des%20accidents%20de%20la%20vie.md) · Type : Conditions tarifaires · Édition : 01/26
 
 ## Exclusions
 

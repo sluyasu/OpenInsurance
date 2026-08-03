@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: sante
 product_name: Bien à l’hôpital
@@ -43,7 +41,7 @@ generated: true
 
 Fiche produit d’une page présentant « Bien à l’hôpital », garantie supplémentaire (« renfort ») adossée à un contrat santé, qui verse un forfait de 15 € par jour d’hospitalisation utilisable librement pour couvrir les frais annexes (télévision, chambre particulière, frais de garde). Le versement intervient dès le 4e jour d’hospitalisation (franchise de 3 jours), sans démarche ni justificatif, dans la limite de 90 jours par an dont 30 jours en psychiatrie. L’adhésion est ouverte aux personnes de moins de 75 ans, se renouvelle par tacite reconduction et subit un délai de carence de 3 mois si la garantie est souscrite après le contrat santé. Seules les hospitalisations indemnisées par la Mutuelle Ociane Matmut et commencées après la date d’adhésion ou de modification de garantie sont prises en charge ; l’assureur de la garantie Santé nommé sur le document est Mutuelle Ociane (Livre II du Code de la mutualité).
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit · Édition : 09/25
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit · Édition : 09/25
 
 ## Garanties
 

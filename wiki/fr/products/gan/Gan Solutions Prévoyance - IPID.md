@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Gan Assurances (« Gan Assurances Compagnie française d’assurances et de
-  réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris)
-  — brand of the Groupama group]]'
+insurer: '[[Gan Assurances]]'
 insurer_slug: gan
 branch: prevoyance
 product_name: Gan Solutions Prévoyance
@@ -49,7 +47,7 @@ generated: true
 
 Document d’information d’un produit d’assurance (DIPA/IPID) du produit Gan Solutions Prévoyance, un contrat d’assurance de groupe de prévoyance individuelle souscrit auprès de Groupama Gan Vie par l’association DEMAIN, avec Mutuaide Assistance pour les garanties d’assistance. Le contrat garantit le maintien de revenus en cas d’incapacité ou d’invalidité consécutive à une maladie ou un accident et protège les proches en cas de décès, l’indemnisation se faisant sans déduction des indemnités du régime obligatoire. Les garanties se répartissent entre garanties systématiques (symbole ✔) et garanties optionnelles (symbole •) : capital ou rente décès, décès accidentel, rente d’éducation, rente de conjoint, PTIA, capital maladies redoutées, allocation journalière d’hospitalisation, indemnités journalières d’arrêt de travail selon quatre formules, rentes ou capitaux d’invalidité, et services d’assistance. Le document résume également les exclusions et restrictions principales, les obligations, le paiement des cotisations et les conditions de résiliation.
 
-- Assureur : [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../../insurers/Gan%20Assurances.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : IPID / Fiche d'information · Édition : 032024
+- Assureur : [Gan Assurances](../../insurers/Gan%20Assurances.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : IPID / Fiche d'information · Édition : 032024
 
 ## Définitions
 

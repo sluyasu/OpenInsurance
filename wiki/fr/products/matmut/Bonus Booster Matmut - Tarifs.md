@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: auto
 product_name: Bonus Booster Matmut
@@ -45,7 +43,7 @@ generated: true
 
 Document d'une page fixant les conditions d'octroi du « Bonus Booster Matmut », un avantage commercial adossé au contrat Multirisques « Auto 4D ». Il accélère la progression du coefficient de réduction (bonus) par rapport à l'Annexe à l'article A. 121-1 du Code des assurances, jusqu'à 36 % de bonus (coefficient 0,64) à l'échéance annuelle. Il est réservé aux personnes physiques assurant une voiture particulière hors camping-car ou une camionnette, en usage Actif, Actif « éco-mobilité », Privé ou Retraité, sans sinistre responsable sur la période précédente et dont le coefficient réglementaire à l'échéance est strictement égal à 0,85, 0,80, 0,76, 0,72 ou 0,68. L'avantage s'applique sur la cotisation hors taxes des garanties Responsabilité civile et Dommages au véhicule assuré.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions tarifaires · Édition : 01/26
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions tarifaires · Édition : 01/26
 
 ## Garanties
 

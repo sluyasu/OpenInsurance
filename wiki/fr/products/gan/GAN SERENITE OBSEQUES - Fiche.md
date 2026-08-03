@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Gan Assurances (« Gan Assurances Compagnie française d’assurances et de
-  réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris)
-  — brand of the Groupama group]]'
+insurer: '[[Gan Assurances]]'
 insurer_slug: gan
 branch: obseques
 product_name: GAN SERENITE OBSEQUES
@@ -42,7 +40,7 @@ generated: true
 
 Document de lisibilité obsèques du contrat GAN SERENITE OBSEQUES, présenté comme un « CONTRAT D’ASSURANCE PRÉVOYANCE OBSÈQUES VIE ENTIÈRE » assuré par Groupama Gan Vie. Il ne contient que des tableaux comparatifs chiffrés : les cotisations (annuelles et cumulées en cas de décès à différents âges) et les valeurs de rachat, pour trois âges de souscription (50, 60 et 70 ans) et un capital obsèques garanti de 5 000 € pris à titre d’exemple. Le document précise lui-même que ces tableaux « n’ont pas de valeur contractuelle » et ne décrit ni les garanties, ni les exclusions, ni les modalités du contrat.
 
-- Assureur : [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../../insurers/Gan%20Assurances.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : Fiche produit
+- Assureur : [Gan Assurances](../../insurers/Gan%20Assurances.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : Fiche produit
 
 ## Garanties
 

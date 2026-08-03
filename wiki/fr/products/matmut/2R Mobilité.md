@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: edpm
 product_name: 2R Mobilité
@@ -48,7 +46,7 @@ generated: true
 
 Conditions générales du contrat d'assurance multirisques « 2R Mobilité Matmut », valant projet de contrat au sens de l'article L. 112-2 du Code des assurances, pour un engin de déplacement personnel motorisé (trottinette, gyropode, monoroue, hoverboard, skateboard) identifié par un numéro de série, à moteur ou assistance non thermique et dont la vitesse maximale par construction ne dépasse pas 25 km/h. Deux formules sont proposées, « Tiers » et « Dommages collision », la seconde étant réservée aux trottinettes à moteur non thermique achetées neuves plus de 300 € TTC auprès d'un professionnel, figurant sur une liste agréée et acquises au maximum dans les soixante jours précédant la prise d'effet. Le contrat comprend la Responsabilité civile et Défense civile obligatoire, la Garantie du conducteur, les garanties de Dommages à la trottinette assurée (vol avec effraction, vol avec agression, incendie-attentat-tempête, catastrophes naturelles et technologiques, dommages collision), l'option Équipements de protection, ainsi que la Protection Juridique suite à accident et l'Assistance Juridique. Il ne peut être souscrit que par un proposant admis au préalable comme Sociétaire et la Matmut est une société d'assurance mutuelle à cotisations variables.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [EDPM et mobilités douces](../../branches/EDPM%20et%20mobilit%C3%A9s%20douces.md) · Type : Conditions générales · Édition : 07/25
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [EDPM et mobilités douces](../../branches/EDPM%20et%20mobilit%C3%A9s%20douces.md) · Type : Conditions générales · Édition : 07/25
 
 ## Définitions
 

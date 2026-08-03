@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: sante
 product_name: Régime frais de santé - CCN Établissements sanitaires, sociaux et médico-sociaux
@@ -46,7 +44,7 @@ generated: true
 
 Tableau des garanties 2026 du régime frais de santé de la CCN des Établissements sanitaires, sociaux et médico-sociaux adhérents de la FEHAP, présentant trois niveaux (BASE 1 à BASE 3). Il détaille les remboursements en hospitalisation médicale et chirurgicale, soins courants, médecine douce et prévention, cures thermales, aides auditives, dentaire et optique, exprimés en pourcentage de la Base de Remboursement, en pourcentage du PMSS, en remboursement intégral ou en forfaits, plusieurs lignes étant expressément « Non couverte » pour certains niveaux. Une grille optique (page 4) fixe les montants par type de verre et par monture, pour l'enfant et pour l'adulte. Le document précise qu'il est non contractuel et que le dispositif est mutualisé dans le cadre d'une coassurance de branche.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit
 
 ## Définitions
 

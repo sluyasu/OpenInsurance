@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: chasse
 product_name: Chasse
@@ -49,7 +47,7 @@ generated: true
 
 Conditions générales Matmut « Chasse », valant projet de contrat au sens de l'article L. 112-2 du Code des assurances. Le contrat a pour objet de garantir les risques découlant de la pratique de la chasse telle que définie par les articles L. 420-3, L. 424-4, L. 424-5, L. 424-6 à L. 424-9 du Code de l'environnement, et se décline en deux formules, « Confiance » et « Performance », mentionnées aux Conditions particulières et/ou sur l'attestation d'assurance. La formule Confiance couvre la responsabilité civile du chasseur, du rabatteur et du conducteur de chien de sang ainsi que la Protection Juridique suite à accident ; la formule Performance y ajoute la responsabilité civile « Organisateur » et les garanties de dommages aux armes et aux chiens de chasse. Le contrat ne peut être souscrit que par un proposant admis au préalable comme Sociétaire, il est conclu jusqu'au 30 juin suivant sa date d'effet et ne se renouvelle pas par tacite reconduction. Le document comprend en annexe le barème des honoraires et frais garantis en Protection Juridique, les modalités d'examen des réclamations, la fiche d'information sur le fonctionnement des garanties de responsabilité civile dans le temps et la charte de protection des données à caractère personnel.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Chasse](../../branches/Chasse.md) · Type : Conditions générales · Édition : CG CHASSE – 04/26 (mention de pied de page 37 ; aucune autre date d'édition n'est imprimée)
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Chasse](../../branches/Chasse.md) · Type : Conditions générales · Édition : CG CHASSE – 04/26 (mention de pied de page 37 ; aucune autre date d'édition n'est imprimée)
 
 ## Définitions
 

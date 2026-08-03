@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: retraite
 product_name: CompliceRetraite
@@ -45,7 +43,7 @@ generated: true
 
 Notice du contrat Nova Retraite, un Plan d’Épargne Retraite Individuel souscrit par l’association UFEP (Union Française d’Epargne et de Prévoyance) auprès du Fonds de Retraite Professionnelle Supplémentaire (FRPS) Cardif Retraite et commercialisé par Matmut sous le nom commercial Complice Retraite. L’objet du contrat est la constitution d’une épargne-retraite versée sous forme de capital, de capital fractionné ou de rente viagère à compter, au plus tôt, de la liquidation des droits dans un régime obligatoire d’assurance vieillesse ou de l’âge légal de départ à la retraite, le déblocage anticipé n’étant possible que dans six cas légaux. Le Plan comporte trois compartiments, quatre modes de gestion (Gestion pilotée PER par défaut, Gestion pilotée, Gestion libre, Gestion profilée), un Fonds général Retraite garanti en capital à hauteur des sommes versées nettes de frais et des supports en unités de compte dont la valeur n’est pas garantie. Il prévoit une garantie en cas de décès (capital décès et garantie décès plancher plafonnée à 200 000 euros par adhésion), une garantie optionnelle « table de mortalité » et, pour les Travailleurs Non-Salariés, une option « exonération des versements programmés » couvrant l’Incapacité Temporaire et Totale de travail et l’Invalidité Professionnelle.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Retraite supplémentaire](../../branches/Retraite%20suppl%C3%A9mentaire.md) · Type : Conditions générales · Édition : Octobre 2025
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Retraite supplémentaire](../../branches/Retraite%20suppl%C3%A9mentaire.md) · Type : Conditions générales · Édition : Octobre 2025
 
 ## Définitions
 

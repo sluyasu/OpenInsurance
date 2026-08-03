@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: auto
 product_name: Bonus Booster Nouveau Contrat Matmut & Co
@@ -48,7 +46,7 @@ generated: true
 
 Document d'une page fixant les conditions d'octroi du Bonus Booster Nouveau Contrat Matmut & Co, avantage commercial applicable à la souscription d'un nouveau contrat Multirisques « Auto 4D Distinguo & Co » par un souscripteur en usage Professionnel produisant un relevé d'informations d'une compagnie extérieure au Groupe Matmut. Pour un souscripteur pouvant prétendre à un coefficient de réduction strictement égal à 0,50, le coefficient appliqué à la souscription est porté à 0.42, 0,40 ou 0,36 selon l'ancienneté du bonus de 50 %. L'avantage s'applique sur la cotisation hors taxes des garanties Responsabilité civile et Dommages au véhicule assuré ; le document est valable jusqu'au 31/12/2026.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions tarifaires · Édition : 01-26
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions tarifaires · Édition : 01-26
 
 ## Garanties
 

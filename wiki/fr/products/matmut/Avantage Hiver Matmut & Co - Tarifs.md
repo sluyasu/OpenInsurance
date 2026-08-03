@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: auto
 product_name: Avantage Hiver Matmut & Co
@@ -47,7 +45,7 @@ generated: true
 
 Conditions d'octroi de l'Avantage Hiver Matmut & Co, avantage tarifaire adossé au contrat multirisques « Auto 4D Distinguo & Co » porté par Matmut & Co SA. Le souscripteur qui s'engage à remiser et à ne pas utiliser son véhicule pendant l'hiver bénéficie d'une réduction de 5 % sur le montant de sa cotisation, la garantie Responsabilité civile et, si elles sont souscrites, les garanties Dommages au véhicule demeurant acquises pendant la période d'hivernage. Le document énumère les conditions d'octroi, les modalités de prise d'effet et de suppression, et les sanctions applicables en cas de non-respect. Il est valable jusqu'au 31/12/2026.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions tarifaires · Édition : 2026-01
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions tarifaires · Édition : 2026-01
 
 ## Garanties
 

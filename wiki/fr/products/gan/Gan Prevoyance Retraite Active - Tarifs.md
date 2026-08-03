@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Gan Assurances (« Gan Assurances Compagnie française d’assurances et de
-  réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris)
-  — brand of the Groupama group]]'
+insurer: '[[Gan Assurances]]'
 insurer_slug: gan
 branch: retraite
 product_name: Gan Prevoyance Retraite Active
@@ -42,7 +40,7 @@ generated: true
 
 Fiche d’information sur les frais du contrat Gan Prevoyance Retraite Active, présentée sous le titre « Les Frais de l’assurance-vie ». Le document est un tableau de frais : montant minimal de versement, frais d’adhésion à l’association, frais annuels de gestion du contrat et des supports (fonds euros, unités de compte), frais de gestion des unités de compte par catégorie de fonds avec le taux de rétrocession de commissions, et frais ponctuels par opération. Il ne décrit aucune garantie ni aucune exclusion. Les mentions légales nomment Gan Prévoyance (société d’intermédiation en assurance, mandataire de Groupama Gan Vie) et Groupama Gan Vie, qui s’engage à mettre à jour ces informations annuellement.
 
-- Assureur : [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../../insurers/Gan%20Assurances.md) · Branche : [Retraite supplémentaire](../../branches/Retraite%20suppl%C3%A9mentaire.md) · Type : Conditions tarifaires
+- Assureur : [Gan Assurances](../../insurers/Gan%20Assurances.md) · Branche : [Retraite supplémentaire](../../branches/Retraite%20suppl%C3%A9mentaire.md) · Type : Conditions tarifaires
 
 ## Définitions
 

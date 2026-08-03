@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: sante
 product_name: Régime frais de santé - CCN Prestataires de services - Vos garanties
@@ -45,7 +43,7 @@ generated: true
 
 Tableau des garanties 2026 du régime frais de santé de la CCN des Prestataires de services, présentant quatre niveaux (BASE 1 à BASE 4). Il détaille les remboursements en hospitalisation, transport, soins courants, aides auditives, dentaire, optique, sport sur ordonnance et prévention, exprimés en pourcentage de la Base de Remboursement, en remboursement intégral, en frais réels ou en forfaits, avec une distinction entre médecins adhérents et non adhérents aux dispositifs de pratique tarifaire maîtrisée. Les renvois précisent notamment que la chirurgie esthétique et les établissements médico-sociaux sont hors champ. Le document précise qu'il est non contractuel et renvoie aux conditions générales pour les renouvellements optiques.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit
 
 ## Définitions
 

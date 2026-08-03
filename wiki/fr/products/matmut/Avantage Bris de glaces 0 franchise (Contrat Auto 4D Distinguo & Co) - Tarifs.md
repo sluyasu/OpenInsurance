@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: auto
 product_name: Avantage Bris de glaces 0 franchise
@@ -45,7 +43,7 @@ generated: true
 
 Document d'une page fixant les conditions d'octroi de l'Avantage Bris de glaces 0 franchise pour les titulaires d'un contrat Multirisques « Auto 4D Distinguo & Co » souscrit auprès de Matmut & Co. En cas de remplacement du pare-brise ou d'une autre glace endommagée par un réparateur glacier agréé Matmut, le souscripteur est exonéré de la franchise contractuelle des garanties Bris de pare-brise ou Bris de glaces, laquelle correspond à 15% du montant des dommages. L'avantage vise les sinistres survenus et déclarés auprès des services Matmut entre le 1er janvier 2026 et le 31 décembre 2026 inclus ; le document est valable jusqu'au 31/12/2026.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions tarifaires · Édition : 01-26
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions tarifaires · Édition : 01-26
 
 ## Définitions
 

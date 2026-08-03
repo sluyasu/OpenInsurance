@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Gan Assurances (« Gan Assurances Compagnie française d’assurances et de
-  réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris)
-  — brand of the Groupama group]]'
+insurer: '[[Gan Assurances]]'
 insurer_slug: gan
 branch: obseques
 product_name: Gan Prévoyance Sérénité Obsèques
@@ -42,7 +40,7 @@ generated: true
 
 Document de lisibilité (engagement de place) pour le contrat d’assurance prévoyance obsèques vie entière Gan Prévoyance Sérénité Obsèques, assuré par Groupama Gan Vie. Il est composé exclusivement de six tableaux comparatifs — trois « tableaux comparatifs des cotisations » et trois « tableaux comparatifs des valeurs de rachat » — établis pour des souscriptions à 50, 60 et 70 ans et un capital obsèques garanti de 5 000 € pris à titre d’exemple. Chaque tableau confronte les modalités de paiement (viager, temporaire 25/20/15/10/5 ans, prime unique) et porte la mention qu’il « n’a pas de valeur contractuelle ». Le document ne décrit ni les garanties, ni les carences, ni les exclusions du contrat, auxquelles il se contente de renvoyer.
 
-- Assureur : [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../../insurers/Gan%20Assurances.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : Fiche produit · Édition : 032026
+- Assureur : [Gan Assurances](../../insurers/Gan%20Assurances.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : Fiche produit · Édition : 032026
 
 ## Garanties
 

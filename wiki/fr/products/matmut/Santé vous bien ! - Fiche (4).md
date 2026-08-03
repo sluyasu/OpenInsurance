@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: sante
 product_name: Santé vous bien !
@@ -44,7 +42,7 @@ generated: true
 
 Fiche produit de la complémentaire santé individuelle « Santé vous bien ! », présentée comme « la mutuelle santé personnalisable », assurée par la Mutuelle Ociane (Groupe Matmut). Les garanties 2026 se composent de deux tableaux combinables : « Bien pour ma tête » (optique, dentaire, aides auditives) en trois niveaux TÊTE 1 à TÊTE 3, et « Bien pour mon corps » (hospitalisation, pharmacie, soins courants, services de médecine à distance, sport sur ordonnance) en trois niveaux CORPS 1 à CORPS 3 (cette fiche ne comporte pas les rubriques de confort : chambre particulière, médicaments à SMR modéré ou faible, médecines douces et cure thermale n'y figurent pas). S'y ajoutent des packs inclus évoluant avec l'âge, des services (assistance, coaching, gestes qui sauvent), des forfaits fidélité et des garanties supplémentaires en option. Le document est non contractuel.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit · Édition : 2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit · Édition : 2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)
 
 ## Définitions
 

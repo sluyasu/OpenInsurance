@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Gan Assurances (« Gan Assurances Compagnie française d’assurances et de
-  réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris)
-  — brand of the Groupama group]]'
+insurer: '[[Gan Assurances]]'
 insurer_slug: gan
 branch: assurance-vie
 product_name: Gan Assurance Capitalisation Exception
@@ -42,7 +40,7 @@ generated: true
 
 Fiche « Les Frais de l'assurance-vie » du contrat Gan Assurance Capitalisation Exception, publiée au titre de l'engagement de transparence annuelle de Groupama Gan Vie. Elle indique le montant minimal de versement, les frais annuels de gestion du contrat (supports fonds euros, unités de compte, gestion déléguée), les frais moyens de gestion des unités de compte par classe d'actifs avec les taux de rétrocessions de commissions correspondants, et les frais ponctuels par opération. Le document ne décrit ni garanties ni exclusions : il ne porte que sur les frais. Les mentions légales indiquent que Gan Assurances distribue les produits de Groupama Gan Vie.
 
-- Assureur : [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../../insurers/Gan%20Assurances.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Conditions tarifaires
+- Assureur : [Gan Assurances](../../insurers/Gan%20Assurances.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Conditions tarifaires
 
 ## Définitions
 

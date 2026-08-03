@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: auto
 product_name: Conditions de l’Avantage Petit Rouleur Matmut
@@ -44,7 +42,7 @@ generated: true
 
 Document d'une page fixant les conditions d'octroi de l'Avantage Petit Rouleur Matmut, une réduction tarifaire de 5 %, 7 % ou 10 % selon le lieu de garage habituel du véhicule, accordée au souscripteur parcourant 5 000 km au maximum par an. L'avantage suppose d'être une personne physique, titulaire d'un contrat Multirisques 4 roues Référence ou Essentiel Matmut garantissant une voiture particulière hors camping-car ou une camionnette, et d'avoir opté pour un Usage Actif ou Sérénité. La réduction s'applique sur la cotisation hors taxes de toutes les garanties souscrites, sauf une liste de garanties expressément écartées. Le document prévoit la suppression immédiate de l'avantage en cas de perte des conditions et rappelle les sanctions des articles L. 113-8 et L. 113-9 du Code des assurances ; il ne décrit aucune garantie.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions tarifaires · Édition : 01/26
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions tarifaires · Édition : 01/26
 
 ## Définitions
 

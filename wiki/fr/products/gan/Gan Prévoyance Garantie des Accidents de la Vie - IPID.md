@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Gan Assurances (« Gan Assurances Compagnie française d’assurances et de
-  réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris)
-  — brand of the Groupama group]]'
+insurer: '[[Gan Assurances]]'
 insurer_slug: gan
 branch: gav
 product_name: Gan Prévoyance Garantie des Accidents de la Vie
@@ -45,7 +43,7 @@ generated: true
 
 Document d’information (IPID) du produit « Gan Prévoyance Garantie des Accidents de la Vie », contrat d’assurance de groupe à adhésion facultative souscrit par l’association A3P auprès de Groupama Gan Vie. Il garantit le versement d’une indemnité en cas d’accident de la vie privée, d’accident médical ou d’accident de la circulation automobile à l’étranger entraînant une atteinte permanente à l’intégrité physique et/ou psychique au moins égale au seuil d’intervention choisi (5 %, 10 % ou 30 %), ou un décès. L’indemnisation est plafonnée à 2 millions d’euros par assuré et par évènement. Le contrat inclut également une protection juridique et des garanties d’assistance au domicile et en déplacement.
 
-- Assureur : [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../../insurers/Gan%20Assurances.md) · Branche : [Garantie des accidents de la vie](../../branches/Garantie%20des%20accidents%20de%20la%20vie.md) · Type : IPID / Fiche d'information · Édition : 032023
+- Assureur : [Gan Assurances](../../insurers/Gan%20Assurances.md) · Branche : [Garantie des accidents de la vie](../../branches/Garantie%20des%20accidents%20de%20la%20vie.md) · Type : IPID / Fiche d'information · Édition : 032023
 
 ## Garanties
 

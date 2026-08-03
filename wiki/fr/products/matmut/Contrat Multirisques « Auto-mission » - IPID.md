@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: auto
 product_name: Contrat Multirisques « Auto-mission »
@@ -49,7 +47,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du contrat Multirisques « Auto-mission » de la Matmut. Le contrat permet à une entité souscriptrice (entreprise, association, comité d'entreprise, mutuelle ou collectivité) de garantir les risques découlant de l'utilisation occasionnelle, par ses préposés, salariés ou administrateurs, de leur véhicule à moteur personnel lors de déplacements professionnels ; il se substitue au contrat personnel de ces personnes exclusivement dans ces situations. Il garantit la responsabilité civile, les dommages corporels du conducteur, les dommages matériels subis par le véhicule assuré, l'assistance au véhicule et aux personnes transportées et des garanties de protection juridique. La cotisation est ajustée sur le nombre de kilomètres réellement parcourus, déclaré chaque année au plus tard le 31 janvier.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 01/24
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 01/24
 
 ## Garanties
 

@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: sante
 product_name: Régime frais de santé - CCN Commerce de détail de l'habillement et des
@@ -46,7 +44,7 @@ generated: true
 
 Tableau des garanties 2026 du régime frais de santé de la CCN du Commerce de détail de l'habillement et des articles textiles, présentant trois niveaux : BASE, BASE + OPTION 1 et BASE + OPTION 2. Il détaille les remboursements en soins courants, aides auditives, cure thermale, hospitalisation, maternité, optique, dentaire, médecines complémentaires, prévention et sport sur ordonnance, exprimés en pourcentage de la Base de Remboursement, en pourcentage du PMSS, en remboursement intégral, en frais réels ou en forfaits, avec une distinction entre praticiens adhérents aux dispositifs de pratique tarifaire maîtrisée et autres praticiens. Les renvois listent notamment les types de séjours exclus de la prise en charge de la chambre particulière. Le document précise qu'il est non contractuel.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit
 
 ## Définitions
 

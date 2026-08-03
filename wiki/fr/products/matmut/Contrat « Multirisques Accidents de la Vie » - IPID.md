@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: gav
 product_name: Contrat « Multirisques Accidents de la Vie »
@@ -47,7 +45,7 @@ generated: true
 
 Document d'information (IPID) du contrat « Multirisques Accidents de la Vie » de la Matmut, présenté sous l'intitulé « ASSURANCE ACCIDENTS DE LA VIE ». Le contrat a pour objet de garantir les conséquences corporelles des accidents de la vie privée et professionnelle ; trois formules (Individuelle, Couple ou Famille) et deux niveaux de protection sont proposés. Quatorze garanties sont présentées comme systématiquement prévues selon la nature des dommages : dix en cas de blessures (indemnisation pouvant atteindre 1 530 000 €, dont incapacité permanente et professionnelle jusqu'à 1 290 000 €) et quatre en cas de décès (indemnisation pouvant atteindre 1 040 000 €, dont préjudice patrimonial jusqu'à 1 000 000 €). Le document précise que seuls les montants du niveau de protection le plus élevé sont indiqués.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Garantie des accidents de la vie](../../branches/Garantie%20des%20accidents%20de%20la%20vie.md) · Type : IPID / Fiche d'information · Édition : 01/26
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Garantie des accidents de la vie](../../branches/Garantie%20des%20accidents%20de%20la%20vie.md) · Type : IPID / Fiche d'information · Édition : 01/26
 
 ## Garanties
 

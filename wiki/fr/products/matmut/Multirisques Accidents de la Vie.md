@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: gav
 product_name: Multirisques Accidents de la Vie
@@ -48,7 +46,7 @@ generated: true
 
 Conditions générales du contrat Matmut Multirisques Accidents de la Vie (garantie des accidents de la vie), valant projet de contrat au sens de l'article L. 112-2 du Code des assurances. Le contrat garantit le paiement d'indemnités en cas d'accident corporel de la vie courante (accidents domestiques, scolaires, de sport ou de loisirs, accidents médicaux, accidents de service ou de travail, agressions et attentats) occasionnant une incapacité permanente à l'assuré ou entraînant son décès. Il se décline en trois formules (Famille, Couple, Individuelle) et deux niveaux de garantie (Niveau 1 et Niveau 2), avec un seuil de déclenchement de 10 % d'incapacité permanente (AIPP) pour la plupart des garanties en cas de blessures, et de 30 % pour les prestations d'accompagnement personnalisé. Le document comprend également les modalités d'examen des réclamations et la charte de protection des données à caractère personnel.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Garantie des accidents de la vie](../../branches/Garantie%20des%20accidents%20de%20la%20vie.md) · Type : Conditions générales
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Garantie des accidents de la vie](../../branches/Garantie%20des%20accidents%20de%20la%20vie.md) · Type : Conditions générales
 
 ## Définitions
 

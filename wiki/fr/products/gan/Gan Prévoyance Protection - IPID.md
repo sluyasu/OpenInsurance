@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Gan Assurances (« Gan Assurances Compagnie française d’assurances et de
-  réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris)
-  — brand of the Groupama group]]'
+insurer: '[[Gan Assurances]]'
 insurer_slug: gan
 branch: prevoyance
 product_name: Gan Prévoyance Protection
@@ -48,7 +46,7 @@ generated: true
 
 Document d’information (IPID/DDA) du contrat « Gan Prévoyance Protection », présenté sous l’intitulé « MULTIRISQUES PRÉVOYANCE INDIVIDUELLE ». Il s’agit d’un produit d’assurance de groupe à adhésion individuelle, souscrit par l’association A3P, garantissant le maintien de revenus en cas d’incapacité ou d’invalidité consécutive à une maladie ou à un accident et le versement de prestations aux proches en cas de décès. L’assuré choisit les garanties (décès, PTIA, maladies redoutées, hospitalisation, indemnités journalières, invalidité), le type d’indemnité journalière et la durée de versement. Deux compagnies sont imprimées : Groupama Gan Vie (RCS Paris 340 427 616) pour l’assurance et Mutuaide Assistance (RCS Bobigny 383 974 086) pour l’assistance ; « Gan Assurances » n’apparaît nulle part.
 
-- Assureur : [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../../insurers/Gan%20Assurances.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : IPID / Fiche d'information · Édition : 122023
+- Assureur : [Gan Assurances](../../insurers/Gan%20Assurances.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : IPID / Fiche d'information · Édition : 122023
 
 ## Définitions
 

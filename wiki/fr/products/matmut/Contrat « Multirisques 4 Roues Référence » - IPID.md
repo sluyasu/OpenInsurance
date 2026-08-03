@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: auto
 product_name: Contrat « Multirisques 4 Roues Référence »
@@ -47,7 +45,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du contrat « Multirisques 4 Roues Référence » de la Matmut. Le contrat a pour objet de garantir le conducteur ou le gardien d'un véhicule automobile ou d'un engin attelé contre les conséquences des dommages matériels et corporels causés à des tiers (Responsabilité civile) ; le document précise qu'il s'agit d'une assurance obligatoire. Trois garanties sont en inclusion systématique — Responsabilité civile en et hors circulation, Protection Juridique suite à accident et Assistance au véhicule et aux personnes transportées — les autres (dommages au véhicule, vol, incendie, dommages corporels du conducteur, panne mécanique, autopartage, etc.) étant optionnelles. Les plafonds détaillés figurent aux Conditions générales.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 10/24
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 10/24
 
 ## Garanties
 

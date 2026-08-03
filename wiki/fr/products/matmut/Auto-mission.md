@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: auto
 product_name: Auto-mission
@@ -51,7 +49,7 @@ generated: true
 
 Conditions Générales du contrat Multirisques « Auto-mission » de la Matmut, valant projet de contrat au sens de l’article L. 112-2 du Code des assurances. Le contrat est souscrit par un employeur (entreprise, association, comité d’entreprise, mutuelle ou collectivité) pour couvrir les risques nés de l’utilisation occasionnelle, par ses préposés, salariés et administrateurs, de leur véhicule à moteur personnel à 2 ou 4 roues immatriculé en France ou à Monaco lors de déplacements professionnels autorisés ; il se substitue au contrat d’assurance personnel couvrant habituellement ce véhicule. Il comprend la Responsabilité civile et la Défense civile obligatoires, des garanties de dommages au véhicule (bris de glaces, vol, incendie-attentat-tempête, catastrophes naturelles et technologiques, dommages accidents-vandalisme-événements naturels, accessoires et aménagements), le contenu privé, des garanties Mobilité (assistance, indisponibilité du véhicule), la protection du conducteur (dommages corporels, équipements de protection) et deux garanties de Protection Juridique, chacune n’étant acquise que si elle figure aux Conditions Particulières. Les dommages survenus lors d’un usage privé ou du trajet domicile-travail sont exclus, de même que les véhicules dont le souscripteur est lui-même propriétaire ou locataire.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : 01/24
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : 01/24
 
 ## Définitions
 

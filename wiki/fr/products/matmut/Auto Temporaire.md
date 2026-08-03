@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: auto
 product_name: Auto Temporaire
@@ -48,7 +46,7 @@ generated: true
 
 Conditions générales « Assurance Auto Temporaire » Matmut, valant projet de contrat au sens de l'article L. 112-2 du Code des assurances. Le contrat garantit les risques découlant de l'usage et/ou de la garde d'un véhicule immatriculé en France, n'appartenant pas au souscripteur, loué ou emprunté à un professionnel ou à un particulier. Il couvre la Responsabilité civile et la Défense civile, les dommages au véhicule assuré (bris de glaces, vol, incendie-attentat-tempête, catastrophes naturelles et technologiques, dommages accidents-vandalisme-événements naturels, accessoires et aménagements), les marchandises et l'outillage professionnels transportés, l'assistance au véhicule et aux personnes transportées, la garantie du conducteur, les équipements de protection du conducteur et la Protection Juridique suite à accident, dans les limites des Conditions particulières. Il est souscrit pour une durée déterminée de date à date indiquée aux Conditions particulières et ne peut être souscrit que par un proposant admis au préalable comme Sociétaire.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : 10/24
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : 10/24
 
 ## Définitions
 

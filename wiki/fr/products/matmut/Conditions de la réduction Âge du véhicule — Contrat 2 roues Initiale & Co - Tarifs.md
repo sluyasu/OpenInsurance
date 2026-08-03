@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: moto
 product_name: Conditions de la réduction Âge du véhicule — Contrat 2 roues Initiale
@@ -45,7 +43,7 @@ generated: true
 
 Document tarifaire d’une page fixant les conditions d’octroi de la réduction « Âge du véhicule » sur le contrat Multirisques 2 roues Initiale & Co (formules Urbaine ou Équilibre) souscrit auprès de Matmut & Co. La réduction porte sur la cotisation des garanties Dommages au véhicule et s’élève à 5 % lorsque le véhicule assuré a plus de 5 ans et 10 % lorsqu’il a plus de 10 ans, à compter de l’année suivant celle du 5e ou du 10e anniversaire du véhicule depuis sa 1re année de mise en circulation. Les véhicules éligibles sont les motocyclettes et tricycles à moteur de plus de 50 cm3 et/ou dont la vitesse dépasse 45 km/h au sens de l’article R. 311-1 du Code de la route. Le document ne décrit aucune garantie, aucune exclusion et aucune modalité de sinistre : il ne porte que sur le mécanisme de la réduction, et il est valable jusqu’au 31/12/2026.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Deux-roues, quads et voiturettes](../../branches/Deux-roues%2C%20quads%20et%20voiturettes.md) · Type : Conditions tarifaires · Édition : 01-26
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Deux-roues, quads et voiturettes](../../branches/Deux-roues%2C%20quads%20et%20voiturettes.md) · Type : Conditions tarifaires · Édition : 01-26
 
 ## Prime
 

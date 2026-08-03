@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: multirisque-professionnelle
 product_name: Association
@@ -47,7 +45,7 @@ generated: true
 
 Conditions Générales du contrat Matmut « Association », valant projet de contrat au sens de l'article L. 112-2 du Code des assurances. Le contrat a pour objet, en fonction de la formule souscrite, d'assurer les responsabilités et/ou les biens dans le cadre des activités exercées par l'association assurée. Deux formules sont proposées : la formule 1 réunit les garanties de Responsabilité civile (« Vie associative », « Immeuble », « Dirigeant »), l'Assistance aux adhérents en déplacement, les Dommages corporels et les garanties de Protection Juridique ; la formule 2 y ajoute les garanties de Dommages aux biens (incendie, vol, dégâts des eaux, événements climatiques, bris de glaces, inondation et catastrophes naturelles) et l'Assistance au local associatif. Le document comprend en annexes le barème des honoraires et frais garantis de Protection Juridique, les garanties d'Assistance, les modalités d'examen des réclamations, la fiche d'information sur le fonctionnement des garanties « Responsabilité civile » dans le temps et la charte de protection des données à caractère personnel.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : Conditions générales · Édition : 11/24
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : Conditions générales · Édition : 11/24
 
 ## Définitions
 

@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: auto
 product_name: Multirisques Initiale & Co
@@ -51,7 +49,7 @@ generated: true
 
 Conditions générales du contrat d'assurance Multirisques « Initiale & Co » de Matmut & Co, valant projet de contrat au sens de l'article L. 112-2 du Code des assurances. Le contrat a pour objet de garantir les risques découlant de la propriété, de l'usage et/ou de la garde du véhicule assuré : camion, engin professionnel, scooter électrique modulaire, microtracteur, caravane, remorque ou engin attelé dont le poids total en charge est supérieur à 500 kg, immatriculé en France ou à Monaco. Cinq formules sont proposées (Tiers, Tiers-Bris de glaces, Tiers-Vol-Incendie, Urbaine, Équilibre), chacune combinant un socle de garanties en inclusion et des garanties optionnelles : Responsabilité civile et défense civile, garanties des dommages au véhicule (bris de glaces, vol, incendie-attentat-tempête, catastrophes naturelles et technologiques, dommages collision, dommages accidents-vandalisme, accessoires et aménagements, exonérations spécifiques de franchise), marchandises et outillage professionnels transportés, garanties Mobilité (assistance, assistance panne 0 kilomètre/rétention administrative du permis, indisponibilité du véhicule), garantie Dommages corporels du conducteur à deux niveaux, et deux garanties de Protection Juridique. Le document contient également les modalités d'examen des réclamations, la fiche d'information relative au fonctionnement des garanties « Responsabilité civile » dans le temps et la charte de protection des données à caractère personnel.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : 10/24
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : 10/24
 
 ## Définitions
 

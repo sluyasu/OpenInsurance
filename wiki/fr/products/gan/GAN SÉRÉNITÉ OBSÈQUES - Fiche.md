@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Gan Assurances (« Gan Assurances Compagnie française d’assurances et de
-  réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris)
-  — brand of the Groupama group]]'
+insurer: '[[Gan Assurances]]'
 insurer_slug: gan
 branch: obseques
 product_name: GAN SÉRÉNITÉ OBSÈQUES
@@ -43,7 +41,7 @@ generated: true
 
 Document d’informations clés (DIC/PRIIPs) de GAN SÉRÉNITÉ OBSÈQUES, contrat d’assurance de groupe prévoyance vie entière à adhésion facultative souscrit auprès de Groupama Gan Vie par l’association DEMAIN, relevant des branches 20 (Vie-Décès) et 18 (Assistance). Il prévoit le paiement au(x) bénéficiaire(s) désigné(s) d’un capital destiné au financement des obsèques de l’investisseur assuré, versé soit à l’opérateur funéraire, soit à la personne physique ayant acquitté la facture, dans la limite du capital garanti, et inclut des garanties d’assistance. Le document décrit principalement les risques (classe de risque 1 sur 7), les coûts et les modalités de sortie ; il ne contient pas de tableau de garanties ni de section d’exclusions contractuelles.
 
-- Assureur : [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../../insurers/Gan%20Assurances.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : Fiche produit · Édition : 2023-03-01
+- Assureur : [Gan Assurances](../../insurers/Gan%20Assurances.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : Fiche produit · Édition : 2023-03-01
 
 ## Définitions
 

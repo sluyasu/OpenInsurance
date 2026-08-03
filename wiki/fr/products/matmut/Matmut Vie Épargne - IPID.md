@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: assurance-vie
 product_name: Matmut Vie Épargne
@@ -46,7 +44,7 @@ generated: true
 
 Document d'informations clés (DIC) du contrat Matmut Vie Épargne, contrat collectif d'assurance sur la vie libellé en euros à adhésion facultative, d'une durée viagère. Le document précise qu'aucune prestation d'assurance n'est incluse, que l'épargne investie (montant versé - frais sur versements - frais de gestion annuels) ne peut qu'augmenter et que la rémunération du capital disponible est déterminée annuellement par la participation aux bénéfices, 100 % du solde positif du compte de résultat technique et financier étant affecté à la provision pour participation aux bénéfices. Le produit est classé 1 sur 7 sur l'indicateur synthétique de risque, la classe la plus basse, et la période de détention recommandée est de 8 ans. Le produit est présenté comme émis par Matmut Vie (Société Anonyme, N° 344 898 358 RCS Rouen) et soumis au contrôle de l'Autorité de Contrôle Prudentiel et de Résolution.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : IPID / Fiche d'information · Édition : 1er février 2025
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : IPID / Fiche d'information · Édition : 1er février 2025
 
 ## Définitions
 

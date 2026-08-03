@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: gav
 product_name: Contrat « Multirisques Accidents de la Vie Sérénité »
@@ -46,7 +44,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du contrat « Multirisques Accidents de la Vie Sérénité », garantie des accidents de la vie portée par Matmut - Mutuelle assurance des travailleurs mutualistes (775 701 477 RCS Rouen). Le contrat garantit les conséquences corporelles des accidents de la vie privée et professionnelle, en trois formules (Individuelle, Couple ou Famille). En cas de blessures l'indemnisation peut atteindre 557 500 € (incapacité permanente jusqu'à 375 000 €, souffrances endurées et préjudice esthétique 32 000 € chacun, frais d'adaptation du logement 60 000 € et du véhicule 30 000 €, prothèses 20 000 €, forfait hospitalisation 50 €/jour plafonné à 1 500 €, pertes de revenus 8 500 €) ; en cas de décès, jusqu'à 402 000 € (préjudice patrimonial 400 000 €, frais d'obsèques 2 000 €). Des seuils d'intervention de 10 % et 30 % d'incapacité permanente conditionnent plusieurs garanties.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Garantie des accidents de la vie](../../branches/Garantie%20des%20accidents%20de%20la%20vie.md) · Type : IPID / Fiche d'information · Édition : 01/26
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Garantie des accidents de la vie](../../branches/Garantie%20des%20accidents%20de%20la%20vie.md) · Type : IPID / Fiche d'information · Édition : 01/26
 
 ## Garanties
 

@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: auto
 product_name: Camping-car Auto 4D
@@ -50,7 +48,7 @@ generated: true
 
 Conditions générales du contrat d'assurance Multirisques « Camping-car Auto 4D » Matmut, valant projet de contrat au sens de l'article L. 112-2 du Code des assurances. Le contrat garantit les risques découlant de la propriété, de l'usage et/ou de la garde d'un camping-car immatriculé en France ou à Monaco et soumis à l'obligation légale d'assurance ; il ne peut être souscrit que par un proposant préalablement admis comme Sociétaire de la Matmut. Il est proposé en 4 formules — Tiers, Tiers-Vol-Incendie, Tous risques et Tous risques Plus — combinant garanties en inclusion et options : Responsabilité civile et défense civile, garanties des Dommages au véhicule assuré (bris de pare-brise et de glaces, vol, incendie-attentat-tempête, catastrophes naturelles et technologiques, dommages collision, dommages accidents-vandalisme, accessoires et aménagements), garanties des Dommages aux biens transportés (effets personnels, marchandises et outillage professionnels), garanties Renfort indemnisation, garanties Mobilité (assistance, assistance panne 0 km, véhicule de remplacement, panne mécanique), garantie du conducteur et garanties de Protection Juridique. Les spécificités camping-car sont explicites : les aménagements « camping/caravaning » (auvent, chauffe-eau…) sont assimilés à des éléments du véhicule assuré, les baies de la cellule sont exclues du Bris de glaces, la cellule aménagée et ses équipements sont hors garantie Panne mécanique, le véhicule de remplacement ne peut pas être un camping-car et les dommages purement esthétiques non réparés d'un camping-car ne sont évalués qu'à 25 % du coût estimé hors taxes des réparations. Le porteur de risque désigné par « Nous » est la Matmut, Société d'assurance mutuelle à cotisations variables (article 39-4 : le Conseil d'Administration peut décider un rappel de cotisation, plafonné à deux fois le montant de la cotisation annuelle appelée), sauf pour la garantie Protection Juridique relative au bien assuré, portée par Matmut Protection Juridique (SA au capital de 7 500 000 €, N° 423 499 391 RCS Rouen), et pour les garanties d'Assistance, mises en œuvre par Matmut Assistance / Inter Mutuelles Assistance GIE.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales
 
 ## Définitions
 

@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: sante
 product_name: Régime de frais de santé – Contrat collectif (Accord interbranche CCN
@@ -54,7 +52,7 @@ generated: true
 
 Notice d'information du régime de frais de santé institué par l'Accord interbranche du 2 octobre 2019 pour la Convention collective nationale des établissements et services pour personnes inadaptées et handicapées du 15 mars 1966 (à laquelle est rattachée la CCN des médecins spécialistes qualifiés du 1er mars 1979) et pour les accords collectifs des centres d'hébergement et de réinsertion sociale. Il s'agit d'un contrat collectif à adhésion obligatoire souscrit par l'employeur au bénéfice de son personnel salarié, ayant pour objet de compléter les prestations en nature versées par la Sécurité sociale en remboursement des frais médico-chirurgicaux occasionnés par une maladie ou un accident. Cette édition décrit le régime de base conventionnel obligatoire pour le salarié et facultatif pour ses ayants droit, complété par deux régimes optionnels facultatifs (option 1 et option 2). La garantie est un contrat « responsable » au sens des articles L. 871-1, R. 871-1 et R. 871-2 du Code de la Sécurité sociale ; la gestion est confiée à l'un des cinq organismes assureurs listés, dont la Mutuelle Ociane Matmut.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : janvier 2023
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : janvier 2023
 
 ## Définitions
 

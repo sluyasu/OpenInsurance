@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Gan Assurances (« Gan Assurances Compagnie française d’assurances et de
-  réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris)
-  — brand of the Groupama group]]'
+insurer: '[[Gan Assurances]]'
 insurer_slug: gan
 branch: prevoyance
 product_name: Gan Prévoyance Protection
@@ -45,7 +43,7 @@ generated: true
 
 Document d'illustration du contrat de prévoyance Gan Prévoyance Protection destiné aux travailleurs non-salariés, présentant des exemples de prise en charge au 01/01/2026 des garanties incapacité, invalidité et décès. Pour un profil type (commerçant de 50 ans, marié, un enfant de 13 ans, revenu annuel brut de 43 000 €), il met en regard, garantie par garantie, ce que verse le régime obligatoire (Sécurité sociale des indépendants) et ce que verserait le contrat de prévoyance, avec deux niveaux d'exemples chiffrés et le total cumulé. Il couvre le capital décès, la rente éducation, la rente d'invalidité permanente et les indemnités journalières complémentaires, et cite les options facultatives proposées par le contrat. Le document précise qu'il ne se substitue pas aux documents contractuels.
 
-- Assureur : [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../../insurers/Gan%20Assurances.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : Fiche produit · Édition : 01/01/2026
+- Assureur : [Gan Assurances](../../insurers/Gan%20Assurances.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : Fiche produit · Édition : 01/01/2026
 
 ## Définitions
 

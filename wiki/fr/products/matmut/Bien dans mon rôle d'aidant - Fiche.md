@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: sante
 product_name: Bien dans mon rôle d’aidant
@@ -43,7 +41,7 @@ generated: true
 
 Fiche produit d’une page présentant « Bien dans mon rôle d’aidant », garantie supplémentaire adossée à un contrat santé et destinée à accompagner l’assuré dans son rôle d’aidant. Le document annonce quatre packs évolutifs inclus (Conseils et accompagnement, Indisponibilité de l’aidant, Répit, Lieu de vie), un coût de 6 € par mois et un délai de carence de 3 mois lorsque la garantie est souscrite postérieurement au contrat santé. L’assureur de la garantie Santé y est nommé Mutuelle Ociane, mutuelle soumise au Livre II du Code de la mutualité, et les prestations d’assistance sont réalisées par IMA GIE. La fiche ne contient ni détail chiffré des prestations, ni exclusions, ni modalités de déclaration de sinistre.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit · Édition : 08/25
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit · Édition : 08/25
 
 ## Garanties
 

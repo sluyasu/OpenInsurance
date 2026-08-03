@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: sante
 product_name: Régime frais de santé CCN Industries et des commerces de gros de vins,
@@ -47,7 +45,7 @@ generated: true
 
 Tableau de garanties du régime frais de santé de la CCN Industries et des commerces de gros de vins, cidres, spiritueux, sirops, jus de fruits et boissons diverses, présentant trois niveaux de couverture (NIVEAU 1, NIVEAU 2, NIVEAU 3) pour les actes médicaux, l'hospitalisation (y compris obstétrique), des garanties complémentaires, le dentaire, l'optique, les aides auditives et le sport sur ordonnance. Les remboursements sont exprimés en pourcentage de la Base de Remboursement (BR) y compris la part du régime obligatoire, en frais réels ou en forfaits en euros. Le document ajoute une assistance et une série de services inclus dans les trois niveaux, puis des exemples chiffrés de remboursements. Il précise être un document non contractuel.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit
 
 ## Définitions
 

@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: auto
 product_name: Avantage Éco Malin Matmut
@@ -45,7 +43,7 @@ generated: true
 
 Conditions d'octroi de l'Avantage Éco Malin Matmut, avantage tarifaire adossé au contrat d'assurance Multirisques Auto 4D Matmut (gamme Auto 4D). En contrepartie d'engagements de réparation automobile éco-responsable, le souscripteur bénéficie d'une réduction tarifaire de 5 % sur sa cotisation d'assurance et, en cas de perte totale du véhicule assuré, de la prise en charge de 12 mois de cotisation d'assurance du véhicule électrique venant en remplacement. Le document énumère les conditions d'octroi, les engagements du souscripteur et les conséquences de leur non-respect. Il est valable jusqu'au 31/12/26.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions tarifaires · Édition : 2026-01
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions tarifaires · Édition : 2026-01
 
 ## Définitions
 

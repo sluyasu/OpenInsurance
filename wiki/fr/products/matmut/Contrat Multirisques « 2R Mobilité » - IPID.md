@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: edpm
 product_name: Contrat Multirisques « 2R Mobilité »
@@ -45,7 +43,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) du contrat Multirisques « 2R Mobilité » de la Matmut, intitulé « ASSURANCE ENGIN DE DÉPLACEMENT PERSONNEL MOTORISÉ ». Le contrat garantit le conducteur ou le gardien d’un engin de déplacement personnel motorisé (trottinette, gyropode, monoroue, hoverboard ou skateboard à moteur non thermique) contre les conséquences des dommages matériels et corporels causés à des tiers ; il s’agit d’une assurance obligatoire. Sont systématiquement prévues la responsabilité civile, la garantie du conducteur, la protection juridique suite à accident et l’assistance juridique. Les garanties de dommages (vol, incendie-attentat-tempête, catastrophes naturelles et technologiques, dommages collision, équipements de protection) sont optionnelles et exclusivement réservées aux trottinettes à moteur non thermique répondant à des conditions d’éligibilité.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [EDPM et mobilités douces](../../branches/EDPM%20et%20mobilit%C3%A9s%20douces.md) · Type : IPID / Fiche d'information · Édition : 07/25
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [EDPM et mobilités douces](../../branches/EDPM%20et%20mobilit%C3%A9s%20douces.md) · Type : IPID / Fiche d'information · Édition : 07/25
 
 ## Garanties
 

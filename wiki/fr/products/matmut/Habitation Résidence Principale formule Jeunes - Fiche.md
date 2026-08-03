@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: habitation
 product_name: Habitation Résidence Principale formule Jeunes
@@ -45,7 +43,7 @@ generated: true
 
 Fiche d'une page intitulée « LES GARANTIES DE L’ASSURANCE HABITATION RÉSIDENCE PRINCIPALE FORMULE JEUNES », présentant un tableau à une seule formule (« FORMULE JEUNES ») et une colonne « CAPITAL MOBILIER » portant la valeur 6 000 €. Le contrat est réservé aux jeunes de moins de 28 ans sans enfant, propriétaires, locataires ou occupants à titre gratuit d'un appartement d'une à deux pièces de 66 m2 maximum. Le tableau comporte cinq lignes de garanties, toutes cochées dans la formule : responsabilité civile Vie privée et Immeuble ; incendie et événements assimilés (dont chute de la foudre et phénomènes électriques plafonnés à 500 €, attentat ou acte de terrorisme, catastrophes technologiques) ; événements climatiques, dégâts des eaux, inondation et catastrophes naturelles ; vol, tentative de vol ou acte de vandalisme (plafond de 1 000 €) ; Protection Juridique suite à accident. Le document ne contient ni exclusions, ni définitions, ni conditions de durée, de résiliation ou de sinistre.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Fiche produit
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Fiche produit
 
 ## Garanties
 

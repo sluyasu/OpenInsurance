@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: habitation
 product_name: Assurance Loyers Impayés
@@ -52,7 +50,7 @@ generated: true
 
 Conditions générales du contrat « Matmut Assurance loyers impayés », valant projet de contrat au sens de l'article L. 112-2 du Code des assurances. Le contrat a pour objet de couvrir les conséquences financières et matérielles qui peuvent surgir dans le cadre des rapports locatifs visant un bien immobilier à usage exclusif de résidence principale : le paiement des loyers et des charges du locataire défaillant, le remboursement des frais nécessaires à la remise en état du logement consécutive à des dégradations locatives immobilières causées par le locataire, et la perte de loyers consécutive à la non-location du logement. Trois garanties sont incluses — Loyers impayés, Dégradations locatives immobilières et Recours suite à loyers impayés et/ou à dégradations locatives — auxquelles s'ajoute la garantie optionnelle Vacance locative. Le contrat ne peut être souscrit que par un proposant admis au préalable comme Sociétaire de la Matmut ; la gestion de la garantie Recours et des sinistres est confiée à LSA COURTAGE. Le document comprend en outre les modalités d'examen des réclamations et la charte de protection des données à caractère personnel.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales · Édition : 10/24
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales · Édition : 10/24
 
 ## Définitions
 

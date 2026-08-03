@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: obseques
 product_name: Matmut Prévoyance Obsèques
@@ -48,7 +46,7 @@ generated: true
 
 Document d’informations clés (DIC / PRIIPs) de trois pages portant sur Matmut Prévoyance Obsèques, présenté comme « un produit de Matmut Vie » et soumis au contrôle de l’ACPR. Il s’agit d’un contrat d’assurance vie de groupe, libellé en euros, à adhésion facultative, sans date d’échéance, dont l’objet est le versement, au décès de l’adhérent, d’un capital destiné au financement des obsèques ou, selon la formule choisie, la prise en charge de prestations funéraires auprès du prestataire funéraire OGF services funéraires. Le document classe le produit en risque 2 sur 7, chiffre des scénarios de performance pour une cotisation de 1 000 €/an souscrite à 60 ans, et détaille les coûts (coûts d’entrée 3,41 € ou 15 %, autres coûts récurrents 3 € ou 0,5 % basés sur le capital, coûts de sortie et commissions à 0). Il indique une période de détention recommandée viagère, la possibilité d’un rachat total à tout moment mais l’impossibilité du rachat partiel, et un droit de renonciation de 30 jours calendaires révolus.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : IPID / Fiche d'information · Édition : 2025-05-01
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : IPID / Fiche d'information · Édition : 2025-05-01
 
 ## Garanties
 

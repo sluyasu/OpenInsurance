@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: scolaire
 product_name: Conditions de l’offre Assurance Scolaire
@@ -45,7 +43,7 @@ generated: true
 
 Document d’une page fixant les conditions d’une offre promotionnelle commerciale — une « Remise à la souscription » — portant sur le contrat « Assurance Scolaire » de la Matmut. La remise équivaut à 3 mois de cotisation et est réservée à une personne physique qui souscrit la formule « Tranquillité », avec ou sans l’option « Tranquillité Plus », ou qui désigne un enfant supplémentaire sur un contrat en cours, la formule « Essentielle » étant exclue du bénéfice de l’offre. L’offre couvre les souscriptions ou modifications effectuées entre le 01/05/2026 et le 31/08/2026 avec prise d’effet entre le 01/05/2026 et le 30/09/2026 inclus. Le document ne décrit aucune garantie d’assurance : il ne porte que sur le prix.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Scolaire et extrascolaire](../../branches/Scolaire%20et%20extrascolaire.md) · Type : Conditions tarifaires · Édition : 05/26
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Scolaire et extrascolaire](../../branches/Scolaire%20et%20extrascolaire.md) · Type : Conditions tarifaires · Édition : 05/26
 
 ## Exclusions
 

@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: assurance-vie
 product_name: Matmut Vie Générations
@@ -48,7 +46,7 @@ generated: true
 
 Notice d'information du contrat Matmut Vie Générations, contrat collectif d'assurance sur la vie libellé en euros, à adhésion facultative, relevant de la branche 20 (vie-décès) de l'article R. 321-1 du Code des assurances. Il est souscrit par Matmut Mutualité auprès de Matmut Vie et réservé aux adhérents âgés de moins de 18 ans, l'adhésion prenant fin au plus tard le 1er avril qui suit le 28e anniversaire de l'adhérent. Le capital disponible est payé au terme si l'assuré est en vie, ou au(x) bénéficiaire(s) désigné(s) en cas de décès, et reste rachetable à tout moment. Le contrat ne comporte pas de taux d'intérêt garanti, ni garantie de fidélité, ni valeur de réduction ; il ne prélève aucun frais d'entrée ni frais sur versements, et des frais de gestion annuels de 0,50 % des capitaux disponibles moyens gérés dans l'exercice.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Conditions générales · Édition : 01/25
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Conditions générales · Édition : 01/25
 
 ## Définitions
 

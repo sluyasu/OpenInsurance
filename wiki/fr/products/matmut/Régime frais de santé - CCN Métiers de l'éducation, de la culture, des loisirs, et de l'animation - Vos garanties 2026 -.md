@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: sante
 product_name: Régime frais de santé - CCN Métiers de l'éducation, de la culture, des
@@ -46,7 +44,7 @@ generated: true
 
 Tableau des garanties 2026 du régime frais de santé de la CCN des Métiers de l'éducation, de la culture, des loisirs et de l'animation, présentant trois niveaux : BASE, OPTION 1 et OPTION 2. Il détaille les remboursements en hospitalisation, transport, soins courants, aides auditives, optique, dentaire, actes divers et sport sur ordonnance, exprimés en pourcentage de la Base de Remboursement, en pourcentage du PMSS, en frais réels, en remboursement intégral ou en forfaits, avec une distinction entre secteur conventionné DPTM et hors DPTM. Deux lignes dentaires (parodontologie et orthodontie non prises en charge par la Sécurité sociale) sont sans garantie dans les trois niveaux. Le document précise qu'il est non contractuel.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit
 
 ## Définitions
 

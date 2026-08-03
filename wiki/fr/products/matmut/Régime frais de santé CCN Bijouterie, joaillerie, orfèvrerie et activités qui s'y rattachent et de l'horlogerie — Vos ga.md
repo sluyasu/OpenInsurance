@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: sante
 product_name: Régime frais de santé CCN Bijouterie, joaillerie, orfèvrerie et activités
@@ -46,7 +44,7 @@ generated: true
 
 Tableau de garanties du régime frais de santé de la CCN Bijouterie, joaillerie, orfèvrerie et activités qui s'y rattachent et de l'horlogerie, présentant deux niveaux de couverture (BASE 1 et BASE 2) pour les soins courants, l'hospitalisation, l'optique, le dentaire, les aides auditives, la cure thermale, divers forfaits et le sport sur ordonnance. Les remboursements sont exprimés en pourcentage de la Base de Remboursement (BR) y compris la part du régime obligatoire, en forfaits en euros, ou sous la forme « RSS + 100 % des frais restant à charge » pour les paniers 100 % Santé. Le document ajoute une assistance et une série de services inclus dans les deux niveaux, puis des exemples chiffrés de remboursements. Il précise être un document non contractuel.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit
 
 ## Définitions
 

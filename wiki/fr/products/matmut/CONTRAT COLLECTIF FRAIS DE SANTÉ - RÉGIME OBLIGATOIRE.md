@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: sante
 product_name: CONTRAT COLLECTIF FRAIS DE SANTÉ - RÉGIME OBLIGATOIRE
@@ -47,7 +45,7 @@ generated: true
 
 Conditions générales du contrat collectif obligatoire de remboursement complémentaire des frais de santé instauré par l’accord interbranche du 2 octobre 2019 de la CCN du 15 mars 1966 (établissements et services pour personnes inadaptées et handicapées, CCN des médecins spécialistes qualifiés du 1er mars 1979 et accords collectifs des CHRS). Le contrat complète, dans la limite des frais réellement engagés, les prestations en nature de la Sécurité sociale pour les frais médico-chirurgicaux occasionnés par une maladie, une maternité ou un accident, au profit des salariés affiliés à titre obligatoire. Il s’inscrit dans le cadre du « contrat responsable » et comporte trois niveaux de garanties : BASE, BASE + OPTION 1 et BASE + OPTION 2. L’entreprise choisit l’un des organismes assureurs recommandés par les partenaires sociaux ; le document décrit également le maintien des garanties (loi Evin, portabilité) et les modalités de cotisation, de résiliation et de règlement des prestations.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : Janvier 2023
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : Janvier 2023
 
 ## Définitions
 

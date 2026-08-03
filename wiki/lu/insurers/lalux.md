@@ -5,7 +5,7 @@ country: lu
 insurer_slug: lalux
 name: lalux
 website: ''
-products_count: 16
+products_count: 20
 branches_covered:
 - accidents
 - auto
@@ -14,6 +14,9 @@ branches_covered:
 - habitation
 - multirisque-professionnelle
 - protection-juridique
+- rc-familiale
+- rc-professionnelle
+- voyage
 tags:
 - insurance/lu
 - insurer
@@ -29,7 +32,7 @@ generated: true
 
 ## Résumé
 
-**lalux**. 16 document(s) across 7 branch(es).
+**lalux**. 20 document(s) across 10 branch(es).
 
 ## Produits par branche
 
@@ -62,6 +65,16 @@ generated: true
 
 ### Protection juridique
 - [Assurance Protection Juridique Auto Intégrale - Assurance Protection Juridique Familiale Intégrale - IPID](../products/lalux/Assurance%20Protection%20Juridique%20Auto%20Int%C3%A9grale%20-%20Assurance%20Protection%20Juridique%20Familiale%20Int%C3%A9grale%20-%20IPID.md) - IPID / Fiche d'information
+
+### Responsabilité civile familiale
+- [Service easyPROTECT - Discover - IPID - EN](../products/lalux/Service%20easyPROTECT%20-%20Discover%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+
+### RC professionnelle
+- [Assurance R.C. Professionnelle pour Architectes et Ingénieurs-Conseils](../products/lalux/Assurance%20R.C.%20Professionnelle%20pour%20Architectes%20et%20Ing%C3%A9nieurs-Conseils.md) - Conditions générales (2025-05-01) · réf. EAC/2025/13684
+
+### Voyage et assistance
+- [Assurance BUREAUX DE VOYAGES – Formule 1 et 2 - IPID](../products/lalux/Assurance%20BUREAUX%20DE%20VOYAGES%20%E2%80%93%20Formule%201%20et%202%20-%20IPID.md) - IPID / Fiche d'information
+- [SPUERKEESS credit card insurance – Assistance and Non-Assistance cover (MILES & MORE LUXAIR VISA BUSINESS) - IPID - EN](../products/lalux/SPUERKEESS%20credit%20card%20insurance%20%E2%80%93%20Assistance%20and%20Non-Assistance%20cover%20%28MILES%20%26%20MORE%20LUXAIR%20VISA%20BUSINESS%29%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 
 ## Source
 

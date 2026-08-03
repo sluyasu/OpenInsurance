@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: sante
 product_name: Conditions Générales — Régime conventionnel de frais de santé à adhésion
@@ -55,7 +53,7 @@ generated: true
 
 Conditions Générales du contrat d'assurance collective à adhésion obligatoire mettant en œuvre le régime mutualisé de remboursement complémentaire de frais de santé de la branche des Acteurs du Lien Social et Familial (CCN du 4 juin 1983, IDCC n° 1261), modifié en dernier lieu par l'avenant n° 01-24 du 7 février 2024. L'accord prévoit un régime de base conventionnel et deux niveaux de régime optionnel ; la mise en place du niveau de garantie obligatoire est laissée à l'initiative de l'entreprise, qui choisit son organisme assureur parmi ceux recommandés par les partenaires sociaux (groupement de co-assurance APICIL Prévoyance / SOLIMUT Mutuelle de France, AESIO Mutuelle, HARMONIE MUTUELLE ou MUTUELLE OCIANE MATMUT). Le contrat complète les prestations en nature de la Sécurité sociale, dans la limite des frais réellement engagés, pour les frais médico-chirurgicaux occasionnés par une maladie, une maternité ou un accident, et s'inscrit dans le cadre du « contrat responsable » et du 100 % Santé. Le tableau de garanties de l'ANNEXE II, en vigueur au 01/01/2025, chiffre chaque poste pour les trois niveaux (base conventionnelle obligatoire, base + option 1, base + option 2), complété par trois grilles optiques.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : 12-2024 (référence de pied de page « CG Oblig-ALISFA-FM-12-2024 ») ; le tableau des garanties de l'ANNEXE II porte la mention « En vigueur au 01/01/2025 »
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Conditions générales · Édition : 12-2024 (référence de pied de page « CG Oblig-ALISFA-FM-12-2024 ») ; le tableau des garanties de l'ANNEXE II porte la mention « En vigueur au 01/01/2025 »
 
 ## Définitions
 

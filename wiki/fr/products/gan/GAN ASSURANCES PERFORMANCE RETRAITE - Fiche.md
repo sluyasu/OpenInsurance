@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Gan Assurances (« Gan Assurances Compagnie française d’assurances et de
-  réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris)
-  — brand of the Groupama group]]'
+insurer: '[[Gan Assurances]]'
 insurer_slug: gan
 branch: retraite
 product_name: GAN ASSURANCES PERFORMANCE RETRAITE
@@ -44,7 +42,7 @@ generated: true
 
 Document d'informations clés (DIC/PRIIPs) du contrat Gan Performance Retraite, produit d'investissement fondé sur l'assurance dont l'assureur est Groupama Gan Vie. Il s'agit d'un contrat d'assurance sur la vie multisupport, de groupe à adhésion facultative, souscrit auprès de Groupama Gan Vie par l'Association RIP au profit de ses adhérents, destiné à constituer une retraite par capitalisation servie en rente viagère ou en capital retraite. Le document décrit le fonctionnement du contrat, l'indicateur de risque, les coûts au fil du temps et leur composition, le délai de renonciation, la période de détention recommandée de 8 ans et la procédure de réclamation. En cas de décès avant la liquidation de la retraite, un capital égal à l'épargne constituée est versé aux bénéficiaires désignés, complété le cas échéant par une garantie plancher optionnelle.
 
-- Assureur : [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../../insurers/Gan%20Assurances.md) · Branche : [Retraite supplémentaire](../../branches/Retraite%20suppl%C3%A9mentaire.md) · Type : Fiche produit · Édition : 01/06/2026
+- Assureur : [Gan Assurances](../../insurers/Gan%20Assurances.md) · Branche : [Retraite supplémentaire](../../branches/Retraite%20suppl%C3%A9mentaire.md) · Type : Fiche produit · Édition : 01/06/2026
 
 ## Définitions
 

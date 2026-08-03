@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: chasse
 product_name: Contrat « Chasse »
@@ -47,7 +45,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) du contrat « Chasse » de la Matmut. Le contrat garantit l’assuré contre les conséquences des dommages corporels et matériels causés à des tiers dans le cadre de son activité de chasseur ou de rabatteur (responsabilité civile) ; il s’agit d’une assurance obligatoire. Sont systématiquement prévues la responsabilité civile « Chasseur », la responsabilité civile « Rabatteur », la responsabilité civile de « Conducteur de chien de sang » et la protection juridique suite à accident ; la responsabilité civile « Organisateur », les armes de chasse et les chiens de chasse sont proposées en options. Le contrat est sans tacite reconduction : les garanties cessent le 1er juillet suivant à 0 heure.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Chasse](../../branches/Chasse.md) · Type : IPID / Fiche d'information · Édition : 04/26
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Chasse](../../branches/Chasse.md) · Type : IPID / Fiche d'information · Édition : 04/26
 
 ## Garanties
 
@@ -156,7 +154,7 @@ Chiens de chasse : dommages accidentels (blessures ou décès) aux chiens de cha
 
 ## Documents liés
 
-- [Chasse](Chasse%20%28Matmut%20%28Mutuelle%20assurance%20des%20travailleurs%20mutualistes%29%20%E2%80%94%20Soci%C3%A9t%C3%A9%20d%27assurance%20mutuelle%20%C3%A0%20cotisations%20variables%2C%20entreprise%20r%C3%A9gie%20par%20le%20Code%20des%20assurances%2C%20Siren%20775%20701%20477%29.md) - Conditions générales, éd. CG CHASSE – 04/26 (mention de pied de page 37 ; aucune autre date d'édition n'est imprimée)
+- [Chasse](Chasse%20%28Matmut%29.md) - Conditions générales, éd. CG CHASSE – 04/26 (mention de pied de page 37 ; aucune autre date d'édition n'est imprimée)
 
 ## Source & fidélité
 

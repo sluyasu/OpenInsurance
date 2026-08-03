@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: obseques
 product_name: Matmut Prévoyance Obsèques
@@ -45,7 +43,7 @@ generated: true
 
 Notice d'information du contrat Matmut Prévoyance Obsèques, contrat d'assurance de groupe (contrat collectif) sur la vie de type vie entière à adhésion facultative, libellé en euros, souscrit par Matmut Mutualité au profit de ses membres auprès de Matmut Vie (l'assureur) et relevant de la branche 20 (Vie-Décès). Il garantit, en cas de décès de l'assuré, le paiement d'un capital garanti aux bénéficiaires désignés, selon deux formules : « Capital » (versement du capital aux bénéficiaires désignés) et « Prestations » (versement au bénéficiaire désigné pour financer les obsèques dans le cadre d'un contrat de prestations obsèques souscrit auprès d'OGF services funéraires). Le décès par accident est garanti dès la date d'effet de l'adhésion, le décès par maladie après un délai de carence d'un an. L'adhésion comporte des prestations d'assistance décrites dans une convention distincte, une revalorisation annuelle du capital garanti et une faculté de rachat total.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : Conditions générales
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : Conditions générales
 
 ## Définitions
 

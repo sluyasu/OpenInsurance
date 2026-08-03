@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: sante
 product_name: Ociane Santé Pro
@@ -44,7 +42,7 @@ generated: true
 
 Fiche produit de la complémentaire santé Ociane Santé Pro, offre dédiée aux travailleurs non salariés et éligible à la loi Madelin, assurée par la Mutuelle Ociane (Groupe Matmut). Elle présente le tableau des garanties 2026 en 6 niveaux (hospitalisation, soins courants, optique, dentaire, aides auditives, sport sur ordonnance, prévention et médecines douces, protection « Gros pépin », prestations complémentaires et services inclus), les renvois qui en fixent les conditions, et des exemples chiffrés de remboursement. Les soins du 100 % Santé (optique classe A, dentaire, aides auditives classe I) sont remboursés intégralement à tous les niveaux. Le document précise qu'il est non contractuel.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit · Édition : 10/25
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : Fiche produit · Édition : 10/25
 
 ## Définitions
 

@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: habitation
 product_name: Habitation Matmut Étudiants
@@ -48,7 +46,7 @@ generated: true
 
 Conditions générales du contrat d'assurance Multigaranties Habitation Matmut Étudiants et Matmut/Smac, valant projet de contrat au sens de l'article L. 112-2 du Code des assurances. Le contrat couvre le souscripteur en qualité de locataire ou d'occupant à titre gratuit d'une chambre (cité U ou chez l'habitant), d'un studio ou d'un deux pièces à usage d'habitation n'excédant pas 66 m² et 2 pièces principales, ainsi que ses responsabilités civiles et ses biens dans le cadre de la vie privée, en dehors de toute activité professionnelle. Il réunit des garanties de Responsabilité civile personnelle et Immeuble, des garanties de Dommages aux biens (incendie, événements climatiques, dégâts des eaux, vol, bris de glaces…), des garanties de Dommages corporels et Protection études, des garanties d'Assistance et de Protection Juridique. La souscription est réservée à un sociétaire dont le souscripteur, le conjoint et les colocataires désignés à l'annexe spéciale colocation ont moins de 28 ans et sont sans enfant, le souscripteur devant seul avoir la qualité d'étudiant.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales
 
 ## Définitions
 

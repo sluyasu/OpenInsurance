@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: moto
 product_name: Avantage Hiver Matmut & Co
@@ -43,7 +41,7 @@ generated: true
 
 Ce document n'est pas un contrat d'assurance : il énonce les conditions d'octroi de l'« Avantage Hiver Matmut & Co », un avantage tarifaire commercial attaché au contrat d'assurance Multirisques « 2 roues Initiale & Co » de Matmut & Co. Le souscripteur qui s'engage à remiser son deux-roues et à ne pas l'utiliser pendant l'hiver obtient une réduction de cotisation de 10 % (hivernage de 2 mois) ou 20 % (hivernage de 4 mois). Le document précise l'assiette de la réduction, sa prise d'effet, sa suppression, les sanctions en cas de non-respect des conditions (nullité du contrat ou réduction des indemnités) et sa date de validité (31/12/2026).
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Deux-roues, quads et voiturettes](../../branches/Deux-roues%2C%20quads%20et%20voiturettes.md) · Type : Conditions tarifaires · Édition : 01-26
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Deux-roues, quads et voiturettes](../../branches/Deux-roues%2C%20quads%20et%20voiturettes.md) · Type : Conditions tarifaires · Édition : 01-26
 
 ## Garanties
 

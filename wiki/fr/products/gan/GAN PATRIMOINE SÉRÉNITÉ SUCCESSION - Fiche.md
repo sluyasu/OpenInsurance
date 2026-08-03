@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Gan Assurances (« Gan Assurances Compagnie française d’assurances et de
-  réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris)
-  — brand of the Groupama group]]'
+insurer: '[[Gan Assurances]]'
 insurer_slug: gan
 branch: obseques
 product_name: GAN PATRIMOINE SÉRÉNITÉ SUCCESSION
@@ -43,7 +41,7 @@ generated: true
 
 Document d’informations clés (DIC/PRIIPs) de GAN PATRIMOINE SÉRÉNITÉ SUCCESSION, contrat d’assurance de groupe vie entière à adhésion facultative souscrit auprès de Groupama Gan Vie par l’A3P (Association pour la Protection du Patrimoine et de la Personne), relevant selon la formule souscrite des branches 1 (Accidents), 2 (Maladie), 20 (Vie-Décès) et 17 (Protection juridique). Il prévoit le versement d’un capital au(x) bénéficiaire(s) désigné(s) au décès de l’investisseur assuré — ou au premier décès si deux personnes sont assurées — ainsi qu’à l’assuré en cas de PTIA, et propose des garanties complémentaires optionnelles. Le document expose l’indicateur de risque (classe 1 sur 7), les coûts et les modalités de sortie ; il ne comporte ni tableau de garanties ni section d’exclusions.
 
-- Assureur : [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../../insurers/Gan%20Assurances.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : Fiche produit · Édition : 2023-06-01
+- Assureur : [Gan Assurances](../../insurers/Gan%20Assurances.md) · Branche : [Obsèques](../../branches/Obs%C3%A8ques.md) · Type : Fiche produit · Édition : 2023-06-01
 
 ## Définitions
 

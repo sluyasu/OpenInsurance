@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: moto
 product_name: Contrat Multirisques « 2R Rider »
@@ -42,7 +40,7 @@ generated: true
 
 Document d'information (IPID) du contrat Multirisques « 2R Rider » de la Matmut, assurance d'un véhicule à moteur à 2 ou 3 roues ou de type « quad ». La garantie Responsabilité civile, obligatoire, couvre les dommages causés aux tiers (dommages corporels illimités ; dommages matériels, immatériels consécutifs et préjudice écologique confondus jusqu'à 100 000 000 €) ; sont également incluses la Protection Juridique suite à accident jusqu'à 20 000 € et l'Assistance au véhicule et aux personnes transportées. Quinze garanties optionnelles sont proposées (bris de glaces, vol, incendie-attentat-tempête, catastrophes naturelles et technologiques, dommages au véhicule, dommages corporels du conducteur, assistance panne 0 km, mise en location du véhicule assuré, etc.).
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Deux-roues, quads et voiturettes](../../branches/Deux-roues%2C%20quads%20et%20voiturettes.md) · Type : IPID / Fiche d'information · Édition : 10/24
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Deux-roues, quads et voiturettes](../../branches/Deux-roues%2C%20quads%20et%20voiturettes.md) · Type : IPID / Fiche d'information · Édition : 10/24
 
 ## Garanties
 

@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: auto
 product_name: Flotte de véhicules
@@ -57,7 +55,7 @@ generated: true
 
 « Flotte de véhicules » Matmut est le contrat d'assurance Multirisques de la Matmut destiné à garantir les risques découlant de la propriété, de l'usage et/ou de la garde d'une flotte de véhicules. Les garanties ne sont pas organisées en formules mais accordées véhicule par véhicule : chaque véhicule du parc figure à l'« état de parc flotte », annexe des Conditions particulières qui porte, pour lui seul, les garanties souscrites (codes AB, H8, H, D8, D, E8, E, J, T, C9, C2, C8, C1/C0, R, F1, S, K, L2, F3, M, G, P, F4, DR), les plafonds, les franchises, l'usage et la clause conducteurs. Le contrat couvre la Responsabilité civile en et hors circulation, les dommages au véhicule, les dommages aux biens transportés, les garanties Mobilité (assistance, indisponibilité, panne mécanique), la garantie du conducteur et deux garanties de Protection Juridique. Les entrées et sorties de véhicules doivent être déclarées (entrées avant mise en circulation, sorties dans les cinq jours du retrait effectif) et la cotisation est régularisée périodiquement selon l'une des trois modalités retenues aux Conditions particulières : révision périodique, révision par semi-différence ou absence de régularisation.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales
 
 ## Définitions
 

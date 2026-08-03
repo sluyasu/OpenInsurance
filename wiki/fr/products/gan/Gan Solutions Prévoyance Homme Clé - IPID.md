@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Gan Assurances (« Gan Assurances Compagnie française d’assurances et de
-  réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris)
-  — brand of the Groupama group]]'
+insurer: '[[Gan Assurances]]'
 insurer_slug: gan
 branch: prevoyance
 product_name: Gan Solutions Prévoyance Homme Clé
@@ -48,7 +46,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (DIPA/IPID) de Gan Solutions Prévoyance Homme Clé, contrat d’assurance de groupe assuré par Groupama Gan Vie et réservé aux adhérents au contrat souscrit par l’association DEMAIN. Il couvre l’entreprise contre les conséquences financières du décès, de l’arrêt de travail ou de l’invalidité d’une personne ayant un rôle déterminant dans son fonctionnement (« homme clé »). La garantie systématique est le versement à l’entreprise d’un capital en cas de décès ou de Perte Totale et Irréversible d’Autonomie de l’homme clé ; en option, l’entreprise peut souscrire des indemnités journalières, une indemnité de remboursement des frais supplémentaires d’exploitation et un capital en cas d’invalidité totale. Le document résume les exclusions, les restrictions (carence, franchise, âges limites), les obligations et les modalités de résiliation.
 
-- Assureur : [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../../insurers/Gan%20Assurances.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : IPID / Fiche d'information · Édition : 102023
+- Assureur : [Gan Assurances](../../insurers/Gan%20Assurances.md) · Branche : [Prévoyance](../../branches/Pr%C3%A9voyance.md) · Type : IPID / Fiche d'information · Édition : 102023
 
 ## Définitions
 

@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: habitation
 product_name: Habitation Résidence secondaire
@@ -47,7 +45,7 @@ generated: true
 
 Conditions générales du contrat d'assurance Multigaranties « Résidence secondaire » de la Matmut, valant projet de contrat au sens de l'article L. 112-2 du Code des assurances. Le contrat garantit la Responsabilité civile Immeuble et les biens immobiliers et mobiliers de la résidence secondaire assurée dans le cadre de la vie privée, en dehors de toute activité professionnelle : dommages aux biens (incendie, attentat, dommages électriques, événements climatiques, dégâts des eaux, gel, inondation, catastrophes naturelles et technologiques, vol, tentative de vol ou vandalisme, bris de glaces), assistance Urgence après sinistre et Protection Juridique suite à accident. Des options peuvent être souscrites (Jardin/Piscine, Équipements de développement durable, Canalisations extérieures, Panne électroménager, Bris de glaces renforcé, Rééquipement à neuf étendu, Incidents domestiques, Protection Juridique relative aux biens assurés). Le contrat ne peut être souscrit que par un proposant admis au préalable comme Sociétaire de la Matmut, société d'assurance mutuelle à cotisations variables.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales · Édition : 12/23
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Multirisque habitation](../../branches/Multirisque%20habitation.md) · Type : Conditions générales · Édition : 12/23
 
 ## Définitions
 

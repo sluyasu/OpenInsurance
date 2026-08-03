@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: auto
 product_name: Contrat « Flotte de véhicules »
@@ -47,7 +45,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) relatif au contrat « Flotte de véhicules » de la Matmut, assurance automobile. Le contrat a pour objet de garantir l'ensemble d'une flotte de véhicules (2 roues, 3 roues ou 4 roues motorisés) contre les conséquences des dommages matériels et corporels causés à des tiers (Responsabilité civile), assurance obligatoire, et inclut systématiquement la Protection Juridique suite à accident. Une gamme étendue de garanties optionnelles peut être souscrite, dont certaines réservées aux voitures particulières et camping-cars ou aux motocyclettes et quads. Le document ne présente qu'un résumé des principales garanties et exclusions.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 2024-11
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 2024-11
 
 ## Garanties
 

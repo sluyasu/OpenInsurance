@@ -28,7 +28,7 @@ navigate it without guessing. Do not edit by hand.
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
 | ch (Switzerland) | 0 | 3 | 1 | 0 | 5 |
 | fr (France) | 24 | 556 | 10 | 1 | 5 |
-| lu (Luxembourg) | 0 | 16 | 1 | 0 | 5 |
+| lu (Luxembourg) | 0 | 20 | 1 | 0 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
 
@@ -450,7 +450,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | chasse | maaf | Assurance Vie privée (CHASSE) - IPID | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/IRD11004.PDF) |
 | fr | chasse | macif | Contrat d'assurance Chasse - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_chasse.pdf) |
 | fr | chasse | macif | Multirisque Chasse — Contrat d'assurance chasse | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_loisirs/CG_Chasse_2012.pdf) |
-| fr | chasse | matmut | Chasse (Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477) | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGCHASSE.pdf) |
+| fr | chasse | matmut | Chasse (Matmut) | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGCHASSE.pdf) |
 | fr | chasse | matmut | Contrat « Chasse » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDCHASSE.pdf) |
 | fr | chasse | thelem | Assurance chasse - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_Chasse-332-juillet-2024.pdf) |
 | fr | credit-caution | smacl | Assurance loyers impayés | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cg-loyers-impayes-sam.pdf) |
@@ -880,3 +880,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | lu | multirisque-professionnelle | lalux | easyPROTECT PRO – Assurance de choses - IPID | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_lalux_easyprotect-pro-entreprise-assurance-de-choses_fr.pdf) |
 | lu | multirisque-professionnelle | lalux | easyPROTECT PRO – Assurance de responsabilité civile - IPID | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_lalux_easyprotect-pro-entreprise-assurance-de-responsabilite-civile_fr.pdf) |
 | lu | protection-juridique | lalux | Assurance Protection Juridique Auto Intégrale - Assurance Protection Juridique Familiale Intégrale - IPID | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_assurance_protection_juridique_fr.pdf) |
+| lu | rc-familiale | lalux | Service easyPROTECT - Discover - IPID - EN | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_discover_lalux_easyprotect_en.pdf) |
+| lu | rc-professionnelle | lalux | Assurance R.C. Professionnelle pour Architectes et Ingénieurs-Conseils | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/Divers/Aprobat/D.G._RC_Architectes-Ingenieur_01-05-2025_FR__version_definitive_.pdf) |
+| lu | voyage | lalux | Assurance BUREAUX DE VOYAGES – Formule 1 et 2 - IPID | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/ipid_bureaux_de_voyages__remanie__-_formule_1_et_2_fr.pdf) |
+| lu | voyage | lalux | SPUERKEESS credit card insurance – Assistance and Non-Assistance cover (MILES & MORE LUXAIR VISA BUSINESS) - IPID - EN | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_MILES_MORE_LUXAIR_VISA_BUSINESS_EN.pdf) |

@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Gan Assurances (« Gan Assurances Compagnie française d’assurances et de
-  réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris)
-  — brand of the Groupama group]]'
+insurer: '[[Gan Assurances]]'
 insurer_slug: gan
 branch: sante
 product_name: Gan Prévoyance Santé Sénior
@@ -45,7 +43,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de Gan Prévoyance Santé Sénior, une assurance complémentaire santé. Ce produit d’assurance de groupe est réservé aux adhérents au contrat souscrit par l’association A3P et rembourse tout ou partie des frais de santé restant à la charge des assurés de 50 ans et plus en cas d’accident, de maladie ou de maternité, en complément de la Sécurité sociale française ; il respecte les conditions légales des contrats responsables. Les garanties systématiques couvrent l’hospitalisation, les soins courants, l’optique, le dentaire et les appareillages, complétées de garanties optionnelles (chambre particulière, médecine douce, actes de prévention, chirurgie réfractive, implants dentaires, parodontologie) et de services (réseau Sévéane, téléconsultation, tiers payant, espace client, assistance). Le document est co-signé par Groupama Gan Vie et Mutuaide Assistance.
 
-- Assureur : [Gan Assurances (« Gan Assurances Compagnie française d’assurances et de réassurances », SA, RCS Paris 542 063 797, APE 6512Z, 8-10 rue d’Astorg 75008 Paris) — brand of the Groupama group](../../insurers/Gan%20Assurances.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : IPID / Fiche d'information · Édition : 12/2023
+- Assureur : [Gan Assurances](../../insurers/Gan%20Assurances.md) · Branche : [Complémentaire santé](../../branches/Compl%C3%A9mentaire%20sant%C3%A9.md) · Type : IPID / Fiche d'information · Édition : 12/2023
 
 ## Définitions
 

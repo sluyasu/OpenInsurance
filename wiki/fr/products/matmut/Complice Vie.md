@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: assurance-vie
 product_name: Complice Vie
@@ -52,7 +50,7 @@ generated: true
 
 Proposition d'assurance valant note d'information du contrat Complice Vie, contrat individuel d'assurance sur la vie de type multisupports relevant des branches 20 « Vie-décès », 22 « Assurances liées à des fonds d'investissement » et 1 « Accident » de l'article R.321-1 du Code des assurances. Le Souscripteur, également Assuré, constitue un capital réparti entre un Fonds Général en euros à capital garanti et des supports en unités de compte dont la valeur n'est pas garantie, selon trois modes de gestion (Gestion libre, Gestion profilée Vie, Gestion profilée). Le capital est versé au(x) bénéficiaire(s) désigné(s) en cas de décès, le contrat comportant en outre une garantie automatique en cas de décès accidentel avant 65 ans et une garantie optionnelle plancher en cas de décès toutes causes avant 75 ans, toutes deux plafonnées à 400 000 euros de capital complémentaire par contrat. Le contrat comporte une faculté de rachat, une faculté d'avance et une transformation possible en rente viagère à compter du 4e anniversaire.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Conditions générales · Édition : Octobre 2025
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance vie et épargne](../../branches/Assurance%20vie%20et%20%C3%A9pargne.md) · Type : Conditions générales · Édition : Octobre 2025
 
 ## Définitions
 

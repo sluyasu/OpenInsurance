@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: auto
 product_name: Contrat « Assurance Auto Temporaire »
@@ -48,7 +46,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) du contrat « Assurance Auto Temporaire » de la Matmut. Ce contrat a pour objet de garantir temporairement l'assuré qui loue ou emprunte un véhicule directement auprès d'un particulier, par l'intermédiaire d'un professionnel (loueur, garage...) ou par l'intermédiaire d'une plateforme spécialisée dans la location de véhicules entre particuliers, et qui souhaite se prémunir contre une absence ou une insuffisance de garanties. Il comprend en inclusion la responsabilité civile (limitée au cas de mise à disposition par un particulier), des garanties dommages au véhicule, l'assistance, la garantie du conducteur et la protection juridique suite à accident ; la responsabilité civile en cas de mise à disposition par un professionnel ou une plateforme est une garantie optionnelle. Le contrat est souscrit pour une durée déterminée de date à date et est sans tacite reconduction.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 10/24
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information · Édition : 10/24
 
 ## Garanties
 

@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: moto
 product_name: Conditions de l’Avantage Usage Sérénité — Gamme 2 roues Initiale & Co
@@ -45,7 +43,7 @@ generated: true
 
 Document tarifaire d’une page fixant les conditions d’octroi de l’avantage « Usage Sérénité » sur le contrat Multirisques 2 roues Initiale & Co émis par Matmut & Co. Le souscripteur qui s’engage à ne pas utiliser son véhicule pour des déplacements professionnels ni pour les trajets domicile/lieu de travail, d’études ou de scolarité bénéficie d’une réduction de 6 % de sa cotisation par rapport au tarif de l’Usage Actif, sur les cotisations de toutes les garanties souscrites sauf les Dommages corporels du conducteur, les deux Protections Juridiques et l’Assistance panne 0 kilomètre/rétention administrative du permis de conduire. Le document ne décrit aucune garantie ni aucune exclusion de garantie : il ne porte que sur le mécanisme de l’avantage, ses conditions d’octroi, sa suppression et les sanctions applicables (nullité du contrat en cas de mauvaise foi, réduction des indemnités en cas de bonne foi). Il est indiqué valable jusqu’au 31/12/2026.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Deux-roues, quads et voiturettes](../../branches/Deux-roues%2C%20quads%20et%20voiturettes.md) · Type : Conditions tarifaires · Édition : 01-26
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Deux-roues, quads et voiturettes](../../branches/Deux-roues%2C%20quads%20et%20voiturettes.md) · Type : Conditions tarifaires · Édition : 01-26
 
 ## Définitions
 

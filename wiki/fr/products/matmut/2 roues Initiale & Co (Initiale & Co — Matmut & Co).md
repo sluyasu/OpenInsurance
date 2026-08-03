@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: moto
 product_name: 2 roues Initiale & Co
@@ -49,7 +47,7 @@ generated: true
 
 Conditions générales du contrat d'assurance Multirisques « 2 roues Initiale & Co », valant projet de contrat au sens de l'article L. 112-2 du Code des assurances, porté par Matmut & Co. Le contrat garantit les risques découlant de la propriété, de l'usage et/ou de la garde d'un véhicule terrestre à moteur à 2 ou 3 roues ou de type « quad » immatriculé en France ou à Monaco. Quatre formules sont proposées — Tiers, Tiers-Vol-Incendie, Urbaine et Équilibre —, la formule Urbaine ne pouvant être souscrite pour les cyclomoteurs et les quads et la formule Équilibre ne pouvant l'être pour les cyclomoteurs ; chaque formule associe des garanties en inclusion (Responsabilité civile et défense civile, Protection Juridique suite à accident, Assistance au véhicule et aux personnes transportées) et des garanties optionnelles (Dommages corporels du conducteur à 2 niveaux, Protection Juridique relative au bien assuré, protection complémentaire Assistance panne 0 kilomètre/rétention administrative du permis de conduire). Le document comprend également les modalités d'examen des réclamations, la fiche d'information relative au fonctionnement des garanties « Responsabilité civile » dans le temps et la charte de protection des données à caractère personnel.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Deux-roues, quads et voiturettes](../../branches/Deux-roues%2C%20quads%20et%20voiturettes.md) · Type : Conditions générales
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Deux-roues, quads et voiturettes](../../branches/Deux-roues%2C%20quads%20et%20voiturettes.md) · Type : Conditions générales
 
 ## Définitions
 

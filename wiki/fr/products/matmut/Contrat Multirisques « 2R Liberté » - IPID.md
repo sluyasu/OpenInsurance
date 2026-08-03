@@ -2,9 +2,7 @@
 type: product
 domain: insurance
 country: fr
-insurer: '[[Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d''assurance
-  mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren
-  775 701 477]]'
+insurer: '[[Matmut]]'
 insurer_slug: matmut
 branch: velo
 product_name: Contrat Multirisques « 2R Liberté »
@@ -46,7 +44,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) du contrat Multirisques « 2R Liberté » de la Matmut, intitulé « ASSURANCE VÉLO ET VÉLO À ASSISTANCE ÉLECTRIQUE ». Le contrat garantit les dommages matériels subis par le vélo (cycle) ou le vélo à assistance électrique (cycle à pédalage assisté) assuré, sous réserve qu’il réponde à la définition du Code de la route, soit identifié par un numéro de série, soit acheté neuf auprès d’un professionnel pour plus de 500 € TTC et au maximum soixante jours avant la prise d’effet du contrat. Les garanties en inclusion couvrent le vol avec effraction ou agression, l’incendie-attentat-tempête, les catastrophes naturelles et technologiques, les dommages accidents-événements naturels, l’assistance juridique et les équipements de protection ; la garantie corporelle du cycliste et le vol en tout lieu sont optionnels. Les garanties dommages et assistance juridique cessent au plus tard à l’échéance annuelle suivant le cinquième anniversaire de la date d’achat neuf du vélo.
 
-- Assureur : [Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477](../../insurers/Matmut.md) · Branche : [Vélo](../../branches/V%C3%A9lo.md) · Type : IPID / Fiche d'information · Édition : 07/25
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Vélo](../../branches/V%C3%A9lo.md) · Type : IPID / Fiche d'information · Édition : 07/25
 
 ## Garanties
 
