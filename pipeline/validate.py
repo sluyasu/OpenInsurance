@@ -19,8 +19,19 @@ from common import WIKI, REPO, read_note, wikilinks, load_country
 REQUIRED = {"type", "status"}
 
 
-def resolution_targets() -> dict[str, str]:
-    """Map every resolvable name (stem + aliases) -> the note path that owns it."""
+def resolution_targets(prefer_cc: str | None = None) -> dict[str, str]:
+    """Map every resolvable name (stem + aliases) -> the note path that owns it.
+
+    `prefer_cc` makes resolution COUNTRY-AWARE, and it has to be. Fifteen page names are shared
+    across countries — `Assurance auto` exists in both fr and lu, `Protection juridique` in three,
+    `00 - Branches MOC` in all four — and a flat `setdefault` hands each name to whichever file
+    `rglob` reached first. So `[[Assurance auto]]` written on a Luxembourg page resolved to the
+    FRENCH page, silently: the link works, validate is happy, and the reader lands on a page about
+    a different country's law.
+
+    Sorting the linking country's own notes first makes the name resolve at home, with other
+    countries as the fallback for genuinely shared pages (the universal glossary).
+    """
     targets = {}
     # The universal glossary lives under wiki/ so that it is published and reachable:
     # while it sat in _meta/ it resolved in the vault but 404'd on the site.
@@ -28,7 +39,10 @@ def resolution_targets() -> dict[str, str]:
     for root in roots:
         if not root.is_dir():
             continue
-        for md in root.rglob("*.md"):
+        mds = sorted(root.rglob("*.md"))
+        if prefer_cc:                        # own country first, so setdefault lands at home
+            mds.sort(key=lambda m: 0 if f"/{prefer_cc}/" in f"/{m.relative_to(root).as_posix()}" else 1)
+        for md in mds:
             meta, _ = read_note(md)
             names = [md.stem] + [str(a) for a in (meta.get("aliases") or [])]
             for n in names:
@@ -119,7 +133,7 @@ def main() -> int:
         print(f"[validate] no wiki for country={cc}")
         return 0
 
-    targets = resolution_targets()
+    targets = resolution_targets(prefer_cc=cc)
     branch_labels = {m.get("label") for m in load_country(cc).get("branches", {}).values()}
 
     errors, warnings = [], []

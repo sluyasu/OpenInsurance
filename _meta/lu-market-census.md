@@ -607,3 +607,26 @@ reste ouverte et `autres` est l'endroit prévu pour la garder visible.
   sans aucun `_DE`. Un piège de nommage qui aurait produit un document trilingue fictif.
 - **lalux.lu héberge un troisième assureur agréé**, **DKV Luxembourg** (RCS B 45762), avec ses
   propres IPID et ses propres comptes. Lire le porteur sur la marque l'aurait annexé à lalux.
+
+## Corrections (2026-08-03) — deux affirmations vérifiées contre le texte et rectifiées
+
+Trouvées en rédigeant les fiches de branche, sur consultation de Legilux, et corrigées ici plutôt
+que laissées à l'état d'à-peu-près défendable.
+
+**1. L'obligation d'assurance automobile ne pèse pas sur le propriétaire.** Elle pèse sur le
+**titulaire du certificat d'immatriculation**, depuis la loi du 21 septembre 2023. La rédaction
+initiale de la loi du 16 avril 2003 visait bien le propriétaire, et c'est cette version, la plus
+souvent citée, qui avait été reprise ici. La distinction n'est pas académique : elle décide qui est
+en infraction quand le détenteur du véhicule n'en est pas le propriétaire — leasing, véhicule de
+société, prêt durable.
+
+**2. Il existe bien une assurance accidents privée au Luxembourg.** Ce recensement disait qu'il n'y
+avait « pas de branche `accidents-travail` parce que c'est un régime public obligatoire », ce qui
+laissait entendre qu'aucun marché privé n'existait. C'est faux : le régime public du Livre II du
+Code de la sécurité sociale (art. 85) est la couche **obligatoire**, et des couvertures accidents
+privées se vendent au-dessus. La formulation exacte est donc : *pas de branche accidents du travail
+**obligatoire** côté privé*, la branche `accidents` de la taxonomie couvrant ce qui se vend.
+
+Les deux corrections viennent d'une vérification en source primaire là où le recensement s'était
+appuyé sur la version la plus diffusée d'un texte. C'est le mode de défaillance à surveiller sur ce
+genre de fiche : une affirmation qui a été vraie, et qui ne l'est plus.
