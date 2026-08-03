@@ -1,0 +1,46 @@
+---
+type: insurer
+domain: insurance
+country: lu
+insurer_slug: lalux
+name: lalux
+website: ''
+products_count: 6
+branches_covered:
+- autres
+- construction
+- multirisque-professionnelle
+tags:
+- insurance/lu
+- insurer
+aliases:
+- lalux
+date: '2026-08-02'
+freshness: '2026-08-02'
+status: ready
+generated: true
+---
+
+<!-- GENERATED - do not edit. -->
+
+## Résumé
+
+**lalux**. 6 document(s) across 3 branch(es).
+
+## Produits par branche
+
+### Autres
+- [Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance - IPID](../products/lalux/Assurance%20Cartes%20de%20cr%C3%A9dit%20SPUERKEESS%20%E2%80%93%20Assistance%20et%20hors%20Assistance%20-%20IPID.md) - IPID / Fiche d'information
+- [SPUERKEESS credit card insurance – Assistance and Non-Assistance cover - IPID - EN](../products/lalux/SPUERKEESS%20credit%20card%20insurance%20%E2%80%93%20Assistance%20and%20Non-Assistance%20cover%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+- [Versicherung SPUERKEESS-Kreditkarten – Assistance-Leistungen und Nicht Assistance-Leistungen - IPID - DE](../products/lalux/Versicherung%20SPUERKEESS-Kreditkarten%20%E2%80%93%20Assistance-Leistungen%20und%20Nicht%20Assistance-Leistungen%20-%20IPID%20-%20DE%20%282%29.md) - IPID / Fiche d'information
+- [Versicherung SPUERKEESS-Kreditkarten – Assistance-Leistungen und Nicht Assistance-Leistungen - IPID - DE](../products/lalux/Versicherung%20SPUERKEESS-Kreditkarten%20%E2%80%93%20Assistance-Leistungen%20und%20Nicht%20Assistance-Leistungen%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
+
+### Assurances constructions
+- [Zehn- und Zweijahreshaftpflichtversicherung - DE](../products/lalux/Zehn-%20und%20Zweijahreshaftpflichtversicherung%20-%20DE.md) - Conditions générales (01.05.2025) · réf. EAC/2025/18010
+
+### Multirisque professionnelle
+- [easyPROTECT PRO – Assurance de choses - IPID](../products/lalux/easyPROTECT%20PRO%20%E2%80%93%20Assurance%20de%20choses%20-%20IPID.md) - IPID / Fiche d'information
+
+## Source
+
+- Documents extraits des sources publiques listées dans `sources/lu/lalux.yml`.
