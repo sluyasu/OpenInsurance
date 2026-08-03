@@ -169,6 +169,7 @@ Cycles: cycles or any vehicle with at least two wheels, and which are propelled 
 
 - Extension liée : [easyPROTECT - Alle Risiken - IPID - DE](easyPROTECT%20-%20Alle%20Risiken%20-%20IPID%20-%20DE.md)
 - [easyPROTECT - Alle Risiken - IPID - DE](easyPROTECT%20-%20Alle%20Risiken%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
+- [easyPROTECT - Personal Services - IPID - EN](easyPROTECT%20-%20Personal%20Services%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 
 ## Source & fidélité
 

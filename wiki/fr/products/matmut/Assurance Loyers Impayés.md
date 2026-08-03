@@ -343,6 +343,10 @@ Conformément à l'article L. 114-1 du Code des assurances, toutes actions déri
 - edition_date renseignée « 10/24 » d'après le code de bas de page « CG LOYERS IMP - 10/24 » (page 37), qui est aussi la valeur retenue pour reference. Le document ne porte aucune mention explicite « édition MM/AAAA ».
 - Le texte du prompt n'a PAS été tronqué : la ré-extraction PyMuPDF page à page (page.get_text("text")) du PDF local donne 110 457 caractères sur 38 pages, strictement identiques au texte du prompt une fois les marqueurs [page N] retirés (exact_equal). Aucune récupération de fin de document n'a été nécessaire.
 
+## Documents liés
+
+- [Contrat « Assurance Loyers Impayés » - IPID](Contrat%20%C2%AB%20Assurance%20Loyers%20Impay%C3%A9s%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information, éd. 2024-10
+
 ## Source & fidélité
 
 - Source : [https://www.matmut.fr/services-en-ligne/doc/CG/CGALI.pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGALI.pdf) - téléchargé le 2026-07-30 - 38 pages

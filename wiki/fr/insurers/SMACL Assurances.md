@@ -5,7 +5,7 @@ country: fr
 insurer_slug: smacl
 name: SMACL Assurances
 website: https://www.smacl.fr
-products_count: 75
+products_count: 77
 branches_covered:
 - auto
 - autres
@@ -35,7 +35,7 @@ generated: true
 
 ## Résumé
 
-**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 75 document(s) across 13 branch(es).
+**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 77 document(s) across 13 branch(es).
 
 ## Produits par branche
 
@@ -50,6 +50,7 @@ generated: true
 - [CONVERGENCE - Auto collaborateurs - Garantie en substitution au contrat personnel (Associatons)](../products/smacl/CONVERGENCE%20-%20Auto%20collaborateurs%20-%20Garantie%20en%20substitution%20au%20contrat%20personnel%20%28Associatons%29.md) - Conditions générales (04/2025) · réf. CONVERGENCE_CS_ACSUBS_SA_02(04_2016)
 - [Conventions spéciales CONVERGENCE - Auto collaborateurs, garantie complémentaire au contrat personnel (Associatons)](../products/smacl/Conventions%20sp%C3%A9ciales%20CONVERGENCE%20-%20Auto%20collaborateurs%2C%20garantie%20compl%C3%A9mentaire%20au%20contrat%20personnel%20%28Associatons%29.md) - Conditions générales (04/2025) · réf. CONVERGENCE_CS_ACCOMPLT_SA_05(04_2016)
 - [Convergence Auto collaborateurs - garantie complémentaire - IPID](../products/smacl/Convergence%20Auto%20collaborateurs%20-%20garantie%20compl%C3%A9mentaire%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. CONVERGENCE_DIPA_ACCOMPLT_SA_03(09_2022)
+- [Convergence Auto collaborateurs - garantie en substitution - IPID](../products/smacl/Convergence%20Auto%20collaborateurs%20-%20garantie%20en%20substitution%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. CONVERGENCE_DIPA_ACSUBST_SA_03(09_2022)
 - [Flotte entreprises](../products/smacl/Flotte%20entreprises.md) - Conditions générales (05/2025) · réf. ENTREPRISE_CG_FLOTTE_05(02_2023)
 - [Flotte entreprises - IPID](../products/smacl/Flotte%20entreprises%20-%20IPID.md) - IPID / Fiche d'information (02/2024) · réf. ENTREPRISE_DIPA_FLOTTE_03(06_2021)
 - [Territorialité des garanties - Contrat Véhicules à moteur - Doc](../products/smacl/Territorialit%C3%A9%20des%20garanties%20-%20Contrat%20V%C3%A9hicules%20%C3%A0%20moteur%20-%20Doc.md) - Document (01/01/2026) · réf. FICHE_TERRITORIALITE_01(12_2025)
@@ -60,6 +61,7 @@ generated: true
 
 ### [Autres](../branches/Autres.md)
 - [ALÉASSUR Protection financière](../products/smacl/AL%C3%89ASSUR%20Protection%20financi%C3%A8re.md) - Conditions générales (01/2024) · réf. ALEASSUR_CS_PF_01(03_2016)
+- [Convergence - Annulation de manifestation - IPID](../products/smacl/Convergence%20-%20Annulation%20de%20manifestation%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. CONVERGENCE_DIPA_MANIF_SA_03(09_2022)
 - [Votre droit de renonciation (hors contrat « Assurance Auto ») - Doc](../products/smacl/Votre%20droit%20de%20renonciation%20%28hors%20contrat%20%C2%AB%20Assurance%20Auto%20%C2%BB%29%20-%20Doc.md) - Document (09/2025)
 
 ### Crédit et caution

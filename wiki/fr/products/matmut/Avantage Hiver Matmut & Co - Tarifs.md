@@ -30,7 +30,7 @@ extraction_model: claude-code-subagent:scale
 prompt_version: '1.1'
 product_family: avantage-hiver-matmut-co
 variant: null
-edition_status: null
+edition_status: current
 edition_age_years: 0
 superseded: null
 extends: Contrat Auto 4D Distinguo & Co
@@ -113,7 +113,9 @@ Pendant cette période d'hivernage, et sous réserve que toutes les conditions s
 
 ## Documents liés
 
+- Édition courante de ce produit.
 - Extension / option du produit : **Contrat Auto 4D Distinguo & Co**
+- [Avantage Hiver Matmut & Co - Tarifs](Avantage%20Hiver%20Matmut%20%26%20Co%20-%20Tarifs%20%282%29.md) - Conditions tarifaires, éd. 2026-01
 
 ## Source & fidélité
 

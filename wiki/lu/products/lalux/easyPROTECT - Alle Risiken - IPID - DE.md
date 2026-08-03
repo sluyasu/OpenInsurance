@@ -174,6 +174,7 @@ Optional versicherbares Element der Allgefahrenversicherung: Fahrräder. Als Fah
 
 - Extension / option du produit : **easyPROTECT**
 - [easyPROTECT Comprehensive - IPID - EN](easyPROTECT%20Comprehensive%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+- [easyPROTECT - Personal Services - IPID - EN](easyPROTECT%20-%20Personal%20Services%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 
 ## Source & fidélité
 

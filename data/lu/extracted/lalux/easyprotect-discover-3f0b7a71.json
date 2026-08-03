@@ -1,0 +1,490 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "lu",
+  "insurer_slug": "lalux",
+  "insurer_name": "lalux",
+  "product_name": "easyPROTECT - Discover",
+  "branch": "rc-familiale",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "de",
+  "target_audience": null,
+  "target_audience_note": "Le document décrit les assurés sans employer de catégorie de marché : « Die Versicherung easyPROTECT Discover bietet ein Paket von Versicherungsleistungen für Versicherte, deren Hauptwohnsitz sich im Großherzogtum Luxemburg befindet, die zwischen 15 und 27 Jahre alt sind und ihren Eintritt ins Berufsleben vorbereiten (Studenten, Lehrlinge und vergleichbare Gruppen). » L’encadré des couvertures précise : « Versicherte: Studenten oder vergleichbare Gruppen ». Il s’agit de personnes physiques, mais le document n’emploie aucun des libellés de segment du schéma ; target_audience reste null.",
+  "reference": null,
+  "edition_date": null,
+  "product_family": "easyPROTECT - Discover",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_discover_lalux_easyprotect_de.pdf",
+  "source_pdf": "69304kb-3f0b7a71.pdf",
+  "source_sha256": "c44050a384d91b3adb96d7ce7bf11c61390f2345fd2df03b1ec849950c4800e6",
+  "source_pages": 2,
+  "fetched_at": "2026-08-02",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Informationsdokument über das Versicherungsprodukt (IPID) auf zwei Seiten für « Service easyPROTECT - Discover », ein Paket von Versicherungsleistungen für Versicherte mit Hauptwohnsitz im Großherzogtum Luxemburg, die zwischen 15 und 27 Jahre alt sind und ihren Eintritt ins Berufsleben vorbereiten (Studenten, Lehrlinge und vergleichbare Gruppen). Die Basisvariante umfasst die Haftpflicht für das Privat- und Studentenleben mit der Erweiterung „Studentenwohnung“ sowie den damit zusammenhängenden Rechtsschutz. Optional und gegen Prämienaufschlag kommen der Versicherungsschutz IT mobil, Assistance-Leistungen und der medizinische Notfall hinzu. Beide Ausschlusskästen tragen den gedruckten Vermerk « Nicht vollständige Liste » und verweisen für die vollständigen Ausschlüsse auf die Allgemeinen Versicherungsbedingungen des Produkts easyPROTECT.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Haftpflicht",
+      "description": "beispielsweise Schäden, die während des Privat- und Studentenlebens verursacht werden; hiervon ausgenommen sind berufliche Tätigkeiten, Schäden, die als Haustierhalter oder -betreuer verursacht werden, oder auch Schäden, die durch Wasser infolge von Wasserrohrbrüchen verursacht werden.",
+      "is_optional": false,
+      "territorial_scope": "Haftpflicht: weltweit",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Gedruckt unter der Überschrift « Basisvariante: »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Haftpflicht – Erweiterung „Studentenwohnung“",
+      "description": "Versicherungsschutz für den Versicherungsnehmer, der als Mieter eine in Europa gelegene Studentenwohnung bewohnt, etwa für Sachschäden am gemieteten Gebäude infolge von Brand, Wasserschäden oder Glasbruch oder auch Sachschäden am gemieteten oder dem Versicherungsnehmer gehörenden Mobiliar, das sich in der gemieteten Wohnung befindet (beispielsweise Diebstahl).",
+      "is_optional": null,
+      "territorial_scope": "Haftpflicht – Erweiterung „Studentenwohnung“: Studentenwohnung in Europa.",
+      "limits": "Sachschäden am Mobiliar aufgrund von Diebstahl in Höhe von bis zu 3.000 EUR.",
+      "sub_limits": [
+        "Sachschäden am Mobiliar aufgrund von Diebstahl in Höhe von bis zu 3.000 EUR."
+      ],
+      "deductible": null,
+      "conditions": [
+        "der Versicherungsnehmer muss als Mieter eine in Europa gelegene Studentenwohnung bewohnen",
+        "Gedruckt innerhalb des Blocks « Basisvariante: », ohne eigenes Häkchen, im Anschluss an die Haftpflicht."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Rechtsschutz",
+      "description": "beispielsweise Kosten und Honorare für alle Schritte, Untersuchungen, Gutachten und Instanzen infolge des Eintretens eines Schadens, der entweder zum Tod geführt oder Sach-/Körperschäden verursacht hat (gegen die Versicherten eingeleitete Strafverfolgung oder gegen jedweden Verantwortlichen einzureichende Klagen auf Wiedergutmachung des Schadens, der den Versicherten entstanden ist).",
+      "is_optional": false,
+      "territorial_scope": "Rechtsschutz in Verbindung mit der Haftpflicht: weltweit",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Gedruckt unter der Überschrift « Basisvariante: ».",
+        "Rechtsschutz: Freie Rechtsanwaltswahl in Luxemburg. Im Ausland ist die vorherige Einwilligung der Versicherungsgesellschaft erforderlich."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Versicherungsschutz IT mobil",
+      "description": "Bruch und Diebstahl von IT-Geräten und nicht tragbaren audiovisuellen Geräten, die sich in der Wohnung befinden; Bruch und Diebstahl von IT-Geräten, tragbaren audiovisuellen Geräten und tragbaren Telefonen weltweit.",
+      "is_optional": true,
+      "territorial_scope": "IT-Geräte und nicht tragbare audiovisuelle Geräte: die sich in der Wohnung befinden; IT-Geräte, tragbare audiovisuelle Geräte und tragbare Telefone: weltweit.",
+      "limits": "Bei Glasbruch und Diebstahl ist der Versicherungsschutz pro Schadensfall und pro Jahr auf 284 EUR (Index 100) begrenzt.",
+      "sub_limits": [
+        "pro Schadensfall und pro Jahr auf 284 EUR (Index 100) begrenzt"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Gedruckt unter der Überschrift « Optional und gegen Prämienaufschlag: »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance-Leistungen",
+      "description": "Erstattung der Schul- und Ausbildungsgebühren (bei Abbruch des Studiums aufgrund von Krankheit, Unfall oder Tod des Versicherten oder seiner Eltern), Erstattung der Rückkehrkosten und Wiederherstellung der verlorenen elektronischen Daten (die auf einem Desktop-PC oder tragbaren Rechner gespeichert waren).",
+      "is_optional": true,
+      "territorial_scope": "Assistance-Leistungen: weltweit",
+      "limits": "Die Erstattung der Schul- und Ausbildungskosten ist auf 2.000 EUR pro Jahr und Schadensfall begrenzt; Rückkehrkosten werden in Höhe von bis zu 500 EUR pro Schadensfall und pro Jahr erstattet.",
+      "sub_limits": [
+        "Die Erstattung der Schul- und Ausbildungskosten ist auf 2.000 EUR pro Jahr und Schadensfall begrenzt",
+        "Rückkehrkosten werden in Höhe von bis zu 500 EUR pro Schadensfall und pro Jahr erstattet"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Gedruckt unter der Überschrift « Optional und gegen Prämienaufschlag: ».",
+        "Erstattung der Schul- und Ausbildungsgebühren nur bei Abbruch des Studiums aufgrund von Krankheit, Unfall oder Tod des Versicherten oder seiner Eltern",
+        "Wiederherstellung nur für elektronische Daten, die auf einem Desktop-PC oder tragbaren Rechner gespeichert waren"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Medizinischer Notfall",
+      "description": "Bei einem Unfall, bei Krankheit oder im Todesfall garantiert die Versicherungsgesellschaft innerhalb der in den Allgemeinen Versicherungsbedingungen vorgesehenen Deckungsgrenzen ambulante Behandlungen, Zahnbehandlungen und stationäre Behandlungen im Ausland sowie die Rückführung (wenn medizinisch notwendig).",
+      "is_optional": true,
+      "territorial_scope": "Medizinische Notfälle: Europäische Union mit Ausnahme des Großherzogtums Luxemburg und Großbritanniens.",
+      "limits": "innerhalb der in den Allgemeinen Versicherungsbedingungen vorgesehenen Deckungsgrenzen (im IPID nicht beziffert)",
+      "sub_limits": [
+        "Bei Zahnbehandlungen sind provisorische Prothesen auf bis zu 250 EUR pro Prothese begrenzt."
+      ],
+      "deductible": null,
+      "conditions": [
+        "Gedruckt unter der Überschrift « Optional und gegen Prämienaufschlag: ».",
+        "Rückführung nur, wenn medizinisch notwendig"
+      ],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Haftpflicht — berufliche Tätigkeiten",
+      "description": "hiervon ausgenommen sind berufliche Tätigkeiten — gedruckt innerhalb der Beschreibung der Garantie « Haftpflicht » im Kasten « Was ist versichert ? », nicht im Ausschlusskasten.",
+      "applies_to": "Haftpflicht",
+      "page": 1
+    },
+    {
+      "name": "Haftpflicht — Schäden als Haustierhalter oder -betreuer",
+      "description": "Schäden, die als Haustierhalter oder -betreuer verursacht werden — gedruckt innerhalb der Beschreibung der Garantie « Haftpflicht » im Kasten « Was ist versichert ? ».",
+      "applies_to": "Haftpflicht",
+      "page": 1
+    },
+    {
+      "name": "Haftpflicht — Wasserschäden infolge von Wasserrohrbrüchen",
+      "description": "Schäden, die durch Wasser infolge von Wasserrohrbrüchen verursacht werden — gedruckt innerhalb der Beschreibung der Garantie « Haftpflicht » im Kasten « Was ist versichert ? ».",
+      "applies_to": "Haftpflicht",
+      "page": 1
+    },
+    {
+      "name": "Versicherungsschutz IT mobil — Abnutzung, allmähliche Verschlechterung, rein ästhetische Schäden",
+      "description": "Schäden, die aus der Abnutzung oder der allmählichen Verschlechterung oder aus rein ästhetischen Schäden resultieren;",
+      "applies_to": "Versicherungsschutz IT mobil",
+      "page": 1
+    },
+    {
+      "name": "Versicherungsschutz IT mobil — Virus",
+      "description": "Verluste in Verbindung mit einem Virus;",
+      "applies_to": "Versicherungsschutz IT mobil",
+      "page": 1
+    },
+    {
+      "name": "Versicherungsschutz IT mobil — vergessene, verlegte oder verlorene Geräte",
+      "description": "Vergessene, verlegte oder verlorene Geräte.",
+      "applies_to": "Versicherungsschutz IT mobil",
+      "page": 1
+    },
+    {
+      "name": "Assistance-Leistungen – Wiederherstellung verlorengegangener elektronischer Daten — defekte oder unerlaubte Software",
+      "description": "Verwendung von defekter oder unerlaubter Software;",
+      "applies_to": "Assistance-Leistungen",
+      "page": 1
+    },
+    {
+      "name": "Assistance-Leistungen – Wiederherstellung verlorengegangener elektronischer Daten — Daten auf Mobiltelefon, Smartphone oder Tablet",
+      "description": "Verlust elektronischer Daten, die auf dem Mobiltelefon, Smartphone oder Tablet gespeichert waren.",
+      "applies_to": "Assistance-Leistungen",
+      "page": 1
+    },
+    {
+      "name": "Medizinische Notfälle — Verhütungsmittel",
+      "description": "Kosten für Verhütungsmittel;",
+      "applies_to": "Medizinischer Notfall",
+      "page": 1
+    },
+    {
+      "name": "Medizinische Notfälle — Präventivmedizin und Impfungen",
+      "description": "Kosten für Präventivmedizin und Impfungen;",
+      "applies_to": "Medizinischer Notfall",
+      "page": 1
+    },
+    {
+      "name": "Medizinische Notfälle — Selbstmord oder Selbstmordversuch",
+      "description": "Selbstmord oder Selbstmordversuch.",
+      "applies_to": "Medizinischer Notfall",
+      "page": 1
+    },
+    {
+      "name": "Haftpflicht – Erweiterung „Studentenwohnung“ — Mobiliar bei Diebstahl bis 3.000 EUR",
+      "description": "Haftpflicht – Erweiterung „Studentenwohnung“: Sachschäden am Mobiliar aufgrund von Diebstahl in Höhe von bis zu 3.000 EUR. — Unter der Überschrift « Gibt es Ausschlüsse vom Versicherungsschutz ? » gedruckt; es handelt sich um eine Deckungsgrenze und nicht um einen Ausschluss. Derselbe Betrag steht in `limits` der Erweiterung.",
+      "applies_to": "Haftpflicht – Erweiterung „Studentenwohnung“",
+      "page": 1
+    },
+    {
+      "name": "Versicherungsschutz IT mobil — Begrenzung auf 284 EUR (Index 100)",
+      "description": "Versicherungsschutz IT mobil: Bei Glasbruch und Diebstahl ist der Versicherungsschutz pro Schadensfall und pro Jahr auf 284 EUR (Index 100) begrenzt. — Unter der Überschrift « Gibt es Ausschlüsse vom Versicherungsschutz ? » gedruckt; es handelt sich um eine Deckungsgrenze und nicht um einen Ausschluss. Derselbe Betrag steht in `limits` der Garantie.",
+      "applies_to": "Versicherungsschutz IT mobil",
+      "page": 1
+    },
+    {
+      "name": "ASSISTANCE-Leistungen — Begrenzung auf 2.000 EUR und 500 EUR",
+      "description": "ASSISTANCE-Leistungen: Die Erstattung der Schul- und Ausbildungskosten ist auf 2.000 EUR pro Jahr und Schadensfall begrenzt; Rückkehrkosten werden in Höhe von bis zu 500 EUR pro Schadensfall und pro Jahr erstattet. — Unter der Überschrift « Gibt es Ausschlüsse vom Versicherungsschutz ? » gedruckt; es handelt sich um Deckungsgrenzen und nicht um Ausschlüsse. Dieselben Beträge stehen in `limits` / `sub_limits` der Garantie.",
+      "applies_to": "Assistance-Leistungen",
+      "page": 1
+    },
+    {
+      "name": "Medizinische Notfälle — provisorische Prothesen bis 250 EUR",
+      "description": "Medizinische Notfälle: Bei Zahnbehandlungen sind provisorische Prothesen auf bis zu 250 EUR pro Prothese begrenzt. — Unter der Überschrift « Gibt es Ausschlüsse vom Versicherungsschutz ? » gedruckt; es handelt sich um eine Deckungsgrenze und nicht um einen Ausschluss. Derselbe Betrag steht in `sub_limits` der Garantie.",
+      "applies_to": "Medizinischer Notfall",
+      "page": 1
+    }
+  ],
+  "deductibles": null,
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Beschreibung des zu versichernden Risikos",
+      "description": "Das zu versichernde Risiko, ohne Falschangaben oder Auslassungen, möglichst vollständig und genau beschreiben.",
+      "timing": "Bei Vertragsabschluss",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Meldung risikoerhöhender Umstände",
+      "description": "Der Versicherungsgesellschaft jeden neuen Umstand melden, der das Risiko erhöhen oder mit neuen Risiken verbunden sein kann.",
+      "timing": "Während der Vertragslaufzeit",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Mitteilung von Datenänderungen",
+      "description": "Die Versicherungsgesellschaft über alle Änderungen der im Vertrag angegebenen Daten informieren, insbesondere bei einem Adress- oder Bankkontowechsel.",
+      "timing": "Während der Vertragslaufzeit",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Zahlung der Prämien innerhalb der Fristen",
+      "description": "Ihre Versicherungsprämien unter Einhaltung der in Ihrem Vertrag festgelegten Fristen zahlen. Bei Nicht-Zahlung kann die Versicherungsgesellschaft den Versicherungsschutz aufheben oder den Vertrag kündigen.",
+      "timing": "Während der Vertragslaufzeit",
+      "sanction": "Bei Nicht-Zahlung kann die Versicherungsgesellschaft den Versicherungsschutz aufheben oder den Vertrag kündigen.",
+      "page": 2
+    },
+    {
+      "name": "Schadensmeldung innerhalb von 8 Tagen und vorherige Einwilligung",
+      "description": "Jeden Schadensfall innerhalb von 8 Tagen, nachdem er sich ereignet hat, melden und die Einwilligung der Versicherungsgesellschaft einholen, bevor jedwede Maßnahmen ergriffen werden, die eine Einbeziehung der Versicherung erfordern.",
+      "timing": "Im Schadensfall",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Übermittlung aller Informationen",
+      "description": "Sobald wie möglich alle Informationen übermitteln, die es der Versicherungsgesellschaft ermöglichen, die Umstände festzustellen und das Ausmaß der Schäden zu beurteilen.",
+      "timing": "Im Schadensfall",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Rechtsschutz — Anwaltswahl im Ausland",
+      "description": "Rechtsschutz: Freie Rechtsanwaltswahl in Luxemburg. Im Ausland ist die vorherige Einwilligung der Versicherungsgesellschaft erforderlich.",
+      "timing": "Besonderheiten pro Versicherungsschutz",
+      "sanction": null,
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Schadensfall melden",
+      "description": "Jeden Schadensfall melden, nachdem er sich ereignet hat.",
+      "deadline": "innerhalb von 8 Tagen, nachdem er sich ereignet hat",
+      "page": 2
+    },
+    {
+      "step": "Einwilligung der Versicherungsgesellschaft einholen",
+      "description": "Die Einwilligung der Versicherungsgesellschaft einholen, bevor jedwede Maßnahmen ergriffen werden, die eine Einbeziehung der Versicherung erfordern.",
+      "deadline": "bevor jedwede Maßnahmen ergriffen werden, die eine Einbeziehung der Versicherung erfordern",
+      "page": 2
+    },
+    {
+      "step": "Informationen übermitteln",
+      "description": "Alle Informationen übermitteln, die es der Versicherungsgesellschaft ermöglichen, die Umstände festzustellen und das Ausmaß der Schäden zu beurteilen.",
+      "deadline": "Sobald wie möglich",
+      "page": 2
+    },
+    {
+      "step": "Rechtsschutz — Anwalt im Ausland",
+      "description": "Freie Rechtsanwaltswahl in Luxemburg. Im Ausland ist die vorherige Einwilligung der Versicherungsgesellschaft erforderlich.",
+      "deadline": null,
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Beginn (Datum des Inkrafttretens) und Ende des Vertrags sind in den Besonderen Bedingungen angegeben.",
+    "tacit_renewal": true,
+    "notice_period": "30 Tage vor dem jährlichen Fälligkeitsdatum des Vertrags (Kündigung durch den Kunden); 60 Tage vor dem jährlichen Fälligkeitsdatum des Vertrags (Mitteilung durch die Versicherungsgesellschaft)",
+    "methods": [
+      "Die Kündigung ist per Einschreiben zu beantragen"
+    ],
+    "special_rights": [
+      "Der Vertrag verlängert sich jeweils um ein weiteres Jahr, sofern der Kunde oder die Versicherungsgesellschaft ihn nicht kündigen (stillschweigende Verlängerung).",
+      "Die Versicherung gilt für Schäden, die während der Vertragslaufzeit eintreten, auch wenn die Reklamation nach Vertragsende erfolgt. Bei Reklamationen nach Vertragsende vereinbaren die Parteien, dass der Versicherungsschutz auf die innerhalb von drei Jahren nach Eintreten des Schadens verfassten Reklamationen begrenzt wird.",
+      "Die Kündigung ist per Einschreiben zu beantragen und zwar: 30 Tage vor dem jährlichen Fälligkeitsdatum des Vertrags oder innerhalb von einem Monat nach Kündigung einer Garantie oder eines anderen Versicherungsvertrags durch die Versicherungsgesellschaft nach einem Schadensfall oder innerhalb von 60 Tagen nach einer von der Versicherungsgesellschaft mitgeteilten Prämienerhöhung.",
+      "Die Versicherungsgesellschaft kann den Vertrag nach einem Schadensfall, bei Betrug, bei Zahlungsausfall oder nach einer entsprechenden Mitteilung 60 Tage vor dem jährlichen Fälligkeitsdatum des Vertrags kündigen."
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "Der auf der jährlichen Fälligkeitsmitteilung angegebene Betrag ist am ersten Tag des Fälligkeitsmonats zu zahlen.",
+      "Monatliche Zahlungen im Lastschriftverfahren sind ohne zusätzliche Kosten möglich.",
+      "Ihre Versicherungsprämien unter Einhaltung der in Ihrem Vertrag festgelegten Fristen zahlen. Bei Nicht-Zahlung kann die Versicherungsgesellschaft den Versicherungsschutz aufheben oder den Vertrag kündigen.",
+      "Der Versicherungsschutz IT mobil, die Assistance-Leistungen und der medizinische Notfall sind « Optional und gegen Prämienaufschlag » (Seite 1)."
+    ],
+    "indexation": "Die Begrenzung des Versicherungsschutzes IT mobil ist mit « 284 EUR (Index 100) » indexiert; das Dokument nennt weder den Indextyp noch den aktuellen Indexstand.",
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Hinweis",
+      "description": "Hinweis: Das vorliegende Dokument ist nicht individuell an Ihren spezifischen Bedarf angepasst und die im vorliegenden Dokument vorgesehenen Informationen und Pflichten sind nicht vollständig. Ausführliche Informationen zu den Rechten und Pflichten des Versicherungsunternehmens und des Versicherten finden Sie in den Allgemeinen Versicherungsbedingungen und/oder den für das ausgewählte Produkt geltenden Besonderen Bedingungen.",
+      "page": 1
+    },
+    {
+      "name": "Um welche Art von Versicherung handelt es sich?",
+      "description": "Die Versicherung easyPROTECT Discover bietet ein Paket von Versicherungsleistungen für Versicherte, deren Hauptwohnsitz sich im Großherzogtum Luxemburg befindet, die zwischen 15 und 27 Jahre alt sind und ihren Eintritt ins Berufsleben vorbereiten (Studenten, Lehrlinge und vergleichbare Gruppen).",
+      "page": 1
+    },
+    {
+      "name": "Versicherte",
+      "description": "Versicherte: Studenten oder vergleichbare Gruppen (in Bezug auf die Haftpflichtversicherung und den damit zusammenhängenden Rechtsschutz und die Erweiterung „Studentenwohnung“, IT mobil, Assistance-Leistungen und medizinischer Notfall). — Gedruckt als erste abgehakte Zeile des Kastens « Was ist versichert ? », obwohl die Zeile den versicherten Personenkreis und keine Garantie beschreibt.",
+      "page": 1
+    },
+    {
+      "name": "Basisvariante",
+      "description": "Basisvariante: — Überschrift, unter der Haftpflicht, die Erweiterung „Studentenwohnung“ und der Rechtsschutz gedruckt sind.",
+      "page": 1
+    },
+    {
+      "name": "Optional und gegen Prämienaufschlag",
+      "description": "Optional und gegen Prämienaufschlag: — Überschrift, unter der Versicherungsschutz IT mobil, Assistance-Leistungen und Medizinischer Notfall gedruckt sind.",
+      "page": 1
+    },
+    {
+      "name": "Verweis auf die Allgemeinen Versicherungsbedingungen für weitere Ausschlüsse",
+      "description": "Neben den in den Allgemeinen Versicherungsbedingungen des Produkts easyPROTECT vorgesehenen Ausschlüssen gelten folgende Ausschlüsse:",
+      "page": 1
+    },
+    {
+      "name": "Nicht vollständige Liste — Kasten « Was ist nicht versichert ? »",
+      "description": "Der Kasten « Was ist nicht versichert ? » schließt mit dem Vermerk « Nicht vollständige Liste ».",
+      "page": 1
+    },
+    {
+      "name": "Nicht vollständige Liste — Kasten « Gibt es Ausschlüsse vom Versicherungsschutz ? »",
+      "description": "Der Kasten « Gibt es Ausschlüsse vom Versicherungsschutz ? » schließt ebenfalls mit dem Vermerk « Nicht vollständige Liste ».",
+      "page": 1
+    },
+    {
+      "name": "Deckung für Schäden während der Vertragslaufzeit bei späterer Reklamation",
+      "description": "Die Versicherung gilt für Schäden, die während der Vertragslaufzeit eintreten, auch wenn die Reklamation nach Vertragsende erfolgt. Bei Reklamationen nach Vertragsende vereinbaren die Parteien, dass der Versicherungsschutz auf die innerhalb von drei Jahren nach Eintreten des Schadens verfassten Reklamationen begrenzt wird.",
+      "page": 2
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Die Versicherung easyPROTECT Discover bietet ein Paket von Versicherungsleistungen für Versicherte, deren Hauptwohnsitz sich im \nGroßherzogtum Luxemburg befindet, die zwischen 15 und 27 Jahre alt sind und ihren Eintritt ins Berufsleben vorbereiten (Studenten, \nLehrlinge und vergleichbare Gruppen).",
+      "context": "Kasten « Um welche Art von Versicherung handelt es sich? »",
+      "page": 1
+    },
+    {
+      "quote": "Versicherte: Studenten oder vergleichbare Gruppen (in Bezug auf \ndie Haftpflichtversicherung und den damit zusammenhängenden \nRechtsschutz und die Erweiterung „Studentenwohnung“, IT mobil, \nAssistance-Leistungen und medizinischer Notfall).",
+      "context": "Erste abgehakte Zeile des Kastens « Was ist versichert ? » — beschreibt den Personenkreis",
+      "page": 1
+    },
+    {
+      "quote": "Haftpflicht: beispielsweise Schäden, die während des Privat- und \nStudentenlebens verursacht werden; hiervon ausgenommen sind \nberufliche Tätigkeiten, Schäden, die als Haustierhalter oder -betreuer \nverursacht werden, oder auch Schäden, die durch Wasser infolge von \nWasserrohrbrüchen verursacht werden.",
+      "context": "Garantie Haftpflicht (Basisvariante) — enthält drei Ausschlüsse im grünen Kasten",
+      "page": 1
+    },
+    {
+      "quote": "Erweiterung „Studentenwohnung“: Versicherungsschutz für den \nVersicherungsnehmer, der als Mieter eine in Europa gelegene \nStudentenwohnung bewohnt, etwa für Sachschäden am gemieteten \nGebäude infolge von Brand, Wasserschäden oder Glasbruch oder \nauch Sachschäden am gemieteten oder dem Versicherungsnehmer \ngehörenden Mobiliar, das sich in der gemieteten Wohnung befindet \n(beispielsweise Diebstahl).",
+      "context": "Erweiterung „Studentenwohnung“ — ohne eigenes Häkchen gedruckt",
+      "page": 1
+    },
+    {
+      "quote": "Rechtsschutz: beispielsweise Kosten und Honorare für alle Schritte, \nUntersuchungen, Gutachten und Instanzen infolge des Eintretens eines \nSchadens, der entweder zum Tod geführt oder Sach-/Körperschäden \nverursacht hat (gegen die Versicherten eingeleitete Strafverfolgung \noder gegen jedweden Verantwortlichen einzureichende Klagen auf \nWiedergutmachung des Schadens, der den Versicherten entstanden ist).",
+      "context": "Garantie Rechtsschutz (Basisvariante)",
+      "page": 1
+    },
+    {
+      "quote": "Optional und gegen Prämienaufschlag:",
+      "context": "Überschrift der drei optionalen Garantien",
+      "page": 1
+    },
+    {
+      "quote": "Versicherungsschutz IT mobil: Bruch und Diebstahl von IT-\nGeräten und nicht tragbaren audiovisuellen Geräten, die sich in der \nWohnung befinden; Bruch und Diebstahl von IT-Geräten, tragbaren \naudiovisuellen Geräten und tragbaren Telefonen weltweit.",
+      "context": "Garantie IT mobil (optional)",
+      "page": 1
+    },
+    {
+      "quote": "Medizinischer Notfall: Bei einem Unfall, bei Krankheit oder im \nTodesfall garantiert die Versicherungsgesellschaft innerhalb der \nin den Allgemeinen Versicherungsbedingungen vorgesehenen \nDeckungsgrenzen ambulante Behandlungen, Zahnbehandlungen \nund stationäre Behandlungen im  Ausland sowie die Rückführung \n(wenn medizinisch notwendig).",
+      "context": "Garantie Medizinischer Notfall (optional)",
+      "page": 1
+    },
+    {
+      "quote": "Neben den in den Allgemeinen Versicherungsbedingungen des \nProdukts easyPROTECT vorgesehenen Ausschlüssen gelten folgende \nAusschlüsse:",
+      "context": "Verweis auf weitere Ausschlüsse in den AVB",
+      "page": 1
+    },
+    {
+      "quote": "Schäden, die aus der Abnutzung oder der allmählichen \nVerschlechterung oder aus rein ästhetischen Schäden resultieren;",
+      "context": "Ausschluss — IT mobil",
+      "page": 1
+    },
+    {
+      "quote": "Verlust elektronischer Daten, die auf dem Mobiltelefon, \nSmartphone oder Tablet gespeichert waren.",
+      "context": "Ausschluss — Wiederherstellung elektronischer Daten",
+      "page": 1
+    },
+    {
+      "quote": "Kosten für Verhütungsmittel;\n\t Kosten für Präventivmedizin und Impfungen;\n\t Selbstmord oder Selbstmordversuch.",
+      "context": "Ausschlüsse — Medizinische Notfälle",
+      "page": 1
+    },
+    {
+      "quote": "Haftpflicht – Erweiterung „Studentenwohnung“: Sachschäden \nam Mobiliar aufgrund von Diebstahl in Höhe von bis zu 3.000 EUR.",
+      "context": "Kasten « Gibt es Ausschlüsse vom Versicherungsschutz ? » — Deckungsgrenze",
+      "page": 1
+    },
+    {
+      "quote": "Versicherungsschutz IT mobil: Bei Glasbruch und Diebstahl ist \nder Versicherungsschutz pro Schadensfall und pro Jahr auf 284 EUR \n(Index 100) begrenzt.",
+      "context": "Kasten « Gibt es Ausschlüsse vom Versicherungsschutz ? » — das Dokument schreibt hier « Glasbruch », im Deckungskasten « Bruch »",
+      "page": 1
+    },
+    {
+      "quote": "Ausbildungskosten ist auf 2.000 EUR pro Jahr und Schadensfall \nbegrenzt; Rückkehrkosten werden in Höhe von bis zu 500 EUR pro \nSchadensfall und pro Jahr erstattet.",
+      "context": "Kasten « Gibt es Ausschlüsse vom Versicherungsschutz ? » — Deckungsgrenzen Assistance",
+      "page": 1
+    },
+    {
+      "quote": "Medizinische Notfälle: Bei Zahnbehandlungen sind provisorische \nProthesen auf bis zu 250 EUR pro Prothese begrenzt.",
+      "context": "Kasten « Gibt es Ausschlüsse vom Versicherungsschutz ? » — Deckungsgrenze Zahnprothesen",
+      "page": 1
+    },
+    {
+      "quote": "Medizinische Notfälle: Europäische Union mit Ausnahme des Großherzogtums Luxemburg und Großbritanniens.",
+      "context": "Kasten « Wo bin ich versichert ? » — räumlicher Geltungsbereich Medizinische Notfälle",
+      "page": 2
+    },
+    {
+      "quote": "Jeden Schadensfall innerhalb von 8 Tagen, nachdem er sich ereignet hat, melden und die Einwilligung der Versicherungsgesellschaft \neinholen, bevor jedwede Maßnahmen ergriffen werden, die eine Einbeziehung der Versicherung erfordern.",
+      "context": "Pflicht — Schadensmeldung",
+      "page": 2
+    },
+    {
+      "quote": "Rechtsschutz: Freie Rechtsanwaltswahl in Luxemburg. Im Ausland ist die vorherige Einwilligung der Versicherungsgesellschaft \nerforderlich.",
+      "context": "Besonderheit Rechtsschutz",
+      "page": 2
+    },
+    {
+      "quote": "Die Versicherung gilt für Schäden, die während der Vertragslaufzeit eintreten, auch wenn die Reklamation nach Vertragsende \nerfolgt. Bei Reklamationen nach Vertragsende vereinbaren die Parteien, dass der Versicherungsschutz auf die innerhalb von \ndrei Jahren nach Eintreten des Schadens verfassten Reklamationen begrenzt wird.",
+      "context": "Reklamationen nach Vertragsende — Begrenzung auf drei Jahre",
+      "page": 2
+    },
+    {
+      "quote": "Die Kündigung ist per Einschreiben zu beantragen und zwar: 30 Tage vor dem jährlichen Fälligkeitsdatum des Vertrags \noder innerhalb von einem Monat nach Kündigung einer Garantie oder eines anderen Versicherungsvertrags durch die \nVersicherungsgesellschaft nach einem Schadensfall oder innerhalb von 60 Tagen nach einer von der Versicherungsgesellschaft \nmitgeteilten Prämienerhöhung.",
+      "context": "Kündigungsmodalitäten des Kunden",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "BRANCHE CORRIGÉE PAR RAPPORT AUX MÉTADONNÉES DE LA TÂCHE. La tâche annonçait `branch: multirisque-professionnelle` ; le document dit le contraire. « Service easyPROTECT - Discover » est un paquet de garanties pour des personnes physiques de 15 à 27 ans résidant au Luxembourg et préparant leur entrée dans la vie active (étudiants, apprentis), dont la garantie de base est la responsabilité civile de la vie privée et étudiante — et cette garantie exclut explicitement les activités professionnelles (« hiervon ausgenommen sind berufliche Tätigkeiten »). `branch` a donc été mis à `rc-familiale`, d’après la garantie de base imprimée. Le préfixe de gamme commercial « easyPROTECT », qu’on retrouve aussi sur la ligne professionnelle easyPROTECT-PRO, est vraisemblablement à l’origine du classement d’origine : ce n’est pas une branche. Le fichier local est d’ailleurs rangé sous data/lu/pdfs/lalux/multirisque-professionnelle/. Un relecteur qui préférerait `autres` (le produit est un paquet de six garanties : RC, extension logement étudiant, protection juridique, IT mobile, assistance, urgence médicale) dispose ici de tous les éléments pour trancher.",
+    "Porteur de risque non déterminable : le document imprime uniquement la marque « LALUX Assurances » dans la ligne d’identité « LALUX Assurances - Produkt : easyPROTECT - Discover », puis parle de « die Versicherungsgesellschaft » et de « des Versicherungsunternehmens ». Aucune forme sociale, aucun numéro RCS, aucune adresse, aucun agrément et aucun superviseur ne figurent sur les deux pages ; il est donc impossible, sur ce seul document, de dire laquelle des entités agréées porte le risque. `insurer_name` reprend la marque imprimée plutôt que la valeur « lalux » des métadonnées de la tâche.",
+    "Aucune date d’édition, aucun numéro de version et aucune référence interne ne sont imprimés : `edition_date` et `reference` sont null. Les métadonnées internes du PDF portent une date de création et de modification du 2018-09-25 15:49:26+02:00 et un nom de source InDesign « IPID_Discover_LALUX_easyPROTECT_DE.indd » ; c’est une métadonnée de fichier et non un contenu imprimé, elle n’a pas été retenue comme date d’édition. Elle est signalée parce qu’un IPID de 2018 peut décrire un produit qui n’est plus commercialisé sous cette forme.",
+    "Intitulé de rubrique contredit par son contenu (défaut conservé, non corrigé) : le troisième encadré s’intitule « Gibt es Ausschlüsse vom Versicherungsschutz ? » mais ses quatre puces ne sont pas des exclusions — ce sont quatre plafonds d’indemnisation (3.000 EUR mobilier volé, 284 EUR (Index 100) IT mobil, 2.000 EUR frais de scolarité et 500 EUR frais de retour, 250 EUR par prothèse provisoire). Les quatre ont été enregistrées à la fois dans `exclusions` — parce que c’est là que le document les imprime — et dans les champs `limits` / `sub_limits` de la garantie correspondante, afin qu’aucune des deux lectures ne soit perdue.",
+    "Exclusions imprimées dans l’encadré des couvertures : les mots « hiervon ausgenommen sind berufliche Tätigkeiten, Schäden, die als Haustierhalter oder -betreuer verursacht werden, oder auch Schäden, die durch Wasser infolge von Wasserrohrbrüchen verursacht werden » figurent à l’intérieur de la description de la garantie Haftpflicht, dans l’encadré vert « Was ist versichert ? », et non dans l’encadré des exclusions. Ce sont trois exclusions réelles ; elles ont été enregistrées comme telles dans `exclusions` (applies_to = Haftpflicht) tout en restant dans la description de la garantie. Il ne s’agit pas d’une inversion de colonnes : c’est la formulation même du document. Total de 15 exclusions = 3 (dans la description de la Haftpflicht) + 8 (encadré « Was ist nicht versichert ? ») + 4 (encadré « Gibt es Ausschlüsse vom Versicherungsschutz ? »).",
+    "Contradiction interne sur le fait générateur de la garantie IT mobil, les deux lectures conservées verbatim : l’encadré des couvertures écrit « Versicherungsschutz IT mobil: Bruch und Diebstahl von IT-Geräten… » (bris, sans restriction), tandis que le troisième encadré écrit « Bei Glasbruch und Diebstahl ist der Versicherungsschutz pro Schadensfall und pro Jahr auf 284 EUR (Index 100) begrenzt » (bris de glace). Aucune des deux n’a été corrigée ni harmonisée.",
+    "Ligne cochée qui n’est pas une garantie (défaut conservé) : la première coche verte de l’encadré « Was ist versichert ? » porte « Versicherte: Studenten oder vergleichbare Gruppen (…) », qui décrit le périmètre des personnes assurées et non une couverture. Elle a été portée dans `target_audience_note` et dans `special_conditions`, et n’a pas été transformée en garantie.",
+    "Garantie sans coche : « Erweiterung „Studentenwohnung“ » est imprimée sans point de puce, en paragraphe de continuation à l’intérieur du bloc « Basisvariante: », entre la Haftpflicht et le Rechtsschutz (vérifié par coordonnées et sur un rendu : le bloc commence à x0 = 29,8 pt, y0 = 429,6 pt, sans image de puce, alors que les six autres entrées de la colonne portent une coche). C’est une garantie réelle et elle a été enregistrée comme telle. Son `is_optional` est laissé à null : le document la place sous « Basisvariante: » (ce qui plaide pour une garantie de base) mais la nomme « Erweiterung » (extension), et le troisième encadré la rattache à la Haftpflicht (« Haftpflicht – Erweiterung „Studentenwohnung“ »). Le document ne tranche pas.",
+    "`is_optional` pour les autres garanties est lu directement sur les deux intertitres imprimés : « Basisvariante: » → false pour Haftpflicht et Rechtsschutz ; « Optional und gegen Prämienaufschlag: » → true pour Versicherungsschutz IT mobil, Assistance-Leistungen et Medizinischer Notfall. Aucun supplément de prime n’est chiffré.",
+    "Renvois aux Allgemeinen Versicherungsbedingungen non joints, qui limitent la complétude de cette extraction sur deux points quantitatifs : les plafonds de la garantie « Medizinischer Notfall » sont renvoyés aux AVB (« innerhalb der in den Allgemeinen Versicherungsbedingungen vorgesehenen Deckungsgrenzen ») sans être chiffrés, et l’encadré des exclusions s’ouvre sur « Neben den in den Allgemeinen Versicherungsbedingungen des Produkts easyPROTECT vorgesehenen Ausschlüssen gelten folgende Ausschlüsse: ». Les deux encadrés d’exclusions portent en outre la mention imprimée « Nicht vollständige Liste ».",
+    "Sections absentes du document, laissées vides ou nulles : aucune définition contractuelle (`definitions` vide), aucune franchise (`deductibles` null — le mot « Selbstbeteiligung » n’apparaît pas), aucun délai de carence (`waiting_periods` vide). `prescription_period` est laissé null : la clause « Bei Reklamationen nach Vertragsende … auf die innerhalb von drei Jahren nach Eintreten des Schadens verfassten Reklamationen begrenzt » est une limitation du déclenchement de la garantie après la fin du contrat et non une prescription légale ; elle a été portée dans `duration_and_cancellation.special_rights` et dans `special_conditions`.",
+    "Méthode et contrôles : le texte du PDF a été ré-extrait localement avec `page.get_text(\"text\")` page par page et est identique caractère pour caractère au texte du prompt (7 981 caractères), donc aucune troncature. Les puces sont des images bitmap (18 en page 1, aucune en page 2) sans texte associé ; leur polarité a été lue sur un rendu : coches vertes (largeur 7,2 pt) à x0 = 29,8 pt pour « Was ist versichert ? », croix rouges (6,7 pt) à x0 = 307,6 pt pour « Was ist nicht versichert ? », points d’exclamation orange (2,4 pt) à x0 = 309,5 pt pour « Gibt es Ausschlüsse vom Versicherungsschutz ? ». Les comptes ferment exactement : 6 + 8 + 4 = 18 = toutes les images de la page 1. Les 6 coches correspondent à 5 garanties + 1 ligne « Versicherte » ; la 6e garantie (Erweiterung „Studentenwohnung“) est imprimée sans coche. Contrôle de l’ordre des colonnes : la page 1 est typographiée en deux colonnes (x0 ≈ 29,8 pt à gauche, x0 ≈ 307,6 pt à droite) et le texte plat émet la colonne de gauche intégralement avant celle de droite ; l’ordre de lecture correspond à l’impression, aucune inversion de colonnes n’a été détectée. Le rattachement des quatre plafonds du troisième encadré à leur garantie est explicite dans le texte imprimé (chaque puce commence par le nom de la garantie), il ne repose donc pas sur la géométrie.",
+    "Le document n’imprime aucun folio ni pied de page : les numéros de page cités sont ceux des marqueurs [[page N]], vérifiés par recherche d’ancre pour chaque citation.",
+    "Le symbole € n’apparaît nulle part : les cinq montants sont imprimés avec « EUR » en toutes lettres (« 3.000 EUR », « 284 EUR », « 2.000 EUR », « 500 EUR », « 250 EUR »), forme vérifiée sur un rendu. Les montants sont repris verbatim, sans ajout de symbole monétaire."
+  ]
+}

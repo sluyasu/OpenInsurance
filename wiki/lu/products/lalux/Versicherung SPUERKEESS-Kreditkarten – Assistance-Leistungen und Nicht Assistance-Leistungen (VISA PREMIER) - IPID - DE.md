@@ -177,6 +177,7 @@ Aufgeführt unter « ASSISTANCE-LEISTUNGEN ». Das Dokument gibt nur die Übersc
 ## Documents liés
 
 - [Versicherung SPUERKEESS-Kreditkarten – Assistance-Leistungen und Nicht Assistance-Leistungen (VISA INFINITE) - IPID - DE](Versicherung%20SPUERKEESS-Kreditkarten%20%E2%80%93%20Assistance-Leistungen%20und%20Nicht%20Assistance-Leistungen%20%28VISA%20INFINITE%29%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
+- [Versicherung SPUERKEESS-Kreditkarten – Assistance-Leistungen und Nicht Assistance-Leistungen (VISA CLASSIC) - IPID - DE](Versicherung%20SPUERKEESS-Kreditkarten%20%E2%80%93%20Assistance-Leistungen%20und%20Nicht%20Assistance-Leistungen%20%28VISA%20CLASSIC%29%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
 
 ## Source & fidélité
 

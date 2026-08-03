@@ -147,6 +147,7 @@ The Company guarantees, within the limit of the amount insured, the reimbursemen
 
 ## Documents liés
 
+- [easyPROTECT PRO – Accident entreprise - IPID](easyPROTECT%20PRO%20%E2%80%93%20Accident%20entreprise%20-%20IPID.md) - IPID / Fiche d'information
 - [easyPROTECT PRO – Unfallversicherung für Betriebspersonal (Unfallversicherung für Betriebspersonal - Betriebsunfall) - I](easyPROTECT%20PRO%20%E2%80%93%20Unfallversicherung%20f%C3%BCr%20Betriebspersonal%20%28Unfallversicherung%20f%C3%BCr%20Betriebspersonal%20-%20Betriebsunfall%29%20-%20I.md) - IPID / Fiche d'information
 
 ## Source & fidélité

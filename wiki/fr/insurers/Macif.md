@@ -5,7 +5,7 @@ country: fr
 insurer_slug: macif
 name: Macif
 website: https://www.macif.fr
-products_count: 86
+products_count: 90
 branches_covered:
 - animaux
 - assurance-vie
@@ -40,7 +40,7 @@ generated: true
 
 ## Résumé
 
-**Macif** - [https://www.macif.fr](https://www.macif.fr). 86 document(s) across 18 branch(es).
+**Macif** - [https://www.macif.fr](https://www.macif.fr). 90 document(s) across 18 branch(es).
 
 ## Produits par branche
 
@@ -54,12 +54,14 @@ generated: true
 - [Livret Vie](../products/macif/Livret%20Vie.md) - Conditions générales (JANVIER 2018) · réf. MUT/N/LV - 01/18
 - [Macif Épargne Vie - Tarifs](../products/macif/Macif%20%C3%89pargne%20Vie%20-%20Tarifs.md) - Conditions tarifaires (2024-06) · réf. MUT/FC/FRAIS/MEV - 06/24
 - [Multi Vie - Tarifs](../products/macif/Multi%20Vie%20-%20Tarifs.md) - Conditions tarifaires · réf. MUT/ FC/ FRAIS/MV - 06/24
+- [Multi Vie](../products/macif/Multi%20Vie.md) - Conditions générales (JUIN 2019)
 
 ### [Assurance auto](../branches/Assurance%20auto.md)
 - [Contrat Automobile – Voitures particulières, fourgons et fourgonnettes (Voitures particulières, fourgons et fourgonnette](../products/macif/Contrat%20Automobile%20%E2%80%93%20Voitures%20particuli%C3%A8res%2C%20fourgons%20et%20fourgonnettes%20%28Voitures%20particuli%C3%A8res%2C%20fourgons%20et%20fourgonnette.md) - IPID / Fiche d'information (2022-06) · réf. VEH  VPFG - 06/22
 - [Contrat Camping-car Autocaravane - IPID](../products/macif/Contrat%20Camping-car%20Autocaravane%20-%20IPID.md) - IPID / Fiche d'information (2018-10) · réf. LOIS CCAR 10/18
 - [Contrat Camping-car, Autocaravane](../products/macif/Contrat%20Camping-car%2C%20Autocaravane.md) - Conditions générales (2019-01) · réf. LOIS / CARACC / 05 - 01 / 19 - N 891
 - [Contrat Flotte Automobile - IPID](../products/macif/Contrat%20Flotte%20Automobile%20-%20IPID.md) - IPID / Fiche d'information (06/19) · réf. VEH/FLOTTE - 06/19
+- [Contrat Flotte Automobile - IPID](../products/macif/Contrat%20Flotte%20Automobile%20-%20IPID%20%282%29.md) - IPID / Fiche d'information (10/18) · réf. VEH-AUTO 10/18
 - [Contrat Macif Auto - IPID](../products/macif/Contrat%20Macif%20Auto%20-%20IPID.md) - IPID / Fiche d'information (06/22) · réf. VEH AUTO PART - 06/22
 - [Contrat Macif Auto Pros - IPID](../products/macif/Contrat%20Macif%20Auto%20Pros%20-%20IPID.md) - IPID / Fiche d'information (01/26) · réf. VEH AUTO PROS
 - [Contrat Macif Pann'Auto](../products/macif/Contrat%20Macif%20Pann%27Auto.md) - Conditions générales (Novembre 2020) · réf. VEH/GPM/05 - 11/20 - N378
@@ -72,6 +74,7 @@ generated: true
 - [Banque - Notice d'information d'Assurance des Moyens de paiement - IPID](../products/macif/Banque%20-%20Notice%20d%27information%20d%27Assurance%20des%20Moyens%20de%20paiement%20-%20IPID.md) - IPID / Fiche d'information (10/18) · réf. BQ MP 10/18
 - [Contrat Caravaning](../products/macif/Contrat%20Caravaning.md) - Conditions générales (Avril 2015) · réf. LOIS/CARACC/05 - 04/15 - N073
 - [Contrat Caravaning - IPID](../products/macif/Contrat%20Caravaning%20-%20IPID.md) - IPID / Fiche d'information (2018-10) · réf. LOIS CARAV 10/18
+- [Statuts de Macif Santé Prévoyance - Doc](../products/macif/Statuts%20de%20Macif%20Sant%C3%A9%20Pr%C3%A9voyance%20-%20Doc.md) - Document (adoptés par l’assemblée générale du 14 juin 2025) · réf. U197 - PREI/MSP/Statuts - 01/26
 
 ### [Chasse](../branches/Chasse.md)
 - [Contrat Chasse](../products/macif/Contrat%20Chasse.md) - Conditions générales (décembre 2012) · réf. LOIS/CHA/05 - 12/12 - NM12
@@ -82,6 +85,7 @@ generated: true
 - [Assurance Découvert Autorisé - Doc](../products/macif/Assurance%20D%C3%A9couvert%20Autoris%C3%A9%20-%20Doc.md) - Document
 - [Assurance Découvert Autorisé - IPID](../products/macif/Assurance%20D%C3%A9couvert%20Autoris%C3%A9%20-%20IPID.md) - IPID / Fiche d'information (12/20) · réf. DIPA ASSURANCE DÉCOUVERT 12/20
 - [Assurance emprunteur crédit à la consommation - IPID](../products/macif/Assurance%20emprunteur%20cr%C3%A9dit%20%C3%A0%20la%20consommation%20-%20IPID.md) - IPID / Fiche d'information
+- [Garantie Emprunteur Macif](../products/macif/Garantie%20Emprunteur%20Macif.md) - Conditions générales · réf. GEM25050011
 - [Notice d'information au contrat collectif d'assurance emprunteur à adhésion facultative (contrat collectif n° 00.104, So](../products/macif/Notice%20d%27information%20au%20contrat%20collectif%20d%27assurance%20emprunteur%20%C3%A0%20adh%C3%A9sion%20facultative%20%28contrat%20collectif%20n%C2%B0%2000.104%2C%20So.md) - Conditions générales · réf. ASS-OFF--V13
 - [Perte d'Emploi (contrat collectif n°690701 souscrit par SECURIMUT auprès de MNCAP SA)](../products/macif/Perte%20d%27Emploi%20%28contrat%20collectif%20n%C2%B0690701%20souscrit%20par%20SECURIMUT%20aupr%C3%A8s%20de%20MNCAP%20SA%29.md) - Conditions générales
 

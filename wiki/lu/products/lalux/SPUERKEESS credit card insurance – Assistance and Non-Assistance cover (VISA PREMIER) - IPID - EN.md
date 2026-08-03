@@ -170,6 +170,12 @@ Listed under “ASSISTANCE COVER”. The document gives the heading only, with n
 - Text-layer quality checks on this file, all clean: the two pages extracted with page.get_text("text") are byte-identical to the text pasted in the prompt; no zero-width spaces, no soft hyphens, no NFD combining accents, no Private-Use-Area glyphs, no U+0007, no off-canvas text and no dropped ligatures. The only special characters are U+2019 curly apostrophes (5) and U+2009 thin spaces before “? : ;” throughout — the thin spaces are inside several key_quotes and were preserved as exact spans. The header title block is white type on the blue banner (it extracts as colour 16777215) and is normally printed and legible, not white-on-white.
 - is_optional is false on all eight coverages: all eight are listed in the “What is covered by the insurance ?” box and the document marks none of them as optional or as an add-on. The document does not use the words “option” or “optional” at all.
 
+## Documents liés
+
+- [SPUERKEESS credit card insurance – Assistance and Non-Assistance (VISA BUSINESS credit cards) - IPID - EN](SPUERKEESS%20credit%20card%20insurance%20%E2%80%93%20Assistance%20and%20Non-Assistance%20%28VISA%20BUSINESS%20credit%20cards%29%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+- [SPUERKEESS credit card insurance – Assistance and Non-Assistance cover (VISA INFINITE) - IPID - EN](SPUERKEESS%20credit%20card%20insurance%20%E2%80%93%20Assistance%20and%20Non-Assistance%20cover%20%28VISA%20INFINITE%29%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+- [SPUERKEESS credit card insurance – Assistance and Non-Assistance cover (VISA CLASSIC) - IPID - EN](SPUERKEESS%20credit%20card%20insurance%20%E2%80%93%20Assistance%20and%20Non-Assistance%20cover%20%28VISA%20CLASSIC%29%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+
 ## Source & fidélité
 
 - Source : [https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_PREMIER_EN.pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_PREMIER_EN.pdf) - téléchargé le 2026-08-02 - 2 pages

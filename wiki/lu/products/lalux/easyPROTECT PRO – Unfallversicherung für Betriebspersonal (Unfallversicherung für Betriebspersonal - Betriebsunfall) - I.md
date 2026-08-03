@@ -180,6 +180,7 @@ Die Versicherungsgesellschaft garantiert im Rahmen der Deckungssumme die Erstatt
 
 ## Documents liés
 
+- [easyPROTECT PRO – Accident entreprise - IPID](easyPROTECT%20PRO%20%E2%80%93%20Accident%20entreprise%20-%20IPID.md) - IPID / Fiche d'information
 - [easyPROTECT PRO – Company accident insurance - IPID - EN](easyPROTECT%20PRO%20%E2%80%93%20Company%20accident%20insurance%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 
 ## Source & fidélité

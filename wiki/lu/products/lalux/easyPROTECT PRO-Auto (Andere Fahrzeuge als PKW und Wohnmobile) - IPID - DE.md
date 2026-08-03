@@ -177,6 +177,7 @@ Schädigung der Bezugsberechtigten infolge eines Körperschadens, den der Versic
 ## Documents liés
 
 - [easyPROTECT PRO-Auto (Vehicles other than cars and motorhomes) - IPID - EN](easyPROTECT%20PRO-Auto%20%28Vehicles%20other%20than%20cars%20and%20motorhomes%29%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+- [easyPROTECT-PRO - Auto (Véhicules autres que voitures ou camping cars) - IPID](easyPROTECT-PRO%20-%20Auto%20%28V%C3%A9hicules%20autres%20que%20voitures%20ou%20camping%20cars%29%20-%20IPID.md) - IPID / Fiche d'information
 
 ## Source & fidélité
 

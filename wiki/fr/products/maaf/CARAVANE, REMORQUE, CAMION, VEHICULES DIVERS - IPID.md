@@ -193,6 +193,7 @@ Garantie optionnelle proposée « En plus pour camions » : couverture des domma
 
 ## Documents liés
 
+- [Assurance Véhicule - IPID](Assurance%20V%C3%A9hicule%20-%20IPID.md) - IPID / Fiche d'information, éd. 2025-06
 - [Camping-Car, Ambulance, Bazar forain, Véhicule de collection - IPID](Camping-Car%2C%20Ambulance%2C%20Bazar%20forain%2C%20V%C3%A9hicule%20de%20collection%20-%20IPID.md) - IPID / Fiche d'information, éd. 2025-06
 
 ## Source & fidélité

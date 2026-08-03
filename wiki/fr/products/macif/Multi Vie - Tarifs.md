@@ -109,6 +109,10 @@ Tableau standardisé des frais du contrat d'assurance vie Multi Vie, sur une pag
 - Texte vérifié : les quotes sont des tranches exactes du texte ré-extrait du PDF local (PyMuPDF, page.get_text("text")), identique caractère pour caractère au texte du prompt une fois les marqueurs [page N] retirés. Autres particularités de la couche texte préservées telles quelles : 2 apostrophes typographiques U+2019 (aucune apostrophe ASCII), 8 espaces fines U+2009 (ci-dessus), 1 espace insécable U+00A0 dans la toute première ligne « NA : non applicable. » (entre « NA » et le deux-points — les espaces de « 46 200 000 € » sont en revanche ordinaires), 5 tabulations dans les numéros de section (« 1.1\t », « 1.2.1\t »…), des guillemets courbes U+201C/U+201D autour de “fonds actions” et “fonds immobilier”, un signe degré dans « Mode de gestion n°1 » et une espace finale après « un maximum de 30 € ». Aucun espace de largeur nulle, aucun tiret conditionnel, aucun glyphe de zone privée, aucune ligature perdue, aucune coupure de mot par tiret en fin de ligne.
 - edition_date remise a null le 2026-08-01: la valeur 2024-06 venait du manifeste, deduite d'un YYMMDD non libelle dans le code de reference, alors que ce document n'imprime aucune date d'edition. Une date deduite presentee comme la date du document contrevient aux regles 4 et 5.
 
+## Documents liés
+
+- [Multi Vie](Multi%20Vie.md) - Conditions générales, éd. JUIN 2019
+
 ## Source & fidélité
 
 - Source : [https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/MultiVie-Frais.pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/MultiVie-Frais.pdf) - téléchargé le 2026-08-01 - 1 pages

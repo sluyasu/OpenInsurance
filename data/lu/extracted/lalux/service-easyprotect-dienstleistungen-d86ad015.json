@@ -1,0 +1,478 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "lu",
+  "insurer_slug": "lalux",
+  "insurer_name": "lalux",
+  "product_name": "Service easyPROTECT - Dienstleistungen",
+  "branch": "multirisque-professionnelle",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "de",
+  "target_audience": null,
+  "target_audience_note": "Das Dokument nennt kein Marktsegment. Der einzige Hinweis auf den Kontext der Deckung ist « die Risiken in Verbindung mit der Internetnutzung in seinem Privatleben » beim Online-Schutz sowie « der Versicherte », « seines Ehegatten », « der Person, mit der der Versicherte in gesetzlicher Partnerschaft zusammenlebt » und « eines Mitglieds seiner Familie, das gewöhnlich unter seinem Dach lebt » bei der Reiseversicherung.",
+  "reference": null,
+  "edition_date": null,
+  "product_family": "easyPROTECT",
+  "variant": "Dienstleistungen",
+  "is_extension": true,
+  "extends": "easyPROTECT",
+  "superseded": null,
+  "source_url": "https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_services-a-la-personne_lalux_easyprotect_de.pdf",
+  "source_pdf": "70785kb-d86ad015.pdf",
+  "source_sha256": "5c8ead21b15fbb899656e7b1880edbc21b564181ff28ebfbbac0c30ee8f43b0f",
+  "source_pages": 2,
+  "fetched_at": "2026-08-02",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Informationsdokument über das Versicherungsprodukt (IPID) zu « Service easyPROTECT - Dienstleistungen », vertrieben unter der Marke LALUX Assurances. Der Abschluss eines easyPROTECT-Vertrags gewährt Anspruch auf bestimmte exklusive Leistungen, vor allem die Möglichkeit, durch die Zahlung entsprechender Prämien den beschriebenen Versicherungsschutz zu erhalten. Dieser umfasst vier Bausteine: eine Reiseversicherung für das ganze Jahr (Stornierung oder Abbruch einer Reise), Assistance-Leistungen für das ganze Jahr im Ausland (Rückführung bis zu 50.000 EUR pro versicherte Person und pro Kalenderjahr, vorzeitige Rückreise, Such- und Bergungskosten max. 5.000 EUR), Home Assistance (Pannendienst rund um die Uhr an der Risikoanschrift in Luxemburg) und einen Online-Schutz gegen IT- und Internetrisiken im Privatleben.",
+  "definitions": [
+    {
+      "term": "Ausland",
+      "definition": "Als Ausland werden alle Länder außer dem Großherzogtum Luxemburg und dem Land betrachtet, in dem die versicherte Person ihren gewöhnlichen Wohnsitz hat.",
+      "page": 2
+    },
+    {
+      "term": "Versichertes Ereignis (Assistance-Leistungen)",
+      "definition": "Notwendige medizinische Behandlung einer versicherten Person infolge einer Krankheit oder eines Unfalls. Der Tod einer versicherten Person wird als versichertes Ereignis betrachtet.",
+      "page": 1
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Reiseversicherung für das ganze Jahr – Stornierung oder Abbruch einer Reise",
+      "description": "Erstattung der Kosten in Verbindung mit der Stornierung oder dem Abbruch einer Reise oder eines gebuchten Aufenthalts, die vom Organisator der Reise/des Aufenthalts gefordert werden, wenn die Stornierung oder der Abbruch aufgrund des Eintretens folgender Umstände erfolgten: (1) Krankheit, Unfall mit Körperverletzung oder Tod des Versicherten, seines Ehegatten, der Person, mit der der Versicherte in gesetzlicher Partnerschaft zusammenlebt, oder eines Mitglieds seiner Familie, das gewöhnlich unter seinem Dach lebt. (2) Entlassung des Versicherungsnehmers aus wirtschaftlichen Gründen nach Inkrafttreten des Versicherungsschutzes und nach Buchung der Reise.",
+      "is_optional": null,
+      "territorial_scope": "Weltweit",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Krankheit, Unfall mit Körperverletzung oder Tod des Versicherten, seines Ehegatten, der Person, mit der der Versicherte in gesetzlicher Partnerschaft zusammenlebt, oder eines Mitglieds seiner Familie, das gewöhnlich unter seinem Dach lebt.",
+        "Entlassung des Versicherungsnehmers aus wirtschaftlichen Gründen nach Inkrafttreten des Versicherungsschutzes und nach Buchung der Reise.",
+        "Erstattet werden die Kosten, die vom Organisator der Reise/des Aufenthalts gefordert werden."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance-Leistungen für das ganze Jahr – Rückführung im Krankheitsfall oder im Todesfall",
+      "description": "Rückführung im Krankheitsfall (soweit medizinisch sinnvoll) oder im Todesfall, in Höhe von bis zu 50.000 EUR pro versicherte Person und pro Kalenderjahr.",
+      "is_optional": null,
+      "territorial_scope": "Der Versicherungsschutz gilt für Auslandsreisen bei Erkrankung, Unfall und anderen Ereignissen, die in den vorliegenden Allgemeine Versicherungsbedingungen aufgeführt sind. Als Ausland werden alle Länder außer dem Großherzogtum Luxemburg und dem Land betrachtet, in dem die versicherte Person ihren gewöhnlichen Wohnsitz hat.",
+      "limits": "bis zu 50.000 EUR pro versicherte Person und pro Kalenderjahr",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Die Versicherung gilt bis zu sechs Wochen für alle Auslandsreisen, einschließlich eintägiger Auslandsfahrten, die von den versicherten Personen durchgeführt werden.",
+        "Versichertes Ereignis: Notwendige medizinische Behandlung einer versicherten Person infolge einer Krankheit oder eines Unfalls. Der Tod einer versicherten Person wird als versichertes Ereignis betrachtet.",
+        "Rückführung im Krankheitsfall nur soweit medizinisch sinnvoll.",
+        "Überschreitet eine Heilbehandlung das medizinisch notwendige Maß, kann die Versicherungsgesellschaft die Leistungen auf einen angemessenen Betrag kürzen.",
+        "Besteht Anspruch auf Leistungen aus der gesetzlichen Kranken-, Unfall- oder Rentenversicherung oder auf eine gesetzliche Heilfürsorge oder Unfallfürsorge, so ist die Versicherungsgesellschaft lediglich verpflichtet, die Ausgaben zu erstatten, die die gesetzlichen Leistungen übersteigen."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance-Leistungen für das ganze Jahr – Vorzeitige Rückreise",
+      "description": "Vorzeitige Rückreise.",
+      "is_optional": null,
+      "territorial_scope": "Der Versicherungsschutz gilt für Auslandsreisen bei Erkrankung, Unfall und anderen Ereignissen, die in den vorliegenden Allgemeine Versicherungsbedingungen aufgeführt sind. Als Ausland werden alle Länder außer dem Großherzogtum Luxemburg und dem Land betrachtet, in dem die versicherte Person ihren gewöhnlichen Wohnsitz hat.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Die Versicherung gilt bis zu sechs Wochen für alle Auslandsreisen, einschließlich eintägiger Auslandsfahrten, die von den versicherten Personen durchgeführt werden.",
+        "Versichertes Ereignis: Notwendige medizinische Behandlung einer versicherten Person infolge einer Krankheit oder eines Unfalls. Der Tod einer versicherten Person wird als versichertes Ereignis betrachtet."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance-Leistungen für das ganze Jahr – Such- und Bergungskosten",
+      "description": "Such- und Bergungskosten (max. 5.000 EUR)",
+      "is_optional": null,
+      "territorial_scope": "Der Versicherungsschutz gilt für Auslandsreisen bei Erkrankung, Unfall und anderen Ereignissen, die in den vorliegenden Allgemeine Versicherungsbedingungen aufgeführt sind. Als Ausland werden alle Länder außer dem Großherzogtum Luxemburg und dem Land betrachtet, in dem die versicherte Person ihren gewöhnlichen Wohnsitz hat.",
+      "limits": "max. 5.000 EUR",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Die Versicherung gilt bis zu sechs Wochen für alle Auslandsreisen, einschließlich eintägiger Auslandsfahrten, die von den versicherten Personen durchgeführt werden.",
+        "Versichertes Ereignis: Notwendige medizinische Behandlung einer versicherten Person infolge einer Krankheit oder eines Unfalls. Der Tod einer versicherten Person wird als versichertes Ereignis betrachtet."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Home Assistance – Pannendienst rund um die Uhr",
+      "description": "Pannendienst rund um die Uhr an allen Wochentagen wie etwa Einsatz eines Schlossers, Sanitärinstallateurs, Klempners, Heizungsinstallateurs oder Elektrikers.",
+      "is_optional": null,
+      "territorial_scope": "An der in den Besonderen Bedingungen des Vertrags angegebenen Risikoanschrift, die sich im Großherzog Luxemburg befindet. Garantieerweiterungen sind vorgesehen für Umzüge, vorübergehende Verlagerungen von Mobiliar, Studentenwohnungen oder Ferienwohnungen.",
+      "limits": "Bis zu drei Einsätze pro Jahr",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "An der in den Besonderen Bedingungen des Vertrags angegebenen Risikoanschrift, die sich im Großherzog Luxemburg befindet.",
+        "Garantieerweiterungen sind vorgesehen für Umzüge, vorübergehende Verlagerungen von Mobiliar, Studentenwohnungen oder Ferienwohnungen."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Home Assistance – Bewachung der von einem Schadensfall betroffenen Wohnung",
+      "description": "Bewachung der von einem Schadensfall betroffenen Wohnung, um den Diebstahl der vor Ort verbliebenen Güter zu verhindern. Die Versicherungsgesellschaft organisiert und übernimmt die Bereitstellung einer Sicherheitsperson, die die Überwachung vor Ort übernimmt, für die Dauer von bis zu 72 Stunden. (Diese Leistung ist im Dokument unter der Rubrik « Gibt es Ausschlüsse vom Versicherungsschutz ? » gedruckt; siehe gaps.)",
+      "is_optional": null,
+      "territorial_scope": "An der in den Besonderen Bedingungen des Vertrags angegebenen Risikoanschrift, die sich im Großherzog Luxemburg befindet. Garantieerweiterungen sind vorgesehen für Umzüge, vorübergehende Verlagerungen von Mobiliar, Studentenwohnungen oder Ferienwohnungen.",
+      "limits": "für die Dauer von bis zu 72 Stunden",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Bis zu drei Einsätze pro Jahr"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Online-Schutz",
+      "description": "Die Versicherungsgesellschaft versichert den Versicherten gegen IT-Risiken bzw. die Risiken in Verbindung mit der Internetnutzung in seinem Privatleben (Versicherungsschutz gegen den Verlust elektronischer Daten sowie gegen Schäden in Verbindung mit dem Kauf von Gütern und/oder Leistungen bei einem Online-Händler).",
+      "is_optional": null,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [
+        "Das bei einem Online-Händler gekaufte Gut muss einen Wert zwischen 150 EUR und 5.000 EUR einschließlich Steuern (einschließlich Versandkosten) haben."
+      ],
+      "deductible": null,
+      "conditions": [
+        "Das bei einem Online-Händler gekaufte Gut muss einen Wert zwischen 150 EUR und 5.000 EUR einschließlich Steuern (einschließlich Versandkosten) haben."
+      ],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Reiseversicherung: Folgen einer chronischen oder bereits bestehenden Erkrankung",
+      "description": "Folgen einer chronischen oder bereits bestehenden Erkrankung des Versicherten, es sei denn der behandelnde Arzt bescheinigt, dass der Versicherte zum Zeitpunkt der Reisebuchung reisefähig war, dass er aber zum Zeitpunkt der Abreise nicht mehr in der Lage ist, seine Reise anzutreten infolge eines Zustands, der eine medizinische Behandlung erfordert.",
+      "applies_to": "Reiseversicherung für das ganze Jahr",
+      "page": 1
+    },
+    {
+      "name": "Assistance: Medizinische Behandlung in Luxemburg oder im Wohnsitzland",
+      "description": "Medizinische Behandlung in Luxemburg oder medizinische Behandlung im Wohnsitzland;",
+      "applies_to": "Assistance-Leistungen für das ganze Jahr",
+      "page": 1
+    },
+    {
+      "name": "Assistance: Kosten für Verhütungsmittel",
+      "description": "Kosten für Verhütungsmittel;",
+      "applies_to": "Assistance-Leistungen für das ganze Jahr",
+      "page": 1
+    },
+    {
+      "name": "Assistance: Kosten für Präventivmedizin, Impfstoffe oder Impfungen",
+      "description": "Kosten für Präventivmedizin, Impfstoffe oder Impfungen;",
+      "applies_to": "Assistance-Leistungen für das ganze Jahr",
+      "page": 1
+    },
+    {
+      "name": "Home Assistance: Abflussrohre",
+      "description": "Abflussrohre, die bereits vor Inkrafttreten des Vertrags verstopft waren, außerhalb der Wohnung verstopfte Abflussrohre, Überprüfung der Anlage, Schäden infolge mangelnder und falscher Wartung sowie Abflussrohre, die aufgrund der Unachtsamkeit des Versicherten verstopft sind.",
+      "applies_to": "Home Assistance",
+      "page": 1
+    },
+    {
+      "name": "Assistance: Kürzung bei Überschreiten des medizinisch notwendigen Maßes",
+      "description": "Überschreitet eine Heilbehandlung das medizinisch notwendige Maß, kann die Versicherungsgesellschaft die Leistungen auf einen angemessenen Betrag kürzen. (Gedruckt unter der Rubrik « Gibt es Ausschlüsse vom Versicherungsschutz ? » – Leistungsbegrenzung, kein Risikoausschluss.)",
+      "applies_to": "Assistance-Leistungen für das ganze Jahr",
+      "page": 1
+    },
+    {
+      "name": "Assistance: Subsidiarität gegenüber gesetzlichen Leistungen",
+      "description": "Besteht Anspruch auf Leistungen aus der gesetzlichen Kranken-, Unfall- oder Rentenversicherung oder auf eine gesetzliche Heilfürsorge oder Unfallfürsorge, so ist die Versicherungsgesellschaft lediglich verpflichtet, die Ausgaben zu erstatten, die die gesetzlichen Leistungen übersteigen. (Gedruckt unter der Rubrik « Gibt es Ausschlüsse vom Versicherungsschutz ? ».)",
+      "applies_to": "Assistance-Leistungen für das ganze Jahr",
+      "page": 1
+    },
+    {
+      "name": "Home Assistance: Bis zu drei Einsätze pro Jahr",
+      "description": "Bis zu drei Einsätze pro Jahr (Gedruckt unter der Rubrik « Gibt es Ausschlüsse vom Versicherungsschutz ? » – Begrenzung der Anzahl der Einsätze, kein Risikoausschluss.)",
+      "applies_to": "Home Assistance",
+      "page": 1
+    },
+    {
+      "name": "Home Assistance: Bewachung der Wohnung höchstens 72 Stunden",
+      "description": "Bewachung der von einem Schadensfall betroffenen Wohnung, um den Diebstahl der vor Ort verbliebenen Güter zu verhindern. Die Versicherungsgesellschaft organisiert und übernimmt die Bereitstellung einer Sicherheitsperson, die die Überwachung vor Ort übernimmt, für die Dauer von bis zu 72 Stunden. (Gedruckt unter der Rubrik « Gibt es Ausschlüsse vom Versicherungsschutz ? », obwohl der Satz eine Leistung beschreibt, die die Versicherungsgesellschaft organisiert und übernimmt; die zeitliche Begrenzung auf 72 Stunden ist der einzige einschränkende Teil. Siehe gaps.)",
+      "applies_to": "Home Assistance",
+      "page": 1
+    },
+    {
+      "name": "Online-Schutz: Warenwert zwischen 150 EUR und 5.000 EUR",
+      "description": "Das bei einem Online-Händler gekaufte Gut muss einen Wert zwischen 150 EUR und 5.000 EUR einschließlich Steuern (einschließlich Versandkosten) haben. (Gedruckt unter der Rubrik « Gibt es Ausschlüsse vom Versicherungsschutz ? » – Wertgrenze, kein Risikoausschluss.)",
+      "applies_to": "Online-Schutz",
+      "page": 1
+    }
+  ],
+  "deductibles": null,
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Beschreibung des zu versichernden Risikos",
+      "description": "Das zu versichernde Risiko, ohne Falschangaben oder Auslassungen, möglichst vollständig und genau beschreiben.",
+      "timing": "Bei Vertragsabschluss",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Meldung neuer risikoerhöhender Umstände",
+      "description": "Der Versicherungsgesellschaft jeden neuen Umstand melden, der das Risiko erhöhen oder mit neuen Risiken verbunden sein kann.",
+      "timing": "Während der Vertragslaufzeit",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Mitteilung von Datenänderungen",
+      "description": "Die Versicherungsgesellschaft über alle Änderungen der im Vertrag angegebenen Daten informieren, insbesondere bei einem Adress- oder Bankkontowechsel.",
+      "timing": "Während der Vertragslaufzeit",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Zahlung der Versicherungsprämien",
+      "description": "hre Versicherungsprämien unter Einhaltung der in Ihrem Vertrag festgelegten Fristen zahlen. Bei Nicht-Zahlung kann die Versicherungsgesellschaft den Versicherungsschutz aufheben oder den Vertrag kündigen. (Gedruckt « hre » ohne « I », wörtlich beibehalten.)",
+      "timing": "Während der Vertragslaufzeit",
+      "sanction": "Bei Nicht-Zahlung kann die Versicherungsgesellschaft den Versicherungsschutz aufheben oder den Vertrag kündigen.",
+      "page": 2
+    },
+    {
+      "name": "Schadensmeldung und vorherige Einwilligung",
+      "description": "Jeden Schadensfall innerhalb von 8 Tagen, nachdem er sich ereignet hat, melden und die Einwilligung der Versicherungsgesellschaft einholen, bevor jedwede Maßnahmen ergriffen werden, die eine Einbeziehung der Versicherung erfordern.",
+      "timing": "Im Schadensfall – innerhalb von 8 Tagen",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Übermittlung aller Informationen",
+      "description": "Sobald wie möglich alle Informationen übermitteln, die es der Versicherungsgesellschaft ermöglichen, die Umstände festzustellen und das Ausmaß der Schäden zu beurteilen.",
+      "timing": "Im Schadensfall – sobald wie möglich",
+      "sanction": null,
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Schadensfall melden",
+      "description": "Jeden Schadensfall innerhalb von 8 Tagen, nachdem er sich ereignet hat, melden.",
+      "deadline": "innerhalb von 8 Tagen, nachdem er sich ereignet hat",
+      "page": 2
+    },
+    {
+      "step": "Einwilligung der Versicherungsgesellschaft einholen",
+      "description": "Die Einwilligung der Versicherungsgesellschaft einholen, bevor jedwede Maßnahmen ergriffen werden, die eine Einbeziehung der Versicherung erfordern.",
+      "deadline": "bevor jedwede Maßnahmen ergriffen werden, die eine Einbeziehung der Versicherung erfordern",
+      "page": 2
+    },
+    {
+      "step": "Informationen übermitteln",
+      "description": "Sobald wie möglich alle Informationen übermitteln, die es der Versicherungsgesellschaft ermöglichen, die Umstände festzustellen und das Ausmaß der Schäden zu beurteilen.",
+      "deadline": "sobald wie möglich",
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Beginn (Datum des Inkrafttretens) und Ende des Vertrags sind in den Besonderen Bedingungen angegeben.",
+    "tacit_renewal": true,
+    "notice_period": "30 Tage vor dem jährlichen Fälligkeitsdatum des Vertrags",
+    "methods": [
+      "Die Kündigung ist per Einschreiben zu beantragen"
+    ],
+    "special_rights": [
+      "Der Vertrag verlängert sich jeweils um ein weiteres Jahr, sofern der Kunde oder die Versicherungsgesellschaft ihn nicht kündigen (stillschweigende Verlängerung).",
+      "Kündigung durch den Kunden: 30 Tage vor dem jährlichen Fälligkeitsdatum des Vertrags",
+      "Kündigung durch den Kunden: innerhalb von einem Monat nach Kündigung einer Garantie oder eines anderen Versicherungsvertrags durch die Versicherungsgesellschaft nach einem Schadensfall",
+      "Kündigung durch den Kunden: innerhalb von 60 Tagen nach einer von der Versicherungsgesellschaft mitgeteilten Prämienerhöhung",
+      "Die Versicherungsgesellschaft kann den Vertrag nach einem Schadensfall, bei Betrug, bei Zahlungsausfall oder nach einer entsprechenden Mitteilung 60 Tage vor dem jährlichen Fälligkeitsdatum des Vertrags kündigen.",
+      "Bei Nicht-Zahlung der Prämien kann die Versicherungsgesellschaft den Versicherungsschutz aufheben oder den Vertrag kündigen."
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "Der auf der jährlichen Fälligkeitsmitteilung angegebene Betrag ist am ersten Tag des Fälligkeitsmonats zu zahlen.",
+      "Monatliche Zahlungen im Lastschriftverfahren sind ohne zusätzliche Kosten möglich.",
+      "Der Abschluss eines easyPROTECT-Vertrags gewährt Anspruch auf bestimmte exklusive Leistungen, vor allem die Möglichkeit, durch die Zahlung entsprechender Prämien, den nachstehend beschriebenen Versicherungsschutz zu erhalten."
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Hinweis (Vollständigkeitsvorbehalt)",
+      "description": "Das vorliegende Dokument ist nicht individuell an Ihren spezifischen Bedarf angepasst und die im vorliegenden Dokument vorgesehenen Informationen und Pflichten sind nicht vollständig. Ausführliche Informationen zu den Rechten und Pflichten des Versicherungsunternehmens und des Versicherten finden Sie in den Allgemeinen Versicherungsbedingungen und/oder den für das ausgewählte Produkt geltenden Besonderen Bedingungen.",
+      "page": 1
+    },
+    {
+      "name": "Zugang zum Versicherungsschutz über einen easyPROTECT-Vertrag",
+      "description": "Der Abschluss eines easyPROTECT-Vertrags gewährt Anspruch auf bestimmte exklusive Leistungen, vor allem die Möglichkeit, durch die Zahlung entsprechender Prämien, den nachstehend beschriebenen Versicherungsschutz zu erhalten.",
+      "page": 1
+    },
+    {
+      "name": "Nicht vollständige Liste",
+      "description": "Beide Ausschluss-Rubriken der Seite 1 (« Was ist nicht versichert ? » und « Gibt es Ausschlüsse vom Versicherungsschutz ? ») tragen den gedruckten Vermerk « Nicht vollständige Liste ».",
+      "page": 1
+    },
+    {
+      "name": "Dauer des Assistance-Schutzes je Reise",
+      "description": "Die Versicherung gilt bis zu sechs Wochen für alle Auslandsreisen, einschließlich eintägiger Auslandsfahrten, die von den versicherten Personen durchgeführt werden.",
+      "page": 1
+    },
+    {
+      "name": "Garantieerweiterungen der Home Assistance",
+      "description": "Garantieerweiterungen sind vorgesehen für Umzüge, vorübergehende Verlagerungen von Mobiliar, Studentenwohnungen oder Ferienwohnungen.",
+      "page": 2
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Service easyPROTECT - Dienstleistungen\nInformationsdokument über das Versicherungsprodukt\nLALUX Assurances - Produkt : easyPROTECT - Dienstleistungen",
+      "context": "Titelblock: Produkt und einzige Trägerangabe (nur Marke)",
+      "page": 1
+    },
+    {
+      "quote": "Der Abschluss eines easyPROTECT-Vertrags gewährt Anspruch auf bestimmte exklusive Leistungen, vor allem die Möglichkeit, durch \ndie Zahlung entsprechender Prämien, den nachstehend beschriebenen Versicherungsschutz zu erhalten.",
+      "context": "Zugang zum Versicherungsschutz über einen easyPROTECT-Vertrag",
+      "page": 1
+    },
+    {
+      "quote": "Reiseversicherung für das ganze Jahr\nErstattung der Kosten in Verbindung mit der Stornierung oder dem \nAbbruch einer Reise oder eines gebuchten Aufenthalts, die vom \nOrganisator der Reise/des Aufenthalts gefordert werden, wenn die \nStornierung oder der Abbruch aufgrund des Eintretens folgender \nUmstände erfolgten:",
+      "context": "Reiseversicherung: Gegenstand der Deckung",
+      "page": 1
+    },
+    {
+      "quote": "Krankheit, Unfall mit Körperverletzung oder Tod des Versicherten, \nseines Ehegatten, der Person, mit der der Versicherte in gesetzlicher \nPartnerschaft zusammenlebt, oder eines Mitglieds seiner Familie, \ndas gewöhnlich unter seinem Dach lebt.",
+      "context": "Erster Auslöser der Reiserücktrittsdeckung",
+      "page": 1
+    },
+    {
+      "quote": "Entlassung des Versicherungsnehmers aus wirtschaftlichen \nGründen nach Inkrafttreten des Versicherungsschutzes und nach \nBuchung der Reise.",
+      "context": "Zweiter Auslöser der Reiserücktrittsdeckung",
+      "page": 1
+    },
+    {
+      "quote": "Die Versicherung gilt bis zu sechs Wochen für alle Auslandsreisen, \neinschließlich eintägiger Auslandsfahrten, die von den versicherten \nPersonen durchgeführt werden.",
+      "context": "Dauer und Umfang der Assistance-Leistungen",
+      "page": 1
+    },
+    {
+      "quote": "Notwendige \nmedizinische \nBehandlung \neiner \nversicherten \nPerson infolge einer Krankheit oder eines Unfalls. Der Tod einer \nversicherten Person wird als versichertes Ereignis betrachtet.",
+      "context": "Versichertes Ereignis der Assistance-Leistungen",
+      "page": 1
+    },
+    {
+      "quote": "Rückführung im Krankheitsfall (soweit medizinisch sinnvoll) oder \nim Todesfall, in Höhe von bis zu 50.000 EUR pro versicherte Person \nund pro Kalenderjahr.\n\t Vorzeitige Rückreise.\n\t Such- und Bergungskosten (max. 5.000 EUR)",
+      "context": "Die drei garantierten Assistance-Leistungen mit ihren Grenzen",
+      "page": 1
+    },
+    {
+      "quote": "Pannendienst rund um die Uhr an allen Wochentagen wie \netwa Einsatz eines Schlossers, Sanitärinstallateurs, Klempners, \nHeizungsinstallateurs oder Elektrikers.",
+      "context": "Home Assistance: Pannendienst",
+      "page": 1
+    },
+    {
+      "quote": "Die Versicherungsgesellschaft versichert den Versicherten gegen \nIT-Risiken bzw. die Risiken in Verbindung mit der Internetnutzung \nin seinem Privatleben (Versicherungsschutz gegen den Verlust \nelektronischer Daten sowie gegen Schäden in Verbindung mit dem \nKauf von Gütern und/oder Leistungen bei einem Online-Händler).",
+      "context": "Online-Schutz",
+      "page": 1
+    },
+    {
+      "quote": "Folgen einer chronischen oder bereits bestehenden Erkrankung \ndes Versicherten, es sei denn der behandelnde Arzt bescheinigt, \ndass der Versicherte zum Zeitpunkt der Reisebuchung reisefähig \nwar, dass er aber zum Zeitpunkt der Abreise nicht mehr in der \nLage ist, seine Reise anzutreten infolge eines Zustands, der eine \nmedizinische Behandlung erfordert.",
+      "context": "Ausschluss: chronische oder bereits bestehende Erkrankung",
+      "page": 1
+    },
+    {
+      "quote": "Medizinische Behandlung in Luxemburg oder medizinische \nBehandlung im Wohnsitzland;\n\t Kosten für Verhütungsmittel;\n\t Kosten für Präventivmedizin, Impfstoffe oder Impfungen;",
+      "context": "Assistance-Ausschlüsse: Behandlung im Inland, Verhütungsmittel, Präventivmedizin",
+      "page": 1
+    },
+    {
+      "quote": "Abflussrohre, die bereits vor Inkrafttreten des Vertrags verstopft \nwaren, außerhalb der Wohnung verstopfte Abflussrohre, \nÜberprüfung \nder \nAnlage, \nSchäden \ninfolge \nmangelnder \nund falscher Wartung sowie Abflussrohre, die aufgrund der \nUnachtsamkeit des Versicherten verstopft sind.",
+      "context": "Home-Assistance-Ausschluss: Abflussrohre",
+      "page": 1
+    },
+    {
+      "quote": "Gibt es Ausschlüsse vom\nVersicherungsschutz ?\nAssistance-Leistungen für das ganze Jahr\n\t Überschreitet eine Heilbehandlung das medizinisch notwendige \nMaß, kann die Versicherungsgesellschaft die Leistungen auf einen \nangemessenen Betrag kürzen.",
+      "context": "Rubriküberschrift und Kürzungsrecht bei übermäßiger Heilbehandlung",
+      "page": 1
+    },
+    {
+      "quote": "Besteht Anspruch auf Leistungen aus der gesetzlichen \nKranken-, Unfall- oder Rentenversicherung oder auf eine \ngesetzliche Heilfürsorge oder Unfallfürsorge, so ist die \nVersicherungsgesellschaft lediglich verpflichtet, die Ausgaben zu \nerstatten, die die gesetzlichen Leistungen übersteigen.",
+      "context": "Subsidiarität gegenüber gesetzlichen Leistungen",
+      "page": 1
+    },
+    {
+      "quote": "Bis zu drei Einsätze pro Jahr\n\t Bewachung der von einem Schadensfall betroffenen Wohnung, \num den Diebstahl der vor Ort verbliebenen Güter zu verhindern. \nDie Versicherungsgesellschaft organisiert und übernimmt die \nBereitstellung einer Sicherheitsperson, die die Überwachung vor \nOrt übernimmt, für die Dauer von bis zu 72 Stunden.",
+      "context": "Home Assistance: drei Einsätze pro Jahr und Bewachung bis 72 Stunden, gedruckt in der Ausschlussrubrik",
+      "page": 1
+    },
+    {
+      "quote": "Das bei einem Online-Händler gekaufte Gut muss einen \nWert zwischen 150 EUR und 5.000 EUR einschließlich Steuern \n(einschließlich Versandkosten) haben.",
+      "context": "Online-Schutz: Wertspanne des gekauften Gutes",
+      "page": 1
+    },
+    {
+      "quote": "Das vorliegende Dokument ist nicht individuell an Ihren spezifischen Bedarf angepasst und die im vorliegenden \nDokument vorgesehenen Informationen und Pflichten sind nicht vollständig. Ausführliche Informationen zu den Rechten und \nPflichten des Versicherungsunternehmens und des Versicherten finden Sie in den Allgemeinen Versicherungsbedingungen und/\noder den für das ausgewählte Produkt geltenden Besonderen Bedingungen.",
+      "context": "Hinweis / Vollständigkeitsvorbehalt",
+      "page": 1
+    },
+    {
+      "quote": "Reiseversicherung für das ganze Jahr\nWeltweit",
+      "context": "Räumlicher Geltungsbereich der Reiseversicherung",
+      "page": 2
+    },
+    {
+      "quote": "Der Versicherungsschutz gilt für Auslandsreisen bei Erkrankung, Unfall und anderen Ereignissen, die in den vorliegenden \nAllgemeine Versicherungsbedingungen aufgeführt sind.\n\t\nAls Ausland werden alle Länder außer dem Großherzogtum Luxemburg und dem Land betrachtet, in dem die versicherte \nPerson ihren gewöhnlichen Wohnsitz hat.",
+      "context": "Räumlicher Geltungsbereich der Assistance und Definition des Auslands",
+      "page": 2
+    },
+    {
+      "quote": "An der in den Besonderen Bedingungen des Vertrags angegebenen Risikoanschrift, die sich im Großherzog Luxemburg \nbefindet.\n\t\nGarantieerweiterungen sind vorgesehen für Umzüge, vorübergehende Verlagerungen von Mobiliar, Studentenwohnungen \noder Ferienwohnungen.",
+      "context": "Räumlicher Geltungsbereich der Home Assistance und Garantieerweiterungen",
+      "page": 2
+    },
+    {
+      "quote": "hre Versicherungsprämien unter Einhaltung der in Ihrem Vertrag festgelegten Fristen zahlen. Bei Nicht-Zahlung kann die \nVersicherungsgesellschaft den Versicherungsschutz aufheben oder den Vertrag kündigen.",
+      "context": "Prämienzahlungspflicht und Sanktion (gedruckt « hre »)",
+      "page": 2
+    },
+    {
+      "quote": "Jeden Schadensfall innerhalb von 8 Tagen, nachdem er sich ereignet hat, melden und die Einwilligung der Versicherungsgesellschaft \neinholen, bevor jedwede Maßnahmen ergriffen werden, die eine Einbeziehung der Versicherung erfordern.\n•\t\nSobald wie möglich alle Informationen übermitteln, die es der Versicherungsgesellschaft ermöglichen, die Umstände festzustellen \nund das Ausmaß der Schäden zu beurteilen.",
+      "context": "Pflichten im Schadensfall",
+      "page": 2
+    },
+    {
+      "quote": "Der auf der jährlichen Fälligkeitsmitteilung angegebene Betrag ist am ersten Tag des Fälligkeitsmonats zu zahlen.\n-\t\nMonatliche Zahlungen im Lastschriftverfahren sind ohne zusätzliche Kosten möglich.",
+      "context": "Prämienzahlung",
+      "page": 2
+    },
+    {
+      "quote": "Der Vertrag verlängert sich jeweils um ein weiteres Jahr, sofern der Kunde oder die Versicherungsgesellschaft ihn nicht kündigen \n(stillschweigende Verlängerung).",
+      "context": "Stillschweigende Verlängerung",
+      "page": 2
+    },
+    {
+      "quote": "Die Kündigung ist per Einschreiben zu beantragen und zwar: 30 Tage vor dem jährlichen Fälligkeitsdatum des \nVertrags oder innerhalb von einem Monat nach Kündigung einer Garantie oder eines anderen Versicherungsvertrags \ndurch die Versicherungsgesellschaft nach einem Schadensfall oder innerhalb von 60 Tagen nach einer von der \nVersicherungsgesellschaft mitgeteilten Prämienerhöhung.",
+      "context": "Kündigungsrechte des Kunden",
+      "page": 2
+    },
+    {
+      "quote": "Die Versicherungsgesellschaft kann den Vertrag nach einem Schadensfall, bei Betrug, bei Zahlungsausfall oder nach einer \nentsprechenden Mitteilung 60 Tage vor dem jährlichen Fälligkeitsdatum des Vertrags kündigen.",
+      "context": "Kündigungsrechte der Versicherungsgesellschaft",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "RUBRIK-INVERSION, ausdrücklich gemeldet: unter der Rubrik « Gibt es Ausschlüsse vom Versicherungsschutz ? » druckt das Dokument eine LEISTUNG, keinen Ausschluss — « Bewachung der von einem Schadensfall betroffenen Wohnung, um den Diebstahl der vor Ort verbliebenen Güter zu verhindern. Die Versicherungsgesellschaft organisiert und übernimmt die Bereitstellung einer Sicherheitsperson … für die Dauer von bis zu 72 Stunden. » Der Satz beschreibt eine Übernahme durch den Versicherer; einschränkend ist allein die 72-Stunden-Grenze. Er ist deshalb sowohl als coverage (Home Assistance – Bewachung …) als auch als exclusions[]-Eintrag geführt, jeweils mit dem Hinweis auf die Druckstelle. Es handelt sich NICHT um eine Spaltenumkehr des Textlayers: die Zuordnung wurde geometrisch geprüft (siehe unten) und der Satz steht auf dem Render tatsächlich in der Ausschlussrubrik. Auch die drei übrigen Positionen dieser Rubrik sind keine Risikoausschlüsse, sondern Begrenzungen (Kürzungsrecht, Subsidiarität, drei Einsätze pro Jahr, Wertspanne 150–5.000 EUR).",
+    "Spaltenprüfung (negativ, Zählungen stimmen): Seite 1 ist zweispaltig gesetzt (linke Spalte x0 = 31,2 « Was ist versichert ? », rechte Spalte x0 = 314,2 « Was ist nicht versichert ? » bei y 271-520 und darunter « Gibt es Ausschlüsse vom Versicherungsschutz ? » bei y 531-800). Der Textfluss gibt die linke Spalte vollständig vor der rechten aus und innerhalb der rechten Spalte die beiden Rubriken in gedruckter Reihenfolge; KEINE Spaltenumkehr. Zählung der Aufzählungsbilder: 8 grüne Häkchen bei x0 = 31,2 (2 Reise + 1 versichertes Ereignis + 3 garantierte Leistungen + 1 Home Assistance + 1 Online-Schutz), 5 rote Kreuze bei x0 = 314,2 (1 Reise + 3 Assistance + 1 Home Assistance) und 5 orange Ausrufezeichen bei x0 = 316,2 (2 Assistance + 2 Home Assistance + 1 Online-Schutz) = 18 Marken. Erfasst sind daraus 7 coverages und 10 exclusions; die Differenz erklärt sich aus dem Häkchen des Blocks « Versichertes Ereignis », das keine eigene Leistung ist, sondern die Auslösebedingung der drei Assistance-Leistungen (dort in conditions geführt), und aus der doppelt abgelegten Bewachungs-Position. Auf einem 2x-Render bestätigt: grüne Häkchen links, rote Kreuze in der Ausschlussrubrik, orange Ausrufezeichen in der letzten Rubrik.",
+    "Branche: die Metadaten geben « multirisque-professionnelle » vor; der Wert wurde unverändert übernommen, WIRD ABER VOM INHALT WIDERSPROCHEN. Das Dokument beschreibt ausschließlich Privatkunden-Deckungen — Reiserücktritt für den Versicherten, seinen Ehegatten, seinen gesetzlichen Partner und Familienmitglieder unter seinem Dach, Auslandsassistance, Home Assistance an der privaten Risikoanschrift, und ausdrücklich « die Risiken in Verbindung mit der Internetnutzung in seinem Privatleben ». Es enthält kein einziges gewerbliches oder berufliches Element. Passendere Slugs der Länderliste wären « voyage » oder « autres ». Die Abweichung wird gemeldet und nicht aufgelöst, weil der Branchenwert Teil der Ablage- und Pfadstruktur ist; der Dateiname (« services-a-la-personne ») dürfte der Ursprung der Einordnung sein. « easyPROTECT » ist ein Gamme-Präfix, keine Branche.",
+    "is_extension = true, extends = « easyPROTECT »: gestützt auf den gedruckten Satz der Rubrik « Um welche Art von Versicherung handelt es sich ? »: « Der Abschluss eines easyPROTECT-Vertrags gewährt Anspruch auf bestimmte exklusive Leistungen, vor allem die Möglichkeit, durch die Zahlung entsprechender Prämien, den nachstehend beschriebenen Versicherungsschutz zu erhalten. » Der Versicherungsschutz setzt also einen easyPROTECT-Vertrag voraus und wird gegen zusätzliche Prämie erworben. Das Dokument verwendet für sich selbst weder das Wort « Option » noch « Erweiterung »; die Einstufung stützt sich allein auf diesen Satz.",
+    "is_optional ist bei allen coverages null, NICHT false: das Dokument sagt einerseits, dass der Versicherungsschutz « durch die Zahlung entsprechender Prämien » erworben wird (was auf Wahlbausteine hindeutet), kennzeichnet andererseits aber keinen einzelnen Baustein als Option und verwendet die Wörter « Option/optional/fakultativ » nicht. Ob die vier Bausteine (Reise, Assistance, Home Assistance, Online-Schutz) einzeln oder nur gemeinsam gewählt werden können, ist dem Dokument nicht zu entnehmen; es wurde nichts unterstellt.",
+    "Carrier: das Dokument nennt ausschließlich die Marke « LALUX Assurances - Produkt : easyPROTECT - Dienstleistungen » und spricht sonst von « der Versicherungsgesellschaft ». Weder Rechtsform noch RCS-Nummer noch Anschrift sind gedruckt; es lässt sich aus diesem Dokument NICHT entscheiden, welche zugelassene Gesellschaft Risikoträger ist. Es wird kein Träger festgehalten (carrier = null); insurer_name behält den Metadatenwert « lalux ». Für die Assistance- und Home-Assistance-Leistungen ist kein Dienstleister/Assisteur namentlich genannt.",
+    "Beträge sind mit dem Wort « EUR » gedruckt, nicht mit dem Zeichen € — auf einem 2x-Render geprüft: « bis zu 50.000 EUR pro versicherte Person und pro Kalenderjahr », « max. 5.000 EUR », « zwischen 150 EUR und 5.000 EUR einschließlich Steuern (einschließlich Versandkosten) ». Im gesamten Textlayer kommt kein einziges €-Zeichen vor, es fehlt also auch keines: die Einheit ist ausgeschrieben und wurde wörtlich übernommen. Die Tausenderpunkte (50.000 / 5.000) sind so gedruckt.",
+    "Keine Selbstbeteiligung, keine Wartezeit und keine Verjährungsregel im Dokument: deductibles, waiting_periods und prescription_period sind null/leer, weil das Dokument dazu schweigt. Ebenso fehlen ein Beschwerde-/Ombudsmannhinweis, die Aufsichtsbehörde (CAA), ein Datenschutzabschnitt und jede Angabe zu einem Widerrufsrecht.",
+    "edition_date und reference sind null: das Dokument druckt kein Editionsdatum, keinen Fußzeilen-Code, keine Formularnummer und keine Referenz; auf beiden Seiten gibt es keine Fußzeile. Es wurde nichts aus dem Dateinamen oder aus den PDF-Metadaten übernommen.",
+    "Gedruckte Fehler wörtlich beibehalten und nicht korrigiert: « hre Versicherungsprämien » statt « Ihre Versicherungsprämien » (Seite 2, dritter Punkt unter « Während der Vertragslaufzeit »); « im Großherzog Luxemburg » statt « Großherzogtum » (Seite 2, Home Assistance); « in den vorliegenden Allgemeine Versicherungsbedingungen » (Seite 2, Assistance). Alle drei sind auf dem Render so gedruckt und stehen so in den key_quotes.",
+    "Der Vermerk « Nicht vollständige Liste » steht unter beiden Ausschluss-Rubriken. Die 10 erfassten Positionen sind alles, was das Dokument druckt, aber nicht alle Ausschlüsse und Einschränkungen des Produkts; das Dokument verweist auf die Allgemeinen Versicherungsbedingungen und die Besonderen Bedingungen, die es nicht wiedergibt.",
+    "Textlayer-Prüfungen, alle sauber: die beiden mit page.get_text(\"text\") extrahierten Seiten sind byteidentisch mit dem im Prompt gelieferten Text (4 825 bzw. 3 057 Zeichen). Keine Zero-Width-Spaces, keine Soft Hyphens, keine NFD-Kombinationsakzente (NFC == Text), keine Private-Use-Area-Glyphen, kein U+0007, keine vektorisierten Passagen, kein verschlüsselter Block, kein Text außerhalb des Seitenrechtecks, keine doppelten Kopf-/Fußzeilen, keine fehlenden fi/ff/fl-Ligaturen. Einzige Sonderzeichen: U+2009 vor « ? » und « : » in den Überschriften und Tabulatoren vor den Aufzählungspunkten; beide sind in den key_quotes als exakte Spannen erhalten. Die Überschrift « Was ist versichert ? » trägt im Textlayer vier führende Leerzeichen, die aus der Bildmarke stammen.",
+    "Seitenzahlen: das Dokument druckt keine Foliozahl; alle page-Werte sind die [[page N]]-Marker des Prompts, die hier den PDF-Seitenzahlen 1 und 2 entsprechen (2-seitiges PDF, kein Deckblatt, kein Versatz)."
+  ]
+}

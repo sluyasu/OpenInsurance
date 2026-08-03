@@ -1,0 +1,810 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "macif",
+  "insurer_name": "Macif",
+  "product_name": "Contrat Flotte Automobile",
+  "branch": "auto",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": "entreprises",
+  "target_audience_note": "Le document est intitulé « Assurance des Professionnels et des Associations » et couvre le véhicule assuré « utilisé dans le cadre d'activités sociales ou professionnelles ». Il s'agit d'un contrat de flotte ; le document ne distingue pas les professionnels indépendants des associations et des entreprises.",
+  "reference": "VEH-AUTO 10/18",
+  "edition_date": "10/18",
+  "product_family": "Contrat Flotte Automobile",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_flotte_automobile.pdf",
+  "source_pdf": "contrat-flotte-automobile-dipa-flotte-automobile-d066b48e.pdf",
+  "source_sha256": "9d2ea2c5735afb298bd45db5eebe0e6bfdd56345a4ebdd25407df85034d73024",
+  "source_pages": 2,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d'information sur le produit d'assurance (DIPA/IPID) du Contrat Flotte Automobile de la Macif, présenté sous le titre « Assurance des Professionnels et des Associations ». Le contrat a pour objet de garantir le souscripteur contre les conséquences des dommages matériels et corporels causés à des tiers (responsabilité civile automobile obligatoire) et peut accorder des garanties complémentaires couvrant les dommages matériels subis par le véhicule assuré utilisé dans le cadre d'activités sociales ou professionnelles. Trois garanties sont systématiquement prévues au contrat (responsabilité civile automobile, responsabilité civile de fonctionnement, défense et recours) ; les dommages au véhicule et treize garanties optionnelles complètent l'offre.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "La responsabilité civile automobile",
+      "description": "Elle couvre les dommages corporels (sans limite) et les dommages matériels et immatériels consécutifs (dans la limite de 100 000 000 €).",
+      "is_optional": false,
+      "territorial_scope": "Responsabilité civile, Responsabilité civile fonctionnement, Dommages subis par les véhicules, Défense et Recours : en France métropolitaine et dans les autres pays de l'Union européenne, ainsi qu'au Royaume-Uni en Suisse et dans les états du Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein",
+      "limits": "Dommages corporels : sans limite. Dommages matériels et immatériels consécutifs : dans la limite de 100 000 000 €.",
+      "sub_limits": [
+        "Les dommages causés aux tiers par l'implication du véhicule assuré à la suite d'un accident, incendie ou explosion causé par le véhicule, les accessoires ou produits, ainsi que les objets ou substances transportées",
+        "Les dommages causés aux tiers par l'implication du véhicule assuré à la suite de la chute de ses accessoires, objets, substances et produits y compris lorsque le véhicule est utilisé comme outil de travail",
+        "Les dommages causés aux passagers transportés dans le véhicule assuré (dommages et conséquences corporelles, détérioration de leurs vêtements)",
+        "Les conséquences pécuniaires encourues lors d'un incendie ou d'une explosion du véhicule assuré à un immeuble appartenant à un tiers et dans lequel le véhicule est garé",
+        "Les dommages corporels ou matériels occasionnés, en cas de sinistre survenu au cours d'une opération d'aide bénévole"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Garantie précédée d'une coche : systématiquement prévue au contrat.",
+        "Responsabilité civile automobile obligatoire.",
+        "En cas de sinistre relevant des autres garanties, une somme peut rester à la charge de l'assuré (franchise)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "La responsabilité civile de fonctionnement",
+      "description": "Elle couvre les dommages corporels (dans la limite de 7 000 000 € par sinistre et par année d'assurance) les dommages matériels et immatériels consécutifs (dans la limite de 1 000 000 € par sinistre).",
+      "is_optional": false,
+      "territorial_scope": "Responsabilité civile, Responsabilité civile fonctionnement, Dommages subis par les véhicules, Défense et Recours : en France métropolitaine et dans les autres pays de l'Union européenne, ainsi qu'au Royaume-Uni en Suisse et dans les états du Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein",
+      "limits": "Dommages corporels : dans la limite de 7 000 000 € par sinistre et par année d'assurance. Dommages matériels et immatériels consécutifs : dans la limite de 1 000 000 € par sinistre.",
+      "sub_limits": [
+        "Les dommages causés aux tiers par les véhicules assurés utilisés comme outil de travail (ex : engin de chantier, engin de manutention) lorsque ces dommages sont dus exclusivement aux équipements utilitaires de l'engin en cours de travail, sans implication de sa fonction de déplacement"
+      ],
+      "deductible": "En cas de sinistre relevant de la responsabilité civile fonctionnement, une somme fixe de 2 000 € restera à charge de l'assuré (franchise)",
+      "conditions": [
+        "Garantie précédée d'une coche : systématiquement prévue au contrat."
+      ],
+      "page": 1
+    },
+    {
+      "name": "La défense et le recours",
+      "description": "Garantie figurant sous la rubrique « LA PROTECTION DES DROITS DE L'ASSURÉ ». Le document n'en donne pas de description développée.",
+      "is_optional": false,
+      "territorial_scope": "Responsabilité civile, Responsabilité civile fonctionnement, Dommages subis par les véhicules, Défense et Recours : en France métropolitaine et dans les autres pays de l'Union européenne, ainsi qu'au Royaume-Uni en Suisse et dans les états du Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie précédée d'une coche : systématiquement prévue au contrat.",
+        "Les recours amiables et judiciaires sont exercés pour les préjudices de montants supérieurs aux seuils d'intervention."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Les dommages causés au véhicule assuré — L'accident résultant d'un choc contre un corps fixe ou mobile, ou encore d'un renversement du véhicule",
+      "description": "L'accident résultant d'un choc contre un corps fixe ou mobile, ou encore d'un renversement du véhicule",
+      "is_optional": null,
+      "territorial_scope": "Responsabilité civile, Responsabilité civile fonctionnement, Dommages subis par les véhicules, Défense et Recours : en France métropolitaine et dans les autres pays de l'Union européenne, ainsi qu'au Royaume-Uni en Suisse et dans les états du Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie non précédée d'une coche dans le tableau : elle n'est donc pas au nombre de celles que le document déclare « systématiquement prévues au contrat ». Le document ne dit pas pour autant qu'elle est optionnelle.",
+        "En cas de sinistre relevant des autres garanties, une somme peut rester à la charge de l'assuré (franchise)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Les dommages causés au véhicule assuré — Les actes de vandalisme",
+      "description": "Les actes de vandalisme",
+      "is_optional": null,
+      "territorial_scope": "Responsabilité civile, Responsabilité civile fonctionnement, Dommages subis par les véhicules, Défense et Recours : en France métropolitaine et dans les autres pays de l'Union européenne, ainsi qu'au Royaume-Uni en Suisse et dans les états du Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie non précédée d'une coche dans le tableau : elle n'est donc pas au nombre de celles que le document déclare « systématiquement prévues au contrat ». Le document ne dit pas pour autant qu'elle est optionnelle.",
+        "En cas de sinistre relevant des autres garanties, une somme peut rester à la charge de l'assuré (franchise)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Les dommages causés au véhicule assuré — L'incendie, l'explosion, les dommages électriques, les attentats et les actes de terrorisme",
+      "description": "L'incendie, l'explosion, les dommages électriques, les attentats et les actes de terrorisme",
+      "is_optional": null,
+      "territorial_scope": "Responsabilité civile, Responsabilité civile fonctionnement, Dommages subis par les véhicules, Défense et Recours : en France métropolitaine et dans les autres pays de l'Union européenne, ainsi qu'au Royaume-Uni en Suisse et dans les états du Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie non précédée d'une coche dans le tableau : elle n'est donc pas au nombre de celles que le document déclare « systématiquement prévues au contrat ». Le document ne dit pas pour autant qu'elle est optionnelle.",
+        "En cas de sinistre relevant des autres garanties, une somme peut rester à la charge de l'assuré (franchise)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Les dommages causés au véhicule assuré — Le vol ou la tentative de vol",
+      "description": "Le vol ou la tentative de vol",
+      "is_optional": null,
+      "territorial_scope": "Responsabilité civile, Responsabilité civile fonctionnement, Dommages subis par les véhicules, Défense et Recours : en France métropolitaine et dans les autres pays de l'Union européenne, ainsi qu'au Royaume-Uni en Suisse et dans les états du Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie non précédée d'une coche dans le tableau : elle n'est donc pas au nombre de celles que le document déclare « systématiquement prévues au contrat ». Le document ne dit pas pour autant qu'elle est optionnelle.",
+        "En cas de sinistre relevant des autres garanties, une somme peut rester à la charge de l'assuré (franchise)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Les dommages causés au véhicule assuré — Le bris de glaces",
+      "description": "Le bris de glaces",
+      "is_optional": null,
+      "territorial_scope": "Responsabilité civile, Responsabilité civile fonctionnement, Dommages subis par les véhicules, Défense et Recours : en France métropolitaine et dans les autres pays de l'Union européenne, ainsi qu'au Royaume-Uni en Suisse et dans les états du Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie non précédée d'une coche dans le tableau : elle n'est donc pas au nombre de celles que le document déclare « systématiquement prévues au contrat ». Le document ne dit pas pour autant qu'elle est optionnelle.",
+        "En cas de sinistre relevant des autres garanties, une somme peut rester à la charge de l'assuré (franchise)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Les dommages causés au véhicule assuré — La tempête et la grêle",
+      "description": "La tempête et la grêle",
+      "is_optional": null,
+      "territorial_scope": "Responsabilité civile, Responsabilité civile fonctionnement, Dommages subis par les véhicules, Défense et Recours : en France métropolitaine et dans les autres pays de l'Union européenne, ainsi qu'au Royaume-Uni en Suisse et dans les états du Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie non précédée d'une coche dans le tableau : elle n'est donc pas au nombre de celles que le document déclare « systématiquement prévues au contrat ». Le document ne dit pas pour autant qu'elle est optionnelle.",
+        "En cas de sinistre relevant des autres garanties, une somme peut rester à la charge de l'assuré (franchise)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Les dommages causés au véhicule assuré — Les évènements climatiques : glissement de terrain, inondation d'un cours d'eau, poids de la neige",
+      "description": "Les évènements climatiques : glissement de terrain, inondation d'un cours d'eau, poids de la neige",
+      "is_optional": null,
+      "territorial_scope": "Responsabilité civile, Responsabilité civile fonctionnement, Dommages subis par les véhicules, Défense et Recours : en France métropolitaine et dans les autres pays de l'Union européenne, ainsi qu'au Royaume-Uni en Suisse et dans les états du Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie non précédée d'une coche dans le tableau : elle n'est donc pas au nombre de celles que le document déclare « systématiquement prévues au contrat ». Le document ne dit pas pour autant qu'elle est optionnelle.",
+        "En cas de sinistre relevant des autres garanties, une somme peut rester à la charge de l'assuré (franchise)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Les dommages causés au véhicule assuré — Les catastrophes naturelles",
+      "description": "Les catastrophes naturelles",
+      "is_optional": null,
+      "territorial_scope": "Responsabilité civile, Responsabilité civile fonctionnement, Dommages subis par les véhicules, Défense et Recours : en France métropolitaine et dans les autres pays de l'Union européenne, ainsi qu'au Royaume-Uni en Suisse et dans les états du Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable",
+      "conditions": [
+        "Garantie non précédée d'une coche dans le tableau : elle n'est donc pas au nombre de celles que le document déclare « systématiquement prévues au contrat ». Le document ne dit pas pour autant qu'elle est optionnelle.",
+        "En cas de sinistre relevant des autres garanties, une somme peut rester à la charge de l'assuré (franchise)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Garantie optionnelle — La garantie corporelle du conducteur",
+      "description": "La garantie corporelle du conducteur",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "La garantie corporelle du conducteur est mobilisable lorsque le taux d'invalidité est égal ou supérieur à 10%",
+        "Figure sous la rubrique « LES GARANTIES OPTIONNELLES »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Garantie optionnelle — L'assistance aux personnes",
+      "description": "L'assistance aux personnes",
+      "is_optional": true,
+      "territorial_scope": "Assistance aux personnes : Monde entier",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Figure sous la rubrique « LES GARANTIES OPTIONNELLES »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Garantie optionnelle — Le dépannage, levage et remorquage à la suite d'un évènement garanti",
+      "description": "Le dépannage, levage et remorquage à la suite d'un évènement garanti",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Figure sous la rubrique « LES GARANTIES OPTIONNELLES »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Garantie optionnelle — Le bris de machines",
+      "description": "Le bris de machines",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Figure sous la rubrique « LES GARANTIES OPTIONNELLES »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Garantie optionnelle — L'assistance aux véhicules légers",
+      "description": "L'assistance aux véhicules légers",
+      "is_optional": true,
+      "territorial_scope": "Assistance aux véhicules légers : tous les pays d'Europe (jusqu'à l'Oural) et du pourtour méditerranéen (à l'exception de la Libye)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Figure sous la rubrique « LES GARANTIES OPTIONNELLES »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Garantie optionnelle — L'assistance panne 0 km pour les véhicules légers",
+      "description": "L'assistance panne 0 km pour les véhicules légers",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Figure sous la rubrique « LES GARANTIES OPTIONNELLES »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Garantie optionnelle — L'immobilisation du véhicule léger (prêt d'un véhicule)",
+      "description": "L'immobilisation du véhicule léger (prêt d'un véhicule)",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Figure sous la rubrique « LES GARANTIES OPTIONNELLES »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Garantie optionnelle — L'immobilisation des véhicules industriels",
+      "description": "L'immobilisation des véhicules industriels",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Figure sous la rubrique « LES GARANTIES OPTIONNELLES »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Garantie optionnelle — La perte financière",
+      "description": "La perte financière",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Figure sous la rubrique « LES GARANTIES OPTIONNELLES »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Garantie optionnelle — La valeur majorée du véhicule en cas de perte totale",
+      "description": "La valeur majorée du véhicule en cas de perte totale",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Figure sous la rubrique « LES GARANTIES OPTIONNELLES »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Garantie optionnelle — Les dommages causés aux marchandises transportées pour propre compte",
+      "description": "Les dommages causés aux marchandises transportées pour propre compte",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Figure sous la rubrique « LES GARANTIES OPTIONNELLES »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Garantie optionnelle — Les dommages causés au matériel et aux aménagements professionnels et aux peintures publicitaires",
+      "description": "Les dommages causés au matériel et aux aménagements professionnels et aux peintures publicitaires",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Figure sous la rubrique « LES GARANTIES OPTIONNELLES »."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Garantie optionnelle — Les dommages aux accessoires et contenu privé du véhicule",
+      "description": "Les dommages aux accessoires et contenu privé du véhicule",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Figure sous la rubrique « LES GARANTIES OPTIONNELLES »."
+      ],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "La responsabilité professionnelle",
+      "description": "La responsabilité professionnelle",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Le transport public de marchandises",
+      "description": "Le transport public de marchandises",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Le transport public de voyageurs",
+      "description": "Le transport public de voyageurs",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Les amendes, condamnations pénales et toutes peines de substitution",
+      "description": "Les amendes, condamnations pénales et toutes peines de substitution",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Fait intentionnel ou dolosif de l'assuré",
+      "description": "Le fait intentionnel ou dolosif de l'assuré ou dont il est complice",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Guerre civile ou étrangère",
+      "description": "Les dommages résultant de la guerre civile ou étrangère",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Épreuves, courses ou compétitions",
+      "description": "Les dommages survenus au cours d'épreuves, courses ou compétitions",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Terrorisme ou sabotage dans le cadre d'émeutes, mouvements populaires ou grève",
+      "description": "Les dommages occasionnés par des actes de terrorisme ou de sabotage dans le cadre d'émeutes, mouvements populaires ou grève",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Mise en fourrière du véhicule assuré",
+      "description": "Les dommages consécutifs à la mise en fourrière du véhicule assuré depuis son enlèvement jusqu'à sa restitution",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dommages indirects",
+      "description": "Les dommages indirects, tels que frais de garage ou frais de gardiennage",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Vétusté ou défaut d'entretien",
+      "description": "Les dommages subis par le véhicule et imputables exclusivement et directement à l'état de vétusté ou au défaut d'entretien du véhicule assuré",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Utilisation anormale ou contraire aux prescriptions du constructeur",
+      "description": "Les dommages subis par le véhicule et résultant d'une utilisation anormale ou contraire aux prescriptions du constructeur",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dommages corporels du conducteur responsable",
+      "description": "Les dommages corporels subis par le conducteur du véhicule assuré lorsque sa responsabilité civile est engagée",
+      "applies_to": "La responsabilité civile automobile",
+      "page": 1
+    },
+    {
+      "name": "Conducteur sous l'empire d'un état alcoolique",
+      "description": "Les dommages subis par le véhicule assuré lorsque le conducteur se trouve sous l'empire d'un état alcoolique dont le seuil est fixé par l'article R 234-1 du Code de la Route",
+      "applies_to": "Les dommages causés au véhicule assuré",
+      "page": 1
+    },
+    {
+      "name": "Vol sans effraction du véhicule",
+      "description": "Le vol sans effraction du véhicule",
+      "applies_to": "Les dommages causés au véhicule assuré — Le vol ou la tentative de vol",
+      "page": 1
+    },
+    {
+      "name": "Vol du carburant",
+      "description": "Le vol du carburant",
+      "applies_to": "Les dommages causés au véhicule assuré — Le vol ou la tentative de vol",
+      "page": 1
+    },
+    {
+      "name": "Défense pénale pour délit de fuite",
+      "description": "La défense pénale pour délit de fuite de l'assuré",
+      "applies_to": "La défense et le recours",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": "En cas de sinistre relevant des autres garanties, une somme peut rester à la charge de l'assuré (franchise). Le document n'en indique pas le montant.",
+    "variable": null,
+    "per_coverage": {
+      "La responsabilité civile de fonctionnement": "une somme fixe de 2 000 € restera à charge de l'assuré (franchise)",
+      "Les catastrophes naturelles": "Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable"
+    },
+    "page": 2
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Déclaration du risque à la souscription",
+      "description": "À la souscription du contrat : répondre exactement à toutes les questions posées pour identifier la nature du risque à assurer.",
+      "timing": "à la souscription",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "Déclaration des circonstances nouvelles",
+      "description": "En cours de contrat : déclarer dans les 15 jours, à partir du moment où l'assuré en a eu connaissance, par lettre recommandée ou auprès d'un conseiller, toutes les circonstances nouvelles qui rendent inexactes ou caduques les réponses faites lors de la souscription.",
+      "timing": "en cours de contrat",
+      "deadline": "15 jours",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "Conservation des justificatifs",
+      "description": "Conserver tout document permettant de prouver l'existence et la valeur de vos biens.",
+      "timing": "en cours de contrat",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "Transfert de propriété du véhicule",
+      "description": "En cas de transfert de propriété du véhicule : déclarer immédiatement l'information dès la date de cession du véhicule.",
+      "timing": "en cas de cession",
+      "deadline": "immédiatement",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "Sauvegarde des biens en cas de sinistre",
+      "description": "Prendre toutes les dispositions nécessaires pour stopper l'évolution du sinistre, sauver tous les biens qui peuvent l'être et veiller à leur conservation.",
+      "timing": "en cas de sinistre",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "Déclaration du sinistre",
+      "description": "Déclarer le sinistre à l'assureur à partir du moment où l'assuré en a connaissance et au plus tard dans les 5 jours ouvrés, dans les 2 jours ouvrés pour un vol, dans les 10 jours suivant la publication d'un arrêté catastrophe naturelle.",
+      "timing": "en cas de sinistre",
+      "deadline": "5 jours ouvrés ; 2 jours ouvrés pour un vol ; 10 jours suivant la publication d'un arrêté catastrophe naturelle",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "Circonstances du sinistre",
+      "description": "Indiquer les date, heure du sinistre, les causes connues ou supposées ainsi que ses conséquences et les coordonnées des personnes lésées, des témoins et du ou des responsables éventuels.",
+      "timing": "en cas de sinistre",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "Plainte en cas de vol ou de vandalisme",
+      "description": "En cas de vol, tentative de vol ou d'acte de vandalisme, prévenir la police ou la gendarmerie dans les 24 heures et déposer une plainte.",
+      "timing": "en cas de sinistre",
+      "deadline": "24 heures",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "Assurances multiples",
+      "description": "Transmettre les coordonnées des éventuels assureurs couvrant le même risque.",
+      "timing": "en cas de sinistre",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie.",
+      "page": 2
+    },
+    {
+      "name": "Pièces de procédure",
+      "description": "Transmettre immédiatement toute pièce de procédure (avis à victime, assignation...) ainsi que tout document concernant le sinistre.",
+      "timing": "en cas de sinistre",
+      "deadline": "immédiatement",
+      "sanction": "Sous peine de nullité du contrat d'assurance, de réduction d'indemnité ou de non garantie.",
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Limiter le sinistre",
+      "description": "Prendre toutes les dispositions nécessaires pour stopper l'évolution du sinistre, sauver tous les biens qui peuvent l'être et veiller à leur conservation.",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Déclarer le sinistre",
+      "description": "Déclarer le sinistre à l'assureur à partir du moment où l'assuré en a connaissance.",
+      "deadline": "au plus tard dans les 5 jours ouvrés ; dans les 2 jours ouvrés pour un vol ; dans les 10 jours suivant la publication d'un arrêté catastrophe naturelle",
+      "page": 2
+    },
+    {
+      "step": "Décrire le sinistre",
+      "description": "Indiquer les date, heure du sinistre, les causes connues ou supposées ainsi que ses conséquences et les coordonnées des personnes lésées, des témoins et du ou des responsables éventuels.",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Déposer plainte",
+      "description": "En cas de vol, tentative de vol ou d'acte de vandalisme, prévenir la police ou la gendarmerie et déposer une plainte.",
+      "deadline": "dans les 24 heures",
+      "page": 2
+    },
+    {
+      "step": "Signaler les autres assureurs",
+      "description": "Transmettre les coordonnées des éventuels assureurs couvrant le même risque.",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Transmettre les pièces",
+      "description": "Transmettre immédiatement toute pièce de procédure (avis à victime, assignation...) ainsi que tout document concernant le sinistre.",
+      "deadline": "immédiatement",
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "La couverture commence à partir de la date convenue d'un commun accord et dure jusqu'à la date d'échéance principale.",
+    "tacit_renewal": true,
+    "notice_period": "2 mois (à l'échéance principale)",
+    "methods": [
+      "Par lettre recommandée",
+      "Par déclaration faite contre récépissé auprès de l'assureur ou de son représentant"
+    ],
+    "special_rights": [
+      "à l'échéance principale, avec un préavis de 2 mois",
+      "si la situation personnelle ou professionnelle de l'assuré change dans certaines conditions",
+      "si la Macif résilie un autre contrat de l'assuré après sinistre",
+      "en cas d'augmentation de la cotisation hors taxes ou des franchises (sauf application de la clause légale de réduction majoration)"
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "La cotisation est payable d'avance à la souscription puis à chaque date d'échéance.",
+      "Elle est exigible annuellement, toutefois un paiement fractionné peut être accordé.",
+      "Le fractionnement du paiement entraîne des frais.",
+      "Le défaut de paiement dans les 10 jours à compter de la date d'échéance pourra entraîner, après une mise en demeure, la suspension des garanties puis la résiliation du contrat.",
+      "Les paiements peuvent être effectués par prélèvement automatique, chèque, virement ou mandat, selon que l'assuré a choisi un paiement fractionné ou non."
+    ],
+    "indexation": "Le document mentionne « la clause légale de réduction majoration » à propos de l'augmentation de la cotisation, sans décrire le mécanisme.",
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "LES PRINCIPALES RESTRICTIONS (1/5)",
+      "description": "En cas de sinistre relevant de la responsabilité civile fonctionnement, une somme fixe de 2 000 € restera à charge de l'assuré (franchise)",
+      "page": 2
+    },
+    {
+      "name": "LES PRINCIPALES RESTRICTIONS (2/5)",
+      "description": "En cas de sinistre relevant des autres garanties, une somme peut rester à la charge de l'assuré (franchise)",
+      "page": 2
+    },
+    {
+      "name": "LES PRINCIPALES RESTRICTIONS (3/5)",
+      "description": "Les indemnisations au titre des catastrophes naturelles supportent une franchise légale et inassurable",
+      "page": 2
+    },
+    {
+      "name": "LES PRINCIPALES RESTRICTIONS (4/5)",
+      "description": "La garantie corporelle du conducteur est mobilisable lorsque le taux d'invalidité est égal ou supérieur à 10%",
+      "page": 2
+    },
+    {
+      "name": "LES PRINCIPALES RESTRICTIONS (5/5)",
+      "description": "Les recours amiables et judiciaires sont exercés pour les préjudices de montants supérieurs aux seuils d'intervention",
+      "page": 2
+    },
+    {
+      "name": "Légende du tableau",
+      "description": "Les garanties précédées d'une coche (✓ verte) sont systématiquement prévues au contrat.",
+      "page": 1
+    },
+    {
+      "name": "Plafonds de garantie",
+      "description": "Les garanties peuvent être soumises à des plafonds de garantie. Seuls certains d'entre eux sont mentionnés ci-dessous.",
+      "page": 1
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Ce contrat d’assurance a pour objet de garantir le souscripteur contre les conséquences des dommages matériels et corporels causés à des tiers (responsabilité \ncivile automobile obligatoire).",
+      "page": 1,
+      "context": "objet du contrat"
+    },
+    {
+      "quote": "Il peut également accorder des garanties complémentaires afin de couvrir les dommages matériels subis par le véhicule assuré utilisé \ndans le cadre d’activités sociales ou professionnelles.",
+      "page": 1,
+      "context": "garanties complémentaires"
+    },
+    {
+      "quote": "Les garanties peuvent être soumises à des plafonds de garantie. \nSeuls certains d’entre eux sont mentionnés ci-dessous.",
+      "page": 1,
+      "context": "avertissement plafonds"
+    },
+    {
+      "quote": "Elle couvre les dommages corporels (sans limite) et les dommages \nmatériels et immatériels consécutifs (dans la limite de 100 000 000 €)",
+      "page": 1,
+      "context": "RC automobile — plafonds"
+    },
+    {
+      "quote": "Elle couvre  les dommages corporels (dans la limite de 7 000 000 € \npar sinistre et par année d’assurance) les dommages matériels et \nimmatériels consécutifs (dans la limite de 1 000 000 € par sinistre)",
+      "page": 1,
+      "context": "RC de fonctionnement — plafonds"
+    },
+    {
+      "quote": "Les dommages causés aux tiers par les véhicules assurés \nutilisés comme outil de travail (ex : engin de chantier, engin de \nmanutention) lorsque ces dommages sont dus exclusivement \naux équipements utilitaires de l’engin en cours de travail, sans \nimplication de sa fonction de déplacement",
+      "page": 1,
+      "context": "RC de fonctionnement — objet"
+    },
+    {
+      "quote": "Les dommages causés aux passagers transportés dans le véhicule \nassuré (dommages et conséquences corporelles, détérioration de \nleurs vêtements)",
+      "page": 1,
+      "context": "RC automobile — passagers"
+    },
+    {
+      "quote": "Les garanties précédées d’une coche   sont systématiquement \nprévues au contrat.",
+      "page": 1,
+      "context": "légende — la coche ne produit aucun texte, le blanc est conservé tel quel"
+    },
+    {
+      "quote": "La responsabilité professionnelle",
+      "page": 1,
+      "context": "n'est pas assuré"
+    },
+    {
+      "quote": "Les amendes, condamnations pénales et toutes peines de substitution",
+      "page": 1,
+      "context": "n'est pas assuré"
+    },
+    {
+      "quote": "Le fait intentionnel ou dolosif de l’assuré ou dont il est complice",
+      "page": 1,
+      "context": "exclusion commune"
+    },
+    {
+      "quote": "Les dommages survenus au cours d’épreuves, courses ou compétitions",
+      "page": 1,
+      "context": "exclusion commune"
+    },
+    {
+      "quote": "Les dommages consécutifs à la mise en fourrière du véhicule assuré \ndepuis son enlèvement jusqu’à sa restitution",
+      "page": 1,
+      "context": "exclusion commune"
+    },
+    {
+      "quote": "Les dommages subis par le véhicule et imputables exclusivement et \ndirectement à l’état de vétusté ou au défaut d’entretien du véhicule \nassuré",
+      "page": 1,
+      "context": "exclusion commune"
+    },
+    {
+      "quote": "Les dommages subis par le véhicule assuré lorsque le conducteur \nse trouve sous l’empire d’un état alcoolique dont le seuil est fixé par \nl’article R 234-1 du Code de la Route",
+      "page": 1,
+      "context": "exclusion spécifique"
+    },
+    {
+      "quote": "Le vol sans effraction du véhicule",
+      "page": 1,
+      "context": "exclusion spécifique"
+    },
+    {
+      "quote": "La défense pénale pour délit de fuite de l’assuré",
+      "page": 1,
+      "context": "exclusion spécifique"
+    },
+    {
+      "quote": "En cas de sinistre relevant de la responsabilité civile fonctionnement, \nune somme fixe de 2 000 € restera à charge de l’assuré (franchise)",
+      "page": 2,
+      "context": "restriction — franchise RC fonctionnement"
+    },
+    {
+      "quote": "Les indemnisations au titre des catastrophes naturelles supportent une \nfranchise légale et inassurable",
+      "page": 2,
+      "context": "restriction — franchise cat nat"
+    },
+    {
+      "quote": "La garantie corporelle du conducteur est mobilisable lorsque le taux \nd’invalidité est égal ou supérieur à 10%",
+      "page": 2,
+      "context": "restriction — seuil d'invalidité"
+    },
+    {
+      "quote": "Les recours amiables et judiciaires sont exercés pour les préjudices de \nmontants supérieurs aux seuils d’intervention",
+      "page": 2,
+      "context": "restriction — seuils d'intervention"
+    },
+    {
+      "quote": "Assistance aux personnes : Monde entier",
+      "page": 2,
+      "context": "étendue territoriale"
+    },
+    {
+      "quote": "Assistance aux véhicules légers : tous les pays d’Europe (jusqu’à l’Oural) et du pourtour méditerranéen (à l’exception de la Libye)",
+      "page": 2,
+      "context": "étendue territoriale"
+    },
+    {
+      "quote": "à l’échéance principale, avec un préavis de 2 mois",
+      "page": 2,
+      "context": "résiliation"
+    },
+    {
+      "quote": "déclarer le sinistre à l’assureur à partir du moment où l’assuré en a connaissance et au plus tard dans les 5 jours ouvrés, dans les 2 jours ouvrés pour  \nun vol, dans les 10 jours suivant la publication d’un arrêté catastrophe naturelle",
+      "page": 2,
+      "context": "délais de déclaration"
+    },
+    {
+      "quote": "en cas de vol, tentative de vol ou d’acte de vandalisme, prévenir la police ou la gendarmerie dans les 24 heures et déposer une plainte",
+      "page": 2,
+      "context": "obligation en cas de vol"
+    },
+    {
+      "quote": "En cours de contrat : déclarer dans les 15 jours, à partir du moment où l’assuré en a eu connaissance, par lettre recommandée ou auprès d’un conseiller, \ntoutes les circonstances nouvelles qui rendent inexactes ou caduques les réponses faites lors de la souscription",
+      "page": 2,
+      "context": "obligation en cours de contrat"
+    }
+  ],
+  "gaps": [
+    "INVERSION / RÉORDONNANCEMENT CONFIRMÉ (page 2). Le bloc « LES PRINCIPALES RESTRICTIONS » est imprimé TOUT EN HAUT de la page 2 (bloc titre à x0=29.3, y0=26.7 ; items à x0=37.7, y0=40.1 en colonne gauche et x0=315.5, y0=28.3 en colonne droite) : il est la suite de la section « Y a-t-il des exclusions à la couverture ? » commencée en page 1. Or le flux texte plat de `page.get_text(\"text\")` l'émet EN DERNIER, après « Quelles sont mes obligations ? ». Lu à plat, ce bloc paraît clore le document alors qu'il ouvre la page. Vérifié sur rendu (matrice 3×, bande y∈[15,140] de la page 2) : le pavé « LES PRINCIPALES RESTRICTIONS » y est bien le premier élément, immédiatement suivi de « Où suis-je couvert(e) ? ». Les cinq restrictions sont rattachées ici à la section exclusions/restrictions, et leurs valeurs chiffrées reportées sur la garantie concernée.",
+    "Réordonnancement plus général de la page 2 : le flux texte émet les sections dans l'ordre « Où suis-je couvert(e) ? » (y=125.3), « Quand et comment effectuer les paiements ? » (y=431.5), « Quand commence la couverture… » (y=534.5), « Comment puis-je résilier le contrat ? » (y=607.6), « Quelles sont mes obligations ? » (y=228.4), « LES PRINCIPALES RESTRICTIONS » (y=26.7). L'ordre imprimé est : RESTRICTIONS, Où suis-je couvert, obligations, paiements, durée, résiliation. Chaque bloc étant autonome, aucune valeur n'est mal rattachée en dehors du cas signalé ci-dessus.",
+    "Vérification NÉGATIVE en page 1, comptes bouclés : l'ordre de lecture y correspond à l'impression. Colonne gauche x0≈29.3 (y 187.8→688.7 : « Qu'est-ce qui est assuré ? », dommages aux tiers, protection des droits, dommages au véhicule) puis colonne droite x0≈307.1 (y 177.6→699.6 : garanties optionnelles, légende, « Qu'est-ce qui n'est pas assuré ? », exclusions). Les deux plafonds de responsabilité civile — 100 000 000 € pour la RC automobile et 7 000 000 € / 1 000 000 € pour la RC de fonctionnement — ont été recontrôlés sur rendu : ils sont correctement rattachés à leur garantie respective et ne sont pas intervertis. Comptes : 13 items « - » sous LES GARANTIES OPTIONNELLES, 4 croix ✗ sous « Qu'est-ce qui n'est pas assuré ? », 8 + 5 exclusions.",
+    "Polarité établie par le glyphe de puce, confirmée sur rendu : coche verte ✓ (systématiquement prévue au contrat) pour la responsabilité civile automobile, la responsabilité civile de fonctionnement et la défense et le recours ; tiret « - » pour les dommages causés au véhicule assuré et pour les garanties optionnelles ; croix rouge ✗ pour les items non assurés et les exclusions ; point d'exclamation rouge « ! » pour les restrictions.",
+    "`is_optional` est laissé à null pour les huit garanties « LES DOMMAGES CAUSÉS AU VÉHICULE ASSURÉ ». La légende n'énonce qu'une chose : « Les garanties précédées d'une coche sont systématiquement prévues au contrat. » L'absence de coche établit donc qu'elles ne sont pas systématiques, mais le document ne dit nulle part qu'elles sont optionnelles — l'absence de marque n'est pas une déclaration. Les treize garanties rangées sous le titre « LES GARANTIES OPTIONNELLES » sont en revanche portées à `is_optional: true`, ce titre étant explicite.",
+    "29 caractères U+0007 (BEL) dans la couche texte (21 en page 1, 8 en page 2). Vérification faite : ce ne sont pas des items vectorisés perdus mais des marqueurs laissés à l'emplacement des glyphes de puce ; le texte de chaque item est présent. Aucun contenu ne manque de ce fait. Les key_quotes contournent ces caractères.",
+    "Le glyphe de la coche ✓ ne produit aucun texte. La phrase de légende sort donc de la couche texte avec un blanc là où la coche est imprimée : « Les garanties précédées d'une coche   sont systématiquement prévues au contrat. » La citation correspondante est conservée telle quelle, sans insertion du symbole, pour rester une tranche exacte de la couche texte.",
+    "Le bloc d'identité/référence est composé en rotation à 90° dans la marge droite (x0=574.1, y de 491.8 à 819.9) et sort en un seul span : « VEH-AUTO 10/18- Macif. Entreprise régie par le Code des assurances. Siège social : 2 et 4, rue de Pied de Fond 79000 Niort. » `reference` = « VEH-AUTO 10/18 ». `edition_date` = « 10/18 » tel qu'imprimé, tiré de ce code de référence : le document ne porte aucune mention d'édition en clair (pas de « édition MM/AAAA »). Le manifeste ne portait aucune date d'édition pour ce document ; la lecture « 10/18 » vient donc du document lui-même et non d'une métadonnée. Aucune ligne d'édition concurrente n'a été trouvée dans la couche texte.",
+    "Le siège social imprimé sur ce document (2 et 4, rue de Pied de Fond 79000 Niort) diffère de celui du DIPA Garantie Accident du même assureur (1 rue Jacques Vandier 79000 Niort). Les deux sont enregistrés tels qu'imprimés, chacun sur son document ; il s'agit d'éditions d'années différentes.",
+    "Le symbole € est bien présent dans la couche texte de ce document (4 occurrences), contrairement à d'autres contrats du même assureur : les montants 100 000 000 €, 7 000 000 €, 1 000 000 € et 2 000 € sont cités verbatim avec leur unité, sans restauration.",
+    "`definitions` est vide : ce DIPA ne comporte pas de glossaire. `waiting_periods` est vide : aucun délai de carence n'est mentionné. `prescription_period` est null : la prescription n'est pas traitée.",
+    "Le document précise lui-même que sa liste de plafonds est partielle : « Les garanties peuvent être soumises à des plafonds de garantie. Seuls certains d'entre eux sont mentionnés ci-dessous. » Les garanties sans plafond indiqué ici ne sont donc pas nécessairement sans plafond au contrat.",
+    "Aucune description développée n'est donnée pour « La défense et le recours », pour les huit garanties de dommages au véhicule ni pour les treize garanties optionnelles : le document se limite à leur intitulé. Les descriptions enregistrées reprennent donc l'intitulé lui-même.",
+    "Le texte extrait par mes soins avec `page.get_text(\"text\")` (PyMuPDF) est byte-identique au texte collé dans le prompt pour les 2 pages ; le document n'était pas tronqué."
+  ]
+}

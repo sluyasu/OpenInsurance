@@ -1,0 +1,138 @@
+---
+type: product
+domain: insurance
+country: lu
+insurer: '[[lalux]]'
+insurer_slug: lalux
+branch: autres
+product_name: Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance
+document_type: ipid
+target_audience: null
+target_audience_note: 'Le document ne nomme aucun segment de clientèle. Il définit
+  les assurés : « Le titulaire d’une carte de crédit émise par SPUERKEESS en cours
+  de validité ainsi que le conjoint/partenaire et enfant(s) de <25 ans légitimes,
+  légitimés, naturels, adoptifs, ou en placement familial, vivant dans le même ménage
+  ou bien chez l’autre parent (en cas de divorce ou de séparation de corps), même
+  s’ils voyagent séparément. »'
+reference: null
+edition_date: null
+lang: fr
+tags:
+- insurance/lu/autres
+- product
+- insurer/lalux
+aliases:
+- Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance
+source_url: https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_CLASSIC_FR.pdf
+source_pages: 2
+fetched_at: '2026-08-02'
+extraction_model: claude-code-subagent:scale
+prompt_version: '1.1'
+product_family: assurance-cartes-de-credit-spuerkeess
+variant: VISA CLASSIC
+edition_status: null
+edition_age_years: null
+superseded: null
+extends: null
+freshness: '2026-08-02'
+status: ready
+generated: true
+---
+
+<!-- GENERATED - do not edit. Fix data/<cc>/extracted/ and run `make build`. -->
+
+## Résumé
+
+Document d’information sur le produit d’assurance (IPID) des couvertures attachées à la carte de crédit SPUERKEESS VISA CLASSIC, présenté par LALUX Assurances sous l’intitulé « Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance ». Les assurés — titulaire de la carte, conjoint/partenaire et enfants de moins de 25 ans du même ménage — profitent lors de leurs voyages d’une série de couvertures d’assurance. L’encadré « Qu’est-ce qui est assuré ? » n’énumère que trois garanties HORS ASSISTANCE : accident de voyage (décès / invalidité), protection des achats et livraison de biens achetés via Internet. L’assurance est valable dans le monde entier, la garantie livraison de biens achetés sur Internet étant limitée à certains sites marchands et lieux de livraison.
+
+- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Autres](../../branches/Autres.md) · Type : IPID / Fiche d'information
+
+## Définitions
+
+| Terme | Définition | Page |
+|---|---|---|
+| Les assurés | Le titulaire d’une carte de crédit émise par SPUERKEESS en cours de validité ainsi que le conjoint/partenaire et enfant(s) de <25 ans légitimes, légitimés, naturels, adoptifs, ou en placement familial, vivant dans le même ménage ou bien chez l’autre parent (en cas de divorce ou de séparation de corps), même s’ils voyagent séparément. | p. 1 |
+
+## Garanties
+
+### HORS ASSISTANCE : ACCIDENT DE VOYAGE (DÉCÈS / INVALIDITÉ) - p. 1
+ACCIDENT DE VOYAGE (DÉCÈS / INVALIDITÉ). Garantie énumérée dans l’encadré « Qu’est-ce qui est assuré ? » sous l’intitulé « HORS ASSISTANCE : » ; le document n’en donne aucune description, aucun montant ni aucune condition.
+- Portée : L’assurance est valable dans le monde entier.
+  - Condition : Les couvertures ne sont pas acquises au cas où un minimum de 30% des coûts du voyage assuré ne sont pas réglés par la carte de crédit VISA CLASSIC
+  - Condition : Chaque garantie assurée prévoit des exclusions spécifiques propres, consultables dans les conditions générales y relatives.
+
+### HORS ASSISTANCE : PROTECTION DES ACHATS - p. 1
+PROTECTION DES ACHATS. Garantie énumérée dans l’encadré « Qu’est-ce qui est assuré ? » sous l’intitulé « HORS ASSISTANCE : » ; le document n’en donne aucune description, aucun montant ni aucune condition.
+- Portée : L’assurance est valable dans le monde entier.
+  - Condition : Les couvertures ne sont pas acquises au cas où un minimum de 30% des coûts du voyage assuré ne sont pas réglés par la carte de crédit VISA CLASSIC
+  - Condition : Chaque garantie assurée prévoit des exclusions spécifiques propres, consultables dans les conditions générales y relatives.
+
+### HORS ASSISTANCE : LIVRAISON DE BIENS ACHETES VIA INTERNET - p. 1
+LIVRAISON DE BIENS ACHETES VIA INTERNET. Garantie énumérée dans l’encadré « Qu’est-ce qui est assuré ? » sous l’intitulé « HORS ASSISTANCE : » ; le document n’en donne aucune description ni aucun montant, mais en précise la portée territoriale.
+- Portée : Pour la garantie livraison des biens achetés sur Internet : les achats garantis sont ceux effectués sur un site marchand domicilié dans un pays européen ou aux Etats-Unis et le bien garanti doit être livré au Grand-Duché de Luxembourg ou dans la Communauté Européenne.
+  - Condition : les achats garantis sont ceux effectués sur un site marchand domicilié dans un pays européen ou aux Etats-Unis et le bien garanti doit être livré au Grand-Duché de Luxembourg ou dans la Communauté Européenne
+  - Condition : Les couvertures ne sont pas acquises au cas où un minimum de 30% des coûts du voyage assuré ne sont pas réglés par la carte de crédit VISA CLASSIC
+  - Condition : Chaque garantie assurée prévoit des exclusions spécifiques propres, consultables dans les conditions générales y relatives.
+
+## Exclusions
+
+| Exclusion | Description | S'applique à | Page |
+|---|---|---|---|
+| Exclusions communes — fait dolosif, intentionnel ou faute lourde | Exclusions communes à toutes les garanties : ne sont pas couverts les sinistres survenant par le fait dolosif ou intentionnel ou par la faute lourde du/des Assuré(s) ou du bénéficiaire ; | all | p. 1 |
+| Exclusions communes — ivresse, stupéfiants, usage abusif de médicaments | Exclusions communes à toutes les garanties : ne sont pas couverts les sinistres survenant à l’Assuré et dus à son état d’ivresse ou d’ébriété, à son absorption de produits hallucinogènes, de stupéfiants ou de drogues et de l’usage abusif de médicaments; | all | p. 1 |
+| Exclusions communes — rixe, duel ou crime | Exclusions communes à toutes les garanties : ne sont pas couverts les sinistres survenant à l’occasion de la participation de l’Assuré à une rixe (sauf légitime défense), un duel ou un crime ; | all | p. 1 |
+| Exclusions communes — courses et compétitions avec engins motorisés | Exclusions communes à toutes les garanties : ne sont pas couverts les sinistres survenant à l’occasion de la participation de l’Assuré en tant que concurrent à des courses et compétitions, ainsi qu’à leurs essais préparatoires, lorsqu’il est fait usage d’engins motorisés ; les exercices de vitesse, de régularité ou d’adresse même autorisés, sont assimilés à des courses ou concours ; | all | p. 1 |
+| Exclusions communes — tremblement de terre ou autres cataclysmes | Exclusions communes à toutes les garanties : ne sont pas couverts les sinistres survenant à l’occasion d’un tremblement de terre ou autres cataclysmes ; | all | p. 1 |
+| Exclusions communes — guerre civile ou étrangère | Exclusions communes à toutes les garanties : ne sont pas couverts les sinistres survenant à l’occasion d’un guerre civile ou étrangère ; | all | p. 1 |
+| Exclusions communes — risques nucléaires et radioactivité | Exclusions communes à toutes les garanties : ne sont pas couverts les sinistres survenant par les effets directs ou indirects d’incendie, d’explosion, de dégagements de chaleur, d’irradiations, provenant de transmutations de noyaux d’atome ou de radioactivité, ainsi que par les effets de radiations provoquées par l’accélération artificielle de particules nucléaires ; | all | p. 1 |
+| Désignation d’un avocat soumise à l’accord écrit de la Compagnie | Un avocat ne peut être désigné par l’Assuré qu’avec l’accord écrit de la Compagnie. Phrase imprimée en dernière position de l’encadré « Qu’est-ce qui n’est pas assuré ? », juste avant la mention « Liste non exhaustive », mais sans croix de puce contrairement aux sept items qui la précèdent. Conservée à l’endroit où le document l’imprime (voir `gaps`). | all | p. 1 |
+| HORS ASSISTANCE et ASSISTANCE — minimum de 30% des coûts du voyage à régler par la carte | Les couvertures ne sont pas acquises au cas où un minimum de 30% des coûts du voyage assuré ne sont pas réglés par la carte de crédit VISA CLASSIC. Item figurant dans l’encadré « Y a-t-il des exclusions à la couverture ? ». | all | p. 1 |
+| HORS ASSISTANCE et ASSISTANCE — déplacements supérieurs à 91 jours consécutifs | Déplacements supérieurs à 91 jours consécutifs. Item figurant dans l’encadré « Y a-t-il des exclusions à la couverture ? », imprimé sur sa propre ligne mais sans point d’exclamation de puce, contrairement aux deux autres items de l’encadré. | all | p. 1 |
+| HORS ASSISTANCE et ASSISTANCE — exclusions spécifiques propres à chaque garantie | Chaque garantie assurée prévoit des exclusions spécifiques propres, consultables dans les conditions générales y relatives. Item figurant dans l’encadré « Y a-t-il des exclusions à la couverture ? ». | all | p. 1 |
+
+## Obligations de l'assuré
+
+- HORS ASSISTANCE : Willis Towers Watson Luxembourg S.A. réceptionne les déclarations de sinistre qui seront transmises au Service Indemnisation de LA LUXEMBOURGEOISE. Dans tous les cas, le porteur de la carte doit déclarer le sinistre au plus tard 30 jours ouvrés qui suivent la date à laquelle le sinistre a été connu, et pour ce faire, il dispose d’un lien hypertexte vers l’outil en ligne de déclaration mis à disposition par Willis Towers Watson Luxembourg S.A. accessible sur le site internet de la banque : https://www.spuerkeess.lu/fr/particuliers/gerer-le-quotidien/formulaire-de-declaration-de-sinistre/ (En cas de sinistre) p. 2
+
+## Procédure de sinistre
+
+1. Willis Towers Watson Luxembourg S.A. réceptionne les déclarations de sinistre qui seront transmises au Service Indemnisation de LA LUXEMBOURGEOISE. Dans tous les cas, le porteur de la carte doit déclarer le sinistre au plus tard 30 jours ouvrés qui suivent la date à laquelle le sinistre a été connu, et pour ce faire, il dispose d’un lien hypertexte vers l’outil en ligne de déclaration mis à disposition par Willis Towers Watson Luxembourg S.A. accessible sur le site internet de la banque. (délai : au plus tard 30 jours ouvrés qui suivent la date à laquelle le sinistre a été connu) p. 2
+2. Le porteur de la carte dispose d’un lien hypertexte vers l’outil en ligne de déclaration mis à disposition par Willis Towers Watson Luxembourg S.A. accessible sur le site internet de la banque : https://www.spuerkeess.lu/fr/particuliers/gerer-le-quotidien/formulaire-de-declaration-de-sinistre/ p. 2
+
+## Durée & résiliation
+
+- Durée : Les garanties du présent contrat prennent effet à la date à laquelle la carte de paiement de l’Assuré est effective.
+- Modalité : La couverture sera immédiatement résiliée de plein droit en cas de non-renouvellement de la carte, ou de retrait de la carte assurée ou encore, en cas de résiliation du contrat d’assurance souscrit par le preneur d’assurance auprès de la Compagnie, à la date à laquelle le contrat d’assurance prend fin suite à la résiliation.
+- Droit spécial : Il est précisé que tout paiement d’un voyage effectué ou d’un bien acheté avant la résiliation de la carte de crédit par l’émetteur de la carte, ou du contrat d’assurance souscrit par le Preneur d’Assurance, sera pris en considération selon les modalités du contrat.
+- Droit spécial : Aussi, il est spécifié que les couvertures applicables seront celles de la carte active à la date de la survenance du sinistre.
+
+## Conditions particulières
+
+- Aussi, il est spécifié que les couvertures applicables seront celles de la carte active à la date de la survenance du sinistre. p. 2
+- Il est précisé que tout paiement d’un voyage effectué ou d’un bien acheté avant la résiliation de la carte de crédit par l’émetteur de la carte, ou du contrat d’assurance souscrit par le Preneur d’Assurance, sera pris en considération selon les modalités du contrat. p. 2
+
+## Lacunes d'extraction
+
+- DÉFAUT MAJEUR — garanties ASSISTANCE absentes de l'encadré des garanties : le document s'intitule « Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance » et l'encadré « Y a-t-il des exclusions à la couverture ? » vise explicitement « HORS ASSISTANCE et ASSISTANCE : », mais l'encadré « Qu'est-ce qui est assuré ? » n'énumère que la rubrique « HORS ASSISTANCE : » et ses trois items. Vérifié sur un rendu de la page 1 : les deux tiers inférieurs de la colonne de gauche sont vides, aucune garantie ASSISTANCE n'est imprimée. Les garanties d'assistance ne sont donc pas extractibles de ce document ; elles ne sont pas déduites d'une autre version linguistique ni d'un document frère.
+- Rubrique contredite par son contenu : la phrase « Un avocat ne peut être désigné par l'Assuré qu'avec l'accord écrit de la Compagnie. » est imprimée en dernière position de l'encadré « Qu'est-ce qui n'est pas assuré ? », juste avant la mention « Liste non exhaustive ». Ce n'est pas une exclusion mais une modalité de désignation d'avocat, sans rapport avec les trois garanties énumérées ; elle est vraisemblablement un résidu de gabarit d'un IPID de protection juridique. Vérifié sur un rendu : contrairement aux sept exclusions communes qui la précèdent, cette phrase ne porte AUCUNE croix de puce. Le défaut est conservé tel quel — l'item est enregistré dans `exclusions` à l'endroit où le document l'imprime — et n'est pas réparé.
+- Puce manquante : dans l'encadré « Y a-t-il des exclusions à la couverture ? », l'item « Déplacements supérieurs à 91 jours consécutifs » est imprimé sur sa propre ligne mais sans le point d'exclamation de puce que portent les deux autres items de l'encadré (vérifié sur un rendu). Il est enregistré comme item distinct ; le document ne permet pas de trancher s'il constitue une restriction autonome ou la suite de l'item précédent.
+- Porteur de risque : le document imprime la marque « LALUX Assurances » dans le bandeau de titre (« LALUX Assurances - Produit : Cartes de crédit - VISA CLASSIC ») et nomme en page 2 « le Service Indemnisation de LA LUXEMBOURGEOISE ». Aucune forme sociale, aucun numéro RCS, aucune adresse et aucun agrément ne figurent sur le document : il est impossible de déterminer, à partir de ce seul document, laquelle des entités agréées du groupe porte le risque. `insurer_name` reprend la marque telle qu'imprimée.
+- Tiers nommés dans le document sans être identifiés comme porteurs de risque : Willis Towers Watson Luxembourg S.A. (réception des déclarations de sinistre et outil de déclaration en ligne) et SPUERKEESS (émetteur de la carte et hébergeur du formulaire de déclaration).
+- Aucune date d'édition n'est imprimée sur le document : `edition_date` est null. Les métadonnées du PDF portent une date de création 2025-03-19 et un titre de fichier InDesign « IPID_SPUERKEESS Cartes de crédit_Assistance et Hors assistance_VISA CLASSIC_FR.indd » ; ce sont des métadonnées et non une mention imprimée, elles n'ont pas été utilisées.
+- Rubriques absentes du gabarit standard de l'IPID : « Quelles sont mes obligations ? » ne couvre que la déclaration de sinistre, et les rubriques « Quand et comment effectuer les paiements ? » et « Quand commence la couverture et quand prend-elle fin ? » ne figurent pas dans le document. `premium` est donc null, et le début/la fin de la couverture ne sont documentés que sous « Comment puis-je résilier le contrat ? », d'où ils ont été repris dans `duration_and_cancellation`.
+- Les trois garanties HORS ASSISTANCE ne sont imprimées qu'en intitulés capitalisés, sans description, sans somme assurée, sans sous-limite et sans franchise. Aucun montant, aucun pourcentage autre que le « minimum de 30% des coûts du voyage assuré » et aucun délai d'attente ne figurent dans le document. `deductibles`, `waiting_periods` et `prescription_period` sont null/vides parce que le document est muet, pas parce qu'ils n'ont pas été extraits.
+- Les deux encadrés « Qu'est-ce qui n'est pas assuré ? » et « Y a-t-il des exclusions à la couverture ? » portent la mention imprimée « Liste non exhaustive ».
+- Contrôle géométrique effectué : le texte plat émet les deux colonnes (y ≥ 276) AVANT les blocs situés en haut de page (l'avertissement à y 130 et « De quel type d'assurance s'agit-il ? » à y 191), l'ordre de lecture du texte plat ne suit donc pas l'ordre imprimé verticalement. Le rattachement des items a été reconstruit par colonne : x0 ≈ 65–76 pour l'encadré « Qu'est-ce qui est assuré ? », x0 ≈ 348–362 pour « Qu'est-ce qui n'est pas assuré ? » (y 276–647) puis « Y a-t-il des exclusions à la couverture ? » (y ≥ 667). Aucune inversion de colonnes, aucune exclusion tombée dans les garanties ni l'inverse ; contrôle confirmé sur un rendu.
+- Les marques de puce (coche verte, croix rouges, points d'exclamation orange) sont des images placées et ne produisent aucun texte ; leur polarité a été lue sur le rendu et concorde avec l'intitulé de chaque encadré, hormis les deux items sans puce signalés ci-dessus. Ces constats ne figurent pas dans `key_quotes` puisqu'ils ne sont pas du texte.
+- Le texte du prompt a été vérifié contre le PDF local : les deux pages ressortent identiques caractère pour caractère de `page.get_text("text")`. Aucune troncature, aucun glyphe de zone privée, aucun caractère U+0007, aucune ligature perdue. Une coupure de mot par tiret réel en fin de ligne existe (« d'irradia-\ntions ») et a été conservée telle quelle dans la citation correspondante.
+
+## Documents liés
+
+- [Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance (VISA INFINITE) - IPID](Assurance%20Cartes%20de%20cr%C3%A9dit%20SPUERKEESS%20%E2%80%93%20Assistance%20et%20hors%20Assistance%20%28VISA%20INFINITE%29%20-%20IPID.md) - IPID / Fiche d'information
+- [Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance (VISA BUSINESS) - IPID](Assurance%20Cartes%20de%20cr%C3%A9dit%20SPUERKEESS%20%E2%80%93%20Assistance%20et%20hors%20Assistance%20%28VISA%20BUSINESS%29%20-%20IPID.md) - IPID / Fiche d'information
+
+## Source & fidélité
+
+- Source : [https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_CLASSIC_FR.pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_CLASSIC_FR.pdf) - téléchargé le 2026-08-02 - 2 pages
+- Extraction : claude-code-subagent:scale · prompt v1.1
+- ⚠️ Ceci n'est pas le document officiel de l'assureur et peut contenir des erreurs d'extraction. Information, non un conseil - vérifiez toujours par rapport au document source.

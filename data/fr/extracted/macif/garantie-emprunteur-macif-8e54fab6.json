@@ -1,0 +1,722 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "macif",
+  "insurer_name": "Macif",
+  "product_name": "Garantie Emprunteur Macif",
+  "branch": "emprunteur",
+  "branch_code": null,
+  "document_type": "conditions_generales",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "Le document ne nomme aucune catégorie d'audience. Il s'adresse aux « sociétaires » de la Macif souscrivant « dans le cadre de prêts immobiliers ou professionnels contractés auprès d'un organisme prêteur » ; l'assuré est défini comme une « personne physique admise à l'assurance », et le contrat couvre aussi la « caution personne physique » et la caution « en tant que dirigeant d'une personne morale emprunteuse ». Ce périmètre mixte (prêts immobiliers et professionnels) ne se rabat pas proprement sur une seule valeur de l'énumération, donc target_audience est laissé null.",
+  "reference": "GEM25050011",
+  "edition_date": null,
+  "product_family": "Garantie Emprunteur Macif",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/Notice_info_GEM.pdf",
+  "source_pdf": "garantie-emprunteur-macif-8e54fab6.pdf",
+  "source_sha256": "7c7b0a52f80b2ed32207552c053ac71d22596f511db01644c40c6adeea839d73",
+  "source_pages": 6,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Note d'information détaillée du contrat Garantie Emprunteur Macif, assurance emprunteur adossée au contrat collectif n°207003 souscrit par la Macif au profit de ses sociétaires auprès d'Apivia Macif Mutuelle, gérée par SECURIMUT. Elle couvre, dans le cadre de prêts immobiliers ou professionnels, le décès, la Perte Totale et Irréversible d'Autonomie (P.T.I.A.), l'Incapacité Temporaire Totale de Travail (I.T.T.) et l'Invalidité Partielle ou Totale (I.P.T.), ainsi qu'une Garantie d'Aide à la Famille. Les prestations sont pondérées par la quotité souscrite et les garanties s'exercent dans le monde entier.",
+  "definitions": [
+    {
+      "term": "vous / nous",
+      "definition": "Pour faciliter la lecture du contrat, le \"vous\" désigne le ou les assurés et le \"nous\" Apivia Macif Mutuelle, via son gestionnaire SECURIMUT.",
+      "page": 1
+    },
+    {
+      "term": "Assuré",
+      "definition": "Personne physique admise à l'assurance sur qui reposent les garanties, mentionnée au certificat d'adhésion.",
+      "page": 1
+    },
+    {
+      "term": "Bénéficiaire du contrat",
+      "definition": "L'organisme prêteur désigné au certificat d'adhésion.",
+      "page": 1
+    },
+    {
+      "term": "Certificat d'adhésion",
+      "definition": "Document remis au sociétaire constatant son adhésion au contrat et qui mentionne le bénéficiaire du contrat, la date d'effet de l'assurance, les assurés, les prêts couverts et leurs caractéristiques, le capital assuré en cas de décès et/ou de Perte Totale et Irréversible d'Autonomie (P.T.I.A.), les mensualités garanties en cas d'Incapacité Temporaire Totale de Travail (I.T.T.) ou d'Invalidité Partielle ou Totale (I.P.T.), la franchise applicable en cas d'I.T.T., l'existence ou non de conditions particulières, ainsi que l'échéancier des cotisations d'assurance.",
+      "page": 1
+    },
+    {
+      "term": "Convention AERAS (s'Assurer et Emprunter avec un Risque Aggravé de Santé)",
+      "definition": "Dispositif en faveur des personnes présentant des risques aggravés de santé en vue de leur faciliter l'accès à l'assurance. Les dispositions de cette convention (conditions d'éligibilité, les 3 niveaux d'étude avant refus d'assurance, la garantie Invalidité Spécifique, le dispositif d'écrêtement des surprimes d'assurance, le Droit à l'oubli, la grille de référence pour l'assurance de certaines pathologies) sont accessibles sur le site officiel https://www.aeras-infos.fr.",
+      "page": 1
+    },
+    {
+      "term": "Date de consolidation",
+      "definition": "Moment à partir duquel l'état de santé de l'assuré n'est plus susceptible de s'améliorer, y compris sous traitement.",
+      "page": 1
+    },
+    {
+      "term": "Franchise",
+      "definition": "Période d'incapacité de travail continue non prise en charge par le contrat. L'indemnisation de l'assureur débute à l'issue de cette période. La période de franchise est indiquée au certificat d'adhésion ou aux conditions particulières.",
+      "page": 1
+    },
+    {
+      "term": "Incapacité Temporaire Totale de Travail (I.T.T.)",
+      "definition": "État qui place l'assuré, suite à un sinistre survenu pendant la période de garantie, dans l'impossibilité temporaire, complète et continue d'exercer sa profession pour raison médicale. L'assuré sans activité professionnelle au moment du sinistre, ou en recherche d'emploi, est considéré en I.T.T. s'il est contraint, pour raison médicale, d'observer un repos complet le plaçant dans l'impossibilité de vaquer à ses occupations habituelles. La prise en charge liée à cet état ne débute qu'après la période de franchise mentionnée au certificat d'adhésion.",
+      "page": 1
+    },
+    {
+      "term": "Invalidité Partielle ou Totale (I.P.T.)",
+      "definition": "État qui place l'assuré, suite à un sinistre survenu pendant la période de garantie, dans l'inaptitude consolidée d'exercer sa profession. Cette invalidité est couverte à compter d'un taux d'incapacité fonctionnelle et d'un taux d'incapacité professionnelle chacun d'au moins 33 %. L'assuré sans activité professionnelle au moment du sinistre est considéré en I.P.T. sur la base de son seul taux d'incapacité fonctionnelle.",
+      "page": 1
+    },
+    {
+      "term": "Période de garantie",
+      "definition": "Période pendant laquelle un sinistre peut déclencher les garanties du contrat. Cette période est comprise entre la date d'effet du contrat et la cessation des garanties (article 1.9).",
+      "page": 1
+    },
+    {
+      "term": "Perte Totale et Irréversible d'Autonomie (P.T.I.A.)",
+      "definition": "Invalidité reconnue pendant la période de garantie, qui rend l'assuré incapable en permanence de se livrer à l'exercice d'une quelconque activité pouvant procurer gain ou profit, et qui nécessite l'assistance d'une tierce personne. La Perte Totale et Irréversible d'Autonomie correspond à la reconnaissance par la Sécurité Sociale, ou par un organisme de base équivalent, à une invalidité de 3ème catégorie avec nécessité de recours à l'assistance d'une tierce personne pour effectuer les actes ordinaires de la vie.",
+      "page": 1
+    },
+    {
+      "term": "Quotité",
+      "definition": "Niveau de garantie couvert pour l'assuré, exprimé en pourcentage du capital restant dû pour le risque Décès/P.T.I.A. et de la mensualité du prêt pour le risque I.T.T./ I.P.T.",
+      "page": 1
+    },
+    {
+      "term": "Sinistre",
+      "definition": "Évènement survenu pendant la période de garantie, mettant en jeu une garantie du contrat.",
+      "page": 1
+    },
+    {
+      "term": "Sociétaire",
+      "definition": "Personne qui répond aux conditions d'admission fixées par les statuts d'Apivia Macif Mutuelle, dont l'adhésion à la mutuelle a été acceptée et qui est tenue au paiement des cotisations.",
+      "page": 1
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Garantie en cas de décès",
+      "description": "En cas de décès de l'assuré avant ses 85 ans, nous versons au bénéficiaire le capital restant dû indiqué au tableau d'amortissement à la date de l'échéance précédant le décès, auquel nous appliquons les intérêts du prêt jusqu'au jour du décès (hors intérêts à venir, arriérés de paiement et éventuelles pénalités de remboursement anticipé).",
+      "is_optional": false,
+      "territorial_scope": "Les garanties s'exercent dans le monde entier.",
+      "limits": "Le capital pris en compte est limité au montant garanti indiqué au dernier certificat d'adhésion en vigueur.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Décès de l'assuré avant ses 85 ans",
+        "L'ensemble des prestations versées est pondéré de la quotité souscrite par chacun des assurés.",
+        "Âge limite de la garantie décès : au 85ème anniversaire"
+      ],
+      "page": 3
+    },
+    {
+      "name": "Garantie en cas de Perte Totale et Irréversible d'Autonomie (P.T.I.A.)",
+      "description": "En cas de P.T.I.A. de l'assuré, nous versons au bénéficiaire le capital décès par anticipation, établi au jour où la P.T.I.A. est reconnue. La date de reconnaissance de la P.T.I.A. est : soit la date à laquelle est notifiée la décision de la Sécurité sociale vous classant à titre définitif dans la 3ème catégorie d'invalidité, avec attribution de la pension correspondante, conformément aux articles L. 341-1 et suivants et R.341-2 du Code de la sécurité sociale ; soit la date à laquelle vous êtes considéré par un régime de base de protection sociale comme invalide à 100 %, nécessitant l'assistance d'une tierce personne. Le paiement du capital met fin à l'assurance pour toutes les garanties pour l'assuré concerné.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties s'exercent dans le monde entier.",
+      "limits": "Le capital décès par anticipation, établi au jour où la P.T.I.A. est reconnue.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Le paiement du capital met fin à l'assurance pour toutes les garanties pour l'assuré concerné.",
+        "Souscription possible avant 65 ans",
+        "L'ensemble des prestations versées est pondéré de la quotité souscrite."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Garantie en cas d'Incapacité Temporaire Totale de Travail (I.T.T.)",
+      "description": "Si vous vous trouvez en état d'I.T.T., à la suite d'un sinistre survenu pendant la période de garantie, ou d'aggravation d'un état antérieur déclaré au questionnaire de santé et ne faisant pas l'objet d'une restriction de garanties indiquée aux conditions particulières et/ou à la présente note d'information, nous versons les indemnités garanties dès lors que votre incapacité de travail est continue et excède la période de franchise. L'indemnité garantie est forfaitaire. Elle correspond aux mensualités venant à échéance, mentionnées au tableau d'amortissement produit au jour du sinistre, pondérées de la quotité d'assurance, dans la limite du montant garanti mentionné au certificat d'adhésion. La prise en charge des mensualités garanties s'applique pendant la durée de l'incapacité de travail et au prorata de la durée de cette incapacité.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties s'exercent dans le monde entier.",
+      "limits": "dans la limite du montant garanti mentionné au certificat d'adhésion",
+      "sub_limits": [
+        "En aucun cas notre prise en charge ne pourra être supérieure aux mensualités de remboursement dues à l'organisme prêteur.",
+        "toute mensualité de remboursement supérieure de deux fois à la précédente et la suivante sera prise en charge dans la limite du maximum des deux mensualités adjacentes"
+      ],
+      "deductible": "La période de franchise est indiquée au certificat d'adhésion ou aux conditions particulières. En cas d'I.T.T. successives résultant de la même cause que l'I.T.T. initialement indemnisée, vous plaçant à nouveau en état d'I.T.T. dans les 3 mois qui suivent la fin d'une précédente indemnisation, nous ne ferons pas à nouveau application de la franchise.",
+      "conditions": [
+        "Votre état d'I.T.T. peut être constaté par le médecin expert que nous mandatons selon la procédure prévue à l'article 5.6 « Droit d'enquête et expertise », sans suivre automatiquement les décisions de la Sécurité sociale ou autres organismes assimilés.",
+        "Incapacité de travail continue et excédant la période de franchise",
+        "Ne pas être retraité ou préretraité ayant définitivement cessé d'exercer sa profession",
+        "Les prestations cessent en cas de reprise totale ou partielle d'une activité, dès que l'état ne répond plus à la définition de la garantie, en cas de départ ou mise à la retraite/préretraite, et à la date de consolidation de l'état de santé."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Garantie en cas d'Invalidité Partielle ou Totale (I.P.T.)",
+      "description": "La garantie couvre également l'état d'I.P.T. dans les mêmes conditions. Cette invalidité est mesurée par les taux d'incapacité fixés par le médecin expert que nous mandatons. Le médecin expert établira un taux d'incapacité fonctionnelle en référence au dernier barème médical publié dans la revue « le concours médical », ainsi qu'un taux d'incapacité professionnelle fonction de la profession que vous exercez au moment du sinistre, sans intégrer les possibilités de reclassement dans une autre profession. La garantie I.P.T. intervient dès lors que votre taux d'incapacité fonctionnelle et votre taux d'incapacité professionnelle atteignent chacun au moins 33 %.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties s'exercent dans le monde entier.",
+      "limits": "dans la limite du montant garanti mentionné au certificat d'adhésion",
+      "sub_limits": [
+        "Si votre état justifie que ces deux taux soient chacun d'au moins 33 % et que l'un des deux taux est de moins de 50 %, nous prendrons en charge (n-33)/66 de la mensualité garantie, « n » étant le taux d'incapacité fonctionnelle.",
+        "Si ces deux taux sont chacun au moins égal à 50%, nous prendrons en charge l'intégralité de la mensualité garantie.",
+        "En aucun cas notre prise en charge ne pourra être supérieure aux mensualités de remboursement dues à l'organisme prêteur."
+      ],
+      "deductible": null,
+      "conditions": [
+        "Taux d'incapacité fonctionnelle et taux d'incapacité professionnelle chacun d'au moins 33 %",
+        "La date de consolidation doit survenir pendant la période de garantie.",
+        "Ne pas être retraité ou préretraité ayant définitivement cessé d'exercer sa profession"
+      ],
+      "page": 3
+    },
+    {
+      "name": "Prise en charge en cas de temps partiel thérapeutique",
+      "description": "En cas de reprise d'activité dans le cadre d'un temps partiel thérapeutique faisant suite à une I.T.T. indemnisée, nous verserons 50 % de la mensualité précédemment indemnisée pendant une durée maximum de 12 mois.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties s'exercent dans le monde entier.",
+      "limits": "50 % de la mensualité précédemment indemnisée pendant une durée maximum de 12 mois",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Reprise d'activité dans le cadre d'un temps partiel thérapeutique faisant suite à une I.T.T. indemnisée"
+      ],
+      "page": 4
+    },
+    {
+      "name": "Garantie d'Aide à la Famille",
+      "description": "La Garantie d'Aide à la Famille vous est automatiquement accordée si vous avez souscrit une garantie I.T.T. / I.P.T. et si votre prêt assuré concerne le financement de l'achat de votre résidence principale. Elle est déclenchée si vous cessez totalement ou partiellement votre activité professionnelle pour vous occuper de votre enfant mineur malade ou victime d'un accident de la vie, et si vous bénéficiez à ce titre de l'Allocation Journalière de Présence Parentale (AJPP) versée par la Caisse d'Allocations Familiales. Nous vous versons alors 50 % de la garantie souscrite en I.T.T., au prorata du nombre de jours pleins indemnisés au titre de l'AJPP.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties s'exercent dans le monde entier.",
+      "limits": "Notre indemnisation est limitée à 1500 € par mois et à 14 mois de prise en charge, renouvelable une fois si l'AJPP fait l'objet d'un renouvellement.",
+      "sub_limits": [
+        "50 % de la garantie souscrite en I.T.T., au prorata du nombre de jours pleins indemnisés au titre de l'AJPP",
+        "1500 € par mois",
+        "14 mois de prise en charge, renouvelable une fois"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Avoir souscrit une garantie I.T.T. / I.P.T.",
+        "Le prêt assuré concerne le financement de l'achat de la résidence principale",
+        "Bénéficier de l'Allocation Journalière de Présence Parentale (AJPP) versée par la Caisse d'Allocations Familiales",
+        "La reconnaissance médicale du handicap ou de la maladie, ou la survenance de l'accident, doit se situer pendant la période de garantie.",
+        "Cette indemnité ne peut pas être cumulée avec une autre prestation prévue au contrat de l'un des assurés."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Garantie Invalidité Spécifique de la Convention AERAS",
+      "description": "Comme le prévoit la Convention AERAS, si en raison de votre état de santé la garantie I.P.T. ne peut vous être accordée sans restriction, nous étudierons la possibilité de vous accorder la garantie Invalidité Spécifique de la Convention AERAS. Cette garantie vous couvre en cas d'inaptitude professionnelle permanente et consolidée et d'un taux d'incapacité fonctionnelle de 70 % minimum en référence au barème annexé au Code des pensions civiles et militaires. Dans l'hypothèse où cette garantie vous est proposée, les conditions de sa mise en jeu sont précisées dans les conditions particulières d'acceptation.",
+      "is_optional": true,
+      "territorial_scope": "Les garanties s'exercent dans le monde entier.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "La garantie I.P.T. ne peut être accordée sans restriction en raison de l'état de santé",
+        "Inaptitude professionnelle permanente et consolidée",
+        "Taux d'incapacité fonctionnelle de 70 % minimum en référence au barème annexé au Code des pensions civiles et militaires"
+      ],
+      "page": 2
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Suicide dans les douze mois suivant la prise d'effet des garanties",
+      "description": "Le suicide survenu durant les douze mois qui suivent la prise d'effet des garanties, sauf pour les prêts immobiliers accordés pour l'acquisition du logement principal, dans la limite de 120000 €.",
+      "applies_to": "all",
+      "page": 4
+    },
+    {
+      "name": "Risques nucléaires et radioactivité",
+      "description": "Les conséquences directes ou indirectes d'explosions, de dégagements de chaleur ou de l'irradiation provenant de la transmutation de noyaux d'atomes ou de la radioactivité.",
+      "applies_to": "all",
+      "page": 4
+    },
+    {
+      "name": "Guerres, émeutes, rixes et actes de terrorisme",
+      "description": "Les faits de guerres étrangères ou civiles, des participations actives de l'assuré à des émeutes, rixes, actes de terrorisme, étant précisé que les actes de légitime défense et assistance à personne en danger sont garantis.",
+      "applies_to": "all",
+      "page": 4
+    },
+    {
+      "name": "Accident ou maladie antérieur à l'émission du certificat d'adhésion",
+      "description": "Les suites et conséquences d'accident ou de maladie, dont la première constatation médicale est antérieure à la date d'émission du certificat d'adhésion, exceptées, le cas échéant : les suites et conséquences de maladies concernées par le droit à l'oubli à l'adhésion ; les affections déclarées par l'assuré, et non exclues dans les conditions particulières.",
+      "applies_to": "all",
+      "page": 4
+    },
+    {
+      "name": "Incapacité ou invalidité en cours à la prise d'effet des garanties",
+      "description": "Les situations d'incapacité de travail ou d'invalidité, totales ou partielles, en cours lors de la prise d'effet des garanties, ainsi que les suites et conséquences de l'événement à l'origine de cette situation.",
+      "applies_to": "all",
+      "page": 4
+    },
+    {
+      "name": "Risques aériens et sports aériens",
+      "description": "Les risques aériens sous forme de pratique de l'aile volante, du deltaplane, du parapente, du vol à voile, de l'aérostation du parachute (sauf si la situation critique de l'appareil l'exige) ou du saut à l'élastique, d'appareils ultra légers motorisés (ULM) ou de tout appareil non homologué, participation à des compétitions, raids, démonstrations acrobatiques, voltige, tentatives de records, exhibitions, vols d'essai ou vols en prototype.",
+      "applies_to": "all",
+      "page": 4
+    },
+    {
+      "name": "Fait volontaire, tentative de suicide ou mutilation volontaire",
+      "description": "Les sinistres qui sont le fait volontaire de l'assuré ou les conséquences de tentatives de suicide ou de mutilation volontaire.",
+      "applies_to": "Garanties P.T.I.A., I.T.T. et I.P.T.",
+      "page": 4
+    },
+    {
+      "name": "Participation à un délit intentionnel ou à un crime",
+      "description": "Les accidents résultant de la participation de l'assuré à un délit intentionnel ou à un crime.",
+      "applies_to": "Garanties P.T.I.A., I.T.T. et I.P.T.",
+      "page": 4
+    },
+    {
+      "name": "Sports pratiqués à titre professionnel ou sponsorisé",
+      "description": "Les accidents résultant de la pratique de sports à titre professionnel ou sponsorisée sauf si ces sports ont été déclarés à l'adhésion et couverts par des conditions particulières.",
+      "applies_to": "Garanties P.T.I.A., I.T.T. et I.P.T.",
+      "page": 4
+    },
+    {
+      "name": "Affections discales, vertébrales, paravertébrales et radiculaires",
+      "description": "Les suites et conséquences des affections ou atteintes discales et/ou vertébrales, et/ou paravertébrales et/ou radiculaires suivantes : cervicalgies, dorsalgies, lombalgies, douleurs sacrées, radiculalgies (névralgies cervico-brachiales, sciatalgies, cruralgies), hernies discales, hernies cervicales, spondylolisthésis, discopathies, canal lombaire étroit, arthrose rachidienne, coccygodynies, syndrome de la queue de cheval, sauf si ces affections ou atteintes ont nécessité une intervention chirurgicale ou si elles s'accompagnent d'une fracture ou si elles sont causées par une tumeur. En cas d'intervention chirurgicale, la franchise court à compter du jour de l'intervention.",
+      "applies_to": "Garanties I.T.T. et I.P.T.",
+      "page": 4
+    },
+    {
+      "name": "Affections psychiques ou psychiatriques",
+      "description": "Les suites et conséquences des affections psychiques ou psychiatriques suivantes : troubles et/ou états et/ou syndromes dépressifs, anxieux ou anxio-dépressifs, troubles de l'humeur ou de l'adaptation, psychoses, névroses, troubles bipolaires, troubles de la personnalité, troubles du comportement y compris alimentaire, burn-out, syndrome d'épuisement, stress post-traumatiques, fibromyalgie, syndrome de fatigue chronique, syndrome polyalgique idiopathique diffus, sauf si ces affections donnent lieu à une hospitalisation continue d'au moins 9 jours. La franchise court alors à compter du premier jour d'hospitalisation.",
+      "applies_to": "Garanties I.T.T. et I.P.T.",
+      "page": 4
+    },
+    {
+      "name": "Congé légal de maternité",
+      "description": "Les prestations I.T.T. cessent pendant le congé légal de maternité. Les I.T.T. ayant une cause médicale, survenues pendant la grossesse, sont prises en charge après application de la franchise jusqu'au congé légal de maternité. Les I.T.T. ayant une cause médicale, survenues à la suite d'un accouchement et pendant le congé légal de maternité, sont prises en charge à l'issue du congé légal et après application de la franchise à compter du dernier jour de ce congé légal.",
+      "applies_to": "Garantie I.T.T.",
+      "page": 4
+    },
+    {
+      "name": "Remboursement anticipé du capital emprunté",
+      "description": "Un remboursement total ou partiel du capital emprunté, anticipé ou non, autre que l'amortissement régulier déclaré, n'est pas pris en charge dans le cadre de la garantie I.T.T. et I.P.T. Ainsi, toute mensualité de remboursement supérieure de deux fois à la précédente et la suivante sera prise en charge dans la limite du maximum des deux mensualités adjacentes. En particulier, pour les prêts in fine ou relais, la garantie n'inclut pas la prise en charge de la dernière échéance (remboursement du capital).",
+      "applies_to": "Garanties I.T.T. et I.P.T.",
+      "page": 4
+    },
+    {
+      "name": "Non-prise d'effet des garanties : offre de prêt non suivie dans les 6 mois",
+      "description": "Les garanties ne prennent pas effet si vous ne donnez pas suite à l'offre de prêt dans un délai de 6 mois à compter de la date d'émission du certificat d'adhésion. Après constatation des éléments ayant empêché la prise d'effet des garanties, nous vous rembourserons les cotisations prélevées. Aucun sinistre ne pourra être indemnisé.",
+      "applies_to": "all",
+      "page": 2
+    },
+    {
+      "name": "Non-prise d'effet des garanties : substitution d'assurance sans avenant",
+      "description": "Les garanties ne prennent pas effet en cas de substitution d'assurance, si, après accord de la banque relatif à la substitution, vous ne signez pas d'avenant à l'offre de prêt et que l'assurance précédente reste en vigueur. Après constatation des éléments ayant empêché la prise d'effet des garanties, nous vous rembourserons les cotisations prélevées. Aucun sinistre ne pourra être indemnisé.",
+      "applies_to": "all",
+      "page": 2
+    },
+    {
+      "name": "Professions non déclarées à l'adhésion",
+      "description": "À défaut de déclaration, les personnes exerçant ces professions et ne l'ayant pas déclaré ne peuvent pas être assurées par le contrat. Professions concernées : professions du secteur pétrolier avec activités on ou off-shore ; professions avec activités en mer, sur les chantiers navals, dockers ; professions avec manipulation ou transport de produits dangereux (explosifs, corrosifs, inflammables, radioactifs, toxiques, chimiques, biologiques, bactériologiques, génétiques), hors personnel de laboratoires d'analyses médicales ; professions exercées à l'extérieur de bâtiments à une hauteur supérieure à 20 mètres (grutiers, travail sur échafaudage…) ; sportifs professionnels, encadrants professionnels d'activités sportives en dehors des établissements scolaires ou universitaires ; professions de secours, sécurité, surveillance, maintien de l'ordre, militaire, convoyeurs de fonds, professions avec port ou manipulation d'armes, pompiers (hors pompiers volontaires) ; professions du cirque, artistes de cinéma ou de télévision, intermittents du spectacle ; professions relatives au travail de la mine, travail souterrain ou en galerie, spéléologues ; professions de pilotage aérien, hors pilotes de lignes régulières de compagnies de transport de passagers situées dans l'OCDE.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Prestations non dues en cas de refus d'expertise",
+      "description": "Les prestations ne sont pas dues si vous refusez de vous soumettre à l'expertise, si vous refusez de remettre les informations nécessaires à l'expert pour la conduite de sa mission, ou si l'expertise révèle que les conditions prévues par le contrat et les garanties ne sont pas ou plus réunies. Le cas échéant, le remboursement des prestations déjà versées peut vous être demandé.",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Déchéance de garantie en cas de fraude",
+      "description": "Toute réticence non justifiée à un contrôle, à une expertise médicale ou toute déclaration intentionnellement fausse lors du sinistre, de votre part ou de celle de vos ayants droit, de même que la production de documents inexacts ou mensongers quant à votre état civil, la date, les circonstances, les origines du décès, de la P.T.I.A., de l'I.P.T. ou de l'I.T.T. , l'état de vos prêts, ou à vos antériorités de santé font perdre tout droit à prestations pour le sinistre déclaré et peuvent entraîner votre exclusion et la fin du contrat à effet du jour de la première fausse déclaration.",
+      "applies_to": "all",
+      "page": 2
+    },
+    {
+      "name": "Limites de périmètre de l'équivalence de garanties",
+      "description": "L'équivalence de garanties est accordée dans la limite des exclusions communes à toutes les garanties mentionnées au 2.6. Elle ne concerne pas les adhésions relatives à des prêts en cours non assurés au jour de la souscription, ni les prêts pour lesquels la banque n'a pas formulé d'exigence d'assurance. Elle ne s'applique pas aux prêts souscrits auprès d'organismes prêteurs non référencés au registre Banque de France (notamment 1 % logement, prêt patronal, prêt des collectivités locales).",
+      "applies_to": "Équivalence de garanties",
+      "page": 4
+    },
+    {
+      "name": "Cessation des prestations I.T.T. et I.P.T.",
+      "description": "Les prestations en cas d'I.T.T. et d'I.P.T. cessent d'être versées en cas de reprise totale ou partielle d'une activité. Elles cessent également dès que votre état ne répond plus à la définition de la garantie. Les prestations cessent également en cas de départ ou mise à la retraite/préretraite, et au plus tard à l'âge où vous avez atteint les conditions fixées par la loi pour l'acquisition de la retraite à taux plein. Les prestations en cas d'I.T.T. cessent d'être versées à la date de consolidation de votre état de santé, date à partir de laquelle nous étudierons vos droits à prise en charge au titre de la garantie I.P.T.",
+      "applies_to": "Garanties I.T.T. et I.P.T.",
+      "page": 4
+    }
+  ],
+  "deductibles": {
+    "standard": "Franchise : période d'incapacité de travail continue non prise en charge par le contrat. L'indemnisation de l'assureur débute à l'issue de cette période. La période de franchise est indiquée au certificat d'adhésion ou aux conditions particulières.",
+    "variable": null,
+    "per_coverage": {
+      "Garantie en cas d'Incapacité Temporaire Totale de Travail (I.T.T.)": "Période de franchise indiquée au certificat d'adhésion. En cas d'I.T.T. successives résultant de la même cause dans les 3 mois qui suivent la fin d'une précédente indemnisation, la franchise n'est pas à nouveau appliquée.",
+      "Affections discales et vertébrales (I.T.T. / I.P.T.)": "En cas d'intervention chirurgicale, la franchise court à compter du jour de l'intervention.",
+      "Affections psychiques ou psychiatriques (I.T.T. / I.P.T.)": "La franchise court à compter du premier jour d'hospitalisation, sous réserve d'une hospitalisation continue d'au moins 9 jours."
+    },
+    "page": 1
+  },
+  "waiting_periods": [
+    {
+      "coverage": "Garantie en cas d'Incapacité Temporaire Totale de Travail (I.T.T.)",
+      "duration": "Période de franchise indiquée au certificat d'adhésion ou aux conditions particulières",
+      "description": "Franchise : période d'incapacité de travail continue non prise en charge par le contrat. L'indemnisation de l'assureur débute à l'issue de cette période. La période de franchise est indiquée au certificat d'adhésion ou aux conditions particulières.",
+      "page": 1
+    },
+    {
+      "coverage": "Garantie en cas de décès",
+      "duration": "douze mois",
+      "description": "Le suicide survenu durant les douze mois qui suivent la prise d'effet des garanties est exclu, sauf pour les prêts immobiliers accordés pour l'acquisition du logement principal, dans la limite de 120000 €.",
+      "page": 4
+    },
+    {
+      "coverage": "Garantie en cas d'Incapacité Temporaire Totale de Travail (I.T.T.)",
+      "duration": "3 mois",
+      "description": "En cas d'I.T.T. successives résultant de la même cause que l'I.T.T. initialement indemnisée, vous plaçant à nouveau en état d'I.T.T. dans les 3 mois qui suivent la fin d'une précédente indemnisation, nous ne ferons pas à nouveau application de la franchise.",
+      "page": 3
+    },
+    {
+      "coverage": "Garanties I.T.T. et I.P.T. — affections discales et vertébrales",
+      "duration": "La franchise court à compter du jour de l'intervention chirurgicale",
+      "description": "En cas d'intervention chirurgicale, la franchise court à compter du jour de l'intervention.",
+      "page": 4
+    },
+    {
+      "coverage": "Garanties I.T.T. et I.P.T. — affections psychiques ou psychiatriques",
+      "duration": "hospitalisation continue d'au moins 9 jours ; la franchise court à compter du premier jour d'hospitalisation",
+      "description": "Ces affections sont exclues sauf si elles donnent lieu à une hospitalisation continue d'au moins 9 jours. La franchise court alors à compter du premier jour d'hospitalisation.",
+      "page": 4
+    }
+  ],
+  "obligations": [
+    {
+      "name": "Déclarations sincères, complètes et exactes à la souscription",
+      "description": "Toutes vos déclarations concernant votre état civil, l'objet et la description de vos prêts assurés, vos encours de crédits assurés, vos risques tels que décrits dans la demande d'adhésion et le formulaire de déclaration des risques, le cas échéant votre état de santé et antécédents médicaux, servent de base à l'assurance. Ces déclarations doivent être sincères, complètes et exactes. Les documents qui vous sont demandés à l'appui de vos déclarations doivent également être authentiques.",
+      "timing": "À la souscription",
+      "sanction": "La nullité du contrat pourra être soulevée, conformément à l'article L. 221-14 du Code de la mutualité, en cas de réticence ou de fausse déclaration (y compris documentaire) intentionnelle. Le contrat sera considéré comme n'ayant jamais existé : vous ne percevrez aucune prestation en cas de sinistre et nous conserverons les cotisations versées à titre de dommages et intérêts. En cas de constatation d'une omission ou déclaration inexacte non intentionnelle à l'occasion d'un sinistre, les prestations pourront être réduites conformément à l'article L. 221-15 du Code de la mutualité.",
+      "page": 2
+    },
+    {
+      "name": "Signaler toute évolution de situation avant l'émission du certificat d'adhésion",
+      "description": "En cas d'évolution de votre situation déclarée avant l'émission du certificat d'adhésion, modifiant vos réponses à la demande d'adhésion, au questionnaire de santé ou, le cas échéant, au questionnaire de risques, vous devez nous le signaler.",
+      "timing": "Avant l'émission du certificat d'adhésion",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Compléter la demande d'adhésion et le questionnaire de déclaration des risques",
+      "description": "Lors de la souscription, vous devez compléter une demande d'adhésion et répondre au questionnaire de déclaration des risques, et fournir les informations financières éventuellement demandées. Sauf exceptions prévues par la législation en vigueur, vous devrez renseigner un questionnaire de santé et vous soumettre, le cas échéant, aux examens médicaux et informations médicales nécessaires à notre appréciation du risque.",
+      "timing": "À la souscription",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Déclarer tout événement susceptible de mettre en jeu les garanties",
+      "description": "Sous peine de suspension des garanties, vous devez nous déclarer et nous adresser, dans les délais que nous fixons, tout événement susceptible de mettre en jeu les garanties du contrat ainsi que les justificatifs nécessaires au traitement de votre sinistre.",
+      "timing": "En cas de sinistre",
+      "sanction": "Suspension des garanties",
+      "page": 5
+    },
+    {
+      "name": "Déclarer toute incapacité de travail entre le 91ème et le 120ème jour",
+      "description": "Vous devez nous déclarer toute incapacité de travail à compter du 91ème jour d'incapacité de travail et au plus tard le 120ème jour.",
+      "timing": "En cas d'incapacité de travail",
+      "sanction": "Passé ce délai, si nous subissons un préjudice lié à ce retard, la prise en charge n'interviendra qu'à compter de la date de déclaration.",
+      "page": 5
+    },
+    {
+      "name": "Déclarer toute prolongation d'incapacité de travail dans les 30 jours",
+      "description": "De même, vous devez nous déclarer toute prolongation d'incapacité de travail dans les 30 jours.",
+      "timing": "En cours de sinistre",
+      "sanction": null,
+      "page": 5
+    },
+    {
+      "name": "Informer de toute modification des caractéristiques du prêt",
+      "description": "Vous devez nous informer de toute modification des caractéristiques du prêt en cours de contrat à votre initiative (hors toute évolution mécanique prévue à l'offre de prêt d'ores et déjà systématiquement couverte) telle qu'un remboursement anticipé partiel, une renégociation de taux, une modification de la durée du prêt et des remboursements.",
+      "timing": "En cours de contrat",
+      "sanction": "Si cette information intervient dans les 3 mois suivant la modification et qu'elle génère une baisse des cotisations d'assurance, une régularisation des cotisations trop perçues sera intégrée à votre avenant. Au-delà, aucune régularisation au titre du passé ne pourra être exigée.",
+      "page": 6
+    },
+    {
+      "name": "Informer de tout prolongement d'un prêt à taux variable",
+      "description": "Pour les prêts à taux variable dont la durée s'ajuste automatiquement aux évolutions de taux, vous devez nous informer avant la fin du prélèvement de vos cotisations d'assurance de tout prolongement de votre prêt.",
+      "timing": "Avant la fin du prélèvement des cotisations",
+      "sanction": "Un prolongement d'assurance vous sera alors automatiquement proposé pour s'adapter à la durée effective de votre prêt.",
+      "page": 6
+    },
+    {
+      "name": "Signaler tout déblocage de fonds excédant 36 mois",
+      "description": "Vos garanties intègrent la possibilité d'un déblocage de fonds différé d'un maximum de 36 mois à compter de la signature de l'offre de prêt. Si vos déblocages excèdent cette durée maximum prévue, vous êtes tenu de nous le signaler pour que nous l'intégrions par avenant dans la durée de votre contrat d'assurance et dans vos cotisations.",
+      "timing": "En cours de contrat",
+      "sanction": "A défaut, vos garanties seront limitées aux prêts décrits dans votre certificat d'adhésion.",
+      "page": 3
+    },
+    {
+      "name": "Se soumettre à l'expertise médicale",
+      "description": "Nous pouvons faire procéder à tout moment par un médecin à une expertise médicale relative à la demande ou au maintien des prestations. L'expertise médicale entraîne la suspension de tout règlement.",
+      "timing": "En cas de sinistre",
+      "sanction": "Les prestations ne sont pas dues si vous refusez de vous soumettre à l'expertise, si vous refusez de remettre les informations nécessaires à l'expert pour la conduite de sa mission, ou si l'expertise révèle que les conditions prévues par le contrat et les garanties ne sont pas ou plus réunies.",
+      "page": 5
+    },
+    {
+      "name": "Élire domicile en France métropolitaine pour un sinistre survenu hors de France métropolitaine",
+      "description": "En cas de sinistre survenu hors de France métropolitaine, vous êtes tenu de faire élection de votre domicile en France métropolitaine pour toute constatation d'ordre médical ou pour toute action judiciaire survenant à l'occasion d'un sinistre.",
+      "timing": "En cas de sinistre",
+      "sanction": null,
+      "page": 5
+    },
+    {
+      "name": "Payer les cotisations",
+      "description": "À défaut de paiement d'une cotisation ou d'une fraction de cotisation dans un délai de 10 jours suivant la date d'échéance de son prélèvement, nous vous adressons, à votre dernier domicile connu, une lettre recommandée vous informant que le contrat sera résilié dans un délai de 40 jours après la notification de cette lettre si la cotisation est toujours impayée à l'issue de ce délai (article L. 221-8 du Code de la mutualité).",
+      "timing": "Pendant toute la durée du contrat",
+      "sanction": "Résiliation du contrat ; vous resterez alors débiteur des cotisations dues et des frais liés à la gestion de ces impayés.",
+      "page": 5
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclarer le sinistre",
+      "description": "Sous peine de suspension des garanties, vous devez nous déclarer et nous adresser, dans les délais que nous fixons, tout événement susceptible de mettre en jeu les garanties du contrat ainsi que les justificatifs nécessaires au traitement de votre sinistre.",
+      "deadline": "Dans les délais que nous fixons",
+      "page": 5
+    },
+    {
+      "step": "Versement des prestations",
+      "description": "Une fois le dossier complet, le versement des prestations sera effectué dans un délai maximum de 30 jours.",
+      "deadline": "30 jours maximum",
+      "page": 5
+    },
+    {
+      "step": "Formalités administratives pour l'ensemble des sinistres",
+      "description": "En cas de sinistre, les pièces nécessaires à l'instruction du dossier sont les suivantes : un justificatif d'identité ; le tableau d'amortissement actualisé des prêts au jour du sinistre ; l'offre de prêt initiale du financement ; l'avenant bancaire de substitution, le cas échéant.",
+      "deadline": null,
+      "page": 5
+    },
+    {
+      "step": "Formalités en cas de décès",
+      "description": "Les sommes dues sont versées au bénéficiaire du contrat désigné au certificat d'adhésion après réception des justificatifs nécessaires à l'instruction du dossier, sur les circonstances du décès et ses causes : un extrait d'acte de décès ; un certificat médical indiquant la nature du décès et autres précisions nécessaires demandées ; l'intégralité du procès-verbal de police ou de gendarmerie en cas de décès accidentel ; les pièces nécessaires demandées pour justifier des circonstances du décès et des antériorités médicales.",
+      "deadline": null,
+      "page": 5
+    },
+    {
+      "step": "Formalités en cas de Perte Totale et Irréversible d'Autonomie",
+      "description": "Les sommes dues sont versées sur présentation : des documents établissant la reconnaissance de la P.T.I.A. par votre régime de base, tels que mentionnés au 2.2, ainsi que du versement de la rente correspondante ; les pièces médicales demandées pour évaluer votre situation ainsi que les éventuelles antériorités.",
+      "deadline": null,
+      "page": 5
+    },
+    {
+      "step": "Formalités en cas d'I.T.T. ou d'I.P.T.",
+      "description": "Vous devez nous déclarer toute incapacité de travail à compter du 91ème jour d'incapacité de travail et au plus tard le 120ème jour. Les sommes dues sont versées après instruction du dossier sur présentation des pièces suivantes : un questionnaire d'incapacité de travail, complété et signé par vos soins ; un certificat médical de votre médecin traitant répondant exhaustivement aux questions que nous vous poserons ; les pièces justificatives des causes médicales de l'incapacité de travail et éventuellement de l'hospitalisation, ainsi que les traitements suivis ; les pièces justificatives des périodes d'incapacité ou d'invalidité (arrêts de travail volet 1, attestation de congés de longue maladie, indemnités journalières, décomptes d'invalidité, attestations employeur) ; le procès-verbal de police ou de gendarmerie en cas d'accident. Les pièces émanant de la Sécurité sociale ou organismes similaires ne nous engagent pas.",
+      "deadline": "À compter du 91ème jour d'incapacité de travail et au plus tard le 120ème jour ; toute prolongation dans les 30 jours",
+      "page": 5
+    },
+    {
+      "step": "Formalités pour l'Aide à la Famille",
+      "description": "Les sommes dues sont versées après instruction du dossier sur présentation des pièces suivantes : le relevé de versement de l'AJPP ; toute pièce nécessaire à établir la reconnaissance de l'état de santé de votre enfant et la date de cette reconnaissance.",
+      "deadline": null,
+      "page": 5
+    },
+    {
+      "step": "Droit d'enquête et expertise",
+      "description": "Nous pouvons faire procéder à tout moment par un médecin à une expertise médicale relative à la demande ou au maintien des prestations. Ainsi, votre état d'incapacité ou d'invalidité est constaté par expertise médicale en dehors de toute considération du régime obligatoire auquel vous êtes affilié. De même, nous pouvons diligenter une enquête pour déterminer les origines du décès de l'assuré. L'expertise médicale entraîne la suspension de tout règlement.",
+      "deadline": null,
+      "page": 5
+    },
+    {
+      "step": "Expertise médicale arbitrale amiable",
+      "description": "En cas de désaccord de l'assuré ou des ayants droit sur les conclusions du médecin-expert que nous avons mandaté, ce ou ces derniers désigne(nt) un médecin pour donner son avis. Une expertise commune est alors organisée. Si les médecins désignés ne sont pas d'accord, ils s'en adjoignent un troisième. Les trois médecins opèrent en commun à la majorité des voix. À défaut d'entente entre les médecins pour en désigner un troisième, celui-ci sera choisi, à la requête la plus diligente, par le président du Tribunal Judiciaire du domicile déclaré de l'assuré ou son domicile élu ; l'autre partie ayant été convoquée par lettre recommandée. Chacune des parties supporte les honoraires et frais du médecin qu'elle a désigné et supportera par moitié ceux du troisième. Le versement des prestations est suspendu jusqu'à la conclusion finale de l'expertise amiable.",
+      "deadline": null,
+      "page": 5
+    },
+    {
+      "step": "Expertise judiciaire",
+      "description": "Le recours à la voie judiciaire pour le règlement des prestations est possible dès que survient un différend entre l'assuré et le médecin-conseil. Ce recours est également ouvert si, à l'issue de l'expertise amiable, une des parties est en désaccord avec l'avis du médecin-expert.",
+      "deadline": null,
+      "page": 6
+    },
+    {
+      "step": "Réclamation",
+      "description": "En cas de demande d'informations ou de précisions sur les clauses ou conditions d'application de votre contrat, vous devez vous adresser par courrier au service Gestion, SECURIMUT, 222 cours Lafayette 69441 Lyon Cedex 03 ou par mail à gestion@securimut.fr. En cas d'insatisfaction, vous pouvez adresser votre réclamation à notre service Réclamation, à la même adresse postale ou par mail à reclamation@securimut.fr. SECURIMUT s'engage à accuser réception de votre réclamation dans les 10 jours ouvrables de sa réception. Une réponse définitive vous sera apportée dans un délai maximum de 2 mois.",
+      "deadline": "Accusé de réception dans les 10 jours ouvrables ; réponse définitive dans un délai maximum de 2 mois",
+      "page": 6
+    },
+    {
+      "step": "Médiation",
+      "description": "Si votre mécontentement persiste après épuisement de la procédure interne de réclamation ou à l'issue du délai réglementaire de deux mois, vous avez la faculté de faire appel à La Médiation de l'Assurance (LMA), sans préjudice des autres voies d'actions légales. La saisine de la Médiation s'effectue par voie électronique, en complétant le formulaire disponible sur le site internet www.mediation-assurance.org, ou par courrier à La Médiation de l'Assurance - TSA 50110 - 75441 Paris cedex 09.",
+      "deadline": "Votre saisine de la Médiation doit intervenir dans un délai maximum d'un an à compter de votre réclamation écrite auprès de nos services.",
+      "page": 6
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Votre contrat est souscrit pour toute la durée des prêts, sous réserve des dispositions de l'article 1.9 « Cessation des garanties ». Vos garanties prennent effet à la plus tardive des dates suivantes : la date d'effet mentionnée au certificat d'adhésion ; le jour de la signature de l'offre de prêt. Vos garanties intègrent la possibilité d'un déblocage de fonds différé d'un maximum de 36 mois à compter de la signature de l'offre de prêt.",
+    "tacit_renewal": null,
+    "notice_period": "La résiliation prend effet au plus tôt 10 jours après la réception de ces documents, ou à la date d'effet du contrat d'assurance accepté par le prêteur en substitution si cette date est plus tardive.",
+    "methods": [
+      "Courrier recommandé physique ou électronique aux coordonnées figurant en préambule, accompagné de l'accord écrit de l'établissement prêteur",
+      "Au travers de votre espace personnel en ligne dédié"
+    ],
+    "special_rights": [
+      "Renonciation : à compter du prélèvement de votre première cotisation d'assurance, vous disposez d'un délai de trente jours calendaires pour revenir sur votre décision. La cotisation versée vous est alors remboursée dans un délai maximum de 30 jours calendaires à compter de la réception de votre demande et le bénéficiaire en est informé.",
+      "Résiliation à tout moment à compter de la signature du contrat, sur demande du sociétaire accompagnée de l'accord écrit de l'établissement prêteur",
+      "Cessation au terme du prêt si le prêt assuré a été entièrement remboursé, de façon anticipée ou non, et au plus tard à la date de fin prévue au certificat d'adhésion",
+      "Cessation au jour de la déchéance du terme prononcé par l'organisme prêteur entraînant l'exigibilité du prêt avant terme",
+      "Cessation en cas de non-paiement des cotisations au terme de la procédure prévue à l'article 4.2",
+      "Cessation à l'âge limite de chaque garantie : au jour de la liquidation de vos droits à la retraite ou préretraite y compris pour raison médicale ou inaptitude, et au plus tard à l'âge auquel vous atteignez les conditions fixées par la loi pour l'acquisition d'une retraite à taux plein du régime général pour les garanties I.T.T., I.P.T. ; au 85ème anniversaire pour la garantie décès"
+    ],
+    "page": 3
+  },
+  "prescription_period": {
+    "description": "Toute action liée à l'exécution du présent contrat est prescrite dans un délai de 2 ans à compter de l'événement qui y donne naissance. La prescription est portée à : 5 ans lorsque l'action a pour origine un arrêt de travail ; 10 ans lorsque l'action a pour origine votre décès et est exercée par le bénéficiaire. Toutefois, le délai de prescription ne court qu'à compter du jour où le bénéficiaire a eu connaissance du sinistre, s'il prouve qu'il l'a ignoré jusque-là. De même, le délai ne court, en cas de réticence, omission, déclaration fausse ou inexacte sur le risque couru, de votre part, que du jour où nous en avons eu connaissance. La prescription peut être interrompue par : une des clauses ordinaires d'interruption prévues par les articles 2240 et suivants du Code civil (demande en justice, reconnaissance par le débiteur du droit de l'autre partie, mesure conservatoire ou acte d'exécution forcée) ; la désignation d'un expert ; la saisine du médiateur ; l'envoi d'une lettre recommandée ou d'un envoi recommandé électronique avec accusé de réception adressé par l'assureur au sociétaire et ayant pour objet le paiement de la cotisation ou adressé par le sociétaire ou ses ayants droit à l'assureur et ayant pour objet le règlement de l'indemnité.",
+    "page": 6
+  },
+  "premium": {
+    "notes": [
+      "La cotisation est fixée en fonction de la date de souscription, de votre âge à cette date, de votre activité professionnelle, de ses conditions d'exercice, de votre qualité de fumeur ou non-fumeur, des risques spécifiques déclarés, des caractéristiques des prêts et de vos encours, et des quotités retenues.",
+      "L'âge est déterminé par différence exacte entre la date de tarification et votre date de naissance. En cas d'erreur dans l'indication de votre date de naissance, l'ajustement nécessaire sera fait conformément à l'article L. 223-25 du Code de la mutualité.",
+      "Le montant de la cotisation, sa durée et son échéance de prélèvement figurent au certificat d'adhésion.",
+      "Ces cotisations sont définies pour la durée totale du contrat et ne peuvent être aménagées que lors d'une demande de modification de votre part (selon article 6.1) ou d'une évolution relative aux taxes en vigueur.",
+      "À défaut de paiement d'une cotisation ou d'une fraction de cotisation dans un délai de 10 jours suivant la date d'échéance de son prélèvement, nous vous adressons, à votre dernier domicile connu, une lettre recommandée vous informant que le contrat sera résilié dans un délai de 40 jours après la notification de cette lettre si la cotisation est toujours impayée à l'issue de ce délai (article L. 221-8 du Code de la mutualité).",
+      "L'organisme prêteur en sera informé et pourra, s'il le souhaite, nous demander de maintenir le contrat en vigueur en se substituant à vous pour le paiement des cotisations."
+    ],
+    "indexation": null,
+    "page": 5
+  },
+  "special_conditions": [
+    {
+      "name": "Objet du contrat",
+      "description": "Le contrat Garantie Emprunteur Macif vous permet de souscrire, dans le cadre de prêts immobiliers ou professionnels contractés auprès d'un organisme prêteur, une garantie en cas de décès, de perte totale et irréversible d'autonomie (P.T.I.A.), d'incapacité temporaire totale de travail (I.T.T.) et d'invalidité partielle ou totale de travail (I.P.T.).",
+      "page": 1
+    },
+    {
+      "name": "Personnes assurables (1.1)",
+      "description": "Vous devez au moment de la souscription : être âgé de plus de 18 ans et de moins de 85 ans pour la garantie décès, de moins de 65 ans pour les garanties I.T.T., I.P.T. et P.T.I.A. ; ne pas être retraité ou préretraité ayant définitivement cessé d'exercer votre profession pour les garanties I.T.T. et I.P.T. ; résider en France métropolitaine, dans les DROM, dans l'Union Européenne, en Suisse, ou à Saint-Pierre-et-Miquelon ; avoir contracté un emprunt libellé en euros et rédigé en français, auprès d'un organisme prêteur situé en France, y compris dans les DROM et à Saint-Pierre-et-Miquelon, dans l'Union Européenne ou en Suisse ; ou être caution personne physique d'un tel emprunt, ou être caution en tant que dirigeant d'une personne morale emprunteuse, et être mentionnée comme telle dans l'offre de prêt ; ne pas exercer les professions listées à l'adhésion. Néanmoins, si vous déclarez l'exercice de l'une de ces professions, vous pourrez faire l'objet d'une étude spécifique d'acceptation.",
+      "page": 1
+    },
+    {
+      "name": "Prêts assurables (1.2)",
+      "description": "Le contrat couvre les prêts immobiliers ou professionnels, d'une durée restante maximale de 40 ans avec les modalités d'amortissement suivantes : prêts amortissables à taux fixe ou à taux variable ; prêts modulables ou à échéance modulable ; prêts avec différé d'amortissement, avec remboursement ou non des intérêts pendant le différé, prêts in fine ; prêts à taux 0 % ; prêts à paliers ; prêts à remboursements progressifs.",
+      "page": 2
+    },
+    {
+      "name": "Modalités de souscription (1.3)",
+      "description": "Votre adhésion est conditionnée à notre acceptation du risque. Nous pouvons accepter les garanties, avec ou sans restriction ou majoration de cotisations, les refuser ou les ajourner. En cas d'acceptation, nous vous fournirons un devis contractuel ainsi, qu'en cas d'acceptation avec restrictions ou rachat de garanties, des conditions particulières remises dans un délai maximum de 10 jours ouvrés après la réception de vos formalités complètes. Notre décision est valable 4 mois. En cas de formalités médicales, sur présentation des factures, et dans la limite des sommes mentionnées dans notre demande de formalités, nous prenons en charge les frais des examens médicaux demandés, excepté en cas de refus ou de renonciation de votre part de souscrire la proposition sans restriction. Nous remboursons ces frais dans les 30 jours suivant la réception de la facture et de notre décision restrictive ou de l'expiration du délai de renonciation.",
+      "page": 2
+    },
+    {
+      "name": "Convention AERAS — écrêtement, 3ème niveau d'étude, grille de référence, droit à l'oubli (1.4)",
+      "description": "Un dispositif d'écrêtement des surprimes médicales est prévu par la convention AERAS. Si vous êtes susceptible d'être éligible, nous vous en informerons et solliciterons les justificatifs nécessaires à sa mise en œuvre. En cas de refus d'assurance suite à deux niveaux d'étude différents dans le cadre de votre demande d'adhésion, et si vous y êtes éligible, nous saisirons automatiquement le 3ème niveau d'étude de la convention AERAS. Enfin, la grille de référence AERAS sera automatiquement appliquée à votre dossier le cas échéant, de même que le Droit à l'oubli si vous avez déclaré un antécédent couvert par ce droit.",
+      "page": 2
+    },
+    {
+      "name": "Co-emprunteurs assurés et cautions (2.5)",
+      "description": "En cas de décès, de P.T.I.A., d'I.T.T. ou d'I.P.T. de plusieurs co-emprunteurs et/ou cautions assuré(e)s, le montant total des prestations servies au titre d'un même prêt ne peut excéder le montant des sommes dues à l'organisme prêteur pour la même période. Pour ce qui concerne les cautions, en cas d'I.T.T. ou d'I.P.T., le montant des prestations n'est servi que dans la mesure où la caution a été appelée en garantie et a effectué des paiements à l'organisme prêteur au cours des 3 mois précédant la date de survenance de l'incapacité de travail et tant que le débiteur principal reste insolvable.",
+      "page": 4
+    },
+    {
+      "name": "Exclusions rachetables (2.6)",
+      "description": "Certaines exclusions répertoriées ci-dessus peuvent être assurées, moyennant des conditions spécifiques. Dans ce cas, des conditions particulières stipulent expressément cette prise en charge.",
+      "page": 4
+    },
+    {
+      "name": "Équivalence de garanties (3)",
+      "description": "Pour faciliter l'acceptation du contrat par l'établissement prêteur, et satisfaire à ses exigences d'équivalence de garanties, nous nous engageons à vous faire bénéficier, dans la limite des garanties, quotités et franchises mentionnées au certificat d'adhésion, et le cas échéant des conditions particulières, des dispositions les plus favorables entre la présente note d'information et la note d'information ou les conditions générales : du contrat standard bancaire en vigueur en cas de nouveau prêt à assurer ; du contrat standard distribué par l'établissement prêteur au moment de la souscription de votre crédit, si vous êtes déjà assuré pour un prêt en cours.",
+      "page": 4
+    },
+    {
+      "name": "Modification du plan d'amortissement pendant un sinistre",
+      "description": "Pendant ou à la suite d'une période d'I.T.T. ou d'I.P.T., aucune modification du plan d'amortissement du prêt ne peut nous être imposée dès lors qu'elle conduirait à accroître notre prise en charge par rapport à la situation préalable à cette modification.",
+      "page": 3
+    },
+    {
+      "name": "Modifications en cours de contrat (6.1)",
+      "description": "Modifications de la situation de l'assuré : aucune modification de votre situation en cours de contrat ne nécessite de déclaration. Modification des garanties : aucune diminution des quotités ou des garanties demandée par le sociétaire ne pourra être effectuée sans le consentement de l'organisme prêteur. En cas d'accord, un avenant au certificat d'adhésion sera établi, fixant les nouvelles conditions de tarif et de garanties du contrat. En cas d'augmentation des quotités ou des garanties en cours de contrat, l'assuré concerné devra satisfaire à une nouvelle souscription.",
+      "page": 6
+    },
+    {
+      "name": "Sanction pénale de la fausse déclaration",
+      "description": "Toute déclaration intentionnellement fausse de votre part ou de vos ayants droit, ainsi que la production de documents inexacts ou mensongers constituent un délit passible de sanctions prévues à l'article L313-1 du Code pénal (5 ans d'emprisonnement et 375 000 € d'amende).",
+      "page": 2
+    },
+    {
+      "name": "Pondération par la quotité et prêts à taux variable",
+      "description": "L'ensemble des prestations versées est pondéré de la quotité souscrite par chacun des assurés. Pour les prêts à taux variable, l'indemnisation découle du tableau d'amortissement produit au jour du sinistre, dans la limite des mécanismes d'ajustement prévus à l'offre de prêt initiale.",
+      "page": 3
+    },
+    {
+      "name": "Assureur, souscripteur et gestionnaire",
+      "description": "La présente note d'information du contrat Garantie Emprunteur Macif reprend les dispositions du contrat collectif n°207003 souscrit par la Macif au profit de ses sociétaires auprès d'Apivia Macif Mutuelle. Apivia Macif Mutuelle, assureur du contrat, est régi par le Livre II du Code de la mutualité et est soumis au contrôle de l'Autorité de Contrôle Prudentiel et de Résolution (ACPR), 4 place de Budapest - CS 92459 - 75436 Paris Cedex 09. Pour toute opération liée au contrat, vous devez contacter SECURIMUT, son gestionnaire, au 222 cours Lafayette - 69441 Lyon Cedex 03 - Tél : 04 78 62 16 62, gem@securimut.fr.",
+      "page": 1
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "La présente note d’information du contrat Garantie Emprunteur Macif \nreprend les dispositions du contrat collectif n°207003 souscrit par la \nMacif au profit de ses sociétaires auprès d’Apivia Macif Mutuelle.",
+      "context": "PREAMBULE — assureur et souscripteur du contrat collectif",
+      "page": 1
+    },
+    {
+      "quote": "Apivia Macif Mutuelle, assureur du contrat, est régi par le Livre II du \nCode de la mutualité et est soumis au contrôle de l’Autorité de \nContrôle Prudentiel et de Résolution (ACPR), 4 place de Budapest - \nCS 92459 - 75436 Paris Cedex 09.",
+      "context": "PREAMBULE — identité de l'assureur",
+      "page": 1
+    },
+    {
+      "quote": "Le contrat Garantie Emprunteur Macif vous permet de souscrire, dans \nle cadre de prêts immobiliers ou professionnels contractés auprès \nd’un organisme prêteur, une garantie en cas de décès, de perte totale \net irréversible d’autonomie (P.T.I.A.), d’incapacité temporaire totale \nde travail (I.T.T.) et d’invalidité partielle ou totale de travail (I.P.T.).",
+      "context": "1. LA SOUSCRIPTION — Objet du contrat",
+      "page": 1
+    },
+    {
+      "quote": "Les garanties s’exercent dans le monde entier.",
+      "context": "2. LES GARANTIES — portée territoriale",
+      "page": 3
+    },
+    {
+      "quote": "En cas de décès de l’assuré avant ses 85 ans, nous versons au \nbénéficiaire le capital restant dû indiqué au tableau d’amortissement \nà la date de l’échéance précédant le décès, auquel nous appliquons \nles intérêts du prêt jusqu’au jour du décès (hors intérêts à venir, \narriérés de paiement et éventuelles pénalités de remboursement \nanticipé). Le capital pris en compte est limité au montant garanti \nindiqué au dernier certificat d’adhésion en vigueur.",
+      "context": "2.1. GARANTIE EN CAS DE DÉCÈS",
+      "page": 3
+    },
+    {
+      "quote": "En cas de P.T.I.A. de l’assuré, nous versons au bénéficiaire le capital \ndécès par anticipation, établi au jour où la P.T.I.A. est reconnue.",
+      "context": "2.2. GARANTIE EN CAS DE PERTE TOTALE ET IRRÉVERSIBLE D'AUTONOMIE",
+      "page": 3
+    },
+    {
+      "quote": "La garantie I.P.T. intervient dès lors que votre taux d’incapacité \nfonctionnelle et votre taux d’incapacité professionnelle atteignent \nchacun au moins 33 %. Si votre état justifie que ces deux taux soient \nchacun d’au moins 33 % et que l’un des deux taux est de moins de \n50 %, nous prendrons en charge (n-33)/66 de la mensualité garantie, \n« n » étant le taux d'incapacité fonctionnelle. Si ces deux taux sont \nchacun au moins égal à 50%, nous prendrons en charge l’intégralité \nde la mensualité garantie.",
+      "context": "2.3. Barème de prise en charge de l'I.P.T.",
+      "page": 3
+    },
+    {
+      "quote": "Le suicide survenu durant les douze mois qui suivent la prise \nd’effet des garanties, sauf pour les prêts immobiliers\naccordés pour l’acquisition du logement principal, dans la\nlimite de 120000 €,",
+      "context": "2.6. Exclusions communes — suicide (le document imprime bien « 120000 € » sans séparateur)",
+      "page": 4
+    },
+    {
+      "quote": "Notre indemnisation est limitée à \n1500 € par mois et à 14 mois de prise en charge, renouvelable une \nfois si l’AJPP fait l’objet d’un renouvellement.",
+      "context": "2.4. GARANTIE D'AIDE A LA FAMILLE — plafond",
+      "page": 4
+    },
+    {
+      "quote": "Les suites et conséquences des affections psychiques ou\npsychiatriques suivantes : troubles et/ou états et/ou\nsyndromes \ndépressifs, \nanxieux \nou \nanxio-dépressifs,\ntroubles de l’humeur ou de l’adaptation, psychoses,\nnévroses, troubles bipolaires, troubles de la personnalité,\ntroubles du comportement y compris alimentaire, burn-out,\nsyndrome \nd’épuisement, \nstress \npost-traumatiques,\nfibromyalgie, syndrome de fatigue chronique, syndrome\npolyalgique idiopathique diffus, sauf si ces affections\ndonnent lieu à une hospitalisation continue d’au moins 9\njours. La franchise court alors à compter du premier jour\nd’hospitalisation.",
+      "context": "2.6. Limites et exclusions spécifiques aux garanties I.T.T. et I.P.T.",
+      "page": 4
+    },
+    {
+      "quote": "Vous devez nous déclarer toute incapacité de travail à compter \ndu 91ème jour d’incapacité de travail et au plus tard le 120ème \njour. Passé ce délai, si nous subissons un préjudice lié à ce \nretard, la prise en charge n’interviendra qu’à compter de la date \nde déclaration. De même, vous devez nous déclarer toute \nprolongation d’incapacité de travail dans les 30 jours.",
+      "context": "5.4 FORMALITÉS EN CAS D'INCAPACITÉ TEMPORAIRE TOTALE DE TRAVAIL",
+      "page": 5
+    },
+    {
+      "quote": "Toute action liée à l’exécution du présent contrat est prescrite \ndans un délai de 2 ans à compter de l’événement qui y donne \nnaissance. La prescription est portée à : \n-\n5 ans lorsque l’action a pour origine un arrêt de travail ;\n-\n10 ans lorsque l’action a pour origine votre décès et est\nexercée par le bénéficiaire.",
+      "context": "6.3 PRESCRIPTION",
+      "page": 6
+    },
+    {
+      "quote": "Apivia Macif Mutuelle : Mutuelle régie par le Livre II du Code de la \nmutualité et adhérente à la Mutualité Française, SIREN : 779 558 501. \nSiège social : 17- 21 place Etienne Pernet - 75015 PARIS Cedex 15",
+      "context": "MENTIONS LÉGALES — assureur",
+      "page": 6
+    }
+  ],
+  "gaps": [
+    "CARRIER — le document nomme un assureur différent des métadonnées de la tâche. Les métadonnées annoncent Macif ; le document imprime, en préambule et en mentions légales, que l'ASSUREUR est « Apivia Macif Mutuelle » (Mutuelle régie par le Livre II du Code de la mutualité, SIREN : 779 558 501), que la Macif est le SOUSCRIPTEUR du contrat collectif n°207003 « au profit de ses sociétaires », et que SECURIMUT en est le GESTIONNAIRE (SAS, RCS Lyon 487 899 148, ORIAS n°07005662). Conformément à la règle « le document l'emporte sur les métadonnées de la tâche », insurer_name porte « Apivia Macif Mutuelle ». insurer_slug reste « macif » (clé du corpus, et le produit est commercialisé sous la marque Macif). Les trois entités sont reprises intégralement dans special_conditions « Assureur, souscripteur et gestionnaire » et dans les key_quotes.",
+    "edition_date null : le document ne porte aucune date d'édition, ni en couverture, ni en pied de page, ni en mentions légales. La seule référence est « GEM25050011 » (portée dans reference). Elle n'a PAS été décodée en date : rien dans le document ne dit que les chiffres qu'elle contient sont une date.",
+    "Vérification d'inversion de colonnes : NÉGATIVE. Le document est composé sur deux colonnes (x0 ≈ 40 à gauche, ≈ 320 à droite) sur les pages 2 à 5. Le contrôle par coordonnées montre que la couche texte émet, sur les 6 pages, tous les blocs de la colonne gauche puis tous ceux de la colonne droite, dans l'ordre de lecture correct : 0 paire droite-avant-gauche. L'ordre du texte plat est donc fiable sur ce document.",
+    "Aucun glyphe de coche ou de puce vectorielle : les listes utilisent des caractères réels (▶, ▪, •, o, -), tous présents dans la couche texte. Aucune donnée n'est portée par la couche graphique.",
+    "Le montant « 120000 € » (plafond de l'exception au délai de carence suicide) est imprimé SANS séparateur de milliers sur la page, ce qui a été vérifié sur un rendu à 10× : la couche texte est fidèle. Il est donc conservé verbatim et n'a pas été normalisé en « 120 000 € ». Les quatre glyphes € du document (120000 €, 1500 €, 375 000 €, 200 000 €) sont tous extractibles ; aucune unité monétaire n'a été perdue.",
+    "is_optional : les garanties décès, P.T.I.A., I.T.T., I.P.T. et Aide à la Famille sont portées is_optional=false — l'Aide à la Famille est « automatiquement accordée » sous conditions, et les autres constituent l'objet même du contrat. La garantie Invalidité Spécifique de la Convention AERAS est portée is_optional=true parce que le document la présente comme étudiée et proposée au cas par cas (« nous étudierons la possibilité de vous accorder », « dans l'hypothèse où cette garantie vous est proposée »). Le document n'emploie le mot « option » pour aucune garantie ; les quotités et franchises effectives figurent au certificat d'adhésion, qui n'est pas ce document.",
+    "Les montants de garantie (capital assuré, mensualités garanties, quotité, franchise) ne sont pas chiffrés dans ce document : il renvoie systématiquement au certificat d'adhésion et, le cas échéant, aux conditions particulières. Les seuls montants chiffrés du contrat sont le plafond Aide à la Famille (1500 € par mois, 14 mois renouvelables une fois) et le plafond de l'exception suicide (120000 €).",
+    "Le texte du prompt n'était pas tronqué (6 pages sur 6). L'extraction a été refaite depuis le PDF local avec page.get_text(\"text\") : les 6 pages ressortent identiques caractère pour caractère au texte du prompt.",
+    "Les articles 6.2 (réclamations et médiation) et 6.4 (données personnelles) sont portés respectivement dans claims_procedure et — pour la partie RGPD, qui n'est pas une disposition d'assurance — non transcrits : le contenu de 6.4 décrit le traitement des données par Apivia Macif Mutuelle et les droits d'accès/rectification, sans effet sur les garanties. Signalé ici pour qu'un lecteur sache que l'omission est délibérée et non un défaut d'extraction."
+  ]
+}

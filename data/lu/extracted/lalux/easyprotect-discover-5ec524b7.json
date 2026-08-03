@@ -1,0 +1,415 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "lu",
+  "insurer_slug": "lalux",
+  "insurer_name": "lalux",
+  "product_name": "easyPROTECT - Discover",
+  "branch": "multirisque-professionnelle",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": "particuliers",
+  "target_audience_note": "Libellé du document, encadré « De quel type d'assurance s'agit-il ? » : « Le service easyPROTECT Discover est un package de garanties pour les assurés dont la résidence principale se situe au Grand-Duché du Luxembourg, qui sont âgés entre 15-27 ans et qui préparent leur entrée dans la vie professionnelle (étudiants, apprentis et catégories assimilées). » L'encadré « Qu'est-ce qui est assuré ? » ajoute : « Assuré : étudiants ou catégories assimilées (en ce qui concerne les garanties Responsabilité civile, la Protection juridique y relative et l'extension « Logement étudiant », IT mobile, Assistance et Urgence médicale) ». La garantie Responsabilité civile porte sur « la vie privée et de la vie estudiantine à l'exclusion des activités professionnelles ».",
+  "reference": null,
+  "edition_date": null,
+  "product_family": "easyPROTECT",
+  "variant": "Discover",
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_discover_lalux_easyprotect.pdf",
+  "source_pdf": "69201kb-5ec524b7.pdf",
+  "source_sha256": "f234c1ed0c9eb2913d948d1b5ca68f3ad63e17b027177f6eb73288688ea7576a",
+  "source_pages": 2,
+  "fetched_at": "2026-08-02",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d'information sur le produit d'assurance (IPID) pour le service easyPROTECT - Discover, commercialisé sous la marque LALUX Assurances. Le document le décrit comme « un package de garanties pour les assurés dont la résidence principale se situe au Grand-Duché du Luxembourg, qui sont âgés entre 15-27 ans et qui préparent leur entrée dans la vie professionnelle (étudiants, apprentis et catégories assimilées) ». La formule de base réunit la Responsabilité civile de la vie privée et estudiantine, son extension « Logement étudiant » et la Protection juridique y relative ; trois garanties se souscrivent en option et moyennant surprime : Couverture IT mobile, Assistance et Urgence médicale. Les portées territoriales diffèrent par garantie (monde entier pour la RC, la protection juridique et l'assistance ; Europe pour le logement étudiant ; Union Européenne hors Luxembourg et Royaume-Uni pour l'urgence médicale).",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Responsabilité civile",
+      "description": "p.ex. dommages causés au cours de la vie privée et de la vie estudiantine à l’exclusion des activités professionnelles, dommages causés en tant que détenteur ou gardien d’animaux domestiques ou encore dommages causés par l’eau résultant de ruptures de conduites d’eau",
+      "is_optional": false,
+      "territorial_scope": "Responsabilité civile : monde entier",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Formule de base"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Extension «Logement étudiant» (Responsabilité civile)",
+      "description": "garantie accordée au preneur qui, en tant que locataire, occupe un logement étudiant situé en Europe, p.ex. pour les dommages matériels causés au bâtiment loué et résultant d’incendie, dégâts des eaux ou bris de glace ou encore dommages matériels au mobilier loué ou appartenant au preneur et se trouvant dans le logement loué (p.ex. vol).",
+      "is_optional": false,
+      "territorial_scope": "Responsabilité civile – Extension « Logement étudiant » : logement étudiant situé en Europe.",
+      "limits": null,
+      "sub_limits": [
+        "dommages matériels au mobilier résultant de vol limité à 3.000 EUR"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Formule de base",
+        "garantie accordée au preneur qui, en tant que locataire, occupe un logement étudiant situé en Europe"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Protection juridique",
+      "description": "p.ex. frais et honoraires de toutes démarches, enquêtes, expertises et instances à la suite de la survenance d’un dommage ayant causé soit la mort ou des dommages matériels/corporels (poursuites pénales intentées contre les assurés ou actions à intenter contre tout responsable en réparation du préjudice subi par les assurés).",
+      "is_optional": false,
+      "territorial_scope": "Protection juridique relative à la Responsabilité civile : monde entier",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Formule de base",
+        "Protection juridique : Libre choix de l’avocat à Luxembourg. A l’étranger, un accord préalable de la compagnie est nécessaire."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Couverture IT mobile",
+      "description": "bris et vol du matériel informatique et matériel audiovisuel non portable se trouvant à l’intérieur du logement ; bris et vol du matériel informatique/audiovisuel portable/téléphone portable dans le monde entier",
+      "is_optional": true,
+      "territorial_scope": "matériel non portable : à l’intérieur du logement ; matériel portable/téléphone portable : dans le monde entier",
+      "limits": "pour le bris et le vol, l’intervention est limitée par sinistre et par année à 284 EUR indice 100.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "En option et moyennant surprime :"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance",
+      "description": "remboursement des frais de scolarité et d’apprentissage (en cas d’arrêt des études pour cause de maladie, accident ou décès de l’assuré ou de ses parents), remboursement des frais de retour, et récupération des données informatiques perdues (stockées sur un ordinateur de bureau ou portable).",
+      "is_optional": true,
+      "territorial_scope": "Assistance : monde entier",
+      "limits": null,
+      "sub_limits": [
+        "remboursement des frais de scolarité et d’apprentissage limités à 2.000 EUR par année et par sinistre",
+        "frais de retour maximum 500 EUR par sinistre et par année"
+      ],
+      "deductible": null,
+      "conditions": [
+        "En option et moyennant surprime :",
+        "frais de scolarité et d’apprentissage : en cas d’arrêt des études pour cause de maladie, accident ou décès de l’assuré ou de ses parents",
+        "récupération des données informatiques perdues : stockées sur un ordinateur de bureau ou portable"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Urgence médicale",
+      "description": "en cas d’accident, de maladie ou de décès, la compagnie garantit, dans les limites prévues dans les conditions générales, les traitements ambulatoires, soins dentaires et hospitalisations à l’étranger, ainsi que le rapatriement (si médicalement nécessaire).",
+      "is_optional": true,
+      "territorial_scope": "Urgence médicale : Union Européenne, à l’exception du Grand-Duché du Luxembourg et du Royaume-Uni.",
+      "limits": "dans les limites prévues dans les conditions générales",
+      "sub_limits": [
+        "pour les soins dentaires, les prothèses provisoires sont limitées à 250 EUR par prothèse"
+      ],
+      "deductible": null,
+      "conditions": [
+        "En option et moyennant surprime :",
+        "rapatriement : si médicalement nécessaire"
+      ],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Usure, détérioration progressive ou dommages esthétiques",
+      "description": "Outre les exclusions prévues ailleurs dans les conditions générales du produit easyPROTECT sont exclus : Dommages résultant de l’usure ou de la détérioration progressive ou dommages purement esthétiques",
+      "applies_to": "Couverture IT mobile",
+      "page": 1
+    },
+    {
+      "name": "Action d’un virus",
+      "description": "Outre les exclusions prévues ailleurs dans les conditions générales du produit easyPROTECT sont exclus : Pertes liées à l’action d’un virus",
+      "applies_to": "Couverture IT mobile",
+      "page": 1
+    },
+    {
+      "name": "Biens oubliés, égarés ou perdus",
+      "description": "Outre les exclusions prévues ailleurs dans les conditions générales du produit easyPROTECT sont exclus : Biens oubliés, égarés ou perdus",
+      "applies_to": "Couverture IT mobile",
+      "page": 1
+    },
+    {
+      "name": "Logiciels déficients ou non-autorisés",
+      "description": "Outre les exclusions prévues ailleurs dans les conditions générales du produit easyPROTECT sont exclus : Utilisation de logiciels déficients ou non-autorisés",
+      "applies_to": "Assistance – Récupération des données informatiques perdues",
+      "page": 1
+    },
+    {
+      "name": "Données stockées sur téléphone mobile, smartphone ou tablette",
+      "description": "Outre les exclusions prévues ailleurs dans les conditions générales du produit easyPROTECT sont exclus : Perte de données informatiques stockées sur téléphone mobile, smartphone ou tablette",
+      "applies_to": "Assistance – Récupération des données informatiques perdues",
+      "page": 1
+    },
+    {
+      "name": "Moyens de contraception",
+      "description": "Outre les exclusions prévues ailleurs dans les conditions générales du produit easyPROTECT sont exclus : Coûts des moyens de contraception",
+      "applies_to": "Urgence médicale",
+      "page": 1
+    },
+    {
+      "name": "Médecine préventive et vaccination",
+      "description": "Outre les exclusions prévues ailleurs dans les conditions générales du produit easyPROTECT sont exclus : Coûts de la médecine préventive et de la vaccination",
+      "applies_to": "Urgence médicale",
+      "page": 1
+    },
+    {
+      "name": "Suicide ou tentative de suicide",
+      "description": "Outre les exclusions prévues ailleurs dans les conditions générales du produit easyPROTECT sont exclus : Suicide ou tentative de suicide",
+      "applies_to": "Urgence médicale",
+      "page": 1
+    },
+    {
+      "name": "Plafond de 3.000 EUR sur le vol de mobilier (Logement étudiant)",
+      "description": "Responsabilité civile – Extension « Logement étudiant » : dommages matériels au mobilier résultant de vol limité à 3.000 EUR. [Item imprimé dans l'encadré « Y a-t-il des exclusions à la couverture ? » ; énonce un plafond, pas une exclusion — voir gaps]",
+      "applies_to": "Extension «Logement étudiant» (Responsabilité civile)",
+      "page": 1
+    },
+    {
+      "name": "Plafond de 284 EUR indice 100 (IT mobile)",
+      "description": "Couverture IT mobile : pour le bris et le vol, l’intervention est limitée par sinistre et par année à 284 EUR indice 100. [Item imprimé dans l'encadré « Y a-t-il des exclusions à la couverture ? » ; énonce un plafond, pas une exclusion — voir gaps]",
+      "applies_to": "Couverture IT mobile",
+      "page": 1
+    },
+    {
+      "name": "Plafonds de 2.000 EUR et 500 EUR (Assistance)",
+      "description": "Assistance : remboursement des frais de scolarité et d’apprentissage limités à 2.000 EUR par année et par sinistre ; frais de retour maximum 500 EUR par sinistre et par année [Item imprimé dans l'encadré « Y a-t-il des exclusions à la couverture ? » ; énonce des plafonds, pas une exclusion — voir gaps]",
+      "applies_to": "Assistance",
+      "page": 1
+    },
+    {
+      "name": "Plafond de 250 EUR par prothèse provisoire (Urgence médicale)",
+      "description": "Urgence médicale : pour les soins dentaires, les prothèses provisoires sont limitées à 250 EUR par prothèse [Item imprimé dans l'encadré « Y a-t-il des exclusions à la couverture ? » ; énonce un plafond, pas une exclusion — voir gaps]",
+      "applies_to": "Urgence médicale",
+      "page": 1
+    }
+  ],
+  "deductibles": null,
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Description du risque à la souscription",
+      "description": "Faire une description aussi complète et précise que possible du risque à assurer, sans fausse déclaration ou omissions.",
+      "timing": "A la souscription",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Déclaration d’aggravation du risque",
+      "description": "Déclarer à la compagnie toute circonstance nouvelle qui peut aggraver le risque ou en créer de nouveaux",
+      "timing": "En cours de contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Modification des données du contrat",
+      "description": "Avertir la compagnie de toute modification des données reprises au contrat, en particulier en cas de changement d’adresse ou de changement de compte bancaire",
+      "timing": "En cours de contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Paiement des primes",
+      "description": "Payer vos primes d’assurances en respectant les délais stipulés sur votre contrat. En cas de non paiement, la compagnie peut suspendre des garanties ou annuler le contrat",
+      "timing": "En cours de contrat",
+      "sanction": "En cas de non paiement, la compagnie peut suspendre des garanties ou annuler le contrat",
+      "page": 2
+    },
+    {
+      "name": "Déclaration du sinistre",
+      "description": "Déclarer tout sinistre dans les 8 jours de sa survenance et obtenir l’accord de la compagnie avant toute action engageant son intervention",
+      "timing": "En cas de sinistre",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Transmission des informations",
+      "description": "Transmettre dès que possible toutes les informations permettant à la compagnie de déterminer les circonstances et d’évaluer l’étendue des dommages.",
+      "timing": "En cas de sinistre",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Choix de l’avocat (Protection juridique)",
+      "description": "Protection juridique : Libre choix de l’avocat à Luxembourg. A l’étranger, un accord préalable de la compagnie est nécessaire.",
+      "timing": "Spécificités par garantie / en cas de sinistre",
+      "sanction": null,
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclarer le sinistre",
+      "description": "Déclarer tout sinistre dans les 8 jours de sa survenance et obtenir l’accord de la compagnie avant toute action engageant son intervention",
+      "deadline": "dans les 8 jours de sa survenance",
+      "page": 2
+    },
+    {
+      "step": "Transmettre les informations",
+      "description": "Transmettre dès que possible toutes les informations permettant à la compagnie de déterminer les circonstances et d’évaluer l’étendue des dommages.",
+      "deadline": "dès que possible",
+      "page": 2
+    },
+    {
+      "step": "Choix de l’avocat",
+      "description": "Protection juridique : Libre choix de l’avocat à Luxembourg. A l’étranger, un accord préalable de la compagnie est nécessaire.",
+      "deadline": null,
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le début (date d’effet) et l’expiration du contrat sont mentionnés aux Conditions Particulières",
+    "tacit_renewal": true,
+    "notice_period": "30 jours avant la date d’échéance annuelle du contrat (résiliation par le client) ; 60 jours avant la date d’échéance annuelle du contrat (notification par la compagnie)",
+    "methods": [
+      "La résiliation est à demander par lettre recommandée 30 jours avant la date d’échéance annuelle du contrat, dans le mois suivant la résiliation d’une garantie ou d’un autre contrat par la compagnie après sinistre ou dans les 60 jours après une augmentation de tarif notifiée par la compagnie"
+    ],
+    "special_rights": [
+      "Résiliation par le client dans le mois suivant la résiliation d’une garantie ou d’un autre contrat par la compagnie après sinistre",
+      "Résiliation par le client dans les 60 jours après une augmentation de tarif notifiée par la compagnie",
+      "La compagnie peut résilier le contrat après sinistre, en cas de fraude, en cas de défaut de paiement, ou suivant notification 60 jours avant la date d’échéance annuelle du contrat."
+    ],
+    "page": 2
+  },
+  "prescription_period": {
+    "description": "L’assurance porte sur le dommage survenu pendant la durée du contrat, même si la réclamation est formulée après la fin du contrat. En cas de réclamations formulées après la fin du contrat, les parties conviennent que la garantie est limitée aux réclamations formulées dans les trois ans de la survenance du dommage.",
+    "page": 2
+  },
+  "premium": {
+    "notes": [
+      "Le montant indiqué sur l’avis d’échéance annuel est payable le premier jour du mois de l’échéance",
+      "Une mensualisation est possible par domiciliation bancaire, sans frais supplémentaires",
+      "En option et moyennant surprime : Couverture IT mobile, Assistance, Urgence médicale"
+    ],
+    "indexation": "Couverture IT mobile : pour le bris et le vol, l’intervention est limitée par sinistre et par année à 284 EUR indice 100.",
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Assuré",
+      "description": "Assuré : étudiants ou catégories assimilées (en ce qui concerne les garanties Responsabilité civile, la Protection juridique y relative et l’extension « Logement étudiant », IT mobile, Assistance et Urgence médicale)",
+      "page": 1
+    },
+    {
+      "name": "Formule de base",
+      "description": "Les garanties Responsabilité civile (avec son extension « Logement étudiant ») et Protection juridique sont imprimées sous l'intitulé « Formule de base ».",
+      "page": 1
+    },
+    {
+      "name": "En option et moyennant surprime",
+      "description": "Les garanties Couverture IT mobile, Assistance et Urgence médicale sont imprimées sous l'intitulé « En option et moyennant surprime : ».",
+      "page": 1
+    },
+    {
+      "name": "Avertissement",
+      "description": "Avertissement: le présent document n’est pas personnalisé en fonction de vos besoins spécifiques et les informations et obligations prévues dans le présent document ne sont pas exhaustives. Pour toute information complète quant aux droits et obligations de l’entreprise d’assurances et de l’assuré, veuillez consulter les conditions générales et/ou particulières relatives au produit d’assurance choisi.",
+      "page": 1
+    },
+    {
+      "name": "Liste non exhaustive",
+      "description": "La mention « Liste non exhaustive » est imprimée en bas des deux encadrés « Qu’est-ce qui n’est pas assuré ? » et « Y a-t-il des exclusions à la couverture ? ».",
+      "page": 1
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Le service easyPROTECT Discover est un package de garanties pour les assurés dont la résidence principale se situe au Grand-Duché du \nLuxembourg, qui sont âgés entre 15-27 ans et qui préparent leur entrée dans la vie professionnelle (étudiants, apprentis et catégories \nassimilées).",
+      "context": "De quel type d’assurance s’agit-il ?",
+      "page": 1
+    },
+    {
+      "quote": "Assuré : étudiants ou catégories assimilées (en ce qui \nconcerne les garanties Responsabilité civile, la Protection \njuridique y relative et l’extension « Logement étudiant », IT \nmobile, Assistance et Urgence médicale)",
+      "context": "Périmètre des assurés",
+      "page": 1
+    },
+    {
+      "quote": "Responsabilité civile : p.ex. dommages causés au cours de la \nvie privée et de la vie estudiantine à l’exclusion des activités \nprofessionnelles, dommages causés en tant que détenteur \nou gardien d’animaux domestiques ou encore dommages \ncausés par l’eau résultant de ruptures de conduites d’eau",
+      "context": "Garantie RC — formule de base",
+      "page": 1
+    },
+    {
+      "quote": "Extension «Logement étudiant» : garantie accordée au \npreneur qui, en tant que locataire, occupe un logement \nétudiant situé en Europe",
+      "context": "Extension Logement étudiant",
+      "page": 1
+    },
+    {
+      "quote": "En option et moyennant surprime :",
+      "context": "Intitulé des garanties optionnelles",
+      "page": 1
+    },
+    {
+      "quote": "Couverture IT mobile : bris et vol du matériel informatique et \nmatériel audiovisuel non portable se trouvant à l’intérieur du \nlogement ; bris et vol du matériel informatique/audiovisuel \nportable/téléphone portable dans le monde entier",
+      "context": "Garantie IT mobile (option)",
+      "page": 1
+    },
+    {
+      "quote": "Outre les exclusions prévues ailleurs dans les conditions générales du \nproduit easyPROTECT sont exclus :",
+      "context": "Phrase d’attaque de l’encadré des exclusions",
+      "page": 1
+    },
+    {
+      "quote": "Perte de données informatiques stockées sur téléphone mobile, \nsmartphone ou tablette",
+      "context": "Exclusion — Assistance / récupération de données",
+      "page": 1
+    },
+    {
+      "quote": "Coûts de la médecine préventive et de la vaccination",
+      "context": "Exclusion — Urgence médicale",
+      "page": 1
+    },
+    {
+      "quote": "Couverture IT mobile : pour le bris et le vol, l’intervention est limitée \npar sinistre et par année à 284 EUR indice 100.",
+      "context": "Plafond IT mobile (encadré « exclusions »)",
+      "page": 1
+    },
+    {
+      "quote": "Assistance : remboursement des frais de scolarité et d’apprentissage \nlimités à 2.000 EUR par année et par sinistre ; frais de retour maximum \n500 EUR par sinistre et par année",
+      "context": "Plafonds Assistance (encadré « exclusions »)",
+      "page": 1
+    },
+    {
+      "quote": "Urgence médicale : pour les soins dentaires, les prothèses provisoires \nsont limitées à 250 EUR par prothèse",
+      "context": "Plafond Urgence médicale (encadré « exclusions »)",
+      "page": 1
+    },
+    {
+      "quote": "Urgence médicale : Union Européenne, à l’exception du Grand-Duché du Luxembourg et du Royaume-Uni.",
+      "context": "Portée territoriale — Urgence médicale",
+      "page": 2
+    },
+    {
+      "quote": "Protection juridique : Libre choix de l’avocat à Luxembourg. A l’étranger, un accord préalable de la compagnie est nécessaire.",
+      "context": "Spécificité Protection juridique",
+      "page": 2
+    },
+    {
+      "quote": "L’assurance porte sur le dommage survenu pendant la durée du contrat, même si la réclamation est formulée après la fin \ndu contrat. En cas de réclamations formulées après la fin du contrat, les parties conviennent que la garantie est limitée aux \nréclamations formulées dans les trois ans de la survenance du dommage.",
+      "context": "Portée temporelle / délai de réclamation",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "BRANCHE PROBABLEMENT FAUSSE DANS LES MÉTADONNÉES — SIGNALÉE, NON CORRIGÉE. `branch` = multirisque-professionnelle a été copié tel quel depuis les métadonnées de tâche, mais le CONTENU DU DOCUMENT LE CONTREDIT FRONTALEMENT. Le document décrit « un package de garanties pour les assurés dont la résidence principale se situe au Grand-Duché du Luxembourg, qui sont âgés entre 15-27 ans et qui préparent leur entrée dans la vie professionnelle (étudiants, apprentis et catégories assimilées) », et sa garantie principale couvre « les dommages causés au cours de la vie privée et de la vie estudiantine À L'EXCLUSION DES ACTIVITÉS PROFESSIONNELLES ». Il n'y a dans ce document aucune garantie de risque d'entreprise. Le contenu correspond à un panachage rc-familiale + protection-juridique + habitation (extension logement étudiant) + voyage/assistance + sante (urgence médicale), aucun de ces slugs ne le couvrant seul. ORIGINE PROBABLE DE L'ERREUR : « easyPROTECT » est un PRÉFIXE DE GAMME COMMERCIALE de l'éditeur, partagé avec la gamme professionnelle « easyPROTECT-PRO » ; un préfixe de gamme n'est pas une branche. Le préfixe a été mis en `product_family` et le suffixe distinctif « Discover » en `variant`, et il n'a PAS servi à classer le document. Un relecteur devrait reclasser ce document.",
+    "ORDRE DE LECTURE À PLAT DANGEREUX POUR LA POLARITÉ — RÉSOLU PAR COORDONNÉES. Les deux titres d'encadré « Qu'est-ce qui est assuré ? » (x0=68,0) et « Qu'est-ce qui n'est pas assuré ? » (x0=332,9) partagent la MÊME ordonnée y=262,5 et le MÊME bloc de texte, si bien que page.get_text(\"text\") les émet L'UN APRÈS L'AUTRE, puis toute la colonne de gauche, puis toute la colonne de droite. Lu à plat, le texte donne donc « Qu'est-ce qui est assuré ? / Qu'est-ce qui n'est pas assuré ? / Assuré : étudiants… », ce qui rattacherait les SIX premiers items — c'est-à-dire toutes les garanties couvertes — au titre « n'est pas assuré ». L'attribution a été reconstruite PAR ABSCISSE et non par proximité dans le flux : colonne de gauche x0≈29,8-43,9 = encadré « Qu'est-ce qui est assuré ? » ; colonne de droite x0≈292,7-306,9 = encadrés « Qu'est-ce qui n'est pas assuré ? » puis « Y a-t-il des exclusions à la couverture ? ». Confirmé sur rendu 2,2x de la page 1. Aucune garantie n'a été versée aux exclusions et aucune exclusion n'a été versée aux garanties.",
+    "PUCES = IMAGES BITMAP, NI TEXTE NI VECTEUR ; ARITHMÉTIQUE FERMÉE. 18 images sur la page 1, en trois groupes nets par abscisse et par taille : (a) 6 coches vertes 7,2 x 7,9 pt à x0=29,8 (y 308,1 / 385,3 / 533,4 / 629,4 / 680,7 / 754,7) ; (b) 8 croix rouges 6,7 x 6,8 pt à x0=292,7 (y 354,7 à 504,2) ; (c) 4 points d'exclamation orange 2,4 x 8,9 pt à x0=294,7 (y 597,7 / 629,0 / 660,3 / 703,0). 6 + 8 + 4 = 18 = nombre total de blocs image de la page 1. Chaque coche/croix/point tombe à ± 1,5 pt de l'ordonnée d'un item de texte, et les comptes correspondent exactement : 8 exclusions et 4 items de restriction. La polarité (vert = couvert, rouge = non couvert, orange = restriction) a été lue sur rendu, pas déduite. Ces comptages ne figurent pas dans key_quotes : ils ne sont pas du texte.",
+    "SIX COCHES VERTES POUR CINQ GARANTIES + UN ITEM DE PÉRIMÈTRE, ET UNE GARANTIE SANS COCHE. La première coche verte (y 308,1) ne porte pas sur une garantie mais sur l'item de périmètre « Assuré : étudiants ou catégories assimilées (…) », qui a été enregistré en `special_conditions` et dans `target_audience_note` plutôt qu'en `coverages`. À l'inverse, « Extension «Logement étudiant» » (y 446,5) NE PORTE AUCUNE COCHE : c'est un sous-item de la Responsabilité civile, imprimé en retrait sous elle — vérifié sur rendu. Elle a néanmoins été enregistrée comme garantie distincte dans `coverages`, parce que le document la nomme, lui donne une portée territoriale propre (page 2) et un plafond propre (3.000 EUR). Le décompte se ferme donc ainsi : 6 coches = 1 item de périmètre + 5 garanties cochées, plus 1 garantie non cochée, soit 6 entrées dans `coverages`.",
+    "INTITULÉ DE RUBRIQUE CONTREDIT PAR SON CONTENU (conservé tel quel, non réparé). L'encadré « Y a-t-il des exclusions à la couverture ? » ne contient AUCUNE exclusion : ses quatre items sont des PLAFONDS chiffrés (3.000 EUR sur le vol de mobilier, 284 EUR indice 100 pour l'IT mobile, 2.000 EUR / 500 EUR pour l'assistance, 250 EUR par prothèse provisoire). Ils ont été enregistrés dans `exclusions` PARCE QUE c'est là que le document les imprime, sous ce titre et avec la puce orange de restriction, chacun préfixé d'une mention entre crochets signalant sa nature réelle. Les mêmes plafonds sont par ailleurs portés à leur juste place, en `limits` / `sub_limits` des garanties correspondantes.",
+    "LES EXCLUSIONS NE PORTENT QUE SUR LES GARANTIES OPTIONNELLES. Les 8 croix rouges se répartissent entre « Couverture IT mobile » (3), « Assistance – Récupération des données informatiques perdues » (2) et « Urgence médicale » (3) — les trois garanties souscrites en option. Le document n'imprime AUCUNE exclusion pour la Responsabilité civile ni pour la Protection juridique de la formule de base. Ce n'est pas une omission d'extraction : la phrase d'attaque de l'encadré dit « Outre les exclusions prévues ailleurs dans les conditions générales du produit easyPROTECT sont exclus : », et l'encadré porte la mention « Liste non exhaustive ». Les exclusions de la formule de base sont donc renvoyées aux conditions générales, qui ne sont ni reproduites ni référencées par un code ou une URL.",
+    "is_optional EST ÉTABLI PAR LE TEXTE, PAS PAR LA MISE EN PAGE. Le document imprime deux intertitres explicites dans l'encadré des garanties : « Formule de base » (x0=29,8, y 364,8) et « En option et moyennant surprime : » (x0=29,8, y 608,9). L'appartenance a été décidée par l'ordonnée de chaque garantie relativement à ces deux intertitres : Responsabilité civile, Extension «Logement étudiant» et Protection juridique sont au-dessus du second intertitre donc `is_optional: false` ; Couverture IT mobile, Assistance et Urgence médicale sont en dessous donc `is_optional: true`. Les coches vertes sont identiques dans les deux sections et ne distinguent rien : la polarité optionnelle vient de la PROSE des intertitres, pas de la géométrie des puces.",
+    "PORTEUR DE RISQUE NON DÉTERMINABLE. Le document ne nomme que la marque, dans le bandeau de titre : « LALUX Assurances - Produit : easyPROTECT - Discover », et parle ensuite de « la compagnie » / « l'entreprise d'assurances ». Aucune forme juridique, aucun numéro RCS, aucune adresse, aucun agrément, aucun pied de page d'identité sur les deux pages. Il est donc impossible de dire depuis ce document laquelle des entités agréées porte le risque. `insurer_name` porte la marque telle qu'imprimée, « LALUX Assurances », et non une entité juridique. Divergence avec les métadonnées de tâche (`insurer_name: lalux`, minuscules) : la forme imprimée a été retenue.",
+    "AUCUNE DATE D'ÉDITION IMPRIMÉE. Ni date, ni code de version, ni référence interne sur les deux pages ; `edition_date` et `reference` sont null. Les métadonnées du fichier PDF portent creationDate/modDate D:20190204 (04/02/2019) et un titre InDesign « IPID_Discover_LALUX_easyPROTECT.indd (Corr. faite le 4/2/19).indd » — donc une date de correction interne du 4/2/19. Ce sont des métadonnées de fichier, non du contenu imprimé : elles n'ont PAS été utilisées pour remplir edition_date, et sont consignées ici uniquement pour la traçabilité.",
+    "TROIS GRAPHIES DIFFÉRENTES DU MÊME NOM DE GARANTIE DANS LA COUCHE DE TEXTE, toutes conservées telles quelles : « Extension «Logement étudiant»[U+2009]: » sans espace intérieur (encadré des garanties, page 1) ; « Extension «[U+2009][U+2009]Logement étudiant[U+2009][U+2009][U+2009]»[U+2009]: » avec espaces fines intérieures (encadré des restrictions, page 1) ; « Extension « Logement étudiant » : » avec espaces normales (encadré des portées territoriales, page 2). Les citations sont découpées programmatiquement dans le texte du PDF et reproduisent donc exactement la graphie de l'endroit cité.",
+    "AUCUNE DÉFINITION, AUCUNE FRANCHISE, AUCUN DÉLAI D'ATTENTE. Le document ne contient pas de glossaire, ne chiffre ni ne mentionne aucune franchise, et n'énonce aucun délai de carence : `definitions` et `waiting_periods` sont vides et `deductibles` est null parce que le document est muet, non parce que ces éléments n'auraient pas été cherchés.",
+    "MONNAIE : le glyphe € n'apparaît nulle part et ce n'est PAS une perte d'extraction — le document imprime le code « EUR » (vérifié sur rendu : « 3.000 EUR », « 284 EUR indice 100 », « 2.000 EUR », « 500 EUR », « 250 EUR »). Les montants sont repris verbatim, avec le point comme séparateur de milliers. La mention « indice 100 » qui accompagne le plafond IT mobile est conservée : elle indique un montant indexé, et le document ne donne pas l'indice courant.",
+    "QUALITÉ DE LA COUCHE DE TEXTE — contrôles effectués, tous propres. Les 2 pages extraites par page.get_text(\"text\") sont OCTET POUR OCTET identiques au texte fourni dans le prompt (7196 caractères de part et d'autre) : le fichier lu est bien celui du prompt et le texte n'est pas tronqué. Aucun espace de largeur nulle, aucun trait d'union conditionnel, aucun accent combinant NFD, aucun glyphe de zone à usage privé, aucun U+0007, aucun bloc de texte hors-page, aucune ligature perdue, aucune coupure de mot par trait d'union en fin de ligne, aucune police chiffrée (MyriadPro-Regular/Bold/Semibold, lisibles). Seuls caractères particuliers : 49 apostrophes courbes U+2019 (aucune apostrophe ASCII, donc pas de mélange) et 22 espaces fines U+2009, très présentes devant « : » et « ? » — les citations en tiennent compte puisqu'elles sont découpées programmatiquement dans le texte du PDF.",
+    "PAGINATION : le document n'imprime aucun folio. Les champs `page` citent directement les marqueurs [[page N]] du prompt, qui correspondent aux pages PDF 1 et 2 ; vérifié par recherche d'ancre pour chaque citation."
+  ]
+}

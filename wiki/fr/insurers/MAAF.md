@@ -5,7 +5,7 @@ country: fr
 insurer_slug: maaf
 name: MAAF
 website: https://www.maaf.fr/
-products_count: 55
+products_count: 60
 branches_covered:
 - assurance-vie
 - auto
@@ -39,7 +39,7 @@ generated: true
 
 ## Résumé
 
-**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 55 document(s) across 17 branch(es).
+**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 60 document(s) across 17 branch(es).
 
 ## Produits par branche
 
@@ -47,11 +47,15 @@ generated: true
 - [Winalto Donatio](../products/maaf/Winalto%20Donatio.md) - Conditions générales (01/26) · réf. Réf. 5116 - 01/26
 
 ### [Assurance auto](../branches/Assurance%20auto.md)
+- [AUTO PRO - IPID](../products/maaf/AUTO%20PRO%20-%20IPID.md) - IPID / Fiche d'information (2025-06) · réf. PU0_IPIDAU_00-250622-ZCh9d6-2-1-2-05:04:15- AUT11002
+- [Assurance Véhicule - IPID](../products/maaf/Assurance%20V%C3%A9hicule%20-%20IPID.md) - IPID / Fiche d'information (2025-06) · réf. AUT11001
 - [CARAVANE, REMORQUE, CAMION, VEHICULES DIVERS - IPID](../products/maaf/CARAVANE%2C%20REMORQUE%2C%20CAMION%2C%20VEHICULES%20DIVERS%20-%20IPID.md) - IPID / Fiche d'information (2025-06) · réf. AUT11028
 - [Camping-Car, Ambulance, Bazar forain, Véhicule de collection - IPID](../products/maaf/Camping-Car%2C%20Ambulance%2C%20Bazar%20forain%2C%20V%C3%A9hicule%20de%20collection%20-%20IPID.md) - IPID / Fiche d'information (2025-06) · réf. PU0_IPIDAU_00-250622-ZCh9d6-3-1-2-05:04:15- AUT11023
 - [Contrat Camping car, Ambulance, Bazar forain, Véhicule de collection — Assurance Multirisque](../products/maaf/Contrat%20Camping%20car%2C%20Ambulance%2C%20Bazar%20forain%2C%20V%C3%A9hicule%20de%20collection%20%E2%80%94%20Assurance%20Multirisque.md) - Conditions générales (06/26) · réf. 6056
 
 ### [Autres](../branches/Autres.md)
+- [Statuts de MAAF Assurances - Doc](../products/maaf/Statuts%20de%20MAAF%20Assurances%20-%20Doc.md) - Document (06/15) · réf. 1865
+- [Statuts de MAAF Assurances SA - Doc](../products/maaf/Statuts%20de%20MAAF%20Assurances%20SA%20-%20Doc.md) - Document (Juin 2018)
 - [Statuts de MAAF Vie - Doc](../products/maaf/Statuts%20de%20MAAF%20Vie%20-%20Doc.md) - Document (Août 2021)
 
 ### [Chasse](../branches/Chasse.md)
@@ -79,6 +83,7 @@ generated: true
 - [MOBIL HOME ET CONSTRUCTIONS LEGERES - IPID](../products/maaf/MOBIL%20HOME%20ET%20CONSTRUCTIONS%20LEGERES%20-%20IPID.md) - IPID / Fiche d'information (2026-01) · réf. HAB11027
 - [TEMPO HABITATION EN CONSTRUCTION - IPID](../products/maaf/TEMPO%20HABITATION%20EN%20CONSTRUCTION%20-%20IPID.md) - IPID / Fiche d'information (2026-01) · réf. MU0_IPIDHA_00-260126-LDFkGz-2-1-2-05:01:17- HAB11028
 - [TEMPO HABITATION Logement donné en location - IPID](../products/maaf/TEMPO%20HABITATION%20Logement%20donn%C3%A9%20en%20location%20-%20IPID.md) - IPID / Fiche d'information (2025-03) · réf. HAB11029
+- [TEMPO HABITATION Résidence principale Résidence secondaire - IPID](../products/maaf/TEMPO%20HABITATION%20R%C3%A9sidence%20principale%20R%C3%A9sidence%20secondaire%20-%20IPID.md) - IPID / Fiche d'information (2026-03) · réf. MU0_IPIDHA_00-260315-f5Wn0x-1-1-2-05:03:16- HAB11001
 - [Tempo Habitation - Fiche](../products/maaf/Tempo%20Habitation%20-%20Fiche.md) - Fiche produit (06/2022)
 - [Tempo Habitation en construction](../products/maaf/Tempo%20Habitation%20en%20construction.md) - Conditions générales (2026-01) · réf. Réf. 2340 - 01/26
 - [Tempo Habitation — Logement donné en location](../products/maaf/Tempo%20Habitation%20%E2%80%94%20Logement%20donn%C3%A9%20en%20location.md) - Conditions générales (03/25) · réf. 2341

@@ -1,0 +1,640 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "lu",
+  "insurer_slug": "lalux",
+  "insurer_name": "lalux",
+  "product_name": "easyPROTECT PRO – Property insurance",
+  "branch": "multirisque-professionnelle",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "en",
+  "target_audience": null,
+  "target_audience_note": "The document does not state an audience category. It lists eight eligible \"Sectors of activity\" (Sect. 1. Liberal professions and agencies; Sect. 2. Medical, paramedical and pharmaceutical professions; Sect. 3. Foodstuffs; Sect. 4. Services, crafts and trades; Sect. 5. Hotels, restaurants and cafés; Sect. 6. Building professions; Sect. 7. Motor vehicles; Sect. 8. Agriculture) and states that cover applies \"only in the context of the professional activity indicated in the Special Conditions\".",
+  "reference": null,
+  "edition_date": null,
+  "product_family": "easyPROTECT PRO",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_lalux_easyprotect-pro-entreprise-assurance-de-choses_en.pdf",
+  "source_pdf": "69323kb-593363ce.pdf",
+  "source_sha256": "618828992c393c9662b7c074786e3be7149e5dd405595461a05b485af3f674d4",
+  "source_pages": 2,
+  "fetched_at": "2026-08-02",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Insurance Product Information Document (IPID) for easyPROTECT PRO - Property insurance, which covers events likely to damage insured property, provided that such events and property are designated in the Special Conditions and only in the context of the professional activity indicated in the Special Conditions. The document lists eight eligible sectors of activity, six categories of insurable property (building, equipment, goods, harvesting, animals, self-propelled land vehicles) and twelve guarantees offered, from fire, water damage, theft and climate risks to decontamination of soil, interruption of activity and transport. Three restrictions on cover carry figures: an annual terrorism intervention limit of EUR 10,000,000, a maximum compensation limit of EUR 100,000 for property damage, and a 25% cap on portable office automation and computer equipment. Both the covered list and the exclusion list are printed as \"Non-exhaustive list\".",
+  "definitions": [
+    {
+      "term": "Insurable property - Building",
+      "definition": "Building: main part of the building with annexes and outbuildings (whether contiguous or not), including fences; real estate improvements and improvements to the building rented by the insured person; solar panels and satellite dishes.",
+      "page": 1
+    },
+    {
+      "term": "Insurable property - Equipment",
+      "definition": "Equipment: objects used for the insured activity, belonging both to the insured person and to third parties, such as installations (in the warehouse, workshop or office), professional equipment* (mechanical or electrical machine tools, except self-propelled machinery), or office automation and computer equipment**",
+      "page": 1
+    },
+    {
+      "term": "Insurable property - Goods",
+      "definition": "Goods: supplies, raw materials, commodities, finished products, packaging, waste, etc.",
+      "page": 1
+    },
+    {
+      "term": "Insurable property - Harvesting",
+      "definition": "Harvesting: crops and land products, as well as fodder and fertilizers",
+      "page": 1
+    },
+    {
+      "term": "Insurable property - Animals",
+      "definition": "Animals: domestic animals, farmed animals or animals intended for sale",
+      "page": 1
+    },
+    {
+      "term": "Insurable property - Self-propelled land vehicles",
+      "definition": "Self-propelled land vehicles: any vehicle, including self-propelled machinery",
+      "page": 1
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Fire",
+      "description": "Fire: damage resulting from the fire itself by conflagration, flames or intense combustion or from explosions and implosions of any kind",
+      "is_optional": null,
+      "territorial_scope": "The guarantees are granted at the place of insurance indicated in the Special Conditions. Without prejudice to the mention of a special territorial area in the Special Conditions, the following territorial areas apply:",
+      "limits": "Fire - Terrorism limit: Annual intervention limit with a maximum of EUR 10,000,000.",
+      "sub_limits": [
+        "Territorial area, Travel: in the event of insurance of the equipment and when the “Fire”, “Water damage” and “Climate risk” insurance is taken out, the equipment is insured against fire when, for professional purposes, it is temporarily taken away from the premises indicated in the Special Conditions. The insurance covers up to 10% of the amount indicated in the Special Conditions for the equipment."
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Water damage",
+      "description": "Water damage: material damage resulting from blockage or breakage of gutters, guttering or storm water drains",
+      "is_optional": null,
+      "territorial_scope": "The guarantees are granted at the place of insurance indicated in the Special Conditions. Without prejudice to the mention of a special territorial area in the Special Conditions, the following territorial areas apply:",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Theft",
+      "description": "Theft: the designated property is insured against disappearance, destruction and damage resulting from theft or attempted theft committed inside the main building or its outbuildings located on the same site",
+      "is_optional": null,
+      "territorial_scope": "The guarantees are granted at the place of insurance indicated in the Special Conditions. Without prejudice to the mention of a special territorial area in the Special Conditions, the following territorial areas apply:",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Committed inside the main building or its outbuildings located on the same site."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Property damage",
+      "description": "Property damage: property damage to the building caused to the part occupied by the insured person as a result of theft/attempted theft",
+      "is_optional": null,
+      "territorial_scope": "The guarantees are granted at the place of insurance indicated in the Special Conditions. Without prejudice to the mention of a special territorial area in the Special Conditions, the following territorial areas apply:",
+      "limits": "Property damage: Maximum compensation limit of EUR 100,000",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Only as a result of theft/attempted theft."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Glass breakage",
+      "description": "Glass breakage: For the building and/or rental risk, external glazing, glazing of interior doors, photovoltaic installations, illuminated signs, etc.; for the equipment, accidental breakage of a mirror fixed to the equipment, glass shelves, etc.",
+      "is_optional": null,
+      "territorial_scope": "The guarantees are granted at the place of insurance indicated in the Special Conditions. Without prejudice to the mention of a special territorial area in the Special Conditions, the following territorial areas apply:",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Climate risks",
+      "description": "Climate risks: material damage resulting from storms, hail, rain/snow or falling ice.",
+      "is_optional": null,
+      "territorial_scope": "The guarantees are granted at the place of insurance indicated in the Special Conditions. Without prejudice to the mention of a special territorial area in the Special Conditions, the following territorial areas apply:",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Self-propelled land vehicles",
+      "description": "Self-propelled land vehicles: if fire, theft or climate risks are insured, all material damage caused to self-propelled land vehicles within the confines of the commercial operation is covered (inside and outside the buildings).",
+      "is_optional": null,
+      "territorial_scope": "The guarantees are granted at the place of insurance indicated in the Special Conditions. Without prejudice to the mention of a special territorial area in the Special Conditions, the following territorial areas apply:",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Only if fire, theft or climate risks are insured.",
+        "Within the confines of the commercial operation (inside and outside the buildings)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "* Breakage of office automation and computer equipment",
+      "description": "* Breakage of office automation and computer equipment: security for the equipment inside the insured premises against any material damage",
+      "is_optional": null,
+      "territorial_scope": "The guarantees are granted at the place of insurance indicated in the Special Conditions. Without prejudice to the mention of a special territorial area in the Special Conditions, the following territorial areas apply:",
+      "limits": null,
+      "sub_limits": [
+        "Office automation and computer equipment: The amount insured for portable equipment is limited to 25% of the amount insured for office automation and computer equipment"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Inside the insured premises."
+      ],
+      "page": 1
+    },
+    {
+      "name": "** Breakage of professional equipment",
+      "description": "** Breakage of professional equipment: the equipment is insured against any unexpected and sudden material damage",
+      "is_optional": null,
+      "territorial_scope": "The guarantees are granted at the place of insurance indicated in the Special Conditions. Without prejudice to the mention of a special territorial area in the Special Conditions, the following territorial areas apply:",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Decontamination of soil and insured property",
+      "description": "Decontamination of soil and insured property: decontamination of soil and insured property following covered accidental pollution",
+      "is_optional": null,
+      "territorial_scope": "The guarantees are granted at the place of insurance indicated in the Special Conditions. Without prejudice to the mention of a special territorial area in the Special Conditions, the following territorial areas apply:",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Following covered accidental pollution."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Interruption of activity/operations",
+      "description": "Interruption of activity/operations: if the interruption is caused by a loss insured with fire, water damage or climate risks cover",
+      "is_optional": null,
+      "territorial_scope": "The guarantees are granted at the place of insurance indicated in the Special Conditions. Without prejudice to the mention of a special territorial area in the Special Conditions, the following territorial areas apply:",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Only if the interruption is caused by a loss insured with fire, water damage or climate risks cover."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Transport",
+      "description": "Transport: coverage of goods and materials against material damage occurring during road transport by the insured person or their agents",
+      "is_optional": null,
+      "territorial_scope": "Transport: damage occurring in the Grand Duchy of Luxembourg and within a radius of 600 km beyond its borders is covered.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Material damage occurring during road transport by the insured person or their agents."
+      ],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Fire: biological/chemical contamination linked to terrorism, or earthquake",
+      "description": "Under the heading \"Fire\": Damage, loss and deterioration caused by biological and/or chemical contamination in connection with an act of terrorism or caused by an earthquake",
+      "applies_to": "Fire",
+      "page": 1
+    },
+    {
+      "name": "Water damage: moisture or condensation",
+      "description": "Under the heading \"Water damage\": Material damage resulting from moisture or condensation",
+      "applies_to": "Water damage",
+      "page": 1
+    },
+    {
+      "name": "Theft by the policyholder's staff",
+      "description": "Under the heading \"Theft\": Theft by the policyholder’s staff, unless committed outside their duties and provided that an offence is committed",
+      "applies_to": "Theft",
+      "page": 1
+    },
+    {
+      "name": "Climate risks: rainwater run-off, clogging, backflow, sewers, overflowing, rivers, flooding and floods",
+      "description": "Under the heading \"Climate risks\": Damage, even if caused by a storm, rainwater run-off in courtyards and gardens and/or on public and private roads, clogging, backflow and leakage from sewers and pipes, overflowing, rivers, flooding and floods",
+      "applies_to": "Climate risks",
+      "page": 1
+    },
+    {
+      "name": "Transport: non-material damage and defective packaging",
+      "description": "Under the heading \"Transport\": Non-material damage and damage due to defective packaging",
+      "applies_to": "Transport",
+      "page": 1
+    },
+    {
+      "name": "Breakage of professional equipment: portable telephones, GSM devices and equipment over 15 years old",
+      "description": "Under the heading \"Breakage of professional equipment\": Portable telephone and GSM devices, as well as equipment over 15 years old",
+      "applies_to": "** Breakage of professional equipment",
+      "page": 1
+    },
+    {
+      "name": "Restriction - Fire - Terrorism limit",
+      "description": "Printed under \"Are there any restrictions on cover ?\", heading \"Fire - Terrorism limit\": Annual intervention limit with a maximum of EUR 10,000,000.",
+      "applies_to": "Fire",
+      "page": 1
+    },
+    {
+      "name": "Restriction - Property damage maximum compensation limit",
+      "description": "Printed under \"Are there any restrictions on cover ?\", heading \"Property damage\": Maximum compensation limit of EUR 100,000",
+      "applies_to": "Property damage",
+      "page": 1
+    },
+    {
+      "name": "Restriction - Portable office automation and computer equipment limited to 25%",
+      "description": "Printed under \"Are there any restrictions on cover ?\", heading \"Office automation and computer equipment\": The amount insured for portable equipment is limited to 25% of the amount insured for office automation and computer equipment",
+      "applies_to": "* Breakage of office automation and computer equipment",
+      "page": 1
+    }
+  ],
+  "deductibles": null,
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Describe the risk completely and accurately",
+      "description": "Provide as complete and accurate a description as possible of the risk to be insured, without misrepresentation or omission",
+      "timing": "When subscribing",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Submit a certificate from the former insurance company",
+      "description": "Submit a certificate from the former insurance company specifying the degree of bonus-malus and any claims",
+      "timing": "When subscribing",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Report new circumstances increasing the risk",
+      "description": "Report to the company any new circumstances that may increase the risk or create new ones",
+      "timing": "During the contractual period",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Notify any change in the contract data",
+      "description": "Notify the company of any change in the data included in the contract, in particular in the event of a change of address or a change of bank account",
+      "timing": "During the contractual period",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Pay the insurance premiums within the time limits",
+      "description": "Pay your insurance premiums within the time limits stipulated in your contract. In case of non-payment, the company can suspend the warranties or cancel the contract",
+      "timing": "During the contractual period",
+      "sanction": "In case of non-payment, the company can suspend the warranties or cancel the contract",
+      "page": 2
+    },
+    {
+      "name": "Declare all claims and obtain the company's consent",
+      "description": "Declare all claims within eight days of their occurrence and obtain the company’s consent before any action involving its intervention",
+      "timing": "In the event of a claim",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Send in all items required to settle the claim",
+      "description": "Send in all the items required by the company to settle the claim. Transcripts, accident reports and other official documents must be sent as soon as possible.",
+      "timing": "In the event of a claim",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "General sanction for non-fulfilment of the obligations",
+      "description": "If the policyholder and/or the insured person or their beneficiaries do not fulfil one of the obligations provided for in the General Terms and Conditions and this results in damage to the Company, the Company is entitled to claim a reduction in its benefit up to the amount of the damage it has suffered. The Company may decline its coverage if the insured person or their beneficiaries have not fulfilled one of these obligations due to fraudulent intent.",
+      "timing": null,
+      "sanction": "The Company is entitled to claim a reduction in its benefit up to the amount of the damage it has suffered. The Company may decline its coverage if the insured person or their beneficiaries have not fulfilled one of these obligations due to fraudulent intent.",
+      "page": 2
+    },
+    {
+      "name": "Report a transfer of the property and/or rental risks within Luxembourg",
+      "description": "Moving: if the property and/or rental risks are transferred within the Grand Duchy of Luxembourg to places other than those indicated in the Special Conditions, the insurance remains applicable to them, subject to the policyholder reporting the transfer to the Company within three months of the transfer. In the event of a transfer of the policyholder’s domicile or registered office abroad, the insurance shall no longer be tacitly renewed and shall cease to have effect on the day of its next annual expiry date.",
+      "timing": "within three months of the transfer",
+      "sanction": null,
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Declare the claim",
+      "description": "Declare all claims within eight days of their occurrence and obtain the company’s consent before any action involving its intervention",
+      "deadline": "within eight days of their occurrence",
+      "page": 2
+    },
+    {
+      "step": "Obtain the company's consent before any action involving its intervention",
+      "description": "Declare all claims within eight days of their occurrence and obtain the company’s consent before any action involving its intervention",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Send the items required to settle the claim",
+      "description": "Send in all the items required by the company to settle the claim. Transcripts, accident reports and other official documents must be sent as soon as possible.",
+      "deadline": "as soon as possible (transcripts, accident reports and other official documents)",
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "The start (effective date) and expiry of the contract are indicated in the Special Conditions",
+    "tacit_renewal": true,
+    "notice_period": "30 days before the annual expiry date of the contract",
+    "methods": [
+      "Cancellation must be requested by registered letter 30 days before the annual expiry date of the contract, within one month following the cancellation of a guarantee or other contract by the company after a claim or within 60 days after a rate increase notified by the company."
+    ],
+    "special_rights": [
+      "within one month following the cancellation of a guarantee or other contract by the company after a claim",
+      "within 60 days after a rate increase notified by the company",
+      "The company may cancel the contract after a claim has been submitted, in the event of fraud, non-payment, or following notification 60 days before the annual expiry date of the contract.",
+      "In the event of a transfer of the policyholder’s domicile or registered office abroad, the insurance shall no longer be tacitly renewed and shall cease to have effect on the day of its next annual expiry date."
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "The amount indicated on the annual due date notice is payable on the first day of the month of the due date",
+      "Monthly payments may be made by direct debit, without additional costs",
+      "Pay your insurance premiums within the time limits stipulated in your contract. In case of non-payment, the company can suspend the warranties or cancel the contract"
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Sectors of activity - Sect. 1",
+      "description": "Sect. 1. Liberal professions and agencies",
+      "page": 1
+    },
+    {
+      "name": "Sectors of activity - Sect. 2",
+      "description": "Sect. 2. Medical, paramedical and pharmaceutical professions",
+      "page": 1
+    },
+    {
+      "name": "Sectors of activity - Sect. 3",
+      "description": "Sect. 3. Foodstuffs",
+      "page": 1
+    },
+    {
+      "name": "Sectors of activity - Sect. 4",
+      "description": "Sect. 4. Services, crafts and trades",
+      "page": 1
+    },
+    {
+      "name": "Sectors of activity - Sect. 5",
+      "description": "Sect. 5. Hotels, restaurants and cafés",
+      "page": 1
+    },
+    {
+      "name": "Sectors of activity - Sect. 6",
+      "description": "Sect. 6. Building professions",
+      "page": 1
+    },
+    {
+      "name": "Sectors of activity - Sect. 7",
+      "description": "Sect. 7. Motor vehicles",
+      "page": 1
+    },
+    {
+      "name": "Sectors of activity - Sect. 8",
+      "description": "Sect. 8. Agriculture",
+      "page": 1
+    },
+    {
+      "name": "What type of insurance is it ?",
+      "description": "easyPROTECT PRO - Property insurance - covers events likely to damage insured property, provided that such events and property are designated in the Special Conditions, and only in the context of the professional activity indicated in the Special Conditions.",
+      "page": 1
+    },
+    {
+      "name": "Disclaimer",
+      "description": "Disclaimer: This document is not tailored to your specific needs and the information and obligations set out herein are not exhaustive. For full information on the rights and obligations of the insurance company and policyholders, please consult the general and/or special conditions relating to the insurance product chosen.",
+      "page": 1
+    },
+    {
+      "name": "Non-exhaustive list",
+      "description": "The boxes \"What is insured ?\", \"What is not insured ?\" and \"Are there any restrictions on cover ?\" each close with the bold note \"Non-exhaustive list\".",
+      "page": 1
+    },
+    {
+      "name": "Territorial areas - general rule",
+      "description": "The guarantees are granted at the place of insurance indicated in the Special Conditions. Without prejudice to the mention of a special territorial area in the Special Conditions, the following territorial areas apply:",
+      "page": 2
+    },
+    {
+      "name": "Territorial areas - Moving",
+      "description": "Moving: if the property and/or rental risks are transferred within the Grand Duchy of Luxembourg to places other than those indicated in the Special Conditions, the insurance remains applicable to them, subject to the policyholder reporting the transfer to the Company within three months of the transfer. In the event of a transfer of the policyholder’s domicile or registered office abroad, the insurance shall no longer be tacitly renewed and shall cease to have effect on the day of its next annual expiry date.",
+      "page": 2
+    },
+    {
+      "name": "Territorial areas - Travel",
+      "description": "Travel: in the event of insurance of the equipment and when the “Fire”, “Water damage” and “Climate risk” insurance is taken out, the equipment is insured against fire when, for professional purposes, it is temporarily taken away from the premises indicated in the Special Conditions. The insurance covers up to 10% of the amount indicated in the Special Conditions for the equipment.",
+      "page": 2
+    },
+    {
+      "name": "Territorial areas - Transport",
+      "description": "Transport: damage occurring in the Grand Duchy of Luxembourg and within a radius of 600 km beyond its borders is covered.",
+      "page": 2
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "easyPROTECT PRO - Property insurance - covers events likely to damage insured property, provided that such events and property are \ndesignated in the Special Conditions, and only in the context of the professional activity indicated in the Special Conditions. ",
+      "context": "\"What type of insurance is it ?\" - scope of the product",
+      "page": 1
+    },
+    {
+      "quote": "\t Equipment: objects used for the insured activity, belonging both to \nthe insured person and to third parties, such as installations (in the \nwarehouse, workshop or office), professional equipment* (mechanical \nor electrical machine tools, except self-propelled machinery), or office \nautomation and computer equipment** ",
+      "context": "Insurable property - Equipment, with the crossed footnote asterisks",
+      "page": 1
+    },
+    {
+      "quote": "\t Fire: damage resulting from the fire itself by conflagration, flames or \nintense combustion or from explosions and implosions of any kind",
+      "context": "Guarantee Fire",
+      "page": 1
+    },
+    {
+      "quote": "\t Water damage: material damage resulting from blockage or breakage \nof gutters, guttering or storm water drains",
+      "context": "Guarantee Water damage, as printed",
+      "page": 1
+    },
+    {
+      "quote": "\t Theft: the designated property is insured against disappearance, \ndestruction and damage resulting from theft or attempted theft \ncommitted inside the main building or its outbuildings located on the \nsame site",
+      "context": "Guarantee Theft",
+      "page": 1
+    },
+    {
+      "quote": "\t Self-propelled land vehicles: if fire, theft or climate risks are insured, \nall material damage caused to self-propelled land vehicles within the \nconfines of the commercial operation is covered (inside and outside the \nbuildings).",
+      "context": "Guarantee Self-propelled land vehicles and its dependency",
+      "page": 1
+    },
+    {
+      "quote": "\t * Breakage of office automation and computer equipment: security \nfor the equipment inside the insured premises against any material \ndamage",
+      "context": "Guarantee * Breakage of office automation and computer equipment",
+      "page": 1
+    },
+    {
+      "quote": "\t ** Breakage of professional equipment: the equipment is insured \nagainst any unexpected and sudden material damage",
+      "context": "Guarantee ** Breakage of professional equipment",
+      "page": 1
+    },
+    {
+      "quote": "\t Interruption of activity/operations: if the interruption is caused by \na loss insured with fire, water damage or climate risks cover",
+      "context": "Guarantee Interruption of activity/operations and its dependency",
+      "page": 1
+    },
+    {
+      "quote": "\t Transport: coverage of goods and materials against material \ndamage occurring during road transport by the insured person or \ntheir agents ",
+      "context": "Guarantee Transport",
+      "page": 1
+    },
+    {
+      "quote": "\t Damage, loss and deterioration caused by biological and/or chemical \ncontamination in connection with an act of terrorism or caused by an \nearthquake",
+      "context": "Exclusion under Fire",
+      "page": 1
+    },
+    {
+      "quote": "\t Theft by the policyholder’s staff, unless committed outside their \nduties and provided that an offence is committed",
+      "context": "Exclusion under Theft",
+      "page": 1
+    },
+    {
+      "quote": "\t Damage, even if caused by a storm, rainwater run-off in courtyards \nand gardens and/or on public and private roads, clogging, backflow \nand leakage from sewers and pipes, overflowing, rivers, flooding and \nfloods",
+      "context": "Exclusion under Climate risks",
+      "page": 1
+    },
+    {
+      "quote": "\t Portable telephone and GSM devices, as well as equipment over 15 \nyears old",
+      "context": "Exclusion under Breakage of professional equipment",
+      "page": 1
+    },
+    {
+      "quote": "\t Annual intervention limit with a maximum of EUR 10,000,000.",
+      "context": "Restriction - Fire - Terrorism limit",
+      "page": 1
+    },
+    {
+      "quote": "\t Maximum compensation limit of EUR 100,000",
+      "context": "Restriction - Property damage",
+      "page": 1
+    },
+    {
+      "quote": "\t The amount insured for portable equipment is limited to 25% of the \namount insured for office automation and computer equipment ",
+      "context": "Restriction - Office automation and computer equipment",
+      "page": 1
+    },
+    {
+      "quote": "Non-exhaustive list",
+      "context": "Note at the foot of each of the three boxes",
+      "page": 1
+    },
+    {
+      "quote": "Disclaimer:  This document is not tailored to your specific needs and the information and obligations set out herein are not exhaustive. \nFor full information on the rights and obligations of the insurance company and policyholders, please consult the general and/or special \nconditions relating to the insurance product chosen.",
+      "context": "Disclaimer",
+      "page": 1
+    },
+    {
+      "quote": "The guarantees are granted at the place of insurance indicated in the Special Conditions. Without prejudice to the mention of a \nspecial territorial area in the Special Conditions, the following territorial areas apply:",
+      "context": "\"Where am I covered ?\" - general rule",
+      "page": 2
+    },
+    {
+      "quote": "\t Moving: if the property and/or rental risks are transferred within the Grand Duchy of Luxembourg to places other than those \nindicated in the Special Conditions, the insurance remains applicable to them, subject to the policyholder reporting the \ntransfer to the Company within three months of the transfer. In the event of a transfer of the policyholder’s domicile \nor registered office abroad, the insurance shall no longer be tacitly renewed and shall cease to have effect on the day \nof its next annual expiry date.",
+      "context": "Territorial area Moving, with the three-month reporting condition and the effect of a transfer abroad",
+      "page": 2
+    },
+    {
+      "quote": "\t Travel: in the event of insurance of the equipment and when the “Fire”, “Water damage” and “Climate risk” insurance is taken \nout, the equipment is insured against fire when, for professional purposes, it is temporarily taken away from the premises \nindicated in the Special Conditions. The insurance covers up to 10% of the amount indicated in the Special Conditions for the \nequipment.",
+      "context": "Territorial area Travel and its 10% limit",
+      "page": 2
+    },
+    {
+      "quote": "\t Transport: damage occurring in the Grand Duchy of Luxembourg and within a radius of 600 km beyond its borders is \ncovered.",
+      "context": "Territorial area Transport - 600 km radius",
+      "page": 2
+    },
+    {
+      "quote": "Pay your insurance premiums within the time limits stipulated in your contract. In case of non-payment, the company can \nsuspend the warranties or cancel the contract",
+      "context": "Obligation to pay the premiums and the sanction for non-payment",
+      "page": 2
+    },
+    {
+      "quote": "Declare all claims within eight days of their occurrence and obtain the company’s consent before any action involving its \nintervention",
+      "context": "Obligation to declare claims within eight days",
+      "page": 2
+    },
+    {
+      "quote": "If the policyholder and/or the insured person or their beneficiaries do not fulfil one of the obligations provided for in the General \nTerms and Conditions and this results in damage to the Company, the Company is entitled to claim a reduction in its benefit up \nto the amount of the damage it has suffered. The Company may decline its coverage if the insured person or their beneficiaries \nhave not fulfilled one of these obligations due to fraudulent intent.",
+      "context": "General sanction for non-fulfilment of the obligations",
+      "page": 2
+    },
+    {
+      "quote": "The amount indicated on the annual due date notice is payable on the first day of the month of the due date",
+      "context": "When and how do I pay - due date",
+      "page": 2
+    },
+    {
+      "quote": "Monthly payments may be made by direct debit, without additional costs",
+      "context": "When and how do I pay - monthly direct debit",
+      "page": 2
+    },
+    {
+      "quote": "The start (effective date) and expiry of the contract are indicated in the Special Conditions ",
+      "context": "Start and expiry of the contract",
+      "page": 2
+    },
+    {
+      "quote": "The contract is extended from year to year unless terminated by the customer or the company (tacit renewal)",
+      "context": "Tacit renewal",
+      "page": 2
+    },
+    {
+      "quote": "Cancellation must be requested by registered letter 30 days before the annual expiry date of the contract, within one month \nfollowing the cancellation of a guarantee or other contract by the company after a claim or within 60 days after a rate increase \nnotified by the company.",
+      "context": "How do I cancel the contract - policyholder's rights and deadlines",
+      "page": 2
+    },
+    {
+      "quote": "The company may cancel the contract after a claim has been submitted, in the event of fraud, non-payment, or following \nnotification 60 days before the annual expiry date of the contract.",
+      "context": "The company's cancellation rights",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "Pictogram marks: the ticks, crosses and exclamation marks of this IPID are placed bitmap images (page.get_images() / image blocks of get_text(\"dict\")), neither text nor vector drawings. Counted and assigned by coordinate: page 1 = 35 images, namely 26 green ticks (xref 19, 120x133 px), 6 red crosses (120x121 px) and 3 orange exclamation marks (xref 21, 40x148 px); page 2 = 3 green ticks (xref 19). The counts close exactly against the printed items: 26 ticks = 8 \"Sectors of activity\" + 6 \"Insurable property\" + 12 \"Guarantees offered\"; 6 crosses = the 6 items of \"What is not insured ?\"; 3 exclamation marks = the 3 items of \"Are there any restrictions on cover ?\"; and on page 2 the 3 ticks = the 3 territorial areas (Moving, Travel, Transport). Polarity was settled on a 4x render (green tick = insured, red cross = not insured, orange \"!\" = restriction). These marks are not text and therefore cannot appear in key_quotes.",
+    "Layout note that matters for attribution: the \"What is insured ?\" box is not confined to the left column. It runs down the left column (x0 29.8, 22 ticks) and CONTINUES at the top of the right column (x0 308.2, y 256.0-316.0, 4 more ticks: \"** Breakage of professional equipment\", \"Decontamination of soil and insured property\", \"Interruption of activity/operations\", \"Transport\"), before \"What is not insured ?\" starts lower in the same right column at y 383.3. Those four items were verified on a render to sit inside the green-tick box, above the red \"What is not insured ?\" banner. The flat text emits them in that same order, so no covered item was read as an exclusion.",
+    "Reading-order check (two-column page 1): the flat text emits the left column before the right column and follows the box wrap correctly, so there is NO column reversal. The only deviation is vertical: the two full-width blocks printed at the top of page 1 (the \"Disclaimer\" at y 130.7 and \"What type of insurance is it ?\" at y 180.6) are emitted LAST in the flat text, after all three boxes. Attachment was rebuilt from block coordinates throughout.",
+    "PRINTED DEFECT, kept and not repaired: the footnote asterisks are crossed. Under \"Insurable property - Equipment\" the document prints \"professional equipment*\" (one asterisk) and \"office automation and computer equipment**\" (two asterisks), while under \"Guarantees offered\" it prints \"* Breakage of office automation and computer equipment\" (one asterisk) and \"** Breakage of professional equipment\" (two asterisks). So the single asterisk marks \"professional equipment\" in one list and the office-automation guarantee in the other, and the double asterisk does the reverse. Confirmed on a 7x render, so it is printed and not a text-layer artefact. Both readings are recorded verbatim; the guarantee names keep their printed asterisks and nothing was swapped.",
+    "The restrictions box \"Are there any restrictions on cover ?\" holds three quantified limits (EUR 10,000,000 annual terrorism intervention limit for Fire, EUR 100,000 maximum compensation for Property damage, 25% cap on portable office automation and computer equipment). The schema has no separate restrictions array, so they are recorded in exclusions with the box named in each description, AND the same figures are attached to the corresponding coverages (limits / sub_limits). This is a deliberate double entry, not two different facts.",
+    "\"Insurable property\" (Building, Equipment, Goods, Harvesting, Animals, Self-propelled land vehicles) is printed inside the \"What is insured ?\" box with green ticks, but describes what property may be insured rather than a guarantee. The six items are recorded in definitions, not in coverages, and this choice is declared here so nothing looks lost.",
+    "\"Sectors of activity\" (Sect. 1 to Sect. 8) is likewise printed inside the \"What is insured ?\" box with green ticks. The eight sectors are recorded as eight separate special_conditions entries and repeated verbatim in target_audience_note; they were not merged.",
+    "The guarantee named \"Water damage\" is described in this document solely as \"material damage resulting from blockage or breakage of gutters, guttering or storm water drains\". That wording is recorded exactly as printed and was NOT completed from any other language version of this IPID, even though the description is narrower than the guarantee name suggests.",
+    "Rubric/content mismatch, kept and not repaired: a contract-duration rule is printed inside \"Where am I covered ?\". The \"Moving\" territorial item ends with \"In the event of a transfer of the policyholder's domicile or registered office abroad, the insurance shall no longer be tacitly renewed and shall cease to have effect on the day of its next annual expiry date.\" It is kept in the territorial special_conditions where it is printed and additionally recorded in duration_and_cancellation.special_rights.",
+    "Rubric/content mismatch, kept and not repaired: the \"Moving\" item also carries a reporting obligation (\"subject to the policyholder reporting the transfer to the Company within three months of the transfer\"), printed under \"Where am I covered ?\" rather than under \"What are my obligations ?\". It is recorded in obligations with its three-month timing and left in place in the territorial block.",
+    "No deductible/franchise is mentioned anywhere in the document; deductibles is null. No waiting period is mentioned; waiting_periods is empty. No prescription period is mentioned; prescription_period is null.",
+    "No insured sums are given: every amount is referred out to the Special Conditions, which are not part of this file. The only figures printed are EUR 10,000,000, EUR 100,000, 25%, 10%, 600 km, \"15 years old\", \"eight days\", \"three months\", \"30 days\", \"one month\" and \"60 days\", all copied verbatim. The euro glyph occurs zero times in the text layer, but the document spells the currency \"EUR\" before the figures on the render as well, so no currency mark was lost.",
+    "No edition date and no document reference are printed on either page (there is no footer); edition_date and reference are null. The PDF file metadata carries CreationDate D:20181008141529+02'00' and the InDesign file name \"IPID_LALUX_easyPROTECT PRO - Entreprise - Assurance de choses_EN.indd\" - file metadata, not printed content, and therefore not used as an edition date. Note that the file name says \"Entreprise\" while the document itself never uses that word; the document was preferred over the file name.",
+    "Risk carrier: the document names only the brand \"LALUX Assurances\" (\"LALUX Assurances - Product : easyPROTECT PRO\") and refers to \"the Company\" throughout. It never names a licensed insurance undertaking, so no carrier was derived from the brand. insurer_slug and insurer_name are copied unchanged from the task metadata.",
+    "target_audience: left null. The document states that cover applies \"only in the context of the professional activity indicated in the Special Conditions\" and lists eight eligible sectors that span both self-employed professionals (liberal professions, crafts) and businesses (hotels, restaurants, agriculture), so it does not select between \"independants\" and \"entreprises\". The printed wording is kept in target_audience_note; nothing was deduced from the product type or from the file name.",
+    "All three boxes close with the printed note \"Non-exhaustive list\". The extraction is complete with respect to the document, but the document declares its own lists incomplete; the full guarantee-by-guarantee exclusions are in the general and/or special conditions, which are not part of this file.",
+    "is_optional is null for all twelve guarantees: the document lists them under \"Guarantees offered\" with a green tick each but never says which are included by default and which must be taken out. Three of them state a dependency instead (\"Self-propelled land vehicles: if fire, theft or climate risks are insured\", \"Interruption of activity/operations: if the interruption is caused by a loss insured with fire, water damage or climate risks cover\", and the Travel territorial extension \"when the 'Fire', 'Water damage' and 'Climate risk' insurance is taken out\"), which is recorded in conditions.",
+    "Text-layer artefacts: narrow spaces U+2009 before question marks and colons in headings (\"What is insured ?\", \"Product :\"), curly apostrophes and curly double quotes (U+2019, U+201C/U+201D) inside sentences, and a leading tab left by each bitmap bullet. key_quotes are exact slices of this text layer (cut from the PDF, never retyped) and carry these characters; description fields were lightly cleaned (line breaks to spaces)."
+  ]
+}

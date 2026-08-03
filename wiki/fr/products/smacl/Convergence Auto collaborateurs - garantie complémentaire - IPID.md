@@ -136,6 +136,10 @@ Privation de jouissance résultant de l’immobilisation du véhicule.
 - Le texte du document tronque une référence légale : « conformément à l’article L.113-12 du Code » (page 2), sans « des assurances ». Conservé verbatim.
 - Le plafond de 100 000 000 € est énoncé globalement pour le contrat (« L’indemnité est limitée à 100 000 000 € ») ; il a été reporté à l’identique sur les trois garanties, le document ne détaillant pas de plafond par garantie (« Certaines garanties peuvent être soumises à des plafonds indiqués au contrat »).
 
+## Documents liés
+
+- [Convergence Auto collaborateurs - garantie en substitution - IPID](Convergence%20Auto%20collaborateurs%20-%20garantie%20en%20substitution%20-%20IPID.md) - IPID / Fiche d'information, éd. 02/2025
+
 ## Source & fidélité
 
 - Source : [https://www.smacl.fr/files/documents/document-information-convergence-accomplit-auto-collaborateurs-association.pdf](https://www.smacl.fr/files/documents/document-information-convergence-accomplit-auto-collaborateurs-association.pdf) - téléchargé le 2026-08-01 - 2 pages

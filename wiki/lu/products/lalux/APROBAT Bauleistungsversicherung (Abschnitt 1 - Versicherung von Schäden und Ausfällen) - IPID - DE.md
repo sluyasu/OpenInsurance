@@ -156,6 +156,11 @@ Entschädigt der Versicherer den Versicherungsnehmer für Schäden an denselben 
 - Both exclusion-bearing boxes and the restrictions box are closed by the label "Nicht vollständige Liste", and the "Hinweis" paragraph directs the reader to the Allgemeine Versicherungsbedingungen and Besondere Bedingungen, which are not part of this document.
 - Character and layout notes: the text layer contains U+2009 THIN SPACE (14 occurrences) before "?" and ":" in headings - so the heading string is "Was ist versichert\u2009?" and a plain-ASCII search does not match; note also that "Generelle Ausschlüsse in der Bauleistungsversicherung :" uses an ORDINARY space before its colon, inconsistently with the other headings. Two passages are fully justified in a narrow column and the text layer emits one word per line ("immaterielle \nSchäden \nwie \nNutzungsausfall, ..." and "oder \ngrobes \nVerschulden \ndes \nVersicherten"), and one exclusion is split at a real hyphen across a line break ("Material-\nfehler"). All key_quotes were sliced programmatically as exact spans and preserve these breaks verbatim. The prompt text was verified byte-identical to page.get_text("text") of the local PDF for both pages before extraction; the text was not truncated (2 pages).
 
+## Documents liés
+
+- Extension liée : [APROBAT - Bauleistungsversicherung (Abschnitt 2 - Haftpflichtversicherung) - IPID - DE](APROBAT%20-%20Bauleistungsversicherung%20%28Abschnitt%202%20-%20Haftpflichtversicherung%29%20-%20IPID%20-%20DE.md)
+- [APROBAT - Bauleistungsversicherung (Abschnitt 2 - Haftpflichtversicherung) - IPID - DE](APROBAT%20-%20Bauleistungsversicherung%20%28Abschnitt%202%20-%20Haftpflichtversicherung%29%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
+
 ## Source & fidélité
 
 - Source : [https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_aprobat_tous-risques-chantier_section-1_de.pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_aprobat_tous-risques-chantier_section-1_de.pdf) - téléchargé le 2026-08-02 - 2 pages

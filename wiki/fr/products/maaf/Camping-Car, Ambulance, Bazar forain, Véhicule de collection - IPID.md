@@ -216,6 +216,7 @@ Garantie optionnelle proposée « En plus pour ambulance et bazar forain ». Le 
 
 ## Documents liés
 
+- [Assurance Véhicule - IPID](Assurance%20V%C3%A9hicule%20-%20IPID.md) - IPID / Fiche d'information, éd. 2025-06
 - [CARAVANE, REMORQUE, CAMION, VEHICULES DIVERS - IPID](CARAVANE%2C%20REMORQUE%2C%20CAMION%2C%20VEHICULES%20DIVERS%20-%20IPID.md) - IPID / Fiche d'information, éd. 2025-06
 
 ## Source & fidélité

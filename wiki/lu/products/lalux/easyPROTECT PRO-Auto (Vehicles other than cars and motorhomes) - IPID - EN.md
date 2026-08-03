@@ -173,6 +173,7 @@ Damage to beneficiaries resulting from a bodily injury suffered by the insured p
 
 ## Documents liés
 
+- [easyPROTECT-PRO - Auto (Véhicules autres que voitures ou camping cars) - IPID](easyPROTECT-PRO%20-%20Auto%20%28V%C3%A9hicules%20autres%20que%20voitures%20ou%20camping%20cars%29%20-%20IPID.md) - IPID / Fiche d'information
 - [easyPROTECT PRO-Auto (Andere Fahrzeuge als PKW und Wohnmobile) - IPID - DE](easyPROTECT%20PRO-Auto%20%28Andere%20Fahrzeuge%20als%20PKW%20und%20Wohnmobile%29%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
 
 ## Source & fidélité

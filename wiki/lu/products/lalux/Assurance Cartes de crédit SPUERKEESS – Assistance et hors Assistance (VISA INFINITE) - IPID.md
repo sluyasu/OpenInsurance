@@ -190,6 +190,7 @@ Garantie d’assistance aux personnes en cas de maladie ou décès. Intitulé im
 
 ## Documents liés
 
+- [Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance (VISA CLASSIC) - IPID](Assurance%20Cartes%20de%20cr%C3%A9dit%20SPUERKEESS%20%E2%80%93%20Assistance%20et%20hors%20Assistance%20%28VISA%20CLASSIC%29%20-%20IPID.md) - IPID / Fiche d'information
 - [Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance (VISA BUSINESS) - IPID](Assurance%20Cartes%20de%20cr%C3%A9dit%20SPUERKEESS%20%E2%80%93%20Assistance%20et%20hors%20Assistance%20%28VISA%20BUSINESS%29%20-%20IPID.md) - IPID / Fiche d'information
 
 ## Source & fidélité

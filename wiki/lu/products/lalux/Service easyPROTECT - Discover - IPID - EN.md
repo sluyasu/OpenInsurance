@@ -171,6 +171,11 @@ The insurance covers damage occurring during the term of the contract, even if t
 - Character traps respected in the quotes: nine thin spaces (U+2009) before "?" and ":" in the headings, curly double quotes (U+201C/U+201D) around “Student accommodation”, one U+2019 apostrophe and U+2022 bullets isolated on their own lines. Structured fields carry the rendered form, quotes carry the text layer verbatim. All quotes were sliced programmatically as exact spans of the cited page and none crosses a [page N] marker.
 - Branche corrigee en amont le 2026-08-03: produit etudiants et apprentis de 15 a 27 ans excluant les activites professionnelles, dont le socle est une RC privee.
 
+## Documents liés
+
+- [easyPROTECT-Haftpflicht (Haftpflicht — Familie, Gebäude und Jagd (DE)) - IPID - DE](easyPROTECT-Haftpflicht%20%28Haftpflicht%20%E2%80%94%20Familie%2C%20Geb%C3%A4ude%20und%20Jagd%20%28DE%29%29%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
+- [Responsabilité Civile Familiale, Immeuble et Chasse - IPID](Responsabilit%C3%A9%20Civile%20Familiale%2C%20Immeuble%20et%20Chasse%20-%20IPID.md) - IPID / Fiche d'information
+
 ## Source & fidélité
 
 - Source : [https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_discover_lalux_easyprotect_en.pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_discover_lalux_easyprotect_en.pdf) - téléchargé le 2026-08-02 - 2 pages

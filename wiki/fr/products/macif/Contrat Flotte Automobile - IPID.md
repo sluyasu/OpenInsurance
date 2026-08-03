@@ -30,7 +30,7 @@ extraction_model: claude-code-subagent:scale
 prompt_version: '1.1'
 product_family: contrat-flotte-automobile
 variant: null
-edition_status: null
+edition_status: current
 edition_age_years: 7
 superseded: null
 extends: null
@@ -302,6 +302,11 @@ Transport sanitaire, frais médicaux, présence d'un proche.
 - Aucun délai de prescription n'est mentionné : `prescription_period` est laissé à null. Le DIPA renvoie explicitement à « la documentation pré contractuelle et contractuelle » pour l'information complète, non jointe.
 - Les montants de franchise ne sont pas chiffrés : le document indique seulement qu'« une somme peut rester à la charge de l'assuré (franchise) » et que les catastrophes naturelles supportent « une franchise légale et inassurable ».
 - Le prompt n'a pas été tronqué (2 pages sur 2) ; l'extraction locale du PDF a été comparée page à page au texte du prompt et est identique octet pour octet.
+
+## Documents liés
+
+- Édition courante de ce produit.
+- [Contrat Flotte Automobile - IPID](Contrat%20Flotte%20Automobile%20-%20IPID%20%282%29.md) - IPID / Fiche d'information, éd. 10/18
 
 ## Source & fidélité
 

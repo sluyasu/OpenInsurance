@@ -274,6 +274,9 @@ Garantie nommée uniquement dans l’encadré « Où suis-je couvert(e) ? » de 
 ## Documents liés
 
 - [easyPROTECT PRO – Assurance de choses - IPID](easyPROTECT%20PRO%20%E2%80%93%20Assurance%20de%20choses%20-%20IPID.md) - IPID / Fiche d'information
+- [easyPROTECT PRO (Sachversicherungen) - IPID - DE](easyPROTECT%20PRO%20%28Sachversicherungen%29%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
+- [easyPROTECT PRO – Civil liability insurance - IPID - EN](easyPROTECT%20PRO%20%E2%80%93%20Civil%20liability%20insurance%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+- [easyPROTECT PRO – Property insurance - IPID - EN](easyPROTECT%20PRO%20%E2%80%93%20Property%20insurance%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 
 ## Source & fidélité
 

@@ -1,0 +1,586 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "lu",
+  "insurer_slug": "lalux",
+  "insurer_name": "lalux",
+  "product_name": "Tous Risques - ORANGE",
+  "branch": "autres",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "Le document ne nomme aucune catégorie de public. Il propose deux formules, « Assurance individuelle : » et « Assurance Famille : », et réserve la garantie aux appareils « appartenant et/ou utilisé par l’assuré et acheté à l’état neuf dans le cadre d’un abonnement ORANGE ».",
+  "reference": null,
+  "edition_date": null,
+  "product_family": "Tous Risques - ORANGE",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/ipid_assurance_orange_tous_risques_fr.pdf",
+  "source_pdf": "31281kb-c03592fd.pdf",
+  "source_sha256": "4bab04bdb75baef815dc1c35f39d3fdfaa7e9a4db11acc9b428ac851147449df",
+  "source_pages": 2,
+  "fetched_at": "2026-08-02",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d’information sur le produit d’assurance (IPID) de LALUX Assurances pour le produit « Tous Risques - ORANGE », souscrit comme option d’un abonnement ORANGE. L’assurance couvre les appareils (téléphoniques) mobiles en formule « Assurance individuelle » et, en formule « Assurance Famille », également les appareils numériques (tablettes ou ordinateurs portables), contre la casse accidentelle, le vol par effraction, agression et à la tire, l’oxydation accidentelle et la panne, ainsi que l’usage frauduleux du téléphone portable à la suite d’un vol. La couverture est valable dans le monde entier, la limite par sinistre est de 1.400 EUR (individuelle) ou 2.000 EUR (famille) et une franchise de 50 EUR s’applique à chaque réparation ou remplacement.",
+  "definitions": [
+    {
+      "term": "Casse accidentelle",
+      "definition": "Toute destruction ou détérioration empêchant le bon fonctionnement de l’appareil assuré et qui résulte d’une cause accidentelle agissant de l’extérieur ou d’une maladresse/négligence.",
+      "page": 1
+    },
+    {
+      "term": "Effraction",
+      "definition": "Vol commis par le forcement, la dégradation ou la destruction de tout dispositif de fermeture d’un local d’habitation",
+      "page": 1
+    },
+    {
+      "term": "Agression",
+      "definition": "Vol précédé, accompagné ou suivi de violence ou de menaces",
+      "page": 1
+    },
+    {
+      "term": "Vol à la tire (pickpocket)",
+      "definition": "vol, sans menace, ni violence, opéré dans la poche, le sac ou le vêtement de l’assuré",
+      "page": 1
+    },
+    {
+      "term": "Oxydation accidentelle",
+      "definition": "Oxydation causée par un événement imprévu, accidentel et agissant de l’extérieur.",
+      "page": 1
+    },
+    {
+      "term": "Panne",
+      "definition": "Dommage d’origine interne à l’appareil assuré ayant une cause électronique, électrique, etc.",
+      "page": 1
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Assurance individuelle",
+      "description": "Garantie acquise pour un appareil (téléphonique) mobile (téléphone portable ou smartphone) appartenant et/ou utilisé par l’assuré et acheté à l’état neuf dans le cadre d’un abonnement ORANGE.",
+      "is_optional": null,
+      "territorial_scope": "L’assurance est valable dans le monde entier.",
+      "limits": "Limite maximale de 1.400 EUR par sinistre avec un maximum de 1 sinistre par année d’adhésion",
+      "sub_limits": [
+        "1.400 EUR par sinistre",
+        "maximum de 1 sinistre par année d’adhésion"
+      ],
+      "deductible": "une franchise de 50 EUR pour chaque réparation ou remplacement d’appareil est applicable.",
+      "conditions": [
+        "Appareil appartenant et/ou utilisé par l’assuré",
+        "Appareil acheté à l’état neuf dans le cadre d’un abonnement ORANGE"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assurance Famille",
+      "description": "Garantie acquise pour les appareils (téléphoniques) mobiles et appareils numériques (tablettes ou ordinateurs portables) appartenant et/ou utilisés par l’assuré et achetés à l’état neuf dans le cadre d’un abonnement ORANGE.",
+      "is_optional": null,
+      "territorial_scope": "L’assurance est valable dans le monde entier.",
+      "limits": "Limite maximale de 2.000 EUR par sinistre avec un maximum de 3 sinistres par année d’adhésion",
+      "sub_limits": [
+        "2.000 EUR par sinistre",
+        "maximum de 3 sinistres par année d’adhésion"
+      ],
+      "deductible": "une franchise de 50 EUR pour chaque réparation ou remplacement d’appareil est applicable.",
+      "conditions": [
+        "Appareils appartenant et/ou utilisés par l’assuré",
+        "Appareils achetés à l’état neuf dans le cadre d’un abonnement ORANGE"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Casse accidentelle",
+      "description": "Toute destruction ou détérioration empêchant le bon fonctionnement de l’appareil assuré et qui résulte d’une cause accidentelle agissant de l’extérieur ou d’une maladresse/négligence.",
+      "is_optional": null,
+      "territorial_scope": "L’assurance est valable dans le monde entier.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "une franchise de 50 EUR pour chaque réparation ou remplacement d’appareil est applicable.",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Vol par effraction, agression et à la tire",
+      "description": "Effraction: Vol commis par le forcement, la dégradation ou la destruction de tout dispositif de fermeture d’un local d’habitation. Agression: Vol précédé, accompagné ou suivi de violence ou de menaces. Vol à la tire (pickpocket): vol, sans menace, ni violence, opéré dans la poche, le sac ou le vêtement de l’assuré.",
+      "is_optional": null,
+      "territorial_scope": "L’assurance est valable dans le monde entier.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "une franchise de 50 EUR pour chaque réparation ou remplacement d’appareil est applicable.",
+      "conditions": [
+        "En cas de Vol de l’appareil assuré: le délai de déclaration du sinistre est ramené à 48 heures"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Oxydation accidentelle",
+      "description": "Oxydation causée par un événement imprévu, accidentel et agissant de l’extérieur.",
+      "is_optional": null,
+      "territorial_scope": "L’assurance est valable dans le monde entier.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "une franchise de 50 EUR pour chaque réparation ou remplacement d’appareil est applicable.",
+      "conditions": [
+        "l’oxydation prévisible est exclue de la couverture"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Panne",
+      "description": "Dommage d’origine interne à l’appareil assuré ayant une cause électronique, électrique, etc.",
+      "is_optional": null,
+      "territorial_scope": "L’assurance est valable dans le monde entier.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "une franchise de 50 EUR pour chaque réparation ou remplacement d’appareil est applicable.",
+      "conditions": [
+        "événement uniquement assuré pour les cas où la garantie du constructeur n’interviendrait plus"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Usage frauduleux du téléphone portable à la suite d’un vol",
+      "description": "Remboursement des communications frauduleuses effectuées par des tiers, suite au vol garanti de l’appareil assuré, émises dans les 48 heures suivant ce vol et avant la mise hors service de la ligne téléphonique par l’opérateur.",
+      "is_optional": null,
+      "territorial_scope": "L’assurance est valable dans le monde entier.",
+      "limits": null,
+      "sub_limits": [
+        "communications émises dans les 48 heures suivant ce vol et avant la mise hors service de la ligne téléphonique par l’opérateur"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Suite au vol garanti de l’appareil assuré",
+        "En cas d’utilisation frauduleuse de la carte SIM : le délai de déclaration du sinistre est ramené à 48 heures"
+      ],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Utilisation par une personne autre que l’assuré",
+      "description": "Casse ou Vol de l’appareil assuré lorsqu’il est utilisé par une personne autre que l’assuré",
+      "applies_to": "Casse accidentelle / Vol par effraction, agression et à la tire",
+      "page": 1
+    },
+    {
+      "name": "Usage non conforme",
+      "description": "Casse lorsque l’appareil assuré n’est pas utilisé conformément à son usage",
+      "applies_to": "Casse accidentelle",
+      "page": 1
+    },
+    {
+      "name": "Appareils oubliés, égarés ou perdus",
+      "description": "Les appareils simplement oubliés, égarés ou perdus ;",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Vol d’appareils laissés sans surveillance dans les lieux publics",
+      "description": "Le vol des appareils laissés sans surveillance dans les lieux publics, les plages, les campings et tous autres endroits accessibles au public",
+      "applies_to": "Vol par effraction, agression et à la tire",
+      "page": 1
+    },
+    {
+      "name": "Dommages relevant de la responsabilité du fournisseur",
+      "description": "Les dommages dont le fournisseur est responsable légalement ou en vertu d’un contrat",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dommages purement esthétiques",
+      "description": "Les dommages purement esthétiques ainsi que les dommages accidentels causés aux parties extérieures de l’appareil assuré et dont l’endommagement ne nuit pas à son bon fonctionnement tels que rayures, égratignures, écaillures",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Oxydation prévisible",
+      "description": "Oxydation accidentelle : l’oxydation prévisible est exclue de la couverture [figure sous la rubrique « Y a-t-il des exclusions à la couverture ? » ; il s’agit bien d’une exclusion]",
+      "applies_to": "Oxydation accidentelle",
+      "page": 1
+    },
+    {
+      "name": "Panne couverte seulement hors garantie constructeur",
+      "description": "Panne : événement uniquement assuré pour les cas où la garantie du constructeur n’interviendrait plus [figure sous la rubrique « Y a-t-il des exclusions à la couverture ? » ; il s’agit d’une condition de la couverture et non d’une exclusion]",
+      "applies_to": "Panne",
+      "page": 1
+    },
+    {
+      "name": "Appareil irréparable - indemnité limitée par vétusté",
+      "description": "Appareil irréparable : Lorsque l’appareil doit être remplacé par ORANGE (en cas de Vol, d’Oxydation ou en cas de tout autre évènement assuré) l’indemnité de la compagnie sera accordée dans la limite des valeurs suivantes : - Appareils âgés de moins de 1 an : prix d’achat suivant facture et déduction d’une vétusté de 5% - Appareils âgés de plus de 1 an et de moins 2 ans : le prix d’achat suivant facture et déduction d’une vétusté de 15% - Appareils âgés de plus de 2 ans et de moins 3 ans : le prix d’achat suivant facture, et déduction d’une vétusté de 50% - Appareils âgés de plus de 3 ans : le prix d’achat suivant facture, et déduction d’une vétusté de 75% [figure sous la rubrique « Y a-t-il des exclusions à la couverture ? » ; il s’agit d’un barème d’indemnisation et non d’une exclusion]",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Franchise de 50 EUR",
+      "description": "Franchise : une franchise de 50 EUR pour chaque réparation ou remplacement d’appareil est applicable. [figure sous la rubrique « Y a-t-il des exclusions à la couverture ? » ; il s’agit d’une franchise et non d’une exclusion]",
+      "applies_to": "all",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": "une franchise de 50 EUR pour chaque réparation ou remplacement d’appareil est applicable.",
+    "variable": null,
+    "per_coverage": null,
+    "page": 1
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Déclaration du sinistre",
+      "description": "Pour toutes les garanties du présent contrat, de déclarer le sinistre dans les 5 jours ouvrés suivant la connaissance du sinistre sur base du formulaire « déclaration de sinistre ORANGE » mis à disposition de l’assuré sur le site internet www.orange.lu ou en appelant le service clients ORANGE au numéro (00352) 80061606.",
+      "timing": "En cas de sinistre",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Fourniture de documents et renseignements",
+      "description": "de fournir sans retard à l’assureur tous documents et renseignements utiles et véridiques et répondre aux demandes qui lui sont faites pour déterminer les circonstances et fixer l’étendue du sinistre.",
+      "timing": "En cas de sinistre",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Mesures de sauvegarde",
+      "description": "de prendre toutes les mesures raisonnables pour prévenir les dommages et atténuer les conséquences du sinistre.",
+      "timing": "En cas de sinistre",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Délai réduit en cas de Vol",
+      "description": "En cas de Vol de l’appareil assuré: le délai de déclaration du sinistre est ramené à 48 heures;",
+      "timing": "En cas de Vol de l’appareil assuré",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Mise hors service de la ligne (Vol)",
+      "description": "Contacter le service clients ORANGE au numéro (00352) 80061606 pour demander la mise hors service de la ligne téléphonique de l’appareil assuré.",
+      "timing": "En cas de Vol de l’appareil assuré",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Dépôt de plainte",
+      "description": "déposer plainte auprès de l’autorité compétente et exiger une attestation de dépôt de plainte, avec description détaillée des circonstances à l’origine du sinistre et mention de tous les faits, objets volés, des traces d’effraction ou des traces de violence physique, exiger une copie de l’attestation et joindre les témoignages, si possible.",
+      "timing": "En cas de Vol de l’appareil assuré",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Délai réduit en cas d’utilisation frauduleuse de la carte SIM",
+      "description": "En cas d’utilisation frauduleuse de la carte SIM : le délai de déclaration du sinistre est ramené à 48 heures",
+      "timing": "En cas d’utilisation frauduleuse de la carte SIM",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Mise hors service de la ligne (carte SIM)",
+      "description": "Contacter le service clients ORANGE au numéro (00352) 80061606 pour demander la mise hors service de la ligne téléphonique de l’appareil assuré.",
+      "timing": "En cas d’utilisation frauduleuse de la carte SIM",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Adressage des déclarations de sinistres",
+      "description": "Les déclarations de sinistres sont à adresser par courrier, fax ou e-mail à : Adresse: Orange Communications Luxembourg S.A., 8, rue des Mérovingiens, L-8070 Bertrange E-mail: orange@lalux.lu",
+      "timing": "En cas de sinistre",
+      "sanction": null,
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclarer le sinistre",
+      "description": "Pour toutes les garanties du présent contrat, de déclarer le sinistre dans les 5 jours ouvrés suivant la connaissance du sinistre sur base du formulaire « déclaration de sinistre ORANGE » mis à disposition de l’assuré sur le site internet www.orange.lu ou en appelant le service clients ORANGE au numéro (00352) 80061606.",
+      "deadline": "dans les 5 jours ouvrés suivant la connaissance du sinistre",
+      "page": 2
+    },
+    {
+      "step": "Fournir documents et renseignements",
+      "description": "de fournir sans retard à l’assureur tous documents et renseignements utiles et véridiques et répondre aux demandes qui lui sont faites pour déterminer les circonstances et fixer l’étendue du sinistre.",
+      "deadline": "sans retard",
+      "page": 2
+    },
+    {
+      "step": "Prévenir et atténuer",
+      "description": "de prendre toutes les mesures raisonnables pour prévenir les dommages et atténuer les conséquences du sinistre.",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Vol : déclarer sous 48 heures",
+      "description": "En cas de Vol de l’appareil assuré: le délai de déclaration du sinistre est ramené à 48 heures;",
+      "deadline": "48 heures",
+      "page": 2
+    },
+    {
+      "step": "Vol : faire mettre la ligne hors service",
+      "description": "Contacter le service clients ORANGE au numéro (00352) 80061606 pour demander la mise hors service de la ligne téléphonique de l’appareil assuré.",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Vol : déposer plainte",
+      "description": "déposer plainte auprès de l’autorité compétente et exiger une attestation de dépôt de plainte, avec description détaillée des circonstances à l’origine du sinistre et mention de tous les faits, objets volés, des traces d’effraction ou des traces de violence physique, exiger une copie de l’attestation et joindre les témoignages, si possible.",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Carte SIM : déclarer sous 48 heures et faire mettre la ligne hors service",
+      "description": "En cas d’utilisation frauduleuse de la carte SIM : le délai de déclaration du sinistre est ramené à 48 heures. Contacter le service clients ORANGE au numéro (00352) 80061606 pour demander la mise hors service de la ligne téléphonique de l’appareil assuré.",
+      "deadline": "48 heures",
+      "page": 2
+    },
+    {
+      "step": "Envoi de la déclaration",
+      "description": "Les déclarations de sinistres sont à adresser par courrier, fax ou e-mail à : Adresse: Orange Communications Luxembourg S.A., 8, rue des Mérovingiens, L-8070 Bertrange E-mail: orange@lalux.lu",
+      "deadline": null,
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Durée de l’adhésion : la couverture est conclue pour une durée d’un (1) an à compter de sa date d’effet. Elle est ensuite reconduite, à chaque date d’anniversaire de souscription, par tacite reconduction, pour des périodes successives d’un (1) an.",
+    "tacit_renewal": true,
+    "notice_period": null,
+    "methods": [
+      "La résiliation sera faite auprès du service clients Orange."
+    ],
+    "special_rights": [
+      "Date d’effet de l’adhésion et des garanties : la couverture prend effet à compter de la date de souscription de l’option « Assurance ORANGE ».",
+      "Résiliation et cessation de l’adhésion : l’Assuré a la faculté de résilier sans frais son adhésion à tout moment, y compris pendant la première (1) année d’adhésion sauf pendant les trois (3) premiers mois à compter de la date d’effet de l’adhésion.",
+      "L’adhésion et la couverture prennent également fin, p.ex. en cas de l’aliénation, disparition ou de destruction totale de l’appareil assuré si l’appareil n’est pas remplacé par un appareil de substitution",
+      "L’adhésion et la couverture prennent également fin, p.ex. en cas de non-paiement des cotisations mensuelles par l’assuré",
+      "L’adhésion et la couverture prennent également fin, p.ex. en cas de résiliation par le preneur ou l’assuré de son abonnement ORANGE.",
+      "Le document mentionne un « délai de renonciation » sans en préciser la durée."
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "La prime annuelle d’assurance, (4% impôts compris) correspondant à l’option « Assurance ORANGE » choisie par l’Assuré et réglée mensuellement par l’Assuré, avec son accord exprès, dès la date d’adhésion, soit avant l’échéance du délai de renonciation, par règlement mensuel sur la facture ORANGE.",
+      "La prime des Assurances ORANGE sera encaissée par ORANGE par anticipation sur une base mensuelle, en tant que partie de la facture mensuelle pour les services ORANGE.",
+      "L’adhésion et la couverture prennent fin en cas de non-paiement des cotisations mensuelles par l’assuré."
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Avertissement (portée du document)",
+      "description": "le présent document n’est pas personnalisé en fonction de vos besoins spécifiques et les informations et obligations prévues dans le présent document ne sont pas exhaustives. Pour toute information complète quant aux droits et obligations de l’entreprise d’assurances et de l’assuré, veuillez consulter les conditions générales et/ou particulières relatives au produit d’assurance choisi.",
+      "page": 1
+    },
+    {
+      "name": "Liste non exhaustive (Qu’est-ce qui n’est pas assuré ?)",
+      "description": "L’encadré « Qu’est-ce qui n’est pas assuré ? » porte en pied la mention « Liste non exhaustive ».",
+      "page": 1
+    },
+    {
+      "name": "Liste non exhaustive (Y a-t-il des exclusions à la couverture ?)",
+      "description": "L’encadré « Y a-t-il des exclusions à la couverture ? » porte en pied la mention « Liste non exhaustive ».",
+      "page": 1
+    },
+    {
+      "name": "Liste non exhaustive (Comment puis-je résilier le contrat ?)",
+      "description": "L’encadré « Comment puis-je résilier le contrat ? » porte en pied la mention « Liste non exhaustive ».",
+      "page": 2
+    },
+    {
+      "name": "Adhésion liée à un abonnement ORANGE",
+      "description": "La couverture prend effet à compter de la date de souscription de l’option « Assurance ORANGE » et prend fin en cas de résiliation par le preneur ou l’assuré de son abonnement ORANGE ; les appareils doivent avoir été achetés à l’état neuf dans le cadre d’un abonnement ORANGE.",
+      "page": 2
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "LALUX Assurances - Produit : Tous Risques - ORANGE",
+      "context": "Ligne d’identification : seule mention de l’émetteur, marque seule",
+      "page": 1
+    },
+    {
+      "quote": "Dans le cadre de l’assurance ORANGE, qui est valable dans le monde entier, sont couverts les appareils (téléphoniques) mobiles (assurance \nindividuelle) et les appareils numériques (assurance famille) contre les risques de casse, vol, panne ou oxydation. Une couverture est \négalement accordée pour le risque d’usage frauduleux du téléphone portable à la suite d’un vol.",
+      "context": "Type d’assurance et objet de la couverture",
+      "page": 1
+    },
+    {
+      "quote": "Garantie acquise pour un appareil (téléphonique) mobile (téléphone \nportable ou smartphone) appartenant et/ou utilisé par l’assuré et \nacheté à l’état neuf dans le cadre d’un abonnement ORANGE.",
+      "context": "Champ de la formule Assurance individuelle",
+      "page": 1
+    },
+    {
+      "quote": "Limite maximale de 1.400 EUR par sinistre avec un maximum de 1 \nsinistre par année d’adhésion",
+      "context": "Plafond de la formule Assurance individuelle",
+      "page": 1
+    },
+    {
+      "quote": "Garantie acquise pour les appareils (téléphoniques) mobiles \net appareils numériques (tablettes ou ordinateurs portables) \nappartenant et/ou utilisés par l’assuré et achetés à l’état neuf dans le \ncadre d’un abonnement ORANGE.",
+      "context": "Champ de la formule Assurance Famille",
+      "page": 1
+    },
+    {
+      "quote": "Limite maximale de 2.000 EUR par sinistre avec un maximum de 3 \nsinistres par année d’adhésion",
+      "context": "Plafond de la formule Assurance Famille",
+      "page": 1
+    },
+    {
+      "quote": "Les appareils sont assurés contre les événements suivants :",
+      "context": "Chapeau de la liste des garanties",
+      "page": 1
+    },
+    {
+      "quote": "Toute destruction ou détérioration empêchant le bon fonctionnement \nde l’appareil assuré et qui résulte d’une cause accidentelle agissant de \nl’extérieur ou d’une maladresse/négligence.",
+      "context": "Définition de la Casse accidentelle",
+      "page": 1
+    },
+    {
+      "quote": "Effraction: Vol commis par le forcement, la dégradation ou la \ndestruction de tout dispositif de fermeture d’un local d’habitation",
+      "context": "Définition de l’Effraction",
+      "page": 1
+    },
+    {
+      "quote": "Agression: Vol précédé, accompagné ou suivi de violence ou de \nmenaces",
+      "context": "Définition de l’Agression",
+      "page": 1
+    },
+    {
+      "quote": "Vol à la tire (pickpocket): vol, sans menace, ni violence, opéré dans la \npoche, le sac ou le vêtement de l’assuré",
+      "context": "Définition du Vol à la tire",
+      "page": 1
+    },
+    {
+      "quote": "Oxydation causée par un événement imprévu, accidentel et agissant \nde l’extérieur.",
+      "context": "Définition de l’Oxydation accidentelle",
+      "page": 1
+    },
+    {
+      "quote": "Dommage d’origine interne à l’appareil assuré ayant une cause \nélectronique, électrique, etc.",
+      "context": "Définition de la Panne",
+      "page": 1
+    },
+    {
+      "quote": "Remboursement des communications frauduleuses effectuées \npar des tiers, suite au vol garanti de l’appareil assuré, émises dans \nles 48 heures suivant ce vol et avant la mise hors service de la ligne \ntéléphonique par l’opérateur.",
+      "context": "Garantie usage frauduleux à la suite d’un vol",
+      "page": 1
+    },
+    {
+      "quote": "Casse ou Vol de l’appareil assuré lorsqu’il est utilisé par une \npersonne autre que l’assuré",
+      "context": "Exclusion : usage par un tiers",
+      "page": 1
+    },
+    {
+      "quote": "Les appareils simplement oubliés, égarés ou perdus ;",
+      "context": "Exclusion : perte et oubli",
+      "page": 1
+    },
+    {
+      "quote": "Le vol des appareils laissés sans surveillance dans les lieux publics, \nles plages, les campings et tous autres endroits accessibles au \npublic",
+      "context": "Exclusion : vol sans surveillance en lieu public",
+      "page": 1
+    },
+    {
+      "quote": "Les dommages purement esthétiques ainsi que les dommages \naccidentels causés aux parties extérieures de l’appareil assuré et \ndont l’endommagement ne nuit pas à son bon fonctionnement \ntels que rayures, égratignures, écaillures",
+      "context": "Exclusion : dommages esthétiques",
+      "page": 1
+    },
+    {
+      "quote": "Y a-t-il des exclusions à la couverture",
+      "context": "Intitulé de l’encadré dont le contenu est signalé comme non conforme",
+      "page": 1
+    },
+    {
+      "quote": "l’oxydation prévisible est exclue de la \ncouverture",
+      "context": "Seule exclusion véritable de l’encadré « exclusions »",
+      "page": 1
+    },
+    {
+      "quote": "événement uniquement assuré pour les cas où la garantie \ndu constructeur n’interviendrait plus",
+      "context": "Condition de la garantie Panne, classée en exclusion par le document",
+      "page": 1
+    },
+    {
+      "quote": "Lorsque l’appareil doit être remplacé par ORANGE (en cas de Vol, \nd’Oxydation ou en cas de tout autre évènement assuré) l’indemnité \nde la compagnie sera accordée dans la limite des valeurs suivantes :",
+      "context": "Chapeau du barème de vétusté (appareil irréparable)",
+      "page": 1
+    },
+    {
+      "quote": "Appareils âgés de moins de 1 an : prix d’achat suivant facture et \ndéduction d’une vétusté de 5%",
+      "context": "Barème de vétusté - moins de 1 an",
+      "page": 1
+    },
+    {
+      "quote": "Appareils âgés de plus de 3 ans : le prix d’achat suivant facture, \net déduction d’une vétusté de 75%",
+      "context": "Barème de vétusté - plus de 3 ans",
+      "page": 1
+    },
+    {
+      "quote": "une franchise de 50 EUR pour chaque réparation ou \nremplacement d’appareil est applicable.",
+      "context": "Franchise, classée en exclusion par le document",
+      "page": 1
+    },
+    {
+      "quote": "le présent document n’est pas personnalisé en fonction de vos besoins spécifiques et les informations et \nobligations prévues dans le présent document ne sont pas exhaustives. Pour toute information complète quant aux droits et \nobligations de l’entreprise d’assurances et de l’assuré, veuillez consulter les conditions générales et/ou particulières relatives au \nproduit d’assurance choisi.",
+      "context": "Avertissement sur la portée du document",
+      "page": 1
+    },
+    {
+      "quote": "L’assurance est valable dans le monde entier.",
+      "context": "Portée territoriale",
+      "page": 2
+    },
+    {
+      "quote": "Pour toutes les garanties du présent contrat, de déclarer le sinistre dans les 5 jours ouvrés suivant la connaissance du \nsinistre sur base du formulaire « déclaration de sinistre ORANGE » mis à disposition de l’assuré sur le site internet www.\norange.lu ou en appelant le service clients ORANGE au numéro (00352) 80061606.",
+      "context": "Délai et modalité de déclaration de sinistre",
+      "page": 2
+    },
+    {
+      "quote": "En cas de Vol de l’appareil assuré: le délai de déclaration du sinistre est ramené à 48 heures;",
+      "context": "Délai réduit en cas de vol",
+      "page": 2
+    },
+    {
+      "quote": "En cas d’utilisation frauduleuse de la carte SIM : le délai de déclaration du sinistre est ramené à 48 heures",
+      "context": "Délai réduit en cas d’utilisation frauduleuse de la carte SIM",
+      "page": 2
+    },
+    {
+      "quote": "La prime annuelle d’assurance, (4% impôts compris) correspondant à l’option « Assurance ORANGE » choisie par l’Assuré \net réglée mensuellement par l’Assuré, avec son accord exprès, dès la date d’adhésion, soit avant l’échéance du délai de \nrenonciation, par règlement mensuel sur la facture ORANGE.",
+      "context": "Mécanique de la prime",
+      "page": 2
+    },
+    {
+      "quote": "Durée de l’adhésion : la couverture est conclue pour une durée d’un (1) an à compter de sa date d’effet. Elle est ensuite \nreconduite, à chaque date d’anniversaire de souscription, par tacite reconduction, pour des périodes successives d’un (1) an.",
+      "context": "Durée et tacite reconduction",
+      "page": 2
+    },
+    {
+      "quote": "Résiliation et cessation de l’adhésion : l’Assuré a la faculté de résilier sans frais son adhésion à tout moment, y compris pendant \nla première (1) année d’adhésion sauf pendant les trois (3) premiers mois à compter de la date d’effet de l’adhésion. La résiliation \nsera faite auprès du service clients Orange.",
+      "context": "Faculté de résiliation et carence de trois mois",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "Rubrique fautive (conservée telle quelle, non réparée) : l’encadré « Y a-t-il des exclusions à la couverture ? » de la page 1 contient quatre entrées dont une seule est une exclusion au sens propre (« Oxydation accidentelle : l’oxydation prévisible est exclue de la couverture »). Les trois autres sont une condition de garantie (« Panne : événement uniquement assuré pour les cas où la garantie du constructeur n’interviendrait plus »), un barème d’indemnisation par vétusté (« Appareil irréparable : … 5% / 15% / 50% / 75% ») et une franchise (« Franchise : une franchise de 50 EUR … »). Les quatre entrées ont été laissées dans exclusions[] comme le document les classe, avec une mention entre crochets ; la franchise est en outre reportée dans deductibles et dans coverages[].deductible, et le barème de vétusté dans exclusions[].description, afin que la donnée reste exploitable. Le défaut est signalé, pas corrigé.",
+    "Ordre de lecture désordonné de la page 1 (vérifié par coordonnées et sur rendu) : le texte plat rend l’encadré « Avertissement » (y0 130,7 pt) et la rubrique « De quel type d’assurance s’agit-il ? » avec son paragraphe (y0 190,8 et 210,0 pt) EN DERNIER, après les trois encadrés, alors qu’ils sont imprimés en haut de page, au-dessus d’eux (les encadrés commencent à y0 261,0 pt). Aucune valeur n’est mal rattachée par ce défaut, les blocs concernés étant autonomes, mais une lecture purement séquentielle du texte plat placerait la définition du produit après les exclusions.",
+    "Vérification anti-inversion des colonnes (résultat négatif, comptes fermés) : la page 1 est sur deux colonnes. Le texte plat rend d’abord toute la colonne de gauche (x0 29,8 / 37,6 / 43,9 pt, « Qu’est-ce qui est assuré ? ») puis la colonne de droite (x0 307,6 / 314,5 / 317,9 / 321,7 pt, « Qu’est-ce qui n’est pas assuré ? » puis « Y a-t-il des exclusions à la couverture ? »). L’ordre correspond à l’impression, il n’y a pas d’inversion de colonnes.",
+    "Rattachement des deux plafonds vérifié par coordonnées, car ils sont proches et différents : « Limite maximale de 1.400 EUR par sinistre avec un maximum de 1 sinistre par année d’adhésion » est à y 351,5-362,3 pt, donc sous « Assurance individuelle : » (y 305,1 pt) et avant « Assurance Famille : » (y 378,4 pt) ; « Limite maximale de 2.000 EUR par sinistre avec un maximum de 3 sinistres par année d’adhésion » est à y 438,4-449,2 pt, donc sous « Assurance Famille : » et avant « Garanties: » (y 468,2 pt). Chaque plafond est bien rattaché à sa formule, conformément à l’ordre du texte plat.",
+    "Les puces sont des images bitmap (ni texte ni dessin vectoriel). Comptées via les blocs image de get_text(\"dict\"), placées par coordonnées, polarité confirmée sur rendu : 7 marques à x0 29,8 pt (7,2 x 7,9 pt, coches vertes) sous « Qu’est-ce qui est assuré ? » ; 6 marques à x0 307,6 pt (6,7 x 6,8 pt, croix rouges) sous « Qu’est-ce qui n’est pas assuré ? » ; 4 marques à x0 309,5 pt (2,4 x 8,9 pt, points d’exclamation orange) sous « Y a-t-il des exclusions à la couverture ? ». Total 7 + 6 + 4 = 17 = 17 blocs image de la page 1, le compte est exact. La page 2 porte 1 seule image (x0 66,8 pt), la coche de « L’assurance est valable dans le monde entier. ».",
+    "Les 7 coches de la colonne de gauche correspondent à 2 formules (« Assurance individuelle », « Assurance Famille ») et 5 événements garantis (Casse accidentelle ; Vol par effraction, agression et à la tire ; Oxydation accidentelle ; Panne ; Usage frauduleux du téléphone portable à la suite d’un vol). coverages[] contient ces 7 entrées, en correspondance exacte avec les 7 marques.",
+    "is_optional reste null partout : le document ne qualifie aucune garantie d’optionnelle et ne comporte ni tableau de formules ni colonne « option ». « Assurance individuelle » et « Assurance Famille » sont deux formules alternatives, ce que le document n’exprime toutefois nulle part explicitement comme un choix exclusif. L’ensemble du produit est par ailleurs présenté comme « l’option « Assurance ORANGE » choisie par l’Assuré », c’est-à-dire une option de l’abonnement télécom et non un avenant à un autre produit d’assurance ; is_extension est donc false.",
+    "Risque porté : le document ne nomme aucune entité juridique d’assurance. L’en-tête porte la seule marque « LALUX Assurances - Produit : Tous Risques - ORANGE » et le corps ne parle que de « l’assureur », de « la compagnie » et de « l’entreprise d’assurances ». La seule société nommée, « Orange Communications Luxembourg S.A., 8, rue des Mérovingiens, L-8070 Bertrange », est l’adresse de dépôt des déclarations de sinistres et l’opérateur télécom, pas le porteur de risque. L’adresse e-mail orange@lalux.lu ne désigne pas davantage une entité agréée. Le porteur de risque n’est donc pas déterminable à partir de ce document et n’a pas été complété.",
+    "Aucune date d’édition, aucun numéro de version, aucun code de formulaire : ni en tête, ni en pied, sur aucune des deux pages (rendues et vérifiées). edition_date et reference restent null ; l’entrée du manifest ne porte pas non plus de date.",
+    "target_audience reste null : le document n’énonce aucune catégorie de public. Les formules s’appellent « Assurance individuelle » et « Assurance Famille » et la garantie est liée à un abonnement ORANGE, mais aucune mention ne rattache le produit à des particuliers, indépendants ou entreprises. Le libellé du document est reporté dans target_audience_note.",
+    "Les listes de la page 1 sont déclarées incomplètes par l’éditeur lui-même (« Liste non exhaustive » sous « Qu’est-ce qui n’est pas assuré ? » et sous « Y a-t-il des exclusions à la couverture ? »), de même que la liste des cas de fin d’adhésion en page 2. Les 6 et 4 entrées relevées sont donc exhaustives par rapport à l’IPID, pas par rapport au contrat.",
+    "Le document mentionne « avant l’échéance du délai de renonciation » sans indiquer la durée de ce délai ni les modalités de renonciation.",
+    "Aucune période de carence, aucun délai de prescription, aucune information sur une éventuelle indexation de la prime ; waiting_periods[] est vide, prescription_period et premium.indexation sont null.",
+    "Aucune médiation, aucun ombudsman, aucune autorité de contrôle n’est mentionnée dans le document.",
+    "Le texte du prompt n’était pas tronqué. Les deux pages ont été ré-extraites de la PDF locale avec page.get_text(\"text\") et sont identiques caractère pour caractère au texte du prompt (page 1 : 4631 caractères ; page 2 : 3563 caractères).",
+    "Particularités typographiques de la couche texte : 98 apostrophes courbes U+2019 (aucune apostrophe ASCII), doubles espaces dans le titre (« Assurance Tous Risques  - ORANGE ») et après « électronique, électrique, etc.  ». Aucune césure en fin de ligne, aucun espace de largeur nulle, aucun caractère de zone privée. Les citations ont été découpées programmatiquement dans le texte de la PDF pour préserver ces particularités.",
+    "Le nom du produit apparaît sous deux formes : le titre « Assurance Tous Risques  - ORANGE » et la ligne d’identification « LALUX Assurances - Produit : Tous Risques - ORANGE ». La forme de la ligne « Produit : » a été retenue comme product_name. Malgré son nom, le produit n’est pas une assurance automobile ou habitation « tous risques » : il assure des appareils mobiles et numériques. La branche « autres » fournie dans la tâche a été conservée."
+  ]
+}

@@ -143,6 +143,7 @@ Garantie nommée uniquement dans la rubrique « Où suis-je couvert(e) ? » de l
 ## Documents liés
 
 - [Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance (VISA INFINITE) - IPID](Assurance%20Cartes%20de%20cr%C3%A9dit%20SPUERKEESS%20%E2%80%93%20Assistance%20et%20hors%20Assistance%20%28VISA%20INFINITE%29%20-%20IPID.md) - IPID / Fiche d'information
+- [Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance (VISA CLASSIC) - IPID](Assurance%20Cartes%20de%20cr%C3%A9dit%20SPUERKEESS%20%E2%80%93%20Assistance%20et%20hors%20Assistance%20%28VISA%20CLASSIC%29%20-%20IPID.md) - IPID / Fiche d'information
 
 ## Source & fidélité
 

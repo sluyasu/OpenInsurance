@@ -136,6 +136,7 @@ Article 544 of the Civil Code: By express agreement, compensation for damages to
 
 - [APROBAT - Decennial civil liability - IPID - EN](APROBAT%20-%20Decennial%20civil%20liability%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 - [APROBAT - Responsabilité Civile Décennale - IPID](APROBAT%20-%20Responsabilit%C3%A9%20Civile%20D%C3%A9cennale%20-%20IPID.md) - IPID / Fiche d'information
+- [APROBAT Zehnjahres-Bauhaftpflicht - IPID - DE](APROBAT%20Zehnjahres-Bauhaftpflicht%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
 
 ## Source & fidélité
 
