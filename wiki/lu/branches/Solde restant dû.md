@@ -69,8 +69,12 @@ le contrat.
 
 ## État de la documentation
 
-**Deux produits sont documentés dans cette branche**, un par porteur, et leur comparaison est déjà
-instructive.
+**Trois documents sont placés dans cette branche, pour deux produits** : le contrat lalux existe en
+français et en anglais, le contrat Baloise en français seulement. Les deux versions lalux sont
+comptées séparément parce que ce sont deux documents distincts — la règle de ce dépôt interdit de
+compléter une langue depuis une autre, et rien ne garantit qu'elles disent la même chose.
+
+La comparaison entre les deux porteurs est déjà instructive.
 
 Le second, arrivé avec Baloise, est le **seul document de son éditeur à nommer l'entité vie** :
 « Compagnie : Baloise Vie Luxembourg S.A. », là où ses trente-trois frères nomment l'entité non-vie.
