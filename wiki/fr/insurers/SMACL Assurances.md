@@ -5,7 +5,7 @@ country: fr
 insurer_slug: smacl
 name: SMACL Assurances
 website: https://www.smacl.fr
-products_count: 92
+products_count: 94
 branches_covered:
 - auto
 - autres
@@ -21,6 +21,7 @@ branches_covered:
 - rc-privee
 - rc-professionnelle
 - transport
+- voyage
 tags:
 - insurance/fr
 - insurer
@@ -36,7 +37,7 @@ generated: true
 
 ## Résumé
 
-**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 92 document(s) across 14 branch(es).
+**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 94 document(s) across 15 branch(es).
 
 ## Produits par branche
 
@@ -112,6 +113,7 @@ generated: true
 - [CONVERGENCE Tous risques objets (Associatons)](../products/smacl/CONVERGENCE%20Tous%20risques%20objets%20%28Associatons%29.md) - Conditions générales (01/2024) · réf. CONVERGENCE_CS_TRO_SA_04_(05_2016)
 - [Convergence dommages aux biens - IPID](../products/smacl/Convergence%20dommages%20aux%20biens%20-%20IPID.md) - IPID / Fiche d'information (01/2024) · réf. CONVERGENCE_DIPA_DAB_SA_04(09_2022)
 - [Multirisques patrimoine - IPID](../products/smacl/Multirisques%20patrimoine%20-%20IPID.md) - IPID / Fiche d'information (01/2024) · réf. ENTREPRISE_DIPA_MultiPatrimoine
+- [Multirisques patrimoine - Fiche](../products/smacl/Multirisques%20patrimoine%20-%20Fiche.md) - Fiche produit (01/2023)
 - [Votre barème de remboursement des honoraires d'expert d'assuré en Dommages aux biens - Tarifs](../products/smacl/Votre%20bar%C3%A8me%20de%20remboursement%20des%20honoraires%20d%27expert%20d%27assur%C3%A9%20en%20Dommages%20aux%20biens%20-%20Tarifs.md) - Conditions tarifaires (01/2024) · réf. BAREME_EXPERT_ASSURE_DAB_(10-2012)
 
 ### [Navigation de plaisance](../branches/Navigation%20de%20plaisance.md)
@@ -159,6 +161,9 @@ generated: true
 ### Marchandises transportées
 - [ALÉASSUR Tous risques expositions clou à clou](../products/smacl/AL%C3%89ASSUR%20Tous%20risques%20expositions%20clou%20%C3%A0%20clou.md) - Conditions générales (01/2024) · réf. ALEASSUR_CS_TRE_CLOUACLOU_01(02_2016)
 - [Conventions spéciales CONVERGENCE - Tous risques expositions clou à clou (Associatons)](../products/smacl/Conventions%20sp%C3%A9ciales%20CONVERGENCE%20-%20Tous%20risques%20expositions%20clou%20%C3%A0%20clou%20%28Associatons%29.md) - Conditions générales (01/2024) · réf. CONVERGENCE_CS_TRE_SA_01(05_2016)
+
+### [Voyage et assistance](../branches/Voyage%20et%20assistance.md)
+- [CONVERGENCE - Annulation de séjour (conventions spéciales)](../products/smacl/CONVERGENCE%20-%20Annulation%20de%20s%C3%A9jour%20%28conventions%20sp%C3%A9ciales%29.md) - Conditions générales (07/2025) · réf. CONVERGENCE_CS_SEJOUR_SA_02(02_2022)
 
 ## Source
 

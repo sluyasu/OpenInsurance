@@ -194,6 +194,10 @@ Lorsque la demande fait l'objet d'une étude par le service médical de l'assure
 - Prompt non tronqué : 59 145 caractères pour le prompt complet, bien en deçà du plafond de 240 000. Les 2 pages du texte du prompt ont été vérifiées identiques octet pour octet à page.get_text("text") du PDF local data/fr/pdfs/macif/prevoyance/contrat-garantie-deces-deces-invalidite-et-arret-de-travail-temporaire-d08c4411.pdf.
 - Porteur de risque: ce document nomme « Macif Santé Prévoyance », qui n'est pas l'entite dont la bibliotheque publique l'a fourni (Macif). Le champ insurer_name porte le proprietaire de la bibliotheque, pour le regroupement des pages; la lecture du document est celle-ci. A verifier contre le registre du superviseur avant d'en tirer qui porte le risque.
 
+## Documents liés
+
+- [contrat GARANTIE DÉCÈS Capital forfaitaire - IPID](contrat%20GARANTIE%20D%C3%89C%C3%88S%20Capital%20forfaitaire%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/26
+
 ## Source & fidélité
 
 - Source : [https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_deces_invalidite.pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_deces_invalidite.pdf) - téléchargé le 2026-08-01 - 2 pages

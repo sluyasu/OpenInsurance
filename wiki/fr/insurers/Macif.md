@@ -5,7 +5,7 @@ country: fr
 insurer_slug: macif
 name: Macif
 website: https://www.macif.fr
-products_count: 118
+products_count: 120
 branches_covered:
 - animaux
 - assurance-vie
@@ -42,7 +42,7 @@ generated: true
 
 ## Résumé
 
-**Macif** - [https://www.macif.fr](https://www.macif.fr). 118 document(s) across 20 branch(es).
+**Macif** - [https://www.macif.fr](https://www.macif.fr). 120 document(s) across 20 branch(es).
 
 ## Produits par branche
 
@@ -161,12 +161,14 @@ generated: true
 ### [Prévoyance](../branches/Pr%C3%A9voyance.md)
 - [Prévoyance CCN Cabinets d'experts comptables et commissaires aux comptes (IDCC 787) - IPID](../products/macif/Pr%C3%A9voyance%20CCN%20Cabinets%20d%27experts%20comptables%20et%20commissaires%20aux%20comptes%20%28IDCC%20787%29%20-%20IPID.md) - IPID / Fiche d'information (01/26) · réf. DIPA  EXPERTS COMPTABLES - 01/26
 - [contrat GARANTIE DÉCÈS (Décès, invalidité et arrêt de travail temporaire) - IPID](../products/macif/contrat%20GARANTIE%20D%C3%89C%C3%88S%20%28D%C3%A9c%C3%A8s%2C%20invalidit%C3%A9%20et%20arr%C3%AAt%20de%20travail%20temporaire%29%20-%20IPID.md) - IPID / Fiche d'information (01/26) · réf. DIPA GARANTIE DÉCÈS - 01/26
+- [contrat GARANTIE DÉCÈS Capital forfaitaire - IPID](../products/macif/contrat%20GARANTIE%20D%C3%89C%C3%88S%20Capital%20forfaitaire%20-%20IPID.md) - IPID / Fiche d'information (01/26) · réf. DIPA GARANTIE DÉCÈS CAPITAL FORFAITAIRE - 01/26
 
 ### [Protection juridique](../branches/Protection%20juridique.md)
 - [Protection Juridique (PRO&ESS) - IPID](../products/macif/Protection%20Juridique%20%28PRO%26ESS%29%20-%20IPID.md) - IPID / Fiche d'information (2020-06) · réf. Protection Juridique - PJ PRO&ESS  06/20
 - [Protection Juridique - IPID](../products/macif/Protection%20Juridique%20-%20IPID.md) - IPID / Fiche d'information (10/18) · réf. PJ 10/18
 
 ### [Responsabilité civile vie privée](../branches/Responsabilit%C3%A9%20civile%20vie%20priv%C3%A9e.md)
+- [Contrat Macif Habitation - Formule Responsabilité civile - IPID](../products/macif/Contrat%20Macif%20Habitation%20-%20Formule%20Responsabilit%C3%A9%20civile%20-%20IPID.md) - IPID / Fiche d'information (06/25) · réf. MACIF HAB RC 06/25
 - [Contrat Multigarantie Vie Privée - Responsabilité Civile - IPID](../products/macif/Contrat%20Multigarantie%20Vie%20Priv%C3%A9e%20-%20Responsabilit%C3%A9%20Civile%20-%20IPID.md) - IPID / Fiche d'information (10/18) · réf. HAB MVP RC 10/18
 
 ### [RC professionnelle](../branches/RC%20professionnelle.md)

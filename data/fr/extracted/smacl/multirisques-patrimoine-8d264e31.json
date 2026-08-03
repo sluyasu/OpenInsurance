@@ -1,0 +1,667 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "smacl",
+  "insurer_name": "SMACL Assurances",
+  "product_name": "Multirisques patrimoine",
+  "branch": "multirisque-professionnelle",
+  "branch_code": null,
+  "document_type": "product_sheet",
+  "language": "fr",
+  "target_audience": "entreprises",
+  "target_audience_note": "« Selon la qualité déclarée au contrat, la personne morale de droit privé ou personne physique en sa qualité de : propriétaire non-occupant ; copropriétaire occupant ou non-occupant des bâtiments assurés ; association syndicale libre, qui lorsqu'elle existe, assume le rôle d'administrateur du bien objet du contrat ; syndic de copropriété ; gérant de la SCI (Société Civile Immobilière), en sa seule qualité d'occupant à titre onéreux ou gratuit de tout ou partie de l'immeuble propriété de la SCI ; syndicat des copropriétaires quand il exerce lui-même l'administration de l'immeuble ; conseil syndical. » Le document vise donc des personnes morales de droit privé et des personnes physiques prises en qualité de propriétaire ou de gestionnaire d'immeuble.",
+  "reference": null,
+  "edition_date": "01/2023",
+  "product_family": "Multirisques patrimoine",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.smacl.fr/files/documents/resume-des-garanties-multirisques-patrimoine.pdf",
+  "source_pdf": "resume-des-garanties-multirisques-patrimoine-8d264e31.pdf",
+  "source_sha256": "abb697cddfc0441fcd6b1d3f527ea2abfcda7ccc816e1f4bda9c84eaebab27b9",
+  "source_pages": 3,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Résumé des garanties, non contractuel, du contrat Multirisques patrimoine de SMACL Assurances : une assurance de l'immeuble et de son contenu souscrite par des propriétaires non-occupants, copropriétaires, syndics, SCI, syndicats de copropriétaires, associations syndicales libres et conseils syndicaux. Il présente la garantie dommages aux biens (treize évènements dommageables, plafond global de 15 000 000 € par sinistre), ses extensions « frais et pertes annexes » (dans la limite de 3 000 000 € sur justificatifs), ses garanties annexes de responsabilité du fait des biens (6 000 000 €) et deux options (bris de machine, tous risques sauf). Il présente également les garanties de responsabilité civile (plafond global 10 000 000 € par sinistre) : responsabilité civile du propriétaire d'immeuble, défense pénale et recours (25 000 €) et, en option, la responsabilité civile du syndic bénévole et du syndic professionnel de copropriété. Le document renvoie aux conditions générales Multirisques patrimoine - Modèle 02 (09/2016) pour l'étendue exacte du contrat et de ses exclusions.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Dommages aux biens - plafond global tous dommages confondus",
+      "description": "Ligne « TOUS DOMMAGES CONFONDUS » du tableau des garanties dommages aux biens : montant maximum de la garantie par sinistre. Tableau « GARANTIES DOMMAGES AUX BIENS » (page 2), reconstruit par ordonnée et vérifié au rendu.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "15 000 000 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 2
+    },
+    {
+      "name": "Incendie, explosion, implosion, foudre, fumées",
+      "description": "Évènement dommageable garanti (liste de l'article « Evènements dommageables garantis », page 1). Dans le tableau (page 2), l'évènement est libellé « incendie, explosion, implosion, foudre, fumées » et partage les montants du premier groupe d'évènements. Tableau « GARANTIES DOMMAGES AUX BIENS » (page 2), reconstruit par ordonnée et vérifié au rendu.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Biens immobiliers 15 000 000 € ; Contenu 30 000 € ; Biens extérieurs 10 000 €",
+      "sub_limits": [
+        "Biens immobiliers : 15 000 000 €",
+        "Contenu : 30 000 €",
+        "Biens extérieurs : 10 000 €"
+      ],
+      "deductible": "Selon montant précisé aux conditions particulières (sauf franchise légale pour les catastrophes naturelles)",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Dommages électriques",
+      "description": "Évènement dommageable garanti, libellé « dommages électriques » page 1 et « électricité » dans le tableau page 2. Tableau « GARANTIES DOMMAGES AUX BIENS » (page 2), reconstruit par ordonnée et vérifié au rendu.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Biens immobiliers 15 000 000 € ; Contenu 30 000 € ; Biens extérieurs 10 000 €",
+      "sub_limits": [
+        "Biens immobiliers : 15 000 000 €",
+        "Contenu : 30 000 €",
+        "Biens extérieurs : 10 000 €"
+      ],
+      "deductible": "Selon montant précisé aux conditions particulières (sauf franchise légale pour les catastrophes naturelles)",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Chute d'aéronef",
+      "description": "Évènement dommageable garanti. Tableau « GARANTIES DOMMAGES AUX BIENS » (page 2), reconstruit par ordonnée et vérifié au rendu.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Biens immobiliers 15 000 000 € ; Contenu 30 000 € ; Biens extérieurs 10 000 €",
+      "sub_limits": [
+        "Biens immobiliers : 15 000 000 €",
+        "Contenu : 30 000 €",
+        "Biens extérieurs : 10 000 €"
+      ],
+      "deductible": "Selon montant précisé aux conditions particulières (sauf franchise légale pour les catastrophes naturelles)",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Choc de véhicule terrestre à moteur avec les biens assurés",
+      "description": "Évènement dommageable garanti. Tableau « GARANTIES DOMMAGES AUX BIENS » (page 2), reconstruit par ordonnée et vérifié au rendu.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Biens immobiliers 15 000 000 € ; Contenu 30 000 € ; Biens extérieurs 10 000 €",
+      "sub_limits": [
+        "Biens immobiliers : 15 000 000 €",
+        "Contenu : 30 000 €",
+        "Biens extérieurs : 10 000 €"
+      ],
+      "deductible": "Selon montant précisé aux conditions particulières (sauf franchise légale pour les catastrophes naturelles)",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Tempête, grêle, poids de la neige",
+      "description": "Évènement dommageable garanti. Tableau « GARANTIES DOMMAGES AUX BIENS » (page 2), reconstruit par ordonnée et vérifié au rendu.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Biens immobiliers 15 000 000 € ; Contenu 30 000 € ; Biens extérieurs 10 000 €",
+      "sub_limits": [
+        "Biens immobiliers : 15 000 000 €",
+        "Contenu : 30 000 €",
+        "Biens extérieurs : 10 000 €"
+      ],
+      "deductible": "Selon montant précisé aux conditions particulières (sauf franchise légale pour les catastrophes naturelles)",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Catastrophes naturelles",
+      "description": "Évènement dommageable garanti. Tableau « GARANTIES DOMMAGES AUX BIENS » (page 2), reconstruit par ordonnée et vérifié au rendu.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Biens immobiliers 15 000 000 € ; Contenu 30 000 € ; Biens extérieurs 10 000 €",
+      "sub_limits": [
+        "Biens immobiliers : 15 000 000 €",
+        "Contenu : 30 000 €",
+        "Biens extérieurs : 10 000 €"
+      ],
+      "deductible": "Selon montant précisé aux conditions particulières (sauf franchise légale pour les catastrophes naturelles)",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Attentats et actes de terrorisme",
+      "description": "Évènement dommageable garanti. Tableau « GARANTIES DOMMAGES AUX BIENS » (page 2), reconstruit par ordonnée et vérifié au rendu.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Biens immobiliers 15 000 000 € ; Contenu 30 000 € ; Biens extérieurs 10 000 €",
+      "sub_limits": [
+        "Biens immobiliers : 15 000 000 €",
+        "Contenu : 30 000 €",
+        "Biens extérieurs : 10 000 €"
+      ],
+      "deductible": "Selon montant précisé aux conditions particulières (sauf franchise légale pour les catastrophes naturelles)",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Émeutes et mouvements populaires",
+      "description": "Évènement dommageable garanti. Tableau « GARANTIES DOMMAGES AUX BIENS » (page 2), reconstruit par ordonnée et vérifié au rendu.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Biens immobiliers 15 000 000 € ; Contenu 30 000 € ; Biens extérieurs 10 000 €",
+      "sub_limits": [
+        "Biens immobiliers : 15 000 000 €",
+        "Contenu : 30 000 €",
+        "Biens extérieurs : 10 000 €"
+      ],
+      "deductible": "Selon montant précisé aux conditions particulières (sauf franchise légale pour les catastrophes naturelles)",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Catastrophes technologiques",
+      "description": "Évènement dommageable garanti ; ligne propre du tableau page 2 : « Biens immobiliers : Sans plafond ; Contenu : Jusqu'à la valeur de remplacement », franchise « Néant ». Tableau « GARANTIES DOMMAGES AUX BIENS » (page 2), reconstruit par ordonnée et vérifié au rendu.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Biens immobiliers : Sans plafond ; Contenu : Jusqu'à la valeur de remplacement",
+      "sub_limits": [
+        "Biens immobiliers : Sans plafond",
+        "Contenu : Jusqu'à la valeur de remplacement"
+      ],
+      "deductible": "Néant",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Dégâts des eaux et autres liquides",
+      "description": "Évènement dommageable garanti ; ligne propre du tableau page 2 avec quatre montants et deux régimes de franchise. Tableau « GARANTIES DOMMAGES AUX BIENS » (page 2), reconstruit par ordonnée et vérifié au rendu.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Biens immobiliers 15 000 000 € ; Contenu 30 000 € ; Perte d'eau et de liquides 10 000 € ; Frais nécessités par les recherches de fuite, frais de pompage 30 000 €",
+      "sub_limits": [
+        "Biens immobiliers : 15 000 000 €",
+        "Contenu : 30 000 €",
+        "Perte d'eau et de liquides : 10 000 €",
+        "Frais nécessités par les recherches de fuite, frais de pompage : 30 000 €"
+      ],
+      "deductible": "Selon montant précisé aux conditions particulières pour les biens immobiliers, le contenu et la perte d'eau et de liquides ; Néant pour les frais nécessités par les recherches de fuite et frais de pompage",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Vols et actes de vandalisme",
+      "description": "Évènement dommageable garanti ; ligne propre du tableau page 2. Tableau « GARANTIES DOMMAGES AUX BIENS » (page 2), reconstruit par ordonnée et vérifié au rendu.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Vol de biens mobiliers 20 000 € ; Détériorations immobilières 30 000 € ; Vol de clés et de code d'accès 5 000 €",
+      "sub_limits": [
+        "Vol de biens mobiliers : 20 000 €",
+        "Détériorations immobilières : 30 000 €",
+        "Vol de clés et de code d'accès : 5 000 €"
+      ],
+      "deductible": "Selon montant précisé aux conditions particulières pour le vol de biens mobiliers et les détériorations immobilières ; Néant pour le vol de clés et de code d'accès",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Bris de glace",
+      "description": "Évènement dommageable garanti ; ligne propre du tableau page 2. Tableau « GARANTIES DOMMAGES AUX BIENS » (page 2), reconstruit par ordonnée et vérifié au rendu.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Bris de glace 30 000 € ; Frais de gardiennage 5 000 €",
+      "sub_limits": [
+        "Bris de glace : 30 000 €",
+        "Frais de gardiennage : 5 000 €"
+      ],
+      "deductible": "Selon montant précisé aux conditions particulières",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Effondrement de bâtiment",
+      "description": "Évènement dommageable garanti ; ligne propre du tableau page 2, seule ligne du document portant une franchise chiffrée. Tableau « GARANTIES DOMMAGES AUX BIENS » (page 2), reconstruit par ordonnée et vérifié au rendu.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "2 000 000 €",
+      "sub_limits": [],
+      "deductible": "10 % avec un minimum de 1 000 € et un maximum de 100 000 €",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Frais et pertes annexes (extensions de garanties dommages aux biens)",
+      "description": "Ligne d'en-tête du tableau « EXTENSIONS DE GARANTIES DOMMAGES AUX BIENS » (page 3) : « Sur justificatifs dans la limite de 3 000 000 € », franchise « Néant » pour l'ensemble du bloc. Les huit postes ci-après en relèvent.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Sur justificatifs dans la limite de 3 000 000 €",
+      "sub_limits": [],
+      "deductible": "Néant",
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Mesures de sauvetage",
+      "description": "Extension de garantie dommages aux biens (page 1) ; tableau page 3 : « Sur justificatifs ».",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Sur justificatifs",
+      "sub_limits": [],
+      "deductible": "Néant",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Frais de déplacement et replacement des biens mobiliers",
+      "description": "Extension de garantie dommages aux biens : « frais de déplacement et replacement des biens mobiliers, à concurrence de leur montant » (page 1) ; tableau page 3 : « Sur justificatifs ».",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "à concurrence de leur montant (page 1) ; « Sur justificatifs » au tableau (page 3)",
+      "sub_limits": [],
+      "deductible": "Néant",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Privation de jouissance",
+      "description": "Extension de garantie : « privation de jouissance des locaux rendus inutilisables par le sinistre, à concurrence de 2 années de valeur locative » (page 1) ; tableau page 3, ligne « privation de jouissance / pertes de loyers » : « 2 ans ».",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "à concurrence de 2 années de valeur locative",
+      "sub_limits": [],
+      "deductible": "Néant",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Pertes de loyers",
+      "description": "Extension de garantie : « pertes de loyers, à concurrence de 2 années de valeur locative des locaux que l'assuré ne peut plus louer à la suite d'un sinistre » (page 1) ; tableau page 3, ligne « privation de jouissance / pertes de loyers » : « 2 ans ».",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "à concurrence de 2 années de valeur locative des locaux que l'assuré ne peut plus louer à la suite d'un sinistre",
+      "sub_limits": [],
+      "deductible": "Néant",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Frais de démolition et de déblais",
+      "description": "Extension de garantie : « frais de démolition et de déblais, à concurrence de leur montant » (page 1) ; tableau page 3 : « Sur justificatifs ».",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "à concurrence de leur montant (page 1) ; « Sur justificatifs » au tableau (page 3)",
+      "sub_limits": [],
+      "deductible": "Néant",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Prestations techniques et frais accessoires",
+      "description": "Extension de garantie : « prestations techniques et frais accessoires, sur justificatifs à concurrence de 10 % du montant HT des travaux de réparation ou de reconstruction du bien sinistré » (page 1). Le tableau page 3 énonce une assiette différente : « 10 % du montant des dommages sur justificatifs » - divergence signalée dans gaps.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "sur justificatifs à concurrence de 10 % du montant HT des travaux de réparation ou de reconstruction du bien sinistré (page 1) ; 10 % du montant des dommages sur justificatifs (tableau, page 3)",
+      "sub_limits": [],
+      "deductible": "Néant",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Assurance dommages ouvrage",
+      "description": "Extension de garantie : « assurance dommages ouvrage, c'est-à dire le montant de la cotisation correspondant à l'assurance que l'assuré doit souscrire en cas de reconstruction après sinistre » (page 1). Le tableau page 3, ligne « prime d'assurance dommages ouvrage », chiffre la garantie : « 2 % du coût des travaux de reconstruction ».",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "2 % du coût des travaux de reconstruction",
+      "sub_limits": [],
+      "deductible": "Néant",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Pertes indirectes",
+      "description": "Extension de garantie : « pertes indirectes, sur justificatifs et dans la limite de 10 % du montant réel HT des réparations des dommages » (page 1) ; tableau page 3 : « Sur justificatifs, dans la limite de 10 % du montant réel HT des réparations des dommages consécutifs au sinistre ».",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Sur justificatifs, dans la limite de 10 % du montant réel HT des réparations des dommages consécutifs au sinistre",
+      "sub_limits": [],
+      "deductible": "Néant",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Honoraires d'expert d'assuré",
+      "description": "Extension de garantie : « honoraires d'expert d'assuré, sur justificatifs et dans la limite du barème contractuel » (page 1) ; tableau page 3 : « Selon barème contractuel ».",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Selon barème contractuel",
+      "sub_limits": [],
+      "deductible": "Néant",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Garanties annexes dommages aux biens - responsabilités à l'égard des propriétaires, locataires, voisins et tiers",
+      "description": "« Pour les biens désignés au contrat, la garantie de SMACL Assurances porte également sur la responsabilité de l'assuré en raison des dommages matériels et immatériels : causés aux propriétaires, locataires, occupants et voisins des biens immobiliers assurés ainsi qu'aux tiers en général ; et consécutif à un incendie, une explosion, une implosion, un dommage électrique, de la fumée, un dégât des eaux, un bris de glace, ou à un vol, une tentative de vol ou un acte de vandalisme. » Tableau page 3 : 6 000 000 €, franchise Néant, avec trois sous-postes (risques locatifs, recours des locataires, recours des voisins et des tiers) chacun à 6 000 000 €.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "6 000 000 € (dommages matériels, immatériels)",
+      "sub_limits": [
+        "risques locatifs : 6 000 000 €",
+        "recours des locataires : 6 000 000 €",
+        "recours des voisins et des tiers : 6 000 000 €"
+      ],
+      "deductible": "Néant",
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Bris de machine (option)",
+      "description": "Garantie optionnelle dommages aux biens : « sont couverts, les bris ou destructions de machines (équipements générateurs de chaleur, ascenseurs, monte-charges, installations relatives aux piscines ou au traitement des eaux, mécanismes de portes automatiques de garage, installations de compactage des ordures ménagères) survenant dans les locaux dès lors que les équipements endommagés sont en état normal d'entretien et de fonctionnement ».",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "Selon montant précisé aux conditions particulières",
+      "sub_limits": [],
+      "deductible": "Selon montant précisé aux conditions particulières",
+      "conditions": [
+        "Les équipements endommagés doivent être en état normal d'entretien et de fonctionnement.",
+        "Les bris ou destructions doivent survenir dans les locaux."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Tous risques sauf (option)",
+      "description": "Garantie optionnelle dommages aux biens : « dans la limite des montants de garanties et de franchises prévus au contrat, sont garantis les dommages matériels directs subis par les biens assurés lors de la survenance accidentelle d'événements non dénommés au contrat. Cette option n'a pas pour objet de garantir des biens non assurés ou des événements dénommés que l'assuré n'a pas souhaité souscrire, ni de racheter des exclusions figurant au contrat. »",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "Selon montant précisé aux conditions particulières",
+      "sub_limits": [],
+      "deductible": "Selon montant précisé aux conditions particulières",
+      "conditions": [
+        "Dans la limite des montants de garanties et de franchises prévus au contrat.",
+        "Ne garantit pas les biens non assurés, ni les événements dénommés que l'assuré n'a pas souhaité souscrire, ni ne rachète les exclusions figurant au contrat."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Responsabilité civile - plafond global tous dommages confondus",
+      "description": "Ligne « TOUS DOMMAGES CONFONDUS » du tableau « GARANTIES RESPONSABILITÉ CIVILE » (page 3) : montant maximum de la garantie par sinistre.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "10 000 000 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 3
+    },
+    {
+      "name": "Garantie responsabilité civile du propriétaire d'immeuble",
+      "description": "« SMACL Assurances garantit l'assuré contre les conséquences pécuniaires de la responsabilité civile pouvant lui incomber en qualité de propriétaire d'immeubles, en vertu du droit commun et en raison des dommages corporels, matériels et immatériels résultant d'un événement accidentel et causés à autrui (y compris les occupants) » du fait des bâtiments assurés, des installations mobilières et immobilières, ascenseurs et monte-charges, vide-ordures et antennes communes de télévision et radio, du matériel et de l'outillage affecté à l'entretien ou au bon fonctionnement de l'immeuble, des dépendances construites et couvertes, des cours, jardins, arbres, plantations, installations, parkings, voies d'accès privées et murs de clôture (y compris en cas d'obstruction ou de défaut d'entretien ou d'éclairage des lieux publics, des lieux accessibles au public, des trottoirs et abords), et d'une atteinte à l'environnement. Lorsque les bâtiments sont en copropriété, la garantie s'applique aux dommages causés par le fait tant des parties communes que des parties privatives de chaque copropriétaire.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "10 000 000 € (imprimé « du propriétaire d'immeuble (10 000 000 € » dans la colonne des montants, parenthèse non fermée sur la page)",
+      "sub_limits": [
+        "dommages matériels et immatériels consécutifs : 3 000 000 €",
+        "dommages immatériels non consécutifs : 1 500 000 €",
+        "pollution à l'environnement : 2 000 000 €",
+        "dommages résultant de la pratique d'une activité à l'intérieur d'un local occasionnel d'activité : 300 000 €"
+      ],
+      "deductible": "Selon montant précisé aux conditions particulières",
+      "conditions": [
+        "Dommages corporels, matériels et immatériels résultant d'un événement accidentel et causés à autrui, y compris les occupants."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Responsabilité civile du syndic bénévole de copropriété (option)",
+      "description": "« La garantie responsabilité civile de l'assuré est étendue aux conséquences pécuniaires de son activité de syndic bénévole de copropriété vis à vis des tiers : par suite d'erreurs de fait ou de droit, d'omissions, de négligences commises par lui-même, ses collaborateurs, à l'occasion des activités définies aux conditions particulières ; en cas de perte, de destruction ou d'altération involontaire de pièces, dossiers ou documents divers qui lui sont confiés en tant que syndic bénévole de copropriété. » Le tableau page 3 intitule la ligne « Responsabilité civile du syndic bénévole de copropriété et de l'association syndicale libre ».",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "Tous dommages confondus 500 000 €",
+      "sub_limits": [
+        "pertes et destruction de pièces confiées : 50 000 €"
+      ],
+      "deductible": "Selon montant précisé aux conditions particulières",
+      "conditions": [
+        "Activités définies aux conditions particulières."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Responsabilité civile du syndic professionnel de copropriété (option)",
+      "description": "« La garantie responsabilité civile de l'assuré est étendue aux conséquences pécuniaires de son activité de syndic professionnel de copropriété vis à vis des tiers : par suite d'erreurs de fait ou de droit, d'omissions, de négligences commises par lui-même, ses collaborateurs, à l'occasion des activités définies aux conditions particulières ; en cas de perte, de destruction ou d'altération involontaire de pièces, dossiers ou documents divers qui lui sont confiés en tant que syndic professionnel de copropriété. »",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Activités définies aux conditions particulières."
+      ],
+      "page": 2
+    },
+    {
+      "name": "Garantie défense pénale et recours",
+      "description": "« SMACL Assurances s'engage à exercer à ses frais toutes interventions amiables ou actions judiciaires en vue : de pourvoir à la défense de l'assuré devant les tribunaux répressifs, s'il est poursuivi pour des faits dont les conséquences pécuniaires sont couvertes par le présent contrat au titre des garanties responsabilité civile ci-avant ; d'obtenir la réparation des dommages subis par l'assuré et résultant d'un fait qui aurait été garanti par SMACL Assurances au titre du présent contrat si son auteur avait eu la qualité d'assuré. » L'assuré a le libre choix de l'avocat pour la défense de ses intérêts propres et chaque fois que survient un conflit d'intérêt entre lui et SMACL Assurances.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "25 000 €",
+      "sub_limits": [],
+      "deductible": "Néant",
+      "conditions": [
+        "« En tout état de cause, SMACL Assurances ne peut être tenue à engager une action judiciaire que si le préjudice subi par l'assuré est supérieur à 1 500 euros. »",
+        "Si l'assuré souhaite que SMACL Assurances lui propose le nom d'un avocat, il doit en faire la demande par écrit."
+      ],
+      "page": 2
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Seuil d'engagement d'une action judiciaire (défense pénale et recours)",
+      "description": "« En tout état de cause, SMACL Assurances ne peut être tenue à engager une action judiciaire que si le préjudice subi par l'assuré est supérieur à 1 500 euros. »",
+      "applies_to": "Garantie défense pénale et recours",
+      "page": 2
+    },
+    {
+      "name": "Portée de l'option « tous risques sauf »",
+      "description": "« Cette option n'a pas pour objet de garantir des biens non assurés ou des événements dénommés que l'assuré n'a pas souhaité souscrire, ni de racheter des exclusions figurant au contrat. »",
+      "applies_to": "Tous risques sauf (option)",
+      "page": 1
+    },
+    {
+      "name": "Renvoi aux exclusions des conditions générales Multirisques patrimoine",
+      "description": "« Ce document est non contractuel. Il précise les principales dispositions du contrat Multirisques patrimoine. Pour connaître l'étendue exacte du contrat et de ses exclusions, se reporter aux conditions générales Multirisques patrimoine - Modèle 02 (09/2016). » Aucune exclusion n'est énumérée dans ce résumé.",
+      "applies_to": "all",
+      "page": 3
+    }
+  ],
+  "deductibles": {
+    "standard": "Selon montant précisé aux conditions particulières pour la plupart des lignes du tableau ; « Néant » pour les catastrophes technologiques, les frais nécessités par les recherches de fuite et frais de pompage, le vol de clés et de code d'accès, l'ensemble des extensions « frais et pertes annexes », les garanties annexes dommages aux biens et la défense pénale et recours.",
+    "variable": "Effondrement de bâtiment : « 10 % avec un minimum de 1 000 € et un maximum de 100 000 € ». Catastrophes naturelles : franchise légale (« sauf franchise légale pour les catastrophes naturelles »).",
+    "per_coverage": {
+      "Évènements dommageables garantis (incendie, électricité, chute d'aéronef, choc de véhicule terrestre à moteur, tempête/grêle/poids de la neige, catastrophes naturelles, attentats et actes de terrorisme, émeutes et mouvements populaires)": "Selon montant précisé aux conditions particulières (sauf franchise légale pour les catastrophes naturelles)",
+      "Catastrophes technologiques": "Néant",
+      "Dégâts des eaux - biens immobiliers, contenu, perte d'eau et de liquides": "Selon montant précisé aux conditions particulières",
+      "Dégâts des eaux - frais nécessités par les recherches de fuite, frais de pompage": "Néant",
+      "Vol et actes de vandalisme - vol de biens mobiliers, détériorations immobilières": "Selon montant précisé aux conditions particulières",
+      "Vol et actes de vandalisme - vol de clés et de code d'accès": "Néant",
+      "Bris de glace": "Selon montant précisé aux conditions particulières",
+      "Effondrement de bâtiment": "10 % avec un minimum de 1 000 € et un maximum de 100 000 €",
+      "Extensions de garanties dommages aux biens (frais et pertes annexes)": "Néant",
+      "Garanties annexes dommages aux biens": "Néant",
+      "Bris de machine": "Selon montant précisé aux conditions particulières",
+      "Tous risques sauf": "Selon montant précisé aux conditions particulières",
+      "Garantie responsabilité civile du propriétaire d'immeuble": "Selon montant précisé aux conditions particulières",
+      "Défense pénale et recours": "Néant",
+      "Responsabilité civile du syndic bénévole de copropriété et de l'association syndicale libre": "Selon montant précisé aux conditions particulières"
+    },
+    "page": 2
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Déclaration de la superficie des biens immobiliers",
+      "description": "« L'assuré devra déclarer la superficie des biens immobiliers avec un écart toléré fixé à 10 %. »",
+      "timing": "À la souscription / en cours de contrat",
+      "sanction": null,
+      "page": 1
+    },
+    {
+      "name": "Demande écrite pour la désignation d'un avocat",
+      "description": "« Si l'assuré souhaite que SMACL Assurances lui propose le nom d'un avocat, il doit en faire la demande par écrit. »",
+      "timing": "En cas de sinistre relevant de la défense pénale et recours",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Réparation ou remplacement du contenu dans les deux ans",
+      "description": "Le contenu est indemnisé « en valeur d'usage au jour du sinistre (valeur de remplacement ou de réparation vétusté déduite) majorée de 25% si l'assuré procède à la réparation ou au remplacement dans un délai de deux ans ».",
+      "timing": "Après sinistre, dans un délai de deux ans",
+      "sanction": "Perte de la majoration de 25 % de la valeur d'usage",
+      "page": 2
+    }
+  ],
+  "claims_procedure": [],
+  "duration_and_cancellation": null,
+  "prescription_period": null,
+  "premium": null,
+  "special_conditions": [
+    {
+      "name": "Biens assurés",
+      "description": "« SMACL Assurances garantit les biens suivants : Biens immobiliers désignés au contrat (bâtiments bâtis et réceptionnés, y compris clôtures, portails et murs d'enceinte s'y rapportant ; la garantie s'étend aux installations de panneaux solaires thermiques ou photovoltaïques intégrées à la toiture, ainsi qu'aux digicodes, moteur de portails, antennes paraboliques collectives, climatisation, caméras de vidéo surveillance ou éclairages extérieurs rattachés aux biens immobiliers assurés ; locaux techniques intégrés ou non aux biens assurés tels que chaufferie, réseaux de chauffage, sous-stations de chauffage, cages d'ascenseurs et leurs édicules ; sous-sols, greniers ou combles, parkings qu'ils soient aériens, en sous-sol, en box ou non ou qu'ils forment un bâtiment proprement dit, les garages) ; Contenu des bâtiments assurés (matériel appartenant à l'assuré situé dans les parties communes et servant à l'entretien et à la sécurité des biens immobiliers ; biens mobiliers situés dans les parties privatives assurées, et propriété de l'assuré lorsque celui-ci est occupant en qualité de gérant de la SCI ou propriétaire de tout ou partie d'un immeuble meublé) ; Biens extérieurs situés dans l'enceinte de la propriété ou de la copropriété assurée (arbres, plantations et clôtures végétales ; voies d'accès et de circulation privées, parkings non couverts, terrasses autres qu'en toiture et leurs escaliers, installation d'éclairage et de signalisation, enseignes lumineuses ; bassins ou piscines enterrés et construits en matériaux résistants ; installations sportives ou récréatives en plein air dans la mesure ou ces installations sont scellées où ancrés au sol). »",
+      "page": 1
+    },
+    {
+      "name": "Estimation des biens après sinistre",
+      "description": "« Lorsqu'ils sont endommagés ou détruits, les biens sont estimés d'après leur valeur de reconstruction ou de remplacement au jour du sinistre. Le remboursement s'effectuera pour : les biens immobiliers et les biens extérieurs : en valeur à neuf pour l'ensemble des événements assurés (valeur d'usage majorée de 33 % de la valeur de construction ou de remplacement) ; le contenu : en valeur d'usage au jour du sinistre (valeur de remplacement ou de réparation vétusté déduite) majorée de 25% si l'assuré procède à la réparation ou au remplacement dans un délai de deux ans. »",
+      "page": 2
+    },
+    {
+      "name": "Libre choix de l'avocat",
+      "description": "« Pour la défense de ses intérêts propres, l'assuré a le libre choix de l'avocat. L'assuré a également le libre choix de l'avocat chaque fois que survient un conflit d'intérêt entre lui et SMACL Assurances. »",
+      "page": 2
+    },
+    {
+      "name": "Portée du document et renvoi contractuel",
+      "description": "« Ce document est non contractuel. Il précise les principales dispositions du contrat Multirisques patrimoine. Pour connaître l'étendue exacte du contrat et de ses exclusions, se reporter aux conditions générales Multirisques patrimoine - Modèle 02 (09/2016). »",
+      "page": 3
+    },
+    {
+      "name": "Coordonnées imprimées",
+      "description": "« 05 49 32 56 56 (prix d'un appel local) » ; siège social « 141, avenue Salvador-Allende - CS 20000 - 79031 NIORT CEDEX 9 » ; signature de marque « L'ASSURANCE DES TERRITOIRES ».",
+      "page": 3
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Selon la qualité déclarée au contrat, la personne morale de droit privé ou \npersonne physique en sa qualité de :\n> \u0007propriétaire non-occupant ;\n> \u0007copropriétaire occupant ou non-occupant des bâtiments assurés ;\n> \u0007association syndicale libre, qui lorsqu’elle existe, assume le rôle \nd’administrateur du bien objet du contrat ;\n> \u0007syndic de copropriété ;\n> \u0007gérant de la SCI (Société Civile Immobilière), en sa seule qualité \nd’occupant à titre onéreux ou gratuit de tout ou partie de l’immeuble \npropriété de la SCI ;\n> \u0007syndicat des copropriétaires quand il exerce lui-même l’administration \nde l’immeuble ;\n> \u0007conseil syndical.",
+      "page": 1,
+      "context": "Qualités assurées"
+    },
+    {
+      "quote": "SMACL Assurances garantit les biens suivants : \n> \u0007Biens immobiliers désignés au contrat",
+      "page": 1,
+      "context": "Biens assurés"
+    },
+    {
+      "quote": "L’assuré devra déclarer la superficie des biens immobiliers avec un écart \ntoléré fixé à 10 %.",
+      "page": 1,
+      "context": "Déclaration de superficie"
+    },
+    {
+      "quote": "Sont garantis les dommages qui peuvent être causés par la réalisation \ndes évènements suivants :\n•\u0007 incendie, explosion, implosion, foudre, fumées ;\n•\u0007 dommages électriques ;\n•\u0007 chute d’aéronef ;\n•\u0007 choc de véhicule terrestre à moteur avec les biens assurés ;\n•\u0007 tempête, grêle, poids de la neige ;\n•\u0007 dégâts des eaux et autres liquides ;\n•\u0007 vols et actes de vandalisme ;\n•\u0007 bris de glace ;\n•\u0007 effondrement de bâtiment ;\n•\u0007 catastrophes naturelles ;\n•\u0007 catastrophes technologiques ;\n•\u0007 attentats et actes de terrorisme ;\n•\u0007 émeutes et mouvements populaires.",
+      "page": 1,
+      "context": "Évènements dommageables garantis"
+    },
+    {
+      "quote": "privation de jouissance des locaux rendus inutilisables par le sinistre, à \nconcurrence de 2 années de valeur locative ;",
+      "page": 1,
+      "context": "Extension - privation de jouissance"
+    },
+    {
+      "quote": "pertes  indirectes, sur  justificatifs  et   dans  la   limite  de  10 %  du \nmontant  réel  HT  des  réparations des dommages ;",
+      "page": 1,
+      "context": "Extension - pertes indirectes"
+    },
+    {
+      "quote": "Pour les biens désignés au contrat, la garantie de SMACL Assurances \nporte également sur la responsabilité de l’assuré en raison des dommages \nmatériels et immatériels :\n•\u0007 \u0007causés aux propriétaires, locataires, occupants et voisins des biens \nimmobiliers assurés ainsi qu’aux tiers en général ;\n•\u0007 \u0007et consécutif à un incendie, une explosion, une  implosion, un  dommage \nélectrique, de la fumée, un dégât des eaux, un  bris  de   glace, ou à un \nvol, une tentative de vol ou un acte de vandalisme.",
+      "page": 1,
+      "context": "Garanties annexes dommages aux biens"
+    },
+    {
+      "quote": "bris de machine : sont couverts, les bris ou destructions de machines \n(équipements générateurs de chaleur, ascenseurs, monte-charges, \ninstallations relatives aux piscines ou au traitement des eaux, mécanismes \nde portes automatiques de garage, installations de compactage des \nordures ménagères) survenant dans les locaux dès lors que les équipements \nendommagés sont en état normal d’entretien et de fonctionnement ;",
+      "page": 1,
+      "context": "Option - bris de machine"
+    },
+    {
+      "quote": "tous risques sauf : dans la limite des montants de garanties et de \nfranchises prévus au contrat, sont garantis les dommages matériels \ndirects subis par les biens assurés lors de la survenance accidentelle \nd’événements non dénommés au contrat. Cette option n’a pas pour \nobjet de garantir des biens non assurés ou des événements dénommés \nque l’assuré n’a pas souhaité souscrire, ni de racheter des exclusions \nfigurant au contrat. ",
+      "page": 1,
+      "context": "Option - tous risques sauf"
+    },
+    {
+      "quote": "Lorsqu’ils sont endommagés ou détruits, les biens sont estimés d’après \nleur valeur de reconstruction ou de remplacement au jour du sinistre.",
+      "page": 2,
+      "context": "Estimation des biens après sinistre"
+    },
+    {
+      "quote": "les biens immobiliers et les biens extérieurs : en  valeur  à  neuf  pour \nl’ensemble  des événements assurés (valeur d’usage majorée de 33 % de \nla valeur de construction ou de remplacement) ;",
+      "page": 2,
+      "context": "Indemnisation en valeur à neuf"
+    },
+    {
+      "quote": "le contenu : en valeur  d’usage  au  jour  du  sinistre (valeur de \nremplacement ou de réparation vétusté déduite) majorée de 25% si \nl’assuré procède à la réparation ou au remplacement dans un délai de \ndeux ans.",
+      "page": 2,
+      "context": "Indemnisation du contenu"
+    },
+    {
+      "quote": "SMACL Assurances garantit l’assuré contre les conséquences pécuniaires \nde la responsabilité civile pouvant lui incomber  en  qualité  de  propriétaire \nd’immeubles, en  vertu du  droit  commun  et  en  raison  des  dommages \ncorporels, matériels  et  immatériels  résultant  d’un  événement  accidentel \net  causés  à  autrui  (y  compris les occupants) du fait :",
+      "page": 2,
+      "context": "RC du propriétaire d'immeuble"
+    },
+    {
+      "quote": "La garantie responsabilité civile de l’assuré est étendue aux conséquences \npécuniaires de son activité de syndic bénévole  de  copropriété vis à vis \ndes tiers :\n- \u0007par  suite  d’erreurs  de  fait  ou  de  droit,  d’omissions, de  négligences \ncommises  par  lui-même, ses collaborateurs, à l’occasion des \nactivités définies aux conditions particulières ;\n- \u0007en cas de perte, de destruction ou d’altération involontaire de pièces, \ndossiers ou documents divers qui lui sont confiés en tant que syndic \nbénévole de copropriété.",
+      "page": 2,
+      "context": "Option - RC syndic bénévole"
+    },
+    {
+      "quote": "SMACL Assurances s’engage à exercer à ses frais toutes interventions \namiables ou actions judiciaires en vue :\n- \u0007de pourvoir à la défense de l’assuré devant les tribunaux répressifs, s’il \nest poursuivi pour des faits dont les conséquences pécuniaires sont \ncouvertes par le présent contrat au titre des garanties responsabilité \ncivile ci-avant ;\n- \u0007d’obtenir la réparation des dommages subis par l’assuré et résultant \nd’un fait qui aurait été garanti par SMACL Assurances au titre du \nprésent contrat si son auteur avait eu la qualité d’assuré.",
+      "page": 2,
+      "context": "Défense pénale et recours"
+    },
+    {
+      "quote": "Pour la défense de ses intérêts propres, l’assuré a le libre choix de l’avocat. \nL’assuré a également le libre choix de l’avocat chaque fois que survient un \nconflit d’intérêt entre lui et SMACL Assurances. \nSi l’assuré souhaite que SMACL Assurances lui propose le nom d’un avocat, \nil doit en faire la demande par écrit. ",
+      "page": 2,
+      "context": "Libre choix de l'avocat"
+    },
+    {
+      "quote": "En tout état de cause, SMACL Assurances ne peut être tenue à engager \nune action judiciaire que si le préjudice subi par l’assuré est supérieur à \n1 500 euros.",
+      "page": 2,
+      "context": "Seuil d'engagement d'une action judiciaire"
+    },
+    {
+      "quote": "Ce document est non contractuel. Il précise les principales dispositions du contrat Multirisques patrimoine. \nPour connaître l’étendue exacte du contrat et de ses exclusions, se reporter aux conditions générales Multirisques patrimoine - Modèle 02 (09/2016).",
+      "page": 3,
+      "context": "Portée du document"
+    },
+    {
+      "quote": "SMACL ASSURANCES SA - Société anonyme au capital de 260 071 379,48 euros, entreprise régie par le Code des\nassurances, RCS Niort n° 833817224. Siège social : 141, avenue Salvador-Allende - CS 20000 - 79031 NIORT CEDEX 9.",
+      "page": 3,
+      "context": "Colophon - identité de l'entreprise d'assurance"
+    }
+  ],
+  "gaps": [
+    "PORTEUR DU RISQUE. Le corps du document attribue les garanties à « SMACL Assurances » (« SMACL Assurances garantit les biens suivants », page 1 ; « SMACL Assurances garantit l'assuré contre les conséquences pécuniaires de la responsabilité civile », page 2 ; « SMACL Assurances s'engage à exercer à ses frais toutes interventions amiables ou actions judiciaires », page 2). Le colophon de la page 3 est le seul endroit qui donne une identité complète et il nomme la société anonyme : « SMACL ASSURANCES SA - Société anonyme au capital de 260 071 379,48 euros, entreprise régie par le Code des assurances, RCS Niort n° 833817224 » (le numéro RCS est imprimé sans séparateurs, verbatim). La société d'assurance mutuelle SMACL Assurances (301 309 605) n'apparaît nulle part. CONTRÔLE NÉGATIF EXPLICITE : aucun tiers n'est nommé - ni IMA GIE, ni SMACL Assistance, ni MAIF VIE, ni MUTEX, ni courtier, gestionnaire ou assisteur. Aucune garantie n'est attribuée à un porteur différent. insurer_name conserve la valeur fournie par la tâche.",
+    "CAPITAL SOCIAL : « 260 071 379,48 euros » ici, contre 138 801 048 euros sur d'autres fascicules SMACL du corpus - marqueur d'éditions différentes. Valeur reportée verbatim.",
+    "TABLEAUX RECONSTRUITS PAR COORDONNÉES, PAS PAR L'ORDRE DU TEXTE PLAT. C'est le point central de cette extraction : le texte plat des tableaux (pages 2 et 3) émet les libellés puis les montants en blocs séparés, et le libellé d'un groupe est centré verticalement sur plusieurs lignes de montants, si bien qu'une lecture séquentielle rattache les montants à la mauvaise ligne. Colonnes mesurées : libellé d'évènement x0 = 38,3 pt ; sous-libellé x0 = 214,0 pt ; montants alignés à droite sur x1 = 381,8 pt (x0 variable de 236 à 365 selon la longueur du texte, donc l'abscisse de DÉBUT de la colonne des montants change d'une section à l'autre et ne peut pas servir de critère) ; franchise x1 = 557,5-559,2 pt. Le rattachement a été fait par ORDONNÉE puis vérifié sur des rendus à 4,5x et 5x des trois tableaux. Exemples de pièges effectivement rencontrés : (a) le premier groupe de huit évènements (y 564-627) partage un seul jeu de montants placé en y 586-604 - lus à plat, ces montants s'attacheraient au seul « émeutes et mouvements populaires » ; (b) le libellé « - vol et actes de vandalisme » sort en y 737,3 alors que ses lignes de montants sont en y 725,7-749,0, donc AVANT lui dans le flux ; (c) « Néant » du bloc des extensions (page 3) sort en dernier dans le texte plat alors qu'il est, géométriquement (y 140,5, colonne franchise), la franchise de tout le bloc et non celle des « honoraires d'expert d'assuré ».",
+    "ARTEFACTS D'IMPRESSION CONFIRMÉS AU RENDU, CONSERVÉS TELS QUELS. (1) Page 3, tableau des garanties annexes : la colonne des montants réimprime le libellé de la ligne (« Responsabilité à l'égard des propriétaires, 6 000 000 € (dommages matériels, immatériels) dont : ») - vérifié au rendu 5x, c'est bien ce qui est imprimé, ce n'est pas un défaut de la couche texte. (2) Page 3, tableau responsabilité civile : la colonne des montants imprime « Garantie responsabilité civile du propriétaire d'immeuble (10 000 000 € » avec une PARENTHÈSE NON FERMÉE - vérifié au rendu. Le plafond de 10 000 000 € est donc bien celui de cette garantie, identique au « TOUS DOMMAGES CONFONDUS » de la même colonne.",
+    "DIVERGENCE INTERNE NON ARBITRÉE, prestations techniques et frais accessoires : le corps (page 1) écrit « sur justificatifs à concurrence de 10 % du montant HT des travaux de réparation ou de reconstruction du bien sinistré », le tableau (page 3) écrit « 10 % du montant des dommages sur justificatifs ». Deux assiettes différentes ; les deux libellés sont conservés dans le champ limits de la garantie.",
+    "DIVERGENCE INTERNE, assurance dommages ouvrage : le corps (page 1) définit la garantie comme « le montant de la cotisation correspondant à l'assurance que l'assuré doit souscrire en cas de reconstruction après sinistre », sans chiffre ; le tableau (page 3) la chiffre à « 2 % du coût des travaux de reconstruction ». Les deux sont enregistrés.",
+    "COUVERTURE PARTIELLE DU TABLEAU : la garantie optionnelle « Responsabilité civile du syndic professionnel de copropriété » est décrite dans le corps (page 2) mais n'a AUCUNE ligne dans le tableau des montants (page 3) ; seule la ligne « Responsabilité civile du syndic bénévole de copropriété et de l'association syndicale libre » y figure. Son plafond est donc laissé null. Symétriquement, le tableau associe l'association syndicale libre au syndic bénévole alors que le corps ne mentionne pas cette extension.",
+    "AUCUNE EXCLUSION ÉNUMÉRÉE : ce résumé non contractuel ne comporte pas de section exclusions et renvoie explicitement aux « conditions générales Multirisques patrimoine - Modèle 02 (09/2016) », absentes du document. Les trois entrées d'exclusions enregistrées sont les seules restrictions écrites du document (seuil de 1 500 euros pour l'action judiciaire, portée de l'option tous risques sauf, renvoi aux exclusions des conditions générales). Sont également absents : définitions, durée et résiliation, prescription, cotisation, procédure de déclaration de sinistre, délais de carence, territorialité.",
+    "ORDRE DU TEXTE PLAT, page 1 : le bloc de titre « Votre / résumé des garanties / Multirisques patrimoine » est imprimé EN HAUT de la page (y 30 à 96) mais sort EN DERNIER dans la couche texte, après la colonne de droite. Sans conséquence sur les rattachements, mais une lecture séquentielle placerait le titre du document à la fin de la page. CONTRÔLE D'INVERSION DE COLONNES sur les blocs de prose (pages 1 et 2) : NÉGATIF - la coupure mesurée se situe entre x1 = 288,2 pt (fin maximale de la colonne de gauche) et x0 = 310,4 pt (début minimal de la colonne de droite), et le texte plat émet intégralement la colonne de gauche puis la colonne de droite ; aucun entrelacement ligne à ligne.",
+    "DÉFAUT DE COUCHE TEXTE CONSERVÉ, NON CORRIGÉ : la ligature « ti » disparaît dans la police du colophon (page 3) - « Concepton », « Directon », « communicaton ». Le corps du document et les tableaux ne sont pas touchés (« prestations », « installations », « détériorations » sortent correctement). Aucune citation n'a été prise sur un mot mutilé.",
+    "COQUILLES DE L'ASSUREUR CONSERVÉES : page 1, « installations sportives ou récréatives en plein air dans la mesure ou ces installations sont scellées où ancrés au sol » (« ou » pour « où », « où » pour « ou », accord de « ancrés ») ; page 1, « assurance dommages ouvrage, c'est-à dire » ; page 2, « majorée de 25% » (sans espace insécable, contrairement aux autres pourcentages du document) ; page 3, « RCS Niort n° 833817224 » (sans séparateurs de milliers). Non corrigées.",
+    "CARACTÈRES DE CONTRÔLE, comptés : U+0007 - 50 sur la page 1 et 20 sur la page 2, placés entre la puce (« > » ou « • ») et le premier mot de l'item ; U+0008 - 16 sur la page 2 et 3 sur la page 3, dans les cellules de tableau ; U+0009 (tabulations réelles) - 32 sur la page 2 et 26 sur la page 3, entre le tiret et le libellé des lignes de tableau ; U+00A0 dans les montants (« 1 500 euros », page 2). Aucun U+FFFD. Ces caractères sont des artefacts de mise en forme, non des items perdus : chaque puce et chaque ligne du rendu a bien son item dans la couche texte. Les citations ont été découpées de façon à les contenir tels quels ou à les éviter, jamais à les réparer.",
+    "TEXTE COMPLET : aucune troncature. Le texte du prompt a été recontrôlé contre une extraction indépendante du PDF local (page.get_text(\"text\"), PyMuPDF) : les 3 pages sortent identiques. Aucun texte hors page, aucun bandeau de gabarit superposé, aucune image ; les 261 tracés vectoriels sont les filets et aplats des tableaux, aucun ne porte d'information de garantie (aucune coche, aucune croix).",
+    "PUBLIC VISÉ : le document vise « la personne morale de droit privé ou personne physique » prise en qualité de propriétaire, copropriétaire, syndic, gérant de SCI, syndicat des copropriétaires, association syndicale libre ou conseil syndical. Aucune des valeurs autorisées ne recouvre exactement cet ensemble ; target_audience = entreprises a été retenu parce que le document nomme d'abord la personne morale de droit privé et que les qualités visées sont celles de la gestion immobilière, et le libellé imprimé est conservé intégralement dans target_audience_note. La mention « personne physique » y figure explicitement.",
+    "AUCUNE RÉFÉRENCE DE DOCUMENT n'est imprimée sur ce résumé (pas de code du type PRODUIT_XX_NN(MM_AAAA) comme sur les conditions générales SMACL) : reference est laissé null. edition_date = 01/2023 provient de la ligne d'édition imprimée en pied de la page 3 ; la seule autre date du document est « Modèle 02 (09/2016) », qui désigne l'édition des conditions générales auxquelles le résumé renvoie, et non ce document."
+  ]
+}

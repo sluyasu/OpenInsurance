@@ -265,6 +265,10 @@ LES GARANTIES OPTIONNELLES — L’indemnité est plafonnée par sinistre  aux m
 - MONTANTS DES GARANTIES OPTIONNELLES. Les trois garanties optionnelles (Bris de machine, Tous risques sauf, Responsabilité civile du syndic bénévole de copropriété) sont nommées sans description ni plafond propre ; le document n’indique que le renvoi aux montants du contrat.
 - EXTRACTION VÉRIFIÉE. Le texte du prompt a été recoupé caractère par caractère avec une ré-extraction locale du PDF (PyMuPDF, page.get_text("text")) : les 2 pages sont identiques. Toutes les citations de `key_quotes` sont des tranches exactes de ce calque texte, découpées programmatiquement, sans marqueur [page N] et sans glyphe de zone privée.
 
+## Documents liés
+
+- [Multirisques patrimoine - Fiche](Multirisques%20patrimoine%20-%20Fiche.md) - Fiche produit, éd. 01/2023
+
 ## Source & fidélité
 
 - Source : [https://www.smacl.fr/files/documents/document-information-multirisque-patrimoine-entreprise.pdf](https://www.smacl.fr/files/documents/document-information-multirisque-patrimoine-entreprise.pdf) - téléchargé le 2026-08-01 - 2 pages

@@ -16,7 +16,7 @@ generated: true
 
 Liste générée des produits par branche. Les fiches conceptuelles de branche sont rédigées à la main dans ce dossier.
 
-### [Assurance auto](Assurance%20auto.md) (108)
+### [Assurance auto](Assurance%20auto.md) (109)
 - [Assurance Auto et Auto connectée Direct Assurance - IPID](../products/direct-assurance/Assurance%20Auto%20et%20Auto%20connect%C3%A9e%20Direct%20Assurance%20-%20IPID.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [Contrat Auto](../products/direct-assurance/Contrat%20Auto.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [YouDrive - CP](../products/direct-assurance/YouDrive%20-%20CP.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
@@ -26,6 +26,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Assurance Véhicule - IPID](../products/maaf/Assurance%20V%C3%A9hicule%20-%20IPID.md) - [MAAF](../insurers/MAAF.md)
 - [CARAVANE, REMORQUE, CAMION, VEHICULES DIVERS - IPID](../products/maaf/CARAVANE%2C%20REMORQUE%2C%20CAMION%2C%20VEHICULES%20DIVERS%20-%20IPID.md) - [MAAF](../insurers/MAAF.md)
 - [Camping-Car, Ambulance, Bazar forain, Véhicule de collection - IPID](../products/maaf/Camping-Car%2C%20Ambulance%2C%20Bazar%20forain%2C%20V%C3%A9hicule%20de%20collection%20-%20IPID.md) - [MAAF](../insurers/MAAF.md)
+- [Contrat Auto - Assurance Multirisque](../products/maaf/Contrat%20Auto%20-%20Assurance%20Multirisque.md) - [MAAF](../insurers/MAAF.md)
 - [Contrat Camping car, Ambulance, Bazar forain, Véhicule de collection — Assurance Multirisque](../products/maaf/Contrat%20Camping%20car%2C%20Ambulance%2C%20Bazar%20forain%2C%20V%C3%A9hicule%20de%20collection%20%E2%80%94%20Assurance%20Multirisque.md) - [MAAF](../insurers/MAAF.md)
 - [Assurance Auto-Moto Vam - IPID](../products/maif/Assurance%20Auto-Moto%20Vam%20-%20IPID.md) - [MAIF](../insurers/MAIF.md)
 - [Assurance Auto-Moto Vam](../products/maif/Assurance%20Auto-Moto%20Vam.md) - [MAIF](../insurers/MAIF.md)
@@ -364,7 +365,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [INTÉGRALE 1, INTÉGRALE 2, INTÉGRALE 3, INTÉGRALE 4 – Formules responsables et solidaires - Doc](../products/thelem/INT%C3%89GRALE%201%2C%20INT%C3%89GRALE%202%2C%20INT%C3%89GRALE%203%2C%20INT%C3%89GRALE%204%20%E2%80%93%20Formules%20responsables%20et%20solidaires%20-%20Doc.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [PRIMORDIALE 1, PRIMORDIALE 2, PRIMORDIALE 3 – Formules NON responsables et solidaires - Doc](../products/thelem/PRIMORDIALE%201%2C%20PRIMORDIALE%202%2C%20PRIMORDIALE%203%20%E2%80%93%20Formules%20NON%20responsables%20et%20solidaires%20-%20Doc.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 
-### [Prévoyance](Pr%C3%A9voyance.md) (37)
+### [Prévoyance](Pr%C3%A9voyance.md) (38)
 - [Galya Prévoyance Entreprise - Fiche](../products/gan/Galya%20Pr%C3%A9voyance%20Entreprise%20-%20Fiche.md) - [Gan Assurances](../insurers/Gan%20Assurances.md)
 - [Gan Patrimoine Protection Plus - IPID](../products/gan/Gan%20Patrimoine%20Protection%20Plus%20-%20IPID.md) - [Gan Assurances](../insurers/Gan%20Assurances.md)
 - [Gan Patrimoine Protection Plus - Fiche](../products/gan/Gan%20Patrimoine%20Protection%20Plus%20-%20Fiche%20%282%29.md) - [Gan Assurances](../insurers/Gan%20Assurances.md)
@@ -388,6 +389,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Rassurcap Solutions](../products/maif/Rassurcap%20Solutions.md) - [MAIF](../insurers/MAIF.md)
 - [Prévoyance CCN Cabinets d'experts comptables et commissaires aux comptes (IDCC 787) - IPID](../products/macif/Pr%C3%A9voyance%20CCN%20Cabinets%20d%27experts%20comptables%20et%20commissaires%20aux%20comptes%20%28IDCC%20787%29%20-%20IPID.md) - [Macif](../insurers/Macif.md)
 - [contrat GARANTIE DÉCÈS (Décès, invalidité et arrêt de travail temporaire) - IPID](../products/macif/contrat%20GARANTIE%20D%C3%89C%C3%88S%20%28D%C3%A9c%C3%A8s%2C%20invalidit%C3%A9%20et%20arr%C3%AAt%20de%20travail%20temporaire%29%20-%20IPID.md) - [Macif](../insurers/Macif.md)
+- [contrat GARANTIE DÉCÈS Capital forfaitaire - IPID](../products/macif/contrat%20GARANTIE%20D%C3%89C%C3%88S%20Capital%20forfaitaire%20-%20IPID.md) - [Macif](../insurers/Macif.md)
 - [Complice Prévoyance Matmut - IPID](../products/matmut/Complice%20Pr%C3%A9voyance%20Matmut%20-%20IPID.md) - [Matmut](../insurers/Matmut.md)
 - [Ma Prévoyance Pro (Travailleurs non-salariés (TNS)) - Fiche](../products/matmut/Ma%20Pr%C3%A9voyance%20Pro%20%28Travailleurs%20non-salari%C3%A9s%20%28TNS%29%29%20-%20Fiche.md) - [Matmut](../insurers/Matmut.md)
 - [ALÉASSUR Risques statutaires CNRACL (ALÉASSUR CNRACL)](../products/smacl/AL%C3%89ASSUR%20Risques%20statutaires%20CNRACL%20%28AL%C3%89ASSUR%20CNRACL%29.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
@@ -510,12 +512,13 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [ALTUS EVOLUTION 2.0](../products/matmut/ALTUS%20EVOLUTION%202.0.md) - [Matmut](../insurers/Matmut.md)
 - [Thélem Emprunteur - IPID](../products/thelem/Th%C3%A9lem%20Emprunteur%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 
-### [Responsabilité civile vie privée](Responsabilit%C3%A9%20civile%20vie%20priv%C3%A9e.md) (9)
+### [Responsabilité civile vie privée](Responsabilit%C3%A9%20civile%20vie%20priv%C3%A9e.md) (10)
 - [Assurance jeune (Formule Personnelle) - Fiche](../products/maaf/Assurance%20jeune%20%28Formule%20Personnelle%29%20-%20Fiche.md) - [MAAF](../insurers/MAAF.md)
 - [TEMPO ENFANTS - IPID](../products/maaf/TEMPO%20ENFANTS%20-%20IPID.md) - [MAAF](../insurers/MAAF.md)
 - [TEMPO HABITATION Responsabilité civile - IPID](../products/maaf/TEMPO%20HABITATION%20Responsabilit%C3%A9%20civile%20-%20IPID.md) - [MAAF](../insurers/MAAF.md)
 - [TEMPO JEUNES - IPID](../products/maaf/TEMPO%20JEUNES%20-%20IPID.md) - [MAAF](../insurers/MAAF.md)
 - [Fiche d'information responsabilité civile - Doc](../products/maif/Fiche%20d%27information%20responsabilit%C3%A9%20civile%20-%20Doc.md) - [MAIF](../insurers/MAIF.md)
+- [Contrat Macif Habitation - Formule Responsabilité civile - IPID](../products/macif/Contrat%20Macif%20Habitation%20-%20Formule%20Responsabilit%C3%A9%20civile%20-%20IPID.md) - [Macif](../insurers/Macif.md)
 - [Contrat Multigarantie Vie Privée - Responsabilité Civile - IPID](../products/macif/Contrat%20Multigarantie%20Vie%20Priv%C3%A9e%20-%20Responsabilit%C3%A9%20Civile%20-%20IPID.md) - [Macif](../insurers/Macif.md)
 - [Responsabilité civile vie privée](../products/smacl/Responsabilit%C3%A9%20civile%20vie%20priv%C3%A9e%20%28SMACL%20Assurances%29.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [Assurance responsabilité civile association - IPID](../products/thelem/Assurance%20responsabilit%C3%A9%20civile%20association%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
@@ -573,7 +576,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Sécurité élus - IPID](../products/smacl/S%C3%A9curit%C3%A9%20%C3%A9lus%20-%20IPID.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [Responsabilité Civile Chef d'Entreprise- Professions libérales - IPID](../products/thelem/Responsabilit%C3%A9%20Civile%20Chef%20d%27Entreprise-%20Professions%20lib%C3%A9rales%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 
-### [Multirisque professionnelle](Multirisque%20professionnelle.md) (61)
+### [Multirisque professionnelle](Multirisque%20professionnelle.md) (62)
 - [CAPEB — INTERCALAIRE](../products/maaf/CAPEB%20%E2%80%94%20INTERCALAIRE.md) - [MAAF](../insurers/MAAF.md)
 - [COMMERCES D'ALIMENTATION — INTERCALAIRE](../products/maaf/COMMERCES%20D%27ALIMENTATION%20%E2%80%94%20INTERCALAIRE.md) - [MAAF](../insurers/MAAF.md)
 - [Commerces et Services — Intercalaire](../products/maaf/Commerces%20et%20Services%20%E2%80%94%20Intercalaire.md) - [MAAF](../insurers/MAAF.md)
@@ -631,6 +634,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [CONVERGENCE Tous risques objets (Associatons)](../products/smacl/CONVERGENCE%20Tous%20risques%20objets%20%28Associatons%29.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [Convergence dommages aux biens - IPID](../products/smacl/Convergence%20dommages%20aux%20biens%20-%20IPID.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [Multirisques patrimoine - IPID](../products/smacl/Multirisques%20patrimoine%20-%20IPID.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
+- [Multirisques patrimoine - Fiche](../products/smacl/Multirisques%20patrimoine%20-%20Fiche.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [Votre barème de remboursement des honoraires d'expert d'assuré en Dommages aux biens - Tarifs](../products/smacl/Votre%20bar%C3%A8me%20de%20remboursement%20des%20honoraires%20d%27expert%20d%27assur%C3%A9%20en%20Dommages%20aux%20biens%20-%20Tarifs.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [Assurance Garauto - IPID](../products/thelem/Assurance%20Garauto%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [Assurance multirisque professionnelle - IPID](../products/thelem/Assurance%20multirisque%20professionnelle%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
@@ -680,7 +684,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Assurance navigation de plaisance](../products/smacl/Assurance%20navigation%20de%20plaisance.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [Convention Assistance Navigation de plaisance](../products/smacl/Convention%20Assistance%20Navigation%20de%20plaisance.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 
-### [Voyage et assistance](Voyage%20et%20assistance.md) (8)
+### [Voyage et assistance](Voyage%20et%20assistance.md) (9)
 - [ASSURANCE MULTI-VOYAGES A L'ANNEE - 507332 - IPID](../products/luko/ASSURANCE%20MULTI-VOYAGES%20A%20L%27ANNEE%20-%20507332%20-%20IPID.md) - [Luko](../insurers/Luko.md)
 - [Comprehensive Gold Long Trip 507655](../products/luko/Comprehensive%20Gold%20Long%20Trip%20507655.md) - [Luko](../insurers/Luko.md)
 - [Comprehensive Gold Sport Annual 507332](../products/luko/Comprehensive%20Gold%20Sport%20Annual%20507332.md) - [Luko](../insurers/Luko.md)
@@ -689,6 +693,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Medical & assistance Gold Sport Long trip 507657](../products/luko/Medical%20%26%20assistance%20Gold%20Sport%20Long%20trip%20507657.md) - [Luko](../insurers/Luko.md)
 - [Assistance médicale « Carte Visa Classic » (Assistance médicale - Contrat Etranger)](../products/macif/Assistance%20m%C3%A9dicale%20%C2%AB%20Carte%20Visa%20Classic%20%C2%BB%20%28Assistance%20m%C3%A9dicale%20-%20Contrat%20Etranger%29.md) - [Macif](../insurers/Macif.md)
 - [CARTE VISA Premier](../products/macif/CARTE%20VISA%20Premier.md) - [Macif](../insurers/Macif.md)
+- [CONVERGENCE - Annulation de séjour (conventions spéciales)](../products/smacl/CONVERGENCE%20-%20Annulation%20de%20s%C3%A9jour%20%28conventions%20sp%C3%A9ciales%29.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 
 ### [Animaux](Animaux.md) (6)
 - [Contrat Chiens guides](../products/macif/Contrat%20Chiens%20guides.md) - [Macif](../insurers/Macif.md)
