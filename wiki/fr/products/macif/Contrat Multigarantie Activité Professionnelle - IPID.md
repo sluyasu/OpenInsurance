@@ -263,7 +263,8 @@ Protection financière.
 
 ## Documents liés
 
-- [Multigarantie Activité Professionnelle](Multigarantie%20Activit%C3%A9%20Professionnelle.md) - Conditions générales, éd. 06/2023
+- [Multigarantie Activité Professionnelle](Multigarantie%20Activit%C3%A9%20Professionnelle%20%282%29.md) - Conditions générales, éd. 06/2023
+- [Multigarantie Activité Professionnelle](Multigarantie%20Activit%C3%A9%20Professionnelle.md) - Conditions générales, éd. Version 12/2025 (Version décembre 2025)
 
 ## Source & fidélité
 

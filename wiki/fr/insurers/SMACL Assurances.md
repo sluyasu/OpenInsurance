@@ -5,7 +5,7 @@ country: fr
 insurer_slug: smacl
 name: SMACL Assurances
 website: https://www.smacl.fr
-products_count: 108
+products_count: 109
 branches_covered:
 - auto
 - autres
@@ -37,7 +37,7 @@ generated: true
 
 ## Résumé
 
-**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 108 document(s) across 15 branch(es).
+**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 109 document(s) across 15 branch(es).
 
 ## Produits par branche
 
@@ -168,6 +168,7 @@ generated: true
 - [Convergence - Responsabilité civile des dirigeants - IPID](../products/smacl/Convergence%20-%20Responsabilit%C3%A9%20civile%20des%20dirigeants%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. CONVERGENCE_DIPA_RCDI_03(09_2022)
 - [Sécurité des fonctionnaires territoriaux - IPID](../products/smacl/S%C3%A9curit%C3%A9%20des%20fonctionnaires%20territoriaux%20-%20IPID.md) - IPID / Fiche d'information (01/2022) · réf. PP_DIPA_SFT_02(07_2020)
 - [Sécurité des fonctionnaires territoriaux](../products/smacl/S%C3%A9curit%C3%A9%20des%20fonctionnaires%20territoriaux.md) - Conditions générales (11/2022) · réf. PP_CG_SFT_06(02_2023)
+- [Sécurité élus](../products/smacl/S%C3%A9curit%C3%A9%20%C3%A9lus.md) - Conditions générales (11/2022) · réf. PP_CG_SE_07(02_2023)
 - [Sécurité élus - IPID](../products/smacl/S%C3%A9curit%C3%A9%20%C3%A9lus%20-%20IPID.md) - IPID / Fiche d'information (11/2022) · réf. PP_DIPA_SE_05_(06/2021)
 
 ### Marchandises transportées

@@ -5,7 +5,7 @@ country: fr
 insurer_slug: macif
 name: Macif
 website: https://www.macif.fr
-products_count: 149
+products_count: 151
 branches_covered:
 - animaux
 - assurance-vie
@@ -43,7 +43,7 @@ generated: true
 
 ## Résumé
 
-**Macif** - [https://www.macif.fr](https://www.macif.fr). 149 document(s) across 21 branch(es).
+**Macif** - [https://www.macif.fr](https://www.macif.fr). 151 document(s) across 21 branch(es).
 
 ## Produits par branche
 
@@ -149,7 +149,8 @@ generated: true
 - [Contrat Multigarantie Activité Professionnelle - IPID](../products/macif/Contrat%20Multigarantie%20Activit%C3%A9%20Professionnelle%20-%20IPID.md) - IPID / Fiche d'information (06/23) · réf. ACTP/MAP
 - [Contrat Multigarantie Activités Sociales Vie Associative - IPID](../products/macif/Contrat%20Multigarantie%20Activit%C3%A9s%20Sociales%20Vie%20Associative%20-%20IPID.md) - IPID / Fiche d'information (10/18) · réf. ACTS/MAS VA - 10/18
 - [Contrat Multigarantie Informatique - IPID](../products/macif/Contrat%20Multigarantie%20Informatique%20-%20IPID.md) - IPID / Fiche d'information (2018-10) · réf. ACTP/MI 10/18
-- [Multigarantie Activité Professionnelle](../products/macif/Multigarantie%20Activit%C3%A9%20Professionnelle.md) - Conditions générales (06/2023) · réf. ACTP/MAP/05 - 06/23 - N757
+- [Multigarantie Activité Professionnelle](../products/macif/Multigarantie%20Activit%C3%A9%20Professionnelle%20%282%29.md) - Conditions générales (06/2023) · réf. ACTP/MAP/05 - 06/23 - N757
+- [Multigarantie Activité Professionnelle](../products/macif/Multigarantie%20Activit%C3%A9%20Professionnelle.md) - Conditions générales (Version 12/2025 (Version décembre 2025)) · réf. ACTP/MAP/05 - 12/25 - N757
 
 ### [Navigation de plaisance](../branches/Navigation%20de%20plaisance.md)
 - [Contrat Navigation de plaisance](../products/macif/Contrat%20Navigation%20de%20plaisance.md) - Conditions générales (2017-01) · réf. LOIS/NAV/05 - 01/17 - N081
@@ -217,6 +218,7 @@ generated: true
 - [Macif Mutuelle Santé](../products/macif/Macif%20Mutuelle%20Sant%C3%A9%20%282%29.md) - Conditions générales (01/24) · réf. UNI/PREI/MMS/05 01/24
 - [Macif Mutuelle Santé - Macif Hospitalisation - Fiche](../products/macif/Macif%20Mutuelle%20Sant%C3%A9%20-%20Macif%20Hospitalisation%20-%20Fiche.md) - Fiche produit (01/06/2026)
 - [Macif Santé des Territoriaux - Fiche](../products/macif/Macif%20Sant%C3%A9%20des%20Territoriaux%20-%20Fiche.md) - Fiche produit (06/26) · réf. TG MACIF SANTÉ DES TERRITORIAUX - 06/26
+- [Macif Santé des Territoriaux](../products/macif/Macif%20Sant%C3%A9%20des%20Territoriaux.md) - Conditions générales (2026-06) · réf. RM - MSDT
 - [Régime conventionnel Frais de santé - CCN BAD (Branche de l'aide, de l'accompagnement, des soins et des services à domic](../products/macif/R%C3%A9gime%20conventionnel%20Frais%20de%20sant%C3%A9%20-%20CCN%20BAD%20%28Branche%20de%20l%27aide%2C%20de%20l%27accompagnement%2C%20des%20soins%20et%20des%20services%20%C3%A0%20domic.md) - Conditions générales (V01.01.2023)
 - [contrat COMPLÉMENTAIRE SANTÉ CCN DES CABINETS OU ENTREPRISES D'EXPERTISES EN AUTOMOBILE - IPID](../products/macif/contrat%20COMPL%C3%89MENTAIRE%20SANT%C3%89%20CCN%20DES%20CABINETS%20OU%20ENTREPRISES%20D%27EXPERTISES%20EN%20AUTOMOBILE%20-%20IPID.md) - IPID / Fiche d'information (01/25) · réf. DIPA/CS CCN Expert Auto/GA - 01/25
 - [contrat GARANTIE SANTE TERRITORIAUX - IPID](../products/macif/contrat%20GARANTIE%20SANTE%20TERRITORIAUX%20-%20IPID.md) - IPID / Fiche d'information (01/2022) · réf. DIPA GST 01/2022

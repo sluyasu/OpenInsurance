@@ -253,6 +253,7 @@ Tiers payant. (Service systématiquement prévu, précédé d'une coche verte. L
 ## Documents liés
 
 - [Macif Santé des Territoriaux - Fiche](Macif%20Sant%C3%A9%20des%20Territoriaux%20-%20Fiche.md) - Fiche produit, éd. 06/26
+- [Macif Santé des Territoriaux](Macif%20Sant%C3%A9%20des%20Territoriaux.md) - Conditions générales, éd. 2026-06
 
 ## Source & fidélité
 

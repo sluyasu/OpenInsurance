@@ -713,6 +713,10 @@ Conformément aux articles L.114-1 du Code des assurances et L.221-11 du Code de
 - Les puces des définitions et des listes ont été retirées des champs descriptifs (definitions, coverages, exclusions, obligations) pour produire un texte lisible ; les key_quotes, elles, sont des extraits exacts et non nettoyés de la couche texte.
 - Aucun délai d'attente (waiting_period) n'est prévu par le document ; le tableau correspondant est donc vide. Les délais figurant au contrat sont des délais de déclaration ou de forclusion et ont été placés dans obligations et claims_procedure.
 
+## Documents liés
+
+- [Contrat « Matmut-Smac » - IPID](Contrat%20%C2%AB%20Matmut-Smac%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information, éd. 10/25
+
 ## Source & fidélité
 
 - Source : [https://www.matmut.fr/services-en-ligne/doc/CG/GPMT10.pdf](https://www.matmut.fr/services-en-ligne/doc/CG/GPMT10.pdf) - téléchargé le 2026-07-30 - 54 pages

@@ -49,39 +49,47 @@ Trois relations distinctes ont été rencontrées dans le corpus, et les confond
 
 ### Combien de fois, mesuré
 
-Le pipeline enregistre désormais chaque document dont le **texte nomme un porteur autre que l'entité dont la
-bibliothèque publique l'a fourni**. Sur le corpus français : **dix-neuf documents, dix dénominations, neuf
-personnes morales.**
+Le pipeline enregistre chaque document dont le **texte nomme un porteur autre que l'entité dont la bibliothèque
+publique l'a fourni**. Le décompte se recalcule depuis le dépôt — il augmente à chaque vague d'extraction, donc
+tout chiffre écrit ici est un instantané :
 
-| Dénomination imprimée | Documents | Bibliothèque qui le publie |
-|---|---|---|
-| MAAF Santé | 4 | MAAF |
-| Matmut & Co (SA, 487 597 510 RCS Rouen) | 4 | Matmut |
-| **Macif Santé Prévoyance** *et* **Apivia Macif Mutuelle** — **même SIREN 779 558 501** | 2 + 1 | Macif |
-| Assistance Protection Juridique | 2 | — |
-| Inter Mutuelles Entreprises (RCS 493 147 011) | 2 | Matmut |
-| AMF – Assurance Mutuelle des Fonctionnaires et Assimilés | 1 | — |
-| Matmut Mutualité (Code de la mutualité, SIRENE 775 701 485) | 1 | Matmut |
-| Mutavie | 1 | Macif |
-| Mutuelle Ociane (Livre II du Code de la mutualité, n° 434 243 085) | 1 | Matmut |
+```bash
+grep -rl "Porteur de risque:" data/*/extracted/ | wc -l
+```
 
-**Dix dénominations pour neuf personnes morales, et l'écart est instructif.** « Macif Santé Prévoyance » et
-« Apivia Macif Mutuelle » portent **le même SIREN 779 558 501** et la même qualification — « mutuelle
-enregistrée en France et régie par le Livre II du Code de la mutualité ». C'est une seule entité sous deux
-noms, et le corpus en tient les deux parce qu'il contient des documents des deux périodes ; les éditions
-récentes impriment même un siège différent (Niort au lieu de Paris 15ᵉ).
+**Au 2026-08-03 : trente-neuf documents, dix-sept dénominations imprimées.** Les plus fréquentes sont MAAF
+Santé (10), Matmut & Co (5), Inter Mutuelles Entreprises et Mutuelle Ociane (3 chacune).
 
-Compter les noms aurait donc surestimé le nombre de porteurs. **C'est le numéro d'immatriculation qui identifie
-une personne morale, jamais la dénomination** — et c'est aussi ce qui permet de reconnaître un changement de
-nom au lieu d'inventer un porteur de plus. Une première version de cette page les comptait comme deux entités
-distinctes.
+**Compter les dénominations surestime le nombre de porteurs, et le corpus le montre crûment.** Le SIREN
+**779 558 501** apparaît sous **quatre noms** : « Apivia Macif Mutuelle », « Macif Santé Prévoyance »,
+« Macif-Mutualité » — et c'est aussi lui qui **substitue** la MNFCT (784 442 899) sur un contrat. Une seule
+personne morale, quatre libellés, selon l'édition et selon le rôle. Les éditions récentes impriment même un
+siège différent (Niort au lieu de Paris 15ᵉ).
+
+**C'est le numéro d'immatriculation qui identifie une personne morale, jamais la dénomination.** C'est aussi
+lui qui permet de reconnaître un changement de nom au lieu d'inventer un porteur de plus — une première
+version de cette page comptait deux de ces libellés comme deux entités distinctes.
+
+**Et la bibliothèque de publication ne dit rien du groupe.** Quatre documents publiés sous le slug `macif` ne
+sont assurés ni par la Macif ni par aucune entité de son groupe : deux le sont par **AXA France IARD / AXA
+France Vie** (assurances de carte bancaire souscrites par Visa Europe Limited — le mot « Macif » n'apparaît
+nulle part en huit pages), deux par **Fragonard Assurances**. Le slug reste celui de la bibliothèque ; la
+divergence est dans `gaps`.
 
 Deux autres lectures s'en dégagent, et aucune ne se déduirait des registres seuls.
 
 **Une marque de détail recouvre couramment plusieurs personnes morales, sous des régimes différents.** Matmut
-en compte cinq dans ce corpus — une société d'assurance mutuelle, une société anonyme, deux organismes du Code
-de la mutualité, une SA à directoire partagée avec Macif — et Macif trois. Le slug d'un assureur dans ce dépôt
-désigne **la bibliothèque qui publie**, jamais le porteur du risque.
+en réunit une société d'assurance mutuelle, une société anonyme, plusieurs organismes du Code de la mutualité
+(dont Mutuelle Ociane), une société de vie et une SA à directoire partagée avec Macif. Macif en réunit une
+mutuelle du Livre II, une société de vie et un GIE d'assistance.
+
+**Et la répartition n'est jamais la même d'un contrat à l'autre chez un même assureur.** Sur les seuls contrats
+MAAF : quatre nomment la mutuelle, deux nomment MAAF Vie, un fait de Covéa Protection Juridique à la fois
+l'assureur et le gestionnaire selon la garantie, un autre confie la protection juridique à Assistance
+Protection Juridique SA. Il n'y a pas de « structure MAAF » à apprendre une fois — elle se lit contrat par
+contrat, et souvent garantie par garantie.
+
+Le slug d'un assureur dans ce dépôt désigne donc **la bibliothèque qui publie**, jamais le porteur du risque.
 
 **Et le champ `insurer_name` ne peut pas porter cette information.** Il sert à regrouper les pages sous une
 fiche assureur et doit rester stable ; la lecture du document part donc dans `gaps`, document par document. Le
@@ -128,10 +136,10 @@ né d'un contrat que le classement en [[EDPM et mobilités douces]] aurait mal d
 - [Groupama](insurers/Groupama.md) (31 documents)
 - [Luko](insurers/Luko.md) (14 documents)
 - [MAAF](insurers/MAAF.md) (92 documents)
-- [Macif](insurers/Macif.md) (149 documents)
+- [Macif](insurers/Macif.md) (151 documents)
 - [MAIF](insurers/MAIF.md) (69 documents)
-- [Matmut](insurers/Matmut.md) (190 documents)
-- [SMACL Assurances](insurers/SMACL%20Assurances.md) (108 documents)
+- [Matmut](insurers/Matmut.md) (195 documents)
+- [SMACL Assurances](insurers/SMACL%20Assurances.md) (109 documents)
 - [Thélem assurances](insurers/Th%C3%A9lem%20assurances.md) (45 documents)
 <!-- END GENERATED -->
 

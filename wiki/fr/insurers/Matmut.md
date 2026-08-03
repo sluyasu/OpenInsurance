@@ -5,7 +5,7 @@ country: fr
 insurer_slug: matmut
 name: Matmut
 website: https://www.matmut.fr
-products_count: 190
+products_count: 195
 branches_covered:
 - animaux
 - assurance-vie
@@ -43,7 +43,7 @@ generated: true
 
 ## Résumé
 
-**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 190 document(s) across 21 branch(es).
+**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 195 document(s) across 21 branch(es).
 
 ## Produits par branche
 
@@ -181,6 +181,7 @@ generated: true
 - [Association](../products/matmut/Association.md) - Conditions générales (11/24) · réf. CG ASS – 11/24
 - [Caducée](../products/matmut/Caduc%C3%A9e.md) - Conditions générales (05/23) · réf. MC.30
 - [Contrat Multigaranties des associations syndicales libres et propriétaires de terrains nus - IPID](../products/matmut/Contrat%20Multigaranties%20des%20associations%20syndicales%20libres%20et%20propri%C3%A9taires%20de%20terrains%20nus%20-%20IPID.md) - IPID / Fiche d'information (11/25) · réf. IPID.IME.ASL - 11/25
+- [Contrat Multigaranties professionnels, associations et collectivités - IPID](../products/matmut/Contrat%20Multigaranties%20professionnels%2C%20associations%20et%20collectivit%C3%A9s%20-%20IPID.md) - IPID / Fiche d'information (11/25) · réf. IPID.IME.ENT.ASSO - 11/25
 - [Contrat d'assurance Bris de machines et pertes d'exploitation suite à bris de machines](../products/matmut/Contrat%20d%27assurance%20Bris%20de%20machines%20et%20pertes%20d%27exploitation%20suite%20%C3%A0%20bris%20de%20machines.md) - Conditions générales (2024-11) · réf. MC.402 IME – 11/24
 - [Contrat d'assurance Pertes d'exploitation](../products/matmut/Contrat%20d%27assurance%20Pertes%20d%27exploitation.md) - Conditions générales (2024-11) · réf. MC.306 IME – 11/24
 - [Contrat « Association » - IPID](../products/matmut/Contrat%20%C2%AB%20Association%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (07/23) · réf. IPID.ASSO - 07/23
@@ -224,6 +225,7 @@ generated: true
 - [Bien à l'hôpital - Fiche](../products/matmut/Bien%20%C3%A0%20l%27h%C3%B4pital%20-%20Fiche.md) - Fiche produit (09/25) · réf. FICHE.HOP.MOM – 09/25
 - [CONTRAT COLLECTIF FRAIS DE SANTÉ - RÉGIME OBLIGATOIRE](../products/matmut/CONTRAT%20COLLECTIF%20FRAIS%20DE%20SANT%C3%89%20-%20R%C3%89GIME%20OBLIGATOIRE.md) - Conditions générales (Janvier 2023)
 - [Conditions Générales — Régime conventionnel de frais de santé à adhésion obligatoire, Convention Collective Nationale de](../products/matmut/Conditions%20G%C3%A9n%C3%A9rales%20%E2%80%94%20R%C3%A9gime%20conventionnel%20de%20frais%20de%20sant%C3%A9%20%C3%A0%20adh%C3%A9sion%20obligatoire%2C%20Convention%20Collective%20Nationale%20de.md) - Conditions générales (12-2024 (référence de pied de page « CG Oblig-ALISFA-FM-12-2024 ») ; le tableau des garanties de l'ANNEXE II porte la mention « En vigueur au 01/01/2025 ») · réf. CG Oblig-ALISFA-FM-12-2024 – SP24/FCR0570
+- [Contrat « Matmut-Smac » - IPID](../products/matmut/Contrat%20%C2%AB%20Matmut-Smac%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (10/25) · réf. IPID.MATMUTSMAC –10/25
 - [Convention Collective Nationale des établissements privés d'hospitalisation, de soins, de cure et de garde à but non luc](../products/matmut/Convention%20Collective%20Nationale%20des%20%C3%A9tablissements%20priv%C3%A9s%20d%27hospitalisation%2C%20de%20soins%2C%20de%20cure%20et%20de%20garde%20%C3%A0%20but%20non%20luc.md) - Conditions générales (Juillet 2024) · réf. IDCC N°29 — CCN du 31 octobre 1951 — Régime facultatif
 - [Matmut-Smac Catégories A, B et C](../products/matmut/Matmut-Smac%20Cat%C3%A9gories%20A%2C%20B%20et%20C.md) - Conditions générales (10/25) · réf. CONTRAT MATMUT/SMAC CAT ABC –10/25
 - [Notice Assistance Matmut — Assistance Santé de la Mutuelle Ociane Matmut](../products/matmut/Notice%20Assistance%20Matmut%20%E2%80%94%20Assistance%20Sant%C3%A9%20de%20la%20Mutuelle%20Ociane%20Matmut.md) - Conditions générales (12/25) · réf. NOTICE.ASSIST.MOM - 12/25
@@ -248,12 +250,14 @@ generated: true
 - [Régime frais de santé - CCN Établissements sanitaires, sociaux et médico-sociaux adhérents de la FEHAP - Vos garanties 2](../products/matmut/R%C3%A9gime%20frais%20de%20sant%C3%A9%20-%20CCN%20%C3%89tablissements%20sanitaires%2C%20sociaux%20et%20m%C3%A9dico-sociaux%20adh%C3%A9rents%20de%20la%20FEHAP%20-%20Vos%20garanties%202.md) - Fiche produit · réf. CCN 51-0925
 - [Régime frais de santé - COLLECTIF SANTE FLEX - Vos garanties 2026 - Fiche](../products/matmut/R%C3%A9gime%20frais%20de%20sant%C3%A9%20-%20COLLECTIF%20SANTE%20FLEX%20-%20Vos%20garanties%202026%20-%20Fiche.md) - Fiche produit · réf. COLLECTIF SANTE FLEX-1225
 - [Régime frais de santé CCN Bijouterie, joaillerie, orfèvrerie et activités qui s'y rattachent et de l'horlogerie — Vos ga](../products/matmut/R%C3%A9gime%20frais%20de%20sant%C3%A9%20CCN%20Bijouterie%2C%20joaillerie%2C%20orf%C3%A8vrerie%20et%20activit%C3%A9s%20qui%20s%27y%20rattachent%20et%20de%20l%27horlogerie%20%E2%80%94%20Vos%20ga.md) - Fiche produit · réf. CCN BJOC-0925
+- [Régime frais de santé CCN Coiffure — Vos garanties 2026 (Formules BASE - CONFORT - CONFORT +) - Fiche](../products/matmut/R%C3%A9gime%20frais%20de%20sant%C3%A9%20CCN%20Coiffure%20%E2%80%94%20Vos%20garanties%202026%20%28Formules%20BASE%20-%20CONFORT%20-%20CONFORT%20%2B%29%20-%20Fiche.md) - Fiche produit (Vos garanties 2026 (référence GAMME COIFFURE-0925)) · réf. GAMME COIFFURE-0925
 - [Régime frais de santé CCN Hôtels cafés restaurants — Vos garanties 2026 - Fiche](../products/matmut/R%C3%A9gime%20frais%20de%20sant%C3%A9%20CCN%20H%C3%B4tels%20caf%C3%A9s%20restaurants%20%E2%80%94%20Vos%20garanties%202026%20-%20Fiche.md) - Fiche produit · réf. HOTELS CAFES RESTAURANTS-0825
 - [Régime frais de santé CCN Industries et des commerces de gros de vins, cidres, spiritueux, sirops, jus de fruits et bois](../products/matmut/R%C3%A9gime%20frais%20de%20sant%C3%A9%20CCN%20Industries%20et%20des%20commerces%20de%20gros%20de%20vins%2C%20cidres%2C%20spiritueux%2C%20sirops%2C%20jus%20de%20fruits%20et%20bois.md) - Fiche produit · réf. CCN VINS SPIRITUEUX-0925
 - [Régime frais de santé CCN Production agricole cadres — Garantie CADRES Ociane — Vos garanties 2026 - Fiche](../products/matmut/R%C3%A9gime%20frais%20de%20sant%C3%A9%20CCN%20Production%20agricole%20cadres%20%E2%80%94%20Garantie%20CADRES%20Ociane%20%E2%80%94%20Vos%20garanties%202026%20-%20Fiche.md) - Fiche produit · réf. CCN PROD AGRI-0326
 - [Régime frais de santé CCN Restauration rapide — Vos garanties 2026 - Fiche](../products/matmut/R%C3%A9gime%20frais%20de%20sant%C3%A9%20CCN%20Restauration%20rapide%20%E2%80%94%20Vos%20garanties%202026%20-%20Fiche.md) - Fiche produit · réf. CCN RESTAURATION RAPIDE-0925
 - [Régime frais de santé CCN SYNTEC — Vos garanties 2026 - Fiche](../products/matmut/R%C3%A9gime%20frais%20de%20sant%C3%A9%20CCN%20SYNTEC%20%E2%80%94%20Vos%20garanties%202026%20-%20Fiche.md) - Fiche produit (2026) · réf. CCN SYNTEC-0226 (page 11) ; CCN SYNTEC-0925 (page 21)
 - [Régime frais de santé CCN Services de l'automobile — Vos garanties 2026 - Fiche](../products/matmut/R%C3%A9gime%20frais%20de%20sant%C3%A9%20CCN%20Services%20de%20l%27automobile%20%E2%80%94%20Vos%20garanties%202026%20-%20Fiche.md) - Fiche produit · réf. SERVICES DE L'AUTOMOBILE-0825
+- [Régime frais de santé CCN Sport — Vos garanties 2026 (Formules BASE - BASE + OPTION 1 - BASE + OPTION 2) - Fiche](../products/matmut/R%C3%A9gime%20frais%20de%20sant%C3%A9%20CCN%20Sport%20%E2%80%94%20Vos%20garanties%202026%20%28Formules%20BASE%20-%20BASE%20%2B%20OPTION%201%20-%20BASE%20%2B%20OPTION%202%29%20-%20Fiche.md) - Fiche produit (Vos garanties 2026 (référence CCN DU SPORT-0925)) · réf. CCN DU SPORT-0925
 - [Régime frais de santé CCN Transport de voyageurs — Vos garanties 2026 - Fiche](../products/matmut/R%C3%A9gime%20frais%20de%20sant%C3%A9%20CCN%20Transport%20de%20voyageurs%20%E2%80%94%20Vos%20garanties%202026%20-%20Fiche.md) - Fiche produit · réf. TRANSPORT ROUTIER DE VOYAGEURS-0925
 - [Régime frais de santé CCN Transport sanitaire — Vos garanties 2026 - Fiche](../products/matmut/R%C3%A9gime%20frais%20de%20sant%C3%A9%20CCN%20Transport%20sanitaire%20%E2%80%94%20Vos%20garanties%202026%20-%20Fiche.md) - Fiche produit · réf. TRANSPORT SANITAIRE-0925
 - [Régime frais de santé — CCN Branche de l'aide, de l'accompagnement, des soins et des services à domicile - Fiche](../products/matmut/R%C3%A9gime%20frais%20de%20sant%C3%A9%20%E2%80%94%20CCN%20Branche%20de%20l%27aide%2C%20de%20l%27accompagnement%2C%20des%20soins%20et%20des%20services%20%C3%A0%20domicile%20-%20Fiche.md) - Fiche produit (0326 (tableaux « Vos garanties 2026 »)) · réf. CCN BAD-0326
@@ -273,6 +277,7 @@ generated: true
 ### [Scolaire et extrascolaire](../branches/Scolaire%20et%20extrascolaire.md)
 - [Assurance scolaire](../products/matmut/Assurance%20scolaire.md) - Conditions générales (2023-12) · réf. CG SCOL – 12/23
 - [Conditions de l'offre Assurance Scolaire - Tarifs](../products/matmut/Conditions%20de%20l%27offre%20Assurance%20Scolaire%20-%20Tarifs.md) - Conditions tarifaires (05/26) · réf. COND.OFFRE.SCOL – 05/26
+- [Contrat « Assurance de l'Étudiant et Matmut-Smac » - IPID](../products/matmut/Contrat%20%C2%AB%20Assurance%20de%20l%27%C3%89tudiant%20et%20Matmut-Smac%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (10/25) · réf. IPID.ADE – 10/25
 - [Contrat « Assurance scolaire » - IPID](../products/matmut/Contrat%20%C2%AB%20Assurance%20scolaire%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (12/23) · réf. IPID.SCOL
 
 ### [Vélo](../branches/V%C3%A9lo.md)

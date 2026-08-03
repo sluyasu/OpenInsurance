@@ -175,6 +175,10 @@ Assistance psychologique : de 1 à 5 entretiens téléphoniques individuels avec
 - Coquille du document reproduite verbatim : « Pour les garanties Responsabilité personnelle et Accident corporel de l’élus » (page 1) et « Les sinistres résultants d’une faute intentionnelle » (accord fautif), non corrigées.
 - Le texte fourni par le prompt n’était pas tronqué (8 221 caractères pour 2 pages) ; les 2 pages du PDF local extraites par page.get_text("text") sont identiques caractère pour caractère au texte du prompt. Les citations ont été découpées programmatiquement dans le texte du PDF.
 
+## Documents liés
+
+- [Sécurité élus](S%C3%A9curit%C3%A9%20%C3%A9lus.md) - Conditions générales, éd. 11/2022
+
 ## Source & fidélité
 
 - Source : [https://www.smacl.fr/files/documents/document-information-protection-elus.pdf](https://www.smacl.fr/files/documents/document-information-protection-elus.pdf) - téléchargé le 2026-08-01 - 2 pages

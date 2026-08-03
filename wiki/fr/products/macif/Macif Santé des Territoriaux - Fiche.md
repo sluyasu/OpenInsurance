@@ -1127,6 +1127,7 @@ Ligne du tableau de garanties, section « CURES THERMALES REMBOURSÉES PAR LE R�
 ## Documents liés
 
 - [CONTRAT MACIF SANTÉ DES TERRITORIAUX - IPID](CONTRAT%20MACIF%20SANT%C3%89%20DES%20TERRITORIAUX%20-%20IPID.md) - IPID / Fiche d'information, éd. 2026-06
+- [Macif Santé des Territoriaux](Macif%20Sant%C3%A9%20des%20Territoriaux.md) - Conditions générales, éd. 2026-06
 
 ## Source & fidélité
 
