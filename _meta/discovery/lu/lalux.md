@@ -520,3 +520,41 @@ Une première version de cette mesure cherchait `S.A.` par expression régulièr
 documents sur 90. Le motif attrapait « **sa** survenance », « **sa** prestation », « **sa** charge » :
 du français ordinaire. Chiffre faux, jeté. Sur un corpus francophone, `\bS\.?A\.?\b` n'est pas un
 détecteur de forme juridique.
+
+## Le piège du préfixe de gamme, décompte final (2026-08-03)
+
+La découverte classe sur le nom de fichier. Le préfixe `easyPROTECT` couvre **deux gammes
+distinctes** chez ce porteur, et rien dans le nom ne les sépare :
+
+- `easyPROTECT PRO` — professionnel, six documents, `multirisque-professionnelle` à juste titre.
+- `easyPROTECT` seul — **détail**, et c'est là que tout a mal atterri.
+
+Huit documents de détail ont porté `multirisque-professionnelle` alors qu'aucun n'est professionnel.
+Corrigés après lecture, tous verrouillés par `branch_locked` :
+
+| Document | Langue | Classé | Corrigé en | Ce que le document dit |
+|---|---|---|---|---|
+| easyPROTECT - Discover | fr | multirisque-professionnelle | `rc-familiale` | package 15-27 ans, la RC exclut expressément les activités professionnelles |
+| easyPROTECT - Services à la personne | fr | multirisque-professionnelle | `voyage` | assurance voyage annuelle, assistance, home assistance, protection internet |
+| Service easyPROTECT - Dienstleistungen | de | multirisque-professionnelle | `voyage` | idem, version allemande |
+| easyPROTECT - Personal Services | en | multirisque-professionnelle | `voyage` | idem, version anglaise |
+| easyPROTECT Tous Risques | fr | multirisque-professionnelle | `autres` | instruments de musique, bijoux, collections de timbres, cycles |
+
+Après correction, `multirisque-professionnelle` passe de onze documents à **six** — exactement les
+six `easyPROTECT PRO`.
+
+### Ce que le cas apprend au-delà de lui-même
+
+**Les versions linguistiques d'un même produit ne portaient pas la même branche.** Discover était
+`rc-familiale` en allemand et en anglais, `multirisque-professionnelle` en français. Les Services à
+la personne étaient `multirisque-professionnelle` en français et en allemand, `autres` en anglais.
+Trois lecteurs indépendants, trois réponses.
+
+D'où une vérification qui ne coûte rien et qu'il faut faire systématiquement sur un corpus
+multilingue : **grouper les documents par produit et vérifier que les versions linguistiques
+s'accordent sur la branche.** Un désaccord ne dit pas laquelle est juste, mais il dit qu'au moins
+une est fausse — et c'est un signal gratuit, obtenu sans relire un seul PDF.
+
+Attention à ne pas en tirer la règle inverse : **on ne complète jamais une langue depuis une autre**,
+et les valeurs retenues ci-dessus ont chacune été lues dans leur propre document. L'accord entre
+langues est un *détecteur* de défaut, pas une *source* de contenu.

@@ -209,6 +209,7 @@ La responsabilité civile du preneur en sa qualité de propriétaire ou gardien 
 
 ## Documents liés
 
+- [easyPROTECT - Discover - IPID](easyPROTECT%20-%20Discover%20-%20IPID.md) - IPID / Fiche d'information
 - [easyPROTECT-Haftpflicht (Haftpflicht — Familie, Gebäude und Jagd (DE)) - IPID - DE](easyPROTECT-Haftpflicht%20%28Haftpflicht%20%E2%80%94%20Familie%2C%20Geb%C3%A4ude%20und%20Jagd%20%28DE%29%29%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
 - [Service easyPROTECT - Discover - IPID - EN](Service%20easyPROTECT%20-%20Discover%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 

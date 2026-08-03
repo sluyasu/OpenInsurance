@@ -106,13 +106,36 @@ Quatre absences sont délibérées, chacune vérifiée dans le texte :
 ## Assureurs
 
 <!-- BEGIN GENERATED: insurers -->
-- [lalux](insurers/lalux.md) (80 documents)
+- [lalux](insurers/lalux.md) (82 documents)
 <!-- END GENERATED -->
 
 **Foyer**, premier groupe de détail du pays, est en découverte seule. Son `robots.txt` ferme les
 chemins de documents dans les trois langues puis en rouvre exactement deux — qui ne sont pas des
 documents contractuels. Mais le fait qui rend ce blocage secondaire est ailleurs : **Foyer ne publie
 aucune conditions générales**, zéro ligne sur huit cents. Détail dans `_meta/discovery/lu/foyer.md`.
+
+**AXA Luxembourg** est en découverte seule aussi, et c'est le cas le plus frustrant du corpus.
+**631 documents inventoriés, 0 récupérable** : `robots.txt` d'`axa.lu` porte `Disallow: /*.pdf`,
+ancré à la racine, et aucune des 631 URL n'échappe au motif. Aucun PDF n'a été demandé.
+
+Ce qui rend ce blocage coûteux, c'est **ce qu'il y a derrière**. Au moins **302 de ces documents sont
+de vraies conditions d'assurance** — le contrat lui-même, pas le résumé imposé par la directive. À
+comparer aux quatre sur quatre-vingt-dix de lalux et au zéro sur huit cents de Foyer :
+
+| Porteur | Documents publiés | Vraies conditions générales |
+|---|---|---|
+| Foyer | ~800 | **0** |
+| lalux | 90 | **4** |
+| AXA Luxembourg | 631 | **≥ 302**, toutes inaccessibles |
+
+**AXA est le premier porteur luxembourgeois observé à publier le contrat plutôt que sa fiche.** Le
+constat corrige au passage l'idée, formée sur les deux premiers porteurs, que le marché
+luxembourgeois ne publierait pas ses conditions générales : au moins un porteur le fait, largement,
+et c'est `robots.txt` qui l'écarte de ce dépôt, pas l'absence de publication.
+
+Deux hôtes AXA luxembourgeois divergent d'ailleurs exactement sur ce point : `axa-wealtheurope.lu`
+ne porte aucune règle `.pdf` — mais c'est l'entité qui ne vend pas au détail, et ses 85 documents ne
+comptent **aucune** conditions générales. Détail dans `_meta/discovery/lu/axa.md`.
 
 ## Portée et limites
 

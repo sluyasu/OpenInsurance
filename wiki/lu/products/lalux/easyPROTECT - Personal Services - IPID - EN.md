@@ -4,7 +4,7 @@ domain: insurance
 country: lu
 insurer: '[[lalux]]'
 insurer_slug: lalux
-branch: autres
+branch: voyage
 product_name: easyPROTECT - Personal Services
 document_type: ipid
 target_audience: null
@@ -21,7 +21,7 @@ reference: null
 edition_date: null
 lang: en
 tags:
-- insurance/lu/autres
+- insurance/lu/voyage
 - product
 - insurer/lalux
 aliases:
@@ -48,7 +48,7 @@ generated: true
 
 Insurance Product Information Document (IPID) for the "Personal Services" component of the easyPROTECT contract of LALUX Assurances. The document states that "The subscription of an easyPROTECT contract entitles you to certain exclusive services, in particular the possibility of benefiting, against payment of the corresponding premiums, from the guarantees described below." Four guarantee blocks are described: annual travel insurance (cancellation and interruption costs), annual assistance (medical care abroad, repatriation, early return, search and rescue), home assistance (24/7 emergency trades) and internet protection (loss of computer data and online purchases). The contract is annual with tacit renewal.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Autres](../../branches/Autres.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -175,9 +175,10 @@ The Company guarantees the insured person against computer risks or risks relate
 
 ## Documents liés
 
-- Extension liée : [easyPROTECT - Alle Risiken - IPID - DE](easyPROTECT%20-%20Alle%20Risiken%20-%20IPID%20-%20DE.md)
-- [easyPROTECT - Alle Risiken - IPID - DE](easyPROTECT%20-%20Alle%20Risiken%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
-- [easyPROTECT Comprehensive - IPID - EN](easyPROTECT%20Comprehensive%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+- Extension liée : [easyPROTECT - Services à la personne - IPID](easyPROTECT%20-%20Services%20%C3%A0%20la%20personne%20-%20IPID.md)
+- Extension liée : [Service easyPROTECT - Dienstleistungen - IPID - DE](Service%20easyPROTECT%20-%20Dienstleistungen%20-%20IPID%20-%20DE.md)
+- [easyPROTECT - Services à la personne - IPID](easyPROTECT%20-%20Services%20%C3%A0%20la%20personne%20-%20IPID.md) - IPID / Fiche d'information
+- [Service easyPROTECT - Dienstleistungen - IPID - DE](Service%20easyPROTECT%20-%20Dienstleistungen%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
 
 ## Source & fidélité
 

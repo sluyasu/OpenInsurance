@@ -4,7 +4,7 @@ domain: insurance
 country: lu
 insurer: '[[lalux]]'
 insurer_slug: lalux
-branch: multirisque-professionnelle
+branch: voyage
 product_name: Service easyPROTECT - Dienstleistungen
 document_type: ipid
 target_audience: null
@@ -18,7 +18,7 @@ reference: null
 edition_date: null
 lang: de
 tags:
-- insurance/lu/multirisque-professionnelle
+- insurance/lu/voyage
 - product
 - insurer/lalux
 aliases:
@@ -45,7 +45,7 @@ generated: true
 
 Informationsdokument über das Versicherungsprodukt (IPID) zu « Service easyPROTECT - Dienstleistungen », vertrieben unter der Marke LALUX Assurances. Der Abschluss eines easyPROTECT-Vertrags gewährt Anspruch auf bestimmte exklusive Leistungen, vor allem die Möglichkeit, durch die Zahlung entsprechender Prämien den beschriebenen Versicherungsschutz zu erhalten. Dieser umfasst vier Bausteine: eine Reiseversicherung für das ganze Jahr (Stornierung oder Abbruch einer Reise), Assistance-Leistungen für das ganze Jahr im Ausland (Rückführung bis zu 50.000 EUR pro versicherte Person und pro Kalenderjahr, vorzeitige Rückreise, Such- und Bergungskosten max. 5.000 EUR), Home Assistance (Pannendienst rund um die Uhr an der Risikoanschrift in Luxemburg) und einen Online-Schutz gegen IT- und Internetrisiken im Privatleben.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -176,7 +176,7 @@ Die Versicherungsgesellschaft versichert den Versicherten gegen IT-Risiken bzw. 
 ## Documents liés
 
 - Extension / option du produit : **easyPROTECT**
-- [easyPROTECT - Discover - IPID](easyPROTECT%20-%20Discover%20-%20IPID.md) - IPID / Fiche d'information
+- [easyPROTECT - Personal Services - IPID - EN](easyPROTECT%20-%20Personal%20Services%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 - [easyPROTECT - Services à la personne - IPID](easyPROTECT%20-%20Services%20%C3%A0%20la%20personne%20-%20IPID.md) - IPID / Fiche d'information
 
 ## Source & fidélité

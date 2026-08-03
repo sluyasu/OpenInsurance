@@ -5,7 +5,7 @@ country: lu
 insurer_slug: lalux
 name: lalux
 website: ''
-products_count: 80
+products_count: 82
 branches_covered:
 - accidents
 - auto
@@ -35,7 +35,7 @@ generated: true
 
 ## Résumé
 
-**lalux**. 80 document(s) across 13 branch(es).
+**lalux**. 82 document(s) across 13 branch(es).
 
 ## Produits par branche
 
@@ -78,8 +78,8 @@ generated: true
 - [Versicherung SPUERKEESS-Kreditkarten – Assistance-Leistungen und Nicht Assistance-Leistungen (VISA INFINITE) - IPID - DE](../products/lalux/Versicherung%20SPUERKEESS-Kreditkarten%20%E2%80%93%20Assistance-Leistungen%20und%20Nicht%20Assistance-Leistungen%20%28VISA%20INFINITE%29%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
 - [Versicherung SPUERKEESS-Kreditkarten – Assistance-Leistungen und Nicht Assistance-Leistungen (VISA CLASSIC) - IPID - DE](../products/lalux/Versicherung%20SPUERKEESS-Kreditkarten%20%E2%80%93%20Assistance-Leistungen%20und%20Nicht%20Assistance-Leistungen%20%28VISA%20CLASSIC%29%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
 - [easyPROTECT - Alle Risiken - IPID - DE](../products/lalux/easyPROTECT%20-%20Alle%20Risiken%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
-- [easyPROTECT - Personal Services - IPID - EN](../products/lalux/easyPROTECT%20-%20Personal%20Services%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 - [easyPROTECT Comprehensive - IPID - EN](../products/lalux/easyPROTECT%20Comprehensive%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+- [easyPROTECT Tous Risques - IPID](../products/lalux/easyPROTECT%20Tous%20Risques%20-%20IPID.md) - IPID / Fiche d'information
 
 ### [Assurances constructions](../branches/Assurances%20constructions.md)
 - [APROBAT - Bauleistungsversicherung (Abschnitt 2 - Haftpflichtversicherung) - IPID - DE](../products/lalux/APROBAT%20-%20Bauleistungsversicherung%20%28Abschnitt%202%20-%20Haftpflichtversicherung%29%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
@@ -100,16 +100,12 @@ generated: true
 - [easyPROTECT-Home - IPID - EN](../products/lalux/easyPROTECT-Home%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 
 ### [Multirisque professionnelle](../branches/Multirisque%20professionnelle.md)
-- [Service easyPROTECT - Dienstleistungen - IPID - DE](../products/lalux/Service%20easyPROTECT%20-%20Dienstleistungen%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
-- [easyPROTECT - Discover - IPID](../products/lalux/easyPROTECT%20-%20Discover%20-%20IPID.md) - IPID / Fiche d'information
-- [easyPROTECT - Services à la personne - IPID](../products/lalux/easyPROTECT%20-%20Services%20%C3%A0%20la%20personne%20-%20IPID.md) - IPID / Fiche d'information
 - [easyPROTECT PRO (Sachversicherungen) - IPID - DE](../products/lalux/easyPROTECT%20PRO%20%28Sachversicherungen%29%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
 - [easyPROTECT PRO – Assurance de choses - IPID](../products/lalux/easyPROTECT%20PRO%20%E2%80%93%20Assurance%20de%20choses%20-%20IPID.md) - IPID / Fiche d'information
 - [easyPROTECT PRO – Assurance de responsabilité civile - IPID](../products/lalux/easyPROTECT%20PRO%20%E2%80%93%20Assurance%20de%20responsabilit%C3%A9%20civile%20-%20IPID.md) - IPID / Fiche d'information
 - [easyPROTECT PRO – Civil liability insurance - IPID - EN](../products/lalux/easyPROTECT%20PRO%20%E2%80%93%20Civil%20liability%20insurance%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 - [easyPROTECT PRO – Property insurance - IPID - EN](../products/lalux/easyPROTECT%20PRO%20%E2%80%93%20Property%20insurance%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 - [easyPROTECT PRO-Haftpflichtversicherung - IPID - DE](../products/lalux/easyPROTECT%20PRO-Haftpflichtversicherung%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
-- [easyPROTECT Tous Risques - IPID](../products/lalux/easyPROTECT%20Tous%20Risques%20-%20IPID.md) - IPID / Fiche d'information
 
 ### [Prévoyance et décès](../branches/Pr%C3%A9voyance%20et%20d%C3%A9c%C3%A8s.md)
 - [lalux-Security – Assurance décès à capital constant - IPID](../products/lalux/lalux-Security%20%E2%80%93%20Assurance%20d%C3%A9c%C3%A8s%20%C3%A0%20capital%20constant%20-%20IPID.md) - IPID / Fiche d'information
@@ -121,11 +117,13 @@ generated: true
 - [Responsabilité Civile Familiale, Immeuble et Chasse - IPID](../products/lalux/Responsabilit%C3%A9%20Civile%20Familiale%2C%20Immeuble%20et%20Chasse%20-%20IPID.md) - IPID / Fiche d'information
 - [Service easyPROTECT - Discover - IPID - EN](../products/lalux/Service%20easyPROTECT%20-%20Discover%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 - [easyPROTECT - Discover - IPID - DE](../products/lalux/easyPROTECT%20-%20Discover%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
+- [easyPROTECT - Discover - IPID](../products/lalux/easyPROTECT%20-%20Discover%20-%20IPID.md) - IPID / Fiche d'information
 - [easyPROTECT Civil Liability (Family, Building and Hunting Civil Liability) - IPID - EN](../products/lalux/easyPROTECT%20Civil%20Liability%20%28Family%2C%20Building%20and%20Hunting%20Civil%20Liability%29%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 - [easyPROTECT-Haftpflicht (Haftpflicht — Familie, Gebäude und Jagd (DE)) - IPID - DE](../products/lalux/easyPROTECT-Haftpflicht%20%28Haftpflicht%20%E2%80%94%20Familie%2C%20Geb%C3%A4ude%20und%20Jagd%20%28DE%29%29%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
 
 ### [RC professionnelle](../branches/RC%20professionnelle.md)
 - [APROBAT - Professional liability for architects and consulting engineers - IPID - EN](../products/lalux/APROBAT%20-%20Professional%20liability%20for%20architects%20and%20consulting%20engineers%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+- [APROBAT - RC professionnelle pour Architectes et Ingénieurs-Conseils - IPID](../products/lalux/APROBAT%20-%20RC%20professionnelle%20pour%20Architectes%20et%20Ing%C3%A9nieurs-Conseils%20-%20IPID.md) - IPID / Fiche d'information
 - [Assurance R.C. Professionnelle pour Architectes et Ingénieurs-Conseils](../products/lalux/Assurance%20R.C.%20Professionnelle%20pour%20Architectes%20et%20Ing%C3%A9nieurs-Conseils.md) - Conditions générales (2025-05-01) · réf. EAC/2025/13684
 - [Berufshaftpflichtversicherung für Architekten und beratende Ingenieure - IPID - DE](../products/lalux/Berufshaftpflichtversicherung%20f%C3%BCr%20Architekten%20und%20beratende%20Ingenieure%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
 - [Berufshaftpflichtversicherung für Architekten und beratende Ingenieure - DE](../products/lalux/Berufshaftpflichtversicherung%20f%C3%BCr%20Architekten%20und%20beratende%20Ingenieure%20-%20DE.md) - Conditions générales (01.05.2025) · réf. EAC/2025/13684
@@ -143,7 +141,11 @@ generated: true
 - [Carefree Holidays - IPID - EN](../products/lalux/Carefree%20Holidays%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 - [Kreditkarten - MILES & MORE LUXAIR VISA - IPID - DE](../products/lalux/Kreditkarten%20-%20MILES%20%26%20MORE%20LUXAIR%20VISA%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
 - [SPUERKEESS credit card insurance – Assistance and Non-Assistance cover (MILES & MORE LUXAIR VISA BUSINESS) - IPID - EN](../products/lalux/SPUERKEESS%20credit%20card%20insurance%20%E2%80%93%20Assistance%20and%20Non-Assistance%20cover%20%28MILES%20%26%20MORE%20LUXAIR%20VISA%20BUSINESS%29%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+- [SPUERKEESS credit card insurance – Assistance and Non-Assistance cover (MILES & MORE LUXAIR VISA credit cards) - IPID - ](../products/lalux/SPUERKEESS%20credit%20card%20insurance%20%E2%80%93%20Assistance%20and%20Non-Assistance%20cover%20%28MILES%20%26%20MORE%20LUXAIR%20VISA%20credit%20cards%29%20-%20IPID%20-%20.md) - IPID / Fiche d'information
+- [Service easyPROTECT - Dienstleistungen - IPID - DE](../products/lalux/Service%20easyPROTECT%20-%20Dienstleistungen%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
 - [Sorgenfreier Urlaub - IPID - DE](../products/lalux/Sorgenfreier%20Urlaub%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
+- [easyPROTECT - Personal Services - IPID - EN](../products/lalux/easyPROTECT%20-%20Personal%20Services%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+- [easyPROTECT - Services à la personne - IPID](../products/lalux/easyPROTECT%20-%20Services%20%C3%A0%20la%20personne%20-%20IPID.md) - IPID / Fiche d'information
 
 ## Source
 

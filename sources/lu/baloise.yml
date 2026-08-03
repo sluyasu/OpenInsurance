@@ -1,0 +1,372 @@
+insurer:
+  slug: baloise
+  # pays: lu
+  name: "Baloise Luxembourg"
+  website: "https://www.baloise.lu"
+  segment: both
+  notes: |
+    DEUX PORTEURS DE RISQUE SOUS UNE SEULE MARQUE, et le site est explicitement celui des deux :
+    « www.baloise.lu est le site Internet des societes Baloise Assurances Luxembourg S.A., et
+    Baloise Vie Luxembourg S.A. » (mentions legales). Registre du CAA, lu le 2026-08-03 :
+      - BALOISE ASSURANCES LUXEMBOURG S.A. - non-vie, branches 1, 3, 6, 7, 8, 9, 10, 12, 13,
+        16, 17, 18 - RCS Luxembourg B 68 065 - LEI 549300J4JNKWP52PIP34
+      - BALOISE VIE Luxembourg S.A. - vie, branches I, II, III, VI, VII - RCS Luxembourg
+        B 54 686 - LEI 549300NF39GNDIKK4T88
+    Les deux ont leur siege 8, rue du Chateau d'Eau, L-3364 Leudelange.
+    CONSEQUENCE POUR L EXTRACTION : ne jamais deduire le porteur de la marque. `carrier` se lit
+    DANS le document ou reste null. Aucun `carrier` n a ete renseigne ici parce que cette passe
+    est une DECOUVERTE : aucun PDF n a ete ouvert.
+
+    NOT PUBLISHED - ZERO CONDITIONS GENERALES. Les 216 pages du site hors blog ont ete
+    recuperees et fouillees hors ligne pour `conditions? g[ée]n[ée]rales?`,
+    `allgemeine (versicherungs)?bedingungen`, `general (terms|conditions)`,
+    `vertragsbedingungen`, `policy wording`. TROIS pages seulement contiennent une de ces
+    chaines, et AUCUNE n est un lien vers un document :
+      1. les mentions legales, pour les « Conditions generales d UTILISATION du site Internet »
+      2. + 3. les pages assurance voyage FR et EN, dans une phrase editoriale invitant a lire
+         les conditions generales de sa CARTE BANCAIRE.
+    Il n existe aucun dossier `conditions-generales` dans le DAM, aucune rubrique documents,
+    aucun sitemap. Meme resultat que Foyer (0 sur 800) et meme famille de resultat que lalux
+    (4 sur 304, toutes en RC construction B2B).
+
+    TRAP: UN SEUL FICHIER FRANCAIS SERT LES TROIS ARBRES DE LANGUE. Les pages allemandes et
+    anglaises de la RC professionnelle, des degats materiels, du transport, de la construction,
+    des flottes et du bateau pointent toutes vers le MEME PDF `...-FR-LU-...pdf`. Il n existe
+    que 3 IPID allemands (Business, Drive, Home) et 2 anglais (Business, Drive) sur 34. Un
+    pipeline qui deduit la langue de l arbre de la page se trompera 3 fois sur 4.
+
+    TRAP: LES EDITIONS DIVERGENT ENTRE LANGUES DU MEME PRODUIT.
+      - Home : le fichier FR est en edition 11-23, le fichier DE en edition 01-19.
+      - Drive : les fichiers DE et EN sont en edition 02-19, le fichier FR n a AUCUNE date dans
+        son nom (`ipid-drive-fr-lu.pdf`, 801 kB, Last-Modified 2025-07-08) et est manifestement
+        plus recent.
+    Regle 8 : ce ne sont pas des variantes paralleles, ce sont des editions differentes.
+
+    TRAP: L IPID Drive EST l IPID moto. `/fr/particuliers/mon-assurance-luxembourg/moto-scooter.html`
+    et `/fr/particuliers/mon-assurance-luxembourg/assurance-auto-electrique.html` publient tous
+    deux `ipid-drive-fr-lu.pdf`, c est-a-dire l IPID auto. Aucun document deux-roues distinct
+    n existe. C est la deuxieme confirmation independante (apres Foyer) du motif corrige dans
+    `_country.yml` sous la branche `moto`.
+
+    TRAP: `IPID-RC10-FR-LU-10-18.pdf` est intitule simplement « IPID RC » par l editeur. Le
+    « 10 » du nom de fichier n est PAS elucide : il peut designer un code produit comme il peut
+    designer la responsabilite decennale, ce qui basculerait le document de `rc-professionnelle`
+    vers `construction`. Classe ici sur son contexte de publication (page RC professionnelle).
+    A trancher a l extraction, pas avant.
+
+    TRAP: l editeur ecrit « IPID RCSM SD » pour le fichier `IPID-RCMS-SD-...`. Les lettres sont
+    transposees dans le libelle du site. Le nom de fichier fait foi.
+
+    NON RETENUS ICI - 234 autres PDF de www.baloise.lu ont ete denombres et laisses de cote :
+    70 fiches de fonds, 28 communiques de presse, 21 formulaires de declaration de sinistre,
+    20 SFCR, 20 rapports annuels, 20 brochures/depliants, 17 KID/fiches de fonds internes,
+    8 KID PRIIPs produit, 5 fiches d information financiere, 5 fiches fonds art. 10 SFDR,
+    5 politiques d investissement responsable, 3 tableaux d avantage fiscal, 3 guides ESG,
+    3 checklists de blog, 2 brochures corporate, 1 convention droit a l oubli, 1 politique de
+    reclamation, 1 notice RGPD, 1 divers. Meme decoupe que `lalux.yml`, qui n ingere que les
+    IPID et les conditions generales. Detail dans `_meta/discovery/lu/baloise.md`.
+
+    BLOQUE - 896 documents sur `kid.baloise.lu`, respectes et non recuperes. Ce sont les KID
+    PRIIPs et les informations SFDR art. 6/8/9/10 des 364 fonds sous-jacents de deux contrats
+    en unites de compte. `https://kid.baloise.lu/robots.txt` dit `Disallow: international/` et
+    les 896 URL sont toutes sous `/international/`. Aucune n a ete demandee.
+
+    BLOQUE - `https://www.mybaloise.lu/robots.txt` dit `User-agent: *` / `Disallow: /`. Le
+    portail client est entierement ferme et rien n y a ete demande. A noter pour la comparaison
+    avec la Belgique, ou `sources/be/baloise.yml` liste au contraire une page publique
+    `mybaloise.baloise.be/fr/documenten/all-ipid-eid`.
+
+  fetch_tier: plain          # www.baloise.lu repond 200 a curl ET a urllib, A CONDITION
+                             # d envoyer un en-tete `Accept`. Sans `Accept`, le serveur repond
+                             # 406 Not Acceptable. Corrige `_meta/lu-market-census.md`, qui
+                             # classait cet hote « curl-hostile » sur la base de l inverse.
+                             # robots.txt (2026-08-03) : `User-agent: *` / `Disallow:` - vide,
+                             # donc rien d interdit. Les 268 PDF de l hote ont repondu 200 a
+                             # une requete HEAD, sans exception.
+
+listing_pages:
+  # Il n existe AUCUNE page-bibliotheque sur ce site : chaque document pend de sa page produit.
+  # Les pages ci-dessous sont les seules qui publient un IPID.
+  - url: "https://www.baloise.lu/fr/particuliers/mon-assurance-luxembourg/assurance-auto.html"
+    branch: auto
+    lang: fr
+  - url: "https://www.baloise.lu/fr/particuliers/mon-assurance-luxembourg/assurance-habitation/assurance-habitation-home.html"
+    branch: habitation
+    lang: fr
+  - url: "https://www.baloise.lu/fr/particuliers/mon-assurance-luxembourg/rc-vie-privee.html"
+    branch: rc-familiale
+    lang: fr
+  - url: "https://www.baloise.lu/fr/particuliers/mon-assurance-luxembourg/accidents.html"
+    branch: accidents
+    lang: fr
+  - url: "https://www.baloise.lu/fr/particuliers/mon-assurance-luxembourg/assurance-voyage.html"
+    branch: voyage
+    lang: fr
+  - url: "https://www.baloise.lu/fr/particuliers/mon-assurance-luxembourg/bateau.html"
+    branch: autres
+    lang: fr
+  - url: "https://www.baloise.lu/fr/particuliers/assurance-vie-epargne-prevoyance/solde-restant-du.html"
+    branch: solde-restant-du
+    lang: fr
+  - url: "https://www.baloise.lu/fr/professionnels/assurance-dommages/responsabilite-civile-professionnelle.html"
+    branch: rc-professionnelle
+    lang: fr
+  - url: "https://www.baloise.lu/fr/professionnels/assurance-dommages/degats-materiels.html"
+    branch: multirisque-professionnelle
+    lang: fr
+  - url: "https://www.baloise.lu/fr/professionnels/assurance-dommages/assurance-construction.html"
+    branch: construction
+    lang: fr
+  - url: "https://www.baloise.lu/fr/professionnels/assurance-dommages/transport.html"
+    branch: autres
+    lang: fr
+  - url: "https://www.baloise.lu/fr/professionnels/assurance-dommages/assurance-auto-luxembourg.html"
+    branch: auto
+    lang: fr
+  - url: "https://www.baloise.lu/fr/professionnels/assurance-dommages/assurance-business.html"
+    branch: multirisque-professionnelle
+    lang: fr
+  - url: "https://www.baloise.lu/de/privatekunden/mein-versicherungs-bedarf/auto.html"
+    branch: auto
+    lang: de
+  - url: "https://www.baloise.lu/de/privatekunden/mein-versicherungs-bedarf/hausratsversicherung-Luxembourg.html"
+    branch: habitation
+    lang: de
+  - url: "https://www.baloise.lu/de/geschaeftskunden/personen-und-sachversicherungen/assurance-business.html"
+    branch: multirisque-professionnelle
+    lang: de
+  - url: "https://www.baloise.lu/en/private-individuals/my-insurance-luxembourg/car.html"
+    branch: auto
+    lang: en
+  - url: "https://www.baloise.lu/en/professionals/general-insurance/business-insurance.html"
+    branch: multirisque-professionnelle
+    lang: en
+
+languages:
+- fr
+- de
+- en
+
+pdfs:
+# ---------------------------------------------------------------------------- auto (4)
+- url: https://www.baloise.lu/dam/baloise-lu/1890/particulier/documents/fiches/fiche-ipid/fr/ipid-drive-fr-lu.pdf
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "Drive"
+  # publie aussi sur /moto-scooter.html et /assurance-auto-electrique.html : c est le MEME
+  # document. Aucune date d edition dans le nom ; Last-Modified 2025-07-08.
+- url: https://www.baloise.lu/dam/baloise-lu/1890/particulier/documents/fiches/fiche-ipid/de/IPID-DRIVE-DE-LU-02-19.pdf
+  branch: auto
+  document_type: ipid
+  lang: de
+  product_name: "Drive"
+  # edition 02-19, plus ancienne que la version francaise. Publie aussi sur /moto.html.
+- url: https://www.baloise.lu/dam/baloise-lu/1890/particulier/documents/fiches/fiche-ipid/en/IPID-DRIVE-EN-LU-02-19.pdf
+  branch: auto
+  document_type: ipid
+  lang: en
+  product_name: "Drive"
+  # edition 02-19. Publie aussi sur /motorbike.html.
+- url: https://www.baloise.lu/dam/baloise-lu/1890/professionnel/documents/fiches/fiche-ipid/fr/ipid-flottes.pdf
+  branch: auto
+  document_type: ipid
+  lang: fr
+  product_name: "Assurance auto Flottes"
+  # RC + dommages de flotte d entreprise. Le fichier ne pese que 100 kB la ou tous les autres
+  # IPID de la meme generation font ~700 kB : verifier a l extraction qu il n est pas tronque.
+
+# ---------------------------------------------------------------------------- habitation (2)
+- url: https://www.baloise.lu/dam/baloise-lu/1890/particulier/documents/fiches/fiche-ipid/fr/IPID-HOME-2--FR-LU-11-23.pdf
+  branch: habitation
+  document_type: ipid
+  lang: fr
+  product_name: "Home"
+  # edition 11-23.
+- url: https://www.baloise.lu/dam/baloise-lu/1890/particulier/documents/fiches/fiche-ipid/de/IPID-HOME-DE-LU-01-19.pdf
+  branch: habitation
+  document_type: ipid
+  lang: de
+  product_name: "Home"
+  # edition 01-19, soit presque cinq ans de retard sur la version francaise. Pas de version
+  # anglaise : /en/.../home-insurance.html ne publie que la brochure.
+
+# ---------------------------------------------------------------------------- rc-familiale (1)
+- url: https://www.baloise.lu/dam/baloise-lu/1890/particulier/documents/fiches/fiche-ipid/fr/IPID-RCVP-FR-LU-10-18.pdf
+  branch: rc-familiale
+  document_type: ipid
+  lang: fr
+  product_name: "RC Vie Privee"
+  # edition 10-18. Servi tel quel aux pages DE (/privathaftpflicht.html) et EN
+  # (/personal-liability.html) : c est un document francais sur trois arbres de langue.
+
+# ---------------------------------------------------------------------------- accidents (1)
+- url: https://www.baloise.lu/dam/baloise-lu/1890/particulier/documents/fiches/fiche-ipid/fr/IPID-BSAFE-FR-LU-10-18.pdf
+  branch: accidents
+  document_type: ipid
+  lang: fr
+  product_name: "Bsafe"
+  # edition 10-18. Servi aussi aux pages DE et EN.
+
+# ---------------------------------------------------------------------------- voyage (1)
+- url: https://www.baloise.lu/dam/baloise-lu/1890/particulier/documents/fiches/fiche-ipid/fr/IPID-TRAVEL-FR-LU-10-18.pdf
+  branch: voyage
+  document_type: ipid
+  lang: fr
+  product_name: "Travel"
+  # edition 10-18. Servi aussi aux pages DE et EN.
+
+# ---------------------------------------------------------------------------- solde-restant-du (1)
+- url: https://www.baloise.lu/dam/baloise-lu/1890/particulier/documents/fiches/fiche-ipid/fr/IPID-SRD-LUFR-02-22.pdf
+  branch: solde-restant-du
+  document_type: ipid
+  lang: fr
+  product_name: "Solde restant du"
+  # edition 02-22. SEUL document contractuel normalise de tout le livre VIE : les autres
+  # produits vie (Life Plan, Kid's Plan, Switch Plan, Pension Plan) n ont que des KID PRIIPs et
+  # des fiches d information financiere, non repris ici.
+
+# ---------------------------------------------------------------------------- construction (1)
+- url: https://www.baloise.lu/dam/baloise-lu/1890/particulier/documents/fiches/fiche-ipid/fr/IPID-TRC-FR-LU-10-18.pdf
+  branch: construction
+  document_type: ipid
+  lang: fr
+  product_name: "TRC (tous risques chantier)"
+  # edition 10-18. Seul document construction publie. Ni decennale ni biennale ne sont
+  # documentees, alors que ce sont elles que la loi du 13 decembre 1989 rend obligatoires.
+
+# ---------------------------------------------------------------------------- autres (2)
+- url: https://www.baloise.lu/dam/baloise-lu/1890/particulier/documents/fiches/fiche-ipid/fr/IPID-RC-BATEAU-FR-LU-10-18.pdf
+  branch: autres
+  document_type: ipid
+  lang: fr
+  product_name: "RC Bateau"
+  # `autres` et non une branche navigation : `_country.yml` declare explicitement l absence de
+  # `navigation`. C est pourtant la branche 6 du registre, celle que les mentions legales du
+  # site OMETTENT. Le produit existe, l agrement aussi ; c est la page web qui est incomplete.
+- url: https://www.baloise.lu/dam/baloise-lu/1890/particulier/documents/fiches/fiche-ipid/fr/IPID-TRANSPORT-CMR-FR-LU-10-18.pdf
+  branch: autres
+  document_type: ipid
+  lang: fr
+  product_name: "Transport (CMR)"
+  # `autres` : `_country.yml` declare explicitement l absence de `transport`.
+
+# ---------------------------------------------------------------------------- multirisque-professionnelle (7)
+- url: https://www.baloise.lu/dam/baloise-lu/1890/professionnel/documents/fiches/fiche-ipid/fr/IPID-BUSINESS-FR-LU-10-18.pdf
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "Business"
+- url: https://www.baloise.lu/dam/baloise-lu/1890/particulier/documents/fiches/fiche-ipid/de/IPID-BUSINESS-UNTERNEHMEN-DE-LU-01-19.pdf
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: de
+  product_name: "Business"
+  # NOTE : range sous `particulier/` dans le DAM alors que c est un produit entreprise, et
+  # publie sur la page allemande GESCHAEFTSKUNDEN. Le chemin DAM n est pas un segment.
+- url: https://www.baloise.lu/dam/baloise-lu/1890/particulier/documents/fiches/fiche-ipid/en/IPID-Business-EN-LU-01-19.pdf
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: en
+  product_name: "Business"
+  # meme remarque de chemin DAM.
+- url: https://www.baloise.lu/dam/baloise-lu/1890/particulier/documents/fiches/fiche-ipid/fr/IPID-AD-VALOREM-FR-LU-10-18.pdf
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "Valorem"
+  # publie sous « Autre document d information sur le produit d assurance dommages materiels ».
+- url: https://www.baloise.lu/dam/baloise-lu/1890/particulier/documents/fiches/fiche-ipid/fr/IPID-TOUS-RISQUES-SAUF-FR-LU-10-18.pdf
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "Tous risques sauf"
+  # libelle editeur : « IPID Risques ».
+- url: https://www.baloise.lu/dam/baloise-lu/1890/particulier/documents/fiches/fiche-ipid/fr/IPID-TRE-INFO-PRODUIT-ASS-FR-LU-10-18.pdf
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "TRE"
+- url: https://www.baloise.lu/dam/baloise-lu/1890/particulier/documents/fiches/fiche-ipid/fr/IPID-TROV-FR-LU-10-18.pdf
+  branch: multirisque-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "TROV"
+
+# ---------------------------------------------------------------------------- rc-professionnelle (14)
+- url: https://www.baloise.lu/dam/baloise-lu/1890/particulier/documents/fiches/fiche-ipid/fr/IPID-RCP-FR-LU-10-18.pdf
+  branch: rc-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "RCP"
+- url: https://www.baloise.lu/dam/baloise-lu/1890/particulier/documents/fiches/fiche-ipid/fr/IPID-RCP-AI-FR-LU-10-18.pdf
+  branch: rc-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "RCP AI (architectes et ingenieurs)"
+  # candidat au reclassement en `construction` : c est la profession que la loi du 13 decembre
+  # 1989 art. 6 oblige a couvrir, decennale comprise. Classe ici sur le contexte de publication.
+- url: https://www.baloise.lu/dam/baloise-lu/1890/particulier/documents/fiches/fiche-ipid/fr/IPID-RCP-AVOCATS-FR-LU-10-18.pdf
+  branch: rc-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "RCP Avocats"
+- url: https://www.baloise.lu/dam/baloise-lu/1890/particulier/documents/fiches/fiche-ipid/fr/IPID-RCP-COMPTABLE-FR-LU-10-18.pdf
+  branch: rc-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "RCP Comptable"
+- url: https://www.baloise.lu/dam/baloise-lu/1890/particulier/documents/fiches/fiche-ipid/fr/IPID-RCP-EXP-COMPTABLE-FR-LU-10-18.pdf
+  branch: rc-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "RCP Expert-comptable"
+- url: https://www.baloise.lu/dam/baloise-lu/1890/particulier/documents/fiches/fiche-ipid/fr/IPID-RCP-IMMO-FR-LU-10-18.pdf
+  branch: rc-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "RCP Immobilier"
+- url: https://www.baloise.lu/dam/baloise-lu/1890/particulier/documents/fiches/fiche-ipid/fr/IPID-RCP-MEDICALE-FR-LU-10-18.pdf
+  branch: rc-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "RCP Medicale"
+- url: https://www.baloise.lu/dam/baloise-lu/1890/particulier/documents/fiches/fiche-ipid/fr/IPID-RC-REVISEUR-FR-LU-10-18.pdf
+  branch: rc-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "RC Reviseur"
+- url: https://www.baloise.lu/dam/baloise-lu/1890/particulier/documents/fiches/fiche-ipid/fr/IPID-SSII-FR-LU-10-18.pdf
+  branch: rc-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "SSII"
+- url: https://www.baloise.lu/dam/baloise-lu/1890/particulier/documents/fiches/fiche-ipid/fr/IPID-RCMS-LU-FR-10-18.pdf
+  branch: rc-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "RCMS"
+- url: https://www.baloise.lu/dam/baloise-lu/1890/particulier/documents/fiches/fiche-ipid/fr/IPID-RCMS-SD-FR-LU-10-18.pdf
+  branch: rc-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "RCMS SD"
+  # l editeur ecrit « IPID RCSM SD » sur la page ; le nom de fichier dit RCMS.
+- url: https://www.baloise.lu/dam/baloise-lu/1890/particulier/documents/fiches/fiche-ipid/fr/IPID-RC10-FR-LU-10-18.pdf
+  branch: rc-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "RC10"
+  # libelle editeur : « IPID RC ». Le « 10 » n est pas elucide - code produit ou decennale.
+- url: https://www.baloise.lu/dam/baloise-lu/1890/particulier/documents/fiches/fiche-ipid/fr/IPID-ASSOCIATIONS-FR-LU-10-18.pdf
+  branch: rc-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "Associations"
+- url: https://www.baloise.lu/dam/baloise-lu/1890/particulier/documents/fiches/fiche-ipid/fr/IPID-AGENT-DE-VOYAGES-FR-LU-10-18.pdf
+  branch: rc-professionnelle
+  document_type: ipid
+  lang: fr
+  product_name: "Agent de voyages"
+  # libelle editeur : « IPID Travel agent ». NE PAS confondre avec l IPID Travel, qui est le
+  # produit voyage des particuliers : celui-ci est la RC d une agence de voyages.

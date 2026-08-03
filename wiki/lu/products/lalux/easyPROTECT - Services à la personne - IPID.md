@@ -4,7 +4,7 @@ domain: insurance
 country: lu
 insurer: '[[lalux]]'
 insurer_slug: lalux
-branch: multirisque-professionnelle
+branch: voyage
 product_name: easyPROTECT - Services à la personne
 document_type: ipid
 target_audience: null
@@ -18,7 +18,7 @@ reference: null
 edition_date: null
 lang: fr
 tags:
-- insurance/lu/multirisque-professionnelle
+- insurance/lu/voyage
 - product
 - insurer/lalux
 aliases:
@@ -45,7 +45,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) pour le Service easyPROTECT - Services à la personne, distribué sous la marque LALUX Assurances au Luxembourg. Le document présente quatre services que la souscription d'un contrat easyPROTECT permet d'obtenir moyennant paiement des primes correspondantes : une Assurance Voyage annuelle (remboursement des frais d'annulation ou d'interruption), une Assistance annuelle valable jusqu'à 6 semaines lors des voyages à l'étranger (rapatriement, retour anticipé, frais de recherche et sauvetage), une Home assistance 24h/24 et 7j/7 et une Protection internet couvrant les risques informatiques de la vie privée. Les portées territoriales diffèrent par garantie : monde entier pour le voyage, l'étranger pour l'assistance, l'adresse du risque au Grand-Duché de Luxembourg pour la Home assistance.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Voyage et assistance](../../branches/Voyage%20et%20assistance.md) · Type : IPID / Fiche d'information
 
 ## Garanties
 
@@ -311,7 +311,7 @@ assurée a sa résidence habituelle.
 ## Documents liés
 
 - Extension / option du produit : **easyPROTECT**
-- [easyPROTECT - Discover - IPID](easyPROTECT%20-%20Discover%20-%20IPID.md) - IPID / Fiche d'information
+- [easyPROTECT - Personal Services - IPID - EN](easyPROTECT%20-%20Personal%20Services%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 - [Service easyPROTECT - Dienstleistungen - IPID - DE](Service%20easyPROTECT%20-%20Dienstleistungen%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
 
 ## Source & fidélité

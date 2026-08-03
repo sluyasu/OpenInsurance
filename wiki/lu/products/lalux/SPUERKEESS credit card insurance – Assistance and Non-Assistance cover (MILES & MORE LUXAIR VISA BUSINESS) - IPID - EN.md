@@ -155,6 +155,10 @@ Named only in the "Where does the cover apply ?" section, which states: "For the
 - The prompt text was not truncated. It was checked character for character against a local re-extraction of the source PDF (data/lu/pdfs/lalux/voyage/62378kb-1a8039c0.pdf, sha256 18d642d795cc…) using the same page.get_text("text") call as the harness: both pages match exactly.
 - Character traps respected in the quotes: 24 thin spaces (U+2009) sit before the "?", ":" and ";" characters throughout, and two more surround the slash in "EXEMPTION FROM THE RENTAL VEHICLE / E-MOBILITY EXCESS"; there are also en dashes (U+2013) in the title and the product line and U+2022 bullets isolated on their own lines. Structured fields carry the rendered form, quotes carry the text layer verbatim. All quotes were sliced programmatically as exact spans of the cited page and none crosses a [page N] marker.
 
+## Documents liés
+
+- [SPUERKEESS credit card insurance – Assistance and Non-Assistance cover (MILES & MORE LUXAIR VISA credit cards) - IPID - ](SPUERKEESS%20credit%20card%20insurance%20%E2%80%93%20Assistance%20and%20Non-Assistance%20cover%20%28MILES%20%26%20MORE%20LUXAIR%20VISA%20credit%20cards%29%20-%20IPID%20-%20.md) - IPID / Fiche d'information
+
 ## Source & fidélité
 
 - Source : [https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_MILES_MORE_LUXAIR_VISA_BUSINESS_EN.pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_MILES_MORE_LUXAIR_VISA_BUSINESS_EN.pdf) - téléchargé le 2026-08-02 - 2 pages

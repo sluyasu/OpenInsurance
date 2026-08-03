@@ -208,6 +208,7 @@ die Haftpflicht des Versicherungsnehmers in seiner Eigenschaft als Eigentümer o
 
 ## Documents liés
 
+- [easyPROTECT - Discover - IPID](easyPROTECT%20-%20Discover%20-%20IPID.md) - IPID / Fiche d'information
 - [Responsabilité Civile Familiale, Immeuble et Chasse - IPID](Responsabilit%C3%A9%20Civile%20Familiale%2C%20Immeuble%20et%20Chasse%20-%20IPID.md) - IPID / Fiche d'information
 - [Service easyPROTECT - Discover - IPID - EN](Service%20easyPROTECT%20-%20Discover%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 

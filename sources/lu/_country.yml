@@ -141,6 +141,14 @@ branches:
     # est CONSERVEE parce que l'obligation d'assurance de l'art. 2 vise bien tout vehicule
     # automoteur, deux-roues compris; c'est le motif tire de la pratique commerciale qui etait
     # faux, pas la branche. Aucun produit deux-roues luxembourgeois n'est encore observe.
+    #
+    # MISE A JOUR 2026-08-03. Un produit deux-roues luxembourgeois EST desormais observe:
+    # OptiDrive Moto (AXA Luxembourg), avec sa propre page produit, ses propres IPID et des
+    # conditions d'assurance referencees W04.2021. Il faut cependant lire cette observation
+    # pour ce qu'elle est: le catalogue publie a ete enumere, le DOCUMENT n'a pas pu etre
+    # recupere, robots.txt d'axa.lu portant `Disallow: /*.pdf` qui ferme les 631 documents
+    # du site. La branche s'appuie donc maintenant sur un produit dont l'existence est
+    # etablie et le contenu inconnu. Detail: _meta/discovery/lu/axa.md
     code: "10/3"
   habitation:
     label: "Assurance habitation"
@@ -327,6 +335,22 @@ branches:
     # Declared because the cover is compulsory by statute. NO Luxembourg product library has
     # been checked for it yet - the branch exists on the strength of the law, not of an
     # observed document. Mark the branch page `status: stub` until one is found.
+    #
+    # MISE A JOUR 2026-08-03, deux observations de nature differente:
+    # 1. AXA Luxembourg publie une RC Chasse, conditions d'assurance referencees W04.2014.
+    #    Catalogue enumere, document NON recupere (robots.txt d'axa.lu, `Disallow: /*.pdf`).
+    # 2. DEUX documents EXTRAITS portent de la chasse, et c'est le meme montage dans les deux
+    #    langues: easyPROTECT-Haftpflicht (de) reunit Familien-, Gebaeude- ET Jagdhaftpflicht
+    #    sur une seule feuille; son equivalent francais est titre "Responsabilite Civile
+    #    Familiale, Immeuble et Chasse". Les deux restent classes `rc-familiale`, qui est leur
+    #    objet principal, mais ils etablissent que la garantie chasse existe dans ce marche
+    #    comme COMPOSANTE d'un contrat RC, et pas seulement comme produit autonome. Ce sont
+    #    des observations sur des documents lus, pas sur un catalogue.
+    #    A noter sur la version francaise: son titre annonce trois produits a parite tandis
+    #    que sa ligne d'identification n'en nomme qu'un ("Produit : easyPROTECT-RC Immeuble").
+    #    Le document se contredit sur son propre objet; les deux lectures sont conservees.
+    # La branche cesse donc de reposer sur la seule loi. `status: stub` reste justifie tant
+    # qu'aucun document dedie n'est extrait.
   autres:
     label: "Autres"
     aliases: ["divers", "autres assurances", "produits spécifiques", "sonstige"]

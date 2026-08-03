@@ -58,14 +58,29 @@ le contrat.
 
 ## État de la documentation
 
-**Aucun produit n'est encore documenté dans cette branche.** Le recensement a identifié des contrats
-de solde restant dû chez les porteurs de détail luxembourgeois, et la bibliothèque enumérée en
-contient au moins un ; il n'est pas encore extrait.
+**Un produit est documenté dans cette branche** : *Assurance Solde Restant Dû – Assurance
+hypothécaire*, un document d'information (IPID), en français.
 
-Cette page existe malgré tout parce que la branche porte une part de l'argument structurel du pays,
-et sa `status: stub` le dit. Ce qui suit — garanties typiques, exclusions fréquentes — sera écrit
-**depuis les documents** et non depuis la connaissance générale du produit, conformément à la
-règle 4.
+Ce qu'il permet déjà de dire, et rien de plus :
+
+- Le document se décrit lui-même comme « une forme d'assurance risque dont le but principal consiste
+  à couvrir en cas de décès une dette hypothécaire ». **Le critère du capital décroissant énoncé plus
+  haut est donc bien celui que le porteur retient**, et il est écrit dans le document.
+- Deux garanties : une **garantie principale Décès**, qui rembourse le capital restant dû et les
+  intérêts courus depuis la dernière échéance, et une **garantie complémentaire Invalidité permanente
+  totale**. Huit exclusions.
+- C'est **le seul document du corpus luxembourgeois à nommer le côté vie du porteur** — il imprime
+  « LALUX Assurances-Vie », là où les autres s'arrêtent à « LALUX Assurances ». La marque distingue
+  donc ici ce que les autres documents laissent indéterminé, sans pour autant donner la forme
+  juridique.
+- Le document ne porte **aucun montant** : ni capital, ni plafond, ni prime. Ses deux intitulés
+  d'encadré sont agrammaticaux tels qu'imprimés, et conservés tels quels.
+
+La page reste en `status: stub` : un IPID de deux pages ne fournit ni les garanties détaillées, ni
+les conditions de souscription, ni les modalités de substitution. Les conditions générales de ce
+produit ne sont **pas publiées**, ce qui est le cas de quatre-vingt-six documents sur quatre-vingt-dix
+chez ce porteur. Ce qui manque sera écrit depuis les documents s'ils paraissent, jamais depuis la
+connaissance générale du produit (règle 4).
 
 ## Cadre légal
 
