@@ -5,7 +5,7 @@ country: fr
 insurer_slug: smacl
 name: SMACL Assurances
 website: https://www.smacl.fr
-products_count: 94
+products_count: 101
 branches_covered:
 - auto
 - autres
@@ -37,7 +37,7 @@ generated: true
 
 ## Résumé
 
-**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 94 document(s) across 15 branch(es).
+**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 101 document(s) across 15 branch(es).
 
 ## Produits par branche
 
@@ -107,6 +107,7 @@ generated: true
 - [Assurance Spéciale Accueil Enfants - IPID](../products/smacl/Assurance%20Sp%C3%A9ciale%20Accueil%20Enfants%20-%20IPID.md) - IPID / Fiche d'information (01/2024) · réf. CONVERGENCE_DIPA_ACCUEIL_ENFANTS_ACEPP
 - [Assurance bris de machine (Associations)](../products/smacl/Assurance%20bris%20de%20machine%20%28Associations%29.md) - Conditions générales (11/2022) · réf. ASA CS BDM - MOD 02_SA(01-1992)
 - [Assurance des associations - multirisque association - IPID](../products/smacl/Assurance%20des%20associations%20-%20multirisque%20association%20-%20IPID.md) - IPID / Fiche d'information (01/2024) · réf. ADA_DIPA_MRA_SA_03(02_2022)
+- [CONVERGENCE (conditions générales)](../products/smacl/CONVERGENCE%20%28conditions%20g%C3%A9n%C3%A9rales%29.md) - Conditions générales (01/2024)
 - [CONVERGENCE - Tous risques informatique (Associatons)](../products/smacl/CONVERGENCE%20-%20Tous%20risques%20informatique%20%28Associatons%29.md) - Conditions générales (04/2025) · réf. CONVERGENCE_CS_TRI_SA_04(05_2016)
 - [CONVERGENCE Dommages aux biens](../products/smacl/CONVERGENCE%20Dommages%20aux%20biens.md) - Conditions générales (01/2024) · réf. CONVERGENCE_CS_DAB_SA_08(02_2023)
 - [CONVERGENCE Tous risques instruments de musique (Associatons)](../products/smacl/CONVERGENCE%20Tous%20risques%20instruments%20de%20musique%20%28Associatons%29.md) - Conditions générales (01/2024) · réf. CONVERGENCE_CS_INSTRUMENTS_SA_01(06_2015)
@@ -121,10 +122,12 @@ generated: true
 - [Convention Assistance Navigation de plaisance](../products/smacl/Convention%20Assistance%20Navigation%20de%20plaisance.md) - Conditions générales (01/2024) · réf. NAVIMUT_CA_NAVIMUT_SA_02(01_2017)
 
 ### [Prévoyance](../branches/Pr%C3%A9voyance.md)
+- [ALÉASSUR - Individuelle accidents corporels (conventions spéciales)](../products/smacl/AL%C3%89ASSUR%20-%20Individuelle%20accidents%20corporels%20%28conventions%20sp%C3%A9ciales%29.md) - Conditions générales (01/2024) · réf. ALEASSUR_CS_IAC_02(06_2015)
 - [ALÉASSUR Risques statutaires CNRACL (ALÉASSUR CNRACL)](../products/smacl/AL%C3%89ASSUR%20Risques%20statutaires%20CNRACL%20%28AL%C3%89ASSUR%20CNRACL%29.md) - Conditions générales (06/2025) · réf. ALEASSUR_CS_RS_CNRACL_06(06_2023)
 - [ALÉASSUR Risques statutaires IRCANTEC (ALÉASSUR IRCANTEC)](../products/smacl/AL%C3%89ASSUR%20Risques%20statutaires%20IRCANTEC%20%28AL%C3%89ASSUR%20IRCANTEC%29.md) - Conditions générales (11/2025) · réf. ALEASSUR_CS_RS_IRCANTEC_05(06_2023)
 - [Aléassur - Risques statutaires CNRACL - IPID](../products/smacl/Al%C3%A9assur%20-%20Risques%20statutaires%20CNRACL%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. ALEASSUR_DIPA_RS_CNRACL_02(06_2023)
 - [Aléassur - Risques statutaires IRCANTEC - IPID](../products/smacl/Al%C3%A9assur%20-%20Risques%20statutaires%20IRCANTEC%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. ALEASSUR_DIPA_RS_IRCANTEC_01(06_2019)
+- [CONVERGENCE - Individuelle accidents corporels (conventions spéciales)](../products/smacl/CONVERGENCE%20-%20Individuelle%20accidents%20corporels%20%28conventions%20sp%C3%A9ciales%29.md) - Conditions générales (01/2024) · réf. CONVERGENCE_CS_IAC_SA_03(04_2016)
 - [Convergence individuelle accidents corporels - IPID](../products/smacl/Convergence%20individuelle%20accidents%20corporels%20-%20IPID.md) - IPID / Fiche d'information (01/2024) · réf. CONVERGENCE_DIPA_IAC_03(09_2022)
 - [Risques statutaires ALÉASSUR](../products/smacl/Risques%20statutaires%20AL%C3%89ASSUR.md) - Conditions générales (06/2026) · réf. ALEASSUR_CG_RS_11(04_2026)
 - [Sécurité des salariés et bénévoles d'association - IPID](../products/smacl/S%C3%A9curit%C3%A9%20des%20salari%C3%A9s%20et%20b%C3%A9n%C3%A9voles%20d%27association%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. SSBA_DIPA_01(03_2019)
@@ -149,8 +152,10 @@ generated: true
 - [Responsabilité civile vie privée](../products/smacl/Responsabilit%C3%A9%20civile%20vie%20priv%C3%A9e%20%28SMACL%20Assurances%29.md) - Conditions générales (11/2022) · réf. PP_CG_RC_05(02_2023)
 
 ### [RC professionnelle](../branches/RC%20professionnelle.md)
+- [ALÉASSUR - Assurance responsabilités (conventions spéciales)](../products/smacl/AL%C3%89ASSUR%20-%20Assurance%20responsabilit%C3%A9s%20%28conventions%20sp%C3%A9ciales%29.md) - Conditions générales (01/2024) · réf. ALEASSUR_CS_RC_06(06_2018)
 - [Aléassur - assurance Responsabilités - IPID](../products/smacl/Al%C3%A9assur%20-%20assurance%20Responsabilit%C3%A9s%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. ALEASSUR_DIPA_RC_03(09_2022)
 - [CONVERGENCE - Conventions spéciales Responsabilité civile](../products/smacl/CONVERGENCE%20-%20Conventions%20sp%C3%A9ciales%20Responsabilit%C3%A9%20civile.md) - Conditions générales (01/2024) · réf. CONVERGENCE_CS_RC_SA_02_(08_2016)
+- [CONVERGENCE - Responsabilité civile des dirigeants (conventions spéciales)](../products/smacl/CONVERGENCE%20-%20Responsabilit%C3%A9%20civile%20des%20dirigeants%20%28conventions%20sp%C3%A9ciales%29.md) - Conditions générales (04/2025) · réf. CONVERGENCE_CS_RCDI_03(01_2017)
 - [Cadre d'assurance des risques environnementaux des collectivités](../products/smacl/Cadre%20d%27assurance%20des%20risques%20environnementaux%20des%20collectivit%C3%A9s.md) - Conditions générales (01/2024) · réf. RISQUESENVIRONNEMENT_CG_CARE_COLLECTIVITES_05(02_2023)
 - [Convergence - Responsabilité civile - IPID](../products/smacl/Convergence%20-%20Responsabilit%C3%A9%20civile%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. CONVERGENCE_DIPA_RC_SA_03(09_2022)
 - [Convergence - Responsabilité civile des dirigeants - IPID](../products/smacl/Convergence%20-%20Responsabilit%C3%A9%20civile%20des%20dirigeants%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. CONVERGENCE_DIPA_RCDI_03(09_2022)
@@ -163,6 +168,8 @@ generated: true
 - [Conventions spéciales CONVERGENCE - Tous risques expositions clou à clou (Associatons)](../products/smacl/Conventions%20sp%C3%A9ciales%20CONVERGENCE%20-%20Tous%20risques%20expositions%20clou%20%C3%A0%20clou%20%28Associatons%29.md) - Conditions générales (01/2024) · réf. CONVERGENCE_CS_TRE_SA_01(05_2016)
 
 ### [Voyage et assistance](../branches/Voyage%20et%20assistance.md)
+- [Assistance aux personnes (convention d'assistance) (SMACL Assurances SA (société anonyme))](../products/smacl/Assistance%20aux%20personnes%20%28convention%20d%27assistance%29%20%28SMACL%20Assurances%20SA%20%28soci%C3%A9t%C3%A9%20anonyme%29%29.md) - Conditions générales (01/2024) · réf. PM_CA_PERSONNES_SA_03(02_2023)
+- [Assistance aux personnes (convention d'assistance) (SMACL Assurances (société d'assurance mutuelle))](../products/smacl/Assistance%20aux%20personnes%20%28convention%20d%27assistance%29%20%28SMACL%20Assurances%20%28soci%C3%A9t%C3%A9%20d%27assurance%20mutuelle%29%29.md) - Conditions générales (01/2024) · réf. PM_CA_PERSONNES_03(02_2023)
 - [CONVERGENCE - Annulation de séjour (conventions spéciales)](../products/smacl/CONVERGENCE%20-%20Annulation%20de%20s%C3%A9jour%20%28conventions%20sp%C3%A9ciales%29.md) - Conditions générales (07/2025) · réf. CONVERGENCE_CS_SEJOUR_SA_02(02_2022)
 
 ## Source

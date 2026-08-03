@@ -25,7 +25,7 @@ extraction_model: claude-code-subagent:scale
 prompt_version: '1.1'
 product_family: macif-mutuelle-sante
 variant: null
-edition_status: null
+edition_status: current
 edition_age_years: 0
 superseded: null
 extends: null
@@ -710,6 +710,10 @@ Poste « Aides auditives » — Équipement (hors 100 % santé). Tarif le plus s
 
 ## Documents liés
 
+- Édition courante de ce produit.
+- [contrat MACIF MUTUELLE SANTÉ - IPID](contrat%20MACIF%20MUTUELLE%20SANT%C3%89%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/26
+- [contrat MACIF MUTUELLE SANTÉ - IPID](contrat%20MACIF%20MUTUELLE%20SANT%C3%89%20-%20IPID%20%282%29.md) - IPID / Fiche d'information, éd. 10/22
+- [Macif Mutuelle Santé - Fiche](Macif%20Mutuelle%20Sant%C3%A9%20-%20Fiche.md) - Fiche produit, éd. Garanties en vigueur au 1er janvier 2026
 - [Macif Mutuelle Santé](Macif%20Mutuelle%20Sant%C3%A9.md) - Conditions générales, éd. 01/24
 
 ## Source & fidélité

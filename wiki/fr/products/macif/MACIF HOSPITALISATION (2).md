@@ -744,7 +744,8 @@ Toute action dérivant du contrat est prescrite par un délai de 2 ans à partir
 ## Documents liés
 
 - ⚠️ Édition remplacée par une version plus récente : [Macif Hospitalisation](Macif%20Hospitalisation.md)
-- [contrat MACIF HOSPITALISATION - IPID](contrat%20MACIF%20HOSPITALISATION%20-%20IPID.md) - IPID / Fiche d'information, éd. 10/22
+- [contrat MACIF HOSPITALISATION - IPID](contrat%20MACIF%20HOSPITALISATION%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/26
+- [contrat MACIF HOSPITALISATION - IPID](contrat%20MACIF%20HOSPITALISATION%20-%20IPID%20%282%29.md) - IPID / Fiche d'information, éd. 10/22
 - [Macif Hospitalisation](Macif%20Hospitalisation.md) - Conditions générales, éd. 01/26
 
 ## Source & fidélité

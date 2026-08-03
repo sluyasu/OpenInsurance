@@ -1,0 +1,514 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "macif",
+  "insurer_name": "Macif",
+  "product_name": "contrat GARANTIE AUTONOMIE ET DÉPENDANCE",
+  "branch": "prevoyance",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": "particuliers",
+  "target_audience_note": "Le document énonce DEUX publics dans la même phrase : « L'offre Garantie Autonomie et Dépendance est un contrat de prévoyance destiné aux particuliers et aux travailleurs indépendants et leur conjoint collaborateur, ainsi que les dirigeants non salariés relevant de l'article 62 du Code général des impôts. » L'énumération ne se réduit pas à une seule valeur de l'enum : `particuliers` est retenu comme premier public nommé, les travailleurs indépendants, conjoints collaborateurs et dirigeants non salariés étant conservés ici. Conditions d'âge : « être âgé d'au moins 40 ans et de moins de 71 ans » ; « en cas de souscription pour un conjoint ou un membre de sa famille, le souscripteur doit être âgé de plus de 18 ans ».",
+  "reference": "DIPA GARANTIE AUTONOMIE ET DÉPENDANCE - 01/26",
+  "edition_date": "01/26",
+  "product_family": "Garantie Autonomie et Dépendance",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_garantie_autonomie_et_dependance.pdf",
+  "source_pdf": "contrat-garantie-autonomie-et-dependance-68e287aa.pdf",
+  "source_sha256": "c20881c21bd556a239bf7c9f0b7feb12ab5bd4ce055b600ad7c30dd0f9c73e83",
+  "source_pages": 2,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d'information sur le produit d'assurance (DIPA/IPID) du contrat GARANTIE AUTONOMIE ET DÉPENDANCE, assuré par Macif Santé Prévoyance. Le contrat propose un dispositif humain et financier pour aider l'assuré et ses proches à se préserver des conséquences d'une perte d'autonomie liée à l'âge, à un accident ou une maladie. Il comporte 5 formules de garantie prévoyant le versement de prestations dépendance lorsque l'assuré est reconnu en état de dépendance au sens du contrat, plus une formule “Établissement” mise en jeu uniquement lorsque l'assuré est accueilli en établissement : un capital forfaitaire “Premiers frais” de 4 000 € (GIR 1 à 4), une rente dépendance à domicile ou en établissement (GIR 1 à 3), et cinq ensembles de garanties d'assistance systématiquement prévus.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Capital forfaitaire « Premiers frais »",
+      "description": "Capital forfaitaire “Premiers frais” de 4 000 € lorsque l'assuré est reconnu en situation de dépendance, au sens du contrat, avec un classement en GIR (Groupes Iso-Ressources) compris entre 1 et 4.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer compris), et lors des déplacements de l'assuré (d'une durée continue inférieure à 12 mois) dans tous les autres pays de l'Union Européenne ainsi qu'en Suisse, Royaume-Uni, Liechtenstein, Saint-Marin, Saint-Siège, Monaco et Andorre.",
+      "limits": "4 000 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie précédée d'une coche verte : systématiquement prévue au contrat.",
+        "Sous réserve de satisfaire aux formalités d'adhésion.",
+        "Classement en GIR (Groupes Iso-Ressources) compris entre 1 et 4.",
+        "Délai d'attente de 3 ans en cas de dépendance consécutive à une maladie neurologique médicalement constatée parmi la liste suivante : l'atrophie multisystématisée, l'épilepsie, la chorée de Huntington, la dégénérescence ou démence fronto-temporale, la maladie à corps de Lewy, la maladie d'Alzheimer, les dystonies, la maladie de Charcot ou sclérose latérale amyotrophique (SLA), la maladie de Parkinson, la sclérose en plaques, le syndrome cérébelleux.",
+        "Délai d'attente de 3 ans en cas de dépendance de l'assuré consécutive à une maladie psychique médicalement constatée parmi la liste suivante : la dépression, réactionnelle ou non, les troubles anxio dépressifs et névrotiques, les troubles du sommeil (hypersomnie ou insomnie), le burn-out, l'épuisement, le syndrome de fatigue chronique, les troubles de l'humeur, les troubles du comportement et de la personnalité, l'anorexie, les TOC (Trouble Obsessionnel Compulsif), la fibromyalgie, la douleur chronique sans cause connue (Syndrome Douloureux Régional Complexe ou SDRC), les manifestations somatiques ainsi que celles liées au stress, les psychoses aiguës ou chroniques, les troubles bipolaires.",
+        "Délai d'attente d'1 an en cas de dépendance de l'assuré consécutive à une maladie quelle qu'en soit l'origine ou la nature."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Rente dépendance",
+      "description": "Une rente dépendance lorsque l'assuré est reconnu en situation de dépendance, au sens du contrat, avec un classement en GIR (Groupes Iso-Ressources) compris entre 1 et 3. Le montant de la rente diffère en fonction de la formule souscrite et du lieu de vie de l'assuré.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer compris), et lors des déplacements de l'assuré (d'une durée continue inférieure à 12 mois) dans tous les autres pays de l'Union Européenne ainsi qu'en Suisse, Royaume-Uni, Liechtenstein, Saint-Marin, Saint-Siège, Monaco et Andorre.",
+      "limits": "Le montant de la rente diffère en fonction de la formule souscrite et du lieu de vie de l'assuré",
+      "sub_limits": [
+        "Rente dépendance à domicile : montant pouvant être compris entre 250 € et 1 000 € / mois",
+        "Rente dépendance lors de l'entrée en établissement : montant pouvant être compris entre 450 € à 1 650 € / mois"
+      ],
+      "deductible": "Franchise de 90 jours pour le versement de la rente dépendance.",
+      "conditions": [
+        "Garantie précédée d'une coche verte : systématiquement prévue au contrat.",
+        "Sous réserve de satisfaire aux formalités d'adhésion.",
+        "Classement en GIR (Groupes Iso-Ressources) compris entre 1 et 3.",
+        "Franchise de 90 jours pour le versement de la rente dépendance.",
+        "Délai d'attente de 3 ans en cas de dépendance consécutive à une maladie neurologique médicalement constatée parmi la liste suivante : l'atrophie multisystématisée, l'épilepsie, la chorée de Huntington, la dégénérescence ou démence fronto-temporale, la maladie à corps de Lewy, la maladie d'Alzheimer, les dystonies, la maladie de Charcot ou sclérose latérale amyotrophique (SLA), la maladie de Parkinson, la sclérose en plaques, le syndrome cérébelleux.",
+        "Délai d'attente de 3 ans en cas de dépendance de l'assuré consécutive à une maladie psychique médicalement constatée parmi la liste suivante : la dépression, réactionnelle ou non, les troubles anxio dépressifs et névrotiques, les troubles du sommeil (hypersomnie ou insomnie), le burn-out, l'épuisement, le syndrome de fatigue chronique, les troubles de l'humeur, les troubles du comportement et de la personnalité, l'anorexie, les TOC (Trouble Obsessionnel Compulsif), la fibromyalgie, la douleur chronique sans cause connue (Syndrome Douloureux Régional Complexe ou SDRC), les manifestations somatiques ainsi que celles liées au stress, les psychoses aiguës ou chroniques, les troubles bipolaires.",
+        "Délai d'attente d'1 an en cas de dépendance de l'assuré consécutive à une maladie quelle qu'en soit l'origine ou la nature."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Rente dépendance à domicile",
+      "description": "Une rente dépendance à domicile dont le montant peut être compris entre 250 € et 1 000 € / mois. Cette rente n'est pas proposée dans la formule “Établissement”.",
+      "is_optional": null,
+      "territorial_scope": "France (départements et régions d'outre-mer compris), et lors des déplacements de l'assuré (d'une durée continue inférieure à 12 mois) dans tous les autres pays de l'Union Européenne ainsi qu'en Suisse, Royaume-Uni, Liechtenstein, Saint-Marin, Saint-Siège, Monaco et Andorre.",
+      "limits": "entre 250 € et 1 000 € / mois",
+      "sub_limits": [],
+      "deductible": "Franchise de 90 jours pour le versement de la rente dépendance.",
+      "conditions": [
+        "Cette rente n'est pas proposée dans la formule “Établissement”.",
+        "Alternative à la rente dépendance lors de l'entrée en établissement (le document imprime « ou » entre les deux).",
+        "Classement en GIR compris entre 1 et 3.",
+        "Franchise de 90 jours pour le versement de la rente dépendance."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Rente dépendance lors de l'entrée en établissement",
+      "description": "Une rente dépendance lors de l'entrée en établissement dont le montant peut être compris entre 450 € à 1 650 € / mois.",
+      "is_optional": null,
+      "territorial_scope": "France (départements et régions d'outre-mer compris), et lors des déplacements de l'assuré (d'une durée continue inférieure à 12 mois) dans tous les autres pays de l'Union Européenne ainsi qu'en Suisse, Royaume-Uni, Liechtenstein, Saint-Marin, Saint-Siège, Monaco et Andorre.",
+      "limits": "entre 450 € à 1 650 € / mois",
+      "sub_limits": [],
+      "deductible": "Franchise de 90 jours pour le versement de la rente dépendance.",
+      "conditions": [
+        "Alternative à la rente dépendance à domicile (le document imprime « ou » entre les deux).",
+        "Classement en GIR compris entre 1 et 3.",
+        "Franchise de 90 jours pour le versement de la rente dépendance."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance en cas d'hospitalisation ou d'immobilisation temporaire",
+      "description": "Dès l'adhésion, des garanties d'assistance en cas d'hospitalisation ou d'immobilisation temporaire de l'assuré (intervention d'une aide à domicile, prise en charge des enfants ou petits-enfants, etc.).",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine y compris Andorre et Principauté de Monaco.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie précédée d'une coche verte : systématiquement prévue au contrat.",
+        "Dès l'adhésion."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance d'accompagnement et de prévention de l'entrée en dépendance",
+      "description": "Dès l'adhésion, des garanties d'assistance pour accompagner l'assuré et prévenir l'entrée en dépendance : bilan personnalisé par un travailleur social, programme prévention santé, assistance psychologique, informations médicales et juridiques liées à la perte d'autonomie.",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine y compris Andorre et Principauté de Monaco.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie précédée d'une coche verte : systématiquement prévue au contrat.",
+        "Dès l'adhésion."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance en cas de dépendance à domicile",
+      "description": "En cas de perte d'autonomie, des garanties d'assistance proposant un accompagnement en cas de dépendance à domicile : bilan de l'habitat, services de téléassistance, une enveloppe de services (aide à domicile, portage de repas, livraison de courses, etc.) et un accompagnement administratif et social.",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine y compris Andorre et Principauté de Monaco.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie précédée d'une coche verte : systématiquement prévue au contrat.",
+        "En cas de perte d'autonomie."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance lors du passage en établissement",
+      "description": "En cas de perte d'autonomie, des garanties d'assistance proposant un soutien lors du passage en établissement (aide au déménagement, etc.).",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine y compris Andorre et Principauté de Monaco.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie précédée d'une coche verte : systématiquement prévue au contrat.",
+        "En cas de perte d'autonomie."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance dédiée aux aidants",
+      "description": "Des garanties d'assistance dédiées aux aidants (intervention d'une aide à domicile, livraison de courses, transfert chez un proche, etc.).",
+      "is_optional": false,
+      "territorial_scope": "France métropolitaine y compris Andorre et Principauté de Monaco.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie précédée d'une coche verte : systématiquement prévue au contrat."
+      ],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Sinistres hors période de validité",
+      "description": "Les sinistres survenus en dehors de la période de validité du contrat.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dépenses de soins de santé",
+      "description": "Les dépenses de soins de santé occasionnées par une maladie ou un accident.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Délit intentionnel, crime, mutilations volontaires",
+      "description": "Les conséquences résultant de la participation à un délit intentionnel ou à un crime, de mutilations volontaires.",
+      "applies_to": "Toutes les garanties, hors garanties d'assistance",
+      "page": 1
+    },
+    {
+      "name": "Acrobaties, tentatives de records ou sports avec véhicule ou engin à moteur",
+      "description": "Les conséquences résultant de la participation à des acrobaties, à des tentatives de records ou à des sports, lorsqu'elle nécessite l'utilisation d'un véhicule ou engin à moteur.",
+      "applies_to": "Toutes les garanties, hors garanties d'assistance",
+      "page": 1
+    },
+    {
+      "name": "Pratique de certains sports listés au contrat",
+      "description": "Les conséquences résultant de la pratique de certains sports listés au contrat. Le document ne donne pas cette liste.",
+      "applies_to": "Toutes les garanties, hors garanties d'assistance",
+      "page": 1
+    },
+    {
+      "name": "Alcool, stupéfiants et psychotropes",
+      "description": "Les conséquences des accidents de la route survenus lorsque l'assuré conduit un véhicule terrestre à moteur sous l'empire d'un état alcoolique et des accidents liés à l'utilisation de stupéfiants ou psychotropes.",
+      "applies_to": "Toutes les garanties, hors garanties d'assistance",
+      "page": 1
+    },
+    {
+      "name": "Tentatives de suicide dans les 12 premiers mois",
+      "description": "Les conséquences des tentatives de suicide dans les 12 mois qui suivent la prise d'effet du contrat.",
+      "applies_to": "Toutes les garanties, hors garanties d'assistance",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": "Franchise de 90 jours pour le versement de la rente dépendance.",
+    "variable": null,
+    "per_coverage": {
+      "Rente dépendance": "Franchise de 90 jours pour le versement de la rente dépendance."
+    },
+    "page": 1
+  },
+  "waiting_periods": [
+    {
+      "coverage": "Toutes les garanties d'assurance",
+      "duration": "3 ans",
+      "description": "Délai d'attente de 3 ans en cas de dépendance consécutive à une maladie neurologique médicalement constatée parmi la liste suivante : l'atrophie multisystématisée, l'épilepsie, la chorée de Huntington, la dégénérescence ou démence fronto-temporale, la maladie à corps de Lewy, la maladie d'Alzheimer, les dystonies, la maladie de Charcot ou sclérose latérale amyotrophique (SLA), la maladie de Parkinson, la sclérose en plaques, le syndrome cérébelleux.",
+      "page": 1
+    },
+    {
+      "coverage": "Toutes les garanties d'assurance",
+      "duration": "3 ans",
+      "description": "Délai d'attente de 3 ans en cas de dépendance de l'assuré consécutive à une maladie psychique médicalement constatée parmi la liste suivante : la dépression, réactionnelle ou non, les troubles anxio dépressifs et névrotiques, les troubles du sommeil (hypersomnie ou insomnie), le burn-out, l'épuisement, le syndrome de fatigue chronique, les troubles de l'humeur, les troubles du comportement et de la personnalité, l'anorexie, les TOC (Trouble Obsessionnel Compulsif), la fibromyalgie, la douleur chronique sans cause connue (Syndrome Douloureux Régional Complexe ou SDRC), les manifestations somatiques ainsi que celles liées au stress, les psychoses aiguës ou chroniques, les troubles bipolaires.",
+      "page": 1
+    },
+    {
+      "coverage": "Toutes les garanties d'assurance",
+      "duration": "1 an",
+      "description": "Délai d'attente d'1 an en cas de dépendance de l'assuré consécutive à une maladie quelle qu'en soit l'origine ou la nature.",
+      "page": 1
+    },
+    {
+      "coverage": "Toutes les garanties (hors garanties d'assistance)",
+      "duration": "12 mois",
+      "description": "Les conséquences des tentatives de suicide dans les 12 mois qui suivent la prise d'effet du contrat sont exclues.",
+      "page": 1
+    }
+  ],
+  "obligations": [
+    {
+      "name": "Condition d'âge de l'assuré",
+      "description": "À la souscription : être âgé d'au moins 40 ans et de moins de 71 ans.",
+      "timing": "À la souscription",
+      "sanction": "Sous peine, le cas échéant, de nullité du contrat d'assurance, de réduction de l'indemnité ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Condition de résidence",
+      "description": "À la souscription : résider en France métropolitaine ou séjourner à l'étranger pour une durée continue n'excédant pas 12 mois.",
+      "timing": "À la souscription",
+      "sanction": "Sous peine, le cas échéant, de nullité du contrat d'assurance, de réduction de l'indemnité ou de non garantie ; les garanties cessent lorsque le séjour à l'étranger de l'assuré excède 12 mois continus.",
+      "page": 2
+    },
+    {
+      "name": "Répondre exactement aux questions posées",
+      "description": "À la souscription : répondre exactement aux questions posées par l'assureur, notamment dans la déclaration de santé et, le cas échéant, le questionnaire médical.",
+      "timing": "À la souscription",
+      "sanction": "Sous peine, le cas échéant, de nullité du contrat d'assurance, de réduction de l'indemnité ou de non garantie ; les garanties cessent en cas de fausse déclaration intentionnelle ou, si l'assuré refuse les nouvelles conditions, en cas de fausse déclaration non intentionnelle.",
+      "page": 2
+    },
+    {
+      "name": "Signer la demande et fournir une pièce d'identité",
+      "description": "À la souscription : signer la demande d'assurance et fournir la copie d'une pièce d'identité en cours de validité.",
+      "timing": "À la souscription",
+      "sanction": "Sous peine, le cas échéant, de nullité du contrat d'assurance, de réduction de l'indemnité ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Âge du souscripteur en cas de souscription pour un tiers",
+      "description": "À la souscription : en cas de souscription pour un conjoint ou un membre de sa famille, le souscripteur doit être âgé de plus de 18 ans.",
+      "timing": "À la souscription",
+      "sanction": "Sous peine, le cas échéant, de nullité du contrat d'assurance, de réduction de l'indemnité ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Conditions propres à la souscription loi Madelin",
+      "description": "À la souscription : en cas de souscription entrant dans le cadre de la loi Madelin, le souscripteur doit être un professionnel indépendant, le conjoint collaborateur d'un professionnel indépendant ou un dirigeant non salarié relevant de l'article 62 du Code général des impôts, adhérent à l'APPIC et fournir les justificatifs demandés par l'assureur.",
+      "timing": "À la souscription",
+      "sanction": "Sous peine, le cas échéant, de nullité du contrat d'assurance, de réduction de l'indemnité ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Payer la cotisation",
+      "description": "Durant le contrat : payer la cotisation prévue au contrat.",
+      "timing": "Durant le contrat",
+      "sanction": "Les garanties cessent en cas de non-paiement d'une cotisation ou d'une fraction de cotisation.",
+      "page": 2
+    },
+    {
+      "name": "Fournir les justificatifs demandés",
+      "description": "En cas de sinistre : fournir les justificatifs demandés.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine, le cas échéant, de nullité du contrat d'assurance, de réduction de l'indemnité ou de non garantie",
+      "page": 2
+    },
+    {
+      "name": "Se soumettre à l'expertise médicale",
+      "description": "En cas de sinistre : le cas échéant, se soumettre à l'expertise médicale demandée par l'assureur.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine, le cas échéant, de nullité du contrat d'assurance, de réduction de l'indemnité ou de non garantie",
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Fournir les justificatifs",
+      "description": "En cas de sinistre : fournir les justificatifs demandés.",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Expertise médicale",
+      "description": "En cas de sinistre : le cas échéant, se soumettre à l'expertise médicale demandée par l'assureur.",
+      "deadline": null,
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "La durée du contrat est d'un an. Il se renouvelle par tacite reconduction chaque année au 1er avril, sauf résiliation par l'une des parties dans les cas et conditions fixés au contrat. Si la demande d'assurance est acceptée sans réserve, le contrat prend effet à la date figurant sur la demande d'assurance ; si la demande fait l'objet d'une étude par le service médical de l'assureur, le contrat prendra effet au plus tôt à la date d'acceptation de ce service. Dans tous les cas, la date d'effet du contrat est indiquée dans le certificat individuel de garantie.",
+    "tacit_renewal": true,
+    "notice_period": "Aucun préavis n'est indiqué : le souscripteur peut résilier à tout moment et la résiliation prend effet à la date de réception de la demande.",
+    "methods": [
+      "par lettre ou tout autre moyen prévu à l'article L. 221 - 10 - 3 du Code de la mutualité",
+      "par voie électronique via l'Espace Assurance sur le site www.macif.fr",
+      "par courrier postal ou électronique adressé à l'assureur",
+      "par déclaration en point d'accueil physique Macif"
+    ],
+    "special_rights": [
+      "Le souscripteur dispose d'un délai de renonciation de 30 jours à compter de la prise d'effet du contrat.",
+      "Le souscripteur peut résilier le contrat à tout moment ; la résiliation prend effet à la date de réception de la demande.",
+      "Les garanties cessent en cas de survenance de l'état de dépendance pendant le délai d'attente.",
+      "Les garanties cessent en cas de non-paiement d'une cotisation ou d'une fraction de cotisation.",
+      "Les garanties cessent lorsque le séjour à l'étranger de l'assuré excède 12 mois continus.",
+      "Les garanties cessent en cas de fausse déclaration non intentionnelle si l'assuré refuse les nouvelles conditions d'assurance qui lui sont proposées.",
+      "Les garanties cessent en cas de fausse déclaration intentionnelle à la souscription et en cours de sinistre de la part de l'assuré.",
+      "Les garanties cessent et au plus tard, en cas de décès de l'assuré."
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "La cotisation est annuelle et payable d'avance. Elle est due à l'échéance jusqu'à la résiliation du contrat.",
+      "Le paiement de la cotisation est exigible dans les 10 jours de son échéance. En cas de non paiement au-delà de ce délai, et après une mise en demeure restée sans effet, l'assureur pourra être amené à résilier le contrat.",
+      "Les cotisations peuvent être réglées par chèque (uniquement pour le paiement annuel et semestriel) ou par mandat de prélèvement SEPA.",
+      "Il est possible de demander le fractionnement du paiement de la cotisation (semestriel ou mensuel). Des frais de fractionnement sont alors appliqués."
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Structure de l'offre",
+      "description": "En fonction des besoins de l'assuré et sous réserve de satisfaire aux formalités d'adhésion, le contrat Garantie Autonomie et Dépendance propose 5 formules de garantie qui prévoient, lorsque l'assuré est reconnu en état de dépendance, au sens du contrat, le versement de prestations dépendance. Le contrat propose également une formule “Établissement” qui est mise en jeu uniquement lorsque l'assuré est accueilli en établissement. Le document ne nomme ni ne détaille les 5 formules.",
+      "page": 1
+    },
+    {
+      "name": "Principale restriction - franchise",
+      "description": "Franchise de 90 jours pour le versement de la rente dépendance.",
+      "page": 1
+    },
+    {
+      "name": "Principale restriction - délai d'attente maladies neurologiques",
+      "description": "Délai d'attente de 3 ans en cas de dépendance consécutive à une maladie neurologique médicalement constatée parmi la liste suivante : l'atrophie multisystématisée, l'épilepsie, la chorée de Huntington, la dégénérescence ou démence fronto-temporale, la maladie à corps de Lewy, la maladie d'Alzheimer, les dystonies, la maladie de Charcot ou sclérose latérale amyotrophique (SLA), la maladie de Parkinson, la sclérose en plaques, le syndrome cérébelleux.",
+      "page": 1
+    },
+    {
+      "name": "Principale restriction - délai d'attente maladies psychiques",
+      "description": "Délai d'attente de 3 ans en cas de dépendance de l'assuré consécutive à une maladie psychique médicalement constatée parmi la liste suivante : la dépression, réactionnelle ou non, les troubles anxio dépressifs et névrotiques, les troubles du sommeil (hypersomnie ou insomnie), le burn-out, l'épuisement, le syndrome de fatigue chronique, les troubles de l'humeur, les troubles du comportement et de la personnalité, l'anorexie, les TOC (Trouble Obsessionnel Compulsif), la fibromyalgie, la douleur chronique sans cause connue (Syndrome Douloureux Régional Complexe ou SDRC), les manifestations somatiques ainsi que celles liées au stress, les psychoses aiguës ou chroniques, les troubles bipolaires.",
+      "page": 1
+    },
+    {
+      "name": "Principale restriction - délai d'attente maladie quelconque",
+      "description": "Délai d'attente d'1 an en cas de dépendance de l'assuré consécutive à une maladie quelle qu'en soit l'origine ou la nature.",
+      "page": 1
+    },
+    {
+      "name": "Principale restriction - durée des déplacements à l'étranger",
+      "description": "Les déplacements à l'étranger ne doivent pas excéder une durée continue de 12 mois.",
+      "page": 1
+    },
+    {
+      "name": "Portée du document",
+      "description": "Ce document d'information présente un résumé des principales garanties et exclusions du contrat. Il ne prend pas en compte les besoins et demandes spécifiques du souscripteur. L'information complète figure dans la documentation précontractuelle et contractuelle.",
+      "page": 1
+    },
+    {
+      "name": "Légende des marqueurs",
+      "description": "Les garanties ou services précédés d'une coche verte sont systématiquement prévus au contrat.",
+      "page": 1
+    },
+    {
+      "name": "Formalités d'adhésion et étude médicale",
+      "description": "Le bénéfice du contrat est subordonné aux formalités d'adhésion ; la demande peut faire l'objet d'une étude par le service médical de l'assureur, auquel cas le contrat prend effet au plus tôt à la date d'acceptation de ce service.",
+      "page": 2
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Ce contrat est assuré par Macif Santé Prévoyance (Sirène n°779, 558, 501)",
+      "context": "Porteur de risque (calque texte défectueux, voir gaps)",
+      "page": 1
+    },
+    {
+      "quote": "L’offre Garantie Autonomie et Dépendance est un contrat de prévoyance destiné aux particuliers et aux travailleurs indépendants et leur conjoint collaborateur, \nainsi que les dirigeants non salariés relevant de l’article 62 du Code général des impôts.",
+      "context": "Public visé",
+      "page": 1
+    },
+    {
+      "quote": "Ce contrat propose un dispositif humain et financier pour aider l’assuré \net ses proches à se préserver des conséquences d’une perte d’autonomie liée à l’âge, à un accident ou une maladie.",
+      "context": "Objet du contrat",
+      "page": 1
+    },
+    {
+      "quote": "En fonction des besoins de l’assuré et sous réserve de satisfaire aux \nformalités d’adhésion, le contrat Garantie Autonomie et Dépendance \npropose 5 formules de garantie qui prévoient, lorsque l’assuré est reconnu \nen état de dépendance, au sens du contrat, le versement de prestations \ndépendance.",
+      "context": "Structure : 5 formules",
+      "page": 1
+    },
+    {
+      "quote": "Le contrat propose également une formule “Établissement” qui est mise en \njeu uniquement lorsque l’assuré est accueilli en établissement.",
+      "context": "Formule Établissement",
+      "page": 1
+    },
+    {
+      "quote": "Capital forfaitaire “Premiers frais” de 4 000 € lorsque l’assuré est \nreconnu en situation de dépendance, au sens du contrat, avec un \nclassement en GIR (Groupes Iso-Ressources) compris entre 1 et 4.",
+      "context": "Capital Premiers frais",
+      "page": 1
+    },
+    {
+      "quote": "Une rente dépendance lorsque l’assuré est reconnu en situation de \ndépendance, au sens du contrat, avec un classement en GIR (Groupes \nIso-Ressources) compris entre 1 et 3.",
+      "context": "Rente dépendance : GIR 1 à 3",
+      "page": 1
+    },
+    {
+      "quote": "Les garanties ou services précédés d’une coche verte    sont systématiquement \nprévus au contrat.",
+      "context": "Légende de la coche verte",
+      "page": 1
+    },
+    {
+      "quote": "Les conséquences des accidents de la route survenus lorsque l’assuré \nconduit un véhicule terrestre à moteur sous l’empire d’un état alcoolique \net des accidents liés à l’utilisation de stupéfiants ou psychotropes.",
+      "context": "Exclusion alcool et stupéfiants",
+      "page": 1
+    },
+    {
+      "quote": "Les conséquences des tentatives de suicide dans les 12 mois qui suivent \nla prise d’effet du contrat.",
+      "context": "Exclusion tentatives de suicide",
+      "page": 1
+    },
+    {
+      "quote": "Franchise de 90 jours pour le versement de la rente dépendance.",
+      "context": "Franchise de 90 jours",
+      "page": 1
+    },
+    {
+      "quote": "Délai d’attente de 3 ans en cas de dépendance consécutive à une \nmaladie neurologique médicalement constatée parmi la liste suivante : \nl’atrophie multisystématisée, l’épilepsie, la chorée de Huntington, la \ndégénérescence ou démence fronto-temporale, la maladie à corps \nde Lewy, la maladie d’Alzheimer, les dystonies, la maladie de Charcot",
+      "context": "Délai d'attente maladies neurologiques (citation arrêtée avant la corruption du calque)",
+      "page": 1
+    },
+    {
+      "quote": "Délai d’attente d’un an en cas de dépendance de l’assuré consécutive à \nune maladie quelle qu’en soit l’origine ou la nature.",
+      "context": "Délai d'attente maladie quelconque",
+      "page": 1
+    },
+    {
+      "quote": "Les garanties d’assurance : France (départements et régions d’outre-mer compris), et lors des déplacements de l’assuré (d’une durée continue inférieure \nà 12 mois) dans tous les autres pays de l’Union Européenne ainsi qu’en Suisse, Royaume-Uni, Liechtenstein, Saint-Marin, Saint-Siège, Monaco et Andorre.",
+      "context": "Territoire des garanties d'assurance",
+      "page": 1
+    },
+    {
+      "quote": "Les garanties d’assistance : France métropolitaine y compris Andorre et Principauté de Monaco.",
+      "context": "Territoire de l'assistance",
+      "page": 1
+    },
+    {
+      "quote": "Le souscripteur dispose d’un délai de renonciation de 30 jours à compter de la prise d’effet du contrat.",
+      "context": "Délai de renonciation",
+      "page": 2
+    },
+    {
+      "quote": "être âgé d’au moins 40 ans et de moins de 71 ans",
+      "context": "Conditions d'âge",
+      "page": 2
+    },
+    {
+      "quote": "en cas de souscription entrant dans le cadre de la loi Madelin, le souscripteur doit être un professionnel indépendant, le conjoint collaborateur d’un \nprofessionnel indépendant ou un dirigeant non salarié relevant de l’article 62 du Code général des impôts, adhérent à l’APPIC et fournir les justificatifs \ndemandés par l’assureur.",
+      "context": "Souscription loi Madelin",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "CALQUE TEXTE D'ACCESSIBILITÉ TRÈS DÉGRADÉ, DIVERGENT DU RENDU — c'est le point le plus important de ce document. Le rendu (fitz.Matrix(2,2), page entière, plus deux bandes à Matrix(6,6) et Matrix(7,7)) fait foi pour les champs structurés ; le calque texte fait foi pour `key_quotes`, où les défauts sont CONSERVÉS tels quels. Divergences mesurées : (1) le calque écrit « Sirène n°779, 558, 501) » là où la page imprime « SIREN n°779 558 501 », et la ligne entière est DUPLIQUÉE dans le calque (« … régie par  Sirène n°779, 558, 501), mutuelle enregistrée en France et régie par ») alors qu'elle n'est imprimée qu'une fois ; (2) le calque écrit « la maladie de Parkine-sonne » (orthographe phonétique) là où la page imprime « la maladie de Parkinson », et ce fragment est TRIPLIQUÉ en plein milieu de la phrase (« … (S L A), la maladie de Parkine-sonne, la   L A), la maladie de Parkine-sonne, la  L A), la maladie de Parkine-sonne, la ») ; (3) le calque écrit « (S L A) » pour « (SLA) » imprimé ; (4) le calque remplace le tiret demi-cadratin imprimé par les mots littéraux « Tiret demi-cadratin » — 2 occurrences page 1 et 17 page 2 ; (5) le calque écrit « par mois » là où la page imprime « / mois » ; (6) le calque écrit « d'un an » là où la page imprime « d'1 an », « premierer avril » pour « 1er avril », « 1650 € » pour « 1 650 € » ; (7) les traits d'union des titres disparaissent : « s'agitil » pour « s'agit-il », « Yatil » pour « Y a-t-il », « quand pren telle fin » pour « quand prend-elle fin ». Toutes les valeurs des champs structurés ont été relues au rendu.",
+    "CONTRÔLE D'INVERSION DE COLONNES : NÉGATIF, contrôle refait sur CE document. Page 1 sur deux colonnes ; le texte plat émet la colonne gauche entière puis la colonne droite entière, sans entrelacement ni titres fusionnés, ce qui a été confirmé au rendu de la page entière. Chaque item a été attribué individuellement. En revanche l'ORDRE DES BLOCS diffère de l'ordre imprimé pour la légende de la coche verte, imprimée en bas de la colonne gauche mais émise à la fin de la page, et pour la ligne « Référence du document : DIPA GARANTIE AUTONOMIE ET DÉPENDANCE - 01/26 », imprimée verticalement en marge droite mais émise au milieu du chapeau.",
+    "LE DÉCOMPTE DES MARQUEURS NE FERME PAS, ET C'EST LE DOCUMENT QUI EST AINSI : la page 1 porte 21 caractères U+0007 dans le calque texte pour 23 items imprimés. Les DEUX items manquants sont « Délai d'attente de 3 ans … maladie psychique … » et « Délai d'attente d'1 an … », qui sont imprimés SANS aucune puce au milieu de la liste « LES PRINCIPALES RESTRICTIONS » — vérifié au rendu : la liste porte trois « ! » orange (franchise de 90 jours, délai d'attente neurologique, déplacements à l'étranger) pour cinq paragraphes. Les deux paragraphes sans puce sont conservés comme items à part entière ; c'est le compte qui est signalé comme non fermé, plutôt que les items supprimés pour le faire tomber juste. Décompte complet page 1 : 2 garanties + 2 variantes de rente + 5 assistances (colonne gauche) + 2 « n'est pas assuré » + 5 exclusions + 5 restrictions (colonne droite) + 2 items de territorialité = 23 items pour 21 U+0007.",
+    "POLARITÉ TRANCHÉE SUR LA FORME DU MARQUEUR AU RENDU : coche verte ✓ devant les 2 garanties d'assurance et les 5 garanties d'assistance, tiret « – » devant les 2 variantes de rente, croix rouge ✗ devant les 2 items « Qu'est-ce qui n'est pas assuré ? », point d'exclamation orange « ! » devant les 5 exclusions et 3 des 5 restrictions, chevron bleu devant les 2 items de territorialité. Le calque texte porte le même U+0007 pour toutes les polarités : il ne permet aucune distinction.",
+    "PORTEUR DE RISQUE DIFFÉRENT DE LA MARQUE (lu au verbe, et lu au rendu parce que le calque est défectueux) : la page imprime « Ce contrat est assuré par Macif Santé Prévoyance (SIREN n°779 558 501), mutuelle enregistrée en France et régie par le Livre II du Code de la mutualité. » Le porteur est Macif Santé Prévoyance, mutuelle du Livre II, et non la Macif société d'assurance mutuelle. Aucun gestionnaire, assisteur, courtier ou distributeur n'est nommé : en particulier le prestataire des cinq ensembles de garanties d'assistance n'est pas nommé, et « APPIC », citée comme association d'adhésion obligatoire dans le cadre Madelin, n'est ni développée ni définie. `insurer_slug`/`insurer_name` reprennent tels quels les métadonnées de la tâche.",
+    "LES 5 FORMULES NE SONT NI NOMMÉES NI DÉTAILLÉES : le document annonce « 5 formules de garantie » plus une formule “Établissement”, sans en donner la liste, les montants par formule, ni les cotisations. Le montant de la rente n'est donné que sous forme de fourchettes (250 € à 1 000 € / mois à domicile, 450 € à 1 650 € / mois en établissement) en précisant que « Le montant de la rente diffère en fonction de la formule souscrite et du lieu de vie de l'assuré ». `is_optional` est laissé à null sur les deux variantes de rente : le document imprime « ou » entre elles et indique que la rente à domicile « n'est pas proposée dans la formule “Établissement” », sans dire si le choix relève d'une option ou de la formule souscrite.",
+    "SPORTS EXCLUS NON LISTÉS : l'exclusion « Les conséquences résultant de la pratique de certains sports listés au contrat » renvoie à une liste qui ne figure pas dans le document. Enregistrée telle quelle, sans complément.",
+    "Le document ne comporte aucun lexique : `definitions` est vide. Le sigle GIR est développé au fil du texte (« GIR (Groupes Iso-Ressources) ») mais l'état de dépendance n'est pas défini : le document renvoie à la notion « au sens du contrat ». `prescription_period` est null (aucun délai de prescription mentionné).",
+    "TROIS DÉLAIS D'ATTENTE DISTINCTS + UNE FRANCHISE, tous enregistrés séparément : 3 ans (maladie neurologique, liste fermée de 12 pathologies), 3 ans (maladie psychique, liste fermée), 1 an (maladie quelle qu'en soit l'origine ou la nature), et une franchise de 90 jours pour le versement de la rente dépendance. Le document précise par ailleurs que les garanties cessent « en cas de survenance de l'état de dépendance pendant le délai d'attente ».",
+    "Aucun ZWSP, aucun tiret conditionnel, aucun glyphe de zone privée, aucune coupure de mot en fin de ligne, aucun bloc hors du rectangle de page. Le glyphe € est extractible (5 occurrences). Aucun folio n'est imprimé : les champs `page` citent les numéros de page PDF (1 et 2), vérifiés par recherche d'ancre pour chaque citation.",
+    "ÉDITION : une seule ligne d'édition, « DIPA GARANTIE AUTONOMIE ET DÉPENDANCE - 01/26 », présente à la fois dans le chapeau (« Référence du document : … ») et imprimée verticalement en marge droite de la page 1 ; une seule chaîne de forme date dans le document, donc pas de bandeau fantôme.",
+    "Le texte du prompt n'était pas tronqué (2 pages, 10 650 caractères). Les citations ont été découpées programmatiquement dans le texte ré-extrait du PDF local avec `page.get_text(\"text\")`, page par page, donc sans marqueur `[[page N]]` et sans caractère U+0007. Deux citations ont été volontairement arrêtées avant une zone corrompue du calque : celle du porteur s'arrête après le numéro d'identification, celle du délai d'attente neurologique s'arrête à « la maladie de Charcot »."
+  ]
+}

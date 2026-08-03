@@ -285,7 +285,11 @@ Ligne « Équipement (hors 100 % santé) » de la section Aides auditives. Tarif
 - [Macif Mutuelle Entreprises - Fiche](Macif%20Mutuelle%20Entreprises%20-%20Fiche.md) - Fiche produit, éd. 01/26
 - [Macif Mutuelle Entreprises](Macif%20Mutuelle%20Entreprises%20%282%29.md) - Conditions générales
 - [Macif Mutuelle Entreprises (contrat collectif à adhésion obligatoire) - IPID](Macif%20Mutuelle%20Entreprises%20%28contrat%20collectif%20%C3%A0%20adh%C3%A9sion%20obligatoire%29%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/25
+- [Macif Mutuelle Entreprises - Formule Equilibrée - Régime Général - Fiche](Macif%20Mutuelle%20Entreprises%20-%20Formule%20Equilibr%C3%A9e%20-%20R%C3%A9gime%20G%C3%A9n%C3%A9ral%20-%20Fiche.md) - Fiche produit, éd. au 1er janvier 2026
+- [Macif Mutuelle Entreprises - Formule Essentielle Plus - Régime Général - Fiche](Macif%20Mutuelle%20Entreprises%20-%20Formule%20Essentielle%20Plus%20-%20R%C3%A9gime%20G%C3%A9n%C3%A9ral%20-%20Fiche.md) - Fiche produit, éd. au 1er janvier 2026
+- [Macif Mutuelle Entreprises - Formule Essentielle - Régime Général - Fiche](Macif%20Mutuelle%20Entreprises%20-%20Formule%20Essentielle%20-%20R%C3%A9gime%20G%C3%A9n%C3%A9ral%20-%20Fiche.md) - Fiche produit, éd. au 1er janvier 2026
 - [Macif Mutuelle Entreprises - Formule Etendue - Régime Général - Fiche](Macif%20Mutuelle%20Entreprises%20-%20Formule%20Etendue%20-%20R%C3%A9gime%20G%C3%A9n%C3%A9ral%20-%20Fiche.md) - Fiche produit, éd. 2026-01
+- [Macif Mutuelle Entreprises - Formule Excellence - Régime Général - Fiche](Macif%20Mutuelle%20Entreprises%20-%20Formule%20Excellence%20-%20R%C3%A9gime%20G%C3%A9n%C3%A9ral%20-%20Fiche.md) - Fiche produit, éd. au 1er janvier 2026
 
 ## Source & fidélité
 

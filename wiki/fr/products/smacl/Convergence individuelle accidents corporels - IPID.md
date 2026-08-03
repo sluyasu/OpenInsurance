@@ -149,6 +149,11 @@ Garantie nommée uniquement à la rubrique « Où suis-je couvert(e) ? » de la 
 - PÉRIMÈTRE D’UN DIPA : document réglementaire de deux pages, résumé par nature. Les exclusions listées sont les « PRINCIPALES EXCLUSIONS » seulement, pas la liste exhaustive du contrat. Il ne comporte ni définitions, ni franchises chiffrées, ni délai de prescription : definitions est vide, deductibles et prescription_period null — absence réelle, pas un défaut de lecture. Les conditions générales du contrat ne sont pas jointes.
 - BRANCHE : la métadonnée branch = prevoyance a été recopiée et n’est pas contredite par le document, qui se qualifie d’« assurance individuelle accidents corporels ». Un slug plus précis n’existe pas dans la liste autorisée pour ce pays (gav vise la garantie des accidents de la vie, produit distinct).
 
+## Documents liés
+
+- Extension liée : [CONVERGENCE - Individuelle accidents corporels (conventions spéciales)](CONVERGENCE%20-%20Individuelle%20accidents%20corporels%20%28conventions%20sp%C3%A9ciales%29.md)
+- [CONVERGENCE - Individuelle accidents corporels (conventions spéciales)](CONVERGENCE%20-%20Individuelle%20accidents%20corporels%20%28conventions%20sp%C3%A9ciales%29.md) - Conditions générales, éd. 01/2024
+
 ## Source & fidélité
 
 - Source : [https://www.smacl.fr/files/documents/document-information-accidents-corporels-convergence.pdf](https://www.smacl.fr/files/documents/document-information-accidents-corporels-convergence.pdf) - téléchargé le 2026-08-01 - 2 pages

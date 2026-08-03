@@ -163,6 +163,11 @@ Garantie systématiquement prévue au contrat : information juridique.
 - Le champ territorial_scope est renseigné sur chaque garantie à partir de la rubrique « Où suis-je couvert(e) ? » de la page 2, alors que les garanties elles-mêmes sont décrites page 1 (page citée = 1).
 - Le document ne chiffre ni le délai de déclaration de sinistre (« dans les conditions et délais impartis ») ni le préavis de résiliation à l’échéance (« dans les conditions prévues au contrat »).
 
+## Documents liés
+
+- Extension liée : [CONVERGENCE - Responsabilité civile des dirigeants (conventions spéciales)](CONVERGENCE%20-%20Responsabilit%C3%A9%20civile%20des%20dirigeants%20%28conventions%20sp%C3%A9ciales%29.md)
+- [CONVERGENCE - Responsabilité civile des dirigeants (conventions spéciales)](CONVERGENCE%20-%20Responsabilit%C3%A9%20civile%20des%20dirigeants%20%28conventions%20sp%C3%A9ciales%29.md) - Conditions générales, éd. 04/2025
+
 ## Source & fidélité
 
 - Source : [https://www.smacl.fr/files/documents/document-information-responsabilite-civile-dirigeants-convergence.pdf](https://www.smacl.fr/files/documents/document-information-responsabilite-civile-dirigeants-convergence.pdf) - téléchargé le 2026-08-01 - 2 pages

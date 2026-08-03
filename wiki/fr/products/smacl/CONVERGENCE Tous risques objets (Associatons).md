@@ -115,6 +115,7 @@ La garantie de SMACL Assurances porte sur les frais de remplacement ou de répar
 
 - ⚠️ Édition remplacée par une version plus récente : [CONVERGENCE - Tous risques informatique (Associatons)](CONVERGENCE%20-%20Tous%20risques%20informatique%20%28Associatons%29.md)
 - Extension / option du produit : **conditions générales Convergence et conventions spéciales Dommages aux biens Convergence**
+- [CONVERGENCE (conditions générales)](CONVERGENCE%20%28conditions%20g%C3%A9n%C3%A9rales%29.md) - Conditions générales, éd. 01/2024
 - [CONVERGENCE Dommages aux biens](CONVERGENCE%20Dommages%20aux%20biens.md) - Conditions générales, éd. 01/2024
 - [CONVERGENCE - Tous risques informatique (Associatons)](CONVERGENCE%20-%20Tous%20risques%20informatique%20%28Associatons%29.md) - Conditions générales, éd. 04/2025
 - [CONVERGENCE Tous risques instruments de musique (Associatons)](CONVERGENCE%20Tous%20risques%20instruments%20de%20musique%20%28Associatons%29.md) - Conditions générales, éd. 01/2024

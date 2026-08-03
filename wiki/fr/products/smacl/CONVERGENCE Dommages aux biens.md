@@ -28,7 +28,7 @@ extraction_model: claude-code-subagent:scale
 prompt_version: '1.1'
 product_family: convergence
 variant: null
-edition_status: null
+edition_status: current
 edition_age_years: 2
 superseded: null
 extends: CONVERGENCE
@@ -328,7 +328,9 @@ La responsabilité que l'assuré peut encourir par application des articles 1382
 
 ## Documents liés
 
+- Édition courante de ce produit.
 - Extension / option du produit : **CONVERGENCE**
+- [CONVERGENCE (conditions générales)](CONVERGENCE%20%28conditions%20g%C3%A9n%C3%A9rales%29.md) - Conditions générales, éd. 01/2024
 - [CONVERGENCE - Tous risques informatique (Associatons)](CONVERGENCE%20-%20Tous%20risques%20informatique%20%28Associatons%29.md) - Conditions générales, éd. 04/2025
 - [CONVERGENCE Tous risques instruments de musique (Associatons)](CONVERGENCE%20Tous%20risques%20instruments%20de%20musique%20%28Associatons%29.md) - Conditions générales, éd. 01/2024
 - [CONVERGENCE Tous risques objets (Associatons)](CONVERGENCE%20Tous%20risques%20objets%20%28Associatons%29.md) - Conditions générales, éd. 01/2024
