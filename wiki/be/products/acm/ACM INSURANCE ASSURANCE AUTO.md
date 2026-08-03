@@ -7,7 +7,7 @@ insurer_slug: acm
 branch: auto
 product_name: ACM INSURANCE ASSURANCE AUTO
 document_type: conditions_generales
-target_audience: entreprises
+target_audience: particuliers
 target_audience_note: null
 reference: 16.52.23
 edition_date: 09/2025
@@ -18,13 +18,13 @@ tags:
 - insurer/acm
 aliases:
 - ACM INSURANCE ASSURANCE AUTO
-source_url: https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/auto-pros/1.0/20250925_FR_CG_AUTO_ACM_INSURANCE.pdf
+source_url: https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/auto/1.0/20250925_FR_CG_AUTO_ACM_INSURANCE.pdf
 source_pages: 78
 fetched_at: '2026-07-08'
 extraction_model: claude-code-subagent:scale
 prompt_version: '1.1'
 product_family: acm-insurance-assurance-auto
-variant: auto-pros
+variant: null
 edition_status: null
 edition_age_years: 1
 superseded: null
@@ -349,16 +349,16 @@ Dépenses imprévues (avance de fonds à l'étranger), transport des biens et du
 - prescription_period non renseignée : les articles Prescription (art. 107 page 70 et art. 114 page 73) figurent dans la table des matières mais leur texte n'est pas présent dans le document fourni (troncature).
 - Les montants des franchises de la garantie Responsabilité civile ne sont pas chiffrés dans ce document : ils sont renvoyés aux conditions particulières.
 - Les tableaux du degré bonus-malus (échelle de coefficients -3 à 22, nombre d'années d'antécédents, grille âge/ancienneté du permis) sont présents pages 17-18 mais restitués sous forme de séquences de chiffres difficiles à structurer intégralement ; seuls les mécanismes et bornes principales ont été capturés.
-- Ce document (distribution auto-pros) est identique caractère pour caractère au fichier de conditions générales de l'édition auto standard (même code 16.52.23 / 09/2025, même titre « ACM INSURANCE ASSURANCE AUTO » et même contenu). La distinction entre les deux versions ne figure que dans le chemin de la source_url (/auto/ vs /auto-pros/) ; d'où variant = 'auto-pros'. target_audience fixé à 'professionnel' d'après cette distribution « pros » et la couverture de l'usage privé-professionnel et des voitures d'affaires ; le texte lui-même ne comporte pas d'étiquette explicite de public cible.
+- target_audience fixé à 'particulier' par déduction du produit (véhicules à usage privé, voitures de tourisme et d'affaires, système bonus-malus personnel) ; le document ne comporte pas d'étiquette explicite de public cible.
 
 ## Documents liés
 
+- [ACM INSURANCE ASSURANCE AUTO (auto-pros)](ACM%20INSURANCE%20ASSURANCE%20AUTO%20%28auto-pros%29.md) - Conditions générales, éd. 09/2025
 - [ACM Insurance Assurance Auto - IPID](ACM%20Insurance%20Assurance%20Auto%20-%20IPID%20%282%29.md) - IPID / Fiche d'information, éd. 09/2025
 - [ACM Insurance Assurance Auto - IPID](ACM%20Insurance%20Assurance%20Auto%20-%20IPID.md) - IPID / Fiche d'information, éd. 09/2025
-- [ACM INSURANCE ASSURANCE AUTO](ACM%20INSURANCE%20ASSURANCE%20AUTO%20%282%29.md) - Conditions générales, éd. 09/2025
 
 ## Source & fidélité
 
-- Source : [https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/auto-pros/1.0/20250925_FR_CG_AUTO_ACM_INSURANCE.pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/auto-pros/1.0/20250925_FR_CG_AUTO_ACM_INSURANCE.pdf) - téléchargé le 2026-07-08 - 78 pages
+- Source : [https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/auto/1.0/20250925_FR_CG_AUTO_ACM_INSURANCE.pdf](https://cdnwmii.e-i.com/SITW/wm/global/1.0.0/WEBA/ACM/BE/assets/articles/auto/1.0/20250925_FR_CG_AUTO_ACM_INSURANCE.pdf) - téléchargé le 2026-07-08 - 78 pages
 - Extraction : claude-code-subagent:scale · prompt v1.1
 - ⚠️ Ceci n'est pas le document officiel de l'assureur et peut contenir des erreurs d'extraction. Information, non un conseil - vérifiez toujours par rapport au document source.

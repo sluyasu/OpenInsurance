@@ -142,7 +142,7 @@ generated: true
 - [Complémentaire santé de la Branche de l'Aide, de l'Accompagnement des Soins et des Services à Domicile (Régime Général) ](../products/macif/Compl%C3%A9mentaire%20sant%C3%A9%20de%20la%20Branche%20de%20l%27Aide%2C%20de%20l%27Accompagnement%20des%20Soins%20et%20des%20Services%20%C3%A0%20Domicile%20%28R%C3%A9gime%20G%C3%A9n%C3%A9ral%29%20.md) - Fiche produit (01/2023) · réf. Santé Branche de l'Aide, de l'Accompagnement, des Soins et des Services à Domicile - Encart tarifaire RG - 01/2023
 - [Garantie Santé](../products/macif/Garantie%20Sant%C3%A9.md) - Conditions générales (2023-01) · réf. UNI/PREI/GS/05 01/23
 - [Garantie Santé Territoriaux - Fiche](../products/macif/Garantie%20Sant%C3%A9%20Territoriaux%20-%20Fiche.md) - Fiche produit (10.01.2022)
-- [MACIF HOSPITALISATION](../products/macif/MACIF%20HOSPITALISATION.md) - Conditions générales (01/24) · réf. U??? - UNI/PREI/MH/05 - 01/24
+- [MACIF HOSPITALISATION](../products/macif/MACIF%20HOSPITALISATION%20%282%29.md) - Conditions générales (01/24) · réf. U??? - UNI/PREI/MH/05 - 01/24
 - [Macif Hospitalisation](../products/macif/Macif%20Hospitalisation.md) - Conditions générales (01/26) · réf. U022 - UNI/PREI/MH/05 - 01/26
 - [Macif Mutuelle Entreprises](../products/macif/Macif%20Mutuelle%20Entreprises.md) - Conditions générales (2025-01) · réf. CG M M E - 01/25
 - [Macif Mutuelle Entreprises - Fiche](../products/macif/Macif%20Mutuelle%20Entreprises%20-%20Fiche.md) - Fiche produit (01/26) · réf. TG MME - 01/26

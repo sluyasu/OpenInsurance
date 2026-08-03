@@ -132,7 +132,7 @@ Dans le cadre de l'assistance au véhicule, en cas d'accident, vol, panne ou aut
 
 ## Documents liés
 
-- [P&V Auto - IPID](P%26V%20Auto%20-%20IPID%20%282%29.md) - IPID / Fiche d'information, éd. P08.2018
+- [P&V Auto (Moto) - IPID](P%26V%20Auto%20%28Moto%29%20-%20IPID.md) - IPID / Fiche d'information, éd. P08.2018
 
 ## Source & fidélité
 

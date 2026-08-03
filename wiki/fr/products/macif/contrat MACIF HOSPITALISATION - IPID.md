@@ -248,7 +248,7 @@ Service systématiquement prévu au contrat.
 
 ## Documents liés
 
-- [MACIF HOSPITALISATION](MACIF%20HOSPITALISATION.md) - Conditions générales, éd. 01/24
+- [MACIF HOSPITALISATION](MACIF%20HOSPITALISATION%20%282%29.md) - Conditions générales, éd. 01/24
 - [Macif Hospitalisation](Macif%20Hospitalisation.md) - Conditions générales, éd. 01/26
 
 ## Source & fidélité

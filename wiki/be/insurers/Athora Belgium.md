@@ -37,8 +37,8 @@ generated: true
 - [Junior Assistance](../products/athora/Junior%20Assistance.md) - Conditions générales (06/2020) · réf. 1F811
 - [Profilife - Fiche](../products/athora/Profilife%20-%20Fiche.md) - Fiche produit (1 janvier 2026) · réf. 310110200
 - [Profilife](../products/athora/Profilife.md) - Conditions générales (01/2026) · réf. 1F892
-- [Profilife Junior](../products/athora/Profilife%20Junior.md) - Conditions générales (01/2026) · réf. 1F807
-- [Profilife Junior](../products/athora/Profilife%20Junior%20%282%29.md) - Conditions générales (01/2026) · réf. 1F808
+- [Profilife Junior (100% Reserve)](../products/athora/Profilife%20Junior%20%28100%25%20Reserve%29.md) - Conditions générales (01/2026) · réf. 1F807
+- [Profilife Junior (Franchise)](../products/athora/Profilife%20Junior%20%28Franchise%29.md) - Conditions générales (01/2026) · réf. 1F808
 - [Safe Horizon 3 by Athora](../products/athora/Safe%20Horizon%203%20by%20Athora.md) - Conditions générales (09/2024) · réf. 1F897
 - [Safe Horizon 5 by Athora](../products/athora/Safe%20Horizon%205%20by%20Athora.md) - Conditions générales (09/2024) · réf. 1F898
 - [Self Life](../products/athora/Self%20Life.md) - Conditions générales (07/2020) · réf. 1F648A - 07/2020

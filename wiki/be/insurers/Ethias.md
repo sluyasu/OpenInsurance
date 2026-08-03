@@ -63,7 +63,7 @@ generated: true
 - [Assurance Familiale](../products/ethias/Assurance%20Familiale.md) - Conditions générales (2025-03) · réf. 1252-003 • 03/25
 
 ### [Voyage](../branches/Voyage.md)
-- [Assistance Voyage - IPID](../products/ethias/Assistance%20Voyage%20-%20IPID.md) - IPID / Fiche d'information (03/25) · réf. 1275-304/1
+- [Assistance Voyage (Police temporaire) - IPID](../products/ethias/Assistance%20Voyage%20%28Police%20temporaire%29%20-%20IPID.md) - IPID / Fiche d'information (03/25) · réf. 1275-304/1
 - [Assistance temporaire](../products/ethias/Assistance%20temporaire.md) - Conditions générales (03/25) · réf. 1275-304
 - [Assurance Assistance Family (Annuelle)](../products/ethias/Assurance%20Assistance%20Family%20%28Annuelle%29.md) - Conditions générales (03/25) · réf. 1275-013
 - [Assurance Assistance Family (annuelle) - IPID](../products/ethias/Assurance%20Assistance%20Family%20%28annuelle%29%20-%20IPID.md) - IPID / Fiche d'information (09/24) · réf. 1275-013/1

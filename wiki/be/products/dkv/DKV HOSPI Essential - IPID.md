@@ -213,7 +213,7 @@ AssurPharma : envoi automatisé à DKV des attestations par un pharmacien reconn
 
 ## Documents liés
 
-- [DKV Hospi Essential](DKV%20Hospi%20Essential.md) - Conditions générales, éd. 2025-08-01
+- [DKV Hospi Essential (92U & 92X)](DKV%20Hospi%20Essential%20%2892U%20%26%2092X%29.md) - Conditions générales, éd. 2025-08-01
 
 ## Source & fidélité
 

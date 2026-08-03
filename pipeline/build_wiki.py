@@ -13,6 +13,7 @@ from __future__ import annotations
 import argparse
 import re
 import sys
+import unicodedata
 from pathlib import Path
 
 from common import (WIKI, REPO, extracted_dir, read_json, write_if_changed,
@@ -22,6 +23,18 @@ import link
 
 
 MARKER_RE_TMPL = r"(<!-- BEGIN GENERATED: {name} -->)(.*?)(<!-- END GENERATED -->)"
+
+
+def fold_path(p: Path) -> str:
+    """A path reduced to what the filesystem treats as the same file.
+
+    Two page titles differing only in case, or only in Unicode composition, are ONE file
+    on macOS/APFS and on Windows, and the second write wins silently. Compare on the
+    folded form so the collision suffix fires. Kept deliberately stricter than the local
+    filesystem: on a case-sensitive Linux checkout this only adds a "(2)" that would
+    otherwise not be needed, and that is far cheaper than a page that exists on one
+    contributor's machine and not on another's."""
+    return unicodedata.normalize("NFC", str(p)).casefold()
 
 
 def fill_marker(page: Path, name: str, lines: list[str]) -> bool:
@@ -97,7 +110,7 @@ def main() -> int:
     # actually landed in. That is knowable only after collision suffixes are assigned,
     # hence a separate pass: rendering first would force links to guess between
     # "Assurance Auto.md" and "Assurance Auto (2).md".
-    seen: dict[Path, int] = {}
+    seen: set[str] = set()
     by_insurer: dict[str, list[dict]] = {}
     product_page: dict[int, Path] = {}      # id(obj) -> path
     branch_titles = {render.branch_label(country_meta, b)
@@ -126,11 +139,20 @@ def main() -> int:
         if title in branch_titles:
             title = f"{title} ({obj['insurer_name']})"
         path = prod_root / slug / f"{title}.md"
-        if path in seen:
-            seen[path] += 1
-            path = prod_root / slug / f"{title} ({seen[path]}).md"
-        else:
-            seen[path] = 1
+        # Collisions are detected on the FOLDED path, not the exact one, because the
+        # filesystem is what actually enforces uniqueness and macOS/APFS (like Windows)
+        # compares filenames case- and Unicode-normalisation-insensitively. Macif ships
+        # two different documents titled "MACIF HOSPITALISATION" and "Macif
+        # Hospitalisation"; Python saw two paths, the disk saw one, and the second write
+        # silently replaced the first. The only visible trace was 591 extractions
+        # producing 590 pages - a data loss that reads as an off-by-one.
+        # Every path produced is registered, including the suffixed ones, so a product
+        # genuinely named "X (2)" cannot collide with the disambiguator's output either.
+        n = 1
+        while fold_path(path) in seen:
+            n += 1
+            path = prod_root / slug / f"{title} ({n}).md"
+        seen.add(fold_path(path))
         product_page[id(obj)] = path
         expected.add(path)
 
@@ -199,11 +221,17 @@ def main() -> int:
         written += 1
 
     # --- remove stale generated pages (products/ + insurers/ only) ---
+    # Compare on the folded path for the same reason the collision check does: writing
+    # "Macif Hospitalisation.md" over an existing "MACIF HOSPITALISATION.md" keeps the
+    # OLD name on a case-insensitive filesystem, so the file this build just wrote came
+    # back from rglob under a spelling `expected` does not contain - and got deleted as
+    # stale. The page was rebuilt and destroyed on every single run.
+    expected_folded = {fold_path(p) for p in expected}
     removed = 0
     for folder in (prod_root, ins_root):
         if folder.is_dir():
             for md in folder.rglob("*.md"):
-                if md not in expected:
+                if fold_path(md) not in expected_folded:
                     md.unlink()
                     removed += 1
     # prune empty insurer product dirs

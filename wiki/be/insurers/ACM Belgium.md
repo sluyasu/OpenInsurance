@@ -36,8 +36,8 @@ generated: true
 - [Accidents Vie Privée](../products/acm/Accidents%20Vie%20Priv%C3%A9e.md) - Conditions générales (10/2024) · réf. 16 60 28
 
 ### [Auto](../branches/Auto.md)
+- [ACM INSURANCE ASSURANCE AUTO (auto-pros)](../products/acm/ACM%20INSURANCE%20ASSURANCE%20AUTO%20%28auto-pros%29.md) - Conditions générales (09/2025) · réf. 16.52.23
 - [ACM INSURANCE ASSURANCE AUTO](../products/acm/ACM%20INSURANCE%20ASSURANCE%20AUTO.md) - Conditions générales (09/2025) · réf. 16.52.23
-- [ACM INSURANCE ASSURANCE AUTO](../products/acm/ACM%20INSURANCE%20ASSURANCE%20AUTO%20%282%29.md) - Conditions générales (09/2025) · réf. 16.52.23
 - [ACM Insurance Assurance Auto - IPID](../products/acm/ACM%20Insurance%20Assurance%20Auto%20-%20IPID%20%282%29.md) - IPID / Fiche d'information (09/2025) · réf. I.BE.A15.4R-09/2025
 - [ACM Insurance Assurance Auto - IPID](../products/acm/ACM%20Insurance%20Assurance%20Auto%20-%20IPID.md) - IPID / Fiche d'information (09/2025) · réf. I.BE.A15.4R-09/2025
 - [Moto Serenity - IPID](../products/acm/Moto%20Serenity%20-%20IPID.md) - IPID / Fiche d'information (10/2024) · réf. I.BE.A15.2R-10/2024

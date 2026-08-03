@@ -249,7 +249,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Complémentaire santé de la Branche de l'Aide, de l'Accompagnement des Soins et des Services à Domicile (Régime Général) ](../products/macif/Compl%C3%A9mentaire%20sant%C3%A9%20de%20la%20Branche%20de%20l%27Aide%2C%20de%20l%27Accompagnement%20des%20Soins%20et%20des%20Services%20%C3%A0%20Domicile%20%28R%C3%A9gime%20G%C3%A9n%C3%A9ral%29%20.md) - [Macif](../insurers/Macif.md)
 - [Garantie Santé](../products/macif/Garantie%20Sant%C3%A9.md) - [Macif](../insurers/Macif.md)
 - [Garantie Santé Territoriaux - Fiche](../products/macif/Garantie%20Sant%C3%A9%20Territoriaux%20-%20Fiche.md) - [Macif](../insurers/Macif.md)
-- [MACIF HOSPITALISATION](../products/macif/MACIF%20HOSPITALISATION.md) - [Macif](../insurers/Macif.md)
+- [MACIF HOSPITALISATION](../products/macif/MACIF%20HOSPITALISATION%20%282%29.md) - [Macif](../insurers/Macif.md)
 - [Macif Hospitalisation](../products/macif/Macif%20Hospitalisation.md) - [Macif](../insurers/Macif.md)
 - [Macif Mutuelle Entreprises](../products/macif/Macif%20Mutuelle%20Entreprises.md) - [Macif](../insurers/Macif.md)
 - [Macif Mutuelle Entreprises - Fiche](../products/macif/Macif%20Mutuelle%20Entreprises%20-%20Fiche.md) - [Macif](../insurers/Macif.md)

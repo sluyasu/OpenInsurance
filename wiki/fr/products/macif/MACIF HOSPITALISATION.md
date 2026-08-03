@@ -690,7 +690,7 @@ La prescription est le délai au-delà duquel une action n'est plus recevable. L
 
 - Édition courante de ce produit.
 - [contrat MACIF HOSPITALISATION - IPID](contrat%20MACIF%20HOSPITALISATION%20-%20IPID.md) - IPID / Fiche d'information, éd. 10/22
-- [MACIF HOSPITALISATION](MACIF%20HOSPITALISATION.md) - Conditions générales, éd. 01/24
+- [MACIF HOSPITALISATION](MACIF%20HOSPITALISATION%20%282%29.md) - Conditions générales, éd. 01/24
 
 ## Source & fidélité
 
