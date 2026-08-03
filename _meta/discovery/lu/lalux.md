@@ -482,3 +482,41 @@ continuation de « Was ist nicht versichert ? » imprimé au-dessus de son propr
 C'est la variante luxembourgeoise du défaut d'inversion français, et elle se résout de la même façon :
 au rendu et à la position, jamais au flux. Un élément y lisait comme une garantie tout en portant une
 croix rouge.
+
+## La seule raison sociale complète du document est celle de quelqu'un d'autre (mesuré 2026-08-03)
+
+Mesure faite sur le texte des quatre-vingt-dix PDF, pas sur les extractions — donc reproductible
+sans passer par un modèle.
+
+| Ce que le document imprime | Documents |
+|---|---|
+| Dénomination du porteur (« LA LUXEMBOURGEOISE Société Anonyme d'Assurances ») | **4** |
+| Numéro / mention `R.C.S. LUXEMBOURG` | **4** |
+| **Porteur identifiable** (l'un ou l'autre) | **4 sur 90, soit 4 %** |
+| Un **tiers** nommé avec sa forme juridique | **12** |
+| … dont aucun ne nomme le porteur ailleurs | **12 sur 12** |
+
+Deux choses à en retenir.
+
+**Les quatre sont les mêmes quatre.** Les documents qui impriment la dénomination sont exactement
+ceux qui impriment le R.C.S., et ce sont exactement les quatre vraies conditions générales du lot.
+L'identification du porteur ne dépend donc pas de la diligence du rédacteur : elle dépend du **type
+de document**. Un IPID ne nomme pas son assureur, jamais.
+
+**Le piège est actif, pas passif.** Douze documents contiennent bel et bien une raison sociale
+complète — « Willis Towers Watson Luxembourg S.A. réceptionne les déclarations de sinistre »,
+et sa variante allemande « … nimmt die Schadensmeldungen entgegen ». C'est le gestionnaire de
+sinistres. Aucun de ces douze ne nomme le porteur ailleurs dans le document.
+
+Conséquence pour l'extraction : une heuristique de la forme « cherche un nom suivi d'une forme
+juridique » ne renvoie pas *rien* sur ces douze documents, elle renvoie **le mauvais nom**, avec
+l'apparence de la précision. C'est pire qu'un `null`. La règle reste celle du projet — lire qui
+**porte le risque**, et non qui est nommé — et `carrier: null` est la lecture exacte dans 86 cas
+sur 90.
+
+### Note de méthode
+
+Une première version de cette mesure cherchait `S.A.` par expression régulière et trouvait 65
+documents sur 90. Le motif attrapait « **sa** survenance », « **sa** prestation », « **sa** charge » :
+du français ordinaire. Chiffre faux, jeté. Sur un corpus francophone, `\bS\.?A\.?\b` n'est pas un
+détecteur de forme juridique.

@@ -5,7 +5,7 @@ country: lu
 insurer_slug: lalux
 name: lalux
 website: ''
-products_count: 35
+products_count: 42
 branches_covered:
 - accidents
 - auto
@@ -33,21 +33,28 @@ generated: true
 
 ## Résumé
 
-**lalux**. 35 document(s) across 11 branch(es).
+**lalux**. 42 document(s) across 11 branch(es).
 
 ## Produits par branche
 
 ### [Assurance accidents](../branches/Assurance%20accidents.md)
 - [easyPROTECT PRO – Company accident insurance - IPID - EN](../products/lalux/easyPROTECT%20PRO%20%E2%80%93%20Company%20accident%20insurance%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+- [easyPROTECT PRO – Unfallversicherung für Betriebspersonal (Unfallversicherung für Betriebspersonal - Betriebsunfall) - I](../products/lalux/easyPROTECT%20PRO%20%E2%80%93%20Unfallversicherung%20f%C3%BCr%20Betriebspersonal%20%28Unfallversicherung%20f%C3%BCr%20Betriebspersonal%20-%20Betriebsunfall%29%20-%20I.md) - IPID / Fiche d'information
+- [easyPROTECT-Accident - IPID](../products/lalux/easyPROTECT-Accident%20-%20IPID.md) - IPID / Fiche d'information
+- [easyPROTECT-Accident - IPID - EN](../products/lalux/easyPROTECT-Accident%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 - [easyPROTECT-Unfall - IPID - DE](../products/lalux/easyPROTECT-Unfall%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
 
 ### [Assurance auto](../branches/Assurance%20auto.md)
 - [easyPROTECT PRO-Auto (Vehicles other than cars and motorhomes) - IPID - EN](../products/lalux/easyPROTECT%20PRO-Auto%20%28Vehicles%20other%20than%20cars%20and%20motorhomes%29%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 - [easyPROTECT PRO-Auto (cars and motorhomes vehicle types) - IPID - EN](../products/lalux/easyPROTECT%20PRO-Auto%20%28cars%20and%20motorhomes%20vehicle%20types%29%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+- [easyPROTECT PRO-Auto (Andere Fahrzeuge als PKW und Wohnmobile) - IPID - DE](../products/lalux/easyPROTECT%20PRO-Auto%20%28Andere%20Fahrzeuge%20als%20PKW%20und%20Wohnmobile%29%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
 - [easyPROTECT-Auto (PKWs und Wohnmobile) - IPID - DE](../products/lalux/easyPROTECT-Auto%20%28PKWs%20und%20Wohnmobile%29%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
 - [easyPROTECT-Auto (Véhicules autres que voitures ou camping cars) - IPID](../products/lalux/easyPROTECT-Auto%20%28V%C3%A9hicules%20autres%20que%20voitures%20ou%20camping%20cars%29%20-%20IPID.md) - IPID / Fiche d'information
 - [easyPROTECT-Auto (Voitures et camping cars) - IPID](../products/lalux/easyPROTECT-Auto%20%28Voitures%20et%20camping%20cars%29%20-%20IPID.md) - IPID / Fiche d'information
+- [easyPROTECT-Auto - IPID - EN](../products/lalux/easyPROTECT-Auto%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+- [easyPROTECT-Auto (Andere Fahrzeuge als PKW und Wohnmobile) - IPID - DE](../products/lalux/easyPROTECT-Auto%20%28Andere%20Fahrzeuge%20als%20PKW%20und%20Wohnmobile%29%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
 - [easyPROTECT-Auto (Vehicles other than cars and motorhomes) - IPID - EN](../products/lalux/easyPROTECT-Auto%20%28Vehicles%20other%20than%20cars%20and%20motorhomes%29%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+- [easyPROTECT-PRO - Auto (Auto — Véhicules de type voiture ou camping car) - IPID](../products/lalux/easyPROTECT-PRO%20-%20Auto%20%28Auto%20%E2%80%94%20V%C3%A9hicules%20de%20type%20voiture%20ou%20camping%20car%29%20-%20IPID.md) - IPID / Fiche d'information
 
 ### [Autres](../branches/Autres.md)
 - [Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance (VISA INFINITE) - IPID](../products/lalux/Assurance%20Cartes%20de%20cr%C3%A9dit%20SPUERKEESS%20%E2%80%93%20Assistance%20et%20hors%20Assistance%20%28VISA%20INFINITE%29%20-%20IPID.md) - IPID / Fiche d'information

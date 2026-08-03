@@ -1,0 +1,586 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "lu",
+  "insurer_slug": "lalux",
+  "insurer_name": "lalux",
+  "product_name": "easyPROTECT-Accident",
+  "branch": "accidents",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "Le document ne nomme aucun segment de clientèle. Il décrit le produit comme « une assurance de personne qui permet de vous couvrir, vous et votre famille, contre les accidents survenus lors de vos loisirs et des activités quotidiennes de votre vie privée et professionnelle » et précise que « Deux formules (Confort et Performance) se déclinent suivant la composition de votre famille (solo, duo, famille avec ou sans enfant) ». Les accidents professionnels ne sont couverts qu'« en complément ».",
+  "reference": null,
+  "edition_date": null,
+  "product_family": "easyPROTECT-Accident",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_assurance-accident_lalux_easyprotect-accident_fr.pdf",
+  "source_pdf": "69394kb-483c805d.pdf",
+  "source_sha256": "8c99798adbccfed3feddb263bdb33d4f0e9d24f64730736645a20a393800840b",
+  "source_pages": 2,
+  "fetched_at": "2026-08-02",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d'information sur le produit d'assurance (DIPA) relatif à easyPROTECT-Accident, une assurance de personne couvrant l'assuré et sa famille contre les accidents de la vie privée, du trajet vers et du lieu de travail et de la pratique sportive. Le produit se décline en deux formules : Confort (indemnisation forfaitaire : décès, invalidité, remboursement des frais médicaux) et Performance (indemnisation selon le droit commun luxembourgeois : décès et lésions corporelles). Les accidents survenus dans l'exercice de la profession peuvent être couverts en complément, et une garantie optionnelle d'assistance à domicile est proposée dans les deux formules. Les garanties valent dans toute l'Europe et, par extension, dans le monde entier pour les séjours hors Europe n'excédant pas trois mois.",
+  "definitions": [
+    {
+      "term": "Accident",
+      "definition": "événement indépendant de la volonté de l'assuré qui agit soudainement et violemment sur le corps de l'assuré",
+      "page": 1
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Contexte des accidents couverts",
+      "description": "Accidents (événement indépendant de la volonté de l'assuré qui agit soudainement et violemment sur le corps de l'assuré) dont l'assuré est victime : au cours de sa vie privée ; pendant le trajet vers et de son lieu de travail ; pendant la pratique d'un sport, y compris la pratique occasionnelle et encadrée de sports extrêmes.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties sont valables dans toute l'Europe, et par extension dans le monde entier (séjours hors Europe ne dépassant pas une durée de trois mois).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Au cours de sa vie privée",
+        "Pendant le trajet vers et de son lieu de travail",
+        "Pendant la pratique d'un sport, y compris la pratique occasionnelle et encadrée de sports extrêmes"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Accidents survenus dans l'exercice de la profession",
+      "description": "Les accidents dont l'assuré est victime dans l'exercice de sa profession peuvent être couverts en complément.",
+      "is_optional": true,
+      "territorial_scope": "Les garanties sont valables dans toute l'Europe, et par extension dans le monde entier (séjours hors Europe ne dépassant pas une durée de trois mois).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Couverture accordée « en complément » du contexte de base"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Décès (FORMULE CONFORT - FORFAITAIRE)",
+      "description": "Si l'assuré décède des suites d'un accident garanti. Capital librement fixé par le preneur.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties sont valables dans toute l'Europe, et par extension dans le monde entier (séjours hors Europe ne dépassant pas une durée de trois mois).",
+      "limits": "Capital librement fixé par le preneur.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Les garanties suivantes sont accordées par accident",
+        "Couvert s'il intervient dans un délai de 2 ans maximum après la survenance de l'accident."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Invalidité (FORMULE CONFORT - FORFAITAIRE)",
+      "description": "Si l'assuré est atteint d'une invalidité permanente à la suite d'un accident garanti. Indemnité calculée en fonction du taux d'invalidité appliqué à la somme assurée définie par le preneur.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties sont valables dans toute l'Europe, et par extension dans le monde entier (séjours hors Europe ne dépassant pas une durée de trois mois).",
+      "limits": "Indemnité calculée en fonction du taux d'invalidité appliqué à la somme assurée définie par le preneur.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Les garanties suivantes sont accordées par accident",
+        "Le degré d'invalidité permanente doit être de 3% au minimum."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Remboursement des frais médicaux (FORMULE CONFORT - FORFAITAIRE)",
+      "description": "Remboursement de frais médicaux tels que frais de médecin, d'hospitalisation ou frais pharmaceutiques.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties sont valables dans toute l'Europe, et par extension dans le monde entier (séjours hors Europe ne dépassant pas une durée de trois mois).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Les garanties suivantes sont accordées par accident",
+        "Remboursable pendant max. 2 ans après l'accident."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Décès (FORMULE PERFORMANCE - INDEMNITAIRE)",
+      "description": "Couverture de la perte économique subie par la famille de l'assuré. Dédommagement des bénéficiaires en cas de préjudice moral.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties sont valables dans toute l'Europe, et par extension dans le monde entier (séjours hors Europe ne dépassant pas une durée de trois mois).",
+      "limits": null,
+      "sub_limits": [
+        "Couverture de la perte économique subie par la famille de l'assuré",
+        "Dédommagement des bénéficiaires en cas de préjudice moral."
+      ],
+      "deductible": null,
+      "conditions": [
+        "Couvert s'il intervient dans un délai de 2 ans maximum après la survenance de l'accident."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Lésions corporelles (FORMULE PERFORMANCE - INDEMNITAIRE)",
+      "description": "Préjudice physiologique et frais de traitement ; indemnisation du préjudice corporel selon les règles habituelles du droit commun luxembourgeois ; couverture de la perte économique ; dédommagement pour le préjudice esthétique (p.ex. cicatrices) ; couverture du préjudice d'agrément (privation des activités sportives).",
+      "is_optional": false,
+      "territorial_scope": "Les garanties sont valables dans toute l'Europe, et par extension dans le monde entier (séjours hors Europe ne dépassant pas une durée de trois mois).",
+      "limits": "Indemnisation du préjudice corporel selon les règles habituelles du droit commun luxembourgeois",
+      "sub_limits": [
+        "Préjudice physiologique et frais de traitement",
+        "Indemnisation du préjudice corporel selon les règles habituelles du droit commun luxembourgeois",
+        "Couverture de la perte économique",
+        "Dédommagement pour le préjudice esthétique (p.ex. cicatrices)",
+        "Couverture du préjudice d'agrément (privation des activités sportives)"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Le degré d'invalidité permanente doit être de 3% au minimum."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance à domicile (garantie optionnelle - Confort et Performance)",
+      "description": "Service d'aide ménagère (repassage, ménage, préparation des repas) ; service de garde malade au domicile de l'assuré ; service de garde enfants (p.ex. accompagnement à l'école) ; service de rattrapage scolaire ; soutien psychologique pour l'assuré et sa famille, etc.",
+      "is_optional": true,
+      "territorial_scope": "Les garanties sont valables dans toute l'Europe, et par extension dans le monde entier (séjours hors Europe ne dépassant pas une durée de trois mois).",
+      "limits": null,
+      "sub_limits": [
+        "Service d'aide ménagère (repassage, ménage, préparation des repas)",
+        "Service de garde malade au domicile de l'assuré",
+        "Service de garde enfants (p.ex. accompagnement à l'école)",
+        "Service de rattrapage scolaire",
+        "Soutien psychologique pour l'assuré et sa famille, etc."
+      ],
+      "deductible": null,
+      "conditions": [
+        "La prise en charge des frais se fait en complément des remboursements obtenus par les organismes de prévoyance.",
+        "La durée d'hospitalisation doit dépasser 2 jours et celle de l'immobilisation au domicile doit dépasser 4 jours pour pouvoir bénéficier de la garantie.",
+        "Présenter des justifications ou un certificat médical pour recevoir l'assistance à domicile."
+      ],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Suicide / tentative de suicide",
+      "description": "Exclusions sans dérogation possible - Accidents survenus à l'assuré du fait : d'un suicide/tentative de suicide.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "État d'ivresse / intoxication par des produits hallucinogènes",
+      "description": "Exclusions sans dérogation possible - Accidents survenus à l'assuré du fait : de son état d'ivresse/d'intoxication par des produits hallucinogènes.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Pratique de sports à titre professionnel",
+      "description": "Exclusions sans dérogation possible - Accidents survenus à l'assuré du fait : de la pratique de sports à titre professionnel.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Seuil minimum d'invalidité permanente de 3%",
+      "description": "Le degré d'invalidité permanente doit être de 3% au minimum. (Imprimé dans l'encadré « Y a-t-il des exclusions à la couverture ? » sous l'intitulé « Responsabilité ».)",
+      "applies_to": "Invalidité",
+      "page": 1
+    },
+    {
+      "name": "Usage et conduite de motocycles légers, motocycles et quadricycles",
+      "description": "Exclusions, sauf convention contraire : Usage et conduite de motocycles légers, motocycles et quadricycles.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Participation à des courses et compétitions avec véhicules automoteurs",
+      "description": "Exclusions, sauf convention contraire : Participation en tant que concurrent à des courses et compétitions lorsqu'il est fait usage de véhicules automoteurs.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Restriction générale - ceinture de sécurité non portée (véhicule terrestre)",
+      "description": "Restrictions générales : En cas d'accident en tant que conducteur ou passager d'un véhicule terrestre : la prestation due peut être réduite d'un tiers si la ceinture de sécurité n'est pas portée.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Restriction générale - absence de port du casque (motocycle)",
+      "description": "Restrictions générales : En cas d'accident en tant que conducteur ou passager d'un motocycle : la prestation due peut être réduite d'un tiers en cas d'absence de port de casque.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Restriction générale - pratique régulière d'un sport extrême en amateur",
+      "description": "Restrictions générales : Pratique régulière d'un sport extrême en tant qu'amateur : indemnités réduites de ½.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Décès survenu plus de 2 ans après l'accident",
+      "description": "Décès : Couvert s'il intervient dans un délai de 2 ans maximum après la survenance de l'accident.",
+      "applies_to": "Décès",
+      "page": 1
+    },
+    {
+      "name": "Frais médicaux exposés plus de 2 ans après l'accident",
+      "description": "Frais médicaux : Remboursable pendant max. 2 ans après l'accident.",
+      "applies_to": "Remboursement des frais médicaux",
+      "page": 1
+    },
+    {
+      "name": "Assistance à domicile - intervention seulement en complément des organismes de prévoyance",
+      "description": "Assistance à domicile : La prise en charge des frais se fait en complément des remboursements obtenus par les organismes de prévoyance.",
+      "applies_to": "Assistance à domicile",
+      "page": 1
+    },
+    {
+      "name": "Assistance à domicile - durées minimales d'hospitalisation et d'immobilisation",
+      "description": "Assistance à domicile : La durée d'hospitalisation doit dépasser 2 jours et celle de l'immobilisation au domicile doit dépasser 4 jours pour pouvoir bénéficier de la garantie.",
+      "applies_to": "Assistance à domicile",
+      "page": 1
+    }
+  ],
+  "deductibles": null,
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Description du risque",
+      "description": "Faire une description aussi complète et précise que possible du risque à assurer, sans fausse déclaration ou omissions.",
+      "timing": "A la souscription",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Déclaration de l'aggravation du risque",
+      "description": "Déclarer à la compagnie toute circonstance nouvelle qui peut aggraver le risque ou en créer de nouveaux.",
+      "timing": "En cours de contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Modification des données du contrat",
+      "description": "Avertir la compagnie de toute modification des données reprises au contrat, en particulier en cas de changement d'adresse ou de changement de compte bancaire.",
+      "timing": "En cours de contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Paiement des primes",
+      "description": "Payer vos primes d'assurances en respectant les délais stipulés sur votre contrat.",
+      "timing": "En cours de contrat",
+      "sanction": "En cas de non paiement, la compagnie peut suspendre des garanties ou annuler le contrat.",
+      "page": 2
+    },
+    {
+      "name": "Soins immédiats au blessé",
+      "description": "Prendre immédiatement tous les soins nécessaires en vue de la conservation de la vie et le rétablissement du blessé.",
+      "timing": "En cas de sinistre",
+      "sanction": "L'aggravation des conséquences de l'accident par suite du retard dans le traitement médical n'est pas à la charge de la Compagnie.",
+      "page": 2
+    },
+    {
+      "name": "Déclaration du sinistre et accord préalable",
+      "description": "Déclarer tout sinistre dans les 8 jours de sa survenance et obtenir l'accord de la compagnie avant toute action engageant son intervention.",
+      "timing": "En cas de sinistre - dans les 8 jours de sa survenance",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Transmission des pièces",
+      "description": "Transmettre tous les éléments demandés par la compagnie nécessaires au règlement du sinistre. Les procès verbaux, constats d'accident et autres documents officiels sont à transmettre dans les plus brefs délais.",
+      "timing": "En cas de sinistre - dans les plus brefs délais",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Information sur les maladies ou états maladifs préexistants",
+      "description": "Avant la conclusion du contrat, informer la Compagnie de maladies ou états maladifs préexistants.",
+      "timing": "Spécificités par garantie : Décès, Invalidité et frais médicaux - avant la conclusion du contrat",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Certificat médical",
+      "description": "Transmettre un certificat médical à la Compagnie indiquant la nature des blessures ou lésions, leur cause et leurs conséquences probables.",
+      "timing": "Spécificités par garantie : Décès, Invalidité et frais médicaux",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Certificat de guérison ou de consolidation",
+      "description": "Transmettre un certificat de guérison ou de consolidation spécifiant les durées respectives d'incapacité totale ou partielle.",
+      "timing": "Spécificités par garantie : Décès, Invalidité et frais médicaux",
+      "sanction": null,
+      "page": 2
+    },
+    {
+      "name": "Justificatifs pour l'assistance à domicile",
+      "description": "Présenter des justifications ou un certificat médical pour recevoir l'assistance à domicile.",
+      "timing": "Spécificités par garantie : Assistance à domicile",
+      "sanction": null,
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Prendre les soins nécessaires",
+      "description": "Prendre immédiatement tous les soins nécessaires en vue de la conservation de la vie et le rétablissement du blessé. L'aggravation des conséquences de l'accident par suite du retard dans le traitement médical n'est pas à la charge de la Compagnie.",
+      "deadline": "immédiatement",
+      "page": 2
+    },
+    {
+      "step": "Déclarer le sinistre",
+      "description": "Déclarer tout sinistre dans les 8 jours de sa survenance et obtenir l'accord de la compagnie avant toute action engageant son intervention.",
+      "deadline": "dans les 8 jours de sa survenance",
+      "page": 2
+    },
+    {
+      "step": "Transmettre les éléments du dossier",
+      "description": "Transmettre tous les éléments demandés par la compagnie nécessaires au règlement du sinistre. Les procès verbaux, constats d'accident et autres documents officiels sont à transmettre dans les plus brefs délais.",
+      "deadline": "dans les plus brefs délais",
+      "page": 2
+    },
+    {
+      "step": "Transmettre le certificat médical (Décès, Invalidité et frais médicaux)",
+      "description": "Transmettre un certificat médical à la Compagnie indiquant la nature des blessures ou lésions, leur cause et leurs conséquences probables.",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Transmettre le certificat de guérison ou de consolidation (Décès, Invalidité et frais médicaux)",
+      "description": "Transmettre un certificat de guérison ou de consolidation spécifiant les durées respectives d'incapacité totale ou partielle.",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Justifier la demande d'assistance à domicile",
+      "description": "Présenter des justifications ou un certificat médical pour recevoir l'assistance à domicile.",
+      "deadline": null,
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le début (date d'effet) et l'expiration du contrat sont mentionnés aux Conditions Particulières.",
+    "tacit_renewal": true,
+    "notice_period": "30 jours avant la date d'échéance annuelle du contrat (résiliation par le client) ; 60 jours avant la date d'échéance annuelle du contrat (notification de la compagnie).",
+    "methods": [
+      "Envoi de lettre recommandée adressée à la Compagnie"
+    ],
+    "special_rights": [
+      "Résiliation par le client dans le mois suivant la résiliation d'une garantie ou d'un autre contrat par la compagnie après sinistre",
+      "Résiliation par le client dans les 60 jours après une augmentation de tarif notifiée par la compagnie",
+      "La compagnie peut résilier le contrat après sinistre, en cas de fraude, en cas de défaut de paiement, ou suivant notification 60 jours avant la date d'échéance annuelle du contrat"
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "Le montant indiqué sur l'avis d'échéance annuel est payable le premier jour du mois de l'échéance",
+      "Une mensualisation est possible par domiciliation bancaire, sans frais supplémentaires"
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Avertissement liminaire (DIPA non personnalisé)",
+      "description": "Avertissement: le présent document n'est pas personnalisé en fonction de vos besoins spécifiques et les informations et obligations prévues dans le présent document ne sont pas exhaustives. Pour toute information complète quant aux droits et obligations de l'entreprise d'assurances et de l'assuré, veuillez consulter les conditions générales et/ou particulières relatives au produit d'assurance choisi.",
+      "page": 1
+    },
+    {
+      "name": "Deux formules déclinées selon la composition familiale",
+      "description": "Deux formules (Confort et Performance) se déclinent suivant la composition de votre famille (solo, duo, famille avec ou sans enfant) pour être au plus près de vos besoins.",
+      "page": 1
+    },
+    {
+      "name": "Listes non exhaustives",
+      "description": "La mention « Liste non exhaustive » est imprimée au pied de l'encadré « Qu'est-ce qui n'est pas assuré ? » et au pied de l'encadré « Y a-t-il des exclusions à la couverture ? ».",
+      "page": 1
+    },
+    {
+      "name": "Base d'indemnisation des deux formules",
+      "description": "La formule CONFORT est qualifiée de « FORFAITAIRE » et les garanties y sont « accordées par accident » ; la formule PERFORMANCE est qualifiée d'« INDEMNITAIRE » et indemnise le préjudice corporel « selon les règles habituelles du droit commun luxembourgeois ».",
+      "page": 1
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "easyPROTECT Accident est une assurance de personne qui permet de vous couvrir, vous et votre famille, contre les accidents survenus lors de \nvos loisirs et des activités quotidiennes de votre vie privée et professionnelle. Deux formules (Confort et Performance) se déclinent suivant la \ncomposition de votre famille (solo, duo, famille avec ou sans enfant) pour être au plus près de vos besoins.",
+      "context": "Définition du produit (De quel type d'assurance s'agit-il ?)",
+      "page": 1
+    },
+    {
+      "quote": "Accidents (événement indépendant de la volonté de l’assuré qui agit \nsoudainement et violemment sur le corps de l’assuré) dont l’assuré est",
+      "context": "Définition de l'accident couvert (Contexte)",
+      "page": 1
+    },
+    {
+      "quote": "Au cours de sa vie privée\n\t Pendant le trajet vers et de son lieu de travail \n\t Pendant la pratique d’un sport, y compris la pratique occasionnelle et \nencadrée de sports extrêmes",
+      "context": "Contextes couverts (Qu'est-ce qui est assuré ?)",
+      "page": 1
+    },
+    {
+      "quote": "Les accidents dont l’assuré est victime dans l’exercice de sa profession \npeuvent être couverts en complément.",
+      "context": "Extension aux accidents professionnels",
+      "page": 1
+    },
+    {
+      "quote": "FORMULE CONFORT (FORFAITAIRE)\nLes garanties suivantes sont accordées par accident :",
+      "context": "Formule Confort - base forfaitaire",
+      "page": 1
+    },
+    {
+      "quote": "Si l’assuré décède des suites d’un accident garanti\n\t Capital librement fixé par le preneur.",
+      "context": "Garantie Décès - formule Confort",
+      "page": 1
+    },
+    {
+      "quote": "Si l’assuré est atteint d’une invalidité permanente à la suite d’un \naccident garanti\n\t Indemnité calculée en fonction du taux d’invalidité appliqué à la \nsomme assurée définie par le preneur.",
+      "context": "Garantie Invalidité - formule Confort",
+      "page": 1
+    },
+    {
+      "quote": "Remboursement de frais médicaux tels que frais de médecin, \nd’hospitalisation ou frais pharmaceutiques",
+      "context": "Garantie Remboursement des frais médicaux - formule Confort",
+      "page": 1
+    },
+    {
+      "quote": "Couverture de la perte économique subie par la famille de l’assuré\n\t Dédommagement des bénéficiaires en cas de préjudice moral.",
+      "context": "Garantie Décès - formule Performance",
+      "page": 1
+    },
+    {
+      "quote": "Préjudice physiologique et frais de traitement\n\t Indemnisation du préjudice corporel selon les règles habituelles du \ndroit commun luxembourgeois\n\t Couverture de la perte économique \n\t Dédommagement pour le préjudice esthétique (p.ex. cicatrices)\n\t Couverture du préjudice d’agrément (privation des activités \nsportives)",
+      "context": "Garantie Lésions corporelles - formule Performance",
+      "page": 1
+    },
+    {
+      "quote": "Service d’aide ménagère (repassage, ménage, préparation des repas)\n\t Service de garde malade au domicile de l’assuré\n\t Service de garde enfants (p.ex. accompagnement à l’école)\n\t Service de rattrapage scolaire\n\t Soutien psychologique pour l’assuré et sa famille, etc.",
+      "context": "Garantie optionnelle Assistance à domicile",
+      "page": 1
+    },
+    {
+      "quote": "Exclusions sans dérogation possible \nAccidents survenus à l’assuré du fait :\n\t d’un suicide/tentative de suicide\n\t de son état d’ivresse/d’intoxication par des produits hallucinogènes\n\t de la pratique de sports à titre professionnel",
+      "context": "Exclusions sans dérogation possible (Qu'est-ce qui n'est pas assuré ?)",
+      "page": 1
+    },
+    {
+      "quote": "Le degré d’invalidité permanente doit être de 3% au minimum.",
+      "context": "Seuil d'invalidité, imprimé sous l'intitulé « Responsabilité »",
+      "page": 1
+    },
+    {
+      "quote": "Exclusions, sauf convention contraire :\n\t Usage et conduite de motocycles légers, motocycles et quadricycles\n\t Participation en tant que concurrent à des courses et compétitions \nlorsqu’il est fait usage de véhicules automoteurs",
+      "context": "Exclusions sauf convention contraire",
+      "page": 1
+    },
+    {
+      "quote": "En cas d’accident en tant que conducteur ou passager \n-\t d’un véhicule terrestre : la prestation due peut être réduite d’un \ntiers si la ceinture de sécurité n’est pas portée\n-\t d’un motocycle : la prestation due peut être réduite d’un tiers en \ncas d’absence de port de casque",
+      "context": "Restrictions générales - réductions de prestation",
+      "page": 1
+    },
+    {
+      "quote": "Pratique régulière d’un sport extrême en tant qu’amateur :  \nindemnités réduites de ½",
+      "context": "Restriction - sport extrême pratiqué régulièrement",
+      "page": 1
+    },
+    {
+      "quote": "Couvert s’il intervient dans un délai de 2 ans maximum après la \nsurvenance de l’accident.",
+      "context": "Restriction de la garantie Décès",
+      "page": 1
+    },
+    {
+      "quote": "Remboursable pendant max. 2 ans après l’accident.",
+      "context": "Restriction de la garantie Frais médicaux",
+      "page": 1
+    },
+    {
+      "quote": "La prise en charge des frais se fait en complément des \nremboursements obtenus par les organismes de prévoyance.",
+      "context": "Restriction de l'Assistance à domicile - intervention complémentaire",
+      "page": 1
+    },
+    {
+      "quote": "La durée d’hospitalisation doit dépasser 2 jours et celle de \nl’immobilisation au domicile doit dépasser 4 jours pour pouvoir \nbénéficier de la garantie.",
+      "context": "Seuils d'accès à l'Assistance à domicile",
+      "page": 1
+    },
+    {
+      "quote": "Avertissement: le présent document n’est pas personnalisé en fonction de vos besoins spécifiques et les informations et \nobligations prévues dans le présent document ne sont pas exhaustives. Pour toute information complète quant aux droits et \nobligations de l’entreprise d’assurances et de l’assuré, veuillez consulter les conditions générales et/ou particulières relatives au \nproduit d’assurance choisi.",
+      "context": "Avertissement liminaire du DIPA",
+      "page": 1
+    },
+    {
+      "quote": "Les garanties sont valables dans toute l’Europe, et par extension dans le monde entier (séjours hors Europe ne dépassant pas \nune durée de trois mois).",
+      "context": "Étendue territoriale (Où suis-je couvert(e) ?)",
+      "page": 2
+    },
+    {
+      "quote": "Faire une description aussi complète et précise que possible du risque à assurer, sans fausse déclaration ou omissions.",
+      "context": "Obligation à la souscription",
+      "page": 2
+    },
+    {
+      "quote": "Déclarer tout sinistre dans les 8 jours de sa survenance et obtenir l’accord de la compagnie avant toute action engageant \nson intervention",
+      "context": "Délai de déclaration de sinistre",
+      "page": 2
+    },
+    {
+      "quote": "Prendre immédiatement tous les soins nécessaires en vue de la conservation de la vie et le rétablissement du blessé. \nL’aggravation des conséquences de l’accident par suite du retard dans le traitement médical n’est pas à la charge de la \nCompagnie",
+      "context": "Obligation de soins immédiats et sanction",
+      "page": 2
+    },
+    {
+      "quote": "Payer vos primes d’assurances en respectant les délais stipulés sur votre contrat. En cas de non paiement, la compagnie peut \nsuspendre des garanties ou annuler le contrat.",
+      "context": "Obligation de paiement des primes et sanction",
+      "page": 2
+    },
+    {
+      "quote": "Avant la conclusion du contrat, informer la Compagnie de maladies ou états maladifs préexistants",
+      "context": "Obligation de déclaration des états maladifs préexistants",
+      "page": 2
+    },
+    {
+      "quote": "Le montant indiqué sur l’avis d’échéance annuel est payable le premier jour du mois de l’échéance",
+      "context": "Modalités de paiement de la prime",
+      "page": 2
+    },
+    {
+      "quote": "Une mensualisation est possible par domiciliation bancaire, sans frais supplémentaires",
+      "context": "Mensualisation de la prime",
+      "page": 2
+    },
+    {
+      "quote": "Le contrat se prolonge d’année en année sauf résiliation par le client ou la compagnie (reconduction tacite)",
+      "context": "Reconduction tacite",
+      "page": 2
+    },
+    {
+      "quote": "La résiliation est à demander par envoi de lettre recommandée adressée à la Compagnie 30 jours avant la date d’échéance \nannuelle du contrat, dans le mois suivant la résiliation d’une garantie ou d’un autre contrat par la compagnie après sinistre ou \ndans les 60 jours après une augmentation de tarif notifiée par la compagnie.",
+      "context": "Résiliation par le preneur",
+      "page": 2
+    },
+    {
+      "quote": "La compagnie peut résilier le contrat après sinistre, en cas de fraude, en cas de défaut de paiement, ou suivant notification 60 \njours avant la date d’échéance annuelle du contrat.",
+      "context": "Résiliation par la compagnie",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "PORTEUR DE RISQUE NON DÉTERMINABLE : le document n'imprime que la marque « LALUX Assurances » (bandeau de titre et ligne « LALUX Assurances - Produit : easyPROTECT-Accident ») et désigne ensuite l'assureur par « la compagnie » / « la Compagnie » / « l'entreprise d'assurances ». Aucune raison sociale complète, aucune forme juridique, aucun numéro R.C.S., aucune adresse de siège et aucune mention d'agrément ou d'autorité de contrôle ne figurent sur les 2 pages, lues intégralement. Cette seule marque ne permet pas de choisir entre les entités agréées ; `insurer_name` reste la valeur fournie par la tâche (« lalux ») et l'entité juridique porteuse n'est pas déterminable à partir de ce document.",
+    "INTITULÉ DE RUBRIQUE FAUX, CONSERVÉ TEL QUEL : dans l'encadré « Y a-t-il des exclusions à la couverture ? », le premier sous-titre imprimé est « Responsabilité » (page 1, x0 307.6, y0 477.8) alors que son unique contenu est « Le degré d'invalidité permanente doit être de 3% au minimum. », qui concerne la garantie Invalidité et non une quelconque responsabilité civile. Le produit est une assurance de personne et ne comporte aucune garantie de responsabilité. Le défaut est conservé (l'intitulé est cité tel qu'imprimé dans l'exclusion « Seuil minimum d'invalidité permanente de 3% ») et n'a pas été réparé.",
+    "DÉNOMINATION DU PRODUIT NON UNIFORME DANS LE DOCUMENT, non corrigée : la ligne d'en-tête imprime « easyPROTECT-Accident » (avec trait d'union) tandis que la rubrique « De quel type d'assurance s'agit-il ? » écrit « easyPROTECT Accident » (sans trait d'union). `product_name` retient la forme de l'en-tête produit.",
+    "Aucune date d'édition, aucun numéro de version et aucune référence interne ne sont imprimés sur les 2 pages : `edition_date` et `reference` sont null. Aucun pied de page n'existe (la couche texte de la page 2 s'arrête après la rubrique « Comment puis-je résilier le contrat ? »).",
+    "AUCUNE FRANCHISE n'est mentionnée dans le document : `deductibles` est null. Les seules réductions de prestation stipulées sont des réductions forfaitaires (« réduite d'un tiers », « indemnités réduites de ½ ») et sont enregistrées comme restrictions dans `exclusions`, non comme franchises.",
+    "AUCUN DÉLAI DE PRESCRIPTION n'est mentionné : `prescription_period` est null. Aucun délai d'attente / de carence n'est stipulé non plus : `waiting_periods` est vide. Les seuils de 2 jours d'hospitalisation et 4 jours d'immobilisation qui conditionnent l'Assistance à domicile ne sont pas des délais de carence et sont enregistrés comme conditions de la garantie et comme restriction dans `exclusions`.",
+    "MONTANTS ABSENTS DU DOCUMENT : aucun capital, plafond, sous-limite ou montant chiffré en euros n'est imprimé. Le capital décès et la somme assurée invalidité sont renvoyés au choix du preneur (« Capital librement fixé par le preneur », « la somme assurée définie par le preneur »). Le glyphe € n'apparaît nulle part dans la couche texte du document, ce qui est cohérent avec l'absence de tout montant sur le rendu — il ne s'agit donc pas d'un glyphe perdu à l'extraction.",
+    "LISTES DÉCLARÉES NON EXHAUSTIVES PAR LE DOCUMENT LUI-MÊME : la mention « Liste non exhaustive » clôt l'encadré « Qu'est-ce qui n'est pas assuré ? » (3 exclusions listées) et l'encadré « Y a-t-il des exclusions à la couverture ? » (10 restrictions listées). Les 13 exclusions enregistrées sont donc tout ce que le DIPA imprime, et non l'ensemble des exclusions du produit, qui figurent aux conditions générales.",
+    "VÉRIFICATION DE L'ORDRE DES COLONNES : NÉGATIVE (aucune inversion). La page 1 est sur deux colonnes ; l'extraction à plat émet bien la colonne de gauche (« Qu'est-ce qui est assuré ? », blocs à x0 29.8-64.2) avant la colonne de droite (« Qu'est-ce qui n'est pas assuré ? » et « Y a-t-il des exclusions à la couverture ? », blocs à x0 307.6-343.0), dans l'ordre imprimé. Le rattachement garanties / exclusions a néanmoins été reconstruit par abscisse, et non par proximité dans le flux. La page 2 est sur une seule colonne.",
+    "PUCES EN COUCHE IMAGE, NON EN COUCHE TEXTE : les 32 puces de la page 1 sont des images placées (get_text ne rend rien pour elles). Le décompte a été fermé arithmétiquement pour garantir qu'aucun item de liste n'a été perdu : colonne de gauche 20 images (120x133 px) à x0 29.8 = 3 contextes + 2 Décès Confort + 2 Invalidité + 1 Frais médicaux + 2 Décès Performance + 5 Lésions corporelles + 5 Assistance à domicile ; colonne de droite 3 images (120x121 px) à x0 307.6 = les 3 exclusions sans dérogation possible, et 9 images (40x148 px) à x0 309.5 = les 9 items de l'encadré « Y a-t-il des exclusions à la couverture ? ». 20 + 3 + 9 = 32, soit exactement le nombre d'images de la page. Ces puces ne sont pas des coches de tableau de garanties : le document ne contient aucune matrice formules x garanties, et l'appartenance aux formules Confort / Performance est écrite en toutes lettres dans le texte.",
+    "DEUX SOUS-ITEMS DE LA RESTRICTION « En cas d'accident en tant que conducteur ou passager » sont introduits par des tirets textuels (« -\\t   d'un véhicule terrestre », « -\\t   d'un motocycle ») et non par des puces image ; ils ont été enregistrés comme deux exclusions distinctes (ceinture / casque) car ils portent deux conditions différentes.",
+    "TEXTE INTÉGRALEMENT EXTRAIT ET VÉRIFIÉ : la couche texte du PDF réextraite par page.get_text(\"text\") via PyMuPDF est identique caractère pour caractère au texte fourni dans le prompt (page 1 : 4342 caractères, page 2 : 3064 caractères ; le prompt n'ajoute qu'un saut de ligne final à la page 1). Aucune troncature. Aucun caractère parasite : ni U+0007, ni U+200B, ni U+00AD, ni glyphe de zone privée, ni accent combinant (NFD), ni coupure de mot par trait d'union en fin de ligne. Le seul caractère notable est l'espace fine U+2009 dans les intitulés (« Produit\\u2009: », « assuré\\u2009? »), présente telle quelle dans les citations.",
+    "TEXTE VECTORISÉ / CHIFFRÉ : aucun. Les deux pages livrent une couche texte lisible en MyriadPro. Aucun bloc n'a dû être lu au rendu.",
+    "LES CITATIONS DE `key_quotes` ont été découpées programmatiquement comme des tranches exactes de la couche texte réextraite du PDF (jamais retapées), et aucune ne franchit une frontière de page, donc aucune n'avale de marqueur [[page N]].",
+    "PAGINATION : le document n'imprime aucun folio. Les numéros de page cités sont ceux des marqueurs [[page N]] du prompt, qui correspondent aux pages PDF 1 et 2 (document de 2 pages)."
+  ]
+}

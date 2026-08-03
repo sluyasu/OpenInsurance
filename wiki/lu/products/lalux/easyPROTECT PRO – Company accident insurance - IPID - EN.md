@@ -145,6 +145,10 @@ The Company guarantees, within the limit of the amount insured, the reimbursemen
 - notice_period consigne les deux délais imprimés dans la même rubrique « How do I cancel the contract ? » : 30 jours avant l'échéance annuelle pour le client, 60 jours avant l'échéance annuelle pour la compagnie. Le document énonce en outre deux délais spéciaux (un mois après la résiliation par la compagnie d'une garantie ou d'un autre contrat à la suite d'un sinistre ; 60 jours après une majoration tarifaire notifiée par la compagnie), portés dans special_rights.
 - Ce document est la version anglaise. Aucune rubrique, aucun montant et aucune formulation n'ont été repris d'une version française ou allemande parallèle du même produit.
 
+## Documents liés
+
+- [easyPROTECT PRO – Unfallversicherung für Betriebspersonal (Unfallversicherung für Betriebspersonal - Betriebsunfall) - I](easyPROTECT%20PRO%20%E2%80%93%20Unfallversicherung%20f%C3%BCr%20Betriebspersonal%20%28Unfallversicherung%20f%C3%BCr%20Betriebspersonal%20-%20Betriebsunfall%29%20-%20I.md) - IPID / Fiche d'information
+
 ## Source & fidélité
 
 - Source : [https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_lalux_easyprotect-pro-entreprise-accident-entreprise_en.pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_lalux_easyprotect-pro-entreprise-accident-entreprise_en.pdf) - téléchargé le 2026-08-02 - 2 pages

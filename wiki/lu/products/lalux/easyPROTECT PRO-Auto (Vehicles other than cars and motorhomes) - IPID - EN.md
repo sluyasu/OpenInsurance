@@ -171,6 +171,10 @@ Damage to beneficiaries resulting from a bodily injury suffered by the insured p
 - Both exclusion-bearing boxes are closed by the label "Non-exhaustive list", and the disclaimer directs the reader to the general and/or special conditions, which are not part of this document. Sums insured are repeatedly deferred to the Special Conditions and are not stated here.
 - Character notes: the text layer contains U+2009 THIN SPACE (10 occurrences) before "?" in section headings and before ":" in the header product line - note in particular that the heading string is "What is insured\u2009?", so a plain-ASCII search for "What is insured ?" does not match. Also present: U+2013 EN DASH in the printed subtitle, U+201C/U+201D around "Vehicle damage", and U+2019 in "driver’s" and "company’s". All key_quotes were sliced programmatically as exact spans and preserve these characters. The prompt text was verified byte-identical to page.get_text("text") of the local PDF for both pages before extraction; the text was not truncated (2 pages).
 
+## Documents liés
+
+- [easyPROTECT PRO-Auto (Andere Fahrzeuge als PKW und Wohnmobile) - IPID - DE](easyPROTECT%20PRO-Auto%20%28Andere%20Fahrzeuge%20als%20PKW%20und%20Wohnmobile%29%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
+
 ## Source & fidélité
 
 - Source : [https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_easyprotect-pro-auto_vehicules-type-2_en.pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_easyprotect-pro-auto_vehicules-type-2_en.pdf) - téléchargé le 2026-08-02 - 2 pages

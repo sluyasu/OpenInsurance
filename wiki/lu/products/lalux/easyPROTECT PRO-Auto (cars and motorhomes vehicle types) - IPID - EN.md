@@ -198,6 +198,10 @@ In the event of an accident or attempted theft that immobilises the insured vehi
 - Le document est publié en versions linguistiques distinctes (une version française du même produit existe dans le corpus). Cette extraction est faite EXCLUSIVEMENT à partir du texte anglais ; aucun champ, aucune formulation et aucune citation n'a été complété depuis une version sœur.
 - « Discounts on the “Vehicle damage” premium are applicable for good drivers. » est imprimé avec une COCHE VERTE dans l'encadré des garanties, sous « Damage to the vehicle », alors qu'il s'agit d'un mécanisme tarifaire et non d'une garantie. Il n'a donc pas été créé comme garantie autonome : il figure dans les `conditions` de la garantie « Damage to the vehicle » et dans `premium.notes`.
 
+## Documents liés
+
+- [easyPROTECT-PRO - Auto (Auto — Véhicules de type voiture ou camping car) - IPID](easyPROTECT-PRO%20-%20Auto%20%28Auto%20%E2%80%94%20V%C3%A9hicules%20de%20type%20voiture%20ou%20camping%20car%29%20-%20IPID.md) - IPID / Fiche d'information
+
 ## Source & fidélité
 
 - Source : [https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_easyprotect-pro-auto_vehicules-type-1_en.pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_easyprotect-pro-auto_vehicules-type-1_en.pdf) - téléchargé le 2026-08-02 - 2 pages

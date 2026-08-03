@@ -171,6 +171,8 @@ Dégâts matériels causés au véhicule par accident, par fait de tiers ou par 
 ## Documents liés
 
 - [easyPROTECT-Auto (PKWs und Wohnmobile) - IPID - DE](easyPROTECT-Auto%20%28PKWs%20und%20Wohnmobile%29%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
+- [easyPROTECT-Auto - IPID - EN](easyPROTECT-Auto%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+- [easyPROTECT-Auto (Andere Fahrzeuge als PKW und Wohnmobile) - IPID - DE](easyPROTECT-Auto%20%28Andere%20Fahrzeuge%20als%20PKW%20und%20Wohnmobile%29%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
 - [easyPROTECT-Auto (Vehicles other than cars and motorhomes) - IPID - EN](easyPROTECT-Auto%20%28Vehicles%20other%20than%20cars%20and%20motorhomes%29%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 
 ## Source & fidélité

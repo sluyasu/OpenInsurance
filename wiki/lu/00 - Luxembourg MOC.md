@@ -52,10 +52,22 @@ fait de marché, pas un défaut de collecte.** Le détail et les sources figuren
 Comme partout, le document nomme lui-même son assureur — sauf que dans ce corpus, souvent, il ne le
 nomme pas assez.
 
-Mesuré sur les documents extraits : **onze sur trente et un nomment une entité avec sa forme
-juridique ou son numéro RCS**. Les autres impriment la marque — « LALUX Assurances »,
-« la Compagnie », « die Versicherungsgesellschaft » — sans permettre de choisir entre les deux
-entités agréées derrière elle.
+Mesuré sur les quatre-vingt-dix documents d'un assureur de détail, en cherchant dans le texte des
+PDF eux-mêmes : **quatre nomment le porteur de risque** avec sa dénomination complète
+(« LA LUXEMBOURGEOISE Société Anonyme d'Assurances ») ou son numéro R.C.S. Ce sont les quatre mêmes
+documents dans les deux cas — et ce sont les quatre seules vraies conditions générales du lot.
+Quatre sur quatre-vingt-dix, soit **4 %**.
+
+Les autres impriment la marque — « LALUX Assurances », « la Compagnie »,
+« die Versicherungsgesellschaft » — sans permettre de choisir entre les deux entités agréées
+derrière elle (LA LUXEMBOURGEOISE S.A. en non-vie, LA LUXEMBOURGEOISE-VIE S.A. en vie).
+
+**Et douze documents nomment bien une entité avec sa forme juridique — mais ce n'est pas
+l'assureur.** C'est le gestionnaire de sinistres : « Willis Towers Watson Luxembourg S.A. réceptionne
+les déclarations de sinistre ». Aucun de ces douze ne nomme le porteur ailleurs. La seule raison
+sociale complète imprimée dans le document appartient donc à quelqu'un qui ne porte pas le risque,
+et une extraction qui cherche « un nom suivi d'une forme juridique » y attrape systématiquement le
+mauvais.
 
 Et l'identification peut dépendre de **quelle page on regarde** : des conditions générales impriment
 `R.C.S. LUXEMBOURG B31035` dans leur en-tête courant sur quatre pages seulement, un `R.C.S.` tronqué
@@ -94,7 +106,7 @@ Quatre absences sont délibérées, chacune vérifiée dans le texte :
 ## Assureurs
 
 <!-- BEGIN GENERATED: insurers -->
-- [lalux](insurers/lalux.md) (35 documents)
+- [lalux](insurers/lalux.md) (42 documents)
 <!-- END GENERATED -->
 
 **Foyer**, premier groupe de détail du pays, est en découverte seule. Son `robots.txt` ferme les

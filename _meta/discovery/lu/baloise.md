@@ -44,6 +44,30 @@ Branches détenues, telles que le registre les écrit :
 Conformément au principe de spécialisation luxembourgeois, les deux listes du registre ne se
 croisent pas : aucune société n'est à la fois vie et non-vie.
 
+### Le RCS vient du site, pas du registre — et le site contredit le registre sur une branche
+
+`https://www.baloise.lu/fr/assurance-baloise-luxembourg/mentions-legales.html` publie les
+identifiants que le CSV du CAA n'a pas :
+
+- **Baloise Assurances Luxembourg S.A.** — société anonyme de droit luxembourgeois, capital
+  social 14 648 626,02 €, **RCS Luxembourg B 68 065**, matricule 1998 2235 882,
+  TVA LU 18 47 59 84, siège 8 rue du Château d'Eau, L-3364 Leudelange.
+- **Baloise Vie Luxembourg S.A.** — société anonyme de droit luxembourgeois, capital social
+  32 680 320 €, **RCS Luxembourg B 54 686**, matricule 1996 2205 790, TVA LU 16 74 29 20,
+  même siège.
+
+La page se décrit elle-même comme le site des deux sociétés à la fois : « www.baloise.lu est le
+site Internet des sociétés Baloise Assurances Luxembourg S.A., et Baloise Vie Luxembourg S.A. ».
+C'est la formulation qui rend `carrier: null` obligatoire par défaut — la marque est partagée
+entre deux porteurs de risque distincts, et seul le document sait lequel il engage.
+
+**Divergence mesurée.** Les mentions légales énumèrent les branches non-vie
+« 1, 3, 7, 8, 9, 10, 12, 13, 16, 17, 18 » : **onze branches, la 6 manque**, alors que le registre
+du CAA en publie douze et inclut la 6 (corps de véhicules maritimes, lacustres et fluviaux). La
+divergence n'est pas théorique : Baloise publie une page produit « bateau », qui est précisément
+ce que la branche 6 couvre. Le registre du CAA fait foi ; la liste du site est incomplète. Ne pas
+dériver l'agrément d'une page web.
+
 ## robots.txt — verdict par hôte
 
 ### `www.baloise.lu` (récupéré 2026-08-03, `Last-Modified: Fri, 14 Jul 2023 05:56:17 GMT`)
@@ -73,6 +97,22 @@ Allow: /
 
 Ouvert. Les deux CSV du registre ont répondu 200 `text/csv` à une requête simple, sans clé,
 sans cookie et sans compte.
+
+## Correction au census : `baloise.lu` n'est pas « curl-hostile »
+
+`_meta/lu-market-census.md` classe `baloise.lu` en `plain, curl-hostile` — « 200 to `urllib`,
+**406 to `curl`** with the same User-Agent ». **Mesuré le 2026-08-03, c'est l'inverse, et le
+vrai discriminant n'est ni curl ni urllib : c'est l'en-tête `Accept`.**
+
+- `curl` avec un User-Agent personnalisé : **200** sur `robots.txt`, la page d'accueil, la page
+  auto et les mentions légales. curl envoie `Accept: */*` par défaut.
+- `urllib` avec le même User-Agent et **aucun en-tête `Accept`** : **406 Not Acceptable** sur les
+  trois pages d'accueil de langue.
+- `urllib` avec `Accept: */*` ajouté : **200**.
+
+Le serveur refuse une requête sans `Accept`, ce qu'aucun navigateur n'envoie jamais. La leçon du
+census française tient toujours (« a curl 4xx is not proof of a block ») mais son exemple
+luxembourgeois est à corriger : il faut lire `plain`, en envoyant un `Accept`.
 
 ## Inventaire de la bibliothèque
 

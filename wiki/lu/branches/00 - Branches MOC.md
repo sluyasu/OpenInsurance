@@ -16,13 +16,17 @@ generated: true
 
 Liste générée des produits par branche. Les fiches conceptuelles de branche sont rédigées à la main dans ce dossier.
 
-### [Assurance auto](Assurance%20auto.md) (6)
+### [Assurance auto](Assurance%20auto.md) (10)
 - [easyPROTECT PRO-Auto (Vehicles other than cars and motorhomes) - IPID - EN](../products/lalux/easyPROTECT%20PRO-Auto%20%28Vehicles%20other%20than%20cars%20and%20motorhomes%29%20-%20IPID%20-%20EN.md) - [lalux](../insurers/lalux.md)
 - [easyPROTECT PRO-Auto (cars and motorhomes vehicle types) - IPID - EN](../products/lalux/easyPROTECT%20PRO-Auto%20%28cars%20and%20motorhomes%20vehicle%20types%29%20-%20IPID%20-%20EN.md) - [lalux](../insurers/lalux.md)
+- [easyPROTECT PRO-Auto (Andere Fahrzeuge als PKW und Wohnmobile) - IPID - DE](../products/lalux/easyPROTECT%20PRO-Auto%20%28Andere%20Fahrzeuge%20als%20PKW%20und%20Wohnmobile%29%20-%20IPID%20-%20DE.md) - [lalux](../insurers/lalux.md)
 - [easyPROTECT-Auto (PKWs und Wohnmobile) - IPID - DE](../products/lalux/easyPROTECT-Auto%20%28PKWs%20und%20Wohnmobile%29%20-%20IPID%20-%20DE.md) - [lalux](../insurers/lalux.md)
 - [easyPROTECT-Auto (Véhicules autres que voitures ou camping cars) - IPID](../products/lalux/easyPROTECT-Auto%20%28V%C3%A9hicules%20autres%20que%20voitures%20ou%20camping%20cars%29%20-%20IPID.md) - [lalux](../insurers/lalux.md)
 - [easyPROTECT-Auto (Voitures et camping cars) - IPID](../products/lalux/easyPROTECT-Auto%20%28Voitures%20et%20camping%20cars%29%20-%20IPID.md) - [lalux](../insurers/lalux.md)
+- [easyPROTECT-Auto - IPID - EN](../products/lalux/easyPROTECT-Auto%20-%20IPID%20-%20EN.md) - [lalux](../insurers/lalux.md)
+- [easyPROTECT-Auto (Andere Fahrzeuge als PKW und Wohnmobile) - IPID - DE](../products/lalux/easyPROTECT-Auto%20%28Andere%20Fahrzeuge%20als%20PKW%20und%20Wohnmobile%29%20-%20IPID%20-%20DE.md) - [lalux](../insurers/lalux.md)
 - [easyPROTECT-Auto (Vehicles other than cars and motorhomes) - IPID - EN](../products/lalux/easyPROTECT-Auto%20%28Vehicles%20other%20than%20cars%20and%20motorhomes%29%20-%20IPID%20-%20EN.md) - [lalux](../insurers/lalux.md)
+- [easyPROTECT-PRO - Auto (Auto — Véhicules de type voiture ou camping car) - IPID](../products/lalux/easyPROTECT-PRO%20-%20Auto%20%28Auto%20%E2%80%94%20V%C3%A9hicules%20de%20type%20voiture%20ou%20camping%20car%29%20-%20IPID.md) - [lalux](../insurers/lalux.md)
 
 ### [Assurance habitation](Assurance%20habitation.md) (1)
 - [easyPROTECT Habitation - IPID](../products/lalux/easyPROTECT%20Habitation%20-%20IPID.md) - [lalux](../insurers/lalux.md)
@@ -33,8 +37,11 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 ### [Protection juridique](Protection%20juridique.md) (1)
 - [Assurance Protection Juridique Auto Intégrale - Assurance Protection Juridique Familiale Intégrale - IPID](../products/lalux/Assurance%20Protection%20Juridique%20Auto%20Int%C3%A9grale%20-%20Assurance%20Protection%20Juridique%20Familiale%20Int%C3%A9grale%20-%20IPID.md) - [lalux](../insurers/lalux.md)
 
-### [Assurance accidents](Assurance%20accidents.md) (2)
+### [Assurance accidents](Assurance%20accidents.md) (5)
 - [easyPROTECT PRO – Company accident insurance - IPID - EN](../products/lalux/easyPROTECT%20PRO%20%E2%80%93%20Company%20accident%20insurance%20-%20IPID%20-%20EN.md) - [lalux](../insurers/lalux.md)
+- [easyPROTECT PRO – Unfallversicherung für Betriebspersonal (Unfallversicherung für Betriebspersonal - Betriebsunfall) - I](../products/lalux/easyPROTECT%20PRO%20%E2%80%93%20Unfallversicherung%20f%C3%BCr%20Betriebspersonal%20%28Unfallversicherung%20f%C3%BCr%20Betriebspersonal%20-%20Betriebsunfall%29%20-%20I.md) - [lalux](../insurers/lalux.md)
+- [easyPROTECT-Accident - IPID](../products/lalux/easyPROTECT-Accident%20-%20IPID.md) - [lalux](../insurers/lalux.md)
+- [easyPROTECT-Accident - IPID - EN](../products/lalux/easyPROTECT-Accident%20-%20IPID%20-%20EN.md) - [lalux](../insurers/lalux.md)
 - [easyPROTECT-Unfall - IPID - DE](../products/lalux/easyPROTECT-Unfall%20-%20IPID%20-%20DE.md) - [lalux](../insurers/lalux.md)
 
 ### [Voyage et assistance](Voyage%20et%20assistance.md) (5)
