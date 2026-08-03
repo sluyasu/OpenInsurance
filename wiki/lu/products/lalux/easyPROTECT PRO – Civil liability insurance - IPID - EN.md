@@ -4,7 +4,7 @@ domain: insurance
 country: lu
 insurer: '[[lalux]]'
 insurer_slug: lalux
-branch: multirisque-professionnelle
+branch: rc-professionnelle
 product_name: easyPROTECT PRO – Civil liability insurance
 document_type: ipid
 target_audience: entreprises
@@ -19,7 +19,7 @@ reference: null
 edition_date: null
 lang: en
 tags:
-- insurance/lu/multirisque-professionnelle
+- insurance/lu/rc-professionnelle
 - product
 - insurer/lalux
 aliases:
@@ -46,7 +46,7 @@ generated: true
 
 Insurance Product Information Document (IPID) for easyPROTECT PRO – Civil liability insurance. The product covers the civil liability of the policyholder, the policyholder's staff and any other person designated in the Special Conditions; where the policyholder is a legal person, administrators, partners and managers are covered as well. The document lists eight insurable sectors of activity and describes operating civil liability, after-delivery liability, legal protection and insolvency of liable third parties, entrusted and existing objects, sector-specific guarantees, and optional guarantees (CL for company executives, professional CL, purely intangible damage, accidental pollution) plus a building CL extension. The intervention limit per claim for all liability coverages is set at EUR 12,000,000.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](../../insurers/lalux.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -252,10 +252,7 @@ CL for a building: Liability of the insured person for damage caused to third pa
 
 ## Documents liés
 
-- [easyPROTECT PRO – Assurance de choses - IPID](easyPROTECT%20PRO%20%E2%80%93%20Assurance%20de%20choses%20-%20IPID.md) - IPID / Fiche d'information
 - [easyPROTECT PRO – Assurance de responsabilité civile - IPID](easyPROTECT%20PRO%20%E2%80%93%20Assurance%20de%20responsabilit%C3%A9%20civile%20-%20IPID.md) - IPID / Fiche d'information
-- [easyPROTECT PRO (Sachversicherungen) - IPID - DE](easyPROTECT%20PRO%20%28Sachversicherungen%29%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
-- [easyPROTECT PRO – Property insurance - IPID - EN](easyPROTECT%20PRO%20%E2%80%93%20Property%20insurance%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 
 ## Source & fidélité
 

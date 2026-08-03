@@ -558,3 +558,25 @@ une est fausse — et c'est un signal gratuit, obtenu sans relire un seul PDF.
 Attention à ne pas en tirer la règle inverse : **on ne complète jamais une langue depuis une autre**,
 et les valeurs retenues ci-dessus ont chacune été lues dans leur propre document. L'accord entre
 langues est un *détecteur* de défaut, pas une *source* de contenu.
+
+### Et le même préfixe trompe une seconde fois, à l'intérieur de la gamme professionnelle
+
+Les cinq corrections ci-dessus sortaient des documents de détail d'une branche professionnelle.
+Trois autres corrections restent **à l'intérieur** du professionnel, et le préfixe en est encore la
+cause : `easyPROTECT PRO` désigne un contrat à deux composantes, et chacune a ses trois versions
+linguistiques.
+
+| Composante | Documents | Branche |
+|---|---|---|
+| Assurance de choses / Sachversicherung / Property insurance | 3 | `multirisque-professionnelle` |
+| Assurance de RC / Haftpflichtversicherung / Civil liability | 3 | `rc-professionnelle` *(corrigé)* |
+
+Les trois documents de RC étaient classés `multirisque-professionnelle` alors que leur contenu est
+**entièrement** de la responsabilité civile : « Betriebshaftpflicht (alle Sektoren) », « RC
+exploitation », et huit secteurs d'activité listés comme garanties. Le corpus contenait déjà le
+précédent — la RC professionnelle des architectes et ingénieurs-conseils est en `rc-professionnelle`.
+
+**Ce cas échappe au détecteur inter-langues** décrit plus haut : les trois versions étaient d'accord
+entre elles, et toutes les trois avaient tort. L'accord entre langues détecte l'erreur de lecture
+d'un extracteur ; il ne détecte pas une erreur de découverte propagée uniformément depuis un nom de
+fichier. Deux signaux distincts, deux défauts distincts.

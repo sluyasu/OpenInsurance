@@ -194,6 +194,10 @@ Informationsblatt zum Versicherungsprodukt (IPID) für die Versicherungen, die a
 - Vérification d'intégrité : ré-extraction locale du PDF avec `page.get_text("text")` (le même appel que le harnais) — texte IDENTIQUE octet pour octet à celui du prompt, à la seule différence de la ligne vide insérée par le harnais avant le marqueur [page 2]. Document complet, non tronqué (7 303 caractères, 2 pages, 2 pages annoncées). Aucun folio imprimé : les champs `page` citent directement les marqueurs [page N].
 - Ce produit est publié en versions linguistiques distinctes. L'extraction est faite EXCLUSIVEMENT à partir du texte allemand de ce fichier ; aucun champ, aucune formulation et aucune citation n'a été complété depuis une version sœur, en particulier les descriptions de garanties absentes, qui restent null.
 
+## Documents liés
+
+- [Versicherung SPUERKEESS-Kreditkarten – Assistance-Leistungen und Nicht Assistance-Leistungen (MILES & MORE LUXAIR VISA B](Versicherung%20SPUERKEESS-Kreditkarten%20%E2%80%93%20Assistance-Leistungen%20und%20Nicht%20Assistance-Leistungen%20%28MILES%20%26%20MORE%20LUXAIR%20VISA%20B.md) - IPID / Fiche d'information
+
 ## Source & fidélité
 
 - Source : [https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_MILES_MORE_LUXAIR_VISA_DE.pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_MILES_MORE_LUXAIR_VISA_DE.pdf) - téléchargé le 2026-08-02 - 2 pages

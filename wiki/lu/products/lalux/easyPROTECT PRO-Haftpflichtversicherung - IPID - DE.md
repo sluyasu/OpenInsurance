@@ -4,7 +4,7 @@ domain: insurance
 country: lu
 insurer: '[[lalux]]'
 insurer_slug: lalux
-branch: multirisque-professionnelle
+branch: rc-professionnelle
 product_name: easyPROTECT PRO-Haftpflichtversicherung
 document_type: ipid
 target_audience: null
@@ -23,7 +23,7 @@ reference: null
 edition_date: null
 lang: de
 tags:
-- insurance/lu/multirisque-professionnelle
+- insurance/lu/rc-professionnelle
 - product
 - insurer/lalux
 aliases:
@@ -50,7 +50,7 @@ generated: true
 
 Informationsdokument über das Versicherungsprodukt (IPID) zur easyPROTECT PRO-Haftpflichtversicherung, angeboten unter der Marke „LALUX Assurances“. Der Vertrag deckt die Haftpflicht des Versicherungsnehmers, seiner Mitarbeiter und weiterer in den Besonderen Bedingungen benannter Personen; bei einer juristischen Person sind auch Verwaltungsratsmitglieder, Gesellschafter und Geschäftsführer versichert. Der Versicherungsschutz ist nach acht Tätigkeitsbereichen (Sektoren) gegliedert und umfasst insbesondere die Betriebshaftpflicht, die Haftpflicht nach erfolgter Lieferung, Rechtsschutz und Zahlungsunfähigkeit haftender Dritter, anvertraute und vorhandene Sachen sowie sektorspezifische Garantien; optional werden unter anderem Haftpflicht für Firmenleiter, Berufshaftpflicht, reine immaterielle Schäden und versehentliche Verschmutzung angeboten. Die Deckungsgrenze pro Schadensfall beträgt für sämtliche abgeschlossenen Garantien 12.000.000 EUR.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information
+- Assureur : [lalux](../../insurers/lalux.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : IPID / Fiche d'information
 
 ## Définitions
 

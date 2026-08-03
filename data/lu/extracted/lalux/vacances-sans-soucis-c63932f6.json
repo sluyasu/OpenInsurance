@@ -1,0 +1,505 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "lu",
+  "insurer_slug": "lalux",
+  "insurer_name": "lalux",
+  "product_name": "Vacances Sans Soucis",
+  "branch": "voyage",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "Le document énonce une destination générique, sans segment de clientèle : \"Le produit Vacances Sans Soucis est destiné aux personnes souhaitant s’assurer contre certains aléas qui peuvent survenir en relation avec \nla préparation ou la réalisation d’un voyage. Sont assurés, au choix et dépendant de la zone de couverture choisie (1* ou 2**), les éléments \ndécrits ci-après.\"",
+  "reference": null,
+  "edition_date": null,
+  "product_family": "Vacances Sans Soucis",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_vacances-sans-soucis_lalux_fr.pdf",
+  "source_pdf": "70736kb-c63932f6.pdf",
+  "source_sha256": "0eea87331b2d21be8001619451ed2190db590a0e862df794a1e1fa679efc58a8",
+  "source_pages": 2,
+  "fetched_at": "2026-08-02",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d'information sur le produit d'assurance (IPID) pour Vacances Sans Soucis, produit d'assurance voyage distribué sous la marque LALUX Assurances au Luxembourg. Le document décrit onze garanties réparties en cinq blocs - Assistance aux assurés (six prestations), Bagages, Accidents de voyage (décès et invalidité permanente), Maladie en cours de voyage et Frais d'annulation - accordées si elles sont stipulées dans les Conditions particulières. La couverture dépend de la zone souscrite : la zone 1 couvre toute l'Europe ainsi qu'une liste de pays définis, la zone 2 le monde entier, et la garantie Assistance ne joue qu'en cas de déplacement hors du Grand-Duché de Luxembourg. Les plafonds par prestation et par zone (5.000 EUR, 2.500 EUR, 1.250 EUR) sont imprimés dans la rubrique des exclusions à la couverture.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Assistance aux assurés - Rapatriement de l'assuré malade ou blessé",
+      "description": "Rapatriement de l’assuré malade ou blessé, lorsque l’assuré est \nvictime d’un accident ou d’une maladie et si le rapatriement s’impose\n",
+      "is_optional": true,
+      "territorial_scope": "Est couverte la zone stipulée dans les Conditions particulières :\n Zone 1 : assurance valable dans toute l’Europe, ainsi qu’en Algérie, Égypte, Israël, Jordanie, Liban, Libye, Maroc, Syrie, \nTunisie, Turquie, Iles Canaries et Madère. Zone 2 : assurance valable dans le monde entier.\n La garantie «Assistance» ne produit ses effets qu’en cas de déplacement hors le Grand-Duché de Luxembourg.\n",
+      "limits": "montant \nmaximal de 5.000 EUR pour la zone 2.\n",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Assistance aux assurés :\n",
+        "Assistance : seulement en cas de déplacement hors du Grand-Duché \nde Luxembourg\n",
+        "Garanties accordées (si stipulées dans les Conditions particulières) :\n"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance aux assurés - Rapatriement des assurés si leur voiture est immobilisée ou volée à l'étranger",
+      "description": "Rapatriement des assurés, si leur voiture est immobilisée ou volée à \nl’étranger (seulement zone 1)\n",
+      "is_optional": true,
+      "territorial_scope": "(seulement zone 1)\n | Zone 1 : assurance valable dans toute l’Europe, ainsi qu’en Algérie, Égypte, Israël, Jordanie, Liban, Libye, Maroc, Syrie, \nTunisie, Turquie, Iles Canaries et Madère. La garantie «Assistance» ne produit ses effets qu’en cas de déplacement hors le Grand-Duché de Luxembourg.\n",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Assistance aux assurés :\n",
+        "Assistance : seulement en cas de déplacement hors du Grand-Duché \nde Luxembourg\n",
+        "Rapatriement des assurés : risque de panne exclu pour les voitures \nde plus de 10 ans.\n",
+        "Garanties accordées (si stipulées dans les Conditions particulières) :\n"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance aux assurés - Déplacement d'un membre de la famille au chevet de l'assuré hospitalisé à l'étranger",
+      "description": "Déplacement d’un membre de la famille au chevet de l’assuré \nhospitalisé à l’étranger\n",
+      "is_optional": true,
+      "territorial_scope": "Est couverte la zone stipulée dans les Conditions particulières :\n Zone 1 : assurance valable dans toute l’Europe, ainsi qu’en Algérie, Égypte, Israël, Jordanie, Liban, Libye, Maroc, Syrie, \nTunisie, Turquie, Iles Canaries et Madère. Zone 2 : assurance valable dans le monde entier.\n La garantie «Assistance» ne produit ses effets qu’en cas de déplacement hors le Grand-Duché de Luxembourg.\n",
+      "limits": "Pour la \nzone 2, le montant est limité à 1.250 EUR\n",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Assistance aux assurés :\n",
+        "Assistance : seulement en cas de déplacement hors du Grand-Duché \nde Luxembourg\n",
+        "hospitalisations de 7 jours au moins",
+        "Garanties accordées (si stipulées dans les Conditions particulières) :\n"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance aux assurés - Prise en charge des enfants assurés à l'étranger",
+      "description": "Prise en charge des enfants assurés à l’étranger (enfants de moins de \n15 ans) et prise en charge des frais de transport d’une personne qui \npeut prendre ces enfants en charge\n",
+      "is_optional": true,
+      "territorial_scope": "Est couverte la zone stipulée dans les Conditions particulières :\n Zone 1 : assurance valable dans toute l’Europe, ainsi qu’en Algérie, Égypte, Israël, Jordanie, Liban, Libye, Maroc, Syrie, \nTunisie, Turquie, Iles Canaries et Madère. Zone 2 : assurance valable dans le monde entier.\n La garantie «Assistance» ne produit ses effets qu’en cas de déplacement hors le Grand-Duché de Luxembourg.\n",
+      "limits": "pour la zone 2, le \nmontant est limité à 1.250 EUR\n",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Assistance aux assurés :\n",
+        "Assistance : seulement en cas de déplacement hors du Grand-Duché \nde Luxembourg\n",
+        "(enfants de moins de \n15 ans)",
+        "Garanties accordées (si stipulées dans les Conditions particulières) :\n"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance aux assurés - Retour urgent de l'assuré en cas de décès au Grand-Duché de Luxembourg d'un membre de la famille",
+      "description": "Retour urgent de l’assuré en cas de décès au Grand-Duché de \nLuxembourg d’un membre de la famille\n",
+      "is_optional": true,
+      "territorial_scope": "Est couverte la zone stipulée dans les Conditions particulières :\n Zone 1 : assurance valable dans toute l’Europe, ainsi qu’en Algérie, Égypte, Israël, Jordanie, Liban, Libye, Maroc, Syrie, \nTunisie, Turquie, Iles Canaries et Madère. Zone 2 : assurance valable dans le monde entier.\n La garantie «Assistance» ne produit ses effets qu’en cas de déplacement hors le Grand-Duché de Luxembourg.\n",
+      "limits": "pour la zone 2, le \nmontant est limité à 1.250 EUR\n",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Assistance aux assurés :\n",
+        "Assistance : seulement en cas de déplacement hors du Grand-Duché \nde Luxembourg\n",
+        "Garanties accordées (si stipulées dans les Conditions particulières) :\n"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance aux assurés - Rapatriement en cas de décès à l'étranger",
+      "description": "Rapatriement en cas de décès à l’étranger",
+      "is_optional": true,
+      "territorial_scope": "Est couverte la zone stipulée dans les Conditions particulières :\n Zone 1 : assurance valable dans toute l’Europe, ainsi qu’en Algérie, Égypte, Israël, Jordanie, Liban, Libye, Maroc, Syrie, \nTunisie, Turquie, Iles Canaries et Madère. Zone 2 : assurance valable dans le monde entier.\n La garantie «Assistance» ne produit ses effets qu’en cas de déplacement hors le Grand-Duché de Luxembourg.\n",
+      "limits": "zone 1 – montant maximal de 2.500 EUR ; \nzone 2 – montant maximal de 5.000 EUR\n",
+      "sub_limits": [
+        "zone 1 – montant maximal de 2.500 EUR",
+        "zone 2 – montant maximal de 5.000 EUR\n"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Assistance aux assurés :\n",
+        "Assistance : seulement en cas de déplacement hors du Grand-Duché \nde Luxembourg\n",
+        "Garanties accordées (si stipulées dans les Conditions particulières) :\n"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Bagages",
+      "description": "Couverture des bagages contre les pertes, destructions ou \ndétériorations résultant de vols, agressions, incendies, explosions, \nou d’une autre cause accidentelle. Sont concernés p.ex. les bagages \nà mains, les objets portés sur la personne, les poussettes et landaux, \narticles de sport, matériel de camping, etc.\n",
+      "is_optional": true,
+      "territorial_scope": "Est couverte la zone stipulée dans les Conditions particulières :\n Zone 1 : assurance valable dans toute l’Europe, ainsi qu’en Algérie, Égypte, Israël, Jordanie, Liban, Libye, Maroc, Syrie, \nTunisie, Turquie, Iles Canaries et Madère. Zone 2 : assurance valable dans le monde entier.\n",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Bagages :\n",
+        "Bagages : vol des bagages transportés dans des véhicules seulement \ncouvert si véhicules fermés à clé.\n",
+        "Garanties accordées (si stipulées dans les Conditions particulières) :\n"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Accidents de voyage - Garantie en cas de décès",
+      "description": "Garantie en cas de décès : si l’assuré décède des suites d’un accident \ngaranti, immédiatement ou dans un délai de 2 ans à compter du jour \nde l’accident\n",
+      "is_optional": true,
+      "territorial_scope": "Est couverte la zone stipulée dans les Conditions particulières :\n Zone 1 : assurance valable dans toute l’Europe, ainsi qu’en Algérie, Égypte, Israël, Jordanie, Liban, Libye, Maroc, Syrie, \nTunisie, Turquie, Iles Canaries et Madère. Zone 2 : assurance valable dans le monde entier.\n",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Accidents de voyage :\n",
+        "dans un délai de 2 ans à compter du jour \nde l’accident\n",
+        "Garanties accordées (si stipulées dans les Conditions particulières) :\n"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Accidents de voyage - Garantie en cas d'invalidité permanente",
+      "description": "Garantie en cas d’invalidité permanente : paiement d’une indemnité \nsi l’assuré est atteint, à la suite d’un accident garanti, d’une invalidité \npermanente\n",
+      "is_optional": true,
+      "territorial_scope": "Est couverte la zone stipulée dans les Conditions particulières :\n Zone 1 : assurance valable dans toute l’Europe, ainsi qu’en Algérie, Égypte, Israël, Jordanie, Liban, Libye, Maroc, Syrie, \nTunisie, Turquie, Iles Canaries et Madère. Zone 2 : assurance valable dans le monde entier.\n",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Accidents de voyage :\n",
+        "Garanties accordées (si stipulées dans les Conditions particulières) :\n"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Maladie en cours de voyage",
+      "description": "Remboursement des frais médicaux exposés par l’assuré, tels que \nfrais de médecin/d’hospitalisation, frais pharmaceutiques, frais de \ntransport en ambulance vers l’établissement hospitalier le plus \nproche, etc.\n",
+      "is_optional": true,
+      "territorial_scope": "Est couverte la zone stipulée dans les Conditions particulières :\n Zone 1 : assurance valable dans toute l’Europe, ainsi qu’en Algérie, Égypte, Israël, Jordanie, Liban, Libye, Maroc, Syrie, \nTunisie, Turquie, Iles Canaries et Madère. Zone 2 : assurance valable dans le monde entier.\n",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Maladie en cours de voyage :\n",
+        "Garanties accordées (si stipulées dans les Conditions particulières) :\n"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Frais d'annulation",
+      "description": "Frais d’annulation dus par l’assuré à des tiers (p.ex. agences de \nvoyages ou entreprises de transport) si le voyage est annulé ou \ninterrompu p.ex. en raison de maladie/accident corporel de l’assuré \n(attesté médicalement), décès ou maladie du conjoint ou des enfants \nde l’assuré, etc.\n",
+      "is_optional": true,
+      "territorial_scope": "Est couverte la zone stipulée dans les Conditions particulières :\n Zone 1 : assurance valable dans toute l’Europe, ainsi qu’en Algérie, Égypte, Israël, Jordanie, Liban, Libye, Maroc, Syrie, \nTunisie, Turquie, Iles Canaries et Madère. Zone 2 : assurance valable dans le monde entier.\n",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Frais d’annulation :\n",
+        "Garanties accordées (si stipulées dans les Conditions particulières) :\n"
+      ],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Assistance - rapatriement lié aux rechutes d'une maladie chronique",
+      "applies_to": "Assistance aux assurés",
+      "page": 1,
+      "description": "\"Qu’est-ce qui n’est pas assuré ?\n\" : Assistance aux assurés : est exclu le rapatriement lié aux rechutes \nd’une maladie chronique comportant un risque d’aggravation \nproche et brutal\n"
+    },
+    {
+      "name": "Bagages - objets égarés ou perdus, perles et pierres tombées de leur monture, usure des articles de sport",
+      "applies_to": "Bagages",
+      "page": 1,
+      "description": "\"Qu’est-ce qui n’est pas assuré ?\n\" : Bagages : objets simplement égarés ou perdus ; perte de perles \nfines et pierres précieuses tombées de leur monture, dégâts causés \naux articles de sport du fait de leur utilisation, …\n"
+    },
+    {
+      "name": "Accidents de voyage - pratique de certains sports",
+      "applies_to": "Accidents de voyage",
+      "page": 1,
+      "description": "\"Qu’est-ce qui n’est pas assuré ?\n\" : Accidents de voyage : dommages liés à la pratique de certains \nsports, p.ex. vol à voile, parachutisme ou deltaplaning\n"
+    },
+    {
+      "name": "Maladie en cours de voyage - frais médicaux au Grand-Duché, frais de cure, frais d'accouchement",
+      "applies_to": "Maladie en cours de voyage",
+      "page": 1,
+      "description": "\"Qu’est-ce qui n’est pas assuré ?\n\" : Maladie en cours de voyage : frais médicaux exposés au Grand-\nDuché de Luxembourg, frais de cure ou frais d’accouchement\n"
+    },
+    {
+      "name": "Frais d'annulation - rechute d'une maladie chronique",
+      "applies_to": "Frais d'annulation",
+      "page": 1,
+      "description": "\"Qu’est-ce qui n’est pas assuré ?\n\" : Frais d’annulation : garantie non acquise si l’annulation est due \nà une rechute d’une maladie chronique comportant un risque \nd’aggravation brutal et proche\n"
+    },
+    {
+      "name": "Dol, faute lourde ou état d'ivresse",
+      "applies_to": "all",
+      "page": 1,
+      "description": "\"Qu’est-ce qui n’est pas assuré ?\n\" : En général, les dommages causés par le dol ou la faute lourde de \nl’assuré ou des personnes qui l’accompagnent, ou encore dommages \nsurvenus à l’assuré et dus à son état d’ivresse\n"
+    },
+    {
+      "name": "Assistance limitée aux déplacements hors du Grand-Duché de Luxembourg",
+      "applies_to": "Assistance aux assurés",
+      "page": 1,
+      "description": "\"Y a-t-il des exclusions à la couverture ?\n\" : Assistance : seulement en cas de déplacement hors du Grand-Duché \nde Luxembourg\n"
+    },
+    {
+      "name": "Rapatriement de l'assuré malade ou blessé - plafond de 5.000 EUR pour la zone 2",
+      "applies_to": "Assistance aux assurés - Rapatriement de l'assuré malade ou blessé",
+      "page": 1,
+      "description": "\"Y a-t-il des exclusions à la couverture ?\n\" : Assistance : rapatriement de l’assuré malade ou blessé : montant \nmaximal de 5.000 EUR pour la zone 2.\n"
+    },
+    {
+      "name": "Rapatriement des assurés - risque de panne exclu pour les voitures de plus de 10 ans",
+      "applies_to": "Assistance aux assurés - Rapatriement des assurés si leur voiture est immobilisée ou volée à l'étranger",
+      "page": 1,
+      "description": "\"Y a-t-il des exclusions à la couverture ?\n\" : Rapatriement des assurés : risque de panne exclu pour les voitures \nde plus de 10 ans.\n"
+    },
+    {
+      "name": "Déplacement d'un membre de la famille - hospitalisations de 7 jours au moins, plafond zone 2 de 1.250 EUR",
+      "applies_to": "Assistance aux assurés - Déplacement d'un membre de la famille au chevet de l'assuré hospitalisé à l'étranger",
+      "page": 1,
+      "description": "\"Y a-t-il des exclusions à la couverture ?\n\" : Déplacement d’un membre de la famille au chevet de l’assuré \nhospitalisé à l’étranger : hospitalisations de 7 jours au moins. Pour la \nzone 2, le montant est limité à 1.250 EUR\n"
+    },
+    {
+      "name": "Prise en charge des enfants assurés - plafond zone 2 de 1.250 EUR",
+      "applies_to": "Assistance aux assurés - Prise en charge des enfants assurés à l'étranger",
+      "page": 1,
+      "description": "\"Y a-t-il des exclusions à la couverture ?\n\" : Prise en charge des enfants assurés à l’étranger : pour la zone 2, le \nmontant est limité à 1.250 EUR\n"
+    },
+    {
+      "name": "Retour urgent en cas de décès d'un membre de la famille - plafond zone 2 de 1.250 EUR",
+      "applies_to": "Assistance aux assurés - Retour urgent de l'assuré en cas de décès au Grand-Duché de Luxembourg d'un membre de la famille",
+      "page": 1,
+      "description": "\"Y a-t-il des exclusions à la couverture ?\n\" : Retour urgent de l’assuré en cas de décès au Grand-Duché de \nLuxembourg d’un membre de la famille : pour la zone 2, le montant \nest limité à 1.250 EUR\n"
+    },
+    {
+      "name": "Rapatriement après décès - plafonds de 2.500 EUR (zone 1) et 5.000 EUR (zone 2)",
+      "applies_to": "Assistance aux assurés - Rapatriement en cas de décès à l'étranger",
+      "page": 1,
+      "description": "\"Y a-t-il des exclusions à la couverture ?\n\" : Rapatriement après décès : zone 1 – montant maximal de 2.500 EUR ; \nzone 2 – montant maximal de 5.000 EUR\n"
+    },
+    {
+      "name": "Bagages - vol dans un véhicule couvert seulement si le véhicule est fermé à clé",
+      "applies_to": "Bagages",
+      "page": 1,
+      "description": "\"Y a-t-il des exclusions à la couverture ?\n\" : Bagages : vol des bagages transportés dans des véhicules seulement \ncouvert si véhicules fermés à clé.\n"
+    }
+  ],
+  "deductibles": null,
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Aviser la Compagnie du sinistre dans les 8 jours",
+      "timing": "En cas de sinistre :\n",
+      "page": 2,
+      "sanction": "Si le preneur d’assurance et/ou l’Assuré ne remplissent pas l’une des obligations prévues aux Conditions générales et qu’il en \nrésulte un préjudice pour la Compagnie, celle-ci a le droit de prétendre à une réduction de sa prestation. La Compagnie peut \ndécliner sa garantie si, dans une intention frauduleuse, l’Assuré n’a pas exécuté l’une de ces obligations.\n",
+      "description": "Le preneur d’assurance et/ou l’Assuré doivent, dès que possible et en tout cas dans les 8 jours de sa survenance aviser la \nCompagnie du sinistre. Si cela est impossible par suite de cas fortuit ou de force majeure, la Compagnie devra en être avisée \naussi rapidement que cela peut raisonnablement se faire et indiquer la date et l’heure, le lieu, les circonstances de l’accident ainsi \nque les suites prévisibles.\n"
+    },
+    {
+      "name": "Fournir sans retard tous renseignements utiles et véridiques",
+      "timing": "En cas de sinistre :\n",
+      "page": 2,
+      "sanction": "celle-ci a le droit de prétendre à une réduction de sa prestation",
+      "description": "Le preneur d’assurance et/ou l’Assuré doivent fournir sans retard à l’assureur tous renseignements utiles et véridiques et répondre \naux demandes visant à déterminer les circonstances et l’étendue du sinistre.\n"
+    },
+    {
+      "name": "Sanction du non-respect des obligations",
+      "timing": "En cas de sinistre :\n",
+      "page": 2,
+      "sanction": "La Compagnie peut \ndécliner sa garantie si, dans une intention frauduleuse, l’Assuré n’a pas exécuté l’une de ces obligations.\n",
+      "description": "Si le preneur d’assurance et/ou l’Assuré ne remplissent pas l’une des obligations prévues aux Conditions générales et qu’il en \nrésulte un préjudice pour la Compagnie, celle-ci a le droit de prétendre à une réduction de sa prestation. La Compagnie peut \ndécliner sa garantie si, dans une intention frauduleuse, l’Assuré n’a pas exécuté l’une de ces obligations.\n"
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Aviser la Compagnie du sinistre",
+      "deadline": "dès que possible et en tout cas dans les 8 jours de sa survenance",
+      "page": 2,
+      "description": "Le preneur d’assurance et/ou l’Assuré doivent, dès que possible et en tout cas dans les 8 jours de sa survenance aviser la \nCompagnie du sinistre."
+    },
+    {
+      "step": "Cas fortuit ou force majeure",
+      "deadline": "aussi rapidement que cela peut raisonnablement se faire",
+      "page": 2,
+      "description": "Si cela est impossible par suite de cas fortuit ou de force majeure, la Compagnie devra en être avisée \naussi rapidement que cela peut raisonnablement se faire et indiquer la date et l’heure, le lieu, les circonstances de l’accident ainsi \nque les suites prévisibles.\n"
+    },
+    {
+      "step": "Fournir les renseignements",
+      "deadline": "sans retard",
+      "page": 2,
+      "description": "Le preneur d’assurance et/ou l’Assuré doivent fournir sans retard à l’assureur tous renseignements utiles et véridiques et répondre \naux demandes visant à déterminer les circonstances et l’étendue du sinistre.\n"
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le début (date d’effet) et l’expiration du contrat sont mentionnés aux Conditions Particulières.\n Le contrat est conclu pour la durée prévue aux Conditions Particulières. Sauf reconduction tacite, le contrat cessera ses effets le \njour de sa date d’expiration à 24h00.\n",
+    "tacit_renewal": null,
+    "notice_period": null,
+    "methods": [
+      "En cas de souhait de procéder à une annulation du contrat court terme, une demande dans ce sens est à formuler par le preneur \nd’assurance envers la Compagnie.\n"
+    ],
+    "special_rights": [],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "Le montant indiqué sur l’avis d’échéance est payable le jour de la prise d’effet de l’assurance\n"
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Nature du produit et choix de la zone",
+      "page": 1,
+      "description": "Le produit Vacances Sans Soucis est destiné aux personnes souhaitant s’assurer contre certains aléas qui peuvent survenir en relation avec \nla préparation ou la réalisation d’un voyage. Sont assurés, au choix et dépendant de la zone de couverture choisie (1* ou 2**), les éléments \ndécrits ci-après. *Zone 1 : toute l’Europe et certains pays définis (cf. « Où suis-je couvert(e) ? ») ; **Zone 2 : monde entier\n"
+    },
+    {
+      "name": "Garanties subordonnées aux Conditions particulières",
+      "page": 1,
+      "description": "Garanties accordées (si stipulées dans les Conditions particulières) :\n"
+    },
+    {
+      "name": "Avertissement",
+      "page": 1,
+      "description": "Avertissement : le présent document n’est pas personnalisé en fonction de vos besoins spécifiques et les informations et \nobligations prévues dans le présent document ne sont pas exhaustives. Pour toute information complète quant aux droits et \nobligations de l’entreprise d’assurances et de l’assuré, veuillez consulter les conditions générales et/ou particulières relatives au \nproduit d’assurance choisi.\n"
+    },
+    {
+      "name": "Les deux listes négatives sont déclarées non exhaustives",
+      "page": 1,
+      "description": "La mention \"Liste non exhaustive\n\" est imprimée au pied de la rubrique \"Qu’est-ce qui n’est pas assuré ?\n\" et au pied de la rubrique \"Y a-t-il des exclusions à la couverture ?\n\"."
+    },
+    {
+      "name": "Zones de couverture",
+      "page": 2,
+      "description": "Est couverte la zone stipulée dans les Conditions particulières :\n Zone 1 : assurance valable dans toute l’Europe, ainsi qu’en Algérie, Égypte, Israël, Jordanie, Liban, Libye, Maroc, Syrie, \nTunisie, Turquie, Iles Canaries et Madère. Zone 2 : assurance valable dans le monde entier.\n"
+    },
+    {
+      "name": "Restriction territoriale propre à l'Assistance",
+      "page": 2,
+      "description": "La garantie «Assistance» ne produit ses effets qu’en cas de déplacement hors le Grand-Duché de Luxembourg.\n"
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "LALUX Assurances - Produit : Vacances Sans Soucis\n",
+      "page": 1,
+      "context": "Bandeau d'en-tête, page 1"
+    },
+    {
+      "quote": "Le produit Vacances Sans Soucis est destiné aux personnes souhaitant s’assurer contre certains aléas qui peuvent survenir en relation avec \nla préparation ou la réalisation d’un voyage. Sont assurés, au choix et dépendant de la zone de couverture choisie (1* ou 2**), les éléments \ndécrits ci-après.",
+      "page": 1,
+      "context": "De quel type d'assurance s'agit-il ?"
+    },
+    {
+      "quote": "*Zone 1 : toute l’Europe et certains pays définis (cf. « Où suis-je couvert(e) ? ») ; **Zone 2 : monde entier\n",
+      "page": 1,
+      "context": "De quel type d'assurance s'agit-il ?"
+    },
+    {
+      "quote": "(si stipulées dans les Conditions particulières) :\n",
+      "page": 1,
+      "context": "Qu'est-ce qui est assuré ? - Garanties accordées"
+    },
+    {
+      "quote": "Rapatriement de l’assuré malade ou blessé, lorsque l’assuré est \nvictime d’un accident ou d’une maladie et si le rapatriement s’impose\n",
+      "page": 1,
+      "context": "Assistance aux assurés"
+    },
+    {
+      "quote": "Rapatriement des assurés, si leur voiture est immobilisée ou volée à \nl’étranger (seulement zone 1)\n",
+      "page": 1,
+      "context": "Assistance aux assurés"
+    },
+    {
+      "quote": "Prise en charge des enfants assurés à l’étranger (enfants de moins de \n15 ans) et prise en charge des frais de transport d’une personne qui \npeut prendre ces enfants en charge\n",
+      "page": 1,
+      "context": "Assistance aux assurés"
+    },
+    {
+      "quote": "Couverture des bagages contre les pertes, destructions ou \ndétériorations résultant de vols, agressions, incendies, explosions, \nou d’une autre cause accidentelle.",
+      "page": 1,
+      "context": "Bagages"
+    },
+    {
+      "quote": "Garantie en cas de décès : si l’assuré décède des suites d’un accident \ngaranti, immédiatement ou dans un délai de 2 ans à compter du jour \nde l’accident\n",
+      "page": 1,
+      "context": "Accidents de voyage"
+    },
+    {
+      "quote": "Frais d’annulation dus par l’assuré à des tiers (p.ex. agences de \nvoyages ou entreprises de transport) si le voyage est annulé ou \ninterrompu",
+      "page": 1,
+      "context": "Frais d'annulation"
+    },
+    {
+      "quote": "Assistance aux assurés : est exclu le rapatriement lié aux rechutes \nd’une maladie chronique comportant un risque d’aggravation \nproche et brutal\n",
+      "page": 1,
+      "context": "Qu'est-ce qui n'est pas assuré ?"
+    },
+    {
+      "quote": "Accidents de voyage : dommages liés à la pratique de certains \nsports, p.ex. vol à voile, parachutisme ou deltaplaning\n",
+      "page": 1,
+      "context": "Qu'est-ce qui n'est pas assuré ?"
+    },
+    {
+      "quote": "Duché de Luxembourg, frais de cure ou frais d’accouchement\n",
+      "page": 1,
+      "context": "Qu'est-ce qui n'est pas assuré ? - Maladie en cours de voyage (citation reprise après la coupure Grand-/Duché)"
+    },
+    {
+      "quote": "En général, les dommages causés par le dol ou la faute lourde de \nl’assuré ou des personnes qui l’accompagnent, ou encore dommages \nsurvenus à l’assuré et dus à son état d’ivresse\n",
+      "page": 1,
+      "context": "Qu'est-ce qui n'est pas assuré ?"
+    },
+    {
+      "quote": "Assistance : rapatriement de l’assuré malade ou blessé : montant \nmaximal de 5.000 EUR pour la zone 2.\n",
+      "page": 1,
+      "context": "Y a-t-il des exclusions à la couverture ?"
+    },
+    {
+      "quote": "Rapatriement après décès : zone 1 – montant maximal de 2.500 EUR ; \nzone 2 – montant maximal de 5.000 EUR\n",
+      "page": 1,
+      "context": "Y a-t-il des exclusions à la couverture ?"
+    },
+    {
+      "quote": "Bagages : vol des bagages transportés dans des véhicules seulement \ncouvert si véhicules fermés à clé.\n",
+      "page": 1,
+      "context": "Y a-t-il des exclusions à la couverture ?"
+    },
+    {
+      "quote": "Zone 1 : assurance valable dans toute l’Europe, ainsi qu’en Algérie, Égypte, Israël, Jordanie, Liban, Libye, Maroc, Syrie, \nTunisie, Turquie, Iles Canaries et Madère.",
+      "page": 2,
+      "context": "Où suis-je couvert(e)?"
+    },
+    {
+      "quote": "La garantie «Assistance» ne produit ses effets qu’en cas de déplacement hors le Grand-Duché de Luxembourg.\n",
+      "page": 2,
+      "context": "Où suis-je couvert(e)?"
+    },
+    {
+      "quote": "Le preneur d’assurance et/ou l’Assuré doivent, dès que possible et en tout cas dans les 8 jours de sa survenance aviser la \nCompagnie du sinistre.",
+      "page": 2,
+      "context": "Quelles sont mes obligations ? - En cas de sinistre"
+    },
+    {
+      "quote": "Le contrat est conclu pour la durée prévue aux Conditions Particulières. Sauf reconduction tacite, le contrat cessera ses effets le \njour de sa date d’expiration à 24h00.\n",
+      "page": 2,
+      "context": "Quand commence la couverture et quand prend-elle fin ?"
+    }
+  ],
+  "gaps": [
+    "INTITULÉ DE RUBRIQUE PEU FIABLE : la rubrique des exclusions porte tous les plafonds du document. Le défaut est conservé tel quel et signalé ici, il n'a pas été réparé. La rubrique \"Y a-t-il des exclusions à la couverture ?\n\" contient huit items dont un seul est une exclusion au sens strict (\"Rapatriement des assurés : risque de panne exclu pour les voitures \nde plus de 10 ans.\n\"). Les sept autres sont une restriction territoriale, une condition de durée d'hospitalisation, une condition de fermeture du véhicule, et surtout LES SEULS MONTANTS CHIFFRÉS DE TOUT LE DOCUMENT : 5.000 EUR, 2.500 EUR et 1.250 EUR selon la prestation et la zone. Les huit items sont conservés dans `exclusions` à l'emplacement où le document les imprime, chaque `description` commençant par le nom de la rubrique d'origine. En outre, et parce que chaque ligne nomme explicitement la garantie qu'elle plafonne, le montant a AUSSI été porté dans le champ `limits` de la garantie correspondante : sans cela le plafond de chaque garantie serait absent du champ prévu pour lui alors que le document l'énonce sans ambiguïté. Ce report est une mise en structure, pas une réparation du document : aucun montant n'a été déplacé, réécrit ni déduit, et la rubrique d'origine reste lisible dans `exclusions`.",
+    "Divergence de libellé pour une même garantie, enregistrée et non résolue. La garantie est imprimée \"Rapatriement en cas de décès à l’étranger\" dans la rubrique \"Qu’est-ce qui est assuré ?\n\" et \"Rapatriement après décès\" dans la rubrique \"Y a-t-il des exclusions à la couverture ?\n\" qui porte ses plafonds. Le rattachement a été fait sur cette base, la position dans la liste et l'objet étant identiques, et les deux libellés sont conservés verbatim dans les champs concernés.",
+    "Risk carrier undeterminable from this document. Le bandeau d'en-tête n'imprime que la marque \"LALUX Assurances - Produit : Vacances Sans Soucis\n\" et le corps du texte ne désigne le porteur de risque que par \"la Compagnie\", \"l'assureur\" et \"l'entreprise d'assurances\". Aucune forme juridique, aucun numéro R.C.S., aucun siège social et aucun superviseur ne figurent sur les deux pages. lalux exploite deux entités agréées distinctes et ce document ne permet pas de choisir entre elles : aucune entité porteuse de risque n'a été enregistrée. `insurer_name` reprend la marque imprimée \"LALUX Assurances\" plutôt que la valeur \"lalux\" des métadonnées ; `insurer_slug` est recopié tel quel.",
+    "`edition_date` et `reference` sont nuls : aucune date d'édition, aucun code de version, aucune année et aucun pied de page ne figurent sur les deux pages. Rien n'a été repris du nom de fichier ni des métadonnées du PDF.",
+    "Les puces sont des images bitmap, ni du texte ni des tracés vectoriels. `page.get_text(\"text\")` ne renvoie qu'une tabulation et une espace à l'emplacement de chaque marque. L'appartenance a été reconstruite à partir des blocs image de `get_text(\"dict\")`, placés par coordonnée, puis vérifiée sur rendu. L'arithmétique boucle exactement sur la page 1 : 25 blocs image = 11 coches vertes (120x133 px, x0 29.8, y 352.8 à 724.4) dans \"Qu’est-ce qui est assuré ?\n\" + 6 croix rouges (120x121 px, x0 307.6, y 311.9 à 477.8) dans \"Qu’est-ce qui n’est pas assuré ?\n\" + 8 points d'exclamation orange (40x148 px, x0 309.5, y 583.6 à 776.2) dans \"Y a-t-il des exclusions à la couverture ?\n\". La page 2 porte 2 coches vertes (x0 66.8) qui marquent les deux items de \"Où suis-je couvert(e)?\n\". Chacune des 25 marques est alignée sur la ligne de base de l'item auquel elle se rapporte ; aucun décalage n'a été observé. Les 11 coches correspondent une pour une aux 11 garanties enregistrées. Ces décomptes sont énoncés ici et non dans `key_quotes`, les marques image n'étant pas du texte et ne pouvant donc pas être ancrées.",
+    "Vérification d'inversion de colonnes effectuée et NÉGATIVE. La page 1 est sur deux colonnes (colonne de gauche x0 29.8, colonne de droite x0 307.6). L'ordre des blocs renvoyé par PyMuPDF émet l'intégralité de la colonne de gauche (x0 29.8 à 66.6) avant l'intégralité de la colonne de droite (x0 307.6 à 484.7), et de haut en bas dans chacune ; les garanties, les items non assurés et les exclusions se rattachent donc à leur rubrique correcte et rien n'est croisé. Les trois polarités sont en outre portées par trois types de marques visuellement distincts à des abscisses distinctes. Un artefact d'ordre de flux existe et il est sans conséquence : le bandeau d'en-tête pleine largeur (\"Vacances Sans Soucis\" / \"Document d'information sur le produit d'assurance\" / \"LALUX Assurances - Produit : Vacances Sans Soucis\"), l'\"Avertissement\" et la rubrique \"De quel type d'assurance s'agit-il ?\" sont imprimés respectivement en haut et en bas de la page mais émis en FIN de flux, après les trois encadrés ; aucun ne porte de garantie ni d'exclusion, donc aucune valeur n'est mal rattachée.",
+    "COUPURE DE MOT PAR TRAIT D'UNION EN FIN DE LIGNE, contournée dans les citations. La couche texte de la page 1 contient \"Grand-\\nDuché\" dans l'exclusion \"Maladie en cours de voyage\" : le mot est coupé par un vrai trait d'union suivi d'un saut de ligne, ce qu'aucune normalisation d'espaces ne répare. La `description` de cette exclusion conserve l'extrait réel de la couche texte, coupure comprise ; la citation correspondante de `key_quotes` a délibérément été prise APRÈS la coupure (\"Duché de Luxembourg, frais de cure ou frais d'accouchement\") pour rester un extrait exact et sûrement ancrable. C'est la seule coupure de ce type dans le document.",
+    "Montants et plafonds relevés verbatim tels qu'imprimés, séparateur de milliers par point et code monétaire EUR après le nombre : \"5.000 EUR\", \"2.500 EUR\", \"1.250 EUR\". Aucun signe € n'apparaît dans le document, il n'y a donc pas de problème de glyphe manquant ; l'unité est écrite en toutes lettres sur la page. Autres valeurs chiffrées conservées verbatim : \"enfants de moins de 15 ans\", \"voitures de plus de 10 ans\", \"hospitalisations de 7 jours au moins\", \"un délai de 2 ans\", \"dans les 8 jours\", \"24h00\", zones \"1*\" et \"2**\". Aucune franchise n'est mentionnée : `deductibles` est nul. `waiting_periods` est vide et `prescription_period` est nul, aucun des deux n'étant évoqué. Aucun capital décès ni barème d'invalidité n'est chiffré : les garanties \"Accidents de voyage\" n'ont donc pas de `limits`.",
+    "`is_optional` est vrai sur les onze garanties parce que le document le dit lui-même en deux endroits : la rubrique s'ouvre sur \"Garanties accordées (si stipulées dans les Conditions particulières) :\n\" et le type d'assurance précise \"Sont assurés, au choix et dépendant de la zone de couverture choisie (1* ou 2**), les éléments décrits ci-après.\" Aucune formule ni aucun niveau n'est proposé ; ce sont des garanties à la carte, subordonnées aux Conditions particulières. Ce n'est pas une déduction.",
+    "La portée territoriale dépend de la zone souscrite et a été rattachée garantie par garantie plutôt que globalisée. La zone est \"stipulée dans les Conditions particulières\" et le document donne les deux définitions (zone 1 : Europe plus une liste de pays nommés ; zone 2 : monde entier). Deux restrictions territoriales propres s'y ajoutent et ont été portées sur les garanties concernées : la garantie Assistance ne joue \"qu'en cas de déplacement hors le Grand-Duché de Luxembourg\", et le rapatriement pour voiture immobilisée ou volée est marqué \"(seulement zone 1)\" dans la rubrique des garanties elle-même.",
+    "Typographie imprimée conservée verbatim, non corrigée : \"La garantie «Assistance» ne produit ses effets qu’en cas de déplacement hors le Grand-Duché de Luxembourg.\n\" est imprimé \"hors le Grand-Duché\" au lieu de \"hors du Grand-Duché\", alors que la rubrique des exclusions imprime bien \"hors du Grand-Duché de Luxembourg\" ; la garantie Bagages est introduite par des guillemets français «Assistance» sur la page 2 là où la page 1 n'en utilise pas ; \"Iles Canaries\" est imprimé sans accent ; et l'exclusion Bagages se termine par des points de suspension (\"…\") indiquant une énumération ouverte. Rien n'a été réparé, les citations restant des extraits exacts de la couche texte.",
+    "Le document utilise 90 apostrophes courbes (U+2019), des espaces fines (U+2009) devant les deux-points et les points d'interrogation, et des guillemets français. Chaque entrée de `key_quotes` a été découpée par programme dans la couche texte PyMuPDF plutôt que retapée, de sorte que ces caractères sont préservés à l'identique. Aucune espace de largeur nulle, aucun trait d'union conditionnel, aucun glyphe de zone privée et aucun caractère de contrôle U+0007 n'ont été trouvés dans les deux pages.",
+    "`definitions` est vide : le document ne comporte ni glossaire ni terme défini. Les définitions des zones 1 et 2 sont conservées dans `territorial_scope`, dans `special_conditions` et dans `key_quotes`.",
+    "`target_audience` est nul : le document dit que le produit \"est destiné aux personnes souhaitant s'assurer contre certains aléas\" liés à un voyage, ce qui décrit un besoin et non un segment de clientèle - le mot \"personnes\" ne permet pas de trancher entre particuliers et indépendants. Le libellé est conservé verbatim dans `target_audience_note` et n'a pas été converti en catégorie.",
+    "`duration_and_cancellation.tacit_renewal` est nul : la seule mention est \"Sauf reconduction tacite, le contrat cessera ses effets le jour de sa date d'expiration à 24h00\", qui évoque l'hypothèse d'une reconduction tacite sans dire si elle s'applique à ce contrat. Rien n'a été tranché. La rubrique \"Comment puis-je résilier le contrat ?\" ne contient qu'une phrase sur l'annulation d'un contrat court terme et n'énonce ni préavis ni forme : `notice_period` est nul et `special_rights` est vide.",
+    "Ce produit est publié par le même assureur en plusieurs versions linguistiques. Ce document a été extrait de son seul texte français ; aucun libellé, porteur de risque, date ou plafond n'a été repris d'un fichier frère pour compléter quoi que ce soit ici."
+  ]
+}
