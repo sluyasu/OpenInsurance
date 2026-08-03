@@ -55,7 +55,7 @@ generated: true
 - [Multi Vie - Tarifs](../products/macif/Multi%20Vie%20-%20Tarifs.md) - Conditions tarifaires · réf. MUT/ FC/ FRAIS/MV - 06/24
 
 ### [Assurance auto](../branches/Assurance%20auto.md)
-- [Contrat Automobile – Voitures particulières, fourgons et fourgonnettes - IPID](../products/macif/Contrat%20Automobile%20%E2%80%93%20Voitures%20particuli%C3%A8res%2C%20fourgons%20et%20fourgonnettes%20-%20IPID.md) - IPID / Fiche d'information (2022-06) · réf. VEH  VPFG - 06/22
+- [Contrat Automobile – Voitures particulières, fourgons et fourgonnettes (Voitures particulières, fourgons et fourgonnette](../products/macif/Contrat%20Automobile%20%E2%80%93%20Voitures%20particuli%C3%A8res%2C%20fourgons%20et%20fourgonnettes%20%28Voitures%20particuli%C3%A8res%2C%20fourgons%20et%20fourgonnette.md) - IPID / Fiche d'information (2022-06) · réf. VEH  VPFG - 06/22
 - [Contrat Camping-car Autocaravane - IPID](../products/macif/Contrat%20Camping-car%20Autocaravane%20-%20IPID.md) - IPID / Fiche d'information (2018-10) · réf. LOIS CCAR 10/18
 - [Contrat Camping-car, Autocaravane](../products/macif/Contrat%20Camping-car%2C%20Autocaravane.md) - Conditions générales (2019-01) · réf. LOIS / CARACC / 05 - 01 / 19 - N 891
 - [Contrat Macif Pann'Auto - IPID](../products/macif/Contrat%20Macif%20Pann%27Auto%20-%20IPID.md) - IPID / Fiche d'information (12/22) · réf. VEH/GPM/05 12/22
@@ -90,7 +90,7 @@ generated: true
 - [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire - IPID](../products/macif/Contrat%20Habitation%20-%20Formule%20%C3%89conomique%20-%20R%C3%A9sidence%20principale%20-%20R%C3%A9sidence%20secondaire%20-%20IPID.md) - IPID / Fiche d'information (04/24) · réf. HAB-ECO 04/24
 - [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire](../products/macif/Contrat%20Habitation%20-%20Formule%20%C3%89conomique%20-%20R%C3%A9sidence%20principale%20-%20R%C3%A9sidence%20secondaire.md) - Conditions générales (05/18) · réf. HAB/ECO/05 - 05/18 - N781
 - [Contrat Macif Habitation - Formule Construction - IPID](../products/macif/Contrat%20Macif%20Habitation%20-%20Formule%20Construction%20-%20IPID.md) - IPID / Fiche d'information (2025-06) · réf. MACIF HAB MC 06/25
-- [Contrat Macif Habitation - Formules Économique, Équilibrée, Confort - IPID](../products/macif/Contrat%20Macif%20Habitation%20-%20Formules%20%C3%89conomique%2C%20%C3%89quilibr%C3%A9e%2C%20Confort%20-%20IPID.md) - IPID / Fiche d'information (06/25) · réf. MACIF HAB RS 06/25
+- [Contrat Macif Habitation - Formules Économique, Équilibrée, Confort (Résidence secondaire) - IPID](../products/macif/Contrat%20Macif%20Habitation%20-%20Formules%20%C3%89conomique%2C%20%C3%89quilibr%C3%A9e%2C%20Confort%20%28R%C3%A9sidence%20secondaire%29%20-%20IPID.md) - IPID / Fiche d'information (06/25) · réf. MACIF HAB RS 06/25
 - [Contrat Macif Habitation - Formules Économique, Équilibrée, Confort (Assurance multirisques habitation - Résidence princ](../products/macif/Contrat%20Macif%20Habitation%20-%20Formules%20%C3%89conomique%2C%20%C3%89quilibr%C3%A9e%2C%20Confort%20%28Assurance%20multirisques%20habitation%20-%20R%C3%A9sidence%20princ.md) - IPID / Fiche d'information (06/25) · réf. MACIF HAB RP 06/25
 - [Contrat Sociétaire Non Occupant - Annexe spéciale Immeubles en copropriété](../products/macif/Contrat%20Soci%C3%A9taire%20Non%20Occupant%20-%20Annexe%20sp%C3%A9ciale%20Immeubles%20en%20copropri%C3%A9t%C3%A9.md) - Conditions générales (03/11) · réf. HAB/SNOIC/07 - 03/11 - N067
 - [Contrat Sociétaire Non Occupant - Conditions Générales - Annexe spéciale Immeubles locatifs](../products/macif/Contrat%20Soci%C3%A9taire%20Non%20Occupant%20-%20Conditions%20G%C3%A9n%C3%A9rales%20-%20Annexe%20sp%C3%A9ciale%20Immeubles%20locatifs.md) - Conditions générales · réf. HAB/SNOIL/07 - 11/10 - N069
@@ -116,8 +116,8 @@ generated: true
 - [contrat GARANTIE OBSÈQUES - IPID](../products/macif/contrat%20GARANTIE%20OBS%C3%88QUES%20-%20IPID.md) - IPID / Fiche d'information (01/26) · réf. DIPA GARANTIE OBSÈQUES - 01/26
 
 ### [Protection juridique](../branches/Protection%20juridique.md)
-- [Protection Juridique - IPID](../products/macif/Protection%20Juridique%20-%20IPID.md) - IPID / Fiche d'information (2020-06) · réf. Protection Juridique - PJ PRO&ESS  06/20
-- [Protection Juridique - IPID](../products/macif/Protection%20Juridique%20-%20IPID%20%282%29.md) - IPID / Fiche d'information (10/18) · réf. PJ 10/18
+- [Protection Juridique (PRO&ESS) - IPID](../products/macif/Protection%20Juridique%20%28PRO%26ESS%29%20-%20IPID.md) - IPID / Fiche d'information (2020-06) · réf. Protection Juridique - PJ PRO&ESS  06/20
+- [Protection Juridique - IPID](../products/macif/Protection%20Juridique%20-%20IPID.md) - IPID / Fiche d'information (10/18) · réf. PJ 10/18
 
 ### [Responsabilité civile vie privée](../branches/Responsabilit%C3%A9%20civile%20vie%20priv%C3%A9e.md)
 - [Contrat Multigarantie Vie Privée - Responsabilité Civile - IPID](../products/macif/Contrat%20Multigarantie%20Vie%20Priv%C3%A9e%20-%20Responsabilit%C3%A9%20Civile%20-%20IPID.md) - IPID / Fiche d'information (10/18) · réf. HAB MVP RC 10/18
@@ -132,7 +132,7 @@ generated: true
 
 ### [Complémentaire santé](../branches/Compl%C3%A9mentaire%20sant%C3%A9.md)
 - [CONTRAT MACIF SANTÉ DES TERRITORIAUX - IPID](../products/macif/CONTRAT%20MACIF%20SANT%C3%89%20DES%20TERRITORIAUX%20-%20IPID.md) - IPID / Fiche d'information (2026-06)
-- [Complémentaire santé de la Branche de l'Aide, de l'Accompagnement des Soins et des Services à Domicile - Fiche](../products/macif/Compl%C3%A9mentaire%20sant%C3%A9%20de%20la%20Branche%20de%20l%27Aide%2C%20de%20l%27Accompagnement%20des%20Soins%20et%20des%20Services%20%C3%A0%20Domicile%20-%20Fiche.md) - Fiche produit (01/2023) · réf. Santé Branche de l'Aide, de l'Accompagnement, des Soins et des Services à Domicile - Encart tarifaire RG - 01/2023
+- [Complémentaire santé de la Branche de l'Aide, de l'Accompagnement des Soins et des Services à Domicile (Régime Général) ](../products/macif/Compl%C3%A9mentaire%20sant%C3%A9%20de%20la%20Branche%20de%20l%27Aide%2C%20de%20l%27Accompagnement%20des%20Soins%20et%20des%20Services%20%C3%A0%20Domicile%20%28R%C3%A9gime%20G%C3%A9n%C3%A9ral%29%20.md) - Fiche produit (01/2023) · réf. Santé Branche de l'Aide, de l'Accompagnement, des Soins et des Services à Domicile - Encart tarifaire RG - 01/2023
 - [Garantie Santé](../products/macif/Garantie%20Sant%C3%A9.md) - Conditions générales (2023-01) · réf. UNI/PREI/GS/05 01/23
 - [MACIF HOSPITALISATION](../products/macif/MACIF%20HOSPITALISATION.md) - Conditions générales (01/24) · réf. U??? - UNI/PREI/MH/05 - 01/24
 - [Macif Mutuelle Entreprises](../products/macif/Macif%20Mutuelle%20Entreprises.md) - Conditions générales (2025-01) · réf. CG M M E - 01/25
@@ -148,7 +148,7 @@ generated: true
 - [contrat GARANTIE SANTÉ - IPID](../products/macif/contrat%20GARANTIE%20SANT%C3%89%20-%20IPID%20%282%29.md) - IPID / Fiche d'information (09/2019) · réf. DIPA GS 09/2019
 
 ### [Voyage et assistance](../branches/Voyage%20et%20assistance.md)
-- [Assistance médicale « Carte Visa Classic »](../products/macif/Assistance%20m%C3%A9dicale%20%C2%AB%20Carte%20Visa%20Classic%20%C2%BB.md) - Conditions générales (01/01/2021) · réf. Notice d'Information n° 922091 - « Notice d'Information valant Convention d'assistance - Carte Visa Classic n°922091 - 01/01/2021 » (en-tête courant de chaque page)
+- [Assistance médicale « Carte Visa Classic » (Assistance médicale - Contrat Etranger)](../products/macif/Assistance%20m%C3%A9dicale%20%C2%AB%20Carte%20Visa%20Classic%20%C2%BB%20%28Assistance%20m%C3%A9dicale%20-%20Contrat%20Etranger%29.md) - Conditions générales (01/01/2021) · réf. Notice d'Information n° 922091 - « Notice d'Information valant Convention d'assistance - Carte Visa Classic n°922091 - 01/01/2021 » (en-tête courant de chaque page)
 - [CARTE VISA Premier](../products/macif/CARTE%20VISA%20Premier.md) - Conditions générales · réf. CONTRAT n° 5073788704
 
 ## Source

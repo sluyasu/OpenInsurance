@@ -76,7 +76,7 @@ generated: true
 - [Assurance multirisque habitation - IPID](../products/thelem/Assurance%20multirisque%20habitation%20-%20IPID.md) - IPID / Fiche d'information (janvier 2026)
 - [Assurance multirisque habitation Propriétaire non occupant - IPID](../products/thelem/Assurance%20multirisque%20habitation%20Propri%C3%A9taire%20non%20occupant%20-%20IPID.md) - IPID / Fiche d'information (janvier 2026)
 - [Assurance multirisque habitation du mobil home - IPID](../products/thelem/Assurance%20multirisque%20habitation%20du%20mobil%20home%20-%20IPID.md) - IPID / Fiche d'information (janvier 2026)
-- [Assurance multirisque immeuble - IPID](../products/thelem/Assurance%20multirisque%20immeuble%20-%20IPID.md) - IPID / Fiche d'information (août 2025)
+- [Assurance multirisque immeuble (COPROPRIETE) - IPID](../products/thelem/Assurance%20multirisque%20immeuble%20%28COPROPRIETE%29%20-%20IPID.md) - IPID / Fiche d'information (août 2025)
 - [Assurance multirisque immeuble - PROPRIETAIRE NON OCCUPANT - IPID](../products/thelem/Assurance%20multirisque%20immeuble%20-%20PROPRIETAIRE%20NON%20OCCUPANT%20-%20IPID.md) - IPID / Fiche d'information (juillet 2023)
 
 ### [Deux-roues, quads et voiturettes](../branches/Deux-roues%2C%20quads%20et%20voiturettes.md)

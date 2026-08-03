@@ -615,8 +615,8 @@ AIDES AUDITIVES — Équipement hors 100 % santé. Ligne de tableau « Équipe
 
 ## Documents liés
 
-- [Direct Assurance Santé - contrat responsable - IPID](Direct%20Assurance%20Sant%C3%A9%20-%20contrat%20responsable%20-%20IPID.md) - IPID / Fiche d'information, éd. 12/2024
-- [Direct Assurance Santé - formules Hospi (contrat non responsable) - IPID](Direct%20Assurance%20Sant%C3%A9%20-%20formules%20Hospi%20%28contrat%20non%20responsable%29%20-%20IPID.md) - IPID / Fiche d'information, éd. 12/2024
+- [Direct Assurance Santé - contrat responsable (Formules Essentielle, Essentielle +, Equilibre, Equilibre +, Liberté, Libe](Direct%20Assurance%20Sant%C3%A9%20-%20contrat%20responsable%20%28Formules%20Essentielle%2C%20Essentielle%20%2B%2C%20Equilibre%2C%20Equilibre%20%2B%2C%20Libert%C3%A9%2C%20Libe.md) - IPID / Fiche d'information, éd. 12/2024
+- [Direct Assurance Santé - formules Hospi (contrat non responsable) (Formules Hospi et Hospi + (contrat non responsable)) ](Direct%20Assurance%20Sant%C3%A9%20-%20formules%20Hospi%20%28contrat%20non%20responsable%29%20%28Formules%20Hospi%20et%20Hospi%20%2B%20%28contrat%20non%20responsable%29%29%20.md) - IPID / Fiche d'information, éd. 12/2024
 - [Direct Assurance Santé](Direct%20Assurance%20Sant%C3%A9.md) - Conditions générales, éd. 12.24 (code de pied de page « SANTÉ_12.24_VF »)
 
 ## Source & fidélité

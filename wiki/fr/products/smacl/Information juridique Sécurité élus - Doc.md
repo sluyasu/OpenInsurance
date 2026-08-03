@@ -144,7 +144,7 @@ Domaine de droit couvert par le service d’information juridique : Le fonctionn
 
 - Extension / option du produit : **Sécurité élus**
 - [Information juridique Associations - Doc](Information%20juridique%20Associations%20-%20Doc.md) - Document, éd. 01/2024
-- [Information juridique Associations - Doc](Information%20juridique%20Associations%20-%20Doc%20%282%29.md) - Document, éd. 01/2024
+- [Information juridique Associations (SA) - Doc](Information%20juridique%20Associations%20%28SA%29%20-%20Doc.md) - Document, éd. 01/2024
 - [Information juridique Collectivités - Doc](Information%20juridique%20Collectivit%C3%A9s%20-%20Doc%20%282%29.md) - Document, éd. 01/2024
 - [Information juridique Collectivités - Doc](Information%20juridique%20Collectivit%C3%A9s%20-%20Doc.md) - Document, éd. 01/2024
 

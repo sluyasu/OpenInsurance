@@ -890,8 +890,8 @@ Conformément aux dispositions de l'article L 114-1 du Code des assurances, tout
 ## Documents liés
 
 - [Direct Assurance Santé - Exemples de remboursements - Doc](Direct%20Assurance%20Sant%C3%A9%20-%20Exemples%20de%20remboursements%20-%20Doc.md) - Document
-- [Direct Assurance Santé - contrat responsable - IPID](Direct%20Assurance%20Sant%C3%A9%20-%20contrat%20responsable%20-%20IPID.md) - IPID / Fiche d'information, éd. 12/2024
-- [Direct Assurance Santé - formules Hospi (contrat non responsable) - IPID](Direct%20Assurance%20Sant%C3%A9%20-%20formules%20Hospi%20%28contrat%20non%20responsable%29%20-%20IPID.md) - IPID / Fiche d'information, éd. 12/2024
+- [Direct Assurance Santé - contrat responsable (Formules Essentielle, Essentielle +, Equilibre, Equilibre +, Liberté, Libe](Direct%20Assurance%20Sant%C3%A9%20-%20contrat%20responsable%20%28Formules%20Essentielle%2C%20Essentielle%20%2B%2C%20Equilibre%2C%20Equilibre%20%2B%2C%20Libert%C3%A9%2C%20Libe.md) - IPID / Fiche d'information, éd. 12/2024
+- [Direct Assurance Santé - formules Hospi (contrat non responsable) (Formules Hospi et Hospi + (contrat non responsable)) ](Direct%20Assurance%20Sant%C3%A9%20-%20formules%20Hospi%20%28contrat%20non%20responsable%29%20%28Formules%20Hospi%20et%20Hospi%20%2B%20%28contrat%20non%20responsable%29%29%20.md) - IPID / Fiche d'information, éd. 12/2024
 
 ## Source & fidélité
 

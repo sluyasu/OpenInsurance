@@ -78,7 +78,7 @@ Barème de frais MAIF d’une page, édition 03/2026, transverse aux contrats d�
 
 ## Documents liés
 
-- [Barème de frais applicables à compter du 01-07-2024 pour les Associations et les Collectivités - Tarifs](Bar%C3%A8me%20de%20frais%20applicables%20%C3%A0%20compter%20du%2001-07-2024%20pour%20les%20Associations%20et%20les%20Collectivit%C3%A9s%20-%20Tarifs.md) - Conditions tarifaires, éd. 07/2024
+- [Barème de frais applicables à compter du 01-07-2024 pour les Associations et les Collectivités (Associations et Collecti](Bar%C3%A8me%20de%20frais%20applicables%20%C3%A0%20compter%20du%2001-07-2024%20pour%20les%20Associations%20et%20les%20Collectivit%C3%A9s%20%28Associations%20et%20Collecti.md) - Conditions tarifaires, éd. 07/2024
 
 ## Source & fidélité
 

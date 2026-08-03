@@ -13,7 +13,7 @@ target_audience_note: 'Le document ne désigne aucune catégorie de clientèle. 
   ou copropriétaire, à couvrir sa responsabilité civile et à garantir ses droits.
   » Les restrictions évoquent « le sociétaire, son conjoint ou l''enfant à charge
   ».'
-reference: IPID NAVIGATION - RGAA
+reference: IPID NAVIGATION
 edition_date: 12/2023
 lang: fr
 tags:
@@ -22,13 +22,13 @@ tags:
 - insurer/maif
 aliases:
 - Assurance Navigation
-source_url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/document-information-assurance-bateau.pdf
+source_url: https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/document-information-assurance-navigation.pdf
 source_pages: 2
 fetched_at: '2026-07-30'
 extraction_model: claude-code-subagent:scale
 prompt_version: '1.1'
 product_family: assurance-navigation
-variant: RGAA
+variant: null
 edition_status: null
 edition_age_years: 3
 superseded: null
@@ -167,7 +167,7 @@ Service d'aide à la personne selon les bénéficiaires concernés.
 
 | Exclusion | Description | S'applique à | Page |
 |---|---|---|---|
-| La pratique du parachutisme ascensionnel | La pratique du parachutisme ascensionnel. | all | p. 1 |
+| La pratique du parachutisme ascensionne | La pratique du parachutisme ascensionne. (mot imprimé tel quel dans la source, apparemment tronqué pour « ascensionnel ») | all | p. 1 |
 | Les travaux d'entretien liés à l'usage du bateau | Les travaux d'entretien liés à l'usage du bateau. | all | p. 1 |
 | La panne et tout incident de caractère mécanique | La panne et tout incident de caractère mécanique. | all | p. 1 |
 | Dommages résultant de cataclysmes | Principales exclusions — Les dommages résultant de tremblement de terre, éruptions volcaniques, raz-de-marée, choc mécanique des vagues et autres cataclysmes. | all | p. 1 |
@@ -214,7 +214,7 @@ Service d'aide à la personne selon les bénéficiaires concernés.
 ## Prime
 
 - La cotisation est exigible au 1er janvier.
-- Le règlement peut être effectué en une fois par chèque ou prélèvement automatique ou mensuellement par prélèvement automatique.
+- Le règlement peut être effectué en une fois par chèque ou prélèvement automatique, ou mensuellement par prélèvement automatique.
 
 ## Conditions particulières
 
@@ -229,23 +229,22 @@ Service d'aide à la personne selon les bénéficiaires concernés.
 
 - Document de type IPID (document d'information normalisé, 2 pages) : il ne contient ni lexique/définitions, ni délai de prescription, ni procédure de sinistre détaillée. Ces sections sont donc vides ; elles figurent dans les conditions générales, non fournies ici.
 - Assureur imprimé sur le document : « MAIF - Entreprise d'assurance immatriculée en France et régie par le Code des assurances - 775 709 702 ». Aucune mention de MAIF VIE ni d'un autre porteur de risque.
-- Date d'édition : le document ne porte aucune mention « édition » ; la seule date imprimée est « 12/2023 », seule sur la dernière ligne de la page 2. Les métadonnées PDF donnent creationDate 2024-12-06 et modDate 2024-12-26, qui ne correspondent pas à cette date imprimée : la date imprimée a été retenue.
-- COLLISION DE NOM : deux PDF MAIF distincts (source_url .../document-information-assurance-bateau.pdf et .../document-information-assurance-navigation.pdf, sha256 différents) impriment exactement le même nom de produit « Assurance Navigation » et la même date 12/2023. Ils ne se distinguent que par leur en-tête courant : « IPID NAVIGATION - RGAA » pour celui-ci, « IPID NAVIGATION » pour l'autre. Ce sont des variantes parallèles (version accessible RGAA vs version standard), pas des éditions successives. En aval, les deux produiront le même nom de page et risquent de s'écraser mutuellement : les désambiguïser par source_url ou par `reference`/`variant`.
-- Le champ `variant` a été renseigné « RGAA » d'après l'en-tête courant imprimé. RGAA (accessibilité) n'est pas un canal de distribution ni une formule tarifaire : c'est le seul élément imprimé qui distingue ce fichier de son jumeau.
-- Le symbole « coche » annoncé par la phrase « Les garanties précédées d'une coche sont systématiquement prévues au contrat » n'est pas un caractère lisible dans la couche texte : il y est encodé par le caractère de contrôle U+0001 (46 occurrences) et U+0007 (5). Le marqueur précède bien chaque garantie listée sous « Qu'est-ce qui est assuré ? », mais l'appartenance coche/non-coche de chaque ligne ne peut pas être vérifiée de façon fiable sur la seule couche texte. `is_optional: false` a été retenu pour toutes les garanties de cette section, aucune section « garanties optionnelles » ne figurant dans le document.
-- Couche texte : ce fichier est la variante RGAA, dont l'ordre de lecture diffère de la mise en page visuelle (les titres « Qu'est-ce qui n'est pas assuré ? » et « Y a-t-il des exclusions à la couverture ? » apparaissent au fil du texte). Les citations ont été découpées comme spans exacts de la couche texte.
-- Le mot « Saint-Barthélemy » est coupé par un retour à la ligne réel (« Saint-\nBarthélemy ») dans le paragraphe « Principales restrictions » de la page 1 ; les citations évitent cette coupure.
+- Date d'édition : le document ne porte aucune mention « édition » ; la seule date imprimée est « 12/2023 », seule sur la dernière ligne de la page 2. Les métadonnées PDF donnent creationDate 2023-12-11 et modDate 2024-02-15, qui ne correspondent pas exactement : la date imprimée a été retenue.
+- COLLISION DE NOM : deux PDF MAIF distincts (source_url .../document-information-assurance-navigation.pdf et .../document-information-assurance-bateau.pdf, sha256 différents) impriment exactement le même nom de produit « Assurance Navigation » et la même date 12/2023. Ils ne se distinguent que par leur en-tête courant : « IPID NAVIGATION » pour celui-ci, « IPID NAVIGATION - RGAA » pour l'autre. Ce sont des variantes parallèles (version standard vs version accessible RGAA), pas des éditions successives. En aval, les deux produiront le même nom de page et risquent de s'écraser mutuellement : les désambiguïser par source_url ou par `reference`/`variant`.
+- DIVERGENCE ENTRE LES DEUX VARIANTES : ce fichier imprime « La pratique du parachutisme ascensionne. » (mot apparemment tronqué), alors que la variante RGAA imprime « La pratique du parachutisme ascensionnel. ». La formulation de ce fichier a été conservée verbatim, sans correction.
+- Le symbole « coche » annoncé par la phrase « Les garanties précédées d'une coche sont systématiquement prévues au contrat » n'est pas un caractère lisible dans la couche texte : il y est encodé par le caractère de contrôle U+0007 (24 occurrences). Ce marqueur est de plus absent devant plusieurs lignes (par exemple « Incendie. », « Acte de vandalisme. », « Capitaux décès »), la couche texte le perdant par endroits. L'appartenance coche/non-coche de chaque ligne ne peut donc pas être vérifiée sur la seule couche texte ; `is_optional: false` a été retenu pour toutes les garanties de la section « Qu'est-ce qui est assuré ? », aucune section « garanties optionnelles » ne figurant dans le document.
+- Ordre de lecture de la couche texte non conforme à la mise en page : les titres « Qu'est-ce qui n'est pas assuré ? », « Y a-t-il des exclusions à la couverture ? » (page 1) et les cinq titres de la page 2 sont regroupés en tête de leur page, séparés des paragraphes qu'ils introduisent. Le rattachement titre/contenu a été rétabli d'après la mise en page ; les citations restent des spans exacts de la couche texte.
 - Typographie des montants non homogène dans la source : la plupart des montants utilisent une espace fine (U+2009) et une espace insécable avant « € », mais « dans la limite de 20 000 € » (frais de retirement) est imprimé avec des espaces ordinaires. Conservé verbatim.
 - Aucune franchise « standard » unique n'est indiquée : le document annonce une franchise forfaitaire variable selon le groupe tarifaire et l'usage du bateau, sans en chiffrer le montant de base.
 - La section « Où suis-je couvert ? » énonce une territorialité globale ; elle a été portée dans `special_conditions` plutôt que recopiée dans le `territorial_scope` de chaque garantie, le document n'indiquant pas garantie par garantie laquelle des quatre zones s'applique.
 
 ## Documents liés
 
+- [Assurance Navigation (RGAA) - IPID](Assurance%20Navigation%20%28RGAA%29%20-%20IPID.md) - IPID / Fiche d'information, éd. 12/2023
 - [Assurance Navigation](Assurance%20Navigation.md) - Conditions générales, éd. 04/2026
-- [Assurance Navigation - IPID](Assurance%20Navigation%20-%20IPID%20%282%29.md) - IPID / Fiche d'information, éd. 12/2023
 
 ## Source & fidélité
 
-- Source : [https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/document-information-assurance-bateau.pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/document-information-assurance-bateau.pdf) - téléchargé le 2026-07-30 - 2 pages
+- Source : [https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/document-information-assurance-navigation.pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/document-information-assurance-navigation.pdf) - téléchargé le 2026-07-30 - 2 pages
 - Extraction : claude-code-subagent:scale · prompt v1.1
 - ⚠️ Ceci n'est pas le document officiel de l'assureur et peut contenir des erreurs d'extraction. Information, non un conseil - vérifiez toujours par rapport au document source.

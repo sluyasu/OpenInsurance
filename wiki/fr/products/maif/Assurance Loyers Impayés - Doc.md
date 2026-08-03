@@ -123,7 +123,7 @@ Remboursement des loyers impayés en cas de squat dans les 3 mois suivants la so
 
 ## Documents liés
 
-- [Assurance Loyers Impayés MF - IPID](Assurance%20Loyers%20Impay%C3%A9s%20MF%20-%20IPID.md) - IPID / Fiche d'information, éd. Mars 2023
+- [Assurance Loyers Impayés MF (SADA Assurances) - IPID](Assurance%20Loyers%20Impay%C3%A9s%20MF%20%28SADA%20Assurances%29%20-%20IPID.md) - IPID / Fiche d'information, éd. Mars 2023
 - [Assurance Loyers Impayés - SADA Assurances (porteur du risque)](Assurance%20Loyers%20Impay%C3%A9s%20-%20SADA%20Assurances%20%28porteur%20du%20risque%29.md) - Conditions générales, éd. Mars 2023
 - [Assurance Loyers Impayés - WAKAM (porteur du risque)](Assurance%20Loyers%20Impay%C3%A9s%20-%20WAKAM%20%28porteur%20du%20risque%29.md) - Conditions générales, éd. Septembre 2025
 

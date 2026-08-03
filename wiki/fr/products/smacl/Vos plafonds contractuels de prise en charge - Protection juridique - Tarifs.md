@@ -267,7 +267,7 @@ Indemnités kilométriques (suivant justificatifs)
 ## Documents liés
 
 - Extension / option du produit : **Protection juridique**
-- [Protection juridique](Protection%20juridique%20%28SMACL%20Assurances%29.md) - Conditions générales, éd. 11/2022
+- [Protection juridique (Particuliers)](Protection%20juridique%20%28Particuliers%29.md) - Conditions générales, éd. 11/2022
 
 ## Source & fidélité
 

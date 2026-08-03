@@ -138,7 +138,7 @@ Des formations présentielles ou en classe virtuelle sur des cas concrets peuven
 
 ## Documents liés
 
-- [Votre convention Diagnostic devis et diagnostic réparation - Doc](Votre%20convention%20Diagnostic%20devis%20et%20diagnostic%20r%C3%A9paration%20-%20Doc.md) - Document, éd. 01/2024
+- [Votre convention Diagnostic devis et diagnostic réparation (CAISSE RÉGIONALE DE CRÉDIT AGRICOLE) - Doc](Votre%20convention%20Diagnostic%20devis%20et%20diagnostic%20r%C3%A9paration%20%28CAISSE%20R%C3%89GIONALE%20DE%20CR%C3%89DIT%20AGRICOLE%29%20-%20Doc.md) - Document, éd. 01/2024
 
 ## Source & fidélité
 

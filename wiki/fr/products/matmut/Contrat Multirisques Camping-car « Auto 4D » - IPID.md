@@ -226,7 +226,7 @@ Mise en location du véhicule assuré (autopartage). Garantie optionnelle. Le do
 
 ## Documents liés
 
-- [Auto 4D](Auto%204D.md) - Conditions générales
+- [Auto 4D (Matmut)](Auto%204D%20%28Matmut%29.md) - Conditions générales
 - [Auto 4D Distinguo & Co](Auto%204D%20Distinguo%20%26%20Co.md) - Conditions générales
 
 ## Source & fidélité

@@ -358,7 +358,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | auto | maaf | CARAVANE, REMORQUE, CAMION, VEHICULES DIVERS - IPID | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/AUT11028.PDF) |
 | fr | auto | maaf | Camping-Car, Ambulance, Bazar forain, Véhicule de collection - IPID | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/AUT11023.PDF) |
 | fr | auto | maaf | Contrat Camping car, Ambulance, Bazar forain, Véhicule de collection — Assurance Multirisque | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Vehicule/CG/CG_assurance_CC_6056.pdf) |
-| fr | auto | macif | Contrat Automobile – Voitures particulières, fourgons et fourgonnettes - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_auto.pdf) |
+| fr | auto | macif | Contrat Automobile – Voitures particulières, fourgons et fourgonnettes (Voitures particulières, fourgons et fourgonnette | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_auto.pdf) |
 | fr | auto | macif | Contrat Camping-car Autocaravane - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_camping_car.pdf) |
 | fr | auto | macif | Contrat Camping-car, Autocaravane | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_vehicules/CG_campingcar.pdf) |
 | fr | auto | macif | Contrat Macif Pann'Auto - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_PanneAuto.pdf) |
@@ -378,25 +378,25 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | auto | matmut | 4 roues Essentiel Matmut | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGMRSQE.pdf) |
 | fr | auto | matmut | 4 roues Référence | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGMRSQ.pdf) |
 | fr | auto | matmut | Auto 3D Initiale & Co | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-auto3d-init-and-co.pdf) |
-| fr | auto | matmut | Auto 4D | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/cgauto4dmatmut.pdf) |
+| fr | auto | matmut | Auto 4D (Matmut) | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/cgauto4dmatmut.pdf) |
 | fr | auto | matmut | Auto 4D Distinguo & Co | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-auto4d-distinguo-and-co.pdf) |
 | fr | auto | matmut | Auto Temporaire | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CG-auto-temporaire-matmut.pdf) |
 | fr | auto | matmut | Auto-mission | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CG-automission.pdf) |
-| fr | auto | matmut | Avantage Bonus Matmut - Tarifs | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/cobonusauto4d.pdf) |
+| fr | auto | matmut | Avantage Bonus Matmut (Gamme Auto 4D) - Tarifs | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/cobonusauto4d.pdf) |
+| fr | auto | matmut | Avantage Bris de glaces 0 franchise (Contrat Auto 3D Initiale & Co) - Tarifs | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/brisglace-3D-init-and-co.pdf) |
+| fr | auto | matmut | Avantage Bris de glaces 0 franchise (Contrat Auto 4D Distinguo & Co) - Tarifs | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/brisglaces-auto4D-distinguo-co.pdf) |
+| fr | auto | matmut | Avantage Bris de glaces 0 franchise (Contrat « Assurance Auto temporaire » Matmut) - Tarifs | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/brisglace-4R-tempo.pdf) |
+| fr | auto | matmut | Avantage Bris de glaces 0 franchise (Gamme Auto 4D) - Tarifs | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/brisglace-auto4D.pdf) |
+| fr | auto | matmut | Avantage Bris de glaces 0 franchise (Gammes Multirisques 4 roues Référence et Essentiel) - Tarifs | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/brisglace-4R-essentiel.pdf) |
 | fr | auto | matmut | Avantage Bris de glaces 0 franchise - Tarifs | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/BDG.FLOTTES.pdf) |
-| fr | auto | matmut | Avantage Bris de glaces 0 franchise - Tarifs (2) | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/brisglace-3D-init-and-co.pdf) |
-| fr | auto | matmut | Avantage Bris de glaces 0 franchise - Tarifs (3) | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/brisglace-4R-essentiel.pdf) |
-| fr | auto | matmut | Avantage Bris de glaces 0 franchise - Tarifs (4) | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/brisglace-4R-tempo.pdf) |
-| fr | auto | matmut | Avantage Bris de glaces 0 franchise - Tarifs (5) | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/brisglace-auto4D.pdf) |
-| fr | auto | matmut | Avantage Bris de glaces 0 franchise - Tarifs (6) | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/brisglaces-auto4D-distinguo-co.pdf) |
 | fr | auto | matmut | Avantage Hiver Matmut & Co - Tarifs | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/avantage-h-distinguo-co.pdf) |
-| fr | auto | matmut | Avantage Usage Sérénité - Tarifs (2) | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/coavantageusage-smrsq-4r-2r.pdf) |
+| fr | auto | matmut | Avantage Usage Sérénité (Gammes Multirisques 4 roues Référence et Essentiel) - Tarifs | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/coavantageusage-smrsq-4r-2r.pdf) |
 | fr | auto | matmut | Avantage Éco Malin Matmut - Tarifs | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/avantage-ecomalin.pdf) |
 | fr | auto | matmut | Bonus Booster Matmut & Co - Tarifs | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/bonus-b-distinguo-co.pdf) |
 | fr | auto | matmut | Bonus Booster Matmut - Tarifs | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/cobonusboosterauto4d.pdf) |
-| fr | auto | matmut | Bonus Booster Nouveau Contrat Matmut & Co - Tarifs | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/bonus-b-nc-pro-distinguo-co.pdf) |
-| fr | auto | matmut | Bonus Booster Nouveau Contrat Matmut & Co - Tarifs (2) | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/bonus-b-nc-viePrivee-distinguo-co.pdf) |
-| fr | auto | matmut | Bonus Booster Nouveau Contrat Matmut - Tarifs | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/cobonusboosterauto4d-pro.pdf) |
+| fr | auto | matmut | Bonus Booster Nouveau Contrat Matmut & Co (usage Professionnel) - Tarifs | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/bonus-b-nc-pro-distinguo-co.pdf) |
+| fr | auto | matmut | Bonus Booster Nouveau Contrat Matmut & Co (usages Actif, Actif « éco-mobilité », Privé ou Retraité) - Tarifs | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/bonus-b-nc-viePrivee-distinguo-co.pdf) |
+| fr | auto | matmut | Bonus Booster Nouveau Contrat Matmut (usage Professionnel) - Tarifs | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/cobonusboosterauto4d-pro.pdf) |
 | fr | auto | matmut | Bonus Famille Matmut & Co - Tarifs | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/bonus-f-distinguo-co.pdf) |
 | fr | auto | matmut | Bonus Matmut & Co - Tarifs | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/bonus-distinguo-co.pdf) |
 | fr | auto | matmut | Camping-car Auto 4D | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/cgcampingcar4dmatmut.pdf) |
@@ -420,14 +420,14 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | auto | smacl | Assurance des Véhicules des collectivités territoriales - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-vehicules-collectivites.pdf) |
 | fr | auto | smacl | Assurance véhicules des associations et des entreprises de l'économie sociale et solidaire - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-vehicules-convergence.pdf) |
 | fr | auto | smacl | Assurance véhicules à moteur des associations - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-vehicule-associations.pdf) |
-| fr | auto | smacl | CONVERGENCE - Auto collaborateurs - Garantie en substitution au contrat personnel | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-convergence-auto-collab-garantie-sub-contrat-perso.pdf) |
-| fr | auto | smacl | Conventions spéciales CONVERGENCE - Auto collaborateurs, garantie complémentaire au contrat personnel | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-convergence-auto-collaborateurs-complementaire.pdf) |
+| fr | auto | smacl | CONVERGENCE - Auto collaborateurs - Garantie en substitution au contrat personnel (Associatons) | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-convergence-auto-collab-garantie-sub-contrat-perso.pdf) |
+| fr | auto | smacl | Conventions spéciales CONVERGENCE - Auto collaborateurs, garantie complémentaire au contrat personnel (Associatons) | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-convergence-auto-collaborateurs-complementaire.pdf) |
 | fr | auto | smacl | Convergence Auto collaborateurs - garantie complémentaire - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-convergence-accomplit-auto-collaborateurs-association.pdf) |
 | fr | auto | smacl | Flotte entreprises | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cg-flotte-entreprises.pdf) |
 | fr | auto | smacl | Flotte entreprises - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-vehicules-entreprise.pdf) |
 | fr | auto | smacl | Territorialité des garanties - Contrat Véhicules à moteur - Doc | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/fiche-territorialite-smacl.pdf) |
 | fr | auto | smacl | Vos conventions spéciales CONVERGENCE - Véhicules à moteur | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-convergence-vehicules-a-moteur.pdf) |
-| fr | auto | smacl | Votre convention Diagnostic devis et diagnostic réparation - Doc | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/convention-diagnostic-devis-reparation-pp.pdf) |
+| fr | auto | smacl | Votre convention Diagnostic devis et diagnostic réparation (CAISSE RÉGIONALE DE CRÉDIT AGRICOLE) - Doc | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/convention-diagnostic-devis-reparation-pp.pdf) |
 | fr | auto | smacl | Votre convention Diagnostic devis et diagnostic réparations automobile - Doc | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/convention-diagnostic-devis-reparations-pm.pdf) |
 | fr | auto | smacl | Votre convention d'assistance - Flottes entreprises véhicules légers | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/ca-vehicules-legers-flottes-entreprises.pdf) |
 | fr | auto | thelem | Assurance Automobile - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA-012026.pdf) |
@@ -441,11 +441,11 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | autres | macif | Contrat Caravaning | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_loisirs/CG_caravaning.pdf) |
 | fr | autres | macif | Contrat Caravaning - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_caravaning.pdf) |
 | fr | autres | maif | Barème de frais - Tarifs | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/commun/bareme-frais.pdf) |
-| fr | autres | maif | Barème de frais applicables à compter du 01-07-2024 pour les Associations et les Collectivités - Tarifs | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/bareme-frais-associations-et-collectivites.pdf) |
+| fr | autres | maif | Barème de frais applicables à compter du 01-07-2024 pour les Associations et les Collectivités (Associations et Collecti | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/bareme-frais-associations-et-collectivites.pdf) |
 | fr | autres | maif | Notice juridique sur l'assurance à distance - Doc | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/commun/notice-juridique-assurance-a-distance.pdf) |
 | fr | autres | smacl | ALÉASSUR Protection financière | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-aleassur-protection-financiere.pdf) |
 | fr | autres | smacl | Votre droit de renonciation (hors contrat « Assurance Auto ») - Doc | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/droit-renonciation-contrat.pdf) |
-| fr | chasse | maaf | Assurance Vie privée - IPID | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/IRD11004.PDF) |
+| fr | chasse | maaf | Assurance Vie privée (CHASSE) - IPID | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/IRD11004.PDF) |
 | fr | chasse | macif | Contrat d'assurance Chasse - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_chasse.pdf) |
 | fr | chasse | macif | Multirisque Chasse — Contrat d'assurance chasse | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_loisirs/CG_Chasse_2012.pdf) |
 | fr | chasse | matmut | Chasse (Matmut (Mutuelle assurance des travailleurs mutualistes) — Société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, Siren 775 701 477) | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGCHASSE.pdf) |
@@ -492,9 +492,9 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | habitation | direct-assurance | Contrat Habitation | 2026-07-30 | [pdf](https://directassurance.cdn.prismic.io/directassurance/abglZ7bci2UF6D7w_HABITATION_MRH_03.26_Vdef.pdf) |
 | fr | habitation | groupama | Assurance multirisques habitation - Doc | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/6XdGvqnvZRdt2ZYt9qsJlE/8241ba3621b16026488b20c2c562a548/Tableau_garanties_MRH_avec_logo_G_26_juin.pdf) |
 | fr | habitation | luko | L'assurance multirisque habitation (HCE) | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/t-c/Conditions_generales_HCE_2504.pdf) |
-| fr | habitation | luko | L'assurance multirisque habitation (HMIN) | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/t-c/Conditions_generales_HMIN_2504.pdf) |
-| fr | habitation | luko | L'assurance propriétaire non occupant | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/t-c/Conditions_generales_LCE_2504.pdf) |
-| fr | habitation | luko | L'assurance propriétaire non occupant — LMIN (formule minimum légal) | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/t-c/Conditions_generales_LMIN_2504.pdf) |
+| fr | habitation | luko | L'assurance multirisque habitation (HMIN) (HMIN (Conditions_générales_HMIN_2504)) | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/t-c/Conditions_generales_HMIN_2504.pdf) |
+| fr | habitation | luko | L'assurance propriétaire non occupant (LCE) | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/t-c/Conditions_generales_LCE_2504.pdf) |
+| fr | habitation | luko | L'assurance propriétaire non occupant — LMIN (formule minimum légal) (LMIN — minimum légal) | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/t-c/Conditions_generales_LMIN_2504.pdf) |
 | fr | habitation | luko | Multirisques habitation et assistance — Police - COUVERTURE MINIMUM LÉGAL - IPID | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/legal/IPID_HMIN_2504.pdf) |
 | fr | habitation | luko | Multirisques habitation et assistance — Police - COUVERTURE ÉTENDUE - IPID | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/legal/IPID_HCE_2504.pdf) |
 | fr | habitation | luko | Propriétaire non-occupant — Police - COUVERTURE MINIMUM LÉGAL - IPID | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/legal/IPID_LMIN_2504.pdf) |
@@ -506,7 +506,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | habitation | maaf | Assurance habitation jeune - Formule Logement - Fiche | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/Tableaux_de_garanties/MAAF_TG_Tempo_jeunes_formule_logement.pdf) |
 | fr | habitation | maaf | Assurance habitation jeune - Formule Tous risques - Fiche | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/Tableaux_de_garanties/MAAF_TG_Tempo_jeunes_formule_tous risques.pdf) |
 | fr | habitation | maaf | Contrat Immeuble | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/CG/MAAF_Conditions_generales_Assurance_immeuble_2222.pdf) |
-| fr | habitation | maaf | FICHE D'INFORMATION RELATIVE A LA VENTE A DISTANCE DE VOTRE CONTRAT TEMPO HABITATION - Doc | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/Souscription/MAAF_Fiche_information_VAD_Habitation_6.pdf) |
+| fr | habitation | maaf | FICHE D'INFORMATION RELATIVE A LA VENTE A DISTANCE DE VOTRE CONTRAT TEMPO HABITATION (vente à distance) - Doc | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/Souscription/MAAF_Fiche_information_VAD_Habitation_6.pdf) |
 | fr | habitation | maaf | IMMEUBLE - IPID | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/HAB11009.PDF) |
 | fr | habitation | maaf | MOBIL HOME ET CONSTRUCTIONS LEGERES - IPID | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/HAB11027.PDF) |
 | fr | habitation | maaf | TEMPO HABITATION EN CONSTRUCTION - IPID | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/HAB11028.PDF) |
@@ -522,7 +522,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | habitation | macif | Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_habitation_principale_et_secondaire_economique.pdf) |
 | fr | habitation | macif | Contrat Macif Habitation - Formule Construction - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/dipa-macif-habitation-maison-en-construction.pdf) |
 | fr | habitation | macif | Contrat Macif Habitation - Formules Économique, Équilibrée, Confort (Assurance multirisques habitation - Résidence princ | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/dipa-macif-habitation-residence-principale.pdf) |
-| fr | habitation | macif | Contrat Macif Habitation - Formules Économique, Équilibrée, Confort - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/dipa-macif-habitation-residence-secondaire.pdf) |
+| fr | habitation | macif | Contrat Macif Habitation - Formules Économique, Équilibrée, Confort (Résidence secondaire) - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/dipa-macif-habitation-residence-secondaire.pdf) |
 | fr | habitation | macif | Contrat Sociétaire Non Occupant - Annexe spéciale Immeubles en copropriété | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/annexe_proprietaire_non_occupant_immeuble_en_copropriete.pdf) |
 | fr | habitation | macif | Contrat Sociétaire Non Occupant - Conditions Générales - Annexe spéciale Immeubles locatifs | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/annexe_proprietaire_non_occupant_immeubles_locatifs.pdf) |
 | fr | habitation | macif | Macif Habitation | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/CG-Macif-Habitation.pdf) |
@@ -536,7 +536,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | habitation | maif | Assurance Loyers Impayés - Doc | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/tableau-limite-garanties-ali.pdf) |
 | fr | habitation | maif | Assurance Loyers Impayés - SADA Assurances (porteur du risque) | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/conditions-generales-assurance-loyers-impayes.pdf) |
 | fr | habitation | maif | Assurance Loyers Impayés - WAKAM (porteur du risque) | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/conditions-generales-WAKAM-Assurances.pdf) |
-| fr | habitation | maif | Assurance Loyers Impayés MF - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/document-information-assurance-loyers-impayes.pdf) |
+| fr | habitation | maif | Assurance Loyers Impayés MF (SADA Assurances) - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/document-information-assurance-loyers-impayes.pdf) |
 | fr | habitation | maif | Assurance Propriétaire Bailleur | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/conditions-generales-assurance-proprietaire-bailleur.pdf) |
 | fr | habitation | maif | Assurance Propriétaire Bailleur - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/document-information-assurance-proprietaire-bailleur.pdf) |
 | fr | habitation | matmut | Assurance Loyers Impayés | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGALI.pdf) |
@@ -553,31 +553,31 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | habitation | matmut | Habitation Résidence principale - Jeunes - Contrat d'assurance Multigaranties | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGJEUNES.pdf) |
 | fr | habitation | matmut | Habitation Résidence secondaire | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGMGARRS.pdf) |
 | fr | habitation | matmut | Matmut Mobile-home formule Nature | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGMGARMH.pdf) |
-| fr | habitation | smacl | Assurance habitation | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cg-assurance-habitation.pdf) |
+| fr | habitation | smacl | Assurance habitation (Particuliers) | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cg-assurance-habitation.pdf) |
 | fr | habitation | smacl | Multirisques caravaning | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cg-multirisques-caravaning.pdf) |
 | fr | habitation | thelem | Assurance Dommages aux biens - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_570-Dommages-aux-biens.pdf) |
 | fr | habitation | thelem | Assurance multirisque habitation - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_601-Occupants-janvier-2026.pdf) |
 | fr | habitation | thelem | Assurance multirisque habitation Propriétaire non occupant - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2026/03/IPID_TA_621-PNO-janvier-2026.pdf) |
 | fr | habitation | thelem | Assurance multirisque habitation du mobil home - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_611-mobilhome-janvier-2026.pdf) |
-| fr | habitation | thelem | Assurance multirisque immeuble - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_630-MRI-aout-2025.pdf) |
+| fr | habitation | thelem | Assurance multirisque immeuble (COPROPRIETE) - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_630-MRI-aout-2025.pdf) |
 | fr | habitation | thelem | Assurance multirisque immeuble - PROPRIETAIRE NON OCCUPANT - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2026/03/IPID_TA_483-MRI-PNO-juillet-2023.pdf) |
 | fr | moto | direct-assurance | Assurance Ma Moto – Mon Cyclo | 2026-07-30 | [pdf](https://directassurance.cdn.prismic.io/directassurance/aG-PfkMqNJQqHv6Q_CG-Ma-Moto-Mon-Cyclo-981029-0324.pdf) |
 | fr | moto | direct-assurance | Ma Moto, Mon Cyclo - IPID | 2026-07-30 | [pdf](https://directassurance.cdn.prismic.io/directassurance/aG-PekMqNJQqHv6P_DiPAMaMotoMonCyclo-2004493-0924_04.pdf) |
 | fr | moto | maaf | CYCLO - IPID | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/AUT11019.PDF) |
 | fr | moto | macif | Contrat Deux Roues | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_vehicules/CG-Moto-2018.pdf) |
-| fr | moto | matmut | 2 roues Initiale & Co | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-mrsq-2r-init-and-co.pdf) |
-| fr | moto | matmut | 2R Rider | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/cg-mrsq-2r.pdf) |
+| fr | moto | matmut | 2 roues Initiale & Co (Initiale & Co — Matmut & Co) | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-mrsq-2r-init-and-co.pdf) |
+| fr | moto | matmut | 2R Rider (2R Rider — Matmut) | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/cg-mrsq-2r.pdf) |
 | fr | moto | matmut | Avantage Hiver Matmut & Co - Tarifs (2) | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/coavantagehiver-2r-init-and-co.pdf) |
 | fr | moto | matmut | Avantage Hiver Matmut - Tarifs | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/coavantagehivermrsq-4r-2r.pdf) |
-| fr | moto | matmut | Avantage Usage Sérénité - Tarifs | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/coavantageusage-smrsq-2r.pdf) |
-| fr | moto | matmut | Bonus Booster Matmut - Tarifs (2) | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/cobonusboostermrsq-4r-2r.pdf) |
-| fr | moto | matmut | Bonus Booster Nouveau Contrat Matmut - Tarifs (2) | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/cobonusboostermrsq-2rRider-pro.pdf) |
-| fr | moto | matmut | Bonus Booster Nouveau Contrat Matmut - Tarifs (3) | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/cobonusboostermrsq-2rRider-vieprivee.pdf) |
-| fr | moto | matmut | Conditions de l'Avantage Bonus Matmut - Tarifs | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/cobonusmrsq-4r-2r.pdf) |
+| fr | moto | matmut | Avantage Usage Sérénité (Contrat d'assurance Multirisques 2R Rider) - Tarifs | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/coavantageusage-smrsq-2r.pdf) |
+| fr | moto | matmut | Bonus Booster Matmut (Gammes Multirisques 4 roues Référence, Essentiel et 2R Rider) - Tarifs | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/cobonusboostermrsq-4r-2r.pdf) |
+| fr | moto | matmut | Bonus Booster Nouveau Contrat Matmut (usage Intensif) - Tarifs | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/cobonusboostermrsq-2rRider-pro.pdf) |
+| fr | moto | matmut | Bonus Booster Nouveau Contrat Matmut (usages Actif ou Sérénité) - Tarifs | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/cobonusboostermrsq-2rRider-vieprivee.pdf) |
+| fr | moto | matmut | Conditions de l'Avantage Bonus Matmut (Gammes Multirisques 4 roues Référence, Essentiel et 2R Rider) - Tarifs | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/cobonusmrsq-4r-2r.pdf) |
 | fr | moto | matmut | Conditions de l'Avantage Motard Professionnel de la Fonction Publique - Tarifs | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/coavantagemop.pdf) |
 | fr | moto | matmut | Conditions de l'Avantage Usage Sérénité — Gamme 2 roues Initiale & Co - Tarifs | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/coavantageusage-s-initi-and-co.pdf) |
 | fr | moto | matmut | Conditions de la réduction Âge du véhicule — Contrat 2 roues Initiale & Co - Tarifs | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/coreduction-age-veh-init-and-co.pdf) |
-| fr | moto | matmut | Contrat Multirisques « 2 Roues Initiale & Co » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/ipid-mrsq-2r-init-and-co.pdf) |
+| fr | moto | matmut | Contrat Multirisques « 2 Roues Initiale & Co » (Matmut & Co) - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/ipid-mrsq-2r-init-and-co.pdf) |
 | fr | moto | matmut | Contrat Multirisques « 2R Rider » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/ipid-2r-rider.pdf) |
 | fr | moto | thelem | Assurance Cyclo - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_Cyclo-012026.pdf) |
 | fr | moto | thelem | Assurance Moto - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_Moto-012026.pdf) |
@@ -608,16 +608,16 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | multirisque-professionnelle | matmut | Risques Immobiliers | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGRisquesImmobiliers.pdf) |
 | fr | multirisque-professionnelle | smacl | ALÉASSUR - Conventions spéciales Dommages aux biens | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-aleassur-dommages-aux-biens.pdf) |
 | fr | multirisque-professionnelle | smacl | ALÉASSUR - Conventions spéciales Tous risques instruments de musique | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-aleassur-tous-risques-instruments.pdf) |
-| fr | multirisque-professionnelle | smacl | ALÉASSUR Tous risques objets | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-aleassur-tous-risques-objets.pdf) |
-| fr | multirisque-professionnelle | smacl | Aléassur | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cg-aleassur.pdf) |
+| fr | multirisque-professionnelle | smacl | ALÉASSUR Tous risques objets (Collectivités) | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-aleassur-tous-risques-objets.pdf) |
+| fr | multirisque-professionnelle | smacl | Aléassur (Collectivités) | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cg-aleassur.pdf) |
 | fr | multirisque-professionnelle | smacl | Aléassur - Dommages aux biens - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-dommages-aux-biens-collectivites.pdf) |
 | fr | multirisque-professionnelle | smacl | Assistance Patrimoine des associations | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/ca-assistance-patrimoine-associations-sam.pdf) |
 | fr | multirisque-professionnelle | smacl | Assurance Spéciale Accueil Enfants - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-structures-accueil-enfants.pdf) |
-| fr | multirisque-professionnelle | smacl | Assurance bris de machine | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-assurance-speciale-associations-bris-de-machine.pdf) |
+| fr | multirisque-professionnelle | smacl | Assurance bris de machine (Associations) | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-assurance-speciale-associations-bris-de-machine.pdf) |
 | fr | multirisque-professionnelle | smacl | Assurance des associations - multirisque association - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-multirisque-associations.pdf) |
 | fr | multirisque-professionnelle | smacl | CONVERGENCE Dommages aux biens | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-convergence-dommages-aux-biens.pdf) |
-| fr | multirisque-professionnelle | smacl | CONVERGENCE Tous risques instruments de musique | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-convergence-tous-risques-instruments.pdf) |
-| fr | multirisque-professionnelle | smacl | CONVERGENCE Tous risques objets | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-convergence-tous-risques-objets.pdf) |
+| fr | multirisque-professionnelle | smacl | CONVERGENCE Tous risques instruments de musique (Associatons) | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-convergence-tous-risques-instruments.pdf) |
+| fr | multirisque-professionnelle | smacl | CONVERGENCE Tous risques objets (Associatons) | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-convergence-tous-risques-objets.pdf) |
 | fr | multirisque-professionnelle | smacl | Convergence dommages aux biens - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-dommages-aux-biens-convergence.pdf) |
 | fr | multirisque-professionnelle | smacl | Votre barème de remboursement des honoraires d'expert d'assuré en Dommages aux biens - Tarifs | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/bareme-expert-assure-dab.pdf) |
 | fr | multirisque-professionnelle | thelem | Assurance Garauto - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_201_Garauto-Aout-2025.pdf) |
@@ -627,8 +627,8 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | navigation | macif | Contrat Navigation de plaisance | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_loisirs/CG_navigation-plaisance.pdf) |
 | fr | navigation | macif | Contrat Navigation de plaisance - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_navigation_de_plaisance.pdf) |
 | fr | navigation | maif | Assurance Navigation | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/conditions-generales-assurance-navigation.pdf) |
-| fr | navigation | maif | Assurance Navigation - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/document-information-assurance-bateau.pdf) |
-| fr | navigation | maif | Assurance Navigation - IPID (2) | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/document-information-assurance-navigation.pdf) |
+| fr | navigation | maif | Assurance Navigation (RGAA) - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/document-information-assurance-bateau.pdf) |
+| fr | navigation | maif | Assurance Navigation - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/document-information-assurance-navigation.pdf) |
 | fr | navigation | matmut | Contrat « Navigation de plaisance - Distinguo & Co » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/ipid-ndep-distinguo-and-co.pdf) |
 | fr | navigation | matmut | Navigation de Plaisance Distinguo & Co | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-ndep-distinguo-and-co.pdf) |
 | fr | navigation | matmut | Navigation de Plaisance Matmut | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGNDEP.pdf) |
@@ -664,11 +664,11 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | prevoyance | gan | Gan Prévoyance Protection - Fiche | 2026-07-30 | [pdf](https://www.ganprevoyance.fr/securite-professionnel-gan-prevoyance-protection/2-2/telecharger-le-tableau-des-garanties.pdf?date=20251222151901) |
 | fr | prevoyance | gan | Gan Prévoyance Protection - IPID | 2026-07-30 | [pdf](https://www.ganprevoyance.fr/securite-famille/2-1/telecharger-le-document.pdf?date=20231114103947) |
 | fr | prevoyance | gan | Gan Prévoyance Protection Homme Clé - IPID | 2026-07-30 | [pdf](https://www.ganprevoyance.fr/protection-homme-cle/2-1/document-d-information-gan-prevoyance-protection-homme-cle.pdf?date=20230927144012) |
-| fr | prevoyance | gan | Gan Solutions Prévoyance - Fiche | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2025/12/Tableau-TNS_CCSF_Lisibilite-GSP_2026.pdf) |
-| fr | prevoyance | gan | Gan Solutions Prévoyance - Fiche (2) | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2025/01/Tableau-TNS_CCSF_Lisibilite-GSP_2025.pdf) |
+| fr | prevoyance | gan | Gan Solutions Prévoyance (Travailleurs non-salariés) - Fiche | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2025/12/Tableau-TNS_CCSF_Lisibilite-GSP_2026.pdf) |
+| fr | prevoyance | gan | Gan Solutions Prévoyance (Travailleurs non-salariés) - Fiche (2) | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2025/01/Tableau-TNS_CCSF_Lisibilite-GSP_2025.pdf) |
 | fr | prevoyance | gan | Gan Solutions Prévoyance - IPID | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2024/11/032023-DIN_Gan-Solutions-Prevoyance.pdf) |
 | fr | prevoyance | gan | Gan Solutions Prévoyance Homme Clé - IPID | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2024/11/102023-DIN_-GSP-Homme-Cle.pdf) |
-| fr | prevoyance | gan | Gan Vision Majoritaire Prévoyance - Fiche | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2024/12/Tableau-salarie-secteur-prive-_CCSF-VF-GA.pdf) |
+| fr | prevoyance | gan | Gan Vision Majoritaire Prévoyance (Actifs salariés du secteur privé) - Fiche | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2024/12/Tableau-salarie-secteur-prive-_CCSF-VF-GA.pdf) |
 | fr | prevoyance | groupama | Energie prévoyance - Doc | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/6TaB6zk8XVLyn83vszOtX8/31cfaa6a1e539be35223f96ac055b0fa/Exemples-TNS-CCSF-2026.pdf.pdf) |
 | fr | prevoyance | groupama | Synergie Prévoyance Entreprise - Doc | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/iUVrxvEI5iwiEiF1z1OAK/486000647ae868194a37bf310a81c12a/Tableau-salarie-secteur-prive-CCSF-VF-GROUPAMA.pdf) |
 | fr | prevoyance | maaf | Assurance accident - IPID | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/PRE10003.PDF) |
@@ -677,8 +677,8 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | prevoyance | maaf | Garanties Homme Clé MAAF Entreprise | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/CG/2350 CG Gar HomCle 0124.pdf) |
 | fr | prevoyance | maif | Rassurcap Solutions | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/notice-rassurcap-solutions.pdf) |
 | fr | prevoyance | maif | Rassurcap Solutions - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/document-information-deces-rassurcap-solutions.pdf) |
-| fr | prevoyance | smacl | ALÉASSUR Risques statutaires CNRACL | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-aleassur-risques-statutaires-cnracl1_0.pdf) |
-| fr | prevoyance | smacl | ALÉASSUR Risques statutaires IRCANTEC | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-aleassur-ircantec-risques-statutaires.pdf) |
+| fr | prevoyance | smacl | ALÉASSUR Risques statutaires CNRACL (ALÉASSUR CNRACL) | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-aleassur-risques-statutaires-cnracl1_0.pdf) |
+| fr | prevoyance | smacl | ALÉASSUR Risques statutaires IRCANTEC (ALÉASSUR IRCANTEC) | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-aleassur-ircantec-risques-statutaires.pdf) |
 | fr | prevoyance | smacl | Aléassur - Risques statutaires IRCANTEC - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-risques-statutaires-collectivites-ircantec.pdf) |
 | fr | prevoyance | smacl | Convergence individuelle accidents corporels - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-accidents-corporels-convergence.pdf) |
 | fr | prevoyance | smacl | Sécurité des salariés et bénévoles d'association - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-securite-salaries-benevoles-associations.pdf) |
@@ -689,29 +689,29 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | prevoyance | thelem | Prévoyance Pro Madelin - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TP_Prev-madelin_ISIS_v2.pdf) |
 | fr | protection-juridique | groupama | Annexe Garantie Protection juridique automobile — Assurance Flotte automobile | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/IPBJ1AlyPtXiPPXpJOtZP/9f77600424013842489c574030f85c2d/Annexe_Protection_Juridique_Automobile.pdf) |
 | fr | protection-juridique | maaf | Garanties Protection Juridique - Fiche | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/Tableaux_de_garanties/MAAF_TG_Tempo_habitation_protection_juridique.pdf) |
-| fr | protection-juridique | macif | Protection Juridique - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA%20PJ%20PRO%26ESS%2006-20.pdf) |
-| fr | protection-juridique | macif | Protection Juridique - IPID (2) | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_protection_juridique_sur_mesure_des_professionnels.pdf) |
+| fr | protection-juridique | macif | Protection Juridique (PRO&ESS) - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA%20PJ%20PRO%26ESS%2006-20.pdf) |
+| fr | protection-juridique | macif | Protection Juridique - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_protection_juridique_sur_mesure_des_professionnels.pdf) |
 | fr | protection-juridique | maif | Assurance Protection Juridique | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/conditions-generales-assurance-protection-juridique.pdf) |
 | fr | protection-juridique | maif | Assurance Protection Juridique - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/habitation/document-information-assurance-protection-juridique.pdf) |
 | fr | protection-juridique | matmut | Assistance Juridique Vie Privée et Protection Juridique Santé | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/notice-information-protection-juridique.pdf) |
 | fr | protection-juridique | smacl | Assurance Protection fonctionnelle des agents et des élus - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-protection-fonctionelle-agents-elus.pdf) |
 | fr | protection-juridique | smacl | Assurance des associations - protection juridique des associations - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-protection-juridique-associations.pdf) |
-| fr | protection-juridique | smacl | Convention Information juridique – Particuliers - Doc | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/convention-information-juridique-particuliers-sam.pdf) |
-| fr | protection-juridique | smacl | Convention Information juridique – Particuliers - Doc (2) | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/convention-information-juridique-particuliers.pdf) |
+| fr | protection-juridique | smacl | Convention Information juridique – Particuliers (SMACL Assurances (société d'assurance mutuelle)) - Doc | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/convention-information-juridique-particuliers-sam.pdf) |
+| fr | protection-juridique | smacl | Convention Information juridique – Particuliers (SMACL Assurances SA (société anonyme)) - Doc | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/convention-information-juridique-particuliers.pdf) |
+| fr | protection-juridique | smacl | Information juridique Associations (SA) - Doc | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/convention-information-juridique-associations.pdf) |
 | fr | protection-juridique | smacl | Information juridique Associations - Doc | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/convention-information-juridique-associations-sam.pdf) |
-| fr | protection-juridique | smacl | Information juridique Associations - Doc (2) | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/convention-information-juridique-associations.pdf) |
 | fr | protection-juridique | smacl | Information juridique Collectivités - Doc | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/convention-information-juridique-collectivites-sam.pdf) |
 | fr | protection-juridique | smacl | Information juridique Collectivités - Doc (2) | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/convention-information-juridique-collectivites.pdf) |
 | fr | protection-juridique | smacl | Information juridique Sécurité élus - Doc | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/convention-information-juridique-securite-elus-sam.pdf) |
 | fr | protection-juridique | smacl | Juripacte - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-protection-juridique-collectivites.pdf) |
 | fr | protection-juridique | smacl | Juris-Asso - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-jurisasso-protection-juridique-association.pdf) |
-| fr | protection-juridique | smacl | Protection juridique (SMACL Assurances) | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cg-protection-juridique-particulier.pdf) |
+| fr | protection-juridique | smacl | Protection juridique (Particuliers) | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cg-protection-juridique-particulier.pdf) |
 | fr | protection-juridique | smacl | Vos plafonds contractuels de prise en charge - Protection juridique - Tarifs | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/bareme-plafonds-protection-juridique-collectivites.pdf) |
 | fr | protection-juridique | smacl | Votre barème de prise en charge - Garantie protection juridique - Tarifs | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/bareme-prise-en-charge-garantie-protection-juridique.pdf) |
 | fr | protection-juridique | thelem | Assurance Protection Juridique du Professionnel - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_PJ-PRO_012026.pdf) |
 | fr | protection-juridique | thelem | Assurance Protection Juridique du Professionnel agricole - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_PJ-PRO-AGRI_012026.pdf) |
 | fr | protection-juridique | thelem | Assurance Protection Juridique du particulier - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_PJ_PART_012026_VF.pdf) |
-| fr | rc-privee | maaf | Assurance jeune - Fiche | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/Tableaux_de_garanties/MAAF_TG_Tempo_jeunes_formule_personnelle.pdf) |
+| fr | rc-privee | maaf | Assurance jeune (Formule Personnelle) - Fiche | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Habitation/Tableaux_de_garanties/MAAF_TG_Tempo_jeunes_formule_personnelle.pdf) |
 | fr | rc-privee | maaf | TEMPO ENFANTS - IPID | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/HAB11015.PDF) |
 | fr | rc-privee | maaf | TEMPO HABITATION Responsabilité civile - IPID | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/HAB11023.PDF) |
 | fr | rc-privee | macif | Contrat Multigarantie Vie Privée - Responsabilité Civile - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_habitation_responsabilite_civile.pdf) |
@@ -738,7 +738,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | rc-professionnelle | smacl | Sécurité des fonctionnaires territoriaux - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-fonctionnaires-territoriaux.pdf) |
 | fr | rc-professionnelle | thelem | Responsabilité Civile Chef d'Entreprise- Professions libérales - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_RCPRO.pdf) |
 | fr | retraite | gan | GAN ASSURANCES PERFORMANCE RETRAITE - Fiche | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2026/07/GAN-Performance-Retraite-Infos-Cles.pdf) |
-| fr | retraite | gan | Gan Assurance Nouvelle Vie - Tarifs | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2026/03/Gan-Nouvelle-Vie-Retraite-Fiche-Infos-Frais.pdf) |
+| fr | retraite | gan | Gan Assurance Nouvelle Vie (Gan Assurances) - Tarifs | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2026/03/Gan-Nouvelle-Vie-Retraite-Fiche-Infos-Frais.pdf) |
 | fr | retraite | gan | Gan Nouvelle Vie (Gan Patrimoine) - Tarifs | 2026-07-30 | [pdf](https://www.ganpatrimoine.fr/Media/documents/Transparence%20frais%20contrat/Transparence%20des%20frais%20Gan%20Patrimoine%20Nouvelle%20Vie.pdf) |
 | fr | retraite | gan | Gan Patrimoine Nouvelle Vie - Tarifs | 2026-07-30 | [pdf](https://www.ganpatrimoine.fr/Media/documents/Transparence%20frais%20contrat/Gan-Patrimoine-Nouvelle-Vie.pdf) |
 | fr | retraite | gan | Gan Patrimoine Objectif Retraite - Fiche | 2026-07-30 | [pdf](https://www.ganpatrimoine.fr/Media/documents/DIC/DIC%20GL%20Objectif%20Retraite%20Gan%20Patrimoine_2025_03_05.pdf) |
@@ -763,27 +763,27 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | retraite | matmut | CompliceRetraite | 2026-07-30 | [pdf](https://www.matmut.fr/epargne-credit/pdf/notice-complice-retraite.pdf) |
 | fr | sante | direct-assurance | Direct Assurance Santé | 2026-07-30 | [pdf](https://directassurance.cdn.prismic.io/directassurance/aG-PbkMqNJQqHv6O_DirectAssurance-NoticeinformationSante.pdf) |
 | fr | sante | direct-assurance | Direct Assurance Santé - Exemples de remboursements - Doc | 2026-07-30 | [pdf](https://directassurance.cdn.prismic.io/directassurance/aVudaXNYClf9ox-__DirectAssurance-Exemplesderemboursements.pdf) |
-| fr | sante | direct-assurance | Direct Assurance Santé - contrat responsable - IPID | 2026-07-30 | [pdf](https://directassurance.cdn.prismic.io/directassurance/aG-PZkMqNJQqHv6K_fiche-ipid-sante-responsable.pdf) |
-| fr | sante | direct-assurance | Direct Assurance Santé - formules Hospi (contrat non responsable) - IPID | 2026-07-30 | [pdf](https://directassurance.cdn.prismic.io/directassurance/aG-PaUMqNJQqHv6L_fiche-ipid-sante-non-responsable.pdf) |
+| fr | sante | direct-assurance | Direct Assurance Santé - contrat responsable (Formules Essentielle, Essentielle +, Equilibre, Equilibre +, Liberté, Libe | 2026-07-30 | [pdf](https://directassurance.cdn.prismic.io/directassurance/aG-PZkMqNJQqHv6K_fiche-ipid-sante-responsable.pdf) |
+| fr | sante | direct-assurance | Direct Assurance Santé - formules Hospi (contrat non responsable) (Formules Hospi et Hospi + (contrat non responsable))  | 2026-07-30 | [pdf](https://directassurance.cdn.prismic.io/directassurance/aG-PaUMqNJQqHv6L_fiche-ipid-sante-non-responsable.pdf) |
 | fr | sante | gan | Gan Prévoyance Santé - IPID | 2026-07-30 | [pdf](https://www.ganprevoyance.fr/complementaire-sante-gan-prevoyance/2-1/document-d-informations-gan-prevoyance-sante.pdf?date=20231127095936) |
 | fr | sante | gan | Gan Prévoyance Santé Sénior - IPID | 2026-07-30 | [pdf](https://www.ganprevoyance.fr/complementaire-sante-gan-prevoyance/2-2/document-d-informations-gan-prevoyance-sante-senior.pdf?date=20231127095936) |
 | fr | sante | gan | Gan Santé – contrat santé responsable (Tableau de garanties 3370-97261-022026) - Fiche | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2026/03/Tableau-de-garanties-GAN-Sante-02-2026.pdf) |
 | fr | sante | gan | Gan Santé – contrat santé responsable (Tableau de garanties 3370-97261-032025) - Fiche | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2025/03/Tableau-de-garanties-2025.pdf) |
 | fr | sante | groupama | SANTÉ TNS Gamme Essentielle | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/TjU7ncvu2i6ApvMmCfd0j/9d1575199cee6408385a5e37aea1b417/tableau_de_garanties_compl__mentaire_sant___TNS.pdf) |
 | fr | sante | groupama | SYNERGIE SANTÉ ESSENTIELLE - Doc | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/6Qox8ye95qmLUhlglMfxle/4fa91d463c659afc35a599238f326b29/exemples_de_remboursements_compl__mentaire_sant___TNS.pdf) |
+| fr | sante | groupama | SYNERGIE SANTÉ SALARIÉS (Régime local d'assurance maladie d'Alsace Moselle) - Doc | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/6n3CLhP5JZyHY0BBstnwbn/d7b3702a14a5caa6f4cefcb11a70beb7/exemples_de_remboursements_synergie_sant___salari__s_r__gime_local.pdf) |
 | fr | sante | groupama | SYNERGIE SANTÉ SALARIÉS - Doc | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/2fBJ4zsJ3SmHKoeatYeUUM/21610f254dcd13b98aeae3d1996b474e/exemples_de_remboursements_synergie_sant___salari__s_r__gime_g__n__ral.pdf) |
-| fr | sante | groupama | SYNERGIE SANTÉ SALARIÉS - Doc (2) | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/6n3CLhP5JZyHY0BBstnwbn/d7b3702a14a5caa6f4cefcb11a70beb7/exemples_de_remboursements_synergie_sant___salari__s_r__gime_local.pdf) |
 | fr | sante | groupama | Solution Groupama Santé - Doc | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/2ca0L6puBF0CuBXvhfAgti/6d6ccbdeb205327a9a69b7201f50f73e/344857be-125c-40da-8dbd-481c7df63c1c.pdf) |
 | fr | sante | groupama | Solution Groupama Santé - Doc (2) | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/1VeBkcNBeoMcIcSLNwxj4Z/535ba0e5db9f6a565ec05b63f3db3b7b/22286718-5d39-4a90-b99b-7601bf961cf0.pdf) |
-| fr | sante | groupama | TMGF Synergie santé Salariés - Doc | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/2WdH0QbT2yDvuM9AIoxpxr/3d1ec4295b3f531a9fece1ef2e0cbe03/tableau_de_garanties_synergie_sant___salari___r__gime_local.pdf) |
-| fr | sante | groupama | TMGF Synergie santé Salariés - Doc (2) | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/37C1b2uoBbhZLxH9Ye3Rnl/40a0d7d33c18c132a3357aadfd6d8473/tableau_de_garanties_synergie_sant___salari___r__gime_g__n__ral.pdf) |
+| fr | sante | groupama | TMGF Synergie santé Salariés (Version Régime Local - En complément) - Doc | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/2WdH0QbT2yDvuM9AIoxpxr/3d1ec4295b3f531a9fece1ef2e0cbe03/tableau_de_garanties_synergie_sant___salari___r__gime_local.pdf) |
+| fr | sante | groupama | TMGF Synergie santé Salariés (Version Régime général - En complément) - Doc | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/37C1b2uoBbhZLxH9Ye3Rnl/40a0d7d33c18c132a3357aadfd6d8473/tableau_de_garanties_synergie_sant___salari___r__gime_g__n__ral.pdf) |
 | fr | sante | maaf | Assurance SANTÉ PROFIL SALARIÉS | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Sante/CG/MAAF_Conditions_generales_Sante_MAAF_Pro_Salaries_11015.pdf) |
 | fr | sante | maaf | BIORYTHM - Fiche | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Sante/Exemples_de_remboursements/MAAF_exemples_remboursement_BIORYTHM.pdf) |
 | fr | sante | maaf | Contrat Santé Vivazen | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Sante/CG/MAAF_conditions_generales_contrat_complementaire_sante_vivazen_pro_2541.pdf) |
 | fr | sante | maaf | Règlement Mutualiste MAAF Santé | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Sante/CG/MAAF_Reglement_mutualiste_MAAFSANTE_18638.pdf) |
 | fr | sante | maaf | SANTÉ PROFIL SALARIÉS - Fiche | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Sante/Exemples_de_remboursements/MAAF_exemples_remboursement_Sante_MAAF_Pro_Salaries.pdf) |
 | fr | sante | macif | CONTRAT MACIF SANTÉ DES TERRITORIAUX - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_MSDT.pdf) |
-| fr | sante | macif | Complémentaire santé de la Branche de l'Aide, de l'Accompagnement des Soins et des Services à Domicile - Fiche | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/TG_BAD_Sante.pdf) |
+| fr | sante | macif | Complémentaire santé de la Branche de l'Aide, de l'Accompagnement des Soins et des Services à Domicile (Régime Général)  | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/TG_BAD_Sante.pdf) |
 | fr | sante | macif | Garantie Santé | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/NID/NID-Garantie-Sante.pdf) |
 | fr | sante | macif | MACIF HOSPITALISATION | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/NID/NID_MH_COMPLET_20240101.pdf) |
 | fr | sante | macif | Macif Mutuelle Entreprises | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/conditions-generales-macif-mutuelle-entreprises.pdf) |
@@ -805,8 +805,8 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | sante | matmut | Notice d'information — Régime de frais de santé, contrat collectif, Accord interbranche du 2 octobre 2019 (CCN du 15 mar | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-1966-notice-information-base-option-2.pdf) |
 | fr | sante | matmut | Ociane Santé Pro - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/garanties-pro-ociane-groupe-matmut.pdf) |
 | fr | sante | matmut | Régime complémentaire santé – Ensemble du personnel (CCN du 31 octobre 1951, IDCC N°29) | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-1951-notice-information.pdf) |
-| fr | sante | matmut | Régime de frais de santé – Contrat collectif (Accord interbranche CCN 66 - CHRS) | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-1966-notice-information-base-option-1.pdf) |
-| fr | sante | matmut | Régime de frais de santé – Contrat collectif (Accord interbranche CCN 66 - CHRS) (2) | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-1966-notice-information-base.pdf) |
+| fr | sante | matmut | Régime de frais de santé – Contrat collectif (Accord interbranche CCN 66 - CHRS) (Base + option 1 obligatoire) | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-1966-notice-information-base-option-1.pdf) |
+| fr | sante | matmut | Régime de frais de santé – Contrat collectif (Accord interbranche CCN 66 - CHRS) (Base obligatoire) | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-1966-notice-information-base.pdf) |
 | fr | sante | matmut | Régime frais de santé - CCN BTP - Vos garanties 2026 - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-BTP-garanties-sante.pdf) |
 | fr | sante | matmut | Régime frais de santé - CCN Bois et Lin - Vos garanties 2026 - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-BOIS-LIN-garanties-sante.pdf) |
 | fr | sante | matmut | Régime frais de santé - CCN Commerce de détail de l'habillement et des articles textiles - Vos garanties 2026 - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-habillement-garanties-sante.pdf) |
@@ -848,7 +848,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | scolaire | matmut | Conditions de l'offre Assurance Scolaire - Tarifs | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/conditions-offre-scolaire.pdf) |
 | fr | scolaire | thelem | Assurance scolaire et extra-scolaire - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_scolaire-19-septembre-2024.pdf) |
 | fr | transport | smacl | ALÉASSUR Tous risques expositions clou à clou | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-aleassur-risques-expositions-clou-a-clou.pdf) |
-| fr | transport | smacl | Conventions spéciales CONVERGENCE - Tous risques expositions clou à clou | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-convergence-risques-expositions-clou-a-clou.pdf) |
+| fr | transport | smacl | Conventions spéciales CONVERGENCE - Tous risques expositions clou à clou (Associatons) | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-convergence-risques-expositions-clou-a-clou.pdf) |
 | fr | velo | maif | Assurance Vélo | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/conditions-generales-assurance-velo.pdf) |
 | fr | velo | matmut | Contrat Multirisques « 2R Liberté » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPID2RLIBERTE.pdf) |
 | fr | voyage | luko | ASSURANCE MULTI-VOYAGES A L'ANNEE - 507332 - IPID | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/travel/IPID-ANNUAL-507332.pdf) |
@@ -857,11 +857,11 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | voyage | luko | Comprehensive Gold Sport Long trip 507333 | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/travel/dftralong202512/CG_Comprehensive-Gold-Sport_Long-trip_507333.pdf) |
 | fr | voyage | luko | Medical & Assistance Gold Long trip | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/travel/dftralong202512/CG_Medical-Assistance-Gold_Long-trip_507656.pdf) |
 | fr | voyage | luko | Medical & assistance Gold Sport Long trip 507657 | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/travel/dftralong202512/CG_Medical-Assistance-Gold-Sport_Long-trip_507657.pdf) |
-| fr | voyage | macif | Assistance médicale « Carte Visa Classic » | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/notice-assistance_CBleueVisa.pdf) |
+| fr | voyage | macif | Assistance médicale « Carte Visa Classic » (Assistance médicale - Contrat Etranger) | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/notice-assistance_CBleueVisa.pdf) |
 | fr | voyage | macif | CARTE VISA Premier | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/notice-assurance_CVisaPremier.pdf) |
-| lu | autres | lalux | Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance - IPID | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_BUSINESS_FR.pdf) |
-| lu | autres | lalux | SPUERKEESS credit card insurance – Assistance and Non-Assistance cover - IPID - EN | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_PREMIER_EN.pdf) |
-| lu | autres | lalux | Versicherung SPUERKEESS-Kreditkarten – Assistance-Leistungen und Nicht Assistance-Leistungen - IPID - DE | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_INFINITE_DE.pdf) |
-| lu | autres | lalux | Versicherung SPUERKEESS-Kreditkarten – Assistance-Leistungen und Nicht Assistance-Leistungen - IPID - DE (2) | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_PREMIER_DE.pdf) |
+| lu | autres | lalux | Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance (VISA BUSINESS) - IPID | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_BUSINESS_FR.pdf) |
+| lu | autres | lalux | SPUERKEESS credit card insurance – Assistance and Non-Assistance cover (VISA PREMIER) - IPID - EN | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_PREMIER_EN.pdf) |
+| lu | autres | lalux | Versicherung SPUERKEESS-Kreditkarten – Assistance-Leistungen und Nicht Assistance-Leistungen (VISA INFINITE) - IPID - DE | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_INFINITE_DE.pdf) |
+| lu | autres | lalux | Versicherung SPUERKEESS-Kreditkarten – Assistance-Leistungen und Nicht Assistance-Leistungen (VISA PREMIER) - IPID - DE | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_PREMIER_DE.pdf) |
 | lu | construction | lalux | Zehn- und Zweijahreshaftpflichtversicherung - DE | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/Divers/Aprobat/D.G._RC_Decennale_Biennale__10-07-2025_DE.pdf) |
 | lu | multirisque-professionnelle | lalux | easyPROTECT PRO – Assurance de choses - IPID | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_lalux_easyprotect-pro-entreprise-assurance-de-choses_fr.pdf) |

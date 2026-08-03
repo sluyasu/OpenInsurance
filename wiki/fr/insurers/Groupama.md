@@ -78,11 +78,11 @@ generated: true
 - [SANTÉ TNS Gamme Essentielle](../products/groupama/SANT%C3%89%20TNS%20Gamme%20Essentielle.md) - Conditions générales (092021) · réf. Réf. 3350-230004-092021
 - [SYNERGIE SANTÉ ESSENTIELLE - Doc](../products/groupama/SYNERGIE%20SANT%C3%89%20ESSENTIELLE%20-%20Doc.md) - Document (052022)
 - [SYNERGIE SANTÉ SALARIÉS - Doc](../products/groupama/SYNERGIE%20SANT%C3%89%20SALARI%C3%89S%20-%20Doc.md) - Document (052022)
-- [SYNERGIE SANTÉ SALARIÉS - Doc](../products/groupama/SYNERGIE%20SANT%C3%89%20SALARI%C3%89S%20-%20Doc%20%282%29.md) - Document (052022)
+- [SYNERGIE SANTÉ SALARIÉS (Régime local d'assurance maladie d'Alsace Moselle) - Doc](../products/groupama/SYNERGIE%20SANT%C3%89%20SALARI%C3%89S%20%28R%C3%A9gime%20local%20d%27assurance%20maladie%20d%27Alsace%20Moselle%29%20-%20Doc.md) - Document (052022)
 - [Solution Groupama Santé - Doc](../products/groupama/Solution%20Groupama%20Sant%C3%A9%20-%20Doc%20%282%29.md) - Document (JUILLET 2026)
 - [Solution Groupama Santé - Doc](../products/groupama/Solution%20Groupama%20Sant%C3%A9%20-%20Doc.md) - Document (2026-07)
-- [TMGF Synergie santé Salariés - Doc](../products/groupama/TMGF%20Synergie%20sant%C3%A9%20Salari%C3%A9s%20-%20Doc.md) - Document
-- [TMGF Synergie santé Salariés - Doc](../products/groupama/TMGF%20Synergie%20sant%C3%A9%20Salari%C3%A9s%20-%20Doc%20%282%29.md) - Document
+- [TMGF Synergie santé Salariés (Version Régime Local - En complément) - Doc](../products/groupama/TMGF%20Synergie%20sant%C3%A9%20Salari%C3%A9s%20%28Version%20R%C3%A9gime%20Local%20-%20En%20compl%C3%A9ment%29%20-%20Doc.md) - Document
+- [TMGF Synergie santé Salariés (Version Régime général - En complément) - Doc](../products/groupama/TMGF%20Synergie%20sant%C3%A9%20Salari%C3%A9s%20%28Version%20R%C3%A9gime%20g%C3%A9n%C3%A9ral%20-%20En%20compl%C3%A9ment%29%20-%20Doc.md) - Document
 
 ## Source
 

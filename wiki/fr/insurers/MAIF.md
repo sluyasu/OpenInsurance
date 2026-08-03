@@ -69,7 +69,7 @@ generated: true
 
 ### [Autres](../branches/Autres.md)
 - [Barème de frais - Tarifs](../products/maif/Bar%C3%A8me%20de%20frais%20-%20Tarifs.md) - Conditions tarifaires (03/2026)
-- [Barème de frais applicables à compter du 01-07-2024 pour les Associations et les Collectivités - Tarifs](../products/maif/Bar%C3%A8me%20de%20frais%20applicables%20%C3%A0%20compter%20du%2001-07-2024%20pour%20les%20Associations%20et%20les%20Collectivit%C3%A9s%20-%20Tarifs.md) - Conditions tarifaires (07/2024)
+- [Barème de frais applicables à compter du 01-07-2024 pour les Associations et les Collectivités (Associations et Collecti](../products/maif/Bar%C3%A8me%20de%20frais%20applicables%20%C3%A0%20compter%20du%2001-07-2024%20pour%20les%20Associations%20et%20les%20Collectivit%C3%A9s%20%28Associations%20et%20Collecti.md) - Conditions tarifaires (07/2024)
 - [Notice juridique sur l'assurance à distance - Doc](../products/maif/Notice%20juridique%20sur%20l%27assurance%20%C3%A0%20distance%20-%20Doc.md) - Document (06/2026) · réf. 2113NJ
 
 ### [Assurance construction](../branches/Assurance%20construction.md)
@@ -96,7 +96,7 @@ generated: true
 - [Assurance Loyers Impayés - Doc](../products/maif/Assurance%20Loyers%20Impay%C3%A9s%20-%20Doc.md) - Document
 - [Assurance Loyers Impayés - SADA Assurances (porteur du risque)](../products/maif/Assurance%20Loyers%20Impay%C3%A9s%20-%20SADA%20Assurances%20%28porteur%20du%20risque%29.md) - Conditions générales (Mars 2023) · réf. CG SADA GLI _V1-SA_MAIF-01/07/2021 – Mars 2023
 - [Assurance Loyers Impayés - WAKAM (porteur du risque)](../products/maif/Assurance%20Loyers%20Impay%C3%A9s%20-%20WAKAM%20%28porteur%20du%20risque%29.md) - Conditions générales (Septembre 2025) · réf. CGWAKAMGLIMF_092025
-- [Assurance Loyers Impayés MF - IPID](../products/maif/Assurance%20Loyers%20Impay%C3%A9s%20MF%20-%20IPID.md) - IPID / Fiche d'information (Mars 2023) · réf. Réf. CG SADA GLI _V1-SA_MF-01/07/2021 – Mars 2023
+- [Assurance Loyers Impayés MF (SADA Assurances) - IPID](../products/maif/Assurance%20Loyers%20Impay%C3%A9s%20MF%20%28SADA%20Assurances%29%20-%20IPID.md) - IPID / Fiche d'information (Mars 2023) · réf. Réf. CG SADA GLI _V1-SA_MF-01/07/2021 – Mars 2023
 - [Assurance Propriétaire Bailleur](../products/maif/Assurance%20Propri%C3%A9taire%20Bailleur.md) - Conditions générales (01/2025) · réf. M5202APB
 - [Assurance Propriétaire Bailleur - IPID](../products/maif/Assurance%20Propri%C3%A9taire%20Bailleur%20-%20IPID.md) - IPID / Fiche d'information (01/2025) · réf. IPID APB
 
@@ -107,9 +107,9 @@ generated: true
 - [Raqvam Associations et Collectivités - CP](../products/maif/Raqvam%20Associations%20et%20Collectivit%C3%A9s%20-%20CP.md) - Conditions particulières (11-2021) · réf. 3443 G
 
 ### [Navigation de plaisance](../branches/Navigation%20de%20plaisance.md)
-- [Assurance Navigation - IPID](../products/maif/Assurance%20Navigation%20-%20IPID.md) - IPID / Fiche d'information (12/2023) · réf. IPID NAVIGATION - RGAA
+- [Assurance Navigation (RGAA) - IPID](../products/maif/Assurance%20Navigation%20%28RGAA%29%20-%20IPID.md) - IPID / Fiche d'information (12/2023) · réf. IPID NAVIGATION - RGAA
 - [Assurance Navigation](../products/maif/Assurance%20Navigation.md) - Conditions générales (04/2026) · réf. M6202NAVI
-- [Assurance Navigation - IPID](../products/maif/Assurance%20Navigation%20-%20IPID%20%282%29.md) - IPID / Fiche d'information (12/2023) · réf. IPID NAVIGATION
+- [Assurance Navigation - IPID](../products/maif/Assurance%20Navigation%20-%20IPID.md) - IPID / Fiche d'information (12/2023) · réf. IPID NAVIGATION
 
 ### [Obsèques](../branches/Obs%C3%A8ques.md)
 - [Sollicitudes](../products/maif/Sollicitudes.md) - Conditions générales (01/2024) · réf. NI14

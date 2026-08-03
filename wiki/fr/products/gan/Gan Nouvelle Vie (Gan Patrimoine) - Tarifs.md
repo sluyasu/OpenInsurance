@@ -112,7 +112,7 @@ Fiche de transparence des frais du PER Individuel Gan Nouvelle Vie (Gan Patrimoi
 
 ## Documents liés
 
-- [Gan Assurance Nouvelle Vie - Tarifs](Gan%20Assurance%20Nouvelle%20Vie%20-%20Tarifs.md) - Conditions tarifaires
+- [Gan Assurance Nouvelle Vie (Gan Assurances) - Tarifs](Gan%20Assurance%20Nouvelle%20Vie%20%28Gan%20Assurances%29%20-%20Tarifs.md) - Conditions tarifaires
 - [Gan Patrimoine Nouvelle Vie - Tarifs](Gan%20Patrimoine%20Nouvelle%20Vie%20-%20Tarifs.md) - Conditions tarifaires
 
 ## Source & fidélité

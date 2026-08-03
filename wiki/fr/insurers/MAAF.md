@@ -46,7 +46,7 @@ generated: true
 - [Contrat Camping car, Ambulance, Bazar forain, Véhicule de collection — Assurance Multirisque](../products/maaf/Contrat%20Camping%20car%2C%20Ambulance%2C%20Bazar%20forain%2C%20V%C3%A9hicule%20de%20collection%20%E2%80%94%20Assurance%20Multirisque.md) - Conditions générales (06/26) · réf. 6056
 
 ### [Chasse](../branches/Chasse.md)
-- [Assurance Vie privée - IPID](../products/maaf/Assurance%20Vie%20priv%C3%A9e%20-%20IPID.md) - IPID / Fiche d'information · réf. MU0_IPIDIR_00-260518-V45nc0-1-1-2-05:01:24- IRD11004
+- [Assurance Vie privée (CHASSE) - IPID](../products/maaf/Assurance%20Vie%20priv%C3%A9e%20%28CHASSE%29%20-%20IPID.md) - IPID / Fiche d'information · réf. MU0_IPIDIR_00-260518-V45nc0-1-1-2-05:01:24- IRD11004
 
 ### [Assurance construction](../branches/Assurance%20construction.md)
 - [VOS GARANTIES RESPONSABILITÉ CIVILE CONSTRUCTION - Fiche](../products/maaf/VOS%20GARANTIES%20RESPONSABILIT%C3%89%20CIVILE%20CONSTRUCTION%20-%20Fiche.md) - Fiche produit (04/18) · réf. 17195 - 04/18 - guide décennale
@@ -62,7 +62,7 @@ generated: true
 - [Assurance habitation jeune - Formule Logement - Fiche](../products/maaf/Assurance%20habitation%20jeune%20-%20Formule%20Logement%20-%20Fiche.md) - Fiche produit (06/2023)
 - [Assurance habitation jeune - Formule Tous risques - Fiche](../products/maaf/Assurance%20habitation%20jeune%20-%20Formule%20Tous%20risques%20-%20Fiche.md) - Fiche produit (06/2023)
 - [Contrat Immeuble](../products/maaf/Contrat%20Immeuble.md) - Conditions générales (01/2026) · réf. 2222
-- [FICHE D'INFORMATION RELATIVE A LA VENTE A DISTANCE DE VOTRE CONTRAT TEMPO HABITATION - Doc](../products/maaf/FICHE%20D%27INFORMATION%20RELATIVE%20A%20LA%20VENTE%20A%20DISTANCE%20DE%20VOTRE%20CONTRAT%20TEMPO%20HABITATION%20-%20Doc.md) - Document
+- [FICHE D'INFORMATION RELATIVE A LA VENTE A DISTANCE DE VOTRE CONTRAT TEMPO HABITATION (vente à distance) - Doc](../products/maaf/FICHE%20D%27INFORMATION%20RELATIVE%20A%20LA%20VENTE%20A%20DISTANCE%20DE%20VOTRE%20CONTRAT%20TEMPO%20HABITATION%20%28vente%20%C3%A0%20distance%29%20-%20Doc.md) - Document
 - [IMMEUBLE - IPID](../products/maaf/IMMEUBLE%20-%20IPID.md) - IPID / Fiche d'information · réf. MU0_IPIDHA_00-250315-GqMS1D-1-1-2-22:19:13- HAB11009
 - [MOBIL HOME ET CONSTRUCTIONS LEGERES - IPID](../products/maaf/MOBIL%20HOME%20ET%20CONSTRUCTIONS%20LEGERES%20-%20IPID.md) - IPID / Fiche d'information (2026-01) · réf. HAB11027
 - [TEMPO HABITATION EN CONSTRUCTION - IPID](../products/maaf/TEMPO%20HABITATION%20EN%20CONSTRUCTION%20-%20IPID.md) - IPID / Fiche d'information (2026-01) · réf. MU0_IPIDHA_00-260126-LDFkGz-2-1-2-05:01:17- HAB11028
@@ -98,7 +98,7 @@ generated: true
 - [Garanties Protection Juridique - Fiche](../products/maaf/Garanties%20Protection%20Juridique%20-%20Fiche.md) - Fiche produit (06/2022)
 
 ### [Responsabilité civile vie privée](../branches/Responsabilit%C3%A9%20civile%20vie%20priv%C3%A9e.md)
-- [Assurance jeune - Fiche](../products/maaf/Assurance%20jeune%20-%20Fiche.md) - Fiche produit (06/2023)
+- [Assurance jeune (Formule Personnelle) - Fiche](../products/maaf/Assurance%20jeune%20%28Formule%20Personnelle%29%20-%20Fiche.md) - Fiche produit (06/2023)
 - [TEMPO ENFANTS - IPID](../products/maaf/TEMPO%20ENFANTS%20-%20IPID.md) - IPID / Fiche d'information (2026-05) · réf. HAB11015
 - [TEMPO HABITATION Responsabilité civile - IPID](../products/maaf/TEMPO%20HABITATION%20Responsabilit%C3%A9%20civile%20-%20IPID.md) - IPID / Fiche d'information · réf. MU0_IPIDHA_00-240616-BNcr8r-6-1-2-01:01:15- HAB11023
 

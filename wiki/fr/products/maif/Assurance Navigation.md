@@ -683,8 +683,8 @@ La prescription est le délai au-delà duquel aucune action n’est plus recevab
 
 ## Documents liés
 
+- [Assurance Navigation (RGAA) - IPID](Assurance%20Navigation%20%28RGAA%29%20-%20IPID.md) - IPID / Fiche d'information, éd. 12/2023
 - [Assurance Navigation - IPID](Assurance%20Navigation%20-%20IPID.md) - IPID / Fiche d'information, éd. 12/2023
-- [Assurance Navigation - IPID](Assurance%20Navigation%20-%20IPID%20%282%29.md) - IPID / Fiche d'information, éd. 12/2023
 
 ## Source & fidélité
 

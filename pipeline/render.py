@@ -92,6 +92,15 @@ def product_title(obj: dict) -> str:
     the primary language, which keeps the plain product name.
     """
     name = obj.get("product_name") or "Untitled"
+    # A `variant` is the document's own word for which version of the product this is — a
+    # gamme, a formula, a card tier. Where a publisher gives several documents the SAME printed
+    # title and distinguishes them only inside, the variant is the only thing that tells them
+    # apart, and without it build_wiki falls back to "(2)". Measured: two lalux IPIDs both
+    # titled "Versicherung SPUERKEESS-Kreditkarten – Assistance-Leistungen und Nicht
+    # Assistance-Leistungen", one for VISA PREMIER and one for VISA INFINITE.
+    variant = (obj.get("variant") or "").strip()
+    if variant and variant.lower() not in name.lower():
+        name = f"{name} ({variant})"
     suffix = DOC_TYPE_SUFFIX.get(obj.get("document_type", ""), "")
     primary = _primary_lang(obj.get("country") or "")
     lang = obj.get("language")

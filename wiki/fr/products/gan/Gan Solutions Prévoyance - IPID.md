@@ -255,8 +255,8 @@ L’indemnisation se fait sans déduction des indemnités du régime obligatoire
 
 ## Documents liés
 
-- [Gan Solutions Prévoyance - Fiche](Gan%20Solutions%20Pr%C3%A9voyance%20-%20Fiche.md) - Fiche produit, éd. au 01/01/2026
-- [Gan Solutions Prévoyance - Fiche](Gan%20Solutions%20Pr%C3%A9voyance%20-%20Fiche%20%282%29.md) - Fiche produit, éd. au 01/01/2025
+- [Gan Solutions Prévoyance (Travailleurs non-salariés) - Fiche](Gan%20Solutions%20Pr%C3%A9voyance%20%28Travailleurs%20non-salari%C3%A9s%29%20-%20Fiche.md) - Fiche produit, éd. au 01/01/2026
+- [Gan Solutions Prévoyance (Travailleurs non-salariés) - Fiche](Gan%20Solutions%20Pr%C3%A9voyance%20%28Travailleurs%20non-salari%C3%A9s%29%20-%20Fiche%20%282%29.md) - Fiche produit, éd. au 01/01/2025
 
 ## Source & fidélité
 

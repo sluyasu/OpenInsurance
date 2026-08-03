@@ -212,7 +212,7 @@ Garantie optionnelle : Renonciation à recours contre les locataires ou occupant
 
 ## Documents liés
 
-- [Assurance multirisque immeuble - IPID](Assurance%20multirisque%20immeuble%20-%20IPID.md) - IPID / Fiche d'information, éd. août 2025
+- [Assurance multirisque immeuble (COPROPRIETE) - IPID](Assurance%20multirisque%20immeuble%20%28COPROPRIETE%29%20-%20IPID.md) - IPID / Fiche d'information, éd. août 2025
 
 ## Source & fidélité
 
