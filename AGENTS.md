@@ -27,7 +27,7 @@ navigate it without guessing. Do not edit by hand.
 |---|---|---|---|---|---|
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
 | ch (Switzerland) | 0 | 3 | 1 | 0 | 5 |
-| fr (France) | 24 | 566 | 10 | 1 | 5 |
+| fr (France) | 24 | 567 | 10 | 1 | 5 |
 | lu (Luxembourg) | 0 | 20 | 1 | 0 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
@@ -332,6 +332,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | assurance-vie | groupama | Groupama Capitalisation - Tarifs | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/45dGh3eV7GfghmNbubvHCF/96d8a6d4413eb7b6cd25b69bad72fed1/Transparence-des-frais-Groupama-Capitalisation.pdf) |
 | fr | assurance-vie | groupama | Groupama Modulation - Tarifs | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/2OkzOUNS1lkaWVdo3J6lQV/3672f74ca5be50e87a982547264e261f/Transparence-des-frais-Groupama-Modulation.pdf) |
 | fr | assurance-vie | groupama | Groupama Premium - Tarifs | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/6ww5UxNZIebZgFl7LjYBvS/91f73b81ed78cc3e1619f2a61f3ff848/Transparence-des-frais-Groupama-Premium.pdf) |
+| fr | assurance-vie | maaf | Winalto Donatio | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Epargne/CG/5116_Convention_speciale_winalto_donatio.pdf) |
 | fr | assurance-vie | macif | Jeewan Patrimoine - Tarifs | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/JeewanPatrimoine-Frais.pdf) |
 | fr | assurance-vie | macif | Livret Vie | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/NI-LIVRET-VIE-2018_compressed.pdf) |
 | fr | assurance-vie | macif | Macif Épargne Vie - Tarifs | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/MacifEpargneVie-Frais.pdf) |

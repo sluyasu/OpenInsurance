@@ -5,8 +5,9 @@ country: fr
 insurer_slug: maaf
 name: MAAF
 website: https://www.maaf.fr/
-products_count: 50
+products_count: 51
 branches_covered:
+- assurance-vie
 - auto
 - autres
 - chasse
@@ -38,9 +39,12 @@ generated: true
 
 ## Résumé
 
-**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 50 document(s) across 16 branch(es).
+**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 51 document(s) across 17 branch(es).
 
 ## Produits par branche
+
+### [Assurance vie et épargne](../branches/Assurance%20vie%20et%20%C3%A9pargne.md)
+- [Winalto Donatio](../products/maaf/Winalto%20Donatio.md) - Conditions générales (01/26) · réf. Réf. 5116 - 01/26
 
 ### [Assurance auto](../branches/Assurance%20auto.md)
 - [CARAVANE, REMORQUE, CAMION, VEHICULES DIVERS - IPID](../products/maaf/CARAVANE%2C%20REMORQUE%2C%20CAMION%2C%20VEHICULES%20DIVERS%20-%20IPID.md) - IPID / Fiche d'information (2025-06) · réf. AUT11028

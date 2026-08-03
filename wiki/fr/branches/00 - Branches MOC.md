@@ -354,7 +354,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Assurance des accidents de la vie](../products/smacl/Assurance%20des%20accidents%20de%20la%20vie.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [Assurance Accidents de la vie privée - IPID](../products/thelem/Assurance%20Accidents%20de%20la%20vie%20priv%C3%A9e%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 
-### [Assurance vie et épargne](Assurance%20vie%20et%20%C3%A9pargne.md) (36)
+### [Assurance vie et épargne](Assurance%20vie%20et%20%C3%A9pargne.md) (37)
 - [Chromatys Evolution - Tarifs](../products/gan/Chromatys%20Evolution%20-%20Tarifs.md) - [Gan Assurances](../insurers/Gan%20Assurances.md)
 - [GAN ASSURANCES CAPITALISATION EXCEPTION - Fiche](../products/gan/GAN%20ASSURANCES%20CAPITALISATION%20EXCEPTION%20-%20Fiche.md) - [Gan Assurances](../insurers/Gan%20Assurances.md)
 - [GAN ASSURANCES CHROMATYS EVOLUTION - Fiche](../products/gan/GAN%20ASSURANCES%20CHROMATYS%20EVOLUTION%20-%20Fiche.md) - [Gan Assurances](../insurers/Gan%20Assurances.md)
@@ -372,6 +372,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Groupama Capitalisation - Tarifs](../products/groupama/Groupama%20Capitalisation%20-%20Tarifs.md) - [Groupama](../insurers/Groupama.md)
 - [Groupama Modulation - Tarifs](../products/groupama/Groupama%20Modulation%20-%20Tarifs.md) - [Groupama](../insurers/Groupama.md)
 - [Groupama Premium - Tarifs](../products/groupama/Groupama%20Premium%20-%20Tarifs.md) - [Groupama](../insurers/Groupama.md)
+- [Winalto Donatio](../products/maaf/Winalto%20Donatio.md) - [MAAF](../insurers/MAAF.md)
 - [ASSURANCE VIE Responsable et Solidaire - Les documents d'informations clés - Doc](../products/maif/ASSURANCE%20VIE%20Responsable%20et%20Solidaire%20-%20Les%20documents%20d%27informations%20cl%C3%A9s%20-%20Doc.md) - [MAIF](../insurers/MAIF.md)
 - [Assurance vie Responsable et Solidaire - Tarifs](../products/maif/Assurance%20vie%20Responsable%20et%20Solidaire%20-%20Tarifs.md) - [MAIF](../insurers/MAIF.md)
 - [Assurance vie Responsable et Solidaire - IPID](../products/maif/Assurance%20vie%20Responsable%20et%20Solidaire%20-%20IPID.md) - [MAIF](../insurers/MAIF.md)
