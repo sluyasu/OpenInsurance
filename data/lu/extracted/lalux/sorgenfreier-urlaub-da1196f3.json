@@ -1,0 +1,488 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "lu",
+  "insurer_slug": "lalux",
+  "insurer_name": "lalux",
+  "product_name": "Sorgenfreier Urlaub",
+  "branch": "voyage",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "de",
+  "target_audience": null,
+  "target_audience_note": "ist für Personen bestimmt, die sich gegen bestimmte Risiken versichern möchten, die in Verbindung mit der Vorbereitung oder Durchführung einer Reise auftreten können.",
+  "reference": null,
+  "edition_date": null,
+  "product_family": "Sorgenfreier Urlaub",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_vacances-sans-soucis_lalux_de.pdf",
+  "source_pdf": "70781kb-da1196f3.pdf",
+  "source_sha256": "1d9912e7d7ace2763f82722d5cbfa01f3d0a36d918080e8d3b8204f2b1d132e8",
+  "source_pages": 2,
+  "fetched_at": "2026-08-02",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Informationsblatt zu Versicherungsprodukten für das Produkt „Sorgenfreier Urlaub“ von LALUX Assurances. Das Produkt deckt nach eigener Beschreibung Risiken ab, die in Verbindung mit der Vorbereitung oder Durchführung einer Reise auftreten können, und umfasst Assistance-Leistungen, Gepäck, Reiseunfälle (Todesfall und dauerhafte Invalidität), Erkrankung während der Reise sowie Rücktrittskosten. Der Versicherungsschutz gilt für die in den Besonderen Bedingungen festgelegte Zone: Zone 1 (ganz Europa sowie eine Länderliste) oder Zone 2 (weltweit); die Assistance-Leistungen gelten nur für Reisen außerhalb des Großherzogtums Luxemburg. Das Dokument nennt Höchstbeträge nur für einen Teil der Assistance-Leistungen und bezeichnet seine Listen ausdrücklich als „Nicht vollständige Liste“.",
+  "definitions": [
+    {
+      "term": "Zone 1",
+      "definition": "Zone 1: Die Versicherung gilt in ganz Europa sowie in folgenden Ländern: Algerien, Ägypten, Israel, Jordanien, Libanon, Libyen, Marokko, Syrien, Tunesien, Türkei, Kanarische Inseln und Madeira.",
+      "page": 2
+    },
+    {
+      "term": "Zone 2",
+      "definition": "Zone 2: Die Versicherung gilt weltweit.",
+      "page": 2
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Assistance-Leistungen für Versicherte – Rückführung des kranken oder verletzten Versicherten",
+      "description": "Rückführung des kranken oder verletzten Versicherten, wenn der Versicherte Opfer eines Unfalls oder einer Erkrankung ist und eine Rückführung erforderlich ist.",
+      "is_optional": null,
+      "territorial_scope": "Der Versicherungsschutz „Assistance-Leistungen“ gilt nur für Reisen außerhalb des Großherzogtums Luxemburg.",
+      "limits": "Deckungssumme von maximal 5.000 EUR für die Zone 2.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Assistance-Leistungen: Nur bei Fahrten außerhalb des Großherzogtums Luxemburgs.",
+        "Wahlweise und abhängig von der für den Versicherungsschutz ausgewählten Zone (1* oder 2*) sind die nachfolgend beschriebenen Elemente versichert.",
+        "soweit in den Besonderen Versicherungsbedingungen festgelegt"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance-Leistungen für Versicherte – Rückführung der Versicherten bei fahruntüchtigem oder gestohlenem Auto",
+      "description": "Rückführung der Versicherten, wenn ihr Auto im Ausland fahruntüchtig oder gestohlen wird (nur Zone 1).",
+      "is_optional": null,
+      "territorial_scope": "nur Zone 1 ; Der Versicherungsschutz „Assistance-Leistungen“ gilt nur für Reisen außerhalb des Großherzogtums Luxemburg.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Assistance-Leistungen: Nur bei Fahrten außerhalb des Großherzogtums Luxemburgs.",
+        "Wahlweise und abhängig von der für den Versicherungsschutz ausgewählten Zone (1* oder 2*) sind die nachfolgend beschriebenen Elemente versichert.",
+        "soweit in den Besonderen Versicherungsbedingungen festgelegt"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance-Leistungen für Versicherte – Reise eines Familienmitglieds an das Krankenbett des Versicherten im Ausland",
+      "description": "Reise eines Familienmitglieds an das Krankenbett des Versicherten im Ausland.",
+      "is_optional": null,
+      "territorial_scope": "Der Versicherungsschutz „Assistance-Leistungen“ gilt nur für Reisen außerhalb des Großherzogtums Luxemburg.",
+      "limits": "Für die Zone 2 ist der Betrag auf 1.250 EUR begrenzt.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Krankenhausaufenthalte von mindestens sieben Tagen.",
+        "Assistance-Leistungen: Nur bei Fahrten außerhalb des Großherzogtums Luxemburgs.",
+        "Wahlweise und abhängig von der für den Versicherungsschutz ausgewählten Zone (1* oder 2*) sind die nachfolgend beschriebenen Elemente versichert.",
+        "soweit in den Besonderen Versicherungsbedingungen festgelegt"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance-Leistungen für Versicherte – Betreuung der versicherten Kinder im Ausland",
+      "description": "Betreuung der versicherten Kinder im Ausland (Kinder unter 15 Jahre) und Übernahme der Transportkosten für eine Person, die die Betreuung dieser Kinder übernehmen kann.",
+      "is_optional": null,
+      "territorial_scope": "Der Versicherungsschutz „Assistance-Leistungen“ gilt nur für Reisen außerhalb des Großherzogtums Luxemburg.",
+      "limits": "Betreuung der versicherten Kinder im Ausland: In der Zone 2 ist der Betrag auf 1.250 EUR begrenzt.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Kinder unter 15 Jahre",
+        "Assistance-Leistungen: Nur bei Fahrten außerhalb des Großherzogtums Luxemburgs.",
+        "Wahlweise und abhängig von der für den Versicherungsschutz ausgewählten Zone (1* oder 2*) sind die nachfolgend beschriebenen Elemente versichert.",
+        "soweit in den Besonderen Versicherungsbedingungen festgelegt"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance-Leistungen für Versicherte – Dringende Rückkehr des Versicherten bei Versterben eines Familienmitglieds im Großherzogtum Luxemburg",
+      "description": "Dringende Rückkehr des Versicherten bei Versterben eines Familienmitglieds im Großherzogtum Luxemburg.",
+      "is_optional": null,
+      "territorial_scope": "Der Versicherungsschutz „Assistance-Leistungen“ gilt nur für Reisen außerhalb des Großherzogtums Luxemburg.",
+      "limits": "Dringende Rückkehr des Versicherten bei Versterben eines Familienmitglieds im Großherzogtum Luxemburg: In der Zone 2 ist der Betrag auf 1.250 EUR begrenzt.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Assistance-Leistungen: Nur bei Fahrten außerhalb des Großherzogtums Luxemburgs.",
+        "Wahlweise und abhängig von der für den Versicherungsschutz ausgewählten Zone (1* oder 2*) sind die nachfolgend beschriebenen Elemente versichert.",
+        "soweit in den Besonderen Versicherungsbedingungen festgelegt"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance-Leistungen für Versicherte – Rückführung bei Versterben im Ausland",
+      "description": "Rückführung bei Versterben im Ausland.",
+      "is_optional": null,
+      "territorial_scope": "Der Versicherungsschutz „Assistance-Leistungen“ gilt nur für Reisen außerhalb des Großherzogtums Luxemburg.",
+      "limits": "Rückführung nach Todesfall: Zone 1 – maximal 2.500 EUR; Zone 2 – maximal 5.000 EUR.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Assistance-Leistungen: Nur bei Fahrten außerhalb des Großherzogtums Luxemburgs.",
+        "Wahlweise und abhängig von der für den Versicherungsschutz ausgewählten Zone (1* oder 2*) sind die nachfolgend beschriebenen Elemente versichert.",
+        "soweit in den Besonderen Versicherungsbedingungen festgelegt"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Gepäck",
+      "description": "Versicherung des Gepäcks gegen Verlust, Zerstörung oder Beschädigung aufgrund von Diebstahl, Überfall, Feuer, Explosion oder aufgrund einer anderen versehentlichen Ursache. Der Versicherungsschutz gilt beispielsweise für das Handgepäck, die an der Person getragenen Gegenstände, Kinderwagen und Buggys, Sportartikel, Campingausrüstung usw.",
+      "is_optional": null,
+      "territorial_scope": "Die Versicherung gilt für die in den Besonderen Bedingungen festgelegte Zone",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Der Diebstahl von transportiertem Gepäck aus einem Fahr- zeug ist nur dann versichert, wenn das Fahrzeug abgeschlossen ist.",
+        "Wahlweise und abhängig von der für den Versicherungsschutz ausgewählten Zone (1* oder 2*) sind die nachfolgend beschriebenen Elemente versichert.",
+        "soweit in den Besonderen Versicherungsbedingungen festgelegt"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Reiseunfälle – Versicherungsschutz im Todesfall",
+      "description": "Versicherungsschutz im Todesfall: Wenn der Versicherte an den Folgen eines versicherten Unfalls verstirbt, unmittelbar oder innerhalb von zwei Jahren nach dem Unfalltag.",
+      "is_optional": null,
+      "territorial_scope": "Die Versicherung gilt für die in den Besonderen Bedingungen festgelegte Zone",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "unmittelbar oder innerhalb von zwei Jahren nach dem Unfalltag.",
+        "Wahlweise und abhängig von der für den Versicherungsschutz ausgewählten Zone (1* oder 2*) sind die nachfolgend beschriebenen Elemente versichert.",
+        "soweit in den Besonderen Versicherungsbedingungen festgelegt"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Reiseunfälle – Versicherungsschutz bei dauerhafter Invalidität",
+      "description": "Versicherungsschutz bei dauerhafter Invalidität: Zahlung einer Entschädigung, wenn der Versicherte infolge eines versicherten Unfalls von einer dauerhaften Invalidität betroffen ist.",
+      "is_optional": null,
+      "territorial_scope": "Die Versicherung gilt für die in den Besonderen Bedingungen festgelegte Zone",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Wahlweise und abhängig von der für den Versicherungsschutz ausgewählten Zone (1* oder 2*) sind die nachfolgend beschriebenen Elemente versichert.",
+        "soweit in den Besonderen Versicherungsbedingungen festgelegt"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Erkrankung während der Reise",
+      "description": "Erstattung der dem Versicherten entstehenden Behandlungskosten wie etwa Arzt-/Krankenhauskosten, Kosten für Arzneimittel, Kosten für den Transport im Krankenwagen in die nächstgelegene Krankenhauseinrichtung usw.",
+      "is_optional": null,
+      "territorial_scope": "Die Versicherung gilt für die in den Besonderen Bedingungen festgelegte Zone",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Wahlweise und abhängig von der für den Versicherungsschutz ausgewählten Zone (1* oder 2*) sind die nachfolgend beschriebenen Elemente versichert.",
+        "soweit in den Besonderen Versicherungsbedingungen festgelegt"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Rücktrittskosten",
+      "description": "Vom Versicherten an Dritte (wie etwa Reiseagenturen oder Transportunternehmen) zu zahlende Rücktrittskosten, wenn die Reise storniert oder abgebrochen wird beispielsweise aufgrund einer Erkrankung/eines körperlichen Unfalls des Versicherten (ärztlich bescheinigt), aufgrund des Versterbens oder der Erkrankung des Ehegatten oder der Kinder des Versicherten usw.",
+      "is_optional": null,
+      "territorial_scope": "Die Versicherung gilt für die in den Besonderen Bedingungen festgelegte Zone",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Wahlweise und abhängig von der für den Versicherungsschutz ausgewählten Zone (1* oder 2*) sind die nachfolgend beschriebenen Elemente versichert.",
+        "soweit in den Besonderen Versicherungsbedingungen festgelegt"
+      ],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Assistance-Leistungen: Rückführung bei Rückfällen einer chronischen Erkrankung",
+      "description": "Assistance-Leistungen für Versicherte: Ausgeschlossen ist die Rückführung in Verbindung mit Rückfällen bei einer chronischen Erkrankung, die mit dem Risiko einer schnellen und drastischen Verschlimmerung verbunden ist.",
+      "applies_to": "Assistance-Leistungen für Versicherte",
+      "page": 1
+    },
+    {
+      "name": "Gepäck: verlegte oder verlorene Gegenstände",
+      "description": "Gepäck: verlegte oder verlorene Gegenstände",
+      "applies_to": "Gepäck",
+      "page": 1
+    },
+    {
+      "name": "Gepäck: Abhandenkommen von echten Perlen und Edelsteinen, die aus ihrer Fassung gefallen sind",
+      "description": "Abhandenkommen von echten Perlen und Edelsteinen, die aus ihrer Fassung gefallen sind",
+      "applies_to": "Gepäck",
+      "page": 1
+    },
+    {
+      "name": "Gepäck: Schäden an Sportartikeln aufgrund ihrer Benutzung",
+      "description": "Schäden an Sportartikeln aufgrund ihrer Benutzung usw.",
+      "applies_to": "Gepäck",
+      "page": 1
+    },
+    {
+      "name": "Reiseunfälle: Schäden in Verbindung mit der Ausübung bestimmter Sportarten",
+      "description": "Reiseunfälle: Schäden in Verbindung mit der Ausübung bestimmter Sportarten wie etwa Segeln, Fallschirmspringen oder Paragliding.",
+      "applies_to": "Reiseunfälle – Versicherungsschutz im Todesfall ; Reiseunfälle – Versicherungsschutz bei dauerhafter Invalidität",
+      "page": 1
+    },
+    {
+      "name": "Erkrankungen während der Reise: im Großherzogtum Luxemburg anfallende Behandlungskosten",
+      "description": "Erkrankungen während der Reise: Im Großherzogtum Luxemburg anfallende Behandlungskosten,",
+      "applies_to": "Erkrankung während der Reise",
+      "page": 1
+    },
+    {
+      "name": "Erkrankungen während der Reise: Kosten für Kuren",
+      "description": "Erkrankungen während der Reise: Kosten für Kuren",
+      "applies_to": "Erkrankung während der Reise",
+      "page": 1
+    },
+    {
+      "name": "Erkrankungen während der Reise: Entbindungskosten",
+      "description": "Erkrankungen während der Reise: Entbindungskosten",
+      "applies_to": "Erkrankung während der Reise",
+      "page": 1
+    },
+    {
+      "name": "Rücktrittskosten: Rücktritt aufgrund eines Rückfalls bei einer chronischen Erkrankung",
+      "description": "Rücktrittskosten: Versicherungsschutz wird nicht gewährt, wenn der Rücktritt aufgrund eines Rückfalls bei einer chronischen Erkrankung, die mit dem Risiko einer plötzlichen und drastischen Verschlimmerung verbunden ist, erfolgt.",
+      "applies_to": "Rücktrittskosten",
+      "page": 1
+    },
+    {
+      "name": "Im Allgemeinen: durch Täuschung oder grobes Verschulden verursachte Schäden",
+      "description": "Im Allgemeinen die durch Täuschung oder grobes Verschulden des Versicherten oder der Personen, die ihn begleiten, verursachten Schäden",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Im Allgemeinen: auf die Trunkenheit des Versicherten zurückzuführende Schäden",
+      "description": "Schäden, die dem Versicherten entstehen und auf seine Trunkenheit zurückzuführen sind",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Rückführung der Versicherten: Pannenrisiko für mehr als zehn Jahre alte Autos ausgeschlossen",
+      "description": "Rückführung der Versicherten: Pannenrisiko für mehr als zehn Jahre alte Autos ausgeschlossen.",
+      "applies_to": "Assistance-Leistungen für Versicherte – Rückführung der Versicherten bei fahruntüchtigem oder gestohlenem Auto",
+      "page": 1
+    }
+  ],
+  "deductibles": null,
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Meldung des Schadensfalls",
+      "description": "Der Versicherungsnehmer und/oder der Versicherte müssen schnellstmöglich, spätestens jedoch innerhalb von acht Tagen nach Eintreten des Schadens, die Versicherungsgesellschaft über den Schadensfall informieren. Sollte dies infolge eines Falles höherer Gewalt nicht möglich sein, muss die Versicherungsgesellschaft, so schnell dies angemessen möglich ist, informiert werden unter Angabe des Datums, der Uhrzeit, des Orts und der Umstände des Unfalls sowie der vorhersehbaren Folgen.",
+      "timing": "Im Schadensfall",
+      "sanction": "Sollten der Versicherungsnehmer und/oder der Versicherte eine der in den Allgemeinen Versicherungsbedingungen vorgesehenen Verpflichtungen nicht erfüllen und daraus ein Nachteil für die Versicherungsgesellschaft entstehen, ist diese berechtigt, eine Kürzung der Versicherungsleistung zu beanspruchen. Die Versicherungsgesellschaft kann ihren Versicherungsschutz verweigern, wenn der Versicherte in betrügerischer Absicht eine dieser Verpflichtungen nicht erfüllt hat.",
+      "page": 2
+    },
+    {
+      "name": "Auskunftspflicht",
+      "description": "Der Versicherungsnehmer und/oder der Versicherte müssen dem Versicherer unverzüglich alle nützlichen und wahrheitsgetreuen Angaben liefern und die Fragen beantworten, die darauf zielen, die Umstände und das Ausmaß des Schadens festzustellen.",
+      "timing": "Im Schadensfall",
+      "sanction": "Sollten der Versicherungsnehmer und/oder der Versicherte eine der in den Allgemeinen Versicherungsbedingungen vorgesehenen Verpflichtungen nicht erfüllen und daraus ein Nachteil für die Versicherungsgesellschaft entstehen, ist diese berechtigt, eine Kürzung der Versicherungsleistung zu beanspruchen. Die Versicherungsgesellschaft kann ihren Versicherungsschutz verweigern, wenn der Versicherte in betrügerischer Absicht eine dieser Verpflichtungen nicht erfüllt hat.",
+      "page": 2
+    },
+    {
+      "name": "Erfüllung der in den Allgemeinen Versicherungsbedingungen vorgesehenen Verpflichtungen",
+      "description": "Sollten der Versicherungsnehmer und/oder der Versicherte eine der in den Allgemeinen Versicherungsbedingungen vorgesehenen Verpflichtungen nicht erfüllen und daraus ein Nachteil für die Versicherungsgesellschaft entstehen, ist diese berechtigt, eine Kürzung der Versicherungsleistung zu beanspruchen. Die Versicherungsgesellschaft kann ihren Versicherungsschutz verweigern, wenn der Versicherte in betrügerischer Absicht eine dieser Verpflichtungen nicht erfüllt hat.",
+      "timing": "Im Schadensfall",
+      "sanction": "ist diese berechtigt, eine Kürzung der Versicherungsleistung zu beanspruchen. Die Versicherungsgesellschaft kann ihren Versicherungsschutz verweigern, wenn der Versicherte in betrügerischer Absicht eine dieser Verpflichtungen nicht erfüllt hat.",
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Schadensmeldung an die Versicherungsgesellschaft",
+      "description": "Der Versicherungsnehmer und/oder der Versicherte müssen schnellstmöglich, spätestens jedoch innerhalb von acht Tagen nach Eintreten des Schadens, die Versicherungsgesellschaft über den Schadensfall informieren.",
+      "deadline": "schnellstmöglich, spätestens jedoch innerhalb von acht Tagen nach Eintreten des Schadens",
+      "page": 2
+    },
+    {
+      "step": "Meldung bei höherer Gewalt",
+      "description": "Sollte dies infolge eines Falles höherer Gewalt nicht möglich sein, muss die Versicherungsgesellschaft, so schnell dies angemessen möglich ist, informiert werden unter Angabe des Datums, der Uhrzeit, des Orts und der Umstände des Unfalls sowie der vorhersehbaren Folgen.",
+      "deadline": "so schnell dies angemessen möglich ist",
+      "page": 2
+    },
+    {
+      "step": "Auskünfte und Beantwortung der Fragen",
+      "description": "Der Versicherungsnehmer und/oder der Versicherte müssen dem Versicherer unverzüglich alle nützlichen und wahrheitsgetreuen Angaben liefern und die Fragen beantworten, die darauf zielen, die Umstände und das Ausmaß des Schadens festzustellen.",
+      "deadline": "unverzüglich",
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Das Datum des Inkrafttretens, sowie das Ablaufdatum des Vertrags, sind in den Besonderen Bedingungen festgesetzt. Der Vertrag wird für die in den Besonderen Bedingungen vorgesehene Laufzeit abgeschlossen. Vorbehaltlich einer stillschweigenden Verlängerung endet der Vertrag am Tag seines Ablaufdatums um 24:00 Uhr.",
+    "tacit_renewal": true,
+    "notice_period": null,
+    "methods": [
+      "Falls eine Annullierung des befristeten Vertrags erwünscht ist, so muss eine Anfrage seitens des Versicherungsnehmers an die Gesellschaft übermittelt werden."
+    ],
+    "special_rights": null,
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "Der auf der Fälligkeitsmitteilung angegebene Betrag ist an dem Tag, an dem die Versicherung in Kraft tritt, zahlbar."
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Umfang des Versicherungsschutzes",
+      "description": "Umfang des Versicherungsschutzes (soweit in den Besonderen Versicherungsbedingungen festgelegt): Wahlweise und abhängig von der für den Versicherungsschutz ausgewählten Zone (1* oder 2*) sind die nachfolgend beschriebenen Elemente versichert.",
+      "page": 1
+    },
+    {
+      "name": "Nicht vollständige Liste",
+      "description": "Der Vermerk „Nicht vollständige Liste“ ist am Fuß der Rubrik „Was ist nicht versichert ?“ und am Fuß der Rubrik „Gibt es Ausschlüsse vom Versicherungsschutz ?“ abgedruckt: die beiden Aufzählungen sind nach Angabe des Dokuments selbst nicht abschließend.",
+      "page": 1
+    },
+    {
+      "name": "Hinweis",
+      "description": "Das vorliegende Dokument ist nicht individuell an Ihren spezifischen Bedarf angepasst und die im vorliegenden Dokument vorgesehenen Informationen und Pflichten sind nicht vollständig. Ausführliche Informationen zu den Rechten und Pflichten des Versicherungsunternehmens und des Versicherten finden Sie in den Allgemeinen Versicherungsbedingungen und/ oder den für das ausgewählte Produkt geltenden Besonderen Bedingungen.",
+      "page": 1
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Was ist versichert ?",
+      "page": 1
+    },
+    {
+      "quote": "Umfang des Versicherungsschutzes \n(soweit in den Besonderen Versicherungsbedingungen festgelegt):",
+      "page": 1
+    },
+    {
+      "quote": "Das Produkt „Sorgenfreier Urlaub“ ist für Personen bestimmt, die sich gegen bestimmte Risiken versichern möchten, die in Verbindung mit der \nVorbereitung oder Durchführung einer Reise auftreten können. Wahlweise und abhängig von der für den Versicherungsschutz ausgewählten Zone \n(1* oder 2*) sind die nachfolgend beschriebenen Elemente versichert.",
+      "page": 1
+    },
+    {
+      "quote": "*Zone 1: ganz Europa und verschiedene andere festgelegte Länder (siehe „Wo bin ich versichert?“); **Zone 2: weltweit",
+      "page": 1
+    },
+    {
+      "quote": "Rückführung des kranken oder verletzten Versicherten, wenn der \nVersicherte Opfer eines Unfalls oder einer Erkrankung ist und eine \nRückführung erforderlich ist.",
+      "page": 1
+    },
+    {
+      "quote": "Rückführung der Versicherten, wenn ihr Auto im Ausland fahruntüchtig \noder gestohlen wird (nur Zone 1).",
+      "page": 1
+    },
+    {
+      "quote": "Versicherung des Gepäcks gegen Verlust, Zerstörung oder \nBeschädigung aufgrund von Diebstahl, Überfall, Feuer, Explosion \noder aufgrund einer anderen versehentlichen Ursache. Der \nVersicherungsschutz gilt beispielsweise für das Handgepäck, die an \nder Person getragenen Gegenstände, Kinderwagen und Buggys, \nSportartikel, Campingausrüstung usw.",
+      "page": 1
+    },
+    {
+      "quote": "Versicherungsschutz im Todesfall: Wenn der Versicherte an den Folgen \neines versicherten Unfalls verstirbt, unmittelbar oder innerhalb von \nzwei Jahren nach dem Unfalltag.",
+      "page": 1
+    },
+    {
+      "quote": "Versicherungsschutz bei dauerhafter Invalidität: Zahlung einer \nEntschädigung, wenn der Versicherte infolge eines versicherten \nUnfalls von einer dauerhaften Invalidität betroffen ist.",
+      "page": 1
+    },
+    {
+      "quote": "Vom Versicherten an Dritte (wie etwa Reiseagenturen oder \nTransportunternehmen) zu zahlende Rücktrittskosten, wenn die \nReise storniert oder abgebrochen wird beispielsweise aufgrund einer \nErkrankung/eines körperlichen Unfalls des Versicherten (ärztlich \nbescheinigt), aufgrund des Versterbens oder der Erkrankung des \nEhegatten oder der Kinder des Versicherten usw.",
+      "page": 1
+    },
+    {
+      "quote": "Was ist nicht versichert ?",
+      "page": 1
+    },
+    {
+      "quote": "Gibt es Ausschlüsse vom\nVersicherungsschutz ?",
+      "page": 1
+    },
+    {
+      "quote": "Assistance-Leistungen: Rückführung des kranken oder verletzten \nVersicherten: Deckungssumme von maximal 5.000 EUR für die Zone 2.",
+      "page": 1
+    },
+    {
+      "quote": "Rückführung der Versicherten: Pannenrisiko für mehr als zehn Jahre \nalte Autos ausgeschlossen.",
+      "page": 1
+    },
+    {
+      "quote": "Rückführung nach Todesfall: Zone 1 – maximal 2.500 EUR; Zone 2 – \nmaximal 5.000 EUR.",
+      "page": 1
+    },
+    {
+      "quote": "Im Allgemeinen die durch Täuschung oder grobes Verschulden des \nVersicherten oder der Personen, die ihn begleiten, verursachten \nSchäden oder auch Schäden, die dem Versicherten entstehen und \nauf seine Trunkenheit zurückzuführen sind",
+      "page": 1
+    },
+    {
+      "quote": "Nicht vollständige Liste",
+      "page": 1
+    },
+    {
+      "quote": "LALUX Assurances - Produkt : Sorgenfreier Urlaub",
+      "page": 1
+    },
+    {
+      "quote": "Zone 1: Die Versicherung gilt in ganz Europa sowie in folgenden Ländern: Algerien, Ägypten, Israel, Jordanien, Libanon, \nLibyen, Marokko, Syrien, Tunesien, Türkei, Kanarische Inseln und Madeira.",
+      "page": 2
+    },
+    {
+      "quote": "Zone 2: Die Versicherung gilt weltweit.",
+      "page": 2
+    },
+    {
+      "quote": "Der Versicherungsschutz „Assistance-Leistungen“ gilt nur für Reisen außerhalb des Großherzogtums Luxemburg.",
+      "page": 2
+    },
+    {
+      "quote": "Der Versicherungsnehmer und/oder der Versicherte müssen schnellstmöglich, spätestens jedoch innerhalb von acht Tagen nach \nEintreten des Schadens, die Versicherungsgesellschaft über den Schadensfall informieren.",
+      "page": 2
+    },
+    {
+      "quote": "diese berechtigt, eine Kürzung der Versicherungsleistung zu beanspruchen. Die Versicherungsgesellschaft kann ihren \nVersicherungsschutz verweigern, wenn der Versicherte in betrügerischer Absicht eine dieser Verpflichtungen nicht erfüllt hat.",
+      "page": 2
+    },
+    {
+      "quote": "Der auf der Fälligkeitsmitteilung angegebene Betrag ist an dem Tag, an dem die Versicherung in Kraft tritt, zahlbar.",
+      "page": 2
+    },
+    {
+      "quote": "Vorbehaltlich einer \nstillschweigenden Verlängerung endet der Vertrag am Tag seines Ablaufdatums um 24:00 Uhr.",
+      "page": 2
+    },
+    {
+      "quote": "Falls eine Annullierung des befristeten Vertrags erwünscht ist, so muss eine Anfrage seitens des Versicherungsnehmers an die \nGesellschaft übermittelt werden.",
+      "page": 2
+    },
+    {
+      "quote": "ist nur dann versichert, wenn das Fahrzeug abgeschlossen ist.",
+      "page": 1
+    }
+  ],
+  "gaps": [
+    "Assureur indéterminable au sens juridique. Le document imprime « LALUX Assurances - Produkt : Sorgenfreier Urlaub » et, dans le corps, « die Versicherungsgesellschaft », « der Versicherer », « die Gesellschaft » — une marque et des désignations génériques, sans forme sociale ni numéro RCS. À signaler : bien que le document soit intégralement en allemand, la marque est imprimée sous sa forme française « LALUX Assurances » et non « LALUX Versicherungen ». L'entité juridique porteuse n'est pas déterminable à partir de ce seul document.",
+    "Intitulé de rubrique contredit par son contenu, conservé tel quel. La troisième boîte s'intitule « Gibt es Ausschlüsse vom Versicherungsschutz ? » (« Y a-t-il des exclusions de la couverture ? ») alors que le format DIPA prévoit à cette place la rubrique des restrictions (« Gibt es Einschränkungen des Versicherungsschutzes ? »), et alors que la page comporte déjà une boîte « Was ist nicht versichert ? ». Son contenu est constitué pour l'essentiel de plafonds et de conditions, non d'exclusions : une condition territoriale (« Nur bei Fahrten außerhalb des Großherzogtums Luxemburgs »), cinq plafonds chiffrés (5.000 EUR, 1.250 EUR trois fois, 2.500 EUR / 5.000 EUR) et une condition de couverture pour le vol de bagages dans un véhicule. Un seul de ses huit points est une véritable exclusion (« Pannenrisiko für mehr als zehn Jahre alte Autos ausgeschlossen »). Chaque point a été rangé selon sa nature — limits, conditions ou exclusions — et l'intitulé n'a pas été réparé.",
+    "Le document déclare lui-même ses listes incomplètes : la mention « Nicht vollständige Liste » est imprimée au pied de la boîte « Was ist nicht versichert ? » et au pied de la boîte « Gibt es Ausschlüsse vom Versicherungsschutz ? ». Les 12 exclusions et les plafonds enregistrés sont donc ceux que le document imprime, et non l'ensemble des exclusions et restrictions du produit ; rien n'a été ajouté pour les compléter.",
+    "Contradiction interne sur les astérisques des zones : le corps de la rubrique « Um welche Art von Versicherung handelt es sich ? » écrit « (1* oder 2*) », avec un seul astérisque pour la zone 2, alors que la note de bas de bloc écrit « *Zone 1: … ; **Zone 2: weltweit », avec deux astérisques. Les deux lectures sont conservées verbatim dans key_quotes ; aucune n'a été corrigée.",
+    "Espace fine insécable U+2009 avant les « ? » et les « : » de tous les intitulés (12 occurrences), et à l'intérieur d'une valeur chiffrée : « Deckungssumme von maximal 5.000 EUR für die Zone 2. » porte un U+2009 entre « Zone » et « 2 ». Toutes les citations ont été découpées programmatiquement dans le texte source et conservent ce caractère ; aucune n'a été retapée.",
+    "Coupure de mot par trait d'union réel à la fin d'une ligne : « … aus einem Fahr-\\nzeug ist nur dann versichert … ». Aucune normalisation d'espaces ne la répare. La citation correspondante a été redécoupée pour ne pas traverser la coupure (« ist nur dann versichert, wenn das Fahrzeug abgeschlossen ist. ») ; la phrase complète, coupure comprise, figure telle quelle dans les conditions de la garantie Gepäck.",
+    "L'ordre de lecture de la couche texte ne suit pas l'ordre visuel de la page 1 : les trois boîtes (versichert / nicht versichert / Ausschlüsse) sortent avant le bloc de titre (« Sorgenfreier Urlaub », « Informationsblatt zu Versicherungsprodukten », « LALUX Assurances - Produkt : Sorgenfreier Urlaub »), le Hinweis et la rubrique « Um welche Art von Versicherung handelt es sich ? », qui sont pourtant imprimés en tête de page. Chaque bloc a été rattaché à sa rubrique par son intitulé, jamais par sa position dans le flux. La justification fait par ailleurs sortir plusieurs passages un mot par ligne (« Nur / bei / Fahrten / außerhalb / des »).",
+    "is_optional laissé à null sur les 11 garanties. Le document écrit « Wahlweise und abhängig von der für den Versicherungsschutz ausgewählten Zone (1* oder 2*) sind die nachfolgend beschriebenen Elemente versichert. » et sous-titre la boîte des garanties « soweit in den Besonderen Versicherungsbedingungen festgelegt ». Le caractère facultatif de chaque garantie prise isolément n'est donc pas tranché par ce document : il renvoie aux Besondere Versicherungsbedingungen. Les deux phrases sont portées dans les conditions de chaque garantie.",
+    "target_audience null : le document écrit seulement que le produit « ist für Personen bestimmt, die sich gegen bestimmte Risiken versichern möchten, die in Verbindung mit der Vorbereitung oder Durchführung einer Reise auftreten können ». « Personen » ne désigne aucune des catégories du schéma ; la formulation du document est reportée verbatim dans target_audience_note et rien n'a été déduit du type de produit.",
+    "Divergence de dénomination interne : la garantie est nommée « Rückführung bei Versterben im Ausland » dans la boîte des garanties et « Rückführung nach Todesfall » dans la boîte des plafonds. Les deux formulations sont conservées, la première comme nom de garantie et la seconde dans le plafond correspondant.",
+    "Coquille imprimée conservée : la dernière exclusion générale se termine sans point final (« … auf seine Trunkenheit zurückzuführen sind »).",
+    "Aucune date d'édition, aucune référence interne, aucun code de branche ne sont imprimés : edition_date, reference et branch_code restent null. Rien n'a été promu depuis le nom de fichier ni depuis les métadonnées du PDF. Le titre imprimé ne comporte aucune mention de formule ou de version : variant reste null.",
+    "Le document ne chiffre aucun montant pour les garanties Gepäck, Reiseunfälle (Todesfall et dauerhafte Invalidität), Erkrankung während der Reise et Rücktrittskosten : les seuls montants imprimés (5.000 EUR, 1.250 EUR, 2.500 EUR) portent sur des prestations d'assistance. limits reste null pour ces garanties plutôt que d'être déduit.",
+    "Sections absentes ou muettes, laissées vides ou nulles sans substitution : aucune franchise (deductibles null), aucun délai de carence (waiting_periods vide), aucun délai de prescription (prescription_period null), aucun délai de préavis de résiliation (notice_period null — la rubrique « Wie kann ich den Vertrag kündigen ? » n'exige qu'une demande du preneur adressée à la société, sans préavis ni forme).",
+    "tacit_renewal mis à true sur la seule base de « Vorbehaltlich einer stillschweigenden Verlängerung endet der Vertrag am Tag seines Ablaufdatums um 24:00 Uhr. ». Le document mentionne la reconduction tacite par une réserve et n'en décrit ni les conditions ni la durée ; la phrase est citée verbatim pour que le lecteur juge de la portée.",
+    "Ce document est la version allemande. Aucune rubrique, aucun montant et aucune formulation n'ont été repris d'une version française ou anglaise parallèle du même produit."
+  ]
+}

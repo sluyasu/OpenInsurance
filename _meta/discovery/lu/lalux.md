@@ -409,3 +409,35 @@ Deux remarques qui encadrent ce comptage :
   document ; corriger « tremble de terre » ou compléter une puce tronquée depuis la version
   allemande rendrait la citation invérifiable et attribuerait au document un texte qu'il ne contient
   pas. Tout est dans `gaps`, document par document.
+
+### Le porteur : ce qui a été mesuré, et l'affirmation qu'il a fallu retirer
+
+Après seize puis vingt-sept extractions, j'avais écrit que le porteur est indéterminable sur **tous**
+les documents. C'était vrai de l'échantillon et faux comme règle. Sur les **31 documents extraits**,
+**onze** nomment une entité avec sa forme juridique ou son numéro RCS — dans les quatre langues.
+
+Le cas le plus instructif est une conditions générales allemande. Elle donne dans ses *Definitionen* :
+*« Versicherer : LA LUXEMBOURGEOISE Société Anonyme d'Assurances, 9, rue Jean Fischbach,
+L-3372 Leudelange »* — la forme, le siège, donc l'entité **non-vie**. Et son en-tête courant imprime
+`R.C.S. LUXEMBOURG B31035`… **sur quatre pages seulement**. Ailleurs il n'y a que
+`R.C.S. LUXEMBOURG` sans numéro, un `R.C.S.` tronqué à la page 18, et rien du tout à la page 8.
+
+L'identification du porteur peut donc dépendre de **quelle page on regarde**. Un lecteur qui ouvre ce
+contrat à la page 8 n'a aucun moyen de savoir qui l'assure ; à la page 10, il l'a.
+
+La règle de lecture reste la même — lire, ne pas déduire de la marque — mais le constat de départ est
+corrigé : ce n'est pas une bibliothèque qui ne nomme jamais ses porteurs, c'est une bibliothèque qui
+les nomme **de façon inégale**, y compris à l'intérieur d'un même document.
+
+### Une exclusion qui accorde une garantie
+
+Dans la liste des *Ausschlüsse* d'un contrat, le point 8 énonce que le risque visé
+**« ist innerhalb der Leistungsgrenzen des Vertrags versichert »** — il est assuré dans les limites du
+contrat. Un élément de la liste des exclusions est donc une garantie.
+
+Ce n'est pas le défaut d'inversion rencontré en France, qui vient de la mise en page à deux colonnes
+et que la géométrie résout. Ici la liste est correctement composée : c'est **son contenu** qui
+contredit son titre. L'élément a été rangé en garantie, et la divergence notée.
+
+Cela porte à deux les manières dont un titre peut mentir dans ce corpus — par la mise en page et par
+la rédaction — et confirme qu'il faut décider **au contenu et à l'icône**, jamais au titre.

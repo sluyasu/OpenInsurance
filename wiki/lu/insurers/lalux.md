@@ -5,7 +5,7 @@ country: lu
 insurer_slug: lalux
 name: lalux
 website: ''
-products_count: 27
+products_count: 31
 branches_covered:
 - accidents
 - auto
@@ -13,6 +13,7 @@ branches_covered:
 - construction
 - habitation
 - multirisque-professionnelle
+- prevoyance
 - protection-juridique
 - rc-professionnelle
 - voyage
@@ -31,11 +32,12 @@ generated: true
 
 ## Résumé
 
-**lalux**. 27 document(s) across 9 branch(es).
+**lalux**. 31 document(s) across 10 branch(es).
 
 ## Produits par branche
 
 ### Assurance accidents
+- [easyPROTECT PRO – Company accident insurance - IPID - EN](../products/lalux/easyPROTECT%20PRO%20%E2%80%93%20Company%20accident%20insurance%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 - [easyPROTECT-Unfall - IPID - DE](../products/lalux/easyPROTECT-Unfall%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
 
 ### Assurance auto
@@ -69,16 +71,21 @@ generated: true
 - [easyPROTECT PRO – Assurance de choses - IPID](../products/lalux/easyPROTECT%20PRO%20%E2%80%93%20Assurance%20de%20choses%20-%20IPID.md) - IPID / Fiche d'information
 - [easyPROTECT PRO – Assurance de responsabilité civile - IPID](../products/lalux/easyPROTECT%20PRO%20%E2%80%93%20Assurance%20de%20responsabilit%C3%A9%20civile%20-%20IPID.md) - IPID / Fiche d'information
 
+### Prévoyance et décès
+- [lalux-Security – Assurance décès à capital constant - IPID](../products/lalux/lalux-Security%20%E2%80%93%20Assurance%20d%C3%A9c%C3%A8s%20%C3%A0%20capital%20constant%20-%20IPID.md) - IPID / Fiche d'information
+
 ### Protection juridique
 - [Assurance Protection Juridique Auto Intégrale - Assurance Protection Juridique Familiale Intégrale - IPID](../products/lalux/Assurance%20Protection%20Juridique%20Auto%20Int%C3%A9grale%20-%20Assurance%20Protection%20Juridique%20Familiale%20Int%C3%A9grale%20-%20IPID.md) - IPID / Fiche d'information
 
 ### RC professionnelle
 - [Assurance R.C. Professionnelle pour Architectes et Ingénieurs-Conseils](../products/lalux/Assurance%20R.C.%20Professionnelle%20pour%20Architectes%20et%20Ing%C3%A9nieurs-Conseils.md) - Conditions générales (2025-05-01) · réf. EAC/2025/13684
+- [Berufshaftpflichtversicherung für Architekten und beratende Ingenieure - DE](../products/lalux/Berufshaftpflichtversicherung%20f%C3%BCr%20Architekten%20und%20beratende%20Ingenieure%20-%20DE.md) - Conditions générales (01.05.2025) · réf. EAC/2025/13684
 
 ### Voyage et assistance
 - [Assurance BUREAUX DE VOYAGES – Formule 1 et 2 - IPID](../products/lalux/Assurance%20BUREAUX%20DE%20VOYAGES%20%E2%80%93%20Formule%201%20et%202%20-%20IPID.md) - IPID / Fiche d'information
 - [Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance (MILES & MORE LUXAIR VISA BUSINESS) - IPID](../products/lalux/Assurance%20Cartes%20de%20cr%C3%A9dit%20SPUERKEESS%20%E2%80%93%20Assistance%20et%20hors%20Assistance%20%28MILES%20%26%20MORE%20LUXAIR%20VISA%20BUSINESS%29%20-%20IPID.md) - IPID / Fiche d'information
 - [SPUERKEESS credit card insurance – Assistance and Non-Assistance cover (MILES & MORE LUXAIR VISA BUSINESS) - IPID - EN](../products/lalux/SPUERKEESS%20credit%20card%20insurance%20%E2%80%93%20Assistance%20and%20Non-Assistance%20cover%20%28MILES%20%26%20MORE%20LUXAIR%20VISA%20BUSINESS%29%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+- [Sorgenfreier Urlaub - IPID - DE](../products/lalux/Sorgenfreier%20Urlaub%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
 
 ## Source
 

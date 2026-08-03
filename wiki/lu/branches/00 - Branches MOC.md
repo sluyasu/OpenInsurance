@@ -28,13 +28,18 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 ### Protection juridique (1)
 - [Assurance Protection Juridique Auto Intégrale - Assurance Protection Juridique Familiale Intégrale - IPID](../products/lalux/Assurance%20Protection%20Juridique%20Auto%20Int%C3%A9grale%20-%20Assurance%20Protection%20Juridique%20Familiale%20Int%C3%A9grale%20-%20IPID.md) - [lalux](../insurers/lalux.md)
 
-### Assurance accidents (1)
+### Assurance accidents (2)
+- [easyPROTECT PRO – Company accident insurance - IPID - EN](../products/lalux/easyPROTECT%20PRO%20%E2%80%93%20Company%20accident%20insurance%20-%20IPID%20-%20EN.md) - [lalux](../insurers/lalux.md)
 - [easyPROTECT-Unfall - IPID - DE](../products/lalux/easyPROTECT-Unfall%20-%20IPID%20-%20DE.md) - [lalux](../insurers/lalux.md)
 
-### Voyage et assistance (3)
+### Voyage et assistance (4)
 - [Assurance BUREAUX DE VOYAGES – Formule 1 et 2 - IPID](../products/lalux/Assurance%20BUREAUX%20DE%20VOYAGES%20%E2%80%93%20Formule%201%20et%202%20-%20IPID.md) - [lalux](../insurers/lalux.md)
 - [Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance (MILES & MORE LUXAIR VISA BUSINESS) - IPID](../products/lalux/Assurance%20Cartes%20de%20cr%C3%A9dit%20SPUERKEESS%20%E2%80%93%20Assistance%20et%20hors%20Assistance%20%28MILES%20%26%20MORE%20LUXAIR%20VISA%20BUSINESS%29%20-%20IPID.md) - [lalux](../insurers/lalux.md)
 - [SPUERKEESS credit card insurance – Assistance and Non-Assistance cover (MILES & MORE LUXAIR VISA BUSINESS) - IPID - EN](../products/lalux/SPUERKEESS%20credit%20card%20insurance%20%E2%80%93%20Assistance%20and%20Non-Assistance%20cover%20%28MILES%20%26%20MORE%20LUXAIR%20VISA%20BUSINESS%29%20-%20IPID%20-%20EN.md) - [lalux](../insurers/lalux.md)
+- [Sorgenfreier Urlaub - IPID - DE](../products/lalux/Sorgenfreier%20Urlaub%20-%20IPID%20-%20DE.md) - [lalux](../insurers/lalux.md)
+
+### Prévoyance et décès (1)
+- [lalux-Security – Assurance décès à capital constant - IPID](../products/lalux/lalux-Security%20%E2%80%93%20Assurance%20d%C3%A9c%C3%A8s%20%C3%A0%20capital%20constant%20-%20IPID.md) - [lalux](../insurers/lalux.md)
 
 ### Assurances constructions (6)
 - [APROBAT - Comprehensive construction site insurance (Section 2 – Liability insurance) - IPID - EN](../products/lalux/APROBAT%20-%20Comprehensive%20construction%20site%20insurance%20%28Section%202%20%E2%80%93%20Liability%20insurance%29%20-%20IPID%20-%20EN.md) - [lalux](../insurers/lalux.md)
@@ -44,8 +49,9 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Assurance R.C. RC décennale et biennale (APROBAT)](../products/lalux/Assurance%20R.C.%20RC%20d%C3%A9cennale%20et%20biennale%20%28APROBAT%29.md) - [lalux](../insurers/lalux.md)
 - [Zehn- und Zweijahreshaftpflichtversicherung - DE](../products/lalux/Zehn-%20und%20Zweijahreshaftpflichtversicherung%20-%20DE.md) - [lalux](../insurers/lalux.md)
 
-### RC professionnelle (1)
+### RC professionnelle (2)
 - [Assurance R.C. Professionnelle pour Architectes et Ingénieurs-Conseils](../products/lalux/Assurance%20R.C.%20Professionnelle%20pour%20Architectes%20et%20Ing%C3%A9nieurs-Conseils.md) - [lalux](../insurers/lalux.md)
+- [Berufshaftpflichtversicherung für Architekten und beratende Ingenieure - DE](../products/lalux/Berufshaftpflichtversicherung%20f%C3%BCr%20Architekten%20und%20beratende%20Ingenieure%20-%20DE.md) - [lalux](../insurers/lalux.md)
 
 ### Multirisque professionnelle (4)
 - [Service easyPROTECT - Discover - IPID - EN](../products/lalux/Service%20easyPROTECT%20-%20Discover%20-%20IPID%20-%20EN.md) - [lalux](../insurers/lalux.md)
