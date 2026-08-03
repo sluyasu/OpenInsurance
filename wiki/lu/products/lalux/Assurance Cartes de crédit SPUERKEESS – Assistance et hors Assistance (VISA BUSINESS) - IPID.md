@@ -140,6 +140,10 @@ Garantie nommée uniquement dans la rubrique « Où suis-je couvert(e) ? » de l
 - CONDITIONS GÉNÉRALES NON PUBLIÉES : le document renvoie deux fois aux conditions générales (« Chaque garantie assurée prévoit des exclusions spécifiques propres, consultables dans les conditions générales y relatives. » et l’avertissement standard) sans en donner la référence, la date ni l’adresse. Aucune condition générale correspondant à ce produit n’accompagne ce document.
 - VÉRIFICATION DE LA SOURCE : la couche texte des 2 pages a été ré-extraite avec `page.get_text("text")` (PyMuPDF) et elle est BYTE-IDENTIQUE au texte du prompt sur les deux pages ; le sha256 du fichier local correspond au manifeste (9ed21114f8c4a5ae79fbfc7bfeb03faba7ed92e2436486516e778d53a3517fc0). Les deux pages ont été rendues à 2,4x et le texte imprimé correspond intégralement à la couche texte : aucun contenu vectorisé, aucun caractère U+0007, aucun glyphe de zone privée. Les 11 images de la page 1 et les 2 de la page 2 sont des pictogrammes de puce de 7x8 points (coches et croix), non du texte. Pièges de caractères relevés et contournés par découpage programmatique des citations : 67 apostrophes courbes U+2019, 19 espaces fines U+2009 (avant les deux-points et les points d’interrogation), 32 tabulations, un tiret demi-cadratin U+2013 dans le titre, et une coupure de mot par trait d’union réel à la fin d’une ligne (« d’irradia-\ntions ») autour de laquelle les citations ont été routées.
 
+## Documents liés
+
+- [Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance (VISA INFINITE) - IPID](Assurance%20Cartes%20de%20cr%C3%A9dit%20SPUERKEESS%20%E2%80%93%20Assistance%20et%20hors%20Assistance%20%28VISA%20INFINITE%29%20-%20IPID.md) - IPID / Fiche d'information
+
 ## Source & fidélité
 
 - Source : [https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_BUSINESS_FR.pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_BUSINESS_FR.pdf) - téléchargé le 2026-08-02 - 2 pages
