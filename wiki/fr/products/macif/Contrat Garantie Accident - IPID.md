@@ -233,6 +233,7 @@ L'assistance psychologique.
 
 ## Documents liés
 
+- [Contrat Garantie Accident](Contrat%20Garantie%20Accident%20%282%29.md) - Conditions générales, éd. janvier 2018
 - [Contrat Garantie Accident](Contrat%20Garantie%20Accident.md) - Conditions générales, éd. 29 janvier 2026
 - [Garantie Accident](Garantie%20Accident.md) - Conditions générales, éd. Avril 2021
 

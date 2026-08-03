@@ -57,11 +57,12 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [BUSINESS TRAVEL - IPID - EN](../products/lalux/BUSINESS%20TRAVEL%20-%20IPID%20-%20EN.md) - [lalux](../insurers/lalux.md)
 - [BUSINESS TRAVEL - IPID - DE](../products/lalux/BUSINESS%20TRAVEL%20-%20IPID%20-%20DE.md) - [lalux](../insurers/lalux.md)
 
-### [Voyage et assistance](Voyage%20et%20assistance.md) (14)
+### [Voyage et assistance](Voyage%20et%20assistance.md) (15)
 - [Assurance BUREAUX DE VOYAGES – Formule 1 et 2 - IPID](../products/lalux/Assurance%20BUREAUX%20DE%20VOYAGES%20%E2%80%93%20Formule%201%20et%202%20-%20IPID.md) - [lalux](../insurers/lalux.md)
 - [Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance (MILES & MORE LUXAIR VISA BUSINESS) - IPID](../products/lalux/Assurance%20Cartes%20de%20cr%C3%A9dit%20SPUERKEESS%20%E2%80%93%20Assistance%20et%20hors%20Assistance%20%28MILES%20%26%20MORE%20LUXAIR%20VISA%20BUSINESS%29%20-%20IPID.md) - [lalux](../insurers/lalux.md)
 - [Carefree Holidays - IPID - EN](../products/lalux/Carefree%20Holidays%20-%20IPID%20-%20EN.md) - [lalux](../insurers/lalux.md)
 - [Kreditkarten - MILES & MORE LUXAIR VISA - IPID - DE](../products/lalux/Kreditkarten%20-%20MILES%20%26%20MORE%20LUXAIR%20VISA%20-%20IPID%20-%20DE.md) - [lalux](../insurers/lalux.md)
+- [Luxair Tours - Assistance et Frais d'Annulation ou de Retard - IPID](../products/lalux/Luxair%20Tours%20-%20Assistance%20et%20Frais%20d%27Annulation%20ou%20de%20Retard%20-%20IPID.md) - [lalux](../insurers/lalux.md)
 - [Luxair Tours - Assistance-Leistungen und Rücktritts- oder Verspätungskosten - IPID - DE](../products/lalux/Luxair%20Tours%20-%20Assistance-Leistungen%20und%20R%C3%BCcktritts-%20oder%20Versp%C3%A4tungskosten%20-%20IPID%20-%20DE.md) - [lalux](../insurers/lalux.md)
 - [Reiseagenturen (Variante 1 und 2) - IPID - DE](../products/lalux/Reiseagenturen%20%28Variante%201%20und%202%29%20-%20IPID%20-%20DE.md) - [lalux](../insurers/lalux.md)
 - [SPUERKEESS credit card insurance – Assistance and Non-Assistance cover (MILES & MORE LUXAIR VISA BUSINESS) - IPID - EN](../products/lalux/SPUERKEESS%20credit%20card%20insurance%20%E2%80%93%20Assistance%20and%20Non-Assistance%20cover%20%28MILES%20%26%20MORE%20LUXAIR%20VISA%20BUSINESS%29%20-%20IPID%20-%20EN.md) - [lalux](../insurers/lalux.md)

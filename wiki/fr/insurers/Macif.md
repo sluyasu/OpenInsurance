@@ -5,7 +5,7 @@ country: fr
 insurer_slug: macif
 name: Macif
 website: https://www.macif.fr
-products_count: 90
+products_count: 93
 branches_covered:
 - animaux
 - assurance-vie
@@ -40,16 +40,18 @@ generated: true
 
 ## Résumé
 
-**Macif** - [https://www.macif.fr](https://www.macif.fr). 90 document(s) across 18 branch(es).
+**Macif** - [https://www.macif.fr](https://www.macif.fr). 93 document(s) across 18 branch(es).
 
 ## Produits par branche
 
 ### [Animaux](../branches/Animaux.md)
 - [Contrat Chiens guides](../products/macif/Contrat%20Chiens%20guides.md) - Conditions générales (12/12) · réf. EGALIS/CHIEN/05 - 12/12 - NM10
+- [Contrat Macif Assurance Chien Chat](../products/macif/Contrat%20Macif%20Assurance%20Chien%20Chat.md) - Conditions générales (Version 06/2022 (page de garde : « Version juin 2022 »)) · réf. CHIEN CHAT/05 - 06/22 - N506
 - [Contrat Macif Assurance Chien Chat - IPID](../products/macif/Contrat%20Macif%20Assurance%20Chien%20Chat%20-%20IPID.md) - IPID / Fiche d'information (06/22) · réf. CHIEN CHAT/05 - 06/22
 - [Contrat d'assurance Chiens guides - IPID](../products/macif/Contrat%20d%27assurance%20Chiens%20guides%20-%20IPID.md) - IPID / Fiche d'information (10/18) · réf. EGALIS CHIEN 10/18
 
 ### [Assurance vie et épargne](../branches/Assurance%20vie%20et%20%C3%A9pargne.md)
+- [Actiplus](../products/macif/Actiplus.md) - Conditions générales (JANVIER 2018) · réf. MUT/N/PL - 01/18
 - [Jeewan Patrimoine - Tarifs](../products/macif/Jeewan%20Patrimoine%20-%20Tarifs.md) - Conditions tarifaires (2024-06) · réf. MUT/ FC/ FRAIS/JEEWAN - 06/24
 - [Livret Vie](../products/macif/Livret%20Vie.md) - Conditions générales (JANVIER 2018) · réf. MUT/N/LV - 01/18
 - [Macif Épargne Vie - Tarifs](../products/macif/Macif%20%C3%89pargne%20Vie%20-%20Tarifs.md) - Conditions tarifaires (2024-06) · réf. MUT/FC/FRAIS/MEV - 06/24
@@ -91,6 +93,7 @@ generated: true
 
 ### [Garantie des accidents de la vie](../branches/Garantie%20des%20accidents%20de%20la%20vie.md)
 - [Contrat Garantie Accident - IPID](../products/macif/Contrat%20Garantie%20Accident%20-%20IPID.md) - IPID / Fiche d'information (29/01/26) · réf. G A - 29/01/26
+- [Contrat Garantie Accident](../products/macif/Contrat%20Garantie%20Accident%20%282%29.md) - Conditions générales (janvier 2018) · réf. PREI/ACC/05 - 01/18 - N754
 - [Contrat Garantie Accident](../products/macif/Contrat%20Garantie%20Accident.md) - Conditions générales (29 janvier 2026) · réf. P R E I/ A C C/05 - 29/01/26 - N754
 - [Garantie Accident](../products/macif/Garantie%20Accident.md) - Conditions générales (Avril 2021) · réf. PREI/ACC/05 - 04/21 - N754
 

@@ -189,6 +189,10 @@ L’assistance : aide à la recherche de l’animal disparu, aide psychologique 
 - territorial_scope : le document répond globalement à « Où suis-je couvert(e) ? » par « En France métropolitaine » et par une liste étendue pour la seule « assistance à l’étranger » ; il n’attribue pas de portée territoriale garantie par garantie. La répartition retenue ici suit cette réponse globale.
 - Le texte du prompt et le texte extrait du PDF source par PyMuPDF (page.get_text("text")) ont été comparés page par page : 2 pages sur 2 identiques après normalisation. Le prompt n’était pas tronqué.
 
+## Documents liés
+
+- [Contrat Macif Assurance Chien Chat](Contrat%20Macif%20Assurance%20Chien%20Chat.md) - Conditions générales, éd. Version 06/2022 (page de garde : « Version juin 2022 »)
+
 ## Source & fidélité
 
 - Source : [https://www.macif.fr/files/live/sites/maciffr/files/dipa/dipa_macif_assurance_chien_chat.pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/dipa_macif_assurance_chien_chat.pdf) - téléchargé le 2026-08-01 - 2 pages

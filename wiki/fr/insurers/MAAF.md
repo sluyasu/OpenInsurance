@@ -5,7 +5,7 @@ country: fr
 insurer_slug: maaf
 name: MAAF
 website: https://www.maaf.fr/
-products_count: 60
+products_count: 61
 branches_covered:
 - assurance-vie
 - auto
@@ -39,7 +39,7 @@ generated: true
 
 ## Résumé
 
-**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 60 document(s) across 17 branch(es).
+**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 61 document(s) across 17 branch(es).
 
 ## Produits par branche
 
@@ -54,7 +54,8 @@ generated: true
 - [Contrat Camping car, Ambulance, Bazar forain, Véhicule de collection — Assurance Multirisque](../products/maaf/Contrat%20Camping%20car%2C%20Ambulance%2C%20Bazar%20forain%2C%20V%C3%A9hicule%20de%20collection%20%E2%80%94%20Assurance%20Multirisque.md) - Conditions générales (06/26) · réf. 6056
 
 ### [Autres](../branches/Autres.md)
-- [Statuts de MAAF Assurances - Doc](../products/maaf/Statuts%20de%20MAAF%20Assurances%20-%20Doc.md) - Document (06/15) · réf. 1865
+- [Statuts de MAAF Assurances - Doc](../products/maaf/Statuts%20de%20MAAF%20Assurances%20-%20Doc.md) - Document (08/21) · réf. Réf. 1865 - 08/21
+- [Statuts de MAAF Assurances - Doc](../products/maaf/Statuts%20de%20MAAF%20Assurances%20-%20Doc%20%282%29.md) - Document (06/15) · réf. 1865
 - [Statuts de MAAF Assurances SA - Doc](../products/maaf/Statuts%20de%20MAAF%20Assurances%20SA%20-%20Doc.md) - Document (Juin 2018)
 - [Statuts de MAAF Vie - Doc](../products/maaf/Statuts%20de%20MAAF%20Vie%20-%20Doc.md) - Document (Août 2021)
 

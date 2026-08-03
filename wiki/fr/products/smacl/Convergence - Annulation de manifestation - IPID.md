@@ -165,6 +165,11 @@ Garantie systématiquement prévue au contrat (précédée d'une coche).
 - branch : le document ne relève d'aucune branche nommée de la taxonomie France ; « autres » a été conservé, conformément aux métadonnées de la tâche.
 - Le montant « 150 000 € » est repris verbatim ; le symbole € est présent dans la couche texte (1 occurrence, la seule du document, correspondant bien à l'unique montant tabulé).
 
+## Documents liés
+
+- Extension liée : [CONVERGENCE - Annulation de manifestation (conventions spéciales)](CONVERGENCE%20-%20Annulation%20de%20manifestation%20%28conventions%20sp%C3%A9ciales%29.md)
+- [CONVERGENCE - Annulation de manifestation (conventions spéciales)](CONVERGENCE%20-%20Annulation%20de%20manifestation%20%28conventions%20sp%C3%A9ciales%29.md) - Conditions générales, éd. 01/2024
+
 ## Source & fidélité
 
 - Source : [https://www.smacl.fr/files/documents/document-information-annulation-manifestation-des-associations-convergence.pdf](https://www.smacl.fr/files/documents/document-information-annulation-manifestation-des-associations-convergence.pdf) - téléchargé le 2026-08-01 - 2 pages
