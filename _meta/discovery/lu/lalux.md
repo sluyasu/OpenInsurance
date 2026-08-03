@@ -361,14 +361,35 @@ Cette section énonce des **observations sur les documents**, pas un jugement su
 interdit de noter ou de classer ; compter ce qu'on lit ne s'y oppose pas, et un lecteur qui va citer
 un IPID a besoin de savoir ce qu'on y a trouvé.
 
-Sur les **16 premiers documents extraits**, chaque constat vérifié au rendu et conservé verbatim :
+Recompté sur les **27 documents extraits à ce jour**, chaque constat vérifié au rendu et conservé verbatim :
 
 | Ce qui a été relevé | Documents |
 |---|---|
-| Fautes imprimées conservées telles quelles | 10 / 16 |
-| Contradictions internes, enregistrées sans arbitrage | 6 / 16 |
-| **Texte de gabarit destiné au rédacteur, jamais remplacé** | **2 / 16** |
-| Garantie nommée dans une rubrique mais absente de la liste des garanties | 1 / 16 |
+| **Titre de rubrique faux, ou contredit par ce qu'elle contient** | **18 / 27** |
+| Fautes imprimées conservées telles quelles | 17 / 27 |
+| Contradictions internes, enregistrées sans arbitrage | 11 / 27 |
+| **Rubrique obligatoire du format IPID entièrement absente** | **7 / 27** |
+| Texte de gabarit destiné au rédacteur, jamais remplacé | 2 / 27 |
+| Garantie nommée dans une rubrique mais absente de la liste des garanties | 2 / 27 |
+| Passage imprimé dans une autre langue que le document | 1 / 27 |
+
+Le premier poste a fortement monté entre le comptage à seize et celui à vingt-sept, et c'est le
+plus gênant pour un lecteur, parce qu'il porte sur **la structure imposée** de l'IPID plutôt que sur
+sa rédaction. Trois cas mesurés :
+
+- Un document imprime **deux fois « What is insured ? »** ; le second encadré porte l'icône rouge et
+  ne contient que des exclusions. **Le mot « not » manque au titre.**
+- Un encadré titré *« Gibt es Ausschlüsse vom Versicherungsschutz ? »* ne contient **aucune
+  exclusion**, seulement la règle de calcul de l'indemnité.
+- Un encadré *« Quand et comment effectuer les paiements ? »* ne dit **rien du paiement**.
+
+Dans les trois cas le contenu est allé là où il appartient — `limits`, `deductibles`, `exclusions` —
+et le titre n'a pas été réparé. **Un titre d'encadré ne fait pas la nature de ce qu'il contient.**
+
+Deux autres relevés du même ordre : *« Irreparable cycles: compensation equal to the replacement
+value less the replacement value »*, qui se réduit à zéro, et un titre de garantie « Top
+Assistance » qui n'apparaît que dans l'encadré des exclusions, sans couverture correspondante nulle
+part — non inventé en garantie.
 
 Le troisième cas est celui qui a une conséquence directe pour un lecteur. Deux IPID de la gamme
 **APROBAT en anglais** portent, sous « How do I cancel the contract ? », le texte suivant :
@@ -382,7 +403,7 @@ résiliation. Les versions françaises des mêmes produits portent, au même end
 
 Deux remarques qui encadrent ce comptage :
 
-- **Il porte sur 16 documents sur 90.** Ce n'est pas une mesure de la bibliothèque entière, et la
+- **Il porte sur 27 documents sur 90.** Ce n'est pas une mesure de la bibliothèque entière, et la
   proportion peut bouger — les seize premiers ont été pris dans l'ordre du listing, pas choisis.
 - **Ces défauts sont conservés, jamais réparés.** Une citation doit être une portion exacte du
   document ; corriger « tremble de terre » ou compléter une puce tronquée depuis la version

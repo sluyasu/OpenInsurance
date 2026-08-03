@@ -28,7 +28,7 @@ navigate it without guessing. Do not edit by hand.
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
 | ch (Switzerland) | 0 | 3 | 1 | 0 | 5 |
 | fr (France) | 24 | 578 | 10 | 1 | 5 |
-| lu (Luxembourg) | 0 | 23 | 1 | 0 | 5 |
+| lu (Luxembourg) | 0 | 27 | 1 | 0 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
 
@@ -887,21 +887,25 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | voyage | macif | Assistance médicale « Carte Visa Classic » (Assistance médicale - Contrat Etranger) | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/notice-assistance_CBleueVisa.pdf) |
 | fr | voyage | macif | CARTE VISA Premier | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_banque/notice-assurance_CVisaPremier.pdf) |
 | lu | accidents | lalux | easyPROTECT-Unfall - IPID - DE | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_assurance-accident_lalux_easyprotect-accident_de.pdf) |
+| lu | auto | lalux | easyPROTECT PRO-Auto (Vehicles other than cars and motorhomes) - IPID - EN | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_easyprotect-pro-auto_vehicules-type-2_en.pdf) |
 | lu | auto | lalux | easyPROTECT-Auto (PKWs und Wohnmobile) - IPID - DE | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_assurance-auto_lalux_easyprotect-auto_vehicules-type-1_de.pdf) |
 | lu | auto | lalux | easyPROTECT-Auto (Vehicles other than cars and motorhomes) - IPID - EN | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_assurance-auto_lalux_easyprotect-auto_vehicules-type-2_en.pdf) |
 | lu | auto | lalux | easyPROTECT-Auto (Véhicules autres que voitures ou camping cars) - IPID | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_assurance-auto_lalux_easyprotect_auto_vehicules-type-2_fr.pdf) |
 | lu | autres | lalux | Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance (VISA BUSINESS) - IPID | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_BUSINESS_FR.pdf) |
 | lu | autres | lalux | Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance (VISA INFINITE) - IPID | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_INFINITE_FR.pdf) |
 | lu | autres | lalux | SPUERKEESS credit card insurance – Assistance and Non-Assistance cover (VISA PREMIER) - IPID - EN | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_PREMIER_EN.pdf) |
+| lu | autres | lalux | Tous Risques - LINEHEART - IPID | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/ipid_assurance_lineheart_tous_risques_fr.pdf) |
 | lu | autres | lalux | Versicherung SPUERKEESS-Kreditkarten – Assistance-Leistungen und Nicht Assistance-Leistungen (VISA INFINITE) - IPID - DE | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_INFINITE_DE.pdf) |
 | lu | autres | lalux | Versicherung SPUERKEESS-Kreditkarten – Assistance-Leistungen und Nicht Assistance-Leistungen (VISA PREMIER) - IPID - DE | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_PREMIER_DE.pdf) |
 | lu | construction | lalux | APROBAT - Comprehensive construction site insurance (Section 2 – Liability insurance) - IPID - EN | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_aprobat_tous-risques-chantier_section-2_en.pdf) |
 | lu | construction | lalux | APROBAT - Decennial civil liability - IPID - EN | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_aprobat_rc-decennale_en.pdf) |
 | lu | construction | lalux | APROBAT - Responsabilité Civile Décennale - IPID | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_aprobat_rc-decennale_fr.pdf) |
+| lu | construction | lalux | APROBAT Bauleistungsversicherung (Abschnitt 1 - Versicherung von Schäden und Ausfällen) - IPID - DE | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_aprobat_tous-risques-chantier_section-1_de.pdf) |
 | lu | construction | lalux | Assurance R.C. RC décennale et biennale (APROBAT) | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/Divers/Aprobat/D.G._RC_Decennale_Biennale__10-07-2025_FR.pdf) |
 | lu | construction | lalux | Zehn- und Zweijahreshaftpflichtversicherung - DE | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/Divers/Aprobat/D.G._RC_Decennale_Biennale__10-07-2025_DE.pdf) |
 | lu | habitation | lalux | easyPROTECT Habitation - IPID | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/IPID_Assurance_Habitation_LALUX_easyPROTECT-Habitation_2023_FR.pdf) |
 | lu | multirisque-professionnelle | lalux | Service easyPROTECT - Discover - IPID - EN | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_discover_lalux_easyprotect_en.pdf) |
+| lu | multirisque-professionnelle | lalux | easyPROTECT Comprehensive - IPID - EN | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_tous-risques-relative-aux-biens_lalux_en.pdf) |
 | lu | multirisque-professionnelle | lalux | easyPROTECT PRO – Assurance de choses - IPID | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_lalux_easyprotect-pro-entreprise-assurance-de-choses_fr.pdf) |
 | lu | multirisque-professionnelle | lalux | easyPROTECT PRO – Assurance de responsabilité civile - IPID | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_lalux_easyprotect-pro-entreprise-assurance-de-responsabilite-civile_fr.pdf) |
 | lu | protection-juridique | lalux | Assurance Protection Juridique Auto Intégrale - Assurance Protection Juridique Familiale Intégrale - IPID | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_assurance_protection_juridique_fr.pdf) |
