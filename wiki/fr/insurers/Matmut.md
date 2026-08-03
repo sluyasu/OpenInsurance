@@ -5,11 +5,12 @@ country: fr
 insurer_slug: matmut
 name: Matmut
 website: https://www.matmut.fr
-products_count: 152
+products_count: 154
 branches_covered:
 - animaux
 - assurance-vie
 - auto
+- autres
 - chasse
 - edpm
 - emprunteur
@@ -19,6 +20,7 @@ branches_covered:
 - multirisque-professionnelle
 - navigation
 - obseques
+- prevoyance
 - protection-juridique
 - rc-professionnelle
 - retraite
@@ -40,7 +42,7 @@ generated: true
 
 ## Résumé
 
-**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 152 document(s) across 18 branch(es).
+**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 154 document(s) across 20 branch(es).
 
 ## Produits par branche
 
@@ -94,6 +96,9 @@ generated: true
 - [Contrat « Multirisques 4 Roues Référence » - IPID](../products/matmut/Contrat%20%C2%AB%20Multirisques%204%20Roues%20R%C3%A9f%C3%A9rence%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (10/24) · réf. IPID.4R - 10/24
 - [Flotte de véhicules](../products/matmut/Flotte%20de%20v%C3%A9hicules.md) - Conditions générales · réf. CG MRSQ FLOTTE - 11/24
 - [Multirisques Initiale & Co](../products/matmut/Multirisques%20Initiale%20%26%20Co.md) - Conditions générales (10/24) · réf. CG MRSQ AG INIT & Co - 10/24
+
+### [Autres](../branches/Autres.md)
+- [Statuts - Doc](../products/matmut/Statuts%20-%20Doc.md) - Document (06/21) · réf. STATUTS.MATMUT
 
 ### [Chasse](../branches/Chasse.md)
 - [Chasse](../products/matmut/Chasse%20%28Matmut%29.md) - Conditions générales (CG CHASSE – 04/26 (mention de pied de page 37 ; aucune autre date d'édition n'est imprimée)) · réf. CG CHASSE – 04/26
@@ -169,6 +174,9 @@ generated: true
 - [Matmut Prévoyance Obsèques](../products/matmut/Matmut%20Pr%C3%A9voyance%20Obs%C3%A8ques%20%282%29.md) - Conditions générales (04/23) · réf. MPO.NOTICE
 - [Matmut Prévoyance Obsèques - IPID](../products/matmut/Matmut%20Pr%C3%A9voyance%20Obs%C3%A8ques%20-%20IPID.md) - IPID / Fiche d'information (2025-05-01) · réf. MPO.DIC
 - [Matmut Prévoyance Obsèques](../products/matmut/Matmut%20Pr%C3%A9voyance%20Obs%C3%A8ques.md) - Conditions générales · réf. MPO.NOTICE - 10/25
+
+### [Prévoyance](../branches/Pr%C3%A9voyance.md)
+- [Complice Prévoyance Matmut - IPID](../products/matmut/Complice%20Pr%C3%A9voyance%20Matmut%20-%20IPID.md) - IPID / Fiche d'information (10/25) · réf. IPID.CPM
 
 ### [Protection juridique](../branches/Protection%20juridique.md)
 - [Assistance Juridique Vie Privée et Protection Juridique Santé](../products/matmut/Assistance%20Juridique%20Vie%20Priv%C3%A9e%20et%20Protection%20Juridique%20Sant%C3%A9.md) - Conditions générales (10/25) · réf. MOM.NOT.PJ - 10/25
