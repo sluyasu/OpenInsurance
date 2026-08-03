@@ -5,7 +5,7 @@ country: fr
 insurer_slug: macif
 name: Macif
 website: https://www.macif.fr
-products_count: 83
+products_count: 86
 branches_covered:
 - animaux
 - assurance-vie
@@ -40,7 +40,7 @@ generated: true
 
 ## Résumé
 
-**Macif** - [https://www.macif.fr](https://www.macif.fr). 83 document(s) across 18 branch(es).
+**Macif** - [https://www.macif.fr](https://www.macif.fr). 86 document(s) across 18 branch(es).
 
 ## Produits par branche
 
@@ -60,6 +60,8 @@ generated: true
 - [Contrat Camping-car Autocaravane - IPID](../products/macif/Contrat%20Camping-car%20Autocaravane%20-%20IPID.md) - IPID / Fiche d'information (2018-10) · réf. LOIS CCAR 10/18
 - [Contrat Camping-car, Autocaravane](../products/macif/Contrat%20Camping-car%2C%20Autocaravane.md) - Conditions générales (2019-01) · réf. LOIS / CARACC / 05 - 01 / 19 - N 891
 - [Contrat Flotte Automobile - IPID](../products/macif/Contrat%20Flotte%20Automobile%20-%20IPID.md) - IPID / Fiche d'information (06/19) · réf. VEH/FLOTTE - 06/19
+- [Contrat Macif Auto - IPID](../products/macif/Contrat%20Macif%20Auto%20-%20IPID.md) - IPID / Fiche d'information (06/22) · réf. VEH AUTO PART - 06/22
+- [Contrat Macif Auto Pros - IPID](../products/macif/Contrat%20Macif%20Auto%20Pros%20-%20IPID.md) - IPID / Fiche d'information (01/26) · réf. VEH AUTO PROS
 - [Contrat Macif Pann'Auto](../products/macif/Contrat%20Macif%20Pann%27Auto.md) - Conditions générales (Novembre 2020) · réf. VEH/GPM/05 - 11/20 - N378
 - [Contrat Macif Pann'Auto - IPID](../products/macif/Contrat%20Macif%20Pann%27Auto%20-%20IPID.md) - IPID / Fiche d'information (12/22) · réf. VEH/GPM/05 12/22
 - [Contrat d'assurance automobile — Voitures particulières, fourgons et fourgonnettes](../products/macif/Contrat%20d%27assurance%20automobile%20%E2%80%94%20Voitures%20particuli%C3%A8res%2C%20fourgons%20et%20fourgonnettes.md) - Conditions générales (janvier 2018) · réf. VEH/AUTO/19-01/18-N828
@@ -84,6 +86,7 @@ generated: true
 - [Perte d'Emploi (contrat collectif n°690701 souscrit par SECURIMUT auprès de MNCAP SA)](../products/macif/Perte%20d%27Emploi%20%28contrat%20collectif%20n%C2%B0690701%20souscrit%20par%20SECURIMUT%20aupr%C3%A8s%20de%20MNCAP%20SA%29.md) - Conditions générales
 
 ### [Garantie des accidents de la vie](../branches/Garantie%20des%20accidents%20de%20la%20vie.md)
+- [Contrat Garantie Accident - IPID](../products/macif/Contrat%20Garantie%20Accident%20-%20IPID.md) - IPID / Fiche d'information (29/01/26) · réf. G A - 29/01/26
 - [Contrat Garantie Accident](../products/macif/Contrat%20Garantie%20Accident.md) - Conditions générales (29 janvier 2026) · réf. P R E I/ A C C/05 - 29/01/26 - N754
 - [Garantie Accident](../products/macif/Garantie%20Accident.md) - Conditions générales (Avril 2021) · réf. PREI/ACC/05 - 04/21 - N754
 

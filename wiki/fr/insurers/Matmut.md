@@ -5,7 +5,7 @@ country: fr
 insurer_slug: matmut
 name: Matmut
 website: https://www.matmut.fr
-products_count: 158
+products_count: 160
 branches_covered:
 - animaux
 - assurance-vie
@@ -42,7 +42,7 @@ generated: true
 
 ## Résumé
 
-**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 158 document(s) across 20 branch(es).
+**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 160 document(s) across 20 branch(es).
 
 ## Produits par branche
 
@@ -72,6 +72,7 @@ generated: true
 - [Avantage Bris de glaces 0 franchise (Contrat « Assurance Auto temporaire » Matmut) - Tarifs](../products/matmut/Avantage%20Bris%20de%20glaces%200%20franchise%20%28Contrat%20%C2%AB%20Assurance%20Auto%20temporaire%20%C2%BB%20Matmut%29%20-%20Tarifs.md) - Conditions tarifaires (01/26) · réf. BDG.4R.TEMPO– 01/26
 - [Avantage Bris de glaces 0 franchise (Gamme Auto 4D) - Tarifs](../products/matmut/Avantage%20Bris%20de%20glaces%200%20franchise%20%28Gamme%20Auto%204D%29%20-%20Tarifs.md) - Conditions tarifaires (01/26) · réf. BDG.AUTO4D– 01/26
 - [Avantage Bris de glaces 0 franchise - Tarifs](../products/matmut/Avantage%20Bris%20de%20glaces%200%20franchise%20-%20Tarifs.md) - Conditions tarifaires (01-26) · réf. BDG.FLOTTE 01-26
+- [Avantage Hiver Matmut - Tarifs](../products/matmut/Avantage%20Hiver%20Matmut%20-%20Tarifs.md) - Conditions tarifaires (01/26) · réf. AVANTAGE.H.AUTO 4D – 01/26
 - [Avantage Hiver Matmut & Co - Tarifs](../products/matmut/Avantage%20Hiver%20Matmut%20%26%20Co%20-%20Tarifs.md) - Conditions tarifaires (2026-01) · réf. AVANTAGE.H.DISTINGUO & CO – 01/26
 - [Avantage Usage Sérénité (Gammes Multirisques 4 roues Référence et Essentiel) - Tarifs](../products/matmut/Avantage%20Usage%20S%C3%A9r%C3%A9nit%C3%A9%20%28Gammes%20Multirisques%204%20roues%20R%C3%A9f%C3%A9rence%20et%20Essentiel%29%20-%20Tarifs.md) - Conditions tarifaires (01/26) · réf. USAGE.S - 01/26
 - [Avantage Éco Malin Matmut - Tarifs](../products/matmut/Avantage%20%C3%89co%20Malin%20Matmut%20-%20Tarifs.md) - Conditions tarifaires (2026-01) · réf. AVANTAGE.ECOMALIN.WEB - 01/26
@@ -114,6 +115,7 @@ generated: true
 ### [Garantie des accidents de la vie](../branches/Garantie%20des%20accidents%20de%20la%20vie.md)
 - [Conditions de l'offre Contrat Familial Complémentaire - Tarifs](../products/matmut/Conditions%20de%20l%27offre%20Contrat%20Familial%20Compl%C3%A9mentaire%20-%20Tarifs.md) - Conditions tarifaires (01/26) · réf. COND.OFFRE.FC– 01/26
 - [Conditions de l'offre — Remise à la souscription — Contrats Multirisques Accidents de la Vie et Multirisques Accidents d](../products/matmut/Conditions%20de%20l%27offre%20%E2%80%94%20Remise%20%C3%A0%20la%20souscription%20%E2%80%94%20Contrats%20Multirisques%20Accidents%20de%20la%20Vie%20et%20Multirisques%20Accidents%20d.md) - Conditions tarifaires (01/26) · réf. COND.OFFRE.MAV/MAV S. - 01/26
+- [Contrat « Familial complémentaire Accidents corporels » - IPID](../products/matmut/Contrat%20%C2%AB%20Familial%20compl%C3%A9mentaire%20Accidents%20corporels%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (2024-10) · réf. IPID. .FC 10/24
 - [Contrat « Multirisques Accidents de la Vie Sérénité » - IPID](../products/matmut/Contrat%20%C2%AB%20Multirisques%20Accidents%20de%20la%20Vie%20S%C3%A9r%C3%A9nit%C3%A9%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (01/26) · réf. IPID.MAV.SERENITE - 01/26
 - [Contrat « Multirisques Accidents de la Vie » - IPID](../products/matmut/Contrat%20%C2%AB%20Multirisques%20Accidents%20de%20la%20Vie%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (01/26) · réf. IPID.MAV
 - [Familial Complémentaire « Accidents corporels »](../products/matmut/Familial%20Compl%C3%A9mentaire%20%C2%AB%20Accidents%20corporels%20%C2%BB.md) - Conditions générales (10/24) · réf. CG FC.AC1
@@ -140,7 +142,7 @@ generated: true
 ### [Deux-roues, quads et voiturettes](../branches/Deux-roues%2C%20quads%20et%20voiturettes.md)
 - [2 roues Initiale & Co (Initiale & Co — Matmut & Co)](../products/matmut/2%20roues%20Initiale%20%26%20Co%20%28Initiale%20%26%20Co%20%E2%80%94%20Matmut%20%26%20Co%29.md) - Conditions générales · réf. CG MRSQ 2R INITIAL & CO - 10/24
 - [2R Rider (2R Rider — Matmut)](../products/matmut/2R%20Rider%20%282R%20Rider%20%E2%80%94%20Matmut%29.md) - Conditions générales · réf. CG 2R RIDER- 10/24
-- [Avantage Hiver Matmut - Tarifs](../products/matmut/Avantage%20Hiver%20Matmut%20-%20Tarifs.md) - Conditions tarifaires (01/26) · réf. AVANTAGE.H – 01/26
+- [Avantage Hiver Matmut - Tarifs](../products/matmut/Avantage%20Hiver%20Matmut%20-%20Tarifs%20%282%29.md) - Conditions tarifaires (01/26) · réf. AVANTAGE.H – 01/26
 - [Avantage Hiver Matmut & Co - Tarifs](../products/matmut/Avantage%20Hiver%20Matmut%20%26%20Co%20-%20Tarifs%20%282%29.md) - Conditions tarifaires (01-26) · réf. AVANTAGE.H 2R INIT CO – 01-26
 - [Avantage Usage Sérénité (Contrat d'assurance Multirisques 2R Rider) - Tarifs](../products/matmut/Avantage%20Usage%20S%C3%A9r%C3%A9nit%C3%A9%20%28Contrat%20d%27assurance%20Multirisques%202R%20Rider%29%20-%20Tarifs.md) - Conditions tarifaires (01/26) · réf. USAGE.S 2 ROUES - 01/26
 - [Bonus Booster Matmut (Gammes Multirisques 4 roues Référence, Essentiel et 2R Rider) - Tarifs](../products/matmut/Bonus%20Booster%20Matmut%20%28Gammes%20Multirisques%204%20roues%20R%C3%A9f%C3%A9rence%2C%20Essentiel%20et%202R%20Rider%29%20-%20Tarifs.md) - Conditions tarifaires (2026-01) · réf. BONUS.B – 01/26

@@ -563,6 +563,10 @@ Toutes actions dérivant d'un contrat d'assurance sont prescrites par deux ans �
 - Montants et plafonds renvoyés aux conditions particulières et donc non chiffrables ici : le montant de la franchise* appliquée en cas de sinistre, la franchise spécifique « prêt de volant », les plafonds des garanties « Contenu privé » et « Accessoires », et le montant de la cotisation. Le document précise explicitement que ces éléments figurent dans les conditions particulières, document séparé non fourni.
 - waiting_periods est vide : le document ne prévoit aucun délai de carence.
 
+## Documents liés
+
+- [Contrat Macif Auto - IPID](Contrat%20Macif%20Auto%20-%20IPID.md) - IPID / Fiche d'information, éd. 06/22
+
 ## Source & fidélité
 
 - Source : [https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_vehicules/CG_Auto.pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_vehicules/CG_Auto.pdf) - téléchargé le 2026-08-01 - 68 pages
