@@ -5,7 +5,7 @@ country: lu
 insurer_slug: baloise
 name: Baloise Luxembourg
 website: https://www.baloise.lu
-products_count: 33
+products_count: 34
 branches_covered:
 - accidents
 - auto
@@ -32,7 +32,7 @@ generated: true
 
 ## Résumé
 
-**Baloise Luxembourg** - [https://www.baloise.lu](https://www.baloise.lu). 33 document(s) across 10 branch(es).
+**Baloise Luxembourg** - [https://www.baloise.lu](https://www.baloise.lu). 34 document(s) across 10 branch(es).
 
 ## Produits par branche
 
@@ -60,6 +60,7 @@ generated: true
 
 ### [Multirisque professionnelle](../branches/Multirisque%20professionnelle.md)
 - [Business - IPID](../products/baloise/Business%20-%20IPID.md) - IPID / Fiche d'information
+- [Business - IPID - EN](../products/baloise/Business%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 - [Business - IPID - DE](../products/baloise/Business%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
 - [Tous risques objets de valeur - IPID](../products/baloise/Tous%20risques%20objets%20de%20valeur%20-%20IPID.md) - IPID / Fiche d'information
 - [Tous risques sauf - IPID](../products/baloise/Tous%20risques%20sauf%20-%20IPID.md) - IPID / Fiche d'information

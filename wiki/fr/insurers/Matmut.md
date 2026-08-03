@@ -5,7 +5,7 @@ country: fr
 insurer_slug: matmut
 name: Matmut
 website: https://www.matmut.fr
-products_count: 176
+products_count: 177
 branches_covered:
 - animaux
 - assurance-vie
@@ -42,7 +42,7 @@ generated: true
 
 ## Résumé
 
-**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 176 document(s) across 20 branch(es).
+**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 177 document(s) across 20 branch(es).
 
 ## Produits par branche
 
@@ -140,6 +140,7 @@ generated: true
 - [Contrat « Multigaranties Propriétaire non occupant » - IPID](../products/matmut/Contrat%20%C2%AB%20Multigaranties%20Propri%C3%A9taire%20non%20occupant%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (2023-12) · réf. IPID.PNO – 12-23
 - [Contrat « Multigaranties Résidence principale - Jeunes » - IPID](../products/matmut/Contrat%20%C2%AB%20Multigaranties%20R%C3%A9sidence%20principale%20-%20Jeunes%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (05-24) · réf. IPID.JEUNES – 05-24
 - [Contrat « Multigaranties Résidence principale » - IPID](../products/matmut/Contrat%20%C2%AB%20Multigaranties%20R%C3%A9sidence%20principale%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (12-23) · réf. IPID.RP–12-23
+- [Contrat « Multigaranties Résidence secondaire » - IPID](../products/matmut/Contrat%20%C2%AB%20Multigaranties%20R%C3%A9sidence%20secondaire%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (12-23) · réf. IPID.RS – 12-23
 - [Contrat « Multigaranties Terrain-Bâtiment non habitable » - IPID](../products/matmut/Contrat%20%C2%AB%20Multigaranties%20Terrain-B%C3%A2timent%20non%20habitable%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (05/24) · réf. IPID.TBNH – 05/24
 - [Habitation Initiale & Co Résidence Principale](../products/matmut/Habitation%20Initiale%20%26%20Co%20R%C3%A9sidence%20Principale.md) - Conditions générales (12/23) · réf. CG MGAR RP INIT & CO – 12/23
 - [Habitation Initiale & Co Résidence Secondaire](../products/matmut/Habitation%20Initiale%20%26%20Co%20R%C3%A9sidence%20Secondaire.md) - Conditions générales (12/23) · réf. CG RS INIT & CO – 12/23

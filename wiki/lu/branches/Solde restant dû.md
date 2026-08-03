@@ -42,7 +42,18 @@ est **explicitement constant**. Or le propre du solde restant dû est que le cap
 avec l'amortissement du prêt**. Un capital constant qui sert accessoirement à rembourser un crédit
 est une [[Prévoyance et décès]], et c'est ainsi qu'il a été classé.
 
-Le critère opérant est donc : **le capital suit-il le tableau d'amortissement ?**
+Le critère opérant est donc : **le capital est-il dégressif, ou constant ?**
+
+**Formulé plus strictement, ce critère ne serait pas fondé.** Une première version de cette page
+demandait si « le capital suit le tableau d'amortissement ». Or **aucun des deux documents de la
+branche n'écrit « tableau d'amortissement », « plan d'amortissement » ni « échéancier »**. Le second
+dit « le capital assuré est **dégressif en fonction de la durée du contrat** » — de la durée *du
+contrat*, pas de celle du prêt — et ne relie le prêt à la garantie que par son objet, « rembourser
+le capital assuré du prêt hypothécaire ».
+
+L'indexation sur un tableau d'amortissement est donc une **inférence sur le mécanisme**, exacte en
+pratique mais absente du texte. La règle 4 impose de séparer les deux : le critère retenu ici est
+celui que les documents impriment, la dégressivité.
 
 ## Obligatoire ou non
 
@@ -65,6 +76,10 @@ Le second, arrivé avec Baloise, est le **seul document de son éditeur à nomme
 « Compagnie : Baloise Vie Luxembourg S.A. », là où ses trente-trois frères nomment l'entité non-vie.
 Le principe de spécialisation luxembourgeois — une société n'écrit pas à la fois la vie et la
 non-vie — se lit donc directement dans le document, et pas seulement au registre du [[CAA]].
+
+C'est aussi **lui qui énonce la dégressivité** : « Le capital assuré est dégressif en fonction de la
+durée du contrat », et la prestation est « le capital restant dû à la date du décès ». Deux
+garanties, treize exclusions, et **aucun montant** dans tout le document.
 
 Le premier est *Assurance Solde Restant Dû – Assurance hypothécaire*, un document d'information
 (IPID), en français.

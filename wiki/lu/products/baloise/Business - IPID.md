@@ -260,6 +260,7 @@ Extension listée sous « Extensions facultatives » dans l’encadré « Qu’e
 
 ## Documents liés
 
+- [Business - IPID - EN](Business%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 - [Business - IPID - DE](Business%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
 
 ## Source & fidélité

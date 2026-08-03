@@ -5,7 +5,7 @@ country: fr
 insurer_slug: maaf
 name: MAAF
 website: https://www.maaf.fr/
-products_count: 67
+products_count: 69
 branches_covered:
 - assurance-vie
 - auto
@@ -39,7 +39,7 @@ generated: true
 
 ## Résumé
 
-**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 67 document(s) across 17 branch(es).
+**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 69 document(s) across 17 branch(es).
 
 ## Produits par branche
 
@@ -110,7 +110,9 @@ generated: true
 - [Multirisque des Professionnels du Bâtiment et des Travaux Publics](../products/maaf/Multirisque%20des%20Professionnels%20du%20B%C3%A2timent%20et%20des%20Travaux%20Publics.md) - Conditions générales (01/26) · réf. 11036
 - [Multirisque des Professionnels du Bâtiment et des Travaux Publics - IPID](../products/maaf/Multirisque%20des%20Professionnels%20du%20B%C3%A2timent%20et%20des%20Travaux%20Publics%20-%20IPID.md) - IPID / Fiche d'information (2024-06) · réf. MU0_IPIDPO_00-240616-FVDftz-3-1-2-01:01:24- PRO10005
 - [PROFESSIONS DE LA RESTAURATION ET DE L'HÔTELLERIE — INTERCALAIRE](../products/maaf/PROFESSIONS%20DE%20LA%20RESTAURATION%20ET%20DE%20L%27H%C3%94TELLERIE%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales (01/25) · réf. 11045 - 01/25
+- [Professions médicales et paramédicales — Intercalaire](../products/maaf/Professions%20m%C3%A9dicales%20et%20param%C3%A9dicales%20%E2%80%94%20Intercalaire.md) - Conditions générales (03/24) · réf. 11048
 - [SYNDICATS PROFESSIONNELS ARTISANAUX — INTERCALAIRE](../products/maaf/SYNDICATS%20PROFESSIONNELS%20ARTISANAUX%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales (03/24) · réf. 11042 - 03/24
+- [Vétérinaires - Intercalaire](../products/maaf/V%C3%A9t%C3%A9rinaires%20-%20Intercalaire.md) - Conditions générales (03/24) · réf. 11047
 
 ### [Navigation de plaisance](../branches/Navigation%20de%20plaisance.md)
 - [ALCYON - IPID](../products/maaf/ALCYON%20-%20IPID.md) - IPID / Fiche d'information (2025-05) · réf. IRD11001

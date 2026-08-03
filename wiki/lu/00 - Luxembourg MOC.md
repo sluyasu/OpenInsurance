@@ -130,7 +130,7 @@ Quatre absences sont délibérées, chacune vérifiée dans le texte :
 ## Assureurs
 
 <!-- BEGIN GENERATED: insurers -->
-- [Baloise Luxembourg](insurers/Baloise%20Luxembourg.md) (33 documents)
+- [Baloise Luxembourg](insurers/Baloise%20Luxembourg.md) (34 documents)
 - [lalux](insurers/lalux.md) (90 documents)
 <!-- END GENERATED -->
 

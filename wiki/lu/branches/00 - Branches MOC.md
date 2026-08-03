@@ -131,8 +131,9 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [easyPROTECT PRO – Civil liability insurance - IPID - EN](../products/lalux/easyPROTECT%20PRO%20%E2%80%93%20Civil%20liability%20insurance%20-%20IPID%20-%20EN.md) - [lalux](../insurers/lalux.md)
 - [easyPROTECT PRO-Haftpflichtversicherung - IPID - DE](../products/lalux/easyPROTECT%20PRO-Haftpflichtversicherung%20-%20IPID%20-%20DE.md) - [lalux](../insurers/lalux.md)
 
-### [Multirisque professionnelle](Multirisque%20professionnelle.md) (8)
+### [Multirisque professionnelle](Multirisque%20professionnelle.md) (9)
 - [Business - IPID](../products/baloise/Business%20-%20IPID.md) - [Baloise Luxembourg](../insurers/Baloise%20Luxembourg.md)
+- [Business - IPID - EN](../products/baloise/Business%20-%20IPID%20-%20EN.md) - [Baloise Luxembourg](../insurers/Baloise%20Luxembourg.md)
 - [Business - IPID - DE](../products/baloise/Business%20-%20IPID%20-%20DE.md) - [Baloise Luxembourg](../insurers/Baloise%20Luxembourg.md)
 - [Tous risques objets de valeur - IPID](../products/baloise/Tous%20risques%20objets%20de%20valeur%20-%20IPID.md) - [Baloise Luxembourg](../insurers/Baloise%20Luxembourg.md)
 - [Tous risques sauf - IPID](../products/baloise/Tous%20risques%20sauf%20-%20IPID.md) - [Baloise Luxembourg](../insurers/Baloise%20Luxembourg.md)

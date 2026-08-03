@@ -258,6 +258,7 @@ Unter « Optionale Erweiterungen » aufgeführte Erweiterung.
 ## Documents liés
 
 - [Business - IPID](Business%20-%20IPID.md) - IPID / Fiche d'information
+- [Business - IPID - EN](Business%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 
 ## Source & fidélité
 
