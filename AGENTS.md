@@ -27,7 +27,7 @@ navigate it without guessing. Do not edit by hand.
 |---|---|---|---|---|---|
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
 | ch (Switzerland) | 0 | 3 | 1 | 0 | 5 |
-| fr (France) | 24 | 588 | 10 | 1 | 5 |
+| fr (France) | 24 | 589 | 10 | 1 | 5 |
 | lu (Luxembourg) | 0 | 31 | 1 | 0 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
@@ -452,6 +452,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | autres | smacl | ALÉASSUR Protection financière | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-aleassur-protection-financiere.pdf) |
 | fr | autres | smacl | Votre droit de renonciation (hors contrat « Assurance Auto ») - Doc | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/droit-renonciation-contrat.pdf) |
 | fr | chasse | maaf | Assurance Vie privée (CHASSE) - IPID | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/IRD11004.PDF) |
+| fr | chasse | macif | Contrat Chasse | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_loisirs/cg_chasse.pdf) |
 | fr | chasse | macif | Contrat d'assurance Chasse - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_chasse.pdf) |
 | fr | chasse | macif | Multirisque Chasse — Contrat d'assurance chasse | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_loisirs/CG_Chasse_2012.pdf) |
 | fr | chasse | matmut | Chasse (Matmut) | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGCHASSE.pdf) |

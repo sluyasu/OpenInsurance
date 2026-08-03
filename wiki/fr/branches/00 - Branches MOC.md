@@ -566,8 +566,9 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Assurance Engins agricoles - IPID](../products/thelem/Assurance%20Engins%20agricoles%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 - [Assurance Terrenis - IPID](../products/thelem/Assurance%20Terrenis%20-%20IPID.md) - [Thélem assurances](../insurers/Th%C3%A9lem%20assurances.md)
 
-### [Chasse](Chasse.md) (6)
+### [Chasse](Chasse.md) (7)
 - [Assurance Vie privée (CHASSE) - IPID](../products/maaf/Assurance%20Vie%20priv%C3%A9e%20%28CHASSE%29%20-%20IPID.md) - [MAAF](../insurers/MAAF.md)
+- [Contrat Chasse](../products/macif/Contrat%20Chasse.md) - [Macif](../insurers/Macif.md)
 - [Contrat d'assurance Chasse - IPID](../products/macif/Contrat%20d%27assurance%20Chasse%20-%20IPID.md) - [Macif](../insurers/Macif.md)
 - [Multirisque Chasse — Contrat d'assurance chasse](../products/macif/Multirisque%20Chasse%20%E2%80%94%20Contrat%20d%27assurance%20chasse.md) - [Macif](../insurers/Macif.md)
 - [Chasse](../products/matmut/Chasse%20%28Matmut%29.md) - [Matmut](../insurers/Matmut.md)
