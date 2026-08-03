@@ -16,7 +16,7 @@ generated: true
 
 Liste générée des produits par branche. Les fiches conceptuelles de branche sont rédigées à la main dans ce dossier.
 
-### [Assurance auto](Assurance%20auto.md) (100)
+### [Assurance auto](Assurance%20auto.md) (101)
 - [Assurance Auto et Auto connectée Direct Assurance - IPID](../products/direct-assurance/Assurance%20Auto%20et%20Auto%20connect%C3%A9e%20Direct%20Assurance%20-%20IPID.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [Contrat Auto](../products/direct-assurance/Contrat%20Auto.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [YouDrive - CP](../products/direct-assurance/YouDrive%20-%20CP.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
@@ -93,6 +93,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Multirisques Initiale & Co](../products/matmut/Multirisques%20Initiale%20%26%20Co.md) - [Matmut](../insurers/Matmut.md)
 - [ALÉASSUR Auto collaborateurs - conventions spéciales](../products/smacl/AL%C3%89ASSUR%20Auto%20collaborateurs%20-%20conventions%20sp%C3%A9ciales.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [Aléassur Auto collaborateurs - IPID](../products/smacl/Al%C3%A9assur%20Auto%20collaborateurs%20-%20IPID.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
+- [Assistance aux véhicules](../products/smacl/Assistance%20aux%20v%C3%A9hicules%20%282%29.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [Assistance aux véhicules](../products/smacl/Assistance%20aux%20v%C3%A9hicules.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [Assurance auto](../products/smacl/Assurance%20auto%20%28SMACL%20Assurances%29.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [Assurance des Véhicules des collectivités territoriales - IPID](../products/smacl/Assurance%20des%20V%C3%A9hicules%20des%20collectivit%C3%A9s%20territoriales%20-%20IPID.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
@@ -153,7 +154,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [2R Liberté](../products/matmut/2R%20Libert%C3%A9.md) - [Matmut](../insurers/Matmut.md)
 - [Contrat Multirisques « 2R Liberté » - IPID](../products/matmut/Contrat%20Multirisques%20%C2%AB%202R%20Libert%C3%A9%20%C2%BB%20-%20IPID.md) - [Matmut](../insurers/Matmut.md)
 
-### [Multirisque habitation](Multirisque%20habitation.md) (83)
+### [Multirisque habitation](Multirisque%20habitation.md) (87)
 - [Assurance Habitation Direct Assurance - IPID](../products/direct-assurance/Assurance%20Habitation%20Direct%20Assurance%20-%20IPID.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [Contrat Habitation](../products/direct-assurance/Contrat%20Habitation.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [Assurance multirisques habitation - Doc](../products/groupama/Assurance%20multirisques%20habitation%20-%20Doc.md) - [Groupama](../insurers/Groupama.md)
@@ -194,6 +195,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Assurance Propriétaire Bailleur - IPID](../products/maif/Assurance%20Propri%C3%A9taire%20Bailleur%20-%20IPID.md) - [MAIF](../insurers/MAIF.md)
 - [Assistance juridique Option “Plus”](../products/macif/Assistance%20juridique%20Option%20%E2%80%9CPlus%E2%80%9D.md) - [Macif](../insurers/Macif.md)
 - [Contrat Habitation - Formule Protectrice - Résidence principale](../products/macif/Contrat%20Habitation%20-%20Formule%20Protectrice%20-%20R%C3%A9sidence%20principale%20%282%29.md) - [Macif](../insurers/Macif.md)
+- [Contrat Habitation - Formule Protectrice - Résidence principale - IPID](../products/macif/Contrat%20Habitation%20-%20Formule%20Protectrice%20-%20R%C3%A9sidence%20principale%20-%20IPID.md) - [Macif](../insurers/Macif.md)
 - [Contrat Habitation - Formule Protectrice - Résidence principale](../products/macif/Contrat%20Habitation%20-%20Formule%20Protectrice%20-%20R%C3%A9sidence%20principale.md) - [Macif](../insurers/Macif.md)
 - [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire - IPID](../products/macif/Contrat%20Habitation%20-%20Formule%20%C3%89conomique%20-%20R%C3%A9sidence%20principale%20-%20R%C3%A9sidence%20secondaire%20-%20IPID.md) - [Macif](../insurers/Macif.md)
 - [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire](../products/macif/Contrat%20Habitation%20-%20Formule%20%C3%89conomique%20-%20R%C3%A9sidence%20principale%20-%20R%C3%A9sidence%20secondaire.md) - [Macif](../insurers/Macif.md)
@@ -207,6 +209,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Contrat Sociétaire Non Occupant - Conditions Générales - Annexe spéciale Immeubles locatifs](../products/macif/Contrat%20Soci%C3%A9taire%20Non%20Occupant%20-%20Conditions%20G%C3%A9n%C3%A9rales%20-%20Annexe%20sp%C3%A9ciale%20Immeubles%20locatifs.md) - [Macif](../insurers/Macif.md)
 - [Macif Habitation](../products/macif/Macif%20Habitation.md) - [Macif](../insurers/Macif.md)
 - [Sociétaire non occupant - Bâtiment en cours de construction - IPID](../products/macif/Soci%C3%A9taire%20non%20occupant%20-%20B%C3%A2timent%20en%20cours%20de%20construction%20-%20IPID.md) - [Macif](../insurers/Macif.md)
+- [Sociétaire non occupant - Bâtiments inoccupés - IPID](../products/macif/Soci%C3%A9taire%20non%20occupant%20-%20B%C3%A2timents%20inoccup%C3%A9s%20-%20IPID.md) - [Macif](../insurers/Macif.md)
 - [Sociétaire non occupant - Immeubles en copropriété - IPID](../products/macif/Soci%C3%A9taire%20non%20occupant%20-%20Immeubles%20en%20copropri%C3%A9t%C3%A9%20-%20IPID.md) - [Macif](../insurers/Macif.md)
 - [Sociétaire non occupant - Immeubles locatifs - IPID](../products/macif/Soci%C3%A9taire%20non%20occupant%20-%20Immeubles%20locatifs%20-%20IPID.md) - [Macif](../insurers/Macif.md)
 - [Assurance Loyers Impayés](../products/matmut/Assurance%20Loyers%20Impay%C3%A9s.md) - [Matmut](../insurers/Matmut.md)
@@ -219,6 +222,8 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Contrat « Multigaranties Propriétaire non exploitant » - IPID](../products/matmut/Contrat%20%C2%AB%20Multigaranties%20Propri%C3%A9taire%20non%20exploitant%20%C2%BB%20-%20IPID.md) - [Matmut](../insurers/Matmut.md)
 - [Contrat « Multigaranties Propriétaire non occupant » - IPID](../products/matmut/Contrat%20%C2%AB%20Multigaranties%20Propri%C3%A9taire%20non%20occupant%20%C2%BB%20-%20IPID.md) - [Matmut](../insurers/Matmut.md)
 - [Contrat « Multigaranties Résidence principale - Jeunes » - IPID](../products/matmut/Contrat%20%C2%AB%20Multigaranties%20R%C3%A9sidence%20principale%20-%20Jeunes%20%C2%BB%20-%20IPID.md) - [Matmut](../insurers/Matmut.md)
+- [Contrat « Multigaranties Résidence principale » - IPID](../products/matmut/Contrat%20%C2%AB%20Multigaranties%20R%C3%A9sidence%20principale%20%C2%BB%20-%20IPID.md) - [Matmut](../insurers/Matmut.md)
+- [Contrat « Multigaranties Terrain-Bâtiment non habitable » - IPID](../products/matmut/Contrat%20%C2%AB%20Multigaranties%20Terrain-B%C3%A2timent%20non%20habitable%20%C2%BB%20-%20IPID.md) - [Matmut](../insurers/Matmut.md)
 - [Habitation Initiale & Co Résidence Principale](../products/matmut/Habitation%20Initiale%20%26%20Co%20R%C3%A9sidence%20Principale.md) - [Matmut](../insurers/Matmut.md)
 - [Habitation Initiale & Co Résidence Secondaire](../products/matmut/Habitation%20Initiale%20%26%20Co%20R%C3%A9sidence%20Secondaire.md) - [Matmut](../insurers/Matmut.md)
 - [Habitation Matmut Étudiants](../products/matmut/Habitation%20Matmut%20%C3%89tudiants.md) - [Matmut](../insurers/Matmut.md)
@@ -673,7 +678,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Assurance loyers impayés](../products/smacl/Assurance%20loyers%20impay%C3%A9s.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [Assurance loyers impayés](../products/smacl/Assurance%20loyers%20impay%C3%A9s%20%282%29.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 
-### [Autres](Autres.md) (17)
+### [Autres](Autres.md) (18)
 - [Statuts de MAAF Assurances - Doc](../products/maaf/Statuts%20de%20MAAF%20Assurances%20-%20Doc.md) - [MAAF](../insurers/MAAF.md)
 - [Statuts de MAAF Assurances - Doc](../products/maaf/Statuts%20de%20MAAF%20Assurances%20-%20Doc%20%282%29.md) - [MAAF](../insurers/MAAF.md)
 - [Statuts de MAAF Assurances SA - Doc](../products/maaf/Statuts%20de%20MAAF%20Assurances%20SA%20-%20Doc.md) - [MAAF](../insurers/MAAF.md)
@@ -687,6 +692,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [Statuts de Macif Santé Prévoyance - Doc](../products/macif/Statuts%20de%20Macif%20Sant%C3%A9%20Pr%C3%A9voyance%20-%20Doc.md) - [Macif](../insurers/Macif.md)
 - [Statuts - Doc](../products/matmut/Statuts%20-%20Doc.md) - [Matmut](../insurers/Matmut.md)
 - [Statuts Matmut Mutualité - Doc](../products/matmut/Statuts%20Matmut%20Mutualit%C3%A9%20-%20Doc.md) - [Matmut](../insurers/Matmut.md)
+- [ALÉASSUR - Annulation de manifestation](../products/smacl/AL%C3%89ASSUR%20-%20Annulation%20de%20manifestation.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [ALÉASSUR Protection financière](../products/smacl/AL%C3%89ASSUR%20Protection%20financi%C3%A8re.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [CONVERGENCE - Annulation de manifestation (conventions spéciales)](../products/smacl/CONVERGENCE%20-%20Annulation%20de%20manifestation%20%28conventions%20sp%C3%A9ciales%29.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)
 - [Convergence - Annulation de manifestation - IPID](../products/smacl/Convergence%20-%20Annulation%20de%20manifestation%20-%20IPID.md) - [SMACL Assurances](../insurers/SMACL%20Assurances.md)

@@ -219,6 +219,7 @@ Le recours de l'assuré et sa protection juridique en cas de dommages subis par 
 
 ## Documents liés
 
+- [Sociétaire non occupant - Bâtiments inoccupés - IPID](Soci%C3%A9taire%20non%20occupant%20-%20B%C3%A2timents%20inoccup%C3%A9s%20-%20IPID.md) - IPID / Fiche d'information, éd. 10/18
 - [Sociétaire non occupant - Immeubles en copropriété - IPID](Soci%C3%A9taire%20non%20occupant%20-%20Immeubles%20en%20copropri%C3%A9t%C3%A9%20-%20IPID.md) - IPID / Fiche d'information, éd. 10/18
 
 ## Source & fidélité

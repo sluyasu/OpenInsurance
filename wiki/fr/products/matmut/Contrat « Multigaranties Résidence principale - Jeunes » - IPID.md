@@ -179,6 +179,10 @@ Garantie en inclusion systématiquement prévue.
 - La franchise sécheresse est imprimée « 1520 € », sans séparateur de milliers, contrairement aux autres montants du document (« 100 000 000 € », « 3 000 € ») : la forme imprimée a été conservée telle quelle.
 - variant renseigné à « Jeunes » et product_family à « Multigaranties Résidence principale » : le nom imprimé est « Contrat « Multigaranties Résidence principale - Jeunes » » et le code de référence est « IPID.JEUNES ». Le document ne dit pas explicitement qu’il existe une version non « Jeunes » du produit ; la décomposition repose uniquement sur le nom imprimé.
 
+## Documents liés
+
+- [Contrat « Multigaranties Résidence principale » - IPID](Contrat%20%C2%AB%20Multigaranties%20R%C3%A9sidence%20principale%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information, éd. 12-23
+
 ## Source & fidélité
 
 - Source : [https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDJEUNES.pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPIDJEUNES.pdf) - téléchargé le 2026-07-30 - 2 pages

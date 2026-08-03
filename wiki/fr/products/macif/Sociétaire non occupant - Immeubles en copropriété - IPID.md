@@ -256,6 +256,7 @@ Garantie proposée « En option », rattachée à l'option précédente (« ains
 ## Documents liés
 
 - [Sociétaire non occupant - Bâtiment en cours de construction - IPID](Soci%C3%A9taire%20non%20occupant%20-%20B%C3%A2timent%20en%20cours%20de%20construction%20-%20IPID.md) - IPID / Fiche d'information, éd. 10/18
+- [Sociétaire non occupant - Bâtiments inoccupés - IPID](Soci%C3%A9taire%20non%20occupant%20-%20B%C3%A2timents%20inoccup%C3%A9s%20-%20IPID.md) - IPID / Fiche d'information, éd. 10/18
 
 ## Source & fidélité
 

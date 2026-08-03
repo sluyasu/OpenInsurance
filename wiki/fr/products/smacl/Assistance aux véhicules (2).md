@@ -1,0 +1,414 @@
+---
+type: product
+domain: insurance
+country: fr
+insurer: '[[SMACL Assurances]]'
+insurer_slug: smacl
+branch: auto
+product_name: Assistance aux véhicules
+document_type: conditions_generales
+target_audience: null
+target_audience_note: 'La couverture imprime « Collectvités » et « Associatons » (les
+  ligatures « ti » manquent dans la police de couverture ; lire « Collectivités »
+  et « Associations ») ; le préambule vise « les personnes morales » et l’article
+  2.1 « toute personne voyageant à bord d’un véhicule assuré auprès de SMACL Assurances
+  ». Le public visé mêle collectivités territoriales et associations : aucune valeur
+  de l’énumération ne le décrit, donc target_audience reste null.'
+reference: PM_CA_VAM_SA_03(02_2023)
+edition_date: 11/2022
+lang: fr
+tags:
+- insurance/fr/auto
+- product
+- insurer/smacl
+aliases:
+- Assistance aux véhicules
+source_url: https://www.smacl.fr/files/documents/ca-assistance-vehicules.pdf
+source_pages: 12
+fetched_at: '2026-08-01'
+extraction_model: claude-code-subagent:scale
+prompt_version: '1.1'
+product_family: convention-dassistance-assistance-aux-vehicules
+variant: null
+edition_status: null
+edition_age_years: 4
+superseded: null
+extends: contrat d’assurance véhicules assuré auprès de SMACL Assurances
+freshness: '2026-08-01'
+status: ready
+generated: true
+---
+
+<!-- GENERATED - do not edit. Fix data/<cc>/extracted/ and run `make build`. -->
+
+## Résumé
+
+Convention d’assistance « Assistance aux véhicules », mise en œuvre par SMACL Assistance pour le compte de SMACL Assurances au bénéfice de toute personne voyageant à bord d’un véhicule assuré auprès de SMACL Assurances. Elle couvre l’assistance aux personnes transportées (rapatriement sanitaire, hébergement, frais médicaux, rapatriement du corps, retour des bénéficiaires, frais de justice et caution pénale à l’étranger), l’assistance aux véhicules (dépannage/remorquage, chauffeur de remplacement, garanties complémentaires à l’étranger, véhicule tracté, fin de course, taxi mobilité, retour des bagages) et des services d’information. Trois options peuvent être souscrites : assistance aux véhicules de plus de 3,5 tonnes, véhicule de remplacement en France pour les véhicules de moins de 3,5 tonnes, et Auto-collaborateurs. Les prestations sont mises en œuvre par INTER MUTUELLES ASSISTANCE GIE (IMA GIE).
+
+- Assureur : [SMACL Assurances](../../insurers/SMACL%20Assurances.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : Conditions générales · Édition : 11/2022
+
+## Définitions
+
+| Terme | Définition | Page |
+|---|---|---|
+| 1.1. - Accident corporel | Évènement soudain, d’origine extérieure au corps humain, involontaire, imprévisible, sans rapport avec une maladie et qui entraîne des dommages physiques. | p. 3 |
+| 1.2. - Accident de véhicule | évènement soudain, involontaire, imprévisible, ayant entraîné un choc avec un élément extérieur au véhicule occasionnant des dommages qui rendent impossible l’utilisation du véhicule dans le respect de la réglementation en vigueur. Sont assimilés à l’accident les évènements naturels d’intensité anormale qui endommagent directement le véhicule (inondation, neige, tempête), ainsi que les attentats et actes de terrorisme. | p. 3 |
+| 1.3. - Animaux de compagnie | Les animaux de compagnie sont les animaux domestiques dont l’espèce est depuis longtemps domestiquée, vivant au domicile du bénéficiaire. | p. 3 |
+| 1.4. - Assureur | SMACL Assurances. | p. 3 |
+| 1.5. - Bagages à main | Les bagages à main que SMACL Assistance peut prendre en charge sont les effets transportés par le bénéficiaire, dans la limite de 30 kg, et à l’exception de tout moyen de paiement, des denrées périssables, des bijoux et autres objets de valeur. Sont assimilés aux bagages à main, et gérés comme tels, les vélos, VTT et autres bicyclettes. | p. 3 |
+| 1.6. - Bagages d’un véhicule | Les bagages d’un véhicule dont SMACL Assistance prend la responsabilité sont l’ensemble des effets, matériels et marchandises emportés à l’occasion d’un déplacement à l’exception : • de tout moyen de paiement (notamment argent liquide, devises, chèques, cartes bancaires, etc.) ; • des denrées périssables ; • des produits et matières dangereuses ; • des équipements du véhicule (housses de siège, roue de secours, autoradio, etc.) ; • des matériels audio vidéo ou gros électroménager ; • des bijoux ou autres objets de valeur. | p. 3 |
+| 1.7. - Conjoint | Conjoint de droit : l’époux/épouse, ou le partenaire dans le cadre d’un PACS (Pacte civil de solidarité). Par conjoint de fait, il faut entendre le concubin. | p. 3 |
+| 1.8. - Crevaison | Dégonflement ou éclatement d’un ou plusieurs pneumatiques non consécutif à un choc : • rendant impossible l’utilisation du véhicule dans des conditions normales de sécurité ; • ayant pour effet d’immobiliser le véhicule sur le lieu de l’incident ; • nécessitant un dépannage ou un remorquage dans un garage pour réparation. | p. 3 |
+| 1.9. - Domicile | Le domicile d’un bénéficiaire est sa demeure légale et officielle d’habitation. Les étudiants, enfants d’assuré auprès de SMACL Assurances, sont considérés comme ayant un double domicile, leur résidence dans le cadre des études et la résidence de leurs parents assurés. | p. 3 |
+| 1.10. - Erreur carburant | Toute erreur de remplissage du réservoir entraînant la panne du moteur et l’immobilisation du véhicule sur le lieu de l’incident et nécessitant un dépannage sur place ou remorquage dans un garage pour y effectuer les réparations nécessaires. | p. 3 |
+| 1.11. - Enlisement | Fait de s’enliser, de s’enfoncer dans un sol instable. | p. 3 |
+| 1.12. - Évènement climatique majeur | Inondations, tempêtes, cyclones, feux de forêt, avalanches, séismes, éruptions volcaniques, mouvements de terrain. | p. 3 |
+| 1.13. - Frais d’hébergement | Frais de la nuit à l’hôtel, et des repas, hors frais de téléphone, de connexion internet et de bar. | p. 3 |
+| 1.14. - France | Sont assimilés à la France, la France métropolitaine, les  départements et régions d’outre-mer (Guadeloupe, Martinique, Mayotte, Guyane, Réunion), Nouvelle Calédonie, ainsi que  les principautés d’Andorre et de Monaco. 4 | p. 3 |
+| 1.15. - Gestionnaire de sinistre | Les prestations d’assistance sont mises en œuvre par INTER MUTUELLES ASSISTANCE GIE (IMA GIE), groupement d’intérêt économique dont le siège est situé 118, avenue de Paris - CS 40000 - 79033 NIORT CEDEX 09, immatriculé au registre du commerce et des sociétés de Niort sous le numéro 433 240 991. | p. 4 |
+| 1.16. - Interruption de la prescription | Interruption du délai non encore écoulé, faisant courir un nouveau délai de même durée que l’ancien. | p. 4 |
+| 1.17. - Maladie | Altération soudaine et imprévisible de la santé, consécutive ou non à une situation préexistante, n’ayant pas pour origine un accident corporel, constatée par une autorité médicale compétente et qui empêche la continuation normale du voyage ou du séjour . N.B. : Ni les voyages à visée diagnostique et/ou thérapeutique, c’est-à-dire ayant pour objectif de consulter un praticien ou d’être hospitalisé, ni les retours pour greffe d’organe, ne peuvent être considérés comme des évènements donnant droit à une assistance au titre de la maladie si celle-ci n’est pas justifiée par une altération soudaine et imprévisible de l’état de santé au cours du voyage. | p. 4 |
+| 1.18. - Panne de carburant | Absence de carburant (y compris le gel de gasoil) entraînant l’immobilisation du véhicule sur le lieu de la panne et pouvant nécessiter un dépannage sur place ou un remorquage dans un garage pour y effectuer les réparations nécessaires. | p. 4 |
+| 1.19. - Panne de véhicule | Défaillance mécanique, électrique, électronique, ou hydraulique, survenue en l’absence de tout choc, et rendant impossible l’utilisation du véhicule dans le respect de la réglementation en vigueur ou dans des conditions de sécurité suffisantes. | p. 4 |
+| 1.20. - Prescription | Perte / extinction d’un droit lorsque celui-ci n’a pas été exercé pendant un délai déterminé. | p. 4 |
+| 1.21. - Proche | Personne ayant un lien de parenté avec le bénéficiaire. | p. 4 |
+| 1.22. - Situation de contrainte | Toute intervention pour laquelle seuls les dépanneurs/ remorqueurs missionnés dans le cadre de la réglementation en vigueur, ou directement par les pouvoirs publics, sont habilités à intervenir, notamment en cas d’immobilisation sur autoroute ou voie assimilée. | p. 4 |
+| 1.23. - Véhicule économiquement réparable | Un véhicule est considéré comme économiquement réparable lorsque le coût de la réparation est inférieur à la valeur d’un véhicule identique sur le marché de l’occasion en France. | p. 4 |
+| 1.21. - Véhicule économiquement réparable (répété sous le numéro 1.21, doublon de l’article 1.23) | Un véhicule est considéré comme économiquement réparable lorsque le coût de la réparation est inférieur à la valeur d’un véhicule identique sur le marché de l’occasion en France. | p. 4 |
+
+## Garanties
+
+### 3.1.1.1. - Rapatriement sanitaire - p. 6
+En cas d’accident corporel à bord du véhicule, lorsque les médecins de SMACL Assistance décident, après avis des médecins consultés localement, et si nécessaire du médecin traitant, et en cas de nécessité médicalement établie, d’un transport sanitaire et en déterminent les moyens (ambulance, train, avion de ligne, avion sanitaire ou tout autre moyen approprié), SMACL Assistance organise le retour du patient à son domicile ou dans un hôpital adapté proche de son domicile et prend en charge le coût de ce transport. Pour les collaborateurs étrangers, le retour dans leur pays d’origine peut être organisé et pris en charge par SMACL Assistance. Dans la mesure du possible, et sous réserve de l’accord des médecins de SMACL Assistance, il sera fait en sorte que l’un des membres de la famille, déjà sur place, puisse voyager avec le blessé ou le malade.
+- Optionnelle : non · Portée : En France (au sens de l’article 1.14 : France métropolitaine, départements et régions d’outre-mer — Guadeloupe, Martinique, Mayotte, Guyane, Réunion —, Nouvelle Calédonie, principautés d’Andorre et de Monaco) : les prestations d’assistance aux véhicules et personnes transportées s’appliquent sans franchise kilométrique (art. 2.4.1). À l’étranger : sans franchise kilométrique dans tous les pays d’Europe (pour la Russie, zone européenne jusqu’à l’Oural) et du pourtour méditerranéen énumérés à l’article 2.4.2.
+  - Condition : Décision des médecins de SMACL Assistance après avis des médecins consultés localement
+  - Condition : Nécessité médicalement établie
+
+### 3.1.1.2. - Attente sur place d’un accompagnant - p. 6
+Lorsque le bénéficiaire blessé, non transportable, doit rester hospitalisé au-delà de la date initialement prévue pour son retour, SMACL Assistance organise l’hébergement d’une personne attendant sur place son rapatriement et participe aux frais induits.
+- Optionnelle : non · Portée : En France (au sens de l’article 1.14 : France métropolitaine, départements et régions d’outre-mer — Guadeloupe, Martinique, Mayotte, Guyane, Réunion —, Nouvelle Calédonie, principautés d’Andorre et de Monaco) : les prestations d’assistance aux véhicules et personnes transportées s’appliquent sans franchise kilométrique (art. 2.4.1). À l’étranger : sans franchise kilométrique dans tous les pays d’Europe (pour la Russie, zone européenne jusqu’à l’Oural) et du pourtour méditerranéen énumérés à l’article 2.4.2. · Limite : à concurrence de 80 € par nuit, et ce pour une durée maximale de 7 nuits
+
+### 3.1.1.3. - Voyage aller/retour d’un proche - p. 6
+Lorsque le bénéficiaire blessé, non transportable, doit rester hospitalisé pendant plus de 7 jours, et dès lors qu’il est isolé de tout membre de sa famille, SMACL Assistance organise et prend en charge un transport aller et retour d’un proche, et participe à son hébergement. Si le bénéficiaire réside seul en France, le proche peut demeurer dans son pays d’origine. Lorsque le blessé est handicapé ou âgé de moins de 18 ans, et à condition que son état de santé le justifie, ce déplacement et cet hébergement sont organisés dans les mêmes conditions de prise en charge, mais quelle que soit la durée de l’hospitalisation.
+- Optionnelle : non · Portée : En France (au sens de l’article 1.14 : France métropolitaine, départements et régions d’outre-mer — Guadeloupe, Martinique, Mayotte, Guyane, Réunion —, Nouvelle Calédonie, principautés d’Andorre et de Monaco) : les prestations d’assistance aux véhicules et personnes transportées s’appliquent sans franchise kilométrique (art. 2.4.1). À l’étranger : sans franchise kilométrique dans tous les pays d’Europe (pour la Russie, zone européenne jusqu’à l’Oural) et du pourtour méditerranéen énumérés à l’article 2.4.2. · Limite : à concurrence de 80 € par nuit, pour une durée maximale de 7 nuits
+  - Condition : Hospitalisation de plus de 7 jours (sauf blessé handicapé ou de moins de 18 ans)
+  - Condition : Bénéficiaire isolé de tout membre de sa famille
+  - Condition : Prestation non cumulable avec la garantie attente sur place d’un accompagnant
+
+### 3.1.1.4. - Prolongation de séjour pour raison médicale - p. 7
+Lorsque le bénéficiaire n’est pas jugé transportable par les médecins de SMACL Assistance alors que son état médical ne nécessite plus une hospitalisation, ses frais d’hébergement sont pris en charge par SMACL Assistance.
+- Optionnelle : non · Portée : En France (au sens de l’article 1.14 : France métropolitaine, départements et régions d’outre-mer — Guadeloupe, Martinique, Mayotte, Guyane, Réunion —, Nouvelle Calédonie, principautés d’Andorre et de Monaco) : les prestations d’assistance aux véhicules et personnes transportées s’appliquent sans franchise kilométrique (art. 2.4.1). À l’étranger : sans franchise kilométrique dans tous les pays d’Europe (pour la Russie, zone européenne jusqu’à l’Oural) et du pourtour méditerranéen énumérés à l’article 2.4.2. · Limite : à concurrence de 80 € par nuit pour une durée maximale de 7 nuits consécutives
+
+### 3.1.1.5. - Poursuite du voyage - p. 7
+Si les médecins de SMACL Assistance jugent que l’état de santé du bénéficiaire ne nécessite pas un retour au domicile, SMACL Assistance prend en charge ses frais de transport pour lui permettre de poursuivre son voyage interrompu.
+- Optionnelle : non · Portée : En France (au sens de l’article 1.14 : France métropolitaine, départements et régions d’outre-mer — Guadeloupe, Martinique, Mayotte, Guyane, Réunion —, Nouvelle Calédonie, principautés d’Andorre et de Monaco) : les prestations d’assistance aux véhicules et personnes transportées s’appliquent sans franchise kilométrique (art. 2.4.1). À l’étranger : sans franchise kilométrique dans tous les pays d’Europe (pour la Russie, zone européenne jusqu’à l’Oural) et du pourtour méditerranéen énumérés à l’article 2.4.2. · Limite : à concurrence des frais qui auraient été engagés pour le retour à son domicile
+  - Condition : Prestation non cumulable avec la garantie rapatriement sanitaire
+
+### 3.1.1.6. - Frais médicaux et d’hospitalisation - p. 7
+À la suite d’un accident corporel lié au véhicule garanti, SMACL Assistance, en complément des prestations dues par les organismes sociaux, prend en charge les frais médicaux et d’hospitalisation engagés sur place. a) Bénéficiaires domiciliés en France, sous réserve que le bénéficiaire ait la qualité d’assuré auprès d’un organisme d’assurance maladie. b) Bénéficiaires domiciliés hors de France pour lesquels aucune couverture sociale n’aura pu être obtenue, que l’évènement ait lieu en France ou à l’étranger. Ces frais font l’objet d’une avance dans l’attente des remboursements par les organismes sociaux.
+- Optionnelle : non · Portée : En France (au sens de l’article 1.14 : France métropolitaine, départements et régions d’outre-mer — Guadeloupe, Martinique, Mayotte, Guyane, Réunion —, Nouvelle Calédonie, principautés d’Andorre et de Monaco) : les prestations d’assistance aux véhicules et personnes transportées s’appliquent sans franchise kilométrique (art. 2.4.1). À l’étranger : sans franchise kilométrique dans tous les pays d’Europe (pour la Russie, zone européenne jusqu’à l’Oural) et du pourtour méditerranéen énumérés à l’article 2.4.2.
+  - Sous-limite : Bénéficiaires domiciliés en France, en France : à concurrence de 4 000 € par bénéficiaire
+  - Sous-limite : Bénéficiaires domiciliés en France, à l’étranger : à concurrence de 80 000 € par bénéficiaire
+  - Sous-limite : Bénéficiaires domiciliés hors de France : à concurrence de 30 000 € par bénéficiaire
+  - Condition : Qualité d’assuré auprès d’un organisme d’assurance maladie (bénéficiaires domiciliés en France)
+  - Condition : Soins prescrits en accord avec les médecins de SMACL Assistance
+  - Condition : Limités à la période pendant laquelle les médecins jugeront le patient intransportable
+  - Condition : Reversement à SMACL Assistance des sommes remboursées par les organismes sociaux
+
+### 3.1.2.1. - Rapatriement du corps - p. 7
+SMACL Assistance organise et prend en charge le transport du corps jusqu’au lieu d’obsèques ou d’inhumation en France ou dans le pays de domicile du défunt. La prise en charge inclut les frais de préparation du défunt, les aménagements spécifiques au transport, ainsi qu’un cercueil conforme à la législation et de qualité courante.
+- Optionnelle : non · Portée : En France (au sens de l’article 1.14 : France métropolitaine, départements et régions d’outre-mer — Guadeloupe, Martinique, Mayotte, Guyane, Réunion —, Nouvelle Calédonie, principautés d’Andorre et de Monaco) : les prestations d’assistance aux véhicules et personnes transportées s’appliquent sans franchise kilométrique (art. 2.4.1). À l’étranger : sans franchise kilométrique dans tous les pays d’Europe (pour la Russie, zone européenne jusqu’à l’Oural) et du pourtour méditerranéen énumérés à l’article 2.4.2.
+  - Condition : Décès d’un bénéficiaire causé par un accident de la circulation impliquant le véhicule garanti
+  - Condition : Les autres frais, notamment les frais de cérémonie, de convoi et d’inhumation restent à la charge de la famille
+
+### 3.1.2.2. - Déplacement d’un proche - p. 7
+Si la présence d’un proche sur les lieux du décès s’avère indispensable pour effectuer la reconnaissance du corps, ou les formalités de rapatriement ou d’incinération du bénéficiaire décédé, SMACL Assistance organise et prend en charge un déplacement aller/retour et un hébergement.
+- Optionnelle : non · Portée : En France (au sens de l’article 1.14 : France métropolitaine, départements et régions d’outre-mer — Guadeloupe, Martinique, Mayotte, Guyane, Réunion —, Nouvelle Calédonie, principautés d’Andorre et de Monaco) : les prestations d’assistance aux véhicules et personnes transportées s’appliquent sans franchise kilométrique (art. 2.4.1). À l’étranger : sans franchise kilométrique dans tous les pays d’Europe (pour la Russie, zone européenne jusqu’à l’Oural) et du pourtour méditerranéen énumérés à l’article 2.4.2. · Limite : à concurrence de 80 € par nuit et pour une durée maximale de 7 nuits
+
+### 3.1.3.1. - Retour des autres bénéficiaires en cas de rapatriement sanitaire d’un blessé - p. 7
+Lorsque le transport sanitaire du conducteur est décidé, si le moyen de retour prévu initialement ne peut être utilisé, SMACL Assistance organise et prend en charge le retour des autres bénéficiaires à leur domicile en France ou à leur lieu de travail habituel en France.
+- Optionnelle : non · Portée : En France (au sens de l’article 1.14 : France métropolitaine, départements et régions d’outre-mer — Guadeloupe, Martinique, Mayotte, Guyane, Réunion —, Nouvelle Calédonie, principautés d’Andorre et de Monaco) : les prestations d’assistance aux véhicules et personnes transportées s’appliquent sans franchise kilométrique (art. 2.4.1). À l’étranger : sans franchise kilométrique dans tous les pays d’Europe (pour la Russie, zone européenne jusqu’à l’Oural) et du pourtour méditerranéen énumérés à l’article 2.4.2.
+
+### 3.1.3.2. - Attente sur place - p. 7
+SMACL Assistance organise l’hébergement des bénéficiaires qui attendent sur place la réparation du véhicule immobilisé et participe aux frais (hôtel et repas).
+- Optionnelle : non · Portée : En France (au sens de l’article 1.14 : France métropolitaine, départements et régions d’outre-mer — Guadeloupe, Martinique, Mayotte, Guyane, Réunion —, Nouvelle Calédonie, principautés d’Andorre et de Monaco) : les prestations d’assistance aux véhicules et personnes transportées s’appliquent sans franchise kilométrique (art. 2.4.1). À l’étranger : sans franchise kilométrique dans tous les pays d’Europe (pour la Russie, zone européenne jusqu’à l’Oural) et du pourtour méditerranéen énumérés à l’article 2.4.2. · Limite : à concurrence de 80 € par nuit et par personne, dans la limite de 5 nuits consécutives
+  - Condition : Prestation non cumulable avec la garantie retour en cas d’indisponibilité du véhicule
+
+### 3.1.3.3. - Retour en cas d’indisponibilité du véhicule - p. 7
+SMACL Assistance organise et prend en charge le retour des bénéficiaires à leur domicile en France ou à leur lieu de travail habituel en France lorsqu’ils sont immobilisés à la suite du vol de leur véhicule ou lorsque ce dernier est indisponible à la suite d’un accident ou d’une panne. En remplacement du retour au domicile et dans la limite du coût de cette mise en œuvre, les bénéficiaires peuvent choisir l’acheminement vers leur lieu de destination.
+- Optionnelle : non · Portée : En France (au sens de l’article 1.14 : France métropolitaine, départements et régions d’outre-mer — Guadeloupe, Martinique, Mayotte, Guyane, Réunion —, Nouvelle Calédonie, principautés d’Andorre et de Monaco) : les prestations d’assistance aux véhicules et personnes transportées s’appliquent sans franchise kilométrique (art. 2.4.1). À l’étranger : sans franchise kilométrique dans tous les pays d’Europe (pour la Russie, zone européenne jusqu’à l’Oural) et du pourtour méditerranéen énumérés à l’article 2.4.2.
+  - Condition : Prestation non cumulable avec la garantie attente sur place
+
+### 3.1.4.1. - Accompagnement d’une personne handicapée ou d’un enfant de moins de 18 ans voyageant dans le véhicule garanti - p. 7
+Lorsqu’un transport concerne une personne handicapée ou un enfant de moins de 18 ans non accompagné, SMACL Assistance organise et prend en charge le voyage aller et retour d’un proche, ou d’une personne habilitée par sa famille ou par la personne morale, pour l’accompagner dans son déplacement. Lorsque ce voyage est impossible, SMACL Assistance fait accompagner la personne handicapée ou l’enfant par une personne qualifiée.
+- Optionnelle : non · Portée : En France (au sens de l’article 1.14 : France métropolitaine, départements et régions d’outre-mer — Guadeloupe, Martinique, Mayotte, Guyane, Réunion —, Nouvelle Calédonie, principautés d’Andorre et de Monaco) : les prestations d’assistance aux véhicules et personnes transportées s’appliquent sans franchise kilométrique (art. 2.4.1). À l’étranger : sans franchise kilométrique dans tous les pays d’Europe (pour la Russie, zone européenne jusqu’à l’Oural) et du pourtour méditerranéen énumérés à l’article 2.4.2.
+
+### 3.1.4.2. - Destruction ou vol de documents concomitants à un évènement lié au véhicule garanti - p. 8
+Suite à un évènement lié au véhicule garanti, en cas de destruction ou de vol de papiers d’identité, de moyens de paiement ou de titres de transport, SMACL Assistance conseille le bénéficiaire sur les démarches à accomplir (dépôt de plainte, oppositions, documents équivalents, démarches à effectuer pour renouveler les documents) et peut, contre reconnaissance de dette, effectuer l’avance de fonds nécessaire au retour au domicile.
+- Optionnelle : non · Portée : En France (au sens de l’article 1.14 : France métropolitaine, départements et régions d’outre-mer — Guadeloupe, Martinique, Mayotte, Guyane, Réunion —, Nouvelle Calédonie, principautés d’Andorre et de Monaco) : les prestations d’assistance aux véhicules et personnes transportées s’appliquent sans franchise kilométrique (art. 2.4.1). À l’étranger : sans franchise kilométrique dans tous les pays d’Europe (pour la Russie, zone européenne jusqu’à l’Oural) et du pourtour méditerranéen énumérés à l’article 2.4.2.
+  - Condition : Avance de fonds remboursable dans un délai d’un mois après le retour du bénéficiaire à domicile
+
+### 3.1.4.3. - Bagages à mains et animaux de compagnie - p. 8
+À l’occasion du transport sanitaire d’une personne, les animaux de compagnie qui l’accompagnent et ses bagages à main sont rapatriés aux frais de SMACL Assistance.
+- Optionnelle : non · Portée : En France (au sens de l’article 1.14 : France métropolitaine, départements et régions d’outre-mer — Guadeloupe, Martinique, Mayotte, Guyane, Réunion —, Nouvelle Calédonie, principautés d’Andorre et de Monaco) : les prestations d’assistance aux véhicules et personnes transportées s’appliquent sans franchise kilométrique (art. 2.4.1). À l’étranger : sans franchise kilométrique dans tous les pays d’Europe (pour la Russie, zone européenne jusqu’à l’Oural) et du pourtour méditerranéen énumérés à l’article 2.4.2.
+  - Condition : Bagages à main au sens de l’article 1.5 (limite de 30 kg, hors moyens de paiement, denrées périssables, bijoux et autres objets de valeur)
+
+### 3.1.4.4. a) - Évènement climatique majeur – Attente sur place - p. 8
+Lorsque les bénéficiaires ne peuvent poursuivre le voyage prévu à la suite d’un évènement climatique majeur, SMACL Assistance prend en charge leurs frais d’hébergement.
+- Optionnelle : non · Portée : En France (au sens de l’article 1.14 : France métropolitaine, départements et régions d’outre-mer — Guadeloupe, Martinique, Mayotte, Guyane, Réunion —, Nouvelle Calédonie, principautés d’Andorre et de Monaco) : les prestations d’assistance aux véhicules et personnes transportées s’appliquent sans franchise kilométrique (art. 2.4.1). À l’étranger : sans franchise kilométrique dans tous les pays d’Europe (pour la Russie, zone européenne jusqu’à l’Oural) et du pourtour méditerranéen énumérés à l’article 2.4.2. · Limite : à concurrence de 80 € par nuit, et ce pour une durée maximum de 7 nuits consécutives
+  - Condition : Prestation non cumulable avec la garantie retour des bénéficiaires en cas d’indisponibilité du véhicule
+  - Condition : Prise en charge effective seulement après accord de SMACL Assistance et dès lors qu’il n’y a aucune prise en charge de la part des autorités françaises ou du pays sinistré
+
+### 3.1.4.4. b) - Évènement climatique majeur – Retour des bénéficiaires en cas d’indisponibilté du véhicule - p. 8
+Lorsque les bénéficiaires, voyageant dans un véhicule garanti, sont privés dudit véhicule en raison d’un évènement climatique majeur, et si les conditions le permettent, SMACL Assistance organise et prend en charge leur retour à leur domicile ou à leur lieu de travail habituel.
+- Optionnelle : non · Portée : En France (au sens de l’article 1.14 : France métropolitaine, départements et régions d’outre-mer — Guadeloupe, Martinique, Mayotte, Guyane, Réunion —, Nouvelle Calédonie, principautés d’Andorre et de Monaco) : les prestations d’assistance aux véhicules et personnes transportées s’appliquent sans franchise kilométrique (art. 2.4.1). À l’étranger : sans franchise kilométrique dans tous les pays d’Europe (pour la Russie, zone européenne jusqu’à l’Oural) et du pourtour méditerranéen énumérés à l’article 2.4.2.
+  - Condition : Prestation non cumulable avec la garantie attente sur place
+  - Condition : Prise en charge effective seulement après accord de SMACL Assistance et dès lors qu’il n’y a aucune prise en charge de la part des autorités françaises ou du pays sinistré
+
+### 3.1.4.4. c) - Évènement climatique majeur – Récupération du véhicule - p. 8
+Dès que le véhicule est en mesure de circuler à nouveau, SMACL Assistance organise et prend en charge le transport du bénéficiaire par le moyen le plus approprié pour le récupérer.
+- Optionnelle : non · Portée : En France (au sens de l’article 1.14 : France métropolitaine, départements et régions d’outre-mer — Guadeloupe, Martinique, Mayotte, Guyane, Réunion —, Nouvelle Calédonie, principautés d’Andorre et de Monaco) : les prestations d’assistance aux véhicules et personnes transportées s’appliquent sans franchise kilométrique (art. 2.4.1). À l’étranger : sans franchise kilométrique dans tous les pays d’Europe (pour la Russie, zone européenne jusqu’à l’Oural) et du pourtour méditerranéen énumérés à l’article 2.4.2.
+  - Condition : Prise en charge effective seulement après accord de SMACL Assistance et dès lors qu’il n’y a aucune prise en charge de la part des autorités françaises ou du pays sinistré
+
+### 3.1.4.5. - Frais de télécommunications à l’étranger - p. 8
+Les frais de télécommunications à l’étranger, engagés par le bénéficiaire pour joindre SMACL Assistance à l’occasion d’une intervention d’assistance ou d’une demande de renseignement, sont remboursés par SMACL Assistance.
+- Optionnelle : non · Portée : À l’étranger uniquement, dans les pays d’Europe et du pourtour méditerranéen énumérés à l’article 2.4.2.
+
+### 3.1.5.1. - Frais de justice à l’étranger - p. 8
+SMACL Assistance avance, contre signature d’une reconnaissance de dette, les honoraires d’avocat et frais de justice que le bénéficiaire peut être amené à supporter à l’occasion d’une action en défense ou recours devant une juridiction étrangère, en cas d’accident, de vol, de dommages ou de tout autre préjudice lié à l’utilisation du véhicule garanti.
+- Optionnelle : non · Portée : À l’étranger uniquement, dans les pays d’Europe et du pourtour méditerranéen énumérés à l’article 2.4.2. · Limite : dans la limite de 3 000 €
+  - Condition : Signature d’une reconnaissance de dette
+  - Condition : Avance remboursable dès le retour du bénéficiaire à domicile, dans un délai d’un mois
+
+### 3.1.5.2. - Caution pénale à l’étranger - p. 8
+SMACL Assistance effectue, contre signature d’une reconnaissance de dette, le dépôt des cautions pénales, civiles ou douanières, en cas d’incarcération du bénéficiaire ou lorsque celui-ci est menacé de l’être en raison d’une infraction liée à l’utilisation du véhicule garanti.
+- Optionnelle : non · Portée : À l’étranger uniquement, dans les pays d’Europe et du pourtour méditerranéen énumérés à l’article 2.4.2. · Limite : dans la limite de 10 000 €
+  - Condition : Signature d’une reconnaissance de dette
+  - Condition : Avance remboursable dès le retour du bénéficiaire à domicile, dans un délai d’un mois
+
+### 3.2.1.1. - Dépannage/remorquage - p. 8
+En cas d’immobilisation d’un véhicule garanti, SMACL Assistance organise le dépannage du véhicule, ou, en cas d’impossibilité, son remorquage jusqu’au garage le plus proche.
+- Optionnelle : non · Portée : En France (au sens de l’article 1.14 : France métropolitaine, départements et régions d’outre-mer — Guadeloupe, Martinique, Mayotte, Guyane, Réunion —, Nouvelle Calédonie, principautés d’Andorre et de Monaco) : les prestations d’assistance aux véhicules et personnes transportées s’appliquent sans franchise kilométrique (art. 2.4.1). À l’étranger : sans franchise kilométrique dans tous les pays d’Europe (pour la Russie, zone européenne jusqu’à l’Oural) et du pourtour méditerranéen énumérés à l’article 2.4.2. · Limite : à concurrence de 180 € pour les véhicules garantis dont le poids total en charge est inférieur ou égal à 3.5 tonnes et à concurrence de 2 000 € pour les véhicules garantis de tonnage supérieur, ou à concurrence des tarifs officiels en cas de situation de contrainte
+  - Sous-limite : Hors France métropolitaine, pour les véhicules de plus de 3.5 tonnes : à concurrence de 2 000 €
+  - Condition : Le coût des pièces détachées reste à la charge du bénéficiaire
+
+### 3.2.1.2. - Remorquage jusqu’au garage efficient - p. 8
+Lorsqu’il estime que les réparations d’un véhicule garanti sont impossibles à effectuer dans de bonnes conditions de délai et/ou de qualité, dans un garage proche du lieu de l’évènement, SMACL Assistance peut décider de remorquer le véhicule jusqu’à un garage susceptible de procéder aux réparations nécessaires, et dans ce cas prend en charge le coût de cette prestation.
+- Optionnelle : non · Portée : En France (au sens de l’article 1.14 : France métropolitaine, départements et régions d’outre-mer — Guadeloupe, Martinique, Mayotte, Guyane, Réunion —, Nouvelle Calédonie, principautés d’Andorre et de Monaco) : les prestations d’assistance aux véhicules et personnes transportées s’appliquent sans franchise kilométrique (art. 2.4.1). À l’étranger : sans franchise kilométrique dans tous les pays d’Europe (pour la Russie, zone européenne jusqu’à l’Oural) et du pourtour méditerranéen énumérés à l’article 2.4.2.
+  - Condition : En cas de séquestre du véhicule, SMACL Assistance ne peut intervenir qu’après la levée du séquestre
+
+### 3.2.2.1. - Récupération du véhicule réparé ou retrouvé à la suite d’un vol - p. 8
+SMACL Assistance organise et prend en charge le transport d’une personne habilitée par la personne morale pour aller reprendre possession du véhicule réparé ou retrouvé à la suite d’un vol.
+- Optionnelle : non · Portée : En France (au sens de l’article 1.14 : France métropolitaine, départements et régions d’outre-mer — Guadeloupe, Martinique, Mayotte, Guyane, Réunion —, Nouvelle Calédonie, principautés d’Andorre et de Monaco) : les prestations d’assistance aux véhicules et personnes transportées s’appliquent sans franchise kilométrique (art. 2.4.1). À l’étranger : sans franchise kilométrique dans tous les pays d’Europe (pour la Russie, zone européenne jusqu’à l’Oural) et du pourtour méditerranéen énumérés à l’article 2.4.2.
+
+### 3.2.2.2. - Chauffeur de remplacement - p. 8
+En cas d’indisponibilité du conducteur suite à maladie, accident corporel ou décès, et en l’absence d’une autre personne apte à conduire, SMACL Assistance organise et prend en charge l’acheminement jusqu’au lieu de l’évènement d’un chauffeur employé par la personne morale. Pour les véhicules de moins de 3.5 tonnes uniquement, dès lors que la personne morale est dans l’impossibilité totale de disposer d’un chauffeur, SMACL Assistance organise et prend en charge l’envoi d’un chauffeur qualifié pour ramener ledit véhicule à son lieu de stationnement habituel ainsi que s’il y a lieu les passagers accompagnant le conducteur indisponible.
+- Optionnelle : non · Portée : En France (au sens de l’article 1.14 : France métropolitaine, départements et régions d’outre-mer — Guadeloupe, Martinique, Mayotte, Guyane, Réunion —, Nouvelle Calédonie, principautés d’Andorre et de Monaco) : les prestations d’assistance aux véhicules et personnes transportées s’appliquent sans franchise kilométrique (art. 2.4.1). À l’étranger : sans franchise kilométrique dans tous les pays d’Europe (pour la Russie, zone européenne jusqu’à l’Oural) et du pourtour méditerranéen énumérés à l’article 2.4.2.
+  - Condition : Les frais de péage et d’essence demeurent à la charge des bénéficiaires
+  - Condition : SMACL Assistance n’est pas tenu d’exécuter cet engagement si le véhicule n’est pas en état de marche ou s’il présente une ou plusieurs anomalies graves en infraction au Code de la route
+
+### 3.2.2.3. - Acheminement/récupération d’un double des clés ou carte de démarrage - p. 9
+Si le bénéficiaire dispose d’un double des clés ou carte de démarrage (à son domicile ou auprès de son entreprise), SMACL Assistance organise et prend en charge les frais d’acheminement des clefs jusqu’au lieu de l’incident (transport aller-retour du bénéficiaire, d’un tiers ou d’un transporteur) jusqu’à la destination de son choix par le moyen le plus adapté (taxi, véhicule de location, train, avion).
+- Optionnelle : non · Portée : En France (au sens de l’article 1.14 : France métropolitaine, départements et régions d’outre-mer — Guadeloupe, Martinique, Mayotte, Guyane, Réunion —, Nouvelle Calédonie, principautés d’Andorre et de Monaco) : les prestations d’assistance aux véhicules et personnes transportées s’appliquent sans franchise kilométrique (art. 2.4.1). À l’étranger : sans franchise kilométrique dans tous les pays d’Europe (pour la Russie, zone européenne jusqu’à l’Oural) et du pourtour méditerranéen énumérés à l’article 2.4.2.
+  - Sous-limite : Pour les camping-car uniquement : hébergement à l’hôtel (chambre + petit déjeuner) à concurrence de 80 € TTC/nuit pendant 5 nuits consécutives maximum par bénéficiaire, et transport en taxi pour rejoindre le lieu d’hébergement
+
+### 3.2.3.1. - Expertise et diagnostic technique - p. 9
+En cas de sinistre (accident matériel, vandalisme, tentative de vol, incendie, véhicule retrouvé suite à vol, bris de glace) SMACL Assurances missionne un expert et prend en charge le coût afin d’établir la description des dégâts occasionnés au véhicule. En cas de panne, cette expertise peut se limiter à un diagnostic technique sans démontage.
+- Optionnelle : non · Portée : À l’étranger uniquement, dans les pays d’Europe et du pourtour méditerranéen énumérés à l’article 2.4.2.
+  - Condition : Garantie complémentaire à l’étranger, uniquement pour les véhicules de moins de 3.5 tonnes
+
+### 3.2.3.2. - Envoi de pièces détachées - p. 9
+SMACL Assistance organise l’envoi à l’étranger de pièces détachées indisponibles sur place et nécessaires à la réparation du véhicule garanti. Les frais d’expédition et les droits de douane sont pris en charge par SMACL Assistance.
+- Optionnelle : non · Portée : À l’étranger uniquement, dans les pays d’Europe et du pourtour méditerranéen énumérés à l’article 2.4.2.
+  - Condition : Garantie complémentaire à l’étranger, uniquement pour les véhicules de moins de 3.5 tonnes
+  - Condition : Le prix des pièces pourra faire l’objet d’une avance contre signature d’une reconnaissance de dette, remboursable dans un délai maximum d’un mois dès le retour du bénéficiaire à son domicile
+
+### 3.2.3.3. - Retour du véhicule immobilisé - p. 9
+En cas de panne ou d’accident à l’étranger, SMACL Assistance organise le retour en France du véhicule lorsque ce dernier est jugé irréparable à l’étranger mais réparable en France pour un coût inférieur à sa valeur de remplacement en France.
+- Optionnelle : non · Portée : À l’étranger uniquement, dans les pays d’Europe et du pourtour méditerranéen énumérés à l’article 2.4.2.
+  - Condition : Garantie complémentaire à l’étranger, uniquement pour les véhicules de moins de 3.5 tonnes
+
+### 3.2.3.4. - Mise en épave - p. 9
+S’il estime que le véhicule n’est pas réparable selon les standards français, ni en France ni à l’étranger pour un coût inférieur à sa valeur de remplacement en France, SMACL Assistance organise la mise en épave et, si possible, la vente de l’épave, soit dans le pays de survenance, soit en France, selon les dispositions les mieux adaptées au pays.
+- Optionnelle : non · Portée : À l’étranger uniquement, dans les pays d’Europe et du pourtour méditerranéen énumérés à l’article 2.4.2.
+  - Condition : Garantie complémentaire à l’étranger, uniquement pour les véhicules de moins de 3.5 tonnes
+  - Condition : Sous réserve que le propriétaire du véhicule en fasse formellement la demande et fournisse les documents nécessaires
+
+### 3.2.3.5. - Gardiennage - p. 9
+Dans l’attente du rapatriement du véhicule, ou en vue de sa mise en épave, SMACL Assistance organise et prend en charge son gardiennage dans un lieu adapté.
+- Optionnelle : non · Portée : À l’étranger uniquement, dans les pays d’Europe et du pourtour méditerranéen énumérés à l’article 2.4.2.
+  - Condition : Garantie complémentaire à l’étranger, uniquement pour les véhicules de moins de 3.5 tonnes
+  - Condition : Sous réserve de réception des documents nécessaires dans les 30 jours suivant la connaissance de l’évènement
+
+### 3.2.4.1. - Prise en charge du véhicule tracté - p. 9
+En cas d’immobilisation ou de vol du véhicule tracteur assuré, SMACL Assistance organise et prend en charge la conduite du véhicule tracté (remorque, caravane) dans un camping ou dans un lieu de gardiennage, situé à proximité, et prend en charge les éventuels frais de gardiennage. Si cette immobilisation dure plus de 3 jours, SMACL Assistance organise et prend en charge le retour du véhicule tracté, avec tous les bagages qu’il contient, au lieu de stationnement habituel du véhicule assuré ou, au choix du conducteur bénéficiaire, jusqu’au lieu de destination, dans la limite du coût de ce retour.
+- Optionnelle : non · Portée : En France (au sens de l’article 1.14 : France métropolitaine, départements et régions d’outre-mer — Guadeloupe, Martinique, Mayotte, Guyane, Réunion —, Nouvelle Calédonie, principautés d’Andorre et de Monaco) : les prestations d’assistance aux véhicules et personnes transportées s’appliquent sans franchise kilométrique (art. 2.4.1). À l’étranger : sans franchise kilométrique dans tous les pays d’Europe (pour la Russie, zone européenne jusqu’à l’Oural) et du pourtour méditerranéen énumérés à l’article 2.4.2. · Limite : dans la limite du coût de ce retour
+  - Condition : Lorsque ce transport est effectué hors de la présence du conducteur bénéficiaire, les denrées périssables, matériels audio vidéo et gros électroménager non fixés au véhicule tracté, moyens de paiement, bijoux et autres objets de valeur devront être retirés du véhicule tracté
+  - Condition : Une liste des objets transportés devra être remise à un représentant SMACL Assistance par le bénéficiaire avant prise en charge
+
+### 3.2.4.2. - Garantie fin de course - p. 9
+Lorsque le véhicule immobilisé (panne ou accident) est une ambulance, un VSL, un taxi, ou un fourgon mortuaire assuré auprès de SMACL Assurances, SMACL Assistance organise et prend en charge la fin de la course prévue initialement pour le conducteur ainsi que pour les passagers présents à bord du véhicule.
+- Optionnelle : non · Portée : En France (au sens de l’article 1.14 : France métropolitaine, départements et régions d’outre-mer — Guadeloupe, Martinique, Mayotte, Guyane, Réunion —, Nouvelle Calédonie, principautés d’Andorre et de Monaco) : les prestations d’assistance aux véhicules et personnes transportées s’appliquent sans franchise kilométrique (art. 2.4.1). À l’étranger : sans franchise kilométrique dans tous les pays d’Europe (pour la Russie, zone européenne jusqu’à l’Oural) et du pourtour méditerranéen énumérés à l’article 2.4.2.
+
+### 3.2.4.3. - Taxi mobilité - p. 9
+En cas d’accident, de vol, d’incendie, de vandalisme, de tentative de vol, de bris de glace ou de panne en France, SMACL Assistance organise et prend en charge la mise à disposition d’un taxi pour permettre au bénéficiaire de poursuivre le trajet vers une destination (siège social de l’entreprise, rendez-vous professionnel, etc.).
+- Optionnelle : non · Portée : En France (art. 1.14 et 2.4.1). · Limite : à hauteur de 50 € TTC maximum
+  - Condition : Le dépannage sur place ne doit pas être abouti pour la mise en œuvre de cette prestation lorsque cela est applicable
+  - Condition : Le remorqueur doit être sur place afin que le conducteur effectue la remise des clés
+
+### 3.2.4.4. - Retour des bagages - p. 9
+En cas d’immobilisation du véhicule pour une durée supérieure à 7 jours, SMACL Assistance organise et prend en charge le retour au domicile du bénéficiaire des bagages contenus dans ce véhicule et tels que définis préalablement.
+- Optionnelle : non · Portée : En France (au sens de l’article 1.14 : France métropolitaine, départements et régions d’outre-mer — Guadeloupe, Martinique, Mayotte, Guyane, Réunion —, Nouvelle Calédonie, principautés d’Andorre et de Monaco) : les prestations d’assistance aux véhicules et personnes transportées s’appliquent sans franchise kilométrique (art. 2.4.1). À l’étranger : sans franchise kilométrique dans tous les pays d’Europe (pour la Russie, zone européenne jusqu’à l’Oural) et du pourtour méditerranéen énumérés à l’article 2.4.2.
+  - Condition : Immobilisation du véhicule pour une durée supérieure à 7 jours
+  - Condition : La liste de ces bagages devra être remise à un représentant de SMACL Assistance par le bénéficiaire avant prise en charge
+
+### 3.3.1. - Assistance linguistique - p. 10
+Le bénéficiaire, confronté à de graves difficultés de communication dans la langue du pays où il se trouve, peut solliciter SMACL Assistance qui lui permet de bénéficier du service de ses linguistes.
+- Optionnelle : non · Portée : En France (au sens de l’article 1.14 : France métropolitaine, départements et régions d’outre-mer — Guadeloupe, Martinique, Mayotte, Guyane, Réunion —, Nouvelle Calédonie, principautés d’Andorre et de Monaco) : les prestations d’assistance aux véhicules et personnes transportées s’appliquent sans franchise kilométrique (art. 2.4.1). À l’étranger : sans franchise kilométrique dans tous les pays d’Europe (pour la Russie, zone européenne jusqu’à l’Oural) et du pourtour méditerranéen énumérés à l’article 2.4.2.
+
+### 3.3.2. - Messages urgents - p. 10
+SMACL Assistance se charge de transmettre des messages urgents en rapport avec un évènement grave. SMACL Assistance ne peut être tenu responsable du contenu des messages qui sont soumis à la législation française et internationale.
+- Optionnelle : non · Portée : En France (au sens de l’article 1.14 : France métropolitaine, départements et régions d’outre-mer — Guadeloupe, Martinique, Mayotte, Guyane, Réunion —, Nouvelle Calédonie, principautés d’Andorre et de Monaco) : les prestations d’assistance aux véhicules et personnes transportées s’appliquent sans franchise kilométrique (art. 2.4.1). À l’étranger : sans franchise kilométrique dans tous les pays d’Europe (pour la Russie, zone européenne jusqu’à l’Oural) et du pourtour méditerranéen énumérés à l’article 2.4.2.
+
+### 4.1. - Assistance aux véhicules de plus de 3,5 tonnes - p. 10
+Lorsque l’option est souscrite, les garanties sont étendues aux véhicules de plus de 3,5 tonnes, y compris les véhicules destinés au transport de personnes, à l’exception des garanties complémentaires à l’étranger (article 3.2.3.).
+- Optionnelle : oui · Portée : En France (au sens de l’article 1.14 : France métropolitaine, départements et régions d’outre-mer — Guadeloupe, Martinique, Mayotte, Guyane, Réunion —, Nouvelle Calédonie, principautés d’Andorre et de Monaco) : les prestations d’assistance aux véhicules et personnes transportées s’appliquent sans franchise kilométrique (art. 2.4.1). À l’étranger : sans franchise kilométrique dans tous les pays d’Europe (pour la Russie, zone européenne jusqu’à l’Oural) et du pourtour méditerranéen énumérés à l’article 2.4.2.
+  - Condition : À l’exception des garanties complémentaires à l’étranger (article 3.2.3.)
+
+### 4.2. - Mise à disposition d’un véhicule de remplacement en France pour les véhicules de moins de 3,5 tonnes uniquement - p. 10
+Lorsque l’option est souscrite, et seulement en cas d’immobilisation prolongée du véhicule assuré de moins de 3,5 tonnes, un véhicule de remplacement peut être mis à la disposition des bénéficiaires : véhicule de remplacement 4 roues de catégorie B (type « petite citadine ») ou, en cas de nécessité, un véhicule utilitaire d’un volume pouvant atteindre 10 m3. Si le véhicule garanti est un véhicule 9 places, le véhicule de remplacement devra permettre le transport de 9 personnes ; à défaut, 2 véhicules de catégorie inférieure pourront être proposés.
+- Optionnelle : oui · Portée : Application de la garantie : en France (France métropolitaine et les principautés d’Andorre et de Monaco) ; aux Départements et Régions d’Outre-Mer (DROM) suivants : Guadeloupe, Martinique Réunion, Guyane et Mayotte ; en Nouvelle-Calédonie. · Limite : La durée de location du véhicule de remplacement est plafonnée à la durée des réparations et à concurrence de : 7 jours en cas de panne ; 15 jours en cas d’accident, de vandalisme, d’incendie, de tentative de vol ou de véhicule retrouvé suite à vol ; 30 jours en cas de vol.
+  - Sous-limite : 7 jours en cas de panne
+  - Sous-limite : 15 jours en cas d’accident, de vandalisme, d’incendie, de tentative de vol ou de véhicule retrouvé suite à vol
+  - Sous-limite : 30 jours en cas de vol
+  - Sous-limite : Indemnité forfaitaire de substitution : 40 € (véhicule de catégorie B, utilitaire) ou 60 € (véhicule 9 places) par jour
+  - Condition : Le véhicule assuré doit être immobilisé plus de 24 heures à la suite d’une panne ou d’un accident, pour des réparations nécessitant plus de 3 heures de main d’œuvre, ou immédiatement en cas de vol du véhicule assuré
+  - Condition : En cas de panne, la mise à disposition doit être consécutive à une intervention d’assistance sur le véhicule assuré
+  - Condition : La prestation devra être mise en place dans le délai maximum de 30 jours après la date de survenance de l’évènement générateur
+  - Condition : Le véhicule devra être restitué à l’agence de location de départ
+  - Condition : Aucune location effectuée directement par le bénéficiaire n’est remboursable par SMACL Assistance
+  - Condition : Le choix du loueur de véhicule est du seul ressort de SMACL Assistance en fonction des disponibilités locales
+  - Condition : La mise à disposition devra être effectuée sans interruption dans la période de location (non fractionnable)
+  - Condition : Le bénéficiaire doit remplir les conditions générales édictées par les sociétés de location de véhicules, notamment être âgé d’au moins 21 ans, être titulaire d’un permis depuis plus d’un an
+  - Condition : Les frais de carburant et de péage nécessaires pour l’utilisation du véhicule de remplacement sont à la charge du bénéficiaire
+  - Condition : Tout dépassement de la durée du prêt engendrera des frais supplémentaires directement supportés par le bénéficiaire
+  - Condition : La mise à œuvre du véhicule de remplacement s’effectue systématiquement en plein crédit (sans dépôt de caution)
+  - Condition : L’acheminement du bénéficiaire du garage ou de son domicile jusqu’à l’agence de location la plus proche est organisé et pris en charge par SMACL Assistance
+
+### 4.3. - Auto-collaborateurs - p. 10
+Lorsque l’option est souscrite, les garanties sont étendues aux véhicules utilisés pour les besoins de la personne morale pour son intérêt exclusif et appartenant aux collaborateurs de la personne morale ou à une personne physique.
+- Optionnelle : oui · Portée : En France (au sens de l’article 1.14 : France métropolitaine, départements et régions d’outre-mer — Guadeloupe, Martinique, Mayotte, Guyane, Réunion —, Nouvelle Calédonie, principautés d’Andorre et de Monaco) : les prestations d’assistance aux véhicules et personnes transportées s’appliquent sans franchise kilométrique (art. 2.4.1). À l’étranger : sans franchise kilométrique dans tous les pays d’Europe (pour la Russie, zone européenne jusqu’à l’Oural) et du pourtour méditerranéen énumérés à l’article 2.4.2.
+
+## Exclusions
+
+| Exclusion | Description | S'applique à | Page |
+|---|---|---|---|
+| Force majeure et évènements assimilés | La responsabilité de SMACL Assistance ne saurait être recherchée, en cas de manquement aux obligations de la présente convention si celui-ci résulte de cas de force majeure tels que reconnus par la jurisprudence de la Cour de cassation ou d’évènements tels que guerre civile ou étrangère, révolution, mouvement populaire, émeute, grève, saisie ou contrainte par la force publique, interdiction officielle, piraterie, explosion d’engins, effets nucléaires ou radioactifs, empêchements climatiques (art. 2.6 b). | all | p. 5 |
+| Refus de soins ou d’examens préalables à un transport sanitaire | La responsabilité de SMACL Assistance ne saurait être recherchée en cas de refus par le bénéficiaire de soins ou d’examens préalables à un transport sanitaire, dans un établissement public ou privé ou auprès d’un médecin qui auront été préconisés par SMACL Assistance (art. 2.6 b). | all | p. 5 |
+| Substitution aux organismes locaux d’urgence | SMACL Assistance ne peut intervenir que dans la limite des accords donnés par les autorités locales, médicales et/ou administratives, et ne peut en aucun cas se substituer aux organismes locaux d’urgence, ni prendre en charge les frais ainsi engagés s’ils relèvent de l’autorité publique (art. 2.6 b). | all | p. 5 |
+| Situations à risque infectieux en contexte épidémique | SMACL Assistance ne peut intervenir dans les situations à risque infectieux en contexte épidémique faisant l’objet d’une mise en quarantaine ou de mesures préventives ou de surveillance spécifique de la part des autorités sanitaires locales et/ou nationales du pays d’origine (art. 2.6 b). | all | p. 5 |
+| Infractions volontaires à la législation locale | SMACL Assistance ne sera pas tenu d’intervenir dans les cas où le bénéficiaire aurait commis de façon volontaire des infractions à la législation locale en vigueur (art. 2.6 b). | all | p. 5 |
+| Dépenses engagées de la propre initiative du bénéficiaire | Ces prestations sont mises en œuvre par SMACL Assistance ou en accord préalable avec lui. Par contre, SMACL Assistance ne participe pas, en principe, aux dépenses que le bénéficiaire a engagées de sa propre initiative (art. 2.6 c). | all | p. 5 |
+| Dépenses qui auraient été engagées en l’absence de l’évènement | Toutes les dépenses que le bénéficiaire aurait dû normalement engager, en l’absence de l’évènement donnant lieu à l’intervention de SMACL Assistance, restent à sa charge (titre de transport, repas, essence, péage, etc.) (art. 2.6 d). | all | p. 5 |
+| Prestations non prévues à la convention | Les prestations, non prévues dans la présente convention, que SMACL Assistance accepterait de mettre en œuvre à la demande d’un bénéficiaire seront considérées comme une avance de fonds remboursable (art. 2.6 e). | all | p. 5 |
+| Bagages à main – biens et poids exclus | Les bagages à main que SMACL Assistance peut prendre en charge sont les effets transportés par le bénéficiaire, dans la limite de 30 kg, et à l’exception de tout moyen de paiement, des denrées périssables, des bijoux et autres objets de valeur (art. 1.5). | Bagages à main | p. 3 |
+| Bagages d’un véhicule – moyens de paiement | Sont exclus des bagages d’un véhicule : tout moyen de paiement (notamment argent liquide, devises, chèques, cartes bancaires, etc.) (art. 1.6). | Bagages d’un véhicule | p. 3 |
+| Bagages d’un véhicule – denrées périssables | Sont exclus des bagages d’un véhicule : les denrées périssables (art. 1.6). | Bagages d’un véhicule | p. 3 |
+| Bagages d’un véhicule – produits et matières dangereuses | Sont exclus des bagages d’un véhicule : les produits et matières dangereuses (art. 1.6). | Bagages d’un véhicule | p. 3 |
+| Bagages d’un véhicule – équipements du véhicule | Sont exclus des bagages d’un véhicule : les équipements du véhicule (housses de siège, roue de secours, autoradio, etc.) (art. 1.6). | Bagages d’un véhicule | p. 3 |
+| Bagages d’un véhicule – matériels audio vidéo ou gros électroménager | Sont exclus des bagages d’un véhicule : les matériels audio vidéo ou gros électroménager (art. 1.6). | Bagages d’un véhicule | p. 3 |
+| Bagages d’un véhicule – bijoux et objets de valeur | Sont exclus des bagages d’un véhicule : les bijoux ou autres objets de valeur (art. 1.6). | Bagages d’un véhicule | p. 3 |
+| Frais d’hébergement – exclusions | Les frais d’hébergement sont les frais de la nuit à l’hôtel, et des repas, hors frais de téléphone, de connexion internet et de bar (art. 1.13). | Garanties d’hébergement | p. 3 |
+| Maladie – voyages à visée diagnostique ou thérapeutique et greffes d’organe | N.B. : Ni les voyages à visée diagnostique et/ou thérapeutique, c’est-à-dire ayant pour objectif de consulter un praticien ou d’être hospitalisé, ni les retours pour greffe d’organe, ne peuvent être considérés comme des évènements donnant droit à une assistance au titre de la maladie si celle-ci n’est pas justifiée par une altération soudaine et imprévisible de l’état de santé au cours du voyage (art. 1.17). | Garanties liées à la maladie | p. 4 |
+| Frais de cérémonie, de convoi et d’inhumation | Les autres frais, notamment les frais de cérémonie, de convoi et d’inhumation restent à la charge de la famille (art. 3.1.2.1). | 3.1.2.1. - Rapatriement du corps | p. 7 |
+| Prise en charge par les autorités publiques (évènement climatique majeur) | La prise en charge des garanties « évènement climatique majeur » n’est effective que si elles ont été mises en œuvre après accord de SMACL Assistance et dès lors qu’il n’y a aucune prise en charge de la part des autorités françaises ou du pays sinistré (art. 3.1.4.4). | 3.1.4.4. - Évènement climatique majeur | p. 8 |
+| Pièces détachées (dépannage/remorquage) | Le coût des pièces détachées reste à la charge du bénéficiaire ; hors France métropolitaine, pour les véhicules de plus de 3.5 tonnes, les pièces détachées restent également à la charge du bénéficiaire (art. 3.2.1.1). | 3.2.1.1. - Dépannage/remorquage | p. 8 |
+| Véhicule sous séquestre | En cas de séquestre du véhicule, SMACL Assistance ne peut intervenir qu’après la levée du séquestre (art. 3.2.1.2). | 3.2.1.2. - Remorquage jusqu’au garage efficient | p. 8 |
+| Véhicule non en état de marche ou en infraction au Code de la route | SMACL Assistance n’est pas tenu d’exécuter cet engagement si le véhicule n’est pas en état de marche ou s’il présente une ou plusieurs anomalies graves en infraction au Code de la route (art. 3.2.2.2). | 3.2.2.2. - Chauffeur de remplacement | p. 9 |
+| Frais de péage et d’essence (chauffeur de remplacement) | Les frais de péage et d’essence demeurent à la charge des bénéficiaires (art. 3.2.2.2). | 3.2.2.2. - Chauffeur de remplacement | p. 9 |
+| Garanties complémentaires à l’étranger exclues de l’option plus de 3,5 tonnes | Lorsque l’option est souscrite, les garanties sont étendues aux véhicules de plus de 3,5 tonnes, y compris les véhicules destinés au transport de personnes, à l’exception des garanties complémentaires à l’étranger (article 3.2.3.) (art. 4.1). | 4.1. - Assistance aux véhicules de plus de 3,5 tonnes | p. 10 |
+| Location de véhicule effectuée directement par le bénéficiaire | Aucune location effectuée directement par le bénéficiaire n’est remboursable par SMACL Assistance (art. 4.2.3). | 4.2. - Véhicule de remplacement | p. 10 |
+| Frais de carburant, de péage et dépassement de durée (véhicule de remplacement) | Les frais de carburant et de péage nécessaires pour l’utilisation du véhicule de remplacement sont à la charge du bénéficiaire. Ce dernier devra respecter la durée du prêt, à défaut de restitution du véhicule de remplacement dans les délais, tout dépassement engendrera des frais supplémentaires qui seront directement supportés par lui (art. 4.2.3). | 4.2. - Véhicule de remplacement | p. 10 |
+
+## Franchises
+
+- Variable : Aucune franchise monétaire n’est prévue par la convention. L’article 2.4 précise en revanche que les prestations s’appliquent « sans franchise kilométrique », en France comme dans les pays énumérés à l’étranger.
+
+## Délais d'attente
+
+- 3.1.1.3. - Voyage aller/retour d’un proche : Lorsque le bénéficiaire blessé, non transportable, doit rester hospitalisé pendant plus de 7 jours (sans condition de durée lorsque le blessé est handicapé ou âgé de moins de 18 ans). (plus de 7 jours) p. 6
+- 3.2.4.1. - Prise en charge du véhicule tracté : Si cette immobilisation dure plus de 3 jours, SMACL Assistance organise et prend en charge le retour du véhicule tracté. (plus de 3 jours) p. 9
+- 3.2.4.4. - Retour des bagages : En cas d’immobilisation du véhicule pour une durée supérieure à 7 jours. (supérieure à 7 jours) p. 9
+- 4.2. - Véhicule de remplacement : Le véhicule assuré doit être immobilisé plus de 24 heures à la suite d’une panne ou d’un accident, pour des réparations nécessitant plus de 3 heures de main d’œuvre, ou immédiatement en cas de vol du véhicule assuré. (plus de 24 heures) p. 10
+
+## Obligations de l'assuré
+
+- Lorsque tout ou partie des prestations fournies en exécution de la présente convention sont couvertes totalement ou partiellement par les organismes sociaux, le bénéficiaire requerra auprès des organismes concernés les remboursements qui lui sont dus et les reversera à SMACL Assistance. (Après la prestation) p. 5
+- Le bénéficiaire ou ses ayants droits s’engage à effectuer, dès son retour, toute démarche nécessaire au recouvrement de ces frais auprès des organismes sociaux, et à reverser à SMACL Assistance les sommes ainsi remboursées, accompagnées des décomptes originaux justifiant de ces remboursements. (Dès le retour) p. 7
+- Les avances de fonds (documents détruits ou volés, frais de justice à l’étranger, caution pénale, pièces détachées) sont remboursables dans un délai d’un mois après le retour du bénéficiaire à domicile, contre reconnaissance de dette. (Dans un délai d’un mois après le retour à domicile) p. 8
+- SMACL Assistance se réserve le droit de demander à l’assuré tout document ou information permettant de prouver la survenance du sinistre et que le dommage subi est bien la conséquence d’un évènement garanti. (En cas de sinistre) p. 6
+- Une liste des objets transportés (véhicule tracté) et une liste des bagages (retour des bagages) devront être remises à un représentant de SMACL Assistance par le bénéficiaire avant prise en charge. (Avant prise en charge) p. 9
+- Le gardiennage est organisé sous réserve de réception des documents nécessaires dans les 30 jours suivant la connaissance de l’évènement ; la mise en épave suppose que le propriétaire du véhicule en fasse formellement la demande et fournisse les documents nécessaires. (Dans les 30 jours suivant la connaissance de l’évènement) p. 9
+- Ce véhicule devra être restitué à l’agence de location de départ. Le bénéficiaire devra respecter la durée du prêt ; à défaut de restitution dans les délais, tout dépassement engendrera des frais supplémentaires directement supportés par lui. (Au terme de la période de location · Frais supplémentaires directement supportés par le bénéficiaire) p. 10
+- Lorsque le comportement d’un bénéficiaire sera jugé abusif par SMACL Assistance, celle-ci devra porter les faits incriminés à la connaissance de SMACL Assurances ; lorsque son intervention apparaîtra comme le résultat d’une négligence fautive (notamment quant à l’entretien du véhicule assuré), SMACL Assistance se réserve la possibilité de réclamer à l’intéressé le remboursement de tout ou partie des frais qui pourront être considérés comme la conséquence directe de cette faute. (En permanence · Remboursement de tout ou partie des frais) p. 3
+
+## Procédure de sinistre
+
+1. SMACL Assistance intervient 7 jours sur 7, 24 heures sur 24, à la suite d’appels émanant de bénéficiaires aux numéros suivants : 0800 02 11 11 de France ; +33 5 49 34 83 38 depuis l’étranger. Pour les bénéficiaires sourds et malentendants, communication par SMS : 06 73 25 32 47 ou Fax : 05 49 34 72 67. (délai : 7 jours sur 7, 24 heures sur 24) p. 3
+2. Ces prestations sont mises en œuvre par SMACL Assistance ou en accord préalable avec lui. Par contre, SMACL Assistance ne participe pas, en principe, aux dépenses que le bénéficiaire a engagées de sa propre initiative. (délai : Préalablement à l’engagement des dépenses) p. 5
+3. SMACL Assistance se réserve le droit de demander à l’assuré tout document ou information permettant de prouver la survenance du sinistre et que le dommage subi est bien la conséquence d’un évènement garanti (art. 2.10). p. 6
+4. En cas de désaccord sur l’application de la convention, les bénéficiaires peuvent contacter le Service consommateur de SMACL Assistance par courrier au 118 avenue de Paris - CS 40000 - 79033 NIORT CEDEX 09 (art. 2.11). p. 6
+
+## Prescription
+
+Conformément à l’article L.114-1 du Code, toutes actions dérivant d’un contrat d’assurance sont prescrites par deux (2) ans à compter de l’événement qui y donne naissance. Par exception : les actions relatives à des dommages résultant de mouvements de terrain consécutifs à la sécheresse-réhydratation des sols, reconnus comme une catastrophe naturelle dans les conditions prévues à l’article L.125-1, sont prescrites par cinq (5) ans à compter de l’événement qui y donne naissance ; la prescription est portée à dix (10) ans dans les contrats d’assurance contre les accidents atteignant les personnes, lorsque les bénéficiaires sont les ayants droit de l’assuré décédé. Toutefois, ce délai ne court : en cas de réticence, omission, déclaration fausse ou inexacte sur le risque couru, que du jour où l’assureur en a eu connaissance ; en cas de sinistre, que du jour où les intéressés en ont eu connaissance, s’ils prouvent qu’ils l’ont ignoré jusque-là. Quand l’action de l’assuré contre l’assureur a pour cause le recours d’un tiers, le délai de la prescription ne court que du jour où ce tiers a exercé une action en justice contre l’assuré ou a été indemnisé par ce dernier. Conformément à l’article L.114-2 du Code, la prescription peut être interrompue par une des causes ordinaires d’interruption : la demande en justice, même en référé, même portée devant une juridiction incompétente ou annulée par l’effet d’un vice de procédure (article 2241 du Code civil) ; une mesure conservatoire prise en application du Code des procédures civiles d’exécution ou un acte d’exécution forcée (article 2244 du Code civil) ; la reconnaissance par l’assureur du droit à garantie de l’assuré, ou la reconnaissance de dette de l’assuré envers l’assureur (article 2240 du Code civil). Elle peut également être interrompue par la désignation d’experts à la suite d’un sinistre et par l’envoi d’une lettre recommandée ou d’un envoi recommandé électronique, avec accusé de réception, adressés par SMACL Assurances au souscripteur en ce qui concerne le paiement de la cotisation ou par l’assuré à SMACL Assurances en ce qui concerne le règlement de l’indemnité. p. 6
+
+## Conditions particulières
+
+- La convention d’assistance aux véhicules mise en œuvre par SMACL Assistance se propose d’apporter aux personnes morales des garanties aussi larges que possible dans une optique de totale confiance préalable. À cet effet, elle ne comporte que de rares limitations. En cas de comportement jugé abusif, les faits sont portés à la connaissance de SMACL Assurances ; en cas de négligence fautive, SMACL Assistance peut réclamer le remboursement des frais. En cas de différend relatif à l’exécution de cette convention, seule la loi française est applicable. p. 3
+- SMACL Assistance intervient 7 jours sur 7, 24 heures sur 24 : 0800 02 11 11 de France ; +33 5 49 34 83 38 depuis l’étranger ; pour les bénéficiaires sourds et malentendants, SMS 06 73 25 32 47 et Fax 05 49 34 72 67. p. 3
+- Les prestations d’assistance sont mises en œuvre par INTER MUTUELLES ASSISTANCE GIE (IMA GIE), groupement d’intérêt économique dont le siège est situé 118, avenue de Paris - CS 40000 - 79033 NIORT CEDEX 09, immatriculé au registre du commerce et des sociétés de Niort sous le numéro 433 240 991 (art. 1.15). p. 4
+- L’article 1.4 définit l’Assureur comme « SMACL Assurances ». Le colophon de la page 12 imprime « SMACL ASSURANCES SA - Société anonyme au capital de 260 071 379,48 euros, entreprise régie par le Code des assurances, RCS Niort n° 833817224 ». p. 4
+- Bénéficie de la prestation d’assistance, toute personne voyageant à bord d’un véhicule assuré auprès de SMACL Assurances pour un évènement directement lié à l’utilisation dudit véhicule. p. 4
+- Lorsque le véhicule est assuré par SMACL Assurances au titre d’un contrat d’assurance véhicules : tout véhicule terrestre à moteur dont le poids total en charge est inférieur ou égal à 3.5 tonnes, ainsi que les camping-cars et caravanes quel que soit leur tonnage ; et/ou toute remorque dont le poids total en charge est inférieur ou égal à 3.5 tonnes. Lorsque l’option « Assistance pour les véhicules de plus de 3.5 tonnes » est souscrite : tout véhicule terrestre à moteur dont le poids total en charge est supérieur à 3.5 tonnes, y compris les véhicules destinés au transport de personnes. Lorsque l’option « Auto collaborateurs » est souscrite : tout véhicule terrestre à moteur dont le poids total en charge est inférieur ou égal à 3.5 tonnes, utilisé pour les besoins de la personne morale pour son intérêt exclusif et appartenant à une personne physique. p. 4
+- Les prestations garanties dans le cadre de cette convention s’appliquent pour tout déplacement d’une durée inférieure à un an effectué par le bénéficiaire. p. 4
+- EUROPE : ALBANIE, ALLEMAGNE, ANDORRE, AUTRICHE, BELGIQUE, BIÉLORUSSIE, BOSNIE-HERZÉGOVINE, BULGARIE, CROATIE, DANEMARK, ESPAGNE, ESTONIE, FINLANDE, GRÈCE, HONGRIE, IRLANDE, ISLANDE, ITALIE, LETTONIE, LIECHTENSTEIN, LITUANIE, LUXEMBOURG, MACÉDOINE, MOLDAVIE, MONACO, NORVÈGE, PAYS-BAS, POLOGNE, PORTUGAL, RÉPUBLIQUE TCHÈQUE, ROUMANIE, ROYAUME-UNI, RUSSIE (PARTIE EUROPÉENNE), SAINT MARIN, SERBIE-MONTÉNÉGRO, SLOVAQUIE, SLOVENIE, SUÈDE, SUISSE, UKRAINE, VATICAN. POURTOUR MÉDITERRANÉEN : ALGÉRIE, CHYPRE, ÉGYPTE, ISRAËL, JORDANIE, LIBAN, MALTE, MAROC, SYRIE, TUNISIE, TURQUIE. La liste imprimée comporte 41 pays d’Europe et 11 pays du pourtour méditerranéen. p. 5
+- Ces prestations sont dues à la suite d’évènements liés à l’utilisation d’un véhicule pour les faits générateurs suivants : accident corporel, décès, à bord du véhicule ; accident matériel du véhicule (y compris l’enlisement) ; incendie du véhicule ; vol du véhicule ; tentative de vol, ou acte de vandalisme qui entraîne des dommages rendant impossible l’utilisation du véhicule dans le respect de la réglementation en vigueur ou dans les conditions de sécurité suffisantes ; crevaison ; panne ou erreur carburant ; panne de l’alarme, du code anti démarrage, de la climatisation ; panne du véhicule ; vol ou perte des clés du véhicule ; enfermement ou dysfonctionnement des clés ; bris de glace ; immobilisation du véhicule à la suite d’un évènement climatique majeur ou d’une catastrophe naturelle ; cas d’indisponibilité du conducteur suite à maladie, accident corporel ou décès et en l’absence d’une autre personne apte à conduire (garantie acheminement du chauffeur de remplacement ou missionnement d’un patrouilleur). La liste imprimée comporte 14 faits générateurs. p. 5
+- En Nouvelle-Calédonie, les garanties d’assistance sont mises en œuvre par SMACL Assistance dans la mesure où des prestataires sont présents sur place. À défaut, SMACL Assistance rembourse après coup les bénéficiaires sur présentation de justificatifs dans les plafonds et limites fixés pour chaque garantie. p. 5
+- Les prestations qui sont décrites dans la suite de ce document s’appliquent compte tenu des caractéristiques géographiques, climatiques, économiques, politiques et juridiques propres au lieu de déplacement et constatées lors de l’évènement. p. 5
+- SMACL Assurances est subrogée dans les termes de l’article L.121-12 du code des assurances, à concurrence du coût de l’assistance accordée, dans les droits et actions de l’assuré prise en charge par SMACL Assurances, c’est-à-dire que SMACL Assurances effectue en lieu et place de l’assuré les poursuites contre la partie responsable si elle l’estime opportun. p. 6
+- L’ensemble des informations recueillies dans le cadre de la gestion d’un dossier d’assistance est destiné à SMACL Assistance afin de mettre en œuvre les garanties d’assistance auxquelles le ou les bénéficiaires peuvent prétendre. Ces informations seront uniquement transmises aux prestataires de SMACL Assistance sollicités dans l’organisation de l’opération d’assistance, ainsi qu’à SMACL Assurances. Elles pourront, le cas échéant, être transmises hors de l’Union Européenne. Conformément aux dispositions de la loi Informatique et Libertés du 6 janvier 1978 modifiée, le bénéficiaire dispose d’un droit d’accès et de rectification des données le concernant. L’exercice de ce droit peut se faire auprès de SMACL Assistance, 118 avenue de Paris, CS 40000, 79033 NIORT CEDEX 09. p. 6
+- Les bénéficiaires en déplacement, confrontés à de sérieux ennuis non prévus dans le présent document, pourront appeler SMACL Assistance qui s’efforcera de leur venir en aide. p. 10
+- SMACL ASSURANCES SA - Société anonyme au capital de 260 071 379,48 euros, entreprise régie par le Code des assurances, RCS Niort n° 833817224. Siège social : 141, avenue Salvador-Allende - CS 20000 - 79031 NIORT CEDEX 9. 11/2022 - Concepton : Directon de la marque et de la communicaton SMACL Assurances. L’ASSURANCE DES TERRITOIRES. p. 12
+
+## Lacunes d'extraction
+
+- Document de 12 pages, intégralement extrait ; le texte du prompt n’était pas tronqué et correspond octet pour octet à ma propre extraction PyMuPDF page.get_text('text').
+- La page 11 est totalement vide : 0 caractère, 0 bloc texte, 0 image et 0 dessin vectoriel. Ce n’est pas une page scannée non lue, c’est une page blanche.
+- Contradiction sur le porteur du risque : l’article 1.4 « Assureur » définit l’assureur comme « SMACL Assurances » (sans « SA »), tandis que le colophon de la page 12 imprime « SMACL ASSURANCES SA - Société anonyme au capital de 260 071 379,48 euros, entreprise régie par le Code des assurances, RCS Niort n° 833817224 ». Les deux lectures sont enregistrées telles quelles (article 1.4 dans definitions, colophon dans special_conditions). À noter également que le capital social imprimé ici (260 071 379,48 euros) diffère de celui imprimé sur d’autres documents SMACL du même corpus.
+- Trois entités distinctes interviennent et ne doivent pas être confondues : SMACL Assurances (assureur), SMACL Assistance (qui met en œuvre les prestations et en assume la prise en charge pour le compte de SMACL Assurances, art. 2.6 a) et INTER MUTUELLES ASSISTANCE GIE / IMA GIE, désigné « gestionnaire de sinistre » à l’article 1.15.
+- Contradiction de dates : le colophon de la page 12 imprime « 11/2022 » alors que le code de référence en pied de page 2 est « PM_CA_VAM_SA_03(02_2023) ». Le colophon est ici ANTÉRIEUR au code de référence. edition_date retient le colophon (11/2022) conformément à la règle ; les métadonnées de la tâche annonçaient 2023-02, c’est-à-dire la date du code de référence.
+- Défaut de police sur la couverture et le colophon : les ligatures « ti » et « fi » ne sont pas rendues. La page 1 imprime « Collectvités » et « Associatons », le colophon « Concepton : Directon de la marque et de la communicaton ». Le texte est conservé verbatim, non corrigé, et les key_quotes s’y conforment.
+- La page 2 (SOMMAIRE) est du bruit de conducteurs de points : 2 222 caractères U+FFFD, 397 U+0011 et 21 U+0008. Aucune citation n’en est tirée, à l’exception du code de référence en pied de page qui, lui, est du texte propre.
+- U+0007 : 64 occurrences dans le document, mais ce caractère ne marque PAS une seule catégorie d’élément — 53 suivent immédiatement une puce « • » et 11 précèdent un titre d’article dans le sommaire ou dans le corps. Il ne peut donc pas servir de somme de contrôle d’items sur ce document. Aucune citation ne le traverse.
+- Quatre traits d’union conditionnels (U+00AD) coupent des mots à un saut de ligne : « recom­mandé » et « l’as­sistance » et « pres­tataires » (page 6), « l’évène­ment » (page 8). Les citations ont été routées autour de ces mots.
+- Doublon dans l’article 1 : la définition « Véhicule économiquement réparable » est imprimée DEUX FOIS, d’abord sous le numéro 1.23 puis immédiatement après sous le numéro 1.21, avec un texte rigoureusement identique (181 caractères). Or le numéro 1.21 est déjà attribué à la définition « Proche ». Les 24 entrées imprimées sont toutes conservées ; la seconde porte la mention du doublon. La numérotation du document est donc fautive et il n’existe pas de définition 1.24.
+- Le document ne contient AUCUN article de durée, de reconduction ou de résiliation : duration_and_cancellation est null. Il s’agit d’une convention d’assistance adossée au contrat d’assurance véhicules, pas d’un contrat autonome. De même, aucune mécanique de cotisation n’est décrite : premium est null.
+- is_extension a été mis à true sur la base de l’article 2.2, qui subordonne la garantie au fait que « le véhicule est assuré par SMACL Assurances au titre d’un contrat d’assurance véhicules ». Le document ne nomme aucun produit de base sous son nom commercial : extends reprend la formulation imprimée, pas un nom de gamme.
+- product_name retient le titre imprimé en couverture, « Assistance aux véhicules » (sous « Votre convention d’assistance »). Les métadonnées de la tâche portaient « Assistance aux véhicules [ca-assistance-vehicules] », c’est-à-dire le titre augmenté du nom de fichier ; le document l’emporte.
+- Le document ne comporte pas de section « exclusions » identifiée comme telle — le préambule revendique « de rares limitations ». Les 26 exclusions enregistrées sont les restrictions effectivement écrites, principalement à l’article 2.6 (mise en œuvre), dans les définitions 1.5, 1.6, 1.13 et 1.17, et dans les clauses de prise en charge des articles 3 et 4. Aucune exclusion « classique » d’assurance n’a été ajoutée.
+- Les clauses de non-cumul entre garanties (3.1.1.3 / 3.1.3.2 / 3.1.3.3 / 3.1.1.5 / 3.1.4.4) ont été portées dans le champ conditions de chaque garantie concernée plutôt qu’en exclusions, car elles limitent l’articulation entre prestations et non le risque.
+- L’article 3.1.4.4 imprime « les autorités françaises françaises » (mot répété) et l’article 3.2.4.4 « SMACL Assistanceorganise » (espace manquante). Ces coquilles de l’éditeur sont signalées ici et n’ont pas été corrigées dans la source ; les descriptions structurées les ont normalisées, aucune citation ne les traverse.
+- Les montants sont recopiés tels qu’imprimés, y compris « 3.5 tonnes » (point décimal) dans les articles 2.2 et 3.2 face à « 3,5 tonnes » (virgule) dans l’article 4, et « n° 833817224 » sans espaces au colophon face à « n° 833 817 224 » sur d’autres documents du corpus.
+- Aucune autorité de contrôle (ACPR) n’est mentionnée dans le document ; le champ correspondant n’existe pas au schéma et rien n’a été déduit.
+- Les seuils de déclenchement chiffrés (plus de 24 heures, plus de 3 jours, plus de 7 jours) ont été enregistrés dans waiting_periods faute de champ dédié aux délais de carence de déclenchement ; ce ne sont pas des délais de carence contractuels au sens strict.
+
+## Documents liés
+
+- Extension / option du produit : **contrat d’assurance véhicules assuré auprès de SMACL Assurances**
+
+## Source & fidélité
+
+- Source : [https://www.smacl.fr/files/documents/ca-assistance-vehicules.pdf](https://www.smacl.fr/files/documents/ca-assistance-vehicules.pdf) - téléchargé le 2026-08-01 - 12 pages
+- Extraction : claude-code-subagent:scale · prompt v1.1
+- ⚠️ Ceci n'est pas le document officiel de l'assureur et peut contenir des erreurs d'extraction. Information, non un conseil - vérifiez toujours par rapport au document source.

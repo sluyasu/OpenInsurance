@@ -231,6 +231,7 @@ two insured persons. p. 1
 - Text-layer checks: no zero-width spaces (U+200B), no soft hyphens (U+00AD), no NFD combining accents, no Private-Use-Area glyphs, no U+0007, no dropped fi/ff/fl ligatures, no enciphered text, no ghost footer, no stacked headers, no word split by a real hyphen at a line break, and no thin spaces. Special characters present: 8 x U+0001 and 2 x U+0002 (the bullets, see above) and 2 x U+2019 curly apostrophes. Many lines end with a trailing space, and the long empty stretch between the Disclaimer and "What is not insured?" in the flat text is a run of blank lines produced by the scrambled emission order, not a missing section.
 - All key_quotes were sliced programmatically as exact spans of the PDF text layer (never retyped). The document is a single page, so no page marker could be swallowed.
 - Nothing was completed from the French or German versions of this same IPID; each language file of this insurer is extracted independently from its own text.
+- Porteur de risque: ce document nomme « LALUX Assurances-Vie », qui n'est pas l'entite dont la bibliotheque publique l'a fourni (lalux). Le champ insurer_name porte le proprietaire de la bibliotheque, pour le regroupement des pages; la lecture du document est celle-ci. A verifier contre le registre du superviseur avant d'en tirer qui porte le risque.
 
 ## Source & fidélité
 

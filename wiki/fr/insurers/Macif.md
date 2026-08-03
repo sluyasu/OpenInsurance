@@ -5,7 +5,7 @@ country: fr
 insurer_slug: macif
 name: Macif
 website: https://www.macif.fr
-products_count: 95
+products_count: 97
 branches_covered:
 - animaux
 - assurance-vie
@@ -40,7 +40,7 @@ generated: true
 
 ## Résumé
 
-**Macif** - [https://www.macif.fr](https://www.macif.fr). 95 document(s) across 18 branch(es).
+**Macif** - [https://www.macif.fr](https://www.macif.fr). 97 document(s) across 18 branch(es).
 
 ## Produits par branche
 
@@ -101,6 +101,7 @@ generated: true
 ### [Multirisque habitation](../branches/Multirisque%20habitation.md)
 - [Assistance juridique Option “Plus”](../products/macif/Assistance%20juridique%20Option%20%E2%80%9CPlus%E2%80%9D.md) - Conditions générales (2016-04) · réf. HAB/PROT RP/07 - 04/16 - N365
 - [Contrat Habitation - Formule Protectrice - Résidence principale](../products/macif/Contrat%20Habitation%20-%20Formule%20Protectrice%20-%20R%C3%A9sidence%20principale%20%282%29.md) - Conditions générales (05/18) · réf. HAB/PROT RP/05 - 05/18 - N752
+- [Contrat Habitation - Formule Protectrice - Résidence principale - IPID](../products/macif/Contrat%20Habitation%20-%20Formule%20Protectrice%20-%20R%C3%A9sidence%20principale%20-%20IPID.md) - IPID / Fiche d'information (04/24) · réf. HAB-PROT-RP 04/24
 - [Contrat Habitation - Formule Protectrice - Résidence principale](../products/macif/Contrat%20Habitation%20-%20Formule%20Protectrice%20-%20R%C3%A9sidence%20principale.md) - Conditions générales (Avril 2024) · réf. HAB/PROT RP/05 - 04/24 - N752
 - [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire - IPID](../products/macif/Contrat%20Habitation%20-%20Formule%20%C3%89conomique%20-%20R%C3%A9sidence%20principale%20-%20R%C3%A9sidence%20secondaire%20-%20IPID.md) - IPID / Fiche d'information (04/24) · réf. HAB-ECO 04/24
 - [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire](../products/macif/Contrat%20Habitation%20-%20Formule%20%C3%89conomique%20-%20R%C3%A9sidence%20principale%20-%20R%C3%A9sidence%20secondaire.md) - Conditions générales (05/18) · réf. HAB/ECO/05 - 05/18 - N781
@@ -114,6 +115,7 @@ generated: true
 - [Contrat Sociétaire Non Occupant - Conditions Générales - Annexe spéciale Immeubles locatifs](../products/macif/Contrat%20Soci%C3%A9taire%20Non%20Occupant%20-%20Conditions%20G%C3%A9n%C3%A9rales%20-%20Annexe%20sp%C3%A9ciale%20Immeubles%20locatifs.md) - Conditions générales · réf. HAB/SNOIL/07 - 11/10 - N069
 - [Macif Habitation](../products/macif/Macif%20Habitation.md) - Conditions générales (06/25 (Version 06/2025)) · réf. MACIF HAB/05 - 06/25 - N570
 - [Sociétaire non occupant - Bâtiment en cours de construction - IPID](../products/macif/Soci%C3%A9taire%20non%20occupant%20-%20B%C3%A2timent%20en%20cours%20de%20construction%20-%20IPID.md) - IPID / Fiche d'information (10/18) · réf. HAB-SNO EC 10/18
+- [Sociétaire non occupant - Bâtiments inoccupés - IPID](../products/macif/Soci%C3%A9taire%20non%20occupant%20-%20B%C3%A2timents%20inoccup%C3%A9s%20-%20IPID.md) - IPID / Fiche d'information (10/18) · réf. HAB-SNO BI 10/18
 - [Sociétaire non occupant - Immeubles en copropriété - IPID](../products/macif/Soci%C3%A9taire%20non%20occupant%20-%20Immeubles%20en%20copropri%C3%A9t%C3%A9%20-%20IPID.md) - IPID / Fiche d'information (10/18) · réf. HAB-SNO CO 10/18
 - [Sociétaire non occupant - Immeubles locatifs - IPID](../products/macif/Soci%C3%A9taire%20non%20occupant%20-%20Immeubles%20locatifs%20-%20IPID.md) - IPID / Fiche d'information (10/18) · réf. HAB-SNO-IL 10/18
 
