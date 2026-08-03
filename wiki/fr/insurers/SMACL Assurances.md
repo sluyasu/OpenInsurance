@@ -5,10 +5,11 @@ country: fr
 insurer_slug: smacl
 name: SMACL Assurances
 website: https://www.smacl.fr
-products_count: 85
+products_count: 86
 branches_covered:
 - auto
 - autres
+- chasse
 - credit-caution
 - decennale
 - gav
@@ -35,7 +36,7 @@ generated: true
 
 ## Résumé
 
-**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 85 document(s) across 13 branch(es).
+**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 86 document(s) across 14 branch(es).
 
 ## Produits par branche
 
@@ -71,6 +72,9 @@ generated: true
 - [CONVERGENCE - Protection financière](../products/smacl/CONVERGENCE%20-%20Protection%20financi%C3%A8re.md) - Conditions générales (01/2024) · réf. CONVERGENCE_CS_PF_SA_05(05_2016)
 - [Convergence - Annulation de manifestation - IPID](../products/smacl/Convergence%20-%20Annulation%20de%20manifestation%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. CONVERGENCE_DIPA_MANIF_SA_03(09_2022)
 - [Votre droit de renonciation (hors contrat « Assurance Auto ») - Doc](../products/smacl/Votre%20droit%20de%20renonciation%20%28hors%20contrat%20%C2%AB%20Assurance%20Auto%20%C2%BB%29%20-%20Doc.md) - Document (09/2025)
+
+### [Chasse](../branches/Chasse.md)
+- [Responsabilité civile chasse](../products/smacl/Responsabilit%C3%A9%20civile%20chasse.md) - Conditions générales (11/2022) · réf. PP_CG_RCChasse_05(02_2023)
 
 ### Crédit et caution
 - [Assurance loyers impayés](../products/smacl/Assurance%20loyers%20impay%C3%A9s.md) - Conditions générales (01/2024) · réf. LOYERSIMPAYES_CG_04(02_2023)

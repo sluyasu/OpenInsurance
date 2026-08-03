@@ -1,0 +1,1814 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "macif",
+  "insurer_name": "Macif",
+  "product_name": "Contrat Flotte Automobile",
+  "branch": "auto",
+  "branch_code": null,
+  "document_type": "conditions_generales",
+  "language": "fr",
+  "target_audience": "entreprises",
+  "target_audience_note": "Le contrat couvre « l'ensemble des risques pesant sur vos véhicules dans le cadre de votre activité ». Il s'adresse à un « souscripteur » disposant d'un « parc de véhicules », emploie la notion de « préposés », vise les déclarations de « création de filiale », de « rachat de société » et de « modification de la forme juridique du souscripteur », et décline neuf usages professionnels (transports pour propre compte, transports publics de marchandises, transports publics de voyageurs urbains et extra urbains, bâtiment et travaux publics, location sans chauffeur courte et longue durée, autopartage, agricole).",
+  "reference": "VEH/FLOTTE/05 - 06/19 - NM03",
+  "edition_date": "Juin 2019",
+  "product_family": "Flotte Automobile",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/CG_flotte_auto.pdf",
+  "source_pdf": "contrat-flotte-automobile-b05d8d1c.pdf",
+  "source_sha256": "7a5e68bc3049da1ca0bf4a81af95852a0aea747f1c79636aa66e84a157569599",
+  "source_pages": 68,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Conditions générales du contrat Flotte Automobile de la Macif, assurance de flotte de véhicules pour les professionnels et les entreprises. Le contrat couvre l'assurance obligatoire de responsabilité civile du fait des véhicules, la responsabilité civile fonctionnement lorsque le véhicule est utilisé comme outil de travail, les dommages subis par le véhicule ou son contenu (dommages par accident, actes de vandalisme, incendie, vol, bris de glace, forces de la nature, catastrophes naturelles, bris de machine, matériel professionnel et marchandises transportées, aménagements professionnels et peintures publicitaires, contenu privé), les dommages subis par le conducteur, et la protection juridique (Défense et Recours). Les garanties sont souscrites véhicule par véhicule et ne sont acquises que si elles sont mentionnées aux conditions particulières.",
+  "definitions": [
+    {
+      "term": "Accessoires hors série",
+      "definition": "Ce sont, pour les véhicules à quatre roues ou plus, tous les éléments d'enjolivement, d'amélioration ou de sécurité, non indispensables au fonctionnement du véhicule, non livrés en série, non prévus en option par le constructeur et non fixés au véhicule. Les accessoires comprennent les autoradios et appareils électroacoustiques.",
+      "page": 7
+    },
+    {
+      "term": "Accident",
+      "definition": "C'est un événement qui est à la fois : soudain et imprévu ; extérieur à la victime et à la chose endommagée ; la cause de dommages corporels, matériels ou immatériels. Dans le cadre de la garantie corporelle du conducteur, il s'agit de tout accident de la circulation, c'est-à-dire toute atteinte à l'intégrité corporelle de l'assuré, non intentionnelle de sa part, provenant de l'action soudaine d'une cause extérieure survenue à l'occasion d'un trajet effectué par l'assuré en tant que conducteur (y compris lors de la montée ou de la descente de ce véhicule), dans lequel le véhicule assuré est impliqué. Ne sont pas considérés comme accidents de la circulation, les accidents survenus lors de la pratique d'une activité sportive nécessitant l'utilisation d'un véhicule à moteur.",
+      "page": 7
+    },
+    {
+      "term": "Aménagements professionnels",
+      "definition": "Il s'agit des objets, installations, outils et outillages fixés au véhicule, non livrés de série par le constructeur et nécessaires à l'exercice de l'activité professionnelle déclarée. Le cas échéant, leur garantie est subordonnée à une installation conforme aux prescriptions légales. À titre d'exemple, il s'agit d'un bras de levage, d'un hayon élévateur, des éléments de rangement, d'une galerie extérieure latérale, etc.",
+      "page": 7
+    },
+    {
+      "term": "Assuré",
+      "definition": "Ont la qualité d'assuré : pour l'ensemble des garanties, le souscripteur du contrat et le propriétaire du véhicule assuré. Ainsi que : pour la garantie Responsabilité civile, toute personne ayant la garde ou la conduite, même non autorisée, du véhicule assuré ainsi que les passagers ; pour les garanties Défense et Recours, toute personne autorisée ayant la garde ou la conduite du véhicule assuré ainsi que les passagers, sauf en ce qui concerne ces derniers pour l'exercice d'un recours contre l'Assuré lui-même ; pour la garantie corporelle, le conducteur autorisé, gardien du véhicule. Quelle que soit la garantie, n'ont jamais la qualité d'assuré, les professionnels de la réparation, de la vente, et du contrôle de l'automobile ainsi que leurs préposés vis-à-vis des véhicules assurés qui leur sont confiés dans le cadre de leurs fonctions. Lorsque la garde ou la conduite du véhicule a été obtenue contre le gré du propriétaire ou du locataire, nous demanderons au responsable de l'accident de nous rembourser les indemnités versées aux victimes.",
+      "page": 7
+    },
+    {
+      "term": "Conducteur",
+      "definition": "C'est la personne physique qui conduit le véhicule au moment du sinistre.",
+      "page": 7
+    },
+    {
+      "term": "Conjoint",
+      "definition": "Personne unie à l'assuré par les liens du mariage, selon les termes du Code civil. Sont assimilés au conjoint : le concubin ; le partenaire lié par un pacte civil de solidarité ; selon les dispositions du Code civil. Le conjoint, ou la personne assimilée doit en outre vivre en couple avec l'assuré, sous le même toit, de façon constante, c'est-à-dire sans être séparé de corps ou de fait.",
+      "page": 8
+    },
+    {
+      "term": "Consolidation",
+      "definition": "C'est le moment à partir duquel l'état de santé de l'assuré n'est plus susceptible de s'améliorer du fait d'une thérapeutique active.",
+      "page": 8
+    },
+    {
+      "term": "Contenu privé du véhicule",
+      "definition": "Il s'agit des effets personnels du conducteur et/ou des passagers transportés à titre non onéreux, leurs objets et bagages à usage strictement privé transportés à l'intérieur du véhicule. Pour les 2 roues, le contenu privé du véhicule comprend également l'équipement du motard : il s'agit des effets vestimentaires spécialement conçus pour la pratique d'un 2 roues, à l'exclusion des équipements de sécurité obligatoires et du gilet/veste airbag.",
+      "page": 8
+    },
+    {
+      "term": "Date d'achat du véhicule neuf",
+      "definition": "C'est la date figurant sur la facture d'achat de votre véhicule neuf.",
+      "page": 8
+    },
+    {
+      "term": "Date de première immatriculation",
+      "definition": "C'est la date de première immatriculation figurant sur le certificat d'immatriculation du véhicule.",
+      "page": 8
+    },
+    {
+      "term": "Déchéance",
+      "definition": "C'est la perte d'un droit à garantie, en raison du non-respect par l'assuré de ses obligations contractuelles.",
+      "page": 8
+    },
+    {
+      "term": "Dommages corporels",
+      "definition": "Il s'agit de toute atteinte à l'intégrité physique des personnes.",
+      "page": 8
+    },
+    {
+      "term": "Dommages immatériels consécutifs",
+      "definition": "Il s'agit de dommages autres que corporels ou matériels, consistant en frais et pertes pécuniaires de toute nature, et qui sont la conséquence directe d'un dommage corporel ou matériel garanti. Ce peut être, par exemple, un préjudice économique directement lié à l'accident tel que les frais de gardiennage, la privation de jouissance ou la dépréciation du véhicule.",
+      "page": 8
+    },
+    {
+      "term": "Dommages immatériels non consécutifs",
+      "definition": "Il s'agit de dommages autres que ceux subis par le véhicule lui-même et ses accessoires et non consécutifs à un dommage corporel ou matériel.",
+      "page": 8
+    },
+    {
+      "term": "Dommages matériels",
+      "definition": "Il s'agit de toute détérioration, destruction, perte d'une chose ou d'une substance ou atteinte à l'intégrité physique d'un animal.",
+      "page": 8
+    },
+    {
+      "term": "Échéance principale",
+      "definition": "C'est la date à laquelle le contrat est renouvelé par tacite reconduction pour la durée mentionnée aux Conditions particulières, sauf résiliation par l'une ou l'autre des parties selon les formes et délais prévus au contrat. Chaque échéance principale détermine le point de départ d'une période d'assurance. La date de l'échéance principale est mentionnée aux conditions particulières.",
+      "page": 8
+    },
+    {
+      "term": "Encours financier",
+      "definition": "En fonction de la nature du financement ou du contrat de location du véhicule, il s'agit : Crédit bancaire : des mensualités de remboursement à échoir au jour du sinistre, augmentées de l'indemnité de résiliation anticipée éventuelle. Location avec option d'achat/crédit-bail : des loyers HT à échoir au jour du sinistre augmentés du ou des premier(s) loyer(s) majoré(s) (maximum 3 et/ou pour une valeur totale maximum égale à 30 % du prix d'acquisition HT du véhicule), de la valeur de l'option d'achat et de l'éventuelle indemnité de résiliation anticipée. Location longue durée/location financière : des loyers HT à échoir au jour du sinistre augmentés du ou des premier(s) loyer(s) majoré(s) (maximum 3 et/ou pour une valeur totale maximum égale à 30 % du prix d'acquisition HT du véhicule) et de l'éventuelle indemnité de résiliation anticipée. Dans tous les cas, ne sont pas pris en compte les mensualités échues, impayées, reportées ou annulées au jour du sinistre ainsi que les pénalités et agios pour retard de paiement et/ou dépassement du forfait kilométrique, les frais de gestion et les frais financiers.",
+      "page": 9
+    },
+    {
+      "term": "Événement garanti",
+      "definition": "Il s'agit d'un événement mettant en jeu une des garanties souscrites suivantes : Dommages par accident, Actes de vandalisme, Incendie, Vol, Forces de la nature, Catastrophes naturelles.",
+      "page": 9
+    },
+    {
+      "term": "Franchise",
+      "definition": "C'est le montant déduit de l'indemnité et restant à la charge de l'assuré. Son montant est indiqué dans les conditions particulières.",
+      "page": 9
+    },
+    {
+      "term": "Garantie dommage",
+      "definition": "Il s'agit des garanties Dommages par accident, Actes de vandalisme, Incendie, Vol, Forces de la nature, Catastrophes naturelles, Bris de glace, Bris de glace +, Indemnisation +, Dépannage levage remorquage, Bris de machine, Matériel professionnel et marchandises transportées, Aménagements professionnels et peintures publicitaires et Contenu privé du véhicule.",
+      "page": 9
+    },
+    {
+      "term": "Marchandises",
+      "definition": "Il s'agit des objets, matières ou fournitures acquis par le souscripteur, à usage strictement professionnel et dont la nature est en relation directe avec l'exercice de son activité déclarée, destinés à être revendus sans avoir subis aucune transformation préalable ou après avoir été transformés totalement ou partiellement conformément à l'activité déclarée. Il s'agit également des biens meubles confiés au souscripteur et sur lesquels il doit intervenir dans le cadre de son activité professionnelle déclarée.",
+      "page": 9
+    },
+    {
+      "term": "Matériel professionnel",
+      "definition": "Il s'agit des objets, éléments, outils et outillage vous appartenant, non fixés au véhicule, à usage strictement professionnel et en relation directe avec l'activité déclarée, transportés à l'intérieur du véhicule.",
+      "page": 9
+    },
+    {
+      "term": "Nullité du contrat",
+      "definition": "C'est la sanction appliquée à un assuré qui fait une fausse déclaration à la Macif dans l'intention de la tromper. Le contrat est censé n'avoir jamais existé et les cotisations restent acquises à la Macif à titre de dommages et intérêts. De même, la Macif est en droit de réclamer le remboursement des indemnités déjà versées.",
+      "page": 9
+    },
+    {
+      "term": "Peintures publicitaires",
+      "definition": "Il s'agit des lettrages et décorations représentatifs du souscripteur et de son activité professionnelle apposés sur le véhicule.",
+      "page": 9
+    },
+    {
+      "term": "Perte totale",
+      "definition": "Il s'agit du véhicule déclaré économiquement non réparable (montant des réparations supérieur à la valeur vénale du véhicule avant le sinistre) ou techniquement irréparable par l'expert, ou volé et non retrouvé dans les 30 jours suivant la déclaration du vol. Il est alors qualifié d'épave.",
+      "page": 9
+    },
+    {
+      "term": "Prescription",
+      "definition": "C'est le délai au-delà duquel : une action en justice n'est plus recevable ; le titulaire d'un droit perd la possibilité de le faire valoir.",
+      "page": 10
+    },
+    {
+      "term": "Prix d'acquisition",
+      "definition": "C'est le prix effectivement payé pour l'achat du véhicule, c'est-à-dire déduction faite, par exemple, d'une remise éventuelle et à l'exception de tous les frais annexes liés à la mise à disposition du véhicule (ancien ou nouveau) tels que, par exemple, les frais d'établissement de la carte grise, d'immatriculation du véhicule ou encore les frais de livraison ou de carburant.",
+      "page": 10
+    },
+    {
+      "term": "Réduction des indemnités",
+      "definition": "C'est une mesure appliquée à un assuré en raison d'une omission ou d'une déclaration inexacte du risque (sans que la mauvaise foi soit établie) et qui n'a pas permis d'appliquer la cotisation correspondant au risque réel. Cette réduction est proportionnelle à la cotisation effectivement payée par rapport à celle qui était normalement due.",
+      "page": 10
+    },
+    {
+      "term": "Sinistre",
+      "definition": "C'est la réalisation et les conséquences d'un même événement susceptible d'entraîner la garantie de la Macif. L'ensemble des réclamations qui en résultent constitue un seul et même sinistre. La garantie de la Macif s'applique à des événements survenus pendant la période de validité du contrat, c'est-à-dire après sa prise d'effet et avant sa résiliation ou sa suspension.",
+      "page": 10
+    },
+    {
+      "term": "Souscripteur",
+      "definition": "C'est la personne qui a conclu le contrat avec la Macif. Elle est tenue à des obligations envers la Macif, en contrepartie des garanties accordées. Cette personne n'est pas obligatoirement le propriétaire du véhicule assuré.",
+      "page": 10
+    },
+    {
+      "term": "Subrogation",
+      "definition": "C'est la substitution de l'assureur à l'assuré dans l'exercice de ses droits. Par exemple, la Macif, après avoir versé une indemnité à son assuré, en demande le remboursement au responsable du sinistre.",
+      "page": 10
+    },
+    {
+      "term": "Tiers",
+      "definition": "Il s'agit de toute personne autre que l'assuré.",
+      "page": 10
+    },
+    {
+      "term": "Valeur de remplacement",
+      "definition": "C'est la somme fixée par expertise pour acquérir au jour du sinistre un véhicule ou un matériel de même type dans un semblable état d'entretien et de fonctionnement.",
+      "page": 10
+    },
+    {
+      "term": "Véhicule assuré",
+      "definition": "Il s'agit : des véhicules terrestres à moteur de deux à quatre roues désignés aux conditions particulières ou sur l'état de parc ; des remorques, semi-remorques, appareils terrestres attelés et caravanes destinés à être attelés à ces derniers, sous réserve des conditions suivantes : remorques d'un PTAC inférieur ou égal à 500 kg (elles ne sont pas désignées aux conditions particulières ou sur l'état de parc du contrat et bénéficient automatiquement des garanties du véhicule auquel elles sont attelées) ; remorques d'un PTAC supérieur à 500 kg et inférieur à 750 kg (elles bénéficient automatiquement des garanties Responsabilité Civile et Défense-Recours du véhicule auquel elles sont attelées ; pour bénéficier de garanties complémentaires, une déclaration préalable doit être faite à la Macif) ; remorques et semi-remorques d'un PTAC supérieur à 750 kg (elles constituent une aggravation du risque et sont garanties uniquement si elles sont expressément désignées aux conditions particulières ou sur l'état de parc et dans la limite des garanties mentionnées pour chacune d'elles) ; les engins de manutention, de chantier ou de levage, ainsi que ceux à usage agricole ou forestier, désignés aux conditions particulières ou sur l'état de parc. Par véhicule assuré, on entend : le modèle livré de série par le constructeur ; sa carrosserie (telle que mentionnée sur la carte grise et à condition qu'elle soit déclarée au contrat en tant que telle) ; ses options montées d'origine par le constructeur avant sa date de première immatriculation ainsi que ses accessoires hors série (dans la limite de 3 000 €) ; pour les véhicules électriques, les batteries et câbles de rechargement font également partie du véhicule ; pour les véhicules à 2 roues, font partie du véhicule les équipements de sécurité obligatoires (composés du casque et des gants, homologués CE, du conducteur et/ou des passagers, conçus pour la pratique de la moto selon la réglementation en vigueur) et le gilet/veste airbag. Ne font pas partie du véhicule les aménagements et matériels professionnels ainsi que les peintures publicitaires : leur couverture suppose la souscription des garanties Matériel professionnel et marchandises transportées (article 15) et Aménagements professionnels et peintures publicitaires (article 16).",
+      "page": 10
+    },
+    {
+      "term": "Véhicule à deux roues",
+      "definition": "Il s'agit des motocyclettes, cyclomoteurs, tricycles et quadricycles à moteurs toutes cylindrées confondues.",
+      "page": 11
+    },
+    {
+      "term": "Véhicule à quatre roues",
+      "definition": "Il s'agit des voitures particulières, des camionnettes, des tracteurs routiers, des camions, des camping-cars, des autocars et autobus.",
+      "page": 11
+    },
+    {
+      "term": "Parc de véhicules",
+      "definition": "Il s'agit de l'ensemble des véhicules désignés aux conditions particulières ou sur l'état de parc pour un même souscripteur.",
+      "page": 11
+    },
+    {
+      "term": "Vétusté",
+      "definition": "Elle représente la dépréciation d'un bien due à l'usage ou à l'ancienneté qui entraîne la diminution de sa valeur. Elle s'exprime en pourcentage et peut être déterminée, si nécessaire, par expertise.",
+      "page": 11
+    },
+    {
+      "term": "Vol isolé",
+      "definition": "C'est le vol du contenu privé, des marchandises, du matériel professionnel et/ou des aménagements professionnels ou de l'équipement du motard alors que le véhicule qui les transporte n'est pas lui-même volé ou l'objet d'une effraction.",
+      "page": 11
+    }
+  ],
+  "coverages": [
+    {
+      "name": "La garantie Responsabilité civile (article 1)",
+      "description": "La souscription de la garantie Responsabilité civile répond à l'obligation légale d'assurance. La garantie déclenchée par le fait dommageable couvre l'assuré* contre les conséquences pécuniaires des sinistres*, dès lors que le fait dommageable survient entre la prise d'effet initiale de la garantie et sa date de résiliation ou d'expiration, quelle que soit la date des autres éléments constitutifs du sinistre*. Sont garanties les conséquences pécuniaires de la Responsabilité civile que vous-même ou toute personne ayant la qualité d'assuré* pouvez encourir à l'égard des tiers* en raison des dommages corporels*, matériels* et immatériels consécutifs* qu'ils ont subis et dans la réalisation desquels le véhicule* assuré est impliqué à la suite d'accident*, incendie ou explosion causé par ce véhicule*, les accessoires ou produits servant à son utilisation, les objets ou substances qu'il transporte, ou de la chute de ces accessoires, objets, substances et produits.",
+      "is_optional": false,
+      "territorial_scope": "Sous réserve des dispositions spécifiques concernant la garantie Dépannage, levage, remorquage (article 12), vous bénéficiez des garanties de ce contrat : en France métropolitaine ; dans les autres pays de l'Union européenne (Allemagne, Autriche, Belgique, Bulgarie, Chypre, Danemark, Espagne, Estonie, Finlande, Grèce, Hongrie, Irlande, Italie, Lettonie, Lituanie, Luxembourg, Malte, Pays Bas, Pologne, Portugal, Suède, Roumanie, Slovaquie, Slovénie, Tchéquie) ainsi qu'en Suisse et dans les états du Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein et Royaume-Uni ; dans les autres pays mentionnés au recto de la carte verte et dont le sigle n'a pas été rayé.",
+      "limits": "Dommages corporels* et Dommages matériels* et immatériels consécutifs* : à concurrence du montant indiqué aux conditions particulières.",
+      "sub_limits": [
+        "la responsabilité de l'assuré* à l'égard des passagers transportés dans le véhicule* assuré pour les dommages résultant d'atteintes à leur personne et à la détérioration de leurs vêtements, conséquence de ces atteintes",
+        "les conséquences pécuniaires de la responsabilité que l'assuré* peut encourir pour des dégâts d'incendie ou d'explosion causés par le véhicule* assuré à un immeuble même loué ou confié à l'assuré*, appartenant à un tiers* et dans lequel ce véhicule* est garé",
+        "extension à la responsabilité civile de tout passager à l'égard de personnes n'ayant pas pris place dans le véhicule* et ce à partir du moment où il monte dans le véhicule* jusque, et y compris, le moment où il en descend",
+        "extension à la responsabilité civile du propriétaire ou du locataire du véhicule* en raison des dommages corporels* causés au conducteur* autorisé à la suite d'un accident* imputable au vice ou au défaut d'entretien du véhicule* assuré",
+        "extension à la responsabilité civile de l'employeur de l'assuré* dans la mesure où sa responsabilité serait recherchée à la suite d'un dommage causé à autrui et résultant d'un événement garanti* (à défaut d'intervention de l'assurance de l'employeur)",
+        "extension à la responsabilité civile du moniteur et de l'élève dans le cadre de l'utilisation particulière auto-école lorsqu'elle a été souscrite",
+        "responsabilité civile encourue en qualité de commettant, du fait du véhicule* assuré, en cas de recours d'un préposé pour les dommages subis du fait de la faute intentionnelle d'un autre préposé (art L. 452-5 du Code de la Sécurité Sociale)",
+        "responsabilité civile encourue en qualité de commettant en cas de recours d'un préposé pour les dommages subis du fait de votre faute inexcusable ou de celle d'une personne substituée dans la direction de l'entreprise ou de l'établissement : remboursement du capital représentatif destiné à financer la majoration de rente prévu à l'article L. 452-2 du Code de la Sécurité sociale, et des indemnités complémentaires auxquelles la victime peut prétendre à réparation au titre des postes de préjudice mentionnés par l'article L. 452-3 du Code de la Sécurité sociale, ou au titre des autres postes de préjudice dès lors que leur indemnisation résulte d'une décision prise à votre encontre par une juridiction de la Sécurité sociale",
+        "garantie acquise au cours d'une opération de remorquage occasionnel d'un véhicule* terrestre à moteur, en panne ou accidenté, à la condition qu'elle soit effectuée en conformité avec l'article R. 317-21 du Code de la route",
+        "garantie étendue en cas de sinistre* survenu au cours d'une opération d'aide bénévole, à l'assuré* qui bénéficie de l'aide (dommages corporels* ou matériels* causés aux personnes ayant apporté cette aide ou aux tiers*) et à l'assuré* qui apporte son aide (dommages corporels* causés à l'assisté ou dommages corporels* ou matériels* causés aux tiers*)",
+        "remboursement des frais réellement exposés pour le nettoyage et la remise en état des garnitures intérieures du véhicule* assuré lorsqu'ils résultent du transport bénévole et gratuit d'une personne blessée à la suite d'un accident* de la circulation"
+      ],
+      "deductible": "Franchise* supportée par le souscripteur* si elle est indiquée dans les conditions particulières",
+      "conditions": [
+        "Le véhicule* remorqué doit comporter un dispositif de signalisation relié au véhicule* tracteur sauf si l'ensemble de ses feux fonctionne ; si le véhicule* remorqué n'a pas de conducteur, ce véhicule* doit être relié au véhicule tracteur par une barre rigide.",
+        "Conditions de sécurité des passagers : les dommages subis par les personnes transportées seront couverts uniquement si le transport est effectué dans des conditions suffisantes de sécurité (à l'intérieur de l'habitacle, de la cabine ou d'une carrosserie fermée, ou sur un plateau muni de ridelles, ou à l'intérieur d'une remorque construite en vue d'effectuer des transports de personnes ; nombre limité à huit au maximum ou cinq hors de la cabine pour les véhicules* utilitaires, aux places prévues par le constructeur pour les tracteurs ; pour les deux roues, transport autorisé seulement sur des sièges ou dans des remorques (side) spécialement aménagés et dans la limite du nombre de places prévues par le constructeur).",
+        "Sauvegarde des droits de la victime : si nous invoquons une exception de garantie légale ou contractuelle, nous présentons néanmoins une offre d'indemnité aux personnes lésées, telle que prévue aux articles L. 211-8 à L. 211-17 du Code des assurances. Ne sont pas opposables aux victimes ou à leurs ayants droit : les franchises* prévues dans les conditions particulières ; les déchéances*, à l'exception d'une suspension régulière de garantie antérieure au sinistre*, pour non paiement de cotisation ; toute déchéance* pour manquement de l'assuré* à ses obligations contractuelles commis postérieurement au sinistre* ; la nullité du contrat* prévue par l'article L. 113-8 du Code des assurances et la réduction de l'indemnité prévue par l'article L. 113-9 ; ainsi que les exclusions de garanties suivantes : le défaut ou l'absence de validité du permis de conduire ; le transport de matières inflammables, explosives, corrosives ou comburantes ; le transport des passagers dans des conditions de sécurité insuffisantes ; le transport de sources de rayonnements ionisants ; les épreuves, courses, compétitions ou leurs essais. Dans ces cas, nous procédons au paiement de l'indemnité pour le compte de qui cette offre a été faite (article L. 211-20 du Code des assurances) puis exerçons une action en remboursement contre ce dernier."
+      ],
+      "page": 17
+    },
+    {
+      "name": "La garantie Responsabilité civile fonctionnement (article 2)",
+      "description": "Les conséquences pécuniaires de la responsabilité civile que l'assuré* peut encourir en raison des dommages corporels*, matériels* et immatériels consécutifs*, causés aux tiers* par les véhicules* assurés, lorsqu'ils sont utilisés en tant qu'outil pour le travail auquel ils sont normalement destinés, et que ces dommages sont dus exclusivement aux équipements utilitaires de l'engin en cours de travail, sans implication de sa fonction de déplacement, y compris en cas de chute des accessoires ou produits servant à son utilisation, ou des objets et substances qu'il manutentionne.",
+      "is_optional": true,
+      "territorial_scope": "Sous réserve des dispositions spécifiques concernant la garantie Dépannage, levage, remorquage (article 12), vous bénéficiez des garanties de ce contrat : en France métropolitaine ; dans les autres pays de l'Union européenne (Allemagne, Autriche, Belgique, Bulgarie, Chypre, Danemark, Espagne, Estonie, Finlande, Grèce, Hongrie, Irlande, Italie, Lettonie, Lituanie, Luxembourg, Malte, Pays Bas, Pologne, Portugal, Suède, Roumanie, Slovaquie, Slovénie, Tchéquie) ainsi qu'en Suisse et dans les états du Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein et Royaume-Uni ; dans les autres pays mentionnés au recto de la carte verte et dont le sigle n'a pas été rayé.",
+      "limits": "Dommages corporels* et Dommages matériels* et immatériels consécutifs* : à concurrence du montant indiqué aux conditions particulières.",
+      "sub_limits": [],
+      "deductible": "Franchise* indiquée aux conditions particulières",
+      "conditions": [],
+      "page": 20
+    },
+    {
+      "name": "La garantie Dommages par accident (article 3)",
+      "description": "Les dommages subis par le véhicule* assuré lorsque ces dommages résultent : d'un choc contre un corps fixe ou mobile ; du versement ou du renversement du véhicule* ; de projections ou retombées de substances sur le véhicule* ; de l'ouverture accidentelle d'un ouvrant du véhicule* ; de l'immersion accidentelle du véhicule*, consécutive ou non à une collision. Et alors que le véhicule* était sous votre garde ou celle d'une personne autorisée par vous. Par extension, sont garantis les dommages mécaniques ou électriques subis par le véhicule* assuré en stationnement lorsqu'ils sont causés par un animal. La garantie est étendue aux pavillons panoramiques ouvrants ou fixes. Sont également garantis les dommages résultant d'un incendie, d'une explosion ou d'un écoulement de matière directement consécutifs à une collision du véhicule* ou à son versement ou renversement.",
+      "is_optional": true,
+      "territorial_scope": "Sous réserve des dispositions spécifiques concernant la garantie Dépannage, levage, remorquage (article 12), vous bénéficiez des garanties de ce contrat : en France métropolitaine ; dans les autres pays de l'Union européenne (Allemagne, Autriche, Belgique, Bulgarie, Chypre, Danemark, Espagne, Estonie, Finlande, Grèce, Hongrie, Irlande, Italie, Lettonie, Lituanie, Luxembourg, Malte, Pays Bas, Pologne, Portugal, Suède, Roumanie, Slovaquie, Slovénie, Tchéquie) ainsi qu'en Suisse et dans les états du Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein et Royaume-Uni ; dans les autres pays mentionnés au recto de la carte verte et dont le sigle n'a pas été rayé.",
+      "limits": "En cas de perte totale* : Prix d'acquisition* du véhicule* HT pendant les 6 mois suivant la date d'achat du véhicule neuf* ; au-delà, valeur de remplacement* estimée par l'expert au jour du sinistre*, sans excéder le montant indiqué, le cas échéant, dans les conditions particulières. En cas de dommages partiels : coût des réparations ou de remplacement des pièces détériorées dans la limite de la valeur de remplacement* estimée par l'expert. Dommages électriques : la garantie s'exerce dans la limite du montant indiqué aux conditions particulières.",
+      "sub_limits": [],
+      "deductible": "Franchise* indiquée aux conditions particulières",
+      "conditions": [
+        "Les garanties énoncées au chapitre « Les dommages subis par le véhicule ou son contenu » vous sont accordées si vous les avez souscrites séparément ou globalement."
+      ],
+      "page": 21
+    },
+    {
+      "name": "La garantie Actes de vandalisme (article 4)",
+      "description": "Les dommages subis par le véhicule* assuré lorsque : la garantie Dommages par accident (article 3) est souscrite ; ces dommages résultent d'actes isolés de vandalisme ou de malveillance.",
+      "is_optional": true,
+      "territorial_scope": "Sous réserve des dispositions spécifiques concernant la garantie Dépannage, levage, remorquage (article 12), vous bénéficiez des garanties de ce contrat : en France métropolitaine ; dans les autres pays de l'Union européenne (Allemagne, Autriche, Belgique, Bulgarie, Chypre, Danemark, Espagne, Estonie, Finlande, Grèce, Hongrie, Irlande, Italie, Lettonie, Lituanie, Luxembourg, Malte, Pays Bas, Pologne, Portugal, Suède, Roumanie, Slovaquie, Slovénie, Tchéquie) ainsi qu'en Suisse et dans les états du Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein et Royaume-Uni ; dans les autres pays mentionnés au recto de la carte verte et dont le sigle n'a pas été rayé.",
+      "limits": "En cas de perte totale* : Prix d'acquisition* du véhicule* HT pendant les 6 mois suivant la date d'achat du véhicule neuf* ; au-delà, valeur de remplacement* estimée par l'expert au jour du sinistre*, sans excéder le montant indiqué, le cas échéant, dans les conditions particulières. En cas de dommages partiels : coût des réparations ou de remplacement des pièces détériorées dans la limite de la valeur de remplacement* estimée par l'expert. Dommages électriques : la garantie s'exerce dans la limite du montant indiqué aux conditions particulières.",
+      "sub_limits": [],
+      "deductible": "Franchise* indiquée aux conditions particulières",
+      "conditions": [
+        "La garantie Dommages par accident (article 3) doit être souscrite."
+      ],
+      "page": 22
+    },
+    {
+      "name": "La garantie Incendie (article 5)",
+      "description": "Les dommages subis par le véhicule* assuré lorsque ces dommages résultent d'un incendie, d'une combustion spontanée, de la chute de la foudre ou d'une explosion.",
+      "is_optional": true,
+      "territorial_scope": "Sous réserve des dispositions spécifiques concernant la garantie Dépannage, levage, remorquage (article 12), vous bénéficiez des garanties de ce contrat : en France métropolitaine ; dans les autres pays de l'Union européenne (Allemagne, Autriche, Belgique, Bulgarie, Chypre, Danemark, Espagne, Estonie, Finlande, Grèce, Hongrie, Irlande, Italie, Lettonie, Lituanie, Luxembourg, Malte, Pays Bas, Pologne, Portugal, Suède, Roumanie, Slovaquie, Slovénie, Tchéquie) ainsi qu'en Suisse et dans les états du Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein et Royaume-Uni ; dans les autres pays mentionnés au recto de la carte verte et dont le sigle n'a pas été rayé.",
+      "limits": "En cas de perte totale* : Prix d'acquisition* du véhicule* HT pendant les 6 mois suivant la date d'achat du véhicule neuf* ; au-delà, valeur de remplacement* estimée par l'expert au jour du sinistre*, sans excéder le montant indiqué, le cas échéant, dans les conditions particulières. En cas de dommages partiels : coût des réparations ou de remplacement des pièces détériorées dans la limite de la valeur de remplacement* estimée par l'expert. Dommages électriques : la garantie s'exerce dans la limite du montant indiqué aux conditions particulières.",
+      "sub_limits": [
+        "les dommages électriques, c'est-à-dire, pour les seuls véhicules* dont la date de 1re immatriculation* est inférieure à dix ans au jour du sinistre*, les dommages matériels* subis par les appareils électriques ou électroniques, faisceaux électriques, compte tenu de leur vétusté*, dont le constructeur prévoit la livraison en même temps que le véhicule*, pour autant qu'ils soient endommagés par un incendie ou une explosion ayant pris naissance à l'intérieur d'eux-mêmes, ou par la conséquence d'un fonctionnement électrique anormal ou de la chute de la foudre ou de l'influence de l'électricité atmosphérique",
+        "les frais de recharge des extincteurs utilisés pour lutter contre l'incendie",
+        "les dommages matériels* directs occasionnés au véhicule* assuré lors d'une émeute ou d'un mouvement populaire",
+        "les dommages matériels* directs causés au véhicule* par un incendie ou une explosion consécutive à un acte de vandalisme ou de malveillance",
+        "la réparation des dommages matériels* directs, y compris les frais de décontamination, et la réparation des dommages immatériels consécutifs* à ces dommages occasionnés au véhicule* assuré lors d'un attentat ou d'un acte de terrorisme (défini par les articles 421-1 et 421-2 du Code pénal) subis sur le territoire national dans les limites de franchise* et de plafond fixées au contrat au titre de la garantie Incendie"
+      ],
+      "deductible": "Franchise* indiquée aux conditions particulières",
+      "conditions": [],
+      "page": 23
+    },
+    {
+      "name": "La garantie Vol (article 6)",
+      "description": "Le vol total du véhicule* : la disparition du véhicule* assuré par soustraction frauduleuse (article 311-1 du Code pénal) ; menace ou violence à l'encontre de toute personne ; obtention du véhicule* par paiement avec un chèque volé ou un faux chèque de banque ; effraction ou escalade d'un garage privatif, clos et fermé à clé ; vol des clés du véhicule* assuré dans un local ou un bâtiment clos et fermé à clé. La tentative de vol du véhicule* : les dommages résultant de la détérioration du véhicule* assuré à la suite d'une tentative de vol caractérisée par le forcement de la direction, détérioration du système électronique résultant d'une effraction électronique, détérioration des contacts électriques permettant la mise en route ou de tout système de protection antivol en phase de fonctionnement. Le vol d'éléments du véhicule* : le vol d'éléments extérieurs au véhicule* assuré, partie intégrante de ce véhicule* ; le vol d'éléments intérieurs au véhicule* par effraction c'est-à-dire forcement des portières, du coffre, du toit ouvrant ou bris de vitre. Le vol ou la perte des clés du véhicule* : les frais légitimement engagés pour le remplacement à l'identique des systèmes de fermeture et de protection antivol du véhicule*.",
+      "is_optional": true,
+      "territorial_scope": "Sous réserve des dispositions spécifiques concernant la garantie Dépannage, levage, remorquage (article 12), vous bénéficiez des garanties de ce contrat : en France métropolitaine ; dans les autres pays de l'Union européenne (Allemagne, Autriche, Belgique, Bulgarie, Chypre, Danemark, Espagne, Estonie, Finlande, Grèce, Hongrie, Irlande, Italie, Lettonie, Lituanie, Luxembourg, Malte, Pays Bas, Pologne, Portugal, Suède, Roumanie, Slovaquie, Slovénie, Tchéquie) ainsi qu'en Suisse et dans les états du Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein et Royaume-Uni ; dans les autres pays mentionnés au recto de la carte verte et dont le sigle n'a pas été rayé.",
+      "limits": "En cas de perte totale* : Prix d'acquisition* du véhicule* HT pendant les 6 mois suivant la date d'achat du véhicule neuf* ; au-delà, valeur de remplacement* estimée par l'expert au jour du sinistre*, sans excéder le montant indiqué, le cas échéant, dans les conditions particulières. En cas de dommages partiels : coût des réparations ou de remplacement des pièces détériorées dans la limite de la valeur de remplacement* estimée par l'expert. Dommages électriques : la garantie s'exerce dans la limite du montant indiqué aux conditions particulières.",
+      "sub_limits": [
+        "Si le véhicule* est retrouvé : les détériorations du véhicule* assuré ; les frais engagés, avec notre accord, pour la récupération du véhicule*, sans excéder le montant indiqué aux conditions particulières."
+      ],
+      "deductible": "Franchise* indiquée aux conditions particulières",
+      "conditions": [
+        "Mesures de protection vis-à-vis de tous les véhicules garantis contre le vol : il vous appartient de mettre en œuvre les systèmes de sécurité suivants équipant votre véhicule*, quelle que soit la durée d'immobilisation de ce dernier : fermer les vitres et lunette de toit ouvrant ; verrouiller les portières, coffre et capot ; bloquer la colonne de direction. Si à l'occasion d'un sinistre* nous constatons que ces mesures n'ont pas été mises en œuvre, l'indemnité due au titre de la garantie Vol sera réduite de 30 %.",
+        "Si le vol survient lors d'une tournée ou d'une livraison (régulière ou ponctuelle) alors que vous aviez laissé le véhicule* moteur tournant ou les clés ou la carte/badge de démarrage à l'intérieur de celui-ci (moteur à l'arrêt), l'indemnité due au titre de la garantie Vol sera réduite de 50 %, y compris si vous étiez à l'arrière ou à proximité du véhicule* au moment du sinistre*."
+      ],
+      "page": 24
+    },
+    {
+      "name": "La garantie Bris de glace (article 7)",
+      "description": "Le remboursement des frais réellement engagés, dans la limite indiquée au tableau des garanties, pour la réparation ou le remplacement à l'identique, à la suite d'un bris accidentel. Pour les véhicules* à quatre roues : du pare-brise ; des glaces latérales ; de la lunette arrière ; des optiques de phare ; des phares anti-brouillard ; de la lunette du toit ouvrant. Pour les véhicules* à deux roues : des optiques de phare.",
+      "is_optional": true,
+      "territorial_scope": "Sous réserve des dispositions spécifiques concernant la garantie Dépannage, levage, remorquage (article 12), vous bénéficiez des garanties de ce contrat : en France métropolitaine ; dans les autres pays de l'Union européenne (Allemagne, Autriche, Belgique, Bulgarie, Chypre, Danemark, Espagne, Estonie, Finlande, Grèce, Hongrie, Irlande, Italie, Lettonie, Lituanie, Luxembourg, Malte, Pays Bas, Pologne, Portugal, Suède, Roumanie, Slovaquie, Slovénie, Tchéquie) ainsi qu'en Suisse et dans les états du Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein et Royaume-Uni ; dans les autres pays mentionnés au recto de la carte verte et dont le sigle n'a pas été rayé.",
+      "limits": "Coût des réparations du pare-brise ou coût de remplacement à l'identique, sans excéder le montant indiqué, le cas échéant, dans les conditions particulières.",
+      "sub_limits": [],
+      "deductible": "Franchise* indiquée aux conditions particulières",
+      "conditions": [],
+      "page": 25
+    },
+    {
+      "name": "La garantie Bris de glace + (article 8)",
+      "description": "Outre les dommages couverts par la garantie Bris de glace, le remboursement des frais réellement engagés, dans la limite indiquée au tableau des garanties, pour la réparation ou le remplacement à l'identique, à la suite d'un bris accidentel. Pour les véhicules* à quatre roues : des feux arrières ; des rétroviseurs extérieurs ; des clignotants latéraux ; des antéviseurs. Pour les véhicules* à deux roues : de la bulle de carénage ; du pare-brise des side-cars.",
+      "is_optional": true,
+      "territorial_scope": "Sous réserve des dispositions spécifiques concernant la garantie Dépannage, levage, remorquage (article 12), vous bénéficiez des garanties de ce contrat : en France métropolitaine ; dans les autres pays de l'Union européenne (Allemagne, Autriche, Belgique, Bulgarie, Chypre, Danemark, Espagne, Estonie, Finlande, Grèce, Hongrie, Irlande, Italie, Lettonie, Lituanie, Luxembourg, Malte, Pays Bas, Pologne, Portugal, Suède, Roumanie, Slovaquie, Slovénie, Tchéquie) ainsi qu'en Suisse et dans les états du Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein et Royaume-Uni ; dans les autres pays mentionnés au recto de la carte verte et dont le sigle n'a pas été rayé.",
+      "limits": "Coût des réparations du pare-brise ou coût de remplacement à l'identique, sans excéder le montant indiqué, le cas échéant, dans les conditions particulières.",
+      "sub_limits": [],
+      "deductible": "Franchise* indiquée aux conditions particulières",
+      "conditions": [],
+      "page": 25
+    },
+    {
+      "name": "La garantie Forces de la nature (article 9)",
+      "description": "Les dommages causés au véhicule* assuré par : le vent soufflant en tempête ou par la grêle ; un glissement de terrain ; une inondation par débordement de cours d'eau naturel ou canalisé et par refoulement d'égout ; le poids de la neige.",
+      "is_optional": true,
+      "territorial_scope": "Sous réserve des dispositions spécifiques concernant la garantie Dépannage, levage, remorquage (article 12), vous bénéficiez des garanties de ce contrat : en France métropolitaine ; dans les autres pays de l'Union européenne (Allemagne, Autriche, Belgique, Bulgarie, Chypre, Danemark, Espagne, Estonie, Finlande, Grèce, Hongrie, Irlande, Italie, Lettonie, Lituanie, Luxembourg, Malte, Pays Bas, Pologne, Portugal, Suède, Roumanie, Slovaquie, Slovénie, Tchéquie) ainsi qu'en Suisse et dans les états du Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein et Royaume-Uni ; dans les autres pays mentionnés au recto de la carte verte et dont le sigle n'a pas été rayé.",
+      "limits": "En cas de perte totale* : Prix d'acquisition* du véhicule* HT pendant les 6 mois suivant la date d'achat du véhicule neuf* ; au-delà, valeur de remplacement* estimée par l'expert au jour du sinistre*, sans excéder le montant indiqué, le cas échéant, dans les conditions particulières. En cas de dommages partiels : coût des réparations ou de remplacement des pièces détériorées dans la limite de la valeur de remplacement* estimée par l'expert. Dommages électriques : la garantie s'exerce dans la limite du montant indiqué aux conditions particulières.",
+      "sub_limits": [],
+      "deductible": "Franchise* indiquée aux conditions particulières",
+      "conditions": [
+        "Les véhicules* assurés par la Macif sont, sur présentation d'une attestation de la mairie ou d'une coupure de presse, garantis selon les modalités applicables à la garantie Dommages par accident.",
+        "La preuve de l'existence de la tempête est apportée par une attestation de la station météorologique nationale la plus proche mentionnant qu'au moment du sinistre* le phénomène dommageable avait localement une intensité exceptionnelle."
+      ],
+      "page": 26
+    },
+    {
+      "name": "La garantie Catastrophes naturelles (article 10)",
+      "description": "Les dommages matériels* directs subis par le véhicule* assuré causés de façon déterminante par l'intensité anormale d'un élément naturel lorsque les mesures habituelles à prendre pour prévenir ces dommages n'ont pu empêcher leur survenance ou n'ont pu être prises. L'état de catastrophe naturelle doit être confirmé par un arrêté interministériel publié au Journal Officiel de la République française.",
+      "is_optional": true,
+      "territorial_scope": "Sous réserve des dispositions spécifiques concernant la garantie Dépannage, levage, remorquage (article 12), vous bénéficiez des garanties de ce contrat : en France métropolitaine ; dans les autres pays de l'Union européenne (Allemagne, Autriche, Belgique, Bulgarie, Chypre, Danemark, Espagne, Estonie, Finlande, Grèce, Hongrie, Irlande, Italie, Lettonie, Lituanie, Luxembourg, Malte, Pays Bas, Pologne, Portugal, Suède, Roumanie, Slovaquie, Slovénie, Tchéquie) ainsi qu'en Suisse et dans les états du Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein et Royaume-Uni ; dans les autres pays mentionnés au recto de la carte verte et dont le sigle n'a pas été rayé.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": "380 €(1) ou, pour les véhicules à usage professionnel, la franchise du contrat si elle supérieure. (1) Ce montant est fixé par arrêté ministériel. En cas de modification, le montant sera réputé modifié dès l'entrée en vigueur de l'arrêté.",
+      "conditions": [
+        "L'état de catastrophe naturelle doit être confirmé par un arrêté interministériel publié au Journal Officiel de la République française."
+      ],
+      "page": 26
+    },
+    {
+      "name": "La garantie Insolvabilité du tiers responsable (article 11)",
+      "description": "À la suite de dommages matériels* occasionnés au véhicule* assuré par un tiers* responsable formellement identifié mais non assuré et insolvable, nous vous rembourserons la part de franchise* restée à votre charge après intervention de notre part dans le cadre d'une garantie contractuelle (Dommages par accident, Actes de vandalisme, Vol, Incendie, Bris de glace et Bris de glace +).",
+      "is_optional": true,
+      "territorial_scope": "Sous réserve des dispositions spécifiques concernant la garantie Dépannage, levage, remorquage (article 12), vous bénéficiez des garanties de ce contrat : en France métropolitaine ; dans les autres pays de l'Union européenne (Allemagne, Autriche, Belgique, Bulgarie, Chypre, Danemark, Espagne, Estonie, Finlande, Grèce, Hongrie, Irlande, Italie, Lettonie, Lituanie, Luxembourg, Malte, Pays Bas, Pologne, Portugal, Suède, Roumanie, Slovaquie, Slovénie, Tchéquie) ainsi qu'en Suisse et dans les états du Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein et Royaume-Uni ; dans les autres pays mentionnés au recto de la carte verte et dont le sigle n'a pas été rayé.",
+      "limits": "la part de franchise* restée à votre charge après intervention de notre part dans le cadre d'une garantie contractuelle",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Tiers* responsable formellement identifié mais non assuré et insolvable"
+      ],
+      "page": 26
+    },
+    {
+      "name": "La garantie Dépannage, levage, remorquage (article 12)",
+      "description": "En cas de dommages subis par le véhicule* assuré à la suite d'un événement garanti* survenu en France métropolitaine : les frais de dépannage, de levage et de remorquage du véhicule* assuré jusqu'au garage qualifié le plus proche du lieu du sinistre* ; les frais d'enlèvement du véhicule* consécutifs au sinistre* ; les frais de gardiennage du véhicule*, à condition que l'assuré* justifie avoir pris toutes les mesures adéquates possibles pour en limiter la durée et le coût. En cas de mise en fourrière du véhicule* assuré, suite à un événement garanti*, les frais d'enlèvement et de garde, jusqu'à la date à laquelle vous avez connaissance du lieu de dépôt et les dommages éventuels subis par le véhicule* lors de la mise en fourrière.",
+      "is_optional": true,
+      "territorial_scope": "En France métropolitaine",
+      "limits": "Dans la limite du montant indiqué aux conditions particulières.",
+      "sub_limits": [],
+      "deductible": "Franchise* indiquée aux conditions particulières",
+      "conditions": [],
+      "page": 27
+    },
+    {
+      "name": "La garantie Bris de machine (article 13)",
+      "description": "Les biens garantis sont les équipements embarqués et spécifiques fixés sur le véhicule* assuré, et les engins mobiles garantis par le présent contrat, dans la mesure où ils sont utilisés dans le cadre de l'activité professionnelle de l'assuré*. Les dommages garantis sont les dommages matériels* résultant de causes internes (défaut de conception, de construction, de matière ; desserrage de pièces ; vibrations ; déréglage ou mauvais alignement ; tensions anormales ; défaut de graissage accidentel), de causes externes (accidents* dus à l'exploitation ; chute ou pénétration de corps étrangers ; défaillance des dispositifs de sécurité ; déréglage des instruments de contrôle ; maladresse ; négligence des préposés salariés ou du propriétaire ; malveillance des préposés salariés ou des tiers*), et d'incendie ou d'explosion internes (dommages d'incendie ou d'explosion pour autant que l'incendie ou l'explosion ait pris naissance à l'intérieur des biens garantis). Sont également couverts les frais de déplacement et de réinstallation, et les frais de retirement et de déblaiement du matériel hors d'usage.",
+      "is_optional": true,
+      "territorial_scope": "La garantie Bris de machine (article 13) est acquise uniquement dans les seuls pays cités dans les deux premiers alinéas : en France métropolitaine et dans les autres pays de l'Union européenne ainsi qu'en Suisse et dans les états du Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein et Royaume-Uni.",
+      "limits": "Dans la limite du montant indiqué aux conditions particulières.",
+      "sub_limits": [],
+      "deductible": "Franchise* indiquée aux conditions particulières",
+      "conditions": [
+        "Les matériels doivent être maintenus en état normal d'entretien et d'utilisation.",
+        "Les instructions d'utilisation, les révisions prévues par le constructeur doivent être respectées.",
+        "Les réparations nécessaires pour empêcher la survenance de tout dommage prévisible du fait des conditions d'exploitation doivent être réalisées."
+      ],
+      "page": 28
+    },
+    {
+      "name": "La garantie Indemnisation + (article 14)",
+      "description": "En cas de perte totale* du véhicule* assuré, du fait de dommages consécutifs à un événement garanti*, nous vous versons une indemnité complémentaire à celle de la garantie souscrite et mise en jeu par le sinistre*. Le montant de l'indemnité versée, dans la limite indiquée au tableau des garanties, varie selon que votre véhicule* fasse l'objet ou non, au moment du sinistre*, d'un financement ou d'une location.",
+      "is_optional": true,
+      "territorial_scope": "Sous réserve des dispositions spécifiques concernant la garantie Dépannage, levage, remorquage (article 12), vous bénéficiez des garanties de ce contrat : en France métropolitaine ; dans les autres pays de l'Union européenne (Allemagne, Autriche, Belgique, Bulgarie, Chypre, Danemark, Espagne, Estonie, Finlande, Grèce, Hongrie, Irlande, Italie, Lettonie, Lituanie, Luxembourg, Malte, Pays Bas, Pologne, Portugal, Suède, Roumanie, Slovaquie, Slovénie, Tchéquie) ainsi qu'en Suisse et dans les états du Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein et Royaume-Uni ; dans les autres pays mentionnés au recto de la carte verte et dont le sigle n'a pas été rayé.",
+      "limits": "50 % de la valeur de remplacement* estimée par l'expert au jour du sinistre* pour les véhicules* faisant l'objet d'une location longue durée ou d'une location financière.",
+      "sub_limits": [
+        "Vous êtes locataire du véhicule assuré (crédit bail/LOA, location longue durée ou location financière) au moment du sinistre : nous vous versons la différence éventuelle et positive entre le montant de l'encours financier* calculé par l'organisme de financement, et le montant de la valeur de remplacement*.",
+        "Vous êtes propriétaire et le véhicule ne fait plus/pas l'objet d'un crédit bancaire — date de 1re immatriculation de plus de 6 mois et jusqu'à 3 ans : la différence entre le prix d'acquisition* du véhicule* et sa valeur de remplacement*.",
+        "Vous êtes propriétaire et le véhicule ne fait plus/pas l'objet d'un crédit bancaire — plus de 3 ans et jusqu'à 5 ans : 30 % de l'indemnité versée au titre de la garantie dommage* mise en jeu par le sinistre*, dans la limite du prix d'acquisition* du véhicule*.",
+        "Vous êtes propriétaire et le véhicule ne fait plus/pas l'objet d'un crédit bancaire — plus de 5 ans : 40 % de l'indemnité versée au titre de la garantie dommage* mise en jeu par le sinistre*, dans la limite du prix d'acquisition* du véhicule*.",
+        "Pour les véhicules* dont le PTAC est supérieur à 3,5 t, l'indemnité cesse d'être versée au-delà de 8 ans.",
+        "Le véhicule fait toujours l'objet d'un crédit bancaire : nous vous versons l'indemnité la plus élevée entre d'une part celle prévue ci-dessus (en fonction de la date de 1re immatriculation*) et d'autre part celle correspondant à la différence entre l'encours financier* et la valeur de remplacement*."
+      ],
+      "deductible": "Franchise* indiquée aux conditions particulières",
+      "conditions": [],
+      "page": 30
+    },
+    {
+      "name": "La garantie Matériel professionnel et marchandises transportées (article 15)",
+      "description": "Les dommages matériels* directs subis par le matériel professionnel* et/ou les marchandises* transportées dans le véhicule* assuré : à la suite d'un évènement défini par les garanties suivantes (qu'elles soient souscrites ou non) : Dommages par accident, Actes de vandalisme, Incendie, Forces de la nature, Catastrophes naturelles ; à la suite d'un vol ou d'une tentative de vol consécutif à l'un des événements définis ci-dessus, à une agression, menaces et/ou un vol à main armée, au vol simultané du véhicule* et de son chargement, à une effraction du véhicule*, ou à une effraction ou à l'escalade du garage clos et fermé à clé dans lequel le véhicule* a été remisé ; à la suite d'un bris accidentel du châssis du véhicule*, d'un organe de roulement du véhicule* (y compris l'éclatement d'un pneumatique), ou d'un équipement du véhicule* nécessaire au chargement ou au déchargement des marchandises* et du matériel professionnel*. La garantie couvre également les frais de sauvetage des marchandises* dûment engagés, pour autant qu'ils aient un lien direct et justifié avec le sinistre* garanti.",
+      "is_optional": true,
+      "territorial_scope": "Sous réserve des dispositions spécifiques concernant la garantie Dépannage, levage, remorquage (article 12), vous bénéficiez des garanties de ce contrat : en France métropolitaine ; dans les autres pays de l'Union européenne (Allemagne, Autriche, Belgique, Bulgarie, Chypre, Danemark, Espagne, Estonie, Finlande, Grèce, Hongrie, Irlande, Italie, Lettonie, Lituanie, Luxembourg, Malte, Pays Bas, Pologne, Portugal, Suède, Roumanie, Slovaquie, Slovénie, Tchéquie) ainsi qu'en Suisse et dans les états du Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein et Royaume-Uni ; dans les autres pays mentionnés au recto de la carte verte et dont le sigle n'a pas été rayé.",
+      "limits": "Coût des réparations en cas de dommages partiels ; remboursement du matériel professionnel* et des marchandises* en cas de destruction totale ou de vol (vétusté* déduite). Dans tous les cas, l'indemnité ne pourra pas excéder le montant indiqué aux conditions particulières.",
+      "sub_limits": [
+        "Frais de sauvetage : 20 % du plafond de la garantie. Montant inclus dans ce dernier."
+      ],
+      "deductible": "Franchise* indiquée aux conditions particulières",
+      "conditions": [
+        "Mesures de protection : afin de vous prémunir contre le vol du matériel professionnel* et/ou des marchandises*, vous devez respecter les mesures suivantes quelle que soit la durée et le lieu d'arrêt ou de stationnement du véhicule* : utiliser exclusivement un véhicule* équipé d'une carrosserie rigide (bâches de tout type exclues) ; ne pas susciter la convoitise (le matériel professionnel* et les marchandises* ne devront pas être visibles de l'extérieur du véhicule*) ; mettre en œuvre l'ensemble des dispositifs de sécurité et de protection équipant votre véhicule* (fermer les vitres et la lunette de toit ouvrant, verrouiller les portières, coffre et capot, couper le moteur, bloquer la colonne de direction, mettre en œuvre les dispositifs antivol). Si ces conditions ne sont pas remplies, la garantie sera exclue.",
+        "Durant les jours non travaillés, outre les conditions précitées, le véhicule* transportant le matériel professionnel* et/ou les marchandises* devra être stationné dans un garage clos et fermé à clé ou surveillé. À défaut, l'indemnité sera réduite de 30 %."
+      ],
+      "page": 31
+    },
+    {
+      "name": "La garantie Aménagements professionnels et peintures publicitaires (article 16)",
+      "description": "La disparition, la détérioration, ou la destruction des aménagements professionnels* et peintures publicitaires* du véhicule* assuré lors de la survenance d'un évènement garanti.",
+      "is_optional": true,
+      "territorial_scope": "Sous réserve des dispositions spécifiques concernant la garantie Dépannage, levage, remorquage (article 12), vous bénéficiez des garanties de ce contrat : en France métropolitaine ; dans les autres pays de l'Union européenne (Allemagne, Autriche, Belgique, Bulgarie, Chypre, Danemark, Espagne, Estonie, Finlande, Grèce, Hongrie, Irlande, Italie, Lettonie, Lituanie, Luxembourg, Malte, Pays Bas, Pologne, Portugal, Suède, Roumanie, Slovaquie, Slovénie, Tchéquie) ainsi qu'en Suisse et dans les états du Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein et Royaume-Uni ; dans les autres pays mentionnés au recto de la carte verte et dont le sigle n'a pas été rayé.",
+      "limits": "Coût des réparations en cas de dommages partiels ; remboursement des aménagements professionnels* et des peintures publicitaires* en cas de destruction totale ou de vol (vétusté* déduite). Dans tous les cas, l'indemnité ne pourra pas excéder le montant indiqué aux conditions particulières.",
+      "sub_limits": [],
+      "deductible": "Franchise* indiquée aux conditions particulières",
+      "conditions": [
+        "L'ensemble des mesures de prévention et de protection mentionnées au titre de la garantie Vol, ainsi que les conséquences qui leurs sont attachées en l'absence de respect ou de mise en œuvre sont applicables (réductions d'indemnité)."
+      ],
+      "page": 32
+    },
+    {
+      "name": "La garantie Contenu privé du véhicule (article 17)",
+      "description": "La disparition, la détérioration, ou la destruction du contenu privé du véhicule* lors de la survenance d'un évènement garanti*.",
+      "is_optional": true,
+      "territorial_scope": "Sous réserve des dispositions spécifiques concernant la garantie Dépannage, levage, remorquage (article 12), vous bénéficiez des garanties de ce contrat : en France métropolitaine ; dans les autres pays de l'Union européenne (Allemagne, Autriche, Belgique, Bulgarie, Chypre, Danemark, Espagne, Estonie, Finlande, Grèce, Hongrie, Irlande, Italie, Lettonie, Lituanie, Luxembourg, Malte, Pays Bas, Pologne, Portugal, Suède, Roumanie, Slovaquie, Slovénie, Tchéquie) ainsi qu'en Suisse et dans les états du Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein et Royaume-Uni ; dans les autres pays mentionnés au recto de la carte verte et dont le sigle n'a pas été rayé.",
+      "limits": "Coût des réparations en cas de dommages partiels ; remboursement du contenu privé* en cas de destruction totale ou de vol (vétusté* déduite). Dans tous les cas, l'indemnité ne pourra pas excéder le montant indiqué aux conditions particulières.",
+      "sub_limits": [
+        "Équipement du motard : remboursement déduction faite d'une vétusté* de 10 % par an avec un maximum de 50 % en cas de destruction totale ou de vol, dans la limite du montant indiqué aux conditions particulières."
+      ],
+      "deductible": "Franchise* indiquée aux conditions particulières",
+      "conditions": [
+        "L'ensemble des mesures de prévention et de protection mentionnées au titre des garanties Vol, ainsi que les sanctions qui leurs sont attachées en l'absence de respect ou de mise en œuvre sont applicables (réduction d'indemnité)."
+      ],
+      "page": 33
+    },
+    {
+      "name": "La garantie Corporelle du conducteur (article 18)",
+      "description": "Les conséquences de l'atteinte à l'intégrité corporelle du conducteur* autorisé à la suite d'un accident* de la circulation, d'un incendie ou d'un événement climatique subis par le véhicule* assuré et garanti par le contrat. En cas de blessures subies par l'assuré*, nous prenons en charge : les frais médicaux, paramédicaux (en lien direct avec les blessures consécutives au sinistre* garanti), chirurgicaux, d'hospitalisation et pharmaceutiques ; la perte, totale ou partielle, de gains professionnels actuels (jusqu'à la date de consolidation*) ; les souffrances endurées par la victime qu'elles soient d'ordre physique comme psychique et moral ; le déficit fonctionnel permanent à condition que le taux d'AIPP soit supérieur ou égal à 10 % ; le préjudice esthétique permanent ; le préjudice d'agrément ; les frais d'aménagement du véhicule* du conducteur* ; les frais de diagnostic et d'étude engagés pour adapter l'habitation principale de la victime. En cas de décès de l'assuré* : nous remboursons les frais d'obsèques engagés par le conjoint*, les ascendants directs ou les descendants directs de l'assuré* ; nous indemnisons la perte de revenus consécutive au décès subie par le conjoint* et les enfants de l'assuré* et/ou de son conjoint* (mineurs vivant sous le toit de l'assuré* ou pour lesquels il versait une pension alimentaire, ou âgés de moins de 25 ans, poursuivant des études et sans ressources propres) ; nous indemnisons le préjudice d'affection subi par le conjoint*, les enfants de l'assuré* et les enfants mineurs du conjoint* de l'assuré* vivant sous le même toit que l'assuré*. La garantie couvre également les dommages corporels* subis par l'assuré* lors de la montée ou de la descente du véhicule*, de sa participation à une action de dépannage, de réparation ou de mise en marche du véhicule* assuré, et de sa participation à l'approvisionnement en carburant du véhicule* (y compris rechargement des véhicules* électriques).",
+      "is_optional": true,
+      "territorial_scope": "Sous réserve des dispositions spécifiques concernant la garantie Dépannage, levage, remorquage (article 12), vous bénéficiez des garanties de ce contrat : en France métropolitaine ; dans les autres pays de l'Union européenne (Allemagne, Autriche, Belgique, Bulgarie, Chypre, Danemark, Espagne, Estonie, Finlande, Grèce, Hongrie, Irlande, Italie, Lettonie, Lituanie, Luxembourg, Malte, Pays Bas, Pologne, Portugal, Suède, Roumanie, Slovaquie, Slovénie, Tchéquie) ainsi qu'en Suisse et dans les états du Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein et Royaume-Uni ; dans les autres pays mentionnés au recto de la carte verte et dont le sigle n'a pas été rayé.",
+      "limits": "Dans la limite des montants indiqués aux conditions particulières. Le montant des indemnités que nous serons amenés à verser au titre de l'évènement (aggravation éventuelle incluse) ne peut en aucun cas dépasser le montant du plafond fixé dans les conditions particulières.",
+      "sub_limits": [
+        "Perte de gains professionnels actuels : l'indemnité est versée à compter du 10e jour d'arrêt et pour une durée d'un an maximum si le taux d'atteinte à l'intégrité physique et psychique (AIPP) est inférieur à 10 % ; du 1er jour d'arrêt si le taux d'AIPP est supérieur ou égal à 10 %.",
+        "Déficit fonctionnel permanent : à condition que le taux d'AIPP soit supérieur ou égal à 10 %.",
+        "Frais médicaux, frais d'aménagement du véhicule* et frais de diagnostic et d'étude pour adapter l'habitation principale : dans la limite du montant indiqué aux conditions particulières.",
+        "Les sommes versées au titre de l'accident* par les tiers payeurs, tels que définis à l'article 29 de la loi n° 85-677 du 5 juillet 1985, ainsi que par les employeurs, le fond de garantie français ou étranger, sont déduites des indemnités de même nature prévues par le présent contrat."
+      ],
+      "deductible": "Franchise* indiquée aux conditions particulières",
+      "conditions": [
+        "Chaque poste de préjudice est évalué individuellement sur la base de la nomenclature Dintilhac. Quelle que soit la durée de l'incapacité totale de travail, nous nous réservons le droit de faire examiner l'assuré* par un médecin-expert.",
+        "L'invalidité est mesurée par un taux d'AIPP fixé par le médecin expert en référence au dernier barème indicatif d'évaluation des taux d'AIPP en droit commun publié dans la revue \"Le concours médical\". En cas d'invalidité antérieure, le taux est déterminé par différence entre l'invalidité antérieure et l'invalidité postérieure à l'accident* garanti.",
+        "Avance sur recours : lorsque vous êtes victime d'un accident* garanti ouvrant droit à réparation par un tiers*, nous versons des indemnités équivalentes à titre d'avances sur la réparation attendue de ce tiers*. Nous sommes alors subrogés dans les droits de l'assuré* ou des bénéficiaires conformément à l'article L. 211-25 du Code des assurances. La récupération des sommes avancées a pour limite l'indemnité mise à la charge du tiers*.",
+        "Aggravation : l'aggravation susceptible d'ouvrir droit à un complément de réparation se caractérise par une évolution de l'état de l'assuré*, en relation directe et certaine avec l'accident*, de nature à modifier les conclusions médicales qui ont servi de base à l'indemnisation initiale. Lorsque le taux d'AIPP déjà indemnisé s'aggrave, la valeur du point à prendre en considération pour réparer le supplément d'incapacité est celle correspondant au taux global."
+      ],
+      "page": 34
+    },
+    {
+      "name": "La garantie Défense (article 19)",
+      "description": "Nous défendons l'assuré* devant toute juridiction en raison de poursuites ou réclamations susceptibles de mettre en jeu la garantie Responsabilité civile ainsi que la garantie Responsabilité civile fonctionnement de ce contrat ; nous prenons en charge les frais et honoraires d'un mandataire saisi avec notre accord en cas d'action judiciaire.",
+      "is_optional": true,
+      "territorial_scope": "Les garanties Défense, Recours (articles 19 et 20) ne sont pas acquises en Albanie, Bosnie-Herzégovine, Biélorussie, Fyrom, Moldavie, Serbie-Monténégro, Turquie, Ukraine et Russie.",
+      "limits": "À hauteur des montants prévus dans le tableau pages 38, dans la limite du plafond par sinistre* indiqué aux conditions particulières.",
+      "sub_limits": [],
+      "deductible": "Sans franchise*",
+      "conditions": [
+        "Dans le cadre de la garantie Défense, nous assumons la direction du procès et avons le libre exercice des voies de recours, sauf en ce qui concerne la défense pénale.",
+        "Libre choix du mandataire : pour toute action qui relève de la défense pénale découlant d'une responsabilité garantie au titre de ce contrat, l'assuré* a le libre choix de l'avocat. Si l'assuré* souhaite que la Macif lui propose le nom d'un avocat, il doit en faire la demande par écrit. Si l'assuré* est informé que la partie adverse est défendue par un avocat, nous devrons le faire assister ou le représenter dans les mêmes conditions."
+      ],
+      "page": 37
+    },
+    {
+      "name": "La garantie Recours (article 20)",
+      "description": "Nous informons l'assuré* sur l'étendue de ses droits quant à la réparation du préjudice qu'il a subi consécutivement à un événement garanti* par le contrat. Nous présentons une réclamation auprès d'un tiers* responsable en vue d'obtenir la réparation à l'amiable du préjudice subi par l'assuré* et consécutif à un événement garanti* par le contrat. Ce préjudice doit résulter des dommages matériels* subis par le véhicule* assuré et les objets qui y sont transportés, ou des dommages corporels* causés à l'assuré* et aux passagers. À défaut d'un accord amiable, lorsque le préjudice non indemnisé est supérieur à 400 euros, nous décidons avec l'assuré* si une action judiciaire doit être engagée. À l'amiable ou en judiciaire, nous prenons en charge les frais et honoraires correspondants dans la limite des plafonds d'intervention prévus par le contrat.",
+      "is_optional": true,
+      "territorial_scope": "Les garanties Défense, Recours (articles 19 et 20) ne sont pas acquises en Albanie, Bosnie-Herzégovine, Biélorussie, Fyrom, Moldavie, Serbie-Monténégro, Turquie, Ukraine et Russie.",
+      "limits": "À hauteur des montants prévus dans le tableau pages 38, dans la limite du plafond par sinistre* indiqué aux conditions particulières.",
+      "sub_limits": [
+        "Plafonds de remboursement TTC des frais et honoraires d'avocat par instance ou mesure sollicitée — Consultation juridique 300 € ; Assistance à une mesure d'instruction ou d'expertise matérielle / médicale 350 € ; Assistance à expertise judiciaire 400 € ; Rédaction d'un dire sans assistance à expertise judiciaire 250 € ; Déclaration de créance 250 € ; Juridiction statuant en référé (par ordonnance) 500 € ; Incidents d'instance et demandes incidentes 500 € ; Juge de l'exécution 500 € ; Honoraires de transaction (menée par un avocat avec protocole signé) 900 € ; CCI 400 € ; ONIAM 800 € ; CIVI / SARVI 700 € ; Honoraires d'intervention en phase amiable / démarches amiables sans transaction 500 € ; Autre juridiction non expressément prévue 600 €",
+        "Procédures civiles — Tribunal d'Instance 700 € ; Tribunal de Grande Instance 1 000 € ; Tribunal de Commerce 1 000 € ; Médiation civile 600 € ; 1er Président de la Cour d'Appel 600 € ; Appel d'une ordonnance de référé 600 € ; Cour d'Appel 1 200 € ; Cour de Cassation / consultation 2 000 € ; Cour de Cassation / Mémoire ampliatif après consultation 2 000 € ; Cour de Cassation / Défense ou mémoire ampliatif direct 3 000 €",
+        "Procédures administratives — Recours gracieux 600 € ; Tribunal administratif 1 000 € ; Cour administrative d'appel 1 200 € ; Conseil d'État 2 000 €",
+        "Procédures pénales — CIVI / SARVI 700 € ; Tribunal Correctionnel 1 000 € ; Tribunal pour enfants 1 000 € ; Tribunal de Police 700 € ; Médiation pénale 600 € ; Composition pénale, CRPC (reconnaissance préalable de culpabilité) 700 € ; Rédaction d'une plainte avec constitution de partie civile 300 € ; Mesure d'instruction pénale (confrontation, audition, démarches auprès du Parquet) 300 € ; Cour d'Assises (par affaire jugée) 4 500 €",
+        "Le montant total des remboursements par sinistre* est mentionné aux conditions particulières. Il comprend les frais de déplacement et de séjour, en cas de sinistre* à l'étranger. Ces montants s'appliquent dans les pays étrangers où les garanties Défense et Recours sont acquises vis-à-vis des juridictions locales de degré équivalent.",
+        "Seuil d'engagement d'une action judiciaire : préjudice non indemnisé supérieur à 400 euros"
+      ],
+      "deductible": "Sans franchise*",
+      "conditions": [
+        "Avance sur recours : nous vous faisons l'avance du montant des dommages matériels* subis par votre véhicule* dès lors que les trois conditions suivantes sont réunies : les dommages relèvent de la responsabilité (totale ou partielle) d'un tiers* identifié et assuré en France au titre de sa responsabilité civile automobile obligatoire ; la responsabilité du tiers* est établie (par constat amiable ou procès-verbal de police ou de gendarmerie) ; le sinistre* relève des conventions régissant les relations des assureurs entre eux. Le montant de l'avance tient compte de votre part de responsabilité.",
+        "Arbitrage : en cas de désaccord entre la Macif et l'assuré* sur les mesures à prendre, ce différend peut être soumis à l'appréciation d'une tierce personne désignée d'un commun accord par les parties ou à défaut, par le Président du Tribunal de grande instance statuant en référé. Les frais exposés pour la mise en œuvre de cette faculté sont à la charge de la Macif. Toutefois, le Président du tribunal saisi peut en décider autrement si l'assuré* a usé de cette faculté dans des conditions abusives. Si l'assuré* engage à ses frais une procédure contentieuse et obtient une solution plus favorable que celle proposée par la Macif ou la tierce personne arbitre, la Macif l'indemnise des frais de procédure dans la limite fixée au tableau figurant au point C.",
+        "Subrogation : dès lors que la Macif expose des frais externes, elle est susceptible de récupérer une partie ou la totalité des sommes qu'elle a déboursées pour le compte de l'assuré*. Si des frais et honoraires sont restés à la charge de l'assuré*, sous réserve qu'ils soient justifiés, la Macif s'engage à ce que l'assuré* soit dédommagé en priorité sur les sommes allouées au titre des articles précités, le solde, le cas échéant, revenant à la Macif."
+      ],
+      "page": 37
+    },
+    {
+      "name": "Apprentissage de la conduite (dispositions diverses)",
+      "description": "Les garanties souscrites pour le véhicule* assuré sont acquises lorsque celui-ci est utilisé par vous ou un de vos préposés en vue de l'apprentissage à la conduite dans le cadre des dispositifs suivants : apprentissage anticipé de la conduite ; conduite encadrée ; conduite supervisée.",
+      "is_optional": false,
+      "territorial_scope": "Sous réserve des dispositions spécifiques concernant la garantie Dépannage, levage, remorquage (article 12), vous bénéficiez des garanties de ce contrat : en France métropolitaine ; dans les autres pays de l'Union européenne (Allemagne, Autriche, Belgique, Bulgarie, Chypre, Danemark, Espagne, Estonie, Finlande, Grèce, Hongrie, Irlande, Italie, Lettonie, Lituanie, Luxembourg, Malte, Pays Bas, Pologne, Portugal, Suède, Roumanie, Slovaquie, Slovénie, Tchéquie) ainsi qu'en Suisse et dans les états du Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein et Royaume-Uni ; dans les autres pays mentionnés au recto de la carte verte et dont le sigle n'a pas été rayé.",
+      "limits": "Aucune franchise* spécifique, autre que celle mentionnée aux conditions particulières pour le véhicule*, ne sera appliquée en cas de sinistre* survenant au cours de l'apprentissage. Aucun complément de prime ne sera perçu.",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Vous devez nous informer, préalablement à leur commencement, de toute action de formation et nous communiquer l'identité de l'apprenti et de l'accompagnateur, et le véhicule* utilisé pour l'apprentissage.",
+        "Les garanties restent acquises uniquement si les conditions légales et réglementaires propres à chaque forme d'apprentissage sont respectées tout au long de la formation."
+      ],
+      "page": 62
+    },
+    {
+      "name": "Indisponibilité du véhicule — transfert des garanties au véhicule de remplacement",
+      "description": "En cas d'indisponibilité fortuite de votre véhicule*, nous accordons automatiquement les garanties de ce dernier (sauf garantie Indemnisation +) au véhicule* de remplacement, loué ou emprunté par le souscripteur* ou le propriétaire du véhicule* assuré.",
+      "is_optional": false,
+      "territorial_scope": "Sous réserve des dispositions spécifiques concernant la garantie Dépannage, levage, remorquage (article 12), vous bénéficiez des garanties de ce contrat : en France métropolitaine ; dans les autres pays de l'Union européenne (Allemagne, Autriche, Belgique, Bulgarie, Chypre, Danemark, Espagne, Estonie, Finlande, Grèce, Hongrie, Irlande, Italie, Lettonie, Lituanie, Luxembourg, Malte, Pays Bas, Pologne, Portugal, Suède, Roumanie, Slovaquie, Slovénie, Tchéquie) ainsi qu'en Suisse et dans les états du Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein et Royaume-Uni ; dans les autres pays mentionnés au recto de la carte verte et dont le sigle n'a pas été rayé.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "La garantie est acquise dès l'envoi à la Macif d'une demande écrite l'informant du remplacement et mentionnant, sous peine de réduction des indemnités*, les différences du véhicule* de remplacement par rapport à celui assuré.",
+        "La réintégration du véhicule* remplacé doit faire l'objet d'une demande préalable expresse.",
+        "La garantie Indemnisation + est exclue de ce transfert."
+      ],
+      "page": 63
+    },
+    {
+      "name": "Immatriculation étrangère — garantie temporaire",
+      "description": "Dans le cas où le véhicule* assuré, en provenance d'un pays membre de l'Union Européenne, est en instance d'immatriculation en France, il bénéficie des garanties mentionnées aux conditions particulières.",
+      "is_optional": false,
+      "territorial_scope": "Sous réserve des dispositions spécifiques concernant la garantie Dépannage, levage, remorquage (article 12), vous bénéficiez des garanties de ce contrat : en France métropolitaine ; dans les autres pays de l'Union européenne (Allemagne, Autriche, Belgique, Bulgarie, Chypre, Danemark, Espagne, Estonie, Finlande, Grèce, Hongrie, Irlande, Italie, Lettonie, Lituanie, Luxembourg, Malte, Pays Bas, Pologne, Portugal, Suède, Roumanie, Slovaquie, Slovénie, Tchéquie) ainsi qu'en Suisse et dans les états du Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein et Royaume-Uni ; dans les autres pays mentionnés au recto de la carte verte et dont le sigle n'a pas été rayé.",
+      "limits": "pendant une durée de 30 jours maximum, non renouvelable",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Ce délai court à compter de la prise de possession physique du véhicule* par vous-même.",
+        "À l'expiration de ce délai, vous devez nous communiquer l'immatriculation française du véhicule* pour que les garanties puissent être maintenues."
+      ],
+      "page": 63
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Dommages causés intentionnellement ou faute dolosive",
+      "description": "Les dommages causés intentionnellement par l'assuré* ou résultant de sa faute dolosive, à moins qu'ils n'aient été commis par une personne dont il est civilement responsable.",
+      "applies_to": "all",
+      "page": 43
+    },
+    {
+      "name": "Armes ou engins nucléaires et sources de rayonnements ionisants",
+      "description": "Les dommages ou l'aggravation des dommages causés par des armes ou engins destinés à exploser par modification de structure du noyau de l'atome ou par tout combustible nucléaire, produit ou déchet radioactif ou par toute autre source de rayonnements ionisants et qui engagent la responsabilité exclusive d'un exploitant d'installation nucléaire.",
+      "applies_to": "all",
+      "page": 43
+    },
+    {
+      "name": "Guerre étrangère ou civile",
+      "description": "Les dommages occasionnés par la guerre étrangère ou civile.",
+      "applies_to": "all",
+      "page": 43
+    },
+    {
+      "name": "Objets et marchandises transportées",
+      "description": "Les dommages causés aux objets et aux marchandises* transportées par le véhicule* assuré sauf si les garanties optionnelles Matériel professionnel et marchandises transportées (article 15), ainsi que Aménagements professionnels et peintures publicitaires (article 16), et Contenu privé du véhicule (article 17), ont été souscrites.",
+      "applies_to": "all",
+      "page": 43
+    },
+    {
+      "name": "Véhicule confié à des professionnels de l'automobile",
+      "description": "Les dommages causés ou subis par le véhicule* assuré lorsqu'il est confié, en raison de leurs fonctions, à des garagistes ou à des personnes pratiquant habituellement le courtage, la vente, la réparation, le dépannage ou le contrôle du bon fonctionnement des véhicules*, ainsi qu'à leurs préposés.",
+      "applies_to": "all",
+      "page": 43
+    },
+    {
+      "name": "Circulation ou stationnement sur des terrains, aéroports ou aérodromes",
+      "description": "Les dommages résultant de la circulation, de l'utilisation ou du stationnement du véhicule* assuré (y compris pour ravitaillement) sur des terrains, aéroports, aérodromes destinés à la circulation ou au stationnement de véhicules aériens.",
+      "applies_to": "all",
+      "page": 43
+    },
+    {
+      "name": "Conducteur sans l'âge requis ou sans permis en état de validité",
+      "description": "Les dommages survenus lorsque le conducteur* du véhicule* n'a pas l'âge requis ou ne peut justifier être titulaire des certificats (permis de conduire, licence de circulation) en état de validité (ni suspendus, ni périmés), exigés par la réglementation française pour la conduite du véhicule* assuré, même si le conducteur* prend une leçon de conduite ou est assisté d'une personne titulaire du permis régulier, sauf en cas d'apprentissage anticipé de la conduite dès lors que les conditions légales et réglementaires sont réunies et que nous en avons été préalablement informés. Toutefois, les garanties restent acquises à l'assuré* : si le maintien de la validité du permis de conduire ou de la licence de circulation est subordonné à une visite médicale périodique et ce, pendant un délai de deux mois après la date d'expiration normale du permis ou de la licence ; si le préposé ne respecte pas, à l'insu du souscripteur* ou du propriétaire du véhicule* assuré, les mentions portées sur son permis de conduire, notamment celles visant l'obligation du port de verres correcteurs ou d'appareils de prothèses ; en cas de conduite par un préposé dont le permis de conduire a fait l'objet, à l'insu du souscripteur*, d'une annulation, ou d'une suspension postérieurement à son embauche si les dommages surviennent dans un délai de deux mois à compter de la date du retrait ou de la rectification matérielle du permis ou de la licence. Lorsqu'elle est souscrite, la garantie Responsabilité civile reste également acquise en cas de vol, de violence ou d'utilisation du véhicule* à l'insu de l'assuré*, et si le certificat déclaré à l'assureur est sans validité pour des raisons de lieu de résidence de son titulaire ou si les conditions restrictives d'utilisation autres que celles relatives aux catégories de véhicules* portées sur celui-ci n'ont pas été respectées.",
+      "applies_to": "all",
+      "page": 43
+    },
+    {
+      "name": "Épreuves, courses ou compétitions soumises à autorisation préalable",
+      "description": "Les dommages survenus au cours d'épreuves, courses ou compétitions ou leurs essais soumis par la réglementation en vigueur à l'autorisation préalable des pouvoirs publics lorsque l'assuré* participe en tant que concurrent, organisateur ou préposé de l'un d'eux.",
+      "applies_to": "all",
+      "page": 44
+    },
+    {
+      "name": "Transport de sources de rayonnements ionisants",
+      "description": "Les dommages causés ou subis par le véhicule* assuré lorsqu'il transporte des sources de rayonnements ionisants destinées à être utilisées hors d'une installation nucléaire, dès lors que ces sources ont provoqué ou aggravé le sinistre*.",
+      "applies_to": "all",
+      "page": 44
+    },
+    {
+      "name": "Transport de matières inflammables, explosives, corrosives ou comburantes",
+      "description": "Les dommages causés ou subis par le véhicule* assuré lorsqu'il transporte des matières inflammables, explosives, corrosives ou comburantes, si ces dommages ont été occasionnés ou aggravés du fait desdites matières. Toutefois, il ne sera pas tenu compte, pour l'application de cette exclusion, des transports d'huiles, d'essences minérales ou de produits similaires ne dépassant pas 500 kg ou 600 litres, y compris la quantité de carburant liquide ou gazeux nécessaire à l'approvisionnement du moteur. Cette limite est portée à 1 200 litres pour les véhicules industriels. Les 3 dernières exclusions ne vous exonèrent pas de l'obligation d'assurance. À défaut, vous encourez les sanctions prévues à l'article L. 211-26 ainsi que la majoration mentionnée à l'article L. 211-27, 1er alinéa du Code des assurances.",
+      "applies_to": "all",
+      "page": 44
+    },
+    {
+      "name": "Cataclysmes naturels",
+      "description": "Les dommages occasionnés par des tremblements de terre, éruptions volcaniques, marées ou raz-de-marée, inondations, typhons, ouragans, tornades, cyclones et autres phénomènes naturels présentant le même caractère de cataclysme (sauf application de la garantie Catastrophes naturelles).",
+      "applies_to": "L'ensemble des garanties dommages",
+      "page": 44
+    },
+    {
+      "name": "Dommages aux pneumatiques",
+      "description": "Les dommages aux pneumatiques (sauf s'ils sont la conséquence d'un événement garanti* ayant occasionné d'autres dégâts au véhicule* assuré).",
+      "applies_to": "L'ensemble des garanties dommages",
+      "page": 44
+    },
+    {
+      "name": "Émeutes ou mouvements populaires",
+      "description": "Les dommages occasionnés par des émeutes ou mouvements populaires (sauf application de la garantie Incendie).",
+      "applies_to": "L'ensemble des garanties dommages",
+      "page": 44
+    },
+    {
+      "name": "Utilisation sur un circuit fermé ou de vitesse",
+      "description": "Les dommages subis par le véhicule* assuré lors de son utilisation sur un circuit fermé ou sur un circuit de vitesse.",
+      "applies_to": "L'ensemble des garanties dommages",
+      "page": 44
+    },
+    {
+      "name": "Chargement, déchargement ou manutention du véhicule",
+      "description": "Les dommages au véhicule* résultant directement ou indirectement d'opérations consistant soit à charger le véhicule* sur ou dans un autre moyen de transport, soit à l'en décharger, ou résultant d'opérations de manutention dudit véhicule* au moyen d'un engin.",
+      "applies_to": "L'ensemble des garanties dommages",
+      "page": 44
+    },
+    {
+      "name": "Véhicule transporté par voie fluviale, maritime, aérienne ou terrestre",
+      "description": "Les dommages causés au véhicule* assuré, lorsque celui-ci est transporté par voie fluviale, maritime, aérienne et terrestre, sauf en cas de perte totale* survenant au cours d'un transport effectué entre des pays où nous accordons ces garanties.",
+      "applies_to": "L'ensemble des garanties dommages",
+      "page": 44
+    },
+    {
+      "name": "Vétusté, vice propre ou défaut d'entretien",
+      "description": "Les dommages subis par le véhicule* et imputables exclusivement et directement à l'état de vétusté*, au vice propre ou au défaut d'entretien du véhicule* assuré.",
+      "applies_to": "L'ensemble des garanties dommages",
+      "page": 44
+    },
+    {
+      "name": "Utilisation anormale ou contraire aux prescriptions du constructeur",
+      "description": "Les dommages subis par le véhicule* et résultant d'une utilisation anormale ou contraire aux prescriptions du constructeur.",
+      "applies_to": "L'ensemble des garanties dommages",
+      "page": 44
+    },
+    {
+      "name": "Frais de constat",
+      "description": "Les frais de constat établi à la suite d'un accident*, soit par un huissier, soit par un expert, soit par toute autre personne ou autorité (sauf accord préalable et exprès de la Macif).",
+      "applies_to": "L'ensemble des garanties dommages",
+      "page": 45
+    },
+    {
+      "name": "Véhicule sous mesure administrative de retrait ou de suspension du certificat d'immatriculation",
+      "description": "Les dommages survenus lorsque le véhicule* faisait l'objet d'une mesure administrative de retrait ou de suspension du certificat d'immatriculation au moment du sinistre*.",
+      "applies_to": "L'ensemble des garanties dommages",
+      "page": 45
+    },
+    {
+      "name": "Modifications du véhicule sans réception",
+      "description": "Les dommages survenus alors que le véhicule* a subi des modifications n'ayant pas fait l'objet d'une réception conformément à l'art R. 321-16 du Code de la Route.",
+      "applies_to": "L'ensemble des garanties dommages",
+      "page": 45
+    },
+    {
+      "name": "Dommages subis par le conducteur du véhicule",
+      "description": "Les dommages engageant la responsabilité de l'assuré* et subis par le conducteur* du véhicule* (sauf si le conducteur* est élève d'une auto-école agréée, en cours de formation ou d'examen).",
+      "applies_to": "La garantie Responsabilité civile (article 1)",
+      "page": 17
+    },
+    {
+      "name": "Dommages subis par les auteurs, co-auteurs ou complices du vol",
+      "description": "Les dommages subis par les auteurs, co-auteurs ou complices du vol du véhicule* assuré.",
+      "applies_to": "La garantie Responsabilité civile (article 1)",
+      "page": 17
+    },
+    {
+      "name": "Dommages aux parties privatives, choses ou animaux loués ou confiés au conducteur",
+      "description": "Les dommages autres que ceux d'incendie ou d'explosion causés par le véhicule* assuré aux parties privatives des immeubles, aux choses ou aux animaux dès lors que ces biens sont loués ou confiés au conducteur* à quelque titre que ce soit.",
+      "applies_to": "La garantie Responsabilité civile (article 1)",
+      "page": 17
+    },
+    {
+      "name": "Dommages subis par un salarié à l'occasion d'un accident du travail",
+      "description": "Les dommages engageant la responsabilité de l'assuré* et subis par une personne salariée ou travaillant pour un employeur, à l'occasion d'un accident du travail. Toutefois, cette exclusion ne s'applique pas à la réparation complémentaire, prévue à l'article L. 455-1-1 du Code de la Sécurité sociale, pour les dommages consécutifs à un accident défini à l'article L. 411-1 du même code, subis par une personne salariée ou travaillant pour un employeur et qui est victime d'un accident* dans lequel est impliqué un véhicule* assuré par le contrat conduit par cet employeur, un de ses préposés ou une personne appartenant à la même entreprise que la victime, et survenu sur une voie ouverte à la circulation publique.",
+      "applies_to": "La garantie Responsabilité civile (article 1)",
+      "page": 18
+    },
+    {
+      "name": "Cotisation supplémentaire pour risques exceptionnels",
+      "description": "La cotisation supplémentaire pour risques exceptionnels prévue par l'article L. 242-7 du Code de la Sécurité sociale, quel que soit le motif pour lequel elle vous est réclamée.",
+      "applies_to": "La garantie Responsabilité civile (article 1)",
+      "page": 18
+    },
+    {
+      "name": "Transport de passagers dans des conditions de sécurité insuffisantes",
+      "description": "Les dommages subis par les personnes transportées ne seront couverts par la garantie Responsabilité Civile que si le transport est effectué dans les conditions suffisantes de sécurité énoncées à la page 19 (emplacement et nombre de passagers selon le type de véhicule).",
+      "applies_to": "La garantie Responsabilité civile (article 1)",
+      "page": 19
+    },
+    {
+      "name": "Dommages causés aux véhicules assurés par le contrat, leurs aménagements et leur contenu",
+      "description": "Les dommages causés aux véhicules assurés par le contrat, leurs aménagements professionnels et leur contenu, qu'ils soient la propriété du souscripteur*, sous sa garde ou confiés en tant que locataire, dépositaire ou emprunteur.",
+      "applies_to": "La garantie Responsabilité civile fonctionnement (article 2)",
+      "page": 20
+    },
+    {
+      "name": "Dommages subis par les travaux et ouvrages exécutés par l'assuré",
+      "description": "Les dommages subis par les travaux, ouvrages ou parties d'ouvrages, exécutés par l'assuré* et ceux qui relèvent de l'application des articles 1792 à 1792-6 du Code civil, ainsi que les dommages de même nature à l'étranger.",
+      "applies_to": "La garantie Responsabilité civile fonctionnement (article 2)",
+      "page": 20
+    },
+    {
+      "name": "Effets d'un phénomène naturel ou d'une catastrophe naturelle",
+      "description": "Les dommages subis par le véhicule* assuré par les effets d'un phénomène naturel ou d'une catastrophe naturelle (ils relèvent des garanties Forces de la nature ou Catastrophes naturelles).",
+      "applies_to": "La garantie Dommages par accident (article 3)",
+      "page": 21
+    },
+    {
+      "name": "Dommages immatériels (Dommages par accident)",
+      "description": "Les dommages immatériels consécutifs* et non consécutifs*.",
+      "applies_to": "La garantie Dommages par accident (article 3)",
+      "page": 21
+    },
+    {
+      "name": "Dommages consécutifs à un vol ou une tentative de vol (Dommages par accident)",
+      "description": "Les dommages consécutifs à un vol ou à une tentative de vol du véhicule* (ils relèvent de la garantie Vol).",
+      "applies_to": "La garantie Dommages par accident (article 3)",
+      "page": 21
+    },
+    {
+      "name": "Immersion sans mesures élémentaires de sauvegarde",
+      "description": "Les dommages consécutifs à l'immersion du véhicule* dès lors que l'assuré* n'a pas pris les mesures élémentaires pour sauvegarder le véhicule* alors que les circonstances rendaient vraisemblables la survenance du sinistre* (exemple : enlever le véhicule* d'une zone inondable, ne pas traverser une étendue d'eau, etc.).",
+      "applies_to": "La garantie Dommages par accident (article 3)",
+      "page": 21
+    },
+    {
+      "name": "Délit de fuite ou tentative de délit de fuite",
+      "description": "Les dommages causés au véhicule* suite à un délit de fuite ou à une tentative de délit de fuite du conducteur* du véhicule* assuré. Cette exclusion ne s'applique pas si le conducteur* est le préposé de l'assuré* et que ce dernier n'est pas dans le véhicule*.",
+      "applies_to": "La garantie Dommages par accident (article 3)",
+      "page": 21
+    },
+    {
+      "name": "Dégradations causées par les passagers ou les animaux transportés",
+      "description": "Les dégradations causées au véhicule* par les passagers ou les animaux transportés (autres que les dommages mécaniques ou électriques subis par le véhicule* en stationnement et causés par un animal).",
+      "applies_to": "La garantie Dommages par accident (article 3)",
+      "page": 21
+    },
+    {
+      "name": "Pare-brises des autocars et autobus",
+      "description": "Les dommages causés aux pare-brises des autocars et autobus, sauf en cas de perte totale* du véhicule*.",
+      "applies_to": "La garantie Dommages par accident (article 3)",
+      "page": 21
+    },
+    {
+      "name": "Panne mécanique",
+      "description": "Les dommages résultant d'une panne mécanique c'est-à-dire d'un incident mécanique d'origine fortuite affectant le véhicule* assuré.",
+      "applies_to": "La garantie Dommages par accident (article 3)",
+      "page": 21
+    },
+    {
+      "name": "Garantie non acquise — alcool, stupéfiants, ivresse manifeste, refus de dépistage",
+      "description": "Cette garantie n'est pas acquise lorsqu'au moment du sinistre : le conducteur* du véhicule* se trouve sous l'empire d'un état alcoolique dont le seuil est fixé par l'article R. 234-1 du Code de la route, ou s'il est établi à l'occasion d'un accident*, qu'il a fait usage de substances ou plantes classées comme stupéfiants (articles L. 235-1 à L. 235-4 du Code de la route), (sauf s'il est prouvé que le sinistre* est sans relation avec cet état) ; le conducteur* du véhicule* se trouve en état d'ivresse manifeste constaté par les forces de l'ordre (article L. 234-1 du Code de la Route) ; le conducteur* refuse de se soumettre aux épreuves de dépistage d'alcoolémie ou d'usage de substances ou plantes classées comme stupéfiants pratiquées par les forces de l'ordre après l'accident*. Ces exclusions ne s'appliquent pas lorsque dans le cadre de l'activité professionnelle, le conducteur* est le préposé de l'assuré* et que ce dernier n'est pas dans le véhicule*. Ces dispositions s'appliquent également lorsque l'infraction a été constatée à l'étranger, conformément au droit du pays.",
+      "applies_to": "La garantie Dommages par accident (article 3)",
+      "page": 21
+    },
+    {
+      "name": "Dommages consécutifs à un vol ou une tentative de vol (Vandalisme)",
+      "description": "Les dommages consécutifs à un vol ou à une tentative de vol du véhicule* (ils relèvent de la garantie Vol).",
+      "applies_to": "La garantie Actes de vandalisme (article 4)",
+      "page": 22
+    },
+    {
+      "name": "Dommages consécutifs à un incendie ou une explosion (Vandalisme)",
+      "description": "Les dommages consécutifs à un incendie ou une explosion (ils relèvent de la garantie Incendie).",
+      "applies_to": "La garantie Actes de vandalisme (article 4)",
+      "page": 22
+    },
+    {
+      "name": "Vandalisme commis par un proche ou un préposé",
+      "description": "Les actes de vandalisme ou de malveillance commis directement par le conjoint* ou concubin de l'assuré*, par un membre de sa famille ou par l'un de ses préposés (ou avec leur complicité).",
+      "applies_to": "La garantie Actes de vandalisme (article 4)",
+      "page": 22
+    },
+    {
+      "name": "Dommages immatériels (Vandalisme)",
+      "description": "Les dommages immatériels consécutifs* et non consécutifs*.",
+      "applies_to": "La garantie Actes de vandalisme (article 4)",
+      "page": 22
+    },
+    {
+      "name": "Attentat, émeute ou mouvement populaire (Vandalisme)",
+      "description": "Les dommages subis lors d'un attentat, d'une émeute ou d'un mouvement populaire (ils relèvent de la garantie Incendie).",
+      "applies_to": "La garantie Actes de vandalisme (article 4)",
+      "page": 22
+    },
+    {
+      "name": "Incendie consécutif à un vol ou une tentative de vol",
+      "description": "Les dommages survenus lorsque l'incendie est consécutif à un vol ou une tentative de vol du véhicule* (ils relèvent de la garantie Vol).",
+      "applies_to": "La garantie Incendie (article 5)",
+      "page": 23
+    },
+    {
+      "name": "Incendie consécutif à un choc, versement ou renversement",
+      "description": "Les dommages survenus lorsque l'incendie est consécutif à un choc contre un corps fixe ou mobile ainsi qu'au versement ou renversement du véhicule* (ils relèvent de la garantie Dommages par accident).",
+      "applies_to": "La garantie Incendie (article 5)",
+      "page": 23
+    },
+    {
+      "name": "Brûlure causée par un fumeur",
+      "description": "Les dommages causés aux sièges et garnitures intérieures du véhicule* résultant d'une brûlure causée par un fumeur.",
+      "applies_to": "La garantie Incendie (article 5)",
+      "page": 23
+    },
+    {
+      "name": "Modification de l'installation électrique par un non professionnel",
+      "description": "Les dommages résultant de la modification par un non professionnel de l'installation électrique du véhicule*, sauf si celle-ci a été réalisée au sein d'un atelier de l'assuré* par un de ses préposés disposant des qualifications professionnelles requises.",
+      "applies_to": "La garantie Incendie (article 5)",
+      "page": 23
+    },
+    {
+      "name": "Dommages immatériels (Incendie)",
+      "description": "Les dommages immatériels consécutifs* et non consécutifs* (sauf les dommages immatériels consécutifs* en cas d'attentats et actes de terrorisme).",
+      "applies_to": "La garantie Incendie (article 5)",
+      "page": 23
+    },
+    {
+      "name": "Abus de confiance ou escroquerie",
+      "description": "La soustraction du véhicule* par abus de confiance (art 314-1 du Code pénal) ou par toute autre escroquerie (art 313-1 du Code Pénal) que celles garanties.",
+      "applies_to": "La garantie Vol (article 6)",
+      "page": 24
+    },
+    {
+      "name": "Vol commis par les préposés ou les proches de l'assuré",
+      "description": "Le vol commis directement ou avec leur complicité par les préposés de l'assuré* pendant leur service ou par les conjoint*, concubin, ascendants et descendants de l'assuré* ainsi que par des personnes habitant sous son toit.",
+      "applies_to": "La garantie Vol (article 6)",
+      "page": 24
+    },
+    {
+      "name": "Vol du carburant",
+      "description": "Le vol du carburant.",
+      "applies_to": "La garantie Vol (article 6)",
+      "page": 24
+    },
+    {
+      "name": "Dommages immatériels (Vol)",
+      "description": "Les dommages immatériels consécutifs* et non consécutifs*.",
+      "applies_to": "La garantie Vol (article 6)",
+      "page": 24
+    },
+    {
+      "name": "Toute autre pièce que celles énumérées, notamment les pavillons panoramiques",
+      "description": "Toute autre pièce, notamment les pavillons panoramiques ouvrants ou fixes (ils relèvent de la garantie Dommages par accident). Cette exclusion figure identiquement en regard de la garantie Bris de glace (article 7) et de la garantie Bris de glace + (article 8).",
+      "applies_to": "Les garanties Bris de glace (article 7) et Bris de glace + (article 8)",
+      "page": 25
+    },
+    {
+      "name": "Dommages immatériels (Bris de glace et Bris de glace +)",
+      "description": "Les dommages immatériels consécutifs* et non consécutifs*. Cette exclusion figure identiquement en regard de la garantie Bris de glace (article 7) et de la garantie Bris de glace + (article 8).",
+      "applies_to": "Les garanties Bris de glace (article 7) et Bris de glace + (article 8)",
+      "page": 25
+    },
+    {
+      "name": "Tremblement de terre ou autre cataclysme",
+      "description": "Les dommages subis par le véhicule* assuré lors d'un tremblement de terre ou autre cataclysme. Ils peuvent être garantis dans le cadre des catastrophes naturelles.",
+      "applies_to": "La garantie Forces de la nature (article 9)",
+      "page": 26
+    },
+    {
+      "name": "Dommages immatériels (Forces de la nature)",
+      "description": "Les dommages immatériels consécutifs* et non consécutifs*.",
+      "applies_to": "La garantie Forces de la nature (article 9)",
+      "page": 26
+    },
+    {
+      "name": "Dommages immatériels (Catastrophes naturelles)",
+      "description": "Les dommages immatériels consécutifs* et non consécutifs*.",
+      "applies_to": "La garantie Catastrophes naturelles (article 10)",
+      "page": 26
+    },
+    {
+      "name": "Marchandises transportées (Catastrophes naturelles)",
+      "description": "Les dommages subis par les marchandises* transportées.",
+      "applies_to": "La garantie Catastrophes naturelles (article 10)",
+      "page": 26
+    },
+    {
+      "name": "Exclusions opposables à la garantie Dépannage, levage, remorquage",
+      "description": "Sont opposables les exclusions communes à toutes les garanties figurant pages 41 à 43 et les exclusions spécifiques aux garanties Dommages par accident, Actes de vandalisme, Incendie, Vol, Bris de glace, Bris de glace +, Forces de la nature et Catastrophes naturelles.",
+      "applies_to": "La garantie Dépannage, levage, remorquage (article 12)",
+      "page": 27
+    },
+    {
+      "name": "Vice ou défaut connu de l'assuré",
+      "description": "Les dommages résultant d'un vice ou d'un défaut connus de l'assuré*.",
+      "applies_to": "La garantie Bris de machine (article 13)",
+      "page": 29
+    },
+    {
+      "name": "Dommages relevant des garanties légales ou contractuelles de tiers",
+      "description": "Les dommages relevant des garanties légales ou contractuelles dont l'assuré* pourrait se prévaloir auprès des constructeurs, vendeurs, monteurs, réparateurs ou bailleurs. Toutefois, pour autant qu'il s'agisse de dommages non exclus par ailleurs, le présent contrat produirait ses effets, dans la limite des garanties accordées, au cas où : les susvisés notifieraient à l'assuré* qu'ils déclinent leur responsabilité ; il y aurait une insuffisance des garanties légales ou contractuelles ; la Macif se réservant alors le droit, après règlement de l'indemnité, d'exercer un recours s'il y a lieu.",
+      "applies_to": "La garantie Bris de machine (article 13)",
+      "page": 29
+    },
+    {
+      "name": "Maintien ou remise en service d'un bien endommagé avant réparation complète",
+      "description": "Sauf accord exprès de la Macif : les dommages résultant du maintien ou de la remise en service d'un bien endommagé avant réparation complète et définitive ou avant que le fonctionnement régulier soit rétabli ; les frais exposés pour les réparations de fortune ou provisoires ainsi que les dommages en résultant.",
+      "applies_to": "La garantie Bris de machine (article 13)",
+      "page": 29
+    },
+    {
+      "name": "Montage, exploitation, modification, entretien ou réparation non conforme",
+      "description": "Les dommages occasionnés par un montage, une exploitation, une modification, un entretien ou une réparation non-conforme aux normes et prescriptions du constructeur, fournisseur, monteur ou qui, dans leur origine ou leur étendue, résultent de réserves formulées par le contrôleur, dans la mesure où l'assuré*, ou les mandataires sociaux de l'assuré* lorsqu'il s'agit d'une personne morale, avaient connaissance de ces manquements.",
+      "applies_to": "La garantie Bris de machine (article 13)",
+      "page": 29
+    },
+    {
+      "name": "Usure et effet prolongé de l'exploitation",
+      "description": "Les dommages d'usure ou ceux résultant de l'effet prolongé de l'exploitation (oxydation, corrosion, incrustation de rouille, encrassement, entartrement). Restent toutefois garantis les dommages matériels* non exclus par ailleurs atteignant des parties d'un bien assuré même si, dans leur origine ou leur étendue, ils résultent de l'usure d'une autre partie de ce même bien.",
+      "applies_to": "La garantie Bris de machine (article 13)",
+      "page": 29
+    },
+    {
+      "name": "Frais de maintenance, de perfectionnement et de mise en conformité",
+      "description": "Les frais exposés pour l'exécution des opérations suivantes : la maintenance (y compris la maintenance informatique), c'est-à-dire l'ensemble des actions permettant de maintenir ou de rétablir un bien dans un état spécifié ou en mesure d'assurer un service déterminé ; le perfectionnement, la mise au point, les modifications ainsi que les opérations visant à remédier à un vice propre ou à un défaut de fabrication ; la mise en conformité avec les prescriptions de textes légaux, réglementaires, ou normatifs.",
+      "applies_to": "La garantie Bris de machine (article 13)",
+      "page": 29
+    },
+    {
+      "name": "Dommages d'ordre esthétique",
+      "description": "Les dommages d'ordre esthétique.",
+      "applies_to": "La garantie Bris de machine (article 13)",
+      "page": 29
+    },
+    {
+      "name": "Organes montés sur un bien assuré pour agir sur la matière",
+      "description": "Les dommages atteignant les organes montés sur un bien assuré pour agir sur la matière.",
+      "applies_to": "La garantie Bris de machine (article 13)",
+      "page": 29
+    },
+    {
+      "name": "Produits, accessoires et fournitures consommables",
+      "description": "Les produits, accessoires et fournitures nécessaires au fonctionnement des biens assurés, qui se détruisent à l'usage ou qui ne peuvent plus être réutilisés dans l'état où ils se trouvent après usage.",
+      "applies_to": "La garantie Bris de machine (article 13)",
+      "page": 29
+    },
+    {
+      "name": "Pièces d'usure et fluides techniques",
+      "description": "Les pièces d'usure (parties interchangeables d'un bien assuré qui, par leur fonction, nécessitent un remplacement périodique) et les fluides techniques constitutifs d'un bien assuré sauf si : leur destruction ou leur détérioration est occasionnée par un dommage matériel* garanti atteignant d'autres parties du bien assuré ; bien que non endommagés, leur remplacement est nécessaire à la réparation de dommages garantis causés à d'autres parties du bien assuré.",
+      "applies_to": "La garantie Bris de machine (article 13)",
+      "page": 29
+    },
+    {
+      "name": "Parties non métalliques des biens assurés",
+      "description": "Les parties non métalliques des biens assurés sauf si leur destruction ou leur détérioration est occasionnée par un dommage matériel* garanti atteignant d'autres parties de ces biens.",
+      "applies_to": "La garantie Bris de machine (article 13)",
+      "page": 29
+    },
+    {
+      "name": "Prise en masse de produits contenus dans le matériel assuré",
+      "description": "Les dommages consécutifs à une prise en masse de produits contenus dans le matériel assuré. Toutefois, si la prise en masse résulte d'un dommage matériel* indemnisable, les dommages consécutifs à la prise de masse restent garantis.",
+      "applies_to": "La garantie Bris de machine (article 13)",
+      "page": 29
+    },
+    {
+      "name": "Matériels mis à la disposition du public ou détenus pour vente ou réparation",
+      "description": "Les dommages aux matériels mis à la disposition du public, ou détenus pour vente, démonstration, réparation ou entretien.",
+      "applies_to": "La garantie Bris de machine (article 13)",
+      "page": 29
+    },
+    {
+      "name": "Attaques logiques, virus informatiques, fraude ou détournement",
+      "description": "Les conséquences d'attaques logiques ou de virus informatiques, de fraude ou de détournement.",
+      "applies_to": "La garantie Bris de machine (article 13)",
+      "page": 29
+    },
+    {
+      "name": "Essais ou expérimentations",
+      "description": "Les dommages dus à des essais ou expérimentations autres que les vérifications habituelles de bon fonctionnement.",
+      "applies_to": "La garantie Bris de machine (article 13)",
+      "page": 29
+    },
+    {
+      "name": "Équipements et accessoires ne faisant pas corps avec les biens assurés",
+      "description": "Les dommages atteignant les équipements et accessoires de toute nature qui ne font pas corps avec les biens assurés.",
+      "applies_to": "La garantie Bris de machine (article 13)",
+      "page": 29
+    },
+    {
+      "name": "Matériels de plus de 10 ans",
+      "description": "Les dommages aux matériels de plus de 10 ans.",
+      "applies_to": "La garantie Bris de machine (article 13)",
+      "page": 29
+    },
+    {
+      "name": "Bris de machine affectant le véhicule porteur",
+      "description": "Les dommages de bris de machine affectant le véhicule* porteur des équipements objets de la garantie.",
+      "applies_to": "La garantie Bris de machine (article 13)",
+      "page": 29
+    },
+    {
+      "name": "Dommages immatériels (Bris de machine)",
+      "description": "Les dommages immatériels consécutifs* et non consécutifs*, notamment ceux résultant de privation de jouissance, chômage, ralentissement de la production ou perte d'exploitation, augmentation du coût de la production ou inexécution du contrat.",
+      "applies_to": "La garantie Bris de machine (article 13)",
+      "page": 29
+    },
+    {
+      "name": "Dommages de contamination",
+      "description": "Les dommages de contamination et les frais en résultant.",
+      "applies_to": "La garantie Bris de machine (article 13)",
+      "page": 29
+    },
+    {
+      "name": "Exclusions renvoyées applicables au Bris de machine",
+      "description": "Outre les exclusions communes à toutes les garanties figurant pages 41 à 43, s'appliquent les exclusions spécifiques énoncées aux articles 3, 4, 5, 6, 9, 10, 15 et 16 de ce contrat.",
+      "applies_to": "La garantie Bris de machine (article 13)",
+      "page": 29
+    },
+    {
+      "name": "Exclusions spécifiques renvoyées (Indemnisation +)",
+      "description": "Les exclusions spécifiques aux garanties Dommages par accident, Actes de vandalisme, Incendie, Vol, Forces de la nature, Catastrophes naturelles.",
+      "applies_to": "La garantie Indemnisation + (article 14)",
+      "page": 30
+    },
+    {
+      "name": "Véhicules en location courte ou moyenne durée",
+      "description": "Les véhicules* faisant l'objet d'une location courte ou moyenne durée (inférieure à 12 mois).",
+      "applies_to": "La garantie Indemnisation + (article 14)",
+      "page": 30
+    },
+    {
+      "name": "Transfert de la garantie Indemnisation + sur un véhicule loué ou prêté",
+      "description": "Le transfert de la garantie Indemnité + sur un véhicule* loué ou prêté et assuré au titre de ce contrat.",
+      "applies_to": "La garantie Indemnisation + (article 14)",
+      "page": 30
+    },
+    {
+      "name": "Exclusions renvoyées (Matériel professionnel et marchandises transportées)",
+      "description": "Outre les exclusions communes à toutes les garanties figurant pages 41 à 43 et les exclusions spécifiques aux garanties Dommages par accident, Actes de vandalisme, Incendie, Vol, Forces de la nature et Catastrophes naturelles.",
+      "applies_to": "La garantie Matériel professionnel et marchandises transportées (article 15)",
+      "page": 31
+    },
+    {
+      "name": "Transport à titre onéreux de marchandises",
+      "description": "Le transport à titre onéreux de marchandises*.",
+      "applies_to": "La garantie Matériel professionnel et marchandises transportées (article 15)",
+      "page": 31
+    },
+    {
+      "name": "Vols commis dans un véhicule bâché ou découvert (Matériel professionnel)",
+      "description": "Les vols commis dans un véhicule* bâché (hors véhicule* cabriolet) ou découvert (exemple : benne, véhicule* cabriolet décapoté).",
+      "applies_to": "La garantie Matériel professionnel et marchandises transportées (article 15)",
+      "page": 31
+    },
+    {
+      "name": "Vol isolé du matériel professionnel et/ou des marchandises",
+      "description": "Le vol isolé* du matériel professionnel* et/ou des marchandises* transportées sauf si ce vol a été commis dans un garage ou une remise, avec effraction, escalade ou usage de fausses clefs, tentatives de meurtre ou violences corporelles.",
+      "applies_to": "La garantie Matériel professionnel et marchandises transportées (article 15)",
+      "page": 31
+    },
+    {
+      "name": "Biens exclus du matériel professionnel et des marchandises",
+      "description": "Les animaux, tabacs, téléphonie portable et ses accessoires (sauf s'ils constituent le matériel professionnel*), valeurs, peintures, tableaux, pierres et métaux précieux, titres, fonds, espèces, cartes de paiement ainsi que bijoux, fourrures, articles et vêtements de haute couture, objets d'art, antiquités, collections de toutes natures.",
+      "applies_to": "La garantie Matériel professionnel et marchandises transportées (article 15)",
+      "page": 31
+    },
+    {
+      "name": "Saisies, confiscations, contrebande, commerce prohibé ou clandestin (Matériel professionnel)",
+      "description": "Les dommages occasionnés par les saisies, confiscations et, plus généralement, toutes conséquences d'un acte de contrebande, de commerce prohibé ou clandestin effectué par l'assuré*.",
+      "applies_to": "La garantie Matériel professionnel et marchandises transportées (article 15)",
+      "page": 31
+    },
+    {
+      "name": "Matériel professionnel et marchandises des deux-roues et des engins de chantier",
+      "description": "Le matériel professionnel* et les marchandises* transportées des deux-roues ainsi que des engins de chantier et de manutention.",
+      "applies_to": "La garantie Matériel professionnel et marchandises transportées (article 15)",
+      "page": 31
+    },
+    {
+      "name": "Chargement excédant le gabarit réglementaire ou la charge utile",
+      "description": "Ne sont pas garantis les dommages occasionnés aux marchandises* dès lors que le chargement excède le gabarit réglementaire ou que son poids dépasse de 20% la charge utile mentionnée sur la carte grise du véhicule*.",
+      "applies_to": "La garantie Matériel professionnel et marchandises transportées (article 15)",
+      "page": 31
+    },
+    {
+      "name": "Absence, insuffisance ou mauvais emballage des marchandises",
+      "description": "Ne sont pas garantis les dommages occasionnés aux marchandises* du fait de l'absence, de l'insuffisance, de l'inadéquation ou du mauvais emballage ou conditionnement des marchandises*.",
+      "applies_to": "La garantie Matériel professionnel et marchandises transportées (article 15)",
+      "page": 31
+    },
+    {
+      "name": "Retards de livraison, différence de cours, obstacles à l'opération commerciale",
+      "description": "Ne sont pas garantis les dommages occasionnés aux marchandises* par les retards dans la livraison des marchandises*, différence de cours, obstacles apportés à l'opération commerciale, quelle que soit la cause.",
+      "applies_to": "La garantie Matériel professionnel et marchandises transportées (article 15)",
+      "page": 31
+    },
+    {
+      "name": "Action de la température ou défaillance des appareils frigorifiques (Marchandises)",
+      "description": "Ne sont pas garantis les dommages occasionnés aux marchandises* par l'action de la température, par l'absence ou le mauvais fonctionnement des appareils frigorifiques ou d'aération.",
+      "applies_to": "La garantie Matériel professionnel et marchandises transportées (article 15)",
+      "page": 31
+    },
+    {
+      "name": "Vice propre des marchandises",
+      "description": "Ne sont pas garantis les dommages occasionnés aux marchandises* par leur vice propre.",
+      "applies_to": "La garantie Matériel professionnel et marchandises transportées (article 15)",
+      "page": 31
+    },
+    {
+      "name": "Exclusions renvoyées (Aménagements professionnels et peintures publicitaires)",
+      "description": "Outre les exclusions communes à toutes les garanties figurant pages 41 à 43 et les exclusions spécifiques aux garanties Dommages par accident, Actes de vandalisme, Incendie, Vol, Forces de la nature et Catastrophes naturelles.",
+      "applies_to": "La garantie Aménagements professionnels et peintures publicitaires (article 16)",
+      "page": 32
+    },
+    {
+      "name": "Vols commis dans un véhicule bâché ou découvert (Aménagements professionnels)",
+      "description": "Les vols commis dans un véhicule* bâché (sauf cabriolet) ou découvert (cabriolet décapoté inclus).",
+      "applies_to": "La garantie Aménagements professionnels et peintures publicitaires (article 16)",
+      "page": 32
+    },
+    {
+      "name": "Vol isolé des aménagements professionnels et des peintures publicitaires",
+      "description": "Le vol isolé* des aménagements professionnels*, et des peintures publicitaires*, sauf si ce vol a été commis dans un garage ou une remise, avec effraction, escalade ou usage de fausses clefs, tentatives de meurtre ou violences corporelles.",
+      "applies_to": "La garantie Aménagements professionnels et peintures publicitaires (article 16)",
+      "page": 32
+    },
+    {
+      "name": "Saisies, confiscations, contrebande (Aménagements professionnels)",
+      "description": "Ne sont pas garantis les dommages occasionnés aux aménagements professionnels* et peintures publicitaires* par les saisies, confiscations et, plus généralement, toutes conséquences d'un acte de contrebande, de commerce prohibé ou clandestin effectué par l'assuré*.",
+      "applies_to": "La garantie Aménagements professionnels et peintures publicitaires (article 16)",
+      "page": 32
+    },
+    {
+      "name": "Action de la température ou défaillance des appareils frigorifiques (Aménagements professionnels)",
+      "description": "Ne sont pas garantis les dommages occasionnés aux aménagements professionnels* et peintures publicitaires* par l'action de la température, par l'absence ou le mauvais fonctionnement des appareils frigorifiques ou d'aération.",
+      "applies_to": "La garantie Aménagements professionnels et peintures publicitaires (article 16)",
+      "page": 32
+    },
+    {
+      "name": "Vice propre des aménagements professionnels et peintures publicitaires",
+      "description": "Ne sont pas garantis les dommages occasionnés aux aménagements professionnels* et peintures publicitaires* par leur vice propre.",
+      "applies_to": "La garantie Aménagements professionnels et peintures publicitaires (article 16)",
+      "page": 32
+    },
+    {
+      "name": "Exclusions renvoyées (Contenu privé du véhicule)",
+      "description": "Outre les exclusions communes à toutes les garanties figurant pages 41 à 43 et les exclusions spécifiques aux garanties Dommages par accident, Actes de vandalisme, Incendie, Vol, Forces de la nature et Catastrophes naturelles.",
+      "applies_to": "La garantie Contenu privé du véhicule (article 17)",
+      "page": 33
+    },
+    {
+      "name": "Vols commis dans un véhicule bâché ou découvert (Contenu privé)",
+      "description": "Les vols commis dans un véhicule* bâché (sauf cabriolet) ou découvert (y compris cabriolet décapoté).",
+      "applies_to": "La garantie Contenu privé du véhicule (article 17)",
+      "page": 33
+    },
+    {
+      "name": "Contenu privé des passagers transportés à titre onéreux",
+      "description": "Les dommages causés au contenu privé appartenant ou confié aux passagers dès lors qu'ils sont transportés en vertu d'un contrat de transport à titre onéreux (hors covoiturage).",
+      "applies_to": "La garantie Contenu privé du véhicule (article 17)",
+      "page": 33
+    },
+    {
+      "name": "Vol isolé du contenu privé d'un véhicule à 4 roues",
+      "description": "Le vol isolé* du contenu privé d'un véhicule* à 4 roues.",
+      "applies_to": "La garantie Contenu privé du véhicule (article 17)",
+      "page": 33
+    },
+    {
+      "name": "Vol isolé du contenu privé d'un véhicule à 2 roues",
+      "description": "Le vol isolé* du contenu privé d'un véhicule* à 2 roues, sauf si celui-ci est disposé dans un top-case, un coffre ou des sacoches rigides verrouillés et dérobé en même temps que ces derniers.",
+      "applies_to": "La garantie Contenu privé du véhicule (article 17)",
+      "page": 33
+    },
+    {
+      "name": "Contenu privé des engins de chantier et de manutention",
+      "description": "Le contenu privé des engins de chantier et de manutention.",
+      "applies_to": "La garantie Contenu privé du véhicule (article 17)",
+      "page": 33
+    },
+    {
+      "name": "Biens exclus du contenu privé",
+      "description": "Les animaux, valeurs, titres, fonds, espèces, cartes de paiement ainsi que les bijoux, fourrures, objets d'art, antiquités, collections de toutes natures.",
+      "applies_to": "La garantie Contenu privé du véhicule (article 17)",
+      "page": 33
+    },
+    {
+      "name": "Alcool, ivresse manifeste ou stupéfiants (Corporelle du conducteur)",
+      "description": "Les dommages subis par le conducteur* consécutifs à un accident* survenu alors que l'assuré* conduit un véhicule* terrestre à moteur sous l'empire d'un état alcoolique dont le seuil est fixé par l'article R. 234-1 du Code de la route ou était en état d'ivresse manifeste ou s'il est établi qu'il a fait usage de substances ou plantes classées comme stupéfiants (articles L. 235-1 et suivants et R. 235-1 et suivants du Code de la route). Toutefois, les exclusions ci-dessus ne sont pas opposables aux bénéficiaires en cas de décès du conducteur*.",
+      "applies_to": "La garantie Corporelle du conducteur (article 18)",
+      "page": 35
+    },
+    {
+      "name": "Participation à un délit intentionnel ou à un crime (Corporelle du conducteur)",
+      "description": "La participation de l'assuré* à un délit intentionnel ou à un crime, sauf cas de légitime défense. Toutefois, les exclusions ci-dessus ne sont pas opposables aux bénéficiaires en cas de décès du conducteur*.",
+      "applies_to": "La garantie Corporelle du conducteur (article 18)",
+      "page": 35
+    },
+    {
+      "name": "Refus de dépistage (Corporelle du conducteur)",
+      "description": "Les dommages subis par le conducteur* dès lors qu'il refuse de se soumettre aux épreuves de dépistage d'alcoolémie ou d'usage de substances ou plantes classées comme stupéfiants pratiquées par les forces de l'ordre après l'accident*. Toutefois, les exclusions ci-dessus ne sont pas opposables aux bénéficiaires en cas de décès du conducteur*.",
+      "applies_to": "La garantie Corporelle du conducteur (article 18)",
+      "page": 35
+    },
+    {
+      "name": "Acrobaties, tentatives de records, sports (Corporelle du conducteur)",
+      "description": "Les dommages consécutifs à la participation de l'assuré* avec le véhicule* assuré à des acrobaties, tentatives de records, sports.",
+      "applies_to": "La garantie Corporelle du conducteur (article 18)",
+      "page": 35
+    },
+    {
+      "name": "Tentative de suicide (Corporelle du conducteur)",
+      "description": "Les conséquences d'une tentative de suicide.",
+      "applies_to": "La garantie Corporelle du conducteur (article 18)",
+      "page": 35
+    },
+    {
+      "name": "Responsabilité professionnelle de l'assuré (Défense)",
+      "description": "Les conséquences de la responsabilité professionnelle de l'assuré*.",
+      "applies_to": "La garantie Défense (article 19)",
+      "page": 37
+    },
+    {
+      "name": "Amendes, pénalités et condamnations pénales",
+      "description": "Les amendes, pénalités de retard, astreintes, condamnations pénales et toutes peines de substitution.",
+      "applies_to": "La garantie Défense (article 19)",
+      "page": 37
+    },
+    {
+      "name": "Consignations pénales et cautions",
+      "description": "Les consignations pénales et les cautions.",
+      "applies_to": "La garantie Défense (article 19)",
+      "page": 37
+    },
+    {
+      "name": "Défense pénale pour délit de fuite",
+      "description": "La défense pénale pour délit de fuite.",
+      "applies_to": "La garantie Défense (article 19)",
+      "page": 37
+    },
+    {
+      "name": "Responsabilité professionnelle de l'assuré (Recours)",
+      "description": "Les conséquences de la responsabilité professionnelle de l'assuré*.",
+      "applies_to": "La garantie Recours (article 20)",
+      "page": 37
+    },
+    {
+      "name": "Recours exercés contre un autre assuré du contrat",
+      "description": "Les recours exercés contre toute personne ayant la qualité d'assuré* au titre des garanties Responsabilité civile et Responsabilité civile fonctionnement du présent contrat.",
+      "applies_to": "La garantie Recours (article 20)",
+      "page": 37
+    },
+    {
+      "name": "Frais engagés antérieurement à la déclaration",
+      "description": "Les frais et honoraires correspondant à des consultations ou des actes de procédure engagés antérieurement à votre déclaration, sauf si vous pouvez justifier d'une urgence à les avoir engagés. En ce cas, ces frais et honoraires seront pris en charge dans les limites fixées au présent contrat.",
+      "applies_to": "Les garanties Défense (article 19) et Recours (article 20)",
+      "page": 39
+    },
+    {
+      "name": "Sommes réglées dans le cadre d'une transaction amiable",
+      "description": "Les sommes réglées par vous ou toute personne bénéficiant des garanties Défense et Recours dans le cadre d'une transaction amiable.",
+      "applies_to": "Les garanties Défense (article 19) et Recours (article 20)",
+      "page": 39
+    },
+    {
+      "name": "Honoraires de résultat",
+      "description": "Les honoraires de résultat.",
+      "applies_to": "Les garanties Défense (article 19) et Recours (article 20)",
+      "page": 39
+    },
+    {
+      "name": "Défense-Recours — conducteur sans l'âge requis ou sans certificat valide",
+      "description": "Les garanties Défense et Recours ne sont pas acquises à l'égard du conducteur* du véhicule* assuré lorsque celui-ci au moment du sinistre* n'a pas l'âge requis ou n'est pas titulaire des certificats en état de validité exigés par la réglementation en vigueur pour la conduite du véhicule*, même s'il prend une leçon de conduite ou est assisté d'une personne titulaire du permis de conduire régulier. Toutefois, cette exclusion ne joue pas : en cas d'apprentissage anticipé de la conduite dès lors que les conditions légales et réglementaires sont réunies et que nous en avons été préalablement informés ; ou si le certificat déclaré à l'assureur est sans validité pour des raisons de lieu de résidence de son titulaire ou si les conditions restrictives d'utilisation autres que celles relatives aux catégories de véhicules* portées sur celui-ci n'ont pas été respectées.",
+      "applies_to": "Les garanties Défense (article 19) et Recours (article 20)",
+      "page": 39
+    },
+    {
+      "name": "Défense-Recours — alcool, ivresse manifeste ou stupéfiants",
+      "description": "Les garanties Défense et Recours ne sont pas acquises à l'égard du conducteur* du véhicule* assuré lorsque celui-ci au moment du sinistre* se trouvait sous l'empire d'un état alcoolique dont le seuil est fixé par l'article R. 234-1 du Code de la route ou s'il était en état d'ivresse manifeste ou s'il est établi à l'occasion de l'accident* qu'il a fait usage de substances ou plantes classées comme stupéfiants (articles L. 235-1 à L. 235-4 du Code de la route). Cette exclusion ne joue pas s'il est prouvé que le sinistre* est sans relation avec cet état.",
+      "applies_to": "Les garanties Défense (article 19) et Recours (article 20)",
+      "page": 39
+    },
+    {
+      "name": "Défense-Recours — refus de dépistage",
+      "description": "Les garanties Défense et Recours ne sont pas acquises lorsque le conducteur* refuse de se soumettre aux épreuves de dépistage d'alcoolémie ou d'usage de substances ou plantes classées comme stupéfiants pratiquées par les forces de l'ordre après l'accident*. Ces dispositions s'appliquent également lorsque l'infraction a été constatée à l'étranger conformément au droit du pays.",
+      "applies_to": "Les garanties Défense (article 19) et Recours (article 20)",
+      "page": 39
+    },
+    {
+      "name": "Défense-Recours — exclusion territoriale",
+      "description": "Les garanties Défense, Recours (articles 19 et 20) ne sont pas acquises en Albanie, Bosnie-Herzégovine, Biélorussie, Fyrom, Moldavie, Serbie-Monténégro, Turquie, Ukraine et Russie.",
+      "applies_to": "Les garanties Défense (article 19) et Recours (article 20)",
+      "page": 43
+    },
+    {
+      "name": "Bris de machine — restriction territoriale",
+      "description": "La garantie Bris de machine (article 13) est acquise uniquement dans les seuls pays cités dans les deux premiers alinéas (France métropolitaine et autres pays de l'Union européenne ainsi que Suisse, Vatican, Saint-Marin, Monaco, Andorre, Liechtenstein et Royaume-Uni).",
+      "applies_to": "La garantie Bris de machine (article 13)",
+      "page": 43
+    },
+    {
+      "name": "Vol — réduction de 30 % en cas de non-respect des mesures de sécurité",
+      "description": "Si à l'occasion d'un sinistre* nous constatons que les mesures de sécurité (fermer les vitres et lunette de toit ouvrant ; verrouiller les portières, coffre et capot ; bloquer la colonne de direction) n'ont pas été mises en œuvre, l'indemnité due au titre de la garantie Vol sera réduite de 30 %.",
+      "applies_to": "La garantie Vol (article 6)",
+      "page": 24
+    },
+    {
+      "name": "Vol — réduction de 50 % en cas de vol lors d'une tournée ou d'une livraison",
+      "description": "Si le vol survient lors d'une tournée ou d'une livraison (régulière ou ponctuelle) alors que vous aviez laissé le véhicule* moteur tournant ou les clés ou la carte/badge de démarrage à l'intérieur de celui-ci (moteur à l'arrêt), l'indemnité due au titre de la garantie Vol sera réduite de 50 %, y compris si vous étiez à l'arrière ou à proximité du véhicule* au moment du sinistre*.",
+      "applies_to": "La garantie Vol (article 6)",
+      "page": 25
+    },
+    {
+      "name": "Matériel professionnel et marchandises — garantie exclue si les mesures de protection ne sont pas remplies",
+      "description": "Si les mesures de protection énoncées à l'article 15 B ne sont pas remplies, la garantie sera exclue. Durant les jours non travaillés, outre les conditions précitées, le véhicule* transportant le matériel professionnel* et/ou les marchandises* devra être stationné dans un garage clos et fermé à clé ou surveillé. À défaut, l'indemnité sera réduite de 30 %.",
+      "applies_to": "La garantie Matériel professionnel et marchandises transportées (article 15)",
+      "page": 32
+    }
+  ],
+  "deductibles": {
+    "standard": "Franchise : c'est le montant déduit de l'indemnité et restant à la charge de l'assuré. Son montant est indiqué dans les conditions particulières.",
+    "variable": "Conducteur novice : une franchise* complémentaire égale à 1 200 €, proportionnellement au taux de responsabilité du conducteur* novice dans le sinistre*, viendra s'ajouter à la franchise* prévue aux conditions particulières.",
+    "per_coverage": {
+      "Responsabilité civile (article 1)": "Franchise* supportée par le souscripteur* si elle est indiquée dans les conditions particulières",
+      "Responsabilité civile fonctionnement (article 2)": "Franchise* indiquée aux conditions particulières",
+      "Dommages par accident (3), Actes de vandalisme (4), Incendie (5), Vol (6), Forces de la nature (9)": "Franchise* indiquée aux conditions particulières",
+      "Catastrophes naturelles (article 10)": "380 €(1) ou, pour les véhicules à usage professionnel, la franchise du contrat si elle supérieure. (1) Ce montant est fixé par arrêté ministériel. En cas de modification, le montant sera réputé modifié dès l'entrée en vigueur de l'arrêté.",
+      "Bris de glace (7) et Bris de glace + (8)": "Franchise* indiquée aux conditions particulières",
+      "Dépannage levage remorquage (article 12)": "Franchise* indiquée aux conditions particulières",
+      "Bris de machine (article 13)": "Franchise* indiquée aux conditions particulières",
+      "Indemnisation + (article 14)": "Franchise* indiquée aux conditions particulières",
+      "Matériel professionnel et marchandises transportées (article 15)": "Franchise* indiquée aux conditions particulières",
+      "Aménagements professionnels et peintures publicitaires (article 16)": "Franchise* indiquée aux conditions particulières",
+      "Contenu privé du véhicule (article 17)": "Franchise* indiquée aux conditions particulières",
+      "Garantie corporelle du conducteur (article 18)": "Franchise* indiquée aux conditions particulières",
+      "Défense (19) et Recours (20)": "Sans franchise*"
+    },
+    "page": 12
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Répondre exactement aux questions posées lors de la proposition d'assurance",
+      "description": "Vos déclarations constituent les bases de notre accord, ce qui signifie qu'elles doivent être aussi complètes et précises que possible. À la souscription du contrat, que vous répondiez exactement à toutes les questions posées lors de la proposition d'assurance. Vos réponses nous permettront d'identifier la nature du risque à assurer.",
+      "timing": "À la souscription du contrat",
+      "sanction": "Toute inexactitude intentionnelle ou non, toute omission peut entraîner, suivant le cas, la nullité du contrat* ou la réduction des indemnités* dues en cas de sinistre*.",
+      "page": 46
+    },
+    {
+      "name": "Déclarer l'introduction d'une nouvelle filiale ou le rachat d'une société",
+      "description": "Que vous nous déclariez immédiatement l'introduction d'une nouvelle filiale ou le rachat d'une société dont le parc doit être intégré au contrat.",
+      "timing": "À la souscription du contrat",
+      "sanction": null,
+      "page": 46
+    },
+    {
+      "name": "Déclarer dans les quinze jours les circonstances nouvelles et les changements",
+      "description": "En cours de contrat, que vous nous déclariez dans les quinze jours, à partir du moment où vous en avez eu connaissance, toutes les circonstances nouvelles, ainsi que tous les changements qui modifient les renseignements que vous nous avez fournis lors de la souscription et qui sont de nature à aggraver le risque assuré ou à en créer un nouveau. À titre d'exemple : toute transformation notable d'un véhicule* (la puissance, la cylindrée, ou la vitesse du véhicule* ; sa source d'énergie, aménagement ou transformation de la carrosserie, etc.) ; toute modification touchant au lieu et conditions de stationnement des véhicules* vis-à-vis desquels des prescriptions particulières sont mentionnées au contrat ; le changement d'usage des véhicules* ; la modification de la situation géographique du souscripteur* ; le changement ou la modification de votre activité ; l'évolution majeure de l'exploitation de votre activité ; toute modification de la forme juridique du souscripteur* ; toute création de filiale ainsi que tout rachat de société dont les véhicules* doivent être couverts par le contrat ou devant être amenée à utiliser les véhicules* assurés.",
+      "timing": "En cours de contrat, dans les quinze jours",
+      "sanction": "Toute inexactitude intentionnelle ou non, toute omission peut entraîner, suivant le cas, la nullité du contrat* ou la réduction des indemnités* dues en cas de sinistre*.",
+      "page": 46
+    },
+    {
+      "name": "Signaler l'emprunt ou la location d'un véhicule de remplacement",
+      "description": "Que vous nous signaliez en cas d'indisponibilité de votre véhicule*, l'emprunt ou la location d'un véhicule* de remplacement de façon à pouvoir bénéficier d'un transfert provisoire des mêmes garanties sur ce véhicule*, sauf pour la garantie Indemnisation + s'il s'agit d'un véhicule* prêté ou loué par un professionnel.",
+      "timing": "En cas d'indisponibilité du véhicule",
+      "sanction": "Sous peine de réduction des indemnités*.",
+      "page": 46
+    },
+    {
+      "name": "Informer immédiatement de la date de cession du véhicule",
+      "description": "Que vous nous informiez immédiatement de la date de cession de votre véhicule*. Les effets des garanties seront suspendus automatiquement à partir du lendemain à 0 heure du jour de la cession.",
+      "timing": "En cas de transfert de propriété du véhicule",
+      "sanction": "Les effets des garanties sont suspendus automatiquement à partir du lendemain à 0 heure du jour de la cession.",
+      "page": 46
+    },
+    {
+      "name": "Informer de toute modification de la composition du parc de véhicules",
+      "description": "Vous devez nous informer de toute modification touchant la composition du parc des véhicules* garantis. Le mode de gestion du parc et les conditions à respecter pour la déclaration des modifications sont mentionnés aux conditions particulières.",
+      "timing": "En cours de contrat",
+      "sanction": "Nous attirons votre attention sur le fait que le non respect de ces conditions peut entraîner l'absence de garantie du véhicule*.",
+      "page": 46
+    },
+    {
+      "name": "Déclarer le sinistre dans les cinq jours ouvrés (deux jours ouvrés en cas de vol)",
+      "description": "Nous déclarer le sinistre* immédiatement (ceci afin de sauvegarder au mieux vos droits) et au plus tard dans les cinq jours ouvrés. Dans le cas d'un vol, ce délai est ramené à deux jours ouvrés.",
+      "timing": "En cas de sinistre",
+      "sanction": "En cas de non-respect des délais pour la déclaration de sinistre*, et si cette omission ou ce retard nous a causé un préjudice, vous pouvez perdre le bénéfice des garanties de ce contrat pour ce sinistre*.",
+      "page": 48
+    },
+    {
+      "name": "Ne pas reconnaître sa responsabilité ni transiger avec les personnes lésées",
+      "description": "Ne pas reconnaître votre responsabilité ou transiger avec les personnes lésées ou leurs ayants droit. Nous avons seuls le droit, dans la limite de notre garantie, de transiger avec les personnes lésées. Aucune reconnaissance de responsabilité, aucune transaction, intervenue sans notre accord, ne nous est opposable. L'aveu de la matérialité d'un fait ne peut être assimilé à la reconnaissance d'une responsabilité.",
+      "timing": "En cas de dommages causés à un tiers",
+      "sanction": null,
+      "page": 48
+    },
+    {
+      "name": "Ne pas procéder à des réparations avant expertise",
+      "description": "Ne pas procéder ou faire procéder à des réparations avant expertise.",
+      "timing": "En cas de dommages subis par le véhicule assuré",
+      "sanction": null,
+      "page": 48
+    },
+    {
+      "name": "Déposer plainte en cas de vol, vandalisme, attentat ou émeute",
+      "description": "Prévenir immédiatement les autorités locales de police ou de gendarmerie et déposer plainte auprès de ces autorités ou du Procureur de la République ; nous adresser l'original du récépissé du dépôt de plainte ; nous informer de tout avis à plaignant ou de tout renseignement en rapport avec le déroulement de l'enquête ; prendre toute disposition, en cas de détérioration de votre véhicule* (bris de glace, de barillet...) pour sa sauvegarde.",
+      "timing": "En cas de vol / tentative de vol / acte de vandalisme / attentat / acte de terrorisme / émeute / mouvement populaire",
+      "sanction": null,
+      "page": 49
+    },
+    {
+      "name": "Aviser dans les huit jours si le véhicule volé est retrouvé",
+      "description": "Si le véhicule* volé a été retrouvé, vous devez nous aviser dans les huit jours, par lettre recommandée, du fait qu'une personne détient le véhicule* volé.",
+      "timing": "En cas de vol",
+      "sanction": null,
+      "page": 49
+    },
+    {
+      "name": "Déclarer un sinistre catastrophe naturelle dans les dix jours",
+      "description": "Nous déclarer tout sinistre* susceptible de faire jouer la garantie, dès que vous en avez connaissance et au plus tard dans les dix jours suivant la publication de l'arrêté interministériel constatant l'état de catastrophe naturelle.",
+      "timing": "En cas de catastrophe naturelle",
+      "sanction": null,
+      "page": 49
+    },
+    {
+      "name": "Déclarer les autres assurances couvrant le même risque",
+      "description": "Si vous êtes couvert pour les mêmes garanties auprès d'autres assureurs, vous devez nous en informer et nous indiquer leurs coordonnées et l'étendue des garanties. Vous pouvez obtenir l'indemnisation de vos dommages en vous adressant à l'assureur de votre choix.",
+      "timing": "En cas de sinistre",
+      "sanction": "Quand plusieurs assurances contre un même risque sont contractées de manière frauduleuse dans l'intention de nous tromper, nous pouvons invoquer la nullité du contrat* et demander des dommages et intérêts. À défaut de nous faire connaître leur existence dans le délai indiqué, nous pourrions vous appliquer la déchéance*.",
+      "page": 48
+    },
+    {
+      "name": "Payer la cotisation",
+      "description": "Votre cotisation est la contrepartie des garanties qui vous protègent. Elle est exigible en principe annuellement et d'avance à la date d'échéance*. Toutefois, un paiement fractionné peut vous être accordé.",
+      "timing": "Annuellement et d'avance à la date d'échéance",
+      "sanction": "À défaut de paiement d'une cotisation (ou d'une fraction de cotisation) dans les dix jours suivant son échéance et indépendamment de notre droit à poursuivre l'exécution du contrat en justice, nous sommes en droit de vous adresser, à votre dernier domicile connu, une lettre recommandée de mise en demeure qui entraînera (sauf si entre-temps la cotisation a été réglée) : la suspension de vos garanties trente jours après l'envoi de cette lettre ; la résiliation de votre contrat dix jours après la suspension. Lorsque la résiliation est la conséquence du non-paiement de vos cotisations, vous nous devez la part de cotisation jusqu'à la date de résiliation et une indemnité égale, au maximum, à la moitié de la dernière cotisation annuelle échue.",
+      "page": 47
+    },
+    {
+      "name": "Déclarer avec exactitude l'activité exercée et l'usage des véhicules",
+      "description": "Nous attirons tout particulièrement votre attention sur l'importance de vos déclarations concernant l'activité que vous exercez ainsi que l'utilisation précise faite de vos véhicules*, ceci autant au moment de la souscription du contrat qu'à l'occasion par exemple d'un changement d'activité en cours de contrat.",
+      "timing": "À la souscription et en cours de contrat",
+      "sanction": "Toute inexactitude aurait de lourdes conséquences (art L. 113-8 : nullité du contrat*, L. 113-9 réduction des indemnités* dues).",
+      "page": 61
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclarer le sinistre",
+      "description": "Nous déclarer le sinistre* immédiatement (ceci afin de sauvegarder au mieux vos droits) et au plus tard dans les cinq jours ouvrés. Dans le cas d'un vol, ce délai est ramené à deux jours ouvrés. Nous indiquer la date, l'heure et le lieu précis du sinistre*, les causes et circonstances ainsi que les conséquences matérielles ou corporelles de ce sinistre*, les coordonnées des personnes lésées, des témoins et du responsable éventuel. Nous préciser si les services de police ou de gendarmerie sont intervenus. Rédiger, si cela est possible, un constat amiable.",
+      "deadline": "Cinq jours ouvrés ; deux jours ouvrés en cas de vol",
+      "page": 48
+    },
+    {
+      "step": "Remplir le constat amiable",
+      "description": "Un constat amiable correctement rempli est une pièce essentielle pour le règlement rapide d'un accident* et la juste appréciation des droits respectifs de chacun. Seul le recto signé des deux parties a valeur de preuve. Il convient de : le remplir immédiatement après l'accident* ; être très attentif et très précis dans sa rédaction de façon à noter les circonstances exactes de l'accident* et cocher les cases correspondantes ; bien indiquer les coordonnées de l'autre conducteur, de son assureur et des témoins ; porter en observation ce qui n'a pu être évoqué ailleurs ; faire un croquis fidèle de l'accident* et de l'environnement ; indiquer précisément les dommages consécutifs à l'accident* ; le relire soigneusement avant signature par les deux parties ; indiquer avant séparation des feuillets le nombre de cases cochées.",
+      "deadline": "Immédiatement après l'accident",
+      "page": 48
+    },
+    {
+      "step": "En cas de dommages causés à un tiers",
+      "description": "Nous transmettre rapidement tous avis, lettres, convocations, assignations, tous actes et pièces de procédure qui vous seraient remis ou adressés. Ne pas reconnaître votre responsabilité ou transiger avec les personnes lésées ou leurs ayants droit.",
+      "deadline": null,
+      "page": 48
+    },
+    {
+      "step": "En cas de dommages subis par le véhicule assuré (y compris vol)",
+      "description": "Nous faire connaître l'endroit où les dommages pourront être constatés. En cas de destruction totale du véhicule*, nous fournir sa facture d'achat ou, s'il fait l'objet d'un crédit, d'un leasing, d'une location financière ou d'une location longue durée, la copie du contrat de financement ou de location. Ne pas procéder ou faire procéder à des réparations avant expertise.",
+      "deadline": null,
+      "page": 48
+    },
+    {
+      "step": "En cas de vol, vandalisme, attentat, émeute ou mouvement populaire",
+      "description": "Prévenir immédiatement les autorités locales de police ou de gendarmerie et déposer plainte. Nous adresser l'original du récépissé du dépôt de plainte. Nous informer de tout avis à plaignant ou de tout renseignement en rapport avec le déroulement de l'enquête. Prendre toute disposition, en cas de détérioration de votre véhicule*, pour sa sauvegarde. Si le véhicule* volé a été retrouvé : vous devez nous aviser dans les huit jours, par lettre recommandée. Si votre véhicule* est retrouvé avant le paiement de l'indemnité, vous en reprenez possession et nous vous indemniserons pour les détériorations et les frais de récupération engagés avec notre accord. Si votre véhicule* est retrouvé après le paiement de l'indemnité, nous devenons propriétaire du véhicule* récupéré ; toutefois, vous avez encore la possibilité d'en reprendre possession dans les trente jours où vous avez eu connaissance de cette récupération en remboursant l'indemnité perçue sous déduction des détériorations et des frais précités. S'il s'avère, à l'examen du véhicule retrouvé, que les mesures de protection exigées n'ont pas été mises en œuvre, l'indemnité sera réduite selon les modalités énoncées à l'article 6 et vous devrez nous rembourser le trop perçu.",
+      "deadline": "Aviser dans les huit jours si le véhicule est retrouvé ; trente jours pour reprendre possession après paiement de l'indemnité",
+      "page": 49
+    },
+    {
+      "step": "En cas de mise en jeu des garanties Défense et Recours",
+      "description": "Demander à votre avocat une convention d'honoraires (sauf cas d'urgence) que vous nous communiquerez. Nous fournir les factures détaillées des frais et honoraires acquittés.",
+      "deadline": null,
+      "page": 49
+    },
+    {
+      "step": "En cas de mise en jeu de la garantie Forces de la nature",
+      "description": "En cas de tempête ou de grêle, nous communiquer une attestation de la station de météorologie nationale la plus proche mentionnant qu'au moment du sinistre* le phénomène dommageable avait localement une intensité exceptionnelle. Dans les autres cas, nous fournir une attestation de la mairie ou une coupure de presse confirmant la survenance de l'évènement climatique au moment et au lieu du sinistre*.",
+      "deadline": null,
+      "page": 49
+    },
+    {
+      "step": "En cas de catastrophe naturelle",
+      "description": "Nous déclarer tout sinistre* susceptible de faire jouer la garantie, dès que vous en avez connaissance et au plus tard dans les dix jours suivant la publication de l'arrêté interministériel constatant l'état de catastrophe naturelle.",
+      "deadline": "Dix jours suivant la publication de l'arrêté interministériel",
+      "page": 49
+    },
+    {
+      "step": "En cas de mise en jeu des garanties Bris de glace et Bris de glace +",
+      "description": "Nous adresser la facture acquittée des travaux lorsque la réparation ou le remplacement des glaces aura été effectué.",
+      "deadline": null,
+      "page": 49
+    },
+    {
+      "step": "En cas de mise en jeu de la garantie Dépannage, levage, remorquage",
+      "description": "Nous fournir les factures justifiant les frais engagés.",
+      "deadline": null,
+      "page": 49
+    },
+    {
+      "step": "En cas de mise en jeu des garanties Matériel professionnel, Aménagements professionnels ou Contenu privé",
+      "description": "Nous fournir les factures d'achat ou tout autre justificatif attestant l'existence et l'importance de votre dommage.",
+      "deadline": null,
+      "page": 50
+    },
+    {
+      "step": "En cas de mise en jeu de la garantie Bris de machine",
+      "description": "Nous fournir la facture d'achat du matériel sinistré ainsi que les factures et/ou carnet d'entretien.",
+      "deadline": null,
+      "page": 50
+    },
+    {
+      "step": "En cas de dommages corporels subis par le conducteur",
+      "description": "Vous (en cas de décès, les bénéficiaires), devez nous faire parvenir le certificat médical initial ou le certificat de décès et nous communiquer les coordonnées des tiers payeurs (organismes de sécurité sociale et de prévoyance, employeur, assureurs, etc.) appelés à verser des prestations. Vous devez nous informer de l'évolution et des conditions des actions amiables ou judiciaires que vous auriez engagées envers la personne tenue à réparation ou son assureur.",
+      "deadline": null,
+      "page": 50
+    },
+    {
+      "step": "Ce que fait la Macif",
+      "description": "En cas de dommages causés à un tiers*, elle indemnise les personnes lésées, dans la limite de sa garantie et de la responsabilité de l'assuré*. En cas de dommages subis par le véhicule* assuré (hors bris de glace), dès qu'elle a connaissance du sinistre*, elle donne mission à un expert automobile d'évaluer les dommages du véhicule* ; à la réception de son évaluation, elle vous fait une offre de règlement (cette offre comprend la taxe à la valeur ajoutée (TVA) sauf si vous n'êtes pas amené à acquitter cette taxe ou si vous pouvez la récupérer). En cas de Bris de glace et Bris de glace +, elle vous verse l'intégralité des frais de réparation des glaces ou leur coût de remplacement, déduction faite de la franchise* si les conditions particulières en prévoient une. En cas de Dépannage levage remorquage, elle vous rembourse les frais légitimement engagés sur présentation des justificatifs.",
+      "deadline": null,
+      "page": 50
+    },
+    {
+      "step": "En cas de Catastrophes Naturelles — délai de règlement",
+      "description": "La Macif verse l'indemnité due au titre de la garantie dans un délai de trois mois à compter de la date de remise de l'état estimatif des biens endommagés ou de la date de publication de l'arrêté interministériel constatant l'état de catastrophe naturelle lorsque celle-ci est postérieure. À défaut et sauf cas fortuit ou de force majeure, l'indemnité est augmentée des intérêts, à compter de l'expiration de ce délai, au taux de l'intérêt légal.",
+      "deadline": "Trois mois",
+      "page": 50
+    },
+    {
+      "step": "Évaluation des dommages et expertise contradictoire",
+      "description": "Vos dommages seront évalués d'un commun accord à partir des documents que vous nous aurez fournis ou de l'estimation de l'expert. Si vous n'êtes pas d'accord avec la proposition d'indemnisation, vous désignerez votre propre expert qui procédera alors avec le nôtre à l'évaluation des dommages. À défaut d'accord entre eux, ils en désigneront un troisième, tous les trois opérant en commun à la majorité des voix. Dans la totale impossibilité de pouvoir procéder de la sorte, la nomination de ce troisième expert est faite par le Président du Tribunal de grande instance du lieu où le sinistre* s'est produit, ceci sur simple demande de la partie la plus diligente, quinze jours au moins après l'envoi à l'autre d'une lettre recommandée de mise en demeure avec accusé de réception. Chacune paie les frais et honoraires de son propre expert et s'il y a lieu la moitié de ceux du troisième et des frais de sa nomination. Toutefois, si vous obteniez entière satisfaction, nous nous engageons à vous rembourser ces frais et honoraires.",
+      "deadline": null,
+      "page": 50
+    },
+    {
+      "step": "Versement de l'indemnité",
+      "description": "Nous nous engageons à vous régler dans les quinze jours suivant soit l'accord amiable, soit la décision judiciaire exécutoire, sauf opposition de créanciers ou d'organismes financiers. Vous disposez du libre choix du réparateur pour procéder à la remise en état de votre véhicule* suite à un sinistre* garanti au titre du contrat.",
+      "deadline": "Quinze jours",
+      "page": 51
+    },
+    {
+      "step": "Réclamation et médiation",
+      "description": "En cas de désaccord entre vous et la MACIF à l'occasion de la gestion du présent contrat ou des règlements des sinistres, vous devez d'abord faire valoir votre réclamation auprès de votre conseiller, téléconseiller ou gestionnaire. Si cette démarche ne permet pas d'y mettre un terme, vous devez saisir le Service Qualité via notre site Internet www.macif.fr rubrique \"nous contacter\" ou par courrier à l'adresse MACIF - Réclamation - 79037 NIORT Cedex 9. Si ce désaccord devait persister, vous pouvez alors saisir la Médiation de l'assurance par courrier à l'adresse TSA 50110 - 75441 Paris Cedex 09 ou par internet sur www.mediation-assurance.org.",
+      "deadline": "Votre saisine de la Médiation doit intervenir dans un délai maximum d'un an à compter de cette dernière.",
+      "page": 51
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat est formé dès notre accord réciproque. Il prend effet à partir de la date indiquée dans les conditions particulières ; il en est de même pour toute modification du contrat. La durée du contrat ainsi que les conditions de son renouvellement sont mentionnées aux conditions particulières.",
+    "tacit_renewal": true,
+    "notice_period": "À l'échéance* : préavis de deux mois pour vous-même ; deux mois pour nous-mêmes.",
+    "methods": [
+      "Pour vous : par l'envoi d'une lettre recommandée (le délai de préavis étant décompté à partir de la date d'envoi, le cachet de la poste faisant foi) ou par envoi recommandé électronique",
+      "Pour vous : en effectuant une déclaration contre récépissé, au siège social de la Macif",
+      "Pour nous : par lettre recommandée adressée à votre dernier domicile connu ou, dans les cas autorisés par la loi, par envoi recommandé électronique"
+    ],
+    "special_rights": [
+      "Par vous ou la Macif, à l'échéance* : avec préavis de deux mois pour vous-même et deux mois pour nous-mêmes.",
+      "En cas de cession du véhicule* assuré : le contrat d'assurance est suspendu automatiquement à partir du lendemain, à 0 heure du jour de la cession. Il peut être résilié moyennant un préavis de dix jours.",
+      "En cas de changement de domicile, de situation matrimoniale, de régime matrimonial, de profession, de retraite professionnelle ou de cessation d'activité professionnelle (si la situation nouvelle modifie l'objet du contrat) : demande de résiliation dans les trois mois — pour vous à partir de l'événement, pour nous à partir de la date à laquelle nous en avons connaissance ; la résiliation intervient un mois après.",
+      "Par vous, en cas de diminution du risque assuré lorsque la Macif ne consent pas à une réduction du montant de la cotisation : le contrat est résilié à l'expiration d'un délai de trente jours.",
+      "Par vous, en cas de résiliation pour sinistre* d'un autre contrat : votre demande doit être faite dans le mois qui suit et la résiliation prend effet à l'expiration d'un délai d'un mois.",
+      "Par vous, en cas de majoration de la cotisation ou des franchises* : votre demande doit être faite dans les trente jours suivant la date où vous en avez eu connaissance, la résiliation prenant effet un mois après.",
+      "Par vous, en cas de transfert du portefeuille de la Macif à une autre société d'assurance : votre demande doit être faite dans le mois qui suit la publication de l'avis de transfert au Journal Officiel et la résiliation prend effet à l'expiration d'un délai d'un mois.",
+      "Par la Macif, en cas de non-paiement des cotisations : le contrat est suspendu trente jours après la date d'envoi de la lettre de mise en demeure et résilié dix jours plus tard. La suspension des garanties pour non-paiement des cotisations ne dispense pas le souscripteur* de payer les cotisations futures à leurs échéances.",
+      "Par la Macif, en cas d'aggravation du risque assuré : le contrat est résilié après un délai de dix jours suivant la dénonciation du contrat par la Macif, ou de trente jours à partir de la date d'envoi de la lettre par laquelle nous vous proposons une nouvelle cotisation prenant en compte cette aggravation dès lors que vous n'avez pas donné suite à cette proposition ou l'avez expressément refusée.",
+      "Par la Macif, en cas d'omission ou d'inexactitude dans la déclaration du risque à la souscription ou en cours de contrat : le contrat est résilié après un délai de dix jours suivant la notification adressée par la Macif.",
+      "Par la Macif, en cas de sinistre* avec infraction grave au Code de la route (conducteur* en état d'alcoolémie ou sous l'emprise de stupéfiants, ou sinistre ayant entraîné une suspension de permis de conduire d'au moins un mois ou une annulation de ce permis) : le contrat est résilié à l'expiration d'un délai d'un mois après la date d'envoi de la lettre recommandée ; le souscripteur* a alors la faculté de résilier ses autres contrats.",
+      "Par la Macif, en cas de transfert du portefeuille de la Macif à une autre société d'assurance.",
+      "Par l'administrateur, le souscripteur* autorisé ou le liquidateur, selon le cas, en cas de sauvegarde, redressement ou liquidation judiciaire du souscripteur* : le contrat est résilié soit à réception par nos services de la notification de résiliation, soit par ordonnance du juge commissaire, soit de plein droit si notre mise en demeure de prendre parti sur la poursuite du contrat est restée plus d'un mois sans réponse.",
+      "Automatiquement, en cas de retrait de l'agrément de la Macif : le 40e jour à midi à compter de la publication au Journal Officiel de la décision de retrait.",
+      "Automatiquement, en cas de perte totale* du véhicule* assuré résultant d'un événement non garanti : dès la survenance de l'événement.",
+      "Automatiquement, en cas de réquisition du véhicule* assuré dans les conditions prévues par la législation en vigueur : dès la survenance de l'événement.",
+      "Dans tous les cas de résiliation au cours d'une période d'assurance, nous devons vous restituer la portion de cotisation correspondant à la période où nous ne vous assurons plus, sauf en cas de non-paiement de cotisation et en cas de nullité du contrat*. Les frais d'échéance destinés à couvrir les dépenses générées par l'appel de cotisation ne sont pas remboursés."
+    ],
+    "page": 55
+  },
+  "prescription_period": {
+    "description": "Toutes les actions dérivant d'un contrat d'assurance sont prescrites par deux ans à compter de l'évènement* qui y donne naissance. Toutefois, ce délai ne court : en cas de réticence, omission, déclaration fausse ou inexacte sur le risque couru, que du jour où l'assureur en a eu connaissance ; en cas de sinistre*, que du jour où les intéressés en ont eu connaissance, s'ils prouvent qu'ils l'ont ignoré jusque-là. Quand l'action de l'assuré* contre l'assureur a pour cause le recours d'un tiers*, le délai de la prescription* ne court que du jour où ce tiers* a exercé une action en justice contre l'assuré* ou a été indemnisé par ce dernier. La prescription* est interrompue par une des causes ordinaires d'interruption de la prescription* (reconnaissance par le débiteur du droit de celui contre lequel il prescrivait, demande en justice même en référé, mesure conservatoire prise en application du Code des procédures civiles d'exécution ou acte d'exécution forcée) et par la désignation d'experts à la suite d'un sinistre*. L'interruption de la prescription* de l'action peut, en outre, résulter de l'envoi d'une lettre recommandée ou d'un envoi recommandé électronique, avec accusé de réception adressés par l'assureur à l'assuré* en ce qui concerne l'action en paiement de la cotisation et par l'assuré* à l'assureur en ce qui concerne le règlement de l'indemnité. La prescription* est portée à dix ans, en ce qui concerne la garantie contre les accidents* corporels du conducteur*, lorsque les bénéficiaires sont les ayants droit de l'assuré* décédé.",
+    "page": 51
+  },
+  "premium": {
+    "notes": [
+      "Votre cotisation est la contrepartie des garanties qui vous protègent. Nous l'avons établie en fonction des caractéristiques de votre risque.",
+      "Elle est variable. Le conseil d'administration peut décider de procéder à une ristourne ou un rappel de cotisation au titre de l'exercice considéré. Dans le cadre d'un rappel, le maximum de cotisation auquel vous pourriez être tenu est d'une fois et demie le montant de la cotisation normale. Dès lors, le montant du rappel de cotisation ne peut être supérieur à la moitié de la cotisation normale.",
+      "La cotisation appelée comprend les frais accessoires et les impôts et taxes.",
+      "Elle est exigible en principe annuellement et d'avance à la date d'échéance*. Toutefois, un paiement fractionné peut vous être accordé.",
+      "Si votre cotisation annuelle a été fractionnée, la suspension de garantie pour non-paiement d'une des fractions de cette cotisation produit ses effets jusqu'à l'expiration de la période annuelle d'assurance."
+    ],
+    "indexation": "Nous pouvons être amenés à modifier le niveau tarifaire de votre contrat ou la cotisation des garanties ainsi que le montant des franchises* pour des raisons techniques liées notamment à la sinistralité enregistrée sur votre risque. Dans ce cas, ces nouvelles conditions s'appliqueront à l'échéance principale* suivante. Nous vous en informons par courrier ou, au plus tard, par votre appel de cotisation. En cas de désaccord de votre part, vous pouvez résilier votre contrat ; à défaut les nouvelles conditions sont considérées comme acceptées à compter de la date d'échéance*. L'augmentation de la cotisation du fait de dispositions légales ou réglementaires n'ouvre pas droit à la résiliation précitée et prend effet à la date mentionnée par les textes concernés.",
+    "page": 47
+  },
+  "special_conditions": [
+    {
+      "name": "Composition du contrat",
+      "description": "Votre contrat est constitué des conditions générales et des conditions particulières. Il est régi par le Code des assurances. Les conditions générales énoncent les garanties proposées et décrivent leur étendue, leur montant et leur application. Les conditions particulières personnalisent le contrat en fonction de votre situation personnelle, d'après les renseignements fournis au moment de la souscription ou les modifications apportées en cours de contrat. Elles récapitulent aussi les garanties que vous avez souscrites. La Macif est soumise au contrôle de l'ACPR (Autorité de contrôle prudentiel et de résolution) : 4 place de Budapest - CS 92459 - 75436 Paris Cedex 09.",
+      "page": 4
+    },
+    {
+      "name": "Les garanties ne sont acquises que si elles sont mentionnées aux conditions particulières",
+      "description": "Les garanties ne sont acquises que si elles sont mentionnées aux conditions particulières.",
+      "page": 12
+    },
+    {
+      "name": "Usage des véhicules — 1. Transports pour propre compte (TPPC)",
+      "description": "Le souscripteur* déclare que les véhicules* sont utilisés exclusivement pour le transport pour propre compte de marchandises et/ou de personnes ainsi que pour l'exécution du travail pour lequel ils ont été conçus dans le cadre de l'activité déclarée. Ils ne servent en aucun cas, même occasionnellement, au souscripteur* ou à d'autres personnes, pour des transports à titre onéreux de personnes ou de marchandises*. À titre secondaire, ils peuvent servir pour des déplacements d'ordre privé dès lors qu'ils restent accessoires à l'usage professionnel.",
+      "page": 61
+    },
+    {
+      "name": "Usage des véhicules — 2. Transports publics de marchandises (TPM)",
+      "description": "Le souscripteur* déclare que les véhicules* assurés sont utilisés pour le transport à titre onéreux de marchandises* exclusivement et qu'ils ne servent en aucun cas, même occasionnellement, à lui-même ou à d'autres personnes, pour des transports à titre onéreux de personnes. À titre secondaire, ils peuvent servir pour des déplacements d'ordre privé dès lors qu'ils restent accessoires à l'usage professionnel.",
+      "page": 61
+    },
+    {
+      "name": "Usage des véhicules — 3. Transports publics de voyageurs extra urbains",
+      "description": "Le souscripteur* déclare que les véhicules* assurés sont utilisés exclusivement pour le transport assis, à titre onéreux, de groupes de personnes constitués à l'initiative d'un donneur d'ordre ou du souscripteur* lui-même, y compris leurs bagages et effets personnels. Ils ne servent en aucun cas, y compris occasionnellement, pour des activités d'ambulance ou de transport sanitaire, ni de transport de marchandises* à titre onéreux.",
+      "page": 61
+    },
+    {
+      "name": "Usage des véhicules — 4. Transports publics de voyageurs urbains",
+      "description": "Le souscripteur* déclare que les véhicules* assurés sont utilisés exclusivement dans le cadre d'un service de transport de personnes exécuté de manière non saisonnière dans le ressort territorial d'une autorité organisatrice de la mobilité et dont l'espacement moyen des arrêts et la variation de la fréquence de passage satisfont aux critères réglementaires en vigueur. Ils ne servent en aucun cas pour des activités d'ambulance ou de transport sanitaire, ni de transport de marchandises* à titre onéreux.",
+      "page": 61
+    },
+    {
+      "name": "Usage des véhicules — 5. Bâtiment et travaux publics",
+      "description": "Le souscripteur* déclare que les véhicules* sont utilisés exclusivement pour le transport privé de marchandises ou de personnes, ainsi que pour l'exécution du travail pour lequel ils ont été conçus, en vue de la construction de bâtiments ou d'infrastructures publics et privés, industriels ou non. En aucun cas, ils ne servent, même occasionnellement, pour des transports à titre onéreux de marchandises* ou de personnes.",
+      "page": 61
+    },
+    {
+      "name": "Usage des véhicules — 6. Location sans chauffeur, courte durée",
+      "description": "Les véhicules* sont utilisés par le souscripteur* en vue d'être loué sans chauffeur à un tiers*, à titre onéreux, pour une durée inférieure à 6 mois. En aucun cas, ils ne servent, même occasionnellement, pour des transports à titre onéreux de marchandises* ou de personnes. Le locataire utilise le véhicule* pour son propre usage en fonction de ses besoins, sauf restriction(s) mentionnée(s) aux conditions particulières du contrat.",
+      "page": 62
+    },
+    {
+      "name": "Usage des véhicules — 7. Location sans chauffeur, moyenne ou longue durée",
+      "description": "Les véhicules* sont utilisés par le souscripteur* en vue d'être loué sans chauffeur à un tiers*, à titre onéreux, pour une durée supérieure à 6 mois. En aucun cas, ils ne servent, même occasionnellement, pour des transports à titre onéreux de marchandises* ou de personnes.",
+      "page": 62
+    },
+    {
+      "name": "Usage des véhicules — 8. Autopartage",
+      "description": "Le véhicule* est utilisé par le souscripteur* dans le cadre de l'activité d'autopartage telle que définie à l'article L. 1231-14 du Code des Transports. À titre accessoire, le véhicule* peut être utilisé par le souscripteur* pour des déplacements professionnels en lien direct avec son activité. Par contre, il ne sert en aucun cas au transport de marchandises ou de personnes à titre onéreux.",
+      "page": 62
+    },
+    {
+      "name": "Usage des véhicules — 9. Agricole",
+      "description": "Le souscripteur* déclare que les véhicules* sont utilisés exclusivement pour le transport privé de marchandises ou de personnes, ainsi que pour l'exécution du travail pour lequel ils ont été conçus en vue de l'exploitation des ressources naturelles végétales et animales, de l'exercice des activités de culture, d'élevage, de sylviculture, d'exploitation forestière et de production d'animaux ou de produits animaux dans une exploitation agricole ou dans leur habitat naturel. En aucun cas, ils ne servent, même occasionnellement, pour des transports à titre onéreux de marchandises ou de personnes.",
+      "page": 62
+    },
+    {
+      "name": "Conducteur novice — franchise complémentaire",
+      "description": "Dans le cas où, au moment du sinistre*, le véhicule* est conduit par un conducteur* novice au sens de l'article A. 335-9-1 du Code des Assurances, une franchise* complémentaire à celle mentionnée aux conditions particulières sera appliquée. Celle-ci sera égale à 1 200 €, proportionnellement au taux de responsabilité du conducteur* novice dans le sinistre* et viendra s'ajouter à la franchise* prévue aux conditions particulières en s'imputant prioritairement sur les indemnités versées au titre d'une garantie dommage*. Dans le cas où elle trouverait à s'appliquer sur l'indemnité versée au titre de la garantie responsabilité civile, nous indemniserons intégralement la victime et récupérerons auprès de vous directement le montant de la franchise* complémentaire. Ces dispositions ne s'appliquent pas dans le cas où le conducteur* novice est : un de vos préposés dans le cadre de ses missions professionnelles ; votre conjoint*, concubin ou partenaire lié par un PACS ; votre enfant ou celui de votre conjoint*, concubin ou partenaire lié par un PACS, dès lors qu'il vit sous votre toit.",
+      "page": 63
+    },
+    {
+      "name": "Modification du véhicule",
+      "description": "Si vous êtes amené à apporter des modifications notables au véhicule* assuré, vous devez vous assurer qu'elles soient réalisées par un professionnel qualifié et que le véhicule* modifié réponde aux dispositions légales et réglementaires en vigueur, notamment quant à sa nouvelle réception par le Préfet. Afin de continuer à être garanti, vous devrez nous communiquer la nouvelle carte grise du véhicule*. Outre les sanctions encourues pour défaut d'assurance, le fait de circuler avec un véhicule* non conforme à un type homologué ou à un type n'ayant pas fait l'objet d'une réception vous expose à une amende.",
+      "page": 63
+    },
+    {
+      "name": "Fichier AGIRA",
+      "description": "Inscription sur le fichier résiliation de l'Association pour la Gestion des Informations sur le Risque Automobile (AGIRA - 1 rue Jules Lefebvre - 75431 Paris Cedex 09). Le fichier résiliation de l'AGIRA sera renseigné de la résiliation de votre contrat, qu'elle soit de votre initiative ou de la nôtre. Vous pouvez avoir accès aux informations communiquées en vous adressant directement à nous ou à l'AGIRA.",
+      "page": 57
+    },
+    {
+      "name": "Prestataire d'assistance",
+      "description": "Les prestations d'assistance sont réalisées par IMA ASSURANCES, SA au capital de 122 000 000 €, entreprise régie par le Code des assurances, RCS Niort 481 511 632. Siège social : 118 avenue de Paris - CS 40000 - 79033 Niort cedex 9.",
+      "page": 68
+    },
+    {
+      "name": "Subrogation",
+      "description": "Si un tiers* est responsable des dommages, nous bénéficions de vos droits et actions pour le montant de l'indemnité versée. Nous pouvons ainsi agir contre ce tiers* et son assureur pour récupérer tout ou partie de cette indemnité. Si par votre fait nous ne pouvons plus exercer de recours, votre indemnisation sera diminuée des sommes qui ne peuvent plus être récupérées.",
+      "page": 51
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Votre contrat est constitué des conditions générales et des conditions particulières. Il est régi par le Code des \nassurances.",
+      "context": "Votre contrat — composition et régime",
+      "page": 4
+    },
+    {
+      "quote": "Les garanties ne sont acquises que si elles sont mentionnées aux conditions particulières.",
+      "context": "Tableau des garanties et de leur montant — condition d'acquisition",
+      "page": 12
+    },
+    {
+      "quote": "Catastrophes naturelles (article 10)\n380 €(1) ou, pour les véhicules à \nusage professionnel, la franchise du \ncontrat si elle supérieure.",
+      "context": "Tableau des garanties — la ligne Catastrophes naturelles ; « 380 € » appartient géométriquement à la colonne FRANCHISE (x 380-450), pas à la colonne Montants maximum",
+      "page": 12
+    },
+    {
+      "quote": "La souscription de la garantie Responsabilité civile répond à l’obligation légale d’assurance.",
+      "context": "Article 1 — obligation légale d'assurance",
+      "page": 17
+    },
+    {
+      "quote": "Ce qui est garanti :\nCe qui est exclu : \n(outre les exclusions communes \nà toutes les garanties figurant pages 41 à 43)",
+      "context": "Les DEUX en-têtes de colonne sont émis dans un seul bloc de la couche texte, sans séparateur entre les items couverts et les items exclus qui suivent",
+      "page": 17
+    },
+    {
+      "quote": "Les dommages subis par le véhicule* assuré lorsque \nces dommages résultent :\n  d’un choc contre un corps fixe ou mobile ;\n  du versement ou du renversement du véhicule* ;\n  de projections ou retombées de substances sur le \nvéhicule* ;\n  de l’ouverture accidentelle d’un ouvrant du véhicule* ;\n  de l’immersion accidentelle du véhicule*, consécutive \nou non à une collision.\nEt alors que le véhicule* était sous votre garde ou celle \nd’une personne autorisée par vous.",
+      "context": "Article 3 — colonne GAUCHE « Ce qui est garanti »",
+      "page": 21
+    },
+    {
+      "quote": "les dommages résultant d’une panne mécanique \nc’est-à-dire d’un incident mécanique d’origine fortuite \naffectant le véhicule* assuré.",
+      "context": "Article 3 — colonne DROITE « Ce qui est exclu »",
+      "page": 21
+    },
+    {
+      "quote": "l’indemnité due au \ntitre de la garantie Vol sera réduite de 30",
+      "context": "Article 6 B — réduction d'indemnité pour non-respect des mesures",
+      "page": 24
+    },
+    {
+      "quote": "les dommages subis par le véhicule* assuré lors d’un \ntremblement de terre ou autre cataclysme. Ils peuvent \nêtre garantis dans le cadre des catastrophes naturelles",
+      "context": "Article 9 — colonne DROITE « Ce qui est exclu »",
+      "page": 26
+    },
+    {
+      "quote": "À défaut d’un accord amiable, lorsque le préjudice \nnon indemnisé est supérieur à 400 euros, nous décidons \navec l’assuré* si une action judiciaire doit être engagée.",
+      "context": "Article 20 — seuil d'engagement de l'action judiciaire",
+      "page": 37
+    },
+    {
+      "quote": "Par ailleurs, les garanties Défense, Recours (articles 19 et 20) ne sont pas acquises en Albanie, Bosnie-Herzégovine, \nBiélorussie, Fyrom, Moldavie, Serbie-Monténégro, Turquie, Ukraine et Russie.",
+      "context": "Où s'exercent vos garanties ? — exclusion territoriale Défense-Recours",
+      "page": 43
+    },
+    {
+      "quote": "les dommages causés intentionnellement par l’assuré* ou résultant de sa faute dolosive, à moins qu’ils n’aient \nété commis par une personne dont il est civilement responsable",
+      "context": "Les exclusions communes à toutes les garanties",
+      "page": 43
+    },
+    {
+      "quote": "Toutes les actions dérivant d’un contrat d’assurance sont prescrites par deux ans à compter de l’évènement* qui y \ndonne naissance.",
+      "context": "La prescription",
+      "page": 51
+    },
+    {
+      "quote": "Celle-ci sera égale à 1 200 €, proportionnellement au taux de responsabilité du conducteur* novice dans le sinistre* et \nviendra s’ajouter à la franchise* prévue aux conditions particulières en s’imputant prioritairement sur les indemnités \nversées au titre d’une garantie dommage*.",
+      "context": "Conducteur novice — franchise complémentaire",
+      "page": 63
+    },
+    {
+      "quote": "MACIF - MUTUELLE ASSURANCE DES COMMERCANTS ET INDUSTRIELS DE FRANCE ET DES CADRES ET SALARIÉS DE L’INDUSTRIE ET DU COMMERCE. \nSociété d’assurance mutuelle à cotisations variables. Entreprise régie par le Code des assurances. Siège social : 1 rue Jacques Vandier - 79000 Niort.",
+      "context": "Mention légale — identité de l'assureur",
+      "page": 68
+    }
+  ],
+  "gaps": [
+    "INVERSION DE COLONNES — avérée et systémique, corrigée par coordonnées. Tout le chapitre « Présentation des garanties » (articles 1 à 20, pages 17 à 37) est composé en deux colonnes « Ce qui est garanti : » / « Ce qui est exclu : ». Or la couche texte fusionne les DEUX en-têtes dans un seul bloc (« Ce qui est garanti : \\n Ce qui est exclu : \\n (outre les exclusions communes à toutes les garanties figurant pages 41 à 43) ») puis émet tous les items couverts, puis tous les items exclus, SANS AUCUN séparateur textuel. Lu à plat, rien n'indique où finit la liste des garanties et où commence celle des exclusions : toutes les exclusions de tous les articles se présentent comme la suite de la liste des garanties. Exemple mesuré sur l'article 1 (page 17) : « les dommages engageant la responsabilité de l'assuré* et subis par le conducteur* du véhicule* », « les dommages subis par les auteurs, co-auteurs ou complices du vol du véhicule* assuré » et « les dommages autres que ceux d'incendie ou d'explosion causés […] aux parties privatives des immeubles » suivent immédiatement les items couverts et se lisent comme couverts, alors qu'ils sont exclus. La polarité a été rétablie par abscisse : colonne gauche (x0 ≈ 45-290) = garanti, colonne droite (x0 ≈ 307-565) = exclu. Le contrôle géométrique relève des inversions d'ordre sur 26 des 68 pages.",
+    "MIS-ATTACHEMENT DE MONTANT n°1 — « 380 € » (page 12). Dans le « Tableau des garanties et de leur montant », la ligne « Catastrophes naturelles (article 10) » ne porte AUCUNE cellule dans la colonne « Montants maximum ». Le texte plat enchaîne donc directement « Catastrophes naturelles (article 10) » puis « 380 €(1) ou, pour les véhicules à usage professionnel, la franchise du contrat si elle supérieure. » : lu à plat, 380 € se présente comme le PLAFOND de la garantie. Géométriquement, ce montant est à x ≈ 380-450, c'est-à-dire dans la colonne « Franchise* » (les trois colonnes sont Garanties x<190, Montants maximum 190≤x<370, Franchise x≥370). 380 € est donc la FRANCHISE de la garantie Catastrophes naturelles, pas son plafond. C'est porté comme tel dans deductibles.per_coverage et dans le champ deductible de la garantie.",
+    "MIS-ATTACHEMENT DE MONTANT n°2 — « Équipement du motard » (page 13). Le texte plat émet, au milieu de la cellule « Montants maximum » de la garantie Contenu privé du véhicule (article 17) : « […] le montant indiqué aux conditions particulières. / Franchise* indiquée aux conditions particulières / Équipement du motard : remboursement déduction faite d'une vétusté* de 10 % par an avec un maximum de 50 % […] ». La règle de vétusté se lit donc comme faisant partie de la colonne FRANCHISE alors qu'elle appartient à la colonne « Montants maximum » (x ≈ 200-290, la même que le reste de la cellule). Elle est portée dans sub_limits de la garantie Contenu privé du véhicule, pas dans deductible.",
+    "Le tableau des garanties (pages 12-13) a été reconstruit intégralement par appariement en y des trois colonnes. Les correspondances retenues, ligne par ligne : RC (art. 1) → montant « à concurrence du montant indiqué aux conditions particulières », franchise « supportée par le souscripteur si elle est indiquée » ; RC fonctionnement (art. 2) ; le bloc unique Dommages par accident (3) / Actes de vandalisme (4) / Incendie (5) / Vol (6) / Forces de la nature (9) qui partage une seule cellule de montant (perte totale, dommages partiels, dommages électriques) et une seule franchise ; Catastrophes naturelles (10) ; Bris de glace (7) et Bris de glace + (8) qui partagent une cellule ; Dépannage levage remorquage (12) ; Bris de machine (13) ; Indemnisation + (14) ; Matériel professionnel et marchandises (15) ; Aménagements professionnels et peintures publicitaires (16) ; Contenu privé (17) ; Corporelle du conducteur (18) ; Défense (19) et Recours (20), sans franchise.",
+    "AUCUN MONTANT DE GARANTIE N'EST CHIFFRÉ dans ces conditions générales, à trois exceptions près. Le tableau renvoie systématiquement aux conditions particulières, qui ne font pas partie de ce document. Les seuls montants chiffrés du contrat sont : la franchise catastrophes naturelles (380 €, fixée par arrêté ministériel) ; la franchise complémentaire conducteur novice (1 200 €) ; le plafond des accessoires hors série inclus dans la définition du véhicule (3 000 €) ; le seuil d'engagement d'une action judiciaire au titre du Recours (400 euros) ; les seuils de transport de matières inflammables (500 kg, 600 litres, 1 200 litres pour les véhicules industriels) ; et le tableau complet des plafonds d'honoraires d'avocat de la page 40, transcrit intégralement dans les sub_limits de la garantie Recours.",
+    "Le glyphe « × » ne produit aucun texte dans ce document (0 occurrence sur 68 pages), comme sur le contrat Garantie Accident du même éditeur. Aucune formule multiplicative n'apparaît toutefois dans ce contrat-ci, donc aucune valeur n'est perdue de ce fait.",
+    "Séparateurs typographiques non standard : le document utilise U+2008 (espace de ponctuation) avant les deux-points et U+202F (espace fine insécable) dans les pourcentages et montants (« 10\\u202f% par an », « garanti\\u2008: »). 380 occurrences de U+2008 et 134 de U+202F. Les key_quotes conservent ces caractères exacts puisqu'elles sont découpées programmatiquement ; les champs structurés emploient l'espace ordinaire, qui correspond à ce qui est imprimé.",
+    "is_optional : la garantie Responsabilité civile (article 1) est portée is_optional=false — le document dit « La souscription de la garantie Responsabilité civile répond à l'obligation légale d'assurance ». Toutes les autres garanties d'articles sont portées is_optional=true, sur la base de la mention en tête du tableau « Les garanties ne sont acquises que si elles sont mentionnées aux conditions particulières » et de la phrase d'introduction du chapitre « Les garanties énoncées ci-dessous vous sont accordées si vous les avez souscrites séparément ou globalement ». Les dispositions diverses (apprentissage de la conduite, indisponibilité du véhicule, immatriculation étrangère) sont portées is_optional=false car elles s'appliquent aux garanties déjà souscrites.",
+    "PAGES SANS TEXTE : les pages 2, 14, 16, 42, 52, 54, 58, 60 et 67 ne portent aucun contenu extractible ou seulement un folio ; les pages 15, 41, 53 et 59 sont des intercalaires de chapitre ; les pages 64, 65 et 66 portent uniquement le mot « Notes ». Aucun contenu contractuel n'y est perdu.",
+    "FOLIOS ≠ NUMÉROS DE PAGE PDF : le folio imprimé vaut page PDF moins 2 (page PDF 12 → folio 10 ; page PDF 43 → folio 41 ; page PDF 68 → non folioté). Les renvois internes du document (« les exclusions communes à toutes les garanties figurant pages 41 à 43 », « le tableau pages 38 ») désignent des FOLIOS : ils correspondent respectivement aux pages PDF 43 à 45 et à la page PDF 40. Tous les champs `page` de cette extraction citent le numéro de PAGE PDF, conformément aux marqueurs [[page N]]. Les renvois eux-mêmes sont conservés verbatim dans les descriptions, avec leur numérotation d'origine en folios.",
+    "Le contrat ne comporte aucun délai de carence (waiting_periods vide) ; les seules restrictions temporelles sont le délai de 30 jours maximum non renouvelable pour un véhicule en instance d'immatriculation française, et la période de 6 mois suivant la date d'achat du véhicule neuf pendant laquelle l'indemnisation en perte totale se fait au prix d'acquisition HT.",
+    "Les prestations d'assistance ne sont PAS décrites dans ce document : la mention légale de la dernière page indique seulement qu'elles « sont réalisées par IMA ASSURANCES ». La lettre d'accueil (page 3) annonce que « des prestations d'assistance à destination des personnes et du véhicule peuvent être souscrites en complément », mais aucun article ne les détaille. Aucune garantie d'assistance n'a donc été extraite, faute de contenu.",
+    "Le texte du prompt n'était pas tronqué (68 pages sur 68). L'extraction a été refaite depuis le PDF local avec page.get_text(\"text\") : les 68 pages ressortent identiques caractère pour caractère au texte du prompt.",
+    "Des caractères U+0007 subsistent dans la couche texte (28 occurrences, pages 12, 29, 30, 34, 37, 48, 49 et 50), en tête de puces. Il s'agit de glyphes de puce et non de marqueurs de texte vectorisé ; le contenu correspondant est présent et lisible."
+  ]
+}

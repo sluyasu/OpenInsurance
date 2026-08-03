@@ -249,6 +249,10 @@ La garantie corporelle du conducteur.
 - insurer_name porte le nom de l'entité seul, « Macif », tel qu'imprimé par le document (« Compagnie : Macif - France - Société d'assurance mutuelle à cotisations variables - SIREN n° 781 452 511. »). Les métadonnées de la tâche proposaient la forme longue « Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce) », retenue par les extractions Macif déjà placées : divergence signalée ici pour qu'un relecteur puisse normaliser dans un sens ou dans l'autre.
 - Le texte du prompt n'était pas tronqué (2 pages sur 2). L'extraction a été refaite depuis le PDF local avec page.get_text("text") : les 2 pages ressortent identiques caractère pour caractère au texte du prompt.
 
+## Documents liés
+
+- [Contrat Macif Auto Pros](Contrat%20Macif%20Auto%20Pros.md) - Conditions générales, éd. Version 06/2022 (page 7 : « Version juin 2022 » ; pied de page : « Macif Auto Pros - Version 06/2022 »)
+
 ## Source & fidélité
 
 - Source : [https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_auto_pro.pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_auto_pro.pdf) - téléchargé le 2026-08-01 - 2 pages

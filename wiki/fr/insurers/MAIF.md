@@ -5,7 +5,7 @@ country: fr
 insurer_slug: maif
 name: MAIF
 website: https://www.maif.fr
-products_count: 69
+products_count: 65
 branches_covered:
 - assurance-vie
 - auto
@@ -39,7 +39,7 @@ generated: true
 
 ## Résumé
 
-**MAIF** - [https://www.maif.fr](https://www.maif.fr). 69 document(s) across 17 branch(es).
+**MAIF** - [https://www.maif.fr](https://www.maif.fr). 65 document(s) across 17 branch(es).
 
 ## Produits par branche
 
@@ -93,10 +93,6 @@ generated: true
 - [Assurance Habitation](../products/maif/Assurance%20Habitation.md) - Conditions générales (01/2025) · réf. M5202AHA
 - [Assurance Habitation Jeunes - IPID](../products/maif/Assurance%20Habitation%20Jeunes%20-%20IPID.md) - IPID / Fiche d'information (01/2025) · réf. IPID AHJ
 - [Assurance Habitation Jeunes](../products/maif/Assurance%20Habitation%20Jeunes.md) - Conditions générales (01/2025) · réf. M5202AHJ
-- [Assurance Loyers Impayés - Doc](../products/maif/Assurance%20Loyers%20Impay%C3%A9s%20-%20Doc.md) - Document
-- [Assurance Loyers Impayés - SADA Assurances (porteur du risque)](../products/maif/Assurance%20Loyers%20Impay%C3%A9s%20-%20SADA%20Assurances%20%28porteur%20du%20risque%29.md) - Conditions générales (Mars 2023) · réf. CG SADA GLI _V1-SA_MAIF-01/07/2021 – Mars 2023
-- [Assurance Loyers Impayés - WAKAM (porteur du risque)](../products/maif/Assurance%20Loyers%20Impay%C3%A9s%20-%20WAKAM%20%28porteur%20du%20risque%29.md) - Conditions générales (Septembre 2025) · réf. CGWAKAMGLIMF_092025
-- [Assurance Loyers Impayés MF (SADA Assurances) - IPID](../products/maif/Assurance%20Loyers%20Impay%C3%A9s%20MF%20%28SADA%20Assurances%29%20-%20IPID.md) - IPID / Fiche d'information (Mars 2023) · réf. Réf. CG SADA GLI _V1-SA_MF-01/07/2021 – Mars 2023
 - [Assurance Propriétaire Bailleur](../products/maif/Assurance%20Propri%C3%A9taire%20Bailleur.md) - Conditions générales (01/2025) · réf. M5202APB
 - [Assurance Propriétaire Bailleur - IPID](../products/maif/Assurance%20Propri%C3%A9taire%20Bailleur%20-%20IPID.md) - IPID / Fiche d'information (01/2025) · réf. IPID APB
 

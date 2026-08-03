@@ -5,7 +5,7 @@ country: fr
 insurer_slug: macif
 name: Macif
 website: https://www.macif.fr
-products_count: 104
+products_count: 106
 branches_covered:
 - animaux
 - assurance-vie
@@ -40,7 +40,7 @@ generated: true
 
 ## Résumé
 
-**Macif** - [https://www.macif.fr](https://www.macif.fr). 104 document(s) across 18 branch(es).
+**Macif** - [https://www.macif.fr](https://www.macif.fr). 106 document(s) across 18 branch(es).
 
 ## Produits par branche
 
@@ -64,8 +64,10 @@ generated: true
 - [Contrat Camping-car Autocaravane - IPID](../products/macif/Contrat%20Camping-car%20Autocaravane%20-%20IPID.md) - IPID / Fiche d'information (2018-10) · réf. LOIS CCAR 10/18
 - [Contrat Camping-car, Autocaravane](../products/macif/Contrat%20Camping-car%2C%20Autocaravane.md) - Conditions générales (2019-01) · réf. LOIS / CARACC / 05 - 01 / 19 - N 891
 - [Contrat Flotte Automobile - IPID](../products/macif/Contrat%20Flotte%20Automobile%20-%20IPID.md) - IPID / Fiche d'information (06/19) · réf. VEH/FLOTTE - 06/19
+- [Contrat Flotte Automobile](../products/macif/Contrat%20Flotte%20Automobile.md) - Conditions générales (Juin 2019) · réf. VEH/FLOTTE/05 - 06/19 - NM03
 - [Contrat Flotte Automobile - IPID](../products/macif/Contrat%20Flotte%20Automobile%20-%20IPID%20%282%29.md) - IPID / Fiche d'information (10/18) · réf. VEH-AUTO 10/18
 - [Contrat Macif Auto - IPID](../products/macif/Contrat%20Macif%20Auto%20-%20IPID.md) - IPID / Fiche d'information (06/22) · réf. VEH AUTO PART - 06/22
+- [Contrat Macif Auto Pros](../products/macif/Contrat%20Macif%20Auto%20Pros.md) - Conditions générales (Version 06/2022 (page 7 : « Version juin 2022 » ; pied de page : « Macif Auto Pros - Version 06/2022 »)) · réf. VEH/AUTO PROS/05 - 06/22-N373
 - [Contrat Macif Auto Pros - IPID](../products/macif/Contrat%20Macif%20Auto%20Pros%20-%20IPID.md) - IPID / Fiche d'information (01/26) · réf. VEH AUTO PROS
 - [Contrat Macif Pann'Auto](../products/macif/Contrat%20Macif%20Pann%27Auto.md) - Conditions générales (Novembre 2020) · réf. VEH/GPM/05 - 11/20 - N378
 - [Contrat Macif Pann'Auto - IPID](../products/macif/Contrat%20Macif%20Pann%27Auto%20-%20IPID.md) - IPID / Fiche d'information (12/22) · réf. VEH/GPM/05 12/22
@@ -108,13 +110,13 @@ generated: true
 - [Contrat Habitation - Formule Protectrice - Résidence secondaire - IPID](../products/macif/Contrat%20Habitation%20-%20Formule%20Protectrice%20-%20R%C3%A9sidence%20secondaire%20-%20IPID.md) - IPID / Fiche d'information (04/24) · réf. HAB-PROT-RS 04/24
 - [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire - IPID](../products/macif/Contrat%20Habitation%20-%20Formule%20%C3%89conomique%20-%20R%C3%A9sidence%20principale%20-%20R%C3%A9sidence%20secondaire%20-%20IPID.md) - IPID / Fiche d'information (04/24) · réf. HAB-ECO 04/24
 - [Contrat Habitation - Formule Économique - Résidence principale - Résidence secondaire](../products/macif/Contrat%20Habitation%20-%20Formule%20%C3%89conomique%20-%20R%C3%A9sidence%20principale%20-%20R%C3%A9sidence%20secondaire.md) - Conditions générales (05/18) · réf. HAB/ECO/05 - 05/18 - N781
-- [Contrat Loyers impayés](../products/macif/Contrat%20Loyers%20impay%C3%A9s.md) - Conditions générales (Version 06/2023 (page 5 : « Version juin 2023 »)) · réf. HAB/GLI/05 - 06/23 - NM17
 - [Contrat Macif Habitation - Formule Construction - IPID](../products/macif/Contrat%20Macif%20Habitation%20-%20Formule%20Construction%20-%20IPID.md) - IPID / Fiche d'information (2025-06) · réf. MACIF HAB MC 06/25
 - [Contrat Macif Habitation - Formules Économique, Équilibrée, Confort (Résidence secondaire) - IPID](../products/macif/Contrat%20Macif%20Habitation%20-%20Formules%20%C3%89conomique%2C%20%C3%89quilibr%C3%A9e%2C%20Confort%20%28R%C3%A9sidence%20secondaire%29%20-%20IPID.md) - IPID / Fiche d'information (06/25) · réf. MACIF HAB RS 06/25
 - [Contrat Macif Habitation - Formules Économique, Équilibrée, Confort (Assurance multirisques habitation - Résidence princ](../products/macif/Contrat%20Macif%20Habitation%20-%20Formules%20%C3%89conomique%2C%20%C3%89quilibr%C3%A9e%2C%20Confort%20%28Assurance%20multirisques%20habitation%20-%20R%C3%A9sidence%20princ.md) - IPID / Fiche d'information (06/25) · réf. MACIF HAB RP 06/25
 - [Contrat Prem's - Assurance Logement - Assurance Personnelle](../products/macif/Contrat%20Prem%27s%20-%20Assurance%20Logement%20-%20Assurance%20Personnelle.md) - Conditions générales (Avril 2015) · réf. HAB/PREMS/05 - 04/15 - N093
 - [Contrat Sociétaire Non Occupant](../products/macif/Contrat%20Soci%C3%A9taire%20Non%20Occupant.md) - Conditions générales (avril 2015) · réf. HAB/SNO/05 - 04/15 - N086
 - [Contrat Sociétaire Non Occupant - Annexe spéciale Bâtiments en cours de construction](../products/macif/Contrat%20Soci%C3%A9taire%20Non%20Occupant%20-%20Annexe%20sp%C3%A9ciale%20B%C3%A2timents%20en%20cours%20de%20construction.md) - Conditions générales · réf. HAB/SNOBCC/07-01/08-N065
+- [Contrat Sociétaire Non Occupant - Annexe spéciale Bâtiments inoccupés](../products/macif/Contrat%20Soci%C3%A9taire%20Non%20Occupant%20-%20Annexe%20sp%C3%A9ciale%20B%C3%A2timents%20inoccup%C3%A9s.md) - Conditions générales (03/11) · réf. HAB/SNOBI/07 - 03/11 - N070
 - [Contrat Sociétaire Non Occupant - Annexe spéciale Immeubles en copropriété](../products/macif/Contrat%20Soci%C3%A9taire%20Non%20Occupant%20-%20Annexe%20sp%C3%A9ciale%20Immeubles%20en%20copropri%C3%A9t%C3%A9.md) - Conditions générales (03/11) · réf. HAB/SNOIC/07 - 03/11 - N067
 - [Contrat Sociétaire Non Occupant - Conditions Générales - Annexe spéciale Immeubles locatifs](../products/macif/Contrat%20Soci%C3%A9taire%20Non%20Occupant%20-%20Conditions%20G%C3%A9n%C3%A9rales%20-%20Annexe%20sp%C3%A9ciale%20Immeubles%20locatifs.md) - Conditions générales · réf. HAB/SNOIL/07 - 11/10 - N069
 - [Macif Habitation](../products/macif/Macif%20Habitation.md) - Conditions générales (06/25 (Version 06/2025)) · réf. MACIF HAB/05 - 06/25 - N570

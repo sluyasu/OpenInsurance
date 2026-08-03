@@ -5,7 +5,7 @@ country: fr
 insurer_slug: matmut
 name: Matmut
 website: https://www.matmut.fr
-products_count: 177
+products_count: 176
 branches_covered:
 - animaux
 - assurance-vie
@@ -42,7 +42,7 @@ generated: true
 
 ## Résumé
 
-**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 177 document(s) across 20 branch(es).
+**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 176 document(s) across 20 branch(es).
 
 ## Produits par branche
 
@@ -127,11 +127,10 @@ generated: true
 - [Multirisques Accidents de la Vie Sérénité](../products/matmut/Multirisques%20Accidents%20de%20la%20Vie%20S%C3%A9r%C3%A9nit%C3%A9.md) - Conditions générales (01/26) · réf. CG MAV SÉRÉNITÉ –01/26
 
 ### [Multirisque habitation](../branches/Multirisque%20habitation.md)
-- [Assurance Loyers Impayés](../products/matmut/Assurance%20Loyers%20Impay%C3%A9s.md) - Conditions générales (10/24) · réf. CG LOYERS IMP - 10/24
 - [Contrat Multigaranties des copropriétés - IPID](../products/matmut/Contrat%20Multigaranties%20des%20copropri%C3%A9t%C3%A9s%20-%20IPID.md) - IPID / Fiche d'information (11/25) · réf. IPID.IME.COPRO - 11/25
 - [Contrat Multigaranties des risques immobiliers - IPID](../products/matmut/Contrat%20Multigaranties%20des%20risques%20immobiliers%20-%20IPID.md) - IPID / Fiche d'information (11/25) · réf. IPID.IME.PNO.PNE
-- [Contrat « Assurance Loyers Impayés » - IPID](../products/matmut/Contrat%20%C2%AB%20Assurance%20Loyers%20Impay%C3%A9s%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (2024-10) · réf. IPID.ALI  – 10/24
 - [Contrat « Habitation Initiale & Co Propriétaire non occupant » - IPID](../products/matmut/Contrat%20%C2%AB%20Habitation%20Initiale%20%26%20Co%20Propri%C3%A9taire%20non%20occupant%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (12-23) · réf. IPID.PNO Initiale & CO – 12-23
+- [Contrat « Habitation Initiale & Co Résidence principale » - IPID](../products/matmut/Contrat%20%C2%AB%20Habitation%20Initiale%20%26%20Co%20R%C3%A9sidence%20principale%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (12-23) · réf. IPID.RP INIT &CO – 12-23
 - [Contrat « Habitation Initiale & Co Résidence secondaire » - IPID](../products/matmut/Contrat%20%C2%AB%20Habitation%20Initiale%20%26%20Co%20R%C3%A9sidence%20secondaire%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (12-23) · réf. IPID.RS Initiale &CO – 12-23
 - [Contrat « Habitation Matmut Étudiants et Matmut-Smac » - IPID](../products/matmut/Contrat%20%C2%AB%20Habitation%20Matmut%20%C3%89tudiants%20et%20Matmut-Smac%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (2024-05) · réf. IPID.HAB.ETUD – 05/24
 - [Contrat « Mobile-home » Formule Nature - IPID](../products/matmut/Contrat%20%C2%AB%20Mobile-home%20%C2%BB%20Formule%20Nature%20-%20IPID.md) - IPID / Fiche d'information (05/24) · réf. IPID.MH – 05/24
