@@ -35,6 +35,14 @@ Soixante-trois assureurs directs luxembourgeois existent ; **moins de dix venden
 résident**. Le pays compte 691 000 habitants et **225 840 travailleurs frontaliers**, dont les
 contrats auto et habitation relèvent de leur pays de résidence.
 
+Le registre du [[CAA]] borne cette liste par le haut sans la donner. Côté non-vie, la branche 10
+(RC véhicules terrestres) est le seul filtre utile : **douze des trente-cinq** la détiennent, mais
+elle couvre aussi les flottes d'entreprise, donc douze est un plafond et non un décompte. Côté vie,
+le registre ne sépare rien : **les vingt-huit assureurs vie détiennent tous les branches I et III**.
+Un agrément dit ce qu'une entreprise a le droit d'écrire, jamais ce qu'elle écrit — l'appartenance
+au marché de détail se décide donc à la découverte, en regardant si l'entreprise publie une
+bibliothèque de contrats destinés à un particulier.
+
 **Conséquence assumée pour ce wiki : le corpus luxembourgeois est petit, et cette petitesse est un
 fait de marché, pas un défaut de collecte.** Le détail et les sources figurent dans
 `_meta/lu-market-census.md`.

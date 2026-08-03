@@ -630,3 +630,70 @@ privées se vendent au-dessus. La formulation exacte est donc : *pas de branche 
 Les deux corrections viennent d'une vérification en source primaire là où le recensement s'était
 appuyé sur la version la plus diffusée d'un texte. C'est le mode de défaillance à surveiller sur ce
 genre de fiche : une affirmation qui a été vraie, et qui ne l'est plus.
+
+## Le registre borne la liste de détail par le haut, il ne la donne pas (mesuré 2026-08-03)
+
+Ce recensement affirmait « moins de dix des soixante-trois assureurs directs vendent un
+produit à un résident ». L'affirmation tenait, mais elle n'était pas mesurée. Elle l'est
+maintenant, et la mesure dit surtout **où le registre cesse d'aider**.
+
+### Côté non-vie, la branche 10 filtre
+
+La branche **10 (RC véhicules terrestres automoteurs)** est le meilleur signal disponible :
+l'assurance RC auto est obligatoire pour tout titulaire d'un certificat d'immatriculation
+luxembourgeois, et aucun assureur ne la détient par accident.
+
+**Douze des trente-cinq assureurs non-vie luxembourgeois la détiennent** :
+
+| Entité | Aussi 8+9+13 (socle habitation + RC) |
+|---|---|
+| AIG EUROPE S.A. | oui |
+| AIOI NISSAY DOWA INSURANCE COMPANY OF EUROPE SE | oui |
+| AXA ASSURANCES LUXEMBOURG | oui |
+| BALOISE ASSURANCES LUXEMBOURG S.A. | oui |
+| FOYER ASSURANCES S.A. | oui |
+| HISCOX S.A. | oui |
+| LA LUXEMBOURGEOISE S.A. | oui |
+| LIBERTY MUTUAL INSURANCE EUROPE SE | oui |
+| SI INSURANCE (EUROPE), SA | oui |
+| STADHOLD INSURANCES (LUXEMBOURG) S.A. | non |
+| SWISS RE INTERNATIONAL SE | oui |
+| TOKIO MARINE EUROPE S.A. | oui |
+
+**Douze est un plafond, pas un décompte.** La branche 10 couvre aussi la RC des flottes
+d'entreprise, et plusieurs de ces douze sont des porteurs spécialisés ou grands risques qui
+n'ont jamais vendu une auto à un particulier luxembourgeois. L'agrément dit ce qu'une
+entreprise **a le droit** d'écrire, jamais ce qu'elle écrit.
+
+Le second filtre confirme que l'agrément ne tranche pas : **vingt-deux des trente-cinq**
+détiennent le socle 8+9+13 (incendie, autres dommages aux biens, RC générale), soit presque
+les deux tiers du marché non-vie. Un socle « habitation + RC » ne distingue donc rien.
+
+### Côté vie, le registre ne discrimine rien du tout
+
+**Les vingt-huit assureurs vie luxembourgeois détiennent tous la branche I et tous la
+branche III.** Vingt-huit sur vingt-huit, dans les deux cas. Le pouvoir séparateur du
+registre vie est exactement nul.
+
+C'est cohérent avec ce que dit déjà ce document : la place vie luxembourgeoise est
+majoritairement un marché de contrats de placement transfrontaliers en libre prestation de
+services, et 5,0 % seulement des primes vie écrites depuis le Luxembourg y sont vendues.
+Une entité qui n'assure que des résidents français en unités de compte détient le même
+agrément que celle qui vend un solde restant dû à Esch-sur-Alzette.
+
+### Conséquence de méthode
+
+**L'appartenance au marché de détail se décide à la découverte, pas au registre.** Le test
+opérant est celui que ce projet applique déjà : l'entreprise publie-t-elle, sur un site
+luxembourgeois, une bibliothèque de documents contractuels destinés à un particulier ?
+Foyer a été traité ainsi et le résultat — aucune conditions générales publiée, zéro ligne
+sur huit cents — n'aurait été lisible dans aucun registre.
+
+Le registre reste indispensable pour deux choses, et il faut s'y tenir : **nommer les
+entités exactement** (forme juridique comprise) et **savoir combien d'entités portent une
+même marque**. Baloise en a deux, AXA en a trois. C'est précisément ce qui rend
+`carrier: null` fréquent ici : sur trente et un documents extraits, onze seulement nomment
+une entité identifiable, et « Baloise » ou « AXA » seuls ne permettent pas de choisir.
+
+Source : `AssurancesDirectes_AssureursLuxembourgeoisNonVie.csv` et
+`AssurancesDirectes_AssureursLuxembourgeoisVie.csv`, lus le 2026-08-03.
