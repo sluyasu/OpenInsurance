@@ -38,18 +38,18 @@ celle du marché vu du souscripteur, pas une nomenclature importée**.
 
 La distinction est ténue et le corpus en offre déjà un cas. Un contrat luxembourgeois liste
 *« Couvrir un emprunt »* parmi ses objectifs — ce qui pousserait à le classer ici — mais son capital
-est **explicitement constant**. Or le propre du solde restant dû est que le capital assuré **décroît
-avec l'amortissement du prêt**. Un capital constant qui sert accessoirement à rembourser un crédit
-est une [[Prévoyance et décès]], et c'est ainsi qu'il a été classé.
+est **explicitement constant**. Or les documents de cette branche décrivent tous un capital
+**dégressif**. Un capital constant qui sert accessoirement à rembourser un crédit est une
+[[Prévoyance et décès]], et c'est ainsi qu'il a été classé.
 
 Le critère opérant est donc : **le capital est-il dégressif, ou constant ?**
 
 **Formulé plus strictement, ce critère ne serait pas fondé.** Une première version de cette page
-demandait si « le capital suit le tableau d'amortissement ». Or **aucun des deux documents de la
-branche n'écrit « tableau d'amortissement », « plan d'amortissement » ni « échéancier »**. Le second
-dit « le capital assuré est **dégressif en fonction de la durée du contrat** » — de la durée *du
-contrat*, pas de celle du prêt — et ne relie le prêt à la garantie que par son objet, « rembourser
-le capital assuré du prêt hypothécaire ».
+demandait si « le capital suit le tableau d'amortissement ». Or **aucun document de la branche
+n'écrit « tableau d'amortissement », « plan d'amortissement » ni « échéancier »**. Le contrat
+Baloise dit « le capital assuré est **dégressif en fonction de la durée du contrat** » — de la durée
+*du contrat*, pas de celle du prêt — et ne relie le prêt à la garantie que par son objet,
+« rembourser le capital assuré du prêt hypothécaire ».
 
 L'indexation sur un tableau d'amortissement est donc une **inférence sur le mécanisme**, exacte en
 pratique mais absente du texte. La règle 4 impose de séparer les deux : le critère retenu ici est
