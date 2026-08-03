@@ -5,7 +5,7 @@ country: fr
 insurer_slug: macif
 name: Macif
 website: https://www.macif.fr
-products_count: 117
+products_count: 118
 branches_covered:
 - animaux
 - assurance-vie
@@ -42,7 +42,7 @@ generated: true
 
 ## Résumé
 
-**Macif** - [https://www.macif.fr](https://www.macif.fr). 117 document(s) across 20 branch(es).
+**Macif** - [https://www.macif.fr](https://www.macif.fr). 118 document(s) across 20 branch(es).
 
 ## Produits par branche
 
@@ -180,6 +180,7 @@ generated: true
 ### [Complémentaire santé](../branches/Compl%C3%A9mentaire%20sant%C3%A9.md)
 - [CONTRAT MACIF SANTÉ DES TERRITORIAUX - IPID](../products/macif/CONTRAT%20MACIF%20SANT%C3%89%20DES%20TERRITORIAUX%20-%20IPID.md) - IPID / Fiche d'information (2026-06)
 - [Complémentaire santé de la Branche de l'Aide, de l'Accompagnement des Soins et des Services à Domicile (Régime Général) ](../products/macif/Compl%C3%A9mentaire%20sant%C3%A9%20de%20la%20Branche%20de%20l%27Aide%2C%20de%20l%27Accompagnement%20des%20Soins%20et%20des%20Services%20%C3%A0%20Domicile%20%28R%C3%A9gime%20G%C3%A9n%C3%A9ral%29%20.md) - Fiche produit (01/2023) · réf. Santé Branche de l'Aide, de l'Accompagnement, des Soins et des Services à Domicile - Encart tarifaire RG - 01/2023
+- [GARANTIE HOSPITALISATION - IPID](../products/macif/GARANTIE%20HOSPITALISATION%20-%20IPID.md) - IPID / Fiche d'information (01/2022) · réf. DIPA GARANTIE HOSPITALISATION 01/2022
 - [Garantie Santé](../products/macif/Garantie%20Sant%C3%A9.md) - Conditions générales (2023-01) · réf. UNI/PREI/GS/05 01/23
 - [Garantie Santé Territoriaux - Fiche](../products/macif/Garantie%20Sant%C3%A9%20Territoriaux%20-%20Fiche.md) - Fiche produit (10.01.2022)
 - [MACIF HOSPITALISATION](../products/macif/MACIF%20HOSPITALISATION%20%282%29.md) - Conditions générales (01/24) · réf. U??? - UNI/PREI/MH/05 - 01/24

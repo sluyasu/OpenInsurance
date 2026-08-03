@@ -5,7 +5,7 @@ country: fr
 insurer_slug: maaf
 name: MAAF
 website: https://www.maaf.fr/
-products_count: 77
+products_count: 78
 branches_covered:
 - assurance-vie
 - auto
@@ -39,7 +39,7 @@ generated: true
 
 ## Résumé
 
-**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 77 document(s) across 17 branch(es).
+**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 78 document(s) across 17 branch(es).
 
 ## Produits par branche
 
@@ -150,6 +150,7 @@ generated: true
 - [Contrat Santé Vivazen](../products/maaf/Contrat%20Sant%C3%A9%20Vivazen.md) - Conditions générales (01/26) · réf. 2542
 - [Règlement Mutualiste MAAF Santé](../products/maaf/R%C3%A8glement%20Mutualiste%20MAAF%20Sant%C3%A9.md) - Conditions générales (2026-01) · réf. Réf. 18638 - 01/2026
 - [SANTÉ PROFIL SALARIÉS - Fiche](../products/maaf/SANT%C3%89%20PROFIL%20SALARI%C3%89S%20-%20Fiche.md) - Fiche produit (1er janvier 2026)
+- [VIVAZEN - IPID](../products/maaf/VIVAZEN%20-%20IPID.md) - IPID / Fiche d'information (2025-12) · réf. SAN25001
 
 ### [Scolaire et extrascolaire](../branches/Scolaire%20et%20extrascolaire.md)
 - [Assurance scolaire — Tableau des garanties - Fiche](../products/maaf/Assurance%20scolaire%20%E2%80%94%20Tableau%20des%20garanties%20-%20Fiche.md) - Fiche produit (06/2022)

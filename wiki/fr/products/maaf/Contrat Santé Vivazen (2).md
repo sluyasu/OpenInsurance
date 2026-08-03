@@ -715,6 +715,7 @@ Conformément à l'article L 221-11 du Code de la mutualité, toute action déri
 
 - Édition courante de ce produit.
 - [Contrat Santé Vivazen](Contrat%20Sant%C3%A9%20Vivazen.md) - Conditions générales, éd. 01/26
+- [VIVAZEN - IPID](VIVAZEN%20-%20IPID.md) - IPID / Fiche d'information, éd. 2025-12
 
 ## Source & fidélité
 

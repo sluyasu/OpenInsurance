@@ -1,0 +1,560 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "macif",
+  "insurer_name": "Macif",
+  "product_name": "GARANTIE HOSPITALISATION",
+  "branch": "sante",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": "particuliers",
+  "target_audience_note": "Le document ne nomme pas de catégorie d'audience. Conditions d'adhésion énoncées : « être âgé de plus de 16 ans et avoir la capacité de contracter, résider en France métropolitaine ou dans un département ou une région d'outre-mer et être affilié à un régime obligatoire français d'assurance maladie » (page 2).",
+  "reference": "DIPA GARANTIE HOSPITALISATION 01/2022",
+  "edition_date": "01/2022",
+  "product_family": "Garantie Hospitalisation",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_garantie_hospitalisation.pdf",
+  "source_pdf": "contrat-garantie-hospitalisation-a643c20d.pdf",
+  "source_sha256": "2e18cfb12a9fd5f2faeef39e8e820cbe3756b4dc2cc3ded68a1e6b449e2df419",
+  "source_pages": 2,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d'information sur le produit d'assurance (DIPA) du contrat Garantie Hospitalisation, assurance complémentaire hospitalisation assurée par Apivia Macif Mutuelle (SIREN n°779 558 501), mutuelle régie par le Livre II du Code de la mutualité. Le contrat rembourse, en complément de la Sécurité sociale française, tout ou partie des frais de santé restant à la charge de l'assuré et de ses ayants droit bénéficiaires engagés dans le cadre d'une hospitalisation (hospitalisation à domicile incluse), en cas d'accident, de maladie ou de maternité. Il comprend des garanties frais de santé exprimées en pourcentage de la base de remboursement de la Sécurité sociale ou en euros, des garanties d'assistance et des services (réseau de soins, tiers payant), tous systématiquement prévus au contrat.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Honoraires chirurgicaux et médicaux",
+      "description": "Garantie frais de santé systématiquement prévue au contrat, exprimée en pourcentage par rapport aux bases de remboursement de la Sécurité sociale et en incluant le remboursement de l'assurance maladie obligatoire.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus). Dans le cas où les soins ont été dispensés à l'étranger, le remboursement se fait sur la base de remboursement du régime d'Assurance maladie obligatoire français, quelle que soit la dépense engagée.",
+      "limits": "200 %",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Les montants de prestations prises en charge au titre du contrat sont soumis à des plafonds détaillés. Ils ne peuvent être plus élevés que les dépenses engagées. Certaines sommes peuvent rester à votre charge.",
+        "L'hospitalisation nécessite que l'assuré passe au moins une nuit dans l'établissement hospitalier."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Analyses et examens de laboratoire",
+      "description": "Garantie frais de santé systématiquement prévue au contrat, exprimée en pourcentage par rapport aux bases de remboursement de la Sécurité sociale et en incluant le remboursement de l'assurance maladie obligatoire.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus).",
+      "limits": "100 %",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "L'hospitalisation nécessite que l'assuré passe au moins une nuit dans l'établissement hospitalier."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Radiologie",
+      "description": "Garantie frais de santé systématiquement prévue au contrat, exprimée en pourcentage par rapport aux bases de remboursement de la Sécurité sociale et en incluant le remboursement de l'assurance maladie obligatoire.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus).",
+      "limits": "100 %",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "L'hospitalisation nécessite que l'assuré passe au moins une nuit dans l'établissement hospitalier."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Honoraires paramédicaux",
+      "description": "Garantie frais de santé systématiquement prévue au contrat, exprimée en pourcentage par rapport aux bases de remboursement de la Sécurité sociale et en incluant le remboursement de l'assurance maladie obligatoire.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus).",
+      "limits": "100 %",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "L'hospitalisation nécessite que l'assuré passe au moins une nuit dans l'établissement hospitalier."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Participation forfaitaire sur les actes techniques égaux ou supérieurs à 120 €",
+      "description": "Garantie systématiquement prévue au contrat, listée parmi les garanties frais de santé. Le document ne chiffre pas le niveau de prise en charge de cette participation forfaitaire.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus).",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "L'hospitalisation nécessite que l'assuré passe au moins une nuit dans l'établissement hospitalier."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Frais de transport",
+      "description": "Garantie frais de santé systématiquement prévue au contrat, exprimée en pourcentage par rapport aux bases de remboursement de la Sécurité sociale et en incluant le remboursement de l'assurance maladie obligatoire.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus).",
+      "limits": "100 %",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "L'hospitalisation nécessite que l'assuré passe au moins une nuit dans l'établissement hospitalier."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Frais de séjour",
+      "description": "Garantie frais de santé systématiquement prévue au contrat, exprimée en pourcentage par rapport aux bases de remboursement de la Sécurité sociale et en incluant le remboursement de l'assurance maladie obligatoire.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus).",
+      "limits": "100 %",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "L'hospitalisation nécessite que l'assuré passe au moins une nuit dans l'établissement hospitalier."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Forfait journalier hospitalier",
+      "description": "Garantie frais de santé systématiquement prévue au contrat : remboursement intégral du forfait journalier hospitalier.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus).",
+      "limits": "Remboursement intégral",
+      "sub_limits": [
+        "la prise en charge du forfait journalier hospitalier est limité à 90 jours par année civile et par assuré dans le cas d'une affection psycho-pathologique"
+      ],
+      "deductible": null,
+      "conditions": [
+        "L'hospitalisation nécessite que l'assuré passe au moins une nuit dans l'établissement hospitalier."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Chambre particulière",
+      "description": "Garantie frais de santé systématiquement prévue au contrat, exprimée en euros par jour.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus).",
+      "limits": "50 €/ jour",
+      "sub_limits": [
+        "Chambre particulière ou accompagnant : remboursement limité à 90 jours par année civile."
+      ],
+      "deductible": null,
+      "conditions": [
+        "L'hospitalisation nécessite que l'assuré passe au moins une nuit dans l'établissement hospitalier.",
+        "Les soins et frais réalisés dans le cadre d'une hospitalisation ambulatoire, y compris la chambre particulière, sont exclus."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Chambre accompagnant de l'assuré",
+      "description": "Garantie frais de santé systématiquement prévue au contrat, exprimée en euros par jour.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus).",
+      "limits": "20 €/ jour",
+      "sub_limits": [
+        "Chambre particulière ou accompagnant : remboursement limité à 90 jours par année civile."
+      ],
+      "deductible": null,
+      "conditions": [
+        "L'hospitalisation nécessite que l'assuré passe au moins une nuit dans l'établissement hospitalier.",
+        "Les soins et frais réalisés dans le cadre d'une hospitalisation ambulatoire, y compris la chambre accompagnant, sont exclus."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance en cas d'hospitalisation ou d'immobilisation à domicile",
+      "description": "Garantie d'assistance systématiquement prévue au contrat.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance s'appliquent en France (hors départements et régions d'outre mer) y compris Andorre et Principauté de Monaco.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Assistance en cas de naissance ou d'adoption",
+      "description": "Garantie d'assistance systématiquement prévue au contrat.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance s'appliquent en France (hors départements et régions d'outre mer) y compris Andorre et Principauté de Monaco.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Assistance en cas de pathologies lourdes",
+      "description": "Garantie d'assistance systématiquement prévue au contrat.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance s'appliquent en France (hors départements et régions d'outre mer) y compris Andorre et Principauté de Monaco.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Assistance en cas d'obsèques",
+      "description": "Garantie d'assistance systématiquement prévue au contrat.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance s'appliquent en France (hors départements et régions d'outre mer) y compris Andorre et Principauté de Monaco.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Informations et conseils",
+      "description": "Garantie d'assistance systématiquement prévue au contrat : soutien psychologique, conseils médicaux, sociaux, informations juridiques.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance s'appliquent en France (hors départements et régions d'outre mer) y compris Andorre et Principauté de Monaco.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Assistance dédiée aux aidants",
+      "description": "Garantie d'assistance systématiquement prévue au contrat.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance s'appliquent en France (hors départements et régions d'outre mer) y compris Andorre et Principauté de Monaco.",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Réseau de soins",
+      "description": "Service systématiquement prévu au contrat.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Tiers payant",
+      "description": "Service systématiquement prévu au contrat.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Les soins reçus en dehors de la période de validité du contrat",
+      "description": "Rubrique « Qu'est-ce qui n'est pas assuré ? ».",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Les indemnités journalières versées en complément de la Sécurité sociale en cas d'arrêt de travail",
+      "description": "Rubrique « Qu'est-ce qui n'est pas assuré ? ».",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Les dépenses de soins afférentes aux séjours dans une unité de soins longue durée ou dans les établissements médico-sociaux tels que les établissements d'hébergement pour personnes âgées (EHPAD)",
+      "description": "Rubrique « Qu'est-ce qui n'est pas assuré ? ».",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Les frais de santé engagés en dehors de toute hospitalisation",
+      "description": "Rubrique « Qu'est-ce qui n'est pas assuré ? ».",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Les frais d'hospitalisation non pris en charge par le Régime obligatoire de la Sécurité sociale",
+      "description": "Rubrique « Y a-t-il des exclusions à la couverture ? » — LES PRINCIPALES EXCLUSIONS.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Les soins et frais réalisés dans le cadre d'une hospitalisation ambulatoire y compris le forfait patient urgences, la chambre particulière et la chambre accompagnant",
+      "description": "Rubrique « Y a-t-il des exclusions à la couverture ? » — LES PRINCIPALES EXCLUSIONS.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Les franchises médicales sur les médicaments, les actes paramédicaux et les transports",
+      "description": "Rubrique « Y a-t-il des exclusions à la couverture ? » — LES PRINCIPALES EXCLUSIONS.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "La participation forfaitaire d'un euro sur les consultations et actes médicaux, examens radiologiques et analyses de laboratoire",
+      "description": "Rubrique « Y a-t-il des exclusions à la couverture ? » — LES PRINCIPALES EXCLUSIONS.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "La majoration du ticket modérateur lorsque l'assuré ne respecte pas le parcours de soins",
+      "description": "Rubrique « Y a-t-il des exclusions à la couverture ? » — LES PRINCIPALES EXCLUSIONS.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Les dépassements d'honoraires pratiqués par les médecins lorsque l'assuré ne respecte pas le parcours de soins",
+      "description": "Rubrique « Y a-t-il des exclusions à la couverture ? » — LES PRINCIPALES EXCLUSIONS.",
+      "applies_to": "all",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": null,
+    "per_coverage": null,
+    "page": null
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Conditions d'adhésion",
+      "description": "être âgé de plus de 16 ans et avoir la capacité de contracter, résider en France métropolitaine ou dans un département ou une région d'outre-mer et être affilié à un régime obligatoire français d'assurance maladie",
+      "timing": "À la souscription",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    },
+    {
+      "name": "Demande d'assurance",
+      "description": "remplir avec exactitude la demande d'assurance et la signer",
+      "timing": "À la souscription",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    },
+    {
+      "name": "Pièces justificatives",
+      "description": "fournir une copie de sa pièce d'identité ainsi que la copie de l'attestation de carte vitale de chaque assuré",
+      "timing": "À la souscription",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    },
+    {
+      "name": "Mandat SEPA",
+      "description": "remplir le mandat SEPA et fournir un relevé d'identité bancaire en cas de paiement des cotisations par prélèvement",
+      "timing": "À la souscription",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    },
+    {
+      "name": "Paiement de la cotisation",
+      "description": "payer la cotisation prévue au contrat",
+      "timing": "Durant le contrat",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    },
+    {
+      "name": "Justificatifs de prestations",
+      "description": "fournir tout document justificatif nécessaire au paiement des prestations prévues au contrat",
+      "timing": "Durant le contrat",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    },
+    {
+      "name": "Délai de demande de remboursement",
+      "description": "faire parvenir les demandes de remboursement à l'assureur dans un délai maximum de 2 ans suivant la date de remboursement des soins par le Régime obligatoire ou la date de l'évènement à indemniser ou de sa date de facturation",
+      "timing": "Durant le contrat",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    },
+    {
+      "name": "Expertise médicale",
+      "description": "le cas échéant, se soumettre à l'expertise médicale demandée par l'assureur",
+      "timing": "Durant le contrat",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    },
+    {
+      "name": "Signalement des changements de situation",
+      "description": "signaler tout changement de situation (régime de Sécurité sociale d'un des assurés, changement de domicile ou de situation familiale, etc…) ou de coordonnées bancaires et produire les justificatifs nécessaires à la modification du contrat. Ce changement peut, dans certains cas, entraîner la modification du contrat et de la cotisation initialement prévue.",
+      "timing": "Durant le contrat",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Envoi de la demande de remboursement",
+      "description": "faire parvenir les demandes de remboursement à l'assureur dans un délai maximum de 2 ans suivant la date de remboursement des soins par le Régime obligatoire ou la date de l'évènement à indemniser ou de sa date de facturation",
+      "deadline": "2 ans",
+      "page": 2
+    },
+    {
+      "step": "Expertise médicale",
+      "description": "le cas échéant, se soumettre à l'expertise médicale demandée par l'assureur",
+      "deadline": null,
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat prend effet à la date mentionnée sur la demande d'adhésion. Sa durée est d'un an.",
+    "tacit_renewal": true,
+    "notice_period": "à l'échéance annuelle, moyennant un préavis de 2 mois avant le 31 décembre de l'année en cours",
+    "methods": [
+      "La demande de résiliation doit être adressée par lettre ou tout autre moyen prévu à l'article L.221-10-3 du Code de la mutualité et notamment par courrier postal à l'adresse figurant sur votre carte de tiers payant, par courrier électronique, par déclaration en point d'accueil physique Macif ou via l'Espace Assurance sur le site www.macif.fr.",
+      "La mutuelle confirmera par écrit à l'adhérent avoir reçu sa demande de résiliation."
+    ],
+    "special_rights": [
+      "L'adhérent dispose d'un délai de renonciation de 30 jours à compter de la prise d'effet du contrat.",
+      "à tout moment après expiration d'un délai d'un an à compter de la première souscription. La résiliation prendra effet à la date précisée dans l'avis de résiliation et au plus tôt un mois après réception de la demande",
+      "en cas d'augmentation des cotisations, notamment à la suite d'une modification de votre situation, dans un délai d'un mois à compter de la date de réception du nouvel avis d'échéance",
+      "en cas de modification des garanties à la suite d'une évolution de la réglementation ou d'une décision de la mutuelle, dans un délai d'un mois à compter du jour où cette modification est notifiée à l'adhérent",
+      "Il se renouvelle par tacite reconduction chaque année au 1er janvier sauf résiliation par l'une des parties dans les cas et conditions fixés au contrat."
+    ],
+    "page": 2
+  },
+  "prescription_period": {
+    "description": null,
+    "page": null
+  },
+  "premium": {
+    "notes": [
+      "La cotisation est annuelle et payable d'avance. Elle est due à l'échéance jusqu'à la résiliation du contrat.",
+      "Le paiement de la cotisation est exigible dans les 10 jours de son échéance. En cas de non paiement au-delà de ce délai, et après une mise en demeure restée sans effet, l'assureur pourra être amené à résilier le contrat.",
+      "Les cotisations peuvent être réglées par mandat de prélèvement SEPA ou par chèque (uniquement pour le prélèvement annuel).",
+      "Il est possible de demander le fractionnement du paiement de la cotisation (semestriel, trimestriel ou mensuel). Aucuns frais de fractionnement ne sont alors appliqués."
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Restriction — condition d'hospitalisation",
+      "description": "LES PRINCIPALES RESTRICTIONS : L'hospitalisation nécessite que l'assuré passe au moins une nuit dans l'établissement hospitalier.",
+      "page": 1
+    },
+    {
+      "name": "Restriction — forfait journalier hospitalier",
+      "description": "LES PRINCIPALES RESTRICTIONS : Forfait journalier hospitalier : la prise en charge du forfait journalier hospitalier est limité à 90 jours par année civile et par assuré dans le cas d'une affection psycho-pathologique.",
+      "page": 1
+    },
+    {
+      "name": "Restriction — chambre particulière ou accompagnant",
+      "description": "LES PRINCIPALES RESTRICTIONS : Chambre particulière ou accompagnant : remboursement limité à 90 jours par année civile.",
+      "page": 1
+    },
+    {
+      "name": "Plafonds de prestations",
+      "description": "Les montants de prestations prises en charge au titre du contrat sont soumis à des plafonds ci-dessous détaillés. Ils ne peuvent être plus élevés que les dépenses engagées. Certaines sommes peuvent rester à votre charge.",
+      "page": 1
+    },
+    {
+      "name": "Porteur du risque",
+      "description": "Ce contrat est assuré par Apivia Macif Mutuelle (SIREN n°779 558 501), mutuelle enregistrée en France et régie par le Livre II du Code de la mutualité.",
+      "page": 1
+    },
+    {
+      "name": "Cessation des garanties",
+      "description": "Les garanties cessent : en cas de résiliation par l'adhérent ; en cas de non-paiement des cotisations ; en cas de modification de la situation d'un assuré entraînant une augmentation des cotisations, si l'adhérent refuse cette augmentation ; en cas de modification des garanties à la suite d'une évolution de la réglementation ou d'une décision de la mutuelle ; si l'adhérent refuse cette modification.",
+      "page": 2
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Le contrat Garantie Hospitalisation est destiné à rembourser, en complément de la Sécurité sociale française, tout ou partie des frais de santé restant à la charge de \nl’assuré et de ses éventuels ayants droit bénéficiaires, engagés dans le cadre d’une hospitalisation (hospitalisation à domicile incluse), en cas d’accident, de maladie \nou de maternité.",
+      "context": "De quel type d'assurance s'agit-il ?",
+      "page": 1
+    },
+    {
+      "quote": "Ce contrat est assuré par Apivia Macif Mutuelle (SIREN n°779 558 501), mutuelle enregistrée en France et régie par \nle Livre II du Code de la mutualité.",
+      "context": "Bandeau de tête — porteur du risque",
+      "page": 1
+    },
+    {
+      "quote": "Les garanties frais de santé ci-dessous sont exprimées soit en pourcentage \n(par rapport aux bases de remboursement de la Sécurité sociale et en \nincluant le remboursement de l’assurance maladie obligatoire), soit en \neuros.",
+      "context": "Qu'est-ce qui est assuré ?",
+      "page": 1
+    },
+    {
+      "quote": "Les frais d’hospitalisation non pris en charge par le Régime obligatoire \nde la Sécurité sociale.",
+      "context": "LES PRINCIPALES EXCLUSIONS",
+      "page": 1
+    },
+    {
+      "quote": "Les soins et frais réalisés dans le cadre d’une hospitalisation ambulatoire y \ncompris le forfait patient urgences, la chambre particulière et la chambre \naccompagnant.",
+      "context": "LES PRINCIPALES EXCLUSIONS",
+      "page": 1
+    },
+    {
+      "quote": "La majoration du ticket modérateur lorsque l’assuré ne respecte pas le \nparcours de soins.",
+      "context": "LES PRINCIPALES EXCLUSIONS",
+      "page": 1
+    },
+    {
+      "quote": "nécessite que l’assuré passe au moins une nuit dans \nl’établissement hospitalier.",
+      "context": "LES PRINCIPALES RESTRICTIONS — hospitalisation",
+      "page": 1
+    },
+    {
+      "quote": "la prise en charge du forfait journalier \nhospitalier est limité à 90 jours par année civile et par assuré dans le cas \nd’une affection psycho-pathologique.",
+      "context": "LES PRINCIPALES RESTRICTIONS — forfait journalier",
+      "page": 1
+    },
+    {
+      "quote": "remboursement limité à 90 \njours par année civile.",
+      "context": "LES PRINCIPALES RESTRICTIONS — chambre particulière ou accompagnant",
+      "page": 1
+    },
+    {
+      "quote": "Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie obligatoire \nfrançais, quelle que soit la dépense engagée.",
+      "context": "Où suis-je couvert(e) ?",
+      "page": 1
+    },
+    {
+      "quote": "Les garanties d’assistance s’appliquent en France (hors départements et régions d’outre mer) y compris Andorre et Principauté de Monaco.",
+      "context": "Où suis-je couvert(e) ?",
+      "page": 1
+    },
+    {
+      "quote": "Le contrat prend effet à la date mentionnée sur la demande d’adhésion. Sa durée est d’un an. Il se renouvelle par tacite reconduction chaque année au \n1er janvier sauf résiliation par l’une des parties dans les cas et conditions fixés au contrat.",
+      "context": "Quand commence la couverture et quand prend-elle fin ?",
+      "page": 2
+    },
+    {
+      "quote": "L’adhérent dispose d’un délai de renonciation de 30 jours à compter de la prise d’effet du contrat.",
+      "context": "Quand commence la couverture et quand prend-elle fin ?",
+      "page": 2
+    },
+    {
+      "quote": "faire parvenir les demandes de remboursement à l’assureur dans un délai maximum de 2 ans suivant la date de remboursement des soins par le Régime \nobligatoire ou la date de l’évènement à indemniser ou de sa date de facturation",
+      "context": "Quelles sont mes obligations ? — Durant le contrat",
+      "page": 2
+    },
+    {
+      "quote": "être âgé de plus de 16 ans et avoir la capacité de contracter, résider en France métropolitaine ou dans un département ou une région d’outre-mer et \nêtre affilié à un régime obligatoire français d’assurance maladie",
+      "context": "Quelles sont mes obligations ? — À la souscription",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "CONTRÔLE D'INVERSION DE COLONNES : NÉGATIF sur ce document. Le texte plat émet la colonne gauche (Qu'est-ce qui est assuré ?) entièrement avant la colonne droite (Qu'est-ce qui n'est pas assuré ? / Y a-t-il des exclusions ?). Coupure de colonnes mesurée : x max de fin de colonne gauche = 290,1 pt, x min de début de colonne droite = 307,1 pt sur une page de 595,3 pt de large. Aucun item entrelacé, aucun encadré débordant.",
+    "MARQUEURS : ce sont des IMAGES BITMAP, invisibles à get_text et à get_drawings. Rattachement fait item par item sur l'ordonnée/abscisse de chaque image. Tri sur la forme et les dimensions d'abord, couleur en confirmation : coche verte 5,1 × 5,7 pt RVB (57,180,73) x0=29,6 — 19 occurrences (18 items couverts + 1 dans la légende à x0=225,8) ; croix rouge 4,9 × 5,0 pt RVB (236,30,38) x0=307,2 — 4 occurrences ; point d'exclamation orange 1,9 × 7,1 pt RVB (240,89,43) x0=308,1 — 9 occurrences ; pictogramme bleu 5,7 × 5,7 pt RVB (0,81,156) x0=29,3 — 3 occurrences (couverture territoriale). Les comptes ferment section par section : garanties 10 marques / 10 items, assistance 6/6, services 2/2, « n'est pas assuré » 4/4, principales exclusions 6/6, principales restrictions 3/3, territorial 3/3.",
+    "La légende du document confirme la polarité de la coche : « Les garanties ou services précédés d'une coche verte [image] sont systématiquement prévus au contrat. » Aucune seconde teinte de vert, de rouge ou d'orange trouvée ailleurs dans le document ; aucune teinte ne recouvre deux polarités.",
+    "Le bandeau de tête (titre « Assurance Complémentaire Hospitalisation », mention de l'assureur, ligne « Produit : ») est en blanc sur fond de couleur et est émis EN DERNIER dans le texte plat de la page 1, alors qu'il est imprimé en haut de page. Idem pour « Où suis-je couvert(e) ? », imprimé en bas de page et émis après le bandeau. Sans conséquence sur les rattachements.",
+    "Le calque texte contient des caractères de contrôle U+0007 (BEL) à l'emplacement des puces, ainsi que des tabulations, à l'intérieur même des lignes de garantie et d'exclusion. Ils sont conservés tels quels dans les citations lorsqu'ils tombent à l'intérieur d'un span ; les citations ont été découpées pour les éviter quand c'était possible. Aucun texte n'est vectorisé sur ce document : le nombre d'items lus égale le nombre de marqueurs, et tout le texte des trois encadrés est bien présent dans le calque.",
+    "Le glyphe € est correctement extrait sur ce document (« 50 €/ jour », « 20 €/ jour », « à 120 € ») : le défaut de disparition du symbole monétaire mesuré ailleurs chez cet éditeur ne s'applique pas ici.",
+    "Une seule ligne d'édition existe dans le calque texte (« DIPA GARANTIE HOSPITALISATION 01/2022 », texte pivoté à x0=574,1 pt en marge droite) : pas de doublon fantôme à arbitrer.",
+    "PORTEUR DU RISQUE : lu au verbe — « Ce contrat est assuré par Apivia Macif Mutuelle (SIREN n°779 558 501) ». Apivia Macif Mutuelle est donc le porteur, et non Macif elle-même ; l'insurer_name et l'insurer_slug sont ceux fournis par la tâche. Le document ne nomme aucun autre assureur, gestionnaire ni assisteur (la société d'assistance qui exécute les garanties d'assistance n'est pas nommée).",
+    "La garantie « Participation forfaitaire sur les actes techniques égaux ou supérieurs à 120 € » est listée sans niveau de prise en charge chiffré : limits laissé null plutôt que déduit.",
+    "Le document ne mentionne ni franchise générale, ni délai d'attente/stage, ni délai de prescription : ces champs restent vides. Il renvoie pour les niveaux de remboursement au tableau de garanties, qui n'est pas dans ce PDF (« les niveaux de remboursement seront détaillés dans le tableau de garanties »).",
+    "Les trois « PRINCIPALES RESTRICTIONS » ne sont pas des exclusions au sens strict : elles sont enregistrées dans special_conditions et répercutées dans sub_limits/conditions des garanties concernées, et non dans exclusions.",
+    "target_audience : le document ne nomme aucune catégorie d'audience. « particuliers » retenu sur la base des conditions d'adhésion citées page 2 (personne physique de plus de 16 ans, résidant en France, affiliée à un régime obligatoire français), reproduites verbatim dans target_audience_note."
+  ]
+}

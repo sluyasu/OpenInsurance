@@ -5,7 +5,7 @@ country: fr
 insurer_slug: smacl
 name: SMACL Assurances
 website: https://www.smacl.fr
-products_count: 90
+products_count: 92
 branches_covered:
 - auto
 - autres
@@ -36,7 +36,7 @@ generated: true
 
 ## Résumé
 
-**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 90 document(s) across 14 branch(es).
+**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 92 document(s) across 14 branch(es).
 
 ## Produits par branche
 
@@ -111,6 +111,7 @@ generated: true
 - [CONVERGENCE Tous risques instruments de musique (Associatons)](../products/smacl/CONVERGENCE%20Tous%20risques%20instruments%20de%20musique%20%28Associatons%29.md) - Conditions générales (01/2024) · réf. CONVERGENCE_CS_INSTRUMENTS_SA_01(06_2015)
 - [CONVERGENCE Tous risques objets (Associatons)](../products/smacl/CONVERGENCE%20Tous%20risques%20objets%20%28Associatons%29.md) - Conditions générales (01/2024) · réf. CONVERGENCE_CS_TRO_SA_04_(05_2016)
 - [Convergence dommages aux biens - IPID](../products/smacl/Convergence%20dommages%20aux%20biens%20-%20IPID.md) - IPID / Fiche d'information (01/2024) · réf. CONVERGENCE_DIPA_DAB_SA_04(09_2022)
+- [Multirisques patrimoine - IPID](../products/smacl/Multirisques%20patrimoine%20-%20IPID.md) - IPID / Fiche d'information (01/2024) · réf. ENTREPRISE_DIPA_MultiPatrimoine
 - [Votre barème de remboursement des honoraires d'expert d'assuré en Dommages aux biens - Tarifs](../products/smacl/Votre%20bar%C3%A8me%20de%20remboursement%20des%20honoraires%20d%27expert%20d%27assur%C3%A9%20en%20Dommages%20aux%20biens%20-%20Tarifs.md) - Conditions tarifaires (01/2024) · réf. BAREME_EXPERT_ASSURE_DAB_(10-2012)
 
 ### [Navigation de plaisance](../branches/Navigation%20de%20plaisance.md)
@@ -146,6 +147,7 @@ generated: true
 - [Responsabilité civile vie privée](../products/smacl/Responsabilit%C3%A9%20civile%20vie%20priv%C3%A9e%20%28SMACL%20Assurances%29.md) - Conditions générales (11/2022) · réf. PP_CG_RC_05(02_2023)
 
 ### [RC professionnelle](../branches/RC%20professionnelle.md)
+- [Aléassur - assurance Responsabilités - IPID](../products/smacl/Al%C3%A9assur%20-%20assurance%20Responsabilit%C3%A9s%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. ALEASSUR_DIPA_RC_03(09_2022)
 - [CONVERGENCE - Conventions spéciales Responsabilité civile](../products/smacl/CONVERGENCE%20-%20Conventions%20sp%C3%A9ciales%20Responsabilit%C3%A9%20civile.md) - Conditions générales (01/2024) · réf. CONVERGENCE_CS_RC_SA_02_(08_2016)
 - [Cadre d'assurance des risques environnementaux des collectivités](../products/smacl/Cadre%20d%27assurance%20des%20risques%20environnementaux%20des%20collectivit%C3%A9s.md) - Conditions générales (01/2024) · réf. RISQUESENVIRONNEMENT_CG_CARE_COLLECTIVITES_05(02_2023)
 - [Convergence - Responsabilité civile - IPID](../products/smacl/Convergence%20-%20Responsabilit%C3%A9%20civile%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. CONVERGENCE_DIPA_RC_SA_03(09_2022)
