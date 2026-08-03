@@ -58,8 +58,16 @@ le contrat.
 
 ## État de la documentation
 
-**Un produit est documenté dans cette branche** : *Assurance Solde Restant Dû – Assurance
-hypothécaire*, un document d'information (IPID), en français.
+**Deux produits sont documentés dans cette branche**, un par porteur, et leur comparaison est déjà
+instructive.
+
+Le second, arrivé avec Baloise, est le **seul document de son éditeur à nommer l'entité vie** :
+« Compagnie : Baloise Vie Luxembourg S.A. », là où ses trente-trois frères nomment l'entité non-vie.
+Le principe de spécialisation luxembourgeois — une société n'écrit pas à la fois la vie et la
+non-vie — se lit donc directement dans le document, et pas seulement au registre du [[CAA]].
+
+Le premier est *Assurance Solde Restant Dû – Assurance hypothécaire*, un document d'information
+(IPID), en français.
 
 Ce qu'il permet déjà de dire, et rien de plus :
 

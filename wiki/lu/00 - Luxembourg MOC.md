@@ -76,6 +76,30 @@ Et l'identification peut dépendre de **quelle page on regarde** : des condition
 La règle de ce projet — lire le porteur dans le document, jamais dans la marque — donne donc ici
 `carrier: null` plus souvent qu'ailleurs. **C'est la lecture exacte, pas une extraction incomplète.**
 
+### Mais ce n'est pas une fatalité du marché : c'est un choix d'éditeur
+
+Le second porteur entré dans le corpus le démontre. Mesuré de la même façon, sur le texte des PDF :
+
+| Porteur | Documents | Nomment une entité agréée |
+|---|---|---|
+| lalux | 90 | **4** (4 %) |
+| Baloise | 34 | **33** (97 %) |
+
+Baloise imprime « Compagnie : » — « Gesellschaft : » en allemand — **en tête de chaque page**, sur
+des documents du même format IPID, chez un porteur soumis au même superviseur et à la même loi. Et
+il ne nomme **aucun** gestionnaire de sinistres, assisteur, courtier ou distributeur : le piège des
+douze documents lalux n'a ici aucune prise, faute de mauvais candidat.
+
+**Le constat « un IPID ne nomme pas son assureur » était donc une observation sur un éditeur, pas
+sur le format.** Le format ne l'interdit pas ; un éditeur le fait, l'autre non.
+
+Mieux : la spécialisation légale se lit dans les documents. Baloise a deux entités agréées, et **un
+seul de ses trente-quatre documents nomme l'entité vie** — celui du [[Solde restant dû]], seule
+branche vie du lot, qui imprime « Compagnie : Baloise Vie Luxembourg S.A. ». Les trente-trois autres
+nomment l'entité non-vie. Le principe de spécialisation luxembourgeois, qui interdit à une même
+société d'écrire vie et non-vie, n'est pas seulement au registre : il est imprimé, document par
+document.
+
 ## Branches
 
 La segmentation est celle du marché luxembourgeois vu du souscripteur. Chaque branche porte le
@@ -106,7 +130,7 @@ Quatre absences sont délibérées, chacune vérifiée dans le texte :
 ## Assureurs
 
 <!-- BEGIN GENERATED: insurers -->
-- [Baloise Luxembourg](insurers/Baloise%20Luxembourg.md) (30 documents)
+- [Baloise Luxembourg](insurers/Baloise%20Luxembourg.md) (33 documents)
 - [lalux](insurers/lalux.md) (90 documents)
 <!-- END GENERATED -->
 
