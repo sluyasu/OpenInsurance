@@ -5,7 +5,7 @@ country: fr
 insurer_slug: maaf
 name: MAAF
 website: https://www.maaf.fr/
-products_count: 76
+products_count: 77
 branches_covered:
 - assurance-vie
 - auto
@@ -39,7 +39,7 @@ generated: true
 
 ## Résumé
 
-**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 76 document(s) across 17 branch(es).
+**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 77 document(s) across 17 branch(es).
 
 ## Produits par branche
 
@@ -87,6 +87,7 @@ generated: true
 - [TEMPO HABITATION Logement donné en location - IPID](../products/maaf/TEMPO%20HABITATION%20Logement%20donn%C3%A9%20en%20location%20-%20IPID.md) - IPID / Fiche d'information (2025-03) · réf. HAB11029
 - [TEMPO HABITATION Résidence principale Résidence secondaire - IPID](../products/maaf/TEMPO%20HABITATION%20R%C3%A9sidence%20principale%20R%C3%A9sidence%20secondaire%20-%20IPID.md) - IPID / Fiche d'information (2026-03) · réf. MU0_IPIDHA_00-260315-f5Wn0x-1-1-2-05:03:16- HAB11001
 - [Tempo Habitation - Fiche](../products/maaf/Tempo%20Habitation%20-%20Fiche.md) - Fiche produit (06/2022)
+- [Tempo Habitation (DROM)](../products/maaf/Tempo%20Habitation%20%28DROM%29.md) - Conditions générales (01/23) · réf. Réf. 3845 - 01/23
 - [Tempo Habitation](../products/maaf/Tempo%20Habitation.md) - Conditions générales (03/26) · réf. 2339
 - [Tempo Habitation en construction](../products/maaf/Tempo%20Habitation%20en%20construction.md) - Conditions générales (2026-01) · réf. Réf. 2340 - 01/26
 - [Tempo Habitation — Logement donné en location](../products/maaf/Tempo%20Habitation%20%E2%80%94%20Logement%20donn%C3%A9%20en%20location.md) - Conditions générales (03/25) · réf. 2341

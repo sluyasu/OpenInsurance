@@ -167,7 +167,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [2R Liberté](../products/matmut/2R%20Libert%C3%A9.md) - [Matmut](../insurers/Matmut.md)
 - [Contrat Multirisques « 2R Liberté » - IPID](../products/matmut/Contrat%20Multirisques%20%C2%AB%202R%20Libert%C3%A9%20%C2%BB%20-%20IPID.md) - [Matmut](../insurers/Matmut.md)
 
-### [Multirisque habitation](Multirisque%20habitation.md) (96)
+### [Multirisque habitation](Multirisque%20habitation.md) (97)
 - [Assurance Habitation Direct Assurance - IPID](../products/direct-assurance/Assurance%20Habitation%20Direct%20Assurance%20-%20IPID.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [Contrat Habitation](../products/direct-assurance/Contrat%20Habitation.md) - [Direct Assurance](../insurers/Direct%20Assurance.md)
 - [Assurance multirisques habitation - Doc](../products/groupama/Assurance%20multirisques%20habitation%20-%20Doc.md) - [Groupama](../insurers/Groupama.md)
@@ -193,6 +193,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [TEMPO HABITATION Logement donné en location - IPID](../products/maaf/TEMPO%20HABITATION%20Logement%20donn%C3%A9%20en%20location%20-%20IPID.md) - [MAAF](../insurers/MAAF.md)
 - [TEMPO HABITATION Résidence principale Résidence secondaire - IPID](../products/maaf/TEMPO%20HABITATION%20R%C3%A9sidence%20principale%20R%C3%A9sidence%20secondaire%20-%20IPID.md) - [MAAF](../insurers/MAAF.md)
 - [Tempo Habitation - Fiche](../products/maaf/Tempo%20Habitation%20-%20Fiche.md) - [MAAF](../insurers/MAAF.md)
+- [Tempo Habitation (DROM)](../products/maaf/Tempo%20Habitation%20%28DROM%29.md) - [MAAF](../insurers/MAAF.md)
 - [Tempo Habitation](../products/maaf/Tempo%20Habitation.md) - [MAAF](../insurers/MAAF.md)
 - [Tempo Habitation en construction](../products/maaf/Tempo%20Habitation%20en%20construction.md) - [MAAF](../insurers/MAAF.md)
 - [Tempo Habitation — Logement donné en location](../products/maaf/Tempo%20Habitation%20%E2%80%94%20Logement%20donn%C3%A9%20en%20location.md) - [MAAF](../insurers/MAAF.md)
