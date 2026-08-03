@@ -1,0 +1,373 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "smacl",
+  "insurer_name": "SMACL Assurances",
+  "product_name": "Sécurité élus",
+  "branch": "rc-professionnelle",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": "secteur_public",
+  "target_audience_note": "« Ce contrat, destiné aux élus des collectivités territoriales et des établissements publics, a pour objet de garantir, dans le cadre de ses fonctions électives, la protection juridique de l’assuré, sa responsabilité personnelle et l’indemnisation de ses préjudices en cas d’accident corporel. » (page 1). Le titre du document est « Assurance personnelle des élus des collectivités territoriales et établissements publics ». Il s’agit donc d’une assurance personnelle souscrite par ou pour des personnes physiques titulaires d’un mandat électif public : l’audience est nommée explicitement par le document, d’où secteur_public.",
+  "reference": "PP_DIPA_SE_05_(06/2021)",
+  "edition_date": "11/2022",
+  "product_family": "Sécurité élus",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.smacl.fr/files/documents/document-information-protection-elus.pdf",
+  "source_pdf": "securite-elus-e3472c82.pdf",
+  "source_sha256": "aea5fa7324be26bb7facb5d1374ad64261bde2208ff63a2463d70c59e8700613",
+  "source_pages": 2,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d’information sur le produit d’assurance (DIPA/IPID) du produit « Sécurité élus » de SMACL Assurances, intitulé « Assurance personnelle des élus des collectivités territoriales et établissements publics ». Le contrat, destiné aux élus des collectivités territoriales et des établissements publics, garantit dans le cadre des fonctions électives la protection juridique de l’assuré, sa responsabilité personnelle et l’indemnisation de ses préjudices en cas d’accident corporel. Toutes les garanties présentées sont systématiquement prévues au contrat : responsabilité personnelle plafonnée à 10 000 000 €, protection juridique (frais de défense et recours 30 000 €), accidents corporels (500 000 € en cas de blessures, capital décès 50 000 €), reconstitution d’image (6 000 €), perte de revenus (200 € par jour dans la limite de 8 jours) et prestations d’assistance. La compagnie désignée est SMACL Assurances, société d’assurance mutuelle à cotisations fixes, agrément 301 309 605.",
+  "definitions": [],
+  "coverages": [
+    {
+      "name": "Responsabilité personnelle de l’élu",
+      "description": "Garantie de la responsabilité personnelle de l’assuré dans le cadre de ses fonctions électives. L’indemnité est plafonnée à 10 000 000 € tous dommages confondus, sous réserve des sous-limitations indiquées.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties du présent contrat s’exercent en France métropolitaine, dans les départements et régions d’outre-mer, dans les pays de l’Union européenne, dans les pays frontaliers de la France métropolitaine, ainsi que dans le monde entier, à l’occasion d’un déplacement n’excédant pas une durée de trente jours consécutifs. (page 2)",
+      "limits": "10 000 000 € tous dommages confondus",
+      "sub_limits": [
+        "Dommages corporels et immatériels consécutifs : 10 000 000 €",
+        "Dommages matériels et immatériels consécutifs : 5 000 000 €",
+        "Dommages immatériels non consécutifs : 1 000 000 €",
+        "Dommages de pollution accidentelle : 2 000 000 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Garantie systématiquement prévue au contrat (rubrique « GARANTIES SYSTÉMATIQUEMENT PRÉVUES », page 1)",
+        "L'indemnité est plafonnée aux montants indiqués"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Protection juridique de l’élu",
+      "description": "Protection juridique de l’assuré dans le cadre de ses fonctions électives : frais de défense et recours.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties du présent contrat s’exercent en France métropolitaine, dans les départements et régions d’outre-mer, dans les pays de l’Union européenne, dans les pays frontaliers de la France métropolitaine, ainsi que dans le monde entier, à l’occasion d’un déplacement n’excédant pas une durée de trente jours consécutifs. (page 2)",
+      "limits": "Frais de défense et recours : 30 000 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie systématiquement prévue au contrat (rubrique « GARANTIES SYSTÉMATIQUEMENT PRÉVUES », page 1)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Garanties accidents corporels de l’élu",
+      "description": "Indemnisation des préjudices de l’assuré en cas d’accident corporel survenu dans le cadre de ses fonctions électives. En cas de blessures, l’indemnité est plafonnée à 500 000 € sauf montants spécifiques indiqués. En cas de décès, l’indemnité est plafonnée aux montants indiqués.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties du présent contrat s’exercent en France métropolitaine, dans les départements et régions d’outre-mer, dans les pays de l’Union européenne, dans les pays frontaliers de la France métropolitaine, ainsi que dans le monde entier, à l’occasion d’un déplacement n’excédant pas une durée de trente jours consécutifs. (page 2)",
+      "limits": "En cas de blessures : 500 000 € sauf montants spécifiques indiqués",
+      "sub_limits": [
+        "Dépenses de santé actuelles : médecine, chirurgie, pharmacie, hospitalisation, prothèse, soins rendus nécessaires par l’accident, jusqu’à la date de consolidation des blessures : frais réels",
+        "Frais divers : 5 000 €",
+        "Pertes de gains professionnelles actuels : 10 000 €",
+        "Déficit fonctionnel permanent et tierce personne : indemnité contractuelle versée selon le taux d’invalidité et majorée en cas d’assistance par tierce personne",
+        "Préjudice esthétique permanent : 30 000 €",
+        "Souffrances endurées : 30 000 €",
+        "En cas de décès - Frais d’obsèques : 3 000 €",
+        "En cas de décès - Capital décès : 50 000 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Garantie systématiquement prévue au contrat (rubrique « GARANTIES SYSTÉMATIQUEMENT PRÉVUES », page 1)",
+        "Déficit fonctionnel permanent et assistance d’une tierce personne : indemnité versée à partir de 6 % d’invalidité (principale restriction, page 1)",
+        "Préjudice esthétique permanent et souffrances endurées : indemnité versée à partir d’un préjudice qualifié de « modéré » (niveau 3) sur l’échelle de gravité contractuelle allant de 1 à 7 (1 correspondant à « très léger » et 7 à « très important ») (principale restriction, page 1)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Reconstitution d’image",
+      "description": "Reconstitution de l’image de l’élu suite à décision de justice définitive.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties du présent contrat s’exercent en France métropolitaine, dans les départements et régions d’outre-mer, dans les pays de l’Union européenne, dans les pays frontaliers de la France métropolitaine, ainsi que dans le monde entier, à l’occasion d’un déplacement n’excédant pas une durée de trente jours consécutifs. (page 2)",
+      "limits": "6 000 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie systématiquement prévue au contrat (rubrique « GARANTIES SYSTÉMATIQUEMENT PRÉVUES », page 1)",
+        "Subordonnée à une décision de justice définitive"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Perte de revenus en cas d’interruption professionnelle exceptionnelle",
+      "description": "Indemnité journalière versée en cas d’interruption professionnelle exceptionnelle.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties du présent contrat s’exercent en France métropolitaine, dans les départements et régions d’outre-mer, dans les pays de l’Union européenne, dans les pays frontaliers de la France métropolitaine, ainsi que dans le monde entier, à l’occasion d’un déplacement n’excédant pas une durée de trente jours consécutifs. (page 2)",
+      "limits": "Indemnité journalière versée à concurrence de 200 € par jour dans la limite de 8 jours",
+      "sub_limits": [
+        "200 € par jour",
+        "dans la limite de 8 jours"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Garantie systématiquement prévue au contrat (rubrique « GARANTIES SYSTÉMATIQUEMENT PRÉVUES », page 1)"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance et services - Assistance aux personnes",
+      "description": "Assistance aux personnes, au titre de la rubrique « Assistance et services ».",
+      "is_optional": false,
+      "territorial_scope": "Les garanties du présent contrat s’exercent en France métropolitaine, dans les départements et régions d’outre-mer, dans les pays de l’Union européenne, dans les pays frontaliers de la France métropolitaine, ainsi que dans le monde entier, à l’occasion d’un déplacement n’excédant pas une durée de trente jours consécutifs. (page 2)",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Garantie systématiquement prévue au contrat (rubrique « GARANTIES SYSTÉMATIQUEMENT PRÉVUES », page 1)",
+        "Le document ne détaille pas le contenu des prestations d’assistance aux personnes"
+      ],
+      "page": 1
+    },
+    {
+      "name": "Assistance et services - Assistance psychologique",
+      "description": "Assistance psychologique : de 1 à 5 entretiens téléphoniques individuels avec un psychologue clinicien ; si nécessaire, de 1 à 3 entretiens en face à face avec un psychologue clinicien.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties du présent contrat s’exercent en France métropolitaine, dans les départements et régions d’outre-mer, dans les pays de l’Union européenne, dans les pays frontaliers de la France métropolitaine, ainsi que dans le monde entier, à l’occasion d’un déplacement n’excédant pas une durée de trente jours consécutifs. (page 2)",
+      "limits": "De 1 à 5 entretiens téléphoniques individuels avec un psychologue clinicien ; si nécessaire, de 1 à 3 entretiens en face à face avec un psychologue clinicien",
+      "sub_limits": [
+        "De 1 à 5 entretiens téléphoniques individuels avec un psychologue clinicien",
+        "Si nécessaire, de 1 à 3 entretiens en face à face avec un psychologue clinicien"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Garantie systématiquement prévue au contrat (rubrique « GARANTIES SYSTÉMATIQUEMENT PRÉVUES », page 1)",
+        "Les entretiens en face à face sont accordés « si nécessaire »"
+      ],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Activités étrangères aux fonctions électives",
+      "description": "Les dommages résultant d’évènements pour lesquels la responsabilité de l’assuré serait recherchée au titre de toutes activités autres que celles relatives à ses fonctions au sein d’une collectivité territoriale, d’un établissement public ou de toute autre personne morale de droit public (rubrique « Qu’est-ce qui n’est pas assuré ? »).",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Faute intentionnelle ou dolosive",
+      "description": "Les sinistres résultants d’une faute intentionnelle ou dolosive de l’assuré.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Transgression volontaire des règles d’urbanisme",
+      "description": "Les dommages causés aux tiers résultant de la transgression volontaire des règles d’urbanisme.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Contentieux électoral et/ou fiscal",
+      "description": "Les litiges liés au contentieux électoral et/ou fiscal.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "État alcoolique ou emprise de stupéfiants",
+      "description": "Les sinistres résultant de l’état alcoolique de l’assuré caractérisé par une concentration d’alcool supérieure au taux légal en vigueur fixé par l’article R. 234-1 du Code de la route, ou sous l’emprise de stupéfiants au sens de l’article L. 235-1 du même Code, dans l’hypothèse où le sinistre est en relation directe avec cet état ou cette emprise.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Participation à un attentat, une rixe, un pari, un défi ou une agression",
+      "description": "Les dommages subis par l’assuré alors que celui-ci participait à un attentat, un acte de terrorisme ou de sabotage, une émeute, un mouvement populaire, une grève, une tentative de record, à un duel, une rixe, un pari, un défi ou une agression sauf cas de légitime défense.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Risques infectieux en contexte épidémique ou pandémique",
+      "description": "Pour les garanties Responsabilité personnelle et Accident corporel de l’élus, les sinistres résultant directement ou indirectement de situations à risques infectieux en contexte épidémique ou pandémique donnant lieu à des mesures ou des recommandations préventives ou de surveillance spécifique de la part de l’Organisation mondiale de la santé (OMS) ou de toute autorité sanitaire locale ou nationale du pays dans lequel la victime séjourne.",
+      "applies_to": "Responsabilité personnelle de l’élu ; Garanties accidents corporels de l’élu",
+      "page": 1
+    },
+    {
+      "name": "Restriction - seuil d’invalidité de 6 %",
+      "description": "Principale restriction : Déficit fonctionnel permanent et assistance d’une tierce personne : indemnité versée à partir de 6 % d’invalidité.",
+      "applies_to": "Garanties accidents corporels de l’élu",
+      "page": 1
+    },
+    {
+      "name": "Restriction - seuil de gravité du préjudice esthétique et des souffrances endurées",
+      "description": "Principale restriction : Préjudice esthétique permanent et souffrances endurées : indemnité versée à partir d’un préjudice qualifié de « modéré » (niveau 3) sur l’échelle de gravité contractuelle allant de 1 à 7 (1 correspondant à « très léger » et 7 à « très important »).",
+      "applies_to": "Garanties accidents corporels de l’élu",
+      "page": 1
+    }
+  ],
+  "deductibles": null,
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Répondre exactement aux questions de l’assureur",
+      "description": "Répondre exactement aux questions posées par l’assureur, notamment dans le formulaire de déclaration du risque lui permettant d’apprécier les risques qu’il prend en charge.",
+      "timing": "À la souscription du contrat",
+      "sanction": "Sous peine de sanctions indiquées au contrat",
+      "page": 2
+    },
+    {
+      "name": "Fournir les documents justificatifs",
+      "description": "Fournir tous documents justificatifs demandés par l’assureur.",
+      "timing": "À la souscription du contrat",
+      "sanction": "Sous peine de sanctions indiquées au contrat",
+      "page": 2
+    },
+    {
+      "name": "Régler la cotisation",
+      "description": "Régler la cotisation (ou fraction de cotisation) indiquée au contrat.",
+      "timing": "À la souscription du contrat",
+      "sanction": "Sous peine de sanctions indiquées au contrat",
+      "page": 2
+    },
+    {
+      "name": "Déclarer l’aggravation du risque",
+      "description": "Déclarer toutes circonstances nouvelles ayant pour conséquence d’aggraver le risque garanti.",
+      "timing": "En cours de contrat",
+      "sanction": "Sous peine de sanctions indiquées au contrat",
+      "page": 2
+    },
+    {
+      "name": "Déclarer le sinistre",
+      "description": "Déclarer tout sinistre de nature à mettre en jeu l’une des garanties dans les conditions et délais impartis et joindre tous documents utiles à l’appréciation du sinistre.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de sanctions indiquées au contrat",
+      "page": 2
+    },
+    {
+      "name": "Informer des autres assurances et des remboursements",
+      "description": "Informer des garanties éventuellement souscrites pour les mêmes risques en tout ou partie auprès d’autres assureurs, ainsi que tout remboursement que vous pourriez recevoir au titre d’un sinistre.",
+      "timing": "En cas de sinistre",
+      "sanction": "Sous peine de sanctions indiquées au contrat",
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Déclaration de sinistre",
+      "description": "Déclarer tout sinistre de nature à mettre en jeu l’une des garanties dans les conditions et délais impartis et joindre tous documents utiles à l’appréciation du sinistre.",
+      "deadline": "Dans les conditions et délais impartis (non chiffrés dans ce document)",
+      "page": 2
+    },
+    {
+      "step": "Information sur les autres assurances",
+      "description": "Informer des garanties éventuellement souscrites pour les mêmes risques en tout ou partie auprès d’autres assureurs, ainsi que tout remboursement que vous pourriez recevoir au titre d’un sinistre.",
+      "deadline": null,
+      "page": 2
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Les garanties prennent effet à la date indiquée au contrat. Le contrat est conclu pour une durée d’un an et se renouvelle automatiquement d’année en année à sa date d’échéance principale sauf résiliation par l’une des parties dans les cas et conditions fixées au contrat.",
+    "tacit_renewal": true,
+    "notice_period": "Chaque année lors du renouvellement du contrat, dans les vingt jours suivant la date d’envoi de l’avis d’échéance (sous réserve que le contrat couvre le souscripteur en tant que personne physique en dehors de toutes activités professionnelles)",
+    "methods": [
+      "Par lettre ou tout autre support durable",
+      "Par déclaration faite au siège social de l’assureur",
+      "Par acte extrajudiciaire",
+      "Lorsque l’assureur propose la conclusion du contrat par un mode de communication à distance, par le même mode de communication",
+      "Par un mode de communication à distance",
+      "Par tout autre moyen prévu par le contrat"
+    ],
+    "special_rights": [
+      "Sous réserve que le contrat couvre le souscripteur en tant que personne physique en dehors de toutes activités professionnelles : résiliation à tout moment, à l’expiration d’un délai d’un an à compter de la première souscription du contrat, sans frais ni pénalité",
+      "Sous réserve que le contrat couvre le souscripteur en tant que personne physique en dehors de toutes activités professionnelles : résiliation chaque année lors du renouvellement du contrat, dans les vingt jours suivant la date d’envoi de l’avis d’échéance"
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "Les cotisations sont payables d’avance annuellement, à la date indiquée dans le contrat, auprès de SMACL Assurances dans les dix jours à compter de l’échéance, sauf disposition plus favorable au contrat.",
+      "Un paiement fractionné peut toutefois être accordé.",
+      "Les paiements peuvent être effectués par chèque, carte bancaire, prélèvement automatique, virement."
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Portée du document",
+      "description": "Ce document d’information présente un résumé des principales garanties, exclusions et informations clés du contrat. Il ne prend pas en compte vos besoins et demandes spécifiques. Vous trouverez l’information complète sur ce produit dans la documentation précontractuelle et contractuelle.",
+      "page": 1
+    },
+    {
+      "name": "Identité de l’assureur",
+      "description": "Compagnie : SMACL Assurances - Entreprise d’assurance immatriculée en France. Société d’assurance mutuelle à cotisations fixes régies par le Code des assurances - Agrément 301 309 605. Siège social : 141, avenue Salvador-Allende - CS 20000 - 79031 NIORT CEDEX 9.",
+      "page": 1
+    },
+    {
+      "name": "Signification des coches",
+      "description": "Les garanties précédées d’une coche sont systématiquement prévues au contrat.",
+      "page": 1
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Ce contrat, destiné aux élus des collectivités territoriales et des établissements publics, a pour objet de garantir, dans le cadre de ses fonctions électives, \nla protection juridique de l’assuré, sa responsabilité personnelle et l’indemnisation de ses préjudices en cas d’accident corporel.",
+      "context": "Objet du contrat - « De quel type d’assurance s’agit-il ? »",
+      "page": 1
+    },
+    {
+      "quote": "Compagnie : SMACL Assurances - Entreprise d’assurance immatriculée en France.\nSociété d’assurance mutuelle à cotisations fixes régies par le Code des assurances - Agrément 301 309 605.",
+      "context": "Identité de l’assureur (colophon page 1)",
+      "page": 1
+    },
+    {
+      "quote": "L’indemnité est plafonnée à 10 000 000 € tous dommages confondus, \nsous réserve des sous-limitations suivantes :",
+      "context": "Plafond de la garantie responsabilité personnelle de l’élu",
+      "page": 1
+    },
+    {
+      "quote": "Les dommages résultant d’évènements pour lesquels la responsabilité \nde l’assuré serait recherchée au titre de toutes activités autres que \ncelles relatives à ses fonctions au sein d’une collectivité territoriale, \nd’un établissement public ou de toute autre personne morale",
+      "context": "« Qu’est-ce qui n’est pas assuré ? »",
+      "page": 1
+    },
+    {
+      "quote": "Les sinistres résultants d’une faute intentionnelle ou dolosive \nde l’assuré\n!\t Les dommages causés aux tiers résultant de la transgression \nvolontaire des règles d’urbanisme\n!\t Les litiges liés au contentieux électoral et/ou fiscal\n!\t Les sinistres résultant de l’état alcoolique de l’assuré",
+      "context": "Principale exclusion - faute intentionnelle ou dolosive",
+      "page": 1
+    },
+    {
+      "quote": "Les litiges liés au contentieux électoral et/ou fiscal",
+      "context": "Principale exclusion - contentieux électoral et fiscal",
+      "page": 1
+    },
+    {
+      "quote": "Déficit fonctionnel permanent et assistance d’une tierce personne : \nindemnité versée à partir de 6 % d’invalidité",
+      "context": "Principale restriction - seuil d’invalidité",
+      "page": 1
+    },
+    {
+      "quote": "Les garanties du présent contrat s’exercent en France métropolitaine, dans les départements et régions d’outre-mer, dans les pays de l’Union \neuropéenne, dans les pays frontaliers de la France métropolitaine, ainsi que dans le monde entier, à l’occasion d’un déplacement n’excédant pas une \ndurée de trente jours consécutifs.",
+      "context": "Territorialité - « Où suis-je couvert(e) ? »",
+      "page": 2
+    },
+    {
+      "quote": "Le contrat est conclu pour une durée d’un an et se renouvelle automatiquement d’année en année à sa date d’échéance principale sauf résiliation par \nl’une des parties dans les cas et conditions fixées au contrat.",
+      "context": "Durée et reconduction",
+      "page": 2
+    },
+    {
+      "quote": "Les cotisations sont payables d’avance annuellement, à la date indiquée dans le contrat, auprès de SMACL Assurances dans les dix jours à compter de \nl’échéance, sauf disposition plus favorable au contrat.",
+      "context": "Modalités de paiement",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "Assureur : le colophon de la page 1 nomme « Compagnie : SMACL Assurances - Entreprise d’assurance immatriculée en France. Société d’assurance mutuelle à cotisations fixes régies par le Code des assurances - Agrément 301 309 605. » C’est donc la société d’assurance mutuelle (SAM) qui est désignée comme porteur du risque sur ce document, et non SMACL Assurances SA. Aucune autre entité n’est nommée dans le document.",
+    "edition_date : pris au colophon imprimé de la page 2 (« 11/2022 - Conception : Direction de la marque et de la communication de SMACL Assurances ») et non au code de référence de la page 1 (PP_DIPA_SE_05_(06/2021)) qui porte 06/2021. Les deux valeurs divergent de dix-sept mois ; le code est conservé dans `reference`. La couche texte ne contient que ces deux dates, sans doublon fantôme, et aucun bloc de texte hors du rectangle de page.",
+    "En-têtes empilés : contrôlé spécifiquement (des DIPA SMACL sont connus pour empiler plusieurs en-têtes de produits différents dans leur couche texte). Ce document n’en contient qu’un seul : une occurrence de « Compagnie : » et une de « Produit : », toutes deux relatives au produit « Sécurité élus ». Aucun autre assureur n’est nommé.",
+    "Coches Wingdings : les marques de garantie sont des glyphes de la zone à usage privé, non des caractères lisibles — 19 occurrences de U+F0FC (coche ✓) et 1 de U+F0FB (croix ✗). Comptage fermé : 17 coches devant les 17 lignes de garanties de la rubrique « Qu’est-ce qui est assuré ? », 1 coche dans la légende « Les garanties précédées d’une coche … sont systématiquement prévues au contrat », 1 coche devant le paragraphe de territorialité de la page 2, et l’unique croix devant l’unique ligne de la rubrique « Qu’est-ce qui n’est pas assuré ? ». Toutes les garanties listées portent donc une coche : is_optional est mis à false pour l’ensemble, ce que confirme le titre de rubrique « GARANTIES SYSTÉMATIQUEMENT PRÉVUES ». Aucune garantie optionnelle n’apparaît dans ce document.",
+    "product_name : le document porte deux dénominations — le titre « Assurance personnelle des élus des collectivités territoriales et établissements publics » et la mention « Produit : Sécurité élus ». C’est la seconde, explicitement introduite par « Produit : », qui est retenue comme nom commercial ; le titre figure dans le résumé.",
+    "branch : la valeur fournie par la tâche (rc-professionnelle) est reprise telle quelle, mais le document couvre trois natures de garantie — responsabilité personnelle de l’élu, protection juridique et accidents corporels — dont deux relèveraient plutôt de protection-juridique et de gav dans la liste de branches autorisées.",
+    "Un DIPA est par construction un résumé : le document le dit lui-même (« Ce document d’information présente un résumé des principales garanties, exclusions et informations clés du contrat »). Les rubriques « PRINCIPALES EXCLUSIONS » et « PRINCIPALES RESTRICTIONS » ne sont donc pas exhaustives, et le document ne comporte ni définitions, ni franchises, ni délai de prescription, ni délai de carence : ces champs sont laissés vides ou null, non par sous-extraction mais parce que le document ne les contient pas.",
+    "Les conditions et délais de déclaration de sinistre, les sanctions applicables (« Sous peine de sanctions indiquées au contrat ») et le détail des prestations d’assistance renvoient au contrat, qui ne fait pas partie de ce document.",
+    "Coquille du document reproduite verbatim : « Pour les garanties Responsabilité personnelle et Accident corporel de l’élus » (page 1) et « Les sinistres résultants d’une faute intentionnelle » (accord fautif), non corrigées.",
+    "Le texte fourni par le prompt n’était pas tronqué (8 221 caractères pour 2 pages) ; les 2 pages du PDF local extraites par page.get_text(\"text\") sont identiques caractère pour caractère au texte du prompt. Les citations ont été découpées programmatiquement dans le texte du PDF."
+  ]
+}

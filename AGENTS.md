@@ -27,7 +27,7 @@ navigate it without guessing. Do not edit by hand.
 |---|---|---|---|---|---|
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
 | ch (Switzerland) | 0 | 3 | 1 | 0 | 5 |
-| fr (France) | 24 | 567 | 10 | 1 | 5 |
+| fr (France) | 24 | 573 | 10 | 1 | 5 |
 | lu (Luxembourg) | 0 | 23 | 1 | 0 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
@@ -530,6 +530,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | habitation | macif | Contrat Macif Habitation - Formule Construction - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/dipa-macif-habitation-maison-en-construction.pdf) |
 | fr | habitation | macif | Contrat Macif Habitation - Formules Économique, Équilibrée, Confort (Assurance multirisques habitation - Résidence princ | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/dipa-macif-habitation-residence-principale.pdf) |
 | fr | habitation | macif | Contrat Macif Habitation - Formules Économique, Équilibrée, Confort (Résidence secondaire) - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/dipa-macif-habitation-residence-secondaire.pdf) |
+| fr | habitation | macif | Contrat Sociétaire Non Occupant | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/CG_proprietaire_non_occupant.pdf) |
 | fr | habitation | macif | Contrat Sociétaire Non Occupant - Annexe spéciale Immeubles en copropriété | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/annexe_proprietaire_non_occupant_immeuble_en_copropriete.pdf) |
 | fr | habitation | macif | Contrat Sociétaire Non Occupant - Conditions Générales - Annexe spéciale Immeubles locatifs | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/annexe_proprietaire_non_occupant_immeubles_locatifs.pdf) |
 | fr | habitation | macif | Macif Habitation | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_habitation/CG-Macif-Habitation.pdf) |
@@ -623,6 +624,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | multirisque-professionnelle | smacl | Aléassur (Collectivités) | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cg-aleassur.pdf) |
 | fr | multirisque-professionnelle | smacl | Aléassur - Dommages aux biens - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-dommages-aux-biens-collectivites.pdf) |
 | fr | multirisque-professionnelle | smacl | Assistance Patrimoine des associations | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/ca-assistance-patrimoine-associations-sam.pdf) |
+| fr | multirisque-professionnelle | smacl | Assistance Patrimoine des associations (2) | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/ca-assistance-patrimoine-associations.pdf) |
 | fr | multirisque-professionnelle | smacl | Assurance Spéciale Accueil Enfants - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-structures-accueil-enfants.pdf) |
 | fr | multirisque-professionnelle | smacl | Assurance bris de machine (Associations) | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-assurance-speciale-associations-bris-de-machine.pdf) |
 | fr | multirisque-professionnelle | smacl | Assurance des associations - multirisque association - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-multirisque-associations.pdf) |
@@ -643,6 +645,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | navigation | matmut | Contrat « Navigation de plaisance - Distinguo & Co » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/ipid-ndep-distinguo-and-co.pdf) |
 | fr | navigation | matmut | Navigation de Plaisance Distinguo & Co | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-ndep-distinguo-and-co.pdf) |
 | fr | navigation | matmut | Navigation de Plaisance Matmut | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGNDEP.pdf) |
+| fr | navigation | smacl | Assurance navigation de plaisance | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cg-navigation-de-plaisance.pdf) |
 | fr | navigation | smacl | Convention Assistance Navigation de plaisance | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/ca-navigation-de-plaisance.pdf) |
 | fr | obseques | gan | GAN PATRIMOINE SÉRÉNITÉ ESSENTIEL - Fiche | 2026-07-30 | [pdf](https://www.ganpatrimoine.fr/Media/documents/DIC/1412-062023%20-%20DIC%20GPatSE.pdf) |
 | fr | obseques | gan | GAN PATRIMOINE SÉRÉNITÉ ESSENTIEL - Fiche (2) | 2026-07-30 | [pdf](https://www.ganpatrimoine.fr/Media/documents/DIC/1412-112018%20GPatSE.pdf) |
@@ -746,10 +749,12 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | rc-professionnelle | maif | Responsabilité Civile Maître d'Ouvrage Associations et Collectivités - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/associations-collectivites/document-information-assurance-responsabilite-civile-maitre-ouvrage.pdf) |
 | fr | rc-professionnelle | matmut | Multigaranties Professionnelles des Agents Publics | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-mpap.pdf) |
 | fr | rc-professionnelle | smacl | CONVERGENCE - Conventions spéciales Responsabilité civile | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-convergence-responsabilite-civile.pdf) |
+| fr | rc-professionnelle | smacl | Cadre d'assurance des risques environnementaux des collectivités | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cg-risques-environnementaux.pdf) |
 | fr | rc-professionnelle | smacl | Convergence - Responsabilité civile - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-responsabilite-civile-convergence.pdf) |
 | fr | rc-professionnelle | smacl | Convergence - Responsabilité civile des dirigeants - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-responsabilite-civile-dirigeants-convergence.pdf) |
 | fr | rc-professionnelle | smacl | Sécurité des fonctionnaires territoriaux | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cg-assurance-securite-fonctionnaires-territoriaux.pdf) |
 | fr | rc-professionnelle | smacl | Sécurité des fonctionnaires territoriaux - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-fonctionnaires-territoriaux.pdf) |
+| fr | rc-professionnelle | smacl | Sécurité élus - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-protection-elus.pdf) |
 | fr | rc-professionnelle | thelem | Responsabilité Civile Chef d'Entreprise- Professions libérales - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_RCPRO.pdf) |
 | fr | retraite | gan | GAN ASSURANCES PERFORMANCE RETRAITE - Fiche | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2026/07/GAN-Performance-Retraite-Infos-Cles.pdf) |
 | fr | retraite | gan | Gan Assurance Nouvelle Vie (Gan Assurances) - Tarifs | 2026-07-30 | [pdf](https://www.gan.fr/app/uploads/2026/03/Gan-Nouvelle-Vie-Retraite-Fiche-Infos-Frais.pdf) |
@@ -805,6 +810,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | sante | macif | Macif Mutuelle Entreprises (2) | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/nid-macif-mutuelle-entreprises.pdf) |
 | fr | sante | macif | Macif Mutuelle Entreprises (contrat collectif à adhésion obligatoire) - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/dipa-macif-mutuelle-entreprises.pdf) |
 | fr | sante | macif | Macif Mutuelle Entreprises - Fiche | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/tg-macif-mutuelle-entreprises.pdf) |
+| fr | sante | macif | Macif Mutuelle Entreprises - Formule Etendue - Régime Général - Fiche | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/exemples-de-remboursements-mme-5-formule-etendue.pdf) |
 | fr | sante | macif | Macif Mutuelle Santé | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/NID/NID_MMS_COMPLET_20240101.pdf) |
 | fr | sante | macif | Macif Mutuelle Santé - Macif Hospitalisation - Fiche | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/ExemplesRemboursement_MMS_ALS.pdf) |
 | fr | sante | macif | Régime conventionnel Frais de santé - CCN BAD (Branche de l'aide, de l'accompagnement, des soins et des services à domic | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/NID_BAD.pdf) |

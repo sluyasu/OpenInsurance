@@ -29,7 +29,7 @@ extraction_model: claude-code-subagent:scale
 prompt_version: '1.1'
 product_family: assistance-patrimoine-des-associations
 variant: null
-edition_status: null
+edition_status: current
 edition_age_years: 2
 superseded: null
 extends: contrat Dommages aux biens
@@ -166,7 +166,9 @@ Conformément à l’article L.114-1 du Code, toutes actions dérivant d’un co
 
 ## Documents liés
 
+- Édition courante de ce produit.
 - Extension / option du produit : **contrat Dommages aux biens**
+- [Assistance Patrimoine des associations](Assistance%20Patrimoine%20des%20associations%20%282%29.md) - Conditions générales, éd. 01/2024
 
 ## Source & fidélité
 

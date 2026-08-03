@@ -785,6 +785,7 @@ ASSISTANCE À DOMICILE INCLUSE DANS TOUTES LES FORMULES. Les garanties d’assis
 - [Macif Mutuelle Entreprises](Macif%20Mutuelle%20Entreprises.md) - Conditions générales, éd. 2025-01
 - [Macif Mutuelle Entreprises](Macif%20Mutuelle%20Entreprises%20%282%29.md) - Conditions générales
 - [Macif Mutuelle Entreprises (contrat collectif à adhésion obligatoire) - IPID](Macif%20Mutuelle%20Entreprises%20%28contrat%20collectif%20%C3%A0%20adh%C3%A9sion%20obligatoire%29%20-%20IPID.md) - IPID / Fiche d'information, éd. 01/25
+- [Macif Mutuelle Entreprises - Formule Etendue - Régime Général - Fiche](Macif%20Mutuelle%20Entreprises%20-%20Formule%20Etendue%20-%20R%C3%A9gime%20G%C3%A9n%C3%A9ral%20-%20Fiche.md) - Fiche produit, éd. 2026-01
 
 ## Source & fidélité
 

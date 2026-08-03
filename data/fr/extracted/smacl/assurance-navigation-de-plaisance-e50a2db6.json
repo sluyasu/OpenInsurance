@@ -1,0 +1,1315 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "smacl",
+  "insurer_name": "SMACL Assurances",
+  "product_name": "Assurance navigation de plaisance",
+  "branch": "navigation",
+  "branch_code": null,
+  "document_type": "conditions_generales",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "La couverture porte, en tête, les trois publics « Collectvités / Associatons / Partculiers » (transcription verbatim du texte, la police d’affichage perdant les ligatures « ti »). L’article 2 précise que le contrat garantit les bateaux utilisés « à titre privé dans un but non lucratif et/ou d’activités relevant d’une mission de service public non commerciale ». Aucune des valeurs de l’énumération du schéma ne recouvre cet ensemble (particuliers + associations + collectivités), d’où target_audience null.",
+  "reference": "NAVIMUT_CG_NAVIMUT_SA_05(02_2023)",
+  "edition_date": "12/2023",
+  "product_family": "Assurance navigation de plaisance",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": true,
+  "source_url": "https://www.smacl.fr/files/documents/cg-navigation-de-plaisance.pdf",
+  "source_pdf": "assurance-navigation-de-plaisance-cg-navigation-de-plaisance-e50a2db6.pdf",
+  "source_sha256": "7e3992176beece18eb4968afe9b9afd03800e220aba9885270c67a69c582fabc",
+  "source_pages": 24,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Conditions générales du contrat SMACL Assurances « Assurance navigation de plaisance », qui garantit les bateaux (navires de mer ou de navigation intérieure, véhicules nautiques à moteur, planches à voile, kitesurf / flysurf) utilisés dans le cadre de la navigation de plaisance à titre privé dans un but non lucratif et/ou d’activités relevant d’une mission de service public non commerciale. Le contrat comprend la responsabilité civile (A1) et les frais de retirement de l’épave (A2), les dommages subis par le bateau — pertes, avaries, incendie, vandalisme et assistance maritime (B1) — le vol et la tentative de vol (B2), l’individuelle marine (D), les objets et effets transportés (E), la défense pénale et les recours (C1 et C2), ainsi qu’une assistance navigation mise en œuvre par Inter Mutuelle Assistance GIE. Les garanties souscrites, les formules choisies et les franchises sont indiquées aux conditions particulières. L’assureur désigné par le contrat est SMACL Assurances SA ; la gestion des sinistres est assurée par le GIE Navimut Gestion Sinistres Plaisance.",
+  "definitions": [
+    {
+      "term": "Abordage",
+      "definition": "Collision entre deux unités (bateaux, véhicules nautiques à moteur, planches à voile, fly/kitesurf) ou entre une unité et un engin flottant.",
+      "page": 4
+    },
+    {
+      "term": "Accastillage",
+      "definition": "Guindeau, mouillage (ancre, chaîne), capot de pont, ferrure, balcon, filière, plage arrière, rail de fargue, rail ou chariot d’écoute, taquet, chaumard et winch.",
+      "page": 4
+    },
+    {
+      "term": "Accident",
+      "definition": "Tout événement non intentionnel, soudain, imprévu et extérieur à la victime ou au bien endommagé et constituant la cause des dommages.",
+      "page": 4
+    },
+    {
+      "term": "Accident corporel",
+      "definition": "Toute atteinte corporelle non intentionnelle de la part de l’assuré provenant de l’action soudaine d’une cause extérieure.",
+      "page": 4
+    },
+    {
+      "term": "Assuré",
+      "definition": "Bénéficie de la qualité d’assuré : le souscripteur ou propriétaire du bateau ; le pilote, skipper ou gardien autorisé du bateau ; les passagers embarqués à titre gratuit ; les personnes tractées lors de la pratique d’un sport de glisse ou de ski nautique. Ne bénéficie pas de la qualité d’assuré toute personne qui assure la garde ou la conduite du bateau contre rémunération ou en raison de son activité professionnelle de garagiste, courtier, vendeur, convoyeur, réparateur ou dépanneur de bateaux, ainsi que toute personne à qui le bateau a été donné en location. Concernant les garanties pertes, avaries, incendie, vandalisme et assistance maritime au bateau (B1) et vol et tentative de vol (B2), seul le propriétaire du bateau sera bénéficiaire de l’indemnité.",
+      "page": 4
+    },
+    {
+      "term": "Assureur",
+      "definition": "SMACL Assurances SA, ci-après dénommée SMACL Assurances.",
+      "page": 4
+    },
+    {
+      "term": "Attentat ou mouvement populaire",
+      "definition": "Émeute, acte de terrorisme, sabotage concerté ou non.",
+      "page": 4
+    },
+    {
+      "term": "Bateau",
+      "definition": "Unité désignée aux conditions particulières qui peut être soit : un véhicule nautique à moteur (VNM) — engin de moins de 4 mètres de long, équipé d’un moteur à combustion interne qui entraîne une turbine constituant sa principale source de propulsion, et conçu pour être manœuvré par une ou plusieurs personnes assises, debout ou agenouillées sur la coque (dans la limite du nombre de personnes prévu par le constructeur) et, par extension : la combinaison, le casque, le matériel de sécurité réglementaire ; soit une planche à voile ou un kitesurf / flysurf — flotteur équipé d’un gréement ou d’une aile aérotractrice et, par extension : le harnais, la combinaison, le casque, le matériel de sécurité réglementaire ; soit un bateau ou un navire de mer ou de navigation intérieur avec ses accessoires et équipements d’origine (y compris les moteurs « in-bord »), les aménagements supplémentaires, les instruments et accessoires de navigation complémentaires, les moteurs hors-bord, et, par extension : l’annexe, embarcation utilisée exclusivement à des fins de servitude à partir d’un navire porteur, dont la puissance réelle motorisée est inférieure ou égale à 6 CV, le matériel de sécurité réglementaire, les vêtements conçus à l’usage exclusif de la navigation de plaisance (une tenue par personne à bord comprenant un ciré, une veste de quart, une paire de bottes et une paire de chaussures de pont).",
+      "page": 4
+    },
+    {
+      "term": "Biens et effets personnels",
+      "definition": "Équipements et objets non nécessaires à la navigation appartenant à l’assuré, tels que matériels de pêche, de plongée, de ski nautique, photographique, audiovisuel, vêtements de ville, de sport et de mer, ordinateur portable, pour lesquels l’assuré pourra fournir tout document justificatif.",
+      "page": 4
+    },
+    {
+      "term": "Code",
+      "definition": "Le Code des assurances.",
+      "page": 4
+    },
+    {
+      "term": "Conjoint",
+      "definition": "Personnes : mariées (et non séparées de corps) ; unies par un pacte civil de solidarité ; vivant sous le même toit de telle sorte qu’elles puissent être communément regardées comme formant un couple.",
+      "page": 4
+    },
+    {
+      "term": "Consolidation",
+      "definition": "Moment à partir duquel : l’état de santé de la victime n’est plus susceptible de s’améliorer du fait d’une thérapeutique active, si ce n’est pour éviter une aggravation ; le taux d’incapacité permanente peut être fixé.",
+      "page": 4
+    },
+    {
+      "term": "Déduction pour différence du vieux au neuf",
+      "definition": "Abattement appliqué sur la valeur de remplacement d’un bien ou de l’un de ses éléments, selon son âge, son état d’entretien et son degré d’usure au moment du sinistre.",
+      "page": 5
+    },
+    {
+      "term": "Délaissement",
+      "definition": "Acte par lequel le propriétaire fait abandon à l’assureur, contre paiement de la somme assurée, du bateau ayant subi une perte totale, un vol ou des avaries graves le rendant impropre à la navigation.",
+      "page": 5
+    },
+    {
+      "term": "Dommages corporels",
+      "definition": "Toute atteinte à l’intégrité physique et psychique (AIPP) des personnes.",
+      "page": 5
+    },
+    {
+      "term": "Dommages matériels",
+      "definition": "Détérioration, destruction ou disparition d’un bien.",
+      "page": 5
+    },
+    {
+      "term": "Dommages immatériels consécutifs",
+      "definition": "Préjudice financier, conséquence directe d’un dommage corporel ou matériel garanti.",
+      "page": 5
+    },
+    {
+      "term": "Économiquement irréparable",
+      "definition": "État dans lequel se trouve un bien, ou l’un de ses éléments, endommagé dont le coût de remise en état à dire d’expert dépasse sa valeur de remplacement.",
+      "page": 5
+    },
+    {
+      "term": "Échéance",
+      "definition": "Date à laquelle le souscripteur doit régler sa cotisation. Chaque échéance détermine le point de départ d’une période d’assurance.",
+      "page": 5
+    },
+    {
+      "term": "Écliage",
+      "definition": "Éclatement du bois d’une coque par un effet de flexion et de dessèchement.",
+      "page": 5
+    },
+    {
+      "term": "Effraction",
+      "definition": "Forcement, dégradation ou destruction de tout dispositif de fermeture.",
+      "page": 5
+    },
+    {
+      "term": "Épave",
+      "definition": "Bateau ayant subi des avaries majeures l’empêchant définitivement de naviguer ou déclaré économiquement irréparable par notre expert.",
+      "page": 5
+    },
+    {
+      "term": "Espars",
+      "definition": "Mât, bôme, tangon, bout-dehors, aviron et gaffe.",
+      "page": 5
+    },
+    {
+      "term": "État alcoolique",
+      "definition": "État caractérisé par la présence, dans le sang, d’une concentration d’alcool pur égale ou supérieure à 0,50 gramme pour mille ou la présence, dans l’air expiré, d’une concentration d’alcool pur égale ou supérieure à 0,25 milligramme par litre.",
+      "page": 5
+    },
+    {
+      "term": "Événement climatique",
+      "definition": "Tempête, inondation, grêle, ouragan, cyclone, tornade, chute de foudre, vague scélérate, tremblement de terre, volcanisme, tsunami, raz de marée.",
+      "page": 5
+    },
+    {
+      "term": "Fait dommageable",
+      "definition": "Fait, acte ou événement à l’origine des dommages subis par la victime.",
+      "page": 5
+    },
+    {
+      "term": "Faux chèque de banque",
+      "definition": "Document qui présente en apparence toutes les caractéristiques d’un chèque de banque, alors que ledit document relève d’une falsification ou d’un réemploi frauduleux.",
+      "page": 5
+    },
+    {
+      "term": "Fortune de mer",
+      "definition": "Naufrage, échouement, abordage, heurt du bateau avec un corps fixe ou mobile ainsi qu’avec un OFNI, surchauffe du moteur liée à l’obstruction accidentelle du circuit de refroidissement, incendie, explosion et « généralement » accident.",
+      "page": 5
+    },
+    {
+      "term": "France",
+      "definition": "Par « France », il convient d’entendre : la France métropolitaine ; la Principauté de Monaco ; les départements et régions d’outre-mer (DROM) : Guadeloupe, Martinique, Guyane, Mayotte et La Réunion ; les collectivités d’outre-mer (COM) : Saint-Pierre-et-Miquelon, Saint-Martin et Saint-Barthélemy, Polynésie française et Nouvelle-Calédonie.",
+      "page": 5
+    },
+    {
+      "term": "Franchise",
+      "definition": "Montant indiqué aux conditions particulières et qui reste à votre charge.",
+      "page": 5
+    },
+    {
+      "term": "Garde-robe du voilier (voiles)",
+      "definition": "Grand-voile, génois, foc, trinquette, spinnaker, gennaker, haussette à spi, housse, etc.",
+      "page": 5
+    },
+    {
+      "term": "Gréement courant",
+      "definition": "Ensemble des éléments permettant la manœuvre des voiles et des espars : bastaque textile, étai volant ou largable en textile ainsi que son système d’étarquage, écoute, drisse, bras, palan, hale haut et bas, pouliage, mais également ceux servant à l’amarrage : amarre, aussière, garde.",
+      "page": 5
+    },
+    {
+      "term": "Gréement dormant",
+      "definition": "Ensemble des pièces permettant le maintien des profils de mât : étai, pataras, hauban, bas-hauban, galhauban, bastaque.",
+      "page": 5
+    },
+    {
+      "term": "Incapacité permanente",
+      "definition": "Réduction définitive des capacités physiques ou mentales.",
+      "page": 5
+    },
+    {
+      "term": "Interruption de la prescription",
+      "definition": "Interruption du délai non encore écoulé, faisant courir un nouveau délai de même durée que l'ancien.",
+      "page": 5
+    },
+    {
+      "term": "Jet à la mer",
+      "definition": "Partie du chargement jetée à la mer dans le but de sauvegarder le bateau.",
+      "page": 5
+    },
+    {
+      "term": "Litige",
+      "definition": "Situation conflictuelle opposant l’assuré à un tiers et le conduisant à faire valoir un droit, à résister à une prétention, à défendre un intérêt garanti par voie amiable ou judiciaire. En assurance de protection juridique : sinistre concrétisé par le refus opposé à une réclamation dont vous êtes l’auteur ou le destinataire (voir sinistre).",
+      "page": 5
+    },
+    {
+      "term": "Membre de la famille",
+      "definition": "Conjoint de l’assuré ainsi que leurs ascendants et descendants respectifs et les personnes fiscalement à charge.",
+      "page": 5
+    },
+    {
+      "term": "Mille marin",
+      "definition": "Unité de mesure des distances utilisée en navigation maritime. (1 mille = 1 852 m).",
+      "page": 5
+    },
+    {
+      "term": "Mission de service public",
+      "definition": "Activité exercée directement par l’autorité publique (État, collectivités territoriales, établissements publics) ou sous son contrôle, dans le but de satisfaire à un besoin d’intérêt général.",
+      "page": 5
+    },
+    {
+      "term": "Naufrage",
+      "definition": "Perte totale ou partielle d’un navire due à un accident de navigation.",
+      "page": 6
+    },
+    {
+      "term": "Nullité du contrat",
+      "definition": "Sanction appliquée à un assuré qui fait à l’assureur une fausse déclaration dans l’intention de le tromper. Le contrat est censé n’avoir jamais existé et les cotisations restent acquises à l’assureur à titre de dommages et intérêts. De même, l’assureur est en droit de demander le remboursement des indemnités déjà versées.",
+      "page": 6
+    },
+    {
+      "term": "OFNI",
+      "definition": "Objet flottant non identifié.",
+      "page": 6
+    },
+    {
+      "term": "Période de validité de la garantie",
+      "definition": "Période comprise entre la date de prise d’effet de la garantie et sa date de résiliation ou d’expiration en dehors des périodes de suspension de la garantie.",
+      "page": 6
+    },
+    {
+      "term": "Prescription",
+      "definition": "Perte / extinction d’un droit lorsque celui-ci n’a pas été exercé pendant un délai déterminé.",
+      "page": 6
+    },
+    {
+      "term": "Prix d’acquisition",
+      "definition": "Prix effectivement payé pour l’achat du bateau neuf ou d’occasion, déduction faite des éventuelles remises accordées.",
+      "page": 6
+    },
+    {
+      "term": "Réclamation",
+      "definition": "Mise en cause de la responsabilité de l’assuré, soit par lettre adressée à celui-ci ou à SMACL Assurances, soit par assignation devant un tribunal civil, administratif ou par une citation pénale.",
+      "page": 6
+    },
+    {
+      "term": "Réduction des indemnités",
+      "definition": "Mesure appliquée à un assuré en raison d’une omission ou d’une déclaration inexacte du risque et qui n’a pas permis d’appliquer la cotisation correspondant au risque réel. Cette réduction est proportionnelle à la cotisation effectivement payée par rapport à celle qui était normalement due.",
+      "page": 6
+    },
+    {
+      "term": "Renflouement / Déséchouement",
+      "definition": "Opérations de remise à flot du bateau coulé ou échoué involontairement, en dehors de toute opération de retirement.",
+      "page": 6
+    },
+    {
+      "term": "Retirement",
+      "definition": "Opération découlant d’une injonction de l’État ou d’une autorité qualifiée de retirer l’épave du bateau à la suite d’un naufrage ou d’un échouement.",
+      "page": 6
+    },
+    {
+      "term": "Sinistre",
+      "definition": "Réalisation et conséquences de l’événement susceptible d’entraîner la garantie de SMACL Assurances, à condition qu’il soit survenu pendant la période de validité du contrat, c’est-à-dire après sa prise d’effet et avant sa résiliation ou sa suspension. En assurance de protection juridique : litige ou différend concrétisé par le refus opposé à une réclamation dont l’assuré est l’auteur ou le destinataire (voir litige).",
+      "page": 6
+    },
+    {
+      "term": "Ski nautique",
+      "definition": "Sport pendant lequel le(s) skieur(s) nautique(s) est (sont) tracté(s) par un bateau à moteur en barefoot, sur monoski, bi-skis ou ski-board à l’exclusion de tout autre accessoire ou engin. Le nombre de skieurs simultanés est limité à deux.",
+      "page": 6
+    },
+    {
+      "term": "Souscripteur",
+      "definition": "Personne qui a conclu le contrat avec SMACL Assurances. Cette personne est tenue, notamment, en contrepartie des garanties, au paiement des cotisations. Elle n’est pas obligatoirement le propriétaire du bateau assuré.",
+      "page": 6
+    },
+    {
+      "term": "Sport de glisse nautique",
+      "definition": "Activité par laquelle un bateau à moteur tracte un engin pneumatique dédié (boudin, bouée, etc.) sur lequel ont pris place des personnes, dont le nombre ne doit dépasser ni la capacité d’embarquement du navire tracteur, moins deux personnes (pilote et personne en charge de la surveillance de l’engin tracté), ni celle de l’engin tracté.",
+      "page": 6
+    },
+    {
+      "term": "Subrogation",
+      "definition": "Substitution de l’assureur à l’assuré dans l’exercice de ses droits.",
+      "page": 6
+    },
+    {
+      "term": "Tiers",
+      "definition": "Toute personne autre que l’assuré tel que défini par le contrat.",
+      "page": 6
+    },
+    {
+      "term": "Valeur de remplacement",
+      "definition": "Prix auquel un bateau, ou l’un de ses éléments, peut être acquis sur le marché français au jour du sinistre. Ce prix est déterminé à dire d’expert et tient compte des caractéristiques du bateau, des équipements optionnels, de son état d’entretien, d’usure et des réparations qu’il a subies.",
+      "page": 6
+    },
+    {
+      "term": "Vandalisme",
+      "definition": "Tout dommage causé par une action individuelle ou collective ayant pour but de porter atteinte volontairement aux biens appartenant à l’assuré et faisant l’objet d’un dépôt de plainte auprès des autorités compétentes.",
+      "page": 6
+    },
+    {
+      "term": "Vétusté",
+      "definition": "Abattement appliqué sur la valeur de remplacement d’un bien ou de l’un de ses éléments, selon son âge, son état d’entretien et son degré d’usure au moment du sinistre.",
+      "page": 6
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Responsabilité civile (A1)",
+      "description": "SMACL Assurances garantit les conséquences pécuniaires de la responsabilité que l’assuré peut encourir en raison des dommages corporels, matériels et immatériels consécutifs causés aux tiers par le bateau assuré. Sont notamment couverts les dommages de pollution occasionnés par le bateau suite à un événement garanti. SMACL Assurances garantit également la responsabilité civile de l’assuré relative aux dommages corporels causés aux passagers membres de la famille ; aux dommages corporels, matériels et immatériels consécutifs causés aux autres passagers ; aux dommages corporels occasionnés aux personnes tractées lors de la pratique du ski nautique, dans la limite de deux personnes, et d’un sport de glisse nautique, dans la limite de la capacité d’embarquement du navire tracteur (moins le pilote et la personne chargée de la surveillance) et de celle de l’engin tracté ; aux dommages corporels, matériels et immatériels occasionnés aux tiers par les personnes tractées lors de ces mêmes pratiques, la responsabilité de ces personnes étant également couverte.",
+      "is_optional": null,
+      "territorial_scope": "Les garanties s’exercent sans limitation de navigation dans les pays du monde entier sous réserve du respect de la réglementation en vigueur. Toutefois l’étendue des garanties est automatiquement ramenée aux limites fixées par la réglementation en vigueur pour la catégorie de navigation du bateau assuré. (art. 6, page 8)",
+      "limits": "Dommages corporels par sinistre : 15 000 000 € ; Dommages matériels et immatériels consécutifs par sinistre : 5 000 000 € ; Tous dommages confondus : matériels, immatériels et corporels par sinistre : 20 000 000 € (art. 4, page 7)",
+      "sub_limits": [
+        "Ski nautique : dans la limite de deux personnes",
+        "Sport de glisse nautique : dans la limite de la capacité d’embarquement du navire tracteur (moins le pilote et la personne chargée de la surveillance) et de celle de l’engin tracté"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Garantie déclenchée par le fait générateur : couvre l’assuré dès lors que le fait dommageable survient entre la prise d’effet initiale de la garantie et sa date de résiliation ou d’expiration, quelle que soit la date des autres éléments constitutifs du sinistre",
+        "Bénéficiaires de la qualité d’assuré pour cette garantie (tableau art. 1, page 4) : souscripteur ou propriétaire du bateau ; pilote, skipper ou gardien autorisé ; passagers embarqués à titre gratuit ; personnes tractées lors de la pratique d’un sport de glisse ou de ski nautique",
+        "Les frais de procès, de quittance et autres frais de règlement ne viennent pas en déduction du montant de la garantie (art. 17.1 a, page 15)",
+        "SMACL Assurances a seule le droit, dans la limite de la garantie, de transiger avec les personnes lésées (art. 17.1 a, page 15)"
+      ],
+      "page": 8
+    },
+    {
+      "name": "Frais de retirement de l’épave du bateau (A2)",
+      "description": "SMACL Assurances garantit le remboursement des frais engagés suite à l’injonction d’une autorité qualifiée de retirer l’épave du bateau en vue de sa destruction.",
+      "is_optional": null,
+      "territorial_scope": "Les garanties s’exercent sans limitation de navigation dans les pays du monde entier sous réserve du respect de la réglementation en vigueur. Toutefois l’étendue des garanties est automatiquement ramenée aux limites fixées par la réglementation en vigueur pour la catégorie de navigation du bateau assuré. (art. 6, page 8)",
+      "limits": "30 000 € (art. 4, page 7)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Bénéficiaires de la qualité d’assuré pour cette garantie (tableau art. 1, page 4) : souscripteur ou propriétaire du bateau ; pilote, skipper ou gardien autorisé du bateau",
+        "Les indemnités relatives aux opérations de retirement et de renflouement ne sont pas cumulables entre elles (art. 17.1 a, page 15)"
+      ],
+      "page": 8
+    },
+    {
+      "name": "Pertes, avaries, incendie, vandalisme subis par le bateau et Assistance maritime au bateau (B1)",
+      "description": "SMACL Assurances garantit : les dommages et pertes survenus au bateau assuré causés accidentellement par un événement climatique, une fortune de mer (le jet à la mer consécutif à une fortune de mer est également garanti), un attentat, un mouvement populaire ou une émeute, un vice caché du corps du bateau ou des appareils moteurs ; les conséquences de la chute à l’eau des moteurs hors-bord fixés sur le bateau, mais uniquement si la chute a pour origine un incendie, une explosion ou une collision du bateau avec un corps identifié fixe, mobile ou flottant ; les dommages et pertes survenus au bateau pendant le transport routier, ferroviaire ou maritime, lors des opérations proprement dites de mise à l’eau ou de sortie de l’eau, lors du chargement ou du déchargement sur le véhicule de transport ; le remboursement des frais de remise en état du bateau à la suite d’un acte de vandalisme. Concernant l’assistance maritime au bateau, SMACL Assurances garantit le remboursement des frais d’assistance légitimement engagés pour sauver le bateau à la suite d’un événement garanti.",
+      "is_optional": null,
+      "territorial_scope": "Les garanties s’exercent sans limitation de navigation dans les pays du monde entier sous réserve du respect de la réglementation en vigueur. Toutefois l’étendue des garanties est automatiquement ramenée aux limites fixées par la réglementation en vigueur pour la catégorie de navigation du bateau assuré. (art. 6, page 8)",
+      "limits": "Article 9.1 des conditions générales (renvoi du tableau des montants, art. 4, page 7)",
+      "sub_limits": [],
+      "deductible": "Indemnisation effectuée sous déduction d’une franchise, dont le montant initial est précisé aux conditions particulières (art. 17.3, page 16). Aucune indemnité n’est versée si les dommages n’atteignent pas le montant de la franchise.",
+      "conditions": [
+        "Seul le propriétaire du bateau sera bénéficiaire de l’indemnité (art. 1, page 4)",
+        "Bénéficiaires de la qualité d’assuré pour cette garantie (tableau art. 1, page 4) : souscripteur ou propriétaire du bateau ; pilote, skipper ou gardien autorisé du bateau",
+        "Pour les dommages occasionnés aux casque, combinaison, harnais ou matériel de sécurité réglementaire, cette garantie est acquise seulement si l’embarcation est elle-même endommagée",
+        "Pour les véhicules nautiques à moteur, la garantie n’est acquise au casque, à la combinaison ou au matériel de sécurité réglementaire que si le véhicule nautique à moteur est lui-même endommagé ou volé (art. 9.3.2, page 10)"
+      ],
+      "page": 9
+    },
+    {
+      "name": "Vol et tentative de vol (B2)",
+      "description": "SMACL Assurances garantit : le vol total du bateau, par soustraction frauduleuse (article 311-1 du Code pénal) ou consécutif à la remise, par l’acheteur du bateau, d’un faux chèque de banque ; le vol partiel avec effraction ou la tentative de vol des installations fixes du bateau et des instruments et équipements amovibles lorsqu’ils sont reliés à la coque ou dans un lieu fermé à clef ou cadenassé ; le vol ou la tentative de vol des appareils moteurs hors-bord, lorsque ceux-ci sont à poste, en cas d’effraction du dispositif antivol les reliant à la coque, entreposés dans une partie fixe du bateau fermée à clef, en cas d’effraction de cette partie, ou remisés à terre, en cas d’effraction du lieu de dépôt ; le vol ou la tentative de vol commis avec violence.",
+      "is_optional": null,
+      "territorial_scope": "Les garanties s’exercent sans limitation de navigation dans les pays du monde entier sous réserve du respect de la réglementation en vigueur. Toutefois l’étendue des garanties est automatiquement ramenée aux limites fixées par la réglementation en vigueur pour la catégorie de navigation du bateau assuré. (art. 6, page 8)",
+      "limits": "Article 9.2 des conditions générales (renvoi du tableau des montants, art. 4, page 7)",
+      "sub_limits": [],
+      "deductible": "Indemnisation effectuée sous déduction d’une franchise, dont le montant initial est précisé aux conditions particulières (art. 17.3, page 16)",
+      "conditions": [
+        "Seul le propriétaire du bateau sera bénéficiaire de l’indemnité (art. 1, page 4)",
+        "Bénéficiaires de la qualité d’assuré pour cette garantie (tableau art. 1, page 4) : souscripteur ou propriétaire du bateau ; pilote, skipper ou gardien autorisé du bateau",
+        "Pour les planches à voile et les kitesurfs / flysurfs, le vol des casque, combinaison, harnais et matériel de sécurité réglementaire est garanti uniquement s’il y a vol de l’embarcation elle-même",
+        "Pour les véhicules nautiques à moteur (art. 9.3.1, page 10) : le VNM doit être verrouillé et le transmetteur de commande à distance ainsi que les clés de démarrage et le coupe-circuit électronique ne doivent être laissés ni à poste ni à bord, lorsque le VNM est à flot, transporté ou remisé à sec ; et il doit y avoir eu, le cas échéant, effraction du lieu de dépôt du VNM",
+        "En cas de vol ou de tentative de vol, l’assuré doit déclarer l’événement immédiatement aux autorités de police en déposant une plainte (art. 16.2.2, page 14)"
+      ],
+      "page": 9
+    },
+    {
+      "name": "Frais de renflouement",
+      "description": "SMACL Assurances garantit le remboursement, sur justification et dans la limite des montants prévus à l’article 4, des frais légitimement exposés en cas d’échouement ou de naufrage du bateau suivi de la remise à flot ou du renflouement.",
+      "is_optional": null,
+      "territorial_scope": "Les garanties s’exercent sans limitation de navigation dans les pays du monde entier sous réserve du respect de la réglementation en vigueur. Toutefois l’étendue des garanties est automatiquement ramenée aux limites fixées par la réglementation en vigueur pour la catégorie de navigation du bateau assuré. (art. 6, page 8)",
+      "limits": "30 000 € (1) — « Les frais de renflouement sont pris en charge dans la limite de la valeur du bateau, telle que définie à l’article 17 ci-après, sans pouvoir excéder 30 000 € » (art. 4, page 7)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Les indemnités relatives aux opérations de renflouement et de retirement ne sont pas cumulables entre elles (art. 17.1 b, page 15)"
+      ],
+      "page": 10
+    },
+    {
+      "name": "Mesures conservatoires légitimes",
+      "description": "SMACL Assurances garantit le remboursement, sur justification et dans la limite des montants prévus à l’article 4, des mesures conservatoires légitimement engagées par l’assuré, afin de limiter l’importance des dommages au bateau à la suite d’un événement garanti.",
+      "is_optional": null,
+      "territorial_scope": "Les garanties s’exercent sans limitation de navigation dans les pays du monde entier sous réserve du respect de la réglementation en vigueur. Toutefois l’étendue des garanties est automatiquement ramenée aux limites fixées par la réglementation en vigueur pour la catégorie de navigation du bateau assuré. (art. 6, page 8)",
+      "limits": "20 000 € (art. 4, page 7)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 10
+    },
+    {
+      "name": "Frais de déconstruction",
+      "description": "SMACL Assurances garantit le remboursement des frais nécessaires à la déconstruction du bateau lorsque ce dernier est à l’état d’épave, sur présentation d’un justificatif accepté par notre expert et dans la limite du plafond prévu à l’article 4.",
+      "is_optional": null,
+      "territorial_scope": "Les garanties s’exercent sans limitation de navigation dans les pays du monde entier sous réserve du respect de la réglementation en vigueur. Toutefois l’étendue des garanties est automatiquement ramenée aux limites fixées par la réglementation en vigueur pour la catégorie de navigation du bateau assuré. (art. 6, page 8)",
+      "limits": "5 000 € (art. 4, page 7)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Sur présentation d’un justificatif accepté par notre expert (art. 9.5, page 10 ; art. 17.1 b, page 15)"
+      ],
+      "page": 10
+    },
+    {
+      "name": "Individuelle marine (D)",
+      "description": "SMACL Assurances garantit le paiement des indemnités prévues en cas d’accident corporel survenu à l’assuré alors qu’il est à bord du bateau ou de ses annexes, lorsqu’il y embarque ou en débarque ou lorsqu’il est tracté lors de la pratique d’un sport de ski ou de glisse nautique. Chaque assuré pourra prétendre, dans la limite de la formule de garantie prévue aux conditions particulières et choisie par le souscripteur : au remboursement des frais médicaux, paramédicaux, chirurgicaux, pharmaceutiques, de prothèse et d’hospitalisation, en complément des indemnités ou prestations de même nature dues par les organismes sociaux obligatoires et complémentaires, sans que l’assuré puisse percevoir au total un montant supérieur à celui de ses dépenses réelles ; au remboursement des frais de sauvetage et de recherche engagés pour rechercher un assuré naufragé ou tombé à l’eau ; au paiement, en cas de décès, du capital garanti ; en cas d’incapacité permanente totale, du capital garanti ; en cas d’incapacité permanente partielle, d’une fraction du capital garanti, déterminée proportionnellement au taux de cette incapacité subsistant après consolidation.",
+      "is_optional": null,
+      "territorial_scope": "Les garanties s’exercent sans limitation de navigation dans les pays du monde entier sous réserve du respect de la réglementation en vigueur. Toutefois l’étendue des garanties est automatiquement ramenée aux limites fixées par la réglementation en vigueur pour la catégorie de navigation du bateau assuré. (art. 6, page 8)",
+      "limits": "Montant de la garantie au choix de l’assuré, pour les personnes transportées dans la limite du nombre de places prévu par le constructeur (art. 4, page 7) — Décès : 6 000 € / 13 000 € / 21 000 € ; Incapacité permanente : 6 000 € / 13 000 € / 21 000 € ; Frais médicaux : 500 € / 1 100 € / 1 700 € ; Frais de recherche et de sauvetage : 800 €",
+      "sub_limits": [
+        "Décès : 6 000 € / 13 000 € / 21 000 €",
+        "Incapacité permanente : 6 000 € / 13 000 € / 21 000 €",
+        "Frais médicaux : 500 € / 1 100 € / 1 700 €",
+        "Frais de recherche et de sauvetage : 800 €"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Garantie acquise pour les personnes transportées dans la limite du nombre de places prévu par le constructeur",
+        "Bénéficiaires de la qualité d’assuré pour cette garantie (tableau art. 1, page 4) : souscripteur ou propriétaire ; pilote, skipper ou gardien autorisé ; passagers embarqués à titre gratuit ; personnes tractées",
+        "Au cas où l’assuré viendrait à décéder après avoir perçu une indemnité pour incapacité permanente, et si le décès est la conséquence directe de l’accident corporel, ses ayants droit recevront le capital décès diminué des sommes déjà perçues",
+        "La lésion de membres ou organes déjà atteints d’infirmité ne sera indemnisée que par différence entre le taux d’incapacité permanente avant et après l’accident corporel (art. 17.1 c, page 16)",
+        "Indemnités versées : en cas d’incapacité permanente, à l’assuré lui-même ; en cas de décès, au conjoint survivant (sauf s’il était séparé de corps), à défaut à ses enfants, à défaut aux ayants droit (art. 17.2, page 16)"
+      ],
+      "page": 10
+    },
+    {
+      "name": "Objets et effets transportés (E)",
+      "description": "SMACL Assurances garantit le paiement des indemnités pour les dommages, pertes et vols survenus aux biens et effets personnels appartenant aux personnes transportées, ainsi qu’à l’assuré.",
+      "is_optional": null,
+      "territorial_scope": "Les garanties s’exercent sans limitation de navigation dans les pays du monde entier sous réserve du respect de la réglementation en vigueur. Toutefois l’étendue des garanties est automatiquement ramenée aux limites fixées par la réglementation en vigueur pour la catégorie de navigation du bateau assuré. (art. 6, page 8)",
+      "limits": "Capitaux assurés, montant de la garantie au choix de l’assuré : 1 200 € / 2 800 € / 9 000 € (art. 4, page 7)",
+      "sub_limits": [
+        "Capitaux assurés : 1 200 € / 2 800 € / 9 000 €"
+      ],
+      "deductible": "Indemnisation effectuée sous déduction d’une franchise, dont le montant initial est précisé aux conditions particulières (art. 17.3, page 16)",
+      "conditions": [
+        "Pour les dommages et pertes, garantie acquise seulement s’il y a perte totale du bateau ou dommages au bateau, tel que prévu à l’article 9",
+        "Pour le vol, garantie acquise seulement s’il y a vol ou effraction du bateau, ou effraction du dispositif antivol reliant le bien dérobé à la coque",
+        "Bénéficiaires de la qualité d’assuré pour cette garantie (tableau art. 1, page 4) : souscripteur ou propriétaire ; pilote, skipper ou gardien autorisé ; passagers embarqués à titre gratuit",
+        "L’indemnité sera fixée de gré à gré ou à dire d’expert, sous déduction pour différence du vieux au neuf s’il y a lieu, après production des justifications nécessaires (art. 17.1 d, page 16)"
+      ],
+      "page": 11
+    },
+    {
+      "name": "Défense pénale (C1)",
+      "description": "SMACL Assurances assume, à ses frais, la défense des intérêts de l’assuré en cas de réclamations amiables ou contentieuses, ou en raison de poursuites pénales engagées contre l’assuré, motivées par un événement couvert au titre de la garantie responsabilité civile du présent contrat. SMACL Assurances assume dans le cadre de cette garantie la direction du procès et a le libre exercice des voies de recours, sauf en ce qui concerne la défense pénale de l’assuré.",
+      "is_optional": null,
+      "territorial_scope": "Les garanties s’exercent sans limitation de navigation dans les pays du monde entier sous réserve du respect de la réglementation en vigueur. Toutefois l’étendue des garanties est automatiquement ramenée aux limites fixées par la réglementation en vigueur pour la catégorie de navigation du bateau assuré. (art. 6, page 8)",
+      "limits": "Défense amiable des droits de l’assuré (défense civile et recours amiables) — plafond de garantie : 4 600 € ; Défense des droits de l’assuré en justice ou devant une commission — plafond de garantie : 10 000 € (art. 12.5, page 12)",
+      "sub_limits": [
+        "Défense amiable, montants garantis (hors taxes) : honoraires d’avocat (pour l’ensemble de l’intervention de l’avocat) 348 € ; expertise médicale 153 € ; expertise immobilière 1 838 € ; autre expertise matérielle 110 €",
+        "Défense en justice, montants garantis (hors taxes), cours de Paris et Versailles / autres cours : tribunal de police 611 € / 589 € ; tribunal correctionnel 696 € / 663 € ; tribunal judiciaire et tribunal administratif 724 € / 691 € ; tribunal d’instance 586 € / 561 € ; juge de proximité 586 € / 561 €",
+        "Référé : expertise et/ou provision 448 € / 426 € ; autres référés (civil et administratif) 572 € / 543 €",
+        "Incident devant le juge de la mise en état 378 € / 360 € ; juge de l’éxécution 415 € / 387 €",
+        "Cour d’appel : référé 1er président 572 € / 550 € ; affaire au fond 724 € / 691 €",
+        "Tribunal de commerce, tribunal des affaires sociales, CIVI 724 € / 691 €",
+        "Présentation d’une requête ou défense à requête 316 € / 298 €",
+        "Dépôt de plainte avec constitution de partie civile 415 € / 387 €",
+        "Chambre de l’instruction 593 € / 573 €",
+        "Procédure criminelle : assistance à instruction 478 € / 452 € ; Cour d’assises : 1ère instance ou appel (par jour d’audience dans la limite de cinq (5) jours) 911 € / 911 €",
+        "Assistance à expertise (sur accord exprès de nos services) 478 € / 452 € ; assistance à instruction (sur accord exprès de nos services) 478 € / 452 €",
+        "Assistance à médiation 611 € / 589 €",
+        "Déclaration de créance en cas de procédures collectives 257 € / 238 €",
+        "Autres commissions et juridictions 724 € / 691 € ; arbitrage 724 € / 691 €",
+        "Démarche au Parquet pour obtention de procès-verbaux 97 €",
+        "Cour de cassation et Conseil d’État : consultation 945 € ; mémoire 945 €",
+        "Expertise médicale 153 € ; expertise immobilière 1 838 € ; expertise comptable 924 € ; autre expertise matérielle 110 €",
+        "Transaction : plafond identique à l’honoraire dû en cas de procédure au fond devant la juridiction compétente"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Les montants garantis sont applicables pour un même sinistre ; constitue un même sinistre l’ensemble des demandes ou réclamations auxquelles il a été opposé un même refus (art. 12.5, page 12)",
+        "Libre choix de l’avocat par l’assuré pour toute action en justice relevant de la défense pénale (art. 12.4.1, page 12) ; ce principe ne s’applique pas lorsque le recours est exercé en même temps dans l’intérêt de l’assuré et dans l’intérêt de SMACL Assurances",
+        "Les frais de défense amiable engagés par l’assuré ne sont pris en charge qu’en cas de survenance d’un conflit d’intérêts, ou lorsque l’adversaire est lui-même défendu par un avocat (note (1), art. 12.5.1, page 12)",
+        "En cas de désaccord sur les mesures à prendre, la difficulté peut être soumise à une tierce personne désignée d’un commun accord ou, à défaut, par le président du tribunal judiciaire statuant en la forme des référés ; les frais sont à la charge de SMACL Assurances (art. 12.2, page 11)",
+        "Bénéficiaires de la qualité d’assuré pour cette garantie (tableau art. 1, page 4) : souscripteur ou propriétaire ; pilote, skipper ou gardien autorisé ; passagers embarqués à titre gratuit ; personnes tractées"
+      ],
+      "page": 11
+    },
+    {
+      "name": "Recours (C2)",
+      "description": "SMACL Assurances réclame à ses frais, soit à l’amiable, soit judiciairement, la réparation pécuniaire des dommages corporels, matériels et immatériels consécutifs à un événement garanti par le contrat.",
+      "is_optional": null,
+      "territorial_scope": "Les garanties s’exercent sans limitation de navigation dans les pays du monde entier sous réserve du respect de la réglementation en vigueur. Toutefois l’étendue des garanties est automatiquement ramenée aux limites fixées par la réglementation en vigueur pour la catégorie de navigation du bateau assuré. (art. 6, page 8)",
+      "limits": "Défense amiable des droits de l’assuré (défense civile et recours amiables) — plafond de garantie : 4 600 € ; Défense des droits de l’assuré en justice ou devant une commission — plafond de garantie : 10 000 € (art. 12.5, page 12)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Pour toute réclamation concernant un dommage matériel inférieur au montant de la franchise mentionnée aux conditions particulières, SMACL Assurances ne pourra être tenue d’exercer qu’un recours amiable, à l’exclusion de tout recours par voie judiciaire",
+        "Libre choix de l’avocat pour la garantie recours, pour le préjudice non indemnisé (art. 12.4.1, page 12)",
+        "Bénéficiaires de la qualité d’assuré pour cette garantie (tableau art. 1, page 4) : souscripteur ou propriétaire ; pilote, skipper ou gardien autorisé ; passagers embarqués à titre gratuit ; personnes tractées"
+      ],
+      "page": 11
+    },
+    {
+      "name": "Assistance navigation",
+      "description": "SMACL Assurances propose un ensemble de garanties mises en œuvre par Inter Mutuelle Assistance GIE (118, avenue de Paris, BP 8000, 79033 Niort Cedex 9). Quelles que soient les garanties souscrites, l’assuré bénéficie d’une assistance au bateau et aux personnes. Le domaine d’application et l’ensemble des prestations acquises sont décrits à la convention assistance navigation en vigueur à la date de souscription du présent contrat.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties s’exercent sans limitation de navigation dans les pays du monde entier sous réserve du respect de la réglementation en vigueur. Toutefois l’étendue des garanties est automatiquement ramenée aux limites fixées par la réglementation en vigueur pour la catégorie de navigation du bateau assuré. (art. 6, page 8)",
+      "limits": "Voir convention d’assistance (art. 4, page 7)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Acquise quelles que soient les garanties souscrites",
+        "Prestations décrites à la convention assistance navigation en vigueur à la date de souscription",
+        "SMACL Assistance joignable tous les jours, même les jours fériés : numéro cristal en France (appel non surtaxé) 09 86 03 04 05 ; depuis l’étranger + 33 5 49 34 83 47 ; pour les personnes sourdes et malentendantes par SMS au 06 73 25 32 47 ou par fax au 05 49 34 72 67"
+      ],
+      "page": 13
+    },
+    {
+      "name": "Extension de garantie : indemnisation en prix d’acquisition",
+      "description": "Extension de garantie prévue à l’article 17.1 b) : en cas de perte ou vol total d’un bateau de moins de 72 mois, l’évaluation des dommages se fait au prix d’acquisition ; en cas de vol partiel, tentative de vol ou dommage partiel (bateau de moins de 72 mois ; espars, gréements dormants, accastillage de moins de 72 mois ; moteurs de plus de 36 mois), coût de remise en état ou de remplacement à concurrence du prix d’acquisition du bien concerné ; en cas de renflouement (bateau de moins de 72 mois), coût de remise à flot dans la limite du prix d’acquisition du bateau sans pouvoir excéder 30 000 €.",
+      "is_optional": null,
+      "territorial_scope": "Les garanties s’exercent sans limitation de navigation dans les pays du monde entier sous réserve du respect de la réglementation en vigueur. Toutefois l’étendue des garanties est automatiquement ramenée aux limites fixées par la réglementation en vigueur pour la catégorie de navigation du bateau assuré. (art. 6, page 8)",
+      "limits": "Renflouement : coût de remise à flot dans la limite du prix d’acquisition du bateau sans pouvoir excéder 30 000 € (art. 17.1 b, page 15)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Ne sont jamais concernés par l’indemnisation en prix d’acquisition : les gréements courants et la garde-robe (voiles) du bateau ; les appareils/équipements électroniques d’aide à la navigation et de radiocommunication ; les vêtements quel que soit leur usage ; les annexes et leur moteur ; le casque, la combinaison, le harnais et le matériel de sécurité réglementaire des véhicules nautiques à moteur, planche à voile et kitesurf / flysurf",
+        "Le régime de droit commun (art. 17.1 b, valeur prise en compte) s’applique aux bateaux de plus de 72 mois : perte ou vol total = valeur de remplacement ; vol partiel, tentative de vol ou dommage partiel = coût de remise en état ou de remplacement, vétusté déduite, à concurrence de la valeur de remplacement du bien concerné ; renflouement = coût de remise à flot dans la limite de la valeur de remplacement du bateau sans pouvoir excéder 30 000 €"
+      ],
+      "page": 15
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Personnes n’ayant pas la qualité d’assuré",
+      "description": "Ne bénéficie pas de la qualité d’assuré toute personne qui assure la garde ou la conduite du bateau contre rémunération ou en raison de son activité professionnelle de garagiste, courtier, vendeur, convoyeur, réparateur ou dépanneur de bateaux, ainsi que toute personne à qui le bateau a été donné en location.",
+      "applies_to": "all",
+      "page": 4
+    },
+    {
+      "name": "Biens loués",
+      "description": "SMACL Assurances garantit, sur présentation de tout document justificatif, les biens appartenant à l’assuré, à l’exclusion des biens loués à quel que titre que ce soit.",
+      "applies_to": "all",
+      "page": 7
+    },
+    {
+      "name": "Dommages subis par l’assuré, ses préposés et le bateau",
+      "description": "Les dommages subis par : l’assuré, les préposés et salariés pendant leur service, le bateau.",
+      "applies_to": "Responsabilité civile (A1) ; Frais de retirement de l’épave du bateau (A2)",
+      "page": 9
+    },
+    {
+      "name": "Dommages matériels aux personnes tractées",
+      "description": "Les dommages matériels et immatériels consécutifs occasionnés aux personnes tractées lors de la pratique d’un sport de ski ou de glisse nautique.",
+      "applies_to": "Responsabilité civile (A1) ; Frais de retirement de l’épave du bateau (A2)",
+      "page": 9
+    },
+    {
+      "name": "Personnes transportées à titre onéreux",
+      "description": "Les dommages subis et causés par les personnes transportées à titre onéreux.",
+      "applies_to": "Responsabilité civile (A1) ; Frais de retirement de l’épave du bateau (A2)",
+      "page": 9
+    },
+    {
+      "name": "Dommages matériels aux membres de la famille",
+      "description": "Les dommages matériels et immatériels consécutifs subis par les membres de la famille de l’assuré.",
+      "applies_to": "Responsabilité civile (A1) ; Frais de retirement de l’épave du bateau (A2)",
+      "page": 9
+    },
+    {
+      "name": "Bateaux ou engins remorqués",
+      "description": "Les dommages ou préjudices subis par les bateaux ou engins remorqués par le bateau ou par les personnes se trouvant à bord desdits bateaux ou engins remorqués.",
+      "applies_to": "Responsabilité civile (A1) ; Frais de retirement de l’épave du bateau (A2)",
+      "page": 9
+    },
+    {
+      "name": "Accidents après vol ou utilisation à l’insu de l’assuré",
+      "description": "Les conséquences des accidents survenus : à la suite du vol du bateau ; lors de l’utilisation de ce dernier à votre insu, sauf si vous êtes civilement responsable de l’utilisateur.",
+      "applies_to": "Responsabilité civile (A1) ; Frais de retirement de l’épave du bateau (A2)",
+      "page": 9
+    },
+    {
+      "name": "Émeutes et mouvements populaires",
+      "description": "Les pertes et dommages occasionnés par des émeutes ou par des mouvements populaires.",
+      "applies_to": "Responsabilité civile (A1) ; Frais de retirement de l’épave du bateau (A2)",
+      "page": 9
+    },
+    {
+      "name": "Frais de retirement après défaut d’entretien",
+      "description": "Les frais de retirement lorsque le sinistre est la conséquence d’un défaut caractérisé d’entretien du bateau.",
+      "applies_to": "Responsabilité civile (A1) ; Frais de retirement de l’épave du bateau (A2)",
+      "page": 9
+    },
+    {
+      "name": "Frais de destruction du bateau ou de son épave",
+      "description": "Les frais de destruction du bateau ou de son épave.",
+      "applies_to": "Responsabilité civile (A1) ; Frais de retirement de l’épave du bateau (A2)",
+      "page": 9
+    },
+    {
+      "name": "Amendes (RC et retirement)",
+      "description": "Les amendes, leurs majorations et accessoires, ainsi que les frais de leur recouvrement auxquels l’assuré pourrait être condamné.",
+      "applies_to": "Responsabilité civile (A1) ; Frais de retirement de l’épave du bateau (A2)",
+      "page": 9
+    },
+    {
+      "name": "Vice propre, vétusté, défaut d’entretien",
+      "description": "Les sinistres subis par le bateau provenant de son vice propre, de sa vétusté ou d'un défaut caractérisé d’entretien.",
+      "applies_to": "Pertes, avaries, incendie, vandalisme subis par le bateau et Assistance maritime au bateau (B1)",
+      "page": 9
+    },
+    {
+      "name": "Pièces affectées d’un vice caché",
+      "description": "Le remplacement ou la réparation des pièces affectées d’un vice caché, ainsi que les frais de démontage et de remontage de ces pièces.",
+      "applies_to": "Pertes, avaries, incendie, vandalisme subis par le bateau et Assistance maritime au bateau (B1)",
+      "page": 9
+    },
+    {
+      "name": "Voie d’eau due à l’écliage",
+      "description": "Les sinistres provenant d’une voie d’eau due à l’écliage par assèchement de la coque.",
+      "applies_to": "Pertes, avaries, incendie, vandalisme subis par le bateau et Assistance maritime au bateau (B1)",
+      "page": 9
+    },
+    {
+      "name": "Piqûre des vers et dépôts organiques",
+      "description": "Les sinistres qui sont la conséquence de la piqûre des vers et de dépôts organiques sur la coque, ainsi que sur tous les appareils ou objets à bord du bateau.",
+      "applies_to": "Pertes, avaries, incendie, vandalisme subis par le bateau et Assistance maritime au bateau (B1)",
+      "page": 9
+    },
+    {
+      "name": "Usure des appareils moteurs et circuits électriques",
+      "description": "Les sinistres survenus aux appareils moteurs, à leurs accessoires, aux appareils et circuits électriques, provoqués par l’usure ou résultant de leur seul fonctionnement ou d’un usage contraire aux normes d’utilisation prescrites par le fabricant.",
+      "applies_to": "Pertes, avaries, incendie, vandalisme subis par le bateau et Assistance maritime au bateau (B1)",
+      "page": 9
+    },
+    {
+      "name": "Dommages indirects, dépréciation et privation de jouissance (B1)",
+      "description": "Les dommages indirects, les indemnités pour dépréciation et privation de jouissance.",
+      "applies_to": "Pertes, avaries, incendie, vandalisme subis par le bateau et Assistance maritime au bateau (B1)",
+      "page": 9
+    },
+    {
+      "name": "Peinture et vernis - éraflures (B1)",
+      "description": "Les dommages à la peinture et au vernis lorsqu’ils sont seulement consécutifs à des éraflures.",
+      "applies_to": "Pertes, avaries, incendie, vandalisme subis par le bateau et Assistance maritime au bateau (B1)",
+      "page": 9
+    },
+    {
+      "name": "Équipement individuel sans dommage au bateau",
+      "description": "Les dommages occasionnés aux casque, combinaison, harnais ou matériel de sécurité réglementaire, en dehors de tout dommage causé au bateau assuré.",
+      "applies_to": "Pertes, avaries, incendie, vandalisme subis par le bateau et Assistance maritime au bateau (B1)",
+      "page": 9
+    },
+    {
+      "name": "Équipements amovibles laissés à bord sur la voie publique",
+      "description": "Lorsque le bateau est stationné sur la voie publique, le vol ou la tentative de vol des instruments et équipements amovibles laissés à bord, non entreposés dans un endroit fermé à clef ou cadenassé.",
+      "applies_to": "Vol et tentative de vol (B2)",
+      "page": 10
+    },
+    {
+      "name": "Dommages indirects, dépréciation et privation de jouissance (B2)",
+      "description": "Les dommages indirects, les indemnités pour dépréciation et privation de jouissance.",
+      "applies_to": "Vol et tentative de vol (B2)",
+      "page": 10
+    },
+    {
+      "name": "Vol commis par la famille, les préposés ou l’équipage",
+      "description": "Le vol commis par les membres de votre famille et, dans l’exercice de leurs fonctions, les vols commis par vos préposés, par l’équipage du bateau, ou ceux commis avec leur complicité.",
+      "applies_to": "Vol et tentative de vol (B2)",
+      "page": 10
+    },
+    {
+      "name": "Vol de carburant seul",
+      "description": "Le vol de carburant seul.",
+      "applies_to": "Vol et tentative de vol (B2)",
+      "page": 10
+    },
+    {
+      "name": "Peinture et vernis - éraflures (B2)",
+      "description": "Les dommages à la peinture et au vernis lorsqu’ils sont seulement consécutifs à des éraflures.",
+      "applies_to": "Vol et tentative de vol (B2)",
+      "page": 10
+    },
+    {
+      "name": "VNM - dispositions de sécurité non respectées",
+      "description": "Le vol ou la tentative de vol des véhicules nautiques à moteur, pour lesquels les dispositions spécifiques prévues à l’article 9.3.1 n’ont pas été respectées.",
+      "applies_to": "Vol et tentative de vol (B2)",
+      "page": 10
+    },
+    {
+      "name": "Vol consécutif à remise volontaire, abus de confiance ou escroquerie",
+      "description": "Le vol consécutif à : la remise volontaire du bateau ; un abus de confiance ou une escroquerie (à l’exception du vol total du bateau suite à la remise d’un faux chèque de banque).",
+      "applies_to": "Vol et tentative de vol (B2)",
+      "page": 10
+    },
+    {
+      "name": "Vol isolé de l’équipement individuel",
+      "description": "Le vol isolé du casque, de la combinaison, du harnais ou du matériel de sécurité réglementaire.",
+      "applies_to": "Vol et tentative de vol (B2)",
+      "page": 10
+    },
+    {
+      "name": "Accidents corporels des personnes transportées à titre onéreux",
+      "description": "Les accidents corporels survenus aux personnes transportées à titre onéreux.",
+      "applies_to": "Individuelle marine (D)",
+      "page": 10
+    },
+    {
+      "name": "Accidents corporels causés par catastrophes, émeutes, terrorisme",
+      "description": "Les accidents corporels causés par tremblements de terre, par volcanismes, par émeutes ou mouvements populaires, par actes de terrorisme ou de sabotage.",
+      "applies_to": "Individuelle marine (D)",
+      "page": 10
+    },
+    {
+      "name": "Accidents corporels - obligations de sécurité non respectées ou défaut d’entretien",
+      "description": "Les accidents corporels survenus lorsque les obligations de sécurité fixées par la loi ne sont pas respectées ou lorsque ces accidents sont causés par le défaut caractérisé d’entretien du bateau, sauf lorsque le sinistre est sans relation avec l’un de ces faits.",
+      "applies_to": "Individuelle marine (D)",
+      "page": 10
+    },
+    {
+      "name": "Accidents corporels - violation de blocus, contrebande, commerce prohibé",
+      "description": "Les accidents corporels survenus lors de tous événements quelconques résultant de violation de blocus, de contrebande ou de commerce prohibé ou clandestin.",
+      "applies_to": "Individuelle marine (D)",
+      "page": 10
+    },
+    {
+      "name": "Salariés et préposés durant leur service (individuelle marine)",
+      "description": "Toutes personnes salariées ou préposées de l’assuré durant leur service.",
+      "applies_to": "Individuelle marine (D)",
+      "page": 10
+    },
+    {
+      "name": "Personnes transportées si le bateau est volé, réquisitionné ou loué",
+      "description": "Toutes personnes transportées lorsque le bateau est volé, réquisitionné ou donné en location.",
+      "applies_to": "Individuelle marine (D)",
+      "page": 10
+    },
+    {
+      "name": "Insolation, congestion, congélation",
+      "description": "Toutes personnes victimes d’insolation, congestion ou congélation, sauf si celles-ci résultent d’un accident corporel couvert par la présente garantie.",
+      "applies_to": "Individuelle marine (D)",
+      "page": 10
+    },
+    {
+      "name": "Vétusté, vice propre, défaut d’entretien (objets transportés)",
+      "description": "Les sinistres provenant de la vétusté, du vice propre ou du défaut caractérisé d’entretien du bateau.",
+      "applies_to": "Objets et effets transportés (E)",
+      "page": 11
+    },
+    {
+      "name": "Usure des biens transportés",
+      "description": "Les sinistres survenus aux biens transportés, provoqués par l’usure ou résultant de leur seul fonctionnement ou d’un usage contraire aux normes d’utilisation prescrites par le fabricant.",
+      "applies_to": "Objets et effets transportés (E)",
+      "page": 11
+    },
+    {
+      "name": "Dommages indirects, dépréciation et privation de jouissance (E)",
+      "description": "Les dommages indirects, les indemnités pour dépréciation et privation de jouissance.",
+      "applies_to": "Objets et effets transportés (E)",
+      "page": 11
+    },
+    {
+      "name": "Vols commis par la famille, les préposés ou l’équipage (objets transportés)",
+      "description": "Les vols commis par les membres de la famille de l’assuré et, dans l’exercice de leurs fonctions, les vols commis par les préposés de l’assuré, par l’équipage du bateau, ou ceux commis avec leur complicité.",
+      "applies_to": "Objets et effets transportés (E)",
+      "page": 11
+    },
+    {
+      "name": "Produits et denrées alimentaires",
+      "description": "Les produits et denrées alimentaires.",
+      "applies_to": "Objets et effets transportés (E)",
+      "page": 11
+    },
+    {
+      "name": "Personnes transportées à titre onéreux (défense-recours)",
+      "description": "Les personnes transportées à titre onéreux.",
+      "applies_to": "Défense pénale (C1) ; Recours (C2)",
+      "page": 11
+    },
+    {
+      "name": "Préposés et salariés pendant leur service (défense-recours)",
+      "description": "Les préposés et salariés de l’assuré pendant leur service.",
+      "applies_to": "Défense pénale (C1) ; Recours (C2)",
+      "page": 11
+    },
+    {
+      "name": "Le voleur du bateau assuré",
+      "description": "Le voleur du bateau assuré.",
+      "applies_to": "Défense pénale (C1) ; Recours (C2)",
+      "page": 11
+    },
+    {
+      "name": "Utilisateur du bateau à l’insu de l’assuré",
+      "description": "L’utilisateur du bateau à l’insu de l’assuré, sauf si ce dernier est civilement responsable de l’utilisateur.",
+      "applies_to": "Défense pénale (C1) ; Recours (C2)",
+      "page": 11
+    },
+    {
+      "name": "Litiges contre SMACL Assurances et certains organismes",
+      "description": "Les litiges ou différends opposant l’assuré à certaines personnes physiques ou aux personnes morales suivantes : SMACL Assurances, toute entreprise d’assurance pour l’éxécution des contrats d’assurance la liant à cette entreprise, toute entreprise d’assistance, toute mutuelle et tout établissement ou tout service soumis aux dispositions du Livre II et/ou du Livre III du Code de la mutuelle.",
+      "applies_to": "Défense pénale (C1) ; Recours (C2)",
+      "page": 11
+    },
+    {
+      "name": "Amendes (défense-recours)",
+      "description": "Les amendes, leurs majorations et accessoires, ainsi que les frais de leur recouvrement auxquels l’assuré pourrait être condamné.",
+      "applies_to": "Défense pénale (C1) ; Recours (C2)",
+      "page": 11
+    },
+    {
+      "name": "Frais et honoraires antérieurs à la déclaration de sinistre",
+      "description": "Les frais et honoraires correspondant à des consultations ou des actes de procédure engagés antérieurement à la déclaration de sinistre sont exclus, sauf si l’assuré peut justifier d’une urgence à les avoir engagés (art. 12.4.2).",
+      "applies_to": "Défense pénale (C1) ; Recours (C2)",
+      "page": 12
+    },
+    {
+      "name": "Usage autre que la navigation de plaisance à titre privé",
+      "description": "Les sinistres survenus lorsque le bateau est utilisé ou destiné à d’autres fins que la navigation de plaisance à titre privé et dans un but non lucratif, à moins qu’il ne s’agisse d’un remorquage effectué par le bateau et imposé par une obligation d’assistance.",
+      "applies_to": "all",
+      "page": 13
+    },
+    {
+      "name": "Dol ou fraude",
+      "description": "Les faits de dol ou de fraude du pilote du bateau ou de l’assuré.",
+      "applies_to": "all",
+      "page": 13
+    },
+    {
+      "name": "Violation de blocus, contrebande, commerce prohibé ou clandestin",
+      "description": "Tous les sinistres résultant de violation de blocus, de contrebande ou de commerce prohibé ou clandestin.",
+      "applies_to": "all",
+      "page": 13
+    },
+    {
+      "name": "Objets de valeur, espèces, titres",
+      "description": "La disparition ou les dommages subis par les bijoux, pierres précieuses ou perles fines, objets de collection, objets en or et en argent, fourrures, espèces, billets de banque, titres et valeurs appartenant ou confiés à l’assuré ou à toute personne embarquée sur le bateau.",
+      "applies_to": "all",
+      "page": 13
+    },
+    {
+      "name": "Frais d’hivernage ou de quarantaine",
+      "description": "Tous les frais d’hivernage ou de quarantaine.",
+      "applies_to": "all",
+      "page": 13
+    },
+    {
+      "name": "Saisie et vente du bateau",
+      "description": "La saisie et la vente du bateau dans quelque lieu et pour quelque cause que ce soit ainsi que les frais de la caution qui pourrait être fournie pour se libérer de cette saisie.",
+      "applies_to": "all",
+      "page": 13
+    },
+    {
+      "name": "Risques nucléaires",
+      "description": "Les sinistres résultant des effets directs ou indirects d’explosion, de dégagement de chaleur, d’irradiation provenant de la transmutation du noyau de l’atome ou de la radioactivité, ainsi que les effets de radiation provoqués par l’accélération artificielle de particules.",
+      "applies_to": "all",
+      "page": 13
+    },
+    {
+      "name": "Recours après accidents lors du transport du bateau",
+      "description": "Les recours exercés contre l’assuré à la suite d’accidents ou d’accidents corporels survenus lors du transport du bateau par voie terrestre, ferroviaire ou maritime.",
+      "applies_to": "all",
+      "page": 13
+    },
+    {
+      "name": "Sinistres intentionnels",
+      "description": "Les sinistres causés intentionnellement par l’assuré ou par toute personne ayant la garde ou la conduite du bateau, ainsi que ceux causés à leur instigation.",
+      "applies_to": "all",
+      "page": 13
+    },
+    {
+      "name": "Bateau donné en location",
+      "description": "Les sinistres survenus alors que le bateau est donné en location.",
+      "applies_to": "all",
+      "page": 13
+    },
+    {
+      "name": "Guerre étrangère ou guerre civile",
+      "description": "Les sinistres occasionnés soit par la guerre étrangère, soit par la guerre civile.",
+      "applies_to": "all",
+      "page": 13
+    },
+    {
+      "name": "Épreuves, courses ou compétitions de bateaux à moteur",
+      "description": "Les sinistres survenus au cours d’épreuves, courses ou compétitions (ou de leurs essais) de bateaux à moteur, lorsque l’assuré y participe en qualité de concurrent ou d’organisateur.",
+      "applies_to": "all",
+      "page": 13
+    },
+    {
+      "name": "Personnes tractées - pratiques exclues",
+      "description": "Les sinistres subis ou causés par les personnes tractées résultant de la pratique : à titre onéreux, d’un sport de ski ou de glisse nautique ; du ski nautique lors de compétitions et de leurs essais préparatoires ; du ski nautique avec cerf-volant ou du parachutisme ascensionnel.",
+      "applies_to": "all",
+      "page": 13
+    },
+    {
+      "name": "Documents de bord non valides",
+      "description": "Les sinistres survenus lorsque le bateau n’est pas muni de l’ensemble des documents de bord en cours de validité au jour du sinistre, exigibles par l’État dont il bat pavillon, même si l’absence de ces documents n’a eu aucune influence sur la survenance du sinistre.",
+      "applies_to": "all",
+      "page": 13
+    },
+    {
+      "name": "Navigation non conforme à la catégorie de conception ou matériel de sécurité non conforme",
+      "description": "Les sinistres survenus lorsque la navigation n’est pas en conformité avec la catégorie de conception du navire et/ou lorsque le matériel d’armement et de sécurité à bord n’est pas en conformité avec la réglementation en vigueur pour la zone de navigation pratiquée.",
+      "applies_to": "all",
+      "page": 13
+    },
+    {
+      "name": "Utilisation contraire aux règlements de police des ports",
+      "description": "Les sinistres survenus lorsque l’utilisation du bateau, de ses équipements et annexes est contraire aux règlements de police des ports et, d’une manière générale, aux dispositions d’ordre public.",
+      "applies_to": "all",
+      "page": 14
+    },
+    {
+      "name": "Régate dont une étape dépasse 1 000 milles marins",
+      "description": "Les sinistres survenus lors de la participation du bateau à voile à une régate dont l’une des étapes est supérieure à 1 000 milles marins.",
+      "applies_to": "all",
+      "page": 14
+    },
+    {
+      "name": "Conducteur non titulaire du titre de conduite",
+      "description": "Les sinistres survenus alors que la personne chargée de la conduite du navire n’est pas titulaire du titre de conduite des navires en mer ou en eaux intérieures délivré par les autorités françaises.",
+      "applies_to": "all",
+      "page": 14
+    },
+    {
+      "name": "Délit de fuite",
+      "description": "Les poursuites exercées à l’encontre de l’assuré en cas de délit de fuite de sa part.",
+      "applies_to": "all",
+      "page": 14
+    },
+    {
+      "name": "Déchéance - état alcoolique, drogues, stupéfiants ou tranquillisants",
+      "description": "L’assuré est déchu du droit à garantie lorsqu’il occasionne un sinistre alors qu’il se trouve, au moment de ce sinistre, sous l’empire d’un état alcoolique ou sous l’emprise de drogues, de stupéfiants ou de tranquillisants non prescrits médicalement, sauf s’il est établi que le sinistre est sans relation avec cet état. Par exception, cette déchéance n’est pas opposable aux bénéficiaires du capital décès versé au titre de la garantie individuelle marine.",
+      "applies_to": "all",
+      "page": 14
+    },
+    {
+      "name": "Biens exclus de l’indemnisation en prix d’acquisition",
+      "description": "Ne sont jamais concernés par l’indemnisation en prix d’acquisition : les gréements courants et la garde-robe (voiles) du bateau ; les appareils/équipements électroniques d’aide à la navigation et de radiocommunication ; les vêtements quel que soit leur usage ; les annexes et leur moteur ; le casque, la combinaison, le harnais et le matériel de sécurité réglementaire des véhicules nautiques à moteur, planche à voile et kitesurf / flysurf.",
+      "applies_to": "Extension de garantie : indemnisation en prix d’acquisition",
+      "page": 15
+    },
+    {
+      "name": "Non-cumul des indemnités renflouement / retirement",
+      "description": "Les indemnités relatives aux opérations de renflouement et de retirement ne sont pas cumulables entre elles.",
+      "applies_to": "Frais de renflouement ; Frais de retirement de l’épave du bateau (A2)",
+      "page": 15
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": "Le montant initial de la franchise est précisé aux conditions particulières et peut varier comme indiqué au titre 6 (vie du contrat). La convention de variation des cotisations (art. 27.4) prévoit une indexation automatique des cotisations hors taxes à chaque échéance, proportionnellement aux variations de l’indice d’échéance par rapport à l’indice de base (indice FFB). L’assuré peut résilier en cas d’augmentation des cotisations ou des franchises applicables aux risques garantis.",
+    "per_coverage": {
+      "Pertes, avaries, incendie, vandalisme subis par le bateau et Assistance maritime au bateau (B1)": "Franchise dont le montant initial est précisé aux conditions particulières (art. 17.3)",
+      "Vol et tentative de vol (B2)": "Franchise dont le montant initial est précisé aux conditions particulières (art. 17.3)",
+      "Objets et effets transportés (E)": "Franchise dont le montant initial est précisé aux conditions particulières (art. 17.3)"
+    },
+    "page": 16
+  },
+  "waiting_periods": [],
+  "obligations": [
+    {
+      "name": "Déclaration du risque à la souscription",
+      "description": "Le contrat est établi sur la base des déclarations de l’assuré, qui doit répondre en toute sincérité aux questions que SMACL Assurances pose. L’assuré doit en particulier indiquer : les éléments d’identification de son bateau (nom, immatriculation, pavillon, port d’attache) ; ses caractéristiques techniques (coque : type, modèle, nombre de places, longueur, mois et année de construction ; moteur(s) principal(aux) : nombre, marque, puissance totale réelle en chevaux, mois et année ; embarcations annexes : nombre, puissance) ; si le bateau assuré est son lieu de résidence habituelle ; le prix d’acquisition du bateau et des moteurs s’ils sont achetés séparément ; si le bateau est déjà couvert par un ou plusieurs contrats souscrits auprès d’un autre assureur ; s’agissant d’un voilier, si l’assuré participe à des régates.",
+      "timing": "À la souscription (art. 25.1)",
+      "sanction": "En cas de mauvaise foi : nullité du contrat (article L.113-8) ; lorsque la mauvaise foi n’est pas établie : réduction des indemnités (article L.113-9)",
+      "page": 19
+    },
+    {
+      "name": "Déclaration des modifications en cours de contrat",
+      "description": "L’assuré doit déclarer tout changement portant sur l’un des éléments visés en 25-1, ainsi que sur ceux précédemment mentionnés aux conditions particulières. Cette déclaration doit être faite, par lettre recommandée, télécopie, télégramme ou courrier électronique, dans les quinze (15) jours où il a eu connaissance de circonstances nouvelles aggravant les risques ou en créant de nouveaux.",
+      "timing": "Dans les quinze (15) jours de la connaissance des circonstances nouvelles (art. 25.2)",
+      "sanction": "Sanctions prévues à l’article 25.3 ; déchéance du droit à garantie en cas de retard ayant causé un préjudice à SMACL Assurances ; possibilité pour SMACL Assurances de résilier le contrat ou de proposer un nouveau taux de cotisation en cas d’aggravation du risque (article L.113-4)",
+      "page": 19
+    },
+    {
+      "name": "Déclaration de changement de pavillon",
+      "description": "L’assuré a l’obligation de déclarer à SMACL Assurances, par lettre recommandée, tout changement de pavillon, conformément aux dispositions de l’article 25 ci-après.",
+      "timing": "En cours de contrat (art. 7)",
+      "sanction": null,
+      "page": 8
+    },
+    {
+      "name": "Déclaration des autres assurances",
+      "description": "Si les risques garantis par le présent contrat sont ou viennent à être couverts par une autre assurance, l’assuré doit en faire la déclaration à SMACL Assurances (article L.121-4 du Code). En cours de contrat, cette déclaration doit être faite dans un délai de huit (8) jours à compter de la date où l’assurance a été souscrite.",
+      "timing": "Dans les huit (8) jours de la souscription de l’autre assurance (art. 28)",
+      "sanction": "Déchéance du droit à garantie lorsque l’assuré n’aura pas déclaré l’existence d’autres assurances portant sur le même risque (art. 25.3)",
+      "page": 20
+    },
+    {
+      "name": "Mesures conservatoires pour prévenir le sinistre",
+      "description": "En cas d’événement pouvant mettre en jeu la garantie, l’assuré doit, et SMACL Assurances peut, prendre ou requérir toutes les mesures de conservation ou de sauvetage qu’exige la situation. Les recommandations en cas d’alerte cyclonique ou de tempête sont décrites à l’annexe du contrat. L’assuré doit fournir tous documents ou renseignements pouvant aider à l’exécution des mesures conservatoires et, en cas de pertes ou dommages imputables à autrui, prendre toutes mesures nécessaires pour conserver au profit de SMACL Assurances les recours que la loi peut lui accorder.",
+      "timing": "Avant / lors de la survenance du sinistre (art. 16.1.1)",
+      "sanction": "Indemnité proportionnelle aux dommages que l’inexécution aura causés à SMACL Assurances (art. 16.3)",
+      "page": 14
+    },
+    {
+      "name": "Mesures de sauvegarde en cas de sinistre",
+      "description": "L’assuré est tenu de prendre toutes les mesures légitimes nécessaires concernant la sauvegarde et la sécurité des personnes et des biens assurés. L’assuré ne doit pas utiliser le bateau dans des conditions contraires aux prescriptions du constructeur.",
+      "timing": "En cas de sinistre (art. 16.1.2)",
+      "sanction": "Indemnité proportionnelle aux dommages que l’inexécution aura causés à SMACL Assurances (art. 16.3)",
+      "page": 14
+    },
+    {
+      "name": "Ne pas reconnaître sa responsabilité ni transiger",
+      "description": "Aucune reconnaissance de responsabilité, aucune transaction dont l’assuré est à l’origine n’est opposable à SMACL Assurances. N’est pas considéré comme une reconnaissance de responsabilité l’aveu d’un fait matériel ou le seul fait d’avoir procuré à la victime un secours urgent.",
+      "timing": "Après le sinistre (art. 17.1 a)",
+      "sanction": null,
+      "page": 15
+    },
+    {
+      "name": "Sincérité de la déclaration de sinistre",
+      "description": "Est déchu de tout droit à garantie l’assuré qui, sciemment : fait de fausses déclarations sur la nature, les circonstances, les causes, les conséquences du sinistre, ainsi que sur le prix d’acquisition du bateau assuré ; emploie à titre de justification des moyens frauduleux ou se livre à des actes mensongers ; néglige de suivre le traitement prescrit par le médecin, s’agissant de la garantie individuelle marine.",
+      "timing": "Lors et après la déclaration de sinistre (art. 16.3)",
+      "sanction": "Déchéance de tout droit à garantie",
+      "page": 15
+    },
+    {
+      "name": "Ne pas faire réparer avant l’expertise",
+      "description": "L’assuré doit faire connaître à SMACL Assurances le lieu où ces dommages pourront être constatés et ne pas procéder ou faire procéder aux réparations avant que l’expert ait été missionné par Navimut Gestion Sinistres Plaisance.",
+      "timing": "Après un sinistre B1 / B2 / objets et effets transportés (art. 16.2.2 a)",
+      "sanction": null,
+      "page": 14
+    },
+    {
+      "name": "Paiement de la cotisation",
+      "description": "La cotisation annuelle, calculée d’après le tarif applicable ou, dans le cas de fractionnement de celle-ci, les fractions de cotisation sont payables à l’échéance au siège social de SMACL Assurances.",
+      "timing": "À l’échéance (art. 27.1)",
+      "sanction": "À défaut de paiement dans les dix (10) jours de son échéance, suspension de la garantie trente (30) jours après l’envoi d’une lettre recommandée de mise en demeure, puis résiliation possible dix (10) jours après l’expiration de ce délai de trente (30) jours",
+      "page": 20
+    },
+    {
+      "name": "Remise de documents dans le cadre de la lutte anti-blanchiment",
+      "description": "Le souscripteur ou l’assuré s’engage à remettre à SMACL Assurances tout document d’identité et d’information sur sa/leurs situation(s) professionnelle(s), patrimoniale(s), financière(s) ou personnelle(s) ainsi que tout document d’identité sur ses/leurs représentants et bénéficiaires effectifs éventuels.",
+      "timing": "Sur demande (art. 23.2)",
+      "sanction": "Retards ou refus d’exécution des garanties prévues au contrat",
+      "page": 18
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Gestionnaire de sinistres",
+      "description": "La gestion des sinistres est assurée par le GIE Navimut Gestion Sinistres Plaisance (adresse : 8, rue Vernier, 75017 PARIS). La déclaration de sinistre doit être adressée à Navimut Gestion Sinistres Plaisance ou à la SMACL Assurances dont la garantie est ou était en cours de validité au moment où le fait dommageable s’est produit.",
+      "deadline": null,
+      "page": 14
+    },
+    {
+      "step": "Déclaration du sinistre",
+      "description": "Dès que l’assuré a connaissance d’un sinistre, sauf cas fortuit ou de force majeure, l’assuré ou ses ayants droit doivent avertir SMACL Assurances par écrit ou verbalement.",
+      "deadline": "Au plus tard dans les cinq (5) jours ouvrés ou deux (2) jours ouvrés en cas de vol",
+      "page": 14
+    },
+    {
+      "step": "Contenu de la déclaration",
+      "description": "L’assuré doit indiquer la nature et les circonstances du sinistre, ses causes et conséquences connues ou présumées, les autres assurances couvrant le même risque, ainsi que tous renseignements sur le conducteur du bateau au moment du sinistre, les parties en cause et les témoins.",
+      "deadline": null,
+      "page": 14
+    },
+    {
+      "step": "Transmission des actes de procédure",
+      "description": "L’assuré doit transmettre à SMACL Assurances, dans le plus bref délai, tous avis, lettres, convocations, assignations, actes extrajudiciaires et pièces de procédure qui seraient adressés, remis ou signifiés à lui-même ou à ses préposés concernant un sinistre susceptible d’engager une responsabilité couverte par les garanties responsabilité civile et frais de retirement de l’épave.",
+      "deadline": "Dans le plus bref délai",
+      "page": 14
+    },
+    {
+      "step": "Dépôt de plainte en cas de vol",
+      "description": "En cas de vol ou de tentative de vol, l’assuré doit déclarer l’événement immédiatement aux autorités de police en déposant une plainte et transmettre à SMACL Assurances un récépissé de ce dépôt avec la déclaration de vol.",
+      "deadline": "Immédiatement",
+      "page": 14
+    },
+    {
+      "step": "Déclaration spécifique - individuelle marine",
+      "description": "L’assuré ou, en cas de décès, ses ayants droit doivent faire connaître les nom, prénoms, âge et domicile du (des) sinistré(s), les date, lieu et circonstances de l’accident corporel, les nom, prénoms et adresse de l’auteur de l’accident corporel ou de la personne qui en est civilement responsable et, si possible, des témoins et le nombre de personnes se trouvant à bord du bateau. L’assuré doit joindre un certificat du médecin qui a donné les premiers soins décrivant les lésions ou blessures. Les données médicales doivent être transmises à SMACL Assurances sous pli confidentiel.",
+      "deadline": "En cas de décès survenu immédiatement après l’accident corporel ou ultérieurement, une déclaration devra en être faite dans les cinq (5) jours, par tout moyen à la convenance de l’assuré",
+      "page": 14
+    },
+    {
+      "step": "Expertise et contre-expertise",
+      "description": "En cas de désaccord ou de contestation sur les conclusions de l’expert, l’assuré comme l’assureur pourront demander une contre-expertise amiable ou judiciaire. L’expertise doit être contradictoire et chacun conserve à sa charge les frais de son expert.",
+      "deadline": "Dans un délai de trente (30) jours et avant que les réparations soient entreprises",
+      "page": 15
+    },
+    {
+      "step": "Règlement des indemnités",
+      "description": "Les indemnités sont payables à l’assuré ou au réparateur soit de l’accord amiable, soit de la décision judiciaire exécutoire.",
+      "deadline": "Dans les quinze (15) jours",
+      "page": 16
+    },
+    {
+      "step": "Règlement en cas de vol",
+      "description": "En cas de vol, le règlement de l’indemnité, lorsqu’il n’y a pas délaissement, ne peut être exigé par l’assuré qu’après un délai de trente (30) jours à dater de la déclaration de sinistre et de la production du récépissé de dépôt de plainte et d’une attestation de recherches infructueuses. Si le bateau volé est récupéré ultérieurement, l’assuré peut, dans les trente (30) jours où il a eu connaissance de cette récupération, en reprendre possession moyennant le remboursement de l’indemnité, sous déduction d’une somme correspondant aux dommages et aux frais garantis.",
+      "deadline": "Trente (30) jours",
+      "page": 16
+    },
+    {
+      "step": "Délaissement",
+      "description": "Le délaissement ne peut intervenir que pour les seuls cas de perte sans nouvelle, de perte totale ou de vol total du bateau, et d’innavigabilité si, à la suite d’un sinistre garanti, le bateau est économiquement irréparable au jour du sinistre. Dans les cas de perte sans nouvelle, le délaissement ne pourra être fait que trois (3) mois après la date des dernières nouvelles reçues. Dans le cas de vol du bateau, le délaissement ne sera recevable que deux (2) mois après la date de la déclaration du vol aux autorités de police. SMACL Assurances aura toujours la faculté d’opter entre l’acceptation du délaissement ou le règlement en perte totale sans transfert de propriété.",
+      "deadline": "Décision de SMACL Assurances dans les trente (30) jours de la remise, par lettre recommandée, des pièces justificatives du droit au délaissement",
+      "page": 16
+    },
+    {
+      "step": "Réclamation",
+      "description": "Pour toute réclamation : par l’envoi du formulaire disponible sur https://www.smacl.fr/reclamations ; par courrier postal à SMACL Assurances SA, Direction Marchés-Réclamations, 141, avenue Salvador-Allende, CS 20000, 79031 NIORT CEDEX 9 (réclamation relative à la gestion du contrat) ou à SMACL Assurances SA, Direction Indemnisations-Réclamations, TSA 67211, CS 20000, 79060 NIORT CEDEX 9 (réclamation relative à la gestion d’un sinistre).",
+      "deadline": "Accusé de réception dans les dix (10) jours ouvrables, réponse dans un délai de deux (2) mois",
+      "page": 17
+    },
+    {
+      "step": "Médiation",
+      "description": "Vous pouvez saisir le Médiateur de l’Assurance sans délai si notre réponse écrite ne vous apporte pas satisfaction, ou en l’absence de réponse à l’issue d’un délai de deux (2) mois après l’envoi de votre réclamation écrite. Saisine par internet www.mediation-assurance.org ou par courrier adressé à La Médiation de l’Assurance, TSA 50110, 75441 PARIS CEDEX 09.",
+      "deadline": "Sans délai, ou à l’issue d’un délai de deux (2) mois en l’absence de réponse",
+      "page": 17
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "L’échéance annuelle est fixée au 1er janvier. La durée du contrat (effet/terme) est fixée aux conditions particulières. À l’exception de la première période d’assurance qui s’étend jusqu’au 31 décembre de l’année suivant celle au cours de laquelle le contrat prend effet, l’année d’assurance commence le 1er janvier et s’achève le 31 décembre.",
+    "tacit_renewal": true,
+    "notice_period": "Délai de préavis fixé aux conditions particulières ; résiliation à l’échéance conformément à l’article L.113-12 du Code, à l’expiration d’un délai d’un (1) an",
+    "methods": [
+      "Par lettre ou tout autre support durable",
+      "Par déclaration faite au siège social ou chez le représentant de l'assureur",
+      "Par acte extrajudiciaire",
+      "Lorsque l'assureur propose la conclusion de contrat par un mode de communication à distance, par le même mode de communication",
+      "Par tout autre moyen prévu par le contrat",
+      "La résiliation par SMACL Assurances doit être notifiée au souscripteur par lettre recommandée adressée à son dernier siège social ou domicile connu"
+    ],
+    "special_rights": [
+      "Par l’assuré ou par SMACL Assurances : à l’échéance (article L.113-12 du Code), dans le délai de préavis fixé aux conditions particulières",
+      "Par l’assuré ou par SMACL Assurances : en cas de survenance de l'un des événements prévus à l'article L.113-16 du Code (changement de domicile, de situation matrimoniale, de régime matrimonial, de profession, retraite professionnelle ou cessation définitive d'activité professionnelle) ; la résiliation ne peut intervenir que dans les trois (3) mois suivant la date de l'événement et prend effet un (1) mois après réception de la notification",
+      "Par l’acquéreur ou par SMACL Assurances : en cas de transfert de propriété des biens assurés (article L.121-10 du Code) ; SMACL Assurances ne peut résilier que dans un délai de trois (3) mois à partir du jour où l'attributaire définitif a demandé le transfert du contrat à son nom",
+      "Par SMACL Assurances : en cas de non-paiement des cotisations (article L.113-3 du Code) ; en cas d’aggravation du risque (article L.113-4) ; en cas d’omission ou d’inexactitude constatée avant tout sinistre dans la déclaration du risque, la résiliation prenant effet dix (10) jours après notification par lettre recommandée (article L.113-9 alinéa 2) ; après sinistre, la résiliation ne prenant effet qu’à l’expiration d’un délai d’un (1) mois à dater de la notification (article R.113-10)",
+      "Par l’assuré : en cas de diminution du risque ou de disparition des circonstances aggravantes si SMACL Assurances ne consent pas à la diminution des cotisations correspondantes (article L.113-4) ; la résiliation prend effet trente (30) jours après la dénonciation",
+      "Par l’assuré : en cas de résiliation par SMACL Assurances d’un autre contrat du souscripteur après sinistre (article R.113-10) ; le souscripteur dispose d'un (1) mois pour résilier l'ensemble de ses contrats, la résiliation prenant effet un (1) mois après notification",
+      "Par l’assuré : en cas d'augmentation des cotisations ou des franchises applicables aux risques garantis (article 27.4.2 des conditions générales)",
+      "Par l’assuré : loi Chatel (article L.113-15-1 du Code) lorsque le contrat a été souscrit par une personne physique agissant en dehors de toute activité professionnelle — délai supplémentaire de vingt (20) jours si l’avis d’échéance est adressé après la date limite ou moins de quinze (15) jours avant ; résiliation à tout moment sans pénalité si l’information n’a pas été adressée",
+      "De plein droit : dissolution de SMACL Assurances (effet le quarantième (40e) jour à midi à compter de la publication au Journal officiel de la décision de l’ACPR - article L.326-12) ; liquidation judiciaire de l’assureur (article L.113-6) ; perte totale de la chose assurée résultant d’un évènement non prévu par le contrat (article L.121-9) ; réquisition des biens visés par l’assurance (articles L.160-6 à L.160-8)",
+      "Restitution : dans tous les cas de résiliation au cours d’une période d’assurance, excepté la résiliation pour non-paiement des cotisations, SMACL Assurances doit restituer au souscripteur la portion de cotisation afférente à la période pendant laquelle les risques ne sont plus garantis"
+    ],
+    "page": 20
+  },
+  "prescription_period": {
+    "description": "Conformément à l’article L.114-1 du Code, toutes actions dérivant d’un contrat d’assurance sont prescrites par deux (2) ans à compter de l’événement qui y donne naissance. Par exception : les actions relatives à des dommages résultant de mouvements de terrain consécutifs à la sécheresse-réhydratation des sols, reconnus comme une catastrophe naturelle dans les conditions prévues à l’article L.125-1, sont prescrites par cinq (5) ans ; la prescription est portée à dix (10) ans dans les contrats d’assurance contre les accidents atteignant les personnes, lorsque les bénéficiaires sont les ayants droit de l’assuré décédé. Ce délai ne court, en cas de réticence, omission, déclaration fausse ou inexacte sur le risque couru, que du jour où l’assureur en a eu connaissance ; en cas de sinistre, que du jour où les intéressés en ont eu connaissance, s’ils prouvent qu’ils l’ont ignoré jusque-là. Quand l’action de l’assuré contre l’assureur a pour cause le recours d’un tiers, le délai ne court que du jour où ce tiers a exercé une action en justice contre l’assuré ou a été indemnisé par ce dernier. Conformément à l’article L.114-2 du Code, la prescription peut être interrompue par les causes ordinaires d’interruption (demande en justice même en référé - article 2241 du Code civil ; mesure conservatoire ou acte d’exécution forcée - article 2244 ; reconnaissance par l’assureur du droit à garantie ou reconnaissance de dette de l’assuré - article 2240), ainsi que par la désignation d’experts à la suite d’un sinistre et par l’envoi d’une lettre recommandée ou d’un envoi recommandé électronique avec accusé de réception, adressés par SMACL Assurances au souscripteur en ce qui concerne le paiement de la cotisation ou par l’assuré à SMACL Assurances en ce qui concerne le règlement de l’indemnité.",
+    "page": 17
+  },
+  "premium": {
+    "notes": [
+      "La cotisation annuelle, calculée d’après le tarif applicable ou, dans le cas de fractionnement de celle-ci, les fractions de cotisation sont payables à l’échéance au siège social de SMACL Assurances (art. 27.1).",
+      "À défaut de paiement d’une cotisation (ou d’une fraction de cotisation) dans les dix (10) jours de son échéance, SMACL Assurances peut, par lettre recommandée adressée à l'assuré à son dernier domicile connu, suspendre la garantie trente (30) jours après l’envoi de cette lettre ; elle a le droit de résilier le contrat dix (10) jours après l’expiration de ce délai de trente (30) jours (art. 27.1).",
+      "En cas de suspension de la garantie, les cotisations ou fractions de cotisations échues restent dues (art. 27.1).",
+      "Lorsque le paiement fractionné est accepté par SMACL Assurances, le défaut de paiement d’une fraction de cotisation à son échéance entraîne de plein droit l’exigibilité de la totalité des fractions dues au titre de l’année d’assurance en cours (art. 27.2).",
+      "Les garanties prennent effet après le paiement de la cotisation, sous réserve qu’il soit honoré, et au plus tôt aux dates et heures indiquées aux conditions particulières (art. 26.1)."
+    ],
+    "indexation": "Les cotisations hors taxes seront automatiquement adaptées à compter de chaque échéance proportionnellement aux variations de l’indice d’échéance par rapport à l’indice de base. L’indice de base est celui figurant aux conditions particulières et sur tout avenant postérieur ; l’indice d’échéance est l’indice du deuxième trimestre de l’année précédant l’échéance annuelle. À défaut de publication de l’indice FFB dans les quatre (4) mois suivant la date de fixation de l’indice précédent, SMACL Assurances pourra demander au président du tribunal de commerce de Paris de désigner un expert ; en cas de carence définitive de l’indice FFB, un autre indice choisi par l’expert lui serait substitué. Par dérogation, le conseil d’administration peut, à chaque échéance annuelle, décider soit de neutraliser ou de limiter le jeu normal de l’indice, soit d’appliquer une majoration supérieure à celle résultant de son jeu normal (art. 27.4).",
+    "page": 20
+  },
+  "special_conditions": [
+    {
+      "name": "Étendue des garanties (art. 5)",
+      "description": "L’assurance s’exerce notamment : durant le séjour du bateau en garage ou à flot ; lorsque le bateau est échoué à sec, sur le dur, le sable ou la vase ; lors des opérations proprement dites de mise à l’eau ou de sortie de l’eau du bateau ; lors du chargement ou du déchargement du bateau sur le véhicule de transport ; pendant le transport routier, ferroviaire ou maritime, mais seulement en ce qui concerne les dommages subis par le bateau ; lors de la participation du bateau à voile à une régate, sauf si l’une des étapes de celle-ci est supérieure à 1 000 milles marins.",
+      "page": 8
+    },
+    {
+      "name": "Transfert des garanties sur un nouveau bateau (art. 5)",
+      "description": "En cas de transfert des garanties du contrat sur un nouveau bateau, celles souscrites pour le bateau précédemment assuré restent acquises à ce dernier lorsqu’il est : sur cale dans un garage ou au mouillage ; en navigation lors d’un essai en vue de sa vente, en compagnie d’un acquéreur éventuel non professionnel dès lors que cet essai n’excède pas le rayon de 10 milles marins à partir du port de départ ; sur le trajet aller ou retour du lieu de l’essai ; sur le trajet de livraison. Ces garanties prennent fin à la date et à l’heure de la vente du bateau et au plus tard trente (30) jours après la date à laquelle le bateau a cessé d’être désigné aux conditions particulières.",
+      "page": 8
+    },
+    {
+      "name": "Prêt du bateau (art. 5)",
+      "description": "Les garanties souscrites continuent d’être acquises lorsque vous prêtez occasionnellement votre bateau à titre gratuit.",
+      "page": 8
+    },
+    {
+      "name": "Pavillons étrangers (art. 7)",
+      "description": "Pour les bateaux battants pavillons autres que français, les garanties décrites ci-après sont acquises seulement si les quatre conditions suivantes sont réunies : l’assuré est ressortissant de l’Union européenne ; l’assuré a son domicile en France ; l’assuré est titulaire du permis français en vigueur pour piloter le bateau, cette exigence valant aussi pour toute personne pilotant le bateau ; le port de stationnement habituel du bateau, et non pas son port d’attache, est situé en France. Quel que soit le pavillon du bateau, le présent contrat reste soumis au droit français.",
+      "page": 8
+    },
+    {
+      "name": "Subrogation (art. 18)",
+      "description": "Conformément à l’article L.121-12 du Code, SMACL Assurances est subrogée jusqu’à concurrence de l’indemnité payée par elle, dans les droits et actions de l’assuré contre tous responsables du sinistre. Cette subrogation s’étend aux indemnités dues au titre de l’article 700 NCPC, de l’article 475-1 CPP ou de l’article L.761-1 CJA. Si la subrogation ne peut plus, du fait de l’assuré, s’opérer en faveur de SMACL Assurances, la garantie de celle-ci cesse d’être engagée dans la mesure où aurait pu s’exercer la subrogation.",
+      "page": 17
+    },
+    {
+      "name": "Protection des données personnelles (art. 22)",
+      "description": "SMACL Assurances et SMACL Assurances SA, en qualité de responsables conjoints du traitement, recueillent et traitent des données à caractère personnel concernant les représentants et correspondants du souscripteur, les représentants de ses adhérents, ainsi que les bénéficiaires des garanties souscrites et, le cas échéant, leurs ayants droit. La base légale du traitement est l’exécution du contrat ; pour les données de santé, le consentement du déclarant. Les données collectées sont destinées au personnel habilité de SMACL Assurances SA pour les garanties souscrites, ainsi qu’aux sous-traitants et partenaires de SMACL Assurances et SMACL Assurances SA. Les données sont traitées et hébergées au sein de l’Espace économique européen (EEE) ; certains réassureurs peuvent néanmoins être situés hors de l’EEE. Exercice des droits par mail à protectiondesdonnees@smacl.fr ou par courrier à SMACL Assurances SA Délégué à la Protection des Données, 141 avenue Salvador-Allende, CS 20000, 79031 NIORT CEDEX 9. Réclamation possible auprès de la CNIL sur www.cnil.fr.",
+      "page": 17
+    },
+    {
+      "name": "Lutte contre la fraude (art. 23.1)",
+      "description": "SMACL Assurances met en œuvre un dispositif de lutte contre la fraude pouvant conduire à l'inscription du souscripteur et/ou de l’assuré sur une liste de personnes présentant un risque de fraude ainsi qu'à l'adoption de décisions produisant des effets juridiques (non indemnisation, action en justice …).",
+      "page": 18
+    },
+    {
+      "name": "Lutte contre le blanchiment et le financement du terrorisme (art. 23.2)",
+      "description": "SMACL Assurances est tenue de procéder à l’identification du souscripteur et/ou de l’assuré et de mettre en place un dispositif général d’analyse et de surveillance des opérations. Des mesures de vigilance complémentaires s’appliquent à l’égard des personnes politiquement exposées définies à l'article R.561-18 du Code monétaire et financier. SMACL Assurances est également tenue de déclarer à Tracfin les opérations portant sur des sommes dont elle sait, soupçonne ou a de bonnes raisons de soupçonner qu'elles proviennent d'une infraction passible d'une peine privative de liberté supérieure à un (1) an ou sont liées au financement du terrorisme.",
+      "page": 18
+    },
+    {
+      "name": "Contrôle de l’assureur (art. 24)",
+      "description": "L’autorité chargée du contrôle de l’assureur, tel que défini par le présent contrat, est l’Autorité de contrôle prudentiel et de résolution (ACPR) - 4, Place de Budapest, CS 92459, 75436 PARIS Cedex 9.",
+      "page": 18
+    },
+    {
+      "name": "Attribution de juridiction (art. 27.3)",
+      "description": "Il est attribué compétence aux tribunaux du siège de la société dans toutes les instances relatives au recouvrement des cotisations.",
+      "page": 20
+    },
+    {
+      "name": "Autres assurances (art. 28)",
+      "description": "Quand plusieurs assurances pour un même risque sont contractées sans fraude, chacune d’elles produit ses effets dans les limites des garanties du contrat et dans le respect des dispositions de l’article L.121-1 du Code, quelle que soit la date à laquelle l’assurance aura été souscrite. Dans ces limites, le bénéficiaire du contrat peut obtenir l’indemnisation de ses dommages en s’adressant à l’assureur de son choix.",
+      "page": 20
+    },
+    {
+      "name": "Annexe - recommandations en cas d’alerte cyclonique ou de tempête",
+      "description": "Si le bateau est stationné dans un port ou une marina : l’écarter du quai et, dans la mesure du possible, des bateaux voisins ; fixer autour des pare-battages non volants en quantité suffisante ; doubler les amarres et, si possible, interposer des pneus afin d’assurer l’amortissement ; respecter le diamètre des amarres en fonction de sa longueur, à titre indicatif : 12 mm pour les bateaux de 5 à 10 m, 16 mm pour les bateaux de 10 à 12 m, 20 mm pour les bateaux de 12 à 14 m, 24 mm pour les bateaux de 14 à 16 m ; réaliser l’amarrage sur un point fort, tel qu’au pied du mat, sur un winch ou sur le guindeau ; frapper les amarres directement sur la chaîne reliant le corps mort à la bouée ou au coffre de mouillage. Si le bateau est stationné au mouillage (sur ancre) : doubler le mouillage sur l’avant et ne pas mettre de mouillage à l’arrière pour permettre l’évitage ; retirer du pont tous les éléments susceptibles de provoquer une prise au vent supplémentaire (voiles, bôme, bimini, annexe, survie, éolienne, etc.) ; fermer toutes les vannes et retirer les manches à air.",
+      "page": 22
+    },
+    {
+      "name": "Sanctions internationales",
+      "description": "Le sommaire (page 3) annonce un « Art. 25 - Sanctions internationales » au titre 5, mais aucun article portant ce titre ne figure dans le corps du contrat ; le titre 5 s’achève à l’article 24 (Contrôle de l’assureur).",
+      "page": 3
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Ce contrat a pour objet de garantir les bateaux utilisés \ndans le cadre de la navigation de plaisance. \nPar « navigation de plaisance », il faut entendre la pratique \nde toutes activités d’agrément ou de loisir consistant à \nutiliser un bateau à titre privé dans un but non lucratif \net/ou d’activités relevant d’une mission de service public",
+      "context": "Objet de l’assurance (art. 2)",
+      "page": 7
+    },
+    {
+      "quote": "SMACL Assurances SA, ci-après dénommée SMACL \nAssurances.",
+      "context": "Définition de l’Assureur (art. 1)",
+      "page": 4
+    },
+    {
+      "quote": "SMACL Assurances garantit les conséquences pécuniaires \nde la responsabilité que l’assuré peut encourir en raison \ndes dommages corporels, matériels et immatériels \nconsécutifs causés aux tiers par le bateau assuré.",
+      "context": "Garantie responsabilité civile (art. 8)",
+      "page": 8
+    },
+    {
+      "quote": "Les garanties s’exercent sans limitation de navigation \ndans les pays du monde entier sous réserve du respect \nde la réglementation en vigueur.",
+      "context": "Territorialité (art. 6)",
+      "page": 8
+    },
+    {
+      "quote": "SMACL Assurances propose un ensemble de garanties \nmises en œuvre par Inter Mutuelle Assistance GIE \n(118, avenue de Paris, BP 8000, 79033 Niort Cedex 9).",
+      "context": "Assistance navigation (art. 13)",
+      "page": 13
+    },
+    {
+      "quote": "Elle est assurée par le GIE Navimut Gestion Sinistres \nPlaisance (adresse : 8, rue Vernier, 75017 PARIS).",
+      "context": "Gestion des sinistres (art. 15)",
+      "page": 14
+    },
+    {
+      "quote": "L’assuré est déchu du droit à garantie lorsqu’il \noccasionne un sinistre alors qu’il se trouve, au moment \nde ce sinistre, sous l’empire d’un état alcoolique \nou sous l’emprise de drogues, de stupéfiants ou de \ntranquillisants non prescrits médicalement, sauf \ns’il est établi que le sinistre est sans relation avec",
+      "context": "Déchéance alcool / stupéfiants (art. 14)",
+      "page": 14
+    },
+    {
+      "quote": "SMACL Assurances et SMACL Assurances SA, en qualité \nde responsables conjoints du traitement, recueillent et \ntraitent des données à caractère personnel",
+      "context": "Protection des données (art. 22) - responsables conjoints",
+      "page": 17
+    },
+    {
+      "quote": "Conformément à l’article L.114-1 du Code, toutes actions \ndérivant d’un contrat d’assurance sont prescrites par deux \n(2) ans à compter de l’événement qui y donne naissance.",
+      "context": "Prescription (art. 19)",
+      "page": 17
+    },
+    {
+      "quote": "Aucune indemnité n’est versée si les dommages \nn’atteignent pas le montant de la franchise.",
+      "context": "Franchise (art. 17.3)",
+      "page": 16
+    },
+    {
+      "quote": "Pour les particuliers, à chaque échéance annuelle, le contrat \nest reconduit automatiquement par tacite reconduction \npour un (1) an, sauf dénonciation par l’une ou l’autre des \nparties dans les formes et conditions prévues à l’article 29.",
+      "context": "Tacite reconduction (art. 26.3)",
+      "page": 20
+    },
+    {
+      "quote": "SMACL ASSURANCES SA - Société anonyme au capital de 260 071 379,48 euros, entreprise régie par le Code des\nassurances, RCS Niort n° 833817224. Siège social : 141, avenue Salvador-Allende - CS 20000 - 79031 NIORT CEDEX 9.",
+      "context": "Colophon / mentions légales",
+      "page": 24
+    }
+  ],
+  "gaps": [
+    "Assureur : l’article 1 (page 4) définit l’Assureur comme « SMACL Assurances SA, ci-après dénommée SMACL Assurances » et le colophon de la page 24 est celui de SMACL ASSURANCES SA (société anonyme au capital de 260 071 379,48 euros, RCS Niort n° 833817224). Le porteur du risque est donc l’entité SA, alors que le corps du texte emploie partout la forme courte « SMACL Assurances ». L’article 22 (page 17) nomme en revanche « SMACL Assurances et SMACL Assurances SA, en qualité de responsables conjoints du traitement » : deux personnes morales distinctes pour le traitement des données. insurer_name est laissé à la valeur fournie par la tâche (SMACL Assurances).",
+    "edition_date : pris au colophon imprimé page 24 (« 12/2023 »), et non au code de référence de la page 3 (NAVIMUT_CG_NAVIMUT_SA_05(02_2023)) qui porte 02_2023. Les deux valeurs divergent de dix mois ; le code est conservé dans `reference`. Vérifié sur la couche texte du PDF : une seule ligne de date par page, aucun doublon fantôme, aucun texte hors cadre de page.",
+    "is_optional : le contrat ne qualifie aucune garantie d’« option » ni de « facultative ». L’article 3 énumère les garanties du contrat et l’article 4 précise que « les garanties souscrites ainsi que les franchises applicables […] sont indiquées dans les conditions particulières ou sur chaque avenant » (page 7) : l’appartenance dépend donc des conditions particulières, non fournies ici. is_optional est laissé null pour ces garanties, et mis à false pour l’assistance navigation, seule garantie dont le contrat dit qu’elle est acquise « quelles que soient les garanties souscrites » (art. 13, page 13).",
+    "Tableau de la qualité d’assuré (article 1, page 4) : la matrice croise 8 lignes de garanties (A1, A2, B1, B2, D, E, C1, C2) et 4 colonnes de personnes (souscripteur ou propriétaire ; pilote, skipper ou gardien autorisé ; passagers embarqués à titre gratuit ; personnes tractées). Les marques sont ici de vrais caractères « X » de la couche texte, mais leur ordre de lecture ne dit pas à quelle colonne elles appartiennent : l’affectation a été faite par abscisse (colonnes à x ≈ 127,7 / 171,7 / 215,6 / 259,5 pt). Arithmétique fermée : 8 lignes × 4 colonnes = 32 cellules = 25 X + 7 blancs (A1 : 4 ; A2 : 2 ; B1 : 2 ; B2 : 2 ; D : 4 ; E : 3 ; C1 : 4 ; C2 : 4). Une cellule vide est une absence de marque, non une exclusion.",
+    "Numérotation des articles : le sommaire de la page 3 et le corps du contrat divergent d’une unité à partir du titre 5. Le sommaire annonce « Art. 25 - Sanctions internationales », « Art. 26 - Déclaration du risque », « Art. 27 - Formation et durée du contrat », « Art. 28 - Cotisation », « Art. 29 - Autres assurances », « Art. 30 - Résiliation du contrat » ; le corps du texte porte Art. 25 - Déclaration du risque (page 19), Art. 26 - Formation et durée du contrat (page 19), Art. 27 - Cotisation (page 20), Art. 28 - Autres assurances (page 20), Art. 29 - Résiliation du contrat (page 21). Aucun article « Sanctions internationales » n’apparaît dans le corps. Les deux lectures sont conservées ; les renvois internes du corps (art. 7 → art. 25, art. 12.3 → art. 25) suivent la numérotation du corps.",
+    "Renvois internes contradictoires dans l’article 29.3 (page 21) : « en cas de non-paiement des cotisations (article L.113-3 du Code visé à l’article 19.2 ci-après)après) » — la double parenthèse et le renvoi à un « article 19.2 » inexistant sont reproduits tels quels ; l’article 29 renvoie aussi à un « article 17.2 » pour l’aggravation du risque, alors que la règle figure à l’article 25.2. De même l’article 29.4 renvoie à un « cf. 18.1 » pour l’avis d’échéance. Ces coquilles n’ont pas été corrigées.",
+    "Article 12.3 (page 12) renvoie aux déchéances des articles 14, 16 et 25 ; l’article 12.4 est intitulé « Dispositions spécifiques à la défense pénale et à la garantie recours » alors que le sommaire n’en fait pas état. Le tableau des honoraires de l’article 12.5.2 comporte deux colonnes (« Cours de Paris et Versailles » / « Autres cours ») restituées ici sous la forme « montant Paris/Versailles / montant autres cours ».",
+    "Défauts de la couche texte, préservés verbatim et non réparés : la police d’affichage perd les ligatures « ti »/« fi » sur la couverture (« Collectvités », « Associatons », « Partculiers ») et dans le colophon (« Concepton », « Directon », « communicaton »). Le corps du texte n’est pas affecté. Le PDF contient par ailleurs 269 caractères U+0007 (marqueurs de puces ET de titres d’articles), 805 apostrophes courbes contre 51 apostrophes ASCII, 82 espaces insécables et 25 U+202F ; les citations ont été découpées programmatiquement dans le texte du PDF pour préserver ces caractères. Le glyphe € est bien présent (82 occurrences).",
+    "Pages 2, 23 et une partie de la page 24 ne contiennent pas de texte de contrat (page 2 vide, page 23 vide, page 24 = coordonnées et mentions légales). Les pages du sommaire (page 3) comportent des lignes de points de conduite non citées.",
+    "Le texte fourni par le prompt n’était pas tronqué (98 515 caractères pour 24 pages). Le PDF local a néanmoins été ouvert pour décoder la matrice de la page 4 et vérifier le colophon : les 24 pages extraites par page.get_text(\"text\") sont identiques caractère pour caractère au texte du prompt.",
+    "Les montants des garanties B1, B2 et défense-recours renvoient aux articles 9.1, 9.2 et 12.5 des conditions générales plutôt qu’à un capital chiffré ; les capitaux de l’individuelle marine (D) et des objets et effets transportés (E) sont proposés en trois formules « au choix de l’assuré », le choix effectif figurant aux conditions particulières qui ne font pas partie de ce document.",
+    "La convention d’assistance navigation (garantie mise en œuvre par Inter Mutuelle Assistance GIE) n’est pas jointe : le contrat renvoie à « la convention assistance navigation en vigueur à la date de souscription », dont le détail des prestations n’est donc pas extractible depuis ce document.",
+    "Aucun délai de carence (waiting_period) n’est mentionné dans le document ; le tableau est vide à dessein."
+  ]
+}

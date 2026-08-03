@@ -5,7 +5,7 @@ country: fr
 insurer_slug: smacl
 name: SMACL Assurances
 website: https://www.smacl.fr
-products_count: 71
+products_count: 75
 branches_covered:
 - auto
 - autres
@@ -35,7 +35,7 @@ generated: true
 
 ## Résumé
 
-**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 71 document(s) across 13 branch(es).
+**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 75 document(s) across 13 branch(es).
 
 ## Produits par branche
 
@@ -84,6 +84,7 @@ generated: true
 - [ALÉASSUR Tous risques objets (Collectivités)](../products/smacl/AL%C3%89ASSUR%20Tous%20risques%20objets%20%28Collectivit%C3%A9s%29.md) - Conditions générales (01/2024) · réf. ALEASSUR_CS_TRO_02(02_2016)
 - [Aléassur (Collectivités)](../products/smacl/Al%C3%A9assur%20%28Collectivit%C3%A9s%29.md) - Conditions générales (01/2024) · réf. ALEASSUR_CG_10(02_2023)
 - [Aléassur - Dommages aux biens - IPID](../products/smacl/Al%C3%A9assur%20-%20Dommages%20aux%20biens%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. ALEASSUR_DIPA_DAB_04(06_2024)
+- [Assistance Patrimoine des associations](../products/smacl/Assistance%20Patrimoine%20des%20associations%20%282%29.md) - Conditions générales (01/2024) · réf. CONVERGENCE_ADA_CA_PATRIMOINE_SA_02(02_2023)
 - [Assistance Patrimoine des associations](../products/smacl/Assistance%20Patrimoine%20des%20associations.md) - Conditions générales (01/2024) · réf. CONVERGENCE_ADA_CA_PATRIMOINE_02(02_2023)
 - [Assurance Spéciale Accueil Enfants - IPID](../products/smacl/Assurance%20Sp%C3%A9ciale%20Accueil%20Enfants%20-%20IPID.md) - IPID / Fiche d'information (01/2024) · réf. CONVERGENCE_DIPA_ACCUEIL_ENFANTS_ACEPP
 - [Assurance bris de machine (Associations)](../products/smacl/Assurance%20bris%20de%20machine%20%28Associations%29.md) - Conditions générales (11/2022) · réf. ASA CS BDM - MOD 02_SA(01-1992)
@@ -95,6 +96,7 @@ generated: true
 - [Votre barème de remboursement des honoraires d'expert d'assuré en Dommages aux biens - Tarifs](../products/smacl/Votre%20bar%C3%A8me%20de%20remboursement%20des%20honoraires%20d%27expert%20d%27assur%C3%A9%20en%20Dommages%20aux%20biens%20-%20Tarifs.md) - Conditions tarifaires (01/2024) · réf. BAREME_EXPERT_ASSURE_DAB_(10-2012)
 
 ### [Navigation de plaisance](../branches/Navigation%20de%20plaisance.md)
+- [Assurance navigation de plaisance](../products/smacl/Assurance%20navigation%20de%20plaisance.md) - Conditions générales (12/2023) · réf. NAVIMUT_CG_NAVIMUT_SA_05(02_2023)
 - [Convention Assistance Navigation de plaisance](../products/smacl/Convention%20Assistance%20Navigation%20de%20plaisance.md) - Conditions générales (01/2024) · réf. NAVIMUT_CA_NAVIMUT_SA_02(01_2017)
 
 ### [Prévoyance](../branches/Pr%C3%A9voyance.md)
@@ -127,10 +129,12 @@ generated: true
 
 ### [RC professionnelle](../branches/RC%20professionnelle.md)
 - [CONVERGENCE - Conventions spéciales Responsabilité civile](../products/smacl/CONVERGENCE%20-%20Conventions%20sp%C3%A9ciales%20Responsabilit%C3%A9%20civile.md) - Conditions générales (01/2024) · réf. CONVERGENCE_CS_RC_SA_02_(08_2016)
+- [Cadre d'assurance des risques environnementaux des collectivités](../products/smacl/Cadre%20d%27assurance%20des%20risques%20environnementaux%20des%20collectivit%C3%A9s.md) - Conditions générales (01/2024) · réf. RISQUESENVIRONNEMENT_CG_CARE_COLLECTIVITES_05(02_2023)
 - [Convergence - Responsabilité civile - IPID](../products/smacl/Convergence%20-%20Responsabilit%C3%A9%20civile%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. CONVERGENCE_DIPA_RC_SA_03(09_2022)
 - [Convergence - Responsabilité civile des dirigeants - IPID](../products/smacl/Convergence%20-%20Responsabilit%C3%A9%20civile%20des%20dirigeants%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. CONVERGENCE_DIPA_RCDI_03(09_2022)
 - [Sécurité des fonctionnaires territoriaux - IPID](../products/smacl/S%C3%A9curit%C3%A9%20des%20fonctionnaires%20territoriaux%20-%20IPID.md) - IPID / Fiche d'information (01/2022) · réf. PP_DIPA_SFT_02(07_2020)
 - [Sécurité des fonctionnaires territoriaux](../products/smacl/S%C3%A9curit%C3%A9%20des%20fonctionnaires%20territoriaux.md) - Conditions générales (11/2022) · réf. PP_CG_SFT_06(02_2023)
+- [Sécurité élus - IPID](../products/smacl/S%C3%A9curit%C3%A9%20%C3%A9lus%20-%20IPID.md) - IPID / Fiche d'information (11/2022) · réf. PP_DIPA_SE_05_(06/2021)
 
 ### Marchandises transportées
 - [ALÉASSUR Tous risques expositions clou à clou](../products/smacl/AL%C3%89ASSUR%20Tous%20risques%20expositions%20clou%20%C3%A0%20clou.md) - Conditions générales (01/2024) · réf. ALEASSUR_CS_TRE_CLOUACLOU_01(02_2016)
