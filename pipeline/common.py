@@ -63,6 +63,20 @@ def safe_title(text: str) -> str:
     return text[:120] or "Untitled"
 
 
+def fold(text: str) -> str:
+    """A name reduced to what a case-insensitive matcher treats as the same name.
+
+    Every consumer of page names in this pipeline matches case-insensitively - the
+    filesystem (APFS, NTFS), Obsidian's wikilink resolver, and the site's roamlinks
+    plugin all do. Any comparison written with `==` or `in` against an exact string is
+    therefore checking a resolver that does not exist, and the failure is always silent.
+    It was found in four places at once: two pages overwrote each other on disk, the
+    stale-page sweep deleted the survivor, the guard stopping a product from taking a
+    branch page's filename never fired, and the guard stopping it from taking the name
+    via an ALIAS never fired either. Compare folded, always."""
+    return unicodedata.normalize("NFC", text).strip().casefold()
+
+
 # --- config loading ----------------------------------------------------------
 
 def load_country(cc: str) -> dict:

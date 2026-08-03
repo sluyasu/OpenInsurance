@@ -512,7 +512,7 @@ Liste générée des produits par branche. Les fiches conceptuelles de branche s
 - [COMMERCES D'ALIMENTATION — INTERCALAIRE](../products/maaf/COMMERCES%20D%27ALIMENTATION%20%E2%80%94%20INTERCALAIRE.md) - [MAAF](../insurers/MAAF.md)
 - [Commerces et Services — Intercalaire](../products/maaf/Commerces%20et%20Services%20%E2%80%94%20Intercalaire.md) - [MAAF](../insurers/MAAF.md)
 - [Entreprises de travaux publics - Intercalaire](../products/maaf/Entreprises%20de%20travaux%20publics%20-%20Intercalaire.md) - [MAAF](../insurers/MAAF.md)
-- [MULTIRISQUE PROFESSIONNELLE](../products/maaf/MULTIRISQUE%20PROFESSIONNELLE.md) - [MAAF](../insurers/MAAF.md)
+- [MULTIRISQUE PROFESSIONNELLE](../products/maaf/MULTIRISQUE%20PROFESSIONNELLE%20%28MAAF%29.md) - [MAAF](../insurers/MAAF.md)
 - [MULTISERVICE À LA PERSONNE — INTERCALAIRE](../products/maaf/MULTISERVICE%20%C3%80%20LA%20PERSONNE%20%E2%80%94%20INTERCALAIRE.md) - [MAAF](../insurers/MAAF.md)
 - [Multirisque Associations](../products/maaf/Multirisque%20Associations.md) - [MAAF](../insurers/MAAF.md)
 - [Multirisque Non Exploitant - IPID](../products/maaf/Multirisque%20Non%20Exploitant%20-%20IPID.md) - [MAAF](../insurers/MAAF.md)

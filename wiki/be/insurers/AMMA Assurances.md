@@ -38,7 +38,7 @@ generated: true
 - [Auto](../products/amma/Auto%20%28AMMA%20Assurances%29.md) - Conditions générales (0622) · réf. 04-AU-CG-PDF-0622-V02-FR
 
 ### [Autres](../branches/Autres.md)
-- [Revenu Garanti](../products/amma/Revenu%20Garanti.md) - Conditions générales (0224) · réf. 06-RG-CG-PDF-0224-V02-FR
+- [Revenu Garanti](../products/amma/Revenu%20Garanti%20%28AMMA%20Assurances%29.md) - Conditions générales (0224) · réf. 06-RG-CG-PDF-0224-V02-FR
 
 ### [Chasse](../branches/Chasse.md)
 - [R.C. CHASSE](../products/amma/R.C.%20CHASSE.md) - Conditions générales (07/2020) · réf. 15-CH-CG-PDF-0720-V01-FR

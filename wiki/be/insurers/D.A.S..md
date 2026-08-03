@@ -34,11 +34,11 @@ generated: true
 - [Protection Juridique Véhicules All Risk - CP](../products/das/Protection%20Juridique%20V%C3%A9hicules%20All%20Risk%20-%20CP.md) - Conditions particulières (01/2025) · réf. F5002
 
 ### [Autres](../branches/Autres.md)
-- [Protection Juridique](../products/das/Protection%20Juridique.md) - Conditions générales (01/2025) · réf. F5010
+- [Protection Juridique](../products/das/Protection%20Juridique%20%28D.A.S.%29.md) - Conditions générales (01/2025) · réf. F5010
 
 ### [Protection juridique](../branches/Protection%20juridique.md)
 - [Bien immobilier à usage privé ou mixte - CP](../products/das/Bien%20immobilier%20%C3%A0%20usage%20priv%C3%A9%20ou%20mixte%20-%20CP.md) - Conditions particulières (01/2025) · réf. F6017
-- [Protection Juridique](../products/das/Protection%20Juridique%20%282%29.md) - Conditions générales (10/2025) · réf. F5010
+- [Protection Juridique](../products/das/Protection%20Juridique%20%28D.A.S.%29%20%282%29.md) - Conditions générales (10/2025) · réf. F5010
 - [Protection Juridique DAS Classic - CP](../products/das/Protection%20Juridique%20DAS%20Classic%20-%20CP.md) - Conditions particulières (01/2025) · réf. F5040
 - [Protection Juridique DAS Comfort - CP](../products/das/Protection%20Juridique%20DAS%20Comfort%20-%20CP.md) - Conditions particulières (01/2025) · réf. F5042
 

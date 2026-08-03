@@ -14,7 +14,7 @@ import sys
 from pathlib import Path
 from urllib.parse import unquote
 
-from common import WIKI, REPO, read_note, wikilinks, load_country
+from common import WIKI, REPO, fold, read_note, wikilinks, load_country
 
 REQUIRED = {"type", "status"}
 
@@ -46,7 +46,7 @@ def resolution_targets(prefer_cc: str | None = None) -> dict[str, str]:
             meta, _ = read_note(md)
             names = [md.stem] + [str(a) for a in (meta.get("aliases") or [])]
             for n in names:
-                targets.setdefault(n.strip(), str(md.relative_to(REPO)))
+                targets.setdefault(fold(n), str(md.relative_to(REPO)))
     return targets
 
 
@@ -69,27 +69,32 @@ def mdlinks(md: Path, body: str) -> list[tuple[str, Path | None]]:
     return out
 
 
-def ambiguous_names(cc: str) -> dict[str, list[str]]:
+def ambiguous_names(cc: str) -> dict[str, tuple[str, list[str]]]:
     """Names claimed by more than one published page, i.e. every name a basename-only
-    resolver has to guess at.
+    resolver has to guess at. Returns folded name -> (name as first seen, claiming pages).
 
     This models the PUBLISH surface, not the vault: Obsidian shows a disambiguation
     prompt, but the site's roamlinks plugin and resolution_targets() both silently take
     the first match, so a bare [[Assurance Auto]] on an Argenta page can land on Yuzzu's
     product. Silent wrong routing is worse than a broken link, because nothing looks
     wrong. It matters more as countries are added: 'Assurance Auto' will exist in BE, CH
-    and FR at once, so the same bug starts routing across borders."""
-    claims: dict[str, list[str]] = {}
+    and FR at once, so the same bug starts routing across borders.
+
+    Keyed on the FOLDED name for the same reason: the resolver is case-insensitive, so
+    `Assurance Loyers Impayés` and `Assurance loyers impayés` are one name to it and two
+    keys here, and the clash they cause was invisible to this very check.
+    """
+    claims: dict[str, tuple[str, list[str]]] = {}
     for md in sorted((WIKI / cc).rglob("*.md")):
         meta, _ = read_note(md)
         rel = str(md.relative_to(REPO))
         # a page whose stem is repeated in its own aliases claims the name once, not
         # twice: counting per name would report every such page as self-ambiguous
         for n in {md.stem} | {str(a).strip() for a in (meta.get("aliases") or [])}:
-            paths = claims.setdefault(n.strip(), [])
+            display, paths = claims.setdefault(fold(n), (n.strip(), []))
             if rel not in paths:
                 paths.append(rel)
-    return {n: paths for n, paths in claims.items() if len(paths) > 1}
+    return {n: v for n, v in claims.items() if len(v[1]) > 1}
 
 
 def data_layer_errors(cc: str) -> list[str]:
@@ -134,7 +139,8 @@ def main() -> int:
         return 0
 
     targets = resolution_targets(prefer_cc=cc)
-    branch_labels = {m.get("label") for m in load_country(cc).get("branches", {}).values()}
+    branch_labels = {fold(m["label"]) for m in load_country(cc).get("branches", {}).values()
+                     if m.get("label")}
 
     errors, warnings = [], []
     notes = sorted(root.rglob("*.md"))
@@ -179,9 +185,10 @@ def main() -> int:
         outgoing[rel] = len(links) + len(path_links)
         for link in links:
             ambiguous_link_counts[link] = ambiguous_link_counts.get(link, 0) + 1
-            if link in targets:
-                incoming[targets[link]] = incoming.get(targets[link], 0) + 1
-            elif link in branch_labels:
+            if fold(link) in targets:
+                tgt_page = targets[fold(link)]
+                incoming[tgt_page] = incoming.get(tgt_page, 0) + 1
+            elif fold(link) in branch_labels:
                 # a known branch, but nobody wrote its page yet: a labeled gap, not an error
                 missing_branch_pages[link] = missing_branch_pages.get(link, 0) + 1
             else:
@@ -209,14 +216,16 @@ def main() -> int:
     # publish surface: bare links whose target name is claimed by several pages
     ambiguous = ambiguous_names(cc)
     if ambiguous:
-        bare = {n: c for n, c in ambiguous_link_counts.items() if n in ambiguous}
+        bare = {n: c for n, c in ambiguous_link_counts.items() if fold(n) in ambiguous}
         bucket = errors if args.strict_links else warnings
         for n in sorted(bare, key=lambda x: -bare[x]):
+            claiming = ambiguous[fold(n)][1]
             bucket.append(f"ambiguous link target [[{n}]]: {bare[n]} bare link(s), "
-                          f"{len(ambiguous[n])} pages claim the name "
-                          f"({', '.join(Path(p).parent.name for p in ambiguous[n])}) - "
+                          f"{len(claiming)} pages claim the name "
+                          f"({', '.join(Path(p).parent.name for p in claiming)}) - "
                           f"a basename resolver picks one silently")
-        unlinked = sorted(set(ambiguous) - set(bare))
+        linked = {fold(n) for n in bare}
+        unlinked = sorted(v[0] for k, v in ambiguous.items() if k not in linked)
         if unlinked:
             warnings.append(f"{len(unlinked)} duplicate page name(s) with no bare link yet "
                             f"(harmless today, a trap for the next hand-authored link): "

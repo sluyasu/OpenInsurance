@@ -13,10 +13,9 @@ from __future__ import annotations
 import argparse
 import re
 import sys
-import unicodedata
 from pathlib import Path
 
-from common import (WIKI, REPO, extracted_dir, read_json, write_if_changed,
+from common import (WIKI, REPO, extracted_dir, fold, read_json, write_if_changed,
                     insurer_configs, load_country, safe_title)
 import render
 import link
@@ -34,7 +33,7 @@ def fold_path(p: Path) -> str:
     filesystem: on a case-sensitive Linux checkout this only adds a "(2)" that would
     otherwise not be needed, and that is far cheaper than a page that exists on one
     contributor's machine and not on another's."""
-    return unicodedata.normalize("NFC", str(p)).casefold()
+    return fold(str(p))
 
 
 def fill_marker(page: Path, name: str, lines: list[str]) -> bool:
@@ -113,7 +112,7 @@ def main() -> int:
     seen: set[str] = set()
     by_insurer: dict[str, list[dict]] = {}
     product_page: dict[int, Path] = {}      # id(obj) -> path
-    branch_titles = {render.branch_label(country_meta, b)
+    branch_titles = {fold(render.branch_label(country_meta, b))
                      for b in (country_meta.get("branches") or {})}
 
     def name_priority(obj: dict) -> tuple:
@@ -136,7 +135,11 @@ def main() -> int:
         # A product must not take a branch page's filename: AMMA's "Auto" competed with
         # the Auto branch overview, and a bare [[Auto]] in a hand-authored page could
         # resolve to either. The displayed label stays the product name.
-        if title in branch_titles:
+        # Compared folded, because the wikilink resolver is case-insensitive: DAS's
+        # "Protection Juridique" did not match the branch label "Protection juridique"
+        # here, so the guard never fired, and the branch page and the product page went
+        # on competing for the same bare link.
+        if fold(title) in branch_titles:
             title = f"{title} ({obj['insurer_name']})"
         path = prod_root / slug / f"{title}.md"
         # Collisions are detected on the FOLDED path, not the exact one, because the

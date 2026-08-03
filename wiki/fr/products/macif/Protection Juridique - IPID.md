@@ -22,8 +22,7 @@ tags:
 - insurance/fr/protection-juridique
 - product
 - insurer/macif
-aliases:
-- Protection Juridique
+aliases: []
 source_url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_protection_juridique_sur_mesure_des_professionnels.pdf
 source_pages: 2
 fetched_at: '2026-08-01'

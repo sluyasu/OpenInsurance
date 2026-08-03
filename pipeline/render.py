@@ -10,7 +10,7 @@ from __future__ import annotations
 import posixpath
 from urllib.parse import quote
 
-from common import fallback_branch_of, frontmatter, safe_title, slugify, today
+from common import fallback_branch_of, fold, frontmatter, safe_title, slugify, today
 
 DISCLAIMER = (
     "⚠️ Ceci n'est pas le document officiel de l'assureur et peut contenir des erreurs "
@@ -234,10 +234,14 @@ def render_product(obj: dict, country_meta: dict, relation: dict | None = None,
         # A generated page must not claim a name the hand-authored layer owns: AMMA's
         # product is really called "Auto", but keeping that alias let a bare [[Auto]] in
         # a glossary page resolve to a product instead of the Auto branch overview.
+        # Compared folded: "Protection Juridique" as printed by D.A.S. did not match the
+        # branch label "Protection juridique" here, so the alias survived and the product
+        # page kept competing with the branch overview for a bare [[Protection juridique]]
+        # - which is exactly what this guard exists to prevent.
         "aliases": ([obj["product_name"]]
                     if obj.get("product_name")
-                    and obj["product_name"] not in {branch_label(country_meta, b)
-                                                    for b in (country_meta.get("branches") or {})}
+                    and fold(obj["product_name"]) not in {fold(branch_label(country_meta, b))
+                                                          for b in (country_meta.get("branches") or {})}
                     else []),
         "source_url": obj.get("source_url"),
         "source_pages": obj.get("source_pages"),

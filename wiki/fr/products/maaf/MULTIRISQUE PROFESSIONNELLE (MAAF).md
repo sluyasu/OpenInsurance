@@ -20,8 +20,7 @@ tags:
 - insurance/fr/multirisque-professionnelle
 - product
 - insurer/maaf
-aliases:
-- MULTIRISQUE PROFESSIONNELLE
+aliases: []
 source_url: https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/CG/MAAF_Conditions_generales_Multirisque_pro_11031.pdf
 source_pages: 90
 fetched_at: '2026-08-01'

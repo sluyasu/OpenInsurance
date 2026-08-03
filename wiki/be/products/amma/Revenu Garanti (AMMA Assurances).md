@@ -18,8 +18,7 @@ tags:
 - insurance/be/autres
 - product
 - insurer/amma
-aliases:
-- Revenu Garanti
+aliases: []
 source_url: https://www.amma.be/documents/310?lang=fr
 source_pages: 12
 fetched_at: '2026-07-05'

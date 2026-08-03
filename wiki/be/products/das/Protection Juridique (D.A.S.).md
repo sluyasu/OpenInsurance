@@ -16,8 +16,7 @@ tags:
 - insurance/be/autres
 - product
 - insurer/das
-aliases:
-- Protection Juridique
+aliases: []
 source_url: https://www-data.das.be/strapi/F5010_Conditions_Generales_Current_terms_8f03913976.pdf
 source_pages: 4
 fetched_at: '2026-07-05'

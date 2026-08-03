@@ -20,8 +20,7 @@ tags:
 - insurance/fr/protection-juridique
 - product
 - insurer/macif
-aliases:
-- Protection Juridique
+aliases: []
 source_url: https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA%20PJ%20PRO%26ESS%2006-20.pdf
 source_pages: 2
 fetched_at: '2026-08-01'

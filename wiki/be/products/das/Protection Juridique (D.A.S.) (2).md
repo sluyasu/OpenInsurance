@@ -16,8 +16,7 @@ tags:
 - insurance/be/protection-juridique
 - product
 - insurer/das
-aliases:
-- Protection Juridique
+aliases: []
 source_url: https://www-data.das.be/strapi/F5010_Conditions_generales_valable_10_2025_c5e7397ac0.pdf
 source_pages: 4
 fetched_at: '2026-07-05'
