@@ -567,6 +567,10 @@ Avec la Mutuelle Ociane Matmut, bénéficiez du remboursement intégral des soin
 - EXEMPLES DE REMBOURSEMENT : les 26 exemples chiffrés des pages 8 à 12 (prix moyen pratiqué, remboursement Sécurité sociale, remboursement Mutuelle Ociane Matmut, reste à charge, par niveau) sont enregistrés en special_conditions et non en coverages : ce sont des illustrations, pas des garanties.
 - AUCUNE FRANCHISE, AUCUN DÉLAI D'ATTENTE : le document ne mentionne ni franchise ni délai de carence ; deductibles est null et waiting_periods est vide. La seule condition de type franchise est le délai de 3 jours de l'option Protection Hospitalière (indemnité à partir du 4e jour).
 
+## Documents liés
+
+- [Ociane Santé Pro - Niveaux 1 à 6 - IPID](Ociane%20Sant%C3%A9%20Pro%20-%20Niveaux%201%20%C3%A0%206%20-%20IPID.md) - IPID / Fiche d'information, éd. 0925 (référence bas de page « IPID.MOM.SANTE PRO – 0925 »)
+
 ## Source & fidélité
 
 - Source : [https://www.matmut.fr/pro/pdf/garanties-pro-ociane-groupe-matmut.pdf](https://www.matmut.fr/pro/pdf/garanties-pro-ociane-groupe-matmut.pdf) - téléchargé le 2026-07-30 - 12 pages

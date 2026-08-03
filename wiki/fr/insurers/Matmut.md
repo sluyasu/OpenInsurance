@@ -5,7 +5,7 @@ country: fr
 insurer_slug: matmut
 name: Matmut
 website: https://www.matmut.fr
-products_count: 184
+products_count: 185
 branches_covered:
 - animaux
 - assurance-vie
@@ -43,7 +43,7 @@ generated: true
 
 ## Résumé
 
-**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 184 document(s) across 21 branch(es).
+**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 185 document(s) across 21 branch(es).
 
 ## Produits par branche
 
@@ -225,6 +225,7 @@ generated: true
 - [Matmut-Smac Catégories A, B et C](../products/matmut/Matmut-Smac%20Cat%C3%A9gories%20A%2C%20B%20et%20C.md) - Conditions générales (10/25) · réf. CONTRAT MATMUT/SMAC CAT ABC –10/25
 - [Notice d'information — Régime de frais de santé, contrat collectif, Accord interbranche du 2 octobre 2019 (CCN du 15 mar](../products/matmut/Notice%20d%27information%20%E2%80%94%20R%C3%A9gime%20de%20frais%20de%20sant%C3%A9%2C%20contrat%20collectif%2C%20Accord%20interbranche%20du%202%20octobre%202019%20%28CCN%20du%2015%20mar.md) - Conditions générales (ÉDITION 2023 (couverture) ; « janvier 2023 » en pied de page ; « Notice d'information Base obligatoire option 2 - CCN 66-CHRS - Janvier 2023 » en 4e de couverture) · réf. Accord interbranche CCN 66 - CHRS • Notice d'information base obligatoire et option 2 - janvier 2023
 - [Ociane Santé Pro - Fiche](../products/matmut/Ociane%20Sant%C3%A9%20Pro%20-%20Fiche.md) - Fiche produit (10/25) · réf. SANTE PRO-0925
+- [Ociane Santé Pro - Niveaux 1 à 6 - IPID](../products/matmut/Ociane%20Sant%C3%A9%20Pro%20-%20Niveaux%201%20%C3%A0%206%20-%20IPID.md) - IPID / Fiche d'information (0925 (référence bas de page « IPID.MOM.SANTE PRO – 0925 »)) · réf. IPID.MOM.SANTE PRO – 0925
 - [Régime complémentaire santé – Ensemble du personnel (CCN du 31 octobre 1951, IDCC N°29)](../products/matmut/R%C3%A9gime%20compl%C3%A9mentaire%20sant%C3%A9%20%E2%80%93%20Ensemble%20du%20personnel%20%28CCN%20du%2031%20octobre%201951%2C%20IDCC%20N%C2%B029%29.md) - Conditions générales (Juillet 2024) · réf. Notice d'information – Régime complémentaire santé – Ensemble du personnel – CCN du 31 octobre 1951 (IDCC N°29)
 - [Régime conventionnel Frais de santé des entreprises relevant du champ d'application de la Convention Collective National](../products/matmut/R%C3%A9gime%20conventionnel%20Frais%20de%20sant%C3%A9%20des%20entreprises%20relevant%20du%20champ%20d%27application%20de%20la%20Convention%20Collective%20National.md) - Conditions générales (12-2024) · réf. NI-FM-ALISFA-12-2024 (page de couverture) ; SP24/FCR571 (pied de chaque page)
 - [Régime de frais de santé – Contrat collectif (Accord interbranche CCN 66 - CHRS) (Base obligatoire)](../products/matmut/R%C3%A9gime%20de%20frais%20de%20sant%C3%A9%20%E2%80%93%20Contrat%20collectif%20%28Accord%20interbranche%20CCN%2066%20-%20CHRS%29%20%28Base%20obligatoire%29.md) - Conditions générales (janvier 2023) · réf. Accord interbranche CCN 66 - CHRS • Notice d'information base obligatoire - janvier 2023

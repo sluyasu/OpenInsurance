@@ -47,6 +47,36 @@ Trois relations distinctes ont été rencontrées dans le corpus, et les confond
   *assurée par la MNFCT, substituée par Apivia Macif Mutuelle*, Macif n'étant que distributeur. Trois
   organismes, trois rôles, une seule marque sur la couverture.
 
+### Combien de fois, mesuré
+
+Le pipeline enregistre désormais chaque document dont le **texte nomme un porteur autre que l'entité dont la
+bibliothèque publique l'a fourni**. Sur le corpus français : **dix-neuf documents, dix entités distinctes.**
+
+| Entité nommée par le document | Documents | Bibliothèque qui le publie |
+|---|---|---|
+| MAAF Santé | 4 | MAAF |
+| Matmut & Co (SA, 487 597 510 RCS Rouen) | 4 | Matmut |
+| Assistance Protection Juridique | 2 | — |
+| Inter Mutuelles Entreprises (RCS 493 147 011) | 2 | Matmut |
+| Macif Santé Prévoyance (Code de la mutualité, SIREN 779 558 501) | 2 | Macif |
+| AMF – Assurance Mutuelle des Fonctionnaires et Assimilés | 1 | — |
+| Apivia Macif Mutuelle | 1 | Macif |
+| Matmut Mutualité (Code de la mutualité, SIRENE 775 701 485) | 1 | Matmut |
+| Mutavie | 1 | Macif |
+| Mutuelle Ociane (Livre II du Code de la mutualité, n° 434 243 085) | 1 | Matmut |
+
+Deux lectures s'en dégagent, et aucune ne se déduirait des registres seuls.
+
+**Une marque de détail recouvre couramment plusieurs personnes morales, sous des régimes différents.** Matmut
+en compte cinq dans ce corpus — une société d'assurance mutuelle, une société anonyme, deux organismes du Code
+de la mutualité, une SA à directoire partagée avec Macif — et Macif quatre. Le slug d'un assureur dans ce dépôt
+désigne **la bibliothèque qui publie**, jamais le porteur du risque.
+
+**Et le champ `insurer_name` ne peut pas porter cette information.** Il sert à regrouper les pages sous une
+fiche assureur et doit rester stable ; la lecture du document part donc dans `gaps`, document par document. Le
+schéma n'ayant pas de champ `carrier`, c'est le seul endroit où le fait tienne sans invalider les extractions
+existantes — et c'est cherchable.
+
 En France, une marque grand public n'est pas nécessairement un assureur. Beaucoup de marques sont des
 **mandataires ou courtiers inscrits à l'ORIAS** qui distribuent le papier d'un porteur de risque. Le registre
 de l'ACPR liste les porteurs de risque ; l'ORIAS liste les intermédiaires. Chaque document contractuel nomme
@@ -89,7 +119,7 @@ né d'un contrat que le classement en [[EDPM et mobilités douces]] aurait mal d
 - [MAAF](insurers/MAAF.md) (78 documents)
 - [Macif](insurers/Macif.md) (118 documents)
 - [MAIF](insurers/MAIF.md) (69 documents)
-- [Matmut](insurers/Matmut.md) (184 documents)
+- [Matmut](insurers/Matmut.md) (185 documents)
 - [SMACL Assurances](insurers/SMACL%20Assurances.md) (92 documents)
 - [Thélem assurances](insurers/Th%C3%A9lem%20assurances.md) (45 documents)
 <!-- END GENERATED -->
