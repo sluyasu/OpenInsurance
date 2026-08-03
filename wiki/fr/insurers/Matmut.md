@@ -5,7 +5,7 @@ country: fr
 insurer_slug: matmut
 name: Matmut
 website: https://www.matmut.fr
-products_count: 174
+products_count: 176
 branches_covered:
 - animaux
 - assurance-vie
@@ -42,7 +42,7 @@ generated: true
 
 ## Résumé
 
-**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 174 document(s) across 20 branch(es).
+**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 176 document(s) across 20 branch(es).
 
 ## Produits par branche
 
@@ -124,6 +124,7 @@ generated: true
 - [Contrat « Multirisques Accidents de la Vie » - IPID](../products/matmut/Contrat%20%C2%AB%20Multirisques%20Accidents%20de%20la%20Vie%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (01/26) · réf. IPID.MAV
 - [Familial Complémentaire « Accidents corporels »](../products/matmut/Familial%20Compl%C3%A9mentaire%20%C2%AB%20Accidents%20corporels%20%C2%BB.md) - Conditions générales (10/24) · réf. CG FC.AC1
 - [Multirisques Accidents de la Vie](../products/matmut/Multirisques%20Accidents%20de%20la%20Vie.md) - Conditions générales · réf. CG MAV - 01/26
+- [Multirisques Accidents de la Vie Sérénité](../products/matmut/Multirisques%20Accidents%20de%20la%20Vie%20S%C3%A9r%C3%A9nit%C3%A9.md) - Conditions générales (01/26) · réf. CG MAV SÉRÉNITÉ –01/26
 
 ### [Multirisque habitation](../branches/Multirisque%20habitation.md)
 - [Assurance Loyers Impayés](../products/matmut/Assurance%20Loyers%20Impay%C3%A9s.md) - Conditions générales (10/24) · réf. CG LOYERS IMP - 10/24
@@ -172,6 +173,7 @@ generated: true
 ### [Multirisque professionnelle](../branches/Multirisque%20professionnelle.md)
 - [Association](../products/matmut/Association.md) - Conditions générales (11/24) · réf. CG ASS – 11/24
 - [Caducée](../products/matmut/Caduc%C3%A9e.md) - Conditions générales (05/23) · réf. MC.30
+- [Contrat Multigaranties des associations syndicales libres et propriétaires de terrains nus - IPID](../products/matmut/Contrat%20Multigaranties%20des%20associations%20syndicales%20libres%20et%20propri%C3%A9taires%20de%20terrains%20nus%20-%20IPID.md) - IPID / Fiche d'information (11/25) · réf. IPID.IME.ASL - 11/25
 - [Contrat d'assurance Bris de machines et pertes d'exploitation suite à bris de machines](../products/matmut/Contrat%20d%27assurance%20Bris%20de%20machines%20et%20pertes%20d%27exploitation%20suite%20%C3%A0%20bris%20de%20machines.md) - Conditions générales (2024-11) · réf. MC.402 IME – 11/24
 - [Contrat d'assurance Pertes d'exploitation](../products/matmut/Contrat%20d%27assurance%20Pertes%20d%27exploitation.md) - Conditions générales (2024-11) · réf. MC.306 IME – 11/24
 - [Matmut PRO](../products/matmut/Matmut%20PRO.md) - Conditions générales (11/24) · réf. CG Matmut PRO – 11/24

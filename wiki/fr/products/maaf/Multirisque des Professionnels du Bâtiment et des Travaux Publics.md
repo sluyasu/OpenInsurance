@@ -969,6 +969,7 @@ Toutes actions dérivant du contrat d'assurance sont prescrites par deux ans à 
 
 - Extension liée : [Entreprises de travaux publics - Intercalaire](Entreprises%20de%20travaux%20publics%20-%20Intercalaire.md)
 - [Entreprises de travaux publics - Intercalaire](Entreprises%20de%20travaux%20publics%20-%20Intercalaire.md) - Conditions générales, éd. 01/25
+- [Multirisque des Professionnels du Bâtiment et des Travaux Publics - IPID](Multirisque%20des%20Professionnels%20du%20B%C3%A2timent%20et%20des%20Travaux%20Publics%20-%20IPID.md) - IPID / Fiche d'information, éd. 2024-06
 
 ## Source & fidélité
 

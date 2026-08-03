@@ -5,7 +5,7 @@ country: fr
 insurer_slug: macif
 name: Macif
 website: https://www.macif.fr
-products_count: 101
+products_count: 104
 branches_covered:
 - animaux
 - assurance-vie
@@ -40,7 +40,7 @@ generated: true
 
 ## Résumé
 
-**Macif** - [https://www.macif.fr](https://www.macif.fr). 101 document(s) across 18 branch(es).
+**Macif** - [https://www.macif.fr](https://www.macif.fr). 104 document(s) across 18 branch(es).
 
 ## Produits par branche
 
@@ -114,6 +114,7 @@ generated: true
 - [Contrat Macif Habitation - Formules Économique, Équilibrée, Confort (Assurance multirisques habitation - Résidence princ](../products/macif/Contrat%20Macif%20Habitation%20-%20Formules%20%C3%89conomique%2C%20%C3%89quilibr%C3%A9e%2C%20Confort%20%28Assurance%20multirisques%20habitation%20-%20R%C3%A9sidence%20princ.md) - IPID / Fiche d'information (06/25) · réf. MACIF HAB RP 06/25
 - [Contrat Prem's - Assurance Logement - Assurance Personnelle](../products/macif/Contrat%20Prem%27s%20-%20Assurance%20Logement%20-%20Assurance%20Personnelle.md) - Conditions générales (Avril 2015) · réf. HAB/PREMS/05 - 04/15 - N093
 - [Contrat Sociétaire Non Occupant](../products/macif/Contrat%20Soci%C3%A9taire%20Non%20Occupant.md) - Conditions générales (avril 2015) · réf. HAB/SNO/05 - 04/15 - N086
+- [Contrat Sociétaire Non Occupant - Annexe spéciale Bâtiments en cours de construction](../products/macif/Contrat%20Soci%C3%A9taire%20Non%20Occupant%20-%20Annexe%20sp%C3%A9ciale%20B%C3%A2timents%20en%20cours%20de%20construction.md) - Conditions générales · réf. HAB/SNOBCC/07-01/08-N065
 - [Contrat Sociétaire Non Occupant - Annexe spéciale Immeubles en copropriété](../products/macif/Contrat%20Soci%C3%A9taire%20Non%20Occupant%20-%20Annexe%20sp%C3%A9ciale%20Immeubles%20en%20copropri%C3%A9t%C3%A9.md) - Conditions générales (03/11) · réf. HAB/SNOIC/07 - 03/11 - N067
 - [Contrat Sociétaire Non Occupant - Conditions Générales - Annexe spéciale Immeubles locatifs](../products/macif/Contrat%20Soci%C3%A9taire%20Non%20Occupant%20-%20Conditions%20G%C3%A9n%C3%A9rales%20-%20Annexe%20sp%C3%A9ciale%20Immeubles%20locatifs.md) - Conditions générales · réf. HAB/SNOIL/07 - 11/10 - N069
 - [Macif Habitation](../products/macif/Macif%20Habitation.md) - Conditions générales (06/25 (Version 06/2025)) · réf. MACIF HAB/05 - 06/25 - N570
@@ -125,9 +126,11 @@ generated: true
 
 ### [Deux-roues, quads et voiturettes](../branches/Deux-roues%2C%20quads%20et%20voiturettes.md)
 - [Contrat Deux Roues](../products/macif/Contrat%20Deux%20Roues.md) - Conditions générales (2018-11-25) · réf. VEH/MOTO/05-25/11/18-N760
+- [Contrat Macif Deux-roues Pros - IPID](../products/macif/Contrat%20Macif%20Deux-roues%20Pros%20-%20IPID.md) - IPID / Fiche d'information (06/22) · réf. VEH MOTO PROS - 06/22
 
 ### [Multirisque professionnelle](../branches/Multirisque%20professionnelle.md)
 - [Contrat Multigarantie Activité Professionnelle - IPID](../products/macif/Contrat%20Multigarantie%20Activit%C3%A9%20Professionnelle%20-%20IPID.md) - IPID / Fiche d'information (06/23) · réf. ACTP/MAP
+- [Contrat Multigarantie Activités Sociales Vie Associative - IPID](../products/macif/Contrat%20Multigarantie%20Activit%C3%A9s%20Sociales%20Vie%20Associative%20-%20IPID.md) - IPID / Fiche d'information (10/18) · réf. ACTS/MAS VA - 10/18
 - [Contrat Multigarantie Informatique - IPID](../products/macif/Contrat%20Multigarantie%20Informatique%20-%20IPID.md) - IPID / Fiche d'information (2018-10) · réf. ACTP/MI 10/18
 - [Multigarantie Activité Professionnelle](../products/macif/Multigarantie%20Activit%C3%A9%20Professionnelle.md) - Conditions générales (06/2023) · réf. ACTP/MAP/05 - 06/23 - N757
 

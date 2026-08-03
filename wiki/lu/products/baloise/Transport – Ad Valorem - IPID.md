@@ -4,7 +4,7 @@ domain: insurance
 country: lu
 insurer: '[[Baloise Luxembourg]]'
 insurer_slug: baloise
-branch: multirisque-professionnelle
+branch: autres
 product_name: Transport – Ad Valorem
 document_type: ipid
 target_audience: null
@@ -14,7 +14,7 @@ reference: null
 edition_date: null
 lang: fr
 tags:
-- insurance/lu/multirisque-professionnelle
+- insurance/lu/autres
 - product
 - insurer/baloise
 aliases:
@@ -41,7 +41,7 @@ generated: true
 
 IPID de l'assurance Transport – Ad Valorem de Baloise Assurances Luxembourg S.A. Le produit assure les marchandises transportées par tout moyen admis (route, voie aérienne, maritime, postale, etc) contre la perte ou l'avarie, l'étendue des sinistres couverts dépendant de la formule choisie : formule assurance restreinte (accident caractérisé, incendie/foudre/explosion, chute pendant les opérations de manutention, vol), formule assurance étendue (tous dommages sauf une liste d'altérations) ou formule Assurance contre Tous Risques (tous dommages). Une extension facultative couvre le risque de séjour au-delà de 30 jours. La garantie court de l'adresse de chargement à l'adresse de destination et les plafonds sont ceux mentionnés aux conditions particulières.
 
-- Assureur : [Baloise Luxembourg](../../insurers/Baloise%20Luxembourg.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information
+- Assureur : [Baloise Luxembourg](../../insurers/Baloise%20Luxembourg.md) · Branche : [Autres](../../branches/Autres.md) · Type : IPID / Fiche d'information
 
 ## Garanties
 

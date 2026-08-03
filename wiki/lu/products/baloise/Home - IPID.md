@@ -230,6 +230,10 @@ Garantie listée sous « Les options facultatives : ».
 - definitions : vide (format IPID, pas de lexique). waiting_periods : vide, prescription_period : null — non mentionnés.
 - Couche texte saine par ailleurs : extraction PyMuPDF page.get_text('text') identique octet pour octet au texte du prompt sur les deux pages. Aucun U+200B, aucun glyphe de zone privée, aucun accent décomposé, aucune ligature perdue, aucun texte hors page. Apostrophes toutes courbes (U+2019), aucune apostrophe ASCII.
 
+## Documents liés
+
+- [Home - IPID - DE](Home%20-%20IPID%20-%20DE.md) - IPID / Fiche d'information
+
 ## Source & fidélité
 
 - Source : [https://www.baloise.lu/dam/baloise-lu/1890/particulier/documents/fiches/fiche-ipid/fr/IPID-HOME-2--FR-LU-11-23.pdf](https://www.baloise.lu/dam/baloise-lu/1890/particulier/documents/fiches/fiche-ipid/fr/IPID-HOME-2--FR-LU-11-23.pdf) - téléchargé le 2026-08-03 - 2 pages

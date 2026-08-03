@@ -656,6 +656,10 @@ L'article 36 « La prescription » figure dans la partie « La vie du contrat »
 - L'article 32 précise que « certaines garanties de votre contrat peuvent faire l'objet d'un délai de carence* » et renvoie à la seule garantie optionnelle « Protection fiscale » (délai de carence de 2 mois). Aucun autre délai de carence n'est prévu par le contrat.
 - Le document renvoie à des « intercalaires » qui « viennent ajouter ou remplacer certaines dispositions des Conditions générales » et aux Conditions particulières, qui prévalent en cas de contradiction. Ces documents ne font pas partie de la source et leur contenu ne peut donc pas être extrait.
 
+## Documents liés
+
+- [Multirisque Associations - IPID](Multirisque%20Associations%20-%20IPID.md) - IPID / Fiche d'information, éd. 2024-06
+
 ## Source & fidélité
 
 - Source : [https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/CG/MAAF_Conditions_generales_Multirisque_associations_11034.pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/CG/MAAF_Conditions_generales_Multirisque_associations_11034.pdf) - téléchargé le 2026-08-01 - 86 pages

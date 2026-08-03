@@ -171,6 +171,10 @@ Garantie optionnelle listée sous « Les garanties optionnelles : Garanties Domm
 - Le texte imprime « Le transport de personnes  à titre onéreux » avec une double espace ; conservée verbatim dans la description de l'exclusion.
 - Provenance de edition_date: cette date ne vient pas du texte du document mais du manifeste, ou elle avait ete deduite lors de la decouverte. A verifier contre le document avant d'y appuyer une comparaison d'editions.
 
+## Documents liés
+
+- [Assurance Véhicule (MOTO) - IPID](Assurance%20V%C3%A9hicule%20%28MOTO%29%20-%20IPID.md) - IPID / Fiche d'information, éd. 2025-06
+
 ## Source & fidélité
 
 - Source : [https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/AUT11019.PDF](https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/AUT11019.PDF) - téléchargé le 2026-08-01 - 2 pages

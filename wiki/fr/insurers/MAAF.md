@@ -5,7 +5,7 @@ country: fr
 insurer_slug: maaf
 name: MAAF
 website: https://www.maaf.fr/
-products_count: 62
+products_count: 67
 branches_covered:
 - assurance-vie
 - auto
@@ -39,7 +39,7 @@ generated: true
 
 ## Résumé
 
-**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 62 document(s) across 17 branch(es).
+**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 67 document(s) across 17 branch(es).
 
 ## Produits par branche
 
@@ -92,6 +92,7 @@ generated: true
 - [Tempo Jeunes](../products/maaf/Tempo%20Jeunes.md) - Conditions générales (2026-05) · réf. Réf. 11001-05/26
 
 ### [Deux-roues, quads et voiturettes](../branches/Deux-roues%2C%20quads%20et%20voiturettes.md)
+- [Assurance Véhicule (MOTO) - IPID](../products/maaf/Assurance%20V%C3%A9hicule%20%28MOTO%29%20-%20IPID.md) - IPID / Fiche d'information (2025-06) · réf. AUT11003
 - [CYCLO - IPID](../products/maaf/CYCLO%20-%20IPID.md) - IPID / Fiche d'information (2025-06) · réf. AUT11019
 
 ### [Multirisque professionnelle](../branches/Multirisque%20professionnelle.md)
@@ -101,9 +102,13 @@ generated: true
 - [Entreprises de travaux publics - Intercalaire](../products/maaf/Entreprises%20de%20travaux%20publics%20-%20Intercalaire.md) - Conditions générales (01/25) · réf. 11049
 - [MULTIRISQUE PROFESSIONNELLE](../products/maaf/MULTIRISQUE%20PROFESSIONNELLE%20%28MAAF%29.md) - Conditions générales (01/26) · réf. Réf. 11031 - 01/26
 - [MULTISERVICE À LA PERSONNE — INTERCALAIRE](../products/maaf/MULTISERVICE%20%C3%80%20LA%20PERSONNE%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales (01/25) · réf. 11059 - 01/25
+- [Multirisque Associations - IPID](../products/maaf/Multirisque%20Associations%20-%20IPID.md) - IPID / Fiche d'information (2024-06) · réf. MU0_IPIDPO_00-240616-FVDftz-5-1-2-01:01:24- PRO10008
 - [Multirisque Associations](../products/maaf/Multirisque%20Associations.md) - Conditions générales (01/26) · réf. 11034
+- [Multirisque Chambre de Métiers et de l'Artisanat - IPID](../products/maaf/Multirisque%20Chambre%20de%20M%C3%A9tiers%20et%20de%20l%27Artisanat%20-%20IPID.md) - IPID / Fiche d'information (2024-06) · réf. PRO10007
 - [Multirisque Non Exploitant - IPID](../products/maaf/Multirisque%20Non%20Exploitant%20-%20IPID.md) - IPID / Fiche d'information (2024-06) · réf. PRO10010
+- [Multirisque Professionnelle - IPID](../products/maaf/Multirisque%20Professionnelle%20-%20IPID.md) - IPID / Fiche d'information (2024-06) · réf. PRO10001
 - [Multirisque des Professionnels du Bâtiment et des Travaux Publics](../products/maaf/Multirisque%20des%20Professionnels%20du%20B%C3%A2timent%20et%20des%20Travaux%20Publics.md) - Conditions générales (01/26) · réf. 11036
+- [Multirisque des Professionnels du Bâtiment et des Travaux Publics - IPID](../products/maaf/Multirisque%20des%20Professionnels%20du%20B%C3%A2timent%20et%20des%20Travaux%20Publics%20-%20IPID.md) - IPID / Fiche d'information (2024-06) · réf. MU0_IPIDPO_00-240616-FVDftz-3-1-2-01:01:24- PRO10005
 - [PROFESSIONS DE LA RESTAURATION ET DE L'HÔTELLERIE — INTERCALAIRE](../products/maaf/PROFESSIONS%20DE%20LA%20RESTAURATION%20ET%20DE%20L%27H%C3%94TELLERIE%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales (01/25) · réf. 11045 - 01/25
 - [SYNDICATS PROFESSIONNELS ARTISANAUX — INTERCALAIRE](../products/maaf/SYNDICATS%20PROFESSIONNELS%20ARTISANAUX%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales (03/24) · réf. 11042 - 03/24
 

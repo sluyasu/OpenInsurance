@@ -123,6 +123,7 @@ Mentionnée à l’article 1.2 : « Pour l’assurance facultative des dommages 
 ## Documents liés
 
 - Extension / option du produit : **conditions générales ALÉASSUR et conventions spéciales ALÉASSUR « Véhicules à moteur »**
+- [ALÉASSUR - Véhicules à moteur](AL%C3%89ASSUR%20-%20V%C3%A9hicules%20%C3%A0%20moteur.md) - Conditions générales, éd. 01/2024
 
 ## Source & fidélité
 

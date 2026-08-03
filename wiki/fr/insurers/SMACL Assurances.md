@@ -5,7 +5,7 @@ country: fr
 insurer_slug: smacl
 name: SMACL Assurances
 website: https://www.smacl.fr
-products_count: 84
+products_count: 85
 branches_covered:
 - auto
 - autres
@@ -35,11 +35,12 @@ generated: true
 
 ## Résumé
 
-**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 84 document(s) across 13 branch(es).
+**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 85 document(s) across 13 branch(es).
 
 ## Produits par branche
 
 ### [Assurance auto](../branches/Assurance%20auto.md)
+- [ALÉASSUR - Véhicules à moteur](../products/smacl/AL%C3%89ASSUR%20-%20V%C3%A9hicules%20%C3%A0%20moteur.md) - Conditions générales (01/2024) · réf. ALEASSUR_CS_VAM_05(01_2016)
 - [ALÉASSUR Auto collaborateurs - conventions spéciales](../products/smacl/AL%C3%89ASSUR%20Auto%20collaborateurs%20-%20conventions%20sp%C3%A9ciales.md) - Conditions générales (01/2024) · réf. ALEASSUR_CS_AutoCollab_02(05_2015)
 - [Aléassur Auto collaborateurs - IPID](../products/smacl/Al%C3%A9assur%20Auto%20collaborateurs%20-%20IPID.md) - IPID / Fiche d'information (02/2025) · réf. ALEASSUR_DIPA_ACSUBS_03(09_2022)
 - [Assistance aux véhicules](../products/smacl/Assistance%20aux%20v%C3%A9hicules%20%282%29.md) - Conditions générales (11/2022) · réf. PM_CA_VAM_SA_03(02_2023)

@@ -319,6 +319,7 @@ Frais garantis au titre du Chapitre 5 « Protection des droits de l’assuré »
 
 - Extension / option du produit : **Contrat Sociétaire Non Occupant**
 - [Contrat Sociétaire Non Occupant](Contrat%20Soci%C3%A9taire%20Non%20Occupant.md) - Conditions générales, éd. avril 2015
+- [Contrat Sociétaire Non Occupant - Annexe spéciale Bâtiments en cours de construction](Contrat%20Soci%C3%A9taire%20Non%20Occupant%20-%20Annexe%20sp%C3%A9ciale%20B%C3%A2timents%20en%20cours%20de%20construction.md) - Conditions générales
 - [Contrat Sociétaire Non Occupant - Annexe spéciale Immeubles en copropriété](Contrat%20Soci%C3%A9taire%20Non%20Occupant%20-%20Annexe%20sp%C3%A9ciale%20Immeubles%20en%20copropri%C3%A9t%C3%A9.md) - Conditions générales, éd. 03/11
 
 ## Source & fidélité
