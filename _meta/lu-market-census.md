@@ -486,7 +486,7 @@ Everything in this census was retrieved with Python `urllib`. No Firecrawl, no b
 | Tier | Hosts | Note |
 |---|---|---|
 | `plain` | caa.lu (incl. all CSV and PDF), data.legilux.public.lu, logement.public.lu, secu.lu, statistiques.public.lu, foyer.lu, lalux.lu, axa.lu, dkv.lu, cmcm.lu, raiffeisen.lu, europ-assistance.lu, hiscox.lu, onelife.com, wealins.com, sogelife.com, vitislife.com, utmostgroup.com | 200 to plain Python stdlib |
-| `plain`, curl-hostile | **baloise.lu** | 200 to `urllib`, **406 to `curl`** with the same User-Agent, following redirects. The French census's lesson recurs: a curl 4xx is not proof of a block. |
+| `plain` | **baloise.lu** | ~~200 to `urllib`, 406 to `curl`~~ — **cette ligne était fausse dans les deux sens, corrigée le 2026-08-03, voir plus bas.** Le discriminant est l'en-tête `Accept`, et il ne s'applique qu'aux pages HTML : le chemin `/dam/` qui sert les documents répond 200 à tout. Les 34 IPID ont été récupérés sans aucune adaptation. |
 | client-rendered | foyer.lu `/fr/conditions-generales` and `/fr/ipid` document lists; lalux.lu `/fr/infos-outils/documents`; dkv.lu documents | pages return 200 but list zero `.pdf` hrefs. Foyer's IPIDs *are* reachable without a browser via the `/{lang}/mydoc/{id}` redirect endpoints enumerated from the page markup; lalux's are under `/fileadmin/mediatheque/documents/…` with a `_FR` / `_DE` suffix convention. Both need an enumeration step, not a browser. |
 | SPA, unusable as-is | **legilux.public.lu** (Angular; returns a 2 KB shell) | use `data.legilux.public.lu/eli/…/fr/html` instead, which serves the full text as static HTML over plain HTTP. Recorded so the dead end is not re-derived. |
 | dead | cardifluxvie.lu (200, 114-byte body), aaa.public.lu (400 to every path tried), guichet.public.lu (404/timeout on every path tried) | not blocked, just not serving; find the content elsewhere |
@@ -525,7 +525,8 @@ these libraries has been enumerated yet.
    8 applies: capture `edition_date` and do not present these as the current contracts without
    checking whether a newer edition exists off-library.
 4. **baloise-lu** - BALOISE ASSURANCES LUXEMBOURG S.A. + BALOISE VIE Luxembourg S.A.
-   `urllib`-only host (curl 406). Library not yet located.
+   **INGERE le 2026-08-03 : 34 IPID, robots.txt vide (rien d'interdit), zero conditions
+   generales sur 268 documents inventories.** Voir `_meta/discovery/lu/baloise.md`.
 
 **Tier 2, single-line domestic specialists:** dkv (DKV LUXEMBOURG S.A., branch 2 only -
 complementary health, distributed through the lalux agency network), foyer-arag (branch 17
@@ -697,3 +698,33 @@ une entité identifiable, et « Baloise » ou « AXA » seuls ne permettent pas 
 
 Source : `AssurancesDirectes_AssureursLuxembourgeoisNonVie.csv` et
 `AssurancesDirectes_AssureursLuxembourgeoisVie.csv`, lus le 2026-08-03.
+
+## Correction (2026-08-03) — « baloise.lu curl-hostile » était faux dans les deux sens
+
+Le tableau des paliers de récupération portait : « 200 to `urllib`, **406 to `curl`** with the same
+User-Agent ». Mesuré aujourd'hui sur `https://www.baloise.lu/fr.html`, User-Agent identique,
+redirections suivies :
+
+| Client | En-tête `Accept` envoyé | Code |
+|---|---|---|
+| `curl` (défaut) | `*/*` | **200** |
+| `curl -H 'Accept:'` | aucun | **406** |
+| `curl -H 'Accept: text/html'` | `text/html` | **200** |
+| `urllib` (défaut) | aucun | **406** |
+| `urllib` + `Accept: */*` | `*/*` | **200** |
+
+**Ce n'est donc pas `curl` qui échoue, c'est l'absence d'en-tête `Accept`** — et `curl` en envoie un
+par défaut là où `urllib` n'en envoie aucun. Le palier était nommé d'après le mauvais client, et le
+sens du test était inversé.
+
+**Et la portée était fausse aussi.** Le discriminant ne s'applique qu'aux **pages HTML**. Le chemin
+`/dam/` qui sert les documents répond 200 dans les quatre combinaisons testées, ce qui est
+cohérent avec le fait que les 34 IPID ont été récupérés sans aucune adaptation :
+`download.py` envoie déjà `Accept: application/pdf,*/*`.
+
+**Ce que le cas apprend.** L'entrée précédente tirait pourtant la bonne leçon — « a curl 4xx is not
+proof of a block » — mais l'appliquait à un diagnostic qu'elle n'avait pas vérifié. Nommer un palier
+d'après le **client** qui échoue plutôt que d'après l'**en-tête** qui manque enterre la cause :
+« curl-hostile » ne se corrige pas, alors que « exige un en-tête `Accept` » se corrige en une ligne.
+Quand deux clients divergent, la question n'est jamais « lequel est bloqué » mais **« quel en-tête
+les sépare »**, et la réponse s'obtient en fixant un en-tête à la fois.
