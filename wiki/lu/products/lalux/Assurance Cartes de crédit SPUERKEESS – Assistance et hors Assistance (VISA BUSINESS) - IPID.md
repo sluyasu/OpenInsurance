@@ -46,7 +46,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) portant sur les couvertures d'assurance attachées à la carte de crédit VISA BUSINESS émise par SPUERKEESS, présenté sous l'en-tête « LALUX Assurances - Produit : Cartes de crédit - VISA BUSINESS ». Le document distingue un volet « hors Assistance » (accident de voyage : décès / invalidité) et un volet « Assistance » (assistance aux personnes en cas de maladie ou décès, cash emergency). Les assurés sont le titulaire d'une carte SPUERKEESS en cours de validité ainsi que son conjoint/partenaire et ses enfants de moins de 25 ans. Les couvertures ne sont pas acquises si un minimum de 30 % des coûts du voyage assuré n'a pas été réglé par la carte, et les déplacements de plus de 91 jours consécutifs sont écartés.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : Autres · Type : IPID / Fiche d'information
+- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Autres](../../branches/Autres.md) · Type : IPID / Fiche d'information
 
 ## Définitions
 

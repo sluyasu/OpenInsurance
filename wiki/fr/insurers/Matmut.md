@@ -105,7 +105,6 @@ generated: true
 - [Contrat « Chasse » - IPID](../products/matmut/Contrat%20%C2%AB%20Chasse%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (04/26) · réf. IPID.CHASSE. 04/26
 
 ### [EDPM et mobilités douces](../branches/EDPM%20et%20mobilit%C3%A9s%20douces.md)
-- [2R Liberté](../products/matmut/2R%20Libert%C3%A9.md) - Conditions générales (2025-07) · réf. CG VELO 07/25
 - [2R Mobilité](../products/matmut/2R%20Mobilit%C3%A9.md) - Conditions générales (07/25) · réf. CG EDPM 07/25
 - [Contrat Multirisques « 2R Mobilité » - IPID](../products/matmut/Contrat%20Multirisques%20%C2%AB%202R%20Mobilit%C3%A9%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (07/25) · réf. IPID.EDPM - 07/25
 
@@ -136,7 +135,6 @@ generated: true
 - [Habitation Résidence principale - Jeunes - Contrat d'assurance Multigaranties](../products/matmut/Habitation%20R%C3%A9sidence%20principale%20-%20Jeunes%20-%20Contrat%20d%27assurance%20Multigaranties.md) - Conditions générales (05/24) · réf. CG Habitation Jeunes - 05/24
 - [Habitation Résidence secondaire](../products/matmut/Habitation%20R%C3%A9sidence%20secondaire.md) - Conditions générales (12/23) · réf. CG RS – 12/23
 - [Matmut Mobile-home formule Nature](../products/matmut/Matmut%20Mobile-home%20formule%20Nature.md) - Conditions générales (05/24) · réf. CG MGAR MH Nature – 05/24
-- [Propriétaire Non Exploitant](../products/matmut/Propri%C3%A9taire%20Non%20Exploitant.md) - Conditions générales (2024-05) · réf. CG PNE – 05/24
 - [Terrain - Bâtiment non habitable — Contrat d'assurance Multigaranties](../products/matmut/Terrain%20-%20B%C3%A2timent%20non%20habitable%20%E2%80%94%20Contrat%20d%27assurance%20Multigaranties.md) - Conditions générales (05/24) · réf. CG TBNH – 05/24
 
 ### [Deux-roues, quads et voiturettes](../branches/Deux-roues%2C%20quads%20et%20voiturettes.md)
@@ -163,6 +161,7 @@ generated: true
 - [Matmut PRO](../products/matmut/Matmut%20PRO.md) - Conditions générales (11/24) · réf. CG Matmut PRO – 11/24
 - [Matmut « Caducée »](../products/matmut/Matmut%20%C2%AB%20Caduc%C3%A9e%20%C2%BB.md) - Conditions générales · réf. MC.30 – 11/24
 - [Multigaranties des collectivités et risques professionnels](../products/matmut/Multigaranties%20des%20collectivit%C3%A9s%20et%20risques%20professionnels.md) - Conditions générales (04/26) · réf. MC.1 IME – 04/26.
+- [Propriétaire Non Exploitant](../products/matmut/Propri%C3%A9taire%20Non%20Exploitant.md) - Conditions générales (2024-05) · réf. CG PNE – 05/24
 - [Risques Immobiliers](../products/matmut/Risques%20Immobiliers.md) - Conditions générales (10/25) · réf. CG.IME.IMMO – 10/25
 
 ### [Navigation de plaisance](../branches/Navigation%20de%20plaisance.md)
@@ -242,6 +241,7 @@ generated: true
 - [Contrat « Assurance scolaire » - IPID](../products/matmut/Contrat%20%C2%AB%20Assurance%20scolaire%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (12/23) · réf. IPID.SCOL
 
 ### [Vélo](../branches/V%C3%A9lo.md)
+- [2R Liberté](../products/matmut/2R%20Libert%C3%A9.md) - Conditions générales (2025-07) · réf. CG VELO 07/25
 - [Contrat Multirisques « 2R Liberté » - IPID](../products/matmut/Contrat%20Multirisques%20%C2%AB%202R%20Libert%C3%A9%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (07/25) · réf. IPID.VELO - 07/25
 
 ## Source

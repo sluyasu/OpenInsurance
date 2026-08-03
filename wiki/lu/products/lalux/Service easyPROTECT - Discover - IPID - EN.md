@@ -4,7 +4,7 @@ domain: insurance
 country: lu
 insurer: '[[lalux]]'
 insurer_slug: lalux
-branch: multirisque-professionnelle
+branch: rc-familiale
 product_name: Service easyPROTECT - Discover
 document_type: ipid
 target_audience: particuliers
@@ -18,7 +18,7 @@ reference: null
 edition_date: null
 lang: en
 tags:
-- insurance/lu/multirisque-professionnelle
+- insurance/lu/rc-familiale
 - product
 - insurer/lalux
 aliases:
@@ -45,7 +45,7 @@ generated: true
 
 Insurance product information document (IPID) for the easyPROTECT - Discover service distributed under the LALUX Assurances brand. The service is a package of guarantees for insured persons whose main residence is in the Grand Duchy of Luxembourg, aged between 15 and 27 years and preparing to begin their professional life (students, apprentices and similar categories). The basic package comprises civil liability for private and student life excluding professional activities — with a "Student accommodation" extension for tenants of student housing located in Europe — and legal protection. Mobile IT coverage, Assistance (tuition and apprenticeship fees, return costs, recovery of lost computer data) and Medical emergency (outpatient treatment, dental care, hospitalisation abroad and repatriation) are available as options for an additional premium, each subject to a stated monetary cap.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : Multirisque professionnelle · Type : IPID / Fiche d'information
+- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Responsabilité civile familiale](../../branches/Responsabilit%C3%A9%20civile%20familiale.md) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -169,10 +169,7 @@ The insurance covers damage occurring during the term of the contract, even if t
 - Minor typographic inconsistency, not repaired: eight of the nine section headings carry a thin space (U+2009) before their question mark or colon, but "What are my obligations?" does not, and "Disclaimer:" does not either.
 - The prompt text was not truncated. It was checked character for character against a local re-extraction of the source PDF (data/lu/pdfs/lalux/multirisque-professionnelle/6893kb-23087ad2.pdf, sha256 65bcc07a3bc8…) using the same page.get_text("text") call as the harness: both pages match exactly.
 - Character traps respected in the quotes: nine thin spaces (U+2009) before "?" and ":" in the headings, curly double quotes (U+201C/U+201D) around “Student accommodation”, one U+2019 apostrophe and U+2022 bullets isolated on their own lines. Structured fields carry the rendered form, quotes carry the text layer verbatim. All quotes were sliced programmatically as exact spans of the cited page and none crosses a [page N] marker.
-
-## Documents liés
-
-- [easyPROTECT Comprehensive - IPID - EN](easyPROTECT%20Comprehensive%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
+- Branche corrigee en amont le 2026-08-03: produit etudiants et apprentis de 15 a 27 ans excluant les activites professionnelles, dont le socle est une RC privee.
 
 ## Source & fidélité
 

@@ -45,7 +45,7 @@ generated: true
 
 Allgemeine Bedingungen der Berufshaftpflichtversicherung für Architekten und beratende Ingenieure, Ausgabe 01.05.2025. Der Versicherer versichert den Versicherungsnehmer und/oder den Versicherten gegen die finanziellen Folgen der Haftpflicht infolge von Körperschäden, Sachschäden und immateriellen Schäden, die Dritten im Rahmen der rechtmäßigen Ausübung der in den Besonderen Bedingungen beschriebenen Berufstätigkeiten entstehen. Der Vertrag unterscheidet Berufshaftpflicht – einschließlich der zehnjährigen Haftpflicht gegenüber dem Bauherrn – und Betriebshaftpflicht und fügt zusätzliche Deckungen hinzu (Diebstahl durch Beauftragte, Nachbarschaftsstreitigkeiten, Subunternehmer, Verteidigungs- und Gutachterkosten, Rettungskosten, Budgetüberschreitung, Umweltverschmutzung u. a.). Der Versicherungsschutz gilt für Ansprüche, die während der Gültigkeitsdauer des Vertrags gestellt werden, weltweit mit Ausnahme der Vereinigten Staaten von Amerika und Kanadas. Das Dokument umfasst drei Hefte: Allgemeine Bedingungen, Administrative Bedingungen und Definitionen.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : RC professionnelle · Type : Conditions générales · Édition : 01.05.2025
+- Assureur : [lalux](../../insurers/lalux.md) · Branche : [RC professionnelle](../../branches/RC%20professionnelle.md) · Type : Conditions générales · Édition : 01.05.2025
 
 ## Définitions
 

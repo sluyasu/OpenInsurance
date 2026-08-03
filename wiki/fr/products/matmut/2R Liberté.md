@@ -4,7 +4,7 @@ domain: insurance
 country: fr
 insurer: '[[Matmut]]'
 insurer_slug: matmut
-branch: edpm
+branch: velo
 product_name: 2R Liberté
 document_type: conditions_generales
 target_audience: null
@@ -20,7 +20,7 @@ reference: CG VELO 07/25
 edition_date: 2025-07
 lang: fr
 tags:
-- insurance/fr/edpm
+- insurance/fr/velo
 - product
 - insurer/matmut
 aliases:
@@ -47,7 +47,7 @@ generated: true
 
 Conditions générales, valant projet de contrat au sens de l’article L. 112-2 du Code des assurances, du contrat d’assurance Multirisques 2R Liberté Matmut. Le contrat garantit un vélo (cycle) ou un vélo à assistance électrique (cycle à pédalage assisté) acheté neuf auprès d’un professionnel pour un prix d’achat supérieur à 500 € TTC et assuré au maximum dans les soixante jours suivant cet achat, au titre des garanties Vol et tentative de vol avec effraction d’un local privé fermé, Vol avec agression, Incendie-attentat-tempête, Catastrophes naturelles, Catastrophes technologiques et Dommages accidents – événements naturels, ainsi que d’une garantie Équipements de protection (200 €) et d’une garantie Assistance Juridique. Deux garanties sont optionnelles : Vol en tout lieu et la Garantie corporelle du cycliste, cette dernière indemnisant le cycliste de ses dommages corporels (dépenses de santé 7 000 €, pertes de gains professionnels actuels 13 000 €, incapacité permanente jusqu’à 750 000 €, pertes de gains professionnels futurs 100 000 €, souffrances endurées et préjudice esthétique permanent jusqu’à 40 000 € chacun, frais de logement 40 000 € et de véhicule adapté 10 000 €) et, en cas de décès, les frais d’obsèques (5 000 €), le préjudice d’affection (50 000 €) et les pertes de revenus des proches (245 000 €). Le contrat ne garantit pas la responsabilité civile du cycliste.
 
-- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [EDPM et mobilités douces](../../branches/EDPM%20et%20mobilit%C3%A9s%20douces.md) · Type : Conditions générales · Édition : 2025-07
+- Assureur : [Matmut](../../insurers/Matmut.md) · Branche : [Vélo](../../branches/V%C3%A9lo.md) · Type : Conditions générales · Édition : 2025-07
 
 ## Définitions
 
@@ -467,6 +467,7 @@ Conformément à l’article L.114-1 du Code des assurances, toutes actions dér
 - Le contrat ne contient aucun tarif. Le seul mécanisme de cotisation décrit est la révision annuelle au premier jour de chaque année civile et la variabilité propre à une société d’assurance mutuelle à cotisations variables (article 26).
 - Les pages 41, 43, 44 à 48 contiennent la Charte de protection des données à caractère personnel et des pages de titre ; la page 48 ne porte que le folio courant. Le contenu de la Charte n’est pas repris en détail : il est identique dans sa structure aux autres contrats Matmut et ne comporte aucune stipulation de garantie.
 - Le texte du prompt n’a pas été tronqué : les 50 marqueurs [page N] sont présents et le document se termine sur la page 50. La couche texte du PDF local (data/fr/pdfs/matmut/edpm/2r-liberte-1c4cfe3a.pdf) a été ré-extraite avec page.get_text("text") : les 50 pages sont identiques (aux espaces de bord près) au texte fourni dans le prompt.
+- Branche corrigee en amont le 2026-08-03: le contrat n'assure qu'un cycle ou un cycle a pedalage assiste et exclut les VAE rapides; son code de pied de page est CG VELO.
 - Provenance de edition_date: cette date ne vient pas du texte du document mais du manifeste, ou elle avait ete deduite lors de la decouverte. A verifier contre le document avant d'y appuyer une comparaison d'editions.
 
 ## Source & fidélité

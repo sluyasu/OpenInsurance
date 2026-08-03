@@ -46,7 +46,7 @@ generated: true
 
 Insurance Product Information Document for easyPROTECT PRO-Auto, headed "Motor vehicle insurance – Vehicles other than cars and motorhomes" and issued under the brand "LALUX Assurances". The document states that easyPROTECT-Auto covers motor vehicle third party liability as well as damage caused to the vehicle when exercising a professional activity, giving taxis, rental cars without drivers, vans, trucks, semi-trailer tractors, buses, tractors, caravans and motorcycles as examples. The guarantees presented are civil liability, legal protection, fire, theft, glass breakage, damage to the vehicle, death/disability/medical expenses for occupants of a designated vehicle, and a driver's guarantee - package A. Civil liability, legal protection and the personal-injury guarantees apply in countries whose national insurance bureaus are contractually linked with the Luxembourg Bureau; damage to motorised land vehicles applies in a listed set of countries.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : Assurance auto · Type : IPID / Fiche d'information
+- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information
 
 ## Garanties
 

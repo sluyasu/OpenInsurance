@@ -4,7 +4,7 @@ domain: insurance
 country: lu
 insurer: '[[lalux]]'
 insurer_slug: lalux
-branch: multirisque-professionnelle
+branch: autres
 product_name: easyPROTECT Comprehensive
 document_type: ipid
 target_audience: null
@@ -15,7 +15,7 @@ reference: null
 edition_date: null
 lang: en
 tags:
-- insurance/lu/multirisque-professionnelle
+- insurance/lu/autres
 - product
 - insurer/lalux
 aliases:
@@ -42,7 +42,7 @@ generated: true
 
 Insurance Product Information Document for the comprehensive (all-risks) insurance for personal property included in the easyPROTECT product, headed "Comprehensive insurance for personal property" and issued under the brand "LALUX Assurances". Within the limits of the Special Conditions it covers loss, damage or material damage to the insured objects where the risk results from theft, fire, explosions, damage caused by water or an exclusively accidental cause. The policyholder chooses which categories of object are insured among musical instruments, cameras and similar devices, jewellery and furs, private collections of postage stamps, and cycles. Cover applies worldwide unless the General Terms and Conditions stipulate otherwise.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : Multirisque professionnelle · Type : IPID / Fiche d'information
+- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Autres](../../branches/Autres.md) · Type : IPID / Fiche d'information
 
 ## Définitions
 
@@ -163,10 +163,6 @@ Cycles: cycles or any vehicle with at least two wheels, and which are propelled 
 - is_extension has been set to false. The document says the cover is "included in the easyPROTECT product" - i.e. a module of a package - but it is never described as an option, extension or rider, so it has not been recorded as one. product_family=easyPROTECT and variant=Comprehensive record the relationship instead.
 - Character notes for downstream consumers: the text layer contains U+2009 THIN SPACE (11 occurrences) before "?" in the section headings, before ":" in the header product line, and inside the percentages "10 %" and "80 %"; and U+2019 in "policyholder’s" and "company’s". All key_quotes were sliced programmatically as exact spans and preserve these characters. The prompt text was verified byte-identical to page.get_text("text") of the local PDF for both pages before extraction; the text was not truncated (2 pages).
 - Optionality: the five object categories are marked is_optional=true on the strength of the printed phrase "The comprehensive insurance covers, at your choice, the following risks". The document gives no formula/tier table and states no sum insured for any category; sums insured are left to the Special Conditions, which are not part of this document.
-
-## Documents liés
-
-- [Service easyPROTECT - Discover - IPID - EN](Service%20easyPROTECT%20-%20Discover%20-%20IPID%20-%20EN.md) - IPID / Fiche d'information
 
 ## Source & fidélité
 

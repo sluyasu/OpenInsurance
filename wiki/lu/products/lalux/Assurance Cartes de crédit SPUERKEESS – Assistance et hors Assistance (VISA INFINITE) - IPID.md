@@ -45,7 +45,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de l’assurance liée aux cartes de crédit SPUERKEESS, gamme VISA INFINITE, présenté sous la marque LALUX Assurances. Il énumère douze garanties « HORS ASSISTANCE » (accident de voyage, solde restant dû, annulation/interruption de voyage, retard d’avion, départ manqué, protection des achats, livraison de biens achetés via Internet, protection bagages, matériel de sport, exonération de la franchise du véhicule de location, extension de garantie, vol des espèces) et deux garanties « ASSISTANCE » (assistance aux personnes en cas de maladie ou décès, cash emergency), sans en décrire le contenu ni les montants. Les assurés sont le titulaire de la carte, son conjoint/partenaire et ses enfants de moins de 25 ans du même ménage ; la couverture vaut dans le monde entier et suppose qu’au moins 30% des coûts du voyage aient été réglés avec la carte VISA INFINITE. Les déclarations de sinistre hors assistance sont réceptionnées par Willis Towers Watson Luxembourg S.A. et transmises au Service Indemnisation de LA LUXEMBOURGEOISE, dans les 30 jours ouvrés.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : Autres · Type : IPID / Fiche d'information
+- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Autres](../../branches/Autres.md) · Type : IPID / Fiche d'information
 
 ## Définitions
 

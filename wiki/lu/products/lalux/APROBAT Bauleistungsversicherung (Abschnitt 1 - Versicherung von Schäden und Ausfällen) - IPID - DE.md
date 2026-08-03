@@ -43,7 +43,7 @@ generated: true
 
 Informationsdokument über das Versicherungsprodukt für die APROBAT Bauleistungsversicherung, hier für "Abschnitt 1 - Versicherung von Schäden und Ausfällen", herausgegeben unter der Marke "LALUX Assurances". Die Versicherung deckt direkte materielle Schäden ab, die in der Zerstörung oder Beschädigung eines versicherten Objekts während der Bau-Aufbau-Testphase sowie während der Instandhaltungsphase bestehen; alle immateriellen Schäden sind ausgeschlossen. Als Versicherte gelten nach der Darstellung des Dokuments alle am Bau Beteiligten. Der Versicherungsschutz gilt für die in den Besonderen Bedingungen spezifizierten Baustelle(n) und Güter.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : Assurances constructions · Type : IPID / Fiche d'information
+- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Assurances constructions](../../branches/Assurances%20constructions.md) · Type : IPID / Fiche d'information
 
 ## Définitions
 

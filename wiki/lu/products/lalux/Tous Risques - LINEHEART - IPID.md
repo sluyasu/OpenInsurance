@@ -43,7 +43,7 @@ generated: true
 
 Document d’information sur le produit d’assurance pour l’"Assurance Tous Risques  - LINEHEART", diffusé sous la marque "LALUX Assurances". Dans le cadre de l’assurance LINEHEART, valable dans le monde entier, il est possible d’assurer les iPhone ou autres appareils Apple (et accessoires) contre les risques de casse accidentelle, de vol (par effraction, agression et à la tire) et d’oxydation accidentelle. Une extension de 12 ou 24 mois de la garantie constructeur peut être souscrite, couvrant la panne garantie. L’assurance doit être contractée au moment de l’achat du produit assuré et figurer sur la même facture, et la durée de la couverture est limitée à maximum 3 ans à partir de la date d’achat de l’appareil.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : Autres · Type : IPID / Fiche d'information
+- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Autres](../../branches/Autres.md) · Type : IPID / Fiche d'information
 
 ## Définitions
 

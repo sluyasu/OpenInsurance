@@ -44,7 +44,7 @@ generated: true
 
 Insurance product information document for the insurance cover attached to VISA PREMIER credit cards issued by SPUERKEESS, underwritten under the LALUX Assurances brand. It groups six NON-ASSISTANCE covers (accident while travelling, cancellation/interruption, flight and luggage, flight delay or extension of stay if blocked, protection of purchases, delivery of goods purchased via the internet) and two ASSISTANCE covers (in the event of illness or death, cash emergency). The insured persons are the holder of a valid SPUERKEESS credit card and their spouse/partner and children under 25; the insurance is valid worldwide. The document states no amounts, sub-limits, deductibles or premium and refers throughout to General Terms and Conditions that it does not reproduce.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : Autres · Type : IPID / Fiche d'information
+- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Autres](../../branches/Autres.md) · Type : IPID / Fiche d'information
 
 ## Définitions
 

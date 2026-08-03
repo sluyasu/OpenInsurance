@@ -42,7 +42,7 @@ generated: true
 
 Informationsdokument über das Versicherungsprodukt (IPID) zur KFZ-Versicherung easyPROTECT-Auto der Marke LALUX Assurances, für PKWs und Wohnmobile. Versichert werden die KFZ-Haftpflicht sowie Schäden am eigenen Fahrzeug; das Produkt wird in drei Varianten angeboten (Sicherheit, Komfort und Performance), die auf einem Basistarif aufbauen. Der Basistarif umfasst die Haftpflicht, den Rechtsschutz (gegen zusätzlich zu zahlende Prämie) und Top Assistance; SICHERHEIT ergänzt Feuer, Diebstahl, Glasbruch, Zusammenprall mit einem streunenden Tier und Naturgewalten, KOMFORT die Schäden am Fahrzeug und das Ersatzfahrzeug, PERFORMANCE die Individualisierung der Prämie und Reparatur plus. Das Dokument bezeichnet seine Aufzählungen ausdrücklich als « Nicht vollständige Liste » und verweist für die vollständigen Rechte und Pflichten auf die Allgemeinen Versicherungsbedingungen und/oder die Besonderen Bedingungen.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : Assurance auto · Type : IPID / Fiche d'information
+- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information
 
 ## Garanties
 

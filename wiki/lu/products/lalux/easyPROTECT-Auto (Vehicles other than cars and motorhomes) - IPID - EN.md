@@ -42,7 +42,7 @@ generated: true
 
 Insurance product information document (IPID) for easyPROTECT-Auto, published under the banner “Motor vehicle insurance - Vehicles other than cars and motorhomes” and the product line “LALUX Assurances - Product : easyPROTECT-Auto”. The document states that easyPROTECT-Auto covers motor vehicle third party liability as well as damage caused to the vehicle, and sets out seven guarantees: civil liability, legal protection (costs and fees up to EUR 10,000), fire, theft, glass breakage, damage to the vehicle, and an optional accessory driver’s guarantee reserved for van type vehicles. Cover applies in the countries indicated on the green card, with an explicit 42-territory list for damage to the vehicle, and the contract runs from year to year by tacit renewal.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : Assurance auto · Type : IPID / Fiche d'information
+- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Assurance auto](../../branches/Assurance%20auto.md) · Type : IPID / Fiche d'information
 
 ## Garanties
 

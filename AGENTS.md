@@ -28,7 +28,7 @@ navigate it without guessing. Do not edit by hand.
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
 | ch (Switzerland) | 0 | 3 | 1 | 0 | 5 |
 | fr (France) | 24 | 590 | 10 | 1 | 5 |
-| lu (Luxembourg) | 2 | 31 | 1 | 1 | 5 |
+| lu (Luxembourg) | 12 | 34 | 1 | 1 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
 
@@ -467,7 +467,6 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | decennale | smacl | Tous risques chantier - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-tous-risques-chantier-collectivites.pdf) |
 | fr | decennale | thelem | DCBAT - Responsabilité Décennale des entreprises du Bâtiment - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_810_DCBAT_-012025.pdf) |
 | fr | edpm | maif | Assurance Vélo - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/document-information-assurance-velo.pdf) |
-| fr | edpm | matmut | 2R Liberté | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CG2RLIBERTE.pdf) |
 | fr | edpm | matmut | 2R Mobilité | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CG2RMOBILITE.pdf) |
 | fr | edpm | matmut | Contrat Multirisques « 2R Mobilité » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPID2RMOBILITE.pdf) |
 | fr | edpm | thelem | Assurance EDPM - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_EDPM-012026.pdf) |
@@ -567,7 +566,6 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | habitation | matmut | Habitation Résidence principale - Jeunes - Contrat d'assurance Multigaranties | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGJEUNES.pdf) |
 | fr | habitation | matmut | Habitation Résidence secondaire | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGMGARRS.pdf) |
 | fr | habitation | matmut | Matmut Mobile-home formule Nature | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGMGARMH.pdf) |
-| fr | habitation | matmut | Propriétaire Non Exploitant | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGPNE.pdf) |
 | fr | habitation | matmut | Terrain - Bâtiment non habitable — Contrat d'assurance Multigaranties | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGMGARTBNH.pdf) |
 | fr | habitation | smacl | Assurance habitation (Particuliers) | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cg-assurance-habitation.pdf) |
 | fr | habitation | smacl | Multirisques caravaning | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cg-multirisques-caravaning.pdf) |
@@ -624,6 +622,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | multirisque-professionnelle | matmut | Matmut PRO | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGMPRO.pdf) |
 | fr | multirisque-professionnelle | matmut | Matmut « Caducée » | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/MC30.pdf) |
 | fr | multirisque-professionnelle | matmut | Multigaranties des collectivités et risques professionnels | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/cgmgarpro.pdf) |
+| fr | multirisque-professionnelle | matmut | Propriétaire Non Exploitant | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGPNE.pdf) |
 | fr | multirisque-professionnelle | matmut | Risques Immobiliers | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CGRisquesImmobiliers.pdf) |
 | fr | multirisque-professionnelle | smacl | ALÉASSUR - Conventions spéciales Dommages aux biens | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-aleassur-dommages-aux-biens.pdf) |
 | fr | multirisque-professionnelle | smacl | ALÉASSUR - Conventions spéciales Tous risques instruments de musique | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-aleassur-tous-risques-instruments.pdf) |
@@ -889,6 +888,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | transport | smacl | ALÉASSUR Tous risques expositions clou à clou | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-aleassur-risques-expositions-clou-a-clou.pdf) |
 | fr | transport | smacl | Conventions spéciales CONVERGENCE - Tous risques expositions clou à clou (Associatons) | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-convergence-risques-expositions-clou-a-clou.pdf) |
 | fr | velo | maif | Assurance Vélo | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/mobilite/conditions-generales-assurance-velo.pdf) |
+| fr | velo | matmut | 2R Liberté | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/CG2RLIBERTE.pdf) |
 | fr | velo | matmut | Contrat Multirisques « 2R Liberté » - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/IPID2RLIBERTE.pdf) |
 | fr | voyage | luko | ASSURANCE MULTI-VOYAGES A L'ANNEE - 507332 - IPID | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/travel/IPID-ANNUAL-507332.pdf) |
 | fr | voyage | luko | Comprehensive Gold Long Trip 507655 | 2026-07-30 | [pdf](https://www.fr.luko.eu/dam/documents/travel/dftralong202512/CG_Comprehensive-Gold_Long-trip_507655.pdf) |
@@ -901,8 +901,10 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | lu | accidents | lalux | easyPROTECT PRO – Company accident insurance - IPID - EN | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_lalux_easyprotect-pro-entreprise-accident-entreprise_en.pdf) |
 | lu | accidents | lalux | easyPROTECT-Unfall - IPID - DE | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_assurance-accident_lalux_easyprotect-accident_de.pdf) |
 | lu | auto | lalux | easyPROTECT PRO-Auto (Vehicles other than cars and motorhomes) - IPID - EN | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_easyprotect-pro-auto_vehicules-type-2_en.pdf) |
+| lu | auto | lalux | easyPROTECT PRO-Auto (cars and motorhomes vehicle types) - IPID - EN | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_easyprotect-pro-auto_vehicules-type-1_en.pdf) |
 | lu | auto | lalux | easyPROTECT-Auto (PKWs und Wohnmobile) - IPID - DE | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_assurance-auto_lalux_easyprotect-auto_vehicules-type-1_de.pdf) |
 | lu | auto | lalux | easyPROTECT-Auto (Vehicles other than cars and motorhomes) - IPID - EN | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_assurance-auto_lalux_easyprotect-auto_vehicules-type-2_en.pdf) |
+| lu | auto | lalux | easyPROTECT-Auto (Voitures et camping cars) - IPID | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_assurance-auto_lalux_easyprotect_auto_vehicules-type-1_fr.pdf) |
 | lu | auto | lalux | easyPROTECT-Auto (Véhicules autres que voitures ou camping cars) - IPID | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_assurance-auto_lalux_easyprotect_auto_vehicules-type-2_fr.pdf) |
 | lu | autres | lalux | Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance (VISA BUSINESS) - IPID | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_BUSINESS_FR.pdf) |
 | lu | autres | lalux | Assurance Cartes de crédit SPUERKEESS – Assistance et hors Assistance (VISA INFINITE) - IPID | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_INFINITE_FR.pdf) |
@@ -910,6 +912,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | lu | autres | lalux | Tous Risques - LINEHEART - IPID | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/ipid_assurance_lineheart_tous_risques_fr.pdf) |
 | lu | autres | lalux | Versicherung SPUERKEESS-Kreditkarten – Assistance-Leistungen und Nicht Assistance-Leistungen (VISA INFINITE) - IPID - DE | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_INFINITE_DE.pdf) |
 | lu | autres | lalux | Versicherung SPUERKEESS-Kreditkarten – Assistance-Leistungen und Nicht Assistance-Leistungen (VISA PREMIER) - IPID - DE | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/IPID_SPUERKEESS_Cartes_de_credit_Assistance_et_Hors_assistance_VISA_PREMIER_DE.pdf) |
+| lu | autres | lalux | easyPROTECT Comprehensive - IPID - EN | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_tous-risques-relative-aux-biens_lalux_en.pdf) |
 | lu | construction | lalux | APROBAT - Comprehensive construction site insurance (Section 2 – Liability insurance) - IPID - EN | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_aprobat_tous-risques-chantier_section-2_en.pdf) |
 | lu | construction | lalux | APROBAT - Decennial civil liability - IPID - EN | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_aprobat_rc-decennale_en.pdf) |
 | lu | construction | lalux | APROBAT - Responsabilité Civile Décennale - IPID | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_aprobat_rc-decennale_fr.pdf) |
@@ -917,12 +920,12 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | lu | construction | lalux | Assurance R.C. RC décennale et biennale (APROBAT) | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/Divers/Aprobat/D.G._RC_Decennale_Biennale__10-07-2025_FR.pdf) |
 | lu | construction | lalux | Zehn- und Zweijahreshaftpflichtversicherung - DE | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/Divers/Aprobat/D.G._RC_Decennale_Biennale__10-07-2025_DE.pdf) |
 | lu | habitation | lalux | easyPROTECT Habitation - IPID | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/IPID_Assurance_Habitation_LALUX_easyPROTECT-Habitation_2023_FR.pdf) |
-| lu | multirisque-professionnelle | lalux | Service easyPROTECT - Discover - IPID - EN | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_discover_lalux_easyprotect_en.pdf) |
-| lu | multirisque-professionnelle | lalux | easyPROTECT Comprehensive - IPID - EN | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_tous-risques-relative-aux-biens_lalux_en.pdf) |
+| lu | multirisque-professionnelle | lalux | easyPROTECT - Alle Risiken - IPID - DE | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_tous-risques-relative-aux-biens_lalux_de.pdf) |
 | lu | multirisque-professionnelle | lalux | easyPROTECT PRO – Assurance de choses - IPID | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_lalux_easyprotect-pro-entreprise-assurance-de-choses_fr.pdf) |
 | lu | multirisque-professionnelle | lalux | easyPROTECT PRO – Assurance de responsabilité civile - IPID | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_lalux_easyprotect-pro-entreprise-assurance-de-responsabilite-civile_fr.pdf) |
 | lu | prevoyance | lalux | lalux-Security – Assurance décès à capital constant - IPID | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_assurance-dec.pdf) |
 | lu | protection-juridique | lalux | Assurance Protection Juridique Auto Intégrale - Assurance Protection Juridique Familiale Intégrale - IPID | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_assurance_protection_juridique_fr.pdf) |
+| lu | rc-familiale | lalux | Service easyPROTECT - Discover - IPID - EN | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid_discover_lalux_easyprotect_en.pdf) |
 | lu | rc-professionnelle | lalux | Assurance R.C. Professionnelle pour Architectes et Ingénieurs-Conseils | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/Divers/Aprobat/D.G._RC_Architectes-Ingenieur_01-05-2025_FR__version_definitive_.pdf) |
 | lu | rc-professionnelle | lalux | Berufshaftpflichtversicherung für Architekten und beratende Ingenieure - DE | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/Divers/Aprobat/D.G._RC_Architectes-Ingenieur_01-05-2025_DE.pdf) |
 | lu | voyage | lalux | Assurance BUREAUX DE VOYAGES – Formule 1 et 2 - IPID | 2026-08-02 | [pdf](https://www.lalux.lu/fileadmin/mediatheque/documents/compliance/ipid/ipid-partenaires/ipid_bureaux_de_voyages__remanie__-_formule_1_et_2_fr.pdf) |

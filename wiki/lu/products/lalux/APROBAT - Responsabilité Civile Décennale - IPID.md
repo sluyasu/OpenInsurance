@@ -43,7 +43,7 @@ generated: true
 
 Document d'information sur le produit d'assurance (IPID) de l'assurance APROBAT Responsabilité Civile Décennale, publié sous l'en-tête « LALUX Assurances - Produit : APROBAT RC Décennale ». La division A garantit aux assurés les réparations pécuniaires auxquelles ils pourraient être tenus vis-à-vis du maître ou de l'acquéreur de l'ouvrage en vertu des articles 1792 et 2270 du Code civil ; la division B garantit celles dues en vertu des articles 1382, 1383, 1384 et 1386 du Code civil luxembourgeois pour les dommages corporels, matériels et immatériels consécutifs causés au maître, à l'acquéreur ou aux tiers, lorsqu'ils sont consécutifs à un sinistre couvert par la division A. Les dommages aux gros ouvrages sont couverts pendant 10 ans et les menus ouvrages (radiateurs, portes, fenêtres, …) pendant 2 ans. Les garanties sont subordonnées au contrôle des travaux par un organisme agréé.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : Assurances constructions · Type : IPID / Fiche d'information
+- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Assurances constructions](../../branches/Assurances%20constructions.md) · Type : IPID / Fiche d'information
 
 ## Définitions
 

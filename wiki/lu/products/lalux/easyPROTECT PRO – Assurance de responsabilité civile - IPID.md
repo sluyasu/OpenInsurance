@@ -47,7 +47,7 @@ generated: true
 
 Document d’information sur le produit d’assurance (IPID) de la composante « Assurance de responsabilité civile » du produit professionnel easyPROTECT PRO de LALUX Assurances. Le produit couvre la responsabilité civile du preneur d’assurance, de son personnel et de toute autre personne désignée aux Conditions Particulières, ainsi que les administrateurs, associés et gérants lorsque le preneur est une personne morale, pour huit secteurs d’activité. Il comprend la RC exploitation, la RC après livraison, la protection juridique et insolvabilité des tiers responsables, les objets confiés et existants, des garanties spécifiques par secteur, et propose en option la RC des dirigeants d’entreprise, la RC professionnelle, les dommages immatériels purs et la pollution accidentelle, plus une extension RC Immeuble. La limite d’intervention par sinistre est fixée à 12.000.000 EUR pour l’ensemble des garanties souscrites et le contrat est annuel à reconduction tacite.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : Multirisque professionnelle · Type : IPID / Fiche d'information
+- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Multirisque professionnelle](../../branches/Multirisque%20professionnelle.md) · Type : IPID / Fiche d'information
 
 ## Définitions
 

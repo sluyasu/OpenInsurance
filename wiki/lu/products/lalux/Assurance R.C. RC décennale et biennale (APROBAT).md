@@ -46,7 +46,7 @@ generated: true
 
 Conditions Générales de l’assurance de la responsabilité civile décennale et biennale de LA LUXEMBOURGEOISE Société Anonyme d’Assurances (R.C.S. Luxembourg B31035), édition 01.05.2025. Le contrat comporte deux divisions : la Division B1 garantit, au profit du maître de l’ouvrage ou de l’acquéreur, les réparations pécuniaires dues en vertu des articles 1792 et 2270 du Code Civil luxembourgeois (dix ans pour les gros ouvrages, deux ans pour les menus ouvrages) ; la Division B2 garantit la responsabilité civile vis-à-vis du maître de l’ouvrage, de l’acquéreur ou des tiers sur base des articles 1382 à 1386, pour les dommages consécutifs à un sinistre couvert par la Division B1. Les garanties sont subordonnées au contrôle des travaux par un organisme agréé et ne prennent effet qu’après remise du rapport de fin des travaux, du décompte final et renvoi de l’avenant signé. Le document réunit les Dispositions Générales, les Conditions Administratives et les Définitions ; il énumère trente exclusions générales et fixe une franchise de 10 % de l’indemnité en Division B1.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : Assurances constructions · Type : Conditions générales · Édition : 01.05.2025
+- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Assurances constructions](../../branches/Assurances%20constructions.md) · Type : Conditions générales · Édition : 01.05.2025
 
 ## Définitions
 

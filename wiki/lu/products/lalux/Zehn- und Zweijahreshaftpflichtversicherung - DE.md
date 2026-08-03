@@ -45,7 +45,7 @@ generated: true
 
 Allgemeine Bedingungen der Zehn- und Zweijahreshaftpflichtversicherung von LA LUXEMBOURGEOISE-Société Anonyme d'Assurances, Ausgabe 01.05.2025. Abschnitt B1 deckt die Reparaturarbeiten, zu denen die Versicherten gemäß den Artikeln 1792 und 2270 des luxemburgischen Code Civil gegenüber dem Bauherrn oder dem Erwerber des Bauwerks verpflichtet sein könnten: zehn Jahre für die Rohbauarbeiten und zwei Jahre für die Ausbauarbeiten, gerechnet ab dem in der Zusatzvereinbarung angegebenen Tag des Inkrafttretens. Abschnitt B2 deckt darüber hinaus Körper- und Sachschäden sowie immaterielle Folgeschäden gegenüber dem Bauherrn, dem Erwerber oder Dritten gemäß den Artikeln 1382, 1383, 1384 und 1386 des Code Civil, sofern diese Folgeschäden eines in Abschnitt B1 abgedeckten Schadens sind. Der Versicherungsschutz setzt die technische Kontrolle des Bauwerks durch eine vom Versicherer zugelassene Stelle voraus; das Dokument umfasst außerdem Administrative Bedingungen und ein Definitionenverzeichnis.
 
-- Assureur : [lalux](../../insurers/lalux.md) · Branche : Assurances constructions · Type : Conditions générales · Édition : 01.05.2025
+- Assureur : [lalux](../../insurers/lalux.md) · Branche : [Assurances constructions](../../branches/Assurances%20constructions.md) · Type : Conditions générales · Édition : 01.05.2025
 
 ## Définitions
 
