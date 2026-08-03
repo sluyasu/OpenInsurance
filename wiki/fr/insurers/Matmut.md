@@ -5,7 +5,7 @@ country: fr
 insurer_slug: matmut
 name: Matmut
 website: https://www.matmut.fr
-products_count: 182
+products_count: 183
 branches_covered:
 - animaux
 - assurance-vie
@@ -43,7 +43,7 @@ generated: true
 
 ## Résumé
 
-**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 182 document(s) across 21 branch(es).
+**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 183 document(s) across 21 branch(es).
 
 ## Produits par branche
 
@@ -210,6 +210,7 @@ generated: true
 - [Assistance Juridique Vie Privée et Protection Juridique Santé](../products/matmut/Assistance%20Juridique%20Vie%20Priv%C3%A9e%20et%20Protection%20Juridique%20Sant%C3%A9.md) - Conditions générales (10/25) · réf. MOM.NOT.PJ - 10/25
 
 ### [RC professionnelle](../branches/RC%20professionnelle.md)
+- [Contrat « Multigaranties professionnelles des agents publics » - IPID](../products/matmut/Contrat%20%C2%AB%20Multigaranties%20professionnelles%20des%20agents%20publics%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information (06/24) · réf. IPID.MPAP
 - [Multigaranties Professionnelles des Agents Publics](../products/matmut/Multigaranties%20Professionnelles%20des%20Agents%20Publics.md) - Conditions générales (06/24) · réf. CG.MPAP.AMF SAM – 06/24
 
 ### [Retraite supplémentaire](../branches/Retraite%20suppl%C3%A9mentaire.md)

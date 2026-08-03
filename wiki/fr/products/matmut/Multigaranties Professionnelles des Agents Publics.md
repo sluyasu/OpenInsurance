@@ -486,6 +486,10 @@ Conformément à l'article L.114-1 du Code des assurances, toutes actions dériv
 - Pages sans contenu contractuel extractible : les pages 27, 35, 37 et 40 ne portent qu'un titre de section (« Annexes », « MODALITÉS D'EXAMEN DES RÉCLAMATIONS », « FICHE D'INFORMATION… », « PROTECTION DES DONNÉES PERSONNELLES ») ; les pages 44 et 45 sont quasi vides, la page 45 ne portant que la mention ACPR et le code CG.MPAP.AMF SAM – 06/24.
 - Le texte du prompt n'a PAS été tronqué : la ré-extraction PyMuPDF page à page (page.get_text("text")) du PDF local donne 121 907 caractères sur 46 pages, strictement identiques au texte du prompt une fois les marqueurs [page N] retirés (exact_equal). Aucune récupération de fin de document n'a été nécessaire.
 
+## Documents liés
+
+- [Contrat « Multigaranties professionnelles des agents publics » - IPID](Contrat%20%C2%AB%20Multigaranties%20professionnelles%20des%20agents%20publics%20%C2%BB%20-%20IPID.md) - IPID / Fiche d'information, éd. 06/24
+
 ## Source & fidélité
 
 - Source : [https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-mpap.pdf](https://www.matmut.fr/services-en-ligne/doc/Matmut-And-Co/cg-mpap.pdf) - téléchargé le 2026-07-30 - 46 pages

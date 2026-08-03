@@ -5,7 +5,7 @@ country: fr
 insurer_slug: smacl
 name: SMACL Assurances
 website: https://www.smacl.fr
-products_count: 89
+products_count: 90
 branches_covered:
 - auto
 - autres
@@ -36,7 +36,7 @@ generated: true
 
 ## Résumé
 
-**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 89 document(s) across 14 branch(es).
+**SMACL Assurances** - [https://www.smacl.fr](https://www.smacl.fr). 90 document(s) across 14 branch(es).
 
 ## Produits par branche
 
@@ -106,6 +106,7 @@ generated: true
 - [Assurance Spéciale Accueil Enfants - IPID](../products/smacl/Assurance%20Sp%C3%A9ciale%20Accueil%20Enfants%20-%20IPID.md) - IPID / Fiche d'information (01/2024) · réf. CONVERGENCE_DIPA_ACCUEIL_ENFANTS_ACEPP
 - [Assurance bris de machine (Associations)](../products/smacl/Assurance%20bris%20de%20machine%20%28Associations%29.md) - Conditions générales (11/2022) · réf. ASA CS BDM - MOD 02_SA(01-1992)
 - [Assurance des associations - multirisque association - IPID](../products/smacl/Assurance%20des%20associations%20-%20multirisque%20association%20-%20IPID.md) - IPID / Fiche d'information (01/2024) · réf. ADA_DIPA_MRA_SA_03(02_2022)
+- [CONVERGENCE - Tous risques informatique (Associatons)](../products/smacl/CONVERGENCE%20-%20Tous%20risques%20informatique%20%28Associatons%29.md) - Conditions générales (04/2025) · réf. CONVERGENCE_CS_TRI_SA_04(05_2016)
 - [CONVERGENCE Dommages aux biens](../products/smacl/CONVERGENCE%20Dommages%20aux%20biens.md) - Conditions générales (01/2024) · réf. CONVERGENCE_CS_DAB_SA_08(02_2023)
 - [CONVERGENCE Tous risques instruments de musique (Associatons)](../products/smacl/CONVERGENCE%20Tous%20risques%20instruments%20de%20musique%20%28Associatons%29.md) - Conditions générales (01/2024) · réf. CONVERGENCE_CS_INSTRUMENTS_SA_01(06_2015)
 - [CONVERGENCE Tous risques objets (Associatons)](../products/smacl/CONVERGENCE%20Tous%20risques%20objets%20%28Associatons%29.md) - Conditions générales (01/2024) · réf. CONVERGENCE_CS_TRO_SA_04_(05_2016)

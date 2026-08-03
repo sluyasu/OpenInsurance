@@ -5,7 +5,7 @@ country: fr
 insurer_slug: maaf
 name: MAAF
 website: https://www.maaf.fr/
-products_count: 74
+products_count: 75
 branches_covered:
 - assurance-vie
 - auto
@@ -39,7 +39,7 @@ generated: true
 
 ## Résumé
 
-**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 74 document(s) across 17 branch(es).
+**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 75 document(s) across 17 branch(es).
 
 ## Produits par branche
 
@@ -127,6 +127,7 @@ generated: true
 - [Garanties Homme Clé MAAF Entreprise](../products/maaf/Garanties%20Homme%20Cl%C3%A9%20MAAF%20Entreprise.md) - Conditions générales (06/2026) · réf. HC.017
 
 ### [Protection juridique](../branches/Protection%20juridique.md)
+- [Contrat Défense Juridique de l'Automobiliste](../products/maaf/Contrat%20D%C3%A9fense%20Juridique%20de%20l%27Automobiliste.md) - Conditions générales (01/17) · réf. 1968
 - [Défense Juridique Familiale (Vie privée)](../products/maaf/D%C3%A9fense%20Juridique%20Familiale%20%28Vie%20priv%C3%A9e%29.md) - Conditions générales (01/18) · réf. 2326
 - [Garanties Protection Juridique - Fiche](../products/maaf/Garanties%20Protection%20Juridique%20-%20Fiche.md) - Fiche produit (06/2022)
 

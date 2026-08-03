@@ -30,9 +30,9 @@ extraction_model: claude-code-subagent:scale
 prompt_version: '1.1'
 product_family: convergence
 variant: Associatons
-edition_status: current
+edition_status: superseded
 edition_age_years: 2
-superseded: null
+superseded: true
 extends: conditions générales Convergence et conventions spéciales Dommages aux biens
   Convergence
 freshness: '2026-08-01'
@@ -113,9 +113,10 @@ La garantie de SMACL Assurances porte sur les frais de remplacement ou de répar
 
 ## Documents liés
 
-- Édition courante de ce produit.
+- ⚠️ Édition remplacée par une version plus récente : [CONVERGENCE - Tous risques informatique (Associatons)](CONVERGENCE%20-%20Tous%20risques%20informatique%20%28Associatons%29.md)
 - Extension / option du produit : **conditions générales Convergence et conventions spéciales Dommages aux biens Convergence**
 - [CONVERGENCE Dommages aux biens](CONVERGENCE%20Dommages%20aux%20biens.md) - Conditions générales, éd. 01/2024
+- [CONVERGENCE - Tous risques informatique (Associatons)](CONVERGENCE%20-%20Tous%20risques%20informatique%20%28Associatons%29.md) - Conditions générales, éd. 04/2025
 - [CONVERGENCE Tous risques instruments de musique (Associatons)](CONVERGENCE%20Tous%20risques%20instruments%20de%20musique%20%28Associatons%29.md) - Conditions générales, éd. 01/2024
 
 ## Source & fidélité
