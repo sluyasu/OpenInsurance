@@ -1,0 +1,761 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "matmut",
+  "insurer_name": "Matmut",
+  "product_name": "Santé vous bien avec la Mutuelle Ociane Matmut — Niveaux responsables",
+  "branch": "sante",
+  "branch_code": null,
+  "document_type": "ipid",
+  "language": "fr",
+  "target_audience": "entreprises",
+  "target_audience_note": "Contrat collectif : « Ce document d'information présente un résumé des principales garanties et exclusions du contrat collectif. Il ne prend pas en compte les besoins et demandes spécifiques de l'entreprise (ou autre personne morale) souscriptrice. » La garantie est « destinée à rembourser tout ou partie des frais de santé restant à la charge de vos salariés ». Le document mentionne néanmoins une faculté de résiliation propre au cas où le contrat « concerne une personne physique en dehors de toute activité professionnelle ».",
+  "reference": "IPID.MOM.SVB– 0925",
+  "edition_date": "0925",
+  "product_family": "Santé vous bien",
+  "variant": "Niveaux responsables",
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.matmut.fr/mutuelle/pdf/IPID-Sante-vous-bien.pdf",
+  "source_pdf": "sante-vous-bien-avec-la-mutuelle-ociane-matmut-315dbb65.pdf",
+  "source_sha256": "3a1b8e506d24316904f343a704694c1ea2b459c578a34901ab88de77d035e345",
+  "source_pages": 2,
+  "fetched_at": "2026-07-30",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Document d'information sur le produit d'assurance (IPID) de la complémentaire santé collective « Santé vous bien avec la Mutuelle Ociane Matmut », niveaux responsables, portée par la Mutuelle Ociane (Livre II du Code de la mutualité, n° 434 243 085). Le produit rembourse tout ou partie des frais de santé restant à la charge des salariés de l'entreprise souscriptrice en cas d'accident, de maladie ou de maternité, en complément de l'Assurance Maladie Obligatoire, et respecte les conditions légales des contrats responsables, le panier de soins minimum de l'ANI et les exigences conventionnelles de la branche. Les garanties systématiquement prévues couvrent l'hospitalisation et la maternité, les soins courants, l'optique, le dentaire, les appareillages, le sport sur ordonnance et des prestations par tranche d'âge, complétées de services et d'une assistance ; quatre ensembles de garanties optionnelles sont proposés (Confort Hospi, Confort Pharma, Confort Médecines Douces, « Bien à l'hôpital », « Bien dans mon rôle d'aidant »). Les niveaux de remboursement ne figurent pas dans ce document et renvoient au tableau des garanties annexé.",
+  "definitions": [
+    {
+      "term": "Contrat responsable",
+      "definition": "« Le produit respecte les conditions légales des contrats responsables, le panier des soins minimum de l'ANI et les exigences conventionnelles de la branche. » Le document liste ensuite les « Principales exclusions du contrat responsable ».",
+      "page": 1
+    },
+    {
+      "term": "100 % Santé",
+      "definition": "« Ces garanties vous permettent de bénéficier du 100 % Santé en optique, dentaire et aides auditives. En dehors des prestations concernées par le 100 % Santé, les montants des prestations sont soumis à des plafonds qui varient en fonction du niveau de garanties choisi. »",
+      "page": 1
+    },
+    {
+      "term": "Coche ✓ (garanties systématiquement prévues)",
+      "definition": "« Les garanties précédées d'une coche ✓ sont systématiquement prévues au contrat. »",
+      "page": 1
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Hospitalisation et maternité",
+      "description": "Hospitalisation et maternité : honoraires, frais de séjour, forfait journalier, transport sanitaire, forfait patient urgences.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": "Le document renvoie au tableau des garanties annexé pour les niveaux de remboursement ; hors 100 % Santé, « les montants des prestations sont soumis à des plafonds qui varient en fonction du niveau de garanties choisi ».",
+      "sub_limits": [
+        "Forfait journalier hospitalier : limité à 90 jours pour établissements médico-sociaux (sauf MAS et EHPAD exclus).",
+        "Chambre particulière : la prise en charge de la chambre particulière est limitée à 30 jours par année civile, comprenant la convalescence, la rééducation, la psychiatrie et les établissements médico-sociaux."
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Soins courants",
+      "description": "Soins courants : consultations généralistes et spécialistes, auxiliaires médicaux, radiologie et analyses médicales, médicaments à Service Médical Rendu (SMR) important (remboursés à 65 % par la Sécurité sociale), forfait solidaire vaccin antigrippe, vaccins non remboursés par la Sécurité sociale, forfait solidaire soutien psychologique, transport sanitaire.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [
+        "Forfait solidaire vaccin antigrippe : sur facture pharmaceutique nominative acquittée jusqu'au 31 décembre 2026.",
+        "Forfait solidaire soutien psychologique : chez un psychologue diplômé et sur présentation d'une facture nominative acquittée jusqu'au 31 décembre 2026.",
+        "Forfait solidaire soutien psychologique : forfait limité en nombre d'actes et montant en euros chez un psychologue diplômé et sur présentation d'une facture nominative acquittée."
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Frais optiques",
+      "description": "Frais optiques : lunettes (monture et verres), lentilles remboursées par la Sécurité sociale, lentilles non remboursées par la Sécurité sociale et chirurgie corrective de l'œil à compter du niveau « Bien pour ma tête » niveau 2.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [
+        "Optique : prise en charge limitée à un équipement par période de 2 ans, réduite à 1 an pour les moins de 16 ans ou en cas d'évolution de la vue."
+      ],
+      "deductible": null,
+      "conditions": [
+        "Lentilles non remboursées par la Sécurité sociale et chirurgie corrective de l'œil : à compter du niveau « Bien pour ma tête » niveau 2.",
+        "Bénéfice du 100 % Santé en optique."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Soins dentaires remboursés par la Sécurité sociale",
+      "description": "Soins dentaires remboursés par la Sécurité sociale : soins dentaires, inlay et onlay, prothèses dentaires (couronnes, bridges, inlay- core), orthodontie.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Bénéfice du 100 % Santé en dentaire."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Soins dentaires non remboursés par la Sécurité sociale",
+      "description": "Soins dentaires non remboursés par la Sécurité sociale : prothèses, implant racine, parodontie, orthodontie.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Appareillages remboursés par la Sécurité sociale",
+      "description": "Appareillages remboursés par la Sécurité sociale : aide auditives, prothèses externes (mammaires, capillaires, oculaires), autres prothèses et appareillages remboursés par la Sécurité sociale.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [
+        "Audiologie : prise en charge limitée à un équipement par période de 4 ans par oreille."
+      ],
+      "deductible": null,
+      "conditions": [
+        "Bénéfice du 100 % Santé en aides auditives."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Sport sur ordonnance",
+      "description": "Sport sur ordonnance : pour les personnes souffrant d'une Affection Longue Durée (ALD).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Réservé aux personnes souffrant d'une Affection Longue Durée (ALD)."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Prestations supplémentaires « Bien dans mon âge » incluses",
+      "description": "Prestations supplémentaires « Bien dans mon âge » incluses, déclinées par tranche d'âge : jusqu'à 16 ans, de 17 à 54 ans, 55 ans et plus.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Jusqu'à 16 ans : consultations d'ergothérapeutes et de psychomotriciens, dépistage des troubles du développement, lunettes anti-lumière bleue.",
+        "De 17 à 54 ans : sevrage tabagique, contraception, test de grossesse et d'ovulation.",
+        "55 ans et plus : ostéodensitométrie non remboursée par la Sécurité sociale, pédicure, participation financière à une activité sportive."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Les services de médecines à distance",
+      "description": "Les services de médecines à distance : téléconsultation 24h/24 7j/7, deuxième avis médical, livraison de médicaments à domicile.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Les services et prestations « Bien dans ma vie »",
+      "description": "Ensemble de services et prestations « Bien dans ma vie » systématiquement prévus au contrat (tiers payant, Itelis, sensibilisation au numérique, bilan de santé digital, méta-coaching, services en ligne, Salvum, Allo Léa).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Le tiers payant auprès des professionnels de santé",
+      "description": "Le tiers payant auprès des professionnels de santé.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Itelis",
+      "description": "Itelis : avantages tarifaires optique, audio et médecines douces.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Sensibiliser et protéger les familles du numérique",
+      "description": "Sensibiliser et protéger les familles du numérique.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Bilan de santé digital",
+      "description": "Bilan de santé digital : évaluation de santé globale.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Méta-coaching",
+      "description": "Méta-coaching : programme de coaching santé en ligne.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Services en ligne dans votre espace personnel",
+      "description": "Services en ligne dans votre espace personnel.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Salvum",
+      "description": "Salvum : formation aux gestes qui sauvent.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Allo Léa",
+      "description": "Allo Léa : ligne d'écoute et d'accompagnement.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Assistance — hospitalisation ou chirurgie ambulatoire",
+      "description": "En cas d'hospitalisation, notamment prévue, ou de chirurgie ambulatoire, aide au retour du domicile (ménage, courses).",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Assistance — pathologie lourde",
+      "description": "En cas de pathologie lourde : aide-ménagère, livraison de médicaments, courses, repas, garde d'enfant et conduite à l'école.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Assistance — aide psychologique",
+      "description": "Aide psychologique : entretiens téléphoniques avec un psychologue clinicien et, si nécessaire, entretiens physiques.",
+      "is_optional": false,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Confort Hospi (garantie optionnelle « Bien pour mon budget »)",
+      "description": "Confort Hospi : chambre particulière, chambre particulière en ambulatoire, lit accompagnant.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [
+        "Chambre particulière : la prise en charge de la chambre particulière est limitée à 30 jours par année civile, comprenant la convalescence, la rééducation, la psychiatrie et les établissements médico-sociaux."
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 1
+    },
+    {
+      "name": "Confort Pharma (garantie optionnelle « Bien pour mon budget »)",
+      "description": "Confort Pharma : médicaments à Service Médical Rendu modéré (remboursés à 30 % par la Sécurité sociale) ou faible (remboursés à 15 % par la Sécurité sociale), homéopathie/phytothérapie prescrite, certains paniers de médicaments non remboursés par la Sécurité sociale avec prescription médicale.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Certains paniers de médicaments non remboursés par la Sécurité sociale : avec prescription médicale."
+      ],
+      "page": 1
+    },
+    {
+      "name": "Confort Médecines Douces (garantie optionnelle « Bien pour mon budget »)",
+      "description": "Confort Médecines Douces : ostéopathie, psychologie, psychothérapie, chiropraxie, diététique, acupuncture, hypnose, sophrologie, étiopathie, réflexologie plantaire, naturopathie, homéopathe, phytothérapeute, microkinésithérapie, shiatsu.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [
+        "Médecines douces : forfait global valable pour les actes non remboursés par la Sécurité sociale."
+      ],
+      "deductible": null,
+      "conditions": [
+        "Médecines douces : chez les praticiens diplômés dans leur spécialité et inscrits aux registres officiels de l'Assurance maladie, sur présentation d'une facture nominative acquittée.",
+        "Acupuncture : seuls sont pris en charge les actes non remboursés par la Sécurité sociale réalisés chez un médecin, une sage-femme ou un chirurgien-dentiste."
+      ],
+      "page": 1
+    },
+    {
+      "name": "« Bien à l'hôpital » (garantie optionnelle)",
+      "description": "La garantie optionnelle « Bien à l'hôpital » : indemnités de 15 € par jour pour limiter le reste à charge éventuel lors des hospitalisations.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": "indemnités de 15 € par jour",
+      "sub_limits": [
+        "les indemnités sont versées à partir du 4e jour d'hospitalisation dans la limite de 90 jours par an, dont 30 jours en psychiatrie."
+      ],
+      "deductible": "Les indemnités sont versées à partir du 4e jour d'hospitalisation.",
+      "conditions": [
+        "Délai de carence de 3 mois en cas de souscription postérieure."
+      ],
+      "page": 1
+    },
+    {
+      "name": "« Bien dans mon rôle d'aidant » (garantie optionnelle)",
+      "description": "La garantie optionnelle « Bien dans mon rôle d'aidant » : conseils et services d'accompagnement pour organiser la vie quotidienne en cas de perte d'autonomie d'un proche.",
+      "is_optional": true,
+      "territorial_scope": null,
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Délai de carence de 3 mois en cas de souscription postérieure."
+      ],
+      "page": 1
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Soins reçus en dehors de la période de validité du contrat",
+      "description": "Les soins reçus en dehors de la période de validité du contrat.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Transports et hébergements liés aux cures thermales",
+      "description": "Les transports et hébergements liés aux cures thermales.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Frais de séjour liés aux cures thermales hors milieu hospitalier",
+      "description": "Les frais de séjour liés aux cures thermales, si le séjour n'est pas effectué en milieu hospitalier.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Chirurgie esthétique non prise en charge par la Sécurité sociale",
+      "description": "La chirurgie esthétique non prise en charge par la Sécurité sociale.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Forfait journalier hospitalier et chambre particulière en MAS ou EHPAD",
+      "description": "Le forfait journalier hospitalier et la chambre particulière facturés par les Maisons d'Accueil Spécialisées (MAS) ou les Établissements d'Hébergement pour les Personnes Âgées Dépendantes (EHPAD).",
+      "applies_to": "Hospitalisation et maternité",
+      "page": 1
+    },
+    {
+      "name": "Participation forfaitaire et franchises sur les boîtes de médicaments (exclusion du contrat responsable)",
+      "description": "La participation forfaitaire et les franchises sur les boîtes médicaments.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Majoration du ticket modérateur et dépassements d'honoraires hors parcours de soins (exclusion du contrat responsable)",
+      "description": "La majoration du ticket modérateur et les dépassements d'honoraires si les dépenses de santé sont réalisées en dehors du parcours de soins.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Dépassements d'honoraires au-delà de la limite réglementaire (médecins hors dispositif de pratique tarifaire maîtrisée) (exclusion du contrat responsable)",
+      "description": "Les dépassements d'honoraires au-delà de la limite fixée réglementairement pour les médecins n'adhérant pas à un dispositif de pratique tarifaire maîtrisée.",
+      "applies_to": "all",
+      "page": 1
+    },
+    {
+      "name": "Restriction — Médecines douces",
+      "description": "Médecines douces : forfait global valable pour les actes non remboursés par la Sécurité sociale, chez les praticiens diplômés dans leur spécialité et inscrits aux registres officiels de l'Assurance maladie, sur présentation d'une facture nominative acquittée.",
+      "applies_to": "Confort Médecines Douces (garantie optionnelle « Bien pour mon budget »)",
+      "page": 1
+    },
+    {
+      "name": "Restriction — Acupuncture",
+      "description": "Acupuncture : seuls sont pris en charge les actes non remboursés par la Sécurité sociale réalisés chez un médecin, une sage-femme ou un chirurgien-dentiste.",
+      "applies_to": "Confort Médecines Douces (garantie optionnelle « Bien pour mon budget »)",
+      "page": 1
+    },
+    {
+      "name": "Restriction — Forfait journalier hospitalier",
+      "description": "Forfait journalier hospitalier : limité à 90 jours pour établissements médico-sociaux (sauf MAS et EHPAD exclus).",
+      "applies_to": "Hospitalisation et maternité",
+      "page": 1
+    },
+    {
+      "name": "Restriction — Chambre particulière",
+      "description": "Chambre particulière : la prise en charge de la chambre particulière est limitée à 30 jours par année civile, comprenant la convalescence, la rééducation, la psychiatrie et les établissements médico-sociaux.",
+      "applies_to": "Confort Hospi (garantie optionnelle « Bien pour mon budget »)",
+      "page": 1
+    },
+    {
+      "name": "Restriction — Forfait solidaire soutien psychologique",
+      "description": "Forfait solidaire soutien psychologique : chez un psychologue diplômé et sur présentation d'une facture nominative acquittée jusqu'au 31 décembre 2026. Le document ajoute plus loin : « Forfait solidaire soutien psychologique : forfait limité en nombre d'actes et montant en euros chez un psychologue diplômé et sur présentation d'une facture nominative acquittée. »",
+      "applies_to": "Soins courants",
+      "page": 1
+    },
+    {
+      "name": "Restriction — Optique",
+      "description": "Optique : prise en charge limitée à un équipement par période de 2 ans, réduite à 1 an pour les moins de 16 ans ou en cas d'évolution de la vue.",
+      "applies_to": "Frais optiques",
+      "page": 1
+    },
+    {
+      "name": "Restriction — Audiologie",
+      "description": "Audiologie : prise en charge limitée à un équipement par période de 4 ans par oreille.",
+      "applies_to": "Appareillages remboursés par la Sécurité sociale",
+      "page": 1
+    },
+    {
+      "name": "Restriction — Forfait solidaire vaccin antigrippe",
+      "description": "Forfait solidaire vaccin antigrippe : sur facture pharmaceutique nominative acquittée jusqu'au 31 décembre 2026.",
+      "applies_to": "Soins courants",
+      "page": 1
+    },
+    {
+      "name": "Restriction — « Bien à l'hôpital »",
+      "description": "« Bien à l'hôpital » : les indemnités sont versées à partir du 4e jour d'hospitalisation dans la limite de 90 jours par an, dont 30 jours en psychiatrie.",
+      "applies_to": "« Bien à l'hôpital » (garantie optionnelle)",
+      "page": 1
+    },
+    {
+      "name": "Restriction — délais de carence « Bien à l'hôpital » et « Bien dans mon rôle d'aidant »",
+      "description": "« Bien à l'hôpital » et « Bien dans mon rôle d'aidant » : délais de carence de 3 mois en cas de souscription postérieure.",
+      "applies_to": "« Bien à l'hôpital » (garantie optionnelle) ; « Bien dans mon rôle d'aidant » (garantie optionnelle)",
+      "page": 1
+    }
+  ],
+  "deductibles": {
+    "standard": null,
+    "variable": "Hors 100 % Santé, « les montants des prestations sont soumis à des plafonds qui varient en fonction du niveau de garanties choisi. Ils ne peuvent être plus élevés que les dépenses engagées. Une somme peut éventuellement rester à la charge de votre salarié. » Les niveaux de remboursement sont renvoyés au tableau des garanties annexé, absent de ce document.",
+    "per_coverage": {
+      "« Bien à l'hôpital » (garantie optionnelle)": "les indemnités sont versées à partir du 4e jour d'hospitalisation dans la limite de 90 jours par an, dont 30 jours en psychiatrie",
+      "Contrat responsable (reste à charge légal)": "La participation forfaitaire et les franchises sur les boîtes médicaments ne sont pas prises en charge."
+    },
+    "page": 1
+  },
+  "waiting_periods": [
+    {
+      "coverage": "« Bien à l'hôpital » et « Bien dans mon rôle d'aidant »",
+      "duration": "3 mois",
+      "description": "« Bien à l'hôpital » et « Bien dans mon rôle d'aidant » : délais de carence de 3 mois en cas de souscription postérieure.",
+      "page": 1
+    }
+  ],
+  "obligations": [
+    {
+      "name": "Valider les informations du bulletin d'adhésion",
+      "description": "Valider avec exactitude les informations indiquées sur le bulletin d'adhésion adressé par Mutuelle Ociane Matmut.",
+      "timing": "À la souscription du contrat",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    },
+    {
+      "name": "Fournir les justificatifs demandés",
+      "description": "Fournir tous documents justificatifs demandés par Mutuelle Ociane Matmut.",
+      "timing": "À la souscription du contrat",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    },
+    {
+      "name": "Régler la cotisation",
+      "description": "Régler la cotisation (ou fraction de cotisation) indiquée au contrat.",
+      "timing": "À la souscription du contrat",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    },
+    {
+      "name": "Payer les cotisations",
+      "description": "Payer les cotisations.",
+      "timing": "En cours de contrat",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    },
+    {
+      "name": "Fournir les justificatifs de prestations",
+      "description": "Fournir tous documents justificatifs nécessaires au paiement des prestations prévues au contrat.",
+      "timing": "En cours de contrat",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    },
+    {
+      "name": "Adresser les demandes de remboursement dans les 2 ans",
+      "description": "Faire parvenir les demandes de remboursements à l'assureur dans un délai maximum de 2 ans suivant la date de remboursement des soins de votre Sécurité sociale.",
+      "timing": "En cours de contrat",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    },
+    {
+      "name": "Informer l'assureur des changements dans les 3 mois",
+      "description": "Informer l'assureur des évènements suivants dans les 3 mois de leur survenance : Changements de situation : changement d'adresse, modification de votre composition familiale (naissance, concubinage, PACS, mariage, divorce, décès), changement de régime obligatoire d'assurance maladie et maternité ; Changement de profession : perte d'emploi, départ à la retraite.",
+      "timing": "En cours de contrat",
+      "sanction": "Sous peine de suspension des garanties",
+      "page": 2
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Adresser la demande de remboursement",
+      "description": "Faire parvenir les demandes de remboursements à l'assureur dans un délai maximum de 2 ans suivant la date de remboursement des soins de votre Sécurité sociale.",
+      "deadline": "2 ans suivant la date de remboursement des soins de votre Sécurité sociale",
+      "page": 2
+    },
+    {
+      "step": "Fournir les justificatifs",
+      "description": "Fournir tous documents justificatifs nécessaires au paiement des prestations prévues au contrat.",
+      "deadline": null,
+      "page": 2
+    },
+    {
+      "step": "Tiers payant",
+      "description": "Le tiers payant auprès des professionnels de santé est un service systématiquement prévu au contrat.",
+      "deadline": null,
+      "page": 1
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "Le contrat est conclu pour une durée d'un an. La date d'effet du contrat est fixée d'un commun accord et est indiquée au bulletin d'adhésion.",
+    "tacit_renewal": true,
+    "notice_period": "« Au moins deux mois avant cette date » (date d'échéance principale, soit le 31 décembre). La mise en page du document rattache cette mention au second tiret ; voir gaps.",
+    "methods": [
+      "Soit par lettre, tout autre support durable",
+      "Soit par déclaration faite au siège social ou chez le représentant de la Mutuelle Ociane Matmut",
+      "Soit par acte extrajudiciaire",
+      "Soit par téléphone",
+      "Soit sur le site de la Mutuelle Ociane Matmut"
+    ],
+    "special_rights": [
+      "À la date d'échéance principale du contrat, soit le 31 décembre.",
+      "À tout moment, à l'expiration d'un délai d'un an à compter de sa première souscription, toute modification de garantie entraînant le décompte d'un nouveau délai d'un an, la résiliation prend effet un mois après que la Mutuelle Ociane Matmut en a reçu notification par le souscripteur — s'il concerne une personne physique en dehors de toute activité professionnelle.",
+      "En cas de modification de votre situation personnelle ou professionnelle ayant une influence directe sur les risques garantis.",
+      "En cas de révision des cotisations, en nous adressant une notification par lettre, tout autre support durable ou moyen prévu à l'article L.221-10-3 du Code de la mutualité, dans les 20 jours qui suivent la date de notification de la modification.",
+      "La Mutuelle Ociane Matmut confirme par écrit la réception de la notification de résiliation."
+    ],
+    "page": 2
+  },
+  "prescription_period": null,
+  "premium": {
+    "notes": [
+      "Les cotisations sont annuelles et payables d'avance.",
+      "Elles peuvent être réglées en plusieurs fractions sans frais supplémentaires selon les modalités prévues au contrat.",
+      "Un paiement fractionné peut toutefois être accordé au choix sans frais supplémentaires.",
+      "Les paiements peuvent être effectués notamment par prélèvement automatique.",
+      "Une révision des cotisations ouvre un droit de résiliation dans les 20 jours suivant la notification de la modification (article L.221-10-3 du Code de la mutualité)."
+    ],
+    "indexation": null,
+    "page": 2
+  },
+  "special_conditions": [
+    {
+      "name": "Portée du document",
+      "description": "« Ce document d'information présente un résumé des principales garanties et exclusions du contrat collectif. Il ne prend pas en compte les besoins et demandes spécifiques de l'entreprise (ou autre personne morale) souscriptrice. Vous trouverez l'information complète sur le produit dans la documentation précontractuelle et contractuelle. En particulier, les niveaux de remboursement seront détaillés dans le tableau des garanties annexé. »",
+      "page": 1
+    },
+    {
+      "name": "Où suis-je couvert(e) ?",
+      "description": "« En France et à l'étranger. Dans le cas où les soins ont été dispensés à l'étranger, le remboursement se fait sur la base de remboursement du régime d'Assurance maladie obligatoire français, quelle que soit la dépense engagée. »",
+      "page": 2
+    },
+    {
+      "name": "Conformité contrat responsable / ANI / branche",
+      "description": "« Le produit respecte les conditions légales des contrats responsables, le panier des soins minimum de l'ANI et les exigences conventionnelles de la branche. »",
+      "page": 1
+    },
+    {
+      "name": "Plafonds et reste à charge",
+      "description": "« En dehors des prestations concernées par le 100 % Santé, les montants des prestations sont soumis à des plafonds qui varient en fonction du niveau de garanties choisi. Ils ne peuvent être plus élevés que les dépenses engagées. Une somme peut éventuellement rester à la charge de votre salarié. »",
+      "page": 1
+    },
+    {
+      "name": "Incohérence interne — fractionnement des cotisations",
+      "description": "Le document énonce deux fois, de façon redondante et avec un « toutefois » sans opposition, la même faculté : « Elles peuvent être réglées en plusieurs fractions sans frais supplémentaires selon les modalités prévues au contrat. » puis « Un paiement fractionné peut toutefois être accordé au choix sans frais supplémentaires. » Les deux formulations sont conservées.",
+      "page": 2
+    },
+    {
+      "name": "Incohérence interne — répétition du forfait solidaire soutien psychologique",
+      "description": "La restriction « Forfait solidaire soutien psychologique » apparaît deux fois avec des conditions différentes : une première fois « chez un psychologue diplômé et sur présentation d'une facture nominative acquittée jusqu'au 31 décembre 2026 », une seconde fois, accolée à la restriction sur les délais de carence, « forfait limité en nombre d'actes et montant en euros chez un psychologue diplômé et sur présentation d'une facture nominative acquittée » (sans date limite). Les deux lectures sont conservées.",
+      "page": 1
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Compagnie : Mutuelle Ociane, soumise aux dispositions du Livre II du Code de la mutualité immatriculée sous le \nnuméro 434 243 085. Siège social : 35, rue Claude-Bonnier 33054 Bordeaux CEDEX.",
+      "page": 1
+    },
+    {
+      "quote": "Produit : Santé vous bien avec la Mutuelle Ociane Matmut \n     Niveaux responsables",
+      "page": 1
+    },
+    {
+      "quote": "Ce document d’information présente un résumé des principales garanties et exclusions du contrat collectif. Il ne prend pas en compte les \nbesoins et demandes spécifiques de l’entreprise (ou autre personne morale) souscriptrice. Vous trouverez l’information complète sur le produit \ndans la documentation précontractuelle et contractuelle. En particulier, les niveaux de remboursement seront détaillés dans le tableau des \ngaranties annexé.",
+      "page": 1
+    },
+    {
+      "quote": "Cette complémentaire santé est destinée à rembourser tout ou partie des frais de santé restant à la charge de vos salariés en cas d'accident, de maladie \nou de maternité, en complément de l'Assurance Maladie Obligatoire. Le produit respecte les conditions légales des contrats responsables, le panier des \nsoins minimum de l'ANI et les exigences conventionnelles de la branche.",
+      "page": 1
+    },
+    {
+      "quote": "Ces garanties vous permettent de bénéficier du 100 % Santé en optique, \ndentaire et aides auditives. En dehors des prestations concernées par \nle 100 % Santé, les montants des prestations sont soumis à des \nplafonds qui varient en fonction du niveau de garanties choisi. Ils ne \npeuvent être plus élevés que les dépenses engagées. Une somme peut \néventuellement rester à la charge de votre salarié.",
+      "page": 1
+    },
+    {
+      "quote": "Les garanties précédées d’une coche ✓ sont systématiquement prévues au\ncontrat.",
+      "page": 1
+    },
+    {
+      "quote": "Les garanties optionnelles « Bien pour mon budget » : ",
+      "page": 1
+    },
+    {
+      "quote": "La garantie optionnelle « Bien à l'hôpital » : indemnités de 15 € par \njour pour limiter le reste à charge éventuel lors des hospitalisations.",
+      "page": 1
+    },
+    {
+      "quote": "La garantie optionnelle « Bien dans mon rôle d'aidant » : conseils et \nservices d'accompagnement pour organiser la vie quotidienne en cas de \nperte d'autonomie d'un proche.",
+      "page": 1
+    },
+    {
+      "quote": "Les soins reçus en dehors de la période de validité du contrat.",
+      "page": 1
+    },
+    {
+      "quote": "Les frais de séjour liés aux cures thermales, si le séjour n'est pas\neffectué en milieu hospitalier.",
+      "page": 1
+    },
+    {
+      "quote": "Le forfait journalier hospitalier et la chambre particulière facturés par\nles Maisons d'Accueil Spécialisées (MAS) ou les Établissements \nd'Hébergement pour les Personnes Âgées Dépendantes (EHPAD).",
+      "page": 1
+    },
+    {
+      "quote": "Principales exclusions du contrat responsable ",
+      "page": 1
+    },
+    {
+      "quote": "La majoration du ticket modérateur et les dépassements d’honoraires \nsi les dépenses de santé sont réalisées en dehors du parcours de \nsoins.",
+      "page": 1
+    },
+    {
+      "quote": "Les dépassements d’honoraires au-delà de la limite fixée\nréglementairement pour les médecins n’adhérant pas à un dispositif \nde pratique tarifaire maîtrisée.",
+      "page": 1
+    },
+    {
+      "quote": "Optique : prise en charge limitée à un équipement par période de 2 \nans, réduite à 1 an pour les moins de 16 ans ou en cas d’évolution \nde la vue.",
+      "page": 1
+    },
+    {
+      "quote": "Audiologie : prise en charge limitée à un équipement par période de \n4 ans par oreille.",
+      "page": 1
+    },
+    {
+      "quote": "Chambre particulière : la prise en charge de la chambre particulière \nest limitée à 30 jours par année civile, comprenant la convalescence, \nla rééducation, la psychiatrie et les établissements médico-sociaux.",
+      "page": 1
+    },
+    {
+      "quote": "« Bien à l'hôpital » et « Bien dans mon rôle d'aidant » : délais de \ncarence de 3 mois en cas de souscription postérieure.",
+      "page": 1
+    },
+    {
+      "quote": "En France et à l’étranger.",
+      "page": 2
+    },
+    {
+      "quote": "Dans le cas où les soins ont été dispensés à l’étranger, le remboursement se fait sur la base de remboursement du régime d’Assurance maladie\nobligatoire français, quelle que soit la dépense engagée.",
+      "page": 2
+    },
+    {
+      "quote": "Faire parvenir les demandes de remboursements à l’assureur dans un délai maximum de 2 ans suivant la date de remboursement des soins de\nvotre Sécurité sociale ;",
+      "page": 2
+    },
+    {
+      "quote": "Les cotisations sont annuelles et payables d’avance. Elles peuvent être réglées en plusieurs fractions sans frais supplémentaires selon les modalités \nprévues au contrat. \nUn paiement fractionné peut toutefois être accordé au choix sans frais supplémentaires.  \nLes paiements peuvent être effectués notamment par prélèvement automatique",
+      "page": 2
+    },
+    {
+      "quote": "Le contrat est conclu pour une durée d’un an et se renouvelle automatiquement d’année en année à sa date d’échéance principale sauf résiliation \npar l’une des parties dans les cas et conditions fixés au contrat.",
+      "page": 2
+    },
+    {
+      "quote": "À tout moment, à l'expiration d'un délai d'un an à compter de sa première souscription, toute modification de garantie entraînant le décompte\nd’un nouveau délai d’un an, la résiliation prend effet un mois après que la Mutuelle Ociane Matmut en a reçu notification par le souscripteur,",
+      "page": 2
+    },
+    {
+      "quote": "En cas de révision des cotisations, en nous adressant une notification par lettre, tout autre support durable ou moyen prévu à l'article L.221-\n10-3 du Code de la mutualité, dans les 20 jours qui suivent la date de notification de la modification.",
+      "page": 2
+    },
+    {
+      "quote": "IPID.MOM.SVB– 0925",
+      "page": 2
+    }
+  ],
+  "gaps": [
+    "Carrier : les métadonnées de la tâche annoncent « Matmut (Mutuelle assurance des travailleurs mutualistes) […] Siren 775 701 477 ». Le document imprime, dans son bandeau d'identité : « Compagnie : Mutuelle Ociane, soumise aux dispositions du Livre II du Code de la mutualité immatriculée sous le numéro 434 243 085. Siège social : 35, rue Claude-Bonnier 33054 Bordeaux CEDEX. » Le porteur de risque est donc la Mutuelle Ociane, pas la mutuelle Matmut ; le nom commercial employé en page 2 est « Mutuelle Ociane Matmut ». Le document l'emporte ; insurer_slug reste « matmut » (slug du dépôt).",
+    "Contrôle du « défaut qui inverse le sens » (garanties lues comme exclusions) : NÉGATIF, comptes fermés. Les marques sont toutes dans la couche texte et se distinguent par police, couleur et abscisse : 23 coches Wingdings U+F0FC (21 vertes 0x00B050 en colonne gauche x0=49,7 pt en page 1 ; 2 noires en page 2), 5 croix « × » Arial-BoldMT rouges (0xFF0000, corps 10) en colonne droite x0=325,1 pt sous « QU'EST CE QUI N'EST PAS ASSURÉ ? », et 13 points d'exclamation pleine chasse U+FF01 MS-UIGothic orange (0xF79646, corps 7) en colonne droite x0=325,1–325,3 pt sous « Y-A-T-IL DES EXCLUSIONS À LA COUVERTURE ? ». 13 = 3 « Principales exclusions du contrat responsable » + 10 « Principales restrictions ». Aucun intitulé de garantie ne se trouve du mauvais côté ; les trois garanties facultatives qui figurent en colonne droite (Confort Médecines Douces, « Bien à l'hôpital », « Bien dans mon rôle d'aidant ») sont au-dessus du bandeau « QU'EST CE QUI N'EST PAS ASSURÉ ? » (y 181–241 contre y 287) et ressortent dans le bon ordre en texte plat.",
+    "Comptage des coches : 23 U+F0FC dans la couche texte = 21 en page 1 + 2 en page 2. En page 1 : 8 « Garanties systématiquement prévues » + 10 « services systématiquement prévus » + 3 « assistance systématiquement prévue ». Deux coches apparaissent isolées sur leur propre ligne dans l'ordre de lecture ; le rendu haute résolution confirme qu'elles précèdent « Soins dentaires non remboursés par la Sécurité sociale » et « Appareillages remboursés par la Sécurité sociale ». Le compte ferme exactement, sans coche orpheline ni intitulé non coché dans les blocs « systématiquement prévus ».",
+    "is_optional est fondé sur une phrase explicite du document : « Les garanties précédées d'une coche ✓ sont systématiquement prévues au contrat. » Les garanties précédées d'un tiret sous « Les garanties optionnelles « Bien pour mon budget » » et les deux « garantie optionnelle » nommées sont marquées is_optional: true ; toutes les garanties cochées sont marquées is_optional: false.",
+    "Les 10 « Principales restrictions » sont imprimées sous l'icône d'exclusion et sont donc enregistrées dans `exclusions`, mais ce sont des limitations chiffrées et non des exclusions : elles portent toutes un plafond, une durée ou une condition de preuve. Les valeurs correspondantes ont été reportées en parallèle dans les `sub_limits`, `deductible` et `conditions` des garanties concernées (optique 2 ans / 1 an, audiologie 4 ans par oreille, chambre particulière 30 jours par année civile, forfait journalier 90 jours, « Bien à l'hôpital » 4e jour / 90 jours / 30 jours psychiatrie).",
+    "Vérification texte/PDF : le texte du prompt a été comparé octet à octet avec une ré-extraction PyMuPDF page.get_text(\"text\") du PDF local (data/fr/pdfs/matmut/sante/sante-vous-bien-avec-la-mutuelle-ociane-matmut-315dbb65.pdf) — identique sur les 2 pages, pas de troncature.",
+    "Texte blanc : 344 caractères en réserve (ArialMT et Arial-BoldMT, 0xFFFFFF) — tous situés dans le bandeau d'en-tête de la page 1, posés sur un aplat bleu foncé RGB (0.18, 0.19, 0.45). Aucun blanc sur blanc, aucun texte invisible, aucun glyphe hors page, aucune police chiffrée.",
+    "Défaut de couche texte : l'intitulé « Les Principales restrictions » est coupé par la couche texte en « L » puis « es Principales restrictions » sur deux spans (deux lignes en texte plat). Conservé tel quel ; les citations évitent cette coupure.",
+    "Les niveaux de remboursement (montants, pourcentages, plafonds par garantie) ne figurent PAS dans ce document : il renvoie explicitement au « tableau des garanties annexé », qui n'est pas joint. Le seul montant chiffré du document est l'indemnité de 15 € par jour de la garantie « Bien à l'hôpital ». Le glyphe € est présent dans la couche texte (1 occurrence, celle-là), l'unité a survécu à l'extraction.",
+    "Le document mentionne le niveau « Bien pour ma tête » niveau 2 comme seuil d'accès à certaines prestations optiques, mais ne décrit ni ce niveau ni les autres niveaux de garanties. Aucun tableau de formules n'est présent dans ce PDF.",
+    "edition_date : le document n'imprime aucune mention « édition MM/AAAA ». La valeur « 0925 » est reprise du code de référence en pied de page 2, « IPID.MOM.SVB– 0925 » (l'espace après le tiret est celui du document).",
+    "prescription_period : le document ne mentionne aucun délai de prescription. Le délai de 2 ans qu'il énonce est le délai contractuel d'envoi des demandes de remboursement, enregistré dans obligations et claims_procedure, pas une prescription.",
+    "duration_and_cancellation : la mise en page de la rubrique « COMMENT PUIS-JE RÉSILIER LE CONTRAT ? » est ambiguë — la mention « Au moins deux mois avant cette date » ouvre le second tiret alors qu'elle se rapporte logiquement au préavis du premier (résiliation à l'échéance du 31 décembre). Les deux tirets sont reproduits tels qu'imprimés sans arbitrage.",
+    "Le champ territorial_scope des garanties est laissé nul : la portée territoriale est énoncée une seule fois, globalement, dans la rubrique « OÙ SUIS-JE COUVERT(E) ? » de la page 2 ; elle est enregistrée dans special_conditions et key_quotes plutôt que dupliquée sur chaque garantie.",
+    "Le document ne nomme aucun superviseur (ni ACPR ni autre), ne donne pas de code de branche réglementaire et ne décrit pas de procédure de réclamation ou de médiation ; les champs correspondants restent nuls ou vides."
+  ]
+}

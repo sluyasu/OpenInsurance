@@ -5,7 +5,7 @@ country: fr
 insurer_slug: maaf
 name: MAAF
 website: https://www.maaf.fr/
-products_count: 53
+products_count: 55
 branches_covered:
 - assurance-vie
 - auto
@@ -39,7 +39,7 @@ generated: true
 
 ## Résumé
 
-**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 53 document(s) across 17 branch(es).
+**MAAF** - [https://www.maaf.fr/](https://www.maaf.fr/). 55 document(s) across 17 branch(es).
 
 ## Produits par branche
 
@@ -94,6 +94,7 @@ generated: true
 - [Entreprises de travaux publics - Intercalaire](../products/maaf/Entreprises%20de%20travaux%20publics%20-%20Intercalaire.md) - Conditions générales (01/25) · réf. 11049
 - [MULTIRISQUE PROFESSIONNELLE](../products/maaf/MULTIRISQUE%20PROFESSIONNELLE.md) - Conditions générales (01/26) · réf. Réf. 11031 - 01/26
 - [MULTISERVICE À LA PERSONNE — INTERCALAIRE](../products/maaf/MULTISERVICE%20%C3%80%20LA%20PERSONNE%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales (01/25) · réf. 11059 - 01/25
+- [Multirisque Associations](../products/maaf/Multirisque%20Associations.md) - Conditions générales (01/26) · réf. 11034
 - [Multirisque Non Exploitant - IPID](../products/maaf/Multirisque%20Non%20Exploitant%20-%20IPID.md) - IPID / Fiche d'information (2024-06) · réf. PRO10010
 - [Multirisque des Professionnels du Bâtiment et des Travaux Publics](../products/maaf/Multirisque%20des%20Professionnels%20du%20B%C3%A2timent%20et%20des%20Travaux%20Publics.md) - Conditions générales (01/26) · réf. 11036
 - [PROFESSIONS DE LA RESTAURATION ET DE L'HÔTELLERIE — INTERCALAIRE](../products/maaf/PROFESSIONS%20DE%20LA%20RESTAURATION%20ET%20DE%20L%27H%C3%94TELLERIE%20%E2%80%94%20INTERCALAIRE.md) - Conditions générales (01/25) · réf. 11045 - 01/25
@@ -122,6 +123,7 @@ generated: true
 ### [Complémentaire santé](../branches/Compl%C3%A9mentaire%20sant%C3%A9.md)
 - [Assurance SANTÉ PROFIL SALARIÉS](../products/maaf/Assurance%20SANT%C3%89%20PROFIL%20SALARI%C3%89S.md) - Conditions générales (10.2025) · réf. 11015
 - [BIORYTHM - Fiche](../products/maaf/BIORYTHM%20-%20Fiche.md) - Fiche produit
+- [Contrat Santé BIORYTHM](../products/maaf/Contrat%20Sant%C3%A9%20BIORYTHM.md) - Conditions générales (01/26) · réf. 2337
 - [Contrat Santé Vivazen](../products/maaf/Contrat%20Sant%C3%A9%20Vivazen%20%282%29.md) - Conditions générales (2026-01) · réf. Réf. 2541 - 01/26
 - [Contrat Santé Vivazen](../products/maaf/Contrat%20Sant%C3%A9%20Vivazen.md) - Conditions générales (01/26) · réf. 2542
 - [Règlement Mutualiste MAAF Santé](../products/maaf/R%C3%A8glement%20Mutualiste%20MAAF%20Sant%C3%A9.md) - Conditions générales (2026-01) · réf. Réf. 18638 - 01/2026

@@ -1,0 +1,1900 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "1.1",
+  "country": "fr",
+  "insurer_slug": "macif",
+  "insurer_name": "Macif",
+  "product_name": "Macif Hospitalisation",
+  "branch": "sante",
+  "branch_code": null,
+  "document_type": "conditions_generales",
+  "language": "fr",
+  "target_audience": null,
+  "target_audience_note": "Le document ne nomme pas de catégorie d'audience. Il indique : « Le contrat MACIF HOSPITALISATION est un contrat collectif à adhésion facultative souscrit par la Macif au profit de ses sociétaires, de leur conjoint, descendants ou ascendant » (page 2) et pose comme conditions d'adhésion : « être sociétaire de la Macif, conjoint, ascendant ou descendant d'un sociétaire ; être âgé de plus de 16 ans et avoir la capacité de contracter ; résider en France métropolitaine ou dans un département et région d'outre-mer (DROM) ; être affilié à un Régime obligatoire français d'assurance maladie » (page 3). Le contrat comporte par ailleurs une section « LA PROTECTION DU TRAVAILLEUR INDÉPENDANT » visant « l'adhérent travailleur indépendant » et « le conjoint collaborateur » (pages 19-20).",
+  "reference": "U022 - UNI/PREI/MH/05 - 01/26",
+  "edition_date": "01/26",
+  "product_family": "Macif Hospitalisation",
+  "variant": null,
+  "is_extension": false,
+  "extends": null,
+  "superseded": null,
+  "source_url": "https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/NID/NID_assurance_hospitalisation.pdf",
+  "source_pdf": "macif-hospitalisation-2026-01-f751598a.pdf",
+  "source_sha256": "55a8932649532615dfb63a46c5ac86e95d5ae4ae2d3e6a51be784dba171295cf",
+  "source_pages": 25,
+  "fetched_at": "2026-08-01",
+  "extraction_model": "claude-code-subagent:scale",
+  "summary": "Note d'information détaillée du contrat MACIF HOSPITALISATION, complémentaire santé centrée exclusivement sur l'hospitalisation (y compris ambulatoire). Il s'agit d'un contrat collectif à adhésion facultative souscrit par la Macif au profit de ses sociétaires, de leur conjoint, descendants ou ascendant, assuré par Macif Santé Prévoyance ; les garanties Macif Assistance sont assurées par IMA Assurances. Le tableau de garanties couvre notamment les honoraires chirurgicaux et médicaux, les honoraires paramédicaux, les analyses et la radiologie à 200 %, le forfait journalier hospitalier et le forfait patient urgences en remboursement intégral, les frais de transport et de séjour à 100 %, la chambre particulière à 50 € par nuit et la chambre d'accompagnant à 20 € par nuit. Le document précise qu'il ne s'agit pas d'un contrat solidaire et responsable au sens de l'article L.871-1 du Code de la sécurité sociale, qu'un délai d'attente de 3 mois s'applique, et qu'aucun questionnaire médical n'est demandé.",
+  "definitions": [
+    {
+      "term": "ADHÉRENT",
+      "definition": "Personne dont l'adhésion à la mutuelle a été acceptée et qui est à ce titre tenue au paiement des cotisations.",
+      "page": 23
+    },
+    {
+      "term": "AIDANT",
+      "definition": "Personne qui vient en aide, pour partie ou totalement, à titre non professionnel, à un proche en perte d'autonomie, pour les activités de la vie quotidienne. Peut avoir la qualité d'aidant : l'adhérent ou son conjoint.",
+      "page": 23
+    },
+    {
+      "term": "AIDÉ",
+      "definition": "Proche de l'aidant qui relève ou est susceptible de relever des droits à l'une des aides suivantes : l'Allocation d'Éducation pour l'Enfant Handicapé (AEEH) pour les catégories 2 à 6 ; la Prestation de Compensation du Handicap (PCH) ; l'Allocation pour Adultes Handicapés (AAH) ; l'Allocation Personnalisée d'Autonomie (APA) au titre d'un classement GIR 1 à 4.",
+      "page": 23
+    },
+    {
+      "term": "AMBULATOIRE",
+      "definition": "Hospitalisation de moins de 24 heures dans un établissement de santé (sans nuitée).",
+      "page": 23
+    },
+    {
+      "term": "ASSURÉ",
+      "definition": "Personne physique nommément désignée au contrat et qui bénéficie des garanties.",
+      "page": 23
+    },
+    {
+      "term": "BASE DE REMBOURSEMENT DE LA SÉCURITÉ SOCIALE (BRSS)",
+      "definition": "C'est le tarif servant de référence à l'Assurance Maladie Obligatoire pour déterminer le montant de son remboursement. Le prix facturé au patient peut, dans certaines situations, être supérieur à la base de remboursement (exemple : consultation réalisée par un médecin de secteur 2). On parle de : tarif de convention (TC) lorsque les actes sont effectués par un professionnel de santé conventionné ; tarif d'autorité (TA) lorsque les actes sont effectués par un professionnel de santé non conventionné ; tarif de responsabilité (TR) pour les médicaments, appareillages et autres biens médicaux.",
+      "page": 23
+    },
+    {
+      "term": "CHAMBRE PARTICULIÈRE",
+      "definition": "Cette prestation, proposée par les établissements de santé, permet à un patient hospitalisé d'être hébergé dans une chambre individuelle (pour une personne). Cette prestation est facturable au patient lorsqu'il demande expressément à être hébergé en chambre individuelle. La chambre individuelle n'est pas facturable lorsque la prescription médicale impose l'isolement comme, par exemple, dans un établissement psychiatrique ou de soins de suite. Une chambre particulière peut être facturée à l'occasion d'une hospitalisation ambulatoire. Le coût de la chambre individuelle varie selon les établissements et les services.",
+      "page": 23
+    },
+    {
+      "term": "CONJOINT",
+      "definition": "Personne unie à l'adhérent par les liens du mariage, selon les termes du Code civil. Sont assimilés au conjoint : le concubin et le partenaire lié par un pacte civil de solidarité (PACS), selon les dispositions du Code civil. Le conjoint, ou la personne assimilée, doit en outre vivre en couple avec l'adhérent, sous le même toit, de façon constante c'est-à-dire sans être séparé de corps ou de fait.",
+      "page": 23
+    },
+    {
+      "term": "DÉLAI D'ATTENTE",
+      "definition": "Période suivant la prise d'effet du contrat ou l'adjonction d'un bénéficiaire au cours de laquelle les prestations dont bénéficie l'assuré sont limitées.",
+      "page": 23
+    },
+    {
+      "term": "DÉPASSEMENT D'HONORAIRES",
+      "definition": "C'est la part des honoraires qui se situe au-delà de la base de remboursement de la Sécurité sociale et qui n'est jamais remboursée par cette dernière. Le contrat de complémentaire santé peut prendre en charge tout ou partie de ces dépassements.",
+      "page": 23
+    },
+    {
+      "term": "DOMICILE",
+      "definition": "Lieu de résidence de l'assuré à savoir son logement personnel ou celui de toute personne l'hébergeant à l'exception d'une maison de retraite ou d'un établissement spécialisé.",
+      "page": 23
+    },
+    {
+      "term": "ÉTABLISSEMENTS MÉDICO-SOCIAUX",
+      "definition": "Au sens du code de l'action sociale et des familles, il s'agit des établissements assurant des soins et une éducation spéciale ou professionnelle au profit des personnes âgées, des adultes ou enfants handicapés et des personnes sans domicile.",
+      "page": 23
+    },
+    {
+      "term": "FORFAIT JOURNALIER HOSPITALIER",
+      "definition": "Il s'agit de la somme due pour tout séjour hospitalier d'une durée supérieure à 24 heures dans un établissement de santé (ou pour les séjours inférieurs à 24 heures si le patient est présent dans l'établissement à minuit). Il s'agit d'une participation forfaitaire du patient aux frais d'hébergement et d'entretien entraînés par son hospitalisation. Ce forfait n'est pas remboursé par l'Assurance Maladie Obligatoire.",
+      "page": 23
+    },
+    {
+      "term": "FRAIS DE SÉJOUR",
+      "definition": "Frais facturés par un établissement hospitalier pour couvrir certains coûts et services mis à la disposition du patient lors d'un séjour hospitalier (plateau technique, personnel soignant, médicaments, examens de laboratoire, produits sanguins, prothèses…).",
+      "page": 23
+    },
+    {
+      "term": "FRANCHISE MÉDICALE ANNUELLE",
+      "definition": "C'est la somme déduite des remboursements effectués par l'Assurance Maladie Obligatoire sur les médicaments, les actes paramédicaux et les transports sanitaires.",
+      "page": 23
+    },
+    {
+      "term": "HONORAIRES PARAMÉDICAUX",
+      "definition": "Entrent dans cette catégorie les honoraires des infirmiers(ères), masseurs kinésithérapeutes, orthophonistes, orthoptistes, pédicures-podologues pris en charge par le Régime obligatoire. Les sages femmes sont assimilées à cette catégorie.",
+      "page": 23
+    },
+    {
+      "term": "HOSPITALISATION",
+      "definition": "Désigne généralement un séjour dans un établissement de santé en vue du traitement médical d'une maladie, d'un accident ou d'une maternité. L'hospitalisation ambulatoire recouvre les séjours sans nuitée tant pour de la chirurgie que pour des actes de médecine. L'hospitalisation à domicile (HAD) constitue une alternative à l'hospitalisation classique et permet d'assurer des soins chez le patient.",
+      "page": 24
+    },
+    {
+      "term": "MÉDECIN TRAITANT",
+      "definition": "Médecin spécialiste ou généraliste, librement choisi par l'assuré âgé de 16 ans au moins pour assurer la coordination de ses soins. L'assuré doit avoir déclaré son médecin traitant auprès de son régime d'assurance maladie obligatoire afin de bénéficier du taux maximal de remboursement de la Sécurité sociale.",
+      "page": 24
+    },
+    {
+      "term": "NAC",
+      "definition": "Il s'agit de la catégorie des Nouveaux Animaux de Compagnie, à savoir les lapins, oiseaux (perroquet, perruche, mandarins ou canaris), furets, tortues et rongeurs (souris, rats, octodons, chinchillas, hamsters, cochons d'inde, gerbilles, écureuils de Corée).",
+      "page": 24
+    },
+    {
+      "term": "PARCOURS DE SOINS",
+      "definition": "Désigne le parcours de soins coordonnés défini par la loi, obligeant les assurés sociaux à consulter leur médecin traitant avant tout autre médecin sous peine de majoration du ticket modérateur par le Régime obligatoire et de non remboursement des éventuels dépassements d'honoraires par la mutuelle.",
+      "page": 24
+    },
+    {
+      "term": "PARTICIPATION FORFAITAIRE",
+      "definition": "Cette participation forfaitaire est laissée à la charge du patient pour tous les actes et consultations réalisés par un médecin, ainsi que pour tous les actes de biologie et de radiologie.",
+      "page": 24
+    },
+    {
+      "term": "PRESCRIPTION",
+      "definition": "Délai au-delà duquel toute demande relative au contrat d'assurance n'est plus recevable.",
+      "page": 24
+    },
+    {
+      "term": "PRESTATIONS",
+      "definition": "Il s'agit des montants remboursés à un assuré par la mutuelle en application du contrat souscrit (garanties et éventuels services associés).",
+      "page": 24
+    },
+    {
+      "term": "PROCHE",
+      "definition": "Ascendant direct, conjoint ou enfant, vivant ou non au domicile de l'aidant.",
+      "page": 24
+    },
+    {
+      "term": "RÉGIME OBLIGATOIRE",
+      "definition": "Régime d'assurance maladie français, communément dénommé « Sécurité sociale », qui intervient obligatoirement avant la mutuelle pour rembourser une part des frais de santé. Il est précisé que le régime d'Assurance Maladie Maternité mis en œuvre par la Caisse des Français à l'Étranger (CFE) n'est pas un régime obligatoire.",
+      "page": 24
+    },
+    {
+      "term": "TICKET MODÉRATEUR",
+      "definition": "C'est la différence entre la base de remboursement de la Sécurité sociale (BRSS) et le montant remboursé par le Régime obligatoire (avant application sur celui-ci de la participation forfaitaire ou d'une franchise). La participation forfaitaire, les franchises médicales et les dépassements d'honoraires s'ajoutent au ticket modérateur : il constitue l'ensemble des frais restant à la charge de l'assuré social avant intervention de l'assurance maladie complémentaire.",
+      "page": 24
+    },
+    {
+      "term": "TIERS PAYANT",
+      "definition": "Ce système de paiement évite au patient de faire l'avance de tout ou partie des frais auprès des prestataires de soins. Ces derniers sont payés directement par les assurances maladie obligatoires et/ou complémentaires pour les soins ou produits.",
+      "page": 24
+    }
+  ],
+  "coverages": [
+    {
+      "name": "Honoraires chirurgicaux et médicaux",
+      "description": "Honoraires (chirurgicaux et médicaux) en hospitalisation, y compris ambulatoire.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus) ; également les hospitalisations hors de France sous réserve qu'elles soient prises en charge par le régime d'Assurance maladie obligatoire français et que l'assuré réside en France métropolitaine ou dans un DROM",
+      "limits": "200 %",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Le remboursement de l'ensemble des prestations réalisées par l'hôpital entre la date d'entrée et la date de sortie de l'hospitalisation est soumis à la prise en charge de l'hospitalisation par le Régime obligatoire",
+        "Remboursement exprimé en pourcentage de la base de remboursement de la Sécurité sociale, remboursement de celle-ci inclus",
+        "Délai d'attente de 3 mois suivant la date d'effet du contrat ou l'adjonction d'un bénéficiaire : prise en charge limitée à 100 % de la base de remboursement de la Sécurité sociale pendant les 3 premiers mois"
+      ],
+      "page": 4
+    },
+    {
+      "name": "Honoraires paramédicaux",
+      "description": "Entrent dans cette catégorie les honoraires des infirmiers (ères), masseurs-kinésithérapeutes, orthophonistes, orthoptistes, pédicures-podologues pris en charge par le Régime obligatoire. Les sages femmes sont assimilées à cette catégorie.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus) ; également les hospitalisations hors de France sous réserve qu'elles soient prises en charge par le régime d'Assurance maladie obligatoire français et que l'assuré réside en France métropolitaine ou dans un DROM",
+      "limits": "200 %",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Prise en charge de l'hospitalisation par le Régime obligatoire",
+        "Délai d'attente de 3 mois suivant la date d'effet du contrat ou l'adjonction d'un bénéficiaire : prise en charge limitée à 100 % de la base de remboursement de la Sécurité sociale pendant les 3 premiers mois"
+      ],
+      "page": 4
+    },
+    {
+      "name": "Analyses et examens de laboratoire",
+      "description": "Analyses et examens de laboratoire réalisés dans le cadre de l'hospitalisation.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus) ; également les hospitalisations hors de France sous réserve qu'elles soient prises en charge par le régime d'Assurance maladie obligatoire français et que l'assuré réside en France métropolitaine ou dans un DROM",
+      "limits": "200 %",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Prise en charge de l'hospitalisation par le Régime obligatoire",
+        "Délai d'attente de 3 mois suivant la date d'effet du contrat ou l'adjonction d'un bénéficiaire : prise en charge limitée à 100 % de la base de remboursement de la Sécurité sociale pendant les 3 premiers mois"
+      ],
+      "page": 4
+    },
+    {
+      "name": "Radiologie",
+      "description": "La radiologie (y compris les produits pour examens).",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus) ; également les hospitalisations hors de France sous réserve qu'elles soient prises en charge par le régime d'Assurance maladie obligatoire français et que l'assuré réside en France métropolitaine ou dans un DROM",
+      "limits": "200 %",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Prise en charge de l'hospitalisation par le Régime obligatoire",
+        "Délai d'attente de 3 mois suivant la date d'effet du contrat ou l'adjonction d'un bénéficiaire : prise en charge limitée à 100 % de la base de remboursement de la Sécurité sociale pendant les 3 premiers mois"
+      ],
+      "page": 4
+    },
+    {
+      "name": "Participation forfaitaire sur les actes techniques égaux ou supérieurs à 120 €",
+      "description": "Prise en charge de la participation forfaitaire due sur les actes techniques égaux ou supérieurs à 120 €.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus) ; également les hospitalisations hors de France sous réserve qu'elles soient prises en charge par le régime d'Assurance maladie obligatoire français et que l'assuré réside en France métropolitaine ou dans un DROM",
+      "limits": "Remboursement intégral",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Forfait journalier hospitalier",
+      "description": "Prise en charge du forfait journalier hospitalier. Cette garantie est mise en jeu lorsque l'assuré passe au moins une nuit dans l'établissement hospitalier.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus) ; également les hospitalisations hors de France sous réserve qu'elles soient prises en charge par le régime d'Assurance maladie obligatoire français et que l'assuré réside en France métropolitaine ou dans un DROM",
+      "limits": "Remboursement intégral (limité à 60 jours par an en soins de suite et de réadaptation et en psychiatrie)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "L'assuré doit passer au moins une nuit dans l'établissement hospitalier"
+      ],
+      "page": 4
+    },
+    {
+      "name": "Forfait patient urgences",
+      "description": "Est pris en charge le forfait patient urgences facturé en cas de passage aux urgences non suivi d'une hospitalisation.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus) ; également les hospitalisations hors de France sous réserve qu'elles soient prises en charge par le régime d'Assurance maladie obligatoire français et que l'assuré réside en France métropolitaine ou dans un DROM",
+      "limits": "Remboursement intégral",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Frais de transport",
+      "description": "Frais de transport liés à l'hospitalisation.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus) ; également les hospitalisations hors de France sous réserve qu'elles soient prises en charge par le régime d'Assurance maladie obligatoire français et que l'assuré réside en France métropolitaine ou dans un DROM",
+      "limits": "100 %",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Frais de séjour",
+      "description": "Frais facturés par un établissement hospitalier pour couvrir certains coûts et services mis à la disposition du patient lors d'un séjour hospitalier.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus) ; également les hospitalisations hors de France sous réserve qu'elles soient prises en charge par le régime d'Assurance maladie obligatoire français et que l'assuré réside en France métropolitaine ou dans un DROM",
+      "limits": "100 %",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 4
+    },
+    {
+      "name": "Chambre particulière",
+      "description": "Forfait chambre particulière avec nuitée. Cette garantie est mise en jeu lorsque l'assuré passe au moins une nuit dans l'établissement hospitalier.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus) ; également les hospitalisations hors de France sous réserve qu'elles soient prises en charge par le régime d'Assurance maladie obligatoire français et que l'assuré réside en France métropolitaine ou dans un DROM",
+      "limits": "50 € par nuit",
+      "sub_limits": [
+        "médecine, chirurgie, obstétrique, maternité : 50 € par nuit",
+        "soins de suite et de réadaptation, psychiatrie : 50 € par nuit (2)"
+      ],
+      "deductible": null,
+      "conditions": [
+        "L'assuré doit passer au moins une nuit dans l'établissement hospitalier",
+        "Les prestations prévues au titre de la chambre particulière et la chambre accompagnant en Médecine, Chirurgie, Obstétrique et Maternité sont illimitées",
+        "Pour une hospitalisation en soins de suite, réadaptation et psychiatrie, le forfait prévu est versé dans la limite globale de 60 nuits par année civile et par assuré ; les prestations versées au titre de la chambre particulière ou de la chambre accompagnant pour les séjours en MCO sont comptabilisées dans cette limite globale annuelle et viennent donc en déduction",
+        "Non remboursée pendant le délai d'attente de 3 mois"
+      ],
+      "page": 4
+    },
+    {
+      "name": "Chambre d'accompagnant avec nuitée (lit et frais de repas)",
+      "description": "Forfait chambre accompagnant (frais de lit et de repas). Cette garantie est mise en jeu lorsque l'assuré passe au moins une nuit dans l'établissement hospitalier.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus) ; également les hospitalisations hors de France sous réserve qu'elles soient prises en charge par le régime d'Assurance maladie obligatoire français et que l'assuré réside en France métropolitaine ou dans un DROM",
+      "limits": "20 € par nuit",
+      "sub_limits": [
+        "médecine, chirurgie, obstétrique, maternité : 20 € par nuit",
+        "soins de suite et de réadaptation, psychiatrie : 20 € par nuit (2)"
+      ],
+      "deductible": null,
+      "conditions": [
+        "L'assuré doit passer au moins une nuit dans l'établissement hospitalier",
+        "Limite globale de 60 nuits par année civile et par assuré en soins de suite, réadaptation et psychiatrie, commune avec la chambre particulière",
+        "Non remboursée pendant le délai d'attente de 3 mois"
+      ],
+      "page": 4
+    },
+    {
+      "name": "Chambre particulière ambulatoire",
+      "description": "Forfait chambre particulière en hospitalisation ambulatoire (hospitalisation de moins de 24 heures, sans nuitée).",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus) ; également les hospitalisations hors de France sous réserve qu'elles soient prises en charge par le régime d'Assurance maladie obligatoire français et que l'assuré réside en France métropolitaine ou dans un DROM",
+      "limits": "15 € par jour",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Non remboursée pendant le délai d'attente de 3 mois"
+      ],
+      "page": 4
+    },
+    {
+      "name": "Honoraires chirurgicaux, médicaux, paramédicaux, radiologie, analyses et examens de laboratoire en cas d'hospitalisation à l'étranger",
+      "description": "Honoraires chirurgicaux, médicaux, paramédicaux, radiologie, analyses et examens de laboratoire en cas d'hospitalisation à l'étranger pris en charge par le Régime obligatoire.",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus) ; également les hospitalisations hors de France sous réserve qu'elles soient prises en charge par le régime d'Assurance maladie obligatoire français et que l'assuré réside en France métropolitaine ou dans un DROM",
+      "limits": "100 %",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "L'hospitalisation hors de France doit être prise en charge par le régime d'Assurance maladie obligatoire français",
+        "L'assuré doit résider en France métropolitaine ou dans un département et région d'outre-mer",
+        "La prise en charge s'effectue conformément au tableau des garanties et exclut tout autre remboursement de la part de la mutuelle"
+      ],
+      "page": 4
+    },
+    {
+      "name": "Soins et prestations liés à une hospitalisation prise en charge au titre de l'Hospitalisation à Domicile (HAD)",
+      "description": "Les soins et prestations liés à une hospitalisation prise en charge au titre de l'Hospitalisation à Domicile (HAD).",
+      "is_optional": false,
+      "territorial_scope": "France (départements et régions d'outre-mer inclus) ; également les hospitalisations hors de France sous réserve qu'elles soient prises en charge par le régime d'Assurance maladie obligatoire français et que l'assuré réside en France métropolitaine ou dans un DROM",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Prise en charge de l'hospitalisation par le Régime obligatoire"
+      ],
+      "page": 5
+    },
+    {
+      "name": "Intervention d'un interprète en langue des signes",
+      "description": "En cas d'hospitalisation, intervention pendant 8 heures d'un interprète en langue des signes pour faciliter les échanges avec les professionnels de santé le jour de l'intervention.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "pendant 8 heures",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 12
+    },
+    {
+      "name": "Macif Assistance - Accompagnement pré et post hospitalisation : un parcours personnalisé en ligne",
+      "description": "Parcours accessible depuis l'espace personnel sur macif.fr, proposant un parcours personnalisé en ligne avec des conseils avant l'intervention, puis au retour au domicile.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 12
+    },
+    {
+      "name": "Macif Assistance - Accompagnement pré et post hospitalisation : accompagnement par la plateforme médico-sociale",
+      "description": "Entretiens téléphoniques avec une infirmière diplômée d'état sous la responsabilité d'un médecin : un appel avant l'intervention (anesthésie, formalités, gestion de l'anxiété, règles d'hygiène et d'alimentation, aides nécessaires au retour au domicile), un appel au retour au domicile (surveillance des principaux signes cliniques et symptômes, compréhension des ordonnances de sortie, mise en place du suivi médical, reprise des activités quotidiennes) et, si l'infirmière l'estime opportun, un suivi allant jusqu'à 3 entretiens téléphoniques.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "jusqu'à 3 entretiens téléphoniques de suivi",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Service ouvert dès l'annonce de l'hospitalisation et jusque dans les 30 jours suivant le retour au domicile",
+        "Service accessible du lundi au samedi, hors jours fériés",
+        "Accompagnement délivré au bénéficiaire hospitalisé ; en cas d'hospitalisation d'un enfant de moins de 18 ans, il peut l'être à l'un de ses parents ou représentants légaux"
+      ],
+      "page": 12
+    },
+    {
+      "name": "Macif Assistance - Chirurgie ambulatoire : la présence d'un proche au chevet",
+      "description": "Organisation et prise en charge du déplacement aller-retour d'un proche en France métropolitaine. Organisation et prise en charge de 2 nuits d'hébergement pour un proche.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "2 nuits d'hébergement dans la limite de 50 € par nuit",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "En cas de chirurgie ambulatoire d'un assuré faisant suite à un accident ou une maladie et entraînant une immobilisation à domicile d'au moins une journée",
+        "ou d'intervention chirurgicale comprenant une nuit et entraînant une immobilisation à domicile d'au moins 2 jours"
+      ],
+      "page": 12
+    },
+    {
+      "name": "Macif Assistance - Chirurgie ambulatoire : intervention d'une aide à domicile ou d'une auxiliaire de vie",
+      "description": "Mise à disposition d'une auxiliaire de vie pour la garde de jour, du lundi au vendredi, de 8h à 20h ; OU mise à disposition d'une aide à domicile chargée de tâches quotidiennes (ménage, préparation des repas, vaisselle, repassage, courses de proximité).",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "dans la limite de 10 heures, réparties sur une période maximale de 10 jours à compter de la mise en œuvre de la prestation",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Minimum de 2 heures par intervention (dont 2 heures pour la venue, si nécessaire, d'une coordinatrice afin d'analyser les besoins de l'assuré)"
+      ],
+      "page": 12
+    },
+    {
+      "name": "Macif Assistance - Chirurgie ambulatoire : le transport aux rendez-vous médicaux",
+      "description": "Organisation et prise en charge du transport non médicalisé aller-retour de l'assuré de son domicile vers le cabinet médical ou l'hôpital situé dans un rayon de 50 km.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "dans la limite d'un aller-retour sur une période maximale de 30 jours",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 12
+    },
+    {
+      "name": "Macif Assistance - Chirurgie ambulatoire : le transfert post-hospitalisation du bénéficiaire chez un proche",
+      "description": "Dans les 5 jours suivant la sortie de l'hôpital, organisation et prise en charge du déplacement non médicalisé aller-retour chez un proche en France métropolitaine.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "dans la limite de 200 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 12
+    },
+    {
+      "name": "Macif Assistance - Chirurgie ambulatoire : les autres prestations",
+      "description": "Dès le premier jour ou au retour au domicile : livraison de médicaments ; livraison des courses (transport aller-retour au centre commercial le plus proche ou prise en charge des frais de livraison d'une commande) ; portage de repas (pack de 5 ou 7 jours de repas à définir à la commande) ; portage d'espèces (transport aller-retour jusqu'à la banque ou portage d'espèces au domicile par un prestataire agréé contre reconnaissance de dette) ; coiffure à domicile.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": null,
+      "sub_limits": [
+        "livraison de médicaments : dans la limite d'une livraison sur une période maximale de 10 jours ; le coût des médicaments reste à la charge de l'assuré",
+        "livraison des courses : dans la limite d'une livraison par semaine sur une période maximale de 10 jours ; le coût des courses reste à la charge de l'assuré",
+        "portage de repas : dans la limite d'une livraison sur une période maximale de 10 jours ; le prix du repas reste à la charge de l'assuré",
+        "portage d'espèces : maximum 150 €, dans la limite d'un aller-retour ou d'un portage sur une période de 10 jours",
+        "coiffure à domicile : dans la limite d'un déplacement sur une période de 10 jours ; le prix de la coupe reste à la charge de l'adhérent"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 13
+    },
+    {
+      "name": "Macif Assistance - Chirurgie ambulatoire : la téléassistance",
+      "description": "Prise en charge de l'installation d'un dispositif de téléassistance et des 3 premiers mois d'abonnement.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "installation et 3 premiers mois d'abonnement",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 13
+    },
+    {
+      "name": "Macif Assistance - Chirurgie ambulatoire (pour ses proches) : la prise en charge des enfants vivant au domicile",
+      "description": "Organisation et prise en charge d'une des prestations suivantes : déplacement aller-retour d'un proche en France métropolitaine ; OU déplacement aller-retour des enfants et de l'adulte qui les accompagne au domicile d'un proche en France métropolitaine. En cas d'absence d'accompagnateur, l'accompagnement est assuré par un prestataire conventionné. Si aucune de ces solutions ne convient, organisation et prise en charge de la garde des enfants chez un intervenant spécialisé ou au domicile.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "garde des enfants dans la limite de 10 heures réparties sur une période maximale de 10 jours",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Concerne les enfants vivant au domicile et âgés de moins de 16 ans ou les enfants handicapés vivant au domicile et sans limite d'âge"
+      ],
+      "page": 13
+    },
+    {
+      "name": "Macif Assistance - Chirurgie ambulatoire (pour ses proches) : la prise en charge des ascendants vivant au domicile",
+      "description": "Organisation et prise en charge du déplacement aller-retour d'un proche OU du transfert chez un proche en France métropolitaine. Si cette solution ne convient pas, organisation et prise en charge de la garde à domicile.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "garde à domicile dans la limite de 10 heures réparties sur une période maximale de 10 jours",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 13
+    },
+    {
+      "name": "Macif Assistance - Chirurgie ambulatoire (pour ses proches) : la conduite des enfants à l'école et aux activités extrascolaires",
+      "description": "Lorsque aucun proche ne peut se rendre disponible : conduite aller-retour à l'école par un prestataire une fois par jour ; conduite aux activités extrascolaires par un prestataire une fois par semaine pour chaque enfant.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": null,
+      "sub_limits": [
+        "conduite à l'école : dans la limite de 5 jours répartis sur une période maximale d'un mois",
+        "conduite aux activités extrascolaires : une fois par semaine pour chaque enfant sur une période maximale d'un mois"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 13
+    },
+    {
+      "name": "Macif Assistance - Chirurgie ambulatoire (pour ses proches) : la garde des animaux domestiques (chats, chiens et NAC)",
+      "description": "Visite de l'animal au domicile de l'adhérent (visite ou garde de l'animal par un garde animalier) OU garde de l'animal au domicile d'un garde animalier ; promenade du chien de l'adhérent par un garde animalier.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "Forfait de 15 € par jour dans la limite de 450 euros TTC par événement",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Le remboursement s'effectue sur production de la facture"
+      ],
+      "page": 13
+    },
+    {
+      "name": "Macif Assistance - Hospitalisation ou immobilisation à domicile : la présence d'un proche au chevet",
+      "description": "Organisation et prise en charge du déplacement aller-retour d'un proche en France métropolitaine. Organisation et prise en charge de 2 nuits d'hébergement.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "2 nuits d'hébergement dans la limite de 50 € par nuit",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Indisponibilité de l'adhérent ou son conjoint en cas d'hospitalisation programmée ou non de plus de 2 jours ou d'immobilisation à domicile supérieure à 5 jours",
+        "En cas d'hospitalisation programmée, le nombre d'intervention est limité à deux par bénéficiaire et par année civile"
+      ],
+      "page": 14
+    },
+    {
+      "name": "Macif Assistance - Hospitalisation ou immobilisation à domicile : la fermeture du domicile quitté en urgence",
+      "description": "En cas de départ précipité pour un établissement hospitalier : organisation de la fermeture des accès du domicile et des éléments situés à l'intérieur du domicile (lumières, appareils électriques) ainsi que du traitement des denrées périssables (poubelle, réfrigérateur) ; prise en charge des frais de taxi nécessaires à la récupération et à la restitution des clés.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": null,
+      "sub_limits": [
+        "fermeture : dans la limite de 2 heures d'intervention",
+        "frais de taxi : dans la limite de 100 € par trajet"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 14
+    },
+    {
+      "name": "Macif Assistance - Hospitalisation ou immobilisation à domicile : intervention d'une aide à domicile ou d'une auxiliaire de vie",
+      "description": "Mise à disposition d'une auxiliaire de vie pour la garde de jour, du lundi au vendredi, de 8h à 20h ; OU mise à disposition d'une aide à domicile chargée de tâches quotidiennes (ménage, préparation des repas, vaisselle, repassage, courses de proximité).",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "dans la limite de 20 heures, réparties sur une période maximale de 20 jours",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Minimum de 2 heures par intervention (dont 2 heures pour la venue, si nécessaire, d'une coordinatrice afin d'analyser les besoins de l'assuré)"
+      ],
+      "page": 14
+    },
+    {
+      "name": "Macif Assistance - Hospitalisation ou immobilisation à domicile : le transport aux rendez-vous médicaux et paramédicaux",
+      "description": "Organisation et prise en charge du transport non médicalisé aller-retour de l'assuré de son domicile vers le cabinet médical ou l'hôpital situé dans un rayon de 50 km.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "dans la limite d'un aller-retour sur une période maximale d'un mois",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 14
+    },
+    {
+      "name": "Macif Assistance - Hospitalisation ou immobilisation à domicile : la préparation du retour au domicile",
+      "description": "En cas d'hospitalisation de plus de 14 jours, mise à disposition, dans les 48 heures précédant le retour au domicile, d'une aide à domicile chargée de préparer le retour au domicile de l'adhérent ou de son conjoint (ménage, chauffage, courses). Prise en charge des frais de taxi nécessaires à la récupération et à la restitution des clés.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": null,
+      "sub_limits": [
+        "aide à domicile : dans la limite de 4 heures d'intervention",
+        "frais de taxi : dans la limite de 100 € par trajet"
+      ],
+      "deductible": null,
+      "conditions": [
+        "En cas d'hospitalisation de plus de 14 jours"
+      ],
+      "page": 14
+    },
+    {
+      "name": "Macif Assistance - Hospitalisation ou immobilisation à domicile : le transfert post-hospitalisation du bénéficiaire chez un proche",
+      "description": "Dans les 5 jours suivant la sortie de l'hôpital, organisation et prise en charge du déplacement non médicalisé aller-retour chez un proche en France métropolitaine.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "dans la limite de 200 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 14
+    },
+    {
+      "name": "Macif Assistance - Hospitalisation ou immobilisation à domicile : les autres prestations",
+      "description": "Dès le premier jour ou au retour au domicile, l'adhérent ou son conjoint peut bénéficier de : livraison de médicaments ; livraison des courses ; portage de repas ; portage d'espèces ; coiffure à domicile.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": null,
+      "sub_limits": [
+        "livraison de médicaments : dans la limite d'une livraison sur une période maximale d'un mois ; le coût des médicaments reste à la charge de l'adhérent ou de son conjoint",
+        "livraison des courses : dans la limite d'une livraison par semaine sur une période maximale d'un mois ; le coût des courses reste à la charge de l'adhérent ou de son conjoint",
+        "portage de repas : pack de 5 ou 7 jours de repas, dans la limite d'une livraison sur une période maximale d'un mois ; le prix du repas reste à la charge de l'adhérent ou de son conjoint",
+        "portage d'espèces : maximum 150 €, dans la limite d'un aller-retour ou d'un portage sur une période maximale d'un mois",
+        "coiffure à domicile : dans la limite d'un déplacement sur une période maximale d'un mois ; le prix de la coupe reste à la charge de l'adhérent ou de son conjoint"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 14
+    },
+    {
+      "name": "Macif Assistance - Hospitalisation ou immobilisation à domicile (pour vos proches) : le soutien scolaire ou aide aux devoirs (pour les enfants du primaire au secondaire)",
+      "description": "Pendant toute la durée de l'hospitalisation, les enfants de l'adhérent ou de son conjoint peuvent bénéficier d'une aide aux devoirs s'ils restent au domicile, ou d'un soutien scolaire chez un proche éloigné géographiquement de leur école (+ de 50 km).",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": null,
+      "sub_limits": [
+        "s'ils restent au domicile : dans la limite de 2 heures par semaine pour chaque enfant (hors vacances scolaires et jours fériés), sur une période maximale d'un mois",
+        "s'ils sont transférés chez un proche éloigné de plus de 50 km de leur école : dans la limite de 3 heures par jour ouvré (hors vacances scolaires et jours fériés) et par foyer, sur une période maximale de 4 semaines"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 14
+    },
+    {
+      "name": "Macif Assistance - Hospitalisation ou immobilisation à domicile (pour vos proches) : la garde des animaux domestiques (chats, chiens et NAC)",
+      "description": "En cas d'hospitalisation de l'adhérent : visite de l'animal au domicile (visite ou garde par un garde animalier) OU garde de l'animal au domicile d'un garde animalier. En cas d'immobilisation à domicile de l'adhérent : promenade du chien de l'adhérent par un garde animalier.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "Forfait de 15 € par jour dans la limite de 450 euros TTC par événement",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Le remboursement s'effectue sur production de la facture"
+      ],
+      "page": 15
+    },
+    {
+      "name": "Macif Assistance - Indisponibilité de l'adhérent ou son conjoint : la prise en charge des enfants vivant au domicile",
+      "description": "Organisation et prise en charge d'une des prestations suivantes : déplacement aller-retour d'un proche en France métropolitaine ; OU déplacement aller-retour des enfants et de l'adulte qui les accompagne au domicile d'un proche en France métropolitaine. En cas d'absence d'accompagnateur, l'accompagnement est assuré par un prestataire conventionné. Si aucune de ces solutions ne convient, organisation et prise en charge de la garde des enfants chez un intervenant spécialisé ou au domicile.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "garde des enfants dans la limite de 30 heures réparties sur une période maximale de 30 jours",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Indisponibilité de l'adhérent ou son conjoint en cas d'hospitalisation non programmée de plus de 24 h ou d'hospitalisation programmée de plus de 2 jours ou d'immobilisation à domicile supérieure à 5 jours"
+      ],
+      "page": 15
+    },
+    {
+      "name": "Macif Assistance - Indisponibilité de l'adhérent ou son conjoint : la conduite des enfants à l'école et aux activités extrascolaires",
+      "description": "Lorsque aucun proche ne peut se rendre disponible, les enfants ou petits-enfants bénéficient de la conduite aller-retour à l'école par un prestataire une fois par jour et de la conduite aux activités extrascolaires par un prestataire une fois par semaine pour chaque enfant.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": null,
+      "sub_limits": [
+        "conduite à l'école : dans la limite de 5 jours répartis sur une période maximale d'un mois",
+        "conduite aux activités extrascolaires : une fois par semaine pour chaque enfant sur une période maximale d'un mois"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Indisponibilité de l'adhérent ou son conjoint en cas d'hospitalisation non programmée de plus de 24 h ou d'hospitalisation programmée de plus de 2 jours ou d'immobilisation à domicile supérieure à 5 jours"
+      ],
+      "page": 15
+    },
+    {
+      "name": "Macif Assistance - Indisponibilité de l'adhérent ou son conjoint : la prise en charge des ascendants vivant au domicile",
+      "description": "Organisation et prise en charge du déplacement aller-retour d'un proche OU du transfert chez un proche en France métropolitaine. Si cette solution ne convient pas, organisation et prise en charge de la garde à domicile.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "garde à domicile dans la limite de 30 heures réparties sur une période maximale de 30 jours",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Indisponibilité de l'adhérent ou son conjoint en cas d'hospitalisation non programmée de plus de 24 h ou d'hospitalisation programmée de plus de 2 jours ou d'immobilisation à domicile supérieure à 5 jours"
+      ],
+      "page": 15
+    },
+    {
+      "name": "Macif Assistance - Indisponibilité de l'enfant vivant au domicile : la garde des enfants malades ou blessés",
+      "description": "Organisation et prise en charge d'une des prestations suivantes : déplacement aller-retour d'un proche en France métropolitaine ; OU déplacement aller-retour des enfants malades et de l'adulte qui les accompagne au domicile d'un proche en France métropolitaine. En cas d'absence d'accompagnateur, l'accompagnement est assuré par un prestataire conventionné. Si aucune de ces solutions ne convient, organisation et prise en charge de la garde des enfants chez un intervenant spécialisé ou au domicile.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "garde des enfants dans la limite de 30 heures réparties sur une période maximale d'un mois",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Indisponibilité de l'enfant vivant au domicile en cas d'hospitalisation non programmée de plus de 24 heures ou d'hospitalisation programmée de plus de 2 jours"
+      ],
+      "page": 15
+    },
+    {
+      "name": "Macif Assistance - Indisponibilité de l'enfant vivant au domicile : le soutien scolaire à domicile (pour les enfants du primaire au secondaire)",
+      "description": "En cas d'hospitalisation ou d'immobilisation d'au moins deux semaines : soutien pédagogique dans l'année scolaire en cours jusqu'à la reprise des cours.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "dans la limite de 3 heures par jour ouvré (hors vacances scolaires et jours fériés)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "En cas d'hospitalisation ou d'immobilisation d'au moins deux semaines"
+      ],
+      "page": 15
+    },
+    {
+      "name": "Macif Assistance - Indisponibilité de l'enfant vivant au domicile : la garde des frères et sœurs de l'enfant malade ou blessé",
+      "description": "Organisation et prise en charge d'une des prestations suivantes : déplacement aller-retour d'un proche en France métropolitaine ; OU garde des frères et sœurs au domicile par un intervenant spécialisé.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "garde au domicile dans la limite de 30 heures réparties sur une période maximale de 30 jours",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 15
+    },
+    {
+      "name": "Macif Assistance - Indisponibilité de l'assistante maternelle habituelle : la prise en charge des enfants vivant au domicile",
+      "description": "Organisation et prise en charge de la garde des enfants par un intervenant spécialisé au domicile.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "dans la limite de 30 heures réparties sur une période maximale de 30 jours",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Indisponibilité de l'assistante maternelle habituelle en cas d'hospitalisation non programmée de plus de 2 jours ou d'hospitalisation programmée de plus de 4 jours ou d'immobilisation à domicile supérieure à 5 jours"
+      ],
+      "page": 15
+    },
+    {
+      "name": "Macif Assistance - Naissance ou adoption : livraison de médicaments",
+      "description": "Livraison de médicaments. Le coût des médicaments reste à la charge de l'adhérent ou de son conjoint.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "dans la limite d'une livraison sur une période maximale d'un mois",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "En cas de grossesse pathologique entraînant une immobilisation imprévue au domicile supérieure à 15 jours de l'adhérente ou la conjointe de l'adhérent"
+      ],
+      "page": 16
+    },
+    {
+      "name": "Macif Assistance - Naissance ou adoption : intervention d'une aide à domicile (hospitalisation liée à un accouchement)",
+      "description": "Dès le premier jour ou au retour au domicile, mise à disposition d'une aide à domicile. Minimum de 2 heures par jour.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "dans la limite de 30 heures réparties sur une période maximale de 30 jours",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "En cas d'hospitalisation de plus de 8 jours de l'adhérente ou de la conjointe de l'adhérent, liée à un accouchement"
+      ],
+      "page": 16
+    },
+    {
+      "name": "Macif Assistance - Naissance ou adoption : prise en charge de vos enfants vivant au domicile",
+      "description": "Organisation et prise en charge d'une des prestations suivantes : déplacement aller-retour d'un proche en France métropolitaine ; OU déplacement aller-retour des enfants et de l'adulte qui les accompagne au domicile d'un proche en France métropolitaine. En cas d'absence d'accompagnateur, l'accompagnement est assuré par un prestataire conventionné. Si aucune de ces solutions ne convient, organisation et prise en charge de la garde des enfants chez un intervenant spécialisé ou au domicile.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "garde des enfants dans la limite de 30 heures réparties sur une période maximale de 30 jours",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "En cas d'hospitalisation de plus de 8 jours de l'adhérente ou de la conjointe de l'adhérent, liée à un accouchement"
+      ],
+      "page": 16
+    },
+    {
+      "name": "Macif Assistance - Naissance ou adoption : la conduite des enfants à l'école et aux activités extrascolaires",
+      "description": "Lorsque aucun proche ne peut se rendre disponible : conduite aller-retour à l'école par un prestataire une fois par jour ; conduite aux activités extrascolaires par un prestataire une fois par semaine pour chaque enfant.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": null,
+      "sub_limits": [
+        "conduite à l'école : dans la limite de 5 jours répartis sur une période maximale d'un mois",
+        "conduite aux activités extrascolaires : une fois par semaine pour chaque enfant sur une période maximale d'un mois"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 16
+    },
+    {
+      "name": "Macif Assistance - Naissance ou adoption : le soutien scolaire ou aide aux devoirs (pour les enfants du primaire au secondaire)",
+      "description": "Pendant toute la durée de l'hospitalisation, les enfants de l'adhérent ou de son conjoint peuvent bénéficier d'une aide aux devoirs s'ils restent au domicile, ou d'un soutien scolaire chez un proche éloigné géographiquement de leur école (+ de 50 km).",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": null,
+      "sub_limits": [
+        "s'ils restent au domicile : dans la limite de 2 heures par semaine pour chaque enfant (hors vacances scolaires et jours fériés), sur une période maximale d'un mois",
+        "s'ils sont transférés chez un proche éloigné de plus de 50 km de leur école : dans la limite de 3 heures par jour ouvré (hors vacances scolaires et jours fériés) et par foyer, sur une période maximale d'un mois"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 16
+    },
+    {
+      "name": "Macif Assistance - Naissance ou adoption : intervention d'une aide à domicile (dès le retour au domicile)",
+      "description": "Mise à disposition d'une aide à domicile. Minimum de 2 heures par jour.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "dans la limite de 4 heures réparties sur une période maximale de 20 jours à compter du retour au domicile",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Dès le retour au domicile de l'adhérente ou de la conjointe de l'adhérent"
+      ],
+      "page": 16
+    },
+    {
+      "name": "Macif Assistance - Naissance ou adoption : acquisition des premiers gestes",
+      "description": "Envoi d'un intervenant qualifié au domicile pour faciliter l'acquisition des premiers gestes liés à la maternité.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "dans la limite de 4 heures réparties sur une période maximale de 10 jours à compter du retour au domicile",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 16
+    },
+    {
+      "name": "Macif Assistance - Naissance ou adoption : informations naissance",
+      "description": "Réponses digitales par des professionnels de santé autour des sujets relatifs à l'enfance, l'adolescence et la parentalité.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "dans la limite de 5 questions par an et par bénéficiaire",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 16
+    },
+    {
+      "name": "Macif Assistance - Pathologies lourdes : enveloppe de services pour les assurés adultes et enfants",
+      "description": "L'assuré adulte malade bénéficie d'une enveloppe de 50 unités de services : aide à domicile (minimum de 2 heures par jour) ; auxiliaire de vie ; présence d'un proche ; livraison de médicaments ; transport aux rendez-vous médicaux ; portage des repas ; livraison de courses ; coiffure à domicile ; entretien du jardin ; garde d'enfants ; conduite à l'école et aux activités extrascolaires pour les enfants de moins de 16 ans.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "enveloppe de 50 unités de services utilisable sur une période maximale de 12 mois à compter de la sortie de l'hôpital",
+      "sub_limits": [
+        "présence d'un proche : transport aller-retour et hébergement dans la limite de 2 nuits, petits-déjeuners inclus à concurrence de 92 € par nuit",
+        "transport aux rendez-vous médicaux : dans un rayon de 50 km du domicile",
+        "portage des repas : dans la limite d'une livraison par semaine ; le coût du repas reste à la charge de l'assuré",
+        "livraison de courses : dans la limite d'une livraison par semaine ; le coût des courses reste à la charge de l'assuré",
+        "coiffure à domicile : le coût de la coupe reste à la charge de l'assuré",
+        "conduite à l'école : dans la limite d'un aller-retour par jour ; activités extrascolaires : dans la limite d'un aller-retour par semaine et par enfant",
+        "Équivalences en unités : aide ménagère 1 heure = 1 unité ; auxiliaire de vie 1 heure = 2 unités ; présence d'un proche 1 aller-retour + hébergement = 10 unités ; livraison de médicaments 1 livraison = 3 unités ; transport aux rendez-vous médicaux 1 transport aller-retour = 6 unités ; portage de repas 1 livraison = 6 unités ; livraison de courses 1 livraison = 6 unités ; coiffure à domicile 1 déplacement = 1 unité ; entretien jardin 1 heure = 2 unités ; garde d'enfants 1 heure = 2 unités ; conduite à l'école ou aux activités extrascolaires 1 trajet aller-retour = 4 unités"
+      ],
+      "deductible": null,
+      "conditions": [
+        "Mise en jeu en cas de déclaration d'une pathologie nécessitant un traitement par chimiothérapie, radiothérapie, trithérapie, quadrithérapie ou curiethérapie, immunothérapie, hormonothérapie",
+        "ou de survenance ou aggravation d'une pathologie lourde entraînant une hospitalisation de plus de 2 jours consécutifs",
+        "Pathologies couvertes : pathologies nécessitant un traitement par chimiothérapie, radiothérapie, trithérapie, quadrithérapie ou curiethérapie ; accident vasculaire cérébral invalidant ; infarctus ou pathologie cardiaque invalidante ; hémopathies ; insuffisance hépatique sévère ; diabète insulino-instable ; myopathie ; insuffisance respiratoire instable ; parkinson non équilibré ; mucoviscidose ; insuffisance rénale dialysée décompensée ; suites de transplantation d'organe ; paraplégie non traumatique ; polyarthrite rhumatoïde évolutive ; sclérose en plaques ; sclérose latérale amyotrophique ; complication invalidante suite à des actes chirurgicaux ; polypathologies"
+      ],
+      "page": 17
+    },
+    {
+      "name": "Macif Assistance - Pathologies lourdes : visite d'un ergothérapeute et travaux d'aménagement du domicile",
+      "description": "Bilan réalisé par un ergothérapeute comprenant l'analyse des capacités de l'assuré à réaliser les différents actes de la vie quotidienne et des propositions d'aménagement du domicile. À la suite de ce bilan, l'assuré pourra être mis en relation avec un prestataire pour la mise en œuvre des travaux d'aménagement préconisés. Le coût des travaux reste à la charge de l'assuré.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "dans la limite d'un bilan par événement",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 17
+    },
+    {
+      "name": "Macif Assistance - Pathologies lourdes : téléassistance",
+      "description": "Prise en charge de l'installation d'un dispositif de téléassistance et des 3 premiers mois d'abonnement.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "installation et 3 premiers mois d'abonnement",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 17
+    },
+    {
+      "name": "Macif Assistance - Les + emplois : entretien téléphonique avec un travailleur social (aide au retour à l'emploi)",
+      "description": "Entretien téléphonique avec un travailleur social pour des informations et conseils sur les démarches liées à l'évolution de la situation professionnelle, pour l'adhérent et son conjoint.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "dans la limite de 6 entretiens téléphoniques sur une période de 12 mois",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "En cas d'accident ou de maladie invalidante de l'adhérent ou de son conjoint rendant impossible l'exercice de son activité professionnelle"
+      ],
+      "page": 18
+    },
+    {
+      "name": "Macif Assistance - Les + emplois : aide à la recherche d'un nouvel emploi dans les 12 mois suivants la perte de l'emploi",
+      "description": "Bilan professionnel et techniques de recherche d'emploi (CV, lettre de motivation, techniques de prospection, préparation et simulation d'entretien d'embauche) ; prospection d'offres d'emploi dans le secteur choisi par l'assuré ne pouvant plus exercer son activité professionnelle.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": null,
+      "sub_limits": [
+        "bilan professionnel et techniques de recherche d'emploi : dans la limite de 7 entretiens en face à face (ou téléphoniques) sur 4 mois",
+        "prospection d'offres d'emplois : dans la limite de 3 entretiens sur 3 mois"
+      ],
+      "deductible": null,
+      "conditions": [],
+      "page": 18
+    },
+    {
+      "name": "Macif Assistance - Les + emplois : aide à la recherche d'un emploi (pour votre conjoint)",
+      "description": "Accompagnement individualisé par un travailleur social pour un retour à l'emploi : connaissance du bassin d'emploi local, mise en ligne du CV, phoning.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "sur une durée maximale de 3 mois au cours des 12 mois suivant l'événement",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 18
+    },
+    {
+      "name": "Macif Assistance - Les + emplois : transport sur le lieu de travail (aide à la mobilité)",
+      "description": "Après une immobilisation au domicile et afin de faciliter le retour sur le lieu de travail, prise en charge de trajets aller-retour domicile-travail en taxi.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "10 trajets aller-retour domicile-travail en taxi dans un rayon de 30 km",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Aide à la mobilité en cas d'immobilisation au domicile de plus de 5 jours, de l'adhérent ou de son conjoint"
+      ],
+      "page": 18
+    },
+    {
+      "name": "Macif Assistance - Les + emplois : coaching retraite",
+      "description": "Bilan réalisé par un travailleur social : aide à la réflexion quant au choix de la date de départ à la retraite, évaluation des impacts sur la vie économique, sociale et familiale, aide dans les démarches. Accessible sur simple demande à l'adhérent ou son conjoint.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "dans la limite d'un bilan sur une période maximale d'un an",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 18
+    },
+    {
+      "name": "Macif Assistance - Informations et conseils : soutien psychologique à la suite d'un événement traumatisant (maladie, décès, licenciement, divorce)",
+      "description": "Prise en charge de 1 à 5 entretiens téléphoniques et de 1 à 3 entretiens en face à face si nécessaire avec un intervenant spécialisé.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "1 à 5 entretiens téléphoniques et 1 à 3 entretiens en face à face, dans un délai d'un an à compter de la date de survenance de l'événement",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Sur simple demande, dès la souscription et hors urgence médicale"
+      ],
+      "page": 18
+    },
+    {
+      "name": "Macif Assistance - Informations et conseils : informations et conseils médicaux (24 h sur 24)",
+      "description": "Informations et conseils médicaux, 24 h sur 24.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Sur simple demande, dès la souscription et hors urgence médicale"
+      ],
+      "page": 18
+    },
+    {
+      "name": "Macif Assistance - Informations et conseils : informations juridiques",
+      "description": "Informations juridiques ciblées sur les thématiques santé, famille, droit du travail, retraite, perte d'autonomie, succession, fiscalité, administration, justice, vie pratique.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Du lundi au samedi de 9 h à 19 h, hors jours fériés"
+      ],
+      "page": 18
+    },
+    {
+      "name": "Macif Assistance - Informations et conseils : conseils sociaux",
+      "description": "Conseils sur les organismes sociaux, les démarches auprès de l'employeur, les caisses d'allocations familiales, les aides sociales ou financières.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "dans la limite de 5 entretiens par an et par foyer",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Du lundi au vendredi de 9 h à 19 h, hors jours fériés"
+      ],
+      "page": 18
+    },
+    {
+      "name": "Macif Assistance - Travailleur indépendant (accompagnement) : informations juridiques professionnelles",
+      "description": "Informations juridiques ciblées sur les thématiques social, fiscal ou affaires.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Sur simple demande, dès la souscription et dans les 12 mois suivant la création de l'entreprise",
+        "Du lundi au samedi de 9 h à 19 h, hors jours fériés, valable à tout moment dès la souscription"
+      ],
+      "page": 19
+    },
+    {
+      "name": "Macif Assistance - Travailleur indépendant (accompagnement) : accompagnement budgétaire",
+      "description": "Accompagnement par un conseiller en Économie sociale et familiale afin d'anticiper les conséquences de la création d'entreprise sur le budget familial.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "dans la limite de 6 entretiens téléphoniques dans les 12 mois suivant la création de l'entreprise",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 19
+    },
+    {
+      "name": "Macif Assistance - Travailleur indépendant (accompagnement) : assistance administrative",
+      "description": "Support à la gestion professionnelle et privée.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "dans la limite de 12 heures sur 12 mois",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 19
+    },
+    {
+      "name": "Macif Assistance - Travailleur indépendant, perturbations temporaires (hospitalisation imprévue de plus de 2 jours) : aide aux déplacements",
+      "description": "Organisation et prise en charge de 3 trajets aller-retour dans les 20 jours suivant l'événement.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "3 trajets aller-retour dans les 20 jours suivant l'événement, dans la limite de 250 euros TTC",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Perturbations temporaires de l'activité de l'adhérent travailleur indépendant ou du conjoint collaborateur en cas d'hospitalisation imprévue de plus de 2 jours ou d'hospitalisation programmée de plus à 4 jours ou d'immobilisation à domicile supérieure à 5 jours ou de grossesse pathologique avec alitement entraînant une immobilisation imprévue au domicile supérieure à 15 jours"
+      ],
+      "page": 19
+    },
+    {
+      "name": "Macif Assistance - Travailleur indépendant, perturbations temporaires (hospitalisation imprévue de plus de 2 jours) : service de coursier",
+      "description": "Organisation de l'acheminement de documents professionnels urgents depuis le domicile ou le lieu de travail. Les frais d'envoi postaux restent à la charge de l'assuré.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "dans la limite de 3 portages dans les 20 jours suivants l'événement et dans un rayon de 30 km",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 19
+    },
+    {
+      "name": "Macif Assistance - Travailleur indépendant, perturbations temporaires (hospitalisation imprévue de plus de 2 jours) : transfert d'un collaborateur",
+      "description": "Organisation et prise en charge du déplacement aller-retour d'un collaborateur en France métropolitaine, pour permettre le remplacement de l'assuré. Organisation et prise en charge de 2 nuits d'hébergement.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "2 nuits d'hébergement dans la limite de 50 € par nuit",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 19
+    },
+    {
+      "name": "Macif Assistance - Travailleur indépendant, perturbations temporaires (accident ou pathologie lourde) : aide aux déplacements",
+      "description": "Organisation et prise en charge de 12 trajets aller-retour dans les 12 mois suivant l'événement.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "12 trajets aller-retour dans les 12 mois suivant l'événement, dans la limite de 750 euros TTC",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Perturbations temporaires de l'activité de l'adhérent travailleur indépendant ou du conjoint collaborateur en cas d'accident entraînant une hospitalisation de plus de 10 jours ou d'immobilisation imprévue au domicile supérieure à 30 jours ou d'hospitalisation de plus de 5 jours en cas de survenance d'une pathologie lourde ou d'hospitalisation de plus de 10 jours en cas d'aggravation d'une pathologie lourde",
+        "Mise en œuvre en cas d'accident corporel ou de maladie invalidante de l'adhérent travailleur indépendant ou de son conjoint collaborateur rendant impossible l'exercice de son activité professionnelle",
+        "Pathologies couvertes : pathologies nécessitant un traitement par chimiothérapie, radiothérapie, trithérapie, quadrithérapie ou curiethérapie ; accident vasculaire cérébral invalidant ; infarctus ou pathologie cardiaque invalidante ; hémopathies ; insuffisance hépatique sévère ; diabète insulino-instable ; myopathie ; insuffisance respiratoire instable ; parkinson non équilibré ; mucoviscidose ; insuffisance rénale dialysée décompensée ; suites de transplantation d'organe ; paraplégie non traumatique ; polyarthrite rhumatoïde évolutive ; sclérose en plaques ; sclérose latérale amyotrophique ; complication invalidante suite à des actes chirurgicaux ; polypathologies"
+      ],
+      "page": 19
+    },
+    {
+      "name": "Macif Assistance - Travailleur indépendant, perturbations temporaires (accident ou pathologie lourde) : service de coursier",
+      "description": "Organisation de l'acheminement de documents professionnels urgents depuis le domicile ou le lieu de travail. Les frais d'envoi postaux restent à la charge de l'assuré.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "dans la limite de 12 portages dans les 12 mois suivants l'événement et dans un rayon de 30 km",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 19
+    },
+    {
+      "name": "Macif Assistance - Travailleur indépendant, perturbations temporaires (accident ou pathologie lourde) : transfert d'un collaborateur",
+      "description": "Organisation et prise en charge du déplacement aller-retour d'un collaborateur en France métropolitaine, pour permettre le remplacement de l'adhérent ou de son conjoint collaborateur. Organisation et prise en charge de 2 nuits d'hébergement.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "2 nuits d'hébergement dans la limite de 50 € par nuit",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 20
+    },
+    {
+      "name": "Macif Assistance - Travailleur indépendant, perturbations temporaires (accident ou pathologie lourde) : accompagnement budgétaire",
+      "description": "Accompagnement par un conseiller en Économie sociale et familiale afin d'anticiper les conséquences de la création d'entreprise sur le budget familial.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "dans la limite de 6 entretiens téléphoniques dans les 12 mois suivant l'événement",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 20
+    },
+    {
+      "name": "Macif Assistance - Travailleur indépendant, perturbations temporaires (accident ou pathologie lourde) : assistance administrative",
+      "description": "Support à la gestion professionnelle et privée.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "dans la limite de 24 heures sur 12 mois",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 20
+    },
+    {
+      "name": "Macif Assistance - Travailleur indépendant, perturbations temporaires (accident ou pathologie lourde) : visite d'un ergothérapeute et travaux d'aménagement du lieu de travail",
+      "description": "Bilan réalisé par un ergothérapeute dans les 12 mois suivant l'événement. À la suite de ce bilan, l'adhérent ou son conjoint collaborateur pourra être mis en relation avec un prestataire pour la mise en œuvre des travaux d'aménagement préconisés. Le coût des travaux reste à la charge de l'adhérent.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "dans la limite d'un bilan par événement",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 20
+    },
+    {
+      "name": "Macif Assistance - Travailleur indépendant, cessation de l'activité professionnelle : aide aux déplacements",
+      "description": "Organisation et prise en charge de 3 trajets aller-retour dans les 12 mois suivant l'arrêt de l'activité.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "3 trajets aller-retour dans les 12 mois suivant l'arrêt de l'activité, dans la limite de 250 euros TTC",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Cessation de l'activité professionnelle de l'adhérent travailleur indépendant ou du conjoint collaborateur en cas d'accident ou maladie rendant impossible l'exercice de l'activité professionnelle ou de décès rendant impossible le maintien de l'activité professionnelle"
+      ],
+      "page": 20
+    },
+    {
+      "name": "Macif Assistance - Travailleur indépendant, cessation de l'activité professionnelle : assistance administrative",
+      "description": "Support à la gestion professionnelle et privée.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "dans la limite de 6 heures sur 12 mois",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 20
+    },
+    {
+      "name": "Macif Assistance - Travailleur indépendant, cessation de l'activité professionnelle : entretien téléphonique avec un travailleur social pour faciliter le retour à l'emploi",
+      "description": "Informations et conseils sur les démarches liées à l'évolution de la situation professionnelle ; techniques de recherche d'emploi (CV, lettre de motivation, techniques de prospection, préparation et simulation d'entretien d'embauche) ; prospection d'offres d'emploi dans le secteur choisi par l'adhérent ne pouvant plus exercer son activité professionnelle.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "dans la limite de 6 entretiens téléphoniques sur une période de 12 mois",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 20
+    },
+    {
+      "name": "Macif Assistance - Aidants et aidés (accompagnement administratif et social) : répit de l'aidant",
+      "description": "En cas de fatigue physique ou morale de l'aidant, mise en relation avec un réseau de services de proximité : auxiliaire de vie, aide à domicile, portage de repas.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "En cas de perte d'autonomie ou d'aggravation de la perte d'autonomie de l'aidé"
+      ],
+      "page": 21
+    },
+    {
+      "name": "Macif Assistance - Aidants et aidés (accompagnement administratif et social) : aide aux démarches administratives",
+      "description": "Mise à disposition d'un intervenant à domicile afin d'aider l'aidant dans la rédaction des documents administratifs liés à la perte d'autonomie.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "dans la limite de 4 heures, à raison de 2 heures minimum par intervention",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 21
+    },
+    {
+      "name": "Macif Assistance - Aidants et aidés (accompagnement administratif et social) : bilan social et aide à la décision de devenir aidant",
+      "description": "Entretien téléphonique avec un travailleur social afin d'aider la personne qui envisage de devenir aidant à prendre une décision éclairée. Quatre étapes : déterminer les besoins de l'aidé ; accompagner l'aidant dans son appréciation de ses capacités à faire face à son engagement en analysant les impacts sur sa vie sociale, professionnelle et économique ; proposer des solutions d'organisation du quotidien (recours à l'accueil temporaire, remplacement ponctuel, aménagement du logement) ; donner des indications pour trouver d'éventuels financements.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "Service accessible du lundi au vendredi de 8 h 30 à 17 h"
+      ],
+      "page": 21
+    },
+    {
+      "name": "Macif Assistance - Aidants et aidés (indisponibilité de l'aidant) : intervention d'une aide à domicile ou d'une auxiliaire de vie",
+      "description": "Mise à disposition d'une auxiliaire de vie pour la garde de jour de l'aidé ; OU mise à disposition d'une aide à domicile chargée de tâches quotidiennes (ménage, préparation des repas, vaisselle, repassage, courses de proximité).",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "dans la limite de 15 heures, réparties sur une période maximale de 15 jours à compter de la mise en œuvre de la prestation",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "En cas d'hospitalisation programmée ou non de plus de 2 jours ou d'une immobilisation au domicile de plus de 5 jours de l'aidant",
+        "Intervention de l'aide à domicile et de l'auxiliaire de vie de 8 h à 20 h du lundi au vendredi, hors jour férié",
+        "Minimum de 2 heures par intervention (dont 2 heures pour la venue, si nécessaire, d'une coordinatrice afin d'analyser les besoins de l'aidé)"
+      ],
+      "page": 21
+    },
+    {
+      "name": "Macif Assistance - Aidants et aidés (indisponibilité de l'aidant) : venue d'un proche ou transfert chez un proche",
+      "description": "Organisation et prise en charge du transport aller-retour d'un proche en France métropolitaine ; OU du transport aller-retour non médicalisé de l'aidé chez un proche en France métropolitaine. Si cela est nécessaire, le transport d'un accompagnant est également pris en charge.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "Garanties non cumulables et prises en charge dans la limite de 200 €",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 21
+    },
+    {
+      "name": "Macif Assistance - Aidants et aidés (indisponibilité de l'aidant) : hébergement temporaire de l'Aidé",
+      "description": "Financement du coût d'un hébergement temporaire en foyer d'hébergement, maison d'accueil spécialisée (MAS) ou établissement pour personnes âgées.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "dans la limite de 200 € TTC (sur présentation d'une facture)",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 21
+    },
+    {
+      "name": "Macif Assistance - Aidants et aidés (indisponibilité de l'aidant) : téléassistance",
+      "description": "Prise en charge de l'installation d'un dispositif de téléassistance et des 3 premiers mois d'abonnement.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "installation et 3 premiers mois d'abonnement",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 21
+    },
+    {
+      "name": "Macif Assistance - Aidants et aidés (maintien à domicile) : évaluation d'un ergothérapeute et aménagement du domicile",
+      "description": "Organisation de la venue d'un ergothérapeute qui établit une évaluation de l'aidé dans son lieu de vie. Si l'ergothérapeute propose des solutions d'aménagement du domicile, mise en relation de l'aidant avec une structure qui sert d'intermédiaire avec les entreprises susceptibles de réaliser ces aménagements. Le coût des travaux n'est pas pris en charge.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "En cas de perte d'autonomie ou d'aggravation de la perte d'autonomie de l'aidé"
+      ],
+      "page": 21
+    },
+    {
+      "name": "Macif Assistance - Aidants et aidés (maintien à domicile) : téléassistance",
+      "description": "Prise en charge de l'installation d'un dispositif de téléassistance et des 3 premiers mois d'abonnement.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "installation et 3 premiers mois d'abonnement",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 21
+    },
+    {
+      "name": "Macif Assistance - Aidants et aidés (aide au déménagement) : visite d'établissements",
+      "description": "Prise en charge des trajets aller-retour non médicalisés (taxi ou VSL) sur 30 jours dans un rayon de 100 km du domicile.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "dans la limite de 250 € dans les 24 mois suivant l'événement",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [
+        "En cas de perte d'autonomie ou d'aggravation de la perte d'autonomie de l'aidé et si celui-ci ne peut plus rester à domicile"
+      ],
+      "page": 21
+    },
+    {
+      "name": "Macif Assistance - Aidants et aidés (aide au déménagement) : mise en relation avec une entreprise de déménagement",
+      "description": "Mise en relation avec une entreprise de déménagement. Le prix du déménagement reste à la charge de l'aidant ou de l'aidé.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": null,
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 21
+    },
+    {
+      "name": "Macif Assistance - Aidants et aidés (aide au déménagement) : nettoyage du logement",
+      "description": "Organisation et prise en charge du nettoyage du logement quitté.",
+      "is_optional": false,
+      "territorial_scope": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco",
+      "limits": "dans la limite de 500 € à prendre dans un délai d'un mois à compter du déménagement",
+      "sub_limits": [],
+      "deductible": null,
+      "conditions": [],
+      "page": 21
+    }
+  ],
+  "exclusions": [
+    {
+      "name": "Séjours en établissements médico-sociaux",
+      "description": "Sont exclus les séjours en établissements médico-sociaux (tels que notamment les maisons d'accueil spécialisées, les centres médico-éducatifs, les instituts psychopédagogiques, les centres de rééducation professionnelle).",
+      "applies_to": "Garanties hospitalisation",
+      "page": 5
+    },
+    {
+      "name": "Séjours en établissements pour personnes âgées ou dépendantes",
+      "description": "Sont exclus les séjours en établissements pour personnes âgées ou dépendantes (tels que notamment les EHPAD et les maisons de retraite).",
+      "applies_to": "Garanties hospitalisation",
+      "page": 5
+    },
+    {
+      "name": "Séjours en ateliers thérapeutiques",
+      "description": "Sont exclus les séjours en ateliers thérapeutiques.",
+      "applies_to": "Garanties hospitalisation",
+      "page": 5
+    },
+    {
+      "name": "Hospitalisations et séjours en établissements, centres ou services dits de longs séjours",
+      "description": "Sont exclus les hospitalisations et séjours en établissements, centres ou services dits de longs séjours.",
+      "applies_to": "Garanties hospitalisation",
+      "page": 5
+    },
+    {
+      "name": "Participations forfaitaires (article L.160-13 II du Code de la sécurité sociale)",
+      "description": "Ne donnent pas lieu à la mise en œuvre des garanties définies au contrat et n'entraînent aucun paiement au titre du contrat : les participations forfaitaires mentionnées au II de l'article L.160-13 du Code de la sécurité sociale.",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Franchise médicale annuelle (article L.160-13 III du Code de la sécurité sociale)",
+      "description": "Ne donnent pas lieu à la mise en œuvre des garanties définies au contrat et n'entraînent aucun paiement au titre du contrat : la franchise médicale annuelle mentionnée au III de l'article L.160-13 du Code de la sécurité sociale.",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Majoration du ticket modérateur hors parcours de soins",
+      "description": "Ne donne pas lieu à la mise en œuvre des garanties : la majoration du ticket modérateur lorsque l'assuré ne respecte pas le parcours de soins.",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Dépassements d'honoraires hors parcours de soins",
+      "description": "Ne donnent pas lieu à la mise en œuvre des garanties : les dépassements d'honoraires pratiqués par les médecins, lorsque l'assuré ne respecte pas le parcours de soins.",
+      "applies_to": "all",
+      "page": 5
+    },
+    {
+      "name": "Chambre particulière et chambre d'accompagnant pendant le délai d'attente",
+      "description": "Pendant la durée du délai d'attente, la chambre particulière avec nuitée et en ambulatoire et la chambre d'accompagnant ne donnent pas lieu aux garanties définies au contrat et n'entraînent aucun paiement au titre du contrat.",
+      "applies_to": "Chambre particulière, Chambre particulière ambulatoire, Chambre d'accompagnant avec nuitée",
+      "page": 6
+    },
+    {
+      "name": "Dépassements d'honoraires pendant le délai d'attente",
+      "description": "Pendant les 3 premiers mois suivant la date de prise d'effet du contrat, les garanties sont limitées à 100 % de la base de remboursement de la Sécurité sociale (remboursement du ticket modérateur) ; durant cette période, les dépassements d'honoraires, la chambre particulière avec nuitée, la chambre particulière ambulatoire et la chambre d'accompagnant ne sont pas remboursés.",
+      "applies_to": "all",
+      "page": 4
+    },
+    {
+      "name": "Remboursements supérieurs aux frais exposés",
+      "description": "L'assuré ne peut pas bénéficier de remboursements supérieurs aux frais qu'il a exposés.",
+      "applies_to": "all",
+      "page": 6
+    },
+    {
+      "name": "Frais de santé non pris en charge par le Régime obligatoire",
+      "description": "Sauf exceptions inscrites dans le tableau des garanties, les frais de santé ne donnant pas lieu à prise en charge au titre du Régime obligatoire de l'assuré n'ouvrent pas droit à un remboursement de la mutuelle.",
+      "applies_to": "all",
+      "page": 6
+    },
+    {
+      "name": "Intervention en surcomplémentaire",
+      "description": "Votre contrat n'a pas vocation à intervenir en surcomplémentaire. Néanmoins, si vous êtes assuré auprès de plusieurs organismes complémentaires, vous pouvez être remboursé par l'organisme de votre choix ; les garanties de même nature contractées auprès de plusieurs organismes produisent leurs effets dans la limite de chaque garantie quelle que soit sa date de souscription.",
+      "applies_to": "all",
+      "page": 6
+    },
+    {
+      "name": "Soins réalisés avant la date d'effet ou après la date de résiliation du contrat",
+      "description": "Aucune prestation n'est due pour des soins réalisés avant la date d'effet du contrat ou après la date de résiliation du contrat. Cependant, pour les actes d'hospitalisation commencés avant la date d'effet du contrat, le contrat prendra en charge les soins réalisés après la prise d'effet du contrat, sous réserve d'une précédente couverture sans interruption d'assurance, justifiée par la production d'un certificat de radiation.",
+      "applies_to": "all",
+      "page": 6
+    },
+    {
+      "name": "Hospitalisations hors de France non prises en charge par le Régime obligatoire français",
+      "description": "La couverture des hospitalisations hors de France est subordonnée à leur prise en charge par le régime d'Assurance maladie obligatoire français et à la résidence de l'assuré en France métropolitaine ou dans un département et région d'outre-mer. La prise en charge s'effectue conformément au tableau des garanties et exclut tout autre remboursement de la part de la mutuelle.",
+      "applies_to": "Garanties hospitalisation",
+      "page": 6
+    },
+    {
+      "name": "Déchéance des garanties en cas de fraude",
+      "description": "Toute réticence à une expertise médicale ou toute fraude ou tentative de fraude caractérisée en vue de tirer un profit illégitime du contrat font perdre tout droit à prestations pour la ou les garanties concernées. La mutuelle est alors en droit de réclamer le remboursement des prestations versées à tort.",
+      "applies_to": "all",
+      "page": 11
+    },
+    {
+      "name": "Demande de prestations présentée au-delà de 2 ans",
+      "description": "Pour être recevable, toute demande de prestations doit être présentée dans les 2 ans suivant la date de remboursement par le Régime obligatoire, ou la date de réception du ticket modérateur, ou la date de l'événement à indemniser. Au-delà de ce délai, la prestation ne sera pas versée.",
+      "applies_to": "all",
+      "page": 11
+    },
+    {
+      "name": "Assistance - hospitalisations en centres de convalescence, de rééducation, de cures thermales et en établissements psychiatriques, gérontologiques et gériatriques",
+      "description": "Ne donnent pas lieu à l'application des garanties d'assistance, les hospitalisations dans des centres de convalescence, de rééducation ou de cures thermale ainsi que dans des établissements et services psychiatriques, gérontologiques et gériatriques.",
+      "applies_to": "Garanties Macif Assistance",
+      "page": 22
+    },
+    {
+      "name": "Assistance - hospitalisations liées à la chirurgie plastique esthétique",
+      "description": "Ne donnent pas lieu à l'application des garanties d'assistance, les hospitalisations liées à des soins de chirurgie plastique entrepris pour des raisons exclusivement esthétiques, ainsi que leurs conséquences, en dehors de toute intervention à la suite de blessures, malformations ou lésions liées à des maladies.",
+      "applies_to": "Garanties Macif Assistance",
+      "page": 22
+    },
+    {
+      "name": "Assistance - hospitalisations liées au changement de sexe, à la stérilisation et aux traitements sexuels",
+      "description": "Ne donnent pas lieu à l'application des garanties d'assistance, les hospitalisations liées au changement de sexe, à la stérilisation, les traitements pour transformations, dysfonctionnements ou insuffisances sexuelles, ainsi que leurs conséquences.",
+      "applies_to": "Garanties Macif Assistance",
+      "page": 22
+    },
+    {
+      "name": "Assistance - usage de drogues ou de stupéfiants non ordonnés médicalement",
+      "description": "Sont exclues les hospitalisations et immobilisations à domicile résultant de l'usage de drogues ou de stupéfiants non ordonnés médicalement.",
+      "applies_to": "Garanties Macif Assistance",
+      "page": 22
+    },
+    {
+      "name": "Assistance - consommation d'alcool",
+      "description": "Sont exclues les hospitalisations et immobilisations à domicile résultant de la consommation d'alcool.",
+      "applies_to": "Garanties Macif Assistance",
+      "page": 22
+    },
+    {
+      "name": "Assistance - action volontaire du bénéficiaire (suicide, tentative de suicide, mutilation volontaire)",
+      "description": "Sont exclues les hospitalisations et immobilisations à domicile résultant de l'action volontaire du bénéficiaire : suicide, tentative de suicide ou mutilation volontaire.",
+      "applies_to": "Garanties Macif Assistance",
+      "page": 22
+    },
+    {
+      "name": "Assistance - infractions volontaires à la législation en vigueur",
+      "description": "IMA Assurances ne sera pas tenue d'intervenir dans les cas où le bénéficiaire aurait commis de façon volontaire des infractions à la législation en vigueur.",
+      "applies_to": "Garanties Macif Assistance",
+      "page": 22
+    },
+    {
+      "name": "Assistance - dépenses engagées de sa propre initiative",
+      "description": "IMA Assurances ne participera pas après coup aux dépenses que le bénéficiaire des garanties aurait engagées de sa propre initiative.",
+      "applies_to": "Garanties Macif Assistance",
+      "page": 22
+    },
+    {
+      "name": "Assistance - force majeure et événements assimilés",
+      "description": "IMA Assurances ne sera pas tenue responsable des manquements ou contretemps à l'exécution de ses obligations qui résulteraient de cas de force majeure ou des événements suivants : pandémie, guerre civile ou étrangère, révolution, mouvement populaire, émeute, grève, saisie ou contrainte par la force publique, interdiction officielle, piraterie, explosion d'engins, effets nucléaires ou radioactifs, empêchements climatiques.",
+      "applies_to": "Garanties Macif Assistance",
+      "page": 22
+    },
+    {
+      "name": "Assistance - non-substitution aux services publics, aux organismes sociaux et aux employeurs",
+      "description": "Les garanties d'assistance sont mises en œuvre par IMA Assurances ou en accord préalable avec elle. Elles ne doivent pas se substituer aux interventions des services publics, ni aux prestations dues par les organismes sociaux et les employeurs.",
+      "applies_to": "Garanties Macif Assistance",
+      "page": 22
+    },
+    {
+      "name": "Assistance - portée territoriale limitée à la France hors DROM, Andorre et Monaco",
+      "description": "Les garanties d'assistance sont accordées en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco.",
+      "applies_to": "Garanties Macif Assistance",
+      "page": 22
+    }
+  ],
+  "deductibles": null,
+  "waiting_periods": [
+    {
+      "coverage": "Honoraires chirurgicaux et médicaux, honoraires paramédicaux, analyses et examens de laboratoire, radiologie",
+      "duration": "3 premiers mois suivant la date d'effet du contrat ou suivant l'adjonction d'un bénéficiaire",
+      "description": "Pendant la durée du délai d'attente, la prise en charge est limitée à 100 % de la base de remboursement de la Sécurité sociale sur les postes de garantie suivants : les honoraires chirurgicaux et médicaux ; les honoraires paramédicaux ; les analyses et examens de laboratoire ; la radiologie.",
+      "page": 5
+    },
+    {
+      "coverage": "Chambre particulière avec nuitée, chambre particulière ambulatoire, chambre d'accompagnant",
+      "duration": "3 premiers mois suivant la date d'effet du contrat ou suivant l'adjonction d'un bénéficiaire",
+      "description": "Pendant la durée du délai d'attente, la chambre particulière avec nuitée et en ambulatoire et la chambre d'accompagnant ne donnent pas lieu aux garanties définies au contrat et n'entraînent aucun paiement au titre du contrat.",
+      "page": 6
+    },
+    {
+      "coverage": "Dépassements d'honoraires",
+      "duration": "3 premiers mois suivant la date de prise d'effet du contrat",
+      "description": "Pendant les 3 premiers mois suivant la date de prise d'effet du contrat, les garanties sont limitées à 100 % de la base de remboursement de la Sécurité sociale (remboursement du ticket modérateur). Durant cette période, les dépassements d'honoraires, la chambre particulière avec nuitée, la chambre particulière ambulatoire et la chambre d'accompagnant ne sont pas remboursés.",
+      "page": 4
+    },
+    {
+      "coverage": "Exception - nouveau-né et enfant adopté",
+      "duration": "aucun délai d'attente",
+      "description": "Par exception, aucun délai d'attente n'est appliqué en cas d'adjonction d'un nouveau-né si ce dernier est enregistré comme bénéficiaire dans les 3 mois suivant sa naissance. L'adoption d'un enfant mineur est assimilée à une naissance.",
+      "page": 6
+    }
+  ],
+  "obligations": [
+    {
+      "name": "Remplir les conditions d'adhésion pendant toute la vie du contrat",
+      "description": "Pour adhérer au contrat MACIF HOSPITALISATION, vous devez : être sociétaire de la Macif, conjoint, ascendant ou descendant d'un sociétaire ; être âgé de plus de 16 ans et avoir la capacité de contracter ; résider en France métropolitaine ou dans un département et région d'outre-mer (DROM) ; être affilié à un Régime obligatoire français d'assurance maladie. Ces conditions d'adhésion doivent être remplies au moment de l'adhésion et tout au long de la vie du contrat.",
+      "timing": "à l'adhésion et pendant toute la vie du contrat",
+      "sanction": null,
+      "page": 3
+    },
+    {
+      "name": "Justifier d'une couverture complémentaire précédente à partir de 70 ans",
+      "description": "L'adhésion est possible sans limite d'âge. Cependant, à partir de 70 ans, vous et vos ayants droit devez justifier d'une couverture complémentaire précédente, sans interruption de garanties au moment de la souscription, en remettant un certificat de radiation mentionnant la date de fin de la précédente couverture fixée à la veille de la date d'effet de l'adhésion.",
+      "timing": "à l'adhésion (et à l'affiliation d'un nouvel assuré de 70 ans et plus)",
+      "sanction": null,
+      "page": 3
+    },
+    {
+      "name": "Formalités d'adhésion",
+      "description": "Compléter, signer et dater la Demande d'assurance en indiquant les éventuels ayants droit ; fournir une copie de la pièce d'identité en cours de validité ainsi qu'une copie de l'attestation de carte Vitale de chacun des assurés ; le cas échéant, le mandat de résiliation dûment signé. En cas de paiement par prélèvement, remplir un mandat de prélèvement SEPA et fournir un relevé d'identité bancaire. L'adhésion n'est soumise à aucun questionnaire médical.",
+      "timing": "à l'adhésion",
+      "sanction": null,
+      "page": 3
+    },
+    {
+      "name": "Informer la mutuelle d'un autre contrat de complémentaire santé",
+      "description": "Si un des assurés est bénéficiaire d'un autre contrat de complémentaire santé, vous devez nous en informer.",
+      "timing": "à l'adhésion et en cours de contrat",
+      "sanction": null,
+      "page": 3
+    },
+    {
+      "name": "Déclarer tout changement de situation",
+      "description": "Pendant la durée du contrat, déclarer tout changement dans la situation d'un des assurés, notamment : un changement de domicile ; un changement de Régime obligatoire (changement de n° de Sécurité sociale, changement de caisse primaire d'assurance maladie, perte de la qualité d'ayant droit…) ; un changement de situation matrimoniale (mariage, divorce, veuvage…). La mutuelle peut demander les justificatifs nécessaires.",
+      "timing": "en cours de contrat",
+      "sanction": "Si la modification entraîne une augmentation des cotisations, l'adhérent dispose de 30 jours à compter de la réception de son nouvel avis d'échéance pour résilier son contrat",
+      "page": 7
+    },
+    {
+      "name": "Informer la mutuelle d'un changement de coordonnées bancaires",
+      "description": "Afin de ne pas interrompre le versement de vos prestations, pensez à nous informer de la modification de vos coordonnées bancaires.",
+      "timing": "en cours de contrat",
+      "sanction": null,
+      "page": 7
+    },
+    {
+      "name": "Payer la cotisation",
+      "description": "Vous êtes tenu au paiement d'une cotisation annuelle payable d'avance. Les cotisations peuvent être réglées par mandat de prélèvement SEPA ou, à défaut, par chèque (uniquement pour le paiement annuel).",
+      "timing": "à échéance",
+      "sanction": "À défaut de paiement dans un délai de 10 jours suivant la date d'échéance, envoi d'une lettre recommandée de mise en demeure ; les garanties sont résiliées 40 jours après l'envoi de cette lettre si la cotisation reste impayée",
+      "page": 8
+    },
+    {
+      "name": "Se soumettre à une expertise médicale",
+      "description": "Nous pouvons demander à l'assuré de se soumettre à une expertise médicale. Au cours de l'expertise médicale, l'assuré peut se faire assister par son propre médecin-expert, dont les frais restent à sa charge exclusive. En cas de désaccord du médecin de l'assuré avec les conclusions, une procédure d'arbitrage est mise en place : l'assuré choisit un médecin sur une liste de trois noms proposés par la mutuelle et chaque partie supporte par moitié les honoraires du médecin ainsi désigné.",
+      "timing": "sur demande de la mutuelle",
+      "sanction": "Si l'assuré refuse un contrôle médical, les prestations sont suspendues à son égard, après envoi d'une mise en demeure adressée à son dernier domicile connu ; si les conclusions de l'expertise conduisent à une remise en cause de l'attribution des prestations, leur versement cesse dès notification par lettre recommandée avec accusé de réception et les sommes indûment versées doivent être restituées",
+      "page": 11
+    },
+    {
+      "name": "Adresser les justificatifs de remboursement",
+      "description": "Une fois les soins réalisés, l'assuré doit adresser des justificatifs pour être remboursé : le bulletin d'hospitalisation délivré par l'hôpital ; l'original de la facture détaillée (acte par acte) et acquittée. Les frais liés à l'obtention des pièces justificatives sont à la charge de l'assuré.",
+      "timing": "après les soins",
+      "sanction": null,
+      "page": 11
+    },
+    {
+      "name": "Restituer les cartes de tiers payant",
+      "description": "En cas de renonciation ou de résiliation, vous devrez nous renvoyer la ou les cartes de tiers payant qui vous auront été adressées. Cette carte reste la propriété de Macif Santé Prévoyance.",
+      "timing": "en cas de renonciation ou de résiliation",
+      "sanction": null,
+      "page": 7
+    },
+    {
+      "name": "Contacter IMA Assurances dans le délai imparti pour les garanties d'assistance",
+      "description": "Sauf cas de force majeure, l'assuré dispose d'un délai de 10 jours à compter de l'événement générateur (immobilisation au domicile, sortie d'hospitalisation / maternité, décès) pour contacter IMA Assurances et demander la mise en place des garanties. Ce délai ne s'applique pas aux garanties « Accompagnement administratif et social », « Maintien à domicile », « Aide au déménagement », « Aide au retour à l'emploi » et « Protection du travailleur indépendant » : pour ces garanties, le délai est d'un an à compter de l'événement générateur.",
+      "timing": "10 jours (ou un an pour certaines garanties) à compter de l'événement générateur",
+      "sanction": null,
+      "page": 22
+    },
+    {
+      "name": "Justifier l'événement auprès d'IMA Assurances",
+      "description": "IMA Assurances se réserve le droit de demander la justification médicale de l'événement générant la mise en œuvre des garanties (certificat médical, bulletin d'hospitalisation, certificat de décès…). La mise en œuvre des garanties « Aidants et aidés » est soumise à l'envoi à IMA Assurances d'un justificatif de la perte d'autonomie de l'aidé (justificatif de perception de l'AEEH, de la PCH, de l'AAH ou de l'APA), d'un certificat médical en cas d'aggravation de la perte d'autonomie de l'aidé, et d'un bulletin d'hospitalisation ou d'un certificat médical en cas d'hospitalisation ou d'immobilisation de l'aidant.",
+      "timing": "à la mise en œuvre des garanties d'assistance",
+      "sanction": null,
+      "page": 22
+    },
+    {
+      "name": "Ne pas commettre de fraude",
+      "description": "Toute réticence à une expertise médicale ou toute fraude ou tentative de fraude caractérisée en vue de tirer un profit illégitime du contrat font perdre tout droit à prestations pour la ou les garanties concernées.",
+      "timing": "pendant toute la vie du contrat",
+      "sanction": "Perte de tout droit à prestations pour la ou les garanties concernées ; la mutuelle est en droit de réclamer le remboursement des prestations versées à tort",
+      "page": 11
+    }
+  ],
+  "claims_procedure": [
+    {
+      "step": "Réunir les justificatifs",
+      "description": "Une fois les soins réalisés, l'assuré doit adresser : le bulletin d'hospitalisation délivré par l'hôpital ; l'original de la facture détaillée (acte par acte) et acquittée.",
+      "deadline": null,
+      "page": 11
+    },
+    {
+      "step": "Soins effectués à l'étranger",
+      "description": "Pour les soins effectués à l'étranger : le décompte établi par le Régime obligatoire français ; l'original de la facture acquittée accompagnée, le cas échéant, de sa traduction en français et en euros. Pour tous les actes programmés à l'étranger, transmettre la copie de l'accord du Régime obligatoire français accompagné des éléments permettant de connaître les actes prévus. La mutuelle peut demander la traduction des documents utiles au remboursement.",
+      "deadline": null,
+      "page": 11
+    },
+    {
+      "step": "Envoyer la demande",
+      "description": "Les documents doivent être envoyés à l'adresse figurant sur votre carte de tiers payant.",
+      "deadline": "dans les 2 ans suivant la date de remboursement par le Régime obligatoire, ou la date de réception du ticket modérateur, ou la date de l'événement à indemniser ; au-delà de ce délai, la prestation ne sera pas versée",
+      "page": 11
+    },
+    {
+      "step": "Règlement des prestations",
+      "description": "Nous effectuerons le règlement des prestations dans un délai de 2 jours ouvrés. Ce délai débute à compter de la réception des justificatifs, que ces derniers nous soient parvenus par voie postale ou électronique.",
+      "deadline": "2 jours ouvrés à compter de la réception des justificatifs",
+      "page": 11
+    },
+    {
+      "step": "Tiers payant",
+      "description": "Pour bénéficier du tiers payant, il suffit à l'assuré de présenter sa carte de tiers payant au professionnel de santé ; la mutuelle adresse directement à celui-ci le règlement des soins.",
+      "deadline": null,
+      "page": 11
+    },
+    {
+      "step": "Mise en œuvre des garanties d'assistance",
+      "description": "Les garanties d'assistance sont assurées par IMA Assurances. L'assuré peut contacter les services d'IMA Assurances, 24 h sur 24, au numéro communiqué par la mutuelle. L'assuré exprime à IMA Assurances la nature des prestations d'assistance qui lui sont nécessaires ; le nombre d'heures octroyé est apprécié par IMA Assurances en fonction de la nature et de la gravité de l'événement ainsi que de la gêne et du préjudice occasionné à ses proches, sur la base d'éléments objectifs : taille du logement, composition du foyer familial, existence d'aides familiales ou extra-familiales, présence de personnes dépendantes au sein du foyer, degré d'autonomie. Les garanties d'assistance sont mises en œuvre par IMA Assurances ou en accord préalable avec elle.",
+      "deadline": "10 jours à compter de l'événement générateur, sauf cas de force majeure ; un an pour les garanties « Accompagnement administratif et social », « Maintien à domicile », « Aide au déménagement », « Aide au retour à l'emploi » et « Protection du travailleur indépendant »",
+      "page": 22
+    },
+    {
+      "step": "Réclamation - garanties santé et réseau de soins partenaire",
+      "description": "Le conseiller est l'interlocuteur privilégié. Si la réponse ne satisfait pas, adresser une réclamation écrite au Service Qualité : Macif - Service Qualité, TSA 47272, 79060 Niort cedex, ou via www.macif.fr. Accusé de réception et réponse dans les meilleurs délais et dans un délai maximum de 2 mois.",
+      "deadline": "réponse dans un délai maximum de 2 mois",
+      "page": 8
+    },
+    {
+      "step": "Réclamation - garanties d'assistance",
+      "description": "Contacter le Service Consommateur d'IMA Assurances par courriel depuis le site www.ima.eu - Réclamations, ou par courrier : IMA Assurances - Service Consommateur, 118 avenue de Paris, CS 40000, 79003 Niort Cedex 9. Le Service Consommateur s'engage à accuser réception de la réclamation dans les dix jours ouvrables suivant son envoi et à y apporter une réponse dans un délai de deux mois maximum.",
+      "deadline": "accusé de réception sous 10 jours ouvrables, réponse sous 2 mois maximum",
+      "page": 8
+    },
+    {
+      "step": "Médiation externe",
+      "description": "Si le mécontentement persiste après épuisement de la procédure interne de réclamation ou à l'issue du délai réglementaire de deux mois, saisine de la Médiation de l'assurance par courrier à l'adresse TSA 50110 - 75441 Paris cedex 09 ou par internet sur www.mediation-assurance.org.",
+      "deadline": "dans un délai maximum d'un an à compter de la réclamation écrite auprès des services de la mutuelle",
+      "page": 9
+    }
+  ],
+  "duration_and_cancellation": {
+    "duration": "La première période d'assurance se termine au 31 décembre. Le contrat est ensuite reconduit chaque année de plein droit au 1er janvier pour une durée d'un an, sauf résiliation dans les cas mentionnés à l'article « Résiliation de votre contrat ».",
+    "tacit_renewal": true,
+    "notice_period": "2 mois avant le 31 décembre de l'année en cours pour une résiliation à l'échéance annuelle",
+    "methods": [
+      "par voie électronique via l'Espace Assurance sur le site www.macif.fr ou sur l'application mobile",
+      "par courrier postal à l'adresse figurant sur votre carte de tiers payant",
+      "par courrier électronique à l'adresse suivante : mutuelle@macif.fr",
+      "par déclaration en point d'accueil physique Macif ou au siège social de Macif Santé Prévoyance",
+      "par acte extrajudiciaire"
+    ],
+    "special_rights": [
+      "à l'échéance annuelle, moyennant un préavis de 2 mois avant le 31 décembre de l'année en cours",
+      "à tout moment après l'expiration d'un délai d'un an à compter de la première souscription du contrat ; la résiliation prend effet à la date précisée dans l'avis de résiliation et au plus tôt un mois après réception de la demande",
+      "en cas d'augmentation de vos cotisations, notamment à la suite d'une modification de votre situation, dans un délai d'un mois à compter de la date de réception de votre avis d'échéance",
+      "en cas de modification de vos garanties à la suite d'une évolution de la réglementation ou d'une décision de la mutuelle, dans un délai d'un mois à compter du jour où cette modification vous est notifiée",
+      "Renonciation : en cas de souscription exclusivement à distance ou à la suite d'un démarchage à domicile, 14 jours calendaires révolus à compter de la prise d'effet du contrat, par lettre recommandée ou envoi recommandé électronique avec accusé de réception ; les cotisations payées sont intégralement remboursées dans un délai de 30 jours à compter de la réception de la lettre, sous déduction des prestations éventuellement versées durant cette période",
+      "Résiliation par la mutuelle en cas de non-paiement d'une cotisation ou d'une fraction de cotisation",
+      "Radiation d'un assuré : sur demande de l'adhérent à tout moment, prenant effet le dernier jour du mois qui suit la réception de la demande"
+    ],
+    "page": 7
+  },
+  "prescription_period": {
+    "description": "La prescription est le délai au-delà duquel une action n'est plus recevable. Le Code de la mutualité dispose dans son article L.221-11 : « Toutes actions dérivant des opérations régies par le présent titre sont prescrites par deux ans à compter de l'événement qui y donne naissance. Toutefois, ce délai ne court : 1° En cas de réticence, omission, déclaration fausse ou inexacte sur le risque couru, du fait du membre participant, que du jour où la mutuelle ou l'union en a eu connaissance ; 2° En cas de réalisation du risque, que du jour où les intéressés en ont eu connaissance, s'ils prouvent qu'ils l'ont ignoré jusque-là. » Quand l'action a pour cause le recours d'un tiers, le délai ne court que du jour où ce tiers a exercé une action en justice ou a été indemnisé. Dans le cadre des opérations collectives mentionnées au III de l'article L.221-2, la prescription est portée à cinq ans en ce qui concerne l'incapacité de travail. Elle est portée à dix ans lorsque, pour les opérations mentionnées au b du 1° du 1 de l'article L.111-1, le bénéficiaire n'est pas le membre participant et, dans les opérations relatives aux accidents atteignant les personnes, lorsque les bénéficiaires sont les ayants droit du membre participant décédé. Pour les contrats d'assurance sur la vie, les actions du bénéficiaire sont prescrites au plus tard trente ans à compter du décès du membre participant. L'article L.221-12-1 précise que, par dérogation à l'article 2254 du Code civil, les parties ne peuvent, même d'un commun accord, ni modifier la durée de la prescription, ni ajouter aux causes de suspension ou d'interruption de celle-ci. Interruption : la prescription est interrompue par une des causes ordinaires d'interruption et par la désignation d'experts à la suite de la réalisation d'un risque ; elle peut aussi résulter de l'envoi d'une lettre recommandée ou d'un envoi recommandé électronique avec accusé de réception. Le document reproduit les articles 2240, 2241, 2242, 2243, 2244, 2245 et 2246 du Code civil relatifs aux causes ordinaires d'interruption.",
+    "page": 9
+  },
+  "premium": {
+    "notes": [
+      "Le montant de la cotisation est fixé par année civile et par assuré, en fonction des critères suivants : l'âge de l'assuré ; votre ancienneté à la mutuelle ; le nombre d'assurés au contrat ; votre zone de domiciliation (adresse postale figurant dans la demande d'assurance, une seule adresse étant possible) ; le régime social de l'assuré. (page 8)",
+      "L'âge est calculé par différence de millésime entre l'année d'échéance de la cotisation et l'année de naissance moins une année. Par exemple, pour une personne née en 1965, l'âge retenu en 2026 sera déterminé comme suit : (2026 − 1965) − 1 = 60 ans. (page 8)",
+      "Dès lors qu'au moins 3 enfants sont assurés au titre du contrat en qualité d'enfant, la cotisation est gratuite pour le 3e enfant et les suivants. Cette gratuité cesse au 31 décembre de l'année au cours de laquelle le nombre d'assurés enfant devient inférieur à 3. (page 8)",
+      "Vous êtes tenu au paiement d'une cotisation annuelle payable d'avance. Le règlement peut se faire de façon annuelle, semestrielle, trimestrielle ou mensuelle, sans frais de fractionnement. Les cotisations peuvent être réglées par mandat de prélèvement SEPA ou, à défaut, par chèque (uniquement pour le paiement annuel). (page 8)",
+      "À défaut de paiement d'une cotisation ou d'une fraction de cotisation dans un délai de 10 jours suivant la date d'échéance, une lettre recommandée de mise en demeure est adressée au dernier domicile connu, informant que les garanties du contrat d'assurance seront résiliées 40 jours après l'envoi de cette lettre si la cotisation reste impayée. (page 8)"
+    ],
+    "indexation": "Nous réexaminons le montant des cotisations chaque année. Le changement du montant de la cotisation est notifié par courrier et prend effet le 1er janvier de l'année suivante. Le montant des cotisations peut également être modifié à tout moment en fonction de l'évolution de la réglementation et notamment celle relative à la Sécurité sociale.",
+    "page": 8
+  },
+  "special_conditions": [
+    {
+      "name": "Nature du contrat et assureurs",
+      "description": "Le contrat MACIF HOSPITALISATION est un contrat collectif à adhésion facultative souscrit par la Macif au profit de ses sociétaires, de leur conjoint, descendants ou ascendant. Il est assuré par Macif Santé Prévoyance, mutuelle soumise aux dispositions du Livre II du Code de la mutualité et au contrôle de l'Autorité de Contrôle Prudentiel et de Résolution - 4 place de Budapest - CS 92459 - 75436 Paris cedex 09. Les garanties Macif Assistance prévues au contrat sont assurées par IMA Assurances, entreprise soumise au Code des assurances. Ce contrat est soumis à la loi française. La langue utilisée pendant toute la vie du contrat est le français.",
+      "page": 2
+    },
+    {
+      "name": "Contrat non solidaire et non responsable",
+      "description": "Ce n'est pas un contrat solidaire et responsable au sens de l'article L.871-1 du Code de la sécurité sociale.",
+      "page": 2
+    },
+    {
+      "name": "Garanties en vigueur",
+      "description": "Garanties en vigueur au 1er janvier 2026.",
+      "page": 2
+    },
+    {
+      "name": "Personnes pouvant être désignées comme assuré",
+      "description": "Qualité ADULTE : votre conjoint ; vos ascendant vivant sous votre toit. Qualité ENFANT : vos enfants de moins de 20 ans ; vos enfants âgés de 20 à 26 ans qui justifient de la poursuite d'études (certificat de scolarité exigé). Les enfants âgés de 20 à 26 ans vivant sous votre toit et ne poursuivant pas d'études sont invités à souscrire un contrat à leur nom. Le nombre d'assurés adultes est limité à trois par adhésion, le nombre d'assurés enfants n'est pas limité.",
+      "page": 3
+    },
+    {
+      "name": "Prise d'effet de l'adhésion",
+      "description": "L'adhésion au contrat prend effet à la date figurant sur votre Demande d'assurance. La prise d'effet du contrat interviendra au plus tôt le 15 du mois en cours ou le 1er du mois suivant, selon la date de signature de votre contrat. Toutefois, si vous nous avez donné mandat pour procéder à la résiliation de votre contrat santé détenu auprès d'un autre organisme assureur, votre contrat prendra effet le lendemain de la résiliation effective de votre précédent contrat, afin de vous garantir une continuité de couverture.",
+      "page": 3
+    },
+    {
+      "name": "Carte de tiers payant",
+      "description": "La mutuelle concrétise votre adhésion par l'envoi d'une carte de tiers payant qui vous permet de bénéficier du service de tiers payant auprès des professionnels de santé conventionnés. Cette carte reste la propriété de Macif Santé Prévoyance.",
+      "page": 3
+    },
+    {
+      "name": "Absence de questionnaire médical",
+      "description": "L'adhésion n'est soumise à aucun questionnaire médical.",
+      "page": 3
+    },
+    {
+      "name": "Ajout ou suppression d'un assuré",
+      "description": "L'affiliation d'un nouvel assuré prend effet au plus tôt le 15 du mois en cours ou le 1er du mois selon la date de la demande. À partir de 70 ans, le nouvel assuré doit justifier d'une couverture complémentaire précédente sans interruption de garantie ; dans ce cas l'affiliation prend effet au plus tôt le 15 du mois en cours ou le 1er du mois suivant, selon la date de réception du justificatif. Un délai d'attente s'applique pendant les 3 premiers mois suivant l'adjonction du bénéficiaire ; aucun délai d'attente n'est appliqué en cas d'adjonction d'un nouveau-né enregistré comme bénéficiaire dans les 3 mois suivant sa naissance (ou sa date d'adoption). La radiation d'un assuré prend effet le dernier jour du mois qui suit la réception de la demande.",
+      "page": 7
+    },
+    {
+      "name": "Modalités de remboursement",
+      "description": "Le tableau de garanties indique les plafonds de remboursement des dépenses de santé effectuées par l'assuré. Ces remboursements sont effectués dans la limite des dépenses engagées par l'assuré. Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la Sécurité sociale en incluant son remboursement ; ces garanties sont accordées sous réserve d'une intervention du Régime obligatoire. Les remboursements exprimés en euros correspondent au remboursement de la mutuelle seule hors remboursement de la Sécurité sociale. Les forfaits s'entendent par assuré ; lorsque le forfait est annuel, la référence est l'année civile. Les remboursements sont effectués en France et en euros.",
+      "page": 4
+    },
+    {
+      "name": "Subrogation",
+      "description": "Si un assuré est victime d'une atteinte à son intégrité physique causée par un tiers, la mutuelle peut récupérer auprès de ce tiers les sommes qu'elle a payées, conformément à l'article L.224-9 du Code de la mutualité. La mutuelle est alors subrogée dans vos droits et actions, ou ceux de vos ayants droit. IMA Assurances est également subrogée dans ces droits pour les garanties d'assistance qu'elle assure.",
+      "page": 9
+    },
+    {
+      "name": "Espace assurance en ligne",
+      "description": "Dès l'adhésion au contrat MACIF HOSPITALISATION, l'adhérent peut créer son espace assurance sur macif.fr et accéder à tous les services : simuler et consulter ses remboursements ; accéder à sa carte de tiers payant ; modifier son contrat et adresser ses demandes de remboursement.",
+      "page": 11
+    },
+    {
+      "name": "Services d'accessibilité",
+      "description": "Si vous êtes sourd ou malentendant : vous pouvez bénéficier d'un service adapté en LSF, LPC ou Tchat sur macif.fr / rubrique « urgence et contact ». Si vous êtes aveugle ou malvoyant : vous pouvez bénéficier de l'envoi de votre courrier en caractères agrandis, braille et audio, sur macif.fr / rubrique « urgence et contact » ou auprès de Handi Cap Zéro.",
+      "page": 2
+    },
+    {
+      "name": "Entités mentionnées au dos du document",
+      "description": "Le contrat Macif Hospitalisation, distribué par la Macif, est assuré par Macif Santé Prévoyance, mutuelle régie par le Livre II du Code de la mutualité et adhérente à la Mutualité Française, SIREN 779 558 501, siège social 1 rue Jacques Vandier - 79000 Niort. IMA Assurances - société anonyme au capital de 157 000 000 € entièrement libéré, entreprise régie par le Code des assurances, RCS Niort 481 511 632, siège social 118 avenue de Paris - CS 40000 - 79033 Niort cedex 9. Carte Blanche Partenaires - SAS au capital de 100 000 € - RCS Paris 379 301 518 - Code APE 8899 B, siège social Carré Feydeau - 5 rue Feydeau - 75002 Paris. MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce, société d'assurance mutuelle à cotisations variables, entreprise régie par le Code des assurances, siège social 1 rue Jacques Vandier - 79000 Niort. Identifiant unique de Macif Santé Prévoyance délivré par l'éco-organisme Citéo : FR320871_01GEIG.",
+      "page": 25
+    }
+  ],
+  "key_quotes": [
+    {
+      "quote": "Le contrat MACIF HOSPITALISATION est un contrat \ncollectif à adhésion facultative souscrit par la Macif au \nprofit de ses sociétaires, de leur conjoint, descendants \nou ascendant .",
+      "page": 2
+    },
+    {
+      "quote": "Il est assuré par Macif Santé Prévoyance, mutuelle sou­\nmise aux dispositions du Livre II du Code de la mutualité \net au contrôle de l’Autorité de Contrôle Prudentiel et de \nRésolution - 4 place de Budapest - CS 92459 - 75436 \nParis cedex 09.",
+      "page": 2
+    },
+    {
+      "quote": "Les garanties Macif Assistance prévues au contrat sont \nassurées par IMA Assurances, entreprise soumise au \nCode des assurances.",
+      "page": 2
+    },
+    {
+      "quote": "Ce contrat est soumis à la loi française. Ce n’est pas un \ncontrat solidaire et responsable au sens de l’article \nL.871 - 1 du Code de la sécurité sociale.",
+      "page": 2
+    },
+    {
+      "quote": "Le remboursement de l’ensemble des prestations \nréalisées par l’hôpital entre la date d’entrée et la date \nde sortie de l’hospitalisation est soumis à la prise en \ncharge de l’hospitalisation par le Régime obligatoire.",
+      "page": 5
+    },
+    {
+      "quote": "Encadré. CE QUI EST EXCLU EN HOSPITALISATION :\n•\t\u0007les séjours en établissements médico-sociaux \n(tels que notamment les maisons d’accueil \nspécialisées, les centres médico-éducatifs, les \ninstituts psychopédagogiques, les centres de \nrééducation professionnelle) ;\n•\t\u0007les séjours en établissements pour personnes \nâgées ou dépendantes (tels que notamment les \nEHPAD et les maisons de retraite) ;\n•\t\u0007les séjours en ateliers thérapeutiques ;\n•\t\u0007les hospitalisations et séjours en établissements, \ncentres ou services dits de longs séjours.",
+      "page": 5
+    },
+    {
+      "quote": "Encadré. Ne donnent pas lieu à la mise en œuvre des \ngaranties définies au contrat et n’entraînent aucun \npaiement au titre du contrat :\n•\t\u0007les participations forfaitaires mentionnées au II \nde l’article L.160 - 13 du Code de la sécurité sociale ;\n•\t\u0007la franchise médicale annuelle mentionnée au \nIII de l’article L.160 - 13 du Code de la sécurité \nsociale ;\n•\t\u0007la majoration du ticket modérateur lorsque \nl’assuré ne respecte pas le parcours de soins ;\n•\t\u0007les dépassements d’honoraires pratiqués par \nles médecins, lorsque l’assuré ne respecte pas \nle parcours de soins.",
+      "page": 5
+    },
+    {
+      "quote": "Encadré. Un délai d’attente s’applique pendant les 3 premiers \nmois suivant la date d’effet du contrat ou suivant \nl’adjonction d’un bénéficiaire.\nPendant la durée du délai d’attente, la prise en \ncharge est limitée à 100 % de la base de rembour­\nsement de la Sécurité sociale sur les postes de \ngarantie suivants :\n•\tles honoraires chirurgicaux et médicaux ;\n•\tles honoraires paramédicaux ;\n•\tles analyses et examens de laboratoire ;\n•\tla radiologie.",
+      "page": 5
+    },
+    {
+      "quote": "Encadré. LIMITE DES GARANTIES CHAMBRE PARTICULIÈRE \nET CHAMBRE ACCOMPAGNANT\nLes prestations prévues au titre de la chambre \nparticulière et la chambre accompagnant en \nMédecine, Chirurgie, Obstétrique et Maternité \nsont illimitées.\nPour une hospitalisation en soins de suite, réa­\ndaptation et psychiatrie, le forfait prévu est versé \ndans la limite globale de 60 nuits par année civile \net par assuré.",
+      "page": 5
+    },
+    {
+      "quote": "Vous êtes couvert pour les soins effectués en France \n(départements et régions d’outre-mer inclus).\nVous êtes également couvert pour les hospitalisations \nhors de France sous réserve qu’elles soient prises en \ncharge par le régime d’Assurance maladie obligatoire \nfrançais et sous condition que l’assuré réside en France \nmétropolitaine ou dans un département et région \nd’outre-mer. La prise en charge s’effectue conformé­\nment au tableau des garanties et exclut tout autre \nremboursement de la part de la mutuelle.\nLes remboursements sont effectués en France et en \neuros.",
+      "page": 6
+    },
+    {
+      "quote": "Encadré. L’assuré ne peut pas bénéficier de remboursements \nsupérieurs aux frais qu’il a exposés.\nEn outre, et sauf exceptions inscrites dans le tableau \ndes garanties, les frais de santé ne donnant pas lieu \nà prise en charge au titre du Régime obligatoire de \nl’assuré n’ouvrent pas droit à un remboursement \nde la mutuelle.",
+      "page": 6
+    },
+    {
+      "quote": "Pendant la durée du délai d’attente, la chambre \nparticulière avec nuitée et en ambulatoire et la \nchambre d’accompagnant ne donnent pas lieu \naux garanties définies au contrat et n’entraînent \naucun paiement au titre du contrat.",
+      "page": 6
+    },
+    {
+      "quote": "Un délai d’attente s’applique dans les conditions décrites dans la note d’information détaillée.\nPendant les 3 premiers mois suivant la date de prise d’effet du contrat, les garanties sont limitées à 100 % de la \nbase de remboursement de la Sécurité sociale (Remboursement du ticket modérateur). Durant cette période, \nles dépassements d’honoraires, la chambre particulière avec nuitée, la chambre particulière ambulatoire et \nla chambre d’accompagnant ne sont pas remboursés.",
+      "page": 4
+    },
+    {
+      "quote": "Les remboursements exprimés en pourcentage le sont par rapport aux bases de remboursement de la \nSécurité sociale en incluant son remboursement. Ces garanties sont accordées sous réserve d’une intervention \ndu Régime obligatoire.",
+      "page": 4
+    },
+    {
+      "quote": "La première période d’assurance se termine au 31 \ndécembre. Le contrat est ensuite reconduit chaque \nannée de plein droit au 1erer janvier pour une durée \nd’un an, sauf résiliation dans les cas mentionnés \nà l’article “Résiliation de votre contrat” ci-après.",
+      "page": 7
+    },
+    {
+      "quote": "VOUS POUVEZ RÉSILIER VOTRE CONTRAT :\n•\t\u0007à l’échéance annuelle, moyennant un préavis de 2 mois \navant le 31 décembre de l’année en cours ;\n•\t\u0007à tout moment après l’expiration d’un délai d’un an \nà compter de la première souscription du contrat. La \nrésiliation prendra effet à la date précisée dans l’avis \nde résiliation et au plus tôt un mois après réception \nde la demande ;",
+      "page": 7
+    },
+    {
+      "quote": "À défaut de paiement d’une cotisation ou d’une fraction \nde cotisation, dans un délai de 10 jours suivant la date \nd’échéance, et indépendamment de notre droit de \npoursuivre l’exécution de l’engagement contractuel en \njustice, nous vous adressons, à votre dernier domicile \nconnu, une lettre recommandée de mise en demeure \nvous informant que les garanties du contrat d’assurance \nseront résiliées 40 jours après l’envoi de cette lettre, si la \ncotisation reste impayée.",
+      "page": 8
+    },
+    {
+      "quote": "Pour être recevable, toute demande de prestations \ndoit être présentée dans les 2 ans suivant la date de \nremboursement par le Régime obligatoire, ou la date \nde réception du ticket modérateur, ou la date de l’évé­\nnement à indemniser. Au-delà de ce délai, la prestation \nne sera pas versée.",
+      "page": 11
+    },
+    {
+      "quote": "Encadré. Toute réticence à une expertise médicale ou \ntoute fraude ou tentative de fraude caractérisée \nen vue de tirer un profit illégitime du contrat \nfont perdre tout droit à prestations pour la ou \nles garanties concernées.\nNous sommes alors en droit de réclamer le \nremboursement des prestations versées à tort.",
+      "page": 11
+    },
+    {
+      "quote": "Encadré. Ne donnent pas lieu à l’application des garanties \nd’assistance, les hospitalisations :\n•\t\u0007dans des centres de convalescence, de rééducation ou de cures thermale ainsi que dansdans des centres de convalescence, de rééducation ou de cures thermale ainsi que dans\ndans des centres de convalescence, de rééducation ou de cures thermale ainsi que dans\ndes établissements et services psychiatriques, \ngérontologiques et gériatriques ;",
+      "page": 22
+    },
+    {
+      "quote": "De même sont exclues les hospitalisations et \nimmobilisations à domicile résultant de :\n•\t\u0007l’usage de drogues ou de stupéfiants non \nordonnés médicalement ;\n•\t\u0007la consommation d’alcool ;\n•\t\u0007l’action volontaire du bénéficiaire : suicide, \ntentative de suicide ou mutilation volontaire.",
+      "page": 22
+    },
+    {
+      "quote": "Encadré. IMA Assurances ne sera pas tenue responsable \ndes manquements ou contretemps à l’exécution \nde ses obligations qui résulteraient de cas de force \nmajeure ou des événements suivants : pandémie, \nguerre civile ou étrangère, révolution, mouvement \npopulaire, émeute, grève, saisie ou contrainte par \nla force publique, interdiction officielle, piraterie, \nexplosion d’engins, effets nucléaires ou radioactifs, \nempêchements climatiques.",
+      "page": 22
+    },
+    {
+      "quote": "Les garanties d’assistance sont accor­\ndées en France (hors départements et \nrégions d’outre-mer) y compris Andorre \net Principauté de Monaco.",
+      "page": 22
+    },
+    {
+      "quote": "Le contrat Macif Hospitalisation, distribué par la Macif, est assuré par Macif Santé Prévoyance, mutuelle régie par le Livre II du Code de \nla mutualité et adhérente à la Mutualité Française. SIREN 779 558 501. Siège social : 1 rue Jacques Vandier - 79000 Niort.",
+      "page": 25
+    },
+    {
+      "quote": "“Toutes actions dérivant des opérations régies \npar le présent titre sont prescrites par deux ans à \ncompter de l’événement qui y donne naissance.",
+      "page": 9
+    },
+    {
+      "quote": "L’adhésion est possible sans limite d’âge. Cependant, à \npartir de 70 ans, vous et vos ayants droit devez justifier \nd’une couverture complémentaire précédente, sans \ninterruption de garanties au moment de la souscription. \nPour cela, vous devez nous remettre un certificat de \nradiation mentionnant la date de fin de votre précédente \ncouverture fixée à la veille de la date d’effet de l’adhésion.",
+      "page": 3
+    },
+    {
+      "quote": "L’adhérent et ses proches bénéficient de garanties d’assistance. Ces garanties sont conçues de façon à l’accompagner \ntout au long de la vie du contrat.",
+      "page": 12
+    }
+  ],
+  "gaps": [
+    "DÉFAUT DE MISE EN PAGE (colonnes inversées) - VÉRIFIÉ ET CORRIGÉ. Le document est composé sur deux colonnes et `page.get_text(\"text\")` restitue systématiquement la COLONNE DE DROITE AVANT LA COLONNE DE GAUCHE : mesuré sur 20 des 25 pages (une seule transition droite→gauche par page, aucune transition gauche→droite). Conséquence directe page 5 : les trois garanties « La chambre particulière ambulatoire », « Les honoraires chirurgicaux, médicaux, paramédicaux, radiologie, analyses et examens de laboratoire en cas d'hospitalisation à l'étranger » et « Les soins et prestations liés à une hospitalisation prise en charge au titre de l'Hospitalisation à Domicile (HAD) » apparaissent dans le texte plat JUSTE AVANT l'encadré « CE QUI EST EXCLU EN HOSPITALISATION », alors qu'elles sont la fin de la liste « SONT GARANTIS ». Arbitrage par abscisse et par police, confirmé sur rendu de la page : les garanties portent une puce carrée ■ Montserrat-ExtraBold à x0=310,4 (colonne droite) ou x0=41,1 (colonne gauche) avec le corps à x0=321,7 / 52,4 ; les exclusions portent une puce ronde • Dosis-ExtraBold à x0=320,3 avec le corps à x0=330,2. Elles sont bien COUVERTES : « Chambre particulière ambulatoire 15 € par jour » et « en cas d'hospitalisation à l'étranger 100 % » figurent au tableau des garanties page 4. Comptage fermé : 14 garanties ■ (11 en colonne gauche + 3 en colonne droite) contre 4 exclusions • dans l'encadré. Même défaut page 6 : l'encadré « Pendant la durée du délai d'attente, la chambre particulière avec nuitée et en ambulatoire et la chambre d'accompagnant ne donnent pas lieu aux garanties » suit dans le texte plat le titre « TERRITORIALITÉ » alors qu'il est la suite de l'encadré « DÉLAIS D'ATTENTE » de la page 5 (colonne gauche de la page 6) — rattaché ici au délai d'attente, pas à la territorialité.",
+    "Défaut de colonnes, second effet mesuré et corrigé, pages 19-20 : deux encadrés « Perturbations temporaires de l'activité de l'adhérent travailleur indépendant » portent des seuils de déclenchement DIFFÉRENTS et des plafonds différents, et le texte plat les intervertit. Colonne gauche p19 (hospitalisation imprévue de plus de 2 jours / programmée de plus à 4 jours / immobilisation supérieure à 5 jours / grossesse pathologique supérieure à 15 jours) : Aide aux déplacements = 3 trajets dans les 20 jours, 250 euros TTC ; Service de coursier = 3 portages dans les 20 jours. Colonne droite p19 (accident entraînant une hospitalisation de plus de 10 jours / immobilisation supérieure à 30 jours / pathologie lourde) : Aide aux déplacements = 12 trajets dans les 12 mois, 750 euros TTC ; Service de coursier = 12 portages dans les 12 mois, puis en colonne gauche de la p20 Transfert d'un collaborateur, Accompagnement budgétaire, Assistance administrative 24 heures sur 12 mois et Visite d'un ergothérapeute (lieu de travail). Rattachements rétablis par colonne dans cette extraction.",
+    "COUCHE DE TEXTE D'ACCESSIBILITÉ : le document embarque une couche de lecture d'écran qui paraphrase et ajoute du texte jamais imprimé. Marqueurs jamais imprimés : « Encadré. » (11 occurrences) et « Hors d'encadré. » (15 occurrences) délimitant les encadrés, et « Titre niveau 3 . » aux pages 19 et 20. Divergences imprimé / couche texte confirmées sur rendu : la page imprime « A/R », la couche écrit « aller-retour » ou le mot mutilé « al er-retour » ; la page imprime « extrascolaires », la couche « extra scolaires » ; la page imprime « ascendants », la couche « ascendant » ; la page imprime « 1 fois par jour », la couche « une fois par jour » ; la page imprime « SAS », « APE », « TSA », « HAD », « BRSS », « AEEH », « PCH », « AAH », « CFE », la couche insère un U+200A ou une espace entre les lettres (« S A S », « H A D », « B R S S ») ; la page imprime « (1) » et « (2) » en appel de note, la couche écrit « Note 1. » et « Note 2. » ; la page imprime « 1er », « 1re », « 3e » en exposant, la couche redouble la terminaison (« 1erer », « 1rere », « 3ee »). Plusieurs lignes sont en outre dupliquées ou triplées dans la couche texte alors qu'elles s'impriment une seule fois (pages 2, 5, 7, 8, 13, 14, 19, 20, 22). Conformément à la règle « le document imprimé prime sur sa couche texte », les champs structurés suivent le rendu ; les `key_quotes` suivent la couche texte (seule source vérifiable) et contiennent donc ces artefacts tels quels — ils ne doivent pas être corrigés.",
+    "Caractère de contrôle U+0007 : 249 occurrences réparties sur 20 pages. Vérification faite : il s'agit de puces typographiques réelles (chaque U+0007 précède immédiatement le texte d'un item de liste effectivement imprimé), et non du signe d'un bloc vectorisé. Aucune section du document n'est convertie en courbes : le volume de texte par page est cohérent partout (1 085 à 5 184 caractères, hors page de couverture qui n'en porte que 52 : titre « Macif Hospitalisation » et « NOTE D'INFORMATION DÉTAILLÉE »).",
+    "Symbole € : présent et extractible (28 occurrences dans la couche texte). Les montants du tableau des garanties conservent leur unité. Tableau des garanties page 4 vérifié sur rendu : il compte exactement 2 colonnes (intitulé de garantie / PLAFONDS DE REMBOURSEMENT) et 13 lignes, aucune colonne n'a été perdue à l'extraction. Le caractère « , » qui précède chaque montant dans la couche texte (« , 200 % ») est le glyphe de conduite de points (leader) de la mise en page, pas un marqueur de formule : ce contrat ne comporte ni formules ni options.",
+    "Pas de tableau de formules ni d'options : le document décrit un jeu unique de garanties, sans colonnes de formules et sans garantie facultative. `is_optional` est donc mis à false partout, ce que le document soutient (« SONT GARANTIS : » page 5, « L'adhérent et ses proches bénéficient de garanties d'assistance » page 12) ; aucune mention « en option » n'apparaît dans le document.",
+    "Retour chariot isolé : la page 20 contient un unique caractère U+000D (dans « rendant impossible l'exercice \\r\\nde l'activité professionnelle »). Le texte injecté dans le prompt l'a normalisé en \\n. Aucune citation ne traverse cet endroit.",
+    "Date d'édition : le document ne porte pas de mention « édition MM/AAAA ». La valeur retenue « 01/26 » est le segment final de la référence imprimée au dos, « Référence du document : U022 - UNI/PREI/MH/05 - 01/26 » (page 25), vérifiée sur rendu à 10× ; aucun doublon de pied de page n'a été trouvé dans la couche texte (une seule ligne de référence). La mention « Garanties en vigueur au 1er janvier 2026 » de la page 2 est une date d'EFFET et non une date d'édition : elle est enregistrée telle quelle dans `special_conditions`, pas dans `edition_date`.",
+    "Référence : la couche texte écrit « U022 - UNI/P R E I/MH/05 - 01/26 » avec des espaces fines U+200A à l'intérieur de l'acronyme. La forme retenue dans `reference` est la forme imprimée, « U022 - UNI/PREI/MH/05 - 01/26 », lue sur un rendu à 10× de la bande concernée.",
+    "Assureurs et intervenants nommés par le document : le risque santé est porté par Macif Santé Prévoyance, mutuelle du Livre II du Code de la mutualité, SIREN 779 558 501 (pages 2 et 25). Le contrat est souscrit et distribué par la Macif (MACIF - Mutuelle Assurance des Commerçants et Industriels de France et des Cadres et Salariés de l'Industrie et du Commerce, société d'assurance mutuelle à cotisations variables, page 25 ; aucun SIREN imprimé pour la Macif). Les garanties d'assistance sont assurées par IMA Assurances, société anonyme, RCS Niort 481 511 632 (pages 2, 22 et 25) — le document ne mentionne ni IMA GIE ni IMA Technologies. Carte Blanche Partenaires (SAS, RCS Paris 379 301 518) est nommée au dos comme le réseau de soins partenaire ; l'organisme de contrôle est l'ACPR (page 2).",
+    "`target_audience` laissé à null : le document ne nomme aucune catégorie d'audience. Son propre vocabulaire (sociétaires, conjoint, ascendants, descendants, mais aussi « adhérent travailleur indépendant » et « conjoint collaborateur » aux pages 19-20) est reporté verbatim dans `target_audience_note`.",
+    "`deductibles` laissé à null : le document ne prévoit aucune franchise contractuelle à la charge de l'assuré. La « franchise médicale annuelle » citée page 5 est celle de l'article L.160-13 III du Code de la sécurité sociale, enregistrée comme exclusion et non comme franchise du contrat.",
+    "Le texte du prompt n'a pas été tronqué : les 25 pages du PDF sont présentes. L'extraction a néanmoins été refaite localement avec le même appel `page.get_text(\"text\")` (fichier data/fr/pdfs/macif/sante/macif-hospitalisation-2026-01-f751598a.pdf) pour disposer de la mise en page ; les 25 pages sont identiques au texte du prompt, à l'exception du seul U+000D de la page 20 signalé ci-dessus.",
+    "Numéros de page : toutes les valeurs `page` citent les marqueurs [[page N]] du prompt, c'est-à-dire les pages PDF. Le folio imprimé en pied de page vaut PDF − 2 sur ce document (la page PDF 4 porte le folio « 03 », la page PDF 25 n'en porte aucun) ; l'écart a été vérifié par ancrage de citation et non par application d'un décalage constant.",
+    "Coquilles et formulations du document conservées telles quelles, sans correction : « Vos ascendant vivant sous votre toit » (page 3), « immobilisation à domicile d'au moins une journée. ; » (page 12), « d'hospitalisation programmée de plus à 4 jours » (page 19), « dans la limite de 3 portage » et « 12 portage » (page 19), « cures thermale » (page 22), « descendants ou ascendant . » (page 2), « valable à tout moment dès la souscription. » sans parenthèse fermante (page 19).",
+    "Contradiction interne relevée, les deux lectures étant conservées : la territorialité des garanties SANTÉ couvre la France y compris les départements et régions d'outre-mer, ainsi que les hospitalisations hors de France sous conditions (page 6), tandis que les garanties d'ASSISTANCE sont accordées « en France (hors départements et régions d'outre-mer) y compris Andorre et Principauté de Monaco » (page 22). Les deux périmètres sont reportés séparément dans `territorial_scope`.",
+    "Le montant du forfait « chambre particulière » et « chambre accompagnant » en soins de suite, réadaptation et psychiatrie est identique à celui en MCO (50 € et 20 € par nuit) mais porte l'appel de note (2) qui plafonne globalement les deux garanties à 60 nuits par année civile et par assuré ; ce plafond est reporté dans les `conditions` et `sub_limits` des deux garanties.",
+    "Aucun prix ni tarif n'est imprimé dans ce document : seules les mécaniques de calcul de la cotisation sont décrites (page 8)."
+  ]
+}

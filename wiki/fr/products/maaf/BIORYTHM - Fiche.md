@@ -224,6 +224,10 @@ Chirurgie réfractive. Tarif : Prix moyen national. Base de remboursement de la 
 - Les pages sont en rotation 90° dans le PDF (mediabox portrait, affichage paysage). Une détection naïve de contenu hors-page signale de nombreux mots ; vérification faite, il s'agit d'un artefact du repère non pivoté et il n'y a aucun contenu réellement hors canevas.
 - Le nom de produit retenu est « BIORYTHM », tel qu'imprimé en grand sur la page 1 sous le titre « Exemples de remboursements ⁽¹⁾ ». L'intitulé du manifeste (« Exemples de remboursements — BIORYTHM (contrat d'assurance santé responsable) ») décrit le document, pas le produit.
 
+## Documents liés
+
+- [Contrat Santé BIORYTHM](Contrat%20Sant%C3%A9%20BIORYTHM.md) - Conditions générales, éd. 01/26
+
 ## Source & fidélité
 
 - Source : [https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Sante/Exemples_de_remboursements/MAAF_exemples_remboursement_BIORYTHM.pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Sante/Exemples_de_remboursements/MAAF_exemples_remboursement_BIORYTHM.pdf) - téléchargé le 2026-08-01 - 4 pages

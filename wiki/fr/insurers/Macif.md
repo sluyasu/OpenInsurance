@@ -5,7 +5,7 @@ country: fr
 insurer_slug: macif
 name: Macif
 website: https://www.macif.fr
-products_count: 79
+products_count: 82
 branches_covered:
 - animaux
 - assurance-vie
@@ -40,7 +40,7 @@ generated: true
 
 ## Résumé
 
-**Macif** - [https://www.macif.fr](https://www.macif.fr). 79 document(s) across 18 branch(es).
+**Macif** - [https://www.macif.fr](https://www.macif.fr). 82 document(s) across 18 branch(es).
 
 ## Produits par branche
 
@@ -142,10 +142,12 @@ generated: true
 - [Garantie Santé](../products/macif/Garantie%20Sant%C3%A9.md) - Conditions générales (2023-01) · réf. UNI/PREI/GS/05 01/23
 - [Garantie Santé Territoriaux - Fiche](../products/macif/Garantie%20Sant%C3%A9%20Territoriaux%20-%20Fiche.md) - Fiche produit (10.01.2022)
 - [MACIF HOSPITALISATION](../products/macif/MACIF%20HOSPITALISATION.md) - Conditions générales (01/24) · réf. U??? - UNI/PREI/MH/05 - 01/24
+- [Macif Hospitalisation](../products/macif/Macif%20Hospitalisation.md) - Conditions générales (01/26) · réf. U022 - UNI/PREI/MH/05 - 01/26
 - [Macif Mutuelle Entreprises](../products/macif/Macif%20Mutuelle%20Entreprises.md) - Conditions générales (2025-01) · réf. CG M M E - 01/25
 - [Macif Mutuelle Entreprises - Fiche](../products/macif/Macif%20Mutuelle%20Entreprises%20-%20Fiche.md) - Fiche produit (01/26) · réf. TG MME - 01/26
 - [Macif Mutuelle Entreprises](../products/macif/Macif%20Mutuelle%20Entreprises%20%282%29.md) - Conditions générales · réf. NID M M E - 01/26
 - [Macif Mutuelle Entreprises (contrat collectif à adhésion obligatoire) - IPID](../products/macif/Macif%20Mutuelle%20Entreprises%20%28contrat%20collectif%20%C3%A0%20adh%C3%A9sion%20obligatoire%29%20-%20IPID.md) - IPID / Fiche d'information (01/25) · réf. DIPA MME - 01/25 (page 1) ; TG MME - 01/25 pour le tableau de garanties (page 5)
+- [Macif Mutuelle Entreprises - Formule Confort - Régime Général - Fiche](../products/macif/Macif%20Mutuelle%20Entreprises%20-%20Formule%20Confort%20-%20R%C3%A9gime%20G%C3%A9n%C3%A9ral%20-%20Fiche.md) - Fiche produit (2026-01)
 - [Macif Mutuelle Entreprises - Formule Etendue - Régime Général - Fiche](../products/macif/Macif%20Mutuelle%20Entreprises%20-%20Formule%20Etendue%20-%20R%C3%A9gime%20G%C3%A9n%C3%A9ral%20-%20Fiche.md) - Fiche produit (2026-01)
 - [Macif Mutuelle Santé](../products/macif/Macif%20Mutuelle%20Sant%C3%A9.md) - Conditions générales (01/24) · réf. UNI/PREI/MMS/05 01/24
 - [Macif Mutuelle Santé - Macif Hospitalisation - Fiche](../products/macif/Macif%20Mutuelle%20Sant%C3%A9%20-%20Macif%20Hospitalisation%20-%20Fiche.md) - Fiche produit (01/06/2026)
@@ -154,6 +156,7 @@ generated: true
 - [contrat GARANTIE SANTE TERRITORIAUX - IPID](../products/macif/contrat%20GARANTIE%20SANTE%20TERRITORIAUX%20-%20IPID.md) - IPID / Fiche d'information (01/2022) · réf. DIPA GST 01/2022
 - [contrat GARANTIE SANTÉ - IPID](../products/macif/contrat%20GARANTIE%20SANT%C3%89%20-%20IPID.md) - IPID / Fiche d'information (01/2022) · réf. DIPA GS 01/2022
 - [contrat GARANTIE SANTÉ - IPID](../products/macif/contrat%20GARANTIE%20SANT%C3%89%20-%20IPID%20%282%29.md) - IPID / Fiche d'information (09/2019) · réf. DIPA GS 09/2019
+- [contrat MACIF HOSPITALISATION - IPID](../products/macif/contrat%20MACIF%20HOSPITALISATION%20-%20IPID.md) - IPID / Fiche d'information (10/22) · réf. DIPA MACIF HOSPITALISATION - 10/22
 
 ### [Voyage et assistance](../branches/Voyage%20et%20assistance.md)
 - [Assistance médicale « Carte Visa Classic » (Assistance médicale - Contrat Etranger)](../products/macif/Assistance%20m%C3%A9dicale%20%C2%AB%20Carte%20Visa%20Classic%20%C2%BB%20%28Assistance%20m%C3%A9dicale%20-%20Contrat%20Etranger%29.md) - Conditions générales (01/01/2021) · réf. Notice d'Information n° 922091 - « Notice d'Information valant Convention d'assistance - Carte Visa Classic n°922091 - 01/01/2021 » (en-tête courant de chaque page)

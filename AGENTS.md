@@ -27,7 +27,7 @@ navigate it without guessing. Do not edit by hand.
 |---|---|---|---|---|---|
 | be (Belgium) | 17 | 269 | 24 | 3 | 11 |
 | ch (Switzerland) | 0 | 3 | 1 | 0 | 5 |
-| fr (France) | 24 | 581 | 10 | 1 | 5 |
+| fr (France) | 24 | 588 | 10 | 1 | 5 |
 | lu (Luxembourg) | 0 | 31 | 1 | 0 | 5 |
 
 Machine index per country: `data/<cc>/index.json`. Structured product data: `data/<cc>/extracted/`. Schema: `schema/`.
@@ -603,6 +603,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | multirisque-professionnelle | maaf | Entreprises de travaux publics - Intercalaire | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Intercalaire_Travaux_publics_11049.pdf) |
 | fr | multirisque-professionnelle | maaf | MULTIRISQUE PROFESSIONNELLE | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/CG/MAAF_Conditions_generales_Multirisque_pro_11031.pdf) |
 | fr | multirisque-professionnelle | maaf | MULTISERVICE À LA PERSONNE — INTERCALAIRE | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Intercalaire_Multiservice_personne_11059.pdf) |
+| fr | multirisque-professionnelle | maaf | Multirisque Associations | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/CG/MAAF_Conditions_generales_Multirisque_associations_11034.pdf) |
 | fr | multirisque-professionnelle | maaf | Multirisque Non Exploitant - IPID | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/TECH/Ipids/PRO10010.PDF) |
 | fr | multirisque-professionnelle | maaf | Multirisque des Professionnels du Bâtiment et des Travaux Publics | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/CG/MAAF_Conditions_generales_Multirisque_pro_btp_11036.pdf) |
 | fr | multirisque-professionnelle | maaf | PROFESSIONS DE LA RESTAURATION ET DE L'HÔTELLERIE — INTERCALAIRE | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Professionnels/Autres_documents/MAAF_Intercalaire_Restauration_hotellerie_11045.pdf) |
@@ -698,6 +699,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | prevoyance | maif | Rassurcap Solutions | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/notice-rassurcap-solutions.pdf) |
 | fr | prevoyance | maif | Rassurcap Solutions - IPID | 2026-07-30 | [pdf](https://www.maif.fr/files/live/sites/maif-fr/files/pdf/documentation-contractuelle/famille-vie-quotidienne/document-information-deces-rassurcap-solutions.pdf) |
 | fr | prevoyance | matmut | Complice Prévoyance Matmut - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/IPID/ipid-complice-prevoyance-matmut.pdf) |
+| fr | prevoyance | matmut | Ma Prévoyance Pro (Travailleurs non-salariés (TNS)) - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/tableau-garanties-ma-prevoyance-pro.pdf) |
 | fr | prevoyance | smacl | ALÉASSUR Risques statutaires CNRACL (ALÉASSUR CNRACL) | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-aleassur-risques-statutaires-cnracl1_0.pdf) |
 | fr | prevoyance | smacl | ALÉASSUR Risques statutaires IRCANTEC (ALÉASSUR IRCANTEC) | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/cs-aleassur-ircantec-risques-statutaires.pdf) |
 | fr | prevoyance | smacl | Aléassur - Risques statutaires CNRACL - IPID | 2026-08-01 | [pdf](https://www.smacl.fr/files/documents/document-information-risques-statutaires-collectivites-cnracl.pdf) |
@@ -804,6 +806,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | sante | groupama | TMGF Synergie santé Salariés (Version Régime général - En complément) - Doc | 2026-07-30 | [pdf](https://assets.ctfassets.net/7awcp71bzphk/37C1b2uoBbhZLxH9Ye3Rnl/40a0d7d33c18c132a3357aadfd6d8473/tableau_de_garanties_synergie_sant___salari___r__gime_g__n__ral.pdf) |
 | fr | sante | maaf | Assurance SANTÉ PROFIL SALARIÉS | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Sante/CG/MAAF_Conditions_generales_Sante_MAAF_Pro_Salaries_11015.pdf) |
 | fr | sante | maaf | BIORYTHM - Fiche | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Sante/Exemples_de_remboursements/MAAF_exemples_remboursement_BIORYTHM.pdf) |
+| fr | sante | maaf | Contrat Santé BIORYTHM | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Sante/CG/MAAF_Conditions_generales_Assurance_Biorythm_2337.pdf) |
 | fr | sante | maaf | Contrat Santé Vivazen | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Sante/CG/MAAF_conditions_generales_contrat_complementaire_sante_vivazen_2542.pdf) |
 | fr | sante | maaf | Contrat Santé Vivazen (2) | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Sante/CG/MAAF_conditions_generales_contrat_complementaire_sante_vivazen_pro_2541.pdf) |
 | fr | sante | maaf | Règlement Mutualiste MAAF Santé | 2026-08-01 | [pdf](https://www.maaf.fr/fr/files/live/sites/maaf/files/DOCUMENTS/Sante/CG/MAAF_Reglement_mutualiste_MAAFSANTE_18638.pdf) |
@@ -812,11 +815,12 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | sante | macif | Complémentaire santé de la Branche de l'Aide, de l'Accompagnement des Soins et des Services à Domicile (Régime Général)  | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/TG_BAD_Sante.pdf) |
 | fr | sante | macif | Garantie Santé | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/NID/NID-Garantie-Sante.pdf) |
 | fr | sante | macif | Garantie Santé Territoriaux - Fiche | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/GST-fiche-synthese.pdf) |
-| fr | sante | macif | MACIF HOSPITALISATION | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/NID/NID_MH_COMPLET_20240101.pdf) |
+| fr | sante | macif | MACIF HOSPITALISATION | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/NID/NID_assurance_hospitalisation.pdf) |
 | fr | sante | macif | Macif Mutuelle Entreprises | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/conditions-generales-macif-mutuelle-entreprises.pdf) |
 | fr | sante | macif | Macif Mutuelle Entreprises (2) | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/nid-macif-mutuelle-entreprises.pdf) |
 | fr | sante | macif | Macif Mutuelle Entreprises (contrat collectif à adhésion obligatoire) - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/dipa-macif-mutuelle-entreprises.pdf) |
 | fr | sante | macif | Macif Mutuelle Entreprises - Fiche | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/tg-macif-mutuelle-entreprises.pdf) |
+| fr | sante | macif | Macif Mutuelle Entreprises - Formule Confort - Régime Général - Fiche | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/exemples-de-remboursements-mme-4-formule-confort.pdf) |
 | fr | sante | macif | Macif Mutuelle Entreprises - Formule Etendue - Régime Général - Fiche | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_professionnel_entreprise/exemples-de-remboursements-mme-5-formule-etendue.pdf) |
 | fr | sante | macif | Macif Mutuelle Santé | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/NID/NID_MMS_COMPLET_20240101.pdf) |
 | fr | sante | macif | Macif Mutuelle Santé - Macif Hospitalisation - Fiche | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/conditions_generales_prevoyance/ExemplesRemboursement_MMS_ALS.pdf) |
@@ -825,6 +829,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | sante | macif | contrat GARANTIE SANTE TERRITORIAUX - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_GST.pdf) |
 | fr | sante | macif | contrat GARANTIE SANTÉ - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_garantie_sante.pdf) |
 | fr | sante | macif | contrat GARANTIE SANTÉ - IPID (2) | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_garantie_sante_20190820.pdf) |
+| fr | sante | macif | contrat MACIF HOSPITALISATION - IPID | 2026-08-01 | [pdf](https://www.macif.fr/files/live/sites/maciffr/files/dipa/DIPA_MH_20220701.pdf) |
 | fr | sante | matmut | Bien dans mon rôle d'aidant - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/mutuelle/pdf/notice-option-bien-dans-mon-role-aidant.pdf) |
 | fr | sante | matmut | Bien à l'hôpital - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/mutuelle/pdf/notice-option-bien-a-hopital.pdf) |
 | fr | sante | matmut | CONTRAT COLLECTIF FRAIS DE SANTÉ - RÉGIME OBLIGATOIRE | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-1966-conditions-generales.pdf) |
@@ -833,6 +838,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | sante | matmut | Notice d'information — Régime de frais de santé, contrat collectif, Accord interbranche du 2 octobre 2019 (CCN du 15 mar | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-1966-notice-information-base-option-2.pdf) |
 | fr | sante | matmut | Ociane Santé Pro - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/garanties-pro-ociane-groupe-matmut.pdf) |
 | fr | sante | matmut | Régime complémentaire santé – Ensemble du personnel (CCN du 31 octobre 1951, IDCC N°29) | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-1951-notice-information.pdf) |
+| fr | sante | matmut | Régime conventionnel Frais de santé des entreprises relevant du champ d'application de la Convention Collective National | 2026-07-30 | [pdf](https://www.matmut.fr/mutuelle-sante-ociane/pdf/notice-information-CCN-alisfa.pdf) |
 | fr | sante | matmut | Régime de frais de santé – Contrat collectif (Accord interbranche CCN 66 - CHRS) (Base + option 1 obligatoire) | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-1966-notice-information-base-option-1.pdf) |
 | fr | sante | matmut | Régime de frais de santé – Contrat collectif (Accord interbranche CCN 66 - CHRS) (Base obligatoire) | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-1966-notice-information-base.pdf) |
 | fr | sante | matmut | Régime frais de santé - CCN BTP - Vos garanties 2026 - Fiche | 2026-07-30 | [pdf](https://www.matmut.fr/pro/pdf/CCN-BTP-garanties-sante.pdf) |
@@ -867,6 +873,7 @@ Machine index per country: `data/<cc>/index.json`. Structured product data: `dat
 | fr | sante | matmut | Santé vous bien ! - Fiche (3) | 2026-07-30 | [pdf](https://www.matmut.fr/mutuelle/pdf/fiche-produit-jeune-Sante-vous-bien.pdf) |
 | fr | sante | matmut | Santé vous bien ! - Fiche (4) | 2026-07-30 | [pdf](https://www.matmut.fr/mutuelle/pdf/fiche-produit-moins-chere-Sante-vous-bien.pdf) |
 | fr | sante | matmut | Santé vous bien ! - Fiche (5) | 2026-07-30 | [pdf](https://www.matmut.fr/mutuelle/pdf/fiche-produit-senior-Sante-vous-bien.pdf) |
+| fr | sante | matmut | Santé vous bien avec la Mutuelle Ociane Matmut — Niveaux responsables - IPID | 2026-07-30 | [pdf](https://www.matmut.fr/mutuelle/pdf/IPID-Sante-vous-bien.pdf) |
 | fr | sante | matmut | Statuts d'Ociane et Règlement mutualiste « individuels » — Complémentaire maladie accidents | 2026-07-30 | [pdf](https://www.matmut.fr/services-en-ligne/doc/CG/Statuts-reglement-indiv.pdf) |
 | fr | sante | thelem | Assurance Complémentaire Santé – gamme non responsable et solidaire - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_710-Evolution-NResp-janvier-2024.pdf) |
 | fr | sante | thelem | Assurance Complémentaire Santé – gamme responsable et solidaire - IPID | 2026-07-30 | [pdf](https://www.thelem-assurances.fr/wp-content/uploads/2025/12/IPID_TA_710-Evolution-Resp-janvier-2026.pdf) |

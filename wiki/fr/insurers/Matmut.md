@@ -5,7 +5,7 @@ country: fr
 insurer_slug: matmut
 name: Matmut
 website: https://www.matmut.fr
-products_count: 154
+products_count: 157
 branches_covered:
 - animaux
 - assurance-vie
@@ -42,7 +42,7 @@ generated: true
 
 ## Résumé
 
-**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 154 document(s) across 20 branch(es).
+**Matmut** - [https://www.matmut.fr](https://www.matmut.fr). 157 document(s) across 20 branch(es).
 
 ## Produits par branche
 
@@ -177,6 +177,7 @@ generated: true
 
 ### [Prévoyance](../branches/Pr%C3%A9voyance.md)
 - [Complice Prévoyance Matmut - IPID](../products/matmut/Complice%20Pr%C3%A9voyance%20Matmut%20-%20IPID.md) - IPID / Fiche d'information (10/25) · réf. IPID.CPM
+- [Ma Prévoyance Pro (Travailleurs non-salariés (TNS)) - Fiche](../products/matmut/Ma%20Pr%C3%A9voyance%20Pro%20%28Travailleurs%20non-salari%C3%A9s%20%28TNS%29%29%20-%20Fiche.md) - Fiche produit (01/25) · réf. MV.PREV.PRO.TAB.TNS – 01/25
 
 ### [Protection juridique](../branches/Protection%20juridique.md)
 - [Assistance Juridique Vie Privée et Protection Juridique Santé](../products/matmut/Assistance%20Juridique%20Vie%20Priv%C3%A9e%20et%20Protection%20Juridique%20Sant%C3%A9.md) - Conditions générales (10/25) · réf. MOM.NOT.PJ - 10/25
@@ -196,6 +197,7 @@ generated: true
 - [Notice d'information — Régime de frais de santé, contrat collectif, Accord interbranche du 2 octobre 2019 (CCN du 15 mar](../products/matmut/Notice%20d%27information%20%E2%80%94%20R%C3%A9gime%20de%20frais%20de%20sant%C3%A9%2C%20contrat%20collectif%2C%20Accord%20interbranche%20du%202%20octobre%202019%20%28CCN%20du%2015%20mar.md) - Conditions générales (ÉDITION 2023 (couverture) ; « janvier 2023 » en pied de page ; « Notice d'information Base obligatoire option 2 - CCN 66-CHRS - Janvier 2023 » en 4e de couverture) · réf. Accord interbranche CCN 66 - CHRS • Notice d'information base obligatoire et option 2 - janvier 2023
 - [Ociane Santé Pro - Fiche](../products/matmut/Ociane%20Sant%C3%A9%20Pro%20-%20Fiche.md) - Fiche produit (10/25) · réf. SANTE PRO-0925
 - [Régime complémentaire santé – Ensemble du personnel (CCN du 31 octobre 1951, IDCC N°29)](../products/matmut/R%C3%A9gime%20compl%C3%A9mentaire%20sant%C3%A9%20%E2%80%93%20Ensemble%20du%20personnel%20%28CCN%20du%2031%20octobre%201951%2C%20IDCC%20N%C2%B029%29.md) - Conditions générales (Juillet 2024) · réf. Notice d'information – Régime complémentaire santé – Ensemble du personnel – CCN du 31 octobre 1951 (IDCC N°29)
+- [Régime conventionnel Frais de santé des entreprises relevant du champ d'application de la Convention Collective National](../products/matmut/R%C3%A9gime%20conventionnel%20Frais%20de%20sant%C3%A9%20des%20entreprises%20relevant%20du%20champ%20d%27application%20de%20la%20Convention%20Collective%20National.md) - Conditions générales (12-2024) · réf. NI-FM-ALISFA-12-2024 (page de couverture) ; SP24/FCR571 (pied de chaque page)
 - [Régime de frais de santé – Contrat collectif (Accord interbranche CCN 66 - CHRS) (Base obligatoire)](../products/matmut/R%C3%A9gime%20de%20frais%20de%20sant%C3%A9%20%E2%80%93%20Contrat%20collectif%20%28Accord%20interbranche%20CCN%2066%20-%20CHRS%29%20%28Base%20obligatoire%29.md) - Conditions générales (janvier 2023) · réf. Accord interbranche CCN 66 - CHRS • Notice d'information base obligatoire - janvier 2023
 - [Régime de frais de santé – Contrat collectif (Accord interbranche CCN 66 - CHRS) (Base + option 1 obligatoire)](../products/matmut/R%C3%A9gime%20de%20frais%20de%20sant%C3%A9%20%E2%80%93%20Contrat%20collectif%20%28Accord%20interbranche%20CCN%2066%20-%20CHRS%29%20%28Base%20%2B%20option%201%20obligatoire%29.md) - Conditions générales (janvier 2023) · réf. Accord interbranche CCN 66 - CHRS • Notice d'information base obligatoire et option 1 - janvier 2023
 - [Régime frais de santé - CCN BTP - Vos garanties 2026 - Fiche](../products/matmut/R%C3%A9gime%20frais%20de%20sant%C3%A9%20-%20CCN%20BTP%20-%20Vos%20garanties%202026%20-%20Fiche.md) - Fiche produit · réf. CCN BTP-0925
@@ -230,6 +232,7 @@ generated: true
 - [Santé vous bien ! - Fiche](../products/matmut/Sant%C3%A9%20vous%20bien%20%21%20-%20Fiche%20%283%29.md) - Fiche produit (2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)) · réf. 20260101_20261231_IND2022
 - [Santé vous bien ! - Fiche](../products/matmut/Sant%C3%A9%20vous%20bien%20%21%20-%20Fiche%20%285%29.md) - Fiche produit (2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)) · réf. 20260101_20261231_IND2022
 - [Santé vous bien ! - Fiche](../products/matmut/Sant%C3%A9%20vous%20bien%20%21%20-%20Fiche.md) - Fiche produit (2026 (« Mes garanties pour l'année 2026 » ; code 20260101_20261231_IND2022)) · réf. 20260101_20261231_IND2022
+- [Santé vous bien avec la Mutuelle Ociane Matmut — Niveaux responsables - IPID](../products/matmut/Sant%C3%A9%20vous%20bien%20avec%20la%20Mutuelle%20Ociane%20Matmut%20%E2%80%94%20Niveaux%20responsables%20-%20IPID.md) - IPID / Fiche d'information (0925) · réf. IPID.MOM.SVB– 0925
 - [Statuts d'Ociane et Règlement mutualiste « individuels » — Complémentaire maladie accidents](../products/matmut/Statuts%20d%27Ociane%20et%20R%C3%A8glement%20mutualiste%20%C2%AB%20individuels%20%C2%BB%20%E2%80%94%20Compl%C3%A9mentaire%20maladie%20accidents.md) - Conditions générales (12/24 (mentions de pied de page « STATUTS.MUT.OCIANE - 12/24 » et « RGMT. INDIV. OCIANE - 12/24 »). Statuts approuvés par l'assemblée générale du 19 octobre 2002, modifications approuvées jusqu'aux assemblées générales du 12 juin et du 5 décembre 2024. Règlement mutualiste « individuels » approuvé par l'assemblée générale du 19 juin 2020 et modifié par le conseil d'administration du 15 septembre 2020, du 11 mai 2021, du 17 septembre 2021, du 9 mai 2022, du 12 mai 2023 et du 21 mai 2024 sur délégation de l'assemblée générale.) · réf. STATUTS.MUT.OCIANE - 12/24 (statuts, p. 19) ; RGMT. INDIV. OCIANE - 12/24 (règlement mutualiste, p. 33)
 
 ### [Scolaire et extrascolaire](../branches/Scolaire%20et%20extrascolaire.md)
